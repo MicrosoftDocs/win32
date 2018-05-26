@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers a running application for Windows Image Acquisition (WIA) 2.0 event notification.'
-ms.assetid: '978dcd41-d63b-421d-b7e1-8e9368b36180'
-title: 'IWiaDevMgr2::RegisterEventCallbackInterface method'
+---
+Description: Registers a running application for Windows Image Acquisition (WIA) 2.0 event notification.
+ms.assetid: 978dcd41-d63b-421d-b7e1-8e9368b36180
+title: IWiaDevMgr2RegisterEventCallbackInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaDevMgr2::RegisterEventCallbackInterface method
@@ -57,9 +62,9 @@ Specifies a pointer to the event identifier that the application is registering 
 *pIWiaEventCallback* \[in\]
 </dt> <dd>
 
-Type: **[**IWiaEventCallback**](-wia-iwiaeventcallback.md)\***
+Type: **[**IWiaEventCallback**](/windows/win32/wia_xp/nn-wia_xp-iwiaeventcallback?branch=master)\***
 
-Specifies a pointer to the [**IWiaEventCallback**](-wia-iwiaeventcallback.md) interface that the WIA 2.0 uses to send event notification.
+Specifies a pointer to the [**IWiaEventCallback**](/windows/win32/wia_xp/nn-wia_xp-iwiaeventcallback?branch=master) interface that the WIA 2.0 uses to send event notification.
 
 </dd> <dt>
 
@@ -91,7 +96,7 @@ Returns the standard COM error codes or the following.
 ## Remarks
 
 > \[!Warning\]  
-> Using the [**IWiaDevMgr::RegisterEventCallbackInterface**](-wia-iwiadevmgr-registereventcallbackinterface.md), **IWiaDevMgr2::RegisterEventCallbackInterface**, and [**DeviceManager.RegisterEvent**](wiaaut._wiaaut_IDeviceManager_RegisterEvent) methods from the same process after the Still Image Service is restarted may cause an access violation, if the functions were used before the service was stopped.
+> Using the [**IWiaDevMgr::RegisterEventCallbackInterface**](/windows/win32/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface?branch=master), **IWiaDevMgr2::RegisterEventCallbackInterface**, and [**DeviceManager.RegisterEvent**](wiaaut._wiaaut_IDeviceManager_RegisterEvent) methods from the same process after the Still Image Service is restarted may cause an access violation, if the functions were used before the service was stopped.
 
  
 

@@ -4,12 +4,15 @@ description: The iSCSI Target Server provider supports a Windows Management Inst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4e741cc-64c0-43e9-bca7-ee66037e3881'
-ms.prod: 'windows-server-dev'
+ms.assetid: a4e741cc-64c0-43e9-bca7-ee66037e3881
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # iSCSI Target Server Provider

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'AFDA244D-D692-44C1-8BA3-5E1F013558D6'
+---
+Description: .
+ms.assetid: AFDA244D-D692-44C1-8BA3-5E1F013558D6
 title: ProvidorFindFirstPrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProvidorFindFirstPrinterChangeNotification function

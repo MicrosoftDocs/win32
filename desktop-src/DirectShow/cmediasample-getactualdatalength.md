@@ -1,12 +1,17 @@
 ---
-Description: 'The GetActualDataLength method retrieves the length of the valid data in the buffer. This method implements the IMediaSample::GetActualDataLength method.'
-ms.assetid: 'bdb8c2b9-7be4-494b-bb96-34a9936d4a2f'
-title: 'CMediaSample.GetActualDataLength method'
+Description: The GetActualDataLength method retrieves the length of the valid data in the buffer. This method implements the IMediaSampleGetActualDataLength method.
+ms.assetid: bdb8c2b9-7be4-494b-bb96-34a9936d4a2f
+title: CMediaSample.GetActualDataLength method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.GetActualDataLength method
 
-The `GetActualDataLength` method retrieves the length of the valid data in the buffer. This method implements the [**IMediaSample::GetActualDataLength**](imediasample-getactualdatalength.md) method.
+The `GetActualDataLength` method retrieves the length of the valid data in the buffer. This method implements the [**IMediaSample::GetActualDataLength**](/windows/win32/Dshow/nf-strmif-imediasample-getactualdatalength?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ The [**CMediaSample::m\_lActual**](cmediasample-m-lactual.md) member variable sp
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

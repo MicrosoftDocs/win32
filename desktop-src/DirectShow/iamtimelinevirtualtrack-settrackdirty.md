@@ -1,7 +1,12 @@
 ---
-Description: 'Not supported.'
-ms.assetid: '3fd88af0-2565-4498-a239-5d181af6eb3b'
-title: 'IAMTimelineVirtualTrack::SetTrackDirty method'
+Description: Not supported.
+ms.assetid: 3fd88af0-2565-4498-a239-5d181af6eb3b
+title: IAMTimelineVirtualTrackSetTrackDirty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineVirtualTrack::SetTrackDirty method

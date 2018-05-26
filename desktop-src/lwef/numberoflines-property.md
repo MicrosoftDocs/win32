@@ -1,7 +1,12 @@
 ---
 title: NumberOfLines Property
 description: NumberOfLines Property
-ms.assetid: 'fd274518-9064-419a-846f-39436c3b0bab'
+ms.assetid: fd274518-9064-419a-846f-39436c3b0bab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NumberOfLines Property

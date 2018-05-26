@@ -1,7 +1,12 @@
-﻿---
-Description: 'Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror drivers and offers the desktop duplication API instead.'
-ms.assetid: '523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46'
+---
+Description: Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror drivers and offers the desktop duplication API instead.
+ms.assetid: 523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46
 title: Desktop Duplication API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop Duplication API
@@ -15,10 +20,10 @@ Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror dri
 
 ## Updating the desktop image data
 
-DXGI provides a surface that contains a current desktop image through the new [**IDXGIOutputDuplication::AcquireNextFrame**](idxgioutputduplication-acquirenextframe.md) method. The format of the desktop image is always [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](direct3ddxgi.dxgi_format#dxgi-format-b8g8r8a8-unorm) no matter what the current display mode is. Along with this surface, these [**IDXGIOutputDuplication**](idxgioutputduplication.md) methods return the indicated types of info that help you determine which pixels within the surface you need to process:
+DXGI provides a surface that contains a current desktop image through the new [**IDXGIOutputDuplication::AcquireNextFrame**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe?branch=master) method. The format of the desktop image is always [**DXGI\_FORMAT\_B8G8R8A8\_UNORM**](direct3ddxgi.dxgi_format#dxgi-format-b8g8r8a8-unorm) no matter what the current display mode is. Along with this surface, these [**IDXGIOutputDuplication**](/windows/win32/DXGI1_2/nn-dxgi1_2-idxgioutputduplication?branch=master) methods return the indicated types of info that help you determine which pixels within the surface you need to process:
 
--   [**IDXGIOutputDuplication::GetFrameDirtyRects**](idxgioutputduplication-getframedirtyrects.md) returns dirty regions, which are non-overlapping rectangles that indicate the areas of the desktop image that the operating system updated since you processed the previous desktop image.
--   [**IDXGIOutputDuplication::GetFrameMoveRects**](idxgioutputduplication-getframemoverects.md) returns move regions, which are rectangles of pixels in the desktop image that the operating system moved to another location within the same image. Each move region consists of a destination rectangle and a source point. The source point specifies the location from where the operating system copied the region and the destination rectangle specifies to where the operating system moved that region. Move regions are always non-stretched regions so the source is always the same size as the destination.
+-   [**IDXGIOutputDuplication::GetFrameDirtyRects**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframedirtyrects?branch=master) returns dirty regions, which are non-overlapping rectangles that indicate the areas of the desktop image that the operating system updated since you processed the previous desktop image.
+-   [**IDXGIOutputDuplication::GetFrameMoveRects**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframemoverects?branch=master) returns move regions, which are rectangles of pixels in the desktop image that the operating system moved to another location within the same image. Each move region consists of a destination rectangle and a source point. The source point specifies the location from where the operating system copied the region and the destination rectangle specifies to where the operating system moved that region. Move regions are always non-stretched regions so the source is always the same size as the destination.
 
 Suppose the desktop image was transmitted over a slow connection to your remote client app. The amount of data that is sent over the connection is reduced by receiving only data about how your client app must move regions of pixels rather than actual pixel data. To process the moves, your client app must have stored the complete last image.
 
@@ -159,11 +164,11 @@ HRESULT DUPLICATIONMANAGER::DoneWithFrame()
 
 ## Rotating the desktop image
 
-You must add explicit code to your desktop duplication client app to support rotated modes. In a rotated mode, the surface that you receive from [**IDXGIOutputDuplication::AcquireNextFrame**](idxgioutputduplication-acquirenextframe.md) is always in the un-rotated orientation, and the desktop image is rotated within the surface. For example, if the desktop is set to 768x1024 at 90 degrees rotation, **AcquireNextFrame** returns a 1024x768 surface with the desktop image rotated within it. Here are some rotation examples.
+You must add explicit code to your desktop duplication client app to support rotated modes. In a rotated mode, the surface that you receive from [**IDXGIOutputDuplication::AcquireNextFrame**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe?branch=master) is always in the un-rotated orientation, and the desktop image is rotated within the surface. For example, if the desktop is set to 768x1024 at 90 degrees rotation, **AcquireNextFrame** returns a 1024x768 surface with the desktop image rotated within it. Here are some rotation examples.
 
 
 
-| Display mode set from display control panel | Display mode returned by GDI or DXGI | Surface returned from [**AcquireNextFrame**](idxgioutputduplication-acquirenextframe.md)                |
+| Display mode set from display control panel | Display mode returned by GDI or DXGI | Surface returned from [**AcquireNextFrame**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe?branch=master)                |
 |---------------------------------------------|--------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 1024x768 landscape                          | 1024x768 0 degree rotation           | 1024x768\[newline\] ![nonrotated remote desktop](images/dxgi-outdupl-0-rotate.png)<br/>            |
 | 1024x768 portrait                           | 768x1024 90 degree rotation          | 1024x768\[newline\] ![rotated 90 degrees remote desktop](images/dxgi-outdupl-90-rotate.png)<br/>   |
@@ -183,12 +188,12 @@ The code in your desktop duplication client app must rotate the desktop image ap
 
 ## Updating the desktop pointer
 
-You need to use the desktop duplication API to determine if your client app must draw the mouse pointer shape onto the desktop image. Either the mouse pointer is already drawn onto the desktop image that [**IDXGIOutputDuplication::AcquireNextFrame**](idxgioutputduplication-acquirenextframe.md) provides or the mouse pointer is separate from the desktop image. If the mouse pointer is drawn onto the desktop image, the pointer position data that is reported by **AcquireNextFrame** (in the **PointerPosition** member of [**DXGI\_OUTDUPL\_FRAME\_INFO**](dxgi-outdupl-frame-info.md) that the *pFrameInfo* parameter points to) indicates that a separate pointer isn’t visible. If the graphics adapter overlays the mouse pointer on top of the desktop image, **AcquireNextFrame** reports that a separate pointer is visible. So, your client app must draw the mouse pointer shape onto the desktop image to accurately represent what the current user will see on their monitor.
+You need to use the desktop duplication API to determine if your client app must draw the mouse pointer shape onto the desktop image. Either the mouse pointer is already drawn onto the desktop image that [**IDXGIOutputDuplication::AcquireNextFrame**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe?branch=master) provides or the mouse pointer is separate from the desktop image. If the mouse pointer is drawn onto the desktop image, the pointer position data that is reported by **AcquireNextFrame** (in the **PointerPosition** member of [**DXGI\_OUTDUPL\_FRAME\_INFO**](/windows/win32/DXGI1_2/ns-dxgi1_2-dxgi_outdupl_frame_info?branch=master) that the *pFrameInfo* parameter points to) indicates that a separate pointer isn’t visible. If the graphics adapter overlays the mouse pointer on top of the desktop image, **AcquireNextFrame** reports that a separate pointer is visible. So, your client app must draw the mouse pointer shape onto the desktop image to accurately represent what the current user will see on their monitor.
 
-To draw the desktop’s mouse pointer, use the **PointerPosition** member of [**DXGI\_OUTDUPL\_FRAME\_INFO**](dxgi-outdupl-frame-info.md) from the *pFrameInfo* parameter of [**AcquireNextFrame**](idxgioutputduplication-acquirenextframe.md) to determine where to locate the top left hand corner of the mouse pointer on the desktop image. When you draw the first frame, you must use the [**IDXGIOutputDuplication::GetFramePointerShape**](idxgioutputduplication-getframepointershape.md) method to obtain info about the shape of the mouse pointer. Each call to **AcquireNextFrame** to get the next frame also provides the current pointer position for that frame. On the other hand, you need to use **GetFramePointerShape** again only if the shape changes. So, keep a copy of the last pointer image and use it to draw on the desktop unless the shape of the mouse pointer changes.
+To draw the desktop’s mouse pointer, use the **PointerPosition** member of [**DXGI\_OUTDUPL\_FRAME\_INFO**](/windows/win32/DXGI1_2/ns-dxgi1_2-dxgi_outdupl_frame_info?branch=master) from the *pFrameInfo* parameter of [**AcquireNextFrame**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe?branch=master) to determine where to locate the top left hand corner of the mouse pointer on the desktop image. When you draw the first frame, you must use the [**IDXGIOutputDuplication::GetFramePointerShape**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape?branch=master) method to obtain info about the shape of the mouse pointer. Each call to **AcquireNextFrame** to get the next frame also provides the current pointer position for that frame. On the other hand, you need to use **GetFramePointerShape** again only if the shape changes. So, keep a copy of the last pointer image and use it to draw on the desktop unless the shape of the mouse pointer changes.
 
 > [!Note]  
-> Together with the pointer shape image, [**GetFramePointerShape**](idxgioutputduplication-getframepointershape.md) provides the size of the hot spot location. The hot spot is given for informational purposes only. The location of where to draw the pointer image is independent to the hotspot.
+> Together with the pointer shape image, [**GetFramePointerShape**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape?branch=master) provides the size of the hot spot location. The hot spot is given for informational purposes only. The location of where to draw the pointer image is independent to the hotspot.
 
  
 

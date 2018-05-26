@@ -1,13 +1,19 @@
 ---
 title: Setting Up the Playback Window
 description: Setting Up the Playback Window
-ms.assetid: '4cf27099-e5e5-48f8-8d61-0a3d0e0d9499'
-keywords: ["mciSendCommand function"]
+ms.assetid: 4cf27099-e5e5-48f8-8d61-0a3d0e0d9499
+keywords:
+- mciSendCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up the Playback Window
 
-The following example finds the dimensions needed to play an AVI file, creates a window corresponding to that size, and plays the file in the window by using the MCIAVI driver. It uses the [**mciSendCommand**](mcisendcommand.md) function
+The following example finds the dimensions needed to play an AVI file, creates a window corresponding to that size, and plays the file in the window by using the MCIAVI driver. It uses the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function
 
 
 ```C++

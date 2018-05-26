@@ -1,8 +1,17 @@
 ---
 title: The Message Map
 description: The Message Map
-ms.assetid: '4640b0f5-625e-4a9e-86f5-3e75d0afb40d'
-keywords: ["Windows Media Player plug-ins,message map", "plug-ins,message map", "user interface plug-ins,message map", "UI plug-ins,message map"]
+ms.assetid: 4640b0f5-625e-4a9e-86f5-3e75d0afb40d
+keywords:
+- Windows Media Player plug-ins,message map
+- plug-ins,message map
+- user interface plug-ins,message map
+- UI plug-ins,message map
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Message Map

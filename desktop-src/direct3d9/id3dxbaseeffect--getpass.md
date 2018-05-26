@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the handle of a pass.'
-ms.assetid: '71332f6a-18fe-4702-8620-6d16b835ba8f'
-title: 'ID3DXBaseEffect::GetPass method'
+---
+Description: Gets the handle of a pass.
+ms.assetid: 71332f6a-18fe-4702-8620-6d16b835ba8f
+title: ID3DXBaseEffectGetPass method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetPass method

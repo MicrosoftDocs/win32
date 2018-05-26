@@ -1,7 +1,12 @@
 ---
 title: Running a Visual J++ Query
 description: Running a Visual J++ Query
-ms.assetid: '783e71a0-bd2f-433b-b1a5-89b84b5fbcf5'
+ms.assetid: 783e71a0-bd2f-433b-b1a5-89b84b5fbcf5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running a Visual J++ Query

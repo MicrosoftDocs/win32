@@ -4,13 +4,16 @@ description: Checks if storage spaces direct cache is supported on this node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '442576ae-e29e-4a2b-9064-60a138226e5c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 442576ae-e29e-4a2b-9064-60a138226e5c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IsStorageSpacesDirectCacheSupported method", "IsStorageSpacesDirectCacheSupported method, MSCluster_ClusterUtilities class", "MSCluster_ClusterUtilities class, IsStorageSpacesDirectCacheSupported method"]
+keywords:
+- IsStorageSpacesDirectCacheSupported method
+- IsStorageSpacesDirectCacheSupported method, MSCluster_ClusterUtilities class
+- MSCluster_ClusterUtilities class, IsStorageSpacesDirectCacheSupported method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsStorageSpacesDirectCacheSupported method of the MSCluster\_ClusterUtilities class
@@ -49,7 +55,7 @@ This method has no parameters.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -63,9 +69,9 @@ This method has no parameters.
 [**MSCluster\_ClusterUtilities**](mscluster-clusterutilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

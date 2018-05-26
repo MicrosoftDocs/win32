@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer AvailableSystemCapacity property
 description: The AvailableSystemCapacity property contains the percentage of currently available system capacity, based on the number of virtual machines currently running and their scheduling parameters.
-ms.assetid: 'f849a270-77e7-486a-a188-ad674515f374'
-keywords: ["AvailableSystemCapacity property Virtual Server", "AvailableSystemCapacity property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , AvailableSystemCapacity property", "AvailableSystemCapacity property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , AvailableSystemCapacity property"]
+ms.assetid: f849a270-77e7-486a-a188-ad674515f374
+keywords:
+- AvailableSystemCapacity property Virtual Server
+- AvailableSystemCapacity property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , AvailableSystemCapacity property
+- AvailableSystemCapacity property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , AvailableSystemCapacity property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::AvailableSystemCapacity property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AvailableSystemCapacity(
-  [out] VARIANT *availableCapacity
+  [out] VARIANT *availableCapacity
 );
 ```
 
@@ -94,8 +104,8 @@ Wscript.Echo "Available system capacity: " & objVS.AvailableSystemCapacity
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -107,9 +117,9 @@ Wscript.Echo "Available system capacity: " & objVS.AvailableSystemCapacity
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

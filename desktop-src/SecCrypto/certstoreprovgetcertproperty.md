@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a specified property of a certificate.'
-ms.assetid: '827e0331-1f87-4891-8cc1-de1bcbad2963'
+---
+Description: Retrieves a specified property of a certificate.
+ms.assetid: 827e0331-1f87-4891-8cc1-de1bcbad2963
 title: CertStoreProvGetCertProperty callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvGetCertProperty callback function
@@ -38,7 +43,7 @@ BOOL WINAPI CertStoreProvGetCertProperty(
 *pCertContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](cert-context.md) structure.
+A pointer to a [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +64,7 @@ Any needed flag values.
 *pvData* \[out\]
 </dt> <dd>
 
-A pointer to a buffer to contain the pointer to a [**CERT\_CONTEXT**](cert-context.md) structure to be returned by the function. May be set to **NULL** on a first call to the function to get the value of *pcbData* before allocating memory for the buffer.
+A pointer to a buffer to contain the pointer to a [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) structure to be returned by the function. May be set to **NULL** on a first call to the function to get the value of *pcbData* before allocating memory for the buffer.
 
 </dd> <dt>
 
@@ -89,7 +94,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_CONTEXT**](cert-context.md)
+[**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master)
 </dt> </dl>
 
  

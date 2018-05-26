@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a block of ASN.1 encoded data.'
-ms.assetid: 'af7acc5f-da0a-4235-8496-05db94664ea5'
+---
+Description: Represents a block of ASN.1 encoded data.
+ms.assetid: af7acc5f-da0a-4235-8496-05db94664ea5
 title: EncodedData object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EncodedData object

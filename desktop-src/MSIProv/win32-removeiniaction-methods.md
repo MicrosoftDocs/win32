@@ -1,7 +1,12 @@
 ---
 title: Win32\_RemoveIniAction Methods
 description: The Win32\_RemoveIniAction class exposes the following methods.
-ms.assetid: '266533AA-9AF5-45FD-8963-CB12C2C4EAB6'
+ms.assetid: 266533AA-9AF5-45FD-8963-CB12C2C4EAB6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RemoveIniAction Methods

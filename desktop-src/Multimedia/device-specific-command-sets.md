@@ -1,8 +1,16 @@
 ---
 title: Device-Specific Command Sets
 description: Device-Specific Command Sets
-ms.assetid: 'c7dca9eb-a00a-493c-9926-5cec4ab74321'
-keywords: ["MCI devices,command sets", "MCI commands,device-specific command sets", "MCI command sets,about"]
+ms.assetid: c7dca9eb-a00a-493c-9926-5cec4ab74321
+keywords:
+- MCI devices,command sets
+- MCI commands,device-specific command sets
+- MCI command sets,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device-Specific Command Sets

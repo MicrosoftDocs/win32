@@ -1,14 +1,20 @@
 ---
 title: WM/VideoWidth Attribute
 description: The WM/VideoWidth attribute specifies the photo or video width in pixels.
-ms.assetid: '05335e54-ae8f-4d5b-878d-586ce05e57d5'
-keywords: ["WM/VideoWidth Attribute Windows Media Player"]
+ms.assetid: 05335e54-ae8f-4d5b-878d-586ce05e57d5
+keywords:
+- WM/VideoWidth Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/VideoWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/VideoWidth Attribute
@@ -43,9 +49,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_hPalette member variable is a handle to the logical palette that this object manages.'
-ms.assetid: '8c73adc1-0c01-4518-a0dd-17c7bff6c92b'
-title: 'CImagePalette::m\_hPalette member'
+Description: The m\_hPalette member variable is a handle to the logical palette that this object manages.
+ms.assetid: 8c73adc1-0c01-4518-a0dd-17c7bff6c92b
+title: CImagePalettem\_hPalette member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette::m\_hPalette member
@@ -35,9 +40,9 @@ HPALETTE m_hPalette;
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

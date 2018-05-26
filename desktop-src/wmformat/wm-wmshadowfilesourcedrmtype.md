@@ -1,14 +1,20 @@
 ---
 title: WM/WMShadowFileSourceDRMType
 description: The WM/WMShadowFileSourceDRMType attribute contains the type of rights management that is used to protect the original file that the ASF file is derived from.
-ms.assetid: '58e7a383-6e80-42fc-bc75-5920dbe67a40'
-keywords: ["WM/WMShadowFileSourceDRMType windows Media Format"]
+ms.assetid: 58e7a383-6e80-42fc-bc75-5920dbe67a40
+keywords:
+- WM/WMShadowFileSourceDRMType windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/WMShadowFileSourceDRMType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMShadowFileSourceDRMType

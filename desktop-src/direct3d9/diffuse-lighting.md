@@ -1,7 +1,12 @@
 ---
-Description: 'After adjusting the light intensity for any attenuation effects, the lighting engine computes how much of the remaining light reflects from a vertex, given the angle of the vertex normal and the direction of the incident light.'
-ms.assetid: '29280a02-1c26-4b54-8468-707dd96dea1d'
-title: 'Diffuse Lighting (Direct3D 9)'
+Description: After adjusting the light intensity for any attenuation effects, the lighting engine computes how much of the remaining light reflects from a vertex, given the angle of the vertex normal and the direction of the incident light.
+ms.assetid: 29280a02-1c26-4b54-8468-707dd96dea1d
+title: Diffuse Lighting (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Diffuse Lighting (Direct3D 9)

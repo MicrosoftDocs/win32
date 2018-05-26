@@ -4,13 +4,16 @@ description: Updates the settings of a virtual system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6018dc1c-b5c8-4198-9743-d38fdd009563'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6018dc1c-b5c8-4198-9743-d38fdd009563
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifySystemSettings method", "ModifySystemSettings method, CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class, ModifySystemSettings method"]
+keywords:
+- ModifySystemSettings method
+- ModifySystemSettings method, CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class, ModifySystemSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifySystemSettings method of the CIM\_VirtualSystemManagementService class
@@ -30,8 +36,8 @@ Updates the settings of a virtual system.
 
 ```mof
 uint32 ModifySystemSettings(
-  [in]  string              SystemSettings,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SystemSettings,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -49,7 +55,7 @@ An embedded instance of the [**CIM\_VirtualSystemSettingData**](cim-virtualsyste
 > [!Note]  
 > The [**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md) must have a valid **InstanceID** property value that identifies the virtual system to update.
 
- 
+ 
 
 </dd> <dt>
 
@@ -87,16 +93,16 @@ The possible return values are:
 **Incompatible Parameters** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -106,7 +112,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -120,9 +126,9 @@ The possible return values are:
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

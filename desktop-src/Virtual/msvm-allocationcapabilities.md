@@ -1,8 +1,10 @@
 ---
 title: Msvm\_AllocationCapabilities class
 description: Defines the means by which a client can discover the valid range of default settings for a virtual resource.
-ms.assetid: '10a46030-c6ce-4d3a-a0cb-cc0a26408f13'
-keywords: ["Msvm_AllocationCapabilities class Hyper-V", "Msvm_AllocationCapabilities class Hyper-V , described"]
+ms.assetid: 10a46030-c6ce-4d3a-a0cb-cc0a26408f13
+keywords:
+- Msvm_AllocationCapabilities class Hyper-V
+- Msvm_AllocationCapabilities class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_AllocationCapabilities class
@@ -69,7 +76,7 @@ The **Msvm\_AllocationCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -154,7 +161,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_Capabilities**](cim-capabilities.md).
 
@@ -226,14 +233,14 @@ This property is inherited from [**CIM\_AllocationCapabilities**](cim-allocation
 **DMTF reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -464,14 +471,14 @@ This property is inherited from [**CIM\_AllocationCapabilities**](cim-allocation
 **DMTF reserved**
 
 
-</dt> <dd>28–32767</dd> <dt>
+</dt> <dd>28 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -518,14 +525,14 @@ This property is inherited from [**CIM\_AllocationCapabilities**](cim-allocation
 **DMTF reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -645,14 +652,14 @@ This property is inherited from [**CIM\_AllocationCapabilities**](cim-allocation
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -772,14 +779,14 @@ This property is inherited from [**CIM\_AllocationCapabilities**](cim-allocation
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -794,9 +801,9 @@ Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -818,9 +825,9 @@ Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC 
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

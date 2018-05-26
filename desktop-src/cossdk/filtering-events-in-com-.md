@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ Events provides two ways to control which events reach which subscribers: publisher filtering and parameter filtering.'
-ms.assetid: 'dfc82a57-5587-462d-a43d-516b7d70e25e'
+Description: COM+ Events provides two ways to control which events reach which subscribers publisher filtering and parameter filtering.
+ms.assetid: dfc82a57-5587-462d-a43d-516b7d70e25e
 title: Filtering Events in COM+
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Events in COM+
@@ -22,7 +27,7 @@ For detailed instructions on creating a publisher filter, see [Creating a Publis
 
 In contrast to publisher filtering, the COM+ Events service provides an optional subscriber parameter filtering for each subscription and each event method invocation. Parameter filtering evaluates the subscription FilterCriteria property against the parameters of the event method. This type of filtering is used on a per-method, per-subscription basis and provides a level of subscriber filtering at the event source. The filter criteria string recognizes relational operators for checking equality (=, ==, !, !=, ~, ~=, &lt;&gt;), nested parentheses, and logical keywords **AND**, **OR**, or **NOT**.
 
-Parameter filtering occurs after any publisher filtering and when the standard event object is fired for a given subscription. If publisher filtering is used, parameter filtering occurs only when the publisher filter invokes [**IFiringControl::FireSubscription**](ifiringcontrol-firesubscription.md). Because of this, publisher filtering and parameter filtering can compose together but publisher filtering takes precedence.
+Parameter filtering occurs after any publisher filtering and when the standard event object is fired for a given subscription. If publisher filtering is used, parameter filtering occurs only when the publisher filter invokes [**IFiringControl::FireSubscription**](/windows/win32/EventSys/nf-eventsys-ifiringcontrol-firesubscription?branch=master). Because of this, publisher filtering and parameter filtering can compose together but publisher filtering takes precedence.
 
 ## Related topics
 

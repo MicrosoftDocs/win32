@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational GetCharsetInfo method
 description: Gets information about the specified character set.
-ms.assetid: '98cb27d6-037d-49d8-b0ad-40b63e07a975'
-keywords: ["GetCharsetInfo method Windows Mail (formerly Outlook Express)", "GetCharsetInfo method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , GetCharsetInfo method"]
+ms.assetid: 98cb27d6-037d-49d8-b0ad-40b63e07a975
+keywords:
+- GetCharsetInfo method Windows Mail (formerly Outlook Express)
+- GetCharsetInfo method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , GetCharsetInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::GetCharsetInfo method
@@ -22,8 +30,8 @@ Gets information about the specified character set.
 
 ```C++
 HRESULT GetCharsetInfo(
-  [in]      HCHARSET       hCharset,
-  [in, out] LPINETCSETINFO pCsetInfo
+  [in]      HCHARSET       hCharset,
+  [in, out] LPINETCSETINFO pCsetInfo
 );
 ```
 
@@ -67,7 +75,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,8 +83,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -84,9 +92,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

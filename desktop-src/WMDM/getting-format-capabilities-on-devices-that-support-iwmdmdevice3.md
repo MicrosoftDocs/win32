@@ -1,15 +1,33 @@
 ---
 title: Getting Format Capabilities on Devices That Support IWMDMDevice3
 description: Getting Format Capabilities on Devices That Support IWMDMDevice3
-ms.assetid: 'a431c3cb-e722-4d68-a82d-385fff067ea6'
-keywords: ["Windows Media Device Manager,device capabilities", "Device Manager,device capabilities", "programming guide,device capabilities", "desktop applications,device capabilities", "creating Windows Media Device Manager applications,device capabilities", "writing files to devices,device capabilities", "IWMDMDevice3 method", "Windows Media Device Manager,IWMDMDevice3 method", "Device Manager,IWMDMDevice3 method", "programming guide,IWMDMDevice3 method", "desktop applications,IWMDMDevice3 method", "creating Windows Media Device Manager applications,IWMDMDevice3 method", "writing files to devices,IWMDMDevice3 method"]
+ms.assetid: a431c3cb-e722-4d68-a82d-385fff067ea6
+keywords:
+- Windows Media Device Manager,device capabilities
+- Device Manager,device capabilities
+- programming guide,device capabilities
+- desktop applications,device capabilities
+- creating Windows Media Device Manager applications,device capabilities
+- writing files to devices,device capabilities
+- IWMDMDevice3 method
+- Windows Media Device Manager,IWMDMDevice3 method
+- Device Manager,IWMDMDevice3 method
+- programming guide,IWMDMDevice3 method
+- desktop applications,IWMDMDevice3 method
+- creating Windows Media Device Manager applications,IWMDMDevice3 method
+- writing files to devices,IWMDMDevice3 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Format Capabilities on Devices That Support IWMDMDevice3
 
-[**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md) is the preferred method for asking a device what formats it supports. The following steps show how to use this method to query a device for its format capabilities:
+[**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master) is the preferred method for asking a device what formats it supports. The following steps show how to use this method to query a device for its format capabilities:
 
-1.  The application must determine which formats a device supports and which are of interest. To do this, the application can request a list of formats supported by the device by calling [**IWMDMDevice3::GetProperty**](iwmdmdevice3-getproperty.md).
+1.  The application must determine which formats a device supports and which are of interest. To do this, the application can request a list of formats supported by the device by calling [**IWMDMDevice3::GetProperty**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty?branch=master).
 2.  The application loops through all of the supported formats and requests a device's format capabilities for a specific format (such as WMA or WMV) by calling **IWMDMDevice3::GetFormatCapability** and specifying a format using the [**WMDM\_FORMATCODE**](wmdm-formatcode.md) enumeration. This method retrieves a [**WMDM\_FORMAT\_CAPABILITY**](wmdm-format-capability.md) structure.
 3.  Loop through all the [**WMDM\_PROP\_CONFIG**](wmdm-prop-config.md) structures in the retrieved **WMDM\_FORMAT\_CAPABILITY** structure. Each **WMDM\_PROP\_CONFIG** structure holds a group of properties with supported values, representing one configuration for that format. Each configuration has a preference number, where a lower number indicates a greater preference by the device.
 4.  Loop through all the [**WMDM\_PROP\_DESC**](wmdm-prop-desc.md) structures in the retrieved **WMDM\_PROP\_CONFIG**. Each **WMDM\_PROP\_DESC** contains a list of supported property/value pairs.
@@ -96,7 +114,7 @@ HRESULT GetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
 
 **Clearing allocated memory**
 
-After retrieving format capabilities from a device, the application must free the memory allocated to hold the description. [**GetFormatSupport**](iwmdmdevice-getformatsupport.md) and [**GetFormatSupport2**](iwmdmdevice2-getformatsupport2.md) have arrays of simple structures that can be cleared by simply calling **CoTaskMemFree** with the array. However, **GetFormatCapability** has a more complex data structure with dynamically allocated memory that must be cleared by looping through all the elements and freeing them individually.
+After retrieving format capabilities from a device, the application must free the memory allocated to hold the description. [**GetFormatSupport**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice-getformatsupport?branch=master) and [**GetFormatSupport2**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice2-getformatsupport2?branch=master) have arrays of simple structures that can be cleared by simply calling **CoTaskMemFree** with the array. However, **GetFormatCapability** has a more complex data structure with dynamically allocated memory that must be cleared by looping through all the elements and freeing them individually.
 
 The following C++ code shows how an application can free the memory allocated for a **WMDM\_FORMAT\_CAPABILITY** structure.
 
@@ -148,7 +166,7 @@ void CWMDMController::FreeFormatCapability(WMDM_FORMAT_CAPABILITY formatCap)
 
 **Querying for all supported formats**
 
-Typically, an application queries a device for a specific format, because it is interested in sending a specific file to the device. However, if you want to query an application for all its supported formats, you can call [**IWMDMDevice3::GetProperty**](iwmdmdevice3-getproperty.md) and pass in g\_wszWMDMFormatsSupported to retrieve a full list.
+Typically, an application queries a device for a specific format, because it is interested in sending a specific file to the device. However, if you want to query an application for all its supported formats, you can call [**IWMDMDevice3::GetProperty**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty?branch=master) and pass in g\_wszWMDMFormatsSupported to retrieve a full list.
 
 If a device only returns one element, WMDM\_FORMATCODE\_UNDEFINED, this usually means that the device does not support format codes. Calling **GetFormatCapability** with WMDM\_FORMATCODE\_UNDEFINED might retrieve capabilities, but these properties might be fairly generic (such as name, file size, last modified date, and so on).
 

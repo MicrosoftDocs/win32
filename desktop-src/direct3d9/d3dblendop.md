@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the supported blend operations. See Remarks for definitions of terms.'
-ms.assetid: 'ae750d84-ed7d-4a76-bf64-eae8828c66c7'
+---
+Description: Defines the supported blend operations. See Remarks for definitions of terms.
+ms.assetid: ae750d84-ed7d-4a76-bf64-eae8828c66c7
 title: D3DBLENDOP enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DBLENDOP enumeration
@@ -108,7 +113,7 @@ This enumerated type defines values used by the following render states:
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**D3DCAPS9**](d3dcaps9.md)
+[**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)
 </dt> <dt>
 
 [**D3DRENDERSTATETYPE**](direct3d9.d3drenderstatetype)

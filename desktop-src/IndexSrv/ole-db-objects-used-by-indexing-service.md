@@ -1,7 +1,12 @@
 ---
 title: OLE DB Objects Used by Indexing Service
 description: OLE DB Objects Used by Indexing Service
-ms.assetid: 'b8af20ec-9409-4d70-ba27-8d6348bc3346'
+ms.assetid: b8af20ec-9409-4d70-ba27-8d6348bc3346
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OLE DB Objects Used by Indexing Service
@@ -23,7 +28,7 @@ The OLE DB Provider for Indexing Service uses the following OLE DB objects.
 
 -   **Command Object**
 
-    [**Command**](c72d0308-7e30-4250-b85e-557b8c399a3c) objects represent commands given to the data source to allow execution of a text command. The result of executing a text command for Indexing Service is a [**Rowset**](3d41e965-292d-405d-a67c-9278f64f97aa) object. For a list of interfaces implemented for **Command** objects, refer to the [Interfaces](interfaces.md) section. Note that the [**ICommandTree**](icommandtree.md) interface, unique to this OLE DB provider, allows you to express queries in a hierarchical fashion similar to the [**ICommandText**](089427ad-5ba3-4613-b89e-8e86420ccc30) features.
+    [**Command**](c72d0308-7e30-4250-b85e-557b8c399a3c) objects represent commands given to the data source to allow execution of a text command. The result of executing a text command for Indexing Service is a [**Rowset**](3d41e965-292d-405d-a67c-9278f64f97aa) object. For a list of interfaces implemented for **Command** objects, refer to the [Interfaces](interfaces.md) section. Note that the [**ICommandTree**](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master) interface, unique to this OLE DB provider, allows you to express queries in a hierarchical fashion similar to the [**ICommandText**](089427ad-5ba3-4613-b89e-8e86420ccc30) features.
 
 -   **Rowset Object**
 

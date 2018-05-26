@@ -1,8 +1,9 @@
 ---
 title: LB\_ADDFILE message
 description: Adds the specified filename to a list box that contains a directory listing.
-ms.assetid: '60426293-779b-4a4b-95a2-4901b5f6a13b'
-keywords: ["LB_ADDFILE message Windows Controls"]
+ms.assetid: 60426293-779b-4a4b-95a2-4901b5f6a13b
+keywords:
+- LB_ADDFILE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_ADDFILE message
@@ -41,7 +47,7 @@ The return value is the zero-based index of the file that was added, or LB\_ERR 
 
 ## Remarks
 
-The list box to which *lParam* is added must have been filled by the [**DlgDirList**](dlgdirlist.md) function.
+The list box to which *lParam* is added must have been filled by the [**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master) function.
 
 The [**LB\_INITSTORAGE**](lb-initstorage.md) message helps speed up the initialization of list boxes that have a large number of items (more than 100). It reserves the specified amount of memory so that subsequent **LB\_ADDFILE** messages take the shortest possible time. You can use estimates for the *wParam* and *lParam* parameters. If you overestimate, the extra memory is allocated; if you underestimate, the normal allocation is used for items that exceed the requested amount.
 
@@ -53,8 +59,8 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -66,15 +72,15 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 **Reference**
 </dt> <dt>
 
-[**DlgDirList**](dlgdirlist.md)
+[**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master)
 </dt> <dt>
 
 [**LB\_ADDSTRING**](lb-addstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

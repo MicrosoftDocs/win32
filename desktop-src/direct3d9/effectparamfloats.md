@@ -1,7 +1,12 @@
 ---
-Description: 'Defines effect floating-point numbers. This template replaces the EffectFloats template.'
-ms.assetid: '7b41d0dc-209f-4ade-a7ed-aa54f421e520'
+Description: Defines effect floating-point numbers. This template replaces the EffectFloats template.
+ms.assetid: 7b41d0dc-209f-4ade-a7ed-aa54f421e520
 title: EffectParamFloats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EffectParamFloats

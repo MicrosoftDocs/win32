@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a matrix with a specified yaw, pitch, and roll.'
-ms.assetid: 'a3ef2b57-275f-484a-88fc-aaa5e470717c'
+---
+Description: Builds a matrix with a specified yaw, pitch, and roll.
+ms.assetid: a3ef2b57-275f-484a-88fc-aaa5e470717c
 title: D3DXMatrixRotationYawPitchRoll function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixRotationYawPitchRoll function

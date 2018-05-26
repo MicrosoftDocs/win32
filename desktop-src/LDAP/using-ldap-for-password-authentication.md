@@ -4,11 +4,17 @@ description: Determine if multiple users have valid IDs and passwords and if the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cbce4264-9c37-4c29-ad00-669b1d1de2c6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: cbce4264-9c37-4c29-ad00-669b1d1de2c6
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Using LDAP for Password Authentication LDAP", "Concurrent Binding LDAP", "bind, fast LDAP"]
+keywords:
+- Using LDAP for Password Authentication LDAP
+- Concurrent Binding LDAP
+- bind, fast LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using LDAP for Password Authentication
@@ -19,7 +25,7 @@ Unlike a normal LDAP bind, a concurrent bind does not determine a user group ass
 
 To enable concurrent bind on an LDAP connection, the application sets the [LDAP\_OPT\_FAST\_CONCURRENT\_BIND](session-options.md) session option after the LDAP connection has been initialized, but before any binds are performed. When concurrent binding is enabled for a particular LDAP session, it cannot be disabled without closing the session connection.
 
-Concurrent bind cannot be enabled on an LDAP session if signing or data encryption are enabled. Attempting to enable concurrent bind on sessions with signing or data encryption will fail the [**ldap\_set\_option**](ldap-set-option.md) call and return an [LDAP\_UNWILLING\_TO\_PERFORM](return-values.md) error code.
+Concurrent bind cannot be enabled on an LDAP session if signing or data encryption are enabled. Attempting to enable concurrent bind on sessions with signing or data encryption will fail the [**ldap\_set\_option**](/windows/previous-versions/Winldap/nf-winldap-ldap_set_option?branch=master) call and return an [LDAP\_UNWILLING\_TO\_PERFORM](return-values.md) error code.
 
 When concurrent bind is enabled on an LDAP session, only simple bind operations may be performed in that session and all simple binds are fast binds. As a result all subsequent bind requests will not be serialized internally by the LDAP client and the binds will not generate a security token. Any binds performed in this session are performed as anonymous, and because data encryption is not allowed any data sent through this session will appear on the network in an unencrypted form. If the application attempts to use a non-simple bind on a session with concurrent bind enabled, the call will fail and return an [LDAP\_UNWILLING\_TO\_PERFORM](return-values.md) error code.
 

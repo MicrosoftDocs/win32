@@ -1,14 +1,20 @@
 ---
 title: NoPerProcessorBuffering element
 description: Configures ETW to write all ETW events to a shared buffer regardless of which processor generated the event.
-ms.assetid: '57C5EA06-D074-4683-981D-609B4C3E15D5'
-keywords: ["NoPerProcessorBuffering element Access Execution Engine"]
+ms.assetid: 57C5EA06-D074-4683-981D-609B4C3E15D5
+keywords:
+- NoPerProcessorBuffering element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - NoPerProcessorBuffering
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NoPerProcessorBuffering element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

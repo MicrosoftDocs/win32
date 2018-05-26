@@ -1,8 +1,11 @@
 ---
 title: ITopic locale property
 description: Returns locale
-ms.assetid: 'b538b6a4-9690-4b29-bdc8-672c1b15c58e'
-keywords: ["locale property HelpAPI", "locale property HelpAPI , ITopic interface", "ITopic interface HelpAPI , locale property"]
+ms.assetid: b538b6a4-9690-4b29-bdc8-672c1b15c58e
+keywords:
+- locale property HelpAPI
+- locale property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , locale property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::locale property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_locale(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The locale of this topic.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The locale of this topic.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

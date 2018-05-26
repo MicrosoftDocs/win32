@@ -1,8 +1,9 @@
 ---
 title: IOCTL\_EHSTOR\_BANDMGMT\_GET\_BAND\_METADATA control code
 description: Metadata associated with a band is retrieved with an IOCTL\_EHSTOR\_BANDMGMT\_GET\_BAND\_METADATA request. The metadata for a band serves as a data area for a key manager application.
-ms.assetid: '543EB710-9BF5-428E-B5CE-7088B98586EA'
-keywords: ["IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code Storage Devices"]
+ms.assetid: 543EB710-9BF5-428E-B5CE-7088B98586EA
+keywords:
+- IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - EhStorBandMgmt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_EHSTOR\_BANDMGMT\_GET\_BAND\_METADATA control code
@@ -50,7 +56,7 @@ The **Information** field contains the number of bytes returned in the output bu
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +68,7 @@ Authentication for this IOCTL is unnecessary and an authentication key is not in
 
 |                    |                                                                                                                        |
 |--------------------|------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Available starting with Windows 8<br/>                                                                           |
+| Version<br/> | Available starting with Windows 8<br/>                                                                           |
 | Header<br/>  | <dl> <dt>EhStorBandMgmt.h (include EhStorBandMgmt.h)</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ Authentication for this IOCTL is unnecessary and an authentication key is not in
 [**CREATE\_BAND\_PARAMETERS**](create-band-parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA%20control%20code%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -1,8 +1,24 @@
 ---
 title: Using UI Automation for Automated Testing
 description: This overview describes how Microsoft UI Automation can be useful as a framework for programmatic access in automated testing scenarios.
-ms.assetid: '192162f9-55bf-4111-9f15-c0d3b5af2ab7'
-keywords: ["clients,UI Automation automated testing", "clients,automated testing", "clients,testing", "clients,tools for automated testing", "clients,UI Automation tools for automated testing", "clients,UI Automation testing", "UI Automation,automated testing", "UI Automation,testing", "UI Automation,tools for automated testing", "automated testing", "tools for automated testing"]
+ms.assetid: 192162f9-55bf-4111-9f15-c0d3b5af2ab7
+keywords:
+- clients,UI Automation automated testing
+- clients,automated testing
+- clients,testing
+- clients,tools for automated testing
+- clients,UI Automation tools for automated testing
+- clients,UI Automation testing
+- UI Automation,automated testing
+- UI Automation,testing
+- UI Automation,tools for automated testing
+- automated testing
+- tools for automated testing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using UI Automation for Automated Testing
@@ -73,7 +89,7 @@ The ability to uniquely identify and subsequently locate any control in the UI p
 | AutomationId | Uniquely distinguishes an automation element from its siblings. Support for the AutomationId property is not required. When it is available, the AutomationId property of an element is the same in any instance of the application, regardless of the local language. Although the AutomationId property is unique among sibling elements, it may not be unique across the entire desktop. For example, multiple instances of an application, or multiple folder views in Microsoft Windows Explorer, may contain elements with the same AutomationIdProperty, such as "SystemMenuBar". Clients should make no assumptions regarding the AutomationIds exposed by other applications. AutomationId is not guaranteed to be stable across different releases or builds of an application. |
 | ControlType  | Identifies the type of control represented by an automation element. Significant information can be inferred from knowledge of the control type. For more information, see [UI Automation Control Types Overview](uiauto-controltypesoverview.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Name         | A text string that identifies or explains the purpose of an automation element. It should be used with caution because it can be localized. The Name property is not a unique identifier among siblings. For test automation, clients should use the AutomationId property or RuntimeId property instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| RuntimeId    | An array of integers that represent an identifier for an automation element. The identifier is unique on the desktop, but is guaranteed to be unique only to the UI of the desktop on which it was generated. Identifiers can be reused over time. Use [**IUIAutomation::CompareElements**](uiauto-iuiautomation-compareelements.md) to determine if the element that currently has a particular runtime ID is the same element that previously had that ID. Also, the format of the RuntimeId property may change. It should be treated as an opaque value and used only for comparison; for example, to determine whether an automation element is in the cache.                                                                                                                       |
+| RuntimeId    | An array of integers that represent an identifier for an automation element. The identifier is unique on the desktop, but is guaranteed to be unique only to the UI of the desktop on which it was generated. Identifiers can be reused over time. Use [**IUIAutomation::CompareElements**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-compareelements?branch=master) to determine if the element that currently has a particular runtime ID is the same element that previously had that ID. Also, the format of the RuntimeId property may change. It should be treated as an opaque value and used only for comparison; for example, to determine whether an automation element is in the cache.                                                                                                                       |
 
 
 

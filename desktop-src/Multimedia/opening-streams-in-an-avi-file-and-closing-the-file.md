@@ -1,13 +1,19 @@
 ---
 title: Opening Streams in an AVI File and Closing the File
 description: Opening Streams in an AVI File and Closing the File
-ms.assetid: '3c6afa04-3d95-48cd-b468-7167bac07d46'
-keywords: ["AVIFileGetStream function"]
+ms.assetid: 3c6afa04-3d95-48cd-b468-7167bac07d46
+keywords:
+- AVIFileGetStream function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening Streams in an AVI File and Closing the File
 
-The following example opens all the streams in an AVI file using the [**AVIFileGetStream**](avifilegetstream.md) function. If an error is encountered, the file is closed.
+The following example opens all the streams in an AVI file using the [**AVIFileGetStream**](/windows/win32/Vfw/nf-vfw-avifilegetstream?branch=master) function. If an error is encountered, the file is closed.
 
 
 ```C++

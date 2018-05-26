@@ -1,12 +1,17 @@
 ---
-Description: 'Overview of displaying the input panel.'
-ms.assetid: '6301dde1-e46b-42a0-ae0b-ccd984e9199b'
+Description: Overview of displaying the input panel.
+ms.assetid: 6301dde1-e46b-42a0-ae0b-ccd984e9199b
 title: Displaying the Input Panel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying the Input Panel
 
-\[[**PenInputPanel**](peninputpanel-class.md) has been replaced by [**TextInputPanel**](itextinputpanel.md) ([Microsoft.Ink.TextInput](frlrfMicrosoftInkTextInput) for managed code). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
+\[[**PenInputPanel**](/windows/win32/msinkaut/?branch=master) has been replaced by [**TextInputPanel**](/windows/win32/peninputpanel/nn-peninputpanel-itextinputpanel?branch=master) ([Microsoft.Ink.TextInput](frlrfMicrosoftInkTextInput) for managed code). Please refer to the [Programming the Text Input Panel](programming-the-text-input-panel.md).\]
 
 The order of the various focus events for a control is as follows:
 

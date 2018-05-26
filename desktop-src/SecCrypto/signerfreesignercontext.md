@@ -1,7 +1,12 @@
-﻿---
-Description: 'Frees a SIGNER\_CONTEXT structure allocated by a previous call to the SignerSignEx function.'
-ms.assetid: '190de302-50fe-488e-90ed-c9efd39dae70'
+---
+Description: Frees a SIGNER\_CONTEXT structure allocated by a previous call to the SignerSignEx function.
+ms.assetid: 190de302-50fe-488e-90ed-c9efd39dae70
 title: SignerFreeSignerContext function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignerFreeSignerContext function

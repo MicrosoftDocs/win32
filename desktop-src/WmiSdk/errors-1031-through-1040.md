@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 1031 through 1040.'
+Description: Describes WMI SNMP provider errors 1031 through 1040.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5fc519ac-ae05-4daf-a681-7935190f1d46'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5fc519ac-ae05-4daf-a681-7935190f1d46
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1031 through 1040
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 1031 through 1040

@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the confirmation type, which controls what the IInkAnalyzer object can change about the IContextNode.'
-ms.assetid: 'a506f27e-3909-453e-a2f3-10d4c04d78a4'
-title: 'IContextNode::Confirm method'
+Description: Modifies the confirmation type, which controls what the IInkAnalyzer object can change about the IContextNode.
+ms.assetid: a506f27e-3909-453e-a2f3-10d4c04d78a4
+title: IContextNodeConfirm method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::Confirm method
@@ -13,7 +18,7 @@ Modifies the confirmation type, which controls what the [**IInkAnalyzer**](iinka
 
 ```C++
 HRESULT Confirm(
-  [in] ConfirmationType confirmedType
+  [in] ConfirmationType confirmedType
 );
 ```
 
@@ -54,7 +59,7 @@ Use **IContextNode::Confirm** when the user has confirmed analysis results and d
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -74,9 +79,9 @@ Use **IContextNode::Confirm** when the user has confirmed analysis results and d
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

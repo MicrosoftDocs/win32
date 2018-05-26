@@ -1,7 +1,12 @@
 ---
 title: Shader Model 6
 description: Shader model 6.0 adds a range of wave operation intrinsics for the pixel and compute shaders.
-ms.assetid: '2F28F86D-F599-47EA-90D7-6833ABA976FC'
+ms.assetid: 2F28F86D-F599-47EA-90D7-6833ABA976FC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Model 6
@@ -41,7 +46,7 @@ Shader model 6.0 adds a range of wave operation intrinsics for the pixel and com
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -53,9 +58,9 @@ Shader model 6.0 adds a range of wave operation intrinsics for the pixel and com
 [Shader Models vs Shader Profiles](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

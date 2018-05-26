@@ -1,12 +1,17 @@
-﻿---
-Description: 'Defines values for use with the FXREVERB\_PARAMETERS structure.'
-ms.assetid: '668f0f24-2f77-6d0d-33ac-93f269bb50f0'
+---
+Description: Defines values for use with the FXREVERB\_PARAMETERS structure.
+ms.assetid: 668f0f24-2f77-6d0d-33ac-93f269bb50f0
 title: FXREVERB Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FXREVERB Constants
 
-Defines values for use with the [**FXREVERB\_PARAMETERS**](fxreverb-parameters.md) structure.
+Defines values for use with the [**FXREVERB\_PARAMETERS**](/windows/win32/xapofx/ns-xapofx-fxreverb_parameters?branch=master) structure.
 
 
 

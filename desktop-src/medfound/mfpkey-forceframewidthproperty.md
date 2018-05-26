@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies an intermediate frame width for encoded video.'
-ms.assetid: '805bd587-31af-49b8-b5ab-2dcf2a3f81c5'
-title: 'MFPKEY\_FORCEFRAMEWIDTH Property'
+---
+Description: Specifies an intermediate frame width for encoded video.
+ms.assetid: 805bd587-31af-49b8-b5ab-2dcf2a3f81c5
+title: MFPKEY\_FORCEFRAMEWIDTH Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FORCEFRAMEWIDTH Property

@@ -1,7 +1,12 @@
 ---
 title: LFH Bucket Usage
 description: LFH Bucket Usage
-ms.assetid: 'cc0482c6-2c7d-4a84-8a77-9306ce74e133'
+ms.assetid: cc0482c6-2c7d-4a84-8a77-9306ce74e133
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LFH Bucket Usage

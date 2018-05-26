@@ -1,6 +1,11 @@
 ---
-Description: 'The Explorer Bar was introduced with Microsoft Internet Explorer 4.0 to provide a display area adjacent to the browser pane.'
-title: 'Creating Custom Explorer Bars, Tool Bands, and Desk Bands'
+Description: The Explorer Bar was introduced with Microsoft Internet Explorer 4.0 to provide a display area adjacent to the browser pane.
+title: Creating Custom Explorer Bars, Tool Bands, and Desk Bands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Custom Explorer Bars, Tool Bands, and Desk Bands
@@ -53,7 +58,7 @@ Although they can be used much like normal windows, band objects are COM objects
 
 In addition to [**IUnknown**](com.iunknown) and [**IClassFactory**](com.iclassfactory), all band objects must implement the following interfaces.
 
--   [**IDeskBand**](ideskband.md)
+-   [**IDeskBand**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master)
 -   [**IObjectWithSite**](com.iobjectwithsite)
 -   [**IPersistStream**](com.ipersiststream)
 
@@ -73,19 +78,19 @@ In addition to registering their class identifier (CLSID), the Explorer Bar and 
 
 See [Band Registration](#band-registration) for further discussion of how to register band objects.
 
-If the band object is to accept user input, it must also implement [**IInputObject**](iinputobject.md). To add items to the shortcut menu for Explorer Bar or desk bands, the band object must export [**IContextMenu**](icontextmenu.md). Tool bands do not support shortcut menus.
+If the band object is to accept user input, it must also implement [**IInputObject**](/windows/win32/Shobjidl/nn-shobjidl_core-iinputobject?branch=master). To add items to the shortcut menu for Explorer Bar or desk bands, the band object must export [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master). Tool bands do not support shortcut menus.
 
 Because band objects implement a child window, they must also implement a window procedure to handle Windows messaging.
 
-Band objects can send commands to their container through the container's [**IOleCommandTarget**](com.iolecommandtarget) interface. To obtain the interface pointer, call the container's [**IInputObjectSite::QueryInterface**](com.iunknown_queryinterface) method and ask for IID\_IOleCommandTarget. You then send commands to the container with [**IOleCommandTarget::Exec**](com.iolecommandtarget_exec). The command group is CGID\_DeskBand. When a band object's [**IDeskBand::GetBandInfo**](ideskband.md) method is called, the container uses the *dwBandID* parameter to assign the band object an identifier that is used for three of the commands. Four **IOleCommandTarget::Exec** command IDs are supported.
+Band objects can send commands to their container through the container's [**IOleCommandTarget**](com.iolecommandtarget) interface. To obtain the interface pointer, call the container's [**IInputObjectSite::QueryInterface**](com.iunknown_queryinterface) method and ask for IID\_IOleCommandTarget. You then send commands to the container with [**IOleCommandTarget::Exec**](com.iolecommandtarget_exec). The command group is CGID\_DeskBand. When a band object's [**IDeskBand::GetBandInfo**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master) method is called, the container uses the *dwBandID* parameter to assign the band object an identifier that is used for three of the commands. Four **IOleCommandTarget::Exec** command IDs are supported.
 
 -   DBID\_BANDINFOCHANGED
 
-    The band's information has changed. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](ideskband.md). The container will call the band object's **IDeskBand::GetBandInfo** method to request the updated information.
+    The band's information has changed. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master). The container will call the band object's **IDeskBand::GetBandInfo** method to request the updated information.
 
 -   DBID\_MAXIMIZEBAND
 
-    Maximize the band. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](ideskband.md).
+    Maximize the band. Set the *pvaIn* parameter to the band identifier that was received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master).
 
 -   DBID\_SHOWONLY
 
@@ -105,7 +110,7 @@ Band objects can send commands to their container through the container's [**IOl
 
 -   DBID\_PUSHCHEVRON
 
-    [Version 5](versions.md). Display a chevron menu. The container sends an [**RB\_PUSHCHEVRON**](controls.RB_PUSHCHEVRON) message, and the band object receives an [RBN\_CHEVRONPUSHED](controls.RBN_ChevronPushed) notification that prompts it to display the chevron menu. Set the [**IOleCommandTarget::Exec**](com.iolecommandtarget_exec) method's *nCmdExecOpt* parameter to the band identifier received in the most recent call to [**IDeskBand::GetBandInfo**](ideskband.md). Set the **IOleCommandTarget::Exec** method's *pvaIn* parameter to the VT\_I4 type with an application-defined value. It passes back to the band object as the *lAppValue* value of the RBN\_CHEVRONPUSHED notification.
+    [Version 5](versions.md). Display a chevron menu. The container sends an [**RB\_PUSHCHEVRON**](controls.RB_PUSHCHEVRON) message, and the band object receives an [RBN\_CHEVRONPUSHED](controls.RBN_ChevronPushed) notification that prompts it to display the chevron menu. Set the [**IOleCommandTarget::Exec**](com.iolecommandtarget_exec) method's *nCmdExecOpt* parameter to the band identifier received in the most recent call to [**IDeskBand::GetBandInfo**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master). Set the **IOleCommandTarget::Exec** method's *pvaIn* parameter to the VT\_I4 type with an application-defined value. It passes back to the band object as the *lAppValue* value of the RBN\_CHEVRONPUSHED notification.
 
 ### Band Registration
 
@@ -235,7 +240,7 @@ The first three functions are standard implementations and will not be discussed
 
 ### Required Interface Implementations
 
-The vertical Explorer Bar sample implements the four required interfaces: [**IUnknown**](com.iunknown), [**IObjectWithSite**](com.iobjectwithsite), [**IPersistStream**](com.ipersiststream), and [**IDeskBand**](ideskband.md) as part of the CExplorerBar class. The constructor, destructor, and **IUnknown** implementations are straightforward, and will not be discussed here. See the sample code for details.
+The vertical Explorer Bar sample implements the four required interfaces: [**IUnknown**](com.iunknown), [**IObjectWithSite**](com.iobjectwithsite), [**IPersistStream**](com.ipersiststream), and [**IDeskBand**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master) as part of the CExplorerBar class. The constructor, destructor, and **IUnknown** implementations are straightforward, and will not be discussed here. See the sample code for details.
 
 The following interfaces are discussed in detail.
 
@@ -255,10 +260,10 @@ In general, a [**SetSite**](com.iobjectwithsite_setsite) implementation should p
     1.  Call [**QueryInterface**](com.iunknown_queryinterface) on the site for its [**IOleWindow**](com.iolewindow) interface.
     2.  Call [**IOleWindow::GetWindow**](com.iolewindow_getwindow) to obtain the parent window's handle. Save the handle for later use. Release [**IOleWindow**](com.iolewindow) if it is no longer needed.
     3.  Create the band object's window as a child of the window obtained in the previous step. Do not create it as a visible window.
-    4.  If the band object implements [**IInputObject**](iinputobject.md), call [**QueryInterface**](com.iunknown_queryinterface) on the site for its [**IInputObjectSite**](iinputobjectsite.md) interface. Store the pointer to this interface for use later.
+    4.  If the band object implements [**IInputObject**](/windows/win32/Shobjidl/nn-shobjidl_core-iinputobject?branch=master), call [**QueryInterface**](com.iunknown_queryinterface) on the site for its [**IInputObjectSite**](/windows/win32/shobjidl_core/nn-shobjidl_core-iinputobjectsite?branch=master) interface. Store the pointer to this interface for use later.
     5.  If all steps are successful, return S\_OK. If not, return the OLE-defined error code indicating what failed.
 
-The Explorer Bar sample implements [**SetSite**](com.iobjectwithsite_setsite) in the following way. In the following code *m\_pSite* is a private member variable that holds the [**IInputObjectSite**](iinputobjectsite.md) pointer and *m\_hwndParent* holds the parent window's handle. In this sample, window creation is also handled. If the window does not exist, this method creates the Explorer Bar's window as an appropriately sized child of the parent window obtained by **SetSite**. The child window's handle is stored in *m\_hwnd*.
+The Explorer Bar sample implements [**SetSite**](com.iobjectwithsite_setsite) in the following way. In the following code *m\_pSite* is a private member variable that holds the [**IInputObjectSite**](/windows/win32/shobjidl_core/nn-shobjidl_core-iinputobjectsite?branch=master) pointer and *m\_hwndParent* holds the parent window's handle. In this sample, window creation is also handled. If the window does not exist, this method creates the Explorer Bar's window as an appropriately sized child of the parent window obtained by **SetSite**. The child window's handle is stored in *m\_hwnd*.
 
 
 ```C++
@@ -360,17 +365,17 @@ The Explorer Bar sample does not use any persistent data and has only a minimal 
 
 ### IDeskBand
 
-The [**IDeskBand**](ideskband.md) interface is specific to band objects. In addition to its one method, it inherits from [**IDockingWindow**](idockingwindow.md), which in turn inherits from [**IOleWindow**](com.iolewindow).
+The [**IDeskBand**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master) interface is specific to band objects. In addition to its one method, it inherits from [**IDockingWindow**](/windows/win32/shobjidl_core/nn-shobjidl_core-idockingwindow?branch=master), which in turn inherits from [**IOleWindow**](com.iolewindow).
 
 There are two [**IOleWindow**](com.iolewindow) methods: [**GetWindow**](com.iolewindow_getwindow) and [**IOleWindow::ContextSensitiveHelp**](com.iolewindow_contextsensitivehelp). The Explorer Bar sample's implementation of **GetWindow** returns the Explorer Bar's child window handle, *m\_hwnd*. Context-sensitive Help is not implemented, so **ContextSensitiveHelp** returns **E\_NOTIMPL**.
 
-The [**IDockingWindow**](idockingwindow.md) interface has three methods.
+The [**IDockingWindow**](/windows/win32/shobjidl_core/nn-shobjidl_core-idockingwindow?branch=master) interface has three methods.
 
--   [**IDockingWindow::ShowDW**](idockingwindow-showdw.md)
--   [**IDockingWindow::CloseDW**](idockingwindow-closedw.md)
--   [**IDockingWindow::ResizeBorderDW**](idockingwindow-resizeborderdw.md)
+-   [**IDockingWindow::ShowDW**](/windows/win32/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw?branch=master)
+-   [**IDockingWindow::CloseDW**](/windows/win32/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw?branch=master)
+-   [**IDockingWindow::ResizeBorderDW**](/windows/win32/shobjidl_core/nf-shobjidl_core-idockingwindow-resizeborderdw?branch=master)
 
-The [**ResizeBorderDW**](idockingwindow-resizeborderdw.md) method is not used with any type of band object and should always return E\_NOTIMPL. The [**ShowDW**](idockingwindow-showdw.md) method either shows or hides the Explorer Bar's window, depending on the value of its parameter.
+The [**ResizeBorderDW**](/windows/win32/shobjidl_core/nf-shobjidl_core-idockingwindow-resizeborderdw?branch=master) method is not used with any type of band object and should always return E\_NOTIMPL. The [**ShowDW**](/windows/win32/shobjidl_core/nf-shobjidl_core-idockingwindow-showdw?branch=master) method either shows or hides the Explorer Bar's window, depending on the value of its parameter.
 
 
 ```C++
@@ -387,7 +392,7 @@ STDMETHODIMP CDeskBand::ShowDW(BOOL fShow)
 
 
 
-The [**CloseDW**](idockingwindow-closedw.md) method destroys the Explorer Bar's window.
+The [**CloseDW**](/windows/win32/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw?branch=master) method destroys the Explorer Bar's window.
 
 
 ```C++
@@ -406,7 +411,7 @@ STDMETHODIMP CDeskBand::CloseDW(DWORD)
 
 
 
-The remaining method, [**GetBandInfo**](ideskband.md), is specific to **IDeskBand**. Internet Explorer uses it to specify the Explorer Bar's identifier and viewing mode. Internet Explorer also may request one or more pieces of information from the Explorer Bar by filling the **dwMask** member of the [**DESKBANDINFO**](deskbandinfo.md) structure that is passed as the third parameter. **GetBandInfo** should store the identifier and viewing mode and fill the **DESKBANDINFO** structure with the requested data. The Explorer Bar sample implements **GetBandInfo** as shown in the following code example.
+The remaining method, [**GetBandInfo**](/windows/win32/Shobjidl/nn-shobjidl_core-ideskband?branch=master), is specific to **IDeskBand**. Internet Explorer uses it to specify the Explorer Bar's identifier and viewing mode. Internet Explorer also may request one or more pieces of information from the Explorer Bar by filling the **dwMask** member of the [**DESKBANDINFO**](/windows/win32/shobjidl_core/ns-shobjidl_core-deskbandinfo?branch=master) structure that is passed as the third parameter. **GetBandInfo** should store the identifier and viewing mode and fill the **DESKBANDINFO** structure with the requested data. The Explorer Bar sample implements **GetBandInfo** as shown in the following code example.
 
 
 ```C++
@@ -468,23 +473,23 @@ STDMETHODIMP CDeskBand::GetBandInfo(DWORD dwBandID, DWORD, DESKBANDINFO *pdbi)
 
 ### Optional Interface Implementations
 
-There are two interfaces that are not required, but that may be useful to implement: [**IInputObject**](iinputobject.md) and [**IContextMenu**](icontextmenu.md). The Explorer Bar sample implements **IInputObject**. Refer to the documentation for information on how to implement **IContextMenu**.
+There are two interfaces that are not required, but that may be useful to implement: [**IInputObject**](/windows/win32/Shobjidl/nn-shobjidl_core-iinputobject?branch=master) and [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master). The Explorer Bar sample implements **IInputObject**. Refer to the documentation for information on how to implement **IContextMenu**.
 
 ### IInputObject
 
-The [**IInputObject**](iinputobject.md) interface must be implemented if a band object accepts user input. Internet Explorer implements [**IInputObjectSite**](iinputobjectsite.md) and uses **IInputObject** to maintain proper user input focus when it has more than one contained window. There are three methods that need to be implemented by an Explorer Bar.
+The [**IInputObject**](/windows/win32/Shobjidl/nn-shobjidl_core-iinputobject?branch=master) interface must be implemented if a band object accepts user input. Internet Explorer implements [**IInputObjectSite**](/windows/win32/shobjidl_core/nn-shobjidl_core-iinputobjectsite?branch=master) and uses **IInputObject** to maintain proper user input focus when it has more than one contained window. There are three methods that need to be implemented by an Explorer Bar.
 
--   [**IInputObject::UIActivateIO**](iinputobject-uiactivateio.md)
--   [**IInputObject::HasFocusIO**](iinputobject-hasfocusio.md)
--   [**IInputObject::TranslateAcceleratorIO**](iinputobject-translateacceleratorio.md)
+-   [**IInputObject::UIActivateIO**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio?branch=master)
+-   [**IInputObject::HasFocusIO**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio?branch=master)
+-   [**IInputObject::TranslateAcceleratorIO**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio?branch=master)
 
-Internet Explorer calls [**UIActivateIO**](iinputobject-uiactivateio.md) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](inputdev.setfocus) to set the focus to its window.
+Internet Explorer calls [**UIActivateIO**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinputobject-uiactivateio?branch=master) to inform the Explorer Bar that it is being activated or deactivated. When activated, the Explorer Bar sample calls [**SetFocus**](inputdev.setfocus) to set the focus to its window.
 
-Internet Explorer calls [**HasFocusIO**](iinputobject-hasfocusio.md) when it is attempting to determine which window has focus. If the Explorer Bar's window or one of its descendants has focus, **HasFocusIO** should return S\_OK. If not, it should return S\_FALSE.
+Internet Explorer calls [**HasFocusIO**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinputobject-hasfocusio?branch=master) when it is attempting to determine which window has focus. If the Explorer Bar's window or one of its descendants has focus, **HasFocusIO** should return S\_OK. If not, it should return S\_FALSE.
 
-[**TranslateAcceleratorIO**](iinputobject-translateacceleratorio.md) allows the object to process keyboard accelerators. The Explorer Bar sample does not implement this method, so it returns S\_FALSE.
+[**TranslateAcceleratorIO**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinputobject-translateacceleratorio?branch=master) allows the object to process keyboard accelerators. The Explorer Bar sample does not implement this method, so it returns S\_FALSE.
 
-The sample bar's implementation of [**IInputObjectSite**](iinputobjectsite.md) is as follows.
+The sample bar's implementation of [**IInputObjectSite**](/windows/win32/shobjidl_core/nn-shobjidl_core-iinputobjectsite?branch=master) is as follows.
 
 
 ```C++
@@ -744,7 +749,7 @@ void CDeskBand::OnPaint(const HDC hdcIn)
 
 
 
-The WM\_SETFOCUS and WM\_KILLFOCUS handlers inform the site of a focus change by calling the site's [**IInputObjectSite::OnFocusChangeIS**](iinputobjectsite-onfocuschangeis.md) method.
+The WM\_SETFOCUS and WM\_KILLFOCUS handlers inform the site of a focus change by calling the site's [**IInputObjectSite::OnFocusChangeIS**](/windows/win32/shobjidl_core/nf-shobjidl_core-iinputobjectsite-onfocuschangeis?branch=master) method.
 
 
 ```C++

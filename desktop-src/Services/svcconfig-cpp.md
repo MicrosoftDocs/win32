@@ -1,7 +1,12 @@
 ---
-Description: 'The following is a sample service configuration program.'
-ms.assetid: 'effb469a-020e-4c70-aad6-12a91bd36f68'
-title: 'SvcConfig.cpp'
+Description: The following is a sample service configuration program.
+ms.assetid: effb469a-020e-4c70-aad6-12a91bd36f68
+title: SvcConfig.cpp
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SvcConfig.cpp

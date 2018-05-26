@@ -2,13 +2,19 @@
 title: usesgetlasterror attribute
 description: The \ usesgetlasterror\ attribute signals the caller that it can call GetLastError to retrieve the error code.
 ms.assetid: 8e9ab8b5-f446-4aab-bb40-b6f78799e18e
-keywords: ["usesgetlasterror attribute MIDL"]
+keywords:
+- usesgetlasterror attribute MIDL
 topic_type:
 - apiref
 api_name:
 - usesgetlasterror
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # usesgetlasterror attribute

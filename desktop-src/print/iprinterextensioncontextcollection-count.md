@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a count of the number of IPrinterExtensionContext objects in the collection.'
-ms.assetid: 'F2279727-168D-451B-8EDB-8A4A36ACA08F'
-title: 'IPrinterExtensionContextCollection::Count property'
+---
+Description: Gets a count of the number of IPrinterExtensionContext objects in the collection.
+ms.assetid: F2279727-168D-451B-8EDB-8A4A36ACA08F
+title: IPrinterExtensionContextCollectionCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContextCollection::Count property

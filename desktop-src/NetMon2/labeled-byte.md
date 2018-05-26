@@ -1,7 +1,12 @@
 ---
-Description: 'The LABELED\_BYTE structure defines a labeled BIT pair. The Label of the labeled BIT pair is displayed when a specific byte property value is detected.'
-ms.assetid: '6dc6a773-da75-4ffe-878f-b30ceef2acb1'
-title: 'LABELED\_BYTE structure'
+Description: The LABELED\_BYTE structure defines a labeled BIT pair. The Label of the labeled BIT pair is displayed when a specific byte property value is detected.
+ms.assetid: 6dc6a773-da75-4ffe-878f-b30ceef2acb1
+title: LABELED\_BYTE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LABELED\_BYTE structure
@@ -13,7 +18,7 @@ The **LABELED\_BYTE** structure defines a labeled BIT pair. The **Label** of the
 
 ```C++
 typedef struct _LABELED_BYTE {
-  BYTE  Value;
+  BYTE  Value;
   LPSTR Label;
 } LABELED_BYTE, *LPLABELED_BYTE;
 ```
@@ -48,8 +53,8 @@ The **lpLabeledByteTable** member of the [SET](set.md) structure points to an ar
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The **lpLabeledByteTable** member of the [SET](set.md) structure points to an ar
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

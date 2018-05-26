@@ -4,13 +4,16 @@ description: Undo the current failover for the collection. After this operation,
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f8c12d3c-89cd-423c-ae99-0a7a22595f88'
-ms.prod: 'windows-server-dev'
+ms.assetid: f8c12d3c-89cd-423c-ae99-0a7a22595f88
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RevertFailover method", "RevertFailover method, Msvm_CollectionReplicationService class", "Msvm_CollectionReplicationService class, RevertFailover method"]
+keywords:
+- RevertFailover method
+- RevertFailover method, Msvm_CollectionReplicationService class
+- Msvm_CollectionReplicationService class, RevertFailover method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RevertFailover method of the Msvm\_CollectionReplicationService class
@@ -32,8 +38,8 @@ This operation will work only for the collection which is in failed over state a
 
 ```mof
 uint32 RevertFailover(
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [out] CIM_ConcreteJob      REF Job
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -110,7 +116,7 @@ An optional reference that is returned if the operation is executed asynchronous
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -124,9 +130,9 @@ An optional reference that is returned if the operation is executed asynchronous
 [**Msvm\_CollectionReplicationService**](msvm-collectionreplicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

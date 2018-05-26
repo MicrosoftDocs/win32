@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Vista and Windows Server 2008 contain new and changed features that a backup application developer must be aware of.'
-ms.assetid: 'f7529db0-8804-4a5d-a7b1-51725ef99ac3'
+Description: Windows Vista and Windows Server 2008 contain new and changed features that a backup application developer must be aware of.
+ms.assetid: f7529db0-8804-4a5d-a7b1-51725ef99ac3
 title: Application Compatibility for Backup and Restore
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Compatibility for Backup and Restore

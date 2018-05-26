@@ -4,10 +4,13 @@ description: The Simple Mail Transport Protocol (SMTP) snap-in is used to manage
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '91f6959d-6ff9-4712-9b8f-a5680553350e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 91f6959d-6ff9-4712-9b8f-a5680553350e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the SMTP Snap-in

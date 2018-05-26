@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the dot product of two 4D vectors.'
-ms.assetid: '565dede8-6cc8-4313-9480-2f252cac94f2'
+---
+Description: Determines the dot product of two 4D vectors.
+ms.assetid: 565dede8-6cc8-4313-9480-2f252cac94f2
 title: D3DXVec4Dot function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Dot function

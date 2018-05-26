@@ -1,8 +1,9 @@
 ---
 title: WM\_CTLCOLORBTN message
-description: The WM\_CTLCOLORBTN message is sent to the parent window of a button before drawing the button. The parent window can change the button's text and background colors. However, only owner-drawn buttons respond to the parent window processing this message.
-ms.assetid: 'fd2ab917-ffd6-4f71-9b1c-0ecdfe53ae8b'
-keywords: ["WM_CTLCOLORBTN message Windows Controls"]
+description: The WM\_CTLCOLORBTN message is sent to the parent window of a button before drawing the button. The parent window can change the buttons text and background colors. However, only owner-drawn buttons respond to the parent window processing this message.
+ms.assetid: fd2ab917-ffd6-4f71-9b1c-0ecdfe53ae8b
+keywords:
+- WM_CTLCOLORBTN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CTLCOLORBTN message
@@ -67,8 +73,8 @@ If a dialog box procedure handles this message, it should cast the desired retur
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ If a dialog box procedure handles this message, it should cast the desired retur
 [**SelectPalette**](https://msdn.microsoft.com/library/windows/desktop/dd162958)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

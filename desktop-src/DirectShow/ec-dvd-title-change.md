@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates when the current DVD title number changes.'
-ms.assetid: '9888f2ec-fc2d-4d6d-a03d-b381373337eb'
-title: 'EC\_DVD\_TITLE\_CHANGE'
+Description: Indicates when the current DVD title number changes.
+ms.assetid: 9888f2ec-fc2d-4d6d-a03d-b381373337eb
+title: EC\_DVD\_TITLE\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_TITLE\_CHANGE
@@ -55,9 +60,9 @@ This event is raised in the title domain.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

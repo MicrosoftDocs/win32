@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_FUNCTIONAL\_CATEGORY\_SMS'
-ms.assetid: 'dbb536a6-9c12-459d-8098-ebe4fc4c8f2f'
-title: 'WPD\_FUNCTIONAL\_CATEGORY\_SMS'
+Description: WPD\_FUNCTIONAL\_CATEGORY\_SMS
+ms.assetid: dbb536a6-9c12-459d-8098-ebe4fc4c8f2f
+title: WPD\_FUNCTIONAL\_CATEGORY\_SMS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FUNCTIONAL\_CATEGORY\_SMS

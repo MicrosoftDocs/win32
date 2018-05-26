@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice PhysicalAddresses method
 description: Returns a vector of physical addresses.
-ms.assetid: '85F48EE3-14A1-46DA-A3C3-F94A8A43CF92'
-keywords: ["PhysicalAddresses method Media Streaming API", "PhysicalAddresses method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , PhysicalAddresses method"]
+ms.assetid: 85F48EE3-14A1-46DA-A3C3-F94A8A43CF92
+keywords:
+- PhysicalAddresses method Media Streaming API
+- PhysicalAddresses method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , PhysicalAddresses method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.PhysicalAddresses
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::PhysicalAddresses method
@@ -20,7 +28,7 @@ Returns a vector of physical addresses.
 
 ```C++
 HRESULT PhysicalAddresses(
-  [out] IVector< HSTRING > **value
+  [out] IVector< HSTRING > **value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

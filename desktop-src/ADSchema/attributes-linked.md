@@ -4,10 +4,13 @@ description: The following are the linked attributes defined by Active Directory
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ed64c0bd-3d55-48c4-83b8-771025f3582a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ed64c0bd-3d55-48c4-83b8-771025f3582a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Linked Attributes

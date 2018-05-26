@@ -1,8 +1,17 @@
 ---
 title: The Constructor
 description: The Constructor
-ms.assetid: '227aac8a-8bd1-4f94-9c2a-5371f87afbb7'
-keywords: ["Windows Media Player plug-ins,constructor", "plug-ins,constructor", "user interface plug-ins,constructor", "UI plug-ins,constructor"]
+ms.assetid: 227aac8a-8bd1-4f94-9c2a-5371f87afbb7
+keywords:
+- Windows Media Player plug-ins,constructor
+- plug-ins,constructor
+- user interface plug-ins,constructor
+- UI plug-ins,constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Constructor

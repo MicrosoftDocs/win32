@@ -4,13 +4,15 @@ description: The CIM\_Setting class represents configuration-related and operati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '490e0f30-10db-4210-ab7b-14b745c08bca'
-ms.prod: 'windows-server-dev'
+ms.assetid: 490e0f30-10db-4210-ab7b-14b745c08bca
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Setting class", "CIM_Setting class, described"]
+keywords:
+- CIM_Setting class
+- CIM_Setting class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Setting class
@@ -106,16 +111,16 @@ The identifier by which the CIM\_Setting object is known.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

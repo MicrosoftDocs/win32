@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the manufacturer and model metadata for the device to be implemented. This element is used for device implementations (hosts) only.'
-ms.assetid: '2ebd3092-39aa-469c-a8c9-23f373ba0e66'
+Description: Defines the manufacturer and model metadata for the device to be implemented. This element is used for device implementations (hosts) only.
+ms.assetid: 2ebd3092-39aa-469c-a8c9-23f373ba0e66
 title: thisModelMetadata element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # thisModelMetadata element
@@ -78,14 +83,14 @@ If a [**PnPXDeviceCategory**](pnpxdevicecategory.md) element is present, then at
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

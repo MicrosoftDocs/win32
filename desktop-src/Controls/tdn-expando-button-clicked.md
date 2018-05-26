@@ -1,8 +1,9 @@
 ---
 title: TDN\_EXPANDO\_BUTTON\_CLICKED notification code
-description: Sent by the task dialog when the user clicks on the dialog's expando button. This notification is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
-ms.assetid: '15e2a9d0-9986-4fb1-a15e-dd4839e45146'
-keywords: ["TDN_EXPANDO_BUTTON_CLICKED notification code Windows Controls"]
+description: Sent by the task dialog when the user clicks on the dialogs expando button. This notification is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
+ms.assetid: 15e2a9d0-9986-4fb1-a15e-dd4839e45146
+keywords:
+- TDN_EXPANDO_BUTTON_CLICKED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDN\_EXPANDO\_BUTTON\_CLICKED notification code
 
-Sent by the task dialog when the user clicks on the dialog's expando button. This notification is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.
+Sent by the task dialog when the user clicks on the dialog's expando button. This notification is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.
 
 
 ```C++
@@ -59,15 +65,15 @@ The example in the Syntax section shows the cast to wParam before sending the no
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

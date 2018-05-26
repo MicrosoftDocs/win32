@@ -1,7 +1,12 @@
 ---
 title: Package Elements
 description: This section contains the elements that you use to write your troubleshooting manifest.
-ms.assetid: '0186e5e2-8beb-4c12-9234-80aecd31e044'
+ms.assetid: 0186e5e2-8beb-4c12-9234-80aecd31e044
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Package Elements

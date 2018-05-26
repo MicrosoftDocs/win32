@@ -1,7 +1,12 @@
 ---
-Description: 'WS-Discovery defines logical addressing using URIs based on the urn:uuid: format.'
-ms.assetid: 'ed152f53-2996-4b90-8c4a-d187af0a598b'
+Description: WS-Discovery defines logical addressing using URIs based on the urnuuid format.
+ms.assetid: ed152f53-2996-4b90-8c4a-d187af0a598b
 title: Using Logical and Physical Addresses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Logical and Physical Addresses

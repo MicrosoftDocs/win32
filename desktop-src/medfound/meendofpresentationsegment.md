@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the sequencer source when a segment is completed and is followed by another segment. When the final segment is completed, the sequencer source raises an MEEndOfPresentation event.'
-ms.assetid: '1be13c9a-d454-4642-b26b-556f2461b705'
+---
+Description: Raised by the sequencer source when a segment is completed and is followed by another segment. When the final segment is completed, the sequencer source raises an MEEndOfPresentation event.
+ms.assetid: 1be13c9a-d454-4642-b26b-556f2461b705
 title: MEEndOfPresentationSegment event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEEndOfPresentationSegment event
@@ -12,7 +17,7 @@ The Media Session forwards this event to the application.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

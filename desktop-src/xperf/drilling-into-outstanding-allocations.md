@@ -1,7 +1,12 @@
 ---
 title: Drilling into Outstanding Allocations
 description: Drilling into Outstanding Allocations
-ms.assetid: 'c6ccea81-8326-435b-b150-03dbcad22430'
+ms.assetid: c6ccea81-8326-435b-b150-03dbcad22430
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drilling into Outstanding Allocations

@@ -1,7 +1,12 @@
 ---
 title: log - ps
 description: Full precision log₂(x).
-ms.assetid: 'e540a082-5916-4111-b908-bb229c9e7dc8'
+ms.assetid: e540a082-5916-4111-b908-bb229c9e7dc8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # log - ps

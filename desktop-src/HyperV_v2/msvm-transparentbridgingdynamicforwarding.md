@@ -1,7 +1,12 @@
 ---
-Description: 'Connects a transparent bridging service to a dynamic forward entry (learned MAC address).'
-ms.assetid: 'CA083F15-1E75-4EB9-BE56-95742181FDAC'
-title: 'Msvm\_TransparentBridgingDynamicForwarding class'
+Description: Connects a transparent bridging service to a dynamic forward entry (learned MAC address).
+ms.assetid: CA083F15-1E75-4EB9-BE56-95742181FDAC
+title: Msvm\_TransparentBridgingDynamicForwarding class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TransparentBridgingDynamicForwarding class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_TransparentBridgingDynamicForwarding : CIM_TransparentBridgingDynamicForwarding
 {
   Msvm_TransparentBridgingService REF Antecedent;
-  Msvm_DynamicForwardingEntry     REF Dependent;
+  Msvm_DynamicForwardingEntry     REF Dependent;
 };
 ```
 
@@ -75,8 +80,8 @@ Access to the **Msvm\_TransparentBridgingDynamicForwarding** class might be rest
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ Access to the **Msvm\_TransparentBridgingDynamicForwarding** class might be rest
 [**CIM\_TransparentBridgingDynamicForwarding**](https://msdn.microsoft.com/library/mt146307)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

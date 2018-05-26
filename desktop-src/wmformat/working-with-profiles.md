@@ -1,8 +1,19 @@
 ---
 title: Working with Profiles
 description: Working with Profiles
-ms.assetid: 'e1e31632-0db7-47db-a992-f5db9d8824c1'
-keywords: ["Windows Media Format SDK,profiles", "Windows Media Format SDK,IWMCodecInfo3 interface", "profiles,about", "profiles,Windows Media Format SDK", "profiles,IWMCodecInfo3", "IWMCodecInfo3,about"]
+ms.assetid: e1e31632-0db7-47db-a992-f5db9d8824c1
+keywords:
+- Windows Media Format SDK,profiles
+- Windows Media Format SDK,IWMCodecInfo3 interface
+- profiles,about
+- profiles,Windows Media Format SDK
+- profiles,IWMCodecInfo3
+- IWMCodecInfo3,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Profiles
@@ -11,7 +22,7 @@ This section describes how to design, create, and modify profiles. Each profile 
 
 The main purpose of profiles is to provide stream configuration information to the writer object. The writer uses the information in a profile to coordinate with the codecs the process of compressing inputs. When you configure a compressed media stream, you specify the codec used to compress the data and the settings the codec uses. You can also create profiles for uncompressed streams. Several uncompressed stream types are supported. Even though they do not require a codec, these types have their own requirements for stream configuration. For more information, see [Configuring Streams](configuring-streams.md) and [Using Uncompressed Audio and Video Streams](using-uncompressed-audio-and-video-streams.md).
 
-Stream configuration information for a stream using one of the Windows Media codecs must be obtained from the codec by using the methods of the [**IWMCodecInfo3**](iwmcodecinfo3.md) interface. The procedure for using stream formats is different for video codecs than it is for audio codecs, but in both cases you must begin by obtaining the format from the codec. You should never try to manually configure a stream using one of the Windows Media codecs, because small errors in the profile can have a profound effect on the ASF file.
+Stream configuration information for a stream using one of the Windows Media codecs must be obtained from the codec by using the methods of the [**IWMCodecInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3?branch=master) interface. The procedure for using stream formats is different for video codecs than it is for audio codecs, but in both cases you must begin by obtaining the format from the codec. You should never try to manually configure a stream using one of the Windows Media codecs, because small errors in the profile can have a profound effect on the ASF file.
 
 The basic steps in creating and/or modifying profiles are:
 

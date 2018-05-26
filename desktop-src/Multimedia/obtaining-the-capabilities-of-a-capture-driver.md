@@ -1,13 +1,21 @@
 ---
 title: Obtaining the Capabilities of a Capture Driver
 description: Obtaining the Capabilities of a Capture Driver
-ms.assetid: '17e90ca6-3646-41cb-8d7a-a2102bc16cc5'
-keywords: ["WM_CAP_DRIVER_GET_CAPS message", "capDriverGetCaps macro", "CAPDRIVERCAPS structure"]
+ms.assetid: 17e90ca6-3646-41cb-8d7a-a2102bc16cc5
+keywords:
+- WM_CAP_DRIVER_GET_CAPS message
+- capDriverGetCaps macro
+- CAPDRIVERCAPS structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining the Capabilities of a Capture Driver
 
-The [**WM\_CAP\_DRIVER\_GET\_CAPS**](wm-cap-driver-get-caps.md) message returns the capabilities of the capture driver and underlying hardware in the [**CAPDRIVERCAPS**](capdrivercaps.md) structure. Each time an application connects a new capture driver to the capture window, it should update the **CAPDRIVERCAPS** structure. The following example uses the [**capDriverGetCaps**](capdrivergetcaps.md) macro to obtain the capture driver capabilities.
+The [**WM\_CAP\_DRIVER\_GET\_CAPS**](wm-cap-driver-get-caps.md) message returns the capabilities of the capture driver and underlying hardware in the [**CAPDRIVERCAPS**](/windows/win32/Vfw/ns-vfw-tagcapdrivercaps?branch=master) structure. Each time an application connects a new capture driver to the capture window, it should update the **CAPDRIVERCAPS** structure. The following example uses the [**capDriverGetCaps**](/windows/win32/Vfw/nf-vfw-capdrivergetcaps?branch=master) macro to obtain the capture driver capabilities.
 
 
 ```C++

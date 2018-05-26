@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_ThemeColors
 description: Identifies the UI\_PKEY\_ThemeColors property.
-ms.assetid: 'd539cbaa-45dc-4f9e-830e-e81fb289b4ac'
+ms.assetid: d539cbaa-45dc-4f9e-830e-e81fb289b4ac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_ThemeColors

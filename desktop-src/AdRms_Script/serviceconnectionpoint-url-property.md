@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the service connection point (SCP) URL.'
+Description: Specifies or retrieves the service connection point (SCP) URL.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'f722f4c2-2959-4952-96e1-14bf64ba8d91'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: f722f4c2-2959-4952-96e1-14bf64ba8d91
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServiceConnectionPoint.Url property'
+title: ServiceConnectionPoint.Url property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServiceConnectionPoint.Url property
@@ -104,7 +107,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -116,9 +119,9 @@ END FUNCTION
 [**ServiceConnectionPoint**](serviceconnectionpoint-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

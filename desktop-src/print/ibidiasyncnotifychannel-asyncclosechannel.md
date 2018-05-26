@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'D2A8A131-E839-40E2-8897-DA74F7BA0FA8'
-title: 'IBidiAsyncNotifyChannel::AsyncCloseChannel method'
+---
+Description: .
+ms.assetid: D2A8A131-E839-40E2-8897-DA74F7BA0FA8
+title: IBidiAsyncNotifyChannelAsyncCloseChannel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiAsyncNotifyChannel::AsyncCloseChannel method

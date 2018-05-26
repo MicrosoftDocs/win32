@@ -1,7 +1,12 @@
 ---
 title: MaxWordlistIo
 description: MaxWordlistIo
-ms.assetid: 'e0c067d4-b210-4686-b61e-90cf157e9883'
+ms.assetid: e0c067d4-b210-4686-b61e-90cf157e9883
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxWordlistIo

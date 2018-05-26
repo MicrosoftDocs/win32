@@ -4,17 +4,21 @@ description: Contains the node identifier of the drain target during a targeted 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CAB15B3E-D6F4-4F52-98C7-22B7F5BA71B5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CAB15B3E-D6F4-4F52-98C7-22B7F5BA71B5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["NodeDrainTarget Failover Cluster"]
+keywords:
+- NodeDrainTarget Failover Cluster
 topic_type:
 - apiref
 api_name:
 - NodeDrainTarget
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NodeDrainTarget
@@ -27,14 +31,14 @@ Contains the node identifier of the drain target during a targeted drain.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | -1                                        |
 | Maximum   | 0x00000000                                |
 | Default   | -1                                        |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Contains the node identifier of the drain target during a targeted drain.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Contains the node identifier of the drain target during a targeted drain.
 [Node Common Properties](node-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

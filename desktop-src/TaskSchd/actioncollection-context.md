@@ -1,8 +1,11 @@
 ---
 title: ActionCollection.Context property
 description: For scripting, gets or sets the identifier of the principal for the task.
-ms.assetid: '5d8ac31c-ce07-4801-a04e-e12e996b88c6'
-keywords: ["Context property Task Scheduler", "Context property Task Scheduler , ActionCollection object", "ActionCollection object Task Scheduler , Context property"]
+ms.assetid: 5d8ac31c-ce07-4801-a04e-e12e996b88c6
+keywords:
+- Context property Task Scheduler
+- Context property Task Scheduler , ActionCollection object
+- ActionCollection object Task Scheduler , Context property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionCollection.Context property
@@ -36,8 +44,8 @@ The identifier of the principal for the task. The identifier that is specified h
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -53,9 +61,9 @@ The identifier of the principal for the task. The identifier that is specified h
 [**ActionCollection**](actioncollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

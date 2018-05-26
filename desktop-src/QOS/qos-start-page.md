@@ -1,15 +1,22 @@
 ---
 title: Quality of Service
 description: Quality of Service (QOS), an industry-wide initiative, enables more efficient use of the network.
-ms.assetid: '2a017166-eba4-4dd9-b623-f0d696e11de2'
-keywords: ["Quality of Service QOS , start page", "QOS QOS See Quality of Service QOS"]
+ms.assetid: 2a017166-eba4-4dd9-b623-f0d696e11de2
+keywords:
+- Quality of Service QOS , start page
+- QOS QOS See Quality of Service QOS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quality of Service
 
 ## Purpose
 
-Quality of Service (QOS), an industry-wide initiative, enables more efficient use of the network. The Internet Engineering Task Force (IETF) has provided many documents in the form of Internet Drafts and Request for Comments (RFC) that outline such capabilities—including those provided by the Intserv, Diffserv, ISSLL, and RAP IETF working groups, among others.
+Quality of Service (QOS), an industry-wide initiative, enables more efficient use of the network. The Internet Engineering Task Force (IETF) has provided many documents in the form of Internet Drafts and Request for Comments (RFC) that outline such capabilities including those provided by the Intserv, Diffserv, ISSLL, and RAP IETF working groups, among others.
 
 The goal of Quality of Service is to provide preferential treatment to certain subsets of data, enabling that data to traverse the traditionally best-effort Internet or intranet with higher quality transmission. Quality of Service in Windows is a collection of components that enable differentiation and management of higher quality data transmissions across the network. The collection of QOS components included in Windows constitutes the Microsoft implementation of the IETF vision of Quality of Service.
 
@@ -29,9 +36,9 @@ Programmable QOS components are designed for use by C/C++ programmers. Familiari
 
 ## Run-time requirements
 
-Quality of Service requires Windows 2000 or later. RSVP Signaling and Admission Control Service (ACS) are supported only on Windows 2000 and are not implemented on subsequent versions of Windows. Also, certain QOS functions require administrative privilege to execute; such component requirements are specified where appropriate.
+Quality of Service requires Windows 2000 or later. RSVP Signaling and Admission Control Service (ACS) are supported only on Windows 2000 and are not implemented on subsequent versions of Windows. Also, certain QOS functions require administrative privilege to execute; such component requirements are specified where appropriate.
 
-The Quality Windows Audio/Video Experience (qWAVE) API is available only in Windows Vista and later.
+The Quality Windows Audio/Video Experience (qWAVE) API is available only in Windows Vista and later.
 
 ## In this section
 
@@ -45,7 +52,7 @@ The Quality Windows Audio/Video Experience (qWAVE) API is available only in Wind
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -54,9 +61,9 @@ The Quality Windows Audio/Video Experience (qWAVE) API is available only in Wind
 [Windows Sockets 2](https://msdn.microsoft.com/library/windows/desktop/ms740673)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

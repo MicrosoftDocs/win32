@@ -1,7 +1,12 @@
 ---
-Description: 'Step 3.'
-ms.assetid: 'b2b5dafc-d38d-4ec3-a390-55229495b4f9'
-title: 'Step 3. Support Media Type Negotiation'
+Description: Step 3.
+ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
+title: Step 3. Support Media Type Negotiation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3. Support Media Type Negotiation
@@ -10,7 +15,7 @@ This is step 3 of the tutorial [Writing Transform Filters](writing-transform-fil
 
 When two pins connect, they must agree on a media type for the connection. The media type describes the format of the data. Without the media type, a filter might deliver one kind of data, only to have another filter treat it as something else.
 
-The basic mechanism for negotiating media types is the [**IPin::ReceiveConnection**](ipin-receiveconnection.md) method. The output pin calls this method on the input pin with a proposed media type. The input pin accepts the connection or rejects it. If it rejects the connection, the output pin can try another media type. If no suitable types are found, the connection fails. Optionally, the input pin can advertise a list of types that it prefers, through the [**IPin::EnumMediaTypes**](ipin-enummediatypes.md) method. The output pin can use this list when it proposes media types, although it does not have to.
+The basic mechanism for negotiating media types is the [**IPin::ReceiveConnection**](/windows/win32/Strmif/nf-strmif-ipin-receiveconnection?branch=master) method. The output pin calls this method on the input pin with a proposed media type. The input pin accepts the connection or rejects it. If it rejects the connection, the output pin can try another media type. If no suitable types are found, the connection fails. Optionally, the input pin can advertise a list of types that it prefers, through the [**IPin::EnumMediaTypes**](/windows/win32/Strmif/nf-strmif-ipin-enummediatypes?branch=master) method. The output pin can use this list when it proposes media types, although it does not have to.
 
 The **CTransformFilter** class implements a general framework for this process, as follows:
 

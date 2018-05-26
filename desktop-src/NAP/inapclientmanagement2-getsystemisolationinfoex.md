@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement2 GetSystemIsolationInfoEx method
 description: Retrieves information about the isolation state and extended isolation state of the NapClient.
-ms.assetid: '614bcf19-873e-4043-98b2-dcb152bae3e2'
-keywords: ["GetSystemIsolationInfoEx method NAP", "GetSystemIsolationInfoEx method NAP , INapClientManagement2 interface", "INapClientManagement2 interface NAP , GetSystemIsolationInfoEx method"]
+ms.assetid: 614bcf19-873e-4043-98b2-dcb152bae3e2
+keywords:
+- GetSystemIsolationInfoEx method NAP
+- GetSystemIsolationInfoEx method NAP , INapClientManagement2 interface
+- INapClientManagement2 interface NAP , GetSystemIsolationInfoEx method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement2::GetSystemIsolationInfoEx method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetSystemIsolationInfoEx** method retrieves information about the isolation state and extended isolation state of the NapClient.
 
@@ -27,8 +35,8 @@ The **GetSystemIsolationInfoEx** method retrieves information about the isolatio
 
 ```C++
 HRESULT GetSystemIsolationInfoEx(
-  [out] IsolationInfoEx **isolationInfo,
-  [out] BOOL            *unknownConnections
+  [out] IsolationInfoEx **isolationInfo,
+  [out] BOOL            *unknownConnections
 ) const;
 ```
 
@@ -41,7 +49,7 @@ HRESULT GetSystemIsolationInfoEx(
 *isolationInfo* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**IsolationInfoEx**](isolationinfoex.md) structure that contains isolation state information.
+A pointer to a pointer to an [**IsolationInfoEx**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfoex?branch=master) structure that contains isolation state information.
 
 </dd> <dt>
 
@@ -67,13 +75,13 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Remarks
 
 The isolation information that is retrieved does not reflect unknown states.
 
-The SHA must free the [**IsolationInfoEx**](isolationinfoex.md) structure by calling [**FreeIsolationInfoEx**](freeisolationinfoex.md).
+The SHA must free the [**IsolationInfoEx**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfoex?branch=master) structure by calling [**FreeIsolationInfoEx**](freeisolationinfoex.md).
 
 ## Requirements
 
@@ -81,8 +89,8 @@ The SHA must free the [**IsolationInfoEx**](isolationinfoex.md) structure by cal
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -96,9 +104,9 @@ The SHA must free the [**IsolationInfoEx**](isolationinfoex.md) structure by cal
 [**INapClientManagement2**](inapclientmanagement2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

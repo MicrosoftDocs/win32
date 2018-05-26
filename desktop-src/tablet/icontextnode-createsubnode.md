@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a new child IContextNode object.'
-ms.assetid: '35d2b641-fada-418b-9374-0303c7d318e5'
-title: 'IContextNode::CreateSubNode method'
+Description: Creates a new child IContextNode object.
+ms.assetid: 35d2b641-fada-418b-9374-0303c7d318e5
+title: IContextNodeCreateSubNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::CreateSubNode method
@@ -13,8 +18,8 @@ Creates a new child [**IContextNode**](icontextnode.md) object.
 
 ```C++
 HRESULT CreateSubNode(
-  [in]  const GUID         *pNodeType,
-  [out]       IContextNode **ppContextNodeCreated
+  [in]  const GUID         *pNodeType,
+  [out]       IContextNode **ppContextNodeCreated
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppContextNodeCreated* when you no longer need to use the context node.
 
- 
+ 
 
 The new [**IContextNode**](icontextnode.md) is added to this context node's collection of child nodes (see [**IContextNode::GetSubNodes**](icontextnode-getsubnodes.md)). When there are existing child nodes, the newly created **IContextNode** is added as the last child node.
 
@@ -59,7 +64,7 @@ For a list of context node types, see [Context Node Types](context-node-types.md
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -79,9 +84,9 @@ For a list of context node types, see [Context Node Types](context-node-types.md
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

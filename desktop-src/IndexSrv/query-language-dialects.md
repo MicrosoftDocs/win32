@@ -1,7 +1,12 @@
 ---
 title: Query-Language Dialects
 description: Query-Language Dialects
-ms.assetid: '2cf61134-2096-4de4-b231-d23502293889'
+ms.assetid: 2cf61134-2096-4de4-b231-d23502293889
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query-Language Dialects

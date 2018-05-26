@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a PS2 mouse device.'
-ms.assetid: '77CFA2E9-E422-464C-B124-6F7D3D56BA4C'
-title: 'Msvm\_Ps2Mouse class'
+Description: Represents a PS2 mouse device.
+ms.assetid: 77CFA2E9-E422-464C-B124-6F7D3D56BA4C
+title: Msvm\_Ps2Mouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Ps2Mouse class
@@ -11,7 +16,7 @@ Represents a PS2 mouse device. Instances of this class are logical devices that 
 > [!Note]  
 > This class is not available to generation 2 virtual machines.
 
- 
+ 
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -21,50 +26,50 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Ps2Mouse : CIM_PointingDevice
 {
-  string   InstanceID;
-  string   Caption = "Mouse";
-  string   Description = "Microsoft Emulated Mouse";
-  string   ElementName = "Mouse";
+  string   InstanceID;
+  string   Caption = "Mouse";
+  string   Description = "Microsoft Emulated Mouse";
+  string   ElementName = "Mouse";
   datetime InstallDate;
-  string   Name = "Mouse";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Mouse";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_PS2Mouse";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  boolean  IsLocked = False;
-  uint16   PointingType = 3;
-  uint8    NumberOfButtons = 5;
-  uint16   Handedness = 2;
-  uint32   Resolution;
-  boolean  AbsoluteCoordinates = False;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_PS2Mouse";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  boolean  IsLocked = False;
+  uint16   PointingType = 3;
+  uint8    NumberOfButtons = 5;
+  uint16   Handedness = 2;
+  uint32   Resolution;
+  boolean  AbsoluteCoordinates = False;
 };
 ```
 
@@ -99,7 +104,7 @@ The **Msvm\_Ps2Mouse** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -139,7 +144,7 @@ Any additional availability and status of the device, beyond that specified in t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -162,7 +167,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -399,7 +404,7 @@ The configuration of the pointing device for right-hand or left-hand operation. 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -656,7 +661,7 @@ The type of the pointing device. This property is inherited from [**CIM\_Pointin
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -751,7 +756,7 @@ The last requested or desired state for the element. This property is inherited 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -888,8 +893,8 @@ Access to the **Msvm\_Ps2Mouse** class might be restricted by UAC Filtering. For
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -909,9 +914,9 @@ Access to the **Msvm\_Ps2Mouse** class might be restricted by UAC Filtering. For
 [Input Classes](input-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

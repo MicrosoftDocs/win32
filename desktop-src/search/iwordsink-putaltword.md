@@ -1,7 +1,12 @@
-﻿---
-Description: 'Puts an alternative word and its position in the IWordSink object.'
-ms.assetid: '5C8A9B30-F9B5-42E9-ADAC-A11230F0C2FA'
-title: 'IWordSink::PutAltWord method'
+---
+Description: Puts an alternative word and its position in the IWordSink object.
+ms.assetid: 5C8A9B30-F9B5-42E9-ADAC-A11230F0C2FA
+title: IWordSinkPutAltWord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWordSink::PutAltWord method
@@ -71,7 +76,7 @@ This method can return one of these values.
 
 ## Remarks
 
-**PutAltWord** puts an alternative form of a word in the [**IWordSink**](iwordsink.md). The word is put in the same position as the original word in the text source (*pTextSource* in [**IWordBreaker::BreakText**](search._search_iwordbreaker_breaktext)). By default, **PutAltWord** terminates words with a **WORDREP\_BREAK\_EOW** break type from the [**WORDREP\_BREAK\_TYPE**](wordrep-break-type.md) enumerated type.
+**PutAltWord** puts an alternative form of a word in the [**IWordSink**](iwordsink.md). The word is put in the same position as the original word in the text source (*pTextSource* in [**IWordBreaker::BreakText**](search._search_iwordbreaker_breaktext)). By default, **PutAltWord** terminates words with a **WORDREP\_BREAK\_EOW** break type from the [**WORDREP\_BREAK\_TYPE**](/windows/win32/query/?branch=master) enumerated type.
 
 ## Requirements
 

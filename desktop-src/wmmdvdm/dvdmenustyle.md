@@ -1,14 +1,20 @@
 ---
 title: DVDMenuStyle element
 description: The boundary tag for the individual menu style object.
-ms.assetid: '5bb87bc6-daf5-4517-a4b0-2b1096f84899'
-keywords: ["DVDMenuStyle element Windows Movie Maker and DVD Maker"]
+ms.assetid: 5bb87bc6-daf5-4517-a4b0-2b1096f84899
+keywords:
+- DVDMenuStyle element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - DVDMenuStyle
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVDMenuStyle element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

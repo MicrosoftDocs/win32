@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enumerates the certificate template names.'
-ms.assetid: '4741eb0d-b8e0-468c-8a00-9ccacb52a9a7'
-title: 'ISCrdEnr::enumCertTemplateName method'
+---
+Description: Enumerates the certificate template names.
+ms.assetid: 4741eb0d-b8e0-468c-8a00-9ccacb52a9a7
+title: ISCrdEnrenumCertTemplateName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::enumCertTemplateName method

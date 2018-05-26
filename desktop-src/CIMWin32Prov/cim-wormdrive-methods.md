@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_WORMDrive class exposes the following methods.'
+Description: The CIM\_WORMDrive class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '877CC484-EBBE-4719-85B9-50C04A8A61FE'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 877CC484-EBBE-4719-85B9-50C04A8A61FE
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_WORMDrive Methods'
+title: CIM\_WORMDrive Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_WORMDrive Methods

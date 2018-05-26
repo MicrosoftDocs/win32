@@ -1,7 +1,12 @@
-﻿---
-Description: 'The StartTrace function registers and starts an event tracing session.'
-ms.assetid: 'c040514a-733d-44b9-8300-a8341d2630b3'
+---
+Description: The StartTrace function registers and starts an event tracing session.
+ms.assetid: c040514a-733d-44b9-8300-a8341d2630b3
 title: StartTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartTrace function

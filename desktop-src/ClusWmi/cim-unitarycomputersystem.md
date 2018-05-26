@@ -4,13 +4,15 @@ description: A class derived from ComputerSystem that represents a Desktop, Mobi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0fae5ba-4bf5-4ed6-9199-dbc9002bb386'
-ms.prod: 'windows-server-dev'
+ms.assetid: d0fae5ba-4bf5-4ed6-9199-dbc9002bb386
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_UnitaryComputerSystem class", "CIM_UnitaryComputerSystem class, described"]
+keywords:
+- CIM_UnitaryComputerSystem class
+- CIM_UnitaryComputerSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_UnitaryComputerSystem class
@@ -52,25 +57,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{903487A9-1E55-4489-9389-4CEE0AE6B236}"), AMENDMENT]
 class CIM_UnitaryComputerSystem : CIM_ComputerSystem
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  string   Roles[];
-  string   NameFormat;
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Dedicated[];
-  string   InitialLoadInfo[];
-  string   LastLoadInfo;
-  uint16   ResetCapability;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   PowerState;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  string   Roles[];
+  string   NameFormat;
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Dedicated[];
+  string   InitialLoadInfo[];
+  string   LastLoadInfo;
+  uint16   ResetCapability;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   PowerState;
 };
 ```
 
@@ -93,7 +98,7 @@ The **CIM\_UnitaryComputerSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -846,7 +851,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -860,9 +865,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Invokes the driver segmentation filter and passes the unfiltered image cached by the IWiaPreview::GetNewPreview method to the filter.'
-ms.assetid: '4ae817b5-7091-432e-b004-0e53ae14fdb2'
-title: 'IWiaPreview::DetectRegions method'
+---
+Description: Invokes the driver segmentation filter and passes the unfiltered image cached by the IWiaPreviewGetNewPreview method to the filter.
+ms.assetid: 4ae817b5-7091-432e-b004-0e53ae14fdb2
+title: IWiaPreviewDetectRegions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaPreview::DetectRegions method
@@ -56,7 +61,7 @@ An application must call [**IWiaPreview::GetNewPreview**](-wia-iwiapreview-getne
 
 When the Windows Image Acquisition (WIA) 2.0 Preview Component calls **IWiaPreview::DetectRegions**, it invokes the driver segmentation filter and passes the [**IWiaItem2**](-wia-iwiaitem2.md) interface that was previously passed to [**IWiaPreview::GetNewPreview**](-wia-iwiapreview-getnewpreview.md). It also passes the internally cached image to the filter. The segmentation filter uses the cached image to create the child extents.
 
-If an application changes any properties of the [**IWiaItem2**](-wia-iwiaitem2.md) interface after it calls [**IWiaPreview::GetNewPreview**](-wia-iwiapreview-getnewpreview.md), then the original properties must be restored before the application calls **IWiaPreview::DetectRegions**. Use [**GetPropertyStream**](-wia-iwiapropertystorage-getpropertystream.md) and [**SetPropertyStream**](-wia-iwiapropertystorage-setpropertystream.md) to restore the original properties.
+If an application changes any properties of the [**IWiaItem2**](-wia-iwiaitem2.md) interface after it calls [**IWiaPreview::GetNewPreview**](-wia-iwiapreview-getnewpreview.md), then the original properties must be restored before the application calls **IWiaPreview::DetectRegions**. Use [**GetPropertyStream**](/windows/win32/wia_xp/nf-wia_xp-iwiapropertystorage-getpropertystream?branch=master) and [**SetPropertyStream**](/windows/win32/wia_xp/nf-wia_xp-iwiapropertystorage-setpropertystream?branch=master) to restore the original properties.
 
 **IWiaPreview::DetectRegions** is used to determine the "sub-regions" of the cached image. For each sub-region detected, a new child WIA 2.0 item is created under the [**IWiaItem2**](-wia-iwiaitem2.md) interface. For each child item, the segmentation filter must set the values for the following WIA 2.0 properties: WIA\_IPS\_XPOS, WIA\_IPS\_YPOS, WIA\_IPS\_XEXTENT, and WIA\_IPS\_YEXTENT. A more advanced filter sets other WIA 2.0 properties, such as WIA\_IPS\_DESKEW\_X and WIA\_IPS\_DESKEW\_Y, if the driver supports de-skewing. The WIA\_IPS\_XPOS, WIA\_IPS\_YPOS, WIA\_IPS\_XEXTENT, and WIA\_IPS\_YEXTENT properties represent the bounding rectangle of the area to scan.
 

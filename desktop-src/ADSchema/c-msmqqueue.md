@@ -4,17 +4,22 @@ description: MSMQ users create queues (by MMC or by MSMQ API) according to their
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '166475ba-6c5b-41bd-a9b9-8ed8ee5f12cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 166475ba-6c5b-41bd-a9b9-8ed8ee5f12cb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Queue class AD Schema", "mSMQQueue class AD Schema"]
+keywords:
+- MSMQ-Queue class AD Schema
+- mSMQQueue class AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Queue
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Queue class
@@ -35,12 +40,12 @@ MSMQ users create queues (by MMC or by MSMQ API) according to their requirements
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -68,7 +73,7 @@ MSMQ users create queues (by MMC or by MSMQ API) according to their requirements
 
 ## Windows 2000 Server Attributes
 
-This class contains the following attributes for Windows 2000 Server:
+This class contains the following attributes for Windows 2000 Server:
 
 
 
@@ -164,7 +169,7 @@ This class contains the following attributes for Windows 2000 Server:
 
 ## Windows 2000 Server Extended Rights
 
-This class contains the following extended rights for Windows 2000 Server:
+This class contains the following extended rights for Windows 2000 Server:
 
 
 
@@ -203,7 +208,7 @@ This class contains the following extended rights for Windows 2000 Server:
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -319,7 +324,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 Extended Rights
 
-This class contains the following extended rights for Windows Server 2003:
+This class contains the following extended rights for Windows Server 2003:
 
 
 
@@ -358,7 +363,7 @@ This class contains the following extended rights for Windows Server 2003:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -477,7 +482,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2003 R2 Extended Rights
 
-This class contains the following extended rights for Windows Server 2003 R2:
+This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
@@ -516,7 +521,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -646,7 +651,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 Extended Rights
 
-This class contains the following extended rights for Windows Server 2008:
+This class contains the following extended rights for Windows Server 2008:
 
 
 
@@ -685,7 +690,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -822,7 +827,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2008 R2 Extended Rights
 
-This class contains the following extended rights for Windows Server 2008 R2:
+This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
@@ -861,7 +866,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -1004,7 +1009,7 @@ This class contains the following attributes for Windows Server 2012:
 
 ## Windows Server 2012 Extended Rights
 
-This class contains the following extended rights for Windows Server 2012:
+This class contains the following extended rights for Windows Server 2012:
 
 
 
@@ -1017,9 +1022,9 @@ This class contains the following extended rights for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

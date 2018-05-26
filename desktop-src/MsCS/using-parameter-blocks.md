@@ -4,11 +4,15 @@ description: A parameter block provides data storage for a property table.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '61bbda33-da5f-4826-b52a-e45252ac0374'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 61bbda33-da5f-4826-b52a-e45252ac0374
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["parameter blocks Failover Cluster ,using"]
+keywords:
+- parameter blocks Failover Cluster ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Parameter Blocks

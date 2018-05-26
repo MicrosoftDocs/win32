@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoder performs stereo image processing.'
-ms.assetid: 'd1c787ee-787b-4efa-8d96-5cb4ffff0ed2'
-title: 'MFPKEY\_DYN\_STEREO\_PREPROC Property'
+---
+Description: Specifies whether the encoder performs stereo image processing.
+ms.assetid: d1c787ee-787b-4efa-8d96-5cb4ffff0ed2
+title: MFPKEY\_DYN\_STEREO\_PREPROC Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DYN\_STEREO\_PREPROC Property

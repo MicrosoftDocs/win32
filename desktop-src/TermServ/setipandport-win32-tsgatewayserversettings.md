@@ -4,11 +4,14 @@ description: Sets the listening IP address and port number for the specified tra
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f46f4660-31ce-4513-b93d-acd50b42ae0a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f46f4660-31ce-4513-b93d-acd50b42ae0a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetIPAndPort method Remote Desktop Services", "SetIPAndPort method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , SetIPAndPort method"]
+keywords:
+- SetIPAndPort method Remote Desktop Services
+- SetIPAndPort method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , SetIPAndPort method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetIPAndPort method of the Win32\_TSGatewayServerSettings class
@@ -28,10 +34,10 @@ Sets the listening IP address and port number for the specified transport.
 
 ```mof
 uint32 SetIPAndPort(
-  [in] uint16  TransportType,
-  [in] string  IPAddress,
-  [in] uint16  Port,
-  [in] boolean OverrideExisting
+  [in] uint16  TransportType,
+  [in] string  IPAddress,
+  [in] uint16  Port,
+  [in] boolean OverrideExisting
 );
 ```
 
@@ -101,7 +107,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -115,9 +121,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

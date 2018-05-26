@@ -1,14 +1,20 @@
 ---
 title: stringTable (resources) Element
 description: Defines a list of localized strings that you can reference in your manifest.
-ms.assetid: '769077bd-1c38-401d-a77d-35d881014a39'
-keywords: ["stringTable element EventLog"]
+ms.assetid: 769077bd-1c38-401d-a77d-35d881014a39
+keywords:
+- stringTable element EventLog
 topic_type:
 - apiref
 api_name:
 - stringTable
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # stringTable (resources) Element
@@ -29,8 +35,8 @@ The **stringTable** element is defined by the [**resources**](eventmanifestschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **stringTable** element is defined by the [**resources**](eventmanifestschem
 [**resources (LocalizationType)**](eventmanifestschema-resources-localizationtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

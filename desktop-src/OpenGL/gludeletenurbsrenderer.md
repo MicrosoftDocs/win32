@@ -1,8 +1,9 @@
 ---
 title: gluDeleteNurbsRenderer function
 description: The gluDeleteNurbsRenderer function destroys a Non-Uniform Rational B-Spline (NURBS) object.
-ms.assetid: '77063dcb-90b8-47e4-8b00-e1c46cf4f712'
-keywords: ["gluDeleteNurbsRenderer function OpenGL"]
+ms.assetid: 77063dcb-90b8-47e4-8b00-e1c46cf4f712
+keywords:
+- gluDeleteNurbsRenderer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluDeleteNurbsRenderer function
@@ -22,7 +28,7 @@ The **gluDeleteNurbsRenderer** function destroys a Non-Uniform Rational B-Spline
 
 ```C++
 void WINAPI gluDeleteNurbsRenderer(
-   GLUnurbs *nobj
+   GLUnurbs *nobj
 );
 ```
 
@@ -53,8 +59,8 @@ The **gluDeleteNurbsRenderer** function destroys the NURBS object and frees any 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -68,9 +74,9 @@ The **gluDeleteNurbsRenderer** function destroys the NURBS object and frees any 
 [**gluNewNurbsRenderer**](glunewnurbsrenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

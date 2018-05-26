@@ -1,8 +1,11 @@
 ---
 title: Solution CreateResults method
 description: Create a JobResults object from a results file.
-ms.assetid: 'DA62D3C6-CF54-4320-8706-124DA2A447CB'
-keywords: ["CreateResults method Access Execution Engine", "CreateResults method Access Execution Engine , Solution interface", "Solution interface Access Execution Engine , CreateResults method"]
+ms.assetid: DA62D3C6-CF54-4320-8706-124DA2A447CB
+keywords:
+- CreateResults method Access Execution Engine
+- CreateResults method Access Execution Engine , Solution interface
+- Solution interface Access Execution Engine , CreateResults method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution::CreateResults method
@@ -22,9 +30,9 @@ Create a [**JobResults**](jobresults.md) object from a results file.
 
 ```C++
 HRESULT CreateResults(
-  [in]  LPCWSTR    resultPath,
-  [out] JobResults **newResults,
-  [out] ErrorList  **errorList
+  [in]  LPCWSTR    resultPath,
+  [out] JobResults **newResults,
+  [out] ErrorList  **errorList
 );
 ```
 
@@ -65,8 +73,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>AxeCore.lib</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
@@ -80,9 +88,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**Solution**](solution-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

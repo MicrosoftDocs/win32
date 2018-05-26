@@ -1,7 +1,12 @@
 ---
 title: Using WinSAT
-description: You can use the Windows System Assessment Tool (WinSAT) API to initiate formal and ad hoc assessments of the computer's hardware configuration, retrieve the base score for the computer and scores for each subcomponent of the assessment, and retrieve details of the assessment, such as the details of the processor that was assessed.
-ms.assetid: 'b0860c4a-cec3-440c-b31a-7e7ad1b393d2'
+description: You can use the Windows System Assessment Tool (WinSAT) API to initiate formal and ad hoc assessments of the computers hardware configuration, retrieve the base score for the computer and scores for each subcomponent of the assessment, and retrieve details of the assessment, such as the details of the processor that was assessed.
+ms.assetid: b0860c4a-cec3-440c-b31a-7e7ad1b393d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WinSAT
@@ -19,11 +24,11 @@ After Windows 8.1 you can initiate formal and ad hoc assessments of the computer
 -   Primary disk
 -   Video card
 
-To initiate a formal assessment, call the [**IInitiateWinSATAssessment::InitiateFormalAssessment**](iinitiatewinsatassessment-initiateformalassessment.md) method. The results of formal assessments are saved in the assessment store and can be retrieved at a later date.
+To initiate a formal assessment, call the [**IInitiateWinSATAssessment::InitiateFormalAssessment**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment?branch=master) method. The results of formal assessments are saved in the assessment store and can be retrieved at a later date.
 
-Typically, you use ad hoc assessments to assess only one subcomponent of the computer, for example, the CPU or the memory. However, you can use the **formal** switch to assess all subcomponents. To initiate an ad hoc assessment, call the [**IInitiateWinSATAssessment::InitiateAssessment**](iinitiatewinsatassessment-initiateassessment.md) method. Note that the results of ad hoc assessments are not saved in the assessment store.
+Typically, you use ad hoc assessments to assess only one subcomponent of the computer, for example, the CPU or the memory. However, you can use the **formal** switch to assess all subcomponents. To initiate an ad hoc assessment, call the [**IInitiateWinSATAssessment::InitiateAssessment**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment?branch=master) method. Note that the results of ad hoc assessments are not saved in the assessment store.
 
-To retrieve notification when progress is made or when the assessment completes, implement the [**IWinSATInitiateEvents**](iwinsatinitiateevents.md) interface.
+To retrieve notification when progress is made or when the assessment completes, implement the [**IWinSATInitiateEvents**](/windows/win32/Winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents?branch=master) interface.
 
 You cannot run formal assessments remotely or on a computer that is running on batteries. You also cannot remotely run an ad hoc assessment on the graphics subcomponent.
 
@@ -37,15 +42,15 @@ Each hardware component receives an individual subscore. Your computer's base sc
 
 A user can use the base score to confidently buy programs and other software that are matched to their computer's base score. For example, if the computer has a base score of 3.3, then the user can confidently purchase any software designed for this version of Windows that requires a computer with a base score of 3 or lower.
 
-To retrieve the base score, first call the [**IQueryRecentWinSATAssessment::get\_Info**](iqueryrecentwinsatassessment-info.md) method to get the [**IProvideWinSATResultsInfo**](iprovidewinsatresultsinfo.md) interface. Then, call the [**IProvideWinSATResultsInfo::get\_SystemRating**](iprovidewinsatresultsinfo-systemrating.md) method to get the base score.
+To retrieve the base score, first call the [**IQueryRecentWinSATAssessment::get\_Info**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info?branch=master) method to get the [**IProvideWinSATResultsInfo**](/windows/win32/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo?branch=master) interface. Then, call the [**IProvideWinSATResultsInfo::get\_SystemRating**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating?branch=master) method to get the base score.
 
 A user can use subcomponent scores to determine whether a subcomponent of the computer can support a specific type of application. For example, a user that spends more time reading or writing documents may require a higher score for the disk than a user who runs scientific applications, and a user who runs scientific applications would probably want a higher CPU subcomponent score and may not be concerned with a lower disk score.
 
-To retrieve the score for each subcomponent, first call the [**IQueryRecentWinSATAssessment::get\_Info**](iqueryrecentwinsatassessment-info.md) method to get the [**IProvideWinSATResultsInfo**](iprovidewinsatresultsinfo.md) interface. Then call the [**IProvideWinSATResultsInfo::GetAssessmentInfo**](iprovidewinsatresultsinfo-getassessmentinfo.md) method to get the [**IProvideWinSATAssessmentInfo**](iprovidewinsatassessmentinfo.md) interface. For each subcomponent whose score you want to retrieve, call the [**IProvideWinSATAssessmentInfo::get\_Score**](iprovidewinsatassessmentinfo-score.md) method.
+To retrieve the score for each subcomponent, first call the [**IQueryRecentWinSATAssessment::get\_Info**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_info?branch=master) method to get the [**IProvideWinSATResultsInfo**](/windows/win32/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo?branch=master) interface. Then call the [**IProvideWinSATResultsInfo::GetAssessmentInfo**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo?branch=master) method to get the [**IProvideWinSATAssessmentInfo**](/windows/win32/Winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo?branch=master) interface. For each subcomponent whose score you want to retrieve, call the [**IProvideWinSATAssessmentInfo::get\_Score**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_score?branch=master) method.
 
 ## Retrieving details of the assessment
 
-The WinSAT API provides the overall base score and scores for each subcomponent. To get details of the assessment (for example, the metrics used to compute the score and details of the processor that was assessed), you must retrieve the data from the XML assessment document. To retrieve details of the most recent formal assessment, call the [**IQueryRecentWinSATAssessment::get\_XML**](iqueryrecentwinsatassessment-xml.md) method. To retrieve the details from each assessment in the WinSAT data store, call the [**IQueryAllWinSATAssessments::get\_AllXML**](iqueryallwinsatassessments-allxml.md) method.
+The WinSAT API provides the overall base score and scores for each subcomponent. To get details of the assessment (for example, the metrics used to compute the score and details of the processor that was assessed), you must retrieve the data from the XML assessment document. To retrieve details of the most recent formal assessment, call the [**IQueryRecentWinSATAssessment::get\_XML**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml?branch=master) method. To retrieve the details from each assessment in the WinSAT data store, call the [**IQueryAllWinSATAssessments::get\_AllXML**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml?branch=master) method.
 
 For information on the XML schema and the details that you can retrieve, see [WinSAT Schema](winsat-schema.md).
 

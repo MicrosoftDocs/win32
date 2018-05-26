@@ -1,8 +1,11 @@
 ---
 title: IDatabase GetIndexInfo method
 description: Retrieves information about an index out of the database.
-ms.assetid: 'b395854d-e234-4f6a-992b-a43511e077a0'
-keywords: ["GetIndexInfo method Windows Mail (formerly Outlook Express)", "GetIndexInfo method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , GetIndexInfo method"]
+ms.assetid: b395854d-e234-4f6a-992b-a43511e077a0
+keywords:
+- GetIndexInfo method Windows Mail (formerly Outlook Express)
+- GetIndexInfo method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , GetIndexInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::GetIndexInfo method
@@ -24,9 +32,9 @@ Retrieves information about an index out of the database.
 
 ```C++
 HRESULT GetIndexInfo(
-  [in]  INDEXORDINAL iIndex,
-  [out] LPSTR        *ppszFilter,
-  [out] LPTABLEINDEX pIndex
+  [in]  INDEXORDINAL iIndex,
+  [out] LPSTR        *ppszFilter,
+  [out] LPTABLEINDEX pIndex
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +94,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Oledb.h</dt> </dl>                             |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
@@ -95,9 +103,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

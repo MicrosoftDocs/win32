@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies the type of records that can be written to a log. These constants are used when a client calls ReadLogRecord, ReadNextLogRecord, or the DumpLogRecords callback function.'
-ms.assetid: '63489b1b-75de-469d-9ffc-f0353bb2fdd9'
-title: 'CLFS\_RECORD\_TYPE Constants'
+---
+Description: Specifies the type of records that can be written to a log. These constants are used when a client calls ReadLogRecord, ReadNextLogRecord, or the DumpLogRecords callback function.
+ms.assetid: 63489b1b-75de-469d-9ffc-f0353bb2fdd9
+title: CLFS\_RECORD\_TYPE Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CLFS\_RECORD\_TYPE Constants
 
-Specifies the type of records that can be written to a log. These constants are used when a client calls [**ReadLogRecord**](readlogrecord.md), [**ReadNextLogRecord**](readnextlogrecord.md), or the [**DumpLogRecords**](dumplogrecords.md) callback function. The following record types are defined.
+Specifies the type of records that can be written to a log. These constants are used when a client calls [**ReadLogRecord**](/windows/win32/Clfsw32/nf-clfsw32-readlogrecord?branch=master), [**ReadNextLogRecord**](/windows/win32/Clfsw32/nf-clfsw32-readnextlogrecord?branch=master), or the [**DumpLogRecords**](/windows/win32/Clfsw32/nf-clfsw32-dumplogrecords?branch=master) callback function. The following record types are defined.
 
 
 
@@ -34,13 +39,13 @@ Specifies the type of records that can be written to a log. These constants are 
 
 <dl> <dt>
 
-[**DumpLogRecords**](dumplogrecords.md)
+[**DumpLogRecords**](/windows/win32/Clfsw32/nf-clfsw32-dumplogrecords?branch=master)
 </dt> <dt>
 
-[**ReadLogRecord**](readlogrecord.md)
+[**ReadLogRecord**](/windows/win32/Clfsw32/nf-clfsw32-readlogrecord?branch=master)
 </dt> <dt>
 
-[**ReadNextLogRecord**](readnextlogrecord.md)
+[**ReadNextLogRecord**](/windows/win32/Clfsw32/nf-clfsw32-readnextlogrecord?branch=master)
 </dt> </dl>
 
  

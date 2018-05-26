@@ -1,8 +1,9 @@
 ---
 title: PositionChange Event of the AxWindowsMediaPlayer Object
 description: The PositionChange event occurs when the current playback position within the media item has been changed.
-ms.assetid: '92d469b9-813a-4148-be68-0fcef2e41491'
-keywords: ["PositionChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 92d469b9-813a-4148-be68-0fcef2e41491
+keywords:
+- PositionChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PositionChange Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Pos
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,9 +78,9 @@ This event is not raised routinely during playback. It only occurs when somethin
 [**IWMPControls.currentPosition (VB and C#)**](wmplibiwmpcontrols-iwmpcontrols-currentposition--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

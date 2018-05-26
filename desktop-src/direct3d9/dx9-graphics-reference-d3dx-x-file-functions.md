@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference information for a function that you can use to work with .x files.'
-ms.assetid: 'd0ed0c86-002f-4e6b-bff1-1ac4f116505b'
+Description: This section contains reference information for a function that you can use to work with .x files.
+ms.assetid: d0ed0c86-002f-4e6b-bff1-1ac4f116505b
 title: D3DX X File Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX X File Functions

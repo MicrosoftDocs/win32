@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a transposed matrix.'
-ms.assetid: '5339a9de-528f-4404-880b-73964192b766'
-title: 'ID3DXTextureShader::SetMatrixTranspose method'
+---
+Description: Sets a transposed matrix.
+ms.assetid: 5339a9de-528f-4404-880b-73964192b766
+title: ID3DXTextureShaderSetMatrixTranspose method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetMatrixTranspose method

@@ -1,8 +1,10 @@
 ---
 title: DRM\_OUTPUT\_PROTECTION\_EX structure
 description: The DRM\_OUTPUT\_PROTECTION\_EX structure holds information about an output protection technology. This structure extends DRM\_OUTPUT\_PROTECTION by adding a version number.
-ms.assetid: 'eeebf5da-172b-4781-8c44-00504a6961bf'
-keywords: ["DRM_OUTPUT_PROTECTION_EX structure windows Media Format", "structure windows Media Format"]
+ms.assetid: eeebf5da-172b-4781-8c44-00504a6961bf
+keywords:
+- DRM_OUTPUT_PROTECTION_EX structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_OUTPUT\_PROTECTION\_EX structure
@@ -23,7 +30,7 @@ The **DRM\_OUTPUT\_PROTECTION\_EX** structure holds information about an output 
 ```C++
 typedef struct DRM_OUTPUT_PROTECTION_EX {
   DWORD dwVersion;
-  GUID  guidId;
+  GUID  guidId;
   DWORD dwConfigData;
 } ;
 ```
@@ -79,9 +86,9 @@ Configuration data for the technology.
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates and returns a Folder object for the specified folder.'
-ms.assetid: 'CEA73705-1C27-4138-86C4-1715016E2ED8'
-title: 'IShellDispatch.NameSpace method'
+---
+Description: Creates and returns a Folder object for the specified folder.
+ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
+title: IShellDispatch.NameSpace method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.NameSpace method
@@ -48,7 +53,7 @@ retVal = IShellDispatch.NameSpace(
 
 Type: **Variant**
 
-The folder for which to create the [**Folder**](folder.md) object. This can be a string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
+The folder for which to create the [**Folder**](folder.md) object. This can be a string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
 
 </dd> </dl>
 

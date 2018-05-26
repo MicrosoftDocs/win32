@@ -1,7 +1,12 @@
 ---
 title: Parts and States
 description: This topic describes the parts and states that you use to change the appearance of controls when visual styles are enabled.
-ms.assetid: '6ec340a8-8ad1-406e-9fe1-9da9710ee27e'
+ms.assetid: 6ec340a8-8ad1-406e-9fe1-9da9710ee27e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parts and States
@@ -9,7 +14,7 @@ ms.assetid: '6ec340a8-8ad1-406e-9fe1-9da9710ee27e'
 This topic describes the parts and states that you use to change the appearance of controls when visual styles are enabled. Windows draws certain parts for controls and windows and these parts are divided into parent and child parts. Most parts have a state—for example disabled, active, or selected. When you create a control, you decide which parts of the control to apply visual styles to. You divide the control into a main part and zero or more named, child parts. Examples of parts are text areas, drawn shapes, images, and lines. For each part, you can define one or more background images in a single bitmap file. The different backgrounds are usually associated with different states of the control, but do not have to be. For example, if the control is disabled, a shaded background might be used. At run time, the appropriate image can be selected by using an *iStateId* value as the 1-based index to the correct image.
 
 > [!Note]  
-> Much of the Theme API allows you to use a value of (0,0) for the part and state ID in the parameter list, most commonly when drawing the background using [**DrawThemeBackground**](drawthemebackground.md). This indicates that data from a higher level element is to be used. Part 0 can be interpreted as "data that is the same for all parts of this element", and state 0 as "data that is the same for all states of this part". Use *stateId*=0 only when there are no states defined.
+> Much of the Theme API allows you to use a value of (0,0) for the part and state ID in the parameter list, most commonly when drawing the background using [**DrawThemeBackground**](/windows/win32/Uxtheme/nf-uxtheme-drawthemebackground?branch=master). This indicates that data from a higher level element is to be used. Part 0 can be interpreted as "data that is the same for all parts of this element", and state 0 as "data that is the same for all states of this part". Use *stateId*=0 only when there are no states defined.
 
  
 

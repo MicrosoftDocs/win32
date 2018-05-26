@@ -1,7 +1,12 @@
 ---
-Description: 'A namespace refers to some capability to associate (as a minimum) the protocol and addressing attributes of a network service with one or more friendly names.'
-ms.assetid: '4139a8c2-d940-41e0-a3e8-fce3b70a1ff3'
+Description: A namespace refers to some capability to associate (as a minimum) the protocol and addressing attributes of a network service with one or more friendly names.
+ms.assetid: 4139a8c2-d940-41e0-a3e8-fce3b70a1ff3
 title: Name Resolution Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Resolution Model

@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM08 ensures that a module does not exclude another module that it depends on.'
-ms.assetid: '56d115b4-7410-4db2-a9af-bc6716f3358d'
+Description: ICEM08 ensures that a module does not exclude another module that it depends on.
+ms.assetid: 56d115b4-7410-4db2-a9af-bc6716f3358d
 title: ICEM08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM08

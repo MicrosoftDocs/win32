@@ -1,14 +1,19 @@
 ---
 title: Advanced Query Syntax
-description: The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches.
-ms.assetid: '8e55bd40-c7cf-44a6-bc18-24bc7a267779'
+description: The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches.
+ms.assetid: 8e55bd40-c7cf-44a6-bc18-24bc7a267779
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Query Syntax
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to narrow searches and deliver better result sets. Searches can be narrowed by the following parameters:
+The Advanced Query Syntax (AQS) is used by Microsoft Windows Desktop Search (WDS) to help users and programmers better define and narrow their searches. Using AQS is an easy way to narrow searches and deliver better result sets. Searches can be narrowed by the following parameters:
 
 -   File kinds: folders, documents, presentations, pictures and so on.
 -   File stores: specific databases and locations.
@@ -53,7 +58,7 @@ Users can limit the scope of their searches to specific folder locations or data
 
 
 
- 
+ 
 
 If you have a protocol handler in place to crawl custom stores, like Lotus Notes, you can use the name of the store or protocol handler for the store. For example, if you implemented a protocol handler to include a Lotus Notes data store as "notes," the query syntax would be `store:notes`.
 
@@ -87,7 +92,7 @@ Users can also limit their searches to specific types of files, called file kind
 
 
 
- 
+ 
 
 ### Boolean Operators
 
@@ -98,7 +103,7 @@ Search keywords and file properties can be combined to broaden or narrow a searc
 | Keyword/Symbol  | Examples                                              | Function                                                                                                       |
 |-----------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | NOT             | social NOT security<br/>                        | Finds items that contain *social*, but not *security*.<br/>                                              |
-| –               | social –security<br/>                           | Finds items that contain *social*, but not *security*.<br/>                                              |
+|                 | social  security<br/>                           | Finds items that contain *social*, but not *security*.<br/>                                              |
 | OR              | social OR security<br/>                         | Finds items that contain *social* or *security*.<br/>                                                    |
 | Quotation marks | "social security"<br/>                          | Finds items that contain the exact phrase *social security*.<br/>                                        |
 | Parentheses     | (social security)<br/>                          | Finds items that contain *social* and *security* in any order.<br/>                                      |
@@ -108,13 +113,13 @@ Search keywords and file properties can be combined to broaden or narrow a searc
 
 
 
- 
+ 
 
 > [!Note]
 >
 > The operators **NOT** and **OR** must be in uppercase and cannot be combined in one query (e.g., `social OR security NOT retirement`).
 
- 
+ 
 
 ### Boolean Properties
 
@@ -135,7 +140,7 @@ Some file types let users search for files using Boolean properties, as describe
 
 
 
- 
+ 
 
 ### Dates
 
@@ -150,7 +155,7 @@ In addition to searching on specific dates and date ranges using the operators d
 
 
 
- 
+ 
 
 ## Properties by File Kind
 
@@ -192,7 +197,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Attachment
 
@@ -210,7 +215,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Contacts
 
@@ -252,13 +257,13 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 > [!Note]
 >
 > Phone numbers are indexed as entered. For example, if a user did not include a country or area code when entering the phone number, users will not be able to locate a contact if searching with country or area code in the phone number.
 
- 
+ 
 
 ### Communications
 
@@ -289,7 +294,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Calendar
 
@@ -308,7 +313,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Documents
 
@@ -331,7 +336,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Presentation
 
@@ -349,7 +354,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Music
 
@@ -373,7 +378,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Picture
 
@@ -397,7 +402,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ### Video
 
@@ -416,7 +421,7 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -437,9 +442,9 @@ where `<property>` is a property listed below and `<value>` is the user-specifie
 [Calling WDS from Web Pages](-search-2x-wds-browserhelpobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

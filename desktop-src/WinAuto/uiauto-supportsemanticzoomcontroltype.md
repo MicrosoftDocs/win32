@@ -1,15 +1,36 @@
 ---
 title: SemanticZoom Control Type
 description: This topic provides information about UI Automation support for the SemanticZoom control type.
-ms.assetid: '37C14610-431F-46BF-97B6-CB476EA1642D'
-keywords: ["UI Automation,support for SemanticZoom control type", "UI Automation,SemanticZoom control type", "UI Automation,tree structure for SemanticZoom control type", "UI Automation,properties for SemanticZoom control type", "UI Automation,control patterns for SemanticZoom control type", "UI Automation,events for SemanticZoom control type", "tree structures,SemanticZoom control type", "properties,SemanticZoom control type", "control patterns,SemanticZoom control type", "events,SemanticZoom control type", "support for SemanticZoom control type", "SemanticZoom control type", "control types,tree structure for SemanticZoom control type", "control types,control patterns for SemanticZoom control type", "control types,support for SemanticZoom", "control types,SemanticZoom"]
+ms.assetid: 37C14610-431F-46BF-97B6-CB476EA1642D
+keywords:
+- UI Automation,support for SemanticZoom control type
+- UI Automation,SemanticZoom control type
+- UI Automation,tree structure for SemanticZoom control type
+- UI Automation,properties for SemanticZoom control type
+- UI Automation,control patterns for SemanticZoom control type
+- UI Automation,events for SemanticZoom control type
+- tree structures,SemanticZoom control type
+- properties,SemanticZoom control type
+- control patterns,SemanticZoom control type
+- events,SemanticZoom control type
+- support for SemanticZoom control type
+- SemanticZoom control type
+- control types,tree structure for SemanticZoom control type
+- control types,control patterns for SemanticZoom control type
+- control types,support for SemanticZoom
+- control types,SemanticZoom
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SemanticZoom Control Type
 
 This topic provides information about UI Automation support for the **SemanticZoom** control type.
 
-Semantic Zoom is a technique introduced in Windows 8 for presenting and navigating large sets of related data or content within a single view, such as a photo album, app list, or address book. Semantic Zoom uses two distinct modes of classification, or *zoom levels*, for organizing and presenting the content. The low-level (or *zoomed in*) mode displays items in a flat, "all-up" structure; and the high-level (or *zoomed out*) mode displays items in groups, enabling the user to quickly navigate and browse through the content. For example, zooming a list of cities might change to a list of states containing those cities. Zooming a list of programs might change to a list of logical program groups.
+Semantic Zoom is a technique introduced in Windows 8 for presenting and navigating large sets of related data or content within a single view, such as a photo album, app list, or address book. Semantic Zoom uses two distinct modes of classification, or *zoom levels*, for organizing and presenting the content. The low-level (or *zoomed in*) mode displays items in a flat, "all-up" structure; and the high-level (or *zoomed out*) mode displays items in groups, enabling the user to quickly navigate and browse through the content. For example, zooming a list of cities might change to a list of states containing those cities. Zooming a list of programs might change to a list of logical program groups.
 
 For more information about Semantic Zoom specifically as used for Windows Store apps, see [Guidelines for Semantic Zoom](https://msdn.microsoft.com/library/windows/apps/hh465319).
 
@@ -66,7 +87,7 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
- 
+ 
 
 Or:
 
@@ -106,7 +127,7 @@ Or:
 
 
 
- 
+ 
 
 ## Relevant Properties
 
@@ -181,14 +202,14 @@ Some frameworks concatenated this as &quot;semanticzoom&quot;.
 <tr class="even">
 <td>[<strong>UIA_NamePropertyId</strong>](uiauto-automation-element-propids.md#uia-namepropertyid)</td>
 <td>See notes.</td>
-<td>An empty string is acceptable, or a more useful name could be provided, as long as it does not contain the term “semantic zoom”, which would make the combination of control type and name confusing.</td>
+<td>An empty string is acceptable, or a more useful name could be provided, as long as it does not contain the term  semantic zoom , which would make the combination of control type and name confusing.</td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Required Control Patterns and Properties
 
@@ -198,11 +219,11 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                  | Support/Value | Notes                                                                                                                                                                                                                                                                                                                                                          |
 |---------------------------------------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IToggleProvider**](uiauto-itoggleprovider.md) | Depends       | Semantic Zoom controls support the [Toggle](uiauto-implementingtoggle.md) control pattern to allow the zoom to be enabled or disabled. [**ToggleState\_Off**](uiauto-togglestate.md#togglestate-off) corresponds to the flat, all-up state, and [**ToggleState\_On**](uiauto-togglestate.md#togglestate-on) corresponds to the high level, zoomed-out view. |
+| [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master) | Depends       | Semantic Zoom controls support the [Toggle](uiauto-implementingtoggle.md) control pattern to allow the zoom to be enabled or disabled. [**ToggleState\_Off**](uiauto-togglestate.md#togglestate-off) corresponds to the flat, all-up state, and [**ToggleState\_On**](uiauto-togglestate.md#togglestate-on) corresponds to the high level, zoomed-out view. |
 
 
 
- 
+ 
 
 ## Required Events
 
@@ -219,7 +240,7 @@ The following table lists the UI Automation events that Semantic Zoom controls a
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -235,9 +256,9 @@ If a UI has a visible button to toggle Semantic Zoom control behavior, this butt
 [UI Automation Overview](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

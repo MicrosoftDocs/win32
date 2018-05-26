@@ -1,8 +1,9 @@
 ---
 title: VMShutdownAction enumeration
 description: Specifies how to shut down a virtual machine when the host shuts down or the vpc.exe process exits.
-ms.assetid: '271a685a-cac9-4a15-b363-bf8873fd5324'
-keywords: ["VMShutdownAction enumeration Virtual PC"]
+ms.assetid: 271a685a-cac9-4a15-b363-bf8873fd5324
+keywords:
+- VMShutdownAction enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMShutdownAction enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies how to shut down a virtual machine (VM) when the host shuts down or the vpc.exe process exits.
 
@@ -24,9 +30,9 @@ Specifies how to shut down a virtual machine (VM) when the host shuts down or th
 
 ```C++
 typedef enum  { 
-  vmShutdownAction_Save      = 0,
-  vmShutdownAction_TurnOff   = 1,
-  vmShutdownAction_Shutdown  = 2
+  vmShutdownAction_Save      = 0,
+  vmShutdownAction_TurnOff   = 1,
+  vmShutdownAction_Shutdown  = 2
 } VMShutdownAction;
 ```
 
@@ -63,9 +69,9 @@ Shut down the guest operating system on the VM without undoing the drives if the
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -81,9 +87,9 @@ Shut down the guest operating system on the VM without undoing the drives if the
 [**IVMVirtualMachine::ShutdownActionOnQuit**](ivmvirtualmachine-shutdownactiononquit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Level 1 Audio Requirements
 description: Level 1 Audio Requirements
-ms.assetid: '0a80d1f2-922a-46f9-8e4f-50c8b45b8a45'
-keywords: ["Multimedia PC (MPC),Level 1", "MPC (Multimedia PC),Level 1", "Multimedia PC Marketing Council,Level 1", "MPC Level 1,audio requirements"]
+ms.assetid: 0a80d1f2-922a-46f9-8e4f-50c8b45b8a45
+keywords:
+- Multimedia PC (MPC),Level 1
+- MPC (Multimedia PC),Level 1
+- Multimedia PC Marketing Council,Level 1
+- MPC Level 1,audio requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level 1 Audio Requirements

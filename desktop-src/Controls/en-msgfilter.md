@@ -1,8 +1,9 @@
 ---
 title: EN\_MSGFILTER notification code
-description: Notifies a rich edit control's parent window of a keyboard or mouse event in the control. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '96cf0047-baae-46cd-82e8-ab6f3f353260'
-keywords: ["EN_MSGFILTER notification code Windows Controls"]
+description: Notifies a rich edit controls parent window of a keyboard or mouse event in the control. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
+ms.assetid: 96cf0047-baae-46cd-82e8-ab6f3f353260
+keywords:
+- EN_MSGFILTER notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_MSGFILTER notification code
@@ -33,7 +39,7 @@ EN_MSGFILTER
 *lParam* 
 </dt> <dd>
 
-A [**MSGFILTER**](msgfilter.md) structure containing information about the keyboard or mouse message. If the parent window modifies this structure and returns a nonzero value, the modified message is processed instead of the original one.
+A [**MSGFILTER**](/windows/win32/Richedit/ns-richedit-_msgfilter?branch=master) structure containing information about the keyboard or mouse message. If the parent window modifies this structure and returns a nonzero value, the modified message is processed instead of the original one.
 
 </dd> </dl>
 
@@ -57,7 +63,7 @@ To receive EN\_MSGFILTER notification codes for events, specify one or more of t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +71,8 @@ To receive EN\_MSGFILTER notification codes for events, specify one or more of t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -78,15 +84,15 @@ To receive EN\_MSGFILTER notification codes for events, specify one or more of t
 **Reference**
 </dt> <dt>
 
-[**MSGFILTER**](msgfilter.md)
+[**MSGFILTER**](/windows/win32/Richedit/ns-richedit-_msgfilter?branch=master)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

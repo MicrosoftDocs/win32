@@ -1,14 +1,20 @@
 ---
 title: AcquisitionTimeMonth Attribute
 description: The AcquisitionTimeMonth attribute is the month part of the date and time the item was added to the library.
-ms.assetid: 'c2807f4c-ab9b-4d50-9fbe-daa8c31cdc87'
-keywords: ["AcquisitionTimeMonth Attribute Windows Media Player"]
+ms.assetid: c2807f4c-ab9b-4d50-9fbe-daa8c31cdc87
+keywords:
+- AcquisitionTimeMonth Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AcquisitionTimeMonth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AcquisitionTimeMonth Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

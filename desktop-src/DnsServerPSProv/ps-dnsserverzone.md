@@ -2,13 +2,15 @@
 title: PS\_DnsServerZone class
 description: DNS Server Zone definition.
 audience: developer
-ms.assetid: 'b591b20f-15b6-4787-b94e-b6206db4a956'
-ms.prod: 'windows-server-dev'
+ms.assetid: b591b20f-15b6-4787-b94e-b6206db4a956
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerZone class", "PS_DnsServerZone class, described"]
+keywords:
+- PS_DnsServerZone class
+- PS_DnsServerZone class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerZone class
@@ -57,7 +62,7 @@ The **PS\_DnsServerZone** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,7 +71,7 @@ The **PS\_DnsServerZone** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -80,9 +85,9 @@ The **PS\_DnsServerZone** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

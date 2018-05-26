@@ -2,13 +2,19 @@
 title: bindable attribute
 description: The \ bindable\ attribute indicates that the property supports data binding.
 ms.assetid: ba09096d-a2f7-4958-827c-0fba19ded26f
-keywords: ["bindable attribute MIDL"]
+keywords:
+- bindable attribute MIDL
 topic_type:
 - apiref
 api_name:
 - bindable
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bindable attribute

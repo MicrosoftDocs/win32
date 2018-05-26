@@ -1,14 +1,20 @@
 ---
 title: SortAscending element
 description: Specifies whether the initial sort is ascending or descending.
-ms.assetid: 'EEC82EA7-C2E4-4B28-BC7C-0D7FF99AC753'
-keywords: ["SortAscending element Access Execution Engine"]
+ms.assetid: EEC82EA7-C2E4-4B28-BC7C-0D7FF99AC753
+keywords:
+- SortAscending element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - SortAscending
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SortAscending element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

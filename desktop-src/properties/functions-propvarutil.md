@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes a set of Windows Shell conversion and helper functions used with PROPVARIANT and VARIANT types.'
-ms.assetid: '683fffb7-e8e8-4f7c-8312-5baef9b20641'
+Description: This section describes a set of Windows Shell conversion and helper functions used with PROPVARIANT and VARIANT types.
+ms.assetid: 683fffb7-e8e8-4f7c-8312-5baef9b20641
 title: PROPVARIANT and VARIANT Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPVARIANT and VARIANT Functions
@@ -23,8 +28,8 @@ This section describes a set of Windows Shell conversion and helper functions us
 | [InitPropVariantFromDoubleVector](shell.InitPropVariantFromDoubleVector)                   | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a specified vector of **double** values.                                                                                                                                      |
 | [InitPropVariantFromFileTime](shell.InitPropVariantFromFileTime)                           | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on information stored in a [**FILETIME**](base.filetime_str) structure.                                                                                                          |
 | [InitPropVariantFromFileTimeVector](shell.InitPropVariantFromFileTimeVector)               | Initializes a [**PROPVARIANT**](stg.propvariant) structure from a specified vector of [**FILETIME**](base.filetime_str) values.                                                                                                                   |
-| [InitPropVariantFromGUIDAsBuffer](initpropvariantfromguidasbuffer.md)                     | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a **GUID**. The structure is initialized as **VT\_VECTOR** \| **VT\_UI1**.                                                                                                    |
-| [InitPropVariantFromGUIDAsString](initpropvariantfromguidasstring.md)                     | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a **GUID**. The structure is initialized as **VT\_LPWSTR**.                                                                                                                   |
+| [InitPropVariantFromGUIDAsBuffer](/windows/win32/Propvarutil/nf-propvarutil-initpropvariantfromguidasbuffer?branch=master)                     | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a **GUID**. The structure is initialized as **VT\_VECTOR** \| **VT\_UI1**.                                                                                                    |
+| [InitPropVariantFromGUIDAsString](/windows/win32/Propvarutil/nf-propvarutil-initpropvariantfromguidasstring?branch=master)                     | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a **GUID**. The structure is initialized as **VT\_LPWSTR**.                                                                                                                   |
 | [InitPropVariantFromInt16](shell.InitPropVariantFromInt16)                                 | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a 16-bit integer value.                                                                                                                                                       |
 | [InitPropVariantFromInt16Vector](shell.InitPropVariantFromInt16Vector)                     | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a specified vector of 16-bit integer values.                                                                                                                                  |
 | [InitPropVariantFromInt32](shell.InitPropVariantFromInt32)                                 | Initializes a [**PROPVARIANT**](stg.propvariant) structure based on a 32-bit integer value.                                                                                                                                                       |

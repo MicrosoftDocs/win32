@@ -1,7 +1,12 @@
 ---
 title: RSVP PATH and RESV Messages
 description: RSVP establishes QOS-enabled connections through the use of PATH and RESV messages.
-ms.assetid: 'dbee8a22-26d1-47e0-b6bb-7a35930e05fc'
+ms.assetid: dbee8a22-26d1-47e0-b6bb-7a35930e05fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSVP PATH and RESV Messages
@@ -13,7 +18,7 @@ When a QOS-enabled connection is established and RSVP signaling is triggered (se
 -   The sender emits PATH messages toward the receiver (or receivers).
 -   The receiver waits until the PATH message corresponding to the flow arrives, then issues an RESV message.
 
-The information contained in the PATH and RESV messages is derived from the [**FLOWSPEC**](flowspec.md) structures associated with the **SendingFlowspec** and **ReceivingFlowspec** members of the [**QOS**](qos.md) structure.
+The information contained in the PATH and RESV messages is derived from the [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) structures associated with the **SendingFlowspec** and **ReceivingFlowspec** members of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure.
 
 ## Transmission of RSVP PATH and RESV Messages
 
@@ -26,9 +31,9 @@ The transmission of RESV messages, therefore, may be triggered by the following 
 
 ## RSVP PATH Message Parameters
 
-RSVP PATH messages derive their RSVP sender Tspec from the SendingFlowspec member of the [**QOS**](qos.md) structure (the SendingFlowspec member of **QOS** is itself a [**FLOWSPEC**](flowspec.md) structure).
+RSVP PATH messages derive their RSVP sender Tspec from the SendingFlowspec member of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure (the SendingFlowspec member of **QOS** is itself a [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) structure).
 
-The following table outlines the information required to begin transmission of RSVP PATH messages, and how the information is derived from the [**QOS**](qos.md) structure or other information provided by the sender. The RSVP PATH parameters discussed serve the following purposes:
+The following table outlines the information required to begin transmission of RSVP PATH messages, and how the information is derived from the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure or other information provided by the sender. The RSVP PATH parameters discussed serve the following purposes:
 
 -   [SenderTspec](tspec-flowspec-and-adspec.md) contains QOS parameters for sent traffic.
 -   SenderTemplate contains the sender's address.
@@ -38,7 +43,7 @@ The following table outlines the information required to begin transmission of R
 
 | RSVP PATH parameter | Equivalent receiver–based parameters                                                               |
 |---------------------|----------------------------------------------------------------------------------------------------|
-| SenderTspec         | **SendingFlowspec** member of the [**QOS**](qos.md) structure.                                    |
+| SenderTspec         | **SendingFlowspec** member of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure.                                    |
 | SenderTemplate      | Source IP address/port to which sending socket is bound.                                           |
 | Session             | Destination IP address/port and protocol identifier to which the socket is sending (sockaddr\_in). |
 
@@ -50,9 +55,9 @@ Note that the RSVP session parameter includes specification of the protocol iden
 
 ## RSVP RESV Message Parameters
 
-RSVP RESV messages derive their RSVP [**FLOWSPEC**](flowspec.md) parameters from the ReceivingFlowspec member of the [**QOS**](qos.md) structure (the **ReceivingFlowspec** member of **QOS** is itself a [**FLOWSPEC**](flowspec.md) structure).
+RSVP RESV messages derive their RSVP [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) parameters from the ReceivingFlowspec member of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure (the **ReceivingFlowspec** member of **QOS** is itself a [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) structure).
 
-The following table outlines the information required to begin transmission of RSVP RESV messages, and how the information is derived from the [**QOS**](qos.md) structure or other information provided by the receiver. The RSVP RESV parameters discussed serve the following purposes:
+The following table outlines the information required to begin transmission of RSVP RESV messages, and how the information is derived from the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure or other information provided by the receiver. The RSVP RESV parameters discussed serve the following purposes:
 
 -   Flowspec contains desired QOS parameters for traffic to be received.
 -   Filterspec contains the source or sources from which QOS-enabled traffic will be received.
@@ -62,7 +67,7 @@ The following table outlines the information required to begin transmission of R
 
 | RSVP RESV parameter                                             | Derived from the following Winsock parameter                                                                                                         |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| flowspec                                                        | **ReceivingFlowspec** member of the [**QOS**](qos.md) structure or the ProviderSpecific buffer.                                                     |
+| flowspec                                                        | **ReceivingFlowspec** member of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure or the ProviderSpecific buffer.                                                     |
 | Filterspec (source(s) from which QOS traffic will be received)1 | Address(es) of peer(s) from which the socket is receiving.                                                                                           |
 | Session (destination of sent traffic).                          | Local IP address and port to which the receiving socket is bound (unicast), or multicast session address to which the socket has joined (multicast). |
 

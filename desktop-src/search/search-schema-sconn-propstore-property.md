@@ -1,7 +1,12 @@
 ---
-Description: 'The optional &lt;property&gt; element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.'
-ms.assetid: '33854123-d4c0-4385-910b-a32d6922423f'
-title: 'property Element of propertyStore (Search Connector Schema)'
+Description: The optional &lt;property&gt; element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.
+ms.assetid: 33854123-d4c0-4385-910b-a32d6922423f
+title: property Element of propertyStore (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # property Element of propertyStore (Search Connector Schema)

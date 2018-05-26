@@ -1,14 +1,20 @@
 ---
 title: BaseEapParameters Complex Type
 description: Defines the element that specified the legacy method selected and method-specific credentials.
-ms.assetid: 'bc42e536-f741-4821-8453-6c0631daad3e'
-keywords: ["BaseEapParameters complex type EAPHost"]
+ms.assetid: bc42e536-f741-4821-8453-6c0631daad3e
+keywords:
+- BaseEapParameters complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - BaseEapParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BaseEapParameters Complex Type
@@ -49,8 +55,8 @@ The method can define the constituent elements inside **BaseEapParameters**; the
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -64,9 +70,9 @@ The method can define the constituent elements inside **BaseEapParameters**; the
 [baseeapuserpropertiesv1 Schema](baseeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

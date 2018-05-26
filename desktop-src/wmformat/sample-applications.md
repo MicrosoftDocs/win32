@@ -1,8 +1,16 @@
 ---
 title: Sample Applications
 description: Sample Applications
-ms.assetid: '7bbcc238-2858-4a08-a76b-9502fc453f17'
-keywords: ["Windows Media Format SDK,sample applications", "digital rights management (DRM),sample applications", "DRM (digital rights management),sample applications"]
+ms.assetid: 7bbcc238-2858-4a08-a76b-9502fc453f17
+keywords:
+- Windows Media Format SDK,sample applications
+- digital rights management (DRM),sample applications
+- DRM (digital rights management),sample applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Applications
@@ -38,7 +46,7 @@ The DRM portions of this sample are not supported on x64-based versions of Windo
 </tr>
 <tr class="even">
 <td>DRMHeader</td>
-<td>DRMHeader is a console application that uses the metadata editor's [<strong>IWMDRMEditor</strong>](iwmdrmeditor.md) interface to read DRM attributes of files without linking to the DRM static library.
+<td>DRMHeader is a console application that uses the metadata editor's [<strong>IWMDRMEditor</strong>](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmdrmeditor?branch=master) interface to read DRM attributes of files without linking to the DRM static library.
 <blockquote>
 [!Note]<br />
 This sample is not supported on x64-based versions of Windows.
@@ -56,7 +64,7 @@ This sample is not supported on x64-based versions of Windows.
 </tr>
 <tr class="even">
 <td>DirectShowInterop/DSCopy</td>
-<td>Transcodes one or more files to an ASF file using the DirectShow® WM ASF Writer filter. The input file may be any compressed or uncompressed format supported by DirectShow.</td>
+<td>Transcodes one or more files to an ASF file using the DirectShow  WM ASF Writer filter. The input file may be any compressed or uncompressed format supported by DirectShow.</td>
 </tr>
 <tr class="odd">
 <td>DirectShowInterop/DSPlay</td>
@@ -132,7 +140,7 @@ This sample does not show how to process the media samples coming out of WMReade
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -144,9 +152,9 @@ This sample does not show how to process the media samples coming out of WMReade
 [**Programming Guide**](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

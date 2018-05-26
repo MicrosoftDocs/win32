@@ -1,8 +1,11 @@
 ---
 title: LogFiles.Add method
 description: Adds a log file to the collection.
-ms.assetid: 'f6b671ea-9620-49a7-8b0c-0c8e1d9819b0'
-keywords: ["Add method SysMon", "Add method SysMon , LogFiles class", "LogFiles class SysMon , Add method"]
+ms.assetid: f6b671ea-9620-49a7-8b0c-0c8e1d9819b0
+keywords:
+- Add method SysMon
+- Add method SysMon , LogFiles class
+- LogFiles class SysMon , Add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogFiles.Add method
@@ -43,7 +51,7 @@ Path to the log file. You can specify the path as an absolute, relative, or UNC 
 
 You must use the Logman.exe tool or the Perfmon.msc MMC snap-in to generate the log files that you add to this collection. For Perfmon.msc, the counter logs are located under **Performance Logs and Alerts**. For details on using Logman.exe or Perfmon.msc, search for Logman or Using Performance, respectively, in the **Help and Support Center**.
 
-**Prior to Windows Vista:** You cannot add log files to the [**log file collection**](systemmonitor-logfiles.md) if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to [**DataSourceTypeConstants.sysmonLogFiles**](datasourcetypeconstants.md). First, set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonNullDataSource**, add your log files and counters, and then set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonLogFiles**.
+**Prior to Windows Vista:** You cannot add log files to the [**log file collection**](systemmonitor-logfiles.md) if the value of [**SystemMonitor.DataSourceType**](systemmonitor-datasourcetype.md) is set to [**DataSourceTypeConstants.sysmonLogFiles**](/windows/win32/ISysmon/ne-isysmon-edatasourcetypeconstant?branch=master). First, set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonNullDataSource**, add your log files and counters, and then set **SystemMonitor.DataSourceType** to **DataSourceTypeConstants.sysmonLogFiles**.
 
 ## Requirements
 
@@ -51,8 +59,8 @@ You must use the Logman.exe tool or the Perfmon.msc MMC snap-in to generate the 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -70,9 +78,9 @@ You must use the Logman.exe tool or the Perfmon.msc MMC snap-in to generate the 
 [**LogFiles**](systemmonitor-logfiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

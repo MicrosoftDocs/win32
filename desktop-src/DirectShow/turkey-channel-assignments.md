@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Turkey.'
-ms.assetid: '840dbd02-a500-47fe-b8ce-5ed2e902b4a6'
+Description: This topic lists the frequency tables used for analog TV tuning for Turkey.
+ms.assetid: 840dbd02-a500-47fe-b8ce-5ed2e902b4a6
 title: Turkey Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Turkey Channel Assignments

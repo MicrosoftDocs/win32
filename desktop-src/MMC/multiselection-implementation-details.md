@@ -4,11 +4,15 @@ description: Multiselection Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc469374-3969-4104-91a3-6c28ce617af5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: cc469374-3969-4104-91a3-6c28ce617af5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["multiselection MMC , implementation details"]
+keywords:
+- multiselection MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Multiselection: Implementation Details

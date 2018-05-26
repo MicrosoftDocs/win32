@@ -1,7 +1,12 @@
 ---
 Description: Debugging Components Written in Visual Basic
-ms.assetid: '2b00ed29-8b48-4a54-83e8-d5e69e5f883e'
+ms.assetid: 2b00ed29-8b48-4a54-83e8-d5e69e5f883e
 title: Debugging Components Written in Visual Basic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging Components Written in Visual Basic

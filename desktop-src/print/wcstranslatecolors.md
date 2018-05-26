@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsTranslateColors function translates an array of colors from the source color space to the destination color space as defined by a color transform.'
-ms.assetid: '99843150-9e27-4f09-a3ba-5ff87d3f1c88'
+---
+Description: The WcsTranslateColors function translates an array of colors from the source color space to the destination color space as defined by a color transform.
+ms.assetid: 99843150-9e27-4f09-a3ba-5ff87d3f1c88
 title: WcsTranslateColors function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsTranslateColors function

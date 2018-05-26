@@ -1,8 +1,13 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
-ms.assetid: '26e7eaae-f540-47d1-99ec-6af0fd223039'
+Robots: noindex, nofollow
+ms.assetid: 26e7eaae-f540-47d1-99ec-6af0fd223039
 title: D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D
@@ -42,7 +47,7 @@ See [*component dependency*](vssgloss-c.md#base-vssgloss-component-dependency).
 <span id="base.vssgloss_device_object"></span><span id="BASE.VSSGLOSS_DEVICE_OBJECT"></span>**device object**
 </dt> <dd>
 
-A string indicating the "root" of a shadow copied volume. Files and directories on a shadow copied volume can be referenced by prepending the device object string to a corresponding path on the original volume. As obtained as the **m\_pwszSnapshotDeviceObject** member of the [**VSS\_SNAPSHOT\_PROP**](vss-snapshot-prop.md) structure, the device object has no backslash ("\\").
+A string indicating the "root" of a shadow copied volume. Files and directories on a shadow copied volume can be referenced by prepending the device object string to a corresponding path on the original volume. As obtained as the **m\_pwszSnapshotDeviceObject** member of the [**VSS\_SNAPSHOT\_PROP**](/windows/win32/Vss/ns-vss-_vss_snapshot_prop?branch=master) structure, the device object has no backslash ("\\").
 
 </dd> <dt>
 

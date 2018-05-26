@@ -1,14 +1,19 @@
 ---
 title: Querying for Events
 description: You can query for events from a channel or a log file.
-ms.assetid: '929bedbf-6dce-428e-b2c0-de9dcfe4531b'
+ms.assetid: 929bedbf-6dce-428e-b2c0-de9dcfe4531b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying for Events
 
 You can query for events from a channel or a log file. The channel or log file can exist on the local computer or a remote computer. To specify the events that you want to get from the channel or log file, you use an XPath query or a structure XML query. For details on writing the query, see [Consuming Events](consuming-events.md).
 
-To query events, call the [**EvtQuery**](evtquery.md) function. You can specify the order in which the events are returned (oldest to newest (the default) or newest to oldest) and whether to tolerate malformed XPath expressions in the query (for details on how the function ignores the malformed expressions, see the [**EvtQueryTolerateQueryErrors**](evt-query-flags.md) flag).
+To query events, call the [**EvtQuery**](/windows/win32/WinEvt/nf-winevt-evtquery?branch=master) function. You can specify the order in which the events are returned (oldest to newest (the default) or newest to oldest) and whether to tolerate malformed XPath expressions in the query (for details on how the function ignores the malformed expressions, see the [**EvtQueryTolerateQueryErrors**](/windows/win32/WinEvt/ne-winevt-_evt_query_flags?branch=master) flag).
 
 The following example shows how to query events from a channel using an XPath expression.
 
@@ -118,9 +123,9 @@ cleanup:
 
 
 
-If you are using a structured XML query and pass the EvtQueryTolerateQueryErrors flag to [**EvtQuery**](evtquery.md), the function succeeds even though one or more of the queries in the structured query may have actually failed. To determine which queries in the structured query succeeded or failed, call the [**EvtGetQueryInfo**](evtgetqueryinfo.md) function. If you do not pass the EvtQueryTolerateQueryErrors flag, the **EvtQuery** function will fail with the first error that it finds in the query. If the query fails with ERROR\_EVT\_INVALID\_QUERY, call the [**EvtGetExtendedStatus**](evtgetextendedstatus.md) function to get a message string that describes the XPath error.
+If you are using a structured XML query and pass the EvtQueryTolerateQueryErrors flag to [**EvtQuery**](/windows/win32/WinEvt/nf-winevt-evtquery?branch=master), the function succeeds even though one or more of the queries in the structured query may have actually failed. To determine which queries in the structured query succeeded or failed, call the [**EvtGetQueryInfo**](/windows/win32/WinEvt/nf-winevt-evtgetqueryinfo?branch=master) function. If you do not pass the EvtQueryTolerateQueryErrors flag, the **EvtQuery** function will fail with the first error that it finds in the query. If the query fails with ERROR\_EVT\_INVALID\_QUERY, call the [**EvtGetExtendedStatus**](/windows/win32/WinEvt/nf-winevt-evtgetextendedstatus?branch=master) function to get a message string that describes the XPath error.
 
-The following example shows how to determine the success or failure of each query in a structured query when passing the EvtQueryTolerateQueryErrors flag to [**EvtQuery**](evtquery.md).
+The following example shows how to determine the success or failure of each query in a structured query when passing the EvtQueryTolerateQueryErrors flag to [**EvtQuery**](/windows/win32/WinEvt/nf-winevt-evtquery?branch=master).
 
 
 ```C++
@@ -203,7 +208,7 @@ cleanup:
 
 ## Reading events from the result set
 
-To enumerate the events in the result set, call the [**EvtNext**](evtnext.md) function in a loop until the function returns **FALSE** and the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function returns ERROR\_NO\_MORE\_ITEMS. The events in the result set are not static; new events that are written to the channel will be included in the result set until ERROR\_NO\_MORE\_ITEMS is set. To improve performance, fetch events from the result set in batches (taking into account the size of each event when determining the number of events to fetch).
+To enumerate the events in the result set, call the [**EvtNext**](/windows/win32/WinEvt/nf-winevt-evtnext?branch=master) function in a loop until the function returns **FALSE** and the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function returns ERROR\_NO\_MORE\_ITEMS. The events in the result set are not static; new events that are written to the channel will be included in the result set until ERROR\_NO\_MORE\_ITEMS is set. To improve performance, fetch events from the result set in batches (taking into account the size of each event when determining the number of events to fetch).
 
 The following example shows how to enumerate the events in a result set.
 

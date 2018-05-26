@@ -1,14 +1,19 @@
 ---
-Description: 'Both the Base Provider and the Extended Provider can specify the value and length of the salt value to be used. The Base Provider sets a salt value using the KP\_SALT parameter value. The Base Provider always sets eleven bytes of salt value.'
-ms.assetid: 'ea56d064-b725-431f-b951-66167624e14b'
+Description: Both the Base Provider and the Extended Provider can specify the value and length of the salt value to be used. The Base Provider sets a salt value using the KP\_SALT parameter value. The Base Provider always sets eleven bytes of salt value.
+ms.assetid: ea56d064-b725-431f-b951-66167624e14b
 title: Specifying a Salt Value
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying a Salt Value
 
 Both the Base Provider and the Extended Provider can specify the value and length of the [*salt value*](security.s_gly#-security-salt-value-gly) to be used. The Base Provider sets a salt value using the KP\_SALT parameter value. The Base Provider always sets eleven bytes of salt value.
 
-The Enhanced Provider sets the salt value by calling [**CryptSetKeyParam**](cryptsetkeyparam.md) with the KP\_SALT\_EX parameter value specified and with the *pbData* parameter pointing to a [**CRYPT\_INTEGER\_BLOB**](crypt-integer-blob.md) structure that contains the salt.
+The Enhanced Provider sets the salt value by calling [**CryptSetKeyParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetkeyparam?branch=master) with the KP\_SALT\_EX parameter value specified and with the *pbData* parameter pointing to a [**CRYPT\_INTEGER\_BLOB**](crypt-integer-blob.md) structure that contains the salt.
 
 > [!Note]  
 > The total length of an Enhanced Provider [*symmetric key*](security.s_gly#-security-symmetric-key-gly) and its salt value cannot be greater than 128 bits.

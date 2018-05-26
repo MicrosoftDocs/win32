@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the association between DNS64 settings and accept/send interfaces.'
-ms.assetid: '32403f94-8b69-40cc-9b3e-1e8d0fcb9e2f'
-title: 'MSFT\_NetDnsTransitionInterfaceAssociation class'
+Description: Describes the association between DNS64 settings and accept/send interfaces.
+ms.assetid: 32403f94-8b69-40cc-9b3e-1e8d0fcb9e2f
+title: MSFT\_NetDnsTransitionInterfaceAssociation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetDnsTransitionInterfaceAssociation class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetTtCim")]
 class MSFT_NetDnsTransitionInterfaceAssociation : CIM_ElementSettingData
 {
-  MSFT_NetAdapter                  REF ManagedElement;
+  MSFT_NetAdapter                  REF ManagedElement;
   MSFT_NetDnsTransitionSettingData REF SettingData;
 };
 ```
@@ -65,17 +70,17 @@ Specifies the DNS64 settings associated with this interface.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

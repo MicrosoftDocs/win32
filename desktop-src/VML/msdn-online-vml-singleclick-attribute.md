@@ -1,7 +1,12 @@
 ---
 title: VML SingleClick Attribute
 description: VML SingleClick Attribute
-ms.assetid: 'fc7f0a87-b72e-478c-8fb4-2298f7177631'
+ms.assetid: fc7f0a87-b72e-478c-8fb4-2298f7177631
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML SingleClick Attribute

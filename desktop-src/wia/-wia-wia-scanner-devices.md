@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Image Acquisition (WIA) scanner device is implemented as a hierarchical tree of IWiaItem objects.'
-ms.assetid: 'd716faec-9ace-422d-b6eb-ad4d86c1b0fd'
-title: 'WIA Scanner Devices in WIA 1.0'
+Description: The Windows Image Acquisition (WIA) scanner device is implemented as a hierarchical tree of IWiaItem objects.
+ms.assetid: d716faec-9ace-422d-b6eb-ad4d86c1b0fd
+title: WIA Scanner Devices in WIA 1.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Scanner Devices in WIA 1.0
@@ -11,7 +16,7 @@ title: 'WIA Scanner Devices in WIA 1.0'
 
  
 
-The Windows Image Acquisition (WIA) scanner device is implemented as a hierarchical tree of [**IWiaItem**](-wia-iwiaitem.md) objects. From the root item an application may:
+The Windows Image Acquisition (WIA) scanner device is implemented as a hierarchical tree of [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) objects. From the root item an application may:
 
 -   Query scanner capabilities
 -   Set scanner device properties
@@ -19,15 +24,15 @@ The Windows Image Acquisition (WIA) scanner device is implemented as a hierarchi
 
 A WIA scanner device is different from a WIA camera device because, in general, it does not store multiple images in memory.
 
-Underneath the root item, a typical scanner object has a single [**IWiaItem**](-wia-iwiaitem.md) object that represents the data collecting functionality of the device, the Scan Item. This item has the [**WiaItemTypeFile**](-wia-wia-item-type-flags.md) flag set to indicate that data transfers on this item are possible. An application sets up a scan by setting the properties of the scan item, then performs the scan and transfers the data using a data transfer interface.
+Underneath the root item, a typical scanner object has a single [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) object that represents the data collecting functionality of the device, the Scan Item. This item has the [**WiaItemTypeFile**](-wia-wia-item-type-flags.md) flag set to indicate that data transfers on this item are possible. An application sets up a scan by setting the properties of the scan item, then performs the scan and transfers the data using a data transfer interface.
 
 The following diagram illustrates the WIA implementation for a typical scanner:
 
 ![wia implementation of a typical scanner](images/wiscantr.gif)
 
-A typical duplex scanner is represented in WIA by having one [**IWiaItem**](-wia-iwiaitem.md) object. Front- and back-page data is accessed sequentially one data transfer per page. Therefore, the representation of a duplex scanner is identical to the representation of a typical scanner.
+A typical duplex scanner is represented in WIA by having one [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) object. Front- and back-page data is accessed sequentially one data transfer per page. Therefore, the representation of a duplex scanner is identical to the representation of a typical scanner.
 
-A slide scanner capable of scanning multiple slides in a single scan operation represents each separate image as a separate [**IWiaItem**](-wia-iwiaitem.md) object.
+A slide scanner capable of scanning multiple slides in a single scan operation represents each separate image as a separate [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) object.
 
 The following diagram illustrates the WIA representation of a slide scanner:
 

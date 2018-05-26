@@ -1,8 +1,9 @@
 ---
 title: TransportStatus enumeration
 description: Defines the available transport status as defined by the UPnP Guidelines.
-ms.assetid: '6fde82f0-9bc4-4abb-9d10-0000501c2b24'
-keywords: ["TransportStatus enumeration Media Streaming API"]
+ms.assetid: 6fde82f0-9bc4-4abb-9d10-0000501c2b24
+keywords:
+- TransportStatus enumeration Media Streaming API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Windows.Media.Streaming.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TransportStatus enumeration
@@ -22,10 +28,10 @@ Defines the available transport status as defined by the UPnP Guidelines.
 
 ```C++
 typedef enum TransportStatus { 
-  Unknown        = 0,
-  Ok             = 1,
-  ErrorOccurred  = 2,
-  Last           = 3
+  Unknown        = 0,
+  Ok             = 1,
+  ErrorOccurred  = 2,
+  Last           = 3
 } TransportStatus;
 ```
 
@@ -59,7 +65,7 @@ An error occurred on the device.
 <span id="Last"></span><span id="last"></span><span id="LAST"></span>**Last**
 </dt> <dd>
 
-The device’s previous status to the current transport status.
+The device s previous status to the current transport status.
 
 </dd> </dl>
 
@@ -73,9 +79,9 @@ The device’s previous status to the current transport status.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

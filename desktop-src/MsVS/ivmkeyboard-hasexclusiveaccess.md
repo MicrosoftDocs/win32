@@ -1,8 +1,13 @@
 ---
 title: IVMKeyboard HasExclusiveAccess property
-description: The HasExclusiveAccess property contains whether this IVMKeyboard object has exclusive control over the virtual machine's keyboard device.
-ms.assetid: '94523158-1731-4f15-98d6-a3baf113d608'
-keywords: ["HasExclusiveAccess property Virtual Server", "HasExclusiveAccess property Virtual Server , IVMKeyboard interface", "IVMKeyboard interface Virtual Server , HasExclusiveAccess property", "HasExclusiveAccess property Virtual Server , VMKeyboard interface", "VMKeyboard interface Virtual Server , HasExclusiveAccess property"]
+description: The HasExclusiveAccess property contains whether this IVMKeyboard object has exclusive control over the virtual machines keyboard device.
+ms.assetid: 94523158-1731-4f15-98d6-a3baf113d608
+keywords:
+- HasExclusiveAccess property Virtual Server
+- HasExclusiveAccess property Virtual Server , IVMKeyboard interface
+- IVMKeyboard interface Virtual Server , HasExclusiveAccess property
+- HasExclusiveAccess property Virtual Server , VMKeyboard interface
+- VMKeyboard interface Virtual Server , HasExclusiveAccess property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard::HasExclusiveAccess property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HasExclusiveAccess(
-  [in]  VARIANT_BOOL makeExclusive
+  [in]  VARIANT_BOOL makeExclusive
 );
 
 HRESULT get_HasExclusiveAccess(
-  [out] VARIANT_BOOL *isExclusive
+  [out] VARIANT_BOOL *isExclusive
 );
 ```
 
@@ -84,8 +94,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -97,9 +107,9 @@ This property value is read/write.
 [**IVMKeyboard**](ivmkeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

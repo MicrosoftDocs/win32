@@ -1,7 +1,12 @@
 ---
-Description: 'Displays the description for Digital Rights Management (DRM).'
-ms.assetid: '5c657042-fa46-4f80-88bc-d10b6e38ee56'
-title: 'System.DRM.Description'
+Description: Displays the description for Digital Rights Management (DRM).
+ms.assetid: 5c657042-fa46-4f80-88bc-d10b6e38ee56
+title: System.DRM.Description
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DRM.Description

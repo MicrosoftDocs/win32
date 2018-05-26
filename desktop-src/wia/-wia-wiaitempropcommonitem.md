@@ -1,12 +1,17 @@
-﻿---
-Description: 'The following device property constants must be supported by all IWiaItem, IWiaItem2 and IWiaDrvItem Interface interfaces unless otherwise noted in their descriptions.'
-ms.assetid: 'ef48313e-4df4-4ccd-a085-f714100885a7'
+---
+Description: The following device property constants must be supported by all IWiaItem, IWiaItem2 and IWiaDrvItem Interface interfaces unless otherwise noted in their descriptions.
+ms.assetid: ef48313e-4df4-4ccd-a085-f714100885a7
 title: Common WIA Item Property Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common WIA Item Property Constants
 
-The following device property constants must be supported by all [**IWiaItem**](-wia-iwiaitem.md), [**IWiaItem2**](-wia-iwiaitem2.md) and [IWiaDrvItem Interface](http://go.microsoft.com/fwlink/p/?linkid=181163) interfaces unless otherwise noted in their descriptions.
+The following device property constants must be supported by all [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master), [**IWiaItem2**](-wia-iwiaitem2.md) and [IWiaDrvItem Interface](http://go.microsoft.com/fwlink/p/?linkid=181163) interfaces unless otherwise noted in their descriptions.
 
 The prefix "WIA\_IPA\_" indicates an item property for all devices and is the naming convention used in C/C++. For scripting purposes these constants use the prefix "Picture" and are part of the [WiaItemPropertyId](-wia-wiaitempropertyid.md) enumerated type. The corresponding member name from that script enumeration appears in parentheses next to the C/C++ constant name in the following list.
 
@@ -303,7 +308,7 @@ The file name extension does not include the dot.
 <p>An application reads this property to determine the format of the image that it is about to receive. An application writes this property to set the format. This property depends on the [WIA_IPA_TYMED](http://go.microsoft.com/fwlink/p/?linkid=181171) property. The minidriver creates and maintains this property.</p>
 <p>If the device can be set to only a single value, create a [WIA_PROP_LIST](-wia-property-attributes.md) type, and place the valid value in it.</p>
 <p>Type: <strong>CLSID</strong>, Access: Read/Write, Valid Values: [WIA_PROP_LIST](-wia-property-attributes.md)</p>
-<p>The following table lists the constants that are valid with this property. The asterisk * indicates that the constant is not supported in Windows Vista. (It is only available through the [<strong>IWiaItem</strong>](-wia-iwiaitem.md) interface.) The double asterisk ** indicates that the constant is not supported in either Windows Server 2003 or Windows Vista. The <strong>V</strong> symbol indicates that the constant is supported only in Windows Vista and later. (It is only available through the [<strong>IWiaItem2</strong>](-wia-iwiaitem2.md) interface.)</p>
+<p>The following table lists the constants that are valid with this property. The asterisk * indicates that the constant is not supported in Windows Vista. (It is only available through the [<strong>IWiaItem</strong>](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface.) The double asterisk ** indicates that the constant is not supported in either Windows Server 2003 or Windows Vista. The <strong>V</strong> symbol indicates that the constant is supported only in Windows Vista and later. (It is only available through the [<strong>IWiaItem2</strong>](-wia-iwiaitem2.md) interface.)</p>
 
 <table>
 <thead>
@@ -499,7 +504,7 @@ When this property is either WiaImgFmt_PDFA or WiaImgFmt_XPS, and WIA_IPA_COMPRE
 <td style="text-align: left;"><p>Contains the descriptive flags for a WIA item. The item flags are the same as those in the <em>lObjectFlags</em> parameter of the [wiasCreateDrvItem](http://go.microsoft.com/fwlink/p/?linkid=181170) service utility function. The WIA service creates and maintains this property.</p>
 <p>An application reads this property to determine the item's descriptive flag values.</p>
 <p>Type: <strong>VT_I4</strong> Access: Read Only, Valid values: [WIA_PROP_NONE](-wia-property-attributes.md)</p>
-<p>The following table has the flags that are valid with this property. An asterisk * indicates that the flag is not supported in Windows Vista or later. (It is only available through the [<strong>IWiaItem</strong>](-wia-iwiaitem.md) interface.) An double asterisk ** indicates that the flag is not supported in either Windows Server 2003 or Windows Vista or later. The <strong>V</strong> symbol indicates that the flag is supported only in Windows Vista and later. (It is only available through the [<strong>IWiaItem2</strong>](-wia-iwiaitem2.md) interface.)</p>
+<p>The following table has the flags that are valid with this property. An asterisk * indicates that the flag is not supported in Windows Vista or later. (It is only available through the [<strong>IWiaItem</strong>](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface.) An double asterisk ** indicates that the flag is not supported in either Windows Server 2003 or Windows Vista or later. The <strong>V</strong> symbol indicates that the flag is supported only in Windows Vista and later. (It is only available through the [<strong>IWiaItem2</strong>](-wia-iwiaitem2.md) interface.)</p>
 
 <table>
 <thead>
@@ -809,7 +814,7 @@ When this property is either WiaImgFmt_PDFA or WiaImgFmt_XPS, and WIA_IPA_COMPRE
 <td style="text-align: left;"><p>Specifies whether to suppress the general property pages for items on the device.</p>
 <p>This property is available on Windows XP and later.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read Only, Valid Values: [WIA_PROP_NONE](-wia-property-attributes.md)</p>
-<p>The following table has the constants that are valid with this property. The asterisk * indicates that the constant is not valid with Windows Vista and later. (It is only available through the [<strong>IWiaItem</strong>](-wia-iwiaitem.md) interface.)</p>
+<p>The following table has the constants that are valid with this property. The asterisk * indicates that the constant is not valid with Windows Vista and later. (It is only available through the [<strong>IWiaItem</strong>](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface.)</p>
 
 <table>
 <thead>
@@ -838,7 +843,7 @@ When this property is either WiaImgFmt_PDFA or WiaImgFmt_XPS, and WIA_IPA_COMPRE
 <p>An application reads this property to determine the minidriver's method of data transfer.</p>
 <p>Required for all transfer-enabled WIA 2.0 items.</p>
 <p>Type: <strong>VT_I4</strong>, Access: Read/Write, Valid Values: [WIA_PROP_LIST](-wia-property-attributes.md)</p>
-<p>The following table has the constants that are valid with this property. The asterisk * indicates constants that are not valid with Windows Vista and later. (They are only available through the [<strong>IWiaItem</strong>](-wia-iwiaitem.md) interface.)</p>
+<p>The following table has the constants that are valid with this property. The asterisk * indicates constants that are not valid with Windows Vista and later. (They are only available through the [<strong>IWiaItem</strong>](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface.)</p>
 
 <table>
 <thead>

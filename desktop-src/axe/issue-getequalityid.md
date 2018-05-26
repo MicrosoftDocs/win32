@@ -1,8 +1,11 @@
 ---
 title: Issue GetEqualityID method
 description: Returns the equality ID of the Issue.
-ms.assetid: 'C17FEFBA-7C36-405C-B5BF-1DBD66E9BE91'
-keywords: ["GetEqualityID method Access Execution Engine", "GetEqualityID method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetEqualityID method"]
+ms.assetid: C17FEFBA-7C36-405C-B5BF-1DBD66E9BE91
+keywords:
+- GetEqualityID method Access Execution Engine
+- GetEqualityID method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetEqualityID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetEqualityID method
@@ -22,7 +30,7 @@ Returns the equality ID of the **Issue**.
 
 ```C++
 virtual HRESULT GetEqualityID(
-  [out] LPCWSTR *equalityID
+  [out] LPCWSTR *equalityID
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The equality ID is the value of element **Issue/EqualityID**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The equality ID is the value of element **Issue/EqualityID**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

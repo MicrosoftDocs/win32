@@ -1,7 +1,12 @@
 ---
-Description: 'Included with this SDK is sample code that demonstrates the use of the Function Discovery provider API.'
-ms.assetid: '81955209-d6e2-49a2-ad41-55612b3eb430'
+Description: Included with this SDK is sample code that demonstrates the use of the Function Discovery provider API.
+ms.assetid: 81955209-d6e2-49a2-ad41-55612b3eb430
 title: Function Discovery Provider Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Provider Sample
@@ -10,7 +15,7 @@ title: Function Discovery Provider Sample
 
 Included with this SDK is sample code that demonstrates the use of the Function Discovery provider API. The sample demonstrates how to write a fully functional PnP-X provider by implementing a very simple network protocol. The source code for the sample can be found in the SDK installation location at C:\\Program Files\\Microsoft SDKs\\Windows\\&lt;version number&gt;\\Samples\\winbase\\DeviceFoundation\\FunctionDiscovery\\Provider. The Windows Vista SDK is available from the [Download Center](http://go.microsoft.com/fwlink/p/?linkid=102968).
 
-The Function Discovery provider sample has three components. FDProviderSample.dll contains a COM class that implements the [**IFunctionDiscoveryProvider**](ifunctiondiscoveryprovider.md) interface. FDProviderHostSample.exe implements an executable host for the provider. FDProviderSampleDevice.exe implements a simple soft device that is enumerated by the sample provider. More information about this sample is available in the readme file in the FunctionDiscoveryProvider directory.
+The Function Discovery provider sample has three components. FDProviderSample.dll contains a COM class that implements the [**IFunctionDiscoveryProvider**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider?branch=master) interface. FDProviderHostSample.exe implements an executable host for the provider. FDProviderSampleDevice.exe implements a simple soft device that is enumerated by the sample provider. More information about this sample is available in the readme file in the FunctionDiscoveryProvider directory.
 
 The Function Discovery provider sample was developed with the goal of serving as the foundation for implementing providers. It is structured in a way that makes it easy to replace the sample network protocol with a real protocol but preserve the bulk of the code.
 

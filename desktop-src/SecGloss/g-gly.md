@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter G.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'c9567a5b-bd56-4ae1-9eac-af0bb5a6842a'
+Description: Contains definitions of security terms that begin with the letter G.
+Robots: noindex, nofollow
+ms.assetid: c9567a5b-bd56-4ae1-9eac-af0bb5a6842a
 title: G
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # G

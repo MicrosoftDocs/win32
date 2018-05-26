@@ -1,14 +1,20 @@
 ---
 title: PresentationHints element
 description: The root node of the presentation hints section.
-ms.assetid: 'BD18FE9A-DED3-42CE-8D3A-D6CAA89AEF56'
-keywords: ["PresentationHints element Access Execution Engine"]
+ms.assetid: BD18FE9A-DED3-42CE-8D3A-D6CAA89AEF56
+keywords:
+- PresentationHints element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - PresentationHints
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PresentationHints element
@@ -72,9 +78,9 @@ ColumnsPageLinkPages
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

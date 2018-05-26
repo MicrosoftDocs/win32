@@ -1,7 +1,12 @@
 ---
 title: Enabling Internet Connection Firewall (VBScript)
 description: Enabling Internet Connection Firewall (VBScript)
-ms.assetid: '43211c86-c21b-4b88-851d-5e007d3556e3'
+ms.assetid: 43211c86-c21b-4b88-851d-5e007d3556e3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Internet Connection Firewall (VBScript)

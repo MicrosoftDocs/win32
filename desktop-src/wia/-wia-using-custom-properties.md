@@ -1,7 +1,12 @@
 ---
-Description: 'Using Custom Properties.'
-ms.assetid: '09b30c95-0ce2-401c-a4ae-99c801a2048a'
+Description: Using Custom Properties.
+ms.assetid: 09b30c95-0ce2-401c-a4ae-99c801a2048a
 title: Using Custom Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Custom Properties

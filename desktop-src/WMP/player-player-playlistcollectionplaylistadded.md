@@ -1,8 +1,11 @@
 ---
 title: Player.PlaylistCollectionPlaylistAdded event
 description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.
-ms.assetid: '07acb5e6-d832-4f0b-a6bb-2b7ba27c368d'
-keywords: ["PlaylistCollectionPlaylistAdded event Windows Media Player", "PlaylistCollectionPlaylistAdded event Windows Media Player , Player class", "Player class Windows Media Player , PlaylistCollectionPlaylistAdded event"]
+ms.assetid: 07acb5e6-d832-4f0b-a6bb-2b7ba27c368d
+keywords:
+- PlaylistCollectionPlaylistAdded event Windows Media Player
+- PlaylistCollectionPlaylistAdded event Windows Media Player , Player class
+- Player class Windows Media Player , PlaylistCollectionPlaylistAdded event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.PlaylistCollectionPlaylistAdded event
@@ -72,9 +80,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**PlaylistCollection.getByName**](playlistcollection-getbyname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

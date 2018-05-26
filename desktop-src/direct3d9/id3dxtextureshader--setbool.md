@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a BOOL value.'
-ms.assetid: '0d3c1f3a-f497-4e92-81e9-8647006910e1'
-title: 'ID3DXTextureShader::SetBool method'
+---
+Description: Sets a BOOL value.
+ms.assetid: 0d3c1f3a-f497-4e92-81e9-8647006910e1
+title: ID3DXTextureShaderSetBool method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetBool method

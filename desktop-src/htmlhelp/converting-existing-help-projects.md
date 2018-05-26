@@ -1,7 +1,12 @@
 ---
 title: Converting Existing Help Projects
 description: You can use HTML Help Workshop to convert existing WinHelp projects.
-ms.assetid: 'AE812334-93B4-4a24-BF01-C0C4CC9FCF0F'
+ms.assetid: AE812334-93B4-4a24-BF01-C0C4CC9FCF0F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Converting Existing Help Projects

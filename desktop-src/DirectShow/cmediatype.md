@@ -1,14 +1,19 @@
 ---
-Description: 'The CMediaType class manages media types. This class inherits the AM\_MEDIA\_TYPE structure. It can be cast to a variable of type AM\_MEDIA\_TYPE.'
-ms.assetid: 'ea3d03a1-cca4-4a6e-9d1d-4cebe710f913'
+Description: The CMediaType class manages media types. This class inherits the AM\_MEDIA\_TYPE structure. It can be cast to a variable of type AM\_MEDIA\_TYPE.
+ms.assetid: ea3d03a1-cca4-4a6e-9d1d-4cebe710f913
 title: CMediaType class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType class
 
 ![cmediatype class hierarchy](images/mtype01.png)
 
-The `CMediaType` class manages media types. This class inherits the [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. It can be cast to a variable of type **AM\_MEDIA\_TYPE**.
+The `CMediaType` class manages media types. This class inherits the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. It can be cast to a variable of type **AM\_MEDIA\_TYPE**.
 
 
 
@@ -46,7 +51,7 @@ The `CMediaType` class manages media types. This class inherits the [**AM\_MEDIA
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +64,9 @@ The `CMediaType` class manages media types. This class inherits the [**AM\_MEDIA
 
 
 
- 
+ 
 
- 
+ 
 
 
 

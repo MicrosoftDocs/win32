@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities of the associated Msvm\_ExternalEthernetPort.'
-ms.assetid: '63731b62-b1c7-4dd9-b906-03225bbc3154'
-title: 'Msvm\_ExternalEthernetPortCapabilities class'
+Description: Describes the capabilities of the associated Msvm\_ExternalEthernetPort.
+ms.assetid: 63731b62-b1c7-4dd9-b906-03225bbc3154
+title: Msvm\_ExternalEthernetPortCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ExternalEthernetPortCapabilities class
@@ -16,12 +21,12 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ExternalEthernetPortCapabilities : CIM_Capabilities
 {
-  string  InstanceID;
-  string  Caption = "Ethernet Port Capabilities";
-  string  Description = "Describes the capabilities of the Microsoft External Ethernet Port";
-  string  ElementName = "Ethernet Port Capabilities";
+  string  InstanceID;
+  string  Caption = "Ethernet Port Capabilities";
+  string  Description = "Describes the capabilities of the Microsoft External Ethernet Port";
+  string  ElementName = "Ethernet Port Capabilities";
   boolean IOVSupport;
-  string  IOVSupportReasons[];
+  string  IOVSupportReasons[];
 };
 ```
 
@@ -124,17 +129,17 @@ An array of strings that indicates the possible reasons why IOV is not supported
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

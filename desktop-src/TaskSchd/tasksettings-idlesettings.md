@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.IdleSettings property
 description: For scripting, gets or sets the information that specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
-ms.assetid: 'd3bec139-f395-4658-b8be-79b7281c4f93'
-keywords: ["IdleSettings property Task Scheduler", "IdleSettings property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , IdleSettings property"]
+ms.assetid: d3bec139-f395-4658-b8be-79b7281c4f93
+keywords:
+- IdleSettings property Task Scheduler
+- IdleSettings property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , IdleSettings property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.IdleSettings property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, this setting is specified in the [**Idle
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When reading or writing XML for a task, this setting is specified in the [**Idle
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

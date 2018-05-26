@@ -1,12 +1,17 @@
-﻿---
-Description: 'Provides properties and methods to encrypt and decrypt data using a session key derived from a secret.'
-ms.assetid: '3b9bd0a2-6e15-4d58-a682-588a93895799'
+---
+Description: Provides properties and methods to encrypt and decrypt data using a session key derived from a secret.
+ms.assetid: 3b9bd0a2-6e15-4d58-a682-588a93895799
 title: EncryptedData object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EncryptedData object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API functions [**CryptEncryptMessage**](cryptencryptmessage.md) and [**CryptDecryptMessage**](cryptdecryptmessage.md) to encrypt and decrypt messages. For information about PInvoke, see [Platform Invoke Tutorial](http://go.microsoft.com/fwlink/p/?linkid=119531). The [.NET and CryptoAPI via P/Invoke: Part 1](http://go.microsoft.com/fwlink/p/?linkid=119533) and [.NET and CryptoAPI via P/Invoke: Part 2](http://go.microsoft.com/fwlink/p/?linkid=119534) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](http://go.microsoft.com/fwlink/p/?linkid=119532) may also be helpful.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API functions [**CryptEncryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptencryptmessage?branch=master) and [**CryptDecryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecryptmessage?branch=master) to encrypt and decrypt messages. For information about PInvoke, see [Platform Invoke Tutorial](http://go.microsoft.com/fwlink/p/?linkid=119531). The [.NET and CryptoAPI via P/Invoke: Part 1](http://go.microsoft.com/fwlink/p/?linkid=119533) and [.NET and CryptoAPI via P/Invoke: Part 2](http://go.microsoft.com/fwlink/p/?linkid=119534) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](http://go.microsoft.com/fwlink/p/?linkid=119532) may also be helpful.\]
 
 The **EncryptedData** object provides properties and methods to encrypt and decrypt data using a [*session key*](security.s_gly#-security-session-key-gly) derived from a secret.
 

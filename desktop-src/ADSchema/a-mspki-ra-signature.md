@@ -4,17 +4,22 @@ description: Specifies the number of enrollment registration authority signature
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'da9d9357-6826-4511-b589-594c73114713'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: da9d9357-6826-4511-b589-594c73114713
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-RA-Signature attribute AD Schema", "msPKI-RA-Signature attribute AD Schema"]
+keywords:
+- ms-PKI-RA-Signature attribute AD Schema
+- msPKI-RA-Signature attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-RA-Signature
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-RA-Signature attribute
@@ -38,11 +43,11 @@ Specifies the number of enrollment registration authority signatures that are re
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Specifies the number of enrollment registration authority signatures that are re
 
 
 
- 
+ 
 
- 
+ 
 
 
 

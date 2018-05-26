@@ -1,7 +1,12 @@
 ---
-Description: 'The following topic describes the programming interface for Function Discovery providers:'
-ms.assetid: '7f6936de-3df0-46dc-bf5f-9bd62e53e83b'
+Description: The following topic describes the programming interface for Function Discovery providers
+ms.assetid: 7f6936de-3df0-46dc-bf5f-9bd62e53e83b
 title: Function Discovery Provider Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Provider Reference

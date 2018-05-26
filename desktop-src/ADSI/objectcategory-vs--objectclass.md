@@ -4,11 +4,16 @@ description: Both the objectCategory and objectClass attributes can refer to a g
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '66dadedb-61e4-4184-9b87-0fff036a94d9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 66dadedb-61e4-4184-9b87-0fff036a94d9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["objectCategory vs. objectClass ADSI", "attributes ASI , searching on objectCategory and objectClass attributes"]
+keywords:
+- objectCategory vs. objectClass ADSI
+- attributes ASI , searching on objectCategory and objectClass attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # objectCategory vs. objectClass

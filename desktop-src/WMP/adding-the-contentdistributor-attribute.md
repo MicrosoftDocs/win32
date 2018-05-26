@@ -1,8 +1,23 @@
 ---
 title: Adding the ContentDistributor Attribute
 description: Adding the ContentDistributor Attribute
-ms.assetid: 'b4ba5c9b-f28f-4275-bd39-c0ad1080d122'
-keywords: ["Windows Media Player online stores,adding ContentDistributor attribute", "online stores,adding ContentDistributor attribute", "type 1 online stores,adding ContentDistributor attribute", "type 2 online stores,adding ContentDistributor attribute", "Windows Media Player online stores,ContentDistributor attribute", "online stores,ContentDistributor attribute", "type 1 online stores,ContentDistributor attribute", "type 2 online stores,ContentDistributor attribute", "adding ContentDistributor attribute", "ContentDistributor"]
+ms.assetid: b4ba5c9b-f28f-4275-bd39-c0ad1080d122
+keywords:
+- Windows Media Player online stores,adding ContentDistributor attribute
+- online stores,adding ContentDistributor attribute
+- type 1 online stores,adding ContentDistributor attribute
+- type 2 online stores,adding ContentDistributor attribute
+- Windows Media Player online stores,ContentDistributor attribute
+- online stores,ContentDistributor attribute
+- type 1 online stores,ContentDistributor attribute
+- type 2 online stores,ContentDistributor attribute
+- adding ContentDistributor attribute
+- ContentDistributor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding the ContentDistributor Attribute

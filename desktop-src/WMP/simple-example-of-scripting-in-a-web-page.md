@@ -1,8 +1,29 @@
 ---
 title: Simple Example of Scripting in a Web Page
 description: Simple Example of Scripting in a Web Page
-ms.assetid: 'c6d6954e-f684-4dc1-8b9c-c5fc3cab7421'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "Windows Media Player ActiveX control,scripting example", "Windows Media Player Mobile ActiveX control,scripting example", "ActiveX control,scripting example", "embedding,Web pages", "Web page embedding,scripting example", "scripting example for webpage embedding"]
+ms.assetid: c6d6954e-f684-4dc1-8b9c-c5fc3cab7421
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- Windows Media Player ActiveX control,scripting example
+- Windows Media Player Mobile ActiveX control,scripting example
+- ActiveX control,scripting example
+- embedding,Web pages
+- Web page embedding,scripting example
+- scripting example for webpage embedding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple Example of Scripting in a Web Page

@@ -1,8 +1,11 @@
 ---
 title: ITransformProperty SetValueAtTime method
 description: The SetValueAtTime method specifies a property value at a particular time.
-ms.assetid: 'ae142ce1-bfe5-48cd-8cab-c04968cfda4c'
-keywords: ["SetValueAtTime method Windows Movie Maker and DVD Maker", "SetValueAtTime method Windows Movie Maker and DVD Maker , ITransformProperty interface", "ITransformProperty interface Windows Movie Maker and DVD Maker , SetValueAtTime method"]
+ms.assetid: ae142ce1-bfe5-48cd-8cab-c04968cfda4c
+keywords:
+- SetValueAtTime method Windows Movie Maker and DVD Maker
+- SetValueAtTime method Windows Movie Maker and DVD Maker , ITransformProperty interface
+- ITransformProperty interface Windows Movie Maker and DVD Maker , SetValueAtTime method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperty::SetValueAtTime method
@@ -25,8 +33,8 @@ The **SetValueAtTime** method specifies a property value at a particular time.
 
 ```C++
 HRESULT SetValueAtTime(
-  [in] double      dblTime,
-  [in] PROPVARIANT varValue
+  [in] double      dblTime,
+  [in] PROPVARIANT varValue
 );
 ```
 
@@ -64,8 +72,8 @@ If no point exists at the specified time, this method will create a new point at
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -78,9 +86,9 @@ If no point exists at the specified time, this method will create a new point at
 [**ITransformProperty Interface**](itransformproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

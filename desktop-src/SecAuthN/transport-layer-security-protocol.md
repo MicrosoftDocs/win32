@@ -1,7 +1,12 @@
 ---
-Description: 'Schannel supports versions 1.0, 1.1, and 1.2 of the Transport Layer Security (TLS) protocol.'
-ms.assetid: 'af541a51-fabc-4abd-ae67-268bd984ab92'
+Description: Schannel supports versions 1.0, 1.1, and 1.2 of the Transport Layer Security (TLS) protocol.
+ms.assetid: af541a51-fabc-4abd-ae67-268bd984ab92
 title: Transport Layer Security Protocol
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transport Layer Security Protocol

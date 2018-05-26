@@ -1,7 +1,12 @@
 ---
 title: Button
 description: This section contains information about the programming elements used with button controls. A button is a control the user can click to provide input to an application.
-ms.assetid: '849FFD6B-8CB6-44FA-92EB-35BFA537FB75'
+ms.assetid: 849FFD6B-8CB6-44FA-92EB-35BFA537FB75
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button
@@ -21,7 +26,7 @@ This section contains information about the programming elements used with butto
 
 
 
- 
+ 
 
 ### Functions
 
@@ -29,13 +34,13 @@ This section contains information about the programming elements used with butto
 
 | Topic                                            | Contents                                                                                                                                                                                                  |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CheckDlgButton**](checkdlgbutton.md)         | Changes the check state of a button control.<br/>                                                                                                                                                   |
-| [**CheckRadioButton**](checkradiobutton.md)     | Adds a check mark to (checks) a specified radio button in a group and removes a check mark from (clears) all other radio buttons in the group. <br/>                                                |
-| [**IsDlgButtonChecked**](isdlgbuttonchecked.md) | The [**IsDlgButtonChecked**](isdlgbuttonchecked.md) function determines whether a button control is checked or whether a three-state button control is checked, unchecked, or indeterminate. <br/> |
+| [**CheckDlgButton**](/windows/win32/Winuser/nf-winuser-checkdlgbutton?branch=master)         | Changes the check state of a button control.<br/>                                                                                                                                                   |
+| [**CheckRadioButton**](/windows/win32/Winuser/nf-winuser-checkradiobutton?branch=master)     | Adds a check mark to (checks) a specified radio button in a group and removes a check mark from (clears) all other radio buttons in the group. <br/>                                                |
+| [**IsDlgButtonChecked**](/windows/win32/Winuser/nf-winuser-isdlgbuttonchecked?branch=master) | The [**IsDlgButtonChecked**](/windows/win32/Winuser/nf-winuser-isdlgbuttonchecked?branch=master) function determines whether a button control is checked or whether a three-state button control is checked, unchecked, or indeterminate. <br/> |
 
 
 
- 
+ 
 
 ### Macros
 
@@ -43,31 +48,31 @@ This section contains information about the programming elements used with butto
 
 | Topic                                                                         | Contents                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Button\_Enable**](button-enable.md)                                       | Enables or disables a button.<br/>                                                                                                                                                                                                          |
-| [**Button\_GetCheck**](button-getcheck.md)                                   | Gets the check state of a radio button or check box. You can use this macro or send the [**BM\_GETCHECK**](bm-getcheck.md) message explicitly. <br/>                                                                                       |
-| [**Button\_GetIdealSize**](button-getidealsize.md)                           | Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the [**BCM\_GETIDEALSIZE**](bcm-getidealsize.md) message explicitly. <br/>                                      |
-| [**Button\_GetImageList**](button-getimagelist.md)                           | Gets the [**BUTTON\_IMAGELIST**](button-imagelist.md) structure that describes the image list that is set for a button control. You can use this macro or send the [**BCM\_GETIMAGELIST**](bcm-getimagelist.md) message explicitly. <br/> |
-| [**Button\_GetNote**](button-getnote.md)                                     | Gets the text of the note associated with a command link button. You can use this macro or send the [**BCM\_GETNOTE**](bcm-getnote.md) message explicitly.<br/>                                                                            |
-| [**Button\_GetNoteLength**](button-getnotelength.md)                         | Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the [**BCM\_GETNOTELENGTH**](bcm-getnotelength.md) message explicitly.<br/>                                           |
-| [**Button\_GetSplitInfo**](button-getsplitinfo.md)                           | Gets information for a specified split button control. Use this macro or send the [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md) message explicitly.<br/>                                                                                    |
-| [**Button\_GetState**](button-getstate.md)                                   | Gets the check state of a radio button or check box. You can use this macro or send the [**BM\_GETSTATE**](bm-getstate.md) message explicitly. <br/>                                                                                       |
-| [**Button\_GetText**](button-gettext.md)                                     | Gets the text of a button.<br/>                                                                                                                                                                                                             |
-| [**Button\_GetTextLength**](button-gettextlength.md)                         | Gets the number of characters in the text of a button.<br/>                                                                                                                                                                                 |
-| [**Button\_GetTextMargin**](button-gettextmargin.md)                         | Gets the margins used to draw text in a button control. You can use this macro or send the [**BCM\_GETTEXTMARGIN**](bcm-gettextmargin.md) message explicitly. <br/>                                                                        |
-| [**Button\_SetCheck**](button-setcheck.md)                                   | Sets the check state of a radio button or check box. You can use this macro or send the [**BM\_SETCHECK**](bm-setcheck.md) message explicitly. <br/>                                                                                       |
-| [**Button\_SetDropDownState**](button-setdropdownstate.md)                   | Sets the drop down state for a specified button with style of [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton). Use this macro or send the [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) message explicitly. <br/>           |
-| [**Button\_SetElevationRequiredState**](button-setelevationrequiredstate.md) | Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the [**BCM\_SETSHIELD**](bcm-setshield.md) message explicitly. <br/>                                          |
-| [**Button\_SetImageList**](button-setimagelist.md)                           | Assigns an image list to a button control. You can use this macro or send the [**BCM\_SETIMAGELIST**](bcm-setimagelist.md) message explicitly. <br/>                                                                                       |
-| [**Button\_SetNote**](button-setnote.md)                                     | Sets the text of the note associated with a specified command link button. You can use this macro or send the [**BCM\_SETNOTE**](bcm-setnote.md) message explicitly.<br/>                                                                  |
-| [**Button\_SetSplitInfo**](button-setsplitinfo.md)                           | Sets information for a specified split button control. Use this macro or send the [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) message explicitly.<br/>                                                                                    |
-| [**Button\_SetState**](button-setstate.md)                                   | Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the [**BM\_SETSTATE**](bm-setstate.md) message explicitly. <br/>        |
-| [**Button\_SetStyle**](button-setstyle.md)                                   | Sets the style of a button. You can use this macro or send the [**BM\_SETSTYLE**](bm-setstyle.md) message explicitly. <br/>                                                                                                                |
-| [**Button\_SetText**](button-settext.md)                                     | Sets the text of a button.<br/>                                                                                                                                                                                                             |
-| [**Button\_SetTextMargin**](button-settextmargin.md)                         | Sets the margins for drawing text in a button control. You can use this macro or send the [**BCM\_SETTEXTMARGIN**](bcm-settextmargin.md) message explicitly. <br/>                                                                         |
+| [**Button\_Enable**](/windows/win32/Windowsx/nf-windowsx-button_enable?branch=master)                                       | Enables or disables a button.<br/>                                                                                                                                                                                                          |
+| [**Button\_GetCheck**](/windows/win32/Windowsx/nf-windowsx-button_getcheck?branch=master)                                   | Gets the check state of a radio button or check box. You can use this macro or send the [**BM\_GETCHECK**](bm-getcheck.md) message explicitly. <br/>                                                                                       |
+| [**Button\_GetIdealSize**](/windows/win32/Commctrl/nf-commctrl-button_getidealsize?branch=master)                           | Gets the size of the button that best fits the text and image, if an image list is present. You can use this macro or send the [**BCM\_GETIDEALSIZE**](bcm-getidealsize.md) message explicitly. <br/>                                      |
+| [**Button\_GetImageList**](/windows/win32/Commctrl/nf-commctrl-button_getimagelist?branch=master)                           | Gets the [**BUTTON\_IMAGELIST**](/windows/win32/Commctrl/ns-commctrl-button_imagelist?branch=master) structure that describes the image list that is set for a button control. You can use this macro or send the [**BCM\_GETIMAGELIST**](bcm-getimagelist.md) message explicitly. <br/> |
+| [**Button\_GetNote**](/windows/win32/Commctrl/nf-commctrl-button_getnote?branch=master)                                     | Gets the text of the note associated with a command link button. You can use this macro or send the [**BCM\_GETNOTE**](bcm-getnote.md) message explicitly.<br/>                                                                            |
+| [**Button\_GetNoteLength**](/windows/win32/Commctrl/nf-commctrl-button_getnotelength?branch=master)                         | Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the [**BCM\_GETNOTELENGTH**](bcm-getnotelength.md) message explicitly.<br/>                                           |
+| [**Button\_GetSplitInfo**](/windows/win32/Commctrl/nf-commctrl-button_getsplitinfo?branch=master)                           | Gets information for a specified split button control. Use this macro or send the [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md) message explicitly.<br/>                                                                                    |
+| [**Button\_GetState**](/windows/win32/Windowsx/nf-windowsx-button_getstate?branch=master)                                   | Gets the check state of a radio button or check box. You can use this macro or send the [**BM\_GETSTATE**](bm-getstate.md) message explicitly. <br/>                                                                                       |
+| [**Button\_GetText**](/windows/win32/Windowsx/nf-windowsx-button_gettext?branch=master)                                     | Gets the text of a button.<br/>                                                                                                                                                                                                             |
+| [**Button\_GetTextLength**](/windows/win32/Windowsx/nf-windowsx-button_gettextlength?branch=master)                         | Gets the number of characters in the text of a button.<br/>                                                                                                                                                                                 |
+| [**Button\_GetTextMargin**](/windows/win32/Commctrl/nf-commctrl-button_gettextmargin?branch=master)                         | Gets the margins used to draw text in a button control. You can use this macro or send the [**BCM\_GETTEXTMARGIN**](bcm-gettextmargin.md) message explicitly. <br/>                                                                        |
+| [**Button\_SetCheck**](/windows/win32/Windowsx/nf-windowsx-button_setcheck?branch=master)                                   | Sets the check state of a radio button or check box. You can use this macro or send the [**BM\_SETCHECK**](bm-setcheck.md) message explicitly. <br/>                                                                                       |
+| [**Button\_SetDropDownState**](/windows/win32/Commctrl/nf-commctrl-button_setdropdownstate?branch=master)                   | Sets the drop down state for a specified button with style of [**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton). Use this macro or send the [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) message explicitly. <br/>           |
+| [**Button\_SetElevationRequiredState**](/windows/win32/Commctrl/nf-commctrl-button_setelevationrequiredstate?branch=master) | Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the [**BCM\_SETSHIELD**](bcm-setshield.md) message explicitly. <br/>                                          |
+| [**Button\_SetImageList**](/windows/win32/Commctrl/nf-commctrl-button_setimagelist?branch=master)                           | Assigns an image list to a button control. You can use this macro or send the [**BCM\_SETIMAGELIST**](bcm-setimagelist.md) message explicitly. <br/>                                                                                       |
+| [**Button\_SetNote**](/windows/win32/Commctrl/nf-commctrl-button_setnote?branch=master)                                     | Sets the text of the note associated with a specified command link button. You can use this macro or send the [**BCM\_SETNOTE**](bcm-setnote.md) message explicitly.<br/>                                                                  |
+| [**Button\_SetSplitInfo**](/windows/win32/Commctrl/nf-commctrl-button_setsplitinfo?branch=master)                           | Sets information for a specified split button control. Use this macro or send the [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) message explicitly.<br/>                                                                                    |
+| [**Button\_SetState**](/windows/win32/Windowsx/nf-windowsx-button_setstate?branch=master)                                   | Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the [**BM\_SETSTATE**](bm-setstate.md) message explicitly. <br/>        |
+| [**Button\_SetStyle**](/windows/win32/Windowsx/nf-windowsx-button_setstyle?branch=master)                                   | Sets the style of a button. You can use this macro or send the [**BM\_SETSTYLE**](bm-setstyle.md) message explicitly. <br/>                                                                                                                |
+| [**Button\_SetText**](/windows/win32/Windowsx/nf-windowsx-button_settext?branch=master)                                     | Sets the text of a button.<br/>                                                                                                                                                                                                             |
+| [**Button\_SetTextMargin**](/windows/win32/Commctrl/nf-commctrl-button_settextmargin?branch=master)                         | Sets the margins for drawing text in a button control. You can use this macro or send the [**BCM\_SETTEXTMARGIN**](bcm-settextmargin.md) message explicitly. <br/>                                                                         |
 
 
 
- 
+ 
 
 ### Messages
 
@@ -75,31 +80,31 @@ This section contains information about the programming elements used with butto
 
 | Topic                                                 | Contents                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BCM\_GETIDEALSIZE**](bcm-getidealsize.md)         | Gets the size of the button that best fits its text and image, if an image list is present. You can send this message explicitly or use the [**Button\_GetIdealSize**](button-getidealsize.md) macro.<br/>                                                                                   |
-| [**BCM\_GETIMAGELIST**](bcm-getimagelist.md)         | Gets the [**BUTTON\_IMAGELIST**](button-imagelist.md) structure that describes the image list assigned to a button control. You can send this message explicitly or use the [**Button\_GetImageList**](button-getimagelist.md) macro.<br/>                                                  |
-| [**BCM\_GETNOTE**](bcm-getnote.md)                   | Gets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_GetNote**](button-getnote.md) macro.<br/>                                                                                                                        |
-| [**BCM\_GETNOTELENGTH**](bcm-getnotelength.md)       | Gets the length of the note text that may be displayed in the description for a command link button. Send this message explicitly or by using the [**Button\_GetNoteLength**](button-getnotelength.md) macro.<br/>                                                                           |
-| [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md)         | Gets information for a split button control. Send this message explicitly or by using the [**Button\_GetSplitInfo**](button-getsplitinfo.md) macro. <br/>                                                                                                                                    |
-| [**BCM\_GETTEXTMARGIN**](bcm-gettextmargin.md)       | Gets the margins used to draw text in a button control. You can send this message explicitly or use the [**Button\_GetTextMargin**](button-gettextmargin.md) macro.<br/>                                                                                                                     |
-| [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) | Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md#tbstyle-dropdown). Send this message explicitly or by using the [**Button\_SetDropDownState**](button-setdropdownstate.md) macro.<br/>                                        |
-| [**BCM\_SETIMAGELIST**](bcm-setimagelist.md)         | Assigns an image list to a button control. You can send this message explicitly or use the [**Button\_SetImageList**](button-setimagelist.md) macro.<br/>                                                                                                                                    |
-| [**BCM\_SETNOTE**](bcm-setnote.md)                   | Sets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_SetNote**](button-setnote.md) macro.<br/>                                                                                                                        |
-| [**BCM\_SETSHIELD**](bcm-setshield.md)               | Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the [**Button\_SetElevationRequiredState**](button-setelevationrequiredstate.md) macro.<br/>                                                  |
-| [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md)         | Sets information for a split button control. Send this message explicitly or by using the [**Button\_SetSplitInfo**](button-setsplitinfo.md) macro.<br/>                                                                                                                                     |
+| [**BCM\_GETIDEALSIZE**](bcm-getidealsize.md)         | Gets the size of the button that best fits its text and image, if an image list is present. You can send this message explicitly or use the [**Button\_GetIdealSize**](/windows/win32/Commctrl/nf-commctrl-button_getidealsize?branch=master) macro.<br/>                                                                                   |
+| [**BCM\_GETIMAGELIST**](bcm-getimagelist.md)         | Gets the [**BUTTON\_IMAGELIST**](/windows/win32/Commctrl/ns-commctrl-button_imagelist?branch=master) structure that describes the image list assigned to a button control. You can send this message explicitly or use the [**Button\_GetImageList**](/windows/win32/Commctrl/nf-commctrl-button_getimagelist?branch=master) macro.<br/>                                                  |
+| [**BCM\_GETNOTE**](bcm-getnote.md)                   | Gets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_GetNote**](/windows/win32/Commctrl/nf-commctrl-button_getnote?branch=master) macro.<br/>                                                                                                                        |
+| [**BCM\_GETNOTELENGTH**](bcm-getnotelength.md)       | Gets the length of the note text that may be displayed in the description for a command link button. Send this message explicitly or by using the [**Button\_GetNoteLength**](/windows/win32/Commctrl/nf-commctrl-button_getnotelength?branch=master) macro.<br/>                                                                           |
+| [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md)         | Gets information for a split button control. Send this message explicitly or by using the [**Button\_GetSplitInfo**](/windows/win32/Commctrl/nf-commctrl-button_getsplitinfo?branch=master) macro. <br/>                                                                                                                                    |
+| [**BCM\_GETTEXTMARGIN**](bcm-gettextmargin.md)       | Gets the margins used to draw text in a button control. You can send this message explicitly or use the [**Button\_GetTextMargin**](/windows/win32/Commctrl/nf-commctrl-button_gettextmargin?branch=master) macro.<br/>                                                                                                                     |
+| [**BCM\_SETDROPDOWNSTATE**](bcm-setdropdownstate.md) | Sets the drop down state for a button with style [**TBSTYLE\_DROPDOWN**](toolbar-control-and-button-styles.md#tbstyle-dropdown). Send this message explicitly or by using the [**Button\_SetDropDownState**](/windows/win32/Commctrl/nf-commctrl-button_setdropdownstate?branch=master) macro.<br/>                                        |
+| [**BCM\_SETIMAGELIST**](bcm-setimagelist.md)         | Assigns an image list to a button control. You can send this message explicitly or use the [**Button\_SetImageList**](/windows/win32/Commctrl/nf-commctrl-button_setimagelist?branch=master) macro.<br/>                                                                                                                                    |
+| [**BCM\_SETNOTE**](bcm-setnote.md)                   | Sets the text of the note associated with a command link button. You can send this message explicitly or use the [**Button\_SetNote**](/windows/win32/Commctrl/nf-commctrl-button_setnote?branch=master) macro.<br/>                                                                                                                        |
+| [**BCM\_SETSHIELD**](bcm-setshield.md)               | Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the [**Button\_SetElevationRequiredState**](/windows/win32/Commctrl/nf-commctrl-button_setelevationrequiredstate?branch=master) macro.<br/>                                                  |
+| [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md)         | Sets information for a split button control. Send this message explicitly or by using the [**Button\_SetSplitInfo**](/windows/win32/Commctrl/nf-commctrl-button_setsplitinfo?branch=master) macro.<br/>                                                                                                                                     |
 | [**BCM\_SETTEXTMARGIN**](bcm-settextmargin.md)       | The [**BCM\_SETTEXTMARGIN**](bcm-settextmargin.md) message sets the margins for drawing text in a button control. <br/>                                                                                                                                                                      |
 | [**BM\_CLICK**](bm-click.md)                         | Simulates the user clicking a button. This message causes the button to receive the [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607) and [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608) messages, and the button's parent window to receive a [BN\_CLICKED](bn-clicked.md) notification code.<br/> |
-| [**BM\_GETCHECK**](bm-getcheck.md)                   | Gets the check state of a radio button or check box. You can send this message explicitly or use the [**Button\_GetCheck**](button-getcheck.md) macro.<br/>                                                                                                                                  |
+| [**BM\_GETCHECK**](bm-getcheck.md)                   | Gets the check state of a radio button or check box. You can send this message explicitly or use the [**Button\_GetCheck**](/windows/win32/Windowsx/nf-windowsx-button_getcheck?branch=master) macro.<br/>                                                                                                                                  |
 | [**BM\_GETIMAGE**](bm-getimage.md)                   | Retrieves a handle to the image (icon or bitmap) associated with the button.<br/>                                                                                                                                                                                                             |
-| [**BM\_GETSTATE**](bm-getstate.md)                   | Retrieves the state of a button or check box. You can send this message explicitly or use the [**Button\_GetState**](button-getstate.md) macro.<br/>                                                                                                                                         |
-| [**BM\_SETCHECK**](bm-setcheck.md)                   | Sets the check state of a radio button or check box. You can send this message explicitly or by using the [**Button\_SetCheck**](button-setcheck.md) macro.<br/>                                                                                                                             |
+| [**BM\_GETSTATE**](bm-getstate.md)                   | Retrieves the state of a button or check box. You can send this message explicitly or use the [**Button\_GetState**](/windows/win32/Windowsx/nf-windowsx-button_getstate?branch=master) macro.<br/>                                                                                                                                         |
+| [**BM\_SETCHECK**](bm-setcheck.md)                   | Sets the check state of a radio button or check box. You can send this message explicitly or by using the [**Button\_SetCheck**](/windows/win32/Windowsx/nf-windowsx-button_setcheck?branch=master) macro.<br/>                                                                                                                             |
 | [**BM\_SETDONTCLICK**](bm-setdontclick.md)           | Sets a flag on a radio button that controls the generation of [BN\_CLICKED](bn-clicked.md) messages when the button receives focus.<br/>                                                                                                                                                     |
 | [**BM\_SETIMAGE**](bm-setimage.md)                   | Associates a new image (icon or bitmap) with the button.<br/>                                                                                                                                                                                                                                 |
-| [**BM\_SETSTATE**](bm-setstate.md)                   | Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can send this message explicitly or use the [**Button\_SetState**](button-setstate.md) macro.<br/>                                                   |
-| [**BM\_SETSTYLE**](bm-setstyle.md)                   | Sets the style of a button. You can send this message explicitly or use the [**Button\_SetStyle**](button-setstyle.md) macro.<br/>                                                                                                                                                           |
+| [**BM\_SETSTATE**](bm-setstate.md)                   | Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can send this message explicitly or use the [**Button\_SetState**](/windows/win32/Windowsx/nf-windowsx-button_setstate?branch=master) macro.<br/>                                                   |
+| [**BM\_SETSTYLE**](bm-setstyle.md)                   | Sets the style of a button. You can send this message explicitly or use the [**Button\_SetStyle**](/windows/win32/Windowsx/nf-windowsx-button_setstyle?branch=master) macro.<br/>                                                                                                                                                           |
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -138,7 +143,7 @@ This section contains information about the programming elements used with butto
 <td>Sent when a button is disabled.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](drawitemstruct.md) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_DISABLE](bn-disable.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
@@ -151,7 +156,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the user selects a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](drawitemstruct.md) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_HILITE](bn-hilite.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
@@ -164,7 +169,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when a button should be painted.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](drawitemstruct.md) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_PAINT](bn-paint.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message. <br/></td>
 </tr>
@@ -173,7 +178,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the push state of a button is set to pushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](drawitemstruct.md) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_PUSHED](bn-pushed.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
@@ -186,7 +191,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the highlight should be removed from a button.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](drawitemstruct.md) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_UNHILITE](bn-unhilite.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
@@ -195,7 +200,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 <td>Sent when the push state of a button is set to unpushed.
 <blockquote>
 [!Note]<br />
-This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](drawitemstruct.md) structure for this task.
+This notification code is provided only for compatibility with 16-bit versions of Windows earlier than version 3.0. Applications should use the [<strong>BS_OWNERDRAW</strong>](button-styles.md#bs-ownerdraw) button style and the [<strong>DRAWITEMSTRUCT</strong>](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure for this task.
 </blockquote>
 <br/> <br/> The parent window of the button receives the [BN_UNPUSHED](bn-unpushed.md) notification code through the [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) message.<br/></td>
 </tr>
@@ -212,7 +217,7 @@ This notification code is provided only for compatibility with 16-bit versions o
 
 
 
- 
+ 
 
 ### Structures
 
@@ -220,14 +225,14 @@ This notification code is provided only for compatibility with 16-bit versions o
 
 | Topic                                         | Contents                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**BUTTON\_IMAGELIST**](button-imagelist.md) | Contains information about an image list that is used with a button control.<br/>                                                                                                                                                                                                                                 |
-| [**BUTTON\_SPLITINFO**](button-splitinfo.md) | Contains information that defines a split button ([**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton) and [**BS\_DEFSPLITBUTTON**](button-styles.md#bs-defsplitbutton) styles). Used with the [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md) and [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) messages.<br/> |
-| [**NMBCDROPDOWN**](nmbcdropdown.md)          | Contains information about a [BCN\_DROPDOWN](bcn-dropdown.md) notification.<br/>                                                                                                                                                                                                                                 |
-| [**NMBCHOTITEM**](nmbchotitem.md)            | Contains information about the movement of the mouse over a button control.<br/>                                                                                                                                                                                                                                  |
+| [**BUTTON\_IMAGELIST**](/windows/win32/Commctrl/ns-commctrl-button_imagelist?branch=master) | Contains information about an image list that is used with a button control.<br/>                                                                                                                                                                                                                                 |
+| [**BUTTON\_SPLITINFO**](/windows/win32/Commctrl/ns-commctrl-tagbutton_splitinfo?branch=master) | Contains information that defines a split button ([**BS\_SPLITBUTTON**](button-styles.md#bs-splitbutton) and [**BS\_DEFSPLITBUTTON**](button-styles.md#bs-defsplitbutton) styles). Used with the [**BCM\_GETSPLITINFO**](bcm-getsplitinfo.md) and [**BCM\_SETSPLITINFO**](bcm-setsplitinfo.md) messages.<br/> |
+| [**NMBCDROPDOWN**](/windows/win32/Commctrl/ns-commctrl-tagnmbcdropdown?branch=master)          | Contains information about a [BCN\_DROPDOWN](bcn-dropdown.md) notification.<br/>                                                                                                                                                                                                                                 |
+| [**NMBCHOTITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmbchotitem?branch=master)            | Contains information about the movement of the mouse over a button control.<br/>                                                                                                                                                                                                                                  |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -239,11 +244,11 @@ This notification code is provided only for compatibility with 16-bit versions o
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

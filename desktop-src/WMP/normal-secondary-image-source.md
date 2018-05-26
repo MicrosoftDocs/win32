@@ -1,8 +1,18 @@
 ---
 title: Normal Secondary Image Source
 description: Normal Secondary Image Source
-ms.assetid: 'fe5c0da2-0c40-456f-ab56-ac61ed69ff2d'
-keywords: ["Windows Media Player Mobile skins,button image source", "skins,button image source", "reference for skins,buttons", "buttons in skins,image source", "image source for skins,buttons"]
+ms.assetid: fe5c0da2-0c40-456f-ab56-ac61ed69ff2d
+keywords:
+- Windows Media Player Mobile skins,button image source
+- skins,button image source
+- reference for skins,buttons
+- buttons in skins,image source
+- image source for skins,buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Normal Secondary Image Source

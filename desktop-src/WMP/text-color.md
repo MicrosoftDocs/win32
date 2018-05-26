@@ -1,8 +1,18 @@
 ---
 title: Text Color
 description: Text Color
-ms.assetid: 'b8b13750-a20c-49ff-b642-de60e828eb0c'
-keywords: ["Windows Media Player Mobile skins,text", "skins,text", "reference for skins,text", "text in skins,color", "color reference for skins"]
+ms.assetid: b8b13750-a20c-49ff-b642-de60e828eb0c
+keywords:
+- Windows Media Player Mobile skins,text
+- skins,text
+- reference for skins,text
+- text in skins,color
+- color reference for skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Color

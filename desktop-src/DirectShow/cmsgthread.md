@@ -1,7 +1,12 @@
 ---
-Description: 'The CMsgThread class is a worker-thread class that queues requests to the queuing thread for completion asynchronously.'
-ms.assetid: '57e50abf-c90d-4c8f-afd8-25f29b6a0376'
+Description: The CMsgThread class is a worker-thread class that queues requests to the queuing thread for completion asynchronously.
+ms.assetid: 57e50abf-c90d-4c8f-afd8-25f29b6a0376
 title: CMsgThread class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread class

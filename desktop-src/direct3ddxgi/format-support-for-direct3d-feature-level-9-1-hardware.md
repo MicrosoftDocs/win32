@@ -1,7 +1,12 @@
 ---
-Description: 'This section specifies the formats (DXGI\_FORMAT values) that are supported in Direct3D Feature 10Level9 9.1 hardware.'
-ms.assetid: '770A5396-C5D9-442B-99FE-3D220C54E8EB'
-title: 'Format Support for Direct3D Feature 10Level9 9.1 Hardware'
+Description: This section specifies the formats (DXGI\_FORMAT values) that are supported in Direct3D Feature 10Level9 9.1 hardware.
+ms.assetid: 770A5396-C5D9-442B-99FE-3D220C54E8EB
+title: Format Support for Direct3D Feature 10Level9 9.1 Hardware
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format Support for Direct3D Feature 10Level9 9.1 Hardware

@@ -4,13 +4,16 @@ description: Queries partition related performance counter information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1fbaeb93-a934-43d5-8870-b66608b6ff8f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1fbaeb93-a934-43d5-8870-b66608b6ff8f
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["QueryCounterInstance method", "QueryCounterInstance method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, QueryCounterInstance method"]
+keywords:
+- QueryCounterInstance method
+- QueryCounterInstance method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, QueryCounterInstance method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - wvrcimprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QueryCounterInstance method of the MSFT\_WvrAdminTasks class
@@ -30,10 +36,10 @@ Queries partition related performance counter information.
 
 ```mof
 uint32 QueryCounterInstance(
-  [in]  string PartitionId,
-  [out] string DataPartitionCounter,
-  [out] string LogPartitionCounter,
-  [out] string NetworkCounter
+  [in]  string PartitionId,
+  [out] string DataPartitionCounter,
+  [out] string LogPartitionCounter,
+  [out] string NetworkCounter
 );
 ```
 
@@ -77,8 +83,8 @@ On success, returns the network counter.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported client<br/> | Windows 8<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -92,9 +98,9 @@ On success, returns the network counter.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

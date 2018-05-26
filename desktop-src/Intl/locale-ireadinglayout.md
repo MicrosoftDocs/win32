@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IREADINGLAYOUT'
-ms.assetid: '353b931e-ab9c-43b2-84ac-0b1195a01446'
-title: 'LOCALE\_IREADINGLAYOUT'
+Description: LOCALE\_IREADINGLAYOUT
+ms.assetid: 353b931e-ab9c-43b2-84ac-0b1195a01446
+title: LOCALE\_IREADINGLAYOUT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IREADINGLAYOUT

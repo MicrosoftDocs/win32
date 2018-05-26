@@ -1,14 +1,20 @@
 ---
 title: TotalDuration Attribute
 description: The TotalDuration attribute is the playing duration of the item.
-ms.assetid: '7615fea6-997a-43af-a46f-c8df68a359d9'
-keywords: ["TotalDuration Attribute Windows Media Player"]
+ms.assetid: 7615fea6-997a-43af-a46f-c8df68a359d9
+keywords:
+- TotalDuration Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TotalDuration
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TotalDuration Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

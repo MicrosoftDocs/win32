@@ -1,7 +1,12 @@
 ---
-Description: 'RDMA missing performance counter information for a network adapter.'
-ms.assetid: 'e8482b60-484f-46f3-9085-e8fbae3f379f'
-title: 'MSFT\_NetAdapter\_RdmaMissingCounterInfo class'
+Description: RDMA missing performance counter information for a network adapter.
+ms.assetid: e8482b60-484f-46f3-9085-e8fbae3f379f
+title: MSFT\_NetAdapter\_RdmaMissingCounterInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_RdmaMissingCounterInfo class
@@ -457,17 +462,17 @@ SharedReceiveQueueCreate performance counter missing
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

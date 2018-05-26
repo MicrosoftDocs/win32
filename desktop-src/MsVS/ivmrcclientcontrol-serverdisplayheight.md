@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl ServerDisplayHeight property
 description: The ServerDisplayHeight property contains the width of the video display area in pixels.
-ms.assetid: '1f8a6744-9057-4750-9c23-fa6161fec419'
-keywords: ["ServerDisplayHeight property Virtual Server", "ServerDisplayHeight property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , ServerDisplayHeight property", "ServerDisplayHeight property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , ServerDisplayHeight property"]
+ms.assetid: 1f8a6744-9057-4750-9c23-fa6161fec419
+keywords:
+- ServerDisplayHeight property Virtual Server
+- ServerDisplayHeight property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , ServerDisplayHeight property
+- ServerDisplayHeight property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , ServerDisplayHeight property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::ServerDisplayHeight property
@@ -27,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ServerDisplayHeight(
-  [out] long *displayHeight
+  [out] long *displayHeight
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -90,9 +100,9 @@ This property value is read-only.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

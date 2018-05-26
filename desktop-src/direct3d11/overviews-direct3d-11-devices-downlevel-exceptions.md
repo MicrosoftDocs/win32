@@ -1,7 +1,12 @@
 ---
 title: Exceptions
 description: This topic describes exceptions when using Direct3D 11 on downlevel hardware.
-ms.assetid: 'b3f85036-8572-40ee-b522-3b677443b840'
+ms.assetid: b3f85036-8572-40ee-b522-3b677443b840
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exceptions
@@ -14,11 +19,11 @@ Some features of Direct3D 11 are not fully specified by feature levels. This top
 -   [Special Behavior of Adapters for Feature Level 9](#special-behavior-of-adapters-for-feature-level-9)
 -   [Related topics](#related-topics)
 
-The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](id3d11device.md) and [**ID3D11DeviceContext**](id3d11devicecontext.md) methods behave at various 10Level9 feature levels.
+The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) and [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) methods behave at various 10Level9 feature levels.
 
 ## Extended Formats
 
-An extended format is a pixel format added to Direct3D 10.1 and Direct3D 11 for feature levels 10\_0 and 10\_1. An extended format requires an updated driver (for Direct3D 10\_1 or below). Use [**ID3D11Device::CheckFormatSupport**](id3d11device-checkformatsupport.md) and [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md) to query for support for these extended formats.
+An extended format is a pixel format added to Direct3D 10.1 and Direct3D 11 for feature levels 10\_0 and 10\_1. An extended format requires an updated driver (for Direct3D 10\_1 or below). Use [**ID3D11Device::CheckFormatSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkformatsupport?branch=master) and [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) to query for support for these extended formats.
 
 An extended format:
 
@@ -35,11 +40,11 @@ The full set of extended formats are either fully supported or not supported, wi
 
 ## Multisample Anti-Aliasing
 
-MSAA implementations have little in common across GPU implementations. Feature Level 10.1 added some well-defined minima, but at lower feature levels, MSAA must be tested explicitly using [**ID3D11Device::CheckMultisampleQualityLevels**](id3d11device-checkmultisamplequalitylevels.md).
+MSAA implementations have little in common across GPU implementations. Feature Level 10.1 added some well-defined minima, but at lower feature levels, MSAA must be tested explicitly using [**ID3D11Device::CheckMultisampleQualityLevels**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkmultisamplequalitylevels?branch=master).
 
 ## Texture2D Sizes
 
-A feature level guarantees that a minimum size can be created, however, an application can create larger textures up to the full size supported by the GPU. An application should expect failure from a method such as [**ID3D11Device::CreateTexture2D**](id3d11device-createtexture2d.md) if a maximum is exceeded.
+A feature level guarantees that a minimum size can be created, however, an application can create larger textures up to the full size supported by the GPU. An application should expect failure from a method such as [**ID3D11Device::CreateTexture2D**](/windows/win32/D3D11/nf-d3d11-id3d11device-createtexture2d?branch=master) if a maximum is exceeded.
 
 ## Special Behavior of Adapters for Feature Level 9
 

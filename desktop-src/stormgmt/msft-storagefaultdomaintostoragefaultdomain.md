@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageFaultDomainToStorageFaultDomain class
 description: Association between an MSFT\_StorageFaultDomain object and its ancestor or descendent MSFT\_StorageFaultDomain objects.
-ms.assetid: 'A45632F0-7607-49F8-BB6C-FF1043A9E173'
-keywords: ["MSFT_StorageFaultDomainToStorageFaultDomain class Windows Storage Management API", "MSFT_StorageFaultDomainToStorageFaultDomain class Windows Storage Management API , described"]
+ms.assetid: A45632F0-7607-49F8-BB6C-FF1043A9E173
+keywords:
+- MSFT_StorageFaultDomainToStorageFaultDomain class Windows Storage Management API
+- MSFT_StorageFaultDomainToStorageFaultDomain class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageFaultDomainToStorageFaultDomain class
@@ -77,8 +84,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -91,9 +98,9 @@ Qualifiers: **Key**
 [**MSFT\_StorageFaultDomain**](msft-storagefaultdomain.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

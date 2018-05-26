@@ -1,8 +1,16 @@
 ---
 title: ReadXmlSimpleExample
 description: This example reads a simple xml document.
-ms.assetid: 'bb4492d9-fa37-4078-b4e1-8a57001ff99b'
-keywords: ["ReadXmlSimpleExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: bb4492d9-fa37-4078-b4e1-8a57001ff99b
+keywords:
+- ReadXmlSimpleExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadXmlSimpleExample

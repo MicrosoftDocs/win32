@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial shows how to write a DirectShow application that plays a media file.'
-ms.assetid: '88f4762a-e6e6-4b1e-9951-a409d9d80da9'
-title: 'Audio/Video Playback in DirectShow'
+Description: This tutorial shows how to write a DirectShow application that plays a media file.
+ms.assetid: 88f4762a-e6e6-4b1e-9951-a409d9d80da9
+title: Audio/Video Playback in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio/Video Playback in DirectShow

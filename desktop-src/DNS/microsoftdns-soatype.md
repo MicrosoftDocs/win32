@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_SOAType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Start Of Authority (SOA) record.
-ms.assetid: 'a5e6b6d3-7f5d-42e2-b3ed-2786f7aafb14'
-keywords: ["MicrosoftDNS_SOAType class DNS", "MicrosoftDNS_SOAType class DNS , described"]
+ms.assetid: a5e6b6d3-7f5d-42e2-b3ed-2786f7aafb14
+keywords:
+- MicrosoftDNS_SOAType class DNS
+- MicrosoftDNS_SOAType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_SOAType class
@@ -61,7 +68,7 @@ The **MicrosoftDNS\_SOAType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -167,7 +174,7 @@ Serial number of the SOA record.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -183,9 +190,9 @@ Serial number of the SOA record.
 [**Modify Method of the MicrosoftDNS\_SOAType Class**](microsoftdns-soatype-modify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

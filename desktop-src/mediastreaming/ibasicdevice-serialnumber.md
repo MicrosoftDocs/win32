@@ -1,26 +1,34 @@
 ---
 title: IBasicDevice SerialNumber method
-description: Retrieves the device’s serial number.
-ms.assetid: '238A5999-0E8B-4462-AFCF-790DB58CFCB4'
-keywords: ["SerialNumber method Media Streaming API", "SerialNumber method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , SerialNumber method"]
+description: Retrieves the device s serial number.
+ms.assetid: 238A5999-0E8B-4462-AFCF-790DB58CFCB4
+keywords:
+- SerialNumber method Media Streaming API
+- SerialNumber method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , SerialNumber method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.SerialNumber
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::SerialNumber method
 
-Retrieves the device’s serial number.
+Retrieves the device s serial number.
 
 ## Syntax
 
 
 ```C++
 HRESULT SerialNumber(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -33,7 +41,7 @@ HRESULT SerialNumber(
 *value* \[out\]
 </dt> <dd>
 
-Receives a pointer to the device’s serial number.
+Receives a pointer to the device s serial number.
 
 </dd> </dl>
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

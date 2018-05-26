@@ -1,13 +1,16 @@
 ---
-Description: 'The Managed Object Format (MOF) compiler parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository.'
+Description: The Managed Object Format (MOF) compiler parses a file containing MOF statements and adds the classes and class instances defined in the file to the WMI repository.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9858da09-fb91-43a4-9817-83b10e2ee08f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9858da09-fb91-43a4-9817-83b10e2ee08f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: mofcomp
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # mofcomp
@@ -55,7 +58,7 @@ The MOF files listed in this registry entry must reside on the local computer be
 > [!Note]  
 > To ensure that all your WMI class definitions for managed objects are restored to the [*WMI repository*](gloss-w.md#wmi-gloss-wmi-repository) if WMI has a failure and restarts, use the [**\#pragma autorecover**](pragma-autorecover.md) preprocessor instruction in your [*Managed Object Format*](gloss-m.md#wmi-gloss-managed-object-format) (MOF) file.
 
- 
+ 
 
 </dd> <dt>
 
@@ -251,7 +254,7 @@ When no errors occur in the parsing process, the MOF compiler connects to the WM
 
 When an error occurs in updating the WMI repository, the compiler makes no attempt to return the repository to its state before the compiler began processing.
 
-**Windows 8:** When installing a provider, mofcomp treats the \[Key\] and \[Static\] qualifiers as true if they are present, regardless of their actual values. Other qualifiers are treated as false if they are present but not explicitly set to true.
+**Windows 8:** When installing a provider, mofcomp treats the \[Key\] and \[Static\] qualifiers as true if they are present, regardless of their actual values. Other qualifiers are treated as false if they are present but not explicitly set to true.
 
 ## Requirements
 
@@ -259,8 +262,8 @@ When an error occurs in updating the WMI repository, the compiler makes no attem
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -280,12 +283,12 @@ When an error occurs in updating the WMI repository, the compiler makes no attem
 [Registering a Provider](registering-a-provider.md)
 </dt> <dt>
 
-[**IMOFCompiler::CompileFile**](imofcompiler-compilefile.md)
+[**IMOFCompiler::CompileFile**](/windows/win32/Wbemcli/nf-wbemcli-imofcompiler-compilefile?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

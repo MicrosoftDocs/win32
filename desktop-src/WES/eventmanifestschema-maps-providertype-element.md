@@ -1,14 +1,20 @@
 ---
 title: maps (ProviderType) Element
 description: Defines a list of name/value pairs that you can reference in the template section of the manifest.
-ms.assetid: 'a0f7bc82-146b-4da1-a880-d4ba4f1993ec'
-keywords: ["maps element EventLog"]
+ms.assetid: a0f7bc82-146b-4da1-a880-d4ba4f1993ec
+keywords:
+- maps element EventLog
 topic_type:
 - apiref
 api_name:
 - maps
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # maps (ProviderType) Element
@@ -29,8 +35,8 @@ The **maps** element is defined by the [**ProviderType**](eventmanifestschema-pr
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **maps** element is defined by the [**ProviderType**](eventmanifestschema-pr
 [**provider (EventsType)**](eventmanifestschema-provider-eventstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

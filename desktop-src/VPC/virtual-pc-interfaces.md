@@ -1,13 +1,19 @@
 ---
 title: Windows Virtual PC Interfaces
 description: The following interfaces are supported by Windows Virtual PC.
-ms.assetid: 'de003075-8609-4303-838e-da449b91dc8d'
-keywords: ["Windows Virtual PC Virtual PC , interfaces"]
+ms.assetid: de003075-8609-4303-838e-da449b91dc8d
+keywords:
+- Windows Virtual PC Virtual PC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Virtual PC Interfaces
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 The following interfaces are supported by Windows Virtual PC.
 
@@ -50,7 +56,7 @@ The following interfaces are supported by Windows Virtual PC.
 
 
 
- 
+ 
 
 ## Note for developers on 64-bit Windows
 
@@ -60,9 +66,9 @@ On 64-bit editions of Windows, the type library for Windows Virtual PC is in a 6
 
 Other solutions include copying VPC.exe to a different directory where the compiler can find it, or using the OleView.exe tool from the Windows SDK to extract an .idl file from the type library in VPC.exe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Character Count Summary property is only used in transforms.'
-ms.assetid: 'd26d24a5-558e-4333-ae39-ffba1bbc5247'
+Description: The Character Count Summary property is only used in transforms.
+ms.assetid: d26d24a5-558e-4333-ae39-ffba1bbc5247
 title: Character Count Summary property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Character Count Summary property
@@ -16,7 +21,7 @@ This property should be Null in an installation package or patch package.
 
 |                    |                                                                                                                                                                                                                                                          |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP.<br/> |
 
 
 
@@ -27,9 +32,9 @@ This property should be Null in an installation package or patch package.
 [Summary Property Descriptions](summary-property-descriptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

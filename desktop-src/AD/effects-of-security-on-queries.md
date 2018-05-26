@@ -4,11 +4,15 @@ description: Security is an implicit filter when performing searches, enumeratin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4a027069-8c3d-4a95-a04b-c9c59200a9ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4a027069-8c3d-4a95-a04b-c9c59200a9ed
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["effects of security on searching Active Directory"]
+keywords:
+- effects of security on searching Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Effects of Security on Searching

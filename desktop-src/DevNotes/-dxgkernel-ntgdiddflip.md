@@ -1,7 +1,12 @@
-﻿---
-Description: 'Causes the surface memory associated with the target and current surfaces to be interchanged.'
-ms.assetid: '2c557393-079e-48e5-b3a6-1157265d88e3'
+---
+Description: Causes the surface memory associated with the target and current surfaces to be interchanged.
+ms.assetid: 2c557393-079e-48e5-b3a6-1157265d88e3
 title: NtGdiDdFlip function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdFlip function

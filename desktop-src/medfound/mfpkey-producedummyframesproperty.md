@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoder produces dummy frame entries in the bit stream for duplicate frames.'
-ms.assetid: 'dc09cecb-98c0-40bb-9e5d-f4661bf98522'
-title: 'MFPKEY\_PRODUCEDUMMYFRAMES Property'
+---
+Description: Specifies whether the encoder produces dummy frame entries in the bit stream for duplicate frames.
+ms.assetid: dc09cecb-98c0-40bb-9e5d-f4661bf98522
+title: MFPKEY\_PRODUCEDUMMYFRAMES Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_PRODUCEDUMMYFRAMES Property

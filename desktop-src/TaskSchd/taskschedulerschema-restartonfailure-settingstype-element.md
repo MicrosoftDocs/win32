@@ -1,14 +1,20 @@
 ---
 title: RestartOnFailure (settingsType) Element
 description: Specifies that the Task Scheduler will attempt to restart the task if the task fails for any reason.
-ms.assetid: 'c90d8c62-dd97-4ea6-bd87-37b0915e0b38'
-keywords: ["RestartOnFailure element Task Scheduler"]
+ms.assetid: c90d8c62-dd97-4ea6-bd87-37b0915e0b38
+keywords:
+- RestartOnFailure element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RestartOnFailure
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestartOnFailure (settingsType) Element
@@ -47,7 +53,7 @@ The **RestartOnFailure** element is defined by the [**settingsType**](taskschedu
 
 ## Remarks
 
-When an application specifies task settings, this information is accessed through the [**RestartCount**](itasksettings-restartcount.md) and [**RestartInterval**](itasksettings-restartinterval.md) properties of the [**ITaskSettings**](itasksettings.md) interface. For scripting, this information is accessed through the [**TaskSettings.RestartCount**](tasksettings-restartcount.md) and [**TaskSettings.RestartInterval**](tasksettings-restartinterval.md) properties.
+When an application specifies task settings, this information is accessed through the [**RestartCount**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_restartcount?branch=master) and [**RestartInterval**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_restartinterval?branch=master) properties of the [**ITaskSettings**](/windows/win32/taskschd/nn-taskschd-itasksettings?branch=master) interface. For scripting, this information is accessed through the [**TaskSettings.RestartCount**](tasksettings-restartcount.md) and [**TaskSettings.RestartInterval**](tasksettings-restartinterval.md) properties.
 
 Both child elements must be set to specify how the Task Scheduler restarts the task.
 
@@ -57,8 +63,8 @@ Both child elements must be set to specify how the Task Scheduler restarts the t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ Both child elements must be set to specify how the Task Scheduler restarts the t
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

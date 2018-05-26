@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiAssembly Table specifies Windows Installer settings for Microsoft .NET Framework assemblies and Win32 assemblies. For more information, see Installation of Assemblies to the Global Assembly Cache and Installation of Win32 Assemblies.'
-ms.assetid: '3a8cd206-0112-4840-8c9d-773483f5c771'
+Description: The MsiAssembly Table specifies Windows Installer settings for Microsoft .NET Framework assemblies and Win32 assemblies. For more information, see Installation of Assemblies to the Global Assembly Cache and Installation of Win32 Assemblies.
+ms.assetid: 3a8cd206-0112-4840-8c9d-773483f5c771
 title: MsiAssembly Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiAssembly Table

@@ -1,8 +1,22 @@
 ---
 title: Single-Finger Rotation
 description: This section explains how to rotate an object using a pivot point.
-ms.assetid: 'b9c19009-8ac0-4168-bf26-393280fc589f'
-keywords: ["Windows Touch,rotation", "Windows Touch,manipulations", "Windows Touch,single-finger rotation", "Windows Touch,pivot point rotation", "manipulations,rotation", "rotation,pivot points", "rotation,single-finger", "gestures,single-finger rotation", "single-finger rotation"]
+ms.assetid: b9c19009-8ac0-4168-bf26-393280fc589f
+keywords:
+- Windows Touch,rotation
+- Windows Touch,manipulations
+- Windows Touch,single-finger rotation
+- Windows Touch,pivot point rotation
+- manipulations,rotation
+- rotation,pivot points
+- rotation,single-finger
+- gestures,single-finger rotation
+- single-finger rotation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Single-Finger Rotation
@@ -17,7 +31,7 @@ In example A, the object is rotated around the center point of the object by usi
 
 ![illustration showing the components of single-finger rotation: pivotpointx, pivotpointy, and pivotradius](images/sfrotation-components.png)
 
-After you set the [**PivotPointX**](imanipulationprocessor-pivotpointx.md), [**PivotPointY**](imanipulationprocessor-pivotpointy.md), and [**PivotRadius**](imanipulationprocessor-pivotradius.md) values, subsequent translation messages will incorporate rotation. The larger the pivot radius, the greater the change in x and y must be to rotate the object. The following code shows how these values could be set in the manipulation processor.
+After you set the [**PivotPointX**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx?branch=master), [**PivotPointY**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy?branch=master), and [**PivotRadius**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius?branch=master) values, subsequent translation messages will incorporate rotation. The larger the pivot radius, the greater the change in x and y must be to rotate the object. The following code shows how these values could be set in the manipulation processor.
 
 
 ```C++
@@ -47,7 +61,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
 In the previous example, the distance to the edge of the object (scaled to 40 percent) is used as the pivot radius. Because the object size is taken into consideration, this calculation is valid for every object delta. As the object scales, the pivot radius grows. This value and the object's center x and y values are passed to the manipulation processor to rotate the object around the pivot point.
 
 > [!Note]  
-> The [**PivotRadius**](imanipulationprocessor-pivotradius.md) value should never be between 0.0 and 1.0.
+> The [**PivotRadius**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius?branch=master) value should never be between 0.0 and 1.0.
 
  
 
@@ -58,13 +72,13 @@ In the previous example, the distance to the edge of the object (scaled to 40 pe
 [Manipulations](getting-started-with-manipulations.md)
 </dt> <dt>
 
-[**PivotRadius**](imanipulationprocessor-pivotradius.md)
+[**PivotRadius**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius?branch=master)
 </dt> <dt>
 
-[**PivotPointX**](imanipulationprocessor-pivotpointx.md)
+[**PivotPointX**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx?branch=master)
 </dt> <dt>
 
-[**PivotPointY**](imanipulationprocessor-pivotpointy.md)
+[**PivotPointY**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Toggles line antialiasing.'
-ms.assetid: '9c212823-2dc6-40dd-b1aa-9fc4a2c540f4'
-title: 'ID3DXLine::SetAntialias method'
+---
+Description: Toggles line antialiasing.
+ms.assetid: 9c212823-2dc6-40dd-b1aa-9fc4a2c540f4
+title: ID3DXLineSetAntialias method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::SetAntialias method

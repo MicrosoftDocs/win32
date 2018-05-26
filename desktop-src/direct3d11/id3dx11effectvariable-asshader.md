@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectVariable AsShader method
 description: Get a shader variable.
-ms.assetid: '660ba087-5320-44f7-946f-e500101fc6bb'
-keywords: ["AsShader method Direct3D 11", "AsShader method Direct3D 11 , ID3DX11EffectVariable interface", "ID3DX11EffectVariable interface Direct3D 11 , AsShader method"]
+ms.assetid: 660ba087-5320-44f7-946f-e500101fc6bb
+keywords:
+- AsShader method Direct3D 11
+- AsShader method Direct3D 11 , ID3DX11EffectVariable interface
+- ID3DX11EffectVariable interface Direct3D 11 , AsShader method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVariable::AsShader method
@@ -46,7 +54,7 @@ Applications can test the returned object for validity by calling [**IsValid**](
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -66,9 +74,9 @@ Applications can test the returned object for validity by calling [**IsValid**](
 [ID3DX11EffectVariable](id3dx11effectvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

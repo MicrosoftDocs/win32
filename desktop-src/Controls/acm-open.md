@@ -1,8 +1,9 @@
 ---
 title: ACM\_OPEN message
 description: Opens an AVI clip and displays its first frame in an animation control. You can send this message explicitly or use the Animate\_Open or Animate\_OpenEx macro. We recommend using the Unicode version of this message, ACM\_OPENW.
-ms.assetid: '87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4'
-keywords: ["ACM_OPEN message Windows Controls"]
+ms.assetid: 87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4
+keywords:
+- ACM_OPEN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACM\_OPEN message
 
-Opens an AVI clip and displays its first frame in an animation control. You can send this message explicitly or use the [**Animate\_Open**](animate-open.md) or [**Animate\_OpenEx**](animate-openex.md) macro. We recommend using the Unicode version of this message, ACM\_OPENW.
+Opens an AVI clip and displays its first frame in an animation control. You can send this message explicitly or use the [**Animate\_Open**](/windows/win32/Commctrl/nf-commctrl-animate_open?branch=master) or [**Animate\_OpenEx**](/windows/win32/Commctrl/nf-commctrl-animate_openex?branch=master) macro. We recommend using the Unicode version of this message, ACM\_OPENW.
 
 ## Parameters
 
@@ -33,7 +39,7 @@ Opens an AVI clip and displays its first frame in an animation control. You can 
 *lParam* 
 </dt> <dd>
 
-A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) and zero in the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657). To create this value, use the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/windows/desktop/ms648029) macro. The control loads the AVI resource from the module specified by the instance handle passed to the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function, the [**Animate\_Create**](animate-create.md) macro, or the dialog box creation function that created the control. In [Version 4.71](common-control-versions.md) and later, the resource is loaded from the module specified by *wParam*. An AVI resource must have the "AVI" type. If this parameter is **NULL**, the system closes the AVI file that was previously opened for the specified animation control, if any.
+A pointer to a buffer that contains the path of the AVI file or the name of an AVI resource. Alternatively, this parameter can consist of the AVI resource identifier in the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) and zero in the [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657). To create this value, use the [**MAKEINTRESOURCE**](https://msdn.microsoft.com/library/windows/desktop/ms648029) macro. The control loads the AVI resource from the module specified by the instance handle passed to the [**CreateWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632679) function, the [**Animate\_Create**](/windows/win32/Commctrl/nf-commctrl-animate_create?branch=master) macro, or the dialog box creation function that created the control. In [Version 4.71](common-control-versions.md) and later, the resource is loaded from the module specified by *wParam*. An AVI resource must have the "AVI" type. If this parameter is **NULL**, the system closes the AVI file that was previously opened for the specified animation control, if any.
 
 </dd> </dl>
 
@@ -47,9 +53,9 @@ The AVI file or resource specified by *lpszName* must not contain audio.
 
 We recommend using the Unicode version of this message, ACM\_OPENW.
 
-You can only open silent AVI clips. ACM\_OPEN and [**Animate\_Open**](animate-open.md) fail if *lParam* specifies an AVI clip that contains sound.
+You can only open silent AVI clips. ACM\_OPEN and [**Animate\_Open**](/windows/win32/Commctrl/nf-commctrl-animate_open?branch=master) fail if *lParam* specifies an AVI clip that contains sound.
 
-You can use [**Animate\_Close**](animate-close.md) to close an AVI file or AVI resource that was previously opened for the specified animation control.
+You can use [**Animate\_Close**](/windows/win32/Commctrl/nf-commctrl-animate_close?branch=master) to close an AVI file or AVI resource that was previously opened for the specified animation control.
 
 ## Requirements
 
@@ -57,16 +63,16 @@ You can use [**Animate\_Close**](animate-close.md) to close an AVI file or AVI r
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **ACM\_OPENW** (Unicode) and **ACM\_OPENA** (ANSI)<br/>                         |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

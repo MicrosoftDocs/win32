@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes a string to the specified database.'
-ms.assetid: '72c62d91-0c1c-4ff8-8829-1c3ec1fa8648'
+---
+Description: Writes a string to the specified database.
+ms.assetid: 72c62d91-0c1c-4ff8-8829-1c3ec1fa8648
 title: SdbWriteStringTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbWriteStringTag function

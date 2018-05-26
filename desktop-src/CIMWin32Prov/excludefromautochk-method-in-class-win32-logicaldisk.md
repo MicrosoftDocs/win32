@@ -1,15 +1,18 @@
 ---
-Description: 'Excludes disks from the autochk operation to be run at the next reboot.'
+Description: Excludes disks from the autochk operation to be run at the next reboot.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5df2bc3b-e149-4853-aa02-af4cb8af6da0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5df2bc3b-e149-4853-aa02-af4cb8af6da0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ExcludeFromAutochk method of the Win32\_LogicalDisk class'
+title: ExcludeFromAutochk method of the Win32\_LogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludeFromAutochk method of the Win32\_LogicalDisk class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ExcludeFromAutochk(
-  [in] string LogicalDisk[]
+  [in] string LogicalDisk[]
 );
 ```
 
@@ -90,8 +93,8 @@ errReturn = objDisk.ExcludeFromAutoChk(Array("C:"))
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -108,9 +111,9 @@ errReturn = objDisk.ExcludeFromAutoChk(Array("C:"))
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

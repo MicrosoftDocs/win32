@@ -1,7 +1,12 @@
 ---
 title: Sample Files
 description: Sample Files
-ms.assetid: '0a85bd9d-84f9-4082-a1f2-98bc50293efe'
+ms.assetid: 0a85bd9d-84f9-4082-a1f2-98bc50293efe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Files

@@ -1,14 +1,15 @@
 ---
 title: MMCN\_CUTORMOVE message
-description: The MMCN\_CUTORMOVE notification message is sent to the snap-in's IComponent after items owned by the snap-in have been cut or moved.
+description: The MMCN\_CUTORMOVE notification message is sent to the snap-ins IComponent after items owned by the snap-in have been cut or moved.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '563d83d1-137b-4fd4-a202-63d51f84dfa8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 563d83d1-137b-4fd4-a202-63d51f84dfa8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_CUTORMOVE message MMC"]
+keywords:
+- MMCN_CUTORMOVE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_CUTORMOVE message
 
-The **MMCN\_CUTORMOVE** notification message is sent to the snap-in's [**IComponent**](icomponent.md) after items owned by the snap-in have been cut or moved.
+The **MMCN\_CUTORMOVE** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) after items owned by the snap-in have been cut or moved.
 
 ## Parameters
 
@@ -76,8 +80,8 @@ When moving items from a source to a destination, a data object that lists the i
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -92,9 +96,9 @@ When moving items from a source to a destination, a data object that lists the i
 [Multiselection](multiselection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the value of the MsiPatchRemovalList property to a list of patches that are being removed during the installation.'
-ms.assetid: '6e0b391a-d840-4f01-af12-4708ce6c9ce8'
+---
+Description: The installer sets the value of the MsiPatchRemovalList property to a list of patches that are being removed during the installation.
+ms.assetid: 6e0b391a-d840-4f01-af12-4708ce6c9ce8
 title: MsiPatchRemovalList property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPatchRemovalList property
@@ -10,7 +15,7 @@ The installer sets the value of the **MsiPatchRemovalList** property to a list o
 
 Developers can use the **MsiPatchRemovalList** property to author a Windows Installer package or patch that performs [custom actions](custom-actions.md) on the removal of a patch. The custom action can be authored into the original installation package, a patch that has already been applied to the package, or a patch that is not an [uninstallable patch](uninstallable-patches.md). The custom action can be conditionalized on the **MsiPatchRemovalList** property in the sequence tables. See [Using Properties in Conditional Statements](using-properties-in-conditional-statements.md) for more information about conditionalizing actions.
 
-The custom action can obtain the GUIDs of patches being removed from the value of the **MsiPatchRemovalList** property. The custom action can determine whether the installation state of the patch is applied, obsolete, or superseded by calling the [**MsiGetPatchInfoEx**](msigetpatchinfoex.md) function or the [**PatchProperty**](patch-patchproperty.md) property of the [Patch object](patch-object.md).
+The custom action can obtain the GUIDs of patches being removed from the value of the **MsiPatchRemovalList** property. The custom action can determine whether the installation state of the patch is applied, obsolete, or superseded by calling the [**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) function or the [**PatchProperty**](patch-patchproperty.md) property of the [Patch object](patch-object.md).
 
 ## Remarks
 

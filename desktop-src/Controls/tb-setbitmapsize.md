@@ -1,8 +1,9 @@
 ---
 title: TB\_SETBITMAPSIZE message
 description: Sets the size of the bitmapped images to be added to a toolbar.
-ms.assetid: '20b99cd8-6ef1-4037-92d2-c64a1003b5fe'
-keywords: ["TB_SETBITMAPSIZE message Windows Controls"]
+ms.assetid: 20b99cd8-6ef1-4037-92d2-c64a1003b5fe
+keywords:
+- TB_SETBITMAPSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETBITMAPSIZE message
@@ -49,15 +55,15 @@ The size can be set only before adding any bitmaps to the toolbar. If an applica
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

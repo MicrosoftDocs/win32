@@ -1,7 +1,12 @@
 ---
 title: Hyphenation
 description: Hyphenation
-ms.assetid: '4bc6673d-6fd4-4f70-a669-bf6c5bbd6596'
+ms.assetid: 4bc6673d-6fd4-4f70-a669-bf6c5bbd6596
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyphenation

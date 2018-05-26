@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IMediaDet interface retrieves information about a media file, such as the number of streams, and the media type, duration, and frame rate of each stream.'
-ms.assetid: '596fc84e-a88a-4e1b-aa48-b6dc9031db31'
+---
+Description: The IMediaDet interface retrieves information about a media file, such as the number of streams, and the media type, duration, and frame rate of each stream.
+ms.assetid: 596fc84e-a88a-4e1b-aa48-b6dc9031db31
 title: IMediaDet interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaDet interface
@@ -32,7 +37,7 @@ To retrieve a video frame, call [**IMediaDet::GetBitmapBits**](imediadet-getbitm
 
  
 
-The **IMediaDet** interface does not support [**VIDEOINFOHEADER2**](videoinfoheader2.md) formats, so you cannot use this interface to get interlaced fields or information about interlacing. Also, if the upstream decoder supports only **VIDEOINFOHEADER2**, you cannot use `IMediaDet`. This might be the case with an MPEG-2 decoder, for example. Also, the `IMediaDet` interface ignores any streams in the file that are not video or audio. For example, if the file contains an audio stream, a data stream, and a video stream, the **get\_OutputStreams** method will report only two streams (the audio and video).
+The **IMediaDet** interface does not support [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) formats, so you cannot use this interface to get interlaced fields or information about interlacing. Also, if the upstream decoder supports only **VIDEOINFOHEADER2**, you cannot use `IMediaDet`. This might be the case with an MPEG-2 decoder, for example. Also, the `IMediaDet` interface ignores any streams in the file that are not video or audio. For example, if the file contains an audio stream, a data stream, and a video stream, the **get\_OutputStreams** method will report only two streams (the audio and video).
 
 ## Members
 

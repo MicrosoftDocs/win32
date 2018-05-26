@@ -1,7 +1,12 @@
 ---
 title: defb - ps
 description: Defines a boolean constant value, which should be loaded any time a shader is set to a device.
-ms.assetid: 'bb0b87cb-08a4-4790-88da-e398cea62911'
+ms.assetid: bb0b87cb-08a4-4790-88da-e398cea62911
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defb - ps

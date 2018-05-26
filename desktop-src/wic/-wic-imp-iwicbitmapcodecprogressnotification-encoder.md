@@ -1,14 +1,19 @@
 ---
-Description: 'Implementing IWICBitmapCodecProgressNotification (Encoder)'
-ms.assetid: 'd470ec93-d329-48c0-9556-0c15daece491'
-title: 'Implementing IWICBitmapCodecProgressNotification (Encoder)'
+Description: Implementing IWICBitmapCodecProgressNotification (Encoder)
+ms.assetid: d470ec93-d329-48c0-9556-0c15daece491
+title: Implementing IWICBitmapCodecProgressNotification (Encoder)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICBitmapCodecProgressNotification (Encoder)
 
 ## IWICBitmapCodecProgressNotification
 
-Although the [**IWICBitmapCodecProgressNotification**](-wic-codec-iwicbitmapcodecprogressnotification.md) interface is optional, it is recommended that it be implemented on the container-level encoder class. This interface is discussed in more details in [Implementing IWICBitmapCodecProgressNotification (Decoder)](-wic-imp-iwicbitmapcodecprogressnotification-decoder.md). The implementation is the same for either the decoder and the encoder.
+Although the [**IWICBitmapCodecProgressNotification**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapcodecprogressnotification?branch=master) interface is optional, it is recommended that it be implemented on the container-level encoder class. This interface is discussed in more details in [Implementing IWICBitmapCodecProgressNotification (Decoder)](-wic-imp-iwicbitmapcodecprogressnotification-decoder.md). The implementation is the same for either the decoder and the encoder.
 
 ## Related topics
 

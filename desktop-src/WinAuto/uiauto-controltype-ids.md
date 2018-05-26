@@ -1,7 +1,7 @@
 ---
 title: Control Type Identifiers
 description: This topic describes the named constants used to identify Microsoft UI Automation control types.
-ms.assetid: '774b6078-2491-48e4-8ac3-f14dd60de862'
+ms.assetid: 774b6078-2491-48e4-8ac3-f14dd60de862
 topic_type:
 - apiref
 api_name:
@@ -50,6 +50,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Type Identifiers
@@ -60,7 +65,7 @@ This topic describes the named constants used to identify Microsoft UI Automatio
 
 | Constant/value                                                                                                                                                                                                                                                                                                           | Description                                                                                                                                                                    |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="UIA_AppBarControlTypeId"></span><span id="uia_appbarcontroltypeid"></span><span id="UIA_APPBARCONTROLTYPEID"></span><dl> <dt>**UIA\_AppBarControlTypeId**</dt> <dt>50040</dt> </dl>                         | Identifies the [AppBar](uiauto-supportappbarcontroltype.md) control type. Supported starting with Windows 8.1.<br/>                                                     |
+| <span id="UIA_AppBarControlTypeId"></span><span id="uia_appbarcontroltypeid"></span><span id="UIA_APPBARCONTROLTYPEID"></span><dl> <dt>**UIA\_AppBarControlTypeId**</dt> <dt>50040</dt> </dl>                         | Identifies the [AppBar](uiauto-supportappbarcontroltype.md) control type. Supported starting with Windows 8.1.<br/>                                                     |
 | <span id="UIA_ButtonControlTypeId"></span><span id="uia_buttoncontroltypeid"></span><span id="UIA_BUTTONCONTROLTYPEID"></span><dl> <dt>**UIA\_ButtonControlTypeId**</dt> <dt>50000</dt> </dl>                         | Identifies the [Button](uiauto-supportbuttoncontroltype.md) control type.<br/>                                                                                          |
 | <span id="UIA_CalendarControlTypeId"></span><span id="uia_calendarcontroltypeid"></span><span id="UIA_CALENDARCONTROLTYPEID"></span><dl> <dt>**UIA\_CalendarControlTypeId**</dt> <dt>50001</dt> </dl>                 | Identifies the [Calendar](uiauto-supportcalendarcontroltype.md) control type.<br/>                                                                                      |
 | <span id="UIA_CheckBoxControlTypeId"></span><span id="uia_checkboxcontroltypeid"></span><span id="UIA_CHECKBOXCONTROLTYPEID"></span><dl> <dt>**UIA\_CheckBoxControlTypeId**</dt> <dt>50002</dt> </dl>                 | Identifies the [CheckBox](uiauto-supportcheckboxcontroltype.md) control type.<br/>                                                                                      |
@@ -84,7 +89,7 @@ This topic describes the named constants used to identify Microsoft UI Automatio
 | <span id="UIA_ProgressBarControlTypeId"></span><span id="uia_progressbarcontroltypeid"></span><span id="UIA_PROGRESSBARCONTROLTYPEID"></span><dl> <dt>**UIA\_ProgressBarControlTypeId**</dt> <dt>50012</dt> </dl>     | Identifies the [ProgressBar](uiauto-supportprogressbarcontroltype.md) control type. <br/>                                                                               |
 | <span id="UIA_RadioButtonControlTypeId"></span><span id="uia_radiobuttoncontroltypeid"></span><span id="UIA_RADIOBUTTONCONTROLTYPEID"></span><dl> <dt>**UIA\_RadioButtonControlTypeId**</dt> <dt>50013</dt> </dl>     | Identifies the [RadioButton](uiauto-supportradiobuttoncontroltype.md) control type. <br/>                                                                               |
 | <span id="UIA_ScrollBarControlTypeId"></span><span id="uia_scrollbarcontroltypeid"></span><span id="UIA_SCROLLBARCONTROLTYPEID"></span><dl> <dt>**UIA\_ScrollBarControlTypeId**</dt> <dt>50014</dt> </dl>             | Identifies the [ScrollBar](uiauto-supportscrollbarcontroltype.md) control type. <br/>                                                                                   |
-| <span id="UIA_SemanticZoomControlTypeId"></span><span id="uia_semanticzoomcontroltypeid"></span><span id="UIA_SEMANTICZOOMCONTROLTYPEID"></span><dl> <dt>**UIA\_SemanticZoomControlTypeId**</dt> <dt>50039</dt> </dl> | Identifies the [SemanticZoom](https://msdn.microsoft.com/library/windows/desktop/hh920984) control type. Supported starting with Windows 8.<br/>                                       |
+| <span id="UIA_SemanticZoomControlTypeId"></span><span id="uia_semanticzoomcontroltypeid"></span><span id="UIA_SEMANTICZOOMCONTROLTYPEID"></span><dl> <dt>**UIA\_SemanticZoomControlTypeId**</dt> <dt>50039</dt> </dl> | Identifies the [SemanticZoom](https://msdn.microsoft.com/library/windows/desktop/hh920984) control type. Supported starting with Windows 8.<br/>                                       |
 | <span id="UIA_SeparatorControlTypeId"></span><span id="uia_separatorcontroltypeid"></span><span id="UIA_SEPARATORCONTROLTYPEID"></span><dl> <dt>**UIA\_SeparatorControlTypeId**</dt> <dt>50038</dt> </dl>             | Identifies the [Separator](uiauto-supportseparatorcontroltype.md) control type. <br/>                                                                                   |
 | <span id="UIA_SliderControlTypeId"></span><span id="uia_slidercontroltypeid"></span><span id="UIA_SLIDERCONTROLTYPEID"></span><dl> <dt>**UIA\_SliderControlTypeId**</dt> <dt>50015</dt> </dl>                         | Identifies the [Slider](uiauto-supportslidercontroltype.md) control type. <br/>                                                                                         |
 | <span id="UIA_SpinnerControlTypeId"></span><span id="uia_spinnercontroltypeid"></span><span id="UIA_SPINNERCONTROLTYPEID"></span><dl> <dt>**UIA\_SpinnerControlTypeId**</dt> <dt>50016</dt> </dl>                     | Identifies the [Spinner](uiauto-supportspinnercontroltype.md) control type. <br/>                                                                                       |
@@ -110,8 +115,8 @@ This topic describes the named constants used to identify Microsoft UI Automatio
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
@@ -126,9 +131,9 @@ This topic describes the named constants used to identify Microsoft UI Automatio
 [UI Automation Constants](uiauto-entry-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

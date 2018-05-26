@@ -1,8 +1,10 @@
 ---
 title: Win32\_SoftwareFeatureParent class
 description: The Win32\_SoftwareFeatureParent generic association WMI class establishes dependency relationships between objects.
-ms.assetid: '2411380d-98b3-43b8-bb0f-e060494de2a0'
-keywords: ["Win32_SoftwareFeatureParent class", "Win32_SoftwareFeatureParent class, described"]
+ms.assetid: 2411380d-98b3-43b8-bb0f-e060494de2a0
+keywords:
+- Win32_SoftwareFeatureParent class
+- Win32_SoftwareFeatureParent class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_SoftwareFeatureParent class
@@ -22,7 +29,7 @@ The **Win32\_SoftwareFeatureParent** generic association [WMI class](https://msd
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -91,8 +98,8 @@ The **Win32\_SoftwareFeatureParent** class is derived from [**CIM\_Dependency**]
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -106,9 +113,9 @@ The **Win32\_SoftwareFeatureParent** class is derived from [**CIM\_Dependency**]
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

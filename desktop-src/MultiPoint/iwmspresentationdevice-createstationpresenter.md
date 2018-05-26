@@ -4,11 +4,14 @@ description: Creates a IWmsStationPresenter instance for an input device, and th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4c158e39-6eb7-4cfe-ad02-b3182c1260a7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4c158e39-6eb7-4cfe-ad02-b3182c1260a7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CreateStationPresenterIWmsStationPresenter method", "CreateStationPresenterIWmsStationPresenter method, IWmsPresentationDevice interface", "IWmsPresentationDevice interface, CreateStationPresenterIWmsStationPresenter method"]
+keywords:
+- CreateStationPresenterIWmsStationPresenter method
+- CreateStationPresenterIWmsStationPresenter method, IWmsPresentationDevice interface
+- IWmsPresentationDevice interface, CreateStationPresenterIWmsStationPresenter method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsPresentationDevice::CreateStationPresenterIWmsStationPresenter method
@@ -30,10 +36,10 @@ Creates a [**IWmsStationPresenter**](iwmsstationpresenter.md) instance for an in
 
 ```C++
 HRESULT CreateStationPresenterIWmsStationPresenter(
-  [in]  UINT cxOffset,
-  [in]  UINT cx,
-  [in]  UINT cy,
-  [out]      **ppPresenter
+  [in]  UINT cxOffset,
+  [in]  UINT cx,
+  [in]  UINT cy,
+  [out]      **ppPresenter
 );
 ```
 
@@ -82,7 +88,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsPresentationDevice is defined as 3fa4b1eb-eb6c-455e-a7ae-0861a26c8fc4<br/>          |
 
@@ -98,9 +104,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsStationPresenter**](iwmsstationpresenter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a JPEG AC huffman table.'
-ms.assetid: 'E1923FFA-E7E5-4158-9793-3E7F5A6EA7FA'
-title: 'DXGI\_JPEG\_AC\_HUFFMAN\_TABLE structure'
+---
+Description: Describes a JPEG AC huffman table.
+ms.assetid: E1923FFA-E7E5-4158-9793-3E7F5A6EA7FA
+title: DXGI\_JPEG\_AC\_HUFFMAN\_TABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI\_JPEG\_AC\_HUFFMAN\_TABLE structure

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer Locale property
 description: The Locale property sets the user interface locale of the Virtual Server service.
-ms.assetid: '30051714-e839-48d1-bb32-123accbb1114'
-keywords: ["Locale property Virtual Server", "Locale property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , Locale property", "Locale property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , Locale property"]
+ms.assetid: 30051714-e839-48d1-bb32-123accbb1114
+keywords:
+- Locale property Virtual Server
+- Locale property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , Locale property
+- Locale property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , Locale property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::Locale property
@@ -26,7 +36,7 @@ This property is write-only.
 
 ```C++
 HRESULT put_Locale(
-  [in] ULONG inLocale
+  [in] ULONG inLocale
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -95,9 +105,9 @@ This property value is read/write.
 [**QueryLocale**](ivmvirtualserver-querylocale.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

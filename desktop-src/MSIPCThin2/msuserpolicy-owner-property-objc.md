@@ -4,17 +4,21 @@ description: The email address of the current content owner.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f1504666-1a84-413e-8092-a1a5450b812c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: f1504666-1a84-413e-8092-a1a5450b812c
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy owner property"]
+keywords:
+- MSUserPolicy owner property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy owner property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy owner property
@@ -37,7 +41,7 @@ The email address of the current content owner. The current content **owner** is
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

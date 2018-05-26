@@ -1,7 +1,12 @@
 ---
 title: Relevant RFCs
 description: TCP/IP standards are defined in Requests for Comments (RFCs), which are published by the Internet Engineering Task Force (IETF). The following table lists the RFCs that are relevant to SNMP.
-ms.assetid: '82d2f621-c636-4d6e-a7e0-10fdf2c858a8'
+ms.assetid: 82d2f621-c636-4d6e-a7e0-10fdf2c858a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Relevant RFCs

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a list of changes in the specified region of a virtual disk since the provided Resilient Change Tracking Id or VHDSet Snapshot Id.'
-ms.assetid: 'c1dac403-96e0-4c0d-ad71-858f04bf07cd'
-title: 'GetVirtualDiskChanges method of the Msvm\_ImageManagementService class'
+Description: Retrieves a list of changes in the specified region of a virtual disk since the provided Resilient Change Tracking Id or VHDSet Snapshot Id.
+ms.assetid: c1dac403-96e0-4c0d-ad71-858f04bf07cd
+title: GetVirtualDiskChanges method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVirtualDiskChanges method of the Msvm\_ImageManagementService class
@@ -13,15 +18,15 @@ Retrieves a list of changes in the specified region of a virtual disk since the 
 
 ```mof
 uint32 GetVirtualDiskChanges(
-  [in]  string              Path,
-  [in]  string              LimitId,
-  [in]  string              TargetSnapshotId,
-  [in]  uint64              ByteOffset,
-  [in]  uint64              ByteLength,
-  [out] uint64              ProcessedByteLength,
-  [out] uint64              ChangedByteOffsets[],
-  [out] uint64              ChangedByteLengths[],
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [in]  string              LimitId,
+  [in]  string              TargetSnapshotId,
+  [in]  uint64              ByteOffset,
+  [in]  uint64              ByteLength,
+  [out] uint64              ProcessedByteLength,
+  [out] uint64              ChangedByteOffsets[],
+  [out] uint64              ChangedByteLengths[],
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -148,8 +153,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -163,9 +168,9 @@ This method returns one of the following values:
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

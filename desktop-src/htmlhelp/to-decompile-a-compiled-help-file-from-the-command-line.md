@@ -1,7 +1,12 @@
 ---
 title: To decompile a compiled help file from the command line
 description: To decompile a compiled help file from the command line
-ms.assetid: '3C76B115-76CD-4f9d-9D4A-003E6B00930E'
+ms.assetid: 3C76B115-76CD-4f9d-9D4A-003E6B00930E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To decompile a compiled help file from the command line

@@ -1,14 +1,20 @@
 ---
 title: LocalizedStringDictionary element
 description: The localized strings that should be displayed in a UI for localized nodes in the manifest.
-ms.assetid: '6BF79DD4-B04B-441F-9EAF-B657AF9BDFC6'
-keywords: ["LocalizedStringDictionary element Access Execution Engine"]
+ms.assetid: 6BF79DD4-B04B-441F-9EAF-B657AF9BDFC6
+keywords:
+- LocalizedStringDictionary element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - LocalizedStringDictionary
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalizedStringDictionary element
@@ -57,9 +63,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_UserAccount&\#32;WMI class contains information about a user account on a computer system running Windows.'
+---
+Description: The Win32\_UserAccount&\#32;WMI class contains information about a user account on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '747b2ce2-ae38-47de-bf3a-97058df56a7a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 747b2ce2-ae38-47de-bf3a-97058df56a7a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_UserAccount class'
+title: Win32\_UserAccount class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_UserAccount class

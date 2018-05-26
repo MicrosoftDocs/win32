@@ -1,7 +1,12 @@
 ---
-Description: 'Billboards can display a sequence of images and text in a dialog during an installation. Typically, billboards are used to create the visual effect of a slide show or animation that informs the user of the progress of an installation.'
-ms.assetid: '6432ee7d-0da2-48be-b14c-d36a83a3bb1d'
+Description: Billboards can display a sequence of images and text in a dialog during an installation. Typically, billboards are used to create the visual effect of a slide show or animation that informs the user of the progress of an installation.
+ms.assetid: 6432ee7d-0da2-48be-b14c-d36a83a3bb1d
 title: Displaying Billboards on a Modeless Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Billboards on a Modeless Dialog

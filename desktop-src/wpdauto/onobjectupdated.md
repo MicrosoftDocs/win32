@@ -1,14 +1,22 @@
 ---
 title: Service.onObjectUpdated event
 description: The onObjectUpdated event occurs after an object has been updated on this Service object.
-ms.assetid: '25b8dfe2-f6d9-4e06-a4eb-0b579a09e0f7'
-keywords: ["onObjectUpdated event WPD Automation", "onObjectUpdated event WPD Automation , Service object", "Service object WPD Automation , onObjectUpdated event"]
+ms.assetid: 25b8dfe2-f6d9-4e06-a4eb-0b579a09e0f7
+keywords:
+- onObjectUpdated event WPD Automation
+- onObjectUpdated event WPD Automation , Service object
+- Service object WPD Automation , onObjectUpdated event
 topic_type:
 - apiref
 api_name:
 - Service.onObjectUpdated
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onObjectUpdated event
@@ -66,8 +74,8 @@ Service.onObjectUpdated = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -81,9 +89,9 @@ Service.onObjectUpdated = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

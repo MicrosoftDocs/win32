@@ -1,8 +1,19 @@
 ---
 title: Default Networking Settings
 description: Default Networking Settings
-ms.assetid: '07464107-9cf7-4ed0-a76b-17ea153399a1'
-keywords: ["Windows Media Format SDK,default networking settings", "Advanced Systems Format (ASF),default networking settings", "ASF (Advanced Systems Format),default networking settings", "Windows Media Format SDK,networking settings", "Advanced Systems Format (ASF),networking settings", "ASF (Advanced Systems Format),networking settings"]
+ms.assetid: 07464107-9cf7-4ed0-a76b-17ea153399a1
+keywords:
+- Windows Media Format SDK,default networking settings
+- Advanced Systems Format (ASF),default networking settings
+- ASF (Advanced Systems Format),default networking settings
+- Windows Media Format SDK,networking settings
+- Advanced Systems Format (ASF),networking settings
+- ASF (Advanced Systems Format),networking settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Networking Settings

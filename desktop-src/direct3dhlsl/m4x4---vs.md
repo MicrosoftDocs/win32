@@ -1,7 +1,12 @@
 ---
 title: m4x4 - vs
 description: Multiplies a 4-component vector by a 4x4 matrix.
-ms.assetid: '016100ac-e316-41fd-a606-271be7394a1a'
+ms.assetid: 016100ac-e316-41fd-a606-271be7394a1a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # m4x4 - vs

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether related events are included in the generated functions.'
-ms.assetid: '23ca463c-b305-496b-a1e3-58dbb793f17e'
+Description: Specifies whether related events are included in the generated functions.
+ms.assetid: 23ca463c-b305-496b-a1e3-58dbb793f17e
 title: events element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # events element
@@ -46,14 +51,14 @@ Possible values are 1 (events included) and 0 (default, events excluded).
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Constructs an application protocol data unit (APDU) command that conditionally updates security status, verifying the identity of the computer when the smart card does not trust it.'
-ms.assetid: '6db063d5-48a7-4c8b-ae84-cbcf34edc79d'
-title: 'ISCardISO7816::ExternalAuthenticate method'
+---
+Description: Constructs an application protocol data unit (APDU) command that conditionally updates security status, verifying the identity of the computer when the smart card does not trust it.
+ms.assetid: 6db063d5-48a7-4c8b-ae84-cbcf34edc79d
+title: ISCardISO7816ExternalAuthenticate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardISO7816::ExternalAuthenticate method

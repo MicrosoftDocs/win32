@@ -1,7 +1,12 @@
 ---
 title: Text
 description: Text includes any text users can see in your app. Review these guidelines on the use of UI text, style, and tone for your apps.
-ms.assetid: 'C0C72078-E951-4DC1-BA55-62AF13E1BA37'
+ms.assetid: C0C72078-E951-4DC1-BA55-62AF13E1BA37
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text
@@ -19,13 +24,13 @@ Text includes any text users can see in your app. Review these guidelines on the
 
 
 
- 
+ 
 
 You can also find specific text guidelines in the Text or Labels sections for [Controls](controls.md) and [Windows](windows.md).
 
- 
+ 
 
- 
+ 
 
 
 

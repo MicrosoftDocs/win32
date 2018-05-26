@@ -1,12 +1,17 @@
 ---
-Description: 'This topic demonstrates how to load an IWICBitmapFrameDecode from an application resource.'
-ms.assetid: '2260ad3a-44d4-4fe2-aa8c-608ffc11fbfb'
+Description: This topic demonstrates how to load an IWICBitmapFrameDecode from an application resource.
+ms.assetid: 2260ad3a-44d4-4fe2-aa8c-608ffc11fbfb
 title: How to Load a Bitmap from a Resource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Load a Bitmap from a Resource
 
-This topic demonstrates how to load an [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) from an application resource.
+This topic demonstrates how to load an [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) from an application resource.
 
 1.  In the application resource definition (.rc) file , define the resource. The following example defines an `Image` resource named `IDR_SAMPLE_IMAGE`.
 
@@ -71,7 +76,7 @@ This topic demonstrates how to load an [**IWICBitmapFrameDecode**](-wic-codec-iw
 
     
 
-4.  Use the [**CreateStream**](-wic-codec-iwicimagingfactory-createstream.md) method to create an [**IWICStream**](-wic-codec-iwicstream.md) object and initialize it by using the image memory pointer.
+4.  Use the [**CreateStream**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createstream?branch=master) method to create an [**IWICStream**](/windows/win32/Wincodec/nn-wincodec-iwicstream?branch=master) object and initialize it by using the image memory pointer.
 
     ```C++
     // Create a WIC stream to map onto the memory.
@@ -89,7 +94,7 @@ This topic demonstrates how to load an [**IWICBitmapFrameDecode**](-wic-codec-iw
 
     
 
-5.  Create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from the new stream object by using the [**CreateDecoderFromStream**](-wic-codec-iwicimagingfactory-createdecoderfromstream.md) method.
+5.  Create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from the new stream object by using the [**CreateDecoderFromStream**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream?branch=master) method.
 
     ```C++
     // Create a decoder for the stream.
@@ -104,7 +109,7 @@ This topic demonstrates how to load an [**IWICBitmapFrameDecode**](-wic-codec-iw
 
     
 
-6.  Retrieve an [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) from the decoded image.
+6.  Retrieve an [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) from the decoded image.
 
     ```C++
     // Retrieve the initial frame.
@@ -115,7 +120,7 @@ This topic demonstrates how to load an [**IWICBitmapFrameDecode**](-wic-codec-iw
 
     
 
-    This code only retrieves the first (`0`) frame of the image. For multi-framed images, use [**GetFrameCount**](-wic-codec-iwicbitmapdecoder-getframecount.md) to determine the number of frames in the image.
+    This code only retrieves the first (`0`) frame of the image. For multi-framed images, use [**GetFrameCount**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getframecount?branch=master) to determine the number of frames in the image.
 
 ## See Also
 

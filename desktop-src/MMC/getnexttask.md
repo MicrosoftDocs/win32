@@ -4,11 +4,14 @@ description: The GetNextTask method returns an MMCTask object that represents th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ca28723-a4e6-47a3-9061-71f63eb97007'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 2ca28723-a4e6-47a3-9061-71f63eb97007
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetNextTask method MMC", "GetNextTask method MMC , MMCCtrl class", "MMCCtrl class MMC , GetNextTask method"]
+keywords:
+- GetNextTask method MMC
+- GetNextTask method MMC , MMCCtrl class
+- MMCCtrl class MMC , GetNextTask method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCCtrl.GetNextTask method
@@ -51,9 +57,9 @@ An MMCTask object that represents the next task to be placed on the taskpad. If 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

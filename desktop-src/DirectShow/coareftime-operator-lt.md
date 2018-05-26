@@ -1,7 +1,12 @@
 ---
-Description: 'This operator tests if one reference time is less than another.'
-ms.assetid: '709fb861-a836-4a20-8c93-c0e8ab79f377'
-title: 'COARefTime.operator&lt; method'
+Description: This operator tests if one reference time is less than another.
+ms.assetid: 709fb861-a836-4a20-8c93-c0e8ab79f377
+title: COARefTime.operator&lt; method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.operator&lt; method
@@ -13,7 +18,7 @@ This operator tests if one reference time is less than another.
 
 ```C++
 BOOL operator<(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &amp;rt
 );
 ```
 
@@ -52,9 +57,9 @@ Returns **TRUE** if this object is strictly less than *rt*. Otherwise, returns *
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Job ~Job destructor
 description: Destructor method.
-ms.assetid: 'BE9180B7-088A-4E11-9749-B1928A9ABA7C'
-keywords: ["~Job destructor Access Execution Engine", "~Job destructor Access Execution Engine , Job interface", "Job interface Access Execution Engine , ~Job destructor"]
+ms.assetid: BE9180B7-088A-4E11-9749-B1928A9ABA7C
+keywords:
+- ~Job destructor Access Execution Engine
+- ~Job destructor Access Execution Engine , Job interface
+- Job interface Access Execution Engine , ~Job destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::~Job destructor
@@ -32,8 +40,8 @@ virtual ~Job();
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -46,9 +54,9 @@ virtual ~Job();
 [**Job**](job-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

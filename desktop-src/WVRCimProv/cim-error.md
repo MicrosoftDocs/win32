@@ -4,13 +4,15 @@ description: CIM\_Error is a specialized class that contains information about t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '55998a5d-c906-481b-995c-b8c7eb8e7e5a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 55998a5d-c906-481b-995c-b8c7eb8e7e5a
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Error class", "CIM_Error class, described"]
+keywords:
+- CIM_Error class
+- CIM_Error class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Error class
@@ -1869,16 +1874,16 @@ A free-form string describing recommended actions to take to resolve the error.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

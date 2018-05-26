@@ -4,13 +4,16 @@ description: Adds an IPv4 scope on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1220e03-9d51-4c17-ae21-367036ec0c4e'
-ms.prod: 'windows-server-dev'
+ms.assetid: f1220e03-9d51-4c17-ae21-367036ec0c4e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DhcpServerv4Scope class", "PS_DhcpServerv4Scope class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DhcpServerv4Scope class
+- PS_DhcpServerv4Scope class, Add method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DhcpServerv4Scope class
@@ -30,23 +36,23 @@ Adds an IPv4 scope on the server.
 
 ```mof
 uint32 Add(
-  [in]  string            ComputerName,
-  [in]  string            StartRange,
-  [in]  string            EndRange,
-  [in]  string            Name,
-  [in]  string            Description,
-  [in]  string            State,
-  [in]  string            SuperscopeName,
-  [in]  uint32            MaxBootpClients,
-  [in]  boolean           ActivatePolicies,
-  [in]  boolean           PassThru,
-  [in]  boolean           NapEnable,
-  [in]  string            NapProfile,
-  [in]  uint16            Delay,
-  [in]  datetime          LeaseDuration,
-  [in]  string            SubnetMask,
-  [in]  string            Type,
-  [out] DhcpServerv4Scope cmdletOutput
+  [in]  string            ComputerName,
+  [in]  string            StartRange,
+  [in]  string            EndRange,
+  [in]  string            Name,
+  [in]  string            Description,
+  [in]  string            State,
+  [in]  string            SuperscopeName,
+  [in]  uint32            MaxBootpClients,
+  [in]  boolean           ActivatePolicies,
+  [in]  boolean           PassThru,
+  [in]  boolean           NapEnable,
+  [in]  string            NapProfile,
+  [in]  uint16            Delay,
+  [in]  datetime          LeaseDuration,
+  [in]  string            SubnetMask,
+  [in]  string            Type,
+  [out] DhcpServerv4Scope cmdletOutput
 );
 ```
 
@@ -217,7 +223,7 @@ An embedded instance of the [**DhcpServerv4Scope**](dhcpserverv4scope.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -231,9 +237,9 @@ An embedded instance of the [**DhcpServerv4Scope**](dhcpserverv4scope.md) class.
 [**PS\_DhcpServerv4Scope**](ps-dhcpserverv4scope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

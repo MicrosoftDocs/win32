@@ -4,17 +4,21 @@ description: Gets the date the content is valid until.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'BF6F5241-4F25-4AFD-BB47-DD01B4E4944B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: BF6F5241-4F25-4AFD-BB47-DD01B4E4944B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.getContentValidUntil method"]
+keywords:
+- UserPolicy.getContentValidUntil method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.getContentValidUntil method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.getContentValidUntil method
@@ -49,11 +53,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

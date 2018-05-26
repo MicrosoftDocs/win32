@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a matrix stack.'
-ms.assetid: 'df0f3564-0226-44b8-b22b-4dd27905c44c'
+---
+Description: Create a matrix stack.
+ms.assetid: df0f3564-0226-44b8-b22b-4dd27905c44c
 title: D3DXCreateMatrixStack function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateMatrixStack function

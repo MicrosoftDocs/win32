@@ -1,8 +1,13 @@
 ---
 title: IVMKeyboard PressKey method
 description: The PressKey method simulates the given key being pressed down inside the virtual machine.
-ms.assetid: '12ace4bc-e17f-4522-a22c-a676e5bf6c59'
-keywords: ["PressKey method Virtual Server", "PressKey method Virtual Server , IVMKeyboard interface", "IVMKeyboard interface Virtual Server , PressKey method", "PressKey method Virtual Server , VMKeyboard interface", "VMKeyboard interface Virtual Server , PressKey method"]
+ms.assetid: 12ace4bc-e17f-4522-a22c-a676e5bf6c59
+keywords:
+- PressKey method Virtual Server
+- PressKey method Virtual Server , IVMKeyboard interface
+- IVMKeyboard interface Virtual Server , PressKey method
+- PressKey method Virtual Server , VMKeyboard interface
+- VMKeyboard interface Virtual Server , PressKey method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard::PressKey method
@@ -23,7 +33,7 @@ The **PressKey** method simulates the given key being pressed down inside the vi
 
 ```C++
 HRESULT PressKey(
-  [in] BSTR key
+  [in] BSTR key
 );
 ```
 
@@ -55,7 +65,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +73,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -76,9 +86,9 @@ This method can return one of these values.
 [**IVMKeyboard**](ivmkeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: Accessing an Alternate Registry View
 description: By default, a 32-bit application running on WOW64 accesses the 32-bit registry view and a 64-bit application accesses the 64-bit registry view.
-ms.assetid: '2c5fd3de-998c-44ab-863e-8e0e90d56e5d'
-keywords: ["registry views 64-bit Windows Programming", "WOW64 64-bit Windows Programming , registry views"]
+ms.assetid: 2c5fd3de-998c-44ab-863e-8e0e90d56e5d
+keywords:
+- registry views 64-bit Windows Programming
+- WOW64 64-bit Windows Programming , registry views
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing an Alternate Registry View
@@ -14,11 +21,11 @@ By default, a 32-bit application running on WOW64 accesses the 32-bit registry v
 | Flag name         | Value  | Description                                                                                                                                                                                                                                       |
 |-------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | KEY\_WOW64\_64KEY | 0x0100 | Access a 64-bit key from either a 32-bit or 64-bit application.                                                                                                                                                                                   |
-| KEY\_WOW64\_32KEY | 0x0200 | Access a 32-bit key from either a 32-bit or 64-bit application.**Windows 10 on ARM:** This refers to the 32-bit ARM registry view for 32-bit ARM processes and the 32-bit x86 registry view for 32-bit x86 and 64-bit ARM64 processes.<br/> |
+| KEY\_WOW64\_32KEY | 0x0200 | Access a 32-bit key from either a 32-bit or 64-bit application.**Windows 10 on ARM:** This refers to the 32-bit ARM registry view for 32-bit ARM processes and the 32-bit x86 registry view for 32-bit x86 and 64-bit ARM64 processes.<br/> |
 
 
 
- 
+ 
 
 These flags can be specified in the *samDesired* parameter of the following registry functions:
 
@@ -28,7 +35,7 @@ These flags can be specified in the *samDesired* parameter of the following regi
 
 Either KEY\_WOW64\_32KEY or KEY\_WOW64\_64KEY can be specified. If both flags are specified, the function fails with ERROR\_INVALID\_PARAMETER.
 
-**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** If both flags are specified, the function’s behavior is undefined.
+**Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** If both flags are specified, the function s behavior is undefined.
 
 The [**RegDeleteKey**](https://msdn.microsoft.com/library/windows/desktop/ms724845) function cannot be used to access an alternate registry view.
 
@@ -40,7 +47,7 @@ The following are best practices when accessing the registry from an application
 > [!Note]  
 > The **Wow6432Node** and **WowAA32Node** keys are reserved. For compatibility, applications should not use these keys directly.
 
- 
+ 
 
 For information about accessing the alternate registry view through WMI, see [Requesting WMI Data on a 64-bit Platform](https://msdn.microsoft.com/library/aa393067).
 
@@ -54,9 +61,9 @@ For information about accessing the alternate registry view through WMI, see [Re
 [Registry Reflection](registry-reflection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

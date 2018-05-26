@@ -1,14 +1,20 @@
 ---
 title: MENUHEADER structure
 description: Contains version information for the menu resource. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '1e34b0b6-18ff-4cb6-901e-a2aabad0df74'
-keywords: ["MENUHEADER structure Menus and Other Resources"]
+ms.assetid: 1e34b0b6-18ff-4cb6-901e-a2aabad0df74
+keywords:
+- MENUHEADER structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - MENUHEADER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENUHEADER structure
@@ -59,8 +65,8 @@ The size of the menu template header. This value is zero for menus you create wi
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -77,10 +83,10 @@ The size of the menu template header. This value is zero for menus you create wi
 [**MENUEX\_TEMPLATE\_ITEM**](menuex-template-item.md)
 </dt> <dt>
 
-[**MENUITEMTEMPLATE**](menuitemtemplate.md)
+[**MENUITEMTEMPLATE**](/windows/win32/Winuser/ns-winuser-menuitemtemplate?branch=master)
 </dt> <dt>
 
-[**MENUITEMTEMPLATEHEADER**](menuitemtemplateheader.md)
+[**MENUITEMTEMPLATEHEADER**](/windows/win32/Winuser/ns-winuser-menuitemtemplateheader?branch=master)
 </dt> <dt>
 
 [**NORMALMENUITEM**](normalmenuitem.md)
@@ -95,9 +101,9 @@ The size of the menu template header. This value is zero for menus you create wi
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

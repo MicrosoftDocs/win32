@@ -4,10 +4,13 @@ description: Manages a virtual machine replication broker. A VM replication brok
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7365E2D9-CA89-468C-BE27-BFEAA9DAB841'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7365E2D9-CA89-468C-BE27-BFEAA9DAB841
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Virtual Machine Replication Broker
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +38,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Resource Types](resource-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: The Count property returns the number of Extension objects that are
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f4e025ab-d856-4706-978c-628198f6bd63'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f4e025ab-d856-4706-978c-628198f6bd63
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Count property MMC", "Count property MMC , Extensions object", "Extensions object MMC , Count property", "Count property MMC , Extensions interface", "Extensions interface MMC , Count property"]
+keywords:
+- Count property MMC
+- Count property MMC , Extensions object
+- Extensions object MMC , Count property
+- Count property MMC , Extensions interface
+- Extensions interface MMC , Count property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extensions::Count property
@@ -55,8 +63,8 @@ MsgBox ("Number of Extension objects: " & nCount)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -74,9 +82,9 @@ MsgBox ("Number of Extension objects: " & nCount)
 [**SnapIns.Count**](snapins-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

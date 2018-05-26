@@ -1,7 +1,12 @@
 ---
-Description: 'How to create a basic IP Helper application.'
-ms.assetid: 'b53f1cf5-3659-407e-8279-5c94333f3017'
+Description: How to create a basic IP Helper application.
+ms.assetid: b53f1cf5-3659-407e-8279-5c94333f3017
 title: Creating a Basic IP Helper Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Basic IP Helper Application

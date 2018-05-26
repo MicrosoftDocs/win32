@@ -1,8 +1,11 @@
 ---
 title: Support ManageSystemState method
 description: Retrieves a SystemState interface that is bound to a file use to save and restore the system configuration.
-ms.assetid: 'F206930D-98C0-40C0-BFA5-CEFAB5FF935E'
-keywords: ["ManageSystemState method Access Execution Engine", "ManageSystemState method Access Execution Engine , Support interface", "Support interface Access Execution Engine , ManageSystemState method"]
+ms.assetid: F206930D-98C0-40C0-BFA5-CEFAB5FF935E
+keywords:
+- ManageSystemState method Access Execution Engine
+- ManageSystemState method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , ManageSystemState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::ManageSystemState method
@@ -22,8 +30,8 @@ Retrieves a [**SystemState**](systemstate.md) interface that is bound to a file 
 
 ```C++
 virtual HRESULT ManageSystemState(
-  [in]  LPCWSTR     fileName,
-  [out] SystemState **state
+  [in]  LPCWSTR     fileName,
+  [out] SystemState **state
 ) = 0;
 ```
 
@@ -63,8 +71,8 @@ Managed code uses the [**Support.ManageSystemState**](axe-support_managesystemst
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses the [**Support.ManageSystemState**](axe-support_managesystemst
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

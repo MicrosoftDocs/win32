@@ -4,11 +4,20 @@ description: Represents the name of a Remote Desktop Services listeners on a Rem
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3C41F507-6A67-4244-860F-E89B0F9E33B0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3C41F507-6A67-4244-860F-E89B0F9E33B0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["WTSLISTENERNAMEW", "WTSLISTENERNAMEA", "WTSLISTENERNAME", "PWTSLISTENERNAME", "WTSLISTENERNAME", "PWTSLISTENERNAME"]
+keywords:
+- WTSLISTENERNAMEW
+- WTSLISTENERNAMEA
+- WTSLISTENERNAME
+- PWTSLISTENERNAME
+- WTSLISTENERNAME
+- PWTSLISTENERNAME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WTSLISTENERNAME
@@ -80,15 +89,15 @@ A pointer to the name of the listener.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>WtsApi32.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

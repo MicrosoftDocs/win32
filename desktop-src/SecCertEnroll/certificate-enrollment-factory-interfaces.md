@@ -1,7 +1,12 @@
 ---
-Description: 'The following interfaces can be used to create Certificate Enrollment API objects on a webpage.'
-ms.assetid: 'de9c1204-6a51-4e0b-a42e-6dcb3be9c3b2'
+Description: The following interfaces can be used to create Certificate Enrollment API objects on a webpage.
+ms.assetid: de9c1204-6a51-4e0b-a42e-6dcb3be9c3b2
 title: Certificate Enrollment Factory Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Enrollment Factory Interfaces
@@ -12,8 +17,8 @@ The following interfaces can be used to create Certificate Enrollment API object
 
 | Interface                                                                | Description                                                                            |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [**IX509EnrollmentWebClassFactory**](ix509enrollmentwebclassfactory.md) | Creates an object in the user context on a webpage.                                    |
-| [**IX509MachineEnrollmentFactory**](ix509machineenrollmentfactory.md)   | Creates an [**IX509EnrollmentHelper**](ix509enrollmenthelper.md) object on a webpage. |
+| [**IX509EnrollmentWebClassFactory**](/windows/win32/CertEnroll/nn-certenroll-ix509enrollmentwebclassfactory?branch=master) | Creates an object in the user context on a webpage.                                    |
+| [**IX509MachineEnrollmentFactory**](/windows/win32/Certenroll/nn-certenroll-ix509machineenrollmentfactory?branch=master)   | Creates an [**IX509EnrollmentHelper**](/windows/win32/Certenroll/nn-certenroll-ix509enrollmenthelper?branch=master) object on a webpage. |
 
 
 

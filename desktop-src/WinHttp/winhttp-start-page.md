@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Windows HTTP Services (WinHTTP) provides developers with an HTTP client application programming interface (API) to send requests through the HTTP protocol to other HTTP servers.'
-ms.assetid: '354ab65d-5e46-451d-b36b-2f8166a1a048'
+Description: Microsoft Windows HTTP Services (WinHTTP) provides developers with an HTTP client application programming interface (API) to send requests through the HTTP protocol to other HTTP servers.
+ms.assetid: 354ab65d-5e46-451d-b36b-2f8166a1a048
 title: Windows HTTP Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows HTTP Services

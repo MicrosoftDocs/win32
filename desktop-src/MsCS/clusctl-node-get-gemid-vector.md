@@ -4,11 +4,12 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '29C75041-F780-46F1-958C-16496E39B031'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 29C75041-F780-46F1-958C-16496E39B031
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_NODE_GET_GEMID_VECTOR control code Failover Cluster"]
+keywords:
+- CLUSCTL_NODE_GET_GEMID_VECTOR control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_NODE\_GET\_GEMID\_VECTOR control code
 
-TBD. Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](clusternodecontrol.md) parameter.
+TBD. Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) parameter.
 
 
 ```C++
@@ -40,7 +44,7 @@ ClusterNodeControl(
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNodeControl**](clusternodecontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master).
 
 <dl> <dt>
 
@@ -53,7 +57,7 @@ A pointer to an output buffer that receives the data for the operation, or **NUL
 
 ## Return value
 
-[**ClusterNodeControl**](clusternodecontrol.md) returns one of the following values.
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -90,17 +94,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NODE\_GET\_GEMID\_VECTOR (0x040002D1) 
 
 | Component      | Bit location | Value                                            |
 |----------------|--------------|--------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_NODE** (0x4)<br/>          |
+| Object code    | 24 31        | **CLUS\_OBJECT\_NODE** (0x4)<br/>          |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>           |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>            |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>        |
 | Type bit       | 20           | External (0x0)<br/>                        |
-| Operation code | 0–23         | **CLCTL\_GET\_GEMID\_VECTOR** (0x2D1)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>          |
+| Operation code | 0 23         | **CLCTL\_GET\_GEMID\_VECTOR** (0x2D1)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>          |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -109,7 +113,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NODE\_GET\_GEMID\_VECTOR (0x040002D1) 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -121,12 +125,12 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_NODE\_GET\_GEMID\_VECTOR (0x040002D1) 
 [Node Control Codes](node-control-codes.md)
 </dt> <dt>
 
-[**ClusterNodeControl**](clusternodecontrol.md)
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

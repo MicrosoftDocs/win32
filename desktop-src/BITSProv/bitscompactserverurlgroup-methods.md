@@ -1,7 +1,12 @@
 ---
 title: BitsCompactServerUrlGroup Methods
 description: The BitsCompactServerUrlGroup class exposes the following methods.
-ms.assetid: 'BF965F0D-9A1F-4E14-88B9-F943511DE20A'
+ms.assetid: BF965F0D-9A1F-4E14-88B9-F943511DE20A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BitsCompactServerUrlGroup Methods

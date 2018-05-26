@@ -1,7 +1,7 @@
 ---
 title: Tab Control Styles
 description: This section lists supported tab control styles.
-ms.assetid: 'a01a6609-b02e-4ada-afa0-ed5ad8dde0d6'
+ms.assetid: a01a6609-b02e-4ada-afa0-ed5ad8dde0d6
 topic_type:
 - apiref
 api_name:
@@ -29,6 +29,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Control Styles
@@ -88,9 +93,9 @@ The following styles can be modified after the control is created.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

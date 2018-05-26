@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the ASF media sink automatically adjusts the bit rate.'
-ms.assetid: '0a6f4dd4-4ad7-4aab-a33d-14b4716f9902'
-title: 'MFPKEY\_ASFMEDIASINK\_AUTOADJUST\_BITRATE property'
+---
+Description: Specifies whether the ASF media sink automatically adjusts the bit rate.
+ms.assetid: 0a6f4dd4-4ad7-4aab-a33d-14b4716f9902
+title: MFPKEY\_ASFMEDIASINK\_AUTOADJUST\_BITRATE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_ASFMEDIASINK\_AUTOADJUST\_BITRATE property
@@ -45,11 +50,11 @@ The default value is **VARIANT\_FALSE**.
 
 Set this property when you configure the ASF media sink. The usage depends on which function you call to create the ASF media sink:
 
--   [**MFCreateASFMediaSink**](mfcreateasfmediasink.md): Query the retrieved [**IMFMediaSink**](imfmediasink.md) pointer for the **IPropertyStore** interface.
+-   [**MFCreateASFMediaSink**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasink?branch=master): Query the retrieved [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) pointer for the **IPropertyStore** interface.
 
--   [**MFCreateASFMediaSinkActivate**](mfcreateasfmediasinkactivate.md): Call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md) on the [**IMFASFContentInfo**](imfasfcontentinfo.md) pointer specified in the *pContentInfo* parameter.
+-   [**MFCreateASFMediaSinkActivate**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate?branch=master): Call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master) on the [**IMFASFContentInfo**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfcontentinfo?branch=master) pointer specified in the *pContentInfo* parameter.
 
-Setting this property to VARIANT\_TRUE causes the ASF media sink to set the **MFASF\_MULTIPLEXER\_AUTOADJUST\_BITRATE** flag on the ASF multiplexer. See [**IMFASFMultiplexer::SetFlags**](imfasfmultiplexer-setflags.md).
+Setting this property to VARIANT\_TRUE causes the ASF media sink to set the **MFASF\_MULTIPLEXER\_AUTOADJUST\_BITRATE** flag on the ASF multiplexer. See [**IMFASFMultiplexer::SetFlags**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setflags?branch=master).
 
 For more information about the leaky bucket concept, see the topic "The Leaky Bucket Buffer Model" in the Windows Media Format SDK documentation.
 

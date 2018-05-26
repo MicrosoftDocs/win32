@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a Windows firewall rule.'
-ms.assetid: 'f16e26ee-3072-4254-b905-0c584b607297'
-title: 'MSFT\_NetFirewallRule class'
+Description: Represents a Windows firewall rule.
+ms.assetid: f16e26ee-3072-4254-b905-0c584b607297
+title: MSFT\_NetFirewallRule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetFirewallRule class
@@ -15,42 +20,42 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetFirewallRule : CIM_PolicyRule
 {
-  uint16  Profiles;
+  uint16  Profiles;
   boolean LooseSourceMapping;
   boolean LocalOnlyMapping;
-  string  RuleGroup;
-  string  DisplayName;
-  string  DisplayGroup;
-  uint16  EdgeTraversalPolicy;
-  string  Platforms[];
-  uint16  Direction;
-  uint16  Action;
-  uint16  PrimaryStatus;
-  uint32  StatusCode;
-  string  Status;
-  uint16  EnforcementStatus[];
-  uint16  PolicyStoreSourceType;
-  string  PolicyStoreSource;
-  string  Owner;
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  CreationClassName;
-  string  PolicyRuleName;
-  uint16  ConditionListType;
-  string  RuleUsage;
-  uint16  Priority;
+  string  RuleGroup;
+  string  DisplayName;
+  string  DisplayGroup;
+  uint16  EdgeTraversalPolicy;
+  string  Platforms[];
+  uint16  Direction;
+  uint16  Action;
+  uint16  PrimaryStatus;
+  uint32  StatusCode;
+  string  Status;
+  uint16  EnforcementStatus[];
+  uint16  PolicyStoreSourceType;
+  string  PolicyStoreSource;
+  string  Owner;
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  CreationClassName;
+  string  PolicyRuleName;
+  uint16  ConditionListType;
+  string  RuleUsage;
+  uint16  Priority;
   boolean Mandatory;
-  uint16  SequencedActions;
-  uint16  ExecutionStrategy;
-  uint16  PolicyDecisionStrategy;
-  string  PolicyRoles[];
-  uint16  Enabled = 1;
-  string  CommonName;
-  string  PolicyKeywords[];
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
+  uint16  SequencedActions;
+  uint16  ExecutionStrategy;
+  uint16  PolicyDecisionStrategy;
+  string  PolicyRoles[];
+  uint16  Enabled = 1;
+  string  CommonName;
+  string  PolicyKeywords[];
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
 };
 ```
 
@@ -77,7 +82,7 @@ The **MSFT\_NetFirewallRule** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -711,17 +716,17 @@ Reserved for internal use by the WMI provider only.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

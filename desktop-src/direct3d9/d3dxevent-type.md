@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the type of events that can be keyed by the animation controller.'
-ms.assetid: 'd98b398e-29e1-41b5-84eb-37983bac8d0a'
-title: 'D3DXEVENT\_TYPE enumeration'
+---
+Description: Describes the type of events that can be keyed by the animation controller.
+ms.assetid: d98b398e-29e1-41b5-84eb-37983bac8d0a
+title: D3DXEVENT\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXEVENT\_TYPE enumeration

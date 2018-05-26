@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoder uses the style of mask computation performed by version 7 of the Windows Media Audio Encoder.'
-ms.assetid: '04003fae-5db8-4ad2-87e3-4f3428319d43'
-title: 'MFPKEY\_DYN\_SIMPLEMASK Property'
+---
+Description: Specifies whether the encoder uses the style of mask computation performed by version 7 of the Windows Media Audio Encoder.
+ms.assetid: 04003fae-5db8-4ad2-87e3-4f3428319d43
+title: MFPKEY\_DYN\_SIMPLEMASK Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DYN\_SIMPLEMASK Property

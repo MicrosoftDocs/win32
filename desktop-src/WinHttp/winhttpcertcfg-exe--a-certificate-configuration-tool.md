@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Windows HTTP Services (WinHTTP) certificate configuration tool, &\#0034;WinHttpCertCfg.exe&\#0034;, enables administrators to install and configure client certificates in any certificate store that can be accessed by the Internet Server Web Application Manager (IWAM) account. The tool also eliminates the need to do anything special to accounts such as the IWAM account to gain access to certificates when using Active Server Pages (ASP).'
-ms.assetid: 'e4c2afc2-0fd3-4bdd-812e-f112958e1576'
-title: 'WinHttpCertCfg.exe, a Certificate Configuration Tool'
+Description: The Microsoft Windows HTTP Services (WinHTTP) certificate configuration tool, &\#0034;WinHttpCertCfg.exe&\#0034;, enables administrators to install and configure client certificates in any certificate store that can be accessed by the Internet Server Web Application Manager (IWAM) account. The tool also eliminates the need to do anything special to accounts such as the IWAM account to gain access to certificates when using Active Server Pages (ASP).
+ms.assetid: e4c2afc2-0fd3-4bdd-812e-f112958e1576
+title: WinHttpCertCfg.exe, a Certificate Configuration Tool
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHttpCertCfg.exe, a Certificate Configuration Tool
@@ -87,13 +92,13 @@ Although the &quot;CURRENT_USER&quot; branch of the registry can be specified wi
 
 
 
- 
+ 
 
 > [!Note]The user must have sufficient privileges to use this tool, which requires the user to be an administrator and the same user who installed the client certificate, if installed.
 >
 > The "WinHttpCertCfg.exe" tool is not useful to configure certificates stored in a file system such as FAT32, which does not support access control lists (ACL).
 
- 
+ 
 
 ## Examples
 
@@ -115,9 +120,9 @@ The following examples show some of the ways in which the configuration tool can
 
     **winhttpcertcfg -r -c LOCAL\_MACHINE\\Root -s MyCertificate -a IWAM\_TESTMACHINE**
 
- 
+ 
 
- 
+ 
 
 
 

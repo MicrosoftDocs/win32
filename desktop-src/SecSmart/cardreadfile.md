@@ -1,8 +1,9 @@
 ---
 title: CardReadFile function
 description: Reads the contents of a file into a buffer.
-ms.assetid: '508a57da-75d8-4636-aaba-21b585df9f25'
-keywords: ["CardReadFile function Security"]
+ms.assetid: 508a57da-75d8-4636-aaba-21b585df9f25
+keywords:
+- CardReadFile function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardReadFile function
@@ -24,12 +30,12 @@ The **CardReadFile** function, defined by a smart card module, reads the content
 
 ```C++
 DWORD WINAPI CardReadFile(
-  _In_    PCARD_DATA pCardData,
-  _In_    LPSTR      pszDirectoryName,
-  _In_    LPSTR      pszFileName,
-  _In_    DWORD      dwFlags,
-  _Out_   PBYTE      *ppbData,
-  _Inout_ PDWORD     pcbData
+  _In_    PCARD_DATA pCardData,
+  _In_    LPSTR      pszDirectoryName,
+  _In_    LPSTR      pszFileName,
+  _In_    DWORD      dwFlags,
+  _Out_   PBYTE      *ppbData,
+  _Inout_ PDWORD     pcbData
 );
 ```
 
@@ -97,7 +103,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -105,8 +111,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -121,9 +127,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CardAcquireContext**](cardacquirecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

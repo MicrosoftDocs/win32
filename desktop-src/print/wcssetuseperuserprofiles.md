@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsSetUsePerUserProfiles function allows the user to specify whether or not to use a per-user profile association list for the specified device.'
-ms.assetid: 'e14f944f-67fe-4eb8-85b2-9ba262e2e549'
+---
+Description: The WcsSetUsePerUserProfiles function allows the user to specify whether or not to use a per-user profile association list for the specified device.
+ms.assetid: e14f944f-67fe-4eb8-85b2-9ba262e2e549
 title: WcsSetUsePerUserProfiles function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsSetUsePerUserProfiles function

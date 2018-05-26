@@ -1,8 +1,14 @@
 ---
 title: Create client applications
 description: How to use the Windows Biometric Framework API to create client applications.
-ms.assetid: '7bef37ee-7685-4aaa-8dad-3c5a9c335eca'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , client applications"]
+ms.assetid: 7bef37ee-7685-4aaa-8dad-3c5a9c335eca
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , client applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create client applications
@@ -17,11 +23,11 @@ The following code examples show how to enroll a biometric template in the syste
 
 The following code example:
 
--   Calls [**WinBioOpenSession**](winbioopensession.md) to open a biometric session and connect to the system pool.
--   Calls [**WinBioLocateSensor**](winbiolocatesensor.md) to locate a biometric unit.
--   Calls [**WinBioEnrollBegin**](winbioenrollbegin.md) to start the enrollment sequence.
--   Calls [**WinBioEnrollCapture**](winbioenrollcapture.md) to process multiple finger swipes on the sensor.
--   Calls [**WinBioEnrollCommit**](winbioenrollcommit.md) to save the template in the store.
+-   Calls [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) to open a biometric session and connect to the system pool.
+-   Calls [**WinBioLocateSensor**](/windows/win32/Winbio/nf-winbio-winbiolocatesensor?branch=master) to locate a biometric unit.
+-   Calls [**WinBioEnrollBegin**](/windows/win32/Winbio/nf-winbio-winbioenrollbegin?branch=master) to start the enrollment sequence.
+-   Calls [**WinBioEnrollCapture**](/windows/win32/Winbio/nf-winbio-winbioenrollcapture?branch=master) to process multiple finger swipes on the sensor.
+-   Calls [**WinBioEnrollCommit**](/windows/win32/Winbio/nf-winbio-winbioenrollcommit?branch=master) to save the template in the store.
 
 To compile this sample, link to the Winbio.lib static library and include the following header files:
 
@@ -174,12 +180,12 @@ e_Exit:
 
 The following code example:
 
--   Calls [**WinBioOpenSession**](winbioopensession.md) to open a biometric session and connect to the system pool.
--   Calls [**WinBioLocateSensor**](winbiolocatesensor.md) to locate a biometric unit.
--   Calls [**WinBioEnrollBegin**](winbioenrollbegin.md) to start the enrollment sequence.
--   Calls [**WinBioEnrollCaptureWithCallback**](winbioenrollcapturewithcallback.md) to process multiple finger swipes. This function is asynchronous and uses a custom callback function to continue processing on a separate thread. An example callback function is included below.
--   Calls [**WinBioWait**](winbiowait.md) to wait for the asynchronous enrollment process to complete or be canceled.
--   Calls [**WinBioEnrollCommit**](winbioenrollcommit.md) to save the template.
+-   Calls [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) to open a biometric session and connect to the system pool.
+-   Calls [**WinBioLocateSensor**](/windows/win32/Winbio/nf-winbio-winbiolocatesensor?branch=master) to locate a biometric unit.
+-   Calls [**WinBioEnrollBegin**](/windows/win32/Winbio/nf-winbio-winbioenrollbegin?branch=master) to start the enrollment sequence.
+-   Calls [**WinBioEnrollCaptureWithCallback**](/windows/win32/Winbio/nf-winbio-winbioenrollcapturewithcallback?branch=master) to process multiple finger swipes. This function is asynchronous and uses a custom callback function to continue processing on a separate thread. An example callback function is included below.
+-   Calls [**WinBioWait**](/windows/win32/Winbio/nf-winbio-winbiowait?branch=master) to wait for the asynchronous enrollment process to complete or be canceled.
+-   Calls [**WinBioEnrollCommit**](/windows/win32/Winbio/nf-winbio-winbioenrollcommit?branch=master) to save the template.
 
 Link to the Winbio.lib static library to compile this sample.
 
@@ -455,8 +461,8 @@ The following code examples show how to locate an installed biometric unit.
 
 The following code example:
 
--   Calls [**WinBioOpenSession**](winbioopensession.md) to open a biometric session and connect to the system pool.
--   Calls [**WinBioLocateSensor**](winbiolocatesensor.md) to locate a biometric unit.
+-   Calls [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) to open a biometric session and connect to the system pool.
+-   Calls [**WinBioLocateSensor**](/windows/win32/Winbio/nf-winbio-winbiolocatesensor?branch=master) to locate a biometric unit.
 
 To compile this sample, link to the Winbio.lib static library and include the following header files:
 
@@ -521,9 +527,9 @@ e_Exit:
 
 The following code example:
 
--   Calls [**WinBioOpenSession**](winbioopensession.md) to open a biometric session and connect to the system pool.
--   Calls [**WinBioLocateSensorWithCallback**](winbiolocatesensorwithcallback.md) to locate a biometric sensor. This is an asynchronous function that configures the biometric subsystem to locate the sensor on another thread. Output from the biometric subsystem is sent to a custom callback function, here called LocateSensorCallback.
--   Calls [**WinBioWait**](winbiowait.md) to wait for the asynchronous process to complete or be canceled.
+-   Calls [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) to open a biometric session and connect to the system pool.
+-   Calls [**WinBioLocateSensorWithCallback**](/windows/win32/Winbio/nf-winbio-winbiolocatesensorwithcallback?branch=master) to locate a biometric sensor. This is an asynchronous function that configures the biometric subsystem to locate the sensor on another thread. Output from the biometric subsystem is sent to a custom callback function, here called LocateSensorCallback.
+-   Calls [**WinBioWait**](/windows/win32/Winbio/nf-winbio-winbiowait?branch=master) to wait for the asynchronous process to complete or be canceled.
 
 To compile this sample, link to the Winbio.lib static library and include the following header files:
 
@@ -651,8 +657,8 @@ VOID CALLBACK LocateSensorCallback(
 
 The following code example:
 
--   Calls [**WinBioOpenSession**](winbioopensession.md) to open a biometric session and connect to the system pool.
--   Calls [**WinBioVerify**](winbioverify.md) to determine whether a biometric sample matches the logged on identity of the current user.
+-   Calls [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) to open a biometric session and connect to the system pool.
+-   Calls [**WinBioVerify**](/windows/win32/Winbio/nf-winbio-winbioverify?branch=master) to determine whether a biometric sample matches the logged on identity of the current user.
 
 To compile this sample, link to the Winbio.lib static library and include the following header files:
 
@@ -821,9 +827,9 @@ e_Exit:
 
 The following code example:
 
--   Calls [**WinBioOpenSession**](winbioopensession.md) to open a biometric session and connect to the system pool.
--   Calls [**WinBioVerifyWithCallback**](winbioverifywithcallback.md) to determine whether a biometric sample matches the logged on identity of the current user. This is an asynchronous function that configures the biometric subsystem to verify the user on another thread. Output from the biometric subsystem is sent to a custom callback function, here called VerifyCallback.
--   Calls [**WinBioWait**](winbiowait.md) to wait for the asynchronous process to complete or be canceled.
+-   Calls [**WinBioOpenSession**](/windows/win32/Winbio/nf-winbio-winbioopensession?branch=master) to open a biometric session and connect to the system pool.
+-   Calls [**WinBioVerifyWithCallback**](/windows/win32/Winbio/nf-winbio-winbioverifywithcallback?branch=master) to determine whether a biometric sample matches the logged on identity of the current user. This is an asynchronous function that configures the biometric subsystem to verify the user on another thread. Output from the biometric subsystem is sent to a custom callback function, here called VerifyCallback.
+-   Calls [**WinBioWait**](/windows/win32/Winbio/nf-winbio-winbiowait?branch=master) to wait for the asynchronous process to complete or be canceled.
 
 To compile this sample, link to the Winbio.lib static library and include the following header files:
 
@@ -1065,7 +1071,7 @@ The following code example:
 
 -   Calls GetCurrentUserIdentity to retrieve a [**WINBIO\_IDENTITY**](winbio-identity.md) object for the current user. GetCurrentUserIdentity is a helper function and is not part of the Windows Biometric Framework.
 -   Calls the GetCredentials helper function to retrieve a byte array that contains authentication information. GetCredentials displays a dialog box that prompts the user for credentials.
--   Calls [**WinBioSetCredential**](winbiosetcredential.md) to save the credentials in the store.
+-   Calls [**WinBioSetCredential**](/windows/win32/Winbio/nf-winbio-winbiosetcredential?branch=master) to save the credentials in the store.
 
 To compile this function link to the Winbio.lib static library and include the following header files:
 
@@ -1367,7 +1373,7 @@ e_Exit:
 The following code example:
 
 -   Calls GetCurrentUserIdentity to retrieve a [**WINBIO\_IDENTITY**](winbio-identity.md) object for the current user. GetCurrentUserIdentity is a helper function and is not part of the Windows Biometric Framework.
--   Calls [**WinBioRemoveCredential**](winbioremovecredential.md) to delete the credentials from the store.
+-   Calls [**WinBioRemoveCredential**](/windows/win32/Winbio/nf-winbio-winbioremovecredential?branch=master) to delete the credentials from the store.
 
 To compile this function link to the Winbio.lib static library and include the following header files:
 

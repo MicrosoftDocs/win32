@@ -1,13 +1,16 @@
 ---
-Description: 'Reports an instance deletion event, which is a type of intrinsic event generated when an instance is deleted from the namespace.'
+Description: Reports an instance deletion event, which is a type of intrinsic event generated when an instance is deleted from the namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a370fc95-15e3-49c3-98de-2f40d742f207'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a370fc95-15e3-49c3-98de-2f40d742f207
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_InstanceDeletionEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_InstanceDeletionEvent class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __InstanceDeletionEvent : __InstanceOperationEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   object TargetInstance;
   uint64 TIME_CREATED;
 };
@@ -102,8 +105,8 @@ The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -118,9 +121,9 @@ The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

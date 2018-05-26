@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ResourceAllocationFromPool class
 description: Associates an instance of a resource allocation with the resource pool from which it is allocated.
-ms.assetid: '4273743d-ef56-4a51-a2b9-2562689783fa'
-keywords: ["Msvm_ResourceAllocationFromPool class Hyper-V", "Msvm_ResourceAllocationFromPool class Hyper-V , described"]
+ms.assetid: 4273743d-ef56-4a51-a2b9-2562689783fa
+keywords:
+- Msvm_ResourceAllocationFromPool class Hyper-V
+- Msvm_ResourceAllocationFromPool class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourceAllocationFromPool class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ResourceAllocationFromPool : CIM_ResourceAllocationFromPool
 {
-  CIM_ResourcePool                  REF Antecedent;
+  CIM_ResourcePool                  REF Antecedent;
   CIM_ResourceAllocationSettingData REF Dependent;
 };
 ```
@@ -88,9 +95,9 @@ Access to the **Msvm\_ResourceAllocationFromPool** class might be restricted by 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -112,9 +119,9 @@ Access to the **Msvm\_ResourceAllocationFromPool** class might be restricted by 
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

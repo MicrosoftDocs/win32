@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SaveDefaultSender method stores information about the default sender from the FaxSender object.'
-ms.assetid: 'e77a73b1-19c8-4bc4-9c59-c2e921346ae3'
-title: 'FaxSender.SaveDefaultSender method'
+---
+Description: The SaveDefaultSender method stores information about the default sender from the FaxSender object.
+ms.assetid: e77a73b1-19c8-4bc4-9c59-c2e921346ae3
+title: FaxSender.SaveDefaultSender method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.SaveDefaultSender method
@@ -50,7 +55,7 @@ This method can return remote procedure call (RPC) return values. For more infor
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

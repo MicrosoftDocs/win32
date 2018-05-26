@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses specific programming considerations when using the Peer Infrastructure.'
-ms.assetid: '525b0625-ec13-4aba-a741-dbacff3587f9'
+Description: This topic discusses specific programming considerations when using the Peer Infrastructure.
+ms.assetid: 525b0625-ec13-4aba-a741-dbacff3587f9
 title: Programming Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Considerations
@@ -23,7 +28,7 @@ When using the Peer Infrastructure to develop peer applications, you must take t
     UDP port 3540 for the Peer Graphing Infrastructure.
 
     > [!Note]  
-    > Applications that use the Peer Graphing Infrastructure over TCP choose their own TCP port when calling [**PeerGraphListen**](peergraphlisten.md).
+    > Applications that use the Peer Graphing Infrastructure over TCP choose their own TCP port when calling [**PeerGraphListen**](/windows/win32/P2P/nf-p2p-peergraphlisten?branch=master).
 
      
 

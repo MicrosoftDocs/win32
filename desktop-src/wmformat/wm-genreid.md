@@ -1,14 +1,20 @@
 ---
 title: WM/GenreID
 description: The WM/GenreID attribute contains a genre identifier compliant with the contents of the TCON tag in ID3v2.
-ms.assetid: '2f2a87f7-ba2d-465a-a36b-a8f58b5dd2d0'
-keywords: ["WM/GenreID windows Media Format"]
+ms.assetid: 2f2a87f7-ba2d-465a-a36b-a8f58b5dd2d0
+keywords:
+- WM/GenreID windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/GenreID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/GenreID

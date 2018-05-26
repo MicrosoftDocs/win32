@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InsertSpace2 method splits any objects that exist at the specified time and inserts space between them. This method is equivalent to IAMTimelineTrack::InsertSpace, but takes REFTIME values.'
-ms.assetid: '818a1dad-0c8d-4728-82d6-cd52c6c830a2'
-title: 'IAMTimelineTrack::InsertSpace2 method'
+---
+Description: The InsertSpace2 method splits any objects that exist at the specified time and inserts space between them. This method is equivalent to IAMTimelineTrackInsertSpace, but takes REFTIME values.
+ms.assetid: 818a1dad-0c8d-4728-82d6-cd52c6c830a2
+title: IAMTimelineTrackInsertSpace2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrack::InsertSpace2 method

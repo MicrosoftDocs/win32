@@ -1,8 +1,29 @@
 ---
 title: Using the Windows Media Player Control in a Console Application
 description: Using the Windows Media Player Control in a Console Application
-ms.assetid: 'e5162aad-69d5-4253-83d1-46735336e6da'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player,console applications", "Windows Media Player object model,console applications", "object model,console applications", "Windows Media Player Mobile,console applications", "Windows Media Player ActiveX control,console applications", "Windows Media Player Mobile ActiveX control,console applications", "ActiveX control,console applications", "console application embedding", "embedding,console applications"]
+ms.assetid: e5162aad-69d5-4253-83d1-46735336e6da
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player,console applications
+- Windows Media Player object model,console applications
+- object model,console applications
+- Windows Media Player Mobile,console applications
+- Windows Media Player ActiveX control,console applications
+- Windows Media Player Mobile ActiveX control,console applications
+- ActiveX control,console applications
+- console application embedding
+- embedding,console applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Player Control in a Console Application

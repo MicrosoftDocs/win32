@@ -4,11 +4,14 @@ description: Returns a single node from the ClusResGroupPreferredOwnerNodes coll
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12589177-e844-407f-a200-c2d7cf276bb1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 12589177-e844-407f-a200-c2d7cf276bb1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Item property Failover Cluster", "Item property Failover Cluster , ClusResGroupPreferredOwnerNodes class", "ClusResGroupPreferredOwnerNodes class Failover Cluster , Item property"]
+keywords:
+- Item property Failover Cluster
+- Item property Failover Cluster , ClusResGroupPreferredOwnerNodes class
+- ClusResGroupPreferredOwnerNodes class Failover Cluster , Item property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroupPreferredOwnerNodes.Item property
@@ -49,7 +55,7 @@ A [**ClusNode**](clusnode-object.md) object that receives the specified node.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                            |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>                  |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>                |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>                |
@@ -71,9 +77,9 @@ A [**ClusNode**](clusnode-object.md) object that receives the specified node.
 [**ClusResGroupPreferredOwnerNodes.Count**](clusresgrouppreferredownernodes-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

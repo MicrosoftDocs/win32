@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbIsGoodStatus function tests a status value to determine if it is a success or failure code. If the status value is a successful one, then the return value will be nonzero. If it is a failure status code, the return value will be zero.'
-ms.assetid: 'bdca8f64-5dcd-4ecb-ba95-72f7a56c0439'
+Description: The PdhVbIsGoodStatus function tests a status value to determine if it is a success or failure code. If the status value is a successful one, then the return value will be nonzero. If it is a failure status code, the return value will be zero.
+ms.assetid: bdca8f64-5dcd-4ecb-ba95-72f7a56c0439
 title: PdhVbIsGoodStatus function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbIsGoodStatus function
@@ -31,8 +36,8 @@ The function returns zero if the status code is a failure status code. It return
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -45,9 +50,9 @@ The function returns zero if the status code is a failure status code. It return
 [**PdhVbGetDoubleCounterValue**](pdhvbgetdoublecountervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

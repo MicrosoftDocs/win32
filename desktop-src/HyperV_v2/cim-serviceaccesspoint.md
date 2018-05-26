@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a service access point (SAP), which is able to utilize or invoke a service. SAPs indicate that a service is available for other entities to use.'
-ms.assetid: '09349c95-3f7e-46c5-bea1-c3d14ee16a2a'
-title: 'CIM\_ServiceAccessPoint class'
+Description: Represents a service access point (SAP), which is able to utilize or invoke a service. SAPs indicate that a service is available for other entities to use.
+ms.assetid: 09349c95-3f7e-46c5-bea1-c3d14ee16a2a
+title: CIM\_ServiceAccessPoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ServiceAccessPoint class
@@ -103,8 +108,8 @@ The name of the system that contains the SAP.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -118,9 +123,9 @@ The name of the system that contains the SAP.
 [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

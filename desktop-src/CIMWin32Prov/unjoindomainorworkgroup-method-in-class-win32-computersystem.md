@@ -1,15 +1,18 @@
 ---
-Description: 'Removes a computer system from a domain or workgroup.'
+Description: Removes a computer system from a domain or workgroup.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '79ee177e-81e2-441b-b39a-2fb53a0145bf'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 79ee177e-81e2-441b-b39a-2fb53a0145bf
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'UnjoinDomainOrWorkgroup method of the Win32\_ComputerSystem class'
+title: UnjoinDomainOrWorkgroup method of the Win32\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UnjoinDomainOrWorkgroup method of the Win32\_ComputerSystem class
@@ -23,9 +26,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 UnjoinDomainOrWorkgroup(
-  [in] string Password,
-  [in] string UserName,
-  [in] uint32 FUnjoinOptions = 
+  [in] string Password,
+  [in] string UserName,
+  [in] uint32 FUnjoinOptions = 
 );
 ```
 
@@ -43,7 +46,7 @@ If the *UserName* parameter specifies an account name, the *Password* parameter 
 > [!Note]  
 > *Password* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](_com_cosetproxyblanket) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
 
- 
+ 
 
 </dd> <dt>
 
@@ -55,7 +58,7 @@ Pointer to a constant null-terminated character string that specifies the accoun
 > [!Note]  
 > *UserName* must use a high authentication level, not less than **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**, when connecting to Winmgmt or [**CoSetProxyBlanket**](_com_cosetproxyblanket) on the [**IWbemServices**](https://msdn.microsoft.com/library/aa392093) pointer. If local to Winmgmt, this is not a concern.
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +100,7 @@ The **UnjoinDomainOrWorkgroup** method returns 0 (zero) on success or when no op
 **Success** (0)
 </dt> <dt>
 
-**Other** (1–4294967295)
+**Other** (1 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -116,8 +119,8 @@ The [Unjoin a Computer from a Domain using VBS script](https://Gallery.TechNet.M
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -134,9 +137,9 @@ The [Unjoin a Computer from a Domain using VBS script](https://Gallery.TechNet.M
 [**JoinDomainOrWorkgroup method**](joindomainorworkgroup-method-in-class-win32-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

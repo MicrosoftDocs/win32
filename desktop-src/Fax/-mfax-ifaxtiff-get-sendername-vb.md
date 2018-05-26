@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the SenderName property for a FaxTiff object. The SenderName property is a null-terminated string that contains the name of the user who queued the fax transmission.'
-ms.assetid: '2dad9af7-073b-4434-88db-d0b32b43b972'
-title: 'FaxTiff.SenderName property'
+---
+Description: Retrieves the SenderName property for a FaxTiff object. The SenderName property is a null-terminated string that contains the name of the user who queued the fax transmission.
+ms.assetid: 2dad9af7-073b-4434-88db-d0b32b43b972
+title: FaxTiff.SenderName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.SenderName property
@@ -61,7 +66,7 @@ The **get\_SenderName** method allocates the memory required for the buffer poin
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

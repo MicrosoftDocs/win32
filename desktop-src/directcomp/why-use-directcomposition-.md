@@ -1,8 +1,16 @@
 ---
 title: Why use DirectComposition
 description: This topic describes the capabilities and benefits of Microsoft DirectComposition.
-ms.assetid: 'D597E737-24A1-49E9-8861-9DDD6D7FF2F8'
-keywords: ["Why use DirectComposition", "reasons to use DirectComposition", "DirectComposition capabilities and benefits"]
+ms.assetid: D597E737-24A1-49E9-8861-9DDD6D7FF2F8
+keywords:
+- Why use DirectComposition
+- reasons to use DirectComposition
+- DirectComposition capabilities and benefits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Why use DirectComposition?

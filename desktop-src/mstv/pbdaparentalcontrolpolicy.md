@@ -1,8 +1,9 @@
 ---
 title: PBDAParentalControlPolicy enumeration
 description: Contains flags that describe parental control policy.
-ms.assetid: 'bfd9da34-50e4-4e67-a17e-9f6366e5ef46'
-keywords: ["PBDAParentalControlPolicy enumeration Microsoft TV Technologies"]
+ms.assetid: bfd9da34-50e4-4e67-a17e-9f6366e5ef46
+keywords:
+- PBDAParentalControlPolicy enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBDAParentalControlPolicy enumeration
@@ -22,8 +28,8 @@ Contains flags that describe parental control policy.
 
 ```C++
 typedef enum  { 
-  PBDAParentalControlGeneralPolicy   = 0,
-  PBDAParentalControlLiveOnlyPolicy  = 1
+  PBDAParentalControlGeneralPolicy   = 0,
+  PBDAParentalControlLiveOnlyPolicy  = 1
 } PBDAParentalControlPolicy;
 ```
 
@@ -53,15 +59,15 @@ The policy applies only while the content is being recorded.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

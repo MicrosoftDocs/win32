@@ -1,14 +1,20 @@
 ---
 title: dot
 description: Returns the dot product of two vectors.
-ms.assetid: 'ad24c06c-0b40-4dc5-a2b9-1d5438635ed8'
-keywords: ["dot HLSL"]
+ms.assetid: ad24c06c-0b40-4dc5-a2b9-1d5438635ed8
+keywords:
+- dot HLSL
 topic_type:
 - apiref
 api_name:
 - dot
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dot
@@ -22,7 +28,7 @@ Returns the dot product of two vectors.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Returns the dot product of two vectors.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The dot product of the *x* parameter and the *y* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -77,9 +83,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A brush is a graphics tool that applications use to paint the interior of polygons, ellipses, and paths.'
-ms.assetid: '2e15376d-6b4c-41c5-aef8-0dbb91b81505'
+Description: A brush is a graphics tool that applications use to paint the interior of polygons, ellipses, and paths.
+ms.assetid: 2e15376d-6b4c-41c5-aef8-0dbb91b81505
 title: Brushes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Brushes

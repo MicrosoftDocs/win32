@@ -1,7 +1,12 @@
 ---
 title: Using Custom Draw
 description: This section contains examples that demonstrate how to implement custom draw.
-ms.assetid: 'ab2a8930-1ee1-4b9f-bd3e-4b34df84957b'
+ms.assetid: ab2a8930-1ee1-4b9f-bd3e-4b34df84957b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Custom Draw
@@ -70,7 +75,7 @@ subitem and return CDRF_NEWFONT.*/
 
 
 
-The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification has the **dwDrawStage** member of the [**NMCUSTOMDRAW**](nmcustomdraw.md) structure set to **CDDS\_PREPAINT**. The handler returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md#cdrf-notifyitemdraw) to indicate that it wishes to modify one or more items individually.
+The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification has the **dwDrawStage** member of the [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master) structure set to **CDDS\_PREPAINT**. The handler returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md#cdrf-notifyitemdraw) to indicate that it wishes to modify one or more items individually.
 
 If [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md#cdrf-notifyitemdraw) was returned in the previous step, the next [NM\_CUSTOMDRAW](nm-customdraw.md) notification has **dwDrawStage** set to **CDDS\_ITEMPREPAINT**. The handler retrieves the current color and font values. At this point, you can specify new values for small icon, large icon, and list modes. If the control is in report mode, you can also specify new values that will apply to all subitems of the item. If you have changed anything, return [**CDRF\_NEWFONT**](cdrf-constants.md#cdrf-newfont). If the control is in report mode and you want to handle the subitems individually, return **CDRF\_NOTIFYSUBITEMDRAW**.
 

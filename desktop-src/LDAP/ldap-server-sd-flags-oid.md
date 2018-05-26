@@ -4,11 +4,12 @@ description: Used to pass flags to the server to control various security descri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '195a3e91-32ea-41a6-9227-a7372da7f07b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 195a3e91-32ea-41a6-9227-a7372da7f07b
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_SD_FLAGS_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_SD_FLAGS_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_SD\_FLAGS\_OID control code
 
 The LDAP\_SERVER\_SD\_FLAGS\_OID control is used to pass flags to the server to control various security descriptor results.
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows.
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows.
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_SD_FLAGS_OID;
@@ -45,7 +49,7 @@ LDAP\_SERVER\_SD\_FLAGS\_OID, defined as "1.2.840.113556.1.4.801".
 **ldctl\_value**
 </dt> <dd>
 
-Specifies a BER-encoded sequence of parameters that enables the application to specify various descriptor flags. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the flag data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+Specifies a BER-encoded sequence of parameters that enables the application to specify various descriptor flags. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the flag data and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -66,7 +70,7 @@ Sequence {
 }
 ```
 
-The [**ber\_printf**](ber-printf.md) function is used to create the sequence data. The flags portion contains the descriptor options to include. The following example code shows how to format the sequence data.
+The [**ber\_printf**](/windows/previous-versions/Winber/nf-winber-ber_printf?branch=master) function is used to create the sequence data. The flags portion contains the descriptor options to include. The following example code shows how to format the sequence data.
 
 
 ```C++
@@ -125,7 +129,7 @@ The security information flags indicate which security descriptor parts to retri
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -133,8 +137,8 @@ The security information flags indicate which security descriptor parts to retri
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
@@ -146,15 +150,15 @@ The security information flags indicate which security descriptor parts to retri
 [Data Structures](data-structures.md)
 </dt> <dt>
 
-[**LDAPMessage**](ldapmessage.md)
+[**LDAPMessage**](/windows/previous-versions/Winldap/ns-winldap-ldapmsg?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

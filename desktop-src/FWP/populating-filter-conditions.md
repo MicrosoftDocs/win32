@@ -1,7 +1,12 @@
 ---
 title: Populating Filter Conditions
 description: Following sample code demonstrates how to populate filter conditions used by a server application to find filters and events that affect it.
-ms.assetid: '6c7c8d55-2cd4-45fe-ad6b-e568941d6765'
+ms.assetid: 6c7c8d55-2cd4-45fe-ad6b-e568941d6765
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Populating Filter Conditions

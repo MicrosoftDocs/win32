@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS IsHeartbeating property
 description: Determines whether the virtual machine has a heartbeat.
-ms.assetid: 'b1697a7b-6119-47aa-b261-6009f5287993'
-keywords: ["IsHeartbeating property Virtual PC", "IsHeartbeating property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , IsHeartbeating property"]
+ms.assetid: b1697a7b-6119-47aa-b261-6009f5287993
+keywords:
+- IsHeartbeating property Virtual PC
+- IsHeartbeating property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , IsHeartbeating property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::IsHeartbeating property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether the virtual machine has a heartbeat.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsHeartbeating(
-  [out, retval] VARIANT_BOOL *heartBeating
+  [out, retval] VARIANT_BOOL *heartBeating
 );
 ```
 
@@ -69,7 +77,7 @@ By default, a virtual machine produces ten heartbeat ticks per minute. If no hea
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -77,9 +85,9 @@ By default, a virtual machine produces ten heartbeat ticks per minute. If no hea
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -93,9 +101,9 @@ By default, a virtual machine produces ten heartbeat ticks per minute. If no hea
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

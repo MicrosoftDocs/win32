@@ -1,7 +1,12 @@
 ---
 title: Suballocation Within Buffers
 description: Buffers have all the features necessary in D3D12 for applications to transfer a large range of transient data from the CPU to the GPU. This section covers four common scenarios for the use and management of resources and buffers.
-ms.assetid: '359E377A-8E16-4BB5-9055-09617335AB57'
+ms.assetid: 359E377A-8E16-4BB5-9055-09617335AB57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Suballocation Within Buffers
@@ -23,7 +28,7 @@ Similar to D3D11, applications in D3D12 still need to declare the usage of memor
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ Similar to D3D11, applications in D3D12 still need to declare the usage of memor
 [Memory Management](memory-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

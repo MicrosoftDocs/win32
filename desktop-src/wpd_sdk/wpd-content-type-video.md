@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_VIDEO'
-ms.assetid: 'd4a6bd98-c28e-487b-95cc-2c73cd44e3b5'
-title: 'WPD\_CONTENT\_TYPE\_VIDEO'
+Description: WPD\_CONTENT\_TYPE\_VIDEO
+ms.assetid: d4a6bd98-c28e-487b-95cc-2c73cd44e3b5
+title: WPD\_CONTENT\_TYPE\_VIDEO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_VIDEO

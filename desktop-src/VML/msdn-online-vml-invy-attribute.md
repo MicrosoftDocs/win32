@@ -1,7 +1,12 @@
 ---
 title: VML InvY Attribute
 description: VML InvY Attribute
-ms.assetid: '6c8c51ab-88ce-40b2-add7-1152e125ad8b'
+ms.assetid: 6c8c51ab-88ce-40b2-add7-1152e125ad8b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML InvY Attribute

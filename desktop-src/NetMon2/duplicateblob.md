@@ -1,7 +1,12 @@
 ---
-Description: 'The DuplicateBlob function copies a specific BLOB.'
-ms.assetid: 'd2478f53-328c-4799-890c-7849ce1f22e9'
+Description: The DuplicateBlob function copies a specific BLOB.
+ms.assetid: d2478f53-328c-4799-890c-7849ce1f22e9
 title: DuplicateBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DuplicateBlob function
@@ -13,8 +18,8 @@ The **DuplicateBlob** function copies a specific BLOB.
 
 ```C++
 DWORD DuplicateBlob(
-  _In_  HBLOB hSrcBlob,
-  _Out_ HBLOB *hBlobThatWillBeCreated
+  _In_  HBLOB hSrcBlob,
+  _Out_ HBLOB *hBlobThatWillBeCreated
 );
 ```
 
@@ -50,8 +55,8 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -68,9 +73,9 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 [DestroyBlob](destroyblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

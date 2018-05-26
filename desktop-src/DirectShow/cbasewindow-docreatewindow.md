@@ -1,7 +1,12 @@
 ---
-Description: 'The DoCreateWindow method creates the window.'
-ms.assetid: 'bbe38a71-bbf7-4380-96a3-074b992a1d1e'
-title: 'CBaseWindow.DoCreateWindow method'
+Description: The DoCreateWindow method creates the window.
+ms.assetid: bbe38a71-bbf7-4380-96a3-074b992a1d1e
+title: CBaseWindow.DoCreateWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.DoCreateWindow method
@@ -47,9 +52,9 @@ The [**CBaseWindow::PrepareWindow**](cbasewindow-preparewindow.md) method calls 
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

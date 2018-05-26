@@ -1,7 +1,12 @@
 ---
 title: Constants
 description: This section contains reference information about the Magnification API constants.
-ms.assetid: '4AF46B70-9120-47B6-B824-0410805DA89D'
+ms.assetid: 4AF46B70-9120-47B6-B824-0410805DA89D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants
@@ -18,7 +23,7 @@ This section contains reference information about the Magnification API constant
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -27,9 +32,9 @@ This section contains reference information about the Magnification API constant
 [Reference](entry-magapi-ref.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

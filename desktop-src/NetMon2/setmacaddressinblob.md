@@ -1,7 +1,12 @@
 ---
-Description: 'The SetMacAddressInBlob function sets the requested MAC address of a BLOB.'
-ms.assetid: 'f44d0cec-ced7-4d2a-a58e-aeb476bfe800'
+Description: The SetMacAddressInBlob function sets the requested MAC address of a BLOB.
+ms.assetid: f44d0cec-ced7-4d2a-a58e-aeb476bfe800
 title: SetMacAddressInBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetMacAddressInBlob function
@@ -13,11 +18,11 @@ The **SetMacAddressInBlob** function sets the requested MAC address of a BLOB.
 
 ```C++
 DWORD SetMacAddressInBlob(
-  _In_       HBLOB hBlob,
-  _In_ const char  *pOwnerName,
-  _In_ const char  *pCategoryName,
-  _In_ const char  *pTagName,
-  _In_ const BYTE  *pMacAddress
+  _In_       HBLOB hBlob,
+  _In_ const char  *pOwnerName,
+  _In_ const char  *pCategoryName,
+  _In_ const char  *pTagName,
+  _In_ const BYTE  *pMacAddress
 );
 ```
 
@@ -74,8 +79,8 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -113,9 +118,9 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 [SetStringInBlob](setstringinblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

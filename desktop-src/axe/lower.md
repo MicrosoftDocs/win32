@@ -1,14 +1,20 @@
 ---
 title: Lower element
 description: Indicates that lower values are better than higher.
-ms.assetid: '9AD78377-7566-4AA4-A0A3-7D1A17699C6E'
-keywords: ["Lower element Access Execution Engine"]
+ms.assetid: 9AD78377-7566-4AA4-A0A3-7D1A17699C6E
+keywords:
+- Lower element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Lower
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lower element

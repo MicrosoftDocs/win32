@@ -1,14 +1,18 @@
 ---
 title: Using the MMCCtrl Control
-description: To use the MMCCtrl control on a custom taskpad's DHTML page, embed the object using the object tag, placing it between the head and /head tags.
+description: To use the MMCCtrl control on a custom taskpads DHTML page, embed the object using the object tag, placing it between the head and /head tags.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e4223199-0c3f-4d62-8418-a19d180a963a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e4223199-0c3f-4d62-8418-a19d180a963a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Using the MMCCtrl Control"]
+keywords:
+- Using the MMCCtrl Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the MMCCtrl Control

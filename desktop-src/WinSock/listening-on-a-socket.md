@@ -1,7 +1,12 @@
 ---
-Description: 'After the socket is bound to an IP address and port on the system, the server must then listen on that IP address and port for incoming connection requests.'
-ms.assetid: '83c9f0e7-2e6d-449b-8d97-3d13154112cd'
+Description: After the socket is bound to an IP address and port on the system, the server must then listen on that IP address and port for incoming connection requests.
+ms.assetid: 83c9f0e7-2e6d-449b-8d97-3d13154112cd
 title: Listening on a Socket
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listening on a Socket
@@ -10,7 +15,7 @@ After the socket is bound to an IP address and port on the system, the server mu
 
 ## To listen on a socket
 
-Call the [**listen**](listen-2.md) function, passing as parameters the created socket and a value for the *backlog*, maximum length of the queue of pending connections to accept. In this example, the *backlog* parameter was set to **SOMAXCONN**. This value is a special constant that instructs the Winsock provider for this socket to allow a maximum reasonable number of pending connections in the queue. Check the return value for general errors.
+Call the [**listen**](/windows/win32/Winsock2/nf-winsock2-listen?branch=master) function, passing as parameters the created socket and a value for the *backlog*, maximum length of the queue of pending connections to accept. In this example, the *backlog* parameter was set to **SOMAXCONN**. This value is a special constant that instructs the Winsock provider for this socket to allow a maximum reasonable number of pending connections in the queue. Check the return value for general errors.
 
 
 ```C++

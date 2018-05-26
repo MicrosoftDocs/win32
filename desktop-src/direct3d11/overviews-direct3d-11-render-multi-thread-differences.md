@@ -1,14 +1,19 @@
 ---
 title: Threading Differences between Direct3D Versions
 description: Many multi-threaded programming models make use of synchronization primitives (such as mutexes) to create critical sections and prevent code from being accessed by more than one thread at a time.
-ms.assetid: '0c4f984e-4dd0-4714-b911-592ca86d5dc0'
+ms.assetid: 0c4f984e-4dd0-4714-b911-592ca86d5dc0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Threading Differences between Direct3D Versions
 
 Many multi-threaded programming models make use of synchronization primitives (such as mutexes) to create critical sections and prevent code from being accessed by more than one thread at a time.
 
-However, the resource creation methods of the [**ID3D11Device**](id3d11device.md) interface were designed to be re-entrant, without requiring synchronization primitives and critical sections. As a result, the resource creation methods are efficient and easy to use.
+However, the resource creation methods of the [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) interface were designed to be re-entrant, without requiring synchronization primitives and critical sections. As a result, the resource creation methods are efficient and easy to use.
 
 
 
@@ -18,7 +23,7 @@ However, the resource creation methods of the [**ID3D11Device**](id3d11device.md
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -27,9 +32,9 @@ However, the resource creation methods of the [**ID3D11Device**](id3d11device.md
 [MultiThreading](overviews-direct3d-11-render-multi-thread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

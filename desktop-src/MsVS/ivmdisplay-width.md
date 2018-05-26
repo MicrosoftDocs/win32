@@ -1,8 +1,13 @@
 ---
 title: IVMDisplay Width property
-description: The Width property contains the current width, in pixels, of the virtual machine's display.
-ms.assetid: 'b9a694cb-035c-4574-a8c3-30073d57dc19'
-keywords: ["Width property Virtual Server", "Width property Virtual Server , IVMDisplay interface", "IVMDisplay interface Virtual Server , Width property", "Width property Virtual Server , VMDisplay interface", "VMDisplay interface Virtual Server , Width property"]
+description: The Width property contains the current width, in pixels, of the virtual machines display.
+ms.assetid: b9a694cb-035c-4574-a8c3-30073d57dc19
+keywords:
+- Width property Virtual Server
+- Width property Virtual Server , IVMDisplay interface
+- IVMDisplay interface Virtual Server , Width property
+- Width property Virtual Server , VMDisplay interface
+- VMDisplay interface Virtual Server , Width property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::Width property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Width(
-  [out] long *displayPixelWidth
+  [out] long *displayPixelWidth
 );
 ```
 
@@ -78,8 +88,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -91,9 +101,9 @@ This property value is read-only.
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

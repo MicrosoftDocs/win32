@@ -1,8 +1,24 @@
 ---
 title: Playlists and the MediaCollection Object
 description: Playlists and the MediaCollection Object
-ms.assetid: '3c98ceed-2545-4774-998b-c1db0d172a81'
-keywords: ["Windows Media Player,playlists", "Windows Media Player object model,playlists", "object model,playlists", "Windows Media Player Mobile,playlists", "Windows Media Player ActiveX control,playlists", "Windows Media Player Mobile ActiveX control,playlists", "ActiveX control,playlists", "playlists,MediaCollection object", "metafile playlists,MediaCollection object", "Windows Media metafile playlists,MediaCollection object", "MediaCollection object"]
+ms.assetid: 3c98ceed-2545-4774-998b-c1db0d172a81
+keywords:
+- Windows Media Player,playlists
+- Windows Media Player object model,playlists
+- object model,playlists
+- Windows Media Player Mobile,playlists
+- Windows Media Player ActiveX control,playlists
+- Windows Media Player Mobile ActiveX control,playlists
+- ActiveX control,playlists
+- playlists,MediaCollection object
+- metafile playlists,MediaCollection object
+- Windows Media metafile playlists,MediaCollection object
+- MediaCollection object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlists and the MediaCollection Object

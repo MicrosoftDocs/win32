@@ -1,7 +1,12 @@
 ---
 title: Components Object
 description: Components Object
-ms.assetid: '6d779095-12f9-4e00-a25f-0a840f5149fa'
+ms.assetid: 6d779095-12f9-4e00-a25f-0a840f5149fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components Object
@@ -12,7 +17,7 @@ The **Components** object represents a collection of components.
 
 |                           |                                    |
 |---------------------------|------------------------------------|
-| Interfaces                | [**IComponents**](icomponents.md) |
+| Interfaces                | [**IComponents**](/windows/previous-versions/tuner/nn-tuner-icomponents?branch=master) |
 | Outgoing Event Interfaces | None                               |
 | CLSID                     | Not applicable                     |
 
@@ -26,7 +31,7 @@ Each tune request has a **Components** collection. The collection contains zero 
 
 Component information may be filled in when the Guide Store Loader initially creates the tune request, or it may not be known until the program stream is being captured by the hardware and the Transport Information Filter (TIF) has examined the PSI tables. In either case, after a tune request has been submitted, the components collection is updated by the TIF. An application can examine the tune request after submitting it, to discover possible additional information about the program stream.
 
-To get a **Components** object, call the [**ITuneRequest::get\_Components**](itunerequest-get-components.md) method on a tune request. The **Components** object cannot be created with **CoCreateInstance**.
+To get a **Components** object, call the [**ITuneRequest::get\_Components**](/windows/previous-versions/tuner/nf-tuner-itunerequest-get_components?branch=master) method on a tune request. The **Components** object cannot be created with **CoCreateInstance**.
 
 ## Related topics
 

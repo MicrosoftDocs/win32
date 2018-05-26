@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerSettingSubgroup class
 description: Represents a power setting subgroup in the system.
-ms.assetid: 'defe65c5-6c2d-43ad-bbd5-965c62bdd4ad'
-keywords: ["Win32_PowerSettingSubgroup class", "Win32_PowerSettingSubgroup class, described"]
+ms.assetid: defe65c5-6c2d-43ad-bbd5-965c62bdd4ad
+keywords:
+- Win32_PowerSettingSubgroup class
+- Win32_PowerSettingSubgroup class, described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - PowerWmiProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerSettingSubgroup class
@@ -93,17 +100,17 @@ The **InstanceID** string must be in the following format: "Microsoft:PowerSetti
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
+| Minimum supported client<br/> | Windows 7<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>PowerWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PowerWmiProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

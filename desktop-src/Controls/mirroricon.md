@@ -1,8 +1,9 @@
 ---
 title: MirrorIcon function
 description: Reverses (mirrors) icons so that they are displayed correctly on a mirrored device context.
-ms.assetid: 'bca87037-1789-466b-9be0-914966fdad31'
-keywords: ["MirrorIcon function Windows Controls"]
+ms.assetid: bca87037-1789-466b-9be0-914966fdad31
+keywords:
+- MirrorIcon function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Comctl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MirrorIcon function
 
-\[**MirrorIcon** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions.\]
+\[**MirrorIcon** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions.\]
 
 Reverses (mirrors) icons so that they are displayed correctly on a mirrored device context.
 
@@ -24,8 +30,8 @@ Reverses (mirrors) icons so that they are displayed correctly on a mirrored devi
 
 ```C++
 BOOL WINAPI MirrorIcon(
-  _Inout_opt_ HICON *phIconSmall,
-  _Inout_opt_ HICON *phIconLarge
+  _Inout_opt_ HICON *phIconSmall,
+  _Inout_opt_ HICON *phIconLarge
 );
 ```
 
@@ -69,15 +75,15 @@ Type: **[**BOOL**](https://msdn.microsoft.com/library/windows/desktop/aa383751#b
 
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                            |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 5.81 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

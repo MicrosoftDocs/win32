@@ -1,7 +1,12 @@
 ---
 title: Common Control Versions
 description: This topic lists the available versions of the Common Control library (ComCtl32.dll), describes how to identify the version that your application is using, and explains how to target your application for a specific version.
-ms.assetid: '1B524A91-B433-4968-9546-8A6AFB67E89C'
+ms.assetid: 1B524A91-B433-4968-9546-8A6AFB67E89C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Control Versions
@@ -62,26 +67,26 @@ Ongoing enhancements to common controls have resulted in the need to extend many
 
 |                               |                                                                                              |
 |-------------------------------|----------------------------------------------------------------------------------------------|
-| HDITEM\_V1\_SIZE              | The size of the [**HDITEM**](hditem.md) structure in version 4.0.                           |
-| IMAGELISTDRAWPARAMS\_V3\_SIZE | The size of the [**IMAGELISTDRAWPARAMS**](imagelistdrawparams.md) structure in version 5.9. |
-| LVCOLUMN\_V1\_SIZE            | The size of the [**LVCOLUMN**](lvcolumn.md) structure in version 4.0.                       |
-| LVGROUP\_V5\_SIZE             | The size of the [**LVGROUP**](lvgroup.md) structure in version 6.0.                         |
-| LVHITTESTINFO\_V1\_SIZE       | The size of the [**LVHITTESTINFO**](lvhittestinfo.md) structure in version 4.0.             |
-| LVITEM\_V1\_SIZE              | The size of the [**LVITEM**](lvitem.md) structure in version 4.0.                           |
-| LVITEM\_V5\_SIZE              | The size of the [**LVITEM**](lvitem.md) structure in version 6.0.                           |
-| LVTILEINFO\_V5\_SIZE          | The size of the [**LVTILEINFO**](lvtileinfo.md) structure in version 6.0.                   |
-| MCHITTESTINFO\_V1\_SIZE       | The size of the [**MCHITTESTINFO**](mchittestinfo.md) structure in version 4.0.             |
-| NMLVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMLVCUSTOMDRAW**](nmlvcustomdraw.md) structure in version 4.7.           |
-| NMTTDISPINFO\_V1\_SIZE        | The size of the [**NMTTDISPINFO**](nmttdispinfo.md) structure in version 4.0.               |
-| NMTVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMTVCUSTOMDRAW**](nmtvcustomdraw.md) structure in version 4.7.           |
-| PROPSHEETHEADER\_V1\_SIZE     | The size of the [**PROPSHEETHEADER**](propsheetheader.md) structure in version 4.0.         |
-| PROPSHEETPAGE\_V1\_SIZE       | The size of the [**PROPSHEETPAGE**](propsheetpage.md) structure in version 4.0.             |
-| REBARBANDINFO\_V3\_SIZE       | The size of the [**REBARBANDINFO**](rebarbandinfo.md) structure in version 4.7.             |
-| REBARBANDINFO\_V6\_SIZE       | The size of the [**REBARBANDINFO**](rebarbandinfo.md) structure in version 6.0.             |
-| TTTOOLINFO\_V1\_SIZE          | The size of the [**TOOLINFO**](toolinfo.md) structure in version 4.0.                       |
-| TTTOOLINFO\_V2\_SIZE          | The size of the [**TOOLINFO**](toolinfo.md) structure in version 4.7.                       |
-| TTTOOLINFO\_V3\_SIZE          | The size of the [**TOOLINFO**](toolinfo.md) structure in version 6.0.                       |
-| TVINSERTSTRUCT\_V1\_SIZE      | The size of the [**TVINSERTSTRUCT**](tvinsertstruct.md) structure in version 4.0.           |
+| HDITEM\_V1\_SIZE              | The size of the [**HDITEM**](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master) structure in version 4.0.                           |
+| IMAGELISTDRAWPARAMS\_V3\_SIZE | The size of the [**IMAGELISTDRAWPARAMS**](/windows/win32/commoncontrols/ns-commctrl-_imagelistdrawparams?branch=master) structure in version 5.9. |
+| LVCOLUMN\_V1\_SIZE            | The size of the [**LVCOLUMN**](/windows/win32/Commctrl/ns-commctrl-taglvcolumna?branch=master) structure in version 4.0.                       |
+| LVGROUP\_V5\_SIZE             | The size of the [**LVGROUP**](/windows/win32/Commctrl/ns-commctrl-taglvgroup?branch=master) structure in version 6.0.                         |
+| LVHITTESTINFO\_V1\_SIZE       | The size of the [**LVHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-taglvhittestinfo?branch=master) structure in version 4.0.             |
+| LVITEM\_V1\_SIZE              | The size of the [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure in version 4.0.                           |
+| LVITEM\_V5\_SIZE              | The size of the [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure in version 6.0.                           |
+| LVTILEINFO\_V5\_SIZE          | The size of the [**LVTILEINFO**](/windows/win32/Commctrl/ns-commctrl-taglvtileinfo?branch=master) structure in version 6.0.                   |
+| MCHITTESTINFO\_V1\_SIZE       | The size of the [**MCHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-mchittestinfo?branch=master) structure in version 4.0.             |
+| NMLVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMLVCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmlvcustomdraw?branch=master) structure in version 4.7.           |
+| NMTTDISPINFO\_V1\_SIZE        | The size of the [**NMTTDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmttdispinfoa?branch=master) structure in version 4.0.               |
+| NMTVCUSTOMDRAW\_V3\_SIZE      | The size of the [**NMTVCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmtvcustomdraw?branch=master) structure in version 4.7.           |
+| PROPSHEETHEADER\_V1\_SIZE     | The size of the [**PROPSHEETHEADER**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master) structure in version 4.0.         |
+| PROPSHEETPAGE\_V1\_SIZE       | The size of the [**PROPSHEETPAGE**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) structure in version 4.0.             |
+| REBARBANDINFO\_V3\_SIZE       | The size of the [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) structure in version 4.7.             |
+| REBARBANDINFO\_V6\_SIZE       | The size of the [**REBARBANDINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarbandinfoa?branch=master) structure in version 6.0.             |
+| TTTOOLINFO\_V1\_SIZE          | The size of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure in version 4.0.                       |
+| TTTOOLINFO\_V2\_SIZE          | The size of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure in version 4.7.                       |
+| TTTOOLINFO\_V3\_SIZE          | The size of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure in version 6.0.                       |
+| TVINSERTSTRUCT\_V1\_SIZE      | The size of the [**TVINSERTSTRUCT**](/windows/win32/Commctrl/ns-commctrl-tagtvinsertstructa?branch=master) structure in version 4.0.           |
 
 
 

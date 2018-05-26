@@ -1,8 +1,11 @@
 ---
 title: ITransformProperty get\_EvaluationFunction method
 description: The get\_EvaluationFunction method retrieves the evaluation function used for a transform.
-ms.assetid: '7ef9740c-6822-4acc-b113-98c12d1d4e6f'
-keywords: ["get_EvaluationFunction method Windows Movie Maker and DVD Maker", "get_EvaluationFunction method Windows Movie Maker and DVD Maker , ITransformProperty interface", "ITransformProperty interface Windows Movie Maker and DVD Maker , get_EvaluationFunction method"]
+ms.assetid: 7ef9740c-6822-4acc-b113-98c12d1d4e6f
+keywords:
+- get_EvaluationFunction method Windows Movie Maker and DVD Maker
+- get_EvaluationFunction method Windows Movie Maker and DVD Maker , ITransformProperty interface
+- ITransformProperty interface Windows Movie Maker and DVD Maker , get_EvaluationFunction method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperty::get\_EvaluationFunction method
@@ -25,7 +33,7 @@ The **get\_EvaluationFunction** method retrieves the evaluation function used fo
 
 ```C++
 HRESULT get_EvaluationFunction(
-  [out] EVALUATION_CURVE_TYPE *peFunction
+  [out] EVALUATION_CURVE_TYPE *peFunction
 );
 ```
 
@@ -56,8 +64,8 @@ The default curve value, if not specified, is StepEvaluation.
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -70,9 +78,9 @@ The default curve value, if not specified, is StepEvaluation.
 [**ITransformProperty Interface**](itransformproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

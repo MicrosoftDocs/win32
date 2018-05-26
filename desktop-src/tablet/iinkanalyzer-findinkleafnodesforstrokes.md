@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the ink leaf nodes that contain the specified strokes.'
-ms.assetid: 'd9ebc57d-63f5-4175-8bb6-a688b98823d4'
-title: 'IInkAnalyzer::FindInkLeafNodesForStrokes method'
+Description: Retrieves the ink leaf nodes that contain the specified strokes.
+ms.assetid: d9ebc57d-63f5-4175-8bb6-a688b98823d4
+title: IInkAnalyzerFindInkLeafNodesForStrokes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::FindInkLeafNodesForStrokes method
@@ -13,9 +18,9 @@ Retrieves the ink leaf nodes that contain the specified strokes.
 
 ```C++
 HRESULT FindInkLeafNodesForStrokes(
-  [in]  ULONG         ulStrokeIdsCount,
-  [in]  LONG          *plStrokeIds,
-  [out] IContextNodes **ppContextNodesFound
+  [in]  ULONG         ulStrokeIdsCount,
+  [in]  LONG          *plStrokeIds,
+  [out] IContextNodes **ppContextNodesFound
 );
 ```
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodesFound* when you no longer need to use the object.
 
- 
+ 
 
 Leaf nodes do not contain child nodes. Ink nodes contain stroke data. Examples of ink leaf nodes are InkWord, InkDrawing, andInkBullet [**IContextNode**](icontextnode.md) objects. For more information, see [Context Node Types](context-node-types.md).
 
@@ -67,7 +72,7 @@ If no nodes contain the specified strokes, an empty [**IContextNodes**](icontext
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -108,9 +113,9 @@ If no nodes contain the specified strokes, an empty [**IContextNodes**](icontext
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

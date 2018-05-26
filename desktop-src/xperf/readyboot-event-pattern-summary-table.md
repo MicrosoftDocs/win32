@@ -1,7 +1,12 @@
 ---
 title: ReadyBoot Event Pattern Summary Table
 description: ReadyBoot Event Pattern Summary Table
-ms.assetid: '0923372c-3666-4e83-834c-ffefc7316837'
+ms.assetid: 0923372c-3666-4e83-834c-ffefc7316837
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyBoot Event Pattern Summary Table

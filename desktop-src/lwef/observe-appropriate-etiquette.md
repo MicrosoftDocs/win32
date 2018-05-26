@@ -1,7 +1,12 @@
 ---
 title: Observe Appropriate Etiquette
 description: Observe Appropriate Etiquette
-ms.assetid: '7dcc4907-f38c-4706-982e-7792eef27c7a'
+ms.assetid: 7dcc4907-f38c-4706-982e-7792eef27c7a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Observe Appropriate Etiquette

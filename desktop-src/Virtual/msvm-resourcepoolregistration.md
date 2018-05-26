@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ResourcePoolRegistration class
 description: Registers a service that provides global resource pool-related objects.
-ms.assetid: 'b6b26a65-b3cd-4305-96ce-e21721d8fc8c'
-keywords: ["Msvm_ResourcePoolRegistration class Hyper-V", "Msvm_ResourcePoolRegistration class Hyper-V , described"]
+ms.assetid: b6b26a65-b3cd-4305-96ce-e21721d8fc8c
+keywords:
+- Msvm_ResourcePoolRegistration class Hyper-V
+- Msvm_ResourcePoolRegistration class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourcePoolRegistration class
@@ -28,7 +35,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ResourcePoolRegistration : Msvm_VirtualizationComponentRegistration
 {
   Msvm_ResourceTypeDefinition REF ResourceType;
-  Msvm_ResourcePoolComponent  REF Component;
+  Msvm_ResourcePoolComponent  REF Component;
 };
 ```
 
@@ -89,9 +96,9 @@ Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UA
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -107,9 +114,9 @@ Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UA
 [Profile Registration Classes](profile-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

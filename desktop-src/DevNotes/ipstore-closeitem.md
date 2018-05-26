@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes a specified data item from protected storage.'
-ms.assetid: '74919354-5e31-4ab5-9326-9f9aae206bd7'
-title: 'IPStore::CloseItem method'
+---
+Description: Closes a specified data item from protected storage.
+ms.assetid: 74919354-5e31-4ab5-9326-9f9aae206bd7
+title: IPStoreCloseItem method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::CloseItem method

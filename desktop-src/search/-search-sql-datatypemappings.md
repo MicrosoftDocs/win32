@@ -1,7 +1,12 @@
 ---
-Description: 'The following table lists the mappings between variant data types and OLE DB data types.'
-ms.assetid: '213458bf-b847-4ced-8a92-686b4eee6d07'
+Description: The following table lists the mappings between variant data types and OLE DB data types.
+ms.assetid: 213458bf-b847-4ced-8a92-686b4eee6d07
 title: Data Type Mappings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Type Mappings

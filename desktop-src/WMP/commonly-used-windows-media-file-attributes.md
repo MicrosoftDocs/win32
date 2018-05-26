@@ -1,8 +1,24 @@
 ---
 title: Commonly Used Windows Media File Attributes
 description: Commonly Used Windows Media File Attributes
-ms.assetid: '81306424-4a0f-4603-9cb0-152a4af5987f'
-keywords: ["Windows Media Player,file attributes", "Windows Media Player Mobile,file attributes", "Windows Media Player object model,file attributes", "object model,file attributes", "ActiveX control,file attributes", "Windows Media Player ActiveX control,file attributes", "Windows Media Player Mobile ActiveX control,file attributes", "reference for object model,file attributes", "attributes,files", "file attributes", "Windows Media files"]
+ms.assetid: 81306424-4a0f-4603-9cb0-152a4af5987f
+keywords:
+- Windows Media Player,file attributes
+- Windows Media Player Mobile,file attributes
+- Windows Media Player object model,file attributes
+- object model,file attributes
+- ActiveX control,file attributes
+- Windows Media Player ActiveX control,file attributes
+- Windows Media Player Mobile ActiveX control,file attributes
+- reference for object model,file attributes
+- attributes,files
+- file attributes
+- Windows Media files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Commonly Used Windows Media File Attributes

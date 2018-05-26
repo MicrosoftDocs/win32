@@ -1,7 +1,12 @@
 ---
-Description: 'The following functionality has been added in Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.'
-ms.assetid: 'E2D8DA99-4EA2-4847-B699-80A6994C66C0'
-title: 'DXGI 1.2 Improvements'
+Description: The following functionality has been added in Microsoft DirectX Graphics Infrastructure (DXGI) 1.2.
+ms.assetid: E2D8DA99-4EA2-4847-B699-80A6994C66C0
+title: DXGI 1.2 Improvements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI 1.2 Improvements
@@ -24,32 +29,32 @@ You can use the following DXGI 1.2 API for enhanced presentation.
 
 -   [**IDXGIDisplayControl::IsStereoEnabled**](direct3ddxgi.idxgidisplaycontrol_isstereoenabled)
 -   [**IDXGIDisplayControl::SetStereoEnabled**](direct3ddxgi.idxgidisplaycontrol_setstereoenabled)
--   [**IDXGIFactory2::CreateSwapChainForHwnd**](idxgifactory2-createswapchain1.md)
--   [**IDXGIFactory2::CreateSwapChainForCoreWindow**](idxgifactory2-createswapchainforimmersivewindow.md)
--   [**IDXGIFactory2::CreateSwapChainForComposition**](idxgifactory2-createswapchainforcompositionsurface.md)
--   [**IDXGIFactory2::IsWindowedStereoEnabled**](idxgifactory2-iswindowedstereoenabled.md)
+-   [**IDXGIFactory2::CreateSwapChainForHwnd**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd?branch=master)
+-   [**IDXGIFactory2::CreateSwapChainForCoreWindow**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow?branch=master)
+-   [**IDXGIFactory2::CreateSwapChainForComposition**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition?branch=master)
+-   [**IDXGIFactory2::IsWindowedStereoEnabled**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-iswindowedstereoenabled?branch=master)
 -   [**IDXGIFactory2::RegisterStereoStatusWindow**](direct3ddxgi.idxgifactory2_registerstereostatuswindow)
 -   [**IDXGIFactory2::RegisterStereoStatusEvent**](direct3ddxgi.idxgifactory2_registerstereostatusevent)
 -   [**IDXGIFactory2::UnregisterStereoStatus**](direct3ddxgi.idxgifactory2_unregisterstereostatus)
--   [**IDXGIFactory2::RegisterOcclusionStatusWindow**](idxgifactory2-registerocclusionstatuswindow.md)
--   [**IDXGIFactory2::RegisterOcclusionStatusEvent**](idxgifactory2-registerocclusionstatusevent.md)
--   [**IDXGIFactory2::UnregisterOcclusionStatus**](idxgifactory2-unregisterocclusionstatus.md)
--   [**IDXGIOutput1::GetDisplayModeList1**](idxgioutput1-getdisplaymodelist1.md)
--   [**IDXGIOutput1::GetDisplaySurfaceData1**](idxgioutput1-getdisplaysurfacedata1.md)
--   [**IDXGIOutput1::FindClosestMatchingMode1**](idxgioutput1-findclosestmatchingmode1.md)
--   [**IDXGIResource1::CreateSubresourceSurface**](idxgiresource1-createsubresourcesurface.md)
--   [**IDXGISurface2::GetResource**](idxgisurface2-getresource.md)
--   [**IDXGISwapChain1::GetDesc1**](idxgiswapchain1-getdesc1.md)
--   [**IDXGISwapChain1::GetFullscreenDesc**](idxgiswapchain1-getfullscreendesc.md)
--   [**IDXGISwapChain1::GetHwnd**](idxgiswapchain1-gethwnd.md)
--   [**IDXGISwapChain1::GetCoreWindow**](idxgiswapchain1-getimmersivewindow.md)
--   [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md)
--   [**IDXGISwapChain1::IsTemporaryMonoSupported**](idxgiswapchain1-istemporarymonosupported.md)
--   [**IDXGISwapChain1::GetRestrictToOutput**](idxgiswapchain1-getrestricttooutput.md)
--   [**IDXGISwapChain1::SetBackgroundColor**](idxgiswapchain1-setbackgroundcolor.md)
--   [**IDXGISwapChain1::GetBackgroundColor**](idxgiswapchain1-getbackgroundcolor.md)
--   [**IDXGISwapChain1::SetRotation**](idxgiswapchain1-setrotation.md)
--   [**IDXGISwapChain1::GetRotation**](idxgiswapchain1-getrotation.md)
+-   [**IDXGIFactory2::RegisterOcclusionStatusWindow**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatuswindow?branch=master)
+-   [**IDXGIFactory2::RegisterOcclusionStatusEvent**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatusevent?branch=master)
+-   [**IDXGIFactory2::UnregisterOcclusionStatus**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-unregisterocclusionstatus?branch=master)
+-   [**IDXGIOutput1::GetDisplayModeList1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutput1-getdisplaymodelist1?branch=master)
+-   [**IDXGIOutput1::GetDisplaySurfaceData1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutput1-getdisplaysurfacedata1?branch=master)
+-   [**IDXGIOutput1::FindClosestMatchingMode1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutput1-findclosestmatchingmode1?branch=master)
+-   [**IDXGIResource1::CreateSubresourceSurface**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiresource1-createsubresourcesurface?branch=master)
+-   [**IDXGISurface2::GetResource**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgisurface2-getresource?branch=master)
+-   [**IDXGISwapChain1::GetDesc1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getdesc1?branch=master)
+-   [**IDXGISwapChain1::GetFullscreenDesc**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getfullscreendesc?branch=master)
+-   [**IDXGISwapChain1::GetHwnd**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-gethwnd?branch=master)
+-   [**IDXGISwapChain1::GetCoreWindow**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getcorewindow?branch=master)
+-   [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master)
+-   [**IDXGISwapChain1::IsTemporaryMonoSupported**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-istemporarymonosupported?branch=master)
+-   [**IDXGISwapChain1::GetRestrictToOutput**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getrestricttooutput?branch=master)
+-   [**IDXGISwapChain1::SetBackgroundColor**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor?branch=master)
+-   [**IDXGISwapChain1::GetBackgroundColor**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getbackgroundcolor?branch=master)
+-   [**IDXGISwapChain1::SetRotation**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-setrotation?branch=master)
+-   [**IDXGISwapChain1::GetRotation**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-getrotation?branch=master)
 
 For more info about how to use the DXGI 1.2 API for enhanced presentation, see [Enhancing presentation with the flip model, dirty rectangles, and scrolled areas](dxgi-1-2-presentation-improvements.md).
 
@@ -65,15 +70,15 @@ Windows 8 disables standard Windows 2000 Display Driver Model (XDDM) mirror dri
 
 The desktop duplication API consists of the following methods.
 
--   [**IDXGIOutput1::DuplicateOutput**](idxgioutput1-duplicateoutput.md)
--   [**IDXGIOutputDuplication::GetDesc**](idxgioutputduplication-getdesc.md)
--   [**IDXGIOutputDuplication::AcquireNextFrame**](idxgioutputduplication-acquirenextframe.md)
--   [**IDXGIOutputDuplication::GetFrameDirtyRects**](idxgioutputduplication-getframedirtyrects.md)
--   [**IDXGIOutputDuplication::GetFrameMoveRects**](idxgioutputduplication-getframemoverects.md)
--   [**IDXGIOutputDuplication::GetFramePointerShape**](idxgioutputduplication-getframepointershape.md)
--   [**IDXGIOutputDuplication::MapDesktopSurface**](idxgioutputduplication-mapdesktopsurface.md)
--   [**IDXGIOutputDuplication::UnMapDesktopSurface**](idxgioutputduplication-unmapdesktopsurface.md)
--   [**IDXGIOutputDuplication::ReleaseFrame**](idxgioutputduplication-releaseframe.md)
+-   [**IDXGIOutput1::DuplicateOutput**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutput1-duplicateoutput?branch=master)
+-   [**IDXGIOutputDuplication::GetDesc**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getdesc?branch=master)
+-   [**IDXGIOutputDuplication::AcquireNextFrame**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-acquirenextframe?branch=master)
+-   [**IDXGIOutputDuplication::GetFrameDirtyRects**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframedirtyrects?branch=master)
+-   [**IDXGIOutputDuplication::GetFrameMoveRects**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframemoverects?branch=master)
+-   [**IDXGIOutputDuplication::GetFramePointerShape**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-getframepointershape?branch=master)
+-   [**IDXGIOutputDuplication::MapDesktopSurface**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface?branch=master)
+-   [**IDXGIOutputDuplication::UnMapDesktopSurface**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-unmapdesktopsurface?branch=master)
+-   [**IDXGIOutputDuplication::ReleaseFrame**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgioutputduplication-releaseframe?branch=master)
 
 For more info about how to use the desktop duplication API, see [Desktop Duplication API](desktop-dup-api.md).
 
@@ -83,9 +88,9 @@ In previous versions of Windows, apps use continuous polling to determine whethe
 
 You can use the following DXGI 1.2 API and Direct3D 11.1 API to share resources and synchronize events.
 
--   [**IDXGIDevice2::EnqueueSetEvent**](idxgidevice2-enqueuesetevent.md)
--   [**IDXGIResource1::CreateSharedHandle**](idxgiresource1-createsharedhandle.md)
--   [**IDXGIFactory2::GetSharedResourceAdapterLuid**](idxgifactory2-getsharedresourceadapterluid.md)
+-   [**IDXGIDevice2::EnqueueSetEvent**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgidevice2-enqueuesetevent?branch=master)
+-   [**IDXGIResource1::CreateSharedHandle**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiresource1-createsharedhandle?branch=master)
+-   [**IDXGIFactory2::GetSharedResourceAdapterLuid**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-getsharedresourceadapterluid?branch=master)
 -   [**ID3D11Device1::OpenSharedResource1**](direct3d11.id3d11device1_opensharedresource1)
 -   [**ID3D11Device1::OpenSharedResourceByName**](direct3d11.id3d11device1_opensharedresourcebyname)
 -   [**D3D11\_RESOURCE\_MISC\_SHARED\_NTHANDLE**](direct3d11.d3d11_resource_misc_flag#d3d11-resource-misc-shared-nthandle)
@@ -96,10 +101,10 @@ DXGI 1.2 enables an app to offer the video memory of its resources with low over
 
 This DXGI 1.2 feature consists of the following methods.
 
--   [**IDXGIDevice2::OfferResources**](idxgidevice2-offerresources.md)
--   [**IDXGIDevice2::ReclaimResources**](idxgidevice2-reclaimresources.md)
+-   [**IDXGIDevice2::OfferResources**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgidevice2-offerresources?branch=master)
+-   [**IDXGIDevice2::ReclaimResources**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgidevice2-reclaimresources?branch=master)
 
-You can use the [**ID3D11Debug::SetFeatureMask**](direct3d11.id3d11debug_setfeaturemask) method to set feature-mask flags that debug the behavior of the [**IDXGIDevice2::OfferResources**](idxgidevice2-offerresources.md) and [**IDXGIDevice2::ReclaimResources**](idxgidevice2-reclaimresources.md) methods in your app.
+You can use the [**ID3D11Debug::SetFeatureMask**](direct3d11.id3d11debug_setfeaturemask) method to set feature-mask flags that debug the behavior of the [**IDXGIDevice2::OfferResources**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgidevice2-offerresources?branch=master) and [**IDXGIDevice2::ReclaimResources**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgidevice2-reclaimresources?branch=master) methods in your app.
 
 The [Direct3D 11.1 Offer and Reclaim Resources Sample](http://go.microsoft.com/fwlink/p/?linkid=239948) shows how to use these APIs.
 
@@ -109,17 +114,17 @@ Starting with the Windows Display Driver Model (WDDM) 1.2 driver model, the WDDM
 
 This DXGI 1.2 feature consists of the following method.
 
--   [**IDXGIAdapter2::GetDesc2**](idxgiadapter2-getdesc2.md)
+-   [**IDXGIAdapter2::GetDesc2**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiadapter2-getdesc2?branch=master)
 
 ## Debugging APIs
 
 The Windows 8 SDK provides additional debugging capability. You can use the following DXGI APIs from Dxgidebug.dll to debug your app:
 
--   [**DXGIGetDebugInterface**](dxgigetdebuginterface.md)
--   [**IDXGIDebug**](idxgidebug.md)
--   [**IDXGIInfoQueue**](idxgiinfoqueue.md)
+-   [**DXGIGetDebugInterface**](/windows/win32/DXGIDebug/nf-dxgidebug-dxgigetdebuginterface?branch=master)
+-   [**IDXGIDebug**](/windows/win32/DXGIDebug/nn-dxgidebug-idxgidebug?branch=master)
+-   [**IDXGIInfoQueue**](/windows/win32/DXGIDebug/nn-dxgidebug-idxgiinfoqueue?branch=master)
 
-To access [**DXGIGetDebugInterface**](dxgigetdebuginterface.md), call the [**GetModuleHandle**](base.getmodulehandle) function to get Dxgidebug.dll and the [**GetProcAddress**](base.getprocaddress) function to get the address of **DXGIGetDebugInterface**. You can then call **DXGIGetDebugInterface** to obtain the [**IDXGIDebug**](idxgidebug.md) or [**IDXGIInfoQueue**](idxgiinfoqueue.md) interface.
+To access [**DXGIGetDebugInterface**](/windows/win32/DXGIDebug/nf-dxgidebug-dxgigetdebuginterface?branch=master), call the [**GetModuleHandle**](base.getmodulehandle) function to get Dxgidebug.dll and the [**GetProcAddress**](base.getprocaddress) function to get the address of **DXGIGetDebugInterface**. You can then call **DXGIGetDebugInterface** to obtain the [**IDXGIDebug**](/windows/win32/DXGIDebug/nn-dxgidebug-idxgidebug?branch=master) or [**IDXGIInfoQueue**](/windows/win32/DXGIDebug/nn-dxgidebug-idxgiinfoqueue?branch=master) interface.
 
 For info about how to debug DirectX apps remotely, see [Debugging DirectX apps remotely](direct3dtools.debugging_directx_apps_remotely).
 

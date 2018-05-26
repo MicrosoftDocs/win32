@@ -1,7 +1,12 @@
 ---
-Description: 'Contains an object for each COM+ application installed on the local computer. The properties exposed by these objects hold all settings made at the application level.'
-ms.assetid: 'c0c46592-5282-412d-8f54-67637be8218a'
+Description: Contains an object for each COM+ application installed on the local computer. The properties exposed by these objects hold all settings made at the application level.
+ms.assetid: c0c46592-5282-412d-8f54-67637be8218a
 title: Applications collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applications collection
@@ -10,9 +15,9 @@ Contains an object for each COM+ application installed on the local computer. Th
 
 You set properties for components within an application by using the related [**Components**](components.md) collection. You assign roles to an application by using the related [**Roles**](roles.md) collection.
 
-To install components into an application, use methods on the [**COMAdminCatalog**](comadmincatalog.md) object. To install an application from a file or to shut down or export an application, also use methods on the **COMAdminCatalog** object. Otherwise, to create a new application, you can add an object to the **Applications** collection.
+To install components into an application, use methods on the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) object. To install an application from a file or to shut down or export an application, also use methods on the **COMAdminCatalog** object. Otherwise, to create a new application, you can add an object to the **Applications** collection.
 
-This collection supports the [**Add**](icatalogcollection-add.md) and [**Remove**](icatalogcollection-remove.md) methods of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object.
+This collection supports the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) and [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) methods of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -37,7 +42,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [3GigSupportEnabled](#3gigsupportenabled)
 -   [AccessChecksLevel](#accesscheckslevel)
@@ -486,7 +491,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 |                |                                                                                                                                                                      |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A GUID representing the application. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | A GUID representing the application. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                            |
 | Type           | String                                                                                                                                                               |
 | Default        | &lt;Generated&gt;                                                                                                                                                    |
@@ -514,7 +519,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 The Identity property is not enabled for library applications, which run in the client process.
 
-The Password property should be set at the same time as Identity, prior to using [**SaveChanges**](icatalogcollection-savechanges.md), because the password and identity are validated before being saved. If the password and identity get out of sync, the application cannot be launched until they are reset by an administrator.
+The Password property should be set at the same time as Identity, prior to using [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master), because the password and identity are validated before being saved. If the password and identity get out of sync, the application cannot be launched until they are reset by an administrator.
 
 ### ImpersonationLevel
 
@@ -586,7 +591,7 @@ The Password property should be set at the same time as Identity, prior to using
 
 |                |                                                                                                                                                                                                                                      |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The name of the application. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | The name of the application. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                                                                                            |
 | Type           | String                                                                                                                                                                                                                               |
 | Default        | "New Application"                                                                                                                                                                                                                    |
@@ -617,7 +622,7 @@ The Password property should be set at the same time as Identity, prior to using
 
  
 
-Password should be set at the same time as Identity, prior to using [**SaveChanges**](icatalogcollection-savechanges.md), because the password and identity are validated before being saved. If the password and identity get out of sync, the application cannot be launched until they are reset by an administrator.
+Password should be set at the same time as Identity, prior to using [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master), because the password and identity are validated before being saved. If the password and identity get out of sync, the application cannot be launched until they are reset by an administrator.
 
 ### QCAuthenticateMsgs
 

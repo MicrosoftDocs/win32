@@ -1,7 +1,12 @@
 ---
-Description: 'The SMS\_MESSAGE\_TYPES enumeration type describes the content type of a short message service (SMS) message.'
-ms.assetid: '882886a6-ecce-443f-a7e9-2e4e367ad804'
-title: 'SMS\_MESSAGE\_TYPES enumeration'
+Description: The SMS\_MESSAGE\_TYPES enumeration type describes the content type of a short message service (SMS) message.
+ms.assetid: 882886a6-ecce-443f-a7e9-2e4e367ad804
+title: SMS\_MESSAGE\_TYPES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMS\_MESSAGE\_TYPES enumeration
@@ -13,8 +18,8 @@ The **SMS\_MESSAGE\_TYPES** enumeration type describes the content type of a sho
 
 ```C++
 typedef enum SMS_MESSAGE_TYPES { 
-  SMS_TEXT_MESSAGE    = 0,
-  SMS_BINARY_MESSAGE  = 1
+  SMS_TEXT_MESSAGE    = 0,
+  SMS_BINARY_MESSAGE  = 1
 } ;
 ```
 
@@ -59,9 +64,9 @@ This enumeration is used by the [**WPD\_COMMAND\_SMS\_SEND Command**](wpd-comman
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerResourceRecordDS class
 description: Adds a DS resource record.
 audience: developer
-ms.assetid: '8b1dd534-5bd3-4e93-9cf3-92d8851177ed'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8b1dd534-5bd3-4e93-9cf3-92d8851177ed
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerResourceRecordDS class", "PS_DnsServerResourceRecordDS class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerResourceRecordDS class
+- PS_DnsServerResourceRecordDS class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerResourceRecordDS class
@@ -28,18 +34,18 @@ Adds a DS resource record.
 
 ```mof
 uint32 Add(
-  [in]  string                  Name,
-  [in]  string                  CryptoAlgorithm,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 AgeRecord,
-  [in]  string                  Digest,
-  [in]  string                  DigestType,
-  [in]  uint16                  KeyTag,
-  [in]  string                  ComputerName,
-  [in]  string                  ZoneName,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  Name,
+  [in]  string                  CryptoAlgorithm,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 AgeRecord,
+  [in]  string                  Digest,
+  [in]  string                  DigestType,
+  [in]  uint16                  KeyTag,
+  [in]  string                  ComputerName,
+  [in]  string                  ZoneName,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -187,7 +193,7 @@ Specifies the name of a DNS zone. The method adds the record to this zone.
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -205,7 +211,7 @@ Receives and embedded instance of the [**DnsServerResourceRecordDS**](dnsserverr
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -219,9 +225,9 @@ Receives and embedded instance of the [**DnsServerResourceRecordDS**](dnsserverr
 [**PS\_DnsServerResourceRecordDS**](ps-dnsserverresourcerecordds.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

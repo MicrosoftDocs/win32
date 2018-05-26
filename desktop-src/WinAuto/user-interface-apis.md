@@ -1,7 +1,12 @@
 ---
 title: User Interface APIs
 description: User Interface APIs
-ms.assetid: '902737df-a3be-4d84-b865-64cc00f45323'
+ms.assetid: 902737df-a3be-4d84-b865-64cc00f45323
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface APIs

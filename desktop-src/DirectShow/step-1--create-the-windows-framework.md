@@ -1,7 +1,12 @@
 ---
-Description: 'Step 1: Create the Windows Framework'
-ms.assetid: '678c6261-cbd0-4865-a1dd-03de55eca996'
-title: 'Step 1: Create the Windows Framework'
+Description: Step 1 Create the Windows Framework
+ms.assetid: 678c6261-cbd0-4865-a1dd-03de55eca996
+title: Step 1 Create the Windows Framework
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 1: Create the Windows Framework
@@ -34,7 +39,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 
 
 
-When you retrieve a poster frame from the Media Detector, it returns a buffer that contains a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure followed by the image bits. Therefore, define two static variables in the window procedure: *pbmi* will hold a pointer to the **BITMAPINFOHEADER** structure, and *pBuffer* will hold a pointer to the bitmap. The application will allocate the buffer in *pbmi* using `new`, so it must delete the buffer before the window is destroyed. The *pBuffer* pointer is calculated as an offset from *pbmi*, so there is no need to delete it.
+When you retrieve a poster frame from the Media Detector, it returns a buffer that contains a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure followed by the image bits. Therefore, define two static variables in the window procedure: *pbmi* will hold a pointer to the **BITMAPINFOHEADER** structure, and *pBuffer* will hold a pointer to the bitmap. The application will allocate the buffer in *pbmi* using `new`, so it must delete the buffer before the window is destroyed. The *pBuffer* pointer is calculated as an offset from *pbmi*, so there is no need to delete it.
 
 Next: [Step 2: Add a Menu Command to Grab a Poster Frame](step-2--add-a-menu-command-to-grab-a-poster-frame.md)
 

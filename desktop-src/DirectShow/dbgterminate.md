@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgTerminate function cleans up the debug library. Ignored in retail builds.'
-ms.assetid: 'a0e23c57-b4b5-4bcf-8c63-0dee40cc71a7'
+Description: The DbgTerminate function cleans up the debug library. Ignored in retail builds.
+ms.assetid: a0e23c57-b4b5-4bcf-8c63-0dee40cc71a7
 title: DbgTerminate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgTerminate function
@@ -47,9 +52,9 @@ Call this function if you call the [**DbgInitialise**](dbginitialise.md) functio
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

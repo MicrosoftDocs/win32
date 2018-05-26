@@ -1,7 +1,12 @@
 ---
-Description: 'Callback Functions for Rendering Plug-Ins'
-ms.assetid: '0b0c4155-894c-4161-abef-8505e571ac45'
-title: 'Callback Functions for Rendering Plug-Ins'
+Description: Callback Functions for Rendering Plug-Ins
+ms.assetid: 0b0c4155-894c-4161-abef-8505e571ac45
+title: Callback Functions for Rendering Plug-Ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Callback Functions for Rendering Plug-Ins

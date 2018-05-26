@@ -4,11 +4,17 @@ description: The File Server Resource Manager (FSRM) API enables remote configur
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'afa0a6b8-4327-41ac-8039-bb2ba9eec8a3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: afa0a6b8-4327-41ac-8039-bb2ba9eec8a3
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager File Server Resource Manager", "File Server Resource Manager File Server Resource Manager , home page", "FSRM File Server Resource Manager See File Server Resource Manager"]
+keywords:
+- File Server Resource Manager File Server Resource Manager
+- File Server Resource Manager File Server Resource Manager , home page
+- FSRM File Server Resource Manager See File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # File Server Resource Manager

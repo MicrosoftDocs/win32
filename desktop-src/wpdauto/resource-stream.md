@@ -1,14 +1,22 @@
 ---
 title: Resource.Stream property
 description: The Stream property gets or sets an IStream containing resource data.
-ms.assetid: 'cdd3e719-de9c-4b23-a863-a879e4056a4c'
-keywords: ["Stream property WPD Automation", "Stream property WPD Automation , Resource object", "Resource object WPD Automation , Stream property"]
+ms.assetid: cdd3e719-de9c-4b23-a863-a879e4056a4c
+keywords:
+- Stream property WPD Automation
+- Stream property WPD Automation , Resource object
+- Resource object WPD Automation , Stream property
 topic_type:
 - apiref
 api_name:
 - Resource.Stream
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource.Stream property
@@ -73,8 +81,8 @@ function UploadDiagnostics()
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -85,9 +93,9 @@ function UploadDiagnostics()
 [**Resource Object**](resource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

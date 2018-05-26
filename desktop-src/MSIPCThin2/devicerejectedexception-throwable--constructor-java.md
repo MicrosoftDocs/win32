@@ -4,17 +4,21 @@ description: Initializes a new instance of the DeviceRejectedException class wit
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef9bc9c6-a58a-4a88-b36e-e300ee8ae466'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: ef9bc9c6-a58a-4a88-b36e-e300ee8ae466
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["DeviceRejectedException(String, Throwable) constructor"]
+keywords:
+- DeviceRejectedException(String, Throwable) constructor
 topic_type:
 - apiref
 api_name:
 - DeviceRejectedException(String, Throwable) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeviceRejectedException(String, Throwable) constructor
@@ -38,7 +42,7 @@ public DeviceRejectedException(String deviceType, Throwable e)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -48,9 +52,9 @@ public DeviceRejectedException(String deviceType, Throwable e)
 
 DeviceRejectedException.java
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: SV\_OutputControlPointID
 description: Defines the index of the control point ID being operated on by an invocation of the main entry point of the hull shader.
-ms.assetid: '0b4c070f-1c7b-4739-af32-16410d3c5abd'
-keywords: ["SV_OutputControlPointID HLSL"]
+ms.assetid: 0b4c070f-1c7b-4739-af32-16410d3c5abd
+keywords:
+- SV_OutputControlPointID HLSL
 topic_type:
 - apiref
 api_name:
 - SV_OutputControlPointID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_OutputControlPointID

@@ -1,12 +1,17 @@
 ---
 title: Playing a MIDI File
 description: Playing a MIDI File
-ms.assetid: 'a11b432f-de31-4637-a9cd-eef5fad7591a'
+ms.assetid: a11b432f-de31-4637-a9cd-eef5fad7591a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playing a MIDI File
 
-The following example opens a MIDI sequencer device, verifies that the MIDI mapper was selected as the output port, plays the MIDI file specified by the *lpszMIDIFileName* parameter, and closes the device after playback is complete. It uses the [**mciSendCommand**](mcisendcommand.md) function.
+The following example opens a MIDI sequencer device, verifies that the MIDI mapper was selected as the output port, plays the MIDI file specified by the *lpszMIDIFileName* parameter, and closes the device after playback is complete. It uses the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

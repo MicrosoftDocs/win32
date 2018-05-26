@@ -1,7 +1,12 @@
 ---
 Description: COM+ Visual Basic Debugging Support Contrasted with MTS
-ms.assetid: 'aa012f88-1f88-4c7f-b774-82b9e29da5e9'
+ms.assetid: aa012f88-1f88-4c7f-b774-82b9e29da5e9
 title: COM+ Visual Basic Debugging Support Contrasted with MTS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Visual Basic Debugging Support Contrasted with MTS
@@ -12,9 +17,9 @@ COM+ removes or reduces several limitations of debugging with Microsoft Visual B
 
 -   Debugging Limitations on Class\_Initialize and Class\_Terminate Events—With COM+, you can put code in the Class\_Initialize and Class\_Terminate events of a COM+ application component even if that code attempts to access the object or its corresponding context object. You can set breakpoints there and use watches. You can also set breakpoints in the Class\_Terminate event.
 
-    Although it is no longer needed as a workaround, you can still implement the [**IObjectControl**](iobjectcontrol.md) interface and use its [**Activate**](iobjectcontrol-activate.md) and [**Deactivate**](iobjectcontrol-deactivate.md) methods if you need to execute code during startup and shutdown of your component. You can also now put breakpoints in code for the **Deactivate** or [**CanBePooled**](iobjectcontrol-canbepooled.md) methods.
+    Although it is no longer needed as a workaround, you can still implement the [**IObjectControl**](/windows/win32/ComSvcs/nn-comsvcs-iobjectcontrol?branch=master) interface and use its [**Activate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-activate?branch=master) and [**Deactivate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate?branch=master) methods if you need to execute code during startup and shutdown of your component. You can also now put breakpoints in code for the **Deactivate** or [**CanBePooled**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled?branch=master) methods.
 
--   Watching MTS Objects—With COM+, you can add watches for object variables returned by COM+, including return values from the [**SafeRef**](saferef.md), [**GetObjectContext**](getobjectcontext.md), and [**IObjectContext::CreateInstance**](iobjectcontext-createinstance.md) methods.
+-   Watching MTS Objects—With COM+, you can add watches for object variables returned by COM+, including return values from the [**SafeRef**](/windows/win32/ComSvcs/nf-comsvcs-saferef?branch=master), [**GetObjectContext**](/windows/win32/ComSvcs/nf-comsvcs-getobjectcontext?branch=master), and [**IObjectContext::CreateInstance**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-createinstance?branch=master) methods.
 
 -   Increased stability when components fail—In COM+, a component failure will no longer always stop Visual Basic (which runs in the same process as the debugged component). For example, support for just-in-time (JIT) reactivation failures now allows you to look at the object context while debugging.
 
@@ -27,7 +32,7 @@ COM+ removes or reduces several limitations of debugging with Microsoft Visual B
     Set obj = Nothing
     ```
 
-    If the obj.Test method calls [**IObjectContext::SetComplete**](iobjectcontext-setcomplete.md), COM+ immediately frees obj from memory, but obj has not yet been set to Nothing. When obj.Test returns, the Visual Basic debugger calls [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on obj for the [**IProvideClassInfo**](https://msdn.microsoft.com/library/windows/desktop/ms687303) interface. The context wrapper associated with obj creates a new instance of MyApp.MyClass to service the **QueryInterface** call. As a result, you will see this uninitialized object in the debugger after obj.Test has returned. This object appears only in the debugger and is removed by the subsequent instruction to set obj to Nothing.
+    If the obj.Test method calls [**IObjectContext::SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master), COM+ immediately frees obj from memory, but obj has not yet been set to Nothing. When obj.Test returns, the Visual Basic debugger calls [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on obj for the [**IProvideClassInfo**](https://msdn.microsoft.com/library/windows/desktop/ms687303) interface. The context wrapper associated with obj creates a new instance of MyApp.MyClass to service the **QueryInterface** call. As a result, you will see this uninitialized object in the debugger after obj.Test has returned. This object appears only in the debugger and is removed by the subsequent instruction to set obj to Nothing.
 
 ## Related topics
 

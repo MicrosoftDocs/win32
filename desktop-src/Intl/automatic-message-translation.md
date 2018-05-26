@@ -1,7 +1,12 @@
 ---
-Description: 'Applications using the Unicode and character set API functions generally use the same window class. The operating system transparently translates messages between windows of different classes.'
-ms.assetid: '68e9839b-39f8-411a-8ae4-4a627c667cae'
+Description: Applications using the Unicode and character set API functions generally use the same window class. The operating system transparently translates messages between windows of different classes.
+ms.assetid: 68e9839b-39f8-411a-8ae4-4a627c667cae
 title: Automatic Message Translation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Message Translation

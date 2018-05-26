@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ListCardInterfaces method retrieves the identifiers (GUIDs) of all the interfaces supported for the specified smart card.'
-ms.assetid: 'c9dfd17e-f4a9-47d3-974e-66e78bc4b06a'
-title: 'ISCardDatabase::ListCardInterfaces method'
+---
+Description: The ListCardInterfaces method retrieves the identifiers (GUIDs) of all the interfaces supported for the specified smart card.
+ms.assetid: c9dfd17e-f4a9-47d3-974e-66e78bc4b06a
+title: ISCardDatabaseListCardInterfaces method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardDatabase::ListCardInterfaces method

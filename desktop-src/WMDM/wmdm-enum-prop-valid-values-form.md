@@ -1,8 +1,9 @@
 ---
 title: WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM enumeration
 description: The WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM enumeration type describes possible forms of valid values for a property.
-ms.assetid: '49d174b4-c8a3-4c16-ad21-4b66dcf8088f'
-keywords: ["WMDM_ENUM_PROP_VALID_VALUES_FORM enumeration windows Media Device Manager"]
+ms.assetid: 49d174b4-c8a3-4c16-ad21-4b66dcf8088f
+keywords:
+- WMDM_ENUM_PROP_VALID_VALUES_FORM enumeration windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM enumeration
@@ -76,7 +82,7 @@ This enumeration is used in the [**WMDM\_PROP\_DESC**](wmdm-prop-desc.md) struct
 [**Enumeration Types**](enumeration-types.md)
 </dt> <dt>
 
-[**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md)
+[**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master)
 </dt> <dt>
 
 [**WMDM\_FORMAT\_CAPABILITY**](wmdm-format-capability.md)
@@ -94,9 +100,9 @@ This enumeration is used in the [**WMDM\_PROP\_DESC**](wmdm-prop-desc.md) struct
 [**WMDM\_PROP\_VALUES\_RANGE**](wmdm-prop-values-range.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a resource pool element of the Microsoft Windows Hyper-V platform.'
-ms.assetid: 'DF48E8A6-240F-44E9-9DA3-1E6694396F10'
-title: 'Msvm\_ResourcePoolComponent class'
+Description: Represents a resource pool element of the Microsoft Windows Hyper-V platform.
+ms.assetid: DF48E8A6-240F-44E9-9DA3-1E6694396F10
+title: Msvm\_ResourcePoolComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourcePoolComponent class
@@ -15,16 +20,16 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 ``` syntax
 class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 {
-  string  CLSID;
-  uint32  Context = 1;
+  string  CLSID;
+  uint32  Context = 1;
   boolean Enabled = True;
-  string  Name;
-  string  AllocationCapabilitiesClassName;
-  string  ResourcePoolClassName;
-  string  ResourcePoolSettingDataClassName = "Msvm_ResourcePoolSettingData";
-  string  PhysicalDeviceClassName;
-  string  WmiFactoryCLSID;
-  uint8   MaxParentPools = 0;
+  string  Name;
+  string  AllocationCapabilitiesClassName;
+  string  ResourcePoolClassName;
+  string  ResourcePoolSettingDataClassName = "Msvm_ResourcePoolSettingData";
+  string  PhysicalDeviceClassName;
+  string  WmiFactoryCLSID;
+  uint8   MaxParentPools = 0;
 };
 ```
 
@@ -183,10 +188,10 @@ Access to the **Msvm\_ResourcePoolComponent** class might be restricted by UAC F
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
-| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -203,9 +208,9 @@ Access to the **Msvm\_ResourcePoolComponent** class might be restricted by UAC F
 [**Msvm\_VirtualizationComponent**](msvm-virtualizationcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

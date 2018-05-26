@@ -2,13 +2,19 @@
 title: /proxy switch
 description: The /proxy switch specifies the name of the interface proxy file for a COM interface.
 ms.assetid: 3428f723-81e1-441a-93d5-24034251830c
-keywords: ["/proxy switch MIDL"]
+keywords:
+- /proxy switch MIDL
 topic_type:
 - apiref
 api_name:
 - /proxy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /proxy switch

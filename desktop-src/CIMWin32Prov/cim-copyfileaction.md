@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_CopyFileAction class represents moving or copying files from a computer system to a new location.'
+Description: The CIM\_CopyFileAction class represents moving or copying files from a computer system to a new location.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c80b5002-d489-4b7e-b9a2-4460c3596958'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c80b5002-d489-4b7e-b9a2-4460c3596958
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_CopyFileAction class'
+title: CIM\_CopyFileAction class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CopyFileAction class
@@ -21,7 +24,7 @@ Location information for copying is specified by using either the [**CIM\_ToDire
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -31,18 +34,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{73553260-DB22-11d2-85FC-0000F8102E5F}"), abstract, AMENDMENT]
 class CIM_CopyFileAction : CIM_FileAction
 {
-  string  ActionID;
-  string  Caption;
-  string  Description;
-  uint16  Direction;
-  string  Name;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  uint16  TargetOperatingSystem;
-  string  Version;
+  string  ActionID;
+  string  Caption;
+  string  Description;
+  uint16  Direction;
+  string  Name;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  uint16  TargetOperatingSystem;
+  string  Version;
   boolean DeleteAfterCopy;
-  string  Destination;
-  string  Source;
+  string  Destination;
+  string  Source;
 };
 ```
 
@@ -65,7 +68,7 @@ The **CIM\_CopyFileAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -863,8 +866,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -878,9 +881,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_FileAction**](cim-fileaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

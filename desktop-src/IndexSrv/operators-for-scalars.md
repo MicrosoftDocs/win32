@@ -1,7 +1,12 @@
 ---
 title: Operators for Scalars
 description: Operators for Scalars
-ms.assetid: 'e44d8dd7-a323-41ff-a3b6-84104b4e4160'
+ms.assetid: e44d8dd7-a323-41ff-a3b6-84104b4e4160
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operators for Scalars

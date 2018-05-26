@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveDVDROMDrive method
 description: The RemoveDVDROMDrive method removes the specified CD or DVD drive from the virtual machine.
-ms.assetid: '2c8b79d8-cd00-47c3-9262-baee3567b187'
-keywords: ["RemoveDVDROMDrive method Virtual Server", "RemoveDVDROMDrive method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , RemoveDVDROMDrive method"]
+ms.assetid: 2c8b79d8-cd00-47c3-9262-baee3567b187
+keywords:
+- RemoveDVDROMDrive method Virtual Server
+- RemoveDVDROMDrive method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , RemoveDVDROMDrive method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveDVDROMDrive method
@@ -22,7 +30,7 @@ The **RemoveDVDROMDrive** method removes the specified CD or DVD drive from the 
 
 ```C++
 HRESULT RemoveDVDROMDrive(
-  [in] IVMDVDDrive *dvdDrive
+  [in] IVMDVDDrive *dvdDrive
 );
 ```
 
@@ -56,7 +64,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,8 +76,8 @@ You can only remove an existing CD or DVD drive from a stopped virtual machine.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -81,9 +89,9 @@ You can only remove an existing CD or DVD drive from a stopped virtual machine.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

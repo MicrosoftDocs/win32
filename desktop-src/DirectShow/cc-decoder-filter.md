@@ -1,7 +1,12 @@
 ---
 Description: CC Decoder Filter
-ms.assetid: '57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c'
+ms.assetid: 57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c
 title: CC Decoder Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CC Decoder Filter

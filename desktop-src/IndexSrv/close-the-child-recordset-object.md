@@ -1,7 +1,12 @@
 ---
 title: Close the Child Recordset Object
 description: Close the Child Recordset Object
-ms.assetid: '61ac7d77-8377-4fd7-815c-4f3d2cfd45df'
+ms.assetid: 61ac7d77-8377-4fd7-815c-4f3d2cfd45df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Close the Child Recordset Object

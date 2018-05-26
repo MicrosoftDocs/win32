@@ -1,8 +1,18 @@
 ---
 title: Order of Precedence
 description: Order of Precedence
-ms.assetid: '3865ea8a-2489-4714-9a05-d1082589841f'
-keywords: ["Windows Media metafiles,order of precedence", "Windows Media metafiles,precedence", "metafiles,order of precedence", "metafiles,precedence", "Windows Media,metafiles"]
+ms.assetid: 3865ea8a-2489-4714-9a05-d1082589841f
+keywords:
+- Windows Media metafiles,order of precedence
+- Windows Media metafiles,precedence
+- metafiles,order of precedence
+- metafiles,precedence
+- Windows Media,metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Order of Precedence

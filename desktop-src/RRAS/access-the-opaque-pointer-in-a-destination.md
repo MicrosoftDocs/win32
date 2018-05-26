@@ -1,7 +1,12 @@
 ---
 title: Access the Opaque Pointer in a Destination
 description: The following sample code shows how to access the opaque pointer in a destination.
-ms.assetid: '9bf420a1-2d9b-4be9-bd96-c92023b0ed41'
+ms.assetid: 9bf420a1-2d9b-4be9-bd96-c92023b0ed41
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access the Opaque Pointer in a Destination

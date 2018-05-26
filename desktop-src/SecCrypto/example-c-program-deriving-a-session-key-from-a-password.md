@@ -1,21 +1,26 @@
 ---
-Description: 'The following example demonstrates creating a session cryptographic key from the hash of a password as well as the use of the function CryptDeriveKey and related functions.'
-ms.assetid: 'f4748725-2a47-487c-b18c-7b27112d1090'
-title: 'Example C Program: Deriving a Session Key from a Password'
+Description: The following example demonstrates creating a session cryptographic key from the hash of a password as well as the use of the function CryptDeriveKey and related functions.
+ms.assetid: f4748725-2a47-487c-b18c-7b27112d1090
+title: Example C Program Deriving a Session Key from a Password
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Deriving a Session Key from a Password
 
-The following example demonstrates creating a [*session cryptographic key*](security.s_gly#-security-session-key-gly) from the [*hash*](security.h_gly#-security-hash-gly) of a password as well as the use of the function [**CryptDeriveKey**](cryptderivekey.md) and related functions.
+The following example demonstrates creating a [*session cryptographic key*](security.s_gly#-security-session-key-gly) from the [*hash*](security.h_gly#-security-hash-gly) of a password as well as the use of the function [**CryptDeriveKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptderivekey?branch=master) and related functions.
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Calling [**CryptAcquireContext**](cryptacquirecontext.md) to acquiring a handle for the default CSP and the default [*key container*](security.k_gly#-security-key-container-gly).
--   Using [**CryptCreateHash**](cryptcreatehash.md) to create an empty hash object.
--   Hashing the text of a password using [**CryptHashData**](crypthashdata.md).
--   Deriving a session key from the hashed password using [**CryptDeriveKey**](cryptderivekey.md).
+-   Calling [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master) to acquiring a handle for the default CSP and the default [*key container*](security.k_gly#-security-key-container-gly).
+-   Using [**CryptCreateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatehash?branch=master) to create an empty hash object.
+-   Hashing the text of a password using [**CryptHashData**](/windows/win32/Wincrypt/nf-wincrypt-crypthashdata?branch=master).
+-   Deriving a session key from the hashed password using [**CryptDeriveKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptderivekey?branch=master).
 -   Destroying the hash and the password.
--   Using [**CryptReleaseContext**](cryptreleasecontext.md) to release the CSP.
+-   Using [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master) to release the CSP.
 
 This example uses the function [**MyHandleError**](myhandleerror.md). Code for this function is included with the sample.
 

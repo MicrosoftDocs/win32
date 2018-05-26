@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a texture.'
-ms.assetid: 'e009ccc2-4491-4976-9460-7478b2bd34c2'
-title: 'ID3DXBaseEffect::GetTexture method'
+---
+Description: Gets a texture.
+ms.assetid: e009ccc2-4491-4976-9460-7478b2bd34c2
+title: ID3DXBaseEffectGetTexture method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetTexture method
@@ -36,9 +41,9 @@ Unique identifier. See [Handles (Direct3D 9)](handles.md).
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](idirect3dbasetexture9.md)\***
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dbasetexture9?branch=master)\***
 
-Returns a texture object. See [**IDirect3DBaseTexture9**](idirect3dbasetexture9.md).
+Returns a texture object. See [**IDirect3DBaseTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dbasetexture9?branch=master).
 
 </dd> </dl>
 

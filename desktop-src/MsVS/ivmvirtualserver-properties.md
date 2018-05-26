@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualServer Properties
 description: The IVMVirtualServer interface defines the following properties
-ms.assetid: '61771d21-67d5-401e-b7f7-368a6c78e992'
+ms.assetid: 61771d21-67d5-401e-b7f7-368a6c78e992
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer Properties

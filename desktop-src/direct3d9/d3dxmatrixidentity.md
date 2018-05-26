@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an identity matrix.'
-ms.assetid: '0dd6d4fb-284c-4d01-9a85-63aa08e71723'
+---
+Description: Creates an identity matrix.
+ms.assetid: 0dd6d4fb-284c-4d01-9a85-63aa08e71723
 title: D3DXMatrixIdentity function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixIdentity function

@@ -1,8 +1,14 @@
 ---
 title: Managing Modes and Execution
 description: Managing Modes and Execution
-ms.assetid: '6a1ecc42-194a-4d8f-94f6-fd59696d87cf'
-keywords: ["OpenGL,modes"]
+ms.assetid: 6a1ecc42-194a-4d8f-94f6-fd59696d87cf
+keywords:
+- OpenGL,modes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Modes and Execution

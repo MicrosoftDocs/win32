@@ -1,8 +1,10 @@
 ---
 title: background object
 description: Declares a gadget background with content and properties.
-ms.assetid: '9d0467d9-a02c-4629-be60-6effb551721d'
-keywords: ["background object Windows Sidebar", "background object Windows Sidebar , described"]
+ms.assetid: 9d0467d9-a02c-4629-be60-6effb551721d
+keywords:
+- background object Windows Sidebar
+- background object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # background object
@@ -42,7 +49,7 @@ The **background** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +68,7 @@ The **background** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,9 +79,9 @@ This element is declared in the gadget HTML file through a non-standard tag.
 An image can be assigned to the **g:background** element from a gadget script file by using the [**background**](system-gadget-background.md) property or [**src**](src-attribute-gbackground.md) property.
 
 > [!Note]  
-> The Cascading Style Sheets (CSS) `backgroundImage` property can also be used to assign an image to the background.
+> The Cascading Style Sheets (CSS) `backgroundImage` property can also be used to assign an image to the background.
 
- 
+ 
 
 Attributes of the **g:background** element can be accessed from the gadget script files if the element has an `id` tag.
 
@@ -118,12 +125,12 @@ The following example shows how to use the [**background**](system-gadget-backgr
 > \[!Caution\]  
 > When using background images with alpha channel transparency the following two methods can result in unpredictable rendering, such as transparent pixels replaced with magenta, and limitations in functionality. As such, they are presented here for information purposes only and are not recommended.
 
- 
+ 
 
 > \[!Important\]  
-> For Windows 7, when the new `<autoscaleDPI>` element of the gadget manifest is set to true (for high-DPI support) and the following methods are used, rendering issues can increase significantly.
+> For Windows 7, when the new `<autoscaleDPI>` element of the gadget manifest is set to true (for high-DPI support) and the following methods are used, rendering issues can increase significantly.
 
- 
+ 
 
 
 ```JScript
@@ -153,12 +160,12 @@ The following example shows how to use CSS to assign an image to the **g:backgro
 > \[!Important\]  
 > When using background images with alpha channel transparency the following method can result in unpredictable rendering (typically with magenta replacing transparent pixels) and limitations in functionality. As such, it is presented here for information purposes only and is not recommended.
 
- 
+ 
 
 > \[!Warning\]  
 > For Windows 7, when the `<autoscaleDPI>` element is set to true and the following method is used, rendering issues increase significantly.
 
- 
+ 
 
 
 ```JScript
@@ -190,18 +197,18 @@ The following example shows how to use CSS to assign an image to the **g:backgro
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

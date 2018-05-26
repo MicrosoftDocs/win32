@@ -4,11 +4,13 @@ description: Manages advanced client settings. Derives from the IMsRdpClientAdva
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a927cd4c-7f70-493e-a4f6-056d0352d56e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a927cd4c-7f70-493e-a4f6-056d0352d56e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientAdvancedSettings5 interface Remote Desktop Services", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings5 interface
@@ -55,7 +60,7 @@ The **IMsRdpClientAdvancedSettings5** interface has these properties.
 <td style="text-align: left;">[<strong>AudioRedirectionMode</strong>](imsrdpclientadvancedsettings5-audioredirectionmode.md)<br/></td>
 <td style="text-align: left;">Read/write<br/></td>
 <td style="text-align: left;">The audio redirection mode. The [<strong>AudioRedirectionMode</strong>](imsrdpclientadvancedsettings5-audioredirectionmode.md) property has the following possible values.<br/>
-<dt><span id="AUDIO_MODE_REDIRECT___0"></span><span id="audio_mode_redirect___0"></span><strong>AUDIO_MODE_REDIRECT 0</strong> (Audio redirection is enabled and the option for redirection is &quot;Bring to this computer&quot;. This is the default mode.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span><strong>AUDIO_MODE_PLAY_ON_SERVER 1</strong> (Audio redirection is enabled and the option is &quot;Leave at remote computer&quot;. The &quot;Leave at remote computer&quot; option is supported only when connecting remotely to a host computer that is running Windows Vista. If the connection is to a host computer that is running Windows Server 2008, the option &quot;Leave at remote computer&quot; is changed to &quot;Do not play&quot;.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_NONE_2"></span><span id="audio_mode_none_2"></span><strong>AUDIO_MODE_NONE 2</strong> (Audio redirection is enabled and the mode is &quot;Do not play&quot;.)<br/> </dt> <dd></dd> </dl></td>
+<dt><span id="AUDIO_MODE_REDIRECT___0"></span><span id="audio_mode_redirect___0"></span><strong>AUDIO_MODE_REDIRECT 0</strong> (Audio redirection is enabled and the option for redirection is &quot;Bring to this computer&quot;. This is the default mode.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span><strong>AUDIO_MODE_PLAY_ON_SERVER 1</strong> (Audio redirection is enabled and the option is &quot;Leave at remote computer&quot;. The &quot;Leave at remote computer&quot; option is supported only when connecting remotely to a host computer that is running Windows Vista. If the connection is to a host computer that is running Windows Server 2008, the option &quot;Leave at remote computer&quot; is changed to &quot;Do not play&quot;.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_NONE_2"></span><span id="audio_mode_none_2"></span><strong>AUDIO_MODE_NONE 2</strong> (Audio redirection is enabled and the mode is &quot;Do not play&quot;.)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>BitmapVirtualCache32BppSize</strong>](imsrdpclientadvancedsettings5-bitmapvirtualcache32bppsize.md)<br/></td>
@@ -92,7 +97,7 @@ The **IMsRdpClientAdvancedSettings5** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,8 +113,8 @@ This interface has been extended by the following interfaces, with each new inte
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings5 is defined as FBA7F64E-6783-4405-DA45-FA4A763DABD0<br/> |
@@ -138,9 +143,9 @@ This interface has been extended by the following interfaces, with each new inte
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

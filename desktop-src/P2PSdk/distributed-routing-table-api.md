@@ -1,7 +1,12 @@
 ---
-Description: 'The Distributed Routing Table (DRT) API allows applications to publish and resolve numeric keys in a peer network.'
-ms.assetid: '17422d71-4c6d-458b-87b6-b31fc2b5bda5'
+Description: The Distributed Routing Table (DRT) API allows applications to publish and resolve numeric keys in a peer network.
+ms.assetid: 17422d71-4c6d-458b-87b6-b31fc2b5bda5
 title: Distributed Routing Table API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distributed Routing Table API
@@ -17,7 +22,7 @@ An application utilizing DRT can accomplish the following:
 > [!Note]  
 > The administrators and users of DRT-enabled applications should make the end users of their applications aware of the information being published. Microsoft servers are not employed by this technology and information is not sent to Microsoft.
 
- 
+ 
 
 The provided documentation for this API is divided into three sections.
 
@@ -31,11 +36,11 @@ The provided documentation for this API is divided into three sections.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

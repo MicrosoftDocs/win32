@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls Key Design Decisions
-ms.assetid: '0b41cf81-0770-4408-97a8-a178fae78d23'
+ms.assetid: 0b41cf81-0770-4408-97a8-a178fae78d23
 title: Parental Controls Key Design Decisions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Key Design Decisions

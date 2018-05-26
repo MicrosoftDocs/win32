@@ -1,7 +1,12 @@
 ---
 Description: About MFTs
-ms.assetid: 'ca9cef70-b897-4fd5-9a13-8bf1c2b84b00'
+ms.assetid: ca9cef70-b897-4fd5-9a13-8bf1c2b84b00
 title: About MFTs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About MFTs
@@ -18,7 +23,7 @@ This topic gives a brief overview of the MFT processing model, focusing on the o
 
 An MFT has input streams and output streams. Input streams receive data, and output streams produce data. For example, a decoder has one input stream, which receives the encoded data, and one output stream, which produces the decoded data.
 
-The streams on an MFT are not represented as distinct COM objects. Instead, each stream has a designated stream identifier, and the methods in the [**IMFTransform**](imftransform.md) interface take stream identifiers as input parameters.
+The streams on an MFT are not represented as distinct COM objects. Instead, each stream has a designated stream identifier, and the methods in the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface take stream identifiers as input parameters.
 
 Some MFTs have a fixed number of streams. For example, decoders and encoders normally have exactly one input and one output. Other MFTs have a dynamic number of streams. If an MFT supports dynamic streams, the client can add new input streams. The client cannot add output streams, but the MFT might add or remove output streams during processing. For example, multiplexers typically allow the client to add input streams and have one output for the multiplexed stream. Demultiplexers are the reverse, with one input but a dynamic number of output streams, depending on the contents of the input stream. The following illustration shows the difference between multiplexer and demultiplexer.
 
@@ -30,33 +35,33 @@ When an MFT is first created, none of the streams has an established format. Bef
 
 Depending on the internal state of the MFT, it might provide a list of possible media types for each stream. You can use this list as a hint when you set the media types. Setting the media type on one stream can change the list of possible types for a another stream. For example, a decoder typically cannot provide any output types until the client sets the input type. The input type contains the information that the decoder needs to return a list of possible output types.
 
-To set the media type on a stream, call [**IMFTransform::SetInputType**](imftransform-setinputtype.md) or [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md). To get the list of possible media types for a stream, call [**IMFTransform::GetInputAvailableType**](imftransform-getinputavailabletype.md) or [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md).
+To set the media type on a stream, call [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) or [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master). To get the list of possible media types for a stream, call [**IMFTransform::GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master) or [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master).
 
 ## Processing Data
 
 After the client sets the media types on the streams, the MFT is ready to process data. To make this happen, the client alternates between providing input data to the MFT and getting output data from the MFT:
 
--   To give input data to the MFT, call [**IMFTransform::ProcessInput**](imftransform-processinput.md).
--   To pull output data from the MFT, call [**IMFTransform::ProcessOutput**](imftransform-processoutput.md).
+-   To give input data to the MFT, call [**IMFTransform::ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master).
+-   To pull output data from the MFT, call [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master).
 
-The [**ProcessInput**](imftransform-processinput.md) method takes a pointer to a media sample allocated by the client. The media sample contains one or more buffers, and each buffer contains input data for the MFT to process.
+The [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) method takes a pointer to a media sample allocated by the client. The media sample contains one or more buffers, and each buffer contains input data for the MFT to process.
 
-The [**ProcessOutput**](imftransform-processoutput.md) method supports two different allocation models: Either the MFT allocates the output buffers, or the client allocates the output buffers. Some MFTs support both allocation models, but it is not required for an MFT to support both. For example, an MFT might require the client to allocate the output buffers. The [**IMFTransform::GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md) method returns information about an output stream, including which allocation model the MFT supports.
+The [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) method supports two different allocation models: Either the MFT allocates the output buffers, or the client allocates the output buffers. Some MFTs support both allocation models, but it is not required for an MFT to support both. For example, an MFT might require the client to allocate the output buffers. The [**IMFTransform::GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master) method returns information about an output stream, including which allocation model the MFT supports.
 
 MFTs are designed to buffer as little data as possible, in order to minimize latency in the pipeline. Therefore, at any given time, the MFT can signal one of the following conditions:
 
--   The MFT requires more input data. In this state, the MFT cannot produce output until the client calls [**ProcessInput**](imftransform-processinput.md) at least once.
--   The MFT will not accept any more input until the client calls [**ProcessOutput**](imftransform-processoutput.md) at least once.
+-   The MFT requires more input data. In this state, the MFT cannot produce output until the client calls [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) at least once.
+-   The MFT will not accept any more input until the client calls [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) at least once.
 
-For example, suppose that you are using a video decoder to decode a video stream that contains a mix of key frames and delta frames. Initially, the MFT requires some input before it can decode any frames. The client calls [**ProcessInput**](imftransform-processinput.md) to deliver the first frame. Suppose that the first frame is a delta frame (shown in the following diagram as 'P' for predicted frame). The decoder holds onto this frame, but it cannot produce any output until it gets the next key frame.
+For example, suppose that you are using a video decoder to decode a video stream that contains a mix of key frames and delta frames. Initially, the MFT requires some input before it can decode any frames. The client calls [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) to deliver the first frame. Suppose that the first frame is a delta frame (shown in the following diagram as 'P' for predicted frame). The decoder holds onto this frame, but it cannot produce any output until it gets the next key frame.
 
 ![diagram showing the mft that needs input, pointing to a predicted frame](images/f5a88ac6-24da-40e5-b356-649aa6f811c3.gif)
 
-The client continues to call [**ProcessInput**](imftransform-processinput.md) and eventually reaches the next key frame (shown in the next diagram as 'I' for intra-coded frame). Now the decoder has enough frames to start decoding. At this point it stops accepting input, and the client must call [**ProcessOutput**](imftransform-processoutput.md) to get the decoded frames.
+The client continues to call [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) and eventually reaches the next key frame (shown in the next diagram as 'I' for intra-coded frame). Now the decoder has enough frames to start decoding. At this point it stops accepting input, and the client must call [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) to get the decoded frames.
 
 ![diagram showing an mft that is not accepting input, pointing to one intra-coded frame and three predicted frames](images/ae014a1a-9d03-4cfa-a04d-4a63bdc83f73.gif)
 
-The simplest approach for the client is simply to alternate calls to [**ProcessInput**](imftransform-processinput.md) and [**ProcessOutput**](imftransform-processoutput.md). A more sophisticated algorithm is described in the topic [Basic MFT Processing Model](basic-mft-processing-model.md).
+The simplest approach for the client is simply to alternate calls to [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) and [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master). A more sophisticated algorithm is described in the topic [Basic MFT Processing Model](basic-mft-processing-model.md).
 
 ## Related topics
 

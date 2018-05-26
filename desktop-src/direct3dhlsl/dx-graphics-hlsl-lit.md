@@ -1,14 +1,20 @@
 ---
 title: lit
 description: Returns a lighting coefficient vector.
-ms.assetid: '6ae116df-41b7-42f1-96cb-da480a7c1bab'
-keywords: ["lit HLSL"]
+ms.assetid: 6ae116df-41b7-42f1-96cb-da480a7c1bab
+keywords:
+- lit HLSL
 topic_type:
 - apiref
 api_name:
 - lit
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # lit
@@ -22,13 +28,13 @@ Returns a lighting coefficient vector.
 
 
 
- 
+ 
 
 This function returns a lighting coefficient vector (ambient, diffuse, specular, 1) where:
 
 -   ambient = 1.
--   diffuse = ((n • l) &lt; 0) ? 0 : n • l.
--   specular = ((n • l) &lt; 0) \|\| ((n • h) &lt; 0) ? 0 : ((n • h) \* m).
+-   diffuse = ((n   l) &lt; 0) ? 0 : n   l.
+-   specular = ((n   l) &lt; 0) \|\| ((n   h) &lt; 0) ? 0 : ((n   h) \* m).
 
 Where the vector n is the normal vector, l is the direction to light and h is the half vector.
 
@@ -44,7 +50,7 @@ Where the vector n is the normal vector, l is the direction to light and h is th
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -63,7 +69,7 @@ The lighting coefficient vector.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -78,7 +84,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -87,9 +93,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

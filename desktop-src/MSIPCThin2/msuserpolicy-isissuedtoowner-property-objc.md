@@ -4,17 +4,21 @@ description: Is the current user the original owner .
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A79F886D-9C0F-4156-A222-9716D80C150A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A79F886D-9C0F-4156-A222-9716D80C150A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy isIssuedToOwner property"]
+keywords:
+- MSUserPolicy isIssuedToOwner property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy isIssuedToOwner property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy isIssuedToOwner property
@@ -37,7 +41,7 @@ Is the current user the original owner?
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

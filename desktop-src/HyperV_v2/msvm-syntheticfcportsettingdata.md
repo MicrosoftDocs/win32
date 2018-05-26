@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of a synthetic Fibre Channel port.'
-ms.assetid: '5d47dd80-de34-4ae4-a300-c16da1cd4974'
-title: 'Msvm\_SyntheticFcPortSettingData class'
+Description: Represents the configured state of a synthetic Fibre Channel port.
+ms.assetid: 5d47dd80-de34-4ae4-a300-c16da1cd4974
+title: Msvm\_SyntheticFcPortSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticFcPortSettingData class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SyntheticFcPortSettingData : CIM_ResourceAllocationSettingData
 {
-  string  InstanceID;
-  string  Caption = "Virtual Fibre Channel Port Default Settings";
-  string  Description = "Describes the default settings for the virtual Fibre Channel port resources.";
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  InstanceID;
+  string  Caption = "Virtual Fibre Channel Port Default Settings";
+  string  Description = "Describes the default settings for the virtual Fibre Channel port resources.";
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
-  string  VirtualPortWWPN;
-  string  VirtualPortWWNN;
-  string  SecondaryWWPN;
-  string  SecondaryWWNN;
-  string  VirtualSystemIdentifiers[];
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
+  string  VirtualPortWWPN;
+  string  VirtualPortWWNN;
+  string  SecondaryWWPN;
+  string  SecondaryWWNN;
+  string  VirtualSystemIdentifiers[];
   boolean ChapEnabled;
 };
 ```
@@ -347,7 +352,7 @@ The type of resource this allocation setting represents. This property is inheri
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -464,17 +469,17 @@ An integer that defines the relative weight for each virtual machine processor. 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unregisters a window class registered by LinkWindow\_RegisterClass.'
-ms.assetid: '9e5c4326-efd1-43ca-a087-a436fe3f9bbd'
-title: 'LinkWindow\_UnregisterClass function'
+---
+Description: Unregisters a window class registered by LinkWindow\_RegisterClass.
+ms.assetid: 9e5c4326-efd1-43ca-a087-a436fe3f9bbd
+title: LinkWindow\_UnregisterClass function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LinkWindow\_UnregisterClass function

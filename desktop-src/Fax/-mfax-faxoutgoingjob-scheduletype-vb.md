@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the schedule type that was used for the transmission.'
-ms.assetid: 'c587aba4-aff6-4a19-90c5-aefb55df2fbb'
-title: 'FaxOutgoingJob.ScheduleType property'
+---
+Description: Specifies the schedule type that was used for the transmission.
+ms.assetid: c587aba4-aff6-4a19-90c5-aefb55df2fbb
+title: FaxOutgoingJob.ScheduleType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.ScheduleType property
@@ -21,7 +26,7 @@ Property ScheduleType As Integer
 
 ## Property value
 
-A variable of type [**FAX\_SCHEDULE\_TYPE\_ENUM**](-mfax-fax-schedule-type-enum.md) that receives a value that specifies the schedule type.
+A variable of type [**FAX\_SCHEDULE\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_schedule_type_enum?branch=master) that receives a value that specifies the schedule type.
 
 ## Remarks
 
@@ -47,7 +52,7 @@ This property can indicate the following: the fax should be transmitted right aw
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob2**](-mfax-faxoutgoingjob2-cpp.md)
+[**IFaxOutgoingJob2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob2?branch=master)
 </dt> </dl>
 
  

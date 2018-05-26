@@ -1,8 +1,9 @@
 ---
 title: DTN\_FORMAT notification code
 description: Sent by a date and time picker (DTP) control to request text to be displayed in a callback field. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ce0ee230-638e-425f-9f34-c379342cea93'
-keywords: ["DTN_FORMAT notification code Windows Controls"]
+ms.assetid: ce0ee230-638e-425f-9f34-c379342cea93
+keywords:
+- DTN_FORMAT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTN\_FORMAT notification code
@@ -35,7 +41,7 @@ DTN_FORMAT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMEFORMAT**](nmdatetimeformat.md) structure containing information regarding this instance of the notification code. The structure contains the substring that defines the callback field and receives the formatted string that the control will display.
+A pointer to an [**NMDATETIMEFORMAT**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimeformata?branch=master) structure containing information regarding this instance of the notification code. The structure contains the substring that defines the callback field and receives the formatted string that the control will display.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ Handling this notification code allows the owner of the control to provide a cus
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **DTN\_FORMATW** (Unicode) and **DTN\_FORMATA** (ANSI)<br/>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

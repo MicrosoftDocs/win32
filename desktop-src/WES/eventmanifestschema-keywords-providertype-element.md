@@ -1,14 +1,20 @@
 ---
 title: keywords (ProviderType) Element
 description: Defines a list of keywords that categorize events.
-ms.assetid: '709da870-b252-4598-a1f6-51c12fa7c6df'
-keywords: ["keywords element EventLog"]
+ms.assetid: 709da870-b252-4598-a1f6-51c12fa7c6df
+keywords:
+- keywords element EventLog
 topic_type:
 - apiref
 api_name:
 - keywords
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # keywords (ProviderType) Element
@@ -29,8 +35,8 @@ The **keywords** element is defined by the [**ProviderType**](eventmanifestschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **keywords** element is defined by the [**ProviderType**](eventmanifestschem
 [**provider (EventsType)**](eventmanifestschema-provider-eventstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

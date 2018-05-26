@@ -1,8 +1,9 @@
 ---
 title: SB\_SETBKCOLOR message
 description: Sets the background color in a status bar.
-ms.assetid: '49bcd816-e3e2-45f4-8845-ef67789b8a01'
-keywords: ["SB_SETBKCOLOR message Windows Controls"]
+ms.assetid: 49bcd816-e3e2-45f4-8845-ef67789b8a01
+keywords:
+- SB_SETBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_SETBKCOLOR message
@@ -41,15 +47,15 @@ Returns the previous background color, or CLR\_DEFAULT if the background color i
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

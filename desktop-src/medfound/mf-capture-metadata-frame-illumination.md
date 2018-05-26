@@ -1,7 +1,12 @@
-﻿---
-Description: 'A value indicating whether a frame was captured using active infrared (IR) illumination.'
-ms.assetid: 'D84772C8-902F-4302-8288-0430892A1896'
-title: 'MF\_CAPTURE\_METADATA\_FRAME\_ILLUMINATION attribute'
+---
+Description: A value indicating whether a frame was captured using active infrared (IR) illumination.
+ms.assetid: D84772C8-902F-4302-8288-0430892A1896
+title: MF\_CAPTURE\_METADATA\_FRAME\_ILLUMINATION attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_METADATA\_FRAME\_ILLUMINATION attribute

@@ -1,7 +1,12 @@
 ---
-Description: 'The list of properties to show in the infotip when the item is on a slow network.'
-ms.assetid: '4ebc928c-3f31-4322-8c0b-ee0eb2bf5a0f'
-title: 'System.PropList.QuickTip'
+Description: The list of properties to show in the infotip when the item is on a slow network.
+ms.assetid: 4ebc928c-3f31-4322-8c0b-ee0eb2bf5a0f
+title: System.PropList.QuickTip
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropList.QuickTip

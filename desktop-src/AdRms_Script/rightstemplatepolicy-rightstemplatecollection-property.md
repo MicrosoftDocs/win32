@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a collection of rights policy templates.'
+Description: Retrieves a collection of rights policy templates.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'f1f91a54-d5df-4d59-a8c6-346c279ad3b5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: f1f91a54-d5df-4d59-a8c6-346c279ad3b5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplatePolicy.RightsTemplateCollection property'
+title: RightsTemplatePolicy.RightsTemplateCollection property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplatePolicy.RightsTemplateCollection property
@@ -106,7 +109,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -118,9 +121,9 @@ END SUB
 [**RightsTemplatePolicy**](rightstemplatepolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The Cancel method of the SWbemSink object cancels all outstanding asynchronous operations that are associated with this object sink.'
+Description: The Cancel method of the SWbemSink object cancels all outstanding asynchronous operations that are associated with this object sink.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ISWbemSink::Cancel method'
+title: ISWbemSinkCancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISWbemSink::Cancel method
@@ -76,7 +79,7 @@ You cannot assign this sink to **Nothing** to cancel an asynchronous operation. 
 > [!Note]  
 > An asynchronous callback allows a non-authenticated user to provide data to the sink. This poses security risks to your scripts and applications. To eliminate the risks, use semisynchronous or synchronous communication. For more information, see [Calling a Method](calling-a-method.md).
 
- 
+ 
 
 The following example shows you how to cancel an asynchronous call.
 
@@ -94,8 +97,8 @@ set objwbemsink= Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -111,9 +114,9 @@ set objwbemsink= Nothing
 [**SWbemSink**](swbemsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

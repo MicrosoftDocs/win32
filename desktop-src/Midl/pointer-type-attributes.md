@@ -2,7 +2,13 @@
 title: Pointer Type Attributes
 description: The following attributes specify the characteristics of pointers.
 ms.assetid: 310d0dfe-eef3-447e-89fb-40f620976d00
-keywords: ["IDL MIDL , attributes, pointer-type"]
+keywords:
+- IDL MIDL , attributes, pointer-type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointer Type Attributes

@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent by a File Manager extension to cause File Manager to repaint either its active window or all of its windows.'
-title: 'FM\_REFRESH\_WINDOWS message'
+---
+Description: Sent by a File Manager extension to cause File Manager to repaint either its active window or all of its windows.
+title: FM\_REFRESH\_WINDOWS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FM\_REFRESH\_WINDOWS message

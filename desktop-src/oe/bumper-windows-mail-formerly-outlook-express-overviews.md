@@ -1,7 +1,12 @@
 ---
 title: Overviews
 description: .
-ms.assetid: '1f26cb76-1af0-444d-b0ea-58ba86997c2f'
+ms.assetid: 1f26cb76-1af0-444d-b0ea-58ba86997c2f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overviews

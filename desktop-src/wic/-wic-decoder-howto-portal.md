@@ -1,7 +1,12 @@
 ---
-Description: 'The topics in this section provide examples demonstrating how to accomplish bitmap decoder-related tasks.'
-ms.assetid: '1098b4a1-9f40-4d99-be8d-ab8f9c4172e7'
-title: 'Decoder How-to Topics'
+Description: The topics in this section provide examples demonstrating how to accomplish bitmap decoder-related tasks.
+ms.assetid: 1098b4a1-9f40-4d99-be8d-ab8f9c4172e7
+title: Decoder How-to Topics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoder How-to Topics
@@ -19,7 +24,7 @@ The topics in this section provide examples demonstrating how to accomplish bitm
 
 
 
- 
+ 
 
 ## See Also
 
@@ -32,9 +37,9 @@ The topics in this section provide examples demonstrating how to accomplish bitm
 [Samples](-wic-samples.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

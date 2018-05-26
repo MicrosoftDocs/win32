@@ -1,14 +1,20 @@
 ---
 title: HTMLView Element
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The HTMLView element specifies the base URL of an HTMLView webpage.
-ms.assetid: '741db1ed-9452-4cae-9185-15668abe06b3'
-keywords: ["HTMLView Element Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The HTMLView element specifies the base URL of an HTMLView webpage.
+ms.assetid: 741db1ed-9452-4cae-9185-15668abe06b3
+keywords:
+- HTMLView Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - HTMLView Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTMLView Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **HTMLView** element specifies the base URL of an HTMLView webpage.
 
@@ -48,7 +54,7 @@ Base URL for the HTMLView webpage that Windows Media Player displays.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,9 +91,9 @@ For example, if the URL for the HTMLView webpage is http://www.proseware.com/htm
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

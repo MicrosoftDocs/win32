@@ -1,7 +1,12 @@
 ---
 title: Setting the Provider Property
 description: Setting the Provider Property
-ms.assetid: 'fb991003-94c7-4cd5-acc1-74a9acad0e5d'
+ms.assetid: fb991003-94c7-4cd5-acc1-74a9acad0e5d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Provider Property

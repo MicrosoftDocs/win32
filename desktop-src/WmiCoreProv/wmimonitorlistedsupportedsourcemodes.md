@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the supported source modes for a video monitor in its monitor descriptor, if any exist.'
-ms.assetid: 'cca59d28-bd93-4df2-989e-0516dd8eae83'
+Description: Lists the supported source modes for a video monitor in its monitor descriptor, if any exist.
+ms.assetid: cca59d28-bd93-4df2-989e-0516dd8eae83
 title: WmiMonitorListedSupportedSourceModes class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorListedSupportedSourceModes class
@@ -13,10 +18,10 @@ The **WmiMonitorListedSupportedSourceModes** lists the supported source modes fo
 ``` syntax
 class WmiMonitorListedSupportedSourceModes : MSMonitorClass
 {
-  boolean             Active;
-  string              InstanceName;
-  uint16              NumOfMonitorSourceModes;
-  uint16              PreferredMonitorSourceModeIndex;
+  boolean             Active;
+  string              InstanceName;
+  uint16              NumOfMonitorSourceModes;
+  uint16              PreferredMonitorSourceModeIndex;
   VideoModeDescriptor MonitorSourceModes[];
 };
 ```
@@ -107,8 +112,8 @@ Preferred monitor source mode index.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -122,9 +127,9 @@ Preferred monitor source mode index.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

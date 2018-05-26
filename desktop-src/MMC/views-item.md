@@ -4,11 +4,16 @@ description: The Item method returns the View object at a specified index.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'adf1d8e4-96cd-4af0-bbd2-ec162ca382ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: adf1d8e4-96cd-4af0-bbd2-ec162ca382ad
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Item method MMC", "Item method MMC , Views object", "Views object MMC , Item method", "Item method MMC , Views interface", "Views interface MMC , Item method"]
+keywords:
+- Item method MMC
+- Item method MMC , Views object
+- Views object MMC , Item method
+- Item method MMC , Views interface
+- Views interface MMC , Item method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Views::Item method
@@ -76,8 +84,8 @@ Next i
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -95,9 +103,9 @@ Next i
 [**Views.Count**](views-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

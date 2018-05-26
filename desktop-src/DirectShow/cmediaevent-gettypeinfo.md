@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a type-information object, which can retrieve the type information for an interface.'
-ms.assetid: 'd54042d5-e9d3-415c-b90d-1fe7d38164f5'
-title: 'CMediaEvent.GetTypeInfo method'
+Description: Retrieves a type-information object, which can retrieve the type information for an interface.
+ms.assetid: d54042d5-e9d3-415c-b90d-1fe7d38164f5
+title: CMediaEvent.GetTypeInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaEvent.GetTypeInfo method
@@ -13,9 +18,9 @@ Retrieves a type-information object, which can retrieve the type information for
 
 ```C++
 HRESULT GetTypeInfo(
-   UINT      itinfo,
-   LCID      lcid,
-   ITypeInfo **pptinfo
+   UINT      itinfo,
+   LCID      lcid,
+   ITypeInfo **pptinfo
 );
 ```
 
@@ -68,9 +73,9 @@ Returns an E\_POINTER if *pptinfo* is invalid. Returns TYPE\_E\_ELEMENTNOTFOUND 
 [**CMediaEvent Class**](cmediaevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

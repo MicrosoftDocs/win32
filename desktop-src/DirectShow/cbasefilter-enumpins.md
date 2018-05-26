@@ -1,19 +1,24 @@
 ---
-Description: 'The EnumPins method enumerates the pins on this filter. This method implements the IBaseFilter::EnumPins method.'
-ms.assetid: 'c1015ed3-658f-4f96-a1fb-e04b81a9ddb5'
-title: 'CBaseFilter.EnumPins method'
+Description: The EnumPins method enumerates the pins on this filter. This method implements the IBaseFilterEnumPins method.
+ms.assetid: c1015ed3-658f-4f96-a1fb-e04b81a9ddb5
+title: CBaseFilter.EnumPins method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.EnumPins method
 
-The `EnumPins` method enumerates the pins on this filter. This method implements the [**IBaseFilter::EnumPins**](ibasefilter-enumpins.md) method.
+The `EnumPins` method enumerates the pins on this filter. This method implements the [**IBaseFilter::EnumPins**](/windows/win32/Strmif/nf-strmif-ibasefilter-enumpins?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT EnumPins(
-   IEnumPins **ppEnum
+   IEnumPins **ppEnum
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT EnumPins(
 *ppEnum* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the [**IEnumPins**](ienumpins.md) interface.
+Address of a variable that receives a pointer to the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface.
 
 </dd> </dl>
 
@@ -44,7 +49,7 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +75,9 @@ If this method succeeds, the **IEnumPins** interface has an outstanding referenc
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

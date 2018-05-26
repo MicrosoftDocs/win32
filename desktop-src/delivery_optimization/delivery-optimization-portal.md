@@ -1,7 +1,12 @@
 ---
 title: Delivery Optimization (DO)
-description: Delivery Optimization is a cloud-managed, peer-to-peer client and a downloader service that delivers updates to an organization's networked devices.
-ms.assetid: 'c6b30f6f-61ed-4bdc-a747-34ac88fd9d69'
+description: Delivery Optimization is a cloud-managed, peer-to-peer client and a downloader service that delivers updates to an organizations networked devices.
+ms.assetid: c6b30f6f-61ed-4bdc-a747-34ac88fd9d69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delivery Optimization (DO)
@@ -20,11 +25,11 @@ See [Configure Delivery Optimization for Windows 10 updates](https://docs.micros
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

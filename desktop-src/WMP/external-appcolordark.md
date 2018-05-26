@@ -1,8 +1,9 @@
 ---
 title: External.appColorDark
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '9cfd9ca9-3a9f-47c5-a1a4-879f0b8d1626'
-keywords: ["External.appColorDark Windows Media Player"]
+ms.assetid: 9cfd9ca9-3a9f-47c5-a1a4-879f0b8d1626
+keywords:
+- External.appColorDark Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.appColorDark
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **appColorDark** property retrieves the current dark shaded color of the Windows Media Player user interface.
 
@@ -53,9 +59,9 @@ Users can change the color of the Windows Media Player user interface. You can u
 [**External Object for Type 2 Online Stores**](external-object-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

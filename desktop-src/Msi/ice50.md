@@ -1,7 +1,12 @@
-﻿---
-Description: 'ICE50 checks that shortcut icons are specified to display correctly and match their target file''s extension.'
-ms.assetid: '19288c87-fddb-46c9-8145-59e1b870a261'
+---
+Description: ICE50 checks that shortcut icons are specified to display correctly and match their target files extension.
+ms.assetid: 19288c87-fddb-46c9-8145-59e1b870a261
 title: ICE50
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE50

@@ -1,7 +1,12 @@
 ---
 title: VML RelativePosition Attribute
 description: VML RelativePosition Attribute
-ms.assetid: 'd3cdaa6f-e3d4-4948-81d6-64a01ad160c5'
+ms.assetid: d3cdaa6f-e3d4-4948-81d6-64a01ad160c5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML RelativePosition Attribute

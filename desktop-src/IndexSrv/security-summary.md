@@ -1,7 +1,12 @@
 ---
 title: Security Summary
 description: Security Summary
-ms.assetid: '730e4506-f84d-4957-ad8d-39b634e33d96'
+ms.assetid: 730e4506-f84d-4957-ad8d-39b634e33d96
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Summary

@@ -1,8 +1,19 @@
 ---
 title: Structure of the Sample Desktop Application
 description: Structure of the Sample Desktop Application
-ms.assetid: 'e042470d-dc78-488c-bcad-2e8d34714d5d'
-keywords: ["Windows Media Device Manager,samples", "Device Manager,samples", "desktop applications,samples", "Windows Media Device Manager,desktop application sample", "Device Manager,desktop application sample", "samples,desktop applications"]
+ms.assetid: e042470d-dc78-488c-bcad-2e8d34714d5d
+keywords:
+- Windows Media Device Manager,samples
+- Device Manager,samples
+- desktop applications,samples
+- Windows Media Device Manager,desktop application sample
+- Device Manager,desktop application sample
+- samples,desktop applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structure of the Sample Desktop Application
@@ -61,11 +72,11 @@ After clicking "Create Playlist" on the **Containers** menu, the application cal
 1.  Get the number of selected items from the global CDevFiles variable.
 2.  Call the local function DlgNamePlaylist to open a dialog box to get a name for the playlist.
 3.  Call the CProgress::Create to create a dialog window showing the progress of the action, and set parameters on the CProgress class, such as the title text, range, current value, and so on.
-4.  Loop through all the selected items in the CDevFiles tree view object, and request the CItemData object associated with each selected file in the tree view, incrementing the progress dialog bar with each file. The files are added to an array of [**IWMDMStorage**](iwmdmstorage.md) interfaces.
-5.  Get a handle to the currently selected item and query it for an [**IWMDMStorageControl3**](iwmdmstoragecontrol3.md) interface, which will be used later to create the new playlist on the device.
-6.  Query the selected object for [**IWMDMStorage3**](iwmdmstorage3.md), and call [**CreateEmptyMetadataObject**](iwmdmstorage3-createemptymetadataobject.md) to create a new [**IWMDMMetaData**](iwmdmmetadata.md)interface.
-7.  Add the WMDM\_FORMATCODE\_ABSTRACTAUDIOVIDEOPLAYLIST format code to the new **IWMDMMetadata** interface and create a playlist on the device by calling [**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md), passing in the metadata interface. The method retrieves a pointer to the new **IWMDMStorage** on the device.
-8.  Fill the playlist by querying the new storage for [**IWMDMStorage4**](iwmdmstorage4.md), and calling [**IWMDMStorage4::SetReferences**](iwmdmstorage4-setreferences.md), passing in the array of **IWMDMStorage** pointers collected in step 4.
+4.  Loop through all the selected items in the CDevFiles tree view object, and request the CItemData object associated with each selected file in the tree view, incrementing the progress dialog bar with each file. The files are added to an array of [**IWMDMStorage**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstorage?branch=master) interfaces.
+5.  Get a handle to the currently selected item and query it for an [**IWMDMStorageControl3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstoragecontrol3?branch=master) interface, which will be used later to create the new playlist on the device.
+6.  Query the selected object for [**IWMDMStorage3**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstorage3?branch=master), and call [**CreateEmptyMetadataObject**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject?branch=master) to create a new [**IWMDMMetaData**](/windows/win32/mswmdm/nn-mswmdm-iwmdmmetadata?branch=master)interface.
+7.  Add the WMDM\_FORMATCODE\_ABSTRACTAUDIOVIDEOPLAYLIST format code to the new **IWMDMMetadata** interface and create a playlist on the device by calling [**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master), passing in the metadata interface. The method retrieves a pointer to the new **IWMDMStorage** on the device.
+8.  Fill the playlist by querying the new storage for [**IWMDMStorage4**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstorage4?branch=master), and calling [**IWMDMStorage4::SetReferences**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage4-setreferences?branch=master), passing in the array of **IWMDMStorage** pointers collected in step 4.
 9.  Finally, create a new CItemData object to hold the new playlist on the device, initialize it with the new storage, and call CDevFiles::AddItem to add it to the CDevFiles pane.
 
 ## Related topics

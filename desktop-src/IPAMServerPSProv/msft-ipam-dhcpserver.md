@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a DHCP Server.'
+Description: Represents a DHCP Server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4a2fa19a-911d-468f-96df-d5e8deb27aaf'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4a2fa19a-911d-468f-96df-d5e8deb27aaf
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_DhcpServer class'
+title: MSFT\_IPAM\_DhcpServer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_DhcpServer class
@@ -24,41 +27,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_DhcpServer : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   InstanceID;
-  string   ServerFqdn;
-  uint16   ServerAvailability;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   InstanceID;
+  string   ServerFqdn;
+  uint16   ServerAvailability;
   datetime LastRefreshed;
-  string   IPv4Address[];
-  string   IPv6Address[];
-  string   ForestName;
-  string   DomainName;
-  uint64   NumberofIPv4Scopes;
-  uint64   NumberofIPv6Scopes;
-  uint64   IPv4ActiveLeases;
-  uint64   IPv6ActiveLeases;
-  uint16   AuditLoggingStatus;
-  uint16   PolicyActivationState;
-  uint16   AllowMacAddressFilters;
-  uint16   DenyMacAddressFilters;
-  string   DatabasePath;
-  string   BackupPath;
-  uint16   StatelessLogging;
-  string   StatelessPurgeInterval;
-  string   AccessScopePath;
-  boolean  IsInheritedAccessScope;
+  string   IPv4Address[];
+  string   IPv6Address[];
+  string   ForestName;
+  string   DomainName;
+  uint64   NumberofIPv4Scopes;
+  uint64   NumberofIPv6Scopes;
+  uint64   IPv4ActiveLeases;
+  uint64   IPv6ActiveLeases;
+  uint16   AuditLoggingStatus;
+  uint16   PolicyActivationState;
+  uint16   AllowMacAddressFilters;
+  uint16   DenyMacAddressFilters;
+  string   DatabasePath;
+  string   BackupPath;
+  uint16   StatelessLogging;
+  string   StatelessPurgeInterval;
+  string   AccessScopePath;
+  boolean  IsInheritedAccessScope;
 };
 ```
 
@@ -1555,7 +1558,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -1569,9 +1572,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

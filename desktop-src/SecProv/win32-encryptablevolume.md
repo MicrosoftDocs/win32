@@ -1,7 +1,12 @@
-﻿---
-Description: 'For drive encryption or to create encryption security software, you can use the Windows encryption software, BitLocker Drive Encryption, an encryption API you can use by using the Win32\_EncryptableVolume WMI provider class.'
-ms.assetid: '664562b3-5679-4185-8bbc-5d5350494707'
-title: 'Win32\_EncryptableVolume class'
+---
+Description: For drive encryption or to create encryption security software, you can use the Windows encryption software, BitLocker Drive Encryption, an encryption API you can use by using the Win32\_EncryptableVolume WMI provider class.
+ms.assetid: 664562b3-5679-4185-8bbc-5d5350494707
+title: Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_EncryptableVolume class

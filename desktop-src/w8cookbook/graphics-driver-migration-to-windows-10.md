@@ -1,7 +1,12 @@
 ---
 title: Graphics driver migration to Windows 10
 description: Windows 10 Media and Windows 10, like its predecessor, Windows 8.1, does not have any 3rd party graphics drivers in the Windows media kit or “In Box”.
-ms.assetid: 'E6240CF0-5A65-4A66-98AE-856C783EB320'
+ms.assetid: E6240CF0-5A65-4A66-98AE-856C783EB320
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graphics driver migration to Windows 10

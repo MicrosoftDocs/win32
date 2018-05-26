@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetIscsiInitiatorCHAPSharedSecret function sets the iSCSI CHAP Shared Secret for the Initiator.'
-ms.assetid: '93bffe27-2b63-4748-901e-1a2f4f80f165'
-title: 'SetIscsiInitiatorCHAPSharedSecret method of the MSIscsiInitiator\_MethodClass class'
+---
+Description: The SetIscsiInitiatorCHAPSharedSecret function sets the iSCSI CHAP Shared Secret for the Initiator.
+ms.assetid: 93bffe27-2b63-4748-901e-1a2f4f80f165
+title: SetIscsiInitiatorCHAPSharedSecret method of the MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIscsiInitiatorCHAPSharedSecret method of the MSIscsiInitiator\_MethodClass class

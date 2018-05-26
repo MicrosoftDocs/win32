@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the version of CTL3D that is currently running.'
-ms.assetid: '38c0842c-417f-4ca1-acc2-3bbadf45c804'
+---
+Description: Indicates the version of CTL3D that is currently running.
+ms.assetid: 38c0842c-417f-4ca1-acc2-3bbadf45c804
 title: Ctl3dGetVer function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ctl3dGetVer function

@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETMONTHDELTA message
 description: Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the MonthCal\_SetMonthDelta macro.
-ms.assetid: '2d01b95f-3be8-4548-80b5-ac01d3e49e9f'
-keywords: ["MCM_SETMONTHDELTA message Windows Controls"]
+ms.assetid: 2d01b95f-3be8-4548-80b5-ac01d3e49e9f
+keywords:
+- MCM_SETMONTHDELTA message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETMONTHDELTA message
 
-Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the [**MonthCal\_SetMonthDelta**](monthcal-setmonthdelta.md) macro.
+Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can send this message explicitly or by using the [**MonthCal\_SetMonthDelta**](/windows/win32/Commctrl/nf-commctrl-monthcal_setmonthdelta?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ The PAGE UP and PAGE DOWN keys, VK\_PRIOR and VK\_NEXT, change the selected mont
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

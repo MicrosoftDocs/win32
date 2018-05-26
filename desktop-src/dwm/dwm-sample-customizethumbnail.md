@@ -1,7 +1,12 @@
 ---
 title: Customize an Iconic Thumbnail and a Live Preview Bitmap
 description: Shows how to customize an iconic thumbnail and a live preview bitmap (also called a Peek preview).
-ms.assetid: '43fe71e7-4e5c-46fb-876b-e26996071665'
+ms.assetid: 43fe71e7-4e5c-46fb-876b-e26996071665
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customize an Iconic Thumbnail and a Live Preview Bitmap
@@ -16,7 +21,7 @@ This topic contains the following sections:
 
 ## Description
 
-This sample shows how to customize an iconic thumbnail and a *live preview* (or *Peek preview*) bitmap by using functions and messages that are introduced in the Windows 7 Desktop Window Manager (DWM) APIs. Specifically, this sample uses the [**DwmSetIconicThumbnail**](dwmseticonicthumbnail.md) function and the [**WM\_SENDICONICTHUMBNAILBITMAP**](wm-dwmsendiconicthumbnail.md) message to customize an iconic thumbnail. It also uses the [**DwmSetIconicLivePreviewBitmap**](dwmseticoniclivepreviewbitmap.md) function and the [**WM\_SENDICONICLIVEPREVIEWBITMAP**](wm-dwmsendiconiclivepreviewbitmap.md) message to set an iconic live preview bitmap.
+This sample shows how to customize an iconic thumbnail and a *live preview* (or *Peek preview*) bitmap by using functions and messages that are introduced in the Windows 7 Desktop Window Manager (DWM) APIs. Specifically, this sample uses the [**DwmSetIconicThumbnail**](/windows/win32/Dwmapi/nf-dwmapi-dwmseticonicthumbnail?branch=master) function and the [**WM\_SENDICONICTHUMBNAILBITMAP**](wm-dwmsendiconicthumbnail.md) message to customize an iconic thumbnail. It also uses the [**DwmSetIconicLivePreviewBitmap**](/windows/win32/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap?branch=master) function and the [**WM\_SENDICONICLIVEPREVIEWBITMAP**](wm-dwmsendiconiclivepreviewbitmap.md) message to set an iconic live preview bitmap.
 
 The following illustration shows a default thumbnail transformed into a customized thumbnail.
 

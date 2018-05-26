@@ -1,8 +1,26 @@
 ---
-title: What's New in Windows Vista
+title: Whats New in Windows Vista
 description: Version 1.0 of Image Color Management (ICM) was delivered in Microsoft Windows 95, and provides basic color management capabilities within Windows device contexts.
-ms.assetid: '3079f84c-0d6c-4f87-a041-de86f5f7d99b'
-keywords: ["Windows Color System (WCS),Windows Vista", "WCS (Windows Color System),Windows Vista", "image color management,Windows Vista", "color management,Windows Vista", "colors,Windows Vista", "Windows Color System (WCS),operating systems", "WCS (Windows Color System),operating systems", "image color management,operating systems", "color management,operating systems", "colors,operating systems", "Image Color Management (ICM)", "ICM (Image Color Management)", "Windows Vista color management"]
+ms.assetid: 3079f84c-0d6c-4f87-a041-de86f5f7d99b
+keywords:
+- Windows Color System (WCS),Windows Vista
+- WCS (Windows Color System),Windows Vista
+- image color management,Windows Vista
+- color management,Windows Vista
+- colors,Windows Vista
+- Windows Color System (WCS),operating systems
+- WCS (Windows Color System),operating systems
+- image color management,operating systems
+- color management,operating systems
+- colors,operating systems
+- Image Color Management (ICM)
+- ICM (Image Color Management)
+- Windows Vista color management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Windows Vista
@@ -167,7 +185,7 @@ Header
 
 Library
 
-[**IDeviceModelPlugin**](idevicemodelplugin.md)
+[**IDeviceModelPlugin**](/windows/previous-versions/wcsplugin/nn-wcsplugin-idevicemodelplugin?branch=master)
 
 WcsPlugIn.h
 
@@ -239,7 +257,7 @@ WcsPlugIn.h
 
 N/A
 
-[**IGamutMapModelPlugin**](igamutmapmodelplugin.md)
+[**IGamutMapModelPlugin**](/windows/previous-versions/wcsplugin/nn-wcsplugin-igamutmapmodelplugin?branch=master)
 
 WcsPlugIn.h
 
@@ -271,13 +289,13 @@ Header
 
 Library
 
-[**BlackInformation**](blackinformation.md)
+[**BlackInformation**](/windows/previous-versions/WcsPlugIn/ns-wcsplugin-_blackinformation?branch=master)
 
 WcsPlugIn.h
 
 N/A
 
-[**GamutBoundaryDescription**](gamutboundarydescription.md)
+[**GamutBoundaryDescription**](/windows/previous-versions/WcsPlugIn/ns-wcsplugin-_gamutboundarydescription?branch=master)
 
 WcsPlugIn.h
 
@@ -301,25 +319,25 @@ WcsPlugIn.h
 
 N/A
 
-[**GamutShell**](gamutshell.md)
+[**GamutShell**](/windows/previous-versions/WcsPlugIn/ns-wcsplugin-_gamutshell?branch=master)
 
 WcsPlugIn.h
 
 N/A
 
-[**GamutShellTriangle**](gamutshelltriangle.md)
+[**GamutShellTriangle**](/windows/previous-versions/WcsPlugIn/ns-wcsplugin-_gamutshelltriangle?branch=master)
 
 WcsPlugIn.h
 
 N/A
 
-[**PrimaryJabColors**](primaryjabcolors.md)
+[**PrimaryJabColors**](/windows/previous-versions/WcsPlugIn/ns-wcsplugin-_primaryjabcolors?branch=master)
 
 WcsPlugIn.h
 
 N/A
 
-[**PrimaryXYZColors**](primaryxyzcolors.md)
+[**PrimaryXYZColors**](/windows/previous-versions/WcsPlugIn/ns-wcsplugin-_primaryxyzcolors?branch=master)
 
 WcsPlugIn.h
 

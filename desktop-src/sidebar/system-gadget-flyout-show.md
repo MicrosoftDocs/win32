@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Flyout.show property
 description: Gets or sets whether a gadget Flyout is visible.
-ms.assetid: '3bbd1df3-d25d-431b-a71e-a948ef15b1cb'
-keywords: ["show property Windows Sidebar", "show property Windows Sidebar , System.Gadget.Flyout object", "System.Gadget.Flyout object Windows Sidebar , show property"]
+ms.assetid: 3bbd1df3-d25d-431b-a71e-a948ef15b1cb
+keywords:
+- show property Windows Sidebar
+- show property Windows Sidebar , System.Gadget.Flyout object
+- System.Gadget.Flyout object Windows Sidebar , show property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Flyout.show property
@@ -62,18 +70,18 @@ function hideFlyout()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

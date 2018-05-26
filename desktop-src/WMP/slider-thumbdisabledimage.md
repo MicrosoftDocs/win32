@@ -1,14 +1,20 @@
 ---
 title: SLIDER.thumbDisabledImage
 description: The thumbDisabledImage attribute specifies or retrieves the thumb image of the slider control that is used when the control is disabled.
-ms.assetid: '56b7d373-bf97-4a13-bd00-9cbee1e40762'
-keywords: ["SLIDER.thumbDisabledImage Windows Media Player"]
+ms.assetid: 56b7d373-bf97-4a13-bd00-9cbee1e40762
+keywords:
+- SLIDER.thumbDisabledImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.thumbDisabledImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.thumbDisabledImage
@@ -52,9 +58,9 @@ The supported formats are BMP, JPG, PNG, and GIF (not including animated GIFs).
 [**SLIDER.thumbImage**](slider-thumbimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

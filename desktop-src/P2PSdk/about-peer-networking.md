@@ -1,7 +1,12 @@
 ---
-Description: 'This section of the documentation contains information about the Peer Infrastructure.'
-ms.assetid: '7a641d26-af87-4a96-b718-5b7598c87da7'
+Description: This section of the documentation contains information about the Peer Infrastructure.
+ms.assetid: 7a641d26-af87-4a96-b718-5b7598c87da7
 title: About Peer Networking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Peer Networking

@@ -1,7 +1,12 @@
 ---
 title: Automatic Binding Handles
 description: Automatic binding handles are useful when the application does not require a specific server and when it does not need to maintain any state information between the client and server.
-ms.assetid: 'ba049369-6c8b-4313-a266-e0364a30056e'
+ms.assetid: ba049369-6c8b-4313-a266-e0364a30056e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Binding Handles

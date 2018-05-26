@@ -1,7 +1,12 @@
 ---
 Description: Certificate Revocation Lists
-ms.assetid: '146e7e4a-4281-4f5c-8346-d6c0d5f5442f'
+ms.assetid: 146e7e4a-4281-4f5c-8346-d6c0d5f5442f
 title: Certificate Revocation Lists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Revocation Lists

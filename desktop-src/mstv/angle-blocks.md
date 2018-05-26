@@ -1,7 +1,12 @@
 ---
 title: Angle Blocks
 description: Angle Blocks
-ms.assetid: '5a12cda5-b4dd-44da-9ce5-6e08e2751a75'
+ms.assetid: 5a12cda5-b4dd-44da-9ce5-6e08e2751a75
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Angle Blocks

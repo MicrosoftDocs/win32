@@ -1,14 +1,19 @@
-﻿---
-Description: 'The Microsoft Enhanced Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, but supports stronger security through longer keys and additional algorithms.'
-ms.assetid: '87d0c865-8b29-439c-81aa-a40dc0034e3b'
+---
+Description: The Microsoft Enhanced Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, but supports stronger security through longer keys and additional algorithms.
+ms.assetid: 87d0c865-8b29-439c-81aa-a40dc0034e3b
 title: Microsoft Enhanced Cryptographic Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Enhanced Cryptographic Provider
 
 The Microsoft Enhanced Cryptographic Provider, called the Enhanced Provider, supports the same capabilities as the Microsoft Base Cryptographic Provider, called the Base Provider. The Enhanced Provider supports stronger security through longer keys and additional algorithms. It can be used with all versions of CryptoAPI.
 
-To maintain backward compatibility with earlier provider versions, the provider name, as defined in the Wincrypt.h header file, retains the version 1.0 designation. However, version 2.0 of this provider is currently shipping. To determine the version of the provider in use, call [**CryptGetProvParam**](cryptgetprovparam.md) with the *dwParam* argument set to **PP\_VERSION**. Version 2.0 is in use if 0x0200 is returned.
+To maintain backward compatibility with earlier provider versions, the provider name, as defined in the Wincrypt.h header file, retains the version 1.0 designation. However, version 2.0 of this provider is currently shipping. To determine the version of the provider in use, call [**CryptGetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetprovparam?branch=master) with the *dwParam* argument set to **PP\_VERSION**. Version 2.0 is in use if 0x0200 is returned.
 
 |                |                        |
 |----------------|------------------------|

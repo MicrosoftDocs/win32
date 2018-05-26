@@ -1,8 +1,14 @@
 ---
 title: Drawing Text in a Double-Buffered OpenGL Window
 description: You draw text in a double-buffered OpenGL window by creating display lists for selected characters in a font, and then executing the appropriate display list for each character you want to draw.
-ms.assetid: '59ac0414-a845-4f40-be9c-9962fd1585f6'
-keywords: ["OpenGL on Windows,text"]
+ms.assetid: 59ac0414-a845-4f40-be9c-9962fd1585f6
+keywords:
+- OpenGL on Windows,text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Text in a Double-Buffered OpenGL Window

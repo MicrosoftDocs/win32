@@ -1,8 +1,11 @@
 ---
 title: IWMPCdrom Playlist property
 description: The Playlist property gets an IWMPPlaylist interface representing the tracks on the CD currently in the CD drive or the root-level title entries for a DVD.
-ms.assetid: '09c3db45-6586-4a5b-b72c-77c64473bdd0'
-keywords: ["Playlist property Windows Media Player", "Playlist property Windows Media Player , IWMPCdrom interface", "IWMPCdrom interface Windows Media Player , Playlist property"]
+ms.assetid: 09c3db45-6586-4a5b-b72c-77c64473bdd0
+keywords:
+- Playlist property Windows Media Player
+- Playlist property Windows Media Player , IWMPCdrom interface
+- IWMPCdrom interface Windows Media Player , Playlist property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdrom::Playlist property
@@ -148,9 +156,9 @@ myText.Lines = trackList</code></pre></td>
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

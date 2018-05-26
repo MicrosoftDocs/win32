@@ -1,7 +1,12 @@
 ---
 title: Intro to Win32 programming in C++
 description: This section describes some of the basic terminology and coding conventions used in Windows programming.
-ms.assetid: '95e9fe47-1a68-45a1-b841-1b1acef2ec92'
+ms.assetid: 95e9fe47-1a68-45a1-b841-1b1acef2ec92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Intro to Win32 programming in C++

@@ -1,8 +1,9 @@
 ---
 title: EM\_SETIMESTATUS message
 description: Sets the status flags that determine how an edit control interacts with the Input Method Editor (IME).
-ms.assetid: '3de2e8b5-bdd8-4b25-9427-38a11b77a17a'
-keywords: ["EM_SETIMESTATUS message Windows Controls"]
+ms.assetid: 3de2e8b5-bdd8-4b25-9427-38a11b77a17a
+keywords:
+- EM_SETIMESTATUS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETIMESTATUS message
@@ -34,7 +40,7 @@ The type of status to set. This parameter can be the following value.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -53,7 +59,7 @@ Data specific to the status type. If *wParam* is **EMSIS\_COMPOSITIONSTRING**, t
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -71,8 +77,8 @@ Returns the previous value of the *lParam* parameter.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -84,9 +90,9 @@ Returns the previous value of the *lParam* parameter.
 [**EM\_GETIMESTATUS**](em-getimestatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

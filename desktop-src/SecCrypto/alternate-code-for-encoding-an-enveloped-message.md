@@ -1,7 +1,12 @@
 ---
-Description: 'The following example demonstrates an alternate process of encoding a signed message, using that signed message as the inner content for an enveloped message. In preparation for decoding, the inner content is tested to determine its inner-content type.'
-ms.assetid: 'ba174e3c-bc2f-48bd-a1bf-fec491dc0ce3'
+Description: The following example demonstrates an alternate process of encoding a signed message, using that signed message as the inner content for an enveloped message. In preparation for decoding, the inner content is tested to determine its inner-content type.
+ms.assetid: ba174e3c-bc2f-48bd-a1bf-fec491dc0ce3
 title: Alternate Code for Encoding an Enveloped Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alternate Code for Encoding an Enveloped Message
@@ -10,17 +15,17 @@ The following example demonstrates an alternate process of encoding a signed mes
 
 This example illustrates the following CryptoAPI functions:
 
--   [**CryptAcquireContext**](cryptacquirecontext.md)
--   [**CertOpenSystemStore**](certopensystemstore.md)
--   [**CryptMsgCalculateEncodedLength**](cryptmsgcalculateencodedlength.md)
--   [**CryptMsgOpenToEncode**](cryptmsgopentoencode.md)
--   [**CryptMsgUpdate**](cryptmsgupdate.md)
--   [**CryptMsgGetParam**](cryptmsggetparam.md)
--   [**CryptMsgOpenToDecode**](cryptmsgopentodecode.md)
--   [**CertFindCertificateInStore**](certfindcertificateinstore.md)
--   [**CryptMsgClose**](cryptmsgclose.md)
--   [**CertCloseStore**](certclosestore.md)
--   [**CryptReleaseContext**](cryptreleasecontext.md)
+-   [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master)
+-   [**CertOpenSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certopensystemstorea?branch=master)
+-   [**CryptMsgCalculateEncodedLength**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcalculateencodedlength?branch=master)
+-   [**CryptMsgOpenToEncode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentoencode?branch=master)
+-   [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master)
+-   [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master)
+-   [**CryptMsgOpenToDecode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentodecode?branch=master)
+-   [**CertFindCertificateInStore**](/windows/win32/Wincrypt/nf-wincrypt-certfindcertificateinstore?branch=master)
+-   [**CryptMsgClose**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgclose?branch=master)
+-   [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master)
+-   [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master)
 
 This example also uses the functions [**MyHandleError**](myhandleerror.md) and [**GetSignerCert**](getsignercert.md). C code for these functions is included with the example. For code that demonstrates these and other auxiliary functions, see [General Purpose Functions](general-purpose-functions.md).
 

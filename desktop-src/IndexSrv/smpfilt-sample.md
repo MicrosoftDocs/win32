@@ -1,7 +1,12 @@
 ---
 title: SmpFilt Sample
 description: SmpFilt Sample
-ms.assetid: '5ceab72d-008a-4e20-b461-2cf2d0cd89e6'
+ms.assetid: 5ceab72d-008a-4e20-b461-2cf2d0cd89e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SmpFilt Sample
@@ -11,7 +16,7 @@ ms.assetid: '5ceab72d-008a-4e20-b461-2cf2d0cd89e6'
 
  
 
-The SmpFilt sample is an example [**IFilter**](ifilter.md) implementation that reads an unformatted text file (with the extension .smp), using the ANSI code page of the current thread, and outputs UNICODE text for the current locale. It accepts as input only single-byte-character text files and not multibyte-character or UNICODE text files. It is the simplest sample of an **IFilter** implementation included in the Indexing Service sample code.
+The SmpFilt sample is an example [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementation that reads an unformatted text file (with the extension .smp), using the ANSI code page of the current thread, and outputs UNICODE text for the current locale. It accepts as input only single-byte-character text files and not multibyte-character or UNICODE text files. It is the simplest sample of an **IFilter** implementation included in the Indexing Service sample code.
 
 Source: mssdk\\samples\\winbase\\indexing\\smpfilt\\
 
@@ -45,7 +50,7 @@ Source: mssdk\\samples\\winbase\\indexing\\smpfilt\\
 
 ### Programming Notes
 
-The SmpFilt sample illustrates the basic structure of a filter. It minimally implements the methods of the [**IFilter**](ifilter.md) and [**IPersistFile**](_com_ipersistfile) interfaces. Because the SmpFilt sample does not filter any value-type properties, the implementation of [**IFilter::GetChunk**](ifilter-getchunk.md) does not process properties other than "contents," and [**IFilter::GetValue**](ifilter-getvalue.md) always indicates no values. For examples of how to filter value-type properties as well as text, refer to the [IFilter Sample](ifilter-sample.md) (HtmlFilt) or the [HtmlProp Sample](htmlprop-sample.md) in the Platform SDK.
+The SmpFilt sample illustrates the basic structure of a filter. It minimally implements the methods of the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) and [**IPersistFile**](_com_ipersistfile) interfaces. Because the SmpFilt sample does not filter any value-type properties, the implementation of [**IFilter::GetChunk**](/windows/win32/Filter/nf-filter-ifilter-getchunk?branch=master) does not process properties other than "contents," and [**IFilter::GetValue**](/windows/win32/Filter/nf-filter-ifilter-getvalue?branch=master) always indicates no values. For examples of how to filter value-type properties as well as text, refer to the [IFilter Sample](ifilter-sample.md) (HtmlFilt) or the [HtmlProp Sample](htmlprop-sample.md) in the Platform SDK.
 
 Error-handling in the SmpFilt sample is rudimentary. The sample handles only the most obvious error conditions. Comments in the source code list all the standard result codes and indicate whether they are implemented. If you use SmpFilt as a basis for your own filter, carefully determine the additional error conditions that you need to detect and handle.
 

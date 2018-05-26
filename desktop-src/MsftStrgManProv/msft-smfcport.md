@@ -4,11 +4,13 @@ description: Represents a Fibre Channel (FC) port.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aa21a408-fb5b-47f0-9834-71d057194c27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: aa21a408-fb5b-47f0-9834-71d057194c27
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMFCPort class", "MSFT_SMFCPort class, described"]
+keywords:
+- MSFT_SMFCPort class
+- MSFT_SMFCPort class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMFCPort class
@@ -45,20 +50,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMFCPort
 {
-  String  ObjectId;
-  string  SystemName;
-  string  DeviceID;
-  uint16  OperationalStatus[];
+  String  ObjectId;
+  string  SystemName;
+  string  DeviceID;
+  uint16  OperationalStatus[];
   boolean FullDuplex;
-  uint64  Speed;
-  uint64  MaxSpeed;
+  uint64  Speed;
+  uint64  MaxSpeed;
   boolean AutoSense;
-  string  PermanentAddress;
-  string  NetworkAddresses[];
-  uint16  PortNumber;
-  uint16  LinkTechnology;
-  uint16  UsageRestriction;
-  uint16  PortType;
+  string  PermanentAddress;
+  string  NetworkAddresses[];
+  uint16  PortNumber;
+  uint16  LinkTechnology;
+  uint16  UsageRestriction;
+  uint16  PortType;
 };
 ```
 
@@ -418,14 +423,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -499,14 +504,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>3–15999</dd> <dt>
+</dt> <dd>3 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -591,7 +596,7 @@ The possible values are.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -605,9 +610,9 @@ The possible values are.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

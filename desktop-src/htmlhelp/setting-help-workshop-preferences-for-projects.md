@@ -1,7 +1,12 @@
 ---
 title: Setting Help Workshop Preferences for Projects
 description: You can change how HTML Help Workshop operates to suit your work style.
-ms.assetid: 'AC62CF73-1002-4a2d-A76D-9CB2BFE2F0A3'
+ms.assetid: AC62CF73-1002-4a2d-A76D-9CB2BFE2F0A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Help Workshop Preferences for Projects

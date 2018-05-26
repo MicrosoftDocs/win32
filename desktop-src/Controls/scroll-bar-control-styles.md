@@ -1,7 +1,7 @@
 ---
 title: Scroll Bar Control Styles
 description: To create a scroll bar control using the CreateWindow or CreateWindowEx function specify the SCROLLBAR class, appropriate window style constants, and a combination of the following scroll bar control styles.
-ms.assetid: '07195a95-eff8-4a47-926a-9d503fa7b299'
+ms.assetid: 07195a95-eff8-4a47-926a-9d503fa7b299
 topic_type:
 - apiref
 api_name:
@@ -19,6 +19,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scroll Bar Control Styles
@@ -52,9 +57,9 @@ To create a scroll bar control using the [**CreateWindow**](https://msdn.microso
 
 
 
- 
+ 
 
- 
+ 
 
 
 

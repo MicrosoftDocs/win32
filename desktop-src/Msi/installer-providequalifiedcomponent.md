@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProvideQualifiedComponent method of the Installer object returns the full component path and performs any necessary installation. If necessary, this method prompts for the source and increments the usage count for the feature.'
-ms.assetid: '4f9a5094-1556-4d86-8b51-c8c3ce1cbed4'
-title: 'Installer.ProvideQualifiedComponent method'
+---
+Description: The ProvideQualifiedComponent method of the Installer object returns the full component path and performs any necessary installation. If necessary, this method prompts for the source and increments the usage count for the feature.
+ms.assetid: 4f9a5094-1556-4d86-8b51-c8c3ce1cbed4
+title: Installer.ProvideQualifiedComponent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ProvideQualifiedComponent method
@@ -80,7 +85,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**MsiProvideQualifiedComponent**](msiprovidequalifiedcomponent.md)
+[**MsiProvideQualifiedComponent**](/windows/win32/Msi/nf-msi-msiprovidequalifiedcomponenta?branch=master)
 </dt> </dl>
 
  

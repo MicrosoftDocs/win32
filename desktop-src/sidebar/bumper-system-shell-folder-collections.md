@@ -1,7 +1,12 @@
 ---
 title: Collections
 description: .
-ms.assetid: '13866188-5dff-4991-8ded-e9229d4ef3bc'
+ms.assetid: 13866188-5dff-4991-8ded-e9229d4ef3bc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collections

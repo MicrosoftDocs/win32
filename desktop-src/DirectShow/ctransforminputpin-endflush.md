@@ -1,12 +1,17 @@
 ---
-Description: 'The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.'
-ms.assetid: 'ebc70df3-e99d-4292-990b-99b79ff06461'
-title: 'CTransformInputPin.EndFlush method'
+Description: The EndFlush method ends a flush operation. This method implements the IPinEndFlush method.
+ms.assetid: ebc70df3-e99d-4292-990b-99b79ff06461
+title: CTransformInputPin.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.EndFlush method
 
-The `EndFlush` method ends a flush operation. This method implements the [**IPin::EndFlush**](ipin-endflush.md) method.
+The `EndFlush` method ends a flush operation. This method implements the [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) method.
 
 ## Syntax
 
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,9 +56,9 @@ This method calls the filter's [**CTransformFilter::EndFlush**](ctransformfilter
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a communication link to a reader, using a supplied display name for the reader.'
-ms.assetid: '7916896b-c460-47b2-a1db-17d8fc9bdd2e'
-title: 'ISCardManage::AttachByIFD method'
+---
+Description: Creates a communication link to a reader, using a supplied display name for the reader.
+ms.assetid: 7916896b-c460-47b2-a1db-17d8fc9bdd2e
+title: ISCardManageAttachByIFD method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardManage::AttachByIFD method

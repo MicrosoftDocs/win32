@@ -1,8 +1,10 @@
 ---
 title: CIM\_ProtocolControllerForUnit class
 description: Represents an association between a protocol controller and an exposed logical unit.
-ms.assetid: 'b88d954c-cde8-4693-8bd2-044a4c2c1257'
-keywords: ["CIM_ProtocolControllerForUnit class Hyper-V", "CIM_ProtocolControllerForUnit class Hyper-V , described"]
+ms.assetid: b88d954c-cde8-4693-8bd2-044a4c2c1257
+keywords:
+- CIM_ProtocolControllerForUnit class Hyper-V
+- CIM_ProtocolControllerForUnit class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ProtocolControllerForUnit class
@@ -30,11 +37,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, Version("2.8.0"), AMENDMENT]
 class CIM_ProtocolControllerForUnit : CIM_ProtocolControllerForDevice
 {
-  string                     DeviceNumber;
-  uint16                     AccessPriority;
-  uint16                     AccessState;
+  string                     DeviceNumber;
+  uint16                     AccessPriority;
+  uint16                     AccessState;
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
+  CIM_LogicalDevice      REF Dependent;
 };
 ```
 
@@ -171,9 +178,9 @@ This property is inherited from [**CIM\_ProtocolControllerForDevice**](cim-proto
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -186,9 +193,9 @@ This property is inherited from [**CIM\_ProtocolControllerForDevice**](cim-proto
 [**CIM\_ProtocolControllerForDevice**](cim-protocolcontrollerfordevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

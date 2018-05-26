@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the type of change that occurred in the vector.'
-ms.assetid: '213f4794-b972-44e3-a400-8a24b1583ddd'
-title: 'IVectorChangedEventArgs::get\_CollectionChange method'
+---
+Description: Gets the type of change that occurred in the vector.
+ms.assetid: 213f4794-b972-44e3-a400-8a24b1583ddd
+title: IVectorChangedEventArgsget\_CollectionChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVectorChangedEventArgs::get\_CollectionChange method

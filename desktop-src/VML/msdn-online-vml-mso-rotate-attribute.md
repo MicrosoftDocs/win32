@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Rotate Attribute
 description: VML MSO-Rotate Attribute
-ms.assetid: '33832c2f-cdfd-4f9d-8df4-c6d74fcf264e'
+ms.assetid: 33832c2f-cdfd-4f9d-8df4-c6d74fcf264e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Rotate Attribute

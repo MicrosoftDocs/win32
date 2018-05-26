@@ -1,8 +1,18 @@
 ---
 title: Window Callback Services
 description: Window Callback Services
-ms.assetid: '227602e5-7ea1-4afd-ac88-cfeabe746d1f'
-keywords: ["multimedia audio,window callback services", "audio,window callback services", "audio mixers,window callback services", "mixers,window callback services", "window callback services"]
+ms.assetid: 227602e5-7ea1-4afd-ac88-cfeabe746d1f
+keywords:
+- multimedia audio,window callback services
+- audio,window callback services
+- audio mixers,window callback services
+- mixers,window callback services
+- window callback services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Callback Services

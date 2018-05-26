@@ -1,6 +1,11 @@
 ---
-Description: 'The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a local computer.'
+Description: The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a local computer.
 title: About Synchronization Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Synchronization Manager

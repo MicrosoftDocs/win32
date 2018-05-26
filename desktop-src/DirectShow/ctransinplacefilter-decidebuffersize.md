@@ -1,7 +1,12 @@
 ---
-Description: 'The DecideBufferSize method sets the output pin''s buffer requirements.'
-ms.assetid: 'f1ddc39e-dcd5-4a44-8a8e-e384692408e1'
-title: 'CTransInPlaceFilter.DecideBufferSize method'
+Description: The DecideBufferSize method sets the output pins buffer requirements.
+ms.assetid: f1ddc39e-dcd5-4a44-8a8e-e384692408e1
+title: CTransInPlaceFilter.DecideBufferSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.DecideBufferSize method
@@ -13,8 +18,8 @@ The `DecideBufferSize` method sets the output pin's buffer requirements.
 
 ```C++
 HRESULT DecideBufferSize(
-   IMemAllocator        *pAlloc,
-   ALLOCATOR_PROPERTIES *pProperties
+   IMemAllocator        *pAlloc,
+   ALLOCATOR_PROPERTIES *pProperties
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT DecideBufferSize(
 *pAlloc* 
 </dt> <dd>
 
-Pointer to the [**IMemAllocator**](imemallocator.md) object used by the output pin.
+Pointer to the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) object used by the output pin.
 
 </dd> <dt>
 
 *pProperties* 
 </dt> <dd>
 
-Pointer to the requested allocator properties for count, size, and alignment, as specified by the [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure.
+Pointer to the requested allocator properties for count, size, and alignment, as specified by the [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure.
 
 </dd> </dl>
 
@@ -51,7 +56,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,9 +80,9 @@ This method is called when the **CTransInPlaceFilter** class needs to provide a 
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

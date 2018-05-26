@@ -1,7 +1,12 @@
 ---
 title: About Information Type Attributes
 description: About Information Type Attributes
-ms.assetid: '08483265-F6DB-46bd-BCAB-943759E9580E'
+ms.assetid: 08483265-F6DB-46bd-BCAB-943759E9580E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Information Type Attributes

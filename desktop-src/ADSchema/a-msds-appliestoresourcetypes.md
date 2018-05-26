@@ -4,17 +4,22 @@ description: For a resource property, this attribute indicates what resource typ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '51b6b8ed-63d8-46dc-ac73-79b4c0c801cf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 51b6b8ed-63d8-46dc-ac73-79b4c0c801cf
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Applies-To-Resource-Types attribute AD Schema", "msDS-AppliesToResourceTypes attribute AD Schema"]
+keywords:
+- ms-DS-Applies-To-Resource-Types attribute AD Schema
+- msDS-AppliesToResourceTypes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Applies-To-Resource-Types
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Applies-To-Resource-Types attribute
@@ -38,7 +43,7 @@ For a resource property, this attribute indicates what resource types this resou
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a resource property, this attribute indicates what resource types this resou
 
 
 
- 
+ 
 
- 
+ 
 
 
 

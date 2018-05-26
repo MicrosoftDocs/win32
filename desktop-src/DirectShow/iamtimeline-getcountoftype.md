@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetCountOfType method retrieves the number of objects of the specified type that are contained in a specified group and all of its children.'
-ms.assetid: 'f3571fa5-8020-4079-ab7e-ba9ff280c0c5'
-title: 'IAMTimeline::GetCountOfType method'
+---
+Description: The GetCountOfType method retrieves the number of objects of the specified type that are contained in a specified group and all of its children.
+ms.assetid: f3571fa5-8020-4079-ab7e-ba9ff280c0c5
+title: IAMTimelineGetCountOfType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetCountOfType method

@@ -1,8 +1,15 @@
 ---
 title: WinSNMP Error Codes
 description: WinSNMP Error Codes
-ms.assetid: '03b13b82-a31c-47e2-8b4d-17dcc4d19e56'
-keywords: ["WinSNMP Error Codes SNMP", "Error Codes SNMP , WinSNMP"]
+ms.assetid: 03b13b82-a31c-47e2-8b4d-17dcc4d19e56
+keywords:
+- WinSNMP Error Codes SNMP
+- Error Codes SNMP , WinSNMP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSNMP Error Codes
@@ -14,7 +21,7 @@ keywords: ["WinSNMP Error Codes SNMP", "Error Codes SNMP , WinSNMP"]
 
  
 
-All WinSNMP functions return the value **SNMPAPI\_FAILURE** if the function fails. The WinSNMP application must immediately call the [**SnmpGetLastError**](snmpgetlasterror.md) function to retrieve extended error information when a WinSNMP function fails. The following table lists topics that discuss extended error codes returned by WinSNMP functions.
+All WinSNMP functions return the value **SNMPAPI\_FAILURE** if the function fails. The WinSNMP application must immediately call the [**SnmpGetLastError**](/windows/win32/Winsnmp/nf-winsnmp-snmpgetlasterror?branch=master) function to retrieve extended error information when a WinSNMP function fails. The following table lists topics that discuss extended error codes returned by WinSNMP functions.
 
 
 

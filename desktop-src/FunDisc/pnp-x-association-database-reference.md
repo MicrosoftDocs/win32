@@ -1,7 +1,12 @@
 ---
-Description: 'PnP-X defines the following interfaces for use with the association database.'
-ms.assetid: '9e24b37b-ed9e-4099-9c09-23db023422d0'
-title: 'PnP-X Association Database Reference'
+Description: PnP-X defines the following interfaces for use with the association database.
+ms.assetid: 9e24b37b-ed9e-4099-9c09-23db023422d0
+title: PnP-X Association Database Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PnP-X Association Database Reference
@@ -10,8 +15,8 @@ title: 'PnP-X Association Database Reference'
 
 PnP-X defines the following interfaces for use with the association database.
 
--   [**IPNPXAssociation**](ipnpxassociation.md)
--   [**IPNPXDeviceAssociation**](ipnpxdeviceassociation.md)
+-   [**IPNPXAssociation**](/windows/win32/pnpxassoc/nn-pnpxassoc-ipnpxassociation?branch=master)
+-   [**IPNPXDeviceAssociation**](/windows/win32/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation?branch=master)
 
 ## Related topics
 

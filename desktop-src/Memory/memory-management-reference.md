@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used with memory management:'
-ms.assetid: 'f86df425-beff-4fea-a437-df9ea07cf415'
+Description: The following elements are used with memory management
+ms.assetid: f86df425-beff-4fea-a437-df9ea07cf415
 title: Memory Management Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management Reference

@@ -4,17 +4,21 @@ description: Gets the notification type of the tracked document.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '457BB873-3903-4941-8BC7-D1C9F47EE39A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 457BB873-3903-4941-8BC7-D1C9F47EE39A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata getNotificationType method"]
+keywords:
+- LicenseMetadata getNotificationType method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata getNotificationType method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata getNotificationType method
@@ -45,11 +49,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

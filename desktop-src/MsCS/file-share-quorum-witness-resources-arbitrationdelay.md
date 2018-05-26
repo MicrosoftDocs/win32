@@ -4,17 +4,21 @@ description: The number of seconds to delay a node from locking a file share wit
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'C7FDAAA4-B373-4FB5-B1C6-6A8A5D8C88FF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: C7FDAAA4-B373-4FB5-B1C6-6A8A5D8C88FF
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ArbitrationDelay Failover Cluster"]
+keywords:
+- ArbitrationDelay Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ArbitrationDelay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ArbitrationDelay
@@ -35,7 +39,7 @@ The number of seconds to delay a node from locking a file share witness during a
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +52,7 @@ If cluster nodes lose communication with each other and a file share witness is 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -59,9 +63,9 @@ If cluster nodes lose communication with each other and a file share witness is 
 [File Share Quorum Witness Resource Private Properties](file-share-quorum-witness-resource-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

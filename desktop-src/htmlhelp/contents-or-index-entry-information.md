@@ -1,7 +1,12 @@
 ---
 title: Contents or Index Entry Information
 description: Help is available for all the items on this tab. If you need conceptual information, select the \ 0034;About \ 0034; topic, otherwise click a procedure.
-ms.assetid: '550EC79D-1BCD-48ee-9C3E-F1BA662751D8'
+ms.assetid: 550EC79D-1BCD-48ee-9C3E-F1BA662751D8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contents or Index Entry Information

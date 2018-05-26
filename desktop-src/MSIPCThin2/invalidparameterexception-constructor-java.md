@@ -4,17 +4,21 @@ description: Initializes a new instance of the InvalidParameterException class w
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '9966d879-0c84-42ef-8cb0-d093b187cdde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 9966d879-0c84-42ef-8cb0-d093b187cdde
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["InvalidParameterException(String, String) constructor"]
+keywords:
+- InvalidParameterException(String, String) constructor
 topic_type:
 - apiref
 api_name:
 - InvalidParameterException(String, String) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InvalidParameterException(String, String) constructor
@@ -24,7 +28,7 @@ Initializes a new instance of the [**InvalidParameterException**](invalidparamet
 > [!Note]  
 > The message is precise and just revealing enough to pinpoint the invalid parameter which will assist you to find mistakes in your code.
 
- 
+ 
 
 ## Signature
 
@@ -43,7 +47,7 @@ public InvalidParameterException(String tag, String message)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -60,9 +64,9 @@ InvalidParameterException.java
 [**InvalidParameterException**](invalidparameterexception-class-java.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

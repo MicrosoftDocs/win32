@@ -1,8 +1,25 @@
 ---
 title: opclib.cpp
 description: opclib.cpp
-ms.assetid: '33c3bacc-e932-44ab-ae75-f9326cfd94c4'
-keywords: ["Packaging APIs,set author sample", "packaging,set author sample", "packages,set author sample", "Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "set author sample,opclib.cpp", "Packaging APIs,opclib.cpp", "packaging,opclib.cpp", "packages,opclib.cpp", "opclib.cpp", "sample applications,set author"]
+ms.assetid: 33c3bacc-e932-44ab-ae75-f9326cfd94c4
+keywords:
+- Packaging APIs,set author sample
+- packaging,set author sample
+- packages,set author sample
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- set author sample,opclib.cpp
+- Packaging APIs,opclib.cpp
+- packaging,opclib.cpp
+- packages,opclib.cpp
+- opclib.cpp
+- sample applications,set author
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # opclib.cpp

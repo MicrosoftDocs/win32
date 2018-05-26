@@ -4,11 +4,15 @@ description: The Generic Script resource DLL automatically creates an instance o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd641e062-e7ff-4997-9cbc-018a467f1de3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d641e062-e7ff-4997-9cbc-018a467f1de3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Resource object Failover Cluster , using"]
+keywords:
+- Resource object Failover Cluster , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Resource Object

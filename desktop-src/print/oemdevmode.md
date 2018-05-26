@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDevMode function
-ms.assetid: '491217e9-8cc1-47de-af37-92db377a8c2d'
+ms.assetid: 491217e9-8cc1-47de-af37-92db377a8c2d
 title: OEMDevMode function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDevMode function

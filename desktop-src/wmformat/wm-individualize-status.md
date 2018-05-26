@@ -1,8 +1,9 @@
 ---
 title: WM\_INDIVIDUALIZE\_STATUS structure
 description: The WM\_INDIVIDUALIZE\_STATUS structure records the status of the individualization process.
-ms.assetid: 'af7e8758-489b-461f-b241-d7e40c8d61da'
-keywords: ["WM_INDIVIDUALIZE_STATUS structure windows Media Format"]
+ms.assetid: af7e8758-489b-461f-b241-d7e40c8d61da
+keywords:
+- WM_INDIVIDUALIZE_STATUS structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Drmexternals.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_INDIVIDUALIZE\_STATUS structure
@@ -22,13 +28,13 @@ The **WM\_INDIVIDUALIZE\_STATUS** structure records the status of the [*individu
 
 ```C++
 typedef struct _WMIndividualizeStatus {
-  HRESULT                      hr;
+  HRESULT                      hr;
   DRM_INDIVIDUALIZATION_STATUS enIndiStatus;
-  LPSTR                        pszIndiRespUrl;
-  DWORD                        dwHTTPRequest;
-  DRM_HTTP_STATUS              enHTTPStatus;
-  DWORD                        dwHTTPReadProgress;
-  DWORD                        dwHTTPReadTotal;
+  LPSTR                        pszIndiRespUrl;
+  DWORD                        dwHTTPRequest;
+  DRM_HTTP_STATUS              enHTTPStatus;
+  DWORD                        dwHTTPReadProgress;
+  DWORD                        dwHTTPReadTotal;
 } WM_INDIVIDUALIZE_STATUS;
 ```
 
@@ -89,7 +95,7 @@ Value from the [**DRM\_HTTP\_STATUS**](drm-http-status.md) enumeration type.
 
 ## Remarks
 
-This structure is filled in by the DRM run-time components and is sent to applications in the *pValue* parameter of the applications [**IWMStatusCallback::OnStatus**](iwmstatuscallback-onstatus.md) method when the event equals WMT\_INDIVIDUALIZE. The application receives this event multiple times during the download process.
+This structure is filled in by the DRM run-time components and is sent to applications in the *pValue* parameter of the applications [**IWMStatusCallback::OnStatus**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus?branch=master) method when the event equals WMT\_INDIVIDUALIZE. The application receives this event multiple times during the download process.
 
 ## Requirements
 
@@ -97,8 +103,8 @@ This structure is filled in by the DRM run-time components and is sent to applic
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |
 | Version<br/>                  | Windows Media Format 7 SDK, or later versions of the SDK<br/>                       |
 | Header<br/>                   | <dl> <dt>Drmexternals.h</dt> </dl> |
 
@@ -114,9 +120,9 @@ This structure is filled in by the DRM run-time components and is sent to applic
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoded video bit stream contains a buffer fullness value with every key frame.'
-ms.assetid: '5574ee3c-ccb3-4ff6-8280-efe5626e6dd6'
-title: 'MFPKEY\_BUFFERFULLNESSINFIRSTBYTE Property'
+---
+Description: Specifies whether the encoded video bit stream contains a buffer fullness value with every key frame.
+ms.assetid: 5574ee3c-ccb3-4ff6-8280-efe5626e6dd6
+title: MFPKEY\_BUFFERFULLNESSINFIRSTBYTE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_BUFFERFULLNESSINFIRSTBYTE Property
@@ -20,7 +25,7 @@ VT\_BOOL
 
 You must set an output type before getting this value.
 
-You can get the value of this property using [IWMCodecProps::GetCodecProp](iwmcodecpropsgetcodecprop.md). If you use **IPropertyBag**, you must first set the FOURCC value of the desired compressed format with the [MFPKEY\_FOURCC](mfpkey-fourccproperty.md) property.
+You can get the value of this property using [IWMCodecProps::GetCodecProp](/windows/win32/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getcodecprop?branch=master). If you use **IPropertyBag**, you must first set the FOURCC value of the desired compressed format with the [MFPKEY\_FOURCC](mfpkey-fourccproperty.md) property.
 
 Having the buffer fullness in the first byte of all key frames enables you to determine the buffer size required when concatenating compressed video streams.
 

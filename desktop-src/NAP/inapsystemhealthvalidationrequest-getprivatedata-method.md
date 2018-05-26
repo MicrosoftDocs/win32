@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthValidationRequest GetPrivateData method
 description: Allows the NapServer to retrieve state information.
-ms.assetid: 'f85026ca-852b-4eb1-9a8c-7e03cd1765f2'
-keywords: ["GetPrivateData method NAP", "GetPrivateData method NAP , INapSystemHealthValidationRequest interface", "INapSystemHealthValidationRequest interface NAP , GetPrivateData method"]
+ms.assetid: f85026ca-852b-4eb1-9a8c-7e03cd1765f2
+keywords:
+- GetPrivateData method NAP
+- GetPrivateData method NAP , INapSystemHealthValidationRequest interface
+- INapSystemHealthValidationRequest interface NAP , GetPrivateData method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthValidationRequest::GetPrivateData method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthValidationRequest::GetPrivateData** method allows the NapServer to retrieve state information.
 
@@ -27,7 +35,7 @@ The **INapSystemHealthValidationRequest::GetPrivateData** method allows the NapS
 
 ```C++
 HRESULT GetPrivateData(
-  [out] PrivateData **privateData
+  [out] PrivateData **privateData
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetPrivateData(
 *privateData* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to [**PrivateData**](privatedata-struct.md) opaque data blob that contains state information.
+A pointer to a pointer to [**PrivateData**](/windows/win32/NapTypes/ns-naptypes-tagprivatedata?branch=master) opaque data blob that contains state information.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,7 +79,7 @@ Only the NapServer can interpret the data blob.
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>NapSystemHealthValidator.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthValidator.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
@@ -85,9 +93,9 @@ Only the NapServer can interpret the data blob.
 [**INapSystemHealthValidationRequest**](inapsystemhealthvalidationrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

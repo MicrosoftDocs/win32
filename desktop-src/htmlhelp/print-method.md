@@ -1,7 +1,12 @@
 ---
 title: Print Method
 description: Use the Print method to print one or more topics in a specified contents (.hhc) file.
-ms.assetid: 'E828EDFC-8553-4c91-A7A6-1AF140C51AA6'
+ms.assetid: E828EDFC-8553-4c91-A7A6-1AF140C51AA6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Method

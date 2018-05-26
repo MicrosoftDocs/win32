@@ -1,14 +1,20 @@
 ---
 title: VIDEO.onvideoend
 description: The onvideoend event handler handles an event that occurs when the video stops rendering and is unloaded.
-ms.assetid: '6b9ad6fa-cb7d-44ef-baae-3b6861c9e975'
-keywords: ["VIDEO.onvideoend Windows Media Player"]
+ms.assetid: 6b9ad6fa-cb7d-44ef-baae-3b6861c9e975
+keywords:
+- VIDEO.onvideoend Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.onvideoend
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.onvideoend
@@ -37,9 +43,9 @@ onvideoend
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

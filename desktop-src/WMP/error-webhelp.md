@@ -1,8 +1,11 @@
 ---
 title: Error.webHelp method
 description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
-ms.assetid: '79797b41-1d47-4347-aa47-c104f7f7fbaf'
-keywords: ["webHelp method Windows Media Player", "webHelp method Windows Media Player , Error class", "Error class Windows Media Player , webHelp method"]
+ms.assetid: 79797b41-1d47-4347-aa47-c104f7f7fbaf
+keywords:
+- webHelp method Windows Media Player
+- webHelp method Windows Media Player , Error class
+- Error class Windows Media Player , webHelp method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.webHelp method
@@ -81,9 +89,9 @@ OnClick = "Player.error.webHelp();
 [**Error Object**](error-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

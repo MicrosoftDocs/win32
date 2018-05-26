@@ -1,7 +1,12 @@
 ---
 title: Running a Troubleshooting Pack
 description: Users can launch the troubleshooting packs or an application can detect an issue and prompt the user to start a troubleshooting pack.
-ms.assetid: '72cc7166-55b2-421b-a342-104aff4e43c4'
+ms.assetid: 72cc7166-55b2-421b-a342-104aff4e43c4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running a Troubleshooting Pack

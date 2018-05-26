@@ -1,7 +1,12 @@
 ---
 title: DO Reference
 description: The Delivery Optimization (DO) reference section contains detailed information about the following API elements.
-ms.assetid: 'A024A684-5506-4DD6-AA4D-C77DF10968DF'
+ms.assetid: A024A684-5506-4DD6-AA4D-C77DF10968DF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DO Reference

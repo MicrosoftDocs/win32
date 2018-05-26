@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the objects provided by LSA.'
-ms.assetid: 'cfda8839-6da1-47e6-bae3-3e426c896ef2'
+Description: Lists the objects provided by LSA.
+ms.assetid: cfda8839-6da1-47e6-bae3-3e426c896ef2
 title: Security Management Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Management Objects

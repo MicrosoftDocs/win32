@@ -4,17 +4,21 @@ description: Exchange right allows receiving mail as a given mailbox.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3fa0cab3-5de4-4bd9-9e6c-95b0b6a4c0f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3fa0cab3-5de4-4bd9-9e6c-95b0b6a4c0f8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Receive-As extended right AD Schema"]
+keywords:
+- Receive-As extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - Receive-As
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receive-As extended right
@@ -33,12 +37,12 @@ Exchange right: allows receiving mail as a given mailbox.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -106,9 +110,9 @@ Exchange right: allows receiving mail as a given mailbox.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

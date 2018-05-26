@@ -1,14 +1,20 @@
 ---
 title: Implementation-Dependent Pixel-Depth State Variables
 description: Implementation-Dependent Pixel-Depth State Variables
-ms.assetid: '3e1de9fe-dce5-437f-ae21-875958660da9'
-keywords: ["Implementation-Dependent Pixel-Depth State Variables OpenGL"]
+ms.assetid: 3e1de9fe-dce5-437f-ae21-875958660da9
+keywords:
+- Implementation-Dependent Pixel-Depth State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Implementation-Dependent Pixel-Depth State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementation-Dependent Pixel-Depth State Variables

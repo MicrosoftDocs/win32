@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the information that describes the vertical component of the lines in the stationery used by the Journal note. Used, for example, when the note has grid lines.'
-ms.assetid: 'af6f485e-13df-41bb-b57a-10d8393b83e7'
+---
+Description: Contains the information that describes the vertical component of the lines in the stationery used by the Journal note. Used, for example, when the note has grid lines.
+ms.assetid: af6f485e-13df-41bb-b57a-10d8393b83e7
 title: Vertical Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vertical Element

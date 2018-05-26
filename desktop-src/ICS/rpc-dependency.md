@@ -1,7 +1,12 @@
 ---
 title: RPC Dependency
 description: Which Firewall rules are necessary with RPC depends on how you are using RPC.
-ms.assetid: '12f5f5c6-5138-4697-9493-b5a32b71f09b'
+ms.assetid: 12f5f5c6-5138-4697-9493-b5a32b71f09b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Dependency

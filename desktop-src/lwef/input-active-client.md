@@ -1,7 +1,12 @@
 ---
 title: Input-Active Client
 description: Input-Active Client
-ms.assetid: 'b46e91d3-eca7-4a4a-b1ce-27b5e6ad92a5'
+ms.assetid: b46e91d3-eca7-4a4a-b1ce-27b5e6ad92a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input-Active Client

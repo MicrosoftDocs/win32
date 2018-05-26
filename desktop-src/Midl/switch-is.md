@@ -2,13 +2,19 @@
 title: switch\_is attribute
 description: The \ switch\_is\ attribute specifies the expression or identifier acting as the union discriminant that selects the union member.
 ms.assetid: 93552bdf-6a14-47ce-877e-32ed976bb895
-keywords: ["switch_is attribute MIDL"]
+keywords:
+- switch_is attribute MIDL
 topic_type:
 - apiref
 api_name:
 - switch_is
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # switch\_is attribute

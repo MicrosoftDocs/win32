@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of Signer objects.'
-ms.assetid: '3e28f08a-c4d8-4dd7-953a-e1500eb5bee0'
+---
+Description: Represents a collection of Signer objects.
+ms.assetid: 3e28f08a-c4d8-4dd7-953a-e1500eb5bee0
 title: Signers object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signers object

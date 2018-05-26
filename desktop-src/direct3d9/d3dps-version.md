@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create a pixel shader version token.'
-ms.assetid: '70089a93-83df-4ac4-8d98-4e1bb6ad2581'
-title: 'D3DPS\_VERSION macro'
+---
+Description: Create a pixel shader version token.
+ms.assetid: 70089a93-83df-4ac4-8d98-4e1bb6ad2581
+title: D3DPS\_VERSION macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPS\_VERSION macro
@@ -80,7 +85,7 @@ The version number is a combination of the major version and the minor vertex sh
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[D3DCAPS9](d3dcaps9.md)
+[D3DCAPS9](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master)
 </dt> </dl>
 
  

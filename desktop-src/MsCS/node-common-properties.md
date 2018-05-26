@@ -4,11 +4,17 @@ description: Common properties for nodes are data values stored in the cluster d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f56a0ce9-9a53-4c40-bab9-02a370ed2b47'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f56a0ce9-9a53-4c40-bab9-02a370ed2b47
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["node properties Failover Cluster", "properties Failover Cluster ,node (common) properties", "nodes Failover Cluster ,properties"]
+keywords:
+- node properties Failover Cluster
+- properties Failover Cluster ,node (common) properties
+- nodes Failover Cluster ,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node Common Properties

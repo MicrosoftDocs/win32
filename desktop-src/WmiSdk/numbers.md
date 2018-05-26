@@ -1,13 +1,16 @@
 ---
-Description: 'In MOF, numbers are digits that describe numerical values. MOF provides a variety of data types that translate into Automation, and also allows those numbers to be in different formats. The following table lists the numeric values that MOF supports.'
+Description: In MOF, numbers are digits that describe numerical values. MOF provides a variety of data types that translate into Automation, and also allows those numbers to be in different formats. The following table lists the numeric values that MOF supports.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7a18ed36-9c12-42be-a4ee-0f6c0097b130'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7a18ed36-9c12-42be-a4ee-0f6c0097b130
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Numbers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Numbers
@@ -31,7 +34,7 @@ In MOF, numbers are digits that describe numerical values. MOF provides a variet
 
 
 
- 
+ 
 
 Although flexible, MOF code does encounter some changes when dealing with Automation:
 
@@ -41,13 +44,13 @@ Although flexible, MOF code does encounter some changes when dealing with Automa
 
 -   Automation types do not always correspond in bit size to MOF data types.
 
-    For example, Automation uses VT\_I4 to return an unsigned 16-bit value. This discrepancy exists because of sign-extension problems. If Automation used VT\_I2 instead of VT\_I4, 65,536 would appear to be the value –1, causing type and range problems. Similarly, Automation represents the **uint32** type as VT\_I4 because there exists no larger integer type to contain **uint32**.
+    For example, Automation uses VT\_I4 to return an unsigned 16-bit value. This discrepancy exists because of sign-extension problems. If Automation used VT\_I2 instead of VT\_I4, 65,536 would appear to be the value  1, causing type and range problems. Similarly, Automation represents the **uint32** type as VT\_I4 because there exists no larger integer type to contain **uint32**.
 
 -   You do not need to change any representation for 8-bit numeral types.
 
     Automation supports VT\_UI1, an unsigned 8-bit type.
 
-MOF supports long constants. You declare a long constant using a simple series of digits with an optional negative sign. A long constant cannot exceed the size of the variable that is declared to hold it. Some examples of long constants are 1000 and –12310.
+MOF supports long constants. You declare a long constant using a simple series of digits with an optional negative sign. A long constant cannot exceed the size of the variable that is declared to hold it. Some examples of long constants are 1000 and  12310.
 
 MOF also supports alternate numerical formats. The following table lists the special characters you must use to describe hexadecimal, binary, and octal constants.
 
@@ -62,7 +65,7 @@ MOF also supports alternate numerical formats. The following table lists the spe
 
 
 
- 
+ 
 
 You can use a floating-point constant to represent scientific notation as well as fractions, as shown next:
 
@@ -112,9 +115,9 @@ instance of NumericDataClass
  };
 ```
 
- 
+ 
 
- 
+ 
 
 
 

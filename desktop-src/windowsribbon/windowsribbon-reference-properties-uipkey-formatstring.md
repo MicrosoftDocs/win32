@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_FormatString
 description: Identifies the UI\_PKEY\_FormatString property.
-ms.assetid: 'b0ad0585-62f4-445c-93e7-6575d76e6ba6'
+ms.assetid: b0ad0585-62f4-445c-93e7-6575d76e6ba6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_FormatString

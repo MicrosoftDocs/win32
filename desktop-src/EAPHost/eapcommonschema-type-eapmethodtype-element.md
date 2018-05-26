@@ -1,14 +1,20 @@
 ---
 title: Type (EapMethodType) Element
 description: Refers to the EAP method type.
-ms.assetid: '7911e97c-9436-4d60-8497-bee45cdb8db4'
-keywords: ["Type element EAPHost"]
+ms.assetid: 7911e97c-9436-4d60-8497-bee45cdb8db4
+keywords:
+- Type element EAPHost
 topic_type:
 - apiref
 api_name:
 - Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type (EapMethodType) Element
@@ -31,8 +37,8 @@ The **Type** element is defined by the [**EapMethodType**](eapcommonschema-eapme
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -52,9 +58,9 @@ The **Type** element is defined by the [**EapMethodType**](eapcommonschema-eapme
 [eapcommon Schema](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

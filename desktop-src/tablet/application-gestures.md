@@ -1,7 +1,12 @@
 ---
-Description: 'Application gestures are gestures that you choose to have your application support.'
-ms.assetid: '5752ea0e-f4c0-4952-bc82-a3396e1b9e1a'
+Description: Application gestures are gestures that you choose to have your application support.
+ms.assetid: 5752ea0e-f4c0-4952-bc82-a3396e1b9e1a
 title: Application Gestures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Gestures

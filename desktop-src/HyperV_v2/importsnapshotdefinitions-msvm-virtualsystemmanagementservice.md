@@ -1,7 +1,12 @@
 ---
-Description: 'Searches the specified folder for any snapshot definition files associated with the specified planned computer system, and creates a new snapshot on the planned computer system for every associated definition file in this location.'
-ms.assetid: 'd240c24b-f788-4ea9-b3bd-af1f75f4f460'
-title: 'ImportSnapshotDefinitions method of the Msvm\_VirtualSystemManagementService class'
+Description: Searches the specified folder for any snapshot definition files associated with the specified planned computer system, and creates a new snapshot on the planned computer system for every associated definition file in this location.
+ms.assetid: d240c24b-f788-4ea9-b3bd-af1f75f4f460
+title: ImportSnapshotDefinitions method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImportSnapshotDefinitions method of the Msvm\_VirtualSystemManagementService class
@@ -13,10 +18,10 @@ Searches the specified folder for any snapshot definition files associated with 
 
 ```mof
 uint32 ImportSnapshotDefinitions(
-  [in]  Msvm_PlannedComputerSystem    REF PlannedSystem,
-  [in]  string                            SnapshotFolder,
-  [out] Msvm_VirtualSystemSettingData REF ImportedSnapshots[],
-  [out] CIM_ConcreteJob               REF Job
+  [in]  Msvm_PlannedComputerSystem    REF PlannedSystem,
+  [in]  string                            SnapshotFolder,
+  [out] Msvm_VirtualSystemSettingData REF ImportedSnapshots[],
+  [out] CIM_ConcreteJob               REF Job
 );
 ```
 
@@ -108,8 +113,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -123,9 +128,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

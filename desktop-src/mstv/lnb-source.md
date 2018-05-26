@@ -1,8 +1,9 @@
 ---
 title: LNB\_Source enumeration
 description: Specifies the Digital Satellite Equipment Control (DiSeqC) Low Noise Blocker (LNB) input source.
-ms.assetid: '586bcbf7-dd7a-45d3-b35a-dba785d13970'
-keywords: ["LNB_Source enumeration Microsoft TV Technologies"]
+ms.assetid: 586bcbf7-dd7a-45d3-b35a-dba785d13970
+keywords:
+- LNB_Source enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,24 +12,29 @@ api_location:
 - Bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LNB\_Source enumeration
 
-Specifies the Digital Satellite Equipment Control (DiSeqC) Low Noise Blocker (LNB) input source. This type is used by Digital Video Broadcast-Satellite version 2 (DBS2) tuner devices that support the [**IDVBSLocator2**](idvbslocator2.md) interface.
+Specifies the Digital Satellite Equipment Control (DiSeqC) Low Noise Blocker (LNB) input source. This type is used by Digital Video Broadcast-Satellite version 2 (DBS2) tuner devices that support the [**IDVBSLocator2**](/windows/previous-versions/tuner/nn-tuner-idvbslocator2?branch=master) interface.
 
 ## Syntax
 
 
 ```C++
 typedef enum  { 
-  BDA_LNB_SOURCE_NOT_SET      = -1,
-  BDA_LNB_SOURCE_NOT_DEFINED  = 0,
-  BDA_LNB_SOURCE_A            = 1,
-  BDA_LNB_SOURCE_B            = 2,
-  BDA_LNB_SOURCE_C            = 3,
-  BDA_LNB_SOURCE_D            = 4,
-  BDA_LNB_SOURCE_MAX          = 5
+  BDA_LNB_SOURCE_NOT_SET      = -1,
+  BDA_LNB_SOURCE_NOT_DEFINED  = 0,
+  BDA_LNB_SOURCE_A            = 1,
+  BDA_LNB_SOURCE_B            = 2,
+  BDA_LNB_SOURCE_C            = 3,
+  BDA_LNB_SOURCE_D            = 4,
+  BDA_LNB_SOURCE_MAX          = 5
 } LNB_Source;
 ```
 
@@ -93,7 +99,7 @@ Maximum legal value for the input source.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
@@ -103,12 +109,12 @@ Maximum legal value for the input source.
 
 <dl> <dt>
 
-[**IDVBSLocator2**](idvbslocator2.md)
+[**IDVBSLocator2**](/windows/previous-versions/tuner/nn-tuner-idvbslocator2?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

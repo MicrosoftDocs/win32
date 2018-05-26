@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense CreateEncryptor method
 description: The CreateEncryptor method creates an encryptor object using the settings of the current license.
-ms.assetid: '570ba898-e846-4981-8ea8-ce16f2dad68a'
-keywords: ["CreateEncryptor method windows Media Format", "CreateEncryptor method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , CreateEncryptor method"]
+ms.assetid: 570ba898-e846-4981-8ea8-ce16f2dad68a
+keywords:
+- CreateEncryptor method windows Media Format
+- CreateEncryptor method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , CreateEncryptor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::CreateEncryptor method
@@ -22,7 +30,7 @@ The **CreateEncryptor** method creates an encryptor object using the settings of
 
 ```C++
 HRESULT CreateEncryptor(
-  [out] IWMDRMEncrypt **ppEncryptor
+  [out] IWMDRMEncrypt **ppEncryptor
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,9 +86,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

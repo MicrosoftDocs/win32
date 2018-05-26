@@ -1,16 +1,18 @@
 ---
 title: MSFT\_SmbShareAccessControlEntry class
-description: Represents the access permissions that have been granted to a share's users.
+description: Represents the access permissions that have been granted to a shares users.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e6812e57-2757-48ab-a61c-beee50332e56'
-ms.prod: 'windows-server-dev'
+ms.assetid: e6812e57-2757-48ab-a61c-beee50332e56
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbShareAccessControlEntry class SMB", "MSFT_SmbShareAccessControlEntry class SMB , described"]
+keywords:
+- MSFT_SmbShareAccessControlEntry class SMB
+- MSFT_SmbShareAccessControlEntry class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbShareAccessControlEntry class
@@ -177,17 +182,17 @@ There will be one instance of this class per share per ACL entry in the share's 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

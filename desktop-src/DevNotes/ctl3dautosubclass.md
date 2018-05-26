@@ -1,7 +1,12 @@
-﻿---
-Description: 'Automatically subclasses and adds 3D effects to all dialog boxes in the application.'
-ms.assetid: '96555052-c564-4cc7-9b24-e527f8e2f879'
+---
+Description: Automatically subclasses and adds 3D effects to all dialog boxes in the application.
+ms.assetid: 96555052-c564-4cc7-9b24-e527f8e2f879
 title: Ctl3dAutoSubclass function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ctl3dAutoSubclass function

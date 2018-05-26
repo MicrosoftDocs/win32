@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MPEG-2 Video Decoder is a Media Foundation transform that decodes MPEG-1 and MPEG-2 video.'
-ms.assetid: '3E7FAE14-932D-44A3-997B-567C0D2EAE7B'
-title: 'MPEG-2 Video Decoder'
+---
+Description: The MPEG-2 Video Decoder is a Media Foundation transform that decodes MPEG-1 and MPEG-2 video.
+ms.assetid: 3E7FAE14-932D-44A3-997B-567C0D2EAE7B
+title: MPEG-2 Video Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Video Decoder
@@ -39,13 +44,13 @@ The decoder supports the following output types.
 The MPEG-2 video decoder exposes the following interfaces:
 
 -   [**ICodecAPI**](dshow.icodecapi)
--   [**IMFGetService**](imfgetservice.md)
--   [**IMFQualityAdvise**](imfqualityadvise.md)
--   [**IMFQualityAdvise2**](imfqualityadvise2.md)
--   [**IMFRateControl**](imfratecontrol.md)
--   [**IMFRateSupport**](imfratesupport.md)
--   [**IMFRealTimeClient**](imfrealtimeclient.md)
--   [**IMFTransform**](imftransform.md)
+-   [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master)
+-   [**IMFQualityAdvise**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise?branch=master)
+-   [**IMFQualityAdvise2**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise2?branch=master)
+-   [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master)
+-   [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)
+-   [**IMFRealTimeClient**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclient?branch=master)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 
 The input to the decoder must be an elementary stream. The maximum supported resolution is 1920 × 1088 pixels.
 
@@ -54,13 +59,13 @@ The decoder supports DirectX Video Acceleration (DXVA) using either Microsoft Di
 ### Special Decoding Modes
 
 -   **Low latency mode.** This mode is appropriate for scenarios such as real-time communications. It reduces start-up latency, so the decoder produces the first output sample sooner. However, the decoder buffers fewer samples in this mode, which can potentially lead to glitches, because the decoder does not decode as many frames in advance. To enable low latency mode, set the [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md) attribute.
--   **Seeking.** For precise seeking, call the [**IMFTransform::SetOutputBounds**](imftransform-setoutputbounds.md) method. When this method is called, the decoder outputs only frames that fall within the range of time stamps specified by the caller.
+-   **Seeking.** For precise seeking, call the [**IMFTransform::SetOutputBounds**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputbounds?branch=master) method. When this method is called, the decoder outputs only frames that fall within the range of time stamps specified by the caller.
 -   **Thumbnail generation mode**. This mode is intended for quick generation of thumbnail images. In this mode, the decoder initially decodes only I frames. If no I frame is found within a certain number of frames, the decoder starts decoding P frames and outputs non–I frames at a fixed interval (one per *N* pictures) until an I frame is reached. To enable thumbnail generation mode, set the [CODECAPI\_AVDecVideoThumbnailGenerationMode](dshow.avdecvideothumbnailgenerationmode_property) property.
 -   **Trick play.** The decoder can decode at rates faster than real time. At higher playback rates, the decoder will switch to decoding only I frames. For reverse playback, only I frames are decoded.
 
 ### Codec Properties
 
-The decoder supports the following properties through the [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method.
+The decoder supports the following properties through the [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method.
 
 
 

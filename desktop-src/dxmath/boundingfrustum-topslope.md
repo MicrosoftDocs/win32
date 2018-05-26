@@ -1,12 +1,17 @@
-﻿---
-Description: 'The slope of the top of the BoundingFrustum.'
-ms.assetid: '66aa839f-6280-4788-8e48-947e4d27ffbd'
-title: 'BoundingFrustum.TopSlope'
+---
+Description: The slope of the top of the BoundingFrustum.
+ms.assetid: 66aa839f-6280-4788-8e48-947e4d27ffbd
+title: BoundingFrustum.TopSlope
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingFrustum.TopSlope
 
-The slope of the top of the [**BoundingFrustum**](boundingfrustum.md).
+The slope of the top of the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](boundingfrustum.md)
+[**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a relationship in which a managed element is a member of and is aggregated by a collection.'
-ms.assetid: '324284fa-ece6-41df-9891-040a7561dce4'
-title: 'CIM\_MemberOfCollection class'
+Description: Represents a relationship in which a managed element is a member of and is aggregated by a collection.
+ms.assetid: 324284fa-ece6-41df-9891-040a7561dce4
+title: CIM\_MemberOfCollection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MemberOfCollection class
@@ -14,7 +19,7 @@ Represents a relationship in which a managed element is a member of and is aggre
 [Association, Aggregation, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Core::Collection"), AMENDMENT]
 class CIM_MemberOfCollection
 {
-  CIM_Collection     REF Collection;
+  CIM_Collection     REF Collection;
   CIM_ManagedElement REF Member;
 };
 ```
@@ -69,17 +74,17 @@ The member of the collection.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

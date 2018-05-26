@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsCreateIccProfile function converts a WCS profile into an ICC profile.'
-ms.assetid: 'fbe37d6c-9b91-46d8-9d29-1de3ef542c19'
+---
+Description: The WcsCreateIccProfile function converts a WCS profile into an ICC profile.
+ms.assetid: fbe37d6c-9b91-46d8-9d29-1de3ef542c19
 title: WcsCreateIccProfile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsCreateIccProfile function

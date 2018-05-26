@@ -1,7 +1,12 @@
 ---
 title: MSVidFeature
 description: MSVidFeature
-ms.assetid: '0512e1d6-e10e-421e-846c-4bcd7e86d0e7'
+ms.assetid: 0512e1d6-e10e-421e-846c-4bcd7e86d0e7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidFeature
@@ -14,7 +19,7 @@ The **MSVidFeature** object represents any of the features supported by the Vide
 
 |                           |                                        |
 |---------------------------|----------------------------------------|
-| Interfaces                | [**IMSVidFeature**](imsvidfeature.md) |
+| Interfaces                | [**IMSVidFeature**](/windows/win32/segment/?branch=master) |
 | Outgoing Event Interfaces | None.                                  |
 
 

@@ -4,13 +4,16 @@ description: This method is deprecated. Instead, use the RequestStateChange meth
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d539fdf-4c95-4d68-90c3-c0e053f75c05'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5d539fdf-4c95-4d68-90c3-c0e053f75c05
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["OnlineDevice method", "OnlineDevice method, CIM_Controller class", "CIM_Controller class, OnlineDevice method"]
+keywords:
+- OnlineDevice method
+- OnlineDevice method, CIM_Controller class
+- CIM_Controller class, OnlineDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnlineDevice method of the CIM\_Controller class
@@ -34,7 +40,7 @@ This method is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 ```mof
 uint32 OnlineDevice(
-  [in] boolean Online
+  [in] boolean Online
 );
 ```
 
@@ -87,7 +93,7 @@ The operation is not supported when the device is in the current state.
 
 </dt> <dd>
 
-3–...
+3 ...
 
 The operation was not completed because an error occurred.
 
@@ -100,7 +106,7 @@ The operation was not completed because an error occurred.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -114,9 +120,9 @@ The operation was not completed because an error occurred.
 [**CIM\_Controller**](cim-controller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

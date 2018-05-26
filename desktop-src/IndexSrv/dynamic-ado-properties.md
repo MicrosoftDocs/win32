@@ -1,7 +1,12 @@
 ---
 title: Dynamic ADO Properties
 description: Dynamic ADO Properties
-ms.assetid: '5881a894-0f05-4048-b405-60102bb8b2cd'
+ms.assetid: 5881a894-0f05-4048-b405-60102bb8b2cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic ADO Properties

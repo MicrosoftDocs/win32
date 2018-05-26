@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f4609eb7-6bad-44cb-8b87-daf350931cab'
-title: 'System.Media.UserWebUrl'
+Description: .
+ms.assetid: f4609eb7-6bad-44cb-8b87-daf350931cab
+title: System.Media.UserWebUrl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.UserWebUrl

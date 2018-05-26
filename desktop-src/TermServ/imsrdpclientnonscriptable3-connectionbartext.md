@@ -4,11 +4,28 @@ description: Sets or retrieves the text to update the connection bar.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9671118d-ee7c-4077-be81-57655aff5e35'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9671118d-ee7c-4077-be81-57655aff5e35
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ConnectionBarText property Remote Desktop Services", "ConnectionBarText property Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , ConnectionBarText property", "ConnectionBarText property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , ConnectionBarText property", "ConnectionBarText property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , ConnectionBarText property", "ConnectionBarText property Remote Desktop Services , MsRdpClient5 object", "MsRdpClient5 object Remote Desktop Services , ConnectionBarText property", "ConnectionBarText property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , ConnectionBarText property", "ConnectionBarText property Remote Desktop Services , MsRdpClient7 object", "MsRdpClient7 object Remote Desktop Services , ConnectionBarText property", "ConnectionBarText property Remote Desktop Services , MsRdpClient8 object", "MsRdpClient8 object Remote Desktop Services , ConnectionBarText property", "ConnectionBarText property Remote Desktop Services , MsRdpClient9 object", "MsRdpClient9 object Remote Desktop Services , ConnectionBarText property"]
+keywords:
+- ConnectionBarText property Remote Desktop Services
+- ConnectionBarText property Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , ConnectionBarText property
+- ConnectionBarText property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , ConnectionBarText property
+- ConnectionBarText property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , ConnectionBarText property
+- ConnectionBarText property Remote Desktop Services , MsRdpClient5 object
+- MsRdpClient5 object Remote Desktop Services , ConnectionBarText property
+- ConnectionBarText property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , ConnectionBarText property
+- ConnectionBarText property Remote Desktop Services , MsRdpClient7 object
+- MsRdpClient7 object Remote Desktop Services , ConnectionBarText property
+- ConnectionBarText property Remote Desktop Services , MsRdpClient8 object
+- MsRdpClient8 object Remote Desktop Services , ConnectionBarText property
+- ConnectionBarText property Remote Desktop Services , MsRdpClient9 object
+- MsRdpClient9 object Remote Desktop Services , ConnectionBarText property
 topic_type:
 - apiref
 api_name:
@@ -30,6 +47,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable3::ConnectionBarText property
@@ -43,11 +63,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ConnectionBarText(
-  [in]  BSTR newVal
+  [in]  BSTR newVal
 );
 
 HRESULT get_ConnectionBarText(
-  [out] BSTR *pConnectionBarText
+  [out] BSTR *pConnectionBarText
 );
 ```
 
@@ -67,8 +87,8 @@ You must call the **IMsRdpClientNonScriptable3::put\_ConnectionBarText** method 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable3 is defined as b3378d90-0728-45c7-8ed7-b6159fb92219<br/> |
@@ -88,9 +108,9 @@ You must call the **IMsRdpClientNonScriptable3::put\_ConnectionBarText** method 
 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

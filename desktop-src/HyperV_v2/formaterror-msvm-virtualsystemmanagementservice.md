@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a formatted error message string for the specified array of embedded Msvm\_Error instances.'
-ms.assetid: '477EF4AE-00A8-4F2D-A335-E41A2EF620BB'
-title: 'FormatError method of the Msvm\_VirtualSystemManagementService class'
+Description: Returns a formatted error message string for the specified array of embedded Msvm\_Error instances.
+ms.assetid: 477EF4AE-00A8-4F2D-A335-E41A2EF620BB
+title: FormatError method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FormatError method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Returns a formatted error message string for the specified array of embedded [**
 
 ```mof
 uint32 FormatError(
-  [in]  string Errors[],
-  [out] string ErrorMessage
+  [in]  string Errors[],
+  [out] string ErrorMessage
 );
 ```
 
@@ -99,8 +104,8 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -117,9 +122,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the average bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file. This attribute corresponds to the Stream Bitrate Properties Object defined in the ASF specification.'
-ms.assetid: '7ec6004f-c71b-413f-b2fd-dc03a5bf8c57'
-title: 'MF\_SD\_ASF\_STREAMBITRATES\_BITRATE attribute'
+---
+Description: Specifies the average bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file. This attribute corresponds to the Stream Bitrate Properties Object defined in the ASF specification.
+ms.assetid: 7ec6004f-c71b-413f-b2fd-dc03a5bf8c57
+title: MF\_SD\_ASF\_STREAMBITRATES\_BITRATE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SD\_ASF\_STREAMBITRATES\_BITRATE attribute
@@ -14,7 +19,7 @@ Specifies the average bit rate, in bits per second, of a stream in an Advanced S
 
 ## Remarks
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute and sets it on the stream descriptor. The application can create the stream descriptor for the stream from the presentation descriptor by calling [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](imfpresentationdescriptor-getstreamdescriptorbyindex.md).
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute and sets it on the stream descriptor. The application can create the stream descriptor for the stream from the presentation descriptor by calling [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex?branch=master).
 
 The attribute value equals the Average Bit Rate field in the Stream Bit Rate Properties object.
 
@@ -37,13 +42,13 @@ The attribute value equals the Average Bit Rate field in the Stream Bit Rate Pro
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFStreamDescriptor**](imfstreamdescriptor.md)
+[**IMFStreamDescriptor**](/windows/win32/mfidl/nn-mfidl-imfstreamdescriptor?branch=master)
 </dt> <dt>
 
 [Stream Descriptor Attributes](stream-descriptor-attributes.md)

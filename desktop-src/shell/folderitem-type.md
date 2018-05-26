@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a string representation of the item''s type.'
-ms.assetid: 'e851d632-9562-4194-a24c-12e757227b5b'
-title: 'FolderItem.Type property'
+---
+Description: Contains a string representation of the items type.
+ms.assetid: e851d632-9562-4194-a24c-12e757227b5b
+title: FolderItem.Type property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.Type property

@@ -1,14 +1,20 @@
 ---
 title: Event Attribute
 description: The Event attribute is a string that specifies the event (or album) associated with a given photo.
-ms.assetid: 'a908decf-e74a-4e37-a8b8-01cb4c631124'
-keywords: ["Event Attribute Windows Media Player"]
+ms.assetid: a908decf-e74a-4e37-a8b8-01cb4c631124
+keywords:
+- Event Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Event
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

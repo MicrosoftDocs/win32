@@ -1,14 +1,20 @@
 ---
 title: Application.Commands property
 description: Represents a container for all the Commands that are defined by the application.
-ms.assetid: '160d7d28-2d64-4cbc-b2b9-2da6b2f5b3c8'
-keywords: ["Application.Commands property Windows Ribbon"]
+ms.assetid: 160d7d28-2d64-4cbc-b2b9-2da6b2f5b3c8
+keywords:
+- Application.Commands property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Application.Commands
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application.Commands property
@@ -143,8 +149,8 @@ The following example shows an **Application.Commands** element that contains a 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -155,9 +161,9 @@ The following example shows an **Application.Commands** element that contains a 
 [**Application.Views**](windowsribbon-element-application-views.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

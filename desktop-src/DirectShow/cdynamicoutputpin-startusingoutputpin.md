@@ -1,7 +1,12 @@
 ---
-Description: 'The StartUsingOutputPin method obtains access to the pin for a streaming operation.'
-ms.assetid: 'afa627a9-00fd-4ad0-b674-9c54a5a1be55'
-title: 'CDynamicOutputPin.StartUsingOutputPin method'
+Description: The StartUsingOutputPin method obtains access to the pin for a streaming operation.
+ms.assetid: afa627a9-00fd-4ad0-b674-9c54a5a1be55
+title: CDynamicOutputPin.StartUsingOutputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.StartUsingOutputPin method
@@ -35,7 +40,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,10 +52,10 @@ Call this method before calling any methods that deliver data to the connected i
 -   [**CBaseOutputPin::Deliver**](cbaseoutputpin-deliver.md)
 -   [**CBaseOutputPin::DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md)
 -   [**CBaseOutputPin::DeliverNewSegment**](cbaseoutputpin-delivernewsegment.md)
--   [**IMemInputPin::Receive**](imeminputpin-receive.md)
--   [**IMemInputPin::ReceiveMultiple**](imeminputpin-receivemultiple.md)
--   [**IPin::EndOfStream**](ipin-endofstream.md)
--   [**IPin::NewSegment**](ipin-newsegment.md)
+-   [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master)
+-   [**IMemInputPin::ReceiveMultiple**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivemultiple?branch=master)
+-   [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master)
+-   [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master)
 
 Afterward, call the [**CDynamicOutputPin::StopUsingOutputPin**](cdynamicoutputpin-stopusingoutputpin.md) method to release the access to the pin.
 
@@ -76,9 +81,9 @@ Do not hold the [**CDynamicOutputPin::m\_BlockStateLock**](cdynamicoutputpin-m-b
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

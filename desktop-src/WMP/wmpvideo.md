@@ -1,14 +1,20 @@
 ---
 title: WMPVIDEO
 description: This is a predefined VIDEO element with the following default values.
-ms.assetid: 'c9423aea-2d21-4c5d-8941-dd156dd07eb7'
-keywords: ["WMPVIDEO Windows Media Player"]
+ms.assetid: c9423aea-2d21-4c5d-8941-dd156dd07eb7
+keywords:
+- WMPVIDEO Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WMPVIDEO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMPVIDEO
@@ -44,9 +50,9 @@ All properties of this **VIDEO** element can be overridden by explicitly specify
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

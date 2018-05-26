@@ -1,8 +1,10 @@
 ---
 title: WebViewFolderContents object
 description: Implemented by the Shell for use inside a WebView.
-ms.assetid: 'c9c46e21-2721-43c9-a6f4-38fafbda3798'
-keywords: ["WebViewFolderContents object Legacy Windows Environment Features", "WebViewFolderContents object Legacy Windows Environment Features , described"]
+ms.assetid: c9c46e21-2721-43c9-a6f4-38fafbda3798
+keywords:
+- WebViewFolderContents object Legacy Windows Environment Features
+- WebViewFolderContents object Legacy Windows Environment Features , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Shell32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebViewFolderContents object
@@ -39,7 +46,7 @@ The **WebViewFolderContents** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -55,7 +62,7 @@ The **WebViewFolderContents** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -74,7 +81,7 @@ The **WebViewFolderContents** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -82,17 +89,17 @@ The **WebViewFolderContents** object has these properties.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Shldisp.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Shldisp.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 4.71 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: Selection
 description: Selection returns the current contents of the name stack, which is an array of names with integer values.
-ms.assetid: '66902d2c-0cd7-49b3-a685-5c0bdba0df1c'
-keywords: ["selection mode OpenGL", "selection hits OpenGL", "hit records OpenGL"]
+ms.assetid: 66902d2c-0cd7-49b3-a685-5c0bdba0df1c
+keywords:
+- selection mode OpenGL
+- selection hits OpenGL
+- hit records OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selection

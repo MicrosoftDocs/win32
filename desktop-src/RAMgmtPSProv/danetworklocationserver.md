@@ -2,13 +2,15 @@
 title: DANetworkLocationServer class
 description: DirectAccess Network Location Server settings.
 audience: developer
-ms.assetid: 'cef31f02-5ad8-420f-9a5a-6ed54caa73f5'
-ms.prod: 'windows-server-dev'
+ms.assetid: cef31f02-5ad8-420f-9a5a-6ed54caa73f5
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DANetworkLocationServer class", "DANetworkLocationServer class, described"]
+keywords:
+- DANetworkLocationServer class
+- DANetworkLocationServer class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DANetworkLocationServer class
@@ -35,9 +40,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class DANetworkLocationServer
 {
-  string  NlsLocation;
-  string  Url;
-  uint8   Certificate[];
+  string  NlsLocation;
+  string  Url;
+  uint8   Certificate[];
   boolean Reachability;
 };
 ```
@@ -131,16 +136,16 @@ NLS URL which is deployed on a Highly Available Server
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

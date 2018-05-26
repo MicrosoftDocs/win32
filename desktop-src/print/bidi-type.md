@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BIDI\_TYPE enumeration lists the possible values of data transferred in a bidi operation.'
-ms.assetid: 'ebb79ad6-91a1-4bdf-a6f6-7e04ed2358d9'
-title: 'BIDI\_TYPE enumeration'
+---
+Description: The BIDI\_TYPE enumeration lists the possible values of data transferred in a bidi operation.
+ms.assetid: ebb79ad6-91a1-4bdf-a6f6-7e04ed2358d9
+title: BIDI\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIDI\_TYPE enumeration

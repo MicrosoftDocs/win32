@@ -1,7 +1,12 @@
 ---
 title: Using Service Types
 description: Navigation page for information on how to use Quality of Service (QOS) service types in your application, including directional implications of each of the primary and secondary service types.
-ms.assetid: 'ac06233c-7fe0-494d-81e6-5cba676a5848'
+ms.assetid: ac06233c-7fe0-494d-81e6-5cba676a5848
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Service Types

@@ -1,14 +1,20 @@
 ---
 title: WaveIsFirstLane function
 description: Returns true only for the active lane in the current wave with the smallest index.
-ms.assetid: '5D90F713-08C7-4BD4-867B-2E7CA3A85E87'
-keywords: ["WaveIsHelperLane function HLSL"]
+ms.assetid: 5D90F713-08C7-4BD4-867B-2E7CA3A85E87
+keywords:
+- WaveIsHelperLane function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveIsHelperLane
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveIsFirstLane function

@@ -4,17 +4,22 @@ description: GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dba66b6d-3da2-4a1f-a7c8-30fff2600be7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dba66b6d-3da2-4a1f-a7c8-30fff2600be7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-COM-ObjectId attribute AD Schema", "msCOM-ObjectId attribute AD Schema"]
+keywords:
+- ms-COM-ObjectId attribute AD Schema
+- msCOM-ObjectId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-COM-ObjectId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-COM-ObjectId attribute
@@ -38,11 +43,11 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

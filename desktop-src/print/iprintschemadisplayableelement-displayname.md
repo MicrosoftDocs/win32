@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a displayable string for this item.'
-ms.assetid: '8DF71F10-1043-47E8-98E0-BB100B2AAF26'
-title: 'IPrintSchemaDisplayableElement::DisplayName property'
+---
+Description: Gets a displayable string for this item.
+ms.assetid: 8DF71F10-1043-47E8-98E0-BB100B2AAF26
+title: IPrintSchemaDisplayableElementDisplayName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaDisplayableElement::DisplayName property

@@ -1,7 +1,12 @@
 ---
 title: Creating a Type Library
 description: Demonstrates how to create a type library.
-ms.assetid: 'e564328b-0ef1-4db0-9c44-48eb2d9382bf'
+ms.assetid: e564328b-0ef1-4db0-9c44-48eb2d9382bf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Type Library

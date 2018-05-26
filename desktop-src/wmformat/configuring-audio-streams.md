@@ -1,15 +1,39 @@
 ---
 title: Configuring Audio Streams
 description: Configuring Audio Streams
-ms.assetid: '6ddd9bc1-3fde-4098-afce-fdda461ced62'
-keywords: ["streams,configuring audio streams", "codecs,configuring audio streams", "audio streams,configuring", "codecs,formats", "streams,IWMCodecInfo interface", "IWMCodecInfo,audio streams", "streams,A/V synchronization", "audio streams,A/V synchronization", "A/V synchronization", "streams,synchronizing A/V", "audio streams,synchronizing A/V", "streams,low-delay audio formats", "audio streams,low-delay audio formats", "codecs,low-delay audio formats", "streams,variable bit rate (VBR)", "audio streams,variable bit rate (VBR)", "codecs,variable bit rate (VBR)", "variable bit rate (VBR),configuring", "VBR (variable bit rate),configuring"]
+ms.assetid: 6ddd9bc1-3fde-4098-afce-fdda461ced62
+keywords:
+- streams,configuring audio streams
+- codecs,configuring audio streams
+- audio streams,configuring
+- codecs,formats
+- streams,IWMCodecInfo interface
+- IWMCodecInfo,audio streams
+- streams,A/V synchronization
+- audio streams,A/V synchronization
+- A/V synchronization
+- streams,synchronizing A/V
+- audio streams,synchronizing A/V
+- streams,low-delay audio formats
+- audio streams,low-delay audio formats
+- codecs,low-delay audio formats
+- streams,variable bit rate (VBR)
+- audio streams,variable bit rate (VBR)
+- codecs,variable bit rate (VBR)
+- variable bit rate (VBR),configuring
+- VBR (variable bit rate),configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Audio Streams
 
-Audio streams are generally the most straightforward to configure. Get a stream configuration from the codec using the methods of [**IWMCodecInfo**](iwmcodecinfo.md) as described in [Getting Stream Configuration Information from Codecs](getting-stream-configuration-information-from-codecs.md). Under most circumstances, you should not alter the settings from those retrieved.
+Audio streams are generally the most straightforward to configure. Get a stream configuration from the codec using the methods of [**IWMCodecInfo**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmcodecinfo?branch=master) as described in [Getting Stream Configuration Information from Codecs](getting-stream-configuration-information-from-codecs.md). Under most circumstances, you should not alter the settings from those retrieved.
 
-The codec format that you select from those enumerated depends upon the intended use of the ASF files made with the profile. The codec format description retrieved by [**IWMCodecInfo2::GetCodecFormatDesc**](iwmcodecinfo2-getcodecformatdesc.md) summarizes the characteristics of the format. If your application does not display the descriptions to choose between them, you can call **QueryInterface** on the [**IWMStreamConfig**](iwmstreamconfig.md) interface of the codec format to get the [**IWMMediaProps**](iwmmediaprops.md) interface. Then you can retrieve the [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure by calling [**IWMMediaProps::GetMediaType**](iwmmediaprops-getmediatype.md). By examining the **WM\_MEDIA\_TYPE** structure and the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/windows/desktop/dd757720) structure it points to, you can determine the settings of the codec format and compare them to your requirements.
+The codec format that you select from those enumerated depends upon the intended use of the ASF files made with the profile. The codec format description retrieved by [**IWMCodecInfo2::GetCodecFormatDesc**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo2-getcodecformatdesc?branch=master) summarizes the characteristics of the format. If your application does not display the descriptions to choose between them, you can call **QueryInterface** on the [**IWMStreamConfig**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamconfig?branch=master) interface of the codec format to get the [**IWMMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmediaprops?branch=master) interface. Then you can retrieve the [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure by calling [**IWMMediaProps::GetMediaType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype?branch=master). By examining the **WM\_MEDIA\_TYPE** structure and the [**WAVEFORMATEX**](https://msdn.microsoft.com/library/windows/desktop/dd757720) structure it points to, you can determine the settings of the codec format and compare them to your requirements.
 
 ## Getting Audio Formats for A/V Synchronization
 
@@ -34,7 +58,7 @@ Low-delay formats are available only in CBR mode (one-pass or two-pass). The low
 
 ## Configuring Variable Bit Rate Audio
 
-When you need a variable bit rate (VBR) format for one of the Windows Media audio codecs, you can get it by setting the enumeration settings in the [**IWMCodecInfo3::SetCodecEnumerationSetting**](iwmcodecinfo3-setcodecenumerationsetting.md) method. Set g\_wszVBREnabled to True, and set g\_wszNumPasses to 1 for quality-based VBR or 2 for two-pass VBR (constrained or unconstrained). If you are using constrained two-pass VBR, you must manually set the maximum bit rate and buffer window for the stream using the methods of [**IWMPropertyVault**](iwmpropertyvault.md) as described in [Configuring VBR Streams](configuring-vbr-streams.md).
+When you need a variable bit rate (VBR) format for one of the Windows Media audio codecs, you can get it by setting the enumeration settings in the [**IWMCodecInfo3::SetCodecEnumerationSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting?branch=master) method. Set g\_wszVBREnabled to True, and set g\_wszNumPasses to 1 for quality-based VBR or 2 for two-pass VBR (constrained or unconstrained). If you are using constrained two-pass VBR, you must manually set the maximum bit rate and buffer window for the stream using the methods of [**IWMPropertyVault**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpropertyvault?branch=master) as described in [Configuring VBR Streams](configuring-vbr-streams.md).
 
 In quality-based VBR profiles, the **nAvgBytesPerSec** member of the **WAVEFORMATEX** structure contains the quality level (1 through 100) in the low-order byte and the three high-order bytes are set to 0x7fffff. Do not attempt to modify the quality setting by modifying this value manually; you must use the format as it is retrieved from the codec. To use a different quality value, you must enumerate formats until you find one that meets your needs. Also, **nAvgBytesPerSec** will not be preserved in the ASF file; when you obtain the **WAVEFORMATEX** structure for a file that has been opened with the reader object, **nAvgBytesPerSec** contains an approximate value representing the average number of bytes per second.
 

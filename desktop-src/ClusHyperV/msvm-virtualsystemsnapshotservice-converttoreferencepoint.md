@@ -4,13 +4,16 @@ description: Converts a virtual machine snapshot to a reference point.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7f1b6aba-585b-464b-8800-5a215473ec5e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7f1b6aba-585b-464b-8800-5a215473ec5e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ConvertToReferencePoint method", "ConvertToReferencePoint method, Msvm_VirtualSystemSnapshotService class", "Msvm_VirtualSystemSnapshotService class, ConvertToReferencePoint method"]
+keywords:
+- ConvertToReferencePoint method
+- ConvertToReferencePoint method, Msvm_VirtualSystemSnapshotService class
+- Msvm_VirtualSystemSnapshotService class, ConvertToReferencePoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConvertToReferencePoint method of the Msvm\_VirtualSystemSnapshotService class
@@ -30,10 +36,10 @@ Converts a virtual machine snapshot to a reference point.
 
 ```mof
 uint32 ConvertToReferencePoint(
-  [in]      CIM_VirtualSystemSettingData     REF AffectedSnapshot,
-  [in]      string                               ReferencePointSettings,
-  [in, out] Msvm_VirtualSystemReferencePoint REF ResultingReferencePoint,
-  [out]     CIM_ConcreteJob                  REF Job
+  [in]      CIM_VirtualSystemSettingData     REF AffectedSnapshot,
+  [in]      string                               ReferencePointSettings,
+  [in, out] Msvm_VirtualSystemReferencePoint REF ResultingReferencePoint,
+  [out]     CIM_ConcreteJob                  REF Job
 );
 ```
 
@@ -98,16 +104,16 @@ This method returns one of the following values.
 **Invalid Type** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -117,7 +123,7 @@ This method returns one of the following values.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -131,9 +137,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

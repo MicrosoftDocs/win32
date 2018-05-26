@@ -1,6 +1,11 @@
 ---
-Description: 'This quickstart shows how to raise a toast notification from a desktop app.'
-title: 'Quickstart: Sending a toast notification from the desktop'
+Description: This quickstart shows how to raise a toast notification from a desktop app.
+title: Quickstart Sending a toast notification from the desktop
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quickstart: Sending a toast notification from the desktop

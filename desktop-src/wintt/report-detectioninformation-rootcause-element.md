@@ -1,14 +1,20 @@
 ---
 title: DetectionInformation (RootCause) Element
 description: A section that contains the custom details that the package author added to the report that are specific to the root cause.
-ms.assetid: '11b16618-744d-4dbf-a834-6bab362aad49'
-keywords: ["DetectionInformation element Windows Troubleshooting Toolkit"]
+ms.assetid: 11b16618-744d-4dbf-a834-6bab362aad49
+keywords:
+- DetectionInformation element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DetectionInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetectionInformation (RootCause) Element
@@ -29,8 +35,8 @@ The **DetectionInformation** element is defined by the [**RootCause**](report-ro
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **DetectionInformation** element is defined by the [**RootCause**](report-ro
 [**RootCause (RootCauseInformation)**](report-rootcause-rootcauseinformation-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

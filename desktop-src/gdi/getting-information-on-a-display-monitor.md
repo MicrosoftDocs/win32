@@ -1,12 +1,17 @@
 ---
-Description: 'The following code sample shows how to use EnumDisplayDevices to get information on a display monitor.'
-ms.assetid: '8c2420de-292f-481e-b06b-54cc174a8faf'
+Description: The following code sample shows how to use EnumDisplayDevices to get information on a display monitor.
+ms.assetid: 8c2420de-292f-481e-b06b-54cc174a8faf
 title: Getting Information on a Display Monitor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Information on a Display Monitor
 
-The following code sample shows how to use [**EnumDisplayDevices**](enumdisplaydevices.md) to get information on a display monitor.
+The following code sample shows how to use [**EnumDisplayDevices**](/windows/win32/Winuser/nf-winuser-enumdisplaydevicesa?branch=master) to get information on a display monitor.
 
 
 ```C++

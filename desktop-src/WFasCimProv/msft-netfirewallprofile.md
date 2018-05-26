@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a particular firewall profile. Multiple profiles may be in effect on any interface at any given time.'
-ms.assetid: '655385bd-9836-4645-b4b8-f61451e0a25f'
-title: 'MSFT\_NetFirewallProfile class'
+Description: Represents a particular firewall profile. Multiple profiles may be in effect on any interface at any given time.
+ms.assetid: 655385bd-9836-4645-b4b8-f61451e0a25f
+title: MSFT\_NetFirewallProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetFirewallProfile class
@@ -347,17 +352,17 @@ If true, users will be notified when an application listens on a port that is cl
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

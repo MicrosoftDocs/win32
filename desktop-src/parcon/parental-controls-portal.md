@@ -1,7 +1,12 @@
 ---
-Description: 'The Parental Controls technology in Windows can be used to create blocking software or child Internet safety software that helps ensure Internet security for kids and a child safe Internet.'
-ms.assetid: '24fa423e-e9b2-41d6-8f5a-768539e7a55a'
+Description: The Parental Controls technology in Windows can be used to create blocking software or child Internet safety software that helps ensure Internet security for kids and a child safe Internet.
+ms.assetid: 24fa423e-e9b2-41d6-8f5a-768539e7a55a
 title: Parental Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls

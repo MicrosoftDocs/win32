@@ -1,7 +1,12 @@
 ---
-Description: 'The clock provider was disconnected.'
-ms.assetid: '0a885b7a-840d-4112-85f7-ff6f2d87bb75'
-title: 'EC\_CLOCK\_UNSET'
+Description: The clock provider was disconnected.
+ms.assetid: 0a885b7a-840d-4112-85f7-ff6f2d87bb75
+title: EC\_CLOCK\_UNSET
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_CLOCK\_UNSET
@@ -54,9 +59,9 @@ KSProxy signals this event when the pin of a clock-providing filter is disconnec
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ExpandVirtualHardDisk method of the Msvm\_ImageManagementService class
 description: Expands an existing virtual hard disk (.vhd) file.
-ms.assetid: '12ee1f8f-7e88-4177-8652-d7c93cb98882'
-keywords: ["ExpandVirtualHardDisk method Hyper-V", "ExpandVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , ExpandVirtualHardDisk method"]
+ms.assetid: 12ee1f8f-7e88-4177-8652-d7c93cb98882
+keywords:
+- ExpandVirtualHardDisk method Hyper-V
+- ExpandVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , ExpandVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExpandVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -22,9 +30,9 @@ Expands an existing virtual hard disk (.vhd) file. If the disk image is already 
 
 ```mof
 uint32 ExpandVirtualHardDisk(
-  [in]  string              Path,
-  [in]  uint64              MaxInternalSize,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [in]  uint64              MaxInternalSize,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -344,9 +352,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -365,9 +373,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_bAtEndOfStream member variable is a Boolean flag indicating whether the end of the stream was reached.'
-ms.assetid: '96cad18e-6a3e-409a-9949-5e050683e384'
-title: 'CRenderedInputPin::m\_bAtEndOfStream member'
+Description: The m\_bAtEndOfStream member variable is a Boolean flag indicating whether the end of the stream was reached.
+ms.assetid: 96cad18e-6a3e-409a-9949-5e050683e384
+title: CRenderedInputPinm\_bAtEndOfStream member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRenderedInputPin::m\_bAtEndOfStream member
@@ -35,9 +40,9 @@ BOOL m_bAtEndOfStream;
 [**CRenderedInputPin Class**](crenderedinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

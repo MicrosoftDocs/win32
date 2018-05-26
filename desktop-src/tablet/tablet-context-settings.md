@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information used in creating a tablet context.'
-ms.assetid: '10466c23-f4cb-4205-886b-d85a2f530afe'
-title: 'TABLET\_CONTEXT\_SETTINGS structure'
+---
+Description: Contains information used in creating a tablet context.
+ms.assetid: 10466c23-f4cb-4205-886b-d85a2f530afe
+title: TABLET\_CONTEXT\_SETTINGS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TABLET\_CONTEXT\_SETTINGS structure

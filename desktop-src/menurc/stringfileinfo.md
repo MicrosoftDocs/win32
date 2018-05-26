@@ -1,14 +1,20 @@
 ---
 title: StringFileInfo structure
 description: Represents the organization of data in a file-version resource. It contains version information that can be displayed for a particular language and code page.
-ms.assetid: 'dda38fee-e8ea-4e58-b5ee-72e4cdb08f42'
-keywords: ["StringFileInfo structure Menus and Other Resources"]
+ms.assetid: dda38fee-e8ea-4e58-b5ee-72e4cdb08f42
+keywords:
+- StringFileInfo structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - StringFileInfo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringFileInfo structure
@@ -20,11 +26,11 @@ Represents the organization of data in a file-version resource. It contains vers
 
 ```C++
 typedef struct {
-  WORD        wLength;
-  WORD        wValueLength;
-  WORD        wType;
-  WCHAR       szKey;
-  WORD        Padding;
+  WORD        wLength;
+  WORD        wValueLength;
+  WORD        wType;
+  WCHAR       szKey;
+  WORD        Padding;
   StringTable Children;
 } StringFileInfo;
 ```
@@ -113,8 +119,8 @@ The **Children** member of the [**VS\_VERSIONINFO**](vs-versioninfo.md) structur
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -140,9 +146,9 @@ The **Children** member of the [**VS\_VERSIONINFO**](vs-versioninfo.md) structur
 [Version Information](version-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

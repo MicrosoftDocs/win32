@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter E.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'f1caccd2-3453-448e-b194-bf899eff8091'
+Description: Contains definitions of security terms that begin with the letter E.
+Robots: noindex, nofollow
+ms.assetid: f1caccd2-3453-448e-b194-bf899eff8091
 title: E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # E

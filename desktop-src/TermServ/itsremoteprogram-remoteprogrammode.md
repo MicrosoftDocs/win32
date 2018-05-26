@@ -1,14 +1,21 @@
 ---
 title: ITSRemoteProgram RemoteProgramMode property
-description: The Windows Server 2008 R2 RemoteApp mode.
+description: The Windows Server 2008 R2 RemoteApp mode.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9ebdf966-db9c-4a14-8469-f8b153c6ea78'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9ebdf966-db9c-4a14-8469-f8b153c6ea78
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoteProgramMode property Remote Desktop Services", "RemoteProgramMode property Remote Desktop Services , ITSRemoteProgram interface", "ITSRemoteProgram interface Remote Desktop Services , RemoteProgramMode property", "RemoteProgramMode property Remote Desktop Services , ITSRemoteProgram2 interface", "ITSRemoteProgram2 interface Remote Desktop Services , RemoteProgramMode property", "RemoteProgramMode property Remote Desktop Services , ITSRemoteProgram3 interface", "ITSRemoteProgram3 interface Remote Desktop Services , RemoteProgramMode property"]
+keywords:
+- RemoteProgramMode property Remote Desktop Services
+- RemoteProgramMode property Remote Desktop Services , ITSRemoteProgram interface
+- ITSRemoteProgram interface Remote Desktop Services , RemoteProgramMode property
+- RemoteProgramMode property Remote Desktop Services , ITSRemoteProgram2 interface
+- ITSRemoteProgram2 interface Remote Desktop Services , RemoteProgramMode property
+- RemoteProgramMode property Remote Desktop Services , ITSRemoteProgram3 interface
+- ITSRemoteProgram3 interface Remote Desktop Services , RemoteProgramMode property
 topic_type:
 - apiref
 api_name:
@@ -25,11 +32,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITSRemoteProgram::RemoteProgramMode property
 
-The Windows Server 2008 R2 RemoteApp mode.
+The Windows Server 2008 R2 RemoteApp mode.
 
 This property is read/write.
 
@@ -38,11 +48,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RemoteProgramMode(
-  [in]  VARIANT_BOOL vboolRemoteProgramMode
+  [in]  VARIANT_BOOL vboolRemoteProgramMode
 );
 
 HRESULT get_RemoteProgramMode(
-  [out] VARIANT_BOOL *pvboolRemoteProgramMode
+  [out] VARIANT_BOOL *pvboolRemoteProgramMode
 );
 ```
 
@@ -62,8 +72,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_ITSRemoteProgram is defined as FDD029F9-467A-4c49-8529-64B521DBD1B4<br/>    |
@@ -83,9 +93,9 @@ Returns **S\_OK** if successful.
 [**ITSRemoteProgram**](itsremoteprogram.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

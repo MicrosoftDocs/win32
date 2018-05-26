@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_FOCUS\_MODES enumeration type describes the focus mode used by a still image capture device.'
-ms.assetid: '3b092391-e4c1-4586-8df4-b58a1dcccc81'
-title: 'WPD\_FOCUS\_MODES enumeration'
+Description: The WPD\_FOCUS\_MODES enumeration type describes the focus mode used by a still image capture device.
+ms.assetid: 3b092391-e4c1-4586-8df4-b58a1dcccc81
+title: WPD\_FOCUS\_MODES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FOCUS\_MODES enumeration
@@ -13,10 +18,10 @@ The **WPD\_FOCUS\_MODES** enumeration type describes the focus mode used by a st
 
 ```C++
 typedef enum WPD_FOCUS_MODES { 
-  WPD_FOCUS_UNDEFINED        = 0,
-  WPD_FOCUS_MANUAL           = 1,
-  WPD_FOCUS_AUTOMATIC        = 2,
-  WPD_FOCUS_AUTOMATIC_MACRO  = 3
+  WPD_FOCUS_UNDEFINED        = 0,
+  WPD_FOCUS_MANUAL           = 1,
+  WPD_FOCUS_AUTOMATIC        = 2,
+  WPD_FOCUS_AUTOMATIC_MACRO  = 3
 } ;
 ```
 
@@ -75,9 +80,9 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_FOCUS\_MODE](still-image-pro
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

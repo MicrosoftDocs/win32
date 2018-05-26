@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics are of interest to device manufacturers and other device implementers that create devices that interoperate with Windows-based WSDAPI clients and hosts without using WSDAPI.'
-ms.assetid: '72e3ce48-fd7d-4a47-9055-ebcc034a84bf'
+Description: The following topics are of interest to device manufacturers and other device implementers that create devices that interoperate with Windows-based WSDAPI clients and hosts without using WSDAPI.
+ms.assetid: 72e3ce48-fd7d-4a47-9055-ebcc034a84bf
 title: WSD Device Implementation Recommendations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSD Device Implementation Recommendations

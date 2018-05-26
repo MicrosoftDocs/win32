@@ -1,15 +1,21 @@
 ---
 title: IFillLockBytes - Implementation
 description: The system provides an IFillLockBytes implementation as part of the Compound Files implementation.
-ms.assetid: 'a8aed8c5-3c4c-4cce-b568-68031da0edf5'
-keywords: ["IFillLockBytes Strctd Stg , implementation"]
+ms.assetid: a8aed8c5-3c4c-4cce-b568-68031da0edf5
+keywords:
+- IFillLockBytes Strctd Stg , implementation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFillLockBytes - Implementation
 
-The system provides an [**IFillLockBytes**](ifilllockbytes.md) implementation as part of the Compound Files implementation.
+The system provides an [**IFillLockBytes**](/windows/win32/Objidl/nn-objidl-ifilllockbytes?branch=master) implementation as part of the Compound Files implementation.
 
-Downloading code can create an instance of an asynchronous Compound File object by calling [**StgOpenAsyncDocFileOnIFillLockBytes**](stgopenasyncdocfileonifilllockbytes.md). Downloading code can also create an instance of an asynchronous byte array wrapper object on an existing file or byte array by calling either the [**StgGetIFillLockBytesOnFile**](stggetifilllockbytesonfile.md) function or the [**StgGetIFillLockBytesOnILockBytes**](stggetifilllockbytesonilockbytes.md) function.
+Downloading code can create an instance of an asynchronous Compound File object by calling [**StgOpenAsyncDocFileOnIFillLockBytes**](/windows/win32/Objbase/nf-objbase-stgopenasyncdocfileonifilllockbytes?branch=master). Downloading code can also create an instance of an asynchronous byte array wrapper object on an existing file or byte array by calling either the [**StgGetIFillLockBytesOnFile**](/windows/win32/Objbase/nf-objbase-stggetifilllockbytesonfile?branch=master) function or the [**StgGetIFillLockBytesOnILockBytes**](/windows/win32/Objbase/nf-objbase-stggetifilllockbytesonilockbytes?branch=master) function.
 
 ## When to Use
 
@@ -17,14 +23,14 @@ Currently, URL monikers are the only users of the COM asynchronous storage imple
 
 ## Remarks
 
-The following are the four methods of the [**IFillLockBytes**](ifilllockbytes.md) implementation.
+The following are the four methods of the [**IFillLockBytes**](/windows/win32/Objidl/nn-objidl-ifilllockbytes?branch=master) implementation.
 
 <dl> <dt>
 
 <span id="IFillLockBytes__FillAppend"></span><span id="ifilllockbytes__fillappend"></span><span id="IFILLLOCKBYTES__FILLAPPEND"></span>**IFillLockBytes::FillAppend**
 </dt> <dd>
 
-Writes a new block of bytes to the end of a byte array. The size of the block is specified as a parameter to [**FillAppend**](ifilllockbytes-fillappend.md).
+Writes a new block of bytes to the end of a byte array. The size of the block is specified as a parameter to [**FillAppend**](/windows/win32/Objidl/nf-objidl-ifilllockbytes-fillappend?branch=master).
 
 </dd> <dt>
 
@@ -38,7 +44,7 @@ Writes a new block of data to a specified location in the byte array.
 <span id="IFillLockBytes__SetFillSize"></span><span id="ifilllockbytes__setfillsize"></span><span id="IFILLLOCKBYTES__SETFILLSIZE"></span>**IFillLockBytes::SetFillSize**
 </dt> <dd>
 
-Sets the size of the byte array. Returns E\_FAIL from calls to [**ILockBytes::ReadAt**](ilockbytes-readat.md) that attempt to access data beyond the upper limit specified by the method.
+Sets the size of the byte array. Returns E\_FAIL from calls to [**ILockBytes::ReadAt**](/windows/win32/Objidl/nf-objidl-ilockbytes-readat?branch=master) that attempt to access data beyond the upper limit specified by the method.
 
 </dd> <dt>
 

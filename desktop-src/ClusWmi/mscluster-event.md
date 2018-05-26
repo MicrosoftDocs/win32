@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a cluster event.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '164e4b6e-7c38-4bf9-a9c0-7881f5becc35'
-ms.prod: 'windows-server-dev'
+ms.assetid: 164e4b6e-7c38-4bf9-a9c0-7881f5becc35
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_Event class", "MSCluster_Event class, described"]
+keywords:
+- MSCluster_Event class
+- MSCluster_Event class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_Event class
@@ -40,7 +45,7 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{01D7A9DE-B876-4bb6-ABDB-26B67C52D221}"), AMENDMENT]
 class MSCluster_Event : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 EventTypeMajor;
   uint32 EventTypeMinor;
@@ -238,7 +243,7 @@ The **MSCluster\_Event** class is derived from the [**\_\_ExtrinsicEvent**](http
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -273,9 +278,9 @@ The **MSCluster\_Event** class is derived from the [**\_\_ExtrinsicEvent**](http
 [**MSCluster\_EventStateChange**](mscluster-eventstatechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

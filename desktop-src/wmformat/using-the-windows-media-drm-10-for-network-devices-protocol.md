@@ -1,8 +1,25 @@
 ---
 title: Using the Windows Media DRM 10 for Network Devices Protocol
 description: Using the Windows Media DRM 10 for Network Devices Protocol
-ms.assetid: 'dec88d72-718c-42ab-8d48-eddf906051ef'
-keywords: ["Windows Media Format SDK,Windows Media DRM 10 for Network Devices", "Windows Media Format SDK,DRM 10 for Network Devices", "Advanced Systems Format (ASF),Windows Media DRM 10 for Network Devices", "ASF (Advanced Systems Format),Windows Media DRM 10 for Network Devices", "Advanced Systems Format (ASF),DRM 10 for Network Devices", "ASF (Advanced Systems Format),DRM 10 for Network Devices", "digital rights management (DRM),Windows Media DRM 10 for Network Devices", "DRM (digital rights management),Windows Media DRM 10 for Network Devices", "digital rights management (DRM),DRM 10 for Network Devices", "DRM (digital rights management),DRM 10 for Network Devices", "Windows Media DRM 10 for Network Devices,protocols", "DRM 10 for Network Devices,protocols"]
+ms.assetid: dec88d72-718c-42ab-8d48-eddf906051ef
+keywords:
+- Windows Media Format SDK,Windows Media DRM 10 for Network Devices
+- Windows Media Format SDK,DRM 10 for Network Devices
+- Advanced Systems Format (ASF),Windows Media DRM 10 for Network Devices
+- ASF (Advanced Systems Format),Windows Media DRM 10 for Network Devices
+- Advanced Systems Format (ASF),DRM 10 for Network Devices
+- ASF (Advanced Systems Format),DRM 10 for Network Devices
+- digital rights management (DRM),Windows Media DRM 10 for Network Devices
+- DRM (digital rights management),Windows Media DRM 10 for Network Devices
+- digital rights management (DRM),DRM 10 for Network Devices
+- DRM (digital rights management),DRM 10 for Network Devices
+- Windows Media DRM 10 for Network Devices,protocols
+- DRM 10 for Network Devices,protocols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media DRM 10 for Network Devices Protocol

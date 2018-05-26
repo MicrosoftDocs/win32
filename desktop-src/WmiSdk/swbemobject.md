@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the methods and properties of the SWbemObject object to represent one Windows Management Instrumentation (WMI) class definition or object instance.'
+Description: You can use the methods and properties of the SWbemObject object to represent one Windows Management Instrumentation (WMI) class definition or object instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd303ec1a-5e0c-4a5e-8ed3-ed353a138755'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d303ec1a-5e0c-4a5e-8ed3-ed353a138755
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObject object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemObject object
@@ -94,7 +97,7 @@ The **SWbemObject** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -113,7 +116,7 @@ The **SWbemObject** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -125,8 +128,8 @@ The [List All the Properties and Methods for a WMI Class](https://Gallery.TechNe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -145,9 +148,9 @@ The [List All the Properties and Methods for a WMI Class](https://Gallery.TechNe
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

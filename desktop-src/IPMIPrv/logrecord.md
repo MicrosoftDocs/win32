@@ -4,13 +4,16 @@ description: Represents a log entry in the BMC system event log (SEL).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd968ba06-692a-4246-a17a-3a0bf3bd22ab'
-ms.prod: 'windows-server-dev'
+ms.assetid: d968ba06-692a-4246-a17a-3a0bf3bd22ab
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IPMI provider WS-Management", "LogRecord class", "LogRecord class, described"]
+keywords:
+- IPMI provider WS-Management
+- LogRecord class
+- LogRecord class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +33,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LogRecord class
@@ -44,17 +50,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("IPMIPrv"), UUID("{5efd8f2b-e1c7-46c1-a5cc-3aa70779c862}"), AMENDMENT]
 class LogRecord : CIM_LogRecord
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   LogCreationClassName;
-  string   LogName;
-  string   CreationClassName;
-  string   RecordID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   LogCreationClassName;
+  string   LogName;
+  string   CreationClassName;
+  string   RecordID;
   datetime MessageTimestamp;
-  string   RecordFormat;
-  string   RecordData;
-  string   DataFormat;
+  string   RecordFormat;
+  string   RecordData;
+  string   DataFormat;
 };
 ```
 
@@ -121,7 +127,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("CIM\
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you use the **RecordFormat** property.
 
- 
+ 
 
 A description of this data structure.
 
@@ -311,7 +317,7 @@ The **RecordData** string is "\*SEL(114.0.32)\*01 00\*02\*0F AC C1 49\*20 00\*04
 
 
 
- 
+ 
 
 ### Operating system shutdown SEL event
 
@@ -331,7 +337,7 @@ The **RecordData** string is "\*03 00\*DD\*7B FE C4 49\*37 01 00\*00 00 00 00 C0
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -339,8 +345,8 @@ The **RecordData** string is "\*03 00\*DD\*7B FE C4 49\*37 01 00\*00 00 00 00 C0
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -357,9 +363,9 @@ The **RecordData** string is "\*03 00\*DD\*7B FE C4 49\*37 01 00\*00 00 00 00 C0
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

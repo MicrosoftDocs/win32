@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AdvertiseScript method of the Installer object advertises an installation package.'
-ms.assetid: '45e5268f-7a5f-412f-b9f6-0abb75b79361'
-title: 'Installer::AdvertiseScript method'
+---
+Description: The AdvertiseScript method of the Installer object advertises an installation package.
+ms.assetid: 45e5268f-7a5f-412f-b9f6-0abb75b79361
+title: InstallerAdvertiseScript method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer::AdvertiseScript method
@@ -70,7 +75,7 @@ This method does not return a value.
 
 ## Remarks
 
-The **AdvertiseScript** method uses the [**MsiAdvertiseScript**](msiadvertisescript.md) function. The use of the **AdvertiseScript** method requires that the script be running within a local system process.
+The **AdvertiseScript** method uses the [**MsiAdvertiseScript**](/windows/win32/Msi/nf-msi-msiadvertisescripta?branch=master) function. The use of the **AdvertiseScript** method requires that the script be running within a local system process.
 
 ## Examples
 

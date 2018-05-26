@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPinVersion method retrieves a version number for the set of pins on this filter.'
-ms.assetid: '6cc186b2-4d9f-4d1c-a8b3-975e9c248df7'
-title: 'CBaseFilter.GetPinVersion method'
+Description: The GetPinVersion method retrieves a version number for the set of pins on this filter.
+ms.assetid: 6cc186b2-4d9f-4d1c-a8b3-975e9c248df7
+title: CBaseFilter.GetPinVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.GetPinVersion method
@@ -49,9 +54,9 @@ The pin enumerator object, which is implemented by the [**CEnumPins**](cenumpins
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

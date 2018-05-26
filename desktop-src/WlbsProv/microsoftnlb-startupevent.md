@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_StartupEvent class is a WMI class that represents
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd70c9c31-b205-4c29-8607-0e730bcc2d2f'
-ms.prod: 'windows-server-dev'
+ms.assetid: d70c9c31-b205-4c29-8607-0e730bcc2d2f
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_StartupEvent class", "MicrosoftNLB_StartupEvent class, described"]
+keywords:
+- MicrosoftNLB_StartupEvent class
+- MicrosoftNLB_StartupEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_StartupEvent class
@@ -37,9 +42,9 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [WMI, Dynamic, Provider("WmiProv"), guid("{98E0E934-4952-434e-A7BA-F4E891E96A02}"), AMENDMENT]
 class MicrosoftNLB_StartupEvent : WmiEvent
 {
-  uint8   SECURITY_DESCRIPTOR[];
-  uint64  TIME_CREATED;
-  string  InstanceName;
+  uint8   SECURITY_DESCRIPTOR[];
+  uint64  TIME_CREATED;
+  string  InstanceName;
   boolean Active;
 };
 ```
@@ -124,7 +129,7 @@ The **MicrosoftNLB\_StartupEvent** class is derived from the [**WMIEvent**](http
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -144,9 +149,9 @@ The **MicrosoftNLB\_StartupEvent** class is derived from the [**WMIEvent**](http
 [**WMIEvent**](https://msdn.microsoft.com/library/windows/desktop/aa394532)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

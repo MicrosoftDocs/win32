@@ -4,13 +4,16 @@ description: Sets the power state of the device.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2d99c7d-315e-4e7c-b152-f96976c68b42'
-ms.prod: 'windows-server-dev'
+ms.assetid: d2d99c7d-315e-4e7c-b152-f96976c68b42
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method iSCSI Software Target API", "SetPowerState method iSCSI Software Target API , MSFTSMNET_EthernetPort class", "MSFTSMNET_EthernetPort class iSCSI Software Target API , SetPowerState method"]
+keywords:
+- SetPowerState method iSCSI Software Target API
+- SetPowerState method iSCSI Software Target API , MSFTSMNET_EthernetPort class
+- MSFTSMNET_EthernetPort class iSCSI Software Target API , SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the MSFTSMNET\_EthernetPort class
@@ -32,8 +38,8 @@ This method is inherited from the [**CIM\_LogicalDevice**](https://msdn.microsof
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -112,7 +118,7 @@ Returns zero on success; otherwise returns an error code.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -126,9 +132,9 @@ Returns zero on success; otherwise returns an error code.
 [**MSFTSMNET\_EthernetPort**](msftsmnet-ethernetport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

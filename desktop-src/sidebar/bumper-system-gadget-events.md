@@ -1,7 +1,12 @@
 ---
 title: Events
 description: .
-ms.assetid: 'f5846db6-1158-4c5b-8251-ef3e88a2ea40'
+ms.assetid: f5846db6-1158-4c5b-8251-ef3e88a2ea40
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Events

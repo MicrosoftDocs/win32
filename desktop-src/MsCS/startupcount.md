@@ -4,17 +4,21 @@ description: Startup count.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5654E11C-BDE1-41DC-BC1A-AB17EF994C1A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5654E11C-BDE1-41DC-BC1A-AB17EF994C1A
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["StartupCount Failover Cluster"]
+keywords:
+- StartupCount Failover Cluster
 topic_type:
 - apiref
 api_name:
 - StartupCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartupCount
@@ -27,14 +31,14 @@ Startup count.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 0xFFFFFFFF                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_STARTUP\_COUNT**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_STARTUP\_COUNT**.
 [Groupset Common Properties](collection-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

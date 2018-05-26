@@ -4,17 +4,22 @@ description: An attribute that contains the DNSKEY record set for the root of th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bc53e9fa-8ed5-46ac-a7ab-949d19aa1c66'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bc53e9fa-8ed5-46ac-a7ab-949d19aa1c66
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-DNSKEY-Records attribute AD Schema", "msDNS-DNSKEYRecords attribute AD Schema"]
+keywords:
+- ms-DNS-DNSKEY-Records attribute AD Schema
+- msDNS-DNSKEYRecords attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-DNSKEY-Records
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-DNSKEY-Records attribute
@@ -38,7 +43,7 @@ An attribute that contains the DNSKEY record set for the root of the DNS zone an
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that contains the DNSKEY record set for the root of the DNS zone an
 
 
 
- 
+ 
 
- 
+ 
 
 
 

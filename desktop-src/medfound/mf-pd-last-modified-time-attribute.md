@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies when a presentation was last modified.'
-ms.assetid: '12990de2-7656-4781-943b-c46f42a0e38d'
-title: 'MF\_PD\_LAST\_MODIFIED\_TIME attribute'
+---
+Description: Specifies when a presentation was last modified.
+ms.assetid: 12990de2-7656-4781-943b-c46f42a0e38d
+title: MF\_PD\_LAST\_MODIFIED\_TIME attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_LAST\_MODIFIED\_TIME attribute
@@ -37,13 +42,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

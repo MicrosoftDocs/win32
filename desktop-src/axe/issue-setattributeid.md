@@ -1,8 +1,11 @@
 ---
 title: Issue SetAttributeID method
 description: Sets the ID of the Issue.
-ms.assetid: '91FEEA1D-406D-4DED-A19E-12BE8D586FE1'
-keywords: ["SetAttributeID method Access Execution Engine", "SetAttributeID method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , SetAttributeID method"]
+ms.assetid: 91FEEA1D-406D-4DED-A19E-12BE8D586FE1
+keywords:
+- SetAttributeID method Access Execution Engine
+- SetAttributeID method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , SetAttributeID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::SetAttributeID method
@@ -22,7 +30,7 @@ Sets the ID of the **Issue**.
 
 ```C++
 virtual HRESULT SetAttributeID(
-  [in] LPCWSTR attributeID
+  [in] LPCWSTR attributeID
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The ID is attribute **ID** of element **Issue**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The ID is attribute **ID** of element **Issue**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

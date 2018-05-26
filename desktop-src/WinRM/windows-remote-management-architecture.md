@@ -4,10 +4,13 @@ description: The Windows Remote Management architecture consists of components o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '82e67851-fe46-4bb0-8278-9718b5e0c7ae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 82e67851-fe46-4bb0-8278-9718b5e0c7ae
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Remote Management Architecture

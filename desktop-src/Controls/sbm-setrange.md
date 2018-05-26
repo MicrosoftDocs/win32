@@ -1,8 +1,9 @@
 ---
 title: SBM\_SETRANGE message
 description: The SBM\_SETRANGE message is sent to set the minimum and maximum position values for the scroll bar control.
-ms.assetid: '9cf84354-3944-4c10-9b59-39427b840868'
-keywords: ["SBM_SETRANGE message Windows Controls"]
+ms.assetid: 9cf84354-3944-4c10-9b59-39427b840868
+keywords:
+- SBM_SETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SBM\_SETRANGE message
 
 The **SBM\_SETRANGE** message is sent to set the minimum and maximum position values for the scroll bar control.
 
-Applications should not send this message directly. Instead, they should use the [**SetScrollRange**](setscrollrange.md) function. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollRange** function to work properly.
+Applications should not send this message directly. Instead, they should use the [**SetScrollRange**](/windows/win32/Winuser/nf-winuser-setscrollrange?branch=master) function. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollRange** function to work properly.
 
 ## Parameters
 
@@ -55,8 +61,8 @@ If the minimum and maximum position values are equal, the scroll bar control is 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ If the minimum and maximum position values are equal, the scroll bar control is 
 [**SBM\_SETRANGEREDRAW**](sbm-setrangeredraw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

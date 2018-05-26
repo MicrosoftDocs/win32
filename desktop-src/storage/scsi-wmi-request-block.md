@@ -1,8 +1,10 @@
 ---
 title: SCSI\_WMI\_REQUEST\_BLOCK structure
 description: This structure is a special version of a SCSI\_REQUEST\_BLOCK for use with WMI commands.
-ms.assetid: '6dc10c3a-b47e-42c3-a209-34977fb219f1'
-keywords: ["SCSI_WMI_REQUEST_BLOCK structure Storage Devices", "PSCSI_WMI_REQUEST_BLOCK structure pointer Storage Devices"]
+ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
+keywords:
+- SCSI_WMI_REQUEST_BLOCK structure Storage Devices
+- PSCSI_WMI_REQUEST_BLOCK structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - srb.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCSI\_WMI\_REQUEST\_BLOCK structure
@@ -20,7 +27,7 @@ This structure is a special version of a [**SCSI\_REQUEST\_BLOCK**](scsi-request
 > [!Note]  
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Syntax
 
@@ -28,28 +35,28 @@ This structure is a special version of a [**SCSI\_REQUEST\_BLOCK**](scsi-request
 ```C++
 typedef struct _SCSI_WMI_REQUEST_BLOCK {
   USHORT Length;
-  UCHAR  Function;
-  UCHAR  SrbStatus;
-  UCHAR  WMISubFunction;
-  UCHAR  PathId;
-  UCHAR  TargetId;
-  UCHAR  Lun;
-  UCHAR  Reserved1;
-  UCHAR  WMIFlags;
-  UCHAR  Reserved2[2];
-  ULONG  SrbFlags;
-  ULONG  DataTransferLength;
-  ULONG  TimeOutValue;
-  PVOID  DataBuffer;
-  PVOID  DataPath;
-  PVOID  Reserved3;
-  PVOID  OriginalRequest;
-  PVOID  SrbExtension;
-  ULONG  Reserved4;
+  UCHAR  Function;
+  UCHAR  SrbStatus;
+  UCHAR  WMISubFunction;
+  UCHAR  PathId;
+  UCHAR  TargetId;
+  UCHAR  Lun;
+  UCHAR  Reserved1;
+  UCHAR  WMIFlags;
+  UCHAR  Reserved2[2];
+  ULONG  SrbFlags;
+  ULONG  DataTransferLength;
+  ULONG  TimeOutValue;
+  PVOID  DataBuffer;
+  PVOID  DataPath;
+  PVOID  Reserved3;
+  PVOID  OriginalRequest;
+  PVOID  SrbExtension;
+  ULONG  Reserved4;
 #ifdef _WIN64
-  ULONG  Reserved6;
+  ULONG  Reserved6;
 #endif 
-  UCHAR  Reserved5[16];
+  UCHAR  Reserved5[16];
 } SCSI_WMI_REQUEST_BLOCK, *PSCSI_WMI_REQUEST_BLOCK;
 ```
 
@@ -238,7 +245,7 @@ Reserved for system use and not available for use by miniport drivers.
 **Reserved6**
 </dt> <dd>
 
-Reserved for system use and not available for use by miniport drivers. This member is valid starting with Windows Server 2003 with SP1.
+Reserved for system use and not available for use by miniport drivers. This member is valid starting with Windows Server 2003 with SP1.
 
 </dd> <dt>
 
@@ -286,9 +293,9 @@ For information about supporting WMI in miniport drivers, see the [Windows Manag
 [**ScsiPortWmiDispatchFunction**](scsiportwmidispatchfunction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20SCSI_WMI_REQUEST_BLOCK%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -4,11 +4,12 @@ description: The property methods of the IGPMSitesContainer interface get the pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc1cb43b-2e18-45a7-9fda-b43e5a674b62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: cc1cb43b-2e18-45a7-9fda-b43e5a674b62
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMSitesContainer Property Methods GPMC"]
+keywords:
+- IGPMSitesContainer Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -23,11 +24,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMSitesContainer Property Methods
 
-The property methods of the [**IGPMSitesContainer**](igpmsitescontainer.md) interface get the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation .
+The property methods of the [**IGPMSitesContainer**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmsitescontainer?branch=master) interface get the properties described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation .
 
 ## Properties
 
@@ -86,7 +90,7 @@ HRESULT get_DomainController(
 **Forest**
 </dt> <dd> <dl>
 
-Full DNS name of the forest in which the [**GPMSitesContainer**](igpmsitescontainer.md) resides; this is the name of the forest root domain.
+Full DNS name of the forest in which the [**GPMSitesContainer**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmsitescontainer?branch=master) resides; this is the name of the forest root domain.
 
 <dt>
 
@@ -108,7 +112,7 @@ HRESULT get_Forest(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -116,8 +120,8 @@ HRESULT get_Forest(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -129,15 +133,15 @@ HRESULT get_Forest(
 
 <dl> <dt>
 
-[**IGPMSitesContainer**](igpmsitescontainer.md)
+[**IGPMSitesContainer**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmsitescontainer?branch=master)
 </dt> <dt>
 
-[**IGPM**](igpm.md)
+[**IGPM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpm?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

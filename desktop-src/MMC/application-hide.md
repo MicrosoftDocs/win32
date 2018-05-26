@@ -1,14 +1,19 @@
 ---
-title: \_Application Hide method
+title: '\_Application Hide method'
 description: The Hide method hides the MMC application. This method sets the Visible property to False.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0ac59101-61ee-48a6-85f8-7aff0ba466b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0ac59101-61ee-48a6-85f8-7aff0ba466b6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Hide method MMC", "Hide method MMC , Application object", "Application object MMC , Hide method", "Hide method MMC , _Application interface", "_Application interface MMC , Hide method"]
+keywords:
+- Hide method MMC
+- Hide method MMC , Application object
+- Application object MMC , Hide method
+- Hide method MMC , _Application interface
+- _Application interface MMC , Hide method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Hide method
@@ -61,8 +69,8 @@ objMMC.Hide
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -87,9 +95,9 @@ objMMC.Hide
 [Controlling the Lifetime of an MMC Instance](controlling-the-lifetime-of-an-mmc-instance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

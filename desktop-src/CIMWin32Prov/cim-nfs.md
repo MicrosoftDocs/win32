@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_NFS class represents a remote file system that is mounted, using the network file system (NFS) protocol, from a computer system.'
+Description: The CIM\_NFS class represents a remote file system that is mounted, using the network file system (NFS) protocol, from a computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '24eba28f-fbd5-4aa3-a7c7-a611269d55ac'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 24eba28f-fbd5-4aa3-a7c7-a611269d55ac
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_NFS class'
+title: CIM\_NFS class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_NFS class
@@ -19,7 +22,7 @@ The **CIM\_NFS** class represents a remote file system that is mounted, using th
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,39 +32,39 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{75BCF4FB-DB46-11D2-B4C8-80080C7B6371}"), AMENDMENT]
 class CIM_NFS : CIM_RemoteFileSystem
 {
-  boolean  AttributeCaching;
-  uint16   AttributeCachingForDirectoriesMax;
-  uint16   AttributeCachingForDirectoriesMin;
-  uint16   AttributeCachingForRegularFilesMax;
-  uint16   AttributeCachingForRegularFilesMin;
-  uint64   AvailableSpace;
-  uint64   BlockSize;
-  string   Caption;
-  boolean  CasePreserved;
-  boolean  CaseSensitive;
-  uint16   CodeSet[];
-  string   CompressionMethod;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  string   EncryptionMethod;
-  uint64   FileSystemSize;
-  boolean  ForegroundMount;
-  boolean  HardMount;
+  boolean  AttributeCaching;
+  uint16   AttributeCachingForDirectoriesMax;
+  uint16   AttributeCachingForDirectoriesMin;
+  uint16   AttributeCachingForRegularFilesMax;
+  uint16   AttributeCachingForRegularFilesMin;
+  uint64   AvailableSpace;
+  uint64   BlockSize;
+  string   Caption;
+  boolean  CasePreserved;
+  boolean  CaseSensitive;
+  uint16   CodeSet[];
+  string   CompressionMethod;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  string   EncryptionMethod;
+  uint64   FileSystemSize;
+  boolean  ForegroundMount;
+  boolean  HardMount;
   datetime InstallDate;
-  boolean  Interrupt;
-  uint32   MaxFileNameLength;
-  uint16   MountFailureRetries;
-  string   Name;
-  uint64   ReadBufferSize;
-  boolean  ReadOnly;
-  uint16   RetransmissionAttempts;
-  uint32   RetransmissionTimeout;
-  string   Root;
-  uint32   ServerCommunicationPort;
-  string   Status;
-  uint64   WriteBufferSize;
+  boolean  Interrupt;
+  uint32   MaxFileNameLength;
+  uint16   MountFailureRetries;
+  string   Name;
+  uint64   ReadBufferSize;
+  boolean  ReadOnly;
+  uint16   RetransmissionAttempts;
+  uint32   RetransmissionTimeout;
+  string   Root;
+  uint32   ServerCommunicationPort;
+  string   Status;
+  uint64   WriteBufferSize;
 };
 ```
 
@@ -785,8 +788,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -800,9 +803,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_RemoteFileSystem**](cim-remotefilesystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

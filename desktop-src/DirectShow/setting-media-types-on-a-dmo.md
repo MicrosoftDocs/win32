@@ -1,12 +1,17 @@
 ---
 Description: Setting Media Types on a DMO
-ms.assetid: '9ff1542d-6a67-414d-8336-aae80c74d5d0'
+ms.assetid: 9ff1542d-6a67-414d-8336-aae80c74d5d0
 title: Setting Media Types on a DMO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Media Types on a DMO
 
-Before a DMO can process any data, the client must set the media type for each stream. (There is one minor exception to this rule; see [Optional Streams](optional-streams.md).) To find the number of streams, call the [**IMediaObject::GetStreamCount**](imediaobject-getstreamcount.md) method:
+Before a DMO can process any data, the client must set the media type for each stream. (There is one minor exception to this rule; see [Optional Streams](optional-streams.md).) To find the number of streams, call the [**IMediaObject::GetStreamCount**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-getstreamcount?branch=master) method:
 
 
 ```C++
@@ -20,7 +25,7 @@ This method returns two values, the number of inputs and the number of outputs. 
 
 **Preferred Types**
 
-For every stream, the DMO assigns a list of possible media types, in order of preference. For example, the preferred types might be 32-RGB, 24-bit RGB, and 16-bit RGB, in that order. When the client sets the media types, it can use these lists as a hint. To retrieve a preferred type for a stream, call the [**IMediaObject::GetInputType**](imediaobject-getinputtype.md) method or [**IMediaObject::GetOutputType**](imediaobject-getoutputtype.md) method. Specify the stream number and an index value for the type (starting from zero). For example, the following code retrieves the first preferred type from the first input stream:
+For every stream, the DMO assigns a list of possible media types, in order of preference. For example, the preferred types might be 32-RGB, 24-bit RGB, and 16-bit RGB, in that order. When the client sets the media types, it can use these lists as a hint. To retrieve a preferred type for a stream, call the [**IMediaObject::GetInputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-getinputtype?branch=master) method or [**IMediaObject::GetOutputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-getoutputtype?branch=master) method. Specify the stream number and an index value for the type (starting from zero). For example, the following code retrieves the first preferred type from the first input stream:
 
 
 ```C++
@@ -69,7 +74,7 @@ In short, the client should treat the preferred types as guidelines only. The on
 
 **Setting the Media Type on a Stream**
 
-Use the [**IMediaObject::SetInputType**](imediaobject-setinputtype.md) and [**IMediaObject::SetOutputType**](imediaobject-setoutputtype.md) methods to set the type for each stream. You must provide a **DMO\_MEDIA\_TYPE** structure that contains a complete description of the media type. The following example sets the media type on input stream 0, using 44.1-kHz 16-bit stereo PCM audio:
+Use the [**IMediaObject::SetInputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-setinputtype?branch=master) and [**IMediaObject::SetOutputType**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-setoutputtype?branch=master) methods to set the type for each stream. You must provide a **DMO\_MEDIA\_TYPE** structure that contains a complete description of the media type. The following example sets the media type on input stream 0, using 44.1-kHz 16-bit stereo PCM audio:
 
 
 ```C++

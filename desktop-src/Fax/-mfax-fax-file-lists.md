@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service associates a fax file list with each fax document it receives and processes.'
-ms.assetid: '6aa919ad-3c99-4e27-a462-5ad670cfb4e9'
+Description: The fax service associates a fax file list with each fax document it receives and processes.
+ms.assetid: 6aa919ad-3c99-4e27-a462-5ad670cfb4e9
 title: Fax File Lists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax File Lists

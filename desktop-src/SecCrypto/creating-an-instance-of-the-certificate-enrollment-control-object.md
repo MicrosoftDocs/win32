@@ -1,7 +1,12 @@
 ---
-Description: 'The following sections provide information on creating an instance of the Certificate Enrollment Control in C++ or Visual Basic Scripting Edition (VBScript).'
-ms.assetid: 'f5b1e99e-163e-43bc-b60a-c800054d3dbf'
+Description: The following sections provide information on creating an instance of the Certificate Enrollment Control in C++ or Visual Basic Scripting Edition (VBScript).
+ms.assetid: f5b1e99e-163e-43bc-b60a-c800054d3dbf
 title: Creating an Instance of the Certificate Enrollment Control Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Instance of the Certificate Enrollment Control Object

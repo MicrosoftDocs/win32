@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrinterScriptableSequentialStream interface is an ISequentialStream-like interface that works in JavaScript. Instead of reading and writing byte arrays, it reads and writes JavaScript arrays of bytes, which are values between 0 and 255.'
-ms.assetid: '85DF7DCB-7AB1-4A46-AD70-6D47D9F98079'
+---
+Description: The IPrinterScriptableSequentialStream interface is an ISequentialStream-like interface that works in JavaScript. Instead of reading and writing byte arrays, it reads and writes JavaScript arrays of bytes, which are values between 0 and 255.
+ms.assetid: 85DF7DCB-7AB1-4A46-AD70-6D47D9F98079
 title: IPrinterScriptableSequentialStream interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptableSequentialStream interface

@@ -1,7 +1,12 @@
 ---
 title: Storage driver DDI reference
 description: This section contains the reference documentation for developing storage drivers.
-ms.assetid: 'f5007d4f-bb2a-4ea5-a926-e7f95a5dd56c'
+ms.assetid: f5007d4f-bb2a-4ea5-a926-e7f95a5dd56c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage driver DDI reference

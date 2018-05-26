@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether video stabilization was applied to a video frame.'
-ms.assetid: '13F877A3-7600-400F-9071-FE1B83027355'
-title: 'MFSampleExtension\_VideoDSPMode attribute'
+---
+Description: Indicates whether video stabilization was applied to a video frame.
+ms.assetid: 13F877A3-7600-400F-9071-FE1B83027355
+title: MFSampleExtension\_VideoDSPMode attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_VideoDSPMode attribute
@@ -14,17 +19,17 @@ Indicates whether video stabilization was applied to a video frame.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 
-The [**Video Stabilization MFT**](video-stabilization-mft.md) sets this attribute on the output samples that it produces. The value of the attribute is an [**MFVideoDSPMode**](mfvideodspmode.md) enumeration value. If the value is **MFVideoDSPMode\_Stabilization**, it means that the MFT applied image stabilization to the frame.
+The [**Video Stabilization MFT**](video-stabilization-mft.md) sets this attribute on the output samples that it produces. The value of the attribute is an [**MFVideoDSPMode**](/windows/win32/wmcodecdsp/ne-wmcodecdsp-_mfvideodspmode?branch=master) enumeration value. If the value is **MFVideoDSPMode\_Stabilization**, it means that the MFT applied image stabilization to the frame.
 
 ## Requirements
 

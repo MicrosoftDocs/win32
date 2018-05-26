@@ -1,7 +1,12 @@
 ---
-Description: 'An object that describes its type as WPD\_CONTENT\_TYPE\_TELEVISION represents a television recording.'
-ms.assetid: 'b8e8da1a-94a9-4540-a4eb-fe0c0cd383f9'
-title: 'WPD\_CONTENT\_TYPE\_TELEVISION'
+Description: An object that describes its type as WPD\_CONTENT\_TYPE\_TELEVISION represents a television recording.
+ms.assetid: b8e8da1a-94a9-4540-a4eb-fe0c0cd383f9
+title: WPD\_CONTENT\_TYPE\_TELEVISION
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_TELEVISION

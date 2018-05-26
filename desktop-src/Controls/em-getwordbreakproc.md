@@ -1,8 +1,9 @@
 ---
 title: EM\_GETWORDBREAKPROC message
 description: Gets the address of the current Wordwrap function. You can send this message to either an edit control or a rich edit control.
-ms.assetid: '564b4b1b-913f-4040-bb28-eea50c0c3738'
-keywords: ["EM_GETWORDBREAKPROC message Windows Controls"]
+ms.assetid: 564b4b1b-913f-4040-bb28-eea50c0c3738
+keywords:
+- EM_GETWORDBREAKPROC message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETWORDBREAKPROC message
@@ -43,7 +49,7 @@ The return value specifies the address of the application-defined Wordwrap funct
 
 A Wordwrap function scans a text buffer that contains text to be sent to the display, looking for the first word that does not fit on the current display line. The wordwrap function places this word at the beginning of the next line on the display. A Wordwrap function defines the point at which the system should break a line of text for multiline edit controls, usually at a space character that separates two words.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -51,8 +57,8 @@ A Wordwrap function scans a text buffer that contains text to be sent to the dis
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ A Wordwrap function scans a text buffer that contains text to be sent to the dis
 [**EM\_SETWORDBREAKPROC**](em-setwordbreakproc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

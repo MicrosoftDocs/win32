@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_NXTType class
 description: Subclass of MicrosoftDNS\_ResourceRecord that represents a Next (NXT) RR.
-ms.assetid: 'bb24509e-083b-4432-89e3-501167f12299'
-keywords: ["MicrosoftDNS_NXTType class DNS", "MicrosoftDNS_NXTType class DNS , described"]
+ms.assetid: bb24509e-083b-4432-89e3-501167f12299
+keywords:
+- MicrosoftDNS_NXTType class DNS
+- MicrosoftDNS_NXTType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_NXTType class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_NXTType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +101,7 @@ Space-separated list of the RR-type mnemonics for the owner name of the NXT Reso
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ Space-separated list of the RR-type mnemonics for the owner name of the NXT Reso
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

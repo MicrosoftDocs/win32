@@ -1,18 +1,23 @@
 ---
 Description: Enumerating Content
-ms.assetid: '86782a09-4fca-4ae0-beaf-296069e061dc'
+ms.assetid: 86782a09-4fca-4ae0-beaf-296069e061dc
 title: Enumerating Content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Content
 
-The content on a device (whether that content is a folder, a phone book, a video, or a still image) is called an object in the WPD API. These objects are referenced by object identifiers and described by properties. You can enumerate the objects on a device by calling methods in the [**IPortableDevice interface**](iportabledevice.md), the [**IPortableDeviceContent interface**](iportabledevicecontent.md), and the [**IEnumPortableDeviceObjectIDs interface**](ienumportabledeviceobjectids.md).
+The content on a device (whether that content is a folder, a phone book, a video, or a still image) is called an object in the WPD API. These objects are referenced by object identifiers and described by properties. You can enumerate the objects on a device by calling methods in the [**IPortableDevice interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master), the [**IPortableDeviceContent interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master), and the [**IEnumPortableDeviceObjectIDs interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids?branch=master).
 
 The sample application demonstrates content enumeration in the EnumerateAllContent function that is found in the ContentEnumeration.cpp module. This function, in turn, calls a RecursiveEnumerate function that walks the hierarchy of objects found on the selected device and returns an object identifier for each object.
 
-As noted, the RecursiveEnumerate function retrieves an object identifier for each object found on the device. The object identifier is a string value. Once your application retrieves this identifier, it can obtain more descriptive object information (such as the object's name, the identifier for the object's parent, and so on). This descriptive information is referred to as object properties (or metadata). Your application can retrieve these properties by calling members of the [**IPortableDeviceProperties interface**](iportabledeviceproperties.md).
+As noted, the RecursiveEnumerate function retrieves an object identifier for each object found on the device. The object identifier is a string value. Once your application retrieves this identifier, it can obtain more descriptive object information (such as the object's name, the identifier for the object's parent, and so on). This descriptive information is referred to as object properties (or metadata). Your application can retrieve these properties by calling members of the [**IPortableDeviceProperties interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master).
 
-The EnumerateAllContent function begins by retrieving a pointer to an [**IPortableDeviceContent interface**](iportabledevicecontent.md). It retrieves this pointer by calling the [**IPortableDevice::Content**](iportabledevice-content.md) method.
+The EnumerateAllContent function begins by retrieving a pointer to an [**IPortableDeviceContent interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master). It retrieves this pointer by calling the [**IPortableDevice::Content**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-content?branch=master) method.
 
 
 ```C++
@@ -49,11 +54,11 @@ void EnumerateAllContent(
 
 Once it retrieves the pointer to the IPortableDeviceContent interface, the EnumerateAllContent function calls the RecursiveEnumerate function, which walks the hierarchy of objects found on the given device and returns an object identifier for each.
 
-The RecursiveEnumerate function begins by retrieving a pointer to an [**IEnumPortableDeviceObjectIDs interface**](ienumportabledeviceobjectids.md). This interface exposes the methods that an application uses to navigate the list of objects found on a given device.
+The RecursiveEnumerate function begins by retrieving a pointer to an [**IEnumPortableDeviceObjectIDs interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids?branch=master). This interface exposes the methods that an application uses to navigate the list of objects found on a given device.
 
-In this sample, the RecursiveEnumerate function calls the [**IEnumPortableDeviceObjectIDs::Next**](ienumportabledeviceobjectids-next.md) method to traverse the list of objects.
+In this sample, the RecursiveEnumerate function calls the [**IEnumPortableDeviceObjectIDs::Next**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-next?branch=master) method to traverse the list of objects.
 
-Each call to the [**IEnumPortableDeviceObjects::Next**](ienumportabledeviceobjectids-next.md) method requests a batch of 10 identifiers. (This value is specified by the NUM\_OBJECTS\_TO\_REQUEST constant that is supplied as the first argument.)
+Each call to the [**IEnumPortableDeviceObjects::Next**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-next?branch=master) method requests a batch of 10 identifiers. (This value is specified by the NUM\_OBJECTS\_TO\_REQUEST constant that is supplied as the first argument.)
 
 
 ```C++
@@ -112,16 +117,16 @@ void RecursiveEnumerate(
 
 <dl> <dt>
 
-[**IEnumPortableDeviceObjectIDs Interface**](ienumportabledeviceobjectids.md)
+[**IEnumPortableDeviceObjectIDs Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids?branch=master)
 </dt> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
 [**Programming Guide**](programming-guide.md)

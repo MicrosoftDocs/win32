@@ -4,17 +4,22 @@ description: Contains SCSI Inquiry Data and Vital Product Data page 83 (device i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f477ec85-197e-4aff-9095-c3a93f775513'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f477ec85-197e-4aff-9095-c3a93f775513
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskUniqueIds Failover Cluster , for Physical Disk private properties", "DiskUniqueIds Failover Cluster"]
+keywords:
+- DiskUniqueIds Failover Cluster , for Physical Disk private properties
+- DiskUniqueIds Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DiskUniqueIds
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DiskUniqueIds
@@ -28,19 +33,19 @@ Contains SCSI Inquiry Data and Vital Product Data page 83 (device identity) info
 | Data type | **BYTE**                                                         |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 ## Remarks
 
 The content of the **DiskUniqueIds** property is a [STORAGE\_DEVICE\_ID\_DESCRIPTOR](Http://go.microsoft.com/fwlink/p/?linkid=107392) structure.
 
-The [**CLUSPROP\_BINARY\_DECLARE**](clusprop-binary-declare.md) macro creates a [**CLUSPROP\_BINARY**](clusprop-binary.md) structure with an array of the correct size.
+The [**CLUSPROP\_BINARY\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_binary_declare?branch=master) macro creates a [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master) structure with an array of the correct size.
 
 The constant for this property is **CLUSREG\_NAME\_PHYSDISK\_DISKUNIQUEIDS**.
 
@@ -51,7 +56,7 @@ The constant for this property is **CLUSREG\_NAME\_PHYSDISK\_DISKUNIQUEIDS**.
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -62,18 +67,18 @@ The constant for this property is **CLUSREG\_NAME\_PHYSDISK\_DISKUNIQUEIDS**.
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_BINARY**](clusprop-binary.md)
+[**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_BINARY\_DECLARE**](clusprop-binary-declare.md)
+[**CLUSPROP\_BINARY\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_binary_declare?branch=master)
 </dt> <dt>
 
 [STORAGE\_DEVICE\_ID\_DESCRIPTOR](Http://go.microsoft.com/fwlink/p/?linkid=107392)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

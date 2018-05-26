@@ -1,14 +1,17 @@
 ---
 title: MMCCtrl.TaskNotify method
-description: Sends a notification and data to the specified snap-in through that snap-in's IExtendTaskPad TaskNotify method.
+description: Sends a notification and data to the specified snap-in through that snap-ins IExtendTaskPad TaskNotify method.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '157685e3-b5a0-4cc8-ba9f-5f97bb85794b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 157685e3-b5a0-4cc8-ba9f-5f97bb85794b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["TaskNotify method MMC", "TaskNotify method MMC , MMCCtrl class", "MMCCtrl class MMC , TaskNotify method"]
+keywords:
+- TaskNotify method MMC
+- TaskNotify method MMC , MMCCtrl class
+- MMCCtrl class MMC , TaskNotify method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCCtrl.TaskNotify method
@@ -97,9 +103,9 @@ This method does not return a value.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

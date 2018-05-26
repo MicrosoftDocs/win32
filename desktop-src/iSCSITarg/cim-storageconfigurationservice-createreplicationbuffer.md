@@ -4,13 +4,16 @@ description: Create (or start a job to create) a replication buffer that buffers
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1cddd39b-5378-487e-93c1-d3aa4600f7b7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1cddd39b-5378-487e-93c1-d3aa4600f7b7
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateReplicationBuffer method iSCSI Software Target API", "CreateReplicationBuffer method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , CreateReplicationBuffer method"]
+keywords:
+- CreateReplicationBuffer method iSCSI Software Target API
+- CreateReplicationBuffer method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , CreateReplicationBuffer method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateReplicationBuffer method of the CIM\_StorageConfigurationService class
@@ -38,11 +44,11 @@ All other values indicate some type of error condition.
 
 ```mof
 uint32 CreateReplicationBuffer(
-  [out] CIM_ConcreteJob    REF Job,
-  [in]  CIM_ManagedElement REF Host,
-  [in]  CIM_StorageExtent  REF TargetElement,
-  [in]  CIM_StoragePool    REF TargetPool,
-  [out] CIM_Memory         REF ReplicaBuffer
+  [out] CIM_ConcreteJob    REF Job,
+  [in]  CIM_ManagedElement REF Host,
+  [in]  CIM_StorageExtent  REF TargetElement,
+  [in]  CIM_StoragePool    REF TargetPool,
+  [out] CIM_Memory         REF ReplicaBuffer
 );
 ```
 
@@ -112,16 +118,16 @@ Reference to the created replica buffer element.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -131,7 +137,7 @@ Reference to the created replica buffer element.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -145,9 +151,9 @@ Reference to the created replica buffer element.
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

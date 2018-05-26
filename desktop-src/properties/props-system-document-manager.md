@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '21b75af5-b53a-430c-9f6c-9296159bec89'
-title: 'System.Document.Manager'
+Description: .
+ms.assetid: 21b75af5-b53a-430c-9f6c-9296159bec89
+title: System.Document.Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.Manager

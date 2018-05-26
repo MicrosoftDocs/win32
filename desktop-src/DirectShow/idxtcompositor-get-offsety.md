@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_OffsetY method retrieves the vertical offset of the target rectangle.'
-ms.assetid: '78bb3565-7a98-4a64-a2f2-6c34edb47733'
-title: 'IDxtCompositor::get\_OffsetY method'
+---
+Description: The get\_OffsetY method retrieves the vertical offset of the target rectangle.
+ms.assetid: 78bb3565-7a98-4a64-a2f2-6c34edb47733
+title: IDxtCompositorget\_OffsetY method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::get\_OffsetY method

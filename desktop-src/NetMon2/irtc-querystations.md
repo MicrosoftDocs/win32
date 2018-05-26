@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a list of all computers currently using Network Monitor to capture network data.'
-ms.assetid: '57e7b8e1-99b8-4194-b6dc-401235be4ef4'
-title: 'IRTC::QueryStations method'
+Description: Provides a list of all computers currently using Network Monitor to capture network data.
+ms.assetid: 57e7b8e1-99b8-4194-b6dc-401235be4ef4
+title: IRTCQueryStations method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRTC::QueryStations method
@@ -13,7 +18,7 @@ The **QueryStations** method provides a list of all computers currently using Ne
 
 ```C++
 HRESULT STDMETHODCALLTYPE QueryStations(
-  [in, out] QUERYTABLE *lpQueryTable
+  [in, out] QUERYTABLE *lpQueryTable
 );
 ```
 
@@ -46,7 +51,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +65,8 @@ The user must allocate the memory for the [**QUERYTABLE**](querytable.md) struct
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -80,9 +85,9 @@ The user must allocate the memory for the [**QUERYTABLE**](querytable.md) struct
 [**STATIONQUERY**](stationquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

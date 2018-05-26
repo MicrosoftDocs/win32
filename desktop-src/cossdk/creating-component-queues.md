@@ -1,7 +1,12 @@
 ---
-Description: 'An application that contains at least one queuable component can be marked as queued using the component services administrative tool.'
-ms.assetid: '7d9fec63-0bb7-45f3-9d40-736a60d69185'
+Description: An application that contains at least one queuable component can be marked as queued using the component services administrative tool.
+ms.assetid: 7d9fec63-0bb7-45f3-9d40-736a60d69185
 title: Creating Component Queues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Component Queues

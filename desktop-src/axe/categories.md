@@ -1,14 +1,20 @@
 ---
 title: Categories element
 description: Categories that enable the UX to handle multiple items.
-ms.assetid: 'E5CBA7EC-2DCE-47A4-BB65-21504D5260AF'
-keywords: ["Categories element Access Execution Engine"]
+ms.assetid: E5CBA7EC-2DCE-47A4-BB65-21504D5260AF
+keywords:
+- Categories element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Categories
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Categories element
@@ -70,9 +76,9 @@ Category
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

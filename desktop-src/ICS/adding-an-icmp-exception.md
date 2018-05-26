@@ -1,7 +1,12 @@
 ---
 title: Adding an ICMP Rule
-description: This example adds an ICMP rule using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that adds an ' ICMP rule using the Microsoft Windows Firewall APIs.
-ms.assetid: 'dfc99536-4d9b-43d9-825b-4c1752911298'
+description: This example adds an ICMP rule using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that adds an  ICMP rule using the Microsoft Windows Firewall APIs.
+ms.assetid: dfc99536-4d9b-43d9-825b-4c1752911298
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an ICMP Rule

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set the MSIUNINSTALLSUPERSEDEDCOMPONENTS property to 1 in the Property table or on a command line.'
-ms.assetid: 'ba9b1b2d-1667-48c8-8f1a-9958a1d170da'
+---
+Description: Set the MSIUNINSTALLSUPERSEDEDCOMPONENTS property to 1 in the Property table or on a command line.
+ms.assetid: ba9b1b2d-1667-48c8-8f1a-9958a1d170da
 title: MSIUNINSTALLSUPERSEDEDCOMPONENTS property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIUNINSTALLSUPERSEDEDCOMPONENTS property

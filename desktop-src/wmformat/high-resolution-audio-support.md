@@ -1,8 +1,18 @@
 ---
 title: High-Resolution Audio Support
 description: High-Resolution Audio Support
-ms.assetid: '9545420f-70c4-4fd7-9033-5b5c7712c04c'
-keywords: ["Windows Media Format SDK,high-resolution audio support", "Windows Media Format SDK,audio support", "codecs,high-resolution audio support", "codecs,audio support", "high-resolution audio"]
+ms.assetid: 9545420f-70c4-4fd7-9033-5b5c7712c04c
+keywords:
+- Windows Media Format SDK,high-resolution audio support
+- Windows Media Format SDK,audio support
+- codecs,high-resolution audio support
+- codecs,audio support
+- high-resolution audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # High-Resolution Audio Support

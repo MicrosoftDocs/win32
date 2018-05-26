@@ -1,7 +1,12 @@
 ---
 title: Specified User
 description: Specified User
-ms.assetid: 'ec7684fb-a9f1-4ef2-a7d4-07caf24b6023'
+ms.assetid: ec7684fb-a9f1-4ef2-a7d4-07caf24b6023
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specified User

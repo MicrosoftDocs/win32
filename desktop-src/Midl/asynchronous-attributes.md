@@ -2,7 +2,13 @@
 title: Asynchronous Attributes
 description: When a program invokes a procedure in an interface, the procedure may execute synchronously or asynchronously.
 ms.assetid: 3e6c6c13-1524-41b2-96dc-3885eadb847c
-keywords: ["IDL MIDL , attributes MIDL , asynchronous"]
+keywords:
+- IDL MIDL , attributes MIDL , asynchronous
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Attributes

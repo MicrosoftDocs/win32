@@ -1,7 +1,7 @@
 ---
 title: GXFPF\_\ Constants
 description: GXFPF\_\ constants specify the character position to return based on the screen coordinates of the point relative to a character bounding box.
-ms.assetid: 'e69e5a4c-65e6-4d9b-8cb0-962524aa5d39'
+ms.assetid: e69e5a4c-65e6-4d9b-8cb0-962524aa5d39
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GXFPF\_\* Constants
@@ -28,7 +33,7 @@ GXFPF\_\* constants specify the character position to return based on the screen
 
 ## Remarks
 
-The *dwflags* parameters of the [ITextStoreACP::GetACPFromPoint](itextstoreacp-getacpfrompoint.md) and [ITfContextOwner::GetACPFromPoint](itfcontextowner-getacpfrompoint.md) methods use these constants.
+The *dwflags* parameters of the [ITextStoreACP::GetACPFromPoint](/windows/win32/Textstor/nf-textstor-itextstoreacp-getacpfrompoint?branch=master) and [ITfContextOwner::GetACPFromPoint](/windows/win32/Msctf/nf-msctf-itfcontextowner-getacpfrompoint?branch=master) methods use these constants.
 
 ## Requirements
 
@@ -36,9 +41,9 @@ The *dwflags* parameters of the [ITextStoreACP::GetACPFromPoint](itextstoreacp-g
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -48,15 +53,15 @@ The *dwflags* parameters of the [ITextStoreACP::GetACPFromPoint](itextstoreacp-g
 
 <dl> <dt>
 
-[ITextStoreACP::GetACPFromPoint](itextstoreacp-getacpfrompoint.md)
+[ITextStoreACP::GetACPFromPoint](/windows/win32/Textstor/nf-textstor-itextstoreacp-getacpfrompoint?branch=master)
 </dt> <dt>
 
-[ITfContextOwner::GetACPFromPoint](itfcontextowner-getacpfrompoint.md)
+[ITfContextOwner::GetACPFromPoint](/windows/win32/Msctf/nf-msctf-itfcontextowner-getacpfrompoint?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

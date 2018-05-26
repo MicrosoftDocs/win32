@@ -1,7 +1,12 @@
 ---
 title: Direct Annotation
 description: This section provides information about using direct annotation.
-ms.assetid: '4ae8efb0-3500-4c6b-82d5-f72fbd8aaa2a'
+ms.assetid: 4ae8efb0-3500-4c6b-82d5-f72fbd8aaa2a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct Annotation

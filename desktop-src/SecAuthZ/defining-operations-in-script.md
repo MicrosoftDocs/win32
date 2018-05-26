@@ -1,12 +1,17 @@
 ---
-Description: 'In Authorization Manager an operation is a low-level function or method of an application.'
-ms.assetid: '6b35d25e-150c-4760-b358-fa517a00dd79'
+Description: In Authorization Manager an operation is a low-level function or method of an application.
+ms.assetid: 6b35d25e-150c-4760-b358-fa517a00dd79
 title: Defining Operations in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Operations in Script
 
-In Authorization Manager an operation is a low-level function or method of an application. These operations are grouped together as tasks. Users of the application request permission to complete tasks. An operation is represented by an [**IAzOperation**](iazoperation.md) object. For more information about operations, see [Operations and Tasks](operations-and-tasks.md).
+In Authorization Manager an operation is a low-level function or method of an application. These operations are grouped together as tasks. Users of the application request permission to complete tasks. An operation is represented by an [**IAzOperation**](/windows/win32/Azroles/nn-azroles-iazoperation?branch=master) object. For more information about operations, see [Operations and Tasks](operations-and-tasks.md).
 
 The following example shows how to define operations in an authorization policy store. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C, and that this store contains an application named Expense.
 

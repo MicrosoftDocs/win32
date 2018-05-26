@@ -1,50 +1,55 @@
 ---
-Description: 'The IAzApplication interface exposes the following methods.'
-ms.assetid: 'C969D653-9FEE-45B6-8DB1-4D778C836E9D'
+Description: The IAzApplication interface exposes the following methods.
+ms.assetid: C969D653-9FEE-45B6-8DB1-4D778C836E9D
 title: IAzApplication Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAzApplication Methods
 
-The [**IAzApplication**](iazapplication.md) interface exposes the following methods.
+The [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) interface exposes the following methods.
 
 ## In this section
 
--   [**AddDelegatedPolicyUser Method**](iazapplication-adddelegatedpolicyuser.md)
--   [**AddDelegatedPolicyUserName Method**](iazapplication-adddelegatedpolicyusername.md)
--   [**AddPolicyAdministrator Method**](iazapplication-addpolicyadministrator.md)
--   [**AddPolicyAdministratorName Method**](iazapplication-addpolicyadministratorname.md)
--   [**AddPolicyReader Method**](iazapplication-addpolicyreader.md)
--   [**AddPolicyReaderName Method**](iazapplication-addpolicyreadername.md)
--   [**AddPropertyItem Method**](iazapplication-addpropertyitem.md)
--   [**CreateApplicationGroup Method**](iazapplication-createapplicationgroup.md)
--   [**CreateOperation Method**](iazapplication-createoperation.md)
--   [**CreateRole Method**](iazapplication-createrole.md)
--   [**CreateScope Method**](iazapplication-createscope.md)
--   [**CreateTask Method**](iazapplication-createtask.md)
--   [**DeleteApplicationGroup Method**](iazapplication-deleteapplicationgroup.md)
--   [**DeleteDelegatedPolicyUser Method**](iazapplication-deletedelegatedpolicyuser.md)
--   [**DeleteDelegatedPolicyUserName Method**](iazapplication-deletedelegatedpolicyusername.md)
--   [**DeleteOperation Method**](iazapplication-deleteoperation.md)
--   [**DeletePolicyAdministrator Method**](iazapplication-deletepolicyadministrator.md)
--   [**DeletePolicyAdministratorName Method**](iazapplication-deletepolicyadministratorname.md)
--   [**DeletePolicyReader Method**](iazapplication-deletepolicyreader.md)
--   [**DeletePolicyReaderName Method**](iazapplication-deletepolicyreadername.md)
--   [**DeletePropertyItem Method**](iazapplication-deletepropertyitem.md)
--   [**DeleteRole Method**](iazapplication-deleterole.md)
--   [**DeleteScope Method**](iazapplication-deletescope.md)
--   [**DeleteTask Method**](iazapplication-deletetask.md)
--   [**GetProperty Method**](iazapplication-getproperty.md)
--   [**InitializeClientContextFromName Method**](iazapplication-initializeclientcontextfromname.md)
--   [**InitializeClientContextFromStringSid Method**](iazapplication-initializeclientcontextfromstringsid.md)
--   [**InitializeClientContextFromToken Method**](iazapplication-initializeclientcontextfromtoken.md)
--   [**OpenApplicationGroup Method**](iazapplication-openapplicationgroup.md)
--   [**OpenOperation Method**](iazapplication-openoperation.md)
--   [**OpenRole Method**](iazapplication-openrole.md)
--   [**OpenScope Method**](iazapplication-openscope.md)
--   [**OpenTask Method**](iazapplication-opentask.md)
--   [**SetProperty Method**](iazapplication-setproperty.md)
--   [**Submit Method**](iazapplication-submit.md)
+-   [**AddDelegatedPolicyUser Method**](/windows/win32/Azroles/nf-azroles-iazapplication-adddelegatedpolicyuser?branch=master)
+-   [**AddDelegatedPolicyUserName Method**](/windows/win32/Azroles/nf-azroles-iazapplication-adddelegatedpolicyusername?branch=master)
+-   [**AddPolicyAdministrator Method**](/windows/win32/Azroles/nf-azroles-iazapplication-addpolicyadministrator?branch=master)
+-   [**AddPolicyAdministratorName Method**](/windows/win32/Azroles/nf-azroles-iazapplication-addpolicyadministratorname?branch=master)
+-   [**AddPolicyReader Method**](/windows/win32/Azroles/nf-azroles-iazapplication-addpolicyreader?branch=master)
+-   [**AddPolicyReaderName Method**](/windows/win32/Azroles/nf-azroles-iazapplication-addpolicyreadername?branch=master)
+-   [**AddPropertyItem Method**](/windows/win32/Azroles/nf-azroles-iazapplication-addpropertyitem?branch=master)
+-   [**CreateApplicationGroup Method**](/windows/win32/Azroles/nf-azroles-iazapplication-createapplicationgroup?branch=master)
+-   [**CreateOperation Method**](/windows/win32/Azroles/nf-azroles-iazapplication-createoperation?branch=master)
+-   [**CreateRole Method**](/windows/win32/Azroles/nf-azroles-iazapplication-createrole?branch=master)
+-   [**CreateScope Method**](/windows/win32/Azroles/nf-azroles-iazapplication-createscope?branch=master)
+-   [**CreateTask Method**](/windows/win32/Azroles/nf-azroles-iazapplication-createtask?branch=master)
+-   [**DeleteApplicationGroup Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deleteapplicationgroup?branch=master)
+-   [**DeleteDelegatedPolicyUser Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletedelegatedpolicyuser?branch=master)
+-   [**DeleteDelegatedPolicyUserName Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletedelegatedpolicyusername?branch=master)
+-   [**DeleteOperation Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deleteoperation?branch=master)
+-   [**DeletePolicyAdministrator Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletepolicyadministrator?branch=master)
+-   [**DeletePolicyAdministratorName Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletepolicyadministratorname?branch=master)
+-   [**DeletePolicyReader Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletepolicyreader?branch=master)
+-   [**DeletePolicyReaderName Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletepolicyreadername?branch=master)
+-   [**DeletePropertyItem Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletepropertyitem?branch=master)
+-   [**DeleteRole Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deleterole?branch=master)
+-   [**DeleteScope Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletescope?branch=master)
+-   [**DeleteTask Method**](/windows/win32/Azroles/nf-azroles-iazapplication-deletetask?branch=master)
+-   [**GetProperty Method**](/windows/win32/Azroles/nf-azroles-iazapplication-getproperty?branch=master)
+-   [**InitializeClientContextFromName Method**](/windows/win32/Azroles/nf-azroles-iazapplication-initializeclientcontextfromname?branch=master)
+-   [**InitializeClientContextFromStringSid Method**](/windows/win32/Azroles/nf-azroles-iazapplication-initializeclientcontextfromstringsid?branch=master)
+-   [**InitializeClientContextFromToken Method**](/windows/win32/Azroles/nf-azroles-iazapplication-initializeclientcontextfromtoken?branch=master)
+-   [**OpenApplicationGroup Method**](/windows/win32/Azroles/nf-azroles-iazapplication-openapplicationgroup?branch=master)
+-   [**OpenOperation Method**](/windows/win32/Azroles/nf-azroles-iazapplication-openoperation?branch=master)
+-   [**OpenRole Method**](/windows/win32/Azroles/nf-azroles-iazapplication-openrole?branch=master)
+-   [**OpenScope Method**](/windows/win32/Azroles/nf-azroles-iazapplication-openscope?branch=master)
+-   [**OpenTask Method**](/windows/win32/Azroles/nf-azroles-iazapplication-opentask?branch=master)
+-   [**SetProperty Method**](/windows/win32/Azroles/nf-azroles-iazapplication-setproperty?branch=master)
+-   [**Submit Method**](/windows/win32/Azroles/nf-azroles-iazapplication-submit?branch=master)
 
  
 

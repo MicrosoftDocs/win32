@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following video properties.'
-ms.assetid: 'e6df5b2d-ceb8-4de0-b60b-9102c77143fe'
+Description: Windows Portable Devices supports the following video properties.
+ms.assetid: e6df5b2d-ceb8-4de0-b60b-9102c77143fe
 title: Video Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Properties
@@ -29,7 +34,7 @@ Windows Portable Devices supports the following video properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,9 +53,9 @@ Windows Portable Devices supports the following video properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

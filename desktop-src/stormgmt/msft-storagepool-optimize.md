@@ -1,8 +1,11 @@
 ---
 title: Optimize method of the MSFT\_StoragePool class
 description: Optimizes the storage pool.
-ms.assetid: '61B3D59A-FDA6-4447-AED5-180484839DBE'
-keywords: ["Optimize method Windows Storage Management API", "Optimize method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , Optimize method"]
+ms.assetid: 61B3D59A-FDA6-4447-AED5-180484839DBE
+keywords:
+- Optimize method Windows Storage Management API
+- Optimize method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , Optimize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optimize method of the MSFT\_StoragePool class
@@ -22,9 +30,9 @@ Optimizes the storage pool.
 
 ```mof
 UInt32 Optimize(
-  [in]  Boolean             RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  Boolean             RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -42,7 +50,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -95,8 +103,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -109,9 +117,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

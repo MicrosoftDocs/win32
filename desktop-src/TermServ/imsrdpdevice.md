@@ -4,11 +4,13 @@ description: Contains information about a device object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b486a591-870b-446c-8028-9e4406cdf0ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b486a591-870b-446c-8028-9e4406cdf0ce
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpDevice interface Remote Desktop Services", "IMsRdpDevice interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpDevice interface Remote Desktop Services
+- IMsRdpDevice interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDevice interface
@@ -44,7 +49,7 @@ The **IMsRdpDevice** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +57,8 @@ The **IMsRdpDevice** interface has these properties.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpDevice is defined as 60c3b9c8-9e92-4f5e-a3e7-604a912093ea<br/>        |
@@ -70,9 +75,9 @@ The **IMsRdpDevice** interface has these properties.
 [**IMsRdpDeviceCollection**](imsrdpdevicecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

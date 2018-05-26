@@ -4,13 +4,16 @@ description: Retrieves a summary of transactions run by a DTC instance.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1681e546-b35b-4aa7-bac9-62cade15c797'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1681e546-b35b-4aa7-bac9-62cade15c797
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, MSFT_DtcTransactionsStatisticsTask class", "MSFT_DtcTransactionsStatisticsTask class, Get method"]
+keywords:
+- Get method
+- Get method, MSFT_DtcTransactionsStatisticsTask class
+- MSFT_DtcTransactionsStatisticsTask class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the MSFT\_DtcTransactionsStatisticsTask class
@@ -30,8 +36,8 @@ Retrieves a summary of transactions run by a DTC instance.
 
 ```mof
 uint32 Get(
-  [in]  string                    DtcName,
-  [out] DtcTransactionsStatistics cmdletOutput
+  [in]  string                    DtcName,
+  [out] DtcTransactionsStatistics cmdletOutput
 );
 ```
 
@@ -61,8 +67,8 @@ A [**DtcTransactionsStatistics**](dtctransactionsstatistics.md) embedded instanc
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl>    |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
@@ -77,9 +83,9 @@ A [**DtcTransactionsStatistics**](dtctransactionsstatistics.md) embedded instanc
 [**MSFT\_DtcTransactionsStatisticsTask**](msft-dtctransactionsstatisticstask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

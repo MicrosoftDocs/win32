@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the account user ID.'
+Description: Specifies or retrieves the account user ID.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '8c2f1da0-2600-4ad9-9e54-d1abd4240d9b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 8c2f1da0-2600-4ad9-9e54-d1abd4240d9b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'UserDomainAccount.UserId property'
+title: UserDomainAccount.UserId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserDomainAccount.UserId property
@@ -99,7 +102,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -111,9 +114,9 @@ END FUNCTION
 [**UserDomainAccount**](userdomainaccount-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

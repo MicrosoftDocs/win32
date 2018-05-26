@@ -1,7 +1,12 @@
 ---
-Description: 'An association used to represent virtual system migration network settings of the virtual system migration service.'
-ms.assetid: '5704dce7-1db3-4049-8c61-58bfa9596766'
-title: 'Msvm\_VirtualSystemMigrationServiceSettingDataComponent class'
+Description: An association used to represent virtual system migration network settings of the virtual system migration service.
+ms.assetid: 5704dce7-1db3-4049-8c61-58bfa9596766
+title: Msvm\_VirtualSystemMigrationServiceSettingDataComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemMigrationServiceSettingDataComponent class
@@ -71,17 +76,17 @@ A reference to an instance of the [**Msvm\_VirtualSystemMigrationNetworkSettingD
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

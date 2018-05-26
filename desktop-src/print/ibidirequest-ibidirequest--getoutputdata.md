@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetOutputData method gets the specified output data coming back from the printer.'
-ms.assetid: '0757dbc2-850b-4267-9339-b87591f85767'
-title: 'IBidiRequest::GetOutputData method'
+---
+Description: The GetOutputData method gets the specified output data coming back from the printer.
+ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
+title: IBidiRequestGetOutputData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequest::GetOutputData method

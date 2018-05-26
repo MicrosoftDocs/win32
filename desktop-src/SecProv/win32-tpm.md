@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the Trusted Platform Module (TPM), a hardware security chip that provides a root of trust for a computer system.'
-ms.assetid: '4e44ef21-346c-4d9f-b40d-cb70118398d1'
-title: 'Win32\_Tpm class'
+---
+Description: Represents the Trusted Platform Module (TPM), a hardware security chip that provides a root of trust for a computer system.
+ms.assetid: 4e44ef21-346c-4d9f-b40d-cb70118398d1
+title: Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Tpm class

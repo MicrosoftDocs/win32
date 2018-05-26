@@ -1,8 +1,9 @@
 ---
 title: PBM\_SETRANGE32 message
 description: Sets the minimum and maximum values for a progress bar to 32-bit values, and redraws the bar to reflect the new range.
-ms.assetid: '7958ea14-17b4-4c0e-97ec-b09fa0d36e8b'
-keywords: ["PBM_SETRANGE32 message Windows Controls"]
+ms.assetid: 7958ea14-17b4-4c0e-97ec-b09fa0d36e8b
+keywords:
+- PBM_SETRANGE32 message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_SETRANGE32 message
@@ -49,15 +55,15 @@ To retrieve the entire high and low 32-bit values, use the [**PBM\_GETRANGE**](p
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: image.height property
 description: Gets or sets the height of the g image element.
-ms.assetid: '6c0e6e39-df13-418c-bf0d-a4c597597c5a'
-keywords: ["height property Windows Sidebar", "height property Windows Sidebar , image object", "image object Windows Sidebar , height property"]
+ms.assetid: 6c0e6e39-df13-418c-bf0d-a4c597597c5a
+keywords:
+- height property Windows Sidebar
+- height property Windows Sidebar , image object
+- image object Windows Sidebar , height property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # image.height property
@@ -40,7 +48,7 @@ An **Integer** that specifies or receives the height, in pixels, to scale the ta
 > \[!Caution\]  
 > Other than [**g:background**](background-element.md), avoid images that render to the absolute edges of a gadget. In high-DPI, rounding errors can cause a magenta fringe around the border of the gadget.
 
- 
+ 
 
 ## Examples
 
@@ -61,10 +69,10 @@ imgHeight.height = 50;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -86,9 +94,9 @@ imgHeight.height = 50;
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

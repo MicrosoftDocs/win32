@@ -1,12 +1,17 @@
 ---
-Description: 'Many CAD applications provide features that rotate objects drawn in the client area.'
-ms.assetid: 'fd5b3d9f-fdce-485e-bff8-464d96b8db34'
+Description: Many CAD applications provide features that rotate objects drawn in the client area.
+ms.assetid: fd5b3d9f-fdce-485e-bff8-464d96b8db34
 title: Rotation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rotation
 
-Many CAD applications provide features that rotate objects drawn in the client area. Applications that include rotation capabilities use the [**SetWorldTransform**](setworldtransform.md) function to set the appropriate world-space to page-space transformation. This function receives a pointer to an [**XFORM**](xform.md) structure containing the appropriate values. The eM11, eM12, eM21, and eM22 members of XFORM specify respectively, the cosine, sine, negative sine, and cosine of the angle of rotation.
+Many CAD applications provide features that rotate objects drawn in the client area. Applications that include rotation capabilities use the [**SetWorldTransform**](/windows/win32/Wingdi/nf-wingdi-setworldtransform?branch=master) function to set the appropriate world-space to page-space transformation. This function receives a pointer to an [**XFORM**](/windows/win32/Wingdi/ns-wingdi-tagxform?branch=master) structure containing the appropriate values. The eM11, eM12, eM21, and eM22 members of XFORM specify respectively, the cosine, sine, negative sine, and cosine of the angle of rotation.
 
 When *rotation* occurs, the points that constitute an object are rotated with respect to the coordinate-space origin. The following illustration shows a 20-by-20-unit rectangle rotated 30 degrees when copied from world-coordinate space to page-coordinate space.
 

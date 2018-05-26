@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a file to the most recently used (MRU) list.'
-ms.assetid: '26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7'
-title: 'Shell.AddToRecent method'
+---
+Description: Adds a file to the most recently used (MRU) list.
+ms.assetid: 26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7
+title: Shell.AddToRecent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.AddToRecent method

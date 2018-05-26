@@ -1,8 +1,10 @@
 ---
 title: MDM\_Personalization class
 description: The MDM\_Personalization class is used to set the lock screen and desktop background images. Setting these policies also prevents the user from changing the image.
-ms.assetid: '99b60767-b321-4ec6-9802-76221d26c830'
-keywords: ["MDM_Personalization class", "MDM_Personalization class, described"]
+ms.assetid: 99b60767-b321-4ec6-9802-76221d26c830
+keywords:
+- MDM_Personalization class
+- MDM_Personalization class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Personalization class
@@ -128,7 +135,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -136,9 +143,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

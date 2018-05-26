@@ -1,7 +1,12 @@
 ---
 title: Developing Protocol Handler Add-ins
 description: You can extend Microsoft Windows Desktop Search (WDS) to include new data stores by implementing a custom protocol handler.
-ms.assetid: '2447d95f-5832-453c-8857-3b4f4c158177'
+ms.assetid: 2447d95f-5832-453c-8857-3b4f4c158177
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing Protocol Handler Add-ins

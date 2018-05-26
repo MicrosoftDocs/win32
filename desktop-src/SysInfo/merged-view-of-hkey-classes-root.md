@@ -1,12 +1,17 @@
 ---
-Description: 'The RegOpenUserClassesRoot function provides a merged view for processes, such as services, that are dealing with clients other than the interactive user.'
-ms.assetid: '3815d487-2d58-4ba8-85d2-cae6a642a791'
-title: 'Merged View of HKEY\_CLASSES\_ROOT'
+Description: The RegOpenUserClassesRoot function provides a merged view for processes, such as services, that are dealing with clients other than the interactive user.
+ms.assetid: 3815d487-2d58-4ba8-85d2-cae6a642a791
+title: Merged View of HKEY\_CLASSES\_ROOT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merged View of HKEY\_CLASSES\_ROOT
 
-The [**RegOpenUserClassesRoot**](regopenuserclassesroot.md) function provides a merged view for processes, such as services, that are dealing with clients other than the interactive user. In this case, the **HKEY\_CLASSES\_ROOT** key provides a view of the registry that merges the information from **HKEY\_LOCAL\_MACHINE\\Software\\Classes** with the information from **HKEY\_CURRENT\_USER\\Software\\Classes**.
+The [**RegOpenUserClassesRoot**](/windows/win32/Winreg/nf-winreg-regopenuserclassesroot?branch=master) function provides a merged view for processes, such as services, that are dealing with clients other than the interactive user. In this case, the **HKEY\_CLASSES\_ROOT** key provides a view of the registry that merges the information from **HKEY\_LOCAL\_MACHINE\\Software\\Classes** with the information from **HKEY\_CURRENT\_USER\\Software\\Classes**.
 
 The system uses the following rules to merge information from the two sources:
 

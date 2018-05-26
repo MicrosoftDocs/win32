@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectShaderResourceVariable GetResourceArray method
 description: Get an array of shader resources.
-ms.assetid: '7540183d-dabb-46c2-8df1-6d4734b77f25'
-keywords: ["GetResourceArray method Direct3D 11", "GetResourceArray method Direct3D 11 , ID3DX11EffectShaderResourceVariable interface", "ID3DX11EffectShaderResourceVariable interface Direct3D 11 , GetResourceArray method"]
+ms.assetid: 7540183d-dabb-46c2-8df1-6d4734b77f25
+keywords:
+- GetResourceArray method Direct3D 11
+- GetResourceArray method Direct3D 11 , ID3DX11EffectShaderResourceVariable interface
+- ID3DX11EffectShaderResourceVariable interface Direct3D 11 , GetResourceArray method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectShaderResourceVariable::GetResourceArray method
@@ -23,9 +31,9 @@ Get an array of shader resources.
 
 ```C++
 HRESULT GetResourceArray(
-   ID3D11ShaderResourceView **ppResources,
-   UINT                     Offset,
-   UINT                     Count
+   ID3D11ShaderResourceView **ppResources,
+   UINT                     Offset,
+   UINT                     Count
 );
 ```
 
@@ -38,9 +46,9 @@ HRESULT GetResourceArray(
 *ppResources* 
 </dt> <dd>
 
-Type: **[**ID3D11ShaderResourceView**](id3d11shaderresourceview.md)\*\***
+Type: **[**ID3D11ShaderResourceView**](/windows/win32/D3D11/nn-d3d11-id3d11shaderresourceview?branch=master)\*\***
 
-The address of an array of shader-resource-view interfaces. See [**ID3D11ShaderResourceView**](id3d11shaderresourceview.md).
+The address of an array of shader-resource-view interfaces. See [**ID3D11ShaderResourceView**](/windows/win32/D3D11/nn-d3d11-id3d11shaderresourceview?branch=master).
 
 </dd> <dt>
 
@@ -73,7 +81,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +101,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectShaderResourceVariable](id3dx11effectshaderresourcevariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

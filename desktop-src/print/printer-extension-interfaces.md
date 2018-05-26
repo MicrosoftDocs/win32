@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about the interfaces and methods that make it possible to create custom print experiences for the new version of the print driver (the V4 print driver).'
-ms.assetid: '36A9E861-34A1-4EAB-B714-E923BF2ABCBA'
+Description: This section provides information about the interfaces and methods that make it possible to create custom print experiences for the new version of the print driver (the V4 print driver).
+ms.assetid: 36A9E861-34A1-4EAB-B714-E923BF2ABCBA
 title: Printer Extension Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Extension Interfaces

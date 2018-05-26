@@ -1,7 +1,12 @@
 ---
-Description: 'The WFasCim provider exposes network security and filtering features.'
-ms.assetid: '27B99B67-1872-4042-939B-8D3936391E05'
+Description: The WFasCim provider exposes network security and filtering features.
+ms.assetid: 27B99B67-1872-4042-939B-8D3936391E05
 title: WFasCim Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFasCim Provider
@@ -82,11 +87,11 @@ This section provides reference information for **WFasCim** provider classes def
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

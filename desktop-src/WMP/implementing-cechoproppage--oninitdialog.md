@@ -1,8 +1,19 @@
 ---
 title: Implementing CEchoPropPage OnInitDialog
 description: Implementing CEchoPropPage OnInitDialog
-ms.assetid: '568989b0-bc07-480f-8b5c-41bbada713f8'
-keywords: ["Windows Media Player plug-ins,Echo sample property pages", "plug-ins,Echo sample property pages", "digital signal processing plug-ins,Echo sample property pages", "DSP plug-ins,Echo sample property pages", "Echo DSP plug-in sample,property pages", "Echo DSP plug-in sample,CEchoPropPage OnInitDialog method"]
+ms.assetid: 568989b0-bc07-480f-8b5c-41bbada713f8
+keywords:
+- Windows Media Player plug-ins,Echo sample property pages
+- plug-ins,Echo sample property pages
+- digital signal processing plug-ins,Echo sample property pages
+- DSP plug-ins,Echo sample property pages
+- Echo DSP plug-in sample,property pages
+- Echo DSP plug-in sample,CEchoPropPage OnInitDialog method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing CEchoPropPage::OnInitDialog

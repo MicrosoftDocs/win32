@@ -1,7 +1,12 @@
 ---
 title: About Language Resources
 description: About Language Resources
-ms.assetid: 'f4a3c509-44cf-4df9-8a3c-906959105a92'
+ms.assetid: f4a3c509-44cf-4df9-8a3c-906959105a92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Language Resources

@@ -4,13 +4,16 @@ description: Creates a new iSCSI target by using the specified target name.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ad5de576-de2f-4b54-a9cd-5e1854868387'
-ms.prod: 'windows-server-dev'
+ms.assetid: ad5de576-de2f-4b54-a9cd-5e1854868387
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewHost method iSCSI Software Target API", "NewHost method iSCSI Software Target API , WT_Host class", "WT_Host class iSCSI Software Target API , NewHost method"]
+keywords:
+- NewHost method iSCSI Software Target API
+- NewHost method iSCSI Software Target API , WT_Host class
+- WT_Host class iSCSI Software Target API , NewHost method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewHost method of the WT\_Host class
@@ -30,8 +36,8 @@ Creates a new iSCSI target by using the specified target name.
 
 ```mof
 WT_Host NewHost(
-  [in] string HostName,
-  [in] string ResourceGroup
+  [in] string HostName,
+  [in] string ResourceGroup
 );
 ```
 
@@ -66,7 +72,7 @@ If the Microsoft iSCSI Target Server service is running on a Microsoft Failover 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -80,9 +86,9 @@ If the Microsoft iSCSI Target Server service is running on a Microsoft Failover 
 [**WT\_Host**](wt-host.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a string and extra data to a table.'
-ms.assetid: 'e6f29cb0-4468-435d-9ae3-217d4f69e87e'
+---
+Description: Adds a string and extra data to a table.
+ms.assetid: e6f29cb0-4468-435d-9ae3-217d4f69e87e
 title: pSetupStringTableAddStringEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pSetupStringTableAddStringEx function

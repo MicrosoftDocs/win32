@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCount method retrieves the number of items in this collection.'
-ms.assetid: 'b7c8acd2-67f2-47d3-b42a-26aa701fd613'
-title: 'IPortableDevicePropVariantCollection::GetCount method'
+Description: The GetCount method retrieves the number of items in this collection.
+ms.assetid: b7c8acd2-67f2-47d3-b42a-26aa701fd613
+title: IPortableDevicePropVariantCollectionGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDevicePropVariantCollection::GetCount method
@@ -13,7 +18,7 @@ The **GetCount** method retrieves the number of items in this collection.
 
 ```C++
 HRESULT GetCount(
-  [in] DWORD *pcElems
+  [in] DWORD *pcElems
 );
 ```
 
@@ -43,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Examples
 
@@ -82,9 +87,9 @@ For an example of how to use this method see [Retrieving the Functional Categori
 [Setting Properties for Multiple Objects](setting-properties-for-multiple-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

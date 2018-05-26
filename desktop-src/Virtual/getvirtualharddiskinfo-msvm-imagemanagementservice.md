@@ -1,8 +1,11 @@
 ---
 title: GetVirtualHardDiskInfo method of the Msvm\_ImageManagementService class
 description: Retrieves information about the virtual hard disk files.
-ms.assetid: '0c45468c-e8ce-40ee-bef8-69b33760783e'
-keywords: ["GetVirtualHardDiskInfo method Hyper-V", "GetVirtualHardDiskInfo method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , GetVirtualHardDiskInfo method"]
+ms.assetid: 0c45468c-e8ce-40ee-bef8-69b33760783e
+keywords:
+- GetVirtualHardDiskInfo method Hyper-V
+- GetVirtualHardDiskInfo method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , GetVirtualHardDiskInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVirtualHardDiskInfo method of the Msvm\_ImageManagementService class
@@ -22,9 +30,9 @@ Retrieves information about the virtual hard disk files.
 
 ```mof
 uint32 GetVirtualHardDiskInfo(
-  [in]  string              Path,
-  [out] string              Info,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [out] string              Info,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -378,9 +386,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -399,9 +407,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

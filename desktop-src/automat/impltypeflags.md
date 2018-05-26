@@ -1,7 +1,7 @@
 ---
 title: IMPLTYPEFLAG Constants
 description: Specifies implementation type flags.
-ms.assetid: '712b7d02-0181-4a21-9221-514c062af171'
+ms.assetid: 712b7d02-0181-4a21-9221-514c062af171
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - OaIdl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMPLTYPEFLAG Constants
@@ -40,9 +45,9 @@ Specifies implementation type flags.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

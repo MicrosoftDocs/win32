@@ -1,14 +1,20 @@
 ---
 title: AUTOCHECKBOX control
 description: Defines an automatic check box control.
-ms.assetid: '086f5dd3-267f-4ec6-be37-4e9402f7aede'
-keywords: ["AUTOCHECKBOX control Menus and Other Resources"]
+ms.assetid: 086f5dd3-267f-4ec6-be37-4e9402f7aede
+keywords:
+- AUTOCHECKBOX control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - AUTOCHECKBOX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUTOCHECKBOX control

@@ -1,13 +1,16 @@
 ---
-Description: 'A SWbemMethod.OutParameters object is created and supplied with data by the provider method that is executing.'
+Description: A SWbemMethod.OutParameters object is created and supplied with data by the provider method that is executing.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fc06d6a1-770a-4f34-affd-f5035dad9360'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fc06d6a1-770a-4f34-affd-f5035dad9360
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Parsing OutParameters Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Parsing OutParameters Objects

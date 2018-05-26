@@ -4,11 +4,12 @@ description: The IADsDomain interface methods read and write the properties desc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ff2c4cbc-a8d5-4db5-85d4-da3367f27fa0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsDomain Property Methods ADSI"]
+keywords:
+- IADsDomain Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -43,11 +44,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsDomain Property Methods
 
-The [**IADsDomain**](iadsdomain.md) interface methods read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
+The [**IADsDomain**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master) interface methods read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -254,7 +258,7 @@ Indicates restrictions on passwords, as defined by the following list of attribu
 > [!Note]  
 > For PASSWORD\_ATTR\_COMPLEX, the password must include at least one punctuation mark or non-printable character.
 
- 
+ 
 
 <dt>
 
@@ -328,7 +332,7 @@ HRESULT put_PasswordHistoryLength(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -373,8 +377,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsDomain is defined as 00E4C220-FD16-11CE-ABC4-02608C9E7553<br/>           |
@@ -385,15 +389,15 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsDomain**](iadsdomain.md)
+[**IADsDomain**](/windows/win32/Iads/nn-iads-iadsdomain?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

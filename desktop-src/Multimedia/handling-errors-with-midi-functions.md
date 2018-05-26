@@ -1,8 +1,17 @@
 ---
 title: Handling Errors with MIDI Functions
 description: Handling Errors with MIDI Functions
-ms.assetid: '7ea5db5e-34d7-4506-8157-c24adf5bcdda'
-keywords: ["Musical Instrument Digital Interface (MIDI),errors", "MIDI (Musical Instrument Digital Interface),errors", "MIDI services,errors", "MIDI errors"]
+ms.assetid: 7ea5db5e-34d7-4506-8157-c24adf5bcdda
+keywords:
+- Musical Instrument Digital Interface (MIDI),errors
+- MIDI (Musical Instrument Digital Interface),errors
+- MIDI services,errors
+- MIDI errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Errors with MIDI Functions

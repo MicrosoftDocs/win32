@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_PASS\_SHADER\_DESC structure
 description: Describes an effect pass.
-ms.assetid: '4676ad80-1b21-4e8b-8cec-f530ef0b9fd7'
-keywords: ["D3DX11_PASS_SHADER_DESC structure Direct3D 11"]
+ms.assetid: 4676ad80-1b21-4e8b-8cec-f530ef0b9fd7
+keywords:
+- D3DX11_PASS_SHADER_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_PASS\_SHADER\_DESC structure
@@ -23,7 +29,7 @@ Describes an effect pass.
 ```C++
 typedef struct _D3DX11_PASS_SHADER_DESC {
   ID3DX11EffectShaderVariable *pShaderVariable;
-  UINT                        ShaderIndex;
+  UINT                        ShaderIndex;
 } D3DX11_PASS_SHADER_DESC;
 ```
 
@@ -78,9 +84,9 @@ If this is an inline shader assignment, the returned interface will be an anonym
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

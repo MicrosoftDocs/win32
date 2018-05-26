@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the security descriptor associated with the DDE share. This is done usually for editing.'
-ms.assetid: '7d3cc965-45ee-40ce-a462-568200592345'
+Description: Retrieves the security descriptor associated with the DDE share. This is done usually for editing.
+ms.assetid: 7d3cc965-45ee-40ce-a462-568200592345
 title: NDdeGetShareSecurity function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeGetShareSecurity function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Retrieves the security descriptor associated with the DDE share. This is done usually for editing.
 
@@ -15,12 +20,12 @@ Retrieves the security descriptor associated with the DDE share. This is done us
 
 ```C++
 UINT NDdeGetShareSecurity(
-  _In_  LPTSTR               lpszServer,
-  _In_  LPTSTR               lpszShareName,
-  _In_  SECURITY_INFORMATION si,
-  _Out_ PSECURITY_DESCRIPTOR pSD,
-  _In_  DWORD                cbSD,
-  _Out_ LPDWORD              lpcbsdRequired
+  _In_  LPTSTR               lpszServer,
+  _In_  LPTSTR               lpszShareName,
+  _In_  SECURITY_INFORMATION si,
+  _Out_ PSECURITY_DESCRIPTOR pSD,
+  _In_  DWORD                cbSD,
+  _Out_ LPDWORD              lpcbsdRequired
 );
 ```
 
@@ -84,8 +89,8 @@ If the function fails, the return value is an error code, which can be translate
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -109,9 +114,9 @@ If the function fails, the return value is an error code, which can be translate
 [**NDdeSetShareSecurity**](nddesetsharesecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Windows Remote Management version 2.0 (WinRM 2.0) offers many remot
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b22693ba-fa43-44bb-9b2d-0c64fad6e3cc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: b22693ba-fa43-44bb-9b2d-0c64fad6e3cc
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Shell Infrastructure Improvements

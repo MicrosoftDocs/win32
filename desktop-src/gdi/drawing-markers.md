@@ -1,14 +1,19 @@
 ---
-Description: 'You can use the line functions to draw markers.'
-ms.assetid: '69114875-f3e0-45e9-8e87-1f4e9de08db1'
+Description: You can use the line functions to draw markers.
+ms.assetid: 69114875-f3e0-45e9-8e87-1f4e9de08db1
 title: Drawing Markers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Markers
 
 You can use the line functions to draw markers. A marker is a symbol centered over a point. Drawing applications use markers to designate starting points, ending points, and control points. Spreadsheet applications use markers to designate points of interest on a chart or graph.
 
-In the following code sample, the application-defined Marker function creates a marker by using the [**MoveToEx**](movetoex.md) and [**LineTo**](lineto.md) functions. These functions draw two intersecting lines, 20 pixels in length, centered over the cursor coordinates.
+In the following code sample, the application-defined Marker function creates a marker by using the [**MoveToEx**](/windows/win32/Wingdi/nf-wingdi-movetoex?branch=master) and [**LineTo**](/windows/win32/Wingdi/nf-wingdi-lineto?branch=master) functions. These functions draw two intersecting lines, 20 pixels in length, centered over the cursor coordinates.
 
 
 ```C++

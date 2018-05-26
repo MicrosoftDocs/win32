@@ -1,8 +1,10 @@
 ---
 title: IVMTaskCollection interface
 description: Defines the collection of task objects. To obtain an IVMTaskCollection object, use the IVMVirtualPC Tasks property.
-ms.assetid: '5cfc543c-81a1-49d2-93a9-9b1db1cb5070'
-keywords: ["IVMTaskCollection interface Virtual PC", "IVMTaskCollection interface Virtual PC , described"]
+ms.assetid: 5cfc543c-81a1-49d2-93a9-9b1db1cb5070
+keywords:
+- IVMTaskCollection interface Virtual PC
+- IVMTaskCollection interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTaskCollection interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines the collection of task objects. To obtain an **IVMTaskCollection** object, use the [**IVMVirtualPC::Tasks**](ivmvirtualpc-tasks.md) property.
 
@@ -39,7 +46,7 @@ The **IVMTaskCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -47,9 +54,9 @@ The **IVMTaskCollection** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMTaskCollection is defined as 5c4387c8-0e8b-4b97-8058-84679adf4c40<br/>          |
@@ -66,9 +73,9 @@ The **IVMTaskCollection** interface has these properties.
 [**IVMVirtualPC::Tasks**](ivmvirtualpc-tasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

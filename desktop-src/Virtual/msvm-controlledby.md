@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ControlledBy class
 description: Associates a storage device with the storage controller that owns the device.
-ms.assetid: '8f870f9d-1ad4-42a4-a9cb-dd71829f18bb'
-keywords: ["Msvm_ControlledBy class Hyper-V", "Msvm_ControlledBy class Hyper-V , described"]
+ms.assetid: 8f870f9d-1ad4-42a4-a9cb-dd71829f18bb
+keywords:
+- Msvm_ControlledBy class Hyper-V
+- Msvm_ControlledBy class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ControlledBy class
@@ -36,17 +43,17 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ControlledBy : CIM_ControlledBy
 {
-  uint64                NegotiatedSpeed;
-  uint32                NegotiatedDataWidth;
-  CIM_Controller    REF Antecedent;
+  uint64                NegotiatedSpeed;
+  uint32                NegotiatedDataWidth;
+  CIM_Controller    REF Antecedent;
   CIM_LogicalDevice REF Dependent;
-  uint16                AccessState;
-  datetime              TimeOfDeviceReset;
-  uint32                NumberOfHardResets;
-  uint32                NumberOfSoftResets;
-  string                DeviceNumber;
-  uint16                AccessMode;
-  uint16                AccessPriority;
+  uint16                AccessState;
+  datetime              TimeOfDeviceReset;
+  uint32                NumberOfHardResets;
+  uint32                NumberOfSoftResets;
+  string                DeviceNumber;
+  uint16                AccessMode;
+  uint16                AccessPriority;
 };
 ```
 
@@ -302,9 +309,9 @@ Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -323,9 +330,9 @@ Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering.
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

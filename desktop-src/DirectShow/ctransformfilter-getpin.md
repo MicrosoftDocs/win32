@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPin method retrieves a pin.'
-ms.assetid: '5d278ef0-e5ce-439e-93b1-fec988c55854'
-title: 'CTransformFilter.GetPin method'
+Description: The GetPin method retrieves a pin.
+ms.assetid: 5d278ef0-e5ce-439e-93b1-fec988c55854
+title: CTransformFilter.GetPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.GetPin method
@@ -13,7 +18,7 @@ The `GetPin` method retrieves a pin.
 
 ```C++
 virtual CBasePin* GetPin(
-   int n
+   int n
 );
 ```
 
@@ -60,9 +65,9 @@ If the filter uses the default [**CTransformInputPin**](ctransforminputpin.md) a
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

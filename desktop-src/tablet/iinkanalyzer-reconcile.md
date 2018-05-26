@@ -1,7 +1,12 @@
 ---
-Description: 'Applies the results of a background ink analysis operation to the context node tree for the portions of the tree that have not been modified by the application since the call to IInkAnalyzer::BackgroundAnalyze Method.'
-ms.assetid: '60e15d4f-6e81-48b9-b7f3-97d2de5c0c1c'
-title: 'IInkAnalyzer::Reconcile method'
+Description: Applies the results of a background ink analysis operation to the context node tree for the portions of the tree that have not been modified by the application since the call to IInkAnalyzerBackgroundAnalyze Method.
+ms.assetid: 60e15d4f-6e81-48b9-b7f3-97d2de5c0c1c
+title: IInkAnalyzerReconcile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::Reconcile method
@@ -41,7 +46,7 @@ For more information about using the to analyze ink, see [Ink Analysis Overview]
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -64,9 +69,9 @@ For more information about using the to analyze ink, see [Ink Analysis Overview]
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

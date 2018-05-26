@@ -1,7 +1,12 @@
-﻿---
-Description: 'Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.'
-ms.assetid: '54a5009d-9893-4766-b9fd-7e7474b55949'
+---
+Description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
+ms.assetid: 54a5009d-9893-4766-b9fd-7e7474b55949
 title: PRINTPROVIDOR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PRINTPROVIDOR structure

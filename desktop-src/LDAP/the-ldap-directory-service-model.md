@@ -4,10 +4,13 @@ description: The LDAP directory service is based on a client-server model.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b03bde36-ab68-454b-b4ae-c0faafc2e818'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: b03bde36-ab68-454b-b4ae-c0faafc2e818
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The LDAP Directory Service Model

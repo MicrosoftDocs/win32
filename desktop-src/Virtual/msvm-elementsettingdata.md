@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ElementSettingData class
 description: Associates a managed element with its configuration data.
-ms.assetid: '724c2a93-b23d-4b95-a340-13eb3751bfd8'
-keywords: ["Msvm_ElementSettingData class Hyper-V", "Msvm_ElementSettingData class Hyper-V , described"]
+ms.assetid: 724c2a93-b23d-4b95-a340-13eb3751bfd8
+keywords:
+- Msvm_ElementSettingData class Hyper-V
+- Msvm_ElementSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ElementSettingData class
@@ -33,12 +40,12 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ElementSettingData : CIM_ElementSettingData
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_SettingData    REF SettingData;
-  uint16                 IsDefault = 0;
-  uint16                 IsCurrent = 0;
-  uint16                 IsNext = 0;
-  uint16                 IsMaximum = 0;
-  uint16                 IsMinimum = 0;
+  CIM_SettingData    REF SettingData;
+  uint16                 IsDefault = 0;
+  uint16                 IsCurrent = 0;
+  uint16                 IsNext = 0;
+  uint16                 IsMaximum = 0;
+  uint16                 IsMinimum = 0;
 };
 ```
 
@@ -143,7 +150,7 @@ This property affects the interpretation of all non-null, non-enumerated, non-bi
 > [!Note]  
 > It is assumed that the semantics of each property of this set are designed to be compared mathematically.
 
- 
+ 
 
 <dt>
 
@@ -210,7 +217,7 @@ This property affects the interpretation of all non-null, non-enumerated, non-bi
 > [!Note]  
 > It is assumed that the semantics of each property of this set are designed to be compared mathematically.
 
- 
+ 
 
 <dt>
 
@@ -369,9 +376,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -390,9 +397,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

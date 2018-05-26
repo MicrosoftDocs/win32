@@ -1,8 +1,18 @@
 ---
 title: Advanced Manipulations
 description: This section explains advanced manipulations for applications.
-ms.assetid: '8a1cff27-b2c0-4e72-9f4c-df656059953f'
-keywords: ["Windows Touch,manipulations", "Windows Touch,advanced manipulations", "Windows Touch,complex manipulations", "manipulations,advanced", "manipulations,complex"]
+ms.assetid: 8a1cff27-b2c0-4e72-9f4c-df656059953f
+keywords:
+- Windows Touch,manipulations
+- Windows Touch,advanced manipulations
+- Windows Touch,complex manipulations
+- manipulations,advanced
+- manipulations,complex
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Manipulations

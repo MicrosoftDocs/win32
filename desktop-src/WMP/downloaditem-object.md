@@ -1,8 +1,17 @@
 ---
 title: DownloadItem Object
 description: DownloadItem Object
-ms.assetid: '668ee632-0a3d-426b-baab-08e88b9fc607'
-keywords: ["Windows Media Player online stores,DownloadItem object", "online stores,DownloadItem object", "type 2 online stores,DownloadItem object", "DownloadItem"]
+ms.assetid: 668ee632-0a3d-426b-baab-08e88b9fc607
+keywords:
+- Windows Media Player online stores,DownloadItem object
+- online stores,DownloadItem object
+- type 2 online stores,DownloadItem object
+- DownloadItem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadItem Object

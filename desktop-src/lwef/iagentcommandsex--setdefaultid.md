@@ -1,7 +1,12 @@
 ---
 title: IAgentCommandsEx SetDefaultID
 description: IAgentCommandsEx SetDefaultID
-ms.assetid: '056ec518-bf0b-403f-adc6-9b53b0c044a7'
+ms.assetid: 056ec518-bf0b-403f-adc6-9b53b0c044a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommandsEx::SetDefaultID

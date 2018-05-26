@@ -4,11 +4,17 @@ description: Introduction to Active Directory Services Interfaces, with links to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b24f9789-b9f5-49c4-9812-298bae8b28a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b24f9789-b9f5-49c4-9812-298bae8b28a9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI ADSI", "Active Directory Service Interfaces (See ADSI)", "ADSI ADSI ,start page"]
+keywords:
+- ADSI ADSI
+- Active Directory Service Interfaces (See ADSI)
+- ADSI ADSI ,start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Service Interfaces

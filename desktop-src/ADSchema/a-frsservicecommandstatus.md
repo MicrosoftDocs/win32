@@ -4,17 +4,22 @@ description: The response from the last command issued to a member.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '96938191-7460-4ac3-b33d-534e76d4b8df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 96938191-7460-4ac3-b33d-534e76d4b8df
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["FRS-Service-Command-Status attribute AD Schema", "fRSServiceCommandStatus attribute AD Schema"]
+keywords:
+- FRS-Service-Command-Status attribute AD Schema
+- fRSServiceCommandStatus attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - FRS-Service-Command-Status
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FRS-Service-Command-Status attribute
@@ -38,12 +43,12 @@ The response from the last command issued to a member.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The response from the last command issued to a member.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

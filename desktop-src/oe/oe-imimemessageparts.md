@@ -1,8 +1,10 @@
 ---
 title: IMimeMessageParts interface
 description: Do not use. Manages a partial message collection.
-ms.assetid: '479e54e8-2cde-4b23-8a34-1fca4148873c'
-keywords: ["IMimeMessageParts interface Windows Mail (formerly Outlook Express)", "IMimeMessageParts interface Windows Mail (formerly Outlook Express) , described"]
+ms.assetid: 479e54e8-2cde-4b23-8a34-1fca4148873c
+keywords:
+- IMimeMessageParts interface Windows Mail (formerly Outlook Express)
+- IMimeMessageParts interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageParts interface
@@ -33,8 +40,8 @@ To split a message into smaller parts, a client calls [**SplitMessage**](oe-imim
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -42,9 +49,9 @@ To split a message into smaller parts, a client calls [**SplitMessage**](oe-imim
 
 
 
- 
+ 
 
- 
+ 
 
 
 

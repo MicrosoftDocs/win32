@@ -1,7 +1,12 @@
 ---
 title: Editing and Authoring dvr-ms Files
 description: Editing and Authoring dvr-ms Files
-ms.assetid: '26eb9664-f15d-49d8-92dd-1b4cedb38088'
+ms.assetid: 26eb9664-f15d-49d8-92dd-1b4cedb38088
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Editing and Authoring dvr-ms Files

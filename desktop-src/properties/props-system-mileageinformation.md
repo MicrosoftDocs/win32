@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '222ad000-5cd2-4f25-8267-8f68fb800cf4'
-title: 'System.MileageInformation'
+Description: .
+ms.assetid: 222ad000-5cd2-4f25-8267-8f68fb800cf4
+title: System.MileageInformation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MileageInformation

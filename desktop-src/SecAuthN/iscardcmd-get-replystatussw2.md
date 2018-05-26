@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the reply APDU SW2 status byte.'
-ms.assetid: '24ad0164-84fc-4a99-b9dd-0f7d789dff92'
-title: 'ISCardCmd::get\_ReplyStatusSW2 method'
+---
+Description: Retrieves the reply APDU SW2 status byte.
+ms.assetid: 24ad0164-84fc-4a99-b9dd-0f7d789dff92
+title: ISCardCmdget\_ReplyStatusSW2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::get\_ReplyStatusSW2 method

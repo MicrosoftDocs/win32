@@ -1,8 +1,14 @@
 ---
 title: Hard Faults
 description: Hard Faults
-ms.assetid: 'e1496e8a-2029-4747-b57e-f6501d203d07'
-keywords: ["usage graph"]
+ms.assetid: e1496e8a-2029-4747-b57e-f6501d203d07
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hard Faults

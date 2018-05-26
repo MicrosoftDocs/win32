@@ -1,7 +1,12 @@
 ---
 title: Using JavaScript and JScript
 description: Using JavaScript and JScript
-ms.assetid: 'c6927663-9432-4fa9-8de6-abb7237909b9'
+ms.assetid: c6927663-9432-4fa9-8de6-abb7237909b9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using JavaScript and JScript

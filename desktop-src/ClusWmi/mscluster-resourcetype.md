@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a resource type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7bcd4cbb-bade-4608-8735-dadbb70b1aae'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7bcd4cbb-bade-4608-8735-dadbb70b1aae
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ResourceType class", "MSCluster_ResourceType class, described"]
+keywords:
+- MSCluster_ResourceType class
+- MSCluster_ResourceType class, described
 topic_type:
 - apiref
 api_name:
@@ -45,6 +47,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ResourceType class
@@ -59,32 +64,32 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{2F2EF49D-37DD-47c2-8328-6586142B8C99}"), AMENDMENT]
 class MSCluster_ResourceType : MSCluster_LogicalElement
 {
-  string             Caption;
-  datetime           InstallDate;
-  string             Status;
-  uint32             Flags;
-  uint32             Characteristics;
-  string             Name;
-  string             DisplayName;
-  string             Description;
-  string             AdminExtensions[];
-  string             DllName;
-  uint32             IsAlivePollInterval;
-  uint32             LooksAlivePollInterval;
-  boolean            QuorumCapable;
-  boolean            LocalQuorumCapable;
-  boolean            DeleteRequiresAllNodes;
-  uint32             DeadlockTimeout;
-  uint32             PendingTimeout;
-  uint64             DumpPolicy;
-  string             DumpLogQuery[];
-  string             EnabledEventLogs[];
+  string             Caption;
+  datetime           InstallDate;
+  string             Status;
+  uint32             Flags;
+  uint32             Characteristics;
+  string             Name;
+  string             DisplayName;
+  string             Description;
+  string             AdminExtensions[];
+  string             DllName;
+  uint32             IsAlivePollInterval;
+  uint32             LooksAlivePollInterval;
+  boolean            QuorumCapable;
+  boolean            LocalQuorumCapable;
+  boolean            DeleteRequiresAllNodes;
+  uint32             DeadlockTimeout;
+  uint32             PendingTimeout;
+  uint64             DumpPolicy;
+  string             DumpLogQuery[];
+  string             EnabledEventLogs[];
   MSCluster_Property PrivateProperties;
-  string             RequiredDependencyTypes[];
-  uint32             ResourceClass;
-  uint32             RequiredDependencyClasses[];
-  uint32             MaximumMonitors;
-  string             DumpServices[];
+  string             RequiredDependencyTypes[];
+  uint32             ResourceClass;
+  uint32             RequiredDependencyClasses[];
+  uint32             MaximumMonitors;
+  string             DumpServices[];
 };
 ```
 
@@ -106,11 +111,11 @@ The **MSCluster\_ResourceType** class has these methods.
 | [**CreateResourceType**](mscluster-resourcetype-createresourcetype.md)                 | Creates a resource type.<br/>                                                                                                                                                            |
 | [**DeleteResourceType**](mscluster-resourcetype-deleteresourcetype.md)                 | Deletes a resource type.<br/>                                                                                                                                                            |
 | [**ExecuteResourceTypeControl**](mscluster-resourcetype-executeresourcetypecontrol.md) | Executes a control code on the resource type.<br/>                                                                                                                                       |
-| [**GetPossibleOwners**](mscluster-resourcetype-getpossibleowners.md)                   | Gets the possible owners of this resource type.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/> |
+| [**GetPossibleOwners**](mscluster-resourcetype-getpossibleowners.md)                   | Gets the possible owners of this resource type.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not supported before Windows Server 2012.<br/> <br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -160,9 +165,9 @@ Access type: Read-only
 
 Provides the characteristics of the resource type. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -247,9 +252,9 @@ Access type: Read/write
 
 Queries that can be used to export resource type specific logs.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -264,9 +269,9 @@ Access type: Read/write
 
 Control cluster behavior when call into resource times out.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -281,9 +286,9 @@ Access type: Read/write
 
 The process names and service names to dump if the resource or an instance of the resource type hangs or crashes.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -298,9 +303,9 @@ Access type: Read/write
 
 Event logs that are enabled to diagnose problems with resources of the resource type.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -315,9 +320,9 @@ Access type: Read-only
 
 Provides access to the flags set for the resource type. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -391,9 +396,9 @@ Access type: Read/write
 
 The maximum number of RHS instances that can be created due to resources of this type crashing.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2016.
+This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -463,9 +468,9 @@ Access type: Read-only
 
 The resource classes which a resource of this type must depend on.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 The possible values are.
 
@@ -512,9 +517,9 @@ Access type: Read-only
 
 The resource types which a resource of this type must depend on.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -529,9 +534,9 @@ Access type: Read-only
 
 The class of this resource type.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 The possible values are.
 
@@ -668,7 +673,7 @@ The **MSCluster\_ResourceType** class is derived from the [**MSCluster\_LogicalE
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -685,9 +690,9 @@ The **MSCluster\_ResourceType** class is derived from the [**MSCluster\_LogicalE
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Related Topics
 description: Displays a list of target topics that a user can jump to. The Item parameter stores information about each target. The list of target topics appears on a pop-up menu or in a dialog box.
-ms.assetid: 'F0C4B216-23C8-4eee-885A-6460A0C3F49F'
+ms.assetid: F0C4B216-23C8-4eee-885A-6460A0C3F49F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Related Topics

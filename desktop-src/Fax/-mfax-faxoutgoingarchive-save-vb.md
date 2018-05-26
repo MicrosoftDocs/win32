@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxOutgoingArchive object data.'
-ms.assetid: 'b7262962-489a-4412-96d9-09e5dc41900b'
-title: 'FaxOutgoingArchive.Save method'
+---
+Description: The Save method saves the FaxOutgoingArchive object data.
+ms.assetid: b7262962-489a-4412-96d9-09e5dc41900b
+title: FaxOutgoingArchive.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.Save method
@@ -28,7 +33,7 @@ This method has no parameters.
 
  
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) and **farQUERY\_CONFIG** access rights.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and **farQUERY\_CONFIG** access rights.
 
 ## Requirements
 
@@ -53,7 +58,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxOutgoingArchive**](-mfax-faxoutgoingarchive-cpp.md)
+[**IFaxOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingarchive?branch=master)
 </dt> </dl>
 
  

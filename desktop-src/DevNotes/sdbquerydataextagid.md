@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves data from the specified entries belonging to an EXE entry.'
-ms.assetid: '355eecd6-a0c9-4448-9aed-a9c3eb3b2071'
+---
+Description: Retrieves data from the specified entries belonging to an EXE entry.
+ms.assetid: 355eecd6-a0c9-4448-9aed-a9c3eb3b2071
 title: SdbQueryDataExTagID function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbQueryDataExTagID function

@@ -1,13 +1,16 @@
 ---
-Description: 'Is a VT\_BOOL parameter that takes on the value of VARIANT\_TRUE (&\#8211;1) or VARIANT\_FALSE (0).'
+Description: Is a VT\_BOOL parameter that takes on the value of VARIANT\_TRUE (&\#8211;1) or VARIANT\_FALSE (0).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3928ff39-ed17-4a61-bb72-a3c9be16ae45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3928ff39-ed17-4a61-bb72-a3c9be16ae45
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: boolean
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # boolean

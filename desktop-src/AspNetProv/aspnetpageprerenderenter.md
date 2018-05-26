@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PagePreRenderEnter event.'
+---
+Description: The event type class for the PagePreRenderEnter event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6c254d53-5ef3-435c-8342-3a3626aeeb79'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6c254d53-5ef3-435c-8342-3a3626aeeb79
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPagePreRenderEnter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPagePreRenderEnter class

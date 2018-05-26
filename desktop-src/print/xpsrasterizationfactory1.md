@@ -1,7 +1,12 @@
-﻿---
-Description: 'In Windows 8, the improvement of XPSRas to handle high precision colors has led to the development of a new interface, IXPSRasterizationFactory1.'
-ms.assetid: '65EFEC4F-60DC-41DF-81F2-5A5C4EEE4BF8'
+---
+Description: In Windows 8, the improvement of XPSRas to handle high precision colors has led to the development of a new interface, IXPSRasterizationFactory1.
+ms.assetid: 65EFEC4F-60DC-41DF-81F2-5A5C4EEE4BF8
 title: IXpsRasterizationFactory1 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizationFactory1 interface

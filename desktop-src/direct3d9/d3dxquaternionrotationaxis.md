@@ -1,7 +1,12 @@
-﻿---
-Description: 'Rotates a quaternion about an arbitrary axis.'
-ms.assetid: '9ff0fe2c-54d6-482c-84e1-f38e3c57d8dd'
+---
+Description: Rotates a quaternion about an arbitrary axis.
+ms.assetid: 9ff0fe2c-54d6-482c-84e1-f38e3c57d8dd
 title: D3DXQuaternionRotationAxis function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionRotationAxis function

@@ -1,7 +1,12 @@
 ---
-Description: 'The read-only Language property returns the LANGID of the required module.'
-ms.assetid: '9b0608d1-b6e8-4cf9-8119-3c2909156516'
-title: 'Dependency.Language property'
+Description: The read-only Language property returns the LANGID of the required module.
+ms.assetid: 9b0608d1-b6e8-4cf9-8119-3c2909156516
+title: Dependency.Language property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dependency.Language property
@@ -23,7 +28,7 @@ propVal = Dependency.Language
 
 ## C++
 
-See [**get\_Language Function (Dependency Object)**](imsmdependency-get-language.md).
+See [**get\_Language Function (Dependency Object)**](/windows/win32/Mergemod/?branch=master).
 
 ## Requirements
 
@@ -37,9 +42,9 @@ See [**get\_Language Function (Dependency Object)**](imsmdependency-get-language
 
 
 
- 
+ 
 
- 
+ 
 
 
 

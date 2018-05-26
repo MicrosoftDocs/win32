@@ -1,8 +1,9 @@
 ---
 title: GetColorProfileElement function
 description: The GetColorProfileElement function copies data from a specified tagged profile element of a specified color profile into a buffer.
-ms.assetid: '37bcfafc-7316-4c72-80df-c3424d639181'
-keywords: ["GetColorProfileElement function Windows Color System"]
+ms.assetid: 37bcfafc-7316-4c72-80df-c3424d639181
+keywords:
+- GetColorProfileElement function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetColorProfileElement function
@@ -22,12 +28,12 @@ The **GetColorProfileElement** function copies data from a specified tagged prof
 
 ```C++
 BOOL WINAPI GetColorProfileElement(
-   HPROFILE hProfile,
-   TAGTYPE  tag,
-   DWORD    dwOffset,
-   PDWORD   pcbSize,
-   PVOID    pBuffer,
-   PBOOL    pbReference
+   HPROFILE hProfile,
+   TAGTYPE  tag,
+   DWORD    dwOffset,
+   PDWORD   pcbSize,
+   PVOID    pBuffer,
+   PBOOL    pbReference
 );
 ```
 
@@ -99,8 +105,8 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -117,9 +123,9 @@ This function does not support Windows Color System (WCS) profiles CAMP, DMP, an
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

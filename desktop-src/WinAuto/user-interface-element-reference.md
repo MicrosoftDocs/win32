@@ -1,7 +1,12 @@
 ---
 title: User Interface Element Reference
 description: The following table lists the system-provided user interface elements provided by Microsoft Active Accessibility.
-ms.assetid: 'c09c14bd-61c4-4d4a-895c-0eaa26be0998'
+ms.assetid: c09c14bd-61c4-4d4a-895c-0eaa26be0998
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Element Reference

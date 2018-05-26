@@ -1,14 +1,20 @@
 ---
 title: THEME.playSound
 description: The playSound method plays the specified sound file.
-ms.assetid: '42675a66-0139-4e74-9abe-1b42017fc6fe'
-keywords: ["THEME.playSound Windows Media Player"]
+ms.assetid: 42675a66-0139-4e74-9abe-1b42017fc6fe
+keywords:
+- THEME.playSound Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.playSound
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.playSound
@@ -36,7 +42,7 @@ This method does not return a value.
 
 ## Remarks
 
-This method allows you to add sound effects to a skin—for example, when buttons are clicked. The sound is played by the operating system directly and not by Windows Media Player. This means that the sound cannot be controlled with Windows Media Player settings and methods, but it can be played while Windows Media Player is playing another digital media file.
+This method allows you to add sound effects to a skin for example, when buttons are clicked. The sound is played by the operating system directly and not by Windows Media Player. This means that the sound cannot be controlled with Windows Media Player settings and methods, but it can be played while Windows Media Player is playing another digital media file.
 
 This method supports WAV files only.
 
@@ -57,9 +63,9 @@ This method supports WAV files only.
 [**THEME Element**](theme-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

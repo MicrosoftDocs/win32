@@ -4,17 +4,22 @@ description: The Notification-List attribute is not currently used.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '50def826-a4bb-4235-a2b6-ea7da2600d17'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 50def826-a4bb-4235-a2b6-ea7da2600d17
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Notification-List attribute AD Schema", "notificationList attribute AD Schema"]
+keywords:
+- Notification-List attribute AD Schema
+- notificationList attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Notification-List
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Notification-List attribute
@@ -38,13 +43,13 @@ The **Notification-List** attribute is not currently used.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ The **Notification-List** attribute is not currently used.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the video rate control parameters for a video encoder.'
-ms.assetid: '8AF841A8-E121-4C41-BD3F-26760232E857'
-title: 'CODECAPI\_AVEncVideoRateControlParams property'
+Description: Specifies the video rate control parameters for a video encoder.
+ms.assetid: 8AF841A8-E121-4C41-BD3F-26760232E857
+title: CODECAPI\_AVEncVideoRateControlParams property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncVideoRateControlParams property
@@ -22,8 +27,8 @@ Specifies the video rate control parameters for a video encoder.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -35,9 +40,9 @@ Specifies the video rate control parameters for a video encoder.
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

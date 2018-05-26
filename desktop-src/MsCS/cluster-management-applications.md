@@ -4,11 +4,17 @@ description: A cluster management application is a type of cluster-aware applica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '16da4eaf-186e-4bc8-afa3-cc20af6105d5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 16da4eaf-186e-4bc8-afa3-cc20af6105d5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster management applications Failover Cluster", "application types Failover Cluster ,cluster management applications", "clusters Failover Cluster , management applications"]
+keywords:
+- cluster management applications Failover Cluster
+- application types Failover Cluster ,cluster management applications
+- clusters Failover Cluster , management applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Management Applications

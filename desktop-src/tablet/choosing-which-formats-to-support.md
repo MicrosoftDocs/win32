@@ -1,7 +1,12 @@
 ---
-Description: 'The type of application you create dictates which ink persistence format to support.'
-ms.assetid: 'bd0a4382-f014-4f03-990d-d2f96aa76ab8'
+Description: The type of application you create dictates which ink persistence format to support.
+ms.assetid: bd0a4382-f014-4f03-990d-d2f96aa76ab8
 title: Choosing Which Formats to Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing Which Formats to Support
@@ -10,7 +15,7 @@ The type of application you create dictates which ink persistence format to supp
 
 ## Single Ink Object Applications
 
-Applications whose documents contain only ink should use ink serialized format (ISF). They should be able to copy and paste Ink Serialized Format (ISF). An example of this is an application for drawing or annotation. These applications can use the [**ClipboardCopy**](inkdisp-clipboardcopy.md), and [**ClipboardPaste**](inkdisp-clipboardpaste.md) methods.
+Applications whose documents contain only ink should use ink serialized format (ISF). They should be able to copy and paste Ink Serialized Format (ISF). An example of this is an application for drawing or annotation. These applications can use the [**ClipboardCopy**](/windows/win32/msinkaut/?branch=master), and [**ClipboardPaste**](inkdisp-clipboardpaste.md) methods.
 
 ## Complex Applications
 
@@ -22,7 +27,7 @@ An application should be able to produce Rich Text Format (RTF) if interoperabil
 
 ## MIME Support
 
-The following table lists the suggested Multipurpose Internet Mail Extensions (MIME) headers and file extensions for ink that is persisted to files using the ISF or GIF. These values are found in the [**PersistenceFormat**](inkpersistenceformat.md) Enumeration.
+The following table lists the suggested Multipurpose Internet Mail Extensions (MIME) headers and file extensions for ink that is persisted to files using the ISF or GIF. These values are found in the [**PersistenceFormat**](/windows/win32/msinkaut/ne-msinkaut-inkpersistenceformat?branch=master) Enumeration.
 
 
 
@@ -35,18 +40,18 @@ The following table lists the suggested Multipurpose Internet Mail Extensions (M
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**PersistenceFormat Enumeration**](inkpersistenceformat.md)
+[**PersistenceFormat Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkpersistenceformat?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

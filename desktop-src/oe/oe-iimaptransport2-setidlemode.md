@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport2 SetIdleMode method
 description: The IMAP IDLE extension allows the server to unilaterally report changes to the currently selected mailbox new email, flag updates, and message expunges.
-ms.assetid: '7ec7a2af-e4ea-4dbb-8d2c-47e49df304c0'
-keywords: ["SetIdleMode method Windows Mail (formerly Outlook Express)", "SetIdleMode method Windows Mail (formerly Outlook Express) , IIMAPTransport2 interface", "IIMAPTransport2 interface Windows Mail (formerly Outlook Express) , SetIdleMode method"]
+ms.assetid: 7ec7a2af-e4ea-4dbb-8d2c-47e49df304c0
+keywords:
+- SetIdleMode method Windows Mail (formerly Outlook Express)
+- SetIdleMode method Windows Mail (formerly Outlook Express) , IIMAPTransport2 interface
+- IIMAPTransport2 interface Windows Mail (formerly Outlook Express) , SetIdleMode method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport2::SetIdleMode method
@@ -24,7 +32,7 @@ The IMAP IDLE extension allows the server to unilaterally report changes to the 
 
 ```C++
 HRESULT SetIdleMode(
-  [in] DWORD dwIdleFlags
+  [in] DWORD dwIdleFlags
 );
 ```
 
@@ -50,7 +58,7 @@ Specifies a **DWORD** that indicates whether to enable the IDLE extension.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -66,8 +74,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -75,9 +83,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

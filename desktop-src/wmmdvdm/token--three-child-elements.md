@@ -1,14 +1,20 @@
 ---
 title: Token (Three Child Elements) element
 description: Creates a media node in the pipeline graph.
-ms.assetid: 'c10c22ec-46e0-48ff-84b0-9bb77a5770ba'
-keywords: ["Token (Three Child Elements) element Windows Movie Maker and DVD Maker"]
+ms.assetid: c10c22ec-46e0-48ff-84b0-9bb77a5770ba
+keywords:
+- Token (Three Child Elements) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Token
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Token (Three Child Elements) element
@@ -49,7 +55,7 @@ The VideoToFill media node (the example cited here) takes two input sources and 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -67,9 +73,9 @@ The VideoToFill media node (the example cited here) takes two input sources and 
 [**Token Element (Four Child Elements)**](token--four-child-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

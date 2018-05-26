@@ -4,13 +4,16 @@ description: Requests a state change to the replication of the computer system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc945d69-fd3f-4cea-bc9a-e14a3ee09698'
-ms.prod: 'windows-server-dev'
+ms.assetid: cc945d69-fd3f-4cea-bc9a-e14a3ee09698
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestReplicationStateChange method", "RequestReplicationStateChange method, Msvm_ComputerSystem class", "Msvm_ComputerSystem class, RequestReplicationStateChange method"]
+keywords:
+- RequestReplicationStateChange method
+- RequestReplicationStateChange method, Msvm_ComputerSystem class
+- Msvm_ComputerSystem class, RequestReplicationStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestReplicationStateChange method of the Msvm\_ComputerSystem class
@@ -30,9 +36,9 @@ Requests a state change to the replication of the computer system.
 
 ```mof
 uint32 RequestReplicationStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -164,7 +170,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -178,9 +184,9 @@ The possible return values are:
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

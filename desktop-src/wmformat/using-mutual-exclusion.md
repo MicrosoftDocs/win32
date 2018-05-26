@@ -1,8 +1,17 @@
 ---
 title: Using Mutual Exclusion
 description: Using Mutual Exclusion
-ms.assetid: '7bb161db-a525-4a5e-bf99-5ebdf91457c7'
-keywords: ["Windows Media Format SDK,mutual exclusion", "mutual exclusion,about", "profiles,mutual exclusion", "streams,mutual exclusion"]
+ms.assetid: 7bb161db-a525-4a5e-bf99-5ebdf91457c7
+keywords:
+- Windows Media Format SDK,mutual exclusion
+- mutual exclusion,about
+- profiles,mutual exclusion
+- streams,mutual exclusion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Mutual Exclusion

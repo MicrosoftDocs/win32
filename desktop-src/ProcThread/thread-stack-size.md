@@ -1,7 +1,12 @@
 ---
-Description: 'Each new thread or fiber receives its own stack space consisting of both reserved and initially committed memory.'
-ms.assetid: 'abb2d5c1-040b-4c36-aae5-3517b6a8c540'
+Description: Each new thread or fiber receives its own stack space consisting of both reserved and initially committed memory.
+ms.assetid: abb2d5c1-040b-4c36-aae5-3517b6a8c540
 title: Thread Stack Size
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread Stack Size
@@ -14,11 +19,11 @@ A stack is freed when its thread exits. It is not freed if the thread is termina
 
 The default size for the reserved and initially committed stack memory is specified in the executable file header. Thread or fiber creation fails if there is not enough memory to reserve or commit the number of bytes requested. The default stack reservation size used by the linker is 1 MB. To specify a different default stack reservation size for all threads and fibers, use the STACKSIZE statement in the module definition (.def) file. The operating system rounds up the specified size to the nearest multiple of the system's allocation granularity (typically 64 KB). To retrieve the allocation granularity of the current system, use the [**GetSystemInfo**](base.getsysteminfo) function.
 
-To change the initially committed stack space, use the *dwStackSize* parameter of the [**CreateThread**](createthread.md), [**CreateRemoteThread**](createremotethread.md), or [**CreateFiber**](createfiber.md) function. This value is rounded up to the nearest page. Generally, the reserve size is the default reserve size specified in the executable header. However, if the initially committed size specified by *dwStackSize* is larger than or equal to the default reserve size, the reserve size is this new commit size rounded up to the nearest multiple of 1 MB.
+To change the initially committed stack space, use the *dwStackSize* parameter of the [**CreateThread**](/windows/win32/WinBase/nf-processthreadsapi-createthread?branch=master), [**CreateRemoteThread**](/windows/win32/WinBase/nf-processthreadsapi-createremotethread?branch=master), or [**CreateFiber**](/windows/win32/WinBase/nf-winbase-createfiber?branch=master) function. This value is rounded up to the nearest page. Generally, the reserve size is the default reserve size specified in the executable header. However, if the initially committed size specified by *dwStackSize* is larger than or equal to the default reserve size, the reserve size is this new commit size rounded up to the nearest multiple of 1 MB.
 
-To change the reserved stack size, set the *dwCreationFlags* parameter of [**CreateThread**](createthread.md) or [**CreateRemoteThread**](createremotethread.md) to STACK\_SIZE\_PARAM\_IS\_A\_RESERVATION and use the *dwStackSize* parameter. In this case, the initially committed size is the default size specified in the executable header. For fibers, use the *dwStackReserveSize* parameter of [**CreateFiberEx**](createfiberex.md). The committed size is specified in the *dwStackCommitSize* parameter.
+To change the reserved stack size, set the *dwCreationFlags* parameter of [**CreateThread**](/windows/win32/WinBase/nf-processthreadsapi-createthread?branch=master) or [**CreateRemoteThread**](/windows/win32/WinBase/nf-processthreadsapi-createremotethread?branch=master) to STACK\_SIZE\_PARAM\_IS\_A\_RESERVATION and use the *dwStackSize* parameter. In this case, the initially committed size is the default size specified in the executable header. For fibers, use the *dwStackReserveSize* parameter of [**CreateFiberEx**](/windows/win32/WinBase/nf-winbase-createfiberex?branch=master). The committed size is specified in the *dwStackCommitSize* parameter.
 
-The [**SetThreadStackGuarantee**](setthreadstackguarantee.md) function sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
+The [**SetThreadStackGuarantee**](/windows/win32/WinBase/nf-processthreadsapi-setthreadstackguarantee?branch=master) function sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
 
  
 

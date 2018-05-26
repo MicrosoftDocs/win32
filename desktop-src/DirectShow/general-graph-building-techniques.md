@@ -1,7 +1,12 @@
 ---
-Description: 'General Graph-Building Techniques'
-ms.assetid: '66d93305-175c-4549-b825-2f3d7fd6bf09'
-title: 'General Graph-Building Techniques'
+Description: General Graph-Building Techniques
+ms.assetid: 66d93305-175c-4549-b825-2f3d7fd6bf09
+title: General Graph-Building Techniques
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Graph-Building Techniques

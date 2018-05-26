@@ -1,7 +1,12 @@
-﻿---
-Description: 'Constants used by D3DPRESENT\_PARAMETERS.'
-ms.assetid: '1294171e-b3f6-4264-8411-b69427cefe7b'
+---
+Description: Constants used by D3DPRESENT\_PARAMETERS.
+ms.assetid: 1294171e-b3f6-4264-8411-b69427cefe7b
 title: D3DPRESENTFLAG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPRESENTFLAG
@@ -25,17 +30,17 @@ Constants used by [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
 <tr class="even">
 <td>D3DPRESENTFLAG_DEVICECLIP</td>
 <td>0x00000004</td>
-<td>Clip a windowed [<strong>Present</strong>](idirect3ddevice9--present.md) blit into the window client area, within the monitor screen area of the video adapter that created the Direct3D device. D3DPRESENTFLAG_DEVICECLIP is not valid with D3DSWAPEFFECT_FLIPEX.</td>
+<td>Clip a windowed [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master) blit into the window client area, within the monitor screen area of the video adapter that created the Direct3D device. D3DPRESENTFLAG_DEVICECLIP is not valid with D3DSWAPEFFECT_FLIPEX.</td>
 </tr>
 <tr class="odd">
 <td>D3DPRESENTFLAG_DISCARD_DEPTHSTENCIL</td>
 <td>0x00000002</td>
-<td>Set this flag when the device or swap chain is created to enable z-buffer discarding. If this flag is set, the contents of the depth stencil buffer will be invalid after calling either [<strong>Present</strong>](idirect3ddevice9--present.md), or [<strong>SetDepthStencilSurface</strong>](idirect3ddevice9--setdepthstencilsurface.md) with a different depth surface. Discarding z-buffer data can increase performance and is driver dependent. The debug runtime will enforce discarding by clearing the z-buffer to some constant value after calling either [<strong>Present</strong>](idirect3ddevice9--present.md), or [<strong>SetDepthStencilSurface</strong>](idirect3ddevice9--setdepthstencilsurface.md) with a different depth surface.<br/> Discarding z-buffer data is illegal for all lockable formats, D3DFMT_D16_LOCKABLE and D3DFMT_D32F_LOCKABLE. Any use of [<strong>CreateDevice</strong>](idirect3d9--createdevice.md) specifying a lockable format and z-buffer discarding will fail. For more information about formats, see [D3DFORMAT](d3dformat.md).<br/></td>
+<td>Set this flag when the device or swap chain is created to enable z-buffer discarding. If this flag is set, the contents of the depth stencil buffer will be invalid after calling either [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master), or [<strong>SetDepthStencilSurface</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setdepthstencilsurface?branch=master) with a different depth surface. Discarding z-buffer data can increase performance and is driver dependent. The debug runtime will enforce discarding by clearing the z-buffer to some constant value after calling either [<strong>Present</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-present?branch=master), or [<strong>SetDepthStencilSurface</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setdepthstencilsurface?branch=master) with a different depth surface.<br/> Discarding z-buffer data is illegal for all lockable formats, D3DFMT_D16_LOCKABLE and D3DFMT_D32F_LOCKABLE. Any use of [<strong>CreateDevice</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master) specifying a lockable format and z-buffer discarding will fail. For more information about formats, see [D3DFORMAT](d3dformat.md).<br/></td>
 </tr>
 <tr class="even">
 <td>D3DPRESENTFLAG_LOCKABLE_BACKBUFFER</td>
 <td>0x00000001</td>
-<td>Set this flag if the application requires the ability to lock the back buffer directly. Note that back buffers are not lockable unless the application specifies D3DPRESENTFLAG_LOCKABLE_BACKBUFFER when calling [<strong>CreateDevice</strong>](idirect3d9--createdevice.md) or [<strong>Reset</strong>](idirect3ddevice9--reset.md). Lockable back buffers incur a performance cost on some graphics hardware configurations. Performing a lock operation (or using [<strong>UpdateSurface</strong>](idirect3ddevice9--updatesurface.md) to write) on the lockable back buffer decreases performance on many cards. In this case, consider using textured triangles to move data to the back buffer.<br/> 
+<td>Set this flag if the application requires the ability to lock the back buffer directly. Note that back buffers are not lockable unless the application specifies D3DPRESENTFLAG_LOCKABLE_BACKBUFFER when calling [<strong>CreateDevice</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master) or [<strong>Reset</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master). Lockable back buffers incur a performance cost on some graphics hardware configurations. Performing a lock operation (or using [<strong>UpdateSurface</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface?branch=master) to write) on the lockable back buffer decreases performance on many cards. In this case, consider using textured triangles to move data to the back buffer.<br/> 
 <table>
 <tbody>
 <tr class="odd">
@@ -59,7 +64,7 @@ Constants used by [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md).
 </table>
 
 <p> </p>
-<p>Applications can achieve their own rotation possibly by using a rotated view matrix. The methods [<strong>GetDisplayModeEx</strong>](idirect3dswapchain9-getdisplaymodeex.md) and [<strong>GetAdapterDisplayModeEx</strong>](idirect3d9ex-getadapterdisplaymodeex.md) should be used to to find the current rotation setting. The backbuffer Width and Height parameters in [<strong>CreateDeviceEx</strong>](idirect3d9ex-createdeviceex.md) and [<strong>ResetEx</strong>](idirect3ddevice9ex-resetex.md) must be use landscape orientation, while the fullscreen display mode structure should be the same as what is returned from [<strong>EnumAdapterModesEx</strong>](idirect3d9ex-enumadaptermodesex.md) (i.e. Width and Height are swapped when rotated 90 and 270 degrees).</p>
+<p>Applications can achieve their own rotation possibly by using a rotated view matrix. The methods [<strong>GetDisplayModeEx</strong>](/windows/win32/D3D9/nf-d3d9-idirect3dswapchain9ex-getdisplaymodeex?branch=master) and [<strong>GetAdapterDisplayModeEx</strong>](/windows/win32/d3d9/nf-d3d9-idirect3d9ex-getadapterdisplaymodeex?branch=master) should be used to to find the current rotation setting. The backbuffer Width and Height parameters in [<strong>CreateDeviceEx</strong>](/windows/win32/d3d9/nf-d3d9-idirect3d9ex-createdeviceex?branch=master) and [<strong>ResetEx</strong>](/windows/win32/d3d9/nf-d3d9-idirect3ddevice9ex-resetex?branch=master) must be use landscape orientation, while the fullscreen display mode structure should be the same as what is returned from [<strong>EnumAdapterModesEx</strong>](/windows/win32/d3d9/nf-d3d9-idirect3d9ex-enumadaptermodesex?branch=master) (i.e. Width and Height are swapped when rotated 90 and 270 degrees).</p>
 <p>When using Lock on rotated render targets, upper-left corner assumptions no longer hold true, the render target SURFACE_DESC will remain landscape (as implied by the creation parameters), and GDI window, mouse coordinates, and such need to be properly translated when used with the Direct3D render target and scene.</p></td>
 </tr>
 <tr class="even">

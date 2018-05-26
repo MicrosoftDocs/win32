@@ -1,8 +1,14 @@
 ---
 title: Sampler (Direct3D 9 asm-ps)
 description: A sampler is a input pseudo-register for a pixel shader, which is used to identify the sampling stage.
-ms.assetid: '37cc28ae-fbd0-4f81-9e8e-f9609980d84e'
-keywords: ["Sampler, Type (Direct3D 9 asm-ps)"]
+ms.assetid: 37cc28ae-fbd0-4f81-9e8e-f9609980d84e
+keywords:
+- Sampler, Type (Direct3D 9 asm-ps)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sampler (Direct3D 9 asm-ps)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'An opaque data type.'
-ms.assetid: '384dd6e0-726f-4100-a036-1cca6a332a64'
-title: 'PLSA\_CLIENT\_REQUEST'
+---
+Description: An opaque data type.
+ms.assetid: 384dd6e0-726f-4100-a036-1cca6a332a64
+title: PLSA\_CLIENT\_REQUEST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLSA\_CLIENT\_REQUEST

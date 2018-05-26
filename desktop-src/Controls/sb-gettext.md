@@ -1,8 +1,9 @@
 ---
 title: SB\_GETTEXT message
 description: Retrieves the text from the specified part of a status window.
-ms.assetid: '95bef9ff-04e5-431e-bc79-06d8498fcab0'
-keywords: ["SB_GETTEXT message Windows Controls"]
+ms.assetid: 95bef9ff-04e5-431e-bc79-06d8498fcab0
+keywords:
+- SB_GETTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_GETTEXT message
@@ -52,7 +58,7 @@ Returns a 32-bit value that consists of two 16-bit values. The low word specifie
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +76,8 @@ Normal windows display text left-to-right (LTR). Windows can be *mirrored* to di
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **SB\_GETTEXTW** (Unicode) and **SB\_GETTEXTA** (ANSI)<br/>                     |
 
@@ -84,9 +90,9 @@ Normal windows display text left-to-right (LTR). Windows can be *mirrored* to di
 [**SB\_SETTEXT**](sb-settext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

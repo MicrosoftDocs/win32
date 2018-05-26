@@ -2,13 +2,16 @@
 title: SetDnsServerRRL method of the PS\_DnsServerResponseRateLimiting class
 description: Sets the response rate limiting on a DNS server.
 audience: developer
-ms.assetid: '5f7b8ea4-f140-463d-ac8c-1d81fdd35932'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5f7b8ea4-f140-463d-ac8c-1d81fdd35932
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetDnsServerRRL method", "SetDnsServerRRL method, PS_DnsServerResponseRateLimiting class", "PS_DnsServerResponseRateLimiting class, SetDnsServerRRL method"]
+keywords:
+- SetDnsServerRRL method
+- SetDnsServerRRL method, PS_DnsServerResponseRateLimiting class
+- PS_DnsServerResponseRateLimiting class, SetDnsServerRRL method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDnsServerRRL method of the PS\_DnsServerResponseRateLimiting class
@@ -28,20 +34,20 @@ Sets the response rate limiting on a DNS server.
 
 ```mof
 uint32 SetDnsServerRRL(
-  [in]  uint32                        ResponsesPerSec,
-  [in]  uint32                        ErrorsPerSec,
-  [in]  uint32                        WindowInSec,
-  [in]  uint32                        IPv4PrefixLength,
-  [in]  uint32                        IPv6PrefixLength,
-  [in]  uint32                        LeakRate,
-  [in]  boolean                       ResetToDefault,
-  [in]  uint32                        TruncateRate,
-  [in]  uint32                        MaximumResponsesPerWindow,
-  [in]  string                        Mode,
-  [in]  string                        ComputerName,
-  [in]  boolean                       PassThru,
-  [in]  boolean                       Force,
-  [out] DnsServerResponseRateLimiting cmdletOutput
+  [in]  uint32                        ResponsesPerSec,
+  [in]  uint32                        ErrorsPerSec,
+  [in]  uint32                        WindowInSec,
+  [in]  uint32                        IPv4PrefixLength,
+  [in]  uint32                        IPv6PrefixLength,
+  [in]  uint32                        LeakRate,
+  [in]  boolean                       ResetToDefault,
+  [in]  uint32                        TruncateRate,
+  [in]  uint32                        MaximumResponsesPerWindow,
+  [in]  string                        Mode,
+  [in]  string                        ComputerName,
+  [in]  boolean                       PassThru,
+  [in]  boolean                       Force,
+  [out] DnsServerResponseRateLimiting cmdletOutput
 );
 ```
 
@@ -164,7 +170,7 @@ On return, contains a [**DnsServerResponseRateLimiting**](dnsserverresponseratel
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -178,9 +184,9 @@ On return, contains a [**DnsServerResponseRateLimiting**](dnsserverresponseratel
 [**PS\_DnsServerResponseRateLimiting**](ps-dnsserverresponseratelimiting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

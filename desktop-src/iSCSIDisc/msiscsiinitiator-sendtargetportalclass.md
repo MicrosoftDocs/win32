@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_SendTargetPortalClass structure describes the characteristics of a discovered target portal.'
-ms.assetid: '4a4e97ce-18e3-4b38-ad6c-74381f144901'
-title: 'MSIscsiInitiator\_SendTargetPortalClass class'
+---
+Description: This MSIscsiInitiator\_SendTargetPortalClass structure describes the characteristics of a discovered target portal.
+ms.assetid: 4a4e97ce-18e3-4b38-ad6c-74381f144901
+title: MSIscsiInitiator\_SendTargetPortalClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_SendTargetPortalClass class

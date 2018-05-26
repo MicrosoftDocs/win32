@@ -1,7 +1,12 @@
 ---
-Description: 'Transferring a Properties-Only Object to the Device'
-ms.assetid: '6305cff9-c0ce-4ef5-a129-bc329b9c563f'
-title: 'Transferring a Properties-Only Object to the Device'
+Description: Transferring a Properties-Only Object to the Device
+ms.assetid: 6305cff9-c0ce-4ef5-a129-bc329b9c563f
+title: Transferring a Properties-Only Object to the Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transferring a Properties-Only Object to the Device
@@ -14,7 +19,7 @@ Property-only transfers are accomplished using the interfaces described in the f
 
 | Interface                                                          | Description                                            |
 |--------------------------------------------------------------------|--------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md) | Provides access to the content-specific methods.       |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master) | Provides access to the content-specific methods.       |
 | [**IPortableDeviceValues Interface**](iportabledevicevalues.md)   | Used to retrieve properties that describe the content. |
 
 
@@ -100,10 +105,10 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceValues Interface**](iportabledevicevalues.md)

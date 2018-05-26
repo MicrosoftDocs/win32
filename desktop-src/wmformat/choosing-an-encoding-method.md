@@ -1,8 +1,19 @@
 ---
 title: Choosing an Encoding Method
 description: Choosing an Encoding Method
-ms.assetid: '095245a6-39eb-4228-86ac-ade94dde3695'
-keywords: ["profiles,choosing encoding methods", "profiles,encoding methods", "codecs,choosing encoding methods", "codecs,encoding methods", "profiles,selecting encoding methods", "codecs,selecting encoding methods"]
+ms.assetid: 095245a6-39eb-4228-86ac-ade94dde3695
+keywords:
+- profiles,choosing encoding methods
+- profiles,encoding methods
+- codecs,choosing encoding methods
+- codecs,encoding methods
+- profiles,selecting encoding methods
+- codecs,selecting encoding methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing an Encoding Method

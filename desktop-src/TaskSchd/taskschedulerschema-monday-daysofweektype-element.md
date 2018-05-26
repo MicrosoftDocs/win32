@@ -1,14 +1,20 @@
 ---
 title: Monday (daysOfWeekType) Element
 description: Specifies that the task runs on Monday.
-ms.assetid: '2b7ce0c1-c635-47d0-b482-5c93c0028c92'
-keywords: ["Monday element Task Scheduler"]
+ms.assetid: 2b7ce0c1-c635-47d0-b482-5c93c0028c92
+keywords:
+- Monday element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Monday
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monday (daysOfWeekType) Element
@@ -53,8 +59,8 @@ The following XML defines a day of week calendar that starts a task on Monday.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ The following XML defines a day of week calendar that starts a task on Monday.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

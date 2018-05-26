@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the current state of the specified device button.'
-ms.assetid: '942DB31C-09A2-43B6-A666-267AF6A84E0E'
-title: 'SetButtonState method of the Msvm\_SyntheticMouse class'
+Description: Sets the current state of the specified device button.
+ms.assetid: 942DB31C-09A2-43B6-A666-267AF6A84E0E
+title: SetButtonState method of the Msvm\_SyntheticMouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetButtonState method of the Msvm\_SyntheticMouse class
@@ -13,8 +18,8 @@ Sets the current state of the specified device button.
 
 ```mof
 uint32 SetButtonState(
-  [in] uint32  buttonIndex,
-  [in] boolean isDown
+  [in] uint32  buttonIndex,
+  [in] boolean isDown
 );
 ```
 
@@ -99,8 +104,8 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -114,9 +119,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,25 @@
 ---
 title: Using Dialog Boxes
 description: You use dialog boxes to display information and prompt for input from the user.
-ms.assetid: '8a5b6bdd-4429-4f48-b846-6bd617a87abf'
-keywords: ["Windows User Interface,windowing", "Windows User Interface,dialog boxes", "windowing,dialog boxes", "dialog boxes,about", "dialog boxes,displaying", "modal dialog boxes", "modeless dialog boxes", "dialog boxes,modal", "dialog boxes,modeless", "dialog boxes,initializing", "dialog box templates", "dialog boxes,templates"]
+ms.assetid: 8a5b6bdd-4429-4f48-b846-6bd617a87abf
+keywords:
+- Windows User Interface,windowing
+- Windows User Interface,dialog boxes
+- windowing,dialog boxes
+- dialog boxes,about
+- dialog boxes,displaying
+- modal dialog boxes
+- modeless dialog boxes
+- dialog boxes,modal
+- dialog boxes,modeless
+- dialog boxes,initializing
+- dialog box templates
+- dialog boxes,templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Dialog Boxes
@@ -19,9 +36,9 @@ The following sections discuss how to use both types of dialog boxes.
 
 ## Displaying a Message Box
 
-The simplest form of modal dialog box is the message box. Most applications use message boxes to warn the user of errors and to prompt for directions on how to proceed after an error has occurred. You create a message box by using the [**MessageBox**](messagebox.md) or [**MessageBoxEx**](messageboxex.md) function, specifying the message and the number and type of buttons to display. The system creates a modal dialog box, providing its own dialog box template and procedure. After the user closes the message box, **MessageBox** or **MessageBoxEx** returns a value identifying the button chosen by the user to close the message box.
+The simplest form of modal dialog box is the message box. Most applications use message boxes to warn the user of errors and to prompt for directions on how to proceed after an error has occurred. You create a message box by using the [**MessageBox**](/windows/win32/Winuser/nf-winuser-messagebox?branch=master) or [**MessageBoxEx**](/windows/win32/Winuser/nf-winuser-messageboxexa?branch=master) function, specifying the message and the number and type of buttons to display. The system creates a modal dialog box, providing its own dialog box template and procedure. After the user closes the message box, **MessageBox** or **MessageBoxEx** returns a value identifying the button chosen by the user to close the message box.
 
-In the following example, the application displays a message box that prompts the user for an action after an error condition has occurred. The message box displays the message that describes the error condition and how to resolve it. The **MB\_YESNO** style directs [**MessageBox**](messagebox.md) to provide two buttons with which the user can choose how to proceed:
+In the following example, the application displays a message box that prompts the user for an action after an error condition has occurred. The message box displays the message that describes the error condition and how to resolve it. The **MB\_YESNO** style directs [**MessageBox**](/windows/win32/Winuser/nf-winuser-messagebox?branch=master) to provide two buttons with which the user can choose how to proceed:
 
 
 ```
@@ -51,7 +68,7 @@ The following image shows the output from the preceding code example:
 
 ## Creating a Modal Dialog Box
 
-You create a modal dialog box by using the [**DialogBox**](dialogbox.md) function. You must specify the identifier or name of a dialog box template resource and a pointer to the dialog box procedure. The **DialogBox** function loads the template, displays the dialog box, and processes all user input until the user closes the dialog box.
+You create a modal dialog box by using the [**DialogBox**](/windows/win32/Winuser/nf-winuser-dialogboxa?branch=master) function. You must specify the identifier or name of a dialog box template resource and a pointer to the dialog box procedure. The **DialogBox** function loads the template, displays the dialog box, and processes all user input until the user closes the dialog box.
 
 In the following example, the application displays a modal dialog box when the user clicks **Delete Item** from an application menu. The dialog box contains an edit control (in which the user enters the name of an item) and **OK** and **Cancel** buttons. The control identifiers for these controls are ID\_ITEMNAME, IDOK, and IDCANCEL, respectively.
 
@@ -85,7 +102,7 @@ case WM_COMMAND:
 
 
 
-In this example, the application specifies its main window as the owner window for the dialog box. When the system initially displays the dialog box, its position is relative to the upper left corner of the owner window's client area. The application uses the return value from [**DialogBox**](dialogbox.md) to determine whether to proceed with the operation or cancel it. The following statements define the dialog box procedure.
+In this example, the application specifies its main window as the owner window for the dialog box. When the system initially displays the dialog box, its position is relative to the upper left corner of the owner window's client area. The application uses the return value from [**DialogBox**](/windows/win32/Winuser/nf-winuser-dialogboxa?branch=master) to determine whether to proceed with the operation or cancel it. The following statements define the dialog box procedure.
 
 
 ```
@@ -118,15 +135,15 @@ BOOL CALLBACK DeleteItemProc(HWND hwndDlg,
 
 
 
-In this example, the procedure uses [**GetDlgItemText**](getdlgitemtext.md) to retrieve the current text from the edit control identified by ID\_ITEMNAME. The procedure then calls the [**EndDialog**](enddialog.md) function to set the dialog box's return value to either IDOK or IDCANCEL, depending on the message received, and to begin the process of closing the dialog box. The IDOK and IDCANCEL identifiers correspond to the **OK** and **Cancel** buttons. After the procedure calls **EndDialog**, the system sends additional messages to the procedure to destroy the dialog box and returns the dialog box's return value back to the function that created the dialog box.
+In this example, the procedure uses [**GetDlgItemText**](/windows/win32/Winuser/nf-winuser-getdlgitemtexta?branch=master) to retrieve the current text from the edit control identified by ID\_ITEMNAME. The procedure then calls the [**EndDialog**](/windows/win32/Winuser/nf-winuser-enddialog?branch=master) function to set the dialog box's return value to either IDOK or IDCANCEL, depending on the message received, and to begin the process of closing the dialog box. The IDOK and IDCANCEL identifiers correspond to the **OK** and **Cancel** buttons. After the procedure calls **EndDialog**, the system sends additional messages to the procedure to destroy the dialog box and returns the dialog box's return value back to the function that created the dialog box.
 
 ## Creating a Modeless Dialog Box
 
-You create a modeless dialog box by using the [**CreateDialog**](createdialog.md) function, specifying the identifier or name of a dialog box template resource and a pointer to the dialog box procedure. **CreateDialog** loads the template, creates the dialog box, and optionally displays it. Your application is responsible for retrieving and dispatching user input messages to the dialog box procedure.
+You create a modeless dialog box by using the [**CreateDialog**](/windows/win32/Winuser/nf-winuser-createdialoga?branch=master) function, specifying the identifier or name of a dialog box template resource and a pointer to the dialog box procedure. **CreateDialog** loads the template, creates the dialog box, and optionally displays it. Your application is responsible for retrieving and dispatching user input messages to the dialog box procedure.
 
 In the following example, the application displays a modeless dialog box — if it is not already displayed — when the user clicks **Go To** from an application menu. The dialog box contains an edit control, a check box, and **OK** and **Cancel** buttons. The dialog box template is a resource in the application's executable file and has the resource identifier DLG\_GOTO. The user enters a line number in the edit control and checks the check box to specify that the line number is relative to the current line. The control identifiers are ID\_LINE, ID\_ABSREL, IDOK, and IDCANCEL.
 
-The statements in the first part of the example create the modeless dialog box. These statements, in the window procedure for the application's main window, create the dialog box when the window procedure receives a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message having the IDM\_GOTO menu identifier, but only if the global variable does not already contain a valid handle. The second part of the example is the application's main message loop. The loop includes the [**IsDialogMessage**](isdialogmessage.md) function to ensure that the user can use the dialog box keyboard interface in this modeless dialog box. The third part of the example is the dialog box procedure. The procedure retrieves the contents of the edit control and check box when the user clicks the **OK** button. The procedure destroys the dialog box when the user clicks the **Cancel** button.
+The statements in the first part of the example create the modeless dialog box. These statements, in the window procedure for the application's main window, create the dialog box when the window procedure receives a [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message having the IDM\_GOTO menu identifier, but only if the global variable does not already contain a valid handle. The second part of the example is the application's main message loop. The loop includes the [**IsDialogMessage**](/windows/win32/Winuser/nf-winuser-isdialogmessagea?branch=master) function to ensure that the user can use the dialog box keyboard interface in this modeless dialog box. The third part of the example is the dialog box procedure. The procedure retrieves the contents of the edit control and check box when the user clicks the **OK** button. The procedure destroys the dialog box when the user clicks the **Cancel** button.
 
 
 ```
@@ -153,7 +170,7 @@ case WM_COMMAND:
 
 
 
-In the preceding statements, [**CreateDialog**](createdialog.md) is called only if `hwndGoto` does not contain a valid window handle. This ensures that the application does not display two dialog boxes at the same time. To support this method of checking, the dialog procedure must set to **NULL** when it destroys the dialog box.
+In the preceding statements, [**CreateDialog**](/windows/win32/Winuser/nf-winuser-createdialoga?branch=master) is called only if `hwndGoto` does not contain a valid window handle. This ensures that the application does not display two dialog boxes at the same time. To support this method of checking, the dialog procedure must set to **NULL** when it destroys the dialog box.
 
 The message loop for an application consists of the following statements.
 
@@ -177,7 +194,7 @@ while ((bRet = GetMessage(&amp;msg, NULL, 0, 0)) != 0)
 
 
 
-The loop checks the validity of the window handle to the dialog box and only calls the [**IsDialogMessage**](isdialogmessage.md) function if the handle is valid. **IsDialogMessage** only processes the message if it belongs to the dialog box. Otherwise, it returns **FALSE** and the loop dispatches the message to the appropriate window.
+The loop checks the validity of the window handle to the dialog box and only calls the [**IsDialogMessage**](/windows/win32/Winuser/nf-winuser-isdialogmessagea?branch=master) function if the handle is valid. **IsDialogMessage** only processes the message if it belongs to the dialog box. Otherwise, it returns **FALSE** and the loop dispatches the message to the appropriate window.
 
 The following statements define the dialog box procedure.
 
@@ -229,7 +246,7 @@ In the preceding statements, the procedure processes the [**WM\_INITDIALOG**](wm
 
 During [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) processing, the procedure closes the dialog box only if the user clicks the **Cancel** button — that is, the button having the IDCANCEL identifier. The procedure must call [**DestroyWindow**](https://msdn.microsoft.com/library/windows/desktop/ms632682) to close a modeless dialog box. Notice that the procedure also sets the variable to **NULL** to ensure that other statements that depend on this variable operate correctly.
 
-If the user clicks the **OK** button, the procedure retrieves the current state of the check box and assigns it to the **fRelative** variable. It then uses the variable to retrieve the line number from the edit control. [**GetDlgItemInt**](getdlgitemint.md) translates the text in the edit control into an integer. The value of **fRelative** determines whether the function interprets the number as a signed or unsigned value. If the edit control text is not a valid number, **GetDlgItemInt** sets the value of the **fError** variable to nonzero. The procedure checks this value to determine whether to display an error message or carry out the task. In the event of an error, the dialog box procedure sends a message to the edit control, directing it to select the text in the control so that the user can easily replace it. If **GetDlgItemInt** does not return an error, the procedure can either carry out the requested task itself or send a message to the owner window, directing it to carry out the operation.
+If the user clicks the **OK** button, the procedure retrieves the current state of the check box and assigns it to the **fRelative** variable. It then uses the variable to retrieve the line number from the edit control. [**GetDlgItemInt**](/windows/win32/Winuser/nf-winuser-getdlgitemint?branch=master) translates the text in the edit control into an integer. The value of **fRelative** determines whether the function interprets the number as a signed or unsigned value. If the edit control text is not a valid number, **GetDlgItemInt** sets the value of the **fError** variable to nonzero. The procedure checks this value to determine whether to display an error message or carry out the task. In the event of an error, the dialog box procedure sends a message to the edit control, directing it to select the text in the control so that the user can easily replace it. If **GetDlgItemInt** does not return an error, the procedure can either carry out the requested task itself or send a message to the owner window, directing it to carry out the operation.
 
 ## Initializing a Dialog Box
 
@@ -287,7 +304,7 @@ case WM_INITDIALOG:
 
 In the preceding statements, the procedure uses the [**GetParent**](https://msdn.microsoft.com/library/windows/desktop/ms633510) function to retrieve the owner window handle to a dialog box. The function returns the owner window handle to dialog boxes, and the parent window handle to child windows. Because an application can create a dialog box that has no owner, the procedure checks the returned handle and uses the [**GetDesktopWindow**](https://msdn.microsoft.com/library/windows/desktop/ms633504) function to retrieve the desktop window handle, if necessary. After calculating the new position, the procedure uses the [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545) function to move the dialog box, specifying the HWND\_TOP value to ensure that the dialog box remains on top of the owner window.
 
-Before setting the input focus, the procedure checks the control identifier of the default input focus. The system passes the window handle of the default input focus in the *wParam* parameter. The [**GetDlgCtrlID**](getdlgctrlid.md) function returns the identifier for the control identified by the window handle. If the identifier does not match the correct identifier, the procedure uses the [**SetFocus**](https://msdn.microsoft.com/library/windows/desktop/ms646312) function to set the input focus. The [**GetDlgItem**](getdlgitem.md) function is required to retrieve the window handle of the desired control.
+Before setting the input focus, the procedure checks the control identifier of the default input focus. The system passes the window handle of the default input focus in the *wParam* parameter. The [**GetDlgCtrlID**](/windows/win32/Winuser/nf-winuser-getdlgctrlid?branch=master) function returns the identifier for the control identified by the window handle. If the identifier does not match the correct identifier, the procedure uses the [**SetFocus**](https://msdn.microsoft.com/library/windows/desktop/ms646312) function to set the input focus. The [**GetDlgItem**](/windows/win32/Winuser/nf-winuser-getdlgitem?branch=master) function is required to retrieve the window handle of the desired control.
 
 ## Creating a Template in Memory
 
@@ -297,7 +314,7 @@ In the following example, the application creates a template in memory for a mod
 
 In a dialog template, all character strings, such as the dialog box and button titles, must be Unicode strings. This example uses the [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) function to generate these Unicode strings.
 
-The [**DLGITEMTEMPLATE**](dlgitemtemplate.md) structures in a dialog template must be aligned on **DWORD** boundaries. To align these structures, this example uses a helper routine that takes an input pointer and returns the closest pointer that is aligned on a **DWORD** boundary.
+The [**DLGITEMTEMPLATE**](/windows/win32/Winuser/ns-winuser-dlgitemtemplate?branch=master) structures in a dialog template must be aligned on **DWORD** boundaries. To align these structures, this example uses a helper routine that takes an input pointer and returns the closest pointer that is aligned on a **DWORD** boundary.
 
 
 ```

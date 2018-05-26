@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cryptography tools provide command-line tools for code signing, signature verification, and other cryptography tasks.'
-ms.assetid: '21adbcfb-fadd-4818-9dc5-23bfd526b525'
+---
+Description: Cryptography tools provide command-line tools for code signing, signature verification, and other cryptography tasks.
+ms.assetid: 21adbcfb-fadd-4818-9dc5-23bfd526b525
 title: Cryptography Tools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cryptography Tools

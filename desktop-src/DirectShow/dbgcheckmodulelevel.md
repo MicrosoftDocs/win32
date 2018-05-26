@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgCheckModuleLevel function checks whether logging is enabled for the given message types and level. Ignored in retail builds.'
-ms.assetid: 'f4b12df7-9001-4bfb-9d84-84a0e8295a8b'
+Description: The DbgCheckModuleLevel function checks whether logging is enabled for the given message types and level. Ignored in retail builds.
+ms.assetid: f4b12df7-9001-4bfb-9d84-84a0e8295a8b
 title: DbgCheckModuleLevel function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgCheckModuleLevel function
@@ -13,8 +18,8 @@ The `DbgCheckModuleLevel` function checks whether logging is enabled for the giv
 
 ```C++
 BOOL DbgCheckModuleLevel(
-   DWORD Types,
-   DWORD Level
+   DWORD Types,
+   DWORD Level
 );
 ```
 
@@ -60,9 +65,9 @@ Returns **TRUE** if logging for any of the specified message types is set to the
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

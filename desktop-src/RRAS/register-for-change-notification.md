@@ -1,7 +1,12 @@
 ---
 title: Register For Change Notification
 description: The following sample code shows how to register for change notifications in the routing table. The topic \ 0034;Use the Event Notification Callback \ 0034; demonstrates how to utilize those change notifications.
-ms.assetid: 'a311759a-e337-4297-af3d-55e969162b0f'
+ms.assetid: a311759a-e337-4297-af3d-55e969162b0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Register For Change Notification

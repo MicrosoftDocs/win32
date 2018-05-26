@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VideoHeadOnController class
 description: Associates a video head with the video controller that includes it.
-ms.assetid: '6f295d02-66e7-486f-9cb4-c82cbd4e5a2c'
-keywords: ["Msvm_VideoHeadOnController class Hyper-V", "Msvm_VideoHeadOnController class Hyper-V , described"]
+ms.assetid: 6f295d02-66e7-486f-9cb4-c82cbd4e5a2c
+keywords:
+- Msvm_VideoHeadOnController class Hyper-V
+- Msvm_VideoHeadOnController class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VideoHeadOnController class
@@ -28,7 +35,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_VideoHeadOnController : CIM_VideoHeadOnController
 {
   CIM_DisplayController REF Antecedent;
-  Msvm_VideoHead        REF Dependent;
+  Msvm_VideoHead        REF Dependent;
 };
 ```
 
@@ -87,9 +94,9 @@ Access to the **Msvm\_VideoHeadOnController** class might be restricted by UAC F
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -108,9 +115,9 @@ Access to the **Msvm\_VideoHeadOnController** class might be restricted by UAC F
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

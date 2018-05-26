@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines if a matrix is an identity matrix.'
-ms.assetid: '00f72d08-5d4b-4310-8167-e6b6371d24fd'
+---
+Description: Determines if a matrix is an identity matrix.
+ms.assetid: 00f72d08-5d4b-4310-8167-e6b6371d24fd
 title: D3DXMatrixIsIdentity function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixIsIdentity function

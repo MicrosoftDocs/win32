@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.network property
 description: The network property gets an IWMPNetwork interface that provides access to network information and settings.
-ms.assetid: '0a6c4a8c-8759-47d4-be03-9909a8460e71'
-keywords: ["network property Windows Media Player", "network property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , network property"]
+ms.assetid: 0a6c4a8c-8759-47d4-be03-9909a8460e71
+keywords:
+- network property Windows Media Player
+- network property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , network property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.network property
@@ -72,9 +80,9 @@ The WMPLib.IWMPNetwork interface.
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

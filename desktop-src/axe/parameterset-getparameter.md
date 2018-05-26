@@ -1,8 +1,11 @@
 ---
 title: ParameterSet GetParameter method
 description: Returns a parameter object for the specified named parameter.
-ms.assetid: 'C583AE52-77BF-4086-A68F-C743A0CBD02D'
-keywords: ["GetParameter method Access Execution Engine", "GetParameter method Access Execution Engine , ParameterSet interface", "ParameterSet interface Access Execution Engine , GetParameter method"]
+ms.assetid: C583AE52-77BF-4086-A68F-C743A0CBD02D
+keywords:
+- GetParameter method Access Execution Engine
+- GetParameter method Access Execution Engine , ParameterSet interface
+- ParameterSet interface Access Execution Engine , GetParameter method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParameterSet::GetParameter method
@@ -22,8 +30,8 @@ Returns a parameter object for the specified named parameter.
 
 ```C++
 virtual HRESULT GetParameter(
-  [in]  LPCWSTR   parameterName,
-  [out] Parameter **parameter
+  [in]  LPCWSTR   parameterName,
+  [out] Parameter **parameter
 ) const = 0;
 ```
 
@@ -67,8 +75,8 @@ The managed API implements a default indexer to access a [**Parameter**](paramet
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -81,9 +89,9 @@ The managed API implements a default indexer to access a [**Parameter**](paramet
 [**ParameterSet**](parameterset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

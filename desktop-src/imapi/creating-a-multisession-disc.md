@@ -1,7 +1,12 @@
 ---
 title: Creating a Multisession Disc
-ms.assetid: '327304c4-fdb9-47c6-9b19-49100b933590'
+ms.assetid: 327304c4-fdb9-47c6-9b19-49100b933590
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Multisession Disc
@@ -20,11 +25,11 @@ Creation of a multisession disc using IMAPI consists of the following steps. Eac
 
 ## Initializing the Disc Recorder
 
-Prior to device initialization, the **MsftDiscMaster2** object provides an enumeration of the optical devices on the system. The [**IDiscMaster2**](idiscmaster2.md) interface provides access to this device enumeration to facilitate the location of the appropriate recording device. The **MsftDiscMaster2** object also provides event notifications when optical devices are added to or removed from a machine.
+Prior to device initialization, the **MsftDiscMaster2** object provides an enumeration of the optical devices on the system. The [**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master) interface provides access to this device enumeration to facilitate the location of the appropriate recording device. The **MsftDiscMaster2** object also provides event notifications when optical devices are added to or removed from a machine.
 
 After locating an optical recorder and retrieving the ID assigned to it, create a new **MsftDiscMaster2** object and initialize the recorder using the specific device ID.
 
-The [**IDiscRecorder2**](idiscrecorder2.md) interface provides access to basic device information such as vendor ID, product ID, product revision, as well as the methods to eject media or close the tray.
+The [**IDiscRecorder2**](/windows/win32/imapi2/nn-imapi2-idiscrecorder2?branch=master) interface provides access to basic device information such as vendor ID, product ID, product revision, as well as the methods to eject media or close the tray.
 
 > [!Note]  
 > The additional constants and dimensions declared in the following sample are used later in the complete sample script located in the final section of this document. These elements are not required for the act of initializing a disc recorder.
@@ -64,9 +69,9 @@ Function Main
 
 ## Creating a Data Writer
 
-The **MsftDiscFormat2Data** object provides the writing method, its properties, as well as the media-specific properties. The [**IDiscFormat2Data**](idiscformat2data.md) interface provides access to this object.
+The **MsftDiscFormat2Data** object provides the writing method, its properties, as well as the media-specific properties. The [**IDiscFormat2Data**](/windows/win32/imapi2/nn-imapi2-idiscformat2data?branch=master) interface provides access to this object.
 
-The disc recorder binds to the format writer using the [**IDiscFormat2Data::put\_Recorder**](idiscformat2data-put-recorder.md) property. After the recorder is bound to the format writer, media and write-specific property queries can be performed prior to writing the result image to disc using the [**IDiscFormat2Data::Write**](idiscformat2data-write.md) method.
+The disc recorder binds to the format writer using the [**IDiscFormat2Data::put\_Recorder**](/windows/win32/imapi2/nf-imapi2-idiscformat2data-put_recorder?branch=master) property. After the recorder is bound to the format writer, media and write-specific property queries can be performed prior to writing the result image to disc using the [**IDiscFormat2Data::Write**](/windows/win32/imapi2/nf-imapi2-idiscformat2data-write?branch=master) method.
 
 > [!Note]  
 > The client name string specified in the sample code below should be adjusted as appropriate for the specific application.
@@ -86,7 +91,7 @@ The disc recorder binds to the format writer using the [**IDiscFormat2Data::put\
 
 ## Creating the File System Object
 
-In order to record a new session, a burn image must be generated for it first. A burn image for **ISO9660**, **Joliet** and **UDF** formats consist of file systems of individual files and directories. The **MsftFileSystemImage** object is the file system object that contains the files and directories to be placed on the optical media. The [**IFileSystemImage**](ifilesystemimage.md) interface provides access to the file system object and settings.
+In order to record a new session, a burn image must be generated for it first. A burn image for **ISO9660**, **Joliet** and **UDF** formats consist of file systems of individual files and directories. The **MsftFileSystemImage** object is the file system object that contains the files and directories to be placed on the optical media. The [**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master) interface provides access to the file system object and settings.
 
 
 ```VB
@@ -99,21 +104,21 @@ In order to record a new session, a burn image must be generated for it first. A
 
 ## Importing a File System
 
-Before proceeding, ensure that the disc is not blank by checking the [**IDiscFormat2::get\_MediaHeuristicallyBlank**](idiscformat2-get-mediaheuristicallyblank.md) property.
+Before proceeding, ensure that the disc is not blank by checking the [**IDiscFormat2::get\_MediaHeuristicallyBlank**](/windows/win32/imapi2/nf-imapi2-idiscformat2-get_mediaheuristicallyblank?branch=master) property.
 
-After creating the **MsftFileSystemImage** object, the [**IFileSystemImage::put\_MultisessionInterfaces**](ifilesystemimage-put-multisessioninterfaces.md) property should be initialized prior to a call to either the [**IFileSystemImage::ImportFileSystem**](ifilesystemimage-importfilesystem.md) or [**IFileSystemImage::ImportSpecificFileSystem**](ifilesystemimage-importspecificfilesystem.md) method to import the file system from the last recorded session. These methods will automatically populate the **MsftFileSystemImage** object with information describing the previously recorded files and directories.
+After creating the **MsftFileSystemImage** object, the [**IFileSystemImage::put\_MultisessionInterfaces**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces?branch=master) property should be initialized prior to a call to either the [**IFileSystemImage::ImportFileSystem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem?branch=master) or [**IFileSystemImage::ImportSpecificFileSystem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem?branch=master) method to import the file system from the last recorded session. These methods will automatically populate the **MsftFileSystemImage** object with information describing the previously recorded files and directories.
 
 > [!Note]  
-> The [**IFileSystemImage::put\_MultisessionInterfaces**](ifilesystemimage-put-multisessioninterfaces.md) property is typically initialized with the multisession interfaces provided by the data writer via the [**IDiscFormat2Data::get\_MultisessionInterfaces**](ifilesystemimage-get-multisessioninterfaces.md) property.
+> The [**IFileSystemImage::put\_MultisessionInterfaces**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces?branch=master) property is typically initialized with the multisession interfaces provided by the data writer via the [**IDiscFormat2Data::get\_MultisessionInterfaces**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces?branch=master) property.
 
  
 
 Attempts to set the **IFileSystemImage::put\_MultisessionInterfaces** property will fail if IMAPI does not support multisession for the currently inserted media or the media cannot be appended for some other reason (e.g. because it is closed).
 
-If the previous burn session contained more than one file system type, the [**IFileSystemImage::ImportFileSystem**](ifilesystemimage-importfilesystem.md) method will import information from the most advanced file system type present. For example, in the example provided in this topic, UDF is the imported file system. However, use of the [**IFileSystemImage::ImportSpecificFileSystem**](ifilesystemimage-importspecificfilesystem.md) method allows the specific selection of the file system to import.
+If the previous burn session contained more than one file system type, the [**IFileSystemImage::ImportFileSystem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem?branch=master) method will import information from the most advanced file system type present. For example, in the example provided in this topic, UDF is the imported file system. However, use of the [**IFileSystemImage::ImportSpecificFileSystem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem?branch=master) method allows the specific selection of the file system to import.
 
 > [!Note]  
-> The [**IFileSystemImage::IdentifyFileSystemsOnDisc**](ifilesystemimage-identifyfilesystemsondisc.md) method can be used to determine which file systems are available on the disc.
+> The [**IFileSystemImage::IdentifyFileSystemsOnDisc**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-identifyfilesystemsondisc?branch=master) method can be used to determine which file systems are available on the disc.
 
  
 
@@ -144,14 +149,14 @@ If the previous burn session contained more than one file system type, the [**IF
 
 ## Adding or Removing Files to the File System
 
-After creating the file system object and importing the file system from the previous session, call the [**IFileSystemImage::CreateFileItem**](ifilesystemimage-createfileitem.md) and [**IFileSystemImage::CreateDirectoryItem**](ifilesystemimage-createdirectoryitem.md) methods to create new file and directory objects, respectively. The file and directory objects provide specific details about the files and directories. Alternatively, the [**IFsiDirectoryItem::AddTree**](ifsidirectoryitem-addtree.md) method of a directory object, represented via the [**IFsiDirectoryItem**](ifsidirectoryitem.md) interface, can be used to add existing files and directories from another storage device (i.e. a hard drive).
+After creating the file system object and importing the file system from the previous session, call the [**IFileSystemImage::CreateFileItem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-createfileitem?branch=master) and [**IFileSystemImage::CreateDirectoryItem**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem?branch=master) methods to create new file and directory objects, respectively. The file and directory objects provide specific details about the files and directories. Alternatively, the [**IFsiDirectoryItem::AddTree**](/windows/win32/imapi2fs/nf-imapi2fs-ifsidirectoryitem-addtree?branch=master) method of a directory object, represented via the [**IFsiDirectoryItem**](/windows/win32/imapi2fs/nn-imapi2fs-ifsidirectoryitem?branch=master) interface, can be used to add existing files and directories from another storage device (i.e. a hard drive).
 
-The event handler update method available for [**IFileSystemImage**](ifilesystemimage.md) identifies the current file being added to the file system image, the number of sectors already copied, and the total number of sectors to be copied.
+The event handler update method available for [**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master) identifies the current file being added to the file system image, the number of sectors already copied, and the total number of sectors to be copied.
 
-To remove existing files and directories from the file system, use the [**IFsiDirectoryItem::Remove**](ifsidirectoryitem-remove.md) and [**IFsiDirectoryItem::RemoveTree**](ifsidirectoryitem-removetree.md) methods of the directory objects represented via the [**IFsiDirectoryItem**](ifsidirectoryitem.md) interface. The [**IFileSystemImage::get\_Root**](ifilesystemimage-get-root.md) property is used to get a pointer to the root directory of the file system and the **IFsiDirectoryItem** interface to traverse through the directory tree.
+To remove existing files and directories from the file system, use the [**IFsiDirectoryItem::Remove**](/windows/win32/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove?branch=master) and [**IFsiDirectoryItem::RemoveTree**](/windows/win32/imapi2fs/nf-imapi2fs-ifsidirectoryitem-removetree?branch=master) methods of the directory objects represented via the [**IFsiDirectoryItem**](/windows/win32/imapi2fs/nn-imapi2fs-ifsidirectoryitem?branch=master) interface. The [**IFileSystemImage::get\_Root**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-get_root?branch=master) property is used to get a pointer to the root directory of the file system and the **IFsiDirectoryItem** interface to traverse through the directory tree.
 
 > [!Note]  
-> Files and directories removed via the [**IFsiDirectoryItem::Remove**](ifsidirectoryitem-remove.md) and [**IFsiDirectoryItem::RemoveTree**](ifsidirectoryitem-removetree.md) methods are not physically removed from the disc, and advanced software can easily recover the deleted information.
+> Files and directories removed via the [**IFsiDirectoryItem::Remove**](/windows/win32/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove?branch=master) and [**IFsiDirectoryItem::RemoveTree**](/windows/win32/imapi2fs/nf-imapi2fs-ifsidirectoryitem-removetree?branch=master) methods are not physically removed from the disc, and advanced software can easily recover the deleted information.
 
  
 
@@ -166,7 +171,7 @@ To remove existing files and directories from the file system, use the [**IFsiDi
 
 ## Constructing a File System Image
 
-The final step is to call [**IFileSystemImage::CreateResultImage**](ifilesystemimage-createresultimage.md) to create a data stream for the burn image and provide access to it through the [**IFileSystemImageResult**](ifilesystemimageresult.md) interface. This data stream can either be provided directly to the [**IDiscFormat2Data::Write**](idiscformat2data-write.md) method or be saved to a file for later use.
+The final step is to call [**IFileSystemImage::CreateResultImage**](/windows/win32/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage?branch=master) to create a data stream for the burn image and provide access to it through the [**IFileSystemImageResult**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimageresult?branch=master) interface. This data stream can either be provided directly to the [**IDiscFormat2Data::Write**](/windows/win32/imapi2/nf-imapi2-idiscformat2data-write?branch=master) method or be saved to a file for later use.
 
 
 ```VB
@@ -285,13 +290,13 @@ End Function
 [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034)
 </dt> <dt>
 
-[**IDiscMaster2**](idiscmaster2.md)
+[**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master)
 </dt> <dt>
 
-[**IDiscFormat2Data**](idiscformat2data.md)
+[**IDiscFormat2Data**](/windows/win32/imapi2/nn-imapi2-idiscformat2data?branch=master)
 </dt> <dt>
 
-[**IFileSystemImage**](ifilesystemimage.md)
+[**IFileSystemImage**](/windows/win32/imapi2fs/nn-imapi2fs-ifilesystemimage?branch=master)
 </dt> </dl>
 
  

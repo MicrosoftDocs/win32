@@ -1,7 +1,12 @@
 ---
 title: ScopeInfo
 description: ScopeInfo
-ms.assetid: '64185b3e-efb9-4c7f-a169-acdb7d3739e5'
+ms.assetid: 64185b3e-efb9-4c7f-a169-acdb7d3739e5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScopeInfo

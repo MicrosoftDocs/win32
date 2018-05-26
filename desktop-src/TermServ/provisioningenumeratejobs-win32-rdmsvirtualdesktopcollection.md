@@ -4,11 +4,14 @@ description: Enumerates virtual desktop provisioning jobs for this service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4bd2b03f-ba8c-483e-af09-270424f9b1ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4bd2b03f-ba8c-483e-af09-270424f9b1ed
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ProvisioningEnumerateJobs method Remote Desktop Services", "ProvisioningEnumerateJobs method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class", "Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , ProvisioningEnumerateJobs method"]
+keywords:
+- ProvisioningEnumerateJobs method Remote Desktop Services
+- ProvisioningEnumerateJobs method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class
+- Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , ProvisioningEnumerateJobs method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProvisioningEnumerateJobs method of the Win32\_RDMSVirtualDesktopCollection class
@@ -28,9 +34,9 @@ Enumerates virtual desktop provisioning jobs for this service.
 
 ```mof
 uint32 ProvisioningEnumerateJobs(
-  [in]  uint32 JobType,
-  [in]  string CollectionAlias,
-  [out] string JobGuids[]
+  [in]  uint32 JobType,
+  [in]  string CollectionAlias,
+  [out] string JobGuids[]
 );
 ```
 
@@ -88,7 +94,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -102,9 +108,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktopCollection**](win32-rdmsvirtualdesktopcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

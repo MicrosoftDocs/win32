@@ -1,8 +1,31 @@
 ---
 title: Using the Shapetype Element
 description: Using the Shapetype Element
-ms.assetid: 'ad9e5c00-fbee-4bec-b4cd-075cf5a4d8c7'
-keywords: ["Web workshop,shapetype element", "designing Web pages,shapetype element", "Vector Markup Language (VML),shapetype element", "VML (Vector Markup Language),shapetype element", "vector graphics,shapetype element", "shapetype element", "VML elements,shapetype", "VML shapes,shapetype element", "Vector Markup Language (VML),defining frequently used shapes", "VML (Vector Markup Language),defining frequently used shapes", "vector graphics,defining frequently used shapes", "defining frequently used shapes", "VML shapes,defining frequently used", "Vector Markup Language (VML),instantiating copies of shapes", "VML (Vector Markup Language),instantiating copies of shapes", "vector graphics,instantiating copies of shapes", "instantiating copies of shapes", "VML shapes,instantiating"]
+ms.assetid: ad9e5c00-fbee-4bec-b4cd-075cf5a4d8c7
+keywords:
+- Web workshop,shapetype element
+- designing Web pages,shapetype element
+- Vector Markup Language (VML),shapetype element
+- VML (Vector Markup Language),shapetype element
+- vector graphics,shapetype element
+- shapetype element
+- VML elements,shapetype
+- VML shapes,shapetype element
+- Vector Markup Language (VML),defining frequently used shapes
+- VML (Vector Markup Language),defining frequently used shapes
+- vector graphics,defining frequently used shapes
+- defining frequently used shapes
+- VML shapes,defining frequently used
+- Vector Markup Language (VML),instantiating copies of shapes
+- VML (Vector Markup Language),instantiating copies of shapes
+- vector graphics,instantiating copies of shapes
+- instantiating copies of shapes
+- VML shapes,instantiating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Shapetype Element

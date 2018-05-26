@@ -1,7 +1,12 @@
 ---
-Description: 'Light properties describe a light source''s type and color.'
-ms.assetid: 'b39f1287-c67b-4cbb-b599-4a1b2f4981ac'
-title: 'Light Properties (Direct3D 9)'
+Description: Light properties describe a light sources type and color.
+ms.assetid: b39f1287-c67b-4cbb-b599-4a1b2f4981ac
+title: Light Properties (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Light Properties (Direct3D 9)
@@ -34,7 +39,7 @@ Generally, you set the light color components to values between 0.0 and 1.0, inc
 
 Note that although Direct3D uses RGBA values for lights, the alpha color component is not used.
 
-Usually material colors are used for lighting. However, you can specify that material colors-emissive, ambient, diffuse, and specular-are to be overridden by diffuse or specular vertex colors. This is done by calling [**SetRenderState**](idirect3ddevice9--setrenderstate.md) and setting the device state variables listed in the following table.
+Usually material colors are used for lighting. However, you can specify that material colors-emissive, ambient, diffuse, and specular-are to be overridden by diffuse or specular vertex colors. This is done by calling [**SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) and setting the device state variables listed in the following table.
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the SenderCompany property of a FaxDoc object. The SenderCompany property is a null-terminated string that contains the company name of the sender of the fax transmission.'
-ms.assetid: '87b9fc79-d4aa-4164-830b-c68be759b7d9'
-title: 'FaxDoc.SenderCompany property'
+---
+Description: Sets or retrieves the SenderCompany property of a FaxDoc object. The SenderCompany property is a null-terminated string that contains the company name of the sender of the fax transmission.
+ms.assetid: 87b9fc79-d4aa-4164-830b-c68be759b7d9
+title: FaxDoc.SenderCompany property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.SenderCompany property
@@ -55,7 +60,7 @@ The **get\_SenderCompany** method allocates the memory required for the buffer p
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

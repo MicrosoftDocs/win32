@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxSecurity configuration object is used by a fax client application to configure the security on a fax server, and permits the calling application to set and retrieve a security descriptor for the fax server.'
-ms.assetid: '0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04'
+---
+Description: The FaxSecurity configuration object is used by a fax client application to configure the security on a fax server, and permits the calling application to set and retrieve a security descriptor for the fax server.
+ms.assetid: 0c1fe69c-f10b-4c7d-abe5-1a3e93d56c04
 title: FaxSecurity object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSecurity object
@@ -84,7 +89,7 @@ To create a **FaxSecurity** object in C++, call the [**Security**](-mfax-faxserv
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxSecurity**](-mfax-faxsecurity-cpp.md)
+[**IFaxSecurity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsecurity?branch=master)
 </dt> </dl>
 
  

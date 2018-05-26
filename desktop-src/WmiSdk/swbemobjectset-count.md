@@ -1,13 +1,16 @@
 ---
-Description: 'Use the Count property of the SWbemObjectSet object to determine how many items are in an SWbemObjectSet collection. This property is read-only.'
+Description: Use the Count property of the SWbemObjectSet object to determine how many items are in an SWbemObjectSet collection. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ad3d1265-a11e-4962-b1f3-60092d2f79ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ad3d1265-a11e-4962-b1f3-60092d2f79ef
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectSet.Count property'
+title: SWbemObjectSet.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectSet.Count property
@@ -38,7 +41,7 @@ And then suppose you want to display the property values for every event in the 
 > [!Note]  
 > If you attempt to get this property from an [**SWbemObjectSet**](swbemobjectset.md) object that is returned from a method where the specified flags are included the wbemFlagForwardOnly flag, you will get an wbemErrFailed error.
 
- 
+ 
 
 ## Examples
 
@@ -80,8 +83,8 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -90,9 +93,9 @@ End If
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Commit any changes made to a mesh to the device so that the changes can be rendered. This should be called after a mesh''s data is altered and before it is rendered. A mesh cannot be rendered unless it is committed to the device. See remarks.'
-ms.assetid: '26927553-d1d8-4745-85ad-a8a6fe949306'
-title: 'ID3DX10Mesh::CommitToDevice method'
+---
+Description: Commit any changes made to a mesh to the device so that the changes can be rendered. This should be called after a meshs data is altered and before it is rendered. A mesh cannot be rendered unless it is committed to the device. See remarks.
+ms.assetid: 26927553-d1d8-4745-85ad-a8a6fe949306
+title: ID3DX10MeshCommitToDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::CommitToDevice method

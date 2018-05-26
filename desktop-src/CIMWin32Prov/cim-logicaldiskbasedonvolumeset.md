@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_LogicalDiskBasedOnVolumeSet association relates logical disks with the volume on which they are found. Logical disks can be based on a single volume (for example, exposed by a software volume manager) or a disk partition.'
+Description: The CIM\_LogicalDiskBasedOnVolumeSet association relates logical disks with the volume on which they are found. Logical disks can be based on a single volume (for example, exposed by a software volume manager) or a disk partition.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '15a588c9-a6b0-4393-927f-8e8818315542'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 15a588c9-a6b0-4393-927f-8e8818315542
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LogicalDiskBasedOnVolumeSet class'
+title: CIM\_LogicalDiskBasedOnVolumeSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalDiskBasedOnVolumeSet class
@@ -19,7 +22,7 @@ The **CIM\_LogicalDiskBasedOnVolumeSet** association relates logical disks with 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,10 +32,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{3A608798-E3D3-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_LogicalDiskBasedOnVolumeSet : CIM_BasedOn
 {
-  uint64              EndingAddress;
-  uint64              StartingAddress;
+  uint64              EndingAddress;
+  uint64              StartingAddress;
   CIM_LogicalDisk REF Dependent;
-  CIM_VolumeSet   REF Antecedent;
+  CIM_VolumeSet   REF Antecedent;
 };
 ```
 
@@ -128,8 +131,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -143,9 +146,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_BasedOn**](cim-basedon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

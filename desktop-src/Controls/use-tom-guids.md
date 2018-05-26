@@ -1,7 +1,12 @@
 ---
 title: How to Use TOM GUIDs
 description: Text Object Model (TOM) GUIDs are given in Tom.h inside the MIDL\_INTERFACE statements. To use the associated interfaces, you must first declare the interface by using the GUID.
-ms.assetid: '48FF98C9-D42E-4E7F-874F-8E56F730E24E'
+ms.assetid: 48FF98C9-D42E-4E7F-874F-8E56F730E24E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use TOM GUIDs
@@ -23,7 +28,7 @@ Text Object Model (TOM) GUIDs are given in Tom.h inside the MIDL\_INTERFACE sta
 
 ### Use a TOM GUID
 
-The following example code demonstrates how to use the [**ITextDocument**](itextdocument.md) interface.
+The following example code demonstrates how to use the [**ITextDocument**](/windows/win32/Tom/nn-tom-itextdocument?branch=master) interface.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
-Description: 'specifies a prefix that is on-link to interface \#4.'
-ms.assetid: 'cc3aa99d-cf45-460c-bdc1-3e9a19806fe4'
+Description: specifies a prefix that is on-link to interface \#4.
+ms.assetid: cc3aa99d-cf45-460c-bdc1-3e9a19806fe4
 title: IPv6 Site Prefixes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Site Prefixes
@@ -14,7 +19,7 @@ ipv6 rtu 2002:836b:9820:2::/64 4 pub life 1800 spl 48
 
 specifies a prefix that is on-link to interface \#4. The prefix is published, meaning that it is included in router advertisements if interface \#4 is an advertising interface. The lifetime in the prefix information option is 1800 seconds (30 minutes). The site prefix length in the prefix information option is 48.
 
-The receipt of a prefix information option that specifies a site prefix causes an entry to be created in the site prefix table, which can be displayed by using the ipv6 spt command. The site prefix table is used to remove inappropriate site-local addresses from those returned by the [**getaddrinfo**](getaddrinfo-2.md) and related functions.
+The receipt of a prefix information option that specifies a site prefix causes an entry to be created in the site prefix table, which can be displayed by using the ipv6 spt command. The site prefix table is used to remove inappropriate site-local addresses from those returned by the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) and related functions.
 
 ## Related topics
 

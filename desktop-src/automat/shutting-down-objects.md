@@ -1,7 +1,12 @@
 ---
 title: Shutting Down Objects
 description: Describes how to shut down an ActiveX object.
-ms.assetid: '10e92b01-1ffc-441b-bcf5-e6781ff12cdd'
+ms.assetid: 10e92b01-1ffc-441b-bcf5-e6781ff12cdd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shutting Down Objects

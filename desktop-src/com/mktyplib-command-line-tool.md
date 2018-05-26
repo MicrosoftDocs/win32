@@ -1,7 +1,12 @@
 ---
 title: MkTypLib Command-Line Tool
 description: MkTypLib is a command-line application that processes an IDL file to produce a type library. It can also be used to generate a C or C++ header file.
-ms.assetid: '883d380d-1d73-439b-9f11-ee89fc62fdfd'
+ms.assetid: 883d380d-1d73-439b-9f11-ee89fc62fdfd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MkTypLib Command-Line Tool

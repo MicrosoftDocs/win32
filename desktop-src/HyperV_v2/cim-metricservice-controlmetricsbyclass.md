@@ -1,7 +1,12 @@
 ---
-Description: 'Enables and disables the collection of metrics.'
-ms.assetid: '1a53c7a7-c0fc-49d7-ad1b-d185d776ede5'
-title: 'ControlMetricsByClass method of the CIM\_MetricService class'
+Description: Enables and disables the collection of metrics.
+ms.assetid: 1a53c7a7-c0fc-49d7-ad1b-d185d776ede5
+title: ControlMetricsByClass method of the CIM\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlMetricsByClass method of the CIM\_MetricService class
@@ -13,9 +18,9 @@ Enables and disables the collection of metrics.**ControlMetricsByClass** is used
 
 ```mof
 uint32 ControlMetricsByClass(
-  [in] CIM_ManagedElement       REF Subject,
-  [in] CIM_BaseMetricDefinition REF Definition,
-  [in] uint16                       MetricCollectionEnabled
+  [in] CIM_ManagedElement       REF Subject,
+  [in] CIM_BaseMetricDefinition REF Definition,
+  [in] uint16                       MetricCollectionEnabled
 );
 ```
 
@@ -108,8 +113,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -123,9 +128,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_MetricService**](cim-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

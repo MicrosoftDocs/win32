@@ -4,13 +4,19 @@ description: Removes an existing replication partnership.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b71f6e88-2c31-40ba-a449-6f8950eee07c'
-ms.prod: 'windows-server-dev'
+ms.assetid: b71f6e88-2c31-40ba-a449-6f8950eee07c
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveStretchPartnership method", "RemoveStretchPartnership method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, RemoveStretchPartnership method"]
+keywords:
+- RemoveStretchPartnership method
+- RemoveStretchPartnership method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, RemoveStretchPartnership method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveStretchPartnership method of the MSFT\_WvrAdminTasks class
@@ -22,9 +28,9 @@ Removes an existing replication partnership.
 
 ```mof
 uint32 RemoveStretchPartnership(
-  [in] string ClusterName,
-  [in] string SourceRGName,
-  [in] string DestinationRGName
+  [in] string ClusterName,
+  [in] string SourceRGName,
+  [in] string DestinationRGName
 );
 ```
 
@@ -62,7 +68,7 @@ The name of the destination replication group.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ The name of the destination replication group.
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

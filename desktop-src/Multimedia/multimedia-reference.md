@@ -1,8 +1,17 @@
 ---
 title: Multimedia Reference
 description: Multimedia Reference
-ms.assetid: '71e31f62-6aad-4b39-ba74-285c0a633e41'
-keywords: ["Windows multimedia,reference", "multimedia,reference", "multimedia reference,about", "reference for multimedia,about"]
+ms.assetid: 71e31f62-6aad-4b39-ba74-285c0a633e41
+keywords:
+- Windows multimedia,reference
+- multimedia,reference
+- multimedia reference,about
+- reference for multimedia,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Reference

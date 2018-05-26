@@ -1,12 +1,17 @@
 ---
 Description: How to Determine Supported Rates
-ms.assetid: '7f2b64e1-1062-4f77-b8e0-62b6d962ae8b'
+ms.assetid: 7f2b64e1-1062-4f77-b8e0-62b6d962ae8b
 title: How to Determine Supported Rates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Determine Supported Rates
 
-Before changing the playback rate, an application should check whether the playback rate is supported by the objects in the pipeline. The [**IMFRateSupport**](imfratesupport.md) interface provides methods to get the maximum forward and reverse rates, the supported rate nearest to a requested rate, and the slowest rate. Each of these rate queries can specify the playback direction and whether to use thinning. The exact playback rate is queried by using the [**IMFRateControl**](imfratecontrol.md) interface.
+Before changing the playback rate, an application should check whether the playback rate is supported by the objects in the pipeline. The [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master) interface provides methods to get the maximum forward and reverse rates, the supported rate nearest to a requested rate, and the slowest rate. Each of these rate queries can specify the playback direction and whether to use thinning. The exact playback rate is queried by using the [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master) interface.
 
 For information about changing playback rates, see [How to Set the Playback Rate on the Media Session](how-to-set-the-playback-rate-on-the-media-session.md).
 
@@ -27,11 +32,11 @@ For general information about playback rates, see [About Rate Control](about-rat
 
     
 
-    Pass an initialized [**IMFMediaSession**](imfmediasession.md) interface pointer in the *punkObject* parameter of [**MFGetService**](mfgetservice.md).
+    Pass an initialized [**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master) interface pointer in the *punkObject* parameter of [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master).
 
     The application must query for the rate control service through the Media Session. Internally, the Media Session queries the objects in the topology.
 
-2.  Call the [**IMFRateControl::GetRate**](imfratecontrol-getrate.md) method to get the current playback rate.
+2.  Call the [**IMFRateControl::GetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-getrate?branch=master) method to get the current playback rate.
 
     ```C++
     hr = pRateControl->GetRate(&amp;bThin, &amp;rate);
@@ -39,7 +44,7 @@ For general information about playback rates, see [About Rate Control](about-rat
 
     
 
-    The *pfThin* parameter of [**GetRate**](imfratecontrol-getrate.md) receives a **BOOL** value that indicates whether the stream is currently being thinned. The application must pass **NULL** if it does not want to query thinning support for the stream. The *pflRate* parameter receives the current playback rate.
+    The *pfThin* parameter of [**GetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-getrate?branch=master) receives a **BOOL** value that indicates whether the stream is currently being thinned. The application must pass **NULL** if it does not want to query thinning support for the stream. The *pflRate* parameter receives the current playback rate.
 
 ## To determine the nearest supported rate
 
@@ -56,9 +61,9 @@ For general information about playback rates, see [About Rate Control](about-rat
 
     
 
-    Pass an initialized [**IMFMediaSession**](imfmediasession.md) interface pointer in the *punkObject* parameter of [**MFGetService**](mfgetservice.md).
+    Pass an initialized [**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master) interface pointer in the *punkObject* parameter of [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master).
 
-2.  Call the [**IMFRateSupport::IsRateSupported**](imfratesupport-isratesupported.md) method to retrieve the supported rate nearest to a requested playback rate.
+2.  Call the [**IMFRateSupport::IsRateSupported**](/windows/win32/mfidl/nf-mfidl-imfratesupport-isratesupported?branch=master) method to retrieve the supported rate nearest to a requested playback rate.
 
     ```C++
     float rateRequested = 4.0;
@@ -71,7 +76,7 @@ For general information about playback rates, see [About Rate Control](about-rat
 
     
 
-    The example queries whether a playback rate of 4.0 is supported with thinning. This is indicated by passing **TRUE** in the *fThin* parameter of [**IsRateSupported**](imfratesupport-isratesupported.md). If this rate is supported, *actualRate* contains the playback rate of 4.0, and the call succeeds with a return value of S\_OK. If the exact playback rate is not supported, the nearest supported rate is received in *actualRate*. If the rate is not supported and there is no available nearest playback rate, the call returns an appropriate error code.
+    The example queries whether a playback rate of 4.0 is supported with thinning. This is indicated by passing **TRUE** in the *fThin* parameter of [**IsRateSupported**](/windows/win32/mfidl/nf-mfidl-imfratesupport-isratesupported?branch=master). If this rate is supported, *actualRate* contains the playback rate of 4.0, and the call succeeds with a return value of S\_OK. If the exact playback rate is not supported, the nearest supported rate is received in *actualRate*. If the rate is not supported and there is no available nearest playback rate, the call returns an appropriate error code.
 
     These values can change depending on which pipeline components are loaded. Therefore, you should query the values again whenever you load a new topololgy.
 
@@ -92,9 +97,9 @@ For general information about playback rates, see [About Rate Control](about-rat
 
     
 
-    Pass an initialized [**IMFMediaSession**](imfmediasession.md) interface pointer in the *punkObject* parameter of [**MFGetService**](mfgetservice.md).
+    Pass an initialized [**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master) interface pointer in the *punkObject* parameter of [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master).
 
-2.  Call the [**IMFRateSupport::GetSlowestRate**](imfratesupport-getslowestrate.md) method to retrieve the slowest supported rate.
+2.  Call the [**IMFRateSupport::GetSlowestRate**](/windows/win32/mfidl/nf-mfidl-imfratesupport-getslowestrate?branch=master) method to retrieve the slowest supported rate.
 
     ```C++
     float slowestRate = 0;
@@ -106,7 +111,7 @@ For general information about playback rates, see [About Rate Control](about-rat
 
     
 
-    The example queries for the slowest reverse playback rate with thinning. The lower bound rate is received in *slowestRate* parameter of [**GetSlowestRate**](imfratesupport-getslowestrate.md).
+    The example queries for the slowest reverse playback rate with thinning. The lower bound rate is received in *slowestRate* parameter of [**GetSlowestRate**](/windows/win32/mfidl/nf-mfidl-imfratesupport-getslowestrate?branch=master).
 
     If reverse playback or thinning is not supported, the call returns an appropriate error code.
 

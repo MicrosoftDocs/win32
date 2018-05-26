@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectUnorderedAccessViewVariable GetUnorderedAccessViewArray method
 description: Get an array of unordered-access-views.
-ms.assetid: '38f838bb-cdcb-43c2-8b98-a188f479e93d'
-keywords: ["GetUnorderedAccessViewArray method Direct3D 11", "GetUnorderedAccessViewArray method Direct3D 11 , ID3DX11EffectUnorderedAccessViewVariable interface", "ID3DX11EffectUnorderedAccessViewVariable interface Direct3D 11 , GetUnorderedAccessViewArray method"]
+ms.assetid: 38f838bb-cdcb-43c2-8b98-a188f479e93d
+keywords:
+- GetUnorderedAccessViewArray method Direct3D 11
+- GetUnorderedAccessViewArray method Direct3D 11 , ID3DX11EffectUnorderedAccessViewVariable interface
+- ID3DX11EffectUnorderedAccessViewVariable interface Direct3D 11 , GetUnorderedAccessViewArray method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectUnorderedAccessViewVariable::GetUnorderedAccessViewArray method
@@ -23,9 +31,9 @@ Get an array of unordered-access-views.
 
 ```C++
 HRESULT GetUnorderedAccessViewArray(
-   ID3D11UnorderedAccessView **ppResources,
-   UINT                      Offset,
-   UINT                      Count
+   ID3D11UnorderedAccessView **ppResources,
+   UINT                      Offset,
+   UINT                      Count
 );
 ```
 
@@ -38,9 +46,9 @@ HRESULT GetUnorderedAccessViewArray(
 *ppResources* 
 </dt> <dd>
 
-Type: **[**ID3D11UnorderedAccessView**](id3d11unorderedaccessview.md)\*\***
+Type: **[**ID3D11UnorderedAccessView**](/windows/win32/D3D11/nn-d3d11-id3d11unorderedaccessview?branch=master)\*\***
 
-Pointer to an [**ID3D11UnorderedAccessView**](id3d11unorderedaccessview.md) pointer that will be set to the UAV array on return.
+Pointer to an [**ID3D11UnorderedAccessView**](/windows/win32/D3D11/nn-d3d11-id3d11unorderedaccessview?branch=master) pointer that will be set to the UAV array on return.
 
 </dd> <dt>
 
@@ -73,7 +81,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +101,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectUnorderedAccessViewVariable](id3dx11effectunorderedaccessviewvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

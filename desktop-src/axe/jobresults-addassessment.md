@@ -1,8 +1,11 @@
 ---
 title: JobResults AddAssessment method
 description: Adds an Assessment to this JobResults object.
-ms.assetid: 'DAADAD29-CAA2-44D2-9F00-733AB73732D3'
-keywords: ["AddAssessment method Access Execution Engine", "AddAssessment method Access Execution Engine , JobResults interface", "JobResults interface Access Execution Engine , AddAssessment method"]
+ms.assetid: DAADAD29-CAA2-44D2-9F00-733AB73732D3
+keywords:
+- AddAssessment method Access Execution Engine
+- AddAssessment method Access Execution Engine , JobResults interface
+- JobResults interface Access Execution Engine , AddAssessment method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobResults::AddAssessment method
@@ -22,7 +30,7 @@ Adds an [**Assessment**](assessment-inf.md) to this **JobResults** object.
 
 ```C++
 virtual HRESULT AddAssessment(
-  [in] LPCWSTR path
+  [in] LPCWSTR path
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The method takes the path to the assessment manifest file and, if the assessment
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The method takes the path to the assessment manifest file and, if the assessment
 [**JobResults**](jobresults.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Token (Four Child Elements) element
 description: Creates a media node in the pipeline graph.
-ms.assetid: '4aa571b5-8cfc-4ea2-9e74-2fddf1fef877'
-keywords: ["Token (Four Child Elements) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 4aa571b5-8cfc-4ea2-9e74-2fddf1fef877
+keywords:
+- Token (Four Child Elements) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Token
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Token (Four Child Elements) element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -63,9 +69,9 @@ There are no child elements.
 [**Token Element (Three Child Elements)**](token--three-child-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

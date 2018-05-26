@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LogIncoming property is a Boolean value that indicates whether the fax service logs entries for incoming faxes in the activity log database.'
-ms.assetid: 'ba8e21f5-1284-4088-aa57-4111e03615b6'
-title: 'FaxActivityLogging.LogIncoming property'
+---
+Description: The LogIncoming property is a Boolean value that indicates whether the fax service logs entries for incoming faxes in the activity log database.
+ms.assetid: ba8e21f5-1284-4088-aa57-4111e03615b6
+title: FaxActivityLogging.LogIncoming property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivityLogging.LogIncoming property
@@ -27,7 +32,7 @@ A **Boolean** that specifies or receives a value indicating whether the fax serv
 
 If this property is equal to **True**, the fax service logs entries for incoming fax jobs in the activity log database. If this property is equal to **False**, the fax service does not log entries.
 
-To read or write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -52,7 +57,7 @@ To read or write to this property, a user must have the [****farQUERY\_CONFIG***
 [**FaxActivityLogging**](-mfax-faxactivitylogging.md)
 </dt> <dt>
 
-[**IFaxActivityLogging**](-mfax-faxactivitylogging-cpp.md)
+[**IFaxActivityLogging**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivitylogging?branch=master)
 </dt> </dl>
 
  

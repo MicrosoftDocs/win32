@@ -1,8 +1,24 @@
 ---
 title: Using the Media Foundation Event Model
 description: Using the Media Foundation Event Model
-ms.assetid: 'c07425dc-25d0-430b-a1f6-6373303a0cc7'
-keywords: ["Windows Media Format SDK,DRM Media Foundation event model", "Windows Media Format SDK,Media Foundation event model", "Windows Media Format SDK,DRM event model", "digital rights management (DRM),Media Foundation event model", "DRM (digital rights management),Media Foundation event model", "digital rights management (DRM),event model", "DRM (digital rights management),event model", "digital rights management (DRM),IWMDRMEventGenerator interface", "DRM (digital rights management),IWMDRMEventGenerator interface", "Media Foundation", "IWMDRMEventGenerator"]
+ms.assetid: c07425dc-25d0-430b-a1f6-6373303a0cc7
+keywords:
+- Windows Media Format SDK,DRM Media Foundation event model
+- Windows Media Format SDK,Media Foundation event model
+- Windows Media Format SDK,DRM event model
+- digital rights management (DRM),Media Foundation event model
+- DRM (digital rights management),Media Foundation event model
+- digital rights management (DRM),event model
+- DRM (digital rights management),event model
+- digital rights management (DRM),IWMDRMEventGenerator interface
+- DRM (digital rights management),IWMDRMEventGenerator interface
+- Media Foundation
+- IWMDRMEventGenerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Media Foundation Event Model

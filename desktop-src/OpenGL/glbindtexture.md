@@ -1,8 +1,9 @@
 ---
 title: glBindTexture function
 description: The glBindTexture function enables the creation of a named texture that is bound to a texture target.
-ms.assetid: '800f2360-b40e-4911-9a45-6f310aeeefeb'
-keywords: ["glBindTexture function OpenGL"]
+ms.assetid: 800f2360-b40e-4911-9a45-6f310aeeefeb
+keywords:
+- glBindTexture function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glBindTexture function
@@ -22,8 +28,8 @@ The **glBindTexture** function enables the creation of a named texture that is b
 
 ```C++
 void WINAPI glBindTexture(
-   GLenum target,
-   GLuint texture
+   GLenum target,
+   GLuint texture
 );
 ```
 
@@ -94,7 +100,7 @@ You can include calls to **glBindTexture** in display lists.
 > [!Note]  
 > The **glBindTexture** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 The following functions retrieve information related to **glBindTexture**:
 
@@ -108,8 +114,8 @@ The following functions retrieve information related to **glBindTexture**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -150,9 +156,9 @@ The following functions retrieve information related to **glBindTexture**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

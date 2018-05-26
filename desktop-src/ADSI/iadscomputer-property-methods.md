@@ -4,11 +4,12 @@ description: The IADsComputer interface methods read and write the properties de
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c990b6bb-6256-4216-9435-c85c67db4d13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c990b6bb-6256-4216-9435-c85c67db4d13
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsComputer Property Methods ADSI"]
+keywords:
+- IADsComputer Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -66,11 +67,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsComputer Property Methods
 
-The [**IADsComputer**](iadscomputer.md) interface methods read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
+The [**IADsComputer**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master) interface methods read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -546,15 +550,15 @@ HRESULT put_StorageCapacity(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
 Different providers may choose to expose different properties of a computer object. For more information, see [ADSI System Providers](adsi-system-providers.md).
 
-You can discover what properties are supported by inspecting the mandatory and optional properties through its schema class. For more information, see the [**IADsClass**](iadsclass.md) interface.
+You can discover what properties are supported by inspecting the mandatory and optional properties through its schema class. For more information, see the [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master) interface.
 
-To examine the status of a computer or to perform the shutdown operation across the network, you must use the [**IADsComputerOperations**](iadscomputeroperations.md) interface.
+To examine the status of a computer or to perform the shutdown operation across the network, you must use the [**IADsComputerOperations**](/windows/win32/Iads/nn-iads-iadscomputeroperations?branch=master) interface.
 
 ## Examples
 
@@ -615,8 +619,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsComputer is defined as EFE3CC70-1D9F-11CF-B1F3-02608C9E7553<br/>         |
@@ -627,24 +631,24 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsComputer**](iadscomputer.md)
+[**IADsComputer**](/windows/win32/Iads/nn-iads-iadscomputer?branch=master)
 </dt> <dt>
 
 [ADSI System Providers](adsi-system-providers.md)
 </dt> <dt>
 
-[**IADsClass**](iadsclass.md)
+[**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)
 </dt> <dt>
 
-[**IADsComputerOperations**](iadscomputeroperations.md)
+[**IADsComputerOperations**](/windows/win32/Iads/nn-iads-iadscomputeroperations?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

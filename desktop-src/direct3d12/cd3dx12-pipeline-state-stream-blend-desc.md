@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC structure
 description: A helper structure used to describe a blend description as a single object suitable for a stream description.
-ms.assetid: 'A629B05D-0A70-4C96-9F66-1508F2667BF6'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC structure"]
+ms.assetid: A629B05D-0A70-4C96-9F66-1508F2667BF6
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_BLEND\_DESC structure
@@ -22,10 +28,10 @@ A helper structure used to describe a blend description as a single object suita
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC {
-                                           CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC;
-                                           CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC(CD3DX12_BLEND_DESC const &amp;i);
+                                           CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC;
+                                           CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC(CD3DX12_BLEND_DESC const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC operator=(CD3DX12_BLEND_DESC const&amp; i);
-                                           operator CD3DX12_BLEND_DESC() const;
+                                           operator CD3DX12_BLEND_DESC() const;
 };
 ```
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<CD3DX12_BLEND_DESC, D3D12_PIPELI
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

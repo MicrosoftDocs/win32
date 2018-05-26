@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the size of the scriptable stream, in bytes.'
-ms.assetid: '4A05474B-9856-48B0-9289-D87B8FF54B2F'
-title: 'IPrinterScriptableStream::SetSize method'
+---
+Description: Sets the size of the scriptable stream, in bytes.
+ms.assetid: 4A05474B-9856-48B0-9289-D87B8FF54B2F
+title: IPrinterScriptableStreamSetSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptableStream::SetSize method

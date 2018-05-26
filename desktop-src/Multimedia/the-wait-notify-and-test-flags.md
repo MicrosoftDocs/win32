@@ -1,8 +1,16 @@
 ---
 title: The Wait, Notify, and Test Flags
 description: The Wait, Notify, and Test Flags
-ms.assetid: 'c4d99c15-1046-422f-8f44-396deacf38cf'
-keywords: ["MCI_WAIT flag", "MCI_NOTIFY flag", "MCI_TEST flag"]
+ms.assetid: c4d99c15-1046-422f-8f44-396deacf38cf
+keywords:
+- MCI_WAIT flag
+- MCI_NOTIFY flag
+- MCI_TEST flag
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Wait, Notify, and Test Flags

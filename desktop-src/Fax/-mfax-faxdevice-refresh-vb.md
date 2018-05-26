@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes FaxDevice object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.'
-ms.assetid: '2723073a-f396-4ae2-9eb8-9b717cce55e5'
-title: 'FaxDevice.Refresh method'
+---
+Description: The Refresh method refreshes FaxDevice object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
+ms.assetid: 2723073a-f396-4ae2-9eb8-9b717cce55e5
+title: FaxDevice.Refresh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.Refresh method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-ac
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

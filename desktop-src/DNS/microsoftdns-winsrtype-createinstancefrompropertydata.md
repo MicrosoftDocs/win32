@@ -1,8 +1,11 @@
 ---
 title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_WINSRType class
 description: The CreateInstanceFromPropertyData method instantiates a WINS Reverse Lookup (WINSR) Resource Record.
-ms.assetid: 'e14e81be-fc5c-4a6f-b6d1-cb3ce5005e00'
-keywords: ["CreateInstanceFromPropertyData method DNS", "CreateInstanceFromPropertyData method DNS , MicrosoftDNS_WINSRType class", "MicrosoftDNS_WINSRType class DNS , CreateInstanceFromPropertyData method"]
+ms.assetid: e14e81be-fc5c-4a6f-b6d1-cb3ce5005e00
+keywords:
+- CreateInstanceFromPropertyData method DNS
+- CreateInstanceFromPropertyData method DNS , MicrosoftDNS_WINSRType class
+- MicrosoftDNS_WINSRType class DNS , CreateInstanceFromPropertyData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInstanceFromPropertyData method of the MicrosoftDNS\_WINSRType class
@@ -22,16 +30,16 @@ The **CreateInstanceFromPropertyData** method instantiates a WINS Reverse Lookup
 
 ```mof
 void CreateInstanceFromPropertyData(
-  [in]           string                 DnsServerName,
-  [in]           string                 ContainerName,
-  [in]           string                 OwnerName,
-  [in, optional] uint32                 RecordClass = 1,
-  [in, optional] uint32                 TTL,
-  [in]           uint32                 MappingFlag,
-  [in]           uint32                 LookupTimeout,
-  [in]           uint32                 CacheTimeout,
-  [in]           string                 ResultDomain,
-  [out, ref]     MicrosoftDNS_WINSRType &amp;RR
+  [in]           string                 DnsServerName,
+  [in]           string                 ContainerName,
+  [in]           string                 OwnerName,
+  [in, optional] uint32                 RecordClass = 1,
+  [in, optional] uint32                 TTL,
+  [in]           uint32                 MappingFlag,
+  [in]           uint32                 LookupTimeout,
+  [in]           uint32                 CacheTimeout,
+  [in]           string                 ResultDomain,
+  [out, ref]     MicrosoftDNS_WINSRType &amp;RR
 );
 ```
 
@@ -78,7 +86,7 @@ Class of the RR. Default value is 1. The following values are valid.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -135,7 +143,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -154,9 +162,9 @@ This method does not return a value.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

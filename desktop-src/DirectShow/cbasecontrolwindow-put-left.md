@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_Left method sets the left coordinate for the window.'
-ms.assetid: '4ba6b243-e7a7-4c41-a2c5-248b05b42f4f'
-title: 'CBaseControlWindow.put\_Left method'
+Description: The put\_Left method sets the left coordinate for the window.
+ms.assetid: 4ba6b243-e7a7-4c41-a2c5-248b05b42f4f
+title: CBaseControlWindow.put\_Left method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_Left method
@@ -13,7 +18,7 @@ The `put_Left` method sets the left coordinate for the window.
 
 ```C++
 HRESULT put_Left(
-   long Left
+   long Left
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

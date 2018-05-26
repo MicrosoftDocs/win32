@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport GetProperty method
 description: Retrieves the specified LPSTR account property synchronously or asynchronously.
-ms.assetid: 'bca6e6cb-3384-4e13-97a2-ef9c4e10c833'
-keywords: ["GetProperty method Windows Mail (formerly Outlook Express)", "GetProperty method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface", "IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , GetProperty method"]
+ms.assetid: bca6e6cb-3384-4e13-97a2-ef9c4e10c833
+keywords:
+- GetProperty method Windows Mail (formerly Outlook Express)
+- GetProperty method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface
+- IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , GetProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport::GetProperty method
@@ -24,8 +32,8 @@ Retrieves the specified **LPSTR** account property synchronously or asynchronous
 
 ```C++
 HRESULT GetProperty(
-  [in]  HTTPMAILPROPTYPE proptype,
-  [out] LPSTR            *ppszProp
+  [in]  HTTPMAILPROPTYPE proptype,
+  [out] LPSTR            *ppszProp
 );
 ```
 
@@ -71,7 +79,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,8 +93,8 @@ The caller can force the call to return asynchronously by passing a **null***pps
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -94,9 +102,9 @@ The caller can force the call to return asynchronously by passing a **null***pps
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Adding a Resource to an Object
-ms.assetid: '81476f50-5ea0-4e02-9e38-2b1dfcc32c4f'
+ms.assetid: 81476f50-5ea0-4e02-9e38-2b1dfcc32c4f
 title: Adding a Resource to an Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Resource to an Object
@@ -14,8 +19,8 @@ Resources are added using the interfaces described in the following table.
 
 | Interface                                                              | Description                                                       |
 |------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)     | Provides access to the content-specific methods.                  |
-| [**IPortableDeviceResources Interface**](iportabledeviceresources.md) | Used when writing the resource properties and data to the device. |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)     | Provides access to the content-specific methods.                  |
+| [**IPortableDeviceResources Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources?branch=master) | Used when writing the resource properties and data to the device. |
 | [**IPortableDeviceValues Interface**](iportabledevicevalues.md)       | Used to write properties that describe the resource.              |
 | IStream Interface                                                      | Used to simplify writing the resource to the device.              |
 
@@ -48,7 +53,7 @@ if (FAILED(hr))
 
 
 
-The next step is the retrieval of an [**IPortableDeviceContent**](iportabledevicecontent.md) object, which in turn is used to obtain an [**IPortableDeviceResources**](iportabledeviceresources.md) object. (The application uses this latter object to create and write the new resource.)
+The next step is the retrieval of an [**IPortableDeviceContent**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master) object, which in turn is used to obtain an [**IPortableDeviceResources**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources?branch=master) object. (The application uses this latter object to create and write the new resource.)
 
 
 ```C++
@@ -122,7 +127,7 @@ if (SUCCEEDED(hr))
 
 
 
-Once the sample has an [**IPortableDeviceResources**](iportabledeviceresources.md) object and the name of the image file, it does the following in preparation for actually transferring data to the device.
+Once the sample has an [**IPortableDeviceResources**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources?branch=master) object and the name of the image file, it does the following in preparation for actually transferring data to the device.
 
 1.  It opens an IStream object on the selected file for read operations.
 2.  It creates an [**IPortableDeviceValues**](iportabledevicevalues.md) object, which will contain information such as the image size and format.
@@ -217,7 +222,7 @@ if (SUCCEEDED(hr))
 
 After preparing the IStream and [**IPortableDeviceValues**](iportabledevicevalues.md) objects for the write operation, the sample transfers the image to the device. The sample completes the transfer in three steps, as follows:
 
-1.  It creates the resource on the device by calling the [**IPortableDeviceResources::CreateResource**](iportabledeviceresources-createresource.md) method.
+1.  It creates the resource on the device by calling the [**IPortableDeviceResources::CreateResource**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-createresource?branch=master) method.
 2.  It calls a StreamCopy helper function to copy the source stream to the destination stream.
 3.  It informs the device driver that the transfer is complete by calling the IPortableDeviceDataStream::Commit method.
 
@@ -280,13 +285,13 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceResources Interface**](iportabledeviceresources.md)
+[**IPortableDeviceResources Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceValues Interface**](iportabledevicevalues.md)

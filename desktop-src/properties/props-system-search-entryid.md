@@ -1,7 +1,12 @@
 ---
-Description: 'The entry ID for an item within a given catalog in the Windows Search Index.'
-ms.assetid: '9162e92b-b738-4462-b346-68410f088e95'
-title: 'System.Search.EntryID'
+Description: The entry ID for an item within a given catalog in the Windows Search Index.
+ms.assetid: 9162e92b-b738-4462-b346-68410f088e95
+title: System.Search.EntryID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Search.EntryID

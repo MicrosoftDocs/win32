@@ -1,7 +1,12 @@
 ---
-Description: 'Receive Side Scale (RSS) settings for a network adapter.'
-ms.assetid: 'bbff4ce3-0d9f-4d34-b619-100b49d8c27d'
-title: 'MSFT\_NetAdapterRssSettingData class'
+Description: Receive Side Scale (RSS) settings for a network adapter.
+ms.assetid: bbff4ce3-0d9f-4d34-b619-100b49d8c27d
+title: MSFT\_NetAdapterRssSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterRssSettingData class
@@ -16,14 +21,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterRssSettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
   boolean Enabled;
   boolean MsiSupported;
   boolean MsiXSupported;
@@ -35,8 +40,8 @@ class MSFT_NetAdapterRssSettingData : MSFT_NetAdapterSettingData
   boolean TcpIPv6ExtensionHashSupported;
   boolean ToeplitzHashFunctionSupported;
   boolean RssOnPortsSupported;
-  uint32  NumberOfInterruptMessages;
-  uint32  NumberOfReceiveQueues;
+  uint32  NumberOfInterruptMessages;
+  uint32  NumberOfReceiveQueues;
   boolean IPv4HashEnabled;
   boolean TcpIPv4HashEnabled;
   boolean IPv6HashEnabled;
@@ -44,18 +49,18 @@ class MSFT_NetAdapterRssSettingData : MSFT_NetAdapterSettingData
   boolean TcpIPv6HashEnabled;
   boolean TcpIPv6ExtensionHashEnabled;
   boolean ToeplitzHashFunctionEnabled;
-  uint16  IndirectionTableEntryCount;
-  uint16  HashKeySize;
-  string  IndirectionTable[];
-  uint32  Profile;
-  uint16  BaseProcessorGroup;
-  uint8   BaseProcessorNumber;
-  uint16  MaxProcessorGroup;
-  uint8   MaxProcessorNumber;
-  uint32  MaxProcessors;
-  uint16  NumaNode;
-  uint32  RssProcessorArraySize;
-  string  RssProcessorArray[];
+  uint16  IndirectionTableEntryCount;
+  uint16  HashKeySize;
+  string  IndirectionTable[];
+  uint32  Profile;
+  uint16  BaseProcessorGroup;
+  uint8   BaseProcessorNumber;
+  uint16  MaxProcessorGroup;
+  uint8   MaxProcessorNumber;
+  uint32  MaxProcessors;
+  uint16  NumaNode;
+  uint32  RssProcessorArraySize;
+  string  RssProcessorArray[];
 };
 ```
 
@@ -79,7 +84,7 @@ The **MSFT\_NetAdapterRssSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -653,16 +658,16 @@ TBD
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

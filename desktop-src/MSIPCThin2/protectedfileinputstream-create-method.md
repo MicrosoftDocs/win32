@@ -4,17 +4,21 @@ description: Asynchronously implements a wrapper of the input stream allowing re
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '6C144D28-638C-466F-B55A-5ADFBA2D571C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 6C144D28-638C-466F-B55A-5ADFBA2D571C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileInputStream.create asynchronous method"]
+keywords:
+- ProtectedFileInputStream.create asynchronous method
 topic_type:
 - apiref
 api_name:
 - ProtectedFileInputStream.create asynchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileInputStream.create asynchronous method
@@ -48,7 +52,7 @@ public static IAsyncControl create(InputStream inputStream,
 
 
 
- 
+ 
 
 ## Returns
 
@@ -72,11 +76,11 @@ ProtectedFileInputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

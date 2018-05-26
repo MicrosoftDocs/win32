@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '0007f7e0-4b62-453a-adc5-cccf1e916f12'
-title: 'System.Music.TrackNumber'
+Description: .
+ms.assetid: 0007f7e0-4b62-453a-adc5-cccf1e916f12
+title: System.Music.TrackNumber
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.TrackNumber

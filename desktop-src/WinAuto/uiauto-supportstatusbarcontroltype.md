@@ -1,8 +1,29 @@
 ---
 title: StatusBar Control Type
 description: This topic provides information about Microsoft UI Automation support for the StatusBar control type.
-ms.assetid: 'a28df0a1-95a8-4941-a00d-1f5570589626'
-keywords: ["UI Automation,support for StatusBar control type", "UI Automation,StatusBar control type", "UI Automation,tree structure for StatusBar control type", "UI Automation,properties for StatusBar control type", "UI Automation,control patterns for StatusBar control type", "UI Automation,events for StatusBar control type", "tree structures,StatusBar control type", "properties,StatusBar control type", "control patterns,StatusBar control type", "events,StatusBar control type", "support for StatusBar control type", "StatusBar control type", "control types,tree structure for StatusBar control type", "control types,control patterns for StatusBar control type", "control types,support for StatusBar", "control types,StatusBar"]
+ms.assetid: a28df0a1-95a8-4941-a00d-1f5570589626
+keywords:
+- UI Automation,support for StatusBar control type
+- UI Automation,StatusBar control type
+- UI Automation,tree structure for StatusBar control type
+- UI Automation,properties for StatusBar control type
+- UI Automation,control patterns for StatusBar control type
+- UI Automation,events for StatusBar control type
+- tree structures,StatusBar control type
+- properties,StatusBar control type
+- control patterns,StatusBar control type
+- events,StatusBar control type
+- support for StatusBar control type
+- StatusBar control type
+- control types,tree structure for StatusBar control type
+- control types,control patterns for StatusBar control type
+- control types,support for StatusBar
+- control types,StatusBar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StatusBar Control Type
@@ -100,7 +121,7 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                               | Support  | Notes                                                                                                                                                                        |
 |-----------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridProvider**](uiauto-igridprovider.md) | Optional | Status bar controls should support the [Grid](uiauto-implementinggrid.md) control pattern so that individual pieces can be monitored and easily referenced for information. |
+| [**IGridProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igridprovider?branch=master) | Optional | Status bar controls should support the [Grid](uiauto-implementinggrid.md) control pattern so that individual pieces can be monitored and easily referenced for information. |
 
 
 

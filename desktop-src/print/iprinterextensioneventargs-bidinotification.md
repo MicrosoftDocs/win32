@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the text of the bidirectional communication (Bidi) notification, if applicable.'
-ms.assetid: '8AAC657A-218E-41CF-AE89-0199A5B35280'
-title: 'IPrinterExtensionEventArgs::BidiNotification property'
+---
+Description: Gets the text of the bidirectional communication (Bidi) notification, if applicable.
+ms.assetid: 8AAC657A-218E-41CF-AE89-0199A5B35280
+title: IPrinterExtensionEventArgsBidiNotification property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs::BidiNotification property

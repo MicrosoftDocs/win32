@@ -1,8 +1,15 @@
 ---
 title: Change Notification Flags
 description: Change Notification Flags
-ms.assetid: '1f1aef71-a2b7-49ad-a0bc-f61f10b701c9'
-keywords: ["Change", "Change Notification Flags"]
+ms.assetid: 1f1aef71-a2b7-49ad-a0bc-f61f10b701c9
+keywords:
+- Change
+- Change Notification Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Change Notification Flags

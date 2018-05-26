@@ -1,7 +1,12 @@
 ---
-Description: 'Users and applications with administrative privileges can retrieve and modify network, URL, and media source list information for Windows Installer applications and patches on the system.'
-ms.assetid: 'e8c66bad-f594-4926-b3b4-c8b245dcfa83'
+Description: Users and applications with administrative privileges can retrieve and modify network, URL, and media source list information for Windows Installer applications and patches on the system.
+ms.assetid: e8c66bad-f594-4926-b3b4-c8b245dcfa83
 title: Managing Installation Sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Installation Sources
@@ -40,38 +45,38 @@ Administrators can modify any source list that a non-administrator can modify. I
 
 ## Managing Network and URL sources for Products and Patches
 
-Use the [**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md) function to add or reorder the source list of network and URL sources for a patch or application in a particular context. Use the *dwContext* parameter to specify the installation context. Use the *szUserSid* parameter to specify the user context.
+Use the [**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master) function to add or reorder the source list of network and URL sources for a patch or application in a particular context. Use the *dwContext* parameter to specify the installation context. Use the *szUserSid* parameter to specify the user context.
 
-Use the [**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md) function to create a source list for a patch that has not yet been applied to any application in the specified context. This can be useful when registering a patch to have elevated privileges. For more information about registering elevated privileges for a patch, see [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
+Use the [**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master) function to create a source list for a patch that has not yet been applied to any application in the specified context. This can be useful when registering a patch to have elevated privileges. For more information about registering elevated privileges for a patch, see [Patching Per-User Managed Applications](patching-per-user-managed-applications.md).
 
-Use the [**MsiSourceListClearSource**](msisourcelistclearsource.md) function to remove an existing source for an application or patch in a specified context. Removing the current source for an application or patch forces the installer to search the source list for a source the next time a source is required.
+Use the [**MsiSourceListClearSource**](/windows/win32/Msi/nf-msi-msisourcelistclearsourcea?branch=master) function to remove an existing source for an application or patch in a specified context. Removing the current source for an application or patch forces the installer to search the source list for a source the next time a source is required.
 
-Use the [**MsiSourceListEnumSources**](msisourcelistenumsources.md) function to enumerate sources in the source list of a specified patch or application.
+Use the [**MsiSourceListEnumSources**](/windows/win32/Msi/nf-msi-msisourcelistenumsourcesa?branch=master) function to enumerate sources in the source list of a specified patch or application.
 
 ## Managing Media sources for Products and Patches
 
-Use the [**MsiSourceListAddMediaDisk**](msisourcelistaddmediadisk.md) function to add or update the disk information of the media source of a registered application or patch. Each entry is uniquely identified by a disk ID. If the disk already exists, it is updated with the new volume label and disk prompt values. If the disk does not exist, a new disk entry is created with the new values.
+Use the [**MsiSourceListAddMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistaddmediadiska?branch=master) function to add or update the disk information of the media source of a registered application or patch. Each entry is uniquely identified by a disk ID. If the disk already exists, it is updated with the new volume label and disk prompt values. If the disk does not exist, a new disk entry is created with the new values.
 
-Use the [**MsiSourceListClearMediaDisk**](msisourcelistclearmediadisks.md) function to remove an existing registered disk under the media source for an application or patch in a specific context.
+Use the [**MsiSourceListClearMediaDisk**](/windows/win32/Msi/nf-msi-msisourcelistclearmediadiska?branch=master) function to remove an existing registered disk under the media source for an application or patch in a specific context.
 
-Use the [**MsiSourceListEnumMediaDisks**](msisourcelistenummediadisks.md) function to enumerate a list of disks registered under the media source for an application or patch.
+Use the [**MsiSourceListEnumMediaDisks**](/windows/win32/Msi/nf-msi-msisourcelistenummediadisksa?branch=master) function to enumerate a list of disks registered under the media source for an application or patch.
 
 ## Retrieval and modification of source list information
 
-Use the [**MsiSourceListGetInfo**](msisourcelistgetinfo.md) and [**MsiSourceListSetInfo**](msisourcelistsetinfo.md) functions to retrieve or modify information about the source list for an application or patch in a specific context. Use the *dwContext* parameter to specify the installation context. Use the *szUserSid* parameter to specify the user context.
+Use the [**MsiSourceListGetInfo**](/windows/win32/Msi/nf-msi-msisourcelistgetinfoa?branch=master) and [**MsiSourceListSetInfo**](/windows/win32/Msi/nf-msi-msisourcelistsetinfoa?branch=master) functions to retrieve or modify information about the source list for an application or patch in a specific context. Use the *dwContext* parameter to specify the installation context. Use the *szUserSid* parameter to specify the user context.
 
 Source list properties such as [**MEDIAPACKAGEPATH**](mediapackagepath.md), [**DiskPrompt**](diskprompt.md), **LastUsedSource**, **LastUsedType**, and **PackageName** can be accessed.
 
 > [!Note]  
-> The **LastUsedType** source list property can only be read. It cannot be set directly using the [**MsiSourceListSetInfo**](msisourcelistsetinfo.md) function.
+> The **LastUsedType** source list property can only be read. It cannot be set directly using the [**MsiSourceListSetInfo**](/windows/win32/Msi/nf-msi-msisourcelistsetinfoa?branch=master) function.
 
  
 
 ## Clearing the complete source list or forcing a source resolution
 
-Use the [**MsiSourceListClearAllEx**](msisourcelistclearallex.md) function to remove all the existing sources of a given source type for the specified application or patch instance. The patch registration is also removed if the patch is not installed by any application in the same context. Use the *dwContext* parameter to specify the installation context. Use the *szUserSid* parameter to specify the user context.
+Use the [**MsiSourceListClearAllEx**](/windows/win32/Msi/nf-msi-msisourcelistclearallexa?branch=master) function to remove all the existing sources of a given source type for the specified application or patch instance. The patch registration is also removed if the patch is not installed by any application in the same context. Use the *dwContext* parameter to specify the installation context. Use the *szUserSid* parameter to specify the user context.
 
-Use the [**MsiSourceListForceResolutionEx**](msisourcelistforceresolutionex.md) to clear the last used source entry for an application or patch in the specified context. This function removes the registration of the property called **LastUsedSource**. This function does not affect the registered source list. Clearing the **LastUsedSource** registration forces the installer to do a source resolution against the registered sources the next time it requires the source.
+Use the [**MsiSourceListForceResolutionEx**](/windows/win32/Msi/nf-msi-msisourcelistforceresolutionexa?branch=master) to clear the last used source entry for an application or patch in the specified context. This function removes the registration of the property called **LastUsedSource**. This function does not affect the registered source list. Clearing the **LastUsedSource** registration forces the installer to do a source resolution against the registered sources the next time it requires the source.
 
  
 

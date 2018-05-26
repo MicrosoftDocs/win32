@@ -1,7 +1,12 @@
 ---
 Description: Performance
-ms.assetid: 'a0d5c4ae-e0a3-466b-bf43-6bf7cda7aa21'
+ms.assetid: a0d5c4ae-e0a3-466b-bf43-6bf7cda7aa21
 title: Performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance

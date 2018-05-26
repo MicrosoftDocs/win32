@@ -1,7 +1,12 @@
 ---
-Description: 'The high confidence keywords for the item.'
-ms.assetid: '37a07997-d073-4cd2-91e0-42125678bc11'
-title: 'System.HighKeywords'
+Description: The high confidence keywords for the item.
+ms.assetid: 37a07997-d073-4cd2-91e0-42125678bc11
+title: System.HighKeywords
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.HighKeywords

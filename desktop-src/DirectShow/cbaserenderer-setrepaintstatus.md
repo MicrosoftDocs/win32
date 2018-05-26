@@ -1,7 +1,12 @@
 ---
-Description: 'The SetRepaintStatus method enables or disables repaint events.'
-ms.assetid: '94ae4935-459e-4009-9f64-c7c5b14504ae'
-title: 'CBaseRenderer.SetRepaintStatus method'
+Description: The SetRepaintStatus method enables or disables repaint events.
+ms.assetid: 94ae4935-459e-4009-9f64-c7c5b14504ae
+title: CBaseRenderer.SetRepaintStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.SetRepaintStatus method
@@ -13,7 +18,7 @@ The `SetRepaintStatus` method enables or disables repaint events.
 
 ```C++
 void SetRepaintStatus(
-   BOOL bRepaint
+   BOOL bRepaint
 );
 ```
 
@@ -56,9 +61,9 @@ This method ensures that the filter graph manager is not flooded with redundant 
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

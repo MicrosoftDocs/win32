@@ -1,7 +1,12 @@
 ---
-Description: 'The IsPartiallySpecified method determines if the media type is partially defined. A media type is partial if the major type, subtype, or format type is GUID\_NULL.'
-ms.assetid: '26dd7a2b-b2f8-485f-a9af-31c3a9eb1def'
-title: 'CMediaType.IsPartiallySpecified method'
+Description: The IsPartiallySpecified method determines if the media type is partially defined. A media type is partial if the major type, subtype, or format type is GUID\_NULL.
+ms.assetid: 26dd7a2b-b2f8-485f-a9af-31c3a9eb1def
+title: CMediaType.IsPartiallySpecified method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.IsPartiallySpecified method
@@ -27,7 +32,7 @@ Returns **TRUE** if the media type is partially specified. Otherwise, returns **
 
 ## Remarks
 
-The [**IPin::Connect**](ipin-connect.md) method can accept partial media types.
+The [**IPin::Connect**](/windows/win32/Strmif/nf-strmif-ipin-connect?branch=master) method can accept partial media types.
 
 The implementation does not actually test the subtype. If there is a specified format type, the media type is not considered partial, even if the subtype is GUID\_NULL.
 
@@ -49,9 +54,9 @@ The implementation does not actually test the subtype. If there is a specified f
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

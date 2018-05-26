@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of color channels used in memory to store samples.'
-ms.assetid: '8b033cda-feec-4e74-a4c4-ea44b5fb12c7'
-title: 'ID3DXPRTCompBuffer::GetNumChannels method'
+---
+Description: Retrieves the number of color channels used in memory to store samples.
+ms.assetid: 8b033cda-feec-4e74-a4c4-ea44b5fb12c7
+title: ID3DXPRTCompBufferGetNumChannels method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTCompBuffer::GetNumChannels method

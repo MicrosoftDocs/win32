@@ -1,7 +1,12 @@
 ---
 title: Example Create a Two-Frame HTML Frameset
 description: Example Create a Two-Frame HTML Frameset
-ms.assetid: '06FEE14E-12DC-44a4-B111-549ADF1D6C5E'
+ms.assetid: 06FEE14E-12DC-44a4-B111-549ADF1D6C5E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Create a Two-Frame HTML Frameset

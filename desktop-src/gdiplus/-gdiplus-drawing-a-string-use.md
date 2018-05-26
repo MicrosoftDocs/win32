@@ -1,7 +1,12 @@
 ---
-Description: 'The topic Drawing a Line shows how to write a Windows application that uses Windows GDI+ to draw a line.'
-ms.assetid: 'fcf45b19-456c-4551-8901-d587a73a5638'
+Description: The topic Drawing a Line shows how to write a Windows application that uses Windows GDI+ to draw a line.
+ms.assetid: fcf45b19-456c-4551-8901-d587a73a5638
 title: Drawing a String
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing a String
@@ -24,11 +29,11 @@ VOID OnPaint(HDC hdc)
 
 
 
-The previous code creates several GDI+ objects. The [**Graphics**](-gdiplus-class-graphics-class.md) object provides the [DrawString Methods](-gdiplus-class-graphics-drawstring-methods.md) method, which does the actual drawing. The [**SolidBrush**](-gdiplus-class-solidbrush-class.md) object specifies the color of the string.
+The previous code creates several GDI+ objects. The [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object provides the [DrawString Methods](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method, which does the actual drawing. The [**SolidBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-solidbrush?branch=master) object specifies the color of the string.
 
-The [**FontFamily**](-gdiplus-class-fontfamily-class.md) constructor receives a single, string argument that identifies the font family. The address of the **FontFamily** object is the first argument passed to the [**Font**](-gdiplus-class-font-class.md) constructor. The second argument passed to the [Font](-gdiplus-class-font-constructors.md) constructor specifies the font size, and the third argument specifies the style. The value **FontStyleRegular** is a member of the [**FontStyle**](-gdiplus-enum-fontstyle.md) enumeration, which is declared in Gdiplusenums.h. The last argument to the **Font** constructor indicates that the size of the font (24 in this case) is measured in pixels. The value **UnitPixel** is a member of the [**Unit**](-gdiplus-enum-unit.md) enumeration.
+The [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master) constructor receives a single, string argument that identifies the font family. The address of the **FontFamily** object is the first argument passed to the [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) constructor. The second argument passed to the [Font](/windows/win32/gdiplusheaders/nf-gdiplusheaders-font-font(const font &)?branch=master) constructor specifies the font size, and the third argument specifies the style. The value **FontStyleRegular** is a member of the [**FontStyle**](/windows/win32/Gdiplusenums/ne-gdiplusenums-fontstyle?branch=master) enumeration, which is declared in Gdiplusenums.h. The last argument to the **Font** constructor indicates that the size of the font (24 in this case) is measured in pixels. The value **UnitPixel** is a member of the [**Unit**](/windows/win32/Gdiplusenums/ne-gdiplusenums-unit?branch=master) enumeration.
 
-The first argument passed to the [DrawString Methods](-gdiplus-class-graphics-drawstring-methods.md) method is the address of a wide-character string. The second argument, –1, specifies that the string is null terminated. (If the string is not null terminated, the second argument should specify the number of wide characters in the string.) The third argument is the address of the [**Font**](-gdiplus-class-font-class.md) object. The fourth argument is a reference to a [**PointF**](-gdiplus-class-pointf-class.md) object that specifies the location where the string will be drawn. The last argument is the address of the [**Brush**](-gdiplus-class-brush-class.md) object, which specifies the color of the string.
+The first argument passed to the [DrawString Methods](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method is the address of a wide-character string. The second argument, –1, specifies that the string is null terminated. (If the string is not null terminated, the second argument should specify the number of wide characters in the string.) The third argument is the address of the [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master) object. The fourth argument is a reference to a [**PointF**](/windows/win32/gdiplustypes/nl-gdiplustypes-pointf?branch=master) object that specifies the location where the string will be drawn. The last argument is the address of the [**Brush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-brush?branch=master) object, which specifies the color of the string.
 
  
 

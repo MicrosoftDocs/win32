@@ -1,7 +1,12 @@
 ---
 title: IVMFloppyDrive Methods
 description: The IVMFloppyDrive interface exposes the following methods.
-ms.assetid: 'E5B2A438-82CD-4BF7-9569-D0443BBD5993'
+ms.assetid: E5B2A438-82CD-4BF7-9569-D0443BBD5993
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive Methods

@@ -2,13 +2,16 @@
 title: SetByEncryptionType method of the PS\_RemoteAccessRoutingDomain class
 description: Updates the site-to-site (S2S) VPN settings for the specified encryption type.
 audience: developer
-ms.assetid: '03e44d61-9626-48be-ba8b-f89ec1655470'
-ms.prod: 'windows-server-dev'
+ms.assetid: 03e44d61-9626-48be-ba8b-f89ec1655470
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByEncryptionType method", "SetByEncryptionType method, PS_RemoteAccessRoutingDomain class", "PS_RemoteAccessRoutingDomain class, SetByEncryptionType method"]
+keywords:
+- SetByEncryptionType method
+- SetByEncryptionType method, PS_RemoteAccessRoutingDomain class
+- PS_RemoteAccessRoutingDomain class, SetByEncryptionType method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByEncryptionType method of the PS\_RemoteAccessRoutingDomain class
@@ -28,21 +34,21 @@ Updates the site-to-site (S2S) VPN settings for the specified encryption type.
 
 ```mof
 uint32 SetByEncryptionType(
-  [in]  string                 Name,
-  [in]  uint32                 InterimAccountingPeriodSec,
-  [in]  string                 IPAddressRange[],
-  [in]  string                 IPv6Prefix,
-  [in]  string                 NetBiosIPAddress[],
-  [in]  uint32                 MaximumVpnConnections,
-  [in]  string                 TenantName[],
-  [in]  boolean                PassThru,
-  [in]  boolean                Force,
-  [in]  uint32                 EnableQoS,
-  [in]  uint64                 TxBandwidthKbps,
-  [in]  uint64                 RxBandwidthKbps,
-  [in]  string                 DnsIPAddress[],
-  [in]  string                 EncryptionType,
-  [out] VpnRoutingDomainConfig cmdletOutput
+  [in]  string                 Name,
+  [in]  uint32                 InterimAccountingPeriodSec,
+  [in]  string                 IPAddressRange[],
+  [in]  string                 IPv6Prefix,
+  [in]  string                 NetBiosIPAddress[],
+  [in]  uint32                 MaximumVpnConnections,
+  [in]  string                 TenantName[],
+  [in]  boolean                PassThru,
+  [in]  boolean                Force,
+  [in]  uint32                 EnableQoS,
+  [in]  uint64                 TxBandwidthKbps,
+  [in]  uint64                 RxBandwidthKbps,
+  [in]  string                 DnsIPAddress[],
+  [in]  string                 EncryptionType,
+  [out] VpnRoutingDomainConfig cmdletOutput
 );
 ```
 
@@ -164,7 +170,7 @@ The [**VpnRoutingDomainConfig**](vpnroutingdomainconfig.md) object that receives
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -178,9 +184,9 @@ The [**VpnRoutingDomainConfig**](vpnroutingdomainconfig.md) object that receives
 [**PS\_RemoteAccessRoutingDomain**](ps-remoteaccessroutingdomain.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

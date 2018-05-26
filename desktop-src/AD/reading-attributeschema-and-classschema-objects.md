@@ -4,11 +4,16 @@ description: This topic provides code examples and guidelines for reading direct
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a60558e1-88a1-493c-9340-a90143b11f60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a60558e1-88a1-493c-9340-a90143b11f60
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Reading attributeSchema and classSchema Objects AD", "objects AD , Reading attributeSchema and classSchema Objects"]
+keywords:
+- Reading attributeSchema and classSchema Objects AD
+- objects AD , Reading attributeSchema and classSchema Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reading attributeSchema and classSchema Objects

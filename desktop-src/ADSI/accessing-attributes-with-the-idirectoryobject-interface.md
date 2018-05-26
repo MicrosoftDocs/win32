@@ -4,31 +4,37 @@ description: The IDirectoryObject interface provides a client application writte
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '006be48e-222f-4f77-ac91-58830f2b7363'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 006be48e-222f-4f77-ac91-58830f2b7363
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Accessing Attributes With the IDirectoryObject Interface ADSI", "IDirectoryObject ADSI , accessing attributes with", "ADSI ADSI , using, using the IDirectoryObject interface for accessing attributes"]
+keywords:
+- Accessing Attributes With the IDirectoryObject Interface ADSI
+- IDirectoryObject ADSI , accessing attributes with
+- ADSI ADSI , using, using the IDirectoryObject interface for accessing attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing Attributes With the IDirectoryObject Interface
 
-The [**IDirectoryObject**](idirectoryobject.md) interface provides a client application written in C and C++ with direct access to directory service objects. The interface enables access by means of a direct network protocol, rather than through the ADSI attribute cache. In place of the properties supported by the [**IADs**](iads.md) interface, **IDirectoryObject** provides methods that support a critical subset of an object's maintenance methods and provide access to its attributes. With **IDirectoryObject**, a client can get or set any number of object attributes with one method call. Unlike the corresponding Automation methods, which are batched, those of **IDirectoryObject** are executed when called. Because methods on this interface do not require creating an instance of an Automation directory object, the performance overhead is small.
+The [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master) interface provides a client application written in C and C++ with direct access to directory service objects. The interface enables access by means of a direct network protocol, rather than through the ADSI attribute cache. In place of the properties supported by the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface, **IDirectoryObject** provides methods that support a critical subset of an object's maintenance methods and provide access to its attributes. With **IDirectoryObject**, a client can get or set any number of object attributes with one method call. Unlike the corresponding Automation methods, which are batched, those of **IDirectoryObject** are executed when called. Because methods on this interface do not require creating an instance of an Automation directory object, the performance overhead is small.
 
-Clients written in languages such as C and C++ should use the methods of the [**IDirectoryObject**](idirectoryobject.md) interface to optimize performance and take advantage of native directory service interfaces. Automation clients cannot use **IDirectoryObject**. Instead, they should use the [**IADs**](iads.md) interface.
+Clients written in languages such as C and C++ should use the methods of the [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master) interface to optimize performance and take advantage of native directory service interfaces. Automation clients cannot use **IDirectoryObject**. Instead, they should use the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface.
 
-The [**IDirectoryObject::GetObjectAttributes**](idirectoryobject-getobjectattributes.md) method retrieves attributes with both single and multiple values. This method takes a list of requested attributes and returns an [**ADS\_ATTR\_INFO**](ads-attr-info.md) structure. ADSI allocates this structure; the caller must free this memory when it is no longer required using the [**FreeADsMem**](freeadsmem.md) function.
+The [**IDirectoryObject::GetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-getobjectattributes?branch=master) method retrieves attributes with both single and multiple values. This method takes a list of requested attributes and returns an [**ADS\_ATTR\_INFO**](/windows/win32/Iads/ns-iads-_ads_attr_info?branch=master) structure. ADSI allocates this structure; the caller must free this memory when it is no longer required using the [**FreeADsMem**](/windows/win32/Adshlp/nf-adshlp-freeadsmem?branch=master) function.
 
 The order of returned attribute values is not necessarily the same as the order in which the attributes were requested. Therefore, it is necessary to compare the attribute names returned from ADSI.
 
 > [!Note]  
-> The [**ADS\_ATTR\_INFO**](ads-attr-info.md) structure does not return all of the attributes requested. Only those attributes that contain values are part of the returned structure.
+> The [**ADS\_ATTR\_INFO**](/windows/win32/Iads/ns-iads-_ads_attr_info?branch=master) structure does not return all of the attributes requested. Only those attributes that contain values are part of the returned structure.
 
  
 
-The number of attributes returned is determined by the *dwNumberAttributes* parameter passed to the [**IDirectoryObject::GetObjectAttributes**](idirectoryobject-getobjectattributes.md) method.
+The number of attributes returned is determined by the *dwNumberAttributes* parameter passed to the [**IDirectoryObject::GetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-getobjectattributes?branch=master) method.
 
-The following code example binds to an object and uses the [**IDirectoryObject::GetObjectAttributes**](idirectoryobject-getobjectattributes.md) method to retrieve attributes of the object.
+The following code example binds to an object and uses the [**IDirectoryObject::GetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-getobjectattributes?branch=master) method to retrieve attributes of the object.
 
 
 ```C++

@@ -4,17 +4,21 @@ description: Type of user notification preference.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '46E894FB-E424-4740-ACB4-560880893DF5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 46E894FB-E424-4740-ACB4-560880893DF5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["NotificationPreference enum"]
+keywords:
+- NotificationPreference enum
 topic_type:
 - apiref
 api_name:
 - NotificationPreference enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NotificationPreference enum
@@ -68,7 +72,7 @@ Digest mode is a server side enabled feature which is not yet available.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -84,15 +88,15 @@ NotificationPreference.java
 
 
 
- 
+ 
 
 ## Package
 
 com.microsoft.rightsmanagement
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: gluEndCurve function
 description: The gluBeginCurve and gluEndCurve functions delimit a Non-Uniform Rational B-Spline (NURBS) curve definition.
-ms.assetid: 'b00ec687-6127-4585-b7b7-06e8dca78cfc'
-keywords: ["gluEndCurve function OpenGL"]
+ms.assetid: b00ec687-6127-4585-b7b7-06e8dca78cfc
+keywords:
+- gluEndCurve function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluEndCurve function
@@ -22,7 +28,7 @@ The [**gluBeginCurve**](glubegincurve.md) and **gluEndCurve** functions delimit 
 
 ```C++
 void WINAPI gluEndCurve(
-   GLUnurbs *nobj
+   GLUnurbs *nobj
 );
 ```
 
@@ -67,8 +73,8 @@ gluEndCurve(nobj);
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -94,9 +100,9 @@ gluEndCurve(nobj);
 [**gluNurbsCurve**](glunurbscurve.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

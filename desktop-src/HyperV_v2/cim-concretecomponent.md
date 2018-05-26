@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a generic association used to establish the parts of a relationship between managed elements.'
-ms.assetid: '9785ea8b-fb76-4ffe-8649-aa2fe1b01d5f'
-title: 'CIM\_ConcreteComponent class'
+Description: Represents a generic association used to establish the parts of a relationship between managed elements.
+ms.assetid: 9785ea8b-fb76-4ffe-8649-aa2fe1b01d5f
+title: CIM\_ConcreteComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ConcreteComponent class
@@ -69,8 +74,8 @@ The child element in the association.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The child element in the association.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

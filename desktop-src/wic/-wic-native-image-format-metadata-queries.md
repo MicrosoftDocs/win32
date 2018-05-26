@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides an overview of the metadata query language queries for reading and writing metadata supported by GIF, PNG, TIFF and JPEG images.'
-ms.assetid: 'a6ab1708-dd82-4960-b908-f1daef7374ef'
+Description: This topic provides an overview of the metadata query language queries for reading and writing metadata supported by GIF, PNG, TIFF and JPEG images.
+ms.assetid: a6ab1708-dd82-4960-b908-f1daef7374ef
 title: Native Image Format Metadata Queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Native Image Format Metadata Queries
@@ -46,7 +51,7 @@ The following sections contain tables that list the available metadata queries f
 -   **Name** - The name of the metadata item.
 -   **Type** - The type of the metadata item retrieved from the query path. Metadata retrieved by [WIC](-wic-api.md) is returned in the form of PROPVARIANT, which reports the data type using the VARTYPE enumeration.on.
 
-The query paths are used by the WIC metadata API to access the embedded metadata of an image. The following example code demonstrates using an [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md) to query for a JPEG's IFD metadata block.
+The query paths are used by the WIC metadata API to access the embedded metadata of an image. The following example code demonstrates using an [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master) to query for a JPEG's IFD metadata block.
 
 
 ```

@@ -1,7 +1,12 @@
 ---
 title: Updating the Catalog Status
 description: Updating the Catalog Status
-ms.assetid: 'bdef20fc-3502-4336-9d7b-9c40d182e7eb'
+ms.assetid: bdef20fc-3502-4336-9d7b-9c40d182e7eb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating the Catalog Status

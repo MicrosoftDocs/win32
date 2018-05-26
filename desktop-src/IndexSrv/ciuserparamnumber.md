@@ -1,7 +1,12 @@
 ---
 title: CiUserParamNumber
 description: CiUserParamNumber
-ms.assetid: '76b44c43-8648-4966-bf0f-d089201f6354'
+ms.assetid: 76b44c43-8648-4966-bf0f-d089201f6354
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiUserParamNumber

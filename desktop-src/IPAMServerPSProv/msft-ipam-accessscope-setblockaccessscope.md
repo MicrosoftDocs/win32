@@ -1,15 +1,18 @@
 ---
-Description: 'Set access scope on an array of IP Blocks from IPAM.'
+Description: Set access scope on an array of IP Blocks from IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5d4b2ec8-9307-4f59-a05b-262c7e4c8fe3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5d4b2ec8-9307-4f59-a05b-262c7e4c8fe3
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetBlockAccessScope method of the MSFT\_IPAM\_AccessScope class'
+title: SetBlockAccessScope method of the MSFT\_IPAM\_AccessScope class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetBlockAccessScope method of the MSFT\_IPAM\_AccessScope class
@@ -21,11 +24,11 @@ Set access scope on an array of IP Blocks from IPAM.
 
 ```mof
 uint32 SetBlockAccessScope(
-  [in]  boolean         IpamBlock,
-  [in]  string          AccessScopePath,
-  [in]  boolean         IsInheritedAccessScope,
-  [in]  MSFT_IPAM_Block InputObject[],
-  [out] MSFT_IPAM_Block Output[]
+  [in]  boolean         IpamBlock,
+  [in]  string          AccessScopePath,
+  [in]  boolean         IsInheritedAccessScope,
+  [in]  MSFT_IPAM_Block InputObject[],
+  [out] MSFT_IPAM_Block Output[]
 );
 ```
 
@@ -77,7 +80,7 @@ Returns the scope as an array of [**MSFT\_IPAM\_Block**](msft-ipam-block.md) emb
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -91,9 +94,9 @@ Returns the scope as an array of [**MSFT\_IPAM\_Block**](msft-ipam-block.md) emb
 [**MSFT\_IPAM\_AccessScope**](msft-ipam-accessscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

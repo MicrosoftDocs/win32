@@ -4,11 +4,24 @@ description: Retrieves the scriptable client setting interface IMsRdpClientShell
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc56cec4-779d-4b51-8e94-ae0dd9bae997'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cc56cec4-779d-4b51-8e94-ae0dd9bae997
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["MsRdpClientShell property Remote Desktop Services", "MsRdpClientShell property Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , MsRdpClientShell property", "MsRdpClientShell property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , MsRdpClientShell property", "MsRdpClientShell property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , MsRdpClientShell property", "MsRdpClientShell property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , MsRdpClientShell property", "MsRdpClientShell property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , MsRdpClientShell property", "MsRdpClientShell property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , MsRdpClientShell property"]
+keywords:
+- MsRdpClientShell property Remote Desktop Services
+- MsRdpClientShell property Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , MsRdpClientShell property
+- MsRdpClientShell property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , MsRdpClientShell property
+- MsRdpClientShell property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , MsRdpClientShell property
+- MsRdpClientShell property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , MsRdpClientShell property
+- MsRdpClientShell property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , MsRdpClientShell property
+- MsRdpClientShell property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , MsRdpClientShell property
 topic_type:
 - apiref
 api_name:
@@ -28,6 +41,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient5::MsRdpClientShell property
@@ -41,7 +57,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MsRdpClientShell(
-  [out] IMsRdpClientShell **ppLauncher
+  [out] IMsRdpClientShell **ppLauncher
 );
 ```
 
@@ -57,8 +73,8 @@ An [**IMsRdpClientShell**](imsrdpclientshell.md) interface pointer.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient5 is defined as 4eb5335b-6429-477d-b922-e06a28ecd8bf<br/>       |
@@ -87,9 +103,9 @@ An [**IMsRdpClientShell**](imsrdpclientshell.md) interface pointer.
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

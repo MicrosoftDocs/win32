@@ -4,17 +4,21 @@ description: Gets the user to rights list.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2630FBC5-1F8F-489C-8605-BFC717AA49A1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2630FBC5-1F8F-489C-8605-BFC717AA49A1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor.getUserRightsList method"]
+keywords:
+- PolicyDescriptor.getUserRightsList method
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor.getUserRightsList method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.getUserRightsList method
@@ -45,11 +49,11 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

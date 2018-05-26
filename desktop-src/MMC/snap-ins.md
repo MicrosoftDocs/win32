@@ -4,11 +4,15 @@ description: Introduces the concept of a snap-in and describes the two types of 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b7bc5fba-5578-426d-9018-7b3ed807a0fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b7bc5fba-5578-426d-9018-7b3ed807a0fd
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-ins MMC"]
+keywords:
+- snap-ins MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Snap-ins

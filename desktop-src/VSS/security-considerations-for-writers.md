@@ -1,16 +1,21 @@
 ---
-Description: 'The VSS infrastructure requires writer processes to be able to function both as COM clients and as servers.'
-ms.assetid: '59bb7a86-e874-45ce-abd6-cafd18802c4d'
+Description: The VSS infrastructure requires writer processes to be able to function both as COM clients and as servers.
+ms.assetid: 59bb7a86-e874-45ce-abd6-cafd18802c4d
 title: Security Considerations for Writers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations for Writers
 
 The VSS infrastructure requires writer processes to be able to function both as COM clients and as servers.
 
-When acting as servers, VSS writers expose COM interfaces (for example, the VSS event handlers such as [**CVssWriter::OnIdentify**](cvsswriter-onidentify.md)) and receive incoming COM calls from VSS processes (such as requesters and the VSS service) or RPC calls from processes that are external to VSS, typically when these processes generate VSS events (for example, when a requester calls [**IVssBackupComponents::GatherWriterMetadata**](ivssbackupcomponents-gatherwritermetadata.md)). Therefore, a VSS writer needs to securely manage which COM clients are able to make incoming COM calls into its process.
+When acting as servers, VSS writers expose COM interfaces (for example, the VSS event handlers such as [**CVssWriter::OnIdentify**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onidentify?branch=master)) and receive incoming COM calls from VSS processes (such as requesters and the VSS service) or RPC calls from processes that are external to VSS, typically when these processes generate VSS events (for example, when a requester calls [**IVssBackupComponents::GatherWriterMetadata**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata?branch=master)). Therefore, a VSS writer needs to securely manage which COM clients are able to make incoming COM calls into its process.
 
-Similarly, VSS writers may also act as COM clients, making outgoing COM calls to callbacks supplied by the VSS infrastructure or RPC calls to processes that are external to VSS. These callbacks that are provided either by a backup application or by the VSS service allow the writer to perform tasks such as updating the Backup Components Document through the [**IVssComponent**](ivsscomponent.md) interface. Therefore, VSS security settings must allow writers to make outgoing COM calls into other VSS processes.
+Similarly, VSS writers may also act as COM clients, making outgoing COM calls to callbacks supplied by the VSS infrastructure or RPC calls to processes that are external to VSS. These callbacks that are provided either by a backup application or by the VSS service allow the writer to perform tasks such as updating the Backup Components Document through the [**IVssComponent**](/windows/win32/VsWriter/nl-vswriter-ivsscomponent?branch=master) interface. Therefore, VSS security settings must allow writers to make outgoing COM calls into other VSS processes.
 
 The simplest mechanism for managing writer security issues involves the proper selection of the user account under which it runs. A writer typically needs to run under a user who is a member of either the Administrators group or the Backup Operators group, or it needs to run as the Local System account.
 

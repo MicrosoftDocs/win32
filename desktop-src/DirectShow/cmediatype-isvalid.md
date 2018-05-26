@@ -1,7 +1,12 @@
 ---
-Description: 'The IsValid method determines whether a major type has been assigned to this object.'
-ms.assetid: '22d28019-f360-4b93-972c-d1dfe83938f0'
-title: 'CMediaType.IsValid method'
+Description: The IsValid method determines whether a major type has been assigned to this object.
+ms.assetid: 22d28019-f360-4b93-972c-d1dfe83938f0
+title: CMediaType.IsValid method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.IsValid method
@@ -47,9 +52,9 @@ By default, [**CMediaType**](cmediatype.md) objects are initialized with a major
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

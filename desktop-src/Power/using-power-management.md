@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics contain examples that demonstrate the use of the power management API:'
-ms.assetid: '0f039ce4-fc55-4fd6-a40b-44b22a15370a'
+Description: The following topics contain examples that demonstrate the use of the power management API
+ms.assetid: 0f039ce4-fc55-4fd6-a40b-44b22a15370a
 title: Using Power Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Power Management

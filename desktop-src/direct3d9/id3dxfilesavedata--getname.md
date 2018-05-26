@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the name of this ID3DXFileSaveData file data node.'
-ms.assetid: 'ea697d23-42e7-4661-b605-3654f6a31055'
-title: 'ID3DXFileSaveData::GetName method'
+---
+Description: Retrieves the name of this ID3DXFileSaveData file data node.
+ms.assetid: ea697d23-42e7-4661-b605-3654f6a31055
+title: ID3DXFileSaveDataGetName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileSaveData::GetName method

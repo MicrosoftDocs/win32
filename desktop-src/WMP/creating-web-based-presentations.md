@@ -1,8 +1,22 @@
 ---
 title: Creating Web-Based Presentations
 description: Creating Web-Based Presentations
-ms.assetid: '60d8be10-ebed-4a4f-b17f-700475b51b34'
-keywords: ["Windows Media Player,Web-based presentations", "Windows Media Player object model,Web-based presentations", "object model,Web-based presentations", "Windows Media Player Mobile,Web-based presentations", "Windows Media Player ActiveX control,Web-based presentations", "Windows Media Player Mobile ActiveX control,Web-based presentations", "ActiveX control,Web-based presentations", "Web-based presentations,creating", "creating Web-based presentations,about"]
+ms.assetid: 60d8be10-ebed-4a4f-b17f-700475b51b34
+keywords:
+- Windows Media Player,Web-based presentations
+- Windows Media Player object model,Web-based presentations
+- object model,Web-based presentations
+- Windows Media Player Mobile,Web-based presentations
+- Windows Media Player ActiveX control,Web-based presentations
+- Windows Media Player Mobile ActiveX control,Web-based presentations
+- ActiveX control,Web-based presentations
+- Web-based presentations,creating
+- creating Web-based presentations,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Web-Based Presentations

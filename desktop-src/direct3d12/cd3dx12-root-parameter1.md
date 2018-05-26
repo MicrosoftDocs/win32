@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_ROOT\_PARAMETER1 structure
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_PARAMETER1 structure.
-ms.assetid: 'CDE0C02E-0112-4FD9-A4A2-36E8C326715C'
-keywords: ["CD3DX12_ROOT_PARAMETER1 structure"]
+ms.assetid: CDE0C02E-0112-4FD9-A4A2-36E8C326715C
+keywords:
+- CD3DX12_ROOT_PARAMETER1 structure
 topic_type:
 - apiref
 api_name:
@@ -11,19 +12,24 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_ROOT\_PARAMETER1 structure
 
-A helper structure to enable easy initialization of a [**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 struct CD3DX12_ROOT_PARAMETER1  : public D3D12_ROOT_PARAMETER1{
-       CD3DX12_ROOT_PARAMETER1();
-       explicit CD3DX12_ROOT_PARAMETER1(const D3D12_ROOT_PARAMETER1 &amp;o);
+       CD3DX12_ROOT_PARAMETER1();
+       explicit CD3DX12_ROOT_PARAMETER1(const D3D12_ROOT_PARAMETER1 &amp;o);
   void static inline InitAsDescriptorTable(D3D12_ROOT_PARAMETER1 &amp;rootParam, UINT numDescriptorRanges, const D3D12_DESCRIPTOR_RANGE1* pDescriptorRanges, D3D12_SHADER_VISIBILITY visibility = D3D12_SHADER_VISIBILITY_ALL);
   void static inline InitAsConstants(D3D12_ROOT_PARAMETER1 &amp;rootParam, UINT num32BitValues, UINT shaderRegister, UINT registerSpace = 0, D3D12_SHADER_VISIBILITY visibility = D3D12_SHADER_VISIBILITY_ALL);
   void static inline InitAsConstantBufferView(D3D12_ROOT_PARAMETER1 &amp;rootParam, UINT shaderRegister, UINT registerSpace = 0, D3D12_ROOT_DESCRIPTOR_FLAGS flags = D3D12_ROOT_DESCRIPTOR_FLAG_NONE, D3D12_SHADER_VISIBILITY visibility = D3D12_SHADER_VISIBILITY_ALL);
@@ -53,7 +59,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_ROOT\_PARAMETER1.
 **explicit CD3DX12\_ROOT\_PARAMETER1(const D3D12\_ROOT\_PARAMETER1 &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_ROOT\_PARAMETER1, initialized with the contents of another [**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md) structure.
+Creates a new instance of a CD3DX12\_ROOT\_PARAMETER1, initialized with the contents of another [**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master) structure.
 
 </dd> <dt>
 
@@ -62,13 +68,13 @@ Creates a new instance of a CD3DX12\_ROOT\_PARAMETER1, initialized with the cont
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md) &rootParam
+[**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master) &rootParam
 
 UINT numDescriptorRanges
 
-const [**D3D12\_DESCRIPTOR\_RANGE1**](d3d12-descriptor-range1.md)\* pDescriptorRanges
+const [**D3D12\_DESCRIPTOR\_RANGE1**](/windows/win32/d3d12/ns-d3d12-d3d12_descriptor_range1?branch=master)\* pDescriptorRanges
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -77,7 +83,7 @@ const [**D3D12\_DESCRIPTOR\_RANGE1**](d3d12-descriptor-range1.md)\* pDescriptorR
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md) &rootParam
+[**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master) &rootParam
 
 UINT num32BitValues
 
@@ -85,7 +91,7 @@ UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -94,15 +100,15 @@ UINT registerSpace = 0
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md) &rootParam
+[**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master) &rootParam
 
 UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -111,15 +117,15 @@ UINT registerSpace = 0
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md) &rootParam
+[**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master) &rootParam
 
 UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -128,15 +134,15 @@ UINT registerSpace = 0
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md) &rootParam
+[**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master) &rootParam
 
 UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -147,9 +153,9 @@ Specifies a function that initializes the following parameters:
 
 UINT numDescriptorRanges
 
-const [**D3D12\_DESCRIPTOR\_RANGE1**](d3d12-descriptor-range1.md)\* pDescriptorRanges
+const [**D3D12\_DESCRIPTOR\_RANGE1**](/windows/win32/d3d12/ns-d3d12-d3d12_descriptor_range1?branch=master)\* pDescriptorRanges
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -164,7 +170,7 @@ UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -177,9 +183,9 @@ UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -192,9 +198,9 @@ UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> <dt>
 
@@ -207,9 +213,9 @@ UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
-[**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
+[**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) visibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 </dd> </dl>
 
@@ -227,15 +233,15 @@ UINT registerSpace = 0
 
 <dl> <dt>
 
-[**D3D12\_ROOT\_PARAMETER1**](d3d12-root-parameter1.md)
+[**D3D12\_ROOT\_PARAMETER1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_parameter1?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

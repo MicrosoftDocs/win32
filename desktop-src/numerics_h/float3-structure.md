@@ -1,8 +1,9 @@
 ---
 title: float3 Structure
 description: A vector with three components.
-ms.assetid: 'CAA10ADA-C5A8-4B75-A0A9-5C5B3FDD9A07'
-keywords: ["float3 Structure"]
+ms.assetid: CAA10ADA-C5A8-4B75-A0A9-5C5B3FDD9A07
+keywords:
+- float3 Structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # float3 Structure
@@ -35,7 +41,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Functions
 
@@ -61,7 +67,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Methods
 
@@ -77,7 +83,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Operators
 
@@ -105,7 +111,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Fields
 
@@ -119,7 +125,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,9 +145,9 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 [windowsnumerics.h APIs](windowsnumerics-h-apis-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

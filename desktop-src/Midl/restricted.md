@@ -2,13 +2,19 @@
 title: restricted attribute
 description: The \ restricted\ attribute specifies that a library, or member of a module, interface, or dispinterface cannot be called arbitrarily.
 ms.assetid: ad1ae84f-77f4-4028-bd71-ff01414e474e
-keywords: ["restricted attribute MIDL"]
+keywords:
+- restricted attribute MIDL
 topic_type:
 - apiref
 api_name:
 - restricted
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # restricted attribute

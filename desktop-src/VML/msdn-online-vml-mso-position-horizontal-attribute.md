@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Position-Horizontal Attribute
 description: VML MSO-Position-Horizontal Attribute
-ms.assetid: '5cb2b60c-b5b6-4df4-8c6c-db31c5fa2d7e'
+ms.assetid: 5cb2b60c-b5b6-4df4-8c6c-db31c5fa2d7e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Position-Horizontal Attribute

@@ -1,8 +1,9 @@
 ---
 title: AssessmentExecutionError enumeration
 description: Provides an enumeration of AXE errors that are relevant to the execution of an assessment.
-ms.assetid: '63B8CF87-D99B-4553-95D5-949C9B198C15'
-keywords: ["AssessmentExecutionError enumeration Access Execution Engine"]
+ms.assetid: 63B8CF87-D99B-4553-95D5-949C9B198C15
+keywords:
+- AssessmentExecutionError enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentExecutionError enumeration
@@ -22,14 +28,14 @@ Provides an enumeration of AXE errors that are relevant to the execution of an a
 
 ```C++
 enum AssessmentExecutionError {
-  AssessmentExecutionErrorNone                = 0, 
-  AssessmentExecutionErrorCouldNotStart       = AXE_E_ASSESSMENT_COULD_NOT_START, 
-  AssessmentExecutionErrorCouldNotFinish      = AXE_E_ASSESSMENT_COULD_NOT_FINISH, 
-  AssessmentExecutionErrorCompletedWithError  = AXE_E_ASSESSMENT_COMPLETED_WITH_ERROR, 
-  AssessmentExecutionErrorResultsInvalid      = AXE_E_ASSESSMENT_RESULTS_INVALID, 
-  AssessmentExecutionErrorCanceled            = AXE_E_ASSESSMENT_CANCELED, 
-  AssessmentExecutionErrorTerminated          = AXE_E_ASSESSMENT_TERMINATED, 
-  AssessmentExecutionErrorCrashed             = AXE_E_ASSESSMENT_CRASHED 
+  AssessmentExecutionErrorNone                = 0, 
+  AssessmentExecutionErrorCouldNotStart       = AXE_E_ASSESSMENT_COULD_NOT_START, 
+  AssessmentExecutionErrorCouldNotFinish      = AXE_E_ASSESSMENT_COULD_NOT_FINISH, 
+  AssessmentExecutionErrorCompletedWithError  = AXE_E_ASSESSMENT_COMPLETED_WITH_ERROR, 
+  AssessmentExecutionErrorResultsInvalid      = AXE_E_ASSESSMENT_RESULTS_INVALID, 
+  AssessmentExecutionErrorCanceled            = AXE_E_ASSESSMENT_CANCELED, 
+  AssessmentExecutionErrorTerminated          = AXE_E_ASSESSMENT_TERMINATED, 
+  AssessmentExecutionErrorCrashed             = AXE_E_ASSESSMENT_CRASHED 
 
 };
 ```
@@ -122,15 +128,15 @@ Managed code uses the [**AssessmentExecutionError**](axe-assessmentexecutionerro
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

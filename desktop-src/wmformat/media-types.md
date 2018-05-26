@@ -1,8 +1,17 @@
 ---
 title: Media Types
 description: Media Types
-ms.assetid: '00dcbb20-09ed-44c5-992c-20f3d17ad47c'
-keywords: ["Windows Media Format SDK,media types", "Advanced Systems Format (ASF),media types", "ASF (Advanced Systems Format),media types", "media types,about"]
+ms.assetid: 00dcbb20-09ed-44c5-992c-20f3d17ad47c
+keywords:
+- Windows Media Format SDK,media types
+- Advanced Systems Format (ASF),media types
+- ASF (Advanced Systems Format),media types
+- media types,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Types

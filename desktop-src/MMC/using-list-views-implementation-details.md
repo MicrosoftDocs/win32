@@ -4,11 +4,15 @@ description: Using List Views Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '418a74bc-7ac1-42ae-9a19-1456b9f4ad89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 418a74bc-7ac1-42ae-9a19-1456b9f4ad89
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["list views MMC , implementation details"]
+keywords:
+- list views MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using List Views: Implementation Details
@@ -19,10 +23,10 @@ keywords: ["list views MMC , implementation details"]
 
     Alternately, if [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) returns **S\_FALSE**, MMC will automatically set the view type to list view and the view options to **MMC\_VIEW\_OPTIONS\_NONE**.
 
-2.  Handle the [**MMCN\_ADD\_IMAGES**](mmcn-add-images.md) notification message, which MMC sends to the snap-in's [**IComponent**](icomponent.md) implementation to request images for the result pane.
-3.  Handle the [**MMCN\_SHOW**](mmcn-show.md) notification message, which MMC sends to the snap-in's [**IComponent**](icomponent.md) implementation to indicate that the result pane has the focus. In response to the notification, the snap-in should:
+2.  Handle the [**MMCN\_ADD\_IMAGES**](mmcn-add-images.md) notification message, which MMC sends to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation to request images for the result pane.
+3.  Handle the [**MMCN\_SHOW**](mmcn-show.md) notification message, which MMC sends to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation to indicate that the result pane has the focus. In response to the notification, the snap-in should:
 
-    -   If necessary, obtain interface pointers to the [**IHeaderCtrl2**](iheaderctrl2.md) and [**IResultData**](iresultdata.md) interfaces by querying the [**IConsole2**](iconsole2.md) interface for them. Make sure to use the **IConsole2** interface associated with the snap-in's [**IComponent**](icomponent.md) implementation, and not with its [**IComponentData**](icomponentdata.md) implementation.
+    -   If necessary, obtain interface pointers to the [**IHeaderCtrl2**](iheaderctrl2.md) and [**IResultData**](iresultdata.md) interfaces by querying the [**IConsole2**](iconsole2.md) interface for them. Make sure to use the **IConsole2** interface associated with the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation, and not with its [**IComponentData**](icomponentdata.md) implementation.
     -   Add columns to the result pane using the [**IHeaderCtrl2::InsertColumn**](iheaderctrl2-insertcolumn.md) method.
     -   Enumerate the result data items for the result pane using the [**IResultData::InsertItem**](iresultdata-insertitem.md) method.
     -   If necessary, set the view mode and view style for the list view using [**IResultData::SetViewMode**](iresultdata-setviewmode.md) and [**IResultData::ModifyViewStyle**](iresultdata-modifyviewstyle.md), respectively. One of the view modes you can set is filtered view. For more information about this mode, see [Adding Filtered Views](adding-filtered-views.md).

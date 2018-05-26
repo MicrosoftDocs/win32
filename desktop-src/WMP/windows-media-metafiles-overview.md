@@ -1,8 +1,23 @@
 ---
 title: Windows Media Metafiles Overview
 description: Windows Media Metafiles Overview
-ms.assetid: '5b7742c0-f416-4bf4-ae03-9554b51fe620'
-keywords: ["Windows Media metafiles,about", "Windows Media Player,metafiles", "Windows Media Player,Windows Media metafiles", "metafiles,about", "Windows Media,metafiles", "Windows Media metafile playlists,about", "playlists,about", "Windows Media metafiles,syntax", "metafiles,syntax", "metafile playlists,about"]
+ms.assetid: 5b7742c0-f416-4bf4-ae03-9554b51fe620
+keywords:
+- Windows Media metafiles,about
+- Windows Media Player,metafiles
+- Windows Media Player,Windows Media metafiles
+- metafiles,about
+- Windows Media,metafiles
+- Windows Media metafile playlists,about
+- playlists,about
+- Windows Media metafiles,syntax
+- metafiles,syntax
+- metafile playlists,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Metafiles Overview

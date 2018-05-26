@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DirectSoundFullDuplexCreate function is documented under a different name. For complete documentation of this function, see DirectSoundFullDuplexCreate8.'
-ms.assetid: '321d6dd5-b9bd-4cb9-93cb-8db7b7792579'
+---
+Description: The DirectSoundFullDuplexCreate function is documented under a different name. For complete documentation of this function, see DirectSoundFullDuplexCreate8.
+ms.assetid: 321d6dd5-b9bd-4cb9-93cb-8db7b7792579
 title: DirectSoundFullDuplexCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectSoundFullDuplexCreate function

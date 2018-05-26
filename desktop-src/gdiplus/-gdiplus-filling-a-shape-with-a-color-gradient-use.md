@@ -1,7 +1,12 @@
 ---
-Description: 'You can fill a shape with a gradually changing color by using a gradient brush.'
-ms.assetid: '7aa94b39-bd4c-4e66-b0dc-77f8953797b1'
+Description: You can fill a shape with a gradually changing color by using a gradient brush.
+ms.assetid: 7aa94b39-bd4c-4e66-b0dc-77f8953797b1
 title: Filling a Shape with a Color Gradient
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filling a Shape with a Color Gradient

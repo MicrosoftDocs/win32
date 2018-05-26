@@ -1,7 +1,12 @@
 ---
-Description: 'This topic takes an in-depth look at the MPEG-1 Media Source SDK Sample.'
-ms.assetid: 'd392f30c-c963-4eb3-add2-1bb986919c0b'
-title: 'Case Study: MPEG-1 Media Source'
+Description: This topic takes an in-depth look at the MPEG-1 Media Source SDK Sample.
+ms.assetid: d392f30c-c963-4eb3-add2-1bb986919c0b
+title: Case Study MPEG-1 Media Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Case Study: MPEG-1 Media Source
@@ -61,17 +66,17 @@ The *byte-stream* handler is the object that creates the media source. The byte-
 
  
 
-The byte-stream handler implements the [**IMFByteStreamHandler**](imfbytestreamhandler.md) interface. This interface has two most important methods that must be implemented:
+The byte-stream handler implements the [**IMFByteStreamHandler**](/windows/win32/mfidl/nn-mfidl-imfbytestreamhandler?branch=master) interface. This interface has two most important methods that must be implemented:
 
--   [**BeginCreateObject**](imfbytestreamhandler-begincreateobject.md). Starts an asynchronous operation to create the media source.
--   [**EndCreateObject**](imfbytestreamhandler-endcreateobject.md). Completes the asynchronous call.
+-   [**BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject?branch=master). Starts an asynchronous operation to create the media source.
+-   [**EndCreateObject**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-endcreateobject?branch=master). Completes the asynchronous call.
 
 Two other methods are optional and not implemented in the SDK sample:
 
--   [**CancelObjectCreation**](imfbytestreamhandler-cancelobjectcreation.md). Cancels the [**BeginCreateObject**](imfbytestreamhandler-begincreateobject.md) method. This method is useful for a network source that might have a high latency at startup.
--   [**GetMaxNumberOfBytesRequiredForResolution**](imfbytestreamhandler-getmaxnumberofbytesrequiredforresolution.md). Gets the maximum number of bytes that the handler will read from the source stream. Implement this method if you know how much data the byte-stream handler before it can create the media source. Otherwise, simply return **E\_NOTIMPL**.
+-   [**CancelObjectCreation**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-cancelobjectcreation?branch=master). Cancels the [**BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject?branch=master) method. This method is useful for a network source that might have a high latency at startup.
+-   [**GetMaxNumberOfBytesRequiredForResolution**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-getmaxnumberofbytesrequiredforresolution?branch=master). Gets the maximum number of bytes that the handler will read from the source stream. Implement this method if you know how much data the byte-stream handler before it can create the media source. Otherwise, simply return **E\_NOTIMPL**.
 
-Here is the implementation of the [**BeginCreateObject**](imfbytestreamhandler-begincreateobject.md) method:
+Here is the implementation of the [**BeginCreateObject**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject?branch=master) method:
 
 
 ```C++
@@ -150,16 +155,16 @@ The method performs the following steps:
 1.  Creates a new instance of the `MPEG1Source` object.
 2.  Create an asynchronous result object. This object is used later to invoke the source resolver's callback method.
 3.  Calls `MPEG1Source::BeginOpen`, an asynchronous method defined in the `MPEG1Source` class.
-4.  Sets *ppIUnknownCancelCookie* to **NULL**, which informs the caller that [**CancelObjectCreation**](imfbytestreamhandler-cancelobjectcreation.md) is not supported.
+4.  Sets *ppIUnknownCancelCookie* to **NULL**, which informs the caller that [**CancelObjectCreation**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-cancelobjectcreation?branch=master) is not supported.
 
 The `MPEG1Source::BeginOpen` method does the actual work of reading the byte stream and initializing the `MPEG1Source` object. This method is not part of the public API. You can define any mechanism between the handler and the media source that suits your needs. Putting most of the logic into the media source keeps the byte-stream handler relatively simple.
 
 Briefly, `BeginOpen` does the following:
 
-1.  Calls [**IMFByteStream::GetCapabilities**](imfbytestream-getcapabilities.md) to verify that the source byte stream is both readable and seekable.
-2.  Calls [**IMFByteStream::BeginRead**](imfbytestream-beginread.md) to start an asynchronous I/O request.
+1.  Calls [**IMFByteStream::GetCapabilities**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-getcapabilities?branch=master) to verify that the source byte stream is both readable and seekable.
+2.  Calls [**IMFByteStream::BeginRead**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-beginread?branch=master) to start an asynchronous I/O request.
 
-The rest of the initialization occurs asynchronously. The media source reads enough data from the stream to parse the MPEG-1 sequence headers. Then it creates a *presentation descriptor*, which is the object used to describe the audio and video streams in the file. (For more information, see [Presentation Descriptor](#presentation-descriptor).) When the `BeginOpen` operation completes, the byte-stream handler invokes the source resolver's callback method. At that point, the source resolver calls [**IMFByteStreamHandler::EndCreateObject**](imfbytestreamhandler-endcreateobject.md). The **EndCreateObject** method returns the status of the operation.
+The rest of the initialization occurs asynchronously. The media source reads enough data from the stream to parse the MPEG-1 sequence headers. Then it creates a *presentation descriptor*, which is the object used to describe the audio and video streams in the file. (For more information, see [Presentation Descriptor](#presentation-descriptor).) When the `BeginOpen` operation completes, the byte-stream handler invokes the source resolver's callback method. At that point, the source resolver calls [**IMFByteStreamHandler::EndCreateObject**](/windows/win32/mfidl/nf-mfidl-imfbytestreamhandler-endcreateobject?branch=master). The **EndCreateObject** method returns the status of the operation.
 
 
 ```C++
@@ -214,11 +219,11 @@ To create a presentation descriptor, perform the following steps:
 
 1.  For each stream:
     1.  Provide a stream ID and an array of possible media types. If the stream supports more than one media type, order the list of media types by preference, if any. (Put the optimal type first, and the least optimal type last.)
-    2.  Call [**MFCreateStreamDescriptor**](mfcreatestreamdescriptor.md) to create the stream descriptor.
-    3.  Call [**IMFStreamDescriptor::GetMediaTypeHandler**](imfstreamdescriptor-getmediatypehandler.md) on the newly created stream descriptor.
-    4.  Call [**IMFMediaTypeHandler::SetCurrentMediaType**](imfmediatypehandler-setcurrentmediatype.md) to set the default format for the stream. If there is more than one media type, you should generally set the first type in the list.
-2.  Call [**MFCreatePresentationDescriptor**](mfcreatepresentationdescriptor.md) and pass in the array of stream descriptor pointers.
-3.  For each stream, call [**IMFPresentationDescriptor::SelectStream**](imfpresentationdescriptor-selectstream.md) or [**DeselectStream**](imfpresentationdescriptor-deselectstream.md) to set the default selection state. If there is more than one stream of the same type (audio or video), only one should be selected by default.
+    2.  Call [**MFCreateStreamDescriptor**](/windows/win32/mfidl/nf-mfidl-mfcreatestreamdescriptor?branch=master) to create the stream descriptor.
+    3.  Call [**IMFStreamDescriptor::GetMediaTypeHandler**](/windows/win32/mfidl/nf-mfidl-imfstreamdescriptor-getmediatypehandler?branch=master) on the newly created stream descriptor.
+    4.  Call [**IMFMediaTypeHandler::SetCurrentMediaType**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-setcurrentmediatype?branch=master) to set the default format for the stream. If there is more than one media type, you should generally set the first type in the list.
+2.  Call [**MFCreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-mfcreatepresentationdescriptor?branch=master) and pass in the array of stream descriptor pointers.
+3.  For each stream, call [**IMFPresentationDescriptor::SelectStream**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream?branch=master) or [**DeselectStream**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream?branch=master) to set the default selection state. If there is more than one stream of the same type (audio or video), only one should be selected by default.
 
 The `MPEG1Source` object creates the presentation descriptor in its `InitPresentationDescriptor` method:
 
@@ -334,7 +339,7 @@ done:
 
 
 
-The application gets the presentation descriptor by calling [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md). This method creates a shallow copy of the presentation descriptor by calling [**IMFPresentationDescriptor::Clone**](imfpresentationdescriptor-clone.md). (The copy contains pointers to the original stream descriptors.) The application can use the presentation descriptor to set the media type, select a stream, or deselect a stream.
+The application gets the presentation descriptor by calling [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master). This method creates a shallow copy of the presentation descriptor by calling [**IMFPresentationDescriptor::Clone**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-clone?branch=master). (The copy contains pointers to the original stream descriptors.) The application can use the presentation descriptor to set the media type, select a stream, or deselect a stream.
 
 Optionally, presentation descriptors and stream descriptors can contain attributes that give additional information about the source. For a list such attributes, see the following topics:
 
@@ -361,19 +366,19 @@ A media source defines the following states:
 
 ### Start
 
-The [**IMFMediaSource::Start**](imfmediasource-start.md) method starts the media source. It takes the following parameters:
+The [**IMFMediaSource::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) method starts the media source. It takes the following parameters:
 
 -   A presentation descriptor.
 -   A time-format GUID.
 -   A start position.
 
-The application must obtain the presentation descriptor by calling [**CreatePresentationDescriptor**](mfcreatepresentationdescriptor.md) on the source. There is no defined mechanism for validating a presentation descriptor. If the application specifies the wrong presentation descriptor, the results are undefined.
+The application must obtain the presentation descriptor by calling [**CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-mfcreatepresentationdescriptor?branch=master) on the source. There is no defined mechanism for validating a presentation descriptor. If the application specifies the wrong presentation descriptor, the results are undefined.
 
 The time-format GUID specifies how to interpret the starting position. The standard format is 100-nanosecond (ns) units, indicated by GUID\_NULL. Every media source must support 100-ns units. Optionally, a source can support other units of time, such as frame number or time code. However, there is no standard way to query a media source for the list of time formats it supports.
 
 The start position is given as a **PROPVARIANT**, allowing for different data types depending on the time format. For 100-ns, the **PROPVARIANT** type is either **VT\_I8** or **VT\_EMPTY**. If **VT\_I8**, the **PROPVARIANT** contains the start position in 100-ns units. The value **VT\_EMPTY** has the special meaning "start at the current position."
 
-Implement the [**Start**](imfmediasource-start.md) method as follows:
+Implement the [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) method as follows:
 
 1.  Validate parameters and state:
     -   Check for **NULL** parameters.
@@ -383,19 +388,19 @@ Implement the [**Start**](imfmediasource-start.md) method as follows:
     -   If the source has been shut down, return **MF\_E\_SHUTDOWN**.
 2.  If no error occurs in step 1, queue an asynchronous operation. Everything after this step occurs on a work-queue thread.
 3.  For each stream:
-    1.  Check if the stream is already active from a previous [**Start**](imfmediasource-start.md) request.
-    2.  Call [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](imfpresentationdescriptor-getstreamdescriptorbyindex.md) to check whether the application selected or deselected the stream.
+    1.  Check if the stream is already active from a previous [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) request.
+    2.  Call [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex?branch=master) to check whether the application selected or deselected the stream.
     3.  If a previously selected stream is now deselected, flush any undelivered samples for that stream.
     4.  If the stream is active, the media source (not the stream) sends one of the following events:
         -   It sends [MEUpdatedStream](meupdatedstream.md) if the stream was previously active.
         -   Otherwise, it sends [MENewStream](menewstream.md).
 
-        For both events, the event data is the [**IMFMediaStream**](imfmediastream.md) pointer for the stream.
+        For both events, the event data is the [**IMFMediaStream**](/windows/win32/mfidl/nn-mfidl-imfmediastream?branch=master) pointer for the stream.
     5.  If the source is restarting from the paused state, there might be pending sample requests. If so, deliver these now.
     6.  If the source is seeking to a new position, each stream object sends an [MEStreamSeeked](mestreamseeked.md) event. Otherwise, each stream sends an [MEStreamStarted](mestreamstarted.md) event.
 4.  If the source is seeking to a new position, the media source sends an [MESourceSeeked](mesourceseeked.md) event. Otherwise, it sends an [MESourceStarted](mesourcestarted.md) event.
 
-If an error occurs at any time after step 2, the source sends an [MESourceStarted](mesourcestarted.md) event with an error code. This alerts the application that the [**Start**](imfmediasource-start.md) method failed asynchronously.
+If an error occurs at any time after step 2, the source sends an [MESourceStarted](mesourcestarted.md) event with an error code. This alerts the application that the [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) method failed asynchronously.
 
 The following code shows steps 1–2:
 
@@ -569,7 +574,7 @@ HRESULT MPEG1Source::DoStart(StartOp *pOp)
 
 ### Pause
 
-The [**IMFMediaSource::Pause**](imfmediasource-pause.md) method pauses the media source. Implement this method as follows:
+The [**IMFMediaSource::Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasource-pause?branch=master) method pauses the media source. Implement this method as follows:
 
 1.  Queue an asynchronous operation.
 2.  Each active stream sends an [MEStreamPaused](mestreampaused.md) event.
@@ -579,7 +584,7 @@ While paused, the source queues sample requests without processing them. (See [S
 
 ### Stop
 
-The [**IMFMediaSource::Stop**](imfmediasource-stop.md) method stops the media source. Implement this method as follows:
+The [**IMFMediaSource::Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasource-stop?branch=master) method stops the media source. Implement this method as follows:
 
 1.  Queue an asynchronous operation.
 2.  Each active stream sends an [MEStreamStopped](mestreamstopped.md) event.
@@ -594,7 +599,7 @@ If the source is stopped while an I/O request is in progress, the I/O request mi
 
 Media Foundation use a *pull* model, in which the pipeline requests samples from the media source. This differs from the model used by DirectShow, in which the sources "pushes" samples.
 
-To request a new sample, the Media Foundation pipeline calls [**IMFMediaStream::RequestSample**](imfmediastream-requestsample.md). This method takes an **IUnknown** pointer that represents a *token* object. The implementation of the token object is up to the caller; it simply provides a way for the caller to track sample requests. The token parameter can also be **NULL**.
+To request a new sample, the Media Foundation pipeline calls [**IMFMediaStream::RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master). This method takes an **IUnknown** pointer that represents a *token* object. The implementation of the token object is up to the caller; it simply provides a way for the caller to track sample requests. The token parameter can also be **NULL**.
 
 Assuming the source uses asynchronous I/O requests to read data, sample generation will not be synchronized with sample requests. To synchronize sample requests with sample generation, a media source does the following:
 
@@ -609,11 +614,11 @@ The following diagram shows the relationship between the [MEMediaSample](memedia
 
 The example MPEG-1 source implements this process as follows:
 
-1.  The [**RequestSample**](imfmediastream-requestsample.md) method puts the request on a FIFO queue.
+1.  The [**RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master) method puts the request on a FIFO queue.
 2.  As I/O requests are completed, the media source creates new samples and puts them on a second FIFO queue. (This queue has a maximum size, to prevent the source from reading too far ahead.)
 3.  Whenever both of these queues have at least one item (one request and one sample), the media source completes the first request from the request queue by sending out the first sample from the sample queue.
 4.  To deliver a sample, the stream object (not the source object) sends an [MEMediaSample](memediasample.md) event.
-    -   The event data is a pointer to the sample's [**IMFSample**](imfsample.md) interface.
+    -   The event data is a pointer to the sample's [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface.
     -   If the request included a token, attach the token to the sample by setting the [**MFSampleExtension\_Token**](mfsampleextension-token-attribute.md) attribute on the sample.
 
 At this point, there are three possibilities:
@@ -624,7 +629,7 @@ At this point, there are three possibilities:
 
 If the sample queue is empty, the source checks for the end of the stream (see [End of Stream](#end-of-stream)). Otherwise, it starts another I/O request for data. If any error occurs during this process, the stream sends an [MEError](meerror.md) event.
 
-The following code implements the [**IMFMediaStream::RequestSample**](imfmediastream-requestsample.md) method:
+The following code implements the [**IMFMediaStream::RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master) method:
 
 
 ```C++
@@ -800,7 +805,7 @@ done:
 
 The `DispatchSamples` method is called in the following circumstances:
 
--   Inside the [**RequestSample**](imfmediastream-requestsample.md) method.
+-   Inside the [**RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master) method.
 -   When the media source restarts from the paused state.
 -   When an I/O request completes.
 
@@ -814,17 +819,17 @@ When all of the active streams are done, the media source sends an [MEEndOfPrese
 
 Perhaps the hardest part of writing a media source is understanding the Media Foundation asynchronous model.
 
-All of the methods on a media source that control streaming are asynchronous. In each case, the method does some initial validation, such as checking parameters. The source then dispatches the rest of the work to a work queue. After the operation completes, the media source sends an event back to the caller, through the media source's [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface. It is therefore important to understand work queues.
+All of the methods on a media source that control streaming are asynchronous. In each case, the method does some initial validation, such as checking parameters. The source then dispatches the rest of the work to a work queue. After the operation completes, the media source sends an event back to the caller, through the media source's [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface. It is therefore important to understand work queues.
 
-To put an item on a work queue, you can call either [**MFPutWorkItem**](mfputworkitem.md) or [**MFPutWorkItemEx**](mfputworkitemex.md). The MPEG-1 source happens to use **MFPutWorkItem**, but the two functions do the same thing. The **MFPutWorkItem** function takes the following parameters:
+To put an item on a work queue, you can call either [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master) or [**MFPutWorkItemEx**](/windows/win32/mfapi/nf-mfapi-mfputworkitemex?branch=master). The MPEG-1 source happens to use **MFPutWorkItem**, but the two functions do the same thing. The **MFPutWorkItem** function takes the following parameters:
 
 -   A **DWORD** value that identifies the work queue. You can create a private work queue or use **MFASYNC\_CALLBACK\_QUEUE\_STANDARD**.
--   A pointer to the [**IMFAsyncCallback**](imfasynccallback.md) interface. This callback interface is invoked to perform the work.
+-   A pointer to the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface. This callback interface is invoked to perform the work.
 -   An optional state object, which must implement **IUnknown**.
 
-The work queue is serviced by one or more worker threads that continuously pull the next work item from the queue and invoke the [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md) method of the callback interface.
+The work queue is serviced by one or more worker threads that continuously pull the next work item from the queue and invoke the [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method of the callback interface.
 
-Work items are not guaranteed to execute in the same order that you put them on the queue. Remember that more than one thread can service the same work queue, so [**Invoke**](imfasynccallback-invoke.md) calls can overlap or occur out of order. Therefore, it is up to the media source to maintain the correct internal state, by submitting work queue items in the right order. Only when the previous operation is complete does the source start the next operation.
+Work items are not guaranteed to execute in the same order that you put them on the queue. Remember that more than one thread can service the same work queue, so [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) calls can overlap or occur out of order. Therefore, it is up to the media source to maintain the correct internal state, by submitting work queue items in the right order. Only when the previous operation is complete does the source start the next operation.
 
 To represent pending operations, the MPEG-1 source defines a class named `SourceOp`:
 
@@ -927,9 +932,9 @@ Another two methods must be implemented by the derived class:
 
 The operation queue is used as follows:
 
-1.  The Media Foundation pipeline calls an asynchronous method on the media source, such as [**IMFMediaSource::Start**](imfmediasource-start.md).
-2.  The asynchronous method calls `QueueOperation`, which puts the [**Start**](imfmediasource-start.md) operation on the queue and calls `ProcessQueue` (in the form of a `SourceOp` object).
-3.  `ProcessQueue` calls [**MFPutWorkItem**](mfputworkitem.md).
+1.  The Media Foundation pipeline calls an asynchronous method on the media source, such as [**IMFMediaSource::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master).
+2.  The asynchronous method calls `QueueOperation`, which puts the [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) operation on the queue and calls `ProcessQueue` (in the form of a `SourceOp` object).
+3.  `ProcessQueue` calls [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master).
 4.  The work-queue thread calls `ProcessQueueAsync`.
 5.  The `ProcessQueueAsync` method calls `ValidateOperation` and `DispatchOperation`.
 
@@ -1067,10 +1072,10 @@ HRESULT MPEG1Source::DispatchOperation(SourceOp *pOp)
 
 To summarize:
 
-1.  The pipeline calls an asynchronous method, such as [**IMFMediaSource::Start**](imfmediasource-start.md).
+1.  The pipeline calls an asynchronous method, such as [**IMFMediaSource::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master).
 2.  The asynchronous method calls `OpQueue::QueueOperation`, passing in a pointer to a `SourceOp` object.
 3.  The `QueueOperation` method puts the operation on the *m\_OpQueue* queue and calls `OpQueue::ProcessQueue`.
-4.  The `ProcessQueue` method calls [**MFPutWorkItem**](mfputworkitem.md). From this point, everything happens on a Media Foundation work-queue thread. The asynchronous method returns to the caller.
+4.  The `ProcessQueue` method calls [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master). From this point, everything happens on a Media Foundation work-queue thread. The asynchronous method returns to the caller.
 5.  The work-queue thread calls the `OpQueue::ProcessQueueAsync` method.
 6.  The `ProcessQueueAsync` method calls `MPEG1Source:ValidateOperation` to validate the operation.
 7.  The `ProcessQueueAsync` method calls `MPEG1Source::DispatchOperation` to process the operation.
@@ -1080,7 +1085,7 @@ There are several benefits to this design:
 -   Methods are asynchronous, so they do not block the calling application's thread.
 -   Operations are dispatched on a Media Foundation work-queue thread, which is shared among pipeline components. Therefore, the media source does not create its own thread, reducing the total number of threads that are created.
 -   The media source does not block while waiting for operations to complete. This reduces the chance that a media source will accidentally cause a deadlock, and helps to reduce context switching.
--   The media source can use asynchronous I/O to read the source file (by calling [**IMFByteStream::BeginRead**](imfbytestream-beginread.md)). The media source does not need to block while waiting for I/O routine complete.
+-   The media source can use asynchronous I/O to read the source file (by calling [**IMFByteStream::BeginRead**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-beginread?branch=master)). The media source does not need to block while waiting for I/O routine complete.
 
 If you follow the pattern shown in the SDK sample, you can focus on the particular details of your media source.
 

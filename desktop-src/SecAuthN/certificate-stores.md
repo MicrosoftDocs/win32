@@ -1,7 +1,12 @@
 ---
-Description: 'Both client and server certificates must be stored in a certificate store accessible by the application process.'
-ms.assetid: '3be91b9b-ecc0-4cf2-88ca-77fd25d2dafc'
+Description: Both client and server certificates must be stored in a certificate store accessible by the application process.
+ms.assetid: 3be91b9b-ecc0-4cf2-88ca-77fd25d2dafc
 title: Certificate Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Stores

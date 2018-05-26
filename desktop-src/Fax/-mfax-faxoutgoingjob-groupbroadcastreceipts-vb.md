@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GroupBroadcastReceipts property is a Boolean value that indicates whether to send an individual delivery receipt for each recipient of the broadcast or to send a summary receipt for all recipients.'
-ms.assetid: 'f2627ec8-791e-4405-aa75-3355a8f8fa09'
-title: 'FaxOutgoingJob.GroupBroadcastReceipts property'
+---
+Description: The GroupBroadcastReceipts property is a Boolean value that indicates whether to send an individual delivery receipt for each recipient of the broadcast or to send a summary receipt for all recipients.
+ms.assetid: f2627ec8-791e-4405-aa75-3355a8f8fa09
+title: FaxOutgoingJob.GroupBroadcastReceipts property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.GroupBroadcastReceipts property
@@ -74,7 +79,7 @@ Set the **GroupBroadcastReceipts** property for a document using the [**GroupBro
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

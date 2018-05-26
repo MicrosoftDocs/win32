@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxJob object permits a fax client application to access the job status of incoming and outgoing fax transmissions, and to pause, resume, cancel or restart a fax job.'
-ms.assetid: '4c8376a4-dded-489e-a361-ce6edd0e17af'
+Description: The FaxJob object permits a fax client application to access the job status of incoming and outgoing fax transmissions, and to pause, resume, cancel or restart a fax job.
+ms.assetid: 4c8376a4-dded-489e-a361-ce6edd0e17af
 title: FaxJob
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob
@@ -14,10 +19,10 @@ A fax client application must create an instance of a [FaxServer](-mfax-faxserve
 
 ## C/C++
 
--   Create by calling the [**IFaxJobs::get\_Item**](-mfax-ifaxjobs-get-item.md) method.
--   Supports the [**IFaxJob**](-mfax-ifaxjob.md) interface.
+-   Create by calling the [**IFaxJobs::get\_Item**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxjobs-get_item?branch=master) method.
+-   Supports the [**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master) interface.
 
-For more information about creating an instance of a FaxJob object, and for a list of the object's properties and methods, see [**IFaxJob**](-mfax-ifaxjob.md).
+For more information about creating an instance of a FaxJob object, and for a list of the object's properties and methods, see [**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master).
 
 ## Visual Basic
 

@@ -4,11 +4,16 @@ description: The Minimize method causes the frame to be minimized (reduced to an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f5b0bae8-79ea-463a-9a9c-9a4ace53aab3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f5b0bae8-79ea-463a-9a9c-9a4ace53aab3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Minimize method MMC", "Minimize method MMC , Frame object", "Frame object MMC , Minimize method", "Minimize method MMC , Frame interface", "Frame interface MMC , Minimize method"]
+keywords:
+- Minimize method MMC
+- Minimize method MMC , Frame object
+- Frame object MMC , Minimize method
+- Minimize method MMC , Frame interface
+- Frame interface MMC , Minimize method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Frame::Minimize method
@@ -57,8 +65,8 @@ objFrame.Minimize
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -66,9 +74,9 @@ objFrame.Minimize
 
 
 
- 
+ 
 
- 
+ 
 
 
 

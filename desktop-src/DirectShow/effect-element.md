@@ -1,7 +1,12 @@
 ---
-Description: 'The effect element defines an audio or video effect object. An effect is applied to a single stream (such as a composition, track, or source).'
-ms.assetid: 'aedb4491-f1f0-44b3-ad88-3fac8c90144d'
+Description: The effect element defines an audio or video effect object. An effect is applied to a single stream (such as a composition, track, or source).
+ms.assetid: aedb4491-f1f0-44b3-ad88-3fac8c90144d
 title: effect Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # effect Element
@@ -9,7 +14,7 @@ title: effect Element
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
 
- 
+ 
 
 The `effect` element defines an audio or video effect object. An effect is applied to a single stream (such as a composition, track, or source).
 
@@ -28,7 +33,7 @@ The `effect` element defines an audio or video effect object. An effect is appli
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +65,9 @@ The **clsid** attribute specifies the subobject that creates the effect.
 [XTL Elements](xtl-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::GetImplementedMethod method is used by Unidrv to determine which IPrintOemUni interface methods a rendering plug-in has implemented.'
-ms.assetid: 'bc2a00ea-214a-435a-86fa-d694188d0245'
-title: 'IPrintOemUni::GetImplementedMethod method'
+---
+Description: The IPrintOemUniGetImplementedMethod method is used by Unidrv to determine which IPrintOemUni interface methods a rendering plug-in has implemented.
+ms.assetid: bc2a00ea-214a-435a-86fa-d694188d0245
+title: IPrintOemUniGetImplementedMethod method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::GetImplementedMethod method

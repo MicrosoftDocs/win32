@@ -1,8 +1,9 @@
 ---
 title: CreateDeviceLinkProfile function
 description: The CreateDeviceLinkProfile function creates an International Color Consortium (ICC) device link profile from a set of color profiles, using the specified intents.
-ms.assetid: '54f46d2c-ddcb-4597-9816-172e507a7fa2'
-keywords: ["CreateDeviceLinkProfile function Windows Color System"]
+ms.assetid: 54f46d2c-ddcb-4597-9816-172e507a7fa2
+keywords:
+- CreateDeviceLinkProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,24 +14,29 @@ api_location:
 - Mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateDeviceLinkProfile function
 
-The [**CreateDeviceLinkProfile**](cmcreatedevicelinkprofile.md) function creates an International Color Consortium (ICC) *device link profile* from a set of color profiles, using the specified intents.
+The [**CreateDeviceLinkProfile**](/windows/win32/Wingdi/?branch=master) function creates an International Color Consortium (ICC) *device link profile* from a set of color profiles, using the specified intents.
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI CreateDeviceLinkProfile(
-   PHPROFILE pahProfiles,
-   DWORD     nProfiles,
-   PDWORD    padwIntent,
-   DWORD     nIntents,
-   DWORD     dwFlags,
-   PBYTE     pProfileData,
-   DWORD     indexPreferredCMM
+   PHPROFILE pahProfiles,
+   DWORD     nProfiles,
+   PDWORD    padwIntent,
+   DWORD     nIntents,
+   DWORD     dwFlags,
+   PBYTE     pProfileData,
+   DWORD     indexPreferredCMM
 );
 ```
 
@@ -111,8 +117,8 @@ The calling application must free the buffer allocated by this function and poin
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -133,9 +139,9 @@ The calling application must free the buffer allocated by this function and poin
 [**GlobalFree**](https://msdn.microsoft.com/library/windows/desktop/aa366579)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

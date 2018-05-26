@@ -1,7 +1,12 @@
 ---
-Description: 'To have your multiple monitoraware application work both on systems with and without multiple monitor support, link your application with Multimon.h.'
-ms.assetid: '8667305e-ca76-49cb-878e-07814431e6db'
+Description: To have your multiple monitoraware application work both on systems with and without multiple monitor support, link your application with Multimon.h.
+ms.assetid: 8667305e-ca76-49cb-878e-07814431e6db
 title: Multiple Monitor Applications on Different Systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Monitor Applications on Different Systems
@@ -14,7 +19,7 @@ Do not use negative coordinates or coordinates larger than SM\_CXSCREEN and SM\_
 
 Note that SM\_CXMAXTRACK and SM\_CYMAXTRACK are defined for the desktop, not just one monitor. Windows using these limits may need to be redefined.
 
-A parent or related window might not be on the same monitor as a child window. To locate the monitor of a window, applications should use the [**MonitorFromWindow**](monitorfromwindow.md) function.
+A parent or related window might not be on the same monitor as a child window. To locate the monitor of a window, applications should use the [**MonitorFromWindow**](/windows/win32/Winuser/nf-winuser-monitorfromwindow?branch=master) function.
 
 To have a screen saver display on all monitors, link with the latest version of Scrnsave.lib. Otherwise, the screen saver may only appear on the primary monitor and leave the other monitors untouched. Screen savers linked with the latest Scrnsave.lib will work on both single and multiple monitor systems. To have a different screen saver on each monitor, use the multiple monitor functions to handle each monitor separately.
 
@@ -22,7 +27,7 @@ Input devices that deliver coordinates to the system in absolute coordinates, su
 
 To map mouse input that is sent in absolute coordinates to the entire virtual screen, use the [**INPUT**](_win32_INPUT_str_cpp) structure with MOUSEEVENTF\_ABSOLUTE and MOUSEEVENTF\_VIRTUALDESKTOP.
 
-The [**BitBlt**](bitblt.md) function works well for multiple monitor systems. However, the [**MaskBlt**](maskblt.md), [**PlgBlt**](plgblt.md), [**StretchBlt**](stretchblt.md), and [**TransparentBlt**](transparentblt.md) functions will fail if the source and destination device contexts are different.
+The [**BitBlt**](/windows/win32/Wingdi/nf-wingdi-bitblt?branch=master) function works well for multiple monitor systems. However, the [**MaskBlt**](/windows/win32/Wingdi/nf-wingdi-maskblt?branch=master), [**PlgBlt**](/windows/win32/Wingdi/nf-wingdi-plgblt?branch=master), [**StretchBlt**](/windows/win32/Wingdi/nf-wingdi-stretchblt?branch=master), and [**TransparentBlt**](/windows/win32/WinGdi/nf-wingdi-transparentblt?branch=master) functions will fail if the source and destination device contexts are different.
 
  
 

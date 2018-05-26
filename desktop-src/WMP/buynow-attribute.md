@@ -1,14 +1,20 @@
 ---
 title: BuyNow Attribute
 description: The BuyNow attribute is a PARAM value for use in commercial interactions.
-ms.assetid: '06b96992-a532-4c72-bb4f-6cdd6209f137'
-keywords: ["BuyNow Attribute Windows Media Player"]
+ms.assetid: 06b96992-a532-4c72-bb4f-6cdd6209f137
+keywords:
+- BuyNow Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BuyNow
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BuyNow Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

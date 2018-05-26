@@ -4,11 +4,19 @@ description: An application or resource DLL can monitor events occurring within 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6d69cdd8-b29a-40c5-94c6-908b9bea22ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6d69cdd8-b29a-40c5-94c6-908b9bea22ef
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["events Failover Cluster", "events Failover Cluster ,receiving", "events Failover Cluster", "events,(See also events Failover Cluster )", "notification ports Failover Cluster"]
+keywords:
+- events Failover Cluster
+- events Failover Cluster ,receiving
+- events Failover Cluster
+- events,(See also events Failover Cluster )
+- notification ports Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Receiving Cluster Events

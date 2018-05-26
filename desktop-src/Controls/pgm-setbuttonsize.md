@@ -1,8 +1,9 @@
 ---
 title: PGM\_SETBUTTONSIZE message
 description: Sets the current button size for the pager control. You can send this message explicitly or use the Pager\_SetButtonSize macro.
-ms.assetid: 'b31960f8-87c2-4209-8213-df75ac883e11'
-keywords: ["PGM_SETBUTTONSIZE message Windows Controls"]
+ms.assetid: b31960f8-87c2-4209-8213-df75ac883e11
+keywords:
+- PGM_SETBUTTONSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM\_SETBUTTONSIZE message
 
-Sets the current button size for the pager control. You can send this message explicitly or use the [**Pager\_SetButtonSize**](pager-setbuttonsize.md) macro.
+Sets the current button size for the pager control. You can send this message explicitly or use the [**Pager\_SetButtonSize**](/windows/win32/Commctrl/nf-commctrl-pager_setbuttonsize?branch=master) macro.
 
 ## Parameters
 
@@ -47,8 +53,8 @@ There is a minimum size to the pager button, currently 12 pixels. However, this 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ There is a minimum size to the pager button, currently 12 pixels. However, this 
 [**PGM\_GETBUTTONSIZE**](pgm-getbuttonsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

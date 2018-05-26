@@ -1,7 +1,12 @@
 ---
 title: Generating Linguistic Information
 description: Generating Linguistic Information
-ms.assetid: '903561f0-89dc-4297-8ea0-3fa150f2e6dd'
+ms.assetid: 903561f0-89dc-4297-8ea0-3fa150f2e6dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating Linguistic Information

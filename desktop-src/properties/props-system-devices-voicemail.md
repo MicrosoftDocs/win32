@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the device supports voicemail.'
-ms.assetid: 'f127ffb3-1d9f-4729-aec9-cb1fb8948df5'
-title: 'System.Devices.Voicemail'
+Description: Indicates whether the device supports voicemail.
+ms.assetid: f127ffb3-1d9f-4729-aec9-cb1fb8948df5
+title: System.Devices.Voicemail
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Voicemail

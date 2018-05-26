@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to an application when a window is activated. A window receives this message through its WindowProc function.'
-ms.assetid: 'ba1e7877-1612-4f2f-aced-0dd982352ad6'
-title: 'WM\_IME\_SETCONTEXT message'
+---
+Description: Sent to an application when a window is activated. A window receives this message through its WindowProc function.
+ms.assetid: ba1e7877-1612-4f2f-aced-0dd982352ad6
+title: WM\_IME\_SETCONTEXT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_SETCONTEXT message
@@ -63,13 +68,13 @@ Display options. This parameter can have one or more of the following values.
 
 ## Return value
 
-Returns the value returned by [**DefWindowProc**](_win32_defwindowproc_cpp) or [**ImmIsUIMessage**](immisuimessage.md).
+Returns the value returned by [**DefWindowProc**](_win32_defwindowproc_cpp) or [**ImmIsUIMessage**](/windows/win32/Imm/nf-imm-immisuimessagea?branch=master).
 
 ## Remarks
 
-If the application has created an IME window, it should call [**ImmIsUIMessage**](immisuimessage.md). Otherwise, it should pass this message to [**DefWindowProc**](_win32_defwindowproc_cpp).
+If the application has created an IME window, it should call [**ImmIsUIMessage**](/windows/win32/Imm/nf-imm-immisuimessagea?branch=master). Otherwise, it should pass this message to [**DefWindowProc**](_win32_defwindowproc_cpp).
 
-If the application draws the composition window, the default IME window does not have to show its composition window. In this case, the application must clear the **ISC\_SHOWUICOMPOSITIONWINDOW** value from the *lParam* parameter before passing the message to [**DefWindowProc**](_win32_defwindowproc_cpp) or [**ImmIsUIMessage**](immisuimessage.md). To display a certain user interface window, an application should remove the corresponding value so that the IME will not display it.
+If the application draws the composition window, the default IME window does not have to show its composition window. In this case, the application must clear the **ISC\_SHOWUICOMPOSITIONWINDOW** value from the *lParam* parameter before passing the message to [**DefWindowProc**](_win32_defwindowproc_cpp) or [**ImmIsUIMessage**](/windows/win32/Imm/nf-imm-immisuimessagea?branch=master). To display a certain user interface window, an application should remove the corresponding value so that the IME will not display it.
 
 ## Requirements
 
@@ -93,7 +98,7 @@ If the application draws the composition window, the default IME window does not
 [Input Method Manager Messages](input-method-manager-messages.md)
 </dt> <dt>
 
-[**ImmIsUIMessage**](immisuimessage.md)
+[**ImmIsUIMessage**](/windows/win32/Imm/nf-imm-immisuimessagea?branch=master)
 </dt> </dl>
 
  

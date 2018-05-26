@@ -1,13 +1,16 @@
 ---
-Description: 'Conceptually similar to a Uniform Resource Locator (URL), a WMI object path is a string that uniquely identifies the namespace on a server, a class within a namespace, or instances of a class.'
+Description: Conceptually similar to a Uniform Resource Locator (URL), a WMI object path is a string that uniquely identifies the namespace on a server, a class within a namespace, or instances of a class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7a390541-609d-4b97-b91c-1a41d21ec17d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7a390541-609d-4b97-b91c-1a41d21ec17d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Describing the Location of a WMI Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Describing the Location of a WMI Object
@@ -44,25 +47,25 @@ The following table lists object path types and the associated methods that requ
 <tbody>
 <tr class="odd">
 <td>[Namespace](describing-a-wmi-namespace-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::OpenNamespace</strong>](iwbemservices-opennamespace.md)<br />
+<td><dl>[<strong>IWbemServices::OpenNamespace</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-opennamespace?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td>[Class](describing-a-class-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::ExecMethod</strong>](iwbemservices-execmethod.md)<br />
-[<strong>IWbemServices::ExecMethodAsync</strong>](iwbemservices-execmethodasync.md)<br />
+<td><dl>[<strong>IWbemServices::ExecMethod</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethod?branch=master)<br />
+[<strong>IWbemServices::ExecMethodAsync</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethodasync?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="odd">
 <td>[Class](describing-a-class-object-path.md) or [Instance](describing-an-instance-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::GetObject</strong>](iwbemservices-getobject.md)<br />
-[<strong>IWbemServices::GetObjectAsync</strong>](iwbemservices-getobjectasync.md)<br />
+<td><dl>[<strong>IWbemServices::GetObject</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master)<br />
+[<strong>IWbemServices::GetObjectAsync</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master)<br />
 </dl></td>
 </tr>
 <tr class="even">
 <td>[Instance](describing-an-instance-object-path.md)</td>
-<td><dl>[<strong>IWbemServices::DeleteInstance</strong>](iwbemservices-deleteinstance.md)<br />
-[<strong>IWbemServices::DeleteInstanceAsync</strong>](iwbemservices-deleteinstanceasync.md)<br />
+<td><dl>[<strong>IWbemServices::DeleteInstance</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstance?branch=master)<br />
+[<strong>IWbemServices::DeleteInstanceAsync</strong>](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync?branch=master)<br />
 </dl></td>
 </tr>
 </tbody>

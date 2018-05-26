@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IncomingQueue property represents the queue of incoming faxes.'
-ms.assetid: '4b29f486-c598-41c0-93e7-da8c16c1012b'
-title: 'FaxFolders.IncomingQueue property'
+---
+Description: The IncomingQueue property represents the queue of incoming faxes.
+ms.assetid: 4b29f486-c598-41c0-93e7-da8c16c1012b
+title: FaxFolders.IncomingQueue property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxFolders.IncomingQueue property
@@ -21,7 +26,7 @@ Property IncomingQueue As IFaxIncomingQueue
 
 ## Property value
 
-A variable of type [**IFaxIncomingQueue**](-mfax-faxincomingqueue-cpp.md) that receives a [**FaxIncomingQueue**](-mfax-faxincomingqueue.md) object.
+A variable of type [**IFaxIncomingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingqueue?branch=master) that receives a [**FaxIncomingQueue**](-mfax-faxincomingqueue.md) object.
 
 ## Requirements
 
@@ -43,7 +48,7 @@ A variable of type [**IFaxIncomingQueue**](-mfax-faxincomingqueue-cpp.md) that r
 [**FaxFolders**](-mfax-faxfolders.md)
 </dt> <dt>
 
-[**IFaxFolders**](-mfax-faxfolders-cpp.md)
+[**IFaxFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxfolders?branch=master)
 </dt> </dl>
 
  

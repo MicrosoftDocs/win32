@@ -1,8 +1,10 @@
 ---
 title: DRM\_LICENSE\_STATE\_DATA structure
 description: The DRM\_LICENSE\_STATE\_DATA structure contains information about the license restrictions for a DRM right.
-ms.assetid: '822d60ae-5d96-4577-8564-0e1adafa5dd5'
-keywords: ["DRM_LICENSE_STATE_DATA structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 822d60ae-5d96-4577-8564-0e1adafa5dd5
+keywords:
+- DRM_LICENSE_STATE_DATA structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_LICENSE\_STATE\_DATA structure
@@ -22,13 +29,13 @@ The **DRM\_LICENSE\_STATE\_DATA** structure contains information about the licen
 
 ```C++
 typedef struct DRM_LICENSE_STATE_DATA {
-  DWORD                      dwStreamId;
+  DWORD                      dwStreamId;
   DRM_LICENSE_STATE_CATEGORY dwCategory;
-  DWORD                      dwNumCounts;
-  DWORD                      dwCount[4];
-  DWORD                      dwNumDates;
-  FILETIME                   datetime[4];
-  DWORD                      dwVague;
+  DWORD                      dwNumCounts;
+  DWORD                      dwCount[4];
+  DWORD                      dwNumDates;
+  FILETIME                   datetime[4];
+  DWORD                      dwVague;
 } ;
 ```
 
@@ -95,7 +102,7 @@ Zero or more of the following flags combined with a bitwise **OR**:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -126,9 +133,9 @@ In some cases, users may have been issued more than one license for a file. For 
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

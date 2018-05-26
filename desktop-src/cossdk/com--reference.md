@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'f20207cb-f583-47c5-9f24-f719b68b260a'
+ms.assetid: f20207cb-f583-47c5-9f24-f719b68b260a
 title: COM+ Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Reference

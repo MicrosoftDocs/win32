@@ -4,13 +4,15 @@ description: CIM\_CollectedMSEs is a generic association used to establish the m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fda6707b-b4dd-4152-9e3f-578a9f6b8c9c'
-ms.prod: 'windows-server-dev'
+ms.assetid: fda6707b-b4dd-4152-9e3f-578a9f6b8c9c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_CollectedMSEs class", "CIM_CollectedMSEs class, described"]
+keywords:
+- CIM_CollectedMSEs class
+- CIM_CollectedMSEs class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CollectedMSEs class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, Aggregation, AMENDMENT]
 class CIM_CollectedMSEs
 {
-  CIM_CollectionOfMSEs     REF Collection;
+  CIM_CollectionOfMSEs     REF Collection;
   CIM_ManagedSystemElement REF Member;
 };
 ```
@@ -90,17 +95,17 @@ Reference to a [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/librar
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

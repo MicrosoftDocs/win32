@@ -1,12 +1,17 @@
 ---
-Description: 'The Bitmap class (which inherits from the Image class) and the ImageAttributes class provide functionality for getting and setting pixel values.'
-ms.assetid: 'e3d67431-6098-4b2a-8910-5695a8473216'
+Description: The Bitmap class (which inherits from the Image class) and the ImageAttributes class provide functionality for getting and setting pixel values.
+ms.assetid: e3d67431-6098-4b2a-8910-5695a8473216
 title: Using a Color Matrix to Set Alpha Values in Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Color Matrix to Set Alpha Values in Images
 
-The [**Bitmap**](-gdiplus-class-bitmap-class.md) class (which inherits from the [**Image**](-gdiplus-class-image-class.md) class) and the [**ImageAttributes**](-gdiplus-class-imageattributes-class.md) class provide functionality for getting and setting pixel values. You can use the **ImageAttributes** class to modify the alpha values for an entire image, or you can call the [**Bitmap::SetPixel**](-gdiplus-class-bitmap-setpixel-x-y-color-.md) method of the **Bitmap** class to modify individual pixel values. For more information on setting individual pixel values, see [Setting the Alpha Values of Individual Pixels](-gdiplus-setting-the-alpha-values-of-individual-pixels-use.md).
+The [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) class (which inherits from the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class) and the [**ImageAttributes**](/windows/win32/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes?branch=master) class provide functionality for getting and setting pixel values. You can use the **ImageAttributes** class to modify the alpha values for an entire image, or you can call the [**Bitmap::SetPixel**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-bitmap-setpixel?branch=master) method of the **Bitmap** class to modify individual pixel values. For more information on setting individual pixel values, see [Setting the Alpha Values of Individual Pixels](-gdiplus-setting-the-alpha-values-of-individual-pixels-use.md).
 
 The following example draws a wide black line and then displays an opaque image that covers part of that line.
 
@@ -27,7 +32,7 @@ The following illustration shows the resulting image, which is drawn at (30, 0).
 
 ![illustration showing an opaque image overlapping a thin, wide, black rectangle](images/image1.png)
 
-The [**ImageAttributes**](-gdiplus-class-imageattributes-class.md) class has many properties that you can use to modify images during rendering. In the following example, an **ImageAttributes** object is used to set all the alpha values to 80 percent of what they were. This is done by initializing a color matrix and setting the alpha scaling value in the matrix to 0.8. The address of the color matrix is passed to the [**ImageAttributes::SetColorMatrix**](-gdiplus-class-imageattributes-setcolormatrix-colormatrix-mode-type-.md) method of the **ImageAttributes** object, and the address of the **ImageAttributes** object is passed to the [DrawImage](-gdiplus-class-graphics-drawimage-methods.md) method of a [**Graphics**](-gdiplus-class-graphics-class.md) object.
+The [**ImageAttributes**](/windows/win32/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes?branch=master) class has many properties that you can use to modify images during rendering. In the following example, an **ImageAttributes** object is used to set all the alpha values to 80 percent of what they were. This is done by initializing a color matrix and setting the alpha scaling value in the matrix to 0.8. The address of the color matrix is passed to the [**ImageAttributes::SetColorMatrix**](/windows/win32/Gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setcolormatrix?branch=master) method of the **ImageAttributes** object, and the address of the **ImageAttributes** object is passed to the [DrawImage](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawimage(in image,in const point &)?branch=master) method of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object.
 
 
 ```

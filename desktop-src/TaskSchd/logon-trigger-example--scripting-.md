@@ -1,7 +1,12 @@
 ---
 title: Logon Trigger Example (Scripting)
 description: This scripting example shows how to create a task that is scheduled to execute Notepad when a user logs on.
-ms.assetid: 'f25e105f-9439-4646-bdfd-609ee99a5d55'
+ms.assetid: f25e105f-9439-4646-bdfd-609ee99a5d55
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logon Trigger Example (Scripting)
@@ -15,7 +20,7 @@ The following procedure describes how to schedule an executable such as Notepad 
 1.  Create a [**TaskService**](taskservice.md) object. This object allows you to create the task in a specified folder.
 2.  Get a task folder and create a task. Use the [**TaskService.GetFolder**](taskservice-getfolder.md) method to get the folder where the task is stored and the [**TaskService.NewTask**](taskservice-newtask.md) method to create the [**TaskDefinition**](taskdefinition.md) object that represents the task.
 3.  Define information about the task using the [**TaskDefinition**](taskdefinition.md) object. Use the [**TaskDefinition.Settings**](taskdefinition-settings.md) property to define the settings that determine how the Task Scheduler service performs the task and the [**TaskDefinition.RegistrationInfo**](taskdefinition-registrationinfo.md) property to define the information that describes the task.
-4.  Create a logon trigger using the [**TaskDefinition.Triggers**](taskdefinition-triggers.md) property. This property provides access to the [**TriggerCollection**](triggercollection.md) object. Use the [**TriggerCollection.Create**](triggercollection-create.md) method (specifying the type of trigger that you want to create) to create a logon trigger. As you create the trigger, set the start boundary and end boundary of the trigger to activate and deactivate the trigger. You must set the [**UserId**](ilogontrigger-userid.md) property for the trigger so that the task's actions will be scheduled to execute when the specified user logs on after the start boundary.
+4.  Create a logon trigger using the [**TaskDefinition.Triggers**](taskdefinition-triggers.md) property. This property provides access to the [**TriggerCollection**](triggercollection.md) object. Use the [**TriggerCollection.Create**](triggercollection-create.md) method (specifying the type of trigger that you want to create) to create a logon trigger. As you create the trigger, set the start boundary and end boundary of the trigger to activate and deactivate the trigger. You must set the [**UserId**](/windows/win32/taskschd/nf-taskschd-ilogontrigger-get_userid?branch=master) property for the trigger so that the task's actions will be scheduled to execute when the specified user logs on after the start boundary.
 5.  Create an action for the task to execute by using the [**TaskDefinition.Actions**](taskdefinition-actions.md) property. This property provides access to the [**ActionCollection**](actioncollection.md) object. Use the [**ActionCollection.Create**](actioncollection-create.md) method to specify the type of action that you want to create. This example uses an [**ExecAction**](execaction.md) object, which represents an action that starts an executable.
 6.  Register the task using the [**TaskFolder.RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) method. This example registers the task so that it uses the Administrators group as a security context to run the task.
 

@@ -4,11 +4,14 @@ description: Retrieves the state of a Data Collector Set in Performance Logs Ale
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09c23ae3-4a83-433d-8973-f466b3389869'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 09c23ae3-4a83-433d-8973-f466b3389869
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetPerformanceCollectorState method", "GetPerformanceCollectorState method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, GetPerformanceCollectorState method"]
+keywords:
+- GetPerformanceCollectorState method
+- GetPerformanceCollectorState method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, GetPerformanceCollectorState method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetPerformanceCollectorState method of the MSFT\_ServerManagerTasks class
@@ -28,8 +34,8 @@ Retrieves the state of a Data Collector Set in Performance Logs & Alerts.
 
 ```mof
 uint32 GetPerformanceCollectorState(
-  [in]  string CollectorName,
-  [out] uint8  cmdletOutput
+  [in]  string CollectorName,
+  [out] uint8  cmdletOutput
 );
 ```
 
@@ -74,7 +80,7 @@ The state of the data collector set in PLA.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -88,9 +94,9 @@ The state of the data collector set in PLA.
 [**MSFT\_ServerManagerTasks**](msft-servermanagertasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

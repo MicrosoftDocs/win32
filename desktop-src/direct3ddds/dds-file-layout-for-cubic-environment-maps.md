@@ -1,7 +1,12 @@
 ---
 title: DDS Cube Map Example
 description: For cubic environment maps, one or more faces of a cube are written to the file, using either uncompressed or compressed formats, and all faces must be the same size.
-ms.assetid: 'a77234f6-ba10-40dd-902f-33e600384aa5'
+ms.assetid: a77234f6-ba10-40dd-902f-33e600384aa5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDS Cube Map Example

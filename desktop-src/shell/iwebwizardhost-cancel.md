@@ -1,6 +1,11 @@
-﻿---
-Description: 'Simulates a Cancel button click.'
-title: 'WebWizardHost.Cancel method'
+---
+Description: Simulates a Cancel button click.
+title: WebWizardHost.Cancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebWizardHost.Cancel method

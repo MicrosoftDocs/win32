@@ -1,7 +1,12 @@
 ---
-Description: 'Media start time.'
-ms.assetid: '04ae3862-00b1-4c99-b535-756067cdf4c4'
-title: 'CMediaSample::m\_MediaStart member'
+Description: Media start time.
+ms.assetid: 04ae3862-00b1-4c99-b535-756067cdf4c4
+title: CMediaSamplem\_MediaStart member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample::m\_MediaStart member
@@ -35,9 +40,9 @@ LONGLONG m_MediaStart;
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

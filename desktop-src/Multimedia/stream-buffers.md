@@ -1,8 +1,22 @@
 ---
 title: Stream Buffers
 description: Stream Buffers
-ms.assetid: 'f9e77637-098c-4ee8-bca9-a05ecce0c569'
-keywords: ["Windows multimedia,stream buffers", "multimedia,stream buffers", "multimedia audio,stream buffers", "audio,stream buffers", "Musical Instrument Digital Interface (MIDI),stream buffers", "MIDI (Musical Instrument Digital Interface),stream buffers", "stream buffers,about", "MIDIHDR structure", "MIDIEVENT structure"]
+ms.assetid: f9e77637-098c-4ee8-bca9-a05ecce0c569
+keywords:
+- Windows multimedia,stream buffers
+- multimedia,stream buffers
+- multimedia audio,stream buffers
+- audio,stream buffers
+- Musical Instrument Digital Interface (MIDI),stream buffers
+- MIDI (Musical Instrument Digital Interface),stream buffers
+- stream buffers,about
+- MIDIHDR structure
+- MIDIEVENT structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Buffers

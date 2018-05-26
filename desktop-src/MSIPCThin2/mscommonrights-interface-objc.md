@@ -4,17 +4,21 @@ description: Rights that are supported by all apps.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7f299582-d4e5-4038-b93b-df252a358159'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7f299582-d4e5-4038-b93b-df252a358159
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSCommonRights Class"]
+keywords:
+- MSCommonRights Class
 topic_type:
 - apiref
 api_name:
 - MSCommonRights Class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCommonRights Class
@@ -38,7 +42,7 @@ Rights that are supported by all apps.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -54,7 +58,7 @@ MSRight.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,9 +68,9 @@ For more information about the built-in rights and the usage restrictions associ
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

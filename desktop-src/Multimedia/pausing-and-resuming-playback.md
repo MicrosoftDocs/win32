@@ -1,17 +1,24 @@
 ---
 title: Pausing and Resuming Playback
 description: Pausing and Resuming Playback
-ms.assetid: 'f5a7ef22-993c-4aab-bab0-2700289da7a7'
-keywords: ["MCIWndPause macro", "MCIWndResume macro"]
+ms.assetid: f5a7ef22-993c-4aab-bab0-2700289da7a7
+keywords:
+- MCIWndPause macro
+- MCIWndResume macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pausing and Resuming Playback
 
-You can interrupt playback of a device or file associated with an MCIWnd window by using the [**MCIWndPause**](mciwndpause.md) macro. You can then restart playback by using the [**MCIWndResume**](mciwndresume.md) macro. If the device does not support resume or if an error occurs, you can use the [**MCIWndPlay**](mciwndplay.md) macro to restart playback.
+You can interrupt playback of a device or file associated with an MCIWnd window by using the [**MCIWndPause**](/windows/win32/Vfw/nf-vfw-mciwndpause?branch=master) macro. You can then restart playback by using the [**MCIWndResume**](/windows/win32/Vfw/nf-vfw-mciwndresume?branch=master) macro. If the device does not support resume or if an error occurs, you can use the [**MCIWndPlay**](/windows/win32/Vfw/nf-vfw-mciwndplay?branch=master) macro to restart playback.
 
 The following example creates an MCIWnd window and plays an AVI file. Pause and resume menu commands are available to the user to interrupt and restart playback.
 
-MCIWnd window styles are changed temporarily by using the [**MCIWndChangeStyles**](mciwndchangestyles.md) macro to inhibit an MCI error dialog box from being displayed if [**MCIWndResume**](mciwndresume.md) fails.
+MCIWnd window styles are changed temporarily by using the [**MCIWndChangeStyles**](/windows/win32/Vfw/nf-vfw-mciwndchangestyles?branch=master) macro to inhibit an MCI error dialog box from being displayed if [**MCIWndResume**](/windows/win32/Vfw/nf-vfw-mciwndresume?branch=master) fails.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: Status Bars
-description: A status bar is an area at the bottom of a primary window that displays information about the current window's state (such as what is being viewed and how), background tasks (such as printing, scanning, and formatting), or other contextual information (such as selection and keyboard state).
-ms.assetid: '09dc03d9-d730-4f03-86a8-7b39d9a55369'
+description: A status bar is an area at the bottom of a primary window that displays information about the current windows state (such as what is being viewed and how), background tasks (such as printing, scanning, and formatting), or other contextual information (such as selection and keyboard state).
+ms.assetid: 09dc03d9-d730-4f03-86a8-7b39d9a55369
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Bars
@@ -17,7 +22,7 @@ A typical status bar.
 > [!Note]  
 > Guidelines related to the [notification area](winenv-notification.md) are presented in a separate article.
 
- 
+ 
 
 ## Is this the right user interface?
 
@@ -64,7 +69,7 @@ Status bars have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -106,7 +111,7 @@ Status bars have several usage patterns:
 
     
 
-     
+     
 
 -   Don't change status too frequently. Status bar icons shouldn't appear noisy, unstable, or demand attention. The eye is sensitive to changes in the peripheral field of vision, so status changes need to be subtle.
 -   For icons that provide important status information, prefer in-place labels.
@@ -134,9 +139,9 @@ For more information, see [Icons](vis-icons.md).
 
 Refer to status bars as status bars, not status lines or other variations. Example: "The current page number is displayed on the status bar."
 
- 
+ 
 
- 
+ 
 
 
 

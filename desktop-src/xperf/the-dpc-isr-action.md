@@ -1,7 +1,12 @@
 ---
 title: The DPC/ISR Action
 description: The DPC/ISR Action
-ms.assetid: '2f17e1e1-a796-401b-b3b6-7292c734bf46'
+ms.assetid: 2f17e1e1-a796-401b-b3b6-7292c734bf46
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The DPC/ISR Action
@@ -28,13 +33,13 @@ The DPC/ISR action produces a text report that summarizes the various metrics re
 
 
 
- 
+ 
 
 If no data type is specified, default is to show report for both DPC and ISR. If no report type is specified, default is to print all three kinds of report.
 
- 
+ 
 
- 
+ 
 
 
 

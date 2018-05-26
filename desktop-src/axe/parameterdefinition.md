@@ -1,14 +1,20 @@
 ---
 title: ParameterDefinition element
 description: Information that fully describes an assessment parameter.
-ms.assetid: 'BD6F2A7B-0A32-4D71-9655-F88F3FCBB78F'
-keywords: ["ParameterDefinition element Access Execution Engine"]
+ms.assetid: BD6F2A7B-0A32-4D71-9655-F88F3FCBB78F
+keywords:
+- ParameterDefinition element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ParameterDefinition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParameterDefinition element
@@ -77,9 +83,9 @@ There are no attributes.
 
 A parameter definition is the meta information that fully describes an assessment parameter. This information is used by AXE solutions (UX or scripts) to add, validate and otherwise manipulate parameter values.
 
-Note that parameter definitions are separate from parameter values. Definitions are static and defined by an assessment author when an assessment is authored. Values are defined by a user (or script) using an AXE solution. Solutions can be any program that uses the AXE API’s to create and run jobs. This includes UX based tools and PowerShell scripts.
+Note that parameter definitions are separate from parameter values. Definitions are static and defined by an assessment author when an assessment is authored. Values are defined by a user (or script) using an AXE solution. Solutions can be any program that uses the AXE API s to create and run jobs. This includes UX based tools and PowerShell scripts.
 
-The order of **ParameterDefinition** elements in the [**ParameterDefinitions**](parameterdefinitions.md) elements is significant. AXE assessment authoring tools should maintain the order. The order determines how a assessment’s command line is formatted (if there is one). Parameters should be put on the assessment command line in the same order as in **ParameterDefinitions**. This means each parameter has an implicit zero based index based on its position in the **ParameterDefinitions** collection.
+The order of **ParameterDefinition** elements in the [**ParameterDefinitions**](parameterdefinitions.md) elements is significant. AXE assessment authoring tools should maintain the order. The order determines how a assessment s command line is formatted (if there is one). Parameters should be put on the assessment command line in the same order as in **ParameterDefinitions**. This means each parameter has an implicit zero based index based on its position in the **ParameterDefinitions** collection.
 
 Each of the **ParameterDefinition** nodes in the [**ParameterDefinitions**](parameterdefinitions.md) collection must each have a unique programmatic name.
 
@@ -100,9 +106,9 @@ Each of the **ParameterDefinition** nodes in the [**ParameterDefinitions**](para
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

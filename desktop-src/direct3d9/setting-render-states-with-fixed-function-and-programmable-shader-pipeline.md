@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides the key differences between setting device state with the fixed-function and programmable shader pipeline.'
-ms.assetid: 'FF0F2A97-F75A-4AF0-8F5A-EA687523E753'
-title: 'Setting device state with the fixed-function and programmable shader pipeline'
+Description: This section provides the key differences between setting device state with the fixed-function and programmable shader pipeline.
+ms.assetid: FF0F2A97-F75A-4AF0-8F5A-EA687523E753
+title: Setting device state with the fixed-function and programmable shader pipeline
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting device state with the fixed-function and programmable shader pipeline
@@ -10,11 +15,11 @@ This section provides the key differences between setting device state with the 
 
 Here are the device states that you can set for just a fixed-function pipeline:
 
--   Fixed-function transform and lighting: [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) with D3DRS\_SHADEMODE, D3DRS\_SPECULARENABLE, D3DRS\_LIGHTING, D3DRS\_AMBIENT, D3DRS\_COLORVERTEX, D3DRS\_LOCALVIEWER, D3DRS\_NORMALIZENORMALS, D3DRS\_DIFFUSEMATERIALSOURCE, D3DRS\_SPECULARMATERIALSOURCE, D3DRS\_AMBIENTMATERIALSOURCE, D3DRS\_EMISSIVEMATERIALSOURCE, D3DRS\_VERTEXBLEND, D3DRS\_INDEXEDVERTEXBLENDENABLE, D3DRS\_TWEENFACTOR, [**IDirect3DDevice9::LightEnable**](idirect3ddevice9--lightenable.md), [**IDirect3DDevice9::MultiplyTransform**](idirect3ddevice9--multiplytransform.md), [**IDirect3DDevice9::SetFVF**](idirect3ddevice9--setfvf.md), [**IDirect3DDevice9::SetLight**](idirect3ddevice9--setlight.md), [**IDirect3DDevice9::SetMaterial**](idirect3ddevice9--setmaterial.md), [**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md)
--   Fixed-function pixel shader: [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) with D3DRS\_TEXTUREFACTOR, [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md)
--   Fog: [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) with D3DRS\_FOGENABLE, D3DRS\_FOGCOLOR, D3DRS\_FOGTABLEMODE, D3DRS\_FOGSTART, D3DRS\_FOGEND, D3DRS\_FOGDENSITY, D3DRS\_RANGEFOGENABLE, D3DRS\_FOGVERTEXMODE
+-   Fixed-function transform and lighting: [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) with D3DRS\_SHADEMODE, D3DRS\_SPECULARENABLE, D3DRS\_LIGHTING, D3DRS\_AMBIENT, D3DRS\_COLORVERTEX, D3DRS\_LOCALVIEWER, D3DRS\_NORMALIZENORMALS, D3DRS\_DIFFUSEMATERIALSOURCE, D3DRS\_SPECULARMATERIALSOURCE, D3DRS\_AMBIENTMATERIALSOURCE, D3DRS\_EMISSIVEMATERIALSOURCE, D3DRS\_VERTEXBLEND, D3DRS\_INDEXEDVERTEXBLENDENABLE, D3DRS\_TWEENFACTOR, [**IDirect3DDevice9::LightEnable**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-lightenable?branch=master), [**IDirect3DDevice9::MultiplyTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-multiplytransform?branch=master), [**IDirect3DDevice9::SetFVF**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setfvf?branch=master), [**IDirect3DDevice9::SetLight**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setlight?branch=master), [**IDirect3DDevice9::SetMaterial**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setmaterial?branch=master), [**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master)
+-   Fixed-function pixel shader: [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) with D3DRS\_TEXTUREFACTOR, [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master)
+-   Fog: [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) with D3DRS\_FOGENABLE, D3DRS\_FOGCOLOR, D3DRS\_FOGTABLEMODE, D3DRS\_FOGSTART, D3DRS\_FOGEND, D3DRS\_FOGDENSITY, D3DRS\_RANGEFOGENABLE, D3DRS\_FOGVERTEXMODE
 
-Here are the device render states that you can set with [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) for both fixed-function and programmable shader pipelines:
+Here are the device render states that you can set with [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) for both fixed-function and programmable shader pipelines:
 
 -   Render Target state: D3DRS\_COLORWRITEENABLE, D3DRS\_COLORWRITEENABLE1, D3DRS\_COLORWRITEENABLE2, D3DRS\_COLORWRITEENABLE3, D3DRS\_SRGBWRITEENABLE
 -   Depth state: D3DRS\_ZENABLE, D3DRS\_ZWRITEENABLE, D3DRS\_ZFUNC, D3DRS\_SLOPESCALEDEPTHBIAS, D3DRS\_DEPTHBIAS

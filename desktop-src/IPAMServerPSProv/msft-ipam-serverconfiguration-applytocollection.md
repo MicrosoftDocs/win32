@@ -1,15 +1,18 @@
 ---
-Description: 'Applies the setting to a collection of managed system elements.'
+Description: Applies the setting to a collection of managed system elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'CCD95EA6-11C7-474D-A4E2-3DF245C7E3BF'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: CCD95EA6-11C7-474D-A4E2-3DF245C7E3BF
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ApplyToCollection method of the MSFT\_IPAM\_ServerConfiguration class'
+title: ApplyToCollection method of the MSFT\_IPAM\_ServerConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplyToCollection method of the MSFT\_IPAM\_ServerConfiguration class
@@ -23,11 +26,11 @@ This method is inherited from the **CIM\_Setting** class.
 
 ```mof
 uint32 ApplyToCollection(
-  [in]  CIM_CollectionOfMSEs Ref Collection,
-  [in]  datetime                 TimeToApply,
-  [in]  boolean                  ContinueOnError,
-  [in]  datetime                 MustBeCompletedBy,
-  [out] string                   CanNotApply[]
+  [in]  CIM_CollectionOfMSEs Ref Collection,
+  [in]  datetime                 TimeToApply,
+  [in]  boolean                  ContinueOnError,
+  [in]  datetime                 MustBeCompletedBy,
+  [out] string                   CanNotApply[]
 );
 ```
 
@@ -59,7 +62,7 @@ The time or time interval to verify with the setting.
 > [!Note]  
 > For each failed application of the setting, the corresponding managed system element is added to the **CanNotApply** array.
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +125,7 @@ There was an error using the **ContinueOnError** property value.
 
 </dt> <dd>
 
-4–...
+4 ...
 
 Any other error.
 
@@ -135,7 +138,7 @@ Any other error.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -149,9 +152,9 @@ Any other error.
 [**MSFT\_IPAM\_ServerConfiguration**](msft-ipam-serverconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

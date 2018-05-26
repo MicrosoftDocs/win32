@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Activity property creates a FaxActivity configuration object. The object permits a fax client application to access information about the activity on a connected fax server, and the fax server status.'
-ms.assetid: 'e2da7ab0-3a99-429c-beeb-756acddc8d99'
-title: 'FaxServer.Activity property'
+---
+Description: The Activity property creates a FaxActivity configuration object. The object permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+ms.assetid: e2da7ab0-3a99-429c-beeb-756acddc8d99
+title: FaxServer.Activity property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Activity property
@@ -46,7 +51,7 @@ A [**FaxActivity**](-mfax-faxactivity.md) object.
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

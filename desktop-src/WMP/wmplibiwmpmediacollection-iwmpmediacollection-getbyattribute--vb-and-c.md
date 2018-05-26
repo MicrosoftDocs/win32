@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection getByAttribute method
 description: The getByAttribute method returns an IWMPPlaylist interface that corresponds to the specified attribute having the specified value.
-ms.assetid: 'ece70a2c-38bc-4652-8319-efcde5f9720a'
-keywords: ["getByAttribute method Windows Media Player", "getByAttribute method Windows Media Player , IWMPMediaCollection interface", "IWMPMediaCollection interface Windows Media Player , getByAttribute method"]
+ms.assetid: ece70a2c-38bc-4652-8319-efcde5f9720a
+keywords:
+- getByAttribute method Windows Media Player
+- getByAttribute method Windows Media Player , IWMPMediaCollection interface
+- IWMPMediaCollection interface Windows Media Player , getByAttribute method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection::getByAttribute method
@@ -92,7 +100,7 @@ You can use this method to retrieve all of the media items of a specific type. U
 
 
 
- 
+ 
 
 Before calling this method, you must have read access to the library. For more information, see [Library Access](library-access.md).
 
@@ -168,9 +176,9 @@ player.Ctlcontrols.play()</code></pre></td>
 [**IWMPPlaylistCollection.getAll (VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getall--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

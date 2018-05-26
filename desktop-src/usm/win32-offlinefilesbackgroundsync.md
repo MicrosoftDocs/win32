@@ -1,8 +1,10 @@
 ---
 title: Win32\_OfflineFilesBackgroundSync class
 description: Represents a background synchronization operation.
-ms.assetid: '8bbee4fa-5858-40e0-8533-1c4794655716'
-keywords: ["Win32_OfflineFilesBackgroundSync class User State Manageability API", "Win32_OfflineFilesBackgroundSync class User State Manageability API , described"]
+ms.assetid: 8bbee4fa-5858-40e0-8533-1c4794655716
+keywords:
+- Win32_OfflineFilesBackgroundSync class User State Manageability API
+- Win32_OfflineFilesBackgroundSync class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_OfflineFilesBackgroundSync class
@@ -30,11 +37,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_OfflineFilesBackgroundSync
 {
-  uint16  SyncInterval;
-  uint16  SyncVariance;
-  uint16  MaxTimeBetweenSyncs;
-  uint16  BlockOutStartTimeHoursMinutes;
-  uint16  BlockOutDurationMin;
+  uint16  SyncInterval;
+  uint16  SyncVariance;
+  uint16  MaxTimeBetweenSyncs;
+  uint16  BlockOutStartTimeHoursMinutes;
+  uint16  BlockOutDurationMin;
   boolean BackgroundSyncWorkOfflineSharesEnabled;
 };
 ```
@@ -153,8 +160,8 @@ By default, network folders in offline mode will be synchronized with the server
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                              |
 | MOF<br/>                      | <dl> <dt>OfflineFilesConfigurationWmiProvider.mof</dt> </dl> |
 
@@ -167,9 +174,9 @@ By default, network folders in offline mode will be synchronized with the server
 [**Win32\_RoamingProfileMachineConfiguration**](win32-roamingprofilemachineconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

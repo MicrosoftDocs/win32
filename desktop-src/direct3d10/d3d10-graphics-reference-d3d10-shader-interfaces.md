@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the following shader interfaces:'
-ms.assetid: 'd8770b45-a05c-4dd8-9fa7-08fb4330d734'
+Description: This section contains information about the following shader interfaces
+ms.assetid: d8770b45-a05c-4dd8-9fa7-08fb4330d734
 title: Shader Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Interfaces
@@ -14,9 +19,9 @@ Each of these shader interfaces manages a compiled shader. The interface is crea
 
 | Pipeline-Stage Interfaces                                      | Description                                                                                                                                 |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ID3D10GeometryShader Interface**](id3d10geometryshader.md) | A geometry-shader implements per-primitive processing in the [geometry-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md). |
-| [**ID3D10PixelShader Interface**](id3d10pixelshader.md)       | A pixel-shader implements per-pixel processing in the [pixel-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).           |
-| [**ID3D10VertexShader Interface**](id3d10vertexshader.md)     | A vertex-shader implements per-vertex processing in the [vertex-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).        |
+| [**ID3D10GeometryShader Interface**](/windows/win32/D3D10/?branch=master) | A geometry-shader implements per-primitive processing in the [geometry-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md). |
+| [**ID3D10PixelShader Interface**](/windows/win32/D3D10/?branch=master)       | A pixel-shader implements per-pixel processing in the [pixel-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).           |
+| [**ID3D10VertexShader Interface**](/windows/win32/D3D10/?branch=master)     | A vertex-shader implements per-vertex processing in the [vertex-shader stage](d3d10-graphics-programming-guide-pipeline-stages.md).        |
 
 
 
@@ -28,17 +33,17 @@ Shader-reflection interfaces allow an application to inspect the contents of a s
 
 | Shader-Reflection Interfaces                                                                   | Description                                                                        |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [**ID3D10ShaderReflection Interface**](id3d10shaderreflection.md)                             | A COM interface for reading information from a compiled shader at author time.     |
-| [**ID3D10ShaderReflectionConstantBuffer Interface**](id3d10shaderreflectionconstantbuffer.md) | A helper interface for getting a shader-reflection constant-buffer interface.      |
-| [**ID3D10ShaderReflectionType Interface**](id3d10shaderreflectiontype.md)                     | A helper interface for getting a shader-reflection-type interface.                 |
-| [**ID3D10ShaderReflectionVariable Interface**](id3d10shaderreflectionvariable.md)             | A helper interface for getting a shader-reflection-variable interface.             |
-| [**ID3D10ShaderResourceView Interface**](id3d10shaderresourceview.md)                         | A shader-reflection interface for reading information from a shader-resource view. |
+| [**ID3D10ShaderReflection Interface**](/windows/win32/D3D10Shader/nn-d3d10shader-id3d10shaderreflection?branch=master)                             | A COM interface for reading information from a compiled shader at author time.     |
+| [**ID3D10ShaderReflectionConstantBuffer Interface**](/windows/win32/D3D10Shader/nn-d3d10shader-id3d10shaderreflectionconstantbuffer?branch=master) | A helper interface for getting a shader-reflection constant-buffer interface.      |
+| [**ID3D10ShaderReflectionType Interface**](/windows/win32/D3D10Shader/nn-d3d10shader-id3d10shaderreflectiontype?branch=master)                     | A helper interface for getting a shader-reflection-type interface.                 |
+| [**ID3D10ShaderReflectionVariable Interface**](/windows/win32/D3D10Shader/nn-d3d10shader-id3d10shaderreflectionvariable?branch=master)             | A helper interface for getting a shader-reflection-variable interface.             |
+| [**ID3D10ShaderResourceView Interface**](/windows/win32/d3d10/nn-d3d10-id3d10shaderresourceview?branch=master)                         | A shader-reflection interface for reading information from a shader-resource view. |
 
 
 
  
 
-Shader reflection APIs implement one COM shader reflection interface ([**ID3D10ShaderReflection Interface**](id3d10shaderreflection.md)) and several non-COM helper interfaces (the rest of the interfaces). **ID3D10ShaderReflection Interface** is created when a shader reflection object is created. It follows standard COM rules; creating the interface increases a reference count and the interface must be released when it is no longer needed. The remaining shader-reflection interfaces are helper interfaces that do not inherit from IUnknown. This means that they do not change any reference count when they are created, and they do not need to be destroyed when you are finished with them.
+Shader reflection APIs implement one COM shader reflection interface ([**ID3D10ShaderReflection Interface**](/windows/win32/D3D10Shader/nn-d3d10shader-id3d10shaderreflection?branch=master)) and several non-COM helper interfaces (the rest of the interfaces). **ID3D10ShaderReflection Interface** is created when a shader reflection object is created. It follows standard COM rules; creating the interface increases a reference count and the interface must be released when it is no longer needed. The remaining shader-reflection interfaces are helper interfaces that do not inherit from IUnknown. This means that they do not change any reference count when they are created, and they do not need to be destroyed when you are finished with them.
 
 ## Related topics
 

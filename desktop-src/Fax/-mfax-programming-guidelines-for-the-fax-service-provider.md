@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics contain programming guidelines for developing a fax service provider (FSP) DLL that integrates fax devices into the fax service.'
-ms.assetid: 'fbc8815a-c31e-4b45-a5bd-bca98236db61'
+Description: The following topics contain programming guidelines for developing a fax service provider (FSP) DLL that integrates fax devices into the fax service.
+ms.assetid: fbc8815a-c31e-4b45-a5bd-bca98236db61
 title: Programming Guidelines for the Fax Service Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guidelines for the Fax Service Provider

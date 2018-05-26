@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies that the current frame is encoded using one or multiple LTR frames.'
-ms.assetid: '51FD6E36-9CDF-4005-942F-7A92CA706F38'
-title: 'CODECAPI\_AVEncVideoUseLTRFrame property'
+Description: Specifies that the current frame is encoded using one or multiple LTR frames.
+ms.assetid: 51FD6E36-9CDF-4005-942F-7A92CA706F38
+title: CODECAPI\_AVEncVideoUseLTRFrame property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncVideoUseLTRFrame property
@@ -52,7 +57,7 @@ The value of this control includes two fields, where each field has 16 bits.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +75,8 @@ Calling CODECAPI\_AVEncVideoUseLTRFrame on a non-base layer frame is valid and s
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -83,9 +88,9 @@ Calling CODECAPI\_AVEncVideoUseLTRFrame on a non-base layer frame is valid and s
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

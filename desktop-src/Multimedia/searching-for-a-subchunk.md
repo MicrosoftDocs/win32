@@ -1,8 +1,22 @@
 ---
 title: Searching for a Subchunk
 description: Searching for a Subchunk
-ms.assetid: 'c494a57f-6395-40a4-a4f2-d200d7ad6223'
-keywords: ["multimedia file I/O,searching for RIFF chunk", "file I/O,searching for RIFF chunk", "input and output (I/O),searching for RIFF chunk", "I/O (input and output),searching for RIFF chunk", "searching for RIFF chunk", "resource interchange file format (RIFF)", "RIFF (resource interchange file format)", "RIFF I/O", "RIFF chunk"]
+ms.assetid: c494a57f-6395-40a4-a4f2-d200d7ad6223
+keywords:
+- multimedia file I/O,searching for RIFF chunk
+- file I/O,searching for RIFF chunk
+- input and output (I/O),searching for RIFF chunk
+- I/O (input and output),searching for RIFF chunk
+- searching for RIFF chunk
+- resource interchange file format (RIFF)
+- RIFF (resource interchange file format)
+- RIFF I/O
+- RIFF chunk
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching for a Subchunk

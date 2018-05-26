@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_BIR\_DATA structure
 description: Specifies the size, in bytes, and the offset of a block of biometric information.
-ms.assetid: '2f73eb1f-f1a1-4831-a8f7-eec28aa51645'
-keywords: ["WINBIO_BIR_DATA structure Windows Biometric Framework API"]
+ms.assetid: 2f73eb1f-f1a1-4831-a8f7-eec28aa51645
+keywords:
+- WINBIO_BIR_DATA structure Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BIR\_DATA structure
@@ -57,8 +63,8 @@ The use of offsets rather than pointers allows for easy serialization of the BIR
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The use of offsets rather than pointers allows for easy serialization of the BIR
 [**WINBIO\_BIR\_HEADER**](winbio-bir-header.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

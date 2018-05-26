@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement GetRegisteredEnforcementClients method
 description: Retrieves information about the registered enforcement clients.
-ms.assetid: 'aae7c57c-a7fe-4cb2-94f6-53e501e38054'
-keywords: ["GetRegisteredEnforcementClients method NAP", "GetRegisteredEnforcementClients method NAP , INapClientManagement interface", "INapClientManagement interface NAP , GetRegisteredEnforcementClients method"]
+ms.assetid: aae7c57c-a7fe-4cb2-94f6-53e501e38054
+keywords:
+- GetRegisteredEnforcementClients method NAP
+- GetRegisteredEnforcementClients method NAP , INapClientManagement interface
+- INapClientManagement interface NAP , GetRegisteredEnforcementClients method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement::GetRegisteredEnforcementClients method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetRegisteredEnforcementClients** method retrieves information about the registered enforcement clients.
 
@@ -27,8 +35,8 @@ The **GetRegisteredEnforcementClients** method retrieves information about the r
 
 ```C++
 HRESULT GetRegisteredEnforcementClients(
-  [out] EnforcementEntityCount       *count,
-  [out] NapComponentRegistrationInfo **enforcers
+  [out] EnforcementEntityCount       *count,
+  [out] NapComponentRegistrationInfo **enforcers
 ) const;
 ```
 
@@ -48,7 +56,7 @@ A pointer to a [**EnforcementEntityCount**](nap-datatypes.md) that contains the 
 *enforcers* \[out\]
 </dt> <dd>
 
-A pointer to an array of [**NapComponentRegistrationInfo**](napcomponentregistrationinfo-struct.md) structures that describe the registered enforcement clients.
+A pointer to an array of [**NapComponentRegistrationInfo**](/windows/win32/NapTypes/ns-naptypes-tagnapcomponentregistrationinfo?branch=master) structures that describe the registered enforcement clients.
 
 </dd> </dl>
 
@@ -67,7 +75,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,8 +83,8 @@ The method returns an HRESULT status code including but not limited to one of th
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -90,9 +98,9 @@ The method returns an HRESULT status code including but not limited to one of th
 [**INapClientManagement**](inapclientmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

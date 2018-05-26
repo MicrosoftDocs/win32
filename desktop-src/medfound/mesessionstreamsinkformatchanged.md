@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the Media Session when the format changes on a media sink.'
-ms.assetid: 'f56419f8-7f50-4eda-bf4a-fcdbbe46e180'
+---
+Description: Raised by the Media Session when the format changes on a media sink.
+ms.assetid: f56419f8-7f50-4eda-bf4a-fcdbbe46e180
 title: MESessionStreamSinkFormatChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionStreamSinkFormatChanged event
@@ -10,7 +15,7 @@ Raised by the Media Session when the format changes on a media sink.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

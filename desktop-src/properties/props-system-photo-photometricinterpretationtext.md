@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly form of System.Photo.PhotometricInterpretation.'
-ms.assetid: 'e61bdfd5-0602-4964-b761-720fe58f5d31'
-title: 'System.Photo.PhotometricInterpretationText'
+Description: The user-friendly form of System.Photo.PhotometricInterpretation.
+ms.assetid: e61bdfd5-0602-4964-b761-720fe58f5d31
+title: System.Photo.PhotometricInterpretationText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.PhotometricInterpretationText

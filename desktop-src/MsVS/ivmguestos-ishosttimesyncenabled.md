@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS IsHostTimeSyncEnabled property
-description: The IsHostTimeSyncEnabled property contains TRUE if the Additions in this virtual machine should synchronize the guest's clock with the host's clock.
-ms.assetid: 'fa72b38a-ffd1-4d1b-9108-2b371c631bf4'
-keywords: ["IsHostTimeSyncEnabled property Virtual Server", "IsHostTimeSyncEnabled property Virtual Server , IVMGuestOS interface", "IVMGuestOS interface Virtual Server , IsHostTimeSyncEnabled property", "IsHostTimeSyncEnabled property Virtual Server , VMGuestOS interface", "VMGuestOS interface Virtual Server , IsHostTimeSyncEnabled property"]
+description: The IsHostTimeSyncEnabled property contains TRUE if the Additions in this virtual machine should synchronize the guests clock with the hosts clock.
+ms.assetid: fa72b38a-ffd1-4d1b-9108-2b371c631bf4
+keywords:
+- IsHostTimeSyncEnabled property Virtual Server
+- IsHostTimeSyncEnabled property Virtual Server , IVMGuestOS interface
+- IVMGuestOS interface Virtual Server , IsHostTimeSyncEnabled property
+- IsHostTimeSyncEnabled property Virtual Server , VMGuestOS interface
+- VMGuestOS interface Virtual Server , IsHostTimeSyncEnabled property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::IsHostTimeSyncEnabled property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_IsHostTimeSyncEnabled(
-  [in]  VARIANT_BOOL shouldEnable
+  [in]  VARIANT_BOOL shouldEnable
 );
 
 HRESULT get_IsHostTimeSyncEnabled(
-  [out] VARIANT_BOOL *isEnabled
+  [out] VARIANT_BOOL *isEnabled
 );
 ```
 
@@ -87,8 +97,8 @@ You cannot change this setting while the virtual machine is active (that is, run
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -100,9 +110,9 @@ You cannot change this setting while the virtual machine is active (that is, run
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: CreateVolume method of the MSFT\_StoragePool class
 description: Creates a virtual disk and single volume using the resources of the storage pool.
-ms.assetid: '35FFE851-F9A4-43D6-BBB6-975836E79105'
-keywords: ["CreateVolume method Windows Storage Management API", "CreateVolume method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , CreateVolume method"]
+ms.assetid: 35FFE851-F9A4-43D6-BBB6-975836E79105
+keywords:
+- CreateVolume method Windows Storage Management API
+- CreateVolume method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , CreateVolume method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVolume method of the MSFT\_StoragePool class
@@ -22,20 +30,20 @@ Creates a virtual disk and single volume using the resources of the storage pool
 
 ```mof
 UInt32 CreateVolume(
-  [in]  String              FriendlyName,
-  [in]  UInt64              Size,
-  [in]  String              StorageTiers[],
-  [in]  UInt64              StorageTierSizes[],
-  [in]  UInt16              ProvisioningType,
-  [in]  String              ResiliencySettingName,
-  [in]  UInt16              PhysicalDiskRedundancy,
-  [in]  UInt16              NumberOfColumns,
-  [in]  UInt16              FileSystem,
-  [in]  String              AccessPath,
-  [in]  String              FileServer,
-  [out] String              CreatedVolume,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              FriendlyName,
+  [in]  UInt64              Size,
+  [in]  String              StorageTiers[],
+  [in]  UInt64              StorageTierSizes[],
+  [in]  UInt16              ProvisioningType,
+  [in]  String              ResiliencySettingName,
+  [in]  UInt16              PhysicalDiskRedundancy,
+  [in]  UInt16              NumberOfColumns,
+  [in]  UInt16              FileSystem,
+  [in]  String              AccessPath,
+  [in]  String              FileServer,
+  [out] String              CreatedVolume,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -89,7 +97,7 @@ The provisioning type of the volume.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,7 +140,7 @@ This parameter is required and cannot be **NULL**.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -146,7 +154,7 @@ A local access path to the volume. If the access path could not be set, or this 
 *FileServer* \[in\]
 </dt> <dd>
 
-**Starting in Windows 10:** A string that contains an embedded [**MSFT\_FileServer**](msft-fileserver.md) object, representing the file server that will own this volume.
+**Starting in Windows 10:** A string that contains an embedded [**MSFT\_FileServer**](msft-fileserver.md) object, representing the file server that will own this volume.
 
 </dd> <dt>
 
@@ -295,8 +303,8 @@ Extended error information in a [**MSFT\_StorageExtendedStatus**](msft-storageex
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -309,9 +317,9 @@ Extended error information in a [**MSFT\_StorageExtendedStatus**](msft-storageex
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

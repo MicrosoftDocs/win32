@@ -1,8 +1,18 @@
 ---
 title: Porting Display Lists
-description: The OpenGL implementation of display lists is similar to the IRIS GL implementation, with two exceptions in OpenGL you can't edit display lists once you've created them and you can't call functions from within display lists.
-ms.assetid: '617e19ff-6a55-4f7c-b229-075cdee8f1cf'
-keywords: ["IRIS GL porting,display lists", "porting from IRIS GL,display lists", "porting to OpenGL from IRIS GL,display lists", "OpenGL porting from IRIS GL,display lists", "display lists,porting from IRIS GL"]
+description: The OpenGL implementation of display lists is similar to the IRIS GL implementation, with two exceptions in OpenGL you cant edit display lists once youve created them and you cant call functions from within display lists.
+ms.assetid: 617e19ff-6a55-4f7c-b229-075cdee8f1cf
+keywords:
+- IRIS GL porting,display lists
+- porting from IRIS GL,display lists
+- porting to OpenGL from IRIS GL,display lists
+- OpenGL porting from IRIS GL,display lists
+- display lists,porting from IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Display Lists

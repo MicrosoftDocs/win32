@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.'
-ms.assetid: '750fda76-4c6e-4a8f-8f0f-304ae31f6f0a'
-title: 'FaxRoutingMethod.Enable property'
+---
+Description: The Enable property is a Boolean value that indicates whether a fax routing method is enabled on a particular fax port.
+ms.assetid: 750fda76-4c6e-4a8f-8f0f-304ae31f6f0a
+title: FaxRoutingMethod.Enable property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.Enable property
@@ -53,10 +58,10 @@ If a fax client application passes a value of TRUE to the **Enable** property, t
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
 [**CanModify**](-mfax-ifaxport-get-canmodify-vb.md)

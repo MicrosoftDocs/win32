@@ -1,12 +1,17 @@
 ---
-Description: 'Direct3D enables one shading mode to be selected at a time.'
-ms.assetid: '9531947d-4cd8-43c3-8825-4c48a0d69395'
-title: 'Setting the Shading Mode (Direct3D 9)'
+Description: Direct3D enables one shading mode to be selected at a time.
+ms.assetid: 9531947d-4cd8-43c3-8825-4c48a0d69395
+title: Setting the Shading Mode (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Shading Mode (Direct3D 9)
 
-Direct3D enables one shading mode to be selected at a time. By default, Gouraud shading is selected. In C++, you can change the shading mode by calling the [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) method. Set the *State* parameter to D3DRS\_SHADEMODE. The *State* parameter must be set to a member of the [**D3DSHADEMODE**](direct3d9.d3dshademode) enumeration. The following sample code examples illustrate how the current shading mode of a Direct3D application can be set to flat or Gouraud shading mode.
+Direct3D enables one shading mode to be selected at a time. By default, Gouraud shading is selected. In C++, you can change the shading mode by calling the [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) method. Set the *State* parameter to D3DRS\_SHADEMODE. The *State* parameter must be set to a member of the [**D3DSHADEMODE**](direct3d9.d3dshademode) enumeration. The following sample code examples illustrate how the current shading mode of a Direct3D application can be set to flat or Gouraud shading mode.
 
 
 ```

@@ -1,7 +1,12 @@
 ---
-Description: 'An operation was aborted because of an error.'
-ms.assetid: 'b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5'
-title: 'EC\_ERRORABORT'
+Description: An operation was aborted because of an error.
+ms.assetid: b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5
+title: EC\_ERRORABORT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_ERRORABORT
@@ -50,9 +55,9 @@ None.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

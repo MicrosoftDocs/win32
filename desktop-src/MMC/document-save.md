@@ -4,11 +4,16 @@ description: The Save method saves the persistent data for the document.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '571941f1-bfd0-4b26-83e7-f9ab897280e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 571941f1-bfd0-4b26-83e7-f9ab897280e7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Save method MMC", "Save method MMC , Document object", "Document object MMC , Save method", "Save method MMC , Document interface", "Document interface MMC , Save method"]
+keywords:
+- Save method MMC
+- Save method MMC , Document object
+- Document object MMC , Save method
+- Save method MMC , Document interface
+- Document interface MMC , Save method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::Save method
@@ -57,8 +65,8 @@ objDoc.Save
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ objDoc.Save
 [**Document.SaveAs**](document-saveas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

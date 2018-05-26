@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property represents the number of objects in the FaxDeviceProviders collection. This is the total number of fax device providers associated with the fax server.'
-ms.assetid: '79a17496-491f-43d3-9d81-24f69364feb2'
-title: 'FaxDeviceProviders.Count property'
+---
+Description: The Count property represents the number of objects in the FaxDeviceProviders collection. This is the total number of fax device providers associated with the fax server.
+ms.assetid: 79a17496-491f-43d3-9d81-24f69364feb2
+title: FaxDeviceProviders.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProviders.Count property
@@ -49,7 +54,7 @@ A **Long** that receives the number of fax device providers registered with the 
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

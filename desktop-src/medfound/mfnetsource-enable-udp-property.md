@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether User Datagram Protocol (UDP) transport is enabled in the network source.'
-ms.assetid: 'd46a59e6-8abc-484b-aecc-edf57ffff512'
-title: 'MFNETSOURCE\_ENABLE\_UDP property'
+---
+Description: Specifies whether User Datagram Protocol (UDP) transport is enabled in the network source.
+ms.assetid: d46a59e6-8abc-484b-aecc-edf57ffff512
+title: MFNETSOURCE\_ENABLE\_UDP property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_ENABLE\_UDP property

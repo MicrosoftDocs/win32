@@ -4,13 +4,15 @@ description: PS\_DhcpServerDnsCredential class.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fbfaf29f-b44d-46d4-ae5d-f8f4fc841c66'
-ms.prod: 'windows-server-dev'
+ms.assetid: fbfaf29f-b44d-46d4-ae5d-f8f4fc841c66
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DhcpServerDnsCredential class", "PS_DhcpServerDnsCredential class, described"]
+keywords:
+- PS_DhcpServerDnsCredential class
+- PS_DhcpServerDnsCredential class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DhcpServerDnsCredential class
@@ -56,7 +61,7 @@ The **PS\_DhcpServerDnsCredential** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,16 +70,16 @@ The **PS\_DhcpServerDnsCredential** class has these methods.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

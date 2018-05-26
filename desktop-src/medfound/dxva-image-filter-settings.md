@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following flags define DirectX Video Acceleration (DXVA) filter settings..'
-ms.assetid: '6514992e-8188-4d28-879c-547e9b340b28'
+---
+Description: The following flags define DirectX Video Acceleration (DXVA) filter settings..
+ms.assetid: 6514992e-8188-4d28-879c-547e9b340b28
 title: DXVA Image Filter Settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXVA Image Filter Settings

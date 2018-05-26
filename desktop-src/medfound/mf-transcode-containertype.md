@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the container type of an encoded file.'
-ms.assetid: '97fd968a-6843-4695-aece-02f9acd618fd'
-title: 'MF\_TRANSCODE\_CONTAINERTYPE attribute'
+---
+Description: Specifies the container type of an encoded file.
+ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
+title: MF\_TRANSCODE\_CONTAINERTYPE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSCODE\_CONTAINERTYPE attribute
@@ -36,9 +41,9 @@ Possible values for the container types provided by Media Foundation are describ
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetGUID**](imfattributes-getguid.md).
+To get this attribute, call [**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetGUID**](imfattributes-setguid.md).
+To set this attribute, call [**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master).
 
 ## Remarks
 
@@ -50,8 +55,8 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 The application must set the container attribute on the transcode profile before building the transcode topology. The topology builder analyses this attribute and loads the appropriate media sink in the pipeline. For more information, see the following topics:
 
--   [**IMFTranscodeProfile::GetContainerAttributes**](imftranscodeprofile-getcontainerattributes.md)
--   [**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md)
+-   [**IMFTranscodeProfile::GetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-getcontainerattributes?branch=master)
+-   [**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master)
 
 ### Sink Writer
 

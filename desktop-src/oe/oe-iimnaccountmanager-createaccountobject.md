@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager CreateAccountObject method
 description: Creates an empty account object.
-ms.assetid: '15c2cc00-ea80-4bd5-bc49-eb28a6d8bcac'
-keywords: ["CreateAccountObject method Windows Mail (formerly Outlook Express)", "CreateAccountObject method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , CreateAccountObject method"]
+ms.assetid: 15c2cc00-ea80-4bd5-bc49-eb28a6d8bcac
+keywords:
+- CreateAccountObject method Windows Mail (formerly Outlook Express)
+- CreateAccountObject method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , CreateAccountObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::CreateAccountObject method
@@ -24,8 +32,8 @@ Creates an empty account object.
 
 ```C++
 HRESULT CreateAccountObject(
-  [in]  ACCTTYPE    AcctType,
-  [out] IImnAccount **ppAccount
+  [in]  ACCTTYPE    AcctType,
+  [out] IImnAccount **ppAccount
 );
 ```
 
@@ -69,7 +77,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,8 +93,8 @@ A client can use the property interface of [**IImnAccount**](oe-iimnaccount.md) 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -94,9 +102,9 @@ A client can use the property interface of [**IImnAccount**](oe-iimnaccount.md) 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

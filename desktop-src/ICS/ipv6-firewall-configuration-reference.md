@@ -1,8 +1,15 @@
 ---
 title: IPv6 Internet Connection Firewall Reference
 description: The IPv6 ICF SDK is divided into the following sections.IPv6 Internet Connection Firewall InterfacesIPv6 Internet Connection Firewall Enumeration Types
-ms.assetid: '6706fc68-9737-471f-8b4b-74e21d4c2d99'
-keywords: ["IPv6", "reference"]
+ms.assetid: 6706fc68-9737-471f-8b4b-74e21d4c2d99
+keywords:
+- IPv6
+- reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Internet Connection Firewall Reference

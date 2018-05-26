@@ -1,8 +1,10 @@
 ---
 title: RAS\_PORT\_0 structure
 description: The RAS\_PORT\_0 structure contains information that describes a RAS port.
-ms.assetid: '750fc705-0770-427b-b7d6-7876b8b9118a'
-keywords: ["RAS_PORT_0 structure RAS", "PRAS_PORT_0 structure pointer RAS"]
+ms.assetid: 750fc705-0770-427b-b7d6-7876b8b9118a
+keywords:
+- RAS_PORT_0 structure RAS
+- PRAS_PORT_0 structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PORT\_0 structure
 
-\[This version of the **RAS\_PORT\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_PORT\_0**](ras-port-0.md) defined in mprapi.h instead.\]
+\[This version of the **RAS\_PORT\_0** structure is not supported as of Windows Vista. Use the newer [**RAS\_PORT\_0**](/windows/win32/Mprapi/ns-mprapi-_ras_port_0?branch=master) defined in mprapi.h instead.\]
 
 The **RAS\_PORT\_0** structure contains information that describes a RAS port.
 
@@ -34,7 +41,7 @@ typedef struct _RAS_PORT_0 {
   WCHAR wszComputer[NETBIOS_NAME_LEN];
   DWORD dwStartSessionTime;
   WCHAR wszLogonDomain[DNLEN + 1];
-  BOOL  fAdvancedServer;
+  BOOL  fAdvancedServer;
 } RAS_PORT_0, *PRAS_PORT_0;
 ```
 
@@ -97,7 +104,7 @@ Specifies a set of bit flags that specify the nature of the connection made on t
 
 
 
- 
+ 
 
 If the MESSENGER\_PRESENT, GATEWAY\_ACTIVE, and REMOTE\_LISTEN flags are set, use the messenger service to send an administrative message to the remote client. If MESSENGER\_PRESENT and REMOTE\_LISTEN are set, but GATEWAY\_ACTIVE is not, send messages to the client only from the RAS server to which the client is connected.
 
@@ -134,7 +141,7 @@ Specifies a null-terminated Unicode string that specifies the name of the domain
 **fAdvancedServer**
 </dt> <dd>
 
-Specifies a flag that is nonzero if the RAS server associated with this port is an advanced server such as Windows 2000 Advanced Server. Use this information to determine the name of the server that has the user account database. If the RAS server is an advanced server, get the name of the user account server by concatenating the prefix "\\\\" to the name returned in the **wszLogonDomain** member. This is because for an advanced server the local logon domain name is the same as the server name. If the RAS server is a workstation, use the [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) function to get the name of the user account server.
+Specifies a flag that is nonzero if the RAS server associated with this port is an advanced server such as Windows 2000 Advanced Server. Use this information to determine the name of the server that has the user account database. If the RAS server is an advanced server, get the name of the user account server by concatenating the prefix "\\\\" to the name returned in the **wszLogonDomain** member. This is because for an advanced server the local logon domain name is the same as the server name. If the RAS server is a workstation, use the [**RasAdminGetUserAccountServer**](rasadmingetuseraccountserver.md) function to get the name of the user account server.
 
 </dd> </dl>
 
@@ -144,10 +151,10 @@ Specifies a flag that is nonzero if the RAS server associated with this port is 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -174,9 +181,9 @@ Specifies a flag that is nonzero if the RAS server associated with this port is 
 [**RasAdminPortEnum**](rasadminportenum.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MDM\_MgmtAuthority class
 description: Represents a management authority and provides a method to create new authorities.
-ms.assetid: '910983f3-107e-467e-8aa6-7ac1b3e73f33'
-keywords: ["MDM_MgmtAuthority class MDM Settings", "MDM_MgmtAuthority class MDM Settings , described"]
+ms.assetid: 910983f3-107e-467e-8aa6-7ac1b3e73f33
+keywords:
+- MDM_MgmtAuthority class MDM Settings
+- MDM_MgmtAuthority class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_MgmtAuthority class
@@ -57,7 +64,7 @@ The **MDM\_MgmtAuthority** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -139,7 +146,7 @@ A list of the management server URLs that are associated with this authority.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -154,9 +161,9 @@ A list of the management server URLs that are associated with this authority.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

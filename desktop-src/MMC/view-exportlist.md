@@ -4,11 +4,16 @@ description: The ExportList method exports the selected list to the specified fi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff552b80-2f5f-4425-9157-71f7c7fb5a44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ff552b80-2f5f-4425-9157-71f7c7fb5a44
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ExportList method MMC", "ExportList method MMC , View object", "View object MMC , ExportList method", "ExportList method MMC , View interface", "View interface MMC , ExportList method"]
+keywords:
+- ExportList method MMC
+- ExportList method MMC , View object
+- View object MMC , ExportList method
+- ExportList method MMC , View interface
+- View interface MMC , ExportList method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ExportList method
@@ -120,8 +128,8 @@ objView.ExportList "D:\output.txt", _
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -136,9 +144,9 @@ objView.ExportList "D:\output.txt", _
 [**ExportListOptions**](exportlistoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

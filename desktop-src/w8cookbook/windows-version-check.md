@@ -1,7 +1,12 @@
 ---
 title: Windows version check
 description: The OS version has been incremented with the Windows 10 OS release.
-ms.assetid: '55BB7B44-1AFD-456D-9380-38B4D26E5EF6'
+ms.assetid: 55BB7B44-1AFD-456D-9380-38B4D26E5EF6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows version check

@@ -1,8 +1,11 @@
 ---
 title: PressKey method of the Msvm\_Keyboard class
 description: Simulates a key press.
-ms.assetid: '407525f4-0028-4591-a891-fc9599036d9c'
-keywords: ["PressKey method Hyper-V", "PressKey method Hyper-V , Msvm_Keyboard class", "Msvm_Keyboard class Hyper-V , PressKey method"]
+ms.assetid: 407525f4-0028-4591-a891-fc9599036d9c
+keywords:
+- PressKey method Hyper-V
+- PressKey method Hyper-V , Msvm_Keyboard class
+- Msvm_Keyboard class Hyper-V , PressKey method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PressKey method of the Msvm\_Keyboard class
@@ -22,7 +30,7 @@ Simulates a key press. When successful the key will be in the down state.
 
 ```mof
 uint32 PressKey(
-  [in] uint32 keyCode
+  [in] uint32 keyCode
 );
 ```
 
@@ -317,9 +325,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -335,9 +343,9 @@ End Function
 [**Virtual-Key Codes**](_win32_virtual_key_codes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

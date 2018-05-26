@@ -2,13 +2,19 @@
 title: /out switch
 description: The /out switch specifies the default directory where the MIDL compiler writes output files.
 ms.assetid: 37cfe989-137a-4336-8c66-e6b9c23473df
-keywords: ["/out switch MIDL"]
+keywords:
+- /out switch MIDL
 topic_type:
 - apiref
 api_name:
 - /out
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /out switch

@@ -1,8 +1,10 @@
 ---
 title: MDM\_BrowserSecurityZones class
 description: Contains configuration information about browser security zone settings on the device.
-ms.assetid: '66626aa8-392b-487a-9810-6f5e9d0a8fa1'
-keywords: ["MDM_BrowserSecurityZones class MDM Settings", "MDM_BrowserSecurityZones class MDM Settings , described"]
+ms.assetid: 66626aa8-392b-487a-9810-6f5e9d0a8fa1
+keywords:
+- MDM_BrowserSecurityZones class MDM Settings
+- MDM_BrowserSecurityZones class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_BrowserSecurityZones class
@@ -28,8 +35,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_BrowserSecurityZones
 {
-  string  Namespace;
-  Uint32  Zone;
+  string  Namespace;
+  Uint32  Zone;
   boolean Exists;
 };
 ```
@@ -127,7 +134,7 @@ The security zone.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -142,9 +149,9 @@ The security zone.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: trunc
 description: Truncates a floating-point value to the integer component.
-ms.assetid: 'a0978fa2-71f8-4257-8c90-96224c2ec953'
-keywords: ["trunc HLSL"]
+ms.assetid: a0978fa2-71f8-4257-8c90-96224c2ec953
+keywords:
+- trunc HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # trunc
@@ -24,7 +30,7 @@ Truncates a floating-point value to the integer component.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Truncates a floating-point value to the integer component.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ This function truncates a floating-point value to the integer component. Given a
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +77,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -90,9 +96,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

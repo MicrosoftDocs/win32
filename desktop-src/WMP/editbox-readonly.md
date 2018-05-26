@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.readOnly
 description: The readOnly attribute specifies or retrieves a value indicating whether text in the edit box control is read-only or can be edited.
-ms.assetid: 'ca0eb270-1903-4a6c-a0d4-2b416d02a9bd'
-keywords: ["EDITBOX.readOnly Windows Media Player"]
+ms.assetid: ca0eb270-1903-4a6c-a0d4-2b416d02a9bd
+keywords:
+- EDITBOX.readOnly Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.readOnly
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.readOnly
@@ -40,9 +46,9 @@ This attribute is a read/write **Boolean** with a default value of false.
 [**EDITBOX Element**](editbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

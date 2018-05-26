@@ -4,11 +4,13 @@ description: The Win32\_IP4PersistedRouteTable WMI class represents persisted IP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '474ce759-0b70-4925-a6b9-cbbb6ab1d4ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 474ce759-0b70-4925-a6b9-cbbb6ab1d4ac
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_IP4PersistedRouteTable class", "Win32_IP4PersistedRouteTable class, described"]
+keywords:
+- Win32_IP4PersistedRouteTable class
+- Win32_IP4PersistedRouteTable class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - Wmipiprt.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_IP4PersistedRouteTable class
@@ -44,15 +49,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("RouteProvider"), UUID("{2CAF4666-AC9B-45AB-00A6-AF8C537794C2}"), SupportsCreate, CreateBy("PutInstance"), SupportsDelete, DeleteBy("DeleteInstance"), AMENDMENT]
 class Win32_IP4PersistedRouteTable : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   Destination;
+  string   Caption;
+  string   Description;
+  string   Destination;
   datetime InstallDate;
-  string   Mask;
-  sint32   Metric1;
-  string   Name;
-  string   NextHop;
-  string   Status;
+  string   Mask;
+  sint32   Metric1;
+  string   Name;
+  string   NextHop;
+  string   Status;
 };
 ```
 
@@ -241,8 +246,8 @@ The **Win32\_IP4PersistedRouteTable** class is derived from [**CIM\_LogicalEleme
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipiprt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipiprt.dll</dt> </dl> |
@@ -259,9 +264,9 @@ The **Win32\_IP4PersistedRouteTable** class is derived from [**CIM\_LogicalEleme
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

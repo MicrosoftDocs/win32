@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines texture coordinate transformation values.'
-ms.assetid: 'a91f33ce-2db5-437a-ac29-402b26b0d4e1'
+---
+Description: Defines texture coordinate transformation values.
+ms.assetid: a91f33ce-2db5-437a-ac29-402b26b0d4e1
 title: D3DTEXTURETRANSFORMFLAGS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTEXTURETRANSFORMFLAGS enumeration
@@ -80,7 +85,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-Texture coordinates can be transformed using a 4 x 4 matrix before the results are passed to the rasterizer. The texture coordinate transforms are set by calling [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md), and by passing in the D3DTSS\_TEXTURETRANSFORMFLAGS texture stage state and one of the values from **D3DTEXTURETRANSFORMFLAGS**. For more information about texture transforms, see [Texture Coordinate Transformations (Direct3D 9)](texture-coordinate-transformations.md).
+Texture coordinates can be transformed using a 4 x 4 matrix before the results are passed to the rasterizer. The texture coordinate transforms are set by calling [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master), and by passing in the D3DTSS\_TEXTURETRANSFORMFLAGS texture stage state and one of the values from **D3DTEXTURETRANSFORMFLAGS**. For more information about texture transforms, see [Texture Coordinate Transformations (Direct3D 9)](texture-coordinate-transformations.md).
 
 ## Requirements
 

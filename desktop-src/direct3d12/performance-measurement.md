@@ -1,7 +1,12 @@
 ---
 title: Counters, Queries and Performance Measurement
 description: The following sections describe features for use in performance testing and improvement, such as queries, counters, timing, and predication.
-ms.assetid: 'C7AEF1A0-36FB-4026-9CCF-ED0206961A58'
+ms.assetid: C7AEF1A0-36FB-4026-9CCF-ED0206961A58
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Counters, Queries and Performance Measurement
@@ -20,7 +25,7 @@ The following sections describe features for use in performance testing and impr
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ The following sections describe features for use in performance testing and impr
 [Direct3D 12 Programming Guide](directx-12-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

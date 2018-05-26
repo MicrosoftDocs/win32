@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised when the IMFMediaSession::Start method completes asynchronously.'
-ms.assetid: '28ed32f0-9b23-4da1-9587-15f490da7bf9'
+---
+Description: Raised when the IMFMediaSessionStart method completes asynchronously.
+ms.assetid: 28ed32f0-9b23-4da1-9587-15f490da7bf9
 title: MESessionStarted event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionStarted event
 
-Raised when the [**IMFMediaSession::Start**](imfmediasession-start.md) method completes asynchronously.
+Raised when the [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) method completes asynchronously.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'H.264 Video Types'
-ms.assetid: 'aa3166b2-6b04-44fa-bc9d-c8ff46f99201'
-title: 'H.264 Video Types'
+Description: H.264 Video Types
+ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
+title: H.264 Video Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # H.264 Video Types
@@ -68,9 +73,9 @@ When start codes are not present in the bitstream, the following media type is u
 
  
 
-The format block is an [**MPEG2VIDEOINFO**](mpeg2videoinfo.md) structure. This structure should be filled in as follows:
+The format block is an [**MPEG2VIDEOINFO**](/windows/win32/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo?branch=master) structure. This structure should be filled in as follows:
 
--   **hdr**: A [**VIDEOINFOHEADER2**](videoinfoheader2.md) structure that describes the bitstream. No color table is present after the [**BITMAPINFOHEADER**](bitmapinfoheader.md) portion of the structure, and **biClrUsed** must be zero.
+-   **hdr**: A [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) structure that describes the bitstream. No color table is present after the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) portion of the structure, and **biClrUsed** must be zero.
 -   **dwStartTimeCode**: Not used. Set to zero.
 -   **cbSequenceHeader**: The length of the **dwSequenceHeader** array in bytes.
 -   **dwProfile**: Specifies the H.264 profile.

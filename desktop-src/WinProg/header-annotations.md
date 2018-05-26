@@ -1,15 +1,34 @@
 ---
 title: Header Annotations
 description: Header annotations describe how a function uses its parameters and return value.
-ms.assetid: '4f9e42b1-2fe4-4173-946e-ab1805a96b9e'
-keywords: ["Windows API, header file annotations", "header file annotations", "Specstrings.h", "standard annotation language (SAL)", "_bcount", "_deref", "_deref_opt", "_ecount", "_full", "_in", "_inout", "_opt", "_out", "_part"]
+ms.assetid: 4f9e42b1-2fe4-4173-946e-ab1805a96b9e
+keywords:
+- Windows API, header file annotations
+- header file annotations
+- Specstrings.h
+- standard annotation language (SAL)
+- _bcount
+- _deref
+- _deref_opt
+- _ecount
+- _full
+- _in
+- _inout
+- _opt
+- _out
+- _part
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header Annotations
 
 \[This topic describes the annotations supported in the Windows headers through Windows 7. If you are developing for Windows 8, you should use the annotations described in [SAL Annotations]( http://go.microsoft.com/fwlink/p/?linkid=247283).\]\]
 
-Header annotations describe how a function uses its parameters and return value. These annotations have been added to many of the Windows header files to help you ensure that you are calling the Windows API correctly. If you enable code analysis, which is available starting with the Visual Studio 2005, the compiler will produce level 6000 warnings if you are not calling these functions per the usage described through the annotations. You can also add these annotations in your own code to ensure that it is being called correctly. To enable code analysis in Visual Studio, see the documentation for your version of Visual Studio.
+Header annotations describe how a function uses its parameters and return value. These annotations have been added to many of the Windows header files to help you ensure that you are calling the Windows API correctly. If you enable code analysis, which is available starting with the Visual Studio 2005, the compiler will produce level 6000 warnings if you are not calling these functions per the usage described through the annotations. You can also add these annotations in your own code to ensure that it is being called correctly. To enable code analysis in Visual Studio, see the documentation for your version of Visual Studio.
 
 These annotations are defined in Specstrings.h. They are built on primitives that are part of the Standard Annotation Language (SAL) and implemented using `_declspec("SAL_*")`.
 
@@ -28,7 +47,7 @@ Buffer annotations describe how functions use their pointers and can be used to 
 
 
 
- 
+ 
 
 
 
@@ -39,7 +58,7 @@ Buffer annotations describe how functions use their pointers and can be used to 
 
 
 
- 
+ 
 
 
 
@@ -51,7 +70,7 @@ Buffer annotations describe how functions use their pointers and can be used to 
 
 
 
- 
+ 
 
 
 
@@ -62,7 +81,7 @@ Buffer annotations describe how functions use their pointers and can be used to 
 
 
 
- 
+ 
 
 
 
@@ -73,7 +92,7 @@ Buffer annotations describe how functions use their pointers and can be used to 
 
 
 
- 
+ 
 
 
 
@@ -83,7 +102,7 @@ Buffer annotations describe how functions use their pointers and can be used to 
 
 
 
- 
+ 
 
 The following example shows the annotations for the **GetModuleFileName** function. The *hModule* parameter is an optional input parameter . The *lpFilename* parameter is an output parameter; its size in characters is specified by the *nSize* parameter and its length includes the **null**-terminating character. The *nSize* parameter is an input parameter.
 
@@ -241,7 +260,7 @@ Advanced annotations provide additional information about the parameter or retur
 
 
 
- 
+ 
 
 The following examples show the buffer and advanced annotations for the [**DeleteTimerQueueTimer**](https://msdn.microsoft.com/library/windows/desktop/ms682569), [**FreeEnvironmentStrings**](https://msdn.microsoft.com/library/windows/desktop/ms683151), and [**UnhandledExceptionFilter**](https://msdn.microsoft.com/library/windows/desktop/ms681401) functions.
 
@@ -283,9 +302,9 @@ UnhandledExceptionFilter(
 [Walkthrough: Analyzing C/C++ Code for Defects](http://go.microsoft.com/fwlink/p/?linkid=101213)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

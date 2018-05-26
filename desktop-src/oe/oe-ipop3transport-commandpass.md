@@ -1,8 +1,11 @@
 ---
 title: IPOP3Transport CommandPASS method
 description: Sends the PASS command to the server.
-ms.assetid: 'ce7537ba-1b6b-4739-a9a1-3156aca00648'
-keywords: ["CommandPASS method Windows Mail (formerly Outlook Express)", "CommandPASS method Windows Mail (formerly Outlook Express) , IPOP3Transport interface", "IPOP3Transport interface Windows Mail (formerly Outlook Express) , CommandPASS method"]
+ms.assetid: ce7537ba-1b6b-4739-a9a1-3156aca00648
+keywords:
+- CommandPASS method Windows Mail (formerly Outlook Express)
+- CommandPASS method Windows Mail (formerly Outlook Express) , IPOP3Transport interface
+- IPOP3Transport interface Windows Mail (formerly Outlook Express) , CommandPASS method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPOP3Transport::CommandPASS method
@@ -24,7 +32,7 @@ Sends the PASS command to the server. Usually follows the [**IPOP3Transport::Com
 
 ```C++
 HRESULT CommandPASS(
-  [in] LPSTR pszPassword
+  [in] LPSTR pszPassword
 );
 ```
 
@@ -62,7 +70,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,8 +78,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -79,9 +87,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

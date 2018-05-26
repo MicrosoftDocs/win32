@@ -1,14 +1,20 @@
 ---
 title: StopAtDurationEnd (repetitionType) Element
 description: Specifies that a running instances of the task is stopped at the end of the repetition pattern duration.
-ms.assetid: '4e34b5b2-ac93-4951-9de4-3e89614517d1'
-keywords: ["StopAtDurationEnd element Task Scheduler"]
+ms.assetid: 4e34b5b2-ac93-4951-9de4-3e89614517d1
+keywords:
+- StopAtDurationEnd element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - StopAtDurationEnd
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopAtDurationEnd (repetitionType) Element
@@ -37,7 +43,7 @@ The **StopAtDurationEnd** element is defined by the [**repetitionType**](tasksch
 
 For scripting development, this setting is specified using the [**RepetitionPattern.StopAtDurationEnd**](repetitionpattern-stopatdurationend.md) property.
 
-For C++ development, this setting is specified using the [**IRepetitionPattern::StopAtDurationEnd**](irepetitionpattern-stopatdurationend.md) property.
+For C++ development, this setting is specified using the [**IRepetitionPattern::StopAtDurationEnd**](/windows/win32/taskschd/nf-taskschd-irepetitionpattern-get_stopatdurationend?branch=master) property.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ For C++ development, this setting is specified using the [**IRepetitionPattern::
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ For C++ development, this setting is specified using the [**IRepetitionPattern::
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

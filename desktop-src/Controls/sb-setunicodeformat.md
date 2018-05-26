@@ -1,8 +1,9 @@
 ---
 title: SB\_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control.
-ms.assetid: '022e7138-c12f-4c59-82da-2ac6d276fa77'
-keywords: ["SB_SETUNICODEFORMAT message Windows Controls"]
+ms.assetid: 022e7138-c12f-4c59-82da-2ac6d276fa77
+keywords:
+- SB_SETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_SETUNICODEFORMAT message
@@ -45,8 +51,8 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 [**SB\_GETUNICODEFORMAT**](sb-getunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

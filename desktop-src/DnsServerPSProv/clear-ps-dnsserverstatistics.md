@@ -2,13 +2,16 @@
 title: Clear method of the PS\_DnsServerStatistics class
 description: Clears all DNS server statistics.
 audience: developer
-ms.assetid: '8fa0d3d4-91e1-406c-9b26-56ba51008c7d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8fa0d3d4-91e1-406c-9b26-56ba51008c7d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Clear method", "Clear method, PS_DnsServerStatistics class", "PS_DnsServerStatistics class, Clear method"]
+keywords:
+- Clear method
+- Clear method, PS_DnsServerStatistics class
+- PS_DnsServerStatistics class, Clear method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Clear method of the PS\_DnsServerStatistics class
@@ -28,8 +34,8 @@ Clears all DNS server statistics.
 
 ```mof
 uint32 Clear(
-  [in] string  ComputerName,
-  [in] boolean Force
+  [in] string  ComputerName,
+  [in] boolean Force
 );
 ```
 
@@ -60,7 +66,7 @@ Specifies whether the method performs the operation without prompting for a conf
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Specifies whether the method performs the operation without prompting for a conf
 [**PS\_DnsServerStatistics**](ps-dnsserverstatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

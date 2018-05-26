@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PSCRIPT5\_PRIVATE\_DEVMODE structure enables Pscript5 plug-ins to determine the size of the private portion of Pscript5''s DEVMODEW structure.'
-ms.assetid: 'e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba'
-title: 'PSCRIPT5\_PRIVATE\_DEVMODE structure'
+---
+Description: The PSCRIPT5\_PRIVATE\_DEVMODE structure enables Pscript5 plug-ins to determine the size of the private portion of Pscript5s DEVMODEW structure.
+ms.assetid: e2ae002b-2bc9-4e5e-b9b6-bb76849c2cba
+title: PSCRIPT5\_PRIVATE\_DEVMODE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSCRIPT5\_PRIVATE\_DEVMODE structure

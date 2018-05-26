@@ -1,7 +1,12 @@
 ---
 Description: AVI Compressor Filter
-ms.assetid: 'addde51d-2982-4964-b16a-406fea89a0ce'
+ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: AVI Compressor Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVI Compressor Filter
@@ -10,7 +15,7 @@ The AVI Compressor filter enables Video Compression Manager (VCM) codecs to join
 
 The filter's input pin connects to filters that output uncompressed video data, such as video capture filters or the [AVI Splitter Filter](avi-splitter-filter.md). The filter's output pin typically connects to a MUX filter, such as the [AVI Mux Filter](avi-mux-filter.md).
 
-If the codec supports an old-style VFW configuration dialog box or About dialog box, an application can display it using the [**IAMVfwCompressDialogs**](iamvfwcompressdialogs.md) interface.
+If the codec supports an old-style VFW configuration dialog box or About dialog box, an application can display it using the [**IAMVfwCompressDialogs**](/windows/win32/Strmif/nn-strmif-iamvfwcompressdialogs?branch=master) interface.
 
 > [!Note]  
 > MPEG compressors are never implemented as VCM codecs, but only as native DirectShow filters.
@@ -21,11 +26,11 @@ If the codec supports an old-style VFW configuration dialog box or About dialog 
 
 |                                          |                                                                                                                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMVfwCompressDialogs**](iamvfwcompressdialogs.md), [**IBaseFilter**](ibasefilter.md), IPersistPropertyBag, ISpecifyPropertyPages                                                                                                             |
+| Filter Interfaces                        | [**IAMVfwCompressDialogs**](/windows/win32/Strmif/nn-strmif-iamvfwcompressdialogs?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), IPersistPropertyBag, ISpecifyPropertyPages                                                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL                                                                                                                                                                                                               |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                                                             |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                                                             |
 | Output Pin Media Types                   | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL                                                                                                                                                                                                               |
-| Output Pin Interfaces                    | [**IAMStreamConfig**](iamstreamconfig.md), [**IAMVideoCompression**](iamvideocompression.md), [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md) |
+| Output Pin Interfaces                    | [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master), [**IAMVideoCompression**](/windows/win32/Strmif/nn-strmif-iamvideocompression?branch=master), [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Filter CLSID                             | Not applicable                                                                                                                                                                                                                                     |
 | Property Page CLSID                      | No property page.                                                                                                                                                                                                                                  |
 | Executable                               | qcap.dll                                                                                                                                                                                                                                           |

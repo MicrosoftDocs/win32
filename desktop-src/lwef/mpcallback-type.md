@@ -1,8 +1,10 @@
 ---
 title: MPCALLBACK\_TYPE enumeration
 description: Possible callback types.
-ms.assetid: '8E4F50B7-0F02-434D-B91E-C9966C92CDC0'
-keywords: ["MPCALLBACK_TYPE enumeration Legacy Windows Environment Features", "PMPCALLBACK_TYPE enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 8E4F50B7-0F02-434D-B91E-C9966C92CDC0
+keywords:
+- MPCALLBACK_TYPE enumeration Legacy Windows Environment Features
+- PMPCALLBACK_TYPE enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPCALLBACK\_TYPE enumeration
@@ -22,23 +29,23 @@ Possible callback types.
 
 ```C++
 typedef enum tagMPCALLBACK_TYPE { 
-  MPCALLBACK_UNKNOWN                     = 0,
-  MPCALLBACK_STATUS                      = 1,
-  MPCALLBACK_THREAT                      = 2,
-  MPCALLBACK_SCAN                        = 3,
-  MPCALLBACK_CLEAN                       = 4,
-  MPCALLBACK_PRECHECK                    = 5,
-  MPCALLBACK_SIGUPDATE                   = 6,
-  MPCALLBACK_SAMPLE                      = 7,
-  MPCALLBACK_RESERVED                    = 8,
-  MPCALLBACK_CONFIGURATION_NOTIFICATION  = 9,
-  MPCALLBACK_FASTPATH                    = 10,
-  MPCALLBACK_PRODUCT_EXPIRATION          = 11,
-  MPCALLBACK_NIS_PRIVATE                 = 12,
-  MPCALLBACK_HEALTH                      = 13,
-  MPCALLBACK_ENDOFLIFE                   = 14,
-  MPCALLBACK_MALWARETOAST                = 15,
-  MPCALLBACK_MAXVALUE                    = 15
+  MPCALLBACK_UNKNOWN                     = 0,
+  MPCALLBACK_STATUS                      = 1,
+  MPCALLBACK_THREAT                      = 2,
+  MPCALLBACK_SCAN                        = 3,
+  MPCALLBACK_CLEAN                       = 4,
+  MPCALLBACK_PRECHECK                    = 5,
+  MPCALLBACK_SIGUPDATE                   = 6,
+  MPCALLBACK_SAMPLE                      = 7,
+  MPCALLBACK_RESERVED                    = 8,
+  MPCALLBACK_CONFIGURATION_NOTIFICATION  = 9,
+  MPCALLBACK_FASTPATH                    = 10,
+  MPCALLBACK_PRODUCT_EXPIRATION          = 11,
+  MPCALLBACK_NIS_PRIVATE                 = 12,
+  MPCALLBACK_HEALTH                      = 13,
+  MPCALLBACK_ENDOFLIFE                   = 14,
+  MPCALLBACK_MALWARETOAST                = 15,
+  MPCALLBACK_MAXVALUE                    = 15
 } MPCALLBACK_TYPE, *PMPCALLBACK_TYPE;
 ```
 
@@ -105,15 +112,15 @@ typedef enum tagMPCALLBACK_TYPE {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

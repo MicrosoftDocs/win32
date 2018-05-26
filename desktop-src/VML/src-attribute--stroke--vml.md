@@ -1,7 +1,12 @@
 ---
 title: Src Attribute (Stroke)(VML)
 description: Src Attribute (Stroke)(VML)
-ms.assetid: 'dac6b5b7-2038-4534-97e9-a1340102777e'
+ms.assetid: dac6b5b7-2038-4534-97e9-a1340102777e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Src Attribute (Stroke)(VML)

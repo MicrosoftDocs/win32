@@ -1,7 +1,12 @@
-﻿---
+---
 Description: YUV Mixing Mode
-ms.assetid: '296b1d96-1824-4000-8bec-158925555177'
+ms.assetid: 296b1d96-1824-4000-8bec-158925555177
 title: YUV Mixing Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # YUV Mixing Mode
@@ -38,11 +43,11 @@ A number of restrictions are enforced by the VMR when it is put into YUV mixing 
 -   None of the VMR's input pins can accept any RGB formats.
 -   Application supplied bitmap images can no longer be combined with the video prior to presentation to the display.
 -   Individual sub-streams cannot be inverted horizontally or vertically using the VMR's mixer "output rectangle" functions. "Normal" stream re-positioning and re-sizing is supported.
--   The mixing background color (specified by [**IVMRMixerControl::SetBackgroundClr**](ivmrmixercontrol-setbackgroundclr.md)) is still specified in the RGB color space, just as in RGB mixing mode.
+-   The mixing background color (specified by [**IVMRMixerControl::SetBackgroundClr**](/windows/win32/Strmif/nf-strmif-ivmrmixercontrol-setbackgroundclr?branch=master)) is still specified in the RGB color space, just as in RGB mixing mode.
 
 **Configuration**
 
-Applications must explicitly configure the VMR to take advantage of YUV mixing mode; the original RGB mixing mode remains the default mixing mode. To enable YUV mixing mode in the VMR-7, call [**IVMRMixerControl::SetMixingPrefs**](ivmrmixercontrol-setoutputrect.md) with the MixerPref\_RenderTargetYUV flag. This call must be made before any of the VMR's input pins are connected. To enable YUV mixing mode in the VMR-9, call [**IVMRMixerControl9::SetMixingPrefs**](ivmrmixercontrol9-setmixingprefs.md) with the MixerPref9\_RenderTargetYUV flag.
+Applications must explicitly configure the VMR to take advantage of YUV mixing mode; the original RGB mixing mode remains the default mixing mode. To enable YUV mixing mode in the VMR-7, call [**IVMRMixerControl::SetMixingPrefs**](/windows/win32/Strmif/nf-strmif-ivmrmixercontrol-setoutputrect?branch=master) with the MixerPref\_RenderTargetYUV flag. This call must be made before any of the VMR's input pins are connected. To enable YUV mixing mode in the VMR-9, call [**IVMRMixerControl9::SetMixingPrefs**](/windows/win32/Vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs?branch=master) with the MixerPref9\_RenderTargetYUV flag.
 
 The only way to determine if the VMR-7 supports the new YUV mixing mode is to try setting the VMR into that mode. If the call succeeds, you can still put the VMR back into RGB mixing mode if necessary. After it is set into YUV mixing mode, the VMR can only be changed back to RGB mixing mode after all input pins have been disconnected.
 

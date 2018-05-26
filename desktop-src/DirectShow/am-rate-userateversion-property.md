@@ -1,7 +1,12 @@
 ---
-Description: 'This property is used to signal which version of the Rate Change property set the decoder should use.'
-ms.assetid: '49d1bfda-749b-4614-9a75-1f76fa8b320d'
-title: 'AM\_RATE\_UseRateVersion Property'
+Description: This property is used to signal which version of the Rate Change property set the decoder should use.
+ms.assetid: 49d1bfda-749b-4614-9a75-1f76fa8b320d
+title: AM\_RATE\_UseRateVersion Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AM\_RATE\_UseRateVersion Property
@@ -20,7 +25,7 @@ If the decoder does not support the specified version, it should fail the call t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,9 +44,9 @@ If the decoder does not support the specified version, it should fail the call t
 [**Rate Change Property Set**](rate-change-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

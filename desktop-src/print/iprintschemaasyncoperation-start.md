@@ -1,7 +1,12 @@
-﻿---
-Description: 'Starts the asynchronous PrintSchema operation.'
-ms.assetid: '8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3'
-title: 'IPrintSchemaAsyncOperation::Start method'
+---
+Description: Starts the asynchronous PrintSchema operation.
+ms.assetid: 8AEA34AA-1A5E-43F6-8EE1-B1A078B6AEA3
+title: IPrintSchemaAsyncOperationStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaAsyncOperation::Start method

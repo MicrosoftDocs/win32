@@ -1,8 +1,11 @@
 ---
 title: IWMPControls next method
 description: The next method sets the next item in the playlist as the current item.
-ms.assetid: '3f82ef25-a1e0-4845-b0ed-dd6463719577'
-keywords: ["next method Windows Media Player", "next method Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , next method"]
+ms.assetid: 3f82ef25-a1e0-4845-b0ed-dd6463719577
+keywords:
+- next method Windows Media Player
+- next method Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , next method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::next method
@@ -139,9 +147,9 @@ End Sub</code></pre></td>
 [**IWMPControls.stop (VB and C#)**](wmplibiwmpcontrols-iwmpcontrols-stop--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

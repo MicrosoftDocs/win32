@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageNodeToStoragePool class
 description: Association between a storage node and a storage pool.
-ms.assetid: '701C6089-46CB-4A26-B5A7-83316DFF49B5'
-keywords: ["MSFT_StorageNodeToStoragePool class Windows Storage Management API", "MSFT_StorageNodeToStoragePool class Windows Storage Management API , described"]
+ms.assetid: 701C6089-46CB-4A26-B5A7-83316DFF49B5
+keywords:
+- MSFT_StorageNodeToStoragePool class Windows Storage Management API
+- MSFT_StorageNodeToStoragePool class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageNodeToStoragePool class
@@ -78,16 +85,16 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

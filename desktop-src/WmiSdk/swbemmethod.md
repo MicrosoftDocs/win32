@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the properties of the SWbemMethod object to inspect a single method definition of a WMI object. This object cannot be created by the VBScript CreateObject call.'
+Description: You can use the properties of the SWbemMethod object to inspect a single method definition of a WMI object. This object cannot be created by the VBScript CreateObject call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '461d5c41-4930-40cf-96e2-bc8cae335b60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 461d5c41-4930-40cf-96e2-bc8cae335b60
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemMethod object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemMethod object
@@ -19,7 +22,7 @@ This object can be used to inspect the definitions of methods. To invoke the met
 > [!Note]  
 > In this version of the API, write access to method information is not supported. If you want to define methods or modify existing method definitions, you can define the method changes in a MOF file and submit the changes using the [MOF Compiler](compiling-mof-files.md). Alternatively, use the [COM API for WMI](com-api-for-wmi.md).
 
- 
+ 
 
 ## Members
 
@@ -43,7 +46,7 @@ The **SWbemMethod** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,8 +54,8 @@ The **SWbemMethod** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -68,9 +71,9 @@ The **SWbemMethod** object has these properties.
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

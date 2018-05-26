@@ -4,13 +4,16 @@ description: Requests that the Device capture its current configuration, setup a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4734a54d-b0a0-46e9-949b-9a6c20d4c2a2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4734a54d-b0a0-46e9-949b-9a6c20d4c2a2
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SaveProperties method iSCSI Software Target API", "SaveProperties method iSCSI Software Target API , CIM_NetworkPort class", "CIM_NetworkPort class iSCSI Software Target API , SaveProperties method"]
+keywords:
+- SaveProperties method iSCSI Software Target API
+- SaveProperties method iSCSI Software Target API , CIM_NetworkPort class
+- CIM_NetworkPort class iSCSI Software Target API , SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SaveProperties method of the CIM\_NetworkPort class
@@ -45,7 +51,7 @@ This method has no parameters.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -59,9 +65,9 @@ This method has no parameters.
 [**CIM\_NetworkPort**](cim-networkport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

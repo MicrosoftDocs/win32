@@ -1,7 +1,12 @@
 ---
 Description: Introduction to the Filter Base Classes
-ms.assetid: 'db6324d7-1914-44a8-a202-dff752b61c1a'
+ms.assetid: db6324d7-1914-44a8-a202-dff752b61c1a
 title: Introduction to the Filter Base Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to the Filter Base Classes
@@ -37,9 +42,9 @@ The following classes support the creation of DirectShow filter and pin objects:
 
 | Class                                    | Description                                                                                                                                                     |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CBaseFilter**](cbasefilter.md)       | Base class for filters. Implements the [**IBaseFilter**](ibasefilter.md) interface.                                                                            |
-| [**CBasePin**](cbasepin.md)             | Base class for pins. Implements the [**IPin**](ipin.md) and [**IQualityControl**](iqualitycontrol.md) interfaces.                                             |
-| [**CBaseInputPin**](cbaseinputpin.md)   | Base class for input pins that use local memory transport. Implements the [**IMemInputPin**](imeminputpin.md) interface. This class derives from **CBasePin**. |
+| [**CBaseFilter**](cbasefilter.md)       | Base class for filters. Implements the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface.                                                                            |
+| [**CBasePin**](cbasepin.md)             | Base class for pins. Implements the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) and [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) interfaces.                                             |
+| [**CBaseInputPin**](cbaseinputpin.md)   | Base class for input pins that use local memory transport. Implements the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface. This class derives from **CBasePin**. |
 | [**CBaseOutputPin**](cbaseoutputpin.md) | Base class for output pins that use **IMemInputPin** connections. This class derives from **CBasePin**.                                                         |
 
 
@@ -73,15 +78,15 @@ The following classes implement helper objects that are used by filters and pins
 
 | Class                                              | Description                                                                                                                                                        |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CPullPin**](cpullpin.md)                       | Helper object for input pins on parser filters. Supports [**IAsyncReader**](iasyncreader.md) connections with pull sources.                                       |
+| [**CPullPin**](cpullpin.md)                       | Helper object for input pins on parser filters. Supports [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) connections with pull sources.                                       |
 | [**COutputQueue**](coutputqueue.md)               | Helper object for output pins that queue samples for delivery on a worker thread.                                                                                  |
 | [**CSourceSeeking**](csourceseeking.md)           | Help object for implementing seeking on a source filter with exactly one output pin. (This class is not designed for filters with multiple pins, such as parsers.) |
-| [**CEnumPins**](cenumpins.md)                     | Enumerator object for enumerating pins on a filter. Implements the [**IEnumPins**](ienumpins.md) interface.                                                       |
-| [**CEnumMediaTypes**](cenummediatypes.md)         | Enumerator object for enumerating preferred media types on a pin. Implements the [**IEnumMediaTypes**](ienummediatypes.md) interface.                             |
-| [**CMemAllocator**](cmemallocator.md)             | Memory allocator object. Implements the [**IMemAllocator**](imemallocator.md) interface.                                                                          |
-| [**CMediaSample**](cmediasample.md)               | Media sample object. Implements the [**IMediaSample2**](imediasample2.md) interface.                                                                              |
-| [**CBaseReferenceClock**](cbasereferenceclock.md) | Base class for reference clocks. Implements the [**IReferenceClock**](ireferenceclock.md) interface.                                                              |
-| [**CMediaType**](cmediatype.md)                   | Helper object for manipulating [**AM\_MEDIA\_TYPE**](am-media-type.md) structures.                                                                                |
+| [**CEnumPins**](cenumpins.md)                     | Enumerator object for enumerating pins on a filter. Implements the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface.                                                       |
+| [**CEnumMediaTypes**](cenummediatypes.md)         | Enumerator object for enumerating preferred media types on a pin. Implements the [**IEnumMediaTypes**](/windows/win32/Strmif/nn-strmif-ienummediatypes?branch=master) interface.                             |
+| [**CMemAllocator**](cmemallocator.md)             | Memory allocator object. Implements the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.                                                                          |
+| [**CMediaSample**](cmediasample.md)               | Media sample object. Implements the [**IMediaSample2**](/windows/win32/Strmif/nn-strmif-imediasample2?branch=master) interface.                                                                              |
+| [**CBaseReferenceClock**](cbasereferenceclock.md) | Base class for reference clocks. Implements the [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master) interface.                                                              |
+| [**CMediaType**](cmediatype.md)                   | Helper object for manipulating [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structures.                                                                                |
 
 
 

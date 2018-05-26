@@ -4,11 +4,14 @@ description: Specifies the keyboard redirection settings, which specify how and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '16734580-9be9-476b-b8e7-1eca3ba24d61'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 16734580-9be9-476b-b8e7-1eca3ba24d61
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["KeyboardHookMode property Remote Desktop Services", "KeyboardHookMode property Remote Desktop Services , IMsRdpClientSecuredSettings interface", "IMsRdpClientSecuredSettings interface Remote Desktop Services , KeyboardHookMode property"]
+keywords:
+- KeyboardHookMode property Remote Desktop Services
+- KeyboardHookMode property Remote Desktop Services , IMsRdpClientSecuredSettings interface
+- IMsRdpClientSecuredSettings interface Remote Desktop Services , KeyboardHookMode property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientSecuredSettings::KeyboardHookMode property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_KeyboardHookMode(
-  [in]  LONG keyboardHookMode
+  [in]  LONG keyboardHookMode
 );
 
 HRESULT get_KeyboardHookMode(
-  [out] LONG *pkeyboardHookMode
+  [out] LONG *pkeyboardHookMode
 );
 ```
 
@@ -87,8 +93,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                 |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>         |
 | IID<br/>                      | IID\_IMsRdpClientSecuredSettings is defined as 605befcf-39c1-45cc-a811-068fb7be346d<br/> |
@@ -102,9 +108,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

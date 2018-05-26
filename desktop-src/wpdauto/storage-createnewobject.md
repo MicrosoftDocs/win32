@@ -1,14 +1,22 @@
 ---
 title: Storage.CreateNewObject method
 description: The CreateNewObject method creates and initializes a WPDObject to the specified data format.
-ms.assetid: '8e5b5b89-f4fd-4fc8-af6a-cbaa69a2586a'
-keywords: ["CreateNewObject method WPD Automation", "CreateNewObject method WPD Automation , Storage object", "Storage object WPD Automation , CreateNewObject method"]
+ms.assetid: 8e5b5b89-f4fd-4fc8-af6a-cbaa69a2586a
+keywords:
+- CreateNewObject method WPD Automation
+- CreateNewObject method WPD Automation , Storage object
+- Storage object WPD Automation , CreateNewObject method
 topic_type:
 - apiref
 api_name:
 - Storage.CreateNewObject
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.CreateNewObject method
@@ -66,8 +74,8 @@ storage.AddChild(contact);
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -81,9 +89,9 @@ storage.AddChild(contact);
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

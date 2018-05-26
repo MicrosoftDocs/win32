@@ -1,12 +1,17 @@
 ---
 title: Creating a New Computer Account
 description: The following code sample demonstrates how to create a new computer account using the NetUserAdd function.
-ms.assetid: '1e180b8e-b948-4836-b789-cb9dff0829e8'
+ms.assetid: 1e180b8e-b948-4836-b789-cb9dff0829e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a New Computer Account
 
-The following code sample demonstrates how to create a new computer account using the [**NetUserAdd**](netuseradd.md) function.
+The following code sample demonstrates how to create a new computer account using the [**NetUserAdd**](/windows/win32/Lmaccess/nf-lmaccess-netuseradd?branch=master) function.
 
 The following are considerations for managing computer accounts:
 

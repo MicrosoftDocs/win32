@@ -1,8 +1,31 @@
 ---
 title: Adding an Embedded Windows Media Player Control
 description: Adding an Embedded Windows Media Player Control
-ms.assetid: 'e002bf2a-c51a-448a-80a0-a35d6f32e9c0'
-keywords: ["Windows Media metafile playlists,adding embedded Windows Media Player controls", "playlists,adding embedded Windows Media Player controls", "metafile playlists,adding embedded Windows Media Player controls", "Windows Media metafile playlists,embedded Windows Media Player controls", "playlists,embedded Windows Media Player controls", "metafile playlists,embedded Windows Media Player controls", "adding embedded Windows Media Player controls", "embedded Windows Media Player controls", "Windows Media Player,adding embedded controls", "Windows Media Player,embedded controls", "HTMLView,adding embedded Windows Media Player controls", "HTMLView,embedded Windows Media Player controls", "HTMLView,Windows Media Player object model", "HTMLView,Player object model", "Windows Media Player object model,about", "object model,about", "Player object", "Windows Media,Player object model"]
+ms.assetid: e002bf2a-c51a-448a-80a0-a35d6f32e9c0
+keywords:
+- Windows Media metafile playlists,adding embedded Windows Media Player controls
+- playlists,adding embedded Windows Media Player controls
+- metafile playlists,adding embedded Windows Media Player controls
+- Windows Media metafile playlists,embedded Windows Media Player controls
+- playlists,embedded Windows Media Player controls
+- metafile playlists,embedded Windows Media Player controls
+- adding embedded Windows Media Player controls
+- embedded Windows Media Player controls
+- Windows Media Player,adding embedded controls
+- Windows Media Player,embedded controls
+- HTMLView,adding embedded Windows Media Player controls
+- HTMLView,embedded Windows Media Player controls
+- HTMLView,Windows Media Player object model
+- HTMLView,Player object model
+- Windows Media Player object model,about
+- object model,about
+- Player object
+- Windows Media,Player object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an Embedded Windows Media Player Control

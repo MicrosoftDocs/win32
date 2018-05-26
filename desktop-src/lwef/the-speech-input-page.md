@@ -1,7 +1,12 @@
 ---
 title: The Speech Input Page
 description: The Speech Input Page
-ms.assetid: '9ff59e5b-d5c1-4f92-bd5a-8c525482624a'
+ms.assetid: 9ff59e5b-d5c1-4f92-bd5a-8c525482624a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Speech Input Page

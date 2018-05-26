@@ -1,7 +1,12 @@
 ---
-Description: 'You can extend Windows Search to index the contents and properties of new file formats, and data stores using data add-in interfaces.'
-ms.assetid: '69edf316-77a8-4cc5-9af8-fb89f440c9ea'
+Description: You can extend Windows Search to index the contents and properties of new file formats, and data stores using data add-in interfaces.
+ms.assetid: 69edf316-77a8-4cc5-9af8-fb89f440c9ea
 title: Extending the Index
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending the Index

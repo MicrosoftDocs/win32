@@ -1,7 +1,12 @@
 ---
-Description: 'The TargetImages table contains information about the target images of the product. A Windows Installer patch package updates a target image into an upgraded image.'
-ms.assetid: '4681715e-9918-4d7b-8f33-1cca2bb34eb7'
-title: 'TargetImages Table (Patchwiz.dll)'
+Description: The TargetImages table contains information about the target images of the product. A Windows Installer patch package updates a target image into an upgraded image.
+ms.assetid: 4681715e-9918-4d7b-8f33-1cca2bb34eb7
+title: TargetImages Table (Patchwiz.dll)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TargetImages Table (Patchwiz.dll)
@@ -70,7 +75,7 @@ Relative order of the target image. Because multiple targets can be patched to a
 <span id="ProductValidateFlags"></span><span id="productvalidateflags"></span><span id="PRODUCTVALIDATEFLAGS"></span>ProductValidateFlags
 </dt> <dd>
 
-The ProductValidateFlags field is used to specify product checking to avoid applying irrelevant transforms. The value entered in this field must be an 8-digit hex integer and one of the valid values for the *iValidation* parameter of the [**MsiCreateTransformSummaryInfo**](msicreatetransformsummaryinfo.md) function. The default value is 0x00000922 which equals **MSITRANSFORM\_VALIDATE\_UPDATEVERSION** + **MSITRANSFORM\_VALIDATE\_NEWEQUALBASEVERSION** + **MSITRANSFORM\_VALIDATE\_UPGRADECODE** + **MSITRANSFORM\_VALIDATE\_PRODUCT**.
+The ProductValidateFlags field is used to specify product checking to avoid applying irrelevant transforms. The value entered in this field must be an 8-digit hex integer and one of the valid values for the *iValidation* parameter of the [**MsiCreateTransformSummaryInfo**](/windows/win32/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa?branch=master) function. The default value is 0x00000922 which equals **MSITRANSFORM\_VALIDATE\_UPDATEVERSION** + **MSITRANSFORM\_VALIDATE\_NEWEQUALBASEVERSION** + **MSITRANSFORM\_VALIDATE\_UPGRADECODE** + **MSITRANSFORM\_VALIDATE\_PRODUCT**.
 
 </dd> <dt>
 

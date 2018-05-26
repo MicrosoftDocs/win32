@@ -1,7 +1,12 @@
 ---
 title: Net Event Capture WMI Provider
 description: .
-ms.assetid: '301e2fb3-c268-424a-bee6-792bdbd13b61'
+ms.assetid: 301e2fb3-c268-424a-bee6-792bdbd13b61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Net Event Capture WMI Provider
@@ -33,15 +38,15 @@ Net Event Capture WMI Provider enables...
 
 
 
- 
+ 
 
 ## Developer audience
 
 Net Event Capture WMI Provider is designed for use by...
 
- 
+ 
 
- 
+ 
 
 
 

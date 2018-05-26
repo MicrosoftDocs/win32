@@ -1,8 +1,25 @@
 ---
 title: Windows Color System Schemas and Algorithms
 description: Windows Color System Schemas and Algorithms
-ms.assetid: 'fa05ba0c-b01d-4d50-8769-94a6e19f0066'
-keywords: ["Windows Color System (WCS),schemas", "WCS (Windows Color System),schemas", "image color management,schemas", "color management,schemas", "colors,schemas", "Windows Color System (WCS),algorithms", "WCS (Windows Color System),algorithms", "image color management,algorithms", "color management,algorithms", "colors,algorithms", "schemas,Windows Color System (WCS)", "algorithms,Windows Color System (WCS)"]
+ms.assetid: fa05ba0c-b01d-4d50-8769-94a6e19f0066
+keywords:
+- Windows Color System (WCS),schemas
+- WCS (Windows Color System),schemas
+- image color management,schemas
+- color management,schemas
+- colors,schemas
+- Windows Color System (WCS),algorithms
+- WCS (Windows Color System),algorithms
+- image color management,algorithms
+- color management,algorithms
+- colors,algorithms
+- schemas,Windows Color System (WCS)
+- algorithms,Windows Color System (WCS)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Color System Schemas and Algorithms

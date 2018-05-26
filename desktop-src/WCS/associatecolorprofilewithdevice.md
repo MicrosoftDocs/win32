@@ -1,8 +1,9 @@
 ---
 title: AssociateColorProfileWithDevice function
 description: The AssociateColorProfileWithDevice function associates a specified color profile with a specified device.
-ms.assetid: '2a4adfde-ab91-48f1-8212-3263006ea3a1'
-keywords: ["AssociateColorProfileWithDevice function Windows Color System"]
+ms.assetid: 2a4adfde-ab91-48f1-8212-3263006ea3a1
+keywords:
+- AssociateColorProfileWithDevice function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssociateColorProfileWithDevice function
@@ -24,9 +30,9 @@ The **AssociateColorProfileWithDevice** function associates a specified color pr
 
 ```C++
 BOOL WINAPI AssociateColorProfileWithDevice(
-   PCTSTR pMachineName,
-   PCTSTR pProfileName,
-   PCTSTR pDeviceName
+   PCTSTR pMachineName,
+   PCTSTR pProfileName,
+   PCTSTR pDeviceName
 );
 ```
 
@@ -67,7 +73,7 @@ If this function fails, the return value is **FALSE**. For extended error inform
 
 The **AssociateColorProfileWithDevice** function will fail if the profile has not been installed on the computer using the [**InstallColorProfile**](installcolorprofile.md) function.
 
-Note that under Windows (Windows 95 or later), the PostScript device driver for printers assumes a CMYK color model. Therefore, all PostScript printers must use a CMYK color profile. Windows 2000 does not have this limitation.
+Note that under Windows (Windows 95 or later), the PostScript device driver for printers assumes a CMYK color model. Therefore, all PostScript printers must use a CMYK color profile. Windows 2000 does not have this limitation.
 
 If the specified device is a monitor, this function updates the default profile.
 
@@ -83,8 +89,8 @@ Scanners also have no default profile. However, it is atypical to associate more
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>                          |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl>                      |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl>                      |
@@ -105,9 +111,9 @@ Scanners also have no default profile. However, it is atypical to associate more
 [**DisassociateColorProfileFromDevice**](disassociatecolorprofilefromdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '61D2EA45-5E63-41BA-90D8-84B70C80E7A4'
+Description: .
+ms.assetid: 61D2EA45-5E63-41BA-90D8-84B70C80E7A4
 title: Web Standards and Application Compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Standards and Application Compatibility

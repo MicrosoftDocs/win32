@@ -1,7 +1,12 @@
 ---
-Description: 'The SPFILENOTIFY\_ENDCOPY notification is passed to the callback function when the queue completes a copy operation. This notification is sent even if the user cancels or if an error occurs.'
-ms.assetid: 'd58dc397-8803-466c-9069-728faf2c2030'
-title: 'SPFILENOTIFY\_ENDCOPY message'
+Description: The SPFILENOTIFY\_ENDCOPY notification is passed to the callback function when the queue completes a copy operation. This notification is sent even if the user cancels or if an error occurs.
+ms.assetid: d58dc397-8803-466c-9069-728faf2c2030
+title: SPFILENOTIFY\_ENDCOPY message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPFILENOTIFY\_ENDCOPY message
@@ -25,7 +30,7 @@ SPFILENOTIFY_ENDCOPY
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](filepaths-str.md) structure. The **Win32Error** member of the **FILEPATHS** structure indicates the outcome of the copy operation.
+Pointer to a [**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master) structure. The **Win32Error** member of the **FILEPATHS** structure indicates the outcome of the copy operation.
 
 </dd> <dt>
 
@@ -46,8 +51,8 @@ The return code is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Setupapi.h</dt> </dl> |
 
 
@@ -62,18 +67,18 @@ The return code is ignored.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](filepaths-str.md)
+[**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master)
 </dt> <dt>
 
-[**SetupCommitFileQueue**](setupcommitfilequeue.md)
+[**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master)
 </dt> <dt>
 
-[**SetupDefaultQueueCallback**](setupdefaultqueuecallback.md)
+[**SetupDefaultQueueCallback**](/windows/win32/Setupapi/nf-setupapi-setupdefaultqueuecallbacka?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

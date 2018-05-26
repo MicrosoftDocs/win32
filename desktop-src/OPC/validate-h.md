@@ -1,8 +1,25 @@
 ---
 title: validate.h
 description: validate.h
-ms.assetid: '0cc8ecf9-b820-4c63-b6bd-a10953d81d44'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle signature sample", "packaging,music bundle signature sample", "packages,music bundle signature sample", "music bundle signature sample,validate.h", "Packaging APIs,validate.h", "packaging,validate.h", "packages,validate.h", "validate.h", "sample applications,music bundle signature"]
+ms.assetid: 0cc8ecf9-b820-4c63-b6bd-a10953d81d44
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle signature sample
+- packaging,music bundle signature sample
+- packages,music bundle signature sample
+- music bundle signature sample,validate.h
+- Packaging APIs,validate.h
+- packaging,validate.h
+- packages,validate.h
+- validate.h
+- sample applications,music bundle signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # validate.h

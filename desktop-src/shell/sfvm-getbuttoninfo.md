@@ -1,11 +1,16 @@
-﻿---
-Description: 'Allows the callback object to add buttons to the toolbar. Used by IShellFolderViewCB::MessageSFVCB.'
-title: 'SFVM\_GETBUTTONINFO message'
+---
+Description: Allows the callback object to add buttons to the toolbar. Used by IShellFolderViewCBMessageSFVCB.
+title: SFVM\_GETBUTTONINFO message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETBUTTONINFO message
 
-Allows the callback object to add buttons to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to add buttons to the toolbar. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++
@@ -25,7 +30,7 @@ SFVM_GETBUTTONINFO
 *ptbinfo* \[out\]
 </dt> <dd>
 
-The address of a [**TBINFO**](tbinfo-str.md) structure that specifies the number of buttons and how they are to be added to the toolbar.
+The address of a [**TBINFO**](/windows/win32/Shlobj/ns-shlobj-_tbinfo?branch=master) structure that specifies the number of buttons and how they are to be added to the toolbar.
 
 </dd> </dl>
 

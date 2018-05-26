@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for IPv6 TCP/IP events. The following syntax is simplified from MOF code.'
-ms.assetid: 'd24e667e-ec7f-492a-989e-a02ff4c8ac10'
-title: 'TcpIp\_TypeGroup3 class'
+---
+Description: This class is the event type class for IPv6 TCP/IP events. The following syntax is simplified from MOF code.
+ms.assetid: d24e667e-ec7f-492a-989e-a02ff4c8ac10
+title: TcpIp\_TypeGroup3 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TcpIp\_TypeGroup3 class

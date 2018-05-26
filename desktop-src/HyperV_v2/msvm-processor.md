@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the virtual processor in a virtual machine.'
-ms.assetid: '4BA91C44-0F85-42D1-A8B5-147E1D532FB5'
-title: 'Msvm\_Processor class'
+Description: Represents the virtual processor in a virtual machine.
+ms.assetid: 4BA91C44-0F85-42D1-A8B5-147E1D532FB5
+title: Msvm\_Processor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Processor class
@@ -16,58 +21,58 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Processor : CIM_Processor
 {
-  string   InstanceID;
-  string   Caption = "Processor";
-  string   Description = " A logical processor of the hypervisor running on the host computer system.";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "Processor";
+  string   Description = " A logical processor of the hypervisor running on the host computer system.";
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 2;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 2;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_Processor";
-  string   DeviceID = "Microsoft:GUID\device specific data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  string   Role = "Central Processor";
-  uint16   Family;
-  string   OtherFamilyDescription;
-  uint16   UpgradeMethod;
-  uint32   MaxClockSpeed;
-  uint32   CurrentClockSpeed;
-  uint16   DataWidth;
-  uint16   AddressWidth;
-  uint16   LoadPercentage;
-  string   Stepping;
-  string   UniqueID;
-  uint16   CPUStatus;
-  uint32   ExternalBusClockSpeed;
-  uint16   LoadPercentageHistory[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_Processor";
+  string   DeviceID = "Microsoft:GUID\device specific data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  string   Role = "Central Processor";
+  uint16   Family;
+  string   OtherFamilyDescription;
+  uint16   UpgradeMethod;
+  uint32   MaxClockSpeed;
+  uint32   CurrentClockSpeed;
+  uint16   DataWidth;
+  uint16   AddressWidth;
+  uint16   LoadPercentage;
+  string   Stepping;
+  string   UniqueID;
+  uint16   CPUStatus;
+  uint32   ExternalBusClockSpeed;
+  uint16   LoadPercentageHistory[];
 };
 ```
 
@@ -97,7 +102,7 @@ The **Msvm\_Processor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -940,8 +945,8 @@ Access to the **Msvm\_Processor** class might be restricted by UAC Filtering. Fo
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -961,9 +966,9 @@ Access to the **Msvm\_Processor** class might be restricted by UAC Filtering. Fo
 [Processor Classes](processor-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

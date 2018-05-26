@@ -4,13 +4,16 @@ description: Introduces a new instance of a CIM\_ServiceAccessPoint class or one
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3bb8527b-d8e8-4ed9-bb9d-74a1135cd57f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3bb8527b-d8e8-4ed9-bb9d-74a1135cd57f
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddServiceAccessPoint method iSCSI Software Target API", "AddServiceAccessPoint method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , AddServiceAccessPoint method"]
+keywords:
+- AddServiceAccessPoint method iSCSI Software Target API
+- AddServiceAccessPoint method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , AddServiceAccessPoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddServiceAccessPoint method of the MSISCSITARGET\_ReplicationService class
@@ -32,9 +38,9 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 AddServiceAccessPoint(
-  [in]           string                     ServiceAccessPoint,
-  [in, optional] string                     InstanceNamespace,
-  [out]          CIM_ServiceAccessPoint Ref ServiceAccessPointPath
+  [in]           string                     ServiceAccessPoint,
+  [in, optional] string                     InstanceNamespace,
+  [out]          CIM_ServiceAccessPoint Ref ServiceAccessPointPath
 );
 ```
 
@@ -92,7 +98,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–)x7FFF)
+**DMTF Reserved** (7 )x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -105,7 +111,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -122,9 +128,9 @@ This method returns one of the following values.
 [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

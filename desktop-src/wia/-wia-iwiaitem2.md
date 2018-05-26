@@ -1,12 +1,17 @@
-﻿---
-Description: 'The IWiaItem2 interface provides applications with the same functionality as the IWiaItem interface (the ability to query devices to discover their capabilities, to access data transfer interfaces and item properties, and to control the device).'
-ms.assetid: '4e29ea54-1ee7-4150-b26c-f8c7f41a3f08'
+---
+Description: The IWiaItem2 interface provides applications with the same functionality as the IWiaItem interface (the ability to query devices to discover their capabilities, to access data transfer interfaces and item properties, and to control the device).
+ms.assetid: 4e29ea54-1ee7-4150-b26c-f8c7f41a3f08
 title: IWiaItem2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2 interface
 
-The **IWiaItem2** interface provides applications with the same functionality as the [**IWiaItem**](-wia-iwiaitem.md) interface (the ability to query devices to discover their capabilities, to access data transfer interfaces and item properties, and to control the device). It also provides application with the ability to dynamically create and use image processing filters that can come as extensions of the Windows Image Acquisition (WIA) 2.0 device drivers provided in Windows Vista.
+The **IWiaItem2** interface provides applications with the same functionality as the [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) interface (the ability to query devices to discover their capabilities, to access data transfer interfaces and item properties, and to control the device). It also provides application with the ability to dynamically create and use image processing filters that can come as extensions of the Windows Image Acquisition (WIA) 2.0 device drivers provided in Windows Vista.
 
 ## Members
 

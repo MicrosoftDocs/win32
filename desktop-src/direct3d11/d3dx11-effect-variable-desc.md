@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_EFFECT\_VARIABLE\_DESC structure
 description: Describes an effect variable.
-ms.assetid: '9c975ad4-b90e-4e69-b78f-4f5cc61083ff'
-keywords: ["D3DX11_EFFECT_VARIABLE_DESC structure Direct3D 11"]
+ms.assetid: 9c975ad4-b90e-4e69-b78f-4f5cc61083ff
+keywords:
+- D3DX11_EFFECT_VARIABLE_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_EFFECT\_VARIABLE\_DESC structure
@@ -24,10 +30,10 @@ Describes an effect variable.
 typedef struct _D3DX11_EFFECT_VARIABLE_DESC {
   LPCSTR Name;
   LPCSTR Semantic;
-  UINT   Flags;
-  UINT   Annotations;
-  UINT   BufferOffset;
-  UINT   ExplicitBindPoint;
+  UINT   Flags;
+  UINT   Annotations;
+  UINT   BufferOffset;
+  UINT   ExplicitBindPoint;
 } D3DX11_EFFECT_VARIABLE_DESC;
 ```
 
@@ -124,9 +130,9 @@ D3DX11\_EFFECT\_VARIABLE\_DESC is used with [**ID3DX11EffectVariable::GetDesc**]
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

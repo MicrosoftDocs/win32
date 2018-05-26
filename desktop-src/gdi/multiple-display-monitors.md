@@ -1,7 +1,12 @@
 ---
-Description: 'Multiple Display Monitors is a set of related features that allow applications to make use of multiple display devices at the same time.'
-ms.assetid: 'eb7576c6-322c-48d0-abbb-bdc3b34976c3'
+Description: Multiple Display Monitors is a set of related features that allow applications to make use of multiple display devices at the same time.
+ms.assetid: eb7576c6-322c-48d0-abbb-bdc3b34976c3
 title: Multiple Display Monitors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Display Monitors

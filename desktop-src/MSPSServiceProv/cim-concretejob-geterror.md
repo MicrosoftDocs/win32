@@ -4,13 +4,16 @@ description: When the job is executing or has terminated without error, then thi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '327500c9-468a-4149-94ae-857bfafda2bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 327500c9-468a-4149-94ae-857bfafda2bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetError method", "GetError method, CIM_ConcreteJob class", "CIM_ConcreteJob class, GetError method"]
+keywords:
+- GetError method
+- GetError method, CIM_ConcreteJob class
+- CIM_ConcreteJob class, GetError method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetError method of the CIM\_ConcreteJob class
@@ -30,7 +36,7 @@ When the job is executing or has terminated without error, then this method retu
 
 ```mof
 uint32 GetError(
-  [out] CIM_Error Error
+  [out] CIM_Error Error
 );
 ```
 
@@ -117,7 +123,7 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 **DMTF Reserved**
 </dt> <dd>
 
-7–32767
+7 32767
 
 **DMTF Reserved**
 
@@ -126,7 +132,7 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 **Vendor Specific**
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 **Vendor Specific**
 
@@ -139,7 +145,7 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -153,9 +159,9 @@ If the **OperationalStatus** property on the Job is not "OK", then this method w
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

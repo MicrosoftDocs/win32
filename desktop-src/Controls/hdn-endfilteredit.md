@@ -1,8 +1,9 @@
 ---
 title: HDN\_ENDFILTEREDIT notification code
-description: Notifies a header control's parent window that a filter edit has ended. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'd3832875-4cde-4d8a-b3a4-a8dae0742c56'
-keywords: ["HDN_ENDFILTEREDIT notification code Windows Controls"]
+description: Notifies a header controls parent window that a filter edit has ended. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: d3832875-4cde-4d8a-b3a4-a8dae0742c56
+keywords:
+- HDN_ENDFILTEREDIT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_ENDFILTEREDIT notification code
@@ -33,7 +39,7 @@ HDN_ENDFILTEREDIT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](nmheader.md) structure that contains additional information about the filter that is being edited.
+A pointer to an [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure that contains additional information about the filter that is being edited.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Virtual System Management Service
 description: The Virtual System Profile describes the objects which make up a virtual machine.
-ms.assetid: '4ca24f28-28f2-4a9a-8040-dd5b48b0970f'
+ms.assetid: 4ca24f28-28f2-4a9a-8040-dd5b48b0970f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual System Management Service

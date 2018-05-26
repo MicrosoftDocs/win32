@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a Media Foundation transform (MFT) performs asynchronous processing.'
-ms.assetid: 'fcc70282-cfac-487c-b9ff-39e62c836f8b'
-title: 'MF\_TRANSFORM\_ASYNC attribute'
+---
+Description: Specifies whether a Media Foundation transform (MFT) performs asynchronous processing.
+ms.assetid: fcc70282-cfac-487c-b9ff-39e62c836f8b
+title: MF\_TRANSFORM\_ASYNC attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSFORM\_ASYNC attribute
@@ -14,9 +19,9 @@ Specifies whether a Media Foundation transform (MFT) performs asynchronous proce
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -25,7 +30,7 @@ The attribute is a Boolean value:
 -   If the attribute is nonzero, the MFT performs asynchronous processing.
 -   If the attribute is 0 or not set, the MFT is synchronous.
 
-To get this attribute, first call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) to get the MFT's attribute store. If that method succeeds, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md) to get the attribute value. If either of the two methods fails, the MFT is synchronous.
+To get this attribute, first call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) to get the MFT's attribute store. If that method succeeds, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master) to get the attribute value. If either of the two methods fails, the MFT is synchronous.
 
 For asynchronous MFTs, this attribute must be set to a nonzero value. For synchronous MFTs, this attribute is optional, but must be set to 0 if present.
 

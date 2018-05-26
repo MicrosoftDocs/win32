@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSSessionDirectory class
-description: Defines the Remote Desktop Connection Broker (RD Connection Broker) configuration settings for the Win32\_TSSessionDirectorySetting class.
+description: Defines the Remote Desktop Connection Broker (RD Connection Broker) configuration settings for the Win32\_TSSessionDirectorySetting class.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ef9042c2-4a35-49e9-b195-fb37c0919068'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ef9042c2-4a35-49e9-b195-fb37c0919068
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSSessionDirectory class Remote Desktop Services", "Win32_TSSessionDirectory class Remote Desktop Services , described"]
+keywords:
+- Win32_TSSessionDirectory class Remote Desktop Services
+- Win32_TSSessionDirectory class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -36,16 +38,19 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSSessionDirectory class
 
-Defines the Remote Desktop Connection Broker (RD Connection Broker) configuration settings for the [**Win32\_TSSessionDirectorySetting**](win32-tssessiondirectorysetting.md) class.
+Defines the Remote Desktop Connection Broker (RD Connection Broker) configuration settings for the [**Win32\_TSSessionDirectorySetting**](win32-tssessiondirectorysetting.md) class.
 
 > [!Note]  
-> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
+> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
 
- 
+ 
 
 The following syntax is simplified from MOF code and includes all defined and inherited properties, in alphabetical order. For reference information about methods, see the table of methods later in this topic.
 
@@ -55,25 +60,25 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSSESSIONDIRECTORY_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer"), AMENDMENT]
 class Win32_TSSessionDirectory : CIM_Setting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   SessionDirectoryLocation;
-  uint32   PolicySourceSessionDirectoryLocation;
-  uint32   SessionDirectoryActive;
-  uint32   PolicySourceSessionDirectoryActive;
-  uint32   SessionDirectoryExposeServerIP;
-  uint32   PolicySourceSessionDirectoryExposeServerIP;
-  string   SessionDirectoryClusterName;
-  uint32   PolicySourceLoadBalancing;
-  uint32   GetLoadBalancingState;
-  uint32   GetServerWeight;
-  uint32   PolicySourceSessionDirectoryClusterName;
-  string   SessionDirectoryIPAddress;
-  uint32   GetTSRedirectorMode;
-  uint32   PolicySourceTSRedirectorMode;
+  string   Name;
+  string   Status;
+  string   SessionDirectoryLocation;
+  uint32   PolicySourceSessionDirectoryLocation;
+  uint32   SessionDirectoryActive;
+  uint32   PolicySourceSessionDirectoryActive;
+  uint32   SessionDirectoryExposeServerIP;
+  uint32   PolicySourceSessionDirectoryExposeServerIP;
+  string   SessionDirectoryClusterName;
+  uint32   PolicySourceLoadBalancing;
+  uint32   GetLoadBalancingState;
+  uint32   GetServerWeight;
+  uint32   PolicySourceSessionDirectoryClusterName;
+  string   SessionDirectoryIPAddress;
+  uint32   GetTSRedirectorMode;
+  uint32   PolicySourceTSRedirectorMode;
 };
 ```
 
@@ -97,18 +102,18 @@ The **Win32\_TSSessionDirectory** class has these methods.
 | [**EnableUserVhd**](enableuservhd-win32-tssessiondirectory.md)                                         | Enables a user profile VHD on an RDSH server.<br/>                                                     |
 | [**GetCurrentRedirectableAddresses**](getcurrentredirectableaddresses-win32-tssessiondirectory.md)     | Obtains the currently configured list of DNS eligible addresses, and the redirection type.<br/>        |
 | [**GetRedirectableAddresses**](getredirectableaddresses-win32-tssessiondirectory.md)                   | Obtains the entire list of DNS eligible addresses.<br/>                                                |
-| [**PingSessionDirectory**](pingsessiondirectory-win32-tssessiondirectory.md)                           | Checks whether the RD Connection Broker server is available.<br/>                                      |
+| [**PingSessionDirectory**](pingsessiondirectory-win32-tssessiondirectory.md)                           | Checks whether the RD Connection Broker server is available.<br/>                                      |
 | [**SetCurrentRedirectableAddresses**](setcurrentredirectableaddresses-win32-tssessiondirectory.md)     | Sets the configured list of DNS eligible addresses, and the redirection type.<br/>                     |
-| [**SetLoadBalancingState**](setloadbalancingstate-win32-tssessiondirectory.md)                         | Sets the value to indicate if the server will participate in RD Connection Broker load balancing.<br/> |
-| [**SetServerWeight**](setserverweight-win32-tssessiondirectory.md)                                     | Sets the server weight value for RD Connection Broker load balancing.<br/>                             |
-| [**SetSessionDirectoryActive**](win32-tssessiondirectory-setsessiondirectoryactive.md)                 | Disables and enables the RD Connection Broker.<br/>                                                    |
+| [**SetLoadBalancingState**](setloadbalancingstate-win32-tssessiondirectory.md)                         | Sets the value to indicate if the server will participate in RD Connection Broker load balancing.<br/> |
+| [**SetServerWeight**](setserverweight-win32-tssessiondirectory.md)                                     | Sets the server weight value for RD Connection Broker load balancing.<br/>                             |
+| [**SetSessionDirectoryActive**](win32-tssessiondirectory-setsessiondirectoryactive.md)                 | Disables and enables the RD Connection Broker.<br/>                                                    |
 | [**SetSessionDirectoryExposeServerIP**](win32-tssessiondirectory-setsessiondirectoryexposeserverip.md) | Sets the **SessionDirectoryExposeServerIP** property.<br/>                                             |
 | [**SetSessionDirectoryProperty**](win32-tssessiondirectory-setsessiondirectoryproperty.md)             | Sets the **SessionDirectoryLocation** property or the **SessionDirectoryClusterName** property.<br/>   |
 | [**SetTSRedirectorMode**](settsredirectormode-win32-tssessiondirectory.md)                             | This method is not available.<br/>                                                                     |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -158,21 +163,21 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Indicates if the server is configured to participate in RD Connection Broker load balancing.
+Indicates if the server is configured to participate in RD Connection Broker load balancing.
 
 <dt>
 
 0
 </dt> <dd>
 
-The server is not configured to participate in RD Connection Broker load balancing.
+The server is not configured to participate in RD Connection Broker load balancing.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-The server is configured to participate in RD Connection Broker load balancing.
+The server is configured to participate in RD Connection Broker load balancing.
 
 </dd> </dl>
 
@@ -187,7 +192,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Retrieves the server weight value that is used in RD Connection Broker load balancing.
+Retrieves the server weight value that is used in RD Connection Broker load balancing.
 
 </dd> <dt>
 
@@ -218,7 +223,7 @@ The server is not configured to act as a Remote Desktop Services redirector.
 
 </dd> </dl>
 
-**Windows Server 2008:** This property is not available.
+**Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -411,7 +416,7 @@ Access type: Read-only
 
 This property is not available.
 
-**Windows Server 2008 R2:** Indicates if the **GetTSRedirectorMode** property is configured by the server or by group policy.
+**Windows Server 2008 R2:** Indicates if the **GetTSRedirectorMode** property is configured by the server or by group policy.
 
 <dt>
 
@@ -443,7 +448,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Specifies if Remote Desktop Services participates in the RD Connection Broker.
+Specifies if Remote Desktop Services participates in the RD Connection Broker.
 
 <dt>
 
@@ -454,7 +459,7 @@ Specifies if Remote Desktop Services participates in the RD Connection Broker.
 
 </dt> <dd>
 
-Remote Desktop Services participation in the RD Connection Broker is disabled.
+Remote Desktop Services participation in the RD Connection Broker is disabled.
 
 </dd> <dt>
 
@@ -465,7 +470,7 @@ Remote Desktop Services participation in the RD Connection Broker is disabled.
 
 </dt> <dd>
 
-Remote Desktop Services participation in the RD Connection Broker is enabled.
+Remote Desktop Services participation in the RD Connection Broker is enabled.
 
 </dd> </dl>
 
@@ -480,7 +485,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The virtual IP address of the cluster to which the RD Session Host server belongs.
+The virtual IP address of the cluster to which the RD Session Host server belongs.
 
 </dd> <dt>
 
@@ -493,7 +498,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Specifies if retrieval of the IP address of the RD Connection Broker is allowed.
+Specifies if retrieval of the IP address of the RD Connection Broker is allowed.
 
 <dt>
 
@@ -543,7 +548,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-The network DNS name or IP address of the server where the RD Connection Broker service is running.
+The network DNS name or IP address of the server where the RD Connection Broker service is running.
 
 </dd> <dt>
 
@@ -638,9 +643,9 @@ Set objServices = GetObject( _
 
 
 
-In Windows Server 2008, the name of the Terminal Services Session Directory feature was changed to Terminal Services Session Broker.
+In Windows Server 2008, the name of the Terminal Services Session Directory feature was changed to Terminal Services Session Broker.
 
-In Windows Server 2008 R2, the name of the Terminal Services Session Broker feature was changed to Remote Desktop Connection Broker.
+In Windows Server 2008 R2, the name of the Terminal Services Session Broker feature was changed to Remote Desktop Connection Broker.
 
 Managed Object Format (MOF) files contain the definitions for Windows Management Instrumentation (WMI) classes. MOF files are not installed as part of the Microsoft Windows Software Development Kit (SDK). They are installed on the server when you add the associated role by using the Server Manager. For more information about MOF files, see [Managed Object Format (MOF)](https://msdn.microsoft.com/library/aa823192).
 
@@ -651,7 +656,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -668,9 +673,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionDirectorySetting**](win32-tssessiondirectorysetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

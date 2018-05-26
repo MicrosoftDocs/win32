@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Windows Imaging Component
-ms.assetid: 'b872baf9-9fcb-4604-a518-26e109eda792'
+ms.assetid: b872baf9-9fcb-4604-a518-26e109eda792
 title: Windows Imaging Component
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Imaging Component

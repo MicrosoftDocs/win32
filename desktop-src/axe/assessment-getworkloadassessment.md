@@ -1,8 +1,11 @@
 ---
 title: Assessment GetWorkloadAssessment method
 description: Retrieves the specified assessment.
-ms.assetid: '54675CC2-6B39-41F4-8644-E5EE8895FAAC'
-keywords: ["GetWorkloadAssessment method Access Execution Engine", "GetWorkloadAssessment method Access Execution Engine , Assessment interface", "Assessment interface Access Execution Engine , GetWorkloadAssessment method"]
+ms.assetid: 54675CC2-6B39-41F4-8644-E5EE8895FAAC
+keywords:
+- GetWorkloadAssessment method Access Execution Engine
+- GetWorkloadAssessment method Access Execution Engine , Assessment interface
+- Assessment interface Access Execution Engine , GetWorkloadAssessment method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assessment::GetWorkloadAssessment method
@@ -22,8 +30,8 @@ Retrieves the specified assessment.
 
 ```C++
 virtual HRESULT GetWorkloadAssessment(
-  [in]                  INT        assessmentIndex,
-  [out, optional] const Assessment **assessment
+  [in]                  INT        assessmentIndex,
+  [out, optional] const Assessment **assessment
 ) const = 0;
 ```
 
@@ -57,8 +65,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -74,9 +82,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**SolutionFlags**](solutionflags.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

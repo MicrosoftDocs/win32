@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a ClusterInformation object that contains cluster configuration information.'
+Description: Retrieves a ClusterInformation object that contains cluster configuration information.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2ad52d35-d072-4d02-a25f-a4f610bbfb48'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2ad52d35-d072-4d02-a25f-a4f610bbfb48
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ConfigurationManager.ClusterInformation property'
+title: ConfigurationManager.ClusterInformation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConfigurationManager.ClusterInformation property
@@ -109,7 +112,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -121,9 +124,9 @@ END SUB
 [**ConfigurationManager**](configurationmanager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Client Application Structures
 description: Structures supported for client application development by the Windows Biometric Framework API.
-ms.assetid: 'ac13910c-0c33-4fb8-a9c6-a2d5b1b28c73'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , client application structures"]
+ms.assetid: ac13910c-0c33-4fb8-a9c6-a2d5b1b28c73
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , client application structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Application Structures
@@ -16,7 +22,7 @@ The following structures are supported for client application development by the
 | Topic                                                                                        | Description                                                                                                                     |
 |----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | [**WINBIO\_ANTI\_SPOOF\_POLICY**](winbio-anti-spoof-policy.md)<br/>                   | Represents the antispoofing policy for a user.<br/>                                                                       |
-| [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md)<br/>                              | Contains the results of an asynchronous operation.<br/>                                                                   |
+| [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master)<br/>                              | Contains the results of an asynchronous operation.<br/>                                                                   |
 | [**WINBIO\_BDB\_ANSI\_381\_HEADER**](winbio-bdb-ansi-381-header.md)<br/>              | Specifies information about a series of fingerprint or palm samples.<br/>                                                 |
 | [**WINBIO\_BDB\_ANSI\_381\_RECORD**](winbio-bdb-ansi-381-record.md)<br/>              | Contains information about a single fingerprint or palm sample from an end user.<br/>                                     |
 | [**WINBIO\_BIR**](winbio-bir.md)<br/>                                                 | Represents a biometric information record (BIR).<br/>                                                                     |
@@ -37,11 +43,11 @@ The following structures are supported for client application development by the
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a description of the video signal that is being transmitted over the connector.'
-ms.assetid: '8464470f-49db-4559-80b2-02cfc473e30e'
-title: 'OPM\_GET\_ACTUAL\_OUTPUT\_FORMAT'
+---
+Description: Returns a description of the video signal that is being transmitted over the connector.
+ms.assetid: 8464470f-49db-4559-80b2-02cfc473e30e
+title: OPM\_GET\_ACTUAL\_OUTPUT\_FORMAT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM\_GET\_ACTUAL\_OUTPUT\_FORMAT
@@ -14,7 +19,7 @@ Returns a description of the video signal that is being transmitted over the con
 |--------------|------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ACTUAL\_OUTPUT\_FORMAT                                             |
 | Input data   | None                                                                         |
-| Return data  | An [**OPM\_ACTUAL\_OUTPUT\_FORMAT**](opm-actual-output-format.md) structure |
+| Return data  | An [**OPM\_ACTUAL\_OUTPUT\_FORMAT**](/windows/win32/opmapi/ns-opmapi-_opm_actual_output_format?branch=master) structure |
 
 
 
@@ -42,10 +47,10 @@ This query is equivalent to the DXVA\_COPPQueryDisplayData query used in Certifi
 
 <dl> <dt>
 
-[**IOPMVideoOutput::COPPCompatibleGetInformation**](iopmvideooutput-iopmvideooutput--coppcompatiblegetinformation.md)
+[**IOPMVideoOutput::COPPCompatibleGetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-coppcompatiblegetinformation?branch=master)
 </dt> <dt>
 
-[**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md)
+[**IOPMVideoOutput::GetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-getinformation?branch=master)
 </dt> <dt>
 
 [OPM Status Requests](opm-status-requests.md)

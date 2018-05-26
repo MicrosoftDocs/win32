@@ -1,8 +1,13 @@
 ---
 title: IVMSecurity GroupSid property
 description: The GroupSid property contains the SID string of the group.
-ms.assetid: '0a483da0-542f-41db-ac2c-0cc1d8c0e29a'
-keywords: ["GroupSid property Virtual Server", "GroupSid property Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , GroupSid property", "GroupSid property Virtual Server , VMSecurity interface", "VMSecurity interface Virtual Server , GroupSid property"]
+ms.assetid: 0a483da0-542f-41db-ac2c-0cc1d8c0e29a
+keywords:
+- GroupSid property Virtual Server
+- GroupSid property Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , GroupSid property
+- GroupSid property Virtual Server , VMSecurity interface
+- VMSecurity interface Virtual Server , GroupSid property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::GroupSid property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GroupSid(
-  [in]  BSTR groupSid
+  [in]  BSTR groupSid
 );
 
 HRESULT get_GroupSid(
-  [out] BSTR *groupSid
+  [out] BSTR *groupSid
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ This property value is read/write.
 [**IVMSecurity**](ivmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

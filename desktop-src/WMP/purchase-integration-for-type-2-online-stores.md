@@ -1,8 +1,23 @@
 ---
 title: Purchase Integration for Type 2 Online Stores
 description: Purchase Integration for Type 2 Online Stores
-ms.assetid: 'aedaa6a0-d559-44b7-9c14-2abf44478b1c'
-keywords: ["Windows Media Player online stores,purchase integration", "online stores,purchase integration", "type 2 online stores,purchase integration", "Windows Media Player online stores,integrating purchases", "online stores,integrating purchases", "type 2 online stores,integrating purchases", "Windows Media Player,purchase integration", "Windows Media Player,integrating purchases", "purchase integration", "integrating purchases"]
+ms.assetid: aedaa6a0-d559-44b7-9c14-2abf44478b1c
+keywords:
+- Windows Media Player online stores,purchase integration
+- online stores,purchase integration
+- type 2 online stores,purchase integration
+- Windows Media Player online stores,integrating purchases
+- online stores,integrating purchases
+- type 2 online stores,integrating purchases
+- Windows Media Player,purchase integration
+- Windows Media Player,integrating purchases
+- purchase integration
+- integrating purchases
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Purchase Integration for Type 2 Online Stores

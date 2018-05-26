@@ -1,8 +1,11 @@
 ---
 title: IRangeList DeleteSingleValue method
 description: Removes a single value to the message range list.
-ms.assetid: '8726fdff-5c0f-4ea6-9657-38ff7406bf0a'
-keywords: ["DeleteSingleValue method Windows Mail (formerly Outlook Express)", "DeleteSingleValue method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , DeleteSingleValue method"]
+ms.assetid: 8726fdff-5c0f-4ea6-9657-38ff7406bf0a
+keywords:
+- DeleteSingleValue method Windows Mail (formerly Outlook Express)
+- DeleteSingleValue method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , DeleteSingleValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::DeleteSingleValue method
@@ -24,7 +32,7 @@ Removes a single value to the message range list.
 
 ```C++
 HRESULT DeleteSingleValue(
-  [in] const ULONG value
+  [in] const ULONG value
 );
 ```
 
@@ -49,7 +57,7 @@ Specifies the single value to delete from the range list.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ For example, **DeleteSingleValue**(42) removes 42 from the range list.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -89,9 +97,9 @@ For example, **DeleteSingleValue**(42) removes 42 from the range list.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

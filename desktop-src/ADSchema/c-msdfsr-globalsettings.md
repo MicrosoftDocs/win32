@@ -4,17 +4,22 @@ description: Contains the global settings that apply to all replication group me
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd6fa6492-0ff3-4642-8040-f1b1265a244f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d6fa6492-0ff3-4642-8040-f1b1265a244f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-GlobalSettings class AD Schema", "msDFSR-GlobalSettings class AD Schema"]
+keywords:
+- ms-DFSR-GlobalSettings class AD Schema
+- msDFSR-GlobalSettings class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-GlobalSettings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-GlobalSettings class
@@ -35,10 +40,10 @@ Contains the global settings that apply to all replication group members.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -65,7 +70,7 @@ Contains the global settings that apply to all replication group members.
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -196,7 +201,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -339,7 +344,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -489,7 +494,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -624,9 +629,9 @@ This class contains the following attributes for Windows Server 2012:
 
 The **ms-DFSR-GlobalSettings** class is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

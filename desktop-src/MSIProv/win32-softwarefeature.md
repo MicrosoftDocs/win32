@@ -1,8 +1,10 @@
 ---
 title: Win32\_SoftwareFeature class
 description: The Win32\_SoftwareFeature WMI class represents a distinct subset of a product that consists of one or more software elements.
-ms.assetid: 'fc1248db-b2a1-42bc-a99f-f3c4970b38c8'
-keywords: ["Win32_SoftwareFeature class", "Win32_SoftwareFeature class, described"]
+ms.assetid: fc1248db-b2a1-42bc-a99f-f3c4970b38c8
+keywords:
+- Win32_SoftwareFeature class
+- Win32_SoftwareFeature class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_SoftwareFeature class
@@ -33,7 +40,7 @@ The **Win32\_SoftwareFeature** [WMI class](https://msdn.microsoft.com/library/aa
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -43,19 +50,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_SoftwareFeature : CIM_SoftwareFeature
 {
-  uint16   Accesses;
-  uint16   Attributes;
-  string   Caption;
-  string   Description;
-  string   IdentifyingNumber;
+  uint16   Accesses;
+  uint16   Attributes;
+  string   Caption;
+  string   Description;
+  string   IdentifyingNumber;
   datetime InstallDate;
-  sint16   InstallState;
+  sint16   InstallState;
   datetime LastUse;
-  string   Name;
-  string   ProductName;
-  string   Status;
-  string   Vendor;
-  string   Version;
+  string   Name;
+  string   ProductName;
+  string   Status;
+  string   Vendor;
+  string   Version;
 };
 ```
 
@@ -79,7 +86,7 @@ The **Win32\_SoftwareFeature** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -121,7 +128,7 @@ Remote execution option.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -134,7 +141,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the object—a one-line string.
+Short textual description of the object a one-line string.
 
 </dd> <dt>
 
@@ -202,7 +209,7 @@ Installed state of the software feature.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -365,8 +372,8 @@ Next
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -383,9 +390,9 @@ Next
 [**Win32\_Product**](win32-product.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

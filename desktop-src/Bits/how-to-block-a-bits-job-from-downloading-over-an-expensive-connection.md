@@ -1,13 +1,20 @@
 ---
 title: How to control whether a BITS job is allowed to download over an expensive connection
 description: Block downloading over an expensive connection such as a roaming cellular link.
-ms.assetid: '66C20B32-1348-44D9-81F3-43CCED0CEA34'
-keywords: ["downloading BITS , how to", "downloads BITS , avoiding expensive"]
+ms.assetid: 66C20B32-1348-44D9-81F3-43CCED0CEA34
+keywords:
+- downloading BITS , how to
+- downloads BITS , avoiding expensive
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to control whether a BITS job is allowed to download over an expensive connection
 
-This topic shows how to block a BITS job from downloading over an expensive connection such as a roaming cellular link. BITS is an asynchronous API where the application creates a job, adds URLs to that job, and calls the job object's [**Resume**](ibackgroundcopyjob-resume.md) function. From that point, BITS chooses when the job downloads based on factors such as job priority and the transfer policy. After the job has finished downloading, BITS notifies the application that the URL has been downloaded (if the application has registered for completion notification). During the job's lifetime, if the end user's network changes—such as if the user is traveling and is currently incurring roaming fees—then BITS will suspend the job until network conditions are optimal. The following step-by-step instructions show how to create the job and specify the appropriate transfer policy settings.
+This topic shows how to block a BITS job from downloading over an expensive connection such as a roaming cellular link. BITS is an asynchronous API where the application creates a job, adds URLs to that job, and calls the job object's [**Resume**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-resume?branch=master) function. From that point, BITS chooses when the job downloads based on factors such as job priority and the transfer policy. After the job has finished downloading, BITS notifies the application that the URL has been downloaded (if the application has registered for completion notification). During the job's lifetime, if the end user's network changes—such as if the user is traveling and is currently incurring roaming fees—then BITS will suspend the job until network conditions are optimal. The following step-by-step instructions show how to create the job and specify the appropriate transfer policy settings.
 
 ### Prerequisites
 
@@ -29,7 +36,7 @@ Insert the following header directives at the top of the source file.
 
 ### Step 2: Initialize COM
 
-Before instantiating the [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface (used to create a BITS job), you must initialize COM, set the COM threading model, and specify an impersonation level of at least RPC\_C\_IMP\_LEVEL\_IMPERSONATE.
+Before instantiating the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface (used to create a BITS job), you must initialize COM, set the COM threading model, and specify an impersonation level of at least RPC\_C\_IMP\_LEVEL\_IMPERSONATE.
 
 
 ```C++
@@ -51,7 +58,7 @@ if (SUCCEEDED(hr))
 
 ### Step 3: Instantiate the IBackgroundCopyManager interface
 
-Use the [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface to create transfer jobs, retrieve an enumerator object that contains the jobs in the queue, and retrieve individual jobs from the queue.
+Use the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface to create transfer jobs, retrieve an enumerator object that contains the jobs in the queue, and retrieve individual jobs from the queue.
 
 
 ```C++

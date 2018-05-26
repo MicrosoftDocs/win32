@@ -2,17 +2,21 @@
 title: Wecutil.exe
 description: Wecutil.exe is a Windows Event Collector utility that enables an administrator to create and manage subscriptions to events forwarded from remote event sources that support the WS-Management protocol.
 audience: developer
-ms.assetid: '93ce25df-f829-43b9-96f2-7f2f291d100e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: 93ce25df-f829-43b9-96f2-7f2f291d100e
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
-keywords: ["Wecutil.exe"]
+keywords:
+- Wecutil.exe
 topic_type:
 - apiref
 api_name:
 - Wecutil.exe
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Wecutil.exe
@@ -153,7 +157,7 @@ A value that determines whether to enable or disable the subscription. VALUE can
 > [!Note]  
 > When you disable a collector initiated subscription, the event source becomes inactive instead of disabled. In a collector initiated subscription, you can disable an event source independent of the subscription.
 
- 
+ 
 
 </dd> <dt>
 
@@ -181,7 +185,7 @@ A value that specifies the type of events consumed by the subscription. The addr
 <span id="_cm_CONFIGURATION_MODE"></span><span id="_cm_configuration_mode"></span><span id="_CM_CONFIGURATION_MODE"></span>**/cm:***CONFIGURATION\_MODE*
 </dt> <dd>
 
-A value that specifies the configuration mode of the event subscription. *CONFIGURATION\_MODE* can be one of the following strings: "Normal", "Custom", "MinLatency", or "MinBandwidth". The [**EC\_SUBSCRIPTION\_CONFIGURATION\_MODE**](ec-subscription-configuration-mode.md) enumeration defines the configuration modes. The /dm, /dmi, /hi, and /dmlt parameters can only be specified if the configuration mode is set to Custom.
+A value that specifies the configuration mode of the event subscription. *CONFIGURATION\_MODE* can be one of the following strings: "Normal", "Custom", "MinLatency", or "MinBandwidth". The [**EC\_SUBSCRIPTION\_CONFIGURATION\_MODE**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_configuration_mode?branch=master) enumeration defines the configuration modes. The /dm, /dmi, /hi, and /dmlt parameters can only be specified if the configuration mode is set to Custom.
 
 </dd> <dt>
 
@@ -328,7 +332,7 @@ A value that specifies the DNS name of the local computer. This name is used by 
 <span id="_ct_TYPE"></span><span id="_ct_type"></span><span id="_CT_TYPE"></span>**/ct:***TYPE*
 </dt> <dd>
 
-A value that specifies the credential type used for accessing remote event sources. *TYPE* can be "default", "negotiate", "digest", "basic", or "localmachine". The default is "default". These values are defined in the [**EC\_SUBSCRIPTION\_CREDENTIALS\_TYPE**](ec-subscription-credentials-type.md) enumeration.
+A value that specifies the credential type used for accessing remote event sources. *TYPE* can be "default", "negotiate", "digest", "basic", or "localmachine". The default is "default". These values are defined in the [**EC\_SUBSCRIPTION\_CREDENTIALS\_TYPE**](/windows/win32/Evcoll/ne-evcoll-_ec_subscription_credentials_type?branch=master) enumeration.
 
 </dd> <dt>
 
@@ -340,7 +344,7 @@ A value that sets the shared user credentials used for event sources that do not
 > [!Note]  
 > If this parameter is used with the /c option, then user name and password settings for individual event sources from the configuration file are ignored. If you want to use different credentials for a specific event source, you can override this value by specifying the /un and /up parameters for a specific event source on the command line of another set-subscription command.
 
- 
+ 
 
 </dd> <dt>
 
@@ -359,7 +363,7 @@ A value that sets the list of issuer certificate thumb prints, in a comma-separa
 > [!Note]  
 > This option is specific to source initiated subscriptions only.
 
- 
+ 
 
 </dd> <dt>
 
@@ -371,7 +375,7 @@ A value that sets a comma-separated list of string that specify the DNS names of
 > [!Note]  
 > This option is specific to source initiated subscriptions only.
 
- 
+ 
 
 </dd> <dt>
 
@@ -383,7 +387,7 @@ A value that sets a comma-separated list of string that specify the DNS names of
 > [!Note]  
 > This option is specific to source initiated subscriptions only.
 
- 
+ 
 
 </dd> <dt>
 
@@ -395,7 +399,7 @@ A value that sets a string, in SDDL format, that specifies which domain computer
 > [!Note]  
 > This option is specific to source initiated subscriptions only.
 
- 
+ 
 
 </dd> </dl>
 
@@ -527,7 +531,7 @@ The following XML is an example of a subscription configuration file that create
 > [!Note]  
 > When creating a source initiated subscription, if **AllowedSourceDomainComputers**, **AllowedSourceNonDomainComputers**/**IssuerCAList**, **AllowedSubjectList**, and **DeniedSubjectList** are all empty, then a default will be provided for **AllowedSourceDomainComputers** - "O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)". This SDDL default grants members of the Domain Computers domain group, as well as the local Network Service group (for the local forwarder), the ability to raise events for this subscription.
 
- 
+ 
 
 </dd> <dt>
 
@@ -539,7 +543,7 @@ A value that sets the shared user credentials used for event sources that do not
 > [!Note]  
 > If this parameter is specified, then user name and password settings for individual event sources from the configuration file are ignored. If you want to use different credentials for a specific event source, you can override this value by specifying the /un and /up parameters for a specific event source on the command line of another set-subscription command.
 
- 
+ 
 
 </dd> <dt>
 
@@ -631,14 +635,14 @@ A value that determines whether the quick-config command will prompt for confirm
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

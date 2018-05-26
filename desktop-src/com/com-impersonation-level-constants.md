@@ -1,7 +1,7 @@
 ---
 title: Impersonation Level Constants
 description: Specifies an impersonation level, which indicates the amount of authority given to the server when it is impersonating the client.
-ms.assetid: 'ea5a3b46-b607-4192-a3cc-b2ec55ca94a6'
+ms.assetid: ea5a3b46-b607-4192-a3cc-b2ec55ca94a6
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - RpcDce.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Impersonation Level Constants
@@ -34,9 +39,9 @@ Specifies an impersonation level, which indicates the amount of authority given 
 
 ## Remarks
 
-[**GetUserName**](https://msdn.microsoft.com/library/windows/desktop/ms724432) will fail while impersonating at identify level. The workaround is to impersonate, call [**OpenThreadToken**](https://msdn.microsoft.com/library/windows/desktop/aa379296), revert, call [**GetTokenInformation**](https://msdn.microsoft.com/library/windows/desktop/aa446671), and finally, call [**LookupAccountSid**](https://msdn.microsoft.com/library/windows/desktop/aa379166). Using [**CoSetProxyBlanket**](cosetproxyblanket.md), the client sets the impersonation level
+[**GetUserName**](https://msdn.microsoft.com/library/windows/desktop/ms724432) will fail while impersonating at identify level. The workaround is to impersonate, call [**OpenThreadToken**](https://msdn.microsoft.com/library/windows/desktop/aa379296), revert, call [**GetTokenInformation**](https://msdn.microsoft.com/library/windows/desktop/aa446671), and finally, call [**LookupAccountSid**](https://msdn.microsoft.com/library/windows/desktop/aa379166). Using [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master), the client sets the impersonation level
 
-Using [**CoSetProxyBlanket**](cosetproxyblanket.md), the client sets the impersonation level and proxy identity that will be available when a server calls [**CoImpersonateClient**](coimpersonateclient.md). The identity the server will see when impersonating takes place is described in [Cloaking](cloaking.md). Note that when making a call while impersonating, the callee will normally receive the caller's process token, not the caller's impersonation token. To receive the caller's impersonation token, the caller must enable cloaking.
+Using [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master), the client sets the impersonation level and proxy identity that will be available when a server calls [**CoImpersonateClient**](/windows/win32/combaseapi/nf-combaseapi-coimpersonateclient?branch=master). The identity the server will see when impersonating takes place is described in [Cloaking](cloaking.md). Note that when making a call while impersonating, the callee will normally receive the caller's process token, not the caller's impersonation token. To receive the caller's impersonation token, the caller must enable cloaking.
 
 ## Requirements
 
@@ -44,8 +49,8 @@ Using [**CoSetProxyBlanket**](cosetproxyblanket.md), the client sets the imperso
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RpcDce.h</dt> </dl> |
 
 
@@ -57,9 +62,9 @@ Using [**CoSetProxyBlanket**](cosetproxyblanket.md), the client sets the imperso
 [Cloaking](cloaking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

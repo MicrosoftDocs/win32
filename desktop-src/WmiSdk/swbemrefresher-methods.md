@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefresher object exposes the following methods.'
+Description: The SWbemRefresher object exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'D70D21DB-5623-4456-BC58-8BFB9E1A8CDF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: D70D21DB-5623-4456-BC58-8BFB9E1A8CDF
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemRefresher Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefresher Methods

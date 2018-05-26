@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '3ee67cfd-a968-4b7c-9c7b-1c28ddb9c343'
-title: 'CMediaSample.CMediaSample constructor'
+Description: Constructor method.
+ms.assetid: 3ee67cfd-a968-4b7c-9c7b-1c28ddb9c343
+title: CMediaSample.CMediaSample constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.CMediaSample constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CMediaSample(
-   TCHAR          *pName,
-   CBaseAllocator *pAllocator,
-   HRESULT        *phr,
-   LPBYTE         pBuffer = NULL,
-   LONG           length = 0
+   TCHAR          *pName,
+   CBaseAllocator *pAllocator,
+   HRESULT        *phr,
+   LPBYTE         pBuffer = NULL,
+   LONG           length = 0
 );
 ```
 
@@ -84,9 +89,9 @@ The base class does not modify the **HRESULT** value passed in the *phr* paramet
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

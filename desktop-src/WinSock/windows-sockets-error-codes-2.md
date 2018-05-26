@@ -1,18 +1,23 @@
-﻿---
-Description: 'Windows Sockets (Winsock) error codes returned by the WSAGetLastError function.'
-ms.assetid: '50b924f3-2c88-443b-8a90-4293fe5c3048'
+---
+Description: Windows Sockets (Winsock) error codes returned by the WSAGetLastError function.
+ms.assetid: 50b924f3-2c88-443b-8a90-4293fe5c3048
 title: Windows Sockets Error Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Sockets Error Codes
 
 Most Windows Sockets 2 functions do not return the specific cause of an error when the function returns. For information, see the [Handling Winsock Errors](handling-winsock-errors.md) topic.
 
-The [**WSAGetLastError**](wsagetlasterror-2.md) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](base.formatmessage) function can be used to obtain the message string for the returned error.
+The [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master) function returns the last error that occurred for the calling thread. When a particular Windows Sockets function indicates an error has occurred, this function should be called immediately to retrieve the extended error code for the failing function call. These error codes and a short text description associated with an error code are defined in the *Winerror.h* header file. The [**FormatMessage**](base.formatmessage) function can be used to obtain the message string for the returned error.
 
 For information on how to handle error codes when porting socket applications to Winsock, see [Error Codes - errno, h\_errno and WSAGetLastError](error-codes-errno-h-errno-and-wsagetlasterror-2.md).
 
-The following list describes the possible error codes returned by the [**WSAGetLastError**](wsagetlasterror-2.md) function. Errors are listed in numerical order with the error macro name. Some error codes defined in the *Winsock2.h* header file are not returned from any function.
+The following list describes the possible error codes returned by the [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master) function. Errors are listed in numerical order with the error macro name. Some error codes defined in the *Winsock2.h* header file are not returned from any function.
 
 
 
@@ -42,11 +47,11 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSA_OPERATION_ABORTED"></span><span id="wsa_operation_aborted"></span><dl> <dt><strong>WSA_OPERATION_ABORTED</strong></dt> <dt>995</dt> </dl></td>
-<td><dl> <dt><span id="Overlapped_operation_aborted."></span><span id="overlapped_operation_aborted."></span><span id="OVERLAPPED_OPERATION_ABORTED."></span>Overlapped operation aborted.</dt> <dd> An overlapped operation was canceled due to the closure of the socket, or the execution of the SIO_FLUSH command in [<strong>WSAIoctl</strong>](wsaioctl-2.md). Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Overlapped_operation_aborted."></span><span id="overlapped_operation_aborted."></span><span id="OVERLAPPED_OPERATION_ABORTED."></span>Overlapped operation aborted.</dt> <dd> An overlapped operation was canceled due to the closure of the socket, or the execution of the SIO_FLUSH command in [<strong>WSAIoctl</strong>](/windows/win32/Winsock2/nf-winsock2-wsaioctl?branch=master). Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_IO_INCOMPLETE"></span><span id="wsa_io_incomplete"></span><dl> <dt><strong>WSA_IO_INCOMPLETE</strong></dt> <dt>996</dt> </dl></td>
-<td><dl> <dt><span id="Overlapped_I_O_event_object_not_in_signaled_state."></span><span id="overlapped_i_o_event_object_not_in_signaled_state."></span><span id="OVERLAPPED_I_O_EVENT_OBJECT_NOT_IN_SIGNALED_STATE."></span>Overlapped I/O event object not in signaled state.</dt> <dd> The application has tried to determine the status of an overlapped operation which is not yet completed. Applications that use [<strong>WSAGetOverlappedResult</strong>](wsagetoverlappedresult-2.md) (with the <em>fWait</em> flag set to <strong>FALSE</strong>) in a polling mode to determine when an overlapped operation has completed, get this error code until the operation is complete. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Overlapped_I_O_event_object_not_in_signaled_state."></span><span id="overlapped_i_o_event_object_not_in_signaled_state."></span><span id="OVERLAPPED_I_O_EVENT_OBJECT_NOT_IN_SIGNALED_STATE."></span>Overlapped I/O event object not in signaled state.</dt> <dd> The application has tried to determine the status of an overlapped operation which is not yet completed. Applications that use [<strong>WSAGetOverlappedResult</strong>](/windows/win32/Winsock2/nf-winsock2-wsagetoverlappedresult?branch=master) (with the <em>fWait</em> flag set to <strong>FALSE</strong>) in a polling mode to determine when an overlapped operation has completed, get this error code until the operation is complete. Note that this error is returned by the operating system, so the error number may change in future releases of Windows.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_IO_PENDING"></span><span id="wsa_io_pending"></span><dl> <dt><strong>WSA_IO_PENDING</strong></dt> <dt>997</dt> </dl></td>
@@ -54,7 +59,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEINTR"></span><span id="wsaeintr"></span><dl> <dt><strong>WSAEINTR</strong></dt> <dt>10004</dt> </dl></td>
-<td><dl> <dt><span id="Interrupted_function_call."></span><span id="interrupted_function_call."></span><span id="INTERRUPTED_FUNCTION_CALL."></span>Interrupted function call.</dt> <dd> A blocking operation was interrupted by a call to [WSACancelBlockingCall](wsacancelblockingcall-2.md).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Interrupted_function_call."></span><span id="interrupted_function_call."></span><span id="INTERRUPTED_FUNCTION_CALL."></span>Interrupted function call.</dt> <dd> A blocking operation was interrupted by a call to [WSACancelBlockingCall](/windows/win32/winsock2/nf-winsock2-wsacancelblockingcall?branch=master).<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEBADF"></span><span id="wsaebadf"></span><dl> <dt><strong>WSAEBADF</strong></dt> <dt>10009</dt> </dl></td>
@@ -62,7 +67,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEACCES"></span><span id="wsaeacces"></span><dl> <dt><strong>WSAEACCES</strong></dt> <dt>10013</dt> </dl></td>
-<td><dl> <dt><span id="Permission_denied."></span><span id="permission_denied."></span><span id="PERMISSION_DENIED."></span>Permission denied.</dt> <dd> An attempt was made to access a socket in a way forbidden by its access permissions. An example is using a broadcast address for [<strong>sendto</strong>](sendto-2.md) without broadcast permission being set using [<strong>setsockopt</strong>](setsockopt-2.md)(SO_BROADCAST). <br/> Another possible reason for the WSAEACCES error is that when the [<strong>bind</strong>](bind-2.md) function is called (on Windows NT 4.0 with SP4 and later), another application, service, or kernel mode driver is bound to the same address with exclusive access. Such exclusive access is a new feature of Windows NT 4.0 with SP4 and later, and is implemented by using the [SO_EXCLUSIVEADDRUSE](so-exclusiveaddruse.md) option.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Permission_denied."></span><span id="permission_denied."></span><span id="PERMISSION_DENIED."></span>Permission denied.</dt> <dd> An attempt was made to access a socket in a way forbidden by its access permissions. An example is using a broadcast address for [<strong>sendto</strong>](/windows/win32/winsock/nf-winsock-sendto?branch=master) without broadcast permission being set using [<strong>setsockopt</strong>](/windows/win32/winsock/nf-winsock-setsockopt?branch=master)(SO_BROADCAST). <br/> Another possible reason for the WSAEACCES error is that when the [<strong>bind</strong>](/windows/win32/winsock/nf-winsock-bind?branch=master) function is called (on Windows NT 4.0 with SP4 and later), another application, service, or kernel mode driver is bound to the same address with exclusive access. Such exclusive access is a new feature of Windows NT 4.0 with SP4 and later, and is implemented by using the [SO_EXCLUSIVEADDRUSE](so-exclusiveaddruse.md) option.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEFAULT"></span><span id="wsaefault"></span><dl> <dt><strong>WSAEFAULT</strong></dt> <dt>10014</dt> </dl></td>
@@ -70,7 +75,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEINVAL"></span><span id="wsaeinval"></span><dl> <dt><strong>WSAEINVAL</strong></dt> <dt>10022</dt> </dl></td>
-<td><dl> <dt><span id="Invalid_argument."></span><span id="invalid_argument."></span><span id="INVALID_ARGUMENT."></span>Invalid argument.</dt> <dd> Some invalid argument was supplied (for example, specifying an invalid level to the [<strong>setsockopt</strong>](setsockopt-2.md) function). In some instances, it also refers to the current state of the socket—for instance, calling [<strong>accept</strong>](accept-2.md) on a socket that is not listening.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Invalid_argument."></span><span id="invalid_argument."></span><span id="INVALID_ARGUMENT."></span>Invalid argument.</dt> <dd> Some invalid argument was supplied (for example, specifying an invalid level to the [<strong>setsockopt</strong>](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function). In some instances, it also refers to the current state of the socket—for instance, calling [<strong>accept</strong>](/windows/win32/Winsock2/nf-winsock2-accept?branch=master) on a socket that is not listening.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEMFILE"></span><span id="wsaemfile"></span><dl> <dt><strong>WSAEMFILE</strong></dt> <dt>10024</dt> </dl></td>
@@ -78,7 +83,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEWOULDBLOCK"></span><span id="wsaewouldblock"></span><dl> <dt><strong>WSAEWOULDBLOCK</strong></dt> <dt>10035</dt> </dl></td>
-<td><dl> <dt><span id="Resource_temporarily_unavailable."></span><span id="resource_temporarily_unavailable."></span><span id="RESOURCE_TEMPORARILY_UNAVAILABLE."></span>Resource temporarily unavailable.</dt> <dd> This error is returned from operations on nonblocking sockets that cannot be completed immediately, for example [<strong>recv</strong>](recv-2.md) when no data is queued to be read from the socket. It is a nonfatal error, and the operation should be retried later. It is normal for WSAEWOULDBLOCK to be reported as the result from calling [<strong>connect</strong>](connect-2.md) on a nonblocking SOCK_STREAM socket, since some time must elapse for the connection to be established.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Resource_temporarily_unavailable."></span><span id="resource_temporarily_unavailable."></span><span id="RESOURCE_TEMPORARILY_UNAVAILABLE."></span>Resource temporarily unavailable.</dt> <dd> This error is returned from operations on nonblocking sockets that cannot be completed immediately, for example [<strong>recv</strong>](/windows/win32/winsock/nf-winsock-recv?branch=master) when no data is queued to be read from the socket. It is a nonfatal error, and the operation should be retried later. It is normal for WSAEWOULDBLOCK to be reported as the result from calling [<strong>connect</strong>](/windows/win32/Winsock2/nf-winsock2-connect?branch=master) on a nonblocking SOCK_STREAM socket, since some time must elapse for the connection to be established.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEINPROGRESS"></span><span id="wsaeinprogress"></span><dl> <dt><strong>WSAEINPROGRESS</strong></dt> <dt>10036</dt> </dl></td>
@@ -86,15 +91,15 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEALREADY"></span><span id="wsaealready"></span><dl> <dt><strong>WSAEALREADY</strong></dt> <dt>10037</dt> </dl></td>
-<td><dl> <dt><span id="Operation_already_in_progress."></span><span id="operation_already_in_progress."></span><span id="OPERATION_ALREADY_IN_PROGRESS."></span>Operation already in progress.</dt> <dd> An operation was attempted on a nonblocking socket with an operation already in progress—that is, calling [<strong>connect</strong>](connect-2.md) a second time on a nonblocking socket that is already connecting, or canceling an asynchronous request (<strong>WSAAsyncGetXbyY</strong>) that has already been canceled or completed.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Operation_already_in_progress."></span><span id="operation_already_in_progress."></span><span id="OPERATION_ALREADY_IN_PROGRESS."></span>Operation already in progress.</dt> <dd> An operation was attempted on a nonblocking socket with an operation already in progress—that is, calling [<strong>connect</strong>](/windows/win32/Winsock2/nf-winsock2-connect?branch=master) a second time on a nonblocking socket that is already connecting, or canceling an asynchronous request (<strong>WSAAsyncGetXbyY</strong>) that has already been canceled or completed.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAENOTSOCK"></span><span id="wsaenotsock"></span><dl> <dt><strong>WSAENOTSOCK</strong></dt> <dt>10038</dt> </dl></td>
-<td><dl> <dt><span id="Socket_operation_on_nonsocket."></span><span id="socket_operation_on_nonsocket."></span><span id="SOCKET_OPERATION_ON_NONSOCKET."></span>Socket operation on nonsocket.</dt> <dd> An operation was attempted on something that is not a socket. Either the socket handle parameter did not reference a valid socket, or for [<strong>select</strong>](select-2.md), a member of an <strong>fd_set</strong> was not valid.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Socket_operation_on_nonsocket."></span><span id="socket_operation_on_nonsocket."></span><span id="SOCKET_OPERATION_ON_NONSOCKET."></span>Socket operation on nonsocket.</dt> <dd> An operation was attempted on something that is not a socket. Either the socket handle parameter did not reference a valid socket, or for [<strong>select</strong>](/windows/win32/Winsock2/nf-winsock2-select?branch=master), a member of an <strong>fd_set</strong> was not valid.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEDESTADDRREQ"></span><span id="wsaedestaddrreq"></span><dl> <dt><strong>WSAEDESTADDRREQ</strong></dt> <dt>10039</dt> </dl></td>
-<td><dl> <dt><span id="Destination_address_required."></span><span id="destination_address_required."></span><span id="DESTINATION_ADDRESS_REQUIRED."></span>Destination address required.</dt> <dd> A required address was omitted from an operation on a socket. For example, this error is returned if [<strong>sendto</strong>](sendto-2.md) is called with the remote address of ADDR_ANY.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Destination_address_required."></span><span id="destination_address_required."></span><span id="DESTINATION_ADDRESS_REQUIRED."></span>Destination address required.</dt> <dd> A required address was omitted from an operation on a socket. For example, this error is returned if [<strong>sendto</strong>](/windows/win32/winsock/nf-winsock-sendto?branch=master) is called with the remote address of ADDR_ANY.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEMSGSIZE"></span><span id="wsaemsgsize"></span><dl> <dt><strong>WSAEMSGSIZE</strong></dt> <dt>10040</dt> </dl></td>
@@ -102,19 +107,19 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEPROTOTYPE"></span><span id="wsaeprototype"></span><dl> <dt><strong>WSAEPROTOTYPE</strong></dt> <dt>10041</dt> </dl></td>
-<td><dl> <dt><span id="Protocol_wrong_type_for_socket."></span><span id="protocol_wrong_type_for_socket."></span><span id="PROTOCOL_WRONG_TYPE_FOR_SOCKET."></span>Protocol wrong type for socket.</dt> <dd> A protocol was specified in the [<strong>socket</strong>](socket-2.md) function call that does not support the semantics of the socket type requested. For example, the ARPA Internet UDP protocol cannot be specified with a socket type of SOCK_STREAM.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Protocol_wrong_type_for_socket."></span><span id="protocol_wrong_type_for_socket."></span><span id="PROTOCOL_WRONG_TYPE_FOR_SOCKET."></span>Protocol wrong type for socket.</dt> <dd> A protocol was specified in the [<strong>socket</strong>](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) function call that does not support the semantics of the socket type requested. For example, the ARPA Internet UDP protocol cannot be specified with a socket type of SOCK_STREAM.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAENOPROTOOPT"></span><span id="wsaenoprotoopt"></span><dl> <dt><strong>WSAENOPROTOOPT</strong></dt> <dt>10042</dt> </dl></td>
-<td><dl> <dt><span id="Bad_protocol_option."></span><span id="bad_protocol_option."></span><span id="BAD_PROTOCOL_OPTION."></span>Bad protocol option.</dt> <dd> An unknown, invalid or unsupported option or level was specified in a [<strong>getsockopt</strong>](getsockopt-2.md) or [<strong>setsockopt</strong>](setsockopt-2.md) call.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Bad_protocol_option."></span><span id="bad_protocol_option."></span><span id="BAD_PROTOCOL_OPTION."></span>Bad protocol option.</dt> <dd> An unknown, invalid or unsupported option or level was specified in a [<strong>getsockopt</strong>](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) or [<strong>setsockopt</strong>](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) call.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEPROTONOSUPPORT"></span><span id="wsaeprotonosupport"></span><dl> <dt><strong>WSAEPROTONOSUPPORT</strong></dt> <dt>10043</dt> </dl></td>
-<td><dl> <dt><span id="Protocol_not_supported."></span><span id="protocol_not_supported."></span><span id="PROTOCOL_NOT_SUPPORTED."></span>Protocol not supported.</dt> <dd> The requested protocol has not been configured into the system, or no implementation for it exists. For example, a [<strong>socket</strong>](socket-2.md) call requests a SOCK_DGRAM socket, but specifies a stream protocol.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Protocol_not_supported."></span><span id="protocol_not_supported."></span><span id="PROTOCOL_NOT_SUPPORTED."></span>Protocol not supported.</dt> <dd> The requested protocol has not been configured into the system, or no implementation for it exists. For example, a [<strong>socket</strong>](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) call requests a SOCK_DGRAM socket, but specifies a stream protocol.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAESOCKTNOSUPPORT"></span><span id="wsaesocktnosupport"></span><dl> <dt><strong>WSAESOCKTNOSUPPORT</strong></dt> <dt>10044</dt> </dl></td>
-<td><dl> <dt><span id="Socket_type_not_supported."></span><span id="socket_type_not_supported."></span><span id="SOCKET_TYPE_NOT_SUPPORTED."></span>Socket type not supported.</dt> <dd> The support for the specified socket type does not exist in this address family. For example, the optional type SOCK_RAW might be selected in a [<strong>socket</strong>](socket-2.md) call, and the implementation does not support SOCK_RAW sockets at all.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Socket_type_not_supported."></span><span id="socket_type_not_supported."></span><span id="SOCKET_TYPE_NOT_SUPPORTED."></span>Socket type not supported.</dt> <dd> The support for the specified socket type does not exist in this address family. For example, the optional type SOCK_RAW might be selected in a [<strong>socket</strong>](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) call, and the implementation does not support SOCK_RAW sockets at all.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEOPNOTSUPP"></span><span id="wsaeopnotsupp"></span><dl> <dt><strong>WSAEOPNOTSUPP</strong></dt> <dt>10045</dt> </dl></td>
@@ -126,15 +131,15 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEAFNOSUPPORT"></span><span id="wsaeafnosupport"></span><dl> <dt><strong>WSAEAFNOSUPPORT</strong></dt> <dt>10047</dt> </dl></td>
-<td><dl> <dt><span id="Address_family_not_supported_by_protocol_family."></span><span id="address_family_not_supported_by_protocol_family."></span><span id="ADDRESS_FAMILY_NOT_SUPPORTED_BY_PROTOCOL_FAMILY."></span>Address family not supported by protocol family.</dt> <dd> An address incompatible with the requested protocol was used. All sockets are created with an associated address family (that is, AF_INET for Internet Protocols) and a generic protocol type (that is, SOCK_STREAM). This error is returned if an incorrect protocol is explicitly requested in the [<strong>socket</strong>](socket-2.md) call, or if an address of the wrong family is used for a socket, for example, in [<strong>sendto</strong>](sendto-2.md).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Address_family_not_supported_by_protocol_family."></span><span id="address_family_not_supported_by_protocol_family."></span><span id="ADDRESS_FAMILY_NOT_SUPPORTED_BY_PROTOCOL_FAMILY."></span>Address family not supported by protocol family.</dt> <dd> An address incompatible with the requested protocol was used. All sockets are created with an associated address family (that is, AF_INET for Internet Protocols) and a generic protocol type (that is, SOCK_STREAM). This error is returned if an incorrect protocol is explicitly requested in the [<strong>socket</strong>](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) call, or if an address of the wrong family is used for a socket, for example, in [<strong>sendto</strong>](/windows/win32/winsock/nf-winsock-sendto?branch=master).<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEADDRINUSE"></span><span id="wsaeaddrinuse"></span><dl> <dt><strong>WSAEADDRINUSE</strong></dt> <dt>10048</dt> </dl></td>
-<td><dl> <dt><span id="Address_already_in_use."></span><span id="address_already_in_use."></span><span id="ADDRESS_ALREADY_IN_USE."></span>Address already in use.</dt> <dd> Typically, only one usage of each socket address (protocol/IP address/port) is permitted. This error occurs if an application attempts to [<strong>bind</strong>](bind-2.md) a socket to an IP address/port that has already been used for an existing socket, or a socket that was not closed properly, or one that is still in the process of closing. For server applications that need to <strong>bind</strong> multiple sockets to the same port number, consider using [<strong>setsockopt</strong>](setsockopt-2.md) (SO_REUSEADDR). Client applications usually need not call <strong>bind</strong> at all—[<strong>connect</strong>](connect-2.md) chooses an unused port automatically. When <strong>bind</strong> is called with a wildcard address (involving ADDR_ANY), a WSAEADDRINUSE error could be delayed until the specific address is committed. This could happen with a call to another function later, including <strong>connect</strong>, [<strong>listen</strong>](listen-2.md), [<strong>WSAConnect</strong>](wsaconnect-2.md), or [<strong>WSAJoinLeaf</strong>](wsajoinleaf-2.md).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Address_already_in_use."></span><span id="address_already_in_use."></span><span id="ADDRESS_ALREADY_IN_USE."></span>Address already in use.</dt> <dd> Typically, only one usage of each socket address (protocol/IP address/port) is permitted. This error occurs if an application attempts to [<strong>bind</strong>](/windows/win32/winsock/nf-winsock-bind?branch=master) a socket to an IP address/port that has already been used for an existing socket, or a socket that was not closed properly, or one that is still in the process of closing. For server applications that need to <strong>bind</strong> multiple sockets to the same port number, consider using [<strong>setsockopt</strong>](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) (SO_REUSEADDR). Client applications usually need not call <strong>bind</strong> at all—[<strong>connect</strong>](/windows/win32/Winsock2/nf-winsock2-connect?branch=master) chooses an unused port automatically. When <strong>bind</strong> is called with a wildcard address (involving ADDR_ANY), a WSAEADDRINUSE error could be delayed until the specific address is committed. This could happen with a call to another function later, including <strong>connect</strong>, [<strong>listen</strong>](/windows/win32/Winsock2/nf-winsock2-listen?branch=master), [<strong>WSAConnect</strong>](/windows/win32/Winsock2/nf-winsock2-wsaconnect?branch=master), or [<strong>WSAJoinLeaf</strong>](/windows/win32/Winsock2/nf-winsock2-wsajoinleaf?branch=master).<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEADDRNOTAVAIL"></span><span id="wsaeaddrnotavail"></span><dl> <dt><strong>WSAEADDRNOTAVAIL</strong></dt> <dt>10049</dt> </dl></td>
-<td><dl> <dt><span id="Cannot_assign_requested_address."></span><span id="cannot_assign_requested_address."></span><span id="CANNOT_ASSIGN_REQUESTED_ADDRESS."></span>Cannot assign requested address.</dt> <dd> The requested address is not valid in its context. This normally results from an attempt to [<strong>bind</strong>](bind-2.md) to an address that is not valid for the local computer. This can also result from [<strong>connect</strong>](connect-2.md), [<strong>sendto</strong>](sendto-2.md), [<strong>WSAConnect</strong>](wsaconnect-2.md), [<strong>WSAJoinLeaf</strong>](wsajoinleaf-2.md), or [<strong>WSASendTo</strong>](wsasendto-2.md) when the remote address or port is not valid for a remote computer (for example, address or port 0).<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Cannot_assign_requested_address."></span><span id="cannot_assign_requested_address."></span><span id="CANNOT_ASSIGN_REQUESTED_ADDRESS."></span>Cannot assign requested address.</dt> <dd> The requested address is not valid in its context. This normally results from an attempt to [<strong>bind</strong>](/windows/win32/winsock/nf-winsock-bind?branch=master) to an address that is not valid for the local computer. This can also result from [<strong>connect</strong>](/windows/win32/Winsock2/nf-winsock2-connect?branch=master), [<strong>sendto</strong>](/windows/win32/winsock/nf-winsock-sendto?branch=master), [<strong>WSAConnect</strong>](/windows/win32/Winsock2/nf-winsock2-wsaconnect?branch=master), [<strong>WSAJoinLeaf</strong>](/windows/win32/Winsock2/nf-winsock2-wsajoinleaf?branch=master), or [<strong>WSASendTo</strong>](/windows/win32/Winsock2/nf-winsock2-wsasendto?branch=master) when the remote address or port is not valid for a remote computer (for example, address or port 0).<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAENETDOWN"></span><span id="wsaenetdown"></span><dl> <dt><strong>WSAENETDOWN</strong></dt> <dt>10050</dt> </dl></td>
@@ -146,7 +151,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSAENETRESET"></span><span id="wsaenetreset"></span><dl> <dt><strong>WSAENETRESET</strong></dt> <dt>10052</dt> </dl></td>
-<td><dl> <dt><span id="Network_dropped_connection_on_reset."></span><span id="network_dropped_connection_on_reset."></span><span id="NETWORK_DROPPED_CONNECTION_ON_RESET."></span>Network dropped connection on reset.</dt> <dd> The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress. It can also be returned by [<strong>setsockopt</strong>](setsockopt-2.md) if an attempt is made to set [<strong>SO_KEEPALIVE</strong>](so-keepalive.md) on a connection that has already failed.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Network_dropped_connection_on_reset."></span><span id="network_dropped_connection_on_reset."></span><span id="NETWORK_DROPPED_CONNECTION_ON_RESET."></span>Network dropped connection on reset.</dt> <dd> The connection has been broken due to keep-alive activity detecting a failure while the operation was in progress. It can also be returned by [<strong>setsockopt</strong>](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) if an attempt is made to set [<strong>SO_KEEPALIVE</strong>](so-keepalive.md) on a connection that has already failed.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAECONNABORTED"></span><span id="wsaeconnaborted"></span><dl> <dt><strong>WSAECONNABORTED</strong></dt> <dt>10053</dt> </dl></td>
@@ -154,7 +159,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSAECONNRESET"></span><span id="wsaeconnreset"></span><dl> <dt><strong>WSAECONNRESET</strong></dt> <dt>10054</dt> </dl></td>
-<td><dl> <dt><span id="Connection_reset_by_peer."></span><span id="connection_reset_by_peer."></span><span id="CONNECTION_RESET_BY_PEER."></span>Connection reset by peer.</dt> <dd> An existing connection was forcibly closed by the remote host. This normally results if the peer application on the remote host is suddenly stopped, the host is rebooted, the host or remote network interface is disabled, or the remote host uses a hard close (see [<strong>setsockopt</strong>](setsockopt-2.md) for more information on the SO_LINGER option on the remote socket). This error may also result if a connection was broken due to keep-alive activity detecting a failure while one or more operations are in progress. Operations that were in progress fail with WSAENETRESET. Subsequent operations fail with WSAECONNRESET.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Connection_reset_by_peer."></span><span id="connection_reset_by_peer."></span><span id="CONNECTION_RESET_BY_PEER."></span>Connection reset by peer.</dt> <dd> An existing connection was forcibly closed by the remote host. This normally results if the peer application on the remote host is suddenly stopped, the host is rebooted, the host or remote network interface is disabled, or the remote host uses a hard close (see [<strong>setsockopt</strong>](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) for more information on the SO_LINGER option on the remote socket). This error may also result if a connection was broken due to keep-alive activity detecting a failure while one or more operations are in progress. Operations that were in progress fail with WSAENETRESET. Subsequent operations fail with WSAECONNRESET.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAENOBUFS"></span><span id="wsaenobufs"></span><dl> <dt><strong>WSAENOBUFS</strong></dt> <dt>10055</dt> </dl></td>
@@ -162,15 +167,15 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSAEISCONN"></span><span id="wsaeisconn"></span><dl> <dt><strong>WSAEISCONN</strong></dt> <dt>10056</dt> </dl></td>
-<td><dl> <dt><span id="Socket_is_already_connected."></span><span id="socket_is_already_connected."></span><span id="SOCKET_IS_ALREADY_CONNECTED."></span>Socket is already connected.</dt> <dd> A connect request was made on an already-connected socket. Some implementations also return this error if [<strong>sendto</strong>](sendto-2.md) is called on a connected SOCK_DGRAM socket (for SOCK_STREAM sockets, the <em>to</em> parameter in <strong>sendto</strong> is ignored) although other implementations treat this as a legal occurrence.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Socket_is_already_connected."></span><span id="socket_is_already_connected."></span><span id="SOCKET_IS_ALREADY_CONNECTED."></span>Socket is already connected.</dt> <dd> A connect request was made on an already-connected socket. Some implementations also return this error if [<strong>sendto</strong>](/windows/win32/winsock/nf-winsock-sendto?branch=master) is called on a connected SOCK_DGRAM socket (for SOCK_STREAM sockets, the <em>to</em> parameter in <strong>sendto</strong> is ignored) although other implementations treat this as a legal occurrence.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAENOTCONN"></span><span id="wsaenotconn"></span><dl> <dt><strong>WSAENOTCONN</strong></dt> <dt>10057</dt> </dl></td>
-<td><dl> <dt><span id="Socket_is_not_connected."></span><span id="socket_is_not_connected."></span><span id="SOCKET_IS_NOT_CONNECTED."></span>Socket is not connected.</dt> <dd> A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using [<strong>sendto</strong>](sendto-2.md)) no address was supplied. Any other type of operation might also return this error—for example, [<strong>setsockopt</strong>](setsockopt-2.md) setting [<strong>SO_KEEPALIVE</strong>](so-keepalive.md) if the connection has been reset.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Socket_is_not_connected."></span><span id="socket_is_not_connected."></span><span id="SOCKET_IS_NOT_CONNECTED."></span>Socket is not connected.</dt> <dd> A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using [<strong>sendto</strong>](/windows/win32/winsock/nf-winsock-sendto?branch=master)) no address was supplied. Any other type of operation might also return this error—for example, [<strong>setsockopt</strong>](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) setting [<strong>SO_KEEPALIVE</strong>](so-keepalive.md) if the connection has been reset.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAESHUTDOWN"></span><span id="wsaeshutdown"></span><dl> <dt><strong>WSAESHUTDOWN</strong></dt> <dt>10058</dt> </dl></td>
-<td><dl> <dt><span id="Cannot_send_after_socket_shutdown."></span><span id="cannot_send_after_socket_shutdown."></span><span id="CANNOT_SEND_AFTER_SOCKET_SHUTDOWN."></span>Cannot send after socket shutdown.</dt> <dd> A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous [<strong>shutdown</strong>](shutdown-2.md) call. By calling <strong>shutdown</strong> a partial close of a socket is requested, which is a signal that sending or receiving, or both have been discontinued.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Cannot_send_after_socket_shutdown."></span><span id="cannot_send_after_socket_shutdown."></span><span id="CANNOT_SEND_AFTER_SOCKET_SHUTDOWN."></span>Cannot send after socket shutdown.</dt> <dd> A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous [<strong>shutdown</strong>](/windows/win32/winsock/nf-winsock-shutdown?branch=master) call. By calling <strong>shutdown</strong> a partial close of a socket is requested, which is a signal that sending or receiving, or both have been discontinued.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAETOOMANYREFS"></span><span id="wsaetoomanyrefs"></span><dl> <dt><strong>WSAETOOMANYREFS</strong></dt> <dt>10059</dt> </dl></td>
@@ -206,7 +211,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEPROCLIM"></span><span id="wsaeproclim"></span><dl> <dt><strong>WSAEPROCLIM</strong></dt> <dt>10067</dt> </dl></td>
-<td><dl> <dt><span id="Too_many_processes."></span><span id="too_many_processes."></span><span id="TOO_MANY_PROCESSES."></span>Too many processes.</dt> <dd> A Windows Sockets implementation may have a limit on the number of applications that can use it simultaneously. [<strong>WSAStartup</strong>](wsastartup-2.md) may fail with this error if the limit has been reached.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Too_many_processes."></span><span id="too_many_processes."></span><span id="TOO_MANY_PROCESSES."></span>Too many processes.</dt> <dd> A Windows Sockets implementation may have a limit on the number of applications that can use it simultaneously. [<strong>WSAStartup</strong>](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) may fail with this error if the limit has been reached.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEUSERS"></span><span id="wsaeusers"></span><dl> <dt><strong>WSAEUSERS</strong></dt> <dt>10068</dt> </dl></td>
@@ -226,7 +231,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSASYSNOTREADY"></span><span id="wsasysnotready"></span><dl> <dt><strong>WSASYSNOTREADY</strong></dt> <dt>10091</dt> </dl></td>
-<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>Network subsystem is unavailable.</dt> <dd> This error is returned by [<strong>WSAStartup</strong>](wsastartup-2.md) if the Windows Sockets implementation cannot function at this time because the underlying system it uses to provide network services is currently unavailable. Users should check:<br/> </dd> </dl>
+<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>Network subsystem is unavailable.</dt> <dd> This error is returned by [<strong>WSAStartup</strong>](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) if the Windows Sockets implementation cannot function at this time because the underlying system it uses to provide network services is currently unavailable. Users should check:<br/> </dd> </dl>
 <ul>
 <li>That the appropriate Windows Sockets DLL file is in the current path.</li>
 <li>That they are not trying to use more than one Windows Sockets implementation simultaneously. If there is more than one Winsock DLL on your system, be sure the first one in the path is appropriate for the network subsystem currently loaded.</li>
@@ -239,19 +244,19 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSANOTINITIALISED"></span><span id="wsanotinitialised"></span><dl> <dt><strong>WSANOTINITIALISED</strong></dt> <dt>10093</dt> </dl></td>
-<td><dl> <dt><span id="Successful_WSAStartup_not_yet_performed."></span><span id="successful_wsastartup_not_yet_performed."></span><span id="SUCCESSFUL_WSASTARTUP_NOT_YET_PERFORMED."></span>Successful WSAStartup not yet performed.</dt> <dd> Either the application has not called [<strong>WSAStartup</strong>](wsastartup-2.md) or <strong>WSAStartup</strong> failed. The application may be accessing a socket that the current active task does not own (that is, trying to share a socket between tasks), or [<strong>WSACleanup</strong>](wsacleanup-2.md) has been called too many times.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Successful_WSAStartup_not_yet_performed."></span><span id="successful_wsastartup_not_yet_performed."></span><span id="SUCCESSFUL_WSASTARTUP_NOT_YET_PERFORMED."></span>Successful WSAStartup not yet performed.</dt> <dd> Either the application has not called [<strong>WSAStartup</strong>](/windows/win32/winsock/nf-winsock-wsastartup?branch=master) or <strong>WSAStartup</strong> failed. The application may be accessing a socket that the current active task does not own (that is, trying to share a socket between tasks), or [<strong>WSACleanup</strong>](/windows/win32/winsock/nf-winsock-wsacleanup?branch=master) has been called too many times.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEDISCON"></span><span id="wsaediscon"></span><dl> <dt><strong>WSAEDISCON</strong></dt> <dt>10101</dt> </dl></td>
-<td><dl> <dt><span id="Graceful_shutdown_in_progress."></span><span id="graceful_shutdown_in_progress."></span><span id="GRACEFUL_SHUTDOWN_IN_PROGRESS."></span>Graceful shutdown in progress.</dt> <dd> Returned by [<strong>WSARecv</strong>](wsarecv-2.md) and [<strong>WSARecvFrom</strong>](wsarecvfrom-2.md) to indicate that the remote party has initiated a graceful shutdown sequence.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Graceful_shutdown_in_progress."></span><span id="graceful_shutdown_in_progress."></span><span id="GRACEFUL_SHUTDOWN_IN_PROGRESS."></span>Graceful shutdown in progress.</dt> <dd> Returned by [<strong>WSARecv</strong>](/windows/win32/Winsock2/nf-winsock2-wsarecv?branch=master) and [<strong>WSARecvFrom</strong>](/windows/win32/Winsock2/nf-winsock2-wsarecvfrom?branch=master) to indicate that the remote party has initiated a graceful shutdown sequence.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAENOMORE"></span><span id="wsaenomore"></span><dl> <dt><strong>WSAENOMORE</strong></dt> <dt>10102</dt> </dl></td>
-<td><dl> <dt><span id="No_more_results."></span><span id="no_more_results."></span><span id="NO_MORE_RESULTS."></span>No more results.</dt> <dd> No more results can be returned by the [<strong>WSALookupServiceNext</strong>](wsalookupservicenext-2.md) function.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="No_more_results."></span><span id="no_more_results."></span><span id="NO_MORE_RESULTS."></span>No more results.</dt> <dd> No more results can be returned by the [<strong>WSALookupServiceNext</strong>](/windows/win32/Winsock2/nf-winsock2-wsalookupservicenexta?branch=master) function.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAECANCELLED"></span><span id="wsaecancelled"></span><dl> <dt><strong>WSAECANCELLED</strong></dt> <dt>10103</dt> </dl></td>
-<td><dl> <dt><span id="Call_has_been_canceled."></span><span id="call_has_been_canceled."></span><span id="CALL_HAS_BEEN_CANCELED."></span>Call has been canceled.</dt> <dd> A call to the [<strong>WSALookupServiceEnd</strong>](wsalookupserviceend-2.md) function was made while this call was still processing. The call has been canceled.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Call_has_been_canceled."></span><span id="call_has_been_canceled."></span><span id="CALL_HAS_BEEN_CANCELED."></span>Call has been canceled.</dt> <dd> A call to the [<strong>WSALookupServiceEnd</strong>](/windows/win32/Winsock2/nf-winsock2-wsalookupserviceend?branch=master) function was made while this call was still processing. The call has been canceled.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEINVALIDPROCTABLE"></span><span id="wsaeinvalidproctable"></span><dl> <dt><strong>WSAEINVALIDPROCTABLE</strong></dt> <dt>10104</dt> </dl></td>
@@ -259,15 +264,15 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="odd">
 <td><span id="WSAEINVALIDPROVIDER"></span><span id="wsaeinvalidprovider"></span><dl> <dt><strong>WSAEINVALIDPROVIDER</strong></dt> <dt>10105</dt> </dl></td>
-<td><dl> <dt><span id="Service_provider_is_invalid."></span><span id="service_provider_is_invalid."></span><span id="SERVICE_PROVIDER_IS_INVALID."></span>Service provider is invalid.</dt> <dd> The requested service provider is invalid. This error is returned by the [<strong>WSCGetProviderInfo</strong>](wscgetproviderinfo.md) and [<strong>WSCGetProviderInfo32</strong>](wscgetproviderinfo32.md) functions if the protocol entry specified could not be found. This error is also returned if the service provider returned a version number other than 2.0.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Service_provider_is_invalid."></span><span id="service_provider_is_invalid."></span><span id="SERVICE_PROVIDER_IS_INVALID."></span>Service provider is invalid.</dt> <dd> The requested service provider is invalid. This error is returned by the [<strong>WSCGetProviderInfo</strong>](/windows/win32/Ws2spi/nf-ws2spi-wscgetproviderinfo?branch=master) and [<strong>WSCGetProviderInfo32</strong>](/windows/win32/Ws2spi/nf-ws2spi-wscgetproviderinfo32?branch=master) functions if the protocol entry specified could not be found. This error is also returned if the service provider returned a version number other than 2.0.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEPROVIDERFAILEDINIT"></span><span id="wsaeproviderfailedinit"></span><dl> <dt><strong>WSAEPROVIDERFAILEDINIT</strong></dt> <dt>10106</dt> </dl></td>
-<td><dl> <dt><span id="Service_provider_failed_to_initialize."></span><span id="service_provider_failed_to_initialize."></span><span id="SERVICE_PROVIDER_FAILED_TO_INITIALIZE."></span>Service provider failed to initialize.</dt> <dd> The requested service provider could not be loaded or initialized. This error is returned if either a service provider's DLL could not be loaded ([<strong>LoadLibrary</strong>](base.loadlibrary) failed) or the provider's [<strong>WSPStartup</strong>](wspstartup-2.md) or [<strong>NSPStartup</strong>](nspstartup-2.md) function failed.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Service_provider_failed_to_initialize."></span><span id="service_provider_failed_to_initialize."></span><span id="SERVICE_PROVIDER_FAILED_TO_INITIALIZE."></span>Service provider failed to initialize.</dt> <dd> The requested service provider could not be loaded or initialized. This error is returned if either a service provider's DLL could not be loaded ([<strong>LoadLibrary</strong>](base.loadlibrary) failed) or the provider's [<strong>WSPStartup</strong>](/windows/win32/Ws2spi/nf-ws2spi-wspstartup?branch=master) or [<strong>NSPStartup</strong>](/windows/win32/Ws2spi/nf-ws2spi-nspstartup?branch=master) function failed.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSASYSCALLFAILURE"></span><span id="wsasyscallfailure"></span><dl> <dt><strong>WSASYSCALLFAILURE</strong></dt> <dt>10107</dt> </dl></td>
-<td><dl> <dt><span id="System_call_failure."></span><span id="system_call_failure."></span><span id="SYSTEM_CALL_FAILURE."></span>System call failure.</dt> <dd> A system call that should never fail has failed. This is a generic error code, returned under various conditions. <br/> Returned when a system call that should never fail does fail. For example, if a call to [<strong>WaitForMultipleEvents</strong>](wsawaitformultipleevents-2.md) fails or one of the registry functions fails trying to manipulate the protocol/namespace catalogs.<br/> Returned when a provider does not return SUCCESS and does not provide an extended error code. Can indicate a service provider implementation error.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="System_call_failure."></span><span id="system_call_failure."></span><span id="SYSTEM_CALL_FAILURE."></span>System call failure.</dt> <dd> A system call that should never fail has failed. This is a generic error code, returned under various conditions. <br/> Returned when a system call that should never fail does fail. For example, if a call to [<strong>WaitForMultipleEvents</strong>](/windows/win32/Winsock2/nf-winsock2-wsawaitformultipleevents?branch=master) fails or one of the registry functions fails trying to manipulate the protocol/namespace catalogs.<br/> Returned when a provider does not return SUCCESS and does not provide an extended error code. Can indicate a service provider implementation error.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSASERVICE_NOT_FOUND"></span><span id="wsaservice_not_found"></span><dl> <dt><strong>WSASERVICE_NOT_FOUND</strong></dt> <dt>10108</dt> </dl></td>
@@ -279,11 +284,11 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSA_E_NO_MORE"></span><span id="wsa_e_no_more"></span><dl> <dt><strong>WSA_E_NO_MORE</strong></dt> <dt>10110</dt> </dl></td>
-<td><dl> <dt><span id="No_more_results."></span><span id="no_more_results."></span><span id="NO_MORE_RESULTS."></span>No more results.</dt> <dd> No more results can be returned by the [<strong>WSALookupServiceNext</strong>](wsalookupservicenext-2.md) function.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="No_more_results."></span><span id="no_more_results."></span><span id="NO_MORE_RESULTS."></span>No more results.</dt> <dd> No more results can be returned by the [<strong>WSALookupServiceNext</strong>](/windows/win32/Winsock2/nf-winsock2-wsalookupservicenexta?branch=master) function.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_E_CANCELLED"></span><span id="wsa_e_cancelled"></span><dl> <dt><strong>WSA_E_CANCELLED</strong></dt> <dt>10111</dt> </dl></td>
-<td><dl> <dt><span id="Call_was_canceled."></span><span id="call_was_canceled."></span><span id="CALL_WAS_CANCELED."></span>Call was canceled.</dt> <dd> A call to the [<strong>WSALookupServiceEnd</strong>](wsalookupserviceend-2.md) function was made while this call was still processing. The call has been canceled.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Call_was_canceled."></span><span id="call_was_canceled."></span><span id="CALL_WAS_CANCELED."></span>Call was canceled.</dt> <dd> A call to the [<strong>WSALookupServiceEnd</strong>](/windows/win32/Winsock2/nf-winsock2-wsalookupserviceend?branch=master) function was made while this call was still processing. The call has been canceled.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEREFUSED"></span><span id="wsaerefused"></span><dl> <dt><strong>WSAEREFUSED</strong></dt> <dt>10112</dt> </dl></td>
@@ -303,7 +308,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 </tr>
 <tr class="even">
 <td><span id="WSANO_DATA"></span><span id="wsano_data"></span><dl> <dt><strong>WSANO_DATA</strong></dt> <dt>11004</dt> </dl></td>
-<td><dl> <dt><span id="Valid_name__no_data_record_of_requested_type."></span><span id="valid_name__no_data_record_of_requested_type."></span><span id="VALID_NAME__NO_DATA_RECORD_OF_REQUESTED_TYPE."></span>Valid name, no data record of requested type.</dt> <dd> The requested name is valid and was found in the database, but it does not have the correct associated data being resolved for. The usual example for this is a host name-to-address translation attempt (using [<strong>gethostbyname</strong>](gethostbyname-2.md) or [<strong>WSAAsyncGetHostByName</strong>](wsaasyncgethostbyname-2.md)) which uses the DNS (Domain Name Server). An MX record is returned but no A record—indicating the host itself exists, but is not directly reachable.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Valid_name__no_data_record_of_requested_type."></span><span id="valid_name__no_data_record_of_requested_type."></span><span id="VALID_NAME__NO_DATA_RECORD_OF_REQUESTED_TYPE."></span>Valid name, no data record of requested type.</dt> <dd> The requested name is valid and was found in the database, but it does not have the correct associated data being resolved for. The usual example for this is a host name-to-address translation attempt (using [<strong>gethostbyname</strong>](/windows/win32/wsipv6ok/nf-winsock-gethostbyname?branch=master) or [<strong>WSAAsyncGetHostByName</strong>](/windows/win32/wsipv6ok/nf-winsock-wsaasyncgethostbyname?branch=master)) which uses the DNS (Domain Name Server). An MX record is returned but no A record—indicating the host itself exists, but is not directly reachable.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_QOS_RECEIVERS"></span><span id="wsa_qos_receivers"></span><dl> <dt><strong>WSA_QOS_RECEIVERS</strong></dt> <dt>11005</dt> </dl></td>
@@ -443,7 +448,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 [**FormatMessage**](base.formatmessage)
 </dt> <dt>
 
-[**WSAGetLastError**](wsagetlasterror-2.md)
+[**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master)
 </dt> </dl>
 
  

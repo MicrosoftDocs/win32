@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.accName
 description: The accName attribute specifies or retrieves a name for any element.
-ms.assetid: '4cb453c9-1b5b-4bd9-8ae4-6d4bccc45562'
-keywords: ["AmbientAttributes.accName Windows Media Player"]
+ms.assetid: 4cb453c9-1b5b-4bd9-8ae4-6d4bccc45562
+keywords:
+- AmbientAttributes.accName Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.accName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.accName
@@ -46,9 +52,9 @@ This attribute also applies to button elements inside a button group control.
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

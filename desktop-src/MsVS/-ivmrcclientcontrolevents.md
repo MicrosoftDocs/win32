@@ -1,8 +1,10 @@
 ---
-title: \_IVMRCClientControlEvents interface
+title: '\_IVMRCClientControlEvents interface'
 description: Defines the outgoing event interface for the IVMRCClientControl interface.
-ms.assetid: 'a626eedf-8f7b-40c1-802e-f8a39ec15918'
-keywords: ["_IVMRCClientControlEvents interface Virtual Server", "_IVMRCClientControlEvents interface Virtual Server , described"]
+ms.assetid: a626eedf-8f7b-40c1-802e-f8a39ec15918
+keywords:
+- _IVMRCClientControlEvents interface Virtual Server
+- _IVMRCClientControlEvents interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IVMRCClientControlEvents interface
@@ -40,7 +47,7 @@ The **\_IVMRCClientControlEvents** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,8 +59,8 @@ This interface name begins with an underscore character (\_) so that the type li
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -68,9 +75,9 @@ This interface name begins with an underscore character (\_) so that the type li
 [\_IVMRCClientControl Methods](-ivmrcclientcontrolevents-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: ClosedCaption.SAMIStyleCount
 description: The SAMIStyleCount property retrieves the number of styles supported by the current SAMI file.
-ms.assetid: '57a85e5d-1598-4cb3-b47d-a6d8f22adfff'
-keywords: ["ClosedCaption.SAMIStyleCount Windows Media Player"]
+ms.assetid: 57a85e5d-1598-4cb3-b47d-a6d8f22adfff
+keywords:
+- ClosedCaption.SAMIStyleCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.SAMIStyleCount
@@ -58,9 +64,9 @@ This method cannot be used until a digital media file is open (*Player*.**openSt
 [**ClosedCaption.SAMIStyle**](closedcaption-samistyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

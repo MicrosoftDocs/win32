@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a human-readable type name of this IContextNode.'
-ms.assetid: '02031efd-1e9c-4e96-8dc1-280cc1a6e58f'
-title: 'IContextNode::GetTypeName method'
+Description: Retrieves a human-readable type name of this IContextNode.
+ms.assetid: 02031efd-1e9c-4e96-8dc1-280cc1a6e58f
+title: IContextNodeGetTypeName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetTypeName method
@@ -13,7 +18,7 @@ Retrieves a human-readable type name of this [**IContextNode**](icontextnode.md)
 
 ```C++
 HRESULT GetTypeName(
-  [out] BSTR *pbstrContextNodeType
+  [out] BSTR *pbstrContextNodeType
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**SysFreeString**](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3) on \**pbstrContextNodeType* when you no longer need to use the string.
 
- 
+ 
 
 For example, this method sets *pbstrContextNodeType* to "InkWordNode" for an ink word node (see [**IContextNode::GetType**](icontextnode-gettype.md) and [Context Node Types](context-node-types.md)).
 
@@ -49,7 +54,7 @@ For example, this method sets *pbstrContextNodeType* to "InkWordNode" for an ink
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -72,9 +77,9 @@ For example, this method sets *pbstrContextNodeType* to "InkWordNode" for an ink
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

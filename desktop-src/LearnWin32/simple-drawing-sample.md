@@ -1,7 +1,12 @@
 ---
 title: Simple Drawing Sample
 description: This sample application is a very simple drawing program that shows how to use mouse input, keyboard input, and accelerator tables.
-ms.assetid: '4E4CCBF3-4FDD-4487-B1F5-A5D0C383226F'
+ms.assetid: 4E4CCBF3-4FDD-4487-B1F5-A5D0C383226F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple Drawing Sample

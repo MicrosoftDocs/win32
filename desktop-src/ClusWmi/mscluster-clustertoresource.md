@@ -4,13 +4,15 @@ description: A dynamic associationWMI class that represents the resources in a c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ffe8e837-8809-448b-95e9-6f50932b5af0'
-ms.prod: 'windows-server-dev'
+ms.assetid: ffe8e837-8809-448b-95e9-6f50932b5af0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterToResource class", "MSCluster_ClusterToResource class, described"]
+keywords:
+- MSCluster_ClusterToResource class
+- MSCluster_ClusterToResource class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterToResource class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{89AC25D0-9706-481e-98E0-7DCD7AD8BDD4}"), AMENDMENT]
 class MSCluster_ClusterToResource : CIM_Component
 {
-  MSCluster_Cluster  REF GroupComponent;
+  MSCluster_Cluster  REF GroupComponent;
   MSCluster_Resource REF PartComponent;
 };
 ```
@@ -95,7 +100,7 @@ The **MSCluster\_ClusterToResource** class is derived from the [**CIM\_Component
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -118,9 +123,9 @@ The **MSCluster\_ClusterToResource** class is derived from the [**CIM\_Component
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

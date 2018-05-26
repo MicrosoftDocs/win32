@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of the TPM device.'
-ms.assetid: '948ccb47-3626-48f1-b18f-ef1d05978b21'
-title: 'Msvm\_TPMSettingData class'
+Description: Represents the configured state of the TPM device.
+ms.assetid: 948ccb47-3626-48f1-b18f-ef1d05978b21
+title: Msvm\_TPMSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TPMSettingData class
@@ -18,9 +23,9 @@ class Msvm_TPMSettingData : CIM_ResourceAllocationSettingData
 {
   boolean Shielded = FALSE;
   boolean DataProtected = FALSE;
-  uint16  EnabledState = 3;
-  uint8   KeyProtector[];
-  uint8   LastKnownGoodKeyProtector[];
+  uint16  EnabledState = 3;
+  uint8   KeyProtector[];
+  uint8   LastKnownGoodKeyProtector[];
 };
 ```
 
@@ -140,10 +145,10 @@ Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
-| End of client support<br/>    | Windows 10<br/>                                                                                   |
-| End of server support<br/>    | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| End of client support<br/>    | Windows 10<br/>                                                                                   |
+| End of server support<br/>    | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -157,9 +162,9 @@ Qualifiers: [**Required**](https://msdn.microsoft.com/library/aa393650)
 [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

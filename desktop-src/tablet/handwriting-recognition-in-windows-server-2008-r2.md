@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Server 2008 R2 adds support for server-side handwriting recognition to Windows. This topic describes how to recognize handwriting in Windows Server 2008 R2.'
-ms.assetid: 'ec22391d-a6e8-49b0-8650-943a661cbcd3'
+Description: Windows Server 2008 R2 adds support for server-side handwriting recognition to Windows. This topic describes how to recognize handwriting in Windows Server 2008 R2.
+ms.assetid: ec22391d-a6e8-49b0-8650-943a661cbcd3
 title: Handwriting Recognition in Windows Server 2008 R2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handwriting Recognition in Windows Server 2008 R2

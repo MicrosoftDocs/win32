@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the length of time, in minutes, that a PMK cache will be kept.'
-ms.assetid: 'd9e3b839-48f6-490c-ab83-067368cdcca2'
-title: 'PMKCacheTTL (security) Element'
+---
+Description: Indicates the length of time, in minutes, that a PMK cache will be kept.
+ms.assetid: d9e3b839-48f6-490c-ab83-067368cdcca2
+title: PMKCacheTTL (security) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PMKCacheTTL (security) Element

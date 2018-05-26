@@ -1,7 +1,12 @@
 ---
-Description: 'This topic identifies the constants that WinHTTP uses.'
-ms.assetid: '460f1463-57a8-47eb-9957-17976757bd7f'
+Description: This topic identifies the constants that WinHTTP uses.
+ms.assetid: 460f1463-57a8-47eb-9957-17976757bd7f
 title: WinHTTP Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHTTP Constants
@@ -27,7 +32,7 @@ Constants and corresponding values that indicate HTTP status codes returned by s
 [**Option Flags**](option-flags.md)
 </dt> <dd>
 
-Option flags supported by [**WinHttpQueryOption**](winhttpqueryoption.md) and [**WinHttpSetOption**](winhttpsetoption.md). All valid option flags have a value greater than or equal to WINHTTP\_FIRST\_OPTION and less than or equal to WINHTTP\_LAST\_OPTION.
+Option flags supported by [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) and [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master). All valid option flags have a value greater than or equal to WINHTTP\_FIRST\_OPTION and less than or equal to WINHTTP\_LAST\_OPTION.
 
 </dd> <dt>
 
@@ -48,7 +53,7 @@ Internet schemes supported by WinHTTP.
 [**Query Info Flags**](query-info-flags.md)
 </dt> <dd>
 
-Attributes and modifiers used by [**WinHttpQueryHeaders**](winhttpqueryheaders.md).
+Attributes and modifiers used by [**WinHttpQueryHeaders**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryheaders?branch=master).
 
 </dd> </dl>
 

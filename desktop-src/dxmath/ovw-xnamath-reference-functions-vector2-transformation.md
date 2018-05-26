@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists the 2D vector transformation functions.'
-ms.assetid: '175c2073-40ac-06b5-2f0e-495bd74b1502'
+---
+Description: Lists the 2D vector transformation functions.
+ms.assetid: 175c2073-40ac-06b5-2f0e-495bd74b1502
 title: DirectXMath Library 2D Vector Transformation Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Library 2D Vector Transformation Functions

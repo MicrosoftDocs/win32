@@ -1,8 +1,17 @@
 ---
 title: Programming Guide for Type 2 Online Stores
 description: Programming Guide for Type 2 Online Stores
-ms.assetid: '51627177-95a7-4fc1-b593-7c4717c29d69'
-keywords: ["Windows Media Player online stores,programming guide", "online stores,programming guide", "type 2 online stores,programming guide", "programming guide,type 2 online stores"]
+ms.assetid: 51627177-95a7-4fc1-b593-7c4717c29d69
+keywords:
+- Windows Media Player online stores,programming guide
+- online stores,programming guide
+- type 2 online stores,programming guide
+- programming guide,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide for Type 2 Online Stores

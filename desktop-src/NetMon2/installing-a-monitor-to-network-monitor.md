@@ -1,7 +1,12 @@
 ---
-Description: 'Installing a monitor DLL is a simple process.'
-ms.assetid: 'f2c18faa-0010-4d26-b7e9-e8a7b5d11981'
+Description: Installing a monitor DLL is a simple process.
+ms.assetid: f2c18faa-0010-4d26-b7e9-e8a7b5d11981
 title: Installing a Monitor to Network Monitor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing a Monitor to Network Monitor

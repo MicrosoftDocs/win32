@@ -4,11 +4,17 @@ description: The following are categories of functions in Active Directory Domai
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '66b6558d-141f-4751-9989-a26801fc6725'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 66b6558d-141f-4751-9989-a26801fc6725
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Functions AD", "Active Directory, Reference, Functions", "functions AD"]
+keywords:
+- Active Directory Functions AD
+- Active Directory, Reference, Functions
+- functions AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Functions in Active Directory Domain Services

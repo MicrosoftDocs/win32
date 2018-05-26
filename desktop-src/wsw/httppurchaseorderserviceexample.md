@@ -1,8 +1,16 @@
 ---
 title: HttpPurchaseOrderServiceExample
 description: This example shows how to use service host for hosting a PurchaseOrder service over HTTP.
-ms.assetid: '03da84b6-082f-41cd-810d-b593a55fa563'
-keywords: ["HttpPurchaseOrderServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 03da84b6-082f-41cd-810d-b593a55fa563
+keywords:
+- HttpPurchaseOrderServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpPurchaseOrderServiceExample

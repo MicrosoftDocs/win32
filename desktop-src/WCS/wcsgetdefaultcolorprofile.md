@@ -1,8 +1,9 @@
 ---
 title: WcsGetDefaultColorProfile function
 description: Retrieves the default color profile for a device, or for a device-independent default if the device is not specified.
-ms.assetid: 'a40ea9f3-ec56-459e-a55d-aad1b60ae7d4'
-keywords: ["WcsGetDefaultColorProfile function Windows Color System"]
+ms.assetid: a40ea9f3-ec56-459e-a55d-aad1b60ae7d4
+keywords:
+- WcsGetDefaultColorProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsGetDefaultColorProfile function
@@ -22,13 +28,13 @@ Retrieves the default color profile for a device, or for a device-independent de
 
 ```C++
 BOOL WINAPI WcsGetDefaultColorProfile(
-  _In_     WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_opt_ PCWSTR                       pDeviceName,
-  _In_     COLORPROFILETYPE             cptColorProfileType,
-  _In_     COLORPROFILESUBTYPE          cpstColorProfileSubType,
-  _In_     DWORD                        dwProfileID,
-  _In_     DWORD                        cbProfileName,
-  _Out_    LPWSTR                       pProfileName
+  _In_     WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
+  _In_opt_ PCWSTR                       pDeviceName,
+  _In_     COLORPROFILETYPE             cptColorProfileType,
+  _In_     COLORPROFILESUBTYPE          cpstColorProfileSubType,
+  _In_     DWORD                        dwProfileID,
+  _In_     DWORD                        cbProfileName,
+  _Out_    LPWSTR                       pProfileName
 );
 ```
 
@@ -107,8 +113,8 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -140,9 +146,9 @@ This function is executable in Least-Privileged User Account (LUA) context.
 [**WcsGetDefaultColorProfileSize**](wcsgetdefaultcolorprofilesize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

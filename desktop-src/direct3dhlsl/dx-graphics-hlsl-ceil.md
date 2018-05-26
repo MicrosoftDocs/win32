@@ -1,8 +1,9 @@
 ---
 title: ceil
 description: Returns the smallest integer value that is greater than or equal to the specified value.
-ms.assetid: '9823f321-14c3-4b27-9a4b-7a885cece39b'
-keywords: ["ceil HLSL"]
+ms.assetid: 9823f321-14c3-4b27-9a4b-7a885cece39b
+keywords:
+- ceil HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ceil
@@ -24,7 +30,7 @@ Returns the smallest integer value that is greater than or equal to the specifie
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Returns the smallest integer value that is greater than or equal to the specifie
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The smallest integer value (returned as a floating-point type) that is greater t
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +93,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

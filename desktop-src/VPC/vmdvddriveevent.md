@@ -1,8 +1,9 @@
 ---
 title: VMDVDDriveEvent enumeration
 description: Specifies the DVD drive events.
-ms.assetid: '17126138-614f-42d9-937e-1aca9393557c'
-keywords: ["VMDVDDriveEvent enumeration Virtual PC"]
+ms.assetid: 17126138-614f-42d9-937e-1aca9393557c
+keywords:
+- VMDVDDriveEvent enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMDVDDriveEvent enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the DVD drive events.
 
@@ -24,8 +30,8 @@ Specifies the DVD drive events.
 
 ```C++
 typedef enum  { 
-  vmDVDDriveEvent_OnInsert  = 1,
-  vmDVDDriveEvent_OnEject   = 2
+  vmDVDDriveEvent_OnInsert  = 1,
+  vmDVDDriveEvent_OnEject   = 2
 } VMDVDDriveEvent;
 ```
 
@@ -55,9 +61,9 @@ The media has been ejected.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -70,9 +76,9 @@ The media has been ejected.
 [**IVMDVDDriveEvents**](ivmdvddriveevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

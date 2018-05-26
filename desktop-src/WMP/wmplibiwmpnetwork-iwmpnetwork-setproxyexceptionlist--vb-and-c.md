@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork setProxyExceptionList method
 description: The setProxyExceptionList method specifies the proxy exception list.
-ms.assetid: 'a7a5e9ad-f71f-431e-9a53-b56456778104'
-keywords: ["setProxyExceptionList method Windows Media Player", "setProxyExceptionList method Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , setProxyExceptionList method"]
+ms.assetid: a7a5e9ad-f71f-431e-9a53-b56456778104
+keywords:
+- setProxyExceptionList method Windows Media Player
+- setProxyExceptionList method Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , setProxyExceptionList method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::setProxyExceptionList method
@@ -171,9 +179,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork.getProxySettings (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-getproxysettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Update Operators
 description: Update Operators
-ms.assetid: 'ea0dccd8-d519-4727-a922-d0bab9ffe04c'
+ms.assetid: ea0dccd8-d519-4727-a922-d0bab9ffe04c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Update Operators

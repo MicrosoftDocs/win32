@@ -3,8 +3,11 @@ title: SetVLActivationInterval method of the SoftwareLicensingService class
 description: The activation frequency, in minutes, of how often the current machine should contact the key management service machine before the client is licensed.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f6f34365-b988-42ee-97b3-41ec6688f03e'
-keywords: ["SetVLActivationInterval method Windows Management Instrumentation", "SetVLActivationInterval method Windows Management Instrumentation , SoftwareLicensingService class", "SoftwareLicensingService class Windows Management Instrumentation , SetVLActivationInterval method"]
+ms.assetid: f6f34365-b988-42ee-97b3-41ec6688f03e
+keywords:
+- SetVLActivationInterval method Windows Management Instrumentation
+- SetVLActivationInterval method Windows Management Instrumentation , SoftwareLicensingService class
+- SoftwareLicensingService class Windows Management Instrumentation , SetVLActivationInterval method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetVLActivationInterval method of the SoftwareLicensingService class
@@ -24,7 +32,7 @@ The activation frequency, in minutes, of how often the current machine should co
 
 ```mof
 uint32 SetVLActivationInterval(
-  [in] uint32 ActivationInterval
+  [in] uint32 ActivationInterval
 );
 ```
 
@@ -47,8 +55,8 @@ Specifies the activation interval in minutes.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Specifies the activation interval in minutes.
 [**SoftwareLicensingService**](softwarelicensingservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

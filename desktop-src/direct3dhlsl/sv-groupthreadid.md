@@ -1,14 +1,20 @@
 ---
 title: SV\_GroupThreadID
 description: Indices for which an individual thread within a thread group a compute shader is executing in.
-ms.assetid: 'be944592-c4ea-43c9-88bc-98a9a190a437'
-keywords: ["SV_GroupThreadID HLSL"]
+ms.assetid: be944592-c4ea-43c9-88bc-98a9a190a437
+keywords:
+- SV_GroupThreadID HLSL
 topic_type:
 - apiref
 api_name:
 - SV_GroupThreadID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_GroupThreadID

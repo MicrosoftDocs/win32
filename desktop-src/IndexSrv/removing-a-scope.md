@@ -1,7 +1,12 @@
 ---
 title: Removing a Scope
 description: Removing a Scope
-ms.assetid: '43c9f941-743b-46db-abf6-a3f6c84f0b4f'
+ms.assetid: 43c9f941-743b-46db-abf6-a3f6c84f0b4f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removing a Scope

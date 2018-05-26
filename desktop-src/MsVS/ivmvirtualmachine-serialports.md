@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine SerialPorts property
 description: The SerialPorts property contains an enumerable collection of serial ports.
-ms.assetid: '81076bbd-7e4d-4f6b-9a0e-3dd2e0ac7d5d'
-keywords: ["SerialPorts property Virtual Server", "SerialPorts property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , SerialPorts property", "SerialPorts property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , SerialPorts property"]
+ms.assetid: 81076bbd-7e4d-4f6b-9a0e-3dd2e0ac7d5d
+keywords:
+- SerialPorts property Virtual Server
+- SerialPorts property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , SerialPorts property
+- SerialPorts property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , SerialPorts property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::SerialPorts property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SerialPorts(
-  [out] IVMSerialPortCollection **serialPortCollection
+  [out] IVMSerialPortCollection **serialPortCollection
 );
 ```
 
@@ -93,8 +103,8 @@ WScript.Echo "Serial ports: " & colSers.Count
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ WScript.Echo "Serial ports: " & colSers.Count
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

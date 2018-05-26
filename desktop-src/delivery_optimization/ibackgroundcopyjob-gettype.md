@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetType method
 description: Retrieves the type of transfer being performed, such as a file download or upload.
-ms.assetid: 'F543A601-9385-4A73-A4E2-DE61433E84D3'
-keywords: ["GetType method", "GetType method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetType method"]
+ms.assetid: F543A601-9385-4A73-A4E2-DE61433E84D3
+keywords:
+- GetType method
+- GetType method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetType method
@@ -22,7 +30,7 @@ Retrieves the type of transfer being performed, such as a file download or uploa
 
 ```C++
 HRESULT GetType(
-  [out] BG_JOB_TYPE *pJobType
+  [out] BG_JOB_TYPE *pJobType
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,7 +71,7 @@ Specify the type of transfer when you create the job.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -86,9 +94,9 @@ Specify the type of transfer when you create the job.
 [**IBackgroundCopyManager::CreateJob**](ibackgroundcopymanager-createjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

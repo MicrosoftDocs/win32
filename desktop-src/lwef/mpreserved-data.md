@@ -1,8 +1,10 @@
 ---
 title: MPRESERVED\_DATA structure
 description: Reserved notification data.
-ms.assetid: 'C92206BD-6E56-4B7D-ABB1-DC1149AE141D'
-keywords: ["MPRESERVED_DATA structure Legacy Windows Environment Features", "PMPRESERVED_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: C92206BD-6E56-4B7D-ABB1-DC1149AE141D
+keywords:
+- MPRESERVED_DATA structure Legacy Windows Environment Features
+- PMPRESERVED_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPRESERVED\_DATA structure
@@ -23,7 +30,7 @@ Reserved notification data.
 ```C++
 typedef struct tagMPRESERVED_DATA {
   DWORD cbReservedData;
-  BYTE  *pbReservedData;
+  BYTE  *pbReservedData;
 } MPRESERVED_DATA, *PMPRESERVED_DATA;
 ```
 
@@ -61,15 +68,15 @@ Pointer to reserved data.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

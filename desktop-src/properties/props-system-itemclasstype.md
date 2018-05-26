@@ -1,7 +1,12 @@
 ---
-Description: 'Class type of the item.'
-ms.assetid: '081c7b33-582f-457c-9918-f7d5bb8879ab'
-title: 'System.ItemClassType'
+Description: Class type of the item.
+ms.assetid: 081c7b33-582f-457c-9918-f7d5bb8879ab
+title: System.ItemClassType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemClassType

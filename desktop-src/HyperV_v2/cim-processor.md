@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the capabilities and management of a processor.'
-ms.assetid: '70cf9776-eeda-42c2-90c4-704ecf1cdafe'
-title: 'CIM\_Processor class'
+Description: Represents the capabilities and management of a processor.
+ms.assetid: 70cf9776-eeda-42c2-90c4-704ecf1cdafe
+title: CIM\_Processor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Processor class
@@ -1835,8 +1840,8 @@ The CPU socket information that includes data on how the processor can be upgrad
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1850,9 +1855,9 @@ The CPU socket information that includes data on how the processor can be upgrad
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

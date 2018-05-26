@@ -1,8 +1,9 @@
 ---
 title: REExtendedRegisterClass function
 description: Registers two class names, REListBox20W and RECombobox20W, that could be used to create Rich Edit listbox or combobox windows.
-ms.assetid: 'D27A97A8-8B44-4C07-9903-8D958BF97109'
-keywords: ["REExtendedRegisterClass function Windows Controls"]
+ms.assetid: D27A97A8-8B44-4C07-9903-8D958BF97109
+keywords:
+- REExtendedRegisterClass function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Riched20.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REExtendedRegisterClass function
@@ -47,9 +53,9 @@ Returns TRUE if successful, or FALSE otherwise.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

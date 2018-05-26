@@ -1,8 +1,9 @@
 ---
 title: CopyHelperAttribute function
 description: Creates a copy of a HELPER\_ATTRIBUTE structure.
-ms.assetid: 'ff49be29-4cd8-4730-929f-c66a7325704f'
-keywords: ["CopyHelperAttribute function NDF"]
+ms.assetid: ff49be29-4cd8-4730-929f-c66a7325704f
+keywords:
+- CopyHelperAttribute function NDF
 topic_type:
 - apiref
 api_name:
@@ -11,19 +12,24 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CopyHelperAttribute function
 
-The **CopyHelperAttribute** function creates a copy of a [**HELPER\_ATTRIBUTE**](helper-attribute.md) structure.
+The **CopyHelperAttribute** function creates a copy of a [**HELPER\_ATTRIBUTE**](/windows/win32/ndattrib/ns-ndattrib-taghelper_attribute?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 HRESULT CopyHelperAttribute(
-  _Out_       HELPER_ATTRIBUTE *Dest,
-  _In_  const HELPER_ATTRIBUTE *Source
+  _Out_       HELPER_ATTRIBUTE *Dest,
+  _In_  const HELPER_ATTRIBUTE *Source
 );
 ```
 
@@ -36,7 +42,7 @@ HRESULT CopyHelperAttribute(
 *Dest* \[out\]
 </dt> <dd>
 
-Type: **[**HELPER\_ATTRIBUTE**](helper-attribute.md)\***
+Type: **[**HELPER\_ATTRIBUTE**](/windows/win32/ndattrib/ns-ndattrib-taghelper_attribute?branch=master)\***
 
 The structure to be updated.
 
@@ -45,7 +51,7 @@ The structure to be updated.
 *Source* \[in\]
 </dt> <dd>
 
-Type: **const [**HELPER\_ATTRIBUTE**](helper-attribute.md)\***
+Type: **const [**HELPER\_ATTRIBUTE**](/windows/win32/ndattrib/ns-ndattrib-taghelper_attribute?branch=master)\***
 
 The existing structure to be copied.
 
@@ -67,7 +73,7 @@ Possible return values include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,8 +81,8 @@ Possible return values include, but are not limited to, the following.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ndattributils.h</dt> </dl> |
 
 
@@ -85,12 +91,12 @@ Possible return values include, but are not limited to, the following.
 
 <dl> <dt>
 
-[**HELPER\_ATTRIBUTE**](helper-attribute.md)
+[**HELPER\_ATTRIBUTE**](/windows/win32/ndattrib/ns-ndattrib-taghelper_attribute?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Authentication is the process of determining that callers are actually who they say they are&\#8212;verifying the authenticity of a claim of identity.'
-ms.assetid: 'c1b11f58-5bab-45d9-a686-86c95415990e'
+Description: Authentication is the process of determining that callers are actually who they say they are&\#8212;verifying the authenticity of a claim of identity.
+ms.assetid: c1b11f58-5bab-45d9-a686-86c95415990e
 title: Client Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Authentication

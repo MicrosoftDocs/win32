@@ -1,8 +1,10 @@
 ---
 title: System.Network.Wireless object
 description: Defines the properties and events for determining wireless network connectivity and interface settings.
-ms.assetid: '68b88729-e511-4eee-ad67-410bd5dea76f'
-keywords: ["System.Network.Wireless object Windows Sidebar", "System.Network.Wireless object Windows Sidebar , described"]
+ms.assetid: 68b88729-e511-4eee-ad67-410bd5dea76f
+keywords:
+- System.Network.Wireless object Windows Sidebar
+- System.Network.Wireless object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Network.Wireless object
@@ -39,7 +46,7 @@ The **System.Network.Wireless** object has these events.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -58,7 +65,7 @@ The **System.Network.Wireless** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,18 +73,18 @@ The **System.Network.Wireless** object has these properties.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

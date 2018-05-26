@@ -1,8 +1,14 @@
 ---
 title: Routing and Remote Access Registry Layout
 description: The following syntax shows an example registry layout for the router service.
-ms.assetid: '5464c2f7-6bb8-4838-939d-d58508715505'
-keywords: ["Routing and Remote Access Service RRAS , Routing and Remote Access Registry Layout"]
+ms.assetid: 5464c2f7-6bb8-4838-939d-d58508715505
+keywords:
+- Routing and Remote Access Service RRAS , Routing and Remote Access Registry Layout
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing and Remote Access Registry Layout

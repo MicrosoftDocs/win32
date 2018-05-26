@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnIMWindowContactAdded event
 description: Indicates that a contact has been added to the ongoing conversation.
-ms.assetid: 'ef4a45c4-f248-4838-a0ce-d133ba30a663'
-keywords: ["OnIMWindowContactAdded event Windows Messenger", "OnIMWindowContactAdded event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnIMWindowContactAdded event"]
+ms.assetid: ef4a45c4-f248-4838-a0ce-d133ba30a663
+keywords:
+- OnIMWindowContactAdded event Windows Messenger
+- OnIMWindowContactAdded event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnIMWindowContactAdded event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnIMWindowContactAdded event
 
-\[**OnIMWindowContactAdded** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnIMWindowContactAdded** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that a contact has been added to the ongoing conversation.
 
@@ -24,8 +32,8 @@ Indicates that a contact has been added to the ongoing conversation.
 
 ```C++
 void OnIMWindowContactAdded(
-  [in] IDispatch *pContact,
-  [in] IDispatch *pIMWindow
+  [in] IDispatch *pContact,
+  [in] IDispatch *pIMWindow
 );
 ```
 
@@ -66,12 +74,12 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
 > [!Note]  
 > This event is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -79,10 +87,10 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -100,9 +108,9 @@ To be used when writing custom ::Invoke methods to handle these events.
 [**AddContact**](im-imessengerconversationwnd-addcontact.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

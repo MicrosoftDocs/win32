@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a 4 x 4 matrix. This is used as a frame transformation matrix.'
-ms.assetid: '645f8bc1-2cf3-47ee-9fb7-0d02bb8dd89a'
+Description: Defines a 4 x 4 matrix. This is used as a frame transformation matrix.
+ms.assetid: 645f8bc1-2cf3-47ee-9fb7-0d02bb8dd89a
 title: Matrix4x4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix4x4

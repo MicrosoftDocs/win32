@@ -1,7 +1,12 @@
 ---
-Description: 'The base cryptographic functions use certificates, and low-level message functions and simplified message functions also use them. To send or receive messages that incorporate certificates, use low-level message functions.'
-ms.assetid: 'c1fe8783-d687-4843-b79f-6649fab14731'
+Description: The base cryptographic functions use certificates, and low-level message functions and simplified message functions also use them. To send or receive messages that incorporate certificates, use low-level message functions.
+ms.assetid: c1fe8783-d687-4843-b79f-6649fab14731
 title: Certificates and Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificates and Messages

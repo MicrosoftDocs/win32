@@ -1,8 +1,10 @@
 ---
 title: Win32\_ProgIDSpecification class
 description: The Win32\_ProgIDSpecification WMI class represent any programmatic identifier (ProgID) that must be registered during a given installation.
-ms.assetid: 'b403b6cd-1859-457b-b1e4-227b55d57d10'
-keywords: ["Win32_ProgIDSpecification class", "Win32_ProgIDSpecification class, described"]
+ms.assetid: b403b6cd-1859-457b-b1e4-227b55d57d10
+keywords:
+- Win32_ProgIDSpecification class
+- Win32_ProgIDSpecification class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ProgIDSpecification class
@@ -31,7 +38,7 @@ The **Win32\_ProgIDSpecification** [WMI class](https://msdn.microsoft.com/librar
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -41,17 +48,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_ProgIDSpecification : CIM_Check
 {
-  string  Caption;
-  string  CheckID;
+  string  Caption;
+  string  CheckID;
   boolean CheckMode;
-  string  Description;
-  string  Name;
-  string  Parent;
-  string  ProgID;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  uint16  TargetOperatingSystem;
-  string  Version;
+  string  Description;
+  string  Name;
+  string  Parent;
+  string  ProgID;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  uint16  TargetOperatingSystem;
+  string  Version;
 };
 ```
 
@@ -74,7 +81,7 @@ The **Win32\_ProgIDSpecification** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -208,7 +215,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -288,7 +295,7 @@ Target operating system of the software element. The possible values for this pr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -315,8 +322,8 @@ The **Win32\_ProgIDSpecification** class is derived from [**CIM\_Check**](https:
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -330,9 +337,9 @@ The **Win32\_ProgIDSpecification** class is derived from [**CIM\_Check**](https:
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

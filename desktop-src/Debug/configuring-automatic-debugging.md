@@ -1,7 +1,12 @@
 ---
-Description: 'Users can configure automatic debugging to help them determine why their system or an application has stopped responding.'
-ms.assetid: 'c3c7aa98-c298-452c-b8d0-10a08b4d82a3'
+Description: Users can configure automatic debugging to help them determine why their system or an application has stopped responding.
+ms.assetid: c3c7aa98-c298-452c-b8d0-10a08b4d82a3
 title: Configuring Automatic Debugging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Automatic Debugging

@@ -1,7 +1,12 @@
 ---
-Description: 'The RecognizeFrame export function indicates whether a piece of data is recognized as the protocol that the parser detects. The RecognizeFrame export function must be implemented for each parser that the parser DLL supports.'
-ms.assetid: '6d0574da-f0ec-4ed9-bfb0-023dff2ac6fe'
+Description: The RecognizeFrame export function indicates whether a piece of data is recognized as the protocol that the parser detects. The RecognizeFrame export function must be implemented for each parser that the parser DLL supports.
+ms.assetid: 6d0574da-f0ec-4ed9-bfb0-023dff2ac6fe
 title: RecognizeFrame callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecognizeFrame callback function
@@ -13,16 +18,16 @@ The **RecognizeFrame** export function indicates whether a piece of data is reco
 
 ```C++
 LPBYTE RecognizeFrame(
-  _In_    HFRAME      hFrame,
-  _In_    LPBYTE      lpFrame,
-  _In_    LPBYTE      lpProtocol,
-  _In_    DWORD       MacType,
-  _In_    DWORD       BytesLeft,
-  _In_    HPROTOCOL   hPreviousProtocol,
-  _In_    DWORD       nPreviousProtocolOffset,
-  _Out_   LPDWORD     ProtocolStatusCode,
-  _Out_   LPHPROTOCOL phNextProtocol,
-  _Inout_ PDWORD_PTR  lpInstData
+  _In_    HFRAME      hFrame,
+  _In_    LPBYTE      lpFrame,
+  _In_    LPBYTE      lpProtocol,
+  _In_    DWORD       MacType,
+  _In_    DWORD       BytesLeft,
+  _In_    HPROTOCOL   hPreviousProtocol,
+  _In_    DWORD       nPreviousProtocolOffset,
+  _Out_   LPDWORD     ProtocolStatusCode,
+  _Out_   LPHPROTOCOL phNextProtocol,
+  _Inout_ PDWORD_PTR  lpInstData
 );
 ```
 
@@ -68,7 +73,7 @@ MAC value of the first protocol in a frame. Typically, the *MacType* value is us
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,7 +94,7 @@ Handle of the previous protocol.
 *nPreviousProtocolOffset* \[in\]
 </dt> <dd>
 
-Offset of the previous protocol — beginning of the frame.
+Offset of the previous protocol   beginning of the frame.
 
 </dd> <dt>
 
@@ -103,13 +108,13 @@ Protocol status indicator. The parser DLL must set one of the following status c
 | Value                                                                                                                                                                                                              | Meaning                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="PROTOCOL_STATUS_RECOGNIZED"></span><span id="protocol_status_recognized"></span><dl> <dt>**PROTOCOL\_STATUS\_RECOGNIZED**</dt> </dl>              | The parser recognizes the data but does not know which protocol follows. After setting the code, return a pointer to the remaining unclaimed data that follow the recognized protocol. Network Monitor uses the [*follow set*](f.md#-netmon-follow-set-gly) of the protocol to continue parsing. <br/> |
-| <span id="PROTOCOL_STATUS_NOT_RECOGNIZED"></span><span id="protocol_status_not_recognized"></span><dl> <dt>**PROTOCOL\_STATUS\_NOT\_RECOGNIZED**</dt> </dl> | The parser does not recognize the data. After setting this code, return the pointer to the beginning of the data — using the pointer that the *lpProtocol* parameter passes to the parser DLL. Network Monitor uses the *follow set* of the previous protocol to continue parsing. <br/>                |
+| <span id="PROTOCOL_STATUS_NOT_RECOGNIZED"></span><span id="protocol_status_not_recognized"></span><dl> <dt>**PROTOCOL\_STATUS\_NOT\_RECOGNIZED**</dt> </dl> | The parser does not recognize the data. After setting this code, return the pointer to the beginning of the data   using the pointer that the *lpProtocol* parameter passes to the parser DLL. Network Monitor uses the *follow set* of the previous protocol to continue parsing. <br/>                |
 | <span id="PROTOCOL_STATUS_CLAIMED"></span><span id="protocol_status_claimed"></span><dl> <dt>**PROTOCOL\_STATUS\_CLAIMED**</dt> </dl>                       | The parser recognizes the data and claims the remaining data. After setting the code, return **NULL** for Network Monitor to terminate parsing a frame. <br/>                                                                                                                                           |
 | <span id="PROTOCOL_STATUS_NEXT_PROTOCOL"></span><span id="protocol_status_next_protocol"></span><dl> <dt>**PROTOCOL\_STATUS\_NEXT\_PROTOCOL**</dt> </dl>    | The parser recognizes the data and knows which protocol follows. After setting the code, set the *phNextProtocol* parameter, and return a pointer to the remaining unclaimed data that follow the recognized protocol. Network Monitor continues parsing the frame. <br/>                               |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -137,7 +142,7 @@ If the function is unsuccessful, the return value is an initial pointer that the
 
 ## Remarks
 
-The **RecognizeFrame** function determines whether the parser recognizes the raw data — starting at the *lpProtocol* pointer.
+The **RecognizeFrame** function determines whether the parser recognizes the raw data   starting at the *lpProtocol* pointer.
 
 -   If the protocol recognizes the data, the **RecognizeFrame** function returns a pointer to the remaining data, or returns **NULL** if the current protocol is the last protocol in a frame.
 -   If the protocol does not recognize the data, the **RecognizeFrame** function returns the pointer passed to the parser DLL in the *lpProtocol* parameter.
@@ -145,7 +150,7 @@ The **RecognizeFrame** function determines whether the parser recognizes the raw
 > [!Note]  
 > *RecognizeFrame* can be called before the [*Register*](register-parser.md) function is called to register the protocol properties. For that reason, the implementation of the *RecognizeFrame* function does not rely on any properties or structures that are created or initialized during the implementation of the protocol **Register** function.
 
- 
+ 
 
 **Handoff Set and Follow Set**
 
@@ -166,12 +171,12 @@ Instance data can be any data that is less than or equal to a DWORD\_PTR in leng
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor. | [Parsers](parsers.md)                                                                                                    |
 | Which entry points are included in the parser DLL.        | [Parser DLL Architecture](parser-dll-architecture.md)                                                                    |
-| How to implement **RecognizeFrame**— includes an example. | [Implementing RecognizeFrame](implementing-recognizeframe.md)                                                            |
+| How to implement **RecognizeFrame**  includes an example. | [Implementing RecognizeFrame](implementing-recognizeframe.md)                                                            |
 | How to specify a handoff set and follow set.              | [Specifying a Handoff Set](specifying-a-handoff-set.md)[Specifying a Follow Set](specifying-a-follow-set.md)<br/> |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -179,8 +184,8 @@ Instance data can be any data that is less than or equal to a DWORD\_PTR in leng
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -192,9 +197,9 @@ Instance data can be any data that is less than or equal to a DWORD\_PTR in leng
 [GetProtocolFromTable](getprotocolfromtable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

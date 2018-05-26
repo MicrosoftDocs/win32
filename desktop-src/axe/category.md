@@ -1,14 +1,20 @@
 ---
 title: Category element
 description: A category that enables the UX to handle multiple items.
-ms.assetid: 'B95380BF-B437-4A1E-A783-954532232FB0'
-keywords: ["Category element Access Execution Engine"]
+ms.assetid: B95380BF-B437-4A1E-A783-954532232FB0
+keywords:
+- Category element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Category
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Category element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Point element
 description: Specifies the values of the parameter at specific times.
-ms.assetid: 'a99673c2-61cf-4cf7-bfb6-4b9ce8ea5431'
-keywords: ["Point element Windows Movie Maker and DVD Maker"]
+ms.assetid: a99673c2-61cf-4cf7-bfb6-4b9ce8ea5431
+keywords:
+- Point element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Point
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Point element
@@ -51,7 +57,7 @@ When an element has **Point** child elements, it should not also have a **value*
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -63,9 +69,9 @@ When an element has **Point** child elements, it should not also have a **value*
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

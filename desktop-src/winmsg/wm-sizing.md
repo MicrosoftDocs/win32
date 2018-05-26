@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window that the user is resizing. By processing this message, an application can monitor the size and position of the drag rectangle and, if needed, change its size or position.'
-ms.assetid: '8cf56194-8a10-48e1-b0eb-aa3d66896599'
-title: 'WM\_SIZING message'
+---
+Description: Sent to a window that the user is resizing. By processing this message, an application can monitor the size and position of the drag rectangle and, if needed, change its size or position.
+ms.assetid: 8cf56194-8a10-48e1-b0eb-aa3d66896599
+title: WM\_SIZING message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SIZING message

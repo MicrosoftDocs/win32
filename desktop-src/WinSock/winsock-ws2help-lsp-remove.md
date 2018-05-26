@@ -1,7 +1,12 @@
-﻿---
-Description: 'Winsock catalog change event for a layered service provider (LSP) removal operation.'
-ms.assetid: '86FF17F7-8CCF-4A03-899F-42BFACDF3F54'
-title: 'WINSOCK\_WS2HELP\_LSP\_REMOVE event'
+---
+Description: Winsock catalog change event for a layered service provider (LSP) removal operation.
+ms.assetid: 86FF17F7-8CCF-4A03-899F-42BFACDF3F54
+title: WINSOCK\_WS2HELP\_LSP\_REMOVE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINSOCK\_WS2HELP\_LSP\_REMOVE event
@@ -27,7 +32,7 @@ const EVENT_DESCRIPTOR WINSOCK_WS2HELP_LSP_REMOVE = {0x2, 0x0, 0x10, 0x0, 0x0, 0
 *LSP Name* 
 </dt> <dd>
 
-The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md) structure for the LSP being removed.
+The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master) structure for the LSP being removed.
 
 </dd> <dt>
 
@@ -55,7 +60,7 @@ The GUID value of the Winsock transport provider that the LSP is being removed f
 *Category* 
 </dt> <dd>
 
-The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md) structure for the LSP being removed.
+The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master) structure for the LSP being removed.
 
 </dd> </dl>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic shows you how you can set the output matrix of a mono source voice that outputs to a stereo mastering voice in order to achieve panning between the left and right speakers.'
-ms.assetid: 'd87db173-6de0-09eb-7767-df619c88acfd'
-title: 'How to: Pan a Sound'
+Description: This topic shows you how you can set the output matrix of a mono source voice that outputs to a stereo mastering voice in order to achieve panning between the left and right speakers.
+ms.assetid: d87db173-6de0-09eb-7767-df619c88acfd
+title: How to Pan a Sound
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Pan a Sound

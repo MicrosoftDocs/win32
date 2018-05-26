@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetSmartRecompressFormat method retrieves the current compression format for smart recompression.'
-ms.assetid: '2d420fe9-691d-4cc9-a8de-363a4be1b364'
-title: 'IAMTimelineGroup::GetSmartRecompressFormat method'
+---
+Description: The GetSmartRecompressFormat method retrieves the current compression format for smart recompression.
+ms.assetid: 2d420fe9-691d-4cc9-a8de-363a4be1b364
+title: IAMTimelineGroupGetSmartRecompressFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::GetSmartRecompressFormat method

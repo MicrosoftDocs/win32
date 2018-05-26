@@ -4,11 +4,15 @@ description: Outlines the process of creating an MMC snap-in.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7ab5a4fe-00eb-4757-bd01-246836714839'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7ab5a4fe-00eb-4757-bd01-246836714839
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["creating snap-ins MMC"]
+keywords:
+- creating snap-ins MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Snap-ins

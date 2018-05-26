@@ -4,10 +4,13 @@ description: The Computer Management snap-in allows extensions for the following
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f809ae71-c8c8-48bf-859f-45650999cecf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f809ae71-c8c8-48bf-859f-45650999cecf
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Computer Management Extensible Node Types

@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly form of System.Image.Compression. Not intended to be parsed programmatically.'
-ms.assetid: '4031fb56-d21c-4b7e-80a6-0ff5673fc09e'
-title: 'System.Image.CompressionText'
+Description: The user-friendly form of System.Image.Compression. Not intended to be parsed programmatically.
+ms.assetid: 4031fb56-d21c-4b7e-80a6-0ff5673fc09e
+title: System.Image.CompressionText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.CompressionText

@@ -1,8 +1,11 @@
 ---
 title: INapServerCallback OnComplete method
 description: Used by SHVs to signal asynchronous request completion.
-ms.assetid: '959ee4ac-7c29-4013-a174-24abc6a580c7'
-keywords: ["OnComplete method NAP", "OnComplete method NAP , INapServerCallback interface", "INapServerCallback interface NAP , OnComplete method"]
+ms.assetid: 959ee4ac-7c29-4013-a174-24abc6a580c7
+keywords:
+- OnComplete method NAP
+- OnComplete method NAP , INapServerCallback interface
+- INapServerCallback interface NAP , OnComplete method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerCallback::OnComplete method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerCallback::OnComplete** method is used by SHVs to signal asynchronous request completion.
 
@@ -27,8 +35,8 @@ The **INapServerCallback::OnComplete** method is used by SHVs to signal asynchro
 
 ```C++
 HRESULT OnComplete(
-  [in] INapSystemHealthValidationRequest *request,
-  [in] HRESULT                           errorCode
+  [in] INapSystemHealthValidationRequest *request,
+  [in] HRESULT                           errorCode
 );
 ```
 
@@ -53,7 +61,7 @@ A [**NAP error code**](nap-error-constants.md) that indicates the reason why the
 > [!Note]  
 > Typically, the return value of the [**INapSystemHealthValidationRequest::SetSoHResponse**](inapsystemhealthvalidationrequest-setsohresponse-method.md) method is passed to this parameter. However, if **SetSoHResponse** could not be called due to a reprocessing failure, the value returned by the failed command is passed.
 
- 
+ 
 
 </dd> </dl>
 
@@ -71,11 +79,11 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
-Validators must return S\_OK if the [**SoHRequest**](soh-struct.md) validation could be completed, regardless of whether the **SoHRequest** passed the health check.
+Validators must return S\_OK if the [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) validation could be completed, regardless of whether the **SoHRequest** passed the health check.
 
 ## Requirements
 
@@ -84,7 +92,7 @@ Validators must return S\_OK if the [**SoHRequest**](soh-struct.md) validation c
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>NapSystemHealthValidator.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthValidator.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
@@ -104,9 +112,9 @@ Validators must return S\_OK if the [**SoHRequest**](soh-struct.md) validation c
 [**INapSystemHealthValidationRequest**](inapsystemhealthvalidationrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

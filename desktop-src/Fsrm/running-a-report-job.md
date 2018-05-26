@@ -4,11 +4,16 @@ description: You can run reports on demand or on a schedule.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8087542d-5873-414b-8903-544c2e57cba1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 8087542d-5873-414b-8903-544c2e57cba1
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , running a report job", "reports File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , running a report job
+- reports File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Running a Report Job

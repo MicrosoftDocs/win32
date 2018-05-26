@@ -4,11 +4,14 @@ description: The Create method creates a new instance of the Win32\_DFSNode clas
 audience: developer
 author: REDMOND\\martinek
 manager: REDMOND\\martinek
-ms.assetid: 'd6338d53-5ca1-4907-8aa7-d0894d7d9913'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d6338d53-5ca1-4907-8aa7-d0894d7d9913
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Create method", "Create method, Win32_DFSNode class", "Win32_DFSNode class, Create method"]
+keywords:
+- Create method
+- Create method, Win32_DFSNode class
+- Win32_DFSNode class, Create method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Wmipdfs.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the Win32\_DFSNode class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in]           string DFSEntryPath,
-  [in]           string ServerName,
-  [in]           string Sharename,
-  [in, optional] string Description
+  [in]           string DFSEntryPath,
+  [in]           string ServerName,
+  [in]           string Sharename,
+  [in, optional] string Description
 );
 ```
 
@@ -80,7 +86,7 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 **Success** (0)
 </dt> <dt>
 
-**Other** (1–4294967295)
+**Other** (1 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -89,8 +95,8 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Wmipdfs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipdfs.dll</dt> </dl> |
@@ -107,9 +113,9 @@ Returns a value of 0 (zero) if the service was successfully modified, 1 (one) if
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

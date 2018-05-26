@@ -1,8 +1,9 @@
 ---
 title: IWMPError.Item (VB and C\ )
 description: The Item property (the get\_Item method in C\ ) gets an IWMPErrorItem interface at the specified index in the error queue.
-ms.assetid: 'acfaaaa5-eb13-4ba0-8417-4229adc62c5d'
-keywords: ["IWMPError.Item (VB and C ) Windows Media Player"]
+ms.assetid: acfaaaa5-eb13-4ba0-8417-4229adc62c5d
+keywords:
+- IWMPError.Item (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPError.Item (VB and C#)
@@ -137,9 +143,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.enableErrorDialogs (VB and C#)**](wmplibiwmpsettings-iwmpsettings-enableerrordialogs--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

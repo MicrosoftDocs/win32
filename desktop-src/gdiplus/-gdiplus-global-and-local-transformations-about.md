@@ -1,14 +1,19 @@
 ---
-Description: '1000: A global transformation is a transformation that applies to every item drawn by a given Graphics object.'
-ms.assetid: '9f744c2a-f1f3-4a7e-ab0c-37aa1df01623'
+Description: 1000 A global transformation is a transformation that applies to every item drawn by a given Graphics object.
+ms.assetid: 9f744c2a-f1f3-4a7e-ab0c-37aa1df01623
 title: Global and Local Transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Global and Local Transformations
 
-1000: A global transformation is a transformation that applies to every item drawn by a given [**Graphics**](-gdiplus-class-graphics-class.md) object. To create a global transformation, construct a **Graphics** object, and then call its [**Graphics::SetTransform**](-gdiplus-class-graphics-settransform-matrix-.md) method. The **Graphics::SetTransform** method manipulates a [**Matrix**](-gdiplus-class-matrix-class.md) object that is associated with the **Graphics** object. The transformation stored in that **Matrix** object is called the *world transformation*. The world transformation can be a simple affine transformation or a complex sequence of affine transformations, but regardless of its complexity, the world transformation is stored in a single **Matrix** object.
+1000: A global transformation is a transformation that applies to every item drawn by a given [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object. To create a global transformation, construct a **Graphics** object, and then call its [**Graphics::SetTransform**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-settransform?branch=master) method. The **Graphics::SetTransform** method manipulates a [**Matrix**](/windows/win32/gdiplusmatrix/nl-gdiplusmatrix-matrix?branch=master) object that is associated with the **Graphics** object. The transformation stored in that **Matrix** object is called the *world transformation*. The world transformation can be a simple affine transformation or a complex sequence of affine transformations, but regardless of its complexity, the world transformation is stored in a single **Matrix** object.
 
-The [**Graphics**](-gdiplus-class-graphics-class.md) class provides several methods for building up a composite world transformation: [**Graphics::MultiplyTransform**](-gdiplus-class-graphics-multiplytransform-matrix-order-.md), [**Graphics::RotateTransform**](-gdiplus-class-graphics-rotatetransform-angle-order-.md), [**Graphics::ScaleTransform**](-gdiplus-class-graphics-scaletransform-sx-sy-order-.md), and [**Graphics::TranslateTransform**](-gdiplus-class-graphics-translatetransform-dx-dy-order-.md). The following example draws an ellipse twice: once before creating a world transformation and once after. The transformation first scales by a factor of 0.5 in the y direction, then translates 50 units in the x direction, and then rotates 30 degrees.
+The [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class provides several methods for building up a composite world transformation: [**Graphics::MultiplyTransform**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-multiplytransform?branch=master), [**Graphics::RotateTransform**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-rotatetransform?branch=master), [**Graphics::ScaleTransform**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-scaletransform?branch=master), and [**Graphics::TranslateTransform**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform?branch=master). The following example draws an ellipse twice: once before creating a world transformation and once after. The transformation first scales by a factor of 0.5 in the y direction, then translates 50 units in the x direction, and then rotates 30 degrees.
 
 
 ```
@@ -34,7 +39,7 @@ The following illustration shows the matrices involved in the transformation.
 
  
 
-A local transformation is a transformation that applies to a specific item to be drawn. For example, a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object has a [**GraphicsPath::Transform**](-gdiplus-class-graphicspath-transform-matrix-.md) method that allows you to transform the data points of that path. The following example draws a rectangle with no transformation and a path with a rotation transformation. (Assume that there is no world transformation.)
+A local transformation is a transformation that applies to a specific item to be drawn. For example, a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object has a [**GraphicsPath::Transform**](/windows/win32/Gdipluspath/nf-gdipluspath-graphicspath-transform?branch=master) method that allows you to transform the data points of that path. The following example draws a rectangle with no transformation and a path with a rotation transformation. (Assume that there is no world transformation.)
 
 
 ```
@@ -56,7 +61,7 @@ Suppose you want a coordinate system that has its origin 200 pixels from the lef
 
 Next, assume you need to perform a translation 200 units to the right and 150 units down.
 
-The following example establishes the coordinate system just described by setting the world transformation of a [**Graphics**](-gdiplus-class-graphics-class.md) object.
+The following example establishes the coordinate system just described by setting the world transformation of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object.
 
 
 ```

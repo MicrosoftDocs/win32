@@ -1,7 +1,7 @@
 ---
 title: Status Bar Styles
 description: This section lists the styles, in addition to standard window styles, supported by status bar controls.
-ms.assetid: 'c9efeeaa-f665-40fd-9782-f34603e6c603'
+ms.assetid: c9efeeaa-f665-40fd-9782-f34603e6c603
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Bar Styles
@@ -38,9 +43,9 @@ This section lists the styles, in addition to standard window styles, supported 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

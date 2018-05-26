@@ -4,17 +4,22 @@ description: A string that enables vendors to add router attributes to the DS fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '07bc4d9b-eba9-456b-be21-cd7bb8a5b0b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 07bc4d9b-eba9-456b-be21-cd7bb8a5b0b6
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-RRAS-Vendor-Attribute-Entry attribute AD Schema", "msRRASVendorAttributeEntry attribute AD Schema"]
+keywords:
+- ms-RRAS-Vendor-Attribute-Entry attribute AD Schema
+- msRRASVendorAttributeEntry attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-RRAS-Vendor-Attribute-Entry
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-RRAS-Vendor-Attribute-Entry attribute
@@ -38,12 +43,12 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ A string that enables vendors to add router attributes to the DS for use in quer
 
 
 
- 
+ 
 
- 
+ 
 
 
 

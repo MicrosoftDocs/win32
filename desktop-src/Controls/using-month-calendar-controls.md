@@ -1,7 +1,12 @@
 ---
 title: Using Month Calendar Controls
 description: This section provides information and example code for implementing month calendar controls.
-ms.assetid: 'd27d8f11-b400-409e-a9bf-65c0a79093b4'
+ms.assetid: d27d8f11-b400-409e-a9bf-65c0a79093b4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Month Calendar Controls
@@ -19,11 +24,11 @@ This section provides information and example code for implementing month calend
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

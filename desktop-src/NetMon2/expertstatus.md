@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the current status of a running expert.'
-ms.assetid: '49107459-599c-4710-8935-4b2c789081de'
+Description: Indicates the current status of a running expert.
+ms.assetid: 49107459-599c-4710-8935-4b2c789081de
 title: EXPERTSTATUS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXPERTSTATUS structure
@@ -14,10 +19,10 @@ The **EXPERTSTATUS** structure indicates the current status of a running expert.
 ```C++
 typedef struct {
   EXPERTSTATUSENUMERATION Status;
-  DWORD                   SubStatus;
-  DWORD                   PercentDone;
-  DWORD                   Frame;
-  char                    szStatusText[EXPERTSTRINGLENGTH];
+  DWORD                   SubStatus;
+  DWORD                   PercentDone;
+  DWORD                   Frame;
+  char                    szStatusText[EXPERTSTRINGLENGTH];
 } EXPERTSTATUS, *PEXPERTSTATUS;
 ```
 
@@ -68,15 +73,15 @@ Text that describes the expert status.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

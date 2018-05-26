@@ -1,14 +1,21 @@
 ---
 title: GetPositionInformationOperation class
 description: Registers an event handler that is invoked when the asynchronous operation started by GetPositionInformationAsync completes, and provides a method that returns the results of the operation.
-ms.assetid: '57DDE3B2-EFA9-4FEB-B701-D987C58F5CEA'
-keywords: ["GetPositionInformationOperation class Media Streaming API", "GetPositionInformationOperation class Media Streaming API , described"]
+ms.assetid: 57DDE3B2-EFA9-4FEB-B701-D987C58F5CEA
+keywords:
+- GetPositionInformationOperation class Media Streaming API
+- GetPositionInformationOperation class Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - GetPositionInformationOperation
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPositionInformationOperation class
@@ -32,7 +39,7 @@ The **GetPositionInformationOperation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -46,11 +53,11 @@ The **GetPositionInformationOperation** class has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

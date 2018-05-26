@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that indicates whether end-of-stream was reached.'
-ms.assetid: 'bd919aac-1e37-4693-85ab-f747bfce8994'
-title: 'CBaseRenderer::m\_bEOS member'
+Description: Flag that indicates whether end-of-stream was reached.
+ms.assetid: bd919aac-1e37-4693-85ab-f747bfce8994
+title: CBaseRendererm\_bEOS member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_bEOS member
@@ -35,9 +40,9 @@ BOOL m_bEOS;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

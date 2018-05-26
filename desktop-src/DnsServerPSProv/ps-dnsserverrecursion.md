@@ -2,13 +2,15 @@
 title: PS\_DnsServerRecursion class
 description: DNS Server Recursion definition.
 audience: developer
-ms.assetid: '01ea1b2b-5925-468b-bddc-a3f477848edb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 01ea1b2b-5925-468b-bddc-a3f477848edb
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerRecursion class", "PS_DnsServerRecursion class, described"]
+keywords:
+- PS_DnsServerRecursion class
+- PS_DnsServerRecursion class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerRecursion class
@@ -53,7 +58,7 @@ The **PS\_DnsServerRecursion** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,7 +67,7 @@ The **PS\_DnsServerRecursion** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -76,9 +81,9 @@ The **PS\_DnsServerRecursion** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

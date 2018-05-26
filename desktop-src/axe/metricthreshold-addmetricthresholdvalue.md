@@ -1,8 +1,11 @@
 ---
 title: MetricThreshold AddMetricThresholdValue method
 description: Creates and adds a MetricThresholdValue to the MetricThreshold.
-ms.assetid: '683BA9A9-DEC2-4572-A99F-405A624BDDF8'
-keywords: ["AddMetricThresholdValue method Access Execution Engine", "AddMetricThresholdValue method Access Execution Engine , MetricThreshold interface", "MetricThreshold interface Access Execution Engine , AddMetricThresholdValue method"]
+ms.assetid: 683BA9A9-DEC2-4572-A99F-405A624BDDF8
+keywords:
+- AddMetricThresholdValue method Access Execution Engine
+- AddMetricThresholdValue method Access Execution Engine , MetricThreshold interface
+- MetricThreshold interface Access Execution Engine , AddMetricThresholdValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThreshold::AddMetricThresholdValue method
@@ -22,10 +30,10 @@ Creates and adds a [**MetricThresholdValue**](metricthresholdvalue-struct.md) to
 
 ```C++
 virtual HRESULT AddMetricThresholdValue(
-  [in]            LPCWSTR                       descriptionProgrammaticName,
-  [in]            MetricThresholdValueValueType valueType,
-  [in]            LPCWSTR                       value,
-  [out, optional] MetricThresholdValue          **metricThresholdValue
+  [in]            LPCWSTR                       descriptionProgrammaticName,
+  [in]            MetricThresholdValueValueType valueType,
+  [in]            LPCWSTR                       value,
+  [out, optional] MetricThresholdValue          **metricThresholdValue
 ) = 0;
 ```
 
@@ -85,8 +93,8 @@ The value is the value of element **MetricThresholdValue/Value**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -99,9 +107,9 @@ The value is the value of element **MetricThresholdValue/Value**.
 [**MetricThreshold**](metricthreshold-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

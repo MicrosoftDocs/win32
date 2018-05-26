@@ -1,7 +1,12 @@
 ---
-Description: 'The installer sets the AFTERREBOOT property to 1 after a reboot invoked by the ForceReboot action. The installer adds AFTERREBOOT=1 to the command line run immediately after the reboot.'
-ms.assetid: 'd8a71d9a-64bf-4a38-9c3b-073c216de7fa'
+Description: The installer sets the AFTERREBOOT property to 1 after a reboot invoked by the ForceReboot action. The installer adds AFTERREBOOT=1 to the command line run immediately after the reboot.
+ms.assetid: d8a71d9a-64bf-4a38-9c3b-073c216de7fa
 title: AFTERREBOOT property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AFTERREBOOT property
@@ -18,7 +23,7 @@ The [ForceReboot action](forcereboot-action.md) must always be used with a condi
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -32,9 +37,9 @@ The [ForceReboot action](forcereboot-action.md) must always be used with a condi
 [System Reboots](system-reboots.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

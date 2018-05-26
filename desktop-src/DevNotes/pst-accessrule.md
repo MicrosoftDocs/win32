@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a rule for access to items stored in protected storage.'
-ms.assetid: '22aebac3-46e9-4c66-bfaf-e82cf9d494cb'
-title: 'PST\_ACCESSRULE structure'
+---
+Description: Describes a rule for access to items stored in protected storage.
+ms.assetid: 22aebac3-46e9-4c66-bfaf-e82cf9d494cb
+title: PST\_ACCESSRULE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PST\_ACCESSRULE structure

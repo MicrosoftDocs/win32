@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork HostAdapter property
 description: The HostAdapter property contains the name of the host Ethernet adapter to which the virtual network is connected.
-ms.assetid: '198ba0d5-cc92-4714-bffe-7908fb9df0c7'
-keywords: ["HostAdapter property Virtual Server", "HostAdapter property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , HostAdapter property", "HostAdapter property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , HostAdapter property"]
+ms.assetid: 198ba0d5-cc92-4714-bffe-7908fb9df0c7
+keywords:
+- HostAdapter property Virtual Server
+- HostAdapter property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , HostAdapter property
+- HostAdapter property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , HostAdapter property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::HostAdapter property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HostAdapter(
-  [in]  BSTR virtualNetworkAdapterName
+  [in]  BSTR virtualNetworkAdapterName
 );
 
 HRESULT get_HostAdapter(
-  [out] BSTR *virtualNetworkAdapterName
+  [out] BSTR *virtualNetworkAdapterName
 );
 ```
 
@@ -91,8 +101,8 @@ The complete list of adapters can be accessed through the [**IVMHostInfo::Networ
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ The complete list of adapters can be accessed through the [**IVMHostInfo::Networ
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

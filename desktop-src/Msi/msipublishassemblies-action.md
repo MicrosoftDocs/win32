@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiPublishAssemblies action manages the advertisement of common language runtime assemblies and Win32 assemblies.'
-ms.assetid: '4bc67f43-7a7e-4bd3-aa83-610b46a54e11'
+Description: The MsiPublishAssemblies action manages the advertisement of common language runtime assemblies and Win32 assemblies.
+ms.assetid: 4bc67f43-7a7e-4bd3-aa83-610b46a54e11
 title: MsiPublishAssemblies Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPublishAssemblies Action

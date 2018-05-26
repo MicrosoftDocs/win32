@@ -1,8 +1,10 @@
 ---
 title: Contact object
 description: Do not use. The Contact object implements the IContact interface. It represents reading and writing properties for a single contact.
-ms.assetid: '35379adc-ee37-4413-8c87-ef9355ef0562'
-keywords: ["Contact object Windows Contacts", "Contact object Windows Contacts , described"]
+ms.assetid: 35379adc-ee37-4413-8c87-ef9355ef0562
+keywords:
+- Contact object Windows Contacts
+- Contact object Windows Contacts , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contact object
 
-Do not use. The **Contact** object implements the [**IContact**](-wincontacts-icontact.md) interface. It represents reading and writing properties for a single contact.
+Do not use. The **Contact** object implements the [**IContact**](/windows/previous-versions/icontact/nn-icontact-icontact?branch=master) interface. It represents reading and writing properties for a single contact.
 
 ## Remarks
 
@@ -23,11 +30,11 @@ Do not use. The **Contact** object implements the [**IContact**](-wincontacts-ic
 
 
 
-[**IContact**](-wincontacts-icontact.md)
+[**IContact**](/windows/previous-versions/icontact/nn-icontact-icontact?branch=master)
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -35,8 +42,8 @@ Do not use. The **Contact** object implements the [**IContact**](-wincontacts-ic
 
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Contact.h</dt> </dl>                        |
 | IDL<br/>                      | <dl> <dt>Icontact.idl</dt> </dl>                     |
 | DLL<br/>                      | <dl> <dt>Wab32.dll (Version 6.0 or later)</dt> </dl> |
@@ -44,9 +51,9 @@ Do not use. The **Contact** object implements the [**IContact**](-wincontacts-ic
 
 
 
- 
+ 
 
- 
+ 
 
 
 

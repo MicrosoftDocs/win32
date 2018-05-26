@@ -4,11 +4,16 @@ description: The Load method loads a specific instance of a provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '940efde0-8363-4c03-ab7c-b12e1ec13fe9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 940efde0-8363-4c03-ab7c-b12e1ec13fe9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Load method", "Load method, MSFT_Providers class", "MSFT_Providers class, Load method", "Load method, MSFT_Providers class", "MSFT_Providers class, Load method"]
+keywords:
+- Load method
+- Load method, MSFT_Providers class
+- MSFT_Providers class, Load method
+- Load method, MSFT_Providers class
+- MSFT_Providers class, Load method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Load method of the MSFT\_Providers class
@@ -31,11 +39,11 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 Uint32 Load(
-  [in] string Namespace,
-  [in] string User,
-  [in] string Locale,
-  [in] string Provider,
-  [in] string TransactionIdentifier
+  [in] string Namespace,
+  [in] string User,
+  [in] string Locale,
+  [in] string Provider,
+  [in] string TransactionIdentifier
 );
 ```
 
@@ -90,8 +98,8 @@ Returns an integer value of 0 if the provider was successfully loaded, 1 if the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -105,9 +113,9 @@ Returns an integer value of 0 if the provider was successfully loaded, 1 if the 
 [**MSFT\_Providers**](msft-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

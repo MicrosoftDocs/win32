@@ -1,8 +1,11 @@
 ---
 title: CounterItem.ScaleFactor property
 description: Retrieves or sets the scale factor used to graph the counter value.
-ms.assetid: '8589c0e6-b1c1-4d85-a21e-3e76afee67b1'
-keywords: ["ScaleFactor property SysMon", "ScaleFactor property SysMon , CounterItem class", "CounterItem class SysMon , ScaleFactor property"]
+ms.assetid: 8589c0e6-b1c1-4d85-a21e-3e76afee67b1
+keywords:
+- ScaleFactor property SysMon
+- ScaleFactor property SysMon , CounterItem class
+- CounterItem class SysMon , ScaleFactor property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem.ScaleFactor property
@@ -32,7 +40,7 @@ Property ScaleFactor As Long
 
 Scale factor used in displaying the graphed counter values. Valid values range from -9 to 9 (the values correspond to 0.000000001 - 100000000.0).
 
-**Prior to Windows Vista:** Valid values range from -7 to 7 (the values correspond to 0.0000001 - 1000000.0).
+**Prior to Windows Vista:** Valid values range from -7 to 7 (the values correspond to 0.0000001 - 1000000.0).
 
 ## Remarks
 
@@ -44,8 +52,8 @@ Only set this property if you want to change the counter's default scale factor 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -60,9 +68,9 @@ Only set this property if you want to change the counter's default scale factor 
 [**SystemMonitor.ScaleToFit**](systemmonitor-scaletofit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

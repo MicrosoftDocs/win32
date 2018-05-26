@@ -1,7 +1,12 @@
 ---
-Description: 'Flag indicating whether a decommit operation is in progress.'
-ms.assetid: 'aa008be1-8faa-4dc1-9641-37dcc59ce6c7'
-title: 'CBaseAllocator::m\_bDecommitInProgress member'
+Description: Flag indicating whether a decommit operation is in progress.
+ms.assetid: aa008be1-8faa-4dc1-9641-37dcc59ce6c7
+title: CBaseAllocatorm\_bDecommitInProgress member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_bDecommitInProgress member
@@ -35,9 +40,9 @@ BOOL m_bDecommitInProgress;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

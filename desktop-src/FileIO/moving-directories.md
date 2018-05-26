@@ -1,14 +1,19 @@
 ---
-Description: 'To move a directory to another location, along with the files and subdirectories contained within it, call the MoveFileEx, MoveFileWithProgress, or MoveFileTransacted function.'
-ms.assetid: 'ca56c109-d6a3-456e-956c-126ce4aee8ba'
+Description: To move a directory to another location, along with the files and subdirectories contained within it, call the MoveFileEx, MoveFileWithProgress, or MoveFileTransacted function.
+ms.assetid: ca56c109-d6a3-456e-956c-126ce4aee8ba
 title: Moving Directories
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Moving Directories
 
-To move a directory to another location, along with the files and subdirectories contained within it, call the [**MoveFileEx**](movefileex.md), [**MoveFileWithProgress**](movefilewithprogress.md), or [**MoveFileTransacted**](movefiletransacted.md) function. The [**MoveFileWithProgress**](movefilewithprogress.md) function has the same functionality as [**MoveFileEx**](movefileex.md), except that **MoveFileWithProgress** enables you to specify a callback routine that receives notifications on the progress of the operation. The [**MoveFileTransacted**](movefiletransacted.md) function enables you to perform the operation as a transacted operation.
+To move a directory to another location, along with the files and subdirectories contained within it, call the [**MoveFileEx**](/windows/win32/WinBase/nf-winbase-movefileexa?branch=master), [**MoveFileWithProgress**](/windows/win32/WinBase/nf-winbase-movefilewithprogressa?branch=master), or [**MoveFileTransacted**](/windows/win32/WinBase/nf-winbase-movefiletransacteda?branch=master) function. The [**MoveFileWithProgress**](/windows/win32/WinBase/nf-winbase-movefilewithprogressa?branch=master) function has the same functionality as [**MoveFileEx**](/windows/win32/WinBase/nf-winbase-movefileexa?branch=master), except that **MoveFileWithProgress** enables you to specify a callback routine that receives notifications on the progress of the operation. The [**MoveFileTransacted**](/windows/win32/WinBase/nf-winbase-movefiletransacteda?branch=master) function enables you to perform the operation as a transacted operation.
 
-The following example demonstrates the use of the [**MoveFileEx**](movefileex.md) function with a directory.
+The following example demonstrates the use of the [**MoveFileEx**](/windows/win32/WinBase/nf-winbase-movefileexa?branch=master) function with a directory.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: Removing a Catalog
 description: Removing a Catalog
-ms.assetid: 'afb6fce5-cb3a-4953-9965-47cb0a364f80'
+ms.assetid: afb6fce5-cb3a-4953-9965-47cb0a364f80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removing a Catalog

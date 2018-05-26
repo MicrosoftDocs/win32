@@ -1,8 +1,9 @@
 ---
 title: D3DX11CreateEffectFromMemory function
 description: Creates an effect from a binary effect or file.
-ms.assetid: '4aa65efb-4c6b-4faf-b48f-01329bdff6cd'
-keywords: ["D3DX11CreateEffectFromMemory function Direct3D 11"]
+ms.assetid: 4aa65efb-4c6b-4faf-b48f-01329bdff6cd
+keywords:
+- D3DX11CreateEffectFromMemory function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11CreateEffectFromMemory function
@@ -22,11 +28,11 @@ Creates an effect from a binary effect or file.
 
 ```C++
 HRESULT D3DX11CreateEffectFromMemory(
-   void          *pData,
-   SIZE_T        DataLength,
-   UINT          FXFlags,
-   ID3D11Device  *pDevice,
-   ID3DX11Effect **ppEffect
+   void          *pData,
+   SIZE_T        DataLength,
+   UINT          FXFlags,
+   ID3D11Device  *pDevice,
+   ID3DX11Effect **ppEffect
 );
 ```
 
@@ -66,9 +72,9 @@ No effect flags exist. Set to zero.
 *pDevice* 
 </dt> <dd>
 
-Type: **[**ID3D11Device**](id3d11device.md)\***
+Type: **[**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master)\***
 
-Pointer to the [**ID3D11Device**](id3d11device.md) on which to create Effect resources.
+Pointer to the [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) on which to create Effect resources.
 
 </dd> <dt>
 
@@ -92,7 +98,7 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 > [!Note]  
 > You must use [Effects 11 source](http://go.microsoft.com/fwlink/p/?LinkId=271568) to build your effects-type application. For more info about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -111,9 +117,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [Effects 11 Functions](d3d11-graphics-reference-effects11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

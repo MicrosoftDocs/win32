@@ -1,14 +1,19 @@
-﻿---
-Description: 'Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object has shown or hidden itself.'
-ms.assetid: 'bf4651f4-2cf4-4952-a93e-3c6ba4846722'
-title: 'PenInputPanel.VisibleChanged event'
+---
+Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object has shown or hidden itself.
+ms.assetid: bf4651f4-2cf4-4952-a93e-3c6ba4846722
+title: PenInputPanel.VisibleChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PenInputPanel.VisibleChanged event
 
-Deprecated. The [**PenInputPanel**](peninputpanel-class.md) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
+Deprecated. The [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
 
-Occurs when the [**PenInputPanel**](peninputpanel-class.md) object has shown or hidden itself.
+Occurs when the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object has shown or hidden itself.
 
 ## Syntax
 
@@ -28,7 +33,7 @@ HRESULT VisibleChanged(
 *NewVisibility* \[in\]
 </dt> <dd>
 
-**VARIANT\_TRUE** to cause the [**PenInputPanel**](peninputpanel-class.md) object to become visible; otherwise, **VARIANT\_FALSE**.
+**VARIANT\_TRUE** to cause the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object to become visible; otherwise, **VARIANT\_FALSE**.
 
 </dd> </dl>
 
@@ -57,7 +62,7 @@ The **VisibleChanged** event applies to the Tablet PC Input Panel hover target. 
 
 <dl> <dt>
 
-[**PenInputPanel**](peninputpanel-class.md)
+[**PenInputPanel**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
  

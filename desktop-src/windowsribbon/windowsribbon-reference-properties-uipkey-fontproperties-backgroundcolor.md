@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_FontProperties\_BackgroundColor
 description: Identifies the UI\_PKEY\_FontProperties\_BackgroundColor property.
-ms.assetid: 'e4c9b614-db31-488d-8f05-0e6f41be39f6'
+ms.assetid: e4c9b614-db31-488d-8f05-0e6f41be39f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_FontProperties\_BackgroundColor

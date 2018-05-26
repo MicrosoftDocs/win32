@@ -1,8 +1,29 @@
 ---
 title: RadioButton Control Type
 description: This topic provides information about Microsoft UI Automation support for the RadioButton control type.
-ms.assetid: '6fc4a6a3-f5c0-402b-b9e7-870dfaa3370d'
-keywords: ["UI Automation,support for RadioButton control type", "UI Automation,RadioButton control type", "UI Automation,tree structure for RadioButton control type", "UI Automation,properties for RadioButton control type", "UI Automation,control patterns for RadioButton control type", "UI Automation,events for RadioButton control type", "tree structures,RadioButton control type", "properties,RadioButton control type", "control patterns,RadioButton control type", "events,RadioButton control type", "support for RadioButton control type", "RadioButton control type", "control types,tree structure for RadioButton control type", "control types,control patterns for RadioButton control type", "control types,support for RadioButton", "control types,RadioButton"]
+ms.assetid: 6fc4a6a3-f5c0-402b-b9e7-870dfaa3370d
+keywords:
+- UI Automation,support for RadioButton control type
+- UI Automation,RadioButton control type
+- UI Automation,tree structure for RadioButton control type
+- UI Automation,properties for RadioButton control type
+- UI Automation,control patterns for RadioButton control type
+- UI Automation,events for RadioButton control type
+- tree structures,RadioButton control type
+- properties,RadioButton control type
+- control patterns,RadioButton control type
+- events,RadioButton control type
+- support for RadioButton control type
+- RadioButton control type
+- control types,tree structure for RadioButton control type
+- control types,control patterns for RadioButton control type
+- control types,support for RadioButton
+- control types,RadioButton
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RadioButton Control Type
@@ -93,9 +114,9 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                                               | Support/Value | Notes                                                                                                                                                                                                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md)                | Required      | All radio button controls must support the [SelectionItem](uiauto-implementingselectionitem.md) control pattern to enable themselves to be selected.                                                                                                                                                                                                                                                             |
-| [**SelectionContainer**](uiauto-iselectionitemprovider-selectioncontainer.md) | See notes.    | The [**SelectionContainer**](uiauto-iselectionitemprovider-selectioncontainer.md) property must always be completed so that a UI Automation client can determine what other radio buttons within a specific context relate to one another. For the Microsoft Win32 version of the radio button, this property is not supported because it is not possible to obtain this information from that legacy framework. |
-| [**IToggleProvider**](uiauto-itoggleprovider.md)                              | Never         | The radio button cannot cycle through its state once it has been set. The [Toggle](uiauto-implementingtoggle.md) control pattern must never be supported on a radio button.                                                                                                                                                                                                                                      |
+| [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master)                | Required      | All radio button controls must support the [SelectionItem](uiauto-implementingselectionitem.md) control pattern to enable themselves to be selected.                                                                                                                                                                                                                                                             |
+| [**SelectionContainer**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer?branch=master) | See notes.    | The [**SelectionContainer**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionitemprovider-get_selectioncontainer?branch=master) property must always be completed so that a UI Automation client can determine what other radio buttons within a specific context relate to one another. For the Microsoft Win32 version of the radio button, this property is not supported because it is not possible to obtain this information from that legacy framework. |
+| [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master)                              | Never         | The radio button cannot cycle through its state once it has been set. The [Toggle](uiauto-implementingtoggle.md) control pattern must never be supported on a radio button.                                                                                                                                                                                                                                      |
 
 
 

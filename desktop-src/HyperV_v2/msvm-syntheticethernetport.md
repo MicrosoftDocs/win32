@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a synthetic Ethernet adapter.'
-ms.assetid: 'B5CB86A9-015B-42E8-ADF4-2F61970D8437'
-title: 'Msvm\_SyntheticEthernetPort class'
+Description: Represents a synthetic Ethernet adapter.
+ms.assetid: B5CB86A9-015B-42E8-ADF4-2F61970D8437
+title: Msvm\_SyntheticEthernetPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticEthernetPort class
@@ -16,65 +21,65 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SyntheticEthernetPort : CIM_EthernetPort
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint64   Speed;
-  uint64   MaxSpeed;
-  uint64   RequestedSpeed;
-  uint16   UsageRestriction;
-  uint16   PortType;
-  string   OtherPortType;
-  string   OtherNetworkPortType;
-  uint16   PortNumber;
-  uint16   LinkTechnology;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  string   NetworkAddresses[];
-  boolean  FullDuplex;
-  boolean  AutoSense;
-  uint64   SupportedMaximumTransmissionUnit;
-  uint64   ActiveMaximumTransmissionUnit;
-  uint32   MaxDataSize;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  uint16   EnabledCapabilities[];
-  string   OtherEnabledCapabilities[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint64   Speed;
+  uint64   MaxSpeed;
+  uint64   RequestedSpeed;
+  uint16   UsageRestriction;
+  uint16   PortType;
+  string   OtherPortType;
+  string   OtherNetworkPortType;
+  uint16   PortNumber;
+  uint16   LinkTechnology;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  string   NetworkAddresses[];
+  boolean  FullDuplex;
+  boolean  AutoSense;
+  uint64   SupportedMaximumTransmissionUnit;
+  uint64   ActiveMaximumTransmissionUnit;
+  uint32   MaxDataSize;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  uint16   EnabledCapabilities[];
+  string   OtherEnabledCapabilities[];
 };
 ```
 
@@ -104,7 +109,7 @@ The **Msvm\_SyntheticEthernetPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -950,8 +955,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -968,9 +973,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_EthernetPort**](https://msdn.microsoft.com/library/mt446068)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

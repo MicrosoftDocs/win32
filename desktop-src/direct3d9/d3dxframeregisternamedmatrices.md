@@ -1,7 +1,12 @@
-﻿---
-Description: 'Given a frame hierarchy, registers all the named matrices in the animation mixer.'
-ms.assetid: 'df0560c2-4417-4d54-94c8-031521b32189'
+---
+Description: Given a frame hierarchy, registers all the named matrices in the animation mixer.
+ms.assetid: df0560c2-4417-4d54-94c8-031521b32189
 title: D3DXFrameRegisterNamedMatrices function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFrameRegisterNamedMatrices function

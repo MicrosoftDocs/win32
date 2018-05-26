@@ -1,8 +1,14 @@
 ---
 title: LocalServer
 description: Specifies the full path to a 16-bit local server application.
-ms.assetid: '6eadadd5-f4d3-4e0d-9491-2ea366861aa7'
-keywords: ["LocalServer registry key COM"]
+ms.assetid: 6eadadd5-f4d3-4e0d-9491-2ea366861aa7
+keywords:
+- LocalServer registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalServer

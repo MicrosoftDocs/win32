@@ -1,8 +1,9 @@
 ---
 title: Player.playState
 description: The playState property retrieves a value indicating the state of the Windows Media Player operation.
-ms.assetid: '8ed1ee1f-8731-402a-aff5-5ae513a35eea'
-keywords: ["Player.playState Windows Media Player"]
+ms.assetid: 8ed1ee1f-8731-402a-aff5-5ae513a35eea
+keywords:
+- Player.playState Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.playState
@@ -44,7 +50,7 @@ This property is a read-only **Number** (**long**). The C-style enumeration cons
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,9 +92,9 @@ else
 [**Player.PlayStateChange Event**](player-player-playstatechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

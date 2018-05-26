@@ -1,7 +1,12 @@
 ---
 title: CharsPerLine Property
 description: CharsPerLine Property
-ms.assetid: '8493eb85-2c17-458d-8f1e-e76c978675a7'
+ms.assetid: 8493eb85-2c17-458d-8f1e-e76c978675a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CharsPerLine Property

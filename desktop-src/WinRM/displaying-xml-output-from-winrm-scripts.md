@@ -4,10 +4,13 @@ description: Windows Remote Management scripts return XML rather than objects. T
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a2c9401b-bc1e-4f8e-aabf-b6ade1a849ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: a2c9401b-bc1e-4f8e-aabf-b6ade1a849ba
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Displaying XML Output from WinRM Scripts

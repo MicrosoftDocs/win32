@@ -1,7 +1,12 @@
 ---
 title: Understanding Extended Error Information
 description: Extended error information is an array of records, each indicating the passing of the error code through a particular layer in the system or application.
-ms.assetid: '1b112e49-bdb2-4014-b86d-3c6d8ebe4fcd'
+ms.assetid: 1b112e49-bdb2-4014-b86d-3c6d8ebe4fcd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Extended Error Information
@@ -10,7 +15,7 @@ Extended error information is an array of records, each indicating the passing o
 
 Extended error information does not replace the error code (the RPC\_S\_\* status code). Regardless of how much or whether extended error information is generated, the error code remains unchanged.
 
-Each extended error information record contains the following. Please see [**RPC\_EXTENDED\_ERROR\_INFO**](rpc-extended-error-info.md) for more information:
+Each extended error information record contains the following. Please see [**RPC\_EXTENDED\_ERROR\_INFO**](/windows/win32/Rpcasync/ns-rpcasync-tagrpc_extended_error_info?branch=master) for more information:
 
 -   ComputerName—this is the non-qualified DNS name of the computer on which the error originated. Only records on machine boundaries have this information. For example, in the scenario described earlier with machines A, B, and C, the ComputerName is defined for the following fields:
 

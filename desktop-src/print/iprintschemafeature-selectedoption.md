@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an IPrintSchemaOption representing the selected option.'
-ms.assetid: 'C22BC037-05D2-4F44-8704-D1D56909B603'
-title: 'IPrintSchemaFeature::SelectedOption property'
+---
+Description: Gets an IPrintSchemaOption representing the selected option.
+ms.assetid: C22BC037-05D2-4F44-8704-D1D56909B603
+title: IPrintSchemaFeatureSelectedOption property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaFeature::SelectedOption property

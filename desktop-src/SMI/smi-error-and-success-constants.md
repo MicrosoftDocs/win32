@@ -1,7 +1,7 @@
 ---
 title: SMI Error and Success Constants
 description: If an error occurs, SMI can return one of the following error codes as an HRESULT value.
-ms.assetid: '8ea900c3-9eca-47ec-81bc-34399605364e'
+ms.assetid: 8ea900c3-9eca-47ec-81bc-34399605364e
 topic_type:
 - apiref
 api_name:
@@ -59,6 +59,11 @@ api_location:
 - WcmErrors.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMI Error and Success Constants
@@ -66,9 +71,9 @@ api_type:
 If an error occurs, SMI can return one of the following error codes as an HRESULT value. The constants that begin with "WCM\_S\_" are success constants, and the constants that begin with "WCM\_E\_" are error constants.
 
 > [!Note]  
-> Some SMI APIs can return system error codes. The HRESULT values that begin with "WCM\_S\_" are not returned from an SMI API. They may only appear embedded in an object that implements [**ISettingsResult**](isettingsresult.md) interface.
+> Some SMI APIs can return system error codes. The HRESULT values that begin with "WCM\_S\_" are not returned from an SMI API. They may only appear embedded in an object that implements [**ISettingsResult**](/windows/previous-versions/WcmConfig/nn-wcmconfig-isettingsresult?branch=master) interface.
 
- 
+ 
 
 <dl> <dt>
 
@@ -728,15 +733,15 @@ Namespace is not found.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>WcmErrors.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Name Property
 description: Name Property
-ms.assetid: '83d6682c-ac25-4333-8640-7ef468f2de8b'
+ms.assetid: 83d6682c-ac25-4333-8640-7ef468f2de8b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Property

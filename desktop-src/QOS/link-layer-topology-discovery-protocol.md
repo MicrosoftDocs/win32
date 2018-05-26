@@ -1,7 +1,12 @@
 ---
 title: Link Layer Topology Discovery protocol(LLTD)
 description: The LLTD protocol enables applications to quickly discover devices at the data-link layer, and it enables a central, graphical view of everything that is connected to the network.
-ms.assetid: 'B4DC3E75-3F03-421F-91EF-E1E39945444C'
+ms.assetid: B4DC3E75-3F03-421F-91EF-E1E39945444C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link Layer Topology Discovery protocol(LLTD)

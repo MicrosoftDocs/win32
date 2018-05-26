@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM05 verifies that the merge module is correctly associated with components in the module. Incorrectly associating a component with a module causes the component to be incorrectly associated with the target database.'
-ms.assetid: '1bf4041e-b198-4897-8719-8505fd8180ec'
+Description: ICEM05 verifies that the merge module is correctly associated with components in the module. Incorrectly associating a component with a module causes the component to be incorrectly associated with the target database.
+ms.assetid: 1bf4041e-b198-4897-8719-8505fd8180ec
 title: ICEM05
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM05

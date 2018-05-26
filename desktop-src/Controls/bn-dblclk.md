@@ -1,8 +1,9 @@
 ---
 title: BN\_DBLCLK notification code
 description: Sent when the user double-clicks a button.
-ms.assetid: '60cc033f-8b84-4aa5-b625-fdee9deb4757'
-keywords: ["BN_DBLCLK notification code Windows Controls"]
+ms.assetid: 60cc033f-8b84-4aa5-b625-fdee9deb4757
+keywords:
+- BN_DBLCLK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BN\_DBLCLK notification code
@@ -57,8 +63,8 @@ BN\_DBLCLK is the same as the [BN\_DOUBLECLICKED](bn-doubleclicked.md) notificat
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ BN\_DBLCLK is the same as the [BN\_DOUBLECLICKED](bn-doubleclicked.md) notificat
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UFF\_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).'
-ms.assetid: 'd1cde8a4-f27b-440c-bfb1-c9a564c59c04'
-title: 'UFF\_FONTDIRECTORY structure'
+---
+Description: The UFF\_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
+ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
+title: UFF\_FONTDIRECTORY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UFF\_FONTDIRECTORY structure

@@ -1,12 +1,17 @@
 ---
 Description: Implementing the Asynchronous Callback
-ms.assetid: 'c2c9d0f7-038b-4f23-985c-b812908d71a7'
+ms.assetid: c2c9d0f7-038b-4f23-985c-b812908d71a7
 title: Implementing the Asynchronous Callback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing the Asynchronous Callback
 
-The following code shows the basic framework needed to implement the [**IMFAsyncCallback**](imfasynccallback.md) interface. In this example, the [**Invoke**](imfasynccallback-invoke.md) method is declared as a pure virtual method. The implementation of this method will depend on which asynchronous method you are calling. For more information, see [Calling Asynchronous Methods](calling-asynchronous-methods.md).
+The following code shows the basic framework needed to implement the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface. In this example, the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method is declared as a pure virtual method. The implementation of this method will depend on which asynchronous method you are calling. For more information, see [Calling Asynchronous Methods](calling-asynchronous-methods.md).
 
 
 ```C++
@@ -128,7 +133,7 @@ public:
 
 
 
-This example signals an event inside the [**Invoke**](imfasynccallback-invoke.md) method. For a discussion of the various options, see [Calling Asynchronous Methods](calling-asynchronous-methods.md).
+This example signals an event inside the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method. For a discussion of the various options, see [Calling Asynchronous Methods](calling-asynchronous-methods.md).
 
 ## Related topics
 

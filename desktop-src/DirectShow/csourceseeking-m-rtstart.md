@@ -1,7 +1,12 @@
 ---
-Description: 'Start time. By default, the value is set to zero.'
-ms.assetid: 'bafa69c3-ead0-4409-abbf-4e8cc325e5f9'
-title: 'CSourceSeeking::m\_rtStart member'
+Description: Start time. By default, the value is set to zero.
+ms.assetid: bafa69c3-ead0-4409-abbf-4e8cc325e5f9
+title: CSourceSeekingm\_rtStart member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking::m\_rtStart member
@@ -39,9 +44,9 @@ Hold the **m\_pLock** critical section before accessing this variable.
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

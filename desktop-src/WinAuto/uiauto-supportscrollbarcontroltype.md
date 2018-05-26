@@ -1,8 +1,29 @@
 ---
 title: ScrollBar Control Type
 description: This topic provides information about Microsoft UI Automation support for the ScrollBar control type.
-ms.assetid: 'c89ca087-3e93-4e86-ac79-731e3e7a361d'
-keywords: ["UI Automation,support for ScrollBar control type", "UI Automation,ScrollBar control type", "UI Automation,tree structure for ScrollBar control type", "UI Automation,properties for ScrollBar control type", "UI Automation,control patterns for ScrollBar control type", "UI Automation,events for ScrollBar control type", "tree structures,ScrollBar control type", "properties,ScrollBar control type", "control patterns,ScrollBar control type", "events,ScrollBar control type", "support for ScrollBar control type", "ScrollBar control type", "control types,tree structure for ScrollBar control type", "control types,control patterns for ScrollBar control type", "control types,support for ScrollBar", "control types,ScrollBar"]
+ms.assetid: c89ca087-3e93-4e86-ac79-731e3e7a361d
+keywords:
+- UI Automation,support for ScrollBar control type
+- UI Automation,ScrollBar control type
+- UI Automation,tree structure for ScrollBar control type
+- UI Automation,properties for ScrollBar control type
+- UI Automation,control patterns for ScrollBar control type
+- UI Automation,events for ScrollBar control type
+- tree structures,ScrollBar control type
+- properties,ScrollBar control type
+- control patterns,ScrollBar control type
+- events,ScrollBar control type
+- support for ScrollBar control type
+- ScrollBar control type
+- control types,tree structure for ScrollBar control type
+- control types,control patterns for ScrollBar control type
+- control types,support for ScrollBar
+- control types,ScrollBar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScrollBar Control Type
@@ -72,7 +93,7 @@ For more information about UI Automation properties, see [Retrieving Properties 
 | [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md#uia-boundingrectanglepropertyid)       | See notes.    | The outermost rectangle that contains the whole control.                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | [**UIA\_ClickablePointPropertyId**](uiauto-automation-element-propids.md#uia-clickablepointpropertyid)             | NaN           | The scroll bar control does not have clickable points.                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md#uia-controltypepropertyid)                   | **ScrollBar** | This value is the same for all frameworks. Scroll bars that function as sliders must use the [Slider](uiauto-supportslidercontroltype.md) control type.                                                                                                                                                                                                                                                                                                                        |
-| [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid)         | FALSE         | The scroll bar control is never a content element. If the scroll bar is a standalone control, it must fulfill the [Slider](uiauto-supportslidercontroltype.md) control type and return [**UIA\_SliderControlTypeId**](uiauto-controltype-ids.md#uia-slidercontroltypeid) for the [**IUIAutomationElement::CurrentControlType**](uiauto-iuiautomationelement-currentcontroltype.md) (or [**CachedControlType**](uiauto-iuiautomationelement-cachedcontroltype.md)) property. |
+| [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid)         | FALSE         | The scroll bar control is never a content element. If the scroll bar is a standalone control, it must fulfill the [Slider](uiauto-supportslidercontroltype.md) control type and return [**UIA\_SliderControlTypeId**](uiauto-controltype-ids.md#uia-slidercontroltypeid) for the [**IUIAutomationElement::CurrentControlType**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentcontroltype?branch=master) (or [**CachedControlType**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedcontroltype?branch=master)) property. |
 | [**UIA\_IsControlElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontrolelementpropertyid)         | TRUE          | The scroll bar control is always included in the control view of the UI Automation tree.                                                                                                                                                                                                                                                                                                                                                                                        |
 | [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)   | See notes.    | If the control can receive keyboard focus, it must support this property. A scroll bar control rarely takes the focus, but when it does, the focus should remain on the scroll bar control itself, not on the child buttons or the thumb. The user should be able to perform all scrolling actions by using the UP ARROW and DOWN ARROW (or RIGHT ARROW and LEFT ARROW) keys, or the PAGE UP and PAGE DOWN keys.                                                                |
 | [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md#uia-labeledbypropertyid)                       | NULL          | Scroll bars do not have labels.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -97,8 +118,8 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                           | Support | Notes                                                                                                                                                                                                                          |
 |-----------------------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IRangeValueProvider**](uiauto-irangevalueprovider.md) | Depends | The [RangeValue](uiauto-implementingrangevalue.md) control pattern is required to be supported only if the [Scroll](uiauto-implementingscroll.md) control pattern is not supported on the container that has the scroll bar. |
-| [**IScrollProvider**](uiauto-iscrollprovider.md)         | Never   | The [Scroll](uiauto-implementingscroll.md) control pattern is never directly supported on the scroll bar.                                                                                                                     |
+| [**IRangeValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irangevalueprovider?branch=master) | Depends | The [RangeValue](uiauto-implementingrangevalue.md) control pattern is required to be supported only if the [Scroll](uiauto-implementingscroll.md) control pattern is not supported on the container that has the scroll bar. |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)         | Never   | The [Scroll](uiauto-implementingscroll.md) control pattern is never directly supported on the scroll bar.                                                                                                                     |
 
 
 

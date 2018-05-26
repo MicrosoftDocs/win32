@@ -1,12 +1,18 @@
 ---
 title: TextureCube GatherGreen methods
 description: Samples a texture and returns the green component.
-ms.assetid: 'F70AA57B-D54C-4F78-ABD1-7F8D3AD44997'
-keywords: ["GatherGreen methods HLSL"]
+ms.assetid: F70AA57B-D54C-4F78-ABD1-7F8D3AD44997
+keywords:
+- GatherGreen methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::GatherGreen methods
@@ -30,9 +36,9 @@ Samples a texture and returns the green component.
 [**TextureCube**](texturecube.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

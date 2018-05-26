@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SampleCB method is a callback method that receives a pointer to the media sample.'
-ms.assetid: 'e919b694-75cb-48c6-8427-5a7a886e0ff3'
-title: 'ISampleGrabberCB::SampleCB method'
+---
+Description: The SampleCB method is a callback method that receives a pointer to the media sample.
+ms.assetid: e919b694-75cb-48c6-8427-5a7a886e0ff3
+title: ISampleGrabberCBSampleCB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISampleGrabberCB::SampleCB method
@@ -39,7 +44,7 @@ Starting time of the sample, in seconds.
 *pSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample.
 
 </dd> </dl>
 

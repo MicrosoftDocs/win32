@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Direct3D device associated with the environment map.'
-ms.assetid: '15f342c5-7665-443a-b7b8-32cc67034c41'
-title: 'ID3DXRenderToEnvMap::GetDevice method'
+---
+Description: Retrieves the Direct3D device associated with the environment map.
+ms.assetid: 15f342c5-7665-443a-b7b8-32cc67034c41
+title: ID3DXRenderToEnvMapGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap::GetDevice method
@@ -26,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface that represents the Direct3D device object associated with the environment map.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface that represents the Direct3D device object associated with the environment map.
 
 </dd> </dl>
 
@@ -36,7 +41,7 @@ Address of a pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface
 
 Type: **[**HRESULT**](455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
 
-If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL. Calling this method increases the internal reference count on the [**IDirect3DDevice9**](idirect3ddevice9.md) interface. Be sure to call [**IUnknown**](com.iunknown) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
+If the method succeeds, the return value is D3D\_OK. If the method fails, the return value can be D3DERR\_INVALIDCALL. Calling this method increases the internal reference count on the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface. Be sure to call [**IUnknown**](com.iunknown) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
 
 ## Requirements
 

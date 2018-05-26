@@ -1,7 +1,12 @@
 ---
-Description: 'This section is intended for developers who are writing their own setup programs using the internal user interface of the Windows Installer database. For general information about the installer, see About Windows Installer.'
-ms.assetid: 'd4a4b34b-98e7-495b-a1e2-67586bfe9c1b'
+Description: This section is intended for developers who are writing their own setup programs using the internal user interface of the Windows Installer database. For general information about the installer, see About Windows Installer.
+ms.assetid: d4a4b34b-98e7-495b-a1e2-67586bfe9c1b
 title: User Interface Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Reference

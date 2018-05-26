@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the name of the logging database.'
+Description: Retrieves the name of the logging database.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'ed4bba0b-6aed-4f61-a033-7d94fb85fa44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: ed4bba0b-6aed-4f61-a033-7d94fb85fa44
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'DatabaseInformation.DBName property'
+title: DatabaseInformation.DBName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DatabaseInformation.DBName property
@@ -104,7 +107,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -119,9 +122,9 @@ END SUB
 [**LoggingSystemInformation**](loggingsysteminformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

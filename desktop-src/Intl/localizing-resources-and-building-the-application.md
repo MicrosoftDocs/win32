@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to build a typical MUI application.'
-ms.assetid: '386e9601-ce21-4ef0-b225-0c4249d1942d'
+Description: This topic describes how to build a typical MUI application.
+ms.assetid: 386e9601-ce21-4ef0-b225-0c4249d1942d
 title: Localizing Resources and Building the Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Localizing Resources and Building the Application

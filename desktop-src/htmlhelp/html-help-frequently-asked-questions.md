@@ -1,7 +1,12 @@
 ---
 title: HTML Help Frequently Asked Questions
 description: This topic contains the answers to several frequently asked questions.
-ms.assetid: 'A91DE043-3A0E-440c-BB80-2EF960E57C0F'
+ms.assetid: A91DE043-3A0E-440c-BB80-2EF960E57C0F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help Frequently Asked Questions

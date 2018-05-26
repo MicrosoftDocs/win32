@@ -1,8 +1,11 @@
 ---
 title: GetErrorEx method of the Msvm\_ConcreteJob class
 description: When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.
-ms.assetid: '93d55e71-bb1b-48f7-b371-76b91883e49f'
-keywords: ["GetErrorEx method Hyper-V", "GetErrorEx method Hyper-V , Msvm_ConcreteJob class", "Msvm_ConcreteJob class Hyper-V , GetErrorEx method"]
+ms.assetid: 93d55e71-bb1b-48f7-b371-76b91883e49f
+keywords:
+- GetErrorEx method Hyper-V
+- GetErrorEx method Hyper-V , Msvm_ConcreteJob class
+- Msvm_ConcreteJob class Hyper-V , GetErrorEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetErrorEx method of the Msvm\_ConcreteJob class
@@ -22,7 +30,7 @@ When the job is executing or has terminated without error, then this method retu
 
 ```mof
 uint32 GetErrorEx(
-  [out] string Errors[]
+  [out] string Errors[]
 );
 ```
 
@@ -96,9 +104,9 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -111,9 +119,9 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 [**Msvm\_ConcreteJob**](msvm-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

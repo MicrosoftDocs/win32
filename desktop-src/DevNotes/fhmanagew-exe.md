@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FhManagew.exe program deletes file versions that exceed a specified age from the currently assigned File History target device.'
-ms.assetid: '31A6E1AC-492A-4080-9095-3180FD60A575'
-title: 'FhManagew.exe'
+---
+Description: The FhManagew.exe program deletes file versions that exceed a specified age from the currently assigned File History target device.
+ms.assetid: 31A6E1AC-492A-4080-9095-3180FD60A575
+title: FhManagew.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FhManagew.exe

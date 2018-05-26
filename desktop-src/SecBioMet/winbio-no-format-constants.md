@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_NO\_FORMAT Constants
 description: Check for errors.
-ms.assetid: '0EDE7415-0CB5-449B-AC0B-2B7EAC7EBF86'
+ms.assetid: 0EDE7415-0CB5-449B-AC0B-2B7EAC7EBF86
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_NO\_FORMAT Constants
@@ -32,8 +37,8 @@ If the members of a [**WINBIO\_REGISTERED\_FORMAT**](winbio-registered-format.md
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -45,9 +50,9 @@ If the members of a [**WINBIO\_REGISTERED\_FORMAT**](winbio-registered-format.md
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

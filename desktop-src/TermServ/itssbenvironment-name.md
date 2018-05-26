@@ -4,11 +4,14 @@ description: Retrieves a value that indicates the name of the environment that h
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8104bdae-f445-425b-b326-cc3333839d29'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8104bdae-f445-425b-b326-cc3333839d29
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Name property Remote Desktop Services", "Name property Remote Desktop Services , ITsSbEnvironment interface", "ITsSbEnvironment interface Remote Desktop Services , Name property"]
+keywords:
+- Name property Remote Desktop Services
+- Name property Remote Desktop Services , ITsSbEnvironment interface
+- ITsSbEnvironment interface Remote Desktop Services , Name property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbEnvironment::Name property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Name(
-  [out, retval] BSTR *pVal
+  [out, retval] BSTR *pVal
 );
 ```
 
@@ -43,7 +49,7 @@ A pointer to a **BSTR** variable that contains the name of the environment.
 
 ## Remarks
 
-This method returns a string that is not directly used by Remote Desktop Connection Broker (RD Connection Broker). RD Connection Broker passes this string to resource plug-ins.
+This method returns a string that is not directly used by Remote Desktop Connection Broker (RD Connection Broker). RD Connection Broker passes this string to resource plug-ins.
 
 ## Requirements
 
@@ -52,7 +58,7 @@ This method returns a string that is not directly used by Remote Desktop Connect
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -61,12 +67,12 @@ This method returns a string that is not directly used by Remote Desktop Connect
 
 <dl> <dt>
 
-[**ITsSbEnvironment**](itssbenvironment.md)
+[**ITsSbEnvironment**](/windows/win32/sbtsv/nn-sbtsv-itssbenvironment?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

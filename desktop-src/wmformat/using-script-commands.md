@@ -1,8 +1,17 @@
 ---
 title: Using Script Commands
 description: Using Script Commands
-ms.assetid: 'be8a2d22-35cb-4b8d-ad00-e8a45bb85b39'
-keywords: ["Windows Media Format SDK,script commands", "Advanced Systems Format (ASF),script commands", "ASF (Advanced Systems Format),script commands", "scripts,commands"]
+ms.assetid: be8a2d22-35cb-4b8d-ad00-e8a45bb85b39
+keywords:
+- Windows Media Format SDK,script commands
+- Advanced Systems Format (ASF),script commands
+- ASF (Advanced Systems Format),script commands
+- scripts,commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Script Commands

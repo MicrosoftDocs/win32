@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaType method retrieves a preferred media type, by index value.'
-ms.assetid: 'd106e6d1-66ff-4460-9ea2-c93f16116cf4'
-title: 'CTransformOutputPin.GetMediaType method'
+Description: The GetMediaType method retrieves a preferred media type, by index value.
+ms.assetid: d106e6d1-66ff-4460-9ea2-c93f16116cf4
+title: CTransformOutputPin.GetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.GetMediaType method
@@ -13,8 +18,8 @@ The `GetMediaType` method retrieves a preferred media type, by index value.
 
 ```C++
 HRESULT GetMediaType(
-   int        iPosition,
-   CMediaType *pMediaType
+   int        iPosition,
+   CMediaType *pMediaType
 );
 ```
 
@@ -51,7 +56,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ This method overrides the [**CBasePin::GetMediaType**](cbasepin-getmediatype.md)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

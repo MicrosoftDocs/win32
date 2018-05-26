@@ -1,7 +1,12 @@
 ---
-Description: 'Function Discovery is an application programming interface (API) for discovering resources connected to the local computer or across the network.'
-ms.assetid: 'd046a96e-4166-4c85-ae08-02aa5d52bc0f'
+Description: Function Discovery is an application programming interface (API) for discovering resources connected to the local computer or across the network.
+ms.assetid: d046a96e-4166-4c85-ae08-02aa5d52bc0f
 title: Using Function Discovery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Function Discovery

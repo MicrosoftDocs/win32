@@ -1,7 +1,12 @@
 ---
-Description: 'When a signed document is received, the validity of the signature or signatures can be checked.'
-ms.assetid: '088915d8-768c-4378-a9dd-9347a428aff9'
+Description: When a signed document is received, the validity of the signature or signatures can be checked.
+ms.assetid: 088915d8-768c-4378-a9dd-9347a428aff9
 title: Verifying the Signature on a Document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying the Signature on a Document

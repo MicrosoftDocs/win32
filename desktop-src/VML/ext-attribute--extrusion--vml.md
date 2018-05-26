@@ -1,7 +1,12 @@
 ---
 title: Ext Attribute (Extrusion)(VML)
 description: Ext Attribute (Extrusion)(VML)
-ms.assetid: '5c7b2137-ddb6-422c-a202-6de494dc993f'
+ms.assetid: 5c7b2137-ddb6-422c-a202-6de494dc993f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ext Attribute (Extrusion)(VML)

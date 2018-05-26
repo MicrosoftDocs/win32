@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the type of credentials used for authentication.'
-ms.assetid: 'a56ce888-ec07-4ce8-a540-6d1890cb338d'
-title: 'authMode (OneX) Element'
+---
+Description: Specifies the type of credentials used for authentication.
+ms.assetid: a56ce888-ec07-4ce8-a540-6d1890cb338d
+title: authMode (OneX) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # authMode (OneX) Element

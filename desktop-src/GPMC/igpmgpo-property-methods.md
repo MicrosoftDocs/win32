@@ -4,11 +4,12 @@ description: The property methods of the IGPMGPO interface get and set the prope
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1087a0b7-3b23-4bc1-aa4b-9cbd15a7b3f2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 1087a0b7-3b23-4bc1-aa4b-9cbd15a7b3f2
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMGPO Property Methods GPMC"]
+keywords:
+- IGPMGPO Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -38,6 +39,9 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMGPO Property Methods
@@ -289,7 +293,7 @@ HRESULT get_UserSysvolVersionNumber(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -297,8 +301,8 @@ HRESULT get_UserSysvolVersionNumber(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -310,15 +314,15 @@ HRESULT get_UserSysvolVersionNumber(
 
 <dl> <dt>
 
-[**IGPMGPO**](igpmgpo.md)
+[**IGPMGPO**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmgpo?branch=master)
 </dt> <dt>
 
-[**IGPMGPOCollection**](igpmgpocollection.md)
+[**IGPMGPOCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmgpocollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

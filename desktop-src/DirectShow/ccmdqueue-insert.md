@@ -1,7 +1,12 @@
 ---
-Description: 'The Insert method adds a CDeferredCommand object to the queue.'
-ms.assetid: '41f9c30c-6267-435a-9089-eb34ae606896'
-title: 'CCmdQueue.Insert method'
+Description: The Insert method adds a CDeferredCommand object to the queue.
+ms.assetid: 41f9c30c-6267-435a-9089-eb34ae606896
+title: CCmdQueue.Insert method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue.Insert method
@@ -13,7 +18,7 @@ The `Insert` method adds a [**CDeferredCommand**](cdeferredcommand.md) object to
 
 ```C++
 virtual HRESULT Insert(
-   CDeferredCommand *pCmd
+   CDeferredCommand *pCmd
 );
 ```
 
@@ -52,9 +57,9 @@ Returns S\_OK in the default implementation.
 [**CCmdQueue Class**](ccmdqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

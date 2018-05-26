@@ -1,8 +1,16 @@
 ---
 title: ServiceCancellationExample
 description: Example client application demonstrating service cancellation.
-ms.assetid: 'c9e727c8-5fa7-47b9-8624-18fe4de79026'
-keywords: ["ServiceCancellationExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: c9e727c8-5fa7-47b9-8624-18fe4de79026
+keywords:
+- ServiceCancellationExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceCancellationExample

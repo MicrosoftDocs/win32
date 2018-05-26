@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the process of building a WSDAPI application using WsdCodeGen.'
-ms.assetid: '8f172e2c-4cd1-4108-9c8d-01a731aca83b'
+Description: Describes the process of building a WSDAPI application using WsdCodeGen.
+ms.assetid: 8f172e2c-4cd1-4108-9c8d-01a731aca83b
 title: Using WsdCodeGen
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WsdCodeGen

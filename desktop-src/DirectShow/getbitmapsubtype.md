@@ -1,7 +1,12 @@
 ---
-Description: 'The GetBitmapSubtype function returns the media subtype GUID for the specified bitmap.'
-ms.assetid: '0af8a64b-8d3c-4308-9fd6-174864a1ca26'
+Description: The GetBitmapSubtype function returns the media subtype GUID for the specified bitmap.
+ms.assetid: 0af8a64b-8d3c-4308-9fd6-174864a1ca26
 title: GetBitmapSubtype function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetBitmapSubtype function
@@ -13,7 +18,7 @@ The `GetBitmapSubtype` function returns the media subtype **GUID** for the speci
 
 ```C++
 const GUID GetBitmapSubtype(
-   const BITMAPINFOHEADER *pHeader
+   const BITMAPINFOHEADER *pHeader
 );
 ```
 
@@ -26,7 +31,7 @@ const GUID GetBitmapSubtype(
 *pHeader* 
 </dt> <dd>
 
-Pointer to a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure.
+Pointer to a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure.
 
 </dd> </dl>
 
@@ -58,9 +63,9 @@ If the function cannot match the format to a subtype, the return value is GUID\_
 [Video and Image Functions](video-and-image-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

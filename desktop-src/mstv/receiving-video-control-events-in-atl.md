@@ -1,16 +1,21 @@
 ---
 title: Receiving Video Control Events in ATL
 description: Receiving Video Control Events in ATL
-ms.assetid: 'cd62980f-5142-4805-9fc2-b2d272b91c5c'
+ms.assetid: cd62980f-5142-4805-9fc2-b2d272b91c5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Video Control Events in ATL
 
 This topic applies to Windows XP or later.
 
-The Video Control sends events to the client through a dispinterface, [**\_IMSVidCtlEvents**](-imsvidctlevents.md). In ATL, you can create a dispinterface event sink by deriving from the **IDispEventImpl** or **IDispEventSimpleImpl** class template. One advantage of these classes is that you do not have to implement methods for all of the events. Instead, you can implement just the ones that you are interested in receiving.
+The Video Control sends events to the client through a dispinterface, [**\_IMSVidCtlEvents**](/windows/previous-versions/msvidctl/?branch=master). In ATL, you can create a dispinterface event sink by deriving from the **IDispEventImpl** or **IDispEventSimpleImpl** class template. One advantage of these classes is that you do not have to implement methods for all of the events. Instead, you can implement just the ones that you are interested in receiving.
 
-This section gives a brief summary of this process. For details, consult the ATL documentation. The example uses **IDispEventSimpleImpl** to catch two events from the Video Control, [**\_IMSVidCtlEvents::Click**](-imsvidctlevents-click.md) and [**\_IMSVidCtlEvents::StateChange**](-imsvidctlevents-statechange.md).
+This section gives a brief summary of this process. For details, consult the ATL documentation. The example uses **IDispEventSimpleImpl** to catch two events from the Video Control, [**\_IMSVidCtlEvents::Click**](/windows/previous-versions/msvidctl/?branch=master) and [**\_IMSVidCtlEvents::StateChange**](/windows/previous-versions/msvidctl/?branch=master).
 
 First, include **IDispEventSimpleImpl** the class template in your client's inheritance list:
 
@@ -82,7 +87,7 @@ ATL automatically sets up the connection when it shows the window, and automatic
 
 Other Video Control objects, such as devices and features, send events through dual interfaces rather than dispinterfaces. (A *dispinterface* is invoked only through the **IDispatch::Invoke** method; it does not use a vtable. A *dual interface* can be invoked either through the **Invoke** method or through the vtable.)
 
-In ATL, you can use the **IDispatchImpl** class template to handle dual interface events. The following discussion describes how to receive file playback events from the [MSVidFilePlaybackDevice](msvidfileplaybackdevice.md) object, using the [**IMSVidFilePlaybackEvent**](imsvidfileplaybackevent.md) interface.
+In ATL, you can use the **IDispatchImpl** class template to handle dual interface events. The following discussion describes how to receive file playback events from the [MSVidFilePlaybackDevice](msvidfileplaybackdevice.md) object, using the [**IMSVidFilePlaybackEvent**](/windows/win32/segment/?branch=master) interface.
 
 First, add the **IDispatchImpl** class to your inheritance list:
 

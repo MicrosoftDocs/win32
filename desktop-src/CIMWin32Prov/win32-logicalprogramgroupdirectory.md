@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_LogicalProgramGroupDirectory association WMI class relates logical program groups (groupings in the Start menu) and the file directories in which they are stored.'
+Description: The Win32\_LogicalProgramGroupDirectory association WMI class relates logical program groups (groupings in the Start menu) and the file directories in which they are stored.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '31a8b56a-d4fd-4cc5-9997-ec6211fe9425'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 31a8b56a-d4fd-4cc5-9997-ec6211fe9425
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalProgramGroupDirectory class'
+title: Win32\_LogicalProgramGroupDirectory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalProgramGroupDirectory class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_LogicalProgramGroupDirectory : CIM_Dependency
 {
   Win32_LogicalProgramGroup REF Antecedent;
-  Win32_Directory           REF Dependent;
+  Win32_Directory           REF Dependent;
 };
 ```
 
@@ -85,8 +88,8 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -103,9 +106,9 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

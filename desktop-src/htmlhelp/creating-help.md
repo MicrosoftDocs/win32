@@ -1,7 +1,12 @@
 ---
 title: Creating Help
 description: The topics in this section describe how to get started creating help.
-ms.assetid: '2F8C8CAB-1C27-4bc0-9E78-E1131710AF9E'
+ms.assetid: 2F8C8CAB-1C27-4bc0-9E78-E1131710AF9E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Help

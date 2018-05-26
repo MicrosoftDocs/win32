@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft MPEG-2 Video Encoder filter encodes MPEG-2 and MPEG-1 video.'
-ms.assetid: 'd52c1299-0641-405c-8960-edd738b56823'
-title: 'Microsoft MPEG-2 Video Encoder'
+---
+Description: The Microsoft MPEG-2 Video Encoder filter encodes MPEG-2 and MPEG-1 video.
+ms.assetid: d52c1299-0641-405c-8960-edd738b56823
+title: Microsoft MPEG-2 Video Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft MPEG-2 Video Encoder
@@ -21,7 +26,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IBaseFilter**](ibasefilter.md)<br/> [**ICodecAPI**](icodecapi.md)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](imediaseeking.md)<br/> [**IVideoEncoder**](ivideoencoder.md)<br/>
+[**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)<br/> [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IVideoEncoder**](/windows/win32/strmif/?branch=master)<br/>
 
 Input Pin Media Types
 
@@ -29,7 +34,7 @@ Input Pin Media Types
 
 Input Pin Interfaces
 
-[**IMemInputPin**](imeminputpin.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Output Pin Media Types
 
@@ -37,7 +42,7 @@ Output Pin Media Types
 
 Output Pin Interfaces
 
-[**IMediaSeeking**](imediaseeking.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Filter CLSID
 
@@ -84,7 +89,7 @@ It supports the following MPEG-2 profiles and levels:
 
 ### Codec Properties
 
-The filter supports the following properties through [**ICodecAPI**](icodecapi.md).
+The filter supports the following properties through [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master).
 
 
 
@@ -223,7 +228,7 @@ The encoder uses this formula to calculate the value of pel\_aspect\_ratio for M
 The encoder tries the following settings, in order:
 
 1.  If the application sets the [**AVEncVideoPixelAspectRatio**](avencvideopixelaspectratio-property.md) property at any time before the filter graph runs, this property is used for the PAR.
-2.  Otherwise, if the **dwPictAspectRatioX** and **dwPictAspectRatioY** members of the [**VIDEOINFOHEADER2**](videoinfoheader2.md) structure are non-zero, these members are used for the display aspect ratio, and the PAR is calculated from the display aspect ratio.
+2.  Otherwise, if the **dwPictAspectRatioX** and **dwPictAspectRatioY** members of the [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master) structure are non-zero, these members are used for the display aspect ratio, and the PAR is calculated from the display aspect ratio.
 3.  If none of these values is present, the PAR is assumed to be 1.0, and the display aspect ratio is calculated accordingly.
 
 In live encoding mode ([**AVEncCommonQualityVsSpeed**](avenccommonqualityvsspeed-property.md) equal to zero), the display aspect ratio must be either 4:3 or 16:9, with a default value of 4:3. If the computed display aspect ratio is not 4:3 or 16:9, the encoder uses the value 4:3.
@@ -270,8 +275,8 @@ If the application constrains the target format to DVD (through the [**AVEncComm
 
 Setting the value of one codec property can change the valid range of another property. (For example, constraining the target format restricts the average bit rate.) Whenever the application sets a property, the encoder checks if any other properties now fall outside their valid range. If so, the encoder resets that property to its new default value. To receive notifications when this occurs, do the following:
 
-1.  Call [**ICodecAPI::RegisterForEvent**](icodecapi-registerforevent.md) with the value **CODECAPI\_CHANGELISTS**.
-2.  Use the [**IMediaEventEx**](imediaeventex.md) interface to monitor events from the filter graph.
+1.  Call [**ICodecAPI::RegisterForEvent**](/windows/win32/Strmif/nf-strmif-icodecapi-registerforevent?branch=master) with the value **CODECAPI\_CHANGELISTS**.
+2.  Use the [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) interface to monitor events from the filter graph.
 3.  If the range or default value of a property changes, the encoder sends an [**EC\_CODECAPI\_EVENT**](ec-codecapi-event.md) event with a list of changed properties.
 
 ### IEncoderAPI Support

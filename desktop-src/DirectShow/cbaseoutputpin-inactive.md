@@ -1,7 +1,12 @@
 ---
-Description: 'The Inactive method notifies the pin that the filter is no longer active.'
-ms.assetid: '14a020de-2102-4d49-8a34-d59abe6698d1'
-title: 'CBaseOutputPin.Inactive method'
+Description: The Inactive method notifies the pin that the filter is no longer active.
+ms.assetid: 14a020de-2102-4d49-8a34-d59abe6698d1
+title: CBaseOutputPin.Inactive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.Inactive method
@@ -34,11 +39,11 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-This method overrides the [**CBasePin::Inactive**](cbasepin-inactive.md) method. It calls the [**IMemAllocator::Decommit**](imemallocator-decommit.md) method to decommit the memory allocator.
+This method overrides the [**CBasePin::Inactive**](cbasepin-inactive.md) method. It calls the [**IMemAllocator::Decommit**](/windows/win32/Strmif/nf-strmif-imemallocator-decommit?branch=master) method to decommit the memory allocator.
 
 If you override this method, call the base-class method from your overriding method.
 
@@ -60,9 +65,9 @@ If you override this method, call the base-class method from your overriding met
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

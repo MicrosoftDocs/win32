@@ -4,17 +4,21 @@ description: Gets the user policy descriptor.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0CB8EA40-316D-4459-86BB-BBCB3A6B0137'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0CB8EA40-316D-4459-86BB-BBCB3A6B0137
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.getPolicyDescriptor method"]
+keywords:
+- UserPolicy.getPolicyDescriptor method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.getPolicyDescriptor method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.getPolicyDescriptor method
@@ -45,11 +49,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

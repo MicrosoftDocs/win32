@@ -1,8 +1,9 @@
 ---
 title: D3DX\_FLOAT\_to\_UINT function
 description: Converts a FLOAT value to UINT.
-ms.assetid: '05c5de72-8915-4541-a82d-242e46bfa883'
-keywords: ["D3DX_FLOAT_to_UINT function HLSL"]
+ms.assetid: 05c5de72-8915-4541-a82d-242e46bfa883
+keywords:
+- D3DX_FLOAT_to_UINT function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_FLOAT\_to\_UINT function
@@ -21,8 +27,8 @@ Converts a FLOAT value to UINT.
 
 ``` syntax
 UINT D3DX_FLOAT_to_UINT(
-   FLOAT _V,
-   FLOAT _Scale
+   FLOAT _V,
+   FLOAT _Scale
 );
 ```
 
@@ -68,9 +74,9 @@ The converted FLOAT value
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

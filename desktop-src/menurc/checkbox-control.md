@@ -1,14 +1,20 @@
 ---
 title: CHECKBOX control
 description: Defines a check box control.
-ms.assetid: '086f5dd3-267f-4ec6-be37-4e9402f7aede'
-keywords: ["CHECKBOX control Menus and Other Resources"]
+ms.assetid: 086f5dd3-267f-4ec6-be37-4e9402f7aede
+keywords:
+- CHECKBOX control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - CHECKBOX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CHECKBOX control

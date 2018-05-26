@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPartThumbnail interface is an abstraction for thumbnails in an XPS document.'
-ms.assetid: '2a651a3b-1a5b-4186-9cab-38d9055b8944'
+---
+Description: The IPartThumbnail interface is an abstraction for thumbnails in an XPS document.
+ms.assetid: 2a651a3b-1a5b-4186-9cab-38d9055b8944
 title: IPartThumbnail interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartThumbnail interface

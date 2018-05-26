@@ -1,14 +1,20 @@
 ---
 title: ExtensionPoint Complex Type
 description: Contains well-formed XML that extends the feature in which it is used.
-ms.assetid: 'a421ec5d-4a1c-4c82-90be-f2896fcd907e'
-keywords: ["ExtensionPoint complex type Windows Troubleshooting Toolkit"]
+ms.assetid: a421ec5d-4a1c-4c82-90be-f2896fcd907e
+keywords:
+- ExtensionPoint complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ExtensionPoint
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExtensionPoint Complex Type
@@ -38,8 +44,8 @@ The XML that you specify depends on the context in which it is used. For valid X
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -89,9 +95,9 @@ The XML that you specify depends on the context in which it is used. For valid X
 [**ExtensionPoint (Verifier) Element**](package-extensionpoint-verifier-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: CIM\_LogicalElement class
 description: CIM\_LogicalElement is a base class for all the components of a System that represent abstract system components, such as Files, Processes, or LogicalDevices.
-ms.assetid: '45253bef-63d9-48f8-8f3e-4a9a75191715'
-keywords: ["CIM_LogicalElement class", "CIM_LogicalElement class, described"]
+ms.assetid: 45253bef-63d9-48f8-8f3e-4a9a75191715
+keywords:
+- CIM_LogicalElement class
+- CIM_LogicalElement class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_LogicalElement class
@@ -39,20 +46,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.6.0"), AMENDMENT]
 class CIM_LogicalElement : CIM_ManagedSystemElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
 };
 ```
 
@@ -125,7 +132,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -189,7 +196,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -254,7 +261,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -392,7 +399,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -462,7 +469,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -503,7 +510,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -549,7 +556,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -577,8 +584,8 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -592,9 +599,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

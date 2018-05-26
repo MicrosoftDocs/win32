@@ -4,13 +4,15 @@ description: Represents a session from the initiator to the target.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65daf76a-43fe-45ea-ae05-edc745c9443a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 65daf76a-43fe-45ea-ae05-edc745c9443a
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_Session class iSCSI Software Target API", "WT_Session class iSCSI Software Target API , described"]
+keywords:
+- WT_Session class iSCSI Software Target API
+- WT_Session class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_Session class
@@ -51,25 +56,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class WT_Session
 {
-  uint16        TSIH;
-  uint64        ISID;
-  uint32        SessionType;
-  string        HostName;
-  string        InitiatorIQN;
+  uint16        TSIH;
+  uint64        ISID;
+  uint32        SessionType;
+  string        HostName;
+  string        InitiatorIQN;
   WT_Connection Connections[];
-  string        HostTargetIQN;
-  boolean       AllowInitialR2T;
-  boolean       AllowImmediateData;
-  uint32        MaxFirstDataBurstLength;
-  uint32        MaxDataBurstLength;
-  boolean       IsDataSequenceInOrder;
-  boolean       IsDataPduInOrder;
-  uint32        MaxConnections;
-  uint32        DefaultTime2Wait;
-  uint32        DefaultTime2Retain;
-  uint32        CurrentConnections;
-  uint32        MaxOutstandingR2T;
-  uint32        ErrorRecoveryLevel;
+  string        HostTargetIQN;
+  boolean       AllowInitialR2T;
+  boolean       AllowImmediateData;
+  uint32        MaxFirstDataBurstLength;
+  uint32        MaxDataBurstLength;
+  boolean       IsDataSequenceInOrder;
+  boolean       IsDataPduInOrder;
+  uint32        MaxConnections;
+  uint32        DefaultTime2Wait;
+  uint32        DefaultTime2Retain;
+  uint32        CurrentConnections;
+  uint32        MaxOutstandingR2T;
+  uint32        ErrorRecoveryLevel;
 };
 ```
 
@@ -343,16 +348,16 @@ Unique target identifier of the session.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

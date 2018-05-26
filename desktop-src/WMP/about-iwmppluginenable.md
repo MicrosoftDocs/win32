@@ -1,8 +1,23 @@
 ---
 title: About IWMPPluginEnable
 description: About IWMPPluginEnable
-ms.assetid: '7611a197-f404-4cfb-88b0-05348a41ac42'
-keywords: ["Windows Media Player plug-ins,interfaces", "plug-ins,interfaces", "digital signal processing plug-ins,interfaces", "DSP plug-ins,interfaces", "interfaces,DSP plug-ins", "Windows Media Player plug-ins,IWMPPluginEnable interface", "plug-ins,IWMPPluginEnable interface", "digital signal processing plug-ins,IWMPPluginEnable interface", "DSP plug-ins,IWMPPluginEnable interface", "IWMPPluginEnable interface"]
+ms.assetid: 7611a197-f404-4cfb-88b0-05348a41ac42
+keywords:
+- Windows Media Player plug-ins,interfaces
+- plug-ins,interfaces
+- digital signal processing plug-ins,interfaces
+- DSP plug-ins,interfaces
+- interfaces,DSP plug-ins
+- Windows Media Player plug-ins,IWMPPluginEnable interface
+- plug-ins,IWMPPluginEnable interface
+- digital signal processing plug-ins,IWMPPluginEnable interface
+- DSP plug-ins,IWMPPluginEnable interface
+- IWMPPluginEnable interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About IWMPPluginEnable

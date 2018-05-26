@@ -1,7 +1,12 @@
 ---
-Description: 'This event notifies the installer that it has to verify that the selected path is valid. If the path is not valid, then this event blocks further ControlEvents associated with the control.'
-ms.assetid: 'b7c1de6e-5738-4ecb-a033-9379d79dddb9'
+Description: This event notifies the installer that it has to verify that the selected path is valid. If the path is not valid, then this event blocks further ControlEvents associated with the control.
+ms.assetid: b7c1de6e-5738-4ecb-a033-9379d79dddb9
 title: CheckTargetPath ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckTargetPath ControlEvent

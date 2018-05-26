@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the ink collector receives a packet.'
-ms.assetid: '7d120198-c016-4452-b8a8-22c4ad87d526'
-title: 'InkPicture.NewPackets event'
+Description: Occurs when the ink collector receives a packet.
+ms.assetid: 7d120198-c016-4452-b8a8-22c4ad87d526
+title: InkPicture.NewPackets event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.NewPackets event
@@ -13,10 +18,10 @@ Occurs when the ink collector receives a packet.
 
 ```C++
 void NewPackets(
-  [in]      IInkCursor     *Cursor,
-  [in]      IInkStrokeDisp *Stroke,
-  [in]      long           PacketCount,
-  [in, out] VARIANT        *PacketData
+  [in]      IInkCursor     *Cursor,
+  [in]      IInkStrokeDisp *Stroke,
+  [in]      long           PacketCount,
+  [in, out] VARIANT        *PacketData
 );
 ```
 
@@ -29,21 +34,21 @@ void NewPackets(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor**](iinkcursor.md) object that generated the [**NewInAirPackets**](inkpicture-newinairpackets.md) event.
+The [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the [**NewInAirPackets**](inkpicture-newinairpackets.md) event.
 
 </dd> <dt>
 
 *Stroke* \[in\]
 </dt> <dd>
 
-The [**IInkStrokeDisp**](iinkstrokedisp.md) object.
+The [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object.
 
 </dd> <dt>
 
 *PacketCount* \[in\]
 </dt> <dd>
 
-The number of packets received for a [**IInkStrokeDisp**](iinkstrokedisp.md) object.
+The number of packets received for a [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object.
 
 </dd> <dt>
 
@@ -68,12 +73,12 @@ This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEv
 
 This event should be used carefully as it could have an adverse effect on ink performance if too much code is executed in the event handlers.
 
-To set which properties are contained in this array, use the [**DesiredPacketDescription**](inkcollector-desiredpacketdescription.md) property of the ink collector object. The array that the *PacketData* parameter returns contains the data for those properties.
+To set which properties are contained in this array, use the [**DesiredPacketDescription**](/windows/win32/msinkaut/?branch=master) property of the ink collector object. The array that the *PacketData* parameter returns contains the data for those properties.
 
 > [!Note]  
 > Although you can modify the packet data, these modifications are not persisted or used.
 
- 
+ 
 
 ## Requirements
 
@@ -81,7 +86,7 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -98,15 +103,15 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 [**NewInAirPackets Event**](inkpicture-newinairpackets.md)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> <dt>
 
-[**IInkStrokeDisp Interface**](iinkstrokedisp.md)
+[**IInkStrokeDisp Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

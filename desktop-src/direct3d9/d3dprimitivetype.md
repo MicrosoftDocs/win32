@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the primitives supported by Direct3D.'
-ms.assetid: '89e697f9-02b9-4ae1-9e86-6178da0cb008'
+---
+Description: Defines the primitives supported by Direct3D.
+ms.assetid: 89e697f9-02b9-4ae1-9e86-6178da0cb008
 title: D3DPRIMITIVETYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPRIMITIVETYPE enumeration
@@ -101,16 +106,16 @@ Using [Triangle Strips](triangle-strips.md) or [Triangle Fans (Direct3D 9)](tria
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitive**](idirect3ddevice9--drawindexedprimitive.md)
+[**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](idirect3ddevice9--drawindexedprimitiveup.md)
+[**IDirect3DDevice9::DrawIndexedPrimitiveUP**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitiveup?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md)
+[**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::DrawPrimitiveUP**](idirect3ddevice9--drawprimitiveup.md)
+[**IDirect3DDevice9::DrawPrimitiveUP**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitiveup?branch=master)
 </dt> </dl>
 
  

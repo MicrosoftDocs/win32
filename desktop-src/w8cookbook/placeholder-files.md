@@ -1,7 +1,12 @@
 ---
 title: Placeholder files
 description: Placeholder files
-ms.assetid: 'E14655DA-CEA0-4106-B882-C9E9116FC234'
+ms.assetid: E14655DA-CEA0-4106-B882-C9E9116FC234
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Placeholder files

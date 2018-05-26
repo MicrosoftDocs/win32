@@ -1,14 +1,20 @@
 ---
 title: VIEW.minWidth
 description: The minWidth attribute specifies or retrieves the minimum width in pixels of the VIEW when resizing.
-ms.assetid: '7372983e-e210-4f1f-9bf2-802a7426cdfa'
-keywords: ["VIEW.minWidth Windows Media Player"]
+ms.assetid: 7372983e-e210-4f1f-9bf2-802a7426cdfa
+keywords:
+- VIEW.minWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.minWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.minWidth
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) with a value of zero or gre
 [**VIEW.maxWidth**](view-maxwidth.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

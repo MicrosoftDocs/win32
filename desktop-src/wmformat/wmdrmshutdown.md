@@ -1,8 +1,9 @@
 ---
 title: WMDRMShutdown function
 description: The WMDRMShutdown function releases resources used by the Windows Media DRM Client Extended APIs.
-ms.assetid: 'fa99a07a-2f07-464b-b7a2-e8f3110389b5'
-keywords: ["WMDRMShutdown function windows Media Format"]
+ms.assetid: fa99a07a-2f07-464b-b7a2-e8f3110389b5
+keywords:
+- WMDRMShutdown function windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMShutdown function
@@ -42,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +73,9 @@ To avoid memory leaks, you must call this function for every call of the [**WMDR
 [**Functions**](drm-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

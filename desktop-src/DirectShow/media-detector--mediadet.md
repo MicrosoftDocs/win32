@@ -1,7 +1,12 @@
 ---
-Description: 'Media Detector (MediaDet)'
-ms.assetid: '5cdbb6ca-d2c3-4123-b545-198863fed25f'
-title: 'Media Detector (MediaDet)'
+Description: Media Detector (MediaDet)
+ms.assetid: 5cdbb6ca-d2c3-4123-b545-198863fed25f
+title: Media Detector (MediaDet)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Detector (MediaDet)

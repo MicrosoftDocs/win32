@@ -1,13 +1,16 @@
 ---
-Description: 'Serves as a base class for all intrinsic events that relate to an instance.'
+Description: Serves as a base class for all intrinsic events that relate to an instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f6d2b6e5-0dca-4cb5-95a5-33b45cd76807'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f6d2b6e5-0dca-4cb5-95a5-33b45cd76807
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_InstanceOperationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_InstanceOperationEvent class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __InstanceOperationEvent : __Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   object TargetInstance;
   uint64 TIME_CREATED;
 };
@@ -124,8 +127,8 @@ The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -146,9 +149,9 @@ The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-
 [Writing to a Log File Based on an Event](writing-to-a-log-file-based-on-an-event.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

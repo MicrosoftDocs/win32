@@ -1,8 +1,10 @@
 ---
 title: VMRCClientControl interface
 description: VMRCClientControl interface
-ms.assetid: '243d3fa2-8a7d-42d0-8c8a-7ffd28f4aec2'
-keywords: ["VMRCClientControl interface Virtual Server", "VMRCClientControl interface Virtual Server , described"]
+ms.assetid: 243d3fa2-8a7d-42d0-8c8a-7ffd28f4aec2
+keywords:
+- VMRCClientControl interface Virtual Server
+- VMRCClientControl interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMRCClientControl interface
@@ -41,7 +48,7 @@ The **VMRCClientControl** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -77,7 +84,7 @@ The **VMRCClientControl** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -90,9 +97,9 @@ The **VMRCClientControl** interface has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ComputerSystem class
 description: Represents a physical computer system or virtual computer system (VM).
-ms.assetid: '8fc9ae05-1e75-4f9f-a82e-d82ebd06678d'
-keywords: ["Msvm_ComputerSystem class Hyper-V", "Msvm_ComputerSystem class Hyper-V , described"]
+ms.assetid: 8fc9ae05-1e75-4f9f-a82e-d82ebd06678d
+keywords:
+- Msvm_ComputerSystem class Hyper-V
+- Msvm_ComputerSystem class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ComputerSystem class
@@ -57,35 +64,35 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ComputerSystem : CIM_ComputerSystem
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState = 0;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState = 0;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState;
   datetime TimeOfLastStateChange;
-  string   Name = "GUID";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   IdentifyingDescriptions[];
-  string   OtherIdentifyingInfo[];
-  uint16   Dedicated[] = 0;
-  string   OtherDedicatedDescriptions[];
-  uint16   ResetCapability = 1;
-  uint16   PowerManagementCapabilities[];
-  uint16   EnabledDefault;
-  string   CreationClassName;
-  string   Roles[];
-  string   NameFormat;
-  uint64   OnTimeInMilliseconds;
+  string   Name = "GUID";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   IdentifyingDescriptions[];
+  string   OtherIdentifyingInfo[];
+  uint16   Dedicated[] = 0;
+  string   OtherDedicatedDescriptions[];
+  uint16   ResetCapability = 1;
+  uint16   PowerManagementCapabilities[];
+  uint16   EnabledDefault;
+  string   CreationClassName;
+  string   Roles[];
+  string   NameFormat;
+  uint64   OnTimeInMilliseconds;
   datetime TimeOfLastConfigurationChange;
-  uint32   ProcessID;
-  uint16   AssignedNumaNodeList[];
+  uint32   ProcessID;
+  uint16   AssignedNumaNodeList[];
 };
 ```
 
@@ -109,7 +116,7 @@ The **Msvm\_ComputerSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -550,9 +557,9 @@ The VM is functional and operating normally.
 
 The VM is only partially functional. This indicates that the storage containing the configuration is not accessible. A VM in this state may only be turned off or deleted.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This value is not supported before Windows Server 2008 R2.
+This value is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -565,9 +572,9 @@ This value is not supported before Windows Server 2008 R2.
 
 The VM is functional but may fail in the future. This indicates that the storage containing the VM's virtual hard disks is low on free space. The VM will be paused if more disk space is not made available.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This value is not supported before Windows Server 2008 R2.
+This value is not supported before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -580,7 +587,7 @@ This value is not supported before Windows Server 2008 R2.
 
 This value is not supported. If the VM is stopped, the **EnabledState** property will have a value of 3 (Disabled).
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
 This value is supported and indicates that the virtual machine is stopped.
 
@@ -606,7 +613,7 @@ The VM is processing a request.
 
 This value is not supported. If the VM is suspended or paused, the **EnabledState** property will have a value of 32769 (Suspended) or 32768 (Paused).
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
 This value is supported and indicates that the VM is suspended or paused.
 
@@ -614,9 +621,9 @@ This value is supported and indicates that the VM is suspended or paused.
 
 The value at index one (1) is optional and contains secondary status information. A client should use the primary status from index zero (0) to determine whether a new request can be issued to the VM. If **OperationalStatus**\[0\] is 2 (OK), then the operation indicated by **OperationalStatus**\[1\] can be interrupted.
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This value at index one (1) is not supported before Windows Server 2008 R2.
+This value at index one (1) is not supported before Windows Server 2008 R2.
 
 The values at **OperationalStatus**\[1\] is one of the following values.
 
@@ -634,7 +641,7 @@ The values at **OperationalStatus**\[1\] is one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -761,9 +768,9 @@ Qualifiers: [**ModelCorrespondence**](https://msdn.microsoft.com/library/aa39365
 
 The last requested or desired state for the VM as passed to the [**RequestStateChange**](requeststatechange-msvm-computersystem.md) method, or 12 (Not Applicable) if no state change is in progress. The actual state of the element is represented by **EnabledState**. This property is provided to compare the last requested and current enabled or disabled states. This property is inherited from [**CIM\_EnabledLogicalElement**](https://msdn.microsoft.com/library/mt446063).
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-This property is not supported before Windows Server 2008 R2 and is always set to 12 (Not Applicable).
+This property is not supported before Windows Server 2008 R2 and is always set to 12 (Not Applicable).
 
 </dd> <dt>
 
@@ -869,13 +876,13 @@ The date or time when the enabled state of the element last changed. This proper
 
 ## Remarks
 
-The following illustration shows the **EnabledState** values for Windows Server 2008 R2.
+The following illustration shows the **EnabledState** values for Windows Server 2008 R2.
 
 ![state diagram for enabledstate values for windows server 2008 r2](images/msvm-computersystem-enabledstate-win2008r2.png)
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-The following illustration shows the **EnabledState** values for Windows Server 2008.
+The following illustration shows the **EnabledState** values for Windows Server 2008.
 
 ![state diagram for enabledstate values for windows server 2008](images/msvm-computersystem-enabledstate-win2008.png)
 
@@ -894,9 +901,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -921,9 +928,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Page element
 description: A description of a page.
-ms.assetid: '7C501030-61B9-416B-AF21-0A61DF8F4355'
-keywords: ["Page element Access Execution Engine"]
+ms.assetid: 7C501030-61B9-416B-AF21-0A61DF8F4355
+keywords:
+- Page element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Page
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Page element
@@ -72,9 +78,9 @@ DescriptionGroupsTestCaseTable
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

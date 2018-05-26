@@ -4,17 +4,21 @@ description: Controls how many Cluster Service heartbeats can be missed across s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ED905CF-374A-4D00-9CCB-EA480A73C82A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2ED905CF-374A-4D00-9CCB-EA480A73C82A
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CrossSiteThreshold Failover Cluster"]
+keywords:
+- CrossSiteThreshold Failover Cluster
 topic_type:
 - apiref
 api_name:
 - CrossSiteThreshold
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CrossSiteThreshold
@@ -27,14 +31,14 @@ Controls how many Cluster Service heartbeats can be missed across sites before i
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | **CROSS\_SITE\_THRESHOLD\_MIN**                      |
 | Maximum<br/>   | **CROSS\_SITE\_THRESHOLD\_MAX**                      |
 | Default<br/>   | **CROSS\_SITE\_THRESHOLD\_DEFAULT**                  |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_CROSS\_SITE\_THRESHOLD**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_CROSS\_SITE\_THRESHOLD**.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

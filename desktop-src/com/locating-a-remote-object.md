@@ -1,7 +1,12 @@
 ---
 title: Locating a Remote Object
 description: Locating a Remote Object
-ms.assetid: 'b329de53-646b-42a2-afa3-06473c3483d6'
+ms.assetid: b329de53-646b-42a2-afa3-06473c3483d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locating a Remote Object
@@ -10,10 +15,10 @@ With the advent of COM for distributed systems, COM uses the basic model for obj
 
 COM has added registry keys that permit a server to register the name of the machine on which it resides or the machine where an existing storage is located. Therefore, client applications need know only the CLSID of the server.
 
-However, for cases where it is desired, COM has replaced a previously reserved parameter of [**CoGetClassObject**](cogetclassobject.md) with a [**COSERVERINFO**](coserverinfo.md) structure, which allows a client to specify the location of a server. Another important value in the **CoGetClassObject** function is the [**CLSCTX**](clsctx.md) enumeration, which specifies whether the expected object is to be run in-process, out-of-process local, or out-of-process remote. Taken together, these two values and the values in the registry determine how and where the object is to be run.
+However, for cases where it is desired, COM has replaced a previously reserved parameter of [**CoGetClassObject**](/windows/win32/combaseapi/nf-combaseapi-cogetclassobject?branch=master) with a [**COSERVERINFO**](/windows/win32/objidlbase/ns-objidl-_coserverinfo?branch=master) structure, which allows a client to specify the location of a server. Another important value in the **CoGetClassObject** function is the [**CLSCTX**](/windows/win32/WTypes/ne-wtypesbase-tagclsctx?branch=master) enumeration, which specifies whether the expected object is to be run in-process, out-of-process local, or out-of-process remote. Taken together, these two values and the values in the registry determine how and where the object is to be run.
 
 > [!Note]  
-> Instance creation calls, when they specify a server location, can override a registry setting. The algorithm COM uses for doing this is described in the reference for the [**CLSCTX**](clsctx.md) enumeration.
+> Instance creation calls, when they specify a server location, can override a registry setting. The algorithm COM uses for doing this is described in the reference for the [**CLSCTX**](/windows/win32/WTypes/ne-wtypesbase-tagclsctx?branch=master) enumeration.
 
  
 

@@ -1,14 +1,21 @@
 ---
 title: IWMDRMNetTransmitter interface
 description: The IWMDRMNetTransmitter interface provides methods needed to use Windows Media DRM for Network Devices as a transmitter.To obtain an instance of this interface, call IWMDRMProvider CreateObject. Pass IID\_IWMDRMNetTransmitter as the riid parameter.
-ms.assetid: 'e93db52a-8829-4d16-b839-824e34b3e582'
-keywords: ["IWMDRMNetTransmitter interface windows Media Format", "IWMDRMNetTransmitter interface windows Media Format , described"]
+ms.assetid: e93db52a-8829-4d16-b839-824e34b3e582
+keywords:
+- IWMDRMNetTransmitter interface windows Media Format
+- IWMDRMNetTransmitter interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMNetTransmitter
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetTransmitter interface
@@ -37,7 +44,7 @@ The **IWMDRMNetTransmitter** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -49,9 +56,9 @@ The **IWMDRMNetTransmitter** interface has these methods.
 [**IWMDRMNetReceiver Interface**](iwmdrmnetreceiver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

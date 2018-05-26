@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '0fe07c66-3d9c-4368-8fbd-23cb486757cc'
-title: 'System.Media.UniqueFileIdentifier'
+Description: .
+ms.assetid: 0fe07c66-3d9c-4368-8fbd-23cb486757cc
+title: System.Media.UniqueFileIdentifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.UniqueFileIdentifier

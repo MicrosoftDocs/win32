@@ -4,11 +4,15 @@ description: Active Directory Domain Services use access control to grant or den
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd5d53354-fa97-4e46-9632-20ac49f7db5a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d5d53354-fa97-4e46-9632-20ac49f7db5a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Security Effects in Active Directory Domain Services Active Directory"]
+keywords:
+- Security Effects in Active Directory Domain Services Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How Security Affects Operations in Active Directory Domain Services

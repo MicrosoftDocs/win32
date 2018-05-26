@@ -1,8 +1,24 @@
 ---
 title: Porting MSINGLE Mode Code
 description: OpenGL has no equivalent for MSINGLE, single-matrix mode.
-ms.assetid: '7de933b8-150c-432d-89ee-5f5799ad8443'
-keywords: ["IRIS GL porting,MSINGLE mode", "porting from IRIS GL,MSINGLE mode", "porting to OpenGL from IRIS GL,MSINGLE mode", "OpenGL porting from IRIS GL,MSINGLE mode", "MSINGLE mode", "IRIS GL porting,single-matrix mode", "porting from IRIS GL,single-matrix mode", "porting to OpenGL from IRIS GL,single-matrix mode", "OpenGL porting from IRIS GL,single-matrix mode", "single-matrix mode", "double-matrix mode"]
+ms.assetid: 7de933b8-150c-432d-89ee-5f5799ad8443
+keywords:
+- IRIS GL porting,MSINGLE mode
+- porting from IRIS GL,MSINGLE mode
+- porting to OpenGL from IRIS GL,MSINGLE mode
+- OpenGL porting from IRIS GL,MSINGLE mode
+- MSINGLE mode
+- IRIS GL porting,single-matrix mode
+- porting from IRIS GL,single-matrix mode
+- porting to OpenGL from IRIS GL,single-matrix mode
+- OpenGL porting from IRIS GL,single-matrix mode
+- single-matrix mode
+- double-matrix mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting MSINGLE Mode Code

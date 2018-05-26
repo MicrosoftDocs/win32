@@ -4,11 +4,13 @@ description: Creates a new AutoQuota on the server with the provided configurati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3941d07c-67e3-4763-8113-31fc156c9bd0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 3941d07c-67e3-4763-8113-31fc156c9bd0
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMAutoQuota class File Server Resource Manager", "MSFT_FSRMAutoQuota class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMAutoQuota class File Server Resource Manager
+- MSFT_FSRMAutoQuota class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMAutoQuota class
@@ -39,13 +44,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMAutoQuota
 {
-  string                  Path;
-  uint64                  Size;
-  boolean                 SoftLimit;
-  boolean                 Disabled;
-  string                  Template;
-  boolean                 UpdateDerived;
-  boolean                 UpdateDerivedMatching;
+  string                  Path;
+  uint64                  Size;
+  boolean                 SoftLimit;
+  boolean                 Disabled;
+  string                  Template;
+  boolean                 UpdateDerived;
+  boolean                 UpdateDerivedMatching;
   MSFT_FSRMQuotaThreshold Threshold[];
 };
 ```
@@ -181,7 +186,7 @@ Note that the comparison is made against the template as it exists in the databa
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -195,12 +200,12 @@ Note that the comparison is made against the template as it exists in the databa
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> <dt>
 
-[**IFsrmAutoApplyQuota**](ifsrmautoapplyquota.md)
+[**IFsrmAutoApplyQuota**](/windows/previous-versions/Fsrm/nn-fsrmquota-ifsrmautoapplyquota?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

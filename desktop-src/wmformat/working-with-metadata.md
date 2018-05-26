@@ -1,15 +1,24 @@
 ---
 title: Working with Metadata
 description: Working with Metadata
-ms.assetid: '15d835c2-e227-4e69-a8b2-9b1c6d671022'
-keywords: ["Windows Media Format SDK,metadata overview", "Advanced Systems Format (ASF),metadata overview", "ASF (Advanced Systems Format),metadata overview", "metadata,about"]
+ms.assetid: 15d835c2-e227-4e69-a8b2-9b1c6d671022
+keywords:
+- Windows Media Format SDK,metadata overview
+- Advanced Systems Format (ASF),metadata overview
+- ASF (Advanced Systems Format),metadata overview
+- metadata,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Metadata
 
 Metadata support is provided by the writer object, the reader and synchronous reader objects, and the metadata editor object. For general information about metadata, see [Metadata](metadata.md). For information about the features supporting metadata in the Windows Media Format SDK, see [Metadata Features](metadata-features.md).
 
-The interface for metadata editing is [**IWMHeaderInfo3**](iwmheaderinfo3.md), which you can obtain by calling the **QueryInterface** method of any interface in one of the objects listed above. **IWMHeaderInfo3** inherits the methods of [**IWMHeaderInfo**](iwmheaderinfo.md) and [**IWMHeaderInfo2**](iwmheaderinfo2.md). The methods of **IWMHeaderInfo3** that deal with metadata attributes represent a different approach to accessing metadata than that used by the methods of **IWMHeaderInfo**. You should always use the newer methods.
+The interface for metadata editing is [**IWMHeaderInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3?branch=master), which you can obtain by calling the **QueryInterface** method of any interface in one of the objects listed above. **IWMHeaderInfo3** inherits the methods of [**IWMHeaderInfo**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo?branch=master) and [**IWMHeaderInfo2**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2?branch=master). The methods of **IWMHeaderInfo3** that deal with metadata attributes represent a different approach to accessing metadata than that used by the methods of **IWMHeaderInfo**. You should always use the newer methods.
 
 Metadata in an ASF file is identified by an index and a stream number. File-level attributes are assigned a stream number of 0. In previous versions of the Windows Media Format SDK, attributes could be identified by name. However, because you can now duplicate attribute names within a stream, this is no longer possible. Instead, you can retrieve all the indexes matching a name. For more information, see [Retrieving Metadata Attributes](retrieving-metadata-attributes.md).
 

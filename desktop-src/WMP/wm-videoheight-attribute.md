@@ -1,14 +1,20 @@
 ---
 title: WM/VideoHeight Attribute
 description: The WM/VideoHeight attribute specifies the photo or video height in pixels.
-ms.assetid: '53212678-0dcd-49d8-98fe-15a7a2cfebd4'
-keywords: ["WM/VideoHeight Attribute Windows Media Player"]
+ms.assetid: 53212678-0dcd-49d8-98fe-15a7a2cfebd4
+keywords:
+- WM/VideoHeight Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/VideoHeight
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/VideoHeight Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

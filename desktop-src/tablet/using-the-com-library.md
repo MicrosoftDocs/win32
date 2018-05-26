@@ -1,14 +1,19 @@
 ---
-Description: 'Overview of the COM Library and notes on using Tablet PC Technology sections of the Windows Vista SDK.'
-ms.assetid: 'fa43fad9-804c-42d9-9717-6686d5f98ed8'
+Description: Overview of the COM Library and notes on using Tablet PC Technology sections of the Windows Vista SDK.
+ms.assetid: fa43fad9-804c-42d9-9717-6686d5f98ed8
 title: Using the COM Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the COM Library
 
 The Tablet PC managed library reference can now be found in the regular Windows Vista SDK Class Library reference section. It provides an object model for Microsoft Visual C++. The majority of the objects in the COM Library are identical to those found in the Tablet PC Managed API.
 
-However, the COM API contains some members in addition to those found in the Managed API because of differences between the standard Microsoft Win32 environment and the Microsoft .NET Frameworksoftware development kit (SDK) environment. For example, the InkRectangle and InkTransform objects are used in COM, but the FrameworkSDK provides native implementation for [**InkRectangle Class**](inkrectangle-class.md) and [**InkTransform Class**](inktransform-class.md) that eliminates the need for these objects in the Tablet PC platform Managed API.
+However, the COM API contains some members in addition to those found in the Managed API because of differences between the standard Microsoft Win32 environment and the Microsoft .NET Frameworksoftware development kit (SDK) environment. For example, the InkRectangle and InkTransform objects are used in COM, but the FrameworkSDK provides native implementation for [**InkRectangle Class**](/windows/win32/msinkaut/?branch=master) and [**InkTransform Class**](/windows/win32/msinkaut/?branch=master) that eliminates the need for these objects in the Tablet PC platform Managed API.
 
 > [!Note]  
 > The objects in the COM API and the ink controls are not designed for use in Active Server Pages (ASP).
@@ -21,7 +26,7 @@ If you pass in a **NULL** value as the index to any of the collection objects in
 
 The **\_NewEnum** property is marked restricted in the Interface Definition Language (IDL) definition for the collection interfaces.
 
-In C++, use a `For...` loop to iterate through a collection by first obtaining the collection's length. The example below shows how to iterate through the strokes of an [**InkDisp**](inkdisp-class.md) object, `pInk`.
+In C++, use a `For...` loop to iterate through a collection by first obtaining the collection's length. The example below shows how to iterate through the strokes of an [**InkDisp**](/windows/win32/msinkaut/?branch=master) object, `pInk`.
 
 
 ```C++
@@ -64,7 +69,7 @@ The Tablet PC environment is multithreaded. Refer to COM documentation for multi
 
 ## Support for Aggregation
 
-Aggregation has been tested for only the [InkEdit](inkedit-control-reference.md) control, the [InkPicture](inkpicture-control-reference.md) control, the [**InkDisp**](inkdisp-class.md) object, and the [**InkOverlay**](inkoverlay-class.md) object. Aggregation has not been tested for other controls and objects in the library.
+Aggregation has been tested for only the [InkEdit](inkedit-control-reference.md) control, the [InkPicture](inkpicture-control-reference.md) control, the [**InkDisp**](/windows/win32/msinkaut/?branch=master) object, and the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object. Aggregation has not been tested for other controls and objects in the library.
 
 ## C++
 
@@ -84,7 +89,7 @@ The SAFEARRAY structure is provided as a way to safely work with arrays in COM. 
 
 For more information on the SAFEARRAY data type, see [SafeArray Data Type](9ec8025b-4763-4526-ab45-390c5d8b3b1e).
 
-This C++ example creates an [**IInkStrokeDisp**](iinkstrokedisp.md) , `pInkStrokeDisp`, in an [**InkDisp**](inkdisp-class.md) object, `pInk`, from an array of point data.
+This C++ example creates an [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) , `pInkStrokeDisp`, in an [**InkDisp**](/windows/win32/msinkaut/?branch=master) object, `pInk`, from an array of point data.
 
 
 ```C++
@@ -141,7 +146,7 @@ The supported string format for COM is BSTR. A BSTR has a pointer to a zero-term
 
 For more information on BSTR, see [BSTR Data Type](1b2d7d2c-47af-4389-a6b6-b01b7e915228).
 
-This C++ sample shows how to set the factoid on an [**InkRecognizerContext**](inkrecognizercontext-class.md) using a BSTR.
+This C++ sample shows how to set the factoid on an [**InkRecognizerContext**](/windows/win32/msinkaut/?branch=master) using a BSTR.
 
 
 ```C++

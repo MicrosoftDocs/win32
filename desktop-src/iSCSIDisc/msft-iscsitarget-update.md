@@ -1,7 +1,12 @@
-﻿---
-Description: 'Refreshes the information about connected iSCSI targets.'
-ms.assetid: 'F8687BF8-84DF-4402-9668-2FC40CEC1F97'
-title: 'Update method of the MSFT\_iSCSITarget class'
+---
+Description: Refreshes the information about connected iSCSI targets.
+ms.assetid: F8687BF8-84DF-4402-9668-2FC40CEC1F97
+title: Update method of the MSFT\_iSCSITarget class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Update method of the MSFT\_iSCSITarget class

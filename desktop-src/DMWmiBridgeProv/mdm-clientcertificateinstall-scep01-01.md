@@ -1,8 +1,10 @@
 ---
 title: MDM\_ClientCertificateInstall\_SCEP01\_01 class
 description: The MDM\_ClientCertificateInstall\_SCEP01\_01 class enables access to the node for SCEP certificate installation, using unique IDs to differentiate different certificate install requests.
-ms.assetid: '273e6ef7-fd00-4049-bb8b-b9900b3d250b'
-keywords: ["MDM_ClientCertificateInstall_SCEP01_01 class", "MDM_ClientCertificateInstall_SCEP01_01 class, described"]
+ms.assetid: 273e6ef7-fd00-4049-bb8b-b9900b3d250b
+keywords:
+- MDM_ClientCertificateInstall_SCEP01_01 class
+- MDM_ClientCertificateInstall_SCEP01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_ClientCertificateInstall\_SCEP01\_01 class
@@ -140,7 +147,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -155,9 +162,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

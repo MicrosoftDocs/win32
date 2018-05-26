@@ -1,7 +1,12 @@
 ---
-Description: 'The UsingImageAllocator method indicates whether the current allocator is a CImageAllocator object.'
-ms.assetid: '842bbcbc-2cc8-4e9d-b6c0-e07f7e472ca1'
-title: 'CDrawImage.UsingImageAllocator method'
+Description: The UsingImageAllocator method indicates whether the current allocator is a CImageAllocator object.
+ms.assetid: 842bbcbc-2cc8-4e9d-b6c0-e07f7e472ca1
+title: CDrawImage.UsingImageAllocator method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.UsingImageAllocator method
@@ -46,9 +51,9 @@ Returns **TRUE** if the current allocator is a **CImageAllocator** object, or **
 [**CDrawImage::NotifyAllocator**](cdrawimage-notifyallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following data types are defined in the Volume Shadow Copy API:'
-ms.assetid: 'e64b36d6-4f10-42bd-9ad4-00aba90e9715'
+Description: The following data types are defined in the Volume Shadow Copy API
+ms.assetid: e64b36d6-4f10-42bd-9ad4-00aba90e9715
 title: Volume Shadow Copy API Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Shadow Copy API Data Types

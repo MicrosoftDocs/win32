@@ -4,11 +4,15 @@ description: Use the following procedure to install and distribute the files ass
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '91d19dc0-2c2b-4b55-adf5-8661ef3597db'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 91d19dc0-2c2b-4b55-adf5-8661ef3597db
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster-aware applications Failover Cluster ,creating setup applications, files Failover Cluster ,installing"]
+keywords:
+- cluster-aware applications Failover Cluster ,creating setup applications, files Failover Cluster ,installing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Installing Files
@@ -17,7 +21,7 @@ Use the following procedure to install and distribute the files associated with 
 
 **To install resource type files**
 
-1.  Call the [**GetNodeClusterState**](getnodeclusterstate.md) function to determine if setup is running in a clustered environment.
+1.  Call the [**GetNodeClusterState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_node_cluster_state?branch=master) function to determine if setup is running in a clustered environment.
 2.  If the [Cluster service](cluster-service.md) is installed but not running, give the user the option of starting the Cluster service before proceeding with the installation.
 3.  If the Cluster service is not installed, you can choose to install a non-cluster version of your resource or not, depending on your requirements.
 4.  For each type of resource supported by your [resource DLL](resource-dlls.md), install the necessary program files on one of the nodes. This includes binaries, COM and ActiveX components, and other files required for the [node](nodes.md) to run a local instance of the resource. Data files should be stored on a cluster disk.

@@ -1,8 +1,10 @@
 ---
 title: Win32\_Property class
 description: The Win32\_Property WMI class contains the property names and values for all defined properties in the installation. Properties with Null values are not present in the table.
-ms.assetid: 'f5ca9981-a32e-4a9c-9175-dcab3c395e95'
-keywords: ["Win32_Property class", "Win32_Property class, described"]
+ms.assetid: f5ca9981-a32e-4a9c-9175-dcab3c395e95
+keywords:
+- Win32_Property class
+- Win32_Property class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Property class
@@ -26,7 +33,7 @@ The **Win32\_Property** [WMI class](https://msdn.microsoft.com/library/aa393244)
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -151,8 +158,8 @@ The **Win32\_Property** class is derived from [**Win32\_MSIResource**](win32-msi
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -166,9 +173,9 @@ The **Win32\_Property** class is derived from [**Win32\_MSIResource**](win32-msi
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

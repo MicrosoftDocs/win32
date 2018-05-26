@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a normal vector for each texel in a texture object. This method is used to store vertex normal vectors from a mesh (or interpolated vertex normals if pixel-based precomputed radiance transfer (PRT) is being computed).'
-ms.assetid: '165a3ef6-c142-4988-b4fb-5aafd8ff11fe'
-title: 'ID3DXPRTEngine::SetPerTexelNormal method'
+---
+Description: Sets a normal vector for each texel in a texture object. This method is used to store vertex normal vectors from a mesh (or interpolated vertex normals if pixel-based precomputed radiance transfer (PRT) is being computed).
+ms.assetid: 165a3ef6-c142-4988-b4fb-5aafd8ff11fe
+title: ID3DXPRTEngineSetPerTexelNormal method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::SetPerTexelNormal method
@@ -26,9 +31,9 @@ HRESULT SetPerTexelNormal(
 *pNormalTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) texture object that serves as an object space normal map in which to store normal vectors. The texture must have the same dimensions as [**ID3DXPRTBuffer**](id3dxprtbuffer.md) and must be able to store signed texture formats.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) texture object that serves as an object space normal map in which to store normal vectors. The texture must have the same dimensions as [**ID3DXPRTBuffer**](id3dxprtbuffer.md) and must be able to store signed texture formats.
 
 </dd> </dl>
 

@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.focusItem
 description: The focusItem attribute specifies or retrieves the line that contains focus.
-ms.assetid: '0d568bc5-6770-4e04-b99f-f535b806f865'
-keywords: ["LISTBOX.focusItem Windows Media Player"]
+ms.assetid: 0d568bc5-6770-4e04-b99f-f535b806f865
+keywords:
+- LISTBOX.focusItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.focusItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.focusItem
@@ -44,9 +50,9 @@ The focus item and selected item could be different. An item can be selected thr
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

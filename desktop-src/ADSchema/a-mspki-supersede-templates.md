@@ -4,17 +4,22 @@ description: Specifies the names of the certificate templates that are supersede
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4e247932-1c50-4bfb-b723-52b7c36a8571'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4e247932-1c50-4bfb-b723-52b7c36a8571
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-Supersede-Templates attribute AD Schema", "msPKI-Supersede-Templates attribute AD Schema"]
+keywords:
+- ms-PKI-Supersede-Templates attribute AD Schema
+- msPKI-Supersede-Templates attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-Supersede-Templates
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-Supersede-Templates attribute
@@ -38,11 +43,11 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 
 
- 
+ 
 
- 
+ 
 
 
 

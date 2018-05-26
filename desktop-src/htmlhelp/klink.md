@@ -1,7 +1,12 @@
 ---
 title: KLink
 description: Creates Keyword links (KLinks) that jump to target HTML files that contain the specified keyword(s). The list of target topics appears on a pop-up menu or in a dialog box.
-ms.assetid: '60EBA705-DFD8-4af2-B2AB-4F07824F0E00'
+ms.assetid: 60EBA705-DFD8-4af2-B2AB-4F07824F0E00
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KLink

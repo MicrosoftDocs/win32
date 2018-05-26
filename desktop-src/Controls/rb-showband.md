@@ -1,8 +1,9 @@
 ---
 title: RB\_SHOWBAND message
 description: Shows or hides a given band in a rebar control.
-ms.assetid: '18097aca-e1b4-4359-9d08-4e62406f3f7f'
-keywords: ["RB_SHOWBAND message Windows Controls"]
+ms.assetid: 18097aca-e1b4-4359-9d08-4e62406f3f7f
+keywords:
+- RB_SHOWBAND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SHOWBAND message
@@ -45,15 +51,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

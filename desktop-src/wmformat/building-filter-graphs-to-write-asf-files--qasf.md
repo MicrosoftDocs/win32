@@ -1,8 +1,28 @@
 ---
 title: Building Filter Graphs to Write ASF Files (QASF)
 description: Building Filter Graphs to Write ASF Files (QASF)
-ms.assetid: '45583c97-4e59-4a6a-987b-5486e6f33990'
-keywords: ["Windows Media Format SDK,building filter graphs (QASF)", "Windows Media Format SDK,DirectShow", "Windows Media Format SDK,writing ASF files (QASF)", "Advanced Systems Format (ASF),building filter graphs (QASF)", "ASF (Advanced Systems Format),building filter graphs (QASF)", "Advanced Systems Format (ASF),writing (QASF)", "ASF (Advanced Systems Format),writing (QASF)", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "DirectShow,building filter graphs (QASF)", "DirectShow,writing ASF files (QASF)", "Windows Media Format SDK,QASF", "Advanced Systems Format (ASF),QASF", "ASF (Advanced Systems Format),QASF", "DirectShow,QASF"]
+ms.assetid: 45583c97-4e59-4a6a-987b-5486e6f33990
+keywords:
+- Windows Media Format SDK,building filter graphs (QASF)
+- Windows Media Format SDK,DirectShow
+- Windows Media Format SDK,writing ASF files (QASF)
+- Advanced Systems Format (ASF),building filter graphs (QASF)
+- ASF (Advanced Systems Format),building filter graphs (QASF)
+- Advanced Systems Format (ASF),writing (QASF)
+- ASF (Advanced Systems Format),writing (QASF)
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- DirectShow,building filter graphs (QASF)
+- DirectShow,writing ASF files (QASF)
+- Windows Media Format SDK,QASF
+- Advanced Systems Format (ASF),QASF
+- ASF (Advanced Systems Format),QASF
+- DirectShow,QASF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building Filter Graphs to Write ASF Files (QASF)

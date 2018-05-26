@@ -1,14 +1,19 @@
 ---
 title: Rendering Events
 description: To display an event, you must call the EvtRender function to render it in a displayable form.
-ms.assetid: 'fc763669-1fbc-4183-a4ff-577a7954d1ca'
+ms.assetid: fc763669-1fbc-4183-a4ff-577a7954d1ca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering Events
 
-To display an event, you must call the [**EvtRender**](evtrender.md) function to render it in a displayable form. You can render the event as an XML string or you can render one or more values from the event. An event can also contain messages strings (for example, the event's message string, the channel's message string, or the provider's message string). To get one of the message strings from the event, call the [**EvtFormatMessage**](evtformatmessage.md) function. For more details on getting a message string from the event, see [Formatting Event Messages](formatting-event-messages.md).
+To display an event, you must call the [**EvtRender**](/windows/win32/WinEvt/nf-winevt-evtrender?branch=master) function to render it in a displayable form. You can render the event as an XML string or you can render one or more values from the event. An event can also contain messages strings (for example, the event's message string, the channel's message string, or the provider's message string). To get one of the message strings from the event, call the [**EvtFormatMessage**](/windows/win32/WinEvt/nf-winevt-evtformatmessage?branch=master) function. For more details on getting a message string from the event, see [Formatting Event Messages](formatting-event-messages.md).
 
-To render the event as an XML string, call the [**EvtRender**](evtrender.md) function. However, if you want to render specific pieces of the event, you must first call the [**EvtCreateRenderContext**](evtcreaterendercontext.md) to specify the pieces of the event that you want to render. You can render specific values from the event, the values from the user data or event data section of the event, or the values from the system-related properties of the event. For details on the components of an event, see [Event Schema](eventschema-schema.md).
+To render the event as an XML string, call the [**EvtRender**](/windows/win32/WinEvt/nf-winevt-evtrender?branch=master) function. However, if you want to render specific pieces of the event, you must first call the [**EvtCreateRenderContext**](/windows/win32/WinEvt/nf-winevt-evtcreaterendercontext?branch=master) to specify the pieces of the event that you want to render. You can render specific values from the event, the values from the user data or event data section of the event, or the values from the system-related properties of the event. For details on the components of an event, see [Event Schema](eventschema-schema.md).
 
 The following example shows how to render an event as an XML string.
 

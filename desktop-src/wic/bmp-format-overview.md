@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about the native BMP codec available through the Windows Imaging Component (WIC).'
-ms.assetid: '85AC5A30-A915-439E-A10F-B2833DDA995C'
+Description: This topic provides information about the native BMP codec available through the Windows Imaging Component (WIC).
+ms.assetid: 85AC5A30-A915-439E-A10F-B2833DDA995C
 title: BMP Format Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BMP Format Overview

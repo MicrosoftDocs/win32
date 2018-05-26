@@ -1,8 +1,9 @@
 ---
 title: CB\_SHOWDROPDOWN message
 description: An application sends a CB\_SHOWDROPDOWN message to show or hide the list box of a combo box that has the CBS\_DROPDOWN or CBS\_DROPDOWNLIST style.
-ms.assetid: '32b995d7-eed6-4173-8525-0d356dea39b3'
-keywords: ["CB_SHOWDROPDOWN message Windows Controls"]
+ms.assetid: 32b995d7-eed6-4173-8525-0d356dea39b3
+keywords:
+- CB_SHOWDROPDOWN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SHOWDROPDOWN message
@@ -49,8 +55,8 @@ This message has no effect on a combo box created with the [**CBS\_SIMPLE**](com
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ This message has no effect on a combo box created with the [**CBS\_SIMPLE**](com
 [**CB\_GETDROPPEDSTATE**](cb-getdroppedstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: INapClientManagement GetSystemIsolationInfo method
 description: Retrieves information about the isolation state of the NapClient.
-ms.assetid: 'e1f69e66-71ca-402e-9c94-8af159d00b21'
-keywords: ["GetSystemIsolationInfo method NAP", "GetSystemIsolationInfo method NAP , INapClientManagement interface", "INapClientManagement interface NAP , GetSystemIsolationInfo method"]
+ms.assetid: e1f69e66-71ca-402e-9c94-8af159d00b21
+keywords:
+- GetSystemIsolationInfo method NAP
+- GetSystemIsolationInfo method NAP , INapClientManagement interface
+- INapClientManagement interface NAP , GetSystemIsolationInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapClientManagement::GetSystemIsolationInfo method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetSystemIsolationInfo** method retrieves information about the isolation state of the NapClient.
 
@@ -27,8 +35,8 @@ The **GetSystemIsolationInfo** method retrieves information about the isolation 
 
 ```C++
 HRESULT GetSystemIsolationInfo(
-  [out] IsolationInfo **isolationInfo,
-  [out] BOOL          *unknownConnections
+  [out] IsolationInfo **isolationInfo,
+  [out] BOOL          *unknownConnections
 ) const;
 ```
 
@@ -41,7 +49,7 @@ HRESULT GetSystemIsolationInfo(
 *isolationInfo* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**IsolationInfo**](isolationinfo-struct.md) structure that contains isolation state information.
+A pointer to a pointer to an [**IsolationInfo**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfo?branch=master) structure that contains isolation state information.
 
 </dd> <dt>
 
@@ -67,7 +75,7 @@ The method returns an HRESULT status code including but not limited to one of th
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,8 +87,8 @@ The isolation information that is retrieved does not reflect unknown states.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>NapManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>        |
@@ -94,9 +102,9 @@ The isolation information that is retrieved does not reflect unknown states.
 [**INapClientManagement**](inapclientmanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

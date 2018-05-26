@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacter Speak
 description: IAgentCharacter Speak
-ms.assetid: '3c4baf83-9e69-4048-bdaf-4ead8ea8e7cd'
+ms.assetid: 3c4baf83-9e69-4048-bdaf-4ead8ea8e7cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacter::Speak

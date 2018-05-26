@@ -1,7 +1,12 @@
 ---
 title: Vertical Text
 description: Starting with the Windows 8, DirectWrite has a number of new APIs that allow you to use vertical text in your apps.
-ms.assetid: 'F40A79AE-F7BF-4CAC-9480-1489CD212DA8'
+ms.assetid: F40A79AE-F7BF-4CAC-9480-1489CD212DA8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vertical Text
@@ -10,7 +15,7 @@ Starting with the Windows 8, [DirectWrite](direct-write-portal.md) has a number
 
 ## Drawing vertical text
 
-You can draw vertical text with Direct2D by using the [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) methods. To draw the text vertically, pass [**DWRITE\_READING\_DIRECTION\_TOP\_TO\_BOTTOM**](dwrite-reading-direction.md) to the [**IDWriteTextFormat::SetReadingDirection**](idwritetextformat-setreadingdirection.md) method and [**DWRITE\_FLOW\_DIRECTION\_RIGHT\_TO\_LEFT**](dwrite-flow-direction.md) to the [**IDWriteTextFormatSetFlowDirection**](idwritetextformat-setflowdirection.md) method. Then you can create and draw a vertical [**IDWriteTextLayout**](idwritetextlayout.md) object.
+You can draw vertical text with Direct2D by using the [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) methods. To draw the text vertically, pass [**DWRITE\_READING\_DIRECTION\_TOP\_TO\_BOTTOM**](/windows/win32/dwrite/ne-dwrite-dwrite_reading_direction?branch=master) to the [**IDWriteTextFormat::SetReadingDirection**](/windows/win32/dwrite/?branch=master) method and [**DWRITE\_FLOW\_DIRECTION\_RIGHT\_TO\_LEFT**](/windows/win32/dwrite/ne-dwrite-dwrite_flow_direction?branch=master) to the [**IDWriteTextFormatSetFlowDirection**](/windows/win32/dwrite/?branch=master) method. Then you can create and draw a vertical [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) object.
 
 ## Analyzing character orientation
 
@@ -18,23 +23,23 @@ Every character has a preferred character orientation, or the direction that the
 
 ![an image of english and chinese text in horizontal and vertical layouts.](images/vertical-text.png)
 
-To determine the orientation of the text you have, you need to implement the [**IDWriteTextAnalysisSink1**](idwritetextanalysissink1.md) and [**IDWriteTextAnalysisSource1**](idwritetextanalysissource1.md) interfaces. The source and sink take in the glyph runs and let you check if they are oriented vertically or not.
+To determine the orientation of the text you have, you need to implement the [**IDWriteTextAnalysisSink1**](/windows/win32/dwrite_1/?branch=master) and [**IDWriteTextAnalysisSource1**](/windows/win32/dwrite_1/?branch=master) interfaces. The source and sink take in the glyph runs and let you check if they are oriented vertically or not.
 
-After you implement your source and sink, you call the [**AnalyzeVerticalGlyphOrientation**](idwritetextanalyzer1-analyzeverticalglyphorientation.md) method. In the example image, this function returns 3 runs: "English", "中国", and "English."
+After you implement your source and sink, you call the [**AnalyzeVerticalGlyphOrientation**](/windows/win32/dwrite_1/?branch=master) method. In the example image, this function returns 3 runs: "English", "中国", and "English."
 
 ## Going from characters to glyphs
 
-Now that you know the run contains vertical glyphs, you need to get access to those glyphs. In the example so far, there are 3 runs: one with vertical glyphs and two without. To transition from characters to glyphs, you call [**GetGlyphIndices**](idwritefontface-getglyphindices.md). This method returns the corresponding glyph indices for the characters in the example. Because the [**AnalyzeVerticalGlyphOrientation**](idwritetextanalyzer1-analyzeverticalglyphorientation.md) method returns a run with vertical glyphs, you need to call [**GetVerticalGlyphVariants**](idwritefontface1-getverticalglyphvariants.md), which returns the vertically oriented glyph IDs in place of the current glyph IDs.
+Now that you know the run contains vertical glyphs, you need to get access to those glyphs. In the example so far, there are 3 runs: one with vertical glyphs and two without. To transition from characters to glyphs, you call [**GetGlyphIndices**](/windows/win32/dwrite/?branch=master). This method returns the corresponding glyph indices for the characters in the example. Because the [**AnalyzeVerticalGlyphOrientation**](/windows/win32/dwrite_1/?branch=master) method returns a run with vertical glyphs, you need to call [**GetVerticalGlyphVariants**](/windows/win32/dwrite_1/?branch=master), which returns the vertically oriented glyph IDs in place of the current glyph IDs.
 
 ## Drawing text vertically
 
-Finally, you need to lay out and draw the text. Because you're drawing the text vertically, you need to get some more info so that the Latin text is drawn correctly. If you draw all of the text along the central baseline, the Latin text appears to float in the middle of the line. You need access to both the central and Roman baseline to align the text correctly. Use the [**IDWriteTextAnalyzer1::GetBaseline**](idwritetextanalyzer1-getbaseline.md) method to get the numerical values of the baselines you specify. You can subtract the Roman baseline from the central baseline to get the offset between the two.
+Finally, you need to lay out and draw the text. Because you're drawing the text vertically, you need to get some more info so that the Latin text is drawn correctly. If you draw all of the text along the central baseline, the Latin text appears to float in the middle of the line. You need access to both the central and Roman baseline to align the text correctly. Use the [**IDWriteTextAnalyzer1::GetBaseline**](/windows/win32/dwrite_1/?branch=master) method to get the numerical values of the baselines you specify. You can subtract the Roman baseline from the central baseline to get the offset between the two.
 
-With all this info, you can draw the text on the screen. First, call the [**GetGlyphOrientationTransform**](idwritetextanalyzer1-getglyphorientationtransform.md) method with the results from the [**IDWriteTextAnalysisSink1**](idwritetextanalysissink1.md) and [**IDWriteTextAnalysisSource1**](idwritetextanalysissource1.md) objects.
+With all this info, you can draw the text on the screen. First, call the [**GetGlyphOrientationTransform**](/windows/win32/dwrite_1/?branch=master) method with the results from the [**IDWriteTextAnalysisSink1**](/windows/win32/dwrite_1/?branch=master) and [**IDWriteTextAnalysisSource1**](/windows/win32/dwrite_1/?branch=master) objects.
 
 If you’re using [Direct2D](rendering-by-using-direct2d.md) you also need to set the world transform on the Direct2D render target for vertical rendering.
 
-Finally, call [**DrawGlyphRun**](idwritebitmaprendertarget-drawglyphrun.md) three times, once on each block of text. On the two blocks of text that are in English, you need to apply the offset that we calculated between the Roman and central baselines.
+Finally, call [**DrawGlyphRun**](/windows/win32/dwrite/?branch=master) three times, once on each block of text. On the two blocks of text that are in English, you need to apply the offset that we calculated between the Roman and central baselines.
 
 Now, the text in your app will be drawn vertically, with the correct glyph orientation.
 

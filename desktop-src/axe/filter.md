@@ -1,14 +1,20 @@
 ---
 title: Filter element
 description: Describes a filter for the test cases to appear in the table.
-ms.assetid: '22F3DB5B-670F-4A6D-92C3-3744C642A9B0'
-keywords: ["Filter element Access Execution Engine"]
+ms.assetid: 22F3DB5B-670F-4A6D-92C3-3744C642A9B0
+keywords:
+- Filter element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Filter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

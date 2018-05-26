@@ -1,7 +1,12 @@
 ---
-Description: 'Fonts are used to draw text on video displays and other output devices. The font and text functions enable you to install, select, and query different fonts.'
-ms.assetid: '9944baa9-8e50-40b9-9650-78b0b1d7643a'
+Description: Fonts are used to draw text on video displays and other output devices. The font and text functions enable you to install, select, and query different fonts.
+ms.assetid: 9944baa9-8e50-40b9-9650-78b0b1d7643a
 title: Fonts and Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fonts and Text

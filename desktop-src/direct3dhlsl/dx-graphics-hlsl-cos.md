@@ -1,14 +1,20 @@
 ---
 title: cos
 description: Returns the cosine of the specified value.
-ms.assetid: '96c15702-98be-45bc-9abc-60ccc3c217b6'
-keywords: ["cos HLSL"]
+ms.assetid: 96c15702-98be-45bc-9abc-60ccc3c217b6
+keywords:
+- cos HLSL
 topic_type:
 - apiref
 api_name:
 - cos
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cos
@@ -22,7 +28,7 @@ Returns the cosine of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the cosine of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The cosine of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

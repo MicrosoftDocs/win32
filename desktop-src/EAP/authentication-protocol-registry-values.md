@@ -1,8 +1,27 @@
 ---
 title: Authentication Protocol Registry Values
 description: The setup software for the EAP DLL may create the following registry values below eaptypeid .
-ms.assetid: 'a5f6674d-77c8-4b88-af0e-bb62f84d8a2b'
-keywords: ["RAS_EAP_VALUENAME_PATH", "RAS_EAP_VALUENAME_FRIENDLY_NAME", "RAS_EAP_VALUENAME_CONFIGUI", "RAS_EAP_VALUENAME_DEFAULT_DATA", "RAS_EAP_VALUENAME_REQUIRE_CONFIGUI", "RAS_EAP_VALUENAME_CONFIG_CLSID", "RAS_EAP_VALUENAME_IDENTITY", "RAS_EAP_VALUENAME_INTERACTIVEUI", "RAS_EAP_VALUENAME_INVOKE_NAMEDLG", "RAS_EAP_VALUENAME_INVOKE_PWDDLG", "RAS_EAP_VALUENAME_ENCRYPTION", "RAS_EAP_VALUENAME_STANDALONE_SUPPORTED", "RAS_EAP_VALUENAME_ROLES_SUPPORTED", "RAS_EAP_VALUENAME_PER_POLICY_CONFIG"]
+ms.assetid: a5f6674d-77c8-4b88-af0e-bb62f84d8a2b
+keywords:
+- RAS_EAP_VALUENAME_PATH
+- RAS_EAP_VALUENAME_FRIENDLY_NAME
+- RAS_EAP_VALUENAME_CONFIGUI
+- RAS_EAP_VALUENAME_DEFAULT_DATA
+- RAS_EAP_VALUENAME_REQUIRE_CONFIGUI
+- RAS_EAP_VALUENAME_CONFIG_CLSID
+- RAS_EAP_VALUENAME_IDENTITY
+- RAS_EAP_VALUENAME_INTERACTIVEUI
+- RAS_EAP_VALUENAME_INVOKE_NAMEDLG
+- RAS_EAP_VALUENAME_INVOKE_PWDDLG
+- RAS_EAP_VALUENAME_ENCRYPTION
+- RAS_EAP_VALUENAME_STANDALONE_SUPPORTED
+- RAS_EAP_VALUENAME_ROLES_SUPPORTED
+- RAS_EAP_VALUENAME_PER_POLICY_CONFIG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Protocol Registry Values
@@ -148,7 +167,7 @@ The setup software for the EAP DLL may create the following registry values belo
 | Constant value | InvokeUsernameDialog                                                                                                                                                                                   |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type           | REG\_DWORD                                                                                                                                                                                             |
-| Description    | Specifies whether RAS should display the standard Windows NT/Windows 2000 user name dialog (value of 1) or invoke [**RasEapGetIdentity**](raseapgetidentity.md) (value of 0). The default value is 1. |
+| Description    | Specifies whether RAS should display the standard Windows NT/Windows 2000 user name dialog (value of 1) or invoke [**RasEapGetIdentity**](/windows/previous-versions/Raseapif/nf-raseapif-raseapgetidentity?branch=master) (value of 0). The default value is 1. |
 
 
 

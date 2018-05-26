@@ -1,7 +1,12 @@
 ---
-Description: 'The CompleteConnect method completes a connection to an input pin.'
-ms.assetid: '44c28c71-2c69-40ca-9bc4-c10394475a0f'
-title: 'CBaseOutputPin.CompleteConnect method'
+Description: The CompleteConnect method completes a connection to an input pin.
+ms.assetid: 44c28c71-2c69-40ca-9bc4-c10394475a0f
+title: CBaseOutputPin.CompleteConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.CompleteConnect method
@@ -13,7 +18,7 @@ The `CompleteConnect` method completes a connection to an input pin.
 
 ```C++
 virtual HRESULT CompleteConnect(
-   IPin *pReceivePin
+   IPin *pReceivePin
 );
 ```
 
@@ -56,9 +61,9 @@ This method overrides the [**CBasePin::CompleteConnect**](cbasepin-completeconne
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

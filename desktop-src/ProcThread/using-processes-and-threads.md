@@ -1,7 +1,12 @@
 ---
-Description: 'The following examples demonstrate the process, thread, and fiber functions.'
-ms.assetid: '472fc0ac-e840-433d-9f1a-510f202e723e'
+Description: The following examples demonstrate the process, thread, and fiber functions.
+ms.assetid: 472fc0ac-e840-433d-9f1a-510f202e723e
 title: Using Processes and Threads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Processes and Threads

@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer can optimize patching to reduce the time that is required to apply patches to installed applications.'
-ms.assetid: '2bb1c94a-55b6-4aee-b86d-ee9e1f8ed290'
+Description: Windows Installer can optimize patching to reduce the time that is required to apply patches to installed applications.
+ms.assetid: 2bb1c94a-55b6-4aee-b86d-ee9e1f8ed290
 title: Patch Optimization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch Optimization

@@ -1,8 +1,11 @@
 ---
 title: IMimeAddressTable GetSender method
 description: Gets the address properties for the sender.
-ms.assetid: '5ab741ac-4513-4a5f-a07f-31c9c62619fe'
-keywords: ["GetSender method Windows Mail (formerly Outlook Express)", "GetSender method Windows Mail (formerly Outlook Express) , IMimeAddressTable interface", "IMimeAddressTable interface Windows Mail (formerly Outlook Express) , GetSender method"]
+ms.assetid: 5ab741ac-4513-4a5f-a07f-31c9c62619fe
+keywords:
+- GetSender method Windows Mail (formerly Outlook Express)
+- GetSender method Windows Mail (formerly Outlook Express) , IMimeAddressTable interface
+- IMimeAddressTable interface Windows Mail (formerly Outlook Express) , GetSender method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeAddressTable::GetSender method
@@ -22,7 +30,7 @@ Gets the address properties for the sender.
 
 ```C++
 HRESULT GetSender(
-  [in, out] LPADDRESSPROPS pAddress
+  [in, out] LPADDRESSPROPS pAddress
 );
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,8 +81,8 @@ The client should initialize *pAddress*-&gt;**dwProps** before calling this meth
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -82,9 +90,9 @@ The client should initialize *pAddress*-&gt;**dwProps** before calling this meth
 
 
 
- 
+ 
 
- 
+ 
 
 
 

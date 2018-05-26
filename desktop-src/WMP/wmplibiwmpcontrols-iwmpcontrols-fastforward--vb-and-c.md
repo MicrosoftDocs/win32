@@ -1,8 +1,11 @@
 ---
 title: IWMPControls fastForward method
 description: The fastForward method starts fast play of the media item in the forward direction.
-ms.assetid: '44609d63-1d1a-489c-ac17-60b6d3ddc588'
-keywords: ["fastForward method Windows Media Player", "fastForward method Windows Media Player , IWMPControls interface", "IWMPControls interface Windows Media Player , fastForward method"]
+ms.assetid: 44609d63-1d1a-489c-ac17-60b6d3ddc588
+keywords:
+- fastForward method Windows Media Player
+- fastForward method Windows Media Player , IWMPControls interface
+- IWMPControls interface Windows Media Player , fastForward method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls::fastForward method
@@ -143,9 +151,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.rate (VB and C#)**](wmplibiwmpsettings-iwmpsettings-rate--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

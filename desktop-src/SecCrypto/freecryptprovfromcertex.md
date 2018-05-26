@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases the handle either to a cryptographic service provider (CSP) or to a Cryptography API: Next Generation (CNG) key.'
-ms.assetid: '76cbf8ae-c4ab-43d9-b06d-ea0b2a66368a'
+---
+Description: Releases the handle either to a cryptographic service provider (CSP) or to a Cryptography API Next Generation (CNG) key.
+ms.assetid: 76cbf8ae-c4ab-43d9-b06d-ea0b2a66368a
 title: FreeCryptProvFromCertEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeCryptProvFromCertEx function

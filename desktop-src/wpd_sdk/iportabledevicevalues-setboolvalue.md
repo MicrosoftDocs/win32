@@ -1,7 +1,12 @@
 ---
-Description: 'The SetBoolValue method adds a new Boolean value (type VT\_BOOL) or overwrites an existing one.'
-ms.assetid: 'add30665-78f7-4037-801e-af51a4ab2f60'
-title: 'IPortableDeviceValues::SetBoolValue method'
+Description: The SetBoolValue method adds a new Boolean value (type VT\_BOOL) or overwrites an existing one.
+ms.assetid: add30665-78f7-4037-801e-af51a4ab2f60
+title: IPortableDeviceValuesSetBoolValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetBoolValue method
@@ -13,8 +18,8 @@ The **SetBoolValue** method adds a new **Boolean** value (type VT\_BOOL) or over
 
 ```C++
 HRESULT SetBoolValue(
-  [in]       REFPROPERTYKEY key,
-  [in] const BOOL           Value
+  [in]       REFPROPERTYKEY key,
+  [in] const BOOL           Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key specified by the *key* parameter, it overw
 [**IPortableDeviceValues::GetBoolValue**](iportabledevicevalues-getboolvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

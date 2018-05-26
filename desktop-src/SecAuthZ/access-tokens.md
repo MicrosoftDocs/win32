@@ -1,7 +1,12 @@
 ---
-Description: 'An access token is an object that describes the security context of a process or thread.'
-ms.assetid: '350159c9-2399-427a-ba44-c897a9664299'
+Description: An access token is an object that describes the security context of a process or thread.
+ms.assetid: 350159c9-2399-427a-ba44-c897a9664299
 title: Access Tokens
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Tokens
@@ -25,7 +30,7 @@ The system uses an access token to identify the user when a thread interacts wit
 
 Every process has a [*primary token*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-primary-token-gly) that describes the [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly) of the user account associated with the process. By default, the system uses the primary token when a thread of the process interacts with a securable object. Moreover, a thread can impersonate a client account. Impersonation allows the thread to interact with securable objects using the client's security context. A thread that is impersonating a client has both a primary token and an [*impersonation token*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-impersonation-token-gly).
 
-Use the [**OpenProcessToken**](openprocesstoken.md) function to retrieve a handle to the primary token of a process. Use the [**OpenThreadToken**](openthreadtoken.md) function to retrieve a handle to the impersonation token of a thread. For more information, see [Impersonation](client-impersonation.md).
+Use the [**OpenProcessToken**](/windows/win32/Winbase/nf-ntifs-ntopenprocesstoken?branch=master) function to retrieve a handle to the primary token of a process. Use the [**OpenThreadToken**](/windows/win32/Winbase/nf-ntifs-ntopenthreadtoken?branch=master) function to retrieve a handle to the impersonation token of a thread. For more information, see [Impersonation](client-impersonation.md).
 
 You can use the following functions to manipulate access tokens.
 
@@ -41,8 +46,8 @@ You can use the following functions to manipulate access tokens.
 | [**DuplicateTokenEx**](duplicatetokenex.md)           | Creates a new primary token or impersonation token that duplicates an existing token.                                                                                  |
 | [**GetTokenInformation**](gettokeninformation.md)     | Retrieves information about a token.                                                                                                                                   |
 | [**IsTokenRestricted**](istokenrestricted.md)         | Determines whether a token has a list of restricting SIDs.                                                                                                             |
-| [**OpenProcessToken**](openprocesstoken.md)           | Retrieves a handle to the primary access token for a process.                                                                                                          |
-| [**OpenThreadToken**](openthreadtoken.md)             | Retrieves a handle to the impersonation access token for a thread.                                                                                                     |
+| [**OpenProcessToken**](/windows/win32/Winbase/nf-ntifs-ntopenprocesstoken?branch=master)           | Retrieves a handle to the primary access token for a process.                                                                                                          |
+| [**OpenThreadToken**](/windows/win32/Winbase/nf-ntifs-ntopenthreadtoken?branch=master)             | Retrieves a handle to the impersonation access token for a thread.                                                                                                     |
 | [**SetThreadToken**](setthreadtoken.md)               | Assigns or removes an impersonation token for a thread.                                                                                                                |
 | [**SetTokenInformation**](settokeninformation.md)     | Changes a token's owner, primary group, or default DACL.                                                                                                               |
 
@@ -56,15 +61,15 @@ The access token functions use the following structures to describe the parts of
 
 | Structure                                            | Description                                                                                           |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**TOKEN\_CONTROL**](token-control.md)              | Information that identifies an access token.                                                          |
-| [**TOKEN\_DEFAULT\_DACL**](token-default-dacl.md)   | The default DACL that the system uses in the security descriptors of new objects created by a thread. |
-| [**TOKEN\_GROUPS**](token-groups.md)                | Specifies the SIDs and attributes of the group SIDs in an access token.                               |
-| [**TOKEN\_OWNER**](token-owner.md)                  | The default owner SID for the security descriptors of new objects.                                    |
-| [**TOKEN\_PRIMARY\_GROUP**](token-primary-group.md) | The default primary group SID for the security descriptors of new objects.                            |
-| [**TOKEN\_PRIVILEGES**](token-privileges.md)        | The privileges associated with an access token. Also determines whether the privileges are enabled.   |
-| [**TOKEN\_SOURCE**](token-source.md)                | The source of an access token.                                                                        |
-| [**TOKEN\_STATISTICS**](token-statistics.md)        | Statistics associated with an access token.                                                           |
-| [**TOKEN\_USER**](token-user.md)                    | The SID of the user associated with an access token.                                                  |
+| [**TOKEN\_CONTROL**](/windows/win32/Winnt/ns-winnt-_token_control?branch=master)              | Information that identifies an access token.                                                          |
+| [**TOKEN\_DEFAULT\_DACL**](/windows/win32/Winnt/ns-winnt-_token_default_dacl?branch=master)   | The default DACL that the system uses in the security descriptors of new objects created by a thread. |
+| [**TOKEN\_GROUPS**](/windows/win32/Winnt/ns-winnt-_token_groups?branch=master)                | Specifies the SIDs and attributes of the group SIDs in an access token.                               |
+| [**TOKEN\_OWNER**](/windows/win32/Winnt/ns-winnt-_token_owner?branch=master)                  | The default owner SID for the security descriptors of new objects.                                    |
+| [**TOKEN\_PRIMARY\_GROUP**](/windows/win32/Winnt/ns-winnt-_token_primary_group?branch=master) | The default primary group SID for the security descriptors of new objects.                            |
+| [**TOKEN\_PRIVILEGES**](/windows/win32/Winnt/ns-winnt-_token_privileges?branch=master)        | The privileges associated with an access token. Also determines whether the privileges are enabled.   |
+| [**TOKEN\_SOURCE**](/windows/win32/Winnt/ns-winnt-_token_source?branch=master)                | The source of an access token.                                                                        |
+| [**TOKEN\_STATISTICS**](/windows/win32/Winnt/ns-winnt-_token_statistics?branch=master)        | Statistics associated with an access token.                                                           |
+| [**TOKEN\_USER**](/windows/win32/Winnt/ns-winnt-_token_user?branch=master)                    | The SID of the user associated with an access token.                                                  |
 
 
 
@@ -76,8 +81,8 @@ The access token functions use the following enumeration types.
 
 | Enumeration type                                             | Specifies                                                                       |
 |--------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [**TOKEN\_INFORMATION\_CLASS**](token-information-class.md) | Identifies the type of information being set or retrieved from an access token. |
-| [**TOKEN\_TYPE**](token-type.md)                            | Identifies an access token as a primary or impersonation token.                 |
+| [**TOKEN\_INFORMATION\_CLASS**](/windows/win32/Winnt/ne-winnt-_token_information_class?branch=master) | Identifies the type of information being set or retrieved from an access token. |
+| [**TOKEN\_TYPE**](/windows/win32/Winnt/ne-winnt-_token_type?branch=master)                            | Identifies an access token as a primary or impersonation token.                 |
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a collection of trusted user domain objects.'
+Description: Retrieves a collection of trusted user domain objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '813cecfb-5cc9-40bb-9033-63d04cde5e2d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 813cecfb-5cc9-40bb-9033-63d04cde5e2d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustPolicy.TrustedUserDomains property'
+title: TrustPolicy.TrustedUserDomains property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustPolicy.TrustedUserDomains property
@@ -127,7 +130,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -142,9 +145,9 @@ END SUB
 [**TrustPolicy**](trustpolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

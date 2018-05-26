@@ -1,7 +1,12 @@
 ---
-Description: 'The CEnumMediaTypes class implements an enumerator for preferred media types.'
-ms.assetid: '50a90926-0bc7-4204-8000-81894bd154ac'
+Description: The CEnumMediaTypes class implements an enumerator for preferred media types.
+ms.assetid: 50a90926-0bc7-4204-8000-81894bd154ac
 title: CEnumMediaTypes class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumMediaTypes class
@@ -10,7 +15,7 @@ title: CEnumMediaTypes class
 
 The `CEnumMediaTypes` class implements an enumerator for preferred media types.
 
-This class implements the [**IEnumMediaTypes**](ienummediatypes.md) interface. It calls the following [**CBasePin**](cbasepin.md) methods:
+This class implements the [**IEnumMediaTypes**](/windows/win32/Strmif/nn-strmif-ienummediatypes?branch=master) interface. It calls the following [**CBasePin**](cbasepin.md) methods:
 
 -   [**CBasePin::GetMediaType**](cbasepin-getmediatype.md):Retrieves a media type, referenced by a zero-based index.
 -   [**CBasePin::GetMediaTypeVersion**](cbasepin-getmediatypeversion.md): Determines whether the set of preferred types has changed.
@@ -31,7 +36,7 @@ Whenever a pin alters its list of preferred media types, the pin increments the 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,9 +49,9 @@ Whenever a pin alters its list of preferred media types, the pin increments the 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ITopic ParentTopicVersion property
 description: Returns parent topic version
-ms.assetid: 'e67e6caa-24fa-481f-b5ab-552328cbfa4a'
-keywords: ["ParentTopicVersion property HelpAPI", "ParentTopicVersion property HelpAPI , ITopic interface", "ITopic interface HelpAPI , ParentTopicVersion property"]
+ms.assetid: e67e6caa-24fa-481f-b5ab-552328cbfa4a
+keywords:
+- ParentTopicVersion property HelpAPI
+- ParentTopicVersion property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , ParentTopicVersion property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::ParentTopicVersion property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ParentTopicVersion(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The version of the parent topic.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The version of the parent topic.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

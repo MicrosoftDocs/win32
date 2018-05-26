@@ -1,7 +1,12 @@
 ---
-Description: 'You can debug custom actions that are based on dynamic-link libraries by using Debugging Tools for Windows. It is not possible to use dynamic debugging with custom actions based on executable files or scripts.'
-ms.assetid: '4241a27a-c127-4c65-96a2-1d655b343eba'
+Description: You can debug custom actions that are based on dynamic-link libraries by using Debugging Tools for Windows. It is not possible to use dynamic debugging with custom actions based on executable files or scripts.
+ms.assetid: 4241a27a-c127-4c65-96a2-1d655b343eba
 title: Debugging Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging Custom Actions

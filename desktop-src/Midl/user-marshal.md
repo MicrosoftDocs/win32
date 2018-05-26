@@ -2,13 +2,19 @@
 title: user\_marshal attribute
 description: The user\_marshal ACF attribute associates a named local type in the target language (userm-type) with a transfer type (wire-type) that is transferred between client and server.
 ms.assetid: a2407aa3-574d-4690-8cdf-cb1c01ca8c49
-keywords: ["user_marshal attribute MIDL"]
+keywords:
+- user_marshal attribute MIDL
 topic_type:
 - apiref
 api_name:
 - user_marshal
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # user\_marshal attribute

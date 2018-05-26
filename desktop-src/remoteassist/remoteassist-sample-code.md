@@ -1,12 +1,17 @@
 ---
 title: Remote Assistance Sample Code
 description: This topic contains sample code that provides IRendezvousSession and DRendezvousSessionEvents implementation. It also shows how to invoke the Component Object Model (COM) objects that implement the IRendezvousApplication interface.
-ms.assetid: '4c2e3b87-e434-441a-9bad-8e2838d04113'
+ms.assetid: 4c2e3b87-e434-441a-9bad-8e2838d04113
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Assistance Sample Code
 
-This topic contains sample code that provides [**IRendezvousSession**](remoteassist-irendezvoussession.md) and [**DRendezvousSessionEvents**](remoteassist-drendezvoussessionevents.md) implementation. It also shows how to invoke the Component Object Model (COM) objects that implement the [**IRendezvousApplication**](remoteassist-irendezvousapplication.md) interface. The sample depends on Active Template Library (ATL) libraries. The sample does not include the transport from one peer to the other. This needs to be implemented by the instant messaging (IM) application.
+This topic contains sample code that provides [**IRendezvousSession**](/windows/previous-versions/RendezvousSession/nn-rendezvoussession-irendezvoussession?branch=master) and [**DRendezvousSessionEvents**](/windows/previous-versions/RendezvousSession/?branch=master) implementation. It also shows how to invoke the Component Object Model (COM) objects that implement the [**IRendezvousApplication**](/windows/previous-versions/RendezvousSession/nn-rendezvoussession-irendezvousapplication?branch=master) interface. The sample depends on Active Template Library (ATL) libraries. The sample does not include the transport from one peer to the other. This needs to be implemented by the instant messaging (IM) application.
 
 The following code files and registry information are included in this topic.
 
@@ -18,7 +23,7 @@ The following code files and registry information are included in this topic.
 
 ## RendezvousSessCP.h
 
-The following code shows the implementation of the connection point interface [**DRendezvousSessionEvents**](remoteassist-drendezvoussessionevents.md). CRendezvousProv\_Proxy class implements this events interface. The following code should go into the header file for the class that implements the connection point interface and exposes the DRendezvousSession events.
+The following code shows the implementation of the connection point interface [**DRendezvousSessionEvents**](/windows/previous-versions/RendezvousSession/?branch=master). CRendezvousProv\_Proxy class implements this events interface. The following code should go into the header file for the class that implements the connection point interface and exposes the DRendezvousSession events.
 
 
 ```C++
@@ -250,7 +255,7 @@ public:
 
 ## RendezvousSessProv.h
 
-The following code should go into the header file of the object implementing the [**IRendezvousSession**](remoteassist-irendezvoussession.md) interface. CRendezvousProv is the class that implements **IRendezvousSession** interface.
+The following code should go into the header file of the object implementing the [**IRendezvousSession**](/windows/previous-versions/RendezvousSession/nn-rendezvoussession-irendezvoussession?branch=master) interface. CRendezvousProv is the class that implements **IRendezvousSession** interface.
 
 
 ```
@@ -389,7 +394,7 @@ OBJECT_ENTRY_AUTO(__uuidof(RendezvousSim), CRendezvousSessProv)
 
 ## RendezvousSessProv.cpp
 
-This file contains the code for the class that provides the implementation for [**IRendezvousSession**](remoteassist-irendezvoussession.md) and [**DRendezvousSessionEvents**](remoteassist-drendezvoussessionevents.md) public interfaces. Given a specific RendezvousComponent COM GUID it cocreates and launches the COM object. The actual transport of the data between the two [**IRendezvousApplication**](remoteassist-irendezvousapplication.md) based peers needs to be implemented by the IM provider. The IM provider should also provide a way to launch the RendezvousApplications from within IM UI.
+This file contains the code for the class that provides the implementation for [**IRendezvousSession**](/windows/previous-versions/RendezvousSession/nn-rendezvoussession-irendezvoussession?branch=master) and [**DRendezvousSessionEvents**](/windows/previous-versions/RendezvousSession/?branch=master) public interfaces. Given a specific RendezvousComponent COM GUID it cocreates and launches the COM object. The actual transport of the data between the two [**IRendezvousApplication**](/windows/previous-versions/RendezvousSession/nn-rendezvoussession-irendezvousapplication?branch=master) based peers needs to be implemented by the IM provider. The IM provider should also provide a way to launch the RendezvousApplications from within IM UI.
 
 
 ```
@@ -640,7 +645,7 @@ HRESULT CRendezvousSessProv::Terminate(HRESULT hrSend, BSTR bstrAppData)
 
 ## RendezvousProv.idl
 
-This is the Interface Definition Language (IDL) source for RendezvousSim that implements the [**IRendezvousSession**](remoteassist-irendezvoussession.md) provider to integrate Request RA and Offer RA Rendezvous applications.
+This is the Interface Definition Language (IDL) source for RendezvousSim that implements the [**IRendezvousSession**](/windows/previous-versions/RendezvousSession/nn-rendezvoussession-irendezvoussession?branch=master) provider to integrate Request RA and Offer RA Rendezvous applications.
 
 
 ```
@@ -707,7 +712,7 @@ library RendezvousSim
 
 ## Registration
 
-The following is the COM object registration of the [**IRendezvousSession**](remoteassist-irendezvoussession.md) based object.
+The following is the COM object registration of the [**IRendezvousSession**](/windows/previous-versions/RendezvousSession/nn-rendezvoussession-irendezvoussession?branch=master) based object.
 
 
 ```

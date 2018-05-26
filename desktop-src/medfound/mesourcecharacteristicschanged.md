@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by a media source when the source's characteristics change.'
-ms.assetid: 'df7bb9a3-5949-4a4a-8835-c5b1d01b5cb3'
+---
+Description: Raised by a media source when the sources characteristics change.
+ms.assetid: df7bb9a3-5949-4a4a-8835-c5b1d01b5cb3
 title: MESourceCharacteristicsChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESourceCharacteristicsChanged event
@@ -10,7 +15,7 @@ Raised by a media source when the source's characteristics change.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -49,7 +54,7 @@ The following attributes are defined for this event.
 
 <dl> <dt>
 
-[**IMFMediaSource**](imfmediasource.md)
+[**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
 </dt> <dt>
 
 [Media Foundation Events](media-foundation-events.md)

@@ -4,11 +4,14 @@ description: Starts a job to create a storage volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b53d17a1-6232-4819-9606-583cda18ea21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b53d17a1-6232-4819-9606-583cda18ea21
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateStorageVolume method", "CreateStorageVolume method, MSFT_SMPool class", "MSFT_SMPool class, CreateStorageVolume method"]
+keywords:
+- CreateStorageVolume method
+- CreateStorageVolume method, MSFT_SMPool class
+- MSFT_SMPool class, CreateStorageVolume method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateStorageVolume method of the MSFT\_SMPool class
@@ -28,20 +34,20 @@ Starts a job to create a storage volume.
 
 ```mof
 uint32 CreateStorageVolume(
-  [in, optional]      string                   ElementName,
-  [in, out, optional] uint64                   Size,
-  [in, optional]      boolean                  UseMaximumSize,
-  [in, optional]      String                   PoolSettingObjectId,
-  [in, optional]      boolean                  NoSinglePointOfFailure,
-  [in, optional]      uint16                   PackageRedundancyGoal,
-  [in, optional]      uint16                   DataRedundancyGoal,
-  [in, optional]      uint16                   ParityLayout,
-  [in, optional]      boolean                  ThinlyProvisioned,
-  [in, optional]      String                   username,
-  [in, optional]      String                   password,
-  [out, optional]     MSFT_SMStorageVolume REF CreatedStorageVolume,
-  [out]               MSFT_SMJob           REF Job,
-  [out, optional]     MSFT_SMExtendedStatus    ExtendedStatus
+  [in, optional]      string                   ElementName,
+  [in, out, optional] uint64                   Size,
+  [in, optional]      boolean                  UseMaximumSize,
+  [in, optional]      String                   PoolSettingObjectId,
+  [in, optional]      boolean                  NoSinglePointOfFailure,
+  [in, optional]      uint16                   PackageRedundancyGoal,
+  [in, optional]      uint16                   DataRedundancyGoal,
+  [in, optional]      uint16                   ParityLayout,
+  [in, optional]      boolean                  ThinlyProvisioned,
+  [in, optional]      String                   username,
+  [in, optional]      String                   password,
+  [out, optional]     MSFT_SMStorageVolume REF CreatedStorageVolume,
+  [out]               MSFT_SMJob           REF Job,
+  [out, optional]     MSFT_SMExtendedStatus    ExtendedStatus
 );
 ```
 
@@ -77,7 +83,7 @@ If **True**, requests the provider to create a storage volume with the maximum p
 
 The ObjectId of a pool setting the defines the service level that the storage volume is expected to provide. If **NULL** the storage service will try to locate a default setting.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 This parameter is not supported.
 
@@ -88,7 +94,7 @@ This parameter is not supported.
 
 This parameter is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 Whether to specify no single point of failure.
 
@@ -101,7 +107,7 @@ Whether to specify no single point of failure.
 
 This parameter is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 The desired number of redundant packages to be used.
 
@@ -114,7 +120,7 @@ Range: 0 = *value*
 
 This parameter is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 The desired number of complete copies of data to maintain.
 
@@ -127,7 +133,7 @@ Range: 1 = *value*
 
 This parameter is not supported.
 
-**Windows Server 2012:  **
+**Windows Server 2012:  **
 
 Whether a parity-based storage organization is using rotated or non-rotated parity.
 
@@ -376,7 +382,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -390,9 +396,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMPool**](msft-smpool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IixssoQuery QueryToURL method
 description: Reads the properties of the query object and creates and creates the QueryString portion of a uniform resource locator (URL) string from their values.
-ms.assetid: 'a0efc933-473d-4477-8ff9-3afaf092b8f4'
-keywords: ["QueryToURL method Indexing Service", "QueryToURL method Indexing Service , IixssoQuery interface", "IixssoQuery interface Indexing Service , QueryToURL method"]
+ms.assetid: a0efc933-473d-4477-8ff9-3afaf092b8f4
+keywords:
+- QueryToURL method Indexing Service
+- QueryToURL method Indexing Service , IixssoQuery interface
+- IixssoQuery interface Indexing Service , QueryToURL method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoQuery::QueryToURL method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Reads the properties of the query object and creates and creates the QueryString portion of a uniform resource locator (URL) string from their values.
 
@@ -24,7 +32,7 @@ Reads the properties of the query object and creates and creates the QueryString
 
 ```C++
 HRESULT QueryToURL(
-  [out, retval] BSTR *ppwszQuery
+  [out, retval] BSTR *ppwszQuery
 );
 ```
 
@@ -73,10 +81,10 @@ Debug.Print "URL Version = " + strURL
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -88,9 +96,9 @@ Debug.Print "URL Version = " + strURL
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

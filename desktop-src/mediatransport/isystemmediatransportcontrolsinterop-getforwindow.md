@@ -1,14 +1,22 @@
 ---
 title: ISystemMediaTransportControlsInterop GetForWindow method
 description: Gets an instance of the ISystemMediaTransportControls interface for the specified window.
-ms.assetid: '7E878C3B-4CE9-4DED-8082-8E37266FE8AF'
-keywords: ["GetForWindow method", "GetForWindow method, ISystemMediaTransportControlsInterop interface", "ISystemMediaTransportControlsInterop interface, GetForWindow method"]
+ms.assetid: 7E878C3B-4CE9-4DED-8082-8E37266FE8AF
+keywords:
+- GetForWindow method
+- GetForWindow method, ISystemMediaTransportControlsInterop interface
+- ISystemMediaTransportControlsInterop interface, GetForWindow method
 topic_type:
 - apiref
 api_name:
 - ISystemMediaTransportControlsInterop.GetForWindow
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControlsInterop::GetForWindow method
@@ -61,7 +69,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**ISystemMediaTransportControlsInterop**](isystemmediatransportcontrolsinterop.md)
+[**ISystemMediaTransportControlsInterop**](/windows/previous-versions/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a mesh defined by Bézier patches. The first array is a list of vertices, and the second array defines the patches for the mesh by indexing into the vertex array.'
-ms.assetid: '642ca513-c83e-4c6d-845c-0eaecc232728'
+Description: Defines a mesh defined by Bézier patches. The first array is a list of vertices, and the second array defines the patches for the mesh by indexing into the vertex array.
+ms.assetid: 642ca513-c83e-4c6d-845c-0eaecc232728
 title: PatchMesh9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PatchMesh9

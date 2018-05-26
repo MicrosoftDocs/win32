@@ -1,7 +1,12 @@
 ---
-Description: 'The Error table is used to look up error message formatting templates when processing errors with an error code set but without a formatting template set (this is the normal situation).'
-ms.assetid: '3c817468-cba7-46bf-9208-5e6699c02fb6'
+Description: The Error table is used to look up error message formatting templates when processing errors with an error code set but without a formatting template set (this is the normal situation).
+ms.assetid: 3c817468-cba7-46bf-9208-5e6699c02fb6
 title: Error Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Table
@@ -86,7 +91,7 @@ The template does not include formatting for the error number in field 1. When p
 
 Text enclosed in double curly braces {{text}} is only visible in the log file. The text is not displayed to the user in the UI.
 
-You can import a localized Error table into your database by using Msidb.exe or [**MsiDatabaseImport**](msidatabaseimport.md). The SDK includes a localized Error table for each of the languages listed in the [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md) section. If the Error table is not populated, the installer loads localized strings for the language specified by the [**ProductLanguage**](productlanguage.md) property.
+You can import a localized Error table into your database by using Msidb.exe or [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master). The SDK includes a localized Error table for each of the languages listed in the [Localizing the Error and ActionText Tables](localizing-the-error-and-actiontext-tables.md) section. If the Error table is not populated, the installer loads localized strings for the language specified by the [**ProductLanguage**](productlanguage.md) property.
 
 ## Validation
 

@@ -4,11 +4,17 @@ description: The results pane of the Active Directory Users and Computers MMC sn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '55f4ae82-c380-42a9-beba-047ffd0131eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 55f4ae82-c380-42a9-beba-047ffd0131eb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Modifying Existing User Interfaces AD", "Users and Computers snap-in AD ,modifying display", "Users and Computers snap-in AD ,adding columns"]
+keywords:
+- Modifying Existing User Interfaces AD
+- Users and Computers snap-in AD ,modifying display
+- Users and Computers snap-in AD ,adding columns
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying Existing User Interfaces

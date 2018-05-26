@@ -1,8 +1,18 @@
 ---
 title: Manufacturer Identifiers
 description: Manufacturer Identifiers
-ms.assetid: 'fa7bdf9f-832e-4b36-a76b-3514c3f5745f'
-keywords: ["Windows multimedia,manufacturer identifiers", "multimedia,manufacturer identifiers", "manufacturer identifiers", "multimedia manufacturer identifiers", "multimedia companies"]
+ms.assetid: fa7bdf9f-832e-4b36-a76b-3514c3f5745f
+keywords:
+- Windows multimedia,manufacturer identifiers
+- multimedia,manufacturer identifiers
+- manufacturer identifiers
+- multimedia manufacturer identifiers
+- multimedia companies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manufacturer Identifiers

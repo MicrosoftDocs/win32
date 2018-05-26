@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine DVDROMDrives property
 description: The DVDROMDrives property contains an enumerable collection of CD/DVD-ROM drives attached to the virtual machine.
-ms.assetid: '65f4fd02-5c33-4f1f-b088-278becb4e0b8'
-keywords: ["DVDROMDrives property Virtual Server", "DVDROMDrives property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , DVDROMDrives property", "DVDROMDrives property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , DVDROMDrives property"]
+ms.assetid: 65f4fd02-5c33-4f1f-b088-278becb4e0b8
+keywords:
+- DVDROMDrives property Virtual Server
+- DVDROMDrives property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , DVDROMDrives property
+- DVDROMDrives property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , DVDROMDrives property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::DVDROMDrives property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DVDROMDrives(
-  [out] IVMDVDDriveCollection **dvdROMCollection
+  [out] IVMDVDDriveCollection **dvdROMCollection
 );
 ```
 
@@ -93,8 +103,8 @@ WScript.Echo "DVD/CDROM disc drives installed: " & colDVDs.Count
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ WScript.Echo "DVD/CDROM disc drives installed: " & colDVDs.Count
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

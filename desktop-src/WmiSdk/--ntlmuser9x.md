@@ -1,13 +1,16 @@
 ---
-Description: 'Controls remote access to unsupported versions of Windows.'
+Description: Controls remote access to unsupported versions of Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'eb326bba-a011-4b9c-b4ee-fc08ae364f6f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: eb326bba-a011-4b9c-b4ee-fc08ae364f6f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_NTLMUser9X class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_NTLMUser9X class
@@ -146,8 +149,8 @@ The **\_\_NTLMUser9X** class is used as an input parameter for the [**\_\_System
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -165,9 +168,9 @@ The **\_\_NTLMUser9X** class is used as an input parameter for the [**\_\_System
 [**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

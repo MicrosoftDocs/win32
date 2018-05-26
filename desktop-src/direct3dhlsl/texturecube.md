@@ -1,14 +1,21 @@
 ---
 title: TextureCube object
 description: TextureCube type (as it exists in Shader Model 4) plus resource variables. This texture object supports these methods in addition to the methods in Shader Model 4.
-ms.assetid: 'BC96D7BB-992E-48CC-A774-E211E1BB1720'
-keywords: ["TextureCube object HLSL", "TextureCube object HLSL , described"]
+ms.assetid: BC96D7BB-992E-48CC-A774-E211E1BB1720
+keywords:
+- TextureCube object HLSL
+- TextureCube object HLSL , described
 topic_type:
 - apiref
 api_name:
 - TextureCube
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube object
@@ -44,7 +51,7 @@ The **TextureCube** object has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,7 +67,7 @@ This object is supported in the following shader models.
 
 
 
- 
+ 
 
 This object is supported for the following types of shaders:
 
@@ -72,7 +79,7 @@ This object is supported for the following types of shaders:
 
 
 
- 
+ 
 
 ## See also
 
@@ -81,9 +88,9 @@ This object is supported for the following types of shaders:
 [Shader Model 5 Objects](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

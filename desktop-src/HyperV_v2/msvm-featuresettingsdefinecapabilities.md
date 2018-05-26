@@ -1,7 +1,12 @@
 ---
-Description: 'Provides a link between the Ethernet switch feature capabilities instance and the minimum, maximum, incremental, and default settings for a resource.'
-ms.assetid: '5abd8b2a-9f72-4875-be5c-ce5a2f526e9a'
-title: 'Msvm\_FeatureSettingsDefineCapabilities class'
+Description: Provides a link between the Ethernet switch feature capabilities instance and the minimum, maximum, incremental, and default settings for a resource.
+ms.assetid: 5abd8b2a-9f72-4875-be5c-ce5a2f526e9a
+title: Msvm\_FeatureSettingsDefineCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_FeatureSettingsDefineCapabilities class
@@ -17,10 +22,10 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_FeatureSettingsDefineCapabilities : CIM_SettingsDefineCapabilities
 {
   Msvm_EthernetSwitchFeatureCapabilities REF GroupComponent;
-  Msvm_FeatureSettingData                REF PartComponent;
-  uint16                                     PropertyPolicy = 0;
-  uint16                                     ValueRole = 3;
-  uint16                                     ValueRange = 0;
+  Msvm_FeatureSettingData                REF PartComponent;
+  uint16                                     PropertyPolicy = 0;
+  uint16                                     ValueRole = 3;
+  uint16                                     ValueRange = 0;
 };
 ```
 
@@ -120,7 +125,7 @@ This property is inherited from [**CIM\_SettingsDefineCapabilities**](https://ms
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -149,7 +154,7 @@ Specifies further semantics on the interpretation of the non-**Null**, non-key p
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -159,17 +164,17 @@ Specifies further semantics on the interpretation of the non-**Null**, non-key p
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

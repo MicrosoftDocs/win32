@@ -1,8 +1,11 @@
 ---
 title: RemoveVirtualSystemSnapshot method of the Msvm\_VirtualSystemManagementService class
 description: Removes the specified snapshot from the virtual computer system.
-ms.assetid: 'a6e6ab4d-0d38-42cc-b308-642ada077a14'
-keywords: ["RemoveVirtualSystemSnapshot method Hyper-V", "RemoveVirtualSystemSnapshot method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , RemoveVirtualSystemSnapshot method"]
+ms.assetid: a6e6ab4d-0d38-42cc-b308-642ada077a14
+keywords:
+- RemoveVirtualSystemSnapshot method Hyper-V
+- RemoveVirtualSystemSnapshot method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , RemoveVirtualSystemSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveVirtualSystemSnapshot method of the Msvm\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Removes the specified snapshot from the virtual computer system. Any configurati
 
 ```mof
 uint32 RemoveVirtualSystemSnapshot(
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -109,7 +117,7 @@ The following C# sample removes a snapshot from a virtual system. The referenced
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -208,7 +216,7 @@ The following VBScript sample removes a snapshot from a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -377,9 +385,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -395,9 +403,9 @@ End Function
 [**DestroySnapshot (V2)**](https://msdn.microsoft.com/library/windows/desktop/hh850043)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

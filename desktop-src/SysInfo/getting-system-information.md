@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the GetComputerName, GetUserName, GetSystemDirectory, GetWindowsDirectory, and ExpandEnvironmentStrings functions to get information that describes the system configuration.'
-ms.assetid: '965bd14b-be93-4084-bce8-642f5704cef1'
+Description: The following example uses the GetComputerName, GetUserName, GetSystemDirectory, GetWindowsDirectory, and ExpandEnvironmentStrings functions to get information that describes the system configuration.
+ms.assetid: 965bd14b-be93-4084-bce8-642f5704cef1
 title: Getting System Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting System Information
 
-The following example uses the [**GetComputerName**](getcomputername.md), [**GetUserName**](getusername.md), [**GetSystemDirectory**](getsystemdirectory.md), [**GetWindowsDirectory**](getwindowsdirectory.md), and [**ExpandEnvironmentStrings**](expandenvironmentstrings.md) functions to get information that describes the system configuration.
+The following example uses the [**GetComputerName**](/windows/win32/Winbase/nf-winbase-getcomputernamea?branch=master), [**GetUserName**](/windows/win32/Winbase/nf-winbase-getusernamea?branch=master), [**GetSystemDirectory**](/windows/win32/Winbase/?branch=master), [**GetWindowsDirectory**](/windows/win32/Winbase/?branch=master), and [**ExpandEnvironmentStrings**](/windows/win32/Winbase/?branch=master) functions to get information that describes the system configuration.
 
 
 ```C++

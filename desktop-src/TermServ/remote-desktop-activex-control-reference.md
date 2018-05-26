@@ -4,10 +4,13 @@ description: The following programming elements are used with the Remote Desktop
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'EAF75483-90A4-4BB1-82A5-EFBB2219A55B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: EAF75483-90A4-4BB1-82A5-EFBB2219A55B
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop ActiveX control reference

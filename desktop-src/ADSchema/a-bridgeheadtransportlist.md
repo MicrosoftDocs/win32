@@ -4,17 +4,22 @@ description: Transports for which this server is a bridgehead.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef024170-eee2-458d-8cd2-637892644991'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ef024170-eee2-458d-8cd2-637892644991
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Bridgehead-Transport-List attribute AD Schema", "bridgeheadTransportList attribute AD Schema"]
+keywords:
+- Bridgehead-Transport-List attribute AD Schema
+- bridgeheadTransportList attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Bridgehead-Transport-List
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Bridgehead-Transport-List attribute
@@ -38,13 +43,13 @@ Transports for which this server is a bridgehead.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ Transports for which this server is a bridgehead.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

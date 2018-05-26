@@ -1,7 +1,12 @@
 ---
-Description: 'The IX509EnrollmentHelper interface exposes the following methods.'
-ms.assetid: 'CBF148DE-B727-4BED-A625-8CB677261BF3'
+Description: The IX509EnrollmentHelper interface exposes the following methods.
+ms.assetid: CBF148DE-B727-4BED-A625-8CB677261BF3
 title: IX509EnrollmentHelper Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IX509EnrollmentHelper Methods
@@ -10,10 +15,10 @@ The [IX509EnrollmentHelper](enrollwithix509enrollmenthelper.md) interface expose
 
 ## In this section
 
--   [**AddEnrollmentServer Method**](ix509enrollmenthelper-addenrollmentserver.md)
--   [**AddPolicyServer Method**](ix509enrollmenthelper-addpolicyserver.md)
--   [**Enroll Method**](ix509enrollmenthelper-enroll.md)
--   [**Initialize Method**](ix509enrollmenthelper-initialize.md)
+-   [**AddEnrollmentServer Method**](/windows/win32/Certenroll/nf-certenroll-ix509enrollmenthelper-addenrollmentserver?branch=master)
+-   [**AddPolicyServer Method**](/windows/win32/Certenroll/nf-certenroll-ix509enrollmenthelper-addpolicyserver?branch=master)
+-   [**Enroll Method**](/windows/win32/Certenroll/nf-certenroll-ix509enrollmenthelper-enroll?branch=master)
+-   [**Initialize Method**](/windows/win32/Certenroll/nf-certenroll-ix509enrollmenthelper-initialize?branch=master)
 
  
 

@@ -4,11 +4,14 @@ description: Returns the read/write common properties of a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '99de61b9-2979-404a-bbed-94d6f5eea2da'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 99de61b9-2979-404a-bbed-94d6f5eea2da
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CommonProperties property Failover Cluster", "CommonProperties property Failover Cluster , Cluster object", "Cluster object Failover Cluster , CommonProperties property"]
+keywords:
+- CommonProperties property Failover Cluster
+- CommonProperties property Failover Cluster , Cluster object
+- Cluster object Failover Cluster , CommonProperties property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster.CommonProperties property
@@ -48,7 +54,7 @@ Cluster.CommonProperties
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -64,9 +70,9 @@ Cluster.CommonProperties
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

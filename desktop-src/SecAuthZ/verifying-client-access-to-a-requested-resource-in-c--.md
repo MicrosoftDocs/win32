@@ -1,16 +1,21 @@
 ---
-Description: 'Call the AccessCheck method of the IAzClientContext interface to check if the client has access to one or more operations.'
-ms.assetid: '7c8a63c5-2eab-4414-9a3d-c99a92b67a62'
+Description: Call the AccessCheck method of the IAzClientContext interface to check if the client has access to one or more operations.
+ms.assetid: 7c8a63c5-2eab-4414-9a3d-c99a92b67a62
 title: Verifying Client Access to a Requested Resource in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying Client Access to a Requested Resource in C++
 
-Call the [**AccessCheck**](iazclientcontext-accesscheck.md) method of the [**IAzClientContext**](iazclientcontext.md) interface to check if the client has access to one or more operations. A client might have membership in more than one role, and an operation might be assigned to more than one task, so Authorization Manager checks for all roles and tasks. If any role to which the client belongs contains any task that contains an operation, access to that operation is granted.
+Call the [**AccessCheck**](/windows/win32/Azroles/nf-azroles-iazclientcontext-accesscheck?branch=master) method of the [**IAzClientContext**](/windows/win32/Azroles/nn-azroles-iazclientcontext?branch=master) interface to check if the client has access to one or more operations. A client might have membership in more than one role, and an operation might be assigned to more than one task, so Authorization Manager checks for all roles and tasks. If any role to which the client belongs contains any task that contains an operation, access to that operation is granted.
 
-To check access for only a single role to which the client belongs, set the [**RoleForAccessCheck**](iazclientcontext-roleforaccesscheck.md) property of the [**IAzClientContext**](iazclientcontext.md) interface.
+To check access for only a single role to which the client belongs, set the [**RoleForAccessCheck**](/windows/win32/Azroles/nf-azroles-iazclientcontext-get_roleforaccesscheck?branch=master) property of the [**IAzClientContext**](/windows/win32/Azroles/nn-azroles-iazclientcontext?branch=master) interface.
 
-When initializing the authorization policy store for access check, you must pass zero as the value of the *lFlags* parameter of the [**IAzAuthorizationStore::Initialize**](azauthorizationstore-initialize.md) method.
+When initializing the authorization policy store for access check, you must pass zero as the value of the *lFlags* parameter of the [**IAzAuthorizationStore::Initialize**](/windows/win32/Azroles/nf-azroles-iazauthorizationstore-initialize?branch=master) method.
 
 The following example shows how to check a client's access to an operation. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C, that this store contains an application named Expense and an operation named UseFormControl, and that the variable hToken contains a valid client token.
 

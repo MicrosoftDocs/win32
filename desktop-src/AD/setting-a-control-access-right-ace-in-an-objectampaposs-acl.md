@@ -1,14 +1,18 @@
 ---
-title: Setting a Control Access Right ACE in an Object's ACL
+title: Setting a Control Access Right ACE in an Objects ACL
 description: Using ADSI, you set a control access right ACE just as you would a property-specific ACE, except that the IADsAccessControlEntry.ObjectType property is the rightsGUID of the control access right.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '454dc372-47b0-457d-8660-644fcfa59be8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 454dc372-47b0-457d-8660-644fcfa59be8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Setting a Control Access Right ACE in an Object's ACL"]
+keywords:
+- Setting a Control Access Right ACE in an Objects ACL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting a Control Access Right ACE in an Object's ACL
@@ -29,15 +33,15 @@ The following table lists the [**IADsAccessControlEntry**](https://msdn.microsof
 
 
 
- 
+ 
 
 For more information about creating an ACE, see [Setting Access Rights on an Object](setting-access-rights-on-an-object.md).
 
 For more information and a code example for setting an ACE, see [Example Code for Setting an ACE on a Directory Object](example-code-for-setting-an-ace-on-a-directory-object.md).
 
- 
+ 
 
- 
+ 
 
 
 

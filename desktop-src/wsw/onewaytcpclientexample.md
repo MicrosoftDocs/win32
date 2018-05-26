@@ -1,8 +1,16 @@
 ---
 title: OneWayTcpClientExample
 description: This example shows a TCP client that sends a one-way messages.
-ms.assetid: 'c5e930b5-da13-459c-8a83-eeeb120a79ed'
-keywords: ["OneWayTcpClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: c5e930b5-da13-459c-8a83-eeeb120a79ed
+keywords:
+- OneWayTcpClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OneWayTcpClientExample

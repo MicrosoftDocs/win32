@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETSUBITEMRECT message
 description: Retrieves information about the bounding rectangle for a subitem in a list-view control.
-ms.assetid: '985876b2-6eb3-4c96-88ea-ddec67ef5b5a'
-keywords: ["LVM_GETSUBITEMRECT message Windows Controls"]
+ms.assetid: 985876b2-6eb3-4c96-88ea-ddec67ef5b5a
+keywords:
+- LVM_GETSUBITEMRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETSUBITEMRECT message
 
-Retrieves information about the bounding rectangle for a subitem in a list-view control. You can send this message explicitly or by using the [**ListView\_GetSubItemRect**](listview-getsubitemrect.md) macro (recommended). This message is intended to be used only with list-view controls that use the [**LVS\_REPORT**](list-view-window-styles.md#lvs-report) style.
+Retrieves information about the bounding rectangle for a subitem in a list-view control. You can send this message explicitly or by using the [**ListView\_GetSubItemRect**](/windows/win32/Commctrl/nf-commctrl-listview_getsubitemrect?branch=master) macro (recommended). This message is intended to be used only with list-view controls that use the [**LVS\_REPORT**](list-view-window-styles.md#lvs-report) style.
 
 ## Parameters
 
@@ -42,7 +48,7 @@ Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -65,7 +71,7 @@ Following are the flag values that may be set.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -73,15 +79,15 @@ Following are the flag values that may be set.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

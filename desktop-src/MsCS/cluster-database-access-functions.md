@@ -4,11 +4,16 @@ description: The cluster database access functions are called by Resource DLLs t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e2b2e01b-b2b9-4f4d-b43b-020a884e01bb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e2b2e01b-b2b9-4f4d-b43b-020a884e01bb
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster database Failover Cluster ,access functions", "resource DLL functions Failover Cluster ,cluster database access functions"]
+keywords:
+- cluster database Failover Cluster ,access functions
+- resource DLL functions Failover Cluster ,cluster database access functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Database Access Functions

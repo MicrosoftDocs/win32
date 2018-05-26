@@ -1,7 +1,12 @@
 ---
-Description: 'Applications can produce user-mode minidump files, which contain a useful subset of the information contained in a crash dump file.'
-ms.assetid: 'c5de86a4-6dab-4408-8093-66117eb4de10'
+Description: Applications can produce user-mode minidump files, which contain a useful subset of the information contained in a crash dump file.
+ms.assetid: c5de86a4-6dab-4408-8093-66117eb4de10
 title: Minidump Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Minidump Files
@@ -16,9 +21,9 @@ The following DbgHelp functions are used with minidump files.
 
 <dl>
 
-[**MiniDumpCallback**](minidumpcallback.md)  
-[**MiniDumpReadDumpStream**](minidumpreaddumpstream.md)  
-[**MiniDumpWriteDump**](minidumpwritedump.md)  
+[**MiniDumpCallback**](/windows/win32/minidumpapiset/nc-minidumpapiset-minidump_callback_routine?branch=master)  
+[**MiniDumpReadDumpStream**](/windows/win32/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream?branch=master)  
+[**MiniDumpWriteDump**](/windows/win32/minidumpapiset/nf-minidumpapiset-minidumpwritedump?branch=master)  
 </dl>
 
  

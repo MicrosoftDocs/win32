@@ -4,17 +4,22 @@ description: This attribute indicates whether the publication data is from a dat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '84d93b9f-0acc-47da-9f1b-44d8468ad53e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 84d93b9f-0acc-47da-9f1b-44d8468ad53e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-SQL-ThirdParty attribute AD Schema", "mS-SQL-ThirdParty attribute AD Schema"]
+keywords:
+- MS-SQL-ThirdParty attribute AD Schema
+- mS-SQL-ThirdParty attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-SQL-ThirdParty
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-SQL-ThirdParty attribute
@@ -38,12 +43,12 @@ This attribute indicates whether the publication data is from a data source othe
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This attribute indicates whether the publication data is from a data source othe
 
 
 
- 
+ 
 
- 
+ 
 
 
 

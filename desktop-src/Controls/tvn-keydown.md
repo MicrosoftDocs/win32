@@ -1,8 +1,9 @@
 ---
 title: TVN\_KEYDOWN notification code
-description: Notifies a tree-view control's parent window that the user pressed a key and the tree-view control has the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'da0d2b62-2295-4dce-9b37-a250f3be087f'
-keywords: ["TVN_KEYDOWN notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that the user pressed a key and the tree-view control has the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: da0d2b62-2295-4dce-9b37-a250f3be087f
+keywords:
+- TVN_KEYDOWN notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_KEYDOWN notification code
@@ -33,7 +39,7 @@ TVN_KEYDOWN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVKEYDOWN**](nmtvkeydown.md) structure. The **wVKey** member specifies the virtual key code.
+Pointer to an [**NMTVKEYDOWN**](/windows/win32/Commctrl/ns-commctrl-tagtvkeydown?branch=master) structure. The **wVKey** member specifies the virtual key code.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ If the **wVKey** member of *lParam* is a character key code, the character will 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

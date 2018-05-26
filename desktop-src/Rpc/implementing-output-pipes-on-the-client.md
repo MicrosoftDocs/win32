@@ -1,7 +1,12 @@
 ---
 title: Implementing Output Pipes on the Client
 description: When using an output pipe to transfer data from the server to the client, you must implement a push procedure in your client.
-ms.assetid: 'ab544daf-fbf7-4b00-95a8-55c149a86c27'
+ms.assetid: ab544daf-fbf7-4b00-95a8-55c149a86c27
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Output Pipes on the Client

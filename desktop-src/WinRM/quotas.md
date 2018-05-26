@@ -4,10 +4,13 @@ description: Quota management allows users to manage system resources more effic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6651a500-a95a-45a1-b46a-27b2e9b36a1c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 6651a500-a95a-45a1-b46a-27b2e9b36a1c
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Quota Management for Remote Shells

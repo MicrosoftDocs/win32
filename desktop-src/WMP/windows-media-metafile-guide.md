@@ -1,8 +1,21 @@
 ---
 title: Windows Media Metafile Guide
 description: Windows Media Metafile Guide
-ms.assetid: 'd2360a63-f073-44b0-8637-1f22b577f51a'
-keywords: ["Windows Media metafiles,about", "Windows Media Player,metafiles", "Windows Media Player,Windows Media metafiles", "metafiles,about", "Windows Media,metafiles", "Windows Media metafile playlists,about", "playlists,about", "metafile playlists,about"]
+ms.assetid: d2360a63-f073-44b0-8637-1f22b577f51a
+keywords:
+- Windows Media metafiles,about
+- Windows Media Player,metafiles
+- Windows Media Player,Windows Media metafiles
+- metafiles,about
+- Windows Media,metafiles
+- Windows Media metafile playlists,about
+- playlists,about
+- metafile playlists,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Metafile Guide

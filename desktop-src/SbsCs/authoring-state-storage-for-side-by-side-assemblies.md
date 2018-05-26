@@ -1,7 +1,12 @@
 ---
-Description: 'When creating your own side-by-side assemblies, follow the Guidelines for Creating Side-by-side Assemblies and author any DLL to be included in the assembly according to the guidelines in Authoring a DLL for a Side-by-Side Assembly.'
-ms.assetid: '0e98bbcd-7e23-4a33-b0fa-1f936d0ef96b'
-title: 'Authoring State Storage for Side-by-side Assemblies'
+Description: When creating your own side-by-side assemblies, follow the Guidelines for Creating Side-by-side Assemblies and author any DLL to be included in the assembly according to the guidelines in Authoring a DLL for a Side-by-Side Assembly.
+ms.assetid: 0e98bbcd-7e23-4a33-b0fa-1f936d0ef96b
+title: Authoring State Storage for Side-by-side Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring State Storage for Side-by-side Assemblies

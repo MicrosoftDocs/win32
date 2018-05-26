@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial presents a complete application that plays video using MFPlay.'
-ms.assetid: 'f72a7c1f-b059-474c-96f2-8fad3b1f7035'
-title: 'MFPlay Tutorial: Video Playback'
+Description: This tutorial presents a complete application that plays video using MFPlay.
+ms.assetid: f72a7c1f-b059-474c-96f2-8fad3b1f7035
+title: MFPlay Tutorial Video Playback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPlay Tutorial: Video Playback
@@ -89,22 +94,22 @@ A Boolean value that tracks whether video is playing.
 <span id="g_pPlayer"></span><span id="g_pplayer"></span><span id="G_PPLAYER"></span>*g\_pPlayer*
 </dt> <dd>
 
-A pointer to the [**IMFPMediaPlayer**](imfpmediaplayer.md) interface. This interface is used to control playback.
+A pointer to the [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master) interface. This interface is used to control playback.
 
 </dd> <dt>
 
 <span id="g_pCallback"></span><span id="g_pcallback"></span><span id="G_PCALLBACK"></span>*g\_pCallback*
 </dt> <dd>
 
-A pointer to the [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md) interface. The application implements this callback interface to get notifications from the player object.
+A pointer to the [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master) interface. The application implements this callback interface to get notifications from the player object.
 
 </dd> </dl>
 
 ## Declare the Callback Class
 
-To get event notifications from the player object, the application must implement the [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md) interface. The following code declares a class that implements the interface. The only member variable is *m\_cRef*, which stores the reference count.
+To get event notifications from the player object, the application must implement the [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master) interface. The following code declares a class that implements the interface. The only member variable is *m\_cRef*, which stores the reference count.
 
-The **IUnknown** methods are implemented inline. The implementation of the [**IMFPMediaPlayerCallback::OnMediaPlayerEvent**](imfpmediaplayercallback-onmediaplayerevent.md) method is shown later; see [Implement the Callback Method](#implement-the-callback-method).
+The **IUnknown** methods are implemented inline. The implementation of the [**IMFPMediaPlayerCallback::OnMediaPlayerEvent**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent?branch=master) method is shown later; see [Implement the Callback Method](#implement-the-callback-method).
 
 
 ```C++
@@ -175,8 +180,8 @@ template <class T> void SafeRelease(T **ppT)
 
 The `PlayMediaFile` function opens a media file, as follows:
 
-1.  If *g\_pPlayer* is **NULL**, the function calls [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) to create a new instance of the media player object. The input parameters to **MFPCreateMediaPlayer** include a pointer to the callback interface and a handle to the video window.
-2.  To open the media file, the function calls [**IMFPMediaPlayer::CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md), passing in the URL of the file. This method completes asynchronously. When it completes, the application's [**IMFPMediaPlayerCallback::OnMediaPlayerEvent**](imfpmediaplayercallback-onmediaplayerevent.md) method is called.
+1.  If *g\_pPlayer* is **NULL**, the function calls [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master) to create a new instance of the media player object. The input parameters to **MFPCreateMediaPlayer** include a pointer to the callback interface and a handle to the video window.
+2.  To open the media file, the function calls [**IMFPMediaPlayer::CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master), passing in the URL of the file. This method completes asynchronously. When it completes, the application's [**IMFPMediaPlayerCallback::OnMediaPlayerEvent**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent?branch=master) method is called.
 
 
 ```C++
@@ -291,7 +296,7 @@ Next, declare message handlers for the following window messages:
 -   **WM\_SIZE**
 -   **WM\_CLOSE**
 
-For the **WM\_PAINT** message, you must track whether video is currently playing. If so, call the [**IMFPMediaPlayer::UpdateVideo**](imfpmediaplayer-updatevideo.md) method. This method causes the player object to redraw the most recent video frame.
+For the **WM\_PAINT** message, you must track whether video is currently playing. If so, call the [**IMFPMediaPlayer::UpdateVideo**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-updatevideo?branch=master) method. This method causes the player object to redraw the most recent video frame.
 
 If there is no video, the application is responsible for painting the window. For this tutorial, the application simply calls the GDI **FillRect** function to fill the entire client area.
 
@@ -325,7 +330,7 @@ void OnPaint(HWND hwnd)
 
 
 
-For the **WM\_SIZE** message, call [**IMFPMediaPlayer::UpdateVideo**](imfpmediaplayer-updatevideo.md). This method causes the player object to readjust the video to match the current size of the window. Note that **UpdateVideo** is used for both **WM\_PAINT** and **WM\_SIZE**.
+For the **WM\_SIZE** message, call [**IMFPMediaPlayer::UpdateVideo**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-updatevideo?branch=master). This method causes the player object to readjust the video to match the current size of the window. Note that **UpdateVideo** is used for both **WM\_PAINT** and **WM\_SIZE**.
 
 
 ```C++
@@ -344,7 +349,7 @@ void OnSize(HWND /*hwnd*/, UINT state, int /*cx*/, int /*cy*/)
 
 
 
-For the **WM\_CLOSE** message, release the [**IMFPMediaPlayer**](imfpmediaplayer.md) and [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md) pointers.
+For the **WM\_CLOSE** message, release the [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master) and [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master) pointers.
 
 
 ```C++
@@ -360,9 +365,9 @@ void OnClose(HWND /*hwnd*/)
 
 ## Implement the Callback Method
 
-The [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md) interface defines a single method, [**OnMediaPlayerEvent**](imfpmediaplayercallback-onmediaplayerevent.md). This method notifies the application whenever an event occurs during playback. The method takes one parameter, a pointer to an [**MFP\_EVENT\_HEADER**](mfp-event-header.md) structure. The **eEventType** member of the structure specifies the event that occurred.
+The [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master) interface defines a single method, [**OnMediaPlayerEvent**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent?branch=master). This method notifies the application whenever an event occurs during playback. The method takes one parameter, a pointer to an [**MFP\_EVENT\_HEADER**](/windows/win32/mfplay/ns-mfplay-mfp_event_header?branch=master) structure. The **eEventType** member of the structure specifies the event that occurred.
 
-The [**MFP\_EVENT\_HEADER**](mfp-event-header.md) structure may be followed by additional data. For each event type, a macro is defined that casts the **MFP\_EVENT\_HEADER** pointer to an event-specific structure. (See [**MFP\_EVENT\_TYPE**](mfp-event-type.md).)
+The [**MFP\_EVENT\_HEADER**](/windows/win32/mfplay/ns-mfplay-mfp_event_header?branch=master) structure may be followed by additional data. For each event type, a macro is defined that casts the **MFP\_EVENT\_HEADER** pointer to an event-specific structure. (See [**MFP\_EVENT\_TYPE**](/windows/win32/mfplay/ne-mfplay-mfp_event_type?branch=master).)
 
 For this tutorial, two events are significant:
 
@@ -370,14 +375,14 @@ For this tutorial, two events are significant:
 
 | Event                                    | Description                                                                                       |
 |------------------------------------------|---------------------------------------------------------------------------------------------------|
-| **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** | Sent when the [**CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md) completes. |
-| **MFP\_EVENT\_TYPE\_MEDIAITEM\_SET**     | Sent when [**SetMediaItem**](imfpmediaplayer-setmediaitem.md) completes.                         |
+| **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** | Sent when the [**CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master) completes. |
+| **MFP\_EVENT\_TYPE\_MEDIAITEM\_SET**     | Sent when [**SetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem?branch=master) completes.                         |
 
 
 
  
 
-The following code shows how to cast the [**MFP\_EVENT\_HEADER**](mfp-event-header.md) pointer to the event-specific structure.
+The following code shows how to cast the [**MFP\_EVENT\_HEADER**](/windows/win32/mfplay/ns-mfplay-mfp_event_header?branch=master) pointer to the event-specific structure.
 
 
 ```C++
@@ -404,7 +409,7 @@ void MediaPlayerCallback::OnMediaPlayerEvent(MFP_EVENT_HEADER * pEventHeader)
 
 
 
-The **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** event notifies the application that the [**IMFPMediaPlayer::CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md) method has completed. The event structure contains a pointer to the [**IMFPMediaItem**](imfpmediaitem.md) interface, which represents the media item created from the URL. To queue the item for playback, pass this pointer to the [**IMFPMediaPlayer::SetMediaItem**](imfpmediaplayer-setmediaitem.md) method:
+The **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** event notifies the application that the [**IMFPMediaPlayer::CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master) method has completed. The event structure contains a pointer to the [**IMFPMediaItem**](/windows/win32/mfplay/nn-mfplay-imfpmediaitem?branch=master) interface, which represents the media item created from the URL. To queue the item for playback, pass this pointer to the [**IMFPMediaPlayer::SetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem?branch=master) method:
 
 
 ```C++
@@ -438,7 +443,7 @@ void OnMediaItemCreated(MFP_MEDIAITEM_CREATED_EVENT *pEvent)
 
 
 
-The **MFP\_EVENT\_TYPE\_MEDIAITEM\_SET** event notifies the application that [**SetMediaItem**](imfpmediaplayer-setmediaitem.md) has completed. Call [**IMFPMediaPlayer::Play**](imfpmediaplayer-play.md) to start playback:
+The **MFP\_EVENT\_TYPE\_MEDIAITEM\_SET** event notifies the application that [**SetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem?branch=master) has completed. Call [**IMFPMediaPlayer::Play**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-play?branch=master) to start playback:
 
 
 ```C++

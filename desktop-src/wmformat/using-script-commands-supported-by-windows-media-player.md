@@ -1,8 +1,22 @@
 ---
 title: Using Script Commands Supported by Windows Media Player
 description: Using Script Commands Supported by Windows Media Player
-ms.assetid: '7054ce49-c000-4978-891e-825a83bfda5c'
-keywords: ["Windows Media Format SDK,script commands", "Windows Media Format SDK,Windows Media Player", "Advanced Systems Format (ASF),script commands", "ASF (Advanced Systems Format),script commands", "Advanced Systems Format (ASF),Windows Media Player", "ASF (Advanced Systems Format),Windows Media Player", "scripts,commands", "scripts,Windows Media Player", "Windows Media Player"]
+ms.assetid: 7054ce49-c000-4978-891e-825a83bfda5c
+keywords:
+- Windows Media Format SDK,script commands
+- Windows Media Format SDK,Windows Media Player
+- Advanced Systems Format (ASF),script commands
+- ASF (Advanced Systems Format),script commands
+- Advanced Systems Format (ASF),Windows Media Player
+- ASF (Advanced Systems Format),Windows Media Player
+- scripts,commands
+- scripts,Windows Media Player
+- Windows Media Player
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Script Commands Supported by Windows Media Player

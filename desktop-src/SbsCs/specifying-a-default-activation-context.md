@@ -1,7 +1,12 @@
 ---
 Description: Specifying a Default Activation Context
-ms.assetid: '4d9a8552-7098-458d-a592-45524871cce5'
+ms.assetid: 4d9a8552-7098-458d-a592-45524871cce5
 title: Specifying a Default Activation Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying a Default Activation Context
@@ -14,7 +19,7 @@ If you use none of these methods, the application starts with the system default
 
 A better way of using automatic context management is by compiling your application with ISOLATION\_AWARE\_ENABLED defined. The recommended method is to set this on the compiler's command line for the entire project being built rather than being set in individual source files or headers. This makes most Win32 APIs aware of activation contexts and how to manage them. Instead of having to do your own activation context management, you simply need to place a manifest in your resource table at resource ID ISOLATIONAWARE\_MANIFEST\_RESOURCE\_ID (numeric value 2), of type RT\_MANIFEST (numeric value 24.) Functions such as [**CreateWindow**](_win32_createwindow_cpp), [**CoCreateInstance**](_com_cocreateinstance), and [**SendMessage**](_win32_sendmessage_cpp) then automatically activate this context before making the actual call.
 
-Note that if you compile with ISOLATION\_AWARE\_ENABLED defined, you cannot also do your own activation context management. With ISOLATION\_AWARE\_ENABLED defined, Windows ignores any dynamic activation context creation your application may attempt to do between [**ActivateActCtx**](activateactctx.md) and [**CreateWindow**](_win32_createwindow_cpp) calls. This means that when your application uses ISOLATION\_AWARE\_ENABLED you must make sure that the manifest contains a complete list of all assemblies that your component requires.
+Note that if you compile with ISOLATION\_AWARE\_ENABLED defined, you cannot also do your own activation context management. With ISOLATION\_AWARE\_ENABLED defined, Windows ignores any dynamic activation context creation your application may attempt to do between [**ActivateActCtx**](/windows/win32/Winbase/nf-winbase-activateactctx?branch=master) and [**CreateWindow**](_win32_createwindow_cpp) calls. This means that when your application uses ISOLATION\_AWARE\_ENABLED you must make sure that the manifest contains a complete list of all assemblies that your component requires.
 
  
 

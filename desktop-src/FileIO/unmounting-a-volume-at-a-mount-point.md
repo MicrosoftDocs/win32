@@ -1,12 +1,17 @@
 ---
-Description: 'How to delete a mounted folder by using the DeleteVolumeMountPoint function.'
-ms.assetid: '33049110-acf8-4db5-a9c4-bd4a884c8590'
+Description: How to delete a mounted folder by using the DeleteVolumeMountPoint function.
+ms.assetid: 33049110-acf8-4db5-a9c4-bd4a884c8590
 title: Deleting a Mounted Folder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deleting a Mounted Folder
 
-The code example in this topic shows you how to delete a mounted folder by using the [**DeleteVolumeMountPoint**](deletevolumemountpoint.md) function. For more information, see [Creating Mounted Folders](mounting-and-dismounting-a-volume.md).
+The code example in this topic shows you how to delete a mounted folder by using the [**DeleteVolumeMountPoint**](/windows/win32/FileAPI/nf-fileapi-deletevolumemountpointw?branch=master) function. For more information, see [Creating Mounted Folders](mounting-and-dismounting-a-volume.md).
 
 
 ```C++

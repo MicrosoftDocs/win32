@@ -1,13 +1,16 @@
 ---
-Description: 'Converts a Win32\_SecurityDescriptor instance to a security descriptor in Security Descriptor Definition Language (SDDL) string format.'
+Description: Converts a Win32\_SecurityDescriptor instance to a security descriptor in Security Descriptor Definition Language (SDDL) string format.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ebf957ca-d2bb-4928-a92d-08e7db447ebd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ebf957ca-d2bb-4928-a92d-08e7db447ebd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32SDToSDDL method of the Win32\_SecurityDescriptorHelper class'
+title: Win32SDToSDDL method of the Win32\_SecurityDescriptorHelper class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32SDToSDDL method of the Win32\_SecurityDescriptorHelper class
@@ -19,8 +22,8 @@ The **Win32SDToSDDL** WMI class method converts a [**Win32\_SecurityDescriptor**
 
 ```mof
 uint32 Win32SDToSDDL(
-  [in]  __SecurityDescriptor Descriptor,
-  [out] string               SDDL
+  [in]  __SecurityDescriptor Descriptor,
+  [out] string               SDDL
 );
 ```
 
@@ -146,8 +149,8 @@ WScript.Echo SDDLstring
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -167,9 +170,9 @@ WScript.Echo SDDLstring
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

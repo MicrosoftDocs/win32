@@ -1,8 +1,14 @@
 ---
 title: Restart Manager
 description: Write custom installers to eliminate system restarts that are required to complete updating a file in use. Shut down and restart all but critical system services from programs.
-ms.assetid: '44b7975a-0093-4c8f-9a14-2a6bfd7a68a5'
-keywords: ["Restart Manager Restart Mgr"]
+ms.assetid: 44b7975a-0093-4c8f-9a14-2a6bfd7a68a5
+keywords:
+- Restart Manager Restart Mgr
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restart Manager
@@ -19,11 +25,11 @@ Restart Manager is intended for the development of desktop style applications.
 
 ## Developer audience
 
-This documentation is intended for developers of installation applications who want to take advantage of the installer capabilities in Windows Vista or Windows Server 2008. Applications that use the [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688) version 4.0 for installation and servicing automatically use the Restart Manager to reduce system restarts. Custom installers can also be designed to call the Restart Manager API to shut down and restart applications and services. In cases where a system restart is unavoidable, installers can use the Restart Manager API to schedule restarts in such a way that it minimizes the disruption of the user's work flow.
+This documentation is intended for developers of installation applications who want to take advantage of the installer capabilities in Windows Vista or Windows Server 2008. Applications that use the [Windows Installer](https://msdn.microsoft.com/library/windows/desktop/cc185688) version 4.0 for installation and servicing automatically use the Restart Manager to reduce system restarts. Custom installers can also be designed to call the Restart Manager API to shut down and restart applications and services. In cases where a system restart is unavoidable, installers can use the Restart Manager API to schedule restarts in such a way that it minimizes the disruption of the user's work flow.
 
 ## Run-time requirements
 
-The Restart Manager API is available beginning with Windows Vista and Windows Server 2008. Restart Manager consists of a single DLL that applications can load to access the Restart Manager API.
+The Restart Manager API is available beginning with Windows Vista and Windows Server 2008. Restart Manager consists of a single DLL that applications can load to access the Restart Manager API.
 
 ## In this section
 
@@ -37,11 +43,11 @@ The Restart Manager API is available beginning with Windows Vista and Windows Se
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

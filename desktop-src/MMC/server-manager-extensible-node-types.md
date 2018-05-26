@@ -4,10 +4,13 @@ description: The Server Manager snap-in allows extensions for the following node
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b87a047b-71f5-486a-a7d4-709f4a92709f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b87a047b-71f5-486a-a7d4-709f4a92709f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server Manager Extensible Node Types
@@ -44,11 +47,11 @@ The Server Manager snap-in allows extensions for the following node types.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

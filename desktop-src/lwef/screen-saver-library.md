@@ -1,8 +1,17 @@
 ---
 title: Handling Screen Savers
 description: The Microsoft Win32 API supports special applications called screen savers.
-ms.assetid: 'cda5e690-71fe-4df7-b8a2-3a2ad65b1bfb'
-keywords: ["screen savers", "Control Panel,screen savers", "ScreenSaverConfigureDialog", "module-definition files"]
+ms.assetid: cda5e690-71fe-4df7-b8a2-3a2ad65b1bfb
+keywords:
+- screen savers
+- Control Panel,screen savers
+- ScreenSaverConfigureDialog
+- module-definition files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Screen Savers

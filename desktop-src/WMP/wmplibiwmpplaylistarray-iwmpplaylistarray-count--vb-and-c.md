@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylistArray count property
 description: The count property gets the number of playlists in the playlist array.
-ms.assetid: '24603d05-4016-4aac-a623-75be668065c8'
-keywords: ["count property Windows Media Player", "count property Windows Media Player , IWMPPlaylistArray interface", "IWMPPlaylistArray interface Windows Media Player , count property"]
+ms.assetid: 24603d05-4016-4aac-a623-75be668065c8
+keywords:
+- count property Windows Media Player
+- count property Windows Media Player , IWMPPlaylistArray interface
+- IWMPPlaylistArray interface Windows Media Player , count property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistArray::count property
@@ -71,9 +79,9 @@ Before using this property, you must have read access to the library. For more i
 [**IWMPPlaylistArray Interface (VB and C#)**](iwmpplaylistarray--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

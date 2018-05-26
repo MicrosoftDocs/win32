@@ -1,14 +1,15 @@
 ---
 title: MMCN\_RESTORE\_VIEW message
-description: Sent to the snap-in's IComponent Notify method when the result pane for a scope item must be restored by the snap-in after the user has navigated the view history using the back or forward buttons.
+description: Sent to the snap-ins IComponent Notify method when the result pane for a scope item must be restored by the snap-in after the user has navigated the view history using the back or forward buttons.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5b6c6d7c-af9f-4773-b9b1-1e11f4a1c1f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5b6c6d7c-af9f-4773-b9b1-1e11f4a1c1f8
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_RESTORE_VIEW message MMC"]
+keywords:
+- MMCN_RESTORE_VIEW message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_RESTORE\_VIEW message
@@ -82,7 +86,7 @@ When the back and forward buttons are used to navigate the result pane history o
 
 The snap-in should respond to the notification by setting itself to the same state as when that item originally appeared in the result pane. This means performing any initialization or assignment performed in the original call to [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) or the notification handler for the context menu item that represents the view selected in the **View** menu.
 
-If the item to display is a custom OCX, webpage, or taskpad, the snap-in should handle that notification by setting the appropriate menu item in the **View** context menu and initializing the OCX or taskpad (if necessary). Then the snap-in should set its internal view type state (usually, a member variable stores the current view type in the class that implements [**IComponent**](icomponent.md)) and set the param value to **TRUE**.
+If the item to display is a custom OCX, webpage, or taskpad, the snap-in should handle that notification by setting the appropriate menu item in the **View** context menu and initializing the OCX or taskpad (if necessary). Then the snap-in should set its internal view type state (usually, a member variable stores the current view type in the class that implements [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master)) and set the param value to **TRUE**.
 
 If the item to display is a virtual list in the result pane, the snap-in should initialize or set up the virtual list, set its internal view type state, and set the param value to **TRUE**.
 
@@ -90,7 +94,7 @@ If the item to display is a standard list in the result pane, the snap-in only m
 
 MMC then reselects the appropriate item in the scope pane and displays the item with the appropriate view in the result pane.
 
-Be aware that MMC does not persist any view information other than the options specified by the [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) method. If the snap-in must persist any other view information, it must implement a mechanism for storing the information and save it to stream or storage when the **Save** method of its [**IPersistStream**](https://msdn.microsoft.com/library/windows/desktop/ms690091) or [**IPersistStorage**](https://msdn.microsoft.com/library/windows/desktop/ms679731) interface implementation is called. Furthermore, this view-related information should be saved by the **IPersistStream** or **IPersistStorage** interface queried from the [**IComponent**](icomponent.md) associated with the view. Only information not related to any specific view should be saved by the **IPersistStream** or **IPersistStorage** interface queried from the snap-in's [**IComponentData**](icomponentdata.md) implementation.
+Be aware that MMC does not persist any view information other than the options specified by the [**IComponent::GetResultViewType**](icomponent-getresultviewtype.md) method. If the snap-in must persist any other view information, it must implement a mechanism for storing the information and save it to stream or storage when the **Save** method of its [**IPersistStream**](https://msdn.microsoft.com/library/windows/desktop/ms690091) or [**IPersistStorage**](https://msdn.microsoft.com/library/windows/desktop/ms679731) interface implementation is called. Furthermore, this view-related information should be saved by the **IPersistStream** or **IPersistStorage** interface queried from the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) associated with the view. Only information not related to any specific view should be saved by the **IPersistStream** or **IPersistStorage** interface queried from the snap-in's [**IComponentData**](icomponentdata.md) implementation.
 
 One notable exception to the fact that MMC persists only the options specified by the [**GetResultViewType**](icomponent-getresultviewtype.md) options is that MMC also persists list view column configuration data. For more information, see [Using Column Persistence](using-column-persistence.md).
 
@@ -100,8 +104,8 @@ One notable exception to the fact that MMC persists only the options specified b
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -119,9 +123,9 @@ One notable exception to the fact that MMC persists only the options specified b
 [**MMC\_RESTORE\_VIEW**](mmc-restore-view.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,27 @@
 ---
 title: About Waveform Audio
 description: About Waveform Audio
-ms.assetid: '2d886488-bdab-4422-b89e-15140d86fe48'
-keywords: ["Windows multimedia,waveform audio", "multimedia,waveform audio", "multimedia audio,waveform", "audio,waveform", "waveform audio,about", "multimedia audio,PlaySound function", "audio,PlaySound function", "waveform audio,PlaySound function", "PlaySound function,about"]
+ms.assetid: 2d886488-bdab-4422-b89e-15140d86fe48
+keywords:
+- Windows multimedia,waveform audio
+- multimedia,waveform audio
+- multimedia audio,waveform
+- audio,waveform
+- waveform audio,about
+- multimedia audio,PlaySound function
+- audio,PlaySound function
+- waveform audio,PlaySound function
+- PlaySound function,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Waveform Audio
 
-There are several methods for adding sound to your application using waveform audio. The simplest method documented here is that of using the [**PlaySound**](playsound.md) function. Most of the other waveform-audio API elements are relatively low-level.
+There are several methods for adding sound to your application using waveform audio. The simplest method documented here is that of using the [**PlaySound**](/windows/win32/Mmsystem/?branch=master) function. Most of the other waveform-audio API elements are relatively low-level.
 
 For more information, see the following topics:
 

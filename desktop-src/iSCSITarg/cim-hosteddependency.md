@@ -4,13 +4,15 @@ description: HostedDependency defines a ManagedElement in the context of another
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e2e37f61-ea4f-4240-82ca-6df8a076da70'
-ms.prod: 'windows-server-dev'
+ms.assetid: e2e37f61-ea4f-4240-82ca-6df8a076da70
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_HostedDependency class iSCSI Software Target API", "CIM_HostedDependency class iSCSI Software Target API , described"]
+keywords:
+- CIM_HostedDependency class iSCSI Software Target API
+- CIM_HostedDependency class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedDependency class
@@ -91,7 +96,7 @@ A [**CIM\_ManagedElement**](cim-managedelement.md) containing the hosted Managed
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ A [**CIM\_ManagedElement**](cim-managedelement.md) containing the hosted Managed
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

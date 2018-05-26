@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides reference information for MsNetImPlatform provider classes implemented in NdisIMPlatCim.dll.'
-ms.assetid: '5272EC51-8955-4809-9B76-4C1AA17C78A6'
+Description: This section provides reference information for MsNetImPlatform provider classes implemented in NdisIMPlatCim.dll.
+ms.assetid: 5272EC51-8955-4809-9B76-4C1AA17C78A6
 title: MsNetImPlatform Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsNetImPlatform Provider
@@ -27,11 +32,11 @@ This section provides reference information for **MsNetImPlatform** provider cla
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

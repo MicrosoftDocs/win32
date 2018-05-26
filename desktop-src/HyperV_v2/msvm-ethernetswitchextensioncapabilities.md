@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the association between Ethernet extensions and their capabilities.'
-ms.assetid: '6b32235a-175d-48f9-af3a-2d40f748a518'
-title: 'Msvm\_EthernetSwitchExtensionCapabilities class'
+Description: Represents the association between Ethernet extensions and their capabilities.
+ms.assetid: 6b32235a-175d-48f9-af3a-2d40f748a518
+title: Msvm\_EthernetSwitchExtensionCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchExtensionCapabilities class
@@ -16,9 +21,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EthernetSwitchExtensionCapabilities : CIM_ElementCapabilities
 {
-  Msvm_InstalledEthernetSwitchExtension  REF ManagedElement;
+  Msvm_InstalledEthernetSwitchExtension  REF ManagedElement;
   Msvm_EthernetSwitchFeatureCapabilities REF Capabilities;
-  uint16                                     Characteristics[];
+  uint16                                     Characteristics[];
 };
 ```
 
@@ -70,7 +75,7 @@ Provides descriptive information about the capabilities. This property is inheri
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,17 +101,17 @@ A reference to an instance of the [**Msvm\_InstalledEthernetSwitchExtension**](m
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

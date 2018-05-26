@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used by applications to enumerate IWiaItem2 objects in the item tree''s current folder.'
-ms.assetid: 'a82298e0-fbe7-4ef5-99c5-18ff60538e03'
+---
+Description: Used by applications to enumerate IWiaItem2 objects in the item trees current folder.
+ms.assetid: a82298e0-fbe7-4ef5-99c5-18ff60538e03
 title: IEnumWiaItem2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumWiaItem2 interface

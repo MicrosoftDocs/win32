@@ -1,8 +1,16 @@
 ---
 title: CustomHeaderExample
 description: This example shows how to add and retrieve a custom header.
-ms.assetid: '9c0cabee-4645-4b2d-a132-4494911f05b3'
-keywords: ["CustomHeaderExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 9c0cabee-4645-4b2d-a132-4494911f05b3
+keywords:
+- CustomHeaderExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CustomHeaderExample

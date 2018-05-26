@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to the buffer that contains the constant table.'
-ms.assetid: '71dda064-15f8-415c-aba7-60255886c6b4'
-title: 'ID3DXConstantTable::GetBufferPointer method'
+---
+Description: Gets a pointer to the buffer that contains the constant table.
+ms.assetid: 71dda064-15f8-415c-aba7-60255886c6b4
+title: ID3DXConstantTableGetBufferPointer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::GetBufferPointer method

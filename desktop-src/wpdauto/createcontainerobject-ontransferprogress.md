@@ -1,14 +1,22 @@
 ---
 title: createContainer.onTransferProgress event
 description: The onTransferProgress event indicates the progress of a data transfer operation from an IStream.
-ms.assetid: '35c2b56c-4e1e-4155-ae4b-efb9e9f95f68'
-keywords: ["onTransferProgress event WPD Automation", "onTransferProgress event WPD Automation , createContainer object", "createContainer object WPD Automation , onTransferProgress event"]
+ms.assetid: 35c2b56c-4e1e-4155-ae4b-efb9e9f95f68
+keywords:
+- onTransferProgress event WPD Automation
+- onTransferProgress event WPD Automation , createContainer object
+- createContainer object WPD Automation , onTransferProgress event
 topic_type:
 - apiref
 api_name:
 - createContainer.onTransferProgress
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # createContainer.onTransferProgress event
@@ -80,8 +88,8 @@ createContainerObject.onTransferProgress = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -98,9 +106,9 @@ createContainerObject.onTransferProgress = HandlerFunction;
 [**Storage Object**](storage-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

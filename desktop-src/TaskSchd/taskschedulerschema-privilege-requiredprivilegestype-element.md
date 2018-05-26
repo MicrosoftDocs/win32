@@ -1,14 +1,20 @@
 ---
 title: Privilege (requiredPrivilegesType) Element
 description: Specifies the right of a task to perform various system-related operations, such as shutting down the system, loading device drivers, or changing the system time.
-ms.assetid: 'd5585d1c-e121-4770-a13e-108158bc703e'
-keywords: ["Privilege element Task Scheduler"]
+ms.assetid: d5585d1c-e121-4770-a13e-108158bc703e
+keywords:
+- Privilege element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Privilege
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Privilege (requiredPrivilegesType) Element
@@ -37,7 +43,7 @@ The **Privilege** element is defined by the [**requiredPrivilegesType**](tasksch
 
 ## Remarks
 
-For C++ development, this information is accessed through the [**IPrincipal2::RequiredPrivilege**](iprincipal2-requiredprivilege.md) property.
+For C++ development, this information is accessed through the [**IPrincipal2::RequiredPrivilege**](/windows/win32/taskschd/nf-taskschd-iprincipal2-get_requiredprivilege?branch=master) property.
 
 ## Examples
 
@@ -61,8 +67,8 @@ The following XML defines a settings element that specifies the right of a task 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -73,9 +79,9 @@ The following XML defines a settings element that specifies the right of a task 
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

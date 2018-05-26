@@ -4,17 +4,22 @@ description: Distinguished Name of a local policy object that a policy object co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a574713e-0340-45af-b863-6cc1035e5bb9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a574713e-0340-45af-b863-6cc1035e5bb9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Local-Policy-Reference attribute AD Schema", "localPolicyReference attribute AD Schema"]
+keywords:
+- Local-Policy-Reference attribute AD Schema
+- localPolicyReference attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Local-Policy-Reference
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Local-Policy-Reference attribute

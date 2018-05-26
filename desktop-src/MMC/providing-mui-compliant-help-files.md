@@ -1,13 +1,16 @@
 ---
 title: Providing MUI-Compliant Help Files
-description: MMC 2.0 supports Multilingual User Interface systems by allowing a snap-in to use online Help files created for the user's specific language.
+description: MMC 2.0 supports Multilingual User Interface systems by allowing a snap-in to use online Help files created for the users specific language.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '01a13430-e64e-4e3a-8db9-1d42ad9b32bb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 01a13430-e64e-4e3a-8db9-1d42ad9b32bb
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Providing MUI-Compliant Help Files

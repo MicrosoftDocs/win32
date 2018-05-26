@@ -2,13 +2,16 @@
 title: GetDACertificateFromRawData method of the PS\_RemoteAccessLocal class
 description: This method retrieves a Certificate from the local machine which matches the input raw data.
 audience: developer
-ms.assetid: 'c5649292-329c-43fa-9b67-56049a1423c0'
-ms.prod: 'windows-server-dev'
+ms.assetid: c5649292-329c-43fa-9b67-56049a1423c0
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDACertificateFromRawData method", "GetDACertificateFromRawData method, PS_RemoteAccessLocal class", "PS_RemoteAccessLocal class, GetDACertificateFromRawData method"]
+keywords:
+- GetDACertificateFromRawData method
+- GetDACertificateFromRawData method, PS_RemoteAccessLocal class
+- PS_RemoteAccessLocal class, GetDACertificateFromRawData method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDACertificateFromRawData method of the PS\_RemoteAccessLocal class
@@ -28,10 +34,10 @@ This method retrieves a Certificate from the local machine which matches the inp
 
 ```mof
 uint32 GetDACertificateFromRawData(
-  [in]  uint8                CertificateRawData[],
-  [in]  uint32               CertificateRawDataType,
-  [in]  uint32               Purpose,
-  [out] DACertificateContext EncodedCertificate
+  [in]  uint8                CertificateRawData[],
+  [in]  uint32               CertificateRawDataType,
+  [in]  uint32               Purpose,
+  [out] DACertificateContext EncodedCertificate
 );
 ```
 
@@ -162,7 +168,7 @@ On success, contains a [**DACertificateContext**](dacertificatecontext.md) that 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -176,9 +182,9 @@ On success, contains a [**DACertificateContext**](dacertificatecontext.md) that 
 [**PS\_RemoteAccessLocal**](ps-remoteaccesslocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

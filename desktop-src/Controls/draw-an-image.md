@@ -1,12 +1,17 @@
 ---
 title: How to Draw an Image
 description: This topic demonstrates how to use the ImageList\_Draw function to draw an image.
-ms.assetid: 'BE2F20F3-B7D3-4FA2-B1E9-60A47A609C36'
+ms.assetid: BE2F20F3-B7D3-4FA2-B1E9-60A47A609C36
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Draw an Image
 
-This topic demonstrates how to use the [**ImageList\_Draw**](imagelist-draw.md) function to draw an image.
+This topic demonstrates how to use the [**ImageList\_Draw**](/windows/win32/Commctrl/nf-commctrl-imagelist_draw?branch=master) function to draw an image.
 
 ## What you need to know
 
@@ -23,9 +28,9 @@ This topic demonstrates how to use the [**ImageList\_Draw**](imagelist-draw.md) 
 
 ### 
 
-To draw an image, you use the [**ImageList\_Draw**](imagelist-draw.md) or [**ImageList\_DrawEx**](imagelist-drawex.md) function. You specify the handle to an image list, the index of the image to draw, the handle to the destination device context, a location within the device context, and one or more drawing styles.
+To draw an image, you use the [**ImageList\_Draw**](/windows/win32/Commctrl/nf-commctrl-imagelist_draw?branch=master) or [**ImageList\_DrawEx**](/windows/win32/Commctrl/nf-commctrl-imagelist_drawex?branch=master) function. You specify the handle to an image list, the index of the image to draw, the handle to the destination device context, a location within the device context, and one or more drawing styles.
 
-The user-defined function in the following C++ code example uses the [**ImageList\_Draw**](imagelist-draw.md) function to draw an image and saves the client coordinates of the image's bounding rectangle. A subsequent function uses the bounding rectangle to determine whether the user has clicked on the image.
+The user-defined function in the following C++ code example uses the [**ImageList\_Draw**](/windows/win32/Commctrl/nf-commctrl-imagelist_draw?branch=master) function to draw an image and saves the client coordinates of the image's bounding rectangle. A subsequent function uses the bounding rectangle to determine whether the user has clicked on the image.
 
 ## 
 

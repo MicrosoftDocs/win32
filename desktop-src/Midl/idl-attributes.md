@@ -2,7 +2,15 @@
 title: IDL Attributes
 description: Attributes are keywords that specify the characteristics of an interface and of the data and methods within that interface.
 ms.assetid: 6cbf4023-a24b-4682-885e-bdfe165f7ecc
-keywords: ["IDL MIDL", "IDL MIDL , attributes", "Microsoft Interface Definition Language MIDL , described, IDL"]
+keywords:
+- IDL MIDL
+- IDL MIDL , attributes
+- Microsoft Interface Definition Language MIDL , described, IDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDL Attributes

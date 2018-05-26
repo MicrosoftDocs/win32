@@ -1,7 +1,12 @@
-﻿---
-Description: 'A user interface plug-in''s IPrintOemUI::FontInstallerDlgProc method replaces the Unidrv font installer''s user interface.'
-ms.assetid: '6f63d48d-7c2f-4531-b6db-fd4fdcfbce27'
-title: 'IPrintOemUI::FontInstallerDlgProc method'
+---
+Description: A user interface plug-ins IPrintOemUIFontInstallerDlgProc method replaces the Unidrv font installers user interface.
+ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
+title: IPrintOemUIFontInstallerDlgProc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::FontInstallerDlgProc method

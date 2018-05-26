@@ -1,6 +1,11 @@
-﻿---
-Description: 'Indicates that the ShellFolderView object has finished enumerating the folder''s contents.'
-title: 'ShellFolderViewOC.EnumDone event'
+---
+Description: Indicates that the ShellFolderView object has finished enumerating the folders contents.
+title: ShellFolderViewOC.EnumDone event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderViewOC.EnumDone event

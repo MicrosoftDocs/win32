@@ -1,8 +1,9 @@
 ---
 title: TCM\_REMOVEIMAGE message
-description: Removes an image from a tab control's image list. You can send this message explicitly or by using the TabCtrl\_RemoveImage macro.
-ms.assetid: 'f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf'
-keywords: ["TCM_REMOVEIMAGE message Windows Controls"]
+description: Removes an image from a tab controls image list. You can send this message explicitly or by using the TabCtrl\_RemoveImage macro.
+ms.assetid: f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf
+keywords:
+- TCM_REMOVEIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_REMOVEIMAGE message
 
-Removes an image from a tab control's image list. You can send this message explicitly or by using the [**TabCtrl\_RemoveImage**](tabctrl-removeimage.md) macro.
+Removes an image from a tab control's image list. You can send this message explicitly or by using the [**TabCtrl\_RemoveImage**](/windows/win32/Commctrl/nf-commctrl-tabctrl_removeimage?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ The tab control updates each tab's image index, so each tab remains associated w
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

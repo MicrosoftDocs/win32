@@ -1,7 +1,12 @@
 ---
-Description: 'The SetProperties method specifies the number of buffers to allocate and the size of each buffer.'
-ms.assetid: '01f63379-1d66-4a72-b87c-de55504b0bb4'
-title: 'CMemAllocator.SetProperties method'
+Description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
+ms.assetid: 01f63379-1d66-4a72-b87c-de55504b0bb4
+title: CMemAllocator.SetProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMemAllocator.SetProperties method
@@ -13,8 +18,8 @@ The `SetProperties` method specifies the number of buffers to allocate and the s
 
 ```C++
 HRESULT SetProperties(
-   ALLOCATOR_PROPERTIES *pRequest,
-   ALLOCATOR_PROPERTIES *pActual
+   ALLOCATOR_PROPERTIES *pRequest,
+   ALLOCATOR_PROPERTIES *pActual
 );
 ```
 
@@ -27,7 +32,7 @@ HRESULT SetProperties(
 *pRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that contains the buffer requirements.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that contains the buffer requirements.
 
 </dd> <dt>
 
@@ -54,7 +59,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +85,9 @@ The buffer alignment, specified by the **cbAlign** member of the **ALLOCATOR\_PR
 [**CMemAllocator Class**](cmemallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

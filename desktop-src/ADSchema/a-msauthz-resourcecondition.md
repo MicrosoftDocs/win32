@@ -4,17 +4,22 @@ description: For a central access rule, this attribute is an expression that ide
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd3c1815e-3fa1-4106-82a1-74403f07fcde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d3c1815e-3fa1-4106-82a1-74403f07fcde
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Resource-Condition attribute AD Schema", "msAuthz-ResourceCondition attribute AD Schema"]
+keywords:
+- ms-Authz-Resource-Condition attribute AD Schema
+- msAuthz-ResourceCondition attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Resource-Condition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Resource-Condition attribute
@@ -38,7 +43,7 @@ For a central access rule, this attribute is an expression that identifies the s
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a central access rule, this attribute is an expression that identifies the s
 
 
 
- 
+ 
 
- 
+ 
 
 
 

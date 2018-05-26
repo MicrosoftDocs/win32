@@ -1,7 +1,12 @@
-﻿---
-Description: 'ModuleFiles property of the GetFiles object returns all the primary keys of the File table for the currently open module.'
-ms.assetid: 'e1c8049c-b271-4def-abde-89ea99393574'
-title: 'GetFiles.ModuleFiles property'
+---
+Description: ModuleFiles property of the GetFiles object returns all the primary keys of the File table for the currently open module.
+ms.assetid: e1c8049c-b271-4def-abde-89ea99393574
+title: GetFiles.ModuleFiles property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFiles.ModuleFiles property
@@ -29,7 +34,7 @@ If the module has no File table, or contains no files in the particular language
 
 ### C++
 
-See [**get\_ModuleFiles**](imsmgetfiles-get-modulefiles.md) function.
+See [**get\_ModuleFiles**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 

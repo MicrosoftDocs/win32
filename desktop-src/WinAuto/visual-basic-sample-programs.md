@@ -1,7 +1,12 @@
 ---
 title: Visual Basic Sample Programs
 description: The book Advanced Microsoft Visual Basic 6.0, 2nd Edition (Mandelbrot Set International, Ltd.) includes a chapter that discusses Microsoft Active Accessibility.
-ms.assetid: 'dd91d9b2-067f-4510-b0a6-be6a511adcc0'
+ms.assetid: dd91d9b2-067f-4510-b0a6-be6a511adcc0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual Basic Sample Programs

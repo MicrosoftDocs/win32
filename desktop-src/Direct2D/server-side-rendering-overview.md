@@ -1,8 +1,14 @@
 ---
 title: Using Direct2D for Server-Side Rendering
 description: Describes using Direct2D for server-side rendering.
-ms.assetid: '12bf4f14-d86f-40ff-b3d3-15ffb3bd7300'
-keywords: ["Direct2D, server-side rendering"]
+ms.assetid: 12bf4f14-d86f-40ff-b3d3-15ffb3bd7300
+keywords:
+- Direct2D, server-side rendering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Direct2D for Server-Side Rendering
@@ -65,7 +71,7 @@ Knowing how to create and share factories and render targets across threads can 
 
 ![direct2d multithreading diagram with a single render target.](images/server-side-rendering-1.png)
 
-In figure 1, different threads share the same factory and the same render target. This approach can lead to unpredictable results in cases when multiple threads simultaneously change the state of the shared render target, such as simultaneously setting the transformation matrix. As the internal locking in Direct2D does not synchronize a shared resource such as render targets, this approach can cause the [**BeginDraw**](id2d1rendertarget-begindraw.md) call to fail in thread 1, because in thread 2, the **BeginDraw** call is already using the shared render target.
+In figure 1, different threads share the same factory and the same render target. This approach can lead to unpredictable results in cases when multiple threads simultaneously change the state of the shared render target, such as simultaneously setting the transformation matrix. As the internal locking in Direct2D does not synchronize a shared resource such as render targets, this approach can cause the [**BeginDraw**](/windows/win32/d2d1/?branch=master) call to fail in thread 1, because in thread 2, the **BeginDraw** call is already using the shared render target.
 
 ![direct2d multithreading diagram with multiple render targets.](images/server-side-rendering-2.png)
 

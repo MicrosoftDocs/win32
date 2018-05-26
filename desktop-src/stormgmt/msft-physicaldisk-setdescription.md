@@ -1,8 +1,11 @@
 ---
 title: SetDescription method of the MSFT\_PhysicalDisk class
 description: Sets or changes the description for the physical disk.
-ms.assetid: '2BD6A32E-DE02-4632-98E4-123EF9A7EDD5'
-keywords: ["SetDescription method Windows Storage Management API", "SetDescription method Windows Storage Management API , MSFT_PhysicalDisk class", "MSFT_PhysicalDisk class Windows Storage Management API , SetDescription method"]
+ms.assetid: 2BD6A32E-DE02-4632-98E4-123EF9A7EDD5
+keywords:
+- SetDescription method Windows Storage Management API
+- SetDescription method Windows Storage Management API , MSFT_PhysicalDisk class
+- MSFT_PhysicalDisk class Windows Storage Management API , SetDescription method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetDescription method of the MSFT\_PhysicalDisk class
@@ -22,8 +30,8 @@ Sets or changes the description for the physical disk.
 
 ```mof
 UInt32 SetDescription(
-  [in]  String Description,
-  [out] String ExtendedStatus
+  [in]  String Description,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -95,8 +103,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -109,9 +117,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_PhysicalDisk**](msft-physicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

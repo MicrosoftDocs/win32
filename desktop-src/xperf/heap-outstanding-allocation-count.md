@@ -1,7 +1,12 @@
 ---
 title: Heap Outstanding Allocation Count
 description: Heap Outstanding Allocation Count
-ms.assetid: 'd87bad5b-416b-4bef-9a2d-a0608493db9b'
+ms.assetid: d87bad5b-416b-4bef-9a2d-a0608493db9b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Heap Outstanding Allocation Count

@@ -1,7 +1,12 @@
 ---
-Description: 'A window class is supported by a window procedure. Your application can register a window class by using either RegisterClassA or RegisterClassW. New applications should typically use RegisterClassW.'
-ms.assetid: '016296ce-6151-4673-ad59-c69a2138a05a'
+Description: A window class is supported by a window procedure. Your application can register a window class by using either RegisterClassA or RegisterClassW. New applications should typically use RegisterClassW.
+ms.assetid: 016296ce-6151-4673-ad59-c69a2138a05a
 title: Registering Window Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Window Classes

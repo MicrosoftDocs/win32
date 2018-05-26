@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieve the device associated with the sprite object.'
-ms.assetid: '9119b232-22c8-4b05-b584-ce176370ca97'
-title: 'ID3DX10Sprite::GetDevice method'
+---
+Description: Retrieve the device associated with the sprite object.
+ms.assetid: 9119b232-22c8-4b05-b584-ce176370ca97
+title: ID3DX10SpriteGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite::GetDevice method
@@ -26,7 +31,7 @@ HRESULT GetDevice(
 *ppDevice* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\*\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\*\***
 
 Address of a pointer to an ID3D10Device interface, representing the Direct3D device object associated with the sprite object.
 

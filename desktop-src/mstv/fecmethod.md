@@ -1,8 +1,9 @@
 ---
 title: FECMethod enumeration
 description: Specifies the type of forward error correction being used by the provider.
-ms.assetid: '6910c51d-4176-49a3-be6b-6b072ad03fc1'
-keywords: ["FECMethod enumeration Microsoft TV Technologies"]
+ms.assetid: 6910c51d-4176-49a3-be6b-6b072ad03fc1
+keywords:
+- FECMethod enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FECMethod enumeration
@@ -22,14 +28,14 @@ Specifies the type of forward error correction being used by the provider.
 
 ```C++
 typedef enum FECMethod { 
-  BDA_FEC_METHOD_NOT_SET      = -1,
-  BDA_FEC_METHOD_NOT_DEFINED  = 0,
-  BDA_FEC_VITERBI             = 1,
-  BDA_FEC_RS_204_188          = 2,
+  BDA_FEC_METHOD_NOT_SET      = -1,
+  BDA_FEC_METHOD_NOT_DEFINED  = 0,
+  BDA_FEC_VITERBI             = 1,
+  BDA_FEC_RS_204_188          = 2,
   BDA_FEC_LDPC,
   BDA_FEC_BCH,
   BDA_FEC_RS_147_130,
-  BDA_FEC_MAX                 = 3
+  BDA_FEC_MAX                 = 3
 } FECMethod;
 ```
 
@@ -112,9 +118,9 @@ Reserved; do not use.
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

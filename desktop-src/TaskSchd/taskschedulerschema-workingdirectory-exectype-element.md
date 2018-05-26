@@ -1,14 +1,20 @@
 ---
 title: WorkingDirectory (execType) Element
 description: Specifies the directory where either the executable or those files used by the executable exists.
-ms.assetid: '09e53748-6d21-42df-bbdd-f0fd9693aab0'
-keywords: ["WorkingDirectory element Task Scheduler"]
+ms.assetid: 09e53748-6d21-42df-bbdd-f0fd9693aab0
+keywords:
+- WorkingDirectory element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - WorkingDirectory
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WorkingDirectory (execType) Element
@@ -37,7 +43,7 @@ The **WorkingDirectory** element is defined by the [**execType**](taskschedulers
 
 For script development, the working directory is specified by the [**ExecAction.WorkingDirectory**](execaction-workingdirectory.md) property.
 
-For C++ development, the working directory is specified by the [**IExecAction::WorkingDirectory**](iexecaction-workingdirectory.md) property.
+For C++ development, the working directory is specified by the [**IExecAction::WorkingDirectory**](/windows/win32/taskschd/nf-taskschd-iexecaction-get_workingdirectory?branch=master) property.
 
 ## Examples
 
@@ -60,8 +66,8 @@ The following XML defines a execution action.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -75,9 +81,9 @@ The following XML defines a execution action.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

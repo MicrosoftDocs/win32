@@ -1,8 +1,9 @@
 ---
 title: WM\_MOUSEACTIVATE message
 description: Sent when the cursor is in an inactive window and the user presses a mouse button. The parent window receives this message only if the child window passes it to the DefWindowProc function.
-ms.assetid: '335c0819-a655-4dd1-9511-1f148b87271c'
-keywords: ["WM_MOUSEACTIVATE message Keyboard and Mouse Input"]
+ms.assetid: 335c0819-a655-4dd1-9511-1f148b87271c
+keywords:
+- WM_MOUSEACTIVATE message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MOUSEACTIVATE message
@@ -61,7 +67,7 @@ The return value specifies whether the window should be activated and whether th
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,8 +79,8 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -104,9 +110,9 @@ The [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633
 [Mouse Input](mouse-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

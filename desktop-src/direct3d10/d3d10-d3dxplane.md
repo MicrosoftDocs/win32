@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a plane.'
-ms.assetid: 'c6da7343-a4f3-4cac-855b-14bd70c0d3c2'
+---
+Description: Describes a plane.
+ms.assetid: c6da7343-a4f3-4cac-855b-14bd70c0d3c2
 title: D3DXPLANE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPLANE structure

@@ -1,7 +1,12 @@
 ---
-Description: 'Stops the service.'
-ms.assetid: '0f9a015d-b895-496a-a4c6-2737c0742746'
-title: 'StartService method of the Msvm\_CollectionManagementService class'
+Description: Stops the service.
+ms.assetid: 0f9a015d-b895-496a-a4c6-2737c0742746
+title: StartService method of the Msvm\_CollectionManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartService method of the Msvm\_CollectionManagementService class
@@ -39,8 +44,8 @@ Returns 0 if successful; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -54,9 +59,9 @@ Returns 0 if successful; otherwise, returns an error.
 [**Msvm\_CollectionManagementService**](msvm-collectionmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

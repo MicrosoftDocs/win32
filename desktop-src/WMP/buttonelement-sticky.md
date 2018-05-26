@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.sticky
 description: The sticky attribute specifies or retrieves a value indicating whether the BUTTONELEMENT is a toggle, that is, whether it is a two-state or single-state button.
-ms.assetid: 'a7e74f70-9fa6-45a1-ab65-2db107e13551'
-keywords: ["BUTTONELEMENT.sticky Windows Media Player"]
+ms.assetid: a7e74f70-9fa6-45a1-ab65-2db107e13551
+keywords:
+- BUTTONELEMENT.sticky Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.sticky
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.sticky
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +67,9 @@ If the **sticky** attribute is set to true, the button element will change to th
 [**BUTTONGROUP.downImage**](buttongroup-downimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetWindowHWND method retrieves a handle to the window.'
-ms.assetid: 'f7fcca87-b823-4d2e-9ba8-6a3ed90ec8a9'
-title: 'CBaseWindow.GetWindowHWND method'
+Description: The GetWindowHWND method retrieves a handle to the window.
+ms.assetid: f7fcca87-b823-4d2e-9ba8-6a3ed90ec8a9
+title: CBaseWindow.GetWindowHWND method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.GetWindowHWND method
@@ -43,9 +48,9 @@ Returns a handle to the window.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

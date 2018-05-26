@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowVolumeSupport class
 description: The Win32\_ShadowVolumeSupport class associates a shadow copy provider with a supported volume.
-ms.assetid: '23e8dd9c-783b-4142-b366-3e41c7ba81aa'
-keywords: ["Win32_ShadowVolumeSupport class", "Win32_ShadowVolumeSupport class, described"]
+ms.assetid: 23e8dd9c-783b-4142-b366-3e41c7ba81aa
+keywords:
+- Win32_ShadowVolumeSupport class
+- Win32_ShadowVolumeSupport class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowVolumeSupport class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ShadowVolumeSupport : CIM_Dependency
 {
   Win32_ShadowProvider REF Antecedent;
-  Win32_Volume         REF Dependent;
+  Win32_Volume         REF Dependent;
 };
 ```
 
@@ -84,7 +91,7 @@ Reference to a volume supported by a provider.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -119,9 +126,9 @@ Reference to a volume supported by a provider.
 [**Win32\_ShadowDiffVolumeSupport**](win32-shadowdiffvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

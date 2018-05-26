@@ -1,7 +1,12 @@
 ---
 title: Windows Firewall Integration and Best Practices
-ms.assetid: 'e509c900-f57c-4ae6-8f9e-44370a592ee5'
+ms.assetid: e509c900-f57c-4ae6-8f9e-44370a592ee5
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Firewall Integration and Best Practices

@@ -4,17 +4,21 @@ description: Controls the interval of time, in milliseconds, that the membership
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '23F0A126-7D9B-4368-A202-8FCC8FAC469E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 23F0A126-7D9B-4368-A202-8FCC8FAC469E
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusSvcRegroupTickInMilliseconds Failover Cluster"]
+keywords:
+- ClusSvcRegroupTickInMilliseconds Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ClusSvcRegroupTickInMilliseconds
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusSvcRegroupTickInMilliseconds
@@ -27,14 +31,14 @@ Controls the interval of time, in milliseconds, that the membership algorithm wa
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 50                                        |
 | Maximum   | 1000                                      |
 | Default   | 300                                       |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -43,7 +47,7 @@ Controls the interval of time, in milliseconds, that the membership algorithm wa
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +58,9 @@ Controls the interval of time, in milliseconds, that the membership algorithm wa
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

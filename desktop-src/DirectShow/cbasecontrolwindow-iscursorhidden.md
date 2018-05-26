@@ -1,7 +1,12 @@
 ---
-Description: 'The IsCursorHidden method retrieves the current state of the m\_bCursorHidden data member.'
-ms.assetid: '4b97b89d-876a-470c-ac41-a88fecb52b2d'
-title: 'CBaseControlWindow.IsCursorHidden method'
+Description: The IsCursorHidden method retrieves the current state of the m\_bCursorHidden data member.
+ms.assetid: 4b97b89d-876a-470c-ac41-a88fecb52b2d
+title: CBaseControlWindow.IsCursorHidden method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.IsCursorHidden method
@@ -13,7 +18,7 @@ The `IsCursorHidden` method retrieves the current state of the **m\_bCursorHidde
 
 ```C++
 HRESULT IsCursorHidden(
-   long *CursorHidden
+   long *CursorHidden
 );
 ```
 
@@ -36,7 +41,7 @@ When called without a parameter, returns OATRUE if the cursor is hidden, or OAFA
 
 ## Remarks
 
-Internal objects should call this member function without the *CursorHidden* parameter to avoid locking the critical section. External objects access this member function with the *CursorHidden* parameter through the [**IVideoWindow::IsCursorHidden**](ivideowindow-iscursorhidden.md) method.
+Internal objects should call this member function without the *CursorHidden* parameter to avoid locking the critical section. External objects access this member function with the *CursorHidden* parameter through the [**IVideoWindow::IsCursorHidden**](/windows/win32/Control/nf-control-ivideowindow-iscursorhidden?branch=master) method.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ Internal objects should call this member function without the *CursorHidden* par
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Update-DiagRootCause Cmdlet
 description: Reports the status of a root cause.
-ms.assetid: '04b6b5bd-c6fd-41f1-baff-59402f0e58ec'
+ms.assetid: 04b6b5bd-c6fd-41f1-baff-59402f0e58ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Update-DiagRootCause Cmdlet

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c3fbe1ac-eaf6-49d1-92d1-a7115ebbbeba'
-title: 'System.Project'
+Description: .
+ms.assetid: c3fbe1ac-eaf6-49d1-92d1-a7115ebbbeba
+title: System.Project
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Project

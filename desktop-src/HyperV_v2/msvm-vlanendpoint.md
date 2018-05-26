@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the VLAN endpoint of a switch port.'
-ms.assetid: '82F2EC39-0C9C-4A9D-A6C4-1543A62A341D'
-title: 'Msvm\_VLANEndpoint class'
+Description: Represents the VLAN endpoint of a switch port.
+ms.assetid: 82F2EC39-0C9C-4A9D-A6C4-1543A62A341D
+title: Msvm\_VLANEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VLANEndpoint class
@@ -16,42 +21,42 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VLANEndpoint : CIM_VLANEndpoint
 {
-  string   InstanceID;
-  String   Caption = "VLAN Endpoint";
-  string   Description = "Microsoft VLAN Endpoint";
-  String   ElementName;
+  string   InstanceID;
+  String   Caption = "VLAN Endpoint";
+  string   Description = "Microsoft VLAN Endpoint";
+  String   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  String   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  String   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_VirtualSwitch";
-  string   SystemName;
-  String   CreationClassName = "Msvm_VLANEndpoint";
-  String   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType = 1;
-  String   OtherTypeDescription = "Virtual Ethernet";
-  uint16   DesiredEndpointMode;
-  string   OtherEndpointMode;
-  uint16   OperationalEndpointMode;
-  uint16   DesiredVLANTrunkEncapsulation;
-  string   OtherTrunkEncapsulation;
-  uint16   OperationalVLANTrunkEncapsulation;
-  uint16   GVRPStatus;
-  uint16   SupportedEndpointModes[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_VirtualSwitch";
+  string   SystemName;
+  String   CreationClassName = "Msvm_VLANEndpoint";
+  String   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType = 1;
+  String   OtherTypeDescription = "Virtual Ethernet";
+  uint16   DesiredEndpointMode;
+  string   OtherEndpointMode;
+  uint16   OperationalEndpointMode;
+  uint16   DesiredVLANTrunkEncapsulation;
+  string   OtherTrunkEncapsulation;
+  uint16   OperationalVLANTrunkEncapsulation;
+  uint16   GVRPStatus;
+  uint16   SupportedEndpointModes[];
 };
 ```
 
@@ -74,7 +79,7 @@ The **Msvm\_VLANEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -203,12 +208,12 @@ The desired VLAN mode that is requested for use. The current mode is given by th
 | <span id="Dynamic_Desirable"></span><span id="dynamic_desirable"></span><span id="DYNAMIC_DESIRABLE"></span><dl> <dt>**Dynamic Desirable**</dt> <dt>4</dt> </dl>       | Makes the endpoint actively attempt to convert the link to a trunk link. The endpoint becomes a trunk interface if the neighboring interface is set to trunk, desirable, or auto mode. The default switch-port mode for all Ethernet interfaces is dynamic desirable.<br/> |
 | <span id="Trunk"></span><span id="trunk"></span><span id="TRUNK"></span><dl> <dt>**Trunk**</dt> <dt>5</dt> </dl>                                                       | Puts the endpoint into permanent trunking mode and negotiates to convert the link into a trunk link. The endpoint becomes a trunk interface even if the neighboring interface is not a trunk interface.<br/>                                                               |
 | <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q Tunnel**</dt> <dt>6</dt> </dl>                           | Configures the interface as a tunnel (nontrunking) endpoint/port to be connected in an asymmetric link with an 802.1Q trunk port. 802.1Q tunneling is used to maintain customer VLAN integrity across a service provider network.<br/>                                     |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>7–32767</dt> </dl>                 |                                                                                                                                                                                                                                                                                  |
-| <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt>**Vendor Reserved** </dt> <dt>32768–65535</dt> </dl> |                                                                                                                                                                                                                                                                                  |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>7 32767</dt> </dl>                 |                                                                                                                                                                                                                                                                                  |
+| <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt>**Vendor Reserved** </dt> <dt>32768 65535</dt> </dl> |                                                                                                                                                                                                                                                                                  |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -243,10 +248,10 @@ The type of VLAN encapsulation that is requested for use. The encapsulation curr
 <span id="Negotiate"></span><span id="negotiate"></span><span id="NEGOTIATE"></span>**Negotiate** (5)
 </dt> <dt>
 
-<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (6–32767)
+<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (6 32767)
 </dt> <dt>
 
-<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (32768–65535)
+<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 </dd> <dt>
@@ -433,12 +438,12 @@ The configuration mode for the VLAN endpoint. This property is inherited from [*
 | <span id="Dynamic_Desirable"></span><span id="dynamic_desirable"></span><span id="DYNAMIC_DESIRABLE"></span><dl> <dt>**Dynamic Desirable**</dt> <dt>4</dt> </dl>       | Makes the endpoint actively attempt to convert the link to a trunk link. The endpoint becomes a trunk interface if the neighboring interface is set to trunk, desirable, or auto mode. This is the default switch-port mode for all Ethernet interfaces.<br/> |
 | <span id="Trunk"></span><span id="trunk"></span><span id="TRUNK"></span><dl> <dt>**Trunk**</dt> <dt>5</dt> </dl>                                                       | Puts the endpoint into permanent trunking mode and negotiates to convert the link into a trunk link. The endpoint becomes a trunk interface even if the neighboring interface is not a trunk interface.<br/>                                                  |
 | <span id="Dot1Q_Tunnel"></span><span id="dot1q_tunnel"></span><span id="DOT1Q_TUNNEL"></span><dl> <dt>**Dot1Q Tunnel**</dt> <dt>6</dt> </dl>                           | Configures the interface as a tunnel (nontrunking) endpoint/port to be connected in an asymmetric link with an 802.1Q trunk port. 802.1Q tunneling is used to maintain customer VLAN integrity across a service provider network.<br/>                        |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>7–32767</dt> </dl>                 |                                                                                                                                                                                                                                                                     |
-| <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt>**Vendor Reserved** </dt> <dt>32768–65535</dt> </dl> |                                                                                                                                                                                                                                                                     |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>7 32767</dt> </dl>                 |                                                                                                                                                                                                                                                                     |
+| <span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span><dl> <dt>**Vendor Reserved** </dt> <dt>32768 65535</dt> </dl> |                                                                                                                                                                                                                                                                     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -486,10 +491,10 @@ The type of VLAN encapsulation in use on a trunk endpoint/port. This property is
 <span id="Negotiating"></span><span id="negotiating"></span><span id="NEGOTIATING"></span>**Negotiating** (5)
 </dt> <dt>
 
-<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (6–32767)
+<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (6 32767)
 </dt> <dt>
 
-<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (32768–65535)
+<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 </dd> <dt>
@@ -604,7 +609,7 @@ The last requested or desired state for the management service. This property is
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -740,8 +745,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -758,9 +763,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_VLANEndpoint**](https://msdn.microsoft.com/library/mt167736)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

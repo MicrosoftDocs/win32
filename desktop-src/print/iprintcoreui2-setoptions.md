@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::SetOptions method sets the driver''s feature settings.'
-ms.assetid: 'b608e331-6b13-4b27-8bb1-00a7c2fef281'
-title: 'IPrintCoreUI2::SetOptions method'
+---
+Description: The IPrintCoreUI2SetOptions method sets the drivers feature settings.
+ms.assetid: b608e331-6b13-4b27-8bb1-00a7c2fef281
+title: IPrintCoreUI2SetOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::SetOptions method

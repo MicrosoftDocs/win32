@@ -1,8 +1,11 @@
 ---
 title: Trace SetName method
 description: Sets the name of the Trace.
-ms.assetid: '32B040E9-06D6-4D98-8B82-69574087290F'
-keywords: ["SetName method Access Execution Engine", "SetName method Access Execution Engine , Trace interface", "Trace interface Access Execution Engine , SetName method"]
+ms.assetid: 32B040E9-06D6-4D98-8B82-69574087290F
+keywords:
+- SetName method Access Execution Engine
+- SetName method Access Execution Engine , Trace interface
+- Trace interface Access Execution Engine , SetName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace::SetName method
@@ -22,7 +30,7 @@ Sets the name of the **Trace**.
 
 ```C++
 virtual HRESULT SetName(
-  [in] LPCWSTR name
+  [in] LPCWSTR name
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The name is the value of element **Trace/Description/Name**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The name is the value of element **Trace/Description/Name**.
 [**Trace**](trace-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

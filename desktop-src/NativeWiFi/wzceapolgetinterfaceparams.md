@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets EAPOL configuration parameters for the specified wireless LAN interface.'
-ms.assetid: '3dce15be-879d-42e9-b8eb-96d52c004acb'
+---
+Description: Gets EAPOL configuration parameters for the specified wireless LAN interface.
+ms.assetid: 3dce15be-879d-42e9-b8eb-96d52c004acb
 title: WZCEapolGetInterfaceParams function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WZCEapolGetInterfaceParams function

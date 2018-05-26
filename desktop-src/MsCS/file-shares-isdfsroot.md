@@ -4,26 +4,31 @@ description: Identifies a file share \ 32;resource as a DFS root.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d4f17f5-56f4-4994-a9c8-ded974a49224'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5d4f17f5-56f4-4994-a9c8-ded974a49224
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["IsDfsRoot Failover Cluster ,for file shares", "IsDfsRoot Failover Cluster"]
+keywords:
+- IsDfsRoot Failover Cluster ,for file shares
+- IsDfsRoot Failover Cluster
 topic_type:
 - apiref
 api_name:
 - IsDfsRoot
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsDfsRoot
 
-\[The **IsDfsRoot** property is no longer available for use as of Windows Server 2012.\]
+\[The **IsDfsRoot** property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 Identifies a [file share](file-share.md) [resource](resources.md) as a DFS root. The following table summarizes the attributes of the **IsDfsRoot** property.
 
@@ -34,14 +39,14 @@ Identifies a [file share](file-share.md) [resource](resources.md) as a DFS root.
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE**                                 |
 | Maximum   | **TRUE**                                  |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +61,7 @@ The data value for the **IsDfsRoot** property can be set to one of the following
 
 
 
- 
+ 
 
 There can be only one DFS root per [*cluster*](c-gly.md#-wolf-cluster-gly). In other words, a cluster can have only one file share resource whose **IsDfsRoot** property is set to **TRUE**.
 
@@ -83,8 +88,8 @@ IsDfsRootValue.dw        = IsDfsRootData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -95,12 +100,12 @@ IsDfsRootValue.dw        = IsDfsRootData;
 [File Share Private Properties](file-share-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

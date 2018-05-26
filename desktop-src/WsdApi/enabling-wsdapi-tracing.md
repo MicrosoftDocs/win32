@@ -1,7 +1,12 @@
 ---
-Description: 'WSDAPI logs contain debugging information that can be used to find the root cause of WSDAPI application failures.'
-ms.assetid: '28b4c032-1c9a-4b3a-9a6a-2948456572b2'
+Description: WSDAPI logs contain debugging information that can be used to find the root cause of WSDAPI application failures.
+ms.assetid: 28b4c032-1c9a-4b3a-9a6a-2948456572b2
 title: Enabling WSDAPI Tracing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling WSDAPI Tracing

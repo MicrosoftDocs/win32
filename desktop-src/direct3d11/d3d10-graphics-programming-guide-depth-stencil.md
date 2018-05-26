@@ -1,7 +1,12 @@
 ---
 title: Configuring Depth-Stencil Functionality
 description: This section covers the steps for setting up the depth-stencil buffer, and depth-stencil state for the output-merger stage.
-ms.assetid: 'e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f'
+ms.assetid: e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Depth-Stencil Functionality
@@ -114,7 +119,7 @@ pd3dDeviceContext->OMSetRenderTargets( 1,          // One rendertarget view
 
 
 
-An array of render-target views may be passed into [**ID3D11DeviceContext::OMSetRenderTargets**](id3d11devicecontext-omsetrendertargets.md), however all of those render-target views will correspond to a single depth stencil view. The render target array in Direct3D 11 is a feature that enables an application to render onto multiple render targets simultaneously at the primitive level. Render target arrays offer increased performance over individually setting render targets with multiple calls to **ID3D11DeviceContext::OMSetRenderTargets** (essentially the method employed in Direct3D 9).
+An array of render-target views may be passed into [**ID3D11DeviceContext::OMSetRenderTargets**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets?branch=master), however all of those render-target views will correspond to a single depth stencil view. The render target array in Direct3D 11 is a feature that enables an application to render onto multiple render targets simultaneously at the primitive level. Render target arrays offer increased performance over individually setting render targets with multiple calls to **ID3D11DeviceContext::OMSetRenderTargets** (essentially the method employed in Direct3D 9).
 
 Render targets must all be the same type of resource. If multisample antialiasing is used, all bound render targets and depth buffers must have the same sample counts.
 
@@ -189,11 +194,11 @@ To create a depth-stencil buffer that can be used as both a depth-stencil resour
 
     
 
-In addition a shader resource view needs to be created for the depth buffer using a [**D3D11\_SHADER\_RESOURCE\_VIEW\_DESC**](d3d11-shader-resource-view-desc.md) structure and [**ID3D11Device::CreateShaderResourceView**](id3d11device-createshaderresourceview.md). The shader resource view will use a typed format such as **DXGI\_FORMAT\_R32\_FLOAT** that is the equivalent to the typeless format specified when the depth-stencil resource was created.
+In addition a shader resource view needs to be created for the depth buffer using a [**D3D11\_SHADER\_RESOURCE\_VIEW\_DESC**](/windows/win32/d3d11/ns-d3d11-d3d11_shader_resource_view_desc?branch=master) structure and [**ID3D11Device::CreateShaderResourceView**](/windows/win32/D3D11/nf-d3d11-id3d11device-createshaderresourceview?branch=master). The shader resource view will use a typed format such as **DXGI\_FORMAT\_R32\_FLOAT** that is the equivalent to the typeless format specified when the depth-stencil resource was created.
 
-In the first render pass the depth buffer is bound as described in the [Bind Depth-Stencil Data to the OM Stage](#bind-depth-stencil-data-to-the-om-stage) section. Note that the format passed to [**D3D11\_DEPTH\_STENCIL\_VIEW\_DESC**](d3d11-depth-stencil-view-desc.md).Format will use a typed format such as **DXGI\_FORMAT\_D32\_FLOAT**. After the first render pass the depth buffer will contain the depth values for the scene.
+In the first render pass the depth buffer is bound as described in the [Bind Depth-Stencil Data to the OM Stage](#bind-depth-stencil-data-to-the-om-stage) section. Note that the format passed to [**D3D11\_DEPTH\_STENCIL\_VIEW\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_depth_stencil_view_desc?branch=master).Format will use a typed format such as **DXGI\_FORMAT\_D32\_FLOAT**. After the first render pass the depth buffer will contain the depth values for the scene.
 
-In the second render pass the [**ID3D11DeviceContext::OMSetRenderTargets**](id3d11devicecontext-omsetrendertargets.md) function is used to set the depth-stencil view to **NULL** or a different depth-stencil resource and the shader resource view is passed to the shader using [**ID3D11EffectShaderResourceVariable::SetResource**](id3dx11effectshaderresourcevariable-setresource.md). This allows the shader to look up the depth values calculated in the first rendering pass. Note that a transformation will need to be applied to retrieve depth values if the point of view of the first render pass is different from the second render pass. For example, if a shadow mapping technique is being used the first render pass will be from the perspective of a light source while the second render pass will from the viewer's perspective.
+In the second render pass the [**ID3D11DeviceContext::OMSetRenderTargets**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets?branch=master) function is used to set the depth-stencil view to **NULL** or a different depth-stencil resource and the shader resource view is passed to the shader using [**ID3D11EffectShaderResourceVariable::SetResource**](id3dx11effectshaderresourcevariable-setresource.md). This allows the shader to look up the depth values calculated in the first rendering pass. Note that a transformation will need to be applied to retrieve depth values if the point of view of the first render pass is different from the second render pass. For example, if a shadow mapping technique is being used the first render pass will be from the perspective of a light source while the second render pass will from the viewer's perspective.
 
 An example of reading the depth-stencil buffer as a texture can be found in the [softparticles sample](147358f4-bde1-1919-3d06-11bbc2838f9b).
 

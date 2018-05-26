@@ -4,11 +4,14 @@ description: Gets a set of all CommonRights.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.CommonRights.All'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.CommonRights.All
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["All property", "All property, CommonRights class", "CommonRights class, All property"]
+keywords:
+- All property
+- All property, CommonRights class
+- CommonRights class, All property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CommonRights.All property
@@ -67,9 +73,9 @@ For more information about the built-in rights and the usage restrictions associ
 [**CommonRights**](commonrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

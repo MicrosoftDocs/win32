@@ -4,17 +4,21 @@ description: MSMutableProtectedData and its super-class MSProtectedData provide 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '23928d37-0adf-43ea-98a7-b4f288c9643d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 23928d37-0adf-43ea-98a7-b4f288c9643d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableProtectedData class"]
+keywords:
+- MSMutableProtectedData class
 topic_type:
 - apiref
 api_name:
 - MSMutableProtectedData class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableProtectedData class
@@ -43,7 +47,7 @@ api_type:
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -59,13 +63,13 @@ MSMutableProtectedData.h
 
 
 
- 
+ 
 
 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +81,9 @@ The methods of the **MSMutableProtectedData** class that write data transparentl
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

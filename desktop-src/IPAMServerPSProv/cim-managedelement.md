@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.'
+Description: The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2a2c706e-b651-4ffa-9a90-226cf5b6fb17'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2a2c706e-b651-4ffa-9a90-226cf5b6fb17
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ManagedElement class'
+title: CIM\_ManagedElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedElement class
@@ -115,16 +118,16 @@ If not set to null for DMTF-defined instances, the "preferred" algorithm must be
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

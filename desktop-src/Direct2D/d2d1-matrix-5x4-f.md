@@ -1,8 +1,14 @@
 ---
 title: D2D1\_MATRIX\_5X4\_F
 description: Represents a 5-by-4 matrix.
-ms.assetid: 'c6f57691-1530-e57a-c1b4-b68b4d8967e3'
-keywords: ["D2D1_MATRIX_5X4_F"]
+ms.assetid: c6f57691-1530-e57a-c1b4-b68b4d8967e3
+keywords:
+- D2D1_MATRIX_5X4_F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1\_MATRIX\_5X4\_F
@@ -18,7 +24,7 @@ typedef D2D_MATRIX_5X4_F D2D1_MATRIX_5X4_F;
 
 ## Remarks
 
-**D2D1\_MATRIX\_5X4** is a new name for the [**D2D\_MATRIX\_5X4\_F**](d2d-matrix-5x4-f.md) structure. For a list of fields provided by the matrix, see [**D2D\_MATRIX\_5X4\_F**](d2d-matrix-5x4-f.md).
+**D2D1\_MATRIX\_5X4** is a new name for the [**D2D\_MATRIX\_5X4\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_5x4_f?branch=master) structure. For a list of fields provided by the matrix, see [**D2D\_MATRIX\_5X4\_F**](/windows/win32/dcommon/ns-dcommon-d2d_matrix_5x4_f?branch=master).
 
 ## Requirements
 
@@ -26,9 +32,9 @@ typedef D2D_MATRIX_5X4_F D2D1_MATRIX_5X4_F;
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2d1.h</dt> </dl>                                                        |
 
 
@@ -52,9 +58,9 @@ typedef D2D_MATRIX_5X4_F D2D1_MATRIX_5X4_F;
 [How to Translate an Object](how-to-translate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

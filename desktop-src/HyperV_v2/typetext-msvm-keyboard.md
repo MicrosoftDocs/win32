@@ -1,7 +1,12 @@
 ---
-Description: 'Simulates a series of typed characters.'
-ms.assetid: '5D4C9F27-84AA-4131-A9A3-2C72DB2E8909'
-title: 'TypeText method of the Msvm\_Keyboard class'
+Description: Simulates a series of typed characters.
+ms.assetid: 5D4C9F27-84AA-4131-A9A3-2C72DB2E8909
+title: TypeText method of the Msvm\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeText method of the Msvm\_Keyboard class
@@ -13,7 +18,7 @@ Simulates a series of typed characters. This is equivalent to calling [**PressKe
 
 ```mof
 uint32 TypeText(
-  [in] string asciiText
+  [in] string asciiText
 );
 ```
 
@@ -39,7 +44,7 @@ The series of ASCII or Unicode characters to type. The maximum length of this st
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -312,8 +317,8 @@ End Function
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -327,9 +332,9 @@ End Function
 [**Msvm\_Keyboard**](msvm-keyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

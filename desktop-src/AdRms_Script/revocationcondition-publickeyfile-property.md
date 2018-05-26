@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies the path of the file that contains the public key associated with the private key that signed revocation list.'
+Description: Specifies the path of the file that contains the public key associated with the private key that signed revocation list.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'fa0e5adc-479c-4789-802f-a0a8efd7ccb7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: fa0e5adc-479c-4789-802f-a0a8efd7ccb7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RevocationCondition.PublicKeyFile property'
+title: RevocationCondition.PublicKeyFile property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RevocationCondition.PublicKeyFile property
@@ -125,7 +128,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -137,9 +140,9 @@ END SUB
 [**RevocationCondition**](revocationcondition-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

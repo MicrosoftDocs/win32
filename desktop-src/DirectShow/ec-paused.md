@@ -1,7 +1,12 @@
 ---
-Description: 'A pause request has completed.'
-ms.assetid: '32acad47-65bd-42f0-987e-3690bb824b05'
-title: 'EC\_PAUSED'
+Description: A pause request has completed.
+ms.assetid: 32acad47-65bd-42f0-987e-3690bb824b05
+title: EC\_PAUSED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_PAUSED
@@ -54,9 +59,9 @@ The filter graph manager sends this event when it completes an asynchronous paus
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

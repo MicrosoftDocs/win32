@@ -1,6 +1,11 @@
-﻿---
-Description: 'Creates a moniker representing a hardware component and its associated event handler. AutoPlay uses this function to allow applications to use AutoPlay events.'
+---
+Description: Creates a moniker representing a hardware component and its associated event handler. AutoPlay uses this function to allow applications to use AutoPlay events.
 title: CreateHardwareEventMoniker function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateHardwareEventMoniker function
@@ -61,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 ## Remarks
 
-Use **CreateHardwareEventMoniker** when registering running applications so that those applications have access to AutoPlay events. To use AutoPlay events in running applications, you must first create a new component that implements the [**IHWEventHandler**](ihweventhandler.md) interface. Initialize this interface with the InitCmdLine value from the particular handler's entry under the **Handlers** key, because AutoPlay does not call the [**Initialize**](ihweventhandler-initialize.md) method.
+Use **CreateHardwareEventMoniker** when registering running applications so that those applications have access to AutoPlay events. To use AutoPlay events in running applications, you must first create a new component that implements the [**IHWEventHandler**](/windows/win32/Shobjidl/nn-shobjidl-ihweventhandler?branch=master) interface. Initialize this interface with the InitCmdLine value from the particular handler's entry under the **Handlers** key, because AutoPlay does not call the [**Initialize**](/windows/win32/Shobjidl/nf-shobjidl-ihweventhandler-initialize?branch=master) method.
 
 You should call **CreateHardwareEventMoniker** to get a moniker that represents your component and its event handler. Then, use the value returned in the *ppmoniker* parameter to register your component in the running object table (ROT) as shown in the example.
 

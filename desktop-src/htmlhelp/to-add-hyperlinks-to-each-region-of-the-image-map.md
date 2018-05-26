@@ -1,7 +1,12 @@
 ---
 title: To add hyperlinks to each region of the image map
 description: To add hyperlinks to each region of the image map
-ms.assetid: '562C7E53-195B-42db-824E-2C83E83FF9F3'
+ms.assetid: 562C7E53-195B-42db-824E-2C83E83FF9F3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add hyperlinks to each region of the image map

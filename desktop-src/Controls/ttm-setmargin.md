@@ -1,8 +1,9 @@
 ---
 title: TTM\_SETMARGIN message
 description: Sets the top, left, bottom, and right margins for a tooltip window. A margin is the distance, in pixels, between the tooltip window border and the text contained within the tooltip window.
-ms.assetid: 'f1663861-c217-42dd-8249-7647b1651910'
-keywords: ["TTM_SETMARGIN message Windows Controls"]
+ms.assetid: f1663861-c217-42dd-8249-7647b1651910
+keywords:
+- TTM_SETMARGIN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_SETMARGIN message
@@ -40,7 +46,7 @@ Pointer to a [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -50,7 +56,7 @@ The return value for this message is not used.
 
 ## Remarks
 
-This message has no effect when the application runs on Windows Vista and visual styles are enabled for the tooltip. You can disable visual styles for the tooltip by using [**SetWindowTheme**](setwindowtheme.md).
+This message has no effect when the application runs on Windows Vista and visual styles are enabled for the tooltip. You can disable visual styles for the tooltip by using [**SetWindowTheme**](/windows/win32/Uxtheme/nf-uxtheme-setwindowtheme?branch=master).
 
 ## Requirements
 
@@ -58,8 +64,8 @@ This message has no effect when the application runs on Windows Vista and visual
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ This message has no effect when the application runs on Windows Vista and visual
 [**TTM\_GETMARGIN**](ttm-getmargin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

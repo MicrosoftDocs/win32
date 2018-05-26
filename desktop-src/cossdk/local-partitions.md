@@ -1,7 +1,12 @@
 ---
 Description: Local Partitions
-ms.assetid: '629c4915-00b8-46da-b52a-2d274056eb6c'
+ms.assetid: 629c4915-00b8-46da-b52a-2d274056eb6c
 title: Local Partitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Local Partitions

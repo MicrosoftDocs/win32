@@ -1,14 +1,20 @@
 ---
 title: normalize
 description: Normalizes the specified floating-point vector according to x / length(x).
-ms.assetid: '7fd6f8ff-f3ff-4d14-b3fc-b44fdddf6c75'
-keywords: ["normalize HLSL"]
+ms.assetid: 7fd6f8ff-f3ff-4d14-b3fc-b44fdddf6c75
+keywords:
+- normalize HLSL
 topic_type:
 - apiref
 api_name:
 - normalize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # normalize
@@ -22,7 +28,7 @@ Normalizes the specified floating-point vector according to x / length(x).
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Normalizes the specified floating-point vector according to x / length(x).
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ The **normalize** HLSL intrinsic function uses the following formula: *x* / [**l
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: dcl\_resource (sm4 - asm)
 description: dcl\_resource (sm4 - asm)
-ms.assetid: '045610f0-f7db-4bf2-bfea-501bbee94601'
+ms.assetid: 045610f0-f7db-4bf2-bfea-501bbee94601
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_resource (sm4 - asm)
@@ -15,7 +20,7 @@ Declares a non-multisampled shader-input resource.
 
 
 
- 
+ 
 
 Declares a multisampled shader-input resource.
 
@@ -26,7 +31,7 @@ Declares a multisampled shader-input resource.
 
 
 
- 
+ 
 
 
 
@@ -39,7 +44,7 @@ Declares a multisampled shader-input resource.
 
 
 
- 
+ 
 
 A resource is accessed in HLSL using [load](dx-graphics-hlsl-to-load.md); a non-multisampled texture can also be accessed using any of the HLSL [texture object](dx-graphics-hlsl-to-type.md) sample methods.
 
@@ -55,7 +60,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 This instruction is included to aid in debugging a shader in assembly; you cannot author a shader in assembly language using Shader Model 4.
 
@@ -87,7 +92,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -96,9 +101,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: DBCONTENTVECTOR
 description: DBCONTENTVECTOR
-ms.assetid: '73b06bb8-f880-4901-b5fd-efdf7ad1424d'
-keywords: ["DBCONTENTVECTOR"]
+ms.assetid: 73b06bb8-f880-4901-b5fd-efdf7ad1424d
+keywords:
+- DBCONTENTVECTOR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBCONTENTVECTOR

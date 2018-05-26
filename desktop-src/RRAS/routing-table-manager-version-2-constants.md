@@ -1,8 +1,15 @@
 ---
 title: Routing Table Manager Version 2 Constants
 description: The RTMv2 functions use the following constants.
-ms.assetid: '524f8f24-3980-4728-bbf2-d1cf27dbcb1a'
-keywords: ["Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,constants", "Routing Table Manager Version 2 RRAS ,constants"]
+ms.assetid: 524f8f24-3980-4728-bbf2-d1cf27dbcb1a
+keywords:
+- Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,constants
+- Routing Table Manager Version 2 RRAS ,constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager Version 2 Constants

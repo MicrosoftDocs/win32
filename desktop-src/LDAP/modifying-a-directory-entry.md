@@ -4,11 +4,15 @@ description: You can use the LDAP API to add and delete directory entries and to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ad7be3a1-663c-489e-8eb3-1aea910ee366'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: ad7be3a1-663c-489e-8eb3-1aea910ee366
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Modifying a Directory Entry"]
+keywords:
+- Modifying a Directory Entry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying a Directory Entry
@@ -17,7 +21,7 @@ You can use the LDAP API to add and delete directory entries and to compare and 
 
 **To make a change to a directory**
 
-1.  Create an [**LDAPMod**](ldapmod.md) structure, assigning the appropriate values to each member of the structure.
+1.  Create an [**LDAPMod**](/windows/previous-versions/Winldap/ns-winldap-ldapmoda?branch=master) structure, assigning the appropriate values to each member of the structure.
 
     For multiple changes, or to add an entry, create a separate **LDAPMod** structure for each attribute or change.
 

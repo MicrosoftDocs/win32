@@ -1,8 +1,9 @@
 ---
 title: ChannelInfo structure
 description: Contains information about the cable television channel.
-ms.assetid: '4d4c8e5b-5b9f-4cff-98c7-6d3645e677e1'
-keywords: ["ChannelInfo structure Microsoft TV Technologies"]
+ms.assetid: 4d4c8e5b-5b9f-4cff-98c7-6d3645e677e1
+keywords:
+- ChannelInfo structure Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChannelInfo structure
@@ -22,19 +28,19 @@ Contains information about the cable television channel.
 
 ```C++
 typedef struct _ChannelInfo {
-  LONG  lFrequency;
+  LONG  lFrequency;
   union {
     struct {
       LONG lONID;
       LONG lTSID;
       LONG lSID;
-    } DVB;
+    } DVB;
     struct {
       LONG lProgNumber;
-    } DC;
+    } DC;
     struct {
       LONG lProgNumber;
-    } ATSC;
+    } ATSC;
   };
 } ChannelInfo;
 ```
@@ -114,15 +120,15 @@ The program number.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMSerialPort Name property
 description: The Name property contains the name of the serial port.
-ms.assetid: '55a4b625-0b78-4521-b1d3-555af8ce245e'
-keywords: ["Name property Virtual Server", "Name property Virtual Server , IVMSerialPort interface", "IVMSerialPort interface Virtual Server , Name property", "Name property Virtual Server , VMSerialPort interface", "VMSerialPort interface Virtual Server , Name property"]
+ms.assetid: 55a4b625-0b78-4521-b1d3-555af8ce245e
+keywords:
+- Name property Virtual Server
+- Name property Virtual Server , IVMSerialPort interface
+- IVMSerialPort interface Virtual Server , Name property
+- Name property Virtual Server , VMSerialPort interface
+- VMSerialPort interface Virtual Server , Name property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort::Name property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Name(
-  [out] BSTR *portName
+  [out] BSTR *portName
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -90,9 +100,9 @@ This property value is read-only.
 [**IVMSerialPort**](ivmserialport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

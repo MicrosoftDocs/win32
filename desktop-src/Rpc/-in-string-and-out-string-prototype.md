@@ -1,7 +1,12 @@
 ---
-title: \ in, string\ and \ out, string\ Prototype
+title: '\ in, string\ and \ out, string\ Prototype'
 description: The following function prototype uses two parameters an \ in, string\ parameter and an \ out, string\ parameter.
-ms.assetid: 'acb0ec4f-1846-4fa2-98c2-2081b52a8260'
+ms.assetid: acb0ec4f-1846-4fa2-98c2-2081b52a8260
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \[in, string\] and \[out, string\] Prototype

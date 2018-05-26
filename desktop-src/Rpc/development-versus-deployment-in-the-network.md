@@ -1,7 +1,12 @@
 ---
 title: Development vs. Deployment in the Network
 description: Most developers write and test their software on a fast reliable LAN.
-ms.assetid: '9458162c-1046-4554-bafa-b455f2957d58'
+ms.assetid: 9458162c-1046-4554-bafa-b455f2957d58
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Development vs. Deployment in the Network

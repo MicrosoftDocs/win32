@@ -1,8 +1,18 @@
 ---
 title: Trackbar Types
 description: Trackbar Types
-ms.assetid: '560792e9-edaa-4488-9093-536300b6f8e6'
-keywords: ["Windows Media Player Mobile skins,trackbars", "Windows Media Player Mobile skins,Seek trackbars", "Windows Media Player Mobile skins,Volume trackbars", "trackbars in skins,types", "skins,trackbars"]
+ms.assetid: 560792e9-edaa-4488-9093-536300b6f8e6
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- Windows Media Player Mobile skins,Seek trackbars
+- Windows Media Player Mobile skins,Volume trackbars
+- trackbars in skins,types
+- skins,trackbars
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbar Types

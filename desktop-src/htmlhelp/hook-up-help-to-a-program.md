@@ -1,7 +1,12 @@
 ---
 title: Hook Up Help to a Program
 description: Hook Up Help to a Program
-ms.assetid: 'C1AA5C4E-0B42-420d-B8E2-16A0EEF350EF'
+ms.assetid: C1AA5C4E-0B42-420d-B8E2-16A0EEF350EF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hook Up Help to a Program

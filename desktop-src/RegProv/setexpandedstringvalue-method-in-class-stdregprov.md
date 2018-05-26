@@ -4,11 +4,14 @@ description: The SetExpandedStringValue method sets the data value for a named v
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c6067c2d-b16a-4db8-8834-012cd8669819'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c6067c2d-b16a-4db8-8834-012cd8669819
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetExpandedStringValue method", "SetExpandedStringValue method, StdRegProv class", "StdRegProv class, SetExpandedStringValue method"]
+keywords:
+- SetExpandedStringValue method
+- SetExpandedStringValue method, StdRegProv class
+- StdRegProv class, SetExpandedStringValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetExpandedStringValue method of the StdRegProv class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetExpandedStringValue(
-  [in] uint32 hDefKey = HKEY_LOCAL_MACHINE,
-  [in] string sSubKeyName,
-  [in] string sValueName,
-  [in] string sValue = 
+  [in] uint32 hDefKey = HKEY_LOCAL_MACHINE,
+  [in] string sSubKeyName,
+  [in] string sValueName,
+  [in] string sValue = 
 );
 ```
 
@@ -163,17 +169,17 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

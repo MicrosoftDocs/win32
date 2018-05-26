@@ -1,14 +1,19 @@
 ---
 title: EAP Attributes
 description: Is an EAP\_ATTRIBUTE structure that contains a predetermined type of data relating to an authentication session.
-ms.assetid: '3c54cca2-cd3b-4149-bb0e-036d490cdd3b'
+ms.assetid: 3c54cca2-cd3b-4149-bb0e-036d490cdd3b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Attributes
 
-An EAP attribute is an [**EAP\_ATTRIBUTE**](eap-attribute.md) structure that contains a predetermined type of data relating to an authentication session. Attributes are used to communicate information between EAP methods and supplicants or between EAP methods and authenticators. Peer and authenticator implementations of an EAP method may exchange these attributes over a network.
+An EAP attribute is an [**EAP\_ATTRIBUTE**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_attribute?branch=master) structure that contains a predetermined type of data relating to an authentication session. Attributes are used to communicate information between EAP methods and supplicants or between EAP methods and authenticators. Peer and authenticator implementations of an EAP method may exchange these attributes over a network.
 
-A complete list of supported attribute types appears in the topic [**EAP\_ATTRIBUTE\_TYPE**](eap-attribute-type.md).
+A complete list of supported attribute types appears in the topic [**EAP\_ATTRIBUTE\_TYPE**](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_attribute_type?branch=master).
 
 ## Attributes Consumed by Supplicants
 
@@ -61,10 +66,10 @@ The following attribute types are exported by [Protected Extensible Authenticati
 
 <dl> <dt>
 
-[**EAP\_ATTRIBUTE**](eap-attribute.md)
+[**EAP\_ATTRIBUTE**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_attribute?branch=master)
 </dt> <dt>
 
-[**EAP\_ATTRIBUTE\_TYPE**](eap-attribute-type.md)
+[**EAP\_ATTRIBUTE\_TYPE**](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_attribute_type?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: EM\_FMTLINES message
 description: Sets a flag that determines whether a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping.
-ms.assetid: 'bfc08062-b0a7-4ba7-8858-00cb20895c77'
-keywords: ["EM_FMTLINES message Windows Controls"]
+ms.assetid: bfc08062-b0a7-4ba7-8858-00cb20895c77
+keywords:
+- EM_FMTLINES message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_FMTLINES message
@@ -48,7 +54,7 @@ The **EM\_FMTLINES** message does not affect a line that ends with a hard line b
 > [!Note]  
 > The size of the text changes when this message is processed.
 
- 
+ 
 
 **Rich Edit:** The **EM\_FMTLINES** message is not supported.
 
@@ -58,8 +64,8 @@ The **EM\_FMTLINES** message does not affect a line that ends with a hard line b
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ The **EM\_FMTLINES** message does not affect a line that ends with a hard line b
 [**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

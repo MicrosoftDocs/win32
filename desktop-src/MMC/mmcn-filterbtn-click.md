@@ -4,11 +4,12 @@ description: The MMCN\_FILTERBTN\_CLICK notification is introduced in MMC 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '82a1d00a-5787-4fad-b3c5-cbcf51a25338'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 82a1d00a-5787-4fad-b3c5-cbcf51a25338
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_FILTERBTN_CLICK message MMC"]
+keywords:
+- MMCN_FILTERBTN_CLICK message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_FILTERBTN\_CLICK message
 
 The **MMCN\_FILTERBTN\_CLICK** notification is introduced in MMC 1.2.
 
-The **MMCN\_FILTERBTN\_CLICK** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when the user clicks the filter button on the header control of a filtered view. The snap-in responds to this notification by that displays a user interface element that allows the user to change the filter operator. Be aware that the filtered view mode does not affect the sort settings on the filtered list.
+The **MMCN\_FILTERBTN\_CLICK** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the user clicks the filter button on the header control of a filtered view. The snap-in responds to this notification by that displays a user interface element that allows the user to change the filter operator. Be aware that the filtered view mode does not affect the sort settings on the filtered list.
 
 ## Parameters
 
@@ -78,8 +82,8 @@ After the user's changes to the filter operator have been handled by the snap-in
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -103,9 +107,9 @@ After the user's changes to the filter operator have been handled by the snap-in
 [Adding Filtered Views](adding-filtered-views.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

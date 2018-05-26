@@ -1,8 +1,9 @@
 ---
 title: glBegin function
 description: The glBegin and glend functions delimit the vertices of a primitive or a group of like primitives.
-ms.assetid: '8e8e98f8-89e8-40f5-89c1-492c9e3bbd74'
-keywords: ["glBegin function OpenGL"]
+ms.assetid: 8e8e98f8-89e8-40f5-89c1-492c9e3bbd74
+keywords:
+- glBegin function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glBegin function
@@ -22,7 +28,7 @@ The **glBegin** and [**glend**](glend.md) functions delimit the vertices of a pr
 
 ```C++
 void WINAPI glBegin(
-   GLenum mode
+   GLenum mode
 );
 ```
 
@@ -54,7 +60,7 @@ The primitive or primitives that will be created from vertices presented between
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -96,35 +102,35 @@ The **glBegin** and [**glend**](glend.md) functions delimit the vertices that de
 
     [**glVertex**](glvertex-functions.md)
 
-     
+     
 
     [**glColor**](glcolor-functions.md)
 
-     
+     
 
     [**glIndex**](glindex-functions.md)
 
-     
+     
 
     [**glNormal**](glnormal-functions.md)
 
-     
+     
 
     [**glTexCoord**](gltexcoord-functions.md)
 
-     
+     
 
     [**glEvalCoord**](glevalcoord-functions.md)
 
-     
+     
 
     [**glEvalPoint**](glevalpoint.md)
 
-     
+     
 
     [**glMaterial**](glmaterial-functions.md)
 
-     
+     
 
     [**glEdgeFlag**](gledgeflag-functions.md)
 
@@ -143,7 +149,7 @@ The **glBegin** and [**glend**](glend.md) functions delimit the vertices that de
 
     
 
-     
+     
 
 -   Modes that require a certain multiple of vertices are GL\_LINES (2), GL\_TRIANGLES (3), GL\_QUADS (4), and GL\_QUAD\_STRIP (2).
 
@@ -153,8 +159,8 @@ The **glBegin** and [**glend**](glend.md) functions delimit the vertices that de
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -201,9 +207,9 @@ The **glBegin** and [**glend**](glend.md) functions delimit the vertices that de
 [**glVertex**](glvertex-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

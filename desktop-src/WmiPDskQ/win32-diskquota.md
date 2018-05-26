@@ -1,8 +1,10 @@
 ---
 title: Win32\_DiskQuota class
 description: The Win32\_DiskQuota association WMI class tracks disk space usage for NTFS file system volumes.
-ms.assetid: '713f0641-00e7-41a4-a2d4-ecf7ef00e8cf'
-keywords: ["Win32_DiskQuota class", "Win32_DiskQuota class, described"]
+ms.assetid: 713f0641-00e7-41a4-a2d4-ecf7ef00e8cf
+keywords:
+- Win32_DiskQuota class
+- Win32_DiskQuota class, described
 topic_type:
 - apiref
 api_name:
@@ -17,11 +19,16 @@ api_location:
 - Wmipdskq.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_DiskQuota class
 
-The **Win32\_DiskQuota** association [WMI class](https://msdn.microsoft.com/library/aa393244) tracks disk space usage for NTFS file system volumes. A system administrator (SA) can configure Windows to prevent further disk space use, and log an event when a user exceeds a specified disk space limit. An SA can also log an event when a user exceeds a specified disk space warning level. This class is new in Windows XP.
+The **Win32\_DiskQuota** association [WMI class](https://msdn.microsoft.com/library/aa393244) tracks disk space usage for NTFS file system volumes. A system administrator (SA) can configure Windows to prevent further disk space use, and log an event when a user exceeds a specified disk space limit. An SA can also log an event when a user exceeds a specified disk space warning level. This class is new in Windows XP.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -30,12 +37,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_DiskQuota
 {
-  uint64                DiskSpaceUsed;
-  uint64                Limit;
+  uint64                DiskSpaceUsed;
+  uint64                Limit;
   Win32_LogicalDisk REF QuotaVolume;
-  uint32                Status;
-  Win32_Account     REF User;
-  uint64                WarningLimit;
+  uint32                Status;
+  Win32_Account     REF User;
+  uint64                WarningLimit;
 };
 ```
 
@@ -126,7 +133,7 @@ The values are:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -170,8 +177,8 @@ For more information about using **uint64** values in scripts, see [Scripting in
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipdskq.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipdskq.dll</dt> </dl> |
@@ -185,9 +192,9 @@ For more information about using **uint64** values in scripts, see [Scripting in
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

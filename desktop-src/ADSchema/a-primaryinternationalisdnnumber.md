@@ -4,17 +4,22 @@ description: The primary ISDN.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fa92d458-8c38-4012-9170-75a51f4ed116'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: fa92d458-8c38-4012-9170-75a51f4ed116
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Phone-ISDN-Primary attribute AD Schema", "primaryInternationalISDNNumber attribute AD Schema"]
+keywords:
+- Phone-ISDN-Primary attribute AD Schema
+- primaryInternationalISDNNumber attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Phone-ISDN-Primary
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Phone-ISDN-Primary attribute
@@ -38,12 +43,12 @@ The primary ISDN.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The primary ISDN.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'For a video media type, specifies how 3D video frames are stored in memory.'
-ms.assetid: '880DF017-5841-4C0A-82AF-F092DEF5406B'
-title: 'MF\_MT\_VIDEO\_3D\_FORMAT attribute'
+---
+Description: For a video media type, specifies how 3D video frames are stored in memory.
+ms.assetid: 880DF017-5841-4C0A-82AF-F092DEF5406B
+title: MF\_MT\_VIDEO\_3D\_FORMAT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_VIDEO\_3D\_FORMAT attribute
@@ -14,7 +19,7 @@ For a video media type, specifies how 3D video frames are stored in memory.
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideo3DFormat**](mfvideo3dformat.md) enumeration. The attribute applies only if the [MF\_MT\_VIDEO\_3D](mf-mt-video-3d.md) attribute is **TRUE**.
+The value of this attribute is a member of the [**MFVideo3DFormat**](/windows/win32/mfapi/ne-mfapi-_mfvideo3dformat?branch=master) enumeration. The attribute applies only if the [MF\_MT\_VIDEO\_3D](mf-mt-video-3d.md) attribute is **TRUE**.
 
 This attribute is required for uncompressed 3D video formats. It is optional for compressed 3D video. A media source that delivers encoded frames might be able to set the attribute, based on information in the file container. Otherwise, the attribute should be set by the decoder in the decoder's output media type.
 

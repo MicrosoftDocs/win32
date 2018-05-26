@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains red, green, and blue ramp data.'
-ms.assetid: 'c596f47a-6c09-4b97-ab2f-b1da3d851aa4'
+---
+Description: Contains red, green, and blue ramp data.
+ms.assetid: c596f47a-6c09-4b97-ab2f-b1da3d851aa4
 title: D3DGAMMARAMP structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DGAMMARAMP structure
@@ -75,10 +80,10 @@ Array of 256 WORD element that describes the blue gamma ramp.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetGammaRamp**](idirect3ddevice9--getgammaramp.md)
+[**GetGammaRamp**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getgammaramp?branch=master)
 </dt> <dt>
 
-[**SetGammaRamp**](idirect3ddevice9--setgammaramp.md)
+[**SetGammaRamp**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setgammaramp?branch=master)
 </dt> </dl>
 
  

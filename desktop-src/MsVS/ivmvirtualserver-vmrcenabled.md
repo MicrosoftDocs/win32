@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMRCEnabled property
 description: The VMRCEnabled property enables or disables server administration using Virtual Machine Remote Control (VMRC).
-ms.assetid: '58ae0e3a-a8bd-478a-b9ed-972decf29205'
-keywords: ["VMRCEnabled property Virtual Server", "VMRCEnabled property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMRCEnabled property", "VMRCEnabled property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VMRCEnabled property"]
+ms.assetid: 58ae0e3a-a8bd-478a-b9ed-972decf29205
+keywords:
+- VMRCEnabled property Virtual Server
+- VMRCEnabled property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMRCEnabled property
+- VMRCEnabled property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VMRCEnabled property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMRCEnabled property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VMRCEnabled(
-  [in]  VARIANT_BOOL shouldEnable
+  [in]  VARIANT_BOOL shouldEnable
 );
 
 HRESULT get_VMRCEnabled(
-  [out] VARIANT_BOOL *isEnabled
+  [out] VARIANT_BOOL *isEnabled
 );
 ```
 
@@ -100,8 +110,8 @@ Wscript.Echo "VMRC enabled: " & objVS.VMRCEnabled
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -113,9 +123,9 @@ Wscript.Echo "VMRC enabled: " & objVS.VMRCEnabled
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

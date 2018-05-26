@@ -1,8 +1,24 @@
 ---
 title: Understanding Threading Issues
 description: This topic describes common threading scenarios for Microsoft UI Automation client implementations and explains how to avoid problems that can occur if a client uses threading incorrectly.
-ms.assetid: '0772969a-da55-488e-8b21-7368434df8a9'
-keywords: ["clients,UI Automation threading issues", "clients,threading issues", "clients,event handler threading model", "clients,UI Automation event handler threading model", "clients,UI Automation affinity", "clients,affinity", "UI Automation,threading issues", "UI Automation,event handler threading model", "UI Automation,affinity", "threading issues", "event handler threading model"]
+ms.assetid: 0772969a-da55-488e-8b21-7368434df8a9
+keywords:
+- clients,UI Automation threading issues
+- clients,threading issues
+- clients,event handler threading model
+- clients,UI Automation event handler threading model
+- clients,UI Automation affinity
+- clients,affinity
+- UI Automation,threading issues
+- UI Automation,event handler threading model
+- UI Automation,affinity
+- threading issues
+- event handler threading model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Threading Issues
@@ -20,9 +36,9 @@ This topic contains the following sections:
 
 Because of the way UI Automation uses Windows messages, conflicts can occur when a client application attempts to interact with its own UI on the UI thread. These conflicts can lead to very slow performance, or even cause the application to stop responding.
 
-If your client application is intended to interact with all elements on the desktop, including its own UI, you should make all UI Automation calls from a separate thread. This includes locating elements, for example, by using [**IUIAutomationTreeWalker**](uiauto-iuiautomationtreewalker.md) or the [**IUIAutomationElement::FindAll**](uiauto-iuiautomationelement-findall.md) method and using control patterns. This thread should not own any windows, and should be a Component Object Model (COM) Multithreaded Apartment (MTA) model thread (one that initializes COM by calling [CoInitializeEx](http://go.microsoft.com/fwlink/p/?linkid=151432) with the **COINIT\_MULTITHREADED** flag.)
+If your client application is intended to interact with all elements on the desktop, including its own UI, you should make all UI Automation calls from a separate thread. This includes locating elements, for example, by using [**IUIAutomationTreeWalker**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationtreewalker?branch=master) or the [**IUIAutomationElement::FindAll**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-findall?branch=master) method and using control patterns. This thread should not own any windows, and should be a Component Object Model (COM) Multithreaded Apartment (MTA) model thread (one that initializes COM by calling [CoInitializeEx](http://go.microsoft.com/fwlink/p/?linkid=151432) with the **COINIT\_MULTITHREADED** flag.)
 
-It is safe to make UI Automation calls in a UI Automation event handler, because the event handler is always called on a non-UI thread. However, when subscribing to events that may originate from your client application UI, you must make the call to [**IUIAutomation::AddAutomationEventHandler**](uiauto-iuiautomation-addautomationeventhandler.md), or a related method, on a non-UI thread (which should also be an MTA thread). Remove event handlers on the same thread.
+It is safe to make UI Automation calls in a UI Automation event handler, because the event handler is always called on a non-UI thread. However, when subscribing to events that may originate from your client application UI, you must make the call to [**IUIAutomation::AddAutomationEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addautomationeventhandler?branch=master), or a related method, on a non-UI thread (which should also be an MTA thread). Remove event handlers on the same thread.
 
 A UI Automation client should not use multiple threads to add or remove event handlers. Unexpected behavior can result if one event handler is being added or removed while another is being added or removed in the same client process.
 

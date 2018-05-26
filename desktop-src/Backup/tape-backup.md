@@ -1,8 +1,15 @@
 ---
 title: Tape Backup
 description: A tape volume consists of a recording medium and its physical carrier. Every tape volume has one or more partitions. Partitions are typically divided into sections by filemarks or setmarks. There are three types of filemarks.
-ms.assetid: '2057e6e4-b674-4151-b3b6-bde5d87d10c1'
-keywords: ["backup Backup , tape", "tape backup Backup"]
+ms.assetid: 2057e6e4-b674-4151-b3b6-bde5d87d10c1
+keywords:
+- backup Backup , tape
+- tape backup Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tape Backup

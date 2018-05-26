@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of times BitLocker has been suspended.'
-ms.assetid: 'B8C87352-62BA-4E5D-A273-CE74F3E1A7A8'
-title: 'GetSuspendCount method of the Win32\_EncryptableVolume class'
+---
+Description: Retrieves the number of times BitLocker has been suspended.
+ms.assetid: B8C87352-62BA-4E5D-A273-CE74F3E1A7A8
+title: GetSuspendCount method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSuspendCount method of the Win32\_EncryptableVolume class

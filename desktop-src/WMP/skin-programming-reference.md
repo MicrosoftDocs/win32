@@ -1,8 +1,17 @@
 ---
 title: Skin Programming Reference
 description: Skin Programming Reference
-ms.assetid: '914f6045-7252-4a06-a514-d31ef6d2d03b'
-keywords: ["Windows Media Player,skins", "Windows Media Player skins,programming reference", "skins,programming reference", "reference for skins,about"]
+ms.assetid: 914f6045-7252-4a06-a514-d31ef6d2d03b
+keywords:
+- Windows Media Player,skins
+- Windows Media Player skins,programming reference
+- skins,programming reference
+- reference for skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Programming Reference

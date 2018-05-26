@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a fax message from the archive of outbound faxes for a particular fax account, by using the fax message ID.'
-ms.assetid: '87bb32e8-0068-473a-af73-5a963527b9ca'
-title: 'FaxAccountOutgoingArchive.GetMessage method'
+---
+Description: Returns a fax message from the archive of outbound faxes for a particular fax account, by using the fax message ID.
+ms.assetid: 87bb32e8-0068-473a-af73-5a963527b9ca
+title: FaxAccountOutgoingArchive.GetMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountOutgoingArchive.GetMessage method
@@ -34,9 +39,9 @@ Specifies a null-terminated string that contains the message ID of the fax to re
 
 ## Return value
 
-Type: **[**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md)\*\***
+Type: **[**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master)\*\***
 
-A [**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md) object.
+A [**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master) object.
 
 ## Requirements
 
@@ -58,7 +63,7 @@ A [**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md) object.
 [**FaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive-cpp.md)
+[**IFaxAccountOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingarchive?branch=master)
 </dt> </dl>
 
  

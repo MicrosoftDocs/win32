@@ -1,7 +1,12 @@
 ---
 Description: Adding Ink Controls to a Project
-ms.assetid: '9b8d1b8e-9077-4a0f-8c9c-2ebb0500e148'
+ms.assetid: 9b8d1b8e-9077-4a0f-8c9c-2ebb0500e148
 title: Adding Ink Controls to a Project
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Ink Controls to a Project

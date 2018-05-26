@@ -1,7 +1,12 @@
 ---
 title: def - ps
 description: Defines pixel shader floating-point constants.
-ms.assetid: '679b3074-73f3-48de-8c7a-f43bff76b25a'
+ms.assetid: 679b3074-73f3-48de-8c7a-f43bff76b25a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # def - ps

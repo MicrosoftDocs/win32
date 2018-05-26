@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemPlayingBackgroundColor
 description: The itemPlayingBackgroundColor attribute specifies or retrieves the background color of the currently playing playlist item.
-ms.assetid: 'c0e55caa-a46c-4496-887a-c2da8b6cee86'
-keywords: ["PLAYLIST.itemPlayingBackgroundColor Windows Media Player"]
+ms.assetid: c0e55caa-a46c-4496-887a-c2da8b6cee86
+keywords:
+- PLAYLIST.itemPlayingBackgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemPlayingBackgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemPlayingBackgroundColor
@@ -43,9 +49,9 @@ This attribute is a read/write **String** containing any Microsoft Internet Expl
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

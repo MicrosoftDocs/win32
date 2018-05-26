@@ -1,7 +1,12 @@
 ---
 Description: Using DirectShow
-ms.assetid: '37fd7afc-6068-46bf-80d1-9a6268b16a56'
+ms.assetid: 37fd7afc-6068-46bf-80d1-9a6268b16a56
 title: Using DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using DirectShow

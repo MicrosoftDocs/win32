@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine HasSSE2 property
 description: The HasSSE2 property contains TRUE if the processor supports the SSE2 instruction set.
-ms.assetid: '6a5a8cf8-38d2-48c1-9bde-b2fd6aa50577'
-keywords: ["HasSSE2 property Virtual Server", "HasSSE2 property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , HasSSE2 property", "HasSSE2 property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , HasSSE2 property"]
+ms.assetid: 6a5a8cf8-38d2-48c1-9bde-b2fd6aa50577
+keywords:
+- HasSSE2 property Virtual Server
+- HasSSE2 property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , HasSSE2 property
+- HasSSE2 property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , HasSSE2 property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::HasSSE2 property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HasSSE2(
-  [out] VARIANT_BOOL *sse2Enabled
+  [out] VARIANT_BOOL *sse2Enabled
 );
 ```
 
@@ -92,8 +102,8 @@ WScript.Echo "HasSSE2: " & objVM.HasSSE2
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -105,9 +115,9 @@ WScript.Echo "HasSSE2: " & objVM.HasSSE2
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

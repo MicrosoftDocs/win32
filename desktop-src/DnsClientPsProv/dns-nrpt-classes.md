@@ -4,12 +4,15 @@ description: The DnsClientPsProvider provider supports WMI classes that interact
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E2CD84B2-9A89-459B-9FAD-270C0AE3FF15'
-ms.prod: 'windows-server-dev'
+ms.assetid: E2CD84B2-9A89-459B-9FAD-270C0AE3FF15
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-client'
-- 'windows-management-instrumentation'
+- dns-client
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsClientPSProvider Provider

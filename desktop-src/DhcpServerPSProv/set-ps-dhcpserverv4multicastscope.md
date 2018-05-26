@@ -4,13 +4,16 @@ description: Modifies the specified properties of a Multicast Scope on the DHCP 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '843e9396-c6c1-48bb-b82e-bea8973dd1aa'
-ms.prod: 'windows-server-dev'
+ms.assetid: 843e9396-c6c1-48bb-b82e-bea8973dd1aa
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv4MulticastScope class", "PS_DhcpServerv4MulticastScope class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv4MulticastScope class
+- PS_DhcpServerv4MulticastScope class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv4MulticastScope class
@@ -30,18 +36,18 @@ Modifies the specified properties of a Multicast Scope on the DHCP Server.
 
 ```mof
 uint32 Set(
-  [in]  string                     ComputerName,
-  [in]  string                     Description,
-  [in]  string                     EndRange,
-  [in]  datetime                   LeaseDuration,
-  [in]  string                     Name,
-  [in]  boolean                    PassThru,
-  [in]  string                     StartRange,
-  [in]  string                     State = Active,
-  [in]  uint32                     Ttl,
-  [in]  string                     NewName,
-  [in]  datetime                   ExpiryTime,
-  [out] DhcpServerv4MulticastScope cmdletOutput
+  [in]  string                     ComputerName,
+  [in]  string                     Description,
+  [in]  string                     EndRange,
+  [in]  datetime                   LeaseDuration,
+  [in]  string                     Name,
+  [in]  boolean                    PassThru,
+  [in]  string                     StartRange,
+  [in]  string                     State = Active,
+  [in]  uint32                     Ttl,
+  [in]  string                     NewName,
+  [in]  datetime                   ExpiryTime,
+  [out] DhcpServerv4MulticastScope cmdletOutput
 );
 ```
 
@@ -156,7 +162,7 @@ An embedded instance of a [**DhcpServerv4MulticastScope**](dhcpserverv4multicast
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -170,9 +176,9 @@ An embedded instance of a [**DhcpServerv4MulticastScope**](dhcpserverv4multicast
 [**PS\_DhcpServerv4MulticastScope**](ps-dhcpserverv4multicastscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

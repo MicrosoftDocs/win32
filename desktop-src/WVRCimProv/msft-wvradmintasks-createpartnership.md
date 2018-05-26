@@ -4,13 +4,19 @@ description: Creates a replication partnership between two existing replication 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12ec1356-6bc8-4918-9ea3-a071e3e0f908'
-ms.prod: 'windows-server-dev'
+ms.assetid: 12ec1356-6bc8-4918-9ea3-a071e3e0f908
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreatePartnership method", "CreatePartnership method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, CreatePartnership method"]
+keywords:
+- CreatePartnership method
+- CreatePartnership method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, CreatePartnership method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreatePartnership method of the MSFT\_WvrAdminTasks class
@@ -22,16 +28,16 @@ Creates a replication partnership between two existing replication groups.
 
 ```mof
 uint32 CreatePartnership(
-  [in]  string                         SourceComputerName,
-  [in]  string                         SourceRGName,
-  [in]  string                         DestinationComputerName,
-  [in]  string                         DestinationRGName,
-  [in]  uint32                         ReplicationMode,
-  [in]  boolean                        PreventReplication,
-  [in]  boolean                        Seeded,
-  [in]  uint32                         AsyncRPO,
-  [in]  boolean                        EnableEncryption,
-  [out] MSFT_WvrReplicationPartnership Output[]
+  [in]  string                         SourceComputerName,
+  [in]  string                         SourceRGName,
+  [in]  string                         DestinationComputerName,
+  [in]  string                         DestinationRGName,
+  [in]  uint32                         ReplicationMode,
+  [in]  boolean                        PreventReplication,
+  [in]  boolean                        Seeded,
+  [in]  uint32                         AsyncRPO,
+  [in]  boolean                        EnableEncryption,
+  [out] MSFT_WvrReplicationPartnership Output[]
 );
 ```
 
@@ -134,7 +140,7 @@ Returns the resulting [**MSFT\_WvrReplicationPartnership**](msft-wvrreplicationp
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | Header<br/>                   | <dl> <dt>Wmp.h</dt> </dl>          |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
@@ -149,9 +155,9 @@ Returns the resulting [**MSFT\_WvrReplicationPartnership**](msft-wvrreplicationp
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

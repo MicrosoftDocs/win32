@@ -1,8 +1,16 @@
 ---
 title: CalculatorWsdl
 description: This is an example wsdl/schema for the calculator service samples.
-ms.assetid: '6dbea7dc-2d5c-4e6d-9941-9a93943e1914'
-keywords: ["CalculatorWsdl Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 6dbea7dc-2d5c-4e6d-9941-9a93943e1914
+keywords:
+- CalculatorWsdl Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CalculatorWsdl

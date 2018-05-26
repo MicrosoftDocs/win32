@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Mouse property
 description: The Mouse property contains the mouse device for the virtual machine.
-ms.assetid: 'd552c78f-c724-4c3b-b697-d87e4802aeb5'
-keywords: ["Mouse property Virtual Server", "Mouse property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Mouse property", "Mouse property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Mouse property"]
+ms.assetid: d552c78f-c724-4c3b-b697-d87e4802aeb5
+keywords:
+- Mouse property Virtual Server
+- Mouse property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Mouse property
+- Mouse property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Mouse property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Mouse property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Mouse(
-  [out] IVMMouse **mouse
+  [out] IVMMouse **mouse
 );
 ```
 
@@ -95,8 +105,8 @@ objMouse.Click(1)
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -108,9 +118,9 @@ objMouse.Click(1)
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

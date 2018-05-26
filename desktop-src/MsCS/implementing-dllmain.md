@@ -4,11 +4,17 @@ description: To work with an instance of a resource type, a Resource Monitor nee
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '022bc68f-94f4-4651-8385-e12fc34ae8f2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 022bc68f-94f4-4651-8385-e12fc34ae8f2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DllMain Failover Cluster", "DllMain Failover Cluster ,implementing", "entry point functions Failover Cluster ,implementing DllMain"]
+keywords:
+- DllMain Failover Cluster
+- DllMain Failover Cluster ,implementing
+- entry point functions Failover Cluster ,implementing DllMain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing DllMain

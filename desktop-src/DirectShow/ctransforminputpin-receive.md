@@ -1,19 +1,24 @@
 ---
-Description: 'The Receive method receives the next media sample in the stream. This method implements the IMemInputPin::Receive method.'
-ms.assetid: '65e4f8f5-2aa2-435b-84b4-e65af3f51afc'
-title: 'CTransformInputPin.Receive method'
+Description: The Receive method receives the next media sample in the stream. This method implements the IMemInputPinReceive method.
+ms.assetid: 65e4f8f5-2aa2-435b-84b4-e65af3f51afc
+title: CTransformInputPin.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin.Receive method
 
-The `Receive` method receives the next media sample in the stream. This method implements the [**IMemInputPin::Receive**](imeminputpin-receive.md) method.
+The `Receive` method receives the next media sample in the stream. This method implements the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Receive(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Receive(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +67,9 @@ If the filter needs to access the sample after this method returns, it should ho
 
 
 
- 
+ 
 
- 
+ 
 
 
 

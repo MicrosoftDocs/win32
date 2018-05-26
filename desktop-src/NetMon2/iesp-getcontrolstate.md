@@ -1,7 +1,12 @@
 ---
-Description: 'The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.'
-ms.assetid: '19cc3095-3aa3-4482-95f5-959b19f76cea'
-title: 'IESP::GetControlState method'
+Description: The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
+ms.assetid: 19cc3095-3aa3-4482-95f5-959b19f76cea
+title: IESPGetControlState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP::GetControlState method
@@ -13,8 +18,8 @@ The **GetControlState** method retrieves the state of the [*capture*](c.md#-netm
 
 ```C++
 HRESULT STDMETHODCALLTYPE GetControlState(
-  [out] BOOL *IsRunnning,
-  [out] BOOL *IsPaused
+  [out] BOOL *IsRunnning,
+  [out] BOOL *IsPaused
 );
 ```
 
@@ -53,7 +58,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,8 +70,8 @@ This method can be called any time the NPP is connected to the network. You can 
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -91,9 +96,9 @@ This method can be called any time the NPP is connected to the network. You can 
 [IESP::Stop](iesp-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

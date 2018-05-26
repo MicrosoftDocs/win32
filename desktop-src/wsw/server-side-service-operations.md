@@ -1,8 +1,16 @@
 ---
 title: Server Side Service Operations
 description: This section describes service side service operations.
-ms.assetid: 'd209cf2f-47f5-4025-8af4-1626c867a66a'
-keywords: ["Server Side Service Operations Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: d209cf2f-47f5-4025-8af4-1626c867a66a
+keywords:
+- Server Side Service Operations Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Side Service Operations
@@ -15,7 +23,7 @@ The following is the layout of a server side service operation
 
 -   const [WS\_OPERATION\_CONTEXT](ws-operation-context.md)\* context: The operation [context](context.md).
 -   Service Operations Parameters: Parameters pertaining to the service operation.
--   const [**WS\_ASYNC\_CONTEXT**](ws-async-context.md)\* asyncContext: Async context for executing the service operations asynchronously.
+-   const [**WS\_ASYNC\_CONTEXT**](/windows/win32/WebServices/ns-webservices-_ws_async_context?branch=master)\* asyncContext: Async context for executing the service operations asynchronously.
 -   [WS\_ERROR](ws-error.md)\* error: Rich error object.
 
 ``` syntax
@@ -33,7 +41,7 @@ HRESULT CALLBACK Add(const WS_OPERATION_CONTEXT* context,
 
 The server side should use faults to deliver error conditions to the client. It can do so by returning a failing HRESULT and embedding the fault in the error object.
 
-If the fault is not set on the error object and a failure HRESULT is returned, the infrastructure will attempt deliver a fault back to client. The level of details disclosed to the client in such a case is controlled by [**WS\_SERVICE\_PROPERTY\_FAULT\_DISCLOSURE**](ws-service-property-id.md) service property on the [Service Host](service-host.md).
+If the fault is not set on the error object and a failure HRESULT is returned, the infrastructure will attempt deliver a fault back to client. The level of details disclosed to the client in such a case is controlled by [**WS\_SERVICE\_PROPERTY\_FAULT\_DISCLOSURE**](/windows/win32/WebServices/ne-webservices-ws_service_property_id?branch=master) service property on the [Service Host](service-host.md).
 
 ## Call Completion
 

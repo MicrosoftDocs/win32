@@ -1,7 +1,12 @@
 ---
 Description: Selecting a Device
-ms.assetid: 'd1fc9608-5256-4c58-b77e-9dbe46a6abc5'
+ms.assetid: d1fc9608-5256-4c58-b77e-9dbe46a6abc5
 title: Selecting a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting a Device

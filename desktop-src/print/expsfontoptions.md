@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EXpsFontOptions enumeration describes the font options for an XPS part.'
-ms.assetid: '3a92b219-91ee-4c11-b5c1-8e2e0cbff406'
+---
+Description: The EXpsFontOptions enumeration describes the font options for an XPS part.
+ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 title: EXpsFontOptions enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXpsFontOptions enumeration

@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual machine and its devices with instances of CIM\_SettingData that represent the current settings that apply to these objects.'
-ms.assetid: '991FE773-1F87-4D5E-89E6-CB1A33989B1A'
-title: 'Msvm\_SettingsDefineState class'
+Description: Associates a virtual machine and its devices with instances of CIM\_SettingData that represent the current settings that apply to these objects.
+ms.assetid: 991FE773-1F87-4D5E-89E6-CB1A33989B1A
+title: Msvm\_SettingsDefineState class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SettingsDefineState class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider")]
 class Msvm_SettingsDefineState : CIM_SettingsDefineState
 {
-  Msvm_ComputerSystem           REF ManagedElement;
+  Msvm_ComputerSystem           REF ManagedElement;
   Msvm_VirtualSystemSettingData REF SettingData;
 };
 ```
@@ -69,8 +74,8 @@ Access to the **Msvm\_SettingsDefineState** class might be restricted by UAC Fil
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -90,9 +95,9 @@ Access to the **Msvm\_SettingsDefineState** class might be restricted by UAC Fil
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

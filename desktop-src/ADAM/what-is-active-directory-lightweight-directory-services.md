@@ -4,11 +4,15 @@ description: Active Directory Lightweight Directory Services (AD LDS) is an inde
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '29337b03-f641-4760-88bb-16c48196d88b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 29337b03-f641-4760-88bb-16c48196d88b
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS ADAM , defined"]
+keywords:
+- AD LDS ADAM , defined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What Is Active Directory Lightweight Directory Services?

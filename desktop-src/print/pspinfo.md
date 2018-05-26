@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PSPINFO structure is used as an input parameter to a property sheet page''s dialog box procedure, when the Windows message is WM\_INITDIALOG. The dialog box procedure''s address is specified in a DLGPAGE structure.'
-ms.assetid: '80a15ee4-e160-49fc-9c61-a14b14d19751'
+---
+Description: The PSPINFO structure is used as an input parameter to a property sheet pages dialog box procedure, when the Windows message is WM\_INITDIALOG. The dialog box procedures address is specified in a DLGPAGE structure.
+ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 title: PSPINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSPINFO structure

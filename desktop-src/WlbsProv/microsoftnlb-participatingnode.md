@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_ParticipatingNode association WMI class associate
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '783554ab-c251-49e9-9b64-38bb072eb7ce'
-ms.prod: 'windows-server-dev'
+ms.assetid: 783554ab-c251-49e9-9b64-38bb072eb7ce
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_ParticipatingNode class", "MicrosoftNLB_ParticipatingNode class, described"]
+keywords:
+- MicrosoftNLB_ParticipatingNode class
+- MicrosoftNLB_ParticipatingNode class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_ParticipatingNode class
@@ -37,10 +42,10 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, Provider("Microsoft|NLB_Provider|V1.0"), AMENDMENT]
 class MicrosoftNLB_ParticipatingNode : CIM_ParticipatingCS
 {
-  uint16                   StateOfNode;
-  uint16                   RoleOfNode;
+  uint16                   StateOfNode;
+  uint16                   RoleOfNode;
   MicrosoftNLB_Cluster REF Dependent;
-  MicrosoftNLB_Node    REF Antecedent;
+  MicrosoftNLB_Node    REF Antecedent;
 };
 ```
 
@@ -133,7 +138,7 @@ The **MicrosoftNLB\_ParticipatingNode** class is derived from the **CIM\_Partici
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -150,9 +155,9 @@ The **MicrosoftNLB\_ParticipatingNode** class is derived from the **CIM\_Partici
 [**MicrosoftNLB\_Node**](microsoftnlb-node.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

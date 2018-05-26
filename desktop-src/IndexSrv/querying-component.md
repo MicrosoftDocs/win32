@@ -1,7 +1,12 @@
 ---
 title: Querying Component
 description: Querying Component
-ms.assetid: 'a6582e7a-5020-4aab-9b23-54a9a7c3b6bf'
+ms.assetid: a6582e7a-5020-4aab-9b23-54a9a7c3b6bf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying Component

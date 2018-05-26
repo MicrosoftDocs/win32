@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageProvider class
 description: Represents a storage management provider (SMP) package that manages a storage subsystem.
-ms.assetid: 'afafd4d5-c0c1-4461-814d-bf00de403b3f'
-keywords: ["MSFT_StorageProvider class Windows Storage Management API", "MSFT_StorageProvider class Windows Storage Management API , described"]
+ms.assetid: afafd4d5-c0c1-4461-814d-bf00de403b3f
+keywords:
+- MSFT_StorageProvider class Windows Storage Management API
+- MSFT_StorageProvider class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageProvider class
@@ -34,16 +41,16 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_StorageProvider : MSFT_StorageObject
 {
-  UInt16  Type;
-  String  Name;
-  String  Manufacturer;
-  String  Version;
-  String  CimServerName;
-  String  URI;
-  String  URI_IP;
-  UInt16  RemoteSubsystemCacheMode;
+  UInt16  Type;
+  String  Name;
+  String  Manufacturer;
+  String  Version;
+  String  CimServerName;
+  String  URI;
+  String  URI_IP;
+  UInt16  RemoteSubsystemCacheMode;
   Boolean SupportsSubsystemRegistration;
-  UInt16  SupportedRemoteSubsystemCacheModes;
+  UInt16  SupportedRemoteSubsystemCacheModes;
 };
 ```
 
@@ -71,7 +78,7 @@ The **MSFT\_StorageProvider** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -147,7 +154,7 @@ The caching mode of this provider.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -172,7 +179,7 @@ The caching modes that this provider supports.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -212,7 +219,7 @@ Indicates whether the provider is implemented using SMI-S standard interfaces or
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -268,16 +275,16 @@ A free-form version string used by the SMP manufacturer to differentiate between
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

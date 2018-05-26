@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions.'
-ms.assetid: '22942a11-e689-4b48-bed0-ac1f4bef706b'
-title: 'FaxOutgoingQueue.AllowPersonalCoverPages property'
+---
+Description: The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions.
+ms.assetid: 22942a11-e689-4b48-bed0-ac1f4bef706b
+title: FaxOutgoingQueue.AllowPersonalCoverPages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.AllowPersonalCoverPages property
@@ -27,7 +32,7 @@ A **Boolean** that specifies or receives whether fax client applications can inc
 
 If this property is equal to **True**, clients can include personal cover page files with fax transmissions. If this property is equal to **False**, clients must use a common cover page file stored on the fax server.
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Setting the Outgoing Queue Properties](-mfax-setting-the-outgoing-queue-properties.md)

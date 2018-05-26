@@ -1,8 +1,16 @@
 ---
 title: CallAbandonExample
 description: Example client application demonstrating abandoning a call.
-ms.assetid: '71253dd6-4f59-4acd-b244-c721834ca381'
-keywords: ["CallAbandonExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 71253dd6-4f59-4acd-b244-c721834ca381
+keywords:
+- CallAbandonExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CallAbandonExample

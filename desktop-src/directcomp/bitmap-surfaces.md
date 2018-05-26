@@ -1,7 +1,12 @@
 ---
 title: Bitmap objects
 description: This topic describes the types of bitmap content that DirectComposition supports.
-ms.assetid: 'BC32CF76-D5E4-4B25-AFD5-42E8DABFA0D0'
+ms.assetid: BC32CF76-D5E4-4B25-AFD5-42E8DABFA0D0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmap objects
@@ -64,7 +69,7 @@ An additional alpha mode ignores the alpha channel, but treats the red, green, a
 
 In situations where the ClearType algorithm is not applicable, such as if the bitmap is not pixel-aligned and axis-aligned, or if it needs to be drawn to an intermediate surface, DirectComposition can use the subpixel coverage data in the bitmap to produce a grayscale rasterization instead, automatically and at no additional cost.
 
-For more information, see the description of the *alphaMode* parameter of the [**IDCompositionDevice::CreateSurface**](idcompositiondevice-createsurface.md) or [**IDCompositionDevice::CreateVirtualSurface**](idcompositiondevice-createvirtualsurface.md) function.
+For more information, see the description of the *alphaMode* parameter of the [**IDCompositionDevice::CreateSurface**](/windows/win32/Dcomp/?branch=master) or [**IDCompositionDevice::CreateVirtualSurface**](/windows/win32/Dcomp/?branch=master) function.
 
 ## Related topics
 

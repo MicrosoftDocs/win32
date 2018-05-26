@@ -1,7 +1,7 @@
 ---
 title: TF\_SFT\_\ Constants
 description: The TF\_SFT\_\ constants specify display settings of a floating language bar.
-ms.assetid: '628e1d85-9614-4327-b89b-723f6eeb0718'
+ms.assetid: 628e1d85-9614-4327-b89b-723f6eeb0718
 topic_type:
 - apiref
 api_name:
@@ -21,6 +21,11 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_SFT\_\* Constants
@@ -48,7 +53,7 @@ The **TF\_SFT\_\*** constants specify display settings of a floating language ba
 
 ## Remarks
 
-The [ITfLangBarMgr::ShowFloating](itflangbarmgr-showfloating.md) method sets the result of a logical **OR** operation on one or more of these constants to specify the attributes of the language bar item.
+The [ITfLangBarMgr::ShowFloating](/windows/win32/Ctfutb/nf-ctfutb-itflangbarmgr-showfloating?branch=master) method sets the result of a logical **OR** operation on one or more of these constants to specify the attributes of the language bar item.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ The [ITfLangBarMgr::ShowFloating](itflangbarmgr-showfloating.md) method sets the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ctfutb.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ctfutb.idl</dt> </dl> |
 
@@ -68,12 +73,12 @@ The [ITfLangBarMgr::ShowFloating](itflangbarmgr-showfloating.md) method sets the
 
 <dl> <dt>
 
-[ITfLangBarMgr::ShowFloating](itflangbarmgr-showfloating.md)
+[ITfLangBarMgr::ShowFloating](/windows/win32/Ctfutb/nf-ctfutb-itflangbarmgr-showfloating?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Terminal Services Session Initial Program specifies the path and fi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c886209b-725b-4e49-a802-58be9ed5e92e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c886209b-725b-4e49-a802-58be9ed5e92e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Initial-Program attribute AD Schema", "msTSInitialProgram attribute AD Schema"]
+keywords:
+- ms-TS-Initial-Program attribute AD Schema
+- msTSInitialProgram attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Initial-Program
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Initial-Program attribute
@@ -38,9 +43,9 @@ Terminal Services Session Initial Program specifies the path and file name of th
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Terminal Services Session Initial Program specifies the path and file name of th
 
 
 
- 
+ 
 
- 
+ 
 
 
 

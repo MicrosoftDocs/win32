@@ -1,7 +1,12 @@
-﻿---
-Description: 'Subtraction and negation operators.'
-ms.assetid: 'b3a3da02-4fba-4f76-90d8-15f605c73f16'
-title: 'operator - operators'
+---
+Description: Subtraction and negation operators.
+ms.assetid: b3a3da02-4fba-4f76-90d8-15f605c73f16
+title: operator - operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator - operators

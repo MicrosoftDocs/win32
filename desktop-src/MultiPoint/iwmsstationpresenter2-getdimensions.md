@@ -4,11 +4,14 @@ description: Retrieves the dimensions of a frame buffer from the input device, i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'D7A754F9-0F4A-490D-A288-0304628058A7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: D7A754F9-0F4A-490D-A288-0304628058A7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetDimensions method", "GetDimensions method, IWmsStationPresenter2 interface", "IWmsStationPresenter2 interface, GetDimensions method"]
+keywords:
+- GetDimensions method
+- GetDimensions method, IWmsStationPresenter2 interface
+- IWmsStationPresenter2 interface, GetDimensions method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWmsStationPresenter2::GetDimensions method
@@ -30,8 +36,8 @@ Retrieves the dimensions of a frame buffer from the input device, in pixels. Thi
 
 ```C++
 HRESULT GetDimensions(
-  [out] UINT *pcx,
-  [out] UINT *pcy
+  [out] UINT *pcx,
+  [out] UINT *pcy
 );
 ```
 
@@ -66,7 +72,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsStationPresenter2 is defined as 5c03282a-b68f-476a-ace8-e0736a9d1260<br/>           |
 
@@ -79,9 +85,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWmsStationPresenter2**](iwmsstationpresenter2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

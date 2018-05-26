@@ -1,8 +1,11 @@
 ---
 title: text.fontsize property
 description: Gets or sets the font size.
-ms.assetid: '930f3bcc-71d9-4d33-b7bd-9dfd830c6d8c'
-keywords: ["fontsize property Windows Sidebar", "fontsize property Windows Sidebar , text object", "text object Windows Sidebar , fontsize property"]
+ms.assetid: 930f3bcc-71d9-4d33-b7bd-9dfd830c6d8c
+keywords:
+- fontsize property Windows Sidebar
+- fontsize property Windows Sidebar , text object
+- text object Windows Sidebar , fontsize property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text.fontsize property
@@ -51,9 +59,9 @@ Default. If the font size is not available for the font specified.
 ## Remarks
 
 > \[!Important\]  
-> For Windows 7, when the new `<autoscaleDPI>` element of the gadget manifest is set to true (for high-DPI support) gadgets should explicitly specify a text size.
+> For Windows 7, when the new `<autoscaleDPI>` element of the gadget manifest is set to true (for high-DPI support) gadgets should explicitly specify a text size.
 
- 
+ 
 
 ## Examples
 
@@ -74,10 +82,10 @@ txtSize.fontsize = 12;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Olectl.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -100,9 +108,9 @@ txtSize.fontsize = 12;
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetExtensionProperty method stores an extension configuration property at the device level.'
-ms.assetid: 'e18367a8-3dc8-4e19-8adb-60c465fa0f08'
-title: 'FaxDevice.SetExtensionProperty method'
+---
+Description: The SetExtensionProperty method stores an extension configuration property at the device level.
+ms.assetid: e18367a8-3dc8-4e19-8adb-60c465fa0f08
+title: FaxDevice.SetExtensionProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.SetExtensionProperty method
@@ -44,7 +49,7 @@ Type: **Variant**
 
 ## Remarks
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 > [!Note]  
 > The required data is a blob of bytes represented as a variant safe array of unsigned chars (VT\_UI1 \| VT\_ARRAY). The data is relevant only to the specific extension that uses it. For more information see [About the Fax Extension Configuration API](-mfax-about-the-fax-extension-configuration-api.md).
@@ -74,7 +79,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

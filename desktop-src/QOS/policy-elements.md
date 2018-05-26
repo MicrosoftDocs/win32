@@ -1,8 +1,14 @@
 ---
 title: Policy Elements
 description: Policy element values are standardized by the Internet Engineering Task Force (IETF), and the allocation of vendor-specific policy elements is governed by the Internet Assigned Numbers Authority (IANA).
-ms.assetid: '72eeb985-85e2-48c6-b79f-73f48295740a'
-keywords: ["Quality of Service QOS , described, policy elements"]
+ms.assetid: 72eeb985-85e2-48c6-b79f-73f48295740a
+keywords:
+- Quality of Service QOS , described, policy elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy Elements

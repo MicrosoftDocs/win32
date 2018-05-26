@@ -1,7 +1,12 @@
 ---
 title: MaxFilesizeMultiplier
 description: MaxFilesizeMultiplier
-ms.assetid: 'e7ce8f5b-d6e5-4bb0-9edf-ef3bcda744f5'
+ms.assetid: e7ce8f5b-d6e5-4bb0-9edf-ef3bcda744f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxFilesizeMultiplier

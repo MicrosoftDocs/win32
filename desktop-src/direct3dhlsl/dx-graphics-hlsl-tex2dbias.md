@@ -1,14 +1,20 @@
 ---
 title: tex2Dbias
 description: Samples a 2D texture after biasing the mip level by t.w.
-ms.assetid: 'adf2891a-732a-4953-875b-df315c19748b'
-keywords: ["tex2Dbias HLSL"]
+ms.assetid: adf2891a-732a-4953-875b-df315c19748b
+keywords:
+- tex2Dbias HLSL
 topic_type:
 - apiref
 api_name:
 - tex2Dbias
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex2Dbias
@@ -22,7 +28,7 @@ Samples a 2D texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 2D texture after biasing the mip level by t.w.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

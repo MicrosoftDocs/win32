@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains various security settings used by independent hardware vendors.'
-ms.assetid: '237c5d98-3f3c-4279-b2ad-b0d05df041f9'
-title: 'security (IHV) Element'
+---
+Description: Contains various security settings used by independent hardware vendors.
+ms.assetid: 237c5d98-3f3c-4279-b2ad-b0d05df041f9
+title: security (IHV) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # security (IHV) Element

@@ -1,7 +1,12 @@
 ---
-Description: 'Uri of the large thumbnail representation of the media item.'
-ms.assetid: 'cafccadf-45de-437f-abe9-b09ede747f02'
-title: 'System.Media.ThumbnailLargeUri'
+Description: Uri of the large thumbnail representation of the media item.
+ms.assetid: cafccadf-45de-437f-abe9-b09ede747f02
+title: System.Media.ThumbnailLargeUri
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.ThumbnailLargeUri

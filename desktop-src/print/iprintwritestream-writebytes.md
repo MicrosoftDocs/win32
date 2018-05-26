@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WriteBytes method writes a specified number of bytes to a stream.'
-ms.assetid: 'd47c836e-a291-4cc2-9688-82526f8bfb8b'
-title: 'IPrintWriteStream::WriteBytes method'
+---
+Description: The WriteBytes method writes a specified number of bytes to a stream.
+ms.assetid: d47c836e-a291-4cc2-9688-82526f8bfb8b
+title: IPrintWriteStreamWriteBytes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintWriteStream::WriteBytes method

@@ -2,7 +2,15 @@
 title: MIDL Data Types
 description: MIDL provides a plethora of data types and language constructs for creating data types.
 ms.assetid: 6bc7db39-84c9-4ec5-8ff6-403635663b1b
-keywords: ["Microsoft Interface Definition Language MIDL , described, data types", "MIDL MIDL , data types", "data types MIDL"]
+keywords:
+- Microsoft Interface Definition Language MIDL , described, data types
+- MIDL MIDL , data types
+- data types MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Data Types

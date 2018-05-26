@@ -1,7 +1,12 @@
 ---
 title: How Developer Tools Use Type Libraries
 description: How Developer Tools Use Type Libraries
-ms.assetid: '260aa694-1055-4a43-93aa-69a9d7359881'
+ms.assetid: 260aa694-1055-4a43-93aa-69a9d7359881
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Developer Tools Use Type Libraries

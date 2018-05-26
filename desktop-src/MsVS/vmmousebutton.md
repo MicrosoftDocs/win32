@@ -1,8 +1,9 @@
 ---
 title: VMMouseButton enumeration
 description: The VMMouseButton enumeration specifies a mouse button.
-ms.assetid: '40fe22c0-eae8-49f4-9102-1e313c278c13'
-keywords: ["VMMouseButton enumeration Virtual Server"]
+ms.assetid: 40fe22c0-eae8-49f4-9102-1e313c278c13
+keywords:
+- VMMouseButton enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMMouseButton enumeration
@@ -22,9 +28,9 @@ The **VMMouseButton** enumeration specifies a mouse button.
 
 ```C++
 typedef enum  { 
-  vmMouseButton_Left    = 1,
-  vmMouseButton_Right   = 2,
-  vmMouseButton_Center  = 3
+  vmMouseButton_Left    = 1,
+  vmMouseButton_Right   = 2,
+  vmMouseButton_Center  = 3
 } VMMouseButton;
 ```
 
@@ -61,15 +67,15 @@ Center mouse button.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

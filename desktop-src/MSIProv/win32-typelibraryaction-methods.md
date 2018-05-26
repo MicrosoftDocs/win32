@@ -1,7 +1,12 @@
 ---
 title: Win32\_TypeLibraryAction Methods
 description: The Win32\_TypeLibraryAction class exposes the following methods.
-ms.assetid: '0BAA985E-4143-430D-8B59-C8612E3018BB'
+ms.assetid: 0BAA985E-4143-430D-8B59-C8612E3018BB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_TypeLibraryAction Methods

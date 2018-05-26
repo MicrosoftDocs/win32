@@ -1,7 +1,12 @@
 ---
 title: Windows 7 Advanced Heap Data Collection
 description: Windows 7 Advanced Heap Data Collection
-ms.assetid: '29656c3f-6b82-4275-997d-f9ef10ca2601'
+ms.assetid: 29656c3f-6b82-4275-997d-f9ef10ca2601
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows 7 Advanced Heap Data Collection

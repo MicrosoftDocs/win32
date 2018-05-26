@@ -4,11 +4,12 @@ description: The property methods of the IADsPrintJobOperations interface read a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd1710bd4-e600-4d92-892a-16b4316851d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d1710bd4-e600-4d92-892a-16b4316851d4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPrintJobOperations Property Methods ADSI"]
+keywords:
+- IADsPrintJobOperations Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -26,11 +27,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPrintJobOperations Property Methods
 
-The property methods of the [**IADsPrintJobOperations**](iadsprintjoboperations.md) interface read and write the properties listed in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsPrintJobOperations**](/windows/win32/Iads/nn-iads-iadsprintjoboperations?branch=master) interface read and write the properties listed in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -139,11 +143,11 @@ HRESULT get_TimeElapsed(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
-The following code example shows how the properties for [**IADsPrintJobOperations**](iadsprintjoboperations.md) may be used.
+The following code example shows how the properties for [**IADsPrintJobOperations**](/windows/win32/Iads/nn-iads-iadsprintjoboperations?branch=master) may be used.
 
 
 ```VB
@@ -177,8 +181,8 @@ Cleanup:
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>   |
 | IID<br/>                      | IID\_IADsPrintJobOperations is defined as 32FB6780-1ED0-11CF-A988-00AA006BC149<br/> |
@@ -189,21 +193,21 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsPrintJob**](iadsprintjob.md)
+[**IADsPrintJob**](/windows/win32/Iads/nn-iads-iadsprintjob?branch=master)
 </dt> <dt>
 
-[**IADsPrintJobOperations**](iadsprintjoboperations.md)
+[**IADsPrintJobOperations**](/windows/win32/Iads/nn-iads-iadsprintjoboperations?branch=master)
 </dt> <dt>
 
-[**IADsPrintQueue**](iadsprintqueue.md)
+[**IADsPrintQueue**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)
 </dt> <dt>
 
 [**ADSI Print Job Status Constants**](adsi-print-job-status-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

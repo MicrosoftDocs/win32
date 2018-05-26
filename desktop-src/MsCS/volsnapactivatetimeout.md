@@ -4,17 +4,21 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CFE664CA-B927-4F60-B1E3-05DA31DB6990'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CFE664CA-B927-4F60-B1E3-05DA31DB6990
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VolsnapActivateTimeout Failover Cluster"]
+keywords:
+- VolsnapActivateTimeout Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VolsnapActivateTimeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VolsnapActivateTimeout
@@ -28,14 +32,14 @@ TBD
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 30                                        |
 | Maximum   | 600                                       |
 | Default   | 150                                       |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,7 +48,7 @@ TBD
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -55,9 +59,9 @@ TBD
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,27 @@
 ---
 title: update command
 description: The update command repaints the current frame into the specified device context (DC). Digital-video devices recognize this command.
-ms.assetid: '049a513a-bae1-4551-8700-cef417ed5373'
-keywords: ["update command Windows Multimedia"]
+ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373
+keywords:
+- update command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - update
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # update command
 
 The update command repaints the current frame into the specified device context (DC). Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -51,7 +57,7 @@ Handle of a DC. The following table lists device types that recognize the **upda
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszHDC** parameter and their meanings.
 
@@ -65,7 +71,7 @@ The following table lists the flags that can be specified in the **lpszHDC** par
 
 
 
- 
+ 
 
 To specify the handle of the DC, use the string "hdc" followed by an ASCII representation of the handle. The rectangle is specified as**X1 Y1 X2 Y2**. The coordinates**X1 Y1**specify the upper left corner of the rectangle, and the coordinates**X2 Y2**specify the width and height.
 
@@ -96,8 +102,8 @@ update movie hdc 203
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -111,9 +117,9 @@ update movie hdc 203
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

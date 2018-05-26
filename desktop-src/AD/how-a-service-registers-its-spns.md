@@ -4,11 +4,16 @@ description: Before a client can use an SPN to authenticate an instance of a ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '39712c1f-3a9a-4c98-a1cb-879ab0b4cb63'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 39712c1f-3a9a-4c98-a1cb-879ab0b4cb63
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["How a Service Registers its SPNs AD", "service principal name AD , how a service registers its SPNs"]
+keywords:
+- How a Service Registers its SPNs AD
+- service principal name AD , how a service registers its SPNs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How a Service Registers its SPNs
@@ -19,18 +24,18 @@ The service installer that installs a service instance on a host computer typica
 
 **To register SPNs for a service instance**
 
-1.  Call the [**DsGetSpn**](dsgetspn.md) function to create one or more unique SPNs for the service instance. For more information, see [Name Formats for Unique SPNs](name-formats-for-unique-spns.md).
-2.  Call the [**DsWriteAccountSpn**](dswriteaccountspn.md) function to register the names on the service's logon account.
+1.  Call the [**DsGetSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dsgetspna?branch=master) function to create one or more unique SPNs for the service instance. For more information, see [Name Formats for Unique SPNs](name-formats-for-unique-spns.md).
+2.  Call the [**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master) function to register the names on the service's logon account.
 
-[**DsWriteAccountSpn**](dswriteaccountspn.md) registers SPNs as a property of a user or computer account object in the directory. **user** and **computer** objects have a **servicePrincipalName** attribute, which is a multi-valued attribute for storing all the SPNs associated with a user or computer account. If the service runs under a user account, the SPNs are stored in the **servicePrincipalName** attribute of that account. If the service runs in the LocalSystem account, the SPNs are stored in the **servicePrincipalName** attribute of the account of the service's host computer. The **DsWriteAccountSpn** caller must specify the distinguished name of the account object under which the SPNs are stored.
+[**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master) registers SPNs as a property of a user or computer account object in the directory. **user** and **computer** objects have a **servicePrincipalName** attribute, which is a multi-valued attribute for storing all the SPNs associated with a user or computer account. If the service runs under a user account, the SPNs are stored in the **servicePrincipalName** attribute of that account. If the service runs in the LocalSystem account, the SPNs are stored in the **servicePrincipalName** attribute of the account of the service's host computer. The **DsWriteAccountSpn** caller must specify the distinguished name of the account object under which the SPNs are stored.
 
-To ensure that registered SPNs are secure, the **servicePrincipalName** attribute cannot be written directly; it can only be written by calling [**DsWriteAccountSpn**](dswriteaccountspn.md). The caller must have write-access to the **servicePrincipalName** attribute of the target account. Typically, write access is granted by default only to domain administrators. However, there is a special case in which the system allows a service running under the LocalSystem account to register its own SPNs on the computer account of the service's host. In this case, the SPN being written must have the form "&lt;service class&gt;/&lt;host&gt;" and "&lt;host&gt;" must be the DNS name of the local computer.
+To ensure that registered SPNs are secure, the **servicePrincipalName** attribute cannot be written directly; it can only be written by calling [**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master). The caller must have write-access to the **servicePrincipalName** attribute of the target account. Typically, write access is granted by default only to domain administrators. However, there is a special case in which the system allows a service running under the LocalSystem account to register its own SPNs on the computer account of the service's host. In this case, the SPN being written must have the form "&lt;service class&gt;/&lt;host&gt;" and "&lt;host&gt;" must be the DNS name of the local computer.
 
-[**DsWriteAccountSpn**](dswriteaccountspn.md) can also remove SPNs from an account. An operation parameter indicates whether the SPNs are to be added to the account, removed from the account, or used to completely replace all current SPNs for the account. When a service instance is uninstalled, remove any SPNs registered for that instance.
+[**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master) can also remove SPNs from an account. An operation parameter indicates whether the SPNs are to be added to the account, removed from the account, or used to completely replace all current SPNs for the account. When a service instance is uninstalled, remove any SPNs registered for that instance.
 
 For more information and a code example that registers or unregisters a service's SPNs, see [Registering the SPNs for a Service](registering-the-spns-for-a-service.md).
 
-Host-based services that use the simple SPN format "&lt;service class&gt;/&lt;host&gt;", have the option of using the [**DsServerRegisterSpn**](dsserverregisterspn.md) function, which both creates and registers SPNs for a service instance. **DsServerRegisterSpn** is a helper function that calls [**DsGetSpn**](dsgetspn.md) and [**DsWriteAccountSpn**](dswriteaccountspn.md).
+Host-based services that use the simple SPN format "&lt;service class&gt;/&lt;host&gt;", have the option of using the [**DsServerRegisterSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dsserverregisterspna?branch=master) function, which both creates and registers SPNs for a service instance. **DsServerRegisterSpn** is a helper function that calls [**DsGetSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dsgetspna?branch=master) and [**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master).
 
 For more information, see [Service Logon Accounts](service-logon-accounts.md).
 

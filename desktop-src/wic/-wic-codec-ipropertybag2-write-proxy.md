@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Imaging Component (WIC) proxy function for IPropertyBag2::Write.'
-ms.assetid: 'b97caba6-298a-4b36-9f39-9b5440b866c3'
-title: 'IPropertyBag2\_Write\_Proxy function'
+Description: Windows Imaging Component (WIC) proxy function for IPropertyBag2Write.
+ms.assetid: b97caba6-298a-4b36-9f39-9b5440b866c3
+title: IPropertyBag2\_Write\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyBag2\_Write\_Proxy function
@@ -13,10 +18,10 @@ Windows Imaging Component (WIC) proxy function for IPropertyBag2::Write.
 
 ```C++
 HRESULT IPropertyBag2_Write_Proxy(
-  _In_ IPropertyBag2 *THIS_PTR,
-  _In_ ULONG         cProperties,
-  _In_ PROPBAG2      *ppropBag,
-  _In_ VARIANT       *pvarValue
+  _In_ IPropertyBag2 *THIS_PTR,
+  _In_ ULONG         cProperties,
+  _In_ PROPBAG2      *ppropBag,
+  _In_ VARIANT       *pvarValue
 );
 ```
 
@@ -70,15 +75,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f2021d11-f713-497e-b503-51c674b8828f'
-title: 'System.FileVersion'
+Description: .
+ms.assetid: f2021d11-f713-497e-b503-51c674b8828f
+title: System.FileVersion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileVersion

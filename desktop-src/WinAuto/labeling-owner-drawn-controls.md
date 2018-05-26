@@ -1,7 +1,12 @@
 ---
 title: Labeling Owner-Drawn Controls
 description: Application developers should define a label, also known as caption text, for all owner-drawn controls, even if the label is not visible on the screen.
-ms.assetid: '7150570d-d593-4d95-b1c9-1445bbf5de77'
+ms.assetid: 7150570d-d593-4d95-b1c9-1445bbf5de77
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Labeling Owner-Drawn Controls

@@ -1,7 +1,12 @@
 ---
-Description: 'These steps verify the signature of signed data.'
-ms.assetid: '18246cc1-d3c4-4426-a342-ce3864cc412e'
+Description: These steps verify the signature of signed data.
+ms.assetid: 18246cc1-d3c4-4426-a342-ce3864cc412e
 title: Verifying a Signed Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying a Signed Message
@@ -25,15 +30,15 @@ These steps verify the signature of signed data. The following illustration depi
 
     If the two digests do not match, the signature is not verified, and either the private/public keys do not match, or the data has been changed since the data was signed, or both.
 
-A single function, [**CryptVerifyMessageSignature**](cryptverifymessagesignature.md), can be used to verify a signature, as shown in the following procedure.
+A single function, [**CryptVerifyMessageSignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptverifymessagesignature?branch=master), can be used to verify a signature, as shown in the following procedure.
 
 **To verify a signed message**
 
 1.  Get a pointer to the signed message.
 2.  Get the size of the signed message.
 3.  Get a handle on a cryptographic provider.
-4.  Initialize the [**CRYPT\_VERIFY\_MESSAGE\_PARA**](crypt-verify-message-para.md) structure.
-5.  Call [**CryptVerifyMessageSignature**](cryptverifymessagesignature.md) to verify the signature.
+4.  Initialize the [**CRYPT\_VERIFY\_MESSAGE\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_verify_message_para?branch=master) structure.
+5.  Call [**CryptVerifyMessageSignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptverifymessagesignature?branch=master) to verify the signature.
 
 Code that implements this procedure is included in [Example C Program: Signing a Message and Verifying a Message Signature](example-c-program-signing-a-message-and-verifying-a-message-signature.md).
 

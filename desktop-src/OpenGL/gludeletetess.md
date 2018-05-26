@@ -1,8 +1,9 @@
 ---
 title: gluDeleteTess function
 description: The gluDeleteTess function destroys a tessellation object.
-ms.assetid: '7e1540f7-5e7d-4a3b-8c94-5a6800b17411'
-keywords: ["gluDeleteTess function OpenGL"]
+ms.assetid: 7e1540f7-5e7d-4a3b-8c94-5a6800b17411
+keywords:
+- gluDeleteTess function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluDeleteTess function
@@ -22,7 +28,7 @@ The **gluDeleteTess** function destroys a tessellation object.
 
 ```C++
 void WINAPI gluDeleteTess(
-   GLUtesselator *tess
+   GLUtesselator *tess
 );
 ```
 
@@ -53,8 +59,8 @@ The **gluDeleteTess** function destroys the indicated tessellation object and fr
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -74,9 +80,9 @@ The **gluDeleteTess** function destroys the indicated tessellation object and fr
 [*gluTessCallback*](glutess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

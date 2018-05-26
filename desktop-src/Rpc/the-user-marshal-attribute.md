@@ -1,8 +1,15 @@
 ---
 title: The user\_marshal Attribute
 description: The \ user\_marshal\ attribute is an ACF-type attribute similar in syntax to \ represent\_as\ .
-ms.assetid: '5a381b44-e271-4713-954f-a55840a92bb7'
-keywords: ["Remote Procedure Call RPC , attributes, user_marshal", "user_marshal"]
+ms.assetid: 5a381b44-e271-4713-954f-a55840a92bb7
+keywords:
+- Remote Procedure Call RPC , attributes, user_marshal
+- user_marshal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The user\_marshal Attribute
@@ -48,7 +55,7 @@ For an \[ [out](https://msdn.microsoft.com/library/windows/desktop/aa367136)\]-o
 [wire\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367309)
 </dt> <dt>
 
-[**NdrGetUserMarshalInfo**](ndrgetusermarshalinfo.md)
+[**NdrGetUserMarshalInfo**](/windows/win32/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo?branch=master)
 </dt> </dl>
 
  

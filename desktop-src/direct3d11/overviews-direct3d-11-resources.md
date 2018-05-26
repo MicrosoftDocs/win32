@@ -1,7 +1,12 @@
 ---
 title: Resources
 description: This section describes aspects of Direct3D 11 resources.
-ms.assetid: '5b8b1198-73ed-4058-9fc6-a1c43902d732'
+ms.assetid: 5b8b1198-73ed-4058-9fc6-a1c43902d732
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resources
@@ -27,7 +32,7 @@ Resources provide data to the pipeline and define what is rendered during your s
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ Resources provide data to the pipeline and define what is rendered during your s
 [Programming Guide for Direct3D 11](dx-graphics-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

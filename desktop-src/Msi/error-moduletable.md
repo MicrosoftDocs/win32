@@ -1,7 +1,12 @@
 ---
-Description: 'The read-only ModuleTable Property returns the name of the table in the module that caused the error.'
-ms.assetid: '390f5889-d638-4c1c-b95c-76d38c934e7c'
-title: 'Error.ModuleTable property'
+Description: The read-only ModuleTable Property returns the name of the table in the module that caused the error.
+ms.assetid: 390f5889-d638-4c1c-b95c-76d38c934e7c
+title: Error.ModuleTable property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.ModuleTable property
@@ -27,7 +32,7 @@ The collection is empty if the values do not apply to the type of the error. You
 
 ### C++
 
-See [**get\_ModuleTable**](imsmerror-get-moduletable.md) function.
+See [**get\_ModuleTable**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 
@@ -41,9 +46,9 @@ See [**get\_ModuleTable**](imsmerror-get-moduletable.md) function.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

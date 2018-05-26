@@ -1,13 +1,16 @@
 ---
-Description: 'Directory Services Data Exchange (DSDE) is a command-line utility, similar to LDIFDE, which enables users to import and export objects to and from directory services.'
+Description: Directory Services Data Exchange (DSDE) is a command-line utility, similar to LDIFDE, which enables users to import and export objects to and from directory services.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'cb97c689-aab4-4a34-b7ea-18f549d21f31'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: cb97c689-aab4-4a34-b7ea-18f549d21f31
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: About DSDE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About DSDE

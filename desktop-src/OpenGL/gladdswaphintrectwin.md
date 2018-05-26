@@ -1,8 +1,9 @@
 ---
 title: glAddSwapHintRectWIN function
 description: The glAddSwapHintRectWIN callback function specifies a set of rectangles that are to be copied by SwapBuffers.
-ms.assetid: 'f242e755-8e8a-471a-9884-47efa22a3de6'
-keywords: ["glAddSwapHintRectWIN function OpenGL"]
+ms.assetid: f242e755-8e8a-471a-9884-47efa22a3de6
+keywords:
+- glAddSwapHintRectWIN function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,21 +12,26 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glAddSwapHintRectWIN function
 
-The **glAddSwapHintRectWIN** callback function specifies a set of rectangles that are to be copied by [**SwapBuffers**](swapbuffers.md).
+The **glAddSwapHintRectWIN** callback function specifies a set of rectangles that are to be copied by [**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master).
 
 ## Syntax
 
 
 ```C++
 void WINAPI glAddSwapHintRectWIN(
-   GLint   x,
-   GLint   y,
-   GLsizei width,
-   GLsizei height
+   GLint   x,
+   GLint   y,
+   GLsizei width,
+   GLsizei height
 );
 ```
 
@@ -69,9 +75,9 @@ This function does not return a value.
 
 ## Remarks
 
-The **glAddSwapHintRectWIN** function speeds up animation by reducing the amount of repainting between frames. With **glAddSwapHintRectWIN**, you specify a set of rectangular areas that you want copied when you call [**SwapBuffers**](swapbuffers.md). When you do not specify any rectangles with **glAddSwapHintRectWIN** before calling **SwapBuffers**, the entire framebuffer is swapped. Using **glAddSwapHintRectWIN** to copy only changed parts of the buffer can significantly increase the performance of **SwapBuffers**, especially when **SwapBuffers** is implemented in software.
+The **glAddSwapHintRectWIN** function speeds up animation by reducing the amount of repainting between frames. With **glAddSwapHintRectWIN**, you specify a set of rectangular areas that you want copied when you call [**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master). When you do not specify any rectangles with **glAddSwapHintRectWIN** before calling **SwapBuffers**, the entire framebuffer is swapped. Using **glAddSwapHintRectWIN** to copy only changed parts of the buffer can significantly increase the performance of **SwapBuffers**, especially when **SwapBuffers** is implemented in software.
 
-The **glAddSwapHintRectWIN** function adds a rectangle to the hint region. When the PFD\_SWAP\_COPY flag of the [**PIXELFORMATDESCRIPTOR**](pixelformatdescriptor.md) pixel format structure is set, **SwapBuffers** uses this region to clip the copying of the back buffer to the front buffer. You don't specify PFD\_SWAP\_COPY; it is set by capable hardware. The hint region is cleared after each call to **SwapBuffers**. With some hardware configurations, **SwapBuffers** can ignore the hint region and exchange the entire buffer. **SwapBuffers** is implemented by the system, not by the application.
+The **glAddSwapHintRectWIN** function adds a rectangle to the hint region. When the PFD\_SWAP\_COPY flag of the [**PIXELFORMATDESCRIPTOR**](/windows/win32/Wingdi/ns-wingdi-tagpixelformatdescriptor?branch=master) pixel format structure is set, **SwapBuffers** uses this region to clip the copying of the back buffer to the front buffer. You don't specify PFD\_SWAP\_COPY; it is set by capable hardware. The hint region is cleared after each call to **SwapBuffers**. With some hardware configurations, **SwapBuffers** can ignore the hint region and exchange the entire buffer. **SwapBuffers** is implemented by the system, not by the application.
 
 OpenGL maintains a separate hint region for each window. When you call **glAddSwapHintRectWIN** on any rendering contexts associated with a window, the hint rectangles are combined into a single region.
 
@@ -80,7 +86,7 @@ Call **glAddSwapHintRectWIN** with a bounding rectangle for each object drawn fo
 > [!Note]  
 > The **glAddSwapHintRectWIN** function is an extension function that is not part of the standard OpenGL library but is part of the GL\_WIN\_swap\_hint extension. To check whether your implementation of OpenGL supports **glAddSwapHintRectWIN**, call **glGetString**(GL\_EXTENSIONS). If it returns GL\_WIN\_swap\_hint, **glAddSwapHintRectWIN** is supported. To obtain the address of an extension function, call **wglGetProcAddress**.
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +94,8 @@ Call **glAddSwapHintRectWIN** with a bounding rectangle for each object drawn fo
 
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                      |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                      |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl> |
 
 
@@ -101,18 +107,18 @@ Call **glAddSwapHintRectWIN** with a bounding rectangle for each object drawn fo
 [**glGetString**](glgetstring.md)
 </dt> <dt>
 
-[**PIXELFORMATDESCRIPTOR**](pixelformatdescriptor.md)
+[**PIXELFORMATDESCRIPTOR**](/windows/win32/Wingdi/ns-wingdi-tagpixelformatdescriptor?branch=master)
 </dt> <dt>
 
-[**SwapBuffers**](swapbuffers.md)
+[**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master)
 </dt> <dt>
 
-[**wglGetProcAddress**](wglgetprocaddress.md)
+[**wglGetProcAddress**](/windows/win32/wingdi/nf-wingdi-wglgetprocaddress?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

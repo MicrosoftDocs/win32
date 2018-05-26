@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter A.'
-Robots: 'noindex, nofollow'
-ms.assetid: '0baaa937-f635-4500-8dcd-9dbbd6f4cd02'
+Description: Contains definitions of security terms that begin with the letter A.
+Robots: noindex, nofollow
+ms.assetid: 0baaa937-f635-4500-8dcd-9dbbd6f4cd02
 title: A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A

@@ -1,7 +1,12 @@
 ---
 Description: Streaming Threads and the Filter Graph Manager
-ms.assetid: 'b490b72a-ab34-46e6-8dc6-a7bb07cfc7b1'
+ms.assetid: b490b72a-ab34-46e6-8dc6-a7bb07cfc7b1
 title: Streaming Threads and the Filter Graph Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Streaming Threads and the Filter Graph Manager

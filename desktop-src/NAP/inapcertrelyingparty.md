@@ -1,8 +1,10 @@
 ---
 title: INapCertRelyingParty interface
 description: Certificate-relying parties must use to communicate with the NapAgent.
-ms.assetid: 'e5ae0f4d-24fa-4049-82d9-1c9baeb34e32'
-keywords: ["INapCertRelyingParty interface NAP", "INapCertRelyingParty interface NAP , described"]
+ms.assetid: e5ae0f4d-24fa-4049-82d9-1c9baeb34e32
+keywords:
+- INapCertRelyingParty interface NAP
+- INapCertRelyingParty interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - NapCertRelyingParty.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapCertRelyingParty interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapCertRelyingParty** interface provides methods that certificate-relying parties must use to communicate with the NapAgent.
 
@@ -42,7 +49,7 @@ The **INapCertRelyingParty** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,8 +57,8 @@ The **INapCertRelyingParty** interface has these methods.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapCertRelyingParty.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCertRelyingParty.idl</dt> </dl> |
 
@@ -67,9 +74,9 @@ The **INapCertRelyingParty** interface has these methods.
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

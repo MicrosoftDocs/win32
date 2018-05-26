@@ -1,7 +1,12 @@
 ---
-Description: 'An ABC width is a composite value defined by a GDI ABC structure. The structure contains members abcA, abcB, and abcC, corresponding to the &\#0034;A&\#0034;, &\#0034;B&\#0034;, and &\#0034;C&\#0034; widths of a glyph or run.'
-ms.assetid: '48c766e5-a69d-47d2-a885-f24b80e910d8'
+Description: An ABC width is a composite value defined by a GDI ABC structure. The structure contains members abcA, abcB, and abcC, corresponding to the &\#0034;A&\#0034;, &\#0034;B&\#0034;, and &\#0034;C&\#0034; widths of a glyph or run.
+ms.assetid: 48c766e5-a69d-47d2-a885-f24b80e910d8
 title: Uniscribe Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uniscribe Glossary
@@ -34,7 +39,7 @@ The advance width of a [glyph](#glyph) is the movement in the direction of writi
 
 ## bidirectional stack
 
-The bidirectional stack is a 5-bit integer that keeps track of nesting levels between left-to-right and right-to-left text. It always starts at zero for left-to-right. Thus all even-numbered values represent left-to-right text and all odd-numbered values represent right-to-left text. The bidirectional stack is represented in the **uBidiLevel** member of a [**SCRIPT\_STATE**](script-state.md) structure.
+The bidirectional stack is a 5-bit integer that keeps track of nesting levels between left-to-right and right-to-left text. It always starts at zero for left-to-right. Thus all even-numbered values represent left-to-right text and all odd-numbered values represent right-to-left text. The bidirectional stack is represented in the **uBidiLevel** member of a [**SCRIPT\_STATE**](/windows/win32/Usp10/ns-usp10-tag_script_state?branch=master) structure.
 
 ## bidirectional text
 
@@ -62,7 +67,7 @@ A complex script is a [script](#complex-script) with any of the following proper
 In some complex scripts, the order of the glyphs might be quite different from the order of the underlying Unicode characters they represent. See [About Complex Scripts](about-complex-scripts.md) for more detail.
 
 > [!Note]  
-> In the context of typography, it is sometimes desirable to handle the Latin script used in writing English as a complex script. Examples include the Stylistic Alternates feature described in the documentation of [**OPENTYPE\_FEATURE\_RECORD**](opentype-feature-record.md), or ligatures, such as "ﬁ", where a single glyph represents two or more consecutive characters.
+> In the context of typography, it is sometimes desirable to handle the Latin script used in writing English as a complex script. Examples include the Stylistic Alternates feature described in the documentation of [**OPENTYPE\_FEATURE\_RECORD**](/windows/win32/Usp10/ns-usp10-opentype_feature_record?branch=master), or ligatures, such as "ﬁ", where a single glyph represents two or more consecutive characters.
 
  
 
@@ -72,7 +77,7 @@ In [bidirectional text](#bidirectional-text), the embedding level is the index o
 
 ## font fallback
 
-Font fallback is automated selection of a font other than the font selected by the user in an application. In Uniscribe, font fallback is applied by the [**ScriptStringAnalyse**](scriptstringanalyse.md) function when all or part of the text is in a script that the user-selected font does not support.
+Font fallback is automated selection of a font other than the font selected by the user in an application. In Uniscribe, font fallback is applied by the [**ScriptStringAnalyse**](/windows/win32/Usp10/nf-usp10-scriptstringanalyse?branch=master) function when all or part of the text is in a script that the user-selected font does not support.
 
 ## glyph
 
@@ -80,7 +85,7 @@ A glyph is a single unit of display in a font. For OpenType, this unit is define
 
 ## item
 
-An item has a single [script](#complex-script) and direction. The [**ScriptItemize**](scriptitemize.md) or [**ScriptItemizeOpenType**](scriptitemizeopentype.md) function can analyze a paragraph into items. An item is not necessarily a [run](#run). It can contain characters of multiple styles. Item and run information must be combined to determine [ranges](#range).
+An item has a single [script](#complex-script) and direction. The [**ScriptItemize**](/windows/win32/Usp10/nf-usp10-scriptitemize?branch=master) or [**ScriptItemizeOpenType**](/windows/win32/usp10/nf-usp10-scriptitemizeopentype?branch=master) function can analyze a paragraph into items. An item is not necessarily a [run](#run). It can contain characters of multiple styles. Item and run information must be combined to determine [ranges](#range).
 
 ## LRM
 

@@ -1,18 +1,26 @@
 ---
 title: Bluetooth and connect
 description: Bluetooth uses the connect function to connect to a target Bluetooth device, using a previously created Bluetooth socket.
-ms.assetid: 'f9ab3934-7698-4f5e-8194-cca86685a4f8'
-keywords: ["Bluetooth Bluetooth", "connect Bluetooth", "Bluetooth and connect Bluetooth"]
+ms.assetid: f9ab3934-7698-4f5e-8194-cca86685a4f8
+keywords:
+- Bluetooth Bluetooth
+- connect Bluetooth
+- Bluetooth and connect Bluetooth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and connect
 
-Bluetooth uses the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function to connect to a target Bluetooth device, using a previously created Bluetooth socket. The *name* parameter of the **connect** function, which is a [**SOCKADDR\_BTH**](sockaddr-bth.md) structure, must specify a target Bluetooth device. Two mechanisms are used to identify the target device:
+Bluetooth uses the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function to connect to a target Bluetooth device, using a previously created Bluetooth socket. The *name* parameter of the **connect** function, which is a [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure, must specify a target Bluetooth device. Two mechanisms are used to identify the target device:
 
--   The [**SOCKADDR\_BTH**](sockaddr-bth.md) structure can directly specify the port number to which a connect is requested. This mechanism requires the application to perform its own SDP queries prior to attempting a [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) operation.
--   The [**SOCKADDR\_BTH**](sockaddr-bth.md) structure can specify the unique service class ID of the service to which it wants to connect. If the peer device has more than one port that corresponds to the service class ID, the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function call connects to the first valid service. This mechanism can be used without prior SDP queries.
+-   The [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure can directly specify the port number to which a connect is requested. This mechanism requires the application to perform its own SDP queries prior to attempting a [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) operation.
+-   The [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure can specify the unique service class ID of the service to which it wants to connect. If the peer device has more than one port that corresponds to the service class ID, the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function call connects to the first valid service. This mechanism can be used without prior SDP queries.
 
-When using the [**SOCKADDR\_BTH**](sockaddr-bth.md) structure with the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function, the following requirements apply:
+When using the [**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master) structure with the [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625) function, the following requirements apply:
 
 -   The **btAddr** member must be a valid remote radio address.
 -   For the **serviceClassId** member, if the port member is zero, the system attempts to use **serviceClassId** to resolve the remote port corresponding to the service. The service class is a normalized 128-bit GUID, defined by the Bluetooth specification. Common GUIDs are defined by the Bluetooth Assigned Numbers document. Alternatively, a unique GUID may be used for a domain-specific application.
@@ -39,7 +47,7 @@ The following table lists the result codes for Bluetooth and the [**connect**](h
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -51,12 +59,12 @@ The following table lists the result codes for Bluetooth and the [**connect**](h
 [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](sockaddr-bth.md)
+[**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

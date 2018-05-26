@@ -4,11 +4,16 @@ description: For all string properties, the cluster imposes no restrictions on t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a8d8be10-a9f3-410e-b400-08e45880eba7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a8d8be10-a9f3-410e-b400-08e45880eba7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["maximum string size Failover Cluster", "properties Failover Cluster ,maximum string size"]
+keywords:
+- maximum string size Failover Cluster
+- properties Failover Cluster ,maximum string size
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Maximum Property Size

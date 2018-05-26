@@ -4,17 +4,21 @@ description: Signals that a protection exception of some kind has occurred. This
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'afa00af9-c443-42f3-85f4-67e1415dc135'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: afa00af9-c443-42f3-85f4-67e1415dc135
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectionException class"]
+keywords:
+- ProtectionException class
 topic_type:
 - apiref
 api_name:
 - ProtectionException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectionException class
@@ -32,7 +36,7 @@ public class ProtectionException extends IOException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class ProtectionException extends IOException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -57,7 +61,7 @@ public class ProtectionException extends IOException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -75,9 +79,9 @@ The **ProtectionException** class extends the **IOException** class. For more in
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Variables to Store Properties
 description: Variables to Store Properties
-ms.assetid: 'a90a6e21-00fb-46f8-96c8-654d8f205905'
-keywords: ["Windows Media Player plug-ins,Echo sample properties", "plug-ins,Echo sample properties", "digital signal processing plug-ins,Echo sample properties", "DSP plug-ins,Echo sample properties", "Echo DSP plug-in sample,properties", "Echo DSP plug-in sample,variables for storing properties"]
+ms.assetid: a90a6e21-00fb-46f8-96c8-654d8f205905
+keywords:
+- Windows Media Player plug-ins,Echo sample properties
+- plug-ins,Echo sample properties
+- digital signal processing plug-ins,Echo sample properties
+- DSP plug-ins,Echo sample properties
+- Echo DSP plug-in sample,properties
+- Echo DSP plug-in sample,variables for storing properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variables to Store Properties

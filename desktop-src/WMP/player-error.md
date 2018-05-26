@@ -1,8 +1,9 @@
 ---
 title: Player.error
 description: The error property retrieves the Error object.
-ms.assetid: 'd28c18a9-c650-4169-989b-8727b7a5a831'
-keywords: ["Player.error Windows Media Player"]
+ms.assetid: d28c18a9-c650-4169-989b-8727b7a5a831
+keywords:
+- Player.error Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.error
@@ -46,9 +52,9 @@ This property is a read-only Error object.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

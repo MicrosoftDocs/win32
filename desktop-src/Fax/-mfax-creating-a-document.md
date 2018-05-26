@@ -1,7 +1,12 @@
 ---
-Description: 'The following steps describe a typical scenario for creating a document.'
-ms.assetid: '53f88ab5-26a3-4e84-8254-3838d27aa5ff'
+Description: The following steps describe a typical scenario for creating a document.
+ms.assetid: 53f88ab5-26a3-4e84-8254-3838d27aa5ff
 title: Creating a Document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Document

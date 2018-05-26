@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.deleteItem
 description: The deleteItem method deletes the list box control item at the specified index.
-ms.assetid: 'b7ed38b7-8495-426f-b799-e62cd149b397'
-keywords: ["LISTBOX.deleteItem Windows Media Player"]
+ms.assetid: b7ed38b7-8495-426f-b799-e62cd149b397
+keywords:
+- LISTBOX.deleteItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.deleteItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.deleteItem
@@ -55,9 +61,9 @@ The lines below the deleted line will move up one index value.
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

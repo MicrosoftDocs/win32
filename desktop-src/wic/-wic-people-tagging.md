@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces the new Extensible Metadata Platform (XMP) schema and the Windows 7 photo property System.Photo.PeopleNames that enables the tagging of individuals in a digital photo.'
-ms.assetid: '557c3e9a-1756-4abb-8465-b12195ecbc91'
+Description: This topic introduces the new Extensible Metadata Platform (XMP) schema and the Windows 7 photo property System.Photo.PeopleNames that enables the tagging of individuals in a digital photo.
+ms.assetid: 557c3e9a-1756-4abb-8465-b12195ecbc91
 title: People Tagging Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # People Tagging Overview
@@ -32,11 +37,11 @@ Microsoft has created a new XMP schema for tagging people within a digital image
 
 ## People Tagging
 
-WIC provides application developers with COM components which read image data as well as image metadata. For reading and writing metadata, such as the new people tagging feature, WIC provides the [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md) and [**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md) interfaces. These interfaces enable applications to use the [metadata query language](-wic-codec-metadataquerylanguage.md) to write metadata to the individual frames of an image. The following section demonstrates how to read and write the people-tagging metadata into an image's metadata by using WIC query readers and writers.
+WIC provides application developers with COM components which read image data as well as image metadata. For reading and writing metadata, such as the new people tagging feature, WIC provides the [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master) and [**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master) interfaces. These interfaces enable applications to use the [metadata query language](-wic-codec-metadataquerylanguage.md) to write metadata to the individual frames of an image. The following section demonstrates how to read and write the people-tagging metadata into an image's metadata by using WIC query readers and writers.
 
 ### People Names
 
-Part of the people-tagging feature is the ability to simply get a list the names of the people tagged within the image. This part of the feature is supported by the [System.Photo.PeopleNames](http://msdn.microsoft.com/en-us/library/dd391582(VS.85).aspx) and WIC's metadata handlers. The [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md) interface, in conjunction with the System.Photo.PeopleNames property, are used to read the names of people identified in an image and stored in the image metadata.
+Part of the people-tagging feature is the ability to simply get a list the names of the people tagged within the image. This part of the feature is supported by the [System.Photo.PeopleNames](http://msdn.microsoft.com/en-us/library/dd391582(VS.85).aspx) and WIC's metadata handlers. The [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master) interface, in conjunction with the System.Photo.PeopleNames property, are used to read the names of people identified in an image and stored in the image metadata.
 
 The following code example demonstrates a query reader obtained from an image frame to query an image's metadata for tagged names of the [System.Photo.PeopleNames](http://msdn.microsoft.com/en-us/library/dd391582(VS.85).aspx) property.
 
@@ -65,7 +70,7 @@ if (SUCCEEDED(hr))
 
 The query expression "System.Photo.PeopleNames" queries the frame for the property. If the people-tagging metadata exists and contains people's names, the [PROPVARIANT](http://msdn.microsoft.com/en-us/library/Aa380072(VS.85).aspx) value will be set to VT\_LPWSTR and the data value will contain the list of tagged names. For more information on reading image metadata, see [Overview of Reading and Writing Image Metadata](-wic-codec-readingwritingmetadata.md).
 
-Querying for the people names tag is only useful if the image actually contains the people-tagging metadata. For this to occur, an application must first have written it. To write the people names metadata, use an [**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md) and the explicit XMP path of the metadata. The following code example demonstrates using a query writer to write a name to the query path.
+Querying for the people names tag is only useful if the image actually contains the people-tagging metadata. For this to occur, an application must first have written it. To write the people names metadata, use an [**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master) and the explicit XMP path of the metadata. The following code example demonstrates using a query writer to write a name to the query path.
 
 
 ```C++
@@ -138,7 +143,7 @@ People's names however, are only part of the people-tagging feature. In addition
 
 The rectangle information is represented by four comma-delimited decimal values, such as "0.25, 0.25, 0.25, 0.25". The first two values specify the top-left coordinate; the final two specify the height and width of the rectangle. The dimensions of the image for the purposes of defining people rectangles are normalized to 1, which means that in the "0.25, 0.25, 0.25, 0.25" example, the rectangle starts 1/4 of the distance from the top and 1/4 of the distance from the left of the image. Both the height and width of the rectangle are 1/4 of the size of their respective image dimensions.
 
-The rectangle information that identifies individuals is written in the same way people's names are written, within the same structure. To write the rectangle metadata, use an [**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md) and the explicit XMP path of the metadata. The following code example continues the previous example and adds a rectangle representing 'John Doe' to the image's metadata. Note that it uses the same `{ulong=0}` index to associate this rectangle with 'John Doe'.
+The rectangle information that identifies individuals is written in the same way people's names are written, within the same structure. To write the rectangle metadata, use an [**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master) and the explicit XMP path of the metadata. The following code example continues the previous example and adds a rectangle representing 'John Doe' to the image's metadata. Note that it uses the same `{ulong=0}` index to associate this rectangle with 'John Doe'.
 
 
 ```C++

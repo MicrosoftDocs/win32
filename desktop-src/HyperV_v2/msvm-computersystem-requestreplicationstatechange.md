@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the replication state of the virtual machine be changed to the specified value and acts on the primary replication relationship of the virtual machine.'
-ms.assetid: '65FCDADD-1C50-4816-B10B-A951D1FC9C3B'
-title: 'RequestReplicationStateChange method of the Msvm\_ComputerSystem class'
+Description: Requests that the replication state of the virtual machine be changed to the specified value and acts on the primary replication relationship of the virtual machine.
+ms.assetid: 65FCDADD-1C50-4816-B10B-A951D1FC9C3B
+title: RequestReplicationStateChange method of the Msvm\_ComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestReplicationStateChange method of the Msvm\_ComputerSystem class
@@ -9,18 +14,18 @@ title: 'RequestReplicationStateChange method of the Msvm\_ComputerSystem class'
 Requests that the replication state of the virtual machine be changed to the specified value and acts on the primary replication relationship of the virtual machine. While the state change is in progress, the **ReplicationState** property is changed to the value of the *RequestedState* parameter. This method is only supported for instances of the [**Msvm\_ComputerSystem**](msvm-computersystem.md) class that represent a virtual machine.
 
 > [!Note]  
-> Starting with Windows 8.1, we recommend not to use **RequestReplicationStateChange** anymore to request changing of replication state. Instead, use [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md).
+> Starting with Windows 8.1, we recommend not to use **RequestReplicationStateChange** anymore to request changing of replication state. Instead, use [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 RequestReplicationStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -142,7 +147,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -150,8 +155,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -165,9 +170,9 @@ This method returns one of the following values.
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

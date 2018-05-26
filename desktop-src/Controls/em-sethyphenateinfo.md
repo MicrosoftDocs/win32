@@ -1,8 +1,9 @@
 ---
 title: EM\_SETHYPHENATEINFO message
 description: Sets the way a rich edit control does hyphenation.
-ms.assetid: '67126cb8-ab50-49a9-b32f-2245debf2fe3'
-keywords: ["EM_SETHYPHENATEINFO message Windows Controls"]
+ms.assetid: 67126cb8-ab50-49a9-b32f-2245debf2fe3
+keywords:
+- EM_SETHYPHENATEINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETHYPHENATEINFO message
@@ -24,7 +30,7 @@ Sets the way a rich edit control does hyphenation.
 *wParam* 
 </dt> <dd>
 
-Pointer to a [**HYPHENATEINFO**](hyphenateinfo.md) structure.
+Pointer to a [**HYPHENATEINFO**](/windows/win32/Richedit/ns-richedit-taghyphenateinfo?branch=master) structure.
 
 </dd> <dt>
 
@@ -40,7 +46,7 @@ Not used, must be zero.
 > [!Note]  
 > To enable hyphenation, the client must call [**EM\_SETTYPOGRAPHYOPTIONS**](em-settypographyoptions.md), specifying TO\_ADVANCEDTYPOGRAPHY.
 
- 
+ 
 
 ## Requirements
 
@@ -48,8 +54,8 @@ Not used, must be zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -61,9 +67,9 @@ Not used, must be zero.
 [**EM\_GETHYPHENATEINFO**](em-gethyphenateinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

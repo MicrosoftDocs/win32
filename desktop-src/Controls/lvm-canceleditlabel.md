@@ -1,8 +1,9 @@
 ---
 title: LVM\_CANCELEDITLABEL message
 description: Cancels an item text editing operation.
-ms.assetid: '73e9c922-3223-4c49-a33c-df7c09443ccc'
-keywords: ["LVM_CANCELEDITLABEL message Windows Controls"]
+ms.assetid: 73e9c922-3223-4c49-a33c-df7c09443ccc
+keywords:
+- LVM_CANCELEDITLABEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_CANCELEDITLABEL message
@@ -32,7 +38,7 @@ Cancels an item text editing operation.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 This message causes a an [LVN\_ENDLABELEDIT](lvn-endlabeledit.md) notification to be sent.
 
@@ -42,15 +48,15 @@ This message causes a an [LVN\_ENDLABELEDIT](lvn-endlabeledit.md) notification t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

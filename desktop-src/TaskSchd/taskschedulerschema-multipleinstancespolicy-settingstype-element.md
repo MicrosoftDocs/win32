@@ -1,14 +1,20 @@
 ---
 title: MultipleInstancesPolicy (settingsType) Element
 description: Specifies the policy that defines how the Task Scheduler deals with multiple instances of the task.
-ms.assetid: 'ec82d396-f83c-4684-98ab-f70e15ada075'
-keywords: ["MultipleInstancesPolicy element Task Scheduler"]
+ms.assetid: ec82d396-f83c-4684-98ab-f70e15ada075
+keywords:
+- MultipleInstancesPolicy element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - MultipleInstancesPolicy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MultipleInstancesPolicy (settingsType) Element
@@ -35,7 +41,7 @@ The **MultipleInstancesPolicy** element is defined by the [**multipleInstancesPo
 
 ## Remarks
 
-For C++ development, see [**MultipleInstances Property of ITaskSettings**](itasksettings-multipleinstances.md).
+For C++ development, see [**MultipleInstances Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_multipleinstances?branch=master).
 
 For script development, see [**TaskSettings.MultipleInstances**](tasksettings-multipleinstances.md).
 
@@ -67,8 +73,8 @@ The following XML defines a settings element that allows multiple instances of t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -79,9 +85,9 @@ The following XML defines a settings element that allows multiple instances of t
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

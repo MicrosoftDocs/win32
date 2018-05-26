@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_GlobalBackgroundColor
 description: Identifies the UI\_PKEY\_GlobalBackgroundColor property.
-ms.assetid: 'c449db6d-cdb8-4794-a804-86b718ea12aa'
+ms.assetid: c449db6d-cdb8-4794-a804-86b718ea12aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_GlobalBackgroundColor

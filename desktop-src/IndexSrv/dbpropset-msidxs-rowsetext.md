@@ -1,8 +1,14 @@
 ---
 title: DBPROPSET\_MSIDXS\_ROWSETEXT
 description: DBPROPSET\_MSIDXS\_ROWSETEXT
-ms.assetid: 'dd8d22ab-fd63-43ff-ac96-6077bc0f37f6'
-keywords: ["DBPROPSET_MSIDXS_ROWSETEXT"]
+ms.assetid: dd8d22ab-fd63-43ff-ac96-6077bc0f37f6
+keywords:
+- DBPROPSET_MSIDXS_ROWSETEXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROPSET\_MSIDXS\_ROWSETEXT

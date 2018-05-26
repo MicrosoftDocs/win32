@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pRenderer member variable is a pointer to the filter.'
-ms.assetid: '1375baa2-554e-4027-a060-8959db491f83'
-title: 'CRendererInputPin::m\_pRenderer member'
+Description: The m\_pRenderer member variable is a pointer to the filter.
+ms.assetid: 1375baa2-554e-4027-a060-8959db491f83
+title: CRendererInputPinm\_pRenderer member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin::m\_pRenderer member
@@ -35,9 +40,9 @@ CBaseRenderer *m_pRenderer;
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

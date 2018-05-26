@@ -1,7 +1,12 @@
 ---
-Description: 'Extended Linguistic Services (ELS) is implemented as a dynamic-link library (DLL) that provides a variety of linguistic support functionality for text that the application specifies.'
-ms.assetid: '23d4e42a-a5bb-467c-a8b9-6a57ae39daa0'
+Description: Extended Linguistic Services (ELS) is implemented as a dynamic-link library (DLL) that provides a variety of linguistic support functionality for text that the application specifies.
+ms.assetid: 23d4e42a-a5bb-467c-a8b9-6a57ae39daa0
 title: About Extended Linguistic Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Extended Linguistic Services
@@ -58,7 +63,7 @@ This section describes the main operations supported by the ELS platform. The pl
 
 ### Service Enumeration
 
-The ELS platform loads and manages all ELS services, making operation transparent to the application. The application enumerates the available services by calling [**MappingGetServices**](mappinggetservices.md). For programming instructions, see [Enumerating and Freeing Services](enumerating-and-freeing-services.md).
+The ELS platform loads and manages all ELS services, making operation transparent to the application. The application enumerates the available services by calling [**MappingGetServices**](/windows/win32/Elscore/nf-elscore-mappinggetservices?branch=master). For programming instructions, see [Enumerating and Freeing Services](enumerating-and-freeing-services.md).
 
 > [!Note]  
 > It is advisable for performance reasons to have your application enumerate the available services only once. The ELS platform checks the services again on the next enumeration to ensure that its enumeration results are always current.
@@ -67,19 +72,19 @@ The ELS platform loads and manages all ELS services, making operation transparen
 
 ### Text Recognition
 
-After service enumeration, the application calls the [**MappingRecognizeText**](mappingrecognizetext.md) function to use a particular ELS service to map any text range of input text to output text. An example of text recognition is the use of a language detection service that receives a text segment and detects its most probable language.
+After service enumeration, the application calls the [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) function to use a particular ELS service to map any text range of input text to output text. An example of text recognition is the use of a language detection service that receives a text segment and detects its most probable language.
 
-After the service has recognized the text, [**MappingRecognizeText**](mappingrecognizetext.md) returns with a [**MAPPING\_PROPERTY\_BAG**](mappingpropertybag.md) structure populated with output data and properties produced by the service. To avoid memory leaks, the application must free the property bag by calling [**MappingFreePropertyBag**](mappingfreepropertybag.md) for each time that the [**MappingRecognizeText**](mappingrecognizetext.md) returns S\_OK. Usually the application does this either when it finishes using the output data or when the output data is no longer relevant because the input region of text has been modified, for example, edited or deleted. When the property bag is released, **MappingFreePropertyBag** returns.
+After the service has recognized the text, [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) returns with a [**MAPPING\_PROPERTY\_BAG**](/windows/win32/Elscore/ns-elscore-_mapping_property_bag?branch=master) structure populated with output data and properties produced by the service. To avoid memory leaks, the application must free the property bag by calling [**MappingFreePropertyBag**](/windows/win32/Elscore/nf-elscore-mappingfreepropertybag?branch=master) for each time that the [**MappingRecognizeText**](/windows/win32/Elscore/nf-elscore-mappingrecognizetext?branch=master) returns S\_OK. Usually the application does this either when it finishes using the output data or when the output data is no longer relevant because the input region of text has been modified, for example, edited or deleted. When the property bag is released, **MappingFreePropertyBag** returns.
 
 Programming instructions for text recognition are provided in [Requesting Text Recognition](requesting-text-recognition.md).
 
 ### Service Termination
 
-When your application no longer requires ELS services, it calls [**MappingFreeServices**](mappingfreeservices.md) before it terminates. For more information, see [Enumerating and Freeing Services](enumerating-and-freeing-services.md).
+When your application no longer requires ELS services, it calls [**MappingFreeServices**](/windows/win32/Elscore/nf-elscore-mappingfreeservices?branch=master) before it terminates. For more information, see [Enumerating and Freeing Services](enumerating-and-freeing-services.md).
 
 ### Versioning
 
-Future versions of ELS will allow the ELS services to be updated. The application will be able to check the version numbers of the [**MAPPING\_SERVICE\_INFO**](mappingserviceinfo.md) structure to detect any changes in the services.
+Future versions of ELS will allow the ELS services to be updated. The application will be able to check the version numbers of the [**MAPPING\_SERVICE\_INFO**](/windows/win32/Elscore/ns-elscore-_mapping_service_info?branch=master) structure to detect any changes in the services.
 
 > [!Note]  
 > Your ELS application should not make the assumption that different versions of the same service can retrieve exactly the same results.

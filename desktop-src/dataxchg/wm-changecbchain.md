@@ -1,8 +1,9 @@
 ---
 title: WM\_CHANGECBCHAIN message
 description: Sent to the first window in the clipboard viewer chain when a window is being removed from the chain. A window receives this message through its WindowProc function.
-ms.assetid: '7be87342-87fa-4cd2-b066-0b36b7ef52f5'
-keywords: ["WM_CHANGECBCHAIN message Data Exchange"]
+ms.assetid: 7be87342-87fa-4cd2-b066-0b36b7ef52f5
+keywords:
+- WM_CHANGECBCHAIN message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CHANGECBCHAIN message
@@ -50,7 +56,7 @@ If an application processes this message, it should return zero.
 
 ## Remarks
 
-Each clipboard viewer window saves the handle to the next window in the clipboard viewer chain. Initially, this handle is the return value of the [**SetClipboardViewer**](setclipboardviewer.md) function.
+Each clipboard viewer window saves the handle to the next window in the clipboard viewer chain. Initially, this handle is the return value of the [**SetClipboardViewer**](/windows/win32/Winuser/nf-winuser-setclipboardviewer?branch=master) function.
 
 When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it should call the [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950) function to pass the message to the next window in the chain, unless the next window is the window being removed. In this case, the clipboard viewer should save the handle specified by the *lParam* parameter as the next window in the chain.
 
@@ -60,8 +66,8 @@ When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it sh
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,7 +82,7 @@ When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it sh
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**SetClipboardViewer**](setclipboardviewer.md)
+[**SetClipboardViewer**](/windows/win32/Winuser/nf-winuser-setclipboardviewer?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -85,9 +91,9 @@ When a clipboard viewer window receives the **WM\_CHANGECBCHAIN** message, it sh
 [Clipboard](clipboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Software Requirements for the WinSNMP API
 description: A WinSNMP application must access the WinSNMP API through the dynamic-link library WSNMP32.DLL.
-ms.assetid: 'ba0b9443-3fcf-41e2-993e-54e042f9d785'
+ms.assetid: ba0b9443-3fcf-41e2-993e-54e042f9d785
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Software Requirements for the WinSNMP API

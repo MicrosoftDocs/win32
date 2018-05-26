@@ -1,14 +1,20 @@
 ---
 title: Command.LargeImages property
 description: Represents a container of images; in this case, large images.
-ms.assetid: '9fcd3694-7847-43e2-9877-47daf47aae9a'
-keywords: ["Command.LargeImages property Windows Ribbon"]
+ms.assetid: 9fcd3694-7847-43e2-9877-47daf47aae9a
+keywords:
+- Command.LargeImages property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.LargeImages
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.LargeImages property
@@ -109,8 +115,8 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -124,9 +130,9 @@ This section of code shows the [**SplitButton**](windowsribbon-element-splitbutt
 [UI\_PKEY\_LargeImage](windowsribbon-reference-properties-uipkey-largeimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

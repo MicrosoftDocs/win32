@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a description of a specified animation event.'
-ms.assetid: '7fb3def5-8df2-458d-b68e-5d540fd0a738'
-title: 'ID3DXAnimationController::GetEventDesc method'
+---
+Description: Gets a description of a specified animation event.
+ms.assetid: 7fb3def5-8df2-458d-b68e-5d540fd0a738
+title: ID3DXAnimationControllerGetEventDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::GetEventDesc method

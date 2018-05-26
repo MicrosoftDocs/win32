@@ -1,20 +1,25 @@
 ---
 Description: Providing a Custom Allocator
-ms.assetid: '4ce2db4b-c901-43a5-b905-7d6d923c940b'
+ms.assetid: 4ce2db4b-c901-43a5-b905-7d6d923c940b
 title: Providing a Custom Allocator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing a Custom Allocator
 
-This section describes how to provide a custom allocator for a filter. Only [**IMemInputPin**](imeminputpin.md) connections are described, but the steps for an [**IAsyncReader**](iasyncreader.md) connection are similar.
+This section describes how to provide a custom allocator for a filter. Only [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) connections are described, but the steps for an [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) connection are similar.
 
-First, define a C++ class for the allocator. Your allocator can derive from one of the standard allocator classes, [**CBaseAllocator**](cbaseallocator.md) or [**CMemAllocator**](cmemallocator.md), or you can create an entirely new allocator class. If you create a new class, it must expose the [**IMemAllocator**](imemallocator.md) interface.
+First, define a C++ class for the allocator. Your allocator can derive from one of the standard allocator classes, [**CBaseAllocator**](cbaseallocator.md) or [**CMemAllocator**](cmemallocator.md), or you can create an entirely new allocator class. If you create a new class, it must expose the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 The remaining steps depend on whether your allocator belongs to an input pin or an output pin on your filter. Input pins play a different role than output pins during the allocator negotiation phase, because the output pin ultimately selects the allocator.
 
 **Providing a Custom Allocator for an Input Pin**
 
-To provide an allocator for an input pin, override the input pin's [**CBaseInputPin::GetAllocator**](cbaseinputpin-getallocator.md) method. Within this method, check the **m\_pAllocator** member variable. If this variable is non-**NULL**, it means the allocator has already been selected for this connection, so the **GetAllocator** method must return a pointer to that allocator. If **m\_pAllocator** is **NULL**, it means the allocator has not been selected, so the **GetAllocator** method should return a pointer to the input pin's preferred allocator. In that case, create an instance of your custom allocator and return its [**IMemAllocator**](imemallocator.md) pointer. The following code shows how to implement the **GetAllocator** method:
+To provide an allocator for an input pin, override the input pin's [**CBaseInputPin::GetAllocator**](cbaseinputpin-getallocator.md) method. Within this method, check the **m\_pAllocator** member variable. If this variable is non-**NULL**, it means the allocator has already been selected for this connection, so the **GetAllocator** method must return a pointer to that allocator. If **m\_pAllocator** is **NULL**, it means the allocator has not been selected, so the **GetAllocator** method should return a pointer to the input pin's preferred allocator. In that case, create an instance of your custom allocator and return its [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) pointer. The following code shows how to implement the **GetAllocator** method:
 
 
 ```C++
@@ -50,7 +55,7 @@ STDMETHODIMP CMyInputPin::GetAllocator(IMemAllocator **ppAllocator)
 
 
 
-When the upstream filter selects an allocator, it calls the input pin's [**IMemInputPin::NotifyAllocator**](imeminputpin-notifyallocator.md) method. Override the [**CBaseInputPin::NotifyAllocator**](cbaseinputpin-notifyallocator.md) method to check the allocator properties. In some cases, the input pin might reject the allocator if it is not your custom allocator, although this may cause the entire pin connection to fail.
+When the upstream filter selects an allocator, it calls the input pin's [**IMemInputPin::NotifyAllocator**](/windows/win32/Strmif/nf-strmif-imeminputpin-notifyallocator?branch=master) method. Override the [**CBaseInputPin::NotifyAllocator**](cbaseinputpin-notifyallocator.md) method to check the allocator properties. In some cases, the input pin might reject the allocator if it is not your custom allocator, although this may cause the entire pin connection to fail.
 
 **Providing a Custom Allocator for an Output Pin**
 

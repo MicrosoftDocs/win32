@@ -4,11 +4,15 @@ description: The following table lists resource type \ 8211;related information 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f855b1a-6acc-4f96-9462-9421c362d522'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6f855b1a-6acc-4f96-9462-9421c362d522
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,retrieving information"]
+keywords:
+- resource types Failover Cluster ,retrieving information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Resource Type Information
@@ -23,7 +27,7 @@ The following table lists [resource type](resource-types.md)–related informati
 | Characteristics of the resource type      | [CLUSCTL\_RESOURCE\_TYPE\_GET\_CHARACTERISTICS](clusctl-resource-type-get-characteristics.md)                                                                                                                                                                                                                                                                                                                                       |
 | Checkpoints defined for the resource type | [CLUSCTL\_RESOURCE\_TYPE\_GET\_CRYPTO\_CHECKPOINTS](clusctl-resource-type-get-crypto-checkpoints.md), [CLUSCTL\_RESOURCE\_TYPE\_GET\_REGISTRY\_CHECKPOINTS](clusctl-resource-type-get-registry-checkpoints.md)                                                                                                                                                                                                                     |
 | Name                                      | [CLUSCTL\_RESOURCE\_GET\_NAME](clusctl-resource-get-name.md)                                                                                                                                                                                                                                                                                                                                                                        |
-| Possible owner nodes                      | [**ClusterResourceTypeEnum**](clusterresourcetypeenum.md)                                                                                                                                                                                                                                                                                                                                                                           |
+| Possible owner nodes                      | [**ClusterResourceTypeEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_resource_type_enum?branch=master)                                                                                                                                                                                                                                                                                                                                                                           |
 | Properties                                | [CLUSCTL\_RESOURCE\_TYPE\_GET\_COMMON\_PROPERTIES](clusctl-resource-type-get-common-properties.md), [CLUSCTL\_RESOURCE\_TYPE\_GET\_RO\_COMMON\_PROPERTIES](clusctl-resource-type-get-ro-common-properties.md), [CLUSCTL\_RESOURCE\_TYPE\_GET\_RO\_PRIVATE\_PROPERTIES](clusctl-resource-type-get-ro-private-properties.md), [CLUSCTL\_RESOURCE\_TYPE\_GET\_PRIVATE\_PROPERTIES](clusctl-resource-type-get-private-properties.md) |
 | Property names                            | [CLUSCTL\_RESOURCE\_TYPE\_ENUM\_COMMON\_PROPERTIES](clusctl-resource-type-enum-common-properties.md), [CLUSCTL\_RESOURCE\_TYPE\_ENUM\_PRIVATE\_PROPERTIES](clusctl-resource-type-enum-private-properties.md)                                                                                                                                                                                                                       |
 | Required dependencies                     | [CLUSCTL\_RESOURCE\_TYPE\_GET\_REQUIRED\_DEPENDENCIES](clusctl-resource-type-get-required-dependencies.md)                                                                                                                                                                                                                                                                                                                          |

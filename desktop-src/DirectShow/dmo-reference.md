@@ -1,7 +1,12 @@
 ---
 Description: DMO Reference
-ms.assetid: '34954718-78c7-4309-9e47-5ece6948a957'
+ms.assetid: 34954718-78c7-4309-9e47-5ece6948a957
 title: DMO Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMO Reference

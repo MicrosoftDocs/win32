@@ -1,7 +1,12 @@
 ---
-Description: 'The rating (0 - 99) supplied by metadata provider.'
-ms.assetid: '72e29588-cb22-443f-a404-f192fe680207'
-title: 'System.Media.ProviderRating'
+Description: The rating (0 - 99) supplied by metadata provider.
+ms.assetid: 72e29588-cb22-443f-a404-f192fe680207
+title: System.Media.ProviderRating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.ProviderRating

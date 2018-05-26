@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings volume property
 description: The volume property gets or sets the current playback volume.
-ms.assetid: 'cff4fe70-9ca2-4419-bfc3-d622e8c72756'
-keywords: ["volume property Windows Media Player", "volume property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , volume property"]
+ms.assetid: cff4fe70-9ca2-4419-bfc3-d622e8c72756
+keywords:
+- volume property Windows Media Player
+- volume property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , volume property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::volume property
@@ -71,9 +79,9 @@ A value of zero specifies no volume (muted). A value of 100 specifies full volum
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

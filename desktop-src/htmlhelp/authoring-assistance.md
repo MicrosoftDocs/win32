@@ -1,7 +1,12 @@
 ---
 title: Authoring Assistance
 description: Authoring Assistance
-ms.assetid: 'A91B6199-9391-4be9-B2F5-E95CF30A46BA'
+ms.assetid: A91B6199-9391-4be9-B2F5-E95CF30A46BA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Assistance

@@ -1,8 +1,9 @@
 ---
 title: LVM\_SCROLL message
 description: Scrolls the content of a list-view control. You can send this message explicitly or by using the ListView\_Scroll macro.
-ms.assetid: '4bf6b74e-8fea-48ca-a151-8fd649fc50f8'
-keywords: ["LVM_SCROLL message Windows Controls"]
+ms.assetid: 4bf6b74e-8fea-48ca-a151-8fd649fc50f8
+keywords:
+- LVM_SCROLL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SCROLL message
 
-Scrolls the content of a list-view control. You can send this message explicitly or by using the [**ListView\_Scroll**](listview-scroll.md) macro.
+Scrolls the content of a list-view control. You can send this message explicitly or by using the [**ListView\_Scroll**](/windows/win32/Commctrl/nf-commctrl-listview_scroll?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ When the list-view control is in report view, the control can only be scrolled v
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

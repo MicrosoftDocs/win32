@@ -1,8 +1,10 @@
 ---
 title: Msvm\_Memory class
 description: Represents the memory currently allocated to a virtual system.
-ms.assetid: '7edccb2f-374e-4f1f-a9cf-06d5bd23a972'
-keywords: ["Msvm_Memory class Hyper-V", "Msvm_Memory class Hyper-V , described"]
+ms.assetid: 7edccb2f-374e-4f1f-a9cf-06d5bd23a972
+keywords:
+- Msvm_Memory class Hyper-V
+- Msvm_Memory class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -85,6 +87,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Memory class
@@ -99,72 +106,72 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Memory : CIM_Memory
 {
-  string   Caption = "Memory";
-  string   Description = "Memory";
-  string   ElementName = "Memory";
+  string   Caption = "Memory";
+  string   Description = "Memory";
+  string   ElementName = "Memory";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 5;
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 5;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName = "GUID";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator;
-  uint16   DataOrganization = 2;
-  string   Purpose = "System Memory";
-  uint16   Access = 3;
-  uint64   NumberOfBlocks;
-  boolean  IsBasedOnUnderlyingRedundancy = False;
-  boolean  SequentialAccess = False;
-  uint16   ExtentStatus[] = 2;
-  boolean  NoSinglePointOfFailure = False;
-  uint16   DataRedundancy = 1;
-  uint16   PackageRedundancy = 0;
-  uint8    DeltaReservation = 0;
-  boolean  Primordial = FALSE;
-  string   Name = "GUID";
-  uint16   NameFormat = 0;
-  uint16   NameNamespace = 0;
-  boolean  Volatile = TRUE;
-  string   ErrorMethodology;
-  uint64   StartingAddress = 0;
-  uint16   ErrorInfo;
-  string   OtherErrorDescription;
-  boolean  CorrectableError;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName = "GUID";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator;
+  uint16   DataOrganization = 2;
+  string   Purpose = "System Memory";
+  uint16   Access = 3;
+  uint64   NumberOfBlocks;
+  boolean  IsBasedOnUnderlyingRedundancy = False;
+  boolean  SequentialAccess = False;
+  uint16   ExtentStatus[] = 2;
+  boolean  NoSinglePointOfFailure = False;
+  uint16   DataRedundancy = 1;
+  uint16   PackageRedundancy = 0;
+  uint8    DeltaReservation = 0;
+  boolean  Primordial = FALSE;
+  string   Name = "GUID";
+  uint16   NameFormat = 0;
+  uint16   NameNamespace = 0;
+  boolean  Volatile = TRUE;
+  string   ErrorMethodology;
+  uint64   StartingAddress = 0;
+  uint16   ErrorInfo;
+  string   OtherErrorDescription;
+  boolean  CorrectableError;
   datetime ErrorTime;
-  uint16   ErrorAccess;
-  uint32   ErrorTransferSize;
-  uint8    ErrorData[];
-  uint16   ErrorDataOrder;
-  uint64   ErrorAddress;
-  boolean  SystemLevelAddress;
-  uint64   ErrorResolution;
-  uint8    AdditionalErrorData[];
-  string   StatusDescriptions[] = "OK";
-  uint16   EnabledDefault = 2;
-  string   CreationClassName = "Msvm_Memory";
-  string   DeviceID = "Microsoft:GUID";
-  string   OtherIdentifyingInfo[];
-  uint64   BlockSize = 1048576;
-  uint64   ConsumableBlocks;
-  string   OtherNameNamespace;
-  string   OtherNameFormat;
-  uint64   EndingAddress;
+  uint16   ErrorAccess;
+  uint32   ErrorTransferSize;
+  uint8    ErrorData[];
+  uint16   ErrorDataOrder;
+  uint64   ErrorAddress;
+  boolean  SystemLevelAddress;
+  uint64   ErrorResolution;
+  uint8    AdditionalErrorData[];
+  string   StatusDescriptions[] = "OK";
+  uint16   EnabledDefault = 2;
+  string   CreationClassName = "Msvm_Memory";
+  string   DeviceID = "Microsoft:GUID";
+  string   OtherIdentifyingInfo[];
+  uint64   BlockSize = 1048576;
+  uint64   ConsumableBlocks;
+  string   OtherNameNamespace;
+  string   OtherNameFormat;
+  uint64   EndingAddress;
 };
 ```
 
@@ -194,7 +201,7 @@ The **Msvm\_Memory** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1351,9 +1358,9 @@ Access to the **Msvm\_Memory** class might be restricted by UAC Filtering. For m
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1372,9 +1379,9 @@ Access to the **Msvm\_Memory** class might be restricted by UAC Filtering. For m
 [Memory Classes](memory-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Taskbar
 description: The taskbar is the access point for programs displayed on the desktop. With the new Windows 7 taskbar features, users can give commands, access resources, and view program status directly from the taskbar.
-ms.assetid: 'c00e558a-313f-4741-a4b2-7d738f4544fa'
+ms.assetid: c00e558a-313f-4741-a4b2-7d738f4544fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Taskbar
@@ -18,7 +23,7 @@ The controls on the taskbar are referred to as taskbar buttons. When a program c
 
 Programs designed for Windows 7 can take advantage of these new taskbar button features:
 
--   Jump Lists provide quick access to frequently used destinations (like files, folders, and links) and commands through a context menu accessible from the program's taskbar button and Start menu item—even if the program isn't currently running.
+-   Jump Lists provide quick access to frequently used destinations (like files, folders, and links) and commands through a context menu accessible from the program's taskbar button and Start menu item even if the program isn't currently running.
 -   Thumbnail toolbars provide quick access to frequently used commands for a particular window. Thumbnail toolbars appear in the taskbar button's thumbnail.
 -   Overlay icons show change of status on the program's taskbar button icon.
 -   Progress bars show progress for long-running tasks on the program's taskbar button.
@@ -232,7 +237,7 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 
     
 
-     
+     
 
 -   **For custom overlay icons, choose an easily recognizable design.** Use high-quality 16x16 pixel, full color icons. Prefer icons with distinctive outlines over square or rectangular shaped icons. Apply the other [Aero-style icon guidelines](vis-icons.md) as well.
 -   **Keep the design of custom overlay icons simple.** Don't try to communicate complex, unfamiliar, or abstract ideas. If you can't think of a suitable custom icon, use a standard icon error or warning icon instead when appropriate. These icons can be used effectively to communicate many types of status.
@@ -295,7 +300,7 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 
     In the incorrect example, listing songs in a Jump List will fill it with a single album.
 
--   **Don't fill all the available Jump List slots if you don't need to.** Focus Jump List content on the most useful items—if your program has only three useful items, provide only three. The more items in a Jump List, the more effort required to find any specific item.
+-   **Don't fill all the available Jump List slots if you don't need to.** Focus Jump List content on the most useful items if your program has only three useful items, provide only three. The more items in a Jump List, the more effort required to find any specific item.
 
     ![screen shot of jump list with one command ](images/winenv-taskbar-image29.png)
 
@@ -426,7 +431,7 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 
 **Interaction**
 
--   **Provide up to seven of the most important, frequently used commands that apply to the window shown in the thumbnail.** Don't feel obligated to provide as many commands as you can—if your program has only three important, frequently used commands, provide only three.
+-   **Provide up to seven of the most important, frequently used commands that apply to the window shown in the thumbnail.** Don't feel obligated to provide as many commands as you can if your program has only three important, frequently used commands, provide only three.
 
     **Incorrect:**
 
@@ -434,7 +439,7 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 
     In this example, the thumbnail toolbar has commands that aren't important.
 
--   **Use commands that are direct and immediate.** These commands should have an immediate effect—clicking the command should not display a drop-down menu or dialog box for more input.
+-   **Use commands that are direct and immediate.** These commands should have an immediate effect clicking the command should not display a drop-down menu or dialog box for more input.
 
     **Incorrect:**
 
@@ -502,9 +507,9 @@ When referring to the taskbar:
 
 Example: The New Mail taskbar button icon notifies you that a new e-mail message has arrived.
 
- 
+ 
 
- 
+ 
 
 
 

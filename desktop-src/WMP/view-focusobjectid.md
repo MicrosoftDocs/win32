@@ -1,14 +1,20 @@
 ---
 title: VIEW.focusObjectID
 description: The focusObjectID attribute specifies or retrieves a value indicating which element has keyboard focus. Can only be set at run time.
-ms.assetid: '74cc216f-2587-4dfd-bb95-e698ec49f185'
-keywords: ["VIEW.focusObjectID Windows Media Player"]
+ms.assetid: 74cc216f-2587-4dfd-bb95-e698ec49f185
+keywords:
+- VIEW.focusObjectID Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.focusObjectID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.focusObjectID
@@ -40,9 +46,9 @@ This attribute is a read/write **String** specifying the **id** of the element t
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

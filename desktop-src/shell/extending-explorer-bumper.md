@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '0a0d5e74-d1ee-4a90-abf1-809698d215e2'
+Description: .
+ms.assetid: 0a0d5e74-d1ee-4a90-abf1-809698d215e2
 title: Extending Windows Explorer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending Windows Explorer

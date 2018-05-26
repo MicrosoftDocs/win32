@@ -1,7 +1,12 @@
 ---
-Description: 'Detailed descriptions of the CNG programming elements. These pages include reference descriptions of the API for working with CNG.'
-ms.assetid: '4398c1d9-f79d-4ee2-a4a8-6a700ea8cc95'
+Description: Detailed descriptions of the CNG programming elements. These pages include reference descriptions of the API for working with CNG.
+ms.assetid: 4398c1d9-f79d-4ee2-a4a8-6a700ea8cc95
 title: CNG Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CNG Reference

@@ -1,14 +1,20 @@
 ---
 title: ChannelListType Complex Type
 description: Defines a list of channels to which providers can log events.
-ms.assetid: '01685955-7149-45ce-a47f-6344fcf07826'
-keywords: ["ChannelListType complex type EventLog"]
+ms.assetid: 01685955-7149-45ce-a47f-6344fcf07826
+keywords:
+- ChannelListType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ChannelListType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChannelListType Complex Type
@@ -61,14 +67,14 @@ You can specify up to eight channels (any combination of imported channels or ch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

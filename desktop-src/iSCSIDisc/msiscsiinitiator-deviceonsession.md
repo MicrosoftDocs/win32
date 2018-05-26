@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MSIscsiInitiator\_DeviceOnSession structure describes the characteristics of a device currently associated with a session.'
-ms.assetid: '14ff764d-1c70-49d6-b1d1-81b751cf4c96'
-title: 'MSIscsiInitiator\_DeviceOnSession class'
+---
+Description: The MSIscsiInitiator\_DeviceOnSession structure describes the characteristics of a device currently associated with a session.
+ms.assetid: 14ff764d-1c70-49d6-b1d1-81b751cf4c96
+title: MSIscsiInitiator\_DeviceOnSession class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_DeviceOnSession class

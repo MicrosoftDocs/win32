@@ -1,12 +1,17 @@
 ---
 title: Authentication Level
 description: The authentication level controls how much security a client or server wants from its SSP.
-ms.assetid: '0bad2bfd-6930-42fc-beb0-bce32440b0b5'
+ms.assetid: 0bad2bfd-6930-42fc-beb0-bce32440b0b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Level
 
-The authentication level controls how much security a client or server wants from its SSP. The authentication level is set by passing an appropriate RPC\_C\_AUTHN\_LEVEL\_xxx value to [**CoInitializeSecurity**](coinitializesecurity.md) or [**CoSetProxyBlanket**](cosetproxyblanket.md) through the *dwAuthnLevel* parameter. The authentication levels from the client and server are compared during the handshake, and the higher level security protection setting is used for the connection.
+The authentication level controls how much security a client or server wants from its SSP. The authentication level is set by passing an appropriate RPC\_C\_AUTHN\_LEVEL\_xxx value to [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master) through the *dwAuthnLevel* parameter. The authentication levels from the client and server are compared during the handshake, and the higher level security protection setting is used for the connection.
 
 The different authentication levels are described as follows, from lowest level security protection to highest:
 

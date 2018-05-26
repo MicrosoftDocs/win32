@@ -4,13 +4,18 @@ description: The settings shown on the \ 0034;Host Parameters \ 0034; tab of the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '91045f0d-ba19-44af-83b9-fd5ab3d65ddb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 91045f0d-ba19-44af-83b9-fd5ab3d65ddb
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["host parameters in NLB Failover Cluster", "host parameters in NLB Failover Cluster ,configuring"]
+keywords:
+- host parameters in NLB Failover Cluster
+- host parameters in NLB Failover Cluster ,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configuring Host Parameters
@@ -28,11 +33,11 @@ The settings shown on the "Host Parameters" tab of the Network Load Balancing Pr
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

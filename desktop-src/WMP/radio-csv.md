@@ -1,8 +1,17 @@
 ---
 title: radio.csv
 description: radio.csv
-ms.assetid: '8b0a1852-b6c9-4598-b1ab-c679362794b3'
-keywords: ["Windows Media Player online stores,radio.csv", "online stores,radio.csv", "type 1 online stores,radio.csv", "radio.csv"]
+ms.assetid: 8b0a1852-b6c9-4598-b1ab-c679362794b3
+keywords:
+- Windows Media Player online stores,radio.csv
+- online stores,radio.csv
+- type 1 online stores,radio.csv
+- radio.csv
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # radio.csv
@@ -33,11 +42,11 @@ The Format column in the table below describes the way each Unicode text field i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

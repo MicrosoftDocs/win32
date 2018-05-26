@@ -1,7 +1,12 @@
 ---
-Description: 'Winsock network tracing event for a socket creation operation.'
-ms.assetid: '59B9A570-5AEC-429D-AF71-AB6D8325C341'
-title: 'AFD\_EVENT\_CREATE event'
+Description: Winsock network tracing event for a socket creation operation.
+ms.assetid: 59B9A570-5AEC-429D-AF71-AB6D8325C341
+title: AFD\_EVENT\_CREATE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AFD\_EVENT\_CREATE event
@@ -38,7 +43,7 @@ The following table lists the possible values for the *EnterExit* parameter:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,16 +83,16 @@ The table below lists common values for address family although many other value
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="AF_UNSPEC"></span><span id="af_unspec"></span><dl> <dt>**AF\_UNSPEC**</dt> <dt>0</dt> </dl>           | The address family is unspecified.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="AF_INET"></span><span id="af_inet"></span><dl> <dt>**AF\_INET**</dt> <dt>2</dt> </dl>                 | The Internet Protocol version 4 (IPv4) address family.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| <span id="AF_IPX"></span><span id="af_ipx"></span><dl> <dt>**AF\_IPX**</dt> <dt>6</dt> </dl>                    | The IPX/SPX address family. This address family is only supported if the NWLink IPX/SPX NetBIOS Compatible Transport protocol is installed. <br/> This address family is not supported on Windows Vista and later.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| <span id="AF_APPLETALK"></span><span id="af_appletalk"></span><dl> <dt>**AF\_APPLETALK**</dt> <dt>16</dt> </dl> | The AppleTalk address family. This address family is only supported if the AppleTalk protocol is installed. <br/> This address family is not supported on Windows Vista and later.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| <span id="AF_NETBIOS"></span><span id="af_netbios"></span><dl> <dt>**AF\_NETBIOS**</dt> <dt>17</dt> </dl>       | The NetBIOS address family. This address family is only supported if the Windows Sockets provider for NetBIOS is installed. <br/> The Windows Sockets provider for NetBIOS is supported on 32-bit versions of Windows. This provider is installed by default on 32-bit versions of Windows. <br/> The Windows Sockets provider for NetBIOS is not supported on 64-bit versions of windows. <br/> The Windows Sockets provider for NetBIOS only supports sockets where the *type* parameter is set to **SOCK\_DGRAM**.<br/> The Windows Sockets provider for NetBIOS is not directly related to the [NetBIOS](netbios-portal) programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.<br/> |
+| <span id="AF_IPX"></span><span id="af_ipx"></span><dl> <dt>**AF\_IPX**</dt> <dt>6</dt> </dl>                    | The IPX/SPX address family. This address family is only supported if the NWLink IPX/SPX NetBIOS Compatible Transport protocol is installed. <br/> This address family is not supported on Windows Vista and later.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| <span id="AF_APPLETALK"></span><span id="af_appletalk"></span><dl> <dt>**AF\_APPLETALK**</dt> <dt>16</dt> </dl> | The AppleTalk address family. This address family is only supported if the AppleTalk protocol is installed. <br/> This address family is not supported on Windows Vista and later.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| <span id="AF_NETBIOS"></span><span id="af_netbios"></span><dl> <dt>**AF\_NETBIOS**</dt> <dt>17</dt> </dl>       | The NetBIOS address family. This address family is only supported if the Windows Sockets provider for NetBIOS is installed. <br/> The Windows Sockets provider for NetBIOS is supported on 32-bit versions of Windows. This provider is installed by default on 32-bit versions of Windows. <br/> The Windows Sockets provider for NetBIOS is not supported on 64-bit versions of windows. <br/> The Windows Sockets provider for NetBIOS only supports sockets where the *type* parameter is set to **SOCK\_DGRAM**.<br/> The Windows Sockets provider for NetBIOS is not directly related to the [NetBIOS](netbios-portal) programming interface. The NetBIOS programming interface is not supported on Windows Vista, Windows Server 2008, and later.<br/> |
 | <span id="AF_INET6"></span><span id="af_inet6"></span><dl> <dt>**AF\_INET6**</dt> <dt>23</dt> </dl>             | The Internet Protocol version 6 (IPv6) address family.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <span id="AF_IRDA"></span><span id="af_irda"></span><dl> <dt>**AF\_IRDA**</dt> <dt>26</dt> </dl>                | The Infrared Data Association (IrDA) address family. <br/> This address family is only supported if the computer has an infrared port and driver installed.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | <span id="AF_BTH"></span><span id="af_bth"></span><dl> <dt>**AF\_BTH**</dt> <dt>32</dt> </dl>                   | The Bluetooth address family. <br/> This address family is only supported if the computer has a Bluetooth adapter and driver installed.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -110,7 +115,7 @@ The following table lists the possible values for the *type* parameter supported
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -137,7 +142,7 @@ The table below lists common values for the *protocol* although many other value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -165,8 +170,8 @@ The **AFD\_EVENT\_CREATE** event is traced for a Winsock network operation to cr
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -189,9 +194,9 @@ The **AFD\_EVENT\_CREATE** event is traced for a Winsock network operation to cr
 [Winsock Catalog Change Tracing Details](winsock-layered-service-provider-tracing-event-details.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

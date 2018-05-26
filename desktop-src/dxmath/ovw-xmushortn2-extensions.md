@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMUSHORTN2 describes a 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type int16\_t).'
-ms.assetid: 'b13018c2-cb31-45d6-ba42-f94945a0b63b'
+---
+Description: XMUSHORTN2 describes a 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type int16\_t).
+ms.assetid: b13018c2-cb31-45d6-ba42-f94945a0b63b
 title: XMUSHORTN2 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUSHORTN2 Extensions
 
-[**XMUSHORTN2**](xmushortn2.md) describes a 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type `int16_t`).
+[**XMUSHORTN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmushortn2?branch=master) describes a 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type `int16_t`).
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMUSHORTN2 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMUSHORTN2**](xmushortn2.md)
+[**XMUSHORTN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmushortn2?branch=master)
 </dt> </dl>
 
  

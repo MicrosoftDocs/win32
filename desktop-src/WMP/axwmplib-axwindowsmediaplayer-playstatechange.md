@@ -1,8 +1,9 @@
 ---
 title: PlayStateChange Event of the AxWindowsMediaPlayer Object
 description: The PlayStateChange event occurs when the play state of the Windows Media Player control changes.
-ms.assetid: 'f8823c90-2084-4771-a2fe-7081d4e49e63'
-keywords: ["PlayStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: f8823c90-2084-4771-a2fe-7081d4e49e63
+keywords:
+- PlayStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayStateChange Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Pla
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -203,9 +209,9 @@ End Sub
 [**AxWindowsMediaPlayer.playState (VB and C#)**](axwmplib-axwindowsmediaplayer-playstate--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

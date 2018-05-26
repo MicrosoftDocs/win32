@@ -1,8 +1,9 @@
 ---
 title: open command
 description: The open command initializes a device. All MCI devices recognize this command.
-ms.assetid: 'a2b98e82-be7a-4e14-bc74-4926eb663ef9'
-keywords: ["open command Windows Multimedia"]
+ms.assetid: a2b98e82-be7a-4e14-bc74-4926eb663ef9
+keywords:
+- open command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - corecrt_io.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # open command
 
 The open command initializes a device. All MCI devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -59,7 +65,7 @@ Flag that identifies what to initialize. The following table lists device types 
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszOpenFlags** parameter and their meanings.
 
@@ -80,7 +86,7 @@ The following table lists the flags that can be specified in the **lpszOpenFlags
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -131,8 +137,8 @@ The MCIWAVE driver requires an asynchronous waveform-audio device.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Corecrt\_io.h</dt> </dl> |
 
 
@@ -147,9 +153,9 @@ The MCIWAVE driver requires an asynchronous waveform-audio device.
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_CAPTURE\_MODES enumeration type describes the capture timing mode of a still image capture.'
-ms.assetid: 'bfe96176-d018-4b39-a938-035757111784'
-title: 'WPD\_CAPTURE\_MODES enumeration'
+Description: The WPD\_CAPTURE\_MODES enumeration type describes the capture timing mode of a still image capture.
+ms.assetid: bfe96176-d018-4b39-a938-035757111784
+title: WPD\_CAPTURE\_MODES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CAPTURE\_MODES enumeration
@@ -13,10 +18,10 @@ The **WPD\_CAPTURE\_MODES** enumeration type describes the capture timing mode o
 
 ```C++
 typedef enum WPD_CAPTURE_MODES { 
-  WPD_CAPTURE_MODE_UNDEFINED  = 0,
-  WPD_CAPTURE_MODE_NORMAL     = 1,
-  WPD_CAPTURE_MODE_BURST      = 2,
-  WPD_CAPTURE_MODE_TIMELAPSE  = 3
+  WPD_CAPTURE_MODE_UNDEFINED  = 0,
+  WPD_CAPTURE_MODE_NORMAL     = 1,
+  WPD_CAPTURE_MODE_BURST      = 2,
+  WPD_CAPTURE_MODE_TIMELAPSE  = 3
 } ;
 ```
 
@@ -78,9 +83,9 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_CAPTURE\_MODE](still-image-p
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

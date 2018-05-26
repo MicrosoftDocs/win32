@@ -1,7 +1,12 @@
 ---
-Description: 'ICE92 verifies that a component without a Component Id GUID is not also specified as a permanent component.'
-ms.assetid: '5fe8a844-3f96-4b19-baa6-24e2405aff30'
+Description: ICE92 verifies that a component without a Component Id GUID is not also specified as a permanent component.
+ms.assetid: 5fe8a844-3f96-4b19-baa6-24e2405aff30
 title: ICE92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE92

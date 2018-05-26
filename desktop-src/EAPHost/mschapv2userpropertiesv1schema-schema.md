@@ -1,7 +1,12 @@
 ---
 title: mschapv2userpropertiesv1 Schema
 description: Defines authentication credentials and credential options using Microsoft Challenge Handshake Authentication Protocol version 2 (MS-CHAPv2).
-ms.assetid: '0a8044cc-14bf-4912-9197-3a735f61380f'
+ms.assetid: 0a8044cc-14bf-4912-9197-3a735f61380f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mschapv2userpropertiesv1 Schema

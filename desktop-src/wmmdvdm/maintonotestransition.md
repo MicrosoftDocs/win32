@@ -1,14 +1,20 @@
 ---
 title: MainToNotesTransition element
 description: Defines the transition displayed between the main menu and the notes menu.
-ms.assetid: '890ded97-c04c-496b-a7f9-d3dde3c635b2'
-keywords: ["MainToNotesTransition element Windows Movie Maker and DVD Maker"]
+ms.assetid: 890ded97-c04c-496b-a7f9-d3dde3c635b2
+keywords:
+- MainToNotesTransition element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - MainToNotesTransition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MainToNotesTransition element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.visible
 description: The visible attribute specifies or retrieves the visibility for the control.
-ms.assetid: '8347d42a-4af1-4ea1-b968-a2ae58278430'
-keywords: ["AmbientAttributes.visible Windows Media Player"]
+ms.assetid: 8347d42a-4af1-4ea1-b968-a2ae58278430
+keywords:
+- AmbientAttributes.visible Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.visible
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.visible
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,9 +65,9 @@ The default value for the **AUTOMENU** element is false.
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

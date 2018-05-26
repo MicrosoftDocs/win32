@@ -4,17 +4,22 @@ description: A link used to associate a User with a COM+ PartitionSet.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7abd1274-0352-45c1-91e9-27ed8687208c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7abd1274-0352-45c1-91e9-27ed8687208c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-COM-UserPartitionSetLink attribute AD Schema", "msCOM-UserPartitionSetLink attribute AD Schema"]
+keywords:
+- ms-COM-UserPartitionSetLink attribute AD Schema
+- msCOM-UserPartitionSetLink attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-COM-UserPartitionSetLink
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-COM-UserPartitionSetLink attribute
@@ -38,11 +43,11 @@ A link used to associate a User with a COM+ PartitionSet.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ A link used to associate a User with a COM+ PartitionSet.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Getting the Scopes
 description: Getting the Scopes
-ms.assetid: '78105827-f541-416b-bcaa-a1749eb39c83'
+ms.assetid: 78105827-f541-416b-bcaa-a1749eb39c83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting the Scopes

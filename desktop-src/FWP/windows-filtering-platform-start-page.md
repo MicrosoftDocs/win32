@@ -1,8 +1,15 @@
 ---
 title: Windows Filtering Platform
 description: Windows Filtering Platform (WFP) is a set of API and system services that provide a platform for creating network filtering applications.
-ms.assetid: '0436f559-20e6-4199-8391-10eb7d85df23'
-keywords: ["Windows Filtering Platform", "Windows Filtering Platform Start Page,start page"]
+ms.assetid: 0436f559-20e6-4199-8391-10eb7d85df23
+keywords:
+- Windows Filtering Platform
+- Windows Filtering Platform Start Page,start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Filtering Platform
@@ -11,11 +18,11 @@ keywords: ["Windows Filtering Platform", "Windows Filtering Platform Start Page,
 
 Windows Filtering Platform (WFP) is a set of API and system services that provide a platform for creating network filtering applications. The WFP API allows developers to write code that interacts with the packet processing that takes place at several layers in the networking stack of the operating system. Network data can be filtered and also modified before it reaches its destination.
 
-By providing a simpler development platform, WFP is designed to replace previous packet filtering technologies such as Transport Driver Interface (TDI) filters, Network Driver Interface Specification (NDIS) filters, and Winsock Layered Service Providers (LSP). Starting in Windows Server 2008 and Windows Vista, the firewall hook and the filter hook drivers are not available; applications that were using these drivers should use WFP instead.
+By providing a simpler development platform, WFP is designed to replace previous packet filtering technologies such as Transport Driver Interface (TDI) filters, Network Driver Interface Specification (NDIS) filters, and Winsock Layered Service Providers (LSP). Starting in Windows Server 2008 and Windows Vista, the firewall hook and the filter hook drivers are not available; applications that were using these drivers should use WFP instead.
 
 With the WFP API, developers can implement firewalls, intrusion detection systems, antivirus programs, network monitoring tools, and parental controls. WFP integrates with and provides support for firewall features such as authenticated communication and dynamic firewall configuration based on applications' use of sockets API (application-based policy). WFP also provides infrastructure for IPsec policy management, change notifications, network diagnostics, and stateful filtering.
 
-Windows Filtering Platform is a development platform and not a firewall itself. The firewall application that is built into Windows Vista, Windows Server 2008, and later operating systems – Windows Firewall with Advanced Security (WFAS) – is implemented using WFP. Therefore, applications developed with the WFP API or the [WFAS API](https://msdn.microsoft.com/library/windows/desktop/aa366459) use the common filtering arbitration logic that is built into WFP.
+Windows Filtering Platform is a development platform and not a firewall itself. The firewall application that is built into Windows Vista, Windows Server 2008, and later operating systems   Windows Firewall with Advanced Security (WFAS)   is implemented using WFP. Therefore, applications developed with the WFP API or the [WFAS API](https://msdn.microsoft.com/library/windows/desktop/aa366459) use the common filtering arbitration logic that is built into WFP.
 
 The WFP API consists of a user-mode API and a kernel-mode API. This section provides an overview of the entire WFP and describes in detail only the user-mode portion of the WFP API. For a detailed description of the kernel-mode WFP API, see the [Windows Driver Kit](http://go.microsoft.com/fwlink/p/?linkid=95958) online help.
 
@@ -25,13 +32,13 @@ The Windows Filtering Platform API is designed for use by programmers using C/C+
 
 ## Run-time requirements
 
-The Windows Filtering Platform is supported on clients running Windows Vista and later, and on servers running Windows Server 2008 and later. For information about the run-time requirements for a specific programming element, see the Requirements section of the reference page for that element.
+The Windows Filtering Platform is supported on clients running Windows Vista and later, and on servers running Windows Server 2008 and later. For information about the run-time requirements for a specific programming element, see the Requirements section of the reference page for that element.
 
 
 
 
 
- 
+ 
 
 ## In this section
 
@@ -46,7 +53,7 @@ The Windows Filtering Platform is supported on clients running Windows Vista and
 
 
 
- 
+ 
 
 ## Additional resources
 
@@ -71,9 +78,9 @@ To ask questions and have discussions about using the WFP API, visit the [Window
 [Winsock Secure Socket Extensions](https://msdn.microsoft.com/library/windows/desktop/bb394815)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

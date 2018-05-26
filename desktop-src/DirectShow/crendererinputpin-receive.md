@@ -1,7 +1,12 @@
 ---
-Description: 'The Receive method receives the next media sample in the stream. This method overrides the CBaseInputPin::Receive method.'
-ms.assetid: 'b09140f0-2e3a-47b1-ace7-954043dd62eb'
-title: 'CRendererInputPin.Receive method'
+Description: The Receive method receives the next media sample in the stream. This method overrides the CBaseInputPinReceive method.
+ms.assetid: b09140f0-2e3a-47b1-ace7-954043dd62eb
+title: CRendererInputPin.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.Receive method
@@ -13,7 +18,7 @@ The `Receive` method receives the next media sample in the stream. This method o
 
 ```C++
 HRESULT Receive(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Receive(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ This method calls the filter's [**CBaseRenderer::Receive**](cbaserenderer-receiv
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

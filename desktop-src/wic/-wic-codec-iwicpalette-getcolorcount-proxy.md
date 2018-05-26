@@ -1,20 +1,25 @@
 ---
-Description: 'Proxy function for the GetColorCount method.'
-ms.assetid: '2ad87383-4d30-4df0-b43a-95fdad1d59f9'
-title: 'IWICPalette\_GetColorCount\_Proxy function'
+Description: Proxy function for the GetColorCount method.
+ms.assetid: 2ad87383-4d30-4df0-b43a-95fdad1d59f9
+title: IWICPalette\_GetColorCount\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICPalette\_GetColorCount\_Proxy function
 
-Proxy function for the [**GetColorCount**](-wic-codec-iwicpalette-getcolorcount.md) method.
+Proxy function for the [**GetColorCount**](/windows/win32/Wincodec/nf-wincodec-iwicpalette-getcolorcount?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICPalette_GetColorCount_Proxy(
-  _In_  IWICPalette *THIS_PTR,
-  _Out_ UINT        *pcCount
+  _In_  IWICPalette *THIS_PTR,
+  _Out_ UINT        *pcCount
 );
 ```
 
@@ -27,9 +32,9 @@ HRESULT IWICPalette_GetColorCount_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICPalette**](-wic-codec-iwicpalette.md)\***
+Type: **[**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master)\***
 
-Pointer to this [**IWICPalette**](-wic-codec-iwicpalette.md) object.
+Pointer to this [**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master) object.
 
 </dd> <dt>
 
@@ -56,15 +61,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

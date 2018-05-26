@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.Orientation property.'
-ms.assetid: '27e6d4f5-39d5-4cb4-88bc-b0d61ccaa2f3'
-title: 'System.Photo.Orientation Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.Orientation property.
+ms.assetid: 27e6d4f5-39d5-4cb4-88bc-b0d61ccaa2f3
+title: System.Photo.Orientation Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Orientation Photo Metadata Policy

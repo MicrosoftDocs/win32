@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to send a cover page.'
-ms.assetid: '32e293c8-febb-43c0-801c-f7b4a6675c80'
+Description: This topic describes how to send a cover page.
+ms.assetid: 32e293c8-febb-43c0-801c-f7b4a6675c80
 title: Sending a Cover Page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending a Cover Page

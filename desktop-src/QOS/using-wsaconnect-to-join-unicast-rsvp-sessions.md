@@ -1,8 +1,14 @@
 ---
 title: Using WSAConnect to Join Unicast RSVP Sessions
 description: The WSAConnect function is generally used by unicast receivers to join RSVP sessions. The behavior is somewhat different with TCP sessions and UDP unicast sessions.
-ms.assetid: 'f247e925-832a-4ee3-abd6-1ec3cc91827d'
-keywords: ["Quality of Service QOS , tasks, joining unicast sessions"]
+ms.assetid: f247e925-832a-4ee3-abd6-1ec3cc91827d
+keywords:
+- Quality of Service QOS , tasks, joining unicast sessions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WSAConnect to Join Unicast RSVP Sessions
@@ -22,7 +28,7 @@ The use of the [**WSAConnect**](https://msdn.microsoft.com/library/windows/deskt
 
 
 
- 
+ 
 
 ### UDP Unicast Sessions
 
@@ -40,11 +46,11 @@ The use of the [**WSAConnect**](https://msdn.microsoft.com/library/windows/deskt
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

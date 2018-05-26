@@ -1,8 +1,24 @@
 ---
 title: Page Setup Dialog Box
 description: Displays a modal dialog box that allows the user to choose settings that include the paper type, paper source, page orientation, and the width of the page margins.
-ms.assetid: 'debde0a0-07d4-46ed-a936-e517eab1852d'
-keywords: ["Windows User Interface,user input", "Windows User Interface,Common Dialog Box Library", "user input,Common Dialog Box Library", "capturing user input,Common Dialog Box Library", "Common Dialog Box Library", "common dialog boxes", "Page Setup dialog box", "customizing Page Setup dialog box", "hooks,Page Setup dialog box", "predefined dialog boxes", "dialog boxes,Page Setup"]
+ms.assetid: debde0a0-07d4-46ed-a936-e517eab1852d
+keywords:
+- Windows User Interface,user input
+- Windows User Interface,Common Dialog Box Library
+- user input,Common Dialog Box Library
+- capturing user input,Common Dialog Box Library
+- Common Dialog Box Library
+- common dialog boxes
+- Page Setup dialog box
+- customizing Page Setup dialog box
+- hooks,Page Setup dialog box
+- predefined dialog boxes
+- dialog boxes,Page Setup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Page Setup Dialog Box
@@ -14,13 +30,13 @@ Displays a modal dialog box that allows the user to set the following attributes
 -   The page orientation (portrait or landscape)
 -   The width of the page margins
 
-You create and display a **Page Setup** dialog box by initializing a [**PAGESETUPDLG**](pagesetupdlg-str.md) structure and passing the structure to the [**PageSetupDlg**](pagesetupdlg.md) function. However, the attributes presented in the dialog box vary, depending on the capabilities of the printer. The following illustration shows a typical **Page Setup** dialog box.
+You create and display a **Page Setup** dialog box by initializing a [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure and passing the structure to the [**PageSetupDlg**](pagesetupdlg.md) function. However, the attributes presented in the dialog box vary, depending on the capabilities of the printer. The following illustration shows a typical **Page Setup** dialog box.
 
 ![page setup dialog box](images/pagesetupdialogboxxp.png)
 
-If the user clicks the **OK** button, [**PageSetupDlg**](pagesetupdlg.md) returns **TRUE** after setting various members in the [**PAGESETUPDLG**](pagesetupdlg-str.md) structure to specify the user's selections. The **ptPaperSize** and **rtMargin** members contain the values specified by the user. The **hDevMode** and **hDevNames** members contain global memory handles for the [**DEVMODE**](https://msdn.microsoft.com/library/windows/desktop/dd183565) and [**DEVNAMES**](devnames-str.md) structures. These structures contain additional page information as well as information about the printer. You can use this information to prepare the output to be sent to the selected printer.
+If the user clicks the **OK** button, [**PageSetupDlg**](pagesetupdlg.md) returns **TRUE** after setting various members in the [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure to specify the user's selections. The **ptPaperSize** and **rtMargin** members contain the values specified by the user. The **hDevMode** and **hDevNames** members contain global memory handles for the [**DEVMODE**](https://msdn.microsoft.com/library/windows/desktop/dd183565) and [**DEVNAMES**](/windows/win32/Commdlg/ns-commdlg-tagdevnames?branch=master) structures. These structures contain additional page information as well as information about the printer. You can use this information to prepare the output to be sent to the selected printer.
 
-If the user cancels the **Page Setup** dialog box or an error occurs, [**PageSetupDlg**](pagesetupdlg.md) returns **FALSE**. To determine the cause of the error, call the [**CommDlgExtendedError**](commdlgextendederror.md) function to retrieve the extended error value.
+If the user cancels the **Page Setup** dialog box or an error occurs, [**PageSetupDlg**](pagesetupdlg.md) returns **FALSE**. To determine the cause of the error, call the [**CommDlgExtendedError**](/windows/win32/Commdlg/nf-commdlg-commdlgextendederror?branch=master) function to retrieve the extended error value.
 
 This section discusses the following topics.
 
@@ -30,9 +46,9 @@ This section discusses the following topics.
 
 ## Initializing the Page Setup Dialog Box
 
-By default, the **Page Setup** dialog box displays information about the current default printer. To direct the dialog box to display information about a specific printer, set the members of a [**DEVMODE**](https://msdn.microsoft.com/library/windows/desktop/dd183565) or [**DEVNAMES**](devnames-str.md) structure and assign the global memory handles of these structures to the corresponding member in [**PAGESETUPDLG**](pagesetupdlg-str.md). If you specify the name of a printer that is not currently installed, the dialog box displays an error message. To prevent the dialog box from displaying error messages, use the **PSD\_NOWARNING** value. To retrieve information about the default printer without displaying the **Page Setup** dialog box, use the **PSD\_RETURNDEFAULT** value.
+By default, the **Page Setup** dialog box displays information about the current default printer. To direct the dialog box to display information about a specific printer, set the members of a [**DEVMODE**](https://msdn.microsoft.com/library/windows/desktop/dd183565) or [**DEVNAMES**](/windows/win32/Commdlg/ns-commdlg-tagdevnames?branch=master) structure and assign the global memory handles of these structures to the corresponding member in [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master). If you specify the name of a printer that is not currently installed, the dialog box displays an error message. To prevent the dialog box from displaying error messages, use the **PSD\_NOWARNING** value. To retrieve information about the default printer without displaying the **Page Setup** dialog box, use the **PSD\_RETURNDEFAULT** value.
 
-If the default measurement system is inches, the dialog box uses thousandths of inches as the default unit of measurement. If the default measurement system is metric, the dialog box uses hundredths of millimeters as the default unit of measurement. To override the default unit of measurement, set the **PSD\_INHUNDREDTHSOFMILLIMETERS** or **PSD\_INTHOUSANDTHSOFINCHES** flag in the **Flags** member of the [**PAGESETUPDLG**](pagesetupdlg-str.md) structure.
+If the default measurement system is inches, the dialog box uses thousandths of inches as the default unit of measurement. If the default measurement system is metric, the dialog box uses hundredths of millimeters as the default unit of measurement. To override the default unit of measurement, set the **PSD\_INHUNDREDTHSOFMILLIMETERS** or **PSD\_INTHOUSANDTHSOFINCHES** flag in the **Flags** member of the [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure.
 
 The initial values for the margins are one inch, by default. If you set the **PSD\_MARGINS** flag, the dialog box displays the initial margin values specified in the **rtMargin** member. The default minimum values that the user can specify for the margins are the minimum margins allowed by the printer. If you set the **PSD\_MINMARGINS** flag, the dialog box enforces the minimum margins specified in the **rtMinMargin** member.
 
@@ -58,7 +74,7 @@ You can provide a custom template for the **Page Setup** dialog box, for example
 **To provide a custom template for the Page Setup dialog box**
 
 1.  Create the custom template by modifying the default template specified in the Prnsetup.dlg file. The control identifiers used in the default **Page Setup** dialog template are defined in the Dlgs.h file.
-2.  Use the [**PAGESETUPDLG**](pagesetupdlg-str.md) structure to enable the template as follows:
+2.  Use the [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure to enable the template as follows:
     -   -   If your custom template is a resource in an application or dynamic-link library, set the **PSD\_ENABLEPAGESETUPTEMPLATE** flag in the **Flags** member. Use the **hInstance** and **lpPageSetupTemplateName** members of the structure to identify the module and resource name.
 
             -Or-
@@ -69,10 +85,10 @@ To filter messages sent to the dialog box procedure, you can provide a [**PageSe
 
 **To enable a PageSetupHook hook procedure**
 
-1.  Set the **PSD\_ENABLEPAGESETUPHOOK** flag in the **Flags** member of the [**PAGESETUPDLG**](pagesetupdlg-str.md) structure.
+1.  Set the **PSD\_ENABLEPAGESETUPHOOK** flag in the **Flags** member of the [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure.
 2.  Specify the address of the hook procedure in the **lpfnPageSetupHook** member.
 
-After processing its [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the [**PageSetupHook**](pagesetuphook.md) hook procedure. The *lParam* parameter of this message is a pointer to the [**PAGESETUPDLG**](pagesetupdlg-str.md) structure used to initialize the dialog box.
+After processing its [**WM\_INITDIALOG**](wm-initdialog.md) message, the dialog box procedure sends a **WM\_INITDIALOG** message to the [**PageSetupHook**](pagesetuphook.md) hook procedure. The *lParam* parameter of this message is a pointer to the [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure used to initialize the dialog box.
 
 ## Customizing the Sample Page
 
@@ -82,7 +98,7 @@ When you call the [**PageSetupDlg**](pagesetupdlg.md) function, you can provide 
 
 **To enable a PagePaintHook hook procedure**
 
-1.  Set the **PSD\_ENABLEPAGEPAINTHOOK** flag in the **Flags** member of the [**PAGESETUPDLG**](pagesetupdlg-str.md) structure.
+1.  Set the **PSD\_ENABLEPAGEPAINTHOOK** flag in the **Flags** member of the [**PAGESETUPDLG**](/windows/win32/Commdlg/ns-commdlg-tagpsda?branch=master) structure.
 2.  Specify the address of the hook procedure in the **lpfnPagePaintHook** member.
 
 Whenever the dialog box is about to draw the contents of the sample page, the hook procedure receives the following messages in the order in which they are listed.

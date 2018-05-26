@@ -1,14 +1,20 @@
 ---
 title: THEME.authorVersion
 description: The authorVersion attribute specifies or retrieves the version number of the skin as assigned by the author.
-ms.assetid: 'b05cfc65-34b6-4029-953e-0dfa1bb3108e'
-keywords: ["THEME.authorVersion Windows Media Player"]
+ms.assetid: b05cfc65-34b6-4029-953e-0dfa1bb3108e
+keywords:
+- THEME.authorVersion Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.authorVersion
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.authorVersion
@@ -43,9 +49,9 @@ This attribute is a read-only **String** with no default value.
 [**THEME.author**](theme-author.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

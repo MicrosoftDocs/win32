@@ -1,8 +1,17 @@
 ---
 title: ServiceInfo Document for a Type 2 Online Store
 description: ServiceInfo Document for a Type 2 Online Store
-ms.assetid: 'd9bbce89-15b4-495f-8995-24dda99a4f40'
-keywords: ["Windows Media Player online stores,ServiceInfo document", "online stores,ServiceInfo document", "type 2 online stores,ServiceInfo document", "ServiceInfo document"]
+ms.assetid: d9bbce89-15b4-495f-8995-24dda99a4f40
+keywords:
+- Windows Media Player online stores,ServiceInfo document
+- online stores,ServiceInfo document
+- type 2 online stores,ServiceInfo document
+- ServiceInfo document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceInfo Document for a Type 2 Online Store

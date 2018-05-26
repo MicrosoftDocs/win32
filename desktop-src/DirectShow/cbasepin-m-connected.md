@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the pin that is connected to this pin.'
-ms.assetid: '358f17d4-fc27-4fb2-b18a-f384fbca40a0'
-title: 'CBasePin::m\_Connected member'
+Description: Pointer to the pin that is connected to this pin.
+ms.assetid: 358f17d4-fc27-4fb2-b18a-f384fbca40a0
+title: CBasePinm\_Connected member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin::m\_Connected member
@@ -35,9 +40,9 @@ IPin *m_Connected;
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

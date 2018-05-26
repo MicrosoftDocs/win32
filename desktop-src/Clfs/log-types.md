@@ -1,7 +1,12 @@
 ---
-Description: 'Common Log File System (CLFS) uses the following abstractions to implement logging:'
-ms.assetid: 'a7099979-346c-434d-8af1-6bf1d5a0512f'
+Description: Common Log File System (CLFS) uses the following abstractions to implement logging
+ms.assetid: a7099979-346c-434d-8af1-6bf1d5a0512f
 title: Log Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Log Types

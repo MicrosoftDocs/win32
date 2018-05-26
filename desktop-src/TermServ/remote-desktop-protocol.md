@@ -4,11 +4,16 @@ description: The Microsoft Remote Desktop Protocol (RDP) provides remote display
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '442c3c7f-d04b-4dcd-945d-f6e0168c59d5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 442c3c7f-d04b-4dcd-945d-f6e0168c59d5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Protocol (RDP) Remote Desktop Services", "RDP (see Remote Desktop Protocol)"]
+keywords:
+- Remote Desktop Protocol (RDP) Remote Desktop Services
+- RDP (see Remote Desktop Protocol)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Protocol

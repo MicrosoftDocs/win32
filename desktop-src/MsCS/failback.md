@@ -4,11 +4,15 @@ description: When a node becomes inactive for any reason, the Cluster service fa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dcb53180-86bf-4cba-bf93-9c19cbc127b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: dcb53180-86bf-4cba-bf93-9c19cbc127b8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["failback Failover Cluster"]
+keywords:
+- failback Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failback

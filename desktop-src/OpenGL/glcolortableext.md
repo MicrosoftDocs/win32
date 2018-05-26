@@ -1,8 +1,9 @@
 ---
 title: glColorTableEXT function
 description: The glColorTableEXT function specifies the format and size of a palette for targeted paletted textures.
-ms.assetid: 'f3d7b1a1-97a5-47ef-a0ca-5e58acb86bb4'
-keywords: ["glColorTableEXT function OpenGL"]
+ms.assetid: f3d7b1a1-97a5-47ef-a0ca-5e58acb86bb4
+keywords:
+- glColorTableEXT function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Gl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColorTableEXT function
@@ -22,12 +28,12 @@ The **glColorTableEXT** function specifies the format and size of a palette for 
 
 ```C++
 void WINAPI glColorTableEXT(
-         GLenum  target,
-         GLenum  internalFormat,
-         GLsizei width,
-         GLenum  format,
-         GLenum  type,
-   const GLvoid  *data
+         GLenum  target,
+         GLenum  internalFormat,
+         GLsizei width,
+         GLenum  format,
+         GLenum  type,
+   const GLvoid  *data
 );
 ```
 
@@ -53,13 +59,13 @@ The internal format and resolution of the palette. This parameter can assume one
 
 | Constant       | Base Format | R Bits | G Bits | B Bits | A Bits |
 |----------------|-------------|--------|--------|--------|--------|
-| GL\_R3\_G3\_B2 | GL\_RGB     | 3      | 3      | 2      |        |
-| GL\_RGB4       | GL\_RGB     | 4      | 4      | 4      |        |
-| GL\_RGB5       | GL\_RGB     | 5      | 5      | 5      |        |
-| GL\_RGB8       | GL\_RGB     | 8      | 8      | 8      |        |
-| GL\_RGB10      | GL\_RGB     | 10     | 10     | 10     |        |
-| GL\_RGB12      | GL\_RGB     | 12     | 12     | 12     |        |
-| GL\_RGB16      | GL\_RGB     | 16     | 16     | 16     |        |
+| GL\_R3\_G3\_B2 | GL\_RGB     | 3      | 3      | 2      |        |
+| GL\_RGB4       | GL\_RGB     | 4      | 4      | 4      |        |
+| GL\_RGB5       | GL\_RGB     | 5      | 5      | 5      |        |
+| GL\_RGB8       | GL\_RGB     | 8      | 8      | 8      |        |
+| GL\_RGB10      | GL\_RGB     | 10     | 10     | 10     |        |
+| GL\_RGB12      | GL\_RGB     | 12     | 12     | 12     |        |
+| GL\_RGB16      | GL\_RGB     | 16     | 16     | 16     |        |
 | GL\_RGBA2      | GL\_RGBA    | 2      | 2      | 2      | 2      |
 | GL\_RGBA4      | GL\_RGBA    | 4      | 4      | 4      | 4      |
 | GL\_RGB5\_A1   | GL\_RGBA    | 5      | 5      | 5      | 1      |
@@ -70,14 +76,14 @@ The internal format and resolution of the palette. This parameter can assume one
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *width* 
 </dt> <dd>
 
-The size of the palette. Must be 2n = 1 for some integer *n*.
+The size of the palette. Must be 2n = 1 for some integer *n*.
 
 </dd> <dt>
 
@@ -107,7 +113,7 @@ The format of the pixel data. The following symbolic constants are accepted.
 <li>The <strong>glColorTableEXT</strong> function converts floating-point values directly to an internal format with unspecified precision. Signed integer values are mapped linearly to the internal format such that the most positive representable integer value maps to 1.0, and the most negative representable integer value maps to -1.0. Unsigned integer data is mapped similarly: the largest integer value maps to 1.0, and zero maps to 0.0.</li>
 <li>The <strong>glColorTableEXT</strong> function multiplies the resulting color values by GL_c_SCALE and adds them to GL_c_BIAS, where <em>c</em> is RED, GREEN, BLUE, and ALPHA for the respective color components. The results are clamped to the range [0,1].</li>
 <li>If GL_MAP_COLOR is <strong>TRUE</strong>, <strong>glColorTableEXT</strong> scales each color component by the size of lookup table GL_PIXEL_MAP_c_TO_c, then replaces the component by the value that it references in that table; <em>c</em> is R, G, B, or A, respectively.</li>
-<li>The <strong>glColorTableEXT</strong> function converts the resulting RGBA colors to fragments by attaching the current raster position <em>z</em>-coordinate and texture coordinates to each pixel, then assigning <em>x</em> and <em>y</em> window coordinates to the <em>n</em>th fragment such that<em>x</em>? = <em>x</em><sub>r</sub> + <em>n</em> mod <em>width</em><br/> <em></em>y? = <em>y</em><sub>r</sub> +<em>n / width</em><br/> where (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) is the current raster position.<br/></li>
+<li>The <strong>glColorTableEXT</strong> function converts the resulting RGBA colors to fragments by attaching the current raster position <em>z</em>-coordinate and texture coordinates to each pixel, then assigning <em>x</em> and <em>y</em> window coordinates to the <em>n</em>th fragment such that<em>x</em>? = <em>x</em><sub>r</sub> + <em>n</em> mod <em>width</em><br/> <em></em>y? = <em>y</em><sub>r</sub> +<em>n / width</em><br/> where (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) is the current raster position.<br/></li>
 <li>These pixel fragments are then treated just like the fragments generated by rasterizing points, lines, or polygons. The <strong>glColorTableEXT</strong> function applies texture mapping, fog, and all the fragment operations before writing the fragments to the framebuffer.</li>
 </ol></td>
 </tr>
@@ -144,7 +150,7 @@ The format of the pixel data. The following symbolic constants are accepted.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -169,7 +175,7 @@ The following table summarizes the meaning of the valid constants for the *type*
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -223,9 +229,9 @@ If a palette's *width* is greater than the range of the color indexes in the tex
 When the *target* parameter is GL\_PROXY\_TEXTURE\_1D or GL\_PROXY\_TEXTURE\_2D, and the implementation does not support the values specified for either *format* or *width*, **glColorTableEXT** can fail to create the requested color table. In this case, the color table is empty and all parameters retrieved will be zero. You can determine whether OpenGL supports a particular color table format and size by calling **glColorTableEXT** with a proxy target, and then calling [**glGetColorTableParameterivEXT**](glgetcolortableparameterivext.md) or [**glGetColorTableParameterfvEXT**](glgetcolortableparameterfvext.md) to determine whether the width parameter matches that set by **glColorTableEXT**. If the retrieved width is zero, the color table request by **glColorTable** failed. If the retrieved width is not zero, you can call **glColorTable** with the real target with TEXTURE\_1D or TEXTURE\_2D to set the color table.
 
 > [!Note]  
-> The **glColorTableEXT** function is an extension function that is not part of the standard OpenGL library but is part of the GL\_EXT\_paletted\_texture extension. To check whether your implementation of OpenGL supports **glColorTableEXT**, call [**glGetString**](glgetstring.md)(GL\_EXTENSIONS). If it returns GL\_EXT\_paletted\_texture, **glColorTableEXT** is supported. To obtain the function address of an extension function, call [**wglGetProcAddress**](wglgetprocaddress.md).
+> The **glColorTableEXT** function is an extension function that is not part of the standard OpenGL library but is part of the GL\_EXT\_paletted\_texture extension. To check whether your implementation of OpenGL supports **glColorTableEXT**, call [**glGetString**](glgetstring.md)(GL\_EXTENSIONS). If it returns GL\_EXT\_paletted\_texture, **glColorTableEXT** is supported. To obtain the function address of an extension function, call [**wglGetProcAddress**](/windows/win32/wingdi/nf-wingdi-wglgetprocaddress?branch=master).
 
- 
+ 
 
 To retrieve the actual color table data specified by the **glColorTableEXT** function, call [**glGetColorTableEXT**](glgetcolortableext.md). To retrieve the parameters, such as *width* and *format*, of the color table specified by the **glColorTableEXT** function, call the **glGetColorTableParameterivEXT** or **glGetColorTableParameterfvEXT** function.
 
@@ -235,8 +241,8 @@ To retrieve the actual color table data specified by the **glColorTableEXT** fun
 
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                      |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                      |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                            |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl> |
 
 
@@ -263,12 +269,12 @@ To retrieve the actual color table data specified by the **glColorTableEXT** fun
 [**glGetColorTableParameterivEXT**](glgetcolortableparameterivext.md)
 </dt> <dt>
 
-[**wglGetProcAddress**](wglgetprocaddress.md)
+[**wglGetProcAddress**](/windows/win32/wingdi/nf-wingdi-wglgetprocaddress?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

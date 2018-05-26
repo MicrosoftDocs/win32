@@ -1,7 +1,12 @@
-﻿---
-Description: 'Generate an attribute buffer from the data in the mesh''s attribute table. An attribute buffer is another format for storing the data in the attribute table. Both the attribute buffer and the attribute table are internal data structures in the mesh.'
-ms.assetid: 'e5e240af-4bf9-4123-9820-9c9680de62b1'
-title: 'ID3DX10Mesh::GenerateAttributeBufferFromTable method'
+---
+Description: Generate an attribute buffer from the data in the meshs attribute table. An attribute buffer is another format for storing the data in the attribute table. Both the attribute buffer and the attribute table are internal data structures in the mesh.
+ms.assetid: e5e240af-4bf9-4123-9820-9c9680de62b1
+title: ID3DX10MeshGenerateAttributeBufferFromTable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GenerateAttributeBufferFromTable method

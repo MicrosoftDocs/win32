@@ -2,7 +2,12 @@
 title: Glossary
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: 'c45583f2-a6e8-4a01-9577-9b604b5bbc62'
+ms.assetid: c45583f2-a6e8-4a01-9577-9b604b5bbc62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary
@@ -28,7 +33,7 @@ Also called assistive technology; specialized programs that work with a computer
 **accessible object**
 </dt> <dd>
 
-Any user interface element that implements the [**IAccessible**](iaccessible.md) interface and has properties that describe the object's name, screen locations, and other information needed by accessibility aids. For more information, see [Accessible Objects](accessible-objects.md).
+Any user interface element that implements the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface and has properties that describe the object's name, screen locations, and other information needed by accessibility aids. For more information, see [Accessible Objects](accessible-objects.md).
 
 </dd> </dl>
 
@@ -60,7 +65,7 @@ A software component that is implemented by a UI Automation client to retrieve i
 **container**
 </dt> <dd>
 
-Also called a parent; an accessible object that corresponds to one or more simple elements; for example, an [**IAccessible**](iaccessible.md) object for a list box is the parent of the list items.
+Also called a parent; an accessible object that corresponds to one or more simple elements; for example, an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object for a list box is the parent of the list items.
 
 </dd> <dt>
 
@@ -178,7 +183,7 @@ The COM interface that contains all the methods and properties for Microsoft Act
 **IAccessible proxy**
 </dt> <dd>
 
-A type of [**IAccessible**](iaccessible.md) support that provides default accessibility information for standard UI elements: USER controls, USER menus, and common controls from COMCTL and COMCTL32. For more information, see [IAccessible Proxies](iaccessible-proxies.md).
+A type of [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) support that provides default accessibility information for standard UI elements: USER controls, USER menus, and common controls from COMCTL and COMCTL32. For more information, see [IAccessible Proxies](iaccessible-proxies.md).
 
 </dd> </dl>
 
@@ -189,7 +194,7 @@ A type of [**IAccessible**](iaccessible.md) support that provides default access
 **logical navigation**
 </dt> <dd>
 
-One of two [**IAccessible**](iaccessible.md) navigation modes in which a client explores the Microsoft Active Accessibility object hierarchy (next, previous, parent, first child, last child).
+One of two [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) navigation modes in which a client explores the Microsoft Active Accessibility object hierarchy (next, previous, parent, first child, last child).
 
 </dd> </dl>
 
@@ -211,7 +216,7 @@ Packaging and sending interface parameters across process boundaries.
 **native implementation**
 </dt> <dd>
 
-The type of support provided by user interface elements that implement the [**IAccessible**](iaccessible.md) interface.
+The type of support provided by user interface elements that implement the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface.
 
 </dd> </dl>
 
@@ -240,7 +245,7 @@ The dynamic-link library that provides the Microsoft Active Accessibility run ti
 **parent**
 </dt> <dd>
 
-Also called a container; an accessible object that corresponds to one or more simple elements; for example, an [**IAccessible**](iaccessible.md) object for a list box is the parent of the list items
+Also called a container; an accessible object that corresponds to one or more simple elements; for example, an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object for a list box is the parent of the list items
 
 </dd> <dt>
 
@@ -279,7 +284,7 @@ See [*IAccessible proxy*](uiauto-glossary.md#-msaa-iaccessible-proxy-gly).
 **raw view**
 </dt> <dd>
 
-The full tree of [**IUIAutomationElement**](uiauto-iuiautomationelement.md) objects in the UI Automation tree for which the desktop is the root. The raw view closely follows the native programmatic structure of an application and, therefore, is the most accurate view of the UI structure. It is also the base on which the other views of the tree are built.
+The full tree of [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) objects in the UI Automation tree for which the desktop is the root. The raw view closely follows the native programmatic structure of an application and, therefore, is the most accurate view of the UI structure. It is also the base on which the other views of the tree are built.
 
 </dd> <dt>
 
@@ -332,14 +337,14 @@ A software component that exposes information about a UI element that is based o
 **simple element**
 </dt> <dd>
 
-Also known as a Child Element; any user interface element that shares an [**IAccessible**](iaccessible.md) object with other elements and relies on that **IAccessible** object to expose its properties. For more information, see [Simple Elements](simple-elements.md).
+Also known as a Child Element; any user interface element that shares an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object with other elements and relies on that **IAccessible** object to expose its properties. For more information, see [Simple Elements](simple-elements.md).
 
 </dd> <dt>
 
 **spatial navigation**
 </dt> <dd>
 
-One of two [**IAccessible**](iaccessible.md) navigation modes in which a client moves from one user interface element to another based on their on-screen positions (up, down, left, right).
+One of two [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) navigation modes in which a client moves from one user interface element to another based on their on-screen positions (up, down, left, right).
 
 </dd> </dl>
 
@@ -382,7 +387,7 @@ A run-time component that implements the UI Automation framework.
 **UI Automation element**
 </dt> <dd>
 
-A UI item that is represented by a COM object that implements a UI Automation provider interface and that exposes the [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface to UI Automation clients.
+A UI item that is represented by a COM object that implements a UI Automation provider interface and that exposes the [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface to UI Automation clients.
 
 </dd> <dt>
 

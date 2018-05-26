@@ -1,7 +1,12 @@
 ---
 title: SCSI Miniport Driver Routines
 description: SCSI Miniport Driver Routines
-ms.assetid: '33b57b4a-f972-42db-b75f-cdab922969f5'
+ms.assetid: 33b57b4a-f972-42db-b75f-cdab922969f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCSI Miniport Driver Routines

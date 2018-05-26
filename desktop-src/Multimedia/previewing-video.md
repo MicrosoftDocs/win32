@@ -1,13 +1,20 @@
 ---
 title: Previewing Video
 description: Previewing Video
-ms.assetid: '33ae7d07-5fea-47d7-b60d-4ee412e91dec'
-keywords: ["capPreview macro", "capPreviewRate macro"]
+ms.assetid: 33ae7d07-5fea-47d7-b60d-4ee412e91dec
+keywords:
+- capPreview macro
+- capPreviewRate macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Previewing Video
 
-The following example uses the [**capPreviewRate**](cappreviewrate.md) macro to set the frame display rate for preview mode to 66 milliseconds per frame and then uses the [**capPreview**](cappreview.md) macro to place the capture window in preview mode.
+The following example uses the [**capPreviewRate**](/windows/win32/Vfw/nf-vfw-cappreviewrate?branch=master) macro to set the frame display rate for preview mode to 66 milliseconds per frame and then uses the [**capPreview**](/windows/win32/Vfw/nf-vfw-cappreview?branch=master) macro to place the capture window in preview mode.
 
 
 ```C++

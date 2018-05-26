@@ -1,7 +1,12 @@
 ---
 Description: Mapi32 Stub Library
-ms.assetid: '7D45E60B-0B38-4837-91A8-D66D3357C167'
+ms.assetid: 7D45E60B-0B38-4837-91A8-D66D3357C167
 title: Mapi32 Stub Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapi32 Stub Library
@@ -44,7 +49,7 @@ The stub DLL version number is set to 1.0 so that subsequent applications can in
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -59,9 +64,9 @@ The stub DLL version number is set to 1.0 so that subsequent applications can in
 [Setting Up the MSI Keys for Your MAPI DLL](setting-up-the-msi-keys-for-your-mapi-dll.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

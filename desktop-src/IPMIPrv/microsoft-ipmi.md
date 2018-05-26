@@ -4,13 +4,17 @@ description: Contains methods which issue commands to a device that has an imple
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '525f8cc6-9d5b-4370-9a24-e49ec5424258'
-ms.prod: 'windows-server-dev'
+ms.assetid: 525f8cc6-9d5b-4370-9a24-e49ec5424258
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WMI IPMI driver class", "IPMI driver WS-Management", "Microsoft_IPMI class", "Microsoft_IPMI class, described"]
+keywords:
+- WMI IPMI driver class
+- IPMI driver WS-Management
+- Microsoft_IPMI class
+- Microsoft_IPMI class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +25,9 @@ api_location:
 - IpmiDrv.sys
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Microsoft\_IPMI class
@@ -35,7 +42,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("WMIProv"), Dynamic]
 class Microsoft_IPMI
 {
-  uint8  BMCAddress;
+  uint8  BMCAddress;
   string InstanceName;
 };
 ```
@@ -61,7 +68,7 @@ The **Microsoft\_IPMI** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -101,8 +108,8 @@ BMC name.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | DLL<br/>                      | <dl> <dt>IpmiDrv.sys</dt> </dl> |
 
@@ -115,9 +122,9 @@ BMC name.
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,11 @@
 ---
-ms.assetid: '851d5769-368b-4aa7-b4c2-68e38a44d511'
+ms.assetid: 851d5769-368b-4aa7-b4c2-68e38a44d511
 title: Function Discovery Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Discovery Providers

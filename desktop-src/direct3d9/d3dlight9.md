@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a set of lighting properties.'
-ms.assetid: '25ce9d72-949c-41fc-8e3b-146d6a2de0dc'
+---
+Description: Defines a set of lighting properties.
+ms.assetid: 25ce9d72-949c-41fc-8e3b-146d6a2de0dc
 title: D3DLIGHT9 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DLIGHT9 structure
@@ -197,10 +202,10 @@ Angle, in radians, defining the outer edge of the spotlight's outer cone. Points
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLight**](idirect3ddevice9--getlight.md)
+[**GetLight**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getlight?branch=master)
 </dt> <dt>
 
-[**SetLight**](idirect3ddevice9--setlight.md)
+[**SetLight**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setlight?branch=master)
 </dt> </dl>
 
  

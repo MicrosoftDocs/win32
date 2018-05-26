@@ -4,11 +4,15 @@ description: This section describes the application types in a failover clusteri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc357bb1-7a8a-494d-bdd1-5af2d9f07065'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fc357bb1-7a8a-494d-bdd1-5af2d9f07065
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["application types Failover Cluster"]
+keywords:
+- application types Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Application Types

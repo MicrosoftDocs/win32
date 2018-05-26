@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDriverDMS function
-ms.assetid: '261d4dbc-6374-4b11-80a0-64b0a2fc6abe'
+ms.assetid: 261d4dbc-6374-4b11-80a0-64b0a2fc6abe
 title: OEMDriverDMS function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDriverDMS function

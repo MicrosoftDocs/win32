@@ -4,9 +4,9 @@ description: Constants used to refer to license properties when calling IpcGetLi
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '553CDB31-F7AC-4BFA-B34A-D5D113A6557A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 553CDB31-F7AC-4BFA-B34A-D5D113A6557A
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -30,6 +30,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # License property types
@@ -77,7 +80,7 @@ For [**IpcGetLicenseProperty**](ipcgetlicenseproperty.md) and [**IpcGetSerialize
 > -   Setting the value to 0 will require the application to connect to the server each time content is consumed.
 > -   If this value is not set in the license, [**IpcGetLicenseProperty**](ipcgetlicenseproperty.md) will return **IPCERROR\_LICENSE\_INTERVAL\_TIME\_NOT\_SET**.
 
- 
+ 
 
 When using this property with the [**IpcGetSerializedLicenseProperty**](ipcgetserializedlicenseproperty.md) function, the *hKey* parameter is required.
 
@@ -161,7 +164,7 @@ Setting this property to **TRUE**:
 
 -   Allows you to generate licenses compatible with the MSDRM library.
 -   May cause your application to protect content in a way that does not conform to your customers' standards for content protection.
--   Will prevent your application from benefitting from any cryptographic enhancements added to RMS SDK 2.1 going forward.
+-   Will prevent your application from benefitting from any cryptographic enhancements added to RMS SDK 2.1 going forward.
 
 For [**IpcSetLicenseProperty**](ipcsetlicenseproperty.md), the *ppvProperty* parameter is a pointer to type **const BOOL**.
 
@@ -172,7 +175,7 @@ When using this property with the [**IpcGetSerializedLicenseProperty**](ipcgetse
 > [!Note]  
 > License buffer data is encoded in UTF8 when using the default flags and UTF16 when using the **IPC\_LI\_DEPRECATED\_ENCRYPTION\_ALGORITHMS** flag.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -353,15 +356,15 @@ For constants used to set the encryption package, see [**Preferred encryption**]
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Boolean &lt;isSearchOnlyItem&gt; element specifies whether the search provider supports browse mode in addition to search mode. This element is optional and has no child elements and no attributes.'
-ms.assetid: 'eec1b735-ae78-48ef-8ebf-05b9fd038963'
-title: 'isSearchOnlyItem Element (Search Connector Schema)'
+Description: The Boolean &lt;isSearchOnlyItem&gt; element specifies whether the search provider supports browse mode in addition to search mode. This element is optional and has no child elements and no attributes.
+ms.assetid: eec1b735-ae78-48ef-8ebf-05b9fd038963
+title: isSearchOnlyItem Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # isSearchOnlyItem Element (Search Connector Schema)

@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_LogicalFileAuditing association WMI class relates the security settings of a file or directory and one member of its system access control list (SACL).'
+Description: The Win32\_LogicalFileAuditing association WMI class relates the security settings of a file or directory and one member of its system access control list (SACL).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8cd0b967-2cfd-4888-9567-4ee7088171cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8cd0b967-2cfd-4888-9567-4ee7088171cd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalFileAuditing class'
+title: Win32\_LogicalFileAuditing class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalFileAuditing class
@@ -22,13 +25,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("SECRCW32"), UUID("{FCC86599-DB20-11d2-85FC-0000F8102E5F}"), AMENDMENT]
 class Win32_LogicalFileAuditing : Win32_SecuritySettingAuditing
 {
-  uint32                               AuditedAccessMask;
-  string                               GuidInheritedObjectType;
-  string                               GuidObjectType;
-  uint32                               Inheritance;
-  uint32                               Type;
+  uint32                               AuditedAccessMask;
+  string                               GuidInheritedObjectType;
+  string                               GuidObjectType;
+  uint32                               Inheritance;
+  uint32                               Type;
   Win32_LogicalFileSecuritySetting REF SecuritySetting;
-  Win32_SID                        REF Trustee;
+  Win32_SID                        REF Trustee;
 };
 ```
 
@@ -333,8 +336,8 @@ The **Win32\_LogicalFileAuditing** class is derived from [**Win32\_SecuritySetti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -354,9 +357,9 @@ The **Win32\_LogicalFileAuditing** class is derived from [**Win32\_SecuritySetti
 [WMI Security Descriptor Objects](https://msdn.microsoft.com/library/aa394577)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

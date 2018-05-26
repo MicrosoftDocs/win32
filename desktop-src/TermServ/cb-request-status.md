@@ -4,11 +4,12 @@ description: Specifies the status of an asynchronous request.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '35FAC8EA-BA17-405F-AE10-33A816029F62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 35FAC8EA-BA17-405F-AE10-33A816029F62
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CB_REQUEST_STATUS enumeration Remote Desktop Services"]
+keywords:
+- CB_REQUEST_STATUS enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Cbclient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # CB\_REQUEST\_STATUS enumeration
@@ -28,8 +32,8 @@ Specifies the status of an asynchronous request. This enumeration is used with t
 
 ```C++
 typedef enum _CB_REQUEST_STATUS { 
-  CB_STATUS_INVALID                     = 1,
-  CB_STATUS_INITIATING_REQUEST          = 0,
+  CB_STATUS_INVALID                     = 1,
+  CB_STATUS_INITIATING_REQUEST          = 0,
   CB_STATUS_REQUEST_COMPLETED,
   CB_STATUS_REQUEST_FAILED,
   CB_STATUS_REQUEST_ABORTED,
@@ -115,8 +119,8 @@ Not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Cbclient.h</dt> </dl> |
 
 
@@ -128,9 +132,9 @@ Not used.
 [**IConnectionBrokerRequest::CheckStatus**](iconnectionbrokerrequest-checkstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

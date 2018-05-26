@@ -1,13 +1,16 @@
 ---
-Description: 'Includes properties that control how domains are enumerated.'
+Description: Includes properties that control how domains are enumerated.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5db6c38a-0cbf-46c9-8a90-dbd401d3b015'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5db6c38a-0cbf-46c9-8a90-dbd401d3b015
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Microsoft\_TrustProvider class'
+title: Microsoft\_TrustProvider class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Microsoft\_TrustProvider class
@@ -20,9 +23,9 @@ The Microsoft\_TrustProvider [WMI class](https://msdn.microsoft.com/library/aa39
 [singleton]
 class Microsoft_TrustProvider
 {
-  uint32  TrustListLifetime;
-  uint32  TrustStatusLifetime;
-  uint32  TrustCheckLevel;
+  uint32  TrustListLifetime;
+  uint32  TrustStatusLifetime;
+  uint32  TrustCheckLevel;
   boolean ReturnAll;
 };
 ```
@@ -128,7 +131,7 @@ Time in minutes to cache the last request for status.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\microsoftactivedirectory<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Trustmon.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Trustmon.dll</dt> </dl> |
@@ -148,9 +151,9 @@ Time in minutes to cache the last request for status.
 [Trustmon Provider](trustmon-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

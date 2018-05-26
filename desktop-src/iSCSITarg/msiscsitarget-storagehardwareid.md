@@ -4,13 +4,15 @@ description: Represents a hardware ID that serves as an authorization subject.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '87830477-bc05-4763-98be-eb10c7589810'
-ms.prod: 'windows-server-dev'
+ms.assetid: 87830477-bc05-4763-98be-eb10c7589810
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_StorageHardwareID class iSCSI Software Target API", "MSISCSITARGET_StorageHardwareID class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_StorageHardwareID class iSCSI Software Target API
+- MSISCSITARGET_StorageHardwareID class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_StorageHardwareID class
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Version("1.0.0")]
 class MSISCSITARGET_StorageHardwareID : CIM_StorageHardwareID
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean CurrentlyAuthenticated = FALSE;
-  string  StorageID;
-  uint16  IDType;
-  string  OtherIDType;
+  string  StorageID;
+  uint16  IDType;
+  string  OtherIDType;
 };
 ```
 
@@ -255,7 +260,7 @@ This property is inherited from [**CIM\_StorageHardwareID**](cim-storagehardware
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -272,9 +277,9 @@ This property is inherited from [**CIM\_StorageHardwareID**](cim-storagehardware
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

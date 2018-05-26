@@ -1,8 +1,15 @@
 ---
 title: Allowing Incoming Echo Requests
 description: Allowing Incoming Echo Requests
-ms.assetid: '353fd3da-2885-40e5-8241-2971b6a26554'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 353fd3da-2885-40e5-8241-2971b6a26554
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Allowing Incoming Echo Requests

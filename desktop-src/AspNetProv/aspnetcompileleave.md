@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the CompileLeave event.'
+---
+Description: The event type class for the CompileLeave event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '45145335-d0c4-43f6-bcbf-6fc1eb64f2f8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 45145335-d0c4-43f6-bcbf-6fc1eb64f2f8
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetCompileLeave class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetCompileLeave class

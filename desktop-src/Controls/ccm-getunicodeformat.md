@@ -1,8 +1,9 @@
 ---
 title: CCM\_GETUNICODEFORMAT message
 description: Gets the Unicode character format flag for the control.
-ms.assetid: '8a23cd1c-549e-4d48-891a-b37dbf5c524b'
-keywords: ["CCM_GETUNICODEFORMAT message Windows Controls"]
+ms.assetid: 8a23cd1c-549e-4d48-891a-b37dbf5c524b
+keywords:
+- CCM_GETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCM\_GETUNICODEFORMAT message
@@ -37,8 +43,8 @@ Returns the Unicode format flag for the control. If this value is nonzero, the c
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns the Unicode format flag for the control. If this value is nonzero, the c
 [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Top-Down vs.'
-ms.assetid: 'c292f145-f385-4f18-8f98-e414d86860e2'
-title: 'Top-Down vs. Bottom-Up DIBs'
+Description: Top-Down vs.
+ms.assetid: c292f145-f385-4f18-8f98-e414d86860e2
+title: Top-Down vs. Bottom-Up DIBs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Top-Down vs. Bottom-Up DIBs
@@ -16,7 +21,7 @@ In a top-down DIB, the order of the rows is reversed. The top row of the image i
 
 ![top-down dib](images/pixel-layout-topdown.png)
 
-For RGB DIBs, the image orientation is indicated by the **biHeight** member of the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure. If **biHeight** is positive, the image is bottom-up. If **biHeight** is negative, the image is top-down.
+For RGB DIBs, the image orientation is indicated by the **biHeight** member of the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure. If **biHeight** is positive, the image is bottom-up. If **biHeight** is negative, the image is top-down.
 
 DIBs in YUV formats are always top-down, and the sign of the **biHeight** member is ignored. Decoders should offer YUV formats with positive **biHeight**, but they should also accept YUV formats with negative **biHeight** and ignore the sign.
 

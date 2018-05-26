@@ -4,11 +4,15 @@ description: To control access to application objects, work with the object secu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cfcb0998-4400-45cd-bbee-415d43b96a99'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cfcb0998-4400-45cd-bbee-415d43b96a99
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["object AD ,controlling access to"]
+keywords:
+- object AD ,controlling access to
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Controlling Access to Objects and Their Properties

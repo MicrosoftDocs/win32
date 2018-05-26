@@ -2,13 +2,16 @@
 title: SetByDisableLoadBalancing method of the PS\_RemoteAccessLoadBalancer class
 description: This cmdlet does the following1.
 audience: developer
-ms.assetid: '6d5351f5-5076-41b5-992a-e3416235e701'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6d5351f5-5076-41b5-992a-e3416235e701
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByDisableLoadBalancing method", "SetByDisableLoadBalancing method, PS_RemoteAccessLoadBalancer class", "PS_RemoteAccessLoadBalancer class, SetByDisableLoadBalancing method"]
+keywords:
+- SetByDisableLoadBalancing method
+- SetByDisableLoadBalancing method, PS_RemoteAccessLoadBalancer class
+- PS_RemoteAccessLoadBalancer class, SetByDisableLoadBalancing method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByDisableLoadBalancing method of the PS\_RemoteAccessLoadBalancer class
@@ -28,11 +34,11 @@ This cmdlet does the following1. Configures load balancing clusters on the inter
 
 ```mof
 uint32 SetByDisableLoadBalancing(
-  [in]  boolean                  Disable,
-  [in]  string                   ComputerName,
-  [in]  boolean                  Force,
-  [in]  boolean                  PassThru,
-  [out] RemoteAccessLoadBalancer cmdletOutput
+  [in]  boolean                  Disable,
+  [in]  string                   ComputerName,
+  [in]  boolean                  Force,
+  [in]  boolean                  PassThru,
+  [out] RemoteAccessLoadBalancer cmdletOutput
 );
 ```
 
@@ -88,7 +94,7 @@ Returns the remote access load balancer configuration object. By default this cm
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -102,9 +108,9 @@ Returns the remote access load balancer configuration object. By default this cm
 [**PS\_RemoteAccessLoadBalancer**](ps-remoteaccessloadbalancer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

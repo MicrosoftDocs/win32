@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Keyboard class represents the capabilities and management of the keyboard logical device.'
+Description: The CIM\_Keyboard class represents the capabilities and management of the keyboard logical device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c465a731-03dd-4418-8b16-96dc2c8b60b5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c465a731-03dd-4418-8b16-96dc2c8b60b5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Keyboard class'
+title: CIM\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Keyboard class
@@ -19,7 +22,7 @@ The **CIM\_Keyboard** class represents the capabilities and management of the ke
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,29 +32,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C534-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_Keyboard : CIM_UserDevice
 {
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  boolean  IsLocked;
-  uint32   LastErrorCode;
-  string   Layout;
-  string   Name;
-  uint16   NumberOfFunctionKeys;
-  uint16   Password;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  boolean  IsLocked;
+  uint32   LastErrorCode;
+  string   Layout;
+  string   Name;
+  uint16   NumberOfFunctionKeys;
+  uint16   Password;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -75,7 +78,7 @@ The **CIM\_Keyboard** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1248,8 +1251,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1263,9 +1266,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_UserDevice**](cim-userdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

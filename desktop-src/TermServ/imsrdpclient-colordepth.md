@@ -1,14 +1,35 @@
 ---
 title: IMsRdpClient ColorDepth property
-description: The color depth (in bits per pixel) for the control's connection.
+description: The color depth (in bits per pixel) for the controls connection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9ba4d8fe-20cd-40e9-a71a-0dce0ddd29fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9ba4d8fe-20cd-40e9-a71a-0dce0ddd29fc
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ColorDepth property Remote Desktop Services", "ColorDepth property Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , ColorDepth property", "ColorDepth property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , ColorDepth property"]
+keywords:
+- ColorDepth property Remote Desktop Services
+- ColorDepth property Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , ColorDepth property
+- ColorDepth property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , ColorDepth property
 topic_type:
 - apiref
 api_name:
@@ -46,6 +67,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient::ColorDepth property
@@ -59,11 +83,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ColorDepth(
-  [in]  LONG colorDepth
+  [in]  LONG colorDepth
 );
 
 HRESULT get_ColorDepth(
-  [out] LONG pcolorDepth
+  [out] LONG pcolorDepth
 );
 ```
 
@@ -89,8 +113,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient is defined as 92b4a539-7115-4b7c-a5a9-e5d9efc2780a<br/>        |
@@ -131,9 +155,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

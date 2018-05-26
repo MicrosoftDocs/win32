@@ -1,7 +1,12 @@
 ---
 title: To write text for pop-up windows
 description: To write text for pop-up windows
-ms.assetid: '6296E486-11E2-4757-9009-B9FF7382F098'
+ms.assetid: 6296E486-11E2-4757-9009-B9FF7382F098
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To write text for pop-up windows

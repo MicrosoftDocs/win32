@@ -1,14 +1,20 @@
 ---
 title: ID2D1RenderTarget SetTransform methods
 description: Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.
-ms.assetid: '04799366-6458-40ff-a2fb-5d227eab041d'
-keywords: ["SetTransform methods Direct2D"]
+ms.assetid: 04799366-6458-40ff-a2fb-5d227eab041d
+keywords:
+- SetTransform methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1RenderTarget::SetTransform methods
@@ -21,8 +27,8 @@ Applies the specified transform to the render target, replacing the existing tra
 
 | Method                                                                                              | Description                                                                                                                                                                |
 |:----------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SetTransform(D2D1\_MATRIX\_3X2\_F&)**](id2d1rendertarget-settransform-ref-d2d-matrix-3x2-f.md)  | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space. <br/> |
-| [**SetTransform(D2D1\_MATRIX\_3X2\_F\*)**](id2d1rendertarget-settransform-ptr-d2d-matrix-3x2-f.md) | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.<br/>  |
+| [**SetTransform(D2D1\_MATRIX\_3X2\_F&)**](/windows/win32/d2d1/?branch=master)  | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space. <br/> |
+| [**SetTransform(D2D1\_MATRIX\_3X2\_F\*)**](/windows/win32/d2d1/?branch=master) | Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.<br/>  |
 
 
 
@@ -59,7 +65,7 @@ For additional examples showing how to transform a render target, see [How to Sc
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](id2d1rendertarget.md)
+[**ID2D1RenderTarget**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
 [Transforms Overview](direct2d-transforms-overview.md)
@@ -80,9 +86,9 @@ For additional examples showing how to transform a render target, see [How to Sc
 [How to Apply Multiple Transforms to an Object](how-to-apply-multiple-transforms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

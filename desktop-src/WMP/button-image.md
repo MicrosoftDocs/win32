@@ -1,14 +1,20 @@
 ---
 title: BUTTON.image
 description: The image attribute specifies or retrieves the default image of the BUTTON.
-ms.assetid: 'd0d97f14-2c4d-4769-b45c-c6cde7282bea'
-keywords: ["BUTTON.image Windows Media Player"]
+ms.assetid: d0d97f14-2c4d-4769-b45c-c6cde7282bea
+keywords:
+- BUTTON.image Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTON.image
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON.image
@@ -50,9 +56,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

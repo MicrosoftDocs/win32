@@ -1,8 +1,43 @@
 ---
 title: Features Added in the Windows Media 9.5 SDK
 description: Features Added in the Windows Media 9.5 SDK
-ms.assetid: '1525132c-8aa1-42bb-9552-41531fb83055'
-keywords: ["Windows Media Format SDK,features", "Windows Media Format SDK,new features", "Windows Media Format SDK,interface for application-specific processing", "Windows Media Format SDK,DirectX Video Acceleration (DXVA)", "Windows Media Format SDK,IWMPlayerHook interface", "IWMPlayerHook", "Windows Media Format SDK,x64-based versions of Windows", "Windows Media Format SDK,Windows Media Video Image codec", "Windows Media Format SDK,audio codecs", "Windows Media Format SDK,DRM 10 for Network Devices", "Windows Media Format SDK,DRM licenses", "Windows Media Format SDK,Advanced Profile codec", "Windows Media Format SDK,Sony/Philips Digital Interconnect Format (S/PDIF)", "Windows Media Format SDK,low-delay formats", "Windows Media Format SDK,approximate seeking mode", "Windows Media Format SDK,playlist burning", "Windows Media Format SDK,multiple language support", "Windows Media Format SDK,Windows Media Device Manager SDK", "Windows Media Format SDK,codec interfaces", "codecs,Windows Media Video Image", "digital rights management (DRM),Network Devices secure transfer protocol", "DRM (digital rights management),Network Devices secure transfer protocol", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "codecs,Advanced Profile codec", "Sony/Philips Digital Interconnect Format (S/PDIF),transferring or transmitting using", "S/PDIF (Sony/Philips Digital Interconnect Format),transferring or transmitting using", "approximate seeking mode", "metadata,multiple-language support", "Windows Media Device Manager SDK"]
+ms.assetid: 1525132c-8aa1-42bb-9552-41531fb83055
+keywords:
+- Windows Media Format SDK,features
+- Windows Media Format SDK,new features
+- Windows Media Format SDK,interface for application-specific processing
+- Windows Media Format SDK,DirectX Video Acceleration (DXVA)
+- Windows Media Format SDK,IWMPlayerHook interface
+- IWMPlayerHook
+- Windows Media Format SDK,x64-based versions of Windows
+- Windows Media Format SDK,Windows Media Video Image codec
+- Windows Media Format SDK,audio codecs
+- Windows Media Format SDK,DRM 10 for Network Devices
+- Windows Media Format SDK,DRM licenses
+- Windows Media Format SDK,Advanced Profile codec
+- Windows Media Format SDK,Sony/Philips Digital Interconnect Format (S/PDIF)
+- Windows Media Format SDK,low-delay formats
+- Windows Media Format SDK,approximate seeking mode
+- Windows Media Format SDK,playlist burning
+- Windows Media Format SDK,multiple language support
+- Windows Media Format SDK,Windows Media Device Manager SDK
+- Windows Media Format SDK,codec interfaces
+- codecs,Windows Media Video Image
+- digital rights management (DRM),Network Devices secure transfer protocol
+- DRM (digital rights management),Network Devices secure transfer protocol
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- codecs,Advanced Profile codec
+- Sony/Philips Digital Interconnect Format (S/PDIF),transferring or transmitting using
+- S/PDIF (Sony/Philips Digital Interconnect Format),transferring or transmitting using
+- approximate seeking mode
+- metadata,multiple-language support
+- Windows Media Device Manager SDK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Features Added in the Windows Media 9.5 SDK
@@ -11,10 +46,10 @@ The Windows Media Format 9.5 SDK introduced new features to provide enhanced con
 
 ## New Interface for Application-specific Processing During DirectX Video Acceleration
 
-Player applications that support DirectX Video Acceleration can now implement the [**IWMPlayerHook**](iwmplayerhook.md) interface to perform application-specific processing during DirectX VA decoding. The reader calls the [**IWMPLayerHook::PreDecode**](iwmplayerhook-predecode.md) callback method before passing compressed video samples to the video processor for decoding.
+Player applications that support DirectX Video Acceleration can now implement the [**IWMPlayerHook**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmplayerhook?branch=master) interface to perform application-specific processing during DirectX VA decoding. The reader calls the [**IWMPLayerHook::PreDecode**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmplayerhook-predecode?branch=master) callback method before passing compressed video samples to the video processor for decoding.
 
 > [!Note]  
-> To use the **IWMPlayerHook** interface and the associated [**IWMReaderAdvanced5**](iwmreaderadvanced5.md) interface, you must have update number 888656 installed in the Windows Media Format SDK. You can download the update from the [Microsoft Web site](http://go.microsoft.com/fwlink/p/?linkid=47910).
+> To use the **IWMPlayerHook** interface and the associated [**IWMReaderAdvanced5**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5?branch=master) interface, you must have update number 888656 installed in the Windows Media Format SDK. You can download the update from the [Microsoft Web site](http://go.microsoft.com/fwlink/p/?linkid=47910).
 
  
 

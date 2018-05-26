@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.alphaBlendTo
 description: The alphaBlendTo method adjusts the alphaBlend property over a period of time.
-ms.assetid: '5cb259bd-3010-4086-be9d-65022be297b7'
-keywords: ["AmbientAttributes.alphaBlendTo Windows Media Player"]
+ms.assetid: 5cb259bd-3010-4086-be9d-65022be297b7
+keywords:
+- AmbientAttributes.alphaBlendTo Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.alphaBlendTo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.alphaBlendTo
@@ -50,7 +56,7 @@ When you use **alphaBlendTo** with a **TEXT** element that does not have the **b
 > [!Note]  
 > This attribute is not supported in Windows 98.
 
- 
+ 
 
 ## Requirements
 
@@ -81,9 +87,9 @@ When you use **alphaBlendTo** with a **TEXT** element that does not have the **b
 [**TEXT.foregroundColor**](text-foregroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

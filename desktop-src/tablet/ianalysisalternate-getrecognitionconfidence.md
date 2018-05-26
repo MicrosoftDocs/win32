@@ -1,7 +1,12 @@
 ---
-Description: 'Gets a value that indicates the level of confidence that the IInkAnalyzer has in the accuracy of the IAnalysisAlternate.'
-ms.assetid: 'ac1c68df-2e0c-4633-b7ee-519482a4d67a'
-title: 'IAnalysisAlternate::GetRecognitionConfidence method'
+Description: Gets a value that indicates the level of confidence that the IInkAnalyzer has in the accuracy of the IAnalysisAlternate.
+ms.assetid: ac1c68df-2e0c-4633-b7ee-519482a4d67a
+title: IAnalysisAlternateGetRecognitionConfidence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisAlternate::GetRecognitionConfidence method
@@ -13,7 +18,7 @@ Gets a value that indicates the level of confidence that the [**IInkAnalyzer**](
 
 ```C++
 HRESULT GetRecognitionConfidence(
-  [out] RecognitionConfidence *pConfidence
+  [out] RecognitionConfidence *pConfidence
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT GetRecognitionConfidence(
 *pConfidence* \[out\]
 </dt> <dd>
 
-A pointer to an [**InkRecognitionConfidence Enumeration**](inkrecognitionconfidence.md) that indicates the level of confidence that the [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) has in the accuracy of the recognition alternate.
+A pointer to an [**InkRecognitionConfidence Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkrecognitionconfidence?branch=master) that indicates the level of confidence that the [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) has in the accuracy of the recognition alternate.
 
 </dd> </dl>
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -66,9 +71,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

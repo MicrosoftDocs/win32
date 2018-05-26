@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the UseDeviceTsid property for a FaxServer object. The UseDeviceTsid property is a Boolean value that indicates whether the fax server uses the device''s transmitting station identifier (TSID) instead of a user-specified TSID.'
-ms.assetid: 'c0ab5267-7867-4587-b5ac-f8500bcfb64a'
-title: 'FaxServer.UseDeviceTsid property'
+---
+Description: Sets or retrieves the UseDeviceTsid property for a FaxServer object. The UseDeviceTsid property is a Boolean value that indicates whether the fax server uses the devices transmitting station identifier (TSID) instead of a user-specified TSID.
+ms.assetid: c0ab5267-7867-4587-b5ac-f8500bcfb64a
+title: FaxServer.UseDeviceTsid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.UseDeviceTsid property

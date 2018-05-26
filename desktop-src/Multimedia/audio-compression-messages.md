@@ -1,8 +1,21 @@
 ---
 title: Audio Compression Messages
 description: Audio Compression Messages
-ms.assetid: 'ca96ac63-a215-4983-b340-f33e3777391c'
-keywords: ["multimedia audio,ACM messages", "audio,ACM messages", "audio compression manager (ACM),messages", "ACM (audio compression manager),messages", "ACM reference,messages", "reference for ACM,messages", "ACM messages", "audio compression,messages"]
+ms.assetid: ca96ac63-a215-4983-b340-f33e3777391c
+keywords:
+- multimedia audio,ACM messages
+- audio,ACM messages
+- audio compression manager (ACM),messages
+- ACM (audio compression manager),messages
+- ACM reference,messages
+- reference for ACM,messages
+- ACM messages
+- audio compression,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Compression Messages

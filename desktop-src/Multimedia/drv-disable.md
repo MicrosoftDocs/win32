@@ -1,8 +1,9 @@
 ---
 title: DRV\_DISABLE message
 description: Disables the driver. The driver should place the corresponding device, if any, in an inactive state and terminate any callback functions or threads.
-ms.assetid: '83e99397-6f0e-4174-9f96-e10c1f17ef0b'
-keywords: ["DRV_DISABLE message Windows Multimedia"]
+ms.assetid: 83e99397-6f0e-4174-9f96-e10c1f17ef0b
+keywords:
+- DRV_DISABLE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRV\_DISABLE message
@@ -44,8 +50,8 @@ After disabling the driver, the system typically sends the driver a [**DRV\_FREE
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ After disabling the driver, the system typically sends the driver a [**DRV\_FREE
 [Installable Driver Messages](installable-driver-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

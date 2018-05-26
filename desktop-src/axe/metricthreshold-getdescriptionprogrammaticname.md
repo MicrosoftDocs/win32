@@ -1,8 +1,11 @@
 ---
 title: MetricThreshold GetDescriptionProgrammaticName method
 description: Returns the description programmatic name of the MetricThreshold.
-ms.assetid: 'EF033DA6-035C-4F22-B1DB-6FF27C295986'
-keywords: ["GetDescriptionProgrammaticName method Access Execution Engine", "GetDescriptionProgrammaticName method Access Execution Engine , MetricThreshold interface", "MetricThreshold interface Access Execution Engine , GetDescriptionProgrammaticName method"]
+ms.assetid: EF033DA6-035C-4F22-B1DB-6FF27C295986
+keywords:
+- GetDescriptionProgrammaticName method Access Execution Engine
+- GetDescriptionProgrammaticName method Access Execution Engine , MetricThreshold interface
+- MetricThreshold interface Access Execution Engine , GetDescriptionProgrammaticName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThreshold::GetDescriptionProgrammaticName method
@@ -22,7 +30,7 @@ Returns the description programmatic name of the **MetricThreshold**.
 
 ```C++
 virtual HRESULT GetDescriptionProgrammaticName(
-  [out] LPCWSTR *descriptionProgrammaticName
+  [out] LPCWSTR *descriptionProgrammaticName
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The description programmatic name is the value of element **MetricThreshold/Desc
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The description programmatic name is the value of element **MetricThreshold/Desc
 [**MetricThreshold**](metricthreshold-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

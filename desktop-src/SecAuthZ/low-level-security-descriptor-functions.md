@@ -1,7 +1,12 @@
 ---
-Description: 'Functions for setting and retrieving an object's security descriptor.'
-ms.assetid: '22bf0d6b-3ec6-4c28-ace4-49e48714f4bf'
-title: 'Low-level Security Descriptor Functions'
+Description: Functions for setting and retrieving an objects security descriptor.
+ms.assetid: 22bf0d6b-3ec6-4c28-ace4-49e48714f4bf
+title: Low-level Security Descriptor Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Low-level Security Descriptor Functions
@@ -29,7 +34,7 @@ There are several pairs of low-level functions for setting and retrieving an obj
 <li>Mailslots</li>
 <li>[Named pipes](https://msdn.microsoft.com/library/windows/desktop/aa365600)</li>
 </ul></td>
-<td>Use the [<strong>GetFileSecurity</strong>](getfilesecurity.md) and [<strong>SetFileSecurity</strong>](setfilesecurity.md) functions. These functions use character strings to identify the securable object, instead of using handles.</td>
+<td>Use the [<strong>GetFileSecurity</strong>](/windows/win32/Winbase/nf-winbase-getfilesecuritya?branch=master) and [<strong>SetFileSecurity</strong>](/windows/win32/Winbase/nf-winbase-setfilesecuritya?branch=master) functions. These functions use character strings to identify the securable object, instead of using handles.</td>
 </tr>
 <tr class="even">
 <td><ul>
@@ -49,19 +54,19 @@ There are several pairs of low-level functions for setting and retrieving an obj
 <li>[Window stations](https://msdn.microsoft.com/library/windows/desktop/ms687391)</li>
 <li>[Desktops](https://msdn.microsoft.com/library/windows/desktop/ms682575)</li>
 </ul></td>
-<td>Use the [<strong>GetUserObjectSecurity</strong>](getuserobjectsecurity.md) and [<strong>SetUserObjectSecurity</strong>](setuserobjectsecurity.md) functions.</td>
+<td>Use the [<strong>GetUserObjectSecurity</strong>](/windows/win32/Winuser/nf-winuser-getuserobjectsecurity?branch=master) and [<strong>SetUserObjectSecurity</strong>](/windows/win32/Winuser/nf-winuser-setuserobjectsecurity?branch=master) functions.</td>
 </tr>
 <tr class="even">
 <td><ul>
 <li>[Registry keys](https://msdn.microsoft.com/library/windows/desktop/ms724878)</li>
 </ul></td>
-<td>Use the [<strong>RegGetKeySecurity</strong>](reggetkeysecurity.md) and [<strong>RegSetKeySecurity</strong>](regsetkeysecurity.md) functions.</td>
+<td>Use the [<strong>RegGetKeySecurity</strong>](/windows/win32/Winreg/nf-winreg-reggetkeysecurity?branch=master) and [<strong>RegSetKeySecurity</strong>](/windows/win32/Winreg/nf-winreg-regsetkeysecurity?branch=master) functions.</td>
 </tr>
 <tr class="odd">
 <td><ul>
 <li>[Windows service objects](https://msdn.microsoft.com/library/windows/desktop/ms685981)</li>
 </ul></td>
-<td>Use the [<strong>QueryServiceObjectSecurity</strong>](queryserviceobjectsecurity.md) and [<strong>SetServiceObjectSecurity</strong>](setserviceobjectsecurity.md) functions.</td>
+<td>Use the [<strong>QueryServiceObjectSecurity</strong>](/windows/win32/Winsvc/nf-winsvc-queryserviceobjectsecurity?branch=master) and [<strong>SetServiceObjectSecurity</strong>](/windows/win32/Winsvc/nf-winsvc-setserviceobjectsecurity?branch=master) functions.</td>
 </tr>
 <tr class="even">
 <td><ul>

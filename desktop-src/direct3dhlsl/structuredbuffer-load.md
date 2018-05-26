@@ -1,12 +1,18 @@
 ---
 title: StructuredBuffer Load methods
 description: Reads buffer data from a StructuredBuffer.
-ms.assetid: '4162C550-4921-4A49-B812-886B9C9ADFF8'
-keywords: ["Load methods HLSL"]
+ms.assetid: 4162C550-4921-4A49-B812-886B9C9ADFF8
+keywords:
+- Load methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StructuredBuffer::Load methods
@@ -31,9 +37,9 @@ Reads buffer data from a [**StructuredBuffer**](sm5-object-structuredbuffer.md).
 [StructuredBuffer](sm5-object-structuredbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

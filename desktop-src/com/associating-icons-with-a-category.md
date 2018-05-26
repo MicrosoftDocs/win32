@@ -1,7 +1,12 @@
 ---
 title: Associating Icons with a Category
 description: Associating Icons with a Category
-ms.assetid: '5e5c3c10-07cf-4a34-9822-97ec940b3117'
+ms.assetid: 5e5c3c10-07cf-4a34-9822-97ec940b3117
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Associating Icons with a Category
@@ -40,10 +45,10 @@ The filename referenced by the [ToolBoxBitmap32](toolboxbitmap32.md) key can als
 [Defining Component Categories](defining-component-categories.md)
 </dt> <dt>
 
-[**ICatInformation**](icatinformation.md)
+[**ICatInformation**](/windows/win32/ComCat/nn-comcat-icatinformation?branch=master)
 </dt> <dt>
 
-[**ICatRegister**](icatregister.md)
+[**ICatRegister**](/windows/win32/ComCat/nn-comcat-icatregister?branch=master)
 </dt> <dt>
 
 [The Component Categories Manager](the-component-categories-manager.md)

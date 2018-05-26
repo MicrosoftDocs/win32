@@ -1,7 +1,12 @@
 ---
 title: Enumerating the Content of a Service or a Storage
 description: There are two ways to enumerate the child objects contained in the childrenCollection of a parent WPDObject retrieving a collection of all children from the Children property, and retrieving a collection of children by calling the GetChildrenByFormat method.
-ms.assetid: 'd6f63c24-ee53-4fe0-9307-526ac044777b'
+ms.assetid: d6f63c24-ee53-4fe0-9307-526ac044777b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating the Content of a Service or a Storage

@@ -1,7 +1,12 @@
 ---
 title: Get-TroubleshootingPack Cmdlet
 description: Gets information about a troubleshooting pack and can be used to generate an answer file.
-ms.assetid: 'd8b273d0-e679-46b0-adca-4492f29907a6'
+ms.assetid: d8b273d0-e679-46b0-adca-4492f29907a6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Get-TroubleshootingPack Cmdlet
@@ -52,7 +57,7 @@ You can specify this parameter or you can pipe the path to Get-TroubleshootingPa
 
 
 
- 
+ 
 
 ### -AnswerFile *String*
 
@@ -73,7 +78,7 @@ If the file exists, the cmdlet overwrites the file. If you specify a path, the p
 
 
 
- 
+ 
 
 ## Input and Return Types
 
@@ -86,7 +91,7 @@ The input type is the type of the objects that you can pipe to the cmdlet. The r
 
 
 
- 
+ 
 
 ## Notes
 
@@ -178,9 +183,9 @@ The following example shows how to use Get-TroubleshootingPack to generate an an
 
 **PS:&gt;$aero = Get-TroubleshootingPack C:\\Windows\\Diagnostics\\System\\Aero -Answer AeroAnswerFile.xml**
 
- 
+ 
 
- 
+ 
 
 
 

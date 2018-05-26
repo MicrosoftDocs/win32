@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised when the IMFMediaSession::Close method completes asynchronously.'
-ms.assetid: 'd1056ce7-5527-428a-8ace-e1c10a2124a5'
+---
+Description: Raised when the IMFMediaSessionClose method completes asynchronously.
+ms.assetid: d1056ce7-5527-428a-8ace-e1c10a2124a5
 title: MESessionClosed event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionClosed event
 
-Raised when the [**IMFMediaSession::Close**](imfmediasession-close.md) method completes asynchronously.
+Raised when the [**IMFMediaSession::Close**](/windows/win32/mfidl/nf-mfidl-imfmediasession-close?branch=master) method completes asynchronously.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

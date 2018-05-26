@@ -1,7 +1,12 @@
 ---
-Description: 'Expressions are mathematical or logical statements that are used on the right hand side of an equals sign. There are many types of expressions.'
-ms.assetid: '642aa188-5dd7-49fc-b6cc-845f8fc22530'
-title: 'Expressions (Direct3D 9)'
+Description: Expressions are mathematical or logical statements that are used on the right hand side of an equals sign. There are many types of expressions.
+ms.assetid: 642aa188-5dd7-49fc-b6cc-845f8fc22530
+title: Expressions (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Expressions (Direct3D 9)

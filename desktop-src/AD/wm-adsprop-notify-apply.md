@@ -4,11 +4,12 @@ description: An Active Directory directory service property sheet extension send
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3536054b-83ee-4cfa-ab54-c0af3a46289e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3536054b-83ee-4cfa-ab54-c0af3a46289e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WM_ADSPROP_NOTIFY_APPLY message Active Directory"]
+keywords:
+- WM_ADSPROP_NOTIFY_APPLY message Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WM\_ADSPROP\_NOTIFY\_APPLY message
@@ -41,7 +45,7 @@ WM_ADSPROP_NOTIFY_APPLY
 *hwnd* 
 </dt> <dd>
 
-The handle of the notification object. To obtain this handle, call [**ADsPropCreateNotifyObj**](adspropcreatenotifyobj.md).
+The handle of the notification object. To obtain this handle, call [**ADsPropCreateNotifyObj**](/windows/win32/Adsprop/nf-adsprop-adspropcreatenotifyobj?branch=master).
 
 </dd> <dt>
 
@@ -65,7 +69,7 @@ This message has no return value.
 
 ## Remarks
 
-When adding pages to the Active Directory Manager MMC snap-in, Active Directory MMC property sheets create the notification objects by a call to the [**ADsPropCreateNotifyObj**](adspropcreatenotifyobj.md) function, and then passes the notification object handle to each property page.
+When adding pages to the Active Directory Manager MMC snap-in, Active Directory MMC property sheets create the notification objects by a call to the [**ADsPropCreateNotifyObj**](/windows/win32/Adsprop/nf-adsprop-adspropcreatenotifyobj?branch=master) function, and then passes the notification object handle to each property page.
 
 ## Requirements
 
@@ -73,8 +77,8 @@ When adding pages to the Active Directory Manager MMC snap-in, Active Directory 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Adsprop.h</dt> </dl> |
 
 
@@ -83,15 +87,15 @@ When adding pages to the Active Directory Manager MMC snap-in, Active Directory 
 
 <dl> <dt>
 
-[**ADsPropCreateNotifyObj**](adspropcreatenotifyobj.md)
+[**ADsPropCreateNotifyObj**](/windows/win32/Adsprop/nf-adsprop-adspropcreatenotifyobj?branch=master)
 </dt> <dt>
 
 [Messages in Active Directory Domain Services](messages-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

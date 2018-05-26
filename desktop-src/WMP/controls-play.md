@@ -1,8 +1,11 @@
 ---
 title: Controls.play method
 description: The play method causes the current media item to start playing, or resumes play of a paused item.
-ms.assetid: '2218a13b-6294-45f5-bb6f-c5a1e433e0c6'
-keywords: ["play method Windows Media Player", "play method Windows Media Player , Controls class", "Controls class Windows Media Player , play method"]
+ms.assetid: 2218a13b-6294-45f5-bb6f-c5a1e433e0c6
+keywords:
+- play method Windows Media Player
+- play method Windows Media Player , Controls class
+- Controls class Windows Media Player , play method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.play method
@@ -76,9 +84,9 @@ The following example creates an HTML BUTTON element that uses **play** to play 
 [**Controls Object**](controls-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

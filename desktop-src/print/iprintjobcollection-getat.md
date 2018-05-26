@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to an IPrintJob object.'
-ms.assetid: 'B920E5D1-D565-4626-A15E-8500DFFBC9FF'
-title: 'IPrintJobCollection::GetAt method'
+---
+Description: Gets a pointer to an IPrintJob object.
+ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
+title: IPrintJobCollectionGetAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJobCollection::GetAt method

@@ -1,7 +1,12 @@
 ---
-Description: 'Beginning with Windows Installer 3.0, authors can add patch sequencing information to the patch package database in the MsiPatchSequence table.'
-ms.assetid: '9cdcb25f-2c3d-411e-9aae-bdd52df38a97'
+Description: Beginning with Windows Installer 3.0, authors can add patch sequencing information to the patch package database in the MsiPatchSequence table.
+ms.assetid: 9cdcb25f-2c3d-411e-9aae-bdd52df38a97
 title: Sequencing Patches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequencing Patches
@@ -17,8 +22,8 @@ The following are required to use the patch sequencing functionality.
 
 Windows Installer version 3.0 has the following functions that applications can use to determine the best patching sequence.
 
--   The [**MsiDeterminePatchSequence**](msideterminepatchsequence.md) function takes a list of patches and determines in what sequence they can be applied to an installed product. This function accounts for any patches or products that have already been installed on the system.
--   The [**MsiDetermineApplicablePatches**](msidetermineapplicablepatches.md) function takes a list of patches and determines in what sequence they can be applied to an installed product. This function does not account for any patches or products that have already been installed on the system.
+-   The [**MsiDeterminePatchSequence**](/windows/win32/Msi/nf-msi-msideterminepatchsequencea?branch=master) function takes a list of patches and determines in what sequence they can be applied to an installed product. This function accounts for any patches or products that have already been installed on the system.
+-   The [**MsiDetermineApplicablePatches**](/windows/win32/Msi/nf-msi-msidetermineapplicablepatchesa?branch=master) function takes a list of patches and determines in what sequence they can be applied to an installed product. This function does not account for any patches or products that have already been installed on the system.
 
 Windows Installer version 3.0 can apply multiple patches to a product in a single patching installation. The group of patches can contain patches that include patching sequence information (a [MsiPatchSequence](msipatchsequence-table.md) table) and patches that do not. The Windows Installer installs the patch packages without this table in the order that they are provided to the system. The installer accounts for patch packages that lack a MsiPatchSequence table, but that have been marked as obsolete or superseded patches by the method described in the following section.
 

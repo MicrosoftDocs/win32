@@ -1,7 +1,12 @@
 ---
-Description: 'Starting with Windows Vista, Tablet PC Technology has support for touch input on Tablet PC''s with touch capable digitizers. This support includes an enhanced user interface to aid in targeting and commanding Windows when using a finger for input.'
-ms.assetid: '63f1d71f-03d8-4d83-a174-e3dc7c57bad0'
+Description: Starting with Windows Vista, Tablet PC Technology has support for touch input on Tablet PCs with touch capable digitizers. This support includes an enhanced user interface to aid in targeting and commanding Windows when using a finger for input.
+ms.assetid: 63f1d71f-03d8-4d83-a174-e3dc7c57bad0
 title: Touch Input Support in Windows Vista
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch Input Support in Windows Vista
@@ -12,7 +17,7 @@ Starting with Windows Vista, Tablet PC Technology has support for touch input on
 
 ### Pen and Touch Input Not Exclusive
 
-Do not assume pen and touch input are mutually exclusive in [**InkCollector**](inkcollector-class.md), [**InkOverlay**](inkoverlay-class.md), and [**RealTimeStylus**](realtimestylus-class.md) applications.
+Do not assume pen and touch input are mutually exclusive in [**InkCollector**](/windows/win32/msinkaut/?branch=master), [**InkOverlay**](/windows/win32/msinkaut/?branch=master), and [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) applications.
 
 In Windows Vista, when the system recognizes a pen it ignores touch input. That is, the touch stroke ends and the pen stroke begins. Because this could possibly change in the future, your code should not assume pen and touch input are mutually exclusive.
 

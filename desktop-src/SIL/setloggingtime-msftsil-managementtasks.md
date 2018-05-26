@@ -4,13 +4,16 @@ description: Configures the start time after which the Software Inventory Loggin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3ccedb22-a6f6-4190-b366-098a9199d062'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3ccedb22-a6f6-4190-b366-098a9199d062
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetLoggingTime method Software Inventory Logging", "SetLoggingTime method Software Inventory Logging , MsftSil_ManagementTasks class", "MsftSil_ManagementTasks class Software Inventory Logging , SetLoggingTime method"]
+keywords:
+- SetLoggingTime method Software Inventory Logging
+- SetLoggingTime method Software Inventory Logging , MsftSil_ManagementTasks class
+- MsftSil_ManagementTasks class Software Inventory Logging , SetLoggingTime method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SILProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetLoggingTime method of the MsftSil\_ManagementTasks class
@@ -30,7 +36,7 @@ Configures the start time after which the Software Inventory Logging engine coll
 
 ```mof
 uint32 SetLoggingTime(
-  [in] datetime time
+  [in] datetime time
 );
 ```
 
@@ -58,7 +64,7 @@ If this method succeeds, it returns 0. If this method fails, it returns 1. For a
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                          |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SILProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SILProvider.dll</dt> </dl> |
@@ -72,9 +78,9 @@ If this method succeeds, it returns 0. If this method fails, it returns 1. For a
 [**MsftSil\_ManagementTasks**](msftsil-managementtasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

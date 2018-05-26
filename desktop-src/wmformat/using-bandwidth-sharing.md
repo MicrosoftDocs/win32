@@ -1,8 +1,18 @@
 ---
 title: Using Bandwidth Sharing
 description: Using Bandwidth Sharing
-ms.assetid: '1df61a3a-d34a-447e-a7ee-d5d409e7c4fa'
-keywords: ["Windows Media Format SDK,bandwidth sharing", "bandwidth sharing,about", "profiles,bandwidth sharing", "streams,bandwidth sharing", "bandwidth sharing,IWMProfile interface"]
+ms.assetid: 1df61a3a-d34a-447e-a7ee-d5d409e7c4fa
+keywords:
+- Windows Media Format SDK,bandwidth sharing
+- bandwidth sharing,about
+- profiles,bandwidth sharing
+- streams,bandwidth sharing
+- bandwidth sharing,IWMProfile interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Bandwidth Sharing
@@ -20,16 +30,16 @@ Each bandwidth sharing object is defined by two settings. First is the bandwidth
 [**IWMProfile Interface**](iwmprofile.md)
 </dt> <dt>
 
-[**IWMProfile3::AddBandwidthSharing**](iwmprofile3-addbandwidthsharing.md)
+[**IWMProfile3::AddBandwidthSharing**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing?branch=master)
 </dt> <dt>
 
-[**IWMProfile3::CreateNewBandwidthSharing**](iwmprofile3-createnewbandwidthsharing.md)
+[**IWMProfile3::CreateNewBandwidthSharing**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing?branch=master)
 </dt> <dt>
 
-[**IWMProfile3::GetBandwidthSharing**](iwmprofile3-getbandwidthsharing.md)
+[**IWMProfile3::GetBandwidthSharing**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing?branch=master)
 </dt> <dt>
 
-[**IWMProfile3::GetBandwidthSharingCount**](iwmprofile3-getbandwidthsharingcount.md)
+[**IWMProfile3::GetBandwidthSharingCount**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharingcount?branch=master)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

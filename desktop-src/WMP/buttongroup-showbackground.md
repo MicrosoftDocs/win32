@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.showBackground
 description: The showBackground attribute specifies or retrieves a value indicating whether the BUTTONGROUP displays only the buttons, or displays the full bitmap specified in the image attribute.
-ms.assetid: '5c3fc873-937c-4dad-ac18-e7a37004ee1e'
-keywords: ["BUTTONGROUP.showBackground Windows Media Player"]
+ms.assetid: 5c3fc873-937c-4dad-ac18-e7a37004ee1e
+keywords:
+- BUTTONGROUP.showBackground Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.showBackground
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.showBackground
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +74,9 @@ If an invalid value is specified, the previous state is maintained.
 [**BUTTONGROUP.mappingImage**](buttongroup-mappingimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

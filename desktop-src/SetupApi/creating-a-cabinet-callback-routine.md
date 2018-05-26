@@ -1,14 +1,19 @@
 ---
-Description: 'Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the SetupIterateCabinet function requires must have the same form as those pointed to by FileCallback.'
-ms.assetid: '45a2690e-1db6-4a09-a141-9e68ebc2a6d8'
+Description: Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the SetupIterateCabinet function requires must have the same form as those pointed to by FileCallback.
+ms.assetid: 45a2690e-1db6-4a09-a141-9e68ebc2a6d8
 title: Creating a Cabinet Callback Routine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Cabinet Callback Routine
 
-Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the [**SetupIterateCabinet**](setupiteratecabinet.md) function requires must have the same form as those pointed to by [FileCallback](psp-file-callback.md).
+Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master) function requires must have the same form as those pointed to by [FileCallback](/windows/win32/setupapi/?branch=master).
 
-Following is the syntax that [**SetupIterateCabinet**](setupiteratecabinet.md) uses to send a notification to the callback routine.
+Following is the syntax that [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master) uses to send a notification to the callback routine.
 
 ``` syntax
 MsgHandler(          //the specified callback routine
@@ -21,7 +26,7 @@ MsgHandler(          //the specified callback routine
 
 The *Context* parameter is a void pointer to a context variable or structure that can be used by the callback routine to store information that needs to persist between subsequent calls to the callback routine.
 
-This context's implementation is specified by the callback routine, and it is never referenced or altered by [**SetupIterateCabinet**](setupiteratecabinet.md).
+This context's implementation is specified by the callback routine, and it is never referenced or altered by [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master).
 
 The *Notification* parameter is an unsigned integer and will be one of the following values.
 
@@ -37,11 +42,11 @@ The *Notification* parameter is an unsigned integer and will be one of the follo
 
  
 
-The final two parameters, *Param1* and *Param2*, are also unsigned integers and contain additional information relevant to the notification. For more information about the notifications sent by [**SetupIterateCabinet**](setupiteratecabinet.md), see [Cabinet File Notifications](cabinet-file-notifications.md).
+The final two parameters, *Param1* and *Param2*, are also unsigned integers and contain additional information relevant to the notification. For more information about the notifications sent by [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master), see [Cabinet File Notifications](cabinet-file-notifications.md).
 
 A SP\_FILE\_NOTIFY\_CALLBACK routine returns an unsigned integer. The cabinet callback routine should return one of the following values depending on the notification.
 
-For the SPFILENOTIFY\_FILEINCABINET notification, [**SetupIterateCabinet**](setupiteratecabinet.md) expects one of the following values to be returned by the callback routine.
+For the SPFILENOTIFY\_FILEINCABINET notification, [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master) expects one of the following values to be returned by the callback routine.
 
 
 
@@ -62,7 +67,7 @@ For SPFILENOTIFY\_NEEDNEWCABINET and SPFILENOTIFY\_FILEEXTRACTED notifications, 
 | Value      | Meaning                                                                                                                                                                                                                           |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | NO\_ERROR  | No error was encountered, continue processing the cabinet.                                                                                                                                                                        |
-| ERROR\_XXX | An error of the specified type occurred. The [**SetupIterateCabinet**](setupiteratecabinet.md) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360). |
+| ERROR\_XXX | An error of the specified type occurred. The [**SetupIterateCabinet**](/windows/win32/Setupapi/nf-setupapi-setupiteratecabineta?branch=master) function will return **FALSE**, and the specified error code will be returned by a call to [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360). |
 
 
 

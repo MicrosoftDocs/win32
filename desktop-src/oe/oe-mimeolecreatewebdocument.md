@@ -1,8 +1,9 @@
 ---
 title: MimeOleCreateWebDocument function
 description: Do not use. On success, creates and initializes a new Web document.
-ms.assetid: 'cf0b89ef-40dc-47c0-a7e2-d28dbab4ab45'
-keywords: ["MimeOleCreateWebDocument function Windows Mail (formerly Outlook Express)"]
+ms.assetid: cf0b89ef-40dc-47c0-a7e2-d28dbab4ab45
+keywords:
+- MimeOleCreateWebDocument function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleCreateWebDocument function
@@ -22,9 +28,9 @@ Do not use. On success, creates and initializes a new Web document.
 
 ```C++
 HRESULT MimeOleCreateWebDocument(
-  _In_  LPCSTR           pszBase,
-  _In_  LPCSTR           pszURL,
-  _Out_ IMimeWebDocument **ppDocument
+  _In_  LPCSTR           pszBase,
+  _In_  LPCSTR           pszURL,
+  _Out_ IMimeWebDocument **ppDocument
 );
 ```
 
@@ -77,14 +83,14 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > Caller of function is responsible for freeing [**IMimeWebDocument**](oe-imimewebdocument.md) object.
 
- 
+ 
 
 ## Requirements
 
@@ -92,8 +98,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -101,9 +107,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

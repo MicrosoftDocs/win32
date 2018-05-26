@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UNIDRVINFO structure is used to specify printer-specific information within Unidrv font metrics files (.ufm files).'
-ms.assetid: 'f57514ed-33b2-4895-aaba-5866b6fc01d2'
+---
+Description: The UNIDRVINFO structure is used to specify printer-specific information within Unidrv font metrics files (.ufm files).
+ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 title: UNIDRVINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UNIDRVINFO structure

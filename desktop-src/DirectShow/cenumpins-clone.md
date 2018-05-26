@@ -1,19 +1,24 @@
 ---
-Description: 'The Clone method makes a copy of the enumerator with the same enumeration state. This method implements the IEnumPins::Clone method.'
-ms.assetid: '6e44c970-b90a-4bdb-8c60-dd8f31516249'
-title: 'CEnumPins.Clone method'
+Description: The Clone method makes a copy of the enumerator with the same enumeration state. This method implements the IEnumPinsClone method.
+ms.assetid: 6e44c970-b90a-4bdb-8c60-dd8f31516249
+title: CEnumPins.Clone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumPins.Clone method
 
-The `Clone` method makes a copy of the enumerator with the same enumeration state. This method implements the [**IEnumPins::Clone**](ienumpins-clone.md) method.
+The `Clone` method makes a copy of the enumerator with the same enumeration state. This method implements the [**IEnumPins::Clone**](/windows/win32/Strmif/nf-strmif-ienumpins-clone?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Clone(
-   IEnumPins **ppEnum
+   IEnumPins **ppEnum
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Clone(
 *ppEnum* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the [**IEnumPins**](ienumpins.md) interface of the new enumerator.
+Address of a variable that receives a pointer to the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface of the new enumerator.
 
 </dd> </dl>
 
@@ -45,7 +50,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,9 +70,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CEnumPins Class**](cenumpins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

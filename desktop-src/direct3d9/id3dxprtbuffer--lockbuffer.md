@@ -1,7 +1,12 @@
-﻿---
-Description: 'Locks a range of vertex or texel sample data and obtains a pointer to the location in buffer memory.'
-ms.assetid: '8de2725f-507e-41ee-828d-2fb19cc2252c'
-title: 'ID3DXPRTBuffer::LockBuffer method'
+---
+Description: Locks a range of vertex or texel sample data and obtains a pointer to the location in buffer memory.
+ms.assetid: 8de2725f-507e-41ee-828d-2fb19cc2252c
+title: ID3DXPRTBufferLockBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTBuffer::LockBuffer method

@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the reference for the WIC APIs.'
-ms.assetid: '5ffa52e9-c01e-455e-85dc-2b7c078cc252'
+Description: Contains the reference for the WIC APIs.
+ms.assetid: 5ffa52e9-c01e-455e-85dc-2b7c078cc252
 title: Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference
@@ -22,11 +27,11 @@ This section contains the reference pages for Windows Imaging Component (WIC). I
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

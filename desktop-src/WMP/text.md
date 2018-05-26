@@ -1,8 +1,17 @@
 ---
 title: Text
 description: Text
-ms.assetid: '00574ead-85f2-4321-9e4e-2836be058e8c'
-keywords: ["Windows Media Player Mobile skins,text", "skins,text", "reference for skins,text", "text in skins,about"]
+ms.assetid: 00574ead-85f2-4321-9e4e-2836be058e8c
+keywords:
+- Windows Media Player Mobile skins,text
+- skins,text
+- reference for skins,text
+- text in skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text

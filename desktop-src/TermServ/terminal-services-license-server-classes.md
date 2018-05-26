@@ -4,10 +4,13 @@ description: The Remote Desktop License Server WMI provider provides the followi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9b069e50-1c1d-45d9-81f5-6e9735ff4ae7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9b069e50-1c1d-45d9-81f5-6e9735ff4ae7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop License Server classes

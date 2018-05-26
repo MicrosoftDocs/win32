@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the current status of the print job.'
-ms.assetid: '3C806C3B-78A1-44B6-A9AC-E7258D216637'
-title: 'IPrintJob::Status method'
+---
+Description: Gets the current status of the print job.
+ms.assetid: 3C806C3B-78A1-44B6-A9AC-E7258D216637
+title: IPrintJobStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob::Status method

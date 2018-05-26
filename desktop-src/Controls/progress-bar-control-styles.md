@@ -1,7 +1,7 @@
 ---
 title: Progress Bar Control Styles
 description: The following control styles are supported by Progress Bar controls
-ms.assetid: 'bd89aa74-c15e-4745-8b2b-7cbd8b28c1c8'
+ms.assetid: bd89aa74-c15e-4745-8b2b-7cbd8b28c1c8
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progress Bar Control Styles
@@ -53,7 +58,7 @@ This style is supported only in the Windows Classic theme. All other themes over
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="PBS_SMOOTHREVERSE"></span><span id="pbs_smoothreverse"></span><dl> <dt><strong>PBS_SMOOTHREVERSE</strong></dt> </dl></td>
-<td style="text-align: left;">[Version 6.0](common-control-versions.md) or later and <strong>Windows Vista.</strong> Determines the animation behavior that the progress bar should use when moving backward (from a higher value to a lower value). If this is set, then a &quot;smooth&quot; transition will occur, otherwise the control will &quot;jump&quot; to the lower value.<br/></td>
+<td style="text-align: left;">[Version 6.0](common-control-versions.md) or later and <strong>Windows Vista.</strong> Determines the animation behavior that the progress bar should use when moving backward (from a higher value to a lower value). If this is set, then a &quot;smooth&quot; transition will occur, otherwise the control will &quot;jump&quot; to the lower value.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="PBS_VERTICAL"></span><span id="pbs_vertical"></span><dl> <dt><strong>PBS_VERTICAL</strong></dt> </dl></td>
@@ -78,9 +83,9 @@ You can set progress bar styles, in the same way as other common controls, with 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

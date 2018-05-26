@@ -1,7 +1,12 @@
-﻿---
-Description: 'Installs a catalog file.'
-ms.assetid: 'bea74e91-1a87-4785-b983-5fec87e03499'
+---
+Description: Installs a catalog file.
+ms.assetid: bea74e91-1a87-4785-b983-5fec87e03499
 title: pSetupInstallCatalog function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pSetupInstallCatalog function

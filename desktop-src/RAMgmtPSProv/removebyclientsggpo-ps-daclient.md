@@ -2,13 +2,16 @@
 title: RemoveByClientSGGpo method of the PS\_DAClient class
 description: This cmdlet performs the following operations1.
 audience: developer
-ms.assetid: '72698317-b30d-4075-b778-7114e66ffa6e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 72698317-b30d-4075-b778-7114e66ffa6e
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByClientSGGpo method", "RemoveByClientSGGpo method, PS_DAClient class", "PS_DAClient class, RemoveByClientSGGpo method"]
+keywords:
+- RemoveByClientSGGpo method
+- RemoveByClientSGGpo method, PS_DAClient class
+- PS_DAClient class, RemoveByClientSGGpo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByClientSGGpo method of the PS\_DAClient class
@@ -28,11 +34,11 @@ This cmdlet performs the following operations1. Removes one or more client machi
 
 ```mof
 uint32 RemoveByClientSGGpo(
-  [in]  string   SecurityGroupNameList[],
-  [in]  string   ComputerName,
-  [in]  boolean  PassThru,
-  [in]  string   DomainName[],
-  [out] DAClient cmdletOutput
+  [in]  string   SecurityGroupNameList[],
+  [in]  string   ComputerName,
+  [in]  boolean  PassThru,
+  [in]  string   DomainName[],
+  [out] DAClient cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ List of domains in which client GPOs need to be removed. Domain is specified in 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ List of domains in which client GPOs need to be removed. Domain is specified in 
 [**PS\_DAClient**](ps-daclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

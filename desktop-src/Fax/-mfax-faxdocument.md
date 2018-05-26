@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxDocument messaging object is used by a fax client application to compose a fax document and submit it to the fax service for processing.'
-ms.assetid: 'a87e6de7-1541-4f9e-b411-d8c6907bf93e'
+---
+Description: The FaxDocument messaging object is used by a fax client application to compose a fax document and submit it to the fax service for processing.
+ms.assetid: a87e6de7-1541-4f9e-b411-d8c6907bf93e
 title: FaxDocument object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument object
@@ -190,7 +195,7 @@ This property is supported only in Windows Vista and later.
 
 ## Remarks
 
-The **FaxDocument** object implements the [**IFaxDocument**](-mfax-faxdocument-cpp.md) interface in Windows XP and earlier. It implements the [**IFaxDocument2**](-mfax-faxdocument2-cpp.md) interface in Windows Vista and later.
+The **FaxDocument** object implements the [**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master) interface in Windows XP and earlier. It implements the [**IFaxDocument2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument2?branch=master) interface in Windows Vista and later.
 
 Use the **FaxDocument** object to set and retrieve information about fax transmissions. This includes information about fax recipients, contained in the [**FaxRecipients**](-mfax-faxrecipients.md) object, and information about the fax sender, contained in the [**FaxSender**](-mfax-faxsender.md) object.
 
@@ -223,10 +228,10 @@ To create a [**FaxDevices**](-mfax-faxdevices.md) object in C++, call the [CoCre
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> <dt>
 
-[**IFaxDocument2**](-mfax-faxdocument2-cpp.md)
+[**IFaxDocument2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument2?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: PSN\_QUERYCANCEL notification code
 description: Indicates that the user has canceled the property sheet. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '4a789e08-065a-485c-87e3-f7958e2dc544'
-keywords: ["PSN_QUERYCANCEL notification code Windows Controls"]
+ms.assetid: 4a789e08-065a-485c-87e3-f7958e2dc544
+keywords:
+- PSN_QUERYCANCEL notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSN\_QUERYCANCEL notification code
@@ -33,7 +39,7 @@ PSN_QUERYCANCEL
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](pshnotify.md) structure that contains information about the notification code. This structure contains an [**NMHDR**](nmhdr.md) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure does not contain any information.
+Pointer to a [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure that contains information about the notification code. This structure contains an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure does not contain any information.
 
 </dd> </dl>
 
@@ -53,15 +59,15 @@ To set a return value, the dialog box procedure for the page must call the [**Se
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

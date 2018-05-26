@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unregisters an application as a client of CTL3D.'
-ms.assetid: '21990A79-F90D-4AE1-AB02-2B33583B47F5'
+---
+Description: Unregisters an application as a client of CTL3D.
+ms.assetid: 21990A79-F90D-4AE1-AB02-2B33583B47F5
 title: Ctl3dUnregister function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ctl3dUnregister function

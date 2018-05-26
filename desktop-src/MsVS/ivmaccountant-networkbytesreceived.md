@@ -1,8 +1,13 @@
 ---
 title: IVMAccountant NetworkBytesReceived property
 description: The NetworkBytesReceived property contains the total number of bytes received by all virtual network interface cards for this virtual machine.
-ms.assetid: 'd22d7196-224f-42c1-b24c-4a739c68d7cf'
-keywords: ["NetworkBytesReceived property Virtual Server", "NetworkBytesReceived property Virtual Server , IVMAccountant interface", "IVMAccountant interface Virtual Server , NetworkBytesReceived property", "NetworkBytesReceived property Virtual Server , VMAccountant interface", "VMAccountant interface Virtual Server , NetworkBytesReceived property"]
+ms.assetid: d22d7196-224f-42c1-b24c-4a739c68d7cf
+keywords:
+- NetworkBytesReceived property Virtual Server
+- NetworkBytesReceived property Virtual Server , IVMAccountant interface
+- IVMAccountant interface Virtual Server , NetworkBytesReceived property
+- NetworkBytesReceived property Virtual Server , VMAccountant interface
+- VMAccountant interface Virtual Server , NetworkBytesReceived property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant::NetworkBytesReceived property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_NetworkBytesReceived(
-  [out] VARIANT *bytesReceived
+  [out] VARIANT *bytesReceived
 );
 ```
 
@@ -100,8 +110,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -113,9 +123,9 @@ Next
 [**IVMAccountant**](ivmaccountant.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

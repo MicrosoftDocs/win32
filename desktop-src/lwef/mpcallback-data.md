@@ -1,8 +1,10 @@
 ---
 title: MPCALLBACK\_DATA structure
 description: Data passed to the callback function.
-ms.assetid: 'EA8E6C1E-F80B-4247-B073-C78D49A354CF'
-keywords: ["MPCALLBACK_DATA structure Legacy Windows Environment Features", "PMPCALLBACK_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: EA8E6C1E-F80B-4247-B073-C78D49A354CF
+keywords:
+- MPCALLBACK_DATA structure Legacy Windows Environment Features
+- PMPCALLBACK_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPCALLBACK\_DATA structure
@@ -22,27 +29,27 @@ Data passed to the callback function.
 
 ```C++
 typedef struct tagMPCALLBACK_DATA {
-  MPNOTIFY        Notify;
-  HRESULT         hResult;
-  ULARGE_INTEGER  TimeStamp;
+  MPNOTIFY        Notify;
+  HRESULT         hResult;
+  ULARGE_INTEGER  TimeStamp;
   MPCALLBACK_TYPE Type;
   union {
-    PMPSTATUS_DATA         pStatusData;
-    PMPSCAN_DATA           pScanData;
-    PMPCLEAN_DATA          pCleanData;
+    PMPSTATUS_DATA         pStatusData;
+    PMPSCAN_DATA           pScanData;
+    PMPCLEAN_DATA          pCleanData;
     PMPCLEAN_PRECHECK_DATA pPrecheckData;
-    PMPTHREAT_DATA         pThreatData;
-    PMPSIGUPDATE_DATA      pSigUpdateData;
-    PMPSAMPLE_DATA         pSampleData;
-    PMPRESERVED_DATA       pReservedData;
-    PMPCONFIGURATION_DATA  pConfigurationData;
-    PMPFASTPATH_DATA       pFastPathData;
-    PMPEXPIRATION_DATA     pExpirationData;
-    PMPNIS_PRIVATE_DATA    pNISPrivateData;
-    PMPHEALTH_DATA         pHealthData;
-    PMPENDOFLIFE_DATA      pEndOfLifeData;
-    PMPMALWARETOAST_DATA   pMalwareToastData;
-  } Data;
+    PMPTHREAT_DATA         pThreatData;
+    PMPSIGUPDATE_DATA      pSigUpdateData;
+    PMPSAMPLE_DATA         pSampleData;
+    PMPRESERVED_DATA       pReservedData;
+    PMPCONFIGURATION_DATA  pConfigurationData;
+    PMPFASTPATH_DATA       pFastPathData;
+    PMPEXPIRATION_DATA     pExpirationData;
+    PMPNIS_PRIVATE_DATA    pNISPrivateData;
+    PMPHEALTH_DATA         pHealthData;
+    PMPENDOFLIFE_DATA      pEndOfLifeData;
+    PMPMALWARETOAST_DATA   pMalwareToastData;
+  } Data;
 } MPCALLBACK_DATA, *PMPCALLBACK_DATA;
 ```
 
@@ -274,8 +281,8 @@ When **Type** == **MPCALLBACK\_MALWARETOAST**. See [**MPMALWARETOAST\_DATA**](mp
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
@@ -335,9 +342,9 @@ When **Type** == **MPCALLBACK\_MALWARETOAST**. See [**MPMALWARETOAST\_DATA**](mp
 [**MPTHREAT\_DATA**](mpthreat-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

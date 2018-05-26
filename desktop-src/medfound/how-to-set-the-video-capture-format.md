@@ -1,7 +1,12 @@
 ---
-Description: 'A video capture device might support several capture formats. Formats typically differ by compression type, color space (YUV or RGB), frame size, or frame rate.'
-ms.assetid: '479abaea-f310-4139-9967-f24b03c34558'
+Description: A video capture device might support several capture formats. Formats typically differ by compression type, color space (YUV or RGB), frame size, or frame rate.
+ms.assetid: 479abaea-f310-4139-9967-f24b03c34558
 title: How to Set the Video Capture Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Set the Video Capture Format
@@ -13,11 +18,11 @@ The list of supported formats is contained in the *presentation descriptor*. For
 To enumerate the supported formats:
 
 1.  Create the media source for the capture device. See [Enumerating Video Capture Devices](enumerating-video-capture-devices.md).
-2.  Call [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md) on the media source to get the presentation descriptor.
-3.  Call [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](imfpresentationdescriptor-getstreamdescriptorbyindex.md) to get the stream descriptor for the video stream.
-4.  Call [**IMFStreamDescriptor::GetMediaTypeHandler**](imfstreamdescriptor-getmediatypehandler.md) on the stream descriptor.
-5.  Call [**IMFMediaTypeHandler::GetMediaTypeCount**](imfmediatypehandler-getmediatypecount.md) to get the number of supported formats.
-6.  In a loop, call [**IMFMediaTypeHandler::GetMediaTypeByIndex**](imfmediatypehandler-getmediatypebyindex.md) to get each format. The format is represented by a *media type*. For more information, see [Video Media Types](video-media-types.md).
+2.  Call [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master) on the media source to get the presentation descriptor.
+3.  Call [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex?branch=master) to get the stream descriptor for the video stream.
+4.  Call [**IMFStreamDescriptor::GetMediaTypeHandler**](/windows/win32/mfidl/nf-mfidl-imfstreamdescriptor-getmediatypehandler?branch=master) on the stream descriptor.
+5.  Call [**IMFMediaTypeHandler::GetMediaTypeCount**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-getmediatypecount?branch=master) to get the number of supported formats.
+6.  In a loop, call [**IMFMediaTypeHandler::GetMediaTypeByIndex**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-getmediatypebyindex?branch=master) to get each format. The format is represented by a *media type*. For more information, see [Video Media Types](video-media-types.md).
 
 The following example enumerates the capture formats for a device:
 
@@ -85,9 +90,9 @@ The `LogMediaType` function used in this example is listed in the topic [Media T
 
 To set the capture format:
 
-1.  Get a pointer to the [**IMFMediaTypeHandler**](imfmediatypehandler.md) interface, as shown in the previous example.
-2.  Call [**IMFMediaTypeHandler::GetMediaTypeByIndex**](imfmediatypehandler-getmediatypebyindex.md) to get the desired format, specified by index.
-3.  Call [**IMFMediaTypeHandler::SetCurrentMediaType**](imfmediatypehandler-setcurrentmediatype.md) to set the format.
+1.  Get a pointer to the [**IMFMediaTypeHandler**](/windows/win32/mfidl/nn-mfidl-imfmediatypehandler?branch=master) interface, as shown in the previous example.
+2.  Call [**IMFMediaTypeHandler::GetMediaTypeByIndex**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-getmediatypebyindex?branch=master) to get the desired format, specified by index.
+3.  Call [**IMFMediaTypeHandler::SetCurrentMediaType**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-setcurrentmediatype?branch=master) to set the format.
 
 If you do not set the capture format, the device will use its default format.
 

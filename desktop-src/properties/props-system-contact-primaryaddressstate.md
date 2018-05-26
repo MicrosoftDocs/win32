@@ -1,7 +1,12 @@
 ---
-Description: 'Primary address state name of the contact.'
-ms.assetid: 'df093aed-f427-41a1-b2be-f62118c3fb0f'
-title: 'System.Contact.PrimaryAddressState'
+Description: Primary address state name of the contact.
+ms.assetid: df093aed-f427-41a1-b2be-f62118c3fb0f
+title: System.Contact.PrimaryAddressState
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.PrimaryAddressState

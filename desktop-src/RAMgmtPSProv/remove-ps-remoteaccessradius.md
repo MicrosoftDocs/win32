@@ -2,13 +2,16 @@
 title: Remove method of the PS\_RemoteAccessRadius class
 description: This cmdlet removes an external RADIUS server from being used for one of the following purposes1. VPN authentication2. Accounting for both DirectAccess and VPN3. OTP authentication for DirectAccess.
 audience: developer
-ms.assetid: 'a1b00937-139e-4dc3-8bc8-6ef6bf87ad6e'
-ms.prod: 'windows-server-dev'
+ms.assetid: a1b00937-139e-4dc3-8bc8-6ef6bf87ad6e
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_RemoteAccessRadius class", "PS_RemoteAccessRadius class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_RemoteAccessRadius class
+- PS_RemoteAccessRadius class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_RemoteAccessRadius class
@@ -28,12 +34,12 @@ This cmdlet removes an external RADIUS server from being used for one of the fol
 
 ```mof
 uint32 Remove(
-  [in]  string                          ServerName,
-  [in]  string                          Purpose,
-  [in]  string                          ComputerName,
-  [in]  boolean                         PassThru,
-  [in]  string                          EntrypointName,
-  [out] RemoteAccessRadiusServerPurpose cmdletOutput[]
+  [in]  string                          ServerName,
+  [in]  string                          Purpose,
+  [in]  string                          ComputerName,
+  [in]  boolean                         PassThru,
+  [in]  string                          EntrypointName,
+  [out] RemoteAccessRadiusServerPurpose cmdletOutput[]
 );
 ```
 
@@ -113,7 +119,7 @@ The output will be the address and the purpose of the RADIUS server that was rem
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -127,9 +133,9 @@ The output will be the address and the purpose of the RADIUS server that was rem
 [**PS\_RemoteAccessRadius**](ps-remoteaccessradius.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

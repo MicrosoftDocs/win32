@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ComPropSheet function is supplied by CPSUI and can be called by CPSUI applications (including printer interface DLLs) to build property sheet pages.'
-ms.assetid: 'd9654346-1f28-4e02-8f6c-17e37ed09b92'
+---
+Description: The ComPropSheet function is supplied by CPSUI and can be called by CPSUI applications (including printer interface DLLs) to build property sheet pages.
+ms.assetid: d9654346-1f28-4e02-8f6c-17e37ed09b92
 title: PFNCOMPROPSHEET routine
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFNCOMPROPSHEET routine

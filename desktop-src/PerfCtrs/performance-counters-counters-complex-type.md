@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the section of the instrumentation manifest that identifies the provider and the counters that they provide.'
-ms.assetid: 'c661f1af-ebe8-4f8a-b77e-a2229f45facd'
+Description: Defines the section of the instrumentation manifest that identifies the provider and the counters that they provide.
+ms.assetid: c661f1af-ebe8-4f8a-b77e-a2229f45facd
 title: counters Complex Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # counters Complex Type
@@ -60,8 +65,8 @@ Defines the section of the instrumentation manifest that identifies the provider
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -72,9 +77,9 @@ Defines the section of the instrumentation manifest that identifies the provider
 [**instrumentation**](https://msdn.microsoft.com/library/windows/desktop/aa382778)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: In Microsoft Windows, group policies are intended to allow administ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7077387a-fb6a-4714-829d-429820143cb5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7077387a-fb6a-4714-829d-429820143cb5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["policy integration MMC"]
+keywords:
+- policy integration MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Policy Integration

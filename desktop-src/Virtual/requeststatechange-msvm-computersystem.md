@@ -1,8 +1,11 @@
 ---
 title: RequestStateChange method of the Msvm\_ComputerSystem class
 description: Requests that the state of the computer system be changed to the value specified.
-ms.assetid: 'f0835669-d0c5-430d-bd88-b7a510e9f9c2'
-keywords: ["RequestStateChange method Hyper-V", "RequestStateChange method Hyper-V , Msvm_ComputerSystem class", "Msvm_ComputerSystem class Hyper-V , RequestStateChange method"]
+ms.assetid: f0835669-d0c5-430d-bd88-b7a510e9f9c2
+keywords:
+- RequestStateChange method Hyper-V
+- RequestStateChange method Hyper-V , Msvm_ComputerSystem class
+- Msvm_ComputerSystem class Hyper-V , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestStateChange method of the Msvm\_ComputerSystem class
@@ -24,9 +32,9 @@ While the state change is in progress, the **RequestedState** property is change
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -162,7 +170,7 @@ This method returns one of the following values.
 **Completed with No Error** (0)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Transition Started** (4096)
@@ -212,7 +220,7 @@ The following C# example starts or disables a virtual machine. The referenced ut
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -310,7 +318,7 @@ The following VBScript example starts or disables a virtual machine.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -487,9 +495,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -502,9 +510,9 @@ End Function
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

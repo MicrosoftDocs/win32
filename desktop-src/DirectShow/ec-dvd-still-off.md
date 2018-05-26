@@ -1,7 +1,12 @@
 ---
-Description: 'Signals the end of any still (PGC, Cell, or VOBU).'
-ms.assetid: '459464b1-3085-4ad7-8eb3-960cee89d395'
-title: 'EC\_DVD\_STILL\_OFF'
+Description: Signals the end of any still (PGC, Cell, or VOBU).
+ms.assetid: 459464b1-3085-4ad7-8eb3-960cee89d395
+title: EC\_DVD\_STILL\_OFF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_STILL\_OFF
@@ -55,9 +60,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

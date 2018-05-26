@@ -1,8 +1,17 @@
 ---
 title: Scheduled Work Items
 description: The Task Scheduler uses two terms to describe what it can schedule work items and tasks.
-ms.assetid: '6ca182c3-eba8-43dd-bf2e-27dd972e3cf8'
-keywords: ["work items Task Scheduler", "work items Task Scheduler , compared to tasks", "tasks Task Scheduler", "tasks Task Scheduler , compared to work items"]
+ms.assetid: 6ca182c3-eba8-43dd-bf2e-27dd972e3cf8
+keywords:
+- work items Task Scheduler
+- work items Task Scheduler , compared to tasks
+- tasks Task Scheduler
+- tasks Task Scheduler , compared to work items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scheduled Work Items
@@ -11,11 +20,11 @@ The Task Scheduler uses two terms to describe what it can schedule: work items a
 
 In contrast, a [*task*](t.md#-msb-tasks-gly) is a specific type of work item. Currently, the only type of scheduled work item that is supported is a task.
 
-The [**IScheduledWorkItem**](ischeduledworkitem.md) interface contains methods that are supported by all types of scheduled work items. For example, account information, run times, and application-defined comments are properties that may apply to all types of work items. These properties can be set and retrieved through the **IScheduledWorkItem** interface.
+The [**IScheduledWorkItem**](/windows/win32/Mstask/nn-mstask-ischeduledworkitem?branch=master) interface contains methods that are supported by all types of scheduled work items. For example, account information, run times, and application-defined comments are properties that may apply to all types of work items. These properties can be set and retrieved through the **IScheduledWorkItem** interface.
 
-The [**ITask**](itask.md) interface contains methods that are supported only by tasks.
+The [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) interface contains methods that are supported only by tasks.
 
-The methods of the [**IScheduledWorkItem**](ischeduledworkitem.md) interface are currently inherited by the [**ITask**](itask.md) interface and in the future will be inherited by other work item interfaces.
+The methods of the [**IScheduledWorkItem**](/windows/win32/Mstask/nn-mstask-ischeduledworkitem?branch=master) interface are currently inherited by the [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) interface and in the future will be inherited by other work item interfaces.
 
 | For examples of                                              | See                                                                                        |
 |--------------------------------------------------------------|--------------------------------------------------------------------------------------------|

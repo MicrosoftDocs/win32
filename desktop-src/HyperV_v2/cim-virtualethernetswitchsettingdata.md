@@ -1,7 +1,12 @@
 ---
-Description: 'Describes settings data for a virtual ethernet switch.'
-ms.assetid: '462cff06-5ba6-410a-b091-5c6abab13f03'
-title: 'CIM\_VirtualEthernetSwitchSettingData class'
+Description: Describes settings data for a virtual ethernet switch.
+ms.assetid: 462cff06-5ba6-410a-b091-5c6abab13f03
+title: CIM\_VirtualEthernetSwitchSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VirtualEthernetSwitchSettingData class
@@ -77,8 +82,8 @@ An array that contains the VLAN IDs that the switch can access.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -92,9 +97,9 @@ An array that contains the VLAN IDs that the switch can access.
 [**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

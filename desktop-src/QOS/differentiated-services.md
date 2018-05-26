@@ -1,7 +1,12 @@
 ---
 title: Differentiated Services
 description: Differentiated services enables packets that pass through network devices operating on Layer 3 information, such as routers, to have their relative priority differentiated from one another.
-ms.assetid: '0b4afa74-0198-482d-af72-9ddf135a8e2f'
+ms.assetid: 0b4afa74-0198-482d-af72-9ddf135a8e2f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Differentiated Services

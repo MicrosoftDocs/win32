@@ -1,7 +1,12 @@
 ---
-Description: 'The Certificate Enrollment API includes multiple samples designed to help you create custom applications. Most of the samples are written by using C++, but C# and Visual Basic Scripting Edition (VBScript) samples are also included.'
-ms.assetid: '70ac7b75-542c-4d79-85ce-4b1bac414879'
+Description: The Certificate Enrollment API includes multiple samples designed to help you create custom applications. Most of the samples are written by using C++, but C# and Visual Basic Scripting Edition (VBScript) samples are also included.
+ms.assetid: 70ac7b75-542c-4d79-85ce-4b1bac414879
 title: Using the Included Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Included Samples
@@ -27,12 +32,12 @@ When you install the Microsoft Windows Software Development Kit (SDK), the follo
 | [enrollRenewalPKCS7](enrollrenewalpkcs7.md)                           | Creates a PKCS \#7 request object to renew an existing certificate.<br/>                                                                                                                                                                                                                                                                             | C++<br/>      |
 | [enrollSimpleMachineCert](enrollsimplemachinecert.md)                 | Enrolls a computer in a certificate hierarchy by using a template, a certificate display name, and the certificate description.<br/>                                                                                                                                                                                                                 | C++, VBS<br/> |
 | [enrollSimpleUserCert](enrollsimpleusercert.md)                       | Enrolls an end user with a CA by using a template, the subject name, and the length, in bits, of the key.<br/>                                                                                                                                                                                                                                       | C++, C#<br/> |
-| [enrollWithIX509EnrollmentHelper](enrollwithix509enrollmenthelper.md) | Demonstrates how to use the Windows 7 HTTP protocol to enroll a certificate in an enterprise CA.<br/>                                                                                                                                                                                                                                                | C#<br/>      |
+| [enrollWithIX509EnrollmentHelper](enrollwithix509enrollmenthelper.md) | Demonstrates how to use the Windows 7 HTTP protocol to enroll a certificate in an enterprise CA.<br/>                                                                                                                                                                                                                                                | C#<br/>      |
 | [installResponseFromPFX](installresponsefrompfx.md)                   | Installs an enrolled certificate from a Personal Information Exchange (PFX) file to the certificate store.<br/>                                                                                                                                                                                                                                      | C++<br/>      |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -41,9 +46,9 @@ When you install the Microsoft Windows Software Development Kit (SDK), the follo
 [Using the Certificate Enrollment API](about-the-certificate-enrollment-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Gets the user policy associated with the stream.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '022F7ACB-E191-4A6D-B204-CDC9AFEE2CF3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 022F7ACB-E191-4A6D-B204-CDC9AFEE2CF3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomProtectedInputStream.getUserPolicy method"]
+keywords:
+- CustomProtectedInputStream.getUserPolicy method
 topic_type:
 - apiref
 api_name:
 - CustomProtectedInputStream.getUserPolicy method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedInputStream.getUserPolicy method
@@ -45,11 +49,11 @@ CustomProtectedInputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ID3DXFont interface encapsulates the textures and resources needed to render a specific font on a specific device.'
-ms.assetid: 'ac40b600-3b9f-4e6e-8563-18597b3dd602'
+---
+Description: The ID3DXFont interface encapsulates the textures and resources needed to render a specific font on a specific device.
+ms.assetid: ac40b600-3b9f-4e6e-8563-18597b3dd602
 title: ID3DXFont interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFont interface

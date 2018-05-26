@@ -1,14 +1,20 @@
 ---
 title: ShadowFilePath Attribute
 description: The ShadowFilePath attribute is the fully qualified path to a shadow file.
-ms.assetid: 'dd00d53c-8a95-450c-a65b-1763e9112941'
-keywords: ["ShadowFilePath Attribute Windows Media Player"]
+ms.assetid: dd00d53c-8a95-450c-a65b-1763e9112941
+keywords:
+- ShadowFilePath Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ShadowFilePath
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShadowFilePath Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

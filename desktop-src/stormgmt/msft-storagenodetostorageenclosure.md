@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageNodeToStorageEnclosure class
 description: Association between StorageNode and StorageEnclosure.
-ms.assetid: '1EC3975C-618B-4DE0-B1CC-B6B63D1936BE'
-keywords: ["MSFT_StorageNodeToStorageEnclosure class Windows Storage Management API", "MSFT_StorageNodeToStorageEnclosure class Windows Storage Management API , described"]
+ms.assetid: 1EC3975C-618B-4DE0-B1CC-B6B63D1936BE
+keywords:
+- MSFT_StorageNodeToStorageEnclosure class Windows Storage Management API
+- MSFT_StorageNodeToStorageEnclosure class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageNodeToStorageEnclosure class
@@ -34,15 +41,15 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association]
 class MSFT_StorageNodeToStorageEnclosure
 {
-  MSFT_StorageNode      REF StorageNode;
+  MSFT_StorageNode      REF StorageNode;
   MSFT_StorageEnclosure REF StorageEnclosure;
-  UInt16                    HealthStatus;
-  UInt16                    PowerSupplyOperationalStatus[];
-  UInt16                    FanOperationalStatus[];
-  UInt16                    TemperatureSensorOperationalStatus[];
-  UInt16                    VoltageSensorOperationalStatus[];
-  UInt16                    CurrentSensorOperationalStatus[];
-  UInt16                    IOControllerOperationalStatus[];
+  UInt16                    HealthStatus;
+  UInt16                    PowerSupplyOperationalStatus[];
+  UInt16                    FanOperationalStatus[];
+  UInt16                    TemperatureSensorOperationalStatus[];
+  UInt16                    VoltageSensorOperationalStatus[];
+  UInt16                    CurrentSensorOperationalStatus[];
+  UInt16                    IOControllerOperationalStatus[];
 };
 ```
 
@@ -67,7 +74,7 @@ Data type: **UInt16** array
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** An array containing the operational status of each current sensor of the enclosure.
+**Starting in Windows 10:** An array containing the operational status of each current sensor of the enclosure.
 
 
 
@@ -85,7 +92,7 @@ Access type: Read-only
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -98,7 +105,7 @@ Data type: **UInt16** array
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** An array containing the operational status of each fan of the enclosure.
+**Starting in Windows 10:** An array containing the operational status of each fan of the enclosure.
 
 
 
@@ -116,7 +123,7 @@ Access type: Read-only
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -129,7 +136,7 @@ Data type: **UInt16**
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** Denotes the current health status of the enclosure.
+**Starting in Windows 10:** Denotes the current health status of the enclosure.
 
 <dl> <dt>
 
@@ -156,7 +163,7 @@ Data type: **UInt16** array
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** An array containing the operational status of each controller of the enclosure.
+**Starting in Windows 10:** An array containing the operational status of each controller of the enclosure.
 
 
 
@@ -174,7 +181,7 @@ Access type: Read-only
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -187,7 +194,7 @@ Data type: **UInt16** array
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** An array containing the operational status of each power supply of the enclosure.
+**Starting in Windows 10:** An array containing the operational status of each power supply of the enclosure.
 
 
 
@@ -205,7 +212,7 @@ Access type: Read-only
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -246,7 +253,7 @@ Data type: **UInt16** array
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** An array containing the operational status of each temperature sensor of the enclosure.
+**Starting in Windows 10:** An array containing the operational status of each temperature sensor of the enclosure.
 
 
 
@@ -264,7 +271,7 @@ Access type: Read-only
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -277,7 +284,7 @@ Data type: **UInt16** array
 Access type: Read-only
 </dt> </dl>
 
-**Starting in Windows 10:** An array containing the operational status of each voltage sensor of the enclosure.
+**Starting in Windows 10:** An array containing the operational status of each voltage sensor of the enclosure.
 
 
 
@@ -295,7 +302,7 @@ Access type: Read-only
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -305,8 +312,8 @@ Access type: Read-only
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -322,9 +329,9 @@ Access type: Read-only
 [**MSFT\_StorageEnclosure**](msft-storageenclosure.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

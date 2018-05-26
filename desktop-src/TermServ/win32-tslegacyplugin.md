@@ -4,11 +4,13 @@ description: Represents a Remote Desktop server that the built-in RemoteApp and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '99bec477-ae9d-4bc9-bf9d-11a4e439306b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 99bec477-ae9d-4bc9-bf9d-11a4e439306b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLegacyPlugin class Remote Desktop Services", "Win32_TSLegacyPlugin class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLegacyPlugin class Remote Desktop Services
+- Win32_TSLegacyPlugin class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLegacyPlugin class
@@ -31,7 +36,7 @@ Represents a Remote Desktop server that the built-in RemoteApp and Desktop Conne
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
-This class is deprecated beginning with Windows Server 2012.
+This class is deprecated beginning with Windows Server 2012.
 
 ## Syntax
 
@@ -39,12 +44,12 @@ This class is deprecated beginning with Windows Server 2012.
 [DEPRECATED, dynamic, provider("Win32_TSCentralPublisher_Prov")]
 class Win32_TSLegacyPlugin : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  sint32   Type;
+  string   Name;
+  string   Status;
+  sint32   Type;
 };
 ```
 
@@ -246,16 +251,16 @@ Artificial Remote Desktop server for a VM farm.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TscPub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

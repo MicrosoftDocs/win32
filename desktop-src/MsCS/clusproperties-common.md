@@ -4,11 +4,14 @@ description: Indicates whether the properties in a ClusProperties collection are
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7003b7e6-56f9-4499-9967-966ba23c40ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7003b7e6-56f9-4499-9967-966ba23c40ed
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Common property Failover Cluster", "Common property Failover Cluster , ClusProperties collection", "ClusProperties collection Failover Cluster , Common property"]
+keywords:
+- Common property Failover Cluster
+- Common property Failover Cluster , ClusProperties collection
+- ClusProperties collection Failover Cluster , Common property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperties.Common property
@@ -47,7 +53,7 @@ A **Variant** set to **VARIANT\_TRUE** if the properties are common properties, 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +75,9 @@ A **Variant** set to **VARIANT\_TRUE** if the properties are common properties, 
 [**ClusProperties.ReadOnly**](clusproperties-readonly.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

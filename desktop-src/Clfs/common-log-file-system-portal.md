@@ -1,7 +1,12 @@
-﻿---
-Description: 'An event logging file subsystem for Windows event log management that any user-mode application or multiple clients that need log management software, event management, event log monitoring, or recovery support can use.'
-ms.assetid: 'c8656542-ebfa-4e0a-9199-ed9632ed1ede'
+---
+Description: An event logging file subsystem for Windows event log management that any user-mode application or multiple clients that need log management software, event management, event log monitoring, or recovery support can use.
+ms.assetid: c8656542-ebfa-4e0a-9199-ed9632ed1ede
 title: Common Log File System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Log File System

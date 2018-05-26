@@ -1,12 +1,17 @@
 ---
-Description: 'GetFinalPathNameByHandle, introduced in Windows Vista and Windows Server 2008, will return a path from a handle.'
-ms.assetid: '359673bf-cc4c-4881-b946-ecdbef4a7ecb'
+Description: GetFinalPathNameByHandle, introduced in Windows Vista and Windows Server 2008, will return a path from a handle.
+ms.assetid: 359673bf-cc4c-4881-b946-ecdbef4a7ecb
 title: Obtaining a File Name From a File Handle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining a File Name From a File Handle
 
-[**GetFinalPathNameByHandle**](fs.getfinalpathnamebyhandle), introduced in Windows Vista and Windows Server 2008, will return a path from a handle. If you need to do this on earlier releases of Windows, the following example obtains a file name from a handle to a file object using a file mapping object. It uses the [**CreateFileMapping**](createfilemapping.md) and [**MapViewOfFile**](mapviewoffile.md) functions to create the mapping. Next, it uses the [**GetMappedFileName**](base.getmappedfilename) function to obtain the file name. For remote files, it prints the device path received from this function. For local files, it converts the path to use a drive letter and prints this path. To test this code, create a **main** function that opens a file using [**CreateFile**](fs.createfile) and passes the resulting handle to `GetFileNameFromHandle`.
+[**GetFinalPathNameByHandle**](fs.getfinalpathnamebyhandle), introduced in Windows Vista and Windows Server 2008, will return a path from a handle. If you need to do this on earlier releases of Windows, the following example obtains a file name from a handle to a file object using a file mapping object. It uses the [**CreateFileMapping**](/windows/win32/WinBase/nf-winbase-createfilemappinga?branch=master) and [**MapViewOfFile**](mapviewoffile.md) functions to create the mapping. Next, it uses the [**GetMappedFileName**](base.getmappedfilename) function to obtain the file name. For remote files, it prints the device path received from this function. For local files, it converts the path to use a drive letter and prints this path. To test this code, create a **main** function that opens a file using [**CreateFile**](fs.createfile) and passes the resulting handle to `GetFileNameFromHandle`.
 
 
 ```C++

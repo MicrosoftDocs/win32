@@ -1,8 +1,11 @@
 ---
 title: Support ProcessIdleTasks method
 description: Requests the system run the maintenance tasks scheduled to run when the system is idle. This prevents the maintenance tasks from running during the assessment.
-ms.assetid: '890BBC71-38CC-49B4-8A29-A585592D09A0'
-keywords: ["ProcessIdleTasks method Access Execution Engine", "ProcessIdleTasks method Access Execution Engine , Support interface", "Support interface Access Execution Engine , ProcessIdleTasks method"]
+ms.assetid: 890BBC71-38CC-49B4-8A29-A585592D09A0
+keywords:
+- ProcessIdleTasks method Access Execution Engine
+- ProcessIdleTasks method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , ProcessIdleTasks method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::ProcessIdleTasks method
@@ -22,7 +30,7 @@ Requests the system run the maintenance tasks scheduled to run when the system i
 
 ```C++
 virtual HRESULT ProcessIdleTasks(
-  [out] HANDLE *idleTasksHandle
+  [out] HANDLE *idleTasksHandle
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ Managed code uses the [**Support.ProcessIdleTasks**](axe-support_processidletask
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ Managed code uses the [**Support.ProcessIdleTasks**](axe-support_processidletask
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Special Characters and Words
 description: Special Characters and Words
-ms.assetid: '36644bef-298a-45b8-8a29-2f5d46af8674'
+ms.assetid: 36644bef-298a-45b8-8a29-2f5d46af8674
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Special Characters and Words

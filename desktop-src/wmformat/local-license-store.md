@@ -1,8 +1,21 @@
 ---
 title: Local License Store
 description: Local License Store
-ms.assetid: '1f380b9e-85e4-4190-a809-65dfd4658b7c'
-keywords: ["Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,DRM licenses", "Windows Media Format SDK,licenses for DRM", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),protected file licensing", "DRM (digital rights management),protected file licensing", "licenses,DRM"]
+ms.assetid: 1f380b9e-85e4-4190-a809-65dfd4658b7c
+keywords:
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,DRM licenses
+- Windows Media Format SDK,licenses for DRM
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),protected file licensing
+- DRM (digital rights management),protected file licensing
+- licenses,DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Local License Store

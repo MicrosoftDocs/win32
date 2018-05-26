@@ -1,7 +1,12 @@
 ---
 title: Introduction
 description: Introduction
-ms.assetid: '8dfb15eb-6505-4afd-9036-a449f3ceedc3'
+ms.assetid: 8dfb15eb-6505-4afd-9036-a449f3ceedc3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction
@@ -19,7 +24,7 @@ The On/Off Transition Trace Capture tool collects information during the on/off 
 > [!Note]  
 > Be aware that On/Off Transition Trace Capture tool automates state transitions. After issuing a trace command, the test computer resets within five seconds.
 
- 
+ 
 
 The On/Off Transition Trace Capture tool can capture data during all of these phases and additionally can automate a *reboot cycle* during which the Windows Vista system is shut down and rebooted multiple times. You can analyze the captured data by using the Xperf and Xperfview tools.
 
@@ -37,11 +42,11 @@ The following table lists the options that you should use to capture and analyze
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

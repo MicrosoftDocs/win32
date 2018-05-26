@@ -4,13 +4,15 @@ description: A dynamic association WMI class that represents the dependencies of
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dfd50a0b-0df4-41f2-8abf-9a6673e97e78'
-ms.prod: 'windows-server-dev'
+ms.assetid: dfd50a0b-0df4-41f2-8abf-9a6673e97e78
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ResourceToDependentResource class", "MSCluster_ResourceToDependentResource class, described"]
+keywords:
+- MSCluster_ResourceToDependentResource class
+- MSCluster_ResourceToDependentResource class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ResourceToDependentResource class
@@ -95,7 +100,7 @@ The **MSCluster\_ResourceToDependentResource** class is derived from the [**CIM\
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -115,9 +120,9 @@ The **MSCluster\_ResourceToDependentResource** class is derived from the [**CIM\
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

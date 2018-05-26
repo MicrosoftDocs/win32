@@ -4,11 +4,14 @@ description: Removes specified user group names from the existing user groups in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ddbac15-7054-482a-8b5c-49551561673e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4ddbac15-7054-482a-8b5c-49551561673e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoveUserGroupNames method Remote Desktop Services", "RemoveUserGroupNames method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , RemoveUserGroupNames method"]
+keywords:
+- RemoveUserGroupNames method Remote Desktop Services
+- RemoveUserGroupNames method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , RemoveUserGroupNames method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveUserGroupNames method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
@@ -28,7 +34,7 @@ Removes specified user group names from the existing user groups in the **UserGr
 
 ```mof
 uint32 RemoveUserGroupNames(
-  [in] string UserGroupNames
+  [in] string UserGroupNames
 );
 ```
 
@@ -64,7 +70,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnectionAuthorizationPolicy**](win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Overlaying Graphs
 description: Overlaying Graphs
-ms.assetid: '78d10da7-f939-4943-b885-3361f6c84277'
-keywords: ["frame", "sidebar.exe", "z ordering", "z-ordering"]
+ms.assetid: 78d10da7-f939-4943-b885-3361f6c84277
+keywords:
+- frame
+- sidebar.exe
+- z ordering
+- z-ordering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overlaying Graphs

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only ComponentClients property returns a StringList object enumerating the set of clients of a specified component.'
-ms.assetid: '47553360-298f-4be8-819d-18f4df96667c'
-title: 'Installer.ComponentClients property'
+---
+Description: The read-only ComponentClients property returns a StringList object enumerating the set of clients of a specified component.
+ms.assetid: 47553360-298f-4be8-819d-18f4df96667c
+title: Installer.ComponentClients property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ComponentClients property
@@ -43,7 +48,7 @@ To enumerate the component clients, an application may iterate through the [**St
 
 <dl> <dt>
 
-[**MsiEnumClients**](msienumclients.md)
+[**MsiEnumClients**](/windows/win32/Msi/nf-msi-msienumclientsa?branch=master)
 </dt> </dl>
 
  

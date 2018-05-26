@@ -1,7 +1,12 @@
 ---
-Description: 'The Direct3D lighting engine can use per-vertex color data when performing lighting if you tell the runtime the data is present.'
-ms.assetid: 'acb43921-f0d4-4151-9371-1b99e5d30c0e'
-title: 'Per-Vertex Color State (Direct3D 9)'
+Description: The Direct3D lighting engine can use per-vertex color data when performing lighting if you tell the runtime the data is present.
+ms.assetid: acb43921-f0d4-4151-9371-1b99e5d30c0e
+title: Per-Vertex Color State (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Per-Vertex Color State (Direct3D 9)

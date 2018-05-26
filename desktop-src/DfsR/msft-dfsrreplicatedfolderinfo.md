@@ -4,13 +4,15 @@ description: This class provides statistical and operational information for eac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1d9127e5-8eaa-4d85-80b2-62ace8b4a9d0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1d9127e5-8eaa-4d85-80b2-62ace8b4a9d0
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication", "MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication
+- MSFT_DfsrReplicatedFolderInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrReplicatedFolderInfo class
@@ -44,19 +49,19 @@ This class provides statistical and operational information for each replicated 
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrReplicatedFolderInfo
 {
-  string   ReplicatedFolderGuid;
-  string   ReplicatedFolderName;
-  string   ReplicationGroupGuid;
-  string   ReplicationGroupName;
-  string   MemberGuid;
-  string   MemberName;
+  string   ReplicatedFolderGuid;
+  string   ReplicatedFolderName;
+  string   ReplicationGroupGuid;
+  string   ReplicationGroupName;
+  string   MemberGuid;
+  string   MemberName;
   datetime LastConflictCleanupTime;
   datetime LastTombstoneCleanupTime;
-  uint32   CurrentStageSizeInMb;
-  uint32   CurrentConflictSizeInMb;
-  uint8    State;
-  uint32   LastErrorCode;
-  uint32   LastErrorMessageId;
+  uint32   CurrentStageSizeInMb;
+  uint32   CurrentConflictSizeInMb;
+  uint8    State;
+  uint32   LastErrorCode;
+  uint32   LastErrorMessageId;
 };
 ```
 
@@ -84,7 +89,7 @@ The **MSFT\_DfsrReplicatedFolderInfo** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -369,7 +374,7 @@ The current replicated folder state for this member.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -383,9 +388,9 @@ The current replicated folder state for this member.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

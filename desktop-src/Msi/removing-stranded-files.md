@@ -1,7 +1,12 @@
 ---
-Description: 'A list of possible reasons why a Windows Installer uninstallation was unable to remove all the files of an application.'
-ms.assetid: '0a856f0f-a829-478e-a83b-dade7b05b4f2'
+Description: A list of possible reasons why a Windows Installer uninstallation was unable to remove all the files of an application.
+ms.assetid: 0a856f0f-a829-478e-a83b-dade7b05b4f2
 title: Removing Stranded Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removing Stranded Files

@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter M.'
-Robots: 'noindex, nofollow'
-ms.assetid: '4c4402e9-7455-4868-978f-3899a8fd86c1'
+Description: Contains definitions of security terms that begin with the letter M.
+Robots: noindex, nofollow
+ms.assetid: 4c4402e9-7455-4868-978f-3899a8fd86c1
 title: M
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # M

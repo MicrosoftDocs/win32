@@ -1,7 +1,12 @@
 ---
-Description: 'The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter.'
-ms.assetid: '036b209a-3535-4922-b7e9-dbed25b812f5'
-title: 'CTransformFilter.Receive method'
+Description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter.
+ms.assetid: 036b209a-3535-4922-b7e9-dbed25b812f5
+title: CTransformFilter.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.Receive method
@@ -13,7 +18,7 @@ The `Receive` method receives a media sample, processes it, and delivers an outp
 
 ```C++
 HRESULT Receive(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Receive(
 *pSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface on the input sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface on the input sample.
 
 </dd> </dl>
 
@@ -43,13 +48,13 @@ Returns an **HRESULT** value. Possible values include the following:
 
 
 
- 
+ 
 
 ## Remarks
 
 The filter's input pin calls this method when it receives a sample. This method calls the [**CTransformFilter::InitializeOutputSample**](ctransformfilter-initializeoutputsample.md) method, which prepares a new output sample. Then it calls the [**CTransformFilter::Transform**](ctransformfilter-transform.md) method, which the derived class must implement. The **Transform** method processes the input data and produces output data.
 
-If the **Transform** method returns S\_FALSE, the `Receive` method drops this sample. On the first dropped sample, the filter sends an [**EC\_QUALITY\_CHANGE**](ec-quality-change.md) event to the filter graph manager. Otherwise, if the **Transform** method returns S\_OK, the filter delivers the output sample. To do so, it calls the [**IMemInputPin::Receive**](imeminputpin-receive.md) method on the downstream input pin.
+If the **Transform** method returns S\_FALSE, the `Receive` method drops this sample. On the first dropped sample, the filter sends an [**EC\_QUALITY\_CHANGE**](ec-quality-change.md) event to the filter graph manager. Otherwise, if the **Transform** method returns S\_OK, the filter delivers the output sample. To do so, it calls the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method on the downstream input pin.
 
 ## Requirements
 
@@ -69,9 +74,9 @@ If the **Transform** method returns S\_FALSE, the `Receive` method drops this sa
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

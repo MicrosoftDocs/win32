@@ -2,13 +2,15 @@
 title: PS\_RemoteAccessHealthLocal class
 description: Server Provider for getting health of Remote Access cluster, server (DA and VPN) and its components.
 audience: developer
-ms.assetid: '061c07d8-af20-4834-bf66-e7c3b60be475'
-ms.prod: 'windows-server-dev'
+ms.assetid: 061c07d8-af20-4834-bf66-e7c3b60be475
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_RemoteAccessHealthLocal class", "PS_RemoteAccessHealthLocal class, described"]
+keywords:
+- PS_RemoteAccessHealthLocal class
+- PS_RemoteAccessHealthLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_RemoteAccessHealthLocal class
@@ -52,7 +57,7 @@ The **PS\_RemoteAccessHealthLocal** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,16 +66,16 @@ The **PS\_RemoteAccessHealthLocal** class has these methods.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

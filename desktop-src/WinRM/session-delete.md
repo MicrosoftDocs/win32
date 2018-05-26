@@ -4,11 +4,14 @@ description: Deletes the resource specified in the resource URI.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8803d35d-674c-483d-866b-37129102c7ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 8803d35d-674c-483d-866b-37129102c7ce
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Delete method Windows Remote Management", "Delete method Windows Remote Management , Session object", "Session object Windows Remote Management , Delete method"]
+keywords:
+- Delete method Windows Remote Management
+- Delete method Windows Remote Management , Session object
+- Session object Windows Remote Management , Delete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session.Delete method
@@ -89,8 +95,8 @@ objSession.Delete(strResource)
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -105,9 +111,9 @@ objSession.Delete(strResource)
 [**Session**](session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

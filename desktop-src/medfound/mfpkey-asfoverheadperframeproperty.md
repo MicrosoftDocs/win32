@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the overhead, in bytes per packet, required for the container used to store the compressed content.'
-ms.assetid: '73ec52de-c74a-45b3-a453-7f32510b4484'
-title: 'MFPKEY\_ASFOVERHEADPERFRAME Property'
+---
+Description: Specifies the overhead, in bytes per packet, required for the container used to store the compressed content.
+ms.assetid: 73ec52de-c74a-45b3-a453-7f32510b4484
+title: MFPKEY\_ASFOVERHEADPERFRAME Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_ASFOVERHEADPERFRAME Property

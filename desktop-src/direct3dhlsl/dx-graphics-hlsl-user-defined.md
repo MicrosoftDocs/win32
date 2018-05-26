@@ -1,7 +1,12 @@
 ---
 title: User-Defined Type
 description: Use the following syntax to declare a user-defined type.
-ms.assetid: '8ef18864-f456-4b52-af83-f9b1050a0bba'
+ms.assetid: 8ef18864-f456-4b52-af83-f9b1050a0bba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User-Defined Type
@@ -16,7 +21,7 @@ Use the following syntax to declare a user-defined type.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -31,7 +36,7 @@ Use the following syntax to declare a user-defined type.
 
 
 
- 
+ 
 
 In addition to the built-in intrinsic data types, HLSL supports user-defined or custom types which follow this syntax:
 
@@ -83,9 +88,9 @@ typedef vertexshader VERTEXSHADER;
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

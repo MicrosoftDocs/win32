@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a logical device and a protocol controller that is connected to the device.'
-ms.assetid: '1a1efc60-6108-4376-9f73-d2dd41443645'
-title: 'CIM\_ProtocolControllerForDevice class'
+Description: Represents an association between a logical device and a protocol controller that is connected to the device.
+ms.assetid: 1a1efc60-6108-4376-9f73-d2dd41443645
+title: CIM\_ProtocolControllerForDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ProtocolControllerForDevice class
@@ -15,10 +20,10 @@ Represents an association between a logical device and a protocol controller tha
 class CIM_ProtocolControllerForDevice : CIM_Dependency
 {
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
-  string                     DeviceNumber;
-  uint16                     AccessPriority;
-  uint16                     AccessState;
+  CIM_LogicalDevice      REF Dependent;
+  string                     DeviceNumber;
+  uint16                     AccessPriority;
+  uint16                     AccessState;
 };
 ```
 
@@ -148,8 +153,8 @@ The address of the associated device in the context of the protocol controler.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -163,9 +168,9 @@ The address of the associated device in the context of the protocol controler.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

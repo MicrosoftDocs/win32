@@ -1,8 +1,14 @@
 ---
 title: Shader Functions
 description: This section contains information about the shader functions.
-ms.assetid: '4acbd433-c28d-4630-aa0e-25f2fb5c32d0'
-keywords: ["functions, Direct3D 11 Shader"]
+ms.assetid: 4acbd433-c28d-4630-aa0e-25f2fb5c32d0
+keywords:
+- functions, Direct3D 11 Shader
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Functions
@@ -17,11 +23,11 @@ This section contains information about the shader functions.
 
 | Topic                                                             | Description                                                                                                                             |
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**D3DDisassemble11Trace**](d3ddisassemble11trace.md)<br/> | Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.<br/> |
+| [**D3DDisassemble11Trace**](/windows/win32/D3D11ShaderTracing/nf-d3d11shadertracing-d3ddisassemble11trace?branch=master)<br/> | Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +36,9 @@ This section contains information about the shader functions.
 [Shader Reference](d3d11-graphics-reference-d3d11-shader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

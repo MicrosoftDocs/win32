@@ -1,7 +1,12 @@
 ---
-Description: 'The IsConnected method determines whether the pin is connected to another pin.'
-ms.assetid: 'd8b9b43b-6f8d-4d75-9688-f0cee3794a78'
-title: 'CBasePin.IsConnected method'
+Description: The IsConnected method determines whether the pin is connected to another pin.
+ms.assetid: d8b9b43b-6f8d-4d75-9688-f0cee3794a78
+title: CBasePin.IsConnected method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.IsConnected method
@@ -43,9 +48,9 @@ Returns **TRUE** if the pin is connected. Otherwise, returns **FALSE**.
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

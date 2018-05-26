@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example shows how to manage jobs in the outgoing queue.'
-ms.assetid: '5fab26c3-99f6-4740-9899-3dccbd26a3ba'
+Description: The following Microsoft Visual Basic code example shows how to manage jobs in the outgoing queue.
+ms.assetid: 5fab26c3-99f6-4740-9899-3dccbd26a3ba
 title: Managing Outgoing Jobs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Outgoing Jobs

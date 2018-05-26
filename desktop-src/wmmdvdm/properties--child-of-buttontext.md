@@ -1,14 +1,20 @@
 ---
 title: Properties (Child of ButtonText) element
 description: Specifies the properties of the button text media node.
-ms.assetid: '5d8b3694-1986-4aa2-9952-699681ab1088'
-keywords: ["Properties (Child of ButtonText) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 5d8b3694-1986-4aa2-9952-699681ab1088
+keywords:
+- Properties (Child of ButtonText) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Properties
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties (Child of ButtonText) element
@@ -49,7 +55,7 @@ The [**ExitDuration**](exitduration.md), [**ExitEffect**](exiteffect.md), and [*
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -76,9 +82,9 @@ The [**ExitDuration**](exitduration.md), [**ExitEffect**](exiteffect.md), and [*
 [**Properties Element (Parent of Color)**](properties--parent-of-color.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The topics contained in this section provide the reference specifications for Ink presenter classes.'
-ms.assetid: '639BC980-18DF-4496-9753-3074D3148851'
+---
+Description: The topics contained in this section provide the reference specifications for Ink presenter classes.
+ms.assetid: 639BC980-18DF-4496-9753-3074D3148851
 title: Ink presenter classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink presenter classes
@@ -14,7 +19,7 @@ The topics contained in this section provide the reference specifications for [I
 
 | Topic                                               | Description                                                                                     |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| [**InkDesktopHost**](inkdesktophost.md)<br/> | Implements the [**IInkDesktopHost**](InkPresenterDesktop.iinkdesktophost) interface.<br/> |
+| [**InkDesktopHost**](/windows/previous-versions/InkPresenterDesktop/?branch=master)<br/> | Implements the [**IInkDesktopHost**](InkPresenterDesktop.iinkdesktophost) interface.<br/> |
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: DeviceEvent.EventID property
 description: Retrieves the EventID Constants for this DeviceEvent.
-ms.assetid: '11e2a9ca-b746-48c6-868a-8ca60e8ecf23'
-keywords: ["EventID property WIA Automation", "EventID property WIA Automation , DeviceEvent object", "DeviceEvent object WIA Automation , EventID property"]
+ms.assetid: 11e2a9ca-b746-48c6-868a-8ca60e8ecf23
+keywords:
+- EventID property WIA Automation
+- EventID property WIA Automation , DeviceEvent object
+- DeviceEvent object WIA Automation , EventID property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceEvent.EventID property
@@ -43,8 +51,8 @@ For example code, see [Enumerate all the Supported Events for the Selected Devic
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -78,9 +86,9 @@ For example code, see [Enumerate all the Supported Events for the Selected Devic
 [**EventID Constants**](-wiaaut-consts-eventid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

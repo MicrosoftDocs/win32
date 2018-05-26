@@ -1,14 +1,20 @@
 ---
 title: event.shiftKey
 description: The shiftKey attribute retrieves a value indicating whether the SHIFT key was down when the event occurred.
-ms.assetid: '02b70533-936f-4543-8a36-88e7c2d1b2a8'
-keywords: ["event.shiftKey Windows Media Player"]
+ms.assetid: 02b70533-936f-4543-8a36-88e7c2d1b2a8
+keywords:
+- event.shiftKey Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.shiftKey
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.shiftKey
@@ -32,7 +38,7 @@ This attribute is a read-only **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read-only **Boolean**.
 [**Ambient Event Attributes**](ambient-event-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

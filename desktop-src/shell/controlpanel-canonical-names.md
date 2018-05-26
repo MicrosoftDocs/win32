@@ -1,7 +1,12 @@
 ---
-Description: 'As of Windows Vista, Control Panel items included with Windows are given a canonical name that can be used in an API call or a command-line instruction to programmatically launch that item.'
-ms.assetid: 'A02DFC9F-646D-40d8-901C-7239A820DE2C'
+Description: As of Windows Vista, Control Panel items included with Windows are given a canonical name that can be used in an API call or a command-line instruction to programmatically launch that item.
+ms.assetid: A02DFC9F-646D-40d8-901C-7239A820DE2C
 title: Canonical Names of Control Panel Items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Canonical Names of Control Panel Items
@@ -758,7 +763,7 @@ For more information that can help you discover the necessary CLSIDs, see [How t
 [Executing Control Panel Items](executing-control-panel-items.md)
 </dt> <dt>
 
-[**IOpenControlPanel**](iopencontrolpanel.md)
+[**IOpenControlPanel**](/windows/win32/shobjidl_core/nn-shobjidl_core-iopencontrolpanel?branch=master)
 </dt> </dl>
 
  

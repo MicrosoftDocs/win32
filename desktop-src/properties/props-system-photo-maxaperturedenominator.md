@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_Photo\_MaxAperture.'
-ms.assetid: '2e20b07b-4cbe-4ead-9158-b2fc93bceac5'
-title: 'System.Photo.MaxApertureDenominator'
+Description: The denominator of PKEY\_Photo\_MaxAperture.
+ms.assetid: 2e20b07b-4cbe-4ead-9158-b2fc93bceac5
+title: System.Photo.MaxApertureDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MaxApertureDenominator

@@ -4,11 +4,14 @@ description: The Script property returns the script to run when the user clicks 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'aec842b6-b1ab-458d-adb3-216195ef95e3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: aec842b6-b1ab-458d-adb3-216195ef95e3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Script property MMC", "Script property MMC , MMCTask class", "MMCTask class MMC , Script property"]
+keywords:
+- Script property MMC
+- Script property MMC , MMCTask class
+- MMCTask class MMC , Script property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCTask.Script property
@@ -53,9 +59,9 @@ This property contains the script to run using the window.execScript method on t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

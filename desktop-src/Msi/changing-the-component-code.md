@@ -1,7 +1,12 @@
 ---
-Description: 'When specifying the components for an installation, package authors should follow the general rules for component organization described in Organizing Applications into Components.'
-ms.assetid: '7cf322e9-c49a-40a8-be4e-ab03ecba1c1f'
+Description: When specifying the components for an installation, package authors should follow the general rules for component organization described in Organizing Applications into Components.
+ms.assetid: 7cf322e9-c49a-40a8-be4e-ab03ecba1c1f
 title: Changing the Component Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing the Component Code

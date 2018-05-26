@@ -1,8 +1,9 @@
 ---
 title: glCopyTexSubImage2D function
 description: The glCopyTexSubImage2D function copies a sub-image of a two-dimensional texture image from the framebuffer.
-ms.assetid: 'cbb644d4-6a23-4d66-8599-5f8b48e9b91f'
-keywords: ["glCopyTexSubImage2D function OpenGL"]
+ms.assetid: cbb644d4-6a23-4d66-8599-5f8b48e9b91f
+keywords:
+- glCopyTexSubImage2D function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glCopyTexSubImage2D function
@@ -22,14 +28,14 @@ The **glCopyTexSubImage2D** function copies a sub-image of a two-dimensional tex
 
 ```C++
 void WINAPI glCopyTexSubImage2D(
-   GLenum  target,
-   GLint   level,
-   GLint   xoffset,
-   GLint   yoffset,
-   GLint   x,
-   GLint   y,
-   GLsizei width,
-   GLsizei height
+   GLenum  target,
+   GLint   level,
+   GLint   xoffset,
+   GLint   yoffset,
+   GLint   x,
+   GLint   y,
+   GLsizei width,
+   GLsizei height
 );
 ```
 
@@ -108,7 +114,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | Name                                                                                                  | Meaning                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an accepted value.<br/>                                                                                                                                                                                                                                                                              |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than *log*2 (*max*), where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                                                                                                          |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than *log*2 (*max*), where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                                                                                                          |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *xoffset* was less than *border* or (*xoffset* + *width*)was greater than (*w* + *border*), *yoffset* was less than *border*, or (*yoffset* + *height*) was greater than (*h* + *border*), where *w* is GL\_TEXTURE\_WIDTH and *border* is GL\_TEXTURE\_BORDER. Note that *w* includes twice the *border* width.<br/> |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than *border* or *y* was less than *border*, where *border* is the border width of the texture array.<br/>                                                                                                                                                                                           |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The texture array was not defined by a previous [**glTexImage1D**](glteximage1d.md) operation.<br/>                                                                                                                                                                                                                  |
@@ -125,7 +131,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 | Name                                                                                                  | Meaning                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *target* was not an accepted value.<br/>                                                                                                                                                                                                                                                                              |
-| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than *log*2 (*max*), where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                                                                                                          |
+| <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *level* was less than zero or greater than *log*2 (*max*), where *max* is the returned value of GL\_MAX\_TEXTURE\_SIZE.<br/>                                                                                                                                                                                          |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *xoffset* was less than *border* or (*xoffset* + *width*)was greater than (*w* + *border*), *yoffset* was less than *border*, or (*yoffset* + *height*) was greater than (*h* + *border*), where *w* is GL\_TEXTURE\_WIDTH and *border* is GL\_TEXTURE\_BORDER. Note that *w* includes twice the *border* width.<br/> |
 | <dl> <dt>**GL\_INVALID\_VALUE**</dt> </dl>     | *width* was less than *border* or *y* was less than *border*, where *border* is the border width of the texture array.<br/>                                                                                                                                                                                           |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The texture array was not defined by a previous [**glTexImage1D**](glteximage1d.md) operation.<br/>                                                                                                                                                                                                                  |
@@ -148,7 +154,7 @@ You cannot include calls to **glCopyTexSubImage2D** in display lists.
 > [!Note]  
 > The **glCopyTexSubImage2D** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 Texturing has no effect in color-index mode. The [**glPixelStore**](glpixelstore-functions.md) and [**glPixelTransfer**](glpixeltransfer.md) functions affect texture images in exactly the way they affect the way pixels are drawn using [**glDrawPixels**](gldrawpixels.md).
 
@@ -164,8 +170,8 @@ The following functions retrieve information related to **glCopyTexSubImage2D**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -215,9 +221,9 @@ The following functions retrieve information related to **glCopyTexSubImage2D**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

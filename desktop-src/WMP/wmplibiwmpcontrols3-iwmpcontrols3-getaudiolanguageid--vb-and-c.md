@@ -1,8 +1,11 @@
 ---
 title: IWMPControls3 getAudioLanguageID method
 description: The getAudioLanguageID method returns the locale identifier (LCID) for a specified audio language index.
-ms.assetid: '880bbfca-6f69-41ce-a078-467c1939fae5'
-keywords: ["getAudioLanguageID method Windows Media Player", "getAudioLanguageID method Windows Media Player , IWMPControls3 interface", "IWMPControls3 interface Windows Media Player , getAudioLanguageID method"]
+ms.assetid: 880bbfca-6f69-41ce-a078-467c1939fae5
+keywords:
+- getAudioLanguageID method Windows Media Player
+- getAudioLanguageID method Windows Media Player , IWMPControls3 interface
+- IWMPControls3 interface Windows Media Player , getAudioLanguageID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls3::getAudioLanguageID method
@@ -68,7 +76,7 @@ A **System.Int32** that is the LCID.
 
 An LCID uniquely identifies a particular language dialect, called a locale.
 
-For Windows Media–based content, properties and methods related to language selection support only a single output.
+For Windows Media based content, properties and methods related to language selection support only a single output.
 
 Use the **audioLanguageCount** property to get the number of supported audio languages, and then access an audio language individually by using a one-based index.
 
@@ -106,9 +114,9 @@ Use the **audioLanguageCount** property to get the number of supported audio lan
 [**IWMPControls3.getLanguageName (VB and C#)**](wmplibiwmpcontrols3-iwmpcontrols3-getlanguagename--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

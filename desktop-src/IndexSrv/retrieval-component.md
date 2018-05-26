@@ -1,7 +1,12 @@
 ---
 title: Retrieval Component
 description: Retrieval Component
-ms.assetid: '34faab13-c657-4889-b89e-a8ea19c11773'
+ms.assetid: 34faab13-c657-4889-b89e-a8ea19c11773
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieval Component

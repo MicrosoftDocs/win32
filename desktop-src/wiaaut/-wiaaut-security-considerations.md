@@ -1,8 +1,18 @@
 ---
 title: Security Considerations Windows Image Acquisition Automation Layer
 description: This document provides information about security considerations related to the Windows Image Acquisition (WIA) Automation Layer.
-ms.assetid: '2d327c79-df8d-4ceb-bbd0-e75dc72d04e1'
-keywords: ["Windows Image Acquisition (WIA),security", "WIA (Windows Image Acquisition),security", "Windows Image Acquisition Automation Layer,security", "WIA Automation Layer,security", "Image Acquisition Automation Layer,security"]
+ms.assetid: 2d327c79-df8d-4ceb-bbd0-e75dc72d04e1
+keywords:
+- Windows Image Acquisition (WIA),security
+- WIA (Windows Image Acquisition),security
+- Windows Image Acquisition Automation Layer,security
+- WIA Automation Layer,security
+- Image Acquisition Automation Layer,security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: Windows Image Acquisition Automation Layer

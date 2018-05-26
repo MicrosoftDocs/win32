@@ -1,8 +1,23 @@
 ---
 title: Resetting MIDI Output
 description: Resetting MIDI Output
-ms.assetid: '281a7cfa-f274-4c7a-b63a-c0573b9f1169'
-keywords: ["Musical Instrument Digital Interface (MIDI),resetting output devices", "MIDI (Musical Instrument Digital Interface),resetting output devices", "playing MIDI files,resetting output devices", "resetting output devices", "Musical Instrument Digital Interface (MIDI),output devices", "MIDI (Musical Instrument Digital Interface),output devices", "playing MIDI files,output devices", "MIDI output devices", "EOX (end-of-exclusive)", "end-of-exclusive (EOX)"]
+ms.assetid: 281a7cfa-f274-4c7a-b63a-c0573b9f1169
+keywords:
+- Musical Instrument Digital Interface (MIDI),resetting output devices
+- MIDI (Musical Instrument Digital Interface),resetting output devices
+- playing MIDI files,resetting output devices
+- resetting output devices
+- Musical Instrument Digital Interface (MIDI),output devices
+- MIDI (Musical Instrument Digital Interface),output devices
+- playing MIDI files,output devices
+- MIDI output devices
+- EOX (end-of-exclusive)
+- end-of-exclusive (EOX)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resetting MIDI Output

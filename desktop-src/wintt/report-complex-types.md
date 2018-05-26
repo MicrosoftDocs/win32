@@ -1,7 +1,12 @@
 ---
 title: Report Complex Types
-ms.assetid: '9e20ecf0-77d0-4feb-94cf-1674ae780b2c'
+ms.assetid: 9e20ecf0-77d0-4feb-94cf-1674ae780b2c
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Report Complex Types

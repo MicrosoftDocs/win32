@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a hexadecimal string that contains the SHA-1 hash of the certificate.'
-ms.assetid: '6fd6f3ba-f7a9-43a3-a8da-8fd826649a92'
-title: 'Certificate.Thumbprint property'
+---
+Description: Retrieves a hexadecimal string that contains the SHA-1 hash of the certificate.
+ms.assetid: 6fd6f3ba-f7a9-43a3-a8da-8fd826649a92
+title: Certificate.Thumbprint property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate.Thumbprint property

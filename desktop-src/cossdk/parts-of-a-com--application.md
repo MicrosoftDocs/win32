@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ applications consist of one or more COM components.'
-ms.assetid: 'e7ed2844-276e-4726-952d-e4d3be2eb6e8'
+Description: COM+ applications consist of one or more COM components.
+ms.assetid: e7ed2844-276e-4726-952d-e4d3be2eb6e8
 title: Parts of a COM+ Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parts of a COM+ Application

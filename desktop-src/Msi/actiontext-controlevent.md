@@ -1,7 +1,12 @@
 ---
-Description: 'The installer uses this event to publish the name of the present action. The name can be displayed on a dialog box by a Text Control that subscribes to this ControlEvent. This event should be authored in the EventMapping table.'
-ms.assetid: '2b4928fe-2d5c-46c1-8a31-cbebbc78d304'
+Description: The installer uses this event to publish the name of the present action. The name can be displayed on a dialog box by a Text Control that subscribes to this ControlEvent. This event should be authored in the EventMapping table.
+ms.assetid: 2b4928fe-2d5c-46c1-8a31-cbebbc78d304
 title: ActionText ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionText ControlEvent

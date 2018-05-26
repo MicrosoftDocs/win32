@@ -1,26 +1,29 @@
 ---
-Description: 'Deleting an instance is the most common delete command you are likely to perform in WMI.'
+Description: Deleting an instance is the most common delete command you are likely to perform in WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '95ba3e9c-1397-41fe-a080-c03a98aafd42'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 95ba3e9c-1397-41fe-a080-c03a98aafd42
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Deleting an Instance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting an Instance
 
 Deleting an instance is the most common delete command you are likely to perform in WMI. Like deleting a class, the actual command is fairly simple. However, WMI performs quite differently depending on the type of instance you are deleting. If the instance is static, WMI simply deletes the instance from the WMI repository. For information about removing classes and instances from the WMI repository, see the [**pragma deleteclass**](pragma-deleteclass.md) preprocessor command.
 
-If the instance is dynamic, WMI must call [**IWbemServices::DeleteInstanceAsync**](iwbemservices-deleteinstanceasync.md) on the providers that are responsible for the following classes:
+If the instance is dynamic, WMI must call [**IWbemServices::DeleteInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync?branch=master) on the providers that are responsible for the following classes:
 
 -   The class that owns the instance.
 -   Every parent class of the class that owns the instance.
 -   Every subclass of the class that owns the instance.
 
-The success of the deletion depends on the topmost nonabstract class for the original instance. If the provider for any topmost nonabstract class succeeds in completing the deletion, the operation succeeds. For more information, see the Remarks section of [**IWbemServices::DeleteInstance**](iwbemservices-deleteinstance.md).
+The success of the deletion depends on the topmost nonabstract class for the original instance. If the provider for any topmost nonabstract class succeeds in completing the deletion, the operation succeeds. For more information, see the Remarks section of [**IWbemServices::DeleteInstance**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstance?branch=master).
 
 The [COM API for WMI](com-api-for-wmi.md) has different methods for deleting an instance and deleting an object.
 
@@ -28,9 +31,9 @@ The following procedure describes how to use C++ to delete an instance of a base
 
 **To delete an instance of a base class or derived class using C++**
 
--   Call either the [**IWbemServices::DeleteInstance**](iwbemservices-deleteinstance.md) or [**IWbemServices::DeleteInstanceAsync**](iwbemservices-deleteinstanceasync.md) methods.
+-   Call either the [**IWbemServices::DeleteInstance**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstance?branch=master) or [**IWbemServices::DeleteInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync?branch=master) methods.
 
-    As the name suggests, [**DeleteInstanceAsync**](iwbemservices-deleteinstanceasync.md) deletes an instance asynchronously while [**DeleteInstance**](iwbemservices-deleteinstance.md) deletes an instance synchronously. To use **DeleteInstanceAsync**, you must also implement an [**IWbemObjectSink**](iwbemobjectsink.md) object.
+    As the name suggests, [**DeleteInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync?branch=master) deletes an instance asynchronously while [**DeleteInstance**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstance?branch=master) deletes an instance synchronously. To use **DeleteInstanceAsync**, you must also implement an [**IWbemObjectSink**](iwbemobjectsink.md) object.
 
 > [!Note]  
 > Because the callback to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).

@@ -1,16 +1,21 @@
 ---
 title: How to Expose a Server-Side UI Automation Provider
 description: This topic contains example code that shows how to expose a server-side Microsoft UI Automation provider for a custom control.
-ms.assetid: '68bf16c7-fbab-478a-97be-47d1195028f3'
+ms.assetid: 68bf16c7-fbab-478a-97be-47d1195028f3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Expose a Server-Side UI Automation Provider
 
 This topic contains example code that shows how to expose a server-side Microsoft UI Automation provider for a custom control.
 
-Microsoft UI Automation sends the [**WM\_GETOBJECT**](wm-getobject.md) message to a provider application to retrieve information about an accessible object supported by the provider. UI Automation sends **WM\_GETOBJECT** when a client calls [**IUIAutomation::ElementFromHandle**](uiauto-iuiautomation-elementfromhandle.md), [**ElementFromPoint**](uiauto-iuiautomation-elementfrompoint.md), and [**GetFocusedElement**](uiauto-iuiautomation-getfocusedelement.md), and when handling events for which the client has registered.
+Microsoft UI Automation sends the [**WM\_GETOBJECT**](wm-getobject.md) message to a provider application to retrieve information about an accessible object supported by the provider. UI Automation sends **WM\_GETOBJECT** when a client calls [**IUIAutomation::ElementFromHandle**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-elementfromhandle?branch=master), [**ElementFromPoint**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-elementfrompoint?branch=master), and [**GetFocusedElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-getfocusedelement?branch=master), and when handling events for which the client has registered.
 
-When a provider receives a [**WM\_GETOBJECT**](wm-getobject.md) message, it should check whether the *lParam* parameter is equal to **UiaRootObjectId**. If it is, the provider should return the [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface of the object. The provider returns the interface by calling the [**UiaReturnRawElementProvider**](uiauto-uiareturnrawelementproviderfunction.md) function.
+When a provider receives a [**WM\_GETOBJECT**](wm-getobject.md) message, it should check whether the *lParam* parameter is equal to **UiaRootObjectId**. If it is, the provider should return the [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface of the object. The provider returns the interface by calling the [**UiaReturnRawElementProvider**](/windows/win32/UIAutomationCoreApi/nf-uiautomationcoreapi-uiareturnrawelementprovider?branch=master) function.
 
 The following example demonstrates shows how to respond to [**WM\_GETOBJECT**](wm-getobject.md).
 

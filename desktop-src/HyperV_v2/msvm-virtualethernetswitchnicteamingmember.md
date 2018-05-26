@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the association between a team ExternalEthernetPort and a member ExternalEthernetPort.'
-ms.assetid: 'e21bea94-d6a8-4788-958e-78ce255837aa'
-title: 'Msvm\_VirtualEthernetSwitchNicTeamingMember class'
+Description: Represents the association between a team ExternalEthernetPort and a member ExternalEthernetPort.
+ms.assetid: e21bea94-d6a8-4788-958e-78ce255837aa
+title: Msvm\_VirtualEthernetSwitchNicTeamingMember class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualEthernetSwitchNicTeamingMember class
@@ -71,8 +76,8 @@ Reference to the member [**Msvm\_ExternalEthernetPort**](msvm-externalethernetpo
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ Reference to the member [**Msvm\_ExternalEthernetPort**](msvm-externalethernetpo
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

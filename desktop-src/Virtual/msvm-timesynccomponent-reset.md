@@ -1,8 +1,11 @@
 ---
 title: Reset method of the Msvm\_TimeSyncComponent class
 description: Resets the logical device.
-ms.assetid: '5da0c6a4-52f2-4a43-92de-eef0d1de7350'
-keywords: ["Reset method Hyper-V", "Reset method Hyper-V , Msvm_TimeSyncComponent class", "Msvm_TimeSyncComponent class Hyper-V , Reset method"]
+ms.assetid: 5da0c6a4-52f2-4a43-92de-eef0d1de7350
+keywords:
+- Reset method Hyper-V
+- Reset method Hyper-V , Msvm_TimeSyncComponent class
+- Msvm_TimeSyncComponent class Hyper-V , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_TimeSyncComponent class
@@ -91,9 +99,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_TimeSyncComponent**](msvm-timesynccomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

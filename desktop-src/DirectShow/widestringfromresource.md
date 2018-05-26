@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WideStringFromResource function loads a wide-character string from a resource file with the given resource identifier.'
-ms.assetid: 'c5fac767-20c4-4342-9d4d-e1b916854b95'
+---
+Description: The WideStringFromResource function loads a wide-character string from a resource file with the given resource identifier.
+ms.assetid: c5fac767-20c4-4342-9d4d-e1b916854b95
 title: WideStringFromResource function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WideStringFromResource function

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the direction of an IContextLink object.'
-ms.assetid: '4ba7dca7-6801-45bf-bbf1-1dd3172fbfa2'
+Description: Specifies the direction of an IContextLink object.
+ms.assetid: 4ba7dca7-6801-45bf-bbf1-1dd3172fbfa2
 title: ContextLinkDirection enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextLinkDirection enumeration
@@ -13,9 +18,9 @@ Specifies the direction of an [**IContextLink**](icontextlink.md) object.
 
 ```C++
 typedef enum ContextLinkDirection { 
-  ContextLinkDirection_LinksWith  = 0,
-  ContextLinkDirection_LinksFrom  = 1,
-  ContextLinkDirection_LinksTo    = 2
+  ContextLinkDirection_LinksWith  = 0,
+  ContextLinkDirection_LinksFrom  = 1,
+  ContextLinkDirection_LinksTo    = 2
 } ContextLinkDirection;
 ```
 
@@ -100,7 +105,7 @@ while (pAncestor != NULL)
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 
@@ -116,9 +121,9 @@ while (pAncestor != NULL)
 [**IContextNode::AddContextLink**](icontextnode-addcontextlink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

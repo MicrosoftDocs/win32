@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCCInstPtr function returns the pointer to the instance data added to the capture context.'
-ms.assetid: '6fb103d3-583b-4460-8b9a-ff921751b0eb'
+Description: The GetCCInstPtr function returns the pointer to the instance data added to the capture context.
+ms.assetid: 6fb103d3-583b-4460-8b9a-ff921751b0eb
 title: GetCCInstPtr function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCCInstPtr function
@@ -33,8 +38,8 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -60,9 +65,9 @@ If the function is unsuccessful, the return value is **NULL**.
 [CCHeapSize](ccheapsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

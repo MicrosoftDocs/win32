@@ -1,7 +1,12 @@
 ---
 title: Operators for Ordered Tables
 description: Operators for Ordered Tables
-ms.assetid: '8bfd5000-40b3-43ae-a1cc-fa6b29676134'
+ms.assetid: 8bfd5000-40b3-43ae-a1cc-fa6b29676134
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operators for Ordered Tables

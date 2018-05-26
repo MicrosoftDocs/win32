@@ -4,17 +4,21 @@ description: Interface for ConsentCompletionCallback.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EA881F5A-4227-4D82-836C-12C754B0EFF2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: EA881F5A-4227-4D82-836C-12C754B0EFF2
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentCompletionCallback interface"]
+keywords:
+- ConsentCompletionCallback interface
 topic_type:
 - apiref
 api_name:
 - ConsentCompletionCallback interface
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentCompletionCallback interface
@@ -37,7 +41,7 @@ public interface ConsentCompletionCallback
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,7 +57,7 @@ ConsentCompletionCallback.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -70,9 +74,9 @@ Members of this class are not guaranteed to be thread safe.
 [Azure AD Authentication Library](https://msdn.microsoft.com/library/jj573266.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Settings.mute
 description: The mute property specifies and retrieves a value indicating whether audio is muted.
-ms.assetid: 'd6d4b46d-5631-4af7-bd99-21674f067121'
-keywords: ["Settings.mute Windows Media Player"]
+ms.assetid: d6d4b46d-5631-4af7-bd99-21674f067121
+keywords:
+- Settings.mute Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.mute
@@ -34,7 +40,7 @@ This property is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -71,9 +77,9 @@ The following example creates an HTML CHECKBOX element that allows the user to m
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

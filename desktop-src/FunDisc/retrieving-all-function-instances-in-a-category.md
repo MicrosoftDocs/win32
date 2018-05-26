@@ -1,7 +1,12 @@
 ---
-Description: 'The following topic describes how to retrieve function instances using Function Discovery APIs.'
-ms.assetid: '08e39100-bfc0-4e69-b311-451e144cdb90'
+Description: The following topic describes how to retrieve function instances using Function Discovery APIs.
+ms.assetid: 08e39100-bfc0-4e69-b311-451e144cdb90
 title: Retrieving All Function Instances in a Category
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving All Function Instances in a Category
@@ -10,16 +15,16 @@ title: Retrieving All Function Instances in a Category
 
 The following topic describes how to retrieve function instances using Function Discovery APIs.
 
-To get a collection of function instances, use the [**IFunctionDiscovery::GetInstanceCollection**](ifunctiondiscovery-getinstancecollection-method.md) method. To get a specified function instance and its index from the collection, use the [**IFunctionInstanceCollection::Get**](ifunctioninstancecollection-get.md) method. To get each function instance in the collection in order, use the [**IFunctionInstanceCollection::Item**](ifunctioninstancecollection-item-method.md) method.
+To get a collection of function instances, use the [**IFunctionDiscovery::GetInstanceCollection**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctiondiscovery-getinstancecollection?branch=master) method. To get a specified function instance and its index from the collection, use the [**IFunctionInstanceCollection::Get**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollection-get?branch=master) method. To get each function instance in the collection in order, use the [**IFunctionInstanceCollection::Item**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollection-item?branch=master) method.
 
-If the [**GetInstanceCollection**](ifunctiondiscovery-getinstancecollection-method.md) method succeeds but no function instances were found that matched the query parameters, then **GetInstanceCollection** returns **S\_OK**, *ppFunctionInstanceCollection* points to an empty collection, and the collection's [**GetCount**](ifunctioninstancecollection-getcount-method.md) method returns 0.
+If the [**GetInstanceCollection**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctiondiscovery-getinstancecollection?branch=master) method succeeds but no function instances were found that matched the query parameters, then **GetInstanceCollection** returns **S\_OK**, *ppFunctionInstanceCollection* points to an empty collection, and the collection's [**GetCount**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollection-getcount?branch=master) method returns 0.
 
 > [!Note]  
-> Function Discovery network providers, such as the SSDP Provider, the WSD Provider, only return instances through the [**IFunctionDiscoveryNotification**](ifunctiondiscoverynotification.md) interface.
+> Function Discovery network providers, such as the SSDP Provider, the WSD Provider, only return instances through the [**IFunctionDiscoveryNotification**](/windows/win32/FunctionDiscoveryNotification/nn-functiondiscoveryapi-ifunctiondiscoverynotification?branch=master) interface.
 
  
 
-The following code snippet demonstrates how to get an instance from the collection using the [**IFunctionInstanceCollection::Item**](ifunctioninstancecollection-item-method.md) method. Implement the **DisplayInstance** function to display the returned function instance.
+The following code snippet demonstrates how to get an instance from the collection using the [**IFunctionInstanceCollection::Item**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollection-item?branch=master) method. Implement the **DisplayInstance** function to display the returned function instance.
 
 
 ```C++
@@ -68,10 +73,10 @@ if ( S_OK == hr )
 
 
 
-The [**IFunctionInstanceQuery**](ifunctioninstancequery.md) interface implements the asynchronous query for a function instance based on category and subcategory. It is returned when [**IFunctionDiscovery::CreateInstanceQuery**](ifunctiondiscovery-createinstancequery-method.md) is invoked by the client program. Set interface constraints using [**IFunctionInstanceCollectionQuery**](ifunctioninstancecollectionquery.md) to filter on multiple interfaces at one time.
+The [**IFunctionInstanceQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancequery?branch=master) interface implements the asynchronous query for a function instance based on category and subcategory. It is returned when [**IFunctionDiscovery::CreateInstanceQuery**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctiondiscovery-createinstancequery?branch=master) is invoked by the client program. Set interface constraints using [**IFunctionInstanceCollectionQuery**](/windows/win32/FunctionDiscoveryAPI/nn-functiondiscoveryapi-ifunctioninstancecollectionquery?branch=master) to filter on multiple interfaces at one time.
 
 > [!Note]  
-> The [**IFunctionInstanceCollectionQuery::Execute**](ifunctioninstancecollectionquery-execute-method.md) method must be invoked by the client program before any data can be retrieved from the query object.
+> The [**IFunctionInstanceCollectionQuery::Execute**](/windows/win32/FunctionDiscoveryAPI/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-execute?branch=master) method must be invoked by the client program before any data can be retrieved from the query object.
 
  
 

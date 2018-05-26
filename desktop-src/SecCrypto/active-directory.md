@@ -1,7 +1,12 @@
 ---
-Description: 'Certificate Services supports the use of Active Directory.'
-ms.assetid: '214f08fb-89d4-4c06-bff8-b1d3bd92cb69'
+Description: Certificate Services supports the use of Active Directory.
+ms.assetid: 214f08fb-89d4-4c06-bff8-b1d3bd92cb69
 title: Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Active Directory

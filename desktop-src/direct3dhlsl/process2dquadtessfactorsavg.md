@@ -1,14 +1,20 @@
 ---
 title: Process2DQuadTessFactorsAvg function
 description: Generates the corrected tessellation factors for a quad patch.
-ms.assetid: '7f96f634-0ad5-4037-a08e-b0b99b89cd91'
-keywords: ["Process2DQuadTessFactorsAvg function HLSL"]
+ms.assetid: 7f96f634-0ad5-4037-a08e-b0b99b89cd91
+keywords:
+- Process2DQuadTessFactorsAvg function HLSL
 topic_type:
 - apiref
 api_name:
 - Process2DQuadTessFactorsAvg
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process2DQuadTessFactorsAvg function

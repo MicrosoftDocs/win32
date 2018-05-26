@@ -1,7 +1,12 @@
 ---
-Description: 'Transmit from Type-1 File'
-ms.assetid: '5be2248b-7917-4c1b-9ae7-29e06779eac6'
-title: 'Transmit from Type-1 File'
+Description: Transmit from Type-1 File
+ms.assetid: 5be2248b-7917-4c1b-9ae7-29e06779eac6
+title: Transmit from Type-1 File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transmit from Type-1 File
@@ -68,9 +73,9 @@ hr = pBuilder->RenderStream(0, 0, pTee, 0, 0);
 
 
 
-1.  Call [**IGraphBuilder::AddSourceFilter**](igraphbuilder-addsourcefilter.md) to add the source filter to the filter graph.
+1.  Call [**IGraphBuilder::AddSourceFilter**](/windows/win32/Strmif/nf-strmif-igraphbuilder-addsourcefilter?branch=master) to add the source filter to the filter graph.
 2.  Create the AVI Splitter and the Infinite Pin Tee, and add them to the graph.
-3.  Call [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) to connect the source filter to the AVI Splitter. Specifying MEDIATYPE\_Interleaved to ensure that the method fails if the source file is not a type-1 DV file. In that case, you can back out and attempt to build a type-2 transmit graph instead.
+3.  Call [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) to connect the source filter to the AVI Splitter. Specifying MEDIATYPE\_Interleaved to ensure that the method fails if the source file is not a type-1 DV file. In that case, you can back out and attempt to build a type-2 transmit graph instead.
 4.  Call **RenderStream** again to route the interleaved stream from the AVI Splitter to the Infinite Pin Tee
 5.  Call RenderStream a third time to route one stream from the Infinite Pin Tee to the MSDV filter, for transmit to the device.
 6.  Call **RenderStream** one last time, to build the preview section of the graph.

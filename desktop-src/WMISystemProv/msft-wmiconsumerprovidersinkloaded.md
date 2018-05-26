@@ -4,11 +4,13 @@ description: Defines the successful activation of the event consumer provider si
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a3a8f485-9336-4165-91cb-caf6dca9232a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a3a8f485-9336-4165-91cb-caf6dca9232a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiConsumerProviderSinkLoaded class", "MSFT_WmiConsumerProviderSinkLoaded class, described"]
+keywords:
+- MSFT_WmiConsumerProviderSinkLoaded class
+- MSFT_WmiConsumerProviderSinkLoaded class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiConsumerProviderSinkLoaded class
@@ -36,11 +41,11 @@ The following syntax is simplified from Managed Object Format (MOF) code, and in
 ``` syntax
 class MSFT_WmiConsumerProviderSinkLoaded : MSFT_WmiConsumerProviderEvent
 {
-  uint8               SECURITY_DESCRIPTOR[];
-  uint64              TIME_CREATED;
-  string              Namespace;
-  string              ProviderName;
-  string              Machine;
+  uint8               SECURITY_DESCRIPTOR[];
+  uint64              TIME_CREATED;
+  string              Namespace;
+  string              ProviderName;
+  string              Machine;
   __EventConsumer REF Consumer;
 };
 ```
@@ -153,8 +158,8 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -180,9 +185,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

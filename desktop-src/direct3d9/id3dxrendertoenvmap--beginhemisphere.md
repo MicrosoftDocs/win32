@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initiate the rendering of a hemispheric environment map.'
-ms.assetid: '1150aad9-dd8c-4943-afaf-90794faaaf70'
-title: 'ID3DXRenderToEnvMap::BeginHemisphere method'
+---
+Description: Initiate the rendering of a hemispheric environment map.
+ms.assetid: 1150aad9-dd8c-4943-afaf-90794faaaf70
+title: ID3DXRenderToEnvMapBeginHemisphere method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap::BeginHemisphere method
@@ -27,18 +32,18 @@ HRESULT BeginHemisphere(
 *pTexZPos* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface that represents the positive texture render surface.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface that represents the positive texture render surface.
 
 </dd> <dt>
 
 *pTexZNeg* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface that represents the negative texture render surface.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface that represents the negative texture render surface.
 
 </dd> </dl>
 

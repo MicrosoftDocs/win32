@@ -1,14 +1,20 @@
 ---
 title: MultipleResponseInteractions (Interactions) Element
 description: Defines a collection of multiple response interactions.
-ms.assetid: 'd7ce970d-9e93-4258-aad8-2bc594ea46dc'
-keywords: ["MultipleResponseInteractions element Windows Troubleshooting Toolkit"]
+ms.assetid: d7ce970d-9e93-4258-aad8-2bc594ea46dc
+keywords:
+- MultipleResponseInteractions element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - MultipleResponseInteractions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MultipleResponseInteractions (Interactions) Element
@@ -27,14 +33,14 @@ The **MultipleResponseInteractions** element is defined by the [**Interactions**
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '7B974255-2FCB-4EFE-B33F-9856E0A09FC4'
+---
+Description: .
+ms.assetid: 7B974255-2FCB-4EFE-B33F-9856E0A09FC4
 title: CallRouterFindFirstPrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CallRouterFindFirstPrinterChangeNotification function

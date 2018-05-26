@@ -1,8 +1,11 @@
 ---
 title: Trace GetFile method
 description: Returns the file name of the Trace.
-ms.assetid: 'DD8383A6-DA9F-4257-BDBA-AD266B95AEE2'
-keywords: ["GetFile method Access Execution Engine", "GetFile method Access Execution Engine , Trace interface", "Trace interface Access Execution Engine , GetFile method"]
+ms.assetid: DD8383A6-DA9F-4257-BDBA-AD266B95AEE2
+keywords:
+- GetFile method Access Execution Engine
+- GetFile method Access Execution Engine , Trace interface
+- Trace interface Access Execution Engine , GetFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace::GetFile method
@@ -22,7 +30,7 @@ Returns the file name of the **Trace**.
 
 ```C++
 virtual HRESULT GetFile(
-  [out] LPCWSTR *file
+  [out] LPCWSTR *file
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The file name is the value of element **Trace/File**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The file name is the value of element **Trace/File**.
 [**Trace**](trace-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: State of a node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c1887055-518a-4177-a618-418c75883d69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c1887055-518a-4177-a618-418c75883d69
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["State property Failover Cluster", "State property Failover Cluster , ClusNode object", "ClusNode object Failover Cluster , State property"]
+keywords:
+- State property Failover Cluster
+- State property Failover Cluster , ClusNode object
+- ClusNode object Failover Cluster , State property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNode.State property
@@ -38,7 +44,7 @@ ClusNode.State
 
 ## Property value
 
-Long that receives one of the following values describes the node's current state, enumerated by the [**CLUSTER\_NODE\_STATE**](cluster-node-state.md) enumeration.
+Long that receives one of the following values describes the node's current state, enumerated by the [**CLUSTER\_NODE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_node_state?branch=master) enumeration.
 
 <dt>
 
@@ -106,7 +112,7 @@ The **ClusterNodeDown** state only indicates that a node is inactive; it does no
 -   The node cannot communicate with the node controlling the [quorum resource](quorum-resource.md).
 -   The node is inactive for any other reason.
 
-When a node is operating as an active member of a cluster but cannot host any resources or groups, it is in the **ClusterNodePaused** state (see the [**PauseClusterNode**](pauseclusternode.md) function). Nodes that are undergoing maintenance are typically placed in this state.
+When a node is operating as an active member of a cluster but cannot host any resources or groups, it is in the **ClusterNodePaused** state (see the [**PauseClusterNode**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_pause_cluster_node?branch=master) function). Nodes that are undergoing maintenance are typically placed in this state.
 
 For information on making constants defined by the Cluster Automation Server type library (MsClus.tlb) available to scripts, see [Creating a Cluster Automation Server Script](creating-a-cluster-automation-server-script.md).
 
@@ -117,7 +123,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -133,12 +139,12 @@ For information on making constants defined by the Cluster Automation Server typ
 [**ClusNode**](clusnode-object.md)
 </dt> <dt>
 
-[**CLUSTER\_NODE\_STATE**](cluster-node-state.md)
+[**CLUSTER\_NODE\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_node_state?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

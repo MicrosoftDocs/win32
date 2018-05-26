@@ -1,7 +1,12 @@
 ---
 title: VariantNotInt (CheckRole)
 description: VariantNotInt (CheckRole)
-ms.assetid: '24A9E91D-92E6-492B-B5CE-DF42E5923F60'
+ms.assetid: 24A9E91D-92E6-492B-B5CE-DF42E5923F60
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VariantNotInt (CheckRole)
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-An element is reporting an invalid MSAA role. For example, the [**get\_accRole**](iaccessible-iaccessible--get-accrole.md) method used to retrieve the MSAA role of an element should return an integer value that represents one of the MSAA role constants, but is returning another variant instead.
+An element is reporting an invalid MSAA role. For example, the [**get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master) method used to retrieve the MSAA role of an element should return an integer value that represents one of the MSAA role constants, but is returning another variant instead.
 
 This issue causes problems for people who rely on a screen-reader and keyboard for navigation because elements may be incorrectly identified to the user.
 
@@ -28,7 +33,7 @@ The element or its parent has an MSAA role set inappropriately.
 
 <dl> <dt>
 
-[**IAccessible::get\_accRole**](iaccessible-iaccessible--get-accrole.md)
+[**IAccessible::get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master)
 </dt> <dt>
 
 [**Object Roles**](object-roles.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'The SelectDefaultAudioLanguage method sets the current default audio language in the MSWebDVD object.'
-ms.assetid: '7d63b7ef-2b03-4929-822a-c4d11fb7a825'
+Description: The SelectDefaultAudioLanguage method sets the current default audio language in the MSWebDVD object.
+ms.assetid: 7d63b7ef-2b03-4929-822a-c4d11fb7a825
 title: SelectDefaultAudioLanguage Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectDefaultAudioLanguage Method

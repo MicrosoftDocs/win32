@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the model number of the device.'
-ms.assetid: '1261e029-4cdf-4e35-a4b3-57dd151e2e7f'
+Description: Specifies the model number of the device.
+ms.assetid: 1261e029-4cdf-4e35-a4b3-57dd151e2e7f
 title: modelNumber element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # modelNumber element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

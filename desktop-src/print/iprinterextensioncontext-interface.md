@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the context for the activation of a UWP device app for printers.'
-ms.assetid: 'DD0B5E6F-8E16-48E1-967B-D188535E1320'
+---
+Description: Represents the context for the activation of a UWP device app for printers.
+ms.assetid: DD0B5E6F-8E16-48E1-967B-D188535E1320
 title: IPrinterExtensionContext interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContext interface

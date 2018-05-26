@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETCOLUMN message
-description: Gets the attributes of a list-view control's column. You can send this message explicitly or by using the ListView\_GetColumn macro.
-ms.assetid: '59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6'
-keywords: ["LVM_GETCOLUMN message Windows Controls"]
+description: Gets the attributes of a list-view controls column. You can send this message explicitly or by using the ListView\_GetColumn macro.
+ms.assetid: 59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6
+keywords:
+- LVM_GETCOLUMN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETCOLUMN message
 
-Gets the attributes of a list-view control's column. You can send this message explicitly or by using the [**ListView\_GetColumn**](listview-getcolumn.md) macro.
+Gets the attributes of a list-view control's column. You can send this message explicitly or by using the [**ListView\_GetColumn**](/windows/win32/Commctrl/nf-commctrl-listview_getcolumn?branch=master) macro.
 
 ## Parameters
 
@@ -31,7 +37,7 @@ The index of the column.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**LVCOLUMN**](lvcolumn.md) structure that specifies the information to retrieve and receives information about the column. The **mask** member specifies which column attributes to retrieve. If the **mask** member specifies the LVCF\_TEXT value, the **pszText** member must contain the address of the buffer that receives the item text and the **cchTextMax** member must specify the size of the buffer.
+A pointer to an [**LVCOLUMN**](/windows/win32/Commctrl/ns-commctrl-taglvcolumna?branch=master) structure that specifies the information to retrieve and receives information about the column. The **mask** member specifies which column attributes to retrieve. If the **mask** member specifies the LVCF\_TEXT value, the **pszText** member must contain the address of the buffer that receives the item text and the **cchTextMax** member must specify the size of the buffer.
 
 </dd> </dl>
 
@@ -45,15 +51,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

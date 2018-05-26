@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '7291a0ec-7a43-4fc6-ac1d-60487b2ad3d8'
+---
+Description: .
+ms.assetid: 7291a0ec-7a43-4fc6-ac1d-60487b2ad3d8
 title: DrvSplStartPage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplStartPage function

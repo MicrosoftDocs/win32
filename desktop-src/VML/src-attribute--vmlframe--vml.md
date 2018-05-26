@@ -1,7 +1,12 @@
 ---
 title: Src Attribute (VMLFrame)(VML)
 description: Src Attribute (VMLFrame)(VML)
-ms.assetid: '6ac7a3b5-3c1d-43a0-ab92-a03e3bd45733'
+ms.assetid: 6ac7a3b5-3c1d-43a0-ab92-a03e3bd45733
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Src Attribute (VMLFrame)(VML)

@@ -4,17 +4,21 @@ description: Specifies the name of a Blob container for an Azure Cloud Witness.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3D45D51F-93AF-45DA-95D0-2A4354982618'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3D45D51F-93AF-45DA-95D0-2A4354982618
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["msft-cloud-witness Failover Cluster"]
+keywords:
+- msft-cloud-witness Failover Cluster
 topic_type:
 - apiref
 api_name:
 - msft-cloud-witness
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msft-cloud-witness
@@ -34,7 +38,7 @@ Specifies the name of a Blob container for an Azure Cloud Witness.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLOUD\_WITNESS\_CONTAINER\_NAME**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLOUD\_WITNESS\_CONTAINER\_NAME**.
 [Cloud Witness Private Properties](cloud-witness-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

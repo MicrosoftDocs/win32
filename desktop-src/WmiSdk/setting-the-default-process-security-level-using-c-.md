@@ -1,13 +1,16 @@
 ---
-Description: 'When a client application logs on to Windows Management Instrumentation (WMI) for the first time, it must set the default process security level with a call to CoInitializeSecurity.'
+Description: When a client application logs on to Windows Management Instrumentation (WMI) for the first time, it must set the default process security level with a call to CoInitializeSecurity.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4248fd1b-0867-40d8-8c9c-541156212df8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4248fd1b-0867-40d8-8c9c-541156212df8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting the Default Process Security Level Using C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting the Default Process Security Level Using C++

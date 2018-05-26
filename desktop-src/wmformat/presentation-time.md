@@ -1,8 +1,17 @@
 ---
 title: Presentation Time
 description: Presentation Time
-ms.assetid: '856e1783-85b4-4195-970f-3d7b5612672b'
-keywords: ["Windows Media Format SDK,presentation times", "Advanced Systems Format (ASF),presentation times", "ASF (Advanced Systems Format),presentation times", "presentation times"]
+ms.assetid: 856e1783-85b4-4195-970f-3d7b5612672b
+keywords:
+- Windows Media Format SDK,presentation times
+- Advanced Systems Format (ASF),presentation times
+- ASF (Advanced Systems Format),presentation times
+- presentation times
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Presentation Time

@@ -1,7 +1,12 @@
 ---
 title: Error Codes
 description: The following table provides error codes, a description of the error code, and if applicable, the action that the application should take in the event the error is encountered.
-ms.assetid: '18b2b037-5a0d-4d47-8eab-25075f248081'
+ms.assetid: 18b2b037-5a0d-4d47-8eab-25075f248081
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Codes

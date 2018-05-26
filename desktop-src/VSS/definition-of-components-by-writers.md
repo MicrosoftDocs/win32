@@ -1,14 +1,19 @@
 ---
-Description: 'Components are defined by and instantiated by writers in their Writer Metadata Document in response to an Identify event at the start of a backup operation (see Overview of Backup Initialization) when the Writer Metadata Document is populated.'
-ms.assetid: '5e1c3f9b-ca83-4e70-963b-0a237c6f4b0d'
+Description: Components are defined by and instantiated by writers in their Writer Metadata Document in response to an Identify event at the start of a backup operation (see Overview of Backup Initialization) when the Writer Metadata Document is populated.
+ms.assetid: 5e1c3f9b-ca83-4e70-963b-0a237c6f4b0d
 title: Definition of Components by Writers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Definition of Components by Writers
 
 Components are defined by and instantiated by writers in their Writer Metadata Document in response to an [*Identify event*](vssgloss-i.md#base-vssgloss-identify-event) at the start of a backup operation (see [Overview of Backup Initialization](overview-of-backup-initialization.md)) when the Writer Metadata Document is populated.
 
-When creating a component in its Writer Metadata Document, using [**IVssCreateWriterMetadata**](ivsscreatewritermetadata.md) and [**IVssCreateWriterMetadata::AddComponent**](ivsscreatewritermetadata-addcomponent.md), a writer must specify:
+When creating a component in its Writer Metadata Document, using [**IVssCreateWriterMetadata**](/windows/win32/VsWriter/nl-vswriter-ivsscreatewritermetadata?branch=master) and [**IVssCreateWriterMetadata::AddComponent**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-addcomponent?branch=master), a writer must specify:
 
 -   Whether the component is [*selectable for backup*](vssgloss-s.md#base-vssgloss-selectability-for-backup)
 -   A component type
@@ -48,7 +53,7 @@ A component contains file information in the form of a [*file set*](vssgloss-f.m
 -   A file specification for the files in the component.
 -   A flag that indicates whether the component's specification is recursive.
 
-Depending on component type, which can be a database or a file group, and (in the case of database components) whether the files to be loaded are data or log files, a writer calls [**IVssCreateWriterMetadata::AddFilesToFileGroup**](ivsscreatewritermetadata-addfilestofilegroup.md), [**IVssCreateWriterMetadata::AddDatabaseFiles**](ivsscreatewritermetadata-adddatabasefiles.md), or [**IVssCreateWriterMetadata::AddDatabaseLogFiles**](ivsscreatewritermetadata-adddatabaselogfiles.md) to add a file set.
+Depending on component type, which can be a database or a file group, and (in the case of database components) whether the files to be loaded are data or log files, a writer calls [**IVssCreateWriterMetadata::AddFilesToFileGroup**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup?branch=master), [**IVssCreateWriterMetadata::AddDatabaseFiles**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles?branch=master), or [**IVssCreateWriterMetadata::AddDatabaseLogFiles**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles?branch=master) to add a file set.
 
 When using these functions, you should specify the files to be added to the file set as follows:
 
@@ -94,11 +99,11 @@ Note that such Writer Metadata Document attributes as alternate location mapping
 
 ## Component Definition for Backup and Restore Operations
 
-Both restore and backup operations necessarily generate an [*Identify event*](vssgloss-i.md#base-vssgloss-identify-event), and for both backups and restores it will be handled by the same [**CVssWriter::OnIdentify**](cvsswriter-onidentify.md) method.
+Both restore and backup operations necessarily generate an [*Identify event*](vssgloss-i.md#base-vssgloss-identify-event), and for both backups and restores it will be handled by the same [**CVssWriter::OnIdentify**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onidentify?branch=master) method.
 
-During backup operations, requesters use the information returned by a writer's [**CVssWriter::OnIdentify**](cvsswriter-onidentify.md) methods to determine which writers are present on the system and then to determine which of their files to back up.
+During backup operations, requesters use the information returned by a writer's [**CVssWriter::OnIdentify**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onidentify?branch=master) methods to determine which writers are present on the system and then to determine which of their files to back up.
 
-During restore operations, the information returned by a writer's [**CVssWriter::OnIdentify**](cvsswriter-onidentify.md) event is used only to establish the identity and status of writers currently present on the system; the file specification information generated during a restore is not used. Instead, Writer Metadata Documents stored at backup time are used to obtain this data.
+During restore operations, the information returned by a writer's [**CVssWriter::OnIdentify**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onidentify?branch=master) event is used only to establish the identity and status of writers currently present on the system; the file specification information generated during a restore is not used. Instead, Writer Metadata Documents stored at backup time are used to obtain this data.
 
 Once generated during a backup operation, the writer component information, along with the rest of the writer information, is saved to be retrieved to support restore operations. It is typically the responsibility of the requester to store this information.
 

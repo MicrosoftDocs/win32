@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_GainControl.'
-ms.assetid: '5b94f7b8-ced8-4f49-bba2-30d15bafba4e'
-title: 'System.Photo.GainControlNumerator'
+Description: The numerator of PKEY\_Photo\_GainControl.
+ms.assetid: 5b94f7b8-ced8-4f49-bba2-30d15bafba4e
+title: System.Photo.GainControlNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.GainControlNumerator

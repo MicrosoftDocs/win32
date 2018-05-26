@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '358ebb76-5e19-47e9-83dc-0ba84170ddb1'
-title: 'System.Contact.DisplayHomePhoneNumbers'
+Description: .
+ms.assetid: 358ebb76-5e19-47e9-83dc-0ba84170ddb1
+title: System.Contact.DisplayHomePhoneNumbers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.DisplayHomePhoneNumbers

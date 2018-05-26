@@ -1,19 +1,25 @@
 ---
 title: opcode (TaskEventDefinitionType) Element
 description: Contains a task-specific opcode for an event. All of the opcode definitions are assumed to be task-specific for the task that contains the event definitions.
-ms.assetid: 'c7192772-401b-4602-918d-0e0bc4b65ca7'
-keywords: ["opcode element EventLog"]
+ms.assetid: c7192772-401b-4602-918d-0e0bc4b65ca7
+keywords:
+- opcode element EventLog
 topic_type:
 - apiref
 api_name:
 - opcode
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # opcode (TaskEventDefinitionType) Element
 
-\[Beginning with the message compiler that ships with the Windows 7 version of the Windows SDK, this element is no longer available.\]
+\[Beginning with the message compiler that ships with the Windows 7 version of the Windows SDK, this element is no longer available.\]
 
 Contains a task-specific opcode for an event. All of the opcode definitions are assumed to be task-specific for the task that contains the event definitions.
 
@@ -62,8 +68,8 @@ The **opcode** element is defined by the [**TaskEventDefinitionType**](eventmani
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -77,9 +83,9 @@ The **opcode** element is defined by the [**TaskEventDefinitionType**](eventmani
 [**task (DefinitionType)**](eventmanifestschema-task-definitiontype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

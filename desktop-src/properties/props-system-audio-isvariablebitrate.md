@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the audio file had a variable or constant bit rate.'
-ms.assetid: '42f5b22f-b734-4766-b34b-fe9750df032a'
-title: 'System.Audio.IsVariableBitRate'
+Description: Indicates whether the audio file had a variable or constant bit rate.
+ms.assetid: 42f5b22f-b734-4766-b34b-fe9750df032a
+title: System.Audio.IsVariableBitRate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Audio.IsVariableBitRate

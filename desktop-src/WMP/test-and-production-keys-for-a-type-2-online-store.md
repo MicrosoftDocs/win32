@@ -1,8 +1,25 @@
 ---
 title: Test and Production Keys for a Type 2 Online Store
 description: Test and Production Keys for a Type 2 Online Store
-ms.assetid: '4fce47e2-d73d-4484-9bda-48257268ed96'
-keywords: ["Windows Media Player online stores,test keys", "online stores,test keys", "type 2 online stores,test keys", "Windows Media Player online stores,production keys", "online stores,production keys", "type 2 online stores,production keys", "Windows Media Player online stores,ServiceInfo document", "online stores,ServiceInfo document", "type 2 online stores,ServiceInfo document", "test keys", "production keys", "ServiceInfo document"]
+ms.assetid: 4fce47e2-d73d-4484-9bda-48257268ed96
+keywords:
+- Windows Media Player online stores,test keys
+- online stores,test keys
+- type 2 online stores,test keys
+- Windows Media Player online stores,production keys
+- online stores,production keys
+- type 2 online stores,production keys
+- Windows Media Player online stores,ServiceInfo document
+- online stores,ServiceInfo document
+- type 2 online stores,ServiceInfo document
+- test keys
+- production keys
+- ServiceInfo document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Test and Production Keys for a Type 2 Online Store

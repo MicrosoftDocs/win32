@@ -1,14 +1,21 @@
 ---
 title: INTERFACE\_ROUTE\_INFO structure
 description: Used to specify the routes to be added or deleted on an RRAS server.
-ms.assetid: '6dbf86b8-80bd-4000-8047-91a76875829f'
-keywords: ["INTERFACE_ROUTE_INFO structure RAS", "PINTERFACE_ROUTE_INFO structure pointer RAS"]
+ms.assetid: 6dbf86b8-80bd-4000-8047-91a76875829f
+keywords:
+- INTERFACE_ROUTE_INFO structure RAS
+- PINTERFACE_ROUTE_INFO structure pointer RAS
 topic_type:
 - apiref
 api_name:
 - INTERFACE_ROUTE_INFO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INTERFACE\_ROUTE\_INFO structure
@@ -33,11 +40,11 @@ typedef struct _INTERFACE_ROUTE_INFO {
     };
     struct {
       IN6_ADDR DestinationPrefix;
-      DWORD    DestPrefixLength;
+      DWORD    DestPrefixLength;
       IN6_ADDR NextHopAddress;
-      ULONG    ValidLifeTime;
-      DWORD    Flags;
-      ULONG    Metric;
+      ULONG    ValidLifeTime;
+      DWORD    Flags;
+      ULONG    Metric;
     };
   };
   DWORD dwRtInfoIfIndex;
@@ -45,7 +52,7 @@ typedef struct _INTERFACE_ROUTE_INFO {
   DWORD dwRtInfoProto;
   DWORD dwRtInfoPreference;
   DWORD dwRtInfoViewSet;
-  BOOL  bV4;
+  BOOL  bV4;
 } INTERFACE_ROUTE_INFO, *PINTERFACE_ROUTE_INFO;
 ```
 
@@ -100,21 +107,21 @@ The autonomous system number of the next hop. When this member is unknown or not
 **dwRtInfoMetric1**
 </dt> <dd>
 
-An alternate routing metric value for this route. The semantics of this metric are determined by the routing protocol specified in **dwRtInfoProto**. If this metric is not used, its value should be set to –1. This value is documented in [RFC 1354](Http://go.microsoft.com/fwlink/p/?linkid=84028).
+An alternate routing metric value for this route. The semantics of this metric are determined by the routing protocol specified in **dwRtInfoProto**. If this metric is not used, its value should be set to  1. This value is documented in [RFC 1354](Http://go.microsoft.com/fwlink/p/?linkid=84028).
 
 </dd> <dt>
 
 **dwRtInfoMetric2**
 </dt> <dd>
 
-An alternate routing metric value for this route. The semantics of this metric are determined by the routing protocol specified in **dwRtInfoProto**. If this metric is not used, its value should be set to –1. This value is documented in [RFC 1354](Http://go.microsoft.com/fwlink/p/?linkid=84028).
+An alternate routing metric value for this route. The semantics of this metric are determined by the routing protocol specified in **dwRtInfoProto**. If this metric is not used, its value should be set to  1. This value is documented in [RFC 1354](Http://go.microsoft.com/fwlink/p/?linkid=84028).
 
 </dd> <dt>
 
 **dwRtInfoMetric3**
 </dt> <dd>
 
-An alternate routing metric value for this route. The semantics of this metric are determined by the routing protocol specified in **dwRtInfoProto**. If this metric is not used, its value should be set to –1. This value is documented in [RFC 1354](Http://go.microsoft.com/fwlink/p/?linkid=84028).
+An alternate routing metric value for this route. The semantics of this metric are determined by the routing protocol specified in **dwRtInfoProto**. If this metric is not used, its value should be set to  1. This value is documented in [RFC 1354](Http://go.microsoft.com/fwlink/p/?linkid=84028).
 
 </dd> </dl> </dd> <dt>
 
@@ -163,7 +170,7 @@ Reserved. Do not use.
 **Metric**
 </dt> <dd>
 
-The route metric offset for this IP route entry. The actual route metric used to compute the route preference is the summation of the interface metric specified in the **Metric** member of the [**MIB\_IPINTERFACE\_ROW**](https://msdn.microsoft.com/library/windows/desktop/aa814496) structure and the route metric offset specified in this member. The semantics of this metric are determined by the routing protocol specified in **Protocol**. If this metric is not used, its value should be set to –1. This value is documented in [RFC 4292](Http://go.microsoft.com/fwlink/p/?linkid=84065).
+The route metric offset for this IP route entry. The actual route metric used to compute the route preference is the summation of the interface metric specified in the **Metric** member of the [**MIB\_IPINTERFACE\_ROW**](https://msdn.microsoft.com/library/windows/desktop/aa814496) structure and the route metric offset specified in this member. The semantics of this metric are determined by the routing protocol specified in **Protocol**. If this metric is not used, its value should be set to  1. This value is documented in [RFC 4292](Http://go.microsoft.com/fwlink/p/?linkid=84065).
 
 </dd> </dl> </dd> <dt>
 
@@ -190,7 +197,7 @@ The route type as described in [RFC 1354](Http://go.microsoft.com/fwlink/p/?link
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -222,7 +229,7 @@ The protocol or routing mechanism that generated the route. See [Protocol Identi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -252,7 +259,7 @@ Specifies the Route Information Table Views. It can take one of the following va
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -273,8 +280,8 @@ The [INTERFACE\_ROUTE\_INFO](#interface-route-info-structure) structure is not d
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 
 
 
@@ -285,12 +292,12 @@ The [INTERFACE\_ROUTE\_INFO](#interface-route-info-structure) structure is not d
 [Router Information Structures](router-information-structures.md)
 </dt> <dt>
 
-[**MprInfoBlockAdd**](mprinfoblockadd.md)
+[**MprInfoBlockAdd**](/windows/win32/Mprapi/nf-mprapi-mprinfoblockadd?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

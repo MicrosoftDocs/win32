@@ -1,7 +1,12 @@
 ---
 title: switch (sm4 - asm)
 description: Transfers control to a different statement block within the switch body depending on the value of a selector.
-ms.assetid: 'ECAEECFD-B955-4356-B5C9-1D6A04C71D8F'
+ms.assetid: ECAEECFD-B955-4356-B5C9-1D6A04C71D8F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # switch (sm4 - asm)
@@ -15,7 +20,7 @@ Transfers control to a different statement block within the switch body dependin
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Transfers control to a different statement block within the switch body dependin
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,7 +73,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -87,7 +92,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -96,9 +101,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

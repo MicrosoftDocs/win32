@@ -1,14 +1,20 @@
 ---
 title: ResultsPublishPath element
 description: Specifies a UNC path to a file containing results.
-ms.assetid: 'BAA8E7D4-5DA3-4669-B737-1FF3A637B926'
-keywords: ["ResultsPublishPath element Access Execution Engine"]
+ms.assetid: BAA8E7D4-5DA3-4669-B737-1FF3A637B926
+keywords:
+- ResultsPublishPath element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ResultsPublishPath
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultsPublishPath element
@@ -70,9 +76,9 @@ Object Model Warnings Supported: If the path is not a valid UNC path.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

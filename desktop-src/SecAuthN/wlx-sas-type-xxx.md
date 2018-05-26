@@ -1,7 +1,12 @@
-﻿---
-Description: 'Values define a specific SAS type.'
-ms.assetid: 'c0a1269b-f9d4-49e1-89ca-526fef148134'
-title: 'WLX\_SAS\_TYPE\_XXX'
+---
+Description: Values define a specific SAS type.
+ms.assetid: c0a1269b-f9d4-49e1-89ca-526fef148134
+title: WLX\_SAS\_TYPE\_XXX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLX\_SAS\_TYPE\_XXX

@@ -1,14 +1,20 @@
 ---
 title: AllMemoryBarrier function
 description: Blocks execution of all threads in a group until all memory accesses have been completed.
-ms.assetid: '63593de6-7b92-4f29-bcd9-21c69b9defcb'
-keywords: ["AllMemoryBarrier function HLSL"]
+ms.assetid: 63593de6-7b92-4f29-bcd9-21c69b9defcb
+keywords:
+- AllMemoryBarrier function HLSL
 topic_type:
 - apiref
 api_name:
 - AllMemoryBarrier
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllMemoryBarrier function

@@ -1,7 +1,12 @@
 ---
 title: CustomNavigation Control Pattern
 description: Describes guidelines and conventions for implementing the ICustomNavigationProvider interface, including information about properties and methods.
-ms.assetid: '428540BB-5CC0-4F49-8384-0FFC130FBB38'
+ms.assetid: 428540BB-5CC0-4F49-8384-0FFC130FBB38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CustomNavigation Control Pattern
@@ -32,13 +37,13 @@ The following properties are required for implementing the **ICustomNavigationPr
 
 | Required members                                                                  | Member type | Notes                                                                               |
 |-----------------------------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------|
-| [**CachedLevel**](uiauto-iuiautomationelement4-cachedlevel.md)                   | Property    | Located on [**IUIAutomationElement4**](uiauto-iuiautomationelement4.md) interface. |
-| [**CachedPositionInSet**](uiauto-iuiautomationelement4-cachedpositioninset.md)   | Property    | Located on [**IUIAutomationElement4**](uiauto-iuiautomationelement4.md) interface. |
-| [**CachedSizeOfSet**](uiauto-iuiautomationelement4-cachedsizeofset.md)           | Property    | Located on [**IUIAutomationElement4**](uiauto-iuiautomationelement4.md) interface. |
-| [**CurrentLevel**](uiauto-iuiautomationelement4-currentlevel.md)                 | Property    | Located on [**IUIAutomationElement4**](uiauto-iuiautomationelement4.md) interface. |
-| [**CurrentPositionInSet**](uiauto-iuiautomationelement4-currentpositioninset.md) | Property    | Located on [**IUIAutomationElement4**](uiauto-iuiautomationelement4.md) interface. |
-| [**CurrentSizeOfSet**](uiauto-iuiautomationelement4-currentsizeofset.md)         | Property    | Located on [**IUIAutomationElement4**](uiauto-iuiautomationelement4.md) interface. |
-| [**Navigate**](uiauto-irawelementproviderfragment-navigate.md)                   | Method      | None                                                                                |
+| [**CachedLevel**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement4-get_cachedlevel?branch=master)                   | Property    | Located on [**IUIAutomationElement4**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement4?branch=master) interface. |
+| [**CachedPositionInSet**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement4-get_cachedpositioninset?branch=master)   | Property    | Located on [**IUIAutomationElement4**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement4?branch=master) interface. |
+| [**CachedSizeOfSet**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement4-get_cachedsizeofset?branch=master)           | Property    | Located on [**IUIAutomationElement4**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement4?branch=master) interface. |
+| [**CurrentLevel**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement4-get_currentlevel?branch=master)                 | Property    | Located on [**IUIAutomationElement4**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement4?branch=master) interface. |
+| [**CurrentPositionInSet**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement4-get_currentpositioninset?branch=master) | Property    | Located on [**IUIAutomationElement4**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement4?branch=master) interface. |
+| [**CurrentSizeOfSet**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement4-get_currentsizeofset?branch=master)         | Property    | Located on [**IUIAutomationElement4**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement4?branch=master) interface. |
+| [**Navigate**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-navigate?branch=master)                   | Method      | None                                                                                |
 
 
 

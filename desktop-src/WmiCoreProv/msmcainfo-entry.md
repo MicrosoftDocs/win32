@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates an MCA, corrected machine check (CMC), or corrected platform error (CPE) information entry. This class is available only in 64-bit Windows systems.'
-ms.assetid: '4edbca20-2525-4e35-ab79-8cf421343144'
-title: 'MSMCAInfo\_Entry class'
+Description: Indicates an MCA, corrected machine check (CMC), or corrected platform error (CPE) information entry. This class is available only in 64-bit Windows systems.
+ms.assetid: 4edbca20-2525-4e35-ab79-8cf421343144
+title: MSMCAInfo\_Entry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAInfo\_Entry class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSMCAInfo_Entry : MSMCAInfo
 {
-  uint8  Data[];
+  uint8  Data[];
   uint32 Length;
 };
 ```
@@ -68,8 +73,8 @@ The **MSMCAInfo\_Entry** class is derived from [**MSMCAInfo**](msmcainfo.md).
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -86,9 +91,9 @@ The **MSMCAInfo\_Entry** class is derived from [**MSMCAInfo**](msmcainfo.md).
 [**MSMCAInfo**](msmcainfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

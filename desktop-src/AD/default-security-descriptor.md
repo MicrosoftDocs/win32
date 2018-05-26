@@ -4,11 +4,16 @@ description: With Active Directory Domain Services, you can also specify default
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6642c966-c163-4d63-8707-62a545d15094'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6642c966-c163-4d63-8707-62a545d15094
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Default Security Descriptor AD", "security descriptors AD , default"]
+keywords:
+- Default Security Descriptor AD
+- security descriptors AD , default
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Default Security Descriptor

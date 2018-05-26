@@ -4,11 +4,13 @@ description: The Processor data object. Statistic data is calculated based on cu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1b001150-5b56-4592-81fb-52ba3948d16f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 1b001150-5b56-4592-81fb-52ba3948d16f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTProcessorSummary class", "MSFT_MTProcessorSummary class, described"]
+keywords:
+- MSFT_MTProcessorSummary class
+- MSFT_MTProcessorSummary class, described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTProcessorSummary class
@@ -491,7 +496,7 @@ HyperVIncapable - Hyper-V incapable
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -508,9 +513,9 @@ HyperVIncapable - Hyper-V incapable
 [Management Tools Task Manager WMI Provider](management-tools-task-manager-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

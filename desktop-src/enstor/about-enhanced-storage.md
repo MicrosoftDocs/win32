@@ -1,7 +1,12 @@
 ---
 title: About Enhanced Storage
 description: Enhanced Storage currently supports devices implementing the IEEE 1667 standard (http //www.ieee1667.com) which defines a mechanism of storage target authentication prior to data access.
-ms.assetid: '32b8b07b-87c1-49ce-8034-30ab7cb19796'
+ms.assetid: 32b8b07b-87c1-49ce-8034-30ab7cb19796
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Enhanced Storage

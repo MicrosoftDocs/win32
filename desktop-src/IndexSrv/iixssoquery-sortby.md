@@ -1,8 +1,11 @@
 ---
 title: IixssoQuery SortBy property
 description: Indicates how to sort the results set of a query, by listing column names and sorting order.
-ms.assetid: 'c48136f9-f8b5-44a8-8491-2d253a24d93a'
-keywords: ["SortBy property Indexing Service", "SortBy property Indexing Service , IixssoQuery interface", "IixssoQuery interface Indexing Service , SortBy property"]
+ms.assetid: c48136f9-f8b5-44a8-8491-2d253a24d93a
+keywords:
+- SortBy property Indexing Service
+- SortBy property Indexing Service , IixssoQuery interface
+- IixssoQuery interface Indexing Service , SortBy property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoQuery::SortBy property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Indicates how to sort the results set of a query, by listing column names and sorting order.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_SortBy(
-  [in]          BSTR val
+  [in]          BSTR val
 );
 
 HRESULT get_SortBy(
-  [out, retval] BSTR *val
+  [out, retval] BSTR *val
 );
 ```
 
@@ -52,10 +60,10 @@ This property sorts results in ascending order ( \[a\] ) by default. The query s
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -67,9 +75,9 @@ This property sorts results in ascending order ( \[a\] ) by default. The query s
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

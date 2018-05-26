@@ -1,7 +1,12 @@
-﻿---
-Description: 'Handles status and error messages during image data transfers and displays them to the user.'
-ms.assetid: '23e85c63-80b9-4510-854d-289c8d23be2d'
-title: 'IWiaErrorHandler::ReportStatus method'
+---
+Description: Handles status and error messages during image data transfers and displays them to the user.
+ms.assetid: 23e85c63-80b9-4510-854d-289c8d23be2d
+title: IWiaErrorHandlerReportStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaErrorHandler::ReportStatus method
@@ -41,7 +46,7 @@ Type: **HWND**
 
 Type: **[IUnknown](com.iunknown)\***
 
-Pointer to the [IUnknown](com.iunknown) interface of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](-wia-iwiadatatransfer.md).
+Pointer to the [IUnknown](com.iunknown) interface of the item being transferred. This object minimally implements [**IWiaItem2**](-wia-iwiaitem2.md) and [**IWiaDataTransfer**](/windows/win32/wia_xp/nn-wia_xp-iwiadatatransfer?branch=master).
 
 </dd> <dt>
 
@@ -50,7 +55,7 @@ Pointer to the [IUnknown](com.iunknown) interface of the item being transferred.
 
 Type: **HRESULT**
 
-**HRESULT** that is the status code received by [**BandedDataCallback**](-wia-iwiadatacallback-bandeddatacallback.md).
+**HRESULT** that is the status code received by [**BandedDataCallback**](/windows/win32/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback?branch=master).
 
 </dd> <dt>
 
@@ -68,7 +73,7 @@ Type: **LONG**
 
 Type: **BYTE\***
 
-Pointer to the data buffer as received by [**BandedDataCallback**](-wia-iwiadatacallback-bandeddatacallback.md).
+Pointer to the data buffer as received by [**BandedDataCallback**](/windows/win32/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback?branch=master).
 
 </dd> </dl>
 
@@ -92,7 +97,7 @@ Returns *hrStatus* if the error cannot be recovered from. Otherwise, it returns 
 
 ## Remarks
 
-Windows Image Acquisition (WIA) 2.0 calls **IWiaErrorHandler::ReportStatus** when the driver sends an **IT\_MSG\_DEVICE\_STATUS** message to [**BandedDataCallback**](-wia-iwiadatacallback-bandeddatacallback.md). This method handles the message and displays information to the user about the status or error. If the message is about an error, the method lets the user choose, if possible, whether to try to recover from the error and continue the transfer or to abort.
+Windows Image Acquisition (WIA) 2.0 calls **IWiaErrorHandler::ReportStatus** when the driver sends an **IT\_MSG\_DEVICE\_STATUS** message to [**BandedDataCallback**](/windows/win32/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback?branch=master). This method handles the message and displays information to the user about the status or error. If the message is about an error, the method lets the user choose, if possible, whether to try to recover from the error and continue the transfer or to abort.
 
 *hrStatus* is set to WIA\_STATUS\_TRANSFER\_BEGIN to inform the handler a transfer has started. It is set to WIA\_STATUS\_TRANSFER\_END when the transfer is complete.
 

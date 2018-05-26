@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Connection Id property
 description: Returns the identifier for the connection in string form. For example, the AdapterName member of the IP\_ADAPTER\_ADDRESSES structure for this connection.
-ms.assetid: 'd6657703-f99d-44ec-ad21-9dc32c96808f'
-keywords: ["Id property ICS/ICF", "Id property ICS/ICF , INetFwV6Connection interface", "INetFwV6Connection interface ICS/ICF , Id property"]
+ms.assetid: d6657703-f99d-44ec-ad21-9dc32c96808f
+keywords:
+- Id property ICS/ICF
+- Id property ICS/ICF , INetFwV6Connection interface
+- INetFwV6Connection interface ICS/ICF , Id property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Connection::Id property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Id(
-  [out] BSTR *pbstrId
+  [out] BSTR *pbstrId
 );
 ```
 
@@ -64,10 +72,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -83,9 +91,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
 title: Principal Names
-description: For a client to create a mutually authenticated session with a server program, it must provide the server's expected principal name.
-ms.assetid: '4d9977f8-0efb-4559-977e-3eba4e277bc0'
+description: For a client to create a mutually authenticated session with a server program, it must provide the servers expected principal name.
+ms.assetid: 4d9977f8-0efb-4559-977e-3eba4e277bc0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Principal Names
 
 For a client to create a mutually authenticated session with a server program, it must provide the server's expected principal name. Some protocols, such as Kerberos, require a correct server principal name for any authenticated session. A principal is an entity that the security system recognizes. This includes human users as well as system services. All principal names take similar format for a given security support provider (SSP). An SSP is a software module that performs security validation. For more information, see [SSPI Architectural Overview](sspi-architectural-overview.md). To maintain uniformity, a security provider usually gives system services similar names as users. Under some security providers, system services may not have a principal name.
 
-The server registers its principal name for the security provider using the [**RpcServerRegisterAuthInfo**](rpcserverregisterauthinfo.md) function. Only one server principal name can be used for each security provider. If more than one name is registered, one name is randomly chosen and used. The SSP dictates the format of the principal name. For example, the Kerberos/Negotiate SSPs for a system service look approximately like the following: machine\_name$@childdomain.parentdomain1.parentdomain2.COM.
+The server registers its principal name for the security provider using the [**RpcServerRegisterAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterauthinfo?branch=master) function. Only one server principal name can be used for each security provider. If more than one name is registered, one name is randomly chosen and used. The SSP dictates the format of the principal name. For example, the Kerberos/Negotiate SSPs for a system service look approximately like the following: machine\_name$@childdomain.parentdomain1.parentdomain2.COM.
 
 The recommended procedure for generating principal names is to use documented APIs (such as the **DsMakeSpn** function), rather than piecing together the principal name from strings. Using documented APIs increases portability between different deployment environments and eliminates the possibility for errors.
 
@@ -19,7 +24,7 @@ Specifying an incorrect principal name may prevent the client and server from es
 
 If the name does not match the certificate, ERROR\_ACCESS\_DENIED is returned. If the name format is invalid, SCHANNEL SSP returns the code ERROR\_INVALID\_PARAMETER.
 
-To query for the server's principal name, applications can call [**RpcMgmtInqServerPrincName**](rpcmgmtinqserverprincname.md). This allocates a null-terminated string to hold the principal name. Before it terminates, your application must invoke [**RpcStringFree**](rpcstringfree.md) to release the memory this string occupies.
+To query for the server's principal name, applications can call [**RpcMgmtInqServerPrincName**](/windows/win32/Rpcdce/nf-rpcdce-rpcmgmtinqserverprincname?branch=master). This allocates a null-terminated string to hold the principal name. Before it terminates, your application must invoke [**RpcStringFree**](/windows/win32/Rpcdce/nf-rpcdce-rpcstringfree?branch=master) to release the memory this string occupies.
 
 Querying for the server name in this manner is not secure and should be avoided. For server authentication, the client program should know which server it is connecting to and should create the server principal name from scratch.
 

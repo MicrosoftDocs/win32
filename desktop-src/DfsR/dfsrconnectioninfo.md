@@ -4,13 +4,15 @@ description: This class provides statistical and operational information for eac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0078773e-be4e-44a8-b856-8def753ce60b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0078773e-be4e-44a8-b856-8def753ce60b
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrConnectionInfo class Distributed File System Replication", "DfsrConnectionInfo class Distributed File System Replication , described"]
+keywords:
+- DfsrConnectionInfo class Distributed File System Replication
+- DfsrConnectionInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -39,6 +41,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrConnectionInfo class
@@ -51,26 +56,26 @@ This class provides statistical and operational information for each incoming an
 [Dynamic, Provider("DfsrMonitorProv")]
 class DfsrConnectionInfo : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  string       ConnectionGuid;
-  string       MemberGuid;
-  string       MemberName;
-  string       PartnerGuid;
-  string       PartnerName;
-  string       ReplicationGroupGuid;
-  string       ReplicationGroupName;
-  boolean      Inbound;
-  uint32       State;
-  datetime     LastSyncTime;
-  uint32       LastSyncDuration;
-  datetime     LastSuccessfulSyncTime;
-  datetime     NextSyncTime;
-  uint32       LastErrorCode;
-  uint32       LastErrorMessageId;
+  string       Name;
+  string       Status;
+  string       ConnectionGuid;
+  string       MemberGuid;
+  string       MemberName;
+  string       PartnerGuid;
+  string       PartnerName;
+  string       ReplicationGroupGuid;
+  string       ReplicationGroupName;
+  boolean      Inbound;
+  uint32       State;
+  datetime     LastSyncTime;
+  uint32       LastSyncDuration;
+  datetime     LastSuccessfulSyncTime;
+  datetime     NextSyncTime;
+  uint32       LastErrorCode;
+  uint32       LastErrorMessageId;
 };
 ```
 
@@ -96,7 +101,7 @@ The **DfsrConnectionInfo** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -632,9 +637,9 @@ The following state diagram illustrates the transitions between the connection s
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -651,9 +656,9 @@ The following state diagram illustrates the transitions between the connection s
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

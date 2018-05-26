@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a ServiceIdentity object that can be used to manage an AD RMS service account.'
+Description: Retrieves a ServiceIdentity object that can be used to manage an AD RMS service account.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '74d7c37b-782a-47f3-ad92-361239290cff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 74d7c37b-782a-47f3-ad92-361239290cff
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ConfigurationManager.ServiceIdentity property'
+title: ConfigurationManager.ServiceIdentity property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConfigurationManager.ServiceIdentity property
@@ -116,7 +119,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -128,9 +131,9 @@ END SUB
 [**ConfigurationManager**](configurationmanager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

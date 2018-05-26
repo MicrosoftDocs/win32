@@ -1,7 +1,12 @@
 ---
 title: Security
 description: Windows 7 includes new and improved security features that make it easier for developers to improve, use, and manage the security of their applications.
-ms.assetid: 'c3f19338-8ada-4ded-82a9-ca0869ad469d'
+ms.assetid: c3f19338-8ada-4ded-82a9-ca0869ad469d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security

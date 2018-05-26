@@ -1,7 +1,12 @@
 ---
 title: ITTSNotifySinkW
 description: ITTSNotifySinkW
-ms.assetid: '6305dad6-c162-458a-899e-628f6486680e'
+ms.assetid: 6305dad6-c162-458a-899e-628f6486680e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITTSNotifySinkW

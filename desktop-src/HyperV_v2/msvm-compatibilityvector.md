@@ -1,7 +1,12 @@
 ---
-Description: 'References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).'
-ms.assetid: 'A3DB75BF-91C8-444E-B273-25DF8A5BFA7B'
-title: 'Msvm\_CompatibilityVector class'
+Description: References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).
+ms.assetid: A3DB75BF-91C8-444E-B273-25DF8A5BFA7B
+title: Msvm\_CompatibilityVector class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CompatibilityVector class
@@ -147,7 +152,7 @@ Identifies a compatibility vector that represents a specific attribute. This pro
 
 ## Remarks
 
-The [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md) method of the [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md) class returns an array of **Msvm\_CompatibilityVector** instances for the host (if run on the host) or a VM (if run on the VM). Each **Msvm\_CompatibilityVector** entry in the list describes a compatibility attribute vector. For a VM to be compatible with a host, all of its compatibility attributes must be compatible with the host’s attributes.
+The [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md) method of the [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md) class returns an array of **Msvm\_CompatibilityVector** instances for the host (if run on the host) or a VM (if run on the VM). Each **Msvm\_CompatibilityVector** entry in the list describes a compatibility attribute vector. For a VM to be compatible with a host, all of its compatibility attributes must be compatible with the host s attributes.
 
 Each **Msvm\_CompatibilityVector** entry has these properties:
 
@@ -193,14 +198,14 @@ The set of operations defined for **CompareOperation** just involve basic intege
 
 
 
- 
+ 
 
 SCVMM needs to do these steps to determine whether a VM is compatible with a host.
 
 **To determine whether a VM is compatible with a host**
 
 1.  Iterate through all of the **Msvm\_CompatibilityVector** elements for the VM.
-2.  For each **Msvm\_CompatibilityVector** element, use the compatibility operation specified in **CompareOperation** to compare the VM’s hardware compatibility vector with the corresponding compatibility vector for the host.
+2.  For each **Msvm\_CompatibilityVector** element, use the compatibility operation specified in **CompareOperation** to compare the VM s hardware compatibility vector with the corresponding compatibility vector for the host.
 3.  If the all of the **Msvm\_CompatibilityVector** elements from the VM are deemed compatible, the VM is compatible with the host (from a processor feature perspective).
 
 ## Requirements
@@ -209,8 +214,8 @@ SCVMM needs to do these steps to determine whether a VM is compatible with a hos
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -227,9 +232,9 @@ SCVMM needs to do these steps to determine whether a VM is compatible with a hos
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

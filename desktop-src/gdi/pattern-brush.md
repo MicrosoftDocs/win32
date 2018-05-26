@@ -1,7 +1,12 @@
 ---
-Description: 'A pattern (or custom) brush is created from an application-defined bitmap or device-independent bitmap (DIB). The following rectangles were painted by using different pattern brushes.'
-ms.assetid: '0de89a6f-d9c7-4f33-8088-c24a48a3ceee'
+Description: A pattern (or custom) brush is created from an application-defined bitmap or device-independent bitmap (DIB). The following rectangles were painted by using different pattern brushes.
+ms.assetid: 0de89a6f-d9c7-4f33-8088-c24a48a3ceee
 title: Pattern Brush
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pattern Brush
@@ -10,7 +15,7 @@ A pattern (or custom) brush is created from an application-defined bitmap or dev
 
 ![illustration showing three boxes, each filled with a different pattern](images/csbru-05.png)
 
-To create a logical pattern brush, an application must first create a bitmap. After creating the bitmap, the application can create the logical pattern brush by calling the [**CreatePatternBrush**](createpatternbrush.md) or [**CreateDIBPatternBrushPt**](createdibpatternbrushpt.md) function, supplying a handle that identifies the bitmap (or DIB). The brushes that appear in the preceding illustration were created from monochrome bitmaps. For a description of bitmaps, DIBs, and the functions that create them, see [Bitmaps](bitmaps.md).
+To create a logical pattern brush, an application must first create a bitmap. After creating the bitmap, the application can create the logical pattern brush by calling the [**CreatePatternBrush**](/windows/win32/Wingdi/nf-wingdi-createpatternbrush?branch=master) or [**CreateDIBPatternBrushPt**](/windows/win32/Wingdi/nf-wingdi-createdibpatternbrushpt?branch=master) function, supplying a handle that identifies the bitmap (or DIB). The brushes that appear in the preceding illustration were created from monochrome bitmaps. For a description of bitmaps, DIBs, and the functions that create them, see [Bitmaps](bitmaps.md).
 
  
 

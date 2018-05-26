@@ -1,14 +1,20 @@
 ---
 title: WM/EncodingTime Attribute
 description: The WM/EncodingTime attribute is the date and time at which the content was encoded.
-ms.assetid: '264f379a-0bec-4143-bc23-ab45fb725af6'
-keywords: ["WM/EncodingTime Attribute Windows Media Player"]
+ms.assetid: 264f379a-0bec-4143-bc23-ab45fb725af6
+keywords:
+- WM/EncodingTime Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/EncodingTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/EncodingTime Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

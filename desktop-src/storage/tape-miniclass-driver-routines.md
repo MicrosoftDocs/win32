@@ -1,8 +1,15 @@
 ---
 title: Tape Miniclass Driver Routines
 description: Tape Miniclass Driver Routines
-ms.assetid: 'f44692dc-010c-430b-a633-c92f143d3a11'
-keywords: ["Tape Miniclass Driver Routines", "tape"]
+ms.assetid: f44692dc-010c-430b-a633-c92f143d3a11
+keywords:
+- Tape Miniclass Driver Routines
+- tape
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tape Miniclass Driver Routines

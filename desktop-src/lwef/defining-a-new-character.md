@@ -1,7 +1,12 @@
 ---
 title: Defining a New Character
 description: Defining a New Character
-ms.assetid: '4102cb7d-2fec-45d2-882a-04704c7f5a48'
+ms.assetid: 4102cb7d-2fec-45d2-882a-04704c7f5a48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining a New Character

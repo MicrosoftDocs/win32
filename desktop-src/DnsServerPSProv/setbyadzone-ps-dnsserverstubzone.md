@@ -2,13 +2,16 @@
 title: SetByADZone method of the PS\_DnsServerStubZone class
 description: Overwrites settings of DNS server stub zone. If none exists exit with terminating error.
 audience: developer
-ms.assetid: '84709178-8d01-46b7-9e53-80e64634cecb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 84709178-8d01-46b7-9e53-80e64634cecb
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByADZone method", "SetByADZone method, PS_DnsServerStubZone class", "PS_DnsServerStubZone class, SetByADZone method"]
+keywords:
+- SetByADZone method
+- SetByADZone method, PS_DnsServerStubZone class
+- PS_DnsServerStubZone class, SetByADZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByADZone method of the PS\_DnsServerStubZone class
@@ -28,12 +34,12 @@ Overwrites settings of DNS server stub zone. If none exists exit with terminatin
 
 ```mof
 uint32 SetByADZone(
-  [in]  string            DirectoryPartitionName,
-  [in]  string            Name,
-  [in]  string            ComputerName,
-  [in]  string            ReplicationScope,
-  [in]  boolean           PassThru,
-  [out] DnsServerStubZone cmdletOutput
+  [in]  string            DirectoryPartitionName,
+  [in]  string            Name,
+  [in]  string            ComputerName,
+  [in]  string            ReplicationScope,
+  [in]  boolean           PassThru,
+  [out] DnsServerStubZone cmdletOutput
 );
 ```
 
@@ -138,7 +144,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -152,9 +158,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerStubZone**](ps-dnsserverstubzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

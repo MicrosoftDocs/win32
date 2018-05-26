@@ -1,8 +1,11 @@
 ---
 title: CdromCollection.getByDriveSpecifier method
 description: The getByDriveSpecifier method retrieves the Cdrom object associated with a particular drive letter.
-ms.assetid: '60626ffc-3d10-435b-8827-c5d7b6e02607'
-keywords: ["getByDriveSpecifier method Windows Media Player", "getByDriveSpecifier method Windows Media Player , CdromCollection class", "CdromCollection class Windows Media Player , getByDriveSpecifier method"]
+ms.assetid: 60626ffc-3d10-435b-8827-c5d7b6e02607
+keywords:
+- getByDriveSpecifier method Windows Media Player
+- getByDriveSpecifier method Windows Media Player , CdromCollection class
+- CdromCollection class Windows Media Player , getByDriveSpecifier method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromCollection.getByDriveSpecifier method
@@ -102,9 +110,9 @@ Drive.eject();
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

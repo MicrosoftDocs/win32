@@ -1,7 +1,12 @@
 ---
-Description: 'The mapping modes are described in the following table.'
-ms.assetid: '02bc45d1-2921-48bc-a066-2314765b6531'
+Description: The mapping modes are described in the following table.
+ms.assetid: 02bc45d1-2921-48bc-a066-2314765b6531
 title: Mapping Modes and Translations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping Modes and Translations
@@ -25,15 +30,15 @@ The mapping modes are described in the following table.
 
  
 
-To set a mapping mode, call the [**SetMapMode**](setmapmode.md) function. Retrieve the current mapping mode for a DC by calling the [**GetMapMode**](getmapmode.md) function.
+To set a mapping mode, call the [**SetMapMode**](/windows/win32/Wingdi/nf-wingdi-setmapmode?branch=master) function. Retrieve the current mapping mode for a DC by calling the [**GetMapMode**](/windows/win32/Wingdi/nf-wingdi-getmapmode?branch=master) function.
 
 The page-space to device-space transformations consist of values calculated from the points given by the window and viewport. In this context, the window refers to the logical coordinate system of the page space, while the viewport refers to the device coordinate system of the device space. The window and viewport each consist of an origin, a horizontal ("x") extent, and a vertical ("y") extent). The window parameters are in logical coordinates; the viewport in device coordinates (pixels). The system combines the origins and extents from both the window and viewport to create the transformation. This means that the window and viewport each specify half of the factors needed to define the transformation used to map points in page space to device space. Thus, the system maps the window origin to the viewport origin and the window extents to the viewport extents, as shown in the following illustration.
 
 ![illustration showing a window origin in page space and a viewpoint origin in device space](images/cstrn-15.png)
 
-The window and viewport extents establish a ratio or scaling factor used in the page-space to device-space transformations. For the six predefined mapping modes (MM\_HIENGLISH, MM\_LOENGLISH, MM\_HIMETRIC, MM\_LOMETRIC, MM\_TEXT, and MM\_TWIPS), the extents are set by the system when [**SetMapMode**](setmapmode.md) is called. They cannot be changed. The other two mapping modes (MM\_ISOTROPIC and MM\_ANISOTROPIC) require that the extents are specified. This is done by calling **SetMapMode** to set the appropriate mode and then calling the [**SetWindowExtEx**](setwindowextex.md) and [**SetViewportExtEx**](setviewportextex.md) functions to specify the extents. In the MM\_ISOTROPIC mapping mode, it is important to call **SetWindowExtEx** before calling **SetViewportExtEx**.
+The window and viewport extents establish a ratio or scaling factor used in the page-space to device-space transformations. For the six predefined mapping modes (MM\_HIENGLISH, MM\_LOENGLISH, MM\_HIMETRIC, MM\_LOMETRIC, MM\_TEXT, and MM\_TWIPS), the extents are set by the system when [**SetMapMode**](/windows/win32/Wingdi/nf-wingdi-setmapmode?branch=master) is called. They cannot be changed. The other two mapping modes (MM\_ISOTROPIC and MM\_ANISOTROPIC) require that the extents are specified. This is done by calling **SetMapMode** to set the appropriate mode and then calling the [**SetWindowExtEx**](/windows/win32/Wingdi/nf-wingdi-setwindowextex?branch=master) and [**SetViewportExtEx**](/windows/win32/Wingdi/nf-wingdi-setviewportextex?branch=master) functions to specify the extents. In the MM\_ISOTROPIC mapping mode, it is important to call **SetWindowExtEx** before calling **SetViewportExtEx**.
 
-The window and viewport origins establish the translation used in the page-space to device-space transformations. Set the window and viewport origins by using the [**SetWindowOrgEx**](setwindoworgex.md) and [**SetViewportOrgEx**](setviewportorgex.md) functions. The origins are independent of the extents, and an application can set them regardless of the current mapping mode. Changing a mapping mode does not affect the currently set origins (although it can affect the extents). Origins are specified in absolute units that the current mapping mode does not affect. To alter the origins, use the [**OffsetWindowOrgEx**](offsetwindoworgex.md) and [**OffsetViewportOrgEx**](offsetviewportorgex.md) functions.
+The window and viewport origins establish the translation used in the page-space to device-space transformations. Set the window and viewport origins by using the [**SetWindowOrgEx**](/windows/win32/Wingdi/nf-wingdi-setwindoworgex?branch=master) and [**SetViewportOrgEx**](/windows/win32/Wingdi/nf-wingdi-setviewportorgex?branch=master) functions. The origins are independent of the extents, and an application can set them regardless of the current mapping mode. Changing a mapping mode does not affect the currently set origins (although it can affect the extents). Origins are specified in absolute units that the current mapping mode does not affect. To alter the origins, use the [**OffsetWindowOrgEx**](/windows/win32/Wingdi/nf-wingdi-offsetwindoworgex?branch=master) and [**OffsetViewportOrgEx**](/windows/win32/Wingdi/nf-wingdi-offsetviewportorgex?branch=master) functions.
 
 The following formula shows the math involved in converting a point from page space to device space.
 
@@ -56,7 +61,7 @@ The same equation with y replacing x transforms the y componentof a point.
 
 The formula first offsets the point from its coordinate origin. This value, no longer biased by the origin, is then scaled into the destination coordinate system by the ratio of the extents. Finally, the scaled value is offset by the destination origin to its final mapping.
 
-The [**LPtoDP**](lptodp.md) and [**DPtoLP**](dptolp.md) functions may be used to convert from logical points to device points and from device points to logical points, respectively.
+The [**LPtoDP**](/windows/win32/Wingdi/nf-wingdi-lptodp?branch=master) and [**DPtoLP**](/windows/win32/Wingdi/nf-wingdi-dptolp?branch=master) functions may be used to convert from logical points to device points and from device points to logical points, respectively.
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases a partial lock so that other exclusive or partial lock acquirers can now enter.'
-ms.assetid: '95a3e0d1-4e8b-4e30-b4fd-709b9db465de'
-title: 'CShareLockNH::PartialUnlock method'
+---
+Description: Releases a partial lock so that other exclusive or partial lock acquirers can now enter.
+ms.assetid: 95a3e0d1-4e8b-4e30-b4fd-709b9db465de
+title: CShareLockNHPartialUnlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CShareLockNH::PartialUnlock method

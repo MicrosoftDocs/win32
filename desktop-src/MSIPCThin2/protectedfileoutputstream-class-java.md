@@ -4,17 +4,21 @@ description: A class that represents a stream that can write a protected file.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '9db17918-51a4-4503-bfe3-f0149f67cf8a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 9db17918-51a4-4503-bfe3-f0149f67cf8a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileOutputStream class"]
+keywords:
+- ProtectedFileOutputStream class
 topic_type:
 - apiref
 api_name:
 - ProtectedFileOutputStream class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileOutputStream class
@@ -41,7 +45,7 @@ public abstract class ProtectedFileOutputStream extends OutputStream
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -57,7 +61,7 @@ ProtectedFileOutputStream.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -71,9 +75,9 @@ The **ProtectedFileOutputStream** class inherits from the **OutputStream** class
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

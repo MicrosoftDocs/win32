@@ -1,7 +1,12 @@
 ---
 title: To add a topic frame
 description: To add a topic frame
-ms.assetid: '8EA8AEAD-07EC-4b6a-AD30-687A53586D85'
+ms.assetid: 8EA8AEAD-07EC-4b6a-AD30-687A53586D85
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a topic frame

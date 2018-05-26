@@ -1,7 +1,12 @@
 ---
-Description: 'ICE45 validates that bit field columns in the database do not set any reserved bits to 1.'
-ms.assetid: '43fa5e9c-2059-4217-8f8e-c194e37f238a'
+Description: ICE45 validates that bit field columns in the database do not set any reserved bits to 1.
+ms.assetid: 43fa5e9c-2059-4217-8f8e-c194e37f238a
 title: ICE45
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE45

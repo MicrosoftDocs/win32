@@ -1,7 +1,12 @@
 ---
 title: Interface Usage Restrictions
 description: Current GPU hardware does not support varying slot information at shader runtime. As a consequence interface references cannot be modified within a conditional expression such as an if or switch statement.
-ms.assetid: '95a505d8-3ec4-49b7-bb2b-f29a655e4225'
+ms.assetid: 95a505d8-3ec4-49b7-bb2b-f29a655e4225
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Usage Restrictions

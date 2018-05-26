@@ -1,7 +1,12 @@
 ---
 title: Trap Formats
 description: The format of trap PDUs is different than that of other PDUs. The format of SNMPv1 traps and SNMPv2C traps is also different.
-ms.assetid: '2d2b4520-28b7-4a2e-8dee-456e17d9d6f6'
+ms.assetid: 2d2b4520-28b7-4a2e-8dee-456e17d9d6f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trap Formats
@@ -28,7 +33,7 @@ Under the SNMPv1 framework, the PDU trap format is as follows.
 
  
 
-The [**SnmpRecvMsg**](snmprecvmsg.md) function always returns a message in the SNMPv2C format. If the message contains the operation type **SNMP\_PDU\_TRAP**, the application can read the variable binding entries of the message and retrieve the information associated with the trap.
+The [**SnmpRecvMsg**](/windows/win32/Winsnmp/nf-winsnmp-snmprecvmsg?branch=master) function always returns a message in the SNMPv2C format. If the message contains the operation type **SNMP\_PDU\_TRAP**, the application can read the variable binding entries of the message and retrieve the information associated with the trap.
 
  
 

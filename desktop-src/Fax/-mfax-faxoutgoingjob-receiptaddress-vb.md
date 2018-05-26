@@ -1,7 +1,12 @@
-﻿---
-Description: 'A null-terminated string containing the address to which a delivery report will be sent, indicating success or failure.'
-ms.assetid: '7bafee3b-27d8-4007-94b7-6cb5264c1450'
-title: 'FaxOutgoingJob.ReceiptAddress property'
+---
+Description: A null-terminated string containing the address to which a delivery report will be sent, indicating success or failure.
+ms.assetid: 7bafee3b-27d8-4007-94b7-6cb5264c1450
+title: FaxOutgoingJob.ReceiptAddress property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.ReceiptAddress property
@@ -58,7 +63,7 @@ The type of address will vary according to the value of the [**ReceiptType**](-m
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob2**](-mfax-faxoutgoingjob2-cpp.md)
+[**IFaxOutgoingJob2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob2?branch=master)
 </dt> </dl>
 
  

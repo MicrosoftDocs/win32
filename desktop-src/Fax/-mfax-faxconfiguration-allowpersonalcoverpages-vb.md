@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates whether personal cover pages are allowed.'
-ms.assetid: '5898e6c2-bdb5-43df-95b1-04c4566f072b'
-title: 'FaxConfiguration.AllowPersonalCoverPages property'
+---
+Description: Sets or retrieves a value that indicates whether personal cover pages are allowed.
+ms.assetid: 5898e6c2-bdb5-43df-95b1-04c4566f072b
+title: FaxConfiguration.AllowPersonalCoverPages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.AllowPersonalCoverPages property

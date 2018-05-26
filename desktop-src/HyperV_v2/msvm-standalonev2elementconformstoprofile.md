@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the registered profiles to which the referenced standalone system conforms.'
-ms.assetid: 'd9ede8d0-c6f3-48bd-84a9-7f2c31637819'
-title: 'Msvm\_StandaloneV2ElementConformsToProfile class'
+Description: Defines the registered profiles to which the referenced standalone system conforms.
+ms.assetid: d9ede8d0-c6f3-48bd-84a9-7f2c31637819
+title: Msvm\_StandaloneV2ElementConformsToProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_StandaloneV2ElementConformsToProfile class
@@ -16,7 +21,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class Msvm_StandaloneV2ElementConformsToProfile : Msvm_ElementConformsToProfile
 {
   Msvm_RegisteredProfile REF ConformantStandard = $SVP;
-  Msvm_ComputerSystem    REF ManagedElement;
+  Msvm_ComputerSystem    REF ManagedElement;
 };
 ```
 
@@ -70,8 +75,8 @@ The standalone system that conforms to the registered profile.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\interop<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -85,9 +90,9 @@ The standalone system that conforms to the registered profile.
 [**Msvm\_ElementConformsToProfile**](msvm-elementconformstoprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

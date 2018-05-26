@@ -1,7 +1,12 @@
 ---
 title: Constructing a function-linking-graph and linking it to compiled code
 description: Here we show you how to construct function-linking-graphs (FLGs) for shaders and how to link those shaders with a shader library to produce shader blobs that the Direct3D runtime can use.
-ms.assetid: '82C3109E-8571-49D2-A8BF-298E30E1281B'
+ms.assetid: 82C3109E-8571-49D2-A8BF-298E30E1281B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constructing a function-linking-graph and linking it to compiled code
@@ -22,7 +27,7 @@ We also assume that you went through [Packaging a shader library](pachaging-a-sh
 
 ### 1. Construct a function-linking-graph for the vertex shader.
 
-Call the [**D3DCreateFunctionLinkingGraph**](d3dcreatefunctionlinkinggraph.md) function to create a function-linking-graph ([**ID3D11FunctionLinkingGraph**](https://msdn.microsoft.com/library/windows/desktop/dn280535)) to represent the vertex shader.
+Call the [**D3DCreateFunctionLinkingGraph**](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dcreatefunctionlinkinggraph?branch=master) function to create a function-linking-graph ([**ID3D11FunctionLinkingGraph**](https://msdn.microsoft.com/library/windows/desktop/dn280535)) to represent the vertex shader.
 
 Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/windows/desktop/dn280419) structures to define the input parameters for the vertex shader. The [Input-Assembler Stage](https://msdn.microsoft.com/library/windows/desktop/bb205116) feeds the input parameters to the vertex shader. The layout of the vertex shader’s input parameters matches the layout of the vertex shader in the compiled code. After you define the input parameters, call the [**ID3D11FunctionLinkingGraph::SetInputSignature**](https://msdn.microsoft.com/library/windows/desktop/dn280542) method to define the input node ([**ID3D11LinkingNode**](https://msdn.microsoft.com/library/windows/desktop/dn280562)) for the vertex shader.
 
@@ -110,7 +115,7 @@ Call the [**ID3D11FunctionLinkingGraph::CreateModuleInstance**](https://msdn.mic
 
 ### 2. Link the vertex shader
 
-Call the [**D3DCreateLinker**](d3dcreatelinker.md) function to create a linker ([**ID3D11Linker**](https://msdn.microsoft.com/library/windows/desktop/dn280558)) that you can use to link the instance of the shader library that you created in [Packaging a shader library](pachaging-a-shader-library.md) with the instance of the vertex shader graph that you created in the preceding step. Call the [**ID3D11Linker::UseLibrary**](https://msdn.microsoft.com/library/windows/desktop/dn280561) method to specify the shader library to use for linking. Call the [**ID3D11Linker::Link**](https://msdn.microsoft.com/library/windows/desktop/dn280560) method to link the shader library with the vertex shader graph and to produce a pointer to the [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743) interface that you can use to access the compiled vertex shader code. You can then pass this compiled vertex shader code to the [**ID3D11Device::CreateVertexShader**](https://msdn.microsoft.com/library/windows/desktop/ff476524) method to create the vertex shader object and to the [**ID3D11Device::CreateInputLayout**](https://msdn.microsoft.com/library/windows/desktop/ff476512) method to create the input-layout object.
+Call the [**D3DCreateLinker**](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dcreatelinker?branch=master) function to create a linker ([**ID3D11Linker**](https://msdn.microsoft.com/library/windows/desktop/dn280558)) that you can use to link the instance of the shader library that you created in [Packaging a shader library](pachaging-a-shader-library.md) with the instance of the vertex shader graph that you created in the preceding step. Call the [**ID3D11Linker::UseLibrary**](https://msdn.microsoft.com/library/windows/desktop/dn280561) method to specify the shader library to use for linking. Call the [**ID3D11Linker::Link**](https://msdn.microsoft.com/library/windows/desktop/dn280560) method to link the shader library with the vertex shader graph and to produce a pointer to the [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743) interface that you can use to access the compiled vertex shader code. You can then pass this compiled vertex shader code to the [**ID3D11Device::CreateVertexShader**](https://msdn.microsoft.com/library/windows/desktop/ff476524) method to create the vertex shader object and to the [**ID3D11Device::CreateInputLayout**](https://msdn.microsoft.com/library/windows/desktop/ff476512) method to create the input-layout object.
 
 
 ```C++
@@ -153,7 +158,7 @@ Call the [**D3DCreateLinker**](d3dcreatelinker.md) function to create a linker (
 
 ### 3. Construct a function-linking-graph for the pixel shader.
 
-Call the [**D3DCreateFunctionLinkingGraph**](d3dcreatefunctionlinkinggraph.md) function to create a function-linking-graph ([**ID3D11FunctionLinkingGraph**](https://msdn.microsoft.com/library/windows/desktop/dn280535)) to represent the pixel shader.
+Call the [**D3DCreateFunctionLinkingGraph**](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dcreatefunctionlinkinggraph?branch=master) function to create a function-linking-graph ([**ID3D11FunctionLinkingGraph**](https://msdn.microsoft.com/library/windows/desktop/dn280535)) to represent the pixel shader.
 
 Use an array of [**D3D11\_PARAMETER\_DESC**](https://msdn.microsoft.com/library/windows/desktop/dn280419) structures to define the input parameters for the pixel shader. The vertex shader stage feeds the input parameters to the pixel shader. The layout of the pixel shader’s input parameters matches the layout of the pixel shader in the compiled code. After you define the input parameters, call the [**ID3D11FunctionLinkingGraph::SetInputSignature**](https://msdn.microsoft.com/library/windows/desktop/dn280542) method to define the input node ([**ID3D11LinkingNode**](https://msdn.microsoft.com/library/windows/desktop/dn280562)) for the pixel shader.
 
@@ -225,7 +230,7 @@ Call the [**ID3D11FunctionLinkingGraph::CreateModuleInstance**](https://msdn.mic
 
 ### 4. Link the pixel shader
 
-Call the [**D3DCreateLinker**](d3dcreatelinker.md) function to create a linker ([**ID3D11Linker**](https://msdn.microsoft.com/library/windows/desktop/dn280558)) that you can use to link the instance of the shader library that you created in [Packaging a shader library](pachaging-a-shader-library.md) with the instance of the pixel shader graph that you created in the preceding step. Call the [**ID3D11Linker::UseLibrary**](https://msdn.microsoft.com/library/windows/desktop/dn280561) method to specify the shader library to use for linking. Call the [**ID3D11Linker::Link**](https://msdn.microsoft.com/library/windows/desktop/dn280560) method to link the shader library with the pixel shader graph and to produce a pointer to the [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743) interface that you can use to access the compiled pixel shader code. You can then pass this compiled pixel shader code to the [**ID3D11Device::CreatePixelShader**](https://msdn.microsoft.com/library/windows/desktop/ff476513) method to create the pixel shader object.
+Call the [**D3DCreateLinker**](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dcreatelinker?branch=master) function to create a linker ([**ID3D11Linker**](https://msdn.microsoft.com/library/windows/desktop/dn280558)) that you can use to link the instance of the shader library that you created in [Packaging a shader library](pachaging-a-shader-library.md) with the instance of the pixel shader graph that you created in the preceding step. Call the [**ID3D11Linker::UseLibrary**](https://msdn.microsoft.com/library/windows/desktop/dn280561) method to specify the shader library to use for linking. Call the [**ID3D11Linker::Link**](https://msdn.microsoft.com/library/windows/desktop/dn280560) method to link the shader library with the pixel shader graph and to produce a pointer to the [**ID3DBlob**](https://msdn.microsoft.com/library/windows/desktop/ff728743) interface that you can use to access the compiled pixel shader code. You can then pass this compiled pixel shader code to the [**ID3D11Device::CreatePixelShader**](https://msdn.microsoft.com/library/windows/desktop/ff476513) method to create the pixel shader object.
 
 
 ```C++

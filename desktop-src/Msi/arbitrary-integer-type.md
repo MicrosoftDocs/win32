@@ -1,7 +1,12 @@
 ---
-Description: 'The Arbitrary Integer Type of semantic type is one of the Integer Format Types.'
-ms.assetid: 'e35b27ca-be24-4aca-b12f-ca10ab153409'
+Description: The Arbitrary Integer Type of semantic type is one of the Integer Format Types.
+ms.assetid: e35b27ca-be24-4aca-b12f-ca10ab153409
 title: Arbitrary Integer Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Arbitrary Integer Type

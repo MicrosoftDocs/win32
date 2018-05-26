@@ -1,14 +1,19 @@
 ---
 title: Document RootNode property
-description: The RootNode property returns the console's root Node object. This property is read-only.
+description: The RootNode property returns the consoles root Node object. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd37429ac-8dfe-42e6-9d9f-4cedf8898688'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d37429ac-8dfe-42e6-9d9f-4cedf8898688
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["RootNode property MMC", "RootNode property MMC , Document object", "Document object MMC , RootNode property", "RootNode property MMC , Document interface", "Document interface MMC , RootNode property"]
+keywords:
+- RootNode property MMC
+- RootNode property MMC , Document object
+- Document object MMC , RootNode property
+- RootNode property MMC , Document interface
+- Document interface MMC , RootNode property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::RootNode property
@@ -60,8 +68,8 @@ Set objRoot = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ Set objRoot = Nothing
 [**Node**](node-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

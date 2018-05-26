@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves application-specific data or other property data for the specified identifier.'
-ms.assetid: 'eaf95ff8-7b31-4c05-aa49-0c3bb9e996c0'
-title: 'IContextNode::GetPropertyData method'
+Description: Retrieves application-specific data or other property data for the specified identifier.
+ms.assetid: eaf95ff8-7b31-4c05-aa49-0c3bb9e996c0
+title: IContextNodeGetPropertyData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetPropertyData method
@@ -13,9 +18,9 @@ Retrieves application-specific data or other property data for the specified ide
 
 ```C++
 HRESULT GetPropertyData(
-  [in]      const GUID  *pPropertyDataId,
-  [in, out]       ULONG *pulPropertyDataSize,
-  [out]           BYTE  **ppbPropertyData
+  [in]      const GUID  *pPropertyDataId,
+  [in, out]       ULONG *pulPropertyDataSize,
+  [out]           BYTE  **ppbPropertyData
 );
 ```
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppbPropertyData* when you no longer need the information.
 
- 
+ 
 
 In addition to retrieving application-specific data that was added with [**IContextNode::AddPropertyData**](icontextnode-addpropertydata.md), this method is used to retrieve common properties that are described by the [Context Node Properties](context-node-properties.md) constants.
 
@@ -155,7 +160,7 @@ HRESULT CMyClass::ExploreParagraphNode(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -190,9 +195,9 @@ HRESULT CMyClass::ExploreParagraphNode(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

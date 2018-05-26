@@ -1,7 +1,12 @@
 ---
 title: Classes, Objects, and Interfaces
 description: Classes, Objects, and Interfaces
-ms.assetid: '52e48402-32d5-46b0-8eb9-46432e59e36a'
+ms.assetid: 52e48402-32d5-46b0-8eb9-46432e59e36a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Classes, Objects, and Interfaces

@@ -1,7 +1,12 @@
 ---
 title: ALE Flow Customization
 description: Network filtering at the Application Layer Enforcement (ALE) layers of the Windows Filtering Platform (WFP) can be customized by adding filters with specific classify options.
-ms.assetid: '123af237-cf42-410b-8a2f-c011cb5f4f19'
+ms.assetid: 123af237-cf42-410b-8a2f-c011cb5f4f19
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALE Flow Customization
@@ -10,17 +15,17 @@ Network filtering at the Application Layer Enforcement (ALE) layers of the Windo
 
 ## Multicast/Broadcast Traffic
 
-To block inbound traffic based on outbound multicast or broadcast states, add a filter that authorizes outbound multicast and broadcast traffic and that has the [**FWP\_CLASSIFY\_OPTION\_MULTICAST\_STATE**](fwpm-classify-option0.md) option set to **FWP\_OPTION\_VALUE\_DENY\_MULTICAST\_STATE**.
+To block inbound traffic based on outbound multicast or broadcast states, add a filter that authorizes outbound multicast and broadcast traffic and that has the [**FWP\_CLASSIFY\_OPTION\_MULTICAST\_STATE**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_?branch=master) option set to **FWP\_OPTION\_VALUE\_DENY\_MULTICAST\_STATE**.
 
 ## Remote Peers
 
-To add response packets from different peers to the same ALE flow, add a filter that has the [**FWP\_CLASSIFY\_OPTION\_LOOSE\_SOURCE\_MAPPING**](fwpm-classify-option0.md) option set to **FWP\_OPTION\_VALUE\_ENABLE\_LOOSE\_SOURCE\_MAPPING**.
+To add response packets from different peers to the same ALE flow, add a filter that has the [**FWP\_CLASSIFY\_OPTION\_LOOSE\_SOURCE\_MAPPING**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_?branch=master) option set to **FWP\_OPTION\_VALUE\_ENABLE\_LOOSE\_SOURCE\_MAPPING**.
 
 See [Using Classify Options](using-classify-options.md) for code sample.
 
 ## ALE Flow Lifetime
 
-To modify the idle timeout values for an ALE flow, add a filter that has the [**FWP\_CLASSIFY\_OPTION\_MCAST\_BCAST\_LIFETIME**](fwpm-classify-option0.md) option and/or the **FWP\_CLASSIFY\_OPTION\_UNICAST\_LIFETIME** option set to the desired idle timeout value.
+To modify the idle timeout values for an ALE flow, add a filter that has the [**FWP\_CLASSIFY\_OPTION\_MCAST\_BCAST\_LIFETIME**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_classify_option0_?branch=master) option and/or the **FWP\_CLASSIFY\_OPTION\_UNICAST\_LIFETIME** option set to the desired idle timeout value.
 
 See [Using Classify Options](using-classify-options.md) for a code sample.
 

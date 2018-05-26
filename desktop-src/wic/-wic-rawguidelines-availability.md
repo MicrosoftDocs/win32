@@ -1,7 +1,12 @@
 ---
 Description: Codec Availability and Platform Support
-ms.assetid: '6b3d09c9-e91f-4c62-92f7-c2643e51987f'
+ms.assetid: 6b3d09c9-e91f-4c62-92f7-c2643e51987f
 title: Codec Availability and Platform Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Codec Availability and Platform Support

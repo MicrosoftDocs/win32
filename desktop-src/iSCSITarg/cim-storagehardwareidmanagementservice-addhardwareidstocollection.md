@@ -4,13 +4,16 @@ description: Create MemberOfCollection instances between the specified Collectio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dc5a372d-3e6a-406c-b384-84e65456df79'
-ms.prod: 'windows-server-dev'
+ms.assetid: dc5a372d-3e6a-406c-b384-84e65456df79
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddHardwareIDsToCollection method iSCSI Software Target API", "AddHardwareIDsToCollection method iSCSI Software Target API , CIM_StorageHardwareIDManagementService class", "CIM_StorageHardwareIDManagementService class iSCSI Software Target API , AddHardwareIDsToCollection method"]
+keywords:
+- AddHardwareIDsToCollection method iSCSI Software Target API
+- AddHardwareIDsToCollection method iSCSI Software Target API , CIM_StorageHardwareIDManagementService class
+- CIM_StorageHardwareIDManagementService class iSCSI Software Target API , AddHardwareIDsToCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddHardwareIDsToCollection method of the CIM\_StorageHardwareIDManagementService class
@@ -30,8 +36,8 @@ Create MemberOfCollection instances between the specified Collection and the Sto
 
 ```mof
 uint32 AddHardwareIDsToCollection(
-  [in] string                           HardwareIDs[],
-  [in] CIM_SystemSpecificCollection REF Collection
+  [in] string                           HardwareIDs[],
+  [in] CIM_SystemSpecificCollection REF Collection
 );
 ```
 
@@ -77,7 +83,7 @@ The Collection which groups the StorageHardwareIDs.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Invalid LogicalDevice instance** (4096)
@@ -89,10 +95,10 @@ The Collection which groups the StorageHardwareIDs.
 **Input devices cannot be used in this collection** (4098)
 </dt> <dt>
 
-**Method Reserved** (4099–32767)
+**Method Reserved** (4099 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -102,7 +108,7 @@ The Collection which groups the StorageHardwareIDs.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -116,9 +122,9 @@ The Collection which groups the StorageHardwareIDs.
 [**CIM\_StorageHardwareIDManagementService**](cim-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMStartPage function is called by GDI when it is ready to start sending the contents of a physical page to the driver for rendering.'
-ms.assetid: '86cee994-2dfe-4eaf-906b-ce6d9051399e'
+---
+Description: The OEMStartPage function is called by GDI when it is ready to start sending the contents of a physical page to the driver for rendering.
+ms.assetid: 86cee994-2dfe-4eaf-906b-ce6d9051399e
 title: OEMStartPage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMStartPage function

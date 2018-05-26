@@ -1,7 +1,12 @@
 ---
 Description: InfTee Filter Sample
-ms.assetid: 'ba401528-9706-41fb-99d1-2bc3ffc05f1a'
+ms.assetid: ba401528-9706-41fb-99d1-2bc3ffc05f1a
 title: InfTee Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InfTee Filter Sample

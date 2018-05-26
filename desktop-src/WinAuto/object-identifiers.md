@@ -1,7 +1,7 @@
 ---
 title: Object Identifiers
 description: This topic describes the Microsoft Active Accessibility object identifiers, 32-bit values that identify categories of accessible objects within a window.
-ms.assetid: 'dc1603f8-29e5-4acd-817a-c6957feaff6c'
+ms.assetid: dc1603f8-29e5-4acd-817a-c6957feaff6c
 topic_type:
 - apiref
 api_name:
@@ -23,13 +23,18 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Identifiers
 
 This topic describes the Microsoft Active Accessibility object identifiers, 32-bit values that identify *categories* of accessible objects within a window. Microsoft Active Accessibility servers and Microsoft UI Automation providers use the object identifiers to determine the object to which a [**WM\_GETOBJECT**](wm-getobject.md) message request refers.
 
-Clients receive these values in their [*WinEventProc*](wineventproc-callback-function.md) callback function and use them to identify parts of a window. Servers use these values to identify the corresponding parts of a window when calling [**NotifyWinEvent**](notifywinevent.md) or when responding to the [**WM\_GETOBJECT**](wm-getobject.md) message.
+Clients receive these values in their [*WinEventProc*](/windows/win32/Winuser/nc-winuser-wineventproc?branch=master) callback function and use them to identify parts of a window. Servers use these values to identify the corresponding parts of a window when calling [**NotifyWinEvent**](/windows/win32/Winuser/nf-winuser-notifywinevent?branch=master) or when responding to the [**WM\_GETOBJECT**](wm-getobject.md) message.
 
 Servers can define custom object IDs to identify other categories of objects within their applications. Custom object IDs must be assigned positive values because Microsoft Active Accessibility reserves zero and all negative values for the following standard object identifiers.
 
@@ -66,9 +71,9 @@ The following constants are defined in winuser.h:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

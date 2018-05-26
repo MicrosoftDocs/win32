@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Singapore.'
-ms.assetid: '77d4f4fc-76ec-4996-8f25-05ad8840d49f'
+Description: This topic lists the frequency tables used for analog TV tuning for Singapore.
+ms.assetid: 77d4f4fc-76ec-4996-8f25-05ad8840d49f
 title: Singapore Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Singapore Channel Assignments

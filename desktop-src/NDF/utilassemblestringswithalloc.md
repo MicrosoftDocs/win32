@@ -1,8 +1,9 @@
 ---
 title: UtilAssembleStringsWithAlloc function
 description: Allocates a string and formats it using strings provided by the string table. This function uses StringCchPrintf to create the formatted string.
-ms.assetid: 'eedc2874-b949-4cc2-ba7c-ebf1924f1156'
-keywords: ["UtilAssembleStringsWithAlloc function NDF"]
+ms.assetid: eedc2874-b949-4cc2-ba7c-ebf1924f1156
+keywords:
+- UtilAssembleStringsWithAlloc function NDF
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - ndattributils.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UtilAssembleStringsWithAlloc function
@@ -22,12 +28,12 @@ The **UtilAssembleStringsWithAlloc** function allocates a string and formats it 
 
 ```C++
 HRESULT UtilAssembleStringsWithAlloc(
-  _Out_ LPWSTR  *Buffer,
-  _In_  UINT    BufferMax,
-  _In_  LPCWSTR InputFormat,
-  _In_  LPCWSTR InputString,
-  _In_  BOOLEAN AdditionalArgument,
-  _In_  ULONG   AdditionalValue
+  _Out_ LPWSTR  *Buffer,
+  _In_  UINT    BufferMax,
+  _In_  LPCWSTR InputFormat,
+  _In_  LPCWSTR InputString,
+  _In_  BOOLEAN AdditionalArgument,
+  _In_  ULONG   AdditionalValue
 );
 ```
 
@@ -56,7 +62,7 @@ The maximum number of characters allowed in the string allocated by *Buffer*. If
 > [!Note]  
 > This parameter may not be set to zero.
 
- 
+ 
 
 </dd> <dt>
 
@@ -113,7 +119,7 @@ Possible return values include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -121,8 +127,8 @@ Possible return values include, but are not limited to, the following.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ndattributils.h</dt> </dl> |
 
 
@@ -146,9 +152,9 @@ Possible return values include, but are not limited to, the following.
 [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

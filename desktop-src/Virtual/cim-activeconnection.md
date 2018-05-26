@@ -1,8 +1,10 @@
 ---
 title: CIM\_ActiveConnection class
 description: Defines a connection that is currently turned on and configured to provide communication between two CIM\_ServiceAccessPoint objects.
-ms.assetid: 'bce797b1-8912-47c9-a2aa-f8aa9a816f15'
-keywords: ["CIM_ActiveConnection class Hyper-V", "CIM_ActiveConnection class Hyper-V , described"]
+ms.assetid: bce797b1-8912-47c9-a2aa-f8aa9a816f15
+keywords:
+- CIM_ActiveConnection class Hyper-V
+- CIM_ActiveConnection class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ActiveConnection class
@@ -32,9 +39,9 @@ class CIM_ActiveConnection : CIM_SAPSAPDependency
 {
   CIM_ServiceAccessPoint REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
-  uint16                     TrafficType;
-  string                     OtherTrafficDescription;
-  boolean                    IsUnidirectional;
+  uint16                     TrafficType;
+  string                     OtherTrafficDescription;
+  boolean                    IsUnidirectional;
 };
 ```
 
@@ -110,7 +117,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 A description of the traffic type that is specified when the **TrafficType** property is set to "1" (Other).
 
@@ -131,7 +138,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 > [!Note]  
 > This property is deprecated. Instead, we recommend that you specify this information in the addressing, protocol, and basic functionality of the endpoints.
 
- 
+ 
 
 The type of traffic that is transmitted over this connection.
 
@@ -144,9 +151,9 @@ The type of traffic that is transmitted over this connection.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -159,9 +166,9 @@ The type of traffic that is transmitted over this connection.
 [**CIM\_SAPSAPDependency**](cim-sapsapdependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

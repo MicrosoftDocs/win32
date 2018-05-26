@@ -1,8 +1,16 @@
 ---
 title: Recording Waveform Audio
 description: Recording Waveform Audio
-ms.assetid: 'b090c3e6-5c95-449f-8312-fcd07f453be2'
-keywords: ["waveform audio,recording", "waveform-audio interface,recording", "recording waveform audio,about"]
+ms.assetid: b090c3e6-5c95-449f-8312-fcd07f453be2
+keywords:
+- waveform audio,recording
+- waveform-audio interface,recording
+- recording waveform audio,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recording Waveform Audio

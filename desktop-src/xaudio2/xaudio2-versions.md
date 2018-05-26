@@ -1,7 +1,12 @@
 ---
-Description: 'XAudio2 is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.'
-ms.assetid: '875b44c4-30d6-8a6e-0cfc-9beb8c46f1b4'
+Description: XAudio2 is a cross-platform API that has shipped for use on Xbox 360 as well as versions of Windows, including Windows XP, Windows Vista, Windows 7, and Windows 8.
+ms.assetid: 875b44c4-30d6-8a6e-0cfc-9beb8c46f1b4
 title: XAudio2 Versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Versions
@@ -16,9 +21,9 @@ XAudio2.9 has been updated with the following changes:
 
 -   New creation flags: XAUDIO2\_DEBUG\_ENGINE, XAUDIO2\_STOP\_ENGINE\_WHEN\_IDLE, XAUDIO2\_1024\_QUANTUM
 -   xWMA support is available in this version of XAudio2.
--   The [**CreateHrtfApo**](createhrtfapo.md) function is supported in this version of XAudio2.
--   [**XAUDIO2FX\_REVERB\_PARAMETERS**](xaudio2fx-reverb-parameters.md) now includes the value *SideDelay* for 7.1 systems.
--   The [**ReverbConvertI3DL2ToNative**](reverbconverti3dl2tonative.md) function now includes the boolean *sevenDotOneReverb* parameter enabling 7.1 reverb.
+-   The [**CreateHrtfApo**](/windows/win32/HrtfApoApi/nf-hrtfapoapi-createhrtfapo?branch=master) function is supported in this version of XAudio2.
+-   [**XAUDIO2FX\_REVERB\_PARAMETERS**](/windows/win32/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters?branch=master) now includes the value *SideDelay* for 7.1 systems.
+-   The [**ReverbConvertI3DL2ToNative**](/windows/win32/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative?branch=master) function now includes the boolean *sevenDotOneReverb* parameter enabling 7.1 reverb.
 
 ## XAudio 2.8 (Windows 8.x)
 
@@ -27,13 +32,13 @@ XAudio2 version 2.8 ships today as a system component in Windows 8, XAUDIO2\_8.D
 XAudio2 2.8 has been updated with the following changes:
 
 -   This version supports Windows Store app development; the XAudio2 API can be used in C++/DirectX Windows Store apps.
--   [**XAudio2Create**](xaudio2create.md) is a flat Win32 API call and no longer creates an XAudio2 CLSID. Support for instantiating XAudio2 by CoCreateInstance has been removed.
--   The Initialize function is now implicitly called by the creation process and has been removed from the [**IXAudio2**](ixaudio2.md) interface.
--   Device enumeration functionality has been removed from XAudio2; the GetDeviceDetails and GetDeviceCount functions have been removed from the [**IXAudio2**](ixaudio2.md) interface. Apps that want to render to other audio devices on the system must pass a device identifier string to [**CreateMasteringVoice**](ixaudio2-interface-createmasteringvoice.md) instead of a device index. The default audio render device can still be created without enumeration.
--   [**IXAudio2MasteringVoice**](ixaudio2masteringvoice.md) has an added function [**IXAudio2MasteringVoice::GetChannelMask**](ixaudio2masteringvoice-interface-getchannelmask.md) for that returns the channel mask for the destination output device.
+-   [**XAudio2Create**](/windows/win32/xaudio2/nf-xaudio2-xaudio2create?branch=master) is a flat Win32 API call and no longer creates an XAudio2 CLSID. Support for instantiating XAudio2 by CoCreateInstance has been removed.
+-   The Initialize function is now implicitly called by the creation process and has been removed from the [**IXAudio2**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2?branch=master) interface.
+-   Device enumeration functionality has been removed from XAudio2; the GetDeviceDetails and GetDeviceCount functions have been removed from the [**IXAudio2**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2?branch=master) interface. Apps that want to render to other audio devices on the system must pass a device identifier string to [**CreateMasteringVoice**](ixaudio2-interface-createmasteringvoice.md) instead of a device index. The default audio render device can still be created without enumeration.
+-   [**IXAudio2MasteringVoice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2masteringvoice?branch=master) has an added function [**IXAudio2MasteringVoice::GetChannelMask**](ixaudio2masteringvoice-interface-getchannelmask.md) for that returns the channel mask for the destination output device.
 -   The [X3DAudio](x3daudio.md) and [XAPOFX](xapofx-overview.md) libraries are merged into XAudio2. App code still uses separate headers, X3DAUDIO.H and XPOFX.H, but now links to a single import library, XAUDIO2\_8.LIB.
 -   xWMA support is not available in this version of XAudio2; xWMA will not be supported as an audio buffer format when calling CreateSourceVoice. We now recommend the Media Foundation Source Reader object for decoding a wide variety of media formats into in-memory PCM buffers.
--   [**CreateFX**](createfx.md) now takes four parameters rather than two. The newer parameters specify initial data as part of [XAPOFX](xapofx-overview.md) creation.
+-   [**CreateFX**](/windows/win32/XAPOFX/nf-xapofx-createfx?branch=master) now takes four parameters rather than two. The newer parameters specify initial data as part of [XAPOFX](xapofx-overview.md) creation.
 
 ## XAudio 2.7 and earlier (Windows 7)
 

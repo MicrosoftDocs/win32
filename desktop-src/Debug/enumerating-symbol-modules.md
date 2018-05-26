@@ -1,12 +1,17 @@
 ---
-Description: 'The following code lists the modules that have been loaded by the SymLoadModule64 or SymInitialize function.'
-ms.assetid: '8c7fdfaa-d4d3-42d6-ad19-23e8ffda7bf4'
+Description: The following code lists the modules that have been loaded by the SymLoadModule64 or SymInitialize function.
+ms.assetid: 8c7fdfaa-d4d3-42d6-ad19-23e8ffda7bf4
 title: Enumerating Symbol Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Symbol Modules
 
-The following code lists the modules that have been loaded by the [**SymLoadModule64**](symloadmodule64.md) or [**SymInitialize**](syminitialize.md) function. The [**SymEnumerateModules64**](symenumeratemodules64.md) function requires a callback function, which will be called once for each module loaded. In this example, EnumModules is an implementation of the callback function. The example assumes you have initialized the symbol handler using the code in [Initializing the Symbol Handler](initializing-the-symbol-handler.md).
+The following code lists the modules that have been loaded by the [**SymLoadModule64**](/windows/win32/Dbghelp/nf-dbghelp-symloadmodule?branch=master) or [**SymInitialize**](/windows/win32/Dbghelp/nf-dbghelp-syminitialize?branch=master) function. The [**SymEnumerateModules64**](/windows/win32/Dbghelp/nf-dbghelp-symenumeratemodules?branch=master) function requires a callback function, which will be called once for each module loaded. In this example, EnumModules is an implementation of the callback function. The example assumes you have initialized the symbol handler using the code in [Initializing the Symbol Handler](initializing-the-symbol-handler.md).
 
 
 ```C++

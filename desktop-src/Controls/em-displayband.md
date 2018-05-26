@@ -1,8 +1,9 @@
 ---
 title: EM\_DISPLAYBAND message
 description: Displays a portion of the contents of a rich edit control, as previously formatted for a device using the EM\_FORMATRANGE message.
-ms.assetid: '845513d0-f32b-418c-8255-a5caf2d56215'
-keywords: ["EM_DISPLAYBAND message Windows Controls"]
+ms.assetid: 845513d0-f32b-418c-8255-a5caf2d56215
+keywords:
+- EM_DISPLAYBAND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_DISPLAYBAND message
@@ -53,8 +59,8 @@ Banding is the process by which a single page of output is generated using one o
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -66,9 +72,9 @@ Banding is the process by which a single page of output is generated using one o
 [Printing Rich Edit Controls](printing-rich-edit-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

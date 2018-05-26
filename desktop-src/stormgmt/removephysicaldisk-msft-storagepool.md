@@ -1,8 +1,11 @@
 ---
 title: RemovePhysicalDisk method of the MSFT\_StoragePool class
 description: Removes one or more physical disks from the pool and returns all previously allocated space on the disk to the available capacity in the primordial pool.
-ms.assetid: '90bbc740-0ca2-4601-af98-93c9eddfed55'
-keywords: ["RemovePhysicalDisk method Windows Storage Management API", "RemovePhysicalDisk method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , RemovePhysicalDisk method"]
+ms.assetid: 90bbc740-0ca2-4601-af98-93c9eddfed55
+keywords:
+- RemovePhysicalDisk method Windows Storage Management API
+- RemovePhysicalDisk method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , RemovePhysicalDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemovePhysicalDisk method of the MSFT\_StoragePool class
@@ -22,10 +30,10 @@ Removes one or more physical disks from the pool and returns all previously allo
 
 ```mof
 UInt32 RemovePhysicalDisk(
-  [in]  String              PhysicalDisks[],
-  [in]  Boolean             RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              PhysicalDisks[],
+  [in]  Boolean             RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -52,7 +60,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -136,8 +144,8 @@ If this method is successful, the **IsPooled** property of each physical disk ob
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -150,9 +158,9 @@ If this method is successful, the **IsPooled** property of each physical disk ob
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

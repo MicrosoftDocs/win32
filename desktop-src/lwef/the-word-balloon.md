@@ -1,7 +1,12 @@
 ---
 title: The Word Balloon
 description: The Word Balloon
-ms.assetid: '23634ab8-c261-4bf5-b08f-98dad43ab769'
+ms.assetid: 23634ab8-c261-4bf5-b08f-98dad43ab769
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Word Balloon

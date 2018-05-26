@@ -1,7 +1,12 @@
 ---
 Description: Overview of Graph Building
-ms.assetid: '5753f06c-ecfd-48d7-a8e9-768b798e9279'
+ms.assetid: 5753f06c-ecfd-48d7-a8e9-768b798e9279
 title: Overview of Graph Building
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overview of Graph Building
@@ -20,11 +25,11 @@ HRESULT hr = CoCreateInstance(CLSID_FilterGraph,
 
 The Filter Graph Manager supports the following graph-building methods:
 
--   [**IFilterGraph::ConnectDirect**](ifiltergraph-connectdirect.md) tries to make a direct connection between two pins. If the pins cannot connect, the method fails.
--   [**IGraphBuilder::Connect**](igraphbuilder-connect.md) connects two pins. If possible, it makes a direct connection. Otherwise, it uses intermediate filters to complete the connection.
--   [**IGraphBuilder::Render**](igraphbuilder-render.md) starts from an output pin and builds the rest of the graph. This methods adds filters as needed, working downstream, until it reaches a renderer filter.
--   [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) builds a complete file-playback graph.
--   [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) adds a filter to the graph. It does not connect the filter. You must create the filter before calling this method, either by calling **CoCreateInstance** or by using the Filter Mapper or System Device Enumerator.
+-   [**IFilterGraph::ConnectDirect**](/windows/win32/Strmif/nf-strmif-ifiltergraph-connectdirect?branch=master) tries to make a direct connection between two pins. If the pins cannot connect, the method fails.
+-   [**IGraphBuilder::Connect**](/windows/win32/Strmif/nf-strmif-igraphbuilder-connect?branch=master) connects two pins. If possible, it makes a direct connection. Otherwise, it uses intermediate filters to complete the connection.
+-   [**IGraphBuilder::Render**](/windows/win32/Strmif/nf-strmif-igraphbuilder-render?branch=master) starts from an output pin and builds the rest of the graph. This methods adds filters as needed, working downstream, until it reaches a renderer filter.
+-   [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) builds a complete file-playback graph.
+-   [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) adds a filter to the graph. It does not connect the filter. You must create the filter before calling this method, either by calling **CoCreateInstance** or by using the Filter Mapper or System Device Enumerator.
 
 These methods provide three basic approaches to building the graph:
 

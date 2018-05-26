@@ -1,7 +1,12 @@
 ---
 Description: DXGI
-ms.assetid: '9565e874-5a8d-4b4b-a2a4-391e46922cc1'
+ms.assetid: 9565e874-5a8d-4b4b-a2a4-391e46922cc1
 title: DXGI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI

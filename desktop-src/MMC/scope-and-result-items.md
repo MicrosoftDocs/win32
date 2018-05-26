@@ -4,11 +4,15 @@ description: This content will use the term \ 0034;item \ 0034; to describe all 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1bdd610f-e807-44be-8137-b6c6216b0645'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1bdd610f-e807-44be-8137-b6c6216b0645
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["scope and result items MMC"]
+keywords:
+- scope and result items MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scope and Result Items

@@ -1,8 +1,13 @@
 ---
 title: IVMDisplay VideoMode property
 description: The VideoMode property contains the current video mode of the guest operating system (Text, VGA, SVGA, and so on).
-ms.assetid: '3a42e61c-c879-4704-b5e3-ba3a599578b1'
-keywords: ["VideoMode property Virtual Server", "VideoMode property Virtual Server , IVMDisplay interface", "IVMDisplay interface Virtual Server , VideoMode property", "VideoMode property Virtual Server , VMDisplay interface", "VMDisplay interface Virtual Server , VideoMode property"]
+ms.assetid: 3a42e61c-c879-4704-b5e3-ba3a599578b1
+keywords:
+- VideoMode property Virtual Server
+- VideoMode property Virtual Server , IVMDisplay interface
+- IVMDisplay interface Virtual Server , VideoMode property
+- VideoMode property Virtual Server , VMDisplay interface
+- VMDisplay interface Virtual Server , VideoMode property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::VideoMode property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_VideoMode(
-  [out] VMDisplayVideoMode *videoMode
+  [out] VMDisplayVideoMode *videoMode
 );
 ```
 
@@ -78,8 +88,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -94,9 +104,9 @@ This property value is read-only.
 [**VMDisplayVideoMode**](vmdisplayvideomode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

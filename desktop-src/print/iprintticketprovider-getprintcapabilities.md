@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintTicketProvider::GetPrintCapabilities method queries the provider for a complete print capabilities document that describes the printer''s features and parameters.'
-ms.assetid: '12dfd953-2336-47ce-8fdc-df8c6138b31d'
-title: 'IPrintTicketProvider::GetPrintCapabilities method'
+---
+Description: The IPrintTicketProviderGetPrintCapabilities method queries the provider for a complete print capabilities document that describes the printers features and parameters.
+ms.assetid: 12dfd953-2336-47ce-8fdc-df8c6138b31d
+title: IPrintTicketProviderGetPrintCapabilities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintTicketProvider::GetPrintCapabilities method

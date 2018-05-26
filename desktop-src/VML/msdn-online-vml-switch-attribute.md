@@ -1,7 +1,12 @@
 ---
 title: VML Switch Attribute
 description: VML Switch Attribute
-ms.assetid: 'fc099c0a-6789-41e8-ab08-36f4fd2d3bfa'
+ms.assetid: fc099c0a-6789-41e8-ab08-36f4fd2d3bfa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Switch Attribute

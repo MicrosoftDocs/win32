@@ -1,16 +1,21 @@
 ---
-Description: 'The GetInterfaceInfo function fills a pointer to an IP\_INTERFACE\_INFO structure with information about the interfaces associated with the system.'
-ms.assetid: '0cc18e14-7329-49b0-bb07-912fa403db46'
+Description: The GetInterfaceInfo function fills a pointer to an IP\_INTERFACE\_INFO structure with information about the interfaces associated with the system.
+ms.assetid: 0cc18e14-7329-49b0-bb07-912fa403db46
 title: Managing Interfaces Using GetInterfaceInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Interfaces Using GetInterfaceInfo
 
-The [**GetInterfaceInfo**](getinterfaceinfo.md) function fills a pointer to an [**IP\_INTERFACE\_INFO**](ip-interface-info.md) structure with information about the interfaces associated with the system.
+The [**GetInterfaceInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getinterfaceinfo?branch=master) function fills a pointer to an [**IP\_INTERFACE\_INFO**](/windows/win32/Ipexport/ns-ipexport-_ip_interface_info?branch=master) structure with information about the interfaces associated with the system.
 
 **To use GetInterfaceInfo**
 
-1.  Declare a pointer to an [**IP\_INTERFACE\_INFO**](ip-interface-info.md) object called `pInfo`, and a **ULONG** object called `ulOutBufLen`. Also declare a **DWORD** object called `dwRetVal` (used for error checking).
+1.  Declare a pointer to an [**IP\_INTERFACE\_INFO**](/windows/win32/Ipexport/ns-ipexport-_ip_interface_info?branch=master) object called `pInfo`, and a **ULONG** object called `ulOutBufLen`. Also declare a **DWORD** object called `dwRetVal` (used for error checking).
     ```C++
         ULONG               ulOutBufLen;
         DWORD               dwRetVal;
@@ -35,7 +40,7 @@ The [**GetInterfaceInfo**](getinterfaceinfo.md) function fills a pointer to an [
 
     
 
-3.  Make an initial call to [**GetInterfaceInfo**](getinterfaceinfo.md) to get the size needed into the `ulOutBufLen` variable.
+3.  Make an initial call to [**GetInterfaceInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getinterfaceinfo?branch=master) to get the size needed into the `ulOutBufLen` variable.
     > [!Note]  
     > This call to the function is meant to fail, and is used to ensure that the `ulOutBufLen` variable specifies a size sufficient for holding all the information returned to `pInfo`. This is a common programming model in IP Helper for data structures and functions of this type.
 
@@ -51,7 +56,7 @@ The [**GetInterfaceInfo**](getinterfaceinfo.md) function fills a pointer to an [
 
     
 
-4.  Make a second call to [**GetInterfaceInfo**](getinterfaceinfo.md) with general error checking and return its value to the **DWORD** variable `dwRetVal` (for more advanced error checking).
+4.  Make a second call to [**GetInterfaceInfo**](/windows/win32/Iphlpapi/nf-iphlpapi-getinterfaceinfo?branch=master) with general error checking and return its value to the **DWORD** variable `dwRetVal` (for more advanced error checking).
     ```C++
         if ((dwRetVal = GetInterfaceInfo(pInterfaceInfo, &amp;ulOutBufLen)) != NO_ERROR) {
             printf("  GetInterfaceInfo failed with error: %d\n", dwRetVal);
@@ -78,7 +83,7 @@ The [**GetInterfaceInfo**](getinterfaceinfo.md) function fills a pointer to an [
     
 
     > [!Note]  
-    > The %ws in the first line denotes a wide string. This is used because the **Name** attribute of the [**IP\_ADAPTER\_INDEX\_MAP**](ip-adapter-index-map.md) structure `Adapter` is a **WCHAR**, which is a Unicode string.
+    > The %ws in the first line denotes a wide string. This is used because the **Name** attribute of the [**IP\_ADAPTER\_INDEX\_MAP**](/windows/win32/Ipexport/ns-ipexport-_ip_adapter_index_map?branch=master) structure `Adapter` is a **WCHAR**, which is a Unicode string.
 
      
 

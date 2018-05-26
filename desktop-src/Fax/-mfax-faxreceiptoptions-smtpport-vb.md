@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SMTPPort property is a value that specifies the Simple Mail Transport Protocol (SMTP) port number.'
-ms.assetid: '082e122c-8e44-42d1-b16c-af40bf5188d6'
-title: 'FaxReceiptOptions.SMTPPort property'
+---
+Description: The SMTPPort property is a value that specifies the Simple Mail Transport Protocol (SMTP) port number.
+ms.assetid: 082e122c-8e44-42d1-b16c-af40bf5188d6
+title: FaxReceiptOptions.SMTPPort property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxReceiptOptions.SMTPPort property
@@ -25,7 +30,7 @@ A **Long** that specifies or receives the SMTP port number.
 
 ## Remarks
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxReceiptOptions**](-mfax-faxreceiptoptions.md)
 </dt> <dt>
 
-[**IFaxReceiptOptions**](-mfax-faxreceiptoptions-cpp.md)
+[**IFaxReceiptOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxreceiptoptions?branch=master)
 </dt> <dt>
 
 [Setting Receipt Options](-mfax-setting-receipt-options.md)

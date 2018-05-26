@@ -1,7 +1,12 @@
 ---
 Description: COM+ Resource Dispenser Tasks
-ms.assetid: '6f46c4e1-50b8-4496-b755-646d3652255a'
+ms.assetid: 6f46c4e1-50b8-4496-b755-646d3652255a
 title: COM+ Resource Dispenser Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Resource Dispenser Tasks
@@ -16,7 +21,7 @@ The following topics in this section provide step-by-step instructions for using
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -25,9 +30,9 @@ The following topics in this section provide step-by-step instructions for using
 [COM+ Resource Dispenser Concepts](com--resource-dispenser-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

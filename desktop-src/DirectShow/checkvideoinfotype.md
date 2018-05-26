@@ -1,24 +1,29 @@
 ---
-Description: 'The CheckVideoInfoType function checks a media type that contains a VIDEOINFOHEADER format structure for certain common errors that can cause buffer overruns or integer overflows.'
-ms.assetid: '7ffca7de-26f9-4d8d-b70e-231eca462211'
+Description: The CheckVideoInfoType function checks a media type that contains a VIDEOINFOHEADER format structure for certain common errors that can cause buffer overruns or integer overflows.
+ms.assetid: 7ffca7de-26f9-4d8d-b70e-231eca462211
 title: CheckVideoInfoType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckVideoInfoType function
 
-The `CheckVideoInfoType` function checks a media type that contains a [**VIDEOINFOHEADER**](videoinfoheader.md) format structure for certain common errors that can cause buffer overruns or integer overflows.
+The `CheckVideoInfoType` function checks a media type that contains a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) format structure for certain common errors that can cause buffer overruns or integer overflows.
 
 > [!Note]  
 > This function does not guarantee that the media type is valid or that code using the structure is secure.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT CheckVideoInfoType(
-   const AM_MEDIA_TYPE *pmt
+   const AM_MEDIA_TYPE *pmt
 );
 ```
 
@@ -31,7 +36,7 @@ HRESULT CheckVideoInfoType(
 *pmt* 
 </dt> <dd>
 
-Pointer to the [**AM\_MEDIA\_TYPE**](am-media-type.md) structure to validate
+Pointer to the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure to validate
 
 </dd> </dl>
 
@@ -49,11 +54,11 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
-This function calls [**ValidateBitmapInfoHeader**](validatebitmapinfoheader.md) to validate the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure in the media type. If the format type is not FORMAT\_VideoInfo, the function returns VFW\_E\_TYPE\_NOT\_ACCEPTED.
+This function calls [**ValidateBitmapInfoHeader**](validatebitmapinfoheader.md) to validate the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure in the media type. If the format type is not FORMAT\_VideoInfo, the function returns VFW\_E\_TYPE\_NOT\_ACCEPTED.
 
 ## Requirements
 
@@ -72,9 +77,9 @@ This function calls [**ValidateBitmapInfoHeader**](validatebitmapinfoheader.md) 
 [Video and Image Functions](video-and-image-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

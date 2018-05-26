@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbOpenQuery function creates and initializes a unique query structure that is used to manage the collection of performance data.'
-ms.assetid: '9cf535ef-76ad-4773-8414-8e289f3c52f6'
+Description: The PdhVbOpenQuery function creates and initializes a unique query structure that is used to manage the collection of performance data.
+ms.assetid: 9cf535ef-76ad-4773-8414-8e289f3c52f6
 title: PdhVbOpenQuery function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbOpenQuery function
@@ -36,7 +41,7 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,8 +49,8 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -55,12 +60,12 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 <dl> <dt>
 
-[**PdhCloseQuery**](pdhclosequery.md)
+[**PdhCloseQuery**](/windows/win32/Pdh/nf-pdh-pdhclosequery?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

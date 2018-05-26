@@ -1,8 +1,9 @@
 ---
 title: BM\_GETIMAGE message
 description: Retrieves a handle to the image (icon or bitmap) associated with the button.
-ms.assetid: '766ea1b0-418d-41b8-b31d-0fcc58e03893'
-keywords: ["BM_GETIMAGE message Windows Controls"]
+ms.assetid: 766ea1b0-418d-41b8-b31d-0fcc58e03893
+keywords:
+- BM_GETIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BM\_GETIMAGE message
@@ -35,7 +41,7 @@ The type of image to associate with the button. This parameter can be one of the
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,8 +62,8 @@ The return value is a handle to the image, if any; otherwise, it is **NULL**.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ The return value is a handle to the image, if any; otherwise, it is **NULL**.
 [Buttons](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

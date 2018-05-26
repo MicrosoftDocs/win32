@@ -1,7 +1,12 @@
 ---
 title: Adding an Outbound Rule
-description: This example adds an outbound rule using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that adds an ' outbound rule using the Microsoft Windows Firewall APIs.
-ms.assetid: '38b0f4d3-4a06-4c5a-99d6-ec0135826f92'
+description: This example adds an outbound rule using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that adds an  outbound rule using the Microsoft Windows Firewall APIs.
+ms.assetid: 38b0f4d3-4a06-4c5a-99d6-ec0135826f92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an Outbound Rule

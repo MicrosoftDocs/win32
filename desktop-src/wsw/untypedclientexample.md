@@ -1,8 +1,16 @@
 ---
 title: UnTypedClientExample
 description: This example shows a HTTP client that sends request-reply messages.
-ms.assetid: 'ea6d8696-fd43-4d3c-bfec-3602658a08a7'
-keywords: ["UnTypedClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: ea6d8696-fd43-4d3c-bfec-3602658a08a7
+keywords:
+- UnTypedClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnTypedClientExample

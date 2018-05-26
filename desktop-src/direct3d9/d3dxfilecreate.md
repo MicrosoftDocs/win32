@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an instance of an ID3DXFile object.'
-ms.assetid: 'c086cb66-b1dc-4180-b966-e9a3b1f36f22'
+---
+Description: Creates an instance of an ID3DXFile object.
+ms.assetid: c086cb66-b1dc-4180-b966-e9a3b1f36f22
 title: D3DXFileCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFileCreate function

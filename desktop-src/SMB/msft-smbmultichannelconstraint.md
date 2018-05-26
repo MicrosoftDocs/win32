@@ -4,13 +4,15 @@ description: Represents a network interface that SMB can use to connect to a ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce838603-b037-44d9-8478-5397f6e75db9'
-ms.prod: 'windows-server-dev'
+ms.assetid: ce838603-b037-44d9-8478-5397f6e75db9
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbMultichannelConstraint class SMB", "MSFT_SmbMultichannelConstraint class SMB , described"]
+keywords:
+- MSFT_SmbMultichannelConstraint class SMB
+- MSFT_SmbMultichannelConstraint class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbMultichannelConstraint class
@@ -63,7 +68,7 @@ The **MSFT\_SmbMultichannelConstraint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -135,17 +140,17 @@ Name of the server to which the network interface connects.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Smbwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

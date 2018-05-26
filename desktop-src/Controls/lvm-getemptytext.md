@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETEMPTYTEXT message
 description: Gets the text meant for display when the list-view control appears empty. Send this message explicitly or by using the ListView\_GetEmptyText macro.
-ms.assetid: 'aa6cb0ae-0c6c-42b7-80c5-c086c9579c81'
-keywords: ["LVM_GETEMPTYTEXT message Windows Controls"]
+ms.assetid: aa6cb0ae-0c6c-42b7-80c5-c086c9579c81
+keywords:
+- LVM_GETEMPTYTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETEMPTYTEXT message
 
-Gets the text meant for display when the list-view control appears empty. Send this message explicitly or by using the [**ListView\_GetEmptyText**](listview-getemptytext.md) macro.
+Gets the text meant for display when the list-view control appears empty. Send this message explicitly or by using the [**ListView\_GetEmptyText**](/windows/win32/Commctrl/nf-commctrl-listview_getemptytext?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

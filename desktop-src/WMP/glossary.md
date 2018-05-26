@@ -2,8 +2,19 @@
 title: Glossary
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '804d9dcb-20c2-4b4e-b100-b800ba78a0fd'
-keywords: ["Windows Media Player,glossary", "Windows Media Player,terms", "Windows Media Player,definitios", "glossary", "terms", "definitions"]
+ms.assetid: 804d9dcb-20c2-4b4e-b100-b800ba78a0fd
+keywords:
+- Windows Media Player,glossary
+- Windows Media Player,terms
+- Windows Media Player,definitios
+- glossary
+- terms
+- definitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glossary

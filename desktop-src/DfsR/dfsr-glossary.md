@@ -5,13 +5,17 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cb90e9ec-036d-495f-a2ec-4067bd729ba1'
-ms.prod: 'windows-server-dev'
+ms.assetid: cb90e9ec-036d-495f-a2ec-4067bd729ba1
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , glossary"]
+keywords:
+- Distributed File System Replication Files , glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFSR Glossary

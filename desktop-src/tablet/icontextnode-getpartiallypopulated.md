@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the value that indicates whether an IContextNode object is partially populated or fully populated.'
-ms.assetid: '13ac3fb2-7baa-48d7-bf8e-f36b4031fbc4'
-title: 'IContextNode::GetPartiallyPopulated method'
+Description: Retrieves the value that indicates whether an IContextNode object is partially populated or fully populated.
+ms.assetid: 13ac3fb2-7baa-48d7-bf8e-f36b4031fbc4
+title: IContextNodeGetPartiallyPopulated method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetPartiallyPopulated method
@@ -13,7 +18,7 @@ Retrieves the value that indicates whether an [**IContextNode**](icontextnode.md
 
 ```C++
 HRESULT GetPartiallyPopulated(
-  [out] VARIANT_BOOL *pfPartiallyPopulated
+  [out] VARIANT_BOOL *pfPartiallyPopulated
 );
 ```
 
@@ -44,7 +49,7 @@ Use this method when your application maintains its own data structure, which is
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -70,9 +75,9 @@ Use this method when your application maintains its own data structure, which is
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

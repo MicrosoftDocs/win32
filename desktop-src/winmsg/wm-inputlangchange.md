@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to the topmost affected window after an application''s input language has been changed. You should make any application-specific settings and pass the message to the DefWindowProc function, which passes the message to all first-level child windows.'
-ms.assetid: '4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c'
-title: 'WM\_INPUTLANGCHANGE message'
+---
+Description: Sent to the topmost affected window after an applications input language has been changed. You should make any application-specific settings and pass the message to the DefWindowProc function, which passes the message to all first-level child windows.
+ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
+title: WM\_INPUTLANGCHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_INPUTLANGCHANGE message

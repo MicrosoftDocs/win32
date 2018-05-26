@@ -4,11 +4,14 @@ description: Saves DB connection strings, both primary and secondary, in the reg
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a9a20eca-22d9-495c-b976-2952c97be67e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a9a20eca-22d9-495c-b976-2952c97be67e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetSBDbConnectionStrings method Remote Desktop Services", "SetSBDbConnectionStrings method Remote Desktop Services , Win32_SessionBrokerServiceProperties class", "Win32_SessionBrokerServiceProperties class Remote Desktop Services , SetSBDbConnectionStrings method"]
+keywords:
+- SetSBDbConnectionStrings method Remote Desktop Services
+- SetSBDbConnectionStrings method Remote Desktop Services , Win32_SessionBrokerServiceProperties class
+- Win32_SessionBrokerServiceProperties class Remote Desktop Services , SetSBDbConnectionStrings method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSBDbConnectionStrings method of the Win32\_SessionBrokerServiceProperties class
@@ -28,8 +34,8 @@ Saves DB connection strings, both primary and secondary, in the registry.
 
 ```mof
 uint32 SetSBDbConnectionStrings(
-  [in] string connStringToCentralDBRdcms,
-  [in] string secondaryConnStringToCentralDBRdcms
+  [in] string connStringToCentralDBRdcms,
+  [in] string secondaryConnStringToCentralDBRdcms
 );
 ```
 
@@ -60,7 +66,7 @@ The secondary connection string.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>    |
@@ -74,9 +80,9 @@ The secondary connection string.
 [**Win32\_SessionBrokerServiceProperties**](win32-sessionbrokerserviceproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

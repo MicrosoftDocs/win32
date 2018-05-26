@@ -1,14 +1,19 @@
 ---
-Description: 'Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each user's privileges include those granted to the user and to the groups to which the user belongs.'
-ms.assetid: '973796a6-bc2e-4e64-92db-5e17b9c25460'
+Description: Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each users privileges include those granted to the user and to the groups to which the user belongs.
+ms.assetid: 973796a6-bc2e-4e64-92db-5e17b9c25460
 title: Privilege Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Privilege Constants
 
 Privileges determine the type of system operations that a user account can perform. An administrator assigns privileges to user and group accounts. Each user's privileges include those granted to the user and to the groups to which the user belongs.
 
-The functions that get and adjust the privileges in an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) use the [*locally unique identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-locally-unique-identifier-gly) (LUID) type to identify privileges. Use the [**LookupPrivilegeValue**](lookupprivilegevalue.md) function to determine the [**LUID**](luid.md) on the local system that corresponds to a privilege constant. Use the [**LookupPrivilegeName**](lookupprivilegename.md) function to convert a **LUID** to its corresponding string constant.
+The functions that get and adjust the privileges in an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly) use the [*locally unique identifier*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-locally-unique-identifier-gly) (LUID) type to identify privileges. Use the [**LookupPrivilegeValue**](/windows/win32/Winbase/nf-winbase-lookupprivilegevaluea?branch=master) function to determine the [**LUID**](/windows/win32/Winnt/ns-winnt-_luid?branch=master) on the local system that corresponds to a privilege constant. Use the [**LookupPrivilegeName**](/windows/win32/Winbase/nf-winbase-lookupprivilegenamea?branch=master) function to convert a **LUID** to its corresponding string constant.
 
 The operating system represents a privilege by using the string that follows "User Right" in the Description column of the following table. The operating system displays the user right strings in the **Policy** column of the **User Rights Assignment** node of the Local Security Settings Microsoft Management Console (MMC) snap-in.
 
@@ -67,7 +72,7 @@ User Right: Back up files and directories.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SE_CREATE_TOKEN_NAME"></span><span id="se_create_token_name"></span><dl> <dt><strong>SE_CREATE_TOKEN_NAME</strong></dt> <dt>TEXT(&quot;SeCreateTokenPrivilege&quot;)</dt> </dl></td>
-<td style="text-align: left;">Required to create a primary token. <br/> User Right: Create a token object.<br/> You cannot add this privilege to a user account with the &quot;Create a token object&quot; policy. Additionally, you cannot add this privilege to an owned process using Windows APIs.<strong>Windows Server 2003 and Windows XP with SP1 and earlier:</strong> Windows APIs can add this privilege to an owned process.<br/> <br/></td>
+<td style="text-align: left;">Required to create a primary token. <br/> User Right: Create a token object.<br/> You cannot add this privilege to a user account with the &quot;Create a token object&quot; policy. Additionally, you cannot add this privilege to an owned process using Windows APIs.<strong>Windows Server 2003 and Windows XP with SP1 and earlier:</strong> Windows APIs can add this privilege to an owned process.<br/> <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_DEBUG_NAME"></span><span id="se_debug_name"></span><dl> <dt><strong>SE_DEBUG_NAME</strong></dt> <dt>TEXT(&quot;SeDebugPrivilege&quot;)</dt> </dl></td>
@@ -198,8 +203,8 @@ Privilege constants are defined as strings in Winnt.h. For example, the SE\_AUDI
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Winnt.h</dt> </dl> |
 
 
@@ -211,9 +216,9 @@ Privilege constants are defined as strings in Winnt.h. For example, the SE\_AUDI
 [Privileges](privileges.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

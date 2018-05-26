@@ -1,16 +1,21 @@
 ---
 title: Configuring the EAP Method User Interface
 description: Explains how to configure the supplicant by supplying an EAP method configuration to EAPHost.
-ms.assetid: 'f6a23201-e221-4098-863f-71a81735d927'
+ms.assetid: f6a23201-e221-4098-863f-71a81735d927
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the EAP Method User Interface
 
 This topic explains how to configure the supplicant by supplying an EAP method configuration to EAPHost.
 
-For a supplicant to perform an EAP-based authentication using EAPHost, a supplicant must supply an EAP method configuration to EAPHost through the [**EapHostPeerBeginSession**](eaphostpeerbeginsession.md) function.
+For a supplicant to perform an EAP-based authentication using EAPHost, a supplicant must supply an EAP method configuration to EAPHost through the [**EapHostPeerBeginSession**](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master) function.
 
-1.  To obtain the EAP method configuration, a supplicant typically queries EAPHost using [**EapHostPeerGetMethods**](eaphostpeergetmethods.md) to learn the complete set of EAP methods that are available and installed on the local machine. The list of methods is typically presented to the user in a combination box or other UI control that allows the user to select the method they want.
+1.  To obtain the EAP method configuration, a supplicant typically queries EAPHost using [**EapHostPeerGetMethods**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods?branch=master) to learn the complete set of EAP methods that are available and installed on the local machine. The list of methods is typically presented to the user in a combination box or other UI control that allows the user to select the method they want.
     > [!Note]  
     > The supplicant may choose to filter the displayed list of methods based on the method property bits indicated in **EAP\_METHOD\_INFO.eapProperties**. Some methods may not be appropriate for the security characteristics of the transport provided by the supplicant, for example.
 
@@ -23,9 +28,9 @@ For a supplicant to perform an EAP-based authentication using EAPHost, a supplic
 
      
 
-3.  When the user clicks the appropriate UI control, the supplicant calls [**EapHostPeerInvokeConfigUI**](eaphostpeerinvokeconfigui.md), passing into the function the **HWND** value for the supplicant's own UI, the [**EAP\_METHOD\_TYPE**](eap-method-type.md) structure obtained from the query to [**EAP\_METHOD\_INFO**](eap-method-info.md) structure and other required parameters.
-4.  Calling [**EapHostPeerInvokeConfigUI**](eaphostpeerinvokeconfigui.md) invokes an EAP method's own configuration UI. On return from **EapHostPeerInvokeConfigUI**, the function will return an EAP method configuration BLOB as an out-parameter.
-5.  The supplicant stores the configuration BLOB, along with the [**EAP\_METHOD\_TYPE**](eap-method-type.md) structure for use with [**EapHostPeerBeginSession**](eaphostpeerbeginsession.md).
+3.  When the user clicks the appropriate UI control, the supplicant calls [**EapHostPeerInvokeConfigUI**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui?branch=master), passing into the function the **HWND** value for the supplicant's own UI, the [**EAP\_METHOD\_TYPE**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_method_type?branch=master) structure obtained from the query to [**EAP\_METHOD\_INFO**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_method_info?branch=master) structure and other required parameters.
+4.  Calling [**EapHostPeerInvokeConfigUI**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui?branch=master) invokes an EAP method's own configuration UI. On return from **EapHostPeerInvokeConfigUI**, the function will return an EAP method configuration BLOB as an out-parameter.
+5.  The supplicant stores the configuration BLOB, along with the [**EAP\_METHOD\_TYPE**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_method_type?branch=master) structure for use with [**EapHostPeerBeginSession**](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master).
 6.  The precise method for storing the configuraiton BLOB is entirely up to the supplicant. However, the supplicant should always store the configuration in a suitable, secure manner appropriate for system and user authentication configuration data.
 
 ## Related topics

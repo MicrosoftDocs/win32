@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'bcc632ab-277a-492c-86d2-1450dc97b4c5'
-title: 'System.Contact.OtherAddress3Street'
+Description: .
+ms.assetid: bcc632ab-277a-492c-86d2-1450dc97b4c5
+title: System.Contact.OtherAddress3Street
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress3Street

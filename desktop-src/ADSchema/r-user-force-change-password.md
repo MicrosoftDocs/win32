@@ -4,17 +4,21 @@ description: Permits resetting a password on a user account.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7bf078f4-b123-45dc-9468-ffe35a46c32c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7bf078f4-b123-45dc-9468-ffe35a46c32c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["User-Force-Change-Password extended right AD Schema"]
+keywords:
+- User-Force-Change-Password extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - User-Force-Change-Password
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User-Force-Change-Password extended right
@@ -33,13 +37,13 @@ Permits resetting a password on a user account.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -118,9 +122,9 @@ Permits resetting a password on a user account.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

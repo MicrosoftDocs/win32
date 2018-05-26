@@ -4,17 +4,21 @@ description: Sets the content file path of the document to be tracked, not inclu
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '273FA3BA-BFB5-4AC2-8B75-96DC084EF2D9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 273FA3BA-BFB5-4AC2-8B75-96DC084EF2D9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata setContentPath method"]
+keywords:
+- LicenseMetadata setContentPath method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata setContentPath method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata setContentPath method
@@ -39,7 +43,7 @@ public void setContentPath(String contentPath);
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,11 +59,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

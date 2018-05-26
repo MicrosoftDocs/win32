@@ -1,7 +1,12 @@
-﻿---
-Description: 'ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by RevertToPrinterSelf.'
-ms.assetid: '8e110b2a-9d13-4e2e-8f27-5a48d838fb3c'
+---
+Description: ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by RevertToPrinterSelf.
+ms.assetid: 8e110b2a-9d13-4e2e-8f27-5a48d838fb3c
 title: ImpersonatePrinterClient function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImpersonatePrinterClient function

@@ -1,13 +1,16 @@
 ---
-Description: 'Identifies a user account for which new end-user license (EUL) and client licensor certificate (CLC) requests are denied.'
+Description: Identifies a user account for which new end-user license (EUL) and client licensor certificate (CLC) requests are denied.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '22ed9a8f-adb3-43d5-9c96-a4c107b0bee9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 22ed9a8f-adb3-43d5-9c96-a4c107b0bee9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExcludedUserAccount object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExcludedUserAccount object
@@ -35,7 +38,7 @@ The **ExcludedUserAccount** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -135,7 +138,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -147,9 +150,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

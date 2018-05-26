@@ -1,14 +1,20 @@
 ---
 title: ParentMenuButton element
 description: Specifies the location and size of the \ 0034;Parent Menu \ 0034; button.
-ms.assetid: '864ee4c8-9329-4ff7-b55a-b73da12b4ed8'
-keywords: ["ParentMenuButton element Windows Movie Maker and DVD Maker"]
+ms.assetid: 864ee4c8-9329-4ff7-b55a-b73da12b4ed8
+keywords:
+- ParentMenuButton element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ParentMenuButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ParentMenuButton element
@@ -49,7 +55,7 @@ The "Parent Menu" button returns users to the next menu up (that is, the current
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -85,9 +91,9 @@ The "Parent Menu" button returns users to the next menu up (that is, the current
 [**Scene6Button Element**](scene6button.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

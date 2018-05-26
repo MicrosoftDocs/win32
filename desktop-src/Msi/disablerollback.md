@@ -1,7 +1,12 @@
 ---
-Description: 'If this system policy is set to 1, the installer does not store rollback files during installation and disables installation rollback.'
-ms.assetid: '01747de6-7478-4403-ba36-8ff1abc2b70f'
+Description: If this system policy is set to 1, the installer does not store rollback files during installation and disables installation rollback.
+ms.assetid: 01747de6-7478-4403-ba36-8ff1abc2b70f
 title: DisableRollback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableRollback

@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive ImageFile property
 description: The ImageFile property contains the full path of the image file captured by this DVD drive.
-ms.assetid: 'fa835c1d-cc46-4ce0-8985-308e98515b7e'
-keywords: ["ImageFile property Virtual Server", "ImageFile property Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , ImageFile property", "ImageFile property Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , ImageFile property"]
+ms.assetid: fa835c1d-cc46-4ce0-8985-308e98515b7e
+keywords:
+- ImageFile property Virtual Server
+- ImageFile property Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , ImageFile property
+- ImageFile property Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , ImageFile property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::ImageFile property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ImageFile(
-  [out] BSTR *imagePath
+  [out] BSTR *imagePath
 );
 ```
 
@@ -79,8 +89,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -92,9 +102,9 @@ This property value is read-only.
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

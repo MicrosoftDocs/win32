@@ -1,6 +1,11 @@
-﻿---
-Description: 'Indicates that a search has finished.'
-title: 'IShellFolderSearchableCallback::RunEnd method'
+---
+Description: Indicates that a search has finished.
+title: IShellFolderSearchableCallbackRunEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellFolderSearchableCallback::RunEnd method

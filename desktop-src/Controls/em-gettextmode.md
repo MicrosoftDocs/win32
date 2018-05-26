@@ -1,8 +1,9 @@
 ---
 title: EM\_GETTEXTMODE message
 description: Gets the current text mode and undo level of a rich edit control.
-ms.assetid: '5c976a82-9c51-4700-9db4-a6b0ed7bb852'
-keywords: ["EM_GETTEXTMODE message Windows Controls"]
+ms.assetid: 5c976a82-9c51-4700-9db4-a6b0ed7bb852
+keywords:
+- EM_GETTEXTMODE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETTEXTMODE message
@@ -37,7 +43,7 @@ Not used; must be zero.
 
 ## Return value
 
-The return value is one or more values from the [**TEXTMODE**](textmode.md) enumeration type. The values indicate the current text mode and undo level of the control.
+The return value is one or more values from the [**TEXTMODE**](/windows/win32/Richedit/ne-richedit-tagtextmode?branch=master) enumeration type. The values indicate the current text mode and undo level of the control.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ The return value is one or more values from the [**TEXTMODE**](textmode.md) enum
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -61,12 +67,12 @@ The return value is one or more values from the [**TEXTMODE**](textmode.md) enum
 [**EM\_SETTEXTMODE**](em-settextmode.md)
 </dt> <dt>
 
-[**TEXTMODE**](textmode.md)
+[**TEXTMODE**](/windows/win32/Richedit/ne-richedit-tagtextmode?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

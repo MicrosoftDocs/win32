@@ -4,13 +4,15 @@ description: Represents an association between a managed element and its capabil
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d6c96f7-1621-4daf-8c9e-b2ed89b93b16'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5d6c96f7-1621-4daf-8c9e-b2ed89b93b16
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ElementCapabilities class", "CIM_ElementCapabilities class, described"]
+keywords:
+- CIM_ElementCapabilities class
+- CIM_ElementCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ElementCapabilities class
@@ -37,8 +42,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ElementCapabilities
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_Capabilities   REF Capabilities;
-  uint16                 Characteristics[];
+  CIM_Capabilities   REF Capabilities;
+  uint16                 Characteristics[];
 };
 ```
 
@@ -144,7 +149,7 @@ The managed element.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -158,9 +163,9 @@ The managed element.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

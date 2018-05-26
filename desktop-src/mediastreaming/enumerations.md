@@ -1,7 +1,12 @@
 ---
 title: Enumerations
 description: The Media Streaming API provides the following enumerations.
-ms.assetid: '5B5FF20E-DC9F-4817-B2D5-E5F15D215CAB'
+ms.assetid: 5B5FF20E-DC9F-4817-B2D5-E5F15D215CAB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerations
@@ -21,11 +26,11 @@ The [Media Streaming API](media-streaming-api-portal.md) provides the following 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

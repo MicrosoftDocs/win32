@@ -1,13 +1,16 @@
 ---
-Description: 'Wrapper method used to change the BMC user password.'
+Description: Wrapper method used to change the BMC user password.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2bb884fc-1448-4468-b9ab-ddd65f8bd5e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2bb884fc-1448-4468-b9ab-ddd65f8bd5e9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ChangeUserPassword method of the MSFT\_PCSVDevice class'
+title: ChangeUserPassword method of the MSFT\_PCSVDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeUserPassword method of the MSFT\_PCSVDevice class
@@ -19,9 +22,9 @@ Wrapper method used to change the BMC user password.
 
 ```mof
 uint32 ChangeUserPassword(
-  [in]      string              CurrentCredential,
-  [in]      string              NewPassword,
-  [in, out] CIM_ConcreteJob REF Job
+  [in]      string              CurrentCredential,
+  [in]      string              NewPassword,
+  [in, out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -70,10 +73,10 @@ Indicates the result. Values between 4097 and 32767 are reserved by the DMTF. Va
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -82,8 +85,8 @@ Indicates the result. Values between 4097 and 32767 are reserved by the DMTF. Va
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>PcsvDevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVDevice.dll</dt> </dl> |
@@ -97,9 +100,9 @@ Indicates the result. Values between 4097 and 32767 are reserved by the DMTF. Va
 [**MSFT\_PCSVDevice**](msft-pcsvdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

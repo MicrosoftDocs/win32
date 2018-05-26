@@ -1,7 +1,12 @@
 ---
-Description: 'Identity key provider name.'
-ms.assetid: '31ead002-b69b-444c-bada-f311eb0d8bb3'
-title: 'System.Identity.KeyProviderName'
+Description: Identity key provider name.
+ms.assetid: 31ead002-b69b-444c-bada-f311eb0d8bb3
+title: System.Identity.KeyProviderName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Identity.KeyProviderName

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Target peak volume level of a Windows Media Audio file.'
-ms.assetid: '73f4e763-dcb7-48cd-ab80-37635d973da0'
-title: 'MF\_MT\_AUDIO\_WMADRC\_PEAKTARGET attribute'
+---
+Description: Target peak volume level of a Windows Media Audio file.
+ms.assetid: 73f4e763-dcb7-48cd-ab80-37635d973da0
+title: MF\_MT\_AUDIO\_WMADRC\_PEAKTARGET attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_AUDIO\_WMADRC\_PEAKTARGET attribute
@@ -16,7 +21,7 @@ Target peak volume level of a Windows Media Audio file.
 
 This attribute applies to audio media types for Windows Media Audio codecs. It specifies the target peak volume level of the content. The decoder can use this value to perform dynamic range control.
 
-The [**IMFASFContentInfo::ParseHeader**](imfasfcontentinfo-parseheader.md) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCPeakTarget**](wmformat.wm_wmadrcpeaktarget) attribute. This attribute is documented in the Windows Media Format SDK documentation.
+The [**IMFASFContentInfo::ParseHeader**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader?branch=master) method adds this attribute to the media type if the ASF header contains the [**WM/WMADRCPeakTarget**](wmformat.wm_wmadrcpeaktarget) attribute. This attribute is documented in the Windows Media Format SDK documentation.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -39,13 +44,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

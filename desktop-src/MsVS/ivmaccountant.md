@@ -1,8 +1,10 @@
 ---
 title: IVMAccountant interface
 description: The IVMAccountant interface provides access to accounting-related information for a virtual machine.
-ms.assetid: 'bccb1750-090e-4aef-968e-5d07807ade7e'
-keywords: ["IVMAccountant interface Virtual Server", "IVMAccountant interface Virtual Server , described"]
+ms.assetid: bccb1750-090e-4aef-968e-5d07807ade7e
+keywords:
+- IVMAccountant interface Virtual Server
+- IVMAccountant interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccountant interface
@@ -40,7 +47,7 @@ The **IVMAccountant** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -65,7 +72,7 @@ The **IVMAccountant** interface has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -110,8 +117,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -123,9 +130,9 @@ Next
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

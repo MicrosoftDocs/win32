@@ -1,13 +1,31 @@
 ---
 title: mciSendString Errors
 description: mciSendString Errors
-ms.assetid: '286102bd-fcf3-425b-9adc-e0ca2d62e453'
-keywords: ["MCIERR return values,mciSendString errors", "multimedia reference,mciSendString errors", "reference for multimedia,mciSendString errors", "Media Control Interface (MCI),mciSendString errors", "MCI (Media Control Interface),mciSendString errors", "reference for MCI,mciSendString errors", "MCI reference,mciSendString errors", "Media Control Interface (MCI),errors", "MCI (Media Control Interface),errors", "reference for MCI,errors", "MCI reference,errors", "mciSendString errors", "mciSendString function"]
+ms.assetid: 286102bd-fcf3-425b-9adc-e0ca2d62e453
+keywords:
+- MCIERR return values,mciSendString errors
+- multimedia reference,mciSendString errors
+- reference for multimedia,mciSendString errors
+- Media Control Interface (MCI),mciSendString errors
+- MCI (Media Control Interface),mciSendString errors
+- reference for MCI,mciSendString errors
+- MCI reference,mciSendString errors
+- Media Control Interface (MCI),errors
+- MCI (Media Control Interface),errors
+- reference for MCI,errors
+- MCI reference,errors
+- mciSendString errors
+- mciSendString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mciSendString Errors
 
-The following errors are returned by the [**mciSendString**](mcisendstring.md) function but not by [**mciSendCommand**](mcisendcommand.md):
+The following errors are returned by the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function but not by [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master):
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: ISCSI\_Supported\_LB\_Policies structure
 description: The ISCSI\_Supported\_LB\_Policies structure contains information about load balancing policies for multiple connections per session (MCS).
-ms.assetid: '053b9f14-7319-4599-886e-3c03c717b348'
-keywords: ["ISCSI_Supported_LB_Policies structure Storage Devices", "PISCSI_Supported_LB_Policies structure pointer Storage Devices"]
+ms.assetid: 053b9f14-7319-4599-886e-3c03c717b348
+keywords:
+- ISCSI_Supported_LB_Policies structure Storage Devices
+- PISCSI_Supported_LB_Policies structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - iscsimgt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCSI\_Supported\_LB\_Policies structure
@@ -22,9 +29,9 @@ The ISCSI\_Supported\_LB\_Policies structure contains information about load bal
 
 ```C++
 typedef struct _ISCSI_Supported_LB_Policies {
-  ULONGLONG  UniqueSessionId;
-  ULONG      LoadBalancePolicy;
-  ULONG      iSCSI_PathCount;
+  ULONGLONG  UniqueSessionId;
+  ULONG      LoadBalancePolicy;
+  ULONG      iSCSI_PathCount;
   ISCSI_Path iSCSI_Paths[1];
 } ISCSI_Supported_LB_Policies, *PISCSI_Supported_LB_Policies;
 ```
@@ -60,7 +67,7 @@ This specifies the type of load balance policy that has been established on a mu
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -98,9 +105,9 @@ Path information as shown in the [**ISCSI\_Path**](iscsi-path.md) structure.
 [LoginToTarget](https://msdn.microsoft.com/library/windows/hardware/ff561599)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20ISCSI_Supported_LB_Policies%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

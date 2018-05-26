@@ -1,7 +1,12 @@
 ---
 title: Defining New Property Names for a Web Catalog
 description: Defining New Property Names for a Web Catalog
-ms.assetid: '7482fbf4-7c45-46b2-9efe-db07eb07249a'
+ms.assetid: 7482fbf4-7c45-46b2-9efe-db07eb07249a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining New Property Names for a Web Catalog

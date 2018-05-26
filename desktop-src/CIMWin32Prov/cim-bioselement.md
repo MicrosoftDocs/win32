@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_BIOSElement class represents the low-level software that is loaded into non-volatile storage and used to start and configure a computer system.'
+Description: The CIM\_BIOSElement class represents the low-level software that is loaded into non-volatile storage and used to start and configure a computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c203244a-51e0-4733-a0bc-cf9b7957f364'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c203244a-51e0-4733-a0bc-cf9b7957f364
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_BIOSElement class'
+title: CIM\_BIOSElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BIOSElement class
@@ -19,7 +22,7 @@ The **CIM\_BIOSElement** class represents the low-level software that is loaded 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,23 +32,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{8502C562-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_BIOSElement : CIM_SoftwareElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   Name;
-  string   BuildNumber;
-  string   CodeSet;
-  string   IdentificationCode;
-  string   LanguageEdition;
-  string   OtherTargetOS;
-  string   SerialNumber;
-  string   SoftwareElementID;
-  uint16   SoftwareElementState;
-  uint16   TargetOperatingSystem;
-  string   Manufacturer;
-  string   Version;
-  boolean  PrimaryBIOS;
+  string   Status;
+  string   Name;
+  string   BuildNumber;
+  string   CodeSet;
+  string   IdentificationCode;
+  string   LanguageEdition;
+  string   OtherTargetOS;
+  string   SerialNumber;
+  string   SoftwareElementID;
+  uint16   SoftwareElementState;
+  uint16   TargetOperatingSystem;
+  string   Manufacturer;
+  string   Version;
+  boolean  PrimaryBIOS;
 };
 ```
 
@@ -1019,8 +1022,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1034,9 +1037,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_SoftwareElement**](cim-softwareelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

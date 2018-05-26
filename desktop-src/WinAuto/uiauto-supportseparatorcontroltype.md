@@ -1,8 +1,29 @@
 ---
 title: Separator Control Type
 description: This topic provides information about Microsoft UI Automation support for the Separator control type.
-ms.assetid: '4987b05a-101e-48b1-aed2-bd7206146f70'
-keywords: ["UI Automation,support for Separator control type", "UI Automation,Separator control type", "UI Automation,tree structure for Separator control type", "UI Automation,properties for Separator control type", "UI Automation,control patterns for Separator control type", "UI Automation,events for Separator control type", "tree structures,Separator control type", "properties,Separator control type", "control patterns,Separator control type", "events,Separator control type", "support for Separator control type", "Separator control type", "control types,tree structure for Separator control type", "control types,control patterns for Separator control type", "control types,support for Separator", "control types,Separator"]
+ms.assetid: 4987b05a-101e-48b1-aed2-bd7206146f70
+keywords:
+- UI Automation,support for Separator control type
+- UI Automation,Separator control type
+- UI Automation,tree structure for Separator control type
+- UI Automation,properties for Separator control type
+- UI Automation,control patterns for Separator control type
+- UI Automation,events for Separator control type
+- tree structures,Separator control type
+- properties,Separator control type
+- control patterns,Separator control type
+- events,Separator control type
+- support for Separator control type
+- Separator control type
+- control types,tree structure for Separator control type
+- control types,control patterns for Separator control type
+- control types,support for Separator
+- control types,Separator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Separator Control Type

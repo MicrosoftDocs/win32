@@ -1,7 +1,12 @@
 ---
-Description: 'Network Direct Interface capabilities supported by a network adapter.'
-ms.assetid: 'c5f12fec-5eed-4798-9ec6-c16dfb2e1184'
-title: 'MSFT\_NetAdapter\_RdmaAdapterInfo class'
+Description: Network Direct Interface capabilities supported by a network adapter.
+ms.assetid: c5f12fec-5eed-4798-9ec6-c16dfb2e1184
+title: MSFT\_NetAdapter\_RdmaAdapterInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_RdmaAdapterInfo class
@@ -16,27 +21,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapter_RdmaAdapterInfo
 {
-  uint16  MajorVersionNumber;
-  uint16  MinorVersionNumber;
-  uint32  VendorId;
-  uint32  DeviceId;
-  uint64  MaxRegistrationSize;
-  uint64  MaxWindowSize;
-  uint32  FRMRPageCount;
-  uint32  MaxInitiatorRequestSge;
-  uint32  MaxReceiveRequestSge;
-  uint32  MaxReadRequestSge;
-  uint32  MaxTransferLength;
-  uint32  MaxInlineDataSize;
-  uint32  MaxInboundReadLimit;
-  uint32  MaxOutboundReadLimit;
-  uint32  MaxReceiveQueueDepth;
-  uint32  MaxInitiatorQueueDepth;
-  uint32  MaxSharedReceiveQueueDepth;
-  uint32  MaxCompletionQueueDepth;
-  uint32  LargeRequestThreshold;
-  uint32  MaxCallerData;
-  uint32  MaxCalleeData;
+  uint16  MajorVersionNumber;
+  uint16  MinorVersionNumber;
+  uint32  VendorId;
+  uint32  DeviceId;
+  uint64  MaxRegistrationSize;
+  uint64  MaxWindowSize;
+  uint32  FRMRPageCount;
+  uint32  MaxInitiatorRequestSge;
+  uint32  MaxReceiveRequestSge;
+  uint32  MaxReadRequestSge;
+  uint32  MaxTransferLength;
+  uint32  MaxInlineDataSize;
+  uint32  MaxInboundReadLimit;
+  uint32  MaxOutboundReadLimit;
+  uint32  MaxReceiveQueueDepth;
+  uint32  MaxInitiatorQueueDepth;
+  uint32  MaxSharedReceiveQueueDepth;
+  uint32  MaxCompletionQueueDepth;
+  uint32  LargeRequestThreshold;
+  uint32  MaxCallerData;
+  uint32  MaxCalleeData;
   boolean InOrderDMA;
   boolean SupportsCompletionQueueResize;
   boolean SupportsLoopbackConnections;
@@ -373,17 +378,17 @@ Vendor's organizational unique identifier (OUI)
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

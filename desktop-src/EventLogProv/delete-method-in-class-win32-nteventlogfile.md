@@ -1,7 +1,12 @@
 ---
-Description: 'Deletes the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property.'
-ms.assetid: 'c8952c3d-6626-4783-9624-ba2066715e3c'
-title: 'Delete method of the Win32\_NTEventlogFile class'
+Description: Deletes the logical file (or directory) specified in the Win32\_NTEventlogFile.Name property.
+ms.assetid: c8952c3d-6626-4783-9624-ba2066715e3c
+title: Delete method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delete method of the Win32\_NTEventlogFile class
@@ -45,7 +50,7 @@ This method has no parameters.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,8 +58,8 @@ This method has no parameters.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -71,9 +76,9 @@ This method has no parameters.
 [**Win32\_NTEventlogFile**](win32-nteventlogfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

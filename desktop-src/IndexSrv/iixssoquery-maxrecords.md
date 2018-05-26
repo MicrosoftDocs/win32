@@ -1,8 +1,11 @@
 ---
 title: IixssoQuery MaxRecords property
 description: Defines the maximum number of records (rows) to use in the query result set, which is an ADO Rowset object.
-ms.assetid: '9e09e861-d970-4956-bc91-35a95e9b7f63'
-keywords: ["MaxRecords property Indexing Service", "MaxRecords property Indexing Service , IixssoQuery interface", "IixssoQuery interface Indexing Service , MaxRecords property"]
+ms.assetid: 9e09e861-d970-4956-bc91-35a95e9b7f63
+keywords:
+- MaxRecords property Indexing Service
+- MaxRecords property Indexing Service , IixssoQuery interface
+- IixssoQuery interface Indexing Service , MaxRecords property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoQuery::MaxRecords property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Defines the maximum number of records (rows) to use in the query result set, which is an ADO Rowset object.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_MaxRecords(
-  [in]          LONG val
+  [in]          LONG val
 );
 
 HRESULT get_MaxRecords(
-  [out, retval] LONG *val
+  [out, retval] LONG *val
 );
 ```
 
@@ -54,10 +62,10 @@ For Web clients, the query string variables in URLs associated with this propert
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -69,9 +77,9 @@ For Web clients, the query string variables in URLs associated with this propert
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

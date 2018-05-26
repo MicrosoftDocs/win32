@@ -1,7 +1,12 @@
 ---
 title: How to Load a Package for Reading
 description: This topic shows how to use Packaging APIs to load a package to be read.
-ms.assetid: 'd9651962-71a0-4cd1-ab26-00bc0fa15b62'
+ms.assetid: d9651962-71a0-4cd1-ab26-00bc0fa15b62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Load a Package for Reading
@@ -242,13 +247,13 @@ Code examples are not intended to be complete and working programs. The code exa
 **Reference**
 </dt> <dt>
 
-[**IOpcFactory**](iopcfactory.md)
+[**IOpcFactory**](/windows/previous-versions/msopc/nn-msopc-iopcfactory?branch=master)
 </dt> <dt>
 
-[**IOpcFactory::CreateStreamOnFile**](iopcfactory-createstreamonfile.md)
+[**IOpcFactory::CreateStreamOnFile**](/windows/previous-versions/msopc/nf-msopc-iopcfactory-createstreamonfile?branch=master)
 </dt> <dt>
 
-[**IOpcFactory::ReadPackageFromStream**](iopcfactory-readpackagefromstream.md)
+[**IOpcFactory::ReadPackageFromStream**](/windows/previous-versions/msopc/nf-msopc-iopcfactory-readpackagefromstream?branch=master)
 </dt> <dt>
 
 [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034)

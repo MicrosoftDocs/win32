@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a description of the constant table.'
-ms.assetid: '3a7396c6-3a3e-44c2-96b7-60339015b376'
-title: 'ID3DXConstantTable::GetDesc method'
+---
+Description: Gets a description of the constant table.
+ms.assetid: 3a7396c6-3a3e-44c2-96b7-60339015b376
+title: ID3DXConstantTableGetDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::GetDesc method

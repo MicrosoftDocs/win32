@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage AttachObject method
 description: Attaches an object to the message. The data source of the message attachment is a Component Object Model (COM) object.
-ms.assetid: '16a1dee8-ed94-4ea0-951c-f722a6a076ac'
-keywords: ["AttachObject method Windows Mail (formerly Outlook Express)", "AttachObject method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , AttachObject method"]
+ms.assetid: 16a1dee8-ed94-4ea0-951c-f722a6a076ac
+keywords:
+- AttachObject method Windows Mail (formerly Outlook Express)
+- AttachObject method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , AttachObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::AttachObject method
@@ -22,9 +30,9 @@ Attaches an object to the message. The data source of the message attachment is 
 
 ```C++
 HRESULT AttachObject(
-  [in]  REFIID  riid,
-  [in]  void    *pvObject,
-  [out] LPHBODY phBody
+  [in]  REFIID  riid,
+  [in]  void    *pvObject,
+  [out] LPHBODY phBody
 );
 ```
 
@@ -93,7 +101,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -111,8 +119,8 @@ After successfully calling this method, a client should use *phBody* to set the 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -120,9 +128,9 @@ After successfully calling this method, a client should use *phBody* to set the 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

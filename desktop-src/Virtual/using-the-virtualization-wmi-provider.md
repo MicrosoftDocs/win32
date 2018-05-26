@@ -1,8 +1,15 @@
 ---
 title: Using the Hyper-V WMI Provider
 description: Using the Hyper-V WMI Provider
-ms.assetid: '3698812d-74d0-40e5-80bf-c820d7eb0d2a'
-keywords: ["Hyper-V Hyper-V , using", "Hyper-V Hyper-V , examples"]
+ms.assetid: 3698812d-74d0-40e5-80bf-c820d7eb0d2a
+keywords:
+- Hyper-V Hyper-V , using
+- Hyper-V Hyper-V , examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Hyper-V WMI Provider

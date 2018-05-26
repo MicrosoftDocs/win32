@@ -1,7 +1,12 @@
 ---
 title: Reference Pointers
 description: Reference pointers are the simplest pointers and require the least amount of processing by the client stub.
-ms.assetid: 'b0fcba9e-b285-4d29-9ffc-c8d6d7818824'
+ms.assetid: b0fcba9e-b285-4d29-9ffc-c8d6d7818824
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference Pointers

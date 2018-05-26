@@ -1,14 +1,20 @@
 ---
 title: SLIDER.transparencyColor
 description: The transparencyColor attribute specifies or retrieves the transparent color of the slider control background and foreground images.
-ms.assetid: '39bdac82-7c84-4c79-b3f0-ec4828263ccd'
-keywords: ["SLIDER.transparencyColor Windows Media Player"]
+ms.assetid: 39bdac82-7c84-4c79-b3f0-ec4828263ccd
+keywords:
+- SLIDER.transparencyColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.transparencyColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.transparencyColor
@@ -49,9 +55,9 @@ Because JPGs are lossy and therefore subject to unexpected color change, they ar
 [**Color Reference**](color-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

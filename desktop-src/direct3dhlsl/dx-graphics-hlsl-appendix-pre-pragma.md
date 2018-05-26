@@ -1,14 +1,20 @@
 ---
-title: \ pragma Directive
+title: '\ pragma Directive'
 description: Preprocessor directive that provides machine-specific or operating system-specific features while retaining overall compatibility with the C and C++ languages.
-ms.assetid: '806ddb9b-ae4b-4dd3-a2c4-39c9cb7f3820'
-keywords: ["pragma Directive HLSL"]
+ms.assetid: 806ddb9b-ae4b-4dd3-a2c4-39c9cb7f3820
+keywords:
+- pragma Directive HLSL
 topic_type:
 - apiref
 api_name:
 - pragma Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#pragma Directive
@@ -22,7 +28,7 @@ Preprocessor directive that provides machine-specific or operating system-specif
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Preprocessor directive that provides machine-specific or operating system-specif
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,9 +60,9 @@ The HLSL compiler recognizes the following pragmas:
 [Preprocessor Directives (DirectX HLSL)](dx-graphics-hlsl-appendix-preprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

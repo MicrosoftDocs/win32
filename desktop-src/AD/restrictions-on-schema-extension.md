@@ -4,10 +4,13 @@ description: In order to reduce the possibility of schema changes by one applica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '26254eb9-5dd9-414b-a398-be2a7f3b0279'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 26254eb9-5dd9-414b-a398-be2a7f3b0279
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Restrictions on Schema Extension

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies to constrict video.'
-ms.assetid: '2C976D71-DBEA-4669-AFA7-167207D45273'
-title: 'MFPROTECTION\_CONSTRICTVIDEO attribute'
+---
+Description: Specifies to constrict video.
+ms.assetid: 2C976D71-DBEA-4669-AFA7-167207D45273
+title: MFPROTECTION\_CONSTRICTVIDEO attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPROTECTION\_CONSTRICTVIDEO attribute

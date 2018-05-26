@@ -4,11 +4,22 @@ description: Notifies the device redirection module of the Remote Desktop Active
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '36323831-06e0-4e47-8a6c-06367119298f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 36323831-06e0-4e47-8a6c-06367119298f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["NotifyRedirectDeviceChange method Remote Desktop Services", "NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable interface", "IMsRdpClientNonScriptable interface Remote Desktop Services , NotifyRedirectDeviceChange method", "NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable2 interface", "IMsRdpClientNonScriptable2 interface Remote Desktop Services , NotifyRedirectDeviceChange method", "NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , NotifyRedirectDeviceChange method", "NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , NotifyRedirectDeviceChange method", "NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , NotifyRedirectDeviceChange method"]
+keywords:
+- NotifyRedirectDeviceChange method Remote Desktop Services
+- NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable interface
+- IMsRdpClientNonScriptable interface Remote Desktop Services , NotifyRedirectDeviceChange method
+- NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable2 interface
+- IMsRdpClientNonScriptable2 interface Remote Desktop Services , NotifyRedirectDeviceChange method
+- NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , NotifyRedirectDeviceChange method
+- NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , NotifyRedirectDeviceChange method
+- NotifyRedirectDeviceChange method Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , NotifyRedirectDeviceChange method
 topic_type:
 - apiref
 api_name:
@@ -21,6 +32,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable::NotifyRedirectDeviceChange method
@@ -32,8 +46,8 @@ Notifies the device redirection module of the Remote Desktop ActiveX control tha
 
 ```C++
 HRESULT NotifyRedirectDeviceChange(
-  [in] WPARAM wParam,
-  [in] LPARAM lParam
+  [in] WPARAM wParam,
+  [in] LPARAM lParam
 );
 ```
 
@@ -205,8 +219,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                               |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                               |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>       |
 | IID<br/>                      | IID\_IMsRdpClientNonScriptable is defined as 2f079c4c-87b2-4afd-97ab-20cdb43038ae<br/> |
@@ -232,9 +246,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

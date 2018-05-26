@@ -1,8 +1,11 @@
 ---
 title: MetricThreshold ~MetricThreshold destructor
 description: Destructor method.
-ms.assetid: 'FEB90F29-7C12-4205-9225-99BDA0CB5F70'
-keywords: ["~MetricThreshold destructor Access Execution Engine", "~MetricThreshold destructor Access Execution Engine , MetricThreshold interface", "MetricThreshold interface Access Execution Engine , ~MetricThreshold destructor"]
+ms.assetid: FEB90F29-7C12-4205-9225-99BDA0CB5F70
+keywords:
+- ~MetricThreshold destructor Access Execution Engine
+- ~MetricThreshold destructor Access Execution Engine , MetricThreshold interface
+- MetricThreshold interface Access Execution Engine , ~MetricThreshold destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThreshold::~MetricThreshold destructor
@@ -36,8 +44,8 @@ A **MetricThreshold** holds data from a **MetricThresholds/MetricThreshold** ele
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ A **MetricThreshold** holds data from a **MetricThresholds/MetricThreshold** ele
 [**MetricThreshold**](metricthreshold-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

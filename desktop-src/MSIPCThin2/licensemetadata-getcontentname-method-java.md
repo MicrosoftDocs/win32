@@ -4,17 +4,21 @@ description: Gets the file name of the content to be tracked, not including the 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '864401E5-2C2E-4471-BF5E-A8242C0F2774'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 864401E5-2C2E-4471-BF5E-A8242C0F2774
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["LicenseMetadata getContentName method"]
+keywords:
+- LicenseMetadata getContentName method
 topic_type:
 - apiref
 api_name:
 - LicenseMetadata getContentName method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LicenseMetadata getContentName method
@@ -45,11 +49,11 @@ LicenseMetadata.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

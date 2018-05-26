@@ -1,11 +1,16 @@
-﻿---
-Description: 'Instructs a drop image window to update using new DROPDESCRIPTION information.'
-title: 'DDWM\_UPDATEWINDOW message'
+---
+Description: Instructs a drop image window to update using new DROPDESCRIPTION information.
+title: DDWM\_UPDATEWINDOW message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDWM\_UPDATEWINDOW message
 
-Instructs a drop image window to update using new [**DROPDESCRIPTION**](dropdescription.md) information.
+Instructs a drop image window to update using new [**DROPDESCRIPTION**](/windows/win32/shlobj_core/ns-shlobj_core-dropdescription?branch=master) information.
 
 ## Parameters
 
@@ -29,7 +34,7 @@ Not used.
 
 DDWM\_UPDATEWINDOW is defined as WM\_USER+3.
 
-When the state of a drop operation changes—such as in response to a modifier key—[**IDropTarget::DragOver**](com.idroptarget_dragover) returns a new [**DROPEFFECT**](com.dropeffect_constants) value (this **DROPEFFECT** value can also be received through [**IDropSource::GiveFeedback**](com.idropsource_givefeedback)). In response, the application updates the drop target's [**DROPDESCRIPTION**](dropdescription.md) structure with a new [**DROPIMAGETYPE**](dropimagetype.md) value that indicates the decoration to be applied to the drag window's visual; for instance, an indication that the file is being copied rather than moved or that the object cannot be dropped to that location. However, the visuals are not updated until the object receives a **DDWM\_UPDATEWINDOW** message.
+When the state of a drop operation changes—such as in response to a modifier key—[**IDropTarget::DragOver**](com.idroptarget_dragover) returns a new [**DROPEFFECT**](com.dropeffect_constants) value (this **DROPEFFECT** value can also be received through [**IDropSource::GiveFeedback**](com.idropsource_givefeedback)). In response, the application updates the drop target's [**DROPDESCRIPTION**](/windows/win32/shlobj_core/ns-shlobj_core-dropdescription?branch=master) structure with a new [**DROPIMAGETYPE**](/windows/win32/shlobj_core/ne-shlobj_core-dropimagetype?branch=master) value that indicates the decoration to be applied to the drag window's visual; for instance, an indication that the file is being copied rather than moved or that the object cannot be dropped to that location. However, the visuals are not updated until the object receives a **DDWM\_UPDATEWINDOW** message.
 
 The [DragWindow](clipboard.md) clipboard format provides the **HWND** of the recipient drag window to the sender of the **DDWM\_UPDATEWINDOW** message.
 

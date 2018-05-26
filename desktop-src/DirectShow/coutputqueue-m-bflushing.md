@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether the object is performing a flush operation. If TRUE, the object has started flushing.'
-ms.assetid: 'd7a066bd-962a-463f-a6f6-13b7cd58725c'
-title: 'COutputQueue::m\_bFlushing member'
+Description: Flag that specifies whether the object is performing a flush operation. If TRUE, the object has started flushing.
+ms.assetid: d7a066bd-962a-463f-a6f6-13b7cd58725c
+title: COutputQueuem\_bFlushing member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_bFlushing member
@@ -35,9 +40,9 @@ BOOL m_bFlushing;
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

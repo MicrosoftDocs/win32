@@ -1,7 +1,12 @@
 ---
 title: Contrast Effect
 description: Increases or decreases the contrast of an image.
-ms.assetid: 'c0cc0f86-f6d4-e951-0cdd-dbad488e0793'
+ms.assetid: c0cc0f86-f6d4-e951-0cdd-dbad488e0793
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contrast Effect
@@ -52,7 +57,7 @@ m_d2dContext->EndDraw();
 
 ## Effect Properties
 
-The properties for the contrast effect are defined by the [**D2D1\_CONTRAST\_PROP**](d2d1-contrast-prop.md) enumeration.
+The properties for the contrast effect are defined by the [**D2D1\_CONTRAST\_PROP**](/windows/win32/d2d1effects_2/ne-d2d1effects_2-d2d1_contrast_prop?branch=master) enumeration.
 
 ## Requirements
 
@@ -73,7 +78,7 @@ The properties for the contrast effect are defined by the [**D2D1\_CONTRAST\_PRO
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

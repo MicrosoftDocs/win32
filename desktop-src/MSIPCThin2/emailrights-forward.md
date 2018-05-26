@@ -4,11 +4,14 @@ description: Gets a right that allows a protected email message to be forwarded.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.EmailRights.Forward'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.EmailRights.Forward
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Forward property", "Forward property, EmailRights class", "EmailRights class, Forward property"]
+keywords:
+- Forward property
+- Forward property, EmailRights class
+- EmailRights class, Forward property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EmailRights.Forward property
@@ -71,9 +77,9 @@ For more information about the built-in rights and the usage restrictions associ
 [**EmailRights**](emailrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

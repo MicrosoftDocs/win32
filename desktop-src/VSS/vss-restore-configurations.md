@@ -1,7 +1,12 @@
 ---
-Description: 'File restoration on a running system can be problematic. It is important that running applications (writers) indicate what to do when difficulties arise during restores, for instance, if the file being restored is currently in use.'
-ms.assetid: '2cb963a8-7077-4419-96d8-cba0fd011e4f'
+Description: File restoration on a running system can be problematic. It is important that running applications (writers) indicate what to do when difficulties arise during restores, for instance, if the file being restored is currently in use.
+ms.assetid: 2cb963a8-7077-4419-96d8-cba0fd011e4f
 title: VSS Restore Configurations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Restore Configurations
@@ -10,7 +15,7 @@ File restoration on a running system can be problematic. It is important that ru
 
 Under VSS, writers have two complementary ways of managing restores—[*restore methods*](vssgloss-r.md#base-vssgloss-restore-method) and [*restore targets*](vssgloss-r.md#base-vssgloss-restore-target).
 
-In addition, requesters can choose to restore files to previously unspecified locations and notify writers (see [**IVssBackupComponents::AddNewTarget**](ivssbackupcomponents-addnewtarget.md)).
+In addition, requesters can choose to restore files to previously unspecified locations and notify writers (see [**IVssBackupComponents::AddNewTarget**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget?branch=master)).
 
 The restore method (also call the original restore target) is specified by a writer at a backup time, and sets a writer-wide definition of the method to be used to restore all its components in the future. All files and components managed by a writer share the same restore method.
 

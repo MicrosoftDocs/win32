@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves a compressed precomputed radiance transfer (PRT) buffer to disk.'
-ms.assetid: 'cc94a83e-f755-411d-a993-4529c5d53cd5'
+---
+Description: Saves a compressed precomputed radiance transfer (PRT) buffer to disk.
+ms.assetid: cc94a83e-f755-411d-a993-4529c5d53cd5
 title: D3DXSavePRTCompBufferToFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSavePRTCompBufferToFile function

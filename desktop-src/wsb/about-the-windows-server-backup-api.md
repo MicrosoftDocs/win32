@@ -1,14 +1,18 @@
 ---
 title: About the Windows Server Backup API
-description: Automatically backs up and restores your application's data.
+description: Automatically backs up and restores your applications data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '239ead55-6137-47da-8506-5718060350e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-server-backup'
+ms.assetid: 239ead55-6137-47da-8506-5718060350e7
+ms.prod: windows-server-dev
+ms.technology: windows-server-backup
 ms.tgt_platform: multiple
-keywords: ["Windows Server Backup Windows Server Backup , about"]
+keywords:
+- Windows Server Backup Windows Server Backup , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About the Windows Server Backup API

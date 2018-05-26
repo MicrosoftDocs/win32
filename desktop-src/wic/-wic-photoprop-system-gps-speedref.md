@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.SpeedRef property.'
-ms.assetid: '45fea6be-1e63-4244-a93d-d446e315ddd4'
-title: 'System.GPS.SpeedRef Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.SpeedRef property.
+ms.assetid: 45fea6be-1e63-4244-a93d-d446e315ddd4
+title: System.GPS.SpeedRef Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.SpeedRef Photo Metadata Policy

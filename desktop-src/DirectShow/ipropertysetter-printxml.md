@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PrintXML method converts property data into an XML string.'
-ms.assetid: '24638489-b5ed-4bdd-b40e-6d61c0db1533'
-title: 'IPropertySetter::PrintXML method'
+---
+Description: The PrintXML method converts property data into an XML string.
+ms.assetid: 24638489-b5ed-4bdd-b40e-6d61c0db1533
+title: IPropertySetterPrintXML method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertySetter::PrintXML method

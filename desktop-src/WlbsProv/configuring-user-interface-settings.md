@@ -4,13 +4,18 @@ description: Settings displayed by the Network Load Balancing Properties dialog 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'afcfcd41-8730-4ea0-bd72-933e32c645cd'
-ms.prod: 'windows-server-dev'
+ms.assetid: afcfcd41-8730-4ea0-bd72-933e32c645cd
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["user interface settings in NLB Failover Cluster", "user interface settings in NLB Failover Cluster ,configuring"]
+keywords:
+- user interface settings in NLB Failover Cluster
+- user interface settings in NLB Failover Cluster ,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configuring User Interface Settings

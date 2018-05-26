@@ -1,14 +1,17 @@
 ---
 title: EnableCentralCAP method of the Win32\_TSGatewayServerSettings class
-description: Controls the CentralCAPEnabled property, which controls the Remote Desktop Services connection authorization policies (RD \ 160;CAPs) for the Remote Desktop Gateway (RD Gateway) server.
+description: Controls the CentralCAPEnabled property, which controls the Remote Desktop Services connection authorization policies (RD \ 160;CAPs) for the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43e476df-714d-43bd-b40f-33511b7757a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 43e476df-714d-43bd-b40f-33511b7757a4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnableCentralCAP method Remote Desktop Services", "EnableCentralCAP method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , EnableCentralCAP method"]
+keywords:
+- EnableCentralCAP method Remote Desktop Services
+- EnableCentralCAP method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , EnableCentralCAP method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableCentralCAP method of the Win32\_TSGatewayServerSettings class
 
-Controls the **CentralCAPEnabled** property, which controls the Remote Desktop Services connection authorization policies (RD CAPs) for the Remote Desktop Gateway (RD Gateway) server.
+Controls the **CentralCAPEnabled** property, which controls the Remote Desktop Services connection authorization policies (RD CAPs) for the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
 
 ```mof
 uint32 EnableCentralCAP(
-  [in] boolean CentralCAPEnabled
+  [in] boolean CentralCAPEnabled
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 EnableCentralCAP(
 *CentralCAPEnabled* \[in\]
 </dt> <dd>
 
-If set to **True**, RD CAPs from central RD CAP servers will be used. If set to **False**, only policies from the local server will be used.
+If set to **True**, RD CAPs from central RD CAP servers will be used. If set to **False**, only policies from the local server will be used.
 
 </dd> </dl>
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

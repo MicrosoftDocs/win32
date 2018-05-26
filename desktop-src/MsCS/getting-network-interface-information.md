@@ -4,11 +4,15 @@ description: The following table lists network interface \ 8211;related informat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6bbae505-07de-4968-8125-eab3d37999a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6bbae505-07de-4968-8125-eab3d37999a9
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["network interfaces Failover Cluster ,retrieving information"]
+keywords:
+- network interfaces Failover Cluster ,retrieving information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Network Interface Information
@@ -19,14 +23,14 @@ The following table lists [network interface](network-interfaces.md)–related i
 
 | Information or Object to Get                       | API element to Use                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cluster that contains the network interface        | [**GetClusterFromNetInterface**](getclusterfromnetinterface.md)                                                                                                                                                                                                                                                                                                                                                          |
+| Cluster that contains the network interface        | [**GetClusterFromNetInterface**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_from_net_interface?branch=master)                                                                                                                                                                                                                                                                                                                                                          |
 | GUID identifying the network interface             | [CLUSCTL\_NETINTERFACE\_GET\_ID](clusctl-netinterface-get-id.md)                                                                                                                                                                                                                                                                                                                                                         |
 | Name of the network interface                      | [CLUSCTL\_NETINTERFACE\_GET\_NAME](clusctl-netinterface-get-name.md)                                                                                                                                                                                                                                                                                                                                                     |
 | Network to which the network interface is attached | [CLUSCTL\_NETINTERFACE\_GET\_NETWORK](clusctl-netinterface-get-network.md)                                                                                                                                                                                                                                                                                                                                               |
 | Node to which the network interface is attached    | [CLUSCTL\_NETINTERFACE\_GET\_NODE](clusctl-netinterface-get-node.md)                                                                                                                                                                                                                                                                                                                                                     |
 | Properties of the network interface                | [CLUSCTL\_NETINTERFACE\_GET\_COMMON\_PROPERTIES](clusctl-netinterface-get-common-properties.md), [CLUSCTL\_NETINTERFACE\_GET\_RO\_COMMON\_PROPERTIES](clusctl-netinterface-get-ro-common-properties.md), [CLUSCTL\_NETINTERFACE\_GET\_PRIVATE\_PROPERTIES](clusctl-netinterface-get-private-properties.md), [CLUSCTL\_NETINTERFACE\_GET\_RO\_PRIVATE\_PROPERTIES](clusctl-netinterface-get-ro-private-properties.md), |
 | Property names                                     | [CLUSCTL\_NETINTERFACE\_ENUM\_COMMON\_PROPERTIES](clusctl-netinterface-enum-common-properties.md), [CLUSCTL\_NETINTERFACE\_ENUM\_PRIVATE\_PROPERTIES](clusctl-netinterface-enum-private-properties.md)                                                                                                                                                                                                                  |
-| State of the network interface                     | [**GetClusterNetInterfaceState**](getclusternetinterfacestate.md)                                                                                                                                                                                                                                                                                                                                                        |
+| State of the network interface                     | [**GetClusterNetInterfaceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_net_interface_state?branch=master)                                                                                                                                                                                                                                                                                                                                                        |
 
 
 

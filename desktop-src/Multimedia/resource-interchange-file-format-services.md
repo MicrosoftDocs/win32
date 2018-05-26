@@ -1,8 +1,22 @@
 ---
 title: Resource Interchange File Format Services
 description: Resource Interchange File Format Services
-ms.assetid: '8526794b-7b40-470f-94f7-935d7dbf9151'
-keywords: ["multimedia file I/O,resource interchange file format (RIFF)", "file I/O,resource interchange file format (RIFF)", "input and output (I/O),resource interchange file format (RIFF)", "I/O (input and output),resource interchange file format (RIFF)", "mmioOpen function", "resource interchange file format (RIFF)", "RIFF (resource interchange file format)", "RIFF I/O", "RIFF chunk"]
+ms.assetid: 8526794b-7b40-470f-94f7-935d7dbf9151
+keywords:
+- multimedia file I/O,resource interchange file format (RIFF)
+- file I/O,resource interchange file format (RIFF)
+- input and output (I/O),resource interchange file format (RIFF)
+- I/O (input and output),resource interchange file format (RIFF)
+- mmioOpen function
+- resource interchange file format (RIFF)
+- RIFF (resource interchange file format)
+- RIFF I/O
+- RIFF chunk
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Interchange File Format Services

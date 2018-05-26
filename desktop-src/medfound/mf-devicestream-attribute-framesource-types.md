@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the frame source type.'
-ms.assetid: '4A2B427E-E654-48BA-8BF4-16F1B1F8D266'
-title: 'MF\_DEVICESTREAM\_ATTRIBUTE\_FRAMESOURCE\_TYPES attribute'
+---
+Description: Represents the frame source type.
+ms.assetid: 4A2B427E-E654-48BA-8BF4-16F1B1F8D266
+title: MF\_DEVICESTREAM\_ATTRIBUTE\_FRAMESOURCE\_TYPES attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVICESTREAM\_ATTRIBUTE\_FRAMESOURCE\_TYPES attribute
@@ -14,7 +19,7 @@ Represents the frame source type.
 
 ## Remarks
 
-This value of this attribute should be a bitmask of one or more values from the [**MFFrameSourceTypes**](mfframesourcetypes.md) enumeration. To support backward compatibility, when this attribute is not defined for a media type, it is assumed to have the value **MFFrameSourceTypes::Color**.
+This value of this attribute should be a bitmask of one or more values from the [**MFFrameSourceTypes**](/windows/win32/mfapi/ne-mfapi-_mfframesourcetypes?branch=master) enumeration. To support backward compatibility, when this attribute is not defined for a media type, it is assumed to have the value **MFFrameSourceTypes::Color**.
 
 ## Requirements
 

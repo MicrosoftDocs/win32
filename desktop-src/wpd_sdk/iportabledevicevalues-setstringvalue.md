@@ -1,7 +1,12 @@
 ---
-Description: 'The SetStringValue method adds a new string value (type VT\_LPWSTR) or overwrites an existing one.'
-ms.assetid: 'a6eba2b9-de18-431e-874e-af68695e8d3f'
-title: 'IPortableDeviceValues::SetStringValue method'
+Description: The SetStringValue method adds a new string value (type VT\_LPWSTR) or overwrites an existing one.
+ms.assetid: a6eba2b9-de18-431e-874e-af68695e8d3f
+title: IPortableDeviceValuesSetStringValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetStringValue method
@@ -13,8 +18,8 @@ The **SetStringValue** method adds a new string value (type VT\_LPWSTR) or overw
 
 ```C++
 HRESULT SetStringValue(
-  [in] REFPROPERTYKEY key,
-  [in] LPCWSTR        Value
+  [in] REFPROPERTYKEY key,
+  [in] LPCWSTR        Value
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,9 +101,9 @@ For an example of how to use this method, see [Specifying Client Information](sp
 [Writing Content-Object Properties](writing-content-object-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

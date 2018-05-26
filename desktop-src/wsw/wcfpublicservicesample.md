@@ -1,8 +1,16 @@
 ---
 title: WcfPublicServiceSample
 description: This examples shows service proxy talking to http //131.107.72.15/Example\_HelloWorld\_Service\_Indigo/HelloWorld.svc wsdl.
-ms.assetid: '755e645e-b39c-471c-9220-531dec4fc107'
-keywords: ["WcfPublicServiceSample Windows Web Services API", "WWSAPI", "WWS"]
+ms.assetid: 755e645e-b39c-471c-9220-531dec4fc107
+keywords:
+- WcfPublicServiceSample Windows Web Services API
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcfPublicServiceSample

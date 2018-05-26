@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a string representation of the encoded data.'
-ms.assetid: 'd1231e6d-57d7-4b5a-ab37-d4ee1b29cf25'
-title: 'EncodedData.Format method'
+---
+Description: Returns a string representation of the encoded data.
+ms.assetid: d1231e6d-57d7-4b5a-ab37-d4ee1b29cf25
+title: EncodedData.Format method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EncodedData.Format method

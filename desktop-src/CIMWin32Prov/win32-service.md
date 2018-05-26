@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a service on a computer system running Windows.'
+---
+Description: Represents a service on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '713402d3-ee73-4a6c-afb9-ad8033a4c580'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 713402d3-ee73-4a6c-afb9-ad8033a4c580
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Service class'
+title: Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Service class

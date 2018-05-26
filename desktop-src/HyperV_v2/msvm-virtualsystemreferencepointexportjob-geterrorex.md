@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves additional information about an error.'
-ms.assetid: '63ce4762-e5ce-405f-b5fc-74e505b0eaf1'
-title: 'GetErrorEx method of the Msvm\_VirtualSystemReferencePointExportJob class'
+Description: Retrieves additional information about an error.
+ms.assetid: 63ce4762-e5ce-405f-b5fc-74e505b0eaf1
+title: GetErrorEx method of the Msvm\_VirtualSystemReferencePointExportJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetErrorEx method of the Msvm\_VirtualSystemReferencePointExportJob class
@@ -13,7 +18,7 @@ Retrieves additional information about an error. When the job is executing or ha
 
 ```mof
 uint32 GetErrorEx(
-  [out] string Errors[]
+  [out] string Errors[]
 );
 ```
 
@@ -78,8 +83,8 @@ On success, returns 0; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ On success, returns 0; otherwise, returns an error.
 [**Msvm\_VirtualSystemReferencePointExportJob**](msvm-virtualsystemreferencepointexportjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

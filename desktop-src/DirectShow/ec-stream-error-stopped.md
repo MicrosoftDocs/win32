@@ -1,7 +1,12 @@
 ---
-Description: 'A stream has stopped because of an error.'
-ms.assetid: 'bee05025-161e-49b7-8c9b-79e1ed28315f'
-title: 'EC\_STREAM\_ERROR\_STOPPED'
+Description: A stream has stopped because of an error.
+ms.assetid: bee05025-161e-49b7-8c9b-79e1ed28315f
+title: EC\_STREAM\_ERROR\_STOPPED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_STREAM\_ERROR\_STOPPED
@@ -50,9 +55,9 @@ None.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

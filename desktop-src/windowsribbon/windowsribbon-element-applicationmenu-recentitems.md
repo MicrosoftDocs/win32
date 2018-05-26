@@ -1,14 +1,20 @@
 ---
 title: ApplicationMenu.RecentItems property
 description: Represents a container for the Recent Items control in the Application Menu.
-ms.assetid: '26ed38b6-17de-423f-a113-ccbaf3780a91'
-keywords: ["ApplicationMenu.RecentItems property Windows Ribbon"]
+ms.assetid: 26ed38b6-17de-423f-a113-ccbaf3780a91
+keywords:
+- ApplicationMenu.RecentItems property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ApplicationMenu.RecentItems
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplicationMenu.RecentItems property
@@ -119,8 +125,8 @@ The following example shows the associated **ApplicationMenu.RecentItems** and [
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -134,9 +140,9 @@ The following example shows the associated **ApplicationMenu.RecentItems** and [
 [Recent Items control](windowsribbon-controls-recentitems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

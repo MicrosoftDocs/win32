@@ -1,8 +1,10 @@
 ---
 title: Item object
 description: Contains an item on an imaging Device. See the Items (Device) property or Items (Item) property for details on accessing Item objects.
-ms.assetid: '194d77ad-195d-4512-b1ba-9681cb148782'
-keywords: ["Item object WIA Automation", "Item object WIA Automation , described"]
+ms.assetid: 194d77ad-195d-4512-b1ba-9681cb148782
+keywords:
+- Item object WIA Automation
+- Item object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item object
@@ -37,7 +44,7 @@ The **Item** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +63,7 @@ The **Item** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,7 +87,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +95,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -120,9 +127,9 @@ Use any of the following to retrieve a reference to the object:
 [**Item (Items)**](-wiaaut-iitems-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

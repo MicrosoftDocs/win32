@@ -4,11 +4,14 @@ description: Creates a new instance of CustomProtectedStream over the protected 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream.CloneStream'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream.CloneStream
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CloneStream method", "CloneStream method, CustomProtectedStream class", "CustomProtectedStream class, CloneStream method"]
+keywords:
+- CloneStream method
+- CloneStream method, CustomProtectedStream class
+- CustomProtectedStream class, CloneStream method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.CloneStream method
@@ -64,9 +70,9 @@ A [**CustomProtectedStream**](customprotectedstream.md) object that represents t
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

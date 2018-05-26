@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetStream method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup).'
-ms.assetid: '83840bca-2e6e-4982-9ec1-e1e278908993'
-title: 'IPartBase::GetStream method'
+---
+Description: The GetStream method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup).
+ms.assetid: 83840bca-2e6e-4982-9ec1-e1e278908993
+title: IPartBaseGetStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartBase::GetStream method

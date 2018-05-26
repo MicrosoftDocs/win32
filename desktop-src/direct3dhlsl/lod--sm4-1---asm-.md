@@ -1,7 +1,12 @@
 ---
 title: lod (sm4.1 - asm)
 description: Returns the level of detail (LOD) that would be used for texture filtering.
-ms.assetid: 'A5931203-8CD7-4FC9-A4A4-CA981F38C7A3'
+ms.assetid: A5931203-8CD7-4FC9-A4A4-CA981F38C7A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # lod (sm4.1 - asm)
@@ -15,7 +20,7 @@ Returns the level of detail (LOD) that would be used for texture filtering.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Returns the level of detail (LOD) that would be used for texture filtering.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +57,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -80,9 +85,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WM\_GESTURENOTIFY message
 description: Gives you a chance to set the gesture configuration.
-ms.assetid: '83c23928-86ce-421d-bb84-5c41a770bf60'
-keywords: ["WM_GESTURENOTIFY message Windows Touch"]
+ms.assetid: 83c23928-86ce-421d-bb84-5c41a770bf60
+keywords:
+- WM_GESTURENOTIFY message Windows Touch
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_GESTURENOTIFY message
@@ -31,7 +37,7 @@ Unused.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**GESTURENOTIFYSTRUCT**](gesturenotifystruct.md).
+A pointer to a [**GESTURENOTIFYSTRUCT**](/windows/win32/winuser/ns-winuser-taggesturenotifystruct?branch=master).
 
 </dd> </dl>
 
@@ -41,16 +47,16 @@ A value should be returned from [DefWindowProc](http://go.microsoft.com/fwlink/p
 
 ## Remarks
 
-When the **WM\_GESTURENOTIFY** message is received, the application can use [**SetGestureConfig**](setgestureconfig.md) to specify the gestures to receive. This message should always be bubbled up using the [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637) function.
+When the **WM\_GESTURENOTIFY** message is received, the application can use [**SetGestureConfig**](/windows/win32/winuser/nf-winuser-setgestureconfig?branch=master) to specify the gestures to receive. This message should always be bubbled up using the [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637) function.
 
 > [!Note]  
 > Handling the **WM\_GESTURENOTIFY** message will change the gesture configuration for the lifetime of the Window, not just for the next gesture.
 
- 
+ 
 
 ## Examples
 
-The following example shows how to enable all gestures. For more examples, see [**SetGestureConfig**](setgestureconfig.md).
+The following example shows how to enable all gestures. For more examples, see [**SetGestureConfig**](/windows/win32/winuser/nf-winuser-setgestureconfig?branch=master).
 
 
 ```C++
@@ -77,8 +83,8 @@ The following example shows how to enable all gestures. For more examples, see [
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -93,15 +99,15 @@ The following example shows how to enable all gestures. For more examples, see [
 [Windows Touch Gestures Programming Guide](guide-multi-touch-gestures.md)
 </dt> <dt>
 
-[**GESTURENOTIFYSTRUCT**](gesturenotifystruct.md)
+[**GESTURENOTIFYSTRUCT**](/windows/win32/winuser/ns-winuser-taggesturenotifystruct?branch=master)
 </dt> <dt>
 
-[**SetGestureConfig**](setgestureconfig.md)
+[**SetGestureConfig**](/windows/win32/winuser/nf-winuser-setgestureconfig?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

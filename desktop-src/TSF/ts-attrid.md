@@ -1,8 +1,14 @@
 ---
 title: TS\_ATTRID
 description: The TS\_ATTRID data type is used to identify a text attribute.
-ms.assetid: '5e375609-3d3c-4c12-ae05-dcaa70779162'
-keywords: ["TS_ATTRID"]
+ms.assetid: 5e375609-3d3c-4c12-ae05-dcaa70779162
+keywords:
+- TS_ATTRID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_ATTRID
@@ -28,9 +34,9 @@ The GUIDs TSATTRID\_Text\_VerticalWriting and TSATTRID\_Text\_Orientation are us
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                             |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                             |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -40,42 +46,42 @@ The GUIDs TSATTRID\_Text\_VerticalWriting and TSATTRID\_Text\_Orientation are us
 
 <dl> <dt>
 
-[**ITextStoreACP::FindNextAttrTransition**](itextstoreacp-findnextattrtransition.md)
+[**ITextStoreACP::FindNextAttrTransition**](/windows/win32/Textstor/nf-textstor-itextstoreacp-findnextattrtransition?branch=master)
 </dt> <dt>
 
-[**ITextStoreACP::RequestAttrsAtPosition**](itextstoreacp-requestattrsatposition.md)
+[**ITextStoreACP::RequestAttrsAtPosition**](/windows/win32/Textstor/nf-textstor-itextstoreacp-requestattrsatposition?branch=master)
 </dt> <dt>
 
-[**ITextStoreACP::RequestAttrsTransitioningAtPosition**](itextstoreacp-requestattrstransitioningatposition.md)
+[**ITextStoreACP::RequestAttrsTransitioningAtPosition**](/windows/win32/Textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition?branch=master)
 </dt> <dt>
 
-[**ITextStoreACP::RequestSupportedAttrs**](itextstoreacp-requestsupportedattrs.md)
+[**ITextStoreACP::RequestSupportedAttrs**](/windows/win32/Textstor/nf-textstor-itextstoreacp-requestsupportedattrs?branch=master)
 </dt> <dt>
 
-[**ITextStoreACPSink::OnAttrsChange**](itextstoreacpsink-onattrschange.md)
+[**ITextStoreACPSink::OnAttrsChange**](/windows/win32/Textstor/nf-textstor-itextstoreacpsink-onattrschange?branch=master)
 </dt> <dt>
 
-[**ITextStoreAnchor::FindNextAttrTransition**](itextstoreanchor-findnextattrtransition.md)
+[**ITextStoreAnchor::FindNextAttrTransition**](/windows/win32/Textstor/nf-textstor-itextstoreanchor-findnextattrtransition?branch=master)
 </dt> <dt>
 
-[**ITextStoreAnchor::RequestAttrsAtPosition**](itextstoreanchor-requestattrsatposition.md)
+[**ITextStoreAnchor::RequestAttrsAtPosition**](/windows/win32/Textstor/nf-textstor-itextstoreanchor-requestattrsatposition?branch=master)
 </dt> <dt>
 
-[**ITextStoreAnchor::RequestAttrsTransitioningAtPosition**](itextstoreanchor-requestattrstransitioningatposition.md)
+[**ITextStoreAnchor::RequestAttrsTransitioningAtPosition**](/windows/win32/Textstor/nf-textstor-itextstoreanchor-requestattrstransitioningatposition?branch=master)
 </dt> <dt>
 
-[**ITextStoreAnchor::RequestSupportedAttrs**](itextstoreanchor-requestsupportedattrs.md)
+[**ITextStoreAnchor::RequestSupportedAttrs**](/windows/win32/Textstor/nf-textstor-itextstoreanchor-requestsupportedattrs?branch=master)
 </dt> <dt>
 
-[**ITextStoreAnchorSink::OnAttrsChange**](itextstoreanchorsink-onattrschange.md)
+[**ITextStoreAnchorSink::OnAttrsChange**](/windows/win32/Textstor/nf-textstor-itextstoreanchorsink-onattrschange?branch=master)
 </dt> <dt>
 
-[**TS\_ATTRVAL**](ts-attrval.md)
+[**TS\_ATTRVAL**](/windows/win32/Textstor/ns-textstor-ts_attrval?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

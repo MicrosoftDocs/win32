@@ -4,13 +4,16 @@ description: Move the resource group to a different node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A196B129-D787-4900-968C-EBFFDA3CF45C'
-ms.prod: 'windows-server-dev'
+ms.assetid: A196B129-D787-4900-968C-EBFFDA3CF45C
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MoveToNewNodeEx method", "MoveToNewNodeEx method, MSCluster_ResourceGroup class", "MSCluster_ResourceGroup class, MoveToNewNodeEx method"]
+keywords:
+- MoveToNewNodeEx method
+- MoveToNewNodeEx method, MSCluster_ResourceGroup class
+- MSCluster_ResourceGroup class, MoveToNewNodeEx method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MoveToNewNodeEx method of the MSCluster\_ResourceGroup class
@@ -30,9 +36,9 @@ Move the resource group to a different node.
 
 ```mof
 void MoveToNewNodeEx(
-  [in] string             NodeName,
-  [in] MSCluster_Property Parameters,
-  [in] uint32             Flags
+  [in] string             NodeName,
+  [in] MSCluster_Property Parameters,
+  [in] uint32             Flags
 );
 ```
 
@@ -74,7 +80,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -91,9 +97,9 @@ This method does not return a value.
 [**MSCluster\_Property**](mscluster-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

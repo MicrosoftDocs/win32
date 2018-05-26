@@ -1,12 +1,18 @@
 ---
 title: Texture2D SampleCmpLevelZero methods
 description: Samples a Texture2D on mipmap level 0 only, using a comparison value to reject samples.
-ms.assetid: '5E0D0C4A-61D2-48F2-A817-969A97537235'
-keywords: ["SampleCmpLevelZero methods HLSL"]
+ms.assetid: 5E0D0C4A-61D2-48F2-A817-969A97537235
+keywords:
+- SampleCmpLevelZero methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::SampleCmpLevelZero methods
@@ -35,9 +41,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

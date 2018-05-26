@@ -1,8 +1,34 @@
 ---
 title: Architecture
 description: Architecture
-ms.assetid: '6ef6ba1f-fcbb-4ede-bc6f-3da66135ea69'
-keywords: ["Text Services Framework (TSF),architecture", "TSF (Text Services Framework),architecture", "text services,architecture", "TSF-enabled applications,architecture", "Text Services Framework (TSF),components", "TSF (Text Services Framework),components", "text services,components", "TSF-enabled applications,components", "Text Services Framework (TSF),applications", "TSF (Text Services Framework),applications", "text services,applications", "TSF-enabled applications,about", "Text Services Framework (TSF),text services", "TSF (Text Services Framework),text services", "text services,about", "TSF-enabled applications,text services", "Text Services Framework (TSF),TSF manager", "TSF (Text Services Framework),TSF manager", "text services,TSF manager", "TSF-enabled applications,TSF manager", "TSF manager"]
+ms.assetid: 6ef6ba1f-fcbb-4ede-bc6f-3da66135ea69
+keywords:
+- Text Services Framework (TSF),architecture
+- TSF (Text Services Framework),architecture
+- text services,architecture
+- TSF-enabled applications,architecture
+- Text Services Framework (TSF),components
+- TSF (Text Services Framework),components
+- text services,components
+- TSF-enabled applications,components
+- Text Services Framework (TSF),applications
+- TSF (Text Services Framework),applications
+- text services,applications
+- TSF-enabled applications,about
+- Text Services Framework (TSF),text services
+- TSF (Text Services Framework),text services
+- text services,about
+- TSF-enabled applications,text services
+- Text Services Framework (TSF),TSF manager
+- TSF (Text Services Framework),TSF manager
+- text services,TSF manager
+- TSF-enabled applications,TSF manager
+- TSF manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Architecture

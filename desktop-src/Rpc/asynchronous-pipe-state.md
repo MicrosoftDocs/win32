@@ -1,7 +1,12 @@
 ---
 title: Asynchronous Pipe State
 description: This page describes the Asynchronous Pipe State for RPC calls.
-ms.assetid: 'af937eba-6b70-447a-af76-a8e27f5754e3'
+ms.assetid: af937eba-6b70-447a-af76-a8e27f5754e3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Pipe State
@@ -52,9 +57,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a notification go to Can</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data needs to be sent go to P</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data does not need to be sent go to NP</li>
-<li>If a failure [<strong>RpcCallComplete</strong>](rpc-async-event.md) is received go Comp</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data needs to be sent go to P</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data does not need to be sent go to NP</li>
+<li>If a failure [<strong>RpcCallComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received go Comp</li>
 </ul>
 To fail: go to Can<br/></td>
 </tr>
@@ -71,7 +76,7 @@ To fail: go to Can<br/></td>
 <tr class="odd">
 <td>Can</td>
 <td>Cancel the Call</td>
-<td>Call [<strong>RpcAsyncCancelCall</strong>](rpcasynccancelcall.md)Go to WComp<br/></td>
+<td>Call [<strong>RpcAsyncCancelCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccancelcall?branch=master)Go to WComp<br/></td>
 </tr>
 <tr class="even">
 <td>WComp</td>
@@ -81,7 +86,7 @@ To fail: go to Can<br/></td>
 <tr class="odd">
 <td>Comp</td>
 <td>Completion</td>
-<td>Issue [<strong>RpcAsyncCompleteCall</strong>](rpcasynccompletecall.md)Go to End<br/></td>
+<td>Issue [<strong>RpcAsyncCompleteCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master)Go to End<br/></td>
 </tr>
 <tr class="even">
 <td>End</td>
@@ -93,7 +98,7 @@ To fail: go to Can<br/></td>
 
 
 
- 
+ 
 
 Server Behavior
 
@@ -134,9 +139,9 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a failure [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received go to A</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with non-zero bytes read go to P</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with zero bytes read (null pull) go to Comp</li>
+<li>If a failure [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received go to A</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with non-zero bytes read go to P</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with zero bytes read (null pull) go to Comp</li>
 <li>If a failure is received go to A</li>
 </ul>
 To fail: go to A<br/></td>
@@ -144,12 +149,12 @@ To fail: go to A<br/></td>
 <tr class="even">
 <td>A</td>
 <td>Abort the Call</td>
-<td>Call [<strong>RpcAsyncAbortCall</strong>](rpcasyncabortcall.md)Go to End<br/></td>
+<td>Call [<strong>RpcAsyncAbortCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasyncabortcall?branch=master)Go to End<br/></td>
 </tr>
 <tr class="odd">
 <td>Comp</td>
 <td>Completion</td>
-<td>Call [<strong>RpcAsyncCompleteCall</strong>](rpcasynccompletecall.md)Go to End<br/></td>
+<td>Call [<strong>RpcAsyncCompleteCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master)Go to End<br/></td>
 </tr>
 <tr class="even">
 <td>End</td>
@@ -161,7 +166,7 @@ To fail: go to A<br/></td>
 
 
 
- 
+ 
 
 ## OUT Pipe
 
@@ -209,9 +214,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to Can</li>
-<li>If a failure [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received go to Can</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with non-zero bytes read go to P</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with zero bytes read (null pull) go to Comp</li>
+<li>If a failure [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received go to Can</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with non-zero bytes read go to P</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with zero bytes read (null pull) go to Comp</li>
 <li>If a failure is received go Can</li>
 </ul>
 To fail: go to Can<br/></td>
@@ -219,7 +224,7 @@ To fail: go to Can<br/></td>
 <tr class="even">
 <td>Can</td>
 <td>Cancel the Call</td>
-<td>Call [<strong>RpcAsyncCancelCall</strong>](rpcasynccancelcall.md)Go to WComp<br/></td>
+<td>Call [<strong>RpcAsyncCancelCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccancelcall?branch=master)Go to WComp<br/></td>
 </tr>
 <tr class="odd">
 <td>WComp</td>
@@ -229,7 +234,7 @@ To fail: go to Can<br/></td>
 <tr class="even">
 <td>Comp</td>
 <td>Completion</td>
-<td>Issue [<strong>RpcAsyncCompleteCall</strong>](rpcasynccompletecall.md)Go to End<br/></td>
+<td>Issue [<strong>RpcAsyncCompleteCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master)Go to End<br/></td>
 </tr>
 <tr class="odd">
 <td>End</td>
@@ -241,7 +246,7 @@ To fail: go to Can<br/></td>
 
 
 
- 
+ 
 
 Server Behavior
 
@@ -280,8 +285,8 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data needs to be sent go to P</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data does not need to be sent go to NP</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data needs to be sent go to P</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data does not need to be sent go to NP</li>
 <li>If a failure is received go Comp</li>
 </ul>
 To fail: go to A<br/></td>
@@ -309,12 +314,12 @@ To fail: go to A<br/></td>
 <tr class="even">
 <td>A</td>
 <td>Abort the Call</td>
-<td>Call [<strong>RpcAsyncAbortCall</strong>](rpcasyncabortcall.md); go to End</td>
+<td>Call [<strong>RpcAsyncAbortCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasyncabortcall?branch=master); go to End</td>
 </tr>
 <tr class="odd">
 <td>Comp</td>
 <td>Completion</td>
-<td>Issue [<strong>RpcAsyncCompleteCall</strong>](rpcasynccompletecall.md); go to End</td>
+<td>Issue [<strong>RpcAsyncCompleteCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master); go to End</td>
 </tr>
 <tr class="even">
 <td>End</td>
@@ -326,7 +331,7 @@ To fail: go to A<br/></td>
 
 
 
- 
+ 
 
 ## IN-OUT Pipe
 
@@ -372,9 +377,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a notification go to Can</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data needs to be sent go to PS</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data does not need to be sent go to NP</li>
-<li>If a failure [<strong>RpcCallComplete</strong>](rpc-async-event.md) is received go Comp</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data needs to be sent go to PS</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data does not need to be sent go to NP</li>
+<li>If a failure [<strong>RpcCallComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received go Comp</li>
 </ul>
 To fail: go to Can<br/></td>
 </tr>
@@ -406,9 +411,9 @@ To fail: go to Can<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to Can</li>
-<li>If a failure [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received go to Can</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with non-zero bytes read go to PL</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with zero bytes read go to Comp</li>
+<li>If a failure [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received go to Can</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with non-zero bytes read go to PL</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with zero bytes read go to Comp</li>
 <li>If a failure is received go Can</li>
 </ul>
 To fail: go to Can<br/></td>
@@ -416,7 +421,7 @@ To fail: go to Can<br/></td>
 <tr class="odd">
 <td>Can</td>
 <td>Cancel the Call</td>
-<td>Call [<strong>RpcAsyncCancelCall</strong>](rpcasynccancelcall.md)Go to WComp<br/></td>
+<td>Call [<strong>RpcAsyncCancelCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccancelcall?branch=master)Go to WComp<br/></td>
 </tr>
 <tr class="even">
 <td>WComp</td>
@@ -426,7 +431,7 @@ To fail: go to Can<br/></td>
 <tr class="odd">
 <td>Comp</td>
 <td>Completion</td>
-<td>Issue [<strong>RpcAsyncCompleteCall</strong>](rpcasynccompletecall.md)Go to End<br/></td>
+<td>Issue [<strong>RpcAsyncCompleteCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master)Go to End<br/></td>
 </tr>
 <tr class="even">
 <td>End</td>
@@ -438,7 +443,7 @@ To fail: go to Can<br/></td>
 
 
 
- 
+ 
 
 Server Behavior
 
@@ -479,9 +484,9 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a failure [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received go to A</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with non-zero bytes read go to PL</li>
-<li>If a success [<strong>RpcReceiveComplete</strong>](rpc-async-event.md) is received with zero bytes read go to PS</li>
+<li>If a failure [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received go to A</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with non-zero bytes read go to PL</li>
+<li>If a success [<strong>RpcReceiveComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received with zero bytes read go to PS</li>
 <li>If a failure is received go A</li>
 </ul>
 To fail: go to A<br/></td>
@@ -502,8 +507,8 @@ To fail: go to A<br/></td>
 <td>Wait for notification
 <ul>
 <li>On failure to get a completion go to A</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data needs to be sent go to PS</li>
-<li>If a success [<strong>RpcSendComplete</strong>](rpc-async-event.md) is received and more data does not need to be sent go to NP</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data needs to be sent go to PS</li>
+<li>If a success [<strong>RpcSendComplete</strong>](/windows/win32/Rpcasync/ne-rpcasync-_rpc_async_event?branch=master) is received and more data does not need to be sent go to NP</li>
 <li>If a failure is received go Comp</li>
 </ul>
 To fail: go to A<br/></td>
@@ -532,12 +537,12 @@ To fail: go to A<br/></td>
 <tr class="even">
 <td>A</td>
 <td>Abort the Call</td>
-<td>Call [<strong>RpcAsyncAbortCall</strong>](rpcasyncabortcall.md); go to End</td>
+<td>Call [<strong>RpcAsyncAbortCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasyncabortcall?branch=master); go to End</td>
 </tr>
 <tr class="odd">
 <td>Comp</td>
 <td>Completion</td>
-<td>Issue [<strong>RpcAsyncCompleteCall</strong>](rpcasynccompletecall.md); go to End</td>
+<td>Issue [<strong>RpcAsyncCompleteCall</strong>](/windows/win32/Rpcasync/nf-rpcasync-rpcasynccompletecall?branch=master); go to End</td>
 </tr>
 <tr class="even">
 <td>End</td>
@@ -549,11 +554,11 @@ To fail: go to A<br/></td>
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Touch Hit Testing Window Constants
 description: Indicates how messages for touch hit testing are processed by windows that are registered through the RegisterTouchHitTestingWindow function.
-ms.assetid: 'CC6CCD0B-882F-4DA7-B886-D4BD18D6060C'
+ms.assetid: CC6CCD0B-882F-4DA7-B886-D4BD18D6060C
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch Hit Testing Window Constants
@@ -34,8 +39,8 @@ Indicates how messages for touch hit testing are processed by windows that are r
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -47,12 +52,12 @@ Indicates how messages for touch hit testing are processed by windows that are r
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: The list of DNs for MSMQ routing servers, through which all traffic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4c00553e-6439-4fad-974c-3bfbb61d8f2d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4c00553e-6439-4fad-974c-3bfbb61d8f2d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MSMQ-Site-Gates attribute AD Schema", "mSMQSiteGates attribute AD Schema"]
+keywords:
+- MSMQ-Site-Gates attribute AD Schema
+- mSMQSiteGates attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MSMQ-Site-Gates
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMQ-Site-Gates attribute
@@ -38,12 +43,12 @@ The list of DNs for MSMQ routing servers, through which all traffic between site
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The list of DNs for MSMQ routing servers, through which all traffic between site
 
 
 
- 
+ 
 
- 
+ 
 
 
 

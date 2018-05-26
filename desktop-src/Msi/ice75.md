@@ -1,7 +1,12 @@
 ---
-Description: 'ICE75 verifies that all Custom Action Type 17 (DLL), Custom Action Type 18 (EXE), Custom Action type 21 (JScript), and Custom Action Type 22 (VBScript) custom actions are sequenced after the CostFinalize action.'
-ms.assetid: '831de042-bea6-42da-90a0-3847bb447414'
+Description: ICE75 verifies that all Custom Action Type 17 (DLL), Custom Action Type 18 (EXE), Custom Action type 21 (JScript), and Custom Action Type 22 (VBScript) custom actions are sequenced after the CostFinalize action.
+ms.assetid: 831de042-bea6-42da-90a0-3847bb447414
 title: ICE75
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE75

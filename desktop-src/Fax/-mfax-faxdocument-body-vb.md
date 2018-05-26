@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.'
-ms.assetid: '1679d433-5a62-4e98-a083-f15ac9d4fb2d'
-title: 'FaxDocument.Body property'
+---
+Description: The Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
+ms.assetid: 1679d433-5a62-4e98-a083-f15ac9d4fb2d
+title: FaxDocument.Body property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.Body property
@@ -52,7 +57,7 @@ Either the [**Bodies**](-mfax-faxdocument2-bodies-vb.md) property or the **Body*
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

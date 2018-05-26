@@ -1,7 +1,12 @@
 ---
 title: GUIDs and the System Registry
 description: The system registry is a central repository that contains information about objects.
-ms.assetid: 'a3ecd640-015b-4e90-bc3b-03df16d53118'
+ms.assetid: a3ecd640-015b-4e90-bc3b-03df16d53118
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUIDs and the System Registry

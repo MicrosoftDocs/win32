@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPin method retrieves a pin.'
-ms.assetid: 'd8e4973b-2af4-4141-ab2e-ea2159cd51be'
-title: 'CTransInPlaceFilter.GetPin method'
+Description: The GetPin method retrieves a pin.
+ms.assetid: d8e4973b-2af4-4141-ab2e-ea2159cd51be
+title: CTransInPlaceFilter.GetPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.GetPin method
@@ -13,7 +18,7 @@ The `GetPin` method retrieves a pin.
 
 ```C++
 virtual CBasePin* GetPin(
-   int n
+   int n
 );
 ```
 
@@ -60,9 +65,9 @@ If the filter uses the default [**CTransInPlaceInputPin**](ctransinplaceinputpin
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

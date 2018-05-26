@@ -4,11 +4,14 @@ description: Removes a desktop assignment.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1a8cf03-1d21-4bf4-a868-3da4d5bbf43b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e1a8cf03-1d21-4bf4-a868-3da4d5bbf43b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoveDesktopAssignment method Remote Desktop Services", "RemoveDesktopAssignment method Remote Desktop Services , Win32_RDMSDesktopAssignment class", "Win32_RDMSDesktopAssignment class Remote Desktop Services , RemoveDesktopAssignment method"]
+keywords:
+- RemoveDesktopAssignment method Remote Desktop Services
+- RemoveDesktopAssignment method Remote Desktop Services , Win32_RDMSDesktopAssignment class
+- Win32_RDMSDesktopAssignment class Remote Desktop Services , RemoveDesktopAssignment method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveDesktopAssignment method of the Win32\_RDMSDesktopAssignment class
@@ -28,10 +34,10 @@ Removes a desktop assignment
 
 ```mof
 uint32 RemoveDesktopAssignment(
-  [in] string CollectionAlias,
-  [in] string DesktopName,
-  [in] string UserDomain,
-  [in] string UserName
+  [in] string CollectionAlias,
+  [in] string DesktopName,
+  [in] string UserDomain,
+  [in] string UserName
 );
 ```
 
@@ -76,7 +82,7 @@ The user account name.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -90,9 +96,9 @@ The user account name.
 [**Win32\_RDMSDesktopAssignment**](win32-rdmsdesktopassignment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

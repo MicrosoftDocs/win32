@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemRefresher.Remove method removes the SWbemRefreshableItem object with the specified index from the refresher.'
+Description: The SWbemRefresher.Remove method removes the SWbemRefreshableItem object with the specified index from the refresher.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'db5ac740-e2b3-4667-b511-d750cb092e0f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: db5ac740-e2b3-4667-b511-d750cb092e0f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefresher.Remove method'
+title: SWbemRefresher.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefresher.Remove method
@@ -60,7 +63,7 @@ This method has no return values.
 
 ## Remarks
 
-**Error codes**—If the refresher has no item with the specified index, **wbemErrNotFound** is generated.
+**Error codes** If the refresher has no item with the specified index, **wbemErrNotFound** is generated.
 
 ## Requirements
 
@@ -68,8 +71,8 @@ This method has no return values.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -85,9 +88,9 @@ This method has no return values.
 [**SWbemRefresher**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

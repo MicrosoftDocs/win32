@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used with debugging:'
-ms.assetid: '1d8801dd-7315-4130-aba1-088549b8b932'
+Description: The following elements are used with debugging
+ms.assetid: 1d8801dd-7315-4130-aba1-088549b8b932
 title: Debugging Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging Reference

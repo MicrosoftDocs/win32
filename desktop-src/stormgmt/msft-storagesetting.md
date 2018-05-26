@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageSetting class
 description: Represents various operating system-wide settings related to storage management.
-ms.assetid: '5F956BBF-8FAB-44B2-A2C0-F234813D979B'
-keywords: ["MSFT_StorageSetting class Windows Storage Management API", "MSFT_StorageSetting class Windows Storage Management API , described"]
+ms.assetid: 5F956BBF-8FAB-44B2-A2C0-F234813D979B
+keywords:
+- MSFT_StorageSetting class Windows Storage Management API
+- MSFT_StorageSetting class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageSetting class
@@ -52,7 +59,7 @@ The **MSFT\_StorageSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -83,7 +90,7 @@ Describes the action the operating system will take when a new disk is discovere
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -117,16 +124,16 @@ Describes the policy for the files that the automatic data integrity scanner wil
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

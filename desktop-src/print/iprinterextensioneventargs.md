@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the context for the desktop printer extension activation.'
-ms.assetid: '77850B5A-4E24-4057-B87F-D964620ABF94'
+---
+Description: Represents the context for the desktop printer extension activation.
+ms.assetid: 77850B5A-4E24-4057-B87F-D964620ABF94
 title: IPrinterExtensionEventArgs interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs interface

@@ -1,7 +1,12 @@
 ---
 title: VML FocusSize Attribute
 description: VML FocusSize Attribute
-ms.assetid: '6ca5af2c-3064-423f-a7bb-202f23bf95da'
+ms.assetid: 6ca5af2c-3064-423f-a7bb-202f23bf95da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML FocusSize Attribute

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '5038BCFA-6E18-4BF8-9442-4F12D77418B0'
+---
+Description: .
+ms.assetid: 5038BCFA-6E18-4BF8-9442-4F12D77418B0
 title: IBidiAsyncNotifyChannel interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiAsyncNotifyChannel interface

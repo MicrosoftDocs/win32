@@ -1,20 +1,25 @@
 ---
 title: ms-WMI-CreationDate attribute
-description: The date and time stamp of an object instance's creation.
+description: The date and time stamp of an object instances creation.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c331a872-73c4-45cc-a4f7-6e48e0ea3f74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c331a872-73c4-45cc-a4f7-6e48e0ea3f74
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-CreationDate attribute AD Schema", "msWMI-CreationDate attribute AD Schema"]
+keywords:
+- ms-WMI-CreationDate attribute AD Schema
+- msWMI-CreationDate attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-CreationDate
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-CreationDate attribute
@@ -38,11 +43,11 @@ The date and time stamp of an object instance's creation.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The date and time stamp of an object instance's creation.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

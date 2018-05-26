@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a digital signature on the content to be signed. A digital signature consists of a hash of the content to be signed that is encrypted by using the private key of the signer.'
-ms.assetid: 'ee98a36c-f9a9-4247-ae48-7b1a10b92be4'
-title: 'SignedData.Sign method'
+---
+Description: Creates a digital signature on the content to be signed. A digital signature consists of a hash of the content to be signed that is encrypted by using the private key of the signer.
+ms.assetid: ee98a36c-f9a9-4247-ae48-7b1a10b92be4
+title: SignedData.Sign method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignedData.Sign method

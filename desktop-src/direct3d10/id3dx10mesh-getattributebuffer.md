@@ -1,7 +1,12 @@
-﻿---
-Description: 'Access the mesh''s attribute buffer.'
-ms.assetid: '01ebb592-1e0d-4d93-b3f5-ad5f1e0225d0'
-title: 'ID3DX10Mesh::GetAttributeBuffer method'
+---
+Description: Access the meshs attribute buffer.
+ms.assetid: 01ebb592-1e0d-4d93-b3f5-ad5f1e0225d0
+title: ID3DX10MeshGetAttributeBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetAttributeBuffer method

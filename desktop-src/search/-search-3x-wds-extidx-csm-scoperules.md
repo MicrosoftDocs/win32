@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Crawl Scope Manager (CSM) enables you define scope rules that include or exclude URLs from the Windows Search crawl scope.'
-ms.assetid: '132a55f9-680d-438e-b983-f5ce4cf66a41'
+---
+Description: The Crawl Scope Manager (CSM) enables you define scope rules that include or exclude URLs from the Windows Search crawl scope.
+ms.assetid: 132a55f9-680d-438e-b983-f5ce4cf66a41
 title: Managing Scope Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Scope Rules
@@ -68,7 +73,7 @@ Before you use any of the Crawl Scope Manager interfaces, you must perform the f
 2.  Call **ISearchManager::GetCatalog** for "SystemIndex" to obtain an instance of the **ISearchCatalogManager** interface.
 3.  Call **ISearchCatalogManager::GetCrawlScopeManager** to obtain an instance of the **ISearchCrawlScopeManager** interface.
 
-After making any changes to the Crawl Scope Manager, you must call the [**ISearchCrawlScopeManager::SaveAll**](-search-isearchcrawlscopemanager-saveall.md) method. This method takes no parameters and returns S\_OK on success.
+After making any changes to the Crawl Scope Manager, you must call the [**ISearchCrawlScopeManager::SaveAll**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-saveall?branch=master) method. This method takes no parameters and returns S\_OK on success.
 
  
 
@@ -76,11 +81,11 @@ After making any changes to the Crawl Scope Manager, you must call the [**ISearc
 
 The working rules set for the CSM includes user and default rules, as well as any rules forced by group policy. User rules are set up by users in a user interface, and default rules can be set by any of the following:
 
--   Group policies implemented by a system administrator (These do not use the [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md) interface.)
+-   Group policies implemented by a system administrator (These do not use the [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master) interface.)
 -   The installation or update of an application like Windows Search or a protocol handler
 -   A setup application for the addition of a new data store or container
 
-The [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md) provides two methods for adding new scope rules, as described in the following table. Paths for inclusion rules for the file system must end with a backslash '\\' (for example, file:///C:\\files\\), and paths for exclusion rules must end with an asterisk (for example, file:///c:\\files\\\*). Only exclusion rules can contain pattern URLs. Furthermore, we recommend including users' security identifiers (SIDs) in paths, for better security. Per-user paths are more secure as queries would then run in a per-user process, ensuring that one user cannot see items indexed from another user's inbox, for example.
+The [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master) provides two methods for adding new scope rules, as described in the following table. Paths for inclusion rules for the file system must end with a backslash '\\' (for example, file:///C:\\files\\), and paths for exclusion rules must end with an asterisk (for example, file:///c:\\files\\\*). Only exclusion rules can contain pattern URLs. Furthermore, we recommend including users' security identifiers (SIDs) in paths, for better security. Per-user paths are more secure as queries would then run in a per-user process, ensuring that one user cannot see items indexed from another user's inbox, for example.
 
 The following table describes the methods of the ISearchCrawlScopeManager interface used for adding new scope rules.
 
@@ -88,8 +93,8 @@ The following table describes the methods of the ISearchCrawlScopeManager interf
 
 | Method                                                                              | Description                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AddUserScopeRule**](-search-isearchcrawlscopemanager-adduserscoperule.md)       | Adds a rule for a URL, as specified by the user. These rules override default rules. Use this method if you have implemented a user interface that lets users manage their own scope rules and URLs.                         |
-| [**AddDefaultScopeRule**](-search-isearchcrawlscopemanager-adddefaultscoperule.md) | Adds a rule for a URL, as specified by another application like a protocol handler. Use this method when you have implemented a new protocol handler or added a new data store. These rules can be overridden by user rules. |
+| [**AddUserScopeRule**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-adduserscoperule?branch=master)       | Adds a rule for a URL, as specified by the user. These rules override default rules. Use this method if you have implemented a user interface that lets users manage their own scope rules and URLs.                         |
+| [**AddDefaultScopeRule**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-adddefaultscoperule?branch=master) | Adds a rule for a URL, as specified by another application like a protocol handler. Use this method when you have implemented a new protocol handler or added a new data store. These rules can be overridden by user rules. |
 
 
 
@@ -112,14 +117,14 @@ Setting the flag *fOverrideChildren* has the following results in the working ru
 
 ## Removing Scope Rules
 
-You can use the [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md) interface to remove a scope rule from the working rule set. This interface provides the following two methods for removing scope rules.
+You can use the [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master) interface to remove a scope rule from the working rule set. This interface provides the following two methods for removing scope rules.
 
 
 
 | Method                                                                                    | Description                                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RemoveScopeRule**](-search-isearchcrawlscopemanager-removescoperule.md)               | Removes a user rule for a specified URL from the working rule set. If the user rule is a duplicate of or overrides a default rule, the default rule remains in the working rule set.                  |
-| [**RemoveDefaultScopeRule**](-search-isearchcrawlscopemanager-removedefaultscoperule.md) | Removes a default rule for a specified URL from both the working rule set and the default rule set. After calling this method, you cannot revert to this default rule by using RevertToDefaultScopes. |
+| [**RemoveScopeRule**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-removescoperule?branch=master)               | Removes a user rule for a specified URL from the working rule set. If the user rule is a duplicate of or overrides a default rule, the default rule remains in the working rule set.                  |
+| [**RemoveDefaultScopeRule**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-removedefaultscoperule?branch=master) | Removes a default rule for a specified URL from both the working rule set and the default rule set. After calling this method, you cannot revert to this default rule by using RevertToDefaultScopes. |
 
 
 
@@ -127,7 +132,7 @@ You can use the [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.
 
 Each method takes a URL and a flag indicating whether the rule to be removed is an inclusion or exclusion rule. These methods returns an error if a rule with that URL and inclusion/exclusion flag is not found.
 
-**Tip:** If you want to remove a scope from the crawl scope entirely, use the [**RemoveRoot**](-search-isearchcrawlscopemanager-removeroot.md) method, which removes the search root and all associated scope rules. Doing this while uninstalling, for example, is considered best practice.
+**Tip:** If you want to remove a scope from the crawl scope entirely, use the [**RemoveRoot**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-removeroot?branch=master) method, which removes the search root and all associated scope rules. Doing this while uninstalling, for example, is considered best practice.
 
 It is also possible to remove all user-set overrides of a search root and revert to the original search root and default scope rules. For more information, refer to the next section.
 
@@ -140,13 +145,13 @@ It is also possible to remove all user-set overrides of a search root and revert
 
 ## Reverting to Default Rules
 
-Reverting to default rules removes all user rules for a URL or root and restores all default rules to the working rule set. It does not, however, remove rules set by group policy. The [**RevertToDefaultScopes**](-search-isearchcrawlscopemanager-reverttodefaultscopes.md) method takes no parameters and returns an error code if it is unable to revert to default rules.
+Reverting to default rules removes all user rules for a URL or root and restores all default rules to the working rule set. It does not, however, remove rules set by group policy. The [**RevertToDefaultScopes**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-reverttodefaultscopes?branch=master) method takes no parameters and returns an error code if it is unable to revert to default rules.
 
  
 
 ## Enumerating Scope Rules
 
-The CSM enumerates scope rules by using a standard COM-style enumerator interface, [**IEnumSearchScopeRules**](-search-ienumsearchscoperules.md) . You can use this interface to enumerate scope rules for several purposes. For example, you might want to display the entire working rule set in a user interface, or discover whether a rule or the child of a rule is already in the crawl scope.
+The CSM enumerates scope rules by using a standard COM-style enumerator interface, [**IEnumSearchScopeRules**](/windows/win32/Searchapi/nn-searchapi-ienumsearchscoperules?branch=master) . You can use this interface to enumerate scope rules for several purposes. For example, you might want to display the entire working rule set in a user interface, or discover whether a rule or the child of a rule is already in the crawl scope.
 
  
 
@@ -154,17 +159,17 @@ The CSM enumerates scope rules by using a standard COM-style enumerator interfac
 
 The CSM also enables you to determine whether a specified URL is included in the crawl scope and whether it has a parent or child scope rule. You can also find out why a URL is included or excluded from the crawl scope. These methods are not intended to be used with pattern URLs.
 
-The following table describes the methods of [**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md) used for adding new scope rules.
+The following table describes the methods of [**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master) used for adding new scope rules.
 
 
 
 | Method                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetParentScopeVersionId**](-search-isearchcrawlscopemanager-getparentscopeversionid.md) | Gets the version ID of the parent inclusion URL. You can use this method to see if the parent scope has changed since the last time you checked it.<br/> Example: If a mail application uses provider-managed notifications, it might get the parent scope version before it closes and check the version again when it opens. Then the application can determine whether it needs to push a new set of notifications to the indexer.<br/> |
-| [**HasChildScopeRule**](-search-isearchcrawlscopemanager-haschildscoperule.md)             | Returns **TRUE** if the specified URL has a child rule (a rule applying to a child at any level within its URL hierarchy). <br/> Example: If the URL is file:///C:\\Folder\\, this method returns **TRUE** if the CSM has a scope rule specifically for file:///C:\\Folder\\Subfolder\\.<br/>                                                                                                                                              |
-| [**HasParentScopeRule**](-search-isearchcrawlscopemanager-hasparentscoperule.md)           | Returns **TRUE** if the specified URL has a parent rule (a rule applying to a parent at any level in the URL hierarchy).<br/> Example: If the URL is file:///C:\\Folder\\Subfolder, this method returns **TRUE** if the CSM has a scope rule specifically for file:///C:\\Folder\\.<br/>                                                                                                                                                   |
-| [**IncludedInCrawlScope**](-search-isearchcrawlscopemanager-includedincrawlscope.md)       | Returns **TRUE** if the specified URL is included in the crawl scope.                                                                                                                                                                                                                                                                                                                                                                                  |
-| [**IncludedInCrawlScopeEx**](-search-isearchcrawlscopemanager-includedincrawlscopeex.md)   | Returns a value from the [**CLUSION\_REASON**](-search-clusion-reason.md) enumeration explaining why the URL is included in or excluded from the crawl scope, and retrieves the value **TRUE** if the URL is included in the crawl scope. This method can help you identify conflicts in your working rule set.                                                                                                                                       |
+| [**GetParentScopeVersionId**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-getparentscopeversionid?branch=master) | Gets the version ID of the parent inclusion URL. You can use this method to see if the parent scope has changed since the last time you checked it.<br/> Example: If a mail application uses provider-managed notifications, it might get the parent scope version before it closes and check the version again when it opens. Then the application can determine whether it needs to push a new set of notifications to the indexer.<br/> |
+| [**HasChildScopeRule**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-haschildscoperule?branch=master)             | Returns **TRUE** if the specified URL has a child rule (a rule applying to a child at any level within its URL hierarchy). <br/> Example: If the URL is file:///C:\\Folder\\, this method returns **TRUE** if the CSM has a scope rule specifically for file:///C:\\Folder\\Subfolder\\.<br/>                                                                                                                                              |
+| [**HasParentScopeRule**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-hasparentscoperule?branch=master)           | Returns **TRUE** if the specified URL has a parent rule (a rule applying to a parent at any level in the URL hierarchy).<br/> Example: If the URL is file:///C:\\Folder\\Subfolder, this method returns **TRUE** if the CSM has a scope rule specifically for file:///C:\\Folder\\.<br/>                                                                                                                                                   |
+| [**IncludedInCrawlScope**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscope?branch=master)       | Returns **TRUE** if the specified URL is included in the crawl scope.                                                                                                                                                                                                                                                                                                                                                                                  |
+| [**IncludedInCrawlScopeEx**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscopeex?branch=master)   | Returns a value from the [**CLUSION\_REASON**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0013_0001?branch=master) enumeration explaining why the URL is included in or excluded from the crawl scope, and retrieves the value **TRUE** if the URL is included in the crawl scope. This method can help you identify conflicts in your working rule set.                                                                                                                                       |
 
 
 
@@ -173,7 +178,7 @@ The following table describes the methods of [**ISearchCrawlScopeManager**](-sea
  
 
 > [!Note]  
-> The [**IncludedInCrawlScope**](-search-isearchcrawlscopemanager-includedincrawlscope.md) and [**IncludedInCrawlScopeEx**](-search-isearchcrawlscopemanager-includedincrawlscopeex.md) methods determine whether the URL will be crawled based solely on the rules in the CSM. There can be other reasons that a URL is not crawled, such as the FANCI bit being set (that is, a user has disallowed fast indexing in the folder's Property dialog box.)
+> The [**IncludedInCrawlScope**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscope?branch=master) and [**IncludedInCrawlScopeEx**](/windows/win32/Searchapi/nf-searchapi-isearchcrawlscopemanager-includedincrawlscopeex?branch=master) methods determine whether the URL will be crawled based solely on the rules in the CSM. There can be other reasons that a URL is not crawled, such as the FANCI bit being set (that is, a user has disallowed fast indexing in the folder's Property dialog box.)
 
  
 
@@ -186,16 +191,16 @@ If you believe that a file path should be excluded, but it is listed as included
 **Reference**
 </dt> <dt>
 
-[**ISearchCrawlScopeManager**](-search-isearchcrawlscopemanager.md)
+[**ISearchCrawlScopeManager**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager?branch=master)
 </dt> <dt>
 
-[**ISearchCrawlScopeManager2**](-search-isearchcrawlscopemanager2.md)
+[**ISearchCrawlScopeManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcrawlscopemanager2?branch=master)
 </dt> <dt>
 
-[**ISearchScopeRule**](-search-isearchscoperule.md)
+[**ISearchScopeRule**](/windows/win32/Searchapi/nn-searchapi-isearchscoperule?branch=master)
 </dt> <dt>
 
-[**IEnumSearchScopeRules**](-search-ienumsearchscoperules.md)
+[**IEnumSearchScopeRules**](/windows/win32/Searchapi/nn-searchapi-ienumsearchscoperules?branch=master)
 </dt> <dt>
 
 **Conceptual**

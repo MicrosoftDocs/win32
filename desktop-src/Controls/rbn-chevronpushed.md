@@ -1,8 +1,9 @@
 ---
 title: RBN\_CHEVRONPUSHED notification code
 description: Sent by a rebar control when a chevron is pushed. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '58aa2c9d-8ab6-46ee-b32f-5c04fb7afa84'
-keywords: ["RBN_CHEVRONPUSHED notification code Windows Controls"]
+ms.assetid: 58aa2c9d-8ab6-46ee-b32f-5c04fb7afa84
+keywords:
+- RBN_CHEVRONPUSHED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RBN\_CHEVRONPUSHED notification code
@@ -33,7 +39,7 @@ RBN_CHEVRONPUSHED
 *lParam* 
 </dt> <dd>
 
-Pointer to the band's [**NMREBARCHEVRON**](nmrebarchevron.md) structure.
+Pointer to the band's [**NMREBARCHEVRON**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarchevron?branch=master) structure.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ The return value for this notification is not used.
 
 ## Remarks
 
-When an application receives this notification code, it is responsible for displaying a popup menu with items for each hidden tool. Use the **rc** member of the [**NMREBARCHEVRON**](nmrebarchevron.md) structure to find the correct position for the popup menu.
+When an application receives this notification code, it is responsible for displaying a popup menu with items for each hidden tool. Use the **rc** member of the [**NMREBARCHEVRON**](/windows/win32/Commctrl/ns-commctrl-tagnmrebarchevron?branch=master) structure to find the correct position for the popup menu.
 
 ## Requirements
 
@@ -51,15 +57,15 @@ When an application receives this notification code, it is responsible for displ
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,29 @@
 ---
 title: Image Control Type
 description: This topic provides information about Microsoft UI Automation support for the Image control type.
-ms.assetid: '439c708c-4fb4-481b-a2ff-3816d649f3ff'
-keywords: ["UI Automation,support for Image control type", "UI Automation,Image control type", "UI Automation,tree structure for Image control type", "UI Automation,properties for Image control type", "UI Automation,control patterns for Image control type", "UI Automation,events for Image control type", "tree structures,Image control type", "properties,Image control type", "control patterns,Image control type", "events,Image control type", "support for Image control type", "Image control type", "control types,tree structure for Image control type", "control types,control patterns for Image control type", "control types,support for Image", "control types,Image"]
+ms.assetid: 439c708c-4fb4-481b-a2ff-3816d649f3ff
+keywords:
+- UI Automation,support for Image control type
+- UI Automation,Image control type
+- UI Automation,tree structure for Image control type
+- UI Automation,properties for Image control type
+- UI Automation,control patterns for Image control type
+- UI Automation,events for Image control type
+- tree structures,Image control type
+- properties,Image control type
+- control patterns,Image control type
+- events,Image control type
+- support for Image control type
+- Image control type
+- control types,tree structure for Image control type
+- control types,control patterns for Image control type
+- control types,support for Image
+- control types,Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image Control Type
@@ -52,7 +73,7 @@ The following table depicts a typical control and content view of the UI Automat
 
 
 
- 
+ 
 
 ## Relevant Properties
 
@@ -77,7 +98,7 @@ The following table lists the UI Automation properties whose value or definition
 
 
 
- 
+ 
 
 ## Required Control Patterns
 
@@ -87,14 +108,14 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                 | Support | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridItemProvider**](uiauto-igriditemprovider.md)           | Depends | The image control supports the [GridItem](uiauto-implementinggriditem.md) control pattern if the control is within a grid container.                                                                                                                                                                                                                                                                                                                      |
-| [**IInvokeProvider**](uiauto-iinvokeprovider.md)               | Never   | If the image control is a clickable object, the control should support a control type that supports the [Invoke](uiauto-implementinginvoke.md) control pattern, such as the [Button](uiauto-supportbuttoncontroltype.md) control type. For an image object that contains multiple clickable objects, the element (Image control type) may host child links ([Hyperlink](uiauto-supporthyperlinkcontroltype.md) control type) in the UI Automation tree. |
-| [**ISelectionItemProvider**](uiauto-iselectionitemprovider.md) | Never   | Image controls should not support the [SelectionItem](uiauto-implementingselectionitem.md) control pattern. If images are part of a container that is selectable such as a button that has an image icon as content, that container supports the pattern, not the image within.                                                                                                                                                                           |
-| [**ITableItemProvider**](uiauto-itableitemprovider.md)         | Depends | The image control supports the [TableItem](uiauto-implementingtableitem.md) control pattern if the control is within a container that has header controls.                                                                                                                                                                                                                                                                                                |
+| [**IGridItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igriditemprovider?branch=master)           | Depends | The image control supports the [GridItem](uiauto-implementinggriditem.md) control pattern if the control is within a grid container.                                                                                                                                                                                                                                                                                                                      |
+| [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master)               | Never   | If the image control is a clickable object, the control should support a control type that supports the [Invoke](uiauto-implementinginvoke.md) control pattern, such as the [Button](uiauto-supportbuttoncontroltype.md) control type. For an image object that contains multiple clickable objects, the element (Image control type) may host child links ([Hyperlink](uiauto-supporthyperlinkcontroltype.md) control type) in the UI Automation tree. |
+| [**ISelectionItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider?branch=master) | Never   | Image controls should not support the [SelectionItem](uiauto-implementingselectionitem.md) control pattern. If images are part of a container that is selectable such as a button that has an image icon as content, that container supports the pattern, not the image within.                                                                                                                                                                           |
+| [**ITableItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableitemprovider?branch=master)         | Depends | The image control supports the [TableItem](uiauto-implementingtableitem.md) control pattern if the control is within a container that has header controls.                                                                                                                                                                                                                                                                                                |
 
 
 
- 
+ 
 
 ## Required Events
 
@@ -114,7 +135,7 @@ The following table lists the UI Automation events that image controls are requi
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -129,9 +150,9 @@ The following table lists the UI Automation events that image controls are requi
 [UI Automation Overview](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

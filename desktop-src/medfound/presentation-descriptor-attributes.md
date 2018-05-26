@@ -1,7 +1,12 @@
 ---
 Description: Presentation Descriptor Attributes
-ms.assetid: '2a092a6a-956b-4c1f-955f-529ec08665fe'
+ms.assetid: 2a092a6a-956b-4c1f-955f-529ec08665fe
 title: Presentation Descriptor Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Presentation Descriptor Attributes
@@ -84,7 +89,7 @@ The following attributes apply to presentation descriptors for Advanced Systems 
 [Presentation Descriptors](presentation-descriptors.md)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> </dl>
 
  

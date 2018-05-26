@@ -1,14 +1,20 @@
 ---
 title: Name (networkSettingsType) Element
 description: Contains the name of a network profile. The name is used for display purposes.
-ms.assetid: '86e4e68d-3c36-41eb-8563-d7d5125a5957'
-keywords: ["Name element Task Scheduler"]
+ms.assetid: 86e4e68d-3c36-41eb-8563-d7d5125a5957
+keywords:
+- Name element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name (networkSettingsType) Element
@@ -36,7 +42,7 @@ The **Name** element is defined by the [**networkSettingsType**](taskschedulersc
 
 ## Remarks
 
-For C++ development, see [**Name Property of INetworkSettings**](inetworksettings-name.md).
+For C++ development, see [**Name Property of INetworkSettings**](/windows/win32/taskschd/nf-taskschd-inetworksettings-get_name?branch=master).
 
 For script development, see [**NetworkSettings.Name**](networksettings-name.md).
 
@@ -46,14 +52,14 @@ For script development, see [**NetworkSettings.Name**](networksettings-name.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

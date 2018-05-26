@@ -1,8 +1,21 @@
 ---
 title: Querying MIDI Input Devices
 description: Querying MIDI Input Devices
-ms.assetid: '2da88418-f9cf-49da-b17f-8a26d357b5ab'
-keywords: ["Musical Instrument Digital Interface (MIDI),input devices", "MIDI (Musical Instrument Digital Interface),input devices", "recording MIDI audio,input devices", "MIDI input devices", "Musical Instrument Digital Interface (MIDI),querying input devices", "MIDI (Musical Instrument Digital Interface),querying input devices", "recording MIDI audio,querying input devices", "querying MIDI input devices"]
+ms.assetid: 2da88418-f9cf-49da-b17f-8a26d357b5ab
+keywords:
+- Musical Instrument Digital Interface (MIDI),input devices
+- MIDI (Musical Instrument Digital Interface),input devices
+- recording MIDI audio,input devices
+- MIDI input devices
+- Musical Instrument Digital Interface (MIDI),querying input devices
+- MIDI (Musical Instrument Digital Interface),querying input devices
+- recording MIDI audio,querying input devices
+- querying MIDI input devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying MIDI Input Devices

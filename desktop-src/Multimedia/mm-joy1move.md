@@ -1,8 +1,9 @@
 ---
 title: MM\_JOY1MOVE message
 description: The MM\_JOY1MOVE message notifies the window that has captured joystick JOYSTICKID1 that the joystick position has changed.
-ms.assetid: '317ac0b2-f873-413d-b071-47d840229643'
-keywords: ["MM_JOY1MOVE message Windows Multimedia"]
+ms.assetid: 317ac0b2-f873-413d-b071-47d840229643
+keywords:
+- MM_JOY1MOVE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_JOY1MOVE message
@@ -47,7 +53,7 @@ Identifies the buttons that are pressed. It can be one or more of the following 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -71,8 +77,8 @@ The y-coordinate of the joystick relative to the upper left corner of the client
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ The y-coordinate of the joystick relative to the upper left corner of the client
 [Multimedia Joystick Messages](multimedia-joystick-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

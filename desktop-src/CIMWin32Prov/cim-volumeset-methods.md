@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_VolumeSet class exposes the following methods.'
+Description: The CIM\_VolumeSet class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1C40D2BA-9041-4776-9E3B-A6C42CC06E56'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1C40D2BA-9041-4776-9E3B-A6C42CC06E56
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_VolumeSet Methods'
+title: CIM\_VolumeSet Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VolumeSet Methods

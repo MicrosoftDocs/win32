@@ -1,8 +1,9 @@
 ---
 title: Cdrom.playlist
 description: The playlist property retrieves a Playlist object representing the tracks on the CD currently in the CD drive or the root-level title entries for DVD.
-ms.assetid: '71c76b6c-1344-4d45-b86b-7e49be44dba8'
-keywords: ["Cdrom.playlist Windows Media Player"]
+ms.assetid: 71c76b6c-1344-4d45-b86b-7e49be44dba8
+keywords:
+- Cdrom.playlist Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cdrom.playlist
@@ -65,8 +71,8 @@ for(var i = 0; i < pl.count; i++){
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Version<br/>                  | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
@@ -85,9 +91,9 @@ for(var i = 0; i < pl.count; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

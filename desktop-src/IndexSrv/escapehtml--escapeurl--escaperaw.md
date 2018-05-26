@@ -1,7 +1,12 @@
 ---
 title: EscapeHTML, EscapeURL, EscapeRAW
 description: EscapeHTML, EscapeURL, EscapeRAW
-ms.assetid: '0fe2de82-d05f-41aa-a2db-710ffa9b19e0'
+ms.assetid: 0fe2de82-d05f-41aa-a2db-710ffa9b19e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EscapeHTML, EscapeURL, EscapeRAW

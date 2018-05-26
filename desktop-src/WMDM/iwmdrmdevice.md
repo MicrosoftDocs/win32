@@ -1,14 +1,21 @@
 ---
 title: IWMDRMDevice interface
 description: This interface is not intended to be implemented by a service provider, but is provided for purposes of complete documentation.The IWMDRMDevice interface enables a secure content provider to communicate with devices that use Windows Media DRM 10 for Portable Devices.
-ms.assetid: 'ebad4acd-16cc-433f-a5e0-fcae59030f55'
-keywords: ["IWMDRMDevice interface windows Media Device Manager", "IWMDRMDevice interface windows Media Device Manager , described"]
+ms.assetid: ebad4acd-16cc-433f-a5e0-fcae59030f55
+keywords:
+- IWMDRMDevice interface windows Media Device Manager
+- IWMDRMDevice interface windows Media Device Manager , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMDevice
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice interface
@@ -44,7 +51,7 @@ The **IWMDRMDevice** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -53,9 +60,9 @@ The **IWMDRMDevice** interface has these methods.
 [**Interfaces for Service Providers**](interfaces-for-service-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree GetMessageSource method
 description: Gets the message source for the message.
-ms.assetid: '32416f96-13c9-4fca-9beb-d2b82fc07f6d'
-keywords: ["GetMessageSource method Windows Mail (formerly Outlook Express)", "GetMessageSource method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetMessageSource method"]
+ms.assetid: 32416f96-13c9-4fca-9beb-d2b82fc07f6d
+keywords:
+- GetMessageSource method Windows Mail (formerly Outlook Express)
+- GetMessageSource method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , GetMessageSource method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::GetMessageSource method
@@ -22,8 +30,8 @@ Gets the message source for the message.
 
 ```C++
 HRESULT GetMessageSource(
-  [out] IStream **ppStream,
-  [in]  DWORD   dwFlags
+  [out] IStream **ppStream,
+  [in]  DWORD   dwFlags
 );
 ```
 
@@ -43,7 +51,7 @@ Receives the address to a pointer to an [IStream](http://msdn.microsoft.com/libr
 > [!Note]  
 > The client should not write to this stream.
 
- 
+ 
 
 </dd> <dt>
 
@@ -64,7 +72,7 @@ Specifies how an [**IMimeMessageTree**](oe-imimemessagetree.md) object should be
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -87,7 +95,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -99,8 +107,8 @@ This method creates an [IStream](http://msdn.microsoft.com/library/stg/stg/istre
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -108,9 +116,9 @@ This method creates an [IStream](http://msdn.microsoft.com/library/stg/stg/istre
 
 
 
- 
+ 
 
- 
+ 
 
 
 

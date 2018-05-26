@@ -1,8 +1,29 @@
 ---
 title: Header Control Type
 description: This topic provides information about Microsoft UI Automation support for the Header control type.
-ms.assetid: '032fc3a1-f939-40db-abbb-532afe309ba3'
-keywords: ["UI Automation,support for Header control type", "UI Automation,Header control type", "UI Automation,tree structure for Header control type", "UI Automation,properties for Header control type", "UI Automation,control patterns for Header control type", "UI Automation,events for Header control type", "tree structures,Header control type", "properties,Header control type", "control patterns,Header control type", "events,Header control type", "support for Header control type", "Header control type", "control types,tree structure for Header control type", "control types,control patterns for Header control type", "control types,support for Header", "control types,Header"]
+ms.assetid: 032fc3a1-f939-40db-abbb-532afe309ba3
+keywords:
+- UI Automation,support for Header control type
+- UI Automation,Header control type
+- UI Automation,tree structure for Header control type
+- UI Automation,properties for Header control type
+- UI Automation,control patterns for Header control type
+- UI Automation,events for Header control type
+- tree structures,Header control type
+- properties,Header control type
+- control patterns,Header control type
+- events,Header control type
+- support for Header control type
+- Header control type
+- control types,tree structure for Header control type
+- control types,control patterns for Header control type
+- control types,support for Header
+- control types,Header
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header Control Type
@@ -91,7 +112,7 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                         | Support | Notes                                                                                                             |
 |---------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------------------|
-| [**ITransformProvider**](uiauto-itransformprovider.md) | Depends | Implement the [Transform](uiauto-implementingtransform.md) control pattern if the header control can be resized. |
+| [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) | Depends | Implement the [Transform](uiauto-implementingtransform.md) control pattern if the header control can be resized. |
 
 
 

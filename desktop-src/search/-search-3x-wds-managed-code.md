@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Search SDK provides an interopability assembly for you to work with Component Object Model (COM) objects that are exposed by Windows Search and other programs against the interfaces and classes using managed code.'
-ms.assetid: '9ade6f55-de65-4f73-9d22-1be819549704'
+Description: The Windows Search SDK provides an interopability assembly for you to work with Component Object Model (COM) objects that are exposed by Windows Search and other programs against the interfaces and classes using managed code.
+ms.assetid: 9ade6f55-de65-4f73-9d22-1be819549704
 title: Using Managed Code with Shell Data and Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Managed Code with Shell Data and Windows Search

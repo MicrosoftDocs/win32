@@ -2,11 +2,13 @@
 title: PS\_VpnConnectionTrigger class
 description: The PS\_VpnConnectionTrigger class has a method to retrieve the trigger properties of the VPN profile.
 audience: developer
-ms.assetid: '7BF92F5E-B6AD-451C-A881-CE81CA89EF1C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7BF92F5E-B6AD-451C-A881-CE81CA89EF1C
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_VpnConnectionTrigger class", "PS_VpnConnectionTrigger class, described"]
+keywords:
+- PS_VpnConnectionTrigger class
+- PS_VpnConnectionTrigger class, described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_VpnConnectionTrigger class
@@ -50,7 +55,7 @@ The **PS\_VpnConnectionTrigger** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -58,17 +63,17 @@ The **PS\_VpnConnectionTrigger** class has these methods.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

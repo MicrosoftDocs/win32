@@ -4,11 +4,16 @@ description: The IsSortColumn method returns whether the column is the sort colu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b2c6bf3f-fa2b-4c4d-8cb3-35937a6777af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b2c6bf3f-fa2b-4c4d-8cb3-35937a6777af
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["IsSortColumn method MMC", "IsSortColumn method MMC , Column object", "Column object MMC , IsSortColumn method", "IsSortColumn method MMC , Column interface", "Column interface MMC , IsSortColumn method"]
+keywords:
+- IsSortColumn method MMC
+- IsSortColumn method MMC , Column object
+- Column object MMC , IsSortColumn method
+- IsSortColumn method MMC , Column interface
+- Column interface MMC , IsSortColumn method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Column::IsSortColumn method
@@ -59,8 +67,8 @@ End If
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -75,9 +83,9 @@ End If
 [**Column.SetAsSortColumn**](column-setassortcolumn.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

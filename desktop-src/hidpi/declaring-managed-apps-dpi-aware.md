@@ -1,17 +1,27 @@
 ---
 title: Developing a Per-Monitor DPI-Aware WPF Application
 description: Note  This page covers legacy WPF development for Windows 8.1. If you are developing WPF applications for Windows 10, please see the latest documentation on GitHub. .
-ms.assetid: '04a36dc7-684f-4846-aeba-970117070b4c'
-keywords: ["Windows User Interface,DPI-aware applications", "Windows User Interface,high DPI", "DPI-aware applications", "high DPI", "writing DPI-aware Win32 applications"]
+ms.assetid: 04a36dc7-684f-4846-aeba-970117070b4c
+keywords:
+- Windows User Interface,DPI-aware applications
+- Windows User Interface,high DPI
+- DPI-aware applications
+- high DPI
+- writing DPI-aware Win32 applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing a Per-Monitor DPI-Aware WPF Application
 
 **Important APIs**
 
--   [**SetProcessDpiAwareness**](setprocessdpiawareness.md)
--   [**GetProcessDpiAwareness**](getprocessdpiawareness.md)
--   [**GetDpiForMonitor**](getdpiformonitor.md)
+-   [**SetProcessDpiAwareness**](/windows/win32/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness?branch=master)
+-   [**GetProcessDpiAwareness**](/windows/win32/ShellScalingAPI/nf-shellscalingapi-getprocessdpiawareness?branch=master)
+-   [**GetDpiForMonitor**](/windows/win32/ShellScalingAPI/nf-shellscalingapi-getdpiformonitor?branch=master)
 
 > [!Note]  
 > **This page covers legacy WPF development for Windows 8.1.** If you are developing WPF applications for Windows 10, please see the [latest documentation on GitHub.](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer Guide - Per Monitor DPI - WPF Preview.docx)
@@ -27,9 +37,9 @@ Windows 8.1 gives developers new functionality to create desktop applications t
 
 To facilitate making a per-monitor DPI-aware application, Windows 8.1 provides the following Microsoft Win32APIs:
 
--   [**SetProcessDpiAwareness**](setprocessdpiawareness.md) (or DPI manifest entry) sets the process to a specified DPI awareness level, which then determines how Windows scales the UI. This supersedes [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543).
--   [**GetProcessDpiAwareness**](getprocessdpiawareness.md) returns the DPI awareness level. This supersedes [**IsProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/aa969261).
--   [**GetDpiForMonitor**](getdpiformonitor.md) returns the DPI for a monitor.
+-   [**SetProcessDpiAwareness**](/windows/win32/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness?branch=master) (or DPI manifest entry) sets the process to a specified DPI awareness level, which then determines how Windows scales the UI. This supersedes [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543).
+-   [**GetProcessDpiAwareness**](/windows/win32/ShellScalingAPI/nf-shellscalingapi-getprocessdpiawareness?branch=master) returns the DPI awareness level. This supersedes [**IsProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/aa969261).
+-   [**GetDpiForMonitor**](/windows/win32/ShellScalingAPI/nf-shellscalingapi-getdpiformonitor?branch=master) returns the DPI for a monitor.
 -   The [**WM\_DPICHANGED**](wm-dpichanged.md) window notification is sent to per-monitor DPI-aware applications when a window’s position changes such that most of its area intersects a monitor with a DPI that is different from the DPI before the position change or when the user moves the display slider. To create an application that resizes and re-renders itself when a user moves it to a different display, use this notification.
 
 For more details on various DPI awareness levels supported for desktop applications in Windows 8.1 see the topic [Writing DPI-Aware Desktop and Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dn469266).
@@ -104,7 +114,7 @@ Note:
 
 In order to make an existing WPF application per-monitor DPI-aware the NativeHelpers library provides following functionality:
 
--   **Marks the WPF application as per-ponitor DPI-aware:** The WPF application is marked as per-monitor DPI-aware by calling [**SetProcessDpiAwareness**](setprocessdpiawareness.md) for the current process. Marking the application as per-monitor DPI-aware will ensure that
+-   **Marks the WPF application as per-ponitor DPI-aware:** The WPF application is marked as per-monitor DPI-aware by calling [**SetProcessDpiAwareness**](/windows/win32/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness?branch=master) for the current process. Marking the application as per-monitor DPI-aware will ensure that
 
     -   The OS does not scale the application when the system DPI does not match the current DPI of the monitor the application window is on
     -   The [**WM\_DPICHANGED**](wm-dpichanged.md) message is sent whenever the DPI of the window changes

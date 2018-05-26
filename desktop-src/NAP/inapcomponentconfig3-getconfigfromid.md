@@ -1,8 +1,11 @@
 ---
 title: INapComponentConfig3 GetConfigFromID method
 description: Is implemented by system health validators (SHVs) to provide a way to obtain configuration data for a specific configuration ID.
-ms.assetid: '5c91681d-16d6-42f3-b1e0-c4b6e7561a73'
-keywords: ["GetConfigFromID method NAP", "GetConfigFromID method NAP , INapComponentConfig3 interface", "INapComponentConfig3 interface NAP , GetConfigFromID method"]
+ms.assetid: 5c91681d-16d6-42f3-b1e0-c4b6e7561a73
+keywords:
+- GetConfigFromID method NAP
+- GetConfigFromID method NAP , INapComponentConfig3 interface
+- INapComponentConfig3 interface NAP , GetConfigFromID method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig3::GetConfigFromID method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **GetConfigFromID** method is implemented by system health validators (SHVs) to provide a way to obtain configuration data for a specific configuration ID.
 
@@ -27,9 +35,9 @@ The **GetConfigFromID** method is implemented by system health validators (SHVs)
 
 ```C++
 HRESULT GetConfigFromID(
-  [in]  UINT32 configID,
-  [out] UINT16 *count,
-  [out] BYTE   **outdata
+  [in]  UINT32 configID,
+  [out] UINT16 *count,
+  [out] BYTE   **outdata
 );
 ```
 
@@ -73,7 +81,7 @@ Returns one of the following error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,7 +94,7 @@ The [**NewConfig**](inapcomponentconfig3-newconfig.md) method must be used to al
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -99,9 +107,9 @@ The [**NewConfig**](inapcomponentconfig3-newconfig.md) method must be used to al
 [**INapComponentConfig3**](inapcomponentconfig3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

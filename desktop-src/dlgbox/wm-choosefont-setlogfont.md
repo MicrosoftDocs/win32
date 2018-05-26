@@ -1,8 +1,9 @@
 ---
 title: WM\_CHOOSEFONT\_SETLOGFONT message
 description: An application sends the WM\_CHOOSEFONT\_SETLOGFONT message to a Font dialog box to set the current logical font information.
-ms.assetid: 'ad169eca-a3ae-45bd-90df-821a93a7a764'
-keywords: ["WM_CHOOSEFONT_SETLOGFONT message Dialog Boxes"]
+ms.assetid: ad169eca-a3ae-45bd-90df-821a93a7a764
+keywords:
+- WM_CHOOSEFONT_SETLOGFONT message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CHOOSEFONT\_SETLOGFONT message
@@ -49,7 +55,7 @@ This message has no return value.
 
 ## Remarks
 
-When you call the [**ChooseFont**](choosefont.md) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](choosefont-str.md) structure to specify a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
+When you call the [**ChooseFont**](choosefont.md) function to create a **Font** dialog box, you can use the **lpLogFont** member of the [**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master) structure to specify a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure containing initial values for the dialog box. Use the **WM\_CHOOSEFONT\_SETLOGFONT** message to specify a **LOGFONT** structure with different values while the **Font** dialog box is open.
 
 Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**CFHookProc**](cfhookproc.md) hook procedure. The hook procedure can also send the [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md) and [**WM\_CHOOSEFONT\_SETFLAGS**](wm-choosefont-setflags.md) messages.
 
@@ -59,8 +65,8 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -78,7 +84,7 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 [**ChooseFont**](choosefont.md)
 </dt> <dt>
 
-[**CHOOSEFONT**](choosefont-str.md)
+[**CHOOSEFONT**](/windows/win32/Commdlg/ns-commdlg-tagchoosefonta?branch=master)
 </dt> <dt>
 
 [**WM\_CHOOSEFONT\_GETLOGFONT**](wm-choosefont-getlogfont.md)
@@ -99,9 +105,9 @@ Typically, you would send the **WM\_CHOOSEFONT\_SETLOGFONT** message from a [**C
 [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

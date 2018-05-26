@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.copy
 description: The copy method begins a copy operation from the CD.
-ms.assetid: '7d919ae5-456b-4cb9-ad52-9396f5c867d6'
-keywords: ["PLAYLIST.copy Windows Media Player"]
+ms.assetid: 7d919ae5-456b-4cb9-ad52-9396f5c867d6
+keywords:
+- PLAYLIST.copy Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.copy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.copy
@@ -54,9 +60,9 @@ This method copies only the checked items in the playlist, and works the same wa
 [**PLAYLIST.copying**](playlist-copying.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

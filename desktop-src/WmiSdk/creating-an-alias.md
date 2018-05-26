@@ -1,13 +1,16 @@
 ---
-Description: 'An alias in WMI is a symbolic reference in either a class or a class instance located elsewhere in a Managed Object Format (MOF) file.'
+Description: An alias in WMI is a symbolic reference in either a class or a class instance located elsewhere in a Managed Object Format (MOF) file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bf4981dc-3aab-46c5-bf02-48132ccec8c2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bf4981dc-3aab-46c5-bf02-48132ccec8c2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Alias
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a WMI Alias

@@ -4,11 +4,15 @@ description: Active Directory Domain Services support most search options provid
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '61932d52-fa94-4541-83c9-8201dc6e8033'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 61932d52-fa94-4541-83c9-8201dc6e8033
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["specifying other search options Active Directory"]
+keywords:
+- specifying other search options Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Specifying Other Search Options

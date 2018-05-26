@@ -4,13 +4,16 @@ description: Injects a non-maskable interrupt into the virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '724110dd-fb26-43d3-863c-8674f4be3fd4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 724110dd-fb26-43d3-863c-8674f4be3fd4
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["InjectNonMaskableInterrupt method", "InjectNonMaskableInterrupt method, Msvm_ComputerSystem class", "Msvm_ComputerSystem class, InjectNonMaskableInterrupt method"]
+keywords:
+- InjectNonMaskableInterrupt method
+- InjectNonMaskableInterrupt method, Msvm_ComputerSystem class
+- Msvm_ComputerSystem class, InjectNonMaskableInterrupt method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InjectNonMaskableInterrupt method of the Msvm\_ComputerSystem class
@@ -30,7 +36,7 @@ Injects a non-maskable interrupt into the virtual machine.
 
 ```mof
 uint32 InjectNonMaskableInterrupt(
-  [out] CIM_ConcreteJob REF Job
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -69,7 +75,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -83,9 +89,9 @@ The possible return values are:
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

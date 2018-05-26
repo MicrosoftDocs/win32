@@ -1,7 +1,12 @@
 ---
 title: Textures
 description: This section describes textures that are used in Direct3D 11 and links to task-based documentation for common scenarios.
-ms.assetid: 'ec833431-a7b4-4aea-91c8-e99b718de2c6'
+ms.assetid: ec833431-a7b4-4aea-91c8-e99b718de2c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Textures
@@ -19,7 +24,7 @@ A texture stores texel information. This section describes textures that are use
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -37,9 +42,9 @@ A texture stores texel information. This section describes textures that are use
 [Resources](overviews-direct3d-11-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

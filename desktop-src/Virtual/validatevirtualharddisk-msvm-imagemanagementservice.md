@@ -1,8 +1,11 @@
 ---
 title: ValidateVirtualHardDisk method of the Msvm\_ImageManagementService class
 description: Validates whether a virtual disk image can be opened in read-only mode.
-ms.assetid: '7598bc45-277a-48b5-a8e5-27a82c1b3e58'
-keywords: ["ValidateVirtualHardDisk method Hyper-V", "ValidateVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , ValidateVirtualHardDisk method"]
+ms.assetid: 7598bc45-277a-48b5-a8e5-27a82c1b3e58
+keywords:
+- ValidateVirtualHardDisk method Hyper-V
+- ValidateVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , ValidateVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValidateVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -22,8 +30,8 @@ Validates whether a virtual disk image can be opened in read-only mode.
 
 ```mof
 uint32 ValidateVirtualHardDisk(
-  [in]  string              Path,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -127,7 +135,7 @@ This method can return one of the following values.
 <td><dl> <dt><strong>File not found</strong></dt> <dt>32779</dt> </dl></td>
 <td><blockquote>
 [!Note]<br />
-Added in Windows Server 2012 R2.
+Added in Windows Server 2012 R2.
 </blockquote>
 <br/></td>
 </tr>
@@ -135,7 +143,7 @@ Added in Windows Server 2012 R2.
 <td><dl> <dt><strong>Vhd differencing chain cycle detected</strong></dt> <dt>32787</dt> </dl></td>
 <td><blockquote>
 [!Note]<br />
-Added in Windows Server 2012 R2.
+Added in Windows Server 2012 R2.
 </blockquote>
 <br/></td>
 </tr>
@@ -144,7 +152,7 @@ Added in Windows Server 2012 R2.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -361,9 +369,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -382,9 +390,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

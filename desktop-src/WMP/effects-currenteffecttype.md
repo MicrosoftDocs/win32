@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.currentEffectType
 description: The currentEffectType attribute specifies or retrieves the registry name of the current visualization. This name is a unique ID defined by the visualization author.
-ms.assetid: '29469272-468d-49b4-a934-e7dc00583efa'
-keywords: ["EFFECTS.currentEffectType Windows Media Player"]
+ms.assetid: 29469272-468d-49b4-a934-e7dc00583efa
+keywords:
+- EFFECTS.currentEffectType Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.currentEffectType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.currentEffectType
@@ -57,9 +63,9 @@ You can use this attribute at run time to change the currently displayed effect.
 [**EFFECTS.effectType**](effects-effecttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

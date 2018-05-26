@@ -1,8 +1,9 @@
 ---
 title: EM\_LINEINDEX message
 description: Gets the character index of the first character of a specified line in a multiline edit control.
-ms.assetid: 'a4c65012-d47f-4d87-bc7f-2002d07f5eea'
-keywords: ["EM_LINEINDEX message Windows Controls"]
+ms.assetid: a4c65012-d47f-4d87-bc7f-2002d07f5eea
+keywords:
+- EM_LINEINDEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_LINEINDEX message
@@ -24,7 +30,7 @@ Gets the character index of the first character of a specified line in a multili
 *wParam* 
 </dt> <dd>
 
-The zero-based line number. A value of –1 specifies the current line number (the line that contains the caret).
+The zero-based line number. A value of  1 specifies the current line number (the line that contains the caret).
 
 </dd> <dt>
 
@@ -37,11 +43,11 @@ This parameter is not used.
 
 ## Return value
 
-The return value is the character index of the line specified in the *wParam* parameter, or it is –1 if the specified line number is greater than the number of lines in the edit control.
+The return value is the character index of the line specified in the *wParam* parameter, or it is  1 if the specified line number is greater than the number of lines in the edit control.
 
 ## Remarks
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -49,8 +55,8 @@ The return value is the character index of the line specified in the *wParam* pa
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ The return value is the character index of the line specified in the *wParam* pa
 [**EM\_LINEFROMCHAR**](em-linefromchar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

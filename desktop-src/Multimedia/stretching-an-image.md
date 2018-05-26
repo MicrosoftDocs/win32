@@ -1,13 +1,20 @@
 ---
 title: Stretching an Image
 description: Stretching an Image
-ms.assetid: '7cfd91c3-0ebd-47eb-a33d-c81a66f820e5'
-keywords: ["MCIWndGetDest macro", "MCIWndPutDest macro"]
+ms.assetid: 7cfd91c3-0ebd-47eb-a33d-c81a66f820e5
+keywords:
+- MCIWndGetDest macro
+- MCIWndPutDest macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stretching an Image
 
-The following example stretches the images of a video clip. It increases the dimensions of the destination rectangle by using the [**MCIWndPutDest**](mciwndputdest.md) macro. The size of the playback area remains unchanged, so the result is a distorted, magnified image. The examples uses the **MCIWndPutDest** function to reposition the destination rectangle with respect to the playback area, providing a way to view different portions of the stretched image.
+The following example stretches the images of a video clip. It increases the dimensions of the destination rectangle by using the [**MCIWndPutDest**](/windows/win32/Vfw/nf-vfw-mciwndputdest?branch=master) macro. The size of the playback area remains unchanged, so the result is a distorted, magnified image. The examples uses the **MCIWndPutDest** function to reposition the destination rectangle with respect to the playback area, providing a way to view different portions of the stretched image.
 
 
 ```C++

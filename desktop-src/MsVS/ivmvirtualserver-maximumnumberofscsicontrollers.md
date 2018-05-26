@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer MaximumNumberOfSCSIControllers property
 description: The MaximumNumberOfSCSIControllers property contains the maximum number of controllers allowed for SCSI.
-ms.assetid: '7e32878b-3bfd-4abf-8b30-9c13d2a8aabd'
-keywords: ["MaximumNumberOfSCSIControllers property Virtual Server", "MaximumNumberOfSCSIControllers property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , MaximumNumberOfSCSIControllers property", "MaximumNumberOfSCSIControllers property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , MaximumNumberOfSCSIControllers property"]
+ms.assetid: 7e32878b-3bfd-4abf-8b30-9c13d2a8aabd
+keywords:
+- MaximumNumberOfSCSIControllers property Virtual Server
+- MaximumNumberOfSCSIControllers property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , MaximumNumberOfSCSIControllers property
+- MaximumNumberOfSCSIControllers property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , MaximumNumberOfSCSIControllers property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::MaximumNumberOfSCSIControllers property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MaximumNumberOfSCSIControllers(
-  [out] long *maxNumAdapters
+  [out] long *maxNumAdapters
 );
 ```
 
@@ -91,8 +101,8 @@ Wscript.Echo "Maximum number of SCSI controllers: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ Wscript.Echo "Maximum number of SCSI controllers: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

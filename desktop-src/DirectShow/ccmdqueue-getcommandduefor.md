@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCommandDueFor method retrieves a deferred command that is scheduled at a specified time.'
-ms.assetid: 'f8a2f9ae-f359-4429-aca5-021b6fe2aa93'
-title: 'CCmdQueue.GetCommandDueFor method'
+Description: The GetCommandDueFor method retrieves a deferred command that is scheduled at a specified time.
+ms.assetid: f8a2f9ae-f359-4429-aca5-021b6fe2aa93
+title: CCmdQueue.GetCommandDueFor method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue.GetCommandDueFor method
@@ -13,8 +18,8 @@ The `GetCommandDueFor` method retrieves a deferred command that is scheduled at 
 
 ```C++
 virtual HRESULT GetCommandDueFor(
-   REFERENCE_TIME   tStream,
-   CDeferredCommand **ppCmd
+   REFERENCE_TIME   tStream,
+   CDeferredCommand **ppCmd
 );
 ```
 
@@ -64,9 +69,9 @@ This member function takes a stream time and returns the deferred command schedu
 [**CCmdQueue Class**](ccmdqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: HtmlProp Sample
 description: HtmlProp Sample
-ms.assetid: '2f7e6399-eb92-472c-8219-8dffc4b8849a'
+ms.assetid: 2f7e6399-eb92-472c-8219-8dffc4b8849a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HtmlProp Sample
@@ -11,7 +16,7 @@ ms.assetid: '2f7e6399-eb92-472c-8219-8dffc4b8849a'
 
  
 
-The HtmlProp sample is an example [**IFilter**](ifilter.md) implementation that specializes the Indexing Service [HTML filter](html-filter.md) to extract value-type properties. It converts HTML meta properties to data types other than strings as specified by a configuration file.
+The HtmlProp sample is an example [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementation that specializes the Indexing Service [HTML filter](html-filter.md) to extract value-type properties. It converts HTML meta properties to data types other than strings as specified by a configuration file.
 
 Source: mssdk\\samples\\winbase\\indexing\\htmlprop\\
 

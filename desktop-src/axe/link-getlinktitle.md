@@ -1,8 +1,11 @@
 ---
 title: Link GetLinkTitle method
 description: Returns the link title from the Link.
-ms.assetid: '1ED1CE4E-B3AF-495F-A389-322BA12BA47E'
-keywords: ["GetLinkTitle method Access Execution Engine", "GetLinkTitle method Access Execution Engine , Link interface", "Link interface Access Execution Engine , GetLinkTitle method"]
+ms.assetid: 1ED1CE4E-B3AF-495F-A389-322BA12BA47E
+keywords:
+- GetLinkTitle method Access Execution Engine
+- GetLinkTitle method Access Execution Engine , Link interface
+- Link interface Access Execution Engine , GetLinkTitle method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Link::GetLinkTitle method
@@ -22,7 +30,7 @@ Returns the link title from the **Link**.
 
 ```C++
 virtual HRESULT GetLinkTitle(
-  [out] LPCWSTR *linkTitle
+  [out] LPCWSTR *linkTitle
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The link title is the value of element **Link/LinkTitle**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The link title is the value of element **Link/LinkTitle**.
 [**Link**](link-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

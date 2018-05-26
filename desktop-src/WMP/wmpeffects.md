@@ -1,14 +1,20 @@
 ---
 title: WMPEFFECTS
 description: This is a predefined EFFECTS with the following default values.
-ms.assetid: '0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba'
-keywords: ["WMPEFFECTS Windows Media Player"]
+ms.assetid: 0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba
+keywords:
+- WMPEFFECTS Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WMPEFFECTS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMPEFFECTS
@@ -49,9 +55,9 @@ All properties of this **EFFECTS** element can be overridden by explicitly speci
 [**EFFECTS Element**](effects-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

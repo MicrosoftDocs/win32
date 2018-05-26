@@ -1,8 +1,190 @@
 ---
 title: Windows Data Types
 description: The data types supported by Windows are used to define function return values, function and message parameters, and structure members.
-ms.assetid: '4553cafc-450e-4493-a4d4-cb6e2f274d46'
-keywords: ["data types", "data types,Windows", "Windows API", "Windows API,data types", "APIENTRY", "ATOM", "BOOL", "BOOLEAN", "BYTE", "CALLBACK", "CCHAR", "CHAR", "COLORREF", "CONST", "DWORD", "DWORDLONG", "DWORD_PTR", "DWORD32", "DWORD64", "FLOAT", "HACCEL", "HALF_PTR", "HANDLE", "HBITMAP", "HBRUSH", "HCOLORSPACE", "HCONV", "HCONVLIST", "HCURSOR", "HDC", "HDDEDATA", "HDESK", "HDROP", "HDWP", "HENHMETAFILE", "HFILE", "HFONT", "HGDIOBJ", "HGLOBAL", "HHOOK", "HICON", "HINSTANCE", "HKEY", "HKL", "HLOCAL", "HMENU", "HMETAFILE", "HMODULE", "HMONITOR", "HPALETTE", "HPEN", "HRESULT", "HRGN", "HRSRC", "HSZ", "HWINSTA", "HWND", "INT", "INT_PTR", "INT8", "INT16", "INT32", "INT64", "LANGID", "LCID", "LCTYPE", "LGRPID", "LONG", "LONGLONG", "LONG_PTR", "LONG32", "LONG64", "LPARAM", "LPBOOL", "LPBYTE", "LPCOLORREF", "LPCSTR", "LPCTSTR", "LPCVOID", "LPCWSTR", "LPDWORD", "LPHANDLE", "LPINT", "LPLONG", "LPSTR", "LPTSTR", "LPVOID", "LPWORD", "LPWSTR", "LRESULT", "PBOOL", "PBOOLEAN", "PBYTE", "PCHAR", "PCSTR", "PCTSTR", "PCWSTR", "PDWORD", "PDWORDLONG", "PDWORD_PTR", "PDWORD32", "PDWORD64", "PFLOAT", "PHALF_PTR", "PHANDLE", "PHKEY", "PINT", "PINT_PTR", "PINT8", "PINT16", "PINT32", "PINT64", "PLCID", "PLONG", "PLONGLONG", "PLONG_PTR", "PLONG32", "PLONG64", "POINTER_32", "POINTER_64", "POINTER_SIGNED", "POINTER_UNSIGNED", "PSHORT", "PSIZE_T", "PSSIZE_T", "PSTR", "PTBYTE", "PTCHAR", "PTSTR", "PUCHAR", "PUHALF_PTR", "PUINT", "PUINT_PTR", "PUINT8", "PUINT16", "PUINT32", "PUINT64", "PULONG", "PULONGLONG", "PULONG_PTR", "PULONG32", "PULONG64", "PUSHORT", "PVOID", "PWCHAR", "PWORD", "PWSTR", "QWORD", "SC_HANDLE", "SC_LOCK", "SERVICE_STATUS_HANDLE", "SHORT", "SIZE_T", "SSIZE_T", "TBYTE", "TCHAR", "UCHAR", "UHALF_PTR", "UINT", "UINT_PTR", "UINT8", "UINT16", "UINT32", "UINT64", "ULONG", "ULONGLONG", "ULONG_PTR", "ULONG32", "ULONG64", "UNICODE_STRING", "USHORT", "USN", "VOID", "WCHAR", "WINAPI", "WORD", "WPARAM"]
+ms.assetid: 4553cafc-450e-4493-a4d4-cb6e2f274d46
+keywords:
+- data types
+- data types,Windows
+- Windows API
+- Windows API,data types
+- APIENTRY
+- ATOM
+- BOOL
+- BOOLEAN
+- BYTE
+- CALLBACK
+- CCHAR
+- CHAR
+- COLORREF
+- CONST
+- DWORD
+- DWORDLONG
+- DWORD_PTR
+- DWORD32
+- DWORD64
+- FLOAT
+- HACCEL
+- HALF_PTR
+- HANDLE
+- HBITMAP
+- HBRUSH
+- HCOLORSPACE
+- HCONV
+- HCONVLIST
+- HCURSOR
+- HDC
+- HDDEDATA
+- HDESK
+- HDROP
+- HDWP
+- HENHMETAFILE
+- HFILE
+- HFONT
+- HGDIOBJ
+- HGLOBAL
+- HHOOK
+- HICON
+- HINSTANCE
+- HKEY
+- HKL
+- HLOCAL
+- HMENU
+- HMETAFILE
+- HMODULE
+- HMONITOR
+- HPALETTE
+- HPEN
+- HRESULT
+- HRGN
+- HRSRC
+- HSZ
+- HWINSTA
+- HWND
+- INT
+- INT_PTR
+- INT8
+- INT16
+- INT32
+- INT64
+- LANGID
+- LCID
+- LCTYPE
+- LGRPID
+- LONG
+- LONGLONG
+- LONG_PTR
+- LONG32
+- LONG64
+- LPARAM
+- LPBOOL
+- LPBYTE
+- LPCOLORREF
+- LPCSTR
+- LPCTSTR
+- LPCVOID
+- LPCWSTR
+- LPDWORD
+- LPHANDLE
+- LPINT
+- LPLONG
+- LPSTR
+- LPTSTR
+- LPVOID
+- LPWORD
+- LPWSTR
+- LRESULT
+- PBOOL
+- PBOOLEAN
+- PBYTE
+- PCHAR
+- PCSTR
+- PCTSTR
+- PCWSTR
+- PDWORD
+- PDWORDLONG
+- PDWORD_PTR
+- PDWORD32
+- PDWORD64
+- PFLOAT
+- PHALF_PTR
+- PHANDLE
+- PHKEY
+- PINT
+- PINT_PTR
+- PINT8
+- PINT16
+- PINT32
+- PINT64
+- PLCID
+- PLONG
+- PLONGLONG
+- PLONG_PTR
+- PLONG32
+- PLONG64
+- POINTER_32
+- POINTER_64
+- POINTER_SIGNED
+- POINTER_UNSIGNED
+- PSHORT
+- PSIZE_T
+- PSSIZE_T
+- PSTR
+- PTBYTE
+- PTCHAR
+- PTSTR
+- PUCHAR
+- PUHALF_PTR
+- PUINT
+- PUINT_PTR
+- PUINT8
+- PUINT16
+- PUINT32
+- PUINT64
+- PULONG
+- PULONGLONG
+- PULONG_PTR
+- PULONG32
+- PULONG64
+- PUSHORT
+- PVOID
+- PWCHAR
+- PWORD
+- PWSTR
+- QWORD
+- SC_HANDLE
+- SC_LOCK
+- SERVICE_STATUS_HANDLE
+- SHORT
+- SIZE_T
+- SSIZE_T
+- TBYTE
+- TCHAR
+- UCHAR
+- UHALF_PTR
+- UINT
+- UINT_PTR
+- UINT8
+- UINT16
+- UINT32
+- UINT64
+- ULONG
+- ULONGLONG
+- ULONG_PTR
+- ULONG32
+- ULONG64
+- UNICODE_STRING
+- USHORT
+- USN
+- VOID
+- WCHAR
+- WINAPI
+- WORD
+- WPARAM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Data Types
@@ -385,7 +567,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="INT64"></span><span id="int64"></span><strong>INT64</strong></td>
-<td><p>A 64-bit signed integer. The range is –9223372036854775808 through 9223372036854775807 decimal.</p>
+<td><p>A 64-bit signed integer. The range is  9223372036854775808 through 9223372036854775807 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef signed __int64 INT64;</code></p></td>
 </tr>
@@ -415,13 +597,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="LONG"></span><span id="long"></span><strong>LONG</strong></td>
-<td><p>A 32-bit signed integer. The range is –2147483648 through 2147483647 decimal.</p>
+<td><p>A 32-bit signed integer. The range is  2147483648 through 2147483647 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef long LONG;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="LONGLONG"></span><span id="longlong"></span><strong>LONGLONG</strong></td>
-<td><p>A 64-bit signed integer. The range is –9223372036854775808 through 9223372036854775807 decimal.</p>
+<td><p>A 64-bit signed integer. The range is  9223372036854775808 through 9223372036854775807 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -477,13 +659,13 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="odd">
 <td><span id="LONG32"></span><span id="long32"></span><strong>LONG32</strong></td>
-<td><p>A 32-bit signed integer. The range is –2147483648 through 2147483647 decimal.</p>
+<td><p>A 32-bit signed integer. The range is  2147483648 through 2147483647 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef signed int LONG32;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LONG64"></span><span id="long64"></span><strong>LONG64</strong></td>
-<td><p>A 64-bit signed integer. The range is –9223372036854775808 through 9223372036854775807 decimal.</p>
+<td><p>A 64-bit signed integer. The range is  9223372036854775808 through 9223372036854775807 decimal.</p>
 <p>This type is declared in BaseTsd.h as follows:</p>
 <p><code>typedef __int64 LONG64;</code></p></td>
 </tr>
@@ -1139,7 +1321,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 </tr>
 <tr class="even">
 <td><span id="SHORT"></span><span id="short"></span><strong>SHORT</strong></td>
-<td><p>A 16-bit integer. The range is –32768 through 32767 decimal.</p>
+<td><p>A 16-bit integer. The range is  32768 through 32767 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
 <p><code>typedef short SHORT;</code></p></td>
 </tr>
@@ -1461,15 +1643,15 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 
 |                                     |                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                |
 | Header<br/>                   | <dl> <dt>BaseTsd.h; </dt> <dt>WinDef.h; </dt> <dt>WinNT.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

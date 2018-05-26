@@ -1,13 +1,16 @@
 ---
-Description: 'A join view class contains properties from source class instances that are connected by a common property value, such as Class1.Prop1 = Class2.Prop2. Each instance in a join view class consists of parts of different class instances.'
+Description: A join view class contains properties from source class instances that are connected by a common property value, such as Class1.Prop1 = Class2.Prop2. Each instance in a join view class consists of parts of different class instances.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4d35474d-0b80-4b00-9724-47a193bfd0fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4d35474d-0b80-4b00-9724-47a193bfd0fc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a New Instance from Old Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a New Instance from Old Properties

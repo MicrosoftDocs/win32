@@ -1,13 +1,16 @@
 ---
-Description: 'The Kerberos authentication service specifies the server principal name to ensure the identity of the computer to which it is connecting.'
+Description: The Kerberos authentication service specifies the server principal name to ensure the identity of the computer to which it is connecting.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3d58db28-2e69-4e27-9f27-61529abbf750'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3d58db28-2e69-4e27-9f27-61529abbf750
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Specifying the Server Principal Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Specifying the Server Principal Name
@@ -18,7 +21,7 @@ This parameter is required for Kerberos to support mutual authentication. Howeve
 
 For more information about setting the server principal name in script and Visual Basic, see [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) and [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
-Unlike most security protocols for Windows Management Instrumentation (WMI) and Component Object Model (COM), you cannot set the server principal in a call to [**CoInitializeSecurity**](_com_coinitializesecurity). However, you can set the server principal with the *bstrAuthority* parameter for [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md), or the *pServerPrincName* parameter for [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+Unlike most security protocols for Windows Management Instrumentation (WMI) and Component Object Model (COM), you cannot set the server principal in a call to [**CoInitializeSecurity**](_com_coinitializesecurity). However, you can set the server principal with the *bstrAuthority* parameter for [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master), or the *pServerPrincName* parameter for [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
 The code example in this topic requires the following \#include statement to correctly compile.
 
@@ -29,7 +32,7 @@ The code example in this topic requires the following \#include statement to cor
 
 
 
-The following code example shows how to set the server principal name with [**ConnectServer**](iwbemlocator-connectserver.md).
+The following code example shows how to set the server principal name with [**ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master).
 
 
 ```C++

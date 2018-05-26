@@ -1,6 +1,11 @@
-﻿---
-Description: 'Loads a list of strings into the most recently used (MRU) list from the registry.'
-title: 'IACLCustomMRU::Initialize method'
+---
+Description: Loads a list of strings into the most recently used (MRU) list from the registry.
+title: IACLCustomMRUInitialize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IACLCustomMRU::Initialize method

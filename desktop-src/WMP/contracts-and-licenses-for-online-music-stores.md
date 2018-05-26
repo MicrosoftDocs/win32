@@ -1,8 +1,14 @@
 ---
 title: Contracts and Licenses for Online Music Stores
 description: Contracts and Licenses for Online Music Stores
-ms.assetid: 'fcc4601f-34e1-4373-bd4f-c18742a78da8'
-keywords: ["Windows Media Player Online Stores"]
+ms.assetid: fcc4601f-34e1-4373-bd4f-c18742a78da8
+keywords:
+- Windows Media Player Online Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contracts and Licenses for Online Music Stores
@@ -108,7 +114,7 @@ These agreements may have been signed by the brand owner of the online store or 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -117,9 +123,9 @@ These agreements may have been signed by the brand owner of the online store or 
 Online Stores Welcome Kit
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

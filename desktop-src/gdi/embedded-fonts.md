@@ -1,7 +1,12 @@
 ---
-Description: 'Embedding a font is the technique of bundling a document and the fonts it contains into a file for transmission to another computer.'
-ms.assetid: 'ded409f1-5bd9-411b-b905-fc49c484786a'
+Description: Embedding a font is the technique of bundling a document and the fonts it contains into a file for transmission to another computer.
+ms.assetid: ded409f1-5bd9-411b-b905-fc49c484786a
 title: Embedded Fonts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedded Fonts
@@ -12,11 +17,11 @@ Applications should embed a font in a document only when requested by a user. An
 
 It may be a violation of a font vendor's proprietary rights or user license agreement to embed any fonts where embedding is not permitted or to fail to observe the following guidelines on embedding fonts. A font's license may give only read/write permission for a font to be installed and used on the destination computer. Or the license may give read-only permission. Read-only permission allows a document to be viewed and printed (but not modified) by the destination computer; documents with read-only embedded fonts are themselves read-only. Read-only embedded fonts may not be unbundled from the document and installed on the destination computer.
 
-An application can determine the license status by calling the [**GetOutlineTextMetrics**](getoutlinetextmetrics.md) function and examining the **otmfsType** member of the [**OUTLINETEXTMETRIC**](outlinetextmetric.md) structure. If bit 1 of **otmfsType** is set, embedding is not permitted for the font. If bit 1 is clear, the font can be embedded. If bit 2 is set, the embedding is read-only.
+An application can determine the license status by calling the [**GetOutlineTextMetrics**](/windows/win32/Wingdi/nf-wingdi-getoutlinetextmetricsa?branch=master) function and examining the **otmfsType** member of the [**OUTLINETEXTMETRIC**](/windows/win32/Wingdi/ns-wingdi-_outlinetextmetrica?branch=master) structure. If bit 1 of **otmfsType** is set, embedding is not permitted for the font. If bit 1 is clear, the font can be embedded. If bit 2 is set, the embedding is read-only.
 
-To embed a TrueType font, an application can use the [**GetFontData**](getfontdata.md) function to read the font file. Setting the *dwTable* and *dwOffset* parameters of [**GetFontData**](gdi.GetFontData) to 0L and the *cbData* parameter to 1L ensures that the application reads the entire font file from the beginning.
+To embed a TrueType font, an application can use the [**GetFontData**](/windows/win32/Wingdi/nf-wingdi-getfontdata?branch=master) function to read the font file. Setting the *dwTable* and *dwOffset* parameters of [**GetFontData**](gdi.GetFontData) to 0L and the *cbData* parameter to 1L ensures that the application reads the entire font file from the beginning.
 
-Several functions are available to embed OpenType fonts depending on the character width and where the font data resides. To embed an OpenType Unicode font that resides in a device context, an application can use [**TTEmbedFont**](ttembedfont.md). To embed an OpenType UCS-4 font that resides in a device context, an application can use [**TTEmbedFontEx**](ttembedfontex.md). To embed an OpenType Unicode font that resides in a font file, an application can use [**TTEmbedFontFromFile**](ttembedfontfromfilea.md). For additional information on OpenType font embedding, see the [Font Embedding Reference](font-embedding-reference.md).
+Several functions are available to embed OpenType fonts depending on the character width and where the font data resides. To embed an OpenType Unicode font that resides in a device context, an application can use [**TTEmbedFont**](/windows/win32/T2embapi/nf-t2embapi-ttembedfont?branch=master). To embed an OpenType UCS-4 font that resides in a device context, an application can use [**TTEmbedFontEx**](/windows/win32/T2embapi/nf-t2embapi-ttembedfontex?branch=master). To embed an OpenType Unicode font that resides in a font file, an application can use [**TTEmbedFontFromFile**](/windows/win32/T2embapi/nf-t2embapi-ttembedfontfromfilea?branch=master). For additional information on OpenType font embedding, see the [Font Embedding Reference](font-embedding-reference.md).
 
 After an application retrieves the font data, it can store the data with the document by using any applicable format. Most applications build a font directory in the document, listing the embedded fonts and whether the embedding is read/write or read-only. An application can use the **otmpStyleName** and **otmFamilyName** members of the [**OUTLINETEXTMETRIC**](gdi.OUTLINETEXTMETRIC) structure to identify the font.
 

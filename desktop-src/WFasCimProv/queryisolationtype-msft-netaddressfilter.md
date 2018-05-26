@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether the specified network address points to an intranet or Internet network.'
-ms.assetid: '5479bf61-9539-4c62-be06-2597193cacf2'
-title: 'QueryIsolationType method of the MSFT\_NetAddressFilter class'
+Description: Determines whether the specified network address points to an intranet or Internet network.
+ms.assetid: 5479bf61-9539-4c62-be06-2597193cacf2
+title: QueryIsolationType method of the MSFT\_NetAddressFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryIsolationType method of the MSFT\_NetAddressFilter class
@@ -13,9 +18,9 @@ Determines whether the specified network address points to an intranet or Intern
 
 ```mof
 uint32 QueryIsolationType(
-  [in]  uint32 InterfaceIndex,
-  [in]  string RemoteAddress,
-  [out] uint32 IsolationType
+  [in]  uint32 InterfaceIndex,
+  [in]  string RemoteAddress,
+  [out] uint32 IsolationType
 );
 ```
 
@@ -53,7 +58,7 @@ Receives a value that indicates whether the network address points to an intrane
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -63,8 +68,8 @@ Receives a value that indicates whether the network address points to an intrane
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                      |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                      |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -78,9 +83,9 @@ Receives a value that indicates whether the network address points to an intrane
 [**MSFT\_NetAddressFilter**](msft-netaddressfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

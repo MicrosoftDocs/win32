@@ -1,8 +1,28 @@
 ---
 title: How to Use Filters
 description: This topic provides examples that show how to use each of the filters available with the Windows Image Acquisition (WIA) Automation Layer.
-ms.assetid: '9c0d60de-2d04-4960-b695-dfb69db208c1'
-keywords: ["Windows Image Acquisition (WIA),examples", "WIA (Windows Image Acquisition),examples", "Windows Image Acquisition Automation Layer,examples", "WIA Automation Layer,examples", "Image Acquisition Automation Layer,examples", "Windows Image Acquisition (WIA),sample code", "WIA (Windows Image Acquisition),sample code", "Windows Image Acquisition Automation Layer,sample code", "WIA Automation Layer,sample code", "Image Acquisition Automation Layer,sample code", "Windows Image Acquisition (WIA),filters", "WIA (Windows Image Acquisition),filters", "Windows Image Acquisition Automation Layer,filters", "WIA Automation Layer,filters", "Image Acquisition Automation Layer,filters"]
+ms.assetid: 9c0d60de-2d04-4960-b695-dfb69db208c1
+keywords:
+- Windows Image Acquisition (WIA),examples
+- WIA (Windows Image Acquisition),examples
+- Windows Image Acquisition Automation Layer,examples
+- WIA Automation Layer,examples
+- Image Acquisition Automation Layer,examples
+- Windows Image Acquisition (WIA),sample code
+- WIA (Windows Image Acquisition),sample code
+- Windows Image Acquisition Automation Layer,sample code
+- WIA Automation Layer,sample code
+- Image Acquisition Automation Layer,sample code
+- Windows Image Acquisition (WIA),filters
+- WIA (Windows Image Acquisition),filters
+- Windows Image Acquisition Automation Layer,filters
+- WIA Automation Layer,filters
+- Image Acquisition Automation Layer,filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use Filters

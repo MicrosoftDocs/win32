@@ -2,13 +2,15 @@
 title: RemoteAccessConnection class
 description: Remote Access Common Connection Info Record.
 audience: developer
-ms.assetid: '52f43d03-63f7-4736-8aa1-4af677c9a8c3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 52f43d03-63f7-4736-8aa1-4af677c9a8c3
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessConnection class", "RemoteAccessConnection class, described"]
+keywords:
+- RemoteAccessConnection class
+- RemoteAccessConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessConnection class
@@ -44,19 +49,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("2.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class RemoteAccessConnection
 {
-  string   ClientIPv4Address;
-  string   ClientIPv6Address;
-  string   HostName;
-  string   ClientExternalAddress;
-  string   TunnelType;
-  string   TransitionTechnology;
+  string   ClientIPv4Address;
+  string   ClientIPv6Address;
+  string   HostName;
+  string   ClientExternalAddress;
+  string   TunnelType;
+  string   TransitionTechnology;
   datetime ConnectionStartTime;
-  uint32   ConnectionDuration;
-  uint64   TotalBytesIn;
-  uint64   TotalBytesOut;
-  string   ConnectionType;
-  string   HealthStatus;
-  string   AuthMethod;
+  uint32   ConnectionDuration;
+  uint64   TotalBytesIn;
+  uint64   TotalBytesOut;
+  string   ConnectionType;
+  string   HealthStatus;
+  string   AuthMethod;
 };
 ```
 
@@ -362,9 +367,9 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-This property is not supported starting with Windows Server 2016.
+This property is not supported starting with Windows Server 2016.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Indicates the health status.
+**Windows Server 2012 R2 and Windows Server 2012:** Indicates the health status.
 
 The possible values are.
 
@@ -574,16 +579,16 @@ The possible values are.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

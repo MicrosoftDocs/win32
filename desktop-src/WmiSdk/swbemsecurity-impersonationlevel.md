@@ -1,13 +1,16 @@
 ---
-Description: 'The ImpersonationLevel property is an integer that defines the COM impersonation level that is assigned to this object.'
+Description: The ImpersonationLevel property is an integer that defines the COM impersonation level that is assigned to this object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cf57620b-7827-4552-a969-d25e5eb13a89'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cf57620b-7827-4552-a969-d25e5eb13a89
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemSecurity.ImpersonationLevel property'
+title: SWbemSecurity.ImpersonationLevel property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemSecurity.ImpersonationLevel property
@@ -46,7 +49,7 @@ As a DCOM impersonation level, this property can be set to one of the following 
 
 
 
- 
+ 
 
 As noted, Anonymous impersonation hides your credentials and Identify permits a remote object to query your credentials, but the remote object cannot impersonate your security context. (In other words, although the remote object knows who you are, it cannot "pretend" to be you.) WMI scripts accessing remote computers using one of these two settings will generally fail. In fact, most scripts run on the local computer using one of these two settings will also fail.
 
@@ -81,8 +84,8 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"&amp; _
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID\_SWbemSecurity<br/>                                                         |
@@ -100,12 +103,12 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"&amp; _
 [Setting Client\_Application\_Process Security](setting-client-application-process-security.md)
 </dt> <dt>
 
-[**WbemImpersonationLevelEnum**](wbemimpersonationlevelenum.md)
+[**WbemImpersonationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

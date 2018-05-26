@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer Network property
 description: The Network property contains the base TCP/IP address of the range.
-ms.assetid: '5f545f80-f291-4b25-98ff-616fa829990e'
-keywords: ["Network property Virtual Server", "Network property Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , Network property", "Network property Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , Network property"]
+ms.assetid: 5f545f80-f291-4b25-98ff-616fa829990e
+keywords:
+- Network property Virtual Server
+- Network property Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , Network property
+- Network property Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , Network property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::Network property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Network(
-  [out] BSTR *network
+  [out] BSTR *network
 );
 ```
 
@@ -80,8 +90,8 @@ The **Network** property in conjunction with the [**NetworkMask**](ivmdhcpvirtua
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ The **Network** property in conjunction with the [**NetworkMask**](ivmdhcpvirtua
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

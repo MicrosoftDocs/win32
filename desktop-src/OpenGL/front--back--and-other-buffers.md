@@ -1,8 +1,19 @@
 ---
 title: Front, Back, and Other Buffers
 description: OpenGL stores and manipulates pixel data in a framebuffer.
-ms.assetid: '4af6a5e4-cc62-49e5-a4d5-e54b1348e8fe'
-keywords: ["OpenGL on Windows,buffers", "framebuffers OpenGL", "color buffers OpenGL", "depth buffers OpenGL", "accumulation buffers OpenGL", "stencil buffers OpenGL"]
+ms.assetid: 4af6a5e4-cc62-49e5-a4d5-e54b1348e8fe
+keywords:
+- OpenGL on Windows,buffers
+- framebuffers OpenGL
+- color buffers OpenGL
+- depth buffers OpenGL
+- accumulation buffers OpenGL
+- stencil buffers OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Front, Back, and Other Buffers
@@ -11,11 +22,11 @@ OpenGL stores and manipulates pixel data in a framebuffer. The framebuffer consi
 
 Microsoft's implementation of OpenGL in Windows supports double buffering of images. This is a technique in which an application draws pixels to an off-screen buffer, and then, when that image is ready for display, copies the contents of the off-screen buffer to an on-screen buffer. Double buffering enables smooth image changes, which are especially important for animated images.
 
-Two color buffers are available to applications that use double buffering: a front buffer and a back buffer. By default, drawing commands are directed to the back buffer (the off-screen buffer), while the front buffer is displayed on the screen. When the off-screen buffer is ready for display, you call [**SwapBuffers**](swapbuffers.md), and Windows copies the contents of the off-screen buffer to the on-screen buffer.
+Two color buffers are available to applications that use double buffering: a front buffer and a back buffer. By default, drawing commands are directed to the back buffer (the off-screen buffer), while the front buffer is displayed on the screen. When the off-screen buffer is ready for display, you call [**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master), and Windows copies the contents of the off-screen buffer to the on-screen buffer.
 
 The generic implementation uses a device-independent bitmap (DIB) as the back buffer and the screen display as the front buffer. Hardware devices and their drivers may use different approaches.
 
-Double buffering is a pixel-format property. To request double buffering for a pixel format, set the PFD\_DOUBLEBUFFER flag in the [**PIXELFORMATDESCRIPTOR**](pixelformatdescriptor.md) data structure in a call to [**ChoosePixelFormat**](choosepixelformat.md).
+Double buffering is a pixel-format property. To request double buffering for a pixel format, set the PFD\_DOUBLEBUFFER flag in the [**PIXELFORMATDESCRIPTOR**](/windows/win32/Wingdi/ns-wingdi-tagpixelformatdescriptor?branch=master) data structure in a call to [**ChoosePixelFormat**](/windows/win32/wingdi/nf-wingdi-choosepixelformat?branch=master).
 
 The OpenGL core function, [**glDrawBuffer**](gldrawbuffer.md), selects buffers for writing and clearing.
 

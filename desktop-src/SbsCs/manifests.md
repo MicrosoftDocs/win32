@@ -1,7 +1,12 @@
 ---
-Description: 'Manifests are XML files that accompany and describe side-by-side assemblies or isolated applications.'
-ms.assetid: 'c5016251-db7a-4edc-9be9-3acb03d495f8'
+Description: Manifests are XML files that accompany and describe side-by-side assemblies or isolated applications.
+ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Manifests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manifests

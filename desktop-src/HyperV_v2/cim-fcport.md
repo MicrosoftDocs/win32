@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the capabilities and management of a fibre channel (FC) port device.'
-ms.assetid: '32a11971-9e18-410d-a3cd-4921a7e986f0'
-title: 'CIM\_FCPort class'
+Description: Represents the capabilities and management of a fibre channel (FC) port device.
+ms.assetid: 32a11971-9e18-410d-a3cd-4921a7e986f0
+title: CIM\_FCPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_FCPort class
@@ -720,8 +725,8 @@ The FC-4 protocols that are supported by the fibre channel.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -735,9 +740,9 @@ The FC-4 protocols that are supported by the fibre channel.
 [**CIM\_NetworkPort**](cim-networkport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

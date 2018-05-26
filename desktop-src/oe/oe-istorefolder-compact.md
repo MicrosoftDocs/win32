@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder Compact method
 description: Compacts the contents of this folder.
-ms.assetid: 'f2736012-b071-43f7-b3f2-7b90ec6529a9'
-keywords: ["Compact method Windows Mail (formerly Outlook Express)", "Compact method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , Compact method"]
+ms.assetid: f2736012-b071-43f7-b3f2-7b90ec6529a9
+keywords:
+- Compact method Windows Mail (formerly Outlook Express)
+- Compact method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , Compact method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::Compact method
@@ -22,7 +30,7 @@ Compacts the contents of this folder.
 
 ```C++
 HRESULT Compact(
-  [in] DWORD dwReserved
+  [in] DWORD dwReserved
 );
 ```
 
@@ -55,7 +63,7 @@ Returns S\_OK if successful, or the following error value.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +77,8 @@ Messages marked as deleted will be permanently removed when compacted.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -78,9 +86,9 @@ Messages marked as deleted will be permanently removed when compacted.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_COMApplicationClasses abstract association WMI class relates a Component Object Model (COM) component and the COM application where it resides.'
+Description: The Win32\_COMApplicationClasses abstract association WMI class relates a Component Object Model (COM) component and the COM application where it resides.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7c188199-86fb-45ba-b318-9d9529b831b8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7c188199-86fb-45ba-b318-9d9529b831b8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_COMApplicationClasses class'
+title: Win32\_COMApplicationClasses class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_COMApplicationClasses class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{0F73ED51-8ED9-11d2-B340-00105A1F8569}"), AMENDMENT]
 class Win32_COMApplicationClasses : CIM_Component
 {
-  Win32_COMClass       REF PartComponent;
+  Win32_COMClass       REF PartComponent;
   Win32_COMApplication REF GroupComponent;
 };
 ```
@@ -83,8 +86,8 @@ The **Win32\_COMApplicationClasses** class is derived from [**CIM\_Component**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_COMApplicationClasses** class is derived from [**CIM\_Component**](
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

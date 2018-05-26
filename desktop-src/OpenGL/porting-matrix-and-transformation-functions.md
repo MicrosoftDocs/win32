@@ -1,8 +1,23 @@
 ---
 title: Porting Matrix and Transformation Functions
 description: IRIS GL and OpenGL handle matrices and transformations in a similar manner.
-ms.assetid: '732ba65a-d776-43ea-a605-0f59209c9a46'
-keywords: ["IRIS GL porting,matrices", "porting from IRIS GL,matrices", "porting to OpenGL from IRIS GL,matrices", "OpenGL porting from IRIS GL,matrices", "matrices", "IRIS GL porting,transformations", "porting from IRIS GL,transformations", "porting to OpenGL from IRIS GL,transformations", "OpenGL porting from IRIS GL,transformations", "transformations"]
+ms.assetid: 732ba65a-d776-43ea-a605-0f59209c9a46
+keywords:
+- IRIS GL porting,matrices
+- porting from IRIS GL,matrices
+- porting to OpenGL from IRIS GL,matrices
+- OpenGL porting from IRIS GL,matrices
+- matrices
+- IRIS GL porting,transformations
+- porting from IRIS GL,transformations
+- porting to OpenGL from IRIS GL,transformations
+- OpenGL porting from IRIS GL,transformations
+- transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Matrix and Transformation Functions
@@ -74,7 +89,7 @@ The following table lists the OpenGL matrix functions and their equivalent IRIS 
 
 
 
- 
+ 
 
 OpenGL has three matrix modes, which are set with [**glMatrixMode**](glmatrixmode.md). The following table lists the modes available as parameters for **glMatrixMode**.
 
@@ -88,11 +103,11 @@ OpenGL has three matrix modes, which are set with [**glMatrixMode**](glmatrixmod
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

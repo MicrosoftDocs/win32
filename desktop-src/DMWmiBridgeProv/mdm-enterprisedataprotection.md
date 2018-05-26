@@ -1,8 +1,10 @@
 ---
 title: MDM\_EnterpriseDataProtection class
 description: The MDM\_EnterpriseDataProtection class is used to determine the current status of Windows Information Protection (WIP) (formerly known as Enterprise Data Protection) specific settings.
-ms.assetid: '2b97de12-76d1-4b74-a979-f0484807b840'
-keywords: ["MDM_EnterpriseDataProtection class", "MDM_EnterpriseDataProtection class, described"]
+ms.assetid: 2b97de12-76d1-4b74-a979-f0484807b840
+keywords:
+- MDM_EnterpriseDataProtection class
+- MDM_EnterpriseDataProtection class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_EnterpriseDataProtection class
@@ -98,7 +105,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -106,9 +113,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

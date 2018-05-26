@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_LogicalDisk class represents a contiguous range of logical blocks that is identifiable by a file system through the disk''s DeviceID (key) field.'
+Description: The CIM\_LogicalDisk class represents a contiguous range of logical blocks that is identifiable by a file system through the disks DeviceID (key) field.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1c2fd0bf-a1e3-4706-9f84-5dd4d371a167'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1c2fd0bf-a1e3-4706-9f84-5dd4d371a167
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LogicalDisk class'
+title: CIM\_LogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalDisk class
@@ -19,7 +22,7 @@ The **CIM\_LogicalDisk** class represents a contiguous range of logical blocks t
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,32 +32,32 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C539-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_LogicalDisk : CIM_StorageExtent
 {
-  uint16   Access;
-  uint16   Availability;
-  uint64   BlockSize;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
-  uint64   FreeSpace;
+  uint16   Access;
+  uint16   Availability;
+  uint64   BlockSize;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
+  uint64   FreeSpace;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Purpose;
-  uint64   Size;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Purpose;
+  uint64   Size;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -78,7 +81,7 @@ The **CIM\_LogicalDisk** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1329,8 +1332,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1344,9 +1347,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_StorageExtent**](cim-storageextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

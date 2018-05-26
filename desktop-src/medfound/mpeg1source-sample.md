@@ -1,7 +1,12 @@
 ---
 Description: MPEG1Source Sample
-ms.assetid: 'c9f131ff-0b79-487c-9a46-a9b1350553a1'
+ms.assetid: c9f131ff-0b79-487c-9a46-a9b1350553a1
 title: MPEG1Source Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG1Source Sample
@@ -12,9 +17,9 @@ Shows how to write a custom media source in Microsoft Media Foundation. The samp
 
 This sample demonstrates the following Media Foundation interfaces:
 
--   [**IMFByteStreamHandler**](imfbytestreamhandler.md)
--   [**IMFMediaSource**](imfmediasource.md)
--   [**IMFMediaStream**](imfmediastream.md)
+-   [**IMFByteStreamHandler**](/windows/win32/mfidl/nn-mfidl-imfbytestreamhandler?branch=master)
+-   [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
+-   [**IMFMediaStream**](/windows/win32/mfidl/nn-mfidl-imfmediastream?branch=master)
 
 Before examining this sample, you might want to review the [WavSource Sample](wavsource-sample.md), which provides a simpler implementation of a media source. The MPEG1Source sample adds some features that would be found in most real-world implementations of a media source:
 

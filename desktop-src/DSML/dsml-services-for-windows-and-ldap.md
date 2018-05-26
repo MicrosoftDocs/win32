@@ -4,11 +4,16 @@ description: DSML Services for Windows expresses LDAP requests and responses as 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e234bcb0-eefb-4f51-8bfd-7a92fe78ce46'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e234bcb0-eefb-4f51-8bfd-7a92fe78ce46
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSML Services for Windows and LDAP DSML", "operations grouping"]
+keywords:
+- DSML Services for Windows and LDAP DSML
+- operations grouping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DSML Services for Windows and LDAP

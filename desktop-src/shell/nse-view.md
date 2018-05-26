@@ -1,7 +1,12 @@
 ---
-Description: 'Most namespace extensions are a subset of the Shell namespace.'
-ms.assetid: '00b6b281-b157-4a61-9852-8aafd9ba68d3'
-title: 'Displaying a Self-Contained View of a Namespace Extension'
+Description: Most namespace extensions are a subset of the Shell namespace.
+ms.assetid: 00b6b281-b157-4a61-9852-8aafd9ba68d3
+title: Displaying a Self-Contained View of a Namespace Extension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying a Self-Contained View of a Namespace Extension

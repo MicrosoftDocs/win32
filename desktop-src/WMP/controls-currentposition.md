@@ -1,8 +1,9 @@
 ---
 title: Controls.currentPosition
 description: The currentPosition property specifies or retrieves the current position in the media item in seconds from the beginning.
-ms.assetid: '374ad144-3f74-4d1b-bec5-1cd0f03777b7'
-keywords: ["Controls.currentPosition Windows Media Player"]
+ms.assetid: 374ad144-3f74-4d1b-bec5-1cd0f03777b7
+keywords:
+- Controls.currentPosition Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.currentPosition
@@ -62,9 +68,9 @@ The following example uses **currentPosition** to seek to a position provided by
 [**Controls Object**](controls-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

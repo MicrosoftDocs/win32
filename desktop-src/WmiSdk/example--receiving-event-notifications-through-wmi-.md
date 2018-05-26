@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the procedure and code example in this topic to complete WMI client application that performs COM initialization, connects to WMI on the local computer, receives an event notification, and then cleans up.'
+Description: You can use the procedure and code example in this topic to complete WMI client application that performs COM initialization, connects to WMI on the local computer, receives an event notification, and then cleans up.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4d581965-e22a-4205-908c-661eeeec88cf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4d581965-e22a-4205-908c-661eeeec88cf
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Example: Receiving Event Notifications Through WMI'
+title: Example Receiving Event Notifications Through WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example: Receiving Event Notifications Through WMI
@@ -30,15 +33,15 @@ The following procedure is used to execute the WMI application. Steps 1 through 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Obtain a pointer to [**IWbemServices**](iwbemservices.md) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md). To connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
+4.  Obtain a pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) for the root\\cimv2 namespace on the local computer by calling [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master). To connect to a remote computer, see [Example: Getting WMI Data from a Remote Computer](example--getting-wmi-data-from-a-remote-computer.md).
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-5.  Set [**IWbemServices**](iwbemservices.md) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+5.  Set [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy security so the WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
-6.  Use the [**IWbemServices**](iwbemservices.md) pointer to make requests to WMI. This example uses the [**IWbemServices::ExecNotificationQueryAsync**](iwbemservices-execnotificationqueryasync.md) method to receive asynchronous events. When you receive asynchronous events, you must provide an implementation of [**IWbemObjectSink**](iwbemobjectsink.md). This example provides the implementation in the EventSink class. The implementation code and header file code for this class are provided below the main example. The **IWbemServices::ExecNotificationQueryAsync** method calls the **EventSink::Indicate** method whenever an event is received. For this example the **EventSink::Indicate** method is called whenever a process is created. To test this example, run the code and start a process such as Notepad.exe. This triggers an event notification.
+6.  Use the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer to make requests to WMI. This example uses the [**IWbemServices::ExecNotificationQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync?branch=master) method to receive asynchronous events. When you receive asynchronous events, you must provide an implementation of [**IWbemObjectSink**](iwbemobjectsink.md). This example provides the implementation in the EventSink class. The implementation code and header file code for this class are provided below the main example. The **IWbemServices::ExecNotificationQueryAsync** method calls the **EventSink::Indicate** method whenever an event is received. For this example the **EventSink::Indicate** method is called whenever a process is created. To test this example, run the code and start a process such as Notepad.exe. This triggers an event notification.
 
     For more information about making requests of WMI, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md) and [Calling a Method](calling-a-method.md).
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'ff210374-f394-4267-a67a-1a60a2f9538d'
-title: 'CAMSchedule.CAMSchedule constructor'
+Description: Constructor method.
+ms.assetid: ff210374-f394-4267-a67a-1a60a2f9538d
+title: CAMSchedule.CAMSchedule constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.CAMSchedule constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CAMSchedule(
-   HANDLE hEvent
+   HANDLE hEvent
 );
 ```
 
@@ -48,9 +53,9 @@ Handle to an auto-reset event.
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

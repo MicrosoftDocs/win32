@@ -1,7 +1,12 @@
 ---
-Description: 'The Direct3D API defines several core API elements.'
-ms.assetid: '0b217811-555e-4433-8cf8-8c43cd5edba6'
+Description: The Direct3D API defines several core API elements.
+ms.assetid: 0b217811-555e-4433-8cf8-8c43cd5edba6
 title: Core Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Reference

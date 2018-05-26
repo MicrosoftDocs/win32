@@ -1,14 +1,20 @@
 ---
 title: MinimumConstraint element
 description: The minimum value for the parameter.
-ms.assetid: '76BB27D9-3584-4897-8869-D1316AAF8B16'
-keywords: ["MinimumConstraint element Access Execution Engine"]
+ms.assetid: 76BB27D9-3584-4897-8869-D1316AAF8B16
+keywords:
+- MinimumConstraint element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MinimumConstraint
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinimumConstraint element
@@ -82,9 +88,9 @@ This element is valid for these data types.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

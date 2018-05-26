@@ -1,6 +1,11 @@
-﻿---
-Description: 'Extends the IShellDispatch5 object.'
+---
+Description: Extends the IShellDispatch5 object.
 title: IShellDispatch6 object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch6 object

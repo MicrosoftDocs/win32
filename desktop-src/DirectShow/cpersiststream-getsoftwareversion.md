@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the software version for this stream.'
-ms.assetid: 'f54153df-5593-4784-acc5-3e0dcef424b5'
-title: 'CPersistStream.GetSoftwareVersion method'
+Description: Retrieves the software version for this stream.
+ms.assetid: f54153df-5593-4784-acc5-3e0dcef424b5
+title: CPersistStream.GetSoftwareVersion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.GetSoftwareVersion method
@@ -43,9 +48,9 @@ Returns a **DWORD** containing the version number. Each time the format of the s
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

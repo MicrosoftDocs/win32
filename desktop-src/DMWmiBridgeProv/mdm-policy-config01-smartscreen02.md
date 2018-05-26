@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_SmartScreen02 class
 description: The MDM\_Policy\_Config01\_SmartScreen02 class configures the smart screen policies.
-ms.assetid: 'e5ad04a1-afa9-4887-a4c1-c92c574a5398'
-keywords: ["MDM_Policy_Config01_SmartScreen02 class", "MDM_Policy_Config01_SmartScreen02 class, described"]
+ms.assetid: e5ad04a1-afa9-4887-a4c1-c92c574a5398
+keywords:
+- MDM_Policy_Config01_SmartScreen02 class
+- MDM_Policy_Config01_SmartScreen02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_SmartScreen02 class
@@ -116,7 +123,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -124,9 +131,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

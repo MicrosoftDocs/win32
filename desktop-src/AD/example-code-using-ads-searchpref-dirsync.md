@@ -4,11 +4,15 @@ description: The following code example uses the ADSI implementation of the dire
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8bf9dae7-426c-4018-ad6d-b20395beba01'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8bf9dae7-426c-4018-ad6d-b20395beba01
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , using ADS_SEARCHPREF_DIRSYNC"]
+keywords:
+- Active Directory examples Active Directory , using ADS_SEARCHPREF_DIRSYNC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code Using ADS\_SEARCHPREF\_DIRSYNC

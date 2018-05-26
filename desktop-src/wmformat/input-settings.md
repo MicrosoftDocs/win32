@@ -1,8 +1,25 @@
 ---
 title: Input Settings
 description: Input Settings
-ms.assetid: '23adbb64-5733-4198-8f2b-d02052ddb848'
-keywords: ["Windows Media Format SDK,global constants", "Advanced Systems Format (ASF),global constants", "ASF (Advanced Systems Format),global constants", "global constants,list of", "Windows Media Format SDK,constants", "Advanced Systems Format (ASF),constants", "ASF (Advanced Systems Format),constants", "constants,list of", "Windows Media Format SDK,input settings", "Advanced Systems Format (ASF),input settings", "ASF (Advanced Systems Format),input settings", "input settings"]
+ms.assetid: 23adbb64-5733-4198-8f2b-d02052ddb848
+keywords:
+- Windows Media Format SDK,global constants
+- Advanced Systems Format (ASF),global constants
+- ASF (Advanced Systems Format),global constants
+- global constants,list of
+- Windows Media Format SDK,constants
+- Advanced Systems Format (ASF),constants
+- ASF (Advanced Systems Format),constants
+- constants,list of
+- Windows Media Format SDK,input settings
+- Advanced Systems Format (ASF),input settings
+- ASF (Advanced Systems Format),input settings
+- input settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Settings
@@ -34,10 +51,10 @@ The following global constants are used to identify input settings for the write
 
 <dl> <dt>
 
-[**IWMWriterAdvanced2::GetInputSetting**](iwmwriteradvanced2-getinputsetting.md)
+[**IWMWriterAdvanced2::GetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting?branch=master)
 </dt> <dt>
 
-[**IWMWriterAdvanced2::SetInputSetting**](iwmwriteradvanced2-setinputsetting.md)
+[**IWMWriterAdvanced2::SetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting?branch=master)
 </dt> </dl>
 
  

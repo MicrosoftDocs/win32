@@ -4,13 +4,16 @@ description: Gets the statistics corresponding to the specified IPv6 prefix for 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14da34b6-25eb-4562-8fd1-b80164104322'
-ms.prod: 'windows-server-dev'
+ms.assetid: 14da34b6-25eb-4562-8fd1-b80164104322
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv6ScopeStatistics class", "PS_DhcpServerv6ScopeStatistics class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv6ScopeStatistics class
+- PS_DhcpServerv6ScopeStatistics class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv6ScopeStatistics class
@@ -30,9 +36,9 @@ Gets the statistics corresponding to the specified IPv6 prefix for a DHCP Server
 
 ```mof
 uint32 Get(
-  [in]  string                      Prefix[],
-  [in]  string                      ComputerName,
-  [out] DhcpServerv6ScopeStatistics cmdletOutput[]
+  [in]  string                      Prefix[],
+  [in]  string                      ComputerName,
+  [out] DhcpServerv6ScopeStatistics cmdletOutput[]
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of the [**DhcpServerv6ScopeStatistics**](dhcpserverv6scopes
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An embedded instance of the [**DhcpServerv6ScopeStatistics**](dhcpserverv6scopes
 [**PS\_DhcpServerv6ScopeStatistics**](ps-dhcpserverv6scopestatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

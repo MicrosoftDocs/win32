@@ -1,8 +1,15 @@
 ---
 title: Capturing Joystick Input
 description: Capturing Joystick Input
-ms.assetid: '1214fe5a-5a6a-4c6c-9b77-94eeb73f60da'
-keywords: ["joysticks,capturing input", "capturing joystick input"]
+ms.assetid: 1214fe5a-5a6a-4c6c-9b77-94eeb73f60da
+keywords:
+- joysticks,capturing input
+- capturing joystick input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing Joystick Input

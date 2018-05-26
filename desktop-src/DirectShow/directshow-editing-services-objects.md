@@ -1,7 +1,12 @@
 ---
 Description: DirectShow Editing Services Objects
-ms.assetid: '0b78c928-eee7-46ab-b01b-30c9c62ceeb2'
+ms.assetid: 0b78c928-eee7-46ab-b01b-30c9c62ceeb2
 title: DirectShow Editing Services Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow Editing Services Objects

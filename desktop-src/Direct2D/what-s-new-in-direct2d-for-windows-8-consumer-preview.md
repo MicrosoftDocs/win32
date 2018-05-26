@@ -1,7 +1,12 @@
 ---
-title: What's new in Direct2D
+title: Whats new in Direct2D
 description: Here are some of the new additions to Direct2D.
-ms.assetid: 'BA459FF0-9457-4652-A97C-BD4EC57EC8E2'
+ms.assetid: BA459FF0-9457-4652-A97C-BD4EC57EC8E2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's new in Direct2D
@@ -18,17 +23,17 @@ Starting in Windows 10 Creators Update, Direct2D provides support for parsing an
 
 -   [Direct2D SVG image rendering sample](http://go.microsoft.com/fwlink/p/?LinkId=848071)
 -   [SVG Support](svg-support.md)
--   [**ID2D1DeviceContext5::CreateSvgDocument**](id2d1devicecontext5-createsvgdocument.md) method
--   [**ID2D1DeviceContext5::DrawSvgDocument**](id2d1devicecontext5-drawsvgdocument.md) method
--   [**ID2D1SvgElement**](id2d1svgelement.md) interface
+-   [**ID2D1DeviceContext5::CreateSvgDocument**](/windows/win32/d2d1_3/?branch=master) method
+-   [**ID2D1DeviceContext5::DrawSvgDocument**](/windows/win32/d2d1_3/?branch=master) method
+-   [**ID2D1SvgElement**](/windows/win32/d2d1svg/?branch=master) interface
 
 ### Improved support for color management
 
 Starting in Windows 10 Creators Update, Direct2D provides improved color management capabilities. Developers no longer need an ICC profile to use Direct2D’s color management effect; they can now use DXGI color spaces or construct their own parameterized color space definition. For more information, see the following topics:
 
 -   [Color management effect](color-management.md)
--   [**ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace**](id2d1devicecontext5-createcolorcontextfromdxgicolorspace.md)
--   [**ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile**](id2d1devicecontext5-createcolorcontextfromsimplecolorprofile.md)
+-   [**ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace**](/windows/win32/d2d1_3/?branch=master)
+-   [**ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile**](/windows/win32/d2d1_3/?branch=master)
 
 ## What's new for Windows 10 Anniversary Update
 
@@ -43,7 +48,7 @@ Starting in Windows 10 Anniversary Update, Direct2D now supports rendering a wid
 -   The ‘CBDT’ OpenType table, which enables color bitmap content in fonts.
 -   The ‘sbix’ OpenType table, which enables color bitmap content in fonts.
 
-Direct2D supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](d2d1-draw-text-options.md) flag is enabled. For more information, see the following topics:
+Direct2D supports these color font formats automatically when the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](/windows/win32/d2d1/ne-d2d1-d2d1_draw_text_options?branch=master) flag is enabled. For more information, see the following topics:
 
 -   [Color Fonts](https://msdn.microsoft.com/library/windows/desktop/mt765165)
 -   [DirectWrite color glyph sample](http://go.microsoft.com/fwlink/p/?LinkId=832476)
@@ -60,34 +65,34 @@ The following features and APIs were added or updated for Windows 10.
 
 Starting in Windows 10, Direct2D provides support for creating and rendering sprite batches. Compared to the general-purpose [**DrawImage**](id2d1devicecontext-drawimage-overload.md) method, sprite batches incur dramatically less per-image CPU overhead. This makes them ideal for scenarios involving hundreds or thousands of concurrent images, such as game sprites or particle systems. For more information, see the following topics:
 
--   [**ID2D1DeviceContext3::CreateSpriteBatch**](id2d1devicecontext3-createspritebatch.md) method
--   [**ID2D1DeviceContext3::DrawSpriteBatch**](id2d1devicecontext3-drawspritebatch-overloaded.md) methods
--   [**ID2D1SpriteBatch**](id2d1spritebatch.md) interface
+-   [**ID2D1DeviceContext3::CreateSpriteBatch**](/windows/win32/d2d1_3/?branch=master) method
+-   [**ID2D1DeviceContext3::DrawSpriteBatch**](/windows/win32/d2d1_3/nf-d2d1_3-drawspritebatch?branch=master) methods
+-   [**ID2D1SpriteBatch**](/windows/win32/d2d1_3/?branch=master) interface
 
 ### Gradient meshes
 
 Starting in Windows 10, Direct2D provides a new primitive for gradient meshes. Gradient meshes are often used by professional illustrators in graphic design software, and they allow artists to render complex (even photo-realistic) multicolored shapes with all the memory and scalability benefits of vectors. For more information, see the follow topics:
 
 -   [Direct2D gradient mesh sample](http://go.microsoft.com/fwlink/p/?LinkId=620532)
--   [**D2D1\_GRADIENT\_MESH\_PATCH**](d2d1-gradient-mesh-patch.md) structure
--   [**ID2D1DeviceContext2::DrawGradientMesh**](id2d1devicecontext2-drawgradientmesh.md) method
+-   [**D2D1\_GRADIENT\_MESH\_PATCH**](/windows/win32/d2d1_3/ns-d2d1_3-d2d1_gradient_mesh_patch?branch=master) structure
+-   [**ID2D1DeviceContext2::DrawGradientMesh**](/windows/win32/D2d1_3/?branch=master) method
 
 ### Improved image loading APIs
 
 Starting with Windows 10, Direct2D offers a new API for loading images, ID2D1ImageSource. The image source improves upon existing image loading APIs including CreateBitmapFromWicBitmap, the Bitmap Source effect, and the YCbCr effect. The Direct2D image source combines the capabilities of these APIs with support for arbitrarily large images, easy integration with printing and effects, and numerous optimizations including YCbCr JPEG and indexed JPEG. For more information, see these topics:
 
 -   [Direct2D Photo Adjustment SDK sample](http://go.microsoft.com/fwlink/p/?LinkId=620533)
--   [**ID2D1ImageSource**](id2d1imagesource.md)
--   [**ID2D1ImageSourceFromWic**](id2d1imagesourcefromwic.md)
+-   [**ID2D1ImageSource**](/windows/win32/D2d1_3/?branch=master)
+-   [**ID2D1ImageSourceFromWic**](/windows/win32/d2d1_3/?branch=master)
 -   [IWICJpegFrameDecode::SetIndexing](https://msdn.microsoft.com/library/windows/desktop/dn903861.aspx)
 
 ### Improved support for ink rendering
 
 Starting in Windows 10, Direct2D provides a new primitive to represent ink strokes. Direct2D ink strokes are defined by Bezier curves, support different nib shapes and transforms, and may have fixed or variable thickness. Direct2D’s built-in support for ink strokes allows apps to easily render faster, more beautiful ink than previous approaches, which typically required apps to manage ink themselves, as a series of ellipses and quadrilaterals. For more information, see the following topics:
 
--   [**ID2D1Ink interface**](id2d1ink.md)
--   [**ID2D1DeviceContext2::DrawInk method**](id2d1devicecontext2-drawink.md)
--   [**ID2D1InkStyle interface**](id2d1inkstyle.md)
+-   [**ID2D1Ink interface**](/windows/win32/d2d1_3/?branch=master)
+-   [**ID2D1DeviceContext2::DrawInk method**](/windows/win32/D2d1_3/?branch=master)
+-   [**ID2D1InkStyle interface**](/windows/win32/d2d1_3/?branch=master)
 
 ### Effect shader linking
 
@@ -149,8 +154,8 @@ Starting with Windows 8.1, Direct2D is built on top of Direct3D 11.2.
 
 Starting in Windows 8.1, Direct2D offers geometry realizations. Geometry realizations allow applications to improve geometry rendering performance in certain situations, without some of the drawbacks of rasterizing geometry to a bitmap. For more information, see the following topics:
 
--   [**ID2D1Device1**](id2d1device1.md) interface
--   [**ID2D1DeviceContext1::DrawGeometryRealization**](id2d1devicecontext1-drawgeometryrealization.md) method
+-   [**ID2D1Device1**](/windows/win32/D2d1_2/?branch=master) interface
+-   [**ID2D1DeviceContext1::DrawGeometryRealization**](/windows/win32/D2d1_2/?branch=master) method
 
 ### Support for JPEG YCbCr images
 
@@ -170,8 +175,8 @@ Starting in Windows 8.1, Direct2D provides support for bitmaps that contain DXG
 
 Starting in Windows 8.1, Direct2D provides support for per-device rendering priority. This new feature allows apps to switch a device between normal rendering priority (the default) and low rendering priority (in which the device will not block other rendering tasks on the system). It is recommended that apps use low rendering priority for tasks that are not critical to user-responsiveness, such as pre-rendering content, rendering while minimized, and other operations that are typically performed in the background. For more information, see the following topics:
 
--   [**ID2D1Device1::SetRenderingPriority**](id2d1device1-setrenderingpriority.md) method
--   [**D2D1\_RENDERING\_PRIORITY**](d2d1-rendering-priority.md) enumeration
+-   [**ID2D1Device1::SetRenderingPriority**](/windows/win32/D2d1_2/?branch=master) method
+-   [**D2D1\_RENDERING\_PRIORITY**](/windows/win32/D2D1_2/ne-d2d1_2-d2d1_rendering_priority?branch=master) enumeration
 
 ## What's new for Windows 8
 
@@ -183,31 +188,31 @@ Direct2D's semantics for devices and device contexts have been updated to more c
 
 Selected related APIs:
 
--   [**ID2D1Device**](id2d1device.md)
--   [**ID2D1DeviceContext**](id2d1devicecontext.md)
+-   [**ID2D1Device**](/windows/win32/D2d1_1/?branch=master)
+-   [**ID2D1DeviceContext**](/windows/win32/D2d1_1/?branch=master)
 
 The command list API allows you to share the rendering path for on screen rendering and printing. It also allows you to use primitives to create an image brush for filling primitives.
 
 Selected related APIs:
 
--   [**ID2D1CommandList**](id2d1commandlist.md)
--   [**ID2D1PrintControl**](id2d1printcontrol.md)
--   [**ID2D1ImageBrush**](id2d1imagebrush.md)
+-   [**ID2D1CommandList**](/windows/win32/D2d1_1/?branch=master)
+-   [**ID2D1PrintControl**](/windows/win32/D2d1_1/?branch=master)
+-   [**ID2D1ImageBrush**](/windows/win32/d2d1_1/?branch=master)
 
 [Direct2D effects](effects-overview.md) is a set of APIs, new in Windows 8, for applying high quality effects to images. It also includes APIs that allow you to make your own custom effects.
 
 Selected related APIs:
 
--   [**ID2D1Effect**](id2d1effect.md)
--   [**ID2D1EffectImpl**](id2d1effectimpl.md)
--   [**ID2D1EffectContext**](id2d1contextinternal.md)
+-   [**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
+-   [**ID2D1EffectImpl**](/windows/win32/d2d1effectauthor/?branch=master)
+-   [**ID2D1EffectContext**](/windows/win32/D2D1EffectAuthor/?branch=master)
 
 Starting with Windows 8, Direct2D includes additional APIs for building multithreaded apps. See [Multithreaded Direct2D Apps](multi-threaded-direct2d-apps.md) for more info.
 
 Selected related APIs:
 
--   [**ID2D1MultiThread**](id2d1multithread.md)
--   [**D2D1\_FACTORY\_TYPE\_MULTI\_THREADED**](d2d1-factory-type.md)
+-   [**ID2D1MultiThread**](/windows/win32/D2d1_1/?branch=master)
+-   [**D2D1\_FACTORY\_TYPE\_MULTI\_THREADED**](/windows/win32/d2d1/ne-d2d1-d2d1_factory_type?branch=master)
 
  
 

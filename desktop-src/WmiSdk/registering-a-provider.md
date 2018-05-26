@@ -1,13 +1,16 @@
 ---
-Description: 'Before implementing your provider, you should first register your provider with WMI. Registering the provider defines the type of the provider and the classes that the provider supports. WMI can only access registered providers.'
+Description: Before implementing your provider, you should first register your provider with WMI. Registering the provider defines the type of the provider and the classes that the provider supports. WMI can only access registered providers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b0a1a11c-a8e8-4bc1-b286-fb9243667976'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b0a1a11c-a8e8-4bc1-b286-fb9243667976
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering a Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering a Provider
@@ -204,11 +207,11 @@ The following procedure describes how to register a provider.
 
     Typically, you should place the file in the installation directory of the provider.
 
-6.  Compile the MOF file using [mofcomp](mofcomp.md) or the [**IMofCompiler**](imofcompiler.md) interface.
+6.  Compile the MOF file using [mofcomp](mofcomp.md) or the [**IMofCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) interface.
 
     For more information, see [Compiling MOF Files](compiling-mof-files.md).
 
-    **Windows 8 and Windows Server 2012:** When installing providers, both [**mofcomp**](mofcomp.md) and the [**IMofCompiler**](imofcompiler.md) interface treat the \[Key\] and \[Static\] qualifiers as true if they are present, regardless of their actual values. Other qualifiers are treated as false if they are present but not explicitly set to true.
+    **Windows 8 and Windows Server 2012:** When installing providers, both [**mofcomp**](mofcomp.md) and the [**IMofCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) interface treat the \[Key\] and \[Static\] qualifiers as true if they are present, regardless of their actual values. Other qualifiers are treated as false if they are present but not explicitly set to true.
 
 ## Related topics
 

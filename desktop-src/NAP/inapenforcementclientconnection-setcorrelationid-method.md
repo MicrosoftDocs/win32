@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientConnection SetCorrelationId method
 description: Sets the ID used to correlate SoH-requests and SoH-responses.
-ms.assetid: '8f9d5bde-95b1-4566-84ee-31c6ed5e8986'
-keywords: ["SetCorrelationId method NAP", "SetCorrelationId method NAP , INapEnforcementClientConnection interface", "INapEnforcementClientConnection interface NAP , SetCorrelationId method"]
+ms.assetid: 8f9d5bde-95b1-4566-84ee-31c6ed5e8986
+keywords:
+- SetCorrelationId method NAP
+- SetCorrelationId method NAP , INapEnforcementClientConnection interface
+- INapEnforcementClientConnection interface NAP , SetCorrelationId method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientConnection::SetCorrelationId method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientConnection::SetCorrelationId** method sets the ID used to correlate SoH-requests and SoH-responses.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientConnection::SetCorrelationId** method sets the ID use
 
 ```C++
 HRESULT SetCorrelationId(
-  [in] CorrelationId correlationId
+  [in] CorrelationId correlationId
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT SetCorrelationId(
 *correlationId* \[in\]
 </dt> <dd>
 
-A unique [**CorrelationId**](correlationid-struct.md) structure that identifies a specific SoH exchange.
+A unique [**CorrelationId**](/windows/win32/NapTypes/ns-naptypes-tagcorrelationid?branch=master) structure that identifies a specific SoH exchange.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,8 +82,8 @@ When an SoH-Response is received, the NapAgent first ensures the IDs match; if n
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -89,9 +97,9 @@ When an SoH-Response is received, the NapAgent first ensures the IDs match; if n
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

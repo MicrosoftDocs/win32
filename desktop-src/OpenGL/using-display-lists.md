@@ -1,8 +1,15 @@
 ---
 title: Using Display Lists
 description: Using Display Lists
-ms.assetid: 'f5edff21-0928-4ec9-9718-5189bf8ce2d7'
-keywords: ["OpenGL,display lists", "display lists OpenGL"]
+ms.assetid: f5edff21-0928-4ec9-9718-5189bf8ce2d7
+keywords:
+- OpenGL,display lists
+- display lists OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Display Lists

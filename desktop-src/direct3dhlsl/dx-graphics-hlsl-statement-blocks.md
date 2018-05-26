@@ -1,7 +1,12 @@
 ---
 title: Statement Blocks
 description: A statement block contains one or more statements; each statement is made up of expressions and operators.
-ms.assetid: '083240ed-1ced-4b65-a01d-e207c2c3632f'
+ms.assetid: 083240ed-1ced-4b65-a01d-e207c2c3632f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Statement Blocks

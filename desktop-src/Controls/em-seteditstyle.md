@@ -1,8 +1,9 @@
 ---
 title: EM\_SETEDITSTYLE message
 description: Sets the current edit style flags for a rich edit control.
-ms.assetid: 'e48de6b3-0fd2-4791-9863-a6dcdafa3642'
-keywords: ["EM_SETEDITSTYLE message Windows Controls"]
+ms.assetid: e48de6b3-0fd2-4791-9863-a6dcdafa3642
+keywords:
+- EM_SETEDITSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETEDITSTYLE message
@@ -45,8 +51,8 @@ The return value is the state of the edit style flags after the rich edit contro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -59,9 +65,9 @@ The return value is the state of the edit style flags after the rich edit contro
 [**EM\_GETEDITSTYLE**](em-geteditstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

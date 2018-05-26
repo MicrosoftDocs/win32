@@ -1,8 +1,17 @@
 ---
 title: Creating the Disabled File
 description: Creating the Disabled File
-ms.assetid: '22db4942-b1f1-46d1-b869-48c6854bfb30'
-keywords: ["Windows Media Player Mobile skins,Disabled files", "skins,Disabled files", "creating skins,Disabled files", "Disabled files in skins"]
+ms.assetid: 22db4942-b1f1-46d1-b869-48c6854bfb30
+keywords:
+- Windows Media Player Mobile skins,Disabled files
+- skins,Disabled files
+- creating skins,Disabled files
+- Disabled files in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Disabled File

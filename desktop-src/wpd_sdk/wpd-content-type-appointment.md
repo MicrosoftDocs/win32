@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_APPOINTMENT'
-ms.assetid: 'd41c26ef-9f51-4ba7-b1a4-57abec91925e'
-title: 'WPD\_CONTENT\_TYPE\_APPOINTMENT'
+Description: WPD\_CONTENT\_TYPE\_APPOINTMENT
+ms.assetid: d41c26ef-9f51-4ba7-b1a4-57abec91925e
+title: WPD\_CONTENT\_TYPE\_APPOINTMENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_APPOINTMENT

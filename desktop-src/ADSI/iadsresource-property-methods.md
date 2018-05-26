@@ -4,11 +4,12 @@ description: The property methods of the IADsResource interface get or set the p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a2d6ed76-88e9-468f-928a-a038b73fb362'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a2d6ed76-88e9-468f-928a-a038b73fb362
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsResource Property Methods ADSI"]
+keywords:
+- IADsResource Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -25,11 +26,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsResource Property Methods
 
-The property methods of the [**IADsResource**](iadsresource.md) interface get or set the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsResource**](/windows/win32/Iads/nn-iads-iadsresource?branch=master) interface get or set the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -135,7 +139,7 @@ HRESULT get_UserPath(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -233,8 +237,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsResource is defined as 34A05B20-4AAB-11CF-AE2C-00AA006EBFB9<br/>         |
@@ -245,15 +249,15 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsResource**](iadsresource.md)
+[**IADsResource**](/windows/win32/Iads/nn-iads-iadsresource?branch=master)
 </dt> <dt>
 
-[**IADsFileServiceOperations::Resources**](iadsfileserviceoperations-resources.md)
+[**IADsFileServiceOperations::Resources**](/windows/win32/Iads/nf-iads-iadsfileserviceoperations-resources?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

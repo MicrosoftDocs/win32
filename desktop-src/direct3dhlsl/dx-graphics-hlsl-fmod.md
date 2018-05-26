@@ -1,8 +1,9 @@
 ---
 title: fmod
 description: Returns the floating-point remainder of x/y.
-ms.assetid: 'bb940548-c4c5-4109-a488-4ea7295c7213'
-keywords: ["fmod HLSL"]
+ms.assetid: bb940548-c4c5-4109-a488-4ea7295c7213
+keywords:
+- fmod HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fmod
@@ -24,7 +30,7 @@ Returns the floating-point remainder of x/y.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Returns the floating-point remainder of x/y.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -59,7 +65,7 @@ The floating-point remainder is calculated such that x = i \* y + f, where i is 
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -74,7 +80,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +99,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

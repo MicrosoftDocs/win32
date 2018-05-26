@@ -1,6 +1,11 @@
-﻿---
-Description: 'Represents a single verb available to an item. This object contains properties and methods that allow you to retrieve information about the verb.'
+---
+Description: Represents a single verb available to an item. This object contains properties and methods that allow you to retrieve information about the verb.
 title: FolderItemVerb object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItemVerb object

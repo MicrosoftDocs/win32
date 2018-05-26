@@ -1,8 +1,9 @@
 ---
 title: LVM\_EDITLABEL message
-description: Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can send this message explicitly or by using the ListView\_EditLabel macro.
-ms.assetid: 'b63f13f1-6e66-4770-af84-30bcdb241727'
-keywords: ["LVM_EDITLABEL message Windows Controls"]
+description: Begins in-place editing of the specified list-view items text. The message implicitly selects and focuses the specified item. You can send this message explicitly or by using the ListView\_EditLabel macro.
+ms.assetid: b63f13f1-6e66-4770-af84-30bcdb241727
+keywords:
+- LVM_EDITLABEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_EDITLABEL message
 
-Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can send this message explicitly or by using the [**ListView\_EditLabel**](listview-editlabel.md) macro.
+Begins in-place editing of the specified list-view item's text. The message implicitly selects and focuses the specified item. You can send this message explicitly or by using the [**ListView\_EditLabel**](/windows/win32/Commctrl/nf-commctrl-listview_editlabel?branch=master) macro.
 
 ## Parameters
 
@@ -51,8 +57,8 @@ If *wParam* is -1, an [LVN\_ENDLABELEDIT](lvn-endlabeledit.md) notification code
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVM\_EDITLABELW** (Unicode) and **LVM\_EDITLABELA** (ANSI)<br/>               |
 
@@ -65,9 +71,9 @@ If *wParam* is -1, an [LVN\_ENDLABELEDIT](lvn-endlabeledit.md) notification code
 [**WM\_CANCELMODE**](https://msdn.microsoft.com/library/windows/desktop/ms632615)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

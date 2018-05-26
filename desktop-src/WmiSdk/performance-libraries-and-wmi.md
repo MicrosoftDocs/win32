@@ -1,13 +1,16 @@
 ---
-Description: 'The WMIPerfClass Provider and the WMIPerfInst Provider dynamically provide performance counter data for the WMI Performance Counter Classes.'
+Description: The WMIPerfClass Provider and the WMIPerfInst Provider dynamically provide performance counter data for the WMI Performance Counter Classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8bf6d218-9a31-4efd-a809-222aca364138'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8bf6d218-9a31-4efd-a809-222aca364138
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Performance Libraries and WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performance Libraries and WMI

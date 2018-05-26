@@ -1,14 +1,20 @@
 ---
 title: SLIDER.tiled
 description: The tiled attribute specifies or retrieves a value indicating whether the slider image will be tiled.
-ms.assetid: '159a2972-a0eb-4e43-a083-e124e56782f5'
-keywords: ["SLIDER.tiled Windows Media Player"]
+ms.assetid: 159a2972-a0eb-4e43-a083-e124e56782f5
+keywords:
+- SLIDER.tiled Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.tiled
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.tiled
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +72,9 @@ You may wish to use this attribute in conjunction with the **borderSize** attrib
 [**SLIDER.foregroundImage**](slider-foregroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

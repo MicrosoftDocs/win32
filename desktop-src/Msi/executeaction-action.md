@@ -1,7 +1,12 @@
 ---
-Description: 'The ExecuteAction action initiates the execution sequence using the EXECUTEACTION property to determine which type of installation to perform.'
-ms.assetid: '61878317-ac87-4f6e-9375-12a78969e29e'
+Description: The ExecuteAction action initiates the execution sequence using the EXECUTEACTION property to determine which type of installation to perform.
+ms.assetid: 61878317-ac87-4f6e-9375-12a78969e29e
 title: ExecuteAction Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExecuteAction Action

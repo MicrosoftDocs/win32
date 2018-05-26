@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_DomainDomainContainment class
 description: The MicrosoftDNS\_DomainDomainContainment class is used for domain containment; DNS domains may contain other DNS domains.
-ms.assetid: '43faa046-30bf-4fb3-9698-98d09c424fad'
-keywords: ["MicrosoftDNS_DomainDomainContainment class DNS", "MicrosoftDNS_DomainDomainContainment class DNS , described"]
+ms.assetid: 43faa046-30bf-4fb3-9698-98d09c424fad
+keywords:
+- MicrosoftDNS_DomainDomainContainment class DNS
+- MicrosoftDNS_DomainDomainContainment class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_DomainDomainContainment class
@@ -84,7 +91,7 @@ Inherited from CIM\_Component.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -103,9 +110,9 @@ Inherited from CIM\_Component.
 [**MicrosoftDNS\_ServerDomainContainment**](microsoftdns-serverdomaincontainment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

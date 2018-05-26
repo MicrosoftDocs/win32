@@ -1,8 +1,26 @@
 ---
 title: Submitting Your Visualization
 description: Submitting Your Visualization
-ms.assetid: '9f86da0e-7fdc-4b8d-881b-262832e771a2'
-keywords: ["Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,testing", "custom visualizations,testing", "testing visualizations", "visualizations,submitting", "custom visualizations,submitting", "submitting visualizations", "visualizations,code signing", "custom visualizations,code signing", "visualizations,distributing", "custom visualizations,distributing", "distributing visualizations"]
+ms.assetid: 9f86da0e-7fdc-4b8d-881b-262832e771a2
+keywords:
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,testing
+- custom visualizations,testing
+- testing visualizations
+- visualizations,submitting
+- custom visualizations,submitting
+- submitting visualizations
+- visualizations,code signing
+- custom visualizations,code signing
+- visualizations,distributing
+- custom visualizations,distributing
+- distributing visualizations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Submitting Your Visualization

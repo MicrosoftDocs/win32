@@ -1,8 +1,18 @@
 ---
 title: Supported Codecs
 description: Supported Codecs
-ms.assetid: 'd5907d38-2e26-442e-a0d1-1d7e267b9948'
-keywords: ["Windows Media Format SDK,codecs supported", "Windows Media Format SDK,IWMCodecInfo3 interface", "codecs,supported", "IWMCodecInfo3,about", "codecs,IWMCodecInfo3 interface"]
+ms.assetid: d5907d38-2e26-442e-a0d1-1d7e267b9948
+keywords:
+- Windows Media Format SDK,codecs supported
+- Windows Media Format SDK,IWMCodecInfo3 interface
+- codecs,supported
+- IWMCodecInfo3,about
+- codecs,IWMCodecInfo3 interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Codecs
@@ -72,9 +82,9 @@ The Windows Media Format SDK provides support for the following codecs which are
 
 
 
- 
+ 
 
-Different versions of the Windows Media Audio and Video codecs are available for encoding depending on the version of the Windows Media Format SDK that you install. When you use the methods if the [**IWMCodecInfo3**](iwmcodecinfo3.md) interface to enumerate codecs and codec formats, only the latest supported versions are enumerated.
+Different versions of the Windows Media Audio and Video codecs are available for encoding depending on the version of the Windows Media Format SDK that you install. When you use the methods if the [**IWMCodecInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3?branch=master) interface to enumerate codecs and codec formats, only the latest supported versions are enumerated.
 
 ## Related topics
 
@@ -86,9 +96,9 @@ Different versions of the Windows Media Audio and Video codecs are available for
 [**Codec Features**](codec-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

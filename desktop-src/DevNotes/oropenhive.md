@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads the specified registry hive file into memory and validates the hive.'
-ms.assetid: '5d8498b0-e1bb-4c3d-bf3d-7bfc3002eb1a'
+---
+Description: Loads the specified registry hive file into memory and validates the hive.
+ms.assetid: 5d8498b0-e1bb-4c3d-bf3d-7bfc3002eb1a
 title: OROpenHive function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OROpenHive function

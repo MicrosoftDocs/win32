@@ -1,8 +1,9 @@
 ---
 title: NM\_CLICK (status bar) notification code
 description: Notifies the parent window of a status bar control that the user has clicked the left mouse button within the control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '179ccbe9-f51f-4356-b91a-10d7e3607b09'
-keywords: ["NM_CLICK (status bar) notification code Windows Controls"]
+ms.assetid: 179ccbe9-f51f-4356-b91a-10d7e3607b09
+keywords:
+- NM_CLICK (status bar) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CLICK (status bar) notification code
@@ -33,7 +39,7 @@ NM_CLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMMOUSE**](nmmouse.md) structure that contains additional information about this notification. The **dwItemSpec** member contains the index of the section that was clicked.
+Pointer to an [**NMMOUSE**](/windows/win32/Commctrl/ns-commctrl-tagnmmouse?branch=master) structure that contains additional information about this notification. The **dwItemSpec** member contains the index of the section that was clicked.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Return **TRUE** to indicate that the mouse click was handled and suppress defaul
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents settings for a synthetic 3-D display controller for a virtual machine.'
-ms.assetid: '7162AEED-90CB-41C3-BD44-8B552C00F597'
-title: 'Msvm\_Synthetic3DDisplayControllerSettingData class'
+Description: Represents settings for a synthetic 3-D display controller for a virtual machine.
+ms.assetid: 7162AEED-90CB-41C3-BD44-8B552C00F597
+title: Msvm\_Synthetic3DDisplayControllerSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Synthetic3DDisplayControllerSettingData class
@@ -16,32 +21,32 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Synthetic3DDisplayControllerSettingData : CIM_ResourceAllocationSettingData
 {
-  string  InstanceID;
-  string  Caption = "3D Display Controller Default Settings";
-  string  Description = "Describes the default settings for the 3D video controller resource pool.";
-  string  ElementName;
-  uint16  ResourceType = 24;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft:Hyper-V:Synthetic 3D Display Controller";
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "count";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  InstanceID;
+  string  Caption = "3D Display Controller Default Settings";
+  string  Description = "Describes the default settings for the 3D video controller resource pool.";
+  string  ElementName;
+  uint16  ResourceType = 24;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft:Hyper-V:Synthetic 3D Display Controller";
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "count";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
-  uint8   MaximumScreenResolution;
-  uint8   MaximumMonitors;
-  uint64  VRAMSizeBytes;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
+  uint8   MaximumScreenResolution;
+  uint8   MaximumMonitors;
+  uint64  VRAMSizeBytes;
 };
 ```
 
@@ -261,14 +266,14 @@ The maximum number of monitors available to the 3-D display controller. The mini
 
 | Resolution            | Maximum monitors |
 |-----------------------|------------------|
-| 1024 ×768<br/>  | 4<br/>     |
-| 1280 ×1024<br/> | 4<br/>     |
-| 1600 ×1200<br/> | 3<br/>     |
-| 1920 ×1200<br/> | 2<br/>     |
+| 1024  768<br/>  | 4<br/>     |
+| 1280  1024<br/> | 4<br/>     |
+| 1600  1200<br/> | 3<br/>     |
+| 1920  1200<br/> | 2<br/>     |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -292,7 +297,7 @@ Specifies the maximum screen resolution for the 3-D display controller. This mus
 
 </dt> <dd>
 
-The maximum resolution is 1024 × 768.
+The maximum resolution is 1024   768.
 
 </dd> <dt>
 
@@ -303,7 +308,7 @@ The maximum resolution is 1024 × 768.
 
 </dt> <dd>
 
-The maximum resolution is 1280 × 1024.
+The maximum resolution is 1280   1024.
 
 </dd> <dt>
 
@@ -314,7 +319,7 @@ The maximum resolution is 1280 × 1024.
 
 </dt> <dd>
 
-The maximum resolution is 1600 × 1200.
+The maximum resolution is 1600   1200.
 
 </dd> <dt>
 
@@ -325,7 +330,7 @@ The maximum resolution is 1600 × 1200.
 
 </dt> <dd>
 
-The maximum resolution is 1920 × 1200.
+The maximum resolution is 1920   1200.
 
 </dd> <dt>
 
@@ -336,7 +341,7 @@ The maximum resolution is 1920 × 1200.
 
 </dt> <dd>
 
-The maximum resolution is 2650 × 1600.
+The maximum resolution is 2650   1600.
 
 </dd> <dt>
 
@@ -347,12 +352,12 @@ The maximum resolution is 2650 × 1600.
 
 </dt> <dd>
 
-The maximum resolution is 3840 × 2160.
+The maximum resolution is 3840   2160.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.msvm\_synte
+> Added in Windows 10 and Windows Server 2016.msvm\_synte
 
- 
+ 
 
 </dd> </dl>
 
@@ -474,9 +479,9 @@ Access type: Read/write
 The video memory size for the Virtual Machine.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 <dt>
 
@@ -530,7 +535,7 @@ An integer that defines the weight for each virtual machine processor. After all
 
 0
 
-Range: 0–1000
+Range: 0 1000
 
 </dd> </dl>
 
@@ -540,17 +545,17 @@ Range: 0–1000
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Before August 2006, WS-MetadataExchange defined its own Get metadata exchange method, which was used by Devices Profile for Web Services (DPWS).'
-ms.assetid: '2441beac-ee40-405a-8e98-8b8d65477911'
-title: 'WS-MetadataExchange and WS-Transfer Specification Compliance'
+Description: Before August 2006, WS-MetadataExchange defined its own Get metadata exchange method, which was used by Devices Profile for Web Services (DPWS).
+ms.assetid: 2441beac-ee40-405a-8e98-8b8d65477911
+title: WS-MetadataExchange and WS-Transfer Specification Compliance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WS-MetadataExchange and WS-Transfer Specification Compliance

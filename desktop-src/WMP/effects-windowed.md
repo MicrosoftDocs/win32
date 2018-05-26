@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.windowed
 description: The windowed attribute specifies or retrieves a value indicating whether the visualization will be windowed or windowless, that is, whether the entire rectangle of the control will be visible at all times, or whether it can be clipped.
-ms.assetid: 'bc535274-8bc3-43bb-aab0-11899134d71e'
-keywords: ["EFFECTS.windowed Windows Media Player"]
+ms.assetid: bc535274-8bc3-43bb-aab0-11899134d71e
+keywords:
+- EFFECTS.windowed Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.windowed
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.windowed
@@ -32,7 +38,7 @@ This attribute is a **Boolean** specified at design time and read-only thereafte
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +63,9 @@ If **windowed** is set to true, any image covering the visualization window is i
 [**EFFECTS Element**](effects-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

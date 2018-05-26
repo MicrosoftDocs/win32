@@ -2,13 +2,15 @@
 title: PS\_DAClientDnsConfiguration class
 description: Represents all the name resolution configuration for a DirectAccess deployment.
 audience: developer
-ms.assetid: '601a82cd-1997-422c-ae9e-11f04c075133'
-ms.prod: 'windows-server-dev'
+ms.assetid: 601a82cd-1997-422c-ae9e-11f04c075133
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DAClientDnsConfiguration class", "PS_DAClientDnsConfiguration class, described"]
+keywords:
+- PS_DAClientDnsConfiguration class
+- PS_DAClientDnsConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DAClientDnsConfiguration class
@@ -55,7 +60,7 @@ The **PS\_DAClientDnsConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,16 +69,16 @@ The **PS\_DAClientDnsConfiguration** class has these methods.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

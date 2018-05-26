@@ -1,22 +1,27 @@
 ---
-Description: 'Bitmaps should be saved in a file that uses the established bitmap file format and assigned a name with the three-character .bmp extension.'
-ms.assetid: '44f19d14-4e0e-4512-8c86-6bd34ca4e87b'
+Description: Bitmaps should be saved in a file that uses the established bitmap file format and assigned a name with the three-character .bmp extension.
+ms.assetid: 44f19d14-4e0e-4512-8c86-6bd34ca4e87b
 title: Bitmap Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmap Storage
 
-Bitmaps should be saved in a file that uses the established bitmap file format and assigned a name with the three-character .bmp extension. The established bitmap file format consists of a [**BITMAPFILEHEADER**](bitmapfileheader.md) structure followed by a [**BITMAPINFOHEADER**](bitmapinfoheader.md), [**BITMAPV4HEADER**](bitmapv4header.md), or [**BITMAPV5HEADER**](bitmapv5header.md) structure. An array of [**RGBQUAD**](rgbquad.md) structures (also called a color table) follows the bitmap information header structure. The color table is followed by a second array of indexes into the color table (the actual bitmap data).
+Bitmaps should be saved in a file that uses the established bitmap file format and assigned a name with the three-character .bmp extension. The established bitmap file format consists of a [**BITMAPFILEHEADER**](/windows/win32/Wingdi/ns-wingdi-tagbitmapfileheader?branch=master) structure followed by a [**BITMAPINFOHEADER**](/windows/win32/Wingdi/?branch=master), [**BITMAPV4HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv4header?branch=master), or [**BITMAPV5HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv5header?branch=master) structure. An array of [**RGBQUAD**](/windows/win32/Wingdi/ns-wingdi-tagrgbquad?branch=master) structures (also called a color table) follows the bitmap information header structure. The color table is followed by a second array of indexes into the color table (the actual bitmap data).
 
 The bitmap file format is shown in the following illustration.
 
 ![diagram of the bitmap file format, showing the bitmapfileheader, bitmapinfoheader, rgbquad array, and color-index array](images/csbmp-02.png)
 
-The members of the [**BITMAPFILEHEADER**](bitmapfileheader.md) structure identify the file; specify the size of the file, in bytes; and specify the offset from the first byte in the header to the first byte of bitmap data. The members of the [**BITMAPINFOHEADER**](bitmapinfoheader.md), [**BITMAPV4HEADER**](bitmapv4header.md), or [**BITMAPV5HEADER**](bitmapv5header.md) structure specify the width and height of the bitmap, in pixels; the color format (count of color planes and color bits-per-pixel) of the display device on which the bitmap was created; whether the bitmap data was compressed before storage and the type of compression used; the number of bytes of bitmap data; the resolution of the display device on which the bitmap was created; and the number of colors represented in the data. The [**RGBQUAD**](rgbquad.md) structures specify the RGB intensity values for each of the colors in the device's palette.
+The members of the [**BITMAPFILEHEADER**](/windows/win32/Wingdi/ns-wingdi-tagbitmapfileheader?branch=master) structure identify the file; specify the size of the file, in bytes; and specify the offset from the first byte in the header to the first byte of bitmap data. The members of the [**BITMAPINFOHEADER**](/windows/win32/Wingdi/?branch=master), [**BITMAPV4HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv4header?branch=master), or [**BITMAPV5HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv5header?branch=master) structure specify the width and height of the bitmap, in pixels; the color format (count of color planes and color bits-per-pixel) of the display device on which the bitmap was created; whether the bitmap data was compressed before storage and the type of compression used; the number of bytes of bitmap data; the resolution of the display device on which the bitmap was created; and the number of colors represented in the data. The [**RGBQUAD**](/windows/win32/Wingdi/ns-wingdi-tagrgbquad?branch=master) structures specify the RGB intensity values for each of the colors in the device's palette.
 
-The color-index array associates a color, in the form of an index to an [**RGBQUAD**](rgbquad.md) structure, with each pixel in a bitmap. Thus, the number of bits in the color-index array equals the number of pixels times the number of bits needed to index the **RGBQUAD** structures. For example, an 8x8 black-and-white bitmap has a color-index array of 8 \* 8 \* 1 = 64 bits, because one bit is needed to index two colors. The Redbrick.bmp, mentioned in [About Bitmaps](about-bitmaps.md), is a 32x32 bitmap with 16 colors; its color-index array is 32 \* 32 \* 4 = 4096 bits because four bits index 16 colors.
+The color-index array associates a color, in the form of an index to an [**RGBQUAD**](/windows/win32/Wingdi/ns-wingdi-tagrgbquad?branch=master) structure, with each pixel in a bitmap. Thus, the number of bits in the color-index array equals the number of pixels times the number of bits needed to index the **RGBQUAD** structures. For example, an 8x8 black-and-white bitmap has a color-index array of 8 \* 8 \* 1 = 64 bits, because one bit is needed to index two colors. The Redbrick.bmp, mentioned in [About Bitmaps](about-bitmaps.md), is a 32x32 bitmap with 16 colors; its color-index array is 32 \* 32 \* 4 = 4096 bits because four bits index 16 colors.
 
-To create a color-index array for a top-down bitmap, start at the top line in the bitmap. The index of the [**RGBQUAD**](rgbquad.md) for the color of the left-most pixel is the first *n* bits in the color-index array (where *n* is the number of bits needed to indicate all of the **RGBQUAD** structures). The color of the next pixel to the right is the next *n* bits in the array, and so forth. After you reach the right-most pixel in the line, continue with the left-most pixel in the line below. Continue until you finish with the entire bitmap. If it is a bottom-up bitmap, start at the bottom line of the bitmap instead of the top line, still going from left to right, and continue to the top line of the bitmap.
+To create a color-index array for a top-down bitmap, start at the top line in the bitmap. The index of the [**RGBQUAD**](/windows/win32/Wingdi/ns-wingdi-tagrgbquad?branch=master) for the color of the left-most pixel is the first *n* bits in the color-index array (where *n* is the number of bits needed to indicate all of the **RGBQUAD** structures). The color of the next pixel to the right is the next *n* bits in the array, and so forth. After you reach the right-most pixel in the line, continue with the left-most pixel in the line below. Continue until you finish with the entire bitmap. If it is a bottom-up bitmap, start at the bottom line of the bitmap instead of the top line, still going from left to right, and continue to the top line of the bitmap.
 
 The following hexadecimal output shows the contents of the file Redbrick.bmp.
 
@@ -72,9 +77,9 @@ The following table shows the data bytes associated with the structures in a bit
 
 | Structure                                    | Corresponding bytes |
 |----------------------------------------------|---------------------|
-| [**BITMAPFILEHEADER**](bitmapfileheader.md) | 0x00 0x0D           |
-| [**BITMAPINFOHEADER**](bitmapinfoheader.md) | 0x0E 0x35           |
-| [**RGBQUAD**](rgbquad.md) array             | 0x36 0x75           |
+| [**BITMAPFILEHEADER**](/windows/win32/Wingdi/ns-wingdi-tagbitmapfileheader?branch=master) | 0x00 0x0D           |
+| [**BITMAPINFOHEADER**](/windows/win32/Wingdi/?branch=master) | 0x0E 0x35           |
+| [**RGBQUAD**](/windows/win32/Wingdi/ns-wingdi-tagrgbquad?branch=master) array             | 0x36 0x75           |
 | Color-index array                            | 0x76 0x275          |
 
 

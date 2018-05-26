@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains Events belonging to the InkEdit Control.'
-ms.assetid: '1b9c0587-5854-45b5-b6d3-97d736cf92aa'
+Description: This section contains Events belonging to the InkEdit Control.
+ms.assetid: 1b9c0587-5854-45b5-b6d3-97d736cf92aa
 title: InkEdit Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit Events
@@ -22,17 +27,17 @@ This section contains Events belonging to the InkEdit Control.
 | [**MouseDown**](inkedit-mousedown.md)                 | Occurs when the mouse pointer is over the [InkEdit](inkedit-control-reference.md) control and a mouse button is pressed.<br/>                                                                                         |
 | [**MouseMove**](inkedit-mousemove.md)                 | Occurs when the mouse pointer is moved over the [InkEdit](inkedit-control-reference.md) control.<br/>                                                                                                                 |
 | [**MouseUp**](inkedit-mouseup.md)                     | Occurs when the mouse pointer is over the [InkEdit](inkedit-control-reference.md) control and a mouse button is released.<br/>                                                                                        |
-| [**RecognitionResult**](inkedit-recognitionresult.md) | Occurs when the [InkEdit](inkedit-control-reference.md) control gets results manually from a call to the [**Recognize**](inkedit-recognize.md) method or automatically after the recognition timeout has fired.<br/> |
+| [**RecognitionResult**](inkedit-recognitionresult.md) | Occurs when the [InkEdit](inkedit-control-reference.md) control gets results manually from a call to the [**Recognize**](/windows/win32/inked/?branch=master) method or automatically after the recognition timeout has fired.<br/> |
 | [**SelChange**](inkedit-selchange.md)                 | Occurs when the selection of ink within the [InkEdit](inkedit-control-reference.md) control changes.<br/>                                                                                                             |
-| [**Stroke**](inkedit-stroke.md)                       | Occurs when the user draws a new [**IInkStrokeDisp**](iinkstrokedisp.md) object on any [**IInkTablet**](iinktablet.md) object.<br/>                                                                                  |
+| [**Stroke**](inkedit-stroke.md)                       | Occurs when the user draws a new [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object on any [**IInkTablet**](/windows/win32/msinkaut/nn-msinkaut-iinktablet?branch=master) object.<br/>                                                                                  |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

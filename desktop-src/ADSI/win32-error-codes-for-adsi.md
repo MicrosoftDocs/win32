@@ -4,11 +4,15 @@ description: Standard Win32 error codes are also used to return ADSI error messa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5b7b85c9-ccca-4ea3-8b37-54f6b30a509f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5b7b85c9-ccca-4ea3-8b37-54f6b30a509f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Win32 Error Codes for ADSI"]
+keywords:
+- Win32 Error Codes for ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32 Error Codes for ADSI

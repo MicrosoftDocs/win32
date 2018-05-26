@@ -1,7 +1,12 @@
 ---
-Description: 'When you set an authentication level for an application, you determine what degree of authentication is performed when clients call into the application.'
-ms.assetid: 'a59935de-6b8f-4c0a-8479-e30bc0509698'
+Description: When you set an authentication level for an application, you determine what degree of authentication is performed when clients call into the application.
+ms.assetid: a59935de-6b8f-4c0a-8479-e30bc0509698
 title: Setting an Authentication Level for a Server Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting an Authentication Level for a Server Application

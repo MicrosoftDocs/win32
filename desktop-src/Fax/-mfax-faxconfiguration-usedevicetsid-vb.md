@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates whether the transmitting station identifier (TSID) is used.'
-ms.assetid: 'e7915d93-7d4c-4d5c-ab2f-5b63faf77043'
-title: 'FaxConfiguration.UseDeviceTSID property'
+---
+Description: Sets or retrieves a value that indicates whether the transmitting station identifier (TSID) is used.
+ms.assetid: e7915d93-7d4c-4d5c-ab2f-5b63faf77043
+title: FaxConfiguration.UseDeviceTSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.UseDeviceTSID property

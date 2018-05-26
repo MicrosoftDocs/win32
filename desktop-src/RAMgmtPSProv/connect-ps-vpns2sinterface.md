@@ -2,13 +2,16 @@
 title: Connect method of the PS\_VpnS2SInterface class
 description: Connects an S2S Interface that is currently not connected.
 audience: developer
-ms.assetid: '2ecd16e8-555b-4bc3-b1be-5db3db17b8a1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2ecd16e8-555b-4bc3-b1be-5db3db17b8a1
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Connect method", "Connect method, PS_VpnS2SInterface class", "PS_VpnS2SInterface class, Connect method"]
+keywords:
+- Connect method
+- Connect method, PS_VpnS2SInterface class
+- PS_VpnS2SInterface class, Connect method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connect method of the PS\_VpnS2SInterface class
@@ -28,9 +34,9 @@ Connects an S2S Interface that is currently not connected.
 
 ```mof
 uint32 Connect(
-  [in]  string          Name,
-  [in]  boolean         PassThru,
-  [out] VpnS2SInterface cmdletOutput
+  [in]  string          Name,
+  [in]  boolean         PassThru,
+  [out] VpnS2SInterface cmdletOutput
 );
 ```
 
@@ -68,7 +74,7 @@ A [**VpnS2SInterface**](ps-vpns2sinterface.md) that contains the cmdlet output.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ A [**VpnS2SInterface**](ps-vpns2sinterface.md) that contains the cmdlet output.
 [**PS\_VpnS2SInterface**](ps-vpns2sinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Direct Manipulation APIs let you create great pan, zoom, and drag user experiences. To do this, it processes touch input on a region or object, generates output transforms, and applies the transforms to UI elements.'
-ms.assetid: '26358bc5-71e9-40f0-9243-9bddd961a0e5'
+Description: The Direct Manipulation APIs let you create great pan, zoom, and drag user experiences. To do this, it processes touch input on a region or object, generates output transforms, and applies the transforms to UI elements.
+ms.assetid: 26358bc5-71e9-40f0-9243-9bddd961a0e5
 title: Direct Manipulation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct Manipulation
@@ -42,9 +47,9 @@ This figure shows a basic Direct Manipulation implementation before and after pa
 
 During initialization of Direct Manipulation a **DCompDirectManipulationCompositor** object is instantiated and is associated with Direct Manipulation. This object is a wrapper around [DirectComposition](directcomp.directcomposition_portal), which is the system compositor. The object is responsible for applying the output transforms and driving visual updates.
 
-A contact represents a touch point identified by the **pointerId** provided in the [**WM\_POINTERDOWN**](inputmsg.wm_pointerdown) message. When a **WM\_POINTERDOWN** message is received, the application calls [**SetContact**](idirectmanipulationviewport-setcontact.md). The application notifies Direct Manipulationabout the contacts that should be handled and the viewport(s) that should react to those contacts. Keyboard and mouse input have special **pointerId** values so they can be handled appropriately by Direct Manipulation.
+A contact represents a touch point identified by the **pointerId** provided in the [**WM\_POINTERDOWN**](inputmsg.wm_pointerdown) message. When a **WM\_POINTERDOWN** message is received, the application calls [**SetContact**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact?branch=master). The application notifies Direct Manipulationabout the contacts that should be handled and the viewport(s) that should react to those contacts. Keyboard and mouse input have special **pointerId** values so they can be handled appropriately by Direct Manipulation.
 
-In our basic case above, when [**SetContact**](idirectmanipulationviewport-setcontact.md) is called a few things happen:
+In our basic case above, when [**SetContact**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact?branch=master) is called a few things happen:
 
 -   When the user performs a pan, a [**WM\_POINTERCAPTURECHANGED**](inputmsg.wm_pointercapturechanged) message is sent to the application to notify that the contact has been consumed by Direct Manipulation.
 -   When the user moves the moves, the viewport fires update events which are used by the [DirectComposition](directcomp.directcomposition_portal) wrapper to drive visual updates to the screen. To a user panning in a viewport, the content will appear to move smoothly under the contact.
@@ -52,11 +57,11 @@ In our basic case above, when [**SetContact**](idirectmanipulationviewport-setco
 
 ## Processing keyboard and mouse input
 
-Direct Manipulation allows keyboard and mouse messages to be forwarded manually from the application UI thread via the [**ProcessInput**](idirectmanipulationmanager-processinput.md) API such that they can be handled appropriately by Direct Manipulation.
+Direct Manipulation allows keyboard and mouse messages to be forwarded manually from the application UI thread via the [**ProcessInput**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-processinput?branch=master) API such that they can be handled appropriately by Direct Manipulation.
 
 ## DirectManipulation and the HWND
 
-Direct Manipulation is associated with a Win32 HWND in order to receive and process pointer input messages for that window. As Direct Manipulation computes output values, it makes asynchronous callbacks to the Direct Manipulation[Component Object Model (COM)](com.component_object_model__com__portal) objects that are implemented in the application. These callbacks inform the application about the transform that was applied to the objects. Direct Manipulation is activated on the specified HWND by calling [**Activate**](idirectmanipulationmanager-activate.md).
+Direct Manipulation is associated with a Win32 HWND in order to receive and process pointer input messages for that window. As Direct Manipulation computes output values, it makes asynchronous callbacks to the Direct Manipulation[Component Object Model (COM)](com.component_object_model__com__portal) objects that are implemented in the application. These callbacks inform the application about the transform that was applied to the objects. Direct Manipulation is activated on the specified HWND by calling [**Activate**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationmanager-activate?branch=master).
 
 ## Supporting documentation
 

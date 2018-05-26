@@ -1,13 +1,25 @@
 ---
 title: Writing ASF Files
 description: Writing ASF Files
-ms.assetid: 'd722b676-bf65-4f91-8118-bb12d3bbb6cb'
-keywords: ["Windows Media Format SDK,writing ASF files", "Windows Media Format SDK,creating ASF files", "Windows Media Format SDK,Advanced Systems Format (ASF)", "Advanced Systems Format (ASF),writing files", "ASF (Advanced Systems Format),writing files", "Advanced Systems Format (ASF),creating files", "ASF (Advanced Systems Format),creating files"]
+ms.assetid: d722b676-bf65-4f91-8118-bb12d3bbb6cb
+keywords:
+- Windows Media Format SDK,writing ASF files
+- Windows Media Format SDK,creating ASF files
+- Windows Media Format SDK,Advanced Systems Format (ASF)
+- Advanced Systems Format (ASF),writing files
+- ASF (Advanced Systems Format),writing files
+- Advanced Systems Format (ASF),creating files
+- ASF (Advanced Systems Format),creating files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing ASF Files
 
-You can use the writer object of the Windows Media Format SDK to create ASF files from digital media data. To create an instance of the writer object, call the [**WMCreateWriter**](wmcreatewriter.md) function. The writer object coordinates the functionality of a number of components, including codecs, which are external to the Windows Media Format SDK.
+You can use the writer object of the Windows Media Format SDK to create ASF files from digital media data. To create an instance of the writer object, call the [**WMCreateWriter**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreatewriter?branch=master) function. The writer object coordinates the functionality of a number of components, including codecs, which are external to the Windows Media Format SDK.
 
 The basic functionality of the writer object can be broken down into the following steps. In these steps, "the application" refers to the program you write using the Windows Media Format SDK.
 

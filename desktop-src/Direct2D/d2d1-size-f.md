@@ -1,8 +1,14 @@
 ---
 title: D2D1\_SIZE\_F
 description: Stores an ordered pair of floats, typically the width and height of a rectangle.
-ms.assetid: 'c2fd41fb-72b3-418b-ad87-65549b04657d'
-keywords: ["D2D1_SIZE_F"]
+ms.assetid: c2fd41fb-72b3-418b-ad87-65549b04657d
+keywords:
+- D2D1_SIZE_F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D1\_SIZE\_F
@@ -28,9 +34,9 @@ Like points, sizes are another important graphics concept. In Direct2D, sizes ar
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2DBaseTypes.h (include D2d1.h)</dt> </dl>                               |
 
 
@@ -48,9 +54,9 @@ Like points, sizes are another important graphics concept. In Direct2D, sizes ar
 [**D2D1\_POINT\_2F**](d2d1-point-2f.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

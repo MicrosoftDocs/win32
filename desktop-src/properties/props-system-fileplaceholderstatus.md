@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the placeholder file''s status flags.'
-ms.assetid: 'ccd34ed1-a1de-48db-acfc-8044e2536918'
-title: 'System.FilePlaceholderStatus'
+Description: Contains the placeholder files status flags.
+ms.assetid: ccd34ed1-a1de-48db-acfc-8044e2536918
+title: System.FilePlaceholderStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FilePlaceholderStatus

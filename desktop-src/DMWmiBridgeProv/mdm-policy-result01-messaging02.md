@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Result01\_Messaging02 class
 description: The MDM\_Policy\_Result01\_Messaging02 class represents the text message back up and restore and Messaging Everywhere.
-ms.assetid: 'cdc92999-3a2b-4653-b64f-79e19abe5559'
-keywords: ["MDM_Policy_Result01_Messaging02 class", "MDM_Policy_Result01_Messaging02 class, described"]
+ms.assetid: cdc92999-3a2b-4653-b64f-79e19abe5559
+keywords:
+- MDM_Policy_Result01_Messaging02 class
+- MDM_Policy_Result01_Messaging02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Result01\_Messaging02 class
@@ -92,7 +99,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -100,9 +107,9 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ attempts to prevent situations in which these error paths have to be executed on a server.'
-ms.assetid: '0de125a2-2e91-49b9-a903-6c2e173e22a2'
-title: 'COM+ Low-Memory Activation Gates Concepts'
+Description: COM+ attempts to prevent situations in which these error paths have to be executed on a server.
+ms.assetid: 0de125a2-2e91-49b9-a903-6c2e173e22a2
+title: COM+ Low-Memory Activation Gates Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Low-Memory Activation Gates Concepts

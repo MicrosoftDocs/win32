@@ -1,7 +1,12 @@
 ---
-Description: 'The ResetStreamingTimes method resets all times that control the streaming.'
-ms.assetid: '8a596760-a45a-4486-bb91-aab10bbf927f'
-title: 'CBaseVideoRenderer.ResetStreamingTimes method'
+Description: The ResetStreamingTimes method resets all times that control the streaming.
+ms.assetid: 8a596760-a45a-4486-bb91-aab10bbf927f
+title: CBaseVideoRenderer.ResetStreamingTimes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.ResetStreamingTimes method
@@ -47,9 +52,9 @@ The times are set so that frames will not be initially dropped and so that the f
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

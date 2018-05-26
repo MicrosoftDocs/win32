@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_OffsetX method specifies the horizontal offset of the wipe origin.'
-ms.assetid: '7bc721fd-7e72-49d4-90ae-a193df46326c'
-title: 'IDxtJpeg::put\_OffsetX method'
+---
+Description: The put\_OffsetX method specifies the horizontal offset of the wipe origin.
+ms.assetid: 7bc721fd-7e72-49d4-90ae-a193df46326c
+title: IDxtJpegput\_OffsetX method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_OffsetX method

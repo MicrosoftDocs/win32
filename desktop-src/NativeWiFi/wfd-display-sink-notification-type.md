@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the type of the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.'
-ms.assetid: 'C0AFF80E-A4D2-4FF1-B111-D628AF8755A8'
-title: 'WFD\_DISPLAY\_SINK\_NOTIFICATION\_TYPE enumeration'
+---
+Description: Defines the type of the notification passed to the WFD\_DISPLAY\_SINK\_NOTIFICATION\_CALLBACK function.
+ms.assetid: C0AFF80E-A4D2-4FF1-B111-D628AF8755A8
+title: WFD\_DISPLAY\_SINK\_NOTIFICATION\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFD\_DISPLAY\_SINK\_NOTIFICATION\_TYPE enumeration

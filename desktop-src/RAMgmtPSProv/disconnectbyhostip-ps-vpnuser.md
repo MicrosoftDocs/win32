@@ -2,13 +2,16 @@
 title: DisconnectByHostIP method of the PS\_VpnUser class
 description: This cmdlet disconnects a VPN connection originated by a specific user or originating from a specific client machine.
 audience: developer
-ms.assetid: '376927b2-b234-4ebc-8760-d7faf5e8eb6c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 376927b2-b234-4ebc-8760-d7faf5e8eb6c
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DisconnectByHostIP method", "DisconnectByHostIP method, PS_VpnUser class", "PS_VpnUser class, DisconnectByHostIP method"]
+keywords:
+- DisconnectByHostIP method
+- DisconnectByHostIP method, PS_VpnUser class
+- PS_VpnUser class, DisconnectByHostIP method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisconnectByHostIP method of the PS\_VpnUser class
@@ -28,10 +34,10 @@ This cmdlet disconnects a VPN connection originated by a specific user or origin
 
 ```mof
 uint32 DisconnectByHostIP(
-  [in]  string  ComputerName,
-  [in]  boolean PassThru,
-  [in]  string  HostIPAddress[],
-  [out] string  cmdletOutput[]
+  [in]  string  ComputerName,
+  [in]  boolean PassThru,
+  [in]  string  HostIPAddress[],
+  [out] string  cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ List of tunnel IP address of the VPN connection. These can be IPv4 or IPv6 addre
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ List of tunnel IP address of the VPN connection. These can be IPv4 or IPv6 addre
 [**PS\_VpnUser**](ps-vpnuser.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

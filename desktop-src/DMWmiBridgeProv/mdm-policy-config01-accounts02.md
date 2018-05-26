@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_Accounts02 class
 description: The MDM\_Policy\_Config01\_Accounts02 class represents policies related to accounts.
-ms.assetid: '628a0745-0ac5-4038-8ea8-04344098682d'
-keywords: ["MDM_Policy_Config01_Accounts02 class", "MDM_Policy_Config01_Accounts02 class, described"]
+ms.assetid: 628a0745-0ac5-4038-8ea8-04344098682d
+keywords:
+- MDM_Policy_Config01_Accounts02 class
+- MDM_Policy_Config01_Accounts02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_Accounts02 class
@@ -132,7 +139,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -147,9 +154,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,22 @@
 ---
 title: Working with Protocol Data Units
 description: The Simple Network Management Protocol (SNMP) sends operation requests and responses as SNMP messages.
-ms.assetid: '0928981c-4d60-4583-9eef-8127e05b1ba8'
-keywords: ["Working with Protocol Data Units SNMP", "Protocol Data Units SNMP , working with"]
+ms.assetid: 0928981c-4d60-4583-9eef-8127e05b1ba8
+keywords:
+- Working with Protocol Data Units SNMP
+- Protocol Data Units SNMP , working with
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Protocol Data Units
 
 The Simple Network Management Protocol (SNMP) sends operation requests and responses as SNMP messages. An SNMP message is an SNMP protocol data unit (PDU) plus additional message header elements defined by the relevant RFC. A PDU includes a variable binding list.
 
-The structure of a PDU is restricted to the Microsoft WinSNMP implementation. A WinSNMP application can access a PDU with a handle of the type **HSNMP\_PDU**. The WinSNMP application must create a PDU before it calls the [**SnmpSendMsg**](snmpsendmsg.md) function or the [**SnmpEncodeMsg**](snmpencodemsg.md) function.
+The structure of a PDU is restricted to the Microsoft WinSNMP implementation. A WinSNMP application can access a PDU with a handle of the type **HSNMP\_PDU**. The WinSNMP application must create a PDU before it calls the [**SnmpSendMsg**](/windows/win32/Winsnmp/nf-winsnmp-snmpsendmsg?branch=master) function or the [**SnmpEncodeMsg**](/windows/win32/Winsnmp/nf-winsnmp-snmpencodemsg?branch=master) function.
 
 The application can extract and update the data elements of a PDU, and release resources allocated for PDUs. To perform these operations, the application uses the WinSNMP [PDU functions](winsnmp-functions.md#winsnmp-pdu-functions). The following table lists topics that discuss working with PDUs in the WinSNMP programming environment.
 

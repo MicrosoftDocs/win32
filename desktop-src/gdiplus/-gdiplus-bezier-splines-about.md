@@ -1,7 +1,12 @@
 ---
-Description: 'A B&\#233;zier spline is a curve specified by four points: two end points (p1 and p2) and two control points (c1 and c2).'
-ms.assetid: '3ee279ea-20cc-4089-b1a5-13bf1c7c4942'
+Description: A B&\#233;zier spline is a curve specified by four points two end points (p1 and p2) and two control points (c1 and c2).
+ms.assetid: 3ee279ea-20cc-4089-b1a5-13bf1c7c4942
 title: Bezier Splines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bezier Splines
@@ -12,7 +17,7 @@ A Bézier spline is a curve specified by four points: two end points (p1 and p2)
 
 Note that the curve starts at p1 and moves toward the control point c1. The tangent line to the curve at p1 is the line drawn from p1 to c1. Also note that the tangent line at the endpoint p2 is the line drawn from c2 to p2.
 
-To draw a Bézier spline, you need a [**Graphics**](-gdiplus-class-graphics-class.md) object and a [**Pen**](-gdiplus-class-pen-class.md) object. The **Graphics** object provides the [DrawBezier](-gdiplus-class-graphics-drawbezier-methods.md) method, and the **Pen** object stores attributes of the curve, such as line width and color. The address of the **Pen** object is passed as one of the arguments to the DrawBezier method. The remaining arguments passed to the DrawBezier method are the endpoints and the control points. The following example draws a Bézier spline with starting point (0, 0), control points (40, 20) and (80, 150), and ending point (100, 10).
+To draw a Bézier spline, you need a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object. The **Graphics** object provides the [DrawBezier](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawbezier(in const pen,in const point &,in const point &,in const point &,in const point &)?branch=master) method, and the **Pen** object stores attributes of the curve, such as line width and color. The address of the **Pen** object is passed as one of the arguments to the DrawBezier method. The remaining arguments passed to the DrawBezier method are the endpoints and the control points. The following example draws a Bézier spline with starting point (0, 0), control points (40, 20) and (80, 150), and ending point (100, 10).
 
 
 ```

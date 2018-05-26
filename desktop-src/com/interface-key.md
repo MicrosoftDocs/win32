@@ -1,8 +1,14 @@
 ---
 title: Interface Key
 description: Registers new interfaces by associating an interface name with an interface ID (IID). There must be one IID subkey for each new interface.
-ms.assetid: '2b2b7506-ac42-4bc4-bad5-17be57d6b4f5'
-keywords: ["Interface registry key COM"]
+ms.assetid: 2b2b7506-ac42-4bc4-bad5-17be57d6b4f5
+keywords:
+- Interface registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Key

@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the interfaces and classes used in ink analysis. The ink analysis classes and interfaces are not Automation-compliant.'
-ms.assetid: '712908e1-2d1d-4e42-8c80-71354b03d318'
+Description: This section contains information about the interfaces and classes used in ink analysis. The ink analysis classes and interfaces are not Automation-compliant.
+ms.assetid: 712908e1-2d1d-4e42-8c80-71354b03d318
 title: Ink Analysis Classes and Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis Classes and Interfaces
@@ -19,7 +24,7 @@ This section contains information about the interfaces and classes used in ink a
 
 
 
- 
+ 
 
 ## Interfaces
 
@@ -44,7 +49,7 @@ This section contains information about the interfaces and classes used in ink a
 
 
 
- 
+ 
 
 ## Return Values
 
@@ -67,7 +72,7 @@ Methods in the Tablet PC COM Library return values of **HRESULT**. Unless otherw
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -76,9 +81,9 @@ Methods in the Tablet PC COM Library return values of **HRESULT**. Unless otherw
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

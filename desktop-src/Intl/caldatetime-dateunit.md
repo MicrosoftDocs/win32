@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deprecated. Specifies the date units for adjusting the CALDATETIME structure.'
-ms.assetid: '20d0cd7a-6e6b-4c82-9cfa-e4f4315d6362'
-title: 'CALDATETIME\_DATEUNIT enumeration'
+---
+Description: Deprecated. Specifies the date units for adjusting the CALDATETIME structure.
+ms.assetid: 20d0cd7a-6e6b-4c82-9cfa-e4f4315d6362
+title: CALDATETIME\_DATEUNIT enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CALDATETIME\_DATEUNIT enumeration

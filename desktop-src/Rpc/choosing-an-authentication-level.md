@@ -1,7 +1,12 @@
 ---
 title: Choosing an Authentication Level
 description: When choosing an authentication level, use the following guideline.
-ms.assetid: '6efb4162-5884-4bcb-86da-4809f89f0c26'
+ms.assetid: 6efb4162-5884-4bcb-86da-4809f89f0c26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing an Authentication Level

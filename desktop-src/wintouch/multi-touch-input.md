@@ -1,8 +1,14 @@
 ---
 title: Windows Touch Input
 description: This section contains programming references for Windows Touch input.
-ms.assetid: '43f7e400-486d-4041-b78f-44655f6a6e9f'
-keywords: ["Windows Touch,input"]
+ms.assetid: 43f7e400-486d-4041-b78f-44655f6a6e9f
+keywords:
+- Windows Touch,input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Input

@@ -1,7 +1,12 @@
 ---
-Description: 'ICE09 validates that the permanent bit is set for every component marked for installation into the SystemFolder.'
-ms.assetid: 'b4e11d75-4214-49de-ac12-6f360771ad73'
+Description: ICE09 validates that the permanent bit is set for every component marked for installation into the SystemFolder.
+ms.assetid: b4e11d75-4214-49de-ac12-6f360771ad73
 title: ICE09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE09

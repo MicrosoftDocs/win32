@@ -1,12 +1,17 @@
-﻿---
-Description: 'The slope of the bottom of the BoundingFrustum.'
-ms.assetid: 'bb5b0e27-efe2-4f78-ab7d-752fcf9ff2e8'
-title: 'BoundingFrustum.BottomSlope'
+---
+Description: The slope of the bottom of the BoundingFrustum.
+ms.assetid: bb5b0e27-efe2-4f78-ab7d-752fcf9ff2e8
+title: BoundingFrustum.BottomSlope
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingFrustum.BottomSlope
 
-The slope of the bottom of the [**BoundingFrustum**](boundingfrustum.md).
+The slope of the bottom of the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](boundingfrustum.md)
+[**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master)
 </dt> </dl>
 
  

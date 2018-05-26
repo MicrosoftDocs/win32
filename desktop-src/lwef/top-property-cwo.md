@@ -1,7 +1,12 @@
 ---
 title: Top Property
 description: Top Property
-ms.assetid: '3840b036-8f8d-4180-a8d6-6c521fe3d728'
+ms.assetid: 3840b036-8f8d-4180-a8d6-6c521fe3d728
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Top Property

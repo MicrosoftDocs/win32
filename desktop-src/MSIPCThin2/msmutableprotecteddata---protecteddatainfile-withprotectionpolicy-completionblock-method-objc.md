@@ -1,20 +1,24 @@
 ---
 title: MSMutableProtectedData protectedDataInFile withProtectionPolicy completionBlock method
-description: Protects the receiver's data and creates a new MSMutableProtectedData object with the protected data and its metadata.
+description: Protects the receivers data and creates a new MSMutableProtectedData object with the protected data and its metadata.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '82039d03-4dfb-4b90-a862-2c2f7996cdb1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 82039d03-4dfb-4b90-a862-2c2f7996cdb1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableProtectedData protectedDataInFile withProtectionPolicy completionBlock method"]
+keywords:
+- MSMutableProtectedData protectedDataInFile withProtectionPolicy completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSMutableProtectedData protectedDataInFile withProtectionPolicy completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableProtectedData protectedDataInFile:withProtectionPolicy:completionBlock method
@@ -40,11 +44,11 @@ Protects the receiver's data and creates a new [**MSMutableProtectedData**](msmu
 | *path*<br/>                  | **NSString** \*<br/>                                                                                                  | Required. The path to the protected file.<br/>                                                                                                                                                                                                                       |
 | *originalFileExtension*<br/> | **NSString** \*<br/>                                                                                                  | Required. <br/>                                                                                                                                                                                                                                                      |
 | *userPolicy*<br/>            | [**MSUserPolicy**](msuserpolicy-interface-objc.md) \*<br/>                                                           | Required. The user policy to be used for protecting the receiver's data.<br/>                                                                                                                                                                                        |
-| *completionBlock*<br/>       | [****void(^)(**MSMutableProtectedData**](msmutableprotecteddata-interface-objc.md) **\*data, NSError \*error)**<br/> | Required. Called with the following parameters when the method is completed:<br/> *data* “ The protected data file object.<br/> *error* “ If there is an error creating the data object, contains an **NSError** object that describes the problem.<br/> |
+| *completionBlock*<br/>       | [****void(^)(**MSMutableProtectedData**](msmutableprotecteddata-interface-objc.md) **\*data, NSError \*error)**<br/> | Required. Called with the following parameters when the method is completed:<br/> *data*   The protected data file object.<br/> *error*   If there is an error creating the data object, contains an **NSError** object that describes the problem.<br/> |
 
 
 
- 
+ 
 
 ## Returns
 
@@ -62,7 +66,7 @@ Nothing.
 
 
 
- 
+ 
 
 ## See also
 
@@ -71,9 +75,9 @@ Nothing.
 [**MSMutableProtectedData**](msmutableprotecteddata-interface-objc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

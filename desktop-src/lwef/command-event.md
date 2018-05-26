@@ -1,7 +1,12 @@
 ---
 title: Command Event
 description: Command Event
-ms.assetid: '3e180286-dfa0-4b34-90ee-3267ed6f48af'
+ms.assetid: 3e180286-dfa0-4b34-90ee-3267ed6f48af
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Event
@@ -30,7 +35,7 @@ Occurs when the user chooses a (client's) command.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -47,11 +52,11 @@ If voice input was not the source for the command, for example, if the user sele
 > [!Note]  
 > Not all speech recognition engines may return all the values for all the parameters of this event. Check with your engine vendor to determine whether the engine supports the Microsoft Speech API interface for returning alternatives and confidence scores.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

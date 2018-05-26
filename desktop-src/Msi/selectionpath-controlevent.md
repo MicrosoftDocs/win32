@@ -1,7 +1,12 @@
 ---
-Description: 'The SelectionTree control uses the SelectionPath event to publish the path for the highlighted item.'
-ms.assetid: '755e5bf2-42c4-4213-9bb7-4f15ad22041f'
+Description: The SelectionTree control uses the SelectionPath event to publish the path for the highlighted item.
+ms.assetid: 755e5bf2-42c4-4213-9bb7-4f15ad22041f
 title: SelectionPath ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectionPath ControlEvent

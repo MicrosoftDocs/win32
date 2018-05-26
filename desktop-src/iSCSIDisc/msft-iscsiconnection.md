@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a connection from an iSCSI initiator to an iSCSI target.'
-ms.assetid: 'BBCE76AE-08B5-44F4-A866-C6FBC86BC0A4'
-title: 'MSFT\_iSCSIConnection class'
+Description: Represents a connection from an iSCSI initiator to an iSCSI target.
+ms.assetid: BBCE76AE-08B5-44F4-A866-C6FBC86BC0A4
+title: MSFT\_iSCSIConnection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSIConnection class
@@ -109,16 +114,16 @@ The TCP port number for the target. The default value is 3260.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Iscsiwmiv2.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

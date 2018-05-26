@@ -1,8 +1,10 @@
 ---
 title: MSFT\_FileShare class
-description: Models the Windows operating system's concept of a file share.
-ms.assetid: '064B4DA4-5879-4758-A7D1-683DB77F909D'
-keywords: ["MSFT_FileShare class Windows Storage Management API", "MSFT_FileShare class Windows Storage Management API , described"]
+description: Models the Windows operating systems concept of a file share.
+ms.assetid: 064B4DA4-5879-4758-A7D1-683DB77F909D
+keywords:
+- MSFT_FileShare class Windows Storage Management API
+- MSFT_FileShare class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_FileShare class
@@ -33,15 +40,15 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class MSFT_FileShare : MSFT_StorageObject
 {
-  String  Name;
-  String  Description;
-  String  VolumeRelativePath;
+  String  Name;
+  String  Description;
+  String  VolumeRelativePath;
   Boolean ContinuouslyAvailable;
   Boolean EncryptData;
-  UInt16  FileSharingProtocol;
-  UInt16  ShareState;
-  UInt16  HealthStatus;
-  UInt16  OperationalStatus[];
+  UInt16  FileSharingProtocol;
+  UInt16  ShareState;
+  UInt16  HealthStatus;
+  UInt16  OperationalStatus[];
 };
 ```
 
@@ -72,7 +79,7 @@ The **MSFT\_FileShare** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -313,8 +320,8 @@ The volume relative path to the directory that is being shared.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -327,9 +334,9 @@ The volume relative path to the directory that is being shared.
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

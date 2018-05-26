@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the basic RGB color object.'
-ms.assetid: 'f00638d3-93c1-4ec6-b4f7-d3849f1a9000'
+Description: Defines the basic RGB color object.
+ms.assetid: f00638d3-93c1-4ec6-b4f7-d3849f1a9000
 title: ColorRGB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ColorRGB

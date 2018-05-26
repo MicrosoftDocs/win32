@@ -1,7 +1,12 @@
 ---
 title: Task Dialog
 description: This section contains information about the programming elements used with a task dialog. A task dialog is similar to, while much more flexible than, a basic message box.
-ms.assetid: 'CCEFF52F-D501-4145-9799-0A9C529017E1'
+ms.assetid: CCEFF52F-D501-4145-9799-0A9C529017E1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Dialog
@@ -11,7 +16,7 @@ This section contains information about the programming elements used with a tas
 > [!Note]  
 > Applications written in managed code can access task dialogs by using a source code library provided by Microsoft. For more information, including downloading instructions, see the [Windows API Code Pack for Microsoft .NET Framework](http://go.microsoft.com/fwlink/p/?linkid=180615) on the MSDN Code Gallery.
 
- 
+ 
 
 ### Overviews
 
@@ -23,7 +28,7 @@ This section contains information about the programming elements used with a tas
 
 
 
- 
+ 
 
 ### Functions
 
@@ -31,13 +36,13 @@ This section contains information about the programming elements used with a tas
 
 | Topic                                                  | Contents                                                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TaskDialog**](taskdialog.md)                       | Creates, displays, and operates a task dialog. The task dialog contains application-defined message text and title, icons, and any combination of predefined push buttons. This function does not support the registration of a callback function to receive notifications.<br/>                                                                                                                |
-| [*TaskDialogCallbackProc*](taskdialogcallbackproc.md) | An application-defined function used with the [**TaskDialogIndirect**](taskdialogindirect.md) function. It receives messages from the task dialog when various events occur.<br/> The **PFTASKDIALOGCALLBACK** type defines a pointer to this callback function. [*TaskDialogCallbackProc*](taskdialogcallbackproc.md) is a placeholder for the application defined function name.<br/> |
-| [**TaskDialogIndirect**](taskdialogindirect.md)       | Creates, displays, and operates a task dialog. The task dialog contains application-defined icons, messages, title, verification check box, command links, push buttons, and radio buttons. This function can register a callback function to receive notification messages.<br/>                                                                                                               |
+| [**TaskDialog**](/windows/win32/Commctrl/nf-commctrl-taskdialog?branch=master)                       | Creates, displays, and operates a task dialog. The task dialog contains application-defined message text and title, icons, and any combination of predefined push buttons. This function does not support the registration of a callback function to receive notifications.<br/>                                                                                                                |
+| [*TaskDialogCallbackProc*](/windows/win32/Commctrl/nc-commctrl-pftaskdialogcallback?branch=master) | An application-defined function used with the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) function. It receives messages from the task dialog when various events occur.<br/> The **PFTASKDIALOGCALLBACK** type defines a pointer to this callback function. [*TaskDialogCallbackProc*](/windows/win32/Commctrl/nc-commctrl-pftaskdialogcallback?branch=master) is a placeholder for the application defined function name.<br/> |
+| [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master)       | Creates, displays, and operates a task dialog. The task dialog contains application-defined icons, messages, title, verification check box, command links, push buttons, and radio buttons. This function can register a callback function to receive notification messages.<br/>                                                                                                               |
 
 
 
- 
+ 
 
 ### Messages
 
@@ -63,7 +68,7 @@ This section contains information about the programming elements used with a tas
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -71,21 +76,21 @@ This section contains information about the programming elements used with a tas
 
 | Topic                                                           | Contents                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [TDN\_BUTTON\_CLICKED](tdn-button-clicked.md)                  | Sent by a task dialog when the user selects a button or command link in the task dialog. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.<br/>                                                                                                                                                                                                   |
-| [TDN\_CREATED](tdn-created.md)                                 | Sent by a task dialog after the task dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method. <br/>                                                                                                                                                                                                  |
-| [TDN\_DESTROYED](tdn-destroyed.md)                             | Sent by a task dialog when it is destroyed and its window handle is no longer valid. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.<br/>                                                                                                                                                                                                       |
-| [TDN\_DIALOG\_CONSTRUCTED](tdn-dialog-constructed.md)          | Sent by a task dialog after the task dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method. <br/>                                                                                                                                                                                                  |
-| [TDN\_EXPANDO\_BUTTON\_CLICKED](tdn-expando-button-clicked.md) | Sent by a task dialog when the user clicks on the task dialog's expando button. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.<br/>                                                                                                                                                                                                            |
-| [TDN\_HELP](tdn-help.md)                                       | Sent by a task dialog when the user presses F1 on the keyboard while the task dialog has focus. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.<br/>                                                                                                                                                                                            |
-| [TDN\_HYPERLINK\_CLICKED](tdn-hyperlink-clicked.md)            | Sent by a task dialog when the user clicks a hyperlink in the task dialog content. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method. <br/>                                                                                                                                                                                                        |
-| [TDN\_NAVIGATED](tdn-navigated.md)                             | Sent by a task dialog when a navigation has occurred. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method. <br/>                                                                                                                                                                                                                                     |
-| [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md)     | Sent by a task dialog when the user selects a button or command link in the task dialog. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method. <br/>                                                                                                                                                                                                  |
-| [TDN\_TIMER](tdn-timer.md)                                     | Sent by a task dialog approximately every 200 milliseconds. This notification code is sent when the TDF\_CALLBACK\_TIMER flag has been set in the **dwFlags** member of the [**TASKDIALOGCONFIG**](taskdialogconfig.md) structure that was passed to the [**TaskDialogIndirect**](taskdialogindirect.md) function. This notification code is received only through the task dialog callback function, which can be registered using the **TaskDialogIndirect** method.<br/> |
-| [TDN\_VERIFICATION\_CLICKED](tdn-verification-clicked.md)      | Sent by the task dialog when the user clicks the task dialog verification check box. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.<br/>                                                                                                                                                                                                       |
+| [TDN\_BUTTON\_CLICKED](tdn-button-clicked.md)                  | Sent by a task dialog when the user selects a button or command link in the task dialog. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.<br/>                                                                                                                                                                                                   |
+| [TDN\_CREATED](tdn-created.md)                                 | Sent by a task dialog after the task dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method. <br/>                                                                                                                                                                                                  |
+| [TDN\_DESTROYED](tdn-destroyed.md)                             | Sent by a task dialog when it is destroyed and its window handle is no longer valid. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.<br/>                                                                                                                                                                                                       |
+| [TDN\_DIALOG\_CONSTRUCTED](tdn-dialog-constructed.md)          | Sent by a task dialog after the task dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method. <br/>                                                                                                                                                                                                  |
+| [TDN\_EXPANDO\_BUTTON\_CLICKED](tdn-expando-button-clicked.md) | Sent by a task dialog when the user clicks on the task dialog's expando button. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.<br/>                                                                                                                                                                                                            |
+| [TDN\_HELP](tdn-help.md)                                       | Sent by a task dialog when the user presses F1 on the keyboard while the task dialog has focus. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.<br/>                                                                                                                                                                                            |
+| [TDN\_HYPERLINK\_CLICKED](tdn-hyperlink-clicked.md)            | Sent by a task dialog when the user clicks a hyperlink in the task dialog content. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method. <br/>                                                                                                                                                                                                        |
+| [TDN\_NAVIGATED](tdn-navigated.md)                             | Sent by a task dialog when a navigation has occurred. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method. <br/>                                                                                                                                                                                                                                     |
+| [TDN\_RADIO\_BUTTON\_CLICKED](tdn-radio-button-clicked.md)     | Sent by a task dialog when the user selects a button or command link in the task dialog. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method. <br/>                                                                                                                                                                                                  |
+| [TDN\_TIMER](tdn-timer.md)                                     | Sent by a task dialog approximately every 200 milliseconds. This notification code is sent when the TDF\_CALLBACK\_TIMER flag has been set in the **dwFlags** member of the [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master) structure that was passed to the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) function. This notification code is received only through the task dialog callback function, which can be registered using the **TaskDialogIndirect** method.<br/> |
+| [TDN\_VERIFICATION\_CLICKED](tdn-verification-clicked.md)      | Sent by the task dialog when the user clicks the task dialog verification check box. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.<br/>                                                                                                                                                                                                       |
 
 
 
- 
+ 
 
 ### Structures
 
@@ -93,16 +98,16 @@ This section contains information about the programming elements used with a tas
 
 | Topic                                           | Contents                                                                                                                                                   |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**TASKDIALOG\_BUTTON**](taskdialog-button.md) | Contains information used to display a button in a task dialog. The [**TASKDIALOGCONFIG**](taskdialogconfig.md) structure uses this structure.<br/> |
-| [**TASKDIALOGCONFIG**](taskdialogconfig.md)    | Contains information used to display a task dialog. The [**TaskDialogIndirect**](taskdialogindirect.md) function uses this structure.<br/>          |
+| [**TASKDIALOG\_BUTTON**](/windows/win32/Commctrl/ns-commctrl-_taskdialog_button?branch=master) | Contains information used to display a button in a task dialog. The [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master) structure uses this structure.<br/> |
+| [**TASKDIALOGCONFIG**](/windows/win32/Commctrl/ns-commctrl-_taskdialogconfig?branch=master)    | Contains information used to display a task dialog. The [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) function uses this structure.<br/>          |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxIncomingQueue configuration object is used by a fax client application to manage the inbound fax jobs (FaxIncomingJobs object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.'
-ms.assetid: '769e4fc5-5607-4fd6-8f78-59b190c94787'
+---
+Description: The FaxIncomingQueue configuration object is used by a fax client application to manage the inbound fax jobs (FaxIncomingJobs object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.
+ms.assetid: 769e4fc5-5607-4fd6-8f78-59b190c94787
 title: FaxIncomingQueue object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingQueue object
@@ -83,7 +88,7 @@ To create a **FaxIncomingQueue** object in Microsoft Visual Basic, call the [**I
 [**FaxFolders**](-mfax-faxfolders.md)
 </dt> <dt>
 
-[**IFaxIncomingQueue**](-mfax-faxincomingqueue-cpp.md)
+[**IFaxIncomingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingqueue?branch=master)
 </dt> </dl>
 
  

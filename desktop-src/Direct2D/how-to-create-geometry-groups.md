@@ -1,19 +1,29 @@
 ---
 title: How to Create Geometry Groups
 description: This topic describes how to create geometry groups.
-ms.assetid: 'be364440-75ab-4d8f-a359-39da275272fd'
-keywords: ["Direct2D,fill mode example", "geometry groups", "Direct2D,geometry groups", "path geometries", "Direct2D,path geometries"]
+ms.assetid: be364440-75ab-4d8f-a359-39da275272fd
+keywords:
+- Direct2D,fill mode example
+- geometry groups
+- Direct2D,geometry groups
+- path geometries
+- Direct2D,path geometries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Geometry Groups
 
 This topic describes how to create geometry groups.
 
-To create a geometry group, call the [**ID2D1Factory::CreateGeometryGroup**](id2d1factory-creategeometrygroup.md) method and specify an array of geometries and a fill mode.
+To create a geometry group, call the [**ID2D1Factory::CreateGeometryGroup**](/windows/win32/d2d1/?branch=master) method and specify an array of geometries and a fill mode.
 
-When you combine geometries into a geometry group, ensure that the geometries are similarly oriented. If you are unsure of the orientation of the geometries, call [**ID2D1Geometry::Outline**](id2d1geometry-outline-ref-d2d-matrix-3x2-f-float-ptr-id2d1simplifiedgeometrysink.md) on each of them individually, and then insert the resulting geometries into the geometry group.
+When you combine geometries into a geometry group, ensure that the geometries are similarly oriented. If you are unsure of the orientation of the geometries, call [**ID2D1Geometry::Outline**](/windows/win32/d2d1/?branch=master) on each of them individually, and then insert the resulting geometries into the geometry group.
 
-The following code example shows the creation of four concentric circles: the first circle has a radius of 25, the second 50, the third 75, and the fourth 100. The code also shows the instantiation of an array of geometries, as well as the two calls to [**CreateGeometryGroup**](id2d1factory-creategeometrygroup.md).
+The following code example shows the creation of four concentric circles: the first circle has a radius of 25, the second 50, the third 75, and the fourth 100. The code also shows the instantiation of an array of geometries, as well as the two calls to [**CreateGeometryGroup**](/windows/win32/d2d1/?branch=master).
 
 
 ```C++
@@ -111,7 +121,7 @@ HRESULT DemoApp::CreateGeometryResources()
 
 ## Drawing and Filling of Geometry Groups
 
-To draw and fill a geometry group, use the [**ID2D1RenderTarget::FillGeometry**](id2d1rendertarget-fillgeometry.md) and [**ID2D1RenderTarget::DrawGeometry**](id2d1rendertarget-drawgeometry.md) methods. The following code example shows how to draw and fill a geometry group.
+To draw and fill a geometry group, use the [**ID2D1RenderTarget::FillGeometry**](/windows/win32/d2d1/?branch=master) and [**ID2D1RenderTarget::DrawGeometry**](/windows/win32/d2d1/?branch=master) methods. The following code example shows how to draw and fill a geometry group.
 
 
 ```C++

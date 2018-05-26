@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnAdditionsAvailable method
 description: Receives notification that integration components are available in a virtual machine.
-ms.assetid: 'c940104b-4d34-47c2-bf48-9024a7f86c46'
-keywords: ["OnAdditionsAvailable method Virtual PC", "OnAdditionsAvailable method Virtual PC , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual PC , OnAdditionsAvailable method"]
+ms.assetid: c940104b-4d34-47c2-bf48-9024a7f86c46
+keywords:
+- OnAdditionsAvailable method Virtual PC
+- OnAdditionsAvailable method Virtual PC , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual PC , OnAdditionsAvailable method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnAdditionsAvailable method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Receives notification that integration components are available in a virtual machine.
 
@@ -42,9 +50,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | DIID\_IVMVirtualMachineEvents is defined as 9d84f560-bb67-4961-bd12-a4da780c67e4<br/>   |
@@ -58,9 +66,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,17 @@ description: Most objects in Active Directory Domain Services use the cn propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c5df7403-23bc-440e-8cd6-215ab8037aed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c5df7403-23bc-440e-8cd6-215ab8037aed
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory, using, searching, by name", "object AD , searching by name", "Finding Objects by Name"]
+keywords:
+- Active Directory, using, searching, by name
+- object AD , searching by name
+- Finding Objects by Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Finding Objects by Name

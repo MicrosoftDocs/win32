@@ -1,7 +1,12 @@
 ---
-Description: 'Describes settings related to the BranchCache content server role.'
-ms.assetid: '12fc7705-3edc-4e7b-a3b5-d6b2fafcce05'
-title: 'MSFT\_NetBranchCacheContentServerSettingData class'
+Description: Describes settings related to the BranchCache content server role.
+ms.assetid: 12fc7705-3edc-4e7b-a3b5-d6b2fafcce05
+title: MSFT\_NetBranchCacheContentServerSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheContentServerSettingData class
@@ -51,17 +56,17 @@ Indicates if BranchCache content server functionality is enabled.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

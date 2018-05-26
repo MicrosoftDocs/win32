@@ -4,13 +4,15 @@ description: This class is a DFSR configuration provider class. It includes prov
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e45e13e-4e08-453d-b248-a668ec3f6cba'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6e45e13e-4e08-453d-b248-a668ec3f6cba
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrServiceConfig class Distributed File System Replication", "MSFT_DfsrServiceConfig class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrServiceConfig class Distributed File System Replication
+- MSFT_DfsrServiceConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrServiceConfig class
@@ -59,7 +64,7 @@ The **MSFT\_DfsrServiceConfig** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -126,7 +131,7 @@ The format of this string is *x*.*y*.*z*.*n*.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -140,9 +145,9 @@ The format of this string is *x*.*y*.*z*.*n*.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Frees Java class loaders that may have been consumed while browsing the applets.'
-ms.assetid: 'f6d5e8b9-4c0b-4533-8bf7-070b8c2e6681'
+---
+Description: Frees Java class loaders that may have been consumed while browsing the applets.
+ms.assetid: f6d5e8b9-4c0b-4533-8bf7-070b8c2e6681
 title: NotifyBrowserShutdown function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NotifyBrowserShutdown function

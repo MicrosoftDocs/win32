@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides an IPrintJobCollection object that provides a snapshot of a range of print jobs in the queue.'
-ms.assetid: 'D964A0C4-041A-47BD-87AB-4AF523939DF0'
-title: 'IPrinterQueueViewEvent::OnChanged method'
+---
+Description: Provides an IPrintJobCollection object that provides a snapshot of a range of print jobs in the queue.
+ms.assetid: D964A0C4-041A-47BD-87AB-4AF523939DF0
+title: IPrinterQueueViewEventOnChanged method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueueViewEvent::OnChanged method

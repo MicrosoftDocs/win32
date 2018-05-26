@@ -1,7 +1,7 @@
 ---
 title: Authentication Service Constants
 description: Defines authentication services by identifying the security package that provides the service, such as NTLMSSP, Kerberos, or Schannel.
-ms.assetid: 'c16a8e52-a7f9-40d9-99ef-10b382b5cb3c'
+ms.assetid: c16a8e52-a7f9-40d9-99ef-10b382b5cb3c
 topic_type:
 - apiref
 api_name:
@@ -25,6 +25,11 @@ api_location:
 - RpcDce.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Service Constants
@@ -56,7 +61,7 @@ Defines authentication services by identifying the security package that provide
 
 ## Remarks
 
-These constants are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](sole-authentication-service.md) and the [**SOLE\_AUTHENTICATION\_INFO**](sole-authentication-info.md) structures. The **SOLE\_AUTHENTICATION\_SERVICE** structure is passed by the server to the [**CoInitializeSecurity**](coinitializesecurity.md) function and can be retrieved by the [**CoQueryAuthenticationServices**](coqueryauthenticationservices.md) function. A pointer to a **SOLE\_AUTHENTICATION\_INFO** structure is passed by the client to **CoInitializeSecurity**. For more information on the security packages identified by these values, such as NTLMSSP and Kerberos, see [COM and Security Packages](com-and-security-packages.md).
+These constants are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/win32/objidlbase/ns-objidl-tagsole_authentication_service?branch=master) and the [**SOLE\_AUTHENTICATION\_INFO**](/windows/win32/objidlbase/ns-objidl-tagsole_authentication_info?branch=master) structures. The **SOLE\_AUTHENTICATION\_SERVICE** structure is passed by the server to the [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) function and can be retrieved by the [**CoQueryAuthenticationServices**](/windows/win32/combaseapi/nf-combaseapi-coqueryauthenticationservices?branch=master) function. A pointer to a **SOLE\_AUTHENTICATION\_INFO** structure is passed by the client to **CoInitializeSecurity**. For more information on the security packages identified by these values, such as NTLMSSP and Kerberos, see [COM and Security Packages](com-and-security-packages.md).
 
 ## Requirements
 
@@ -64,8 +69,8 @@ These constants are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](sole-authent
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RpcDce.h</dt> </dl> |
 
 
@@ -74,24 +79,24 @@ These constants are used in the [**SOLE\_AUTHENTICATION\_SERVICE**](sole-authent
 
 <dl> <dt>
 
-[**CoInitializeSecurity**](coinitializesecurity.md)
+[**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master)
 </dt> <dt>
 
-[**CoQueryAuthenticationServices**](coqueryauthenticationservices.md)
+[**CoQueryAuthenticationServices**](/windows/win32/combaseapi/nf-combaseapi-coqueryauthenticationservices?branch=master)
 </dt> <dt>
 
-[**IClientSecurity**](iclientsecurity.md)
+[**IClientSecurity**](/windows/win32/ObjIdl/nn-objidl-iclientsecurity?branch=master)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_INFO**](sole-authentication-info.md)
+[**SOLE\_AUTHENTICATION\_INFO**](/windows/win32/objidlbase/ns-objidl-tagsole_authentication_info?branch=master)
 </dt> <dt>
 
-[**SOLE\_AUTHENTICATION\_SERVICE**](sole-authentication-service.md)
+[**SOLE\_AUTHENTICATION\_SERVICE**](/windows/win32/objidlbase/ns-objidl-tagsole_authentication_service?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

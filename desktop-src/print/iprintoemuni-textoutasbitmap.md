@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::TextOutAsBitmap method allows a rendering plug-in to create a bitmap image of a text string, in case a downloadable font is not available.'
-ms.assetid: '2c144eb7-6279-490a-813c-6c0ae995c6ad'
-title: 'IPrintOemUni::TextOutAsBitmap method'
+---
+Description: The IPrintOemUniTextOutAsBitmap method allows a rendering plug-in to create a bitmap image of a text string, in case a downloadable font is not available.
+ms.assetid: 2c144eb7-6279-490a-813c-6c0ae995c6ad
+title: IPrintOemUniTextOutAsBitmap method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::TextOutAsBitmap method

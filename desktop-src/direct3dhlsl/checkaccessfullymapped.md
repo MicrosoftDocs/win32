@@ -1,14 +1,20 @@
 ---
 title: CheckAccessFullyMapped function
 description: Determines whether all values from a Sample, Gather, or Load operation accessed mapped tiles in a tiled resource.
-ms.assetid: '2CAB7770-143E-4E29-A57F-96C27021AC5F'
-keywords: ["CheckAccessFullyMapped function HLSL"]
+ms.assetid: 2CAB7770-143E-4E29-A57F-96C27021AC5F
+keywords:
+- CheckAccessFullyMapped function HLSL
 topic_type:
 - apiref
 api_name:
 - CheckAccessFullyMapped
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckAccessFullyMapped function

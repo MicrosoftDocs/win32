@@ -4,17 +4,22 @@ description: Provides the Metric of the network in the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4e3f8b1a-744e-4de6-ac2e-1b85e7af6586'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4e3f8b1a-744e-4de6-ac2e-1b85e7af6586
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Metric Failover Cluster ,for networks", "Metric Failover Cluster"]
+keywords:
+- Metric Failover Cluster ,for networks
+- Metric Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Metric
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Metric
@@ -27,14 +32,14 @@ Provides the **Metric** of the [network](networks.md) in the [*cluster*](c-gly.m
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 1<br/>                                         |
 | Maximum<br/>   | 0x0FFFFFFF<br/>                                |
 | Default<br/>   | 100<br/>                                       |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,7 +68,7 @@ MetricValue.dw        = MetricData;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Datacenter<br/> |
 
 
 
@@ -74,15 +79,15 @@ MetricValue.dw        = MetricData;
 [Network Common Properties](common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**AutoMetric**](networks-autometric.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

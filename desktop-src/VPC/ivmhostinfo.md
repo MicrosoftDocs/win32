@@ -1,8 +1,10 @@
 ---
 title: IVMHostInfo interface
 description: Retrieves information about the host machine. An IVMHostInfo object is returned from the IVMVirtualPC HostInfo property.
-ms.assetid: 'f30fa377-2067-4e03-bc6e-2ada62fc56b4'
-keywords: ["IVMHostInfo interface Virtual PC", "IVMHostInfo interface Virtual PC , described"]
+ms.assetid: f30fa377-2067-4e03-bc6e-2ada62fc56b4
+keywords:
+- IVMHostInfo interface Virtual PC
+- IVMHostInfo interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves information about the host machine. An **IVMHostInfo** object is returned from the [**IVMVirtualPC::HostInfo**](ivmvirtualpc-hostinfo.md) property.
 
@@ -63,7 +70,7 @@ The **IVMHostInfo** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,18 +78,18 @@ The **IVMHostInfo** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

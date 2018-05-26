@@ -4,16 +4,22 @@ description: The IADs PutEx method uses the name of a property to save a propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fb9a0610-e955-424b-a2b9-da4986d0ba5f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fb9a0610-e955-424b-a2b9-da4986d0ba5f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["PutEx ADSI ,about", "ADSI ADSI ,example code Visual Basic ,using the PutEx method", "properties ADSI ,saving a single or multi-valued property to property cache"]
+keywords:
+- PutEx ADSI ,about
+- ADSI ADSI ,example code Visual Basic ,using the PutEx method
+- properties ADSI ,saving a single or multi-valued property to property cache
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The PutEx Method
 
-The [**IADs::PutEx**](iads-putex.md) method uses the name of a property to save a property with single or multiple values into the property cache. This overwrites any value currently in the property cache. The values in the cache are not written to the underlying directory service until an [**IADs::SetInfo**](iads-setinfo.md) occurs. The first argument of **PutEx** indicates whether you want to replace or add to any existing values for the property. In the following example, any existing values of the **description** attribute are erased in the cache when **PutEx** is called, and erased on the server when **SetInfo** is called.
+The [**IADs::PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master) method uses the name of a property to save a property with single or multiple values into the property cache. This overwrites any value currently in the property cache. The values in the cache are not written to the underlying directory service until an [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) occurs. The first argument of **PutEx** indicates whether you want to replace or add to any existing values for the property. In the following example, any existing values of the **description** attribute are erased in the cache when **PutEx** is called, and erased on the server when **SetInfo** is called.
 
 
 ```VB

@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection2 createQuery method
 description: The createQuery method returns an IWMPQuery interface that represents a new query.
-ms.assetid: 'a12da325-e77e-4e44-93d1-5e9c5733ea44'
-keywords: ["createQuery method Windows Media Player", "createQuery method Windows Media Player , IWMPMediaCollection2 interface", "IWMPMediaCollection2 interface Windows Media Player , createQuery method"]
+ms.assetid: a12da325-e77e-4e44-93d1-5e9c5733ea44
+keywords:
+- createQuery method Windows Media Player
+- createQuery method Windows Media Player , IWMPMediaCollection2 interface
+- IWMPMediaCollection2 interface Windows Media Player , createQuery method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection2::createQuery method
@@ -139,9 +147,9 @@ Next i</code></pre></td>
 [**IWMPQuery Interface (VB and C#)**](iwmpquery--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

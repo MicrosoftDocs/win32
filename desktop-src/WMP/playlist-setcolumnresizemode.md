@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.setColumnResizeMode
 description: The setColumnResizeMode method specifies how the indexed column sizes itself.
-ms.assetid: '84ca0e60-ca24-4058-ae08-5b9cf3d7c38f'
-keywords: ["PLAYLIST.setColumnResizeMode Windows Media Player"]
+ms.assetid: 84ca0e60-ca24-4058-ae08-5b9cf3d7c38f
+keywords:
+- PLAYLIST.setColumnResizeMode Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.setColumnResizeMode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.setColumnResizeMode
@@ -46,7 +52,7 @@ The **setColumnResizeMode** method specifies how the indexed column sizes itself
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -71,9 +77,9 @@ This method does not return a value.
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

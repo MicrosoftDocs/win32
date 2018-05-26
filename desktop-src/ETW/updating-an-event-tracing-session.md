@@ -1,7 +1,12 @@
 ---
-Description: 'To update the properties of an event tracing session, call the ControlTrace function using the EVENT\_TRACE\_CONTROL\_UPDATE control code.'
-ms.assetid: '1496bf88-a989-4fa1-888a-90385c4ca8ee'
+Description: To update the properties of an event tracing session, call the ControlTrace function using the EVENT\_TRACE\_CONTROL\_UPDATE control code.
+ms.assetid: 1496bf88-a989-4fa1-888a-90385c4ca8ee
 title: Updating an Event Tracing Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating an Event Tracing Session

@@ -1,8 +1,11 @@
 ---
 title: SessionStateChangeTrigger.UserId property
 description: For scripting, gets or sets the user for the Terminal Server session. When a session state change is detected for this user, a task is started.
-ms.assetid: '9d0cc48f-4765-4959-bb59-ca39acde4c39'
-keywords: ["UserId property Task Scheduler", "UserId property Task Scheduler , SessionStateChangeTrigger object", "SessionStateChangeTrigger object Task Scheduler , UserId property"]
+ms.assetid: 9d0cc48f-4765-4959-bb59-ca39acde4c39
+keywords:
+- UserId property Task Scheduler
+- UserId property Task Scheduler , SessionStateChangeTrigger object
+- SessionStateChangeTrigger object Task Scheduler , UserId property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SessionStateChangeTrigger.UserId property
@@ -36,16 +44,16 @@ The user for the Terminal Server session.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: D3DX11GetImageInfoFromResource function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use resource functions, then use DirectXTex library (tools), LoadFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Retrieves information about a given image in a resource.
-ms.assetid: 'e4752eb3-38d5-4922-b3c8-5fdcd0cc0610'
-keywords: ["D3DX11GetImageInfoFromResource function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use resource functions, then use DirectXTex library (tools), LoadFromXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesnt support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Retrieves information about a given image in a resource.
+ms.assetid: e4752eb3-38d5-4922-b3c8-5fdcd0cc0610
+keywords:
+- D3DX11GetImageInfoFromResource function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11GetImageInfoFromResource function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use [resource functions](https://msdn.microsoft.com/library/windows/desktop/ff468902), then use [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library (tools), **LoadFromXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 
- 
+ 
 
 Retrieves information about a given image in a resource.
 
@@ -33,11 +39,11 @@ Retrieves information about a given image in a resource.
 
 ```C++
 HRESULT D3DX11GetImageInfoFromResource(
-  _In_  HMODULE           hSrcModule,
-  _In_  LPCTSTR           pSrcResource,
-  _In_  ID3DX11ThreadPump *pPump,
-  _In_  D3DX11_IMAGE_INFO *pSrcInfo,
-  _Out_ HRESULT           *pHResult
+  _In_  HMODULE           hSrcModule,
+  _In_  LPCTSTR           pSrcResource,
+  _In_  ID3DX11ThreadPump *pPump,
+  _In_  D3DX11_IMAGE_INFO *pSrcInfo,
+  _Out_ HRESULT           *pHResult
 );
 ```
 
@@ -120,9 +126,9 @@ The compiler setting also determines the function version. If Unicode is defined
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

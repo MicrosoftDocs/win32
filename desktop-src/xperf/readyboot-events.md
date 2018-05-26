@@ -1,7 +1,12 @@
 ---
 title: ReadyBoot Events
 description: ReadyBoot Events
-ms.assetid: '3c38e53d-0dab-4c96-bdf7-024bfbe5f4a5'
+ms.assetid: 3c38e53d-0dab-4c96-bdf7-024bfbe5f4a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadyBoot Events
@@ -20,16 +25,16 @@ Windows Performance Analyzer reports all major ReadyBoot events, as described in
 
 
 
- 
+ 
 
 > [!Note]  
 > Due to implementation details, the process and thread information displayed for the prefetch, write, and miss events is not the process and thread actually performing the IO. To obtain the process and thread information for those event types, the corresponding events in the Disk I/O graphs and summary tables should be used.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

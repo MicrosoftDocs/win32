@@ -1,14 +1,20 @@
 ---
 title: DRM\_LicenseID
 description: The DRM\_LicenseID property contains a string retrieved from the license associated with the currently open file that uniquely identifies that license.
-ms.assetid: 'd5967f5b-99b6-41ea-8494-ac4a7331bbfe'
-keywords: ["DRM_LicenseID windows Media Format"]
+ms.assetid: d5967f5b-99b6-41ea-8494-ac4a7331bbfe
+keywords:
+- DRM_LicenseID windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_LicenseID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_LicenseID
@@ -25,7 +31,7 @@ g\_wszWMDRM\_LicenseID
 
 ## Remarks
 
-This attribute is present with DRM Version 7 content only. It can be set using [**IWMDRMWriter::SetDRMAttribute**](iwmdrmwriter-setdrmattribute.md) and it can be retrieved with [**IWMDRMReader::GetDRMProperty**](iwmdrmreader-getdrmproperty.md).
+This attribute is present with DRM Version 7 content only. It can be set using [**IWMDRMWriter::SetDRMAttribute**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute?branch=master) and it can be retrieved with [**IWMDRMReader::GetDRMProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty?branch=master).
 
 The license ID is stored in a license, not in an ASF file. Each individual license has a unique ID which is assigned by the license generator at the time the license is created. For example, if you obtain two licenses for the same content, each one will have a different LicenseID attribute. Typically, applications have no need to retrieve this value.
 

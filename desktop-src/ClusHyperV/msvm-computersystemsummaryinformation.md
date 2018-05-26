@@ -4,13 +4,15 @@ description: Associates a hosting computer system or a virtual machine with summ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '02cded9e-cfb0-4cf6-a861-79be36101fe6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 02cded9e-cfb0-4cf6-a861-79be36101fe6
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_ComputerSystemSummaryInformation class", "Msvm_ComputerSystemSummaryInformation class, described"]
+keywords:
+- Msvm_ComputerSystemSummaryInformation class
+- Msvm_ComputerSystemSummaryInformation class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_ComputerSystemSummaryInformation class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Association, Provider("VmmsWmiInstanceAndMethodProvider")]
 class Msvm_ComputerSystemSummaryInformation : CIM_ElementView
 {
-  CIM_ComputerSystem          REF Antecedent;
+  CIM_ComputerSystem          REF Antecedent;
   Msvm_SummaryInformationBase REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ An [**Msvm\_SummaryInformationBase**](msvm-summaryinformationbase.md) reference 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ An [**Msvm\_SummaryInformationBase**](msvm-summaryinformationbase.md) reference 
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

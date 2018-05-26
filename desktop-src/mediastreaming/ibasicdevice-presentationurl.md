@@ -1,26 +1,34 @@
 ---
 title: IBasicDevice PresentationUrl method
-description: Retrieves the device’s presentation URL.
-ms.assetid: 'F1EF1BBE-F35D-4828-B4F6-D6DEFF5A6391'
-keywords: ["PresentationUrl method Media Streaming API", "PresentationUrl method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , PresentationUrl method"]
+description: Retrieves the device s presentation URL.
+ms.assetid: F1EF1BBE-F35D-4828-B4F6-D6DEFF5A6391
+keywords:
+- PresentationUrl method Media Streaming API
+- PresentationUrl method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , PresentationUrl method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.PresentationUrl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::PresentationUrl method
 
-Retrieves the device’s presentation URL.
+Retrieves the device s presentation URL.
 
 ## Syntax
 
 
 ```C++
 HRESULT PresentationUrl(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -33,7 +41,7 @@ HRESULT PresentationUrl(
 *value* \[out\]
 </dt> <dd>
 
-Receives a pointer to the device’s presentation URL.
+Receives a pointer to the device s presentation URL.
 
 </dd> </dl>
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

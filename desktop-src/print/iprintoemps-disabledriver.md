@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS::DisableDriver method allows a rendering plug-in for Pscript to free resources that were allocated by the plug-in''s IPrintOemPS::EnableDriver method.'
-ms.assetid: '4fa25706-dc79-45fd-a805-7b9d110213ed'
-title: 'IPrintOemPS::DisableDriver method'
+---
+Description: The IPrintOemPSDisableDriver method allows a rendering plug-in for Pscript to free resources that were allocated by the plug-ins IPrintOemPSEnableDriver method.
+ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
+title: IPrintOemPSDisableDriver method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::DisableDriver method

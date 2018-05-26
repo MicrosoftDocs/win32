@@ -1,7 +1,12 @@
 ---
-Description: 'The PdhVbGetCounterPathElements function parses a fully qualified performance counter path string into its individual elements.'
-ms.assetid: '5459c7dd-e8b6-48cd-a33f-cafdc64dd9ee'
+Description: The PdhVbGetCounterPathElements function parses a fully qualified performance counter path string into its individual elements.
+ms.assetid: 5459c7dd-e8b6-48cd-a33f-cafdc64dd9ee
 title: PdhVbGetCounterPathElements function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PdhVbGetCounterPathElements function
@@ -79,7 +84,7 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,8 +92,8 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Library<br/>                  | <dl> <dt>Pdh.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Pdh.dll</dt> </dl> |
 
@@ -107,9 +112,9 @@ If the function fails, the return value is a [system error code](https://msdn.mi
 [**PdhVbGetOneCounterPath**](pdhvbgetonecounterpath.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

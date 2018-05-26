@@ -1,14 +1,19 @@
 ---
 Description: Find an Interface on a Filter or Pin
-ms.assetid: '546f5b7d-3bcd-4e97-a012-daca6ae7bca1'
+ms.assetid: 546f5b7d-3bcd-4e97-a012-daca6ae7bca1
 title: Find an Interface on a Filter or Pin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Find an Interface on a Filter or Pin
 
 For many operations in DirectShow, the application calls methods on the Filter Graph Manager. In some situations, however, the application must call a method directly on a filter or pin. For example, many filters expose specialized interfaces that are used to configure the filter.
 
-In the case of a filter interface, you might already have a pointer to the filter's [**IBaseFilter**](ibasefilter.md) interface. In that case, simply use **QueryInterface** to get the other interface. But some filters might be added to the graph by the Filter Graph Manager. (For details, see [Intelligent Connect](intelligent-connect.md).) In that case, use the [**IEnumFilters**](ienumfilters.md) interface to loop through all the filters in the graph, and query each one in turn. The following function demonstrates this:
+In the case of a filter interface, you might already have a pointer to the filter's [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface. In that case, simply use **QueryInterface** to get the other interface. But some filters might be added to the graph by the Filter Graph Manager. (For details, see [Intelligent Connect](intelligent-connect.md).) In that case, use the [**IEnumFilters**](/windows/win32/Strmif/nn-strmif-ienumfilters?branch=master) interface to loop through all the filters in the graph, and query each one in turn. The following function demonstrates this:
 
 
 ```C++
@@ -43,7 +48,7 @@ HRESULT FindFilterInterface(
 
 
 
-To find an interface on a pin, use the [**IEnumPins**](ienumpins.md) interface to loop through the pins on a filter. The following function shows how to do this:
+To find an interface on a pin, use the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface to loop through the pins on a filter. The following function shows how to do this:
 
 
 ```C++
@@ -130,7 +135,7 @@ Note that all of the functions shown here stop at the first successful **QueryIn
 [Enumerating Pins](enumerating-pins.md)
 </dt> <dt>
 
-[**ICaptureGraphBuilder2::FindInterface**](icapturegraphbuilder2-findinterface.md)
+[**ICaptureGraphBuilder2::FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master)
 </dt> </dl>
 
  

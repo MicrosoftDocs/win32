@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the final output resolution of the decoded image, after video processing.'
-ms.assetid: '067867D8-155C-4406-BE07-720016B2AEBC'
-title: 'MFT\_DECODER\_FINAL\_VIDEO\_RESOLUTION\_HINT attribute'
+---
+Description: Specifies the final output resolution of the decoded image, after video processing.
+ms.assetid: 067867D8-155C-4406-BE07-720016B2AEBC
+title: MFT\_DECODER\_FINAL\_VIDEO\_RESOLUTION\_HINT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_DECODER\_FINAL\_VIDEO\_RESOLUTION\_HINT attribute
@@ -20,8 +25,8 @@ The upper 32 bits contain the width and the lower 32 bits contain the height.
 
 To set this attribute:
 
-1.  Call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) on the decoder to get an [**IMFAttributes**](imfattributes.md) pointer.
-2.  Call [**MFSetAttributeSize**](mfsetattributesize.md) to add the attribute.
+1.  Call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) on the decoder to get an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer.
+2.  Call [**MFSetAttributeSize**](/windows/win32/mfapi/nf-mfapi-mfsetattributesize?branch=master) to add the attribute.
 
 ## Requirements
 

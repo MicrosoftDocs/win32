@@ -1,7 +1,12 @@
 ---
 title: Invert effect
 description: Inverts the colors of an image.
-ms.assetid: 'aa859cd4-0fb0-9902-3add-748d0cca63ce'
+ms.assetid: aa859cd4-0fb0-9902-3add-748d0cca63ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Invert effect
@@ -42,7 +47,7 @@ This effect has no properties.
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

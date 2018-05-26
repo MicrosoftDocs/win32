@@ -1,6 +1,11 @@
-﻿---
-Description: 'Retrieves the validity status of the chain or a specific certificate in the chain.'
-title: 'IChain2::Status property'
+---
+Description: Retrieves the validity status of the chain or a specific certificate in the chain.
+title: IChain2Status property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IChain2::Status property

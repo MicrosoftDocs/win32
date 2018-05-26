@@ -4,10 +4,13 @@ description: The IMsRdpClientTransportSettings3 interface exposes the following 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '142660DE-5126-443F-9FF0-C50E0039CD71'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 142660DE-5126-443F-9FF0-C50E0039CD71
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings3 Properties

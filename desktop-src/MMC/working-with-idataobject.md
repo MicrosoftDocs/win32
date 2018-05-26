@@ -4,11 +4,15 @@ description: For more information and an overview of how data objects are used i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e5eb85e-3978-445f-974d-6aab91782f48'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6e5eb85e-3978-445f-974d-6aab91782f48
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["working with IDataObject MMC"]
+keywords:
+- working with IDataObject MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with IDataObject

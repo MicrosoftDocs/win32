@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.'
-ms.assetid: '4d3780ff-905f-4166-86d4-32395090b5cb'
-title: 'CMediaPosition.GetIDsOfNames method'
+Description: The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.
+ms.assetid: 4d3780ff-905f-4166-86d4-32395090b5cb
+title: CMediaPosition.GetIDsOfNames method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaPosition.GetIDsOfNames method
@@ -13,11 +18,11 @@ The `GetIDsOfNames` method maps a set of names to a corresponding set of DISPIDs
 
 ```C++
 HRESULT GetIDsOfNames(
-   REFIID  riid,
-   OLECHAR **rgszNames,
-   UINT    cNames,
-   LCID    lcid,
-   DISPID  *rgdispid
+   REFIID  riid,
+   OLECHAR **rgszNames,
+   UINT    cNames,
+   LCID    lcid,
+   DISPID  *rgdispid
 );
 ```
 
@@ -76,7 +81,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,9 +101,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CMediaPosition Class**](cmediaposition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

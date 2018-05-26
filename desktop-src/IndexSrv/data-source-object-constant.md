@@ -1,7 +1,12 @@
 ---
 title: Data Source Object Constant
 description: Data Source Object Constant
-ms.assetid: '5464a358-d422-41dc-adf2-e2c5267c72cd'
+ms.assetid: 5464a358-d422-41dc-adf2-e2c5267c72cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Source Object Constant

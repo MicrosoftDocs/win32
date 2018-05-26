@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the data types used by authentication APIs.'
-ms.assetid: '1c2f932d-11f4-406f-8874-2f247b53d70f'
+Description: Lists the data types used by authentication APIs.
+ms.assetid: 1c2f932d-11f4-406f-8874-2f247b53d70f
 title: Authentication Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Data Types
@@ -18,7 +23,7 @@ The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desk
 
 
 
- 
+ 
 
 ## SSPI Data Types and Values
 
@@ -34,11 +39,11 @@ The [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desk
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

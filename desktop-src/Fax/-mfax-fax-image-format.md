@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service creates fax documents as Tagged Image File Format Class F (TIFF Class F) (for facsimile) files based on the Tagged Image File Format (TIFF) 6.0 specification.'
-ms.assetid: 'd7840c10-6059-40ed-9040-50eefefc7349'
+Description: The fax service creates fax documents as Tagged Image File Format Class F (TIFF Class F) (for facsimile) files based on the Tagged Image File Format (TIFF) 6.0 specification.
+ms.assetid: d7840c10-6059-40ed-9040-50eefefc7349
 title: Fax Image Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Image Format

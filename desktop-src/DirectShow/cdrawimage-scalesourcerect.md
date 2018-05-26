@@ -1,7 +1,12 @@
 ---
-Description: 'The ScaleSourceRect method scales a rectangle, if there is a difference between the native video size and the media type format.'
-ms.assetid: '7bd4d555-5782-4ce5-9f0d-928b199ef897'
-title: 'CDrawImage.ScaleSourceRect method'
+Description: The ScaleSourceRect method scales a rectangle, if there is a difference between the native video size and the media type format.
+ms.assetid: 7bd4d555-5782-4ce5-9f0d-928b199ef897
+title: CDrawImage.ScaleSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.ScaleSourceRect method
@@ -13,7 +18,7 @@ The `ScaleSourceRect` method scales a rectangle, if there is a difference betwee
 
 ```C++
 virtual RECT ScaleSourceRect(
-   const RECT *pSource
+   const RECT *pSource
 );
 ```
 
@@ -36,7 +41,7 @@ Returns the scaled rectangle.
 
 ## Remarks
 
-In the **CDrawImage** class, this method returns *pSource* without any change. You can override this method if the filter stretches the incoming video image. For example, the native video size might be 320 × 240, but the media type on the input pin might be 640 × 480. In that case the filter would need to scale the source rectangle by a factor of 2.
+In the **CDrawImage** class, this method returns *pSource* without any change. You can override this method if the filter stretches the incoming video image. For example, the native video size might be 320   240, but the media type on the input pin might be 640   480. In that case the filter would need to scale the source rectangle by a factor of 2.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ In the **CDrawImage** class, this method returns *pSource* without any change. Y
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

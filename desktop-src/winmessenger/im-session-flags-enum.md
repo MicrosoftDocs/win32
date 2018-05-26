@@ -1,8 +1,10 @@
 ---
 title: SESSION\_FLAGS enumeration
 description: Do not use. Provides the list of possible flag codes for the session invitation.
-ms.assetid: '54cb8a58-2ddf-4662-b4b3-4c5e13c94a9d'
-keywords: ["SESSION_FLAGS enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: 54cb8a58-2ddf-4662-b4b3-4c5e13c94a9d
+keywords:
+- SESSION_FLAGS enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrpriv.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SESSION\_FLAGS enumeration
 
-\[[**LockStatus**](im-lockstatus-enum.md) is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[[**LockStatus**](im-lockstatus-enum.md) is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Provides the list of possible flag codes for the session invitation.
 
@@ -24,10 +31,10 @@ Do not use. Provides the list of possible flag codes for the session invitation.
 
 ```C++
 typedef enum  { 
-  SF_NONE                   = 0x0000,
-  SF_INVITER                = 0x0001,
-  SF_INVITER                = 0x0002,
-  SF_APP_INVITE_COMPATIBLE  = 0x0004
+  SF_NONE                   = 0x0000,
+  SF_INVITER                = 0x0001,
+  SF_INVITER                = 0x0002,
+  SF_APP_INVITE_COMPATIBLE  = 0x0004
 } LockError;
 ```
 
@@ -71,10 +78,10 @@ The application shared between users is compatible.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -91,9 +98,9 @@ The application shared between users is compatible.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

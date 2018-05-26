@@ -1,14 +1,17 @@
 ---
 title: SetByInputObject method of the MSFT\_OdbcDriverTask class
-description: Configure driver\\\\'s properties for one or more installed ODBC drivers.
+description: Configure driver\\\\s properties for one or more installed ODBC drivers.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '839c096b-ef6f-4562-8931-f0a16c98aa77'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 839c096b-ef6f-4562-8931-f0a16c98aa77
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByInputObject method", "SetByInputObject method, MSFT_OdbcDriverTask class", "MSFT_OdbcDriverTask class, SetByInputObject method"]
+keywords:
+- SetByInputObject method
+- SetByInputObject method, MSFT_OdbcDriverTask class
+- MSFT_OdbcDriverTask class, SetByInputObject method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByInputObject method of the MSFT\_OdbcDriverTask class
@@ -28,11 +34,11 @@ Configure driver\\\\'s properties for one or more installed ODBC drivers.
 
 ```mof
 uint32 SetByInputObject(
-  [in]  boolean         PassThru,
-  [in]  string          SetPropertyValue[],
-  [in]  string          RemovePropertyValue[],
-  [in]  MSFT_OdbcDriver InputObject[],
-  [out] MSFT_OdbcDriver cmdletOutput[]
+  [in]  boolean         PassThru,
+  [in]  string          SetPropertyValue[],
+  [in]  string          RemovePropertyValue[],
+  [in]  MSFT_OdbcDriver InputObject[],
+  [out] MSFT_OdbcDriver cmdletOutput[]
 );
 ```
 
@@ -83,8 +89,8 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDriver**](msft-odbcdr
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -101,9 +107,9 @@ The output is an array of CIM objects of type [**MSFT\_OdbcDriver**](msft-odbcdr
 [**MSFT\_OdbcDriver**](msft-odbcdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

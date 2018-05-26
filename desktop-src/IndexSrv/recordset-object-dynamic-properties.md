@@ -1,7 +1,12 @@
 ---
 title: Recordset Object Dynamic Properties
 description: Recordset Object Dynamic Properties
-ms.assetid: 'ddadcf5d-76eb-4296-b147-b4413a998183'
+ms.assetid: ddadcf5d-76eb-4296-b147-b4413a998183
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recordset Object Dynamic Properties

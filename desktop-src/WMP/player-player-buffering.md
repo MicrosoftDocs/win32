@@ -1,8 +1,11 @@
 ---
 title: Player.Buffering event
 description: The Buffering event occurs when the Windows Media Player control begins or ends buffering or downloading.
-ms.assetid: 'a0a09bf7-19bc-4838-a403-924e8d83b48d'
-keywords: ["Buffering event Windows Media Player", "Buffering event Windows Media Player , Player class", "Player class Windows Media Player , Buffering event"]
+ms.assetid: a0a09bf7-19bc-4838-a403-924e8d83b48d
+keywords:
+- Buffering event Windows Media Player
+- Buffering event Windows Media Player , Player class
+- Player class Windows Media Player , Buffering event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.Buffering event
@@ -46,7 +54,7 @@ Player.Buffering(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -84,9 +92,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

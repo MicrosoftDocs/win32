@@ -1,8 +1,11 @@
 ---
 title: Trigger.Type property
 description: For scripting, gets the type of the trigger.
-ms.assetid: '71e3915e-28d6-46fa-8f7a-8b4a6afa31c6'
-keywords: ["Type property Task Scheduler", "Type property Task Scheduler , Trigger object", "Trigger object Task Scheduler , Type property"]
+ms.assetid: 71e3915e-28d6-46fa-8f7a-8b4a6afa31c6
+keywords:
+- Type property Task Scheduler
+- Type property Task Scheduler , Trigger object
+- Trigger object Task Scheduler , Type property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger.Type property
@@ -28,7 +36,7 @@ Trigger.Type As TASK_TRIGGER_TYPE2
 
 ## Property value
 
-One of the following [**TASK\_TRIGGER\_TYPE2**](triggertype.md) enumeration values.
+One of the following [**TASK\_TRIGGER\_TYPE2**](/windows/win32/taskschd/ne-taskschd-_task_trigger_type2?branch=master) enumeration values.
 
 
 
@@ -48,7 +56,7 @@ One of the following [**TASK\_TRIGGER\_TYPE2**](triggertype.md) enumeration valu
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -56,8 +64,8 @@ One of the following [**TASK\_TRIGGER\_TYPE2**](triggertype.md) enumeration valu
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -70,15 +78,15 @@ One of the following [**TASK\_TRIGGER\_TYPE2**](triggertype.md) enumeration valu
 [**TriggerCollection.Create**](triggercollection-create.md)
 </dt> <dt>
 
-[**TASK\_TRIGGER\_TYPE2**](triggertype.md)
+[**TASK\_TRIGGER\_TYPE2**](/windows/win32/taskschd/ne-taskschd-_task_trigger_type2?branch=master)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

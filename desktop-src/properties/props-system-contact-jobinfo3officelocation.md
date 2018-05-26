@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'dbf8b4cc-ce9a-4350-bcb3-abc2fcfcb221'
-title: 'System.Contact.JobInfo3OfficeLocation'
+Description: .
+ms.assetid: dbf8b4cc-ce9a-4350-bcb3-abc2fcfcb221
+title: System.Contact.JobInfo3OfficeLocation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JobInfo3OfficeLocation

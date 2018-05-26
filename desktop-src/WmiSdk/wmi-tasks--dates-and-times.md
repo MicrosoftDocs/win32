@@ -1,13 +1,16 @@
 ---
-Description: 'There are several WMI classes and a scripting object to parse or convert the CIM datetime format. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.'
+Description: There are several WMI classes and a scripting object to parse or convert the CIM datetime format. For other examples, see the TechNet ScriptCenter at http//www.microsoft.com/technet.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dd01a732-5c88-4c24-a551-4d5452e712cc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dd01a732-5c88-4c24-a551-4d5452e712cc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Dates and Times'
+title: WMI Tasks Dates and Times
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Dates and Times
@@ -30,7 +33,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -285,7 +288,7 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -303,10 +306,10 @@ if ($computer -eq &quot;.&quot;) {$computer = Hostname}
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
+ 
 
 
+
+`

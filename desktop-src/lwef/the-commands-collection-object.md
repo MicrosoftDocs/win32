@@ -1,7 +1,12 @@
 ---
 title: The Commands Collection Object
 description: The Commands Collection Object
-ms.assetid: '8726ce04-77d3-4ae3-bd46-e75f42b36d6f'
+ms.assetid: 8726ce04-77d3-4ae3-bd46-e75f42b36d6f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Commands Collection Object

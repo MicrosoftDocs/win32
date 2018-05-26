@@ -1,7 +1,12 @@
 ---
-Description: 'System administrators or users should routinely backup the RSM database. For instructions on how to do this, see the Resource Kit.'
-ms.assetid: '3de26b2c-382c-4f0c-ae97-515e1fac0e53'
+Description: System administrators or users should routinely backup the RSM database. For instructions on how to do this, see the Resource Kit.
+ms.assetid: 3de26b2c-382c-4f0c-ae97-515e1fac0e53
 title: Recovering from a Disaster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recovering from a Disaster
@@ -20,11 +25,11 @@ The default location of the RSM database is %SYSTEMROOT%\\System32\\NTMSData. Th
 
 as the value **NtmsData**. The database files are always stored in a folder named **NtmsData** under the folder given in this value. If RSM is not running, it is a sufficient backup strategy is to make copies of these files. Most backup applications, though, require RSM to be running while the backup occurs.
 
-To back up the RSM database while RSM is running, an application must open an RSM session and use the [**ExportNtmsDatabase**](exportntmsdatabase.md) function. This function creates a consistent replica of the current database. RSM creates the replica in the Export subdirectory of the RSM database directory.
+To back up the RSM database while RSM is running, an application must open an RSM session and use the [**ExportNtmsDatabase**](/windows/win32/Ntmsapi/nf-ntmsapi-exportntmsdatabase?branch=master) function. This function creates a consistent replica of the current database. RSM creates the replica in the Export subdirectory of the RSM database directory.
 
 ## Recovering the Database
 
-When the RSM database files have been restored from a backup two additional step are needed before RSM will begin using the restored database. First the recovery application must call the [**ImportNtmsDatabase**](importntmsdatabase.md) function. This function makes the changes necessary for RSM to import the restored on the next restart. Once this is completed, the next time RSM starts it uses the restored database. This can either be done by restarting the service with the Service Control Manager or rebooting.
+When the RSM database files have been restored from a backup two additional step are needed before RSM will begin using the restored database. First the recovery application must call the [**ImportNtmsDatabase**](/windows/win32/Ntmsapi/nf-ntmsapi-importntmsdatabase?branch=master) function. This function makes the changes necessary for RSM to import the restored on the next restart. Once this is completed, the next time RSM starts it uses the restored database. This can either be done by restarting the service with the Service Control Manager or rebooting.
 
 ## Updating the Restored Database
 
@@ -52,7 +57,7 @@ This section describes a strategy for an application to recover the RSM database
 
     The application must have a mechanism that scans the Import media pool for its media. This can be accomplished by reading the OMID information of the sides of the physical media and finding all media with the *szOmidLabelType* parameter that is the application's type. As an additional check the application can verify that the *szOmidLabelInfo* parameter is correct for the media.
 
-3.  For all sides found, the application must call the [**AllocateNtmsMedia**](allocatentmsmedia.md) function, specifying the side and media pool.
+3.  For all sides found, the application must call the [**AllocateNtmsMedia**](/windows/win32/Ntmsapi/nf-ntmsapi-allocatentmsmedia?branch=master) function, specifying the side and media pool.
 4.  The application database must be updated with the new LMID that is assigned to the media. The application should search through its database for all cases of the OMID it has found and replace the corresponding LMID with the new one.
 5.  Media that were offline and not in the library at the time of the full inventory must be injected into the library so they can be identified and placed in the import pool. To do so, repeat steps 3, 4 and 5.
 

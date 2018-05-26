@@ -1,6 +1,11 @@
 ---
-ms.assetid: '7f1e61e8-15e1-4a25-b864-eeadcac61108'
+ms.assetid: 7f1e61e8-15e1-4a25-b864-eeadcac61108
 title: Programming Considerations For Writing Resource Managers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Considerations For Writing Resource Managers

@@ -1,7 +1,12 @@
 ---
 title: iSCSI WMI Operations Class Structures
 description: iSCSI WMI Operations Class Structures
-ms.assetid: '94a02740-b2bc-405e-be24-b1754abb7f2d'
+ms.assetid: 94a02740-b2bc-405e-be24-b1754abb7f2d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI WMI Operations Class Structures

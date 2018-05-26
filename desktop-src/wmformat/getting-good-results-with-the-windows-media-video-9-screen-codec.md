@@ -1,15 +1,25 @@
 ---
 title: Getting Good Results with the Windows Media Video 9 Screen Codec
 description: Getting Good Results with the Windows Media Video 9 Screen Codec
-ms.assetid: 'c5b080d3-2934-4af7-8f01-9ab0829db05d'
-keywords: ["Windows Media Format SDK,Windows Media Video 9 Screen codec", "Advanced Systems Format (ASF),Windows Media Video 9 Screen codec", "ASF (Advanced Systems Format),Windows Media Video 9 Screen codec", "codecs,Windows Media Video 9 Screen", "Windows Media Video 9 Screen codec,results"]
+ms.assetid: c5b080d3-2934-4af7-8f01-9ab0829db05d
+keywords:
+- Windows Media Format SDK,Windows Media Video 9 Screen codec
+- Advanced Systems Format (ASF),Windows Media Video 9 Screen codec
+- ASF (Advanced Systems Format),Windows Media Video 9 Screen codec
+- codecs,Windows Media Video 9 Screen
+- Windows Media Video 9 Screen codec,results
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Good Results with the Windows Media Video 9 Screen Codec
 
 The Windows Media Video 9 Screen codec is designed to produce highly compressed video for screen capture. Because most of the need for screen capture involves fairly simple and static images, the high levels of compression attained do not usually mean a great sacrifice in image quality. However, each screen capture is different, and the resulting image quality can vary considerably depending upon the circumstances.
 
-The best way to determine the profile settings for a screen codec session is to encode a test file using a quality-based variable bit rate stream. Set the quality to the value you desire, and encode a screen capture as if you were recording the final file. When the file is written, play it using the asynchronous reader object, making regular calls to [**IWMReaderAdvanced::GetStatistics**](iwmreaderadvanced-getstatistics.md). By monitoring the value of the **dwBandwidth** member of the [**WM\_READER\_STATISTICS**](wm-reader-statistics.md) structure for each call, you can determine the approximate bit rate required to achieve the quality you want. You can then use that bit rate for constant bit rate encoding.
+The best way to determine the profile settings for a screen codec session is to encode a test file using a quality-based variable bit rate stream. Set the quality to the value you desire, and encode a screen capture as if you were recording the final file. When the file is written, play it using the asynchronous reader object, making regular calls to [**IWMReaderAdvanced::GetStatistics**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics?branch=master). By monitoring the value of the **dwBandwidth** member of the [**WM\_READER\_STATISTICS**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmreaderstatistics?branch=master) structure for each call, you can determine the approximate bit rate required to achieve the quality you want. You can then use that bit rate for constant bit rate encoding.
 
 If you discover that the quality you want requires a higher bit rate than you can use for your delivery scenario, you can try the following techniques to get more efficiency from the codec.
 

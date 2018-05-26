@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether metadata is written to the transcoded file.'
-ms.assetid: '0fbfc035-c9d1-4014-a28a-93d7e6adc718'
-title: 'MF\_TRANSCODE\_SKIP\_METADATA\_TRANSFER attribute'
+---
+Description: Specifies whether metadata is written to the transcoded file.
+ms.assetid: 0fbfc035-c9d1-4014-a28a-93d7e6adc718
+title: MF\_TRANSCODE\_SKIP\_METADATA\_TRANSFER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSCODE\_SKIP\_METADATA\_TRANSFER attribute
@@ -27,9 +32,9 @@ Possible values for the MF\_TRANSCODE\_SKIP\_METADATA\_TRANSFER attribute are de
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -54,10 +59,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFTranscodeProfile::GetContainerAttributes**](imftranscodeprofile-getcontainerattributes.md)
+[**IMFTranscodeProfile::GetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-getcontainerattributes?branch=master)
 </dt> <dt>
 
-[**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md)
+[**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master)
 </dt> </dl>
 
  

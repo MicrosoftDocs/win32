@@ -1,7 +1,12 @@
-﻿---
-Description: 'Splits a mesh into meshes smaller than the specified size.'
-ms.assetid: '55cdd82f-91fa-4805-969f-8fbe53cbde58'
+---
+Description: Splits a mesh into meshes smaller than the specified size.
+ms.assetid: 55cdd82f-91fa-4805-969f-8fbe53cbde58
 title: D3DXSplitMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSplitMesh function

@@ -1,8 +1,11 @@
 ---
 title: ID3DX11Effect CloneEffect method
 description: Creates a copy of an effect interface.
-ms.assetid: '98cc8e25-38c5-4b87-99eb-39d2edd9053c'
-keywords: ["CloneEffect method Direct3D 11", "CloneEffect method Direct3D 11 , ID3DX11Effect interface", "ID3DX11Effect interface Direct3D 11 , CloneEffect method"]
+ms.assetid: 98cc8e25-38c5-4b87-99eb-39d2edd9053c
+keywords:
+- CloneEffect method Direct3D 11
+- CloneEffect method Direct3D 11 , ID3DX11Effect interface
+- ID3DX11Effect interface Direct3D 11 , CloneEffect method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11Effect::CloneEffect method
@@ -23,8 +31,8 @@ Creates a copy of an effect interface.
 
 ```C++
 HRESULT CloneEffect(
-   UINT          Flags,
-   ID3DX11Effect **ppClonedEffect
+   UINT          Flags,
+   ID3DX11Effect **ppClonedEffect
 );
 ```
 
@@ -45,11 +53,11 @@ Flags affecting the creation of the cloned effect. Can be 0 or one of the follow
 
 | Flag                                    | Description                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| D3DX11\_EFFECT\_CLONE\_FORCE\_NONSINGLE | Ignore all "single" qualifiers on cbuffers. All cbuffers will have their own [**ID3D11Buffer**](id3d11buffer.md)s created in the cloned effect. |
+| D3DX11\_EFFECT\_CLONE\_FORCE\_NONSINGLE | Ignore all "single" qualifiers on cbuffers. All cbuffers will have their own [**ID3D11Buffer**](/windows/win32/D3D11/nn-d3d11-id3d11buffer?branch=master)s created in the cloned effect. |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,7 +81,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -93,9 +101,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11Effect](id3dx11effect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

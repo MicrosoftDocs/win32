@@ -1,7 +1,12 @@
 ---
 title: List View Messages
 description: .
-ms.assetid: 'c324175b-fb41-43e3-a4a3-d97339538299'
+ms.assetid: c324175b-fb41-43e3-a4a3-d97339538299
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List View Messages

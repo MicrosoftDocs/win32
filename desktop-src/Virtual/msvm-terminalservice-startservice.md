@@ -1,8 +1,11 @@
 ---
 title: StartService method of the Msvm\_TerminalService class
 description: Starts the service.
-ms.assetid: '9187f463-79d8-43e3-8bfa-b70990f3cec0'
-keywords: ["StartService method Hyper-V", "StartService method Hyper-V , Msvm_TerminalService class", "Msvm_TerminalService class Hyper-V , StartService method"]
+ms.assetid: 9187f463-79d8-43e3-8bfa-b70990f3cec0
+keywords:
+- StartService method Hyper-V
+- StartService method Hyper-V , Msvm_TerminalService class
+- Msvm_TerminalService class Hyper-V , StartService method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StartService method of the Msvm\_TerminalService class
@@ -57,9 +65,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**Msvm\_TerminalService**](msvm-terminalservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Win32\_CreateFolderAction Methods
 description: The Win32\_CreateFolderAction class exposes the following methods.
-ms.assetid: 'BBBB5D9B-C4C3-429F-B895-29704A425571'
+ms.assetid: BBBB5D9B-C4C3-429F-B895-29704A425571
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_CreateFolderAction Methods

@@ -1,8 +1,9 @@
 ---
 title: glTexCoordPointer function
 description: The glTexCoordPointer function defines an array of texture coordinates.
-ms.assetid: 'c3640a1b-ccc7-4f1a-94a5-a164f7377dbc'
-keywords: ["glTexCoordPointer function OpenGL"]
+ms.assetid: c3640a1b-ccc7-4f1a-94a5-a164f7377dbc
+keywords:
+- glTexCoordPointer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTexCoordPointer function
@@ -22,10 +28,10 @@ The **glTexCoordPointer** function defines an array of texture coordinates.
 
 ```C++
 void WINAPI glTexCoordPointer(
-         GLint   size,
-         GLenum  type,
-         GLsizei stride,
-   const GLvoid  *pointer
+         GLint   size,
+         GLenum  type,
+         GLsizei stride,
+   const GLvoid  *pointer
 );
 ```
 
@@ -127,8 +133,8 @@ The following functions retrieve information related to **glTexCoordPointer**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -184,9 +190,9 @@ The following functions retrieve information related to **glTexCoordPointer**:
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

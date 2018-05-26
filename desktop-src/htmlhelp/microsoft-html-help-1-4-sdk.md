@@ -1,7 +1,12 @@
 ---
 title: Microsoft HTML Help 1.4
 description: Microsoft HTML Help is the standard help system for the Windows platform.
-ms.assetid: 'A2939059-CEAB-43ce-834B-D4F919AE2F08'
+ms.assetid: A2939059-CEAB-43ce-834B-D4F919AE2F08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft HTML Help 1.4
@@ -17,7 +22,7 @@ HTML Help consists of an online Help Viewer, related help components, and help a
 > \[!Important\]  
 > Please note that the latest version of the HTML Help technology is 1.4, as is the SDK. The latest version of the HTML Help Workshop download is 1.3. As of March 2012 there is no HTML Help Workshop 1.4.
 
- 
+ 
 
 ## In the Microsoft HTML Help 1.4 SDK Documentation
 
@@ -25,7 +30,7 @@ HTML Help consists of an online Help Viewer, related help components, and help a
 
 | Topic                                                                                               | Description                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [HTML Help and Windows 7](html-help-and-windows-7.md)<br/>                                   | This topic describes an important safety feature added to HTML Help in Windows 7.<br/>                                                                  |
+| [HTML Help and Windows 7](html-help-and-windows-7.md)<br/>                                   | This topic describes an important safety feature added to HTML Help in Windows 7.<br/>                                                                  |
 | [Designing a Help System](designing-a-help-system.md)<br/>                                   | The topics in this section describe how to design a help system.<br/>                                                                                   |
 | [Creating Help](creating-help.md)<br/>                                                       | The topics in this section describe how to get started creating help.<br/>                                                                              |
 | [Using HTML Help on the Web](using-html-help-on-the-web.md)<br/>                             | You can use the functionality available in HTML Help to create powerful, dynamic websites.<br/>                                                         |
@@ -41,7 +46,7 @@ HTML Help consists of an online Help Viewer, related help components, and help a
 
 
 
- 
+ 
 
 ## Additional Information
 
@@ -61,9 +66,9 @@ Learn about Help MVPs and other online resources that are available for Help aut
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

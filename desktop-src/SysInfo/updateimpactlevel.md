@@ -1,22 +1,27 @@
 ---
-Description: 'Indicates a high, medium, or low impact of a device running an out-of-date OS.'
-ms.assetid: 'C7F30B63-66B0-4F37-A05B-7D366A12B640'
+Description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
+ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
 title: UpdateImpactLevel enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateImpactLevel enumeration
 
-Indicates a high, medium, or low impact of a device running an out-of-date OS. This enumeration is generally used by [**UpdateAssessment**](updateassessment.md) structures, which is in turn nested inside the returned [**OSUpdateAssessment**](osupdateassessment.md) from [**GetOSUpdateAssessment**](iwaasassessor-getosupdateassessment.md).
+Indicates a high, medium, or low impact of a device running an out-of-date OS. This enumeration is generally used by [**UpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagupdateassessment?branch=master) structures, which is in turn nested inside the returned [**OSUpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagosupdateassessment?branch=master) from [**GetOSUpdateAssessment**](/windows/win32/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment?branch=master).
 
 ## Syntax
 
 
 ```C++
 typedef enum TagUpdateImpactLevel { 
-      UpdateImpactLevel_None    = 0,
-  UpdateImpactLevel_Low         = 1,
-      UpdateImpactLevel_Medium  = 2,
-  UpdateImpactLevel_High        = 3
+      UpdateImpactLevel_None    = 0,
+  UpdateImpactLevel_Low         = 1,
+      UpdateImpactLevel_Medium  = 2,
+  UpdateImpactLevel_High        = 3
 } UpdateImpactLevel;
 ```
 
@@ -56,7 +61,7 @@ The device has been out-of-date for a long time. This device may have security v
 
 ## Remarks
 
-When [**GetOSUpdateAssessment**](iwaasassessor-getosupdateassessment.md) is called, an [**OSUpdateAssessment**](osupdateassessment.md) structure is returned. Within the structure there is an **assessmentForCurrent** and **assessmentForUpToDate**. Both of these are [**UpdateAssessment**](updateassessment.md) structures. Both members have an **UpdateImpactLevel** enumeration, which indicates a high, medium, low or no impact for a device running an out-of-date OS. The These levels are determined by the value of **daysOutOfDate**.
+When [**GetOSUpdateAssessment**](/windows/win32/waasapi/nf-waasapi-iwaasassessor-getosupdateassessment?branch=master) is called, an [**OSUpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagosupdateassessment?branch=master) structure is returned. Within the structure there is an **assessmentForCurrent** and **assessmentForUpToDate**. Both of these are [**UpdateAssessment**](/windows/win32/waasapitypes/ns-waasapitypes-tagupdateassessment?branch=master) structures. Both members have an **UpdateImpactLevel** enumeration, which indicates a high, medium, low or no impact for a device running an out-of-date OS. The These levels are determined by the value of **daysOutOfDate**.
 
 ## Requirements
 
@@ -64,15 +69,15 @@ When [**GetOSUpdateAssessment**](iwaasassessor-getosupdateassessment.md) is call
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                   |
 | IDL<br/>                      | <dl> <dt>WaaSAPI.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

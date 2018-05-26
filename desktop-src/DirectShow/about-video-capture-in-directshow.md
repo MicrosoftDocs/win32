@@ -1,7 +1,12 @@
 ---
 Description: About Video Capture in DirectShow
-ms.assetid: '84d722aa-f178-4a1e-8102-c7fc3cb2efb0'
+ms.assetid: 84d722aa-f178-4a1e-8102-c7fc3cb2efb0
 title: About Video Capture in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Video Capture in DirectShow

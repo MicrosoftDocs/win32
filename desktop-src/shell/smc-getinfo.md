@@ -1,6 +1,11 @@
-﻿---
-Description: 'Requests information about a regular menu item.'
-title: 'SMC\_GETINFO message'
+---
+Description: Requests information about a regular menu item.
+title: SMC\_GETINFO message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_GETINFO message
@@ -23,7 +28,7 @@ SMC_GETINFO
 *psminfo* 
 </dt> <dd>
 
-A pointer to a [**SMINFO**](sminfo.md) structure. Fill the structure with the appropriate information and return S\_OK.
+A pointer to a [**SMINFO**](/windows/win32/Shobjidl_core/ns-shobjidl_core-tagsminfo?branch=master) structure. Fill the structure with the appropriate information and return S\_OK.
 
 </dd> </dl>
 
@@ -33,7 +38,7 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method.
 
 ## Requirements
 

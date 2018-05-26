@@ -1,12 +1,17 @@
 ---
-Description: 'The following example sets the last-write time for a file to the current system time using the SetFileTime function.'
-ms.assetid: 'b4a70c01-d5ce-47e8-9918-9c9176894240'
+Description: The following example sets the last-write time for a file to the current system time using the SetFileTime function.
+ms.assetid: b4a70c01-d5ce-47e8-9918-9c9176894240
 title: Changing a File Time to the Current Time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing a File Time to the Current Time
 
-The following example sets the last-write time for a file to the current system time using the [**SetFileTime**](setfiletime.md) function.
+The following example sets the last-write time for a file to the current system time using the [**SetFileTime**](/windows/win32/FileAPI/nf-fileapi-setfiletime?branch=master) function.
 
 The NTFS file system stores time values in UTC format, so they are not affected by changes in time zone or daylight saving time. The FAT file system stores time values based on the local time of the computer.
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.'
-ms.assetid: '809e89e4-3ed5-4dba-82dc-4ec217b8ef38'
-title: 'IMFDXGIDeviceManagerSource::GetManager method'
+---
+Description: Gets the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
+ms.assetid: 809e89e4-3ed5-4dba-82dc-4ec217b8ef38
+title: IMFDXGIDeviceManagerSourceGetManager method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFDXGIDeviceManagerSource::GetManager method
 
-Gets the [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md) from the Microsoft Media Foundation video rendering sink.
+Gets the [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master) from the Microsoft Media Foundation video rendering sink.
 
 ## Syntax
 
@@ -26,7 +31,7 @@ HRESULT GetManager(
 *ppManager* \[out\]
 </dt> <dd>
 
-The [**IMFDXGIDeviceManager**](imfdxgidevicemanager.md) object.
+The [**IMFDXGIDeviceManager**](/windows/win32/mfobjects/nn-mfobjects-imfdxgidevicemanager?branch=master) object.
 
 </dd> </dl>
 

@@ -1,14 +1,20 @@
 ---
 title: RequiresExecution element
 description: The assessment must be executed.
-ms.assetid: 'E26DDE32-4C2C-4CD1-9AE6-94762CE93ADC'
-keywords: ["RequiresExecution element Access Execution Engine"]
+ms.assetid: E26DDE32-4C2C-4CD1-9AE6-94762CE93ADC
+keywords:
+- RequiresExecution element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresExecution
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresExecution element

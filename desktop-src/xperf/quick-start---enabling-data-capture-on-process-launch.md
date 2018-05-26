@@ -1,7 +1,12 @@
 ---
 title: Quick Start - Enabling Data Capture on Process Launch
 description: Quick Start - Enabling Data Capture on Process Launch
-ms.assetid: 'e3334695-518c-4077-a702-051dea45fcfd'
+ms.assetid: e3334695-518c-4077-a702-051dea45fcfd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start - Enabling Data Capture on Process Launch
@@ -35,7 +40,7 @@ Enabling data capture on process launch guarantees that there will be no loss of
 
     
 
-     
+     
 
 4.  Next, enter the following on a single line:
 
@@ -63,7 +68,7 @@ Enabling data capture on process launch guarantees that there will be no loss of
 
     
 
-     
+     
 
 5.  At this point the sidebar will open on the desktop.
 
@@ -87,7 +92,7 @@ Enabling data capture on process launch guarantees that there will be no loss of
 
     
 
-     
+     
 
     For more information on WPA start and stop options, use the command line query:
 
@@ -98,9 +103,9 @@ Enabling data capture on process launch guarantees that there will be no loss of
 
     
 
- 
+ 
 
- 
+ 
 
 
 

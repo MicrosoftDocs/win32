@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintSchemaParameterDefinition interface represents a parameter definition, as defined in the Print Schema Specification.'
-ms.assetid: '205A4F09-6FE5-459E-A94A-13B1839AF489'
+---
+Description: The IPrintSchemaParameterDefinition interface represents a parameter definition, as defined in the Print Schema Specification.
+ms.assetid: 205A4F09-6FE5-459E-A94A-13B1839AF489
 title: IPrintSchemaParameterDefinition interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterDefinition interface

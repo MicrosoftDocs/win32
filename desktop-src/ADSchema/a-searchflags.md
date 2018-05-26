@@ -4,17 +4,22 @@ description: Contains a set of flags that specify search and indexing informatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '55fc4398-25d2-466a-9aa9-fa375d827023'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 55fc4398-25d2-466a-9aa9-fa375d827023
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Search-Flags attribute AD Schema", "searchFlags attribute AD Schema"]
+keywords:
+- Search-Flags attribute AD Schema
+- searchFlags attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Search-Flags
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Search-Flags attribute
@@ -38,13 +43,13 @@ Contains a set of flags that specify search and indexing information for an attr
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -209,15 +214,15 @@ This attribute can be zero or a combination of one or more of the following valu
 | 32 (0x00000020)  | Create a tuple index for the attribute. This will improve searches where the wildcard appears at the front of the search string. For example, (sn=\*mith).                                                                                                                                                                                                                |
 | 64(0x00000040)   | Supported beginning with ADAM. Creates an index to greatly help VLV performance on arbitrary attributes.                                                                                                                                                                                                                                                                  |
 | 128 (0x00000080) | Mark attribute as confidential. Ignored for base schema attributes (systemFlags=0x10).                                                                                                                                                                                                                                                                                    |
-| 64 (0x00000040)  | Supported beginning with Windows Server 2008. Create an index to improve VLV search performance on this attribute.                                                                                                                                                                                                                                                        |
+| 64 (0x00000040)  | Supported beginning with Windows Server 2008. Create an index to improve VLV search performance on this attribute.                                                                                                                                                                                                                                                        |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

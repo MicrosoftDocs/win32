@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of an emulated Ethernet adapter.'
-ms.assetid: '8BFD69D8-65B6-4C6F-9972-BD2F3C4FB5B8'
-title: 'Msvm\_EmulatedEthernetPortSettingData class'
+Description: Represents the configured state of an emulated Ethernet adapter.
+ms.assetid: 8BFD69D8-65B6-4C6F-9972-BD2F3C4FB5B8
+title: Msvm\_EmulatedEthernetPortSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EmulatedEthernetPortSettingData class
@@ -16,31 +21,31 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EmulatedEthernetPortSettingData : CIM_EthernetPortAllocationSettingData
 {
-  string  Caption = "Ethernet Port";
-  string  Description = "Settings for the Microsoft Emulated Ethernet Port";
-  string  InstanceID = "Microsoft:VMID\VDID\device-specific-data";
-  string  ElementName = "Ethernet Port";
-  uint16  ResourceType = 10;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft Emulated Ethernet Port";
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "Ports";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  Caption = "Ethernet Port";
+  string  Description = "Settings for the Microsoft Emulated Ethernet Port";
+  string  InstanceID = "Microsoft:VMID\VDID\device-specific-data";
+  string  ElementName = "Ethernet Port";
+  uint16  ResourceType = 10;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft Emulated Ethernet Port";
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "Ports";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
-  uint16  DesiredVLANEndpointMode;
-  string  OtherEndpointMode;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
+  uint16  DesiredVLANEndpointMode;
+  string  OtherEndpointMode;
   boolean StaticMacAddress = TRUE;
   boolean ClusterMonitored = TRUE;
 };
@@ -151,7 +156,7 @@ Indicates whether this ethernet adapter is monitored by a cluster. This property
 
 This is a read-only property, but it can be changed by using the [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -435,8 +440,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -453,9 +458,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

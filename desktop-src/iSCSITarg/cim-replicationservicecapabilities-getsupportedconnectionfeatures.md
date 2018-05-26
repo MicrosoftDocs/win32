@@ -4,13 +4,16 @@ description: This method accepts a connection reference and returns specific fea
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '46a9d0fd-500a-4140-b040-4dcca271b8a9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 46a9d0fd-500a-4140-b040-4dcca271b8a9
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedConnectionFeatures method iSCSI Software Target API", "GetSupportedConnectionFeatures method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class", "CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedConnectionFeatures method"]
+keywords:
+- GetSupportedConnectionFeatures method iSCSI Software Target API
+- GetSupportedConnectionFeatures method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedConnectionFeatures method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedConnectionFeatures method of the CIM\_ReplicationServiceCapabilities class
@@ -30,8 +36,8 @@ This method accepts a connection reference and returns specific features of that
 
 ```mof
 uint32 GetSupportedConnectionFeatures(
-  [in]  CIM_ServiceAccessPoint REF connection,
-  [out] uint16                     SupportedConnectionFeatures[]
+  [in]  CIM_ServiceAccessPoint REF connection,
+  [out] uint16                     SupportedConnectionFeatures[]
 );
 ```
 
@@ -74,14 +80,14 @@ An array supported connection features. Unidirectional to ServiceAccessPoint: Da
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> </dl>
+</dt> <dd>32768 65535</dd> </dl> </dd> </dl>
 
 ## Return value
 
@@ -108,10 +114,10 @@ An array supported connection features. Unidirectional to ServiceAccessPoint: Da
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -121,7 +127,7 @@ An array supported connection features. Unidirectional to ServiceAccessPoint: Da
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -135,9 +141,9 @@ An array supported connection features. Unidirectional to ServiceAccessPoint: Da
 [**CIM\_ReplicationServiceCapabilities**](cim-replicationservicecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

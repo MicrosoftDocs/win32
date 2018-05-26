@@ -1,32 +1,35 @@
 ---
-Description: 'The IWbemObjectSink interface creates a sink interface that can receive all types of notifications within the WMI programming model.'
+Description: The IWbemObjectSink interface creates a sink interface that can receive all types of notifications within the WMI programming model.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '987aea1d-912a-4691-987f-181c1ef1a8a9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 987aea1d-912a-4691-987f-181c1ef1a8a9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IWbemObjectSink interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IWbemObjectSink interface
 
-The **IWbemObjectSink** interface creates a sink interface that can receive all types of notifications within the WMI programming model. Clients must implement this interface to receive both the results of the [asynchronous methods](making-an-asynchronous-call-with-c--.md) of [**IWbemServices**](iwbemservices.md), and specific types of event notifications. Providers use, but do not implement this interface to provide events and objects to WMI.
+The **IWbemObjectSink** interface creates a sink interface that can receive all types of notifications within the WMI programming model. Clients must implement this interface to receive both the results of the [asynchronous methods](making-an-asynchronous-call-with-c--.md) of [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master), and specific types of event notifications. Providers use, but do not implement this interface to provide events and objects to WMI.
 
-Typically, providers call an implementation provided to them by WMI. In these cases, call [**Indicate**](iwbemobjectsink-indicate.md) to provide objects to the WMI service. After that, call [**SetStatus**](iwbemobjectsink-setstatus.md) to indicate the end of the notification sequence. You can also call **SetStatus** to indicate errors when the sink does not have any objects.
+Typically, providers call an implementation provided to them by WMI. In these cases, call [**Indicate**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate?branch=master) to provide objects to the WMI service. After that, call [**SetStatus**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus?branch=master) to indicate the end of the notification sequence. You can also call **SetStatus** to indicate errors when the sink does not have any objects.
 
 When programming asynchronous clients of WMI, the user provides the implementation. WMI calls the methods to deliver objects and set the status of the result.
 
 > [!Note]  
 > If a client application passes the same sink interface in two different overlapping asynchronous calls, WMI does not guarantee the order of the callback. Client applications that make overlapping asynchronous calls should either pass different sink objects, or serialize their calls.
 
- 
+ 
 
 > [!Note]  
 > Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. For more information, see [Calling a Method](calling-a-method.md).
 
- 
+ 
 
 ## Members
 
@@ -42,22 +45,22 @@ The **IWbemObjectSink** interface has these methods.
 
 | Method                                         | Description                                                                                                             |
 |:-----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------|
-| [**Indicate**](iwbemobjectsink-indicate.md)   | Receives notification objects.<br/>                                                                               |
-| [**SetStatus**](iwbemobjectsink-setstatus.md) | Called by sources to indicate the end of a notification sequence, or to send other status codes to the sink.<br/> |
+| [**Indicate**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate?branch=master)   | Receives notification objects.<br/>                                                                               |
+| [**SetStatus**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus?branch=master) | Called by sources to indicate the end of a notification sequence, or to send other status codes to the sink.<br/> |
 
 
 
- 
+ 
 
 ## Remarks
 
-When implementing an event subscription sink (**IWbemObjectSink** or [**IWbemEventSink**](iwbemeventsink.md)), do not call into WMI from within the [**Indicate**](iwbemobjectsink-indicate.md) or [**SetStatus**](iwbemobjectsink-setstatus.md) methods on the sink object. For example, calling [**IWbemServices::CancelAsyncCall**](iwbemservices-cancelasynccall.md) to cancel the sink from within an implementation of [**Indicate**](iwbemobjectsink-indicate.md) can interfere with the WMI state. To cancel an event subscription, set a flag and call **IWbemServices::CancelAsyncCall** from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
+When implementing an event subscription sink (**IWbemObjectSink** or [**IWbemEventSink**](iwbemeventsink.md)), do not call into WMI from within the [**Indicate**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate?branch=master) or [**SetStatus**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus?branch=master) methods on the sink object. For example, calling [**IWbemServices::CancelAsyncCall**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-cancelasynccall?branch=master) to cancel the sink from within an implementation of [**Indicate**](/windows/win32/Wbemcli/nf-wbemcli-iwbemobjectsink-indicate?branch=master) can interfere with the WMI state. To cancel an event subscription, set a flag and call **IWbemServices::CancelAsyncCall** from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
 
 Sink implementations should process the event notification within 100 MSEC because the WMI thread that delivers the event notification cannot do other work until the sink object has completed processing. If the notification requires a large amount of processing, the sink can use an internal queue for another thread to handle the processing.
 
 ## Examples
 
-The following code example is a simple implementation of an object sink. This sample can be used with [**IWbemServices::ExecQueryAsync**](iwbemservices-execqueryasync.md) or [**IWbemServices::CreateInstanceEnumAsync**](iwbemservices-createinstanceenumasync.md) to receive the returned instances:
+The following code example is a simple implementation of an object sink. This sample can be used with [**IWbemServices::ExecQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execqueryasync?branch=master) or [**IWbemServices::CreateInstanceEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync?branch=master) to receive the returned instances:
 
 
 ```C++
@@ -155,8 +158,8 @@ HRESULT QuerySink::SetStatus(
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>Wbemcli.h (include Wbemidl.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Wbemuuid.lib</dt> </dl>                  |
 | DLL<br/>                      | <dl> <dt>Fastprox.dll</dt> </dl>                  |
@@ -179,9 +182,9 @@ HRESULT QuerySink::SetStatus(
 [Receiving Events for the Duration of your Application](receiving-events-for-the-duration-of-your-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

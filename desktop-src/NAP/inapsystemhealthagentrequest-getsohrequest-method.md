@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentRequest GetSoHRequest method
 description: Can be used by SHAs get SoHs previously cached by the NapAgent.
-ms.assetid: '187a4513-79db-45cb-8d64-6a92a2d3b004'
-keywords: ["GetSoHRequest method NAP", "GetSoHRequest method NAP , INapSystemHealthAgentRequest interface", "INapSystemHealthAgentRequest interface NAP , GetSoHRequest method"]
+ms.assetid: 187a4513-79db-45cb-8d64-6a92a2d3b004
+keywords:
+- GetSoHRequest method NAP
+- GetSoHRequest method NAP , INapSystemHealthAgentRequest interface
+- INapSystemHealthAgentRequest interface NAP , GetSoHRequest method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagentrt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentRequest::GetSoHRequest method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentRequest::GetSoHRequest** method can be used by SHAs get SoHs previously cached by the NapAgent.
 
@@ -27,7 +35,7 @@ The **INapSystemHealthAgentRequest::GetSoHRequest** method can be used by SHAs g
 
 ```C++
 HRESULT GetSoHRequest(
-  [out] SoHRequest **sohRequest
+  [out] SoHRequest **sohRequest
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetSoHRequest(
 *sohRequest* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**SoHRequest**](soh-struct.md).
+A pointer to a pointer to a [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master).
 
 </dd> </dl>
 
@@ -59,7 +67,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +75,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagentrt.dll</dt> </dl>             |
@@ -82,9 +90,9 @@ Other COM-specific error codes also may be returned.
 [**INapSystemHealthAgentRequest**](inapsystemhealthagentrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

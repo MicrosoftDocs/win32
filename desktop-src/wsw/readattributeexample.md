@@ -1,8 +1,16 @@
 ---
 title: ReadAttributeExample
 description: This example reads an attribute.
-ms.assetid: 'e37946f0-66e0-4fb1-aeee-db4447ed4030'
-keywords: ["ReadAttributeExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: e37946f0-66e0-4fb1-aeee-db4447ed4030
+keywords:
+- ReadAttributeExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadAttributeExample

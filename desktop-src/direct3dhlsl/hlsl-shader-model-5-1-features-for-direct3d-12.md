@@ -1,7 +1,12 @@
 ---
 title: HLSL Shader Model 5.1
 description: This section describes the features of Shader Model 5.1 as they apply in practice to D3D12 and D3D11.3. All DirectX 12 hardware supports Shader Model 5.1.
-ms.assetid: '6EF38EB9-71CB-4591-AAE2-F3FFC23E73B8'
+ms.assetid: 6EF38EB9-71CB-4591-AAE2-F3FFC23E73B8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HLSL Shader Model 5.1
@@ -19,7 +24,7 @@ This section describes the features of Shader Model 5.1 as they apply in practic
 
 
 
- 
+ 
 
 For details of the syntax changes to the shader language, refer to [Shader Model 5.1](shader-model-5-1.md).
 
@@ -30,9 +35,9 @@ For details of the syntax changes to the shader language, refer to [Shader Model
 [Programming Guide for HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

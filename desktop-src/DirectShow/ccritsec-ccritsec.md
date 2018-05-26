@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'e8e9138a-6c39-41de-a7f8-d9e9c4fe5ab6'
-title: 'CCritSec.CCritSec constructor'
+Description: Constructor method.
+ms.assetid: e8e9138a-6c39-41de-a7f8-d9e9c4fe5ab6
+title: CCritSec.CCritSec constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCritSec.CCritSec constructor
@@ -43,9 +48,9 @@ This method calls the [**InitializeCriticalSection**](https://msdn.microsoft.com
 [**CCritSec Class**](ccritsec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

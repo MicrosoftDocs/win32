@@ -1,8 +1,14 @@
 ---
 title: Introduction Intro to WPA
 description: Introduction Intro to WPA
-ms.assetid: 'aaa7f6a3-a926-4b2a-9bd8-3dc8a259d3d7'
-keywords: ["Windows Performance Analyzer"]
+ms.assetid: aaa7f6a3-a926-4b2a-9bd8-3dc8a259d3d7
+keywords:
+- Windows Performance Analyzer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction: Intro to WPA

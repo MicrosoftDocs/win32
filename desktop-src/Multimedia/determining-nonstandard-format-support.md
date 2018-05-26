@@ -1,8 +1,17 @@
 ---
 title: Determining Nonstandard Format Support
 description: Determining Nonstandard Format Support
-ms.assetid: 'a795aa7d-704b-4f03-9815-7a298907bd3d'
-keywords: ["waveform audio,nonstandard format support", "auxiliary audio,nonstandard format support", "waveform audio,standard format support", "auxiliary audio,standard format support"]
+ms.assetid: a795aa7d-704b-4f03-9815-7a298907bd3d
+keywords:
+- waveform audio,nonstandard format support
+- auxiliary audio,nonstandard format support
+- waveform audio,standard format support
+- auxiliary audio,standard format support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining Nonstandard Format Support

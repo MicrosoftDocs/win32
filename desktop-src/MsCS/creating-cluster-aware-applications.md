@@ -4,11 +4,15 @@ description: The following sections attempt to reduce the general task of creati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '90b1b234-7d3c-4ffb-8a42-2704e9a3671d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 90b1b234-7d3c-4ffb-8a42-2704e9a3671d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster-aware applications Failover Cluster ,creating"]
+keywords:
+- cluster-aware applications Failover Cluster ,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Cluster-Aware Applications

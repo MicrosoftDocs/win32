@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMQueryFontTree function provides GDI with a pointer to a structure that defines one of the following:'
-ms.assetid: 'e2e30707-dffd-4990-a552-b67a7d9e2ca4'
+---
+Description: The OEMQueryFontTree function provides GDI with a pointer to a structure that defines one of the following
+ms.assetid: e2e30707-dffd-4990-a552-b67a7d9e2ca4
 title: OEMQueryFontTree function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMQueryFontTree function

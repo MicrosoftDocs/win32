@@ -1,7 +1,12 @@
 ---
 title: Subnet Bandwidth Manager
 description: The Subnet Bandwidth Manager (SBM) is the QOS component that provides resource management and policy based \ 8211;admission control for QOS-aware applications using shared media subnets (Ethernet, for example).
-ms.assetid: 'b32224ed-633f-4adb-be50-ee1db45b7a26'
+ms.assetid: b32224ed-633f-4adb-be50-ee1db45b7a26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subnet Bandwidth Manager

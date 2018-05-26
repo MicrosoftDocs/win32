@@ -1,7 +1,12 @@
 ---
 title: StopAll Method
 description: StopAll Method
-ms.assetid: '2ce32ff8-4908-45b1-9b83-4d558f67417c'
+ms.assetid: 2ce32ff8-4908-45b1-9b83-4d558f67417c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopAll Method
@@ -30,7 +35,7 @@ Stops all animation requests or specified types of requests for the specified ch
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -45,9 +50,9 @@ This method will not generate a [**Request**](https://msdn.microsoft.com/library
 [**Stop method**](stop-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

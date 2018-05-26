@@ -1,7 +1,12 @@
 ---
 title: Setting Up a Remote Virtual Root
 description: Setting Up a Remote Virtual Root
-ms.assetid: '8adf7ac3-5e68-4fc3-abef-4db5b28b810b'
+ms.assetid: 8adf7ac3-5e68-4fc3-abef-4db5b28b810b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up a Remote Virtual Root

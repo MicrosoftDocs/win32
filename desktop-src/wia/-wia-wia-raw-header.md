@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WIA\_RAW\_HEADER structure defines an image in the RAW data format of a device and enables applications to use RAW format in Windows Image Acquisition (WIA) transfers.'
-ms.assetid: 'c7b50816-d596-4c62-a00e-cd8d6e303e42'
-title: 'WIA\_RAW\_HEADER structure'
+---
+Description: The WIA\_RAW\_HEADER structure defines an image in the RAW data format of a device and enables applications to use RAW format in Windows Image Acquisition (WIA) transfers.
+ms.assetid: c7b50816-d596-4c62-a00e-cd8d6e303e42
+title: WIA\_RAW\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA\_RAW\_HEADER structure

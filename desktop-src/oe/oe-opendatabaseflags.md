@@ -1,7 +1,7 @@
 ---
 title: OPENDATABASEFLAGS
 description: Do not use. DWORD that specifies various flags that are used when opening a database.
-ms.assetid: '8eadd761-d52b-4552-8d79-b61f3feb3daf'
+ms.assetid: 8eadd761-d52b-4552-8d79-b61f3feb3daf
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - Directdb.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPENDATABASEFLAGS
@@ -38,16 +43,16 @@ Do not use. DWORD that specifies various flags that are used when opening a data
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

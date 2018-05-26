@@ -4,17 +4,21 @@ description: The MMC\_SNAPIN\_MACHINE\_NAME clipboard format provides the name o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4d3433c5-6c3c-4af3-bf35-46f3d63dd2d7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4d3433c5-6c3c-4af3-bf35-46f3d63dd2d7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC_SNAPIN_MACHINE_NAME clipboard format MMC"]
+keywords:
+- MMC_SNAPIN_MACHINE_NAME clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - MMC_SNAPIN_MACHINE_NAME
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC\_SNAPIN\_MACHINE\_NAME clipboard format

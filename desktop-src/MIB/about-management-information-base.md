@@ -1,8 +1,20 @@
 ---
 title: About Management Information Base
 description: The Management Information Base (MIB) application programming interface (API) provides network and network management data in the MIB format defined as part of the Simple Management Network Protocol (SNMP).
-ms.assetid: 'bf678819-2d8a-44c0-91ae-39d56a19a776'
-keywords: ["Routing and Remote Access Service MIB , Management Information Base", "Routing and Remote Access Service MIB , Management Information Base, described", "Management Information Base MIB", "MIB", "MIB, See Management Information Base", "Management Information Base MIB", "Management Information Base MIB , described"]
+ms.assetid: bf678819-2d8a-44c0-91ae-39d56a19a776
+keywords:
+- Routing and Remote Access Service MIB , Management Information Base
+- Routing and Remote Access Service MIB , Management Information Base, described
+- Management Information Base MIB
+- MIB
+- MIB, See Management Information Base
+- Management Information Base MIB
+- Management Information Base MIB , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Management Information Base

@@ -1,7 +1,12 @@
 ---
 title: How to Scroll Text
-description: This section describes the changes you can make to an application's main window procedure to enable a user to scroll text.
-ms.assetid: 'ACB4FF34-38EF-4F3D-9395-D48D58A72C0B'
+description: This section describes the changes you can make to an applications main window procedure to enable a user to scroll text.
+ms.assetid: ACB4FF34-38EF-4F3D-9395-D48D58A72C0B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Scroll Text
@@ -31,13 +36,13 @@ In the example in this section, one vertical scrolling unit is equivalent to the
 
 When processing the [**WM\_SIZE**](https://msdn.microsoft.com/library/windows/desktop/ms632646) message, it is convenient to adjust the scrolling range and scrolling position to reflect the dimensions of the client area as well as the number of lines of text that will be displayed.
 
-The [**SetScrollInfo**](setscrollinfo.md) function sets the minimum and maximum position values, the page size, and the scrolling position for a scroll bar.
+The [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function sets the minimum and maximum position values, the page size, and the scrolling position for a scroll bar.
 
 ### Processing the WM\_HSCROLL and WM\_VSCROLL Messages
 
 The scroll bar sends [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md) messages to the window procedure whenever the user clicks the scroll bar or drags the scroll box. The low-order words of **WM\_VSCROLL** and **WM\_HSCROLL** each contain a request code that indicates the direction and magnitude of the scrolling action.
 
-When the [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md) messages are processed, the scroll bar request code is examined and the scrolling increment is calculated. After the increment is applied to the current scrolling position, the window is scrolled to the new position by using the [**ScrollWindowEx**](scrollwindowex.md) function, and the position of the scroll box is adjusted by using the [**SetScrollInfo**](setscrollinfo.md) function.
+When the [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md) messages are processed, the scroll bar request code is examined and the scrolling increment is calculated. After the increment is applied to the current scrolling position, the window is scrolled to the new position by using the [**ScrollWindowEx**](/windows/win32/Winuser/nf-winuser-scrollwindowex?branch=master) function, and the position of the scroll box is adjusted by using the [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function.
 
 After a window is scrolled, part of its client area is made invalid. To ensure that the invalid region is updated, the [**UpdateWindow**](https://msdn.microsoft.com/library/windows/desktop/dd145167) function is used to generate a [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message.
 

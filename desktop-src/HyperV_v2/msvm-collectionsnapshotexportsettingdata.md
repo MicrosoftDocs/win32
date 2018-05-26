@@ -1,7 +1,12 @@
 ---
-Description: 'Export setting data to be passed in to the ExportSnapshot method of Msvm\_CollectionSnapshotService class.'
-ms.assetid: '03b448ed-72bc-485e-bb31-4445c53baa1c'
-title: 'Msvm\_CollectionSnapshotExportSettingData class'
+Description: Export setting data to be passed in to the ExportSnapshot method of Msvm\_CollectionSnapshotService class.
+ms.assetid: 03b448ed-72bc-485e-bb31-4445c53baa1c
+title: Msvm\_CollectionSnapshotExportSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CollectionSnapshotExportSettingData class
@@ -17,8 +22,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_CollectionSnapshotExportSettingData : CIM_SettingData
 {
   boolean CopyVmStorage;
-  string  DifferentialBackupBase;
-  uint16  BackupIntent;
+  string  DifferentialBackupBase;
+  uint16  BackupIntent;
 };
 ```
 
@@ -103,8 +108,8 @@ Base for differential export. This is either path to an [**Msvm\_ReferencePointC
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -118,9 +123,9 @@ Base for differential export. This is either path to an [**Msvm\_ReferencePointC
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

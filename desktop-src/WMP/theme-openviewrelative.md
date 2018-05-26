@@ -1,14 +1,20 @@
 ---
 title: THEME.openViewRelative
 description: The openViewRelative method opens a VIEW in a new window at a specified initial position relative to the upper-left corner of the skin.
-ms.assetid: 'fc31a1ce-e6b9-4084-b244-28fad486f485'
-keywords: ["THEME.openViewRelative Windows Media Player"]
+ms.assetid: fc31a1ce-e6b9-4084-b244-28fad486f485
+keywords:
+- THEME.openViewRelative Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.openViewRelative
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.openViewRelative
@@ -92,9 +98,9 @@ The position specified for the **VIEW** is used the first time this method is ca
 [**THEME.openView**](theme-openview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

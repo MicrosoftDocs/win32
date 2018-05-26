@@ -1,16 +1,20 @@
 ---
-title: What's New
+title: Whats New
 description: Windows Server 2012 R2 introduces the following changes to the Distributed File System Replication (DFSR) WMI provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7A0100C9-01C7-474B-A4CC-1D1ADD668108'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7A0100C9-01C7-474B-A4CC-1D1ADD668108
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Distributed File System Replication , what's new"]
+keywords:
+- Distributed File System Replication Distributed File System Replication , whats new
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New

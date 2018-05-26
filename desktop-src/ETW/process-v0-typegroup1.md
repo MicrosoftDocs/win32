@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for process events. The following syntax is simplified from MOF code.'
-ms.assetid: 'fcf2897d-32b4-42b9-892c-f0106687d3c2'
-title: 'Process\_V0\_TypeGroup1 class'
+---
+Description: This class is the event type class for process events. The following syntax is simplified from MOF code.
+ms.assetid: fcf2897d-32b4-42b9-892c-f0106687d3c2
+title: Process\_V0\_TypeGroup1 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process\_V0\_TypeGroup1 class

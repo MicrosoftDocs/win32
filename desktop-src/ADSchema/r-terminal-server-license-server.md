@@ -4,17 +4,21 @@ description: Terminal-Server-License-Server property set
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bcc6d6a5-0112-4966-b24b-87f02cb479c5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bcc6d6a5-0112-4966-b24b-87f02cb479c5
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Terminal-Server-License-Server property set AD Schema"]
+keywords:
+- Terminal-Server-License-Server property set AD Schema
 topic_type:
 - apiref
 api_name:
 - Terminal-Server-License-Server
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Terminal-Server-License-Server property set
@@ -31,9 +35,9 @@ api_type:
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -71,9 +75,9 @@ api_type:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

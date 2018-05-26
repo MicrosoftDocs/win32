@@ -1,8 +1,28 @@
 ---
 title: WCS Gamut Map Model Profile Schema and Algorithms
 description: WCS Gamut Map Model Profile Schema and Algorithms
-ms.assetid: '64b9871a-1b4f-4e9a-be4d-4c25b3198b91'
-keywords: ["Windows Color System (WCS),gamut map model profile (GMMP)", "WCS (Windows Color System),gamut map model profile (GMMP)", "image color management,gamut map model profile (GMMP)", "color management,gamut map model profile (GMMP)", "colors,gamut map model profile (GMMP)", "Windows Color System (WCS),profiles", "WCS (Windows Color System),profiles", "image color management,profiles", "color management,profiles", "colors,profiles", "gamut map model profile (GMMP)", "GMMP (gamut map model profile)", "WCS gamut map model profile", "schemas,gamut map model profile (GMMP)", "algorithms,gamut map model profile (GMMP)"]
+ms.assetid: 64b9871a-1b4f-4e9a-be4d-4c25b3198b91
+keywords:
+- Windows Color System (WCS),gamut map model profile (GMMP)
+- WCS (Windows Color System),gamut map model profile (GMMP)
+- image color management,gamut map model profile (GMMP)
+- color management,gamut map model profile (GMMP)
+- colors,gamut map model profile (GMMP)
+- Windows Color System (WCS),profiles
+- WCS (Windows Color System),profiles
+- image color management,profiles
+- color management,profiles
+- colors,profiles
+- gamut map model profile (GMMP)
+- GMMP (gamut map model profile)
+- WCS gamut map model profile
+- schemas,gamut map model profile (GMMP)
+- algorithms,gamut map model profile (GMMP)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Gamut Map Model Profile Schema and Algorithms

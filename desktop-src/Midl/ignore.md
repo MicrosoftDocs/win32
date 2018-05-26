@@ -2,13 +2,19 @@
 title: ignore attribute
 description: The \ ignore\ attribute designates that a pointer contained in a structure or union and the object indicated by the pointer is not transmitted. The \ ignore\ attribute is restricted to pointer members of structures or unions.
 ms.assetid: 9c2fc71a-4fac-4a59-95f5-2121067b326f
-keywords: ["ignore attribute MIDL"]
+keywords:
+- ignore attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ignore
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ignore attribute

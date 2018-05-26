@@ -4,11 +4,14 @@ description: Invalid PL was passed to the Active Directory Rights Management cli
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.INVALID\_PL'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.INVALID\_PL
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["INVALID_PL property", "INVALID_PL property, ErrorInfomation class", "ErrorInfomation class, INVALID_PL property"]
+keywords:
+- INVALID_PL property
+- INVALID_PL property, ErrorInfomation class
+- ErrorInfomation class, INVALID_PL property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.INVALID\_PL property
@@ -61,9 +67,9 @@ static property TBD INVALID_PL {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

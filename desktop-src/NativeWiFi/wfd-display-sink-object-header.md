@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the display sink object data included in a notification or notification result.'
-ms.assetid: '40D931F6-C068-48EB-A968-9CBAA3F9FAD8'
-title: 'WFD\_DISPLAY\_SINK\_OBJECT\_HEADER structure'
+---
+Description: Describes the display sink object data included in a notification or notification result.
+ms.assetid: 40D931F6-C068-48EB-A968-9CBAA3F9FAD8
+title: WFD\_DISPLAY\_SINK\_OBJECT\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFD\_DISPLAY\_SINK\_OBJECT\_HEADER structure

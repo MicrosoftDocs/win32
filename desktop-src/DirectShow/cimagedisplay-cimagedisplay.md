@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '171a4f1e-a85d-4da8-9372-054aaa0e0a40'
-title: 'CImageDisplay.CImageDisplay constructor'
+Description: Constructor method.
+ms.assetid: 171a4f1e-a85d-4da8-9372-054aaa0e0a40
+title: CImageDisplay.CImageDisplay constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.CImageDisplay constructor
@@ -46,9 +51,9 @@ The constructor initializes the format type, using the display settings for the 
 [**CImageDisplay::RefreshDisplayType**](cimagedisplay-refreshdisplaytype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

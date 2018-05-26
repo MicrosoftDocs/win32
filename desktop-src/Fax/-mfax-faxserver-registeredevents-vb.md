@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RegisteredEvents property is a value from an enumeration that indicates the types of fax service events a client application is listening for.'
-ms.assetid: '8a5bed59-4c4d-43db-96e2-9d9312e05983'
-title: 'FaxServer.RegisteredEvents property'
+---
+Description: The RegisteredEvents property is a value from an enumeration that indicates the types of fax service events a client application is listening for.
+ms.assetid: 8a5bed59-4c4d-43db-96e2-9d9312e05983
+title: FaxServer.RegisteredEvents property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.RegisteredEvents property
@@ -21,7 +26,7 @@ Property RegisteredEvents As Integer
 
 ## Property value
 
-Value from the [**FAX\_SERVER\_EVENTS\_TYPE\_ENUM**](-mfax-fax-server-events-type-enum.md) enumeration that indicates the types of events the fax service sends to client applications that are listening for events.
+Value from the [**FAX\_SERVER\_EVENTS\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master) enumeration that indicates the types of events the fax service sends to client applications that are listening for events.
 
 ## Requirements
 
@@ -43,7 +48,7 @@ Value from the [**FAX\_SERVER\_EVENTS\_TYPE\_ENUM**](-mfax-fax-server-events-typ
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

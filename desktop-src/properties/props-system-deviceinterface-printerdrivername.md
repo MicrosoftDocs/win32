@@ -1,7 +1,12 @@
 ---
-Description: 'The name of the printer driver file.'
-ms.assetid: '82366686-8661-466b-881D-EBB2E03993C5'
-title: 'System.DeviceInterface.PrinterDriverName'
+Description: The name of the printer driver file.
+ms.assetid: 82366686-8661-466b-881D-EBB2E03993C5
+title: System.DeviceInterface.PrinterDriverName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.PrinterDriverName

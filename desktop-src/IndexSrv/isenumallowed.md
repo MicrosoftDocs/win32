@@ -1,7 +1,12 @@
 ---
 title: IsEnumAllowed
 description: IsEnumAllowed
-ms.assetid: '7627008a-a40d-46cd-b55a-9f1a94d92d5b'
+ms.assetid: 7627008a-a40d-46cd-b55a-9f1a94d92d5b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsEnumAllowed

@@ -1,7 +1,12 @@
 ---
-Description: 'Processes requests. This is a pure virtual member function.'
-ms.assetid: 'ffdbc287-ca17-44e4-b00a-d72a2367f510'
-title: 'CMsgThread.ThreadMessageProc method'
+Description: Processes requests. This is a pure virtual member function.
+ms.assetid: ffdbc287-ca17-44e4-b00a-d72a2367f510
+title: CMsgThread.ThreadMessageProc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.ThreadMessageProc method
@@ -13,10 +18,10 @@ Processes requests. This is a pure virtual member function.
 
 ```C++
 virtual LRESULT ThreadMessageProc(
-   UINT     uMsg,
-   DWORD    dwFlags,
-   LPVOID   lpParam,
-   CAMEvent *pEvent
+   UINT     uMsg,
+   DWORD    dwFlags,
+   LPVOID   lpParam,
+   CAMEvent *pEvent
 );
 ```
 
@@ -91,9 +96,9 @@ One request code must be set aside to tell the worker thread to exit. Upon recei
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

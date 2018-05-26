@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c1735b3d-d77b-41c6-9b88-22284750e558'
-title: 'System.ShareUserRating'
+Description: .
+ms.assetid: c1735b3d-d77b-41c6-9b88-22284750e558
+title: System.ShareUserRating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ShareUserRating

@@ -1,7 +1,12 @@
 ---
 title: To set an index keyword to jump to another keyword
 description: To set an index keyword to jump to another keyword
-ms.assetid: '02A9317A-E124-4735-8D8C-3731CD39CF56'
+ms.assetid: 02A9317A-E124-4735-8D8C-3731CD39CF56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To set an index keyword to jump to another keyword
@@ -16,7 +21,7 @@ ms.assetid: '02A9317A-E124-4735-8D8C-3731CD39CF56'
 
     
 
-     
+     
 
 2.  Click the **Advanced** tab, and then select the **Target is another keyword** check box.
 3.  Click the **General** tab, and then click **Edit**.
@@ -25,7 +30,7 @@ ms.assetid: '02A9317A-E124-4735-8D8C-3731CD39CF56'
 > [!Note]  
 > This is useful for creating cross-references, such as See Also index entries.
 
- 
+ 
 
 ## Related topics
 
@@ -34,9 +39,9 @@ ms.assetid: '02A9317A-E124-4735-8D8C-3731CD39CF56'
 [About Creating Index Files](create-an-index-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

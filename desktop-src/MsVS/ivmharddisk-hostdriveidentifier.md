@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk HostDriveIdentifier property
 description: The HostDriveIdentifier property contains a string that identifies the host drive linked to by this virtual hard disk image.
-ms.assetid: 'bfe17e0d-0b83-46a9-80f5-97da6c61265e'
-keywords: ["HostDriveIdentifier property Virtual Server", "HostDriveIdentifier property Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , HostDriveIdentifier property", "HostDriveIdentifier property Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , HostDriveIdentifier property"]
+ms.assetid: bfe17e0d-0b83-46a9-80f5-97da6c61265e
+keywords:
+- HostDriveIdentifier property Virtual Server
+- HostDriveIdentifier property Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , HostDriveIdentifier property
+- HostDriveIdentifier property Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , HostDriveIdentifier property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::HostDriveIdentifier property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HostDriveIdentifier(
-  [out] BSTR *hostDriveIdentifier
+  [out] BSTR *hostDriveIdentifier
 );
 ```
 
@@ -85,8 +95,8 @@ This property should be called only on a host drive virtual hard disk image.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -98,9 +108,9 @@ This property should be called only on a host drive virtual hard disk image.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

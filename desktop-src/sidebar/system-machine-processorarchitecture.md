@@ -1,8 +1,11 @@
 ---
 title: System.Machine.processorArchitecture property
 description: Gets the microprocessor type.
-ms.assetid: '424db042-f085-4628-92f1-64473156eb32'
-keywords: ["processorArchitecture property Windows Sidebar", "processorArchitecture property Windows Sidebar , System.Machine object", "System.Machine object Windows Sidebar , processorArchitecture property"]
+ms.assetid: 424db042-f085-4628-92f1-64473156eb32
+keywords:
+- processorArchitecture property Windows Sidebar
+- processorArchitecture property Windows Sidebar , System.Machine object
+- System.Machine object Windows Sidebar , processorArchitecture property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Machine.processorArchitecture property
@@ -67,19 +75,19 @@ function Init()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Windows.system.h</dt> </dl>                    |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

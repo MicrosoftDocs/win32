@@ -1,7 +1,12 @@
 ---
-Description: 'Adds stroke data for multiple strokes to a custom recognizer node.'
-ms.assetid: '77ded896-8573-42de-a41e-4866894dfe2b'
-title: 'IInkAnalyzer::AddStrokesToCustomRecognizer method'
+Description: Adds stroke data for multiple strokes to a custom recognizer node.
+ms.assetid: 77ded896-8573-42de-a41e-4866894dfe2b
+title: IInkAnalyzerAddStrokesToCustomRecognizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::AddStrokesToCustomRecognizer method
@@ -13,14 +18,14 @@ Adds stroke data for multiple strokes to a custom recognizer node.
 
 ```C++
 HRESULT AddStrokesToCustomRecognizer(
-  [in]  ULONG        ulStrokeIdsCount,
-  [in]  LONG         *plStrokeIds,
-  [in]  ULONG        ulStrokePacketDescriptionCount,
-  [in]  GUID         *pStrokePacketDescriptionGuids,
-  [in]  ULONG        *pulPacketDataCountPerStroke,
-  [in]  LONG         *plStrokePacketData,
-  [in]  IContextNode *pCustomRecognizer,
-  [out] IContextNode **ppContextNodeStrokeAddedTo
+  [in]  ULONG        ulStrokeIdsCount,
+  [in]  LONG         *plStrokeIds,
+  [in]  ULONG        ulStrokePacketDescriptionCount,
+  [in]  GUID         *pStrokePacketDescriptionGuids,
+  [in]  ULONG        *pulPacketDataCountPerStroke,
+  [in]  LONG         *plStrokePacketData,
+  [in]  IContextNode *pCustomRecognizer,
+  [out] IContextNode **ppContextNodeStrokeAddedTo
 );
 ```
 
@@ -95,7 +100,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodeStrokeAddedTo* when you no longer need to use the object.
 
- 
+ 
 
 When *ppContextNodeStrokeAddedTo* is **NULL**, it indicates that the caller is not interested in the return value from the method.
 
@@ -108,7 +113,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) assigns the culture identifier of the ac
 > [!Note]  
 > Only strokes with the same packet descriptions can be added in a single call to **IInkAnalyzer::AddStrokesToCustomRecognizer Method**.
 
- 
+ 
 
 This method expands the dirty region to the union of the region's current value and the bounding box of the added strokes.
 
@@ -124,7 +129,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) returns an **HRESULT** of **E\_INVALIDAR
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -150,9 +155,9 @@ The [**IInkAnalyzer**](iinkanalyzer.md) returns an **HRESULT** of **E\_INVALIDAR
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

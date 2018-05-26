@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LoadXML method loads property data expressed in Extensible Markup Language (XML).'
-ms.assetid: 'cc67e7e0-a6e0-43d1-b35d-5d64caf24e6e'
-title: 'IPropertySetter::LoadXML method'
+---
+Description: The LoadXML method loads property data expressed in Extensible Markup Language (XML).
+ms.assetid: cc67e7e0-a6e0-43d1-b35d-5d64caf24e6e
+title: IPropertySetterLoadXML method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertySetter::LoadXML method

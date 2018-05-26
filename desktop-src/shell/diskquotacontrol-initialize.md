@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens a specified volume and initializes its quota control object.'
-ms.assetid: '20eae2a3-f602-48a2-bf1c-65570e7a5d21'
-title: 'DiskQuotaControl.Initialize method'
+---
+Description: Opens a specified volume and initializes its quota control object.
+ms.assetid: 20eae2a3-f602-48a2-bf1c-65570e7a5d21
+title: DiskQuotaControl.Initialize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.Initialize method

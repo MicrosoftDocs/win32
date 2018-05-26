@@ -1,8 +1,10 @@
 ---
 title: System.Gadget.Settings.ClosingEvent object
 description: The event argument that defines the properties for the closing functionality of the gadget Settings dialog.
-ms.assetid: '59369e4f-d6b7-4a26-bfe4-0841460dc2dc'
-keywords: ["System.Gadget.Settings.ClosingEvent object Windows Sidebar", "System.Gadget.Settings.ClosingEvent object Windows Sidebar , described"]
+ms.assetid: 59369e4f-d6b7-4a26-bfe4-0841460dc2dc
+keywords:
+- System.Gadget.Settings.ClosingEvent object Windows Sidebar
+- System.Gadget.Settings.ClosingEvent object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Settings.ClosingEvent object
@@ -40,7 +47,7 @@ The **System.Gadget.Settings.ClosingEvent** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,18 +59,18 @@ The functions declared as handlers for the **Settings** events, [**onSettingsClo
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 8<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 8<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

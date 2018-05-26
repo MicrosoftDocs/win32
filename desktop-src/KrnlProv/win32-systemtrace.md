@@ -4,11 +4,13 @@ description: The Win32\_SystemTrace event WMI class is the base class for all sy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd4e54029-44c3-4020-b63e-c4c1ce4b006e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d4e54029-44c3-4020-b63e-c4c1ce4b006e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_SystemTrace class", "Win32_SystemTrace class, described"]
+keywords:
+- Win32_SystemTrace class
+- Win32_SystemTrace class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - Krnlprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SystemTrace class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Win32_SystemTrace : __ExtrinsicEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -88,8 +93,8 @@ The **Win32\_SystemTrace** class is derived from the WMI [**\_\_ExtrinsicEvent**
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Krnlprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Krnlprov.dll</dt> </dl> |
@@ -106,9 +111,9 @@ The **Win32\_SystemTrace** class is derived from the WMI [**\_\_ExtrinsicEvent**
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: CIM\_ClusteringService represents the functionality provided by a c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ad2707e6-1dc4-4055-89da-e5be40c75f58'
-ms.prod: 'windows-server-dev'
+ms.assetid: ad2707e6-1dc4-4055-89da-e5be40c75f58
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ClusteringService class", "CIM_ClusteringService class, described"]
+keywords:
+- CIM_ClusteringService class
+- CIM_ClusteringService class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ClusteringService class
@@ -43,16 +48,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, AMENDMENT]
 class CIM_ClusteringService : CIM_Service
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   StartMode;
-  boolean  Started;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   StartMode;
+  boolean  Started;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -78,7 +83,7 @@ The **CIM\_ClusteringService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -341,7 +346,7 @@ This property is inherited from [**CIM\_Service**](cim-service.md).
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -355,9 +360,9 @@ This property is inherited from [**CIM\_Service**](cim-service.md).
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

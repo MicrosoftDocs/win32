@@ -1,7 +1,12 @@
 ---
 title: Quick Start Capturing ReadyBoot Information
 description: Quick Start Capturing ReadyBoot Information
-ms.assetid: 'd4d4c9cc-e49f-4302-9a50-d9ab22af2636'
+ms.assetid: d4d4c9cc-e49f-4302-9a50-d9ab22af2636
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start: Capturing ReadyBoot Information
@@ -35,7 +40,7 @@ To begin data capture, please take the following steps:
 
     
 
-     
+     
 
     When **xbootmgr** is run in this context, WPA will automatically turn on the "NT Kernel Logger" which collects kernel events. The events enabled for a trace can be specified with the "-traceflags" argument. If the "-traceflags" argument is not present, WPA will enable the default core set of kernel events given in the following table:
 
@@ -53,7 +58,7 @@ To begin data capture, please take the following steps:
 
     
 
-     
+     
 
 2.  After the machine reboots, xbootmgr automatically launches and waits for preset amount of time before saving the trace. A timer window is presented that contains controls to cancel the current session or to end it early.
 
@@ -68,9 +73,9 @@ C:\etl> xbootmgr -help
 
 
 
- 
+ 
 
- 
+ 
 
 
 

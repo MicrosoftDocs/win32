@@ -2,13 +2,19 @@
 title: broadcast attribute
 description: The keyword \ broadcast\ specifies that remote procedure calls be sent to all servers on a local network.
 ms.assetid: 3951c80f-b7f1-457b-9eee-6e075291b27e
-keywords: ["broadcast attribute MIDL"]
+keywords:
+- broadcast attribute MIDL
 topic_type:
 - apiref
 api_name:
 - broadcast
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # broadcast attribute

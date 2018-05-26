@@ -1,8 +1,15 @@
 ---
 title: Managing Bluetooth Devices and Services
 description: Two primary Bluetooth programming approaches for Windows programming with the Windows Sockets interface and managing devices directly with nonsocket Bluetooth interfaces.
-ms.assetid: '0eb7d339-6d23-4313-b1ed-7ab403a5a81d'
-keywords: ["Managing Bluetooth Devices and Services", "Bluetooth Devices and Services, managing"]
+ms.assetid: 0eb7d339-6d23-4313-b1ed-7ab403a5a81d
+keywords:
+- Managing Bluetooth Devices and Services
+- Bluetooth Devices and Services, managing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Bluetooth Devices and Services

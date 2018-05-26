@@ -1,7 +1,12 @@
 ---
-Description: 'The type of Microsoft Outlook message (meeting, task, mail, and so on).'
-ms.assetid: '421d1b44-588c-4fe6-ac0e-14fbac1330e3'
-title: 'System.Message.MessageClass'
+Description: The type of Microsoft Outlook message (meeting, task, mail, and so on).
+ms.assetid: 421d1b44-588c-4fe6-ac0e-14fbac1330e3
+title: System.Message.MessageClass
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.MessageClass

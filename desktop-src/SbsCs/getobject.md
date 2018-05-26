@@ -1,7 +1,12 @@
 ---
-Description: 'The GetObject method gets an instance of an existing Microsoft.Windows.ActCtx object.'
-ms.assetid: '547525f3-afef-463b-823a-df8ccd954f36'
-title: 'ActCtx.GetObject method'
+Description: The GetObject method gets an instance of an existing Microsoft.Windows.ActCtx object.
+ms.assetid: 547525f3-afef-463b-823a-df8ccd954f36
+title: ActCtx.GetObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActCtx.GetObject method
@@ -40,8 +45,8 @@ This method does not return a value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Sxsoa.dll</dt> </dl> |
 | IID<br/>                      | IID\_IActCtx is defined as 8FA7728F-B69B-4EE5-99F2-E2AA021BEF28<br/>           |
 
@@ -54,9 +59,9 @@ This method does not return a value.
 [**CreateObject Method**](createobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMHardDiskConnectionCollection Item property
 description: The Item property contains the IVMHardDiskConnection object that corresponds to the given index in this collection.
-ms.assetid: '9fd293c1-0b58-4bd3-91cf-9850d94c6031'
-keywords: ["Item property Virtual Server", "Item property Virtual Server , IVMHardDiskConnectionCollection interface", "IVMHardDiskConnectionCollection interface Virtual Server , Item property", "Item property Virtual Server , VMHardDiskConnectionCollection interface", "VMHardDiskConnectionCollection interface Virtual Server , Item property"]
+ms.assetid: 9fd293c1-0b58-4bd3-91cf-9850d94c6031
+keywords:
+- Item property Virtual Server
+- Item property Virtual Server , IVMHardDiskConnectionCollection interface
+- IVMHardDiskConnectionCollection interface Virtual Server , Item property
+- Item property Virtual Server , VMHardDiskConnectionCollection interface
+- VMHardDiskConnectionCollection interface Virtual Server , Item property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnectionCollection::Item property
@@ -26,8 +36,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]  long                  index,
-  [out] IVMHardDiskConnection **hardDiskConnection
+  [in]  long                  index,
+  [out] IVMHardDiskConnection **hardDiskConnection
 );
 ```
 
@@ -80,8 +90,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -93,9 +103,9 @@ This property value is read-only.
 [**IVMHardDiskConnectionCollection**](ivmharddiskconnectioncollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

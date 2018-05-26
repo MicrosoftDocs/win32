@@ -1,8 +1,9 @@
 ---
 title: MCI\_CONFIGURE command
 description: The MCI\_CONFIGURE command displays a dialog box for setting the operating options. Digital-video devices recognize this command.
-ms.assetid: '92683579-e6af-42a7-8a0f-6b88b04441f2'
-keywords: ["MCI_CONFIGURE command Windows Multimedia"]
+ms.assetid: 92683579-e6af-42a7-8a0f-6b88b04441f2
+keywords:
+- MCI_CONFIGURE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_CONFIGURE command
 
 The MCI\_CONFIGURE command displays a dialog box for setting the operating options. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -66,8 +72,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ Returns zero if successful or an error otherwise.
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

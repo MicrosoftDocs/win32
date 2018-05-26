@@ -1,14 +1,20 @@
 ---
 title: Buffer Type
 description: Use the following syntax to declare a buffer variable.
-ms.assetid: 'f21f0de5-58e3-466b-97bb-e4e7efa9cc1c'
-keywords: ["Buffer Type HLSL"]
+ms.assetid: f21f0de5-58e3-466b-97bb-e4e7efa9cc1c
+keywords:
+- Buffer Type HLSL
 topic_type:
 - apiref
 api_name:
 - Buffer Type
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffer Type

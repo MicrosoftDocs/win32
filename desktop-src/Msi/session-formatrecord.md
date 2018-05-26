@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FormatRecord method of the Session object returns a formatted string from a template and record data.'
-ms.assetid: '2018ac75-ea18-4256-8d56-0527069ce24b'
-title: 'Session.FormatRecord method'
+---
+Description: The FormatRecord method of the Session object returns a formatted string from a template and record data.
+ms.assetid: 2018ac75-ea18-4256-8d56-0527069ce24b
+title: Session.FormatRecord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.FormatRecord method

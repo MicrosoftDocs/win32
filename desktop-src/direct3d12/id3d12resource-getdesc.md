@@ -1,14 +1,22 @@
 ---
 title: ID3D12Resource GetDesc method
 description: Gets the resource description.
-ms.assetid: 'B8D84D69-6B13-4E86-8EF6-A841354B1E5C'
-keywords: ["GetDesc method", "GetDesc method, ID3D12Resource interface", "ID3D12Resource interface, GetDesc method"]
+ms.assetid: B8D84D69-6B13-4E86-8EF6-A841354B1E5C
+keywords:
+- GetDesc method
+- GetDesc method, ID3D12Resource interface
+- ID3D12Resource interface, GetDesc method
 topic_type:
 - apiref
 api_name:
 - ID3D12Resource.GetDesc
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3D12Resource::GetDesc method
@@ -30,7 +38,7 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**D3D12\_RESOURCE\_DESC**](d3d12-resource-desc.md)**
+Type: **[**D3D12\_RESOURCE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_resource_desc?branch=master)**
 
 A Direct3D 12 resource description structure.
 
@@ -66,7 +74,7 @@ Refer to the [Example Code in the D3D12 Reference](notes-on-example-code.md).
 
 <dl> <dt>
 
-[**ID3D12Resource**](id3d12resource.md)
+[**ID3D12Resource**](/windows/win32/D3D12/nn-d3d12-id3d12resource?branch=master)
 </dt> </dl>
 
  

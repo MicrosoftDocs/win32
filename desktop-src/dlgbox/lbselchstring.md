@@ -1,8 +1,9 @@
 ---
 title: LBSELCHSTRING message
 description: An Open or Save As dialog box sends the LBSELCHSTRING registered message to your hook procedure when the selection changes in any of the list boxes or combo boxes of the dialog box.
-ms.assetid: '3a8ebc63-b324-43ed-bb6f-34779f6043e7'
-keywords: ["LBSELCHSTRING message Dialog Boxes"]
+ms.assetid: 3a8ebc63-b324-43ed-bb6f-34779f6043e7
+keywords:
+- LBSELCHSTRING message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LBSELCHSTRING message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 An **Open** or **Save As** dialog box sends the **LBSELCHSTRING** registered message to your hook procedure when the selection changes in any of the list boxes or combo boxes of the dialog box.
 
@@ -55,7 +61,7 @@ The low-order word specifies the item number of the selected string in the list 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -73,8 +79,8 @@ The hook procedure must specify the **LBSELCHSTRING** constant in a call to the 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LBSELCHSTRINGW** (Unicode) and **LBSELCHSTRINGA** (ANSI)<br/>                                    |
 
@@ -102,9 +108,9 @@ The hook procedure must specify the **LBSELCHSTRING** constant in a call to the 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

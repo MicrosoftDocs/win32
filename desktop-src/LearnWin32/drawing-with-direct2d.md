@@ -1,7 +1,12 @@
 ---
 title: Drawing with Direct2D
 description: After you create your graphics resources, you are ready to draw.
-ms.assetid: 'a73f7043-dffc-4688-adfc-16ed9a9e12d2'
+ms.assetid: a73f7043-dffc-4688-adfc-16ed9a9e12d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing with Direct2D

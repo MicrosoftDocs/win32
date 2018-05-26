@@ -4,13 +4,15 @@ description: CIM\_ServiceServiceDependency is an association between a service a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21e87d85-fc3c-4655-a986-0663e80f202c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 21e87d85-fc3c-4655-a986-0663e80f202c
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ServiceServiceDependency class", "CIM_ServiceServiceDependency class, described"]
+keywords:
+- CIM_ServiceServiceDependency class
+- CIM_ServiceServiceDependency class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ServiceServiceDependency class
@@ -38,7 +43,7 @@ class CIM_ServiceServiceDependency : CIM_Dependency
 {
   CIM_Service REF Antecedent;
   CIM_Service REF Dependent;
-  uint16          TypeOfDependency;
+  uint16          TypeOfDependency;
 };
 ```
 
@@ -143,7 +148,7 @@ The nature of the service to service dependency. This property describes that th
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -157,9 +162,9 @@ The nature of the service to service dependency. This property describes that th
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

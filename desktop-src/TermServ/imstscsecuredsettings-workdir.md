@@ -4,11 +4,16 @@ description: Specifies the working directory of the start program.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e67f7274-be47-42c4-9267-a05bb93e6725'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e67f7274-be47-42c4-9267-a05bb93e6725
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["WorkDir property Remote Desktop Services", "WorkDir property Remote Desktop Services , IMsTscSecuredSettings interface", "IMsTscSecuredSettings interface Remote Desktop Services , WorkDir property", "WorkDir property Remote Desktop Services , IMsRdpClientSecuredSettings interface", "IMsRdpClientSecuredSettings interface Remote Desktop Services , WorkDir property"]
+keywords:
+- WorkDir property Remote Desktop Services
+- WorkDir property Remote Desktop Services , IMsTscSecuredSettings interface
+- IMsTscSecuredSettings interface Remote Desktop Services , WorkDir property
+- WorkDir property Remote Desktop Services , IMsRdpClientSecuredSettings interface
+- IMsRdpClientSecuredSettings interface Remote Desktop Services , WorkDir property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscSecuredSettings::WorkDir property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_WorkDir(
-  [in]  BSTR newVal
+  [in]  BSTR newVal
 );
 
 HRESULT get_WorkDir(
-  [out] BSTR *pWorkDir
+  [out] BSTR *pWorkDir
 );
 ```
 
@@ -65,8 +73,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | IID<br/>                      | IID\_IMsTscSecuredSettings is defined as c9d65442-a0f9-45b2-8f73-d61d2db8cbb6<br/> |
@@ -83,9 +91,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

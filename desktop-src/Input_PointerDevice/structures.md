@@ -1,7 +1,12 @@
-﻿---
-Description: 'The topics in this section provide the reference specifications for Pointer Device Input Stack structures.'
-ms.assetid: '33DCB172-8D95-4205-AE2E-ADD7F3BF988A'
+---
+Description: The topics in this section provide the reference specifications for Pointer Device Input Stack structures.
+ms.assetid: 33DCB172-8D95-4205-AE2E-ADD7F3BF988A
 title: Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures

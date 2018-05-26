@@ -1,8 +1,11 @@
 ---
 title: Iteration GetIssues method
 description: Returns the IssueCollection for the Iteration.
-ms.assetid: '1D93B9EF-D13F-49E4-961D-DF57323BD72A'
-keywords: ["GetIssues method Access Execution Engine", "GetIssues method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , GetIssues method"]
+ms.assetid: 1D93B9EF-D13F-49E4-961D-DF57323BD72A
+keywords:
+- GetIssues method Access Execution Engine
+- GetIssues method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , GetIssues method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::GetIssues method
@@ -22,7 +30,7 @@ Returns the [**IssueCollection**](issuecollection.md) for the **Iteration**.
 
 ```C++
 virtual HRESULT GetIssues(
-  [out] IssueCollection **issues
+  [out] IssueCollection **issues
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The **IssueCollection** holds information from element **Iteration/Issues**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The **IssueCollection** holds information from element **Iteration/Issues**.
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

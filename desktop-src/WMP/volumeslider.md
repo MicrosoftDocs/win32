@@ -1,14 +1,20 @@
 ---
 title: VOLUMESLIDER
 description: This is a predefined SLIDER with the following default values.
-ms.assetid: '7533863b-49de-4c1b-8750-fd333c573a17'
-keywords: ["VOLUMESLIDER Windows Media Player"]
+ms.assetid: 7533863b-49de-4c1b-8750-fd333c573a17
+keywords:
+- VOLUMESLIDER Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VOLUMESLIDER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VOLUMESLIDER
@@ -45,9 +51,9 @@ This creates a SLIDER control that sets the audio volume. The ToolTips are local
 [**SLIDER Element**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

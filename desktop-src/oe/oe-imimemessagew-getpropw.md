@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageW GetPropW method
 description: Gets a property value for the root header of the message.
-ms.assetid: '0a99bc7b-1aa2-4edc-b94e-d8d695cf4d72'
-keywords: ["GetPropW method Windows Mail (formerly Outlook Express)", "GetPropW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface", "IMimeMessageW interface Windows Mail (formerly Outlook Express) , GetPropW method"]
+ms.assetid: 0a99bc7b-1aa2-4edc-b94e-d8d695cf4d72
+keywords:
+- GetPropW method Windows Mail (formerly Outlook Express)
+- GetPropW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface
+- IMimeMessageW interface Windows Mail (formerly Outlook Express) , GetPropW method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageW::GetPropW method
@@ -22,9 +30,9 @@ Gets a property value for the root header of the message.
 
 ```C++
 HRESULT GetPropW(
-  [in]      LPCWSTR       pwszName,
-  [in]      DWORD         dwFlags,
-  [in, out] LPPROPVARIANT pValue
+  [in]      LPCWSTR       pwszName,
+  [in]      DWORD         dwFlags,
+  [in, out] LPPROPVARIANT pValue
 );
 ```
 
@@ -63,7 +71,7 @@ Specifies the bitmask that affects how to get the property value.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +104,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,8 +116,8 @@ MIMEOLE supports these variant types: VT\_LPSTR, VT\_LPWSTR, VT\_FILETIME, VT\_U
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -117,9 +125,9 @@ MIMEOLE supports these variant types: VT\_LPSTR, VT\_LPWSTR, VT\_FILETIME, VT\_U
 
 
 
- 
+ 
 
- 
+ 
 
 
 

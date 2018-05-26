@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReceiptType property specifies the type of delivery receipt to deliver when the fax job reaches a final state.'
-ms.assetid: '7b557c22-110d-40c2-ab21-412d825deb0c'
-title: 'FaxDocument.ReceiptType property'
+---
+Description: The ReceiptType property specifies the type of delivery receipt to deliver when the fax job reaches a final state.
+ms.assetid: 7b557c22-110d-40c2-ab21-412d825deb0c
+title: FaxDocument.ReceiptType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.ReceiptType property
@@ -21,7 +26,7 @@ Property ReceiptType As Integer
 
 ## Property value
 
-A variable of type [**FAX\_RECEIPT\_TYPE\_ENUM**](-mfax-fax-receipt-type-enum.md) that specifies or receives a receipt type. For possible values, see **FAX\_RECEIPT\_TYPE\_ENUM**.
+A variable of type [**FAX\_RECEIPT\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_receipt_type_enum?branch=master) that specifies or receives a receipt type. For possible values, see **FAX\_RECEIPT\_TYPE\_ENUM**.
 
 ## Remarks
 
@@ -52,7 +57,7 @@ If an email receipt will be sent, an address has to be provided in the [**Receip
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

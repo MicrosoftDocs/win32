@@ -1,7 +1,7 @@
 ---
 title: CommandID Constants
 description: Specifies common Device and Item commands as String versions of GUIDs.
-ms.assetid: '48f0155c-276f-4ffd-bf42-33ee184d08e5'
+ms.assetid: 48f0155c-276f-4ffd-bf42-33ee184d08e5
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommandID Constants
@@ -76,8 +81,8 @@ End If
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -90,9 +95,9 @@ End If
 [**CommandID**](-wiaaut-idevicecommand-commandid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Refresh method refreshes the list of discovered targets from the Send Target Portal.'
-ms.assetid: '1be6841a-559c-493f-8a9a-3513360208cd'
-title: 'Refresh method of the MSIscsiInitiator\_SendTargetPortalClass class'
+---
+Description: The Refresh method refreshes the list of discovered targets from the Send Target Portal.
+ms.assetid: 1be6841a-559c-493f-8a9a-3513360208cd
+title: Refresh method of the MSIscsiInitiator\_SendTargetPortalClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Refresh method of the MSIscsiInitiator\_SendTargetPortalClass class

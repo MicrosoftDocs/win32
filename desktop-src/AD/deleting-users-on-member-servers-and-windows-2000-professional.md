@@ -4,11 +4,19 @@ description: This topic shows how to delete a user from a member server or compu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0c94c08b-46cb-494e-89f8-a21bfb20e34c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0c94c08b-46cb-494e-89f8-a21bfb20e34c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["users AD , deleting a user on member servers and Windows 2000 Professional", "Active Directory, using, users, deleting users on member servers and Windows 2000 Professional", "deleting a user", "server, deleting a user", "deleting users on member servers and windows 2000 professional AD"]
+keywords:
+- users AD , deleting a user on member servers and Windows 2000 Professional
+- Active Directory, using, users, deleting users on member servers and Windows 2000 Professional
+- deleting a user
+- server, deleting a user
+- deleting users on member servers and windows 2000 professional AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting Users on Member Servers and Windows 2000 Professional

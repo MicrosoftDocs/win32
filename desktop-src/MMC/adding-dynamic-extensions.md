@@ -4,11 +4,17 @@ description: This feature is introduced in MMC 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd1ea37df-82d7-428d-b708-77719fe88d1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d1ea37df-82d7-428d-b708-77719fe88d1b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["dynamic extensions MMC", "dynamic extensions MMC , adding", "adding dynamic extensions MMC"]
+keywords:
+- dynamic extensions MMC
+- dynamic extensions MMC , adding
+- adding dynamic extensions MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Dynamic Extensions

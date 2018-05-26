@@ -4,17 +4,21 @@ description: The encrypted application specific data.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0fc98505-8c27-4114-a62d-284511e2605e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0fc98505-8c27-4114-a62d-284511e2605e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy encryptedAppData property"]
+keywords:
+- MSUserPolicy encryptedAppData property
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy encryptedAppData property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy encryptedAppData property
@@ -37,7 +41,7 @@ The encrypted application specific data.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

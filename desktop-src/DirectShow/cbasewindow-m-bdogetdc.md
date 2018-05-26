@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether to retrieve the device context (DC). If TRUE, the object retrieves a handle to the window''s DC and creates a compatible memory DC.'
-ms.assetid: 'e8b8dcc9-0046-40f8-9009-e23d839ef1db'
-title: 'CBaseWindow::m\_bDoGetDC member'
+Description: Flag that specifies whether to retrieve the device context (DC). If TRUE, the object retrieves a handle to the windows DC and creates a compatible memory DC.
+ms.assetid: e8b8dcc9-0046-40f8-9009-e23d839ef1db
+title: CBaseWindowm\_bDoGetDC member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_bDoGetDC member
@@ -35,9 +40,9 @@ BOOL m_bDoGetDC;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

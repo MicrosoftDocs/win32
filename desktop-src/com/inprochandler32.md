@@ -1,8 +1,14 @@
 ---
 title: InprocHandler32
 description: Specifies whether an application uses a custom handler.
-ms.assetid: 'da611bb6-1f69-449a-9821-e2fbbe413a97'
-keywords: ["InprocHandler32 registry key COM"]
+ms.assetid: da611bb6-1f69-449a-9821-e2fbbe413a97
+keywords:
+- InprocHandler32 registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InprocHandler32

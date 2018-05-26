@@ -1,7 +1,12 @@
 ---
-Description: 'The Hyper-V networking API is used to control networking in Hyper-V.'
-ms.assetid: '5411C31A-606E-460D-9F35-E55C855AC7D0'
-title: 'Hyper-V networking API'
+Description: The Hyper-V networking API is used to control networking in Hyper-V.
+ms.assetid: 5411C31A-606E-460D-9F35-E55C855AC7D0
+title: Hyper-V networking API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V networking API
@@ -19,11 +24,11 @@ The Hyper-V networking API is used to control networking in Hyper-V.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UnregisterDeviceProvider method unregisters (removes the registration of) an existing device provider. Unregistration will take place only after the fax server is restarted.'
-ms.assetid: '4379a7ca-eeef-4a83-823c-aeb57f3eed42'
-title: 'FaxServer.UnregisterDeviceProvider method'
+---
+Description: The UnregisterDeviceProvider method unregisters (removes the registration of) an existing device provider. Unregistration will take place only after the fax server is restarted.
+ms.assetid: 4379a7ca-eeef-4a83-823c-aeb57f3eed42
+title: FaxServer.UnregisterDeviceProvider method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.UnregisterDeviceProvider method
@@ -36,7 +41,7 @@ Required. Specifies the unique name that identifies the FSP that is unregisterin
 
 Only an administrator can unregister a fax service provider.
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -58,7 +63,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

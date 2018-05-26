@@ -4,17 +4,21 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F035CF2F-17B6-4DF5-8058-69478A5E9D2C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F035CF2F-17B6-4DF5-8058-69478A5E9D2C
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Aliases Failover Cluster"]
+keywords:
+- Aliases Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Aliases
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Aliases
@@ -35,7 +39,7 @@ TBD. The following table summarizes the attributes of the **Aliases** property.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,7 +52,7 @@ TBD
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -59,9 +63,9 @@ TBD
 [Virtual Machine Replication Broker Private Properties](virtual-machine-replication-broker-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

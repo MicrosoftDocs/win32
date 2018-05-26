@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.DOP property.'
-ms.assetid: '62efd1cc-a2ae-4e53-a0f2-4822b8c91c42'
-title: 'System.GPS.DOP Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.DOP property.
+ms.assetid: 62efd1cc-a2ae-4e53-a0f2-4822b8c91c42
+title: System.GPS.DOP Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DOP Photo Metadata Policy

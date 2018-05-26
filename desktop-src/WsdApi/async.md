@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether asynchronous operations are included in the generated proxy functions.'
-ms.assetid: '7b57d5c6-589b-4e03-bfcf-1faa671ebd77'
+Description: Specifies whether asynchronous operations are included in the generated proxy functions.
+ms.assetid: 7b57d5c6-589b-4e03-bfcf-1faa671ebd77
 title: async element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # async element
@@ -46,14 +51,14 @@ A proxy can have both asynchronous and synchronous versions of the same operatio
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

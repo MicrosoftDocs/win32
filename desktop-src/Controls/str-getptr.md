@@ -1,8 +1,9 @@
 ---
 title: Str\_GetPtr function
 description: Copies a string from one buffer to another.
-ms.assetid: 'a3dd55a0-3f8b-4d6c-9956-666bebc3ab8d'
-keywords: ["Str_GetPtr function Windows Controls"]
+ms.assetid: a3dd55a0-3f8b-4d6c-9956-666bebc3ab8d
+keywords:
+- Str_GetPtr function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - ComCtl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Str\_GetPtr function
 
-\[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
+\[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
 Copies a string from one buffer to another.
 
@@ -26,9 +32,9 @@ Copies a string from one buffer to another.
 
 ```C++
 int WINAPI Str_GetPtr(
-  _In_    LPCTSTR pszSource,
-  _Inout_ LPCSTR  pszDest,
-  _In_    int     cchDest
+  _In_    LPCTSTR pszSource,
+  _Inout_ LPCSTR  pszDest,
+  _In_    int     cchDest
 );
 ```
 
@@ -85,16 +91,16 @@ If *pszDest* cannot hold the entire string pointed to by *pszSource*, then (*cch
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>ComCtl32.dll</dt> </dl> |
 | Unicode and ANSI names<br/>   | **Str\_GetPtrW** (Unicode) and **Str\_GetPtrA** (ANSI)<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Relational Queries with Vector Properties
 description: Relational Queries with Vector Properties
-ms.assetid: '1f64bff7-bbfb-4856-a5aa-9cc00cf255b2'
+ms.assetid: 1f64bff7-bbfb-4856-a5aa-9cc00cf255b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Relational Queries with Vector Properties

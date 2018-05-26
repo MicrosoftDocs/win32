@@ -4,12 +4,15 @@ description: Data Deduplication Management WMI API Reference
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '97DF6A8D-0F10-48A8-885A-3E8672526E55'
-ms.prod: 'windows-server-dev'
+ms.assetid: 97DF6A8D-0F10-48A8-885A-3E8672526E55
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data Deduplication Management WMI API Reference

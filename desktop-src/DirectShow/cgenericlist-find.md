@@ -1,7 +1,12 @@
 ---
-Description: 'The Find method retrieves the first position that holds the specified item.'
-ms.assetid: '8e2a3e5d-96e6-4f40-8e2a-4dc8c21088cd'
-title: 'CGenericList.Find method'
+Description: The Find method retrieves the first position that holds the specified item.
+ms.assetid: 8e2a3e5d-96e6-4f40-8e2a-4dc8c21088cd
+title: CGenericList.Find method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.Find method
@@ -13,7 +18,7 @@ The `Find` method retrieves the first position that holds the specified item.
 
 ```C++
 POSITION Find(
-   OBJECT *pObj
+   OBJECT *pObj
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a POSITION value, or **NULL** if the item is not in the list.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

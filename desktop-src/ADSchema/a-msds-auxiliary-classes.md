@@ -4,17 +4,22 @@ description: This attribute lists the auxiliary classes that have been dynamical
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bf41f15d-9af9-43de-8425-33d50880c3fa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bf41f15d-9af9-43de-8425-33d50880c3fa
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Auxiliary-Classes attribute AD Schema", "msDS-Auxiliary-Classes attribute AD Schema"]
+keywords:
+- ms-DS-Auxiliary-Classes attribute AD Schema
+- msDS-Auxiliary-Classes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Auxiliary-Classes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Auxiliary-Classes attribute

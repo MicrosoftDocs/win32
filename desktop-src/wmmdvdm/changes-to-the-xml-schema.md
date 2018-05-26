@@ -1,8 +1,17 @@
 ---
 title: Changes to the XML Schema
 description: Changes to the XML Schema
-ms.assetid: 'f02856d3-8696-4247-ae95-e913f366fe01'
-keywords: ["Windows Movie Maker,XML schema changes", "Movie Maker,XML schema changes", "programming guide,XML schema changes", "XML,schema changes"]
+ms.assetid: f02856d3-8696-4247-ae95-e913f366fe01
+keywords:
+- Windows Movie Maker,XML schema changes
+- Movie Maker,XML schema changes
+- programming guide,XML schema changes
+- XML,schema changes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changes to the XML Schema

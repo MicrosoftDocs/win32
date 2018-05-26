@@ -1,14 +1,20 @@
 ---
 title: FontControl element
 description: Represents a Font Control, which is a specialized container of individual controls dedicated to font manipulation.
-ms.assetid: '98eddab5-28cb-4b9d-a788-ee28dd6055b1'
-keywords: ["FontControl element Windows Ribbon"]
+ms.assetid: 98eddab5-28cb-4b9d-a788-ee28dd6055b1
+keywords:
+- FontControl element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - FontControl
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FontControl element
@@ -119,7 +125,7 @@ This control is displayed by default and cannot be hidden by setting the <em>IsH
 <td><strong>IsGrowShrinkButtonGroupVisible</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td><strong>Windows 8 and newer</strong><br/> Restricted to one of the following values: <br/>
+<td><strong>Windows 8 and newer</strong><br/> Restricted to one of the following values: <br/>
 <blockquote>
 [!Note]<br />
 The Grow/Shrink buttons are never displayed in the [<strong>MiniToolbar</strong>](windowsribbon-element-minitoolbar.md).
@@ -187,7 +193,7 @@ Vertical fonts are preceded by an @ symbol in the <strong>Font family</strong> l
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd> Default. Displays the vertical fonts that are set to <strong>Show</strong> in the <strong>Fonts</strong> control panel. <br/> </dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd> Allows an application that does not support vertical text to hide any vertical fonts that are set to <strong>Show</strong> in the <strong>Fonts</strong> control panel.<br/>
 <blockquote>
 [!Note]<br />
-In Windows Vista, the <strong>Fonts</strong> control panel does not offer <strong>Show</strong> or <strong>Hide</strong> functionality. In this case, the <em>ShowVerticalFonts</em> attribute must be set to <code>False</code>.
+In Windows Vista, the <strong>Fonts</strong> control panel does not offer <strong>Show</strong> or <strong>Hide</strong> functionality. In this case, the <em>ShowVerticalFonts</em> attribute must be set to <code>False</code>.
 </blockquote>
 <br/> </dd> </dl></td>
 </tr>
@@ -312,7 +318,7 @@ This section of code shows the **FontControl** control declarations where each *
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -330,9 +336,9 @@ This section of code shows the **FontControl** control declarations where each *
 [FontControl Sample](windowsribbon-fontcontrolsample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

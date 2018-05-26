@@ -1,8 +1,9 @@
 ---
 title: Playlist.attributeCount
 description: The attributeCount property retrieves the number of attributes associated with the playlist.
-ms.assetid: '92063131-0118-4458-9122-0539628a9821'
-keywords: ["Playlist.attributeCount Windows Media Player"]
+ms.assetid: 92063131-0118-4458-9122-0539628a9821
+keywords:
+- Playlist.attributeCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.attributeCount
@@ -104,9 +110,9 @@ function onLoad() {
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

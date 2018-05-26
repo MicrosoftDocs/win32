@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a stream in order to read from a stream property.'
-ms.assetid: 'BDA58F6A-A245-4616-866C-6D1734EFB469'
-title: 'IPrinterPropertyBag::GetReadStream method'
+---
+Description: Gets a stream in order to read from a stream property.
+ms.assetid: BDA58F6A-A245-4616-866C-6D1734EFB469
+title: IPrinterPropertyBagGetReadStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag::GetReadStream method

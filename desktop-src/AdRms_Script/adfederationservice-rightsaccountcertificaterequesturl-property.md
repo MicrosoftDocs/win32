@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the URL of a website from which a rights account certificate can be requested by using ADFS.'
+Description: Specifies or retrieves the URL of a website from which a rights account certificate can be requested by using ADFS.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'd97fe7ac-ea1f-48e4-8d5f-62a3e1a7c34e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: d97fe7ac-ea1f-48e4-8d5f-62a3e1a7c34e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ADFederationService.RightsAccountCertificateRequestUrl property'
+title: ADFederationService.RightsAccountCertificateRequestUrl property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADFederationService.RightsAccountCertificateRequestUrl property
@@ -120,7 +123,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -132,9 +135,9 @@ END SUB
 [**ADFederationService**](adfederationservice-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

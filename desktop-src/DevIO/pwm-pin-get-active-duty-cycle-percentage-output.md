@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the current duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.'
-ms.assetid: '09C0232A-DF5C-4A1C-8138-D3D65E45731B'
-title: 'PWM\_PIN\_GET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE\_OUTPUT structure'
+Description: Contains the current duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
+ms.assetid: 09C0232A-DF5C-4A1C-8138-D3D65E45731B
+title: PWM\_PIN\_GET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE\_OUTPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PWM\_PIN\_GET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE\_OUTPUT structure
@@ -38,8 +43,8 @@ The current PWM signal duty cycle, as a PWM\_PERCENTAGE, which is a ULONGLONG va
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                             |
 | Minimum KMDF version<br/>     | 1.19<br/>                                                                                  |
 | Minimum UMDF version<br/>     | 2.19<br/>                                                                                  |
 | Header<br/>                   | <dl> <dt>Pwm.h (include Pwm.h)</dt> </dl> |
@@ -53,9 +58,9 @@ The current PWM signal duty cycle, as a PWM\_PERCENTAGE, which is a ULONGLONG va
 [**IOCTL\_PWM\_PIN\_GET\_ACTIVE\_DUTY\_CYCLE\_PERCENTAGE**](base-ioctl_ioctl_pwm_pin_get_active_duty_cycle_percentage)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

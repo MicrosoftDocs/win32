@@ -1,8 +1,9 @@
 ---
 title: TCN\_KEYDOWN notification code
-description: Notifies a tab control's parent window that a key has been pressed. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '884e79cd-5732-44cd-8c7a-38bb9349ec7d'
-keywords: ["TCN_KEYDOWN notification code Windows Controls"]
+description: Notifies a tab controls parent window that a key has been pressed. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 884e79cd-5732-44cd-8c7a-38bb9349ec7d
+keywords:
+- TCN_KEYDOWN notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCN\_KEYDOWN notification code
@@ -33,7 +39,7 @@ TCN_KEYDOWN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTCKEYDOWN**](nmtckeydown.md) structure.
+Pointer to an [**NMTCKEYDOWN**](/windows/win32/Commctrl/ns-commctrl-tagtckeydown?branch=master) structure.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

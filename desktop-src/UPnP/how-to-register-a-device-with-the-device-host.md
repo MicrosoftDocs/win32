@@ -1,7 +1,12 @@
 ---
 title: How to Register a Device with the Device Host
 description: You can register either a running device or a non-running device.
-ms.assetid: '40e30881-d5fb-4cf9-8dd7-0d50d2621d5c'
+ms.assetid: 40e30881-d5fb-4cf9-8dd7-0d50d2621d5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Register a Device with the Device Host
@@ -10,24 +15,24 @@ You can register either a running device or a non-running device.
 
 ## Registering a Running Device
 
-Devices are registered using the [**IUPnPRegistrar**](iupnpregistrar.md) interface. Only administrators are allowed to register running devices. To register a device that has a running device control object, an application must invoke [**IUPnPRegistrar::RegisterRunningDevice**](iupnpregistrar-registerrunningdevice.md), passing the following:
+Devices are registered using the [**IUPnPRegistrar**](/windows/win32/Upnphost/nn-upnphost-iupnpregistrar?branch=master) interface. Only administrators are allowed to register running devices. To register a device that has a running device control object, an application must invoke [**IUPnPRegistrar::RegisterRunningDevice**](/windows/win32/Upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice?branch=master), passing the following:
 
 -   The text of the device's description.
 -   An **IUnknown** pointer to the device control object.
--   An initialization string that is passed to the device control object's [**IUPnPDeviceControl::Initialize**](iupnpdevicecontrol-initialize.md) method.
+-   An initialization string that is passed to the device control object's [**IUPnPDeviceControl::Initialize**](/windows/win32/Upnphost/nf-upnphost-iupnpdevicecontrol-initialize?branch=master) method.
 -   The location of the resource directory.
 -   The lifetime of the device.
 -   The Device ID parameter (an OUT parameter), which is the return value of this call; a pointer to the Device ID is returned in C++.
 
 ## Registering a Non-Running Device
 
-By default, only administrators and interactive users are allowed to register non-running devices. To register a device with a device control object that is not running, the application uses the [**IUPnPRegistrar::RegisterDevice**](iupnpregistrar-registerdevice.md) method.
+By default, only administrators and interactive users are allowed to register non-running devices. To register a device with a device control object that is not running, the application uses the [**IUPnPRegistrar::RegisterDevice**](/windows/win32/Upnphost/nf-upnphost-iupnpregistrar-registerdevice?branch=master) method.
 
-To programmatically register a device with a non-running device control object, the application must invoke [**IUPnPRegistrar::RegisterDevice**](iupnpregistrar-registerdevice.md) and pass it the following parameters:
+To programmatically register a device with a non-running device control object, the application must invoke [**IUPnPRegistrar::RegisterDevice**](/windows/win32/Upnphost/nf-upnphost-iupnpregistrar-registerdevice?branch=master) and pass it the following parameters:
 
 -   The text of the device's description.
 -   The ProgID of the device control object.
--   An initialization string that is passed to the device control object's [**IUPnPDeviceControl::Initialize**](iupnpdevicecontrol-initialize.md) method.
+-   An initialization string that is passed to the device control object's [**IUPnPDeviceControl::Initialize**](/windows/win32/Upnphost/nf-upnphost-iupnpdevicecontrol-initialize?branch=master) method.
 -   A container ID.
 -   The location of the resource directory.
 -   The lifetime of the device.

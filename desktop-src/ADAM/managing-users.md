@@ -4,11 +4,16 @@ description: Managing AD LDS users involves creating, deleting, and performing o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f2d58a76-7aad-4305-a39b-71566350730c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: f2d58a76-7aad-4305-a39b-71566350730c
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["managing users ADAM", "AD LDS examples ADAM , managing users"]
+keywords:
+- managing users ADAM
+- AD LDS examples ADAM , managing users
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Managing Users with Active Directory Lightweight Directory Services

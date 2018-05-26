@@ -1,8 +1,11 @@
 ---
 title: TaskDefinition.XmlText property
 description: For scripting, gets or sets the XML-formatted definition of the task.
-ms.assetid: '1bdafec0-634f-4977-8f41-60dcacc23dec'
-keywords: ["XmlText property Task Scheduler", "XmlText property Task Scheduler , TaskDefinition object", "TaskDefinition object Task Scheduler , XmlText property"]
+ms.assetid: 1bdafec0-634f-4977-8f41-60dcacc23dec
+keywords:
+- XmlText property Task Scheduler
+- XmlText property Task Scheduler , TaskDefinition object
+- TaskDefinition object Task Scheduler , XmlText property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskDefinition.XmlText property
@@ -40,16 +48,16 @@ The XML for a task is defined by the [Task Scheduler Schema](task-scheduler-sche
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

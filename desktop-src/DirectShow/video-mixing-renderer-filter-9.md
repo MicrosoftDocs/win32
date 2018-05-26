@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Video Mixing Renderer Filter 9
-ms.assetid: '3885cca2-74b1-4066-8ecb-84c9841f9e66'
+ms.assetid: 3885cca2-74b1-4066-8ecb-84c9841f9e66
 title: Video Mixing Renderer Filter 9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Mixing Renderer Filter 9
@@ -26,12 +31,12 @@ The VMR-9 supports up to 16 monitors.
 <td>Filter Interfaces</td>
 <td>The VMR-9 supports several distinct rendering modes. It supports a different set of interfaces depending on the rendering mode:<br/>
 <ul>
-<li>All modes: [<strong>IAMCertifiedOutputProtection</strong>](iamcertifiedoutputprotection.md), [<strong>IAMFilterMiscFlags</strong>](iamfiltermiscflags.md), [<strong>IBaseFilter</strong>](ibasefilter.md), [<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IQualityControl</strong>](iqualitycontrol.md), [<strong>IQualProp</strong>](iqualprop.md), [<strong>IVMRAspectRatioControl9</strong>](ivmraspectratiocontrol9.md), [<strong>IVMRDeinterlaceControl9</strong>](ivmrdeinterlacecontrol9.md), [<strong>IVMRFilterConfig9</strong>](ivmrfilterconfig9.md), [<strong>IVMRMixerBitmap9</strong>](ivmrmixerbitmap9.md), [<strong>IVMRMixerControl9</strong>](ivmrmixercontrol9.md)</li>
-<li>Renderless mode: [<strong>IVMRSurfaceAllocatorNotify9</strong>](ivmrsurfaceallocatornotify9.md)</li>
-<li>Windowed mode: [<strong>IBasicVideo</strong>](ibasicvideo.md), [<strong>IBasicVideo2</strong>](ibasicvideo2.md), [<strong>IVideoWindow</strong>](ivideowindow.md), [<strong>IVMRMonitorConfig9</strong>](ivmrmonitorconfig9.md)</li>
-<li>Windowless mode: [<strong>IVMRMonitorConfig9</strong>](ivmrmonitorconfig9.md), [<strong>IVMRWindowlessControl9</strong>](ivmrwindowlesscontrol9.md)</li>
+<li>All modes: [<strong>IAMCertifiedOutputProtection</strong>](/windows/win32/Strmif/nn-strmif-iamcertifiedoutputprotection?branch=master), [<strong>IAMFilterMiscFlags</strong>](/windows/win32/Strmif/nn-strmif-iamfiltermiscflags?branch=master), [<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master), [<strong>IQualProp</strong>](/windows/win32/Amvideo/nn-amvideo-iqualprop?branch=master), [<strong>IVMRAspectRatioControl9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmraspectratiocontrol9?branch=master), [<strong>IVMRDeinterlaceControl9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrdeinterlacecontrol9?branch=master), [<strong>IVMRFilterConfig9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrfilterconfig9?branch=master), [<strong>IVMRMixerBitmap9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrmixerbitmap9?branch=master), [<strong>IVMRMixerControl9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrmixercontrol9?branch=master)</li>
+<li>Renderless mode: [<strong>IVMRSurfaceAllocatorNotify9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrsurfaceallocatornotify9?branch=master)</li>
+<li>Windowed mode: [<strong>IBasicVideo</strong>](/windows/win32/Control/nn-control-ibasicvideo?branch=master), [<strong>IBasicVideo2</strong>](/windows/win32/Control/nn-control-ibasicvideo2?branch=master), [<strong>IVideoWindow</strong>](/windows/win32/Control/nn-control-ivideowindow?branch=master), [<strong>IVMRMonitorConfig9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrmonitorconfig9?branch=master)</li>
+<li>Windowless mode: [<strong>IVMRMonitorConfig9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrmonitorconfig9?branch=master), [<strong>IVMRWindowlessControl9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrwindowlesscontrol9?branch=master)</li>
 </ul>
-To set the rendering mode, call [<strong>IVMRFilterConfig9::SetRenderingMode</strong>](ivmrfilterconfig9-setrenderingmode.md). For more information, see [VMR Modes of Operation](vmr-modes-of-operation.md).<br/></td>
+To set the rendering mode, call [<strong>IVMRFilterConfig9::SetRenderingMode</strong>](/windows/win32/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode?branch=master). For more information, see [VMR Modes of Operation](vmr-modes-of-operation.md).<br/></td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -39,7 +44,7 @@ To set the rendering mode, call [<strong>IVMRFilterConfig9::SetRenderingMode</st
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IAMVideoAccelerator</strong>](iamvideoaccelerator.md), [<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IOverlay</strong>](ioverlay.md), [<strong>IQualityControl</strong>](iqualitycontrol.md), [<strong>IPin</strong>](ipin.md), [<strong>IPinConnection</strong>](ipinconnection.md), [<strong>IVMRVideoStreamControl9</strong>](ivmrvideostreamcontrol9.md)</td>
+<td>[<strong>IAMVideoAccelerator</strong>](/windows/win32/videoacc/nn-videoacc-iamvideoaccelerator?branch=master), [<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IOverlay</strong>](/windows/win32/Strmif/nn-strmif-ioverlay?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IPinConnection</strong>](/windows/win32/Strmif/nn-strmif-ipinconnection?branch=master), [<strong>IVMRVideoStreamControl9</strong>](/windows/win32/Vmr9/nn-vmr9-ivmrvideostreamcontrol9?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -80,19 +85,19 @@ To set the rendering mode, call [<strong>IVMRFilterConfig9::SetRenderingMode</st
 
 An application can provide a custom allocator-presenter object that exposes the following interfaces:
 
--   [**IVMRImagePresenter9**](ivmrimagepresenter9.md)
--   [**IVMRImagePresenterConfig9**](ivmrimagepresenterconfig9.md) (optional)
--   [**IVMRSurfaceAllocator9**](ivmrsurfaceallocator9.md)
--   [**IVMRSurfaceAllocatorEx9**](ivmrsurfaceallocatorex9.md) (optional)
--   [**IVMRWindowlessControl9**](ivmrwindowlesscontrol9.md) (optional)
+-   [**IVMRImagePresenter9**](/windows/win32/Vmr9/nn-vmr9-ivmrimagepresenter9?branch=master)
+-   [**IVMRImagePresenterConfig9**](/windows/win32/Vmr9/nn-vmr9-ivmrimagepresenterconfig9?branch=master) (optional)
+-   [**IVMRSurfaceAllocator9**](/windows/win32/Vmr9/nn-vmr9-ivmrsurfaceallocator9?branch=master)
+-   [**IVMRSurfaceAllocatorEx9**](/windows/win32/Vmr9/nn-vmr9-ivmrsurfaceallocatorex9?branch=master) (optional)
+-   [**IVMRWindowlessControl9**](/windows/win32/Vmr9/nn-vmr9-ivmrwindowlesscontrol9?branch=master) (optional)
 
 For more information about custom allocator-presenters, see [Supplying a Custom Allocator-Presenter for VMR-9](supplying-a-custom-allocator-presenter-for-vmr-9.md).
 
 An application can also provide a custom plug-in compositor that exposes the following interface:
 
--   [**IVMRImageCompositor9**](ivmrimagecompositor9.md)
+-   [**IVMRImageCompositor9**](/windows/win32/Vmr9/nn-vmr9-ivmrimagecompositor9?branch=master)
 
-To configure the VMR with a custom compositor, call [**IVMRFilterConfig9::SetImageCompositor**](ivmrfilterconfig9-setimagecompositor.md).
+To configure the VMR with a custom compositor, call [**IVMRFilterConfig9::SetImageCompositor**](/windows/win32/Vmr9/nf-vmr9-ivmrfilterconfig9-setimagecompositor?branch=master).
 
 ## Related topics
 

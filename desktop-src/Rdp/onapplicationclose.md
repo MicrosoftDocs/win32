@@ -4,11 +4,12 @@ description: Called when an application closes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1fe853ec-f584-43c4-8980-3ed1884bcfaf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1fe853ec-f584-43c4-8980-3ed1884bcfaf
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnApplicationClose event RDP"]
+keywords:
+- OnApplicationClose event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnApplicationClose event
@@ -28,7 +32,7 @@ Called when an application closes.
 
 ```C++
 void OnApplicationClose(
-  [in] IDispatch *pApplication
+  [in] IDispatch *pApplication
 );
 ```
 
@@ -41,7 +45,7 @@ void OnApplicationClose(
 *pApplication* \[in\]
 </dt> <dd>
 
-The application that was closed. Query the **IDispatch** interface for the [**IRDPSRAPIApplication**](irdpsrapiapplication.md) interface that you use to retrieve information about the application.
+The application that was closed. Query the **IDispatch** interface for the [**IRDPSRAPIApplication**](/windows/win32/RdpEncomAPI/nn-rdpencomapi-irdpsrapiapplication?branch=master) interface that you use to retrieve information about the application.
 
 </dd> </dl>
 
@@ -59,8 +63,8 @@ An Application object is considered destroyed when its last sharable top-level w
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -72,12 +76,12 @@ An Application object is considered destroyed when its last sharable top-level w
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

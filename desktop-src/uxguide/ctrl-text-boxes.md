@@ -1,7 +1,12 @@
 ---
 title: Text Boxes
 description: With a text box, users can display, enter, or edit a text or numeric value.
-ms.assetid: 'fb8ed262-1451-496d-a3f4-a29af39763bb'
+ms.assetid: fb8ed262-1451-496d-a3f4-a29af39763bb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Boxes
@@ -15,7 +20,7 @@ A typical text box.
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md), [fonts](vis-fonts.md), and [balloons](ctrl-balloons.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -33,7 +38,7 @@ To decide, consider these questions:
 While text boxes have the benefit of being very flexible, they have the drawback of having minimal constraints. The only constraints on an editable text box are:
 
 -   You can optionally set the maximum number of characters.
--   You can optionally restrict input to numeric characters (0 — 9) only.
+-   You can optionally restrict input to numeric characters (0   9) only.
 -   If you use a [spin control](ctrl-spin-controls.md), you can limit spin control choices to valid values.
 
 Aside from their length and the optional presence of a spin control, text boxes don't have any visual clues that suggest the valid values or their format. This means relying on labels to convey this information to users. If users enter text that's not valid, you must handle the error with an error message.
@@ -94,7 +99,7 @@ The [auto-exit](glossary.md#glossary) feature automatically advances the input f
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -391,9 +396,9 @@ When referring to text boxes:
 
     1234 56 7890
 
- 
+ 
 
- 
+ 
 
 
 

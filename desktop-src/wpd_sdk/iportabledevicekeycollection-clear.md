@@ -1,7 +1,12 @@
 ---
-Description: 'The Clear method deletes all items from the collection.'
-ms.assetid: 'd5477ded-d0bd-4909-abb1-6ff282cf7925'
-title: 'IPortableDeviceKeyCollection::Clear method'
+Description: The Clear method deletes all items from the collection.
+ms.assetid: d5477ded-d0bd-4909-abb1-6ff282cf7925
+title: IPortableDeviceKeyCollectionClear method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceKeyCollection::Clear method
@@ -33,7 +38,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,9 +58,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceKeyCollection Interface**](iportabledevicekeycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

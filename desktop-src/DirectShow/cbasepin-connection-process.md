@@ -1,14 +1,19 @@
 ---
 Description: CBasePin Connection Process
-ms.assetid: '4b3a9023-0267-4caa-9d89-88237009df05'
+ms.assetid: 4b3a9023-0267-4caa-9d89-88237009df05
 title: CBasePin Connection Process
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin Connection Process
 
 This section describes how the [**CBasePin**](cbasepin.md) class implements the pin connection process.
 
-The Filter Graph Manager initiates all pin connections. It calls the output pin's [**IPin::Connect**](ipin-connect.md) method, specifying the input pin. The output pin completes the connection by calling the input pin's [**IPin::ReceiveConnection**](ipin-receiveconnection.md) method. The input pin can accept or reject the connection.
+The Filter Graph Manager initiates all pin connections. It calls the output pin's [**IPin::Connect**](/windows/win32/Strmif/nf-strmif-ipin-connect?branch=master) method, specifying the input pin. The output pin completes the connection by calling the input pin's [**IPin::ReceiveConnection**](/windows/win32/Strmif/nf-strmif-ipin-receiveconnection?branch=master) method. The input pin can accept or reject the connection.
 
 The Filter Graph Manager can also specify a media type for the connection. If so, the pins try to connect with that type. If not, the pins must negotiate the type. The Filter Graph Manager may also specify a *partial* media type, which has the value GUID\_NULL for either the major type, subtype, or format type. In that case, the pins try to match whichever portions of the media type were specified; the value GUID\_NULL acts as a wildcard.
 
@@ -21,13 +26,13 @@ If the media type is fully specified, the pin calls the [**CBasePin::AttemptConn
 
 You can reverse this order by setting the [**CBasePin::m\_bTryMyTypesFirst**](cbasepin-m-btrymytypesfirst.md) flag to **TRUE**.
 
-In each case, the pin calls [**IPin::EnumMediaTypes**](ipin-enummediatypes.md) to enumerate the media types. This method retrieves an enumerator object, which is passed to the [**CBasePin::TryMediaTypes**](cbasepin-trymediatypes.md) method. The **TryMediaTypes** method loops through each media type and calls [**AttemptConnection**](cbasepin-attemptconnection.md) for each type.
+In each case, the pin calls [**IPin::EnumMediaTypes**](/windows/win32/Strmif/nf-strmif-ipin-enummediatypes?branch=master) to enumerate the media types. This method retrieves an enumerator object, which is passed to the [**CBasePin::TryMediaTypes**](cbasepin-trymediatypes.md) method. The **TryMediaTypes** method loops through each media type and calls [**AttemptConnection**](cbasepin-attemptconnection.md) for each type.
 
 Within the [**AttemptConnection**](cbasepin-attemptconnection.md) method, the output pin calls the following methods:
 
 -   It calls [**CBasePin::CheckConnect**](cbasepin-checkconnect.md) on itself, to check whether the input pin is suitable.
 -   It calls [**CBasePin::CheckMediaType**](cbasepin-checkmediatype.md) on itself, to validate the media type.
--   It calls [**IPin::ReceiveConnection**](ipin-receiveconnection.md) on the input pin. The input pin uses this method to determine whether it should accept the connection.
+-   It calls [**IPin::ReceiveConnection**](/windows/win32/Strmif/nf-strmif-ipin-receiveconnection?branch=master) on the input pin. The input pin uses this method to determine whether it should accept the connection.
 -   It calls [**CBasePin::CompleteConnect**](cbasepin-completeconnect.md) on itself to completes the connection.
 
 Note the following:

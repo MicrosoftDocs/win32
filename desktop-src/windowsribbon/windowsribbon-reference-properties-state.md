@@ -1,7 +1,12 @@
 ---
 title: State Properties
 description: Reference documentation on property keys for Ribbon framework control state or context.
-ms.assetid: '4d002be3-fa0d-4694-bcd2-26900b34060c'
+ms.assetid: 4d002be3-fa0d-4694-bcd2-26900b34060c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # State Properties
@@ -28,7 +33,7 @@ Reference documentation on property keys for Ribbon framework control state or c
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -37,9 +42,9 @@ Reference documentation on property keys for Ribbon framework control state or c
 [Property Keys](windowsribbon-reference-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

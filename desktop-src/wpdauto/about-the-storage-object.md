@@ -1,8 +1,26 @@
 ---
 title: About the Storage Object
 description: The Storage object is bound at runtime to represent a given legacy storage on a device. It provides access to all of the properties and content exposed by that storage.
-ms.assetid: '85ab290a-16f5-49cd-9ee4-ee640604f855'
-keywords: ["WPD Automation,WPDObject", "WPD Automation,Storage object", "WPD Automation,CreateNewObject", "WPD Automation,storagesCollection", "WPDObject,WPD Automation", "WPDObject,Service object", "Storage object,about", "Storage object,WPD Automation", "Storage object,WPDObject", "Storage object,CreateNewObject", "Storage object,storagesCollection", "CreateNewObject", "storagesCollection"]
+ms.assetid: 85ab290a-16f5-49cd-9ee4-ee640604f855
+keywords:
+- WPD Automation,WPDObject
+- WPD Automation,Storage object
+- WPD Automation,CreateNewObject
+- WPD Automation,storagesCollection
+- WPDObject,WPD Automation
+- WPDObject,Service object
+- Storage object,about
+- Storage object,WPD Automation
+- Storage object,WPDObject
+- Storage object,CreateNewObject
+- Storage object,storagesCollection
+- CreateNewObject
+- storagesCollection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Storage Object

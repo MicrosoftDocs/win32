@@ -1,7 +1,12 @@
-﻿---
+---
 Description: WM ASF Writer Filter
-ms.assetid: '1b12f65f-8d77-4d38-aad9-92bb15cc0426'
+ms.assetid: 1b12f65f-8d77-4d38-aad9-92bb15cc0426
 title: WM ASF Writer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM ASF Writer Filter
@@ -14,9 +19,9 @@ For more information, see [Creating ASF Files in DirectShow](creating-asf-files-
 
 |                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter interfaces                        | [**IAMFilterMiscFlags**](iamfiltermiscflags.md), [**IBaseFilter**](ibasefilter.md), [**IConfigAsfWriter**](iconfigasfwriter.md), [**IConfigAsfWriter2**](iconfigasfwriter2.md), [**IFileSinkFilter2**](ifilesinkfilter2.md), [**IMediaSeeking**](imediaseeking.md), **IPersistStream**, **IServiceProvider**, **ISpecifyPropertyPages**In addition, the filter exposes the following Windows Media Format SDK interfaces: **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2**<br/> |
+| Filter interfaces                        | [**IAMFilterMiscFlags**](/windows/win32/Strmif/nn-strmif-iamfiltermiscflags?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IConfigAsfWriter**](/windows/win32/Dshowasf/nn-dshowasf-iconfigasfwriter?branch=master), [**IConfigAsfWriter2**](/windows/win32/Dshowasf/nn-dshowasf-iconfigasfwriter2?branch=master), [**IFileSinkFilter2**](/windows/win32/Strmif/nn-strmif-ifilesinkfilter2?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), **IPersistStream**, **IServiceProvider**, **ISpecifyPropertyPages**In addition, the filter exposes the following Windows Media Format SDK interfaces: **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2**<br/> |
 | Input pin media types                    | Depends on the ASF profile. Typically uncompressed audio and video types, although the filter will accept compressed types if they match the ASF profile.                                                                                                                                                                                                                                                                                                                                             |
-| Input pin interfaces                     | [**IAMStreamConfig**](iamstreamconfig.md), [**IAMWMBufferPass**](iamwmbufferpass.md), [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), **IServiceProvider**In addition, the pin exposes the following Windows Media Format SDK interface: **IWMStreamConfig2** (through **IServiceProvider**)<br/>                                                                                                                                                                                 |
+| Input pin interfaces                     | [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master), [**IAMWMBufferPass**](/windows/win32/Dshowasf/nn-dshowasf-iamwmbufferpass?branch=master), [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), **IServiceProvider**In addition, the pin exposes the following Windows Media Format SDK interface: **IWMStreamConfig2** (through **IServiceProvider**)<br/>                                                                                                                                                                                 |
 | Output pin media types                   | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Output pin interfaces                    | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Filter CLSID                             | CLSID\_WMAsfWriter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -35,9 +40,9 @@ The filter requires the Windows Media Format Software Development Kit (SDK) and 
 
 The number of input pins on the filter dependings on the profile or profile identifier of the ASF stream.
 
-The input pins support one method from the **IAMStreamConfig** interface: [**IAMStreamConfig::GetFormat**](iamstreamconfig-getformat.md). All other methods return E\_NOTIMPL. Call the **GetFormat** method to query the pin's destination compression format, which is defined by the current ASF profile. Use the [**IConfigAsfWriter**](iconfigasfwriter.md) interface to set the profile.
+The input pins support one method from the **IAMStreamConfig** interface: [**IAMStreamConfig::GetFormat**](/windows/win32/Strmif/nf-strmif-iamstreamconfig-getformat?branch=master). All other methods return E\_NOTIMPL. Call the **GetFormat** method to query the pin's destination compression format, which is defined by the current ASF profile. Use the [**IConfigAsfWriter**](/windows/win32/Dshowasf/nn-dshowasf-iconfigasfwriter?branch=master) interface to set the profile.
 
-You can use the filter's **IServiceProvider** interface to get a pointer to the **IWMWriterAdvanced2** interface, which is defined in the Windows Media Format SDK. You can use the **IWMWriterAdvanced2** interface to control video deinterlacing when the source video is interlaced. To set the deinterlacing mode, call **IWMWriterAdvanced2::SetInputSetting**. For the *dwInputNum* parameter, use the zero-based index of the video input pin, as enumerated by the [**IEnumPins**](ienumpins.md) interface.
+You can use the filter's **IServiceProvider** interface to get a pointer to the **IWMWriterAdvanced2** interface, which is defined in the Windows Media Format SDK. You can use the **IWMWriterAdvanced2** interface to control video deinterlacing when the source video is interlaced. To set the deinterlacing mode, call **IWMWriterAdvanced2::SetInputSetting**. For the *dwInputNum* parameter, use the zero-based index of the video input pin, as enumerated by the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface.
 
 The following example shows how to query for this interface:
 
@@ -71,7 +76,7 @@ if (SUCCEEDED(hr))
 
 Applications should not use any of the **IWMWriterAdvanced** methods that the **IWMWriterAdvanced2** interface inherits. Calling any these methods could interere with the operation of the filter.
 
-The only file-writing mode supported by this filter is AM\_FILE\_OVERWRITE. See [**IFileSinkFilter2::GetMode**](ifilesinkfilter2-getmode.md).
+The only file-writing mode supported by this filter is AM\_FILE\_OVERWRITE. See [**IFileSinkFilter2::GetMode**](/windows/win32/Strmif/nf-strmif-ifilesinkfilter2-getmode?branch=master).
 
 When the Windows Media Format SDK runtime sends WMT\_STATUS messages to the WM ASF Writer filter, the filter forwards them as [**EC\_WMT\_EVENT**](ec-wmt-event.md) events.
 

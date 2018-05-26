@@ -4,13 +4,16 @@ description: Hide a list of SCSI logical units (such as a RAID volume or tape dr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0475cd41-57fb-414c-976f-061d77b83e6c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0475cd41-57fb-414c-976f-061d77b83e6c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["HidePaths method iSCSI Software Target API", "HidePaths method iSCSI Software Target API , CIM_ControllerConfigurationService class", "CIM_ControllerConfigurationService class iSCSI Software Target API , HidePaths method"]
+keywords:
+- HidePaths method iSCSI Software Target API
+- HidePaths method iSCSI Software Target API , CIM_ControllerConfigurationService class
+- CIM_ControllerConfigurationService class iSCSI Software Target API , HidePaths method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # HidePaths method of the CIM\_ControllerConfigurationService class
@@ -34,11 +40,11 @@ The disposition of the SPC when the last logical unit, initiator ID, or target p
 
 ```mof
 uint32 HidePaths(
-  [out]     CIM_ConcreteJob            REF Job,
-  [in]      string                         LUNames[],
-  [in]      string                         InitiatorPortIDs[],
-  [in]      string                         TargetPortIDs[],
-  [in, out] CIM_SCSIProtocolController REF ProtocolControllers[]
+  [out]     CIM_ConcreteJob            REF Job,
+  [in]      string                         LUNames[],
+  [in]      string                         InitiatorPortIDs[],
+  [in]      string                         TargetPortIDs[],
+  [in, out] CIM_SCSIProtocolController REF ProtocolControllers[]
 );
 ```
 
@@ -105,7 +111,7 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this MUST co
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -123,10 +129,10 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this MUST co
 **Target/initiator combination not exposed** (4100)
 </dt> <dt>
 
-**Method Reserved** (4101–32767)
+**Method Reserved** (4101 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -136,7 +142,7 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this MUST co
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -150,9 +156,9 @@ An array of references to SCSIProtocolControllers (SPCs). On input, this MUST co
 [**CIM\_ControllerConfigurationService**](cim-controllerconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

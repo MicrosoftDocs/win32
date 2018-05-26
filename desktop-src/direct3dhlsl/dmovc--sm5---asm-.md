@@ -1,7 +1,12 @@
 ---
 title: dmovc (sm5 - asm)
 description: Component-wise conditional move.
-ms.assetid: 'E376FE08-E251-4BE5-9F15-99B3B67A29C8'
+ms.assetid: E376FE08-E251-4BE5-9F15-99B3B67A29C8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dmovc (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise conditional move.
 
 
 
- 
+ 
 
 
 
@@ -28,7 +33,7 @@ Component-wise conditional move.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,7 +95,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -109,7 +114,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -118,9 +123,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

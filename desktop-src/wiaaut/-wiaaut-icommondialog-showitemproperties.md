@@ -1,8 +1,11 @@
 ---
 title: CommonDialog.ShowItemProperties method
 description: Displays the Properties dialog box for the specified Item.
-ms.assetid: '669f0261-9af5-42be-a818-2e5b24d9d616'
-keywords: ["ShowItemProperties method WIA Automation", "ShowItemProperties method WIA Automation , CommonDialog object", "CommonDialog object WIA Automation , ShowItemProperties method"]
+ms.assetid: 669f0261-9af5-42be-a818-2e5b24d9d616
+keywords:
+- ShowItemProperties method WIA Automation
+- ShowItemProperties method WIA Automation , CommonDialog object
+- CommonDialog object WIA Automation , ShowItemProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog.ShowItemProperties method
@@ -58,7 +66,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -70,7 +78,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Examples
 
-The following example shows how to display the [**Item**](-wiaaut-item.md)  **Properties** dialog box for the selected item.
+The following example shows how to display the [**Item**](-wiaaut-item.md)  **Properties** dialog box for the selected item.
 
 
 ```
@@ -93,8 +101,8 @@ CommonDialog1.ShowItemProperties itm
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -128,9 +136,9 @@ CommonDialog1.ShowItemProperties itm
 [**Item (Items)**](-wiaaut-iitems-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

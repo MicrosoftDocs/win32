@@ -1,8 +1,11 @@
 ---
 title: ISMTPTransport SendDataStream method
 description: Sends a Simple Mail Transport Protocol (SMTP) message stream to the server.
-ms.assetid: '61dd2fdc-a3cf-4b67-8114-b4c246799939'
-keywords: ["SendDataStream method Windows Mail (formerly Outlook Express)", "SendDataStream method Windows Mail (formerly Outlook Express) , ISMTPTransport interface", "ISMTPTransport interface Windows Mail (formerly Outlook Express) , SendDataStream method"]
+ms.assetid: 61dd2fdc-a3cf-4b67-8114-b4c246799939
+keywords:
+- SendDataStream method Windows Mail (formerly Outlook Express)
+- SendDataStream method Windows Mail (formerly Outlook Express) , ISMTPTransport interface
+- ISMTPTransport interface Windows Mail (formerly Outlook Express) , SendDataStream method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISMTPTransport::SendDataStream method
@@ -24,8 +32,8 @@ Sends a Simple Mail Transport Protocol (SMTP) message stream to the server.
 
 ```C++
 HRESULT SendDataStream(
-  [in] IStream *pStream,
-  [in] ULONG   cbSize
+  [in] IStream *pStream,
+  [in] ULONG   cbSize
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT SendDataStream(
 
 Type: **[IStream](http://msdn.microsoft.com/library/stg/stg/istream.asp)\***
 
-Specifies a pointer to the [IStream](http://msdn.microsoft.com/library/stg/stg/istream.asp) object that contains the ANSI MIME/[RFC 822](http://www.ietf.org/rfc/rfc822.txt) message stream.
+Specifies a pointer to the [IStream](http://msdn.microsoft.com/library/stg/stg/istream.asp) object that contains the ANSI MIME/[RFC 822](http://www.ietf.org/rfc/rfc822.txt) message stream.
 
 </dd> <dt>
 
@@ -71,7 +79,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,8 +91,8 @@ This method calls the [**ISMTPTransport::CommandDOT**](oe-ismtptransport-command
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -92,9 +100,9 @@ This method calls the [**ISMTPTransport::CommandDOT**](oe-ismtptransport-command
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TB\_GETUNICODEFORMAT message
 description: Retrieves the Unicode character format flag for the control.
-ms.assetid: 'aadce646-daf1-4f1e-9171-2aeac12d3484'
-keywords: ["TB_GETUNICODEFORMAT message Windows Controls"]
+ms.assetid: aadce646-daf1-4f1e-9171-2aeac12d3484
+keywords:
+- TB_GETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETUNICODEFORMAT message
@@ -41,8 +47,8 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 [**TB\_SETUNICODEFORMAT**](tb-setunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

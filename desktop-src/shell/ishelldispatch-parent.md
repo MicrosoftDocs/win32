@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an object that represents the parent of the current object.'
-ms.assetid: '2FDEF8D3-3F5B-43ae-9812-83B4249D9CBB'
-title: 'IShellDispatch.Parent property'
+---
+Description: Retrieves an object that represents the parent of the current object.
+ms.assetid: 2FDEF8D3-3F5B-43ae-9812-83B4249D9CBB
+title: IShellDispatch.Parent property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.Parent property

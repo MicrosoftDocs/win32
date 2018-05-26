@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetStreamNumber method retrieves the current stream number for the source object.'
-ms.assetid: 'c9c0c9f7-2716-436d-902c-f2255bedaffb'
-title: 'IAMTimelineSrc::GetStreamNumber method'
+---
+Description: The GetStreamNumber method retrieves the current stream number for the source object.
+ms.assetid: c9c0c9f7-2716-436d-902c-f2255bedaffb
+title: IAMTimelineSrcGetStreamNumber method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::GetStreamNumber method

@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that indicates whether the filter has posted the EC\_COMPLETE event.'
-ms.assetid: 'db739f08-cd12-4b9d-91f2-970db3d823c4'
-title: 'CBaseRenderer::m\_bEOSDelivered member'
+Description: Flag that indicates whether the filter has posted the EC\_COMPLETE event.
+ms.assetid: db739f08-cd12-4b9d-91f2-970db3d823c4
+title: CBaseRendererm\_bEOSDelivered member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_bEOSDelivered member
@@ -35,9 +40,9 @@ BOOL m_bEOSDelivered;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

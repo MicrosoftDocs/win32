@@ -1,14 +1,19 @@
 ---
 title: Microsoft Active Accessibility
-description: Microsoft Active Accessibility is a Component Object Model (COM)-based technology that improves the way accessibility aids work with applications running on Microsoft Windows.
-ms.assetid: 'f3e31c6f-c49e-4a61-99f1-b695ece2bfc9'
+description: Microsoft Active Accessibility is a Component Object Model (COM)-based technology that improves the way accessibility aids work with applications running on Microsoft Windows.
+ms.assetid: f3e31c6f-c49e-4a61-99f1-b695ece2bfc9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Active Accessibility
 
 ## Purpose
 
-Microsoft Active Accessibility is a Component Object Model (COM)-based technology that improves the way accessibility aids work with applications running on Microsoft Windows. It provides dynamic-link libraries that are incorporated into the operating system as well as a COM interface and API elements that provide reliable methods for exposing information about UI elements.
+Microsoft Active Accessibility is a Component Object Model (COM)-based technology that improves the way accessibility aids work with applications running on Microsoft Windows. It provides dynamic-link libraries that are incorporated into the operating system as well as a COM interface and API elements that provide reliable methods for exposing information about UI elements.
 
 ## Where applicable
 
@@ -20,7 +25,7 @@ Microsoft Active Accessibility is designed primarily for C, C++, and Microsoft V
 
 ## Run-time requirements
 
-Full support for Microsoft Active Accessibility is built into Windows XP and Windows Server 2003. Microsoft Active Accessibility is also supported on Windows NT 4.0 with Service Pack 6 (SP6) and later, and Windows 98.
+Full support for Microsoft Active Accessibility is built into Windows XP and Windows Server 2003. Microsoft Active Accessibility is also supported on Windows NT 4.0 with Service Pack 6 (SP6) and later, and Windows 98.
 
 ## In this section
 
@@ -37,7 +42,7 @@ Full support for Microsoft Active Accessibility is built into Windows XP and Win
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -49,9 +54,9 @@ Full support for Microsoft Active Accessibility is built into Windows XP and Win
 [Microsoft Accessibility Developer Center on MSDN](http://go.microsoft.com/fwlink/p/?linkid=186466)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

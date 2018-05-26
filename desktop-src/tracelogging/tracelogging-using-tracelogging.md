@@ -1,7 +1,12 @@
 ---
 title: Using TraceLogging
 description: The following topics provide a TraceLogging quick start for native and managed code, with examples.
-ms.assetid: 'CEC57517-7A0E-45AA-85F7-F358AE51EF4A'
+ms.assetid: CEC57517-7A0E-45AA-85F7-F358AE51EF4A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using TraceLogging
@@ -10,7 +15,7 @@ The following topics provide a TraceLogging quick start for native and managed c
 
 ## Prerequisites
 
--   Windows 10 Software Development Kit (SDK) is required to write a user-mode provider
+-   Windows 10 Software Development Kit (SDK) is required to write a user-mode provider
 -   Windows Driver Kit (WDK) is required to write a kernel-mode provider
 
 ## In this section
@@ -28,7 +33,7 @@ The following topics provide a TraceLogging quick start for native and managed c
 
 
 
- 
+ 
 
 TraceLogging samples.
 
@@ -39,9 +44,9 @@ TraceLogging samples.
 [TraceLogging for kernel-mode drivers and components](https://msdn.microsoft.com/library/windows/hardware/dn701955)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

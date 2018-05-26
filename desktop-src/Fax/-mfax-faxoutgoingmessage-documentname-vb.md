@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax message.'
-ms.assetid: '22ba72fd-43ac-4ae1-b4a0-7f0fbb770b50'
-title: 'FaxOutgoingMessage.DocumentName property'
+---
+Description: The DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax message.
+ms.assetid: 22ba72fd-43ac-4ae1-b4a0-7f0fbb770b50
+title: FaxOutgoingMessage.DocumentName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.DocumentName property
@@ -46,7 +51,7 @@ A **String** that receives the user-friendly name to associate with the fax mess
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

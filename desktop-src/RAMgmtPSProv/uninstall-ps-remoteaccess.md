@@ -2,13 +2,16 @@
 title: Uninstall method of the PS\_RemoteAccess class
 description: This cmdlet uninstalls DirectAccess and VPN service (both remote access VPN and site-to-site VPN).
 audience: developer
-ms.assetid: '64baa78a-7bdd-4a2d-851f-2ddd88e59c31'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64baa78a-7bdd-4a2d-851f-2ddd88e59c31
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Uninstall method", "Uninstall method, PS_RemoteAccess class", "PS_RemoteAccess class, Uninstall method"]
+keywords:
+- Uninstall method
+- Uninstall method, PS_RemoteAccess class
+- PS_RemoteAccess class, Uninstall method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Uninstall method of the PS\_RemoteAccess class
@@ -28,10 +34,10 @@ This cmdlet uninstalls DirectAccess and VPN service (both remote access VPN and 
 
 ```mof
 uint32 Uninstall(
-  [in] string  VpnType,
-  [in] string  EntrypointName,
-  [in] string  ComputerName,
-  [in] boolean Force
+  [in] string  VpnType,
+  [in] string  EntrypointName,
+  [in] string  ComputerName,
+  [in] boolean Force
 );
 ```
 
@@ -76,7 +82,7 @@ Switch parameter used to suppress user confirmation prompts for the following co
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Switch parameter used to suppress user confirmation prompts for the following co
 [**PS\_RemoteAccess**](ps-remoteaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

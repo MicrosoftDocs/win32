@@ -4,11 +4,14 @@ description: The returned property returns the type of action triggered when a u
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa08b73a-98f5-420a-8098-89c821933078'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fa08b73a-98f5-420a-8098-89c821933078
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ActionType property MMC", "ActionType property MMC , MMCTask class", "MMCTask class MMC , ActionType property"]
+keywords:
+- ActionType property MMC
+- ActionType property MMC , MMCTask class
+- MMCTask class MMC , ActionType property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCTask.ActionType property
@@ -54,7 +60,7 @@ The following table describes the action types.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,9 +73,9 @@ The following table describes the action types.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

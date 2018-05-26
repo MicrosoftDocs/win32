@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'e6398534-4a35-4f63-bfd5-98ea3f5e3488'
+---
+Description: .
+ms.assetid: e6398534-4a35-4f63-bfd5-98ea3f5e3488
 title: Journal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Journal

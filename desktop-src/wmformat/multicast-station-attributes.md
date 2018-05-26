@@ -1,8 +1,18 @@
 ---
 title: Multicast Station Attributes
 description: Multicast Station Attributes
-ms.assetid: '24b81ccb-4030-49a4-802c-5b45f7dd5950'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,multicast station", "multicast station attributes"]
+ms.assetid: 24b81ccb-4030-49a4-802c-5b45f7dd5950
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,multicast station
+- multicast station attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Station Attributes

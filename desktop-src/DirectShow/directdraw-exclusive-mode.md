@@ -1,13 +1,18 @@
 ---
 Description: DirectDraw Exclusive Mode
-ms.assetid: '3ef4f267-4dc2-421b-ade4-6b1efa364733'
+ms.assetid: 3ef4f267-4dc2-421b-ade4-6b1efa364733
 title: DirectDraw Exclusive Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectDraw Exclusive Mode
 
 > [!Note]  
-> This topic applies to the VMR-7 only. In the VMR-9, you enable exclusive mode by supplying your own exclusive mode allocator-presenter. This is relatively straightforward if you use the [**IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper**](ivmrsurfaceallocatornotify9-allocatesurfacehelper.md) method. The VMR9Allocator sample shows how to implement a custom allocator-presenter.
+> This topic applies to the VMR-7 only. In the VMR-9, you enable exclusive mode by supplying your own exclusive mode allocator-presenter. This is relatively straightforward if you use the [**IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper**](/windows/win32/Vmr9/nf-vmr9-ivmrsurfaceallocatornotify9-allocatesurfacehelper?branch=master) method. The VMR9Allocator sample shows how to implement a custom allocator-presenter.
 
  
 
@@ -15,7 +20,7 @@ In DirectDraw Exclusive Mode, an application takes exclusive control of the grap
 
 The VMR has a special allocator-presenter that enables it to run in DirectDraw Exclusive Mode. To configure the VMR to use this allocator-presenter:
 
-1.  Create the Filter Graph and add the VMR to it using the [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) method. For a code example, see [VMR Windowless Mode](vmr-windowless-mode.md).
+1.  Create the Filter Graph and add the VMR to it using the [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) method. For a code example, see [VMR Windowless Mode](vmr-windowless-mode.md).
 2.  Create the Exclusive Mode allocator-presenter:
     ```C++
     IVMRImagePresenterExclModeConfig* pExclModeConfig;

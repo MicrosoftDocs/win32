@@ -1,8 +1,15 @@
 ---
 title: About IrDA
 description: Infrared Data Association (IrDA) overview topic.
-ms.assetid: '72709201-6519-4b5e-ba5d-6b9b3e07eb03'
-keywords: ["Infrared Data Association IrDA , described", "infrared networking IrDA"]
+ms.assetid: 72709201-6519-4b5e-ba5d-6b9b3e07eb03
+keywords:
+- Infrared Data Association IrDA , described
+- infrared networking IrDA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About IrDA

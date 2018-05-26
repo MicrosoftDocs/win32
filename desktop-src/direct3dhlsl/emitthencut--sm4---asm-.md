@@ -1,7 +1,12 @@
 ---
 title: emitThenCut (sm4 - asm)
 description: Equivalent to an emit command followed by a cut command.
-ms.assetid: '80DE112A-790A-4DDF-A5BE-51F70BD7872C'
+ms.assetid: 80DE112A-790A-4DDF-A5BE-51F70BD7872C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # emitThenCut (sm4 - asm)

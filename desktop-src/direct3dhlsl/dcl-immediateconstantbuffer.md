@@ -1,7 +1,12 @@
 ---
 title: dcl\_immediateConstantBuffer (sm4 - asm)
 description: dcl\_immediateConstantBuffer (sm4 - asm)
-ms.assetid: '55e21ab1-0749-4200-8e68-bb098e935dac'
+ms.assetid: 55e21ab1-0749-4200-8e68-bb098e935dac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_immediateConstantBuffer (sm4 - asm)

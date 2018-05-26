@@ -1,8 +1,14 @@
 ---
 title: Operating System Versions
 description: This DWORD data type should hold the operating system type in the high-order word and the version number of the operating system in the low-order word. Possible values for the operating system are listed in the following table.
-ms.assetid: '318e277b-a797-45a5-87c5-25b91fdf278d'
-keywords: ["Operating System Versions Structured Storage"]
+ms.assetid: 318e277b-a797-45a5-87c5-25b91fdf278d
+keywords:
+- Operating System Versions Structured Storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operating System Versions

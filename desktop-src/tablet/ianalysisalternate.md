@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the possible handwriting recognition word matches for IContextNode objects.'
-ms.assetid: 'a497c140-6166-4309-af0f-851af09015c6'
+Description: Represents the possible handwriting recognition word matches for IContextNode objects.
+ms.assetid: a497c140-6166-4309-af0f-851af09015c6
 title: IAnalysisAlternate interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisAlternate interface
@@ -29,7 +34,7 @@ The **IAnalysisAlternate** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlterna
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -71,9 +76,9 @@ This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlterna
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Automation Element Property Identifiers
 description: This topic describes the named constants that identify the properties of Microsoft UI Automation elements.
-ms.assetid: 'f7613ad1-0b75-46fb-b9ac-b1ae9eea4193'
+ms.assetid: f7613ad1-0b75-46fb-b9ac-b1ae9eea4193
 topic_type:
 - apiref
 api_name:
@@ -64,6 +64,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automation Element Property Identifiers
@@ -140,7 +145,7 @@ This property is <strong>NULL</strong> if the item is not currently displaying a
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_ControllerForPropertyId"></span><span id="uia_controllerforpropertyid"></span><span id="UIA_CONTROLLERFORPROPERTYID"></span><dl> <dt><strong>UIA_ControllerForPropertyId</strong></dt> <dt>30104</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>ControllerFor</strong> property, which is an array of automation elements that are manipulated by the automation element that supports this property.<br/> <strong>ControllerFor</strong> is used when an automation element affects one or more segments of the application UI or the desktop; otherwise, it is hard to associate the impact of the control operation with UI elements.<br/> This identifier is commonly used for [Auto-suggest accessibility](http://windowsstyleguide/accessibility/accessible-text-requirements/#auto-suggest-accessibility).<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](uiauto-iuiautomationelementarray.md) )<br/> Default value: empty array<br/></td>
+<td style="text-align: left;">Identifies the <strong>ControllerFor</strong> property, which is an array of automation elements that are manipulated by the automation element that supports this property.<br/> <strong>ControllerFor</strong> is used when an automation element affects one or more segments of the application UI or the desktop; otherwise, it is hard to associate the impact of the control operation with UI elements.<br/> This identifier is commonly used for [Auto-suggest accessibility](http://windowsstyleguide/accessibility/accessible-text-requirements/#auto-suggest-accessibility).<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray?branch=master) )<br/> Default value: empty array<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_ControlTypePropertyId"></span><span id="uia_controltypepropertyid"></span><span id="UIA_CONTROLTYPEPROPERTYID"></span><dl> <dt><strong>UIA_ControlTypePropertyId</strong></dt> <dt>30003</dt> </dl></td>
@@ -157,7 +162,7 @@ Use the default value only if the automation element represents a completely new
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_DescribedByPropertyId"></span><span id="uia_describedbypropertyid"></span><span id="UIA_DESCRIBEDBYPROPERTYID"></span><dl> <dt><strong>UIA_DescribedByPropertyId</strong></dt> <dt>30105</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>DescribedBy</strong> property, which is an array of elements that provide more information about the automation element.<br/> <strong>DescribedBy</strong> is used when an automation element is explained by another segment of the application UI. For example, the property can point to a text element of &quot;2,529 items in 85 groups, 10 items selected&quot; from a complex custom list object. Instead of using the object model for clients to digest similar information, the <strong>DescribedBy</strong> property can offer quick access to the UI element that may already offer useful end-user information that describes the UI element.<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](uiauto-iuiautomationelementarray.md))<br/> Default value: empty array<br/></td>
+<td style="text-align: left;">Identifies the <strong>DescribedBy</strong> property, which is an array of elements that provide more information about the automation element.<br/> <strong>DescribedBy</strong> is used when an automation element is explained by another segment of the application UI. For example, the property can point to a text element of &quot;2,529 items in 85 groups, 10 items selected&quot; from a complex custom list object. Instead of using the object model for clients to digest similar information, the <strong>DescribedBy</strong> property can offer quick access to the UI element that may already offer useful end-user information that describes the UI element.<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray?branch=master))<br/> Default value: empty array<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_FillColorPropertyId"></span><span id="uia_fillcolorpropertyid"></span><span id="UIA_FILLCOLORPROPERTYID"></span><dl> <dt><strong>UIA_FillColorPropertyId</strong></dt> <dt>30160</dt> </dl></td>
@@ -169,11 +174,11 @@ Use the default value only if the automation element represents a completely new
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_FlowsFromPropertyId"></span><span id="uia_flowsfrompropertyid"></span><span id="UIA_FLOWSFROMPROPERTYID"></span><dl> <dt><strong>UIA_FlowsFromPropertyId</strong></dt> <dt>30148</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>FlowsFrom</strong> property, which is an array of automation elements that suggests the reading order before the current automation element. Supported starting with Windows 8.<br/> The <strong>FlowsFrom</strong> property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the <strong>FlowsFrom</strong> property can specify multiple preceding elements, it typically contains only the prior element in the reading order.<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](uiauto-iuiautomationelementarray.md))<br/> Default value: empty array<br/></td>
+<td style="text-align: left;">Identifies the <strong>FlowsFrom</strong> property, which is an array of automation elements that suggests the reading order before the current automation element. Supported starting with Windows 8.<br/> The <strong>FlowsFrom</strong> property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the <strong>FlowsFrom</strong> property can specify multiple preceding elements, it typically contains only the prior element in the reading order.<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray?branch=master))<br/> Default value: empty array<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_FlowsToPropertyId"></span><span id="uia_flowstopropertyid"></span><span id="UIA_FLOWSTOPROPERTYID"></span><dl> <dt><strong>UIA_FlowsToPropertyId</strong></dt> <dt>30106</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>FlowsTo</strong> property, which is an array of automation elements that suggests the reading order after the current automation element.<br/> The <strong>FlowsTo</strong> property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the <strong>FlowsTo</strong> property can specify multiple succeeding elements, it typically contains only the next element in the reading order.<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](uiauto-iuiautomationelementarray.md))<br/> Default value: empty array<br/></td>
+<td style="text-align: left;">Identifies the <strong>FlowsTo</strong> property, which is an array of automation elements that suggests the reading order after the current automation element.<br/> The <strong>FlowsTo</strong> property specifies the reading order when automation elements are not exposed or structured in the same reading order as perceived by the user. While the <strong>FlowsTo</strong> property can specify multiple succeeding elements, it typically contains only the next element in the reading order.<br/> Variant type for providers: <strong>VT_UNKNOWN</strong> | <strong>VT_ARRAY</strong><br/> Variant type for clients: <strong>VT_UNKNOWN</strong> ([<strong>IUIAutomationElementArray</strong>](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray?branch=master))<br/> Default value: empty array<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_FrameworkIdPropertyId"></span><span id="uia_frameworkidpropertyid"></span><span id="UIA_FRAMEWORKIDPROPERTYID"></span><dl> <dt><strong>UIA_FrameworkIdPropertyId</strong></dt> <dt>30024</dt> </dl></td>
@@ -230,7 +235,7 @@ For an element to appear in the content view, both the <strong>IsContentElement<
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_IsPeripheralPropertyId"></span><span id="uia_isperipheralpropertyid"></span><span id="UIA_ISPERIPHERALPROPERTYID"></span><dl> <dt><strong>UIA_IsPeripheralPropertyId</strong></dt> <dt>30150</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>IsPeripheral</strong> property, which is a Boolean value that indicates whether the automation element represents peripheral UI. Peripheral UI appears and supports user interaction, but does not take keyboard focus when it appears. Examples of peripheral UI includes popups, flyouts, context menus, or floating notifications. Supported starting with Windows 8.1.<br/> When the <strong>IsPeripheral</strong> property is <strong>TRUE</strong>, a client application can't assume that focus was taken by the element even if it's currently keyboard-interactive.<br/> This property is relevant for these control types:<br/>
+<td style="text-align: left;">Identifies the <strong>IsPeripheral</strong> property, which is a Boolean value that indicates whether the automation element represents peripheral UI. Peripheral UI appears and supports user interaction, but does not take keyboard focus when it appears. Examples of peripheral UI includes popups, flyouts, context menus, or floating notifications. Supported starting with Windows 8.1.<br/> When the <strong>IsPeripheral</strong> property is <strong>TRUE</strong>, a client application can't assume that focus was taken by the element even if it's currently keyboard-interactive.<br/> This property is relevant for these control types:<br/>
 <ul>
 <li><strong>UIA_GroupControlTypeId</strong></li>
 <li><strong>UIA_MenuControlTypeId</strong></li>
@@ -268,7 +273,7 @@ Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_LiveSettingPropertyId"></span><span id="uia_livesettingpropertyid"></span><span id="UIA_LIVESETTINGPROPERTYID"></span><dl> <dt><strong>UIA_LiveSettingPropertyId</strong></dt> <dt>30135</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>LiveSetting</strong> property, which is supported by an automation element that represents a live region. The <strong>LiveSetting</strong> property indicates the &quot;politeness&quot; level that a client should use to notify the user of changes to the live region. This property can be one of the values from the [<strong>LiveSetting</strong>](https://msdn.microsoft.com/library/windows/desktop/hh437308) enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
+<td style="text-align: left;">Identifies the <strong>LiveSetting</strong> property, which is supported by an automation element that represents a live region. The <strong>LiveSetting</strong> property indicates the &quot;politeness&quot; level that a client should use to notify the user of changes to the live region. This property can be one of the values from the [<strong>LiveSetting</strong>](https://msdn.microsoft.com/library/windows/desktop/hh437308) enumeration. Supported starting with Windows 8.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_LocalizedControlTypePropertyId"></span><span id="uia_localizedcontroltypepropertyid"></span><span id="UIA_LOCALIZEDCONTROLTYPEPROPERTYID"></span><dl> <dt><strong>UIA_LocalizedControlTypePropertyId</strong></dt> <dt>30004</dt> </dl></td>
@@ -293,11 +298,11 @@ Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OptimizeForVisualContentPropertyId"></span><span id="uia_optimizeforvisualcontentpropertyid"></span><span id="UIA_OPTIMIZEFORVISUALCONTENTPROPERTYID"></span><dl> <dt><strong>UIA_OptimizeForVisualContentPropertyId</strong></dt> <dt>30111</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>OptimizeForVisualContent</strong> property, which is a Boolean value that indicates whether the provider exposes only elements that are visible. A provider can use this property to optimize performance when working with very large pieces of content. For example, as the user pages through a large piece of content, the provider can destroy content elements that are no longer visible. When a content element is destroyed, the provider should return the <strong>UIA_E_ELEMENTNOTAVAILABLE</strong> error code. Supported starting with Windows 8.<br/> Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong><br/></td>
+<td style="text-align: left;">Identifies the <strong>OptimizeForVisualContent</strong> property, which is a Boolean value that indicates whether the provider exposes only elements that are visible. A provider can use this property to optimize performance when working with very large pieces of content. For example, as the user pages through a large piece of content, the provider can destroy content elements that are no longer visible. When a content element is destroyed, the provider should return the <strong>UIA_E_ELEMENTNOTAVAILABLE</strong> error code. Supported starting with Windows 8.<br/> Variant type: <strong>VT_BOOL</strong><br/> Default value: <strong>FALSE</strong><br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="UIA_OrientationPropertyId"></span><span id="uia_orientationpropertyid"></span><span id="UIA_ORIENTATIONPROPERTYID"></span><dl> <dt><strong>UIA_OrientationPropertyId</strong></dt> <dt>300023</dt> </dl></td>
-<td style="text-align: left;">Identifies the <strong>Orientation</strong> property, which indicates the orientation of the control represented by the automation element. The property is expressed as a value from the [<strong>OrientationType</strong>](uiauto-orientationtype.md) enumerated type.<br/> The <strong>Orientation</strong> property is supported by controls, such as scroll bars and sliders, that can have either a vertical or a horizontal orientation. Otherwise, it can always be [<strong>OrientationType_None</strong>](uiauto-orientationtype.md#orientationtype-none), which means that the control has no orientation.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 ([<strong>OrientationType_None</strong>](uiauto-orientationtype.md#orientationtype-none))<br/></td>
+<td style="text-align: left;">Identifies the <strong>Orientation</strong> property, which indicates the orientation of the control represented by the automation element. The property is expressed as a value from the [<strong>OrientationType</strong>](/windows/win32/UIAutomationCore/ne-uiautomationcore-orientationtype?branch=master) enumerated type.<br/> The <strong>Orientation</strong> property is supported by controls, such as scroll bars and sliders, that can have either a vertical or a horizontal orientation. Otherwise, it can always be [<strong>OrientationType_None</strong>](uiauto-orientationtype.md#orientationtype-none), which means that the control has no orientation.<br/> Variant type: <strong>VT_I4</strong><br/> Default value: 0 ([<strong>OrientationType_None</strong>](uiauto-orientationtype.md#orientationtype-none))<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="UIA_OutlineColorPropertyId"></span><span id="uia_outlinecolorpropertyid"></span><span id="UIA_OUTLINECOLORPROPERTYID"></span><dl> <dt><strong>UIA_OutlineColorPropertyId</strong></dt> <dt>30161</dt> </dl></td>
@@ -358,8 +363,8 @@ Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
@@ -377,9 +382,9 @@ Variant type: <strong>VT_I4</strong><br/> Default value: 0<br/></td>
 [Retrieving Properties from UI Automation Elements](uiauto-propertiesforclients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

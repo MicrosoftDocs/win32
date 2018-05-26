@@ -1,7 +1,12 @@
 ---
 title: WDS 2.x Constants and Enumerations
 description: .
-ms.assetid: 'f100a3f4-4880-409b-8ced-f22a457a0e0c'
+ms.assetid: f100a3f4-4880-409b-8ced-f22a457a0e0c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WDS 2.x Constants and Enumerations
@@ -10,9 +15,9 @@ ms.assetid: 'f100a3f4-4880-409b-8ced-f22a457a0e0c'
 
 ## 
 
-[**ChangeAdviseCodes**](changeadvisecodes.md)
+[**ChangeAdviseCodes**](/windows/win32/SearchAPI/?branch=master)
 
-[**ColumnSortOrder**](search-2x-columnsortorder.md)
+[**ColumnSortOrder**](/windows/win32/mmcobj/ne-mmcobj-columnsortorder?branch=master)
 
 [**HeaderDisplayStyle**](-search-2x-headerdisplaystyleenum.md)
 

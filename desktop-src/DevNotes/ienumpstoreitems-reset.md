@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resets to the beginning of the given enumeration sequence.'
-ms.assetid: 'add91f5d-3f84-4069-93c0-9380a3935b85'
-title: 'IEnumPStoreItems::Reset method'
+---
+Description: Resets to the beginning of the given enumeration sequence.
+ms.assetid: add91f5d-3f84-4069-93c0-9380a3935b85
+title: IEnumPStoreItemsReset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPStoreItems::Reset method

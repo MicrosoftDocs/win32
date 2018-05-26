@@ -4,13 +4,16 @@ description: Forces the Network Load Balancing (NLB) driver to reload, which all
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b31d50cf-cb28-499b-bf3f-8ec7929b9416'
-ms.prod: 'windows-server-dev'
+ms.assetid: b31d50cf-cb28-499b-bf3f-8ec7929b9416
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["LoadAllSettings method", "LoadAllSettings method, MicrosoftNLB_ClusterSetting class", "MicrosoftNLB_ClusterSetting class, LoadAllSettings method"]
+keywords:
+- LoadAllSettings method
+- LoadAllSettings method, MicrosoftNLB_ClusterSetting class
+- MicrosoftNLB_ClusterSetting class, LoadAllSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LoadAllSettings method of the MicrosoftNLB\_ClusterSetting class
@@ -63,7 +69,7 @@ This method requires the **wbemPrivilegeLoadDriver** privilege (also known as **
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -80,9 +86,9 @@ This method requires the **wbemPrivilegeLoadDriver** privilege (also known as **
 [**LoadAllSettings Method of the MicrosoftNLB\_NodeSetting Class**](microsoftnlb-nodesetting-loadallsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

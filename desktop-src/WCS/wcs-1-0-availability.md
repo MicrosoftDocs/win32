@@ -1,8 +1,26 @@
 ---
 title: WCS 1.0 Availability
 description: ICM1 is available for Microsoft \ 160;Windows \ 160;95. It is not available for MS DOS, Windows 3.x, or Windows NT 4.0 or earlier.
-ms.assetid: '0d09093f-e519-40e1-9e6c-0915896eb3e0'
-keywords: ["Windows Color System (WCS),Windows Vista", "WCS (Windows Color System),Windows Vista", "image color management,Windows Vista", "color management,Windows Vista", "colors,Windows Vista", "Windows Color System (WCS),operating systems", "WCS (Windows Color System),operating systems", "image color management,operating systems", "color management,operating systems", "colors,operating systems", "Image Color Management (ICM)", "ICM (Image Color Management)", "Windows Vista color management"]
+ms.assetid: 0d09093f-e519-40e1-9e6c-0915896eb3e0
+keywords:
+- Windows Color System (WCS),Windows Vista
+- WCS (Windows Color System),Windows Vista
+- image color management,Windows Vista
+- color management,Windows Vista
+- colors,Windows Vista
+- Windows Color System (WCS),operating systems
+- WCS (Windows Color System),operating systems
+- image color management,operating systems
+- color management,operating systems
+- colors,operating systems
+- Image Color Management (ICM)
+- ICM (Image Color Management)
+- Windows Vista color management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS 1.0 Availability

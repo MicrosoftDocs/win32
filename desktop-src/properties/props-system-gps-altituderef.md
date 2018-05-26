@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the reference for the altitude property (for example, above sea level, below sea level, absolute value).'
-ms.assetid: '42b5a67d-e7e8-4edf-ba5c-c4a8022f926e'
-title: 'System.GPS.AltitudeRef'
+Description: Indicates the reference for the altitude property (for example, above sea level, below sea level, absolute value).
+ms.assetid: 42b5a67d-e7e8-4edf-ba5c-c4a8022f926e
+title: System.GPS.AltitudeRef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.AltitudeRef

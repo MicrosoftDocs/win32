@@ -1,8 +1,18 @@
 ---
 title: The Glow Sample
 description: The Glow Sample
-ms.assetid: '59e1b90c-1649-4233-8b2f-f3a876045771'
-keywords: ["visualizations,Glow sample", "custom visualizations,Glow sample", "programming guide,visualizations", "samples,Glow visualization", "Glow visualization sample"]
+ms.assetid: 59e1b90c-1649-4233-8b2f-f3a876045771
+keywords:
+- visualizations,Glow sample
+- custom visualizations,Glow sample
+- programming guide,visualizations
+- samples,Glow visualization
+- Glow visualization sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Glow Sample

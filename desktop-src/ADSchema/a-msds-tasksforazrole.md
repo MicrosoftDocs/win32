@@ -4,17 +4,22 @@ description: List of tasks for Az-Role.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3247ccd9-f86d-453e-8150-db52aff11f6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3247ccd9-f86d-453e-8150-db52aff11f6a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Tasks-For-Az-Role attribute AD Schema", "msDS-TasksForAzRole attribute AD Schema"]
+keywords:
+- ms-DS-Tasks-For-Az-Role attribute AD Schema
+- msDS-TasksForAzRole attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Tasks-For-Az-Role
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Tasks-For-Az-Role attribute
@@ -38,11 +43,11 @@ List of tasks for Az-Role.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ List of tasks for Az-Role.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

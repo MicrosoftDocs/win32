@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_FUNCTIONAL\_CATEGORY\_ALL'
-ms.assetid: '7849f8e4-1ce3-4a26-8fee-16a66527da6b'
-title: 'WPD\_FUNCTIONAL\_CATEGORY\_ALL'
+Description: WPD\_FUNCTIONAL\_CATEGORY\_ALL
+ms.assetid: 7849f8e4-1ce3-4a26-8fee-16a66527da6b
+title: WPD\_FUNCTIONAL\_CATEGORY\_ALL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FUNCTIONAL\_CATEGORY\_ALL

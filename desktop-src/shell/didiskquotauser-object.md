@@ -1,6 +1,11 @@
-﻿---
-Description: 'Allows a client to manage an NTFS volume''s global disk quota settings. This object makes the essential functionality of the DIDiskQuotaUser interface available to scripting and Microsoft Visual Basic-based applications.'
+---
+Description: Allows a client to manage an NTFS volumes global disk quota settings. This object makes the essential functionality of the DIDiskQuotaUser interface available to scripting and Microsoft Visual Basic-based applications.
 title: DIDiskQuotaUser object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser object

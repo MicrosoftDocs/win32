@@ -1,14 +1,20 @@
 ---
 title: timeTriggerType Complex Type
 description: Defines the base type for the TimeTrigger element.
-ms.assetid: '3aabfb7a-3e11-4b67-8345-cc5088f11efc'
-keywords: ["timeTriggerType complex type Task Scheduler"]
+ms.assetid: 3aabfb7a-3e11-4b67-8345-cc5088f11efc
+keywords:
+- timeTriggerType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - timeTriggerType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # timeTriggerType Complex Type
@@ -52,8 +58,8 @@ Note that this element does not add any child elements to those defined by the [
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -67,9 +73,9 @@ Note that this element does not add any child elements to those defined by the [
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

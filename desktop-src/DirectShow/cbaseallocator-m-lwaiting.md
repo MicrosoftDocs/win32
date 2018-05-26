@@ -1,7 +1,12 @@
 ---
-Description: 'Count of threads waiting for samples.'
-ms.assetid: '0b383fbf-f3d4-4dcf-b33c-74b9595a3e11'
-title: 'CBaseAllocator::m\_lWaiting member'
+Description: Count of threads waiting for samples.
+ms.assetid: 0b383fbf-f3d4-4dcf-b33c-74b9595a3e11
+title: CBaseAllocatorm\_lWaiting member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_lWaiting member
@@ -35,9 +40,9 @@ long m_lWaiting;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

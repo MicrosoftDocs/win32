@@ -4,17 +4,22 @@ description: List of site links that are associated with this bridge.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '79ec0ae2-ceb3-4321-8b6d-ce5c3bda667a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 79ec0ae2-ceb3-4321-8b6d-ce5c3bda667a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Site-Link-List attribute AD Schema", "siteLinkList attribute AD Schema"]
+keywords:
+- Site-Link-List attribute AD Schema
+- siteLinkList attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Site-Link-List
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Site-Link-List attribute
@@ -38,13 +43,13 @@ List of site links that are associated with this bridge.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ List of site links that are associated with this bridge.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-Description: 'The CBaseInputPin class is an abstract base class for implementing input pins. This class adds support for the IMemInputPin interface, in addition to the IPin interface support provided by CBasePin.'
-ms.assetid: '5a2b7f09-8c8b-45da-a4b7-afeb8d5548c1'
+Description: The CBaseInputPin class is an abstract base class for implementing input pins. This class adds support for the IMemInputPin interface, in addition to the IPin interface support provided by CBasePin.
+ms.assetid: 5a2b7f09-8c8b-45da-a4b7-afeb8d5548c1
 title: CBaseInputPin class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin class
 
 ![cbaseinputpin class hierarchy](images/filter07.png)
 
-The `CBaseInputPin` class is an abstract base class for implementing input pins. This class adds support for the [**IMemInputPin**](imeminputpin.md) interface, in addition to the [**IPin**](ipin.md) interface support provided by [**CBasePin**](cbasepin.md).
+The `CBaseInputPin` class is an abstract base class for implementing input pins. This class adds support for the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface, in addition to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface support provided by [**CBasePin**](cbasepin.md).
 
 To use this class, derive a new class and override at least the following methods:
 
@@ -53,7 +58,7 @@ Depending on the function of the pin, you might need to override additional meth
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,9 +71,9 @@ Depending on the function of the pin, you might need to override additional meth
 
 
 
- 
+ 
 
- 
+ 
 
 
 

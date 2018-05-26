@@ -1,7 +1,12 @@
 ---
 title: Query Syntax of Indexing Service Query Language
 description: Query Syntax of Indexing Service Query Language
-ms.assetid: 'd36a90d8-d9d8-48a8-af63-1f4a5ec5a150'
+ms.assetid: d36a90d8-d9d8-48a8-af63-1f4a5ec5a150
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Syntax of Indexing Service Query Language

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This filter demultiplexes MPEG-2 transport and program streams that are delivered in push-mode.'
-ms.assetid: '99bfc55d-6519-4e85-98ce-cad27bd71ffb'
-title: 'MPEG-2 Demultiplexer'
+---
+Description: This filter demultiplexes MPEG-2 transport and program streams that are delivered in push-mode.
+ms.assetid: 99bfc55d-6519-4e85-98ce-cad27bd71ffb
+title: MPEG-2 Demultiplexer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Demultiplexer
@@ -25,14 +30,14 @@ This filter demultiplexes MPEG-2 transport and program streams that are delivere
 <td>Filter Interfaces</td>
 <td>All modes:<br/>
 <ul>
-<li>[<strong>IBaseFilter</strong>](ibasefilter.md)</li>
+<li>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</li>
 <li><strong>ISpecifyPropertyPages</strong></li>
 </ul>
 Push mode only:<br/>
 <ul>
-<li>[<strong>IAMFilterMiscFlags</strong>](iamfiltermiscflags.md)</li>
-<li>[<strong>IMpeg2Demultiplexer</strong>](impeg2demultiplexer.md)</li>
-<li>[<strong>IReferenceClock</strong>](ireferenceclock.md)</li>
+<li>[<strong>IAMFilterMiscFlags</strong>](/windows/win32/Strmif/nn-strmif-iamfiltermiscflags?branch=master)</li>
+<li>[<strong>IMpeg2Demultiplexer</strong>](/windows/win32/Strmif/nn-strmif-impeg2demultiplexer?branch=master)</li>
+<li>[<strong>IReferenceClock</strong>](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master)</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -48,7 +53,7 @@ For more information, see [<strong>MPEG-2 Demultiplexer Media Types</strong>](mp
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -56,7 +61,7 @@ For more information, see [<strong>MPEG-2 Demultiplexer Media Types</strong>](mp
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)Push mode only: [<strong>IAMPushSource</strong>](iampushsource.md), [<strong>IMPEG2PIDMap</strong>](impeg2pidmap.md), [<strong>IMPEG2StreamIdMap</strong>](impeg2streamidmap.md)<br/> Pull mode only: [<strong>IMediaSeeking</strong>](imediaseeking.md)<br/></td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)Push mode only: [<strong>IAMPushSource</strong>](/windows/win32/Strmif/nn-strmif-iampushsource?branch=master), [<strong>IMPEG2PIDMap</strong>](/windows/win32/Bdaiface/nn-bdaiface-impeg2pidmap?branch=master), [<strong>IMPEG2StreamIdMap</strong>](/windows/win32/Strmif/nn-strmif-impeg2streamidmap?branch=master)<br/> Pull mode only: [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/></td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>

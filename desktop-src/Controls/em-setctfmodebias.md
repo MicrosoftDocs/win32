@@ -1,8 +1,9 @@
 ---
 title: EM\_SETCTFMODEBIAS message
 description: Sets the Text Services Framework (TSF) mode bias for a rich edit control.
-ms.assetid: '17e3aac8-2ba8-4c06-bfd6-e118cfb82529'
-keywords: ["EM_SETCTFMODEBIAS message Windows Controls"]
+ms.assetid: 17e3aac8-2ba8-4c06-bfd6-e118cfb82529
+keywords:
+- EM_SETCTFMODEBIAS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETCTFMODEBIAS message
@@ -46,7 +52,7 @@ Mode bias value. This can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,8 +79,8 @@ To set the mode bias for the Input Method Editor (IME), use [**EM\_SETIMEMODEBIA
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -92,9 +98,9 @@ To set the mode bias for the Input Method Editor (IME), use [**EM\_SETIMEMODEBIA
 [**EM\_SETIMEMODEBIAS**](em-setimemodebias.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

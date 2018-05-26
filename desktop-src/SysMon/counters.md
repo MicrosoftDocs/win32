@@ -1,8 +1,10 @@
 ---
 title: Counters collection
 description: Use this class to manage the collection of CounterItem objects. To retrieve this object, call SystemMonitor.Counters.
-ms.assetid: '01542569-3fee-440a-8722-db377380b73c'
-keywords: ["Counters collection SysMon", "Counters collection SysMon , described"]
+ms.assetid: 01542569-3fee-440a-8722-db377380b73c
+keywords:
+- Counters collection SysMon
+- Counters collection SysMon , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Counters collection
@@ -39,7 +46,7 @@ The **Counters** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -54,7 +61,7 @@ The **Counters** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,16 +75,16 @@ Add to this collection those counters that you want to graph. SYSMON retrieves t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Isysmon.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

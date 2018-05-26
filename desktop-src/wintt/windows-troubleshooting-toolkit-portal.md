@@ -1,7 +1,12 @@
 ---
 title: Windows Troubleshooting Platform
 description: .
-ms.assetid: '5d7b48ce-0937-41c5-84d7-4726ae11deb1'
+ms.assetid: 5d7b48ce-0937-41c5-84d7-4726ae11deb1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Troubleshooting Platform
@@ -16,7 +21,7 @@ ISVs, OEMs, and administrators. Requires familiarity with XML and scripting in W
 
 ## Run-time requirements
 
-WTP is included beginning with Windows 7 and Windows Server 2008 R2. Requires tools included with the Windows SDK.
+WTP is included beginning with Windows 7 and Windows Server 2008 R2. Requires tools included with the Windows SDK.
 
 ## In this section
 
@@ -30,11 +35,11 @@ WTP is included beginning with Windows 7 and Windows Server 2008 R2. Requires to
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

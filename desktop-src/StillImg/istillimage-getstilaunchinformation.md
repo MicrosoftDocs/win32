@@ -1,8 +1,9 @@
 ---
 title: GetSTILaunchInformation method
 description: The IStillImage GetSTILaunchInformation method is used to determine if an application was launched by a push model device event. It is also used to retrieve the device event information.
-ms.assetid: 'd4e626cf-7fdf-4816-83f8-ca9fe31d2d6f'
-keywords: ["GetSTILaunchInformation method Still Image"]
+ms.assetid: d4e626cf-7fdf-4816-83f8-ca9fe31d2d6f
+keywords:
+- GetSTILaunchInformation method Still Image
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Sti.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSTILaunchInformation method
@@ -22,9 +28,9 @@ The **IStillImage::GetSTILaunchInformation** method is used to determine if an a
 
 ```C++
 HRESULT GetSTILaunchInformation(
-  [out] LPWSTR pwszDeviceName,
-        DWORD  pdwEventCode,
-  [out] LPWSTR pwszEventName
+  [out] LPWSTR pwszDeviceName,
+        DWORD  pdwEventCode,
+  [out] LPWSTR pwszEventName
 );
 ```
 
@@ -53,7 +59,7 @@ Reserved.
 
 If the application was launched by a push model event from the Event Monitor, this is set to a string representation of the event GUID. Sti.h defines the following standard event GUIDs:
 
- 
+ 
 
 
 
@@ -70,7 +76,7 @@ If the application was launched by a push model event from the Event Monitor, th
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -86,8 +92,8 @@ If the application was not launched by the STI Event Monitor in response to a de
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Sti.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Sti.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sti.dll</dt> </dl> |
@@ -104,9 +110,9 @@ If the application was not launched by the STI Event Monitor in response to a de
 [Making an Application Still Image-Aware](making-an-application-still-image-aware.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

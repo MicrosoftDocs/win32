@@ -1,14 +1,20 @@
 ---
 title: MetricValues element
 description: A container element for one or more MetricValue elements.
-ms.assetid: 'BCF85EDB-2F76-4C39-B39B-18EEC1FE7D72'
-keywords: ["MetricValues element Access Execution Engine"]
+ms.assetid: BCF85EDB-2F76-4C39-B39B-18EEC1FE7D72
+keywords:
+- MetricValues element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricValues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricValues element
@@ -90,9 +96,9 @@ This example shows the hierarchy with irrelevant element omitted.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

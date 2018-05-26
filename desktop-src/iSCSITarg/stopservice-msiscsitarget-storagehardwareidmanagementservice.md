@@ -4,13 +4,16 @@ description: Places the service in the stopped state. Deprecated. Instead, use t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0f8e4c40-b95c-4c10-a1a1-7318896a6da9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0f8e4c40-b95c-4c10-a1a1-7318896a6da9
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StopService method iSCSI Software Target API", "StopService method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class", "MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , StopService method"]
+keywords:
+- StopService method iSCSI Software Target API
+- StopService method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class
+- MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , StopService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the MSISCSITARGET\_StorageHardwareIDManagementService class
@@ -78,7 +84,7 @@ Undefined error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>              |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
@@ -99,9 +105,9 @@ Undefined error.
 [**CIM\_Service**](https://msdn.microsoft.com/library/aa388442)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

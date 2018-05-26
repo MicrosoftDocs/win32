@@ -1,7 +1,12 @@
 ---
-Description: 'Computes a hash to use during certificate authentication.'
-ms.assetid: 'f4a12464-8ad6-4bf9-8b6e-49bdf5332b66'
+Description: Computes a hash to use during certificate authentication.
+ms.assetid: f4a12464-8ad6-4bf9-8b6e-49bdf5332b66
 title: SslComputeClientAuthHash function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslComputeClientAuthHash function
@@ -13,14 +18,14 @@ The **SslComputeClientAuthHash** function computes a [*hash*](https://msdn.micro
 
 ```C++
 SECURITY_STATUS WINAPI SslComputeClientAuthHash(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _In_  NCRYPT_KEY_HANDLE  hMasterKey,
-  _In_  NCRYPT_HASH_HANDLE hHandshakeHash,
-  _In_  LPCWSTR            pszAlgId,
-  _Out_ PBYTE              pbOutput,
-  _In_  DWORD              cbOutput,
-  _Out_ DWORD              *pcbResult,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _In_  NCRYPT_KEY_HANDLE  hMasterKey,
+  _In_  NCRYPT_HASH_HANDLE hHandshakeHash,
+  _In_  LPCWSTR            pszAlgId,
+  _Out_ PBYTE              pbOutput,
+  _In_  DWORD              cbOutput,
+  _Out_ DWORD              *pcbResult,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -102,7 +107,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -116,16 +121,16 @@ The manner in which the hash is computed depends on the protocol and cipher suit
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

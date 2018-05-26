@@ -1,7 +1,12 @@
-﻿---
-Description: 'A list of the Windows Installer properties giving values written under the Uninstall registry key.'
-ms.assetid: 'f831cc62-4b19-4285-8bb1-6080567ac985'
+---
+Description: A list of the Windows Installer properties giving values written under the Uninstall registry key.
+ms.assetid: f831cc62-4b19-4285-8bb1-6080567ac985
 title: Uninstall Registry Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uninstall Registry Key

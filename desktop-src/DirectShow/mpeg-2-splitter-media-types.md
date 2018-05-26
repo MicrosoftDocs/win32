@@ -1,7 +1,12 @@
 ---
-Description: 'MPEG-2 Splitter Media Types'
-ms.assetid: 'd0ff2011-4ee3-4f5e-8bd0-af9f4c6346e8'
-title: 'MPEG-2 Splitter Media Types'
+Description: MPEG-2 Splitter Media Types
+ms.assetid: d0ff2011-4ee3-4f5e-8bd0-af9f4c6346e8
+title: MPEG-2 Splitter Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Splitter Media Types
@@ -20,7 +25,7 @@ For MPEG-2 video, the media types are as follows.
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**                | **MEDIATYPE\_Video**           |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           | **MEDIASUBTYPE\_MPEG2\_VIDEO** |
 | Format Type      | **FORMAT\_MPEG2Video**                   | **FORMAT\_MPEG2Video**         |
-| Format Structure | [**MPEG2VIDEOINFO**](mpeg2videoinfo.md) | **MPEG2VIDEOINFO**             |
+| Format Structure | [**MPEG2VIDEOINFO**](/windows/win32/Dvdmedia/ns-dvdmedia-tagmpeg2videoinfo?branch=master) | **MPEG2VIDEOINFO**             |
 
 
 
@@ -38,7 +43,7 @@ For AC-3 audio, the media types are as follows.
 | Major Type       | MEDIATYPE\_MPEG2\_PES                | **MEDIATYPE\_Audio**         |
 | Subtype          | MEDIASUBTYPE\_DOLBY\_AC3             | **MEDIASUBTYPE\_DOLBY\_AC3** |
 | Format Type      | FORMAT\_WaveFormatEx                 | **FORMAT\_WaveFormatEx**     |
-| Format Structure | [**WAVEFORMATEX**](waveformatex.md) | **WAVEFORMATEX**             |
+| Format Structure | [**WAVEFORMATEX**](/windows/win32/mmreg/?branch=master) | **WAVEFORMATEX**             |
 
 
 

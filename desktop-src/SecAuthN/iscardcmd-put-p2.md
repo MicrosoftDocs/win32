@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the second parameter (P2) byte in the application protocol data unit (APDU).'
-ms.assetid: '8d11b967-33cd-4bfa-b294-cc0c422cf6cf'
-title: 'ISCardCmd::put\_P2 method'
+---
+Description: Sets the second parameter (P2) byte in the application protocol data unit (APDU).
+ms.assetid: 8d11b967-33cd-4bfa-b294-cc0c422cf6cf
+title: ISCardCmdput\_P2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::put\_P2 method

@@ -1,8 +1,9 @@
 ---
 title: MimeOleCreateMessage function
 description: Do not use. On success, creates and initializes a message.
-ms.assetid: 'c812b983-ca4a-4645-aaa2-c3e2661018c2'
-keywords: ["MimeOleCreateMessage function Windows Mail (formerly Outlook Express)"]
+ms.assetid: c812b983-ca4a-4645-aaa2-c3e2661018c2
+keywords:
+- MimeOleCreateMessage function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleCreateMessage function
@@ -22,8 +28,8 @@ Do not use. On success, creates and initializes a message.
 
 ```C++
 HRESULT MimeOleCreateMessage(
-  _In_  IUnknown     *pUnkOuter,
-  _Out_ IMimeMessage **ppMessage
+  _In_  IUnknown     *pUnkOuter,
+  _Out_ IMimeMessage **ppMessage
 );
 ```
 
@@ -66,14 +72,14 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > Caller of function is responsible for freeing [**IMimeMessage**](oe-imimemessage.md) object.
 
- 
+ 
 
 ## Requirements
 
@@ -81,8 +87,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -90,9 +96,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

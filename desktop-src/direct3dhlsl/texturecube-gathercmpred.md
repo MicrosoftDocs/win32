@@ -1,12 +1,18 @@
 ---
 title: TextureCube GatherCmpRed methods
 description: Samples and compares a texture and returns the red component.
-ms.assetid: '614F9DD0-2A49-4F20-8967-3DD63D5B5F32'
-keywords: ["GatherCmpRed methods HLSL"]
+ms.assetid: 614F9DD0-2A49-4F20-8967-3DD63D5B5F32
+keywords:
+- GatherCmpRed methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::GatherCmpRed methods
@@ -30,9 +36,9 @@ Samples and compares a texture and returns the red component.
 [**TextureCube**](texturecube.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

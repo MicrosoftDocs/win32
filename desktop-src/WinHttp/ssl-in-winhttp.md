@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Windows HTTP Services (WinHTTP) supports Secure Sockets Layer (SSL) transactions including client certificates. This topic explains concepts involved in an SSL transaction and how they are handled using WinHTTP.'
-ms.assetid: 'cb0a04f5-1026-4ad5-bb5b-c854064a5167'
+Description: Microsoft Windows HTTP Services (WinHTTP) supports Secure Sockets Layer (SSL) transactions including client certificates. This topic explains concepts involved in an SSL transaction and how they are handled using WinHTTP.
+ms.assetid: cb0a04f5-1026-4ad5-bb5b-c854064a5167
 title: SSL in WinHTTP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSL in WinHTTP
@@ -12,7 +17,7 @@ Microsoft Windows HTTP Services (WinHTTP) supports Secure Sockets Layer (SSL) tr
 
 SSL is an established standard for ensuring secure HTTP transactions. SSL provides a mechanism to perform up to 128-bit encryption on all transactions between the client and server. It enables the client to verify that the server belongs to a trusted entity through the use of server certificates. It also enables the server to confirm the identity of the client with client certificates.
 
-Each of these issues—encryption, server identity, and client identity—are negotiated in the SSL handshake that occurs when a client first requests a resource from a Secure Hypertext Transfer Protocol (HTTPS) server. Essentially, the client and server each present a list of required and preferred settings. If a common set of requirements can be agreed upon and met, an SSL connection is established.
+Each of these issues encryption, server identity, and client identity are negotiated in the SSL handshake that occurs when a client first requests a resource from a Secure Hypertext Transfer Protocol (HTTPS) server. Essentially, the client and server each present a list of required and preferred settings. If a common set of requirements can be agreed upon and met, an SSL connection is established.
 
 WinHTTP provides a high level interface for using SSL. While the details of the SSL handshake and transaction are handled internally, WinHTTP enables you to retrieve encryption levels, specify the security protocol, and interact with server and client certificates. The following sections provide details on creating WinHTTP based applications that elect an SSL protocol version, examine server certificates, and select client certificates to send to HTTPS servers.
 
@@ -20,17 +25,17 @@ WinHTTP provides a high level interface for using SSL. While the details of the 
 
 Server certificates are sent from the server to the client so that the client can obtain a public key for the server and ensure that the server has been verified by a certification authority. Certificates can contain different types of data. For example, an X.509 certificate includes the format of the certificate, the serial number of the certificate, the algorithm used to sign the certificate, the name of the certification authority (CA) that issued the certificate, the name and public key of the entity that requests the certificate, and the CA's signature.
 
-When using the WinHTTP  application programming interface (API), you can retrieve a server certificate by calling [**WinHttpQueryOption**](winhttpqueryoption.md) and specifying the [**WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT**](option-flags.md#winhttp-option-security-certificate-struct) flag. The server certificate is returned in a [**WINHTTP\_CERTIFICATE\_INFO**](internet-certificate-info.md) structure. If you prefer to retrieve the certificate context, specify the [**WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT**](option-flags.md#winhttp-option-server-cert-context) flag instead.
+When using the WinHTTP  application programming interface (API), you can retrieve a server certificate by calling [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) and specifying the [**WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT**](option-flags.md#winhttp-option-security-certificate-struct) flag. The server certificate is returned in a [**WINHTTP\_CERTIFICATE\_INFO**](/windows/win32/Winhttp/ns-winhttp-__unnamed_struct_5?branch=master) structure. If you prefer to retrieve the certificate context, specify the [**WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT**](option-flags.md#winhttp-option-server-cert-context) flag instead.
 
-If a server certificate contains errors, details about the error can be obtained in the status callback function. The [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](internet-status-callback-prototype.md#dwinternetstatus) notification indicates an error with a server certificate. The *lpvStatusInformation* parameter contains one or more detailed error flags. See [**WINHTTP\_STATUS\_CALLBACK**](internet-status-callback-prototype.md) for more information.
+If a server certificate contains errors, details about the error can be obtained in the status callback function. The [**WINHTTP\_CALLBACK\_STATUS\_SECURE\_FAILURE**](internet-status-callback-prototype.md#dwinternetstatus) notification indicates an error with a server certificate. The *lpvStatusInformation* parameter contains one or more detailed error flags. See [**WINHTTP\_STATUS\_CALLBACK**](/windows/win32/Winhttp/nc-winhttp-winhttp_status_callback?branch=master) for more information.
 
 ## Client Certificates
 
-During the SSL handshake, the server might require authentication. The client is authenticated by supplying a valid client certificate to the server. WinHTTP enables you to select and send a certificate from a local [*certificate store*](glossary.md#term-certificate-store). The following sections describe the process that provides client certificates when using either the WinHTTP API or the [**WinHttpRequest**](winhttprequest.md) object.
+During the SSL handshake, the server might require authentication. The client is authenticated by supplying a valid client certificate to the server. WinHTTP enables you to select and send a certificate from a local [*certificate store*](glossary.md#term-certificate-store). The following sections describe the process that provides client certificates when using either the WinHTTP API or the [**WinHttpRequest**](winhttprequest.md) object.
 
 ### WinHTTP API
 
-Both [**WinHttpSendRequest**](winhttpsendrequest.md) and [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) can fail to indicate that a request was unsuccessful because the HTTPS server requires authentication. In these cases, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) to returns ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED. Upon receiving this error, use the appropriate [CryptoAPI](https://msdn.microsoft.com/library/windows/desktop/aa380252) functions to find an appropriate certificate. Indicate that this certificate should be sent with the next request by calling [**WinHttpSetOption**](winhttpsetoption.md) with the [**WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT**](option-flags.md#winhttp-option-client-cert-context) flag.
+Both [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master) and [**WinHttpReceiveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master) can fail to indicate that a request was unsuccessful because the HTTPS server requires authentication. In these cases, call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) to returns ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED. Upon receiving this error, use the appropriate [CryptoAPI](https://msdn.microsoft.com/library/windows/desktop/aa380252) functions to find an appropriate certificate. Indicate that this certificate should be sent with the next request by calling [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) with the [**WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT**](option-flags.md#winhttp-option-client-cert-context) flag.
 
 The following code example shows how to open a [*certificate store*](glossary.md#term-certificate-store) and locate a certificate based on subject name after the ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED error has been returned.
 
@@ -68,13 +73,13 @@ The following code example shows how to open a [*certificate store*](glossary.md
 
 
 
-Before resending a request that contains a client certificate, you can determine if the supported level of encryption is acceptable for your application. Call [**WinHttpQueryOption**](winhttpqueryoption.md) and specify the [**WINHTTP\_OPTION\_SECURITY\_FLAGS**](option-flags.md#winhttp-option-security-flags) flag to determine the level of encryption that is used.
+Before resending a request that contains a client certificate, you can determine if the supported level of encryption is acceptable for your application. Call [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) and specify the [**WINHTTP\_OPTION\_SECURITY\_FLAGS**](option-flags.md#winhttp-option-security-flags) flag to determine the level of encryption that is used.
 
 ### Issuer List Retrieval for SSL Client Authentication
 
-When the WinHttp client application sends a request to a secure HTTP server that requires SSL client authentication, WinHttp returns an **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED** if the application has not supplied a client certificate. For computers running on Windows Server 2008 and Windows Vista, WinHttp enables the application to retrieve the certificate issuer list supplied by the server in the authentication challenge. The Issuer List specifies a list of Certificate Authorities (CAs) that are authorized by the server to issue client certificates. The application filters the issuer list to obtain the required certificate.
+When the WinHttp client application sends a request to a secure HTTP server that requires SSL client authentication, WinHttp returns an **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED** if the application has not supplied a client certificate. For computers running on Windows Server 2008 and Windows Vista, WinHttp enables the application to retrieve the certificate issuer list supplied by the server in the authentication challenge. The Issuer List specifies a list of Certificate Authorities (CAs) that are authorized by the server to issue client certificates. The application filters the issuer list to obtain the required certificate.
 
-The WinHttp client application retrieves the issuer list when [**WinHttpSendRequest**](winhttpsendrequest.md), or [**WinHttpReceiveResponse**](winhttpreceiveresponse.md) returns **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. When this error is returned, the application calls [**WinHttpQueryOption**](winhttpqueryoption.md) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. The *lpBuffer* parameter must be large enough to contain a pointer to the [SecPkgContext\_IssuerListInfoEx](https://msdn.microsoft.com/library/windows/desktop/aa380078) structure. The following code example shows how to retrieve the issuer list.
+The WinHttp client application retrieves the issuer list when [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master), or [**WinHttpReceiveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master) returns **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED**. When this error is returned, the application calls [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) with the **WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST** option. The *lpBuffer* parameter must be large enough to contain a pointer to the [SecPkgContext\_IssuerListInfoEx](https://msdn.microsoft.com/library/windows/desktop/aa380078) structure. The following code example shows how to retrieve the issuer list.
 
 
 ```C++
@@ -144,7 +149,7 @@ if (pClientCertChain)
 
 ### Optional Client SSL Certificates
 
-Starting in Windows Server 2008 and Windows Vista, the WinHttp API supports optional client certificates. When the server requests a client certificate, [**WinHttpSendRequest**](winhttpsendrequest.md), or [**WinHttpRecieveResponse**](winhttpreceiveresponse.md) returns an **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED** error. If the server requests the certificate, but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application specifies the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](winhttpsetoption.md) as shown in the following code example.
+Starting in Windows Server 2008 and Windows Vista, the WinHttp API supports optional client certificates. When the server requests a client certificate, [**WinHttpSendRequest**](/windows/win32/Winhttp/nf-winhttp-winhttpsendrequest?branch=master), or [**WinHttpRecieveResponse**](/windows/win32/Winhttp/nf-winhttp-winhttpreceiveresponse?branch=master) returns an **ERROR\_WINHTTP\_CLIENT\_AUTH\_CERT\_NEEDED** error. If the server requests the certificate, but does not require it, the application can specify this option to indicate that it does not have a certificate. The server can choose another authentication scheme or allow anonymous access to the server. The application specifies the **WINHTTP\_NO\_CLIENT\_CERT\_CONTEXT** macro in the *lpBuffer* parameter of [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) as shown in the following code example.
 
 ``` syntax
 BOOL fRet = WinHttpSetOption ( hRequest,
@@ -169,7 +174,7 @@ Use the [**SetClientCertificate**](iwinhttprequest-setclientcertificate.md) meth
 
 
 
- 
+ 
 
 The [*certificate store*](glossary.md#term-certificate-store) name and location are optional components. However, if you specify a *certificate store*, you must also specify the location of that *certificate store*. The default location is CURRENT\_USER and the default *certificate store* is "MY".
 
@@ -180,13 +185,13 @@ The following code example shows how to specify that a certificate with the subj
 > [!Note]  
 > In some languages the backslash is an escape character. Remember to modify the certificate selection string to account for this. For example, in Microsoft JScript, use two adjacent backslashes instead of one.
 
- 
+ 
 
 If you do not specify a certificate and an HTTPS server requires a client certificate, WinHTTP selects the first certificate in the default [*certificate store*](glossary.md#term-certificate-store). If no certificates exist, an error is raised. If the certificate is not accepted, the server returns a 403 status code to indicate that the request cannot be fulfilled. You can then choose a more appropriate certificate with [**SetClientCertificate**](iwinhttprequest-setclientcertificate.md) and resend the request.
 
- 
+ 
 
- 
+ 
 
 
 

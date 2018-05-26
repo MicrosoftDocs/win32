@@ -1,8 +1,16 @@
 ---
 title: MCIAVI
 description: MCIAVI
-ms.assetid: '68639f35-bc20-457d-b937-760af8323dce'
-keywords: ["MCI devices,MCIAVI driver", "MCI commands,MCIAVI driver", "MCIAVI driver"]
+ms.assetid: 68639f35-bc20-457d-b937-760af8323dce
+keywords:
+- MCI devices,MCIAVI driver
+- MCI commands,MCIAVI driver
+- MCIAVI driver
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIAVI

@@ -1,8 +1,11 @@
 ---
 title: text.align property
 description: Gets or sets the text alignment.
-ms.assetid: '2aef9d9d-64f8-45a9-8372-74a2331347b6'
-keywords: ["align property Windows Sidebar", "align property Windows Sidebar , text object", "text object Windows Sidebar , align property"]
+ms.assetid: 2aef9d9d-64f8-45a9-8372-74a2331347b6
+keywords:
+- align property Windows Sidebar
+- align property Windows Sidebar , text object
+- text object Windows Sidebar , align property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # text.align property
@@ -100,10 +108,10 @@ txtAlign.align = 1;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Safeint.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -126,9 +134,9 @@ txtAlign.align = 1;
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about a helper interface that extends the IPrintCoreHelperUni interface by adding a new method.'
-ms.assetid: '02108DA0-3B88-4CA6-9AB0-56F16CA69E08'
+Description: This section provides information about a helper interface that extends the IPrintCoreHelperUni interface by adding a new method.
+ms.assetid: 02108DA0-3B88-4CA6-9AB0-56F16CA69E08
 title: Rendering Filter Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering Filter Interfaces

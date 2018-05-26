@@ -1,7 +1,12 @@
 ---
 Description: Audio Subtype GUIDs
-ms.assetid: 'c38a1194-e2d8-42ca-8581-4054171f6f44'
+ms.assetid: c38a1194-e2d8-42ca-8581-4054171f6f44
 title: Audio Subtype GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Subtype GUIDs
@@ -52,22 +57,22 @@ Equivalent to MEDIASUBTYPE_MPEG_HEAAC, defined in wmcodecdsp.h.
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_ALAC</strong></td>
-<td>Apple Lossless Audio Codec<br/> Supported in Windows 10 and later.<br/></td>
+<td>Apple Lossless Audio Codec<br/> Supported in Windows 10 and later.<br/></td>
 <td>WAVE_FORMAT_ALAC (0x6C61)</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_AMR_NB</strong></td>
-<td>Adaptative Multi-Rate audio<br/> Supported in Windows 8.1 and later.<br/></td>
+<td>Adaptative Multi-Rate audio<br/> Supported in Windows 8.1 and later.<br/></td>
 <td>WAVE_FORMAT_AMR_NB</td>
 </tr>
 <tr class="even">
 <td><strong>MFAudioFormat_AMR_WB</strong></td>
-<td>Adaptative Multi-Rate Wideband audio<br/> Supported in Windows 8.1 and later.<br/></td>
+<td>Adaptative Multi-Rate Wideband audio<br/> Supported in Windows 8.1 and later.<br/></td>
 <td>WAVE_FORMAT_AMR_WB</td>
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_AMR_WP</strong></td>
-<td>Supported in Windows 8.1 and later.<br/></td>
+<td>Supported in Windows 8.1 and later.<br/></td>
 <td>WAVE_FORMAT_AMR_WP</td>
 </tr>
 <tr class="even">
@@ -101,7 +106,7 @@ Equivalent to MEDIASUBTYPE_MPEG_HEAAC, defined in wmcodecdsp.h.
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_FLAC</strong></td>
-<td>Free Lossless Audio Codec<br/> Supported in Windows 10 and later.<br/></td>
+<td>Free Lossless Audio Codec<br/> Supported in Windows 10 and later.<br/></td>
 <td>WAVE_FORMAT_FLAC (0xF1AC)</td>
 </tr>
 <tr class="even">
@@ -131,7 +136,7 @@ Equivalent to MEDIASUBTYPE_MPEG_HEAAC, defined in wmcodecdsp.h.
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_Opus</strong></td>
-<td>Opus<br/> Supported in Windows 10 and later.<br/></td>
+<td>Opus<br/> Supported in Windows 10 and later.<br/></td>
 <td>WAVE_FORMAT_OPUS (0x704F)</td>
 </tr>
 <tr class="even">
@@ -169,7 +174,7 @@ Equivalent to MEDIASUBTYPE_MPEG_HEAAC, defined in wmcodecdsp.h.
 
 
 
- 
+ 
 
 The format tags listed in the third column of this table are used in the **WAVEFORMATEX** structure, and are defined in the header file mmreg.h.
 
@@ -178,7 +183,7 @@ Given an audio format tag, you can create an audio subtype GUID as follows:
 1.  Start with the value **MFAudioFormat\_Base**, which is defined in mfaph.i.
 2.  Replace the first **DWORD** of this GUID with the format tag.
 
-You can use the [**DEFINE\_MEDIATYPE\_GUID**](define-mediatype-guid-macro.md) macro to define a new GUID constant that follows this pattern.
+You can use the [**DEFINE\_MEDIATYPE\_GUID**](/windows/win32/mfapi/nf-mfapi-define_mediatype_guid?branch=master) macro to define a new GUID constant that follows this pattern.
 
 ## Related topics
 
@@ -187,7 +192,7 @@ You can use the [**DEFINE\_MEDIATYPE\_GUID**](define-mediatype-guid-macro.md) ma
 [Audio Media Types](audio-media-types.md)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type GUIDs](media-type-guids.md)
@@ -196,9 +201,9 @@ You can use the [**DEFINE\_MEDIATYPE\_GUID**](define-mediatype-guid-macro.md) ma
 [Media Types](media-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

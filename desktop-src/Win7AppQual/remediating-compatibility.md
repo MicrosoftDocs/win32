@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '18F74BA7-2729-4EB3-8E6F-4E5A8C17C317'
+Description: .
+ms.assetid: 18F74BA7-2729-4EB3-8E6F-4E5A8C17C317
 title: Compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compatibility

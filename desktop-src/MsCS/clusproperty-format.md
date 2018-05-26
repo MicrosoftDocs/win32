@@ -4,11 +4,14 @@ description: The format (data type) of a cluster object property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '259aba6f-b1a6-422d-859b-8e6c95895ab5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 259aba6f-b1a6-422d-859b-8e6c95895ab5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Format property Failover Cluster", "Format property Failover Cluster , ClusProperty object", "ClusProperty object Failover Cluster , Format property"]
+keywords:
+- Format property Failover Cluster
+- Format property Failover Cluster , ClusProperty object
+- ClusProperty object Failover Cluster , Format property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperty.Format property
@@ -38,7 +44,7 @@ ClusProperty.Format
 
 ## Property value
 
-**Long** describing the format of the cluster object property. MsClus.h defines the following formats, enumerated in the [**CLUSTER\_PROPERTY\_FORMAT**](cluster-property-format.md) enumeration.
+**Long** describing the format of the cluster object property. MsClus.h defines the following formats, enumerated in the [**CLUSTER\_PROPERTY\_FORMAT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_property_format?branch=master) enumeration.
 
 <dt>
 
@@ -198,7 +204,7 @@ Data is a **WORD** value.
 
 ## Remarks
 
-The **Format** property corresponds to the **wFormat** member of a [**CLUSPROP\_SYNTAX**](clusprop-syntax.md) union.
+The **Format** property corresponds to the **wFormat** member of a [**CLUSPROP\_SYNTAX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_syntax?branch=master) union.
 
 For information on making constants defined by the Cluster Automation Server type library (MsClus.tlb) available to scripts, see [Creating a Cluster Automation Server Script](creating-a-cluster-automation-server-script.md).
 
@@ -209,7 +215,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -228,12 +234,12 @@ For information on making constants defined by the Cluster Automation Server typ
 [**ClusProperty.Type**](clusproperty-type.md)
 </dt> <dt>
 
-[**CLUSPROP\_SYNTAX**](clusprop-syntax.md)
+[**CLUSPROP\_SYNTAX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_syntax?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

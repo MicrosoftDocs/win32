@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the exposure index selected on the camera or input device at the time the photo was taken. Calculated from PKEY\_Photo\_ExposureIndexNumerator and PKEY\_Photo\_ExposureIndexDenominator.'
-ms.assetid: '83ade9b2-78ea-4b26-b034-4ea5ad38a331'
-title: 'System.Photo.ExposureIndex'
+Description: Indicates the exposure index selected on the camera or input device at the time the photo was taken. Calculated from PKEY\_Photo\_ExposureIndexNumerator and PKEY\_Photo\_ExposureIndexDenominator.
+ms.assetid: 83ade9b2-78ea-4b26-b034-4ea5ad38a331
+title: System.Photo.ExposureIndex
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureIndex

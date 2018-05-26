@@ -1,7 +1,12 @@
 ---
-Description: 'Usage and implementation guidance for QoS-enabled applications and services are provided in a separate section in the Microsoft Windows Software Development Kit (SDK) that is dedicated to QoS.'
-ms.assetid: '45a44334-fdbe-4f38-99a8-8009bf3d1efd'
+Description: Usage and implementation guidance for QoS-enabled applications and services are provided in a separate section in the Microsoft Windows Software Development Kit (SDK) that is dedicated to QoS.
+ms.assetid: 45a44334-fdbe-4f38-99a8-8009bf3d1efd
 title: Usage Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Usage Model

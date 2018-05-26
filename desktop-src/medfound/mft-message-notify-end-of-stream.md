@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies a Media Foundation transform (MFT) that an input stream has ended.'
-ms.assetid: '2d6cdf45-1bb4-4915-bd27-efa041089100'
-title: 'MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM'
+---
+Description: Notifies a Media Foundation transform (MFT) that an input stream has ended.
+ms.assetid: 2d6cdf45-1bb4-4915-bd27-efa041089100
+title: MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM
@@ -14,13 +19,13 @@ The *ulParam* parameter contains the identifier of the input stream, specified a
 
 ## Remarks
 
-To send this message, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md).
+To send this message, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master).
 
 The client is not required to send this message.
 
-After a stream ends, the client may call [**ProcessInput**](imftransform-processinput.md) again to send new data for that stream. If so, the client must set the discontinuity attribute ([**MFSampleExtension\_Discontinuity**](mfsampleextension-discontinuity-attribute.md) attribute) on the first input sample after the stream ends. (The client should always set this attribute on the first new sample after a stream ends, regardless of whether the client sent the **MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM** message. For more information about handling discontinuities, see [Basic MFT Processing Model](basic-mft-processing-model.md).)
+After a stream ends, the client may call [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) again to send new data for that stream. If so, the client must set the discontinuity attribute ([**MFSampleExtension\_Discontinuity**](mfsampleextension-discontinuity-attribute.md) attribute) on the first input sample after the stream ends. (The client should always set this attribute on the first new sample after a stream ends, regardless of whether the client sent the **MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM** message. For more information about handling discontinuities, see [Basic MFT Processing Model](basic-mft-processing-model.md).)
 
-After sending this message for every input stream, the client typically sends an **MFT\_MESSAGE\_COMMAND\_DRAIN** command and then collects the remaining output. However, the client is not required to drain the MFT. If the client does not drain the MFT, the MFT will typically discard any unprocessed data on the next call to [**ProcessInput**](imftransform-processinput.md), when it detects the stream discontinuity. Alternatively, the client might flush the MFT before calling **ProcessInput**.
+After sending this message for every input stream, the client typically sends an **MFT\_MESSAGE\_COMMAND\_DRAIN** command and then collects the remaining output. However, the client is not required to drain the MFT. If the client does not drain the MFT, the MFT will typically discard any unprocessed data on the next call to [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master), when it detects the stream discontinuity. Alternatively, the client might flush the MFT before calling **ProcessInput**.
 
 This message does not remove the input stream or reset the media type.
 
@@ -44,7 +49,7 @@ An MFT is not required to respond to this message.
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](mft-message-type.md)
+[**MFT\_MESSAGE\_TYPE**](/windows/win32/mftransform/ne-mftransform-_mft_message_type?branch=master)
 </dt> </dl>
 
  

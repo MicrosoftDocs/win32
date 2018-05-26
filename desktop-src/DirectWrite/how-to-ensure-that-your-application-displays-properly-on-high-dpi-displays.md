@@ -1,7 +1,12 @@
 ---
 title: How to Ensure That Your Application Displays Properly on High-DPI Displays
 description: Describes how to create a window the displays properly on high-DPI displays.
-ms.assetid: 'd174a337-c98e-46c7-86d2-c208900882d1'
+ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Ensure That Your Application Displays Properly on High-DPI Displays

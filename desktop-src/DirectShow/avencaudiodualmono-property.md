@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether 2-channel audio is encoded as stereo or dual mono.'
-ms.assetid: '37f25590-69c2-43bd-a5d4-2262457cb39d'
+Description: Specifies whether 2-channel audio is encoded as stereo or dual mono.
+ms.assetid: 37f25590-69c2-43bd-a5d4-2262457cb39d
 title: AVEncAudioDualMono property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncAudioDualMono property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncAudioDualMono**](eavencaudiodualmono.md) enumeration.
+The value of this property is a member of the [**eAVEncAudioDualMono**](/windows/win32/codecapi/?branch=master) enumeration.
 
 ## Remarks
 
@@ -32,8 +37,8 @@ This property does not apply to MPEG audio encoders. For MPEG audio, use the [**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -45,12 +50,12 @@ This property does not apply to MPEG audio encoders. For MPEG audio, use the [**
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

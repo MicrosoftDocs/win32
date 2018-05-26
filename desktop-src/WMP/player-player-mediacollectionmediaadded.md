@@ -1,8 +1,11 @@
 ---
 title: Player.MediaCollectionMediaAdded event
 description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library.
-ms.assetid: '01696d28-e83b-4fd2-8e88-2871831b61e7'
-keywords: ["MediaCollectionMediaAdded event Windows Media Player", "MediaCollectionMediaAdded event Windows Media Player , Player class", "Player class Windows Media Player , MediaCollectionMediaAdded event"]
+ms.assetid: 01696d28-e83b-4fd2-8e88-2871831b61e7
+keywords:
+- MediaCollectionMediaAdded event Windows Media Player
+- MediaCollectionMediaAdded event Windows Media Player , Player class
+- Player class Windows Media Player , MediaCollectionMediaAdded event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.MediaCollectionMediaAdded event
@@ -73,9 +81,9 @@ This event only occurs for the local library.
 [**Player.mediaCollection**](player-mediacollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

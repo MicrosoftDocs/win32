@@ -4,17 +4,22 @@ description: Contains the tombstone record lifetime, in minutes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cc8ada8f-904d-4400-a61c-94c53bbe8f7b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cc8ada8f-904d-4400-a61c-94c53bbe8f7b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-TombstoneExpiryInMin attribute AD Schema", "msDFSR-TombstoneExpiryInMin attribute AD Schema"]
+keywords:
+- ms-DFSR-TombstoneExpiryInMin attribute AD Schema
+- msDFSR-TombstoneExpiryInMin attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-TombstoneExpiryInMin
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-TombstoneExpiryInMin attribute
@@ -38,10 +43,10 @@ Contains the tombstone record lifetime, in minutes.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the tombstone record lifetime, in minutes.
 
 The **ms-DFSR-TombstoneExpiryInMin** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

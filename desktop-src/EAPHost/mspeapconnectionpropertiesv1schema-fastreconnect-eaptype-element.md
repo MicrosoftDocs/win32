@@ -1,14 +1,20 @@
 ---
 title: FastReconnect (EapType) Element
 description: Indicates whether to perform a fast reconnect.
-ms.assetid: '075285b0-7b1b-4d3c-af27-a718f3c20394'
-keywords: ["FastReconnect element EAPHost"]
+ms.assetid: 075285b0-7b1b-4d3c-af27-a718f3c20394
+keywords:
+- FastReconnect element EAPHost
 topic_type:
 - apiref
 api_name:
 - FastReconnect
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FastReconnect (EapType) Element
@@ -33,8 +39,8 @@ If the **FastReconnect** element is TRUE, then PEAP attempts to perform a fast r
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ If the **FastReconnect** element is TRUE, then PEAP attempts to perform a fast r
 [mspeapconnectionpropertiesv1 Schema Elements](mspeapconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

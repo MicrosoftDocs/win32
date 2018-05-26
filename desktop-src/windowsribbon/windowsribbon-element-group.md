@@ -1,14 +1,20 @@
 ---
 title: Group element
 description: Represents a Group control that functions as a container for a group of elements.
-ms.assetid: 'b0d3fcda-7165-40f4-9e57-c7ab88b31711'
-keywords: ["Group element Windows Ribbon"]
+ms.assetid: b0d3fcda-7165-40f4-9e57-c7ab88b31711
+keywords:
+- Group element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Group
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Group element
@@ -133,7 +139,7 @@ The following code example illustrates the use of a custom template in a **Group
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -151,9 +157,9 @@ The following code example illustrates the use of a custom template in a **Group
 [**SetModes**](https://msdn.microsoft.com/library/windows/desktop/dd371476)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

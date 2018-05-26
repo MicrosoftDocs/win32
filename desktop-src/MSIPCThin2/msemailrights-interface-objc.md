@@ -4,17 +4,21 @@ description: Rights that apply to emails.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2d4fd508-d208-4169-896c-61e6680300cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2d4fd508-d208-4169-896c-61e6680300cd
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSEmailRights Class"]
+keywords:
+- MSEmailRights Class
 topic_type:
 - apiref
 api_name:
 - MSEmailRights Class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSEmailRights Class
@@ -42,7 +46,7 @@ Rights that apply to emails.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -58,7 +62,7 @@ MSRight.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +72,9 @@ For more information about the built-in rights and the usage restrictions associ
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

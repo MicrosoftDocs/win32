@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the SSID of a wireless LAN.'
-ms.assetid: 'ed23ccd0-9b44-4c97-a5ed-93e86632b819'
-title: 'name (SSID) Element'
+---
+Description: Contains the SSID of a wireless LAN.
+ms.assetid: ed23ccd0-9b44-4c97-a5ed-93e86632b819
+title: name (SSID) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # name (SSID) Element

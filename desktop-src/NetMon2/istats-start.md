@@ -1,7 +1,12 @@
 ---
-Description: 'The Start method starts a capture.'
-ms.assetid: 'd4086e30-e5ed-4f29-90f0-d65125d9af6d'
-title: 'IStats::Start method'
+Description: The Start method starts a capture.
+ms.assetid: d4086e30-e5ed-4f29-90f0-d65125d9af6d
+title: IStatsStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::Start method
@@ -38,7 +43,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ When restarting the capture by using the IStats::Start and [IStats::Stop](istats
 > [!Note]  
 > You can also start and stop the capture by using the [IStats::Pause](istats-pause.md) and [IStats::Resume](istats-resume.md) methods. When you use these methods, the captured data is stored in the same capture file.
 
- 
+ 
 
 ## Requirements
 
@@ -55,8 +60,8 @@ When restarting the capture by using the IStats::Start and [IStats::Stop](istats
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -84,9 +89,9 @@ When restarting the capture by using the IStats::Start and [IStats::Stop](istats
 [IStats::Stop](istats-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

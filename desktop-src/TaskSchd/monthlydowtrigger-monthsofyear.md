@@ -1,8 +1,11 @@
 ---
 title: MonthlyDOWTrigger.MonthsOfYear property
 description: For scripting, gets or sets the months of the year during which the task runs.
-ms.assetid: 'cbc246cf-c577-49a5-8a4e-4b00be5c3e9d'
-keywords: ["MonthsOfYear property Task Scheduler", "MonthsOfYear property Task Scheduler , MonthlyDOWTrigger object", "MonthlyDOWTrigger object Task Scheduler , MonthsOfYear property"]
+ms.assetid: cbc246cf-c577-49a5-8a4e-4b00be5c3e9d
+keywords:
+- MonthsOfYear property Task Scheduler
+- MonthsOfYear property Task Scheduler , MonthlyDOWTrigger object
+- MonthlyDOWTrigger object Task Scheduler , MonthsOfYear property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MonthlyDOWTrigger.MonthsOfYear property
@@ -53,7 +61,7 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 
 
- 
+ 
 
 When reading or writing XML for a task, the months of the year of a monthly day-of-week calendar are specified by the [**Months**](taskschedulerschema-months-monthlydayofweekscheduletype-element.md) element of the Task Scheduler schema.
 
@@ -63,8 +71,8 @@ When reading or writing XML for a task, the months of the year of a monthly day-
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -80,9 +88,9 @@ When reading or writing XML for a task, the months of the year of a monthly day-
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

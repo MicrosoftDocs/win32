@@ -1,8 +1,9 @@
 ---
 title: VMFloppyDriveAttachmentType enumeration
 description: Specifies what is attached to a floppy drive.
-ms.assetid: 'aba1be92-bd07-4edb-ad62-f8d76dbd19b9'
-keywords: ["VMFloppyDriveAttachmentType enumeration Virtual PC"]
+ms.assetid: aba1be92-bd07-4edb-ad62-f8d76dbd19b9
+keywords:
+- VMFloppyDriveAttachmentType enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMFloppyDriveAttachmentType enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies what is attached to a floppy drive.
 
@@ -24,9 +30,9 @@ Specifies what is attached to a floppy drive.
 
 ```C++
 typedef enum  { 
-  vmFloppyDrive_None       = 0,
-  vmFloppyDrive_Image      = 1,
-  vmFloppyDrive_HostDrive  = 2
+  vmFloppyDrive_None       = 0,
+  vmFloppyDrive_Image      = 1,
+  vmFloppyDrive_HostDrive  = 2
 } VMFloppyDriveAttachmentType;
 ```
 
@@ -63,9 +69,9 @@ There is a host floppy drive attached.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -78,9 +84,9 @@ There is a host floppy drive attached.
 [**IVMFloppyDrive::Attachment**](ivmfloppydrive-attachment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

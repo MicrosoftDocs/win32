@@ -1,14 +1,20 @@
 ---
 title: MapType Complex Type
 description: Defines a list of name/value pairs.
-ms.assetid: '208ae219-8f79-4049-b946-a57b33c97b1b'
-keywords: ["MapType complex type EventLog"]
+ms.assetid: 208ae219-8f79-4049-b946-a57b33c97b1b
+keywords:
+- MapType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - MapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MapType Complex Type
@@ -72,14 +78,14 @@ The following example shows how to specify a value map and bitmap.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

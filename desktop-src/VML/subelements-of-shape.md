@@ -1,7 +1,12 @@
 ---
 title: Subelements of Shape
 description: Subelements of Shape
-ms.assetid: '85E36F7B-25FA-4032-B4BE-DD95EBACDB14'
+ms.assetid: 85E36F7B-25FA-4032-B4BE-DD95EBACDB14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subelements of Shape

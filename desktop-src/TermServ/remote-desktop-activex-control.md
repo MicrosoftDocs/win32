@@ -4,10 +4,13 @@ description: Describes how to use the Remote Desktop ActiveX control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28DA1103-549F-4C56-B421-54CDFD1A4AF1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 28DA1103-549F-4C56-B421-54CDFD1A4AF1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop ActiveX control

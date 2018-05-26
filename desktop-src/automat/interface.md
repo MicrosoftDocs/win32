@@ -1,7 +1,12 @@
 ---
 title: interface
 description: This statement defines an interface, which is a set of function definitions. An interface can inherit from any base interface.
-ms.assetid: '0606fe11-59e3-4ce1-bde1-a34cfbf0b093'
+ms.assetid: 0606fe11-59e3-4ce1-bde1-a34cfbf0b093
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # interface
@@ -61,7 +66,7 @@ If optional is used, it must be specified only on the right-most parameters, and
 
 ## Remarks
 
-Because the functions described by the interface statement are in the VTBL, [**DispInvoke**](dispinvoke.md) and [**CreateStdDispatch**](createstddispatch.md) can be used to provide an implementation of [**IDispatch::Invoke**](idispatch-invoke.md). For this reason, interface is more commonly used than dispinterface to describe the properties and methods of an object.
+Because the functions described by the interface statement are in the VTBL, [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master) and [**CreateStdDispatch**](/windows/previous-versions/OleAuto/nf-oleauto-createstddispatch?branch=master) can be used to provide an implementation of [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master). For this reason, interface is more commonly used than dispinterface to describe the properties and methods of an object.
 
 Functions in interfaces are the same as described in the module statement except that the entry attribute is not allowed.
 
@@ -106,7 +111,7 @@ interface IMyInt : IDispatch
 
 The members of this interface return error information and function return values through the HRESULT values and retval parameters, respectively. Tools that access the members can return the HRESULT to their users, or can simply expose the retvalparameter as the return value, and handle the HRESULT transparently.
 
-A dual interface must derive from [**IDispatch**](idispatch.md).
+A dual interface must derive from [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master).
 
  
 

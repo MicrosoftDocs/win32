@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings GatewayCredsSource property
-description: Specifies or retrieves the Remote Desktop Gateway (RD Gateway) authentication method.
+description: Specifies or retrieves the Remote Desktop Gateway (RD Gateway) authentication method.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3b05edcb-f678-4d80-99fd-b76d27c80c68'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3b05edcb-f678-4d80-99fd-b76d27c80c68
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayCredsSource property Remote Desktop Services", "GatewayCredsSource property Remote Desktop Services , IMsRdpClientTransportSettings interface", "IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayCredsSource property"]
+keywords:
+- GatewayCredsSource property Remote Desktop Services
+- GatewayCredsSource property Remote Desktop Services , IMsRdpClientTransportSettings interface
+- IMsRdpClientTransportSettings interface Remote Desktop Services , GatewayCredsSource property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings::GatewayCredsSource property
 
-Specifies or retrieves the Remote Desktop Gateway (RD Gateway) authentication method.
+Specifies or retrieves the Remote Desktop Gateway (RD Gateway) authentication method.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayCredsSource(
-  [in]  ULONG ulProxyCredsSource
+  [in]  ULONG ulProxyCredsSource
 );
 
 HRESULT get_GatewayCredsSource(
-  [out] ULONG *pulProxyCredsSource
+  [out] ULONG *pulProxyCredsSource
 );
 ```
 
@@ -44,28 +50,28 @@ HRESULT get_GatewayCredsSource(
 
 ## Property value
 
-A **ULONG** variable that specifies the RD Gateway authentication method. This parameter can be one of the following values.
+A **ULONG** variable that specifies the RD Gateway authentication method. This parameter can be one of the following values.
 
 <dt>
 
 TSC\_PROXY\_CREDS\_MODE\_USERPASS (0)
 </dt> <dd>
 
-Use a password (NTLM) as the authentication method for RD Gateway.
+Use a password (NTLM) as the authentication method for RD Gateway.
 
 </dd> <dt>
 
 TSC\_PROXY\_CREDS\_MODE\_SMARTCARD (1)
 </dt> <dd>
 
-Use a smart card as the authentication method for RD Gateway.
+Use a smart card as the authentication method for RD Gateway.
 
 </dd> <dt>
 
 TSC\_PROXY\_CREDS\_MODE\_ANY (4)
 </dt> <dd>
 
-Use any authentication method for RD Gateway.
+Use any authentication method for RD Gateway.
 
 </dd> </dl>
 
@@ -79,8 +85,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings is defined as 720298C0-A099-46f5-9F82-96921BAE4701<br/> |
@@ -94,9 +100,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings**](imsrdpclienttransportsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

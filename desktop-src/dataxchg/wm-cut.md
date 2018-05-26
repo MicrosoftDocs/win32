@@ -1,8 +1,9 @@
 ---
 title: WM\_CUT message
 description: An application sends a WM\_CUT message to an edit control or combo box to delete (cut) the current selection, if any, in the edit control and copy the deleted text to the clipboard in CF\_TEXT format.
-ms.assetid: '6ac45589-3e34-491c-9562-e072ddc478f9'
-keywords: ["WM_CUT message Data Exchange"]
+ms.assetid: 6ac45589-3e34-491c-9562-e072ddc478f9
+keywords:
+- WM_CUT message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CUT message
@@ -60,8 +66,8 @@ When sent to a combo box, the **WM\_CUT** message is handled by its edit control
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -97,9 +103,9 @@ When sent to a combo box, the **WM\_CUT** message is handled by its edit control
 [**EM\_UNDO**](_win32_EM_UNDO)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

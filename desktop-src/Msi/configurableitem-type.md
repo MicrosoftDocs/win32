@@ -1,7 +1,12 @@
 ---
-Description: 'The Type property returns the value from the Type column of the ModuleConfiguration table .'
-ms.assetid: 'af2cb859-2e9d-4bca-867b-cdc61d9758cd'
-title: 'ConfigurableItem.Type property'
+Description: The Type property returns the value from the Type column of the ModuleConfiguration table .
+ms.assetid: af2cb859-2e9d-4bca-867b-cdc61d9758cd
+title: ConfigurableItem.Type property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigurableItem.Type property
@@ -23,7 +28,7 @@ propVal = ConfigurableItem.Type
 
 ## C++
 
-See [**get\_Type Function (ConfigurableItem Object)**](imsmconfigurableitem-get-type.md).
+See [**get\_Type Function (ConfigurableItem Object)**](/windows/win32/Mergemod/nf-mergemod-imsmconfigurableitem-get_type?branch=master).
 
 ## Requirements
 
@@ -37,9 +42,9 @@ See [**get\_Type Function (ConfigurableItem Object)**](imsmconfigurableitem-get-
 
 
 
- 
+ 
 
- 
+ 
 
 
 

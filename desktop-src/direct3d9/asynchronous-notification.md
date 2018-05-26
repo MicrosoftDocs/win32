@@ -1,16 +1,21 @@
 ---
-Description: 'There are number of interesting queries on a driver that an application can make if there is no performance cost.'
-ms.assetid: '81e1c5c5-03bc-4598-814e-14e56513e221'
-title: 'Asynchronous Notification (Direct3D 9)'
+Description: There are number of interesting queries on a driver that an application can make if there is no performance cost.
+ms.assetid: 81e1c5c5-03bc-4598-814e-14e56513e221
+title: Asynchronous Notification (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Notification (Direct3D 9)
 
 There are number of interesting queries on a driver that an application can make if there is no performance cost. In Direct3D 7 and Direct3D 8, a synchronous query mechanism, GetInfo, worked well for things like statistics, but no performance-critical queries were added. There are other things (like fences) that are inherently asynchronous. This is a simple API to make both synchronous and asynchronous queries. GetInfo will be retired in Direct3D 9.
 
-Create a query using [**IDirect3DDevice9::CreateQuery**](idirect3ddevice9--createquery.md). This method takes a D3DQUERYTYPE, which defines what kind of query to make and returns a pointer to an [**IDirect3DQuery9**](idirect3dquery9.md) object. If the query type is not supported, the call returns an error D3DERR\_NOTAVAILABLE. Using the query object, the application submits the query to the runtime using [**IDirect3DQuery9::Issue**](idirect3dquery9--issue.md), and polls the query status using [**IDirect3DQuery9::GetData**](idirect3dquery9--getdata.md). If the query result is available, S\_OK is returned; otherwise, S\_FALSE is returned. The application is expected to pass an appropriately sized buffer for the query results.
+Create a query using [**IDirect3DDevice9::CreateQuery**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createquery?branch=master). This method takes a D3DQUERYTYPE, which defines what kind of query to make and returns a pointer to an [**IDirect3DQuery9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dquery9?branch=master) object. If the query type is not supported, the call returns an error D3DERR\_NOTAVAILABLE. Using the query object, the application submits the query to the runtime using [**IDirect3DQuery9::Issue**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-issue?branch=master), and polls the query status using [**IDirect3DQuery9::GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master). If the query result is available, S\_OK is returned; otherwise, S\_FALSE is returned. The application is expected to pass an appropriately sized buffer for the query results.
 
-The application has an option to force the runtime to flush the query down to the driver by using D3DGETDATA\_FLUSH with [**IDirect3DQuery9::GetData**](idirect3dquery9--getdata.md). It causes a flush, forcing the driver to see the query. In this case, D3DERR\_DEVICELOST is returned if the device becomes lost.
+The application has an option to force the runtime to flush the query down to the driver by using D3DGETDATA\_FLUSH with [**IDirect3DQuery9::GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master). It causes a flush, forcing the driver to see the query. In this case, D3DERR\_DEVICELOST is returned if the device becomes lost.
 
 All queries are lost when the device is lost, the application has to re-create them. If the device does not support the query and the pQueryID is **NULL**, the query creation will fail with D3DERR\_INVALIDCALL.
 
@@ -30,7 +35,7 @@ The following table summaries important information about each query type.
 
  
 
-Flags field for [**IDirect3DQuery9::Issue**](idirect3dquery9--issue.md):
+Flags field for [**IDirect3DQuery9::Issue**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-issue?branch=master):
 
 
 ```
@@ -50,7 +55,7 @@ Flags field for [**IDirect3DQuery9::Issue**](idirect3dquery9--issue.md):
 
 
 
-Flags field for [**IDirect3DQuery9::GetData**](idirect3dquery9--getdata.md):
+Flags field for [**IDirect3DQuery9::GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master):
 
 
 ```

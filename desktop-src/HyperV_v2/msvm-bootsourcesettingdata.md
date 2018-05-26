@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the parameters to set the boot source of a virtual machine.'
-ms.assetid: '21CD4B71-3D05-469E-89BB-DC2C65F5AB10'
-title: 'Msvm\_BootSourceSettingData class'
+Description: Represents the parameters to set the boot source of a virtual machine.
+ms.assetid: 21CD4B71-3D05-469E-89BB-DC2C65F5AB10
+title: Msvm\_BootSourceSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BootSourceSettingData class
@@ -24,7 +29,7 @@ class Msvm_BootSourceSettingData : CIM_SettingData
   string OtherLocation;
   string FirmwareDevicePath;
   string BootSourceDescription;
-  uint8  OptionalData[];
+  uint8  OptionalData[];
 };
 ```
 
@@ -184,9 +189,9 @@ Qualifiers: **OctetString**, [**ArrayType**](https://msdn.microsoft.com/library/
 Optional data provided by the firmware.
 
 > [!Note]  
-> Property added in Windows 10.
+> Property added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -209,8 +214,8 @@ The other location info, if any, that the firmware uses to further uniquely iden
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -227,9 +232,9 @@ The other location info, if any, that the firmware uses to further uniquely iden
 [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

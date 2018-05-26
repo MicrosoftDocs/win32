@@ -4,11 +4,15 @@ description: MMC provides snap-in developers with the following interfaces for w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '02536d9b-2eef-44a4-891e-b84dc58b9a2f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 02536d9b-2eef-44a4-891e-b84dc58b9a2f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["toolbars and menu buttons MMC , interfaces"]
+keywords:
+- toolbars and menu buttons MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with Toolbars and Menu Buttons: Interfaces

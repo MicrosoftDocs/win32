@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the SSID of a wireless LAN in hexadecimal format.'
-ms.assetid: '6c49a3e6-f167-408b-a96f-5b6032108f34'
-title: 'hex (SSID) Element'
+---
+Description: Contains the SSID of a wireless LAN in hexadecimal format.
+ms.assetid: 6c49a3e6-f167-408b-a96f-5b6032108f34
+title: hex (SSID) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hex (SSID) Element

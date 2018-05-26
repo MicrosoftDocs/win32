@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SLANGUAGE'
-ms.assetid: '3a659806-5380-4ad6-b57d-5469f12b5c1b'
-title: 'LOCALE\_SLANGUAGE'
+Description: LOCALE\_SLANGUAGE
+ms.assetid: 3a659806-5380-4ad6-b57d-5469f12b5c1b
+title: LOCALE\_SLANGUAGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SLANGUAGE

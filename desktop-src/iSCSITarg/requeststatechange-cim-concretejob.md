@@ -4,13 +4,16 @@ description: Requests that the state of the job be changed to the value specifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '496faef6-19c7-498f-93d7-67e15db65291'
-ms.prod: 'windows-server-dev'
+ms.assetid: 496faef6-19c7-498f-93d7-67e15db65291
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method iSCSI Software Target API", "RequestStateChange method iSCSI Software Target API , CIM_ConcreteJob class", "CIM_ConcreteJob class iSCSI Software Target API , RequestStateChange method"]
+keywords:
+- RequestStateChange method iSCSI Software Target API
+- RequestStateChange method iSCSI Software Target API , CIM_ConcreteJob class
+- CIM_ConcreteJob class iSCSI Software Target API , RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_ConcreteJob class
@@ -30,8 +36,8 @@ Requests that the state of the job be changed to the value specified in the Requ
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -88,14 +94,14 @@ RequestStateChange changes the state of a job. The possible values are as follow
 **DMTF Reserved**
 
 
-</dt> <dd>7–32767</dd> <dt>
+</dt> <dd>7 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *TimeoutPeriod* \[in\]
 </dt> <dd>
@@ -129,7 +135,7 @@ A timeout period that specifies the maximum amount of time that the client expec
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Transition Started** (4096)
@@ -144,10 +150,10 @@ A timeout period that specifies the maximum amount of time that the client expec
 **Busy** (4099)
 </dt> <dt>
 
-**Method Reserved** (4100–32767)
+**Method Reserved** (4100 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -157,7 +163,7 @@ A timeout period that specifies the maximum amount of time that the client expec
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -171,9 +177,9 @@ A timeout period that specifies the maximum amount of time that the client expec
 [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

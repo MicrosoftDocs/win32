@@ -1,7 +1,12 @@
 ---
 title: To add a keyword to an index file
 description: To add a keyword to an index file
-ms.assetid: '0E20DBD7-D99C-458e-821B-3C493164B3DC'
+ms.assetid: 0E20DBD7-D99C-458e-821B-3C493164B3DC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a keyword to an index file
@@ -14,7 +19,7 @@ ms.assetid: '0E20DBD7-D99C-458e-821B-3C493164B3DC'
 
     
 
-     
+     
 
 2.  In the **Keyword** box, type a keyword, and then click **Add**.
 3.  In the **Project file** list, click a project file.
@@ -32,7 +37,7 @@ ms.assetid: '0E20DBD7-D99C-458e-821B-3C493164B3DC'
 
     
 
-     
+     
 
 -   You can use an unlimited number of index levels.
 
@@ -43,9 +48,9 @@ ms.assetid: '0E20DBD7-D99C-458e-821B-3C493164B3DC'
 [About Creating Index Files](create-an-index-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

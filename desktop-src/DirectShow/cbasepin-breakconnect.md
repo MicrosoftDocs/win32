@@ -1,7 +1,12 @@
 ---
-Description: 'The BreakConnect method releases the pin from a connection.'
-ms.assetid: 'a1f299e1-30bf-4d55-84cf-73acccf38151'
-title: 'CBasePin.BreakConnect method'
+Description: The BreakConnect method releases the pin from a connection.
+ms.assetid: a1f299e1-30bf-4d55-84cf-73acccf38151
+title: CBasePin.BreakConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.BreakConnect method
@@ -51,9 +56,9 @@ Note that `BreakConnect` can be called without a corresponding call to **Complet
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

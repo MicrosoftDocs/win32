@@ -1,8 +1,11 @@
 ---
 title: Player.CurrentItemChange event
 description: The CurrentItemChange event occurs when Controls.currentItem changes.
-ms.assetid: 'e6f68aeb-d7e7-460b-adc9-647f28c678a1'
-keywords: ["CurrentItemChange event Windows Media Player", "CurrentItemChange event Windows Media Player , Player class", "Player class Windows Media Player , CurrentItemChange event"]
+ms.assetid: e6f68aeb-d7e7-460b-adc9-647f28c678a1
+keywords:
+- CurrentItemChange event Windows Media Player
+- CurrentItemChange event Windows Media Player , Player class
+- Player class Windows Media Player , CurrentItemChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.CurrentItemChange event
@@ -75,9 +83,9 @@ The following JScript example demonstrates an event handler for the *Player*.**c
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

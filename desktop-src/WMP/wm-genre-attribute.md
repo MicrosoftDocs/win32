@@ -1,14 +1,20 @@
 ---
 title: WM/Genre Attribute
 description: The WM/Genre attribute is the genre of the content.
-ms.assetid: '4b1b0512-d8fd-402a-a5f0-1002c64194f4'
-keywords: ["WM/Genre Attribute Windows Media Player"]
+ms.assetid: 4b1b0512-d8fd-402a-a5f0-1002c64194f4
+keywords:
+- WM/Genre Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Genre
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Genre Attribute
@@ -58,9 +64,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Media.getItemInfoByType**](media-getiteminfobytype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

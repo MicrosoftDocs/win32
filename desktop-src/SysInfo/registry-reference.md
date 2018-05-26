@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used with the registry.'
-ms.assetid: '5f9651bf-0f47-48b8-ad57-6dcab9702725'
+Description: The following elements are used with the registry.
+ms.assetid: 5f9651bf-0f47-48b8-ad57-6dcab9702725
 title: Registry Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Reference

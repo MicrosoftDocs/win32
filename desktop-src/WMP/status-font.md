@@ -1,8 +1,17 @@
 ---
 title: Status Font
 description: Status Font
-ms.assetid: 'eba697e8-8be5-4692-b7b2-a52c5642022a'
-keywords: ["Windows Media Player Mobile skins,status display", "skins,status display", "reference for skins,status display", "status display in skins,fonts"]
+ms.assetid: eba697e8-8be5-4692-b7b2-a52c5642022a
+keywords:
+- Windows Media Player Mobile skins,status display
+- skins,status display
+- reference for skins,status display
+- status display in skins,fonts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Font

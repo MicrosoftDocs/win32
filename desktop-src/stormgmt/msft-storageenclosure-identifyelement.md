@@ -1,8 +1,11 @@
 ---
 title: IdentifyElement method of the MSFT\_StorageEnclosure class
 description: Permits a user to perform identification tasks on the enclosure and its elements.
-ms.assetid: '9993C05C-28A4-4AB8-8860-ADE5D3032AF3'
-keywords: ["IdentifyElement method Windows Storage Management API", "IdentifyElement method Windows Storage Management API , MSFT_StorageEnclosure class", "MSFT_StorageEnclosure class Windows Storage Management API , IdentifyElement method"]
+ms.assetid: 9993C05C-28A4-4AB8-8860-ADE5D3032AF3
+keywords:
+- IdentifyElement method Windows Storage Management API
+- IdentifyElement method Windows Storage Management API , MSFT_StorageEnclosure class
+- MSFT_StorageEnclosure class Windows Storage Management API , IdentifyElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdentifyElement method of the MSFT\_StorageEnclosure class
@@ -22,9 +30,9 @@ Permits a user to perform identification tasks on the enclosure and its elements
 
 ```mof
 HRESULT IdentifyElement(
-  [in]  Boolean Enable,
-  [in]  UInt32  SlotNumber[],
-  [out] String  ExtendedStatus
+  [in]  Boolean Enable,
+  [in]  UInt32  SlotNumber[],
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -81,7 +89,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +97,8 @@ This method can return one of these values.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -103,9 +111,9 @@ This method can return one of these values.
 [**MSFT\_StorageEnclosure**](msft-storageenclosure.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

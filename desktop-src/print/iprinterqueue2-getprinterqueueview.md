@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored.'
-ms.assetid: 'C565288C-B014-4A92-9F50-1641EAA30D22'
-title: 'IPrinterQueue2::GetPrinterQueueView method'
+---
+Description: Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored.
+ms.assetid: C565288C-B014-4A92-9F50-1641EAA30D22
+title: IPrinterQueue2GetPrinterQueueView method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueue2::GetPrinterQueueView method

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '13C65DAB-04BA-4B19-B810-B484F7C1C4DA'
+---
+Description: .
+ms.assetid: 13C65DAB-04BA-4B19-B810-B484F7C1C4DA
 title: SpoolerFindClosePrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpoolerFindClosePrinterChangeNotification function

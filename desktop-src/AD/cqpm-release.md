@@ -4,11 +4,12 @@ description: Sent to the CQPageProc callback function of a query form extension 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b935ae8d-a07f-4f0d-b379-5512e96a25a5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b935ae8d-a07f-4f0d-b379-5512e96a25a5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["CQPM_RELEASE message Active Directory"]
+keywords:
+- CQPM_RELEASE message Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Cmnquery.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CQPM\_RELEASE message
 
-The **CQPM\_RELEASE** message is sent to the [**CQPageProc**](cqpageproc.md) callback function of a query form extension page when the page is about to be unloaded.
+The **CQPM\_RELEASE** message is sent to the [**CQPageProc**](/windows/win32/Cmnquery/nc-cmnquery-lpcqpageproc?branch=master) callback function of a query form extension page when the page is about to be unloaded.
 
 ## Parameters
 
@@ -51,8 +55,8 @@ The return value for this message is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Cmnquery.h</dt> </dl> |
 
 
@@ -61,12 +65,12 @@ The return value for this message is ignored.
 
 <dl> <dt>
 
-[**CQPageProc**](cqpageproc.md)
+[**CQPageProc**](/windows/win32/Cmnquery/nc-cmnquery-lpcqpageproc?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

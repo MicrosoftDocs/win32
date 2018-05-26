@@ -1,7 +1,12 @@
 ---
 title: Microsoft Agent Error Codes
 description: Microsoft Agent Error Codes
-ms.assetid: '39bc203a-c260-46f5-a30a-7324bae2e2cf'
+ms.assetid: 39bc203a-c260-46f5-a30a-7324bae2e2cf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Agent Error Codes
@@ -86,13 +91,13 @@ Microsoft Agent returns the following error information:
 
 
 
- 
+ 
 
 \* Errors whose descriptions include an asterisk are Windows system errors. They are provided here because they may commonly occur in Agent-enabled applications. For information on other errors not included here, see the Platform SDK documentation.
 
- 
+ 
 
- 
+ 
 
 
 

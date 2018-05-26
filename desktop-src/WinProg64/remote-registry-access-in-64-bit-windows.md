@@ -1,8 +1,14 @@
 ---
 title: Remote Registry Access in 64-bit Windows
 description: The registry redirector provides remote access to the registry on 64-bit Windows through the RegConnectRegistry function.
-ms.assetid: '7873c1e2-53fb-4c93-bf4c-251a13cd8db7'
-keywords: ["remote registry access 64-bit Windows Programming"]
+ms.assetid: 7873c1e2-53fb-4c93-bf4c-251a13cd8db7
+keywords:
+- remote registry access 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Registry Access in 64-bit Windows

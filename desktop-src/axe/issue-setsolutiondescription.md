@@ -1,8 +1,11 @@
 ---
 title: Issue SetSolutionDescription method
 description: Sets the solution description of the Issue.
-ms.assetid: '75F533D6-7494-427B-B8CE-A6E1149327D7'
-keywords: ["SetSolutionDescription method Access Execution Engine", "SetSolutionDescription method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , SetSolutionDescription method"]
+ms.assetid: 75F533D6-7494-427B-B8CE-A6E1149327D7
+keywords:
+- SetSolutionDescription method Access Execution Engine
+- SetSolutionDescription method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , SetSolutionDescription method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::SetSolutionDescription method
@@ -22,7 +30,7 @@ Sets the solution description of the **Issue**.
 
 ```C++
 virtual HRESULT SetSolutionDescription(
-  [in] LPCWSTR solutionDescription
+  [in] LPCWSTR solutionDescription
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The solution description is the value of element **Issue/Solution/Description**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The solution description is the value of element **Issue/Solution/Description**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

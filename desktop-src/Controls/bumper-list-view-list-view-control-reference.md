@@ -1,7 +1,12 @@
 ---
 title: List-View Control Reference
 description: .
-ms.assetid: '313f0359-5cb7-4ad1-9925-f9e496635bb1'
+ms.assetid: 313f0359-5cb7-4ad1-9925-f9e496635bb1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List-View Control Reference

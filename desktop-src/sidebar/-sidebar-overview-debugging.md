@@ -1,8 +1,32 @@
 ---
 title: Gadgets for Windows Sidebar Debugging
 description: This overview describes the various methods and techniques that can be used to debug gadgets.
-ms.assetid: '215f84ea-9db7-4c50-b788-b81074706f71'
-keywords: ["Windows Sidebar,debugging", "Sidebar,debugging", "gadgets,debugging", "debugging gadgets", "Gadget Picker,debugging", "Windows Sidebar,script debuggers", "Sidebar,script debuggers", "gadgets,script debuggers", "script debuggers", "Windows Sidebar,encoding", "Sidebar,encoding", "gadgets,encoding", "Windows Sidebar,fonts", "Sidebar,fonts", "gadgets,fonts", "Windows Sidebar,UTF-8 character encoding", "Sidebar,UTF-8 character encoding", "gadgets,UTF-8 character encoding", "UTF-8 character encoding"]
+ms.assetid: 215f84ea-9db7-4c50-b788-b81074706f71
+keywords:
+- Windows Sidebar,debugging
+- Sidebar,debugging
+- gadgets,debugging
+- debugging gadgets
+- Gadget Picker,debugging
+- Windows Sidebar,script debuggers
+- Sidebar,script debuggers
+- gadgets,script debuggers
+- script debuggers
+- Windows Sidebar,encoding
+- Sidebar,encoding
+- gadgets,encoding
+- Windows Sidebar,fonts
+- Sidebar,fonts
+- gadgets,fonts
+- Windows Sidebar,UTF-8 character encoding
+- Sidebar,UTF-8 character encoding
+- gadgets,UTF-8 character encoding
+- UTF-8 character encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar Debugging

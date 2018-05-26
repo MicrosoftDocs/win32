@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordWins class
 description: Represents a WINS resource record on a DNS server.
 audience: developer
-ms.assetid: 'a800f018-b99a-4c5b-9475-6fba926ad964'
-ms.prod: 'windows-server-dev'
+ms.assetid: a800f018-b99a-4c5b-9475-6fba926ad964
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordWins class", "DnsServerResourceRecordWins class, described"]
+keywords:
+- DnsServerResourceRecordWins class
+- DnsServerResourceRecordWins class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordWins class
@@ -35,10 +40,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerResourceRecordWins : DnsServerResourceRecordData
 {
-  boolean  Replicate;
+  boolean  Replicate;
   datetime LookupTimeout;
   datetime CacheTimeout;
-  string   WinsServers[];
+  string   WinsServers[];
 };
 ```
 
@@ -113,7 +118,7 @@ An array that contains IP addresses of the servers that are assigned to the reso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -130,9 +135,9 @@ An array that contains IP addresses of the servers that are assigned to the reso
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: HH\_TP\_HELP\_CONTEXTMENU command
 description: Opens a pop-up context menu. Generally used in response to the Windows WM\_CONTEXTMENU message. For example, this message is sent when a user right-clicks a dialog box control.
-ms.assetid: '4C222E07-C647-40e6-85DB-A8F8AAB940ED'
+ms.assetid: 4C222E07-C647-40e6-85DB-A8F8AAB940ED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_TP\_HELP\_CONTEXTMENU command
@@ -40,7 +45,7 @@ Opens a pop-up context menu. Generally used in response to the Windows **WM\_CON
 
 
 
- 
+ 
 
 ## Example
 
@@ -74,9 +79,9 @@ HtmlHelp(
 [HH\_TP\_HELP\_WM\_HELP](hh-tp-help-wm-help-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

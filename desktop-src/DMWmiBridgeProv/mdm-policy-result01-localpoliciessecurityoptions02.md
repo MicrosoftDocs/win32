@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Result01\_LocalPoliciesSecurityOptions02 class
 description: The MDM\_Policy\_Result01\_LocalPoliciesSecurityOptions02 class represents the local policies security options.
-ms.assetid: '75ac4789-781f-4722-8b0a-33e53b307296'
-keywords: ["MDM_Policy_Result01_LocalPoliciesSecurityOptions02 class", "MDM_Policy_Result01_LocalPoliciesSecurityOptions02 class, described"]
+ms.assetid: 75ac4789-781f-4722-8b0a-33e53b307296
+keywords:
+- MDM_Policy_Result01_LocalPoliciesSecurityOptions02 class
+- MDM_Policy_Result01_LocalPoliciesSecurityOptions02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Result01\_LocalPoliciesSecurityOptions02 class
@@ -488,7 +495,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -496,9 +503,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

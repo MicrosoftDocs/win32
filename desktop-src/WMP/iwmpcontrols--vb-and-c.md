@@ -1,8 +1,10 @@
 ---
 title: IWMPControls (VB and C\ ) interface
 description: Provides a way to manipulate the playback of a media item by representing the transport controls of Windows Media Player, such as Play, Stop, and Pause.The IWMPControls interface exposes the following properties.
-ms.assetid: '46603d98-c7dd-4c20-a4ae-1472b3af8d52'
-keywords: ["IWMPControls (VB and C ) interface Windows Media Player", "IWMPControls (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 46603d98-c7dd-4c20-a4ae-1472b3af8d52
+keywords:
+- IWMPControls (VB and C ) interface Windows Media Player
+- IWMPControls (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls (VB and C#) interface
@@ -45,7 +52,7 @@ The **IWMPControls (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -63,7 +70,7 @@ The **IWMPControls (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPControls** interface by using the following property.
 
@@ -75,7 +82,7 @@ Get an **IWMPControls** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -100,9 +107,9 @@ Get an **IWMPControls** interface by using the following property.
 [**IWMPControls3 Interface (VB and C#)**](iwmpcontrols3--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

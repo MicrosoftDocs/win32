@@ -1,8 +1,14 @@
 ---
 title: Virtual Server Interfaces
 description: Virtual Server Interfaces
-ms.assetid: '9bf748c2-8fa8-46b1-9c9e-014930b06c3e'
-keywords: ["Virtual Server COM Interface Virtual Server , interfaces"]
+ms.assetid: 9bf748c2-8fa8-46b1-9c9e-014930b06c3e
+keywords:
+- Virtual Server COM Interface Virtual Server , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Server Interfaces

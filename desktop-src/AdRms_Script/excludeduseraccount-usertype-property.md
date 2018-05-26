@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the type of the excluded user account.'
+Description: Retrieves the type of the excluded user account.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'c8431452-a724-43e8-83a3-de59fbb83f64'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: c8431452-a724-43e8-83a3-de59fbb83f64
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedUserAccount.UserType property'
+title: ExcludedUserAccount.UserType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedUserAccount.UserType property
@@ -139,7 +142,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -151,9 +154,9 @@ END FUNCTION
 [**ExcludedUserAccount**](excludeduseraccount-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Returns the Exclusion range for the specified multicast scopes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cdc6c501-76ec-4595-ab1c-ba5e63a3eb1a'
-ms.prod: 'windows-server-dev'
+ms.assetid: cdc6c501-76ec-4595-ab1c-ba5e63a3eb1a
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4MulticastExclusionRange class", "PS_DhcpServerv4MulticastExclusionRange class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4MulticastExclusionRange class
+- PS_DhcpServerv4MulticastExclusionRange class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4MulticastExclusionRange class
@@ -30,9 +36,9 @@ Returns the Exclusion range for the specified multicast scopes
 
 ```mof
 uint32 Get(
-  [in]  string                              ComputerName,
-  [in]  string                              Name[],
-  [out] DhcpServerv4MulticastExclusionRange cmdletOutput[]
+  [in]  string                              ComputerName,
+  [in]  string                              Name[],
+  [out] DhcpServerv4MulticastExclusionRange cmdletOutput[]
 );
 ```
 
@@ -70,7 +76,7 @@ An embedded instance of the [**DhcpServerv4MulticastExclusionRange**](dhcpserver
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -84,9 +90,9 @@ An embedded instance of the [**DhcpServerv4MulticastExclusionRange**](dhcpserver
 [**PS\_DhcpServerv4MulticastExclusionRange**](ps-dhcpserverv4multicastexclusionrange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

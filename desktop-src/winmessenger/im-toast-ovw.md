@@ -1,8 +1,22 @@
 ---
 title: Coordinating Toast Pop-ups Between Multiple Clients
 description: This topic provides basic information about coordinating Toast Pop-ups between multiple clients.
-ms.assetid: '356da025-c7e7-422e-b290-4109ac1bbe6b'
-keywords: ["Windows Messenger,toast pop-ups", "Messenger client,toasts", "Messenger service,toasts", "toasts", "Messenger toasts", "toast collision", "mutex", "ToastSemaphore mutex", "Messenger toast"]
+ms.assetid: 356da025-c7e7-422e-b290-4109ac1bbe6b
+keywords:
+- Windows Messenger,toast pop-ups
+- Messenger client,toasts
+- Messenger service,toasts
+- toasts
+- Messenger toasts
+- toast collision
+- mutex
+- ToastSemaphore mutex
+- Messenger toast
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Coordinating Toast Pop-ups Between Multiple Clients

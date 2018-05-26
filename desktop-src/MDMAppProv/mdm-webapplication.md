@@ -1,8 +1,10 @@
 ---
 title: MDM\_WebApplication class
 description: Retrieves information about a web application on a device that is registered with the Mobile Device Management (MDM) service.
-ms.assetid: 'e16bf5ef-9c7b-4136-ab06-e22876830668'
-keywords: ["MDM_WebApplication class MDM App Management", "MDM_WebApplication class MDM App Management , described"]
+ms.assetid: e16bf5ef-9c7b-4136-ab06-e22876830668
+keywords:
+- MDM_WebApplication class MDM App Management
+- MDM_WebApplication class MDM App Management , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WebApplication class
@@ -111,7 +118,7 @@ Gets the name of the folder that contains the shortcut file for the web applicat
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\cimv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -126,9 +133,9 @@ Gets the name of the folder that contains the shortcut file for the web applicat
 [Mobile Device Management Application Provider Classes](https://msdn.microsoft.com/library/dn610374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

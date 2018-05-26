@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPrintTicket method gets the print ticket object for the fixed document.'
-ms.assetid: 'b9c4768e-8292-4311-b64a-ac1ef7d2ad10'
-title: 'IFixedDocument::GetPrintTicket method'
+---
+Description: The GetPrintTicket method gets the print ticket object for the fixed document.
+ms.assetid: b9c4768e-8292-4311-b64a-ac1ef7d2ad10
+title: IFixedDocumentGetPrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedDocument::GetPrintTicket method

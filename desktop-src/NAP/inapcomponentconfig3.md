@@ -1,8 +1,10 @@
 ---
 title: INapComponentConfig3 interface
 description: Provides NAP system configuration methods for system health validators (SHVs) to set and modify configuration data for a specific configuration ID.
-ms.assetid: 'dbb78f7a-7c6b-4bf1-b471-374857d5dafe'
-keywords: ["INapComponentConfig3 interface NAP", "INapComponentConfig3 interface NAP , described"]
+ms.assetid: dbb78f7a-7c6b-4bf1-b471-374857d5dafe
+keywords:
+- INapComponentConfig3 interface NAP
+- INapComponentConfig3 interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,21 +13,26 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentConfig3 interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapComponentConfig3** interface provides NAP system configuration methods for system health validators (SHVs) to set and modify configuration data for a specific configuration ID.
 
 > [!Note]  
 > This interface inherits all the methods of [**INapComponentConfig2**](inapcomponentconfig2.md) and should be used instead.
 
- 
+ 
 
 ## Members
 
@@ -49,7 +56,7 @@ The **INapComponentConfig3** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +69,7 @@ This interface should not be implemented by system health agents (SHAs) or quara
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -81,9 +88,9 @@ This interface should not be implemented by system health agents (SHAs) or quara
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

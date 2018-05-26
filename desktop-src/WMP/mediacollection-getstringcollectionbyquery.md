@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getStringCollectionByQuery method
 description: The getStringCollectionByQuery method retrieves a StringCollection object containing all strings that match the query conditions.
-ms.assetid: '17442151-7eb1-4256-ac5f-142b11645216'
-keywords: ["getStringCollectionByQuery method Windows Media Player", "getStringCollectionByQuery method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getStringCollectionByQuery method"]
+ms.assetid: 17442151-7eb1-4256-ac5f-142b11645216
+keywords:
+- getStringCollectionByQuery method Windows Media Player
+- getStringCollectionByQuery method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getStringCollectionByQuery method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getStringCollectionByQuery method
@@ -105,9 +113,9 @@ When the compound query specified by the *query* parameter contains a condition 
 [**Query Object**](query-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

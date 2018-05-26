@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists functions, structures, methods, and properties used in printer drivers and spooler components.'
-ms.assetid: 'e30d6b35-1678-4deb-a441-61c8027f571e'
+Description: This section lists functions, structures, methods, and properties used in printer drivers and spooler components.
+ms.assetid: e30d6b35-1678-4deb-a441-61c8027f571e
 title: Print DDI reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print DDI reference

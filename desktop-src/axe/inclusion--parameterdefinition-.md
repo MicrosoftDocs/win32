@@ -1,14 +1,20 @@
 ---
 title: Inclusion (ParameterDefinition) element
 description: Sets the condition for including a ParameterValue defined by the ParameterDefinition in an assessment run.
-ms.assetid: 'FA06B9FC-D8A9-46CF-A9A8-55F4D7DC86D6'
-keywords: ["Inclusion (ParameterDefinition) element Access Execution Engine"]
+ms.assetid: FA06B9FC-D8A9-46CF-A9A8-55F4D7DC86D6
+keywords:
+- Inclusion (ParameterDefinition) element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Inclusion (ParameterDefinition)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inclusion (ParameterDefinition) element
@@ -72,9 +78,9 @@ OptionalOptionalIncludedRequired
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The FileCostaction initiates dynamic costingof standard installation actions.'
-ms.assetid: '1b3f2baf-6191-452e-955d-8ac903edc1b7'
+Description: The FileCostaction initiates dynamic costingof standard installation actions.
+ms.assetid: 1b3f2baf-6191-452e-955d-8ac903edc1b7
 title: FileCost Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileCost Action

@@ -1,7 +1,12 @@
 ---
 title: Atomic Functions
 description: To access a new resource type or shared memory, use an interlocked intrinsic function. Interlocked functions are guaranteed to operate atomically. That is, they are guaranteed to occur in the order programmed. This section lists the atomic functions.
-ms.assetid: 'de75482f-2919-4761-82d7-c8a8811046bf'
+ms.assetid: de75482f-2919-4761-82d7-c8a8811046bf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Atomic Functions

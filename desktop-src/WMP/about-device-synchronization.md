@@ -1,8 +1,26 @@
 ---
 title: About Device Synchronization
 description: About Device Synchronization
-ms.assetid: '87976357-f819-41ac-9645-36e799876881'
-keywords: ["Windows Media Player,synchronizing devices", "Windows Media Player object model,synchronizing devices", "object model,synchronizing devices", "Windows Media Player ActiveX control,synchronizing devices", "ActiveX control,synchronizing devices", "Windows Media Player Mobile ActiveX control,synchronizing devices", "Windows Media Player Mobile,synchronizing devices", "synchronizing devices,about", "device synchronization,about", "synchronizing devices,manual transfer", "device synchronization,manual transfer", "synchronizing devices,automatic synchronization", "device synchronization,automatic synchronization"]
+ms.assetid: 87976357-f819-41ac-9645-36e799876881
+keywords:
+- Windows Media Player,synchronizing devices
+- Windows Media Player object model,synchronizing devices
+- object model,synchronizing devices
+- Windows Media Player ActiveX control,synchronizing devices
+- ActiveX control,synchronizing devices
+- Windows Media Player Mobile ActiveX control,synchronizing devices
+- Windows Media Player Mobile,synchronizing devices
+- synchronizing devices,about
+- device synchronization,about
+- synchronizing devices,manual transfer
+- device synchronization,manual transfer
+- synchronizing devices,automatic synchronization
+- device synchronization,automatic synchronization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Device Synchronization

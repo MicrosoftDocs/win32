@@ -1,7 +1,12 @@
 ---
 title: Asynchronous Operation
 description: In asynchronous mode, an application can execute any function that includes a context value as one of its parameters and can continue to execute other commands or functions while the application waits for the function to complete its task.
-ms.assetid: '4b8ade00-deb3-4d9f-9ceb-5ba3296c8c68'
+ms.assetid: 4b8ade00-deb3-4d9f-9ceb-5ba3296c8c68
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asynchronous Operation
@@ -69,32 +74,32 @@ Tutorials
 
 Functions needed to set up asynchronous operation
 
--   [**InternetOpen**](internetopen.md)
--   [**InternetSetStatusCallback**](internetsetstatuscallback.md)
+-   [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master)
+-   [**InternetSetStatusCallback**](/windows/win32/Wininet/nf-wininet-internetsetstatuscallback?branch=master)
 
 Functions that can be used asynchronously
 
--   [**FtpCreateDirectory**](ftpcreatedirectory.md)
--   [**FtpDeleteFile**](ftpdeletefile.md)
--   [**FtpFindFirstFile**](ftpfindfirstfile.md)
--   [**FtpGetCurrentDirectory**](ftpgetcurrentdirectory.md)
--   [**FtpGetFile**](ftpgetfile.md)
--   [**FtpOpenFile**](ftpopenfile.md)
--   [**FtpPutFile**](ftpputfile.md)
--   [**FtpRemoveDirectory**](ftpremovedirectory.md)
--   [**FtpRenameFile**](ftprenamefile.md)
--   [**FtpSetCurrentDirectory**](ftpsetcurrentdirectory.md)
--   [**GopherFindFirstFile**](gopherfindfirstfile.md)
--   [**GopherOpenFile**](gopheropenfile.md)
--   [**HttpEndRequest**](httpendrequest.md)
--   [**HttpOpenRequest**](httpopenrequest.md)
--   [**HttpSendRequestEx**](httpsendrequestex.md)
--   [**InternetConnect**](internetconnect.md)
--   [**InternetOpenUrl**](internetopenurl.md)
--   [**InternetReadFileEx**](internetreadfileex.md)
+-   [**FtpCreateDirectory**](/windows/win32/Wininet/nf-wininet-ftpcreatedirectorya?branch=master)
+-   [**FtpDeleteFile**](/windows/win32/Wininet/nf-wininet-ftpdeletefilea?branch=master)
+-   [**FtpFindFirstFile**](/windows/win32/Wininet/nf-wininet-ftpfindfirstfilea?branch=master)
+-   [**FtpGetCurrentDirectory**](/windows/win32/Wininet/nf-wininet-ftpgetcurrentdirectorya?branch=master)
+-   [**FtpGetFile**](/windows/win32/Wininet/nf-wininet-ftpgetfilea?branch=master)
+-   [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master)
+-   [**FtpPutFile**](/windows/win32/Wininet/nf-wininet-ftpputfilea?branch=master)
+-   [**FtpRemoveDirectory**](/windows/win32/Wininet/nf-wininet-ftpremovedirectorya?branch=master)
+-   [**FtpRenameFile**](/windows/win32/Wininet/nf-wininet-ftprenamefilea?branch=master)
+-   [**FtpSetCurrentDirectory**](/windows/win32/Wininet/nf-wininet-ftpsetcurrentdirectorya?branch=master)
+-   [**GopherFindFirstFile**](/windows/win32/Wininet/nf-wininet-gopherfindfirstfilea?branch=master)
+-   [**GopherOpenFile**](/windows/win32/Wininet/nf-wininet-gopheropenfilea?branch=master)
+-   [**HttpEndRequest**](/windows/win32/Wininet/nf-wininet-httpendrequesta?branch=master)
+-   [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master)
+-   [**HttpSendRequestEx**](/windows/win32/Wininet/nf-wininet-httpsendrequestexa?branch=master)
+-   [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master)
+-   [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master)
+-   [**InternetReadFileEx**](/windows/win32/Wininet/nf-wininet-internetreadfileexa?branch=master)
 
 > [!Note]  
-> The [**FtpCreateDirectory**](ftpcreatedirectory.md), [**FtpRemoveDirectory**](ftpremovedirectory.md), [**FtpSetCurrentDirectory**](ftpsetcurrentdirectory.md), [**FtpGetCurrentDirectory**](ftpgetcurrentdirectory.md), [**FtpDeleteFile**](ftpdeletefile.md), and [**FtpRenameFile**](ftprenamefile.md) functions use the context value provided in the call to the [**InternetConnect**](internetconnect.md) function.
+> The [**FtpCreateDirectory**](/windows/win32/Wininet/nf-wininet-ftpcreatedirectorya?branch=master), [**FtpRemoveDirectory**](/windows/win32/Wininet/nf-wininet-ftpremovedirectorya?branch=master), [**FtpSetCurrentDirectory**](/windows/win32/Wininet/nf-wininet-ftpsetcurrentdirectorya?branch=master), [**FtpGetCurrentDirectory**](/windows/win32/Wininet/nf-wininet-ftpgetcurrentdirectorya?branch=master), [**FtpDeleteFile**](/windows/win32/Wininet/nf-wininet-ftpdeletefilea?branch=master), and [**FtpRenameFile**](/windows/win32/Wininet/nf-wininet-ftprenamefilea?branch=master) functions use the context value provided in the call to the [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) function.
 
  
 

@@ -2,13 +2,19 @@
 title: dual attribute
 description: The dual attribute identifies an interface that exposes properties and methods through IDispatch and directly through the VTBL.
 ms.assetid: 1c214f10-57eb-4a05-99a8-a09770666a74
-keywords: ["dual attribute MIDL"]
+keywords:
+- dual attribute MIDL
 topic_type:
 - apiref
 api_name:
 - dual
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dual attribute

@@ -1,7 +1,12 @@
 ---
-Description: 'Windows 8, Windows Server 2012, and later include a new Connection Manager feature that allows users to easily connect to the Internet and to other networks (work and home networks, for example).'
-ms.assetid: '6b2f5a50-fabd-4c80-acc8-a0883c939632'
+Description: Windows 8, Windows Server 2012, and later include a new Connection Manager feature that allows users to easily connect to the Internet and to other networks (work and home networks, for example).
+ms.assetid: 6b2f5a50-fabd-4c80-acc8-a0883c939632
 title: Wireless User Interface APIs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wireless User Interface APIs
@@ -114,7 +119,7 @@ int wmain()
 
 ## Advanced Settings for Wireless Network Profiles
 
-Windows Vista and later include an advanced user interface that is used to view and edit advanced settings of a wireless network profile. You can start this advanced UI by calling the [**WlanUIEditProfile**](wlanuieditprofile.md) function.
+Windows Vista and later include an advanced user interface that is used to view and edit advanced settings of a wireless network profile. You can start this advanced UI by calling the [**WlanUIEditProfile**](/windows/win32/wlanapi/nf-wlanapi-wlanuieditprofile?branch=master) function.
 
 ## Related topics
 
@@ -129,7 +134,7 @@ Windows Vista and later include an advanced user interface that is used to view
 [**ShellExecute**](shell.ShellExecute)
 </dt> <dt>
 
-[**WlanUIEditProfile**](wlanuieditprofile.md)
+[**WlanUIEditProfile**](/windows/win32/wlanapi/nf-wlanapi-wlanuieditprofile?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Occurs when the name information for a DIDiskQuotaUser object has been resolved.'
-ms.assetid: 'df32cb17-ad90-4535-a36b-60c5b4e9999f'
+---
+Description: Occurs when the name information for a DIDiskQuotaUser object has been resolved.
+ms.assetid: df32cb17-ad90-4535-a36b-60c5b4e9999f
 title: OnUserNameChanged function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OnUserNameChanged function

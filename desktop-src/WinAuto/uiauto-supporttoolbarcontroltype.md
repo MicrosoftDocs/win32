@@ -1,8 +1,29 @@
 ---
 title: ToolBar Control Type
 description: This topic provides information about Microsoft UI Automation support for the ToolBar control type. Toolbar controls enable end users to activate commands and tools contained within a application.
-ms.assetid: 'e2a72ce3-5263-43f8-be4d-715a78224b68'
-keywords: ["UI Automation,support for ToolBar control type", "UI Automation,ToolBar control type", "UI Automation,tree structure for ToolBar control type", "UI Automation,properties for ToolBar control type", "UI Automation,control patterns for ToolBar control type", "UI Automation,events for ToolBar control type", "tree structures,ToolBar control type", "properties,ToolBar control type", "control patterns,ToolBar control type", "events,ToolBar control type", "support for ToolBar control type", "ToolBar control type", "control types,tree structure for ToolBar control type", "control types,control patterns for ToolBar control type", "control types,support for ToolBar", "control types,ToolBar"]
+ms.assetid: e2a72ce3-5263-43f8-be4d-715a78224b68
+keywords:
+- UI Automation,support for ToolBar control type
+- UI Automation,ToolBar control type
+- UI Automation,tree structure for ToolBar control type
+- UI Automation,properties for ToolBar control type
+- UI Automation,control patterns for ToolBar control type
+- UI Automation,events for ToolBar control type
+- tree structures,ToolBar control type
+- properties,ToolBar control type
+- control patterns,ToolBar control type
+- events,ToolBar control type
+- support for ToolBar control type
+- ToolBar control type
+- control types,tree structure for ToolBar control type
+- control types,control patterns for ToolBar control type
+- control types,support for ToolBar
+- control types,ToolBar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ToolBar Control Type
@@ -91,9 +112,9 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                                   | Support | Notes                                                                                                                                                         |
 |-------------------------------------------------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDockProvider**](uiauto-idockprovider.md)                     | Depends | If the toolbar can be docked to different parts of the screen, it must support the [Dock](uiauto-implementingdock.md) control pattern.                       |
-| [**IExpandCollapseProvider**](uiauto-iexpandcollapseprovider.md) | Depends | If the toolbar can be expanded and collapsed to show more items, it must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern. |
-| [**ITransformProvider**](uiauto-itransformprovider.md)           | Depends | If the toolbar can be resized, rotated, or moved, it must support the [Transform](uiauto-implementingtransform.md) control pattern.                          |
+| [**IDockProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-idockprovider?branch=master)                     | Depends | If the toolbar can be docked to different parts of the screen, it must support the [Dock](uiauto-implementingdock.md) control pattern.                       |
+| [**IExpandCollapseProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iexpandcollapseprovider?branch=master) | Depends | If the toolbar can be expanded and collapsed to show more items, it must support the [ExpandCollapse](uiauto-implementingexpandcollapse.md) control pattern. |
+| [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master)           | Depends | If the toolbar can be resized, rotated, or moved, it must support the [Transform](uiauto-implementingtransform.md) control pattern.                          |
 
 
 

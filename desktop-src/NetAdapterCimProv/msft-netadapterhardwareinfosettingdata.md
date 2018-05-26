@@ -1,7 +1,12 @@
 ---
-Description: 'Hardware information for a network adapter.'
-ms.assetid: 'da286242-935a-4f41-af52-22189171d780'
-title: 'MSFT\_NetAdapterHardwareInfoSettingData class'
+Description: Hardware information for a network adapter.
+ms.assetid: da286242-935a-4f41-af52-22189171d780
+title: MSFT\_NetAdapterHardwareInfoSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterHardwareInfoSettingData class
@@ -22,36 +27,36 @@ class MSFT_NetAdapterHardwareInfoSettingData : MSFT_NetAdapterSettingData
   boolean MsiEnabled;
   boolean MsiXSupported;
   boolean MsiXEnabled;
-  uint32  NumMsixTableEntries;
-  uint32  NumMsiMessages;
-  uint16  NumaNode;
-  string  LocationInformationString;
-  uint32  SegmentNumber;
-  uint32  BusNumber;
-  uint32  DeviceNumber;
-  uint32  FunctionNumber;
-  uint32  SlotNumber;
-  uint32  PciDeviceType;
-  uint32  PciCurrentSpeedAndMode;
-  uint32  PciXCurrentSpeedAndMode;
-  uint32  PciExpressCurrentPayloadSize;
-  uint32  PciExpressMaxPayloadSize;
-  uint32  PciExpressMaxReadRequestSize;
-  uint32  PciExpressCurrentLinkSpeedEncoded;
-  uint32  PciExpressCurrentLinkWidth;
-  uint32  PciExpressMaxLinkSpeedEncoded;
-  uint32  PciExpressMaxLinkWidth;
-  uint32  PciExpressVersion;
+  uint32  NumMsixTableEntries;
+  uint32  NumMsiMessages;
+  uint16  NumaNode;
+  string  LocationInformationString;
+  uint32  SegmentNumber;
+  uint32  BusNumber;
+  uint32  DeviceNumber;
+  uint32  FunctionNumber;
+  uint32  SlotNumber;
+  uint32  PciDeviceType;
+  uint32  PciCurrentSpeedAndMode;
+  uint32  PciXCurrentSpeedAndMode;
+  uint32  PciExpressCurrentPayloadSize;
+  uint32  PciExpressMaxPayloadSize;
+  uint32  PciExpressMaxReadRequestSize;
+  uint32  PciExpressCurrentLinkSpeedEncoded;
+  uint32  PciExpressCurrentLinkWidth;
+  uint32  PciExpressMaxLinkSpeedEncoded;
+  uint32  PciExpressMaxLinkWidth;
+  uint32  PciExpressVersion;
   boolean LineBasedInterruptSupported;
   boolean MsiInterruptSupported;
   boolean MsiXInterruptSupported;
-  uint32  MaxInterruptMessages;
-  string  MsixMessageAffinityArray[];
+  uint32  MaxInterruptMessages;
+  string  MsixMessageAffinityArray[];
   boolean Dma64BitSupported;
-  uint32  SriovSupport;
+  uint32  SriovSupport;
   boolean S0WakeupSupported;
-  uint32  PciDeviceLabelID;
-  string  PciDeviceLabelString;
+  uint32  PciDeviceLabelID;
+  string  PciDeviceLabelString;
 };
 ```
 
@@ -661,16 +666,16 @@ This property indicates the status of SR-IOV support for the device.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: The Evolution of File Systems
 description: Before computers were developed to function on disk operating systems, each computer was built to run a single, proprietary application, which had complete and exclusive control of the entire machine.
-ms.assetid: '46d497b5-c325-4395-8512-1ed4b88441de'
+ms.assetid: 46d497b5-c325-4395-8512-1ed4b88441de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Evolution of File Systems

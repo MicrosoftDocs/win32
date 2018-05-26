@@ -1,14 +1,22 @@
 ---
 title: CreateMediaRendererOperation GetResults method
 description: Gets the results of the asynchronous operation.
-ms.assetid: '02C5DCB9-5C0F-4C0C-9443-B97168B5CEBB'
-keywords: ["GetResults method Media Streaming API", "GetResults method Media Streaming API , CreateMediaRendererOperation interface", "CreateMediaRendererOperation interface Media Streaming API , GetResults method"]
+ms.assetid: 02C5DCB9-5C0F-4C0C-9443-B97168B5CEBB
+keywords:
+- GetResults method Media Streaming API
+- GetResults method Media Streaming API , CreateMediaRendererOperation interface
+- CreateMediaRendererOperation interface Media Streaming API , GetResults method
 topic_type:
 - apiref
 api_name:
 - CreateMediaRendererOperation.GetResults
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMediaRendererOperation::GetResults method

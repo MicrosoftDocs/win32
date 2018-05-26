@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes best practices for porting an IPv6 broadcast application to the multicast capabilities available with Windows Sockets.'
-ms.assetid: '12e491fd-650f-43b4-afa1-9f37b1c30240'
+Description: This section describes best practices for porting an IPv6 broadcast application to the multicast capabilities available with Windows Sockets.
+ms.assetid: 12e491fd-650f-43b4-afa1-9f37b1c30240
 title: Porting Broadcast Applications to IPv6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Broadcast Applications to IPv6
@@ -34,7 +39,7 @@ For porting existing applications, there are two options to move to IPv6 multica
 
 For those creating new IPv6 multicast applications, the recommended practice is to use socket options, rather than using IOCTLs.
 
-There is one other approach to creating multicast applications with IPv6, and that entails using the [**WSAJoinLeaf**](wsajoinleaf-2.md) function. While using the **WSAJoinLeaf** function is not the recommended practice, there are situations that may dictate its use. For example, one drawback to using socket options on Windows Server 2003 and earlier is that they are IP version specific. On these older versions of Windows, different sockets options must be for IPv6 and IPv4. On Windows Vista and later, new socket options are supported that can be used with both IPv4 and IPv6. The **WSAJoinLeaf** function, in contrast, is IP version and protocol agnostic, and therefore it can be a useful approach for building an application that must work with multiple IP versions on Windows Server 2003 and earlier. Using the **WSAJoinLeaf** function may be more appropriate in certain situations where protocol and IP-version agnosticism is required.
+There is one other approach to creating multicast applications with IPv6, and that entails using the [**WSAJoinLeaf**](/windows/win32/Winsock2/nf-winsock2-wsajoinleaf?branch=master) function. While using the **WSAJoinLeaf** function is not the recommended practice, there are situations that may dictate its use. For example, one drawback to using socket options on Windows Server 2003 and earlier is that they are IP version specific. On these older versions of Windows, different sockets options must be for IPv6 and IPv4. On Windows Vista and later, new socket options are supported that can be used with both IPv4 and IPv6. The **WSAJoinLeaf** function, in contrast, is IP version and protocol agnostic, and therefore it can be a useful approach for building an application that must work with multiple IP versions on Windows Server 2003 and earlier. Using the **WSAJoinLeaf** function may be more appropriate in certain situations where protocol and IP-version agnosticism is required.
 
  
 

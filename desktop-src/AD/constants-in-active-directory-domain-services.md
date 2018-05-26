@@ -4,11 +4,17 @@ description: This section defines flags, messages, and GUIDS used for user inter
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef4ef14b-dcdb-4a85-8759-c8105f07dc25'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ef4ef14b-dcdb-4a85-8759-c8105f07dc25
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Constants AD", "Active Directory, Reference, Constants AD", "Constants AD"]
+keywords:
+- Active Directory Constants AD
+- Active Directory, Reference, Constants AD
+- Constants AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants in Active Directory Domain Services

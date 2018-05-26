@@ -1,7 +1,12 @@
 ---
 title: Surrogate Sharing
 description: DLL servers will share a surrogate if they have matching security identities and share the same AppID value.
-ms.assetid: '88544be1-4716-47b6-9c08-2b5b2b178e1f'
+ms.assetid: 88544be1-4716-47b6-9c08-2b5b2b178e1f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Surrogate Sharing

@@ -1,8 +1,9 @@
 ---
 title: TVN\_GETDISPINFO notification code
-description: Requests that a tree-view control's parent window provide information needed to display or sort an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '2dfe41d8-1164-481b-ac07-8faba43c562a'
-keywords: ["TVN_GETDISPINFO notification code Windows Controls"]
+description: Requests that a tree-view controls parent window provide information needed to display or sort an item. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 2dfe41d8-1164-481b-ac07-8faba43c562a
+keywords:
+- TVN_GETDISPINFO notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_GETDISPINFO notification code
@@ -35,7 +41,7 @@ TVN_GETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](nmtvdispinfo.md) structure. The **item** member is a [**TVITEM**](tvitem.md) structure whose **mask**, **hItem**, **state**, and **lParam** members specify the type of information required. You must fill the members of the structure with the appropriate information.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagtvdispinfoa?branch=master) structure. The **item** member is a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure whose **mask**, **hItem**, **state**, and **lParam** members specify the type of information required. You must fill the members of the structure with the appropriate information.
 
 </dd> </dl>
 
@@ -47,9 +53,9 @@ The return value is ignored.
 
 This notification code is sent under the following circumstances:
 
--   If the **pszText** member of the item's [**TVITEM**](tvitem.md) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification code to retrieve the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
--   If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](tvitem.md) structure is the I\_IMAGECALLBACK value, the control sends this notification code to retrieve the index of an item's icons in the control's image list. In this case, if the item is selected, the **mask** member of *lParam* will have the TVIF\_SELECTEDIMAGE flag set. If the item is not selected, the **mask** member of *lParam* will have the TVIF\_IMAGE flag set.
--   If the **cChildren** member of the item's [**TVITEM**](tvitem.md) structure is the I\_CHILDRENCALLBACK value, the control sends this notification code to retrieve a value that indicates whether the item has child items. In this case, the **mask** member of *lParam* will have the TVIF\_CHILDREN flag set.
+-   If the **pszText** member of the item's [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure is the LPSTR\_TEXTCALLBACK value, the control sends this notification code to retrieve the item's text. In this case, the **mask** member of *lParam* will have the TVIF\_TEXT flag set.
+-   If the **iImage** or **iSelectedImage** member of the item's [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure is the I\_IMAGECALLBACK value, the control sends this notification code to retrieve the index of an item's icons in the control's image list. In this case, if the item is selected, the **mask** member of *lParam* will have the TVIF\_SELECTEDIMAGE flag set. If the item is not selected, the **mask** member of *lParam* will have the TVIF\_IMAGE flag set.
+-   If the **cChildren** member of the item's [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure is the I\_CHILDRENCALLBACK value, the control sends this notification code to retrieve a value that indicates whether the item has child items. In this case, the **mask** member of *lParam* will have the TVIF\_CHILDREN flag set.
 
 ## Requirements
 
@@ -57,8 +63,8 @@ This notification code is sent under the following circumstances:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_GETDISPINFOW** (Unicode) and **TVN\_GETDISPINFOA** (ANSI)<br/>           |
 
@@ -71,9 +77,9 @@ This notification code is sent under the following circumstances:
 [TVN\_SETDISPINFO](tvn-setdispinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

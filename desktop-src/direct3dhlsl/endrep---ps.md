@@ -1,7 +1,12 @@
 ---
 title: endrep - ps
 description: End a rep - ps...endrep block.
-ms.assetid: 'e87ba73d-e912-4b6b-8ca0-2977b9edc1da'
+ms.assetid: e87ba73d-e912-4b6b-8ca0-2977b9edc1da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # endrep - ps

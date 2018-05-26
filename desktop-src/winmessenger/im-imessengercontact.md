@@ -1,8 +1,10 @@
 ---
 title: IMessengerContact interface
 description: Do not use. The primary interface for an individual MessengerContact object (the local representation of a remote user). Each contact in the contact list exists as its own MessengerContact object.
-ms.assetid: '7854cfd9-5a56-4643-ba98-c9e30110ab89'
-keywords: ["IMessengerContact interface Windows Messenger", "IMessengerContact interface Windows Messenger , described"]
+ms.assetid: 7854cfd9-5a56-4643-ba98-c9e30110ab89
+keywords:
+- IMessengerContact interface Windows Messenger
+- IMessengerContact interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact interface
 
-\[**IMessengerContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMessengerContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The primary interface for an individual [**MessengerContact**](im-messengercontact.md) object (the local representation of a remote user). Each contact in the contact list exists as its own **MessengerContact** object.
 
@@ -46,7 +53,7 @@ The **IMessengerContact** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,10 +67,10 @@ To create a [**MessengerContact**](im-messengercontact.md) object, use the [**Ge
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -71,9 +78,9 @@ To create a [**MessengerContact**](im-messengercontact.md) object, use the [**Ge
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,17 @@ description: User accounts are created and stored as objects in Active Directory
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '57c83e4d-2d9f-4f22-97e2-27e2d277f014'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 57c83e4d-2d9f-4f22-97e2-27e2d277f014
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory,using,managing users", "users AD", "users AD ,managing users"]
+keywords:
+- Active Directory,using,managing users
+- users AD
+- users AD ,managing users
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Managing Users

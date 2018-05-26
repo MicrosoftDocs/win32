@@ -1,7 +1,12 @@
 ---
-Description: 'Lists all of the certificates in a system certificate store and the name of the subject and all of the certificate context properties of each of those certificates.'
-ms.assetid: '4b5361f5-79b1-4b05-a133-1a394da7d6ee'
-title: 'Example C Program: Listing the Certificates in a Store'
+Description: Lists all of the certificates in a system certificate store and the name of the subject and all of the certificate context properties of each of those certificates.
+ms.assetid: 4b5361f5-79b1-4b05-a133-1a394da7d6ee
+title: Example C Program Listing the Certificates in a Store
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Listing the Certificates in a Store
@@ -10,14 +15,14 @@ The following example code lists all of the certificates in a system [*certifica
 
 This example code illustrates the following tasks and [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   Opening a system store using [**CertOpenSystemStore**](certopensystemstore.md).
--   In a loop, enumerating all of the certificates in the open store using [**CertEnumCertificatesInStore**](certenumcertificatesinstore.md).
--   Displaying a certificate using [**CryptUIDlgViewContext**](cryptuidlgviewcontext.md).
--   Getting the name of the certificate's subject using [**CertGetNameString**](certgetnamestring.md).
--   In a loop, using [**CertEnumCertificateContextProperties**](certenumcertificatecontextproperties.md) to get the property identifiers of all of the properties associated with the certificate.
--   Using [**CertGetCertificateContextProperty**](certgetcertificatecontextproperty.md) to get each of the properties.
--   Displaying a list of certificates in a store and allowing a user to select one of them using [**CryptUIDlgSelectCertificateFromStore**](cryptuidlgselectcertificatefromstore.md).
--   Closing the certificate store using [**CertCloseStore**](certclosestore.md).
+-   Opening a system store using [**CertOpenSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certopensystemstorea?branch=master).
+-   In a loop, enumerating all of the certificates in the open store using [**CertEnumCertificatesInStore**](/windows/win32/Wincrypt/nf-wincrypt-certenumcertificatesinstore?branch=master).
+-   Displaying a certificate using [**CryptUIDlgViewContext**](/windows/win32/Cryptuiapi/nf-cryptuiapi-cryptuidlgviewcontext?branch=master).
+-   Getting the name of the certificate's subject using [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
+-   In a loop, using [**CertEnumCertificateContextProperties**](/windows/win32/Wincrypt/nf-wincrypt-certenumcertificatecontextproperties?branch=master) to get the property identifiers of all of the properties associated with the certificate.
+-   Using [**CertGetCertificateContextProperty**](/windows/win32/Wincrypt/nf-wincrypt-certgetcertificatecontextproperty?branch=master) to get each of the properties.
+-   Displaying a list of certificates in a store and allowing a user to select one of them using [**CryptUIDlgSelectCertificateFromStore**](/windows/win32/Cryptuiapi/nf-cryptuiapi-cryptuidlgselectcertificatefromstore?branch=master).
+-   Closing the certificate store using [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master).
 
 This example uses the function [**MyHandleError**](myhandleerror.md). Code for this function is included with the sample.
 

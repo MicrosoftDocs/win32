@@ -1,19 +1,24 @@
 ---
-Description: 'The ConvertVideoInfoToVideoInfo2 function converts a media type that uses VIDEOINFOHEADER to one that uses VIDEOINFOHEADER2.'
-ms.assetid: 'd938bfc0-a5ae-475b-b183-56ff39b4bae1'
+Description: The ConvertVideoInfoToVideoInfo2 function converts a media type that uses VIDEOINFOHEADER to one that uses VIDEOINFOHEADER2.
+ms.assetid: d938bfc0-a5ae-475b-b183-56ff39b4bae1
 title: ConvertVideoInfoToVideoInfo2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertVideoInfoToVideoInfo2 function
 
-The `ConvertVideoInfoToVideoInfo2` function converts a media type that uses [**VIDEOINFOHEADER**](videoinfoheader.md) to one that uses [**VIDEOINFOHEADER2**](videoinfoheader2.md).
+The `ConvertVideoInfoToVideoInfo2` function converts a media type that uses [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) to one that uses [**VIDEOINFOHEADER2**](/windows/win32/Dvdmedia/ns-dvdmedia-tagvideoinfoheader2?branch=master).
 
 ## Syntax
 
 
 ```C++
 HRESULT STDAPI ConvertVideoInfoToVideoInfo2(
-   AM_MEDIA_TYPE *pmt
+   AM_MEDIA_TYPE *pmt
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT STDAPI ConvertVideoInfoToVideoInfo2(
 *pmt* 
 </dt> <dd>
 
-Pointer to the [**AM\_MEDIA\_TYPE**](am-media-type.md) structure to convert. The structure must have format type FORMAT\_VideoInfo.
+Pointer to the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure to convert. The structure must have format type FORMAT\_VideoInfo.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ This function allocates a new **VIDEOINFOHEADER2** structure, copies the members
 [Video and Image Functions](video-and-image-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

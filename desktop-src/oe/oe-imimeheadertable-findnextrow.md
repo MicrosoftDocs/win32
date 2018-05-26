@@ -1,8 +1,11 @@
 ---
 title: IMimeHeaderTable FindNextRow method
 description: Continues to iterate through the rows in the header table.
-ms.assetid: '3c7f6c4d-ec9b-481f-87b2-8d26ab2ed68d'
-keywords: ["FindNextRow method Windows Mail (formerly Outlook Express)", "FindNextRow method Windows Mail (formerly Outlook Express) , IMimeHeaderTable interface", "IMimeHeaderTable interface Windows Mail (formerly Outlook Express) , FindNextRow method"]
+ms.assetid: 3c7f6c4d-ec9b-481f-87b2-8d26ab2ed68d
+keywords:
+- FindNextRow method Windows Mail (formerly Outlook Express)
+- FindNextRow method Windows Mail (formerly Outlook Express) , IMimeHeaderTable interface
+- IMimeHeaderTable interface Windows Mail (formerly Outlook Express) , FindNextRow method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeHeaderTable::FindNextRow method
@@ -22,8 +30,8 @@ Continues to iterate through the rows in the header table.
 
 ```C++
 HRESULT FindNextRow(
-  [in]  LPFINDHEADER pFindHeader,
-  [out] LPHHEADERROW phRow
+  [in]  LPFINDHEADER pFindHeader,
+  [out] LPHHEADERROW phRow
 );
 ```
 
@@ -67,7 +75,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,8 +89,8 @@ If *pFindHeader*-&gt;**pszHeader** is **NULL**, all the rows in the header table
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -90,9 +98,9 @@ If *pFindHeader*-&gt;**pszHeader** is **NULL**, all the rows in the header table
 
 
 
- 
+ 
 
- 
+ 
 
 
 

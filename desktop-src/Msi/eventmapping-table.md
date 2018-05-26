@@ -1,7 +1,12 @@
 ---
-Description: 'The EventMapping Table lists the controls that subscribe to some control events, and lists the attribute to be changed when the event is published by another control or the Windows Installer.'
-ms.assetid: '63c9ba3e-aa8a-475b-8360-4aec78ed19db'
+Description: The EventMapping Table lists the controls that subscribe to some control events, and lists the attribute to be changed when the event is published by another control or the Windows Installer.
+ms.assetid: 63c9ba3e-aa8a-475b-8360-4aec78ed19db
 title: EventMapping Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventMapping Table

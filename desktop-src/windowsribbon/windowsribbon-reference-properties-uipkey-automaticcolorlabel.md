@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_AutomaticColorLabel
 description: Identifies the UI\_PKEY\_AutomaticColorLabel property.
-ms.assetid: '736259f1-b536-40a5-bce7-98602a0ab041'
+ms.assetid: 736259f1-b536-40a5-bce7-98602a0ab041
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_AutomaticColorLabel

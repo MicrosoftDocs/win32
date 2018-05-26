@@ -1,7 +1,12 @@
 ---
-Description: 'The following tables list the CLSIDs for the DirectShow filter categories.'
-ms.assetid: 'cab4e2c9-eab9-4836-adfc-870490ca5b6b'
+Description: The following tables list the CLSIDs for the DirectShow filter categories.
+ms.assetid: cab4e2c9-eab9-4836-adfc-870490ca5b6b
 title: Filter Categories
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter Categories
@@ -16,7 +21,7 @@ The following tables list the CLSIDs for the DirectShow filter categories.
 
 ## DirectShow Filter Categories
 
-The categories listed here are enumerated by the [Filter Mapper](filter-mapper.md). By default, however, the Filter Mapper ignores categories with merits of MERIT\_DO\_NOT\_USE or less. For more information, see [**IFilterMapper2::EnumMatchingFilters**](ifiltermapper2-enummatchingfilters.md). All of the categories listed here can also be enumerated with the [System Device Enumerator](system-device-enumerator.md).
+The categories listed here are enumerated by the [Filter Mapper](filter-mapper.md). By default, however, the Filter Mapper ignores categories with merits of MERIT\_DO\_NOT\_USE or less. For more information, see [**IFilterMapper2::EnumMatchingFilters**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters?branch=master). All of the categories listed here can also be enumerated with the [System Device Enumerator](system-device-enumerator.md).
 
 The following categories are declared in Uuids.h. Include the header file Dshow.h.
 
@@ -131,7 +136,7 @@ This category contains hardware DVD decoders.
 
 
 
- 
+ 
 
 The following categories are declared in the header file Ks.h.
 
@@ -146,7 +151,7 @@ The following categories are declared in the header file Ks.h.
 
 
 
- 
+ 
 
 The following categories are declared in the header file Bdamedia.h. Include the following header files: ks.h, ksmedia.h, and bdamedia.h.
 
@@ -162,12 +167,12 @@ The following categories are declared in the header file Bdamedia.h. Include the
 
 
 
- 
+ 
 
 > [!Note]  
 > Decoders are registered under the "DirectShow Filters" category (CLSID\_LegacyAmFilterCategory).
 
- 
+ 
 
 ## Other Filter Categories
 
@@ -184,7 +189,7 @@ The following categories are declared in the header file Qedit.h.
 
 
 
- 
+ 
 
 These categories contain video effects and transitions for [DirectShow Editing Services](directshow-editing-services.md):
 
@@ -204,7 +209,7 @@ The following categories are declared in the header file Uuids.h. Include the he
 
 
 
- 
+ 
 
 ## DirectShow Filter Meta-Category
 
@@ -216,11 +221,11 @@ The following categories are declared in the header file Uuids.h. Include the he
 
 
 
- 
+ 
 
 This meta-category contains a list of filter categories. If a filter category does not appear within this list, the [Filter Mapper](filter-mapper.md) ignores the category, which means the filter is not available for [Intelligent Connect](intelligent-connect.md).
 
-To enumerate the list of filter categories, call [**ICreateDevEnum::CreateClassEnumerator**](icreatedevenum-createclassenumerator.md) with the value CLSID\_ActiveMovieCategories. The monikers returned by this method support the following properties.
+To enumerate the list of filter categories, call [**ICreateDevEnum::CreateClassEnumerator**](/windows/win32/Strmif/nf-strmif-icreatedevenum-createclassenumerator?branch=master) with the value CLSID\_ActiveMovieCategories. The monikers returned by this method support the following properties.
 
 
 
@@ -232,9 +237,9 @@ To enumerate the list of filter categories, call [**ICreateDevEnum::CreateClassE
 
 
 
- 
+ 
 
-To add a new filter category to this list, call [**IFilterMapper2::CreateCategory**](ifiltermapper2-createcategory.md).
+To add a new filter category to this list, call [**IFilterMapper2::CreateCategory**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-createcategory?branch=master).
 
 ## DMO Categories
 
@@ -253,7 +258,7 @@ In addition, some of the DMO categories are mapped to DirectShow filter categori
 
 
 
- 
+ 
 
 Note that the video effect and audio effect categories are not mapped to any DirectShow categories.
 
@@ -279,9 +284,9 @@ Note that the video effect and audio effect categories are not mapped to any Dir
 [Using the System Device Enumerator](using-the-system-device-enumerator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

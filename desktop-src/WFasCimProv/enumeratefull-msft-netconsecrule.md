@@ -1,7 +1,12 @@
 ---
-Description: 'Enumerates the dependent parts of every connection security rule.'
-ms.assetid: '41919dc0-5603-4c07-9471-38ff00d24490'
-title: 'EnumerateFull method of the MSFT\_NetConSecRule class'
+Description: Enumerates the dependent parts of every connection security rule.
+ms.assetid: 41919dc0-5603-4c07-9471-38ff00d24490
+title: EnumerateFull method of the MSFT\_NetConSecRule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumerateFull method of the MSFT\_NetConSecRule class
@@ -13,7 +18,7 @@ Enumerates the dependent parts of every connection security rule.
 
 ```mof
 uint32 EnumerateFull(
-  [out] string Dependents[]
+  [out] string Dependents[]
 );
 ```
 
@@ -36,8 +41,8 @@ When this method returns, contains an array of dependent parts.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ When this method returns, contains an array of dependent parts.
 [**MSFT\_NetConSecRule**](msft-netconsecrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

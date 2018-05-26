@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSystemMetrics function returns values for the primary monitor, except for SM\_CXMAXTRACK and SM\_CYMAXTRACK, which refer to the entire desktop.'
-ms.assetid: 'd0105363-1895-4e10-8a33-648a6fc4c20a'
+Description: The GetSystemMetrics function returns values for the primary monitor, except for SM\_CXMAXTRACK and SM\_CYMAXTRACK, which refer to the entire desktop.
+ms.assetid: d0105363-1895-4e10-8a33-648a6fc4c20a
 title: Multiple Monitor System Metrics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple Monitor System Metrics
@@ -31,7 +36,7 @@ rc.bottom = GetSystemMetrics (SM_CYSCREEN);
 
 
 
-To change the work area of a monitor, call [**SystemParametersInfo**](base.systemparametersinfo) with SPI\_SETWORKAREA and *pvParam* pointing to a [**RECT**](rect.md) structure that is on the desired monitor. If *pvParam* is **NULL**, the work area of the primary monitor is modified. Using SPI\_GETWORKAREA always returns the work area of the primary monitor. To get the work area of a monitor other than the primary monitor, call [**GetMonitorInfo**](getmonitorinfo.md).
+To change the work area of a monitor, call [**SystemParametersInfo**](base.systemparametersinfo) with SPI\_SETWORKAREA and *pvParam* pointing to a [**RECT**](/windows/win32/Windef/?branch=master) structure that is on the desired monitor. If *pvParam* is **NULL**, the work area of the primary monitor is modified. Using SPI\_GETWORKAREA always returns the work area of the primary monitor. To get the work area of a monitor other than the primary monitor, call [**GetMonitorInfo**](/windows/win32/Winuser/nf-winuser-getmonitorinfoa?branch=master).
 
  
 

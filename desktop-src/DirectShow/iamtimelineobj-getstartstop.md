@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetStartStop method retrieves the object''s start and stop times, relative to the object''s parent.'
-ms.assetid: 'de77e332-85ba-48bf-ae37-f198ce7c3a73'
-title: 'IAMTimelineObj::GetStartStop method'
+---
+Description: The GetStartStop method retrieves the objects start and stop times, relative to the objects parent.
+ms.assetid: de77e332-85ba-48bf-ae37-f198ce7c3a73
+title: IAMTimelineObjGetStartStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetStartStop method

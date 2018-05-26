@@ -4,11 +4,17 @@ description: The Distributed Transaction Coordinator (DTC) resource type support
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '274a6794-3f14-4afb-a3cd-b94ee9c26ba8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 274a6794-3f14-4afb-a3cd-b94ee9c26ba8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Distributed Transaction Coordinator", "Distributed Transaction Coordinator resource type Failover Cluster", "DTC resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster ,Distributed Transaction Coordinator
+- Distributed Transaction Coordinator resource type Failover Cluster
+- DTC resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed Transaction Coordinator

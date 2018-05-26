@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the virtual system migration service. It is used for migrating a virtual system or for migrating the storage of a virtual system from one virtualization platform to another.'
-ms.assetid: 'b0e0f187-beeb-4fdf-a91c-f6c5500f0f6d'
-title: 'Msvm\_VirtualSystemMigrationService class'
+Description: Represents the virtual system migration service. It is used for migrating a virtual system or for migrating the storage of a virtual system from one virtualization platform to another.
+ms.assetid: b0e0f187-beeb-4fdf-a91c-f6c5500f0f6d
+title: Msvm\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemMigrationService class
@@ -16,37 +21,37 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemMigrationService : CIM_VirtualSystemMigrationService
 {
-  string   InstanceID;
-  string   Caption = "Hyper-V Migration Service";
-  string   Description = "Hyper-V Migration Service";
-  string   ElementName = "Hyper-V Migration Service";
+  string   InstanceID;
+  string   Caption = "Hyper-V Migration Service";
+  string   Description = "Hyper-V Migration Service";
+  string   ElementName = "Hyper-V Migration Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status = "OK";
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status = "OK";
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   Name = "migrationwmi";
-  string   CreationClassName = "Msvm_VirtualSystemMigrationService";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started;
-  uint32   ActiveVirtualSystemMigrationCount;
-  uint32   ActiveStorageMigrationCount;
-  string   MigrationServiceListenerIPAddressList[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   Name = "migrationwmi";
+  string   CreationClassName = "Msvm_VirtualSystemMigrationService";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started;
+  uint32   ActiveVirtualSystemMigrationCount;
+  uint32   ActiveStorageMigrationCount;
+  string   MigrationServiceListenerIPAddressList[];
 };
 ```
 
@@ -70,7 +75,7 @@ The **Msvm\_VirtualSystemMigrationService** class has these methods.
 | [**CheckVirtualSystemIsMigratable**](checkvirtualsystemismigratable-msvm-virtualsystemmigrationservice.md)             | Method to migrate a virtual system or the storage of a virtual system to a destination host specified by a hostname.<br/>                                              |
 | [**CheckVirtualSystemIsMigratableToHost**](checkvirtualsystemismigratabletohost-msvm-virtualsystemmigrationservice.md) | Determines whether the specified virtual system can be migrated to a target host specified by a network name or IP address.<br/>                                       |
 | [**GetSystemCompatibilityInfo**](getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md)                     | Generates an opaque blob of data that contains compatibility information for the specified system.<br/>                                                                |
-| [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)               | Gets compatibility vectors for a virtual machine or a host.<br/> **Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
+| [**GetSystemCompatibilityVectors**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)               | Gets compatibility vectors for a virtual machine or a host.<br/> **Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
 | [**MigrateVirtualSystemToHost**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md)                     | Migrates a virtual system or the storage of a virtual system to a destination host specified by a hostname.<br/>                                                       |
 | [**MigrateVirtualSystemToSystem**](migratevirtualsystemtosystem-msvm-virtualsystemmigrationservice.md)                 | Moves, migrates, or relocates a virtual system to a target system.<br/>                                                                                                |
 | [**ModifyNetworkSettings**](modifynetworksettings-msvm-virtualsystemmigrationservice.md)                               | Modifies migration network subnets of the virtual system migration service.<br/>                                                                                       |
@@ -82,7 +87,7 @@ The **Msvm\_VirtualSystemMigrationService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -502,17 +507,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

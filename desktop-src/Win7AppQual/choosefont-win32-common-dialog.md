@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ee1df9f2-585f-4208-ad49-a0f6ba76f53a'
-title: 'ChooseFont() Win32 Common Dialog'
+Description: .
+ms.assetid: ee1df9f2-585f-4208-ad49-a0f6ba76f53a
+title: ChooseFont() Win32 Common Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChooseFont() Win32 Common Dialog

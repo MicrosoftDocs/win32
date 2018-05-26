@@ -1,7 +1,12 @@
 ---
 title: ComboBoxEx Control Reference
 description: .
-ms.assetid: '409b3460-ef2e-4cc1-8a85-0a376e0f89eb'
+ms.assetid: 409b3460-ef2e-4cc1-8a85-0a376e0f89eb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComboBoxEx Control Reference

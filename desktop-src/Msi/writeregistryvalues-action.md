@@ -1,7 +1,12 @@
 ---
-Description: 'The WriteRegistryValues action sets up an application''s registry information.'
-ms.assetid: 'ab121de3-f07d-401a-b52a-246a555c142c'
+Description: The WriteRegistryValues action sets up an applications registry information.
+ms.assetid: ab121de3-f07d-401a-b52a-246a555c142c
 title: WriteRegistryValues Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WriteRegistryValues Action

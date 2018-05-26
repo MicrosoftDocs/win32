@@ -1,7 +1,12 @@
 ---
 title: Hit-Highlighting Examples
 description: Hit-Highlighting Examples
-ms.assetid: '89893b35-5b33-4576-a14a-576fb95c5b52'
+ms.assetid: 89893b35-5b33-4576-a14a-576fb95c5b52
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hit-Highlighting Examples

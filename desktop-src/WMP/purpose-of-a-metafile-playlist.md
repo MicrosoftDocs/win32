@@ -1,8 +1,19 @@
 ---
 title: Purpose of a Metafile Playlist
 description: Purpose of a Metafile Playlist
-ms.assetid: 'fd5f002e-79c9-4339-bb98-86d5f378d8ed'
-keywords: ["Windows Media metafile playlists,purpose", "metafile playlists,purpose", "playlists,purpose", "Windows Media metafile playlists,about", "metafile playlists,about", "playlists,about"]
+ms.assetid: fd5f002e-79c9-4339-bb98-86d5f378d8ed
+keywords:
+- Windows Media metafile playlists,purpose
+- metafile playlists,purpose
+- playlists,purpose
+- Windows Media metafile playlists,about
+- metafile playlists,about
+- playlists,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Purpose of a Metafile Playlist

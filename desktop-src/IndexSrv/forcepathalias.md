@@ -1,7 +1,12 @@
 ---
 title: ForcePathAlias
 description: ForcePathAlias
-ms.assetid: 'fb297a09-b3af-43c1-b6c1-4692207180de'
+ms.assetid: fb297a09-b3af-43c1-b6c1-4692207180de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ForcePathAlias

@@ -1,7 +1,12 @@
 ---
-Description: 'The OnSize method handles WM\_SIZE messages.'
-ms.assetid: '21d867a4-4321-478a-9beb-5d3053569369'
-title: 'CBaseWindow.OnSize method'
+Description: The OnSize method handles WM\_SIZE messages.
+ms.assetid: 21d867a4-4321-478a-9beb-5d3053569369
+title: CBaseWindow.OnSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.OnSize method
@@ -13,8 +18,8 @@ The `OnSize` method handles WM\_SIZE messages.
 
 ```C++
 virtual BOOL OnSize(
-   LONG Width,
-   LONG Height
+   LONG Width,
+   LONG Height
 );
 ```
 
@@ -64,9 +69,9 @@ This method stores the new width and height. To retrieve these values, call the 
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

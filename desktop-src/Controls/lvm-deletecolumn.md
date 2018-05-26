@@ -1,8 +1,9 @@
 ---
 title: LVM\_DELETECOLUMN message
 description: Removes a column from a list-view control. You can send this message explicitly or by using the ListView\_DeleteColumn macro.
-ms.assetid: '1748a70b-9a13-4753-ac23-55b5652164c2'
-keywords: ["LVM_DELETECOLUMN message Windows Controls"]
+ms.assetid: 1748a70b-9a13-4753-ac23-55b5652164c2
+keywords:
+- LVM_DELETECOLUMN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_DELETECOLUMN message
 
-Removes a column from a list-view control. You can send this message explicitly or by using the [**ListView\_DeleteColumn**](listview-deletecolumn.md) macro.
+Removes a column from a list-view control. You can send this message explicitly or by using the [**ListView\_DeleteColumn**](/windows/win32/Commctrl/nf-commctrl-listview_deletecolumn?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Deleting column zero of a list-view control is supported only in ComCtl32.dll ve
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

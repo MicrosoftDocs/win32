@@ -1,7 +1,12 @@
-﻿---
-Description: 'Scales a spherical harmonic (SH) vector; in other words, pOut\[i\] = pA\[i\]\*Scale.'
-ms.assetid: 'e323d238-f635-4780-982d-8798ba178f31'
+---
+Description: Scales a spherical harmonic (SH) vector; in other words, pOut\[i\] = pA\[i\]\*Scale.
+ms.assetid: e323d238-f635-4780-982d-8798ba178f31
 title: D3DXSHScale function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHScale function

@@ -1,8 +1,14 @@
 ---
 title: NumMethods
 description: Contains the number of methods in the associated interface, including methods from derived interfaces.
-ms.assetid: 'b4b22899-f1b2-4c34-be56-f1bd10b8d7b2'
-keywords: ["NumMethods registry value COM"]
+ms.assetid: b4b22899-f1b2-4c34-be56-f1bd10b8d7b2
+keywords:
+- NumMethods registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NumMethods

@@ -1,7 +1,12 @@
 ---
 title: BalloonShow Event
 description: BalloonShow Event
-ms.assetid: '8a73e883-c003-480b-8a0a-e699caffe54c'
+ms.assetid: 8a73e883-c003-480b-8a0a-e699caffe54c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BalloonShow Event

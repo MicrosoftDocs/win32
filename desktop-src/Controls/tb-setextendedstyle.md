@@ -1,8 +1,9 @@
 ---
 title: TB\_SETEXTENDEDSTYLE message
 description: Sets the extended styles for a toolbar control.
-ms.assetid: 'aec64bc7-74b4-4efc-9864-2c8a9fbd35c2'
-keywords: ["TB_SETEXTENDEDSTYLE message Windows Controls"]
+ms.assetid: aec64bc7-74b4-4efc-9864-2c8a9fbd35c2
+keywords:
+- TB_SETEXTENDEDSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETEXTENDEDSTYLE message
@@ -41,8 +47,8 @@ Returns a **DWORD** that represents the previous extended styles. This value can
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns a **DWORD** that represents the previous extended styles. This value can
 [**TB\_GETEXTENDEDSTYLE**](tb-getextendedstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

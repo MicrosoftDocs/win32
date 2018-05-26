@@ -1,7 +1,12 @@
 ---
 title: Multicast Routing Protocol
 description: A multicast routing protocol is one type of service provider that functions as a client within the framework of the router architecture. The routing architecture is designed to be extended by such router client modules.
-ms.assetid: '40a5c1e7-04f5-40be-8e95-3c754030a838'
+ms.assetid: 40a5c1e7-04f5-40be-8e95-3c754030a838
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Routing Protocol

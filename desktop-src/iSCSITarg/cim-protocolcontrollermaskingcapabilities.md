@@ -4,13 +4,15 @@ description: A subclass of Capabilities that defines the Masking-related capabil
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '90079f1b-2ad5-4873-b222-6274e5d0ee00'
-ms.prod: 'windows-server-dev'
+ms.assetid: 90079f1b-2ad5-4873-b222-6274e5d0ee00
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ProtocolControllerMaskingCapabilities class iSCSI Software Target API", "CIM_ProtocolControllerMaskingCapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_ProtocolControllerMaskingCapabilities class iSCSI Software Target API
+- CIM_ProtocolControllerMaskingCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProtocolControllerMaskingCapabilities class
@@ -54,13 +59,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.10.0"), UMLPackagePath("CIM::Device::ProtocolController")]
 class CIM_ProtocolControllerMaskingCapabilities : CIM_Capabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ValidHardwareIdTypes[];
-  string  OtherValidHardwareIDTypes[];
-  uint16  PortsPerView = 2;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ValidHardwareIdTypes[];
+  string  OtherValidHardwareIDTypes[];
+  uint16  PortsPerView = 2;
   boolean ClientSelectableDeviceNumbers = TRUE;
   boolean AttachDeviceSupported;
   boolean OneHardwareIDPerView = FALSE;
@@ -70,7 +75,7 @@ class CIM_ProtocolControllerMaskingCapabilities : CIM_Capabilities
   boolean ProtocolControllerSupportsCollections = FALSE;
   boolean ExposePathsSupported;
   boolean CreateProtocolControllerSupported;
-  uint16  MaximumMapCount = 0;
+  uint16  MaximumMapCount = 0;
   boolean SPCAllowsNoLUs = FALSE;
   boolean SPCAllowsNoTargets = FALSE;
   boolean SPCAllowsNoInitiators = FALSE;
@@ -456,7 +461,7 @@ A list of the valid values for StrorageHardwareID.IDType. iSCSI IDs MAY use one 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -470,9 +475,9 @@ A list of the valid values for StrorageHardwareID.IDType. iSCSI IDs MAY use one 
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

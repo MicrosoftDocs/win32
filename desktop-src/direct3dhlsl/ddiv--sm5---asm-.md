@@ -1,7 +1,12 @@
 ---
 title: ddiv (sm5 - asm)
 description: Computes a component-wise double-precision division.
-ms.assetid: '0A67FC35-7F2F-4258-83CE-1CA398E57952'
+ms.assetid: 0A67FC35-7F2F-4258-83CE-1CA398E57952
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ddiv (sm5 - asm)
@@ -15,7 +20,7 @@ Computes a component-wise double-precision division.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Computes a component-wise double-precision division.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +63,7 @@ In this table F means finite-real number.
 
 
 
- 
+ 
 
 This instruction applies to the following shader stages:
 
@@ -70,7 +75,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -89,7 +94,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -98,9 +103,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

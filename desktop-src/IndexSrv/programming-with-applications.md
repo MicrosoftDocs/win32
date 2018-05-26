@@ -1,7 +1,12 @@
 ---
 title: Programming with Applications
 description: Programming with Applications
-ms.assetid: '4b6be922-a7f9-4844-a335-c4757eb20de8'
+ms.assetid: 4b6be922-a7f9-4844-a335-c4757eb20de8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming with Applications

@@ -1,7 +1,12 @@
 ---
-Description: 'The ReadOnly method indicates whether the input stream is read-only.'
-ms.assetid: '25b8230d-be2b-4129-a1aa-f6b36e95199e'
-title: 'CTransInPlaceInputPin.ReadOnly method'
+Description: The ReadOnly method indicates whether the input stream is read-only.
+ms.assetid: 25b8230d-be2b-4129-a1aa-f6b36e95199e
+title: CTransInPlaceInputPin.ReadOnly method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceInputPin.ReadOnly method
@@ -43,9 +48,9 @@ Returns the value of the [**m\_bReadOnly**](ctransinplaceinputpin-m-breadonly.md
 [**CTransInPlaceInputPin Class**](ctransinplaceinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

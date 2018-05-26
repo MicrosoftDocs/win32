@@ -1,8 +1,11 @@
 ---
 title: IVMNetworkAdapter \_ID method
 description: Retrieves the internal identifier of this network interface.
-ms.assetid: '3e71c2cd-1a75-44d9-9a6d-04e6344dfec3'
-keywords: ["_ID method Virtual PC", "_ID method Virtual PC , IVMNetworkAdapter interface", "IVMNetworkAdapter interface Virtual PC , _ID method"]
+ms.assetid: 3e71c2cd-1a75-44d9-9a6d-04e6344dfec3
+keywords:
+- _ID method Virtual PC
+- _ID method Virtual PC , IVMNetworkAdapter interface
+- IVMNetworkAdapter interface Virtual PC , _ID method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter::\_ID method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the internal identifier of this network interface.
 
@@ -24,7 +32,7 @@ Retrieves the internal identifier of this network interface.
 
 ```C++
 HRESULT _ID(
-  [out] long *identifier
+  [out] long *identifier
 );
 ```
 
@@ -56,7 +64,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +76,9 @@ This method is not usable by scripting languages.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMNetworkAdapter is defined as e32e4165-22b8-4dc0-8d57-850171ae207a<br/>          |
@@ -84,9 +92,9 @@ This method is not usable by scripting languages.
 [**IVMNetworkAdapter**](ivmnetworkadapter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

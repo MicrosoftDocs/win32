@@ -1,15 +1,18 @@
 ---
-Description: 'Restore the active configuration of the collector from a backup file.'
+Description: Restore the active configuration of the collector from a backup file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b59b04a5-d2b3-4299-8347-5026b982dc02'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b59b04a5-d2b3-4299-8347-5026b982dc02
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: RestoreFile method of the Control class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestoreFile method of the Control class
@@ -21,17 +24,17 @@ Restore the active configuration of the collector from a backup file.
 
 ```mof
 Uint32 RestoreFile(
-  [in]  string File,
-  [in]  Uint32 OldTimestampLow,
-  [in]  Uint32 OldTimestampHigh,
-  [out] Uint32 NewTimestampLow,
-  [out] Uint32 NewTimestampHigh,
-  [out] Uint32 OriginalTimestampLow,
-  [out] Uint32 OriginalTimestampHigh,
-  [out] string ErrorString,
-  [out] string WarningString,
-  [out] string InfoString,
-  [out] uint32 ErrorType
+  [in]  string File,
+  [in]  Uint32 OldTimestampLow,
+  [in]  Uint32 OldTimestampHigh,
+  [out] Uint32 NewTimestampLow,
+  [out] Uint32 NewTimestampHigh,
+  [out] Uint32 OriginalTimestampLow,
+  [out] Uint32 OriginalTimestampHigh,
+  [out] string ErrorString,
+  [out] string WarningString,
+  [out] string InfoString,
+  [out] uint32 ErrorType
 );
 ```
 
@@ -188,8 +191,8 @@ Success
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
@@ -203,9 +206,9 @@ Success
 [**Control**](control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

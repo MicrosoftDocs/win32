@@ -4,13 +4,16 @@ description: Enables direct IO on the cluster shared volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4e740b73-f53f-4813-9d1a-cfa9b56056c2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4e740b73-f53f-4813-9d1a-cfa9b56056c2
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["TurnOnRedirectedAccess method", "TurnOnRedirectedAccess method, MSCluster_ClusterSharedVolume class", "MSCluster_ClusterSharedVolume class, TurnOnRedirectedAccess method"]
+keywords:
+- TurnOnRedirectedAccess method
+- TurnOnRedirectedAccess method, MSCluster_ClusterSharedVolume class
+- MSCluster_ClusterSharedVolume class, TurnOnRedirectedAccess method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TurnOnRedirectedAccess method of the MSCluster\_ClusterSharedVolume class
@@ -49,7 +55,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -66,9 +72,9 @@ This method does not return a value.
 [**TurnOffRedirectedAccess**](mscluster-clustersharedvolume-turnoffredirectedaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

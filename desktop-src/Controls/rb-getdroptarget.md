@@ -1,8 +1,9 @@
 ---
 title: RB\_GETDROPTARGET message
-description: Retrieves a rebar control's IDropTarget interface pointer.
-ms.assetid: 'f429c5d1-406b-47f0-a654-47cabccc1d0e'
-keywords: ["RB_GETDROPTARGET message Windows Controls"]
+description: Retrieves a rebar controls IDropTarget interface pointer.
+ms.assetid: f429c5d1-406b-47f0-a654-47cabccc1d0e
+keywords:
+- RB_GETDROPTARGET message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_GETDROPTARGET message
@@ -45,15 +51,15 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Forcing a Master Merge
 description: Forcing a Master Merge
-ms.assetid: 'da0c1b86-6ac6-42fa-a376-ca11e61c79e4'
+ms.assetid: da0c1b86-6ac6-42fa-a376-ca11e61c79e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Forcing a Master Merge

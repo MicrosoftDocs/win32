@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used by a fax client application to retrieve the inbound fax jobs (FaxIncomingJobs object) in the job queue of a particular fax account.'
-ms.assetid: 'dd0ba850-d2d0-4ba3-a36c-a0947ab44c28'
+---
+Description: Used by a fax client application to retrieve the inbound fax jobs (FaxIncomingJobs object) in the job queue of a particular fax account.
+ms.assetid: dd0ba850-d2d0-4ba3-a36c-a0947ab44c28
 title: FaxAccountIncomingQueue object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountIncomingQueue object
@@ -54,7 +59,7 @@ The **FaxAccountIncomingQueue** object has these methods.
 [**FaxAccountFolders**](-mfax-faxaccountfolders.md)
 </dt> <dt>
 
-[**IFaxAccountIncomingQueue**](-mfax-faxaccountincomingqueue-cpp.md)
+[**IFaxAccountIncomingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountincomingqueue?branch=master)
 </dt> </dl>
 
  

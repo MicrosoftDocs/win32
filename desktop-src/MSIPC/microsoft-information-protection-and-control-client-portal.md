@@ -4,11 +4,15 @@ description: The Rights Management Services SDK 2.1 platform enables develop
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a7900f40-4c53-4760-8e5a-9c88149f86d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: a7900f40-4c53-4760-8e5a-9c88149f86d0
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AD RMS SDK 2.1 Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- AD RMS SDK 2.1 Active Directory Rights Management Services SDK 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Rights Management SDK 2.1

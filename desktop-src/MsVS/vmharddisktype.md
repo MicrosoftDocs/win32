@@ -1,8 +1,9 @@
 ---
 title: VMHardDiskType enumeration
 description: The VMHardDiskType enumeration specifies a hard disk image type.
-ms.assetid: '4f76b8ab-56cb-4b41-bdeb-6e9f78de529c'
-keywords: ["VMHardDiskType enumeration Virtual Server"]
+ms.assetid: 4f76b8ab-56cb-4b41-bdeb-6e9f78de529c
+keywords:
+- VMHardDiskType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMHardDiskType enumeration
@@ -22,10 +28,10 @@ The **VMHardDiskType** enumeration specifies a hard disk image type.
 
 ```C++
 typedef enum  { 
-  vmDiskType_Dynamic       = 0,
-  vmDiskType_FixedSize     = 1,
-  vmDiskType_Differencing  = 2,
-  vmDiskType_HostDrive     = 4
+  vmDiskType_Dynamic       = 0,
+  vmDiskType_FixedSize     = 1,
+  vmDiskType_Differencing  = 2,
+  vmDiskType_HostDrive     = 4
 } VMHardDiskType;
 ```
 
@@ -69,15 +75,15 @@ Hard disk image linked to a host drive.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

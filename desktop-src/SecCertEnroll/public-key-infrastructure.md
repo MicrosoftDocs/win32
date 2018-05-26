@@ -1,7 +1,12 @@
 ---
-Description: 'Public-key cryptography (also called asymmetric-key cryptography) uses a key pair to encrypt and decrypt content.'
-ms.assetid: '93f65367-ca4b-4b44-9833-0653cfd3f3d3'
+Description: Public-key cryptography (also called asymmetric-key cryptography) uses a key pair to encrypt and decrypt content.
+ms.assetid: 93f65367-ca4b-4b44-9833-0653cfd3f3d3
 title: Public Key Infrastructure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Public Key Infrastructure
@@ -38,7 +43,7 @@ A typical PKI consists of the following elements.
 
 
 
- 
+ 
 
 The Certificate Enrollment API enables you to submit certificate and key archival requests to certification and registration authorities and install the issued certificate on a local computer. It does not enable you to directly manipulate the certificate database or certificate store.
 
@@ -55,9 +60,9 @@ The following topics discuss the Microsoft public key infrastructure in more det
 [About the Certificate Enrollment API](about-the-certificate-enrollment-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

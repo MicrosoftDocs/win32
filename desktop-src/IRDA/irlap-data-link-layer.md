@@ -1,8 +1,16 @@
 ---
 title: IrLAP Data Link Layer
 description: Data rates are negotiated and changed during IrLAP connection establishment. The negotiation is transparent to applications.
-ms.assetid: '5ada1314-3a32-4346-a2bc-d35be1daf00c'
-keywords: ["Infrared Data Association IrDA , described, IrLAP data link layer", "IrLAP IrDA", "architecture IrDA , data link layer"]
+ms.assetid: 5ada1314-3a32-4346-a2bc-d35be1daf00c
+keywords:
+- Infrared Data Association IrDA , described, IrLAP data link layer
+- IrLAP IrDA
+- architecture IrDA , data link layer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrLAP Data Link Layer

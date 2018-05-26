@@ -1,7 +1,12 @@
 ---
-Description: 'The Attributes object exposes the following methods.'
-ms.assetid: '51190CA2-2EE7-4D5F-A64B-987E0DE97094'
+Description: The Attributes object exposes the following methods.
+ms.assetid: 51190CA2-2EE7-4D5F-A64B-987E0DE97094
 title: Attributes Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes Methods

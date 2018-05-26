@@ -1,7 +1,12 @@
 ---
-Description: 'Device manufacturer.'
-ms.assetid: 'ddd9a6e4-dc14-4ffc-aef0-6aab9e7c9442'
-title: 'System.Devices.Manufacturer'
+Description: Device manufacturer.
+ms.assetid: ddd9a6e4-dc14-4ffc-aef0-6aab9e7c9442
+title: System.Devices.Manufacturer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Manufacturer

@@ -4,11 +4,14 @@ description: Gets app specific data.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserPolicy.SignedAppData'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserPolicy.SignedAppData
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["SignedAppData property", "SignedAppData property, UserPolicy class", "UserPolicy class, SignedAppData property"]
+keywords:
+- SignedAppData property
+- SignedAppData property, UserPolicy class
+- UserPolicy class, SignedAppData property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.SignedAppData property
@@ -65,9 +71,9 @@ Signed app data accessed via [IMapView](https://msdn.microsoft.com/library/windo
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPError errorCount property
 description: The errorCount property gets the number of errors in the error queue.
-ms.assetid: 'a30750c8-2025-4087-bd2b-f313ccbde38c'
-keywords: ["errorCount property Windows Media Player", "errorCount property Windows Media Player , IWMPError interface", "IWMPError interface Windows Media Player , errorCount property"]
+ms.assetid: a30750c8-2025-4087-bd2b-f313ccbde38c
+keywords:
+- errorCount property Windows Media Player
+- errorCount property Windows Media Player , IWMPError interface
+- IWMPError interface Windows Media Player , errorCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPError::errorCount property
@@ -126,9 +134,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.enableErrorDialogs (VB and C#)**](wmplibiwmpsettings-iwmpsettings-enableerrordialogs--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

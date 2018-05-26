@@ -1,8 +1,10 @@
 ---
 title: ErrorList class
 description: Report all errors that have occurred during an operation performed by Axe.
-ms.assetid: 'e50f156e-b6c4-463d-9782-6ae608ec3184'
-keywords: ["ErrorList class Access Execution Engine", "ErrorList class Access Execution Engine , described"]
+ms.assetid: e50f156e-b6c4-463d-9782-6ae608ec3184
+keywords:
+- ErrorList class Access Execution Engine
+- ErrorList class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorList class
@@ -43,7 +50,7 @@ The **ErrorList** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,16 +62,16 @@ Managed code uses an [**AxeException**](https://msdn.microsoft.com/library/windo
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

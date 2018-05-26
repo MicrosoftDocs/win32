@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that the current audio stream number changed for the DVD main title.'
-ms.assetid: 'ab626c6b-765a-4b2e-be96-f45260d1a078'
-title: 'EC\_DVD\_AUDIO\_STREAM\_CHANGE'
+Description: Signals that the current audio stream number changed for the DVD main title.
+ms.assetid: ab626c6b-765a-4b2e-be96-f45260d1a078
+title: EC\_DVD\_AUDIO\_STREAM\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_AUDIO\_STREAM\_CHANGE
@@ -28,7 +33,7 @@ Zero.
 
 ## Remarks
 
-The current audio stream can change automatically with a navigation command authored on the disc as well as through application control by using the [**IDvdControl2**](idvdcontrol2.md) interface.
+The current audio stream can change automatically with a navigation command authored on the disc as well as through application control by using the [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) interface.
 
 This event is raised in all domains.
 
@@ -55,9 +60,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

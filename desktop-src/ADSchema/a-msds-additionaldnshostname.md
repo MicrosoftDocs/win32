@@ -4,17 +4,22 @@ description: The attribute is used to store the additional DNS host name of a co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ea06f756-d9b6-409d-a008-0e3a1874ad94'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ea06f756-d9b6-409d-a008-0e3a1874ad94
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Additional-Dns-Host-Name attribute AD Schema", "msDS-AdditionalDnsHostName attribute AD Schema"]
+keywords:
+- ms-DS-Additional-Dns-Host-Name attribute AD Schema
+- msDS-AdditionalDnsHostName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Additional-Dns-Host-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Additional-Dns-Host-Name attribute
@@ -38,11 +43,11 @@ The attribute is used to store the additional DNS host name of a computer object
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ The attribute is used to store the additional DNS host name of a computer object
 
 
 
- 
+ 
 
- 
+ 
 
 
 

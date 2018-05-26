@@ -1,27 +1,32 @@
 ---
-Description: 'The ICertServerExit interface exposes the following methods.'
-ms.assetid: 'F30DC995-A20B-4ED3-B411-D7CC9C37B6A3'
+Description: The ICertServerExit interface exposes the following methods.
+ms.assetid: F30DC995-A20B-4ED3-B411-D7CC9C37B6A3
 title: ICertServerExit Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertServerExit Methods
 
-The [**ICertServerExit**](icertserverexit.md) interface exposes the following methods.
+The [**ICertServerExit**](/windows/win32/Certif/nn-certif-icertserverexit?branch=master) interface exposes the following methods.
 
 ## In this section
 
--   [**EnumerateAttributes Method**](icertserverexit-enumerateattributes.md)
--   [**EnumerateAttributesClose Method**](icertserverexit-enumerateattributesclose.md)
--   [**EnumerateAttributesSetup Method**](icertserverexit-enumerateattributessetup.md)
--   [**EnumerateExtensions Method**](icertserverexit-enumerateextensions.md)
--   [**EnumerateExtensionsClose Method**](icertserverexit-enumerateextensionsclose.md)
--   [**EnumerateExtensionsSetup Method**](icertserverexit-enumerateextensionssetup.md)
--   [**GetCertificateExtension Method**](icertserverexit-getcertificateextension.md)
--   [**GetCertificateExtensionFlags Method**](icertserverexit-getcertificateextensionflags.md)
--   [**GetCertificateProperty Method**](icertserverexit-getcertificateproperty.md)
--   [**GetRequestAttribute Method**](icertserverexit-getrequestattribute.md)
--   [**GetRequestProperty Method**](icertserverexit-getrequestproperty.md)
--   [**SetContext Method**](icertserverexit-setcontext.md)
+-   [**EnumerateAttributes Method**](/windows/win32/Certif/nf-certif-icertserverexit-enumerateattributes?branch=master)
+-   [**EnumerateAttributesClose Method**](/windows/win32/Certif/nf-certif-icertserverexit-enumerateattributesclose?branch=master)
+-   [**EnumerateAttributesSetup Method**](/windows/win32/Certif/nf-certif-icertserverexit-enumerateattributessetup?branch=master)
+-   [**EnumerateExtensions Method**](/windows/win32/Certif/nf-certif-icertserverexit-enumerateextensions?branch=master)
+-   [**EnumerateExtensionsClose Method**](/windows/win32/Certif/nf-certif-icertserverexit-enumerateextensionsclose?branch=master)
+-   [**EnumerateExtensionsSetup Method**](/windows/win32/Certif/nf-certif-icertserverexit-enumerateextensionssetup?branch=master)
+-   [**GetCertificateExtension Method**](/windows/win32/Certif/nf-certif-icertserverexit-getcertificateextension?branch=master)
+-   [**GetCertificateExtensionFlags Method**](/windows/win32/Certif/nf-certif-icertserverexit-getcertificateextensionflags?branch=master)
+-   [**GetCertificateProperty Method**](/windows/win32/Certif/nf-certif-icertserverexit-getcertificateproperty?branch=master)
+-   [**GetRequestAttribute Method**](/windows/win32/Certif/nf-certif-icertserverexit-getrequestattribute?branch=master)
+-   [**GetRequestProperty Method**](/windows/win32/Certif/nf-certif-icertserverexit-getrequestproperty?branch=master)
+-   [**SetContext Method**](/windows/win32/Certif/nf-certif-icertserverexit-setcontext?branch=master)
 
  
 

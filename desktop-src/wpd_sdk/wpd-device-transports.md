@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_DEVICE\_TRANSPORTS enumeration type specifies the inheritance relationship for a service. This enumeration is used by the WPD\_DEVICE\_TRANSPORT property.'
-ms.assetid: 'a9d48034-3588-4e48-a03a-91cbe679cbc9'
-title: 'WPD\_DEVICE\_TRANSPORTS enumeration'
+Description: The WPD\_DEVICE\_TRANSPORTS enumeration type specifies the inheritance relationship for a service. This enumeration is used by the WPD\_DEVICE\_TRANSPORT property.
+ms.assetid: a9d48034-3588-4e48-a03a-91cbe679cbc9
+title: WPD\_DEVICE\_TRANSPORTS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_DEVICE\_TRANSPORTS enumeration
@@ -13,10 +18,10 @@ The [**WPD\_DEVICE\_TRANSPORTS**](https://msdn.microsoft.com/library/windows/har
 
 ```C++
 typedef enum tagWPD_DEVICE_TRANSPORTS { 
-  WPD_DEVICE_TRANSPORT_UNSPECIFIED  = 0,
-  WPD_DEVICE_TRANSPORT_USB          = 1,
-  WPD_DEVICE_TRANSPORT_IP           = 2,
-  WPD_DEVICE_TRANSPORT_BLUETOOTH    = 3
+  WPD_DEVICE_TRANSPORT_UNSPECIFIED  = 0,
+  WPD_DEVICE_TRANSPORT_USB          = 1,
+  WPD_DEVICE_TRANSPORT_IP           = 2,
+  WPD_DEVICE_TRANSPORT_BLUETOOTH    = 3
 } WPD_DEVICE_TRANSPORTS;
 ```
 
@@ -64,9 +69,9 @@ The device is connected through Bluetooth.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

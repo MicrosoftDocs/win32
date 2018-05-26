@@ -1,7 +1,12 @@
 ---
 title: Media Transport Controls
 description: .
-ms.assetid: '64b3e8c7-54ea-4ac1-baa9-0eda7ed79458'
+ms.assetid: 64b3e8c7-54ea-4ac1-baa9-0eda7ed79458
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Transport Controls
@@ -21,21 +26,21 @@ Windows provides a built-in interface that shows the user information about the 
 | [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md)<br/>                                                 | Represents an object that enables integrate with the system media transport controls and support for media commands. <br/>                                               |
 | [**ISystemMediaTransportControlsButtonPressedEventArgs**](isystemmediatransportcontrolsbuttonpressedeventargs.md)<br/>     | Provides data for the [**ButtonPressed**](https://msdn.microsoft.com/library/windows/apps/dn278706) event. <br/>                                                               |
 | [**ISystemMediaTransportControlsDisplayUpdater**](isystemmediatransportcontrolsdisplayupdater.md)<br/>                     | Provides functionality to update the media metadata that is displayed on the [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md).<br/>                |
-| [**ISystemMediaTransportControlsInterop**](isystemmediatransportcontrolsinterop.md)<br/>                                   | Allows an app to get an instance of the [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md) interface.<br/>                                           |
+| [**ISystemMediaTransportControlsInterop**](/windows/previous-versions/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop?branch=master)<br/>                                   | Allows an app to get an instance of the [**ISystemMediaTransportControls**](isystemmediatransportcontrols.md) interface.<br/>                                           |
 | [**ISystemMediaTransportControlsPropertyChangedEventArgs**](isystemmediatransportcontrolspropertychangedeventargs.md)<br/> | Provides data for the [**PropertyChanged**](https://msdn.microsoft.com/library/windows/apps/dn278720) event. <br/>                                                           |
 | [**IVideoDisplayProperties**](ivideodisplayproperties.md)<br/>                                                             | Provides properties for video information that is displayed by [**ISystemMediaTransportControlsDisplayUpdater**](isystemmediatransportcontrolsdisplayupdater.md). <br/> |
 
 
 
- 
+ 
 
 ## Developer audience
 
 Media Transport Controls is designed for use by...
 
- 
+ 
 
- 
+ 
 
 
 

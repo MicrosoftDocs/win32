@@ -4,13 +4,16 @@ description: Adds a new IPv4 failover relationship on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12e28e12-72d3-483e-8444-5b6ff257ef29'
-ms.prod: 'windows-server-dev'
+ms.assetid: 12e28e12-72d3-483e-8444-5b6ff257ef29
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByLoadBalance method", "AddByLoadBalance method, PS_DhcpServerv4Failover class", "PS_DhcpServerv4Failover class, AddByLoadBalance method"]
+keywords:
+- AddByLoadBalance method
+- AddByLoadBalance method, PS_DhcpServerv4Failover class
+- PS_DhcpServerv4Failover class, AddByLoadBalance method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByLoadBalance method of the PS\_DhcpServerv4Failover class
@@ -30,18 +36,18 @@ Adds a new IPv4 failover relationship on the server.
 
 ```mof
 uint32 AddByLoadBalance(
-  [in]  string               ComputerName,
-  [in]  string               Name,
-  [in]  string               PartnerServer,
-  [in]  string               ScopeId[],
-  [in]  datetime             MaxClientLeadTime,
-  [in]  boolean              AutoStateTransition,
-  [in]  datetime             StateSwitchInterval,
-  [in]  boolean              Force,
-  [in]  string               SharedSecret,
-  [in]  boolean              PassThru,
-  [in]  uint32               LoadBalancePercent,
-  [out] DhcpServerv4Failover cmdletOutput
+  [in]  string               ComputerName,
+  [in]  string               Name,
+  [in]  string               PartnerServer,
+  [in]  string               ScopeId[],
+  [in]  datetime             MaxClientLeadTime,
+  [in]  boolean              AutoStateTransition,
+  [in]  datetime             StateSwitchInterval,
+  [in]  boolean              Force,
+  [in]  string               SharedSecret,
+  [in]  boolean              PassThru,
+  [in]  uint32               LoadBalancePercent,
+  [out] DhcpServerv4Failover cmdletOutput
 );
 ```
 
@@ -142,7 +148,7 @@ An embedded instance of a [**DhcpServerv4Failover**](dhcpserverv4failover.md) ob
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -156,9 +162,9 @@ An embedded instance of a [**DhcpServerv4Failover**](dhcpserverv4failover.md) ob
 [**PS\_DhcpServerv4Failover**](ps-dhcpserverv4failover.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMimeSecurity2 Encode method
 description: Encodes the message body.
-ms.assetid: '0f3ee226-42a8-4392-8b6a-324cb857c066'
-keywords: ["Encode method Windows Mail (formerly Outlook Express)", "Encode method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface", "IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , Encode method"]
+ms.assetid: 0f3ee226-42a8-4392-8b6a-324cb857c066
+keywords:
+- Encode method Windows Mail (formerly Outlook Express)
+- Encode method Windows Mail (formerly Outlook Express) , IMimeSecurity2 interface
+- IMimeSecurity2 interface Windows Mail (formerly Outlook Express) , Encode method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurity2::Encode method
@@ -22,8 +30,8 @@ Encodes the message body.
 
 ```C++
 HRESULT Encode(
-  [in] HWND  hwnd,
-  [in] DWORD dwFlags
+  [in] HWND  hwnd,
+  [in] DWORD dwFlags
 );
 ```
 
@@ -80,7 +88,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +96,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -97,9 +105,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

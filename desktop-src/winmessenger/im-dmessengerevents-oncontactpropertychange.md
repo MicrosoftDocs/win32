@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnContactPropertyChange event
-description: Indicates that property information for a contact in the local client's Contact List has changed.
-ms.assetid: 'ef9328ee-53ff-4f8b-a9ab-174a4485229e'
-keywords: ["OnContactPropertyChange event Windows Messenger", "OnContactPropertyChange event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnContactPropertyChange event"]
+description: Indicates that property information for a contact in the local clients Contact List has changed.
+ms.assetid: ef9328ee-53ff-4f8b-a9ab-174a4485229e
+keywords:
+- OnContactPropertyChange event Windows Messenger
+- OnContactPropertyChange event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnContactPropertyChange event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnContactPropertyChange event
 
-\[**OnContactPropertyChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnContactPropertyChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that property information for a contact in the local client's Contact List has changed.
 
@@ -24,10 +32,10 @@ Indicates that property information for a contact in the local client's Contact 
 
 ```C++
 void OnContactPropertyChange(
-  [in] LONG             hr,
-  [in] IDispatch        *pContact,
-  [in] MCONTACTPROPERTY ePropType,
-  [in] VARIANT          vPropVal
+  [in] LONG             hr,
+  [in] IDispatch        *pContact,
+  [in] MCONTACTPROPERTY ePropType,
+  [in] VARIANT          vPropVal
 );
 ```
 
@@ -88,12 +96,12 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 
 
- 
+ 
 
 > [!Note]  
 > This event is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -101,10 +109,10 @@ To be used when writing custom ::Invoke methods to handle these events.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -134,9 +142,9 @@ To be used when writing custom ::Invoke methods to handle these events.
 [**OnContactBlockChange**](im-dmessengerevents-oncontactblockchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

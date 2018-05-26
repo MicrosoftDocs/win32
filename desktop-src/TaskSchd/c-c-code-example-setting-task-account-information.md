@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Setting Task Account Information
 description: This example sets the account information for a known task. This example assumes that the task \ 0034;test task \ 0034; already exists on the local computer and that the Task Scheduler service is running.
-ms.assetid: 'ab865f70-f8d1-411e-b637-b1b1028ccf62'
-keywords: ["setting account information Task Scheduler", "setting work item properties Task Scheduler , account information"]
+ms.assetid: ab865f70-f8d1-411e-b637-b1b1028ccf62
+keywords:
+- setting account information Task Scheduler
+- setting work item properties Task Scheduler , account information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Setting Task Account Information

@@ -1,8 +1,9 @@
 ---
 title: PrerequisiteIssue structure
 description: This structure defines the data for a single failed prerequisite check.
-ms.assetid: 'E7BC5590-8CFD-4247-8DAE-3CA41E897B8D'
-keywords: ["PrerequisiteIssue structure Access Execution Engine"]
+ms.assetid: E7BC5590-8CFD-4247-8DAE-3CA41E897B8D
+keywords:
+- PrerequisiteIssue structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeCore.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrerequisiteIssue structure
@@ -22,12 +28,12 @@ This structure defines the data for a single failed prerequisite check.
 
 ```C++
 struct PrerequisiteIssue {
-  DWORD                                             Size;
+  DWORD                                             Size;
   const Microsoft::Assessments::Hosting::Assessment *Assessment;
-  IssueType                                         IssueType;
-  LPCWSTR                                           ProgrammaticName;
-  LPCWSTR                                           Name;
-  LPCWSTR                                           ToolTip;
+  IssueType                                         IssueType;
+  LPCWSTR                                           ProgrammaticName;
+  LPCWSTR                                           Name;
+  LPCWSTR                                           ToolTip;
 };
 ```
 
@@ -85,15 +91,15 @@ Additional explanation of the issue that can be displayed in a user interface to
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

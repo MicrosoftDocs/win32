@@ -4,17 +4,22 @@ description: The netboot-Locally-Installed-OSes attribute is reserved for intern
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fb59183b-26dd-4f51-955e-32f7a706a59c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: fb59183b-26dd-4f51-955e-32f7a706a59c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["netboot-Locally-Installed-OSes attribute AD Schema", "netbootLocallyInstalledOSes attribute AD Schema"]
+keywords:
+- netboot-Locally-Installed-OSes attribute AD Schema
+- netbootLocallyInstalledOSes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - netboot-Locally-Installed-OSes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # netboot-Locally-Installed-OSes attribute
@@ -38,12 +43,12 @@ The **netboot-Locally-Installed-OSes** attribute is reserved for internal use.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The **netboot-Locally-Installed-OSes** attribute is reserved for internal use.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

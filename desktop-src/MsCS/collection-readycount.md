@@ -4,17 +4,21 @@ description: Indicates how many groups in a set must have met the ReadySetting c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3A50C566-0F88-4156-AA84-A579616682EF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3A50C566-0F88-4156-AA84-A579616682EF
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ReadyCount Failover Cluster"]
+keywords:
+- ReadyCount Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ReadyCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ReadyCount
@@ -27,14 +31,14 @@ Indicates how many groups in a set must have met the [**ReadySetting**](collecti
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                                |
 | Default<br/>   | 0xFFFFFFFF<br/>                                |
 
 
 
- 
+ 
 
 <dl> <dt>
 
@@ -70,7 +74,7 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_READY\_COUNT**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -81,9 +85,9 @@ The constant for this property is **CLUSREG\_NAME\_GROUPSET\_READY\_COUNT**.
 [Groupset Common Properties](collection-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Mesh data structure.'
-ms.assetid: '9164b956-95b7-4bc0-bf7e-feed2e3b4a2b'
+---
+Description: Mesh data structure.
+ms.assetid: 9164b956-95b7-4bc0-bf7e-feed2e3b4a2b
 title: D3DXMESHDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMESHDATA structure

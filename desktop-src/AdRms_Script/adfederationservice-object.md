@@ -1,18 +1,21 @@
 ---
-Description: 'Can be used to manage Active Directory Federation Services (ADFS) support.'
+Description: Can be used to manage Active Directory Federation Services (ADFS) support.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '59fe13b7-99e3-4564-a70c-f9ea62598565'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 59fe13b7-99e3-4564-a70c-f9ea62598565
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ADFederationService object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ADFederationService object
 
-The **ADFederationService** object can be used to manage Active Directory Federation Services (ADFS) support. ADFS is a component available beginning with Windows Server 2003 R2 that enables a user to access multiple web applications during the life of a single online session. Using ADFS, organizations can share user identity within an organization and across federated organizations so that the users can access ADFS-configured resources. If ADFS is installed and enabled, an AD RMS server can grant content access to federated users. You can retrieve this object by calling the [**ADFederationService**](trustpolicy-adfederationservice-property.md) property on the [**TrustPolicy**](trustpolicy-object.md) object.
+The **ADFederationService** object can be used to manage Active Directory Federation Services (ADFS) support. ADFS is a component available beginning with Windows Server 2003 R2 that enables a user to access multiple web applications during the life of a single online session. Using ADFS, organizations can share user identity within an organization and across federated organizations so that the users can access ADFS-configured resources. If ADFS is installed and enabled, an AD RMS server can grant content access to federated users. You can retrieve this object by calling the [**ADFederationService**](trustpolicy-adfederationservice-property.md) property on the [**TrustPolicy**](trustpolicy-object.md) object.
 
 ## Members
 
@@ -36,7 +39,7 @@ The **ADFederationService** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -123,7 +126,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -135,9 +138,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

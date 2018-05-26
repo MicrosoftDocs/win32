@@ -1,16 +1,21 @@
 ---
-Description: 'This topic demonstrates how to modify the pixels of a bitmap source using the IWICBitmap and IWICBitmapLock components.'
-ms.assetid: 'a08af015-bc42-4a31-af03-106714b08d08'
+Description: This topic demonstrates how to modify the pixels of a bitmap source using the IWICBitmap and IWICBitmapLock components.
+ms.assetid: a08af015-bc42-4a31-af03-106714b08d08
 title: How to Modify the Pixels of a Bitmap Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Modify the Pixels of a Bitmap Source
 
-This topic demonstrates how to modify the pixels of a bitmap source using the [**IWICBitmap**](-wic-codec-iwicbitmap.md) and [**IWICBitmapLock**](-wic-codec-iwicbitmaplock.md) components.
+This topic demonstrates how to modify the pixels of a bitmap source using the [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master) and [**IWICBitmapLock**](/windows/win32/Wincodec/nn-wincodec-iwicbitmaplock?branch=master) components.
 
 To modify the pixels of a bitmap source
 
-1.  Create an [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md) object to create Windows Imaging Component (WIC) objects.
+1.  Create an [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master) object to create Windows Imaging Component (WIC) objects.
 
     ```C++
     // Create WIC factory
@@ -24,7 +29,7 @@ To modify the pixels of a bitmap source
 
     
 
-2.  Use the [**CreateDecoderFromFilename**](-wic-codec-iwicimagingfactory-createdecoderfromfilename.md) method to create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from an image file.
+2.  Use the [**CreateDecoderFromFilename**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename?branch=master) method to create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from an image file.
 
     ```C++
     HRESULT hr = S_OK;
@@ -43,7 +48,7 @@ To modify the pixels of a bitmap source
 
     
 
-3.  Get the first [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) of the image.
+3.  Get the first [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) of the image.
 
     ```C++
     // Retrieve the first bitmap frame.
@@ -57,7 +62,7 @@ To modify the pixels of a bitmap source
 
     The JPEG file format only supports a single frame. Because the file in this example is a JPEG file, the first frame (`0`) is used. For image formats that have multiple frames, see [How to Retrieve the Frames of an Image](-wic-bitmapsources-howto-retrieveimageframes.md) for accessing each frame of the image.
 
-4.  Create an [**IWICBitmap**](-wic-codec-iwicbitmap.md) from the previously obtained image frame.
+4.  Create an [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master) from the previously obtained image frame.
 
     ```C++
     IWICBitmap *pIBitmap = NULL;
@@ -80,7 +85,7 @@ To modify the pixels of a bitmap source
 
     
 
-5.  Obtain an [**IWICBitmapLock**](-wic-codec-iwicbitmaplock.md) for a specified rectangle of the [**IWICBitmap**](-wic-codec-iwicbitmap.md).
+5.  Obtain an [**IWICBitmapLock**](/windows/win32/Wincodec/nn-wincodec-iwicbitmaplock?branch=master) for a specified rectangle of the [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master).
 
     ```C++
     if (SUCCEEDED(hr))
@@ -93,7 +98,7 @@ To modify the pixels of a bitmap source
 
     
 
-6.  Process the pixel data that is now locked by the [**IWICBitmapLock**](-wic-codec-iwicbitmaplock.md) object.
+6.  Process the pixel data that is now locked by the [**IWICBitmapLock**](/windows/win32/Wincodec/nn-wincodec-iwicbitmaplock?branch=master) object.
 
     ```C++
        if (SUCCEEDED(hr))
@@ -118,7 +123,7 @@ To modify the pixels of a bitmap source
 
     
 
-    To unlock the [**IWICBitmap**](-wic-codec-iwicbitmap.md), call [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx) on all [**IWICBitmapLock**](-wic-codec-iwicbitmaplock.md) objects associated with the **IWICBitmap**.
+    To unlock the [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master), call [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx) on all [**IWICBitmapLock**](/windows/win32/Wincodec/nn-wincodec-iwicbitmaplock?branch=master) objects associated with the **IWICBitmap**.
 
 7.  Clean up created objects.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the LSA Authentication Model.'
-ms.assetid: '0b2b868f-51a7-4f74-be4f-5f8db04d43ad'
+Description: Explains the LSA Authentication Model.
+ms.assetid: 0b2b868f-51a7-4f74-be4f-5f8db04d43ad
 title: LSA Authentication Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LSA Authentication Model

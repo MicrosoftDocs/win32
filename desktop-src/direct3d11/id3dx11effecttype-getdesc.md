@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectType GetDesc method
 description: Get an effect-type description.
-ms.assetid: '08a8a1b6-fe2d-431b-a0e4-d628f0ceb1a0'
-keywords: ["GetDesc method Direct3D 11", "GetDesc method Direct3D 11 , ID3DX11EffectType interface", "ID3DX11EffectType interface Direct3D 11 , GetDesc method"]
+ms.assetid: 08a8a1b6-fe2d-431b-a0e4-d628f0ceb1a0
+keywords:
+- GetDesc method Direct3D 11
+- GetDesc method Direct3D 11 , ID3DX11EffectType interface
+- ID3DX11EffectType interface Direct3D 11 , GetDesc method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectType::GetDesc method
@@ -23,7 +31,7 @@ Get an effect-type description.
 
 ```C++
 HRESULT GetDesc(
-   D3DX11_EFFECT_TYPE_DESC *pDesc
+   D3DX11_EFFECT_TYPE_DESC *pDesc
 );
 ```
 
@@ -55,7 +63,7 @@ The effect-variable description contains data about the name, annotations, seman
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ The effect-variable description contains data about the name, annotations, seman
 [ID3DX11EffectType](id3dx11effecttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

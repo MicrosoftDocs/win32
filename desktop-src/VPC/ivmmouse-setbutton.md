@@ -1,8 +1,11 @@
 ---
 title: IVMMouse SetButton method
 description: Sets the current state (up or down) of the specified mouse button.
-ms.assetid: '52b24472-68d6-4a42-8ae5-b1434a6d67f3'
-keywords: ["SetButton method Virtual PC", "SetButton method Virtual PC , IVMMouse interface", "IVMMouse interface Virtual PC , SetButton method"]
+ms.assetid: 52b24472-68d6-4a42-8ae5-b1434a6d67f3
+keywords:
+- SetButton method Virtual PC
+- SetButton method Virtual PC , IVMMouse interface
+- IVMMouse interface Virtual PC , SetButton method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMMouse::SetButton method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Sets the current state (up or down) of the specified mouse button.
 
@@ -24,8 +32,8 @@ Sets the current state (up or down) of the specified mouse button.
 
 ```C++
 HRESULT SetButton(
-  [in] VMMouseButton buttonIndex,
-  [in] VARIANT_BOOL  down
+  [in] VMMouseButton buttonIndex,
+  [in] VARIANT_BOOL  down
 );
 ```
 
@@ -65,7 +73,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +81,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMmouse is defined as ac903f6d-6346-4f29-8875-5d511a13895e<br/>                   |
@@ -89,9 +97,9 @@ This method can return one of these values.
 [**IVMMouse**](ivmmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

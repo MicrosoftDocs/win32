@@ -1,8 +1,15 @@
 ---
 title: Selecting Graphs to be Displayed
 description: Selecting Graphs to be Displayed
-ms.assetid: '619ab9d2-1423-4922-bf09-e6ec93469038'
-keywords: [".etl file", "frame list"]
+ms.assetid: 619ab9d2-1423-4922-bf09-e6ec93469038
+keywords:
+- .etl file
+- frame list
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting Graphs to be Displayed

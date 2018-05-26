@@ -1,7 +1,12 @@
 ---
-Description: 'The stackedby argument specifies the property column to stack results by. You can stack by any valid property from the property system.'
-ms.assetid: '7563bf34-b790-4cb0-94fa-31e771f34455'
+Description: The stackedby argument specifies the property column to stack results by. You can stack by any valid property from the property system.
+ms.assetid: 7563bf34-b790-4cb0-94fa-31e771f34455
 title: STACKEDBY Argument
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STACKEDBY Argument

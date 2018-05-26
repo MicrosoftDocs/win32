@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InitializePrintMonitor function is obsolete and is supported only for compatibility purposes.'
-ms.assetid: '825ae98b-74d7-4e41-944b-0dc77cc0cc51'
+---
+Description: The InitializePrintMonitor function is obsolete and is supported only for compatibility purposes.
+ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
 title: InitializePrintMonitor function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitializePrintMonitor function

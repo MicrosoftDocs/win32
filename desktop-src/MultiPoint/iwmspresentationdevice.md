@@ -4,11 +4,13 @@ description: Displays screen data on a monitor that is connected to the MultiPoi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f59c323c-95f7-46c6-999b-68de9b9e3f5c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f59c323c-95f7-46c6-999b-68de9b9e3f5c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IWmsPresentationDevice interface", "IWmsPresentationDevice interface, described"]
+keywords:
+- IWmsPresentationDevice interface
+- IWmsPresentationDevice interface, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IWmsPresentationDevice interface
@@ -46,7 +51,7 @@ The **IWmsPresentationDevice** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,7 +60,7 @@ The **IWmsPresentationDevice** interface has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsPresentationDevice is defined as 3fa4b1eb-eb6c-455e-a7ae-0861a26c8fc4<br/>          |
 
@@ -71,9 +76,9 @@ The **IWmsPresentationDevice** interface has these methods.
 [MultiPoint Interfaces](multipoint-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

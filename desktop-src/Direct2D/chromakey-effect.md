@@ -1,7 +1,12 @@
 ---
 title: Chroma-key Effect
 description: Converts a given color plus or minus a tolerance to alpha. For example, chroma-key can remove the background of an image for a green-screen overlay effect.
-ms.assetid: 'f7bb5c65-f406-f947-c05d-2756cff99d21'
+ms.assetid: f7bb5c65-f406-f947-c05d-2756cff99d21
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Chroma-key Effect
@@ -49,7 +54,7 @@ m_d2dContext->EndDraw();
 
 ## Effect Properties
 
-The properties for the chroma-key effect are defined by the [**D2D1\_CHROMAKEY\_PROP**](d2d1-chromakey-prop.md) enumeration.
+The properties for the chroma-key effect are defined by the [**D2D1\_CHROMAKEY\_PROP**](/windows/win32/d2d1effects_2/ne-d2d1effects_2-d2d1_chromakey_prop?branch=master) enumeration.
 
 ## Requirements
 
@@ -70,7 +75,7 @@ The properties for the chroma-key effect are defined by the [**D2D1\_CHROMAKEY\_
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

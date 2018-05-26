@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disables the use of post-processing camera plug-ins by the Source Reader.'
-ms.assetid: '837A6BA8-9C79-4B0A-B40D-C094009BFF2C'
-title: 'MF\_SOURCE\_READER\_DISABLE\_CAMERA\_PLUGINS attribute'
+---
+Description: Disables the use of post-processing camera plug-ins by the Source Reader.
+ms.assetid: 837A6BA8-9C79-4B0A-B40D-C094009BFF2C
+title: MF\_SOURCE\_READER\_DISABLE\_CAMERA\_PLUGINS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SOURCE\_READER\_DISABLE\_CAMERA\_PLUGINS attribute

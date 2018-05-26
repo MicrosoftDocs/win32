@@ -1,19 +1,24 @@
 ---
-Description: 'The GetStopPosition method retrieves the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaSeeking::GetStopPosition method.'
-ms.assetid: '11486371-da0a-4b83-956b-ef6b92721e74'
-title: 'CPosPassThru.GetStopPosition method'
+Description: The GetStopPosition method retrieves the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaSeekingGetStopPosition method.
+ms.assetid: 11486371-da0a-4b83-956b-ef6b92721e74
+title: CPosPassThru.GetStopPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.GetStopPosition method
 
-The `GetStopPosition` method retrieves the time at which the playback will stop, relative to the duration of the stream. This method implements the [**IMediaSeeking::GetStopPosition**](imediaseeking-getstopposition.md) method.
+The `GetStopPosition` method retrieves the time at which the playback will stop, relative to the duration of the stream. This method implements the [**IMediaSeeking::GetStopPosition**](/windows/win32/Strmif/nf-strmif-imediaseeking-getstopposition?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetStopPosition(
-   LONGLONG *pStop
+   LONGLONG *pStop
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Inclusion (MetricThresholdValue) element
 description: Indicates whether a comparison should be inclusive or exclusive.
-ms.assetid: '01F977EF-4FDE-4665-9951-BC638DA66230'
-keywords: ["Inclusion (MetricThresholdValue) element Access Execution Engine"]
+ms.assetid: 01F977EF-4FDE-4665-9951-BC638DA66230
+keywords:
+- Inclusion (MetricThresholdValue) element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Inclusion (MetricThresholdValue)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inclusion (MetricThresholdValue) element
@@ -71,9 +77,9 @@ InclusiveExclusive
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

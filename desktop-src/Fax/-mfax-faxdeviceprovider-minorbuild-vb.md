@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MinorBuild property is a value that specifies the minor part of the build number for the fax service provider (FSP) DLL.'
-ms.assetid: '60aad1c5-04b7-4e01-bbf2-400267cc98b8'
-title: 'FaxDeviceProvider.MinorBuild property'
+---
+Description: The MinorBuild property is a value that specifies the minor part of the build number for the fax service provider (FSP) DLL.
+ms.assetid: 60aad1c5-04b7-4e01-bbf2-400267cc98b8
+title: FaxDeviceProvider.MinorBuild property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.MinorBuild property
@@ -50,7 +55,7 @@ The standard format for build numbers is MajorVersion.MinorVersion.MajorBuild.Mi
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

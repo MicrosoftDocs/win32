@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutboundRoutingRule configuration object is used by a fax client application to set and retrieve information about an individual fax outbound routing rule.'
-ms.assetid: 'e027093a-314c-4292-b591-29c2bc58c031'
+---
+Description: The FaxOutboundRoutingRule configuration object is used by a fax client application to set and retrieve information about an individual fax outbound routing rule.
+ms.assetid: e027093a-314c-4292-b591-29c2bc58c031
 title: FaxOutboundRoutingRule object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRule object

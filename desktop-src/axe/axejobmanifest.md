@@ -1,14 +1,20 @@
 ---
 title: AxeJobManifest element
 description: Name of the root node of the assessment.
-ms.assetid: '640D2692-5E6B-48A2-9C93-CA2D8112CB79'
-keywords: ["AxeJobManifest element Access Execution Engine"]
+ms.assetid: 640D2692-5E6B-48A2-9C93-CA2D8112CB79
+keywords:
+- AxeJobManifest element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AxeJobManifest
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxeJobManifest element
@@ -70,9 +76,9 @@ There are no parent elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

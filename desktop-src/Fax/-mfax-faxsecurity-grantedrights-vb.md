@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GrantedRights property is a combination of the fax server access rights granted to the user referencing this property.'
-ms.assetid: '7fd4d1c0-3980-410a-8150-34461cbff59c'
-title: 'FaxSecurity.GrantedRights property'
+---
+Description: The GrantedRights property is a combination of the fax server access rights granted to the user referencing this property.
+ms.assetid: 7fd4d1c0-3980-410a-8150-34461cbff59c
+title: FaxSecurity.GrantedRights property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSecurity.GrantedRights property
@@ -21,13 +26,13 @@ Property GrantedRights As Integer
 
 ## Property value
 
-A variable of type [**FAX\_ACCESS\_RIGHTS\_ENUM**](-mfax-fax-access-rights-enum.md) that receives the bitwise combination of access rights granted to the user. For possible values, see **FAX\_ACCESS\_RIGHTS\_ENUM**.
+A variable of type [**FAX\_ACCESS\_RIGHTS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) that receives the bitwise combination of access rights granted to the user. For possible values, see **FAX\_ACCESS\_RIGHTS\_ENUM**.
 
 ## Remarks
 
-The **GrantedRights** property reflects rights granted by the fax server, while the [**Descriptor**](-mfax-faxsecurity-descriptor-cpp.md) property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator.
+The **GrantedRights** property reflects rights granted by the fax server, while the [**Descriptor**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxsecurity-get_descriptor?branch=master) property represents the security descriptor, which contains the rights explicitly granted to a user by the fax administrator.
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxSecurity**](-mfax-faxsecurity.md)
 </dt> <dt>
 
-[**IFaxSecurity**](-mfax-faxsecurity-cpp.md)
+[**IFaxSecurity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsecurity?branch=master)
 </dt> </dl>
 
  

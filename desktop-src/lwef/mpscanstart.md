@@ -1,8 +1,9 @@
 ---
 title: MpScanStart function
 description: Starts a scanning operation.
-ms.assetid: '3AF147C8-A41F-4193-AE28-72C1FBD18BA2'
-keywords: ["MpScanStart function Legacy Windows Environment Features"]
+ms.assetid: 3AF147C8-A41F-4193-AE28-72C1FBD18BA2
+keywords:
+- MpScanStart function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpScanStart function
@@ -22,12 +28,12 @@ Starts a scanning operation.
 
 ```C++
 HRESULT WINAPI MpScanStart(
-  _In_     MPHANDLE          hMpHandle,
-  _In_     MPSCAN_TYPE       ScanType,
-  _In_     DWORD             dwScanOptions,
-  _In_opt_ PMPSCAN_RESOURCES pScanResources,
-  _In_opt_ PMPCALLBACK_INFO  pCallbackInfo,
-  _Out_    PMPHANDLE         phScanHandle
+  _In_     MPHANDLE          hMpHandle,
+  _In_     MPSCAN_TYPE       ScanType,
+  _In_     DWORD             dwScanOptions,
+  _In_opt_ PMPSCAN_RESOURCES pScanResources,
+  _In_opt_ PMPCALLBACK_INFO  pCallbackInfo,
+  _Out_    PMPHANDLE         phScanHandle
 );
 ```
 
@@ -79,7 +85,7 @@ Specifies various options for scanning operation.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -117,7 +123,7 @@ A pointer to the callback information used to feed the client with scan state ch
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -144,8 +150,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -176,9 +182,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MPSCAN\_TYPE**](mpscan-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETITEMSTATE message
 description: Changes the state of an item in a list-view control. You can send this message explicitly or by using the ListView\_SetItemState macro.
-ms.assetid: 'aecd14dd-cfd0-4c7c-bddc-f65022de68c9'
-keywords: ["LVM_SETITEMSTATE message Windows Controls"]
+ms.assetid: aecd14dd-cfd0-4c7c-bddc-f65022de68c9
+keywords:
+- LVM_SETITEMSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETITEMSTATE message
 
-Changes the state of an item in a list-view control. You can send this message explicitly or by using the [**ListView\_SetItemState**](listview-setitemstate.md) macro.
+Changes the state of an item in a list-view control. You can send this message explicitly or by using the [**ListView\_SetItemState**](/windows/win32/Commctrl/nf-commctrl-listview_setitemstate?branch=master) macro.
 
 ## Parameters
 
@@ -31,7 +37,7 @@ Index of the list-view item. If this parameter is -1, then the state change is a
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**LVITEM**](lvitem.md) structure. The **stateMask** member specifies which state bits to change, and the **state** member contains the new values for those bits. The other members are ignored.
+Pointer to an [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure. The **stateMask** member specifies which state bits to change, and the **state** member contains the new values for those bits. The other members are ignored.
 
 </dd> </dl>
 
@@ -49,15 +55,15 @@ An item's state value includes a set of bit flags that indicate the item's state
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

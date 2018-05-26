@@ -1,7 +1,12 @@
 ---
-Description: 'Alignment of each buffer. The address of each buffer must be an even multiple of this value. The prefix must be calculated into the alignment; see CBaseAllocator::m\_lPrefix.'
-ms.assetid: '2b71b60a-feeb-4f09-bd56-e126eac8e150'
-title: 'CBaseAllocator::m\_lAlignment member'
+Description: Alignment of each buffer. The address of each buffer must be an even multiple of this value. The prefix must be calculated into the alignment; see CBaseAllocatorm\_lPrefix.
+ms.assetid: 2b71b60a-feeb-4f09-bd56-e126eac8e150
+title: CBaseAllocatorm\_lAlignment member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_lAlignment member
@@ -35,9 +40,9 @@ long m_lAlignment;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

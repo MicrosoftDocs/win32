@@ -1,8 +1,10 @@
 ---
 title: Win32\_OfflineFilesMachineConfiguration class
 description: Represents the Offline Files configuration for a computer.
-ms.assetid: '6a8b4c5e-12c9-490d-be7c-afa0dade714a'
-keywords: ["Win32_OfflineFilesMachineConfiguration class User State Manageability API", "Win32_OfflineFilesMachineConfiguration class User State Manageability API , described"]
+ms.assetid: 6a8b4c5e-12c9-490d-be7c-afa0dade714a
+keywords:
+- Win32_OfflineFilesMachineConfiguration class User State Manageability API
+- Win32_OfflineFilesMachineConfiguration class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_OfflineFilesMachineConfiguration class
@@ -39,21 +46,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_OfflineFilesMachineConfiguration
 {
-  boolean                          IsEffective;
-  boolean                          OfflineFilesCacheEncrypted;
-  boolean                          Enabled;
-  boolean                          SyncOnCostedNetworkEnabled;
-  boolean                          SlowLinkEnabled;
-  string                           SlowLinkParams[];
-  boolean                          BackgroundSyncEnabled;
+  boolean                          IsEffective;
+  boolean                          OfflineFilesCacheEncrypted;
+  boolean                          Enabled;
+  boolean                          SyncOnCostedNetworkEnabled;
+  boolean                          SlowLinkEnabled;
+  string                           SlowLinkParams[];
+  boolean                          BackgroundSyncEnabled;
   Win32_OfflineFilesBackgroundSync BackgroundSyncParams;
-  boolean                          EconomicalAdminPinningEnabled;
-  string                           ExcludedFileTypes[];
-  boolean                          DiskSpaceLimitEnabled;
+  boolean                          EconomicalAdminPinningEnabled;
+  string                           ExcludedFileTypes[];
+  boolean                          DiskSpaceLimitEnabled;
   Win32_OfflineFilesDiskSpaceLimit DiskSpaceLimitParams;
-  boolean                          WorkOfflineButtonRemoved;
-  boolean                          MakeAvailableOfflineButtonRemoved;
-  uint32                           TransparentCachingLatencyThreshold;
+  boolean                          WorkOfflineButtonRemoved;
+  boolean                          MakeAvailableOfflineButtonRemoved;
+  uint32                           TransparentCachingLatencyThreshold;
 };
 ```
 
@@ -282,7 +289,7 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -290,16 +297,16 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                              |
 | MOF<br/>                      | <dl> <dt>OfflineFilesConfigurationWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

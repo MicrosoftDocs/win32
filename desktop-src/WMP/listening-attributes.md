@@ -1,8 +1,18 @@
 ---
 title: Listening Attributes
 description: Listening Attributes
-ms.assetid: '51b10507-5c2e-49ca-b560-6db6a1a7ee87'
-keywords: ["Windows Media Player skins,listening attributes", "skins,listening attributes", "reference for skins,listening attributes", "listening attributes", "attributes,listening"]
+ms.assetid: 51b10507-5c2e-49ca-b560-6db6a1a7ee87
+keywords:
+- Windows Media Player skins,listening attributes
+- skins,listening attributes
+- reference for skins,listening attributes
+- listening attributes
+- attributes,listening
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listening Attributes

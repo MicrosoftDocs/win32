@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of scan profiles for the device.'
-ms.assetid: 'fb1f8884-28ef-460e-a8c4-b9608cc89dc6'
-title: 'IScanProfileMgr::GetNumProfilesforDeviceID method'
+---
+Description: Gets the number of scan profiles for the device.
+ms.assetid: fb1f8884-28ef-460e-a8c4-b9608cc89dc6
+title: IScanProfileMgrGetNumProfilesforDeviceID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfileMgr::GetNumProfilesforDeviceID method

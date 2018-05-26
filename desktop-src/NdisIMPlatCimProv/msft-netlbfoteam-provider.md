@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between an Lbfo team and its providers.'
-ms.assetid: 'dfb607e0-f315-445e-91a0-ed3d4f8434fb'
-title: 'MSFT\_NetLbfoTeam\_Provider class'
+Description: Represents an association between an Lbfo team and its providers.
+ms.assetid: dfb607e0-f315-445e-91a0-ed3d4f8434fb
+title: MSFT\_NetLbfoTeam\_Provider class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetLbfoTeam\_Provider class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MsNetImPlatform")]
 class MSFT_NetLbfoTeam_Provider : CIM_Component
 {
-  MSFT_NetLbfoTeam     REF GroupComponent;
+  MSFT_NetLbfoTeam     REF GroupComponent;
   MSFT_NetLbfoProvider REF PartComponent;
 };
 ```
@@ -71,17 +76,17 @@ The LbfoTeamProvider associated with the LbfoTeam.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>MsNetImPlatform.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NdisIMPlatCim.dll</dt> </dl>   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

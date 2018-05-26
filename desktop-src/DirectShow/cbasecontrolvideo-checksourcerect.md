@@ -1,7 +1,12 @@
 ---
-Description: 'Determines if a source rectangle is valid.'
-ms.assetid: '3fef107b-6f4c-4fab-91d3-6ab72dcc32be'
-title: 'CBaseControlVideo.CheckSourceRect method'
+Description: Determines if a source rectangle is valid.
+ms.assetid: 3fef107b-6f4c-4fab-91d3-6ab72dcc32be
+title: CBaseControlVideo.CheckSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.CheckSourceRect method
@@ -13,7 +18,7 @@ Determines if a source rectangle is valid.
 
 ```C++
 virtual HRESULT CheckSourceRect(
-   RECT *pSourceRect
+   RECT *pSourceRect
 );
 ```
 
@@ -56,9 +61,9 @@ This member function checks that the source rectangle requested does not exceed 
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

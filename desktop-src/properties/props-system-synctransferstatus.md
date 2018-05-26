@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'd82b93b3-2d33-4f89-8144-1f1b040a4d8b'
-title: 'System.SyncTransferStatus'
+Description: .
+ms.assetid: d82b93b3-2d33-4f89-8144-1f1b040a4d8b
+title: System.SyncTransferStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.SyncTransferStatus

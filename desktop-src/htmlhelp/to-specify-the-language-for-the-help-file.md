@@ -1,7 +1,12 @@
 ---
 title: To specify the language for the help file
 description: To specify the language for the help file
-ms.assetid: '419789DF-5125-4efb-8CEF-81D3F4590C82'
+ms.assetid: 419789DF-5125-4efb-8CEF-81D3F4590C82
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify the language for the help file
@@ -16,7 +21,7 @@ ms.assetid: '419789DF-5125-4efb-8CEF-81D3F4590C82'
 
     
 
-     
+     
 
 2.  Click the **General** tab, and then enter a language in the **Language** box.
 
@@ -27,9 +32,9 @@ ms.assetid: '419789DF-5125-4efb-8CEF-81D3F4590C82'
 [About Help Projects Files](create-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

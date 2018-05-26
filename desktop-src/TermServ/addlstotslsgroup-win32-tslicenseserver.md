@@ -1,14 +1,17 @@
 ---
 title: AddLStoTSLSGroup method of the Win32\_TSLicenseServer class
-description: Adds the Remote Desktop license server to the Remote Desktop Connection Broker (RD Connection Broker) License Servers group on a domain controller in the same domain as the Remote Desktop license server.
+description: Adds the Remote Desktop license server to the Remote Desktop Connection Broker (RD Connection Broker) License Servers group on a domain controller in the same domain as the Remote Desktop license server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65c6b7cf-324a-44f1-8dfc-40e35ed45d4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 65c6b7cf-324a-44f1-8dfc-40e35ed45d4f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AddLStoTSLSGroup method Remote Desktop Services", "AddLStoTSLSGroup method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , AddLStoTSLSGroup method"]
+keywords:
+- AddLStoTSLSGroup method Remote Desktop Services
+- AddLStoTSLSGroup method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , AddLStoTSLSGroup method
 topic_type:
 - apiref
 api_name:
@@ -17,11 +20,14 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddLStoTSLSGroup method of the Win32\_TSLicenseServer class
 
-Adds the Remote Desktop license server to the Remote Desktop Connection Broker (RD Connection Broker) License Servers group on a domain controller in the same domain as the Remote Desktop license server.
+Adds the Remote Desktop license server to the Remote Desktop Connection Broker (RD Connection Broker) License Servers group on a domain controller in the same domain as the Remote Desktop license server.
 
 ## Syntax
 
@@ -55,7 +61,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -72,9 +78,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**IsLSinTSLSGroup**](islsintslsgroup-win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the length of a 4D vector.'
-ms.assetid: 'cb332160-3e3d-41b9-bfb0-e3b743d2eafd'
+---
+Description: Returns the length of a 4D vector.
+ms.assetid: cb332160-3e3d-41b9-bfb0-e3b743d2eafd
 title: D3DXVec4Length function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Length function

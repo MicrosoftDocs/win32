@@ -4,11 +4,14 @@ description: Returns a formatted string that contains the text of an error numbe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5f0a5259-8356-4406-8612-34f4921184f0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 5f0a5259-8356-4406-8612-34f4921184f0
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["GetErrorMessage method Windows Remote Management", "GetErrorMessage method Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , GetErrorMessage method"]
+keywords:
+- GetErrorMessage method Windows Remote Management
+- GetErrorMessage method Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , GetErrorMessage method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.GetErrorMessage method
@@ -55,7 +61,7 @@ An error message string formatted like messages returned from the **Winrm** comm
 
 ## Remarks
 
-The corresponding C++ method is [**IWSManEx::GetErrorMessage**](iwsmanex-geterrormessage.md).
+The corresponding C++ method is [**IWSManEx::GetErrorMessage**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanex-geterrormessage?branch=master).
 
 ## Requirements
 
@@ -63,8 +69,8 @@ The corresponding C++ method is [**IWSManEx::GetErrorMessage**](iwsmanex-geterro
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -79,9 +85,9 @@ The corresponding C++ method is [**IWSManEx::GetErrorMessage**](iwsmanex-geterro
 [**WSMan**](wsman.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

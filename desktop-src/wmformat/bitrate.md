@@ -1,14 +1,20 @@
 ---
 title: Bitrate
 description: The Bitrate attribute is a file-level attribute containing the bit rate of the file in bits per second.
-ms.assetid: '35da0735-db39-4463-8dad-451a77a171b6'
-keywords: ["Bitrate windows Media Format"]
+ms.assetid: 35da0735-db39-4463-8dad-451a77a171b6
+keywords:
+- Bitrate windows Media Format
 topic_type:
 - apiref
 api_name:
 - Bitrate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitrate

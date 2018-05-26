@@ -1,7 +1,12 @@
 ---
-Description: 'The FindRelatedProducts action runs through each record of the Upgrade table in sequence and compares the upgrade code, product version, and language in each row to products installed on the system.'
-ms.assetid: '7efcb767-9bdf-43a4-83b8-61b6fc84adf6'
+Description: The FindRelatedProducts action runs through each record of the Upgrade table in sequence and compares the upgrade code, product version, and language in each row to products installed on the system.
+ms.assetid: 7efcb767-9bdf-43a4-83b8-61b6fc84adf6
 title: FindRelatedProducts Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FindRelatedProducts Action
@@ -22,7 +27,7 @@ The FindRelatedProducts action uses the [**UpgradeCode**](upgradecode.md) proper
 
 FindRelatedProducts only recognizes existing products that have been installed using the Windows Installer with an .msi that defines an [**UpgradeCode**](upgradecode.md) property, a [**ProductVersion**](productversion.md) property, and a value for the [**ProductLanguage**](productlanguage.md) property that is one of the languages listed in the [**Template Summary**](template-summary.md) Property.
 
-Note that FindRelatedProducts uses the language returned by [**MsiGetProductInfo**](msigetproductinfo.md). For FindRelatedProducts to work correctly, the package author must be sure that the [**ProductLanguage**](productlanguage.md) property in the [Property table](property-table.md) is set to a language that is also listed in the [**Template Summary**](template-summary.md) Property. See [Preparing an Application for Future Major Upgrades](preparing-an-application-for-future-major-upgrades.md).
+Note that FindRelatedProducts uses the language returned by [**MsiGetProductInfo**](/windows/win32/Msi/nf-msi-msigetproductinfoa?branch=master). For FindRelatedProducts to work correctly, the package author must be sure that the [**ProductLanguage**](productlanguage.md) property in the [Property table](property-table.md) is set to a language that is also listed in the [**Template Summary**](template-summary.md) Property. See [Preparing an Application for Future Major Upgrades](preparing-an-application-for-future-major-upgrades.md).
 
 ## Sequence Restrictions
 

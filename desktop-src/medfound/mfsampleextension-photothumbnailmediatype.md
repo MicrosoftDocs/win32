@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains the IMFMediaType which describes the image format type contained in the MFSampleExtension\_PhotoThumbnail attribute.'
-ms.assetid: 'BA727189-385D-4BA1-9F17-AC6ECDD20ABF'
-title: 'MFSampleExtension\_PhotoThumbnailMediaType attribute'
+---
+Description: Contains the IMFMediaType which describes the image format type contained in the MFSampleExtension\_PhotoThumbnail attribute.
+ms.assetid: BA727189-385D-4BA1-9F17-AC6ECDD20ABF
+title: MFSampleExtension\_PhotoThumbnailMediaType attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_PhotoThumbnailMediaType attribute
 
-Contains the [**IMFMediaType**](imfmediatype.md) which describes the image format type contained in the [MFSampleExtension\_PhotoThumbnail](mfsampleextension-photothumbnail.md) attribute.
+Contains the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) which describes the image format type contained in the [MFSampleExtension\_PhotoThumbnail](mfsampleextension-photothumbnail.md) attribute.
 
 ## Data type
 

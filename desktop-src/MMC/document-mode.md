@@ -1,14 +1,19 @@
 ---
 title: Document Mode property
-description: The Mode property sets or returns the document's mode. This property is read/write.
+description: The Mode property sets or returns the documents mode. This property is read/write.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eebc5a95-7464-49fb-aeca-b426f9b4aaec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: eebc5a95-7464-49fb-aeca-b426f9b4aaec
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Mode property MMC", "Mode property MMC , Document object", "Document object MMC , Mode property", "Mode property MMC , Document interface", "Document interface MMC , Mode property"]
+keywords:
+- Mode property MMC
+- Mode property MMC , Document object
+- Document object MMC , Mode property
+- Mode property MMC , Document interface
+- Document interface MMC , Mode property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Document::Mode property
@@ -119,8 +127,8 @@ objDoc.Mode = DocumentMode_User
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -138,9 +146,9 @@ objDoc.Mode = DocumentMode_User
 [Console File and User Mode Changes](console-file-and-user-mode-changes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

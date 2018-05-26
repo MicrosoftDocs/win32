@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxLoggingOptions configuration object is used by a fax client application to access and configure the event logging categories and the activity logging options that the fax service is using.'
-ms.assetid: '438e4e89-88c9-431d-b774-98e65cf57064'
+---
+Description: The FaxLoggingOptions configuration object is used by a fax client application to access and configure the event logging categories and the activity logging options that the fax service is using.
+ms.assetid: 438e4e89-88c9-431d-b774-98e65cf57064
 title: FaxLoggingOptions object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxLoggingOptions object
@@ -61,7 +66,7 @@ To create a **FaxLoggingOptions** object in Microsoft Visual Basic, call the [**
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxLoggingOptions**](-mfax-faxloggingoptions-cpp.md)
+[**IFaxLoggingOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxloggingoptions?branch=master)
 </dt> </dl>
 
  

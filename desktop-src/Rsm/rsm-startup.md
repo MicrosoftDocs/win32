@@ -1,7 +1,12 @@
 ---
-Description: 'RSM performs several tasks at startup time.'
-ms.assetid: '0df87a69-39c7-4fdd-a710-1b5e269aca14'
+Description: RSM performs several tasks at startup time.
+ms.assetid: 0df87a69-39c7-4fdd-a710-1b5e269aca14
 title: RSM Startup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM Startup

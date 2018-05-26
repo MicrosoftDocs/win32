@@ -4,11 +4,15 @@ description: The File Classification Infrastructure (FCI) provides a set of clas
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'C53AD469-5740-45EE-B2B6-3D0CD12B1E31'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: C53AD469-5740-45EE-B2B6-3D0CD12B1E31
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , custom file classification"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , custom file classification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to create a custom file classification mechanism

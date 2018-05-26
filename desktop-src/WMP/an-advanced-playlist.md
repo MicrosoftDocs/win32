@@ -1,8 +1,35 @@
 ---
 title: An Advanced Playlist
 description: An Advanced Playlist
-ms.assetid: '3f27562f-bc3b-4b7f-a83b-78317d3ad612'
-keywords: ["Windows Media metafile playlists,playlist examples", "playlists,playlist examples", "metafile playlists,playlist examples", "Windows Media metafile playlists,example playlists", "playlists,example playlists", "metafile playlists,example playlists", "Windows Media metafile playlists,sample playlists", "playlists,sample playlists", "metafile playlists,sample playlists", "Windows Media metafile playlists,code example", "playlists,code example", "metafile playlists,code example", "Windows Media metafile playlists,advanced playlist example", "playlists,advanced playlist example", "metafile playlists,advanced playlist example", "Windows Media Player,playlist examples", "Windows Media Player,example playlists", "Windows Media Player,sample playlists", "Windows Media Player,advanced playlist example", "playlist examples", "example playlists", "sample playlists"]
+ms.assetid: 3f27562f-bc3b-4b7f-a83b-78317d3ad612
+keywords:
+- Windows Media metafile playlists,playlist examples
+- playlists,playlist examples
+- metafile playlists,playlist examples
+- Windows Media metafile playlists,example playlists
+- playlists,example playlists
+- metafile playlists,example playlists
+- Windows Media metafile playlists,sample playlists
+- playlists,sample playlists
+- metafile playlists,sample playlists
+- Windows Media metafile playlists,code example
+- playlists,code example
+- metafile playlists,code example
+- Windows Media metafile playlists,advanced playlist example
+- playlists,advanced playlist example
+- metafile playlists,advanced playlist example
+- Windows Media Player,playlist examples
+- Windows Media Player,example playlists
+- Windows Media Player,sample playlists
+- Windows Media Player,advanced playlist example
+- playlist examples
+- example playlists
+- sample playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # An Advanced Playlist
@@ -96,7 +123,7 @@ The following table describes the preceding advanced playlist.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -117,9 +144,9 @@ The following table describes the preceding advanced playlist.
 [**Windows Media Metafile Guide**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

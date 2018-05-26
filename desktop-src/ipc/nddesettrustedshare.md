@@ -1,12 +1,17 @@
 ---
-Description: 'Grants the specified DDE share trusted status within the current user's context.'
-ms.assetid: '508d3603-468c-4ecb-8e5c-0ab86c2ff3b4'
+Description: Grants the specified DDE share trusted status within the current users context.
+ms.assetid: 508d3603-468c-4ecb-8e5c-0ab86c2ff3b4
 title: NDdeSetTrustedShare function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeSetTrustedShare function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Grants the specified DDE share trusted status within the current user's context.
 
@@ -15,9 +20,9 @@ Grants the specified DDE share trusted status within the current user's context.
 
 ```C++
 UINT NDdeSetTrustedShare(
-  _In_ LPTSTR lpszServer,
-  _In_ LPTSTR lpszShareName,
-  _In_ DWORD  dwTrustOptions
+  _In_ LPTSTR lpszServer,
+  _In_ LPTSTR lpszShareName,
+  _In_ DWORD  dwTrustOptions
 );
 ```
 
@@ -58,7 +63,7 @@ The options affecting the trusted status of the DDE share. This parameter can be
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -80,8 +85,8 @@ If **NDdeSetTrustedShare** is called with *dwTrustOptions* set to zero, the trus
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -102,9 +107,9 @@ If **NDdeSetTrustedShare** is called with *dwTrustOptions* set to zero, the trus
 [**NDdeShareAdd**](nddeshareadd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,29 @@
 ---
 title: ToolTip Control Type
 description: This topic provides information about Microsoft UI Automation support for the ToolTip control type. Tooltip controls are pop-up windows that contain text.
-ms.assetid: '810f85a9-4d3b-4ceb-bd2c-bf70e8712ae2'
-keywords: ["UI Automation,support for ToolTip control type", "UI Automation,ToolTip control type", "UI Automation,tree structure for ToolTip control type", "UI Automation,properties for ToolTip control type", "UI Automation,control patterns for ToolTip control type", "UI Automation,events for ToolTip control type", "tree structures,ToolTip control type", "properties,ToolTip control type", "control patterns,ToolTip control type", "events,ToolTip control type", "support for ToolTip control type", "ToolTip control type", "control types,tree structure for ToolTip control type", "control types,control patterns for ToolTip control type", "control types,support for ToolTip", "control types,ToolTip"]
+ms.assetid: 810f85a9-4d3b-4ceb-bd2c-bf70e8712ae2
+keywords:
+- UI Automation,support for ToolTip control type
+- UI Automation,ToolTip control type
+- UI Automation,tree structure for ToolTip control type
+- UI Automation,properties for ToolTip control type
+- UI Automation,control patterns for ToolTip control type
+- UI Automation,events for ToolTip control type
+- tree structures,ToolTip control type
+- properties,ToolTip control type
+- control patterns,ToolTip control type
+- events,ToolTip control type
+- support for ToolTip control type
+- ToolTip control type
+- control types,tree structure for ToolTip control type
+- control types,control patterns for ToolTip control type
+- control types,support for ToolTip
+- control types,ToolTip
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ToolTip Control Type
@@ -56,7 +77,7 @@ The following table depicts a typical control and content view of the UI Automat
 
  
 
-Tooltip controls appear only in the content view of the UI Automation tree if they can receive keyboard focus. Otherwise, all of the tooltip's information is available from the [**IUIAutomationElement::CurrentHelpText**](uiauto-iuiautomationelement-currenthelptext.md) (or [**CachedHelpText**](uiauto-iuiautomationelement-cachedhelptext.md)) property on the element that the tooltip is referring to.
+Tooltip controls appear only in the content view of the UI Automation tree if they can receive keyboard focus. Otherwise, all of the tooltip's information is available from the [**IUIAutomationElement::CurrentHelpText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext?branch=master) (or [**CachedHelpText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext?branch=master)) property on the element that the tooltip is referring to.
 
 Tooltips should appear beneath the control to which their information is referring. Clients must listen for the [**UIA\_ToolTipOpenedEventId**](uiauto-event-ids.md#uia-tooltipopenedeventid) to ensure that they consistently obtain information contained in tooltips.
 
@@ -72,7 +93,7 @@ The following table lists the UI Automation properties whose value or definition
 | [**UIA\_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md#uia-boundingrectanglepropertyid)       | See notes.  | The outermost rectangle that contains the whole control.                                                                                                                                                                                                                                                                                                       |
 | [**UIA\_ClickablePointPropertyId**](uiauto-automation-element-propids.md#uia-clickablepointpropertyid)             | See notes.  | The clickable point should be the part of the tooltip that dismisses the control. Some tooltips do not have this ability and will not have a clickable point.                                                                                                                                                                                                  |
 | [**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md#uia-controltypepropertyid)                   | **ToolTip** |                                                                                                                                                                                                                                                                                                                                                                |
-| [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid)         | Depends     | If the tooltip control can receive keyboard focus, it must appear in the content view of the tree. If it is text only, it is available as the [**IUIAutomationElement::CurrentHelpText**](uiauto-iuiautomationelement-currenthelptext.md) (or [**CachedHelpText**](uiauto-iuiautomationelement-cachedhelptext.md)) property from the control that raised it. |
+| [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid)         | Depends     | If the tooltip control can receive keyboard focus, it must appear in the content view of the tree. If it is text only, it is available as the [**IUIAutomationElement::CurrentHelpText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext?branch=master) (or [**CachedHelpText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext?branch=master)) property from the control that raised it. |
 | [**UIA\_IsControlElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontrolelementpropertyid)         | True        | The tooltip control is always included in the control view of the UI Automation tree.                                                                                                                                                                                                                                                                          |
 | [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)   | See notes.  | If the control can receive keyboard focus, it must support this property.                                                                                                                                                                                                                                                                                      |
 | [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md#uia-labeledbypropertyid)                       | NULL        | Tooltip controls are always self-labeled by their contents.                                                                                                                                                                                                                                                                                                    |
@@ -91,8 +112,8 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                   | Support | Notes                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ITextProvider**](uiauto-itextprovider.md)     | Depends | For better accessibility, a tooltip control can support the [Text](uiauto-implementingtextandtextrange.md) control pattern, although it is not required. The Text control pattern is useful when the text has rich style and attributes (for example, color, bold, and italics). |
-| [**IWindowProvider**](uiauto-iwindowprovider.md) | Depends | Tooltips that can be closed by clicking a UI item must support the [Window](uiauto-implementingwindow.md) control pattern so that they can closed automatically.                                                                                                                 |
+| [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master)     | Depends | For better accessibility, a tooltip control can support the [Text](uiauto-implementingtextandtextrange.md) control pattern, although it is not required. The Text control pattern is useful when the text has rich style and attributes (for example, color, bold, and italics). |
+| [**IWindowProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iwindowprovider?branch=master) | Depends | Tooltips that can be closed by clicking a UI item must support the [Window](uiauto-implementingwindow.md) control pattern so that they can closed automatically.                                                                                                                 |
 
 
 

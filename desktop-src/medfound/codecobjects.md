@@ -1,7 +1,12 @@
 ---
 Description: Codec Objects
-ms.assetid: 'c944e5df-c375-4bad-92dc-bb3d8c09b1b3'
+ms.assetid: c944e5df-c375-4bad-92dc-bb3d8c09b1b3
 title: Codec Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Codec Objects

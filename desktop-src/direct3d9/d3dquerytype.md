@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies the query type.'
-ms.assetid: '575c4e71-3cab-4123-a2a5-d23b53e87111'
+---
+Description: Identifies the query type.
+ms.assetid: 575c4e71-3cab-4123-a2a5-d23b53e87111
 title: D3DQUERYTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DQUERYTYPE enumeration
@@ -169,7 +174,7 @@ Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemory
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateQuery**](idirect3ddevice9--createquery.md)
+[**IDirect3DDevice9::CreateQuery**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createquery?branch=master)
 </dt> </dl>
 
  

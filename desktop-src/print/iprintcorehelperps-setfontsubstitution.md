@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperPS::SetFontSubstitution method specifies the device font to print in place of a given TrueType font.'
-ms.assetid: '2f3b47db-8e4e-4a76-a08a-acd2b903247e'
-title: 'IPrintCoreHelperPS::SetFontSubstitution method'
+---
+Description: The IPrintCoreHelperPSSetFontSubstitution method specifies the device font to print in place of a given TrueType font.
+ms.assetid: 2f3b47db-8e4e-4a76-a08a-acd2b903247e
+title: IPrintCoreHelperPSSetFontSubstitution method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS::SetFontSubstitution method

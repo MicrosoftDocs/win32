@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the PageInitLeave event.'
+---
+Description: The event type class for the PageInitLeave event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3ef51945-9eae-4c78-884f-74083ec1f6a8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3ef51945-9eae-4c78-884f-74083ec1f6a8
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPageInitLeave class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPageInitLeave class

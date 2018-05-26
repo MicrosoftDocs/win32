@@ -1,12 +1,17 @@
 ---
-Description: 'The name of the PatBlt function (an abbreviation for pattern block transfer) implies that this function simply replicates the brush (or pattern) until it fills a specified rectangle.'
-ms.assetid: '601e1e79-a328-4e63-958a-ca26129e03f8'
+Description: The name of the PatBlt function (an abbreviation for pattern block transfer) implies that this function simply replicates the brush (or pattern) until it fills a specified rectangle.
+ms.assetid: 601e1e79-a328-4e63-958a-ca26129e03f8
 title: Pattern Block Transfer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pattern Block Transfer
 
-The name of the [**PatBlt**](patblt.md) function (an abbreviation for pattern block transfer) implies that this function simply replicates the brush (or pattern) until it fills a specified rectangle. However, the function is actually much more powerful. Before replicating the brush, it combines the color data for the pattern with the color data for the existing pixels on the video display by using a raster operation (ROP). An ROP is a bitwise operation that is applied to the bits of color data for the replicated brush and the bits of color data for the target rectangle on the display device. There are 256 ROPs; however, the **PatBlt** function recognizes only those that require a pattern and a destination (not those that require a source). The following table identifies the most common ROPs.
+The name of the [**PatBlt**](/windows/win32/Wingdi/nf-wingdi-patblt?branch=master) function (an abbreviation for pattern block transfer) implies that this function simply replicates the brush (or pattern) until it fills a specified rectangle. However, the function is actually much more powerful. Before replicating the brush, it combines the color data for the pattern with the color data for the existing pixels on the video display by using a raster operation (ROP). An ROP is a bitwise operation that is applied to the bits of color data for the replicated brush and the bits of color data for the target rectangle on the display device. There are 256 ROPs; however, the **PatBlt** function recognizes only those that require a pattern and a destination (not those that require a source). The following table identifies the most common ROPs.
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Hyper-V server provides a scalable, reliable, and highly available virtual machine management environment. Hyper-V virtual machine software consolidates servers and development and testing environments.'
-ms.assetid: '3359A33F-528B-4955-8B37-30523B8AD33A'
-title: 'Hyper-V WMI provider (V2)'
+Description: Microsoft Hyper-V server provides a scalable, reliable, and highly available virtual machine management environment. Hyper-V virtual machine software consolidates servers and development and testing environments.
+ms.assetid: 3359A33F-528B-4955-8B37-30523B8AD33A
+title: Hyper-V WMI provider (V2)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V WMI provider (V2)
@@ -30,14 +35,14 @@ Hyper-V provides a scalable, reliable, and highly available virtualized server c
 | [Hyper-V migration API](hyper-v-storage-migration-api.md)<br/>                                 | The Hyper-V migration API is used to control storage and live migration in Hyper-V.<br/>                                                                                                                                           |
 | [Hyper-V virtual Fibre Channel API](hyper-v-virtual-fiber-channels-api.md)<br/>                | The Hyper-V virtual Fibre Channel API is used to control virtual Fibre Channel adapters in Hyper-V.<br/>                                                                                                                           |
 | [Hyper-V VM placement API](hyper-v-vm-placement-api.md)<br/>                                   | The Hyper-V virtual machine (VM) placement API contains the compatibility info for the VMs or hosting computer system.<br/>                                                                                                        |
-| [Threshold classes](threshold-classes.md)<br/>                                                 | Contains the classes introduced in Windows 10.<br/>                                                                                                                                                                                |
-| [RS2 Classes](redstone-classes.md)<br/>                                                        | Contains the new classes for Windows 10, version 1703.<br/>                                                                                                                                                                        |
-| [RS3 Classes](rs3-classes.md)<br/>                                                             | Contains the new classes for Windows 10, version 1709.<br/>                                                                                                                                                                        |
+| [Threshold classes](threshold-classes.md)<br/>                                                 | Contains the classes introduced in Windows 10.<br/>                                                                                                                                                                                |
+| [RS2 Classes](redstone-classes.md)<br/>                                                        | Contains the new classes for Windows 10, version 1703.<br/>                                                                                                                                                                        |
+| [RS3 Classes](rs3-classes.md)<br/>                                                             | Contains the new classes for Windows 10, version 1709.<br/>                                                                                                                                                                        |
 | [Hyper-V glossary](virtualization-glossary.md)<br/>                                            | Glossary of terms used in the Windows Virtualization SDK documentation.<br/>                                                                                                                                                       |
 
 
 
- 
+ 
 
 ## Run-time requirements
 
@@ -56,9 +61,9 @@ Hyper-V services require an x64-based system that supports hardware-assisted vir
 [Windows Server Virtualization](http://go.microsoft.com/fwlink/p/?linkid=104682)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

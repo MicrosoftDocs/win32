@@ -1,14 +1,21 @@
 ---
 title: IMediaTransform interface
 description: The IMediaTransform interface is implemented by the transform and called by Windows Movie Maker.
-ms.assetid: 'ef828d2f-5c2f-4a8b-85a1-185df9248e80'
-keywords: ["IMediaTransform interface Windows Movie Maker and DVD Maker", "IMediaTransform interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: ef828d2f-5c2f-4a8b-85a1-185df9248e80
+keywords:
+- IMediaTransform interface Windows Movie Maker and DVD Maker
+- IMediaTransform interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - IMediaTransform
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaTransform interface
@@ -39,7 +46,7 @@ The **IMediaTransform** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -48,9 +55,9 @@ The **IMediaTransform** interface has these methods.
 [**Transform Interfaces**](transform-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

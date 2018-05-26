@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the maximum dimensions of texture convolution filters.'
-ms.assetid: 'bc7c36fd-b905-47e7-a38f-1139a8337121'
+Description: Specifies the maximum dimensions of texture convolution filters.
+ms.assetid: bc7c36fd-b905-47e7-a38f-1139a8337121
 title: D3DCONVOLUTIONMONO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCONVOLUTIONMONO

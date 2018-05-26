@@ -1,7 +1,12 @@
 ---
-Description: 'An effect variable is declared with the following syntax.'
-ms.assetid: '53939c65-3725-44cc-bec6-775c3b921770'
-title: 'Effect Variable Syntax (Direct3D 10)'
+Description: An effect variable is declared with the following syntax.
+ms.assetid: 53939c65-3725-44cc-bec6-775c3b921770
+title: Effect Variable Syntax (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Variable Syntax (Direct3D 10)

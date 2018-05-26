@@ -4,11 +4,16 @@ description: The Left property sets or returns the left coordinate of the frame.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7eca952d-4ade-49df-abe0-cf1845c65507'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7eca952d-4ade-49df-abe0-cf1845c65507
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Left property MMC", "Left property MMC , Frame object", "Frame object MMC , Left property", "Left property MMC , Frame interface", "Frame interface MMC , Left property"]
+keywords:
+- Left property MMC
+- Left property MMC , Frame object
+- Frame object MMC , Left property
+- Left property MMC , Frame interface
+- Frame interface MMC , Left property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Frame::Left property
@@ -52,8 +60,8 @@ MsgBox ("Frame's left coordinate is " & objFrame.Left)
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -61,9 +69,9 @@ MsgBox ("Frame's left coordinate is " & objFrame.Left)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Enables management of a network controller server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '763c7dc1-9042-4424-b7a0-89d1001e4d1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 763c7dc1-9042-4424-b7a0-89d1001e4d1b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Controller Server WMI Provider

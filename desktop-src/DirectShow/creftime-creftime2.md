@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '039f57b2-0b5a-4087-b252-a9b8bbb7f284'
-title: 'CRefTime.CRefTime constructor'
+Description: Constructor method.
+ms.assetid: 039f57b2-0b5a-4087-b252-a9b8bbb7f284
+title: CRefTime.CRefTime constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRefTime.CRefTime constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CRefTime(
-   LONG msecs
+   LONG msecs
 );
 ```
 
@@ -41,9 +46,9 @@ Time in milliseconds.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

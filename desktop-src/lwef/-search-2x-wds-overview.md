@@ -1,7 +1,12 @@
 ---
 title: Windows Desktop Search 2.x
 description: The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of Windows Search.
-ms.assetid: '3d73f850-58b8-4a41-8863-e2914661d4b9'
+ms.assetid: 3d73f850-58b8-4a41-8863-e2914661d4b9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Desktop Search 2.x

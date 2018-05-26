@@ -1,8 +1,11 @@
 ---
 title: Network.setProxyBypassForLocal method
 description: The setProxyBypassForLocal method specifies a value indicating whether the proxy server is bypassed if the origin server is on a local network.
-ms.assetid: '4477bc81-e52b-4924-a31b-6f005a5bd158'
-keywords: ["setProxyBypassForLocal method Windows Media Player", "setProxyBypassForLocal method Windows Media Player , Network class", "Network class Windows Media Player , setProxyBypassForLocal method"]
+ms.assetid: 4477bc81-e52b-4924-a31b-6f005a5bd158
+keywords:
+- setProxyBypassForLocal method Windows Media Player
+- setProxyBypassForLocal method Windows Media Player , Network class
+- Network class Windows Media Player , setProxyBypassForLocal method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.setProxyBypassForLocal method
@@ -102,9 +110,9 @@ alert("Proxy settings must be manual!");
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

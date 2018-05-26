@@ -1,7 +1,12 @@
 ---
 title: ld (sm4 - asm)
 description: Fetches data from the specified buffer or texture without any filtering (e.g. point sampling) using the provided integer address. The source data may come from any resource type, other than TextureCube.
-ms.assetid: 'DEE9A55F-EDFE-478E-8169-5BF9C43E98AF'
+ms.assetid: DEE9A55F-EDFE-478E-8169-5BF9C43E98AF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ld (sm4 - asm)
@@ -15,7 +20,7 @@ Fetches data from the specified buffer or texture without any filtering (e.g. po
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Fetches data from the specified buffer or texture without any filtering (e.g. po
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,7 +93,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -107,7 +112,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -116,9 +121,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

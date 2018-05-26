@@ -1,7 +1,12 @@
 ---
-Description: 'One interesting new feature of Tablet PC is the pen input system.'
-ms.assetid: '8432617a-5ae7-44cb-a5f7-f3b2d8885846'
-title: 'Pen Input, Ink, and Recognition'
+Description: One interesting new feature of Tablet PC is the pen input system.
+ms.assetid: 8432617a-5ae7-44cb-a5f7-f3b2d8885846
+title: Pen Input, Ink, and Recognition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pen Input, Ink, and Recognition

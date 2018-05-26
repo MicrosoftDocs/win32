@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '0057adfe-e397-476b-90f9-7edbf7377b65'
-title: 'CAMThread.CAMThread constructor'
+Description: Constructor method.
+ms.assetid: 0057adfe-e397-476b-90f9-7edbf7377b65
+title: CAMThread.CAMThread constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.CAMThread constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CAMThread(
-   HRESULT *phr = NULL
+   HRESULT *phr = NULL
 );
 ```
 
@@ -54,9 +59,9 @@ The constructor method does not create the thread. To create the thread, call th
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

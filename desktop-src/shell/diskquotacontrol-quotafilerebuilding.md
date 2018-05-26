@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a Boolean value that indicates whether the quota file for the volume is currently being rebuilt.'
-ms.assetid: '66a6bafe-bda4-41b3-9207-2ea6b8e63835'
-title: 'DiskQuotaControl.QuotaFileRebuilding property'
+---
+Description: Gets a Boolean value that indicates whether the quota file for the volume is currently being rebuilt.
+ms.assetid: 66a6bafe-bda4-41b3-9207-2ea6b8e63835
+title: DiskQuotaControl.QuotaFileRebuilding property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.QuotaFileRebuilding property

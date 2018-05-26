@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetTimeline method retrieves the timeline to which this group belongs.'
-ms.assetid: 'a57d75c9-6e2e-426f-9403-ad32188b2211'
-title: 'IAMTimelineGroup::GetTimeline method'
+---
+Description: The GetTimeline method retrieves the timeline to which this group belongs.
+ms.assetid: a57d75c9-6e2e-426f-9403-ad32188b2211
+title: IAMTimelineGroupGetTimeline method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::GetTimeline method

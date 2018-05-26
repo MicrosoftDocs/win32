@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an object containing information about the sender of the fax document.'
-ms.assetid: 'f5489323-3c91-4de9-963b-0a1d3ae5f01a'
-title: 'FaxDocument.Sender property'
+---
+Description: Retrieves an object containing information about the sender of the fax document.
+ms.assetid: f5489323-3c91-4de9-963b-0a1d3ae5f01a
+title: FaxDocument.Sender property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.Sender property
@@ -21,7 +26,7 @@ Property Sender As IFaxSender
 
 ## Property value
 
-A variable of type [**IFaxSender**](-mfax-faxsender-cpp.md) that receives a [**FaxSender**](-mfax-faxsender.md) object.
+A variable of type [**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master) that receives a [**FaxSender**](-mfax-faxsender.md) object.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A variable of type [**IFaxSender**](-mfax-faxsender-cpp.md) that receives a [**F
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

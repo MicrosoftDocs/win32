@@ -1,7 +1,12 @@
 ---
-Description: 'The following section contains information that illustrates how to perform the following tasks.'
-ms.assetid: 'c660fcfa-77f3-417c-b3ec-53689ff4561f'
+Description: The following section contains information that illustrates how to perform the following tasks.
+ms.assetid: c660fcfa-77f3-417c-b3ec-53689ff4561f
 title: Fax Service Provider API Examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Provider API Examples

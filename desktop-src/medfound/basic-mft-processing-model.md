@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how a client uses a Media Foundation transform (MFT) to process data. The client is anything that directly calls methods on the MFT. This might be the application or the Media Foundation pipeline.'
-ms.assetid: 'be977d75-999e-4e57-9672-00a89246a2c1'
+Description: This topic describes how a client uses a Media Foundation transform (MFT) to process data. The client is anything that directly calls methods on the MFT. This might be the application or the Media Foundation pipeline.
+ms.assetid: be977d75-999e-4e57-9672-00a89246a2c1
 title: Basic MFT Processing Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic MFT Processing Model
@@ -37,8 +42,8 @@ This topic describes a *synchronous* processing model. In this model, all data-p
 
 There are several ways to create an MFT:
 
--   Call the [**MFTEnum**](mftenum.md) function.
--   Call the [**MFTEnumEx**](mftenumex.md) function.
+-   Call the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) function.
+-   Call the [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function.
 -   If you already know the CLSID of the MFT, simply call **CoCreateInstance**.
 
 Some MFTs might provide other options, such as a specialized creation function.
@@ -49,10 +54,10 @@ An MFT has one or more *streams*. Input streams receive input data, and output s
 
 Some MFTs allow the client to add or remove input streams. During streaming, an MFT can add or remove output streams. (The client cannot add or remove output streams.)
 
-1.  (Optional.) Call [**IMFTransform::GetStreamLimits**](imftransform-getstreamlimits.md) to get the minimum and maximum number of streams that the MFT can support. If the minimum and maximum are the same, the MFT has a fixed number of streams.
-2.  Call [**IMFTransform::GetStreamCount**](imftransform-getstreamcount.md) to get the initial number of streams.
-3.  Call [**IMFTransform::GetStreamIDs**](imftransform-getstreamids.md) to get the stream identifiers. If this method returns E\_NOTIMPL, it means the MFT has a fixed number of streams, and the stream identifiers are consecutive starting from zero.
-4.  (Optional.) If the MFT does not have a fixed number of streams, call [**IMFTransform::AddInputStreams**](imftransform-addinputstreams.md) to add more input streams, or [**IMFTransform::DeleteInputStream**](imftransform-deleteinputstream.md) to remove input streams. (You cannot add or remove output streams.)
+1.  (Optional.) Call [**IMFTransform::GetStreamLimits**](/windows/win32/mftransform/nf-mftransform-imftransform-getstreamlimits?branch=master) to get the minimum and maximum number of streams that the MFT can support. If the minimum and maximum are the same, the MFT has a fixed number of streams.
+2.  Call [**IMFTransform::GetStreamCount**](/windows/win32/mftransform/nf-mftransform-imftransform-getstreamcount?branch=master) to get the initial number of streams.
+3.  Call [**IMFTransform::GetStreamIDs**](/windows/win32/mftransform/nf-mftransform-imftransform-getstreamids?branch=master) to get the stream identifiers. If this method returns E\_NOTIMPL, it means the MFT has a fixed number of streams, and the stream identifiers are consecutive starting from zero.
+4.  (Optional.) If the MFT does not have a fixed number of streams, call [**IMFTransform::AddInputStreams**](/windows/win32/mftransform/nf-mftransform-imftransform-addinputstreams?branch=master) to add more input streams, or [**IMFTransform::DeleteInputStream**](/windows/win32/mftransform/nf-mftransform-imftransform-deleteinputstream?branch=master) to remove input streams. (You cannot add or remove output streams.)
 
 ### Set Media Types
 
@@ -62,45 +67,45 @@ An MFT can provide a list of preferred media types for a stream. Also, MFTs can 
 
 To set the media types, do the following:
 
-1.  (Optional.) For each input stream, call [**IMFTransform::GetInputAvailableType**](imftransform-getinputavailabletype.md) to get the list of preferred types for that stream.
+1.  (Optional.) For each input stream, call [**IMFTransform::GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master) to get the list of preferred types for that stream.
     -   If this method returns MF\_E\_TRANSFORM\_TYPE\_NOT\_SET, you must set the output types first; skip to step 3.
     -   If the method returns E\_NOTIMPL, the MFT does not have a list of preferred input types; skip to step 2.
-2.  For each input stream, call [**IMFTransform::SetInputType**](imftransform-setinputtype.md) to set the input type. You can use a media type from step 1, or a type that describes your input data. If any stream returns MF\_E\_TRANSFORM\_TYPE\_NOT\_SET, skip to step 3.
-3.  (Optional.) For each output stream, call [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) to get a list of preferred types for that stream.
+2.  For each input stream, call [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) to set the input type. You can use a media type from step 1, or a type that describes your input data. If any stream returns MF\_E\_TRANSFORM\_TYPE\_NOT\_SET, skip to step 3.
+3.  (Optional.) For each output stream, call [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) to get a list of preferred types for that stream.
     -   If this method returns MF\_E\_TRANSFORM\_TYPE\_NOT\_SET, you must set the input types first; go back to step 1.
     -   If any stream returns E\_NOTIMPL, the MFT does not have a list of preferred output types; skip to step 4.
-4.  For each output stream, call [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) to set the output type. You can use a media type from step 3, or a type that describes your required output format.
+4.  For each output stream, call [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) to set the output type. You can use a media type from step 3, or a type that describes your required output format.
 5.  If any input streams do not have a media type, go back to step 1.
 
 ### Get Buffer Requirements
 
 After the client sets the media types, it should get the buffer requirements for each stream:
 
--   For each input stream, call [**IMFTransform::GetInputStreamInfo**](imftransform-getinputstreaminfo.md).
--   For each output stream, call [**IMFTransform::GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md).
+-   For each input stream, call [**IMFTransform::GetInputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreaminfo?branch=master).
+-   For each output stream, call [**IMFTransform::GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master).
 
 ### Process Data
 
 An MFT is designed to be a reliable state machine. It does not make any calls back to the client.
 
-1.  Call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) with the [**MFT\_MESSAGE\_NOTIFY\_BEGIN\_STREAMING**](mft-message-notify-begin-streaming.md) message. This message requests the MFT to allocate any resources it needs during streaming.
-2.  Call [**IMFTransform::ProcessInput**](imftransform-processinput.md) on at least one input stream to deliver an input sample to the MFT.
-3.  (Optional.) Call [**IMFTransform::GetOutputStatus**](imftransform-getoutputstatus.md) to query whether the MFT can generate an output sample. If the method returns S\_OK, check the *pdwFlags* parameter. If *pdwFlags* contains the **MFT\_OUTPUT\_STATUS\_SAMPLE\_READY** flag, go to step 4. If *pdwFlags* is zero, go back to step 2. If the method returns E\_NOTIMPL, go to step 4.
-4.  Call [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) to get output data.
+1.  Call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the [**MFT\_MESSAGE\_NOTIFY\_BEGIN\_STREAMING**](mft-message-notify-begin-streaming.md) message. This message requests the MFT to allocate any resources it needs during streaming.
+2.  Call [**IMFTransform::ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) on at least one input stream to deliver an input sample to the MFT.
+3.  (Optional.) Call [**IMFTransform::GetOutputStatus**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstatus?branch=master) to query whether the MFT can generate an output sample. If the method returns S\_OK, check the *pdwFlags* parameter. If *pdwFlags* contains the **MFT\_OUTPUT\_STATUS\_SAMPLE\_READY** flag, go to step 4. If *pdwFlags* is zero, go back to step 2. If the method returns E\_NOTIMPL, go to step 4.
+4.  Call [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) to get output data.
     -   If the method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**, it means the MFT requires more input data; go back to step 2.
-    -   If the method returns **MF\_E\_TRANSFORM\_STREAM\_CHANGE**, it means the number of output streams has changed, or the output format has changed. The client might need to query for new stream identifiers or set new media types. For more information, see the documentation for [**ProcessOutput**](imftransform-processoutput.md).
+    -   If the method returns **MF\_E\_TRANSFORM\_STREAM\_CHANGE**, it means the number of output streams has changed, or the output format has changed. The client might need to query for new stream identifiers or set new media types. For more information, see the documentation for [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master).
 5.  If there is still input data to process, go to step 2. If the MFT has consumed all of the available input data, proceed to step 6.
-6.  Call [**ProcessMessage**](imftransform-processmessage.md) with the [**MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM**](mft-message-notify-end-of-stream.md) message.
-7.  Call [**ProcessMessage**](imftransform-processmessage.md) with the [**MFT\_MESSAGE\_COMMAND\_DRAIN**](mft-message-command-drain.md) message.
-8.  Call [**ProcessOutput**](imftransform-processoutput.md) to get the remaining output. Repeat this step until the method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**. This return value signals that all of the output has been drained from the MFT. (Do not treat this as an error condition.)
+6.  Call [**ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the [**MFT\_MESSAGE\_NOTIFY\_END\_OF\_STREAM**](mft-message-notify-end-of-stream.md) message.
+7.  Call [**ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the [**MFT\_MESSAGE\_COMMAND\_DRAIN**](mft-message-command-drain.md) message.
+8.  Call [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) to get the remaining output. Repeat this step until the method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**. This return value signals that all of the output has been drained from the MFT. (Do not treat this as an error condition.)
 
-The sequence described here keeps as little data as possible in the MFT. After every call to [**ProcessInput**](imftransform-processinput.md), the client attempts to get output. Several input samples might be needed to produce one output sample, or a single input sample might generate several output samples. The optimal behavior for the client is to pull output samples from the MFT until the MFT requires more input.
+The sequence described here keeps as little data as possible in the MFT. After every call to [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master), the client attempts to get output. Several input samples might be needed to produce one output sample, or a single input sample might generate several output samples. The optimal behavior for the client is to pull output samples from the MFT until the MFT requires more input.
 
-However, the MFT should be able to handle a different order of method calls by the client. For example, the client might simply alternate between calls to [**ProcessInput**](imftransform-processinput.md) and [**ProcessOutput**](imftransform-processoutput.md). The MFT should restrict the amount of input that it gets by returning **MF\_E\_NOTACCEPTING** from **ProcessInput** whenever it has some output to produce.
+However, the MFT should be able to handle a different order of method calls by the client. For example, the client might simply alternate between calls to [**ProcessInput**](/windows/win32/mftransform/nf-mftransform-imftransform-processinput?branch=master) and [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master). The MFT should restrict the amount of input that it gets by returning **MF\_E\_NOTACCEPTING** from **ProcessInput** whenever it has some output to produce.
 
 The order of method calls described here is not the only valid sequence of events. For example, steps 3 and 4 assume that the client starts with the input types and then tries the output types. The client can also reverse this order and start with the output types. In either case, if the MFT requires the opposite order, it should return the error code MF\_E\_TRANSFORM\_TYPE\_NOT\_SET.
 
-The client can call informational methods, such as [**GetInputCurrentType**](imftransform-getinputcurrenttype.md) and [**GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md), at any time during streaming. The client can also attempt to change the media types at any time. The MFT should return an error code if this is not a valid operation. In short, MFTs should assume very little about the order of operations, other than what is documented in the calls themselves.
+The client can call informational methods, such as [**GetInputCurrentType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputcurrenttype?branch=master) and [**GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master), at any time during streaming. The client can also attempt to change the media types at any time. The MFT should return an error code if this is not a valid operation. In short, MFTs should assume very little about the order of operations, other than what is documented in the calls themselves.
 
 The following diagram shows a flow chart of the procedures described in this topic.
 
@@ -110,14 +115,14 @@ The following diagram shows a flow chart of the procedures described in this top
 
 Optionally, an MFT can support some extensions to the basic streaming model.
 
--   Lazy-read streams. If the [**IMFTransform::GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md) method returns the **MFT\_OUTPUT\_STREAM\_LAZY\_READ** flag for an output stream, the client does not have to collect data from that output stream. The MFT continues to accept input, and at some point the MFT will discard the output data from that stream. If all of the output streams have this flag, the MFT will never fail to accept input. An example might be a visualization transform, where the client gets the output only when it has spare CPU cycles to draw the visualization.
--   Discardable streams. If the [**GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md) method returns the **MFT\_OUTPUT\_STREAM\_DISCARDABLE** flag for an output stream, the client can request the MFT to discard output, but the MFT will not discard any output unless requested. When the MFT reaches its maximum input buffer, the client must either collect some output data or request the MFT to discard the output.
--   Optional streams. If the [**GetOutputStreamInfo**](imftransform-getoutputstreaminfo.md) method returns the **MFT\_OUTPUT\_STREAM\_OPTIONAL** flag for an output stream, or the [**IMFTransform::GetInputStreamInfo**](imftransform-getinputstreaminfo.md) method returns the **MFT\_INPUT\_STREAM\_OPTIONAL** flag for an input stream, that stream is optional. The client does not have to set a media type on the stream. If the client does not set the type, the stream is deselected. A deselected output stream does not produce samples, and the client does not provide a buffer for the stream when it calls [**ProcessOutput**](imftransform-processoutput.md). A deselected input stream does not accept input data. An MFT can mark all of its input and output streams as optional. However, it is expected that at least one input and one output must be selected for the MFT to work.
+-   Lazy-read streams. If the [**IMFTransform::GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master) method returns the **MFT\_OUTPUT\_STREAM\_LAZY\_READ** flag for an output stream, the client does not have to collect data from that output stream. The MFT continues to accept input, and at some point the MFT will discard the output data from that stream. If all of the output streams have this flag, the MFT will never fail to accept input. An example might be a visualization transform, where the client gets the output only when it has spare CPU cycles to draw the visualization.
+-   Discardable streams. If the [**GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master) method returns the **MFT\_OUTPUT\_STREAM\_DISCARDABLE** flag for an output stream, the client can request the MFT to discard output, but the MFT will not discard any output unless requested. When the MFT reaches its maximum input buffer, the client must either collect some output data or request the MFT to discard the output.
+-   Optional streams. If the [**GetOutputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputstreaminfo?branch=master) method returns the **MFT\_OUTPUT\_STREAM\_OPTIONAL** flag for an output stream, or the [**IMFTransform::GetInputStreamInfo**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputstreaminfo?branch=master) method returns the **MFT\_INPUT\_STREAM\_OPTIONAL** flag for an input stream, that stream is optional. The client does not have to set a media type on the stream. If the client does not set the type, the stream is deselected. A deselected output stream does not produce samples, and the client does not provide a buffer for the stream when it calls [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master). A deselected input stream does not accept input data. An MFT can mark all of its input and output streams as optional. However, it is expected that at least one input and one output must be selected for the MFT to work.
 -   Asynchronous processing. The asynchronous processing model was introduced in Windows 7. It is described in the topic [Asynchronous MFTs](asynchronous-mfts.md).
 
 ## IMF2DBuffer
 
-If an MFT processes uncompressed video data, it should use the [**IMF2DBuffer**](imf2dbuffer.md) interface to manipulate the sample buffers. To get this interface, query the [**IMFMediaBuffer**](imfmediabuffer.md) interface on any input or output buffer. Not using this interface when it is available may result in additional buffer copies. To make proper use of this interface, the transform should not lock the buffer using the **IMFMediaBuffer** interface when **IMF2DBuffer** is available.
+If an MFT processes uncompressed video data, it should use the [**IMF2DBuffer**](/windows/win32/mfobjects/nn-mfobjects-imf2dbuffer?branch=master) interface to manipulate the sample buffers. To get this interface, query the [**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface on any input or output buffer. Not using this interface when it is available may result in additional buffer copies. To make proper use of this interface, the transform should not lock the buffer using the **IMFMediaBuffer** interface when **IMF2DBuffer** is available.
 
 For more information about processing video data, see [Uncompressed Video Buffers](uncompressed-video-buffers.md).
 
@@ -125,14 +130,14 @@ For more information about processing video data, see [Uncompressed Video Buffer
 
 *Flushing* an MFT causes the MFT to discard all of its input data. This can cause a break in the output stream. A client would typically flush an MFT before seeking to a new point in the input stream or switching to a new input stream, when the client does not care about losing data.
 
-To flush an MFT, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) with the [**MFT\_MESSAGE\_COMMAND\_FLUSH**](mft-message-command-flush.md) message.
+To flush an MFT, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the [**MFT\_MESSAGE\_COMMAND\_FLUSH**](mft-message-command-flush.md) message.
 
 ## Draining an MFT
 
 *Draining* an MFT causes the MFT to produce as much output as it can from whatever input data has already been sent. If the MFT cannot produce a complete output sample from the available input, it will drop input data. A client would typically drain an MFT when it reached the end of the source stream, or immediately before a format change in the source stream. To drain an MFT, do the following:
 
-1.  Call [**ProcessMessage**](imftransform-processmessage.md) with the [**MFT\_MESSAGE\_COMMAND\_DRAIN**](mft-message-command-drain.md) message. This message notifies the MFT that it should deliver as much output data as it can from the input data that has already been sent.
-2.  Call [**ProcessOutput**](imftransform-processoutput.md) to get output data, until the method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**.
+1.  Call [**ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the [**MFT\_MESSAGE\_COMMAND\_DRAIN**](mft-message-command-drain.md) message. This message notifies the MFT that it should deliver as much output data as it can from the input data that has already been sent.
+2.  Call [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) to get output data, until the method returns **MF\_E\_TRANSFORM\_NEED\_MORE\_INPUT**.
 
 While the MFT is being drained, it will not accept any more input.
 
@@ -170,7 +175,7 @@ For details about how stream changes are handled by an MFT, see [Handling Stream
 
 ## Stream Events
 
-To send an event to an MFT, call [**IMFTransform::ProcessEvent**](imftransform-processevent.md). If the method returns **MF\_S\_TRANSFORM\_DO\_NOT\_PROPAGATE\_EVENT**, the MFT will return the event to the caller on a subsequent call to [**ProcessOutput**](imftransform-processoutput.md). If the method returns any other **HRESULT** value, the MFT will not return the event to the client in **ProcessOutput**. In that case, the client is responsible for propagating the event downstream to the next component in the pipeline, if applicable. For more information, see [**IMFTransform::ProcessOutput**](imftransform-processoutput.md).
+To send an event to an MFT, call [**IMFTransform::ProcessEvent**](/windows/win32/mftransform/nf-mftransform-imftransform-processevent?branch=master). If the method returns **MF\_S\_TRANSFORM\_DO\_NOT\_PROPAGATE\_EVENT**, the MFT will return the event to the caller on a subsequent call to [**ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master). If the method returns any other **HRESULT** value, the MFT will not return the event to the client in **ProcessOutput**. In that case, the client is responsible for propagating the event downstream to the next component in the pipeline, if applicable. For more information, see [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master).
 
 ## Related topics
 

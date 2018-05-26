@@ -1,8 +1,11 @@
 ---
 title: image.src property
 description: Gets or sets the image file used by the g image element.
-ms.assetid: 'f1481f85-3a07-4f71-90ae-a3d395d8eec6'
-keywords: ["src property Windows Sidebar", "src property Windows Sidebar , image object", "image object Windows Sidebar , src property"]
+ms.assetid: f1481f85-3a07-4f71-90ae-a3d395d8eec6
+keywords:
+- src property Windows Sidebar
+- src property Windows Sidebar , image object
+- image object Windows Sidebar , src property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # image.src property
@@ -60,10 +68,10 @@ imgSrc.src = "..\\aero\%logo.png";
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -85,9 +93,9 @@ imgSrc.src = "..\\aero\%logo.png";
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

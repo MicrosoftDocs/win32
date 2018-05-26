@@ -1,8 +1,9 @@
 ---
 title: DoReaderMode function
 description: Enables reader mode in a window.
-ms.assetid: '8f898cdd-c907-430a-8287-15d88390c756'
-keywords: ["DoReaderMode function Windows Controls"]
+ms.assetid: 8f898cdd-c907-430a-8287-15d88390c756
+keywords:
+- DoReaderMode function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Comctl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DoReaderMode function
 
-\[**DoReaderMode** is available through Windows XP with Service Pack 2 (SP2). It may be unavailable in subsequent versions.\]
+\[**DoReaderMode** is available through Windows XP with Service Pack 2 (SP2). It may be unavailable in subsequent versions.\]
 
 Enables reader mode in a window.
 
@@ -24,7 +30,7 @@ Enables reader mode in a window.
 
 ```C++
 void WINAPI DoReaderMode(
-  _In_ PREADERMODEINFO prmi
+  _In_ PREADERMODEINFO prmi
 );
 ```
 
@@ -54,7 +60,7 @@ Reader mode is activated through supported devices by a mouse click, typically u
 > [!Note]  
 > This function is not declared in any public header. To use it, you must access it as ordinal 383 from Comctl32.dll.
 
- 
+ 
 
 ## Requirements
 
@@ -62,15 +68,15 @@ Reader mode is activated through supported devices by a mouse click, typically u
 
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/>                                                   |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/>                                                   |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                            |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 4.72 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the name of the stream for the audio file.'
-ms.assetid: '35d8c97c-4bdf-4b4c-89ed-1881ea5d09af'
-title: 'System.Audio.StreamName'
+Description: Identifies the name of the stream for the audio file.
+ms.assetid: 35d8c97c-4bdf-4b4c-89ed-1881ea5d09af
+title: System.Audio.StreamName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Audio.StreamName

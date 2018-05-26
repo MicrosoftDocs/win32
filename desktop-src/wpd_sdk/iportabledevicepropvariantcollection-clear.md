@@ -1,7 +1,12 @@
 ---
-Description: 'The Clear method frees, and then removes, all items from the collection. The collection is considered empty after calling this method.'
-ms.assetid: 'f4b46713-8224-443a-99cc-13fa75e59e5d'
-title: 'IPortableDevicePropVariantCollection::Clear method'
+Description: The Clear method frees, and then removes, all items from the collection. The collection is considered empty after calling this method.
+ms.assetid: f4b46713-8224-443a-99cc-13fa75e59e5d
+title: IPortableDevicePropVariantCollectionClear method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDevicePropVariantCollection::Clear method
@@ -33,7 +38,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +62,9 @@ After calling **Clear**, the collection is considered type-less, meaning that th
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

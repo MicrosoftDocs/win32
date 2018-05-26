@@ -1,7 +1,12 @@
 ---
 title: Common Utilities for the Virtualization Samples
 description: The following utilities are used by the C\ virtualization samples.
-ms.assetid: 'dc346ecc-10ea-40bf-a94e-abca7a6dc829'
+ms.assetid: dc346ecc-10ea-40bf-a94e-abca7a6dc829
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Utilities for the Virtualization Samples

@@ -1,8 +1,14 @@
 ---
 title: CLSID Key
 description: A CLSID is a globally unique identifier that identifies a COM class object. If your server or container allows linking to its embedded objects, you need to register a CLSID for each supported class of objects.
-ms.assetid: 'b5777d87-abf2-45b9-9d95-61db878a5810'
-keywords: ["CLSID registry key COM"]
+ms.assetid: b5777d87-abf2-45b9-9d95-61db878a5810
+keywords:
+- CLSID registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CLSID Key
@@ -51,7 +57,7 @@ The **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Classes** key corresponds to the **HKEY\_C
 
 The CLSID key contains information used by the default COM handler to return information about a class when it is in the running state.
 
-To obtain a CLSID for your application, you can use the Uuidgen.exe, or use the [**CoCreateGuid**](cocreateguid.md) function.
+To obtain a CLSID for your application, you can use the Uuidgen.exe, or use the [**CoCreateGuid**](/windows/win32/combaseapi/nf-combaseapi-cocreateguid?branch=master) function.
 
 The CLSID is a 128-bit number, in hex, within a pair of curly braces.
 
@@ -59,7 +65,7 @@ The CLSID is a 128-bit number, in hex, within a pair of curly braces.
 
 <dl> <dt>
 
-[**CoCreateGuid**](cocreateguid.md)
+[**CoCreateGuid**](/windows/win32/combaseapi/nf-combaseapi-cocreateguid?branch=master)
 </dt> </dl>
 
  

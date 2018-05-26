@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to indicate that the source buffer has been aborted.'
-ms.assetid: '65d8bbb3-e683-4a9d-acb2-023932d3e44d'
-title: 'IMFSourceBufferNotify::OnAbort method'
+---
+Description: Used to indicate that the source buffer has been aborted.
+ms.assetid: 65d8bbb3-e683-4a9d-acb2-023932d3e44d
+title: IMFSourceBufferNotifyOnAbort method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFSourceBufferNotify::OnAbort method
@@ -41,7 +46,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IMFSourceBufferNotify**](imfsourcebuffernotify.md)
+[**IMFSourceBufferNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify?branch=master)
 </dt> </dl>
 
  

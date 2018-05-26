@@ -1,7 +1,12 @@
 ---
-Description: 'The Platform Software Development Kit (SDK) contains complete event tracing samples.'
-ms.assetid: '49f9d981-e91c-479f-a5a2-daafee8be3d1'
+Description: The Platform Software Development Kit (SDK) contains complete event tracing samples.
+ms.assetid: 49f9d981-e91c-479f-a5a2-daafee8be3d1
 title: Event Tracing Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Tracing Samples

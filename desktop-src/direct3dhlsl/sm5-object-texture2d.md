@@ -1,14 +1,20 @@
 ---
 title: Texture2D
 description: Texture2D
-ms.assetid: 'e4f9cfd8-65e6-4375-8f87-736bca32cad4'
-keywords: ["Texture2D HLSL"]
+ms.assetid: e4f9cfd8-65e6-4375-8f87-736bca32cad4
+keywords:
+- Texture2D HLSL
 topic_type:
 - apiref
 api_name:
 - Texture2D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D

@@ -1,8 +1,10 @@
 ---
 title: IVMTask interface
 description: The IVMTask interface provides a method for managing tasks which are asynchronous to the COM method invoked.
-ms.assetid: '4571f70f-51e3-46dc-924f-da6b3189ca29'
-keywords: ["IVMTask interface Virtual Server", "IVMTask interface Virtual Server , described"]
+ms.assetid: 4571f70f-51e3-46dc-924f-da6b3189ca29
+keywords:
+- IVMTask interface Virtual Server
+- IVMTask interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask interface
@@ -47,7 +54,7 @@ The **IVMTask** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -66,7 +73,7 @@ The **IVMTask** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -95,8 +102,8 @@ The following methods return an IVMTask object:
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -108,9 +115,9 @@ The following methods return an IVMTask object:
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

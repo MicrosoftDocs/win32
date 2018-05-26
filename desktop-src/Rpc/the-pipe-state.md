@@ -1,7 +1,12 @@
 ---
 title: The Pipe State
 description: On the server, the MIDL compiler creates a state variable that coordinates push, pull, and alloc procedures.
-ms.assetid: '7cc59cb3-cf41-40f7-a28f-b896c319ae64'
+ms.assetid: 7cc59cb3-cf41-40f7-a28f-b896c319ae64
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Pipe State

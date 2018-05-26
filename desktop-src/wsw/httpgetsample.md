@@ -1,8 +1,16 @@
 ---
 title: HttpGetSample
 description: This example shows how to use service host for hosting a PurchaseOrder service over HTTP. The service exposes metadata over HTTP GET and WS-Metadata Exchange v1.1. The service also shows how to implement a cover page for a WWSAPI service.
-ms.assetid: '5e3a2d24-afd1-451d-94c4-4234c24a4895'
-keywords: ["HttpGetSample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 5e3a2d24-afd1-451d-94c4-4234c24a4895
+keywords:
+- HttpGetSample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpGetSample

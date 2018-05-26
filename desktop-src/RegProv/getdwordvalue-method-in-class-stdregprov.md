@@ -4,11 +4,14 @@ description: The GetDWORDValue method returns the data value for a named value w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a7a64c2c-a260-41a3-9fdf-d1869c0c7db3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a7a64c2c-a260-41a3-9fdf-d1869c0c7db3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetDWORDValue method", "GetDWORDValue method, StdRegProv class", "StdRegProv class, GetDWORDValue method"]
+keywords:
+- GetDWORDValue method
+- GetDWORDValue method, StdRegProv class
+- StdRegProv class, GetDWORDValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetDWORDValue method of the StdRegProv class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetDWORDValue(
-  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
-  [in]  string sSubKeyName,
-  [in]  string sValueName,
-  [out] uint32 uValue
+  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
+  [in]  string sSubKeyName,
+  [in]  string sValueName,
+  [out] uint32 uValue
 );
 ```
 
@@ -155,8 +161,8 @@ WScript.Echo "SYSTEM\CurrentControlSet\Control\" _
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Upnphost.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
@@ -177,9 +183,9 @@ WScript.Echo "SYSTEM\CurrentControlSet\Control\" _
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

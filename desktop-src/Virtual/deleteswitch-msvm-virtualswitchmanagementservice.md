@@ -1,8 +1,11 @@
 ---
 title: DeleteSwitch method of the Msvm\_VirtualSwitchManagementService class
 description: Deletes a virtual switch.
-ms.assetid: '1464c2e1-11a0-47fa-b29b-6156e564d8a1'
-keywords: ["DeleteSwitch method Hyper-V", "DeleteSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , DeleteSwitch method"]
+ms.assetid: 1464c2e1-11a0-47fa-b29b-6156e564d8a1
+keywords:
+- DeleteSwitch method Hyper-V
+- DeleteSwitch method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , DeleteSwitch method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteSwitch method of the Msvm\_VirtualSwitchManagementService class
@@ -22,7 +30,7 @@ Deletes a virtual switch.
 
 ```mof
 uint32 DeleteSwitch(
-  [in] Msvm_VirtualSwitch REF VirtualSwitch
+  [in] Msvm_VirtualSwitch REF VirtualSwitch
 );
 ```
 
@@ -267,9 +275,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -282,9 +290,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

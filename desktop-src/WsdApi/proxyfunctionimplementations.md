@@ -1,7 +1,12 @@
 ---
-Description: 'Generates implementations for proxy functions for port type operations.'
-ms.assetid: '9505ee5f-fdb9-41b8-9537-0c5d29f90168'
+Description: Generates implementations for proxy functions for port type operations.
+ms.assetid: 9505ee5f-fdb9-41b8-9537-0c5d29f90168
 title: proxyFunctionImplementations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # proxyFunctionImplementations element
@@ -64,14 +69,14 @@ There are no attributes.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: BcdDeviceLocateElementData class
 description: Represents a locate device element. This class is not used.
-ms.assetid: '980ee450-020a-473a-a75e-65f75d476e27'
-keywords: ["BcdDeviceLocateElementData class Boot Config", "BcdDeviceLocateElementData class Boot Config , described"]
+ms.assetid: 980ee450-020a-473a-a75e-65f75d476e27
+keywords:
+- BcdDeviceLocateElementData class Boot Config
+- BcdDeviceLocateElementData class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDeviceLocateElementData class
@@ -58,8 +65,8 @@ The device element for the virtual hard disk.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -72,9 +79,9 @@ The device element for the virtual hard disk.
 [**BcdDeviceLocateStringData**](bcddevicelocatestringdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

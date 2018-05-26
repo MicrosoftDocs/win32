@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property represents the number of objects in the FaxOutboundRoutingGroups collection. This is the total number of outbound routing groups associated with the fax server.'
-ms.assetid: '7464687e-7acb-4fee-b392-c3d8a8aff775'
-title: 'FaxOutboundRoutingGroups.Count property'
+---
+Description: The Count property represents the number of objects in the FaxOutboundRoutingGroups collection. This is the total number of outbound routing groups associated with the fax server.
+ms.assetid: 7464687e-7acb-4fee-b392-c3d8a8aff775
+title: FaxOutboundRoutingGroups.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingGroups.Count property
@@ -46,7 +51,7 @@ A **Long** that receives the number of fax routing groups in the collection.
 [**FaxOutboundRoutingGroups**](-mfax-faxoutboundroutinggroups.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingGroups**](-mfax-faxoutboundroutinggroups-cpp.md)
+[**IFaxOutboundRoutingGroups**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutinggroups?branch=master)
 </dt> </dl>
 
  

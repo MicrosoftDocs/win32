@@ -1,7 +1,12 @@
 ---
 title: How to Implement Tooltips for Status Bar Icons
 description: A nonintrusive way to display an explanatory message for a status bar icon is to implement a tooltip. The tooltip disappears when clicked, but you can also specify a time-out value.
-ms.assetid: 'AA7F17F2-63A4-4954-9DAB-788B73984628'
+ms.assetid: AA7F17F2-63A4-4954-9DAB-788B73984628
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Implement Tooltips for Status Bar Icons

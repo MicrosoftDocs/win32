@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ClearSourceList method of the Installer object removes all network sources from the source list.'
-ms.assetid: 'a4e4beb2-a4d7-48e7-9c8d-dd1ae19fe92a'
-title: 'Installer.ClearSourceList method'
+---
+Description: The ClearSourceList method of the Installer object removes all network sources from the source list.
+ms.assetid: a4e4beb2-a4d7-48e7-9c8d-dd1ae19fe92a
+title: Installer.ClearSourceList method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ClearSourceList method
@@ -58,7 +63,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**MsiSourceListClearAll**](msisourcelistclearall.md)
+[**MsiSourceListClearAll**](/windows/win32/Msi/nf-msi-msisourcelistclearalla?branch=master)
 </dt> <dt>
 
 [Source Resiliency](source-resiliency.md)

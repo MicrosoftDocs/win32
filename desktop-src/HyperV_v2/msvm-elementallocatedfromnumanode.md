@@ -1,7 +1,12 @@
 ---
-Description: 'Associates an instance of an allocated resource with the physical NUMA node from which it was allocated.'
-ms.assetid: '811ed19f-9084-4e30-8604-860d2bf722c7'
-title: 'Msvm\_ElementAllocatedFromNumaNode class'
+Description: Associates an instance of an allocated resource with the physical NUMA node from which it was allocated.
+ms.assetid: 811ed19f-9084-4e30-8604-860d2bf722c7
+title: Msvm\_ElementAllocatedFromNumaNode class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ElementAllocatedFromNumaNode class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ElementAllocatedFromNumaNode : CIM_Dependency
 {
-  Msvm_NumaNode      REF Antecedent;
+  Msvm_NumaNode      REF Antecedent;
   CIM_LogicalElement REF Dependent;
 };
 ```
@@ -71,17 +76,17 @@ The allocated resource.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

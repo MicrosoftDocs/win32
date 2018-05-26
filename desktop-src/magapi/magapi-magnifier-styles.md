@@ -1,7 +1,7 @@
 ---
 title: Magnifier Styles
 description: This topic describes the styles used with the magnifier control.
-ms.assetid: 'B3C575AC-B8D3-40CF-AF09-BAC73E6C7B45'
+ms.assetid: B3C575AC-B8D3-40CF-AF09-BAC73E6C7B45
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - Magnification.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Magnifier Styles
@@ -65,8 +70,8 @@ Displays the magnified system cursor along with the magnified screen content.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Magnification.h</dt> </dl> |
 
 
@@ -78,9 +83,9 @@ Displays the magnified system cursor along with the magnified screen content.
 [Constants](entry-magapi-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

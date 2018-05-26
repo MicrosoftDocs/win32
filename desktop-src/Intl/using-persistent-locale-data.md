@@ -1,7 +1,12 @@
 ---
 Description: Using Persistent Locale Data
-ms.assetid: 'f62402d6-31de-4ff7-9538-7925a007a089'
+ms.assetid: f62402d6-31de-4ff7-9538-7925a007a089
 title: Using Persistent Locale Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Persistent Locale Data
@@ -18,7 +23,7 @@ Design of the application must take into account a variety of locale-related dat
 
 An application that persists data should use locale-independent formats for storage and data interchange. Examples are hard-coded or standard formats; the invariant locale [LOCALE\_NAME\_INVARIANT](locale-name-constants.md); and binary storage formats.
 
-If persistent sorting data is required, the application must use the [**CompareStringOrdinal**](comparestringordinal.md) function. Remember that an invariant format does not remain invariant for [sorting](sorting.md), only for locale and calendar data.
+If persistent sorting data is required, the application must use the [**CompareStringOrdinal**](/windows/win32/Stringapiset/nf-stringapiset-comparestringordinal?branch=master) function. Remember that an invariant format does not remain invariant for [sorting](sorting.md), only for locale and calendar data.
 
 ## Use the User Default Locale for Data Presentation
 

@@ -1,14 +1,20 @@
 ---
 title: SV\_DomainLocation
 description: Defines the location on the hull of the current domain point being evaluated.
-ms.assetid: '907f568c-7c45-41e5-96c4-6e6b816a4a53'
-keywords: ["SV_DomainLocation HLSL"]
+ms.assetid: 907f568c-7c45-41e5-96c4-6e6b816a4a53
+keywords:
+- SV_DomainLocation HLSL
 topic_type:
 - apiref
 api_name:
 - SV_DomainLocation
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_DomainLocation

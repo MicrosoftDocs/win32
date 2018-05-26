@@ -1,7 +1,12 @@
 ---
-Description: 'Transient subscriptions cannot be set by using the Component Services administration tool. You must use the COM+ administrative interfaces to create or update a transient subscription.'
-ms.assetid: '28d48d59-abb2-4682-ab54-60b6aa7b31b1'
+Description: Transient subscriptions cannot be set by using the Component Services administration tool. You must use the COM+ administrative interfaces to create or update a transient subscription.
+ms.assetid: 28d48d59-abb2-4682-ab54-60b6aa7b31b1
 title: Registering a Transient Subscription
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Transient Subscription
@@ -63,7 +68,7 @@ The following example illustrates how to call the CreateTransientSubscription fu
       "{..CLSID for the Event Class..}", oMyTicker)
     ```
 
-The CreateTransientSubscription function returns a string, which is a GUID that can be used as a handle or a cookie to revoke the subscription later. To remove the subscription, call the [**Remove**](icatalogcollection-remove.md) method of [**COMAdminCatalogCollection**](comadmincatalogcollection.md) on the [**TransientSubscriptions**](transientsubscriptions.md) collection, passing in the index corresponding to the subscription with the GUID previously received.
+The CreateTransientSubscription function returns a string, which is a GUID that can be used as a handle or a cookie to revoke the subscription later. To remove the subscription, call the [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) method of [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) on the [**TransientSubscriptions**](transientsubscriptions.md) collection, passing in the index corresponding to the subscription with the GUID previously received.
 
 ## Related topics
 

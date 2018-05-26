@@ -1,14 +1,20 @@
 ---
 title: AspectRatioX
 description: The AspectRatioX attribute contains the width component of the pixel aspect ratio for a video stream.
-ms.assetid: '9f53428c-eeae-42d1-a4ee-b19f90971db6'
-keywords: ["AspectRatioX windows Media Format"]
+ms.assetid: 9f53428c-eeae-42d1-a4ee-b19f90971db6
+keywords:
+- AspectRatioX windows Media Format
 topic_type:
 - apiref
 api_name:
 - AspectRatioX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AspectRatioX

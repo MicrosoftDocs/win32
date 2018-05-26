@@ -1,6 +1,11 @@
-﻿---
-Description: 'This topic is organized as follows:'
+---
+Description: This topic is organized as follows
 title: Choosing a Static or Dynamic Shortcut Menu Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing a Static or Dynamic Shortcut Menu Method
@@ -53,12 +58,12 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
 <td>A COM-based verb activation means that supports in-proc or out-of-proc activation. <strong>DropTarget</strong>/[<strong>IDropTarget</strong>](com.idroptarget) also supports re-use of an already running handler when the <strong>IDropTarget</strong> interface is implemented by a local server. It also perfectly expresses the items via the marshaled data object and provides a reference to the invoking site chain so that you can interact with the invoker through the [<strong>QueryService</strong>](_inet_IServiceProvider_QueryService_Method).</td>
 </tr>
 <tr class="odd">
-<td>Windows 7 and later: [<strong>IExecuteCommand</strong>](iexecutecommand.md)</td>
-<td>The most direct implementation method. Because this is a COM-based invoke method (like DropTarget) this interface supports in-proc and out-of-proc activation. The verb implements [<strong>IExecuteCommand</strong>](iexecutecommand.md) and [<strong>IObjectWithSelection</strong>](iobjectwithselection.md), and optionally [<strong>IInitializeCommand</strong>](iinitializecommand.md). The items are passed directly as a Shell item array and more of the parameters from the invoker are available to the verb implementation, including the invoke point, keyboard state, and so forth.</td>
+<td>Windows 7 and later: [<strong>IExecuteCommand</strong>](/windows/win32/shobjidl_core/nn-shobjidl_core-iexecutecommand?branch=master)</td>
+<td>The most direct implementation method. Because this is a COM-based invoke method (like DropTarget) this interface supports in-proc and out-of-proc activation. The verb implements [<strong>IExecuteCommand</strong>](/windows/win32/shobjidl_core/nn-shobjidl_core-iexecutecommand?branch=master) and [<strong>IObjectWithSelection</strong>](/windows/win32/shobjidl_core/nn-shobjidl_core-iobjectwithselection?branch=master), and optionally [<strong>IInitializeCommand</strong>](/windows/win32/shobjidl_core/nn-shobjidl_core-iinitializecommand?branch=master). The items are passed directly as a Shell item array and more of the parameters from the invoker are available to the verb implementation, including the invoke point, keyboard state, and so forth.</td>
 </tr>
 <tr class="even">
-<td>Windows 7 and later:<strong>ExplorerCommand</strong>/ [<strong>IExplorerCommand</strong>](iexplorercommand.md)</td>
-<td>Enables data sources that provide their command module commands through [<strong>IExplorerCommandProvider</strong>](iexplorercommandprovider.md) to use those commands as verbs on a shortcut menu. Because this interface supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.</td>
+<td>Windows 7 and later:<strong>ExplorerCommand</strong>/ [<strong>IExplorerCommand</strong>](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommand?branch=master)</td>
+<td>Enables data sources that provide their command module commands through [<strong>IExplorerCommandProvider</strong>](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider?branch=master) to use those commands as verbs on a shortcut menu. Because this interface supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.</td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +73,7 @@ Static verbs are the simplest verbs to implement, but they still provide rich fu
  
 
 > [!Note]  
-> [**IExplorerCommand**](iexplorercommand.md) is a hybrid between a static and dynamic verb. **IExplorerCommand** was declared in Windows Vista, but its ability to implement a verb in a shortcut menu is new to Windows 7.
+> [**IExplorerCommand**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommand?branch=master) is a hybrid between a static and dynamic verb. **IExplorerCommand** was declared in Windows Vista, but its ability to implement a verb in a shortcut menu is new to Windows 7.
 
  
 
@@ -83,8 +88,8 @@ The following dynamic verb methods are preferred:
 | Verb Type                                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Static verb (listed in the previous table) + Advanced Query Syntax (AQS)                  | This choice gets dynamic verb visibility.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Windows 7 and later: [**IExplorerCommand**](iexplorercommand.md)                         | This choice enables a common implementation of verbs and explorer commands that are displayed in the command module in Windows Explorer.                                                                                                                                                                                                                                                                                                                                                                                               |
-| Windows 7 and later: [**IExplorerCommandState**](iexplorercommandstate.md) + static verb | This choice also gets dynamic verb visibility. It is a hybrid model where a simple in-process handler is used to compute if a given static verb should be displyed. This can be applied to all of the static verb implementation methods to achieve dynamic behavior and minimize the exposure of the in-process logic. [**IExplorerCommandState**](iexplorercommandstate.md) has the advantage of running on a background thread, and thereby avoids UI hangs. It is considerably simpler than [**IContextMenu**](icontextmenu.md). |
+| Windows 7 and later: [**IExplorerCommand**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommand?branch=master)                         | This choice enables a common implementation of verbs and explorer commands that are displayed in the command module in Windows Explorer.                                                                                                                                                                                                                                                                                                                                                                                               |
+| Windows 7 and later: [**IExplorerCommandState**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommandstate?branch=master) + static verb | This choice also gets dynamic verb visibility. It is a hybrid model where a simple in-process handler is used to compute if a given static verb should be displyed. This can be applied to all of the static verb implementation methods to achieve dynamic behavior and minimize the exposure of the in-process logic. [**IExplorerCommandState**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommandstate?branch=master) has the advantage of running on a background thread, and thereby avoids UI hangs. It is considerably simpler than [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master). |
 
 
 
@@ -92,7 +97,7 @@ The following dynamic verb methods are preferred:
 
 ### Discouraged Dynamic Verb Methods
 
-[**IContextMenu**](icontextmenu.md) is the most powerful but also the most complicated method to implement. It is based on in-process COM objects that run on the thread of the caller, which usually Windows Explorer but can be any application hosting the items. **IContextMenu** supports verb visibility, ordering, and custom drawing. Some of these features have been added to the static verb features, such as an icon to be associated with a command, and [**IExplorerCommand**](iexplorercommand.md) to deal with visibility.
+[**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master) is the most powerful but also the most complicated method to implement. It is based on in-process COM objects that run on the thread of the caller, which usually Windows Explorer but can be any application hosting the items. **IContextMenu** supports verb visibility, ordering, and custom drawing. Some of these features have been added to the static verb features, such as an icon to be associated with a command, and [**IExplorerCommand**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommand?branch=master) to deal with visibility.
 
 If you must extend the shortcut menu for a file type by registering a dynamic verb for the file type, then follow the instructions provided in [Customizing a Shortcut Menu Using Dynamic Verbs](shortcut-menu-using-dynamic-verbs.md).
 

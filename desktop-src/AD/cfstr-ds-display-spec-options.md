@@ -4,9 +4,9 @@ description: The CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS clipboard format provides an 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '98e033e4-14fe-44ed-83d5-a97e00ecce4c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 98e033e4-14fe-44ed-83d5-a97e00ecce4c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -17,6 +17,9 @@ api_location:
 - DSClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS
@@ -31,7 +34,7 @@ api_type:
 
 
 
-The Active Directory Users and Computers, the Active Directory Sites and Services, and the Active Directory Domains and Trusts snap-ins support the **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format provides an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](dsdisplayspecoptions.md) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
+The Active Directory Users and Computers, the Active Directory Sites and Services, and the Active Directory Domains and Trusts snap-ins support the **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** clipboard format provides an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](/windows/win32/Dsclient/ns-dsclient-_dsdisplayspecoptions?branch=master) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
 
 
 </dt> </dl> </dd> <dt>
@@ -52,8 +55,8 @@ The **CFSTR\_DSDISPLAYSPECOPTIONS** clipboard format is identical to the **CFSTR
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>DSClient.h</dt> </dl> |
 
 
@@ -62,12 +65,12 @@ The **CFSTR\_DSDISPLAYSPECOPTIONS** clipboard format is identical to the **CFSTR
 
 <dl> <dt>
 
-[**DSDISPLAYSPECOPTIONS**](dsdisplayspecoptions.md)
+[**DSDISPLAYSPECOPTIONS**](/windows/win32/Dsclient/ns-dsclient-_dsdisplayspecoptions?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork BytesReceived property
 description: The BytesReceived property contains the current number of bytes received per second by this virtual network.
-ms.assetid: 'e36038dc-ad14-4242-bf3b-cdc75b1f5043'
-keywords: ["BytesReceived property Virtual Server", "BytesReceived property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , BytesReceived property", "BytesReceived property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , BytesReceived property"]
+ms.assetid: e36038dc-ad14-4242-bf3b-cdc75b1f5043
+keywords:
+- BytesReceived property Virtual Server
+- BytesReceived property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , BytesReceived property
+- BytesReceived property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , BytesReceived property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::BytesReceived property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_BytesReceived(
-  [out] long *bytesReceived
+  [out] long *bytesReceived
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

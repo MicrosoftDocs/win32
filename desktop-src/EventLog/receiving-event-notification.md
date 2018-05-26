@@ -1,12 +1,17 @@
 ---
 Description: Receiving Event Notification
-ms.assetid: '3200d666-d927-4198-b1f6-1636971f5f07'
+ms.assetid: 3200d666-d927-4198-b1f6-1636971f5f07
 title: Receiving Event Notification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Event Notification
 
-The following example shows how to use the [**NotifyChangeEventLog**](notifychangeeventlog.md) function to receive notification when an event is logged. This example filters for the events written by the example in [Reporting an Event](reporting-an-event.md).
+The following example shows how to use the [**NotifyChangeEventLog**](/windows/win32/Winbase/nf-winbase-notifychangeeventlog?branch=master) function to receive notification when an event is logged. This example filters for the events written by the example in [Reporting an Event](reporting-an-event.md).
 
 
 ```C++

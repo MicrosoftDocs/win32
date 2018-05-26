@@ -1,7 +1,12 @@
 ---
-Description: 'The lighting engine combines material color, vertex color, and lighting information to generate a per-vertex color.'
-ms.assetid: '1e7c31cb-dc63-4f4a-9ddc-d1d1d0b69085'
-title: 'Alpha Texture Blending (Direct3D 9)'
+Description: The lighting engine combines material color, vertex color, and lighting information to generate a per-vertex color.
+ms.assetid: 1e7c31cb-dc63-4f4a-9ddc-d1d1d0b69085
+title: Alpha Texture Blending (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alpha Texture Blending (Direct3D 9)
@@ -25,7 +30,7 @@ Where:
 -   CurrentPixelColor is the color of the current pixel.
 -   DestBlend is the percentage of the final pixel color that is made up of the current pixel color.
 
-The final blending equation is set by calling [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) and specifying the blend render state (D3DRS\_BLENDXXX) with a corresponding blending factor ([**D3DBLEND**](direct3d9.d3dblend)). The values of SourceBlend and DestBlend range from 0.0 (transparent) to 1.0 (opaque) inclusive. In addition, an application can control the transparency of a pixel by setting the alpha value in a texture. In this case, use the following:
+The final blending equation is set by calling [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) and specifying the blend render state (D3DRS\_BLENDXXX) with a corresponding blending factor ([**D3DBLEND**](direct3d9.d3dblend)). The values of SourceBlend and DestBlend range from 0.0 (transparent) to 1.0 (opaque) inclusive. In addition, an application can control the transparency of a pixel by setting the alpha value in a texture. In this case, use the following:
 
 
 ```

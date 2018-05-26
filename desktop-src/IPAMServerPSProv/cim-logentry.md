@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a log entry.'
+Description: Represents a log entry.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '38cf44f9-70fc-4bd9-9f1d-226111999f83'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 38cf44f9-70fc-4bd9-9f1d-226111999f83
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LogEntry class'
+title: CIM\_LogEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogEntry class
@@ -24,21 +27,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::System::Logs"), Version("2.25.0"), AMENDMENT]
 class CIM_LogEntry : CIM_RecordForLog
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   RecordFormat;
-  string   RecordData;
-  string   Locale;
-  uint16   PerceivedSeverity;
-  string   InstanceID;
-  string   LogInstanceID;
-  string   LogName;
-  string   RecordID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   RecordFormat;
+  string   RecordData;
+  string   Locale;
+  uint16   PerceivedSeverity;
+  string   InstanceID;
+  string   LogInstanceID;
+  string   LogName;
+  string   RecordID;
   datetime CreationTimeStamp;
-  string   MessageID;
-  string   Message;
-  string   MessageArguments[];
+  string   MessageID;
+  string   Message;
+  string   MessageArguments[];
 };
 ```
 
@@ -406,16 +409,16 @@ RecordID may be used to provide a representation of log entry ordering or pointe
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

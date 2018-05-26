@@ -1,19 +1,24 @@
 ---
-Description: 'This program demonstrates how you can build an application that captures InkCollector events using only C++. This program co-creates an InkCollector object to ink -enable the window. It displays a message box whenever a Stroke event is received.'
-ms.assetid: '91450559-ae47-457a-a709-b4e4e78bde22'
+Description: This program demonstrates how you can build an application that captures InkCollector events using only C++. This program co-creates an InkCollector object to ink -enable the window. It displays a message box whenever a Stroke event is received.
+ms.assetid: 91450559-ae47-457a-a709-b4e4e78bde22
 title: C++ Event Sinks Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C++ Event Sinks Sample
 
-This program demonstrates how you can build an application that captures InkCollector events using only C++. This program co-creates an [**InkCollector**](inkcollector-class.md) object to ink -enable the window. It displays a message box whenever a [**Stroke**](inkcollector-stroke.md) event is received.
+This program demonstrates how you can build an application that captures InkCollector events using only C++. This program co-creates an [**InkCollector**](/windows/win32/msinkaut/?branch=master) object to ink -enable the window. It displays a message box whenever a [**Stroke**](inkcollector-stroke.md) event is received.
 
 ## Defining a Wrapper for Ink Collector Events
 
-The `InkCollectorEvents` Class handles passing ink collector events from the ink collector to the user of this class. The `AdviseInkCollector` method sets up the connection between the [**InkCollector**](inkcollector-class.md) object and this class. The `Invoke` method converts the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) event notification into a call to a virtual function that the user of this class can override to process a particular event.
+The `InkCollectorEvents` Class handles passing ink collector events from the ink collector to the user of this class. The `AdviseInkCollector` method sets up the connection between the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object and this class. The `Invoke` method converts the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) event notification into a call to a virtual function that the user of this class can override to process a particular event.
 
 > [!Note]  
-> You must do more than override the virtual function for an event handler to get that event. For all but default events, you have to call the ink collector's [**SetEventInterest**](inkcollector-seteventinterest.md) method to guarantee getting an event. Secondly, this object marshals itself free threaded so all implemented event handlers need to be free threaded as well. Of particular importance is using Windows APIs, which may cause a switch to another thread as the event handler is not guaranteed to be running on the same thread as the window connected with the ink collector.
+> You must do more than override the virtual function for an event handler to get that event. For all but default events, you have to call the ink collector's [**SetEventInterest**](/windows/win32/msinkaut/nf-msinkaut-iinkcollector-seteventinterest?branch=master) method to guarantee getting an event. Secondly, this object marshals itself free threaded so all implemented event handlers need to be free threaded as well. Of particular importance is using Windows APIs, which may cause a switch to another thread as the event handler is not guaranteed to be running on the same thread as the window connected with the ink collector.
 
  
 
@@ -71,7 +76,7 @@ HRESULT Init()
 
 
 
-The `AdviseInkCollector` method sets up the connection between the [**InkCollector**](inkcollector-class.md) object and this class. It first retrieves a connection point to the ink collector. Then it retrieves a pointer to the `IInkCollectorEvents` so that it may establish an advisory connection to the control.
+The `AdviseInkCollector` method sets up the connection between the [**InkCollector**](/windows/win32/msinkaut/?branch=master) object and this class. It first retrieves a connection point to the ink collector. Then it retrieves a pointer to the `IInkCollectorEvents` so that it may establish an advisory connection to the control.
 
 
 ```C++
@@ -123,7 +128,7 @@ m_pIConnectionPoint = NULL;
 
 ## Defining an Ink Collector Events Handler
 
-The CMyInkEvents Class overrides the default behavior of the [**Stroke**](inkcollector-stroke.md) event handler of the InkCollectorEvents Class. The Stroke method displays a message box when the [**InkCollector**](inkcollector-class.md) receives a **Stroke** event.
+The CMyInkEvents Class overrides the default behavior of the [**Stroke**](inkcollector-stroke.md) event handler of the InkCollectorEvents Class. The Stroke method displays a message box when the [**InkCollector**](/windows/win32/msinkaut/?branch=master) receives a **Stroke** event.
 
 
 ```C++
@@ -161,7 +166,7 @@ public:
 
 ## Defining an Ink Collector Wrapper
 
-The CMyInkCollector Class's Init method declares and initializes a CMyInkEvents object. It then creates an [**InkCollector**](inkcollector-class.md) object and associates the ink collector and the event handler. Finally, the **InkCollector** is attached to the window and enabled.
+The CMyInkCollector Class's Init method declares and initializes a CMyInkEvents object. It then creates an [**InkCollector**](/windows/win32/msinkaut/?branch=master) object and associates the ink collector and the event handler. Finally, the **InkCollector** is attached to the window and enabled.
 
 
 ```C++
@@ -213,7 +218,7 @@ First, include the headers for Tablet PC Automation interfaces. These are instal
 
 
 
-Then, include the headers for the wrapper classes and [**InkCollector**](inkcollector-class.md) event handler was defined.
+Then, include the headers for the wrapper classes and [**InkCollector**](/windows/win32/msinkaut/?branch=master) event handler was defined.
 
 
 ```C++

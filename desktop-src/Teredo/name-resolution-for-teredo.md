@@ -1,7 +1,12 @@
 ---
 title: Name Resolution For Teredo
-ms.assetid: 'eb0cf6d5-f093-46f6-8995-d01971de8241'
+ms.assetid: eb0cf6d5-f093-46f6-8995-d01971de8241
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Resolution For Teredo

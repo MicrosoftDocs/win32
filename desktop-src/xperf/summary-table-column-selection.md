@@ -1,7 +1,12 @@
 ---
 title: Summary Table Column Selection
 description: Summary Table Column Selection
-ms.assetid: 'bbb6646e-1e99-4113-be0b-5c563424bc74'
+ms.assetid: bbb6646e-1e99-4113-be0b-5c563424bc74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary Table Column Selection

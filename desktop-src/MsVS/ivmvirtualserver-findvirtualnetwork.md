@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer FindVirtualNetwork method
 description: The FindVirtualNetwork method returns a virtual network object matching the requested name.
-ms.assetid: 'a249d41f-a853-47eb-bcda-511004105f7e'
-keywords: ["FindVirtualNetwork method Virtual Server", "FindVirtualNetwork method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , FindVirtualNetwork method"]
+ms.assetid: a249d41f-a853-47eb-bcda-511004105f7e
+keywords:
+- FindVirtualNetwork method Virtual Server
+- FindVirtualNetwork method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , FindVirtualNetwork method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::FindVirtualNetwork method
@@ -22,8 +30,8 @@ The **FindVirtualNetwork** method returns a virtual network object matching the 
 
 ```C++
 HRESULT FindVirtualNetwork(
-  [in]  BSTR              virtualNetworkName,
-  [out] IVMVirtualNetwork **virtualNetwork
+  [in]  BSTR              virtualNetworkName,
+  [out] IVMVirtualNetwork **virtualNetwork
 );
 ```
 
@@ -64,7 +72,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,8 +84,8 @@ Virtual network names are case-insensitive, for example, "MyNetwork" and "mynetw
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +97,9 @@ Virtual network names are case-insensitive, for example, "MyNetwork" and "mynetw
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

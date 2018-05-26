@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.'
-ms.assetid: '013660ce-865e-4acf-a1ea-670e70377ff5'
+---
+Description: Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.
+ms.assetid: 013660ce-865e-4acf-a1ea-670e70377ff5
 title: D3DXFillTextureTX function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFillTextureTX function
@@ -27,9 +32,9 @@ HRESULT D3DXFillTextureTX(
 *pTexture* \[in, out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) object, representing the texture to be filled.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) object, representing the texture to be filled.
 
 </dd> <dt>
 

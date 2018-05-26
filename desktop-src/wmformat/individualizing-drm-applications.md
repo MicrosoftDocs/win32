@@ -1,8 +1,25 @@
 ---
 title: Individualizing DRM Applications
 description: Individualizing DRM Applications
-ms.assetid: '8d87c663-bc54-4928-9eee-d09c358e61f8'
-keywords: ["Windows Media Format SDK,individualizing DRM applications", "Windows Media Format SDK,application individualizing", "Advanced Systems Format (ASF),individualizing DRM applications", "ASF (Advanced Systems Format),individualizing DRM applications", "Advanced Systems Format (ASF),application individualizing", "ASF (Advanced Systems Format),application individualizing", "digital rights management (DRM),individualizing applications", "DRM (digital rights management),individualizing applications", "digital rights management (DRM),application individualizing", "DRM (digital rights management),application individualizing", "application individualizing", "individualizing DRM applications"]
+ms.assetid: 8d87c663-bc54-4928-9eee-d09c358e61f8
+keywords:
+- Windows Media Format SDK,individualizing DRM applications
+- Windows Media Format SDK,application individualizing
+- Advanced Systems Format (ASF),individualizing DRM applications
+- ASF (Advanced Systems Format),individualizing DRM applications
+- Advanced Systems Format (ASF),application individualizing
+- ASF (Advanced Systems Format),application individualizing
+- digital rights management (DRM),individualizing applications
+- DRM (digital rights management),individualizing applications
+- digital rights management (DRM),application individualizing
+- DRM (digital rights management),application individualizing
+- application individualizing
+- individualizing DRM applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Individualizing DRM Applications

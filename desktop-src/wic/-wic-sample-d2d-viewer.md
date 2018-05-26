@@ -1,7 +1,12 @@
 ---
-Description: 'This sample demonstrates the use of Windows Imaging Component (WIC) to decode an image file and Direct2D to render the image to the screen.'
-ms.assetid: '4f989ff6-b513-4354-a1bb-8d9521f693a2'
+Description: This sample demonstrates the use of Windows Imaging Component (WIC) to decode an image file and Direct2D to render the image to the screen.
+ms.assetid: 4f989ff6-b513-4354-a1bb-8d9521f693a2
 title: WIC Image Viewer Using Direct2D Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIC Image Viewer Using Direct2D Sample

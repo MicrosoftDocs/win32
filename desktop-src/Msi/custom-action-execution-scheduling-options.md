@@ -1,7 +1,12 @@
 ---
-Description: 'Because a custom action can be scheduled in both the UI and execute sequence tables, and can be executed either in the service or client process, a custom action can potentially execute multiple times.'
-ms.assetid: 'a3ffeecb-cdd6-43af-a3fe-48e3e843ec8b'
+Description: Because a custom action can be scheduled in both the UI and execute sequence tables, and can be executed either in the service or client process, a custom action can potentially execute multiple times.
+ms.assetid: a3ffeecb-cdd6-43af-a3fe-48e3e843ec8b
 title: Custom Action Execution Scheduling Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Execution Scheduling Options
@@ -12,7 +17,7 @@ Note that the installer:
 
 -   Executes actions in a sequence table immediately by default.
 -   Does not execute an action if the conditional expression field of the sequence table evaluates to False.
--   Processes the UI sequence table in the client process if the internal user's interface level is set to the full UI mode (see [**MsiSetInternalUI**](msisetinternalui.md) for a description of UI levels).
+-   Processes the UI sequence table in the client process if the internal user's interface level is set to the full UI mode (see [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master) for a description of UI levels).
 -   Is a service registered by default when using Windows 2000 and, in this case, the execute sequence table is processed in the installer service.
 
 You can use the following option flags to control multiple immediate execution of custom actions. To set an option, add the value in this table to the value in the Type field of the [CustomAction table](customaction-table.md). None of the following flags should be used with [deferred execution custom actions](deferred-execution-custom-actions.md).
@@ -63,7 +68,7 @@ Execute only if running on client after UI sequence has run. The action runs onl
 
 </dd> </dl>
 
-Note that to run a custom action during two different run modes, author two entries into the [CustomAction table](customaction-table.md) . For example, to have a custom action that calls a C/C++ dynamic link library (DLL) ( [Custom Action Type 1](custom-action-type-1.md)) both when the mode is MSIRUNMODE\_SCHEDULED and MSIRUNMODE\_ROLLBACK, put two entries in the CustomAction table that call the same DLL but that have different numeric types. Include code that calls [**MsiGetMode**](msigetmode.md) to determine when to run which custom action.
+Note that to run a custom action during two different run modes, author two entries into the [CustomAction table](customaction-table.md) . For example, to have a custom action that calls a C/C++ dynamic link library (DLL) ( [Custom Action Type 1](custom-action-type-1.md)) both when the mode is MSIRUNMODE\_SCHEDULED and MSIRUNMODE\_ROLLBACK, put two entries in the CustomAction table that call the same DLL but that have different numeric types. Include code that calls [**MsiGetMode**](/windows/win32/Msiquery/nf-msiquery-msigetmode?branch=master) to determine when to run which custom action.
 
 ## Related topics
 

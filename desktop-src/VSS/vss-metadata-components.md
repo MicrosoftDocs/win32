@@ -1,7 +1,12 @@
 ---
-Description: 'Critical to organizing which files of which writer are to be backed up or restored is the concept of a component.'
-ms.assetid: '5f85bd0e-31bb-45aa-af7c-15299ed31b26'
+Description: Critical to organizing which files of which writer are to be backed up or restored is the concept of a component.
+ms.assetid: 5f85bd0e-31bb-45aa-af7c-15299ed31b26
 title: VSS Metadata Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Metadata Components
@@ -21,7 +26,7 @@ Component information in Writer Metadata Documents includes the following:
 -   [*Logical path*](vssgloss-l.md#base-vssgloss-logical-path) information used to associate a selectable for backup component with particular nonselectable for backup components, thus forming a component set
 -   The [*file set*](vssgloss-f.md#base-vssgloss-file-set) information—path, file specification, and recursion flag—managed for each component
 
-Writer Metadata Documents also contain writer-level metadata information, such as restore methods and alternate location mappings for restore. Writer Metadata Documents are read-only. The interface for examining this information is [**IVssWMComponent**](ivsswmcomponent.md).
+Writer Metadata Documents also contain writer-level metadata information, such as restore methods and alternate location mappings for restore. Writer Metadata Documents are read-only. The interface for examining this information is [**IVssWMComponent**](/windows/win32/VsBackup/nl-vsbackup-ivsswmcomponent?branch=master).
 
 Component information in Backup Components Documents includes the following:
 
@@ -29,7 +34,7 @@ Component information in Backup Components Documents includes the following:
 -   Writer-level metadata information, such as alternate location mappings and restore
 -   State information describing a backup or restore operation
 
-Backup Component Documents do not contain information on components' [*file sets*](vssgloss-f.md#base-vssgloss-file-set). Backup Component Documents are not read-only and can be modified by the writer. The interface for accessing this information is [**IVssComponent**](ivsscomponent.md).
+Backup Component Documents do not contain information on components' [*file sets*](vssgloss-f.md#base-vssgloss-file-set). Backup Component Documents are not read-only and can be modified by the writer. The interface for accessing this information is [**IVssComponent**](/windows/win32/VsWriter/nl-vswriter-ivsscomponent?branch=master).
 
 The life cycle and relationship between the two expressions of a component can be understood as follows:
 

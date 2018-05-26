@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'BD9DD9C4-D736-42DC-A55F-7F299351FA65'
+---
+Description: .
+ms.assetid: BD9DD9C4-D736-42DC-A55F-7F299351FA65
 title: WaitForPrinterChange function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaitForPrinterChange function

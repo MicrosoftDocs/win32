@@ -1,7 +1,12 @@
 ---
 Description: Subobjects
-ms.assetid: '03cbd590-b573-4a98-9ab7-fe548800cfcb'
+ms.assetid: 03cbd590-b573-4a98-9ab7-fe548800cfcb
 title: Subobjects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subobjects

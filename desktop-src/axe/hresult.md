@@ -1,14 +1,20 @@
 ---
 title: Hresult element
 description: An HRESULT value for the error.
-ms.assetid: 'CAD1750F-15EF-475A-825F-6BFB26722C51'
-keywords: ["Hresult element Access Execution Engine"]
+ms.assetid: CAD1750F-15EF-475A-825F-6BFB26722C51
+keywords:
+- Hresult element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Hresult
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hresult element
@@ -69,9 +75,9 @@ Applications should ignore a [**Warning**](warning.md) element with a success co
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

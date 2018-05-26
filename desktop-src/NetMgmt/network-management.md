@@ -1,8 +1,14 @@
 ---
 title: Network Management
 description: The network management functions provide the ability to manage user accounts and network resources.
-ms.assetid: 'c1c5fba2-95f5-4d47-81ce-0701009d86d3'
-keywords: ["Network Management"]
+ms.assetid: c1c5fba2-95f5-4d47-81ce-0701009d86d3
+keywords:
+- Network Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Management

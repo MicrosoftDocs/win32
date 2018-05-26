@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the handle to the thread in the CMsgThread object.'
-ms.assetid: 'dacbdc68-91a0-46d4-805f-fe51cb047e19'
-title: 'CMsgThread.GetThreadHandle method'
+Description: Retrieves the handle to the thread in the CMsgThread object.
+ms.assetid: dacbdc68-91a0-46d4-805f-fe51cb047e19
+title: CMsgThread.GetThreadHandle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.GetThreadHandle method
@@ -47,9 +52,9 @@ The thread handle can be passed to wait functions, such as [**WaitForMultipleObj
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

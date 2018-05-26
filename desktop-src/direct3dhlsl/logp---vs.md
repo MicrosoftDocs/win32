@@ -1,7 +1,12 @@
 ---
 title: logp - vs
 description: Partial precision logp₂(x).
-ms.assetid: '8547ca8a-7bde-4e41-9e65-f7fcd65454c1'
+ms.assetid: 8547ca8a-7bde-4e41-9e65-f7fcd65454c1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # logp - vs

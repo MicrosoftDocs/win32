@@ -1,7 +1,12 @@
-﻿---
-Description: 'The timeline element defines the timeline. This element is the root node in the XML file.'
-ms.assetid: 'db1da09f-d9b2-43fa-8dec-e3dc11cbfafa'
+---
+Description: The timeline element defines the timeline. This element is the root node in the XML file.
+ms.assetid: db1da09f-d9b2-43fa-8dec-e3dc11cbfafa
 title: timeline Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # timeline Element

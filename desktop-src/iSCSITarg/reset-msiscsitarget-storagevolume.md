@@ -4,13 +4,16 @@ description: Requests a reset of the logical device.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c2b917a3-32b8-4d59-9fa1-f86023b7aa2b'
-ms.prod: 'windows-server-dev'
+ms.assetid: c2b917a3-32b8-4d59-9fa1-f86023b7aa2b
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Reset method iSCSI Software Target API", "Reset method iSCSI Software Target API , MSISCSITARGET_StorageVolume class", "MSISCSITARGET_StorageVolume class iSCSI Software Target API , Reset method"]
+keywords:
+- Reset method iSCSI Software Target API
+- Reset method iSCSI Software Target API , MSISCSITARGET_StorageVolume class
+- MSISCSITARGET_StorageVolume class iSCSI Software Target API , Reset method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reset method of the MSISCSITARGET\_StorageVolume class
@@ -78,7 +84,7 @@ Undefined error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -92,9 +98,9 @@ Undefined error.
 [**MSISCSITARGET\_StorageVolume**](msiscsitarget-storagevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

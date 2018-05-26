@@ -1,7 +1,12 @@
 ---
 title: Creating a Query Object with the Query Helper API
 description: Creating a Query Object with the Query Helper API
-ms.assetid: '9bfc91d9-ed65-4f79-8275-017150307e36'
+ms.assetid: 9bfc91d9-ed65-4f79-8275-017150307e36
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Query Object with the Query Helper API

@@ -4,11 +4,15 @@ description: The following structures are introduced with MMC 2.0.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc2e44a3-9b94-47d9-81c9-1de41dec1a1e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bc2e44a3-9b94-47d9-81c9-1de41dec1a1e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Microsoft Management Console 2.0 MMC , MMC 2.0 reference, structures"]
+keywords:
+- Microsoft Management Console 2.0 MMC , MMC 2.0 reference, structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Structures

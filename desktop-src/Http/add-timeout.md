@@ -1,14 +1,20 @@
 ---
 title: add timeout
 description: Adds a global timeout to the HTTP.sys service.
-ms.assetid: 'c59a64e2-36aa-4428-b727-df21f5632d0d'
-keywords: ["add timeout HTTP"]
+ms.assetid: c59a64e2-36aa-4428-b727-df21f5632d0d
+keywords:
+- add timeout HTTP
 topic_type:
 - apiref
 api_name:
 - add timeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # add timeout

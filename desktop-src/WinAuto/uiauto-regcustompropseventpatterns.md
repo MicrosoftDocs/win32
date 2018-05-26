@@ -1,13 +1,37 @@
 ---
 title: Registering Custom Properties, Events, and Control Patterns
 description: Before a custom property, event, or control pattern can be used, both the provider and the client must register the property, event, or control pattern at run time.
-ms.assetid: 'ae36e404-8432-46ed-930e-b86dd5a88d6d'
-keywords: ["UI Automation,custom properties", "UI Automation,events overview", "UI Automation,control patterns overview", "UI Automation,registering custom properties", "UI Automation,registering events", "UI Automation,registering control patterns", "custom properties,registering", "events,registering", "control patterns,registering", "registering,custom properties", "registering,events", "registering,control patterns", "control patterns,custom", "control patterns,implementing custom", "implementing custom control patterns", "custom control patterns", "client wrappers", "pattern handlers", "implementing pattern handlers"]
+ms.assetid: ae36e404-8432-46ed-930e-b86dd5a88d6d
+keywords:
+- UI Automation,custom properties
+- UI Automation,events overview
+- UI Automation,control patterns overview
+- UI Automation,registering custom properties
+- UI Automation,registering events
+- UI Automation,registering control patterns
+- custom properties,registering
+- events,registering
+- control patterns,registering
+- registering,custom properties
+- registering,events
+- registering,control patterns
+- control patterns,custom
+- control patterns,implementing custom
+- implementing custom control patterns
+- custom control patterns
+- client wrappers
+- pattern handlers
+- implementing pattern handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering Custom Properties, Events, and Control Patterns
 
-Before a custom property, event, or control pattern can be used, both the provider and the client must register the property, event, or control pattern at run time. The registration is effective globally within an application process, and remains effective until the process closes or the last Microsoft UI Automation element object ([**IUIAutomation**](uiauto-iuiautomation.md) or [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md)) is released within the process.
+Before a custom property, event, or control pattern can be used, both the provider and the client must register the property, event, or control pattern at run time. The registration is effective globally within an application process, and remains effective until the process closes or the last Microsoft UI Automation element object ([**IUIAutomation**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomation?branch=master) or [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master)) is released within the process.
 
 Registation involves passing a GUID to UI Automation, along with detailed information about the custom property, event, or control pattern. Attempting to register the same GUID a second time with the same information will succeed, but attempting to register the same GUID a second time but with different information (for example, a custom property of a different type) will fail. In the future, if the custom specification is accepted and integrated into the UI Automation core, UI Automation will validate the custom registration information and use the already registered code instead of the "official" framework implementation, thereby minimizing application compatibility issues. You cannot remove properties, events, or control patterns that are already registered.
 
@@ -29,17 +53,17 @@ Registering a custom property or event enables the provider and client to obtain
 To register a property or event:
 
 1.  Define a GUID for the custom property or event.
-2.  Fill a [**UIAutomationPropertyInfo**](uiauto-uiautomationpropertyinfostruct.md) or a [**UIAutomationEventInfo**](uiauto-uiautomationeventinfostruct.md) structure with information about the property or event, including the GUID and a nonlocalizable string that contains the name of the custom property or event. Custom properties also require the data type of the property to be specified, for example, whether the property holds an integer or a string. The data type must be one of the following types specified by the [**UIAutomationType**](uiauto-uiautomationtypeenum.md) enumeration. No other data types are supported for custom properties.
+2.  Fill a [**UIAutomationPropertyInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationpropertyinfo?branch=master) or a [**UIAutomationEventInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationeventinfo?branch=master) structure with information about the property or event, including the GUID and a nonlocalizable string that contains the name of the custom property or event. Custom properties also require the data type of the property to be specified, for example, whether the property holds an integer or a string. The data type must be one of the following types specified by the [**UIAutomationType**](/windows/win32/UIAutomationCore/ne-uiautomationcore-uiautomationtype?branch=master) enumeration. No other data types are supported for custom properties.
     -   **UIAutomationType\_Bool**
     -   **UIAutomationType\_Double**
     -   **UIAutomationType\_Element**
     -   **UIAutomationType\_Int**
     -   **UIAutomationType\_Point**
     -   **UIAutomationType\_String**
-3.  Use the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function to create an instance of the [**CUIAutomationRegistrar**](uiauto-cuiautomationregistrar-object.md) object and retrieve a pointer to the object's [**IUIAutomationRegistrar**](uiauto-iuiautomationregistrar.md) interface.
-4.  Call the [**IUIAutomationRegistrar::RegisterProperty**](uiauto-iuiautomationregistrar-registerproperty.md) or [**RegisterEvent**](uiauto-iuiautomationregistrar-registerevent.md) method and pass the address of the [**UIAutomationPropertyInfo**](uiauto-uiautomationpropertyinfostruct.md) structure or the [**UIAutomationEventInfo**](uiauto-uiautomationeventinfostruct.md) structure.
+3.  Use the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function to create an instance of the [**CUIAutomationRegistrar**](/windows/win32/UIAutomationCore/?branch=master) object and retrieve a pointer to the object's [**IUIAutomationRegistrar**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationregistrar?branch=master) interface.
+4.  Call the [**IUIAutomationRegistrar::RegisterProperty**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty?branch=master) or [**RegisterEvent**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerevent?branch=master) method and pass the address of the [**UIAutomationPropertyInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationpropertyinfo?branch=master) structure or the [**UIAutomationEventInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationeventinfo?branch=master) structure.
 
-The [**IUIAutomationRegistrar::RegisterProperty**](uiauto-iuiautomationregistrar-registerproperty.md) or [**RegisterEvent**](uiauto-iuiautomationregistrar-registerevent.md) method returns a property ID or event ID that an application can pass to any UI Automation method that takes such an identifier as a parameter. For example, you can pass a registered property ID to the [**IUIAutomationElement::GetCurrentPropertyValue**](uiauto-iuiautomationelement-getcurrentpropertyvalue.md) method or to the [**IUIAutomation::CreatePropertyCondition**](uiauto-iuiautomation-createpropertycondition.md) method.
+The [**IUIAutomationRegistrar::RegisterProperty**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty?branch=master) or [**RegisterEvent**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerevent?branch=master) method returns a property ID or event ID that an application can pass to any UI Automation method that takes such an identifier as a parameter. For example, you can pass a registered property ID to the [**IUIAutomationElement::GetCurrentPropertyValue**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue?branch=master) method or to the [**IUIAutomation::CreatePropertyCondition**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-createpropertycondition?branch=master) method.
 
 The following example demonstrates how to register a custom property.
 
@@ -80,12 +104,12 @@ HRESULT RegisterProperty()
 
 
 
-The property and event identifiers retrieved by the [**IUIAutomationRegistrar::RegisterProperty**](uiauto-iuiautomationregistrar-registerproperty.md) and [**RegisterEvent**](uiauto-iuiautomationregistrar-registerevent.md) methods are valid only in the context of the application that retrieves them, and only for the duration of the application's lifetime. The registration methods can return different integer values for the same GUID when it is called over different runtime instances of the same application.
+The property and event identifiers retrieved by the [**IUIAutomationRegistrar::RegisterProperty**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty?branch=master) and [**RegisterEvent**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerevent?branch=master) methods are valid only in the context of the application that retrieves them, and only for the duration of the application's lifetime. The registration methods can return different integer values for the same GUID when it is called over different runtime instances of the same application.
 
 There is no method that unregisters a custom property or event. Instead, they are implicitly unregistered when the last UI Automation object is released.
 
 > \[!Important\]  
-> If your code is a Microsoft Active Accessibility (MSAA) client, you must call the [**NotifyWinEvent**](notifywinevent.md) function when you change the value of a custom property.
+> If your code is a Microsoft Active Accessibility (MSAA) client, you must call the [**NotifyWinEvent**](/windows/win32/Winuser/nf-winuser-notifywinevent?branch=master) function when you change the value of a custom property.
 
  
 
@@ -102,11 +126,11 @@ A custom control pattern is not included in the UI Automation API, but is provid
 
 The client wrapper implements the API that is used by the client to retrieve properties and call methods exposed by the custom control pattern. The API is implemented as a COM interface that passes all property requests and method calls to the UI Automation core, which then marshals the requests and calls to the provider.
 
-The code that registers a custom control pattern must supply a class factory that UI Automation can use to create instances of the client wrapper object. When a custom control pattern is successfully registered, UI Automation returns an [**IUIAutomationPatternInstance**](uiauto-iuiautomationpatterninstance.md) interface pointer that is used by the client to forward property requests and methods calls to the UI Automation core.
+The code that registers a custom control pattern must supply a class factory that UI Automation can use to create instances of the client wrapper object. When a custom control pattern is successfully registered, UI Automation returns an [**IUIAutomationPatternInstance**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationpatterninstance?branch=master) interface pointer that is used by the client to forward property requests and methods calls to the UI Automation core.
 
 On the provider side, the UI Automation core takes the property requests and method calls from the client and passes them to the pattern handler object. The pattern handler then calls the appropriate methods on the provider interface for the custom control pattern.
 
-The code that registers a custom control pattern creates the pattern handler object and, when registering the control pattern, provides UI Automation with a pointer to the object's [**IUIAutomationPatternHandler**](uiauto-iuiautomationpatternhandler.md) interface.
+The code that registers a custom control pattern creates the pattern handler object and, when registering the control pattern, provides UI Automation with a pointer to the object's [**IUIAutomationPatternHandler**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationpatternhandler?branch=master) interface.
 
 The following diagram shows how a client property request or method call flows from the client wrapper, through the UI Automation core components to the pattern handler, and then to the provider interface.
 
@@ -116,7 +140,7 @@ The objects that implement the client wrapper and pattern handler interfaces mus
 
 ### Implementing the Client Wrapper
 
-The client wrapper is an object that exposes an IXxxPattern interface that the client uses to request properties and call methods supported by the custom control pattern. The interface consists of a pair of "getter" methods for each supported property (get\_CurrentXxx and get\_CachedXxx method), and a "caller" method for each supported method. When the object is instantiated, the object constructor receives a pointer to the [**IUIAutomationPatternInstance**](uiauto-iuiautomationpatterninstance.md) interface, which is implemented by the UI Automation core. The methods of the IXxxPattern interface use the [**IUIAutomationPatternInstance::GetProperty**](uiauto-iuiautomationpatterninstance-getproperty.md) and [**CallMethod**](uiauto-iuiautomationpatterninstance-callmethod.md) methods to forward property requests and method calls to the UI Automation core.
+The client wrapper is an object that exposes an IXxxPattern interface that the client uses to request properties and call methods supported by the custom control pattern. The interface consists of a pair of "getter" methods for each supported property (get\_CurrentXxx and get\_CachedXxx method), and a "caller" method for each supported method. When the object is instantiated, the object constructor receives a pointer to the [**IUIAutomationPatternInstance**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationpatterninstance?branch=master) interface, which is implemented by the UI Automation core. The methods of the IXxxPattern interface use the [**IUIAutomationPatternInstance::GetProperty**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationpatterninstance-getproperty?branch=master) and [**CallMethod**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationpatterninstance-callmethod?branch=master) methods to forward property requests and method calls to the UI Automation core.
 
 The following example shows how to implement a client wrapper object for a simple custom control pattern that supports a single property. For a more complex example, see [Example Implementation of a Custom Control Pattern](#example-implementation-of-a-custom-control-pattern).
 
@@ -168,11 +192,11 @@ public:
 
 ### Implementing the Pattern Handler
 
-The pattern handler is an object that implements the [**IUIAutomationPatternHandler**](uiauto-iuiautomationpatternhandler.md) interface. This interface has two methods: [**IUIAutomationPatternHandler::CreateClientWrapper**](uiauto-iuiautomationpatternhandler-createclientwrapper.md) and [**Dispatch**](uiauto-iuiautomationpatternhandler-dispatch.md). The **CreateClientWrapper** method is called by the UI Automation core and receives a pointer to the [**IUIAutomationPatternInstance**](uiauto-iuiautomationpatterninstance.md) interface. **CreateClientWrapper** responds by instantiating the client wrapper object and passing the **IUIAutomationPatternInstance** interface pointer to the client wrapper constructor.
+The pattern handler is an object that implements the [**IUIAutomationPatternHandler**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationpatternhandler?branch=master) interface. This interface has two methods: [**IUIAutomationPatternHandler::CreateClientWrapper**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationpatternhandler-createclientwrapper?branch=master) and [**Dispatch**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationpatternhandler-dispatch?branch=master). The **CreateClientWrapper** method is called by the UI Automation core and receives a pointer to the [**IUIAutomationPatternInstance**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationpatterninstance?branch=master) interface. **CreateClientWrapper** responds by instantiating the client wrapper object and passing the **IUIAutomationPatternInstance** interface pointer to the client wrapper constructor.
 
-The [**Dispatch**](uiauto-iuiautomationpatternhandler-dispatch.md) method is used by the UI Automation core to pass property requests and method calls to the provider interface for the custom control pattern. Parameters include a pointer to the provider interface, the zero-based index of the property getter or method being called, and an array of [**UIAutomationParameter**](uiauto-uiautomationparameterstruct.md) structures that contain the parameters to pass to the provider. The pattern handler responds by checking the index parameter to determine which provider method to call, and then calls that provider interface, passing the parameters contained in the **UIAutomationParameter** structures.
+The [**Dispatch**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationpatternhandler-dispatch?branch=master) method is used by the UI Automation core to pass property requests and method calls to the provider interface for the custom control pattern. Parameters include a pointer to the provider interface, the zero-based index of the property getter or method being called, and an array of [**UIAutomationParameter**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationparameter?branch=master) structures that contain the parameters to pass to the provider. The pattern handler responds by checking the index parameter to determine which provider method to call, and then calls that provider interface, passing the parameters contained in the **UIAutomationParameter** structures.
 
-The pattern handler object is instantiated by the same code that registers the custom control pattern, before the control pattern is registered. The code must pass the pattern handler object's [**IUIAutomationPatternHandler**](uiauto-iuiautomationpatternhandler.md) interface pointer to the UI Automation core at registration time.
+The pattern handler object is instantiated by the same code that registers the custom control pattern, before the control pattern is registered. The code must pass the pattern handler object's [**IUIAutomationPatternHandler**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationpatternhandler?branch=master) interface pointer to the UI Automation core at registration time.
 
 The following example shows how to implement a pattern handler object for a simple custom control pattern that supports a single property. For a more complex example, see [Example Implementation of a Custom Control Pattern](#example-implementation-of-a-custom-control-pattern).
 
@@ -230,18 +254,18 @@ When registering a custom control pattern, the provider or client supplies the f
 -   A nonlocalizable string containing the name of the custom control pattern.
 -   The GUID of the provider interface that supports the custom control pattern.
 -   The GUID of the client interface that supports the custom control pattern.
--   An array of [**UIAutomationPropertyInfo**](uiauto-uiautomationpropertyinfostruct.md) structures that describe the properties supported by the custom control pattern. For each property, the GUID, property name, and data type must be specified.
--   An array of [**UIAutomationMethodInfo**](uiauto-uiautomationmethodinfostruct.md) structures that describe the methods supported by the custom control pattern. For each method, the structure includes the following information: the method name, a count of parameters, a list of parameter data types, and a list of the parameter names.
--   An array of [**UIAutomationEventInfo**](uiauto-uiautomationeventinfostruct.md) structures that describe the events raised by the custom control pattern. For each event, the GUID and event name must be specified.
--   The address of the [**IUIAutomationPatternHandler**](uiauto-iuiautomationpatternhandler.md) interface of the pattern handler object that makes the custom control pattern available to clients.
+-   An array of [**UIAutomationPropertyInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationpropertyinfo?branch=master) structures that describe the properties supported by the custom control pattern. For each property, the GUID, property name, and data type must be specified.
+-   An array of [**UIAutomationMethodInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationmethodinfo?branch=master) structures that describe the methods supported by the custom control pattern. For each method, the structure includes the following information: the method name, a count of parameters, a list of parameter data types, and a list of the parameter names.
+-   An array of [**UIAutomationEventInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationeventinfo?branch=master) structures that describe the events raised by the custom control pattern. For each event, the GUID and event name must be specified.
+-   The address of the [**IUIAutomationPatternHandler**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationpatternhandler?branch=master) interface of the pattern handler object that makes the custom control pattern available to clients.
 
 To register the custom control pattern, the provider or client code must perform the following steps:
 
-1.  Fill a [**UIAutomationPatternInfo**](uiauto-uiautomationpatterninfostruct.md) structure with the preceding information.
-2.  Use the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function to create an instance of the [**CUIAutomationRegistrar**](uiauto-cuiautomationregistrar-object.md) object and retrieve a pointer to the object's [**IUIAutomationRegistrar**](uiauto-iuiautomationregistrar.md) interface.
-3.  Call the [**IUIAutomationRegistrar::RegisterPattern**](uiauto-iuiautomationregistrar-registerpattern.md) method, passing the address of the [**UIAutomationPatternInfo**](uiauto-uiautomationpatterninfostruct.md) structure.
+1.  Fill a [**UIAutomationPatternInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationpatterninfo?branch=master) structure with the preceding information.
+2.  Use the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function to create an instance of the [**CUIAutomationRegistrar**](/windows/win32/UIAutomationCore/?branch=master) object and retrieve a pointer to the object's [**IUIAutomationRegistrar**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationregistrar?branch=master) interface.
+3.  Call the [**IUIAutomationRegistrar::RegisterPattern**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerpattern?branch=master) method, passing the address of the [**UIAutomationPatternInfo**](/windows/win32/UIAutomationCore/ns-uiautomationcore-uiautomationpatterninfo?branch=master) structure.
 
-The [**RegisterPattern**](uiauto-iuiautomationregistrar-registerpattern.md) method returns a control pattern ID, along with a list of property IDs and event IDs. An application can pass these IDs to any UI Automation method that takes such an identifier as a parameter. For example, you can pass a registered pattern ID to the [**IUIAutomationElement::GetCurrentPattern**](uiauto-iuiautomationelement-getcurrentpattern.md) method to retrieve a pointer to the provider interface for the control pattern.
+The [**RegisterPattern**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerpattern?branch=master) method returns a control pattern ID, along with a list of property IDs and event IDs. An application can pass these IDs to any UI Automation method that takes such an identifier as a parameter. For example, you can pass a registered pattern ID to the [**IUIAutomationElement::GetCurrentPattern**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcurrentpattern?branch=master) method to retrieve a pointer to the provider interface for the control pattern.
 
 There is no method that unregisters a custom control pattern. Instead, it is implicitly unregistered when the last UI Automation object is released.
 

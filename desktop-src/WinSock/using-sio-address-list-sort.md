@@ -1,7 +1,12 @@
 ---
-Description: 'The SIO\_ADDRESS\_LIST\_SORT IOCTL allows application developers to sort a list of IPv6 and IPv4 destination addresses to determine the best available address for making a connection. The SIO\_ADDRESS\_LIST\_SORT IOCTL is supported on Windows XP and later.'
-ms.assetid: 'bf380ddf-8171-4ef4-be47-94c7a6aabf0a'
-title: 'Using SIO\_ADDRESS\_LIST\_SORT'
+Description: The SIO\_ADDRESS\_LIST\_SORT IOCTL allows application developers to sort a list of IPv6 and IPv4 destination addresses to determine the best available address for making a connection. The SIO\_ADDRESS\_LIST\_SORT IOCTL is supported on Windows XP and later.
+ms.assetid: bf380ddf-8171-4ef4-be47-94c7a6aabf0a
+title: Using SIO\_ADDRESS\_LIST\_SORT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SIO\_ADDRESS\_LIST\_SORT
@@ -14,13 +19,13 @@ The following sections describe usage considerations for **SIO\_ADDRESS\_LIST\_S
 
 ## Parameters
 
-The buffer passed to **SIO\_ADDRESS\_LIST\_SORT** is a [**SOCKET\_ADDRESS\_LIST**](socket-address-list.md) structure. Each [**SOCKET\_ADDRESS**](socket-address-2.md) in the list must be in SOCKADDR\_IN6 format.
+The buffer passed to **SIO\_ADDRESS\_LIST\_SORT** is a [**SOCKET\_ADDRESS\_LIST**](/windows/win32/Ws2def/?branch=master) structure. Each [**SOCKET\_ADDRESS**](/windows/win32/Ws2def/ns-ws2def-_socket_address?branch=master) in the list must be in SOCKADDR\_IN6 format.
 
 The **SIO\_ADDRESS\_LIST\_SORT** IOCTL sorts both IPv6 and IPv4 addresses on Windows Vista and later. Any IPv4 addresses in the list to be sorted must be in the IPv4-mapped IPv6 address format. For more information on the IPv4-mapped IPv6 address format, see [Dual-Stack Sockets](dual-stack-sockets.md).
 
 On Windows Server 2003, and Windows XP, **SIO\_ADDRESS\_LIST\_SORT** sorts only IPv6 addresses. IPv4 addresses in the IPv4-mapped IPv6 address format are not supported.
 
-On output, the **iAddressCount** member of the [**SOCKET\_ADDRESS\_LIST**](socket-address-list.md) structure may be smaller than on input if the IOCTL code determines that some destination addresses are invalid.
+On output, the **iAddressCount** member of the [**SOCKET\_ADDRESS\_LIST**](/windows/win32/Ws2def/?branch=master) structure may be smaller than on input if the IOCTL code determines that some destination addresses are invalid.
 
 ## Sorting Determination
 

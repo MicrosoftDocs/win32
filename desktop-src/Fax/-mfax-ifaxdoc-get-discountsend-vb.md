@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the DiscountSend property for a FaxDoc object. The DiscountSend property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.'
-ms.assetid: 'f7a084fe-abab-44ed-9198-df75cd196ed8'
-title: 'FaxDoc.DiscountSend property'
+---
+Description: Sets or retrieves the DiscountSend property for a FaxDoc object. The DiscountSend property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
+ms.assetid: f7a084fe-abab-44ed-9198-df75cd196ed8
+title: FaxDoc.DiscountSend property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.DiscountSend property
@@ -25,7 +30,7 @@ A **Boolean** that specifies or receives a value that indicates whether the fax 
 
 ## Remarks
 
-To determine the period during which the discount rate applies, you can call the following [**IFaxServer**](-mfax-ifaxserver-client.md) methods: [**DiscountRateStartMinute**](-mfax-ifaxserver-get-discountratestartminute-vb.md), [**DiscountRateEndMinute**](-mfax-ifaxserver-get-discountrateendminute-vb.md), [**DiscountRateStartHour**](-mfax-ifaxserver-get-discountratestarthour-vb.md), and [**DiscountRateEndHour**](-mfax-ifaxserver-get-discountrateendhour-vb.md).
+To determine the period during which the discount rate applies, you can call the following [**IFaxServer**](/windows/previous-versions/faxcom/nn-faxcom-ifaxserver?branch=master) methods: [**DiscountRateStartMinute**](-mfax-ifaxserver-get-discountratestartminute-vb.md), [**DiscountRateEndMinute**](-mfax-ifaxserver-get-discountrateendminute-vb.md), [**DiscountRateStartHour**](-mfax-ifaxserver-get-discountratestarthour-vb.md), and [**DiscountRateEndHour**](-mfax-ifaxserver-get-discountrateendhour-vb.md).
 
 ## Requirements
 
@@ -53,7 +58,7 @@ To determine the period during which the discount rate applies, you can call the
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [**DiscountRateStartHour**](-mfax-ifaxserver-get-discountratestarthour-vb.md)

@@ -1,13 +1,16 @@
 ---
-Description: 'The well-known identifier \_\_CLASS refers to a pseudo-property on every WMI object that indicates the class of the current object.'
+Description: The well-known identifier \_\_CLASS refers to a pseudo-property on every WMI object that indicates the class of the current object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a1d0e934-c5b5-4554-9d6e-3881064419ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a1d0e934-c5b5-4554-9d6e-3881064419ca
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_CLASS Identifier'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_CLASS Identifier

@@ -1,8 +1,29 @@
 ---
 title: Basic OpenGL Operation
 description: Basic OpenGL Operation
-ms.assetid: 'ad4c9321-a9e3-40c5-af80-0ad6a8b9f380'
-keywords: ["OpenGL,basic operations", "OpenGL,data processing", "OpenGL,processing stages", "OpenGL,display lists", "display lists OpenGL", "OpenGL,evaluators", "evaluators OpenGL", "OpenGL,per-vertex operations", "per-vertex operations OpenGL", "OpenGL,primitive assembly", "primitive assembly OpenGL", "OpenGL,rasterization", "rasterization OpenGL", "OpenGL,per-fragment operations", "per-fragment operations OpenGL", "framebuffers,basic operations"]
+ms.assetid: ad4c9321-a9e3-40c5-af80-0ad6a8b9f380
+keywords:
+- OpenGL,basic operations
+- OpenGL,data processing
+- OpenGL,processing stages
+- OpenGL,display lists
+- display lists OpenGL
+- OpenGL,evaluators
+- evaluators OpenGL
+- OpenGL,per-vertex operations
+- per-vertex operations OpenGL
+- OpenGL,primitive assembly
+- primitive assembly OpenGL
+- OpenGL,rasterization
+- rasterization OpenGL
+- OpenGL,per-fragment operations
+- per-fragment operations OpenGL
+- framebuffers,basic operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic OpenGL Operation

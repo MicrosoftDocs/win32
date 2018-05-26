@@ -4,11 +4,14 @@ description: Deletes a group from the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b1831340-67b9-458c-8669-c8e5e4973c28'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b1831340-67b9-458c-8669-c8e5e4973c28
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Delete method Failover Cluster", "Delete method Failover Cluster , ClusResGroup class", "ClusResGroup class Failover Cluster , Delete method"]
+keywords:
+- Delete method Failover Cluster
+- Delete method Failover Cluster , ClusResGroup class
+- ClusResGroup class Failover Cluster , Delete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup.Delete method
@@ -53,7 +59,7 @@ A group cannot be deleted while it contains resources.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +75,9 @@ A group cannot be deleted while it contains resources.
 [**ClusResGroup**](clusresgroup-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

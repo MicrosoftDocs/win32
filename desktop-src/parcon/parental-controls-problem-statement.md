@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls Problem Statement
-ms.assetid: '45918739-de36-4b92-824f-ad7c23995ec2'
+ms.assetid: 45918739-de36-4b92-824f-ad7c23995ec2
 title: Parental Controls Problem Statement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Problem Statement

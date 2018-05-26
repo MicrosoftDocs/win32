@@ -1,7 +1,12 @@
 ---
 Description: Debug Output Functions
-ms.assetid: 'dfe44c8c-43ec-461f-952f-b87256b82ee6'
+ms.assetid: dfe44c8c-43ec-461f-952f-b87256b82ee6
 title: Debug Output Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debug Output Functions

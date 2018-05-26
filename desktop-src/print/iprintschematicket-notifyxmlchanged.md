@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies the print system that the XML DOM object has changed.'
-ms.assetid: 'B9A0C9EC-6C37-4C42-A10A-8CEE028C5998'
-title: 'IPrintSchemaTicket::NotifyXmlChanged method'
+---
+Description: Notifies the print system that the XML DOM object has changed.
+ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
+title: IPrintSchemaTicketNotifyXmlChanged method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket::NotifyXmlChanged method

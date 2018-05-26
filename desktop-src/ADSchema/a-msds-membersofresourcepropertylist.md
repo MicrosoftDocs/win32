@@ -4,17 +4,22 @@ description: For a resource property list object, this multi-valued link attribu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9524b51f-4dd3-45c5-93f9-74cd390f3e10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9524b51f-4dd3-45c5-93f9-74cd390f3e10
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Members-Of-Resource-Property-List attribute AD Schema", "msDS-MembersOfResourcePropertyList attribute AD Schema"]
+keywords:
+- ms-DS-Members-Of-Resource-Property-List attribute AD Schema
+- msDS-MembersOfResourcePropertyList attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Members-Of-Resource-Property-List
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Members-Of-Resource-Property-List attribute
@@ -38,7 +43,7 @@ For a resource property list object, this multi-valued link attribute points to 
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a resource property list object, this multi-valued link attribute points to 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

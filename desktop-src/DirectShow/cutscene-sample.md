@@ -1,7 +1,12 @@
 ---
 Description: CutScene Sample
-ms.assetid: '7a73c9f0-4d3c-4c39-bcd3-168f112bf667'
+ms.assetid: 7a73c9f0-4d3c-4c39-bcd3-168f112bf667
 title: CutScene Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CutScene Sample

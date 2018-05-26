@@ -1,8 +1,14 @@
 ---
 title: Context Uniqueness
 description: NetShell is designed to be scripted and to be used remotely.
-ms.assetid: '9118f70b-cb6d-45ef-8f5c-8d6b164aa82a'
-keywords: ["helper NetSh , command syntax, context uniqueness"]
+ms.assetid: 9118f70b-cb6d-45ef-8f5c-8d6b164aa82a
+keywords:
+- helper NetSh , command syntax, context uniqueness
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Context Uniqueness

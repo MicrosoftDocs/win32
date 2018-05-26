@@ -1,13 +1,16 @@
 ---
-Description: 'This section provides a list of objects used in security descriptors and constants used in methods that manipulate security descriptors or privileges.'
+Description: This section provides a list of objects used in security descriptors and constants used in methods that manipulate security descriptors or privileges.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dbf0bb52-8921-40a5-866b-ae03d7447a76'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dbf0bb52-8921-40a5-866b-ae03d7447a76
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Security

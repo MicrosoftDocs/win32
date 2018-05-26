@@ -1,14 +1,20 @@
 ---
 title: SizeDefinition element
 description: Represents a custom layout template of Ribbon controls.
-ms.assetid: 'f90bb469-aee2-4bba-9efe-142a39a8c1ae'
-keywords: ["SizeDefinition element Windows Ribbon"]
+ms.assetid: f90bb469-aee2-4bba-9efe-142a39a8c1ae
+keywords:
+- SizeDefinition element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - SizeDefinition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SizeDefinition element
@@ -188,7 +194,7 @@ The following code example illustrates a basic custom template.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -200,9 +206,9 @@ The following code example illustrates a basic custom template.
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: Microsoft Management Console (MMC) snap-in customization can extend
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7fe80c33-bc73-4f84-9fe9-43cd922c130d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 7fe80c33-bc73-4f84-9fe9-43cd922c130d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Microsoft Management Console MMC ,extending the Active Directory administrative snap-ins"]
+keywords:
+- Microsoft Management Console MMC ,extending the Active Directory administrative snap-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Active Directory Administrative Snap-ins

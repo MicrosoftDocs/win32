@@ -1,8 +1,9 @@
 ---
 title: Controls.audioLanguageCount
 description: The audioLanguageCount property retrieves the count of supported audio languages.
-ms.assetid: 'a6dda8bf-db8c-4e97-9277-5a23dfa93156'
-keywords: ["Controls.audioLanguageCount Windows Media Player"]
+ms.assetid: a6dda8bf-db8c-4e97-9277-5a23dfa93156
+keywords:
+- Controls.audioLanguageCount Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.audioLanguageCount
@@ -65,9 +71,9 @@ For Windows Media-based content, properties and methods related to language sele
 [**Controls.getLanguageName**](controls-getlanguagename.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

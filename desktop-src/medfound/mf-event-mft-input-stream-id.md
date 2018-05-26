@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies an input stream on a Media Foundation transform (MFT).'
-ms.assetid: '2922af62-3fcc-4153-a26a-aba3c4121a0b'
-title: 'MF\_EVENT\_MFT\_INPUT\_STREAM\_ID attribute'
+---
+Description: Specifies an input stream on a Media Foundation transform (MFT).
+ms.assetid: 2922af62-3fcc-4153-a26a-aba3c4121a0b
+title: MF\_EVENT\_MFT\_INPUT\_STREAM\_ID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_MFT\_INPUT\_STREAM\_ID attribute
@@ -16,13 +21,13 @@ The value is an input stream identifier.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFMediaEvent**](imfmediaevent.md)
+[**IMFMediaEvent**](/windows/win32/mfobjects/nn-mfobjects-imfmediaevent?branch=master)
 
 ## Remarks
 

@@ -1,8 +1,21 @@
 ---
 title: Property Management Helper Functions
 description: Property Management Helper Functions
-ms.assetid: '0b01e0e6-cb33-49a0-b114-b5f464df4ddd'
-keywords: ["Windows Movie Maker,helper functions", "Movie Maker,helper functions", "programming reference,Windows Movie Maker helper functions", "reference for Windows Movie Maker,helper functions", "Windows Movie Maker,property management helper functions", "Movie Maker,property management helper functions", "programming reference,Windows Movie Maker property management helper functions", "reference for Windows Movie Maker,property management helper functions"]
+ms.assetid: 0b01e0e6-cb33-49a0-b114-b5f464df4ddd
+keywords:
+- Windows Movie Maker,helper functions
+- Movie Maker,helper functions
+- programming reference,Windows Movie Maker helper functions
+- reference for Windows Movie Maker,helper functions
+- Windows Movie Maker,property management helper functions
+- Movie Maker,property management helper functions
+- programming reference,Windows Movie Maker property management helper functions
+- reference for Windows Movie Maker,property management helper functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Management Helper Functions

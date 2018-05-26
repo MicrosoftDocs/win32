@@ -1,14 +1,20 @@
 ---
 title: JobParameters element
 description: Describes the parameters of a job.
-ms.assetid: 'BC14CEB1-7E8D-4739-89BC-E564B89B048A'
-keywords: ["JobParameters element Access Execution Engine"]
+ms.assetid: BC14CEB1-7E8D-4739-89BC-E564B89B048A
+keywords:
+- JobParameters element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - JobParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobParameters element
@@ -83,7 +89,7 @@ There are no attributes.
 
 ## Remarks
 
-As a solution assembles a job, the assessment management API's will check some of these parameters for consistency – returning warnings to the solution as appropriate.
+As a solution assembles a job, the assessment management API's will check some of these parameters for consistency   returning warnings to the solution as appropriate.
 
 The AXE assessment management object model will save and restore job parameters changed by a solution.
 
@@ -107,9 +113,9 @@ The AXE assessment management object model will save and restore job parameters 
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

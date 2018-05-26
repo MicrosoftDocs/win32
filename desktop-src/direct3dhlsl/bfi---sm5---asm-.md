@@ -1,7 +1,12 @@
 ---
 title: bfi (sm5 - asm)
 description: Given a bit range from the LSB of a number, place that number of bits in another number at any offset.
-ms.assetid: 'BA84C882-A141-4AD2-8FD9-C60F1483FC65'
+ms.assetid: BA84C882-A141-4AD2-8FD9-C60F1483FC65
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bfi (sm5 - asm)
@@ -15,7 +20,7 @@ Given a bit range from the LSB of a number, place that number of bits in another
 
 
 
- 
+ 
 
 
 
@@ -29,7 +34,7 @@ Given a bit range from the LSB of a number, place that number of bits in another
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -74,7 +79,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -83,9 +88,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

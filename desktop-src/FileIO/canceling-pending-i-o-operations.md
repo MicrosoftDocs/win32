@@ -1,12 +1,17 @@
 ---
-Description: 'Allowing users to cancel I/O requests that are slow or blocked can enhance the usability and robustness of your application.'
-ms.assetid: 'adfe6d05-f30b-40a1-b3b0-58e2593e7b25'
-title: 'Canceling Pending I/O Operations'
+Description: Allowing users to cancel I/O requests that are slow or blocked can enhance the usability and robustness of your application.
+ms.assetid: adfe6d05-f30b-40a1-b3b0-58e2593e7b25
+title: Canceling Pending I/O Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Canceling Pending I/O Operations
 
-Allowing users to cancel I/O requests that are slow or blocked can enhance the usability and robustness of your application. For example, if a call to the [**OpenFile**](openfile.md) function is blocked because the call is to a very slow device, canceling it enables the call to be made again, with new parameters, without terminating the application.
+Allowing users to cancel I/O requests that are slow or blocked can enhance the usability and robustness of your application. For example, if a call to the [**OpenFile**](/windows/win32/WinBase/nf-winbase-openfile?branch=master) function is blocked because the call is to a very slow device, canceling it enables the call to be made again, with new parameters, without terminating the application.
 
 Windows Vista extends the cancellation capabilities and includes support for canceling synchronous operations.
 
@@ -24,12 +29,12 @@ When programming cancellation calls, keep in mind the following considerations:
 
 ## Operations That Cannot Be Canceled
 
-Some functions cannot be canceled using the [**CancelIo**](cancelio.md), [**CancelIoEx**](cancelioex-func.md), or [**CancelSynchronousIo**](cancelsynchronousio-func.md) function. Some of these functions have been extended to allow cancellation (for example, the [**CopyFileEx**](copyfileex.md) function) and you should use these instead. In addition to supporting cancellation, these functions also have built-in callbacks to support you when tracking the progress of the operation. The following functions do not support cancellation:
+Some functions cannot be canceled using the [**CancelIo**](cancelio.md), [**CancelIoEx**](cancelioex-func.md), or [**CancelSynchronousIo**](cancelsynchronousio-func.md) function. Some of these functions have been extended to allow cancellation (for example, the [**CopyFileEx**](/windows/win32/WinBase/nf-winbase-copyfileexa?branch=master) function) and you should use these instead. In addition to supporting cancellation, these functions also have built-in callbacks to support you when tracking the progress of the operation. The following functions do not support cancellation:
 
--   [**CopyFile**](copyfile.md)—use [**CopyFileEx**](copyfileex.md)
--   [**MoveFile**](movefile.md)—use [**MoveFileWithProgress**](movefilewithprogress.md)
--   [**MoveFileEx**](movefileex.md)—use [**MoveFileWithProgress**](movefilewithprogress.md)
--   [**ReplaceFile**](replacefile.md)
+-   [**CopyFile**](/windows/win32/WinBase/nf-winbase-copyfile?branch=master)—use [**CopyFileEx**](/windows/win32/WinBase/nf-winbase-copyfileexa?branch=master)
+-   [**MoveFile**](/windows/win32/WinBase/nf-winbase-movefile?branch=master)—use [**MoveFileWithProgress**](/windows/win32/WinBase/nf-winbase-movefilewithprogressa?branch=master)
+-   [**MoveFileEx**](/windows/win32/WinBase/nf-winbase-movefileexa?branch=master)—use [**MoveFileWithProgress**](/windows/win32/WinBase/nf-winbase-movefilewithprogressa?branch=master)
+-   [**ReplaceFile**](/windows/win32/WinBase/nf-winbase-replacefilea?branch=master)
 
 For more information, see [I/O Completion/Cancellation Guidelines](Http://go.microsoft.com/fwlink/p/?linkid=85346).
 
@@ -169,7 +174,7 @@ You can cancel synchronous I/O from any thread in the process that issued the I/
 
 The following example shows two routines:
 
--   The **SynchronousIoWorker** function is a worker thread that implements some synchronous file I/O, starting with a call to the [**CreateFile**](createfile.md) function. If the routine is successful, the routine can be followed by additional operations, which are not included here. The global variable *gCompletionStatus* can be used to determine whether all operations succeeded or whether an operation failed or was canceled. The global variable *dwOperationInProgress* indicates whether file I/O is still in progress.
+-   The **SynchronousIoWorker** function is a worker thread that implements some synchronous file I/O, starting with a call to the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function. If the routine is successful, the routine can be followed by additional operations, which are not included here. The global variable *gCompletionStatus* can be used to determine whether all operations succeeded or whether an operation failed or was canceled. The global variable *dwOperationInProgress* indicates whether file I/O is still in progress.
 
     **Note**  In this example, the UI thread could also check for the existence of the worker thread.
 

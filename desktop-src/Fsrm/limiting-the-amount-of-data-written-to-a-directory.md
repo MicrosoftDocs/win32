@@ -4,11 +4,16 @@ description: A quota limits the amount of data that the system or any user can s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '01934a5a-9a39-4d78-8837-e0c81a06cb4b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 01934a5a-9a39-4d78-8837-e0c81a06cb4b
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , limiting the amount of data written to a directory", "quotas File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , limiting the amount of data written to a directory
+- quotas File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Limiting the Amount of Data Written to a Directory

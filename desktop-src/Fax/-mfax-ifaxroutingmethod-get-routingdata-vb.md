@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RoutingData property is a null-terminated string that contains the routing string for an incoming fax transmission.'
-ms.assetid: 'aff86dda-f252-4ba1-80f6-1cf09732ddf6'
-title: 'FaxRoutingMethod.RoutingData property'
+---
+Description: The RoutingData property is a null-terminated string that contains the routing string for an incoming fax transmission.
+ms.assetid: aff86dda-f252-4ba1-80f6-1cf09732ddf6
+title: FaxRoutingMethod.RoutingData property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.RoutingData property
@@ -53,10 +58,10 @@ A **String** that receives the routing string for an incoming fax transmission. 
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Winsock catalog change event for a layered service provider (LSP) installation operation.'
-ms.assetid: '76A3D175-8CDC-486C-8341-D6314BCEC113'
-title: 'WINSOCK\_WS2HELP\_LSP\_INSTALL event'
+---
+Description: Winsock catalog change event for a layered service provider (LSP) installation operation.
+ms.assetid: 76A3D175-8CDC-486C-8341-D6314BCEC113
+title: WINSOCK\_WS2HELP\_LSP\_INSTALL event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINSOCK\_WS2HELP\_LSP\_INSTALL event
@@ -27,7 +32,7 @@ const EVENT_DESCRIPTOR WINSOCK_WS2HELP_LSP_INSTALL = {0x1, 0x0, 0x10, 0x0, 0x0, 
 *LSP Name* 
 </dt> <dd>
 
-The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md) structure for the LSP being installed.
+The name of the LSP as obtained from the **szProtocol** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master) structure for the LSP being installed.
 
 </dd> <dt>
 
@@ -55,7 +60,7 @@ The GUID value of the Winsock transport provider that the LSP is being installed
 *Category* 
 </dt> <dd>
 
-The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md) structure for the LSP being installed.
+The **dwCatalogEntryId** member of the [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master) structure for the LSP being installed.
 
 </dd> </dl>
 

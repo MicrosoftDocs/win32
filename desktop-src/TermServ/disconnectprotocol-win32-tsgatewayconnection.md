@@ -1,14 +1,17 @@
 ---
 title: DisconnectProtocol method of the Win32\_TSGatewayConnection class
-description: Disconnects all connections of the specified protocol from the Remote Desktop Gateway (RD Gateway) server.
+description: Disconnects all connections of the specified protocol from the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0ca3f478-dfdc-404e-ac17-43b6873b7256'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0ca3f478-dfdc-404e-ac17-43b6873b7256
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DisconnectProtocol method Remote Desktop Services", "DisconnectProtocol method Remote Desktop Services , Win32_TSGatewayConnection class", "Win32_TSGatewayConnection class Remote Desktop Services , DisconnectProtocol method"]
+keywords:
+- DisconnectProtocol method Remote Desktop Services
+- DisconnectProtocol method Remote Desktop Services , Win32_TSGatewayConnection class
+- Win32_TSGatewayConnection class Remote Desktop Services , DisconnectProtocol method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisconnectProtocol method of the Win32\_TSGatewayConnection class
 
-Disconnects all connections of the specified protocol from the Remote Desktop Gateway (RD Gateway) server.
+Disconnects all connections of the specified protocol from the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
 
 ```mof
 uint32 DisconnectProtocol(
-  [in] string ProtocolName
+  [in] string ProtocolName
 );
 ```
 
@@ -48,7 +54,7 @@ The protocol name for a specific connection. This can be retrieved from the **Pr
 "TS"
 </dt> <dd>
 
-The protocol for the RD Gateway server.
+The protocol for the RD Gateway server.
 
 </dd> </dl> </dd> </dl>
 
@@ -69,7 +75,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -83,9 +89,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnection**](win32-tsgatewayconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

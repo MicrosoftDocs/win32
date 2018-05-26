@@ -1,13 +1,28 @@
 ---
 title: SpreadsheetItem Control Pattern
 description: Describes guidelines and conventions for implementing ISpreadsheetItemProvider, including information about properties and methods.
-ms.assetid: 'AADD06C5-CF51-4A1A-9ACB-3E896050D7DD'
-keywords: ["UI Automation,implementing SpreadsheetItem control pattern", "UI Automation,SpreadsheetItem control pattern", "UI Automation,ISpreadsheetItemProvider", "ISpreadsheetItemProvider", "implementing UI Automation SpreadsheetItem control pattern", "SpreadsheetItem control pattern", "control patterns,ISpreadsheetItemProvider", "control patterns,implementing UI Automation SpreadsheetItem", "control patterns,SpreadsheetItem", "interfaces,ISpreadsheetItemProvider"]
+ms.assetid: AADD06C5-CF51-4A1A-9ACB-3E896050D7DD
+keywords:
+- UI Automation,implementing SpreadsheetItem control pattern
+- UI Automation,SpreadsheetItem control pattern
+- UI Automation,ISpreadsheetItemProvider
+- ISpreadsheetItemProvider
+- implementing UI Automation SpreadsheetItem control pattern
+- SpreadsheetItem control pattern
+- control patterns,ISpreadsheetItemProvider
+- control patterns,implementing UI Automation SpreadsheetItem
+- control patterns,SpreadsheetItem
+- interfaces,ISpreadsheetItemProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpreadsheetItem Control Pattern
 
-Describes guidelines and conventions for implementing [**ISpreadsheetItemProvider**](uiauto-ispreadsheetitemprovider.md), including information about properties and methods. The **SpreadsheetItem** control pattern is used to expose the properties of a cell in a spreadsheet or other grid-based document.
+Describes guidelines and conventions for implementing [**ISpreadsheetItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ispreadsheetitemprovider?branch=master), including information about properties and methods. The **SpreadsheetItem** control pattern is used to expose the properties of a cell in a spreadsheet or other grid-based document.
 
 The **SpreadsheetItem** control pattern is closely related to the [GridItem](uiauto-implementinggriditem.md) control pattern; controls that implement the **SpreadsheetItem** control pattern should also implement the GridItem control pattern. Controls can also implement the [TableItem](uiauto-implementingtableitem.md) control pattern, if appropriate. For examples of controls that implement these control patterns, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
 
@@ -26,7 +41,7 @@ When implementing the **SpreadsheetItem** control pattern, note the following gu
 
 ## Required Members for **ISpreadsheetItemProvider**
 
-The following properties and methods are required for implementing the [**ISpreadsheetItemProvider**](uiauto-ispreadsheetitemprovider.md) interface.
+The following properties and methods are required for implementing the [**ISpreadsheetItemProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ispreadsheetitemprovider?branch=master) interface.
 
 
 

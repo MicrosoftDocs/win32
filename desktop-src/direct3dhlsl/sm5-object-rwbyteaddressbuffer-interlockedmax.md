@@ -1,14 +1,20 @@
 ---
 title: InterlockedMax function
 description: Finds the maximum value, atomically.
-ms.assetid: '2e78065f-c1ee-47ac-a826-c8a46c730c4a'
-keywords: ["InterlockedMax function HLSL"]
+ms.assetid: 2e78065f-c1ee-47ac-a826-c8a46c730c4a
+keywords:
+- InterlockedMax function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedMax
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedMax function

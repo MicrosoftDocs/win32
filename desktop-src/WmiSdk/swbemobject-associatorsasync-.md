@@ -1,13 +1,16 @@
 ---
-Description: 'The AssociatorsAsync\_ method of SWbemObject obtains objects (classes or instances) that are associated with the current object. These objects are called endpoints. This method performs the same function that the ASSOCIATORS OF WQL query performs.'
+Description: The AssociatorsAsync\_ method of SWbemObject obtains objects (classes or instances) that are associated with the current object. These objects are called endpoints. This method performs the same function that the ASSOCIATORS OF WQL query performs.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c71e11cd-39a5-40d8-b279-f5ee9ff3ae04'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c71e11cd-39a5-40d8-b279-f5ee9ff3ae04
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.AssociatorsAsync\_ method'
+title: SWbemObject.AssociatorsAsync\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.AssociatorsAsync\_ method
@@ -211,8 +214,8 @@ For more information about the ASSOCIATORS OF associated WQL queries, source ins
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -237,9 +240,9 @@ For more information about the ASSOCIATORS OF associated WQL queries, source ins
 [**SWbemServices.ReferencesTo**](swbemservices-referencesto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

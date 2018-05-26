@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the Device Association Endpoint Container Supports Rendering.'
-ms.assetid: '240065af-b0bc-4c2f-b483-724e0cb1f358'
-title: 'System.Devices.AepContainer.SupportsRendering'
+Description: Indicates if the Device Association Endpoint Container Supports Rendering.
+ms.assetid: 240065af-b0bc-4c2f-b483-724e0cb1f358
+title: System.Devices.AepContainer.SupportsRendering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.SupportsRendering

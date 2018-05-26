@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperUni2 interface derives from the IPrintCoreHelperUni interface and adds a method.'
-ms.assetid: 'F7EC4309-1274-4DA1-B006-A716627010F6'
+---
+Description: The IPrintCoreHelperUni2 interface derives from the IPrintCoreHelperUni interface and adds a method.
+ms.assetid: F7EC4309-1274-4DA1-B006-A716627010F6
 title: IPrintCoreHelperUni2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni2 interface

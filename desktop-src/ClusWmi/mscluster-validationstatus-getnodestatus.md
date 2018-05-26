@@ -4,13 +4,16 @@ description: Gets the validation status of the node(s) not yet clustered.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '872C40AC-D8A2-4244-8DD5-9D561127D4A5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 872C40AC-D8A2-4244-8DD5-9D561127D4A5
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetNodeStatus method", "GetNodeStatus method, MSCluster_ValidationStatus interface", "MSCluster_ValidationStatus interface, GetNodeStatus method"]
+keywords:
+- GetNodeStatus method
+- GetNodeStatus method, MSCluster_ValidationStatus interface
+- MSCluster_ValidationStatus interface, GetNodeStatus method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetNodeStatus method of the MSCluster\_ValidationStatus class
@@ -30,8 +36,8 @@ Gets the validation status of the node(s) not yet clustered.
 
 ```mof
 void GetNodeStatus(
-  [in]  string NodeNames[],
-  [out] uint32 Status
+  [in]  string NodeNames[],
+  [out] uint32 Status
 );
 ```
 
@@ -104,9 +110,9 @@ The status of the validation.
 
 </dt> <dd>
 
-**Windows Server 2012 R2 and Windows Server 2012:  **
+**Windows Server 2012 R2 and Windows Server 2012:  **
 
-This value is not supported before Windows Server 2016.
+This value is not supported before Windows Server 2016.
 
 </dd> </dl> </dd> </dl>
 
@@ -121,7 +127,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -135,9 +141,9 @@ This method does not return a value.
 [**MSCluster\_ValidationStatus**](mscluster-validationstatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The filter graph is shutting down, prior to being destroyed.'
-ms.assetid: 'f1b3fc87-16ec-485b-b659-fc7d975c4a22'
-title: 'EC\_SHUTTING\_DOWN'
+Description: The filter graph is shutting down, prior to being destroyed.
+ms.assetid: f1b3fc87-16ec-485b-b659-fc7d975c4a22
+title: EC\_SHUTTING\_DOWN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_SHUTTING\_DOWN
@@ -50,9 +55,9 @@ This event is not sent to the application. The filter graph manager sends it to 
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

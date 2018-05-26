@@ -1,8 +1,11 @@
 ---
 title: SetUsage method of the MSFT\_PhysicalDisk class
 description: Set or changes the intended usage for the physical disk within a concrete pool.
-ms.assetid: 'E35C3D17-73E1-4319-A993-30BCE01B9B87'
-keywords: ["SetUsage method Windows Storage Management API", "SetUsage method Windows Storage Management API , MSFT_PhysicalDisk class", "MSFT_PhysicalDisk class Windows Storage Management API , SetUsage method"]
+ms.assetid: E35C3D17-73E1-4319-A993-30BCE01B9B87
+keywords:
+- SetUsage method Windows Storage Management API
+- SetUsage method Windows Storage Management API , MSFT_PhysicalDisk class
+- MSFT_PhysicalDisk class Windows Storage Management API , SetUsage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetUsage method of the MSFT\_PhysicalDisk class
@@ -24,8 +32,8 @@ Storage pools are required to follow the assigned policy for a physical disk.
 
 ```mof
 UInt32 SetUsage(
-  [in]  UInt16 Usage,
-  [out] String ExtendedStatus
+  [in]  UInt16 Usage,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -48,11 +56,11 @@ The intended usage for the physical disk. This parameter is required and cannot 
 | <span id="Manual-Select"></span><span id="manual-select"></span><span id="MANUAL-SELECT"></span><dl> <dt>**Manual-Select**</dt> <dt>2</dt> </dl> | This physical disk should only be used if manually selected by an administrator at the time of virtual disk creation. A manual-select disk is selected using the *PhysicalDisksToUse* parameter of the [**CreateVirtualDisk**](createvirtualdisk-msft-storagepool.md) method.<br/> |
 | <span id="Hot_Spare"></span><span id="hot_spare"></span><span id="HOT_SPARE"></span><dl> <dt>**Hot Spare**</dt> <dt>3</dt> </dl>                 | This physical disk should be used as a hot spare.<br/>                                                                                                                                                                                                                              |
 | <span id="Retired"></span><span id="retired"></span><span id="RETIRED"></span><dl> <dt>**Retired**</dt> <dt>4</dt> </dl>                         | This physical disk should be retired from use. At a minimum, no new allocations should go to this disk. If the virtual disks that reside on this disk are repaired, the data should be moved to another active physical disk.<br/>                                                  |
-| <span id="Journal"></span><span id="journal"></span><span id="JOURNAL"></span><dl> <dt>**Journal**</dt> <dt>5</dt> </dl>                         | This physical disk should be used as a cache for other devices comprising a virtual disk. It will back a virtual disk’s write-back cache, if configured.<br/>                                                                                                                       |
+| <span id="Journal"></span><span id="journal"></span><span id="JOURNAL"></span><dl> <dt>**Journal**</dt> <dt>5</dt> </dl>                         | This physical disk should be used as a cache for other devices comprising a virtual disk. It will back a virtual disk s write-back cache, if configured.<br/>                                                                                                                       |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -111,8 +119,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -125,9 +133,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_PhysicalDisk**](msft-physicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

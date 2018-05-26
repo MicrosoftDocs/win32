@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_RTType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Route Through (RT) record.
-ms.assetid: '986e2bbf-4f45-4611-906e-66079fda7f4c'
-keywords: ["MicrosoftDNS_RTType class DNS", "MicrosoftDNS_RTType class DNS , described"]
+ms.assetid: 986e2bbf-4f45-4611-906e-66079fda7f4c
+keywords:
+- MicrosoftDNS_RTType class DNS
+- MicrosoftDNS_RTType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_RTType class
@@ -53,7 +60,7 @@ The **MicrosoftDNS\_RTType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +101,7 @@ Preference given to this RR among others at the same owner. Lower values are pre
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ Preference given to this RR among others at the same owner. Lower values are pre
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

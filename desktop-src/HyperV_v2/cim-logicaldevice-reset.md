@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a reset of the LogicalDevice.'
-ms.assetid: 'f7655825-3de5-421f-a3e9-97d2f605affd'
-title: 'Reset method of the CIM\_LogicalDevice class'
+Description: Requests a reset of the LogicalDevice.
+ms.assetid: f7655825-3de5-421f-a3e9-97d2f605affd
+title: Reset method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the CIM\_LogicalDevice class
@@ -31,8 +36,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -46,9 +51,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

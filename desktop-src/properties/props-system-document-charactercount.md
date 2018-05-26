@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'bfe0d23d-18fa-4438-96af-da5d44a76b34'
-title: 'System.Document.CharacterCount'
+Description: .
+ms.assetid: bfe0d23d-18fa-4438-96af-da5d44a76b34
+title: System.Document.CharacterCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.CharacterCount

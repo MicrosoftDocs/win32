@@ -1,7 +1,12 @@
 ---
 title: MPIO Structures
 description: MPIO Structures
-ms.assetid: '04622044-423c-4738-aac4-c7bcfcdfce4b'
+ms.assetid: 04622044-423c-4738-aac4-c7bcfcdfce4b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPIO Structures

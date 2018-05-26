@@ -4,11 +4,12 @@ description: A pointer to a function that is called when the RMS client requests
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'F193EF52-00B3-40D6-A2D6-FE3C6D6B887B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: F193EF52-00B3-40D6-A2D6-FE3C6D6B887B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_OAUTH2_CALLBACK callback function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_OAUTH2_CALLBACK callback function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPC\_OAUTH2\_CALLBACK callback function
@@ -28,9 +32,9 @@ A pointer to a function that is called when the RMS client requests an OAuth aut
 
 ```C++
 HRESULT  CALLBACK IPC_OAUTH2_CALLBACK(
-  _In_  LPVOID                pvContext,
-  _In_  PIPC_NAME_VALUE_LIST  pOAuth2ChallengeInfo,
-  _Out_ IPC_AUTH_TOKEN_HANDLE *phAccessToken
+  _In_  LPVOID                pvContext,
+  _In_  PIPC_NAME_VALUE_LIST  pOAuth2ChallengeInfo,
+  _Out_ IPC_AUTH_TOKEN_HANDLE *phAccessToken
 );
 ```
 
@@ -98,8 +102,8 @@ The return value of a callback is managed by the system.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
@@ -120,9 +124,9 @@ The return value of a callback is managed by the system.
 [**Data types**](microsoft-information-protection-and-control-client-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

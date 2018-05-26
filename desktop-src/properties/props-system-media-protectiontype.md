@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the type of media protection.'
-ms.assetid: '160ca781-843f-4e80-916f-60a3fa6d7eba'
-title: 'System.Media.ProtectionType'
+Description: Describes the type of media protection.
+ms.assetid: 160ca781-843f-4e80-916f-60a3fa6d7eba
+title: System.Media.ProtectionType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.ProtectionType

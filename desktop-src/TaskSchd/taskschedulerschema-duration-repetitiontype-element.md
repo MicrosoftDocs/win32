@@ -1,14 +1,20 @@
 ---
 title: Duration (repetitionType) Element
 description: Specifies how long the pattern is repeated.
-ms.assetid: 'a24f3827-18b2-465e-b132-77dce139e0d4'
-keywords: ["Duration element Task Scheduler"]
+ms.assetid: a24f3827-18b2-465e-b132-77dce139e0d4
+keywords:
+- Duration element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Duration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Duration (repetitionType) Element
@@ -47,7 +53,7 @@ The element is defined by the [**repetitionType**](taskschedulerschema-repetitio
 
 For scripting applications, the duration of the pattern is specified using the [**RepetitionPattern.Duration**](repetitionpattern-duration.md) property.
 
-For C++ applications, the duration of the pattern is specified using the [**IRepetitionPattern::Duration**](irepetitionpattern-duration.md) property.
+For C++ applications, the duration of the pattern is specified using the [**IRepetitionPattern::Duration**](/windows/win32/taskschd/nf-taskschd-irepetitionpattern-get_duration?branch=master) property.
 
 ## Examples
 
@@ -70,8 +76,8 @@ The following XML defines a repetition pattern for a trigger.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -85,9 +91,9 @@ The following XML defines a repetition pattern for a trigger.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

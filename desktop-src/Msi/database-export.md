@@ -1,7 +1,12 @@
 ---
-Description: 'The Export method of the Database object copies the structure and data from a specified table to a text archive file.'
-ms.assetid: 'b724595f-ef28-456e-bf0b-5df65c659d17'
-title: 'Database.Export method'
+Description: The Export method of the Database object copies the structure and data from a specified table to a text archive file.
+ms.assetid: b724595f-ef28-456e-bf0b-5df65c659d17
+title: Database.Export method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Database.Export method
@@ -60,15 +65,15 @@ If the method fails, you can obtain extended error information by using the [**L
 
 |                    |                                                                                                                                                                                                                                                         |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID\_IDatabase is defined as 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Counters.Remove method
 description: Removes a CounterItem instance from the collection.
-ms.assetid: '88e5907a-8c8f-4a24-9c5d-0c592f61dac0'
-keywords: ["Remove method SysMon", "Remove method SysMon , Counters class", "Counters class SysMon , Remove method"]
+ms.assetid: 88e5907a-8c8f-4a24-9c5d-0c592f61dac0
+keywords:
+- Remove method SysMon
+- Remove method SysMon , Counters class
+- Counters class SysMon , Remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Counters.Remove method
@@ -53,7 +61,7 @@ This method does not return a value.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,8 +73,8 @@ To remove all counters from the collection, you can call [**SystemMonitor.Reset*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -81,9 +89,9 @@ To remove all counters from the collection, you can call [**SystemMonitor.Reset*
 [**SystemMonitor.Reset**](systemmonitor-reset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

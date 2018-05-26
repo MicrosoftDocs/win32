@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains IHV-related connectivity settings. It is not currently implemented.'
-ms.assetid: 'd943e82a-8660-4df7-8f5c-42ed83f17313'
-title: 'connectivity (IHV) Element'
+---
+Description: Contains IHV-related connectivity settings. It is not currently implemented.
+ms.assetid: d943e82a-8660-4df7-8f5c-42ed83f17313
+title: connectivity (IHV) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # connectivity (IHV) Element

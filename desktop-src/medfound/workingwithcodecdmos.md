@@ -1,7 +1,12 @@
 ---
 Description: Working with Codec DMOs
-ms.assetid: 'bceba978-a986-4d92-ae83-14bae1835f18'
+ms.assetid: bceba978-a986-4d92-ae83-14bae1835f18
 title: Working with Codec DMOs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Codec DMOs

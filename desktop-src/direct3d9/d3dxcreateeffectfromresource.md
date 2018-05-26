@@ -1,7 +1,12 @@
-﻿---
-Description: 'Create an effect from an ASCII or binary effect description.'
-ms.assetid: '8385512c-e93d-4c07-b353-87717eb58bcd'
+---
+Description: Create an effect from an ASCII or binary effect description.
+ms.assetid: 8385512c-e93d-4c07-b353-87717eb58bcd
 title: D3DXCreateEffectFromResource function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateEffectFromResource function
@@ -34,7 +39,7 @@ HRESULT D3DXCreateEffectFromResource(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
 Pointer to the device.
 

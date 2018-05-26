@@ -1,7 +1,12 @@
 ---
-Description: 'Passes an EC\_VIDEO\_SIZE\_CHANGED message to the filter graph manager.'
-ms.assetid: '39cb4f30-c12d-49bd-8d8a-70bf686b680d'
-title: 'CBaseControlVideo.OnVideoSizeChange method'
+Description: Passes an EC\_VIDEO\_SIZE\_CHANGED message to the filter graph manager.
+ms.assetid: 39cb4f30-c12d-49bd-8d8a-70bf686b680d
+title: CBaseControlVideo.OnVideoSizeChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.OnVideoSizeChange method
@@ -34,7 +39,7 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ A video renderer should call this member function each time the video size is ch
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

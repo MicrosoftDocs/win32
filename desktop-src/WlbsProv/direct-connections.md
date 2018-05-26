@@ -1,16 +1,20 @@
 ---
 title: Direct Connections
-description: You can connect directly to a specific node in the cluster by specifying an object path that resolves to the node's dedicated IP address.
+description: You can connect directly to a specific node in the cluster by specifying an object path that resolves to the nodes dedicated IP address.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6f1dd33b-42f4-482f-9445-08eb8f24cdaa'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6f1dd33b-42f4-482f-9445-08eb8f24cdaa
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["connections Failover Cluster ,direct NLB connections"]
+keywords:
+- connections Failover Cluster ,direct NLB connections
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Direct Connections

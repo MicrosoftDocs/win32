@@ -1,15 +1,18 @@
 ---
-Description: 'Indicates whether a subset of the properties in the setting can be applied to the managed system element during the specified time or time interval.'
+Description: Indicates whether a subset of the properties in the setting can be applied to the managed system element during the specified time or time interval.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b0cd71bf-6225-42e1-81f1-05e5beee2fe9'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b0cd71bf-6225-42e1-81f1-05e5beee2fe9
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'VerifyOKToApplyIncrementalChangeToMSE method of the CIM\_Setting class'
+title: VerifyOKToApplyIncrementalChangeToMSE method of the CIM\_Setting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VerifyOKToApplyIncrementalChangeToMSE method of the CIM\_Setting class
@@ -21,10 +24,10 @@ Indicates whether a subset of the properties in the setting can be applied to th
 
 ```mof
 uint32 VerifyOKToApplyIncrementalChangeToMSE(
-  [in] CIM_ManagedSystemElement REF MSE,
-  [in] datetime                     TimeToApply,
-  [in] datetime                     MustBeCompletedBy,
-  [in] string                       PropertiesToApply[]
+  [in] CIM_ManagedSystemElement REF MSE,
+  [in] datetime                     TimeToApply,
+  [in] datetime                     MustBeCompletedBy,
+  [in] string                       PropertiesToApply[]
 );
 ```
 
@@ -98,7 +101,7 @@ The setting could not be applied by the specified time.
 
 </dt> <dd>
 
-3–...
+3 ...
 
 Any other error.
 
@@ -111,7 +114,7 @@ Any other error.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -125,9 +128,9 @@ Any other error.
 [**CIM\_Setting**](cim-setting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

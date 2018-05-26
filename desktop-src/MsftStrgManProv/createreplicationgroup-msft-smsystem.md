@@ -4,11 +4,14 @@ description: Creates a replication group on a storage subsystem.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a08bdf88-bc25-4879-bd4c-96def5b01e8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: a08bdf88-bc25-4879-bd4c-96def5b01e8c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateReplicationGroup method", "CreateReplicationGroup method, MSFT_SMSystem class", "MSFT_SMSystem class, CreateReplicationGroup method"]
+keywords:
+- CreateReplicationGroup method
+- CreateReplicationGroup method, MSFT_SMSystem class
+- MSFT_SMSystem class, CreateReplicationGroup method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateReplicationGroup method of the MSFT\_SMSystem class
@@ -28,14 +34,14 @@ Creates a replication group on a storage subsystem.
 
 ```mof
 UInt32 CreateReplicationGroup(
-  [in]            String                     FriendlyName,
-  [in]            MSFT_SMStorageObject   REF StorageElements[],
-  [in]            MSFT_SMReplicationSettings ReplicationSettings,
-  [out]           MSFT_SMReplicationGroup    CreatedReplicationGroup,
-  [out]           MSFT_SMJob             REF Job,
-  [out, optional] MSFT_SMExtendedStatus      ExtendedStatus,
-  [in, optional]  String                     username,
-  [in, optional]  String                     password
+  [in]            String                     FriendlyName,
+  [in]            MSFT_SMStorageObject   REF StorageElements[],
+  [in]            MSFT_SMReplicationSettings ReplicationSettings,
+  [out]           MSFT_SMReplicationGroup    CreatedReplicationGroup,
+  [out]           MSFT_SMJob             REF Job,
+  [out, optional] MSFT_SMExtendedStatus      ExtendedStatus,
+  [in, optional]  String                     username,
+  [in, optional]  String                     password
 );
 ```
 
@@ -147,7 +153,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -161,9 +167,9 @@ The possible return values are:
 [**MSFT\_SMSystem**](msft-smsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

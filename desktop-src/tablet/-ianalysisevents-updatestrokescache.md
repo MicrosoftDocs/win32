@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs before the IInkAnalyzer accesses stroke data.'
-ms.assetid: 'fed46476-4531-4516-9375-d7b654efb3be'
-title: '\_IAnalysisEvents::UpdateStrokesCache event'
+Description: Occurs before the IInkAnalyzer accesses stroke data.
+ms.assetid: fed46476-4531-4516-9375-d7b654efb3be
+title: '\_IAnalysisEventsUpdateStrokesCache event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisEvents::UpdateStrokesCache event
@@ -13,8 +18,8 @@ Occurs before the [**IInkAnalyzer**](iinkanalyzer.md) accesses stroke data.
 
 ```C++
 HRESULT UpdateStrokesCache(
-  [in] ULONG ulStrokeIdsCount,
-  [in] LONG  *plStrokeIds
+  [in] ULONG ulStrokeIdsCount,
+  [in] LONG  *plStrokeIds
 );
 ```
 
@@ -56,7 +61,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -94,9 +99,9 @@ For more information about synchronizing your application data with the [**IInkA
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,26 @@
 ---
-Description: 'The AMovieSetupRegisterFilter2 function registers a filter''s merit, pins, and media types in the registry using the IFilterMapper2 interface.'
-ms.assetid: '8e0f3485-9e5d-4b22-853d-4ad9b1fb71d2'
+Description: The AMovieSetupRegisterFilter2 function registers a filters merit, pins, and media types in the registry using the IFilterMapper2 interface.
+ms.assetid: 8e0f3485-9e5d-4b22-853d-4ad9b1fb71d2
 title: AMovieSetupRegisterFilter2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AMovieSetupRegisterFilter2 function
 
-The **AMovieSetupRegisterFilter2** function registers a filter's merit, pins, and media types in the registry using the [**IFilterMapper2**](ifiltermapper2.md) interface.
+The **AMovieSetupRegisterFilter2** function registers a filter's merit, pins, and media types in the registry using the [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master) interface.
 
 ## Syntax
 
 
 ```C++
 HRESULT AMovieDllRegisterServer(
-   const AMOVIESETUP_FILTER const * psetupdata,
-         IFilterMapper2             *pIFM2,
-         BOOL                       bRegister
+   const AMOVIESETUP_FILTER const * psetupdata,
+         IFilterMapper2             *pIFM2,
+         BOOL                       bRegister
 );
 ```
 
@@ -35,7 +40,7 @@ Pointer to the [**AMOVIESETUP\_FILTER**](amoviesetup-filter.md) data.
 *pIFM2* 
 </dt> <dd>
 
-Pointer to [**IFilterMapper2**](ifiltermapper2.md) interface.
+Pointer to [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master) interface.
 
 </dd> <dt>
 
@@ -74,9 +79,9 @@ Typically, a filter will use [**AMovieDllRegisterServer2**](amoviedllregisterser
 [**DLL Setup Functions**](dll-setup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

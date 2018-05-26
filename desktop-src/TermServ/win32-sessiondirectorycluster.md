@@ -1,14 +1,16 @@
 ---
 title: Win32\_SessionDirectoryCluster class
-description: Provides properties for viewing the properties of a farm in Remote Desktop Connection Broker (RD Connection Broker).
+description: Provides properties for viewing the properties of a farm in Remote Desktop Connection Broker (RD Connection Broker).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4a924fd-88ea-46db-968e-378c3dc46cfc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a4a924fd-88ea-46db-968e-378c3dc46cfc
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_SessionDirectoryCluster class Remote Desktop Services", "Win32_SessionDirectoryCluster class Remote Desktop Services , described"]
+keywords:
+- Win32_SessionDirectoryCluster class Remote Desktop Services
+- Win32_SessionDirectoryCluster class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -20,16 +22,19 @@ api_location:
 - TssdWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SessionDirectoryCluster class
 
-Provides properties for viewing the properties of a farm in Remote Desktop Connection Broker (RD Connection Broker).
+Provides properties for viewing the properties of a farm in Remote Desktop Connection Broker (RD Connection Broker).
 
 > [!Note]  
-> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
+> In Windows Server 2008 R2, the name of Terminal Services Session Broker (TS Session Broker) was changed to RD Connection Broker. These properties apply to all supported operating systems unless otherwise noted.
 
- 
+ 
 
 ## Syntax
 
@@ -67,7 +72,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Name of the farm in RD Connection Broker.
+Name of the farm in RD Connection Broker.
 
 </dd> <dt>
 
@@ -80,7 +85,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Number of servers in the farm in RD Connection Broker.
+Number of servers in the farm in RD Connection Broker.
 
 </dd> <dt>
 
@@ -93,21 +98,21 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Single session mode of the farm in RD Connection Broker.
+Single session mode of the farm in RD Connection Broker.
 
 <dt>
 
 0
 </dt> <dd>
 
-The farm in RD Connection Broker is not in single session mode.
+The farm in RD Connection Broker is not in single session mode.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-The farm in RD Connection Broker is in single session mode.
+The farm in RD Connection Broker is in single session mode.
 
 </dd> </dl>
 
@@ -124,7 +129,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -141,9 +146,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_SessionDirectorySession**](win32-sessiondirectorysession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

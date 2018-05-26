@@ -1,13 +1,16 @@
 ---
-Description: 'You can view or manipulate any information made available through WMI using scripts.'
+Description: You can view or manipulate any information made available through WMI using scripts.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '90e71e17-c2e7-42ad-a72e-2b475e6163fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 90e71e17-c2e7-42ad-a72e-2b475e6163fe
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a WMI Script
@@ -28,7 +31,7 @@ The two main languages supported by WMI are PowerShell and VBScript (through the
 
 -   **VBScript**, in contrast, explicitly makes calls to the [Scripting API for WMI](scripting-api-for-wmi.md), as mentioned above. Other languages, such as Perl, can also use the scripting API for WMI. However, for the purposes of this documentation, most samples that demonstrate the scripting API for WMI will use VBScript. When a programming technique is specific to VBScript, however, it will be called out.
 
-    VBScript has essentially two separate ways of accessing WMI. The first is using an [**SWbemLocator**](swbemlocator.md) object to connect to WMI. Alternately, you can use [**GetObject**](provider-getobject.md) and a moniker. A moniker is a string that can describe a number of elements: your credentials, impersonation settings, what computer you want to connect to, the WMI [*namespace*](gloss-n.md#wmi-gloss-namespace) (ie, the general location where WMI stores groups of objects), and what WMI object you want to retrieve. Many of the examples below describe both techniques. For more information, see [Constructing a Moniker String](constructing-a-moniker-string.md) and [Describing the Location of a WMI Object](describing-the-location-of-a-wmi-object.md).
+    VBScript has essentially two separate ways of accessing WMI. The first is using an [**SWbemLocator**](swbemlocator.md) object to connect to WMI. Alternately, you can use [**GetObject**](/windows/win32/Provider/nf-provider-provider-getobject(cinstance,long,cframeworkquery &)?branch=master) and a moniker. A moniker is a string that can describe a number of elements: your credentials, impersonation settings, what computer you want to connect to, the WMI [*namespace*](gloss-n.md#wmi-gloss-namespace) (ie, the general location where WMI stores groups of objects), and what WMI object you want to retrieve. Many of the examples below describe both techniques. For more information, see [Constructing a Moniker String](constructing-a-moniker-string.md) and [Describing the Location of a WMI Object](describing-the-location-of-a-wmi-object.md).
 
     Regardless of what technique you use to connect to WMI, you will likely retrieve one or more objects from the Scripting API. The most common is [**SWbemObject**](swbemobject.md), which WMI uses to describe a WMI object. Alternately, you may use an [**SWbemServices**](swbemservices.md) object to describe the WMI service itself, or an [**SWbemObjectPath**](swbemobjectpath.md) object to describe the location of a WMI object. For more information, see [Scripting with SWbemObject](scripting-with-swbemobject.md) and [Scripting Helper Objects](scripting-helper-objects.md).
 
@@ -39,7 +42,7 @@ The two main languages supported by WMI are PowerShell and VBScript (through the
 <span id="...connect_to_WMI_"></span><span id="...connect_to_wmi_"></span><span id="...CONNECT_TO_WMI_"></span>...connect to WMI?
 </dt> <dd>
 
-For VBScript and the Scripting API for WMI, retrieve an [**SWbemServices**](swbemservices.md) object with a moniker and a call to [**GetObject**](provider-getobject.md). Alternately, you can connect to the server with a call to [**SWbemLocator.ConnectServer**](iwbemlocator-connectserver.md). You can then use the object to access a specific WMI namespace or WMI class instance.
+For VBScript and the Scripting API for WMI, retrieve an [**SWbemServices**](swbemservices.md) object with a moniker and a call to [**GetObject**](/windows/win32/Provider/nf-provider-provider-getobject(cinstance,long,cframeworkquery &)?branch=master). Alternately, you can connect to the server with a call to [**SWbemLocator.ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master). You can then use the object to access a specific WMI namespace or WMI class instance.
 
 For PowerShell, connecting to WMI is generally done directly in the cmdlet call; as such, no additional steps are necessary.
 
@@ -217,7 +220,7 @@ Get-WmiObject cim_logicalDevice | ForEach-Object { $_.name }
 <span id="...access_a_different_WMI_namespace_"></span><span id="...access_a_different_wmi_namespace_"></span><span id="...ACCESS_A_DIFFERENT_WMI_NAMESPACE_"></span>...access a different WMI namespace?
 </dt> <dd>
 
-For VBScript and the Scripting API for WMI, state the namespace in the moniker, or else you can explicitly state the namespace in the call to [**SwbemLocator.ConnectServer**](iwbemlocator-connectserver.md).
+For VBScript and the Scripting API for WMI, state the namespace in the moniker, or else you can explicitly state the namespace in the call to [**SwbemLocator.ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master).
 
 For PowerShell, use the *-Namespace* parameter. The default namespace is "root\\cimV2"; however, many older classes are stored in "root\\default".
 

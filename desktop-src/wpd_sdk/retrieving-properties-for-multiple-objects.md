@@ -1,7 +1,12 @@
 ---
 Description: Retrieving Properties for Multiple Objects
-ms.assetid: '0d0c6b3d-23bc-4628-a684-14bb9e18967f'
+ms.assetid: 0d0c6b3d-23bc-4628-a684-14bb9e18967f
 title: Retrieving Properties for Multiple Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Properties for Multiple Objects
@@ -14,10 +19,10 @@ Your application can perform a bulk retrieval using the interfaces described in 
 
 | Interface                                                                                      | Description                                                        |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)                             | Provides access to the content-specific methods.                   |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)                             | Provides access to the content-specific methods.                   |
 | [**IPortableDeviceKeyCollection Interface**](iportabledevicekeycollection.md)                 | Used to identify the properties to be retrieved.                   |
-| [**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)                       | Used to determine whether a given driver supports bulk operations. |
-| [**IPortableDevicePropertiesBulk Interface**](iportabledevicepropertiesbulk.md)               | Supports the bulk retrieval operation.                             |
+| [**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)                       | Used to determine whether a given driver supports bulk operations. |
+| [**IPortableDevicePropertiesBulk Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk?branch=master)               | Supports the bulk retrieval operation.                             |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Used to store the object identifiers for the bulk operation.       |
 
 
@@ -77,7 +82,7 @@ if (SUCCEEDED(hr))
 
 If the driver supports bulk operations, the next step is to create an instance of the [**IPortableDeviceKeyCollection interface**](iportabledevicekeycollection.md) and to specify the keys that correspond to the properties that the application will retrieve. For a description of this process, see the [Retrieving Properties for a Single Object](retrieving-properties-for-a-single-object.md) topic.
 
-After the appropriate keys are specified, the sample application creates an instance of the [**IPortableDevicePropertiesBulkCallback interface**](iportabledevicepropertiesbulk.md). The application will use the methods in this interface to track the progress of the asynchronous bulk-retrieval operation.
+After the appropriate keys are specified, the sample application creates an instance of the [**IPortableDevicePropertiesBulkCallback interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk?branch=master). The application will use the methods in this interface to track the progress of the asynchronous bulk-retrieval operation.
 
 
 ```C++
@@ -172,19 +177,19 @@ These steps are demonstrated in the following code excerpt from the sample appli
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceKeyCollection Interface**](iportabledevicekeycollection.md)
 </dt> <dt>
 
-[**IPortableDeviceProperties Interface**](iportabledeviceproperties.md)
+[**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master)
 </dt> <dt>
 
-[**IPortableDevicePropertiesBulk Interface**](iportabledevicepropertiesbulk.md)
+[**IPortableDevicePropertiesBulk Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

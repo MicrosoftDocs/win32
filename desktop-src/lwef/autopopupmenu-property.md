@@ -1,7 +1,12 @@
 ---
 title: AutoPopupMenu Property
 description: AutoPopupMenu Property
-ms.assetid: '499092cb-0990-4edb-915c-12e3011de142'
+ms.assetid: 499092cb-0990-4edb-915c-12e3011de142
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AutoPopupMenu Property
@@ -30,7 +35,7 @@ Returns or sets whether right-clicking the character or its taskbar icon automat
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -45,9 +50,9 @@ This property applies only to your client application's use of the character; th
 [**ShowPopupMenu method**](showpopupmenu-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

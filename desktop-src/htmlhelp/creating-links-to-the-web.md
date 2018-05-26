@@ -1,7 +1,12 @@
 ---
 title: Creating Links to the Web
 description: Help topics can be placed on the Internet, an intranet, or a network location.
-ms.assetid: 'FDF264E8-000D-4a91-BF61-EA9DF2EFE7B2'
+ms.assetid: FDF264E8-000D-4a91-BF61-EA9DF2EFE7B2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Links to the Web

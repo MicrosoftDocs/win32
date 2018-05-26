@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_IDENTITY\_TYPE Constants
 description: Specify the format of the identity information contained in the WINBIO\_IDENTITY structure.
-ms.assetid: '27A01538-9B26-4A29-8ADB-ED9C5D5808B3'
+ms.assetid: 27A01538-9B26-4A29-8ADB-ED9C5D5808B3
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_IDENTITY\_TYPE Constants
@@ -36,8 +41,8 @@ The following **WINBIO\_IDENTITY\_TYPE** constants can be used to specify the fo
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -52,9 +57,9 @@ The following **WINBIO\_IDENTITY\_TYPE** constants can be used to specify the fo
 [**WINBIO\_IDENTITY**](winbio-identity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

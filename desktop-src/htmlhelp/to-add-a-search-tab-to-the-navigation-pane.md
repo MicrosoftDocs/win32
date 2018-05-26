@@ -1,7 +1,12 @@
 ---
 title: To add a Search tab to the Navigation pane
 description: To add a Search tab to the Navigation pane
-ms.assetid: 'A6AFABBB-3C10-415e-81DE-B85638412666'
+ms.assetid: A6AFABBB-3C10-415e-81DE-B85638412666
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a Search tab to the Navigation pane
@@ -15,7 +20,7 @@ ms.assetid: 'A6AFABBB-3C10-415e-81DE-B85638412666'
 
     
 
-     
+     
 
 3.  On the **Compiler** tab, select the **Compile full-text search information** check box, and then click **OK**.
 4.  Click **Add/Modify Window Definitions**, and then click the **Navigation Pane** tab. 
@@ -26,7 +31,7 @@ ms.assetid: 'A6AFABBB-3C10-415e-81DE-B85638412666'
 
     
 
-     
+     
 
 5.  In the **Window type** box, click the window you want, and then select the **Search tab** check box. Select the **Advanced** check box to add advanced full-text search features.
 
@@ -42,9 +47,9 @@ ms.assetid: 'A6AFABBB-3C10-415e-81DE-B85638412666'
 [About Customizing the Help Viewer](customize-the-help-viewer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

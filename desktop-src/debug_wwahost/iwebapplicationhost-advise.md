@@ -1,7 +1,12 @@
 ---
-Description: 'Establishes a connection to allow a client to receive events.'
-ms.assetid: '94c016cb-f043-4ea6-a5d1-f3486b55c97f'
-title: 'IWebApplicationHost::Advise method'
+Description: Establishes a connection to allow a client to receive events.
+ms.assetid: 94c016cb-f043-4ea6-a5d1-f3486b55c97f
+title: IWebApplicationHostAdvise method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWebApplicationHost::Advise method
@@ -13,9 +18,9 @@ Establishes a connection to allow a client to receive events.
 
 ```C++
 HRESULT Advise(
-  [in]  REFIID   interfaceId,
-  [in]  IUnknown *callback,
-  [out] DWORD    *cookie
+  [in]  REFIID   interfaceId,
+  [in]  IUnknown *callback,
+  [out] DWORD    *cookie
 );
 ```
 
@@ -64,8 +69,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                    |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                          |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                          |
 | IDL<br/>                      | <dl> <dt>Webapplication.idl</dt> </dl> |
 
 
@@ -74,15 +79,15 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IWebApplicationHost**](iwebapplicationhost.md)
+[**IWebApplicationHost**](/windows/previous-versions/webapplication/nn-webapplication-iwebapplicationhost?branch=master)
 </dt> <dt>
 
 [**IWebApplicationHost::Unadvise**](iwebapplicationhost-unadvise.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

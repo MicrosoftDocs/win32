@@ -1,7 +1,12 @@
-﻿---
-Description: 'Start capturing state changes in a parameter block.'
-ms.assetid: 'cdf6f572-1a21-4c1d-a113-13b48bacd060'
-title: 'ID3DXEffect::BeginParameterBlock method'
+---
+Description: Start capturing state changes in a parameter block.
+ms.assetid: cdf6f572-1a21-4c1d-a113-13b48bacd060
+title: ID3DXEffectBeginParameterBlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::BeginParameterBlock method

@@ -1,7 +1,12 @@
 ---
-Description: 'The StructuredQuerySample code sample demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.'
-ms.assetid: '9bb56d80-670e-4b2b-bf3f-40d0a75a89b6'
+Description: The StructuredQuerySample code sample demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+ms.assetid: 9bb56d80-670e-4b2b-bf3f-40d0a75a89b6
 title: StructuredQuerySample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StructuredQuerySample
@@ -81,28 +86,28 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Reference**
 </dt> <dt>
 
-[**ICondition**](-search-icondition.md)
+[**ICondition**](/windows/win32/Structuredquerycondition/nn-structuredquerycondition-icondition?branch=master)
 </dt> <dt>
 
-[**ICondition2**](-search-icondition2.md)
+[**ICondition2**](/windows/win32/Structuredquerycondition/nn-structuredquerycondition-icondition2?branch=master)
 </dt> <dt>
 
-[**IConditionFactory**](-search-iconditionfactory.md)
+[**IConditionFactory**](/windows/win32/Structuredquery/nn-structuredquery-iconditionfactory?branch=master)
 </dt> <dt>
 
-[**IConditionFactory2**](-search-iconditionfactory2.md)
+[**IConditionFactory2**](/windows/win32/Structuredquery/nn-structuredquery-iconditionfactory2?branch=master)
 </dt> <dt>
 
-[**IConditionGenerator**](-search-iconditiongenerator.md)
+[**IConditionGenerator**](/windows/win32/Structuredquery/nn-structuredquery-iconditiongenerator?branch=master)
 </dt> <dt>
 
-[**IQueryParser**](-search-iqueryparser.md)
+[**IQueryParser**](/windows/win32/Structuredquery/nn-structuredquery-iqueryparser?branch=master)
 </dt> <dt>
 
-[**IQueryParserManager**](-search-iqueryparsermanager.md)
+[**IQueryParserManager**](/windows/win32/Structuredquery/nn-structuredquery-iqueryparsermanager?branch=master)
 </dt> <dt>
 
-[**IQuerySolution**](-search-iquerysolution.md)
+[**IQuerySolution**](/windows/win32/Structuredquery/nn-structuredquery-iquerysolution?branch=master)
 </dt> <dt>
 
 **Conceptual**

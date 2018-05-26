@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a new custom catalog in the Windows Search indexer and returns a reference to it.'
-ms.assetid: '2ADC48B8-87A2-4527-9AA8-9B0BA3A12462'
-title: 'ISearchManager2::CreateCatalog method'
+---
+Description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
+ms.assetid: 2ADC48B8-87A2-4527-9AA8-9B0BA3A12462
+title: ISearchManager2CreateCatalog method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISearchManager2::CreateCatalog method
@@ -36,9 +41,9 @@ Name of catalog to create. Can be any name selected by the caller, must contain 
 *ppCatalogManager* \[out\]
 </dt> <dd>
 
-Type: **[**ISearchCatalogManager**](-search-isearchcatalogmanager.md)\*\***
+Type: **[**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master)\*\***
 
-On success a reference to the created catalog is returned as an [**ISearchCatalogManager**](-search-isearchcatalogmanager.md) interface pointer. The Release() must be called on this interface after the calling application has finished using it.
+On success a reference to the created catalog is returned as an [**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master) interface pointer. The Release() must be called on this interface after the calling application has finished using it.
 
 </dd> </dl>
 
@@ -63,7 +68,7 @@ FAILED HRESULT: Failure creating catalog or invalid arguments passed.
 
 ## Remarks
 
-Called to create a new catalog in the Windows Search indexer. After creation, the methods on the returned [**ISearchCatalog**](-search-isearchcatalogmanager.md) manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results. See the “Managing the Index” documentation for more info: http://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx
+Called to create a new catalog in the Windows Search indexer. After creation, the methods on the returned [**ISearchCatalog**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master) manager can be used to add locations to be indexed, monitor indexing process, and construct queries to send to the indexer and get results. See the “Managing the Index” documentation for more info: http://msdn.microsoft.com/en-us/library/bb266516(VS.85).aspx
 
 ## Requirements
 
@@ -80,7 +85,7 @@ Called to create a new catalog in the Windows Search indexer. After creation, th
 
 <dl> <dt>
 
-[**ISearchManager2**](isearchmanager2.md)
+[**ISearchManager2**](/windows/win32/searchapi/nn-searchapi-isearchmanager2?branch=master)
 </dt> </dl>
 
  

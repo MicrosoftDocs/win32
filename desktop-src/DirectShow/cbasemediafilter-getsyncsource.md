@@ -1,19 +1,24 @@
 ---
-Description: 'The GetSyncSource method retrieves the reference clock that the object is using. This method implements the IMediaFilter::GetSyncSource method.'
-ms.assetid: '7e74d6ce-cd34-4345-8ff9-174e0acb243a'
-title: 'CBaseMediaFilter.GetSyncSource method'
+Description: The GetSyncSource method retrieves the reference clock that the object is using. This method implements the IMediaFilterGetSyncSource method.
+ms.assetid: 7e74d6ce-cd34-4345-8ff9-174e0acb243a
+title: CBaseMediaFilter.GetSyncSource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter.GetSyncSource method
 
-The `GetSyncSource` method retrieves the reference clock that the object is using. This method implements the [**IMediaFilter::GetSyncSource**](imediafilter-getsyncsource.md) method.
+The `GetSyncSource` method retrieves the reference clock that the object is using. This method implements the [**IMediaFilter::GetSyncSource**](/windows/win32/Strmif/nf-strmif-imediafilter-getsyncsource?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetSyncSource(
-   IReferenceClock **pClock
+   IReferenceClock **pClock
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT GetSyncSource(
 *pClock* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to the clock's [**IReferenceClock**](ireferenceclock.md) interface.
+Address of a variable that receives a pointer to the clock's [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ If the object is not using a reference clock, *\*pClock* is set to **NULL**. Whe
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

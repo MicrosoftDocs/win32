@@ -1,8 +1,10 @@
 ---
 title: MSFT\_MpThreatCatalog class
 description: This class represents the catalog of recognized threats.
-ms.assetid: '3d207993-4b8a-4444-8c23-f86ecd103b6b'
-keywords: ["MSFT_MpThreatCatalog class", "MSFT_MpThreatCatalog class, described"]
+ms.assetid: 3d207993-4b8a-4444-8c23-f86ecd103b6b
+keywords:
+- MSFT_MpThreatCatalog class
+- MSFT_MpThreatCatalog class, described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpThreatCatalog class
@@ -31,9 +38,9 @@ class MSFT_MpThreatCatalog : BaseStatus
 {
   sint64 ThreatID;
   string ThreatName;
-  uint8  SeverityID;
-  uint8  CategoryID;
-  uint8  TypeID;
+  uint8  SeverityID;
+  uint8  CategoryID;
+  uint8  TypeID;
 };
 ```
 
@@ -297,17 +304,17 @@ Type ID - Enumeration
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

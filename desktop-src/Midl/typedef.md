@@ -2,13 +2,19 @@
 title: typedef attribute
 description: The IDL typedef keyword allows typedef declarations that are very similar to C-language typedef declarations.
 ms.assetid: 995a233e-0d07-4051-9f00-d1dc0b563f8f
-keywords: ["typedef attribute MIDL"]
+keywords:
+- typedef attribute MIDL
 topic_type:
 - apiref
 api_name:
 - typedef
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # typedef attribute

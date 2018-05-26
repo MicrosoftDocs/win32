@@ -1,7 +1,12 @@
 ---
 title: Sending Applications
 description: Information on sending applications.
-ms.assetid: '92991864-66b8-4178-b04b-4d2e3f63b232'
+ms.assetid: 92991864-66b8-4178-b04b-4d2e3f63b232
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending Applications
@@ -10,7 +15,7 @@ In order for the RSVP SP to invoke RSVP processing and signaling, the following 
 
 -   Peer address (the receiver's address). This enables RSVP to create its session object.
 -   Source address (the sender's local address). This enables RSVP to create its SenderTemplate object.
--   QOS parameters in the form of a **SendingFlowspec** (a member of the [**QOS**](qos.md) structure). This enables RSVP to generate its sender Tspec object.
+-   QOS parameters in the form of a **SendingFlowspec** (a member of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure). This enables RSVP to generate its sender Tspec object.
 
 The means by which the RSVP SP derives information necessary to satisfy those three requirements is outlined in the following table.
 
@@ -24,7 +29,7 @@ The means by which the RSVP SP derives information necessary to satisfy those th
 
 
 
- 
+ 
 
 Details of each of these sender types are outlined individually in the following reference pages:
 
@@ -44,7 +49,7 @@ The RSVP SP derives information for the initiation of RSVP processing and signal
 
 
 
- 
+ 
 
 Unicast UDP senders typically call the [**WSAConnect**](https://msdn.microsoft.com/library/windows/desktop/ms741559) function to invoke RSVP processing and signaling. For sockets that have been bound using INADDR\_ANY, the RSVP SP uses the peer address to determine the local address to use SenderTemplate by issuing a routing interface query to the underlying transport service provider. This approach returns the address of the local interface used to reach the specified peer.
 
@@ -52,12 +57,12 @@ Typically, the [**WSAConnect**](https://msdn.microsoft.com/library/windows/deskt
 
 RSVP processing begins as soon as the RSVP SP knows the peer address (from which it may also determine the local bound address) and the sending QOS parameters.
 
-Application programmers can also choose to use unconnected UDP sockets using **WSAIoctl**(SIO\_SET\_QOS) by specifying a [**QOS\_DESTADDR**](qos-destaddr.md) object in the [ProviderSpecific](the-providerspecific-buffer.md) buffer of the [**QOS**](qos.md) structure. In this scenario, the session information is derived from the **QOS\_DESTADDR** object.
+Application programmers can also choose to use unconnected UDP sockets using **WSAIoctl**(SIO\_SET\_QOS) by specifying a [**QOS\_DESTADDR**](/windows/previous-versions/Qossp/ns-qossp-_qos_destaddr?branch=master) object in the [ProviderSpecific](the-providerspecific-buffer.md) buffer of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure. In this scenario, the session information is derived from the **QOS\_DESTADDR** object.
 
 > [!Note]  
-> Note for unconnected UDP sockets  An application may choose to use unconnected UDP sockets by specifying a [**QOS\_DESTADDR**](qos-destaddr.md) object in the [ProviderSpecific](the-providerspecific-buffer.md) buffer of the [**QOS**](qos.md) structure. In this case, the session information is derived from the **QOS\_DESTADDR** object.
+> Note for unconnected UDP sockets  An application may choose to use unconnected UDP sockets by specifying a [**QOS\_DESTADDR**](/windows/previous-versions/Qossp/ns-qossp-_qos_destaddr?branch=master) object in the [ProviderSpecific](the-providerspecific-buffer.md) buffer of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure. In this case, the session information is derived from the **QOS\_DESTADDR** object.
 
- 
+ 
 
 ## UDP Multicast Senders
 
@@ -71,7 +76,7 @@ The RSVP SP derives information for the initiation of RSVP signaling for UDP mul
 
 
 
- 
+ 
 
 Multicast UDP senders typically call the [**WSAJoinLeaf**](https://msdn.microsoft.com/library/windows/desktop/ms741628) function to invoke RSVP signaling. The **WSAJoinLeaf** function call provides the destination multicast session address, and may also be used to provide QOS parameters through its LPQOS parameter. If QOS parameters are not provided with the call to **WSAJoinLeaf**, they must be provided separately with a call to the **WSAIoctl**(SIO\_SET\_QOS) function/opcode pair. The RSVP session object included in the corresponding PATH messages is derived from the multicast session address.
 
@@ -89,19 +94,19 @@ The RSVP SP derives information for the initiation of RSVP processing and signal
 
 
 
- 
+ 
 
 Generally, sockets are connected through the interaction of an active and passive peer; the active peer issues a [**WSAConnect**](https://msdn.microsoft.com/library/windows/desktop/ms741559) function call, and the passive peer issues a [**WSAAccept**](https://msdn.microsoft.com/library/windows/desktop/ms741513) function call. In most circumstances the receiver is the active peer, the sender the passive peer. This page assumes the sender is the passive peer; for cases where the sender is the active peer, refer to TCP unicast receivers.
 
 Upon calling the [**WSAAccept**](https://msdn.microsoft.com/library/windows/desktop/ms741513) function, the TCP unicast sender can gather QOS parameters through the WSAAccept function's callback function, but in order to do so, the application must complete the callback function with status CF\_ACCEPT. The RSVP SP does not use the [ProviderSpecific](the-providerspecific-buffer.md) buffer when calling the **WSAAccept** function's callback function.
 
-Applications may alternatively set QOS parameters on the socket (or any parameters that require use of the [ProviderSpecific](the-providerspecific-buffer.md) buffer) through the use of the **WSAIoctl** (SIO\_SET\_QOS) function/opcode call. However, if the application has previously associated QOS parameters with the socket by calling the **WSAIoctl** (SIO\_SET\_QOS) function/opcode pair, completion of the callback function may modify QOS parameters unless the ServiceType parameters in the corresponding [**FLOWSPEC**](flowspec.md) structures are set to SERVICETYPE\_NOCHANGE.
+Applications may alternatively set QOS parameters on the socket (or any parameters that require use of the [ProviderSpecific](the-providerspecific-buffer.md) buffer) through the use of the **WSAIoctl** (SIO\_SET\_QOS) function/opcode call. However, if the application has previously associated QOS parameters with the socket by calling the **WSAIoctl** (SIO\_SET\_QOS) function/opcode pair, completion of the callback function may modify QOS parameters unless the ServiceType parameters in the corresponding [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master) structures are set to SERVICETYPE\_NOCHANGE.
 
 The application may also set QOS parameters on the listening socket prior to the call to [**WSAAccept**](https://msdn.microsoft.com/library/windows/desktop/ms741513), and these settings are inherited by the accepted socket, but any parameters set in the **WSAAccept** function's callback function take precedence. RSVP processing begins as soon as the RSVP SP knows the peer address, the address to which the socket is locally bound, and the sending QOS parameters.
 
- 
+ 
 
- 
+ 
 
 
 

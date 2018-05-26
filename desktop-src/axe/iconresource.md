@@ -1,14 +1,20 @@
 ---
 title: IconResource element
 description: Name of the icon that represents the assessment.
-ms.assetid: '864FE915-A3FF-4016-9E5A-FB66A3A1ECB0'
-keywords: ["IconResource element Access Execution Engine"]
+ms.assetid: 864FE915-A3FF-4016-9E5A-FB66A3A1ECB0
+keywords:
+- IconResource element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - IconResource
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IconResource element
@@ -79,9 +85,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

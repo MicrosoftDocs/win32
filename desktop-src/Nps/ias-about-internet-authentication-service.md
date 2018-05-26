@@ -4,10 +4,13 @@ description: This section describes how to implement DLLs to extend the function
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 3d4d8d22-4cd3-48e0-b4a4-dfa0a0b7b87f
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About NPS Extensions

@@ -4,29 +4,33 @@ description: A control script consists of a set of entry point functions (for ex
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4793f054-acbb-4f6c-bb30-d00a0082dbc8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4793f054-acbb-4f6c-bb30-d00a0082dbc8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["entry point functions Failover Cluster , scripting"]
+keywords:
+- entry point functions Failover Cluster , scripting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting Entry Points
 
-A control script consists of a set of entry point functions (for example, [**IsAlive**](isalive.md)) for the Generic Script resource DLL. The Resource Monitor calls these scripted entry point functions during cluster operation. Except for the [**Open**](open.md) function, the scripted entry point functions serve the same purpose as the same-named resource DLL entry point functions implemented using the Failover Cluster API. For more information, see [Implementing Resource DLLs](implementing-resource-dlls.md).
+A control script consists of a set of entry point functions (for example, [**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master)) for the Generic Script resource DLL. The Resource Monitor calls these scripted entry point functions during cluster operation. Except for the [**Open**](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master) function, the scripted entry point functions serve the same purpose as the same-named resource DLL entry point functions implemented using the Failover Cluster API. For more information, see [Implementing Resource DLLs](implementing-resource-dlls.md).
 
-A control script must implement the [**LooksAlive**](looksalive.md) and [**IsAlive**](isalive.md) functions and can also implement the functions [**Open**](open.md), [**Online**](online.md), [**Offline**](offline.md), [**Close**](close.md), and [**Terminate**](terminate.md).
+A control script must implement the [**LooksAlive**](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master) and [**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) functions and can also implement the functions [**Open**](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master), [**Online**](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master), [**Offline**](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master), [**Close**](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master), and [**Terminate**](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master).
 
 > [!Note]  
-> You should not store control script files on cluster disks. Although these drives may seem to be the ideal location because all nodes in the [*cluster*](c-gly.md#-wolf-cluster-gly) can access them, storing control script files there causes problems when you upgrade either the Cluster service or the application software, especially if the cluster is in a production environment. Such upgrades require the cluster to be shut down completely. If you choose instead to install control script files on all nodes in the cluster, you can use a rolling upgrade approach—upgrading each node individually—without affecting the operation of the cluster.
+> You should not store control script files on cluster disks. Although these drives may seem to be the ideal location because all nodes in the [*cluster*](c-gly.md#-wolf-cluster-gly) can access them, storing control script files there causes problems when you upgrade either the Cluster service or the application software, especially if the cluster is in a production environment. Such upgrades require the cluster to be shut down completely. If you choose instead to install control script files on all nodes in the cluster, you can use a rolling upgrade approach upgrading each node individually without affecting the operation of the cluster.
 
- 
+ 
 
 ### Script Execution
 
-A Resource Monitor call to either of the time-critical entry point functions [**LooksAlive**](looksalive.md) or [**IsAlive**](isalive.md) executes directly, without calling other entry point functions and without loading or unloading the script. A Resource Monitor call to any other entry point function (for example, [**Online**](online.md)) generates associated Resource Monitor entry point function calls (for example, to [**Open**](open.md)) and may cause the script to load or unload. For more information on the Resource Monitor actions for each entry point function call, see the following table.
+A Resource Monitor call to either of the time-critical entry point functions [**LooksAlive**](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master) or [**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) executes directly, without calling other entry point functions and without loading or unloading the script. A Resource Monitor call to any other entry point function (for example, [**Online**](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master)) generates associated Resource Monitor entry point function calls (for example, to [**Open**](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master)) and may cause the script to load or unload. For more information on the Resource Monitor actions for each entry point function call, see the following table.
 
-In a control script, code within the script body, outside any of the entry point functions, is executed when the script is loaded. Code within an entry point function is executed whenever that function is called. For example, code within the [**Open**](open.md) function is executed not only when the script is opened, but also when **Open** is called prior to [**Online**](online.md) or [**Close**](close.md).
+In a control script, code within the script body, outside any of the entry point functions, is executed when the script is loaded. Code within an entry point function is executed whenever that function is called. For example, code within the [**Open**](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master) function is executed not only when the script is opened, but also when **Open** is called prior to [**Online**](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master) or [**Close**](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master).
 
 
 
@@ -43,59 +47,59 @@ In a control script, code within the script body, outside any of the entry point
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>Open</strong>](open.md)</td>
+<td>[<strong>Open</strong>](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master)</td>
 <td>Perform when the script is opened. Resource Monitor will:<br/>
 <ul>
 <li>load the script</li>
-<li>call [<strong>Open</strong>](open.md)</li>
-<li>call [<strong>Close</strong>](close.md)</li>
+<li>call [<strong>Open</strong>](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master)</li>
+<li>call [<strong>Close</strong>](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master)</li>
 <li>unload the script</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>Online</strong>](online.md)</td>
+<td>[<strong>Online</strong>](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master)</td>
 <td>Perform when the resource is placed online. Resource Monitor will:<br/>
 <ul>
 <li>load the script</li>
-<li>call [<strong>Open</strong>](open.md)</li>
-<li>call [<strong>Online</strong>](online.md)</li>
+<li>call [<strong>Open</strong>](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master)</li>
+<li>call [<strong>Online</strong>](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master)</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[<strong>LooksAlive</strong>](looksalive.md)</td>
-<td>Perform one or more very fast, cursory checks of the specified instance with the emphasis on detecting potential problems rather than verifying operational status. [<strong>IsAlive</strong>](isalive.md) will determine whether the instance is really operational. Take no more than 300 milliseconds to return a value. Resource Monitor calls [<strong>LooksAlive</strong>](looksalive.md) repeatedly at a specified time interval (for example, once every five seconds).</td>
+<td>[<strong>LooksAlive</strong>](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master)</td>
+<td>Perform one or more very fast, cursory checks of the specified instance with the emphasis on detecting potential problems rather than verifying operational status. [<strong>IsAlive</strong>](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) will determine whether the instance is really operational. Take no more than 300 milliseconds to return a value. Resource Monitor calls [<strong>LooksAlive</strong>](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master) repeatedly at a specified time interval (for example, once every five seconds).</td>
 </tr>
 <tr class="even">
-<td>[<strong>IsAlive</strong>](isalive.md)</td>
-<td>Perform a complete check of the resource to see if it is functioning properly. The set of procedures you need to use depends on your resource. For example, a database resource should check to see that the database can write to the disk and perform queries and updates to the disk. If the resource has definitely failed, return <strong>FALSE</strong>. The Resource Monitor immediately sets the status of the resource to &quot;ClusterResourceFailed&quot; and calls the [<strong>Terminate</strong>](terminate.md) entry point function. Resource Monitor calls [<strong>IsAlive</strong>](isalive.md) repeatedly at a specified time interval (for example, once every sixty seconds).</td>
+<td>[<strong>IsAlive</strong>](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master)</td>
+<td>Perform a complete check of the resource to see if it is functioning properly. The set of procedures you need to use depends on your resource. For example, a database resource should check to see that the database can write to the disk and perform queries and updates to the disk. If the resource has definitely failed, return <strong>FALSE</strong>. The Resource Monitor immediately sets the status of the resource to &quot;ClusterResourceFailed&quot; and calls the [<strong>Terminate</strong>](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master) entry point function. Resource Monitor calls [<strong>IsAlive</strong>](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) repeatedly at a specified time interval (for example, once every sixty seconds).</td>
 </tr>
 <tr class="odd">
-<td>[<strong>Offline</strong>](offline.md)</td>
+<td>[<strong>Offline</strong>](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master)</td>
 <td>Perform when the resource is placed offline. Resource Monitor will:<br/>
 <ul>
-<li>call [<strong>Offline</strong>](offline.md)</li>
-<li>call [<strong>Close</strong>](close.md)</li>
+<li>call [<strong>Offline</strong>](/windows/previous-versions/ResApi/nc-resapi-poffline_routine?branch=master)</li>
+<li>call [<strong>Close</strong>](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master)</li>
 <li>unload the script</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>[<strong>Close</strong>](close.md)</td>
+<td>[<strong>Close</strong>](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master)</td>
 <td>Perform when the script is closed. Resource Monitor will:<br/>
 <ul>
 <li>load the script</li>
-<li>call [<strong>Open</strong>](open.md)</li>
-<li>call [<strong>Close</strong>](close.md)</li>
+<li>call [<strong>Open</strong>](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master)</li>
+<li>call [<strong>Close</strong>](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master)</li>
 <li>unload the script</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Terminate</strong>](terminate.md)</td>
+<td>[<strong>Terminate</strong>](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master)</td>
 <td>Perform when terminating the script. Resource Monitor will:<br/>
 <ul>
 <li>load the script (if not already loaded)</li>
-<li>call [<strong>Open</strong>](open.md)</li>
-<li>call [<strong>Terminate</strong>](terminate.md)</li>
-<li>call [<strong>Close</strong>](close.md)</li>
+<li>call [<strong>Open</strong>](/windows/previous-versions/ResApi/nc-resapi-popen_routine?branch=master)</li>
+<li>call [<strong>Terminate</strong>](/windows/previous-versions/ResApi/nc-resapi-pterminate_routine?branch=master)</li>
+<li>call [<strong>Close</strong>](/windows/previous-versions/ResApi/nc-resapi-pclose_routine?branch=master)</li>
 <li>unload the script</li>
 </ul></td>
 </tr>
@@ -104,13 +108,13 @@ In a control script, code within the script body, outside any of the entry point
 
 
 
- 
+ 
 
 ### Parameters and Return Values
 
 Parameters are not passed in a call to an entry point function in a script.
 
-An entry point function can optionally set a return value. A return value of zero (or "true") indicates success and does not appear in the cluster log. The functions [**LooksAlive**](looksalive.md) and [**IsAlive**](isalive.md) should return the Boolean "true" rather than a numeric zero. Success is assumed if the return value is not set explicitly in the function.
+An entry point function can optionally set a return value. A return value of zero (or "true") indicates success and does not appear in the cluster log. The functions [**LooksAlive**](/windows/previous-versions/ResApi/nc-resapi-plooks_alive_routine?branch=master) and [**IsAlive**](/windows/previous-versions/ResApi/nc-resapi-pis_alive_routine?branch=master) should return the Boolean "true" rather than a numeric zero. Success is assumed if the return value is not set explicitly in the function.
 
 A nonzero return value (or false) indicates failure and appears in the cluster log.
 
@@ -121,7 +125,7 @@ The Generic Script resource DLL creates a [**Resource**](resource-object.md) obj
 > [!Note]  
 > To avoid deadlocks, do not use the [Cluster Automation Server](https://msdn.microsoft.com/library/aa372940), the [Failover Cluster WMI Provider](https://msdn.microsoft.com/library/aa372876), or otherwise make any calls to the [Cluster API](cluster-api.md) from your control script. All interaction with the [*cluster*](c-gly.md#-wolf-cluster-gly) should be done through the [**Resource**](resource-object.md) object.
 
- 
+ 
 
 ## Instance Management
 
@@ -183,9 +187,9 @@ End Function
 [Using the Generic Script Resource Type](using-the-generic-script-resource-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

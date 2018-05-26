@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies the driver when a Microsoft DirectDraw application is switching to or from exclusive mode.'
-ms.assetid: 'f2b63d90-7ede-479f-a2fd-ae9870c4d7b9'
+---
+Description: Notifies the driver when a Microsoft DirectDraw application is switching to or from exclusive mode.
+ms.assetid: f2b63d90-7ede-479f-a2fd-ae9870c4d7b9
 title: NtGdiDdSetExclusiveMode function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdSetExclusiveMode function

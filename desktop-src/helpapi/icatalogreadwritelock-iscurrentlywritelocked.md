@@ -1,8 +1,11 @@
 ---
 title: ICatalogReadWriteLock IsCurrentlyWriteLocked property
 description: Returns true if a catalog is currently write locked, else false
-ms.assetid: '91a57649-3296-4017-84f9-1398690f566e'
-keywords: ["IsCurrentlyWriteLocked property HelpAPI", "IsCurrentlyWriteLocked property HelpAPI , ICatalogReadWriteLock interface", "ICatalogReadWriteLock interface HelpAPI , IsCurrentlyWriteLocked property"]
+ms.assetid: 91a57649-3296-4017-84f9-1398690f566e
+keywords:
+- IsCurrentlyWriteLocked property HelpAPI
+- IsCurrentlyWriteLocked property HelpAPI , ICatalogReadWriteLock interface
+- ICatalogReadWriteLock interface HelpAPI , IsCurrentlyWriteLocked property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalogReadWriteLock::IsCurrentlyWriteLocked property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsCurrentlyWriteLocked(
-  [out, retval] VARIANT_BOOL *pRetVal
+  [out, retval] VARIANT_BOOL *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ True if a catalog is currently write locked, otherwise false.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ True if a catalog is currently write locked, otherwise false.
 [**ICatalogReadWriteLock**](icatalogreadwritelock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

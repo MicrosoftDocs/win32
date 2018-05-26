@@ -1,7 +1,12 @@
 ---
-Description: 'Device low battery notification.'
-ms.assetid: 'd708eb0c-c64e-4d65-8c2b-959ee5194a08'
-title: 'System.Devices.Notifications.LowBattery'
+Description: Device low battery notification.
+ms.assetid: d708eb0c-c64e-4d65-8c2b-959ee5194a08
+title: System.Devices.Notifications.LowBattery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Notifications.LowBattery

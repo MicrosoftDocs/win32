@@ -4,13 +4,16 @@ description: This method accepts a ReplicationType and a component, it then retu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'deff4294-4358-4f57-bd3b-9beacc622dde'
-ms.prod: 'windows-server-dev'
+ms.assetid: deff4294-4358-4f57-bd3b-9beacc622dde
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedMaximum method iSCSI Software Target API", "GetSupportedMaximum method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class", "CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedMaximum method"]
+keywords:
+- GetSupportedMaximum method iSCSI Software Target API
+- GetSupportedMaximum method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedMaximum method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedMaximum method of the CIM\_ReplicationServiceCapabilities class
@@ -30,9 +36,9 @@ This method accepts a ReplicationType and a component, it then returns a static 
 
 ```mof
 uint32 GetSupportedMaximum(
-  [in]  uint16 ReplicationType,
-  [in]  uint16 Component,
-  [out] uint64 MaxValue
+  [in]  uint16 ReplicationType,
+  [in]  uint16 Component,
+  [out] uint64 MaxValue
 );
 ```
 
@@ -117,14 +123,14 @@ For the given Mirror, Snapshot, Clone and their mode and locality variations as 
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *MaxValue* \[out\]
 </dt> <dd>
@@ -161,10 +167,10 @@ The maximum value, or 0 if the maximum is unlimited.
 **Information is not available** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -174,7 +180,7 @@ The maximum value, or 0 if the maximum is unlimited.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -188,9 +194,9 @@ The maximum value, or 0 if the maximum is unlimited.
 [**CIM\_ReplicationServiceCapabilities**](cim-replicationservicecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

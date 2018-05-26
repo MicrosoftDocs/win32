@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Send property is a Boolean value that indicates whether a fax port is enabled to send faxes.'
-ms.assetid: 'dcd870cf-2116-4f68-ab3a-979418b96a07'
-title: 'FaxPort.Send property'
+---
+Description: The Send property is a Boolean value that indicates whether a fax port is enabled to send faxes.
+ms.assetid: dcd870cf-2116-4f68-ab3a-979418b96a07
+title: FaxPort.Send property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.Send property
@@ -58,10 +63,10 @@ The **Send** property returns a value of TRUE if the fax port is enabled to send
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

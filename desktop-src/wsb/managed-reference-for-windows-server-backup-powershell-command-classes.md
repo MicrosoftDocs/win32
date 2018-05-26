@@ -1,18 +1,21 @@
 ---
 title: Managed Reference for Windows Server Backup PowerShell Command Classes
-description: Windows Server Backup can use Windows PowerShell cmdlets to create and manage backups in Windows Server 2008 R2.
+description: Windows Server Backup can use Windows PowerShell cmdlets to create and manage backups in Windows Server 2008 R2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '78A51D65-518E-458A-9CE7-BBEC7273FEFC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-server-backup'
+ms.assetid: 78A51D65-518E-458A-9CE7-BBEC7273FEFC
+ms.prod: windows-server-dev
+ms.technology: windows-server-backup
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Managed Reference for Windows Server Backup PowerShell Command Classes
 
-[Windows Server Backup](http://go.microsoft.com/fwlink/p/?linkid=111182) can use Windows PowerShell cmdlets to create and manage backups in Windows Server 2008 R2. This topic describes the following elements:
+[Windows Server Backup](http://go.microsoft.com/fwlink/p/?linkid=111182) can use Windows PowerShell cmdlets to create and manage backups in Windows Server 2008 R2. This topic describes the following elements:
 
 -   [WSB PowerShell Classes](#wsb-powershell-classes)
 -   [WSB Enumerations](#wsb-enumerations)
@@ -73,7 +76,7 @@ The following [Windows Server Backup](http://go.microsoft.com/fwlink/p/?linkid=1
 
 
 
- 
+ 
 
 ## WSB Enumerations
 
@@ -96,11 +99,11 @@ The following enumerations are used by the WSB classes. These enumerations are i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Called when the user name has been acquired by the control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0653B28B-2D46-429F-8A36-5656786C0B26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0653B28B-2D46-429F-8A36-5656786C0B26
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnUserNameAcquired method Remote Desktop Services", "OnUserNameAcquired method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnUserNameAcquired method"]
+keywords:
+- OnUserNameAcquired method Remote Desktop Services
+- OnUserNameAcquired method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnUserNameAcquired method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnUserNameAcquired method
@@ -28,7 +34,7 @@ Called when the user name has been acquired by the control.
 
 ```C++
 void OnUserNameAcquired(
-   BSTR bstrUserName
+   BSTR bstrUserName
 );
 ```
 
@@ -55,8 +61,8 @@ This method does not return a value.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents is defined as 336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |
@@ -70,9 +76,9 @@ This method does not return a value.
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

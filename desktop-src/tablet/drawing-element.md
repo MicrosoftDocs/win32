@@ -1,7 +1,12 @@
 ---
-Description: 'Contains content that has been classified by the analyzer or the user as a drawing.'
-ms.assetid: '566542f3-b824-442d-9d8b-0064ebcf9b68'
+Description: Contains content that has been classified by the analyzer or the user as a drawing.
+ms.assetid: 566542f3-b824-442d-9d8b-0064ebcf9b68
 title: Drawing Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing Element

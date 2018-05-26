@@ -1,7 +1,12 @@
 ---
 title: About Context-Sensitive Pop-up Help
 description: About Context-Sensitive Pop-up Help
-ms.assetid: 'E61253CB-A497-46bc-B926-397E7321EBC3'
+ms.assetid: E61253CB-A497-46bc-B926-397E7321EBC3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Context-Sensitive Pop-up Help

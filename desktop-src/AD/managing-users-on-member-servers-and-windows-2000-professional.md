@@ -4,11 +4,16 @@ description: On member servers and Windows 2000 Professional, there is a local 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eb0b793b-b33f-4200-af1e-3b72e7478af2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eb0b793b-b33f-4200-af1e-3b72e7478af2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["users AD ,managing a user on member servers and Windows 2000 Professional", "Active Directory,using,users,managing a user on member servers and Windows 2000 Professional"]
+keywords:
+- users AD ,managing a user on member servers and Windows 2000 Professional
+- Active Directory,using,users,managing a user on member servers and Windows 2000 Professional
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Managing Users on Member Servers and Windows 2000 Professional

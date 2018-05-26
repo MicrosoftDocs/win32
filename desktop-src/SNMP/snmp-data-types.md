@@ -1,7 +1,12 @@
 ---
 title: SNMP Data Types
 description: The SNMP API defines the following data types.
-ms.assetid: '147c24e2-cc7b-422c-822b-a2892d1ab044'
+ms.assetid: 147c24e2-cc7b-422c-822b-a2892d1ab044
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMP Data Types
@@ -14,12 +19,12 @@ The SNMP API defines the following data types.
 
 | Data type                      | Description                                                            |
 |--------------------------------|------------------------------------------------------------------------|
-| **AsnObjectName**<br/>   | See [**AsnObjectIdentifier**](asnobjectidentifier-str.md).<br/> |
-| **AsnObjectSyntax**<br/> | See [**AsnAny**](asnany-str.md).<br/>                           |
+| **AsnObjectName**<br/>   | See [**AsnObjectIdentifier**](/windows/win32/Snmp/ns-snmp-asnobjectidentifier?branch=master).<br/> |
+| **AsnObjectSyntax**<br/> | See [**AsnAny**](/windows/win32/Snmp/ns-snmp-asnany?branch=master).<br/>                           |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -27,8 +32,8 @@ The SNMP API defines the following data types.
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Snmp.h</dt> </dl> |
 
 
@@ -43,9 +48,9 @@ The SNMP API defines the following data types.
 [SNMP Reference](snmp-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

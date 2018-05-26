@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DAClientDnsConfiguration class
 description: This cmdlet removes the NRPT entry corresponding to the specified DNS suffix from the NRPT table.
 audience: developer
-ms.assetid: '891f4f04-7949-437f-95e6-7723a71a5901'
-ms.prod: 'windows-server-dev'
+ms.assetid: 891f4f04-7949-437f-95e6-7723a71a5901
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DAClientDnsConfiguration class", "PS_DAClientDnsConfiguration class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DAClientDnsConfiguration class
+- PS_DAClientDnsConfiguration class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DAClientDnsConfiguration class
@@ -28,10 +34,10 @@ This cmdlet removes the NRPT entry corresponding to the specified DNS suffix fro
 
 ```mof
 uint32 Remove(
-  [in]  string            DnsSuffix[],
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [out] DnsClientNrptRule cmdletOutput[]
+  [in]  string            DnsSuffix[],
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [out] DnsClientNrptRule cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ NRPT object for the NRPT entry that was removed
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ NRPT object for the NRPT entry that was removed
 [**PS\_DAClientDnsConfiguration**](ps-daclientdnsconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Allows the Enhanced Video Renderer (EVR) to improve performance by using bob deinterlacing.'
-ms.assetid: 'e145e862-b987-4962-a94b-f8370bbcd5ac'
-title: 'EVRConfig\_AllowDropToBob attribute'
+---
+Description: Allows the Enhanced Video Renderer (EVR) to improve performance by using bob deinterlacing.
+ms.assetid: e145e862-b987-4962-a94b-f8370bbcd5ac
+title: EVRConfig\_AllowDropToBob attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVRConfig\_AllowDropToBob attribute
@@ -14,15 +19,15 @@ Allows the Enhanced Video Renderer (EVR) to improve performance by using bob dei
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
-This attribute can be set on the EVRmedia sink. To set the attribute, **QueryInterface** to query the EVR media sink for the [**IMFAttributes**](imfattributes.md) interface.
+This attribute can be set on the EVRmedia sink. To set the attribute, **QueryInterface** to query the EVR media sink for the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface.
 
-Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_AllowDropToBob** flag on the EVR. See [**MFVideoMixPrefs**](mfvideomixprefs.md) for a description of this flag.
+Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_AllowDropToBob** flag on the EVR. See [**MFVideoMixPrefs**](/windows/win32/evr/ne-evr-_mfvideomixprefs?branch=master) for a description of this flag.
 
 The GUID constant for this attribute is exported from strmiids.lib.
 

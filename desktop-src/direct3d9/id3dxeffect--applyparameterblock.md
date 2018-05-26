@@ -1,7 +1,12 @@
-﻿---
-Description: 'Apply the values in a state block to the current effect system state.'
-ms.assetid: 'f228e2a2-64fa-4354-9f49-42d1d3b12d50'
-title: 'ID3DXEffect::ApplyParameterBlock method'
+---
+Description: Apply the values in a state block to the current effect system state.
+ms.assetid: f228e2a2-64fa-4354-9f49-42d1d3b12d50
+title: ID3DXEffectApplyParameterBlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffect::ApplyParameterBlock method

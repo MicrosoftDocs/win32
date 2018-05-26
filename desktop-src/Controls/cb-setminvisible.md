@@ -1,8 +1,9 @@
 ---
 title: CB\_SETMINVISIBLE message
 description: An application sends a CB\_SETMINVISIBLE message to set the minimum number of visible items in the drop-down list of a combo box.
-ms.assetid: '3cf9e488-50ce-4825-acf0-4e665d074f9e'
-keywords: ["CB_SETMINVISIBLE message Windows Controls"]
+ms.assetid: 3cf9e488-50ce-4825-acf0-4e665d074f9e
+keywords:
+- CB_SETMINVISIBLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETMINVISIBLE message
@@ -53,8 +59,8 @@ To use **CB\_SETMINVISIBLE**, the application must specify comctl32.dll version 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -69,12 +75,12 @@ To use **CB\_SETMINVISIBLE**, the application must specify comctl32.dll version 
 [**CB\_GETMINVISIBLE**](cb-getminvisible.md)
 </dt> <dt>
 
-[**ComboBox\_SetMinVisible**](combobox-setminvisible.md)
+[**ComboBox\_SetMinVisible**](/windows/win32/Commctrl/nf-commctrl-combobox_setminvisible?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

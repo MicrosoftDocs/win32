@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the collection of certificates that can be used to build the certificate chain.'
-ms.assetid: 'cdf378f9-0d71-4dd9-93cc-85f09a51c5fc'
-title: 'CertificateStatus.Certificates property'
+---
+Description: Sets or retrieves the collection of certificates that can be used to build the certificate chain.
+ms.assetid: cdf378f9-0d71-4dd9-93cc-85f09a51c5fc
+title: CertificateStatus.Certificates property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStatus.Certificates property

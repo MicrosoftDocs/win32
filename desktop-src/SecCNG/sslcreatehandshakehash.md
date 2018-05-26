@@ -1,7 +1,12 @@
 ---
-Description: 'Obtains a hash handle that is used to hash handshake messages.'
-ms.assetid: '31390584-9d23-41d1-8604-b84a5e52ecde'
+Description: Obtains a hash handle that is used to hash handshake messages.
+ms.assetid: 31390584-9d23-41d1-8604-b84a5e52ecde
 title: SslCreateHandshakeHash function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslCreateHandshakeHash function
@@ -13,11 +18,11 @@ The **SslCreateHandshakeHash** function obtains a hash handle that is used to ha
 
 ```C++
 SECURITY_STATUS WINAPI SslCreateHandshakeHash(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _Out_ NCRYPT_HASH_HANDLE *phHandshakeHash,
-  _In_  DWORD              dwProtocol,
-  _In_  DWORD              dwCipherSuite,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _Out_ NCRYPT_HASH_HANDLE *phHandshakeHash,
+  _In_  DWORD              dwProtocol,
+  _In_  DWORD              dwCipherSuite,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -49,7 +54,7 @@ One of the [**CNG SSL Provider Protocol Identifier**](seccngprov-cng_ssl_provide
 > [!Note]  
 > This function is not used with the SSL 2.0 protocol.
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,7 +90,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -101,16 +106,16 @@ The **SslCreateHandshakeHash** function is one of three functions used to genera
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The IByteBuffer interface is provided to read, write and manage stream objects. This object essentially is a wrapper for the IStream object.'
-ms.assetid: 'dbc46d53-a421-45c0-a86b-b8a0a212a672'
+Description: The IByteBuffer interface is provided to read, write and manage stream objects. This object essentially is a wrapper for the IStream object.
+ms.assetid: dbc46d53-a421-45c0-a86b-b8a0a212a672
 title: IByteBuffer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer interface
 
-\[The **IByteBuffer** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **IByteBuffer** interface is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **IByteBuffer** interface is provided to read, write and manage stream objects. This object essentially is a wrapper for the **IStream** object.
 
@@ -39,7 +44,7 @@ The **IByteBuffer** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -47,10 +52,10 @@ The **IByteBuffer** interface has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -58,9 +63,9 @@ The **IByteBuffer** interface has these methods.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

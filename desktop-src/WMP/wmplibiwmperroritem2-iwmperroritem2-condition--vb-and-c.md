@@ -1,8 +1,11 @@
 ---
 title: IWMPErrorItem2 condition property
 description: The condition property gets a value indicating the condition for the error.
-ms.assetid: '68800d75-8341-40d1-b699-ffe27bb1f38a'
-keywords: ["condition property Windows Media Player", "condition property Windows Media Player , IWMPErrorItem2 interface", "IWMPErrorItem2 interface Windows Media Player , condition property"]
+ms.assetid: 68800d75-8341-40d1-b699-ffe27bb1f38a
+keywords:
+- condition property Windows Media Player
+- condition property Windows Media Player , IWMPErrorItem2 interface
+- IWMPErrorItem2 interface Windows Media Player , condition property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPErrorItem2::condition property
@@ -71,9 +79,9 @@ The condition code is a value that is used by Microsoft to provide additional in
 [**IWMPErrorItem2 Interface (VB and C#)**](iwmperroritem2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'ICE55 validates that all LockPermission objects exist and have valid permission values.'
-ms.assetid: 'e23e43ce-942f-4f6b-b5fd-cf366f7a7fe5'
+Description: ICE55 validates that all LockPermission objects exist and have valid permission values.
+ms.assetid: e23e43ce-942f-4f6b-b5fd-cf366f7a7fe5
 title: ICE55
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE55

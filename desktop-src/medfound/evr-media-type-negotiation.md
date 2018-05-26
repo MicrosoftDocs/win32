@@ -1,7 +1,12 @@
 ---
 Description: EVR Media Type Negotiation
-ms.assetid: '3a12b80d-7aac-437d-b515-aab37c1e81b2'
+ms.assetid: 3a12b80d-7aac-437d-b515-aab37c1e81b2
 title: EVR Media Type Negotiation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVR Media Type Negotiation
@@ -10,7 +15,7 @@ This topic describes how the enhanced video renderer (EVR) validates media types
 
 -   For the DirectShow EVR filter, type negotiation occurs when the filter's pins are connected.
 
--   For the EVR media sink, the media types are set through the [**IMFMediaTypeHandler**](imfmediatypehandler.md) interface on the stream sinks. Typically the topology loader negotiates the media types, although the application can also set the media types directly.
+-   For the EVR media sink, the media types are set through the [**IMFMediaTypeHandler**](/windows/win32/mfidl/nn-mfidl-imfmediatypehandler?branch=master) interface on the stream sinks. Typically the topology loader negotiates the media types, although the application can also set the media types directly.
 
 The EVR does not report any preferred media types. The client must test media types until it finds an acceptable type. The media type for the reference stream must be set before the types can be set on any of the substreams.
 
@@ -22,25 +27,25 @@ Here is the process in more detail. These details are not important for most app
 
 For the reference stream, negotiation happens as follows:
 
-1.  The EVR calls [**IMFTransform::SetInputType**](imftransform-setinputtype.md) on the mixer.
+1.  The EVR calls [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) on the mixer.
 
-2.  The mixer converts the media type to a DXVA 2.0 description, using the [**DXVA2\_VideoDesc**](dxva2-videodesc.md) structure.
+2.  The mixer converts the media type to a DXVA 2.0 description, using the [**DXVA2\_VideoDesc**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videodesc?branch=master) structure.
 
-3.  The mixer calls [**IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids**](idirectxvideoprocessorservice-getvideoprocessordeviceguids.md) to get a list of video processor GUIDs.
+3.  The mixer calls [**IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids?branch=master) to get a list of video processor GUIDs.
 
-4.  For each video processor GUID, the mixer calls [**IDirectXVideoProcessorService::GetVideoProcessorRenderTargets**](idirectxvideoprocessorservice-getvideoprocessorrendertargets.md) to get the supported render target formats.
+4.  For each video processor GUID, the mixer calls [**IDirectXVideoProcessorService::GetVideoProcessorRenderTargets**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorrendertargets?branch=master) to get the supported render target formats.
 
-5.  The EVR calls [**IMFVideoPresenter::ProcessMessage**](imfvideopresenter-processmessage.md) on the presenter with the MFVP\_MESSAGE\_INVALIDATEMEDIATYPE message. This message causes the presenter to select a new format.
+5.  The EVR calls [**IMFVideoPresenter::ProcessMessage**](/windows/win32/evr/nf-evr-imfvideopresenter-processmessage?branch=master) on the presenter with the MFVP\_MESSAGE\_INVALIDATEMEDIATYPE message. This message causes the presenter to select a new format.
 
-6.  The presenter calls [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) to get a list of available output formats from the mixer. The mixer generates this list from the formats obtained in step 4.
+6.  The presenter calls [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) to get a list of available output formats from the mixer. The mixer generates this list from the formats obtained in step 4.
 
-7.  The presenter selects a format and calls [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) on the mixer.
+7.  The presenter selects a format and calls [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) on the mixer.
 
 For substreams, the process is simpler:
 
-1.  The EVR calls [**IMFTransform::SetInputType**](imftransform-setinputtype.md) on the mixer.
+1.  The EVR calls [**IMFTransform::SetInputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setinputtype?branch=master) on the mixer.
 
-2.  The mixer calls [**IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats**](idirectxvideoprocessorservice-getvideoprocessorsubstreamformats.md) to get a list of available substream formats.
+2.  The mixer calls [**IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorsubstreamformats?branch=master) to get a list of available substream formats.
 
 3.  If the proposed format is contained in this list, the EVR accepts the input type.
 

@@ -1,14 +1,22 @@
 ---
 title: GetVolumeOperation.GetResults method
 description: Returns the results of the asynchronous operation started by GetVolumeAsync.
-ms.assetid: '71DC4D76-4CC2-4D40-960F-AF56E1F33557'
-keywords: ["GetResults method Media Streaming API", "GetResults method Media Streaming API , GetVolumeOperation interface", "GetVolumeOperation interface Media Streaming API , GetResults method"]
+ms.assetid: 71DC4D76-4CC2-4D40-960F-AF56E1F33557
+keywords:
+- GetResults method Media Streaming API
+- GetResults method Media Streaming API , GetVolumeOperation interface
+- GetVolumeOperation interface Media Streaming API , GetResults method
 topic_type:
 - apiref
 api_name:
 - GetVolumeOperation.GetResults
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVolumeOperation.GetResults method
@@ -20,7 +28,7 @@ Returns the results of the asynchronous operation started by [**GetVolumeAsync**
 
 ```C++
 HRESULT GetResults(
-  [out, retval] UINT32 *value
+  [out, retval] UINT32 *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +70,9 @@ The **GetResults** method is typically called from the event handler that was re
 [**GetVolumeOperation**](getvolumeoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

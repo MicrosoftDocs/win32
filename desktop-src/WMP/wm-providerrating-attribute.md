@@ -1,14 +1,20 @@
 ---
 title: WM/ProviderRating Attribute
 description: The WM/ProviderRating attribute is the rating of the item assigned by the provider of the attribute values.
-ms.assetid: 'a1a76560-a8d9-486a-badc-56d7bf488c10'
-keywords: ["WM/ProviderRating Attribute Windows Media Player"]
+ms.assetid: a1a76560-a8d9-486a-badc-56d7bf488c10
+keywords:
+- WM/ProviderRating Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/ProviderRating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ProviderRating Attribute
@@ -51,9 +57,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

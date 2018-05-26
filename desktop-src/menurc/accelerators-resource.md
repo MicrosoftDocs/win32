@@ -1,14 +1,20 @@
 ---
 title: ACCELERATORS resource
 description: Defines one or more accelerators for an application. An accelerator is a keystroke defined by the application to give the user a quick way to perform a task.
-ms.assetid: '5953ee2d-b7a7-45d2-8445-4cba1207e272'
-keywords: ["ACCELERATORS resource Menus and Other Resources"]
+ms.assetid: 5953ee2d-b7a7-45d2-8445-4cba1207e272
+keywords:
+- ACCELERATORS resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - ACCELERATORS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACCELERATORS resource

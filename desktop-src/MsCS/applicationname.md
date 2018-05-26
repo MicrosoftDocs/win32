@@ -4,17 +4,22 @@ description: Name and path of a Volume Shadow Copy Service Task resource specifi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a55517f4-b2bd-4dd9-b73d-f0843f1320c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a55517f4-b2bd-4dd9-b73d-f0843f1320c4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ApplicationName Failover Cluster , for Volume Shadow Copy Service Task private properties", "ApplicationName Failover Cluster"]
+keywords:
+- ApplicationName Failover Cluster , for Volume Shadow Copy Service Task private properties
+- ApplicationName Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ApplicationName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplicationName
@@ -28,19 +33,19 @@ Name and path of a Volume Shadow Copy Service Task resource specific executable,
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Required                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
 When a Volume Shadow Copy Service Task resource is brought online to a node, it will create a task using the Task Scheduler V1.0 API. When the resource goes offline, the task is deleted from the node.
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 The constant for this property is **CLUSREG\_NAME\_VSSTASK\_APPNAME**.
 
@@ -68,7 +73,7 @@ StringCbCopy(                    ApplicationNameValue.sz,
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -82,9 +87,9 @@ StringCbCopy(                    ApplicationNameValue.sz,
 [Task Scheduler V1.0 API](https://msdn.microsoft.com/library/windows/desktop/aa383614)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

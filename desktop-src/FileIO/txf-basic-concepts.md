@@ -1,7 +1,12 @@
 ---
-Description: 'Describes read-committed consistency, read-committed isolation, and transactional locking concepts in Transactional NTFS.'
-ms.assetid: '18579c4a-a832-4c89-8fb1-cd2542e4375e'
+Description: Describes read-committed consistency, read-committed isolation, and transactional locking concepts in Transactional NTFS.
+ms.assetid: 18579c4a-a832-4c89-8fb1-cd2542e4375e
 title: Basic TxF Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic TxF Concepts
@@ -15,9 +20,9 @@ A [*transacted writer*](glossary.md#fs-transacted-writer) refers to a transacted
 A [*transacted reader*](glossary.md#fs-transacted-reader) refers to a transacted file handle opened with any permission that is a part of generic read access but is not part of generic write access. A *transacted reader* views a committed version of the file that existed at the time the file handle was opened. The transacted reader is isolated from the effects of transacted writers. This provides a consistent view of the file only for the life of the file handle and blocks non-transacted writers.
 
 > [!Note]  
-> When a handle has been opened for modification with the [**CreateFileTransacted**](createfiletransacted.md) function, all subsequent opens of the file within that transaction—whether read-only or not—are converted by the system to be a transacted writer for the purposes of isolation and other transactional semantics. This means that subsequently, when a handle is opened for read-only access, the handle does not receive a view of the file prior to the start of the transaction; it receives the active transaction view of the file.
+> When a handle has been opened for modification with the [**CreateFileTransacted**](/windows/win32/WinBase/nf-winbase-createfiletransacteda?branch=master) function, all subsequent opens of the file within that transaction whether read-only or not are converted by the system to be a transacted writer for the purposes of isolation and other transactional semantics. This means that subsequently, when a handle is opened for read-only access, the handle does not receive a view of the file prior to the start of the transaction; it receives the active transaction view of the file.
 
- 
+ 
 
 A non-transacted file handle does not see any changes made within a transaction until the transaction is committed. The non-transacted file handle receives an isolated view that is similar to a transacted reader, but unlike a transacted reader, it receives the file update when a transacted writer commits the transaction.
 
@@ -93,7 +98,7 @@ Yes
 
 
 
- 
+ 
 
 If you open a named stream for a modification that is using a transaction, the entire file is required to be locked.
 
@@ -106,9 +111,9 @@ You need to consider the following two file sharing modes in parallel:
 
 Whichever mode is more restrictive is the one that applies.
 
- 
+ 
 
- 
+ 
 
 
 

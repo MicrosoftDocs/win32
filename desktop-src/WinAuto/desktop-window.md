@@ -1,7 +1,12 @@
 ---
 title: Desktop Window (MSAA UI Element Reference)
 description: The desktop window displays the desktop list view (which contains icons such as My Computer) and the taskbar that contains the Start button.
-ms.assetid: '3668c26e-6462-4219-95d3-507811ed7f3c'
+ms.assetid: 3668c26e-6462-4219-95d3-507811ed7f3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop Window (MSAA UI Element Reference)
@@ -14,42 +19,42 @@ The window class name for the desktop window is "\#32769".
 
 ## IAccessible Methods
 
-The desktop window supports the following [**IAccessible**](iaccessible.md) methods:
+The desktop window supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods:
 
--   [**accHitTest**](iaccessible-iaccessible--acchittest.md)
--   [**accLocation**](iaccessible-iaccessible--acclocation.md)
--   [**accNavigate**](iaccessible-iaccessible--accnavigate.md)
--   [**accSelect**](iaccessible-iaccessible--accselect.md)
+-   [**accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)
+-   [**accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master)
+-   [**accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master)
+-   [**accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master)
 
 ## IAccessible Properties
 
-The desktop window supports the following [**IAccessible**](iaccessible.md) properties:
+The desktop window supports the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties:
 
 
 
 | Property                                                                 | Comments                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**get\_accChildCount**](iaccessible-iaccessible--get-accchildcount.md) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**get\_accFocus**](iaccessible-iaccessible--get-accfocus.md)           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**get\_accName**](iaccessible-iaccessible--get-accname.md)             | The Name property is "Desktop".                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**get\_accRole**](iaccessible-iaccessible--get-accrole.md)             | The **Role** property is [**ROLE\_SYSTEM\_CLIENT**](object-roles.md#role-system-client).                                                                                                                                                                                                                                                                                                                                                                                |
-| [**get\_accSelection**](iaccessible-iaccessible--get-accselection.md)   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**get\_accState**](iaccessible-iaccessible--get-accstate.md)           | The **State** property is a combination of one or more of the following [values](object-state-constants.md):[**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible) \| [**STATE\_SYSTEM\_UNAVAILABLE**](object-state-constants.md#state-system-unavailable) \| [**STATE\_SYSTEM\_FOCUSED**](object-state-constants.md#state-system-focused) \| [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md#state-system-focusable)<br/> |
+| [**get\_accChildCount**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchildcount?branch=master) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**get\_accFocus**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accfocus?branch=master)           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master)             | The Name property is "Desktop".                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**get\_accRole**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accrole?branch=master)             | The **Role** property is [**ROLE\_SYSTEM\_CLIENT**](object-roles.md#role-system-client).                                                                                                                                                                                                                                                                                                                                                                                |
+| [**get\_accSelection**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accselection?branch=master)   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [**get\_accState**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accstate?branch=master)           | The **State** property is a combination of one or more of the following [values](object-state-constants.md):[**STATE\_SYSTEM\_INVISIBLE**](object-state-constants.md#state-system-invisible) \| [**STATE\_SYSTEM\_UNAVAILABLE**](object-state-constants.md#state-system-unavailable) \| [**STATE\_SYSTEM\_FOCUSED**](object-state-constants.md#state-system-focused) \| [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md#state-system-focusable)<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[IAccessible Interface](iaccessible.md)
+[IAccessible Interface](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

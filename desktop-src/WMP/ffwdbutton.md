@@ -1,8 +1,22 @@
 ---
 title: FFWDBUTTON
 description: FFWDBUTTON
-ms.assetid: 'ebc27ee1-1fa1-46c7-bc10-cf8a163c9097'
-keywords: ["Windows Media Player skins,BUTTON element", "skins,BUTTON element", "reference for skins,BUTTON element", "BUTTON element", "elements,BUTTON", "Windows Media Player skins,Fast Forward button", "skins,Fast Forward buttons", "Fast Forward buttons", "reference for skins,Fast Forward buttons"]
+ms.assetid: ebc27ee1-1fa1-46c7-bc10-cf8a163c9097
+keywords:
+- Windows Media Player skins,BUTTON element
+- skins,BUTTON element
+- reference for skins,BUTTON element
+- BUTTON element
+- elements,BUTTON
+- Windows Media Player skins,Fast Forward button
+- skins,Fast Forward buttons
+- Fast Forward buttons
+- reference for skins,Fast Forward buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FFWDBUTTON

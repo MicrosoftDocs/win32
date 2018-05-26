@@ -1,7 +1,12 @@
 ---
 Description: Writing Video Renderers
-ms.assetid: '61dfff97-86b2-4d75-ac1c-a69b1dbde02a'
+ms.assetid: 61dfff97-86b2-4d75-ac1c-a69b1dbde02a
 title: Writing Video Renderers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Video Renderers

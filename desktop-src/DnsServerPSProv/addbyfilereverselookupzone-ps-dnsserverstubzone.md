@@ -2,13 +2,16 @@
 title: AddByFileReverseLookupZone method of the PS\_DnsServerStubZone class
 description: Adds a DNS stub zone.
 audience: developer
-ms.assetid: '7f70d6cb-f657-4e64-a045-da4a5d7b3061'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7f70d6cb-f657-4e64-a045-da4a5d7b3061
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByFileReverseLookupZone method", "AddByFileReverseLookupZone method, PS_DnsServerStubZone class", "PS_DnsServerStubZone class, AddByFileReverseLookupZone method"]
+keywords:
+- AddByFileReverseLookupZone method
+- AddByFileReverseLookupZone method, PS_DnsServerStubZone class
+- PS_DnsServerStubZone class, AddByFileReverseLookupZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByFileReverseLookupZone method of the PS\_DnsServerStubZone class
@@ -28,13 +34,13 @@ Adds a DNS stub zone.
 
 ```mof
 uint32 AddByFileReverseLookupZone(
-  [in]  boolean           LoadExisting,
-  [in]  string            MasterServers[],
-  [in]  string            NetworkId,
-  [in]  string            ComputerName,
-  [in]  string            ZoneFile,
-  [in]  boolean           PassThru,
-  [out] DnsServerStubZone cmdletOutput[]
+  [in]  boolean           LoadExisting,
+  [in]  string            MasterServers[],
+  [in]  string            NetworkId,
+  [in]  string            ComputerName,
+  [in]  string            ZoneFile,
+  [in]  boolean           PassThru,
+  [out] DnsServerStubZone cmdletOutput[]
 );
 ```
 
@@ -100,7 +106,7 @@ Receives an embedded instance of the [**DnsServerStubZone**](dnsserverstubzone.m
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -114,9 +120,9 @@ Receives an embedded instance of the [**DnsServerStubZone**](dnsserverstubzone.m
 [**PS\_DnsServerStubZone**](ps-dnsserverstubzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

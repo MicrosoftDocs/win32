@@ -1,8 +1,10 @@
 ---
 title: System.Environment object
 description: Defines the properties and methods for determining system and user environment variables.
-ms.assetid: '4ec38f57-39ff-44e2-94c7-63207c9f27e7'
-keywords: ["System.Environment object Windows Sidebar", "System.Environment object Windows Sidebar , described"]
+ms.assetid: 4ec38f57-39ff-44e2-94c7-63207c9f27e7
+keywords:
+- System.Environment object Windows Sidebar
+- System.Environment object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Environment object
@@ -38,7 +45,7 @@ The **System.Environment** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -52,7 +59,7 @@ The **System.Environment** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,18 +71,18 @@ System environment variables define the behavior of the global operating system 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

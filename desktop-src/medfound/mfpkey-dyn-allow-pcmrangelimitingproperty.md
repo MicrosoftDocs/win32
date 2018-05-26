@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoder uses PCM range limiting.'
-ms.assetid: '00427337-8f5a-41c9-a303-378a37be1913'
-title: 'MFPKEY\_DYN\_ALLOW\_PCMRANGELIMITING Property'
+---
+Description: Specifies whether the encoder uses PCM range limiting.
+ms.assetid: 00427337-8f5a-41c9-a303-378a37be1913
+title: MFPKEY\_DYN\_ALLOW\_PCMRANGELIMITING Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DYN\_ALLOW\_PCMRANGELIMITING Property

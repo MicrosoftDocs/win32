@@ -1,7 +1,12 @@
 ---
-Description: 'The = operator assigns a new reference time.'
-ms.assetid: '556c2e8a-4726-42ab-949d-9a028ebb1b95'
-title: 'CRefTime.operator= method'
+Description: The = operator assigns a new reference time.
+ms.assetid: 556c2e8a-4726-42ab-949d-9a028ebb1b95
+title: CRefTime.operator= method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRefTime.operator= method
@@ -13,7 +18,7 @@ The = operator assigns a new reference time.
 
 ```C++
 CRefTime&amp; operator=(
-   const LONGLONG ll
+   const LONGLONG ll
 );
 ```
 
@@ -45,9 +50,9 @@ Returns a reference to the object.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

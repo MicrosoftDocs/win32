@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: '678085c2-5999-4e62-8749-99b783787cc6'
-title: 'CSourceStream.~CSourceStream destructor'
+Description: Destructor method.
+ms.assetid: 678085c2-5999-4e62-8749-99b783787cc6
+title: CSourceStream.~CSourceStream destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.~CSourceStream destructor
@@ -39,9 +44,9 @@ The destructor automatically removes the pin from the owning filter, by calling 
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

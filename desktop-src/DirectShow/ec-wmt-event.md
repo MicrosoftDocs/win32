@@ -1,7 +1,12 @@
 ---
-Description: 'Sent by the WM ASF Reader filter when it reads ASF files protected by digital rights management (DRM).'
-ms.assetid: 'ac6ea7a1-238e-42ae-9f10-e1db60381357'
-title: 'EC\_WMT\_EVENT'
+Description: Sent by the WM ASF Reader filter when it reads ASF files protected by digital rights management (DRM).
+ms.assetid: ac6ea7a1-238e-42ae-9f10-e1db60381357
+title: EC\_WMT\_EVENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_WMT\_EVENT
@@ -29,14 +34,14 @@ One of the following **WMT\_STATUS** values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-Pointer to an [**AM\_WMT\_EVENT\_DATA**](am-wmt-event-data.md) structure that contains information about the event, or **NULL**. The **pData** member of this structure points to additional data, whose type depends on the value of **lParam1**, as shown in the following table.
+Pointer to an [**AM\_WMT\_EVENT\_DATA**](/windows/win32/evcode/ns-evcode-am_wmt_event_data?branch=master) structure that contains information about the event, or **NULL**. The **pData** member of this structure points to additional data, whose type depends on the value of **lParam1**, as shown in the following table.
 
 
 
@@ -50,7 +55,7 @@ Pointer to an [**AM\_WMT\_EVENT\_DATA**](am-wmt-event-data.md) structure that co
 
 
 
- 
+ 
 
 The value of *lParam2* might be **NULL**. Check the value before dereferencing the pointer.
 
@@ -80,9 +85,9 @@ See the Windows Media Format SDK documentation for more information on enabling 
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Implementing CEcho FinalConstruct
 description: Implementing CEcho FinalConstruct
-ms.assetid: '149e99c5-9f57-4447-b520-39a6dd39fc86'
-keywords: ["Windows Media Player plug-ins,Echo sample property pages", "plug-ins,Echo sample property pages", "digital signal processing plug-ins,Echo sample property pages", "DSP plug-ins,Echo sample property pages", "Echo DSP plug-in sample,property pages", "Echo DSP plug-in sample,CEcho FinalConstruct method"]
+ms.assetid: 149e99c5-9f57-4447-b520-39a6dd39fc86
+keywords:
+- Windows Media Player plug-ins,Echo sample property pages
+- plug-ins,Echo sample property pages
+- digital signal processing plug-ins,Echo sample property pages
+- DSP plug-ins,Echo sample property pages
+- Echo DSP plug-in sample,property pages
+- Echo DSP plug-in sample,CEcho FinalConstruct method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing CEcho::FinalConstruct

@@ -4,11 +4,13 @@ description: ODBC Driver Instance Provider.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '16d7d505-d21d-495e-8b91-3c11806c3352'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 16d7d505-d21d-495e-8b91-3c11806c3352
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_OdbcDriver class", "MSFT_OdbcDriver class, described"]
+keywords:
+- MSFT_OdbcDriver class
+- MSFT_OdbcDriver class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_OdbcDriver class
@@ -34,8 +39,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("1.0"), AMENDMENT]
 class MSFT_OdbcDriver
 {
-  string                Name;
-  string                Platform;
+  string                Name;
+  string                Platform;
   MSFT_OdbcKeyValuePair KeyValuePair[];
 };
 ```
@@ -106,8 +111,8 @@ Either '32-bit' or '64-bit'.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -124,9 +129,9 @@ Either '32-bit' or '64-bit'.
 [**MSFT\_OdbcKeyValuePair**](msft-odbckeyvaluepair.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

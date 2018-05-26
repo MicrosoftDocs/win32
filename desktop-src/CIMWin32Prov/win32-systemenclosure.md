@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents the properties that are associated with a physical system enclosure.'
+---
+Description: Represents the properties that are associated with a physical system enclosure.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a8244dc0-a95e-4940-9b92-7820bdf14916'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a8244dc0-a95e-4940-9b92-7820bdf14916
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SystemEnclosure class'
+title: Win32\_SystemEnclosure class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SystemEnclosure class

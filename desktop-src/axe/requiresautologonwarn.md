@@ -1,14 +1,20 @@
 ---
 title: RequiresAutoLogOnWarn element
 description: If present then this assessment prefers that the operating system is configured to automatically log on. The assessment may reboot the system.
-ms.assetid: '691E3D96-CFF6-4F8D-8535-02EB93F25D36'
-keywords: ["RequiresAutoLogOnWarn element Access Execution Engine"]
+ms.assetid: 691E3D96-CFF6-4F8D-8535-02EB93F25D36
+keywords:
+- RequiresAutoLogOnWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresAutoLogOnWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresAutoLogOnWarn element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

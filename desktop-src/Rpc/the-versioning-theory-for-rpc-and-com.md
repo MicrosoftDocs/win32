@@ -1,8 +1,14 @@
 ---
 title: The Versioning Theory for RPC and COM
 description: Versioning theory for Remote Procedure Call (RPC) and COM.
-ms.assetid: 'c4df0a7b-e1be-481d-9149-317ffc9179b9'
-keywords: ["Remote Procedure Call RPC , best practices, versioning"]
+ms.assetid: c4df0a7b-e1be-481d-9149-317ffc9179b9
+keywords:
+- Remote Procedure Call RPC , best practices, versioning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Versioning Theory for RPC and COM

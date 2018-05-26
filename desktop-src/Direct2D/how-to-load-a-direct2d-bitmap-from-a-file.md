@@ -1,12 +1,17 @@
 ---
 title: How to Load a Bitmap from a File
 description: Shows how to load a Direct2D bitmap from an image file.
-ms.assetid: '4abfbc2b-2730-4d96-897e-1e2232383a72'
+ms.assetid: 4abfbc2b-2730-4d96-897e-1e2232383a72
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Load a Bitmap from a File
 
-Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a file, first use WIC objects to load the image and to convert it to a Direct2D-compatible format, then use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](id2d1bitmap.md).
+Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bitmap from a file, first use WIC objects to load the image and to convert it to a Direct2D-compatible format, then use the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master).
 
 1.  Create an [**IWICBitmapDecoder**](_wic_codec_iwicbitmapdecoder) by using the [**IWICImagingFactory::CreateDecoderFromFileName**](_wic_codec_iwicimagingfactory_createdecoderfromfilename) method.
 
@@ -109,7 +114,7 @@ Direct2D uses the Windows Imaging Component (WIC) to load bitmaps. To load a bit
 
     
 
-4.  Call the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](id2d1bitmap.md) object that can be drawn by a render target and used with other Direct2D objects.
+4.  Call the [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md) method to create an [**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master) object that can be drawn by a render target and used with other Direct2D objects.
     ```C++
         if (SUCCEEDED(hr))
         {
@@ -140,7 +145,7 @@ Some code has been omitted from this example.
 
 <dl> <dt>
 
-[**ID2D1Bitmap**](id2d1bitmap.md)
+[**ID2D1Bitmap**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
 [**CreateBitmapFromWicBitmap**](id2d1rendertarget-createbitmapfromwicbitmap.md)

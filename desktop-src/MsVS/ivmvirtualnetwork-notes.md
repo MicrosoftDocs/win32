@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork Notes property
 description: The Notes property contains the notes for this virtual network.
-ms.assetid: 'd872f624-885e-4aae-a0ed-211bcf61c34a'
-keywords: ["Notes property Virtual Server", "Notes property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , Notes property", "Notes property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , Notes property"]
+ms.assetid: d872f624-885e-4aae-a0ed-211bcf61c34a
+keywords:
+- Notes property Virtual Server
+- Notes property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , Notes property
+- Notes property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , Notes property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::Notes property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Notes(
-  [in]  BSTR virtualNetworkNotes
+  [in]  BSTR virtualNetworkNotes
 );
 
 HRESULT get_Notes(
-  [out] BSTR *virtualNetworkNotes
+  [out] BSTR *virtualNetworkNotes
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ This property value is read/write.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

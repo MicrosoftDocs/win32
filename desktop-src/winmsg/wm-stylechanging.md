@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window when the SetWindowLong function is about to change one or more of the window''s styles.'
-ms.assetid: '71034362-3f67-49ae-bbbf-d38853ababb3'
-title: 'WM\_STYLECHANGING message'
+---
+Description: Sent to a window when the SetWindowLong function is about to change one or more of the windows styles.
+ms.assetid: 71034362-3f67-49ae-bbbf-d38853ababb3
+title: WM\_STYLECHANGING message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_STYLECHANGING message

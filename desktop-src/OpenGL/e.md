@@ -3,7 +3,16 @@ title: E
 description: Definitions of OpenGL terms that begin with the letter E.
 Robots: noindex, nofollow
 ms.assetid: de499edb-59f2-4488-bb49-17e44876f5c8
-keywords: ["elements", "evaluation", "execute", "eye coordinates"]
+keywords:
+- elements
+- evaluation
+- execute
+- eye coordinates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # E

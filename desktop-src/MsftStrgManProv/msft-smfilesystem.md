@@ -4,11 +4,16 @@ description: Represents a file system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6fe5cd14-08c4-426b-8b26-72dd64efa985'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 6fe5cd14-08c4-426b-8b26-72dd64efa985
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMFileSystem class", "MSFT_SMFileSystem class, described"]
+keywords:
+- MSFT_SMFileSystem class
+- MSFT_SMFileSystem class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMFileSystem class
@@ -17,7 +22,7 @@ Represents a file system.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This class does not inherit from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) which is new for Windows Server 2016.
 
 ## Syntax
 
@@ -25,18 +30,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMFileSystem : MSFT_SMStorageObject
 {
-  String  ObjectId;
-  String  Identifier;
-  UInt16  HealthStatus;
-  String  FileSystem;
-  String  Name;
-  String  FriendlyName;
-  UInt64  Size;
-  UInt64  SizeRemaining;
+  String  ObjectId;
+  String  Identifier;
+  UInt16  HealthStatus;
+  String  FileSystem;
+  String  Name;
+  String  FriendlyName;
+  UInt64  Size;
+  UInt64  SizeRemaining;
   Boolean IsReadOnly;
-  UInt16  FileSystemType;
+  UInt16  FileSystemType;
   Boolean IsDeduplicationEnabled;
-  UInt16  DeduplicationWorkload;
+  UInt16  DeduplicationWorkload;
 };
 ```
 
@@ -61,7 +66,7 @@ The **MSFT\_SMFileSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -175,7 +180,7 @@ The ID of the logical instance of the object. This ID must be unique within the 
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -234,7 +239,7 @@ The ID of this class instance. This ID must be unique within the scope of the Wi
 
 This property is inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md).
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
+**Windows Server 2012 R2 and Windows Server 2012:** This property is present, but is not inherited from [**MSFT\_SMStorageObject**](msft-smstorageobject.md) .
 
 </dd> <dt>
 
@@ -271,7 +276,7 @@ The unused size of the unused portion of file system, in bytes.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -288,9 +293,9 @@ The unused size of the unused portion of file system, in bytes.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

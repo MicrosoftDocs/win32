@@ -4,17 +4,22 @@ description: Specifies whether the group should automatically be failed back to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cd06c375-2684-4943-8587-692e655b44a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: cd06c375-2684-4943-8587-692e655b44a2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AutoFailbackType Failover Cluster ,for groups", "AutoFailbackType Failover Cluster"]
+keywords:
+- AutoFailbackType Failover Cluster ,for groups
+- AutoFailbackType Failover Cluster
 topic_type:
 - apiref
 api_name:
 - AutoFailbackType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AutoFailbackType
@@ -27,18 +32,18 @@ Specifies whether the [group](groups.md) should automatically be failed back to 
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | **ClusterGroupPreventFailback** (0)<br/>       |
 | Maximum<br/>   | **ClusterGroupAllowFailback** (1)<br/>         |
 | Default<br/>   | **ClusterGroupPreventFailback**<br/>           |
 
 
 
- 
+ 
 
 ## Remarks
 
-The data for the **AutoFailbackType** property can be set to one of the following values of the [**CLUSTER\_GROUP\_AUTOFAILBACK\_TYPE**](cluster-group-autofailback-type.md) enumeration.
+The data for the **AutoFailbackType** property can be set to one of the following values of the [**CLUSTER\_GROUP\_AUTOFAILBACK\_TYPE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_group_autofailback_type?branch=master) enumeration.
 
 
 
@@ -49,9 +54,9 @@ The data for the **AutoFailbackType** property can be set to one of the followin
 
 
 
- 
+ 
 
-Note that setting this property to **ClusterGroupAllowFailback** has no effect if you have not specified a preferred owners list for the group. Use the [**SetClusterGroupNodeList**](setclustergroupnodelist.md) function to specify a preferred owners list.
+Note that setting this property to **ClusterGroupAllowFailback** has no effect if you have not specified a preferred owners list for the group. Use the [**SetClusterGroupNodeList**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_group_node_list?branch=master) function to specify a preferred owners list.
 
 ## Examples
 
@@ -76,7 +81,7 @@ AutoFailbackTypeValue.dw        = AutoFailbackTypeData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -87,18 +92,18 @@ AutoFailbackTypeValue.dw        = AutoFailbackTypeData;
 [Group Common Properties](common-properties-ref.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSTER\_GROUP\_AUTOFAILBACK\_TYPE**](cluster-group-autofailback-type.md)
+[**CLUSTER\_GROUP\_AUTOFAILBACK\_TYPE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_group_autofailback_type?branch=master)
 </dt> <dt>
 
-[**SetClusterGroupNodeList**](setclustergroupnodelist.md)
+[**SetClusterGroupNodeList**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_group_node_list?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

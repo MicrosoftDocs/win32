@@ -4,13 +4,16 @@ description: Creates a resource type.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c75ec4da-f2bb-4544-8b22-fd9c14b14f86'
-ms.prod: 'windows-server-dev'
+ms.assetid: c75ec4da-f2bb-4544-8b22-fd9c14b14f86
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateResourceType method", "CreateResourceType method, MSCluster_ResourceType class", "MSCluster_ResourceType class, CreateResourceType method"]
+keywords:
+- CreateResourceType method
+- CreateResourceType method, MSCluster_ResourceType class
+- MSCluster_ResourceType class, CreateResourceType method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateResourceType method of the MSCluster\_ResourceType class
@@ -30,11 +36,11 @@ Creates a [resource type](https://msdn.microsoft.com/library/aa372279).
 
 ```mof
 void CreateResourceType(
-  [in] string Name,
-  [in] string DisplayName,
-  [in] string DLLName,
-  [in] uint32 LooksAlivePollInterval,
-  [in] uint32 IsAlivePollInterval
+  [in] string Name,
+  [in] string DisplayName,
+  [in] string DLLName,
+  [in] uint32 LooksAlivePollInterval,
+  [in] uint32 IsAlivePollInterval
 );
 ```
 
@@ -90,7 +96,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -104,9 +110,9 @@ This method does not return a value.
 [**MSCluster\_ResourceType**](mscluster-resourcetype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

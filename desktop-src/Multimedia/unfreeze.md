@@ -1,21 +1,27 @@
 ---
 title: unfreeze command
 description: The unfreeze command reenables video acquisition to the frame buffer after it has been disabled by the freeze command. Digital-video, VCR, and video-overlay devices recognize this command.
-ms.assetid: '79ff1be5-6e30-4ef4-ab81-fc5643e3a72d'
-keywords: ["unfreeze command Windows Multimedia"]
+ms.assetid: 79ff1be5-6e30-4ef4-ab81-fc5643e3a72d
+keywords:
+- unfreeze command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - unfreeze
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # unfreeze command
 
 The unfreeze command reenables video acquisition to the frame buffer after it has been disabled by the [freeze](freeze.md) command. Digital-video, VCR, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -53,7 +59,7 @@ Flag for reenabling video acquisition to the frame buffer. The following table l
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszUnfreeze** parameter and their meanings.
 
@@ -67,7 +73,7 @@ The following table lists the flags that can be specified in the **lpszUnfreeze*
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,8 +102,8 @@ unfreeze vboard at 10 20 90 165
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -114,9 +120,9 @@ unfreeze vboard at 10 20 90 165
 [freeze](freeze.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

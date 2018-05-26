@@ -4,13 +4,16 @@ description: Retrieves the supported property values for the specified CIM\_Repl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9026370d-6400-47df-9235-64dd5fbb4cf5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9026370d-6400-47df-9235-64dd5fbb4cf5
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedReplicationSettingData method iSCSI Software Target API", "GetSupportedReplicationSettingData method iSCSI Software Target API , MSISCSITARGET_ReplicationServiceCapabilities class", "MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedReplicationSettingData method"]
+keywords:
+- GetSupportedReplicationSettingData method iSCSI Software Target API
+- GetSupportedReplicationSettingData method iSCSI Software Target API , MSISCSITARGET_ReplicationServiceCapabilities class
+- MSISCSITARGET_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedReplicationSettingData method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedReplicationSettingData method of the MSISCSITARGET\_ReplicationServiceCapabilities class
@@ -32,9 +38,9 @@ This method is inherited from the **CIM\_ReplicationServiceCapabilities** class.
 
 ```mof
 uint32 GetSupportedReplicationSettingData(
-  [in]  uint16 ReplicationType,
-  [in]  uint16 PropertyName,
-  [out] uint64 SupportedValues[]
+  [in]  uint16 ReplicationType,
+  [in]  uint16 PropertyName,
+  [out] uint64 SupportedValues[]
 );
 ```
 
@@ -142,7 +148,7 @@ The [**MSISCSITARGET\_ReplicationServiceCapabilities**](msiscsitarget-replicatio
 **DMTF Reserved**
 
 
-</dt> <dd>14–0x7FFF</dd> <dt>
+</dt> <dd>14 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -263,7 +269,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>16–0x7FFF</dd> <dt>
+</dt> <dd>16 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -310,7 +316,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–0x7FFF)
+**DMTF Reserved** (7 0x7FFF)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -323,7 +329,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -340,9 +346,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_ReplicationService**](msiscsitarget-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

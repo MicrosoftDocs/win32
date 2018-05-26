@@ -1,14 +1,20 @@
 ---
 title: Miscellaneous State Variables
 description: Miscellaneous State Variables
-ms.assetid: '4c99b9b6-5cd3-49d1-9bfe-fa1421d892f2'
-keywords: ["Miscellaneous State Variables OpenGL"]
+ms.assetid: 4c99b9b6-5cd3-49d1-9bfe-fa1421d892f2
+keywords:
+- Miscellaneous State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Miscellaneous State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Miscellaneous State Variables

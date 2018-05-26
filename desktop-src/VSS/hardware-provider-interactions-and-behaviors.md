@@ -1,15 +1,20 @@
 ---
 Description: Hardware Provider Interactions and Behaviors
-ms.assetid: '059968cf-43e5-4442-b757-80afdd66799f'
+ms.assetid: 059968cf-43e5-4442-b757-80afdd66799f
 title: Hardware Provider Interactions and Behaviors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hardware Provider Interactions and Behaviors
 
-Hardware providers may support copy-on-write and/or full copy mirror (differential and/or plex) shadow copies. Resource allocation for shadow copies should follow the context specified by the requester in [**IVssBackupComponents::SetContext**](ivssbackupcomponents-setcontext.md), enumerated by [**\_VSS\_SNAPSHOT\_CONTEXT**](-vss-snapshot-context.md), for the shadow copy set.
+Hardware providers may support copy-on-write and/or full copy mirror (differential and/or plex) shadow copies. Resource allocation for shadow copies should follow the context specified by the requester in [**IVssBackupComponents::SetContext**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setcontext?branch=master), enumerated by [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/win32/Vss/ne-vss-_vss_snapshot_context?branch=master), for the shadow copy set.
 
 -   If the requester specifies a shadow copy context that is supported by the provider, the provider should create a shadow copy using that method.
--   If the requester specifies a shadow copy context that is not supported by the provider, then the provider should not attempt to create the shadow copy and return **FALSE** through the *pbIsSupported* parameter in [**IVssHardwareSnapshotProvider::AreLunsSupported**](ivsshardwaresnapshotprovider-arelunssupported.md).
+-   If the requester specifies a shadow copy context that is not supported by the provider, then the provider should not attempt to create the shadow copy and return **FALSE** through the *pbIsSupported* parameter in [**IVssHardwareSnapshotProvider::AreLunsSupported**](/windows/win32/VsProv/nf-vsprov-ivsshardwaresnapshotprovider-arelunssupported?branch=master).
 -   If the requester does not explicitly specify a shadow copy context, then the provider should use reasonable default behavior for shadow copy creation.
 
 Hardware providers associated with SAN RAID subsystems should support transportable shadow copies to allow movement between hosts on a SAN.

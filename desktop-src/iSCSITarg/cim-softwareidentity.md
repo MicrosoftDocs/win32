@@ -4,13 +4,15 @@ description: SoftwareIdentity provides descriptive information about a software 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd4086334-e4b8-4724-a54e-3b1bd0c6dce2'
-ms.prod: 'windows-server-dev'
+ms.assetid: d4086334-e4b8-4724-a54e-3b1bd0c6dce2
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SoftwareIdentity class iSCSI Software Target API", "CIM_SoftwareIdentity class iSCSI Software Target API , described"]
+keywords:
+- CIM_SoftwareIdentity class iSCSI Software Target API
+- CIM_SoftwareIdentity class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SoftwareIdentity class
@@ -55,27 +60,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.14.0"), UMLPackagePath("CIM::Core::Software")]
 class CIM_SoftwareIdentity : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   InstanceID;
-  uint16   MajorVersion;
-  uint16   MinorVersion;
-  uint16   RevisionNumber;
-  uint16   BuildNumber;
-  string   VersionString;
-  string   TargetOperatingSystems[];
-  string   Manufacturer;
-  string   Languages[];
-  uint16   Classifications[];
-  string   ClassificationDescriptions[];
-  string   SerialNumber;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   InstanceID;
+  uint16   MajorVersion;
+  uint16   MinorVersion;
+  uint16   RevisionNumber;
+  uint16   BuildNumber;
+  string   VersionString;
+  string   TargetOperatingSystems[];
+  string   Manufacturer;
+  string   Languages[];
+  uint16   Classifications[];
+  string   ClassificationDescriptions[];
+  string   SerialNumber;
   datetime ReleaseDate;
 };
 ```
@@ -258,14 +263,14 @@ An array of enumerated integers that classify this software. For example, the so
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -527,7 +532,7 @@ Contains indicators of the current status of the element. The first value of **O
 > [!Note]  
 > **OperationalStatus** replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, Microsoft strongly recommends that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status** (because it is single-valued) should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -824,7 +829,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -974,16 +979,16 @@ A string representing the complete software version information - for example, '
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: CBEM\_SETWINDOWTHEME message
 description: Sets the visual style of a ComboBoxEx control.
-ms.assetid: '064f9a24-42be-42f4-bee3-e7320fe8c366'
-keywords: ["CBEM_SETWINDOWTHEME message Windows Controls"]
+ms.assetid: 064f9a24-42be-42f4-bee3-e7320fe8c366
+keywords:
+- CBEM_SETWINDOWTHEME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_SETWINDOWTHEME message
@@ -40,7 +46,7 @@ The return value is not used.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32 version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -48,15 +54,15 @@ The return value is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

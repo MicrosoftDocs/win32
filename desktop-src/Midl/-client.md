@@ -2,13 +2,19 @@
 title: /client switch
 description: The /client switch directs the MIDL compiler to generate client-side C source files for an RPC interface.
 ms.assetid: bce5af72-2201-4b42-9348-cb97f08b7fdf
-keywords: ["/client switch MIDL"]
+keywords:
+- /client switch MIDL
 topic_type:
 - apiref
 api_name:
 - /client
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /client switch

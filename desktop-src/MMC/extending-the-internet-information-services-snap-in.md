@@ -4,10 +4,13 @@ description: The Internet Information Services (IIS) snap-in is used to manage I
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1bf1dc7c-8f43-420a-9177-f7cddb69ee7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1bf1dc7c-8f43-420a-9177-f7cddb69ee7d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Internet Information Services Snap-in

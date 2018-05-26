@@ -1,8 +1,9 @@
 ---
 title: TTM\_TRACKPOSITION message
 description: Sets the position of a tracking tooltip.
-ms.assetid: '9eb7c86c-78e6-442a-ad77-5fb919cab591'
-keywords: ["TTM_TRACKPOSITION message Windows Controls"]
+ms.assetid: 9eb7c86c-78e6-442a-ad77-5fb919cab591
+keywords:
+- TTM_TRACKPOSITION message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_TRACKPOSITION message
@@ -41,7 +47,7 @@ The return value for this message is not used.
 
 ## Remarks
 
-The tooltip control chooses where to display the tooltip window based on the coordinates you provide with this message. This causes the tooltip window to appear beside the tool to which it corresponds. To have tooltip windows displayed at specific coordinates, include the TTF\_ABSOLUTE flag in the **uFlags** member of the [**TOOLINFO**](toolinfo.md) structure when adding the tool.
+The tooltip control chooses where to display the tooltip window based on the coordinates you provide with this message. This causes the tooltip window to appear beside the tool to which it corresponds. To have tooltip windows displayed at specific coordinates, include the TTF\_ABSOLUTE flag in the **uFlags** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure when adding the tool.
 
 ## Requirements
 
@@ -49,8 +55,8 @@ The tooltip control chooses where to display the tooltip window based on the coo
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ The tooltip control chooses where to display the tooltip window based on the coo
 [Using Tooltip Controls](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

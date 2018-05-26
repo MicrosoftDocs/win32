@@ -1,8 +1,10 @@
 ---
 title: image object
 description: Specifies an image element to display in a gadget.
-ms.assetid: 'bcc3db81-45e8-46ae-af49-8f81829c0303'
-keywords: ["image object Windows Sidebar", "image object Windows Sidebar , described"]
+ms.assetid: bcc3db81-45e8-46ae-af49-8f81829c0303
+keywords:
+- image object Windows Sidebar
+- image object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # image object
@@ -39,7 +46,7 @@ The **image** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +69,7 @@ The **image** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,7 +80,7 @@ This element can be declared in the gadget HTML file or created with the [**addI
 > \[!Caution\]  
 > Other than [**g:background**](background-element.md), avoid images that render to the absolute edges of a gadget. In high-DPI, rounding errors can cause a magenta fringe around the border of the gadget.
 
- 
+ 
 
 This element is a $disp element.
 
@@ -106,18 +113,18 @@ This example shows how to declare a **g:image** element in the gadget HTML file 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

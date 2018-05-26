@@ -1,8 +1,10 @@
 ---
 title: Win32\_PowerSettingCapabilities class
 description: Represents the association between the power setting and the power setting definition. An instance of Win32\_PowerSettingCapabilities is created for each power setting.
-ms.assetid: '3ae5bb65-7da4-4fda-abac-28620aff3f96'
-keywords: ["Win32_PowerSettingCapabilities class", "Win32_PowerSettingCapabilities class, described"]
+ms.assetid: 3ae5bb65-7da4-4fda-abac-28620aff3f96
+keywords:
+- Win32_PowerSettingCapabilities class
+- Win32_PowerSettingCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - PowerWmiProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_PowerSettingCapabilities class
@@ -76,17 +83,17 @@ The **InstanceID** of the power setting to which this setting data applies.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
+| Minimum supported client<br/> | Windows 7<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |
 | Namespace<br/>                | Root\\CIMV2\\power<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>PowerWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PowerWmiProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

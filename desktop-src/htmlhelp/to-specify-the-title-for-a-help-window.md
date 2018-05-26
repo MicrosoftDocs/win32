@@ -1,7 +1,12 @@
 ---
 title: To specify the title for a help window
 description: To specify the title for a help window
-ms.assetid: '5DB7C2AA-B081-4206-9445-E721D56E8D80'
+ms.assetid: 5DB7C2AA-B081-4206-9445-E721D56E8D80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify the title for a help window
@@ -16,7 +21,7 @@ ms.assetid: '5DB7C2AA-B081-4206-9445-E721D56E8D80'
 
     
 
-     
+     
 
 2.  Click the **General** tab, and in the **Window type** box select the window for which you want to specify a title.
 3.  Type the words you want to appear in the window title in the **Title bar text** box.
@@ -28,9 +33,9 @@ ms.assetid: '5DB7C2AA-B081-4206-9445-E721D56E8D80'
 [About Creating Help Windows](create-help-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

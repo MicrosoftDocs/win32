@@ -1,8 +1,10 @@
 ---
 title: MSiSCSI\_HBASessionConfig structure
 description: The MSiSCSI\_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device.
-ms.assetid: 'a97f39b7-9356-45f1-b0a2-bd18eb4c7467'
-keywords: ["MSiSCSI_HBASessionConfig structure Storage Devices", "PMSiSCSI_HBASessionConfig structure pointer Storage Devices"]
+ms.assetid: a97f39b7-9356-45f1-b0a2-bd18eb4c7467
+keywords:
+- MSiSCSI_HBASessionConfig structure Storage Devices
+- PMSiSCSI_HBASessionConfig structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - iscsimgt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSiSCSI\_HBASessionConfig structure
@@ -24,10 +31,10 @@ The MSiSCSI\_HBASessionConfig structure contains the default logon characteristi
 typedef struct _MSiSCSI_HBASessionConfig {
   BOOLEAN InitialR2T;
   BOOLEAN ImmediateData;
-  ULONG   MaxRecvDataSegmentLength;
-  ULONG   MaxBurstLength;
-  ULONG   FirstBurstLength;
-  ULONG   MaxOutstandingR2T;
+  ULONG   MaxRecvDataSegmentLength;
+  ULONG   MaxBurstLength;
+  ULONG   FirstBurstLength;
+  ULONG   MaxOutstandingR2T;
 } MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig;
 ```
 
@@ -106,9 +113,9 @@ It is optional that you implement this class.
 [MSiSCSI\_HBASessionConfig WMI Class](https://msdn.microsoft.com/library/windows/hardware/ff563022)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20MSiSCSI_HBASessionConfig%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Provides access to context object properties that relate to transactions.'
-ms.assetid: '3b309153-be7d-444e-be23-777887f1ee95'
+Description: Provides access to context object properties that relate to transactions.
+ms.assetid: 3b309153-be7d-444e-be23-777887f1ee95
 title: IContextTransactionInfo interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextTransactionInfo interface
@@ -32,11 +37,11 @@ The **IContextTransactionInfo** interface has these methods.
 |:-----------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
 | [**FetchTransaction**](icontexttransactioninfo-registertransactionproxy.md)                   | Retrieves the transaction or transaction proxy that is associated with the current context, if any.<br/>              |
 | [**GetTxIsolationLevelAndTimeout**](icontexttransactioninfo-gettxisolationlevelandtimeout.md) | Retrieves the isolation level and timeout value of a transaction that is hosted in the root transaction context.<br/> |
-| [**RegisterTransactionProxy**](icontexttransactioninfo-fetchtransaction.md)                   | Associates an [**ITransactionProxy**](itransactionproxy.md) implementation with the current context.<br/>            |
+| [**RegisterTransactionProxy**](icontexttransactioninfo-fetchtransaction.md)                   | Associates an [**ITransactionProxy**](/windows/win32/ComSvcs/nn-comsvcs-itransactionproxy?branch=master) implementation with the current context.<br/>            |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,14 +49,14 @@ The **IContextTransactionInfo** interface has these methods.
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

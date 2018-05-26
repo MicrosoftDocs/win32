@@ -1,8 +1,9 @@
 ---
 title: MimeOleSMimeCapsFull function
 description: Do not use.
-ms.assetid: 'f9e9d8f4-3563-4701-878d-3d3a0cc84b68'
-keywords: ["MimeOleSMimeCapsFull function Windows Mail (formerly Outlook Express)"]
+ms.assetid: f9e9d8f4-3563-4701-878d-3d3a0cc84b68
+keywords:
+- MimeOleSMimeCapsFull function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleSMimeCapsFull function
@@ -22,11 +28,11 @@ Do not use. Builds a list of encryption capabilities (if all encryption algorith
 
 ```C++
 HRESULT MimeOleSMimeCapsFull(
-  _In_    LPVOID pv,
-  _In_    BOOL   fFullEncryption,
-  _In_    BOOL   fFullSigning,
-  _Inout_ LPBYTE pbSymCaps,
-  _Inout_ DWORD  *pcbSymCaps
+  _In_    LPVOID pv,
+  _In_    BOOL   fFullEncryption,
+  _In_    BOOL   fFullSigning,
+  _Inout_ LPBYTE pbSymCaps,
+  _Inout_ DWORD  *pcbSymCaps
 );
 ```
 
@@ -96,7 +102,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -108,8 +114,8 @@ This function call is memory-intensive, and the results are always the same duri
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -117,9 +123,9 @@ This function call is memory-intensive, and the results are always the same duri
 
 
 
- 
+ 
 
- 
+ 
 
 
 

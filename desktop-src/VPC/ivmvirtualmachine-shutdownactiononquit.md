@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine ShutdownActionOnQuit property
 description: Action to be performed on this virtual machine if it is running when Windows Virtual PC is quit.
-ms.assetid: '3f6b256e-c48a-4a7c-acee-83d996e13ec7'
-keywords: ["ShutdownActionOnQuit property Virtual PC", "ShutdownActionOnQuit property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , ShutdownActionOnQuit property"]
+ms.assetid: 3f6b256e-c48a-4a7c-acee-83d996e13ec7
+keywords:
+- ShutdownActionOnQuit property Virtual PC
+- ShutdownActionOnQuit property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , ShutdownActionOnQuit property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::ShutdownActionOnQuit property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves and sets the action to be performed on this virtual machine (VM) if it is running when Windows Virtual PC is quit.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ShutdownActionOnQuit(
-  [in]          VMShutdownAction shutdownAction
+  [in]          VMShutdownAction shutdownAction
 );
 
 HRESULT get_ShutdownActionOnQuit(
-  [out, retval] VMShutdownAction *shutdownAction
+  [out, retval] VMShutdownAction *shutdownAction
 );
 ```
 
@@ -66,9 +74,9 @@ By default, running VMs are saved when Windows Virtual PC is quit. The shutdown 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -85,9 +93,9 @@ By default, running VMs are saved when Windows Virtual PC is quit. The shutdown 
 [**VMShutdownAction**](vmshutdownaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

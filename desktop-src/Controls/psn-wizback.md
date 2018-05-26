@@ -1,8 +1,9 @@
 ---
 title: PSN\_WIZBACK notification code
 description: Notifies a page that the user has clicked the Back button in a wizard. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '784f92e7-6f10-40fc-b513-bea022f13ae1'
-keywords: ["PSN_WIZBACK notification code Windows Controls"]
+ms.assetid: 784f92e7-6f10-40fc-b513-bea022f13ae1
+keywords:
+- PSN_WIZBACK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSN\_WIZBACK notification code
@@ -33,13 +39,13 @@ PSN_WIZBACK
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](pshnotify.md) structure that contains information about the notification code. This structure contains an [**NMHDR**](nmhdr.md) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure does not contain any information.
+Pointer to a [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure that contains information about the notification code. This structure contains an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet. The **lParam** member of the **PSHNOTIFY** structure does not contain any information.
 
 </dd> </dl>
 
 ## Return value
 
-Returns 0 to allow the wizard to go to the previous page. Returns -1 to prevent the wizard from changing pages. To display a particular page, return its dialog resource identifier. If the dialog was specified with the [**PSP\_DLGINDIRECT**](propsheetpage.md) flag, this notification returns the pointer to the dialog template.
+Returns 0 to allow the wizard to go to the previous page. Returns -1 to prevent the wizard from changing pages. To display a particular page, return its dialog resource identifier. If the dialog was specified with the [**PSP\_DLGINDIRECT**](/windows/win32/Prsht/ns-prsht-_propsheetpagea_v2?branch=master) flag, this notification returns the pointer to the dialog template.
 
 ## Remarks
 
@@ -57,7 +63,7 @@ case PSN_WIZNEXT :
 > [!Note]  
 > The property sheet is in the process of manipulating the list of pages when the PSN\_WIZBACK notification code is sent. You can add, insert, or remove pages in response to these notification codes, but special care must be taken if you insert or remove pages before the current page.
 
- 
+ 
 
 If you insert or remove pages before the current page, you must return (through **DWL\_MSGRESULT**) a nonzero value to specify the desired new page. Note, however, that if you insert or remove a page that is located before the current page (that has a smaller index than the current page), [PSN\_KILLACTIVE](psn-killactive.md) might be sent to the wrong page.
 
@@ -92,15 +98,15 @@ Note that this technique is necessary only if your wizard removes pages dynamica
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

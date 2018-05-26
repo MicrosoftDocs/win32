@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'F550A8B8-0C96-46E8-8E2A-32679E1D1E01'
-title: 'IPrintOemEngine::DisablePDEV method'
+---
+Description: .
+ms.assetid: F550A8B8-0C96-46E8-8E2A-32679E1D1E01
+title: IPrintOemEngineDisablePDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemEngine::DisablePDEV method

@@ -1,7 +1,12 @@
 ---
 title: Windows Web Services Handles
-ms.assetid: 'a67f48ce-ebe3-48f9-9c00-67acd8b9fbe5'
+ms.assetid: a67f48ce-ebe3-48f9-9c00-67acd8b9fbe5
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Web Services Handles

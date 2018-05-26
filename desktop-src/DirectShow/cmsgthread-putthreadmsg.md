@@ -1,7 +1,12 @@
 ---
-Description: 'Queues a request for execution by the worker thread.'
-ms.assetid: 'a854f962-143d-4776-bf98-119d003867df'
-title: 'CMsgThread.PutThreadMsg method'
+Description: Queues a request for execution by the worker thread.
+ms.assetid: a854f962-143d-4776-bf98-119d003867df
+title: CMsgThread.PutThreadMsg method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.PutThreadMsg method
@@ -13,10 +18,10 @@ Queues a request for execution by the worker thread.
 
 ```C++
 void PutThreadMsg(
-   UINT     uMsg,
-   DWORD    dwMsgFlags,
-   LPVOID   lpMsgParam,
-   CAMEvent *pEvent = NULL
+   UINT     uMsg,
+   DWORD    dwMsgFlags,
+   LPVOID   lpMsgParam,
+   CAMEvent *pEvent = NULL
 );
 ```
 
@@ -82,9 +87,9 @@ This member function uses a multithread safe list, so multiple calls to this mem
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

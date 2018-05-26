@@ -1,7 +1,12 @@
 ---
-Description: 'The CDrawImage class is a helper class that manages drawing for a video renderer filter.'
-ms.assetid: '7a6b3726-dbf5-4b60-8cf1-42034a321293'
+Description: The CDrawImage class is a helper class that manages drawing for a video renderer filter.
+ms.assetid: 7a6b3726-dbf5-4b60-8cf1-42034a321293
 title: CDrawImage class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage class
@@ -78,7 +83,7 @@ If the [**FastRender**](cdrawimage-fastrender.md) method is used for drawing and
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -91,9 +96,9 @@ If the [**FastRender**](cdrawimage-fastrender.md) method is used for drawing and
 
 
 
- 
+ 
 
- 
+ 
 
 
 

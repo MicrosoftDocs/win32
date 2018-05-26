@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resamples a texture into this gutterhelper''s parameterization.'
-ms.assetid: 'a5ace0e4-2e89-471b-bdfb-67d5e85c6f46'
-title: 'ID3DXTextureGutterHelper::ResampleTex method'
+---
+Description: Resamples a texture into this gutterhelpers parameterization.
+ms.assetid: a5ace0e4-2e89-471b-bdfb-67d5e85c6f46
+title: ID3DXTextureGutterHelperResampleTex method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureGutterHelper::ResampleTex method
@@ -30,7 +35,7 @@ HRESULT ResampleTex(
 *pTextureIn* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
 Texture that corresponds to the original parameterization in pMeshIn. This texture will be used to create pTextureOut.
 
@@ -66,7 +71,7 @@ Zero-based index (used in combination with Usage), which identifies the componen
 *pTextureOut* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
 Resampled texture.
 

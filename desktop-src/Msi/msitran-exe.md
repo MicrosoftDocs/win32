@@ -1,12 +1,17 @@
 ---
-Description: 'Msitran.exe uses MsiDatabaseGenerateTransform, MsiCreateTransformSummaryInfo, and MsiDatabaseApplyTransform to generate or apply a transform file.This tool is only available in the Windows SDK Components for Windows Installer Developers.'
-ms.assetid: 'cfc7b907-78d7-4a78-bab4-ede9012d5a36'
-title: 'Msitran.exe'
+Description: Msitran.exe uses MsiDatabaseGenerateTransform, MsiCreateTransformSummaryInfo, and MsiDatabaseApplyTransform to generate or apply a transform file.This tool is only available in the Windows SDK Components for Windows Installer Developers.
+ms.assetid: cfc7b907-78d7-4a78-bab4-ede9012d5a36
+title: Msitran.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msitran.exe
 
-Msitran.exe uses [**MsiDatabaseGenerateTransform**](msidatabasegeneratetransform.md), [**MsiCreateTransformSummaryInfo**](msicreatetransformsummaryinfo.md), and [**MsiDatabaseApplyTransform**](msidatabaseapplytransform.md) to generate or apply a transform file.
+Msitran.exe uses [**MsiDatabaseGenerateTransform**](/windows/win32/Msiquery/nf-msiquery-msidatabasegeneratetransforma?branch=master), [**MsiCreateTransformSummaryInfo**](/windows/win32/Msiquery/nf-msiquery-msicreatetransformsummaryinfoa?branch=master), and [**MsiDatabaseApplyTransform**](/windows/win32/Msiquery/nf-msiquery-msidatabaseapplytransforma?branch=master) to generate or apply a transform file.
 
 This tool is only available in the [Windows SDK Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).
 
@@ -35,7 +40,7 @@ Msitran.exe uses the following case-insensitive command line options. A slash de
 
  
 
-The following errors may be suppressed when applying a transform. To suppress an error, include the appropriate character in the {error conditions} argument. Conditions specified with -g are placed in the summary information of the transform, but are not used when applying a transform with -a. For information, see [**MsiDatabaseApplyTransform**](msidatabaseapplytransform.md).
+The following errors may be suppressed when applying a transform. To suppress an error, include the appropriate character in the {error conditions} argument. Conditions specified with -g are placed in the summary information of the transform, but are not used when applying a transform with -a. For information, see [**MsiDatabaseApplyTransform**](/windows/win32/Msiquery/nf-msiquery-msidatabaseapplytransforma?branch=master).
 
 
 

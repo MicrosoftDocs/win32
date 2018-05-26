@@ -1,7 +1,12 @@
 ---
-Description: 'Called by the compiler to implement structured exception handling extensions.'
-ms.assetid: '6EAE0B4E-35E1-48EB-A8A9-0C1DC5387B03'
+Description: Called by the compiler to implement structured exception handling extensions.
+ms.assetid: 6EAE0B4E-35E1-48EB-A8A9-0C1DC5387B03
 title: '\_\_C\_specific\_handler function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_\_C\_specific\_handler function
@@ -15,10 +20,10 @@ The relative address of the language specific handler is present in the UNWIND\_
 
 ```C++
 _CRTIMP  __C_specific_handler(
-  _In_    struct _EXCEPTION_RECORD   *ExceptionRecord,
-  _In_    void                       *EstablisherFrame,
-  _Inout_ struct _CONTEXT            *ContextRecord,
-  _Inout_ struct _DISPATCHER_CONTEXT *DispatcherContext
+  _In_    struct _EXCEPTION_RECORD   *ExceptionRecord,
+  _In_    void                       *EstablisherFrame,
+  _Inout_ struct _CONTEXT            *ContextRecord,
+  _Inout_ struct _DISPATCHER_CONTEXT *DispatcherContext
 );
 ```
 
@@ -68,9 +73,9 @@ Points to the dispatcher context for this function.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

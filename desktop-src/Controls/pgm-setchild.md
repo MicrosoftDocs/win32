@@ -1,8 +1,9 @@
 ---
 title: PGM\_SETCHILD message
 description: Sets the contained window for the pager control.
-ms.assetid: '717e6720-aa42-4ecd-9520-4618a04dc28d'
-keywords: ["PGM_SETCHILD message Windows Controls"]
+ms.assetid: 717e6720-aa42-4ecd-9520-4618a04dc28d
+keywords:
+- PGM_SETCHILD message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM\_SETCHILD message
 
-Sets the contained window for the pager control. This message will not change the parent of the contained window; it only assigns a window handle to the pager control for scrolling. In most cases, the contained window will be a child window. If this is the case, the contained window should be a child of the pager control. You can send this message explicitly or use the [**Pager\_SetChild**](pager-setchild.md) macro.
+Sets the contained window for the pager control. This message will not change the parent of the contained window; it only assigns a window handle to the pager control for scrolling. In most cases, the contained window will be a child window. If this is the case, the contained window should be a child of the pager control. You can send this message explicitly or use the [**Pager\_SetChild**](/windows/win32/Commctrl/nf-commctrl-pager_setchild?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ The return value is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

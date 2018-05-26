@@ -1,14 +1,20 @@
 ---
 title: TypeListType Complex Type
 description: Defines the types that are used in the manifest.
-ms.assetid: 'e7ce0ecf-3bd0-49ab-82c7-dc28fd0e59a2'
-keywords: ["TypeListType complex type EventLog"]
+ms.assetid: e7ce0ecf-3bd0-49ab-82c7-dc28fd0e59a2
+keywords:
+- TypeListType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - TypeListType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TypeListType Complex Type
@@ -51,14 +57,14 @@ Defines the types that are used in the manifest.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

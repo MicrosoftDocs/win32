@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Item.isFileSystem property
 description: Gets whether the object is a file.
-ms.assetid: 'a9a17427-626c-4833-bd01-03a6aee236e2'
-keywords: ["isFileSystem property Windows Sidebar", "isFileSystem property Windows Sidebar , System.Shell.Item object", "System.Shell.Item object Windows Sidebar , isFileSystem property"]
+ms.assetid: a9a17427-626c-4833-bd01-03a6aee236e2
+keywords:
+- isFileSystem property Windows Sidebar
+- isFileSystem property Windows Sidebar , System.Shell.Item object
+- System.Shell.Item object Windows Sidebar , isFileSystem property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Item.isFileSystem property
@@ -81,18 +89,18 @@ function GetItemFromDrop()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

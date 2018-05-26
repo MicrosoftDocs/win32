@@ -2,13 +2,19 @@
 title: /no\_warn switch
 description: The /no\_warn switch directs the MIDL compiler to suppress warning messages.
 ms.assetid: 260b9430-2daf-454e-92ba-e30ca57b35e1
-keywords: ["/no_warn switch MIDL"]
+keywords:
+- /no_warn switch MIDL
 topic_type:
 - apiref
 api_name:
 - /no_warn
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /no\_warn switch

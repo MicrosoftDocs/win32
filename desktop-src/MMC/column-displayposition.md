@@ -4,11 +4,16 @@ description: The DisplayPosition property sets or returns the order of the colum
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bd2821a8-c2bf-4863-b92f-eab96631a348'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bd2821a8-c2bf-4863-b92f-eab96631a348
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["DisplayPosition property MMC", "DisplayPosition property MMC , Column object", "Column object MMC , DisplayPosition property", "DisplayPosition property MMC , Column interface", "Column interface MMC , DisplayPosition property"]
+keywords:
+- DisplayPosition property MMC
+- DisplayPosition property MMC , Column object
+- Column object MMC , DisplayPosition property
+- DisplayPosition property MMC , Column interface
+- Column interface MMC , DisplayPosition property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Column::DisplayPosition property
@@ -61,8 +69,8 @@ objCol.DisplayPosition = 3
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -80,9 +88,9 @@ objCol.DisplayPosition = 3
 [**Column.IsSortColumn**](column-issortcolumn.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the transaction or transaction proxy that is associated with the current context, if any.'
-ms.assetid: '2f85f395-3ec5-4c5a-a6db-c902cb8f8486'
-title: 'IContextTransactionInfo::FetchTransaction method'
+Description: Retrieves the transaction or transaction proxy that is associated with the current context, if any.
+ms.assetid: 2f85f395-3ec5-4c5a-a6db-c902cb8f8486
+title: IContextTransactionInfoFetchTransaction method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextTransactionInfo::FetchTransaction method
@@ -13,7 +18,7 @@ Retrieves the transaction or transaction proxy that is associated with the curre
 
 ```C++
 HRESULT FetchTransaction(
-  [out, retval] IUnknown **pUnk
+  [out, retval] IUnknown **pUnk
 );
 ```
 
@@ -40,8 +45,8 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |
 
 
 
@@ -52,9 +57,9 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 [**IContextTransactionInfo**](icontexttransactioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

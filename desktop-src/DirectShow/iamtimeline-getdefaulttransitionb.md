@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDefaultTransitionB method retrieves the default transition. This method is equivalent to IAMTimeline::GetDefaultTransition, but receives a BSTR value, rather than a GUID.'
-ms.assetid: 'ed743766-e970-4bd9-a9a0-8b5d9fec2d80'
-title: 'IAMTimeline::GetDefaultTransitionB method'
+---
+Description: The GetDefaultTransitionB method retrieves the default transition. This method is equivalent to IAMTimelineGetDefaultTransition, but receives a BSTR value, rather than a GUID.
+ms.assetid: ed743766-e970-4bd9-a9a0-8b5d9fec2d80
+title: IAMTimelineGetDefaultTransitionB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::GetDefaultTransitionB method

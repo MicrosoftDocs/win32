@@ -1,8 +1,19 @@
 ---
 title: Adding and Modifying the Events
 description: Adding and Modifying the Events
-ms.assetid: '342b0592-67b7-4c13-bee8-48ac322d3d27'
-keywords: ["Windows Media Player plug-ins,Echo sample property pages", "plug-ins,Echo sample property pages", "digital signal processing plug-ins,Echo sample property pages", "DSP plug-ins,Echo sample property pages", "Echo DSP plug-in sample,property pages", "Echo DSP plug-in sample,events"]
+ms.assetid: 342b0592-67b7-4c13-bee8-48ac322d3d27
+keywords:
+- Windows Media Player plug-ins,Echo sample property pages
+- plug-ins,Echo sample property pages
+- digital signal processing plug-ins,Echo sample property pages
+- DSP plug-ins,Echo sample property pages
+- Echo DSP plug-in sample,property pages
+- Echo DSP plug-in sample,events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding and Modifying the Events

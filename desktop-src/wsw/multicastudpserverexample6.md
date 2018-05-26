@@ -1,8 +1,16 @@
 ---
 title: MulticastUdpServerExample6
 description: This example shows a UDP server that listens on a multicast address and replies to requests sent to that address. This example uses IPv6.
-ms.assetid: '9e2a254c-dbfc-4b73-a1a5-6a1db1ac5921'
-keywords: ["MulticastUdpServerExample6 Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 9e2a254c-dbfc-4b73-a1a5-6a1db1ac5921
+keywords:
+- MulticastUdpServerExample6 Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MulticastUdpServerExample6

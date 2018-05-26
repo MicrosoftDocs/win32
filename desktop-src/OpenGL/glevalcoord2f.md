@@ -1,8 +1,9 @@
 ---
 title: glEvalCoord2f function
 description: The glEvalCoord2f function evaluates enabled two-dimensional maps.
-ms.assetid: 'feb2a324-9148-4e3f-8e6e-c545e36962c6'
-keywords: ["glEvalCoord2f function OpenGL"]
+ms.assetid: feb2a324-9148-4e3f-8e6e-c545e36962c6
+keywords:
+- glEvalCoord2f function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEvalCoord2f function
@@ -22,8 +28,8 @@ The [**glEvalCoord2f**](glevalcoord2d.md) function evaluates enabled two-dimensi
 
 ```C++
 void WINAPI glEvalCoord2f(
-   GLfloat u,
-   GLfloat v
+   GLfloat u,
+   GLfloat v
 );
 ```
 
@@ -113,8 +119,8 @@ The following functions retrieve information related to the [**glEvalCoord2f**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -173,9 +179,9 @@ The following functions retrieve information related to the [**glEvalCoord2f**](
 [**glVertex**](glvertex-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

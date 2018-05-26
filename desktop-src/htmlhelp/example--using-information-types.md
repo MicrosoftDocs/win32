@@ -1,7 +1,12 @@
 ---
 title: Example Using Information Types
 description: Example Using Information Types
-ms.assetid: 'FF833726-968A-4bde-A2E2-9C70718655CF'
+ms.assetid: FF833726-968A-4bde-A2E2-9C70718655CF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Using Information Types

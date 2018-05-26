@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verifies whether controls can use 3D effects.'
-ms.assetid: 'fb7b892f-2580-41ac-b2ef-938da3cc1dc2'
+---
+Description: Verifies whether controls can use 3D effects.
+ms.assetid: fb7b892f-2580-41ac-b2ef-938da3cc1dc2
 title: Ctl3dEnabled function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ctl3dEnabled function

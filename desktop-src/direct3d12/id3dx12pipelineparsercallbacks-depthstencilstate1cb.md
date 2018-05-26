@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks DepthStencilState1Cb method
 description: Calls the depth stencil state (D3D12\_DEPTH\_STENCIL\_DESC1) subobject callback of an object that implements this interface.
-ms.assetid: 'C1AE06E5-B1FF-44C2-9C56-1540B97AD883'
-keywords: ["DepthStencilState1Cb method", "DepthStencilState1Cb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, DepthStencilState1Cb method"]
+ms.assetid: C1AE06E5-B1FF-44C2-9C56-1540B97AD883
+keywords:
+- DepthStencilState1Cb method
+- DepthStencilState1Cb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, DepthStencilState1Cb method
 topic_type:
 - apiref
 api_name:
@@ -11,18 +14,23 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::DepthStencilState1Cb method
 
-Calls the depth stencil state ([**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md)) subobject callback of an object that implements this interface.
+Calls the depth stencil state ([**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master)) subobject callback of an object that implements this interface.
 
 ## Syntax
 
 
 ```C++
 void DepthStencilState1Cb(
-  [ref] const D3D12_DEPTH_STENCIL_DESC1 &amp;DepthStencilState
+  [ref] const D3D12_DEPTH_STENCIL_DESC1 &amp;DepthStencilState
 );
 ```
 
@@ -35,7 +43,7 @@ void DepthStencilState1Cb(
 *DepthStencilState* \[ref\]
 </dt> <dd>
 
-Type: **const [**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md)**
+Type: **const [**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master)**
 
 Details of the depth stencil state subobject parsed from a pipeline state stream.
 
@@ -67,12 +75,12 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md)
+[**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

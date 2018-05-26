@@ -1,7 +1,12 @@
 ---
 title: Examples on Capturing Snapshots Using Trace Profiles
 description: Examples on Capturing Snapshots Using Trace Profiles
-ms.assetid: '3d49b74e-5a55-44ac-b42d-ddd2d422ae81'
+ms.assetid: 3d49b74e-5a55-44ac-b42d-ddd2d422ae81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Examples on Capturing Snapshots Using Trace Profiles

@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the filter that created this pin.'
-ms.assetid: 'a0be08c5-d120-4495-b80a-0fb90fad9238'
-title: 'CTransInPlaceInputPin::m\_pTIPFilter member'
+Description: Pointer to the filter that created this pin.
+ms.assetid: a0be08c5-d120-4495-b80a-0fb90fad9238
+title: CTransInPlaceInputPinm\_pTIPFilter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceInputPin::m\_pTIPFilter member
@@ -35,9 +40,9 @@ CTransInPlaceFilter * const m_pTIPFilter;
 [**CTransInPlaceInputPin Class**](ctransinplaceinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

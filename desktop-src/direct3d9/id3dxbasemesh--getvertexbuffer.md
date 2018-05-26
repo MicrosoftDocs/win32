@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the vertex buffer associated with the mesh.'
-ms.assetid: '5caa6ce1-feab-4919-944e-f92fad3ad443'
-title: 'ID3DXBaseMesh::GetVertexBuffer method'
+---
+Description: Retrieves the vertex buffer associated with the mesh.
+ms.assetid: 5caa6ce1-feab-4919-944e-f92fad3ad443
+title: ID3DXBaseMeshGetVertexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::GetVertexBuffer method
@@ -26,9 +31,9 @@ HRESULT GetVertexBuffer(
 *ppVB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVERTEXBUFFER9**](idirect3dvertexbuffer9.md)\***
+Type: **[**LPDIRECT3DVERTEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexbuffer9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DVertexBuffer9**](idirect3dvertexbuffer9.md) interface, representing the vertex buffer object associated with the mesh.
+Address of a pointer to an [**IDirect3DVertexBuffer9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvertexbuffer9?branch=master) interface, representing the vertex buffer object associated with the mesh.
 
 </dd> </dl>
 

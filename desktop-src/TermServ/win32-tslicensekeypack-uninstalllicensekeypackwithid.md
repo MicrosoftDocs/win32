@@ -4,11 +4,14 @@ description: Uninstalls the Remote Desktop Services license key pack with the sp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ECB622AB-FAB4-4C5D-A007-E3ABA8E1D3E7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ECB622AB-FAB4-4C5D-A007-E3ABA8E1D3E7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["UninstallLicenseKeyPackWithId method Remote Desktop Services", "UninstallLicenseKeyPackWithId method Remote Desktop Services , Win32_TSLicenseKeyPack class", "Win32_TSLicenseKeyPack class Remote Desktop Services , UninstallLicenseKeyPackWithId method"]
+keywords:
+- UninstallLicenseKeyPackWithId method Remote Desktop Services
+- UninstallLicenseKeyPackWithId method Remote Desktop Services , Win32_TSLicenseKeyPack class
+- Win32_TSLicenseKeyPack class Remote Desktop Services , UninstallLicenseKeyPackWithId method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UninstallLicenseKeyPackWithId method of the Win32\_TSLicenseKeyPack class
@@ -28,7 +34,7 @@ Uninstalls the Remote Desktop Services license key pack with the specified key p
 
 ```mof
 uint32 UninstallLicenseKeyPackWithId(
-  [in] uint32 KeyPackId
+  [in] uint32 KeyPackId
 );
 ```
 
@@ -56,7 +62,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -70,9 +76,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSLicenseKeyPack**](win32-tslicensekeypack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

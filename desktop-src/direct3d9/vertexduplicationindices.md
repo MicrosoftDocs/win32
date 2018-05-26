@@ -1,7 +1,12 @@
 ---
-Description: 'This template is instantiated on a per-mesh basis, holding information about which vertices in the mesh are duplicates of each other.'
-ms.assetid: '43417389-69c1-4af6-92c2-75b621f9c165'
+Description: This template is instantiated on a per-mesh basis, holding information about which vertices in the mesh are duplicates of each other.
+ms.assetid: 43417389-69c1-4af6-92c2-75b621f9c165
 title: VertexDuplicationIndices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VertexDuplicationIndices

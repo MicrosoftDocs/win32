@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateHandoffTable function creates a handoff table that includes the handoff set information stored in the INI file of the parser.'
-ms.assetid: '6dbca2fa-33fb-48e8-b663-be59aec6264b'
+Description: The CreateHandoffTable function creates a handoff table that includes the handoff set information stored in the INI file of the parser.
+ms.assetid: 6dbca2fa-33fb-48e8-b663-be59aec6264b
 title: CreateHandoffTable function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateHandoffTable function
@@ -13,11 +18,11 @@ The **CreateHandoffTable** function creates a [*handoff table*](h.md#-netmon-han
 
 ```C++
 DWORD WINAPI CreateHandoffTable(
-  _In_  LPSTR          secName,
-  _In_  LPSTR          iniFile,
-  _Out_ LPHANDOFFTABLE *hTable,
-  _In_  DWORD          nMaxProtocolEntries,
-  _In_  DWORD          base
+  _In_  LPSTR          secName,
+  _In_  LPSTR          iniFile,
+  _Out_ LPHANDOFFTABLE *hTable,
+  _In_  DWORD          nMaxProtocolEntries,
+  _In_  DWORD          base
 );
 ```
 
@@ -80,8 +85,8 @@ Notice that the parser application never accesses the **HANDOFFTABLE** structure
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -98,9 +103,9 @@ Notice that the parser application never accesses the **HANDOFFTABLE** structure
 [HANDOFFTABLE](handofftable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

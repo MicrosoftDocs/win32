@@ -1,14 +1,16 @@
 ---
 title: DnsServerRecursionStatistics class
-description: DNS server's statistics related to recursive resource record lookups.
+description: DNS servers statistics related to recursive resource record lookups.
 audience: developer
-ms.assetid: 'c88de9b4-72cf-499d-b45f-28dfc02ee005'
-ms.prod: 'windows-server-dev'
+ms.assetid: c88de9b4-72cf-499d-b45f-28dfc02ee005
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerRecursionStatistics class", "DnsServerRecursionStatistics class, described"]
+keywords:
+- DnsServerRecursionStatistics class
+- DnsServerRecursionStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -75,6 +77,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerRecursionStatistics class
@@ -923,7 +928,7 @@ The number of total recursions including original and additional.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -937,9 +942,9 @@ The number of total recursions including original and additional.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

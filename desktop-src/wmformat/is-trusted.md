@@ -1,14 +1,20 @@
 ---
 title: Is\_Trusted
 description: The Is\_Trusted attribute is a file-level attribute specifying whether the license acquisition URL in the file is trusted.
-ms.assetid: '7b383b45-e992-4a07-af0b-9ef220ddd9af'
-keywords: ["Is_Trusted windows Media Format"]
+ms.assetid: 7b383b45-e992-4a07-af0b-9ef220ddd9af
+keywords:
+- Is_Trusted windows Media Format
 topic_type:
 - apiref
 api_name:
 - Is_Trusted
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Is\_Trusted

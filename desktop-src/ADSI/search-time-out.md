@@ -4,11 +4,15 @@ description: A client can also impose a time limit that it will wait for a serve
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a31bc8b2-9adf-4dff-a6df-67d6bf304e04'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a31bc8b2-9adf-4dff-a6df-67d6bf304e04
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Search Time Out ADSI"]
+keywords:
+- Search Time Out ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Search Time Out

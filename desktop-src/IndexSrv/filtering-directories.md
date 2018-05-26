@@ -1,7 +1,12 @@
 ---
 title: Filtering Directories
 description: Filtering Directories
-ms.assetid: 'cc3d306e-02c6-4b21-b96e-11c0dd777c71'
+ms.assetid: cc3d306e-02c6-4b21-b96e-11c0dd777c71
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Directories

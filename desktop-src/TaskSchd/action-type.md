@@ -1,8 +1,11 @@
 ---
 title: Action.Type property
 description: For scripting, gets the type of the action.
-ms.assetid: '6a0bca3d-9016-4167-9f6e-2cc95bafdb95'
-keywords: ["Type property Task Scheduler", "Type property Task Scheduler , Action object", "Action object Task Scheduler , Type property"]
+ms.assetid: 6a0bca3d-9016-4167-9f6e-2cc95bafdb95
+keywords:
+- Type property Task Scheduler
+- Type property Task Scheduler , Action object
+- Action object Task Scheduler , Type property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Action.Type property
@@ -28,7 +36,7 @@ Action.Type As Integer
 
 ## Property value
 
-This property returns one of the following [**TASK\_ACTION\_TYPE**](task-action-type.md) enumeration constants.
+This property returns one of the following [**TASK\_ACTION\_TYPE**](/windows/win32/taskschd/ne-taskschd-_task_action_type?branch=master) enumeration constants.
 
 
 
@@ -41,7 +49,7 @@ This property returns one of the following [**TASK\_ACTION\_TYPE**](task-action-
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,8 +63,8 @@ For information on how actions and tasks work together, see [Task Actions](task-
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -66,7 +74,7 @@ For information on how actions and tasks work together, see [Task Actions](task-
 
 <dl> <dt>
 
-[**TASK\_ACTION\_TYPE**](task-action-type.md)
+[**TASK\_ACTION\_TYPE**](/windows/win32/taskschd/ne-taskschd-_task_action_type?branch=master)
 </dt> <dt>
 
 [Task Scheduler](task-scheduler-start-page.md)
@@ -75,9 +83,9 @@ For information on how actions and tasks work together, see [Task Actions](task-
 [**Action**](action.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Using JScript
 description: Using JScript
-ms.assetid: 'c50983d8-aaec-46ff-a8e0-b05e5b75f6d1'
-keywords: ["Windows Media Player skins,JScript files", "skins,JScript files", "files for skins,JScript", "JScript files for skins,about", "writing code for skins,JScript"]
+ms.assetid: c50983d8-aaec-46ff-a8e0-b05e5b75f6d1
+keywords:
+- Windows Media Player skins,JScript files
+- skins,JScript files
+- files for skins,JScript
+- JScript files for skins,about
+- writing code for skins,JScript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using JScript

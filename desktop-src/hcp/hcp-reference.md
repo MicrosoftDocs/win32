@@ -1,7 +1,12 @@
 ---
 title: HCP Reference
-ms.assetid: '32747e50-5318-44c0-bf89-b6dfad3feb5f'
+ms.assetid: 32747e50-5318-44c0-bf89-b6dfad3feb5f
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HCP Reference

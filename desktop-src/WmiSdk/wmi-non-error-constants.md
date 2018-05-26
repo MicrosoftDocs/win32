@@ -1,13 +1,16 @@
 ---
-Description: 'WMI return codes that indicate status and do not indicate an error.'
+Description: WMI return codes that indicate status and do not indicate an error.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '36faa3fb-9496-47ca-bdba-f8eb52a06ff7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 36faa3fb-9496-47ca-bdba-f8eb52a06ff7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Non-Error Constants'
+title: WMI Non-Error Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Non-Error Constants
@@ -19,7 +22,7 @@ If an operation does not result in an error, WMI returns one of the following co
 > [!Note]  
 > Some methods in WMI classes can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available.
 
- 
+ 
 
 In C++, you can call [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) and specify **C:\\Windows\\System32\\wbem\\wmiutils.dll** as the message module.
 
@@ -213,8 +216,8 @@ Reserved for future use.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Header<br/>                   | <dl> <dt>WbemCli.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WbemCli.idl</dt> </dl> |
 
@@ -227,9 +230,9 @@ Reserved for future use.
 [WMI Return Codes](wmi-return-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

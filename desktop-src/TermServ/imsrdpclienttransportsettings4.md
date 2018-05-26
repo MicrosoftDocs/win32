@@ -1,14 +1,16 @@
 ---
 title: IMsRdpClientTransportSettings4 interface
-description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
+description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8b079d38-f6bc-465b-9af8-414e618f2820'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8b079d38-f6bc-465b-9af8-414e618f2820
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientTransportSettings4 interface Remote Desktop Services", "IMsRdpClientTransportSettings4 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientTransportSettings4 interface Remote Desktop Services
+- IMsRdpClientTransportSettings4 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,11 +19,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings4 interface
 
-Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
+Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
 
 ## Members
 
@@ -41,7 +46,7 @@ The **IMsRdpClientTransportSettings4** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,17 +54,17 @@ The **IMsRdpClientTransportSettings4** interface has these properties.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings4 is defined as 011C3236-4D81-4515-9143-067AB630D299<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

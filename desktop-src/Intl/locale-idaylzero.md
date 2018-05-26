@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IDAYLZERO'
-ms.assetid: 'c5cfd088-cc62-4852-9bbe-8656bacc7c4e'
-title: 'LOCALE\_IDAYLZERO'
+Description: LOCALE\_IDAYLZERO
+ms.assetid: c5cfd088-cc62-4852-9bbe-8656bacc7c4e
+title: LOCALE\_IDAYLZERO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IDAYLZERO

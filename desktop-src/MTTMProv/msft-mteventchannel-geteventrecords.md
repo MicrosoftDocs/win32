@@ -4,11 +4,14 @@ description: Retrieves the details of events generated in an event log by a part
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc9cb29d-f781-4d8f-8037-3db889080f36'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: cc9cb29d-f781-4d8f-8037-3db889080f36
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetEventRecords method", "GetEventRecords method, MSFT_MTEventChannel class", "MSFT_MTEventChannel class, GetEventRecords method"]
+keywords:
+- GetEventRecords method
+- GetEventRecords method, MSFT_MTEventChannel class
+- MSFT_MTEventChannel class, GetEventRecords method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetEventRecords method of the MSFT\_MTEventChannel class
@@ -28,12 +34,12 @@ Retrieves the details of events generated in an event log by a particular source
 
 ```mof
 uint32 GetEventRecords(
-  [in]  string             FilterXml,
-  [in]  uint64             Skip,
-  [in]  uint64             Top,
-  [in]  boolean            ReverseDirection,
-  [in]  uint32             BatchSize,
-  [out] MSFT_MTEventRecord Result[]
+  [in]  string             FilterXml,
+  [in]  uint64             Skip,
+  [in]  uint64             Top,
+  [in]  boolean            ReverseDirection,
+  [in]  uint32             BatchSize,
+  [out] MSFT_MTEventRecord Result[]
 );
 ```
 
@@ -91,8 +97,8 @@ Embedded [**MSFT\_MTEventRecord**](msft-mteventrecord.md) instances representing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -106,9 +112,9 @@ Embedded [**MSFT\_MTEventRecord**](msft-mteventrecord.md) instances representing
 [**MSFT\_MTEventChannel**](msft-mteventchannel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

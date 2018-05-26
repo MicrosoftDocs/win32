@@ -4,17 +4,21 @@ description: Specifies the Routing Domain ID (RDID) of a virtual IP address.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'FB4B567B-3207-4759-9DA0-E11B33BF790E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: FB4B567B-3207-4759-9DA0-E11B33BF790E
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RDID Failover Cluster"]
+keywords:
+- RDID Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RDID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RDID
@@ -27,14 +31,14 @@ Specifies the Routing Domain ID (RDID) of a virtual IP address.
 |----------------------|---------------------------------------------------------------|
 | Data type<br/> | A NULL-terminated Unicode string<br/>                   |
 | Access<br/>    | [Read/write](read-write-properties.md)                       |
-| Structure<br/> | [**CLUSPROP\_SZ**](clusprop-sz.md)<br/>                |
+| Structure<br/> | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)<br/>                |
 | Minimum<br/>   | **NULL**                                                      |
 | Maximum<br/>   | None (but see [Maximum String Size](maximum-string-size.md)) |
 | Default<br/>   | **NULL**                                                      |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_VIP\_RDID**.
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_VIP\_RDID**.
 [Virtual IP Address Private Properties](virtual-ip-address-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

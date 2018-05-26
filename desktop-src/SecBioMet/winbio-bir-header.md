@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_BIR\_HEADER structure
 description: Contains the header of a biometric information record (BIR).
-ms.assetid: '4b020720-42ef-4ac7-aaa3-7a0e45198890'
-keywords: ["WINBIO_BIR_HEADER structure Windows Biometric Framework API"]
+ms.assetid: 4b020720-42ef-4ac7-aaa3-7a0e45198890
+keywords:
+- WINBIO_BIR_HEADER structure Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BIR\_HEADER structure
@@ -22,19 +28,19 @@ The **WINBIO\_BIR\_HEADER** structure contains the header of a biometric informa
 
 ```C++
 typedef struct _WINBIO_BIR_HEADER {
-  USHORT                   ValidFields;
-  WINBIO_BIR_VERSION       HeaderVersion;
-  WINBIO_BIR_VERSION       PatronHeaderVersion;
-  WINBIO_BIR_DATA_FLAGS    DataFlags;
-  WINBIO_BIOMETRIC_TYPE    Type;
+  USHORT                   ValidFields;
+  WINBIO_BIR_VERSION       HeaderVersion;
+  WINBIO_BIR_VERSION       PatronHeaderVersion;
+  WINBIO_BIR_DATA_FLAGS    DataFlags;
+  WINBIO_BIOMETRIC_TYPE    Type;
   WINBIO_BIOMETRIC_SUBTYPE Subtype;
-  WINBIO_BIR_PURPOSE       Purpose;
-  WINBIO_BIR_QUALITY       DataQuality;
-  LARGE_INTEGER            CreationDate;
+  WINBIO_BIR_PURPOSE       Purpose;
+  WINBIO_BIR_QUALITY       DataQuality;
+  LARGE_INTEGER            CreationDate;
   struct {
     LARGE_INTEGER BeginDate;
     LARGE_INTEGER EndDate;
-  } ValidityPeriod;
+  } ValidityPeriod;
   WINBIO_REGISTERED_FORMAT BiometricDataFormat;
   WINBIO_REGISTERED_FORMAT ProductId;
 } WINBIO_BIR_HEADER;
@@ -86,7 +92,7 @@ A value that specifies the format of the header data. This can be a bitwise **OR
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,7 +138,7 @@ A value that specifies the relative quality of the biometric data in the biometr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -178,7 +184,7 @@ A [**WINBIO\_REGISTERED\_FORMAT**](winbio-registered-format.md) structure that s
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -212,7 +218,7 @@ The *Subtype* parameter specifies the sub-factor associated with the biometric d
 >
 > Do not attempt to validate the value supplied for the *Subtype* parameter value. The Windows Biometrics Service will validate the supplied value before passing it through to your implementation. If the value is **WINBIO\_SUBTYPE\_NO\_INFORMATION** or **WINBIO\_SUBTYPE\_ANY**, then validate where appropriate.
 
- 
+ 
 
 If any of the following bits are asserted, the **WINBIO\_BIR\_HEADER** structure is not correctly formed.
 
@@ -233,8 +239,8 @@ If any of the following bits are asserted, the **WINBIO\_BIR\_HEADER** structure
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -267,9 +273,9 @@ If any of the following bits are asserted, the **WINBIO\_BIR\_HEADER** structure
 [**WINBIO\_BIR\_VERSION Constants**](winbio-bir-version-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

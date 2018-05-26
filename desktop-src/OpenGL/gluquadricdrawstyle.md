@@ -1,8 +1,9 @@
 ---
 title: gluQuadricDrawStyle function
 description: The gluQuadricDrawStyle function specifies the draw style desired for quadrics.
-ms.assetid: '30f6da40-9306-46bb-a815-f51722e57e18'
-keywords: ["gluQuadricDrawStyle function OpenGL"]
+ms.assetid: 30f6da40-9306-46bb-a815-f51722e57e18
+keywords:
+- gluQuadricDrawStyle function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluQuadricDrawStyle function
@@ -22,8 +28,8 @@ The **gluQuadricDrawStyle** function specifies the draw style desired for quadri
 
 ```C++
 void WINAPI gluQuadricDrawStyle(
-   GLUquadric *quadObject,
-   GLenum     drawStyle
+   GLUquadric *quadObject,
+   GLenum     drawStyle
 );
 ```
 
@@ -56,7 +62,7 @@ The desired draw style. The following values are valid.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -74,8 +80,8 @@ The **gluQuadricDrawStyle** function specifies the draw style for quadrics rende
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -98,9 +104,9 @@ The **gluQuadricDrawStyle** function specifies the draw style for quadrics rende
 [**gluQuadricTexture**](gluquadrictexture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '019b2fa7-fbaf-45d6-b5ff-4eefbae2e57a'
+---
+Description: .
+ms.assetid: 019b2fa7-fbaf-45d6-b5ff-4eefbae2e57a
 title: Document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Document

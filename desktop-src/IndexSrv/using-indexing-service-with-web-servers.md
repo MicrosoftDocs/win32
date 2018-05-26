@@ -1,7 +1,12 @@
 ---
 title: Using Indexing Service with Web Servers
 description: Using Indexing Service with Web Servers
-ms.assetid: '2d7fd5ec-0e5b-4f08-85a6-541e9394fac4'
+ms.assetid: 2d7fd5ec-0e5b-4f08-85a6-541e9394fac4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Indexing Service with Web Servers

@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the FOURCC portion of the FOURCCMap object.'
-ms.assetid: 'cc821e39-e565-4255-a289-2c9507d43433'
-title: 'FOURCCMap::SetFOURCC method'
+Description: Sets the FOURCC portion of the FOURCCMap object.
+ms.assetid: cc821e39-e565-4255-a289-2c9507d43433
+title: FOURCCMapSetFOURCC method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FOURCCMap::SetFOURCC method
@@ -13,7 +18,7 @@ Sets the **FOURCC** portion of the [**FOURCCMap**](fourccmap.md) object.
 
 ```C++
 void SetFOURCC(
-   const GUID *pguid
+   const GUID *pguid
 );
 ```
 
@@ -52,9 +57,9 @@ No return value.
 [**FOURCCMap Class**](fourccmap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

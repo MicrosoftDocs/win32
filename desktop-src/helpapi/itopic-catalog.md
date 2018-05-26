@@ -1,8 +1,11 @@
 ---
 title: ITopic Catalog property
 description: Returns the catalog interface associated with the topic
-ms.assetid: '0A698974-A001-46BB-949E-26CFB7DAB1CB'
-keywords: ["Catalog property HelpAPI", "Catalog property HelpAPI , ITopic interface", "ITopic interface HelpAPI , Catalog property"]
+ms.assetid: 0A698974-A001-46BB-949E-26CFB7DAB1CB
+keywords:
+- Catalog property HelpAPI
+- Catalog property HelpAPI , ITopic interface
+- ITopic interface HelpAPI , Catalog property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITopic::Catalog property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Catalog(
-  [out, retval] ICatalog **pRetVal
+  [out, retval] ICatalog **pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The ICatalog interface of the catalog that is associated with the topic.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The ICatalog interface of the catalog that is associated with the topic.
 [**ITopic**](itopic.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

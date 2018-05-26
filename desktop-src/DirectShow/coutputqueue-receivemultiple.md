@@ -1,7 +1,12 @@
 ---
-Description: 'The ReceiveMultiple method delivers a batch of media samples to the input pin.'
-ms.assetid: 'e9c7d6ed-fbf9-4c90-8e1e-3bad66cb5d4f'
-title: 'COutputQueue.ReceiveMultiple method'
+Description: The ReceiveMultiple method delivers a batch of media samples to the input pin.
+ms.assetid: e9c7d6ed-fbf9-4c90-8e1e-3bad66cb5d4f
+title: COutputQueue.ReceiveMultiple method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.ReceiveMultiple method
@@ -13,9 +18,9 @@ The `ReceiveMultiple` method delivers a batch of media samples to the input pin.
 
 ```C++
 HRESULT ReceiveMultiple(
-   IMediaSample **ppSamples,
-   long         nSamples,
-   long         *nSamplesProcessed
+   IMediaSample **ppSamples,
+   long         nSamples,
+   long         *nSamplesProcessed
 );
 ```
 
@@ -59,11 +64,11 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
-If the object is using a thread, this method queues all of the samples passed in the array. Otherwise, the method calls the [**IMemInputPin::ReceiveMultiple**](imeminputpin-receivemultiple.md) method on the input pin.
+If the object is using a thread, this method queues all of the samples passed in the array. Otherwise, the method calls the [**IMemInputPin::ReceiveMultiple**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivemultiple?branch=master) method on the input pin.
 
 ## Requirements
 
@@ -83,9 +88,9 @@ If the object is using a thread, this method queues all of the samples passed in
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

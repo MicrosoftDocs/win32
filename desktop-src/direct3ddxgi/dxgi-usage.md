@@ -1,7 +1,12 @@
-﻿---
-Description: 'Flags for surface and resource creation options.'
-ms.assetid: 'b5026566-89b5-458e-b36d-a55e5f8c10c1'
-title: 'DXGI\_USAGE'
+---
+Description: Flags for surface and resource creation options.
+ms.assetid: b5026566-89b5-458e-b36d-a55e5f8c10c1
+title: DXGI\_USAGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI\_USAGE
@@ -12,7 +17,7 @@ Flags for surface and resource creation options.
 
 | Constant/value                                                                                                                                                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                     |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="DXGI_USAGE_BACK_BUFFER"></span><span id="dxgi_usage_back_buffer"></span><dl> <dt>**DXGI\_USAGE\_BACK\_BUFFER**</dt> <dt>1L &lt;&lt; (2 + 4)</dt> </dl>                             | The surface or resource is used as a back buffer. You don’t need to pass **DXGI\_USAGE\_BACK\_BUFFER** when you create a swap chain. But you can determine whether a resource belongs to a swap chain when you call [**IDXGIResource::GetUsage**](idxgiresource-getusage.md) and get **DXGI\_USAGE\_BACK\_BUFFER**.<br/> |
+| <span id="DXGI_USAGE_BACK_BUFFER"></span><span id="dxgi_usage_back_buffer"></span><dl> <dt>**DXGI\_USAGE\_BACK\_BUFFER**</dt> <dt>1L &lt;&lt; (2 + 4)</dt> </dl>                             | The surface or resource is used as a back buffer. You don’t need to pass **DXGI\_USAGE\_BACK\_BUFFER** when you create a swap chain. But you can determine whether a resource belongs to a swap chain when you call [**IDXGIResource::GetUsage**](/windows/win32/DXGI/nf-dxgi-idxgiresource-getusage?branch=master) and get **DXGI\_USAGE\_BACK\_BUFFER**.<br/> |
 | <span id="DXGI_USAGE_DISCARD_ON_PRESENT"></span><span id="dxgi_usage_discard_on_present"></span><dl> <dt>**DXGI\_USAGE\_DISCARD\_ON\_PRESENT**</dt> <dt>1L &lt;&lt; (5 + 4)</dt> </dl>       | This flag is for internal use only.<br/>                                                                                                                                                                                                                                                                                  |
 | <span id="DXGI_USAGE_READ_ONLY"></span><span id="dxgi_usage_read_only"></span><dl> <dt>**DXGI\_USAGE\_READ\_ONLY**</dt> <dt>1L &lt;&lt; (4 + 4)</dt> </dl>                                   | Use the surface or resource for reading only.<br/>                                                                                                                                                                                                                                                                        |
 | <span id="DXGI_USAGE_RENDER_TARGET_OUTPUT"></span><span id="dxgi_usage_render_target_output"></span><dl> <dt>**DXGI\_USAGE\_RENDER\_TARGET\_OUTPUT**</dt> <dt>1L &lt;&lt; (1 + 4)</dt> </dl> | Use the surface or resource as an output render target.<br/>                                                                                                                                                                                                                                                              |
@@ -42,9 +47,9 @@ Each flag is defined as an unsigned integer.
 typedef UINT DXGI_USAGE;
 ```
 
-These flag options are used in a call to the [**IDXGIFactory::CreateSwapChain**](idxgifactory-createswapchain.md), [**IDXGIFactory2::CreateSwapChainForHwnd**](idxgifactory2-createswapchain1.md), [**IDXGIFactory2::CreateSwapChainForCoreWindow**](idxgifactory2-createswapchainforimmersivewindow.md), or [**IDXGIFactory2::CreateSwapChainForComposition**](idxgifactory2-createswapchainforcompositionsurface.md) method to describe the surface usage and CPU access options for the back buffer of a swap chain. You can't use the **DXGI\_USAGE\_SHARED**, **DXGI\_USAGE\_DISCARD\_ON\_PRESENT**, and **DXGI\_USAGE\_READ\_ONLY** values as input to create a swap chain. However, DXGI can set **DXGI\_USAGE\_DISCARD\_ON\_PRESENT** and **DXGI\_USAGE\_READ\_ONLY** for some of the swap chain's back buffers on the application's behalf. You can call the [**IDXGIResource::GetUsage**](idxgiresource-getusage.md) method to retrieve the usage of these back buffers. Swap chain's only support the **DXGI\_CPU\_ACCESS\_NONE** value in the **DXGI\_CPU\_ACCESS\_FIELD** part of **DXGI\_USAGE**.
+These flag options are used in a call to the [**IDXGIFactory::CreateSwapChain**](/windows/win32/DXGI/nf-dxgi-idxgifactory-createswapchain?branch=master), [**IDXGIFactory2::CreateSwapChainForHwnd**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd?branch=master), [**IDXGIFactory2::CreateSwapChainForCoreWindow**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow?branch=master), or [**IDXGIFactory2::CreateSwapChainForComposition**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition?branch=master) method to describe the surface usage and CPU access options for the back buffer of a swap chain. You can't use the **DXGI\_USAGE\_SHARED**, **DXGI\_USAGE\_DISCARD\_ON\_PRESENT**, and **DXGI\_USAGE\_READ\_ONLY** values as input to create a swap chain. However, DXGI can set **DXGI\_USAGE\_DISCARD\_ON\_PRESENT** and **DXGI\_USAGE\_READ\_ONLY** for some of the swap chain's back buffers on the application's behalf. You can call the [**IDXGIResource::GetUsage**](/windows/win32/DXGI/nf-dxgi-idxgiresource-getusage?branch=master) method to retrieve the usage of these back buffers. Swap chain's only support the **DXGI\_CPU\_ACCESS\_NONE** value in the **DXGI\_CPU\_ACCESS\_FIELD** part of **DXGI\_USAGE**.
 
-These flag options are also used by the [**IDXGIDevice::CreateSurface**](idxgidevice-createsurface.md) method.
+These flag options are also used by the [**IDXGIDevice::CreateSurface**](/windows/win32/DXGI/nf-dxgi-idxgidevice-createsurface?branch=master) method.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TargetPath property of the Session object is a read-write property that provides the full path to the designated folder on the installation target drive.'
-ms.assetid: '563b874e-c669-4f5b-b3fa-eeb6b6e578f2'
-title: 'Session.TargetPath property'
+---
+Description: The TargetPath property of the Session object is a read-write property that provides the full path to the designated folder on the installation target drive.
+ms.assetid: 563b874e-c669-4f5b-b3fa-eeb6b6e578f2
+title: Session.TargetPath property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.TargetPath property

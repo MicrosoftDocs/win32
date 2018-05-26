@@ -4,11 +4,13 @@ description: The base class for the system element hierarchy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c71c0441-381f-4a46-864c-9206c43a27d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c71c0441-381f-4a46-864c-9206c43a27d0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CIM_ManagedSystemElement class Remote Desktop Services", "CIM_ManagedSystemElement class Remote Desktop Services , described"]
+keywords:
+- CIM_ManagedSystemElement class Remote Desktop Services
+- CIM_ManagedSystemElement class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedSystemElement class
@@ -38,11 +43,11 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, UUID("{8502C517-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_ManagedSystemElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
+  string   Name;
+  string   Status;
 };
 ```
 
@@ -196,17 +201,17 @@ Current status of the object. Various operational and nonoperational statuses ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The ASN.1 BMPString data type, called a UNICODE\_STRING in the Certificate Enrollment API, is encoded into a TLV triplet that begins with a Tag byte of 0x1E.'
-ms.assetid: '66e4a6d8-2401-4346-9361-e145735cbe19'
+Description: The ASN.1 BMPString data type, called a UNICODE\_STRING in the Certificate Enrollment API, is encoded into a TLV triplet that begins with a Tag byte of 0x1E.
+ms.assetid: 66e4a6d8-2401-4346-9361-e145735cbe19
 title: BMPString
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BMPString
 
-The ASN.1 **BMPString** data type, called a **UNICODE\_STRING** in the Certificate Enrollment API, is encoded into a TLV triplet that begins with a **Tag** byte of 0x1E. The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows the encoding for a **TemplateName** extension. The name can be specified by using the [**IX509ExtensionTemplateName**](ix509extensiontemplatename.md) interface. The object identifier for the extension is 1.3.6.1.4.1.311.13.2.1.
+The ASN.1 **BMPString** data type, called a **UNICODE\_STRING** in the Certificate Enrollment API, is encoded into a TLV triplet that begins with a **Tag** byte of 0x1E. The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows the encoding for a **TemplateName** extension. The name can be specified by using the [**IX509ExtensionTemplateName**](/windows/win32/CertEnroll/nn-certenroll-ix509extensiontemplatename?branch=master) interface. The object identifier for the extension is 1.3.6.1.4.1.311.13.2.1.
 
 ``` syntax
 06 0a                              ; OBJECT_ID (a Bytes)

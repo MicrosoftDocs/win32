@@ -1,7 +1,12 @@
 ---
-Description: 'Disables flow control on priority.'
-ms.assetid: '331b7b4f-fbd9-4dcb-aa25-eff5a279948e'
-title: 'Disable method of the MSFT\_NetQosFlowControlSettingData class'
+Description: Disables flow control on priority.
+ms.assetid: 331b7b4f-fbd9-4dcb-aa25-eff5a279948e
+title: Disable method of the MSFT\_NetQosFlowControlSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the MSFT\_NetQosFlowControlSettingData class
@@ -13,7 +18,7 @@ Disables flow control on priority.
 
 ```mof
 uint32 Disable(
-  [out] MSFT_NetQosFlowControlSettingData Output
+  [out] MSFT_NetQosFlowControlSettingData Output
 );
 ```
 
@@ -36,8 +41,8 @@ Receives a [**MSFT\_NetQosFlowControlSettingData**](msft-netqosflowcontrolsettin
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>Dcbwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DcbWmi.dll</dt> </dl> |
@@ -51,9 +56,9 @@ Receives a [**MSFT\_NetQosFlowControlSettingData**](msft-netqosflowcontrolsettin
 [**MSFT\_NetQosFlowControlSettingData**](msft-netqosflowcontrolsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

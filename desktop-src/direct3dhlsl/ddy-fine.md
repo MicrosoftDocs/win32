@@ -1,14 +1,20 @@
 ---
 title: ddy\_fine function
 description: Computes a high precision partial derivative with respect to the screen-space x-coordinate.
-ms.assetid: '29fcdbc9-470b-4b5b-b18c-f75dd2c87920'
-keywords: ["ddy_fine function HLSL"]
+ms.assetid: 29fcdbc9-470b-4b5b-b18c-f75dd2c87920
+keywords:
+- ddy_fine function HLSL
 topic_type:
 - apiref
 api_name:
 - ddy_fine
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ddy\_fine function

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings of a virtual system to import. Used by the Dismount method of the Msvm\_AssignableDeviceService class.'
-ms.assetid: '49892e21-3e8d-4644-8cde-72966927f350'
-title: 'Msvm\_AssignableDeviceDismountSettingData class'
+Description: Represents the settings of a virtual system to import. Used by the Dismount method of the Msvm\_AssignableDeviceService class.
+ms.assetid: 49892e21-3e8d-4644-8cde-72966927f350
+title: Msvm\_AssignableDeviceDismountSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_AssignableDeviceDismountSettingData class
@@ -16,8 +21,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Msvm_AssignableDeviceDismountSettingData : CIM_SettingData
 {
-  string  DeviceInstancePath;
-  string  DeviceLocationPath;
+  string  DeviceInstancePath;
+  string  DeviceLocationPath;
   boolean RequireAcsSupport;
   boolean RequireDeviceMitigations;
 };
@@ -93,8 +98,8 @@ Indicates if device mitigations should be in place before permitting the dismoun
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -108,9 +113,9 @@ Indicates if device mitigations should be in place before permitting the dismoun
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

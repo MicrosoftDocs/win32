@@ -4,11 +4,16 @@ description: This topic describes how to resolve function name conflicts when cr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8121f037-3845-44ba-a2cd-8d7f15e0beb2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8121f037-3845-44ba-a2cd-8d7f15e0beb2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI ADSI ,example code Visual Basic ,resolving function name conflicts", "resolving function name conflicts ADSI"]
+keywords:
+- ADSI ADSI ,example code Visual Basic ,resolving function name conflicts
+- resolving function name conflicts ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example for Resolving Function Name Conflicts
@@ -94,13 +99,13 @@ myInfNone.Func0
 Consider these two cases:
 
 -   IADs1 and IADs2 are implemented by two COM components, Ext1 and Ext2, respectively. If Ext1 comes before Ext2 in the registry, IADs1::Func0 is invoked. However, if Ext2 comes first in the registry, IADs2::Func0 is invoked.
--   If IADs1 and ADs2 are implemented by the same extension object, Func0 is always invoked by the extension's [**IADsExtension::PrivateGetIDsOfNames**](iadsextension-privategetidsofnames.md) and [**PrivateInvoke**](iadsextension-privateinvoke.md) methods.
+-   If IADs1 and ADs2 are implemented by the same extension object, Func0 is always invoked by the extension's [**IADsExtension::PrivateGetIDsOfNames**](/windows/win32/Iads/nf-iads-iadsextension-privategetidsofnames?branch=master) and [**PrivateInvoke**](/windows/win32/Iads/nf-iads-iadsextension-privateinvoke?branch=master) methods.
 
-The extension developer must determine how to resolve conflicts of functions, or properties, of different dual [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interfaces that have the same name in an extension. The implementation of [**IADsExtension::PrivateGetIDsOfNames**](iadsextension-privategetidsofnames.md) and [**PrivateInvoke**](iadsextension-privateinvoke.md) methods should resolve this conflict. For example, if you use IMyInterface1::Func1 and IMyInterface2::Func1, where IMyInterface1 and IMyInterface2 are dual **IDispatch** interfaces supported by the same extension object. The **PrivateGetIDsOfNames** and **PrivateInvoke** methods must determine which Func1 should always be called.
+The extension developer must determine how to resolve conflicts of functions, or properties, of different dual [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interfaces that have the same name in an extension. The implementation of [**IADsExtension::PrivateGetIDsOfNames**](/windows/win32/Iads/nf-iads-iadsextension-privategetidsofnames?branch=master) and [**PrivateInvoke**](/windows/win32/Iads/nf-iads-iadsextension-privateinvoke?branch=master) methods should resolve this conflict. For example, if you use IMyInterface1::Func1 and IMyInterface2::Func1, where IMyInterface1 and IMyInterface2 are dual **IDispatch** interfaces supported by the same extension object. The **PrivateGetIDsOfNames** and **PrivateInvoke** methods must determine which Func1 should always be called.
 
 The same applies to conflicting DISPIDs in different dual or [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interfaces.
 
-For example, the DISPID of IMyInterface1::Y is 2 in the file imyinterface1.odl, or imyinterface1.idl. The DISPID of IMyInterface2::X is also 2 in iMyInterface2.odl. [**IADsExtension::PrivateGetIDsOfNames**](iadsextension-privategetidsofnames.md) must return a unique DISPID, within the extension itself, for each, instead of returning the same DISPID for both.
+For example, the DISPID of IMyInterface1::Y is 2 in the file imyinterface1.odl, or imyinterface1.idl. The DISPID of IMyInterface2::X is also 2 in iMyInterface2.odl. [**IADsExtension::PrivateGetIDsOfNames**](/windows/win32/Iads/nf-iads-iadsextension-privategetidsofnames?branch=master) must return a unique DISPID, within the extension itself, for each, instead of returning the same DISPID for both.
 
 ADSI resolves the first problem by not supporting multiple interfaces with conflicting function or property names. It resolves the second problem by adding a unique, that is within the same extension object, interface number to the unused bits of the DISPID.
 

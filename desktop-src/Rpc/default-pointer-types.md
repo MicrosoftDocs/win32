@@ -1,7 +1,12 @@
 ---
 title: Default Pointer Types
 description: Pointers are not required to have an explicit attribute description. When an explicit attribute is not provided, the MIDL Compiler uses a default pointer attribute.
-ms.assetid: 'b90619c3-70b4-44f0-ba37-293595281031'
+ms.assetid: b90619c3-70b4-44f0-ba37-293595281031
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Pointer Types

@@ -1,7 +1,12 @@
 ---
 title: How to Ensure That Your Application Displays Properly on High-DPI Displays
 description: Describes how to create a window the displays properly on high-DPI displays.
-ms.assetid: '72a4b076-1cf0-4dc9-bd75-43b5173fc2a0'
+ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Ensure That Your Application Displays Properly on High-DPI Displays
@@ -14,17 +19,17 @@ Although Direct2D addresses many high-DPI issues for you, there are two steps yo
 
 ## Step 1: Use the System DPI When Creating Windows
 
-The [**ID2D1Factory**](id2d1factory.md) interface provides the [**GetDesktopDpi**](id2d1factory-getdesktopdpi.md) method for retrieving the system DPI. It provides the horizontal and vertical dimensions of the display in dots per inch (DPI). To use these values to set the width of a window, use the following formula:
+The [**ID2D1Factory**](/windows/win32/d2d1/?branch=master) interface provides the [**GetDesktopDpi**](/windows/win32/d2d1/?branch=master) method for retrieving the system DPI. It provides the horizontal and vertical dimensions of the display in dots per inch (DPI). To use these values to set the width of a window, use the following formula:
 
 &lt;*horizontal DPI*&gt; \* &lt;*width*, in pixels&gt; / &lt;*default horizontal DPI*&gt;
 
-...where *horizontal DPI* is the value retrived by [**GetDesktopDpi**](id2d1factory-getdesktopdpi.md) and *default horizontal DPI* is 96. The formula is similar for the vertical size:
+...where *horizontal DPI* is the value retrived by [**GetDesktopDpi**](/windows/win32/d2d1/?branch=master) and *default horizontal DPI* is 96. The formula is similar for the vertical size:
 
 &lt;*vertical DPI*&gt; \* &lt;*height*, in pixels&gt; / &lt;*default vertical DPI*&gt;
 
-...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](id2d1factory-getdesktopdpi.md) method and *default vertical DPI* is 96.
+...where *vertical DPI* is the value retrieved by the [**GetDesktopDpi**](/windows/win32/d2d1/?branch=master) method and *default vertical DPI* is 96.
 
-The following code uses the [**GetDesktopDpi**](id2d1factory-getdesktopdpi.md) method to retrieve the system DPI and then creates a 640 × 480 window, scaled to the system DPI.
+The following code uses the [**GetDesktopDpi**](/windows/win32/d2d1/?branch=master) method to retrieve the system DPI and then creates a 640 × 480 window, scaled to the system DPI.
 
 
 ```C++

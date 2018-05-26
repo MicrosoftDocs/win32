@@ -1,14 +1,20 @@
 ---
 title: WMCreateStreamForURL function
 description: The WMCreateStreamForURL function is implemented by the application to create a COM IStream object for a given URL.
-ms.assetid: 'df8d0e57-9f71-4be3-a0b0-cf61b68611bc'
-keywords: ["WMCreateStreamForURL function windows Media Format"]
+ms.assetid: df8d0e57-9f71-4be3-a0b0-cf61b68611bc
+keywords:
+- WMCreateStreamForURL function windows Media Format
 topic_type:
 - apiref
 api_name:
 - WMCreateStreamForURL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMCreateStreamForURL function

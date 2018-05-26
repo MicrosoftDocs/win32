@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a named feature from the PrintTicket, by name and full namespace URI.'
-ms.assetid: '2E65BDF2-9539-402B-AF19-8CBC84F9C018'
-title: 'IPrintSchemaTicket::GetFeature method'
+---
+Description: Gets a named feature from the PrintTicket, by name and full namespace URI.
+ms.assetid: 2E65BDF2-9539-402B-AF19-8CBC84F9C018
+title: IPrintSchemaTicketGetFeature method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket::GetFeature method

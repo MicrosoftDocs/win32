@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a network type.'
-ms.assetid: 'fe3044ab-6e93-48f8-b8cb-fdf984987232'
-title: 'networkType (networkItemType) Element'
+---
+Description: Specifies a network type.
+ms.assetid: fe3044ab-6e93-48f8-b8cb-fdf984987232
+title: networkType (networkItemType) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # networkType (networkItemType) Element

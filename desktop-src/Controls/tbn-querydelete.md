@@ -1,8 +1,9 @@
 ---
 title: TBN\_QUERYDELETE notification code
-description: Notifies the toolbar's parent window whether a button may be deleted from a toolbar while the user is customizing the toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'fa6a8fe4-a9a3-4c59-9237-d28bd34d664c'
-keywords: ["TBN_QUERYDELETE notification code Windows Controls"]
+description: Notifies the toolbars parent window whether a button may be deleted from a toolbar while the user is customizing the toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: fa6a8fe4-a9a3-4c59-9237-d28bd34d664c
+keywords:
+- TBN_QUERYDELETE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_QUERYDELETE notification code
@@ -33,7 +39,7 @@ TBN_QUERYDELETE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](nmtoolbar.md) structure. The **iItem** member contains the zero-based index of the button to be deleted.
+Pointer to an [**NMTOOLBAR**](/windows/win32/Commctrl/ns-commctrl-tagnmtoolbara?branch=master) structure. The **iItem** member contains the zero-based index of the button to be deleted.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Returns **TRUE** to allow the button to be deleted, or **FALSE** to prevent the 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.'
-ms.assetid: 'B7DA4F21-C7FA-46BB-ADF8-E501891D2A0D'
+Description: The following subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
+ms.assetid: B7DA4F21-C7FA-46BB-ADF8-E501891D2A0D
 title: Stream Subtype GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Subtype GUIDs

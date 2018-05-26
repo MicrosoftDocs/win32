@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the location of the icon assigned to the link.'
-ms.assetid: '3bb7f0f0-7ab9-41e6-b738-274efbcd52ab'
-title: 'ShellLinkObject.GetIconLocation method'
+---
+Description: Gets the location of the icon assigned to the link.
+ms.assetid: 3bb7f0f0-7ab9-41e6-b738-274efbcd52ab
+title: ShellLinkObject.GetIconLocation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject.GetIconLocation method

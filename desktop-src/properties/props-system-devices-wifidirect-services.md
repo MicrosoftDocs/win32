@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates services supported by the Wi-Fi Direct Device.'
-ms.assetid: '5163eff6-7f65-4602-ad9a-5b8a63e5fd1b'
-title: 'System.Devices.WiFiDirect.Services'
+Description: Indicates services supported by the Wi-Fi Direct Device.
+ms.assetid: 5163eff6-7f65-4602-ad9a-5b8a63e5fd1b
+title: System.Devices.WiFiDirect.Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirect.Services

@@ -1,13 +1,16 @@
 ---
-Description: 'Gets or sets a value that represents the month component of the datetime value.'
+Description: Gets or sets a value that represents the month component of the datetime value.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '05818f0a-7e15-4ddd-a6a7-9d16ae82cd3c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 05818f0a-7e15-4ddd-a6a7-9d16ae82cd3c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemDateTime.Month property'
+title: SWbemDateTime.Month property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime.Month property
@@ -39,8 +42,8 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -62,9 +65,9 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 [DATETIME](datetime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

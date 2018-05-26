@@ -1,7 +1,12 @@
 ---
-Description: 'Callback function for UVAtlas.'
-ms.assetid: 'a605ae27-10c9-49b4-98fe-8c788c2c0752'
+Description: Callback function for UVAtlas.
+ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXUVATLASCB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LPD3DXUVATLASCB

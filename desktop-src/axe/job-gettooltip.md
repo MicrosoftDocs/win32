@@ -1,8 +1,11 @@
 ---
 title: Job GetToolTip method
 description: Retrieve a tool tip for the job.
-ms.assetid: 'FCCBCB44-6C6D-436B-9B36-D7A64A027BF7'
-keywords: ["GetToolTip method Access Execution Engine", "GetToolTip method Access Execution Engine , Job interface", "Job interface Access Execution Engine , GetToolTip method"]
+ms.assetid: FCCBCB44-6C6D-436B-9B36-D7A64A027BF7
+keywords:
+- GetToolTip method Access Execution Engine
+- GetToolTip method Access Execution Engine , Job interface
+- Job interface Access Execution Engine , GetToolTip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::GetToolTip method
@@ -22,7 +30,7 @@ Retrieve a tool tip for the job.
 
 ```C++
 virtual HRESULT GetToolTip(
-  [out, optional] LPCWSTR *toolTip
+  [out, optional] LPCWSTR *toolTip
 ) const = 0;
 ```
 
@@ -53,8 +61,8 @@ Managed code uses [**Job.ToolTip \| toolTip**](axe-job_tooltip_om) property.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ Managed code uses [**Job.ToolTip \| toolTip**](axe-job_tooltip_om) property.
 [**Job**](job-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: /oldnames switch
 description: The /oldnames switch directs the MIDL compiler to generate interface names that do not include the version number.
 ms.assetid: 3a79c399-e115-46fd-9559-681b85cd872d
-keywords: ["/oldnames switch MIDL"]
+keywords:
+- /oldnames switch MIDL
 topic_type:
 - apiref
 api_name:
 - /oldnames
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /oldnames switch

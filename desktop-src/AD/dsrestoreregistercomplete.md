@@ -4,11 +4,12 @@ description: Called to unlock an Active Directory server after a restore operati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '781cd2ec-d2e2-4f3a-903d-feda4b871de5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 781cd2ec-d2e2-4f3a-903d-feda4b871de5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsRestoreRegisterComplete function Active Directory"]
+keywords:
+- DsRestoreRegisterComplete function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsRestoreRegisterComplete function
@@ -30,8 +34,8 @@ The **DsRestoreRegisterComplete** function is called to unlock an Active Directo
 
 ```C++
 HRESULT DsRestoreRegisterComplete(
-  _In_ HBC     hbc,
-  _In_ HRESULT hrRestoreState
+  _In_ HBC     hbc,
+  _In_ HRESULT hrRestoreState
 );
 ```
 
@@ -107,9 +111,9 @@ Before you restart the domain controller, call this function to provide the stat
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

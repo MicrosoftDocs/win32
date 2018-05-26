@@ -1,7 +1,12 @@
 ---
-Description: 'The FormatType method retrieves the format type.'
-ms.assetid: '7a4c38be-0f6e-430c-aca4-012cf33f6e5b'
-title: 'CMediaType.FormatType method'
+Description: The FormatType method retrieves the format type.
+ms.assetid: 7a4c38be-0f6e-430c-aca4-012cf33f6e5b
+title: CMediaType.FormatType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.FormatType method
@@ -43,9 +48,9 @@ Returns a pointer to the **formattype** member.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

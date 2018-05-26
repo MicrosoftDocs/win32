@@ -1,8 +1,15 @@
 ---
 title: Configuring the SNMP Service
 description: To configure the SNMP service, you must know the community names that the network uses, the trap destination for each community, and the computer name or IP address for each SNMP management host.
-ms.assetid: 'a84b2b52-45f4-406e-9b4b-6eb6e40b8692'
-keywords: ["Configuring the SNMP Service SNMP", "SNMP Service SNMP , configuring"]
+ms.assetid: a84b2b52-45f4-406e-9b4b-6eb6e40b8692
+keywords:
+- Configuring the SNMP Service SNMP
+- SNMP Service SNMP , configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the SNMP Service

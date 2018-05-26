@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.GetRunTimes method
 description: For scripting, gets the times that the registered task is scheduled to run during a specified time.
-ms.assetid: '3ab41687-085a-414d-8054-9c6fe7439e4e'
-keywords: ["GetRunTimes method Task Scheduler", "GetRunTimes method Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , GetRunTimes method"]
+ms.assetid: 3ab41687-085a-414d-8054-9c6fe7439e4e
+keywords:
+- GetRunTimes method Task Scheduler
+- GetRunTimes method Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , GetRunTimes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.GetRunTimes method
@@ -77,8 +85,8 @@ If the registered task contains triggers that are individually disabled, these t
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -94,9 +102,9 @@ If the registered task contains triggers that are individually disabled, these t
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

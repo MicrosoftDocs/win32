@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property represents a device ID from the FaxDeviceIds collection.'
-ms.assetid: '40eb1e2d-e2ca-482d-b3f7-0d0f48befdf3'
-title: 'FaxDeviceIds.Item property'
+---
+Description: The Item property represents a device ID from the FaxDeviceIds collection.
+ms.assetid: 40eb1e2d-e2ca-482d-b3f7-0d0f48befdf3
+title: FaxDeviceIds.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceIds.Item property
@@ -48,7 +53,7 @@ A **Long** value that receives the item requested.
 [**FaxDeviceIds**](-mfax-faxdeviceids.md)
 </dt> <dt>
 
-[**IFaxDeviceIds**](-mfax-faxdeviceids-cpp.md)
+[**IFaxDeviceIds**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceids?branch=master)
 </dt> </dl>
 
  

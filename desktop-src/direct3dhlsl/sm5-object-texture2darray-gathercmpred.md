@@ -1,14 +1,20 @@
 ---
 title: GatherCmpRed(S,float,float,int) function
 description: Samples a texture, tests the samples against a compare value, and returns the red component.
-ms.assetid: 'aa7fadf8-fe96-406a-9c93-9ae0c59ef087'
-keywords: ["GatherCmpRed function HLSL"]
+ms.assetid: aa7fadf8-fe96-406a-9c93-9ae0c59ef087
+keywords:
+- GatherCmpRed function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherCmpRed
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherCmpRed(S,float,float,int) function

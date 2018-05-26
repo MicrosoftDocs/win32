@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '68a68689-e65c-4080-849f-e8a9ef457931'
-title: 'System.Document.Template'
+Description: .
+ms.assetid: 68a68689-e65c-4080-849f-e8a9ef457931
+title: System.Document.Template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.Template

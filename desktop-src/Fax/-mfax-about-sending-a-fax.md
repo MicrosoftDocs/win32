@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides a detailed description of the five ways in which a fax can be sent.'
-ms.assetid: '7ce686c3-f095-465f-a479-f731e98f9d00'
+Description: This topic provides a detailed description of the five ways in which a fax can be sent.
+ms.assetid: 7ce686c3-f095-465f-a479-f731e98f9d00
 title: About Sending a Fax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Sending a Fax
@@ -60,7 +65,7 @@ If one of these conditions is not met, the rendering of the Outlook message to a
 
 ## Sending a fax by direct device context (DC) rendering
 
-You can use the Windows 2000 C/C++ APIs [**FaxStartPrintJob**](-mfax-faxstartprintjob.md) and [**FaxPrintCoverPage**](-mfax-faxprintcoverpage.md) functions to receive a Windows Graphics Device Interface (GDI) DC construct and use the GDI APIs to render directly to that DC. The rendered DC is then submitted to the fax service for queuing and transmission. No document association is required in this process. This method is limited to C/C++ applications. This method can be used locally or remotely.
+You can use the Windows 2000 C/C++ APIs [**FaxStartPrintJob**](/windows/previous-versions/Winfax/nf-winfax-faxstartprintjoba?branch=master) and [**FaxPrintCoverPage**](/windows/previous-versions/Winfax/nf-winfax-faxprintcoverpagea?branch=master) functions to receive a Windows Graphics Device Interface (GDI) DC construct and use the GDI APIs to render directly to that DC. The rendered DC is then submitted to the fax service for queuing and transmission. No document association is required in this process. This method is limited to C/C++ applications. This method can be used locally or remotely.
 
 ## About TIFF Files
 

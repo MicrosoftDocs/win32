@@ -4,11 +4,14 @@ description: ClusPropertyValueData collection containing all of the data values 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5305541c-ad28-4bdc-92e6-519ba5ab21d5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5305541c-ad28-4bdc-92e6-519ba5ab21d5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Data property Failover Cluster", "Data property Failover Cluster , ClusPropertyValue object", "ClusPropertyValue object Failover Cluster , Data property"]
+keywords:
+- Data property Failover Cluster
+- Data property Failover Cluster , ClusPropertyValue object
+- ClusPropertyValue object Failover Cluster , Data property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusPropertyValue.Data property
@@ -45,7 +51,7 @@ ClusPropertyValue.Data As ClusPropertyValueData
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>              |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>  |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>  |
@@ -67,9 +73,9 @@ ClusPropertyValue.Data As ClusPropertyValueData
 [**ClusPropertyValue.Value**](cluspropertyvalue-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

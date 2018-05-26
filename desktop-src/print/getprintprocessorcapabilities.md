@@ -1,7 +1,12 @@
-﻿---
-Description: 'A print processor''s GetPrintProcessorCapabilities function returns capabilities associated with a specified input data type.'
-ms.assetid: '81aacb41-cba7-4bd0-aded-919a4df0b934'
+---
+Description: A print processors GetPrintProcessorCapabilities function returns capabilities associated with a specified input data type.
+ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
 title: GetPrintProcessorCapabilities function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPrintProcessorCapabilities function

@@ -1,7 +1,12 @@
 ---
-Description: 'The INSTALL action is a top-level action called to install or remove components.'
-ms.assetid: 'bf290b59-1ecb-410f-b1f6-fdbeebebe3d3'
+Description: The INSTALL action is a top-level action called to install or remove components.
+ms.assetid: bf290b59-1ecb-410f-b1f6-fdbeebebe3d3
 title: INSTALL Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INSTALL Action
@@ -18,7 +23,7 @@ There are no ActionData messages.
 
 ## Remarks
 
-The INSTALL action is not called from within the action table sequence, it is passed to Windows Installer when [**MsiInstallProduct**](msiinstallproduct.md) is called, or the command line executable Msiexec.exe is called with the '**/i**' command line switch, or when any installer function is called that may perform an installation task, such as [**MsiConfigureFeature**](msiconfigurefeature.md), [**MsiProvideComponent**](msiprovidecomponent.md), or [**MsiInstallMissingFile**](msiinstallmissingfile.md).
+The INSTALL action is not called from within the action table sequence, it is passed to Windows Installer when [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master) is called, or the command line executable Msiexec.exe is called with the '**/i**' command line switch, or when any installer function is called that may perform an installation task, such as [**MsiConfigureFeature**](/windows/win32/Msi/nf-msi-msiconfigurefeaturea?branch=master), [**MsiProvideComponent**](/windows/win32/Msi/nf-msi-msiprovidecomponenta?branch=master), or [**MsiInstallMissingFile**](/windows/win32/Msi/nf-msi-msiinstallmissingfilea?branch=master).
 
  
 

@@ -2,13 +2,16 @@
 title: GetByActiveStatistics method of the PS\_RemoteAccessAccountingStatisticsSummary class
 description: Used to query Active Connection stats.
 audience: developer
-ms.assetid: '64fd4b4b-599e-4bb6-9128-ee46da869eff'
-ms.prod: 'windows-server-dev'
+ms.assetid: 64fd4b4b-599e-4bb6-9128-ee46da869eff
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByActiveStatistics method", "GetByActiveStatistics method, PS_RemoteAccessAccountingStatisticsSummary class", "PS_RemoteAccessAccountingStatisticsSummary class, GetByActiveStatistics method"]
+keywords:
+- GetByActiveStatistics method
+- GetByActiveStatistics method, PS_RemoteAccessAccountingStatisticsSummary class
+- PS_RemoteAccessAccountingStatisticsSummary class, GetByActiveStatistics method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByActiveStatistics method of the PS\_RemoteAccessAccountingStatisticsSummary class
@@ -28,7 +34,7 @@ Used to query Active Connection stats
 
 ```mof
 uint32 GetByActiveStatistics(
-  [out] RemoteAccessActiveConnectionSummaryLocal cmdletOutput
+  [out] RemoteAccessActiveConnectionSummaryLocal cmdletOutput
 );
 ```
 
@@ -52,7 +58,7 @@ On success, contains an array of [**RemoteAccessActiveConnectionSummaryLocal**](
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -66,9 +72,9 @@ On success, contains an array of [**RemoteAccessActiveConnectionSummaryLocal**](
 [**PS\_RemoteAccessAccountingStatisticsSummary**](ps-remoteaccessaccountingstatisticssummary.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

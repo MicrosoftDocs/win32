@@ -1,7 +1,12 @@
 ---
 Description: Improving Performance with Object Pooling
-ms.assetid: '7a8a38d8-6549-4686-a298-f3b427b380e3'
+ms.assetid: 7a8a38d8-6549-4686-a298-f3b427b380e3
 title: Improving Performance with Object Pooling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Improving Performance with Object Pooling
@@ -17,7 +22,7 @@ If you have a component that clients will use briefly and in rapid succession, w
 
 You can write the component so that in the object's constructor you perform as much of the time-consuming work that is uniform for all clients as possible—acquiring one or several connections, running scripts, fetching initialization data from files or across a network, and so forth. This has the effect of pooling every such resource. You are pooling the combination of resources and generic state necessary to perform some work.
 
-In this circumstance, when clients get an object from the pool, they have those resources immediately available. Typically, they will use the object to do some small unit of work, pushing or pulling data, and then the object will call [**IObjectContext::SetComplete**](iobjectcontext-setcomplete.md) or [**IObjectContext::SetAbort**](iobjectcontext-setabort.md) and return. With rapid-fire use patterns such as this, pooling yields excellent performance benefits. You can fully leverage the simplicity of the stateless automatic transaction programming model yet achieve performance on par with traditional stateful components.
+In this circumstance, when clients get an object from the pool, they have those resources immediately available. Typically, they will use the object to do some small unit of work, pushing or pulling data, and then the object will call [**IObjectContext::SetComplete**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete?branch=master) or [**IObjectContext::SetAbort**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontext-setabort?branch=master) and return. With rapid-fire use patterns such as this, pooling yields excellent performance benefits. You can fully leverage the simplicity of the stateless automatic transaction programming model yet achieve performance on par with traditional stateful components.
 
 However, if clients use an object for a long time each time they call it, pooling will make less sense. The speed advantage that you gain is marginal as use time increases relative to initialization time. You get diminishing returns that may not justify the cost of the memory necessary to hold a pool of active objects.
 

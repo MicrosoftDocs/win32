@@ -1,7 +1,12 @@
-﻿---
-Description: 'Forces the Enhanced Video Renderer (EVR) to use bob deinterlacing.'
-ms.assetid: '56f808b3-c2eb-46e4-84a1-c478a5db78e7'
-title: 'EVRConfig\_ForceBob attribute'
+---
+Description: Forces the Enhanced Video Renderer (EVR) to use bob deinterlacing.
+ms.assetid: 56f808b3-c2eb-46e4-84a1-c478a5db78e7
+title: EVRConfig\_ForceBob attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVRConfig\_ForceBob attribute
@@ -14,15 +19,15 @@ Forces the Enhanced Video Renderer (EVR) to use bob deinterlacing.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
-This attribute can be set on the EVR media sink. To set the attribute, use **QueryInterface** to query the EVR media sink for the [**IMFAttributes**](imfattributes.md) interface.
+This attribute can be set on the EVR media sink. To set the attribute, use **QueryInterface** to query the EVR media sink for the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface.
 
-Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_ForceBob** flag on the EVR. See [**MFVideoMixPrefs**](mfvideomixprefs.md) for a description of this flag.
+Setting this attribute has the same effect as setting the **MFVideoMixPrefs\_ForceBob** flag on the EVR. See [**MFVideoMixPrefs**](/windows/win32/evr/ne-evr-_mfvideomixprefs?branch=master) for a description of this flag.
 
 The GUID constant for this attribute is exported from strmiids.lib.
 

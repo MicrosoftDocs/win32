@@ -1,8 +1,14 @@
 ---
 title: Starting an Executable Daily
 description: Writing a task that starts an executable on a daily basis is done by defining a daily trigger and an executable action.
-ms.assetid: '3ceea4a6-0052-4831-a3b0-76d84ab4e1ed'
-keywords: ["Task Scheduler examples Task Scheduler , daily trigger"]
+ms.assetid: 3ceea4a6-0052-4831-a3b0-76d84ab4e1ed
+keywords:
+- Task Scheduler examples Task Scheduler , daily trigger
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting an Executable Daily

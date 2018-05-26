@@ -4,13 +4,19 @@ description: Modifies the settings in a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '70441e1c-57d9-435a-bb48-b393f6895dc8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 70441e1c-57d9-435a-bb48-b393f6895dc8
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrModifyReplicationGroup method", "WvrModifyReplicationGroup method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrModifyReplicationGroup method"]
+keywords:
+- WvrModifyReplicationGroup method
+- WvrModifyReplicationGroup method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrModifyReplicationGroup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrModifyReplicationGroup method of the MSFT\_WvrAdminTasks class
@@ -22,16 +28,16 @@ Modifies the settings in a replication group.
 
 ```mof
 uint32 WvrModifyReplicationGroup(
-  [in] string  ReplicationGroupName,
-  [in] string  Description,
-  [in] uint32  ReplicationMode,
-  [in] uint64  MaxLogSizeInByte,
-  [in] boolean EnableWriteConsistency,
-  [in] boolean IsSeeded,
-  [in] boolean Encryption,
-  [in] boolean AllowVolumeResize,
-  [in] uint32  AsyncRPO,
-  [in] string  CertificateThumbprint
+  [in] string  ReplicationGroupName,
+  [in] string  Description,
+  [in] uint32  ReplicationMode,
+  [in] uint64  MaxLogSizeInByte,
+  [in] boolean EnableWriteConsistency,
+  [in] boolean IsSeeded,
+  [in] boolean Encryption,
+  [in] boolean AllowVolumeResize,
+  [in] uint32  AsyncRPO,
+  [in] string  CertificateThumbprint
 );
 ```
 
@@ -134,7 +140,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -148,9 +154,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

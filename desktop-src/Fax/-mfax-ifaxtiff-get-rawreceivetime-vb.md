@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the RawReceiveTime property for a FaxTiff object.'
-ms.assetid: '420ff6e8-5020-459e-980b-af93c35fca98'
-title: 'FaxTiff.RawReceiveTime property'
+---
+Description: Retrieves the RawReceiveTime property for a FaxTiff object.
+ms.assetid: 420ff6e8-5020-459e-980b-af93c35fca98
+title: FaxTiff.RawReceiveTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.RawReceiveTime property
@@ -61,7 +66,7 @@ The [**ReceiveTime**](-mfax-ifaxtiff-get-receivetime-vb.md) property contains th
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

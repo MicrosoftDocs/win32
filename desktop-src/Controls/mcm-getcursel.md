@@ -1,8 +1,9 @@
 ---
 title: MCM\_GETCURSEL message
 description: Retrieves the currently selected date. You can send this message explicitly or by using the MonthCal\_GetCurSel macro.
-ms.assetid: 'd4edc9ed-7c92-4ec8-bfa1-8ae597826b3f'
-keywords: ["MCM_GETCURSEL message Windows Controls"]
+ms.assetid: d4edc9ed-7c92-4ec8-bfa1-8ae597826b3f
+keywords:
+- MCM_GETCURSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_GETCURSEL message
 
-Retrieves the currently selected date. You can send this message explicitly or by using the [**MonthCal\_GetCurSel**](monthcal-getcursel.md) macro.
+Retrieves the currently selected date. You can send this message explicitly or by using the [**MonthCal\_GetCurSel**](/windows/win32/Commctrl/nf-commctrl-monthcal_getcursel?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ Returns nonzero if successful, or zero otherwise. This message will always fail 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns nonzero if successful, or zero otherwise. This message will always fail 
 [Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

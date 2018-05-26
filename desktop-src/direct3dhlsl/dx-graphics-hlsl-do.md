@@ -1,8 +1,9 @@
 ---
 title: do Statement
 description: Execute a series of statements continuously until the conditional expression fails.
-ms.assetid: '07fd37b0-59c2-404b-a755-7178e4a058e4'
-keywords: ["do Statement HLSL"]
+ms.assetid: 07fd37b0-59c2-404b-a755-7178e4a058e4
+keywords:
+- do Statement HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - ocidl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # do Statement
@@ -21,11 +27,11 @@ Execute a series of statements continuously until the conditional expression fai
 
 |                                                                     |
 |---------------------------------------------------------------------|
-| \[*Attribute*\] do {   *Statement Block*; } while( *Conditional* ); |
+| \[*Attribute*\] do {   *Statement Block*; } while( *Conditional* ); |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -44,7 +50,7 @@ An optional parameter that controls how the statement is compiled.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,9 +85,9 @@ A conditional [expression](dx-graphics-hlsl-expressions.md). The statement block
 [Flow Control](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

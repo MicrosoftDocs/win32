@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity CheckCertForRevocation method
 description: The CheckCertForRevocation method determines whether a certificate has been revoked.
-ms.assetid: '3efde398-f2ba-486e-b017-6787ca402e4c'
-keywords: ["CheckCertForRevocation method windows Media Format", "CheckCertForRevocation method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , CheckCertForRevocation method"]
+ms.assetid: 3efde398-f2ba-486e-b017-6787ca402e4c
+keywords:
+- CheckCertForRevocation method windows Media Format
+- CheckCertForRevocation method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , CheckCertForRevocation method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::CheckCertForRevocation method
@@ -23,10 +31,10 @@ The **CheckCertForRevocation** method determines whether a certificate has been 
 
 ```C++
 HRESULT CheckCertForRevocation(
-  [in]  REFGUID rguidRevocationList,
-  [in]  BYTE    *pbCert,
-  [in]  DWORD   cbCert,
-  [out] BOOL    *fRevoked
+  [in]  REFGUID rguidRevocationList,
+  [in]  BYTE    *pbCert,
+  [in]  DWORD   cbCert,
+  [out] BOOL    *fRevoked
 );
 ```
 
@@ -51,7 +59,7 @@ GUID identifying the revocation list to use. Set to one of the values in the fol
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -88,7 +96,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -108,9 +116,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMSecurity Interface**](iwmdrmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

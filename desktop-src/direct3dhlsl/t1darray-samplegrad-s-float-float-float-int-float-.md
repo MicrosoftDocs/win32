@@ -1,14 +1,20 @@
 ---
 title: SampleGrad(S,float,float,float,int,float) function
 description: Samples a texture, using a gradient to influence the way the sample location is calculated, with an optional value to clamp sample level-of-detail (LOD) values to.
-ms.assetid: '328EEC75-1E0A-4196-AD82-A48F3C66D65B'
-keywords: ["SampleGrad function HLSL"]
+ms.assetid: 328EEC75-1E0A-4196-AD82-A48F3C66D65B
+keywords:
+- SampleGrad function HLSL
 topic_type:
 - apiref
 api_name:
 - SampleGrad
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleGrad(S,float,float,float,int,float) function

@@ -1,7 +1,12 @@
 ---
 Description: Writing a DMO
-ms.assetid: '77966a77-5400-43b1-bdbd-ace27ddc8ae7'
+ms.assetid: 77966a77-5400-43b1-bdbd-ace27ddc8ae7
 title: Writing a DMO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a DMO

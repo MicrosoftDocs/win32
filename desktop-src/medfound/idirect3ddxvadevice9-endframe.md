@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ends the processing to create a decoded picture.'
-ms.assetid: '4b47cd53-6ce0-47b0-83ed-84926e92430f'
-title: 'IDirect3DDXVADevice9::EndFrame method'
+---
+Description: Ends the processing to create a decoded picture.
+ms.assetid: 4b47cd53-6ce0-47b0-83ed-84926e92430f
+title: IDirect3DDXVADevice9EndFrame method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DDXVADevice9::EndFrame method

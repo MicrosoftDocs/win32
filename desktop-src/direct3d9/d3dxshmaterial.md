@@ -1,7 +1,12 @@
-﻿---
-Description: 'Spherical harmonic (SH) precomputed radiance transfer (PRT) material characteristics.'
-ms.assetid: '2be49f96-ac61-46aa-8d56-d8eee8dca9ed'
+---
+Description: Spherical harmonic (SH) precomputed radiance transfer (PRT) material characteristics.
+ms.assetid: 2be49f96-ac61-46aa-8d56-d8eee8dca9ed
 title: D3DXSHMATERIAL structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXSHMATERIAL structure

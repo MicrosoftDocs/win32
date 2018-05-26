@@ -1,8 +1,25 @@
 ---
 title: glRasterPos Functions
 description: These functions specify the raster position for pixel operations.
-ms.assetid: '2a661893-0818-441d-9399-0103560737c3'
-keywords: ["OpenGL,glRasterPos functions", "OpenGL reference,glRasterPos functions", "reference for OpenGL,glRasterPos functions", "OpenGL,raster functions", "OpenGL reference,raster functions", "reference for OpenGL,raster functions", "glRasterPos functions", "raster vector functions", "OpenGL,pixel functions", "OpenGL reference,pixel functions", "reference for OpenGL,pixel functions", "pixels,functions"]
+ms.assetid: 2a661893-0818-441d-9399-0103560737c3
+keywords:
+- OpenGL,glRasterPos functions
+- OpenGL reference,glRasterPos functions
+- reference for OpenGL,glRasterPos functions
+- OpenGL,raster functions
+- OpenGL reference,raster functions
+- reference for OpenGL,raster functions
+- glRasterPos functions
+- raster vector functions
+- OpenGL,pixel functions
+- OpenGL reference,pixel functions
+- reference for OpenGL,pixel functions
+- pixels,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glRasterPos Functions

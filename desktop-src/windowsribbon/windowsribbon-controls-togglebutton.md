@@ -1,7 +1,12 @@
 ---
 title: Toggle Button
 description: The Toggle Button when clicked provides input to an application. The control represents a mutually exclusive toggle state.
-ms.assetid: '290052b7-0528-41c5-b6f4-958cc42d502b'
+ms.assetid: 290052b7-0528-41c5-b6f4-958cc42d502b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toggle Button
@@ -29,7 +34,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Toggle Button control.
 
@@ -101,7 +106,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -113,9 +118,9 @@ If the Command associated with the control is invalidated through a call to [<st
 [**ToggleButton markup element**](windowsribbon-element-togglebutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The DestroyPropertyDatabase function releases the resources used to create the protocol property database.'
-ms.assetid: 'a0d1c416-8b08-47ca-a88e-e70588574376'
+Description: The DestroyPropertyDatabase function releases the resources used to create the protocol property database.
+ms.assetid: a0d1c416-8b08-47ca-a88e-e70588574376
 title: DestroyPropertyDatabase function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroyPropertyDatabase function
@@ -13,7 +18,7 @@ The **DestroyPropertyDatabase** function releases the resources used to create t
 
 ```C++
 DWORD WINAPI DestroyPropertyDatabase(
-  _In_ HPROTOCOL hProtocol
+  _In_ HPROTOCOL hProtocol
 );
 ```
 
@@ -45,7 +50,7 @@ If the function is unsuccessful, the return value is an error code.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,11 +62,11 @@ The **DestroyPropertyDatabase** function should be called only when implementing
 |-----------------------------------------------------------|--------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor. | [Parsers](parsers.md)                                 |
 | Which entry points are included in the parser DLL.        | [Parser DLL Architecture](parser-dll-architecture.md) |
-| How to implement **Deregister**— includes an example.     | [Implementing Deregister](implementing-deregister.md) |
+| How to implement **Deregister**  includes an example.     | [Implementing Deregister](implementing-deregister.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,8 +74,8 @@ The **DestroyPropertyDatabase** function should be called only when implementing
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -84,9 +89,9 @@ The **DestroyPropertyDatabase** function should be called only when implementing
 [Deregister](deregister.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

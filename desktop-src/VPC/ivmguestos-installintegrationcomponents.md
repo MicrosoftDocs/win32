@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS InstallIntegrationComponents method
 description: Locates and installs the latest Integration Components into the guest operating system.
-ms.assetid: '06f302b3-ec2b-471a-8e2e-095ed6ecbd3d'
-keywords: ["InstallIntegrationComponents method Virtual PC", "InstallIntegrationComponents method Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , InstallIntegrationComponents method"]
+ms.assetid: 06f302b3-ec2b-471a-8e2e-095ed6ecbd3d
+keywords:
+- InstallIntegrationComponents method Virtual PC
+- InstallIntegrationComponents method Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , InstallIntegrationComponents method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::InstallIntegrationComponents method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Locates and installs the latest Integration Components into the guest operating system.
 
@@ -50,7 +58,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -58,9 +66,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -74,9 +82,9 @@ This method can return one of these values.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

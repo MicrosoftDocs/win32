@@ -4,11 +4,16 @@ description: Remote Desktop Web Connection is a web application consisting of an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f9d252b0-205a-47df-9eca-d5744c09e079'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f9d252b0-205a-47df-9eca-d5744c09e079
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Web Connection Remote Desktop Services", "Remote Desktop Protocol (RDP) Remote Desktop Services , Remote Desktop Web Connection overview"]
+keywords:
+- Remote Desktop Web Connection Remote Desktop Services
+- Remote Desktop Protocol (RDP) Remote Desktop Services , Remote Desktop Web Connection overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Web Connection

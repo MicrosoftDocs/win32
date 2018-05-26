@@ -1,16 +1,21 @@
 ---
 Description: Reading the ASF Header Object of an Existing File
-ms.assetid: '0e37f0d3-a37b-4f36-a133-7b1922e9944b'
+ms.assetid: 0e37f0d3-a37b-4f36-a133-7b1922e9944b
 title: Reading the ASF Header Object of an Existing File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading the ASF Header Object of an Existing File
 
 The ASF ContentInfo object stores information that represents the ASF Header Objects of a media file. A populated ContentInfo object is required in order to read and parse an existing ASF file.
 
-After creating the ContentInfo object by calling the [**MFCreateASFContentInfo**](mfcreateasfcontentinfo.md) function, the application must initialize it with header information from the ASF file that is to be read. To populate the object, call [**IMFASFContentInfo::ParseHeader**](imfasfcontentinfo-parseheader.md).
+After creating the ContentInfo object by calling the [**MFCreateASFContentInfo**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfcontentinfo?branch=master) function, the application must initialize it with header information from the ASF file that is to be read. To populate the object, call [**IMFASFContentInfo::ParseHeader**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader?branch=master).
 
-**ParseHeader** requires a media buffer that contains the Header Object of the ASF file. One option is to fill a media buffer with the Header Object to create a byte stream for the file and then read the first 30 bytes of data from the byte stream into a media buffer. You can then get the size by passing the first 24 bytes of the Header Object to the [**IMFASFContentInfo::GetHeaderSize**](imfasfcontentinfo-getheadersize.md) method. After getting the size, you can read the entire Header Object in a media buffer and pass it to **ParseHeader**. The method starts parsing at the offset from the start of the media buffer specified in the *cbOffsetWithinHeader* parameter.
+**ParseHeader** requires a media buffer that contains the Header Object of the ASF file. One option is to fill a media buffer with the Header Object to create a byte stream for the file and then read the first 30 bytes of data from the byte stream into a media buffer. You can then get the size by passing the first 24 bytes of the Header Object to the [**IMFASFContentInfo::GetHeaderSize**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getheadersize?branch=master) method. After getting the size, you can read the entire Header Object in a media buffer and pass it to **ParseHeader**. The method starts parsing at the offset from the start of the media buffer specified in the *cbOffsetWithinHeader* parameter.
 
 The following example code creates and initializes a ContentInfo object for reading an existing ASF file contained in a byte stream. First, we define a helper function that reads data from a byte stream and allocates a media buffer to hold the data:
 

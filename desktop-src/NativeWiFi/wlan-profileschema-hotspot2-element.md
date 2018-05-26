@@ -1,7 +1,12 @@
-﻿---
-Description: 'Extends the WLAN Profile Schema v1 to support Hotspot 2.0 networks.'
-ms.assetid: 'DE30DBCB-80B9-43D0-8DE1-56BBA99DBF31'
-title: 'Hotspot2 (WLANProfile) Element'
+---
+Description: Extends the WLAN Profile Schema v1 to support Hotspot 2.0 networks.
+ms.assetid: DE30DBCB-80B9-43D0-8DE1-56BBA99DBF31
+title: Hotspot2 (WLANProfile) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hotspot2 (WLANProfile) Element

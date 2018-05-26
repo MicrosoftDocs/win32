@@ -1,6 +1,11 @@
-﻿---
-Description: 'Extends the ShellLinkObject object and supports one additional property.'
+---
+Description: Extends the ShellLinkObject object and supports one additional property.
 title: IShellLinkDual2 object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellLinkDual2 object

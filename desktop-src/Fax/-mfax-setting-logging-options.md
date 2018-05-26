@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to set logging options. The log path is not set in this example. If you change the path to the activity log directory, be sure to use a secured directory.'
-ms.assetid: 'afee6ea0-f63d-4818-9ff0-1887638d232c'
+Description: The following Microsoft Visual Basic code example demonstrates how to set logging options. The log path is not set in this example. If you change the path to the activity log directory, be sure to use a secured directory.
+ms.assetid: afee6ea0-f63d-4818-9ff0-1887638d232c
 title: Setting Logging Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Logging Options

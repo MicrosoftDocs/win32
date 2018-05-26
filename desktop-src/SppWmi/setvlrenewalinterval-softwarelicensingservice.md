@@ -3,8 +3,11 @@ title: SetVLRenewalInterval method of the SoftwareLicensingService class
 description: The renewal frequency, in minutes, of how often the current machine should contact the key management service machine after the client is licensed.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '16e694c4-4949-4eb5-9aea-90b2552f1490'
-keywords: ["SetVLRenewalInterval method Windows Management Instrumentation", "SetVLRenewalInterval method Windows Management Instrumentation , SoftwareLicensingService class", "SoftwareLicensingService class Windows Management Instrumentation , SetVLRenewalInterval method"]
+ms.assetid: 16e694c4-4949-4eb5-9aea-90b2552f1490
+keywords:
+- SetVLRenewalInterval method Windows Management Instrumentation
+- SetVLRenewalInterval method Windows Management Instrumentation , SoftwareLicensingService class
+- SoftwareLicensingService class Windows Management Instrumentation , SetVLRenewalInterval method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetVLRenewalInterval method of the SoftwareLicensingService class
@@ -24,7 +32,7 @@ The renewal frequency, in minutes, of how often the current machine should conta
 
 ```mof
 uint32 SetVLRenewalInterval(
-  [in] uint32 RenewalInterval
+  [in] uint32 RenewalInterval
 );
 ```
 
@@ -47,8 +55,8 @@ Specifies the renewal interval in minutes.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Specifies the renewal interval in minutes.
 [**SoftwareLicensingService**](softwarelicensingservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A wired network profile contains the following schema elements.'
-ms.assetid: '3f316725-0cb9-414c-a267-875b3ad67765'
-title: 'LAN\_profile Schema Elements'
+Description: A wired network profile contains the following schema elements.
+ms.assetid: 3f316725-0cb9-414c-a267-875b3ad67765
+title: LAN\_profile Schema Elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LAN\_profile Schema Elements

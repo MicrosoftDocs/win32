@@ -1,8 +1,25 @@
 ---
 title: wordlib.cpp
 description: wordlib.cpp
-ms.assetid: '826ec66b-632d-422d-a0c0-22b73b71fb20'
-keywords: ["Packaging APIs,set author sample", "packaging,set author sample", "packages,set author sample", "Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "set author sample,wordlib.cpp", "Packaging APIs,wordlib.cpp", "packaging,wordlib.cpp", "packages,wordlib.cpp", "wordlib.cpp", "sample applications,set author"]
+ms.assetid: 826ec66b-632d-422d-a0c0-22b73b71fb20
+keywords:
+- Packaging APIs,set author sample
+- packaging,set author sample
+- packages,set author sample
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- set author sample,wordlib.cpp
+- Packaging APIs,wordlib.cpp
+- packaging,wordlib.cpp
+- packages,wordlib.cpp
+- wordlib.cpp
+- sample applications,set author
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # wordlib.cpp

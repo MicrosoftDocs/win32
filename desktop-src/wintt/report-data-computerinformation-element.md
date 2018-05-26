@@ -1,14 +1,20 @@
 ---
 title: Data (ComputerInformation) Element
 description: Identifies a property of the computer that ran the package.
-ms.assetid: '0faec17e-702a-4a1c-971d-c5ae69e5801f'
-keywords: ["Data element Windows Troubleshooting Toolkit"]
+ms.assetid: 0faec17e-702a-4a1c-971d-c5ae69e5801f
+keywords:
+- Data element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (ComputerInformation) Element
@@ -33,8 +39,8 @@ The [**ComputerInformation (Header)**](report-computerinformation-header-element
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ The [**ComputerInformation (Header)**](report-computerinformation-header-element
 [**ComputerInformation (Header)**](report-computerinformation-header-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

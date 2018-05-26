@@ -1,15 +1,18 @@
 ---
-Description: 'CIM\_ProtocolEndpoint is a communication point that sends and receives data between system or computer interfaces and logical networks.'
+Description: CIM\_ProtocolEndpoint is a communication point that sends and receives data between system or computer interfaces and logical networks.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ec59521b-feae-434b-a549-51ce083ad5ec'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ec59521b-feae-434b-a549-51ce083ad5ec
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ProtocolEndpoint class'
+title: CIM\_ProtocolEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProtocolEndpoint class
@@ -24,34 +27,34 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::Service"), Version("2.15.0"), AMENDMENT]
 class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 {
-  string   InstanceID;
-  string   Caption;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   ElementName;
   datetime InstallDate;
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
   datetime TimeOfLastStateChange;
-  uint16   EnabledState;
-  uint16   OperationalStatus[];
-  string   Name;
-  string   Description;
-  string   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType;
-  string   OtherTypeDescription;
+  uint16   EnabledState;
+  uint16   OperationalStatus[];
+  string   Name;
+  string   Description;
+  string   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType;
+  string   OtherTypeDescription;
 };
 ```
 
@@ -74,7 +77,7 @@ The **CIM\_ProtocolEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -168,7 +171,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>12–65535</dd> </dl>
+</dt> <dd>12 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -491,14 +494,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -618,14 +621,14 @@ Starting (10) indicates that the element is in the process of going to an Enable
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1201,14 +1204,14 @@ OperationalStatus replaces the Status property on ManagedSystemElement to provid
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2920,7 +2923,7 @@ ProtocolIFType is an enumeration that is synchronized with the IANA ifType MIB. 
 **IANA Reserved**
 
 
-</dt> <dd>225–4095</dd> <dt>
+</dt> <dd>225 4095</dd> <dt>
 
 <span id="IPv4"></span><span id="ipv4"></span><span id="IPV4"></span>
 
@@ -3165,14 +3168,14 @@ ProtocolIFType is an enumeration that is synchronized with the IANA ifType MIB. 
 **DMTF Reserved**
 
 
-</dt> <dd>4407–32767</dd> <dt>
+</dt> <dd>4407 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3509,14 +3512,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3818,7 +3821,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–65535</dd> </dl>
+</dt> <dd>13 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -3829,16 +3832,16 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

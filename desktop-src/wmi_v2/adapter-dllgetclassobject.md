@@ -4,11 +4,12 @@ description: Retrieves an interface pointer that a provider can use to communica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7ada3434-9274-46a7-b56d-f6281b732efe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7ada3434-9274-46a7-b56d-f6281b732efe
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Adapter_DllGetClassObject function Windows Management Infrastructure (MI)"]
+keywords:
+- Adapter_DllGetClassObject function Windows Management Infrastructure (MI)
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - WmiToMi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adapter\_DllGetClassObject function
@@ -26,18 +30,18 @@ Retrieves an interface pointer that a provider can use to communicate with the s
 > \[!Important\]  
 > This function is only used by generated code and should not be used by developers.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 STDAPI Adapter_DllGetClassObject(
-  _In_  CLSID          supportedClassIds,
-  _In_  MI_MainFuncPtr fpMain,
-  _In_  REFCLSID       rclsid,
-  _In_  REFIID         riid,
-  _Out_ PVOID          *ppv
+  _In_  CLSID          supportedClassIds,
+  _In_  MI_MainFuncPtr fpMain,
+  _In_  REFCLSID       rclsid,
+  _In_  REFIID         riid,
+  _Out_ PVOID          *ppv
 );
 ```
 
@@ -202,8 +206,8 @@ There was not enough memory for the operation.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>WmiToMi.dll</dt> </dl> |
 
 
@@ -215,9 +219,9 @@ There was not enough memory for the operation.
 [Adapter Functions](adapter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: IdleSettings object
 description: Scripting object that specifies how the Task Scheduler performs tasks when the computer is in an idle condition.
-ms.assetid: 'd303596a-0a84-4056-9f7a-5a9512852002'
-keywords: ["IdleSettings object Task Scheduler", "IdleSettings object Task Scheduler , described"]
+ms.assetid: d303596a-0a84-4056-9f7a-5a9512852002
+keywords:
+- IdleSettings object Task Scheduler
+- IdleSettings object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleSettings object
@@ -38,7 +45,7 @@ The **IdleSettings** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,8 +59,8 @@ If a task is triggered by an idle trigger, then the [**IdleSettings.WaitTimeout*
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -69,9 +76,9 @@ If a task is triggered by an idle trigger, then the [**IdleSettings.WaitTimeout*
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

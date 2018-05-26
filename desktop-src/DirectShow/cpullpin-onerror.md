@@ -1,7 +1,12 @@
 ---
-Description: 'The OnError method is called if an error occurs during streaming. The derived class must implement this method.'
-ms.assetid: '0f135cab-611c-4464-9605-360a30de7eb3'
-title: 'CPullPin.OnError method'
+Description: The OnError method is called if an error occurs during streaming. The derived class must implement this method.
+ms.assetid: 0f135cab-611c-4464-9605-360a30de7eb3
+title: CPullPin.OnError method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.OnError method
@@ -13,7 +18,7 @@ The `OnError` method is called if an error occurs during streaming. The derived 
 
 ```C++
 virtual void OnError(
-   HRESULT hr
+   HRESULT hr
 ) = 0;
 ```
 
@@ -36,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-The object calls this method whenever an error occurs that halts the data-pulling thread. The filter can use this method to recover from streaming errors gracefully. In most cases, the error is returned from the upstream filter, so the upstream filter is responsible for reporting it to the Filter Graph Manager. If the error occurs inside the [**CPullPin::Receive**](cpullpin-receive.md) method, your filter should send an [**EC\_ERRORABORT**](ec-errorabort.md) event. (See [**IMediaEventSink::Notify**](imediaeventsink-notify.md).)
+The object calls this method whenever an error occurs that halts the data-pulling thread. The filter can use this method to recover from streaming errors gracefully. In most cases, the error is returned from the upstream filter, so the upstream filter is responsible for reporting it to the Filter Graph Manager. If the error occurs inside the [**CPullPin::Receive**](cpullpin-receive.md) method, your filter should send an [**EC\_ERRORABORT**](ec-errorabort.md) event. (See [**IMediaEventSink::Notify**](/windows/win32/Strmif/nf-strmif-imediaeventsink-notify?branch=master).)
 
 ## Requirements
 
@@ -56,9 +61,9 @@ The object calls this method whenever an error occurs that halts the data-pullin
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Identifies the protocol identification number associated with the s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cc520ff6-b44e-48bd-a258-54f22a580be0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cc520ff6-b44e-48bd-a258-54f22a580be0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Secondary-KrbTgt-Number attribute AD Schema", "msDS-SecondaryKrbTgtNumber attribute AD Schema"]
+keywords:
+- ms-DS-Secondary-KrbTgt-Number attribute AD Schema
+- msDS-SecondaryKrbTgtNumber attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Secondary-KrbTgt-Number
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Secondary-KrbTgt-Number attribute
@@ -38,9 +43,9 @@ Identifies the protocol identification number associated with the secondary doma
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Identifies the protocol identification number associated with the secondary doma
 
 
 
- 
+ 
 
- 
+ 
 
 
 

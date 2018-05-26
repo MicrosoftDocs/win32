@@ -1,7 +1,12 @@
 ---
 title: VML Diffusity Attribute
 description: VML Diffusity Attribute
-ms.assetid: '1d131540-9166-47fc-bb0d-fada38f6a3de'
+ms.assetid: 1d131540-9166-47fc-bb0d-fada38f6a3de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Diffusity Attribute

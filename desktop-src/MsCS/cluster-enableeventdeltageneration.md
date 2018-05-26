@@ -4,22 +4,27 @@ description: Controls whether a time delta event is logged when a set of event l
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7062af46-cade-4069-a8c3-401d8e73d1ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7062af46-cade-4069-a8c3-401d8e73d1ff
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["EnableEventDeltaGeneration Failover Cluster ,for clusters", "EnableEventDeltaGeneration Failover Cluster"]
+keywords:
+- EnableEventDeltaGeneration Failover Cluster ,for clusters
+- EnableEventDeltaGeneration Failover Cluster
 topic_type:
 - apiref
 api_name:
 - EnableEventDeltaGeneration
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableEventDeltaGeneration
 
-\[This property is available for use only in Windows Server 2003.\]
+\[This property is available for use only in Windows Server 2003.\]
 
 Controls whether a time delta event is logged when a set of event log entries are replicated to [nodes](nodes.md) across the entire [*cluster*](c-gly.md#-wolf-cluster-gly).
 
@@ -29,14 +34,14 @@ Controls whether a time delta event is logged when a set of event log entries ar
 |----------------------|---------------------------------------------------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                                                              |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>                                                |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/>                                              |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/>                                              |
 | Minimum<br/>   | **FALSE** (0). Do not generate a time delta log when event log entries are replicated.<br/> |
 | Maximum<br/>   | **TRUE** (1). Generate a time delta log when event log entries are replicated.<br/>         |
 | Default<br/>   | **TRUE**<br/>                                                                               |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,8 +69,8 @@ PropertyValue.dw        = FALSE;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -76,12 +81,12 @@ PropertyValue.dw        = FALSE;
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

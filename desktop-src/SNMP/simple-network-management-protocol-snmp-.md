@@ -1,8 +1,14 @@
 ---
 title: Simple Network Management Protocol (SNMP)
 description: The Simple Network Management Protocol (SNMP) is the Internet standard protocol for exchanging management information between management console applications such as HP Openview, Novell NMS, IBM NetView, or Sun Net Manager, and managed entities.
-ms.assetid: '499e912b-0821-452e-81f6-8a8250875979'
-keywords: ["Simple Network Management Protocol (SNMP)"]
+ms.assetid: 499e912b-0821-452e-81f6-8a8250875979
+keywords:
+- Simple Network Management Protocol (SNMP)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple Network Management Protocol (SNMP)

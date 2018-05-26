@@ -1,14 +1,20 @@
 ---
 title: annotate attribute
 description: The \ annotate\ attribute allows you to specify a SAL annotation string for the specified method, parameter, or structure field.
-ms.assetid: 'D0A35DCD-BD2F-455B-A040-5D63E4572D83'
-keywords: ["annotate attribute MIDL"]
+ms.assetid: D0A35DCD-BD2F-455B-A040-5D63E4572D83
+keywords:
+- annotate attribute MIDL
 topic_type:
 - apiref
 api_name:
 - annotate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # annotate attribute

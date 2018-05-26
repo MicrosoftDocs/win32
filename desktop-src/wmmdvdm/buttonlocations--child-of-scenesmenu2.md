@@ -1,14 +1,20 @@
 ---
 title: ButtonLocations (Child of ScenesMenu2) element
-description: Specifies the normalized (with respect to a screen with a 16 9 aspect ratio) position and dimensions of the menu buttons on a scene menu with two scene buttons. This is the rectangular region that defines each button's location for the DVD player.
-ms.assetid: 'c01b9f8e-f973-4a65-9ef7-142038130c24'
-keywords: ["ButtonLocations (Child of ScenesMenu2) element Windows Movie Maker and DVD Maker"]
+description: Specifies the normalized (with respect to a screen with a 16 9 aspect ratio) position and dimensions of the menu buttons on a scene menu with two scene buttons. This is the rectangular region that defines each buttons location for the DVD player.
+ms.assetid: c01b9f8e-f973-4a65-9ef7-142038130c24
+keywords:
+- ButtonLocations (Child of ScenesMenu2) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ButtonLocations
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ButtonLocations (Child of ScenesMenu2) element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -69,9 +75,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

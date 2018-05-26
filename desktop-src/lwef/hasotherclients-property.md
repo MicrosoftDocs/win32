@@ -1,7 +1,12 @@
 ---
 title: HasOtherClients Property
 description: HasOtherClients Property
-ms.assetid: '5ecc6f42-786b-40a6-8800-9ad0d92edfb2'
+ms.assetid: 5ecc6f42-786b-40a6-8800-9ad0d92edfb2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HasOtherClients Property

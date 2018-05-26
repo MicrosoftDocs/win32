@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.dvd property
 description: The dvd property gets an IWMPDVD interface that provides properties and methods for working with DVDs.
-ms.assetid: 'a1cafa04-33b6-42ff-86db-3ffc7f056907'
-keywords: ["dvd property Windows Media Player", "dvd property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , dvd property"]
+ms.assetid: a1cafa04-33b6-42ff-86db-3ffc7f056907
+keywords:
+- dvd property Windows Media Player
+- dvd property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , dvd property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.dvd property
@@ -72,9 +80,9 @@ The WMPLib.IWMPDVD interface.
 [**IWMPDVD Interface (VB and C#)**](iwmpdvd--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

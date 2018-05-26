@@ -1,7 +1,12 @@
 ---
-Description: 'Includes options that can be set or retrieved for the current Microsoft Windows HTTP Services (WinHTTP) session.'
-ms.assetid: '8464d794-b4a8-4c83-9e26-69257000102a'
+Description: Includes options that can be set or retrieved for the current Microsoft Windows HTTP Services (WinHTTP) session.
+ms.assetid: 8464d794-b4a8-4c83-9e26-69257000102a
 title: WinHttpRequestOption enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHttpRequestOption enumeration
@@ -58,7 +63,7 @@ Retrieves a **VARIANT** that contains the URL of the resource. This value is rea
 <span id="WinHttpRequestOption_URLCodePage"></span><span id="winhttprequestoption_urlcodepage"></span><span id="WINHTTPREQUESTOPTION_URLCODEPAGE"></span>**WinHttpRequestOption\_URLCodePage**
 </dt> <dd>
 
-Sets or retrieves a **VARIANT** that identifies the [*code page*](glossary.md#term-code-page) for the URL string. The default value is the UTF-8 code page. The code page is used to convert the Unicode URL string, passed in the [**Open**](iwinhttprequest-open.md) method, to a single-byte string representation.
+Sets or retrieves a **VARIANT** that identifies the [*code page*](glossary.md#term-code-page) for the URL string. The default value is the UTF-8 code page. The code page is used to convert the Unicode URL string, passed in the [**Open**](iwinhttprequest-open.md) method, to a single-byte string representation.
 
 </dd> <dt>
 
@@ -85,7 +90,7 @@ Sets or retrieves a **VARIANT** that indicates which server certificate errors s
 
 
 
- 
+ 
 
 The default value of this option in Version 5.1 of WinHTTP is zero, which results in no errors being ignored. In earlier versions of WinHTTP, the default setting was 0x3300, which resulted in all server certificate errors being ignored by default.
 
@@ -134,7 +139,7 @@ Sets or retrieves a **VARIANT** that indicates which secure protocols can be use
 
 
 
- 
+ 
 
 The default value of this option is 0x0028, which indicates that SSL 2.0 or SSL 3.0 can be used. If this option is set to zero, the client and server are not able to determine an acceptable security protocol and the next [**Send**](iwinhttprequest-send.md) results in an error.
 
@@ -173,7 +178,7 @@ Enables or disables support for Passport authentication. By default, automatic s
 
 Sets or retrieves the maximum number of redirects that WinHTTP follows; the default is 10. This limit prevents unauthorized sites from making the WinHTTP client stall following a large number of redirects.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
+**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
 
 </dd> <dt>
 
@@ -182,7 +187,7 @@ Sets or retrieves the maximum number of redirects that WinHTTP follows; the defa
 
 Sets or retrieves a bound set on the maximum size of the header portion of the server's response. This bound protects the client from a malicious server attempting to stall the client by sending a response with an infinite amount of header data. The default value is 64 KB.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
+**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
 
 </dd> <dt>
 
@@ -191,7 +196,7 @@ Sets or retrieves a bound set on the maximum size of the header portion of the s
 
 Sets or retrieves a bound on the amount of data that will be drained from responses in order to reuse a connection. The default is 1 MB.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
+**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
 
 </dd> <dt>
 
@@ -200,7 +205,7 @@ Sets or retrieves a bound on the amount of data that will be drained from respon
 
 Sets or retrieves a boolean value that indicates whether HTTP/1.1 or HTTP/1.0 should be used. The default is **TRUE**, so that HTTP/1.1 is used by default.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
+**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
 
 </dd> <dt>
 
@@ -209,7 +214,7 @@ Sets or retrieves a boolean value that indicates whether HTTP/1.1 or HTTP/1.0 sh
 
 Enables server certificate revocation checking during SSL negotiation. When the server presents a certificate, a check is performed to determine whether the certificate has been revoked by its issuer. If the certificate is indeed revoked, or the revocation check fails because the Certificate Revocation List (CRL) cannot be downloaded, the request fails; such revocation errors cannot be suppressed.
 
-**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
+**Windows XP with SP1 and Windows 2000 with SP3:** This enumeration value is not supported.
 
 </dd> </dl>
 
@@ -218,9 +223,9 @@ Enables server certificate revocation checking during SSL negotiation. When the 
 Set an option by specifying one of the preceding constants as the parameter of the [**Option**](iwinhttprequest-option.md) property.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHttp start page.
 
- 
+ 
 
 ## Requirements
 
@@ -228,9 +233,9 @@ Set an option by specifying one of the preceding constants as the parameter of t
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 
 
@@ -242,9 +247,9 @@ Set an option by specifying one of the preceding constants as the parameter of t
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_PrinterSetting association WMI class relates a printer and its configuration settings.'
+---
+Description: The Win32\_PrinterSetting association WMI class relates a printer and its configuration settings.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5d0f0724-0583-449b-a6da-336e7c8e526e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5d0f0724-0583-449b-a6da-336e7c8e526e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PrinterSetting class'
+title: Win32\_PrinterSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PrinterSetting class

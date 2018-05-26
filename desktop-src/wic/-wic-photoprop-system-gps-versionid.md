@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.VersionID property.'
-ms.assetid: 'd3c88243-8744-4bb3-ab47-38b5354f6f7e'
-title: 'System.GPS.VersionID Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.VersionID property.
+ms.assetid: d3c88243-8744-4bb3-ab47-38b5354f6f7e
+title: System.GPS.VersionID Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.VersionID Photo Metadata Policy

@@ -1,8 +1,11 @@
 ---
 title: RegisteredTask.Path property
 description: For scripting, gets the path to where the registered task is stored.
-ms.assetid: 'cf097dae-d92b-48c8-bc96-8169b94b0763'
-keywords: ["Path property Task Scheduler", "Path property Task Scheduler , RegisteredTask object", "RegisteredTask object Task Scheduler , Path property"]
+ms.assetid: cf097dae-d92b-48c8-bc96-8169b94b0763
+keywords:
+- Path property Task Scheduler
+- Path property Task Scheduler , RegisteredTask object
+- RegisteredTask object Task Scheduler , Path property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisteredTask.Path property
@@ -36,8 +44,8 @@ The path to where the registered task is stored.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -53,9 +61,9 @@ The path to where the registered task is stored.
 [**RegisteredTask**](registeredtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

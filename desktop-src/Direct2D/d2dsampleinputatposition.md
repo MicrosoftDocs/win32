@@ -1,8 +1,9 @@
 ---
 title: D2DSampleInputAtPosition function
 description: Samples input N at an absolute scene position, rather than an input-relative position. Only available for complex inputs.
-ms.assetid: 'E839287F-91D1-4591-8DE7-1DFC3001A23D'
-keywords: ["D2DSampleInputAtPosition function Direct2D"]
+ms.assetid: E839287F-91D1-4591-8DE7-1DFC3001A23D
+keywords:
+- D2DSampleInputAtPosition function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2DSampleInputAtPosition function
@@ -21,8 +27,8 @@ Samples input N at an absolute scene position, rather than an input-relative pos
 
 ``` syntax
 float4 WINAPI D2DSampleInputAtPosition(
-  in uint N,
-  in float2 uv
+  in uint N,
+  in float2 uv
 );
 ```
 
@@ -86,9 +92,9 @@ D2D_PS_ENTRY(CircularWrapPS)
 [HLSL Helpers](hlsl-helpers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

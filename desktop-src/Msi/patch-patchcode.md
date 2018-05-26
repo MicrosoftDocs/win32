@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PatchCode property returns the patch code GUID of the patch.'
-ms.assetid: 'fc2e453b-d37d-41dc-9854-800c2aab368b'
-title: 'Patch.PatchCode property'
+---
+Description: The PatchCode property returns the patch code GUID of the patch.
+ms.assetid: fc2e453b-d37d-41dc-9854-800c2aab368b
+title: Patch.PatchCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.PatchCode property

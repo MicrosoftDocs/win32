@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ModifyStopTime method sets the stop time, relative to the timeline.'
-ms.assetid: '0d9b6cf7-d029-4c35-9045-82cbeff1e3ae'
-title: 'IAMTimelineSrc::ModifyStopTime method'
+---
+Description: The ModifyStopTime method sets the stop time, relative to the timeline.
+ms.assetid: 0d9b6cf7-d029-4c35-9045-82cbeff1e3ae
+title: IAMTimelineSrcModifyStopTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::ModifyStopTime method

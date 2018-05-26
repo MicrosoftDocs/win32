@@ -4,11 +4,16 @@ description: The Count property returns the number of Property objects that are 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b827a35f-c06b-4d45-984f-6b4de2c6116d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b827a35f-c06b-4d45-984f-6b4de2c6116d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Count property MMC", "Count property MMC , Properties object", "Properties object MMC , Count property", "Count property MMC , Properties interface", "Properties interface MMC , Count property"]
+keywords:
+- Count property MMC
+- Count property MMC , Properties object
+- Properties object MMC , Count property
+- Count property MMC , Properties interface
+- Properties interface MMC , Count property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Properties::Count property
@@ -43,8 +51,8 @@ The number of [**Property objects**](property-object.md) contained in this colle
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -59,9 +67,9 @@ The number of [**Property objects**](property-object.md) contained in this colle
 [**Properties.Item**](properties-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

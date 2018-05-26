@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETGROUPRECT message
 description: Gets the rectangle for a specified group. Send this message explicitly or by using the ListView\_GetGroupRect macro.
-ms.assetid: '9441a6c5-11d8-4f52-80dd-1b60befd9b9d'
-keywords: ["LVM_GETGROUPRECT message Windows Controls"]
+ms.assetid: 9441a6c5-11d8-4f52-80dd-1b60befd9b9d
+keywords:
+- LVM_GETGROUPRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETGROUPRECT message
 
-Gets the rectangle for a specified group. Send this message explicitly or by using the [**ListView\_GetGroupRect**](listview-getgrouprect.md) macro.
+Gets the rectangle for a specified group. Send this message explicitly or by using the [**ListView\_GetGroupRect**](/windows/win32/Commctrl/nf-commctrl-listview_getgrouprect?branch=master) macro.
 
 ## Parameters
 
@@ -24,7 +30,7 @@ Gets the rectangle for a specified group. Send this message explicitly or by usi
 *wParam* \[in\]
 </dt> <dd>
 
-Specifies the group by **iGroupId** (see [**LVGROUP**](lvgroup.md) structure).
+Specifies the group by **iGroupId** (see [**LVGROUP**](/windows/win32/Commctrl/ns-commctrl-taglvgroup?branch=master) structure).
 
 </dd> <dt>
 
@@ -42,11 +48,11 @@ The calling process is responsible for allocating memory for the structure. Set 
 | <span id="LVGGR_GROUP"></span><span id="lvggr_group"></span><dl> <dt>**LVGGR\_GROUP**</dt> </dl>                | Coordinates of the entire expanded group.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <span id="LVGGR_HEADER"></span><span id="lvggr_header"></span><dl> <dt>**LVGGR\_HEADER**</dt> </dl>             | Coordinates of the header only (collapsed group).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | <span id="LVGGR_LABEL"></span><span id="lvggr_label"></span><dl> <dt>**LVGGR\_LABEL**</dt> </dl>                | Coordinates of the label only.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| <span id="LVGGR_SUBSETLINK"></span><span id="lvggr_subsetlink"></span><dl> <dt>**LVGGR\_SUBSETLINK**</dt> </dl> | Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group. A link is presented to the user to allow the user to expand the group. This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS\_SUBSETED, see structure [**LVGROUP**](lvgroup.md), member **state**). This flag is provided so that accessibility applications can located the link.<br/> |
+| <span id="LVGGR_SUBSETLINK"></span><span id="lvggr_subsetlink"></span><dl> <dt>**LVGGR\_SUBSETLINK**</dt> </dl> | Coordinates of the subset link only (markup subset). A list-view control can limit the number of visible items displayed in each group. A link is presented to the user to allow the user to expand the group. This flag will return the bounding rectangle of the subset link if the group is a subset (group state of LVGS\_SUBSETED, see structure [**LVGROUP**](/windows/win32/Commctrl/ns-commctrl-taglvgroup?branch=master), member **state**). This flag is provided so that accessibility applications can located the link.<br/> |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -60,15 +66,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

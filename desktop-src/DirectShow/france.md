@@ -1,7 +1,12 @@
 ---
-Description: 'For an explanation of the following tables, see Tables and Assignments.'
-ms.assetid: '852ead0e-3539-483d-943d-1779f7358ba5'
+Description: For an explanation of the following tables, see Tables and Assignments.
+ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: France
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # France

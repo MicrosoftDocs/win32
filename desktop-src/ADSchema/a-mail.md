@@ -4,17 +4,22 @@ description: The list of email addresses for a contact.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd8c75284-fdfd-4188-a4cf-ba2ddb9985fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d8c75284-fdfd-4188-a4cf-ba2ddb9985fc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["E-mail-Addresses attribute AD Schema", "mail attribute AD Schema"]
+keywords:
+- E-mail-Addresses attribute AD Schema
+- mail attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - E-mail-Addresses
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # E-mail-Addresses attribute
@@ -38,12 +43,12 @@ The list of email addresses for a contact.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The list of email addresses for a contact.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

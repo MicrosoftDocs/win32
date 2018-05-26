@@ -1,8 +1,16 @@
 ---
 title: UI Automation Clients Overview
 description: This topic describes the main tasks involved in implementing a Microsoft UI Automation client application.
-ms.assetid: '536ccf03-2f52-49e5-a95f-ea56cf821779'
-keywords: ["UI Automation,clients overview", "clients,about", "clients,elements"]
+ms.assetid: 536ccf03-2f52-49e5-a95f-ea56cf821779
+keywords:
+- UI Automation,clients overview
+- clients,about
+- clients,elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Clients Overview
@@ -17,19 +25,19 @@ From a UI Automation perspective, the main tasks that a UI Automation client app
 
     Information about UI elements, and access to UI element functionality, is exposed to clients by UI Automation providers. However, client applications do not work directly with providers. Instead, a core service lies between the client and the provider. When a client calls the UI Automation API, it is actually calling the UI Automation core service which, in turn, makes calls to the interfaces implemented by the provider.
 
-    To gain access to the core UI Automation service, a client must create an instance of the [**CUIAutomation**](uiauto-cuiautomation-object.md) object and retrieve an [**IUIAutomation**](uiauto-iuiautomation.md) interface pointer on the object. The **IUIAutomation** pointer is the client's key to accessing all of the UI Automation functionality that is available to the client. For more information, see [Creating the CUIAutomation Object](uiauto-creatingcuiautomation.md).
+    To gain access to the core UI Automation service, a client must create an instance of the [**CUIAutomation**](/windows/win32/UIAutomationClient/?branch=master) object and retrieve an [**IUIAutomation**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomation?branch=master) interface pointer on the object. The **IUIAutomation** pointer is the client's key to accessing all of the UI Automation functionality that is available to the client. For more information, see [Creating the CUIAutomation Object](uiauto-creatingcuiautomation.md).
 
 2.  **Retrieve IUIAutomationElement interfaces for UI elements from the UI Automation tree.**
 
-    UI Automation exposes individual UI elements as objects that implement the [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface. Information about an element is available to clients through properties exposed by the element's **IUIAutomationElement** interface, along with access to the element's control patterns. Properties and methods exposed by the control pattern interfaces provide access to control-specific information and functionality.
+    UI Automation exposes individual UI elements as objects that implement the [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface. Information about an element is available to clients through properties exposed by the element's **IUIAutomationElement** interface, along with access to the element's control patterns. Properties and methods exposed by the control pattern interfaces provide access to control-specific information and functionality.
 
-    The UI Automation element objects are provided to clients in a hierarchical tree structure called the UI Automation tree. Clients use methods exposed by the [**IUIAutomation**](uiauto-iuiautomation.md) interface to retrieve [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interfaces for UI elements in the tree, and to retrieve other interfaces used to search the tree for elements that match a particular set of criteria. For more information, see [Obtaining UI Automation Elements](uiauto-obtainingelements.md).
+    The UI Automation element objects are provided to clients in a hierarchical tree structure called the UI Automation tree. Clients use methods exposed by the [**IUIAutomation**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomation?branch=master) interface to retrieve [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interfaces for UI elements in the tree, and to retrieve other interfaces used to search the tree for elements that match a particular set of criteria. For more information, see [Obtaining UI Automation Elements](uiauto-obtainingelements.md).
 
     When retrieving UI elements, clients can improve system performance by using the caching capabilities of UI Automation. Caching enables a client to specify a set of properties and control patterns to retrieve along with the element. In a single interprocess call, UI Automation retrieves the element and the specified properties and control patterns, and then stores them in the cache. Without caching, a separate interprocess call is required to retrieve each property or control pattern. For more information, see [Caching UI Automation Properties and Control Patterns](uiauto-cachingforclients.md).
 
 3.  **Retrieve UI element properties and invoke UI element functionality.**
 
-    Clients use the [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface to retrieve an element's properties and control patterns. The interface includes two versions of each property retrieval method—one version retrieves the property from the cache, the other retrieves the property from the provider. For more information, see [Retrieving Properties from UI Automation Elements](uiauto-propertiesforclients.md).
+    Clients use the [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface to retrieve an element's properties and control patterns. The interface includes two versions of each property retrieval method—one version retrieves the property from the cache, the other retrieves the property from the provider. For more information, see [Retrieving Properties from UI Automation Elements](uiauto-propertiesforclients.md).
 
 4.  **Respond to UI Automation events.**
 

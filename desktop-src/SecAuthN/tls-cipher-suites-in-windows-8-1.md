@@ -1,7 +1,12 @@
-﻿---
-Description: 'TLS Cipher Suites in Windows 8.1'
-ms.assetid: '48A515C2-96D3-4CBF-A48F-3F0B91F0CB2C'
-title: 'TLS Cipher Suites in Windows 8.1'
+---
+Description: TLS Cipher Suites in Windows 8.1
+ms.assetid: 48A515C2-96D3-4CBF-A48F-3F0B91F0CB2C
+title: TLS Cipher Suites in Windows 8.1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TLS Cipher Suites in Windows 8.1

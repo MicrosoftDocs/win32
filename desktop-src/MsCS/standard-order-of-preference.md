@@ -4,24 +4,33 @@ description: The Failover Cluster API may offer more than one way of performing 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd19d7718-16af-43c3-b339-ca500626f57e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d19d7718-16af-43c3-b339-ca500626f57e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["standard order of preference Failover Cluster", "order of preference Failover Cluster", "Failover Cluster API Failover Cluster , order of preference", "resource DLLs Failover Cluster ,order of preference", "cluster-aware applications Failover Cluster ,order of preference", "application types Failover Cluster ,cluster-aware applications,order of preference"]
+keywords:
+- standard order of preference Failover Cluster
+- order of preference Failover Cluster
+- Failover Cluster API Failover Cluster , order of preference
+- resource DLLs Failover Cluster ,order of preference
+- cluster-aware applications Failover Cluster ,order of preference
+- application types Failover Cluster ,cluster-aware applications,order of preference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Standard Order of Preference
 
 The [Failover Cluster API](the-server-cluster-api.md) may offer more than one way of performing a cluster operation. For example, the [**PendingTimeout**](resources-pendingtimeout.md) property for a [resource](resources.md) can be set through the following API elements.
 
-[**ClusterResourceControl**](clusterresourcecontrol.md) with the [CLUSCTL\_RESOURCE\_SET\_COMMON\_PROPERTIES](clusctl-resource-set-common-properties.md) control code.
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) with the [CLUSCTL\_RESOURCE\_SET\_COMMON\_PROPERTIES](clusctl-resource-set-common-properties.md) control code.
 
-[**ResUtilSetPropertyParameterBlock**](resutilsetpropertyparameterblock.md)
+[**ResUtilSetPropertyParameterBlock**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_property_parameter_block?branch=master)
 
-[**ResUtilSetPropertyTable**](resutilsetpropertytable.md)
+[**ResUtilSetPropertyTable**](/windows/previous-versions/ResApi/nc-resapi-presutil_set_property_table?branch=master)
 
-[**ClusterRegSetValue**](clusterregsetvalue.md)
+[**ClusterRegSetValue**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterregsetvalue?branch=master)
 
 If the Failover Cluster API offers more than one way of performing an operation on a cluster object, the following orders of preference is recommended.
 

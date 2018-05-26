@@ -1,7 +1,12 @@
 ---
-Description: 'Introduction (WIC Guidelines for Camera RAW Image Formats)'
-ms.assetid: '3c588386-1d4d-4ee0-b633-bfc94ca751ea'
-title: 'Introduction (WIC Guidelines for Camera RAW Image Formats)'
+Description: Introduction (WIC Guidelines for Camera RAW Image Formats)
+ms.assetid: 3c588386-1d4d-4ee0-b633-bfc94ca751ea
+title: Introduction (WIC Guidelines for Camera RAW Image Formats)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction (WIC Guidelines for Camera RAW Image Formats)

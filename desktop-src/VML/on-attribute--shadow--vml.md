@@ -1,7 +1,12 @@
 ---
 title: On Attribute (Shadow)(VML)
 description: On Attribute (Shadow)(VML)
-ms.assetid: '234fe63e-8a4a-4067-9d05-a8990d1cee5c'
+ms.assetid: 234fe63e-8a4a-4067-9d05-a8990d1cee5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On Attribute (Shadow)(VML)

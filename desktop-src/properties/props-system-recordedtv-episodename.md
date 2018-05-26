@@ -1,7 +1,12 @@
 ---
-Description: 'The names of recorded TV episodes. For example, &\#0034;Nowhere to Hyde&\#0034;.'
-ms.assetid: 'b3469cce-c40a-4cc5-8edb-5b0f714b0df2'
-title: 'System.RecordedTV.EpisodeName'
+Description: The names of recorded TV episodes. For example, &\#0034;Nowhere to Hyde&\#0034;.
+ms.assetid: b3469cce-c40a-4cc5-8edb-5b0f714b0df2
+title: System.RecordedTV.EpisodeName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.EpisodeName

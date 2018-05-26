@@ -1,7 +1,12 @@
 ---
-Description: 'The tables in the Installation Procedure group control tasks performed during the installation by standard actions and custom actions.'
-ms.assetid: 'dff7cf4a-89a2-47b0-9038-93b79c0d915a'
+Description: The tables in the Installation Procedure group control tasks performed during the installation by standard actions and custom actions.
+ms.assetid: dff7cf4a-89a2-47b0-9038-93b79c0d915a
 title: Installation Procedure Tables Group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation Procedure Tables Group

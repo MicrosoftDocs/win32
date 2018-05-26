@@ -1,8 +1,11 @@
 ---
 title: IWMPMetadataPicture Description property
 description: The Description property gets the description of the image represented by the metadata attribute.
-ms.assetid: 'a8e0cc2b-48a5-4ade-9517-dea8dbea058b'
-keywords: ["Description property Windows Media Player", "Description property Windows Media Player , IWMPMetadataPicture interface", "IWMPMetadataPicture interface Windows Media Player , Description property"]
+ms.assetid: a8e0cc2b-48a5-4ade-9517-dea8dbea058b
+keywords:
+- Description property Windows Media Player
+- Description property Windows Media Player , IWMPMetadataPicture interface
+- IWMPMetadataPicture interface Windows Media Player , Description property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMetadataPicture::Description property
@@ -71,9 +79,9 @@ Before using this property, you must have read access to the library. For more i
 [**IWMPMetadataPicture Interface (VB and C#)**](iwmpmetadatapicture--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

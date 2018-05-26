@@ -1,16 +1,21 @@
 ---
-Description: 'The following example uses a semaphore object to limit the number of threads that can perform a particular task.'
-ms.assetid: '24a5c13c-573a-4fc2-ac19-98188c9eb68a'
+Description: The following example uses a semaphore object to limit the number of threads that can perform a particular task.
+ms.assetid: 24a5c13c-573a-4fc2-ac19-98188c9eb68a
 title: Using Semaphore Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Semaphore Objects
 
-The following example uses a [semaphore object](semaphore-objects.md) to limit the number of threads that can perform a particular task. First, it uses the [**CreateSemaphore**](createsemaphore.md) function to create the semaphore and to specify initial and maximum counts, then it uses the [**CreateThread**](base.createthread) function to create the threads.
+The following example uses a [semaphore object](semaphore-objects.md) to limit the number of threads that can perform a particular task. First, it uses the [**CreateSemaphore**](/windows/win32/WinBase/nf-winbase-createsemaphorea?branch=master) function to create the semaphore and to specify initial and maximum counts, then it uses the [**CreateThread**](base.createthread) function to create the threads.
 
-Before a thread attempts to perform the task, it uses the [**WaitForSingleObject**](waitforsingleobject.md) function to determine whether the semaphore's current count permits it to do so. The wait function's time-out parameter is set to zero, so the function returns immediately if the semaphore is in the nonsignaled state. **WaitForSingleObject** decrements the semaphore's count by one.
+Before a thread attempts to perform the task, it uses the [**WaitForSingleObject**](/windows/win32/WinBase/nf-synchapi-waitforsingleobject?branch=master) function to determine whether the semaphore's current count permits it to do so. The wait function's time-out parameter is set to zero, so the function returns immediately if the semaphore is in the nonsignaled state. **WaitForSingleObject** decrements the semaphore's count by one.
 
-When a thread completes the task, it uses the [**ReleaseSemaphore**](releasesemaphore.md) function to increment the semaphore's count, thus enabling another waiting thread to perform the task.
+When a thread completes the task, it uses the [**ReleaseSemaphore**](/windows/win32/WinBase/nf-synchapi-releasesemaphore?branch=master) function to increment the semaphore's count, thus enabling another waiting thread to perform the task.
 
 
 ```C++

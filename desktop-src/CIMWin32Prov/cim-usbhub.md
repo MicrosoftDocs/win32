@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_USBHub class represents the capabilities and management of a USB hub.'
+Description: The CIM\_USBHub class represents the capabilities and management of a USB hub.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '33618963-3053-4c01-992e-aa6d9774f84b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 33618963-3053-4c01-992e-aa6d9774f84b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_USBHub class'
+title: CIM\_USBHub class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_USBHub class
@@ -19,7 +22,7 @@ The **CIM\_USBHub** class represents the capabilities and management of a USB hu
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,34 +32,34 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class CIM_USBHub : CIM_USBDevice
 {
-  uint16   Availability;
-  string   Caption;
-  uint8    ClassCode;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint8    CurrentAlternateSettings[];
-  uint8    CurrentConfigValue;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  boolean  GangSwitched;
+  uint16   Availability;
+  string   Caption;
+  uint8    ClassCode;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint8    CurrentAlternateSettings[];
+  uint8    CurrentConfigValue;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  boolean  GangSwitched;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  uint8    NumberOfConfigs;
-  uint8    NumberOfPorts;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint8    ProtocolCode;
-  string   Status;
-  uint16   StatusInfo;
-  uint8    SubclassCode;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   USBVersion;
+  uint32   LastErrorCode;
+  string   Name;
+  uint8    NumberOfConfigs;
+  uint8    NumberOfPorts;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint8    ProtocolCode;
+  string   Status;
+  uint16   StatusInfo;
+  uint8    SubclassCode;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   USBVersion;
 };
 ```
 
@@ -81,7 +84,7 @@ The **CIM\_USBHub** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1301,8 +1304,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1316,9 +1319,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_USBDevice**](cim-usbdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

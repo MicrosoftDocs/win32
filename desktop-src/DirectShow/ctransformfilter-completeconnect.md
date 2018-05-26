@@ -1,7 +1,12 @@
 ---
-Description: 'The CompleteConnect method completes a pin connection.'
-ms.assetid: 'b687d2ee-4aee-4fae-bc2f-23ee037d0e6d'
-title: 'CTransformFilter.CompleteConnect method'
+Description: The CompleteConnect method completes a pin connection.
+ms.assetid: b687d2ee-4aee-4fae-bc2f-23ee037d0e6d
+title: CTransformFilter.CompleteConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.CompleteConnect method
@@ -13,8 +18,8 @@ The `CompleteConnect` method completes a pin connection.
 
 ```C++
 virtual HRESULT CompleteConnect(
-   PIN_DIRECTION direction,
-   IPin          *pReceivePin
+   PIN_DIRECTION direction,
+   IPin          *pReceivePin
 );
 ```
 
@@ -27,14 +32,14 @@ virtual HRESULT CompleteConnect(
 *direction* 
 </dt> <dd>
 
-Member of the [**PIN\_DIRECTION**](pin-direction.md) enumerated type, specifying which pin on the filter is making the connection.
+Member of the [**PIN\_DIRECTION**](/windows/win32/strmif/ne-strmif-_pindirection?branch=master) enumerated type, specifying which pin on the filter is making the connection.
 
 </dd> <dt>
 
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the [**IPin**](ipin.md) interface of the other pin in this connection attempt.
+Pointer to the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface of the other pin in this connection attempt.
 
 </dd> </dl>
 
@@ -64,9 +69,9 @@ The [**CTransformInputPin::CompleteConnect**](ctransforminputpin-completeconnect
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

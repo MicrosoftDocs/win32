@@ -1,8 +1,10 @@
 ---
 title: DeviceCommands object
 description: Contains a collection of all the supported DeviceCommand objects for an imaging device. For more details on determining the collection of supported device commands, see the Commands (Device) property or Commands (Item) property.
-ms.assetid: '266bb2d9-4219-4af7-891d-82db5bcd3acd'
-keywords: ["DeviceCommands object WIA Automation", "DeviceCommands object WIA Automation , described"]
+ms.assetid: 266bb2d9-4219-4af7-891d-82db5bcd3acd
+keywords:
+- DeviceCommands object WIA Automation
+- DeviceCommands object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceCommands object
@@ -36,7 +43,7 @@ The **DeviceCommands** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +63,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +71,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -84,9 +91,9 @@ Use any of the following to retrieve a reference to the object:
 [**Commands (Item)**](-wiaaut-iitem-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

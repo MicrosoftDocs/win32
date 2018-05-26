@@ -1,14 +1,19 @@
 ---
-title: \_Application Load method
+title: '\_Application Load method'
 description: The Load method loads the MMC document from the specified file.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '73be7c9a-080d-49c9-9fe4-932583474ad0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 73be7c9a-080d-49c9-9fe4-932583474ad0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Load method MMC", "Load method MMC , Application object", "Application object MMC , Load method", "Load method MMC , _Application interface", "_Application interface MMC , Load method"]
+keywords:
+- Load method MMC
+- Load method MMC , Application object
+- Application object MMC , Load method
+- Load method MMC , _Application interface
+- _Application interface MMC , Load method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Load method
@@ -66,8 +74,8 @@ objMMC.Load("d:\myapp\console1.msc")
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ objMMC.Load("d:\myapp\console1.msc")
 
 
 
- 
+ 
 
- 
+ 
 
 
 

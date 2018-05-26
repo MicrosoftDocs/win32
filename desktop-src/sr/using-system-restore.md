@@ -1,15 +1,21 @@
 ---
 title: Using System Restore
 description: The following examples demonstrate how to create and cancel restore points using the SRSetRestorePoint function.
-ms.assetid: '98c79305-3659-4d1a-8165-bb6e451e2d1e'
-keywords: ["System Restore, using"]
+ms.assetid: 98c79305-3659-4d1a-8165-bb6e451e2d1e
+keywords:
+- System Restore, using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using System Restore
 
-The following examples demonstrate how to create and cancel restore points using the [**SRSetRestorePoint**](srsetrestorepoint.md) function.
+The following examples demonstrate how to create and cancel restore points using the [**SRSetRestorePoint**](/windows/win32/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa?branch=master) function.
 
-The first step to using using System Restore is setting up the COM calls to [**CoInitializeEx**](_com_coinitializeex) and [**CoInitializeSecurity**](_com_coinitializesecurity). This is required for any process that uses the [**SRSetRestorePoint**](srsetrestorepoint.md) function. The NetworkService, LocalService, and System must be allowed make calls to the process. The following **InitializeCOMSecurity** function is an example of how to initialize COM security. You may need to modify the parameters to the **CoInitializeSecurity** function for your application.
+The first step to using using System Restore is setting up the COM calls to [**CoInitializeEx**](_com_coinitializeex) and [**CoInitializeSecurity**](_com_coinitializesecurity). This is required for any process that uses the [**SRSetRestorePoint**](/windows/win32/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa?branch=master) function. The NetworkService, LocalService, and System must be allowed make calls to the process. The following **InitializeCOMSecurity** function is an example of how to initialize COM security. You may need to modify the parameters to the **CoInitializeSecurity** function for your application.
 
 
 ```C++

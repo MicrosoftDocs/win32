@@ -1,21 +1,27 @@
 ---
 title: seek command
 description: The seek command moves to the specified position and stops. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
-ms.assetid: '96d42e1a-03d5-4007-95d8-0e4b8d2018d5'
-keywords: ["seek command Windows Multimedia"]
+ms.assetid: 96d42e1a-03d5-4007-95d8-0e4b8d2018d5
+keywords:
+- seek command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - seek
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # seek command
 
 The seek command moves to the specified position and stops. CD audio, digital-video, MIDI sequencer, VCR, videodisc, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -56,7 +62,7 @@ Flag for moving to a specified position. The following table lists device types 
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszSeekFlags** parameter and their meanings.
 
@@ -73,7 +79,7 @@ The following table lists the flags that can be specified in the **lpszSeekFlags
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -112,8 +118,8 @@ seek mysound to start
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -136,9 +142,9 @@ seek mysound to start
 [set](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

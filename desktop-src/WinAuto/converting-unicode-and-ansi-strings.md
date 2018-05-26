@@ -1,7 +1,12 @@
 ---
 title: Converting Unicode and ANSI Strings
 description: Microsoft Active Accessibility uses Unicode strings as defined by the BSTR data type.
-ms.assetid: '47f525fe-6d18-43b9-a706-e49afa796830'
+ms.assetid: 47f525fe-6d18-43b9-a706-e49afa796830
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Converting Unicode and ANSI Strings

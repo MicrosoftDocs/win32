@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.'
-ms.assetid: '20E7C22A-A151-4EDC-90D8-4BCD53C42355'
-title: 'Msvm\_StorageAlert class'
+Description: Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.
+ms.assetid: 20E7C22A-A151-4EDC-90D8-4BCD53C42355
+title: Msvm\_StorageAlert class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_StorageAlert class
@@ -16,18 +21,18 @@ The following syntax is simplified from MOF code and includes these properties.
 [Indication, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_StorageAlert : CIM_AlertIndication
 {
-  string   AlertingManagedElement[];
-  uint16   AlertingElementFormat;
-  uint16   OtherAlertingElementFormat;
-  uint16   AlertType;
-  uint16   PerceivedSeverity;
-  uint16   ProbableCause;
-  string   ProbableCauseDescription;
+  string   AlertingManagedElement[];
+  uint16   AlertingElementFormat;
+  uint16   OtherAlertingElementFormat;
+  uint16   AlertType;
+  uint16   PerceivedSeverity;
+  uint16   ProbableCause;
+  string   ProbableCauseDescription;
   datetime EventTime;
-  string   OwningEntity;
-  string   MessageArguments[];
-  string   MessageID;
-  string   Message;
+  string   OwningEntity;
+  string   MessageArguments[];
+  string   MessageID;
+  string   Message;
 };
 ```
 
@@ -248,10 +253,10 @@ A textual description that corresponds to the value of the **ProbableCause** pro
 
 The Hyper-V WMI provider won't raise events for individual virtual disks to avoid flooding clients with events in case of large scale malfunctions of the underlying storage systems.
 
-When a client receives an **Msvm\_StorageAlert** event, if the value of the **ProbableCause** property is 50 (“Storage Capacity Problem“), the client can discover which virtual disks are operating outside their QoS policy by using one of these procedures:
+When a client receives an **Msvm\_StorageAlert** event, if the value of the **ProbableCause** property is 50 ( Storage Capacity Problem ), the client can discover which virtual disks are operating outside their QoS policy by using one of these procedures:
 
 -   Query all the [**Msvm\_LogicalDisk**](msvm-logicaldisk.md) instances that were allocated from the resource pool for which the event was generated. These **Msvm\_LogicalDisk** instances are associated to the resource pool via the [**Msvm\_ElementAllocatedFromPool**](msvm-elementallocatedfrompool.md) association.
--   Filter the result list by selecting instances whose OperationalStatus contains “Insufficient Throughput”.
+-   Filter the result list by selecting instances whose OperationalStatus contains  Insufficient Throughput .
 
 ## Requirements
 
@@ -259,8 +264,8 @@ When a client receives an **Msvm\_StorageAlert** event, if the value of the **Pr
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -280,9 +285,9 @@ When a client receives an **Msvm\_StorageAlert** event, if the value of the **Pr
 [**Msvm\_ResourcePool**](msvm-resourcepoolcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

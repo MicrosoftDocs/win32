@@ -1,7 +1,12 @@
 ---
 title: MaxCachedPipes
 description: MaxCachedPipes
-ms.assetid: '12c41130-f02d-49d7-b522-eb6fe3f615b1'
+ms.assetid: 12c41130-f02d-49d7-b522-eb6fe3f615b1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxCachedPipes

@@ -1,8 +1,9 @@
 ---
 title: CDM\_SETCONTROLTEXT message
 description: Sets the text for the specified control in an Explorer-style Open or Save As dialog box.
-ms.assetid: 'ff0e50b7-a14d-40d1-8576-f93a612f3aa3'
-keywords: ["CDM_SETCONTROLTEXT message Dialog Boxes"]
+ms.assetid: ff0e50b7-a14d-40d1-8576-f93a612f3aa3
+keywords:
+- CDM_SETCONTROLTEXT message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDM\_SETCONTROLTEXT message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](_shell_common_file_dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sets the text for the specified control in an Explorer-style **Open** or **Save As** dialog box. The dialog box must have been created with the **OFN\_EXPLORER** flag; otherwise, the message fails.
 
@@ -64,8 +70,8 @@ void CommDlg_OpenSave_SetControlText(hwnd, wparam, lparam)
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -77,13 +83,13 @@ void CommDlg_OpenSave_SetControlText(hwnd, wparam, lparam)
 **Reference**
 </dt> <dt>
 
-[**GetOpenFileName**](getopenfilename.md)
+[**GetOpenFileName**](/windows/win32/Commdlg/nf-commdlg-getopenfilenamea?branch=master)
 </dt> <dt>
 
-[**GetSaveFileName**](getsavefilename.md)
+[**GetSaveFileName**](/windows/win32/Commdlg/nf-commdlg-getsavefilenamea?branch=master)
 </dt> <dt>
 
-[**OPENFILENAME**](openfilename-str.md)
+[**OPENFILENAME**](/windows/win32/Commdlg/ns-commdlg-tagofna?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -92,9 +98,9 @@ void CommDlg_OpenSave_SetControlText(hwnd, wparam, lparam)
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

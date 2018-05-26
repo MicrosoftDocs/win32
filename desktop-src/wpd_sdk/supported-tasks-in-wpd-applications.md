@@ -1,7 +1,12 @@
 ---
 Description: Supported Tasks in WPD Applications
-ms.assetid: '0c490e22-5d3d-4f64-961d-4c5455ce6b55'
+ms.assetid: 0c490e22-5d3d-4f64-961d-4c5455ce6b55
 title: Supported Tasks in WPD Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Tasks in WPD Applications

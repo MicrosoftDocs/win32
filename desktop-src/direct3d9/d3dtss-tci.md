@@ -1,7 +1,12 @@
 ---
-Description: 'Driver texture coordinate capability flags.'
-ms.assetid: 'b15509b4-7db1-429a-9468-be7a11dee505'
-title: 'D3DTSS\_TCI'
+Description: Driver texture coordinate capability flags.
+ms.assetid: b15509b4-7db1-429a-9468-be7a11dee505
+title: D3DTSS\_TCI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTSS\_TCI

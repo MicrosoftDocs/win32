@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AreYouBlank method determines whether the track is blank (contains no source objects).'
-ms.assetid: '05d02753-6e40-4307-9445-c3cbc835f75e'
-title: 'IAMTimelineTrack::AreYouBlank method'
+---
+Description: The AreYouBlank method determines whether the track is blank (contains no source objects).
+ms.assetid: 05d02753-6e40-4307-9445-c3cbc835f75e
+title: IAMTimelineTrackAreYouBlank method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrack::AreYouBlank method

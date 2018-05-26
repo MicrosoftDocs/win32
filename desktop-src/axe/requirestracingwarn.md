@@ -1,14 +1,20 @@
 ---
 title: RequiresTracingWarn element
 description: If present then the results of this assessment may be adversely affected if tracing session exists prior to this assessment running.
-ms.assetid: '465753BD-925C-4B26-8FE5-F241F9F260FF'
-keywords: ["RequiresTracingWarn element Access Execution Engine"]
+ms.assetid: 465753BD-925C-4B26-8FE5-F241F9F260FF
+keywords:
+- RequiresTracingWarn element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - RequiresTracingWarn
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequiresTracingWarn element
@@ -49,9 +55,9 @@ There are no child elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.'
-ms.assetid: '0b2312da-433b-43d8-8d21-babab12a5b2c'
-title: 'CIM\_Service class'
+Description: Represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.
+ms.assetid: 0b2312da-433b-43d8-8d21-babab12a5b2c
+title: CIM\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Service class
@@ -14,13 +19,13 @@ Represents a logical element that contains information to represent and manage t
 [Abstract, Version("2.14.0"), UMLPackagePath("CIM::Core::Service"), AMENDMENT]
 class CIM_Service : CIM_EnabledLogicalElement
 {
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  CreationClassName;
-  string  Name;
-  string  PrimaryOwnerName;
-  string  PrimaryOwnerContact;
-  string  StartMode;
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  CreationClassName;
+  string  Name;
+  string  PrimaryOwnerName;
+  string  PrimaryOwnerContact;
+  string  StartMode;
   boolean Started;
 };
 ```
@@ -45,7 +50,7 @@ The **CIM\_Service** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -147,7 +152,7 @@ This property is deprecated. Instead, use the **EnabledDefault** property that i
 > [!Note]  
 > Deprecated description: Indicates whether the service is automatically started (for example, by an operating system) or only started upon request.
 
- 
+ 
 
 <dt>
 
@@ -205,8 +210,8 @@ The name of the scoping system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -220,9 +225,9 @@ The name of the scoping system.
 [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

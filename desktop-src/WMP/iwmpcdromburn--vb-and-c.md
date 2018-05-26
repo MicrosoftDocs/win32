@@ -1,8 +1,10 @@
 ---
 title: IWMPCdromBurn (VB and C\ ) interface
 description: Provides properties and methods to manage creating audio CDs.
-ms.assetid: 'd98b243d-d6c2-4d85-8d5a-de49c62d0acf'
-keywords: ["IWMPCdromBurn (VB and C ) interface Windows Media Player", "IWMPCdromBurn (VB and C ) interface Windows Media Player , described"]
+ms.assetid: d98b243d-d6c2-4d85-8d5a-de49c62d0acf
+keywords:
+- IWMPCdromBurn (VB and C ) interface Windows Media Player
+- IWMPCdromBurn (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromBurn (VB and C#) interface
@@ -41,7 +48,7 @@ The **IWMPCdromBurn (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -59,7 +66,7 @@ The **IWMPCdromBurn (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPCdromBurn** interface by casting the **IWMPCdrom** interface of the CD that you wish to burn.
 
@@ -80,9 +87,9 @@ Get an **IWMPCdromBurn** interface by casting the **IWMPCdrom** interface of the
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

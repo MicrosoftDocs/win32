@@ -1,8 +1,21 @@
 ---
 title: Information Common to Type 1 and Type 2 Online Stores
 description: Information Common to Type 1 and Type 2 Online Stores
-ms.assetid: '20463d9a-bf10-4b68-b13d-452c788ce21b'
-keywords: ["Windows Media Player online stores,type 1 online stores", "online stores,type 1 online stores", "type 1 online stores,about", "Windows Media Player,type 1 online stores", "Windows Media Player online stores,type 2 online stores", "online stores,type 2 online stores", "type 2 online stores,about", "Windows Media Player,type 2 online stores"]
+ms.assetid: 20463d9a-bf10-4b68-b13d-452c788ce21b
+keywords:
+- Windows Media Player online stores,type 1 online stores
+- online stores,type 1 online stores
+- type 1 online stores,about
+- Windows Media Player,type 1 online stores
+- Windows Media Player online stores,type 2 online stores
+- online stores,type 2 online stores
+- type 2 online stores,about
+- Windows Media Player,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Information Common to Type 1 and Type 2 Online Stores

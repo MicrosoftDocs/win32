@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3ef35cd0-3742-4fc2-9c06-e0485d3538f2'
+Description: .
+ms.assetid: 3ef35cd0-3742-4fc2-9c06-e0485d3538f2
 title: Compression API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compression API

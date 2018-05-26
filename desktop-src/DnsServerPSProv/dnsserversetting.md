@@ -2,13 +2,15 @@
 title: DnsServerSetting class
 description: Represents the settings for a DNS server.
 audience: developer
-ms.assetid: 'f0a89c2a-797c-4e29-8e75-e3aacc7a8bc1'
-ms.prod: 'windows-server-dev'
+ms.assetid: f0a89c2a-797c-4e29-8e75-e3aacc7a8bc1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerSetting class", "DnsServerSetting class, described"]
+keywords:
+- DnsServerSetting class
+- DnsServerSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -93,6 +95,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerSetting class
@@ -107,82 +112,82 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerSetting
 {
-  string   ComputerName;
-  uint32   NameCheckFlag;
-  uint32   AddressAnswerLimit;
-  uint32   XfrConnectTimeout;
-  uint32   BootMethod;
-  uint32   UpdateOptions;
-  boolean  AllowUpdate;
-  boolean  DsAvailable;
-  boolean  DisableAutoReverseZone;
-  boolean  AutoCacheUpdate;
-  boolean  RoundRobin;
-  boolean  LocalNetPriority;
-  uint32   LocalNetPriorityMask;
-  boolean  StrictFileParsing;
-  boolean  LooseWildcarding;
-  boolean  BindSecondaries;
-  boolean  WriteAuthorityNs;
-  boolean  ForwardDelegations;
-  uint32   AutoConfigFileZones;
-  boolean  EnableDirectoryPartitions;
-  uint32   RpcProtocol;
-  uint32   EnableVersionQuery;
-  boolean  EnableDuplicateQuerySuppression;
+  string   ComputerName;
+  uint32   NameCheckFlag;
+  uint32   AddressAnswerLimit;
+  uint32   XfrConnectTimeout;
+  uint32   BootMethod;
+  uint32   UpdateOptions;
+  boolean  AllowUpdate;
+  boolean  DsAvailable;
+  boolean  DisableAutoReverseZone;
+  boolean  AutoCacheUpdate;
+  boolean  RoundRobin;
+  boolean  LocalNetPriority;
+  uint32   LocalNetPriorityMask;
+  boolean  StrictFileParsing;
+  boolean  LooseWildcarding;
+  boolean  BindSecondaries;
+  boolean  WriteAuthorityNs;
+  boolean  ForwardDelegations;
+  uint32   AutoConfigFileZones;
+  boolean  EnableDirectoryPartitions;
+  uint32   RpcProtocol;
+  uint32   EnableVersionQuery;
+  boolean  EnableDuplicateQuerySuppression;
   datetime LameDelegationTtl;
-  uint32   AutoCreateDelegation;
-  boolean  AllowCNameAtNs;
-  uint32   RemoteIPv4RankBoost;
-  uint32   RemoteIPv6RankBoost;
-  boolean  EnableRsoForRodc;
-  uint32   MaximumRodcRsoQueueLength;
-  uint32   MaximumRodcRsoAttemptsPerCycle;
-  boolean  OpenAclOnProxyUpdates;
-  boolean  NoUpdateDelegations;
-  boolean  EnableUpdateForwarding;
-  uint32   MaxResourceRecordsInNonSecureUpdate;
-  boolean  EnableWinsR;
-  boolean  DeleteOutsideGlue;
-  boolean  AppendMsZoneTransferTag;
-  boolean  AllowReadOnlyZoneTransfer;
-  uint32   MaximumUdpPacketSize;
-  uint32   TcpReceivePacketSize;
-  boolean  EnableSendErrorSuppression;
-  uint32   SelfTest;
-  uint32   XfrThrottleMultiplier;
-  boolean  SilentlyIgnoreCNameUpdateConflicts;
-  boolean  EnableIQueryResponseGeneration;
-  uint32   SocketPoolSize;
-  boolean  AdminConfigured;
-  string   ForestDirectoryPartitionBaseName;
-  string   DomainDirectoryPartitionBaseName;
-  string   ServerLevelPluginDll;
-  string   SocketPoolExcludedPortRanges[];
-  uint32   EnableRegistryBoot;
-  boolean  PublishAutoNet;
-  uint32   QuietRecvFaultInterval;
-  uint32   QuietRecvLogInterval;
-  boolean  ReloadException;
-  uint32   SyncDsZoneSerial;
-  uint32   SendPort;
-  string   AllIPAddress[];
-  string   ListeningIPAddress[];
-  uint32   MajorVersion;
-  uint32   MinorVersion;
-  uint32   BuildNumber;
-  boolean  IsReadOnlyDC;
-  boolean  EnableDnsSec;
-  boolean  EnableOnlineSigning;
+  uint32   AutoCreateDelegation;
+  boolean  AllowCNameAtNs;
+  uint32   RemoteIPv4RankBoost;
+  uint32   RemoteIPv6RankBoost;
+  boolean  EnableRsoForRodc;
+  uint32   MaximumRodcRsoQueueLength;
+  uint32   MaximumRodcRsoAttemptsPerCycle;
+  boolean  OpenAclOnProxyUpdates;
+  boolean  NoUpdateDelegations;
+  boolean  EnableUpdateForwarding;
+  uint32   MaxResourceRecordsInNonSecureUpdate;
+  boolean  EnableWinsR;
+  boolean  DeleteOutsideGlue;
+  boolean  AppendMsZoneTransferTag;
+  boolean  AllowReadOnlyZoneTransfer;
+  uint32   MaximumUdpPacketSize;
+  uint32   TcpReceivePacketSize;
+  boolean  EnableSendErrorSuppression;
+  uint32   SelfTest;
+  uint32   XfrThrottleMultiplier;
+  boolean  SilentlyIgnoreCNameUpdateConflicts;
+  boolean  EnableIQueryResponseGeneration;
+  uint32   SocketPoolSize;
+  boolean  AdminConfigured;
+  string   ForestDirectoryPartitionBaseName;
+  string   DomainDirectoryPartitionBaseName;
+  string   ServerLevelPluginDll;
+  string   SocketPoolExcludedPortRanges[];
+  uint32   EnableRegistryBoot;
+  boolean  PublishAutoNet;
+  uint32   QuietRecvFaultInterval;
+  uint32   QuietRecvLogInterval;
+  boolean  ReloadException;
+  uint32   SyncDsZoneSerial;
+  uint32   SendPort;
+  string   AllIPAddress[];
+  string   ListeningIPAddress[];
+  uint32   MajorVersion;
+  uint32   MinorVersion;
+  uint32   BuildNumber;
+  boolean  IsReadOnlyDC;
+  boolean  EnableDnsSec;
+  boolean  EnableOnlineSigning;
   datetime MaximumSignatureScanPeriod;
   datetime MaximumTrustAnchorActiveRefreshInterval;
-  boolean  EnableIPv6;
-  string   RootTrustAnchorsURL;
+  boolean  EnableIPv6;
+  string   RootTrustAnchorsURL;
   datetime ZoneWritebackInterval;
-  uint32   ScopeOptionValue;
-  boolean  IgnoreServerLevelPolicies;
-  boolean  IgnoreAllPolicies;
-  uint32   VirtualizationInstanceOptionValue;
+  uint32   ScopeOptionValue;
+  boolean  IgnoreServerLevelPolicies;
+  boolean  IgnoreAllPolicies;
+  uint32   VirtualizationInstanceOptionValue;
 };
 ```
 
@@ -211,7 +216,7 @@ Specifies the maximum number of A (host IP address) resource records that the DN
 
 0
 
-Range: 5–28
+Range: 5 28
 
 </dd> <dt>
 
@@ -434,7 +439,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**true** if the DNS server has Active Directory–integrated DNS enabled; otherwise, **false**.
+**true** if the DNS server has Active Directory integrated DNS enabled; otherwise, **false**.
 
 </dd> <dt>
 
@@ -631,7 +636,7 @@ Access type: Read/write
 
 **true** to ignore all policies on the DNS server; otherwise, **false**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -646,7 +651,7 @@ Access type: Read/write
 
 **true** to ignore the server level policies of the DNS server; otherwise, **false**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -962,7 +967,7 @@ Access type: Read/write
 
 The URL of the root trust anchor on the DNS server.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -1003,7 +1008,7 @@ Access type: Read/write
 
 The extension mechanism for the DNS (ENDS0) scope setting on the DNS server.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -1150,7 +1155,7 @@ Access type: Read/write
 
 Virtualization instance option to be sent in ENDS0.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -1204,7 +1209,7 @@ Access type: Read/write
 
 The zone write back interval for file backed zones.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> </dl>
 
@@ -1215,7 +1220,7 @@ The zone write back interval for file backed zones.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -1229,9 +1234,9 @@ The zone write back interval for file backed zones.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

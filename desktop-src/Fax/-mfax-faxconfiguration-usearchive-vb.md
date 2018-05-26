@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates whether faxes should be archived.'
-ms.assetid: '5c3b71c1-88b7-483f-8f89-2a3bc097e491'
-title: 'FaxConfiguration.UseArchive property'
+---
+Description: Sets or retrieves a value that indicates whether faxes should be archived.
+ms.assetid: 5c3b71c1-88b7-483f-8f89-2a3bc097e491
+title: FaxConfiguration.UseArchive property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.UseArchive property

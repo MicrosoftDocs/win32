@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the validity check flags for a certificate.'
-ms.assetid: 'c80c95a0-8a9b-441d-b243-7ee0552731e4'
-title: 'CertificateStatus.CheckFlag property'
+---
+Description: Sets or retrieves the validity check flags for a certificate.
+ms.assetid: c80c95a0-8a9b-441d-b243-7ee0552731e4
+title: CertificateStatus.CheckFlag property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertificateStatus.CheckFlag property

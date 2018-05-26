@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendXpsDocument method sends an XPS document to the pipeline.'
-ms.assetid: 'ad9f0f6b-19a6-4c99-9350-7ca249cf4774'
-title: 'IXpsDocumentConsumer::SendXpsDocument method'
+---
+Description: The SendXpsDocument method sends an XPS document to the pipeline.
+ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
+title: IXpsDocumentConsumerSendXpsDocument method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer::SendXpsDocument method

@@ -1,7 +1,12 @@
 ---
 title: HTML Help References
 description: This section contains HTML Help reference topics.
-ms.assetid: '3C32960A-095A-4512-A798-BC9C74CC14B8'
+ms.assetid: 3C32960A-095A-4512-A798-BC9C74CC14B8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help References
@@ -26,7 +31,7 @@ This section contains HTML Help reference topics.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +40,9 @@ This section contains HTML Help reference topics.
 [HTML Help Start Page](microsoft-html-help-1-4-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

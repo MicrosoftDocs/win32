@@ -1,16 +1,21 @@
 ---
-Description: 'This application demonstrates ink collection and rendering when using the RealTimeStylus class.'
-ms.assetid: 'f8bce153-cc5d-4087-896f-3f60afc80bc8'
+Description: This application demonstrates ink collection and rendering when using the RealTimeStylus class.
+ms.assetid: f8bce153-cc5d-4087-896f-3f60afc80bc8
 title: RealTimeStylus Ink Collection Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RealTimeStylus Ink Collection Sample
 
-This application demonstrates ink collection and rendering when using the [**RealTimeStylus**](realtimestylus-class.md) class.
+This application demonstrates ink collection and rendering when using the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) class.
 
 ## The InkCollection Project
 
-This sample consists of a single solution that contains one project, InkCollection. The application defines the `InkCollection` namespace that contains a single class, also called `InkCollection`. The class inherits from the [Form](T:System.Windows.Forms.Form) class and implements the [**IStylusAsyncPlugin**](istylusasyncplugin.md) interface.
+This sample consists of a single solution that contains one project, InkCollection. The application defines the `InkCollection` namespace that contains a single class, also called `InkCollection`. The class inherits from the [Form](T:System.Windows.Forms.Form) class and implements the [**IStylusAsyncPlugin**](/windows/win32/RTSCom/?branch=master) interface.
 
 
 ```C++
@@ -24,7 +29,7 @@ namespace InkCollection
 
 
 
-The InkCollection Class defines a set of private constants used to specify various ink thickness. The class also declares private instances of the [**RealTimeStylus**](realtimestylus-class.md) class, `myRealTimeStylus`, the [**DynamicRenderer**](dynamicrenderer-class.md) class, `myDynamicRenderer`, and the [Renderer](frlrfMicrosoftInkRendererClassTopic) class `myRenderer`. The **DynamicRenderer** renders the [Stroke](frlrfMicrosoftInkStrokeClassTopic) that is currently being collected. The Renderer object, `myRenderer`, renders Stroke objects that have already been collected.
+The InkCollection Class defines a set of private constants used to specify various ink thickness. The class also declares private instances of the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) class, `myRealTimeStylus`, the [**DynamicRenderer**](/windows/win32/RTSCom/?branch=master) class, `myDynamicRenderer`, and the [Renderer](frlrfMicrosoftInkRendererClassTopic) class `myRenderer`. The **DynamicRenderer** renders the [Stroke](frlrfMicrosoftInkStrokeClassTopic) that is currently being collected. The Renderer object, `myRenderer`, renders Stroke objects that have already been collected.
 
 
 ```C++
@@ -55,7 +60,7 @@ private Ink myInk;
 
 ## The Form Load Event
 
-In the [Load](frlrfSystemWindowsFormsFormClassLoadTopic) event handler for the form, `myDynamicRenderer` is instantiated by using the [**DynamicRenderer**](dynamicrenderer-class.md) that takes a control as an argument, and `myRenderer` is constructed with a no-argument constructor.
+In the [Load](frlrfSystemWindowsFormsFormClassLoadTopic) event handler for the form, `myDynamicRenderer` is instantiated by using the [**DynamicRenderer**](/windows/win32/RTSCom/?branch=master) that takes a control as an argument, and `myRenderer` is constructed with a no-argument constructor.
 
 
 ```C++
@@ -79,7 +84,7 @@ Pay attention to the comment that follows the instantiation of the renderers, be
 
 
 
-Next, the application creates the [**RealTimeStylus**](realtimestylus-class.md) object that is used to receive stylus notifications and adds the [**DynamicRenderer**](dynamicrenderer-class.md) object to the synchronous plug-in notification queue. Specifically, `myRealTimeStylus` adds `myDynamicRenderer` to the [SyncPluginCollection](frlrfMicrosoftStylusInputRealTimeStylusClassSyncPluginCollectionTopic) property.
+Next, the application creates the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) object that is used to receive stylus notifications and adds the [**DynamicRenderer**](/windows/win32/RTSCom/?branch=master) object to the synchronous plug-in notification queue. Specifically, `myRealTimeStylus` adds `myDynamicRenderer` to the [SyncPluginCollection](frlrfMicrosoftStylusInputRealTimeStylusClassSyncPluginCollectionTopic) property.
 
 
 ```C++
@@ -122,7 +127,7 @@ private void InkCollection_Paint(object sender, System.Windows.Forms.PaintEventA
 
 ## Implementing the IStylusAsyncPlugin Interface
 
-The sample application defines the types of notifications it has interest in receiving in the implementation of the [DataInterest](frlrfMicrosoftStylusInputIStylusAsyncPluginClassDataInterestTopic) property. The DataInterest property therefore defines which notifications that the [**RealTimeStylus**](realtimestylus-class.md) object forwards to the form. For this sample, the DataInterest property defines interest in the **StylusDown**, **Packets**, **StylusUp**, and **Error** notifications through the [DataInterestMask](frlrfMicrosoftStylusInputDataInterestMaskClassTopic) enumeration.
+The sample application defines the types of notifications it has interest in receiving in the implementation of the [DataInterest](frlrfMicrosoftStylusInputIStylusAsyncPluginClassDataInterestTopic) property. The DataInterest property therefore defines which notifications that the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) object forwards to the form. For this sample, the DataInterest property defines interest in the **StylusDown**, **Packets**, **StylusUp**, and **Error** notifications through the [DataInterestMask](frlrfMicrosoftStylusInputDataInterestMaskClassTopic) enumeration.
 
 
 ```C++
@@ -194,7 +199,7 @@ public void StylusUp(RealTimeStylus sender, StylusUpData data)
 
 
 
-For an example that shows more robust use of the [**RealTimeStylus**](realtimestylus-class.md) class, including the use of custom plug-in creation, see [RealTimeStylus Plug-in Sample](realtimestylus-plug-in-sample.md).
+For an example that shows more robust use of the [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master) class, including the use of custom plug-in creation, see [RealTimeStylus Plug-in Sample](realtimestylus-plug-in-sample.md).
 
 ## Related topics
 

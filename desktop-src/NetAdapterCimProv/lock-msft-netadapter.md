@@ -1,7 +1,12 @@
 ---
-Description: 'Locks a network adapter.'
-ms.assetid: '81c25dfb-2e4b-43ab-b166-54103cb82c2e'
-title: 'Lock method of the MSFT\_NetAdapter class'
+Description: Locks a network adapter.
+ms.assetid: 81c25dfb-2e4b-43ab-b166-54103cb82c2e
+title: Lock method of the MSFT\_NetAdapter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lock method of the MSFT\_NetAdapter class
@@ -13,7 +18,7 @@ Locks a network adapter.
 
 ```mof
 uint32 Lock(
-  [out] string CmdletOutput
+  [out] string CmdletOutput
 );
 ```
 
@@ -36,8 +41,8 @@ An embedded instance of the [**MSFT\_NetAdapter**](msft-netadapter.md) class.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ An embedded instance of the [**MSFT\_NetAdapter**](msft-netadapter.md) class.
 [**MSFT\_NetAdapter**](msft-netadapter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

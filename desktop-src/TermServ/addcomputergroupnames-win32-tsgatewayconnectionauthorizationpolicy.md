@@ -4,11 +4,14 @@ description: Adds the specified computer group names to the ComputerGroupNames p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0c440d6-0cc2-48b4-b656-65f12e652151'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f0c440d6-0cc2-48b4-b656-65f12e652151
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AddComputerGroupNames method Remote Desktop Services", "AddComputerGroupNames method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , AddComputerGroupNames method"]
+keywords:
+- AddComputerGroupNames method Remote Desktop Services
+- AddComputerGroupNames method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , AddComputerGroupNames method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddComputerGroupNames method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
@@ -28,7 +34,7 @@ Adds the specified computer group names to the **ComputerGroupNames** property.
 
 ```mof
 uint32 AddComputerGroupNames(
-  [in] string ComputerGroupNames
+  [in] string ComputerGroupNames
 );
 ```
 
@@ -64,7 +70,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnectionAuthorizationPolicy**](win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

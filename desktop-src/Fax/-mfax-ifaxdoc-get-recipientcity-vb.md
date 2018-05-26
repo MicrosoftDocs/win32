@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientCity property of a FaxDoc object. The RecipientCity property is a null-terminated string that contains the city name of the recipient of the fax transmission.'
-ms.assetid: 'ff94029e-e01d-45ba-8265-167523989548'
-title: 'FaxDoc.RecipientCity property'
+---
+Description: Sets or retrieves the RecipientCity property of a FaxDoc object. The RecipientCity property is a null-terminated string that contains the city name of the recipient of the fax transmission.
+ms.assetid: ff94029e-e01d-45ba-8265-167523989548
+title: FaxDoc.RecipientCity property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientCity property
@@ -55,7 +60,7 @@ The **get\_RecipientCity** method allocates the memory required for the buffer p
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

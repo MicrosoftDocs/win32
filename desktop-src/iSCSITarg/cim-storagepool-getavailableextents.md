@@ -4,13 +4,16 @@ description: This method can be used to retrieve a list of available Extents tha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8c7eca4d-48b4-4512-97b8-2e720cb8760d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8c7eca4d-48b4-4512-97b8-2e720cb8760d
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetAvailableExtents method iSCSI Software Target API", "GetAvailableExtents method iSCSI Software Target API , CIM_StoragePool class", "CIM_StoragePool class iSCSI Software Target API , GetAvailableExtents method"]
+keywords:
+- GetAvailableExtents method iSCSI Software Target API
+- GetAvailableExtents method iSCSI Software Target API , CIM_StoragePool class
+- CIM_StoragePool class iSCSI Software Target API , GetAvailableExtents method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetAvailableExtents method of the CIM\_StoragePool class
@@ -30,8 +36,8 @@ This method can be used to retrieve a list of available Extents that may be used
 
 ```mof
 uint32 GetAvailableExtents(
-  [in]  CIM_StorageSetting REF Goal,
-  [out] CIM_StorageExtent  REF AvailableExtents[]
+  [in]  CIM_StorageSetting REF Goal,
+  [out] CIM_StorageExtent  REF AvailableExtents[]
 );
 ```
 
@@ -82,13 +88,13 @@ List of references to available StorageExtents, or subclass instances.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4097)
+**DMTF Reserved** (7 4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -98,7 +104,7 @@ List of references to available StorageExtents, or subclass instances.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -112,9 +118,9 @@ List of references to available StorageExtents, or subclass instances.
 [**CIM\_StoragePool**](cim-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

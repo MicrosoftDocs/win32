@@ -1,7 +1,12 @@
 ---
-Description: 'Structures for Rendering Plug-Ins'
-ms.assetid: 'b525bceb-aa10-4ece-8745-ae8b2d5cd25b'
-title: 'Structures for Rendering Plug-Ins'
+Description: Structures for Rendering Plug-Ins
+ms.assetid: b525bceb-aa10-4ece-8745-ae8b2d5cd25b
+title: Structures for Rendering Plug-Ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structures for Rendering Plug-Ins

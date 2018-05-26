@@ -1,7 +1,12 @@
 ---
-Description: 'Describe how to use the LSA Policy functions.'
-ms.assetid: '7f4b963d-3442-4c04-b3d4-f7c8eb1ed15b'
+Description: Describe how to use the LSA Policy functions.
+ms.assetid: 7f4b963d-3442-4c04-b3d4-f7c8eb1ed15b
 title: Using LSA Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using LSA Policy

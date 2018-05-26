@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceId property specifies the device ID if the outbound routing rule points to a single fax device.'
-ms.assetid: '0b9328d5-4213-4d10-9201-8c9035a22ccc'
-title: 'FaxOutboundRoutingRule.DeviceId property'
+---
+Description: The DeviceId property specifies the device ID if the outbound routing rule points to a single fax device.
+ms.assetid: 0b9328d5-4213-4d10-9201-8c9035a22ccc
+title: FaxOutboundRoutingRule.DeviceId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRule.DeviceId property
@@ -27,7 +32,7 @@ A **Long** value that receives the device ID of the single fax device associated
 
 This property is valid only if the [**UseDevice**](-mfax-faxoutboundroutingrule-usedevice-vb.md) property is equal to **True**.
 
-To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read or to write to this property, a user must have the [**farQUERY\_CONFIG**
 [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule-cpp.md)
+[**IFaxOutboundRoutingRule**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrule?branch=master)
 </dt> </dl>
 
  

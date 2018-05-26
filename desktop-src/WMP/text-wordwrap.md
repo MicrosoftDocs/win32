@@ -1,14 +1,20 @@
 ---
 title: TEXT.wordWrap
 description: The wordWrap attribute specifies or retrieves a value indicating whether word wrap is enabled or disabled.
-ms.assetid: '3bb127d8-42f1-4167-986a-d41690cb5647'
-keywords: ["TEXT.wordWrap Windows Media Player"]
+ms.assetid: 3bb127d8-42f1-4167-986a-d41690cb5647
+keywords:
+- TEXT.wordWrap Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.wordWrap
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.wordWrap
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -100,9 +106,9 @@ If **wordWrap** is set to true and **toolTip** is not specified, the ToolTip wil
 [**TEXT.value**](text-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

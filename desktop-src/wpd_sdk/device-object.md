@@ -1,7 +1,12 @@
 ---
 Description: Device Object
-ms.assetid: '0d403a6e-c22e-4b77-9be4-b8d53092f279'
+ms.assetid: 0d403a6e-c22e-4b77-9be4-b8d53092f279
 title: Device Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Object
@@ -45,7 +50,7 @@ If a given device implements the [WPD\_FUNCTIONAL\_CATEGORY\_DEVICE](wpd-functio
 
 
 
- 
+ 
 
 ## Typical Resources
 
@@ -68,7 +73,7 @@ The following table describes the command classes that apply to devices, by func
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -77,9 +82,9 @@ The following table describes the command classes that apply to devices, by func
 [**Requirements for Objects**](requirements-for-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

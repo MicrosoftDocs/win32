@@ -1,7 +1,12 @@
-﻿---
-Description: 'Clears the user name from the smart card control.'
-ms.assetid: 'fff50db5-0610-4985-94c6-96d7ce990219'
-title: 'ISCrdEnr::resetUser method'
+---
+Description: Clears the user name from the smart card control.
+ms.assetid: fff50db5-0610-4985-94c6-96d7ce990219
+title: ISCrdEnrresetUser method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::resetUser method

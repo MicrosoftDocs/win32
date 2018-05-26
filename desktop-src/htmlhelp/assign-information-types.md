@@ -1,7 +1,12 @@
 ---
 title: Assign Information Types
 description: Assign Information Types
-ms.assetid: '66894BF8-480E-4355-A337-5EE8EBF55438'
+ms.assetid: 66894BF8-480E-4355-A337-5EE8EBF55438
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assign Information Types

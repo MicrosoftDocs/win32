@@ -1,8 +1,14 @@
 ---
 title: DBCOMMANDREUSE
 description: DBCOMMANDREUSE
-ms.assetid: '0749eb01-c367-4290-a6c4-bbf0e1b97aec'
-keywords: ["DBCOMMANDREUSE"]
+ms.assetid: 0749eb01-c367-4290-a6c4-bbf0e1b97aec
+keywords:
+- DBCOMMANDREUSE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBCOMMANDREUSE
@@ -20,13 +26,13 @@ typedef WORD DBCOMMANDREUSE;
 
 ### Remarks
 
-In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in the command tree,**DBCOMMANDREUSE** takes on the appropriate DBCOMMANDREUSE\_\* value from the [**DBCOMMANDREUSEENUM**](dbcommandreuseenum.md) enumeration, as described in the [Data Manipulation Operators](data-manipulation-operators.md) and Data Definition Operators section of this reference.
+In each [**DBCOMMANDTREE**](dbcommandtree.md) structure representing a node in the command tree,**DBCOMMANDREUSE** takes on the appropriate DBCOMMANDREUSE\_\* value from the [**DBCOMMANDREUSEENUM**](/windows/previous-versions/cmdtree/ne-cmdtree-dbcommandreuseenum?branch=master) enumeration, as described in the [Data Manipulation Operators](data-manipulation-operators.md) and Data Definition Operators section of this reference.
 
 ## Related topics
 
 <dl> <dt>
 
-[**DBCOMMANDREUSEENUM**](dbcommandreuseenum.md)
+[**DBCOMMANDREUSEENUM**](/windows/previous-versions/cmdtree/ne-cmdtree-dbcommandreuseenum?branch=master)
 </dt> <dt>
 
 [**DBCOMMANDTREE**](dbcommandtree.md)

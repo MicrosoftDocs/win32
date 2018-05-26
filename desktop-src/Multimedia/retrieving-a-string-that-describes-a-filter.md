@@ -1,13 +1,24 @@
 ---
 title: Retrieving a String That Describes a Filter
 description: Retrieving a String That Describes a Filter
-ms.assetid: '47390448-eaa6-4bea-bd90-549fa37e739a'
-keywords: ["audio compression manager (ACM),retrieving strings that describe filters", "ACM (audio compression manager),retrieving strings that describe filters", "ACM examples,retrieving strings that describe filters", "retrieving strings that describe filters", "acmFilterTagDetails function", "acmFilterDetails function"]
+ms.assetid: 47390448-eaa6-4bea-bd90-549fa37e739a
+keywords:
+- audio compression manager (ACM),retrieving strings that describe filters
+- ACM (audio compression manager),retrieving strings that describe filters
+- ACM examples,retrieving strings that describe filters
+- retrieving strings that describe filters
+- acmFilterTagDetails function
+- acmFilterDetails function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving a String That Describes a Filter
 
-An application often needs to display a string that describes the current format. This task can be accomplished easily with the [**acmFilterTagDetails**](acmfiltertagdetails.md) and [**acmFilterDetails**](acmfilterdetails.md) functions. These functions must be called with the appropriate filter or filter tag. The following example shows how to use these functions.
+An application often needs to display a string that describes the current format. This task can be accomplished easily with the [**acmFilterTagDetails**](/windows/win32/Msacm/nf-msacm-acmfiltertagdetails?branch=master) and [**acmFilterDetails**](/windows/win32/Msacm/nf-msacm-acmfilterdetails?branch=master) functions. These functions must be called with the appropriate filter or filter tag. The following example shows how to use these functions.
 
 
 ```C++

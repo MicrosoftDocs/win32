@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e88afa55-424b-4e99-b930-04bdc31fca45'
-title: 'System.Contact.HomeEmailAddresses'
+Description: .
+ms.assetid: e88afa55-424b-4e99-b930-04bdc31fca45
+title: System.Contact.HomeEmailAddresses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeEmailAddresses

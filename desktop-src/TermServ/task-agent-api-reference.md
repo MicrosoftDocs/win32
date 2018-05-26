@@ -4,10 +4,13 @@ description: The personal desktop task agent API is used to handle scheduled upd
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '44EACE66-3BBD-4E32-B7BD-B13C390262C5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 44EACE66-3BBD-4E32-B7BD-B13C390262C5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Personal desktop task agent API reference

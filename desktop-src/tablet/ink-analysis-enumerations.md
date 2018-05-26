@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the enumerations used in ink analysis.'
-ms.assetid: '536f743d-bfff-4607-a92c-f29e49881b76'
+Description: This section contains information about the enumerations used in ink analysis.
+ms.assetid: 536f743d-bfff-4607-a92c-f29e49881b76
 title: Ink Analysis Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis Enumerations
@@ -24,7 +29,7 @@ This section contains information about the enumerations used in ink analysis.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ This section contains information about the enumerations used in ink analysis.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

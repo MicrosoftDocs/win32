@@ -4,17 +4,22 @@ description: Provides the HRESULT that details the reason for a failed live migr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7f5887dc-478d-45b1-9b8c-350dc68fb5e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7f5887dc-478d-45b1-9b8c-350dc68fb5e0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MigrationFailureReason Failover Cluster ,for virtual machines", "MigrationFailureReason Failover Cluster"]
+keywords:
+- MigrationFailureReason Failover Cluster ,for virtual machines
+- MigrationFailureReason Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MigrationFailureReason
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MigrationFailureReason
@@ -28,14 +33,14 @@ Provides the **HRESULT** that details the reason for a failed live migration. Th
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +56,7 @@ The following table summarizes the values for **MigrationFailureReason**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,7 +65,7 @@ The following table summarizes the values for **MigrationFailureReason**.
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -71,12 +76,12 @@ The following table summarizes the values for **MigrationFailureReason**.
 [Virtual Machine Private Properties](virtual-machine-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: BUTTONELEMENT.click
 description: The click method calls the onclick event handler defined for the BUTTONELEMENT.
-ms.assetid: 'ede09c10-f52f-4a9f-ae68-1091642ee6bd'
-keywords: ["BUTTONELEMENT.click Windows Media Player"]
+ms.assetid: ede09c10-f52f-4a9f-ae68-1091642ee6bd
+keywords:
+- BUTTONELEMENT.click Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONELEMENT.click
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONELEMENT.click
@@ -48,9 +54,9 @@ Use this method to provide an alternate means of running the code associated wit
 [**BUTTONELEMENT Element**](buttonelement-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

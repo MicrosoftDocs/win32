@@ -1,7 +1,12 @@
-﻿---
-Description: 'Downloads the .cab file signature, verifies the permissions associated with the packages, and executes them based on authentication.'
-ms.assetid: 'b86a8f39-73a1-4e17-ac83-9ed095de4922'
+---
+Description: Downloads the .cab file signature, verifies the permissions associated with the packages, and executes them based on authentication.
+ms.assetid: b86a8f39-73a1-4e17-ac83-9ed095de4922
 title: DownloadJavaEX function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadJavaEX function
@@ -66,7 +71,7 @@ If a certificate is present, this parameter is **TRUE**. Otherwise, it is **FALS
 *pTrust* \[in\]
 </dt> <dd>
 
-A [**JAVA\_TRUST**](java-trust.md) structure that contains trust information such as encoded permission, encoder signature, and authentic return policy code.
+A [**JAVA\_TRUST**](/windows/win32/Capi/ns-capi-_java_trust?branch=master) structure that contains trust information such as encoded permission, encoder signature, and authentic return policy code.
 
 </dd> </dl>
 

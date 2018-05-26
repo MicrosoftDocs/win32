@@ -1,7 +1,12 @@
 ---
-Description: 'The New method initializes a command to be run and returns a new CDeferredCommand object.'
-ms.assetid: 'bdd80747-a15b-422a-b742-ebfa4076bdf7'
-title: 'CCmdQueue.New method'
+Description: The New method initializes a command to be run and returns a new CDeferredCommand object.
+ms.assetid: bdd80747-a15b-422a-b742-ebfa4076bdf7
+title: CCmdQueue.New method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCmdQueue.New method
@@ -13,17 +18,17 @@ The `New` method initializes a command to be run and returns a new [**CDeferredC
 
 ```C++
 virtual HRESULT New(
-   CDeferredCommand **ppCmd,
-   LPUNKNOWN        pUnk,
-   REFTIME          time,
-   GUID             *iid,
-   long             dispidMethod,
-   short            wFlags,
-   long             cArgs,
-   VARIANT          *pDispParams,
-   VARIANT          *pvarResult,
-   short            *puArgErr,
-   BOOL             bStream
+   CDeferredCommand **ppCmd,
+   LPUNKNOWN        pUnk,
+   REFTIME          time,
+   GUID             *iid,
+   long             dispidMethod,
+   short            wFlags,
+   long             cArgs,
+   VARIANT          *pDispParams,
+   VARIANT          *pvarResult,
+   short            *puArgErr,
+   BOOL             bStream
 );
 ```
 
@@ -131,7 +136,7 @@ Values for the *wFlags* parameter include the following:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -151,9 +156,9 @@ Values for the *wFlags* parameter include the following:
 [**CCmdQueue Class**](ccmdqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

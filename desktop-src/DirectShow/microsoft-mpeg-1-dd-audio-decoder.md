@@ -1,7 +1,12 @@
-﻿---
-Description: 'This filter decodes the following audio formats:'
-ms.assetid: '2fd14296-9eed-4e25-b140-6281c707fdb7'
-title: 'Microsoft MPEG-1/DD/AAC Audio Decoder'
+---
+Description: This filter decodes the following audio formats
+ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
+title: Microsoft MPEG-1/DD/AAC Audio Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft MPEG-1/DD/AAC Audio Decoder
@@ -37,7 +42,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IBaseFilter**](ibasefilter.md)<br/> [**ICodecAPI**](icodecapi.md)<br/>
+[**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)<br/> [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)<br/>
 
 Input Pin Media Types
 
@@ -87,7 +92,7 @@ The input type can change dynamically during streaming.<br/> For more informatio
 
 Input Pin Interfaces
 
-[**ICodecAPI**](icodecapi.md)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMemInputPin**](imeminputpin.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Output Pin Media Types
 
@@ -103,7 +108,7 @@ Starting in Windows 7, the filter also supports the following output types:<br/
 
 Output Pin Interfaces
 
-[**IMediaSeeking**](imediaseeking.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Filter CLSID
 
@@ -139,7 +144,7 @@ For streams with a channel configuration of two or more speakers, the decoder do
 -   Up-mixes to six channels, using the common 5.1 speaker configuration.
 -   Downmixes to stereo.
 
-To select between these two options, use the [**ICodecAPI**](icodecapi.md) interface to set the [**AVDecCommonOutputFormat**](avdeccommonoutputformat-property.md) property, before connecting the pins. Alternatively, when the application builds the filter graph, it can set the desired media type on the output pin.
+To select between these two options, use the [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master) interface to set the [**AVDecCommonOutputFormat**](avdeccommonoutputformat-property.md) property, before connecting the pins. Alternatively, when the application builds the filter graph, it can set the desired media type on the output pin.
 
 ### AAC Decoding
 
@@ -170,7 +175,7 @@ The decoder's input pin supports the following property sets through [**IKsPrope
 
 ### Codec Properties
 
-The decoder's input pin supports the following properties through [**ICodecAPI**](icodecapi.md):
+The decoder's input pin supports the following properties through [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master):
 
 
 
@@ -188,7 +193,7 @@ The decoder's input pin supports the following properties through [**ICodecAPI**
 
  
 
-The filter supports the following properties through [**ICodecAPI**](icodecapi.md):
+The filter supports the following properties through [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master):
 
 
 

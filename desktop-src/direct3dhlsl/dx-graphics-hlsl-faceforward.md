@@ -1,14 +1,20 @@
 ---
 title: faceforward
 description: Flips the surface-normal (if needed) to face in a direction opposite to i; returns the result in n.
-ms.assetid: '6530a928-d221-49e4-ab68-6285c3db370f'
-keywords: ["faceforward HLSL"]
+ms.assetid: 6530a928-d221-49e4-ab68-6285c3db370f
+keywords:
+- faceforward HLSL
 topic_type:
 - apiref
 api_name:
 - faceforward
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # faceforward
@@ -22,9 +28,9 @@ Flips the surface-normal (if needed) to face in a direction opposite to i; retur
 
 
 
- 
+ 
 
-This function uses the following formula: -*n*× sign(dot(*i*, *ng*)).
+This function uses the following formula: -*n*  sign(dot(*i*, *ng*)).
 
 ## Parameters
 
@@ -38,7 +44,7 @@ This function uses the following formula: -*n*× sign(dot(*i*, *ng*)).
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ A floating-point, surface normal vector that is facing the view direction.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -72,7 +78,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -81,9 +87,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

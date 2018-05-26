@@ -1,7 +1,12 @@
 ---
 title: dmul (sm5 - asm)
 description: Component-wise double-precision multiply.
-ms.assetid: '53AE27BE-2F4B-4C55-B496-D7122C00DC52'
+ms.assetid: 53AE27BE-2F4B-4C55-B496-D7122C00DC52
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dmul (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise double-precision multiply.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise double-precision multiply.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +63,7 @@ F means finite-real number.
 
 
 
- 
+ 
 
 This instruction applies to the following shader stages:
 
@@ -70,7 +75,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -89,7 +94,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -98,9 +103,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

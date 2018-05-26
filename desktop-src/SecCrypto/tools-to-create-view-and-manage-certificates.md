@@ -1,7 +1,12 @@
-﻿---
-Description: 'CryptoAPI Tools are tools to perform common certificate management tasks.'
-ms.assetid: '29146de8-adae-444b-bc75-fa43a19ab8f9'
-title: 'Tools to Create, View, and Manage Certificates'
+---
+Description: CryptoAPI Tools are tools to perform common certificate management tasks.
+ms.assetid: 29146de8-adae-444b-bc75-fa43a19ab8f9
+title: Tools to Create, View, and Manage Certificates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tools to Create, View, and Manage Certificates

@@ -1,8 +1,14 @@
 ---
 title: CPU Sampling by CPU
 description: CPU Sampling by CPU
-ms.assetid: 'd2059433-80e4-47ab-9836-8013e2ba7ebb'
-keywords: ["usage graph"]
+ms.assetid: d2059433-80e4-47ab-9836-8013e2ba7ebb
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Sampling by CPU

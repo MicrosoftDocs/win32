@@ -1,7 +1,12 @@
 ---
 title: Crash Dump Filter Driver Structures
 description: Crash Dump Filter Driver Structures
-ms.assetid: 'e430a371-7d50-41d5-9ac4-0f9e2c837479'
+ms.assetid: e430a371-7d50-41d5-9ac4-0f9e2c837479
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Crash Dump Filter Driver Structures

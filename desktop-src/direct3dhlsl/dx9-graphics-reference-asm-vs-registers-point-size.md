@@ -1,7 +1,12 @@
 ---
 title: Point Size Register
 description: This vertex shader output register contains per-vertex point size data.
-ms.assetid: '1aa6cd7d-9d29-4e7e-8448-8b9a6b251a02'
+ms.assetid: 1aa6cd7d-9d29-4e7e-8448-8b9a6b251a02
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Point Size Register

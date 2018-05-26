@@ -1,12 +1,17 @@
 ---
-Description: 'An application performing numerous drawing operations in the client area of its window must use a private display DC.'
-ms.assetid: '9c4ed127-a88f-4946-9d7c-f77899152c31'
+Description: An application performing numerous drawing operations in the client area of its window must use a private display DC.
+ms.assetid: 9c4ed127-a88f-4946-9d7c-f77899152c31
 title: Obtaining a Private Display Device Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining a Private Display Device Context
 
-An application performing numerous drawing operations in the client area of its window must use a private display DC. To create this type of DC, the application must specify the **CS\_OWNDC** constant for the style member of the [**WNDCLASS**](_win32_wndclass_str_cpp) structure when registering the window class. After registering the window class, the application obtains a handle identifying a private display DC by calling the [**GetDC**](getdc.md) function.
+An application performing numerous drawing operations in the client area of its window must use a private display DC. To create this type of DC, the application must specify the **CS\_OWNDC** constant for the style member of the [**WNDCLASS**](_win32_wndclass_str_cpp) structure when registering the window class. After registering the window class, the application obtains a handle identifying a private display DC by calling the [**GetDC**](/windows/win32/Winuser/nf-winuser-getdc?branch=master) function.
 
 The following example shows how to create a private display DC.
 

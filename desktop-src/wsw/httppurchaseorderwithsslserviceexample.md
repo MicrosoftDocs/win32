@@ -1,8 +1,16 @@
 ---
 title: HttpPurchaseOrderWithSslServiceExample
 description: This example shows how to use service host for hosting a PurchaseOrder service over HTTP, with SSL transport security.
-ms.assetid: '814660d7-98d7-4038-8243-d2f37929d516'
-keywords: ["HttpPurchaseOrderWithSslServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 814660d7-98d7-4038-8243-d2f37929d516
+keywords:
+- HttpPurchaseOrderWithSslServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpPurchaseOrderWithSslServiceExample

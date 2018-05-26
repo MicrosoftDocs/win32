@@ -1,7 +1,12 @@
 ---
-Description: 'A protection descriptor rule string contains a sequential list of one or more protectors.'
-ms.assetid: 'FBFE2143-DC40-40F3-83CE-E6D8841F9C11'
+Description: A protection descriptor rule string contains a sequential list of one or more protectors.
+ms.assetid: FBFE2143-DC40-40F3-83CE-E6D8841F9C11
 title: Protection Descriptors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protection Descriptors
@@ -120,7 +125,7 @@ The protection descriptor you specify automatically determines which key protect
 
 Note that the left side of the equals sign (=) must be **SID**, **SDDL**, **LOCAL**, **WEBCREDENTIALS**, or **CERTIFICATE**. These values are not case sensitive.
 
-You must specify a rule string (or a display name associated with a rule string) when you call the [**NCryptCreateProtectionDescriptor**](ncryptcreateprotectiondescriptor.md) function. Alternatively, because protection descriptor rule strings are somewhat cumbersome to use and remember, you can associate a display name with the rule string and register both by using the [**NCryptRegisterProtectionDescriptorName**](ncryptregisterprotectiondescriptorname.md) function. Then you can use the display name in **NCryptCreateProtectionDescriptor**.
+You must specify a rule string (or a display name associated with a rule string) when you call the [**NCryptCreateProtectionDescriptor**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor?branch=master) function. Alternatively, because protection descriptor rule strings are somewhat cumbersome to use and remember, you can associate a display name with the rule string and register both by using the [**NCryptRegisterProtectionDescriptorName**](/windows/win32/NCryptprotect/nf-ncryptprotect-ncryptregisterprotectiondescriptorname?branch=master) function. Then you can use the display name in **NCryptCreateProtectionDescriptor**.
 
 ## Related topics
 

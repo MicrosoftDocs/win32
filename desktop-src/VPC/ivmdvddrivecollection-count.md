@@ -1,8 +1,11 @@
 ---
 title: IVMDVDDriveCollection Count property
 description: Retrieves the number of CD and DVD drives in this collection.
-ms.assetid: '22e39c42-1f98-4680-a97e-0d329dc608e2'
-keywords: ["Count property Virtual PC", "Count property Virtual PC , IVMDVDDriveCollection interface", "IVMDVDDriveCollection interface Virtual PC , Count property"]
+ms.assetid: 22e39c42-1f98-4680-a97e-0d329dc608e2
+keywords:
+- Count property Virtual PC
+- Count property Virtual PC , IVMDVDDriveCollection interface
+- IVMDVDDriveCollection interface Virtual PC , Count property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDriveCollection::Count property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the number of CD and DVD drives in this collection.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Count(
-  [out, retval] long *count
+  [out, retval] long *count
 );
 ```
 
@@ -57,9 +65,9 @@ The number of CD and DVD drives.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMDVDDriveCollection is defined as bc86e297-e55f-4742-9614-ad11d3131f68<br/>      |
@@ -73,9 +81,9 @@ The number of CD and DVD drives.
 [**IVMDVDDriveCollection**](ivmdvddrivecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

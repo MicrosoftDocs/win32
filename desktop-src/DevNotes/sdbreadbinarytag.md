@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the binary data for the specified TAGID.'
-ms.assetid: 'b349f2af-2505-4efc-bd59-203f7666ce61'
+---
+Description: Retrieves the binary data for the specified TAGID.
+ms.assetid: b349f2af-2505-4efc-bd59-203f7666ce61
 title: SdbReadBinaryTag function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbReadBinaryTag function

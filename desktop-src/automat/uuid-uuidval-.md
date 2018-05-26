@@ -1,7 +1,12 @@
 ---
 title: uuid(uuidval)
 description: Specifies the universally unique ID (UUID) of the item.
-ms.assetid: 'fdeeb0e0-f2ea-4270-8e4e-b3bad7813508'
+ms.assetid: fdeeb0e0-f2ea-4270-8e4e-b3bad7813508
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # uuid(uuidval)
@@ -25,7 +30,7 @@ Required for library, dispinterface, interface, and coclass. Optional but encour
 
 ## Remarks
 
-The uuidval value is returned in the [**TYPEATTR**](typeattr.md) structure retrieved by [**ITypeInfo::GetTypeAttr**](itypeinfo-gettypeattr.md).
+The uuidval value is returned in the [**TYPEATTR**](/windows/previous-versions/OaIdl/ns-oaidl-tagtypeattr?branch=master) structure retrieved by [**ITypeInfo::GetTypeAttr**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo-gettypeattr?branch=master).
 
 ## Related topics
 

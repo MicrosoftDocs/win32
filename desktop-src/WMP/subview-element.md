@@ -1,8 +1,18 @@
 ---
 title: SUBVIEW Element
 description: SUBVIEW Element
-ms.assetid: '6201df82-8688-4ada-a660-b66e93723f63'
-keywords: ["Windows Media Player skins,SUBVIEW element", "skins,SUBVIEW element", "SUBVIEW element", "reference for skins,SUBVIEW element", "elements,SUBVIEW"]
+ms.assetid: 6201df82-8688-4ada-a660-b66e93723f63
+keywords:
+- Windows Media Player skins,SUBVIEW element
+- skins,SUBVIEW element
+- SUBVIEW element
+- reference for skins,SUBVIEW element
+- elements,SUBVIEW
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SUBVIEW Element

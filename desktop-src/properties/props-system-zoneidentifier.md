@@ -1,7 +1,12 @@
 ---
-Description: 'Mark of the Web zone, as URLZONE enumeration value.'
-ms.assetid: '9d13d739-3d94-4fe2-9f63-21ed2fe5d44f'
-title: 'System.ZoneIdentifier'
+Description: Mark of the Web zone, as URLZONE enumeration value.
+ms.assetid: 9d13d739-3d94-4fe2-9f63-21ed2fe5d44f
+title: System.ZoneIdentifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ZoneIdentifier

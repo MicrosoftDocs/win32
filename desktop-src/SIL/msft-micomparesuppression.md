@@ -4,13 +4,15 @@ description: The Msft\_MiCompareSuppression WMI class represents the output inst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1bd6be88-bcf9-4597-9f1f-6e7f8376bd19'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1bd6be88-bcf9-4597-9f1f-6e7f8376bd19
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msft_MiCompareSuppression class Software Inventory Logging", "Msft_MiCompareSuppression class Software Inventory Logging , described"]
+keywords:
+- Msft_MiCompareSuppression class Software Inventory Logging
+- Msft_MiCompareSuppression class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - MiStreamProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_MiCompareSuppression class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msft_MiCompareSuppression
 {
   datetime Timestamp;
-  object   SuppressionSignal[];
+  object   SuppressionSignal[];
 };
 ```
 
@@ -88,16 +93,16 @@ Gets the timestamp indicating when the output was suppressed.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>MiStreamProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MiStreamProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

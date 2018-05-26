@@ -1,8 +1,11 @@
 ---
 title: IVMKeyboard HasExclusiveAccess property
-description: Indicates whether this object has exclusive control over the VM's keyboard device.
-ms.assetid: 'edba154e-e700-488c-9133-91649daecef1'
-keywords: ["HasExclusiveAccess property Virtual PC", "HasExclusiveAccess property Virtual PC , IVMKeyboard interface", "IVMKeyboard interface Virtual PC , HasExclusiveAccess property"]
+description: Indicates whether this object has exclusive control over the VMs keyboard device.
+ms.assetid: edba154e-e700-488c-9133-91649daecef1
+keywords:
+- HasExclusiveAccess property Virtual PC
+- HasExclusiveAccess property Virtual PC , IVMKeyboard interface
+- IVMKeyboard interface Virtual PC , HasExclusiveAccess property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard::HasExclusiveAccess property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Indicates whether this object has exclusive control over the virtual machine's (VM) keyboard device.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HasExclusiveAccess(
-  [in]          VARIANT_BOOL makeExclusive
+  [in]          VARIANT_BOOL makeExclusive
 );
 
 HRESULT get_HasExclusiveAccess(
-  [out, retval] VARIANT_BOOL *isExclusive
+  [out, retval] VARIANT_BOOL *isExclusive
 );
 ```
 
@@ -63,9 +71,9 @@ HRESULT get_HasExclusiveAccess(
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMKeyboard is defined as 00695f2e-c5ad-4d6e-b1ab-336ed121f8c4<br/>                |
@@ -79,9 +87,9 @@ HRESULT get_HasExclusiveAccess(
 [**IVMKeyboard**](ivmkeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

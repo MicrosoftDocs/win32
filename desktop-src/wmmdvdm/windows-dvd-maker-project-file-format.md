@@ -1,8 +1,18 @@
 ---
 title: Windows DVD Maker Project File Format
 description: Windows DVD Maker Project File Format
-ms.assetid: '13195a7a-a91f-4b9b-8889-acb7aaeb8b5c'
-keywords: ["Windows DVD Maker,project file format", "DVD Maker,project file format", "programming reference,Windows DVD Maker project file format", "reference for Windows DVD Maker,project file format", "project file format for Windows DVD Maker"]
+ms.assetid: 13195a7a-a91f-4b9b-8889-acb7aaeb8b5c
+keywords:
+- Windows DVD Maker,project file format
+- DVD Maker,project file format
+- programming reference,Windows DVD Maker project file format
+- reference for Windows DVD Maker,project file format
+- project file format for Windows DVD Maker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows DVD Maker Project File Format

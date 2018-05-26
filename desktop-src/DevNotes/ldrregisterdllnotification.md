@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers for notification when a DLL is first loaded. This notification occurs before dynamic linking takes place.'
-ms.assetid: 'c2757aa0-76fa-427a-a4f6-cb26e7f7d0d1'
+---
+Description: Registers for notification when a DLL is first loaded. This notification occurs before dynamic linking takes place.
+ms.assetid: c2757aa0-76fa-427a-a4f6-cb26e7f7d0d1
 title: LdrRegisterDllNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LdrRegisterDllNotification function

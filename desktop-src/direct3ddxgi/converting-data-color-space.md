@@ -1,7 +1,12 @@
 ---
-Description: 'To compose to the screen or perform floating-point operations, you need to work in the correct color space.'
-ms.assetid: '1DD8E2D3-430F-4EE4-9C41-78736C904920'
+Description: To compose to the screen or perform floating-point operations, you need to work in the correct color space.
+ms.assetid: 1DD8E2D3-430F-4EE4-9C41-78736C904920
 title: Converting data for the color space
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Converting data for the color space
@@ -55,7 +60,7 @@ These are steps to follow to ensure that the content that is displayed on the sc
 1.  If a texture has sRGB content, ensure the **ShaderResourceView** has the \_SRGB [format modifier](https://msdn.microsoft.com/library/windows/desktop/bb173059#format-modifiers) so when you read from the **ShaderResourceView** into the shader, you convert the texture content from gamma 2.2-corrected color space to linear color space.
 2.  Ensure the **RenderTargetView** also has the \_SRGB [format modifier](https://msdn.microsoft.com/library/windows/desktop/bb173059#format-modifiers) so the shader output values are gamma converted.
 
-If you follow the preceding steps, when you call the [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md) method, the content that is displayed on the screen has the best color accuracy.
+If you follow the preceding steps, when you call the [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master) method, the content that is displayed on the screen has the best color accuracy.
 
 You can use the [**ID3D11Device::CreateRenderTargetView**](https://msdn.microsoft.com/library/windows/desktop/ff476517) method to create **DXGI\_FORMAT\_\*\_SRGB** views on back buffers from a swap chain that you create only with a **DXGI\_FORMAT\_\*\_UNORM** format. This is a special exception to the rule for creating render-target views, which states that you can use a different format with **ID3D11Device::CreateRenderTargetView** only if you created the resource that you want to view with **DXGI\_FORMAT\_\*\_TYPELESS**.
 

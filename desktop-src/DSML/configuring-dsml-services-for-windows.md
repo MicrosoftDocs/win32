@@ -4,11 +4,15 @@ description: The following procedure shows how to configure DSML Services for Wi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'be60a31a-f6a0-4fbf-bdf6-562d2428cbb3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: be60a31a-f6a0-4fbf-bdf6-562d2428cbb3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Configuring DSML Services for Windows DSML"]
+keywords:
+- Configuring DSML Services for Windows DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configuring DSML Services for Windows

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the codec should use median filtering during encoding.'
-ms.assetid: 'adfca033-4679-4f36-a802-6dd5df7100c8'
-title: 'MFPKEY\_FORCEMEDIANSETTING Property'
+---
+Description: Specifies whether the codec should use median filtering during encoding.
+ms.assetid: adfca033-4679-4f36-a802-6dd5df7100c8
+title: MFPKEY\_FORCEMEDIANSETTING Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FORCEMEDIANSETTING Property

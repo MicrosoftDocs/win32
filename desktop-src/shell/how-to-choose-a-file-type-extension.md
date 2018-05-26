@@ -1,6 +1,11 @@
 ---
-Description: 'File types are identified by a file name extension. Before defining a new file type, you should first choose a file name extension.'
+Description: File types are identified by a file name extension. Before defining a new file type, you should first choose a file name extension.
 title: How to Choose a File Type Extension
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Choose a File Type Extension

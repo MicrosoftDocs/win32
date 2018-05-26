@@ -1,7 +1,12 @@
 ---
 title: To set actions to take when single- or double-clicking an index entry
 description: To set actions to take when single- or double-clicking an index entry
-ms.assetid: '20CA8057-CF78-44fc-839A-08002120FD08'
+ms.assetid: 20CA8057-CF78-44fc-839A-08002120FD08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To set actions to take when single- or double-clicking an index entry

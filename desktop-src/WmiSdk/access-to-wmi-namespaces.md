@@ -1,18 +1,21 @@
 ---
-Description: 'WMI uses a standard Windows security descriptor to control access to WMI namespaces.'
+Description: WMI uses a standard Windows security descriptor to control access to WMI namespaces.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5cf9886c-04fa-480e-889f-b64a6a70d053'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5cf9886c-04fa-480e-889f-b64a6a70d053
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Access to WMI Namespaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Access to WMI Namespaces
 
-WMI uses a standard Windows *security descriptor* to control access to WMI namespaces. When you connect to WMI, either through the WMI "winmgmts" moniker or a call to [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md) or [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md), you connect to a specific namespace.
+WMI uses a standard Windows *security descriptor* to control access to WMI namespaces. When you connect to WMI, either through the WMI "winmgmts" moniker or a call to [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master) or [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md), you connect to a specific namespace.
 
 The following information is discussed in this topic:
 

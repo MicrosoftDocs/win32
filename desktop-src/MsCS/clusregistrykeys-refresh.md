@@ -4,11 +4,14 @@ description: Refreshes the data in the ClusRegistryKeys collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21206d22-ed84-49f9-878a-7376abaad642'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 21206d22-ed84-49f9-878a-7376abaad642
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Refresh method Failover Cluster", "Refresh method Failover Cluster , ClusRegistryKeys class", "ClusRegistryKeys class Failover Cluster , Refresh method"]
+keywords:
+- Refresh method Failover Cluster
+- Refresh method Failover Cluster , ClusRegistryKeys class
+- ClusRegistryKeys class Failover Cluster , Refresh method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusRegistryKeys.Refresh method
@@ -49,7 +55,7 @@ This method does not return a value.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -65,9 +71,9 @@ This method does not return a value.
 [**ClusRegistryKeys**](clusregistrykeys-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

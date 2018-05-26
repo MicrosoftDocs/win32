@@ -1,14 +1,20 @@
 ---
 title: PixelAspectRatioY
 description: The PixelAspectRatioY attribute is the vertical part of the aspect ratio of a video.
-ms.assetid: 'de2799c4-4f9a-4dc9-8c60-9b11cd1894b3'
-keywords: ["PixelAspectRatioY Windows Media Player"]
+ms.assetid: de2799c4-4f9a-4dc9-8c60-9b11cd1894b3
+keywords:
+- PixelAspectRatioY Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PixelAspectRatioY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PixelAspectRatioY
@@ -40,9 +46,9 @@ For a video having an aspect ratio of 16:9, **PixelAspectRatioY** would equal "9
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

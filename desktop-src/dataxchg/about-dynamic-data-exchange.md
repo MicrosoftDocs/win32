@@ -1,8 +1,34 @@
 ---
 title: About Dynamic Data Exchange
 description: This topic discusses transferring data between applications.
-ms.assetid: '0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb'
-keywords: ["Dynamic Data Exchange (DDE),about", "DDE (Dynamic Data Exchange),about", "data exchange,Dynamic Data Exchange (DDE)", "Dynamic Data Exchange (DDE),linking to real-time data", "DDE (Dynamic Data Exchange),linking to real-time data", "Dynamic Data Exchange (DDE),creating compound documents", "DDE (Dynamic Data Exchange),creating compound documents", "Dynamic Data Exchange (DDE),data queries", "DDE (Dynamic Data Exchange),data queries", "Dynamic Data Exchange (DDE),examples", "DDE (Dynamic Data Exchange),examples", "Dynamic Data Exchange (DDE),impersonation", "DDE (Dynamic Data Exchange),impersonation", "Dynamic Data Exchange (DDE),messages", "DDE (Dynamic Data Exchange),messages", "Dynamic Data Exchange (DDE),atoms", "DDE (Dynamic Data Exchange),atoms", "Dynamic Data Exchange (DDE),shared memory objects", "DDE (Dynamic Data Exchange),shared memory objects", "Dynamic Data Exchange (DDE),parameter packing functions", "DDE (Dynamic Data Exchange),parameter packing functions"]
+ms.assetid: 0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb
+keywords:
+- Dynamic Data Exchange (DDE),about
+- DDE (Dynamic Data Exchange),about
+- data exchange,Dynamic Data Exchange (DDE)
+- Dynamic Data Exchange (DDE),linking to real-time data
+- DDE (Dynamic Data Exchange),linking to real-time data
+- Dynamic Data Exchange (DDE),creating compound documents
+- DDE (Dynamic Data Exchange),creating compound documents
+- Dynamic Data Exchange (DDE),data queries
+- DDE (Dynamic Data Exchange),data queries
+- Dynamic Data Exchange (DDE),examples
+- DDE (Dynamic Data Exchange),examples
+- Dynamic Data Exchange (DDE),impersonation
+- DDE (Dynamic Data Exchange),impersonation
+- Dynamic Data Exchange (DDE),messages
+- DDE (Dynamic Data Exchange),messages
+- Dynamic Data Exchange (DDE),atoms
+- DDE (Dynamic Data Exchange),atoms
+- Dynamic Data Exchange (DDE),shared memory objects
+- DDE (Dynamic Data Exchange),shared memory objects
+- Dynamic Data Exchange (DDE),parameter packing functions
+- DDE (Dynamic Data Exchange),parameter packing functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Dynamic Data Exchange
@@ -181,21 +207,21 @@ An application window that processes requests from a client or server must proce
 
 A client can establish conversations with more than one server; a server can have conversations with more than one client. When handling messages from more than one source, a client or server must process the messages of a conversation synchronously, but need not process all messages synchronously. In other words, it can shift from one conversation to another as needed.
 
-If an application is unable to process an incoming request because it is waiting for a DDE response, it must prevent deadlock by posting a [**WM\_DDE\_ACK**](wm-dde-ack.md) message with the **fBusy** member of the [**DDEACK**](ddeack.md) structure set to 1. An application can also send a busy **WM\_DDE\_ACK** message if, for any reason, it cannot process an incoming request within a reasonable amount of time.
+If an application is unable to process an incoming request because it is waiting for a DDE response, it must prevent deadlock by posting a [**WM\_DDE\_ACK**](wm-dde-ack.md) message with the **fBusy** member of the [**DDEACK**](/windows/win32/Dde/ns-dde-ddeack?branch=master) structure set to 1. An application can also send a busy **WM\_DDE\_ACK** message if, for any reason, it cannot process an incoming request within a reasonable amount of time.
 
 An application should be able to handle the failure of a client or server to respond to a message within a certain time. Since the time-out interval may vary depending on the nature of the application and the configuration of the user's system (including whether it is connected to a network), the application should provide a way for the user to specify the interval.
 
 ## Parameter Packing Functions
 
-The *lParam* parameter of many DDE messages contains two pieces of data. For example, the *lParam* of the [**WM\_DDE\_DATA**](wm-dde-data.md) message contains a data handle and an atom. Applications must use the [**PackDDElParam**](packddelparam.md) function to pack the handle and atom into an *lParam* parameter, and the [**UnpackDDElParam**](unpackddelparam.md) function to remove the values. DDE applications must use **PackDDElParam** and **UnpackDDElParam** for all messages posted during a DDE conversation.
+The *lParam* parameter of many DDE messages contains two pieces of data. For example, the *lParam* of the [**WM\_DDE\_DATA**](wm-dde-data.md) message contains a data handle and an atom. Applications must use the [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master) function to pack the handle and atom into an *lParam* parameter, and the [**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master) function to remove the values. DDE applications must use **PackDDElParam** and **UnpackDDElParam** for all messages posted during a DDE conversation.
 
-Applications can also use the [**ReuseDDElParam**](reuseddelparam.md) and [**FreeDDElParam**](freeddelparam.md) functions. **ReuseDDElParam** allows a DDE application to reuse a packed *lParam* parameter, helping reduce the number of memory reallocations the application must perform during a conversation. An application can use **FreeDDElParam** to free the memory associated with a data handle received during a DDE conversation.
+Applications can also use the [**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master) and [**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master) functions. **ReuseDDElParam** allows a DDE application to reuse a packed *lParam* parameter, helping reduce the number of memory reallocations the application must perform during a conversation. An application can use **FreeDDElParam** to free the memory associated with a data handle received during a DDE conversation.
 
 ## Dynamic Data Exchange and Impersonation
 
-To allow a server to impersonate a client, the client calls the [**DdeSetQualityOfService**](ddesetqualityofservice.md) function. The [**SECURITY\_IMPERSONATION\_LEVEL**](_win32_SECURITY_IMPERSONATION_LEVEL_str) structure is used to control the level of impersonation the server may perform.
+To allow a server to impersonate a client, the client calls the [**DdeSetQualityOfService**](/windows/win32/Dde/nf-dde-ddesetqualityofservice?branch=master) function. The [**SECURITY\_IMPERSONATION\_LEVEL**](_win32_SECURITY_IMPERSONATION_LEVEL_str) structure is used to control the level of impersonation the server may perform.
 
-A DDE server can impersonate a DDE client by calling the [**ImpersonateDdeClientWindow**](impersonateddeclientwindow.md) function. A DDEML server should use the [**DdeImpersonateClient**](ddeimpersonateclient.md) function.
+A DDE server can impersonate a DDE client by calling the [**ImpersonateDdeClientWindow**](/windows/win32/Dde/nf-dde-impersonateddeclientwindow?branch=master) function. A DDEML server should use the [**DdeImpersonateClient**](/windows/win32/Ddeml/nf-ddeml-ddeimpersonateclient?branch=master) function.
 
  
 

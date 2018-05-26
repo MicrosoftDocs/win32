@@ -1,14 +1,20 @@
 ---
 title: FileLine (DebugDataType) Element
 description: The name of the source file and the line within the source file that logged the trace message.
-ms.assetid: '398fc254-d48f-49eb-9554-f110a7665628'
-keywords: ["FileLine element EventLog"]
+ms.assetid: 398fc254-d48f-49eb-9554-f110a7665628
+keywords:
+- FileLine element EventLog
 topic_type:
 - apiref
 api_name:
 - FileLine
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileLine (DebugDataType) Element
@@ -29,8 +35,8 @@ The **FileLine** element is defined by the [**DebugDataType**](eventschema-debug
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **FileLine** element is defined by the [**DebugDataType**](eventschema-debug
 [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

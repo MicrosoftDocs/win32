@@ -1,8 +1,9 @@
 ---
 title: LB\_INSERTSTRING message
 description: Inserts a string or item data into a list box. Unlike the LB\_ADDSTRING message, the LB\_INSERTSTRING message does not cause a list with the LBS\_SORT style to be sorted.
-ms.assetid: 'dfaa742d-2f42-4485-aed5-cda8ca9ba66c'
-keywords: ["LB_INSERTSTRING message Windows Controls"]
+ms.assetid: dfaa742d-2f42-4485-aed5-cda8ca9ba66c
+keywords:
+- LB_INSERTSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_INSERTSTRING message
@@ -24,7 +30,7 @@ Inserts a string or item data into a list box. Unlike the [**LB\_ADDSTRING**](lb
 *wParam* 
 </dt> <dd>
 
-The zero-based index of the position at which to insert the string. If this parameter is –1, the string is added to the end of the list.
+The zero-based index of the position at which to insert the string. If this parameter is  1, the string is added to the end of the list.
 
 </dd> <dt>
 
@@ -53,8 +59,8 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -75,9 +81,9 @@ For an ANSI application, the system converts the text in a list box to Unicode u
 [**LB\_SETHORIZONTALEXTENT**](lb-sethorizontalextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

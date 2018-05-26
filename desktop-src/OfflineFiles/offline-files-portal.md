@@ -1,13 +1,16 @@
 ---
-Description: 'Control and monitor the local client-side caching of files, servers, shares, and directories on Microsoft Networks. Enumerate, find, add, remove, or synchronize the items saved in the local Offline Files cache.'
+Description: Control and monitor the local client-side caching of files, servers, shares, and directories on Microsoft Networks. Enumerate, find, add, remove, or synchronize the items saved in the local Offline Files cache.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '174de37e-90ec-4cc1-970c-3aa51fab3058'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 174de37e-90ec-4cc1-970c-3aa51fab3058
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
 title: Offline Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Offline Files

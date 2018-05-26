@@ -4,11 +4,14 @@ description: The GetQWORDValue method gets the data value for a named value whos
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f3543af-4848-4544-a3d6-fbf2d9590fb4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2f3543af-4848-4544-a3d6-fbf2d9590fb4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetQWORDValue method", "GetQWORDValue method, StdRegProv class", "StdRegProv class, GetQWORDValue method"]
+keywords:
+- GetQWORDValue method
+- GetQWORDValue method, StdRegProv class
+- StdRegProv class, GetQWORDValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetQWORDValue method of the StdRegProv class
@@ -30,10 +36,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetQWORDValue(
-  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
-  [in]  string sSubKeyName,
-  [in]  string sValueName,
-  [out] uint64 uValue
+  [in]  uint32 hDefKey = HKEY_LOCAL_MACHINE,
+  [in]  string sSubKeyName,
+  [in]  string sValueName,
+  [out] uint64 uValue
 );
 ```
 
@@ -118,7 +124,7 @@ In scripting or Visual Basic, the method returns an integer value that is 0 (zer
 
 The [Registry Dumper](https://Gallery.TechNet.Microsoft.Com/Registry-Dumper-39087876) VBScript sample uses a number of methods, including **GetQWORDValue**, to to dump registry keys based on specific inputs.
 
-The [Multithreaded Remote Registry Gathering with Powershell](https://Gallery.TechNet.Microsoft.Com/Multithreaded-Remote-ca714e12) sample gathers specific subkey values or an entire registry key’s subkey values with powershell and multithreading.
+The [Multithreaded Remote Registry Gathering with Powershell](https://Gallery.TechNet.Microsoft.Com/Multithreaded-Remote-ca714e12) sample gathers specific subkey values or an entire registry key s subkey values with powershell and multithreading.
 
 ## Requirements
 
@@ -126,8 +132,8 @@ The [Multithreaded Remote Registry Gathering with Powershell](https://Gallery.Te
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
@@ -147,9 +153,9 @@ The [Multithreaded Remote Registry Gathering with Powershell](https://Gallery.Te
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

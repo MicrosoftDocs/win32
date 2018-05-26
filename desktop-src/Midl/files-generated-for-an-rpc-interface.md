@@ -2,7 +2,13 @@
 title: Files Generated for an RPC Interface
 description: The MIDL compiler generates the C-language stub and header files necessary to create the interface between the client application and the server application.
 ms.assetid: 1088c2e0-f3b2-49f4-9fda-1d71409344fd
-keywords: ["MIDL compiler MIDL , MIDL and RPC MIDL , files generated for RPC"]
+keywords:
+- MIDL compiler MIDL , MIDL and RPC MIDL , files generated for RPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Files Generated for an RPC Interface

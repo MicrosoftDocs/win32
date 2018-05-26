@@ -1,7 +1,12 @@
 ---
 Description: Bitmap Classifications
-ms.assetid: '669ffaef-55c5-4cbc-b23a-de3d66bd6ab2'
+ms.assetid: 669ffaef-55c5-4cbc-b23a-de3d66bd6ab2
 title: Bitmap Classifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmap Classifications

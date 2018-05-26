@@ -1,8 +1,10 @@
 ---
 title: CARD\_DERIVE\_KEY structure
 description: Contains the key derivation function (KDF) that the CardDeriveKey function uses to derive a session key and receives the derived key on output.
-ms.assetid: '38311c70-65e6-4e08-9d7b-a378a1b71d1d'
-keywords: ["CARD_DERIVE_KEY structure Security", "PCARD_DERIVE_KEY structure pointer Security"]
+ms.assetid: 38311c70-65e6-4e08-9d7b-a378a1b71d1d
+keywords:
+- CARD_DERIVE_KEY structure Security
+- PCARD_DERIVE_KEY structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_DERIVE\_KEY structure
@@ -24,13 +31,13 @@ The **CARD\_DERIVE\_KEY** structure contains the *key derivation function* (KDF)
 
 ```C++
 typedef struct _CARD_DERIVE_KEY {
-  DWORD   dwVersion;
-  DWORD   dwFlags;
+  DWORD   dwVersion;
+  DWORD   dwFlags;
   LPCWSTR pwszKDF;
-  BYTE    bSecretAgreementIndex;
-  PVOID   pParameterList;
-  PUCHAR  pbDerivedKey;
-  DWORD   cbDerivedKey;
+  BYTE    bSecretAgreementIndex;
+  PVOID   pParameterList;
+  PUCHAR  pbDerivedKey;
+  DWORD   cbDerivedKey;
 } CARD_DERIVE_KEY, *PCARD_DERIVE_KEY;
 ```
 
@@ -64,12 +71,12 @@ A pointer to a null-terminated Unicode string that contains an [*object identifi
 | Value                                                                                                                                                                                                                                           | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="BCRYPT_KDF_HASH"></span><span id="bcrypt_kdf_hash"></span><dl> <dt>**BCRYPT\_KDF\_HASH**</dt> <dt>L"HASH"</dt> </dl>               | Use the hash key derivation function. The parameters identified by the **pParameterList** parameter can contain the following parameters.<br/> <dl> <dd>**KDF\_HASH\_ALGORITHM**</dd> <dd>**KDF\_SECRET\_PREPEND**</dd> <dd>**KDF\_SECRET\_APPEND**</dd> </dl>                                                                                                                                                                                                                                                    |
-| <span id="BCRYPT_KDF_HMAC"></span><span id="bcrypt_kdf_hmac"></span><dl> <dt>**BCRYPT\_KDF\_HMAC**</dt> <dt>L"HMAC"</dt> </dl>               | Use the [*Hash-Based Message Authentication Code*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-based-message-authentication-code-gly) (HMAC) key derivation function. The parameters identified by the *pParameterList* parameter can or must contain the following parameters.<br/> <dl> <dd>**KDF\_HASH\_ALGORITHM**—The default algorithm is SHA1.</dd> <dd>**KDF\_HMAC\_KEY**</dd> <dd>**KDF\_SECRET\_PREPEND**</dd> <dd>**KDF\_SECRET\_APPEND**</dd> </dl> |
+| <span id="BCRYPT_KDF_HMAC"></span><span id="bcrypt_kdf_hmac"></span><dl> <dt>**BCRYPT\_KDF\_HMAC**</dt> <dt>L"HMAC"</dt> </dl>               | Use the [*Hash-Based Message Authentication Code*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-based-message-authentication-code-gly) (HMAC) key derivation function. The parameters identified by the *pParameterList* parameter can or must contain the following parameters.<br/> <dl> <dd>**KDF\_HASH\_ALGORITHM** The default algorithm is SHA1.</dd> <dd>**KDF\_HMAC\_KEY**</dd> <dd>**KDF\_SECRET\_PREPEND**</dd> <dd>**KDF\_SECRET\_APPEND**</dd> </dl> |
 | <span id="BCRYPT_KDF_TLS_PRF"></span><span id="bcrypt_kdf_tls_prf"></span><dl> <dt>**BCRYPT\_KDF\_TLS\_PRF**</dt> <dt>L"TLS\_PRF"</dt> </dl> | Use the [*transport layer security*](https://msdn.microsoft.com/library/windows/desktop/ms721627#-security-transport-layer-security-protocol-gly) (TLS) [*pseudo-random function*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-pseudo-random-function-gly) (PRF) key derivation function. The parameters identified by the *pParameterList* parameter can or must contain the following parameters.<br/> <dl> <dd>**KDF\_TLS\_PRF\_LABEL**</dd> <dd>**KDF\_TLS\_PRF\_SEED**</dd> </dl>                  |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,15 +114,15 @@ The size, in bytes, of the **pbDerivedKey** buffer.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

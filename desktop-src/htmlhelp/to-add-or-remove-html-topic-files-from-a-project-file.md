@@ -1,7 +1,12 @@
 ---
 title: To add or remove HTML topic files from a project file
 description: To add or remove HTML topic files from a project file
-ms.assetid: 'AC1601F5-D15D-4bd2-949F-1526837E05D9'
+ms.assetid: AC1601F5-D15D-4bd2-949F-1526837E05D9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add or remove HTML topic files from a project file
@@ -14,7 +19,7 @@ ms.assetid: 'AC1601F5-D15D-4bd2-949F-1526837E05D9'
 
     
 
-     
+     
 
 2.  In the **Topic files** box, click **Add** or **Remove**.
 
@@ -29,9 +34,9 @@ When using HTML Help Workshop, the number of topic files you can view and add is
 [About Creating Help Project Files](create-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

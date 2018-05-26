@@ -1,7 +1,12 @@
 ---
 title: MinIdleRequestThreads
 description: MinIdleRequestThreads
-ms.assetid: 'f1a481ba-1faf-4498-9d20-0499d4812008'
+ms.assetid: f1a481ba-1faf-4498-9d20-0499d4812008
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinIdleRequestThreads

@@ -1,7 +1,12 @@
 ---
-Description: 'Mounts the specified PCI device so that it can be used by the host computer system.'
-ms.assetid: '2a07174e-c221-4c04-81b8-5968aa67e235'
-title: 'MountAssignableDevice method of the Msvm\_AssignableDeviceService class'
+Description: Mounts the specified PCI device so that it can be used by the host computer system.
+ms.assetid: 2a07174e-c221-4c04-81b8-5968aa67e235
+title: MountAssignableDevice method of the Msvm\_AssignableDeviceService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MountAssignableDevice method of the Msvm\_AssignableDeviceService class
@@ -13,10 +18,10 @@ Mounts the specified PCI device so that it can be used by the host computer syst
 
 ```mof
 uint32 MountAssignableDevice(
-  [in]  string              DeviceInstancePath,
-  [in]  string              DeviceLocationPath,
-  [out] string              MountedDeviceInstancePath,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              DeviceInstancePath,
+  [in]  string              DeviceLocationPath,
+  [out] string              MountedDeviceInstancePath,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -108,8 +113,8 @@ On success, returns 0 or 4096; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -123,9 +128,9 @@ On success, returns 0 or 4096; otherwise, returns an error.
 [**Msvm\_AssignableDeviceService**](msvm-assignabledeviceservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

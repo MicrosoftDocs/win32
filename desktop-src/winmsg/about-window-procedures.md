@@ -1,7 +1,12 @@
 ---
-Description: 'Each window is a member of a particular window class. The window class determines the default window procedure that an individual window uses to process its messages.'
-ms.assetid: '3a8e8f4e-910d-4863-a4a7-dd37c2dfa402'
+Description: Each window is a member of a particular window class. The window class determines the default window procedure that an individual window uses to process its messages.
+ms.assetid: 3a8e8f4e-910d-4863-a4a7-dd37c2dfa402
 title: About Window Procedures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Window Procedures
@@ -25,7 +30,7 @@ This section discusses the following topics.
 
 A window procedure is a function that has four parameters and returns a signed value. The parameters consist of a window handle, a **UINT** message identifier, and two message parameters declared with the **WPARAM** and **LPARAM** data types. For more information, see [**WindowProc**](windowproc.md).
 
-Message parameters often contain information in both their low-order and high-order words. There are several macros an application can use to extract information from the message parameters. The [**LOWORD**](loword.md) macro, for example, extracts the low-order word (bits 0 through 15) from a message parameter. Other macros include [**HIWORD**](hiword.md), [**LOBYTE**](lobyte.md), and [**HIBYTE**](hibyte.md).
+Message parameters often contain information in both their low-order and high-order words. There are several macros an application can use to extract information from the message parameters. The [**LOWORD**](/windows/win32/Windef/nf-ntintsafe-loword?branch=master) macro, for example, extracts the low-order word (bits 0 through 15) from a message parameter. Other macros include [**HIWORD**](/windows/win32/Windef/nf-ntintsafe-hiword?branch=master), [**LOBYTE**](lobyte.md), and [**HIBYTE**](hibyte.md).
 
 The interpretation of the return value depends on the particular message. Consult the description of each message to determine the appropriate return value.
 
@@ -75,9 +80,9 @@ A superclass has its own window procedure, called the superclass procedure. The 
 
 Unlike a subclass procedure, a superclass procedure can process window creation messages ([**WM\_NCCREATE**](wm-nccreate.md), [**WM\_CREATE**](wm-create.md), and so on), but it must also pass them to the original base-class window procedure so that the base-class window procedure can perform its initialization procedure.
 
-To superclass a window class, an application first calls the [**GetClassInfo**](getclassinfo.md) function to retrieve information about the base class. **GetClassInfo** fills a [**WNDCLASS**](wndclass.md) structure with the values from the **WNDCLASS** structure of the base class. Next, the application copies its own instance handle into the **hInstance** member of the **WNDCLASS** structure and copies the name of the superclass into the **lpszClassName** member. If the base class has a menu, the application must provide a new menu with the same menu identifiers and copy the menu name into the **lpszMenuName** member. If the superclass procedure processes the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message and does not pass it to the window procedure of the base class, the menu need not have corresponding identifiers. **GetClassInfo** does not return the **lpszMenuName**, **lpszClassName**, or **hInstance** member of the **WNDCLASS** structure.
+To superclass a window class, an application first calls the [**GetClassInfo**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibgetclassinformation?branch=master) function to retrieve information about the base class. **GetClassInfo** fills a [**WNDCLASS**](wndclass.md) structure with the values from the **WNDCLASS** structure of the base class. Next, the application copies its own instance handle into the **hInstance** member of the **WNDCLASS** structure and copies the name of the superclass into the **lpszClassName** member. If the base class has a menu, the application must provide a new menu with the same menu identifiers and copy the menu name into the **lpszMenuName** member. If the superclass procedure processes the [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) message and does not pass it to the window procedure of the base class, the menu need not have corresponding identifiers. **GetClassInfo** does not return the **lpszMenuName**, **lpszClassName**, or **hInstance** member of the **WNDCLASS** structure.
 
-An application must also set the **lpfnWndProc** member of the [**WNDCLASS**](wndclass.md) structure. The [**GetClassInfo**](getclassinfo.md) function fills this member with the address of the original window procedure for the class. The application must save this address, to pass messages to the original window procedure, and then copy the address of the superclass procedure into the **lpfnWndProc** member. The application can, if necessary, modify any other members of the **WNDCLASS** structure. After it fills the **WNDCLASS** structure, the application registers the superclass by passing the address of the structure to the [**RegisterClass**](registerclass.md) function. The superclass can then be used to create windows.
+An application must also set the **lpfnWndProc** member of the [**WNDCLASS**](wndclass.md) structure. The [**GetClassInfo**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibgetclassinformation?branch=master) function fills this member with the address of the original window procedure for the class. The application must save this address, to pass messages to the original window procedure, and then copy the address of the superclass procedure into the **lpfnWndProc** member. The application can, if necessary, modify any other members of the **WNDCLASS** structure. After it fills the **WNDCLASS** structure, the application registers the superclass by passing the address of the structure to the [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master) function. The superclass can then be used to create windows.
 
 Because superclassing registers a new window class, an application can add to both the extra class bytes and the extra window bytes. The superclass must not use the original extra bytes for the base class or the window for the same reasons that an instance subclass or a global subclass should not use them. Also, if the application adds extra bytes for its use to either the class or the window instance, it must reference the extra bytes relative to the number of extra bytes used by the original base class. Because the number of bytes used by the base class may vary from one version of the base class to the next, the starting offset for the superclass's own extra bytes may also vary from one version of the base class to the next.
 

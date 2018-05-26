@@ -1,7 +1,12 @@
 ---
-Description: 'Not supported.'
-ms.assetid: '1e4c3bd4-2540-428f-9ca6-dd4c65c53434'
-title: 'IRenderEngine::SetInterestRange method'
+Description: Not supported.
+ms.assetid: 1e4c3bd4-2540-428f-9ca6-dd4c65c53434
+title: IRenderEngineSetInterestRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::SetInterestRange method

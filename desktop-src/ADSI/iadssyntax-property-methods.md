@@ -4,11 +4,12 @@ description: The property methods of the IADsSyntax interface get or set the pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a216a55d-63eb-4fdf-a67f-8d4b5eb74262'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a216a55d-63eb-4fdf-a67f-8d4b5eb74262
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsSyntax Property Methods ADSI"]
+keywords:
+- IADsSyntax Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -20,11 +21,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsSyntax Property Methods
 
-The property methods of the [**IADsSyntax**](iadssyntax.md) interface get or set the properties listed in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsSyntax**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master) interface get or set the properties listed in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -37,18 +41,18 @@ Retrieves and sets a **LONG** that contains the value of the **VT\_xxx** constan
 
 Active Directory supports the following **VT\_xxx** constants for the Automation data type that represents this syntax:
 
--   **VT\_BOOL**—BOOL
--   **VT\_BSTR**—BSTR
--   **VT\_BSTRT**—BSTRT
--   **VT\_CY**—CURRENCY
--   **VT\_DATE**—Date
--   **VT\_EMPTY**—**NULL**
--   **VT\_ERROR**—Not valid
--   **VT\_I2**—short
--   **VT\_I4**—long
--   **VT\_R4**—real
--   **VT\_R8**—double
--   **VT\_UI1**—BYTE
+-   **VT\_BOOL** BOOL
+-   **VT\_BSTR** BSTR
+-   **VT\_BSTRT** BSTRT
+-   **VT\_CY** CURRENCY
+-   **VT\_DATE** Date
+-   **VT\_EMPTY** **NULL**
+-   **VT\_ERROR** Not valid
+-   **VT\_I2** short
+-   **VT\_I4** long
+-   **VT\_R4** real
+-   **VT\_R8** double
+-   **VT\_UI1** BYTE
 
 <dt>
 
@@ -73,7 +77,7 @@ HRESULT put_OleAutoDataType(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -197,8 +201,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsSyntax is defined as C8F93DD2-4AE0-11CF-9E73-00AA004A5691<br/>           |
@@ -209,18 +213,18 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsClass**](iadsclass.md)
+[**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master)
 </dt> <dt>
 
-[**IADsProperty**](iadsproperty.md)
+[**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master)
 </dt> <dt>
 
-[**IADsSyntax**](iadssyntax.md)
+[**IADsSyntax**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for simple file operation events. The following syntax is simplified from MOF code.'
-ms.assetid: '5b6374e0-b39a-4d5a-acbd-25b410f1ba52'
-title: 'FileIo\_SimpleOp class'
+---
+Description: This class is the event type class for simple file operation events. The following syntax is simplified from MOF code.
+ms.assetid: 5b6374e0-b39a-4d5a-acbd-25b410f1ba52
+title: FileIo\_SimpleOp class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileIo\_SimpleOp class

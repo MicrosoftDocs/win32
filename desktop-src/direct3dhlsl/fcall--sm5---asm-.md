@@ -1,7 +1,12 @@
 ---
 title: fcall (sm5 - asm)
 description: Interface function call.
-ms.assetid: 'C21784A0-D2F4-4DDE-9AC4-4F21351BCA6E'
+ms.assetid: C21784A0-D2F4-4DDE-9AC4-4F21351BCA6E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fcall (sm5 - asm)
@@ -15,7 +20,7 @@ Interface function call.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Interface function call.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ The sum of \# in *fp\#* and *arrayIndex* select the function table. For example,
 
 -   If *arrayIndex* uses dynamic indexing, behavior is undefined if *arrayIndex* diverges on adjacent shader invocations, which could be executing in lockstep. The HLSL compiler will attempt to disallow this case.
 
-    Adjacent invocations can be inactive due to flow control, because it doesn’t break lockstep execution.
+    Adjacent invocations can be inactive due to flow control, because it doesn t break lockstep execution.
 
 -   If *fp\#* + *arrayIndex* specifies an out of bounds index, behavior is undefined.
 -   For the undefined cases described here, it means the behavior of the current D3D device becomes undefined, including the possibility of Device Lost. However no memory outside the current D3D device will be accessed or executed as code.
@@ -54,7 +59,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ### Minimum Shader Model
 
@@ -73,7 +78,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -82,9 +87,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

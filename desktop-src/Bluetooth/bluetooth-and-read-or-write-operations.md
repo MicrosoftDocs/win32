@@ -1,7 +1,12 @@
 ---
 title: Bluetooth and read or write operations
 description: Bluetooth is capable of performing all read and write operations available with Windows Sockets that are currently supported with other address families.
-ms.assetid: '1445aa04-38ca-47be-9483-d4133edbf3f4'
+ms.assetid: 1445aa04-38ca-47be-9483-d4133edbf3f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and read or write operations

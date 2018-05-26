@@ -1,7 +1,12 @@
 ---
-Description: 'The EXPERTSTATUSENUMERATION enumeration contains status values. It is used by the Status member of EXPERTSTATUS structure and the Status parameter in ExpertIndicateStatus.'
-ms.assetid: '217dce5a-3698-45a9-bb13-8379bcbdd762'
+Description: The EXPERTSTATUSENUMERATION enumeration contains status values. It is used by the Status member of EXPERTSTATUS structure and the Status parameter in ExpertIndicateStatus.
+ms.assetid: 217dce5a-3698-45a9-bb13-8379bcbdd762
 title: EXPERTSTATUSENUMERATION enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXPERTSTATUSENUMERATION enumeration
@@ -13,7 +18,7 @@ The **EXPERTSTATUSENUMERATION** enumeration contains status values. It is used b
 
 ```C++
 typedef enum  { 
-  EXPERTSTATUS_INACTIVE  = 0,
+  EXPERTSTATUS_INACTIVE  = 0,
   EXPERTSTATUS_STARTING,
   EXPERTSTATUS_RUNNING,
   EXPERTSTATUS_PROBLEM,
@@ -76,15 +81,15 @@ The expert finished successfully.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

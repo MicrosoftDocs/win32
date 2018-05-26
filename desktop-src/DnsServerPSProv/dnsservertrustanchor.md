@@ -2,13 +2,15 @@
 title: DnsServerTrustAnchor class
 description: Represents a trust anchor.
 audience: developer
-ms.assetid: '646e0b50-8322-4ec0-88b3-68e6cfb6c581'
-ms.prod: 'windows-server-dev'
+ms.assetid: 646e0b50-8322-4ec0-88b3-68e6cfb6c581
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerTrustAnchor class", "DnsServerTrustAnchor class, described"]
+keywords:
+- DnsServerTrustAnchor class
+- DnsServerTrustAnchor class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerTrustAnchor class
@@ -38,12 +43,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerTrustAnchor
 {
-  string                      TrustAnchorName;
-  string                      TrustAnchorType;
-  uint16                      KeyTag;
-  string                      TrustAnchorState;
-  datetime                    EnteredStateTime;
-  datetime                    NextStateTime;
+  string                      TrustAnchorName;
+  string                      TrustAnchorType;
+  uint16                      KeyTag;
+  string                      TrustAnchorState;
+  datetime                    EnteredStateTime;
+  datetime                    NextStateTime;
   DnsServerResourceRecordData TrustAnchorData;
 };
 ```
@@ -239,7 +244,7 @@ The possible values are.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -253,9 +258,9 @@ The possible values are.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

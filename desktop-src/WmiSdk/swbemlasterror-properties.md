@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemLastError object exposes the following properties.'
+Description: The SWbemLastError object exposes the following properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '19CA64FE-EAA7-41C6-8502-8D7B321B6C8F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 19CA64FE-EAA7-41C6-8502-8D7B321B6C8F
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemLastError Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemLastError Properties

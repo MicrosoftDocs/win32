@@ -1,8 +1,9 @@
 ---
 title: EM\_GETIMECOMPTEXT message
 description: Retrieves the Input Method Editor (IME) composition text.
-ms.assetid: '1516305c-5f87-4ae0-97db-8709c71abacc'
-keywords: ["EM_GETIMECOMPTEXT message Windows Controls"]
+ms.assetid: 1516305c-5f87-4ae0-97db-8709c71abacc
+keywords:
+- EM_GETIMECOMPTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETIMECOMPTEXT message
@@ -24,7 +30,7 @@ Retrieves the Input Method Editor (IME) composition text.
 *wParam* 
 </dt> <dd>
 
-The [**IMECOMPTEXT**](imecomptext.md) structure.
+The [**IMECOMPTEXT**](/windows/win32/Richedit/ns-richedit-_imecomptext?branch=master) structure.
 
 </dd> <dt>
 
@@ -51,8 +57,8 @@ This message only takes Unicode strings.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -61,12 +67,12 @@ This message only takes Unicode strings.
 
 <dl> <dt>
 
-[**IMECOMPTEXT**](imecomptext.md)
+[**IMECOMPTEXT**](/windows/win32/Richedit/ns-richedit-_imecomptext?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

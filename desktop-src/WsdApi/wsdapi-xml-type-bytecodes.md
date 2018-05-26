@@ -1,7 +1,12 @@
 ---
-Description: 'Used by WSDAPI to parse and generate XML using bytecode tables which describe complex types.'
-ms.assetid: '33fc9af3-c5e9-444d-bc3e-101830772aac'
+Description: Used by WSDAPI to parse and generate XML using bytecode tables which describe complex types.
+ms.assetid: 33fc9af3-c5e9-444d-bc3e-101830772aac
 title: WSDAPI XML Type Bytecodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WSDAPI XML Type Bytecodes

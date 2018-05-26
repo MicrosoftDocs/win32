@@ -1,14 +1,20 @@
 ---
 title: ARM element
 description: Indicates the assessment should run on ARM platforms.
-ms.assetid: 'E143634B-4BAF-490A-B844-50DD69996352'
-keywords: ["ARM element Access Execution Engine"]
+ms.assetid: E143634B-4BAF-490A-B844-50DD69996352
+keywords:
+- ARM element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ARM
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARM element

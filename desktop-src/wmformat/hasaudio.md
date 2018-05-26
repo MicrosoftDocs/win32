@@ -1,14 +1,20 @@
 ---
 title: HasAudio
 description: The HasAudio attribute is a file-level attribute that specifies whether the file contains any audio streams.
-ms.assetid: '104c9634-611b-4cd9-8493-cfdaddd49b72'
-keywords: ["HasAudio windows Media Format"]
+ms.assetid: 104c9634-611b-4cd9-8493-cfdaddd49b72
+keywords:
+- HasAudio windows Media Format
 topic_type:
 - apiref
 api_name:
 - HasAudio
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HasAudio

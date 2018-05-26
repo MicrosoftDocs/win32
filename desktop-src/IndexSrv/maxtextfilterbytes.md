@@ -1,7 +1,12 @@
 ---
 title: MaxTextFilterBytes
 description: MaxTextFilterBytes
-ms.assetid: 'b3e322e4-ac6f-49b6-9aa4-d09c36535007'
+ms.assetid: b3e322e4-ac6f-49b6-9aa4-d09c36535007
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxTextFilterBytes

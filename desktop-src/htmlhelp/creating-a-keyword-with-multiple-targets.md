@@ -1,7 +1,12 @@
 ---
 title: Creating a Keyword with Multiple Targets
 description: Creating a Keyword with Multiple Targets
-ms.assetid: '280AC168-59FC-46c8-BD1E-47D5683D904A'
+ms.assetid: 280AC168-59FC-46c8-BD1E-47D5683D904A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Keyword with Multiple Targets
@@ -18,7 +23,7 @@ You can create an index keyword that links to more than one topic. When a user c
 
     
 
-     
+     
 
 2.  Click **Add**.
 3.  In the **Project file** box, click a project file.
@@ -33,9 +38,9 @@ You can create an index keyword that links to more than one topic. When a user c
 [About Creating Index Files](create-an-index-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

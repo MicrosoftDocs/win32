@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.fontFace
 description: The fontFace attribute specifies or retrieves the font for the list box control.
-ms.assetid: '15e3180a-6e1e-4654-a0bb-164d66a86a26'
-keywords: ["LISTBOX.fontFace Windows Media Player"]
+ms.assetid: 15e3180a-6e1e-4654-a0bb-164d66a86a26
+keywords:
+- LISTBOX.fontFace Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.fontFace
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.fontFace
@@ -52,9 +58,9 @@ If the **fontFace** specified is not available on the user's system, the list bo
 [**LISTBOX.fontStyle**](listbox-fontstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

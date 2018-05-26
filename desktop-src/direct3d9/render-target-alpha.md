@@ -1,7 +1,12 @@
 ---
-Description: 'The frame buffer blender can now blend alpha channels independent from color-channel blending on render targets. This control is enabled with a new render state, D3DRS\_SEPARATEALPHABLENDENABLE.'
-ms.assetid: '6d30b13e-f4c6-4bc4-8735-15c398c099f1'
-title: 'Render Target Alpha (Direct3D 9)'
+Description: The frame buffer blender can now blend alpha channels independent from color-channel blending on render targets. This control is enabled with a new render state, D3DRS\_SEPARATEALPHABLENDENABLE.
+ms.assetid: 6d30b13e-f4c6-4bc4-8735-15c398c099f1
+title: Render Target Alpha (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Render Target Alpha (Direct3D 9)
@@ -20,7 +25,7 @@ D3DRS_DESTBLENDALPHA
 
 
 
-Like the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND, these can be set to one of the values in the [**D3DBLEND**](direct3d9.d3dblend) enumeration. The source and destination blend settings can be combined in several ways, depending on the settings in the SrcBlendCaps and DestBlendCaps members of [**D3DCAPS9**](d3dcaps9.md).
+Like the D3DRS\_SRCBLEND and D3DRS\_DESTBLEND, these can be set to one of the values in the [**D3DBLEND**](direct3d9.d3dblend) enumeration. The source and destination blend settings can be combined in several ways, depending on the settings in the SrcBlendCaps and DestBlendCaps members of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master).
 
 The alpha blending is done as follows:
 

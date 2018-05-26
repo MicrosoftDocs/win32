@@ -1,7 +1,12 @@
 ---
 title: Turning the Firewall Off
 description: This example turns off, or disables, the firewall using the Windows Firewall with Advanced Security APIs.
-ms.assetid: 'e3945143-9ff4-449f-88db-72c1ab70bf52'
+ms.assetid: e3945143-9ff4-449f-88db-72c1ab70bf52
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Turning the Firewall Off

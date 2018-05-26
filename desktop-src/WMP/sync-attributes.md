@@ -1,14 +1,20 @@
 ---
 title: Sync Attributes
 description: The Sync01 through Sync16 attributes are string representations of 32-bit values that Windows Media Player uses when it synchronizes playlists with one of up to 16 portable devices.
-ms.assetid: 'b9ae3420-aa09-4969-8637-f16d438942f3'
-keywords: ["Sync Attributes Windows Media Player"]
+ms.assetid: b9ae3420-aa09-4969-8637-f16d438942f3
+keywords:
+- Sync Attributes Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Sync
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sync Attributes
@@ -38,7 +44,7 @@ For example, the library might contain the following four playlists and respecti
 
 
 
- 
+ 
 
 When Windows Media Player synchronizes the device associated with the attribute, it will synchronize the playlists in the following order:
 
@@ -68,9 +74,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Enumerating Synchronization Playlists**](enumerating-synchronization-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies an attribute of a counter that describes how the counter should be displayed.'
-ms.assetid: '895a2f58-43fc-4311-a980-86e9ef21fb3d'
-title: 'counterAttribute (counterAttributes) Element'
+Description: Identifies an attribute of a counter that describes how the counter should be displayed.
+ms.assetid: 895a2f58-43fc-4311-a980-86e9ef21fb3d
+title: counterAttribute (counterAttributes) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # counterAttribute (counterAttributes) Element
@@ -22,8 +27,8 @@ The **counterAttribute** element is defined by the [**counterAttributes**](perfo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -37,9 +42,9 @@ The **counterAttribute** element is defined by the [**counterAttributes**](perfo
 [**counterAttributes (counter)**](performance-counters-counterattributes--counter--element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

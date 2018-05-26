@@ -4,11 +4,14 @@ description: Migrates data from a local WID database to the new SQL server-based
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8f14590d-3042-403c-a1cb-a3b257866284'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8f14590d-3042-403c-a1cb-a3b257866284
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetBrokerHAMode method Remote Desktop Services", "SetBrokerHAMode method Remote Desktop Services , Win32_SessionBrokerServiceProperties class", "Win32_SessionBrokerServiceProperties class Remote Desktop Services , SetBrokerHAMode method"]
+keywords:
+- SetBrokerHAMode method Remote Desktop Services
+- SetBrokerHAMode method Remote Desktop Services , Win32_SessionBrokerServiceProperties class
+- Win32_SessionBrokerServiceProperties class Remote Desktop Services , SetBrokerHAMode method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetBrokerHAMode method of the Win32\_SessionBrokerServiceProperties class
@@ -28,10 +34,10 @@ Migrates data from a local WID database to the new SQL server-based database. It
 
 ```mof
 uint32 SetBrokerHAMode(
-  [in] string connStringToCentralDBRdcms,
-  [in] string secondaryConnStringToCentralDBRdcms,
-  [in] string brokerDnsRRName,
-  [in] string activeBrokerName
+  [in] string connStringToCentralDBRdcms,
+  [in] string secondaryConnStringToCentralDBRdcms,
+  [in] string brokerDnsRRName,
+  [in] string activeBrokerName
 );
 ```
 
@@ -53,7 +59,7 @@ Connection string to the central database.
 
 Secondary connection string to the central database.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -69,7 +75,7 @@ Broker DNS name.
 
 Active broker name.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not available before Windows Server 2016.
 
 </dd> </dl>
 
@@ -80,7 +86,7 @@ Active broker name.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -94,9 +100,9 @@ Active broker name.
 [**Win32\_SessionBrokerServiceProperties**](win32-sessionbrokerserviceproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

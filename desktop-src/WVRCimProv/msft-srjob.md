@@ -4,13 +4,15 @@ description: A generic and instantiable unit of work, such as a batch or a print
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '49a05f71-cdb4-4098-8c25-4a7c9b1ab6bd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 49a05f71-cdb4-4098-8c25-4a7c9b1ab6bd
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SrJob class", "MSFT_SrJob class, described"]
+keywords:
+- MSFT_SrJob class
+- MSFT_SrJob class, described
 topic_type:
 - apiref
 api_name:
@@ -57,6 +59,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SrJob class
@@ -71,42 +76,42 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0.0"), dynamic, provider("wvrcimprov"), AMENDMENT]
 class MSFT_SrJob : CIM_ConcreteJob
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   JobStatus;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
-  string   InstanceID;
-  string   Name;
-  uint16   JobState;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
+  string   InstanceID;
+  string   Name;
+  uint16   JobState;
   datetime TimeOfLastStateChange;
   datetime TimeBeforeRemoval = "00000000000500.000000:000";
 };
@@ -133,7 +138,7 @@ The **MSFT\_SrJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -605,7 +610,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ConcreteJob**](cim-concretejob.md).
 
@@ -854,7 +859,7 @@ Indicates the user-friendly name for this instance of a job. In addition, the us
 > \[!Tip\]  
 > **Name** does not have to be unique within a namespace.
 
- 
+ 
 
 This property is inherited from [**CIM\_ConcreteJob**](cim-concretejob.md).
 
@@ -1121,7 +1126,7 @@ Contains indicators of the current status of the element. The first value of **O
 > [!Note]  
 > **OperationalStatus** replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, Microsoft strongly recommends that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status** (because it is single-valued) should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1413,7 +1418,7 @@ Indicates the percentage of the job that has completed at the time that this val
 > [!Note]  
 > Note that the value 101 is undefined and will be not be allowed in the next major revision of the specification.
 
- 
+ 
 
 This property is inherited from [**CIM\_Job**](cim-job.md).
 
@@ -1472,7 +1477,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
@@ -1909,7 +1914,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2101,7 +2106,7 @@ This property is inherited from [**CIM\_Job**](cim-job.md).
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -2115,9 +2120,9 @@ This property is inherited from [**CIM\_Job**](cim-job.md).
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

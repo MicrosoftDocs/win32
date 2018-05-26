@@ -1,7 +1,12 @@
-﻿---
-Description: 'This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use D3DReflect or D3D11Reflect.'
-ms.assetid: '7090418c-1940-4f07-b075-937e3399613c'
+---
+Description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- no longer exists. Instead, use D3DReflect or D3D11Reflect.
+ms.assetid: 7090418c-1940-4f07-b075-937e3399613c
 title: D3DX10ReflectShader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10ReflectShader function
@@ -46,9 +51,9 @@ Length of pShaderBytecode.
 *ppReflector* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10ShaderReflection1**](id3d10shaderreflection1.md)\*\***
+Type: **[**ID3D10ShaderReflection1**](/windows/win32/D3D10_1Shader/nn-d3d10_1shader-id3d10shaderreflection1?branch=master)\*\***
 
-Address of a shader reflection interface (see [**ID3D10ShaderReflection1 Interface**](id3d10shaderreflection1.md).)
+Address of a shader reflection interface (see [**ID3D10ShaderReflection1 Interface**](/windows/win32/D3D10_1Shader/nn-d3d10_1shader-id3d10shaderreflection1?branch=master).)
 
 </dd> </dl>
 

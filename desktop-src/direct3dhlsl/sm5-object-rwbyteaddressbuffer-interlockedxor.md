@@ -1,14 +1,20 @@
 ---
 title: InterlockedXor function
 description: Performs an atomic XOR on the value.
-ms.assetid: '692f8b5e-a81e-4700-8a8d-3594aba85671'
-keywords: ["InterlockedXor function HLSL"]
+ms.assetid: 692f8b5e-a81e-4700-8a8d-3594aba85671
+keywords:
+- InterlockedXor function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedXor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedXor function

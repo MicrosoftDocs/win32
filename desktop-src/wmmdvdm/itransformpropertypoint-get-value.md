@@ -1,8 +1,11 @@
 ---
 title: ITransformPropertyPoint get\_Value method
 description: The get\_Value method retrieves the value associated with a property point.
-ms.assetid: 'a5ef7a93-75ae-4694-b151-865d5b2e0fce'
-keywords: ["get_Value method Windows Movie Maker and DVD Maker", "get_Value method Windows Movie Maker and DVD Maker , ITransformPropertyPoint interface", "ITransformPropertyPoint interface Windows Movie Maker and DVD Maker , get_Value method"]
+ms.assetid: a5ef7a93-75ae-4694-b151-865d5b2e0fce
+keywords:
+- get_Value method Windows Movie Maker and DVD Maker
+- get_Value method Windows Movie Maker and DVD Maker , ITransformPropertyPoint interface
+- ITransformPropertyPoint interface Windows Movie Maker and DVD Maker , get_Value method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformPropertyPoint::get\_Value method
@@ -25,7 +33,7 @@ The **get\_Value** method retrieves the value associated with a property point.
 
 ```C++
 HRESULT get_Value(
-  [in, out] PROPVARIANT *pvarpropValue
+  [in, out] PROPVARIANT *pvarpropValue
 );
 ```
 
@@ -52,8 +60,8 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -66,9 +74,9 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 [**ITransformPropertyPoint Interface**](itransformpropertypoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

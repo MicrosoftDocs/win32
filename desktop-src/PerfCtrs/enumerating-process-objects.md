@@ -1,12 +1,17 @@
 ---
-Description: 'The following example calls the PdhEnumObjectItems function to enumerate the instances and counters of the process objects on the local computer.'
-ms.assetid: 'd7518ba6-a0f1-4985-aa2c-1ca15a0ceb02'
+Description: The following example calls the PdhEnumObjectItems function to enumerate the instances and counters of the process objects on the local computer.
+ms.assetid: d7518ba6-a0f1-4985-aa2c-1ca15a0ceb02
 title: Enumerating Process Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Process Objects
 
-The following example calls the [**PdhEnumObjectItems**](pdhenumobjectitems.md) function to enumerate the instances and counters of the process objects on the local computer.
+The following example calls the [**PdhEnumObjectItems**](/windows/win32/Pdh/nf-pdh-pdhenumobjectitemsa?branch=master) function to enumerate the instances and counters of the process objects on the local computer.
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionEnd property indicates the time that the fax outbound message completed transmission.'
-ms.assetid: '841046dc-fb76-404f-9ec8-59eb3f800219'
-title: 'FaxOutgoingMessage.TransmissionEnd property'
+---
+Description: The TransmissionEnd property indicates the time that the fax outbound message completed transmission.
+ms.assetid: 841046dc-fb76-404f-9ec8-59eb3f800219
+title: FaxOutgoingMessage.TransmissionEnd property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.TransmissionEnd property
@@ -48,7 +53,7 @@ For more information about the **Date** data type, see the *Microsoft Visual C++
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

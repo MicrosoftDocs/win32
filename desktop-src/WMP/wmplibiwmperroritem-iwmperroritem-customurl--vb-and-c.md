@@ -1,8 +1,11 @@
 ---
 title: IWMPErrorItem customUrl property
 description: The customUrl property gets the URL of a website that displays specific information about codec download failure.
-ms.assetid: '638491da-f1e6-4d25-840e-24e6e2027c37'
-keywords: ["customUrl property Windows Media Player", "customUrl property Windows Media Player , IWMPErrorItem interface", "IWMPErrorItem interface Windows Media Player , customUrl property"]
+ms.assetid: 638491da-f1e6-4d25-840e-24e6e2027c37
+keywords:
+- customUrl property Windows Media Player
+- customUrl property Windows Media Player , IWMPErrorItem interface
+- IWMPErrorItem interface Windows Media Player , customUrl property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPErrorItem::customUrl property
@@ -67,9 +75,9 @@ A **System.String** that is the custom URL.
 [**IWMPErrorItem Interface (VB and C#)**](iwmperroritem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

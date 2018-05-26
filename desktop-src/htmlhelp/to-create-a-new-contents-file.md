@@ -1,7 +1,12 @@
 ---
 title: To create a new contents file
 description: To create a new contents file
-ms.assetid: '5ED7B833-B429-466a-B3FA-31BDBE82DE07'
+ms.assetid: 5ED7B833-B429-466a-B3FA-31BDBE82DE07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a new contents file
@@ -15,7 +20,7 @@ ms.assetid: '5ED7B833-B429-466a-B3FA-31BDBE82DE07'
 
     
 
-     
+     
 
     
 
@@ -25,7 +30,7 @@ ms.assetid: '5ED7B833-B429-466a-B3FA-31BDBE82DE07'
 
     
 
-     
+     
 
 ## Notes
 
@@ -37,7 +42,7 @@ ms.assetid: '5ED7B833-B429-466a-B3FA-31BDBE82DE07'
 
     
 
-     
+     
 
 -   To change an entry, click **Edit Selection**. 
 
@@ -47,7 +52,7 @@ ms.assetid: '5ED7B833-B429-466a-B3FA-31BDBE82DE07'
 
     
 
-     
+     
 
 -   Before you can display a contents file in the Help Viewer, you need to add it to the help project file, and then compile the project.
 
@@ -58,9 +63,9 @@ ms.assetid: '5ED7B833-B429-466a-B3FA-31BDBE82DE07'
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

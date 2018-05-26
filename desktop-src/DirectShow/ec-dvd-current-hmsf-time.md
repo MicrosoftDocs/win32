@@ -1,12 +1,17 @@
 ---
-Description: 'Signals the current time, in DVD\_HMSF\_TIMECODE format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.'
-ms.assetid: '7c81a09a-21f3-49b2-b90a-7cbc9c815bad'
-title: 'EC\_DVD\_CURRENT\_HMSF\_TIME'
+Description: Signals the current time, in DVD\_HMSF\_TIMECODE format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.
+ms.assetid: 7c81a09a-21f3-49b2-b90a-7cbc9c815bad
+title: EC\_DVD\_CURRENT\_HMSF\_TIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_CURRENT\_HMSF\_TIME
 
-Signals the current time, in [**DVD\_HMSF\_TIMECODE**](dvd-hmsf-timecode.md) format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.
+Signals the current time, in [**DVD\_HMSF\_TIMECODE**](/windows/win32/strmif/ns-strmif-tagdvd_hmsf_timecode?branch=master) format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.
 
 ## Parameters
 
@@ -22,13 +27,13 @@ A ULONG value that contains the DVD\_HMSF\_TIMECODE structure. Assign lParam1 to
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-A ULONG value containing a union of [**DVD\_TIMECODE\_FLAGS**](dvd-timecode-flags.md).
+A ULONG value containing a union of [**DVD\_TIMECODE\_FLAGS**](/windows/win32/strmif/ne-strmif-tagdvd_timecode_flags?branch=master).
 
 </dd> </dl>
 
 ## Remarks
 
-The DVD\_HMSF\_TIMECODE format is intended to replace the old BCD format that is returned in EC\_DVD\_CURRENT\_TIME events. The HMSF timecodes are easier to work with. To have the Navigator send EC\_DVD\_CURRENT\_HMSF\_TIME events instead of EC\_DVD\_CURRENT\_TIME events, an application must call `IDvdControl2::SetOption(DVD_HMSF_TimeCodeEvents, TRUE)`. When this flag is set, the Navigator will also expect all time parameters in the [**IDvdControl2**](idvdcontrol2.md) and [**IDvdInfo2**](idvdinfo2.md) methods to be passed as DVD\_HMSF\_TIMECODEs.
+The DVD\_HMSF\_TIMECODE format is intended to replace the old BCD format that is returned in EC\_DVD\_CURRENT\_TIME events. The HMSF timecodes are easier to work with. To have the Navigator send EC\_DVD\_CURRENT\_HMSF\_TIME events instead of EC\_DVD\_CURRENT\_TIME events, an application must call `IDvdControl2::SetOption(DVD_HMSF_TimeCodeEvents, TRUE)`. When this flag is set, the Navigator will also expect all time parameters in the [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) and [**IDvdInfo2**](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master) methods to be passed as DVD\_HMSF\_TIMECODEs.
 
 This event is raised in the title domains.
 
@@ -55,9 +60,9 @@ This event is raised in the title domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

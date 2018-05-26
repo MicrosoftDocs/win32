@@ -1,8 +1,25 @@
 ---
 title: DWM Blur Behind Overview
 description: One of the signature Desktop Window Manager (DWM) effects is a translucent and blurred non-client area. The DWM APIs enable applications to apply these effects to the client area of their top-level windows.
-ms.assetid: 'bdf0f8bd-e399-4244-ae39-460f09a16f3c'
-keywords: ["Desktop Window Manager (DWM),blur-behind effect", "DWM (Desktop Window Manager),blur-behind effect", "blur-behind effect", "translucent effect", "transparent glass effect", "Desktop Window Manager (DWM),translucent effect", "DWM (Desktop Window Manager),translucent effect", "Desktop Window Manager (DWM),transparent glass effect", "DWM (Desktop Window Manager),transparent glass effect", "Desktop Window Manager (DWM),extending window frame into client area", "DWM (Desktop Window Manager),extending window frame into client area", "extending window frame into client area"]
+ms.assetid: bdf0f8bd-e399-4244-ae39-460f09a16f3c
+keywords:
+- Desktop Window Manager (DWM),blur-behind effect
+- DWM (Desktop Window Manager),blur-behind effect
+- blur-behind effect
+- translucent effect
+- transparent glass effect
+- Desktop Window Manager (DWM),translucent effect
+- DWM (Desktop Window Manager),translucent effect
+- Desktop Window Manager (DWM),transparent glass effect
+- DWM (Desktop Window Manager),transparent glass effect
+- Desktop Window Manager (DWM),extending window frame into client area
+- DWM (Desktop Window Manager),extending window frame into client area
+- extending window frame into client area
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM Blur Behind Overview
@@ -24,7 +41,7 @@ This topic discusses the following client blur-behind scenarios that the DWM ena
 
 An application can apply the blur effect behind the whole client region of the window or to a specific subregion. This enables applications to add styled path and search bars that are visually separate from the rest of the application.
 
-The API used in this scenario is the [**DwmEnableBlurBehindWindow**](dwmenableblurbehindwindow.md) function, which makes use of the [**DWM Blur Behind Constants**](dwm-bb-constants.md) and the [**DWM\_BLURBEHIND**](dwm-blurbehind.md) structure.
+The API used in this scenario is the [**DwmEnableBlurBehindWindow**](/windows/win32/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow?branch=master) function, which makes use of the [**DWM Blur Behind Constants**](dwm-bb-constants.md) and the [**DWM\_BLURBEHIND**](/windows/win32/Dwmapi/ns-dwmapi-_dwm_blurbehind?branch=master) structure.
 
 The following example function, `EnableBlurBehind`, illustrates how to apply the blur-behind effect to the whole window.
 
@@ -60,15 +77,15 @@ The following image illustrates the blur-behind effect applied to the whole wind
 
 ![the blur-behind effect applied to a window](images/dwm-blurbehindwindow.png)
 
-To apply the blur behind a subregion, apply a valid region handle (HRGN) to the **hRgnBlur** member of the [**DWM\_BLURBEHIND**](dwm-blurbehind.md) structure and add the **DWM\_BB\_BLURREGION** flag to the **dwFlags** member.
+To apply the blur behind a subregion, apply a valid region handle (HRGN) to the **hRgnBlur** member of the [**DWM\_BLURBEHIND**](/windows/win32/Dwmapi/ns-dwmapi-_dwm_blurbehind?branch=master) structure and add the **DWM\_BB\_BLURREGION** flag to the **dwFlags** member.
 
 When you apply the blur-behind effect to a subregion of the window, the alpha channel of the window is used for the nonblurred area. This can cause an unexpected transparency in the nonblurred region of a window. Therefore, be careful when you apply a blur effect to a subregion.
 
 ## Extending the Window Frame into the Client Area
 
-An application can extend the blur of the window frame into the client area. This is useful when you apply the blur effect behind a window with a docked toolbar or visually separate controls from the rest of an application. This functionality is exposed by the [**DwmExtendFrameIntoClientArea**](dwmextendframeintoclientarea.md) function.
+An application can extend the blur of the window frame into the client area. This is useful when you apply the blur effect behind a window with a docked toolbar or visually separate controls from the rest of an application. This functionality is exposed by the [**DwmExtendFrameIntoClientArea**](/windows/win32/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea?branch=master) function.
 
-To enable blur by using [**DwmExtendFrameIntoClientArea**](dwmextendframeintoclientarea.md), use the [**MARGINS**](inet_MARGINS) structure to indicate how much to extend into the client area. The following example function, `ExtendIntoClientBottom`, toggles the blur extension on the bottom of the non-client frame into the client area.
+To enable blur by using [**DwmExtendFrameIntoClientArea**](/windows/win32/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea?branch=master), use the [**MARGINS**](inet_MARGINS) structure to indicate how much to extend into the client area. The following example function, `ExtendIntoClientBottom`, toggles the blur extension on the bottom of the non-client frame into the client area.
 
 
 ```
@@ -95,7 +112,7 @@ The following image illustrates the blur-behind effect extended into the bottom 
 
 ![image that shows the blur-behind effect extended into the bottom of a client area](images/dwm-extendedbottom.png)
 
-Also available through the [**DwmExtendFrameIntoClientArea**](dwmextendframeintoclientarea.md) method is the "sheet of glass" effect, where the blur effect is applied to the whole surface of the window without a visible window border. The following example demonstrates this effect where the client area is rendered without a window border.
+Also available through the [**DwmExtendFrameIntoClientArea**](/windows/win32/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea?branch=master) method is the "sheet of glass" effect, where the blur effect is applied to the whole surface of the window without a visible window border. The following example demonstrates this effect where the client area is rendered without a window border.
 
 
 ```

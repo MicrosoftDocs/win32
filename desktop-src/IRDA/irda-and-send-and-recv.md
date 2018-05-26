@@ -1,8 +1,14 @@
 ---
 title: IrDA and send and recv
 description: The send and recv functions are used by IrDA applications to transfer data. The recv function blocks until data is available, and the send function normally will not block.
-ms.assetid: '703f2912-5d79-4d28-be48-9b6d8f93295a'
-keywords: ["IrDA and send and recv"]
+ms.assetid: 703f2912-5d79-4d28-be48-9b6d8f93295a
+keywords:
+- IrDA and send and recv
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and send and recv

@@ -1,7 +1,12 @@
 ---
-Description: 'Windows provides functions that perform the following tasks:'
-ms.assetid: '437419c7-d6c5-4cae-b5d0-d552c75d4448'
+Description: Windows provides functions that perform the following tasks
+ms.assetid: 437419c7-d6c5-4cae-b5d0-d552c75d4448
 title: Object Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Interface

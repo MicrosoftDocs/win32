@@ -2,13 +2,19 @@
 title: nonextensible attribute
 description: The \ nonextensible\ attribute specifies that the IDispatch implementation includes only the properties and methods listed in the interface description and cannot be extended with additional members at run time.
 ms.assetid: 5fcffa65-4f0c-4180-a6c2-f68d63ff99ae
-keywords: ["nonextensible attribute MIDL"]
+keywords:
+- nonextensible attribute MIDL
 topic_type:
 - apiref
 api_name:
 - nonextensible
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # nonextensible attribute

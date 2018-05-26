@@ -1,7 +1,12 @@
 ---
 title: COM Fundamentals
-ms.assetid: 'faa0dc85-2a66-4c69-acf6-d8d281063512'
+ms.assetid: faa0dc85-2a66-4c69-acf6-d8d281063512
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Fundamentals

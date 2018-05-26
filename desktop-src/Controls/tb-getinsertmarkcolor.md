@@ -1,8 +1,9 @@
 ---
 title: TB\_GETINSERTMARKCOLOR message
 description: Retrieves the color used to draw the insertion mark for the toolbar.
-ms.assetid: '52915dc6-a45c-4f3b-aa9b-99a23d423e59'
-keywords: ["TB_GETINSERTMARKCOLOR message Windows Controls"]
+ms.assetid: 52915dc6-a45c-4f3b-aa9b-99a23d423e59
+keywords:
+- TB_GETINSERTMARKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETINSERTMARKCOLOR message
@@ -37,8 +43,8 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 [**TB\_SETINSERTMARKCOLOR**](tb-setinsertmarkcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

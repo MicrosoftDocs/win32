@@ -1,7 +1,12 @@
 ---
 title: dsx - ps
-description: Compute the rate of change in the render target's x-direction.
-ms.assetid: '3358ddca-97a3-421d-8e5d-6b425903e683'
+description: Compute the rate of change in the render targets x-direction.
+ms.assetid: 3358ddca-97a3-421d-8e5d-6b425903e683
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dsx - ps

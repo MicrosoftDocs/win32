@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getByAuthor method
 description: The getByAuthor method retrieves a playlist of the media items by the specified author.
-ms.assetid: '415dfbe5-c709-4674-bcdd-38742150d11f'
-keywords: ["getByAuthor method Windows Media Player", "getByAuthor method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getByAuthor method"]
+ms.assetid: 415dfbe5-c709-4674-bcdd-38742150d11f
+keywords:
+- getByAuthor method Windows Media Player
+- getByAuthor method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getByAuthor method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getByAuthor method
@@ -103,9 +111,9 @@ onClick = "
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

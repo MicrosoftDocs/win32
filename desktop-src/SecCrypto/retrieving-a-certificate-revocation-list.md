@@ -1,12 +1,17 @@
 ---
-Description: 'Demonstrates how to retrieve a certificate revocation list.'
-ms.assetid: 'b8fbffae-d968-453d-81f0-af9d60be5fa9'
+Description: Demonstrates how to retrieve a certificate revocation list.
+ms.assetid: b8fbffae-d968-453d-81f0-af9d60be5fa9
 title: Retrieving a Certificate Revocation List
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving a Certificate Revocation List
 
-A [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) is responsible for publishing its [*certificate revocation list*](security.c_gly#-security-certificate-revocation-list-gly) (CRL). The current CRL can be retrieved by using the [**ICertAdmin2::GetCRL**](icertadmin2-getcrl.md) method. In cases where a CA's certificate has been renewed, you might need to retrieve CRLs for the previous CA certificates. For information about CA renewal, see [Certification Authority Renewal](certification-authority-renewal.md). Additionally, a CA might publish delta CRLs. To retrieve CRLs for renewed CA certificates or delta CRLs, use either the [**ICertAdmin2::GetCAProperty**](icertadmin2-getcaproperty.md) or [**ICertRequest2::GetCAProperty**](icertrequest2-getcaproperty.md) methods.
+A [*certification authority*](security.c_gly#-security-certification-authority-gly) (CA) is responsible for publishing its [*certificate revocation list*](security.c_gly#-security-certificate-revocation-list-gly) (CRL). The current CRL can be retrieved by using the [**ICertAdmin2::GetCRL**](/windows/win32/Certadm/nf-certadm-icertadmin-getcrl?branch=master) method. In cases where a CA's certificate has been renewed, you might need to retrieve CRLs for the previous CA certificates. For information about CA renewal, see [Certification Authority Renewal](certification-authority-renewal.md). Additionally, a CA might publish delta CRLs. To retrieve CRLs for renewed CA certificates or delta CRLs, use either the [**ICertAdmin2::GetCAProperty**](/windows/win32/Certadm/nf-certadm-icertadmin2-getcaproperty?branch=master) or [**ICertRequest2::GetCAProperty**](/windows/win32/Certcli/nf-certcli-icertrequest2-getcaproperty?branch=master) methods.
 
 The following example shows retrieving the current CRL.
 
@@ -78,7 +83,7 @@ error:
 
 
 
-The following example shows retrieving base and delta CRLs, including those for CA certificates that have been renewed. The example uses [**ICertAdmin2::GetCAProperty**](icertadmin2-getcaproperty.md), although [**ICertRequest2::GetCAProperty**](icertrequest2-getcaproperty.md) provides similar functionality.
+The following example shows retrieving base and delta CRLs, including those for CA certificates that have been renewed. The example uses [**ICertAdmin2::GetCAProperty**](/windows/win32/Certadm/nf-certadm-icertadmin2-getcaproperty?branch=master), although [**ICertRequest2::GetCAProperty**](/windows/win32/Certcli/nf-certcli-icertrequest2-getcaproperty?branch=master) provides similar functionality.
 
 
 ```C++

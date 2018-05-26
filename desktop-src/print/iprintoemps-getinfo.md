@@ -1,7 +1,12 @@
-﻿---
-Description: 'A rendering plug-in''s IPrintOemPS::GetInfo method returns identification information.'
-ms.assetid: '9a8b060d-675b-4171-b75e-6df55cd0667f'
-title: 'IPrintOemPS::GetInfo method'
+---
+Description: A rendering plug-ins IPrintOemPSGetInfo method returns identification information.
+ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
+title: IPrintOemPSGetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::GetInfo method

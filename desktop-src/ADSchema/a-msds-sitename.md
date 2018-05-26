@@ -4,17 +4,22 @@ description: Lists the site name that corresponds to the DC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c2ffd15b-c6e2-442e-9650-bf23058c8941'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c2ffd15b-c6e2-442e-9650-bf23058c8941
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-SiteName attribute AD Schema", "msDS-SiteName attribute AD Schema"]
+keywords:
+- ms-DS-SiteName attribute AD Schema
+- msDS-SiteName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-SiteName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-SiteName attribute
@@ -38,9 +43,9 @@ Lists the site name that corresponds to the DC.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Lists the site name that corresponds to the DC.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

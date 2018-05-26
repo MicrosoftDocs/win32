@@ -1,8 +1,11 @@
 ---
 title: ActionCollection.Item property
 description: For scripting, gets a specified action from the collection.
-ms.assetid: 'a5567c82-2d56-4c3e-894c-ca6d432a3358'
-keywords: ["Item property Task Scheduler", "Item property Task Scheduler , ActionCollection object", "ActionCollection object Task Scheduler , Item property"]
+ms.assetid: a5567c82-2d56-4c3e-894c-ca6d432a3358
+keywords:
+- Item property Task Scheduler
+- Item property Task Scheduler , ActionCollection object
+- ActionCollection object Task Scheduler , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActionCollection.Item property
@@ -42,8 +50,8 @@ Collections are 1-based. In other words, the index for the first item in the col
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -59,9 +67,9 @@ Collections are 1-based. In other words, the index for the first item in the col
 [**ActionCollection**](actioncollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

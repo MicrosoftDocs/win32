@@ -1,8 +1,22 @@
 ---
 title: Embedding the Windows Media Player Control in a Web Page
 description: Embedding the Windows Media Player Control in a Web Page
-ms.assetid: '2da02f0d-7ec0-41bf-9284-9b348607e460'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "Windows Media Player Mobile,embedding ActiveX control", "embedding,Web pages", "Web page embedding,basic vs. elaborate approach"]
+ms.assetid: 2da02f0d-7ec0-41bf-9284-9b348607e460
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- Windows Media Player Mobile,embedding ActiveX control
+- embedding,Web pages
+- Web page embedding,basic vs. elaborate approach
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedding the Windows Media Player Control in a Web Page

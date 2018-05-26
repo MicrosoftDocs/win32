@@ -1,8 +1,9 @@
 ---
 title: EM\_LINEFROMCHAR message
 description: Gets the index of the line that contains the specified character index in a multiline edit control.
-ms.assetid: 'e8e9217b-3f0c-478d-b44d-2a51868dbc5a'
-keywords: ["EM_LINEFROMCHAR message Windows Controls"]
+ms.assetid: e8e9217b-3f0c-478d-b44d-2a51868dbc5a
+keywords:
+- EM_LINEFROMCHAR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_LINEFROMCHAR message
@@ -24,7 +30,7 @@ Gets the index of the line that contains the specified character index in a mult
 *wParam* 
 </dt> <dd>
 
-The character index of the character contained in the line whose number is to be retrieved. If this parameter is –1, **EM\_LINEFROMCHAR** retrieves either the line number of the current line (the line containing the caret) or, if there is a selection, the line number of the line containing the beginning of the selection.
+The character index of the character contained in the line whose number is to be retrieved. If this parameter is  1, **EM\_LINEFROMCHAR** retrieves either the line number of the current line (the line containing the caret) or, if there is a selection, the line number of the line containing the beginning of the selection.
 
 </dd> <dt>
 
@@ -41,7 +47,7 @@ The return value is the zero-based line number of the line containing the charac
 
 ## Remarks
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. If the character index is greater than 64,000, use the [**EM\_EXLINEFROMCHAR**](em-exlinefromchar.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. If the character index is greater than 64,000, use the [**EM\_EXLINEFROMCHAR**](em-exlinefromchar.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -49,8 +55,8 @@ The return value is the zero-based line number of the line containing the charac
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ The return value is the zero-based line number of the line containing the charac
 [**EM\_LINEINDEX**](em-lineindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

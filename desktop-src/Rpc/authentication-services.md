@@ -1,7 +1,12 @@
 ---
 title: Authentication Services
 description: The Security Support Provider Interface (SSPI) provides the underlying authentication services for RPC.
-ms.assetid: '5d27e07e-5519-4c37-a64a-99a2930489be'
+ms.assetid: 5d27e07e-5519-4c37-a64a-99a2930489be
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Services

@@ -4,11 +4,15 @@ description: Developers can create custom web services that manage virtual deskt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ae2dad51-be37-4311-a7c3-e99b2f41bed1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ae2dad51-be37-4311-a7c3-e99b2f41bed1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , WSDL interface for custom VDI"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , WSDL interface for custom VDI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSDL Interface for Custom VDI Solutions

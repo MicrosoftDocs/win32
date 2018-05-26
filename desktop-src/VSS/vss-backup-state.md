@@ -1,12 +1,17 @@
 ---
-Description: 'During a backup operation, the requester uses IVssBackupComponents::SetBackupState to define the type of operation in progress.'
-ms.assetid: '43dcdac7-ed8e-4150-83eb-585e0e92f13c'
+Description: During a backup operation, the requester uses IVssBackupComponentsSetBackupState to define the type of operation in progress.
+ms.assetid: 43dcdac7-ed8e-4150-83eb-585e0e92f13c
 title: VSS Backup State
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VSS Backup State
 
-During a backup operation, the requester uses [**IVssBackupComponents::SetBackupState**](ivssbackupcomponents-setbackupstate.md) to define the type of operation in progress.
+During a backup operation, the requester uses [**IVssBackupComponents::SetBackupState**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate?branch=master) to define the type of operation in progress.
 
 This information is not included in an easily retrievable form in the Backup Components Document, so requester developers should store this information independently on any backup media.
 
@@ -25,9 +30,9 @@ When deciding on the type of backup to pursue and which writers to work with, re
 -   Copy Backup (VSS\_BT\_COPY)—like the VSS\_BT\_FULL backup type, files will be backed up regardless of their last backup date. However, the backup history of each file will not be updated, and this sort of backup cannot be used as the basis of an incremental or differential backup.
 -   Incremental (VSS\_BT\_INCREMENTAL)—the VSS API is used to ensure that only files that have been changed or added since the last full or incremental backup are to be copied to a storage medium. Restoring an incremental backup requires the original backup image and all incremental backup images made since the initial backup.
 -   Differential (VSS\_BT\_DIFFERENTIAL)—the VSS API is used to ensure that only files that have been changed or added since the last full backup are to be copied to a storage media; all intermediate backup information is ignored. Restoring a differential backup requires the original backup image and the most recent differential backup image made since the last full backup.
--   Log File (VSS\_BT\_LOG)—only a writer's log files (files added to a component with the [**IVssCreateWriterMetadata::AddDataBaseLogFiles**](ivsscreatewritermetadata-adddatabaselogfiles.md) method, and retrieved by a call to [**IVssWMComponent::GetDatabaseLogFile**](ivsswmcomponent-getdatabaselogfile.md)) will be backed up. This backup type is specific to VSS.
+-   Log File (VSS\_BT\_LOG)—only a writer's log files (files added to a component with the [**IVssCreateWriterMetadata::AddDataBaseLogFiles**](/windows/win32/VsWriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles?branch=master) method, and retrieved by a call to [**IVssWMComponent::GetDatabaseLogFile**](/windows/win32/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile?branch=master)) will be backed up. This backup type is specific to VSS.
 
-It is possible for requesters to implement these backups using information and methods outside of VSS. Only when a requester implements a backup using the VSS API should it be said to have one of the listed backup types. For instance, a requester participates in a VSS\_BT\_LOG type of backup only if it used the information returned by [**IVssWMComponent::GetDatabaseLogFile**](ivsswmcomponent-getdatabaselogfile.md) to identify log files. Similarly, the VSS\_BT\_INCREMENTAL and VSS\_BT\_DIFFERENTIAL types apply only to incremental or differential operations, as described in [Incremental and Differential Backups](incremental-and-differential-backups.md).
+It is possible for requesters to implement these backups using information and methods outside of VSS. Only when a requester implements a backup using the VSS API should it be said to have one of the listed backup types. For instance, a requester participates in a VSS\_BT\_LOG type of backup only if it used the information returned by [**IVssWMComponent::GetDatabaseLogFile**](/windows/win32/VsBackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile?branch=master) to identify log files. Similarly, the VSS\_BT\_INCREMENTAL and VSS\_BT\_DIFFERENTIAL types apply only to incremental or differential operations, as described in [Incremental and Differential Backups](incremental-and-differential-backups.md).
 
 </dd> <dt>
 
@@ -45,7 +50,7 @@ An example of not running in component mode would be performing a system image b
 
 VSS supports saving the running system state in a fully bootable configuration. However, this is not always necessary, and writer preparation to save a bootable state can sometimes degrade real-time performance of a running system.
 
-Therefore, requesters indicate whether a backup will include a bootable system state as an argument to [**IVssBackupComponents::SetBackupState**](ivssbackupcomponents-setbackupstate.md). Writers determine whether they have to support saving the bootable system state by calling [**CVssWriter::IsBootableStateBackedUp**](cvsswriter-isbootablestatebackedup.md).
+Therefore, requesters indicate whether a backup will include a bootable system state as an argument to [**IVssBackupComponents::SetBackupState**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate?branch=master). Writers determine whether they have to support saving the bootable system state by calling [**CVssWriter::IsBootableStateBackedUp**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-isbootablesystemstatebackedup?branch=master).
 
 Even if bootable system state is not selected, shadow copies of the system files will be made and the files may be backed up.
 
@@ -58,7 +63,7 @@ It is not possible to recover this information from a retrieved Backup Component
 <span id="Partial_File_Support"></span><span id="partial_file_support"></span><span id="PARTIAL_FILE_SUPPORT"></span>Partial File Support
 </dt> <dd>
 
-Some writers support file restoration through the overwriting of parts of the files they manage. A requester may be designed to take advantage of this, and if so it indicates this by setting the information in [**IVssBackupComponents::SetBackupState**](ivssbackupcomponents-setbackupstate.md).
+Some writers support file restoration through the overwriting of parts of the files they manage. A requester may be designed to take advantage of this, and if so it indicates this by setting the information in [**IVssBackupComponents::SetBackupState**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate?branch=master).
 
 </dd> </dl>
 

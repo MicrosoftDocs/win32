@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes a unit length quaternion.'
-ms.assetid: '31f56c2b-96b0-4110-a5b9-ce09983779b6'
+---
+Description: Computes a unit length quaternion.
+ms.assetid: 31f56c2b-96b0-4110-a5b9-ce09983779b6
 title: D3DXQuaternionNormalize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionNormalize function

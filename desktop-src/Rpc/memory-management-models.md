@@ -1,7 +1,12 @@
 ---
 title: Memory-Management Models
 description: Memory-Management Models
-ms.assetid: '1690901b-2a1e-455b-a440-2674f5e5dfa4'
+ms.assetid: 1690901b-2a1e-455b-a440-2674f5e5dfa4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory-Management Models

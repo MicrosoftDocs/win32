@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used with fonts and text:'
-ms.assetid: 'ee1ec22a-c611-4b09-b600-85c0f7ceff73'
+Description: The following elements are used with fonts and text
+ms.assetid: ee1ec22a-c611-4b09-b600-85c0f7ceff73
 title: Font and Text Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Font and Text Reference

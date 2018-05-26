@@ -1,8 +1,19 @@
 ---
 title: About Custom Visualizations
 description: About Custom Visualizations
-ms.assetid: '74bd5eb3-c3b1-4cac-9a05-be49847baa20'
-keywords: ["Windows Media Player,visualizations", "Windows Media Player plug-ins,visualizations", "plug-ins,visualizations", "visualizations,about", "custom visualizations,about", "effects"]
+ms.assetid: 74bd5eb3-c3b1-4cac-9a05-be49847baa20
+keywords:
+- Windows Media Player,visualizations
+- Windows Media Player plug-ins,visualizations
+- plug-ins,visualizations
+- visualizations,about
+- custom visualizations,about
+- effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Custom Visualizations

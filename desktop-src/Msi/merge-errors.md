@@ -1,7 +1,12 @@
-﻿---
-Description: 'The read-only Errors property of the Merge object returns a collection of Error objects that is the current set of errors.'
-ms.assetid: '619f17cc-131a-4262-ad48-9ab1318142aa'
-title: 'Merge.Errors property'
+---
+Description: The read-only Errors property of the Merge object returns a collection of Error objects that is the current set of errors.
+ms.assetid: 619f17cc-131a-4262-ad48-9ab1318142aa
+title: Merge.Errors property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge.Errors property
@@ -27,7 +32,7 @@ The retrieval is non-destructive. Multiple instances of the error collection may
 
 ### C++
 
-See [**get\_Errors**](imsmmerge-get-errors.md) Function.
+See [**get\_Errors**](/windows/win32/Mergemod/?branch=master) Function.
 
 ## Requirements
 

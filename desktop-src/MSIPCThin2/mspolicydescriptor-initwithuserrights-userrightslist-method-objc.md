@@ -4,17 +4,21 @@ description: Initialize an MSPolicyDescriptor with user rights.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '64FC474F-A20F-4D11-A797-FC7AB2306E5F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 64FC474F-A20F-4D11-A797-FC7AB2306E5F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor initWithUserRights userRights method"]
+keywords:
+- MSPolicyDescriptor initWithUserRights userRights method
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor initWithUserRights userRights method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor initWithUserRights:userRights method
@@ -37,7 +41,7 @@ Initialize an [**MSPolicyDescriptor**](mspolicydescriptor-interface-objc.md) wit
 
 
 
- 
+ 
 
 ## Returns
 
@@ -57,11 +61,11 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

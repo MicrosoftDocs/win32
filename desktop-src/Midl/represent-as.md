@@ -2,13 +2,19 @@
 title: represent\_as attribute
 description: The \ represent\_as\ ACF attribute associates a named local type in the target language repr-type with a transfer type named-type that is transferred between client and server.
 ms.assetid: ae44d220-e8f3-47a3-8f5e-a2668ac75411
-keywords: ["represent_as attribute MIDL"]
+keywords:
+- represent_as attribute MIDL
 topic_type:
 - apiref
 api_name:
 - represent_as
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # represent\_as attribute

@@ -2,13 +2,15 @@
 title: BgpMessageStatistics class
 description: Retrieves the statistics of a Border Gateway Protocol (BGP) message.
 audience: developer
-ms.assetid: '82cc7a38-e70b-459a-8423-fa63ebc129b9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 82cc7a38-e70b-459a-8423-fa63ebc129b9
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BgpMessageStatistics class", "BgpMessageStatistics class, described"]
+keywords:
+- BgpMessageStatistics class
+- BgpMessageStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BgpMessageStatistics class
@@ -37,8 +42,8 @@ class BgpMessageStatistics
 {
   datetime LastSent;
   datetime LastReceived;
-  uint64   SentCount;
-  uint64   ReceivedCount;
+  uint64   SentCount;
+  uint64   ReceivedCount;
 };
 ```
 
@@ -113,7 +118,7 @@ The total number of the BGP messages that were sent to the peer.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -127,9 +132,9 @@ The total number of the BGP messages that were sent to the peer.
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

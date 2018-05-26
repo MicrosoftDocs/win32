@@ -1,13 +1,16 @@
 ---
-Description: 'The LogFileEventConsumer class writes customized strings to a text log file when events are delivered to it.'
+Description: The LogFileEventConsumer class writes customized strings to a text log file when events are delivered to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8934b60e-3763-4b85-89fd-58fe6136dff6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8934b60e-3763-4b85-89fd-58fe6136dff6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: LogFileEventConsumer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LogFileEventConsumer class
@@ -20,14 +23,14 @@ The **LogFileEventConsumer** class writes customized strings to a text log file 
 [AMENDMENT]
 class LogFileEventConsumer : __EventConsumer
 {
-  uint8   CreatorSID[];
-  string  MachineName;
-  uint32  MaximumQueueSize;
-  string  Filename;
+  uint8   CreatorSID[];
+  string  MachineName;
+  uint32  MaximumQueueSize;
+  string  Filename;
   boolean IsUnicode;
-  uint64  MaximumFileSize = 65535;
-  string  Name;
-  string  Text;
+  uint64  MaximumFileSize = 65535;
+  string  Name;
+  string  Text;
 };
 ```
 
@@ -108,11 +111,11 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Maximum size of a log file—in bytes. If the primary file exceeds its maximum size, the contents are moved to a different file and the primary file is emptied. A value of 0 (zero) means there is no size limit. The default value is 65,535 bytes. The size of the file is checked before a write operation. Therefore, you can have a file that is slightly larger than the specified size limit. The next write operation catches it and starts a new file.
+Maximum size of a log file in bytes. If the primary file exceeds its maximum size, the contents are moved to a different file and the primary file is emptied. A value of 0 (zero) means there is no size limit. The default value is 65,535 bytes. The size of the file is checked before a write operation. Therefore, you can have a file that is slightly larger than the specified size limit. The next write operation catches it and starts a new file.
 
 The following list identifies the naming structure for the backup file:
 
--   If the original filename is 8.3, the extension is replaced by a string in the format of "001", "002", and so on—with the smallest number larger than all the previously used and chosen numbers. If "999" is used, then the number chosen is the smallest unused number.
+-   If the original filename is 8.3, the extension is replaced by a string in the format of "001", "002", and so on with the smallest number larger than all the previously used and chosen numbers. If "999" is used, then the number chosen is the smallest unused number.
 -   If the original filename is not 8.3, a string in the format of "001", "002", and so on is appended to the file name.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/aa389763).
@@ -168,7 +171,7 @@ Standard string [template](using-standard-string-templates.md) for the text of a
 > [!Note]  
 > The **LogFileEventConsumer** does not secure the log file. Therefore, when you configure the **LogFileEventConsumer**, it is important to specify a directory that is secured to the level that you require.
 
- 
+ 
 
 The **LogFileEventConsumer** class is derived from the [**\_\_EventConsumer**](--eventconsumer.md) abstract class.
 
@@ -182,8 +185,8 @@ For an example of using **LogFileEventConsumer** to create a consumer, see [Writ
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\subscription<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>Wbemcons.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemcons.dll</dt> </dl> |
@@ -209,9 +212,9 @@ For an example of using **LogFileEventConsumer** to create a consumer, see [Writ
 [**\_\_EventConsumer**](--eventconsumer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

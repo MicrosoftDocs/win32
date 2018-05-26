@@ -4,11 +4,15 @@ description: Links to topics that show how to set up the development environment
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3020931f-d3d6-41ff-9855-14526d222d5c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3020931f-d3d6-41ff-9855-14526d222d5c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Setting Up Your Development Environment Active Directory"]
+keywords:
+- Setting Up Your Development Environment Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Up Your Development Environment

@@ -2,13 +2,19 @@
 title: /Oi switch
 description: The /Oi and /Oic switches direct the MIDL compiler to use a fully-interpreted marshaling method. The /Oicf switch provides additional performance enhancements.
 ms.assetid: cf597a45-410f-4098-850b-240c6ebce23b
-keywords: ["/Oi switch MIDL"]
+keywords:
+- /Oi switch MIDL
 topic_type:
 - apiref
 api_name:
 - /Oi
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /Oi switch

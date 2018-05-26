@@ -1,8 +1,18 @@
 ---
 title: Internal Events
 description: Internal Events
-ms.assetid: 'd99e84ec-41db-42e7-ab26-5ca6a3ba610b'
-keywords: ["Windows Media Player skins,internal events", "skins,internal events", "events,internal", "writing code for skins,internal events", "internal events"]
+ms.assetid: d99e84ec-41db-42e7-ab26-5ca6a3ba610b
+keywords:
+- Windows Media Player skins,internal events
+- skins,internal events
+- events,internal
+- writing code for skins,internal events
+- internal events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internal Events

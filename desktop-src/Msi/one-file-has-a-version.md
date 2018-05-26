@@ -1,7 +1,12 @@
 ---
-Description: 'If only one of the files has a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.'
-ms.assetid: '1eda5521-6e23-49b8-9870-f5370def487e'
+Description: If only one of the files has a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.
+ms.assetid: 1eda5521-6e23-49b8-9870-f5370def487e
 title: One File Has a Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # One File Has a Version

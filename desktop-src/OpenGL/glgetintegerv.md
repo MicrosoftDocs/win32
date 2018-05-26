@@ -1,8 +1,9 @@
 ---
 title: glGetIntegerv function
 description: The glGetIntegerv function returns the value or values of a selected parameter.
-ms.assetid: '7f5d0084-443a-44f8-98fb-0003627212de'
-keywords: ["glGetIntegerv function OpenGL"]
+ms.assetid: 7f5d0084-443a-44f8-98fb-0003627212de
+keywords:
+- glGetIntegerv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetIntegerv function
@@ -22,8 +28,8 @@ The **glGetIntegerv** function returns the value or values of a selected paramet
 
 ```C++
 void WINAPI glGetIntegerv(
-   GLenum pname,
-   GLint  *params
+   GLenum pname,
+   GLint  *params
 );
 ```
 
@@ -269,7 +275,7 @@ The parameter value to be returned. The following symbolic constants are accepte
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -328,8 +334,8 @@ You can query many of the Boolean parameters more easily with [**glIsEnabled**](
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -565,9 +571,9 @@ You can query many of the Boolean parameters more easily with [**glIsEnabled**](
 [**glViewport**](glviewport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

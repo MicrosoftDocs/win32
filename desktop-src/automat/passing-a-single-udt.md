@@ -1,7 +1,12 @@
 ---
 title: Passing a Single UDT
 description: For passing a single UDT for v-table binding, the designer of the server describes the data types of the UDT in a IDL file. The client and server will then simply declare the UDT and pass it to one another.
-ms.assetid: '909a177a-59b5-45ab-8990-2f8c384fcb07'
+ms.assetid: 909a177a-59b5-45ab-8990-2f8c384fcb07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Passing a Single UDT
@@ -47,19 +52,19 @@ Then the structure is passed to a method:
 
 <dl> <dt>
 
-[**GetRecordInfoFromTypeInfo**](getrecordinfofromtypeinfo.md)
+[**GetRecordInfoFromTypeInfo**](/windows/previous-versions/OleAuto/nf-oleauto-getrecordinfofromtypeinfo?branch=master)
 </dt> <dt>
 
-[**GetRecordInfoFromGuids**](getrecordinfofromguids.md)
+[**GetRecordInfoFromGuids**](/windows/previous-versions/OleAuto/nf-oleauto-getrecordinfofromguids?branch=master)
 </dt> <dt>
 
-[**LoadRegTypeLib**](loadregtypelib.md)
+[**LoadRegTypeLib**](/windows/previous-versions/OleAuto/nf-oleauto-loadregtypelib?branch=master)
 </dt> <dt>
 
-[**IDispatch::GetTypeInfo**](idispatch-gettypeinfo.md)
+[**IDispatch::GetTypeInfo**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-gettypeinfo?branch=master)
 </dt> <dt>
 
-[**ITypeInfo**](itypeinfo.md)
+[**ITypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-itypeinfo?branch=master)
 </dt> </dl>
 
  

@@ -1,19 +1,24 @@
 ---
-Description: 'The CheckPaletteHeader method validates the palette entries in a VIDEOINFO structure.'
-ms.assetid: 'bc18cbe6-0446-43a6-a50c-e587815b789d'
-title: 'CImageDisplay.CheckPaletteHeader method'
+Description: The CheckPaletteHeader method validates the palette entries in a VIDEOINFO structure.
+ms.assetid: bc18cbe6-0446-43a6-a50c-e587815b789d
+title: CImageDisplay.CheckPaletteHeader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.CheckPaletteHeader method
 
-The `CheckPaletteHeader` method validates the palette entries in a [**VIDEOINFO**](videoinfo.md) structure.
+The `CheckPaletteHeader` method validates the palette entries in a [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 BOOL CheckPaletteHeader(
-   const VIDEOINFO *pInput
+   const VIDEOINFO *pInput
 );
 ```
 
@@ -56,9 +61,9 @@ If the image format is not palettized, the method verifies that **biClrUsed** eq
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

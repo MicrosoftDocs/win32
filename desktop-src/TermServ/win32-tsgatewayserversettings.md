@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSGatewayServerSettings class
-description: Provides methods and properties to view and configure Remote Desktop Gateway (RD Gateway) server settings.
+description: Provides methods and properties to view and configure Remote Desktop Gateway (RD Gateway) server settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f772bf71-68ef-4345-8123-f6ad50ee4d61'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: f772bf71-68ef-4345-8123-f6ad50ee4d61
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSGatewayServerSettings class Remote Desktop Services", "Win32_TSGatewayServerSettings class Remote Desktop Services , described"]
+keywords:
+- Win32_TSGatewayServerSettings class Remote Desktop Services
+- Win32_TSGatewayServerSettings class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -40,11 +42,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayServerSettings class
 
-Provides methods and properties to view and configure Remote Desktop Gateway (RD Gateway) server settings. An administrator can use this class to configure a set of protocols, the set of events that will be written to the event log, and the maximum number of connections through RD Gateway.
+Provides methods and properties to view and configure Remote Desktop Gateway (RD Gateway) server settings. An administrator can use this class to configure a set of protocols, the set of events that will be written to the event log, and the maximum number of connections through RD Gateway.
 
 ## Syntax
 
@@ -52,28 +57,28 @@ Provides methods and properties to view and configure Remote Desktop Gateway (RD
 [dynamic, provider("AAGProvider"), AMENDMENT]
 class Win32_TSGatewayServerSettings
 {
-  uint32  MaxConnections;
+  uint32  MaxConnections;
   boolean UnlimitedConnections;
-  uint32  MaximumAllowedConnectionsBySku;
-  string  SkuName;
-  uint32  MaxProtocols;
-  uint32  MaxLogEvents;
-  string  adminMessageText;
-  string  adminMessageStartTime;
-  string  adminMessageEndTime;
-  string  consentMessageText;
+  uint32  MaximumAllowedConnectionsBySku;
+  string  SkuName;
+  uint32  MaxProtocols;
+  uint32  MaxLogEvents;
+  string  adminMessageText;
+  string  adminMessageStartTime;
+  string  adminMessageEndTime;
+  string  consentMessageText;
   boolean OnlyConsentCapableClients;
   boolean CentralCAPEnabled;
   boolean RequestSOH;
-  string  AuthenticationPluginName;
-  string  AuthenticationPluginCLSID;
-  string  AuthenticationPluginDescription;
-  string  AuthorizationPluginName;
-  string  AuthorizationPluginCLSID;
-  string  AuthorizationPluginDescription;
-  uint32  SslBridging;
+  string  AuthenticationPluginName;
+  string  AuthenticationPluginCLSID;
+  string  AuthenticationPluginDescription;
+  string  AuthorizationPluginName;
+  string  AuthorizationPluginCLSID;
+  string  AuthorizationPluginDescription;
+  uint32  SslBridging;
   boolean IsConfigured;
-  uint8   CertHash[];
+  uint8   CertHash[];
   boolean EnforceChannelBinding;
 };
 ```
@@ -93,40 +98,40 @@ The **Win32\_TSGatewayServerSettings** class has these methods.
 
 | Method                                                                                                                                             | Description                                                                                                                                                                                                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Configure**](configure-win32-tsgatewayserversettings.md)                                                                                       | Configures the IIS and RPC settings required by the RD Gateway service.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                               |
-| [**EnableCentralCAP**](enablecentralcap-win32-tsgatewayserversettings.md)                                                                         | Enables or disables the **CentralCAPEnabled** property, which controls whether central Remote Desktop connection authorization policy (RD CAP) servers are used for controlling connection authorization policies for this server.<br/>                    |
+| [**Configure**](configure-win32-tsgatewayserversettings.md)                                                                                       | Configures the IIS and RPC settings required by the RD Gateway service.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                               |
+| [**EnableCentralCAP**](enablecentralcap-win32-tsgatewayserversettings.md)                                                                         | Enables or disables the **CentralCAPEnabled** property, which controls whether central Remote Desktop connection authorization policy (RD CAP) servers are used for controlling connection authorization policies for this server.<br/>                    |
 | [**EnableLogEvent**](enablelogevent-win32-tsgatewayserversettings.md)                                                                             | Enables or disables logging of the specified event type.<br/>                                                                                                                                                                                              |
-| [**EnableOnlyConsentCapableClients**](enableonlyconsentcapableclients-win32-tsgatewayserversettings.md)                                           | Sets the **OnlyConsentCapableClients** property.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                      |
-| [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | This method is not supported starting with Windows Server 2016.<br/> **Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:** Enables or disables requests for a Statement of Health (SoH).<br/> <br/> |
-| [**EnableTransport**](enabletransport-win32-tsgatewayserversettings.md)                                                                           | Enables or disables the specified transport.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                                                  |
-| [**EnumAuthenticationPlugins**](enumauthenticationplugins-win32-tsgatewayserversettings.md)                                                       | Enumerates all registered authentication plug-ins.<br/> **Windows Server 2008:** This method is not available.<br/>                                                                                                                                  |
-| [**EnumAuthorizationPlugins**](enumauthorizationplugins-win32-tsgatewayserversettings.md)                                                         | Enumerates all registered authorization plug-ins.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                     |
-| [**GetIPAndPort**](getipandport-win32-tsgatewayserversettings.md)                                                                                 | Obtains the listening IP address and port number for the specified transport.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                 |
+| [**EnableOnlyConsentCapableClients**](enableonlyconsentcapableclients-win32-tsgatewayserversettings.md)                                           | Sets the **OnlyConsentCapableClients** property.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                      |
+| [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | This method is not supported starting with Windows Server 2016.<br/> **Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:** Enables or disables requests for a Statement of Health (SoH).<br/> <br/> |
+| [**EnableTransport**](enabletransport-win32-tsgatewayserversettings.md)                                                                           | Enables or disables the specified transport.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                                                  |
+| [**EnumAuthenticationPlugins**](enumauthenticationplugins-win32-tsgatewayserversettings.md)                                                       | Enumerates all registered authentication plug-ins.<br/> **Windows Server 2008:** This method is not available.<br/>                                                                                                                                  |
+| [**EnumAuthorizationPlugins**](enumauthorizationplugins-win32-tsgatewayserversettings.md)                                                         | Enumerates all registered authorization plug-ins.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                     |
+| [**GetIPAndPort**](getipandport-win32-tsgatewayserversettings.md)                                                                                 | Obtains the listening IP address and port number for the specified transport.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                 |
 | [**GetLogEventName**](getlogeventname-win32-tsgatewayserversettings.md)                                                                           | Returns the log event name for the specified log event index.<br/>                                                                                                                                                                                         |
 | [**GetProtocolName**](getprotocolname-win32-tsgatewayserversettings.md)                                                                           | Returns the protocol name for the specified protocol index.<br/>                                                                                                                                                                                           |
 | [**IsLogEventEnabled**](islogeventenabled-win32-tsgatewayserversettings.md)                                                                       | Indicates whether the specified event log type is enabled.<br/>                                                                                                                                                                                            |
-| [**IsTransportEnabled**](istransportenabled-win32-tsgatewayserversettings.md)                                                                     | Determines whether the specified transport is enabled.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                                        |
+| [**IsTransportEnabled**](istransportenabled-win32-tsgatewayserversettings.md)                                                                     | Determines whether the specified transport is enabled.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                                        |
 | [**QueryCertContext**](win32-tsgatewayserversettings-querycertcontext.md)                                                                         | Indicates whether the specified certificate is installed.<br/>                                                                                                                                                                                             |
-| [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)                                                     | Recycles the RPC application pools in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                            |
-| [**RefreshCertContext**](win32-tsgatewayserversettings-refreshcertcontext.md)                                                                     | Refreshes the certificate that is used by the RD Gateway server.<br/>                                                                                                                                                                                      |
-| [**SetAuthenticationPlugin**](setauthenticationplugin-win32-tsgatewayserversettings.md)                                                           | Sets the current authentication plug-in for the RD Gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                    |
-| [**SetAuthenticationPluginAndRecycleRpcApplicationPools**](setauthenticationpluginandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md) | Sets the current authentication plug-in for the RD Gateway server and recycles the RPC application pools in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                      |
-| [**SetAuthorizationPlugin**](setauthorizationplugin-win32-tsgatewayserversettings.md)                                                             | Sets the current authorization plug-in for the RD Gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                     |
-| [**SetCertificate**](setcertificate-win32-tsgatewayserversettings.md)                                                                             | Sets the certificate hash for HTTPS binding on port 443 in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                       |
+| [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)                                                     | Recycles the RPC application pools in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                            |
+| [**RefreshCertContext**](win32-tsgatewayserversettings-refreshcertcontext.md)                                                                     | Refreshes the certificate that is used by the RD Gateway server.<br/>                                                                                                                                                                                      |
+| [**SetAuthenticationPlugin**](setauthenticationplugin-win32-tsgatewayserversettings.md)                                                           | Sets the current authentication plug-in for the RD Gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                    |
+| [**SetAuthenticationPluginAndRecycleRpcApplicationPools**](setauthenticationpluginandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md) | Sets the current authentication plug-in for the RD Gateway server and recycles the RPC application pools in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                      |
+| [**SetAuthorizationPlugin**](setauthorizationplugin-win32-tsgatewayserversettings.md)                                                             | Sets the current authorization plug-in for the RD Gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                     |
+| [**SetCertificate**](setcertificate-win32-tsgatewayserversettings.md)                                                                             | Sets the certificate hash for HTTPS binding on port 443 in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                       |
 | [**SetCertificateACL**](setcertificateacl-win32-tsgatewayserversettings.md)                                                                       | Sets the certificate access control lists (ACLs) for this server.<br/>                                                                                                                                                                                     |
-| [**SetDefaultPluginsAndRecycleRpcApplicationPools**](setdefaultpluginsandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md)             | Sets the current authentication and authorization plug-ins for the RD Gateway server and recycles the RPC application pools in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                   |
-| [**SetEnforceChannelBinding**](setenforcechannelbinding-win32-tsgatewayserversettings.md)                                                         | Sets the **EnforceChannelBinding** property.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                                                  |
-| [**SetIPAndPort**](setipandport-win32-tsgatewayserversettings.md)                                                                                 | Sets the listening IP address and port number for the specified transport.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                    |
-| [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md)                                                                       | Sets the maximum number of allowed connections through RD Gateway. This method changes the **MaxConnections** and **UnlimitedConnections** properties.<br/>                                                                                                |
-| [**SetSslBridging**](setsslbridging-win32-tsgatewayserversettings.md)                                                                             | Sets the type of SSL bridging to be used by the RD Gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                    |
-| [**TSGRemoveAdminMsg**](tsgremoveadminmsg-win32-tsgatewayserversettings.md)                                                                       | Removes the administrative message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                            |
-| [**TSGRemoveConsentMsg**](tsgremoveconsentmsg-win32-tsgatewayserversettings.md)                                                                   | Removes the administrative message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                            |
-| [**TSGStoreAdminMsg**](tsgstoreadminmsg-win32-tsgatewayserversettings.md)                                                                         | Updates the administrative message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                            |
-| [**TSGStoreConsentMsg**](tsgstoreconsentmsg-win32-tsgatewayserversettings.md)                                                                     | Updates the consent message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                   |
+| [**SetDefaultPluginsAndRecycleRpcApplicationPools**](setdefaultpluginsandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md)             | Sets the current authentication and authorization plug-ins for the RD Gateway server and recycles the RPC application pools in IIS.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                   |
+| [**SetEnforceChannelBinding**](setenforcechannelbinding-win32-tsgatewayserversettings.md)                                                         | Sets the **EnforceChannelBinding** property.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                                                  |
+| [**SetIPAndPort**](setipandport-win32-tsgatewayserversettings.md)                                                                                 | Sets the listening IP address and port number for the specified transport.<br/> **Windows Server 2008 R2 and Windows Server 2008:** This method is not available before Windows Server 2012.<br/>                                                    |
+| [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md)                                                                       | Sets the maximum number of allowed connections through RD Gateway. This method changes the **MaxConnections** and **UnlimitedConnections** properties.<br/>                                                                                                |
+| [**SetSslBridging**](setsslbridging-win32-tsgatewayserversettings.md)                                                                             | Sets the type of SSL bridging to be used by the RD Gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                    |
+| [**TSGRemoveAdminMsg**](tsgremoveadminmsg-win32-tsgatewayserversettings.md)                                                                       | Removes the administrative message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                            |
+| [**TSGRemoveConsentMsg**](tsgremoveconsentmsg-win32-tsgatewayserversettings.md)                                                                   | Removes the administrative message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                            |
+| [**TSGStoreAdminMsg**](tsgstoreadminmsg-win32-tsgatewayserversettings.md)                                                                         | Updates the administrative message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                            |
+| [**TSGStoreConsentMsg**](tsgstoreconsentmsg-win32-tsgatewayserversettings.md)                                                                     | Updates the consent message for the gateway server.<br/> **Windows Server 2008:** This method is not available before Windows Server 2008 R2.<br/>                                                                                                   |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -145,7 +150,7 @@ Access type: Read-only
 
 The administrative message end time.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -160,7 +165,7 @@ Access type: Read-only
 
 The administrative message start time.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -175,7 +180,7 @@ Access type: Read-only
 
 The administrative message text.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -190,7 +195,7 @@ Access type: Read-only
 
 The CLSID of the current authentication plug-in.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -205,7 +210,7 @@ Access type: Read-only
 
 The description of the current authentication plug-in.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -220,7 +225,7 @@ Access type: Read-only
 
 The name of the current authentication plug-in.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -235,7 +240,7 @@ Access type: Read-only
 
 The CLSID of the current authorization plug-in.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -250,7 +255,7 @@ Access type: Read-only
 
 The description of the current authorization plug-in.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -265,7 +270,7 @@ Access type: Read-only
 
 The name of the current authorization plug-in.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -278,7 +283,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Specifies whether central RD CAP servers are used for controlling this server. This property can be changed by calling the [**EnableCentralCAP**](enablecentralcap-win32-tsgatewayserversettings.md) method.
+Specifies whether central RD CAP servers are used for controlling this server. This property can be changed by calling the [**EnableCentralCAP**](enablecentralcap-win32-tsgatewayserversettings.md) method.
 
 </dd> <dt>
 
@@ -293,7 +298,7 @@ Access type: Read-only
 
 Specifies the certificate hash for HTTPS binding on port 443 in IIS.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -308,7 +313,7 @@ Access type: Read-only
 
 The consent message text.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -323,7 +328,7 @@ Access type: Read-only
 
 Indicates if channel binding is enforced for the HTTP transport. This property value can be changed by using the [**SetEnforceChannelBinding**](setenforcechannelbinding-win32-tsgatewayserversettings.md) method.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available before Windows Server 2012.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available before Windows Server 2012.
 
 </dd> <dt>
 
@@ -336,9 +341,9 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Specifies if IIS and RPC settings required by the RD Gateway service are configured.
+Specifies if IIS and RPC settings required by the RD Gateway service are configured.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -354,7 +359,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Returns the maximum number of connections that are allowed through RD Gateway. This property can be set by using the [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md) method.
+Returns the maximum number of connections that are allowed through RD Gateway. This property can be set by using the [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md) method.
 
 </dd> <dt>
 
@@ -393,7 +398,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Number of protocols supported by RD Gateway.
+Number of protocols supported by RD Gateway.
 
 </dd> <dt>
 
@@ -406,9 +411,9 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Specifies if only clients capable of consent messages are allowed to connect to the RD Gateway.
+Specifies if only clients capable of consent messages are allowed to connect to the RD Gateway.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 <dt>
 
@@ -437,9 +442,9 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-This property is not supported starting with Windows Server 2016.
+This property is not supported starting with Windows Server 2016.
 
-**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
 Specifies whether the server must request a Statement of Health (SoH) from the client. This property can be changed by using the [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md) method.
 
@@ -467,9 +472,9 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Specifies which type of SSL bridging to be used by the RD Gateway server. This can be one of the following values.
+Specifies which type of SSL bridging to be used by the RD Gateway server. This can be one of the following values.
 
-**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** This property is not available before Windows Server 2008 R2.
 
 <dt>
 
@@ -505,7 +510,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether an unlimited number of connections are allowed through RD Gateway. This property can be set by using the [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md) method.
+Indicates whether an unlimited number of connections are allowed through RD Gateway. This property can be set by using the [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md) method.
 
 </dd> </dl>
 
@@ -522,7 +527,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -551,9 +556,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayResourceGroup**](win32-tsgatewayresourcegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

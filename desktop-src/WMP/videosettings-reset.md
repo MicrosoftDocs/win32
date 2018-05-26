@@ -1,14 +1,20 @@
 ---
 title: VIDEOSETTINGS.reset
 description: The reset method resets all attributes to their default values of zero.
-ms.assetid: '07aa2060-f92b-41ca-9d7d-56f85940664a'
-keywords: ["VIDEOSETTINGS.reset Windows Media Player"]
+ms.assetid: 07aa2060-f92b-41ca-9d7d-56f85940664a
+keywords:
+- VIDEOSETTINGS.reset Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEOSETTINGS.reset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEOSETTINGS.reset
@@ -44,9 +50,9 @@ This method does not return a value.
 [**VIDEOSETTINGS Element**](videosettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

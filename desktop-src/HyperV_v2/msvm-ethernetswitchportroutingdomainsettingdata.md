@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the routing domain setting data.'
-ms.assetid: '6216cc4e-b2aa-4344-b8fa-489b986c14be'
-title: 'Msvm\_EthernetSwitchPortRoutingDomainSettingData class'
+Description: Represents the routing domain setting data.
+ms.assetid: 6216cc4e-b2aa-4344-b8fa-489b986c14be
+title: Msvm\_EthernetSwitchPortRoutingDomainSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortRoutingDomainSettingData class
@@ -105,8 +110,8 @@ The routing domain friendly name.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -120,9 +125,9 @@ The routing domain friendly name.
 [**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitchportfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Adds migration network settings for the virtual system migration se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0abb18f-0152-4d1a-b992-ac58f85b080f'
-ms.prod: 'windows-server-dev'
+ms.assetid: d0abb18f-0152-4d1a-b992-ac58f85b080f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddNetworkSettings method", "AddNetworkSettings method, Msvm_VirtualSystemMigrationService class", "Msvm_VirtualSystemMigrationService class, AddNetworkSettings method"]
+keywords:
+- AddNetworkSettings method
+- AddNetworkSettings method, Msvm_VirtualSystemMigrationService class
+- Msvm_VirtualSystemMigrationService class, AddNetworkSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddNetworkSettings method of the Msvm\_VirtualSystemMigrationService class
@@ -30,8 +36,8 @@ Adds migration network settings for the virtual system migration service.
 
 ```mof
 uint32 AddNetworkSettings(
-  [in]  string              NetworkSettings[],
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              NetworkSettings[],
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -107,7 +113,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -121,9 +127,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_MaxValue
 description: Identifies the UI\_PKEY\_MaxValue property.
-ms.assetid: 'f05436ed-b8bd-4374-af12-d9b114d98f6c'
+ms.assetid: f05436ed-b8bd-4374-af12-d9b114d98f6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_MaxValue

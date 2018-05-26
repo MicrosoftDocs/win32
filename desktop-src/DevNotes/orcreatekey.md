@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates the specified registry key in an offline registry hive. If the key already exists, the function opens it.'
-ms.assetid: '40e7468d-e781-4945-9023-580c06088b87'
+---
+Description: Creates the specified registry key in an offline registry hive. If the key already exists, the function opens it.
+ms.assetid: 40e7468d-e781-4945-9023-580c06088b87
 title: ORCreateKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORCreateKey function

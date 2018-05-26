@@ -1,8 +1,15 @@
 ---
 title: DWM Samples
-description: Desktop Window Manager (DWM) is a set of interfaces introduced in Windows Vista with some new features introduced in Windows 7.
-ms.assetid: '43fe71e7-4e5c-46fb-876b-e26996071662'
-keywords: ["Desktop Window Manager (DWM),samples", "DWM (Desktop Window Manager),samples"]
+description: Desktop Window Manager (DWM) is a set of interfaces introduced in Windows Vista with some new features introduced in Windows 7.
+ms.assetid: 43fe71e7-4e5c-46fb-876b-e26996071662
+keywords:
+- Desktop Window Manager (DWM),samples
+- DWM (Desktop Window Manager),samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM Samples
@@ -17,7 +24,7 @@ keywords: ["Desktop Window Manager (DWM),samples", "DWM (Desktop Window Manager)
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -26,9 +33,9 @@ keywords: ["Desktop Window Manager (DWM),samples", "DWM (Desktop Window Manager)
 [Desktop Window Manager](dwm-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

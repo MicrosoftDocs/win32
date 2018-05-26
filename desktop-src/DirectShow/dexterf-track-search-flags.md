@@ -1,7 +1,12 @@
 ---
-Description: 'The DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration specifies the boundary conditions on a search for an object in the timeline.'
-ms.assetid: '9a66ea17-5c2c-41fd-8a7b-c9918b10c8c9'
-title: 'DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration'
+Description: The DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration specifies the boundary conditions on a search for an object in the timeline.
+ms.assetid: 9a66ea17-5c2c-41fd-8a7b-c9918b10c8c9
+title: DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration
@@ -9,7 +14,7 @@ title: 'DEXTERF\_TRACK\_SEARCH\_FLAGS enumeration'
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]
 
- 
+ 
 
 The `DEXTERF_TRACK_SEARCH_FLAGS` enumeration specifies the boundary conditions on a search for an object in the timeline.
 
@@ -18,9 +23,9 @@ The `DEXTERF_TRACK_SEARCH_FLAGS` enumeration specifies the boundary conditions o
 
 ```C++
 typedef enum  { 
-  DEXTERF_BOUNDING    = -1,
-  DEXTERF_EXACTLY_AT  = 0,
-  DEXTERF_FORWARDS    = 1
+  DEXTERF_BOUNDING    = -1,
+  DEXTERF_EXACTLY_AT  = 0,
+  DEXTERF_FORWARDS    = 1
 } DEXTERF_TRACK_SEARCH_FLAGS;
 ```
 
@@ -65,7 +70,7 @@ These boundary conditions are summarized in the following table.
 
 
 
- 
+ 
 
 -   Start: start time of the retrieved object.
 -   Stop: stop time of the retrieved object.
@@ -88,9 +93,9 @@ These boundary conditions are summarized in the following table.
 [**IAMTimelineTrack::GetSrcAtTime**](iamtimelinetrack-getsrcattime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

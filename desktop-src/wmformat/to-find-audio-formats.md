@@ -1,8 +1,17 @@
 ---
 title: To Find Audio Formats
 description: To Find Audio Formats
-ms.assetid: 'f2001ed5-f07d-45a5-a566-45697024870e'
-keywords: ["streams,finding audio formats", "audio streams,finding audio formats", "streams,audio formats", "audio streams,audio formats"]
+ms.assetid: f2001ed5-f07d-45a5-a566-45697024870e
+keywords:
+- streams,finding audio formats
+- audio streams,finding audio formats
+- streams,audio formats
+- audio streams,audio formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Find Audio Formats

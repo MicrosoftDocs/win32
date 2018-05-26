@@ -4,13 +4,15 @@ description: Contains additional information which can be used to filter a list 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '50116467-249e-4dcd-8cec-bfa1f87fffcf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 50116467-249e-4dcd-8cec-bfa1f87fffcf
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msps_VolumeIDFilter class", "Msps_VolumeIDFilter class, described"]
+keywords:
+- Msps_VolumeIDFilter class
+- Msps_VolumeIDFilter class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msps\_VolumeIDFilter class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msps_VolumeIDFilter
 {
   Msps_VolumeID VolumeID;
-  uint8         VersionRule;
+  uint8         VersionRule;
 };
 ```
 
@@ -113,7 +118,7 @@ Identifies a volume. May contain wild cards.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -127,9 +132,9 @@ Identifies a volume. May contain wild cards.
 [Shielded VM Provisioning WMI Provider](shielded-vm-provisioning-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

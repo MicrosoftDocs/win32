@@ -1,14 +1,21 @@
 ---
 title: IWMDRMSecurity interface
 description: The IWMDRMSecurity interface manages a variety of security-related information for the client computer and digital rights management (DRM) subsystem.To obtain an instance of this interface, call IWMDRMProvider CreateObject.
-ms.assetid: '9439aedc-359d-4b2c-a88c-7b0e8eacb5a0'
-keywords: ["IWMDRMSecurity interface windows Media Format", "IWMDRMSecurity interface windows Media Format , described"]
+ms.assetid: 9439aedc-359d-4b2c-a88c-7b0e8eacb5a0
+keywords:
+- IWMDRMSecurity interface windows Media Format
+- IWMDRMSecurity interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMSecurity
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity interface
@@ -43,7 +50,7 @@ The **IWMDRMSecurity** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +65,9 @@ The **IWMDRMSecurity** interface has these methods.
 [**IWMDRMEventGenerator**](iwmdrmeventgenerator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

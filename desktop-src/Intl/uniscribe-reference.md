@@ -1,7 +1,12 @@
 ---
 Description: Uniscribe Reference
-ms.assetid: 'c57212ea-1b7b-4861-8e93-18c9b0f87317'
+ms.assetid: c57212ea-1b7b-4861-8e93-18c9b0f87317
 title: Uniscribe Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uniscribe Reference

@@ -1,7 +1,12 @@
 ---
 Description: Locating Partitions During Activation
-ms.assetid: 'a5452ed6-ab0f-4d38-bc16-1de6cbf57486'
+ms.assetid: a5452ed6-ab0f-4d38-bc16-1de6cbf57486
 title: Locating Partitions During Activation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locating Partitions During Activation
@@ -16,7 +21,7 @@ Locating the correct partition in which to activate a component depends on the f
 
 COM+ selects the partition for component activation based on how the calling program activates the component.
 
-There are three different actions that COM+ can take when selecting a partition for component activation. The action taken depends on how the calling program instantiates the object—that is, whether the function call includes a partition moniker, which consists of a partition ID and a CLSID, or includes a CLSID only.
+There are three different actions that COM+ can take when selecting a partition for component activation. The action taken depends on how the calling program instantiates the object that is, whether the function call includes a partition moniker, which consists of a partition ID and a CLSID, or includes a CLSID only.
 
 The following table shows the various actions that COM+ can take, in order of precedence, to locate a partition.
 
@@ -29,7 +34,7 @@ The following table shows the various actions that COM+ can take, in order of pr
 
 
 
- 
+ 
 
 The COM+ actions listed in the preceding table are explained in the following sections.
 
@@ -84,7 +89,7 @@ Set objCLSID1 = GetObject( _
 
 ## Use of Default Mapping
 
-When the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function is used to activate a component, using the component's CLSID, COM+ uses the default user-identity mapping—that is, the partition set that the user is mapped to within Active Directory. However, if the user is not mapped to a partition set within Active Directory, the Global Partition is selected.
+When the [**CoCreateInstance**](https://msdn.microsoft.com/library/windows/desktop/ms686615) function is used to activate a component, using the component's CLSID, COM+ uses the default user-identity mapping that is, the partition set that the user is mapped to within Active Directory. However, if the user is not mapped to a partition set within Active Directory, the Global Partition is selected.
 
 ## Use of Partition IDs and Object Context
 
@@ -115,7 +120,7 @@ The size of the cache and the expiration time for the cache entries are set via 
 > [!Note]  
 > If a server computer is disconnected from the network and the user-to-partition mapping is changed while the server is disconnected, the partition cache might contain outdated user-to-partition mapping. This could result in an activation error if user-to-partition mapping is the mechanism used to activate a component.
 
- 
+ 
 
 ## Related topics
 
@@ -124,9 +129,9 @@ The size of the cache and the expiration time for the cache entries are set via 
 [Locating a Component for Activation](locating-a-component-for-activation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Deletes the specified IPv4 address lease record from the DHCP serve
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fe6ecb26-980c-410b-b247-d201c378d75d'
-ms.prod: 'windows-server-dev'
+ms.assetid: fe6ecb26-980c-410b-b247-d201c378d75d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByClientId method", "RemoveByClientId method, PS_DhcpServerv4Lease class", "PS_DhcpServerv4Lease class, RemoveByClientId method"]
+keywords:
+- RemoveByClientId method
+- RemoveByClientId method, PS_DhcpServerv4Lease class
+- PS_DhcpServerv4Lease class, RemoveByClientId method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByClientId method of the PS\_DhcpServerv4Lease class
@@ -30,11 +36,11 @@ Deletes the specified IPv4 address lease record from the DHCP server.
 
 ```mof
 uint32 RemoveByClientId(
-  [in]  boolean           PassThru,
-  [in]  string            ComputerName,
-  [in]  string            ClientId[],
-  [in]  string            ScopeId,
-  [out] DhcpServerv4Lease cmdletOutput[]
+  [in]  boolean           PassThru,
+  [in]  string            ComputerName,
+  [in]  string            ClientId[],
+  [in]  string            ScopeId,
+  [out] DhcpServerv4Lease cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv4Lease**](dhcpserverv4lease.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv4Lease**](dhcpserverv4lease.md) class.
 [**PS\_DhcpServerv4Lease**](ps-dhcpserverv4lease.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

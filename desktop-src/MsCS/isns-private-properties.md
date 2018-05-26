@@ -4,10 +4,13 @@ description: Internet Storage Name Service (iSNS) resources have the following p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5f7526c1-d8dc-4261-897e-74890c78e4ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5f7526c1-d8dc-4261-897e-74890c78e4ec
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # iSNS Private Properties
@@ -22,7 +25,7 @@ Internet Storage Name Service (iSNS) [resources](resources.md) have the followin
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +34,9 @@ Internet Storage Name Service (iSNS) [resources](resources.md) have the followin
 [Cluster Object Private Properties](private-properties-ref.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

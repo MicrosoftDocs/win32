@@ -4,11 +4,15 @@ description: Active Directory enables you to delete an object if you have DELETE
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '87027c25-e3c9-4bad-8df3-cb6205e40ef6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 87027c25-e3c9-4bad-8df3-cb6205e40ef6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Access Control and Object Deletion AD"]
+keywords:
+- Access Control and Object Deletion AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Access Control and Object Deletion

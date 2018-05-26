@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines constants that describe transformation state values.'
-ms.assetid: '53535d9f-246a-42cf-82a2-fb3cf6d4ebac'
+---
+Description: Defines constants that describe transformation state values.
+ms.assetid: 53535d9f-246a-42cf-82a2-fb3cf6d4ebac
 title: D3DTRANSFORMSTATETYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTRANSFORMSTATETYPE enumeration
@@ -142,13 +147,13 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetTransform**](idirect3ddevice9--gettransform.md)
+[**IDirect3DDevice9::GetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-gettransform?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::MultiplyTransform**](idirect3ddevice9--multiplytransform.md)
+[**IDirect3DDevice9::MultiplyTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-multiplytransform?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md)
+[**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master)
 </dt> <dt>
 
 [**D3DTS\_WORLD**](d3dts-world.md)

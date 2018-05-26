@@ -1,8 +1,9 @@
 ---
 title: MM\_MIXM\_CONTROL\_CHANGE message
 description: The MM\_MIXM\_CONTROL\_CHANGE message is sent by a mixer device to notify an application that the state of a control associated with an audio line has changed. The application should refresh its display and cached values for the specified control.
-ms.assetid: '921c55a7-86c0-43d1-b817-bfbd3c4bb28b'
-keywords: ["MM_MIXM_CONTROL_CHANGE message Windows Multimedia"]
+ms.assetid: 921c55a7-86c0-43d1-b817-bfbd3c4bb28b
+keywords:
+- MM_MIXM_CONTROL_CHANGE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_MIXM\_CONTROL\_CHANGE message
@@ -54,8 +60,8 @@ An application must open a mixer device and specify a callback window to receive
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ An application must open a mixer device and specify a callback window to receive
 [Audio Mixer Messages](audio-mixer-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

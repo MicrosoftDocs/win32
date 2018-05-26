@@ -2,13 +2,19 @@
 title: importlib attribute
 description: The \ importlib\ directive makes types that have already been compiled into another type library available to the type library being created.
 ms.assetid: d5f15a77-c6b1-4918-be86-07d2995ca2d4
-keywords: ["importlib attribute MIDL"]
+keywords:
+- importlib attribute MIDL
 topic_type:
 - apiref
 api_name:
 - importlib
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # importlib attribute

@@ -1,8 +1,10 @@
 ---
 title: IMimePropertySet interface
 description: Do not use. Manages an Internet message header or body header. This interface allows a client to manipulate a header as a collection of properties.
-ms.assetid: '69b98775-58a2-4ea6-b592-89c0bb5d1385'
-keywords: ["IMimePropertySet interface Windows Mail (formerly Outlook Express)", "IMimePropertySet interface Windows Mail (formerly Outlook Express) , described"]
+ms.assetid: 69b98775-58a2-4ea6-b592-89c0bb5d1385
+keywords:
+- IMimePropertySet interface Windows Mail (formerly Outlook Express)
+- IMimePropertySet interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySet interface
@@ -49,8 +56,8 @@ There are multiple ways in which a client can obtain an **IMimePropertySet** obj
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -58,9 +65,9 @@ There are multiple ways in which a client can obtain an **IMimePropertySet** obj
 
 
 
- 
+ 
 
- 
+ 
 
 
 

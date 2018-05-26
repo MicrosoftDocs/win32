@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SourceListClearAll method the Product object removes all sources for the product. The type of source to remove can be specified.'
-ms.assetid: 'c8a63b54-7be6-424a-8653-0182b561faab'
-title: 'Product.SourceListClearAll method'
+---
+Description: The SourceListClearAll method the Product object removes all sources for the product. The type of source to remove can be specified.
+ms.assetid: c8a63b54-7be6-424a-8653-0182b561faab
+title: Product.SourceListClearAll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.SourceListClearAll method
@@ -53,7 +58,7 @@ This method does not return a value.
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiSourceListClearSource**](msisourcelistclearsource.md)
+[**MsiSourceListClearSource**](/windows/win32/Msi/nf-msi-msisourcelistclearsourcea?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

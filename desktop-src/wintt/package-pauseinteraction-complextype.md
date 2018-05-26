@@ -1,14 +1,20 @@
 ---
 title: PauseInteraction Complex Type
 description: Defines an interaction used to display information or instructions to the user.
-ms.assetid: 'cf31154c-348e-4b61-8a63-5eb30e8d87b6'
-keywords: ["PauseInteraction complex type Windows Troubleshooting Toolkit"]
+ms.assetid: cf31154c-348e-4b61-8a63-5eb30e8d87b6
+keywords:
+- PauseInteraction complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - PauseInteraction
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PauseInteraction Complex Type
@@ -109,7 +115,7 @@ Defines an interaction used to display information or instructions to the user. 
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>ID</td>
@@ -127,8 +133,8 @@ Defines an interaction used to display information or instructions to the user. 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -142,9 +148,9 @@ Defines an interaction used to display information or instructions to the user. 
 [**PauseInteractions Complex Type**](package-pauseinteractions-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

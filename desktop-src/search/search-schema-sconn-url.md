@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;url&gt; element specifies a URL for the location for this search connector.'
-ms.assetid: 'fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd'
-title: 'simpleLocation url Element (Search Connector Schema)'
+Description: The &lt;url&gt; element specifies a URL for the location for this search connector.
+ms.assetid: fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd
+title: simpleLocation url Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # simpleLocation url Element (Search Connector Schema)

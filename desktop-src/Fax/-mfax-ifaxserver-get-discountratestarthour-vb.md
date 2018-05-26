@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the DiscountRateStartHour property for a FaxServer object. The DiscountRateStartHour property is a number that represents the hour the discount period begins. The discount period applies only to outgoing fax transmissions.'
-ms.assetid: '1ba6f885-08a2-4ee5-9120-c9da3e01c570'
-title: 'FaxServer.DiscountRateStartHour property'
+---
+Description: Sets or retrieves the DiscountRateStartHour property for a FaxServer object. The DiscountRateStartHour property is a number that represents the hour the discount period begins. The discount period applies only to outgoing fax transmissions.
+ms.assetid: 1ba6f885-08a2-4ee5-9120-c9da3e01c570
+title: FaxServer.DiscountRateStartHour property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.DiscountRateStartHour property

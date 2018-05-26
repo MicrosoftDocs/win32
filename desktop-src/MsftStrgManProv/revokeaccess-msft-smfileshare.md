@@ -4,11 +4,17 @@ description: Revokes access to the file share for the specified users.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1a67ab1f-fcec-4c53-81a5-7f84b187a23e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 1a67ab1f-fcec-4c53-81a5-7f84b187a23e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RevokeAccess method", "RevokeAccess method, MSFT_SMFileShare class", "MSFT_SMFileShare class, RevokeAccess method"]
+keywords:
+- RevokeAccess method
+- RevokeAccess method, MSFT_SMFileShare class
+- MSFT_SMFileShare class, RevokeAccess method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RevokeAccess method of the MSFT\_SMFileShare class
@@ -20,8 +26,8 @@ Revokes access to the file share for the specified users.
 
 ```mof
 UInt32 RevokeAccess(
-  [in]            string                AccountNames[],
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            string                AccountNames[],
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -52,7 +58,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -66,9 +72,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMFileShare**](msft-smfileshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

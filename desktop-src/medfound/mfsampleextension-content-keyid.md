@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the Key ID for the sample.'
-ms.assetid: '75339350-05AA-486E-9C28-11070C0DA61D'
-title: 'MFSampleExtension\_Content\_KeyID attribute'
+---
+Description: Sets the Key ID for the sample.
+ms.assetid: 75339350-05AA-486E-9C28-11070C0DA61D
+title: MFSampleExtension\_Content\_KeyID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_Content\_KeyID attribute
@@ -45,7 +50,7 @@ m_spSample->SetGUID( MFSampleExtension_Content_KeyID, guidKID );
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 </dt> <dt>
 
 [MFSampleExtension\_Encryption\_SubSampleMappingSplit](mfsampleextension-encryption-subsamplemappingsplit.md)

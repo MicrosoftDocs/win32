@@ -1,7 +1,12 @@
 ---
-Description: 'The OnThreadStartPlay method is called at the start of the CSourceStream::DoBufferProcessingLoop method.'
-ms.assetid: '16d3b28f-bfae-49af-b8e4-8cc8cb15ecab'
-title: 'CSourceStream.OnThreadStartPlay method'
+Description: The OnThreadStartPlay method is called at the start of the CSourceStreamDoBufferProcessingLoop method.
+ms.assetid: 16d3b28f-bfae-49af-b8e4-8cc8cb15ecab
+title: CSourceStream.OnThreadStartPlay method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.OnThreadStartPlay method
@@ -47,9 +52,9 @@ This method does nothing in the base class; it is available for the derived clas
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

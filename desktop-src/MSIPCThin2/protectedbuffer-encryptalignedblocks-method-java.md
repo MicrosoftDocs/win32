@@ -4,17 +4,21 @@ description: Encrypts aligned blocks of data.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'DE11C78E-06F0-4C09-8BE7-EA239546CB05'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: DE11C78E-06F0-4C09-8BE7-EA239546CB05
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedBuffer.encryptAlignedBlocks method"]
+keywords:
+- ProtectedBuffer.encryptAlignedBlocks method
 topic_type:
 - apiref
 api_name:
 - ProtectedBuffer.encryptAlignedBlocks method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedBuffer.encryptAlignedBlocks method
@@ -47,7 +51,7 @@ public int encryptAlignedBlocks(
 
 
 
- 
+ 
 
 ## Returns
 
@@ -71,11 +75,11 @@ ProtectedBuffer.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

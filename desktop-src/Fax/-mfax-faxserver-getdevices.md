@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDevices method creates a FaxDevices object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.'
-ms.assetid: '32507fd4-70cc-403b-bb4e-ea308e67a92f'
-title: 'FaxServer.GetDevices method'
+---
+Description: The GetDevices method creates a FaxDevices object, a collection of all the fax devices exposed by all the fax service providers (FSPs) currently registered with the fax service.
+ms.assetid: 32507fd4-70cc-403b-bb4e-ea308e67a92f
+title: FaxServer.GetDevices method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.GetDevices method
@@ -31,7 +36,7 @@ A [**FaxDevices**](-mfax-faxdevices.md) object.
 
 You can use the [**FaxDevices**](-mfax-faxdevices.md) object to enumerate the fax devices associated with a connected fax server and to create [**FaxDevice**](-mfax-faxdevice.md) objects for them.
 
-To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -56,7 +61,7 @@ To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

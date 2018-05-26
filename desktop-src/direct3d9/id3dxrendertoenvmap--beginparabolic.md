@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initiate the rendering of a parabolic environment map.'
-ms.assetid: '80456084-f5f5-4dfe-805a-7eaaf7f7cb2a'
-title: 'ID3DXRenderToEnvMap::BeginParabolic method'
+---
+Description: Initiate the rendering of a parabolic environment map.
+ms.assetid: 80456084-f5f5-4dfe-805a-7eaaf7f7cb2a
+title: ID3DXRenderToEnvMapBeginParabolic method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap::BeginParabolic method
@@ -27,18 +32,18 @@ HRESULT BeginParabolic(
 *pTexZPos* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface that represents the positive render texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface that represents the positive render texture.
 
 </dd> <dt>
 
 *pTexZNeg* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface that represents the negative render texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface that represents the negative render texture.
 
 </dd> </dl>
 

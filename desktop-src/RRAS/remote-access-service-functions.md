@@ -1,7 +1,12 @@
 ---
 title: Remote Access Service Functions
 description: Use the following functions to implement RAS functionality.
-ms.assetid: '5883a77a-6af8-47a8-bb28-6ef60a5aa2f1'
+ms.assetid: 5883a77a-6af8-47a8-bb28-6ef60a5aa2f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Access Service Functions
@@ -12,131 +17,131 @@ Use the following functions to implement RAS functionality.
 
 [**CmMalloc**](cmmalloc.md)
 
-[**ORASADFunc**](orasadfunc.md)
+[**ORASADFunc**](/windows/win32/Ras/nc-ras-orasadfunc?branch=master)
 
-[**RASADFunc**](rasadfunc.md)
+[**RASADFunc**](/windows/win32/Ras/nc-ras-rasadfunca?branch=master)
 
-[**RasClearConnectionStatistics**](rasclearconnectionstatistics.md)
+[**RasClearConnectionStatistics**](/windows/win32/Ras/nf-ras-rasclearconnectionstatistics?branch=master)
 
-[**RasClearLinkStatistics**](rasclearlinkstatistics.md)
+[**RasClearLinkStatistics**](/windows/win32/Ras/nf-ras-rasclearlinkstatistics?branch=master)
 
-[**RasConnectionNotification**](rasconnectionnotification.md)
+[**RasConnectionNotification**](/windows/win32/Ras/nf-ras-rasconnectionnotificationa?branch=master)
 
-[**RasCreatePhonebookEntry**](rascreatephonebookentry.md)
+[**RasCreatePhonebookEntry**](/windows/win32/Ras/nf-ras-rascreatephonebookentrya?branch=master)
 
-[**RasCustomDeleteEntryNotify**](rascustomdeleteentrynotify.md)
+[**RasCustomDeleteEntryNotify**](/windows/win32/Ras/nc-ras-rascustomdeleteentrynotifyfn?branch=master)
 
-[**RasCustomDial**](rascustomdial.md)
+[**RasCustomDial**](/windows/win32/Ras/nc-ras-rascustomdialfn?branch=master)
 
-[**RasCustomDialDlg**](rascustomdialdlg.md)
+[**RasCustomDialDlg**](/windows/win32/Rasdlg/nc-rasdlg-rascustomdialdlgfn?branch=master)
 
-[**RasCustomEntryDlg**](rascustomentrydlg.md)
+[**RasCustomEntryDlg**](/windows/win32/Rasdlg/nc-rasdlg-rascustomentrydlgfn?branch=master)
 
-[**RasCustomHangUp**](rascustomhangup.md)
+[**RasCustomHangUp**](/windows/win32/Ras/nc-ras-rascustomhangupfn?branch=master)
 
-[**RasDeleteEntry**](rasdeleteentry.md)
+[**RasDeleteEntry**](/windows/win32/Ras/nf-ras-rasdeleteentrya?branch=master)
 
-[**RasDeleteSubEntry**](rasdeletesubentry.md)
+[**RasDeleteSubEntry**](/windows/win32/Ras/nf-ras-rasdeletesubentrya?branch=master)
 
-[**RasDial**](rasdial.md)
+[**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master)
 
-[**RasDialDlg**](rasdialdlg.md)
+[**RasDialDlg**](/windows/win32/Rasdlg/nf-rasdlg-rasdialdlga?branch=master)
 
-[**RasDialFunc**](rasdialfunc.md)
+[**RasDialFunc**](/windows/win32/Ras/nc-ras-rasdialfunc?branch=master)
 
-[**RasDialFunc1**](rasdialfunc1.md)
+[**RasDialFunc1**](/windows/win32/Ras/nc-ras-rasdialfunc1?branch=master)
 
-[**RasDialFunc2**](rasdialfunc2.md)
+[**RasDialFunc2**](/windows/win32/Ras/nc-ras-rasdialfunc2?branch=master)
 
-[**RasEditPhonebookEntry**](raseditphonebookentry.md)
+[**RasEditPhonebookEntry**](/windows/win32/Ras/nf-ras-raseditphonebookentrya?branch=master)
 
-[**RasEntryDlg**](rasentrydlg.md)
+[**RasEntryDlg**](/windows/win32/Rasdlg/nf-rasdlg-rasentrydlga?branch=master)
 
-[**RasEnumAutodialAddresses**](rasenumautodialaddresses.md)
+[**RasEnumAutodialAddresses**](/windows/win32/Ras/nf-ras-rasenumautodialaddressesa?branch=master)
 
-[**RasEnumConnections**](rasenumconnections.md)
+[**RasEnumConnections**](/windows/win32/Ras/nf-ras-rasenumconnectionsa?branch=master)
 
-[**RasEnumDevices**](rasenumdevices.md)
+[**RasEnumDevices**](/windows/win32/Ras/nf-ras-rasenumdevicesa?branch=master)
 
-[**RasEnumEntries**](rasenumentries.md)
+[**RasEnumEntries**](/windows/win32/Ras/nf-ras-rasenumentriesa?branch=master)
 
-[**RasFreeEapUserIdentity**](rasfreeeapuseridentity.md)
+[**RasFreeEapUserIdentity**](/windows/win32/Ras/nf-ras-rasfreeeapuseridentitya?branch=master)
 
-[**RasGetAutodialAddress**](rasgetautodialaddress.md)
+[**RasGetAutodialAddress**](/windows/win32/Ras/nf-ras-rasgetautodialaddressa?branch=master)
 
-[**RasGetAutodialEnable**](rasgetautodialenable.md)
+[**RasGetAutodialEnable**](/windows/win32/Ras/nf-ras-rasgetautodialenablea?branch=master)
 
-[**RasGetAutodialParam**](rasgetautodialparam.md)
+[**RasGetAutodialParam**](/windows/win32/Ras/nf-ras-rasgetautodialparama?branch=master)
 
-[**RasGetConnectionStatistics**](rasgetconnectionstatistics.md)
+[**RasGetConnectionStatistics**](/windows/win32/Ras/nf-ras-rasgetconnectionstatistics?branch=master)
 
-[**RasGetConnectStatus**](rasgetconnectstatus.md)
+[**RasGetConnectStatus**](/windows/win32/Ras/nf-ras-rasgetconnectstatusa?branch=master)
 
-[**RasGetCountryInfo**](rasgetcountryinfo.md)
+[**RasGetCountryInfo**](/windows/win32/Ras/nf-ras-rasgetcountryinfoa?branch=master)
 
-[**RasGetCredentials**](rasgetcredentials.md)
+[**RasGetCredentials**](/windows/win32/Ras/nf-ras-rasgetcredentialsa?branch=master)
 
-[**RasGetCustomAuthData**](rasgetcustomauthdata.md)
+[**RasGetCustomAuthData**](/windows/win32/Ras/nf-ras-rasgetcustomauthdataa?branch=master)
 
-[**RasGetEapUserData**](rasgeteapuserdata.md)
+[**RasGetEapUserData**](/windows/win32/Ras/nf-ras-rasgeteapuserdataa?branch=master)
 
-[**RasGetEapUserIdentity**](rasgeteapuseridentity.md)
+[**RasGetEapUserIdentity**](/windows/win32/Ras/nf-ras-rasgeteapuseridentitya?branch=master)
 
-[**RasGetEntryDialParams**](rasgetentrydialparams.md)
+[**RasGetEntryDialParams**](/windows/win32/Ras/nf-ras-rasgetentrydialparamsa?branch=master)
 
-[**RasGetEntryProperties**](rasgetentryproperties.md)
+[**RasGetEntryProperties**](/windows/win32/Ras/nf-ras-rasgetentrypropertiesa?branch=master)
 
-[**RasGetErrorString**](rasgeterrorstring.md)
+[**RasGetErrorString**](/windows/win32/Ras/nf-ras-rasgeterrorstringa?branch=master)
 
-[**RasGetLinkStatistics**](rasgetlinkstatistics.md)
+[**RasGetLinkStatistics**](/windows/win32/Ras/nf-ras-rasgetlinkstatistics?branch=master)
 
-[**RasGetNapStatus**](rasgetnapstatus.md)
+[**RasGetNapStatus**](/windows/win32/Ras/nf-ras-rasgetnapstatus?branch=master)
 
-[**RasGetProjectionInfo**](rasgetprojectioninfo.md)
+[**RasGetProjectionInfo**](/windows/win32/Ras/nf-ras-rasgetprojectioninfoa?branch=master)
 
-[**RasGetProjectionInfoEx**](rasgetprojectioninfoex.md)
+[**RasGetProjectionInfoEx**](/windows/win32/Ras/nf-ras-rasgetprojectioninfoex?branch=master)
 
-[**RasGetQuarantineConnectionId**](rasgetquarantineconnectionid.md)
+[**RasGetQuarantineConnectionId**](/windows/win32/Ras/?branch=master)
 
-[**RasGetSubEntryHandle**](rasgetsubentryhandle.md)
+[**RasGetSubEntryHandle**](/windows/win32/Ras/nf-ras-rasgetsubentryhandlea?branch=master)
 
-[**RasGetSubEntryProperties**](rasgetsubentryproperties.md)
+[**RasGetSubEntryProperties**](/windows/win32/Ras/nf-ras-rasgetsubentrypropertiesa?branch=master)
 
-[**RasHangUp**](rashangup.md)
+[**RasHangUp**](/windows/win32/Ras/nf-ras-rashangupa?branch=master)
 
-[**RasInvokeEapUI**](rasinvokeeapui.md)
+[**RasInvokeEapUI**](/windows/win32/Ras/nf-ras-rasinvokeeapui?branch=master)
 
-[**RasMonitorDlg**](rasmonitordlg.md)
+[**RasMonitorDlg**](/windows/win32/Rasdlg/?branch=master)
 
-[**RasPBDlgFunc**](raspbdlgfunc.md)
+[**RasPBDlgFunc**](/windows/win32/Rasdlg/nc-rasdlg-raspbdlgfunca?branch=master)
 
-[**RasPhonebookDlg**](rasphonebookdlg.md)
+[**RasPhonebookDlg**](/windows/win32/Rasdlg/nf-rasdlg-rasphonebookdlga?branch=master)
 
-[**RasRenameEntry**](rasrenameentry.md)
+[**RasRenameEntry**](/windows/win32/Ras/nf-ras-rasrenameentrya?branch=master)
 
-[**RasSetAutodialAddress**](rassetautodialaddress.md)
+[**RasSetAutodialAddress**](/windows/win32/Ras/nf-ras-rassetautodialaddressa?branch=master)
 
-[**RasSetAutodialEnable**](rassetautodialenable.md)
+[**RasSetAutodialEnable**](/windows/win32/Ras/nf-ras-rassetautodialenablea?branch=master)
 
-[**RasSetAutodialParam**](rassetautodialparam.md)
+[**RasSetAutodialParam**](/windows/win32/Ras/nf-ras-rassetautodialparama?branch=master)
 
-[**RasSetCommSettings**](rassetcommsettings.md)
+[**RasSetCommSettings**](/windows/win32/Ras/nc-ras-pfnrassetcommsettings?branch=master)
 
-[**RasSetCredentials**](rassetcredentials.md)
+[**RasSetCredentials**](/windows/win32/Ras/nf-ras-rassetcredentialsa?branch=master)
 
-[**RasSetCustomAuthData**](rassetcustomauthdata.md)
+[**RasSetCustomAuthData**](/windows/win32/Ras/nf-ras-rassetcustomauthdataa?branch=master)
 
-[**RasSetEapUserData**](rasseteapuserdata.md)
+[**RasSetEapUserData**](/windows/win32/Ras/nf-ras-rasseteapuserdataa?branch=master)
 
-[**RasSetEntryDialParams**](rassetentrydialparams.md)
+[**RasSetEntryDialParams**](/windows/win32/Ras/nf-ras-rassetentrydialparamsa?branch=master)
 
-[**RasSetEntryProperties**](rassetentryproperties.md)
+[**RasSetEntryProperties**](/windows/win32/Ras/nf-ras-rassetentrypropertiesa?branch=master)
 
-[**RasSetSubEntryProperties**](rassetsubentryproperties.md)
+[**RasSetSubEntryProperties**](/windows/win32/Ras/nf-ras-rassetsubentrypropertiesa?branch=master)
 
-[**RasUpdateConnection**](rasupdateconnection.md)
+[**RasUpdateConnection**](/windows/win32/Ras/nf-ras-rasupdateconnection?branch=master)
 
-[**RasValidateEntryName**](rasvalidateentryname.md)
+[**RasValidateEntryName**](/windows/win32/Ras/nf-ras-rasvalidateentrynamea?branch=master)
 
 [RAS Custom Scripting DLL Functions](ras-custom-scripting-dll-functions.md)
 

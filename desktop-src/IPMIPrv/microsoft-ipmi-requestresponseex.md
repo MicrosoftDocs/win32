@@ -4,13 +4,17 @@ description: Sends a request for data from an IPMI provider to the IPMI driver.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f1f8ab7d-26e4-47f8-94b6-2a612afa851b'
-ms.prod: 'windows-server-dev'
+ms.assetid: f1f8ab7d-26e4-47f8-94b6-2a612afa851b
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IPMI driver WS-Management", "RequestResponseEx method", "RequestResponseEx method, Microsoft_IPMI class", "Microsoft_IPMI class, RequestResponseEx method"]
+keywords:
+- IPMI driver WS-Management
+- RequestResponseEx method
+- RequestResponseEx method, Microsoft_IPMI class
+- Microsoft_IPMI class, RequestResponseEx method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +23,9 @@ api_location:
 - IpmiDrv.sys
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestResponseEx method of the Microsoft\_IPMI class
@@ -30,16 +37,16 @@ Sends a request for data from an IPMI provider to the IPMI driver. This version 
 
 ```mof
 void RequestResponseEx(
-  [in]  uint8  Command,
-  [out] uint8  CompletionCode,
-  [in]  uint8  Data[],
-  [in]  uint32 DataSize,
-  [in]  uint8  Lun,
-  [in]  uint8  NetworkFunction,
-  [in]  uint32 RequestDataSize,
-  [in]  uint8  ResponderAddress,
-  [out] uint8  ResponseData,
-  [out] uint32 ResponseDataSize
+  [in]  uint8  Command,
+  [out] uint8  CompletionCode,
+  [in]  uint8  Data[],
+  [in]  uint32 DataSize,
+  [in]  uint8  Lun,
+  [in]  uint8  NetworkFunction,
+  [in]  uint32 RequestDataSize,
+  [in]  uint8  ResponderAddress,
+  [out] uint8  ResponseData,
+  [out] uint32 ResponseDataSize
 );
 ```
 
@@ -311,8 +318,8 @@ This method does not return a value.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | DLL<br/>                      | <dl> <dt>IpmiDrv.sys</dt> </dl> |
 
@@ -328,9 +335,9 @@ This method does not return a value.
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

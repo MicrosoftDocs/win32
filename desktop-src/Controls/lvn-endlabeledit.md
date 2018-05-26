@@ -1,8 +1,9 @@
 ---
 title: LVN\_ENDLABELEDIT notification code
-description: Notifies a list-view control's parent window about the end of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '03129fef-abf1-4374-b4b8-503c46ef7115'
-keywords: ["LVN_ENDLABELEDIT notification code Windows Controls"]
+description: Notifies a list-view controls parent window about the end of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 03129fef-abf1-4374-b4b8-503c46ef7115
+keywords:
+- LVN_ENDLABELEDIT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_ENDLABELEDIT notification code
@@ -35,15 +41,15 @@ LVN_ENDLABELEDIT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVDISPINFO**](nmlvdispinfo.md) structure. The **item** member of this structure is an [**LVITEM**](lvitem.md) structure whose **iItem** member identifies the item being edited. The **pszText** member of **item** contains a valid value when the LVN\_ENDLABELEDIT notification code is sent, regardless of whether the LVIF\_TEXT flag is set in the **mask** member of the **LVITEM** structure. If the user cancels editing, the **pszText** member of the **LVITEM** structure is **NULL**; otherwise, **pszText** is the address of the edited text.
+Pointer to an [**NMLVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-taglvdispinfo?branch=master) structure. The **item** member of this structure is an [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure whose **iItem** member identifies the item being edited. The **pszText** member of **item** contains a valid value when the LVN\_ENDLABELEDIT notification code is sent, regardless of whether the LVIF\_TEXT flag is set in the **mask** member of the **LVITEM** structure. If the user cancels editing, the **pszText** member of the **LVITEM** structure is **NULL**; otherwise, **pszText** is the address of the edited text.
 
 </dd> </dl>
 
 ## Return value
 
-If the **pszText** member of the [**LVITEM**](lvitem.md) structure is non-**NULL**, return **TRUE** to set the item's label to the edited text. Return **FALSE** to reject the edited text and revert to the original label.
+If the **pszText** member of the [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure is non-**NULL**, return **TRUE** to set the item's label to the edited text. Return **FALSE** to reject the edited text and revert to the original label.
 
-If the **pszText** member of the [**LVITEM**](lvitem.md) structure is **NULL**, the return value is ignored.
+If the **pszText** member of the [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure is **NULL**, the return value is ignored.
 
 ## Remarks
 
@@ -55,16 +61,16 @@ When the user begins editing an item label, the parent window of the list-view c
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVN\_ENDLABELEDITW** (Unicode) and **LVN\_ENDLABELEDITA** (ANSI)<br/>         |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

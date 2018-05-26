@@ -1,7 +1,12 @@
 ---
 title: Managing GUIDs for Automation
 description: Provides supplemental information on globally unique identifiers.
-ms.assetid: '39fb8b78-83fc-47c7-9d0c-980fada5c17b'
+ms.assetid: 39fb8b78-83fc-47c7-9d0c-980fada5c17b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing GUIDs for Automation
@@ -23,11 +28,11 @@ GUIDs are the same as UUIDs (universally unique identifiers). A class identifier
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

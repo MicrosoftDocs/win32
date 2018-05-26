@@ -1,7 +1,12 @@
 ---
 title: lcid
 description: Indicates that the parameter is a locale ID (LCID).
-ms.assetid: '4281058b-a617-4504-bc36-b18763b40897'
+ms.assetid: 4281058b-a617-4504-bc36-b18763b40897
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # lcid
@@ -18,7 +23,7 @@ Only one parameter can have this attribute. The parameter must have the [in](in.
 
 The lcidattribute allows members in the VTBL to receive an LCID at the time of invocation. By convention, the lcidparameter is the last parameter not to have the [retval](retval.md) attribute. If the member specifies [propertyput](propput.md) or [propertyputref](propputref.md), the lcid parameter must precede the parameter that represents the right side of the property assignment.
 
-[**ITypeInfo::Invoke**](itypeinfo-invoke.md) passes the LCID of the type information into the lcidparameter. Parameters with this attribute are not displayed in user-oriented browsers.
+[**ITypeInfo::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-itypeinfo-invoke?branch=master) passes the LCID of the type information into the lcidparameter. Parameters with this attribute are not displayed in user-oriented browsers.
 
 ## Related topics
 

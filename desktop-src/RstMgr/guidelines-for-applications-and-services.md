@@ -1,7 +1,12 @@
 ---
 title: Guidelines for Applications and Services
 description: To reduce the number of system restarts when installing and servicing applications on Windows Vista or Windows Server 2008, you should observe the following guidelines to enable your application or service to be shut down cleanly and restarted.
-ms.assetid: 'd0b9344f-05c6-4054-90b9-86942df50b3d'
+ms.assetid: d0b9344f-05c6-4054-90b9-86942df50b3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for Applications and Services

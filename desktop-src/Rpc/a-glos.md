@@ -2,7 +2,12 @@
 title: A
 description: Words starting with A in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: '790462f0-e155-47c4-8cb1-33483c042fd1'
+ms.assetid: 790462f0-e155-47c4-8cb1-33483c042fd1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A

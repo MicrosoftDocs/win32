@@ -1,8 +1,10 @@
 ---
 title: MetricThresholdValue class
 description: This interface provides access to MetricThresholdValue objects.
-ms.assetid: 'B19E4E1F-3BFE-46F0-9681-67235BB6D65C'
-keywords: ["MetricThresholdValue class Access Execution Engine", "MetricThresholdValue class Access Execution Engine , described"]
+ms.assetid: B19E4E1F-3BFE-46F0-9681-67235BB6D65C
+keywords:
+- MetricThresholdValue class Access Execution Engine
+- MetricThresholdValue class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValue class
@@ -47,7 +54,7 @@ The **MetricThresholdValue** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,16 +66,16 @@ The **MetricThresholdValue** objects hold data from the **MetricThreshold/Metric
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

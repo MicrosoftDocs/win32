@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates the location of the archive on the server.'
-ms.assetid: '42fb8a22-0404-404f-b761-c8b8783f98a3'
-title: 'FaxConfiguration.ArchiveLocation property'
+---
+Description: Sets or retrieves a value that indicates the location of the archive on the server.
+ms.assetid: 42fb8a22-0404-404f-b761-c8b8783f98a3
+title: FaxConfiguration.ArchiveLocation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.ArchiveLocation property

@@ -1,8 +1,10 @@
 ---
 title: RAS\_PORT\_STATISTICS structure
 description: The RAS\_PORT\_STATISTICS structure reports the statistics that a RAS server collects for a connected port.
-ms.assetid: 'c42c7059-ff92-4f49-a86e-2f47a083aa8e'
-keywords: ["RAS_PORT_STATISTICS structure RAS", "PRAS_PORT_STATISTICS structure pointer RAS"]
+ms.assetid: c42c7059-ff92-4f49-a86e-2f47a083aa8e
+keywords:
+- RAS_PORT_STATISTICS structure RAS
+- PRAS_PORT_STATISTICS structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Rassapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS\_PORT\_STATISTICS structure
 
-\[The **RAS\_PORT\_STATISTICS** structure is not supported as of Windows Vista.\]
+\[The **RAS\_PORT\_STATISTICS** structure is not supported as of Windows Vista.\]
 
 The **RAS\_PORT\_STATISTICS** structure reports the statistics that a RAS server collects for a connected port. The RAS server resets the various statistic counters each time the port is connected. Call the [**RasAdminPortClearStatistics**](rasadminportclearstatistics.md) function to force the RAS server to reset the statistic counters.
 
@@ -265,10 +272,10 @@ Specifies the total number of bytes received compressed by the port. If the port
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Rassapi.h</dt> </dl> |
 
 
@@ -298,9 +305,9 @@ Specifies the total number of bytes received compressed by the port. If the port
 [**RasAdminPortGetInfo**](rasadminportgetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

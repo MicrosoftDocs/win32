@@ -1,7 +1,12 @@
 ---
 title: Administration Component
 description: Administration Component
-ms.assetid: '45516ac3-4a01-438e-a24b-3d41af9a3c60'
+ms.assetid: 45516ac3-4a01-438e-a24b-3d41af9a3c60
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Administration Component

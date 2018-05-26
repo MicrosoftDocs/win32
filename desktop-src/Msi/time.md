@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Time property is the current time in hours, minutes, and seconds as a string of literal text in the format HH:MM:SS using a 24 hour clock.'
-ms.assetid: '6f487e46-e178-4d41-b6fa-7c16aa1c46fd'
+---
+Description: The Time property is the current time in hours, minutes, and seconds as a string of literal text in the format HHMMSS using a 24 hour clock.
+ms.assetid: 6f487e46-e178-4d41-b6fa-7c16aa1c46fd
 title: Time property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time property

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether the device command with the specified ordinal is blocked from running on the platform.'
-ms.assetid: 'e77c48a0-d189-41e0-96a6-17f8480a83c6'
-title: 'IsCommandBlocked method of the Win32\_Tpm class'
+---
+Description: Indicates whether the device command with the specified ordinal is blocked from running on the platform.
+ms.assetid: e77c48a0-d189-41e0-96a6-17f8480a83c6
+title: IsCommandBlocked method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsCommandBlocked method of the Win32\_Tpm class

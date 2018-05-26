@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the information required to read or save the properties in the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.'
-ms.assetid: '1667b67d-9dd2-48a6-81dd-c8b06834cef0'
-title: 'IItemPropertyBag::GetPropertyInfo method'
+---
+Description: Gets the information required to read or save the properties in the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+ms.assetid: 1667b67d-9dd2-48a6-81dd-c8b06834cef0
+title: IItemPropertyBagGetPropertyInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IItemPropertyBag::GetPropertyInfo method
@@ -43,7 +48,7 @@ The number of properties to get information for. This argument specifies the num
 *pPropBag* \[out\]
 </dt> <dd>
 
-Pointer to an array of [**ITEMPROP**](itemprop.md) structures that receives the information for the properties.
+Pointer to an array of [**ITEMPROP**](/windows/win32/subsmgr/ns-subsmgr-_tagitemprop?branch=master) structures that receives the information for the properties.
 
 </dd> <dt>
 
@@ -62,7 +67,7 @@ If the method succeeds, it returns S\_OK. Otherwise, it returns an **HRESULT** e
 
 The [**IItemPropertyBag**](iitempropertybag.md) interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the [**IItemPropertyBag**](iitempropertybag.md) interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](itemprop.md) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the [**IItemPropertyBag**](iitempropertybag.md) interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](/windows/win32/subsmgr/ns-subsmgr-_tagitemprop?branch=master) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
 
 ## Requirements
 

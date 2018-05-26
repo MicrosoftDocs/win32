@@ -1,7 +1,12 @@
-﻿---
-Description: 'RouterFreeBidiMem frees a block of memory that was previously allocated by RouterAllocBidiMem.'
-ms.assetid: '946b1630-844a-43ac-8c26-fdfa2ee7866a'
+---
+Description: RouterFreeBidiMem frees a block of memory that was previously allocated by RouterAllocBidiMem.
+ms.assetid: 946b1630-844a-43ac-8c26-fdfa2ee7866a
 title: RouterFreeBidiMem function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterFreeBidiMem function

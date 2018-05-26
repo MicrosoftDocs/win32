@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs before the IInkAnalyzer performs analysis within the region of a partially populated IContextNode object.'
-ms.assetid: 'c24e8adb-672f-444a-bccb-1e9e55bea432'
-title: '\_IAnalysisProxyEvents::PopulateContextNode event'
+Description: Occurs before the IInkAnalyzer performs analysis within the region of a partially populated IContextNode object.
+ms.assetid: c24e8adb-672f-444a-bccb-1e9e55bea432
+title: '\_IAnalysisProxyEventsPopulateContextNode event'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IAnalysisProxyEvents::PopulateContextNode event
@@ -13,8 +18,8 @@ Occurs before the [**IInkAnalyzer**](iinkanalyzer.md) performs analysis within t
 
 ```C++
 HRESULT PopulateContextNode(
-  [in] IInkAnalyzer *pInkAnalyzer,
-  [in] IContextNode *pContextNodeToPopulate
+  [in] IInkAnalyzer *pInkAnalyzer,
+  [in] IContextNode *pContextNodeToPopulate
 );
 ```
 
@@ -58,7 +63,7 @@ During background analysis, the [**IInkAnalyzer**](iinkanalyzer.md) raises this 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -87,9 +92,9 @@ During background analysis, the [**IInkAnalyzer**](iinkanalyzer.md) raises this 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

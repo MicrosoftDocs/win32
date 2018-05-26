@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.uiMode property
 description: The uiMode property gets or sets a value indicating which controls are shown in the user interface.
-ms.assetid: '01034418-be70-44f3-8812-e529c747c9e4'
-keywords: ["uiMode property Windows Media Player", "uiMode property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , uiMode property"]
+ms.assetid: 01034418-be70-44f3-8812-e529c747c9e4
+keywords:
+- uiMode property Windows Media Player
+- uiMode property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , uiMode property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.uiMode property
@@ -60,7 +68,7 @@ A System.String that is one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -157,9 +165,9 @@ End Sub</code></pre></td>
 [**AxWindowsMediaPlayer.enableContextMenu (VB and C#)**](axwmplib-axwindowsmediaplayer-enablecontextmenu--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

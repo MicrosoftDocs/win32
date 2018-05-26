@@ -1,11 +1,16 @@
-﻿---
-Description: 'Used by the SHGetSetSettings function to specify which members of its SHELLSTATE structure should be set or retrived.'
+---
+Description: Used by the SHGetSetSettings function to specify which members of its SHELLSTATE structure should be set or retrived.
 title: SSF Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSF Constants
 
-Used by the [**SHGetSetSettings**](shgetsetsettings.md) function to specify which members of its [**SHELLSTATE**](shellstate.md) structure should be set or retrived.
+Used by the [**SHGetSetSettings**](/windows/win32/shlobj_core/nf-shlobj_core-shgetsetsettings?branch=master) function to specify which members of its [**SHELLSTATE**](/windows/win32/Shlobj/ns-shlobj_core-shellstatea?branch=master) structure should be set or retrived.
 
 <dl> <dt>
 

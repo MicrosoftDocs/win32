@@ -4,10 +4,13 @@ description: This topic describes a Central Access Policy (CAP).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '353BA03E-CB6B-4E5F-83D4-ED1A3C5DF34F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 353BA03E-CB6B-4E5F-83D4-ED1A3C5DF34F
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to setup a central access policy

@@ -4,17 +4,22 @@ description: The number of times the account has successfully logged on. A value
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8b12bea7-dfc3-46e3-a4a2-92b5f1239b98'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8b12bea7-dfc3-46e3-a4a2-92b5f1239b98
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Logon-Count attribute AD Schema", "logonCount attribute AD Schema"]
+keywords:
+- Logon-Count attribute AD Schema
+- logonCount attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Logon-Count
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Logon-Count attribute
@@ -38,12 +43,12 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -178,11 +183,11 @@ This attribute is not replicated and is maintained on each domain controller in 
 > \[!Important\]  
 > Due to compatibility with 16-bit versions of LAN Manager, the attribute has an upper limit of 65535. After this limit has been reached, you cannot use it as an indicator of user activity on this domain controller.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

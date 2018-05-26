@@ -1,7 +1,12 @@
 ---
 title: Internet Connection Sharing and Internet Connection Firewall Enumerated Types
 description: The ICS/ICF API uses the following enumerated types
-ms.assetid: 'fa6cc803-06f5-4b5c-98a5-c37dae08650f'
+ms.assetid: fa6cc803-06f5-4b5c-98a5-c37dae08650f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet Connection Sharing and Internet Connection Firewall Enumerated Types
@@ -10,11 +15,11 @@ ms.assetid: 'fa6cc803-06f5-4b5c-98a5-c37dae08650f'
 
 The ICS/ICF API uses the following enumerated types:
 
--   [**NETCON\_CHARACTERISTIC\_FLAGS**](netcon-characteristic-flags.md)
--   [**NETCON\_MEDIATYPE**](netcon-mediatype.md)
--   [**NETCON\_STATUS**](netcon-status.md)
--   [**NETCON\_TYPE**](netcon-type.md)
--   [**SHARINGCONNECTIONTYPE**](sharingconnectiontype.md)
+-   [**NETCON\_CHARACTERISTIC\_FLAGS**](/windows/previous-versions/NetCon/ne-netcon-tagnetcon_characteristic_flags?branch=master)
+-   [**NETCON\_MEDIATYPE**](/windows/previous-versions/NetCon/ne-netcon-tagnetcon_mediatype?branch=master)
+-   [**NETCON\_STATUS**](/windows/previous-versions/NetCon/ne-netcon-tagnetcon_status?branch=master)
+-   [**NETCON\_TYPE**](/windows/previous-versions/NetCon/ne-netcon-tagnetcon_type?branch=master)
+-   [**SHARINGCONNECTIONTYPE**](/windows/previous-versions/NetCon/ne-netcon-tagsharingconnectiontype?branch=master)
 
 ## Related topics
 

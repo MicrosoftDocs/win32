@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTargetRect method retrieves the destination rectangle. This is an internal helper member function.'
-ms.assetid: 'bf9d95c9-eee8-46b8-bdee-a7d16777ed83'
-title: 'CBaseControlVideo.GetTargetRect method'
+Description: The GetTargetRect method retrieves the destination rectangle. This is an internal helper member function.
+ms.assetid: bf9d95c9-eee8-46b8-bdee-a7d16777ed83
+title: CBaseControlVideo.GetTargetRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetTargetRect method
@@ -13,7 +18,7 @@ The `GetTargetRect` method retrieves the destination rectangle. This is an inter
 
 ```C++
 virtual HRESULT GetTargetRect(
-   RECT *pTargetRect
+   RECT *pTargetRect
 ) = 0;
 ```
 
@@ -83,9 +88,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

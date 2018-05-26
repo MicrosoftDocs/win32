@@ -1,8 +1,14 @@
 ---
 title: DBPROP\_DEFERNONINDEXEDTRIMMING
 description: DBPROP\_DEFERNONINDEXEDTRIMMING
-ms.assetid: 'fd3d03aa-98c9-47a2-857e-a5171cb73f7a'
-keywords: ["DBPROP_DEFERNONINDEXEDTRIMMING"]
+ms.assetid: fd3d03aa-98c9-47a2-857e-a5171cb73f7a
+keywords:
+- DBPROP_DEFERNONINDEXEDTRIMMING
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROP\_DEFERNONINDEXEDTRIMMING

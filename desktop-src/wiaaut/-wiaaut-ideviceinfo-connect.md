@@ -1,8 +1,11 @@
 ---
 title: DeviceInfo.Connect method
 description: Establishes a connection with a device.
-ms.assetid: 'fe77af57-d2bf-49d7-ba85-72e8251c6d50'
-keywords: ["Connect method WIA Automation", "Connect method WIA Automation , DeviceInfo object", "DeviceInfo object WIA Automation , Connect method"]
+ms.assetid: fe77af57-d2bf-49d7-ba85-72e8251c6d50
+keywords:
+- Connect method WIA Automation
+- Connect method WIA Automation , DeviceInfo object
+- DeviceInfo object WIA Automation , Connect method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfo.Connect method
@@ -47,8 +55,8 @@ For example code, see [Implement a Web Camera ASP Page](-wiaaut-shared-samples.m
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -82,9 +90,9 @@ For example code, see [Implement a Web Camera ASP Page](-wiaaut-shared-samples.m
 [**Device (VideoPreview)**](-wiaaut-ivideopreview-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

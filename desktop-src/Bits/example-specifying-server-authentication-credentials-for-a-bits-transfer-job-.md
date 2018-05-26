@@ -1,7 +1,12 @@
 ---
 title: Example Specifying Server Authentication Credentials for a BITS Transfer Job
 description: You can specify different authentication schemes for a Background Intelligent Transfer Service (BITS) transfer job.
-ms.assetid: '31db38f6-3639-4042-97f2-4f9d78942e15'
+ms.assetid: 31db38f6-3639-4042-97f2-4f9d78942e15
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Specifying Server Authentication Credentials for a BITS Transfer Job
@@ -14,7 +19,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 
 **To specify server authentication credentials for a BITS transfer job**
 
-1.  Create a container structure that maps [**BG\_AUTH\_SCHEME**](bg-auth-scheme.md) values to scheme names.
+1.  Create a container structure that maps [**BG\_AUTH\_SCHEME**](/windows/win32/Bits1_5/ne-bits1_5-__midl_ibackgroundcopyjob2_0002?branch=master) values to scheme names.
 
     ```C++
     struct
@@ -37,7 +42,7 @@ This example uses the header and implementation defined in [Example: Common Clas
     
 
 2.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](bg-auth-credentials.md) structure. The example uses the [SecureZeroMemory]( http://go.microsoft.com/fwlink/p/?linkid=162389) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( http://go.microsoft.com/fwlink/p/?linkid=162389) function is defined in WinBase.h.
+3.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/win32/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005?branch=master) structure. The example uses the [SecureZeroMemory]( http://go.microsoft.com/fwlink/p/?linkid=162389) function to clear the memory locations associated with the sensitive information. The [SecureZeroMemory]( http://go.microsoft.com/fwlink/p/?linkid=162389) function is defined in WinBase.h.
 4.  Use the GetScheme function to get the authentication scheme to use to connect to the server.
 
     ```C++
@@ -64,16 +69,16 @@ This example uses the header and implementation defined in [Example: Common Clas
 
     
 
-5.  Populate the [**BG\_AUTH\_CREDENTIALS**](bg-auth-credentials.md) structure with the authentication scheme returned by the GetScheme function and the user name and password that were passed into the ServerAuthentication function.
-6.  Get a pointer to the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface (pJob).
+5.  Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/win32/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005?branch=master) structure with the authentication scheme returned by the GetScheme function and the user name and password that were passed into the ServerAuthentication function.
+6.  Get a pointer to the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface (pJob).
 7.  Initialize COM process security by calling [CoInitializeSecurity](http://go.microsoft.com/fwlink/p/?linkid=162390). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with E\_ACCESSDENIED if the correct impersonation level is not set.
-8.  Get a pointer to the [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( http://go.microsoft.com/fwlink/p/?linkid=162386) function.
-9.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](ibackgroundcopymanager-createjob.md) method.
-10. Get a pointer to the CNotifyInterface callback interface and call the [**IBackgroundCopyJob::SetNotifyInterface**](ibackgroundcopyjob-setnotifyinterface.md) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
-11. Call the [**IBackgroundCopyJob::SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) method to set the types of notifications to receive. In this example, the **BG\_NOTIFY\_JOB\_TRANSFERRED** and **BG\_NOTIFY\_JOB\_ERROR** flags are set.
-12. Get a pointer to the [**IBackgroundCopyJob2**](ibackgroundcopyjob2.md) interface. Use the **IBackgroundCopyJob2** pointer to set additional properties on the job. This program uses the [**IBackgroundCopyJob2::SetCredentials**](ibackgroundcopyjob2-setcredentials.md) method to set the credentials for the BITS transfer job.
-13. Add files to the BITS transfer job by calling [**IBackgroundCopyJob::AddFile**](ibackgroundcopyjob-addfile.md). In this example, the **IBackgroundCopyJob::AddFile** method uses the remoteFile and localFile variables that were passed into the ServerAuthentication function.
-14. After the file is added, call [**IBackgroundCopyJob::Resume**](ibackgroundcopyjob-resume.md) to resume the job.
+8.  Get a pointer to the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface, and obtain the initial locator to BITS by calling the [CoCreateInstance]( http://go.microsoft.com/fwlink/p/?linkid=162386) function.
+9.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-createjob?branch=master) method.
+10. Get a pointer to the CNotifyInterface callback interface and call the [**IBackgroundCopyJob::SetNotifyInterface**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnotifyinterface?branch=master) method to receive notification of job-related events. For more information about CNotifyInterface, see [Example: Common Classes](common-classes.md).
+11. Call the [**IBackgroundCopyJob::SetNotifyFlags**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags?branch=master) method to set the types of notifications to receive. In this example, the **BG\_NOTIFY\_JOB\_TRANSFERRED** and **BG\_NOTIFY\_JOB\_ERROR** flags are set.
+12. Get a pointer to the [**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master) interface. Use the **IBackgroundCopyJob2** pointer to set additional properties on the job. This program uses the [**IBackgroundCopyJob2::SetCredentials**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials?branch=master) method to set the credentials for the BITS transfer job.
+13. Add files to the BITS transfer job by calling [**IBackgroundCopyJob::AddFile**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-addfile?branch=master). In this example, the **IBackgroundCopyJob::AddFile** method uses the remoteFile and localFile variables that were passed into the ServerAuthentication function.
+14. After the file is added, call [**IBackgroundCopyJob::Resume**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-resume?branch=master) to resume the job.
 15. Set up a while loop to wait for Quit Message from the callback interface while the job is transferring.
 
     > [!Note]  
@@ -106,7 +111,7 @@ This example uses the header and implementation defined in [Example: Common Clas
 
     The preceding loop uses the [GetTickCount](http://go.microsoft.com/fwlink/p/?linkid=162392) function to retrieve the number of milliseconds that have elapsed since the job started transferring.
 
-16. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](ibackgroundcopyjob-complete.md).
+16. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-complete?branch=master).
 
 The following code example specifies server authentication credentials for a BITS transfer job.
 
@@ -358,13 +363,13 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 
 <dl> <dt>
 
-[**IBackgroundCopyManager**](ibackgroundcopymanager.md)
+[**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master)
 </dt> <dt>
 
-[**IBackgroundCopyJob**](ibackgroundcopyjob.md)
+[**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master)
 </dt> <dt>
 
-[**IBackgroundCopyJob2**](ibackgroundcopyjob2.md)
+[**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master)
 </dt> <dt>
 
 [Example: Common Classes](common-classes.md)

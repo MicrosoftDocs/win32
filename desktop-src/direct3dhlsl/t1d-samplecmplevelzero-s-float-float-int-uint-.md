@@ -1,14 +1,20 @@
 ---
 title: SampleCmpLevelZero(S,float,float,int,uint) function
 description: Samples a texture on mipmap level 0 only and compares the result to a comparison value. Returns status about the operation.
-ms.assetid: 'A2F7FD4A-49D8-41B3-A5AF-7B54A8B5266C'
-keywords: ["SampleCmpLevelZero function HLSL"]
+ms.assetid: A2F7FD4A-49D8-41B3-A5AF-7B54A8B5266C
+keywords:
+- SampleCmpLevelZero function HLSL
 topic_type:
 - apiref
 api_name:
 - SampleCmpLevelZero
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SampleCmpLevelZero(S,float,float,int,uint) function

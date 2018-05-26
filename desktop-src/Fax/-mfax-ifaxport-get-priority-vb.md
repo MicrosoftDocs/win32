@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions.'
-ms.assetid: 'd842d79e-6010-4e37-a250-37ae9ddc675e'
-title: 'FaxPort.Priority property'
+---
+Description: The Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions.
+ms.assetid: d842d79e-6010-4e37-a250-37ae9ddc675e
+title: FaxPort.Priority property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.Priority property
@@ -58,10 +63,10 @@ When the fax server initiates an outgoing fax transmission, it chooses the fax p
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

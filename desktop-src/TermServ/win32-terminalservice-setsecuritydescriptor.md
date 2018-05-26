@@ -4,11 +4,16 @@ description: Writes an updated version of the security descriptor that controls 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4F03B798-0912-4A0D-B31E-419662D5849B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4F03B798-0912-4A0D-B31E-419662D5849B
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["scripting Windows Management Instrumentation , security", "security Windows Management Instrumentation , scripting", "SetSecurityDescriptor method Remote Desktop Services", "SetSecurityDescriptor method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , SetSecurityDescriptor method"]
+keywords:
+- scripting Windows Management Instrumentation , security
+- security Windows Management Instrumentation , scripting
+- SetSecurityDescriptor method Remote Desktop Services
+- SetSecurityDescriptor method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , SetSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +22,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSecurityDescriptor method of the Win32\_Service class
@@ -28,7 +36,7 @@ The **SetSecurityDescriptor** method writes an updated version of the security d
 
 ```mof
 uint32 SetSecurityDescriptor(
-  [in] Win32_SecurityDescriptor Descriptor
+  [in] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -254,8 +262,8 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -284,9 +292,9 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves the FaxIncomingMessage object''s data.'
-ms.assetid: 'b62f318f-76e6-4902-9b8b-a45d56bc067b'
-title: 'FaxIncomingMessage.Save method'
+---
+Description: Saves the FaxIncomingMessage objects data.
+ms.assetid: b62f318f-76e6-4902-9b8b-a45d56bc067b
+title: FaxIncomingMessage.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.Save method
@@ -28,7 +33,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****far2MANAGE\_CONFIG****](-mfax-fax-access-rights-enum-2.md) and [****far2QUERY\_CONFIG****](-mfax-fax-access-rights-enum-2.md) access rights.
+To use this method, a user must have the [****far2MANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) and [****far2QUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access rights.
 
 It is not necessary to call this method to commit changes to the [**Subject**](-mfax-faxincomingmessage-subject-vb.md), [**SenderName**](-mfax-faxincomingmessage-sendername-vb.md), [**SenderFaxNumber**](-mfax-faxincomingmessage-senderfaxnumber-vb.md), and [**HasCoverPage**](-mfax-faxincomingmessage-hascoverpage-vb.md) properties. They are committed with the [**Reassign**](-mfax-faxincomingmessage-reassign-vb.md) method.
 
@@ -52,7 +57,7 @@ It is not necessary to call this method to commit changes to the [**Subject**](-
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)
+[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)
 </dt> </dl>
 
  

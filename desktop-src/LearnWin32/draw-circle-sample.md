@@ -1,7 +1,12 @@
 ---
 title: Draw Circle Sample
 description: This sample application shows how to use mouse input to draw a circle.
-ms.assetid: '9AA5D172-0E57-44BB-9CB0-60B613D9D2BA'
+ms.assetid: 9AA5D172-0E57-44BB-9CB0-60B613D9D2BA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Draw Circle Sample

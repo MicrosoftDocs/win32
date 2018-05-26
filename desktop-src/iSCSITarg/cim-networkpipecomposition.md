@@ -4,13 +4,15 @@ description: NetworkPipeComposition describes the makeup a pipe, based on lower-
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '49460037-676a-4de3-b741-947a89b7db20'
-ms.prod: 'windows-server-dev'
+ms.assetid: 49460037-676a-4de3-b741-947a89b7db20
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_NetworkPipeComposition class iSCSI Software Target API", "CIM_NetworkPipeComposition class iSCSI Software Target API , described"]
+keywords:
+- CIM_NetworkPipeComposition class iSCSI Software Target API
+- CIM_NetworkPipeComposition class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_NetworkPipeComposition class
@@ -40,7 +45,7 @@ class CIM_NetworkPipeComposition : CIM_Component
 {
   CIM_NetworkPipe REF GroupComponent;
   CIM_NetworkPipe REF PartComponent;
-  uint16              AggregationSequence;
+  uint16              AggregationSequence;
 };
 ```
 
@@ -108,7 +113,7 @@ A pipe which is a part of a higher-level one.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -122,9 +127,9 @@ A pipe which is a part of a higher-level one.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

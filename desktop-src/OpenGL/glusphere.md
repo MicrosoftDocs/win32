@@ -1,8 +1,9 @@
 ---
 title: gluSphere function
 description: The gluSphere function draws a sphere.
-ms.assetid: '0f1919c6-0551-4d50-b782-767dacc088cb'
-keywords: ["gluSphere function OpenGL"]
+ms.assetid: 0f1919c6-0551-4d50-b782-767dacc088cb
+keywords:
+- gluSphere function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluSphere function
@@ -22,10 +28,10 @@ The **gluSphere** function draws a sphere.
 
 ```C++
 void WINAPI gluSphere(
-   GLUquadric *qobj,
-   GLdouble   radius,
-   GLint      slices,
-   GLint      stacks
+   GLUquadric *qobj,
+   GLdouble   radius,
+   GLint      slices,
+   GLint      stacks
 );
 ```
 
@@ -73,7 +79,7 @@ The **gluSphere** function draws a sphere of the given radius centered around th
 
 If the orientation is set to GLU\_OUTSIDE (with **gluQuadricOrientation**), any normals generated point away from the center of the sphere. Otherwise, they point toward the center of the sphere.
 
-If texturing is turned on (with **gluQuadricTexture**): texture coordinates are generated so that *t* ranges from 0.0 at *z* = -*radius* to 1.0 at *z* = *radius* (*t* increases linearly along longitudinal lines); and *s* ranges from 0.0 at the positive y-axis, to 0.25 at the positive x-axis, to 0.5 at the negative y-axis, to 0.75 at the negative x-axis, and back to 1.0 at the positive y-axis.
+If texturing is turned on (with **gluQuadricTexture**): texture coordinates are generated so that *t* ranges from 0.0 at *z* = -*radius* to 1.0 at *z* = *radius* (*t* increases linearly along longitudinal lines); and *s* ranges from 0.0 at the positive y-axis, to 0.25 at the positive x-axis, to 0.5 at the negative y-axis, to 0.75 at the negative x-axis, and back to 1.0 at the positive y-axis.
 
 ## Requirements
 
@@ -81,8 +87,8 @@ If texturing is turned on (with **gluQuadricTexture**): texture coordinates are 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -111,9 +117,9 @@ If texturing is turned on (with **gluQuadricTexture**): texture coordinates are 
 [**gluQuadricTexture**](gluquadrictexture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

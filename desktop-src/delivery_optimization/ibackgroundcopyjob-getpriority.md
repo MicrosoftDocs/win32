@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetPriority method
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
-ms.assetid: '2F778B35-8DBB-4540-88C2-A2E18EBB0D89'
-keywords: ["GetPriority method", "GetPriority method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetPriority method"]
+ms.assetid: 2F778B35-8DBB-4540-88C2-A2E18EBB0D89
+keywords:
+- GetPriority method
+- GetPriority method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetPriority method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetPriority method
@@ -22,7 +30,7 @@ Retrieves the priority level for the job. The priority level determines when the
 
 ```C++
 HRESULT GetPriority(
-  [out] BG_JOB_PRIORITY *pPriority
+  [out] BG_JOB_PRIORITY *pPriority
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +67,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -79,9 +87,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IBackgroundCopyJob::SetPriority**](ibackgroundcopyjob-setpriority.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

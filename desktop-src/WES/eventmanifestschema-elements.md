@@ -1,7 +1,12 @@
 ---
 title: EventManifest Schema Elements
 description: The following are the elements that the EventManifest schema defines.
-ms.assetid: '3aa704a5-4ffd-4a5e-b14a-b276435b9b5c'
+ms.assetid: 3aa704a5-4ffd-4a5e-b14a-b276435b9b5c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventManifest Schema Elements
@@ -25,8 +30,8 @@ The following are the elements that the EventManifest schema defines. This secti
 | [**data (TemplateItemType)**](eventmanifestschema-data-templateitemtype-element.md)                                     | Defines a data item that you want to include with the event.<br/>                                                                                                                                                                                                              |
 | [**description (InputType)**](eventmanifestschema-description-inputtype-element.md)                                     | A description of the input type.<br/>                                                                                                                                                                                                                                          |
 | [**event (DefinitionType)**](eventmanifestschema-event-definitiontype-element.md)                                       | Defines an event that your provider can log.<br/>                                                                                                                                                                                                                              |
-| [**event (opcode)**](eventmanifestschema-event-opcode-element.md)                                                       | Not available.**Windows Server 2008 and Windows Vista:** Defines an event for a task-specific opcode. Not available starting with Windows 7.<br/> <br/>                                                                                                                  |
-| [**event (TaskEventDefinitionType)**](eventmanifestschema-event-taskeventdefinitiontype-element.md)                     | Not available.**Windows Server 2008 and Windows Vista:** Defines an event for a task-specific event. Not available starting with Windows 7.<br/> <br/>                                                                                                                   |
+| [**event (opcode)**](eventmanifestschema-event-opcode-element.md)                                                       | Not available.**Windows Server 2008 and Windows Vista:** Defines an event for a task-specific opcode. Not available starting with Windows 7.<br/> <br/>                                                                                                                  |
+| [**event (TaskEventDefinitionType)**](eventmanifestschema-event-taskeventdefinitiontype-element.md)                     | Not available.**Windows Server 2008 and Windows Vista:** Defines an event for a task-specific event. Not available starting with Windows 7.<br/> <br/>                                                                                                                   |
 | [**events (InstrumentationType)**](eventmanifestschema-events-instrumentationtype-element.md)                           | Contains a list of providers that are defined in the manifest.<br/>                                                                                                                                                                                                            |
 | [**events (ProviderType)**](eventmanifestschema-events-providertype-element.md)                                         | Contains a list of the events that the provider defines.<br/>                                                                                                                                                                                                                  |
 | [**importChannel (ChannelListType)**](eventmanifestschema-importchannel-channellisttype-element.md)                     | Identifies a channel that has been defined by another provider.<br/>                                                                                                                                                                                                           |
@@ -58,7 +63,7 @@ The following are the elements that the EventManifest schema defines. This secti
 | [**namedQueries (MetadataType)**](eventmanifestschema-namedqueries-metadatatype-element.md)                             | Not used. Defines a list of named queries that query the event message string for a value and perform a specified action if found.<br/>                                                                                                                                        |
 | [**namedQueries (ProviderType)**](eventmanifestschema-namedqueries-providertype-element.md)                             | Not used. Defines a list of named queries that query the event message string for a value and perform a specified action if found.<br/>                                                                                                                                        |
 | [**opcode (OpcodeListType)**](eventmanifestschema-opcode-opcodelisttype-element.md)                                     | Contains a numeric value that identifies the activity or a point within an activity that the application was performing when it raised the event (for example, initialization or closing).<br/>                                                                                |
-| [**opcode (TaskEventDefinitionType)**](eventmanifestschema-opcode-taskeventdefinitiontype-element.md)                   | Not available.**Windows Server 2008 and Windows Vista:** Contains a task-specific opcode for an event. All of the opcode definitions are assumed to be task-specific for the task that contains the event definitions. Not available starting with Windows 7.<br/> <br/> |
+| [**opcode (TaskEventDefinitionType)**](eventmanifestschema-opcode-taskeventdefinitiontype-element.md)                   | Not available.**Windows Server 2008 and Windows Vista:** Contains a task-specific opcode for an event. All of the opcode definitions are assumed to be task-specific for the task that contains the event definitions. Not available starting with Windows 7.<br/> <br/> |
 | [**opcodes (MetadataType)**](eventmanifestschema-opcodes-metadatatype-element.md)                                       | Defines a list of opcodes that you can use to group events within a task.<br/>                                                                                                                                                                                                 |
 | [**opcodes (ProviderType)**](eventmanifestschema-opcodes-providertype-element.md)                                       | Defines a list of opcodes that you can use to group events within a task.<br/>                                                                                                                                                                                                 |
 | [**opcodes (TaskType)**](eventmanifestschema-opcodes-tasktype-element.md)                                               | Defines a list of task-specific opcodes.<br/>                                                                                                                                                                                                                                  |
@@ -74,7 +79,7 @@ The following are the elements that the EventManifest schema defines. This secti
 | [**stringTable (LocalizationType)**](eventmanifestschema-stringtable-localizationtype-element.md)                       | Defines a list of localized strings that you can reference in your manifest.<br/>                                                                                                                                                                                              |
 | [**stringTable (resources)**](eventmanifestschema-stringtable-localizationtype-element.md)                              | Defines a list of localized strings that you can reference in your manifest.<br/>                                                                                                                                                                                              |
 | [**struct (TemplateItemType)**](eventmanifestschema-struct-templateitemtype-element.md)                                 | Defines a structure that includes one or more data items that you want to include with the event.<br/>                                                                                                                                                                         |
-| [**task (DefinitionType)**](eventmanifestschema-task-definitiontype-element.md)                                         | Not available.**Windows Server 2008 and Windows Vista:** Defines a task-specific event that your provider can log. Not available starting with Windows 7.<br/> <br/>                                                                                                     |
+| [**task (DefinitionType)**](eventmanifestschema-task-definitiontype-element.md)                                         | Not available.**Windows Server 2008 and Windows Vista:** Defines a task-specific event that your provider can log. Not available starting with Windows 7.<br/> <br/>                                                                                                     |
 | [**task (TaskListType)**](eventmanifestschema-task-tasklisttype-element.md)                                             | Defines a component or subcomponent of an application.<br/>                                                                                                                                                                                                                    |
 | [**tasks (ProviderType)**](eventmanifestschema-tasks-providertype-element.md)                                           | Defines a list of tasks that a provider can use to group events.<br/>                                                                                                                                                                                                          |
 | [**template (TemplateListType)**](eventmanifestschema-template-templatelisttype-element.md)                             | A template that defines the data to include with an event.<br/>                                                                                                                                                                                                                |
@@ -87,11 +92,11 @@ The following are the elements that the EventManifest schema defines. This secti
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

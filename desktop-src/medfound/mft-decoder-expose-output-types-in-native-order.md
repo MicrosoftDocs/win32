@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a decoder exposes IYUV/I420 output types (suitable for transcoding) before other formats.'
-ms.assetid: '8505CFA1-210A-4DA8-B92A-FCE62F0310E5'
-title: 'MFT\_DECODER\_EXPOSE\_OUTPUT\_TYPES\_IN\_NATIVE\_ORDER attribute'
+---
+Description: Specifies whether a decoder exposes IYUV/I420 output types (suitable for transcoding) before other formats.
+ms.assetid: 8505CFA1-210A-4DA8-B92A-FCE62F0310E5
+title: MFT\_DECODER\_EXPOSE\_OUTPUT\_TYPES\_IN\_NATIVE\_ORDER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_DECODER\_EXPOSE\_OUTPUT\_TYPES\_IN\_NATIVE\_ORDER attribute
@@ -16,7 +21,7 @@ Specifies whether a decoder exposes IYUV/I420 output types (suitable for transco
 
 This attribute is a hint for the decoder to arrange its list of output types in a particular order, depending on the intended use, either playback or transcode.
 
-For most encoding formats (H.264, MPEG-2, WMV), the video decoders in Microsoft Media Foundation support several common YUV outputs, including NV12, YV12, YUY2, IYUV, and I420. The decoder offers an ordered list of output types through its [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md) method.
+For most encoding formats (H.264, MPEG-2, WMV), the video decoders in Microsoft Media Foundation support several common YUV outputs, including NV12, YV12, YUY2, IYUV, and I420. The decoder offers an ordered list of output types through its [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) method.
 
 For playback, NV12 is the most efficient and widely supported format. Therefore, by default, decoders typically offer NV12 as the first output type in the list. This minimizes the time needed to resolve the media type when building a playback topology. For transcoding, however, IYUV or I420 are more efficient for the CPU and are typically preferred by encoders.
 
@@ -27,8 +32,8 @@ If a decoder supports this attribute, the attribute has the following behavior:
 
 To set this attribute:
 
-1.  Call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) on the decoder to get an [**IMFAttributes**](imfattributes.md) pointer.
-2.  Call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md) to add the attribute.
+1.  Call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) on the decoder to get an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer.
+2.  Call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master) to add the attribute.
 
 ## Requirements
 

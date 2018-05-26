@@ -1,14 +1,20 @@
 ---
 title: DLGITEMTEMPLATEEX structure
 description: A block of text used by an extended dialog box template to describe the extended dialog box. For a description of the format of an extended dialog box template, see DLGTEMPLATEEX.
-ms.assetid: 'c60fd8db-ee4b-433b-a2fb-68b9a677bac8'
-keywords: ["DLGITEMTEMPLATEEX structure Dialog Boxes"]
+ms.assetid: c60fd8db-ee4b-433b-a2fb-68b9a677bac8
+keywords:
+- DLGITEMTEMPLATEEX structure Dialog Boxes
 topic_type:
 - apiref
 api_name:
 - DLGITEMTEMPLATEEX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DLGITEMTEMPLATEEX structure
@@ -20,17 +26,17 @@ A block of text used by an extended dialog box template to describe the extended
 
 ```C++
 typedef struct {
-  DWORD     helpID;
-  DWORD     exStyle;
-  DWORD     style;
-  short     x;
-  short     y;
-  short     cx;
-  short     cy;
-  DWORD     id;
+  DWORD     helpID;
+  DWORD     exStyle;
+  DWORD     style;
+  short     x;
+  short     y;
+  short     cx;
+  short     cy;
+  DWORD     id;
   sz_Or_Ord windowClass;
   sz_Or_Ord title;
-  WORD      extraCount;
+  WORD      extraCount;
 } DLGITEMTEMPLATEEX;
 ```
 
@@ -152,7 +158,7 @@ If the first element is 0xFFFF, the array has one additional element that specif
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -186,7 +192,7 @@ Each **DLGITEMTEMPLATEEX** structure must be aligned on a **DWORD** boundary. Th
 
 If you specify character strings in the **windowClass** and **title** arrays, you must use Unicode strings. Use the [**MultiByteToWideChar**](https://msdn.microsoft.com/library/windows/desktop/dd319072) function to generate Unicode strings from ANSI strings.
 
-The **x**, **y**, **cx**, and **cy** members specify values in dialog box units. You can convert these values to screen units (pixels) by using the [**MapDialogRect**](mapdialogrect.md) function.
+The **x**, **y**, **cx**, and **cy** members specify values in dialog box units. You can convert these values to screen units (pixels) by using the [**MapDialogRect**](/windows/win32/Winuser/nf-winuser-mapdialogrect?branch=master) function.
 
 ## Requirements
 
@@ -194,8 +200,8 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -206,25 +212,25 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 **Reference**
 </dt> <dt>
 
-[**CreateDialogIndirect**](createdialogindirect.md)
+[**CreateDialogIndirect**](/windows/win32/Winuser/nf-winuser-createdialogindirecta?branch=master)
 </dt> <dt>
 
-[**CreateDialogIndirectParam**](createdialogindirectparam.md)
+[**CreateDialogIndirectParam**](/windows/win32/Winuser/nf-winuser-createdialogindirectparama?branch=master)
 </dt> <dt>
 
 [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680)
 </dt> <dt>
 
-[**DialogBoxIndirect**](dialogboxindirect.md)
+[**DialogBoxIndirect**](/windows/win32/Winuser/nf-winuser-dialogboxindirecta?branch=master)
 </dt> <dt>
 
-[**DialogBoxIndirectParam**](dialogboxindirectparam.md)
+[**DialogBoxIndirectParam**](/windows/win32/Winuser/nf-winuser-dialogboxindirectparama?branch=master)
 </dt> <dt>
 
 [**DLGTEMPLATEEX**](dlgtemplateex.md)
 </dt> <dt>
 
-[**MapDialogRect**](mapdialogrect.md)
+[**MapDialogRect**](/windows/win32/Winuser/nf-winuser-mapdialogrect?branch=master)
 </dt> <dt>
 
 [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619)
@@ -245,9 +251,9 @@ The **x**, **y**, **cx**, and **cy** members specify values in dialog box units.
 [**WM\_HELP**](_win32_WM_HELP)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

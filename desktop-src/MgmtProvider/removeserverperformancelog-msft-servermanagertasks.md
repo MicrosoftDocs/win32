@@ -4,11 +4,14 @@ description: Remove the log file for a data collector set that are older than a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e68fd25c-81f8-4cdd-976a-48441ae6276c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e68fd25c-81f8-4cdd-976a-48441ae6276c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveServerPerformanceLog method", "RemoveServerPerformanceLog method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, RemoveServerPerformanceLog method"]
+keywords:
+- RemoveServerPerformanceLog method
+- RemoveServerPerformanceLog method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, RemoveServerPerformanceLog method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveServerPerformanceLog method of the MSFT\_ServerManagerTasks class
@@ -28,8 +34,8 @@ Remove the log file for a data collector set that are older than a given thresho
 
 ```mof
 uint32 RemoveServerPerformanceLog(
-  [in] string CollectorName,
-  [in] uint64 MillisecondThreshold
+  [in] string CollectorName,
+  [in] uint64 MillisecondThreshold
 );
 ```
 
@@ -60,7 +66,7 @@ The threshold to use when removing the log files.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ The threshold to use when removing the log files.
 [**MSFT\_ServerManagerTasks**](msft-servermanagertasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays the certificate.'
-ms.assetid: 'bd9a0abc-c8ab-4d87-81e3-aab02d992c39'
-title: 'ICertificate2::Display method'
+---
+Description: Displays the certificate.
+ms.assetid: bd9a0abc-c8ab-4d87-81e3-aab02d992c39
+title: ICertificate2Display method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::Display method

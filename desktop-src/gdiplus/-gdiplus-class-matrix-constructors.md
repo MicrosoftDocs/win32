@@ -1,12 +1,17 @@
-﻿---
-Description: 'This topic lists the constructors of the Matrix class. For a complete class listing, see Matrix Class.'
-ms.assetid: 'a1411b9c-69e9-441e-a476-b0eb6ec30bf2'
-title: 'Matrix.Matrix constructors'
+---
+Description: This topic lists the constructors of the Matrix class. For a complete class listing, see Matrix Class.
+ms.assetid: a1411b9c-69e9-441e-a476-b0eb6ec30bf2
+title: Matrix.Matrix constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix.Matrix constructors
 
-This topic lists the constructors of the [**Matrix**](-gdiplus-class-matrix-class.md) class. For a complete class listing, see **Matrix Class**.
+This topic lists the constructors of the [**Matrix**](/windows/win32/gdiplusmatrix/nl-gdiplusmatrix-matrix?branch=master) class. For a complete class listing, see **Matrix Class**.
 
 ### Overload list
 
@@ -14,10 +19,10 @@ This topic lists the constructors of the [**Matrix**](-gdiplus-class-matrix-clas
 
 | Constructor                                                                                          | Description                                                                                                                                                                          |
 |:-----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Matrix(Rect&,Point\*)**](-gdiplus-class-matrix-matrix-rect-rect-point-dstplg-.md)                | Creates a [**Matrix::Matrix**](-gdiplus-class-matrix-matrix-rect-rect-point-dstplg-.md) object based on a rectangle and a point.<br/>                                         |
-| [**Matrix(RectF&,PointF\*)**](-gdiplus-class-matrix-matrix-rectf-rect-pointf-dstplg-.md)            | Creates a [**Matrix::Matrix**](-gdiplus-class-matrix-matrix-rectf-rect-pointf-dstplg-.md) object based on a rectangle and a point.<br/>                                       |
-| [**Matrix(REAL,REAL,REAL,REAL,REAL,REAL)**](-gdiplus-class-matrix-matrix-m11-m12-m21-m22-dx-dy-.md) | Creates and initializes a [**Matrix::Matrix**](-gdiplus-class-matrix-matrix-m11-m12-m21-m22-dx-dy-.md) object based on six numbers that define an affine transformation.<br/> |
-| [**Matrix()**](-gdiplus-class-matrix-matrix-.md)                                                    | Creates and initializes a [**Matrix::Matrix**](-gdiplus-class-matrix-matrix-.md) object that represents the identity matrix.<br/>                                             |
+| [**Matrix(Rect&,Point\*)**](/windows/win32/Gdiplusmatrix/?branch=master)                | Creates a [**Matrix::Matrix**](/windows/win32/Gdiplusmatrix/?branch=master) object based on a rectangle and a point.<br/>                                         |
+| [**Matrix(RectF&,PointF\*)**](/windows/win32/Gdiplusmatrix/?branch=master)            | Creates a [**Matrix::Matrix**](/windows/win32/Gdiplusmatrix/?branch=master) object based on a rectangle and a point.<br/>                                       |
+| [**Matrix(REAL,REAL,REAL,REAL,REAL,REAL)**](/windows/win32/Gdiplusmatrix/?branch=master) | Creates and initializes a [**Matrix::Matrix**](/windows/win32/Gdiplusmatrix/?branch=master) object based on six numbers that define an affine transformation.<br/> |
+| [**Matrix()**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(const matrix &)?branch=master)                                                    | Creates and initializes a [**Matrix::Matrix**](/windows/win32/Gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(const matrix &)?branch=master) object that represents the identity matrix.<br/>                                             |
 
 
 

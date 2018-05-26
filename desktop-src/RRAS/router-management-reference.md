@@ -1,8 +1,15 @@
 ---
 title: Router Management Reference
 description: Use the following functions, structures, and enumerated types when developing software to administer Windows routers
-ms.assetid: '352505a9-616a-4d47-9857-f88d345333fd'
-keywords: ["Routing and Remote Access Service RRAS ,Router Management,reference", "Router Management RRAS ,reference"]
+ms.assetid: 352505a9-616a-4d47-9857-f88d345333fd
+keywords:
+- Routing and Remote Access Service RRAS ,Router Management,reference
+- Router Management RRAS ,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Router Management Reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Properties of the most recent sample.'
-ms.assetid: 'bd83790c-72b2-4ed3-9f83-ce4f08d40833'
-title: 'CBaseInputPin::m\_SampleProps member'
+Description: Properties of the most recent sample.
+ms.assetid: bd83790c-72b2-4ed3-9f83-ce4f08d40833
+title: CBaseInputPinm\_SampleProps member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin::m\_SampleProps member
@@ -35,9 +40,9 @@ AM_SAMPLE2_PROPERTIES m_SampleProps;
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

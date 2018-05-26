@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the file title for the specified file path.'
-ms.assetid: '9a559d71-4883-4905-b3ad-64b256a2f51e'
+---
+Description: Retrieves the file title for the specified file path.
+ms.assetid: 9a559d71-4883-4905-b3ad-64b256a2f51e
 title: pSetupGetFileTitle function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pSetupGetFileTitle function

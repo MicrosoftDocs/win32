@@ -1,8 +1,20 @@
 ---
 title: Reading Multichannel Audio
 description: Reading Multichannel Audio
-ms.assetid: '9d577c5c-7275-493e-8a77-318c264b59b3'
-keywords: ["Windows Media Format SDK,reading multichannel audio", "Advanced Systems Format (ASF),reading multichannel audio", "ASF (Advanced Systems Format),reading multichannel audio", "Advanced Systems Format (ASF),multichannel audio", "ASF (Advanced Systems Format),multichannel audio", "codecs,reading multichannel audio", "multichannel audio,reading"]
+ms.assetid: 9d577c5c-7275-493e-8a77-318c264b59b3
+keywords:
+- Windows Media Format SDK,reading multichannel audio
+- Advanced Systems Format (ASF),reading multichannel audio
+- ASF (Advanced Systems Format),reading multichannel audio
+- Advanced Systems Format (ASF),multichannel audio
+- ASF (Advanced Systems Format),multichannel audio
+- codecs,reading multichannel audio
+- multichannel audio,reading
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Multichannel Audio
@@ -30,14 +42,14 @@ The number of speakers on the playing computer is set with g\_wszSpeakerConfig. 
 
  
 
-To set these settings, use [**IWMReaderAdvanced2::SetOutputSetting**](iwmreaderadvanced2-setoutputsetting.md).
+To set these settings, use [**IWMReaderAdvanced2::SetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting?branch=master).
 
 Finally, for the channels to be output discretely, with no fold-down to stereo, you must set the correct media type on the output by following these steps:
 
-1.  Call [**IWMReader::GetOutputFormatCount**](iwmreader-getoutputformatcount.md) to get the number of supported formats for the relevant audio output. Output format indexes are zero-based.
-2.  For each supported format, call [**IWMReader::GetOutputFormat**](iwmreader-getoutputformat.md) to retrieve the [**IWMOutputMediaProps**](iwmoutputmediaprops.md) interface on the output media properties object.
-3.  Call [**IWMMediaProps::GetMediaType**](iwmmediaprops-getmediatype.md) to retrieve the media type.
-4.  If the retrieved media type is the desired multichannel type, then set it by calling [**IWMReader::SetOutputProps**](iwmreader-setoutputprops.md).
+1.  Call [**IWMReader::GetOutputFormatCount**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformatcount?branch=master) to get the number of supported formats for the relevant audio output. Output format indexes are zero-based.
+2.  For each supported format, call [**IWMReader::GetOutputFormat**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat?branch=master) to retrieve the [**IWMOutputMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops?branch=master) interface on the output media properties object.
+3.  Call [**IWMMediaProps::GetMediaType**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype?branch=master) to retrieve the media type.
+4.  If the retrieved media type is the desired multichannel type, then set it by calling [**IWMReader::SetOutputProps**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops?branch=master).
 
 After you have set discrete output and the speaker configuration, the output formats enumerated by the reader should include multichannel formats that use the [**WAVEFORMATEXTENSIBLE**](https://msdn.microsoft.com/library/windows/desktop/dd757721) structure. If you enumerate the output formats before setting the properties, only formats with 1 or 2 channels and a maximum of 16 bits per channel will be included. As with other audio formats, you should use only the formats enumerated by the reader; do not configure your own.
 

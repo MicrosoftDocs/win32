@@ -1,7 +1,12 @@
 ---
-Description: 'The Eject method ejects or inserts a disc from or into the DVD drive.'
-ms.assetid: '855a19ee-97a6-4abd-872d-cc815d286582'
+Description: The Eject method ejects or inserts a disc from or into the DVD drive.
+ms.assetid: 855a19ee-97a6-4abd-872d-cc815d286582
 title: Eject Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Eject Method

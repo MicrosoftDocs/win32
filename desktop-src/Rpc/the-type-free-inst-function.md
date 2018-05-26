@@ -1,8 +1,14 @@
 ---
 title: The type\_free\_inst Function
 description: The stubs call the type\_free\_inst function to free memory associated with the presented type.
-ms.assetid: '4ee2e6a6-b506-445f-adaf-3705228defa7'
-keywords: ["type_free_inst"]
+ms.assetid: 4ee2e6a6-b506-445f-adaf-3705228defa7
+keywords:
+- type_free_inst
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The type\_free\_inst Function

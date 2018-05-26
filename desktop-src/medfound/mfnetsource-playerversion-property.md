@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the &\#0034;c-playerversion&\#0034; field that the network source uses for logging.'
-ms.assetid: '7bc485de-345b-475c-bbae-0776aa63c93a'
-title: 'MFNETSOURCE\_PLAYERVERSION property'
+---
+Description: The value of the &\#0034;c-playerversion&\#0034; field that the network source uses for logging.
+ms.assetid: 7bc485de-345b-475c-bbae-0776aa63c93a
+title: MFNETSOURCE\_PLAYERVERSION property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PLAYERVERSION property

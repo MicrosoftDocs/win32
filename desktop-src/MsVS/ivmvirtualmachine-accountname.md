@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine AccountName property
 description: The AccountName property contains the account name for the context in which this virtual machine will run.
-ms.assetid: '38a08dcf-d4a4-48f8-8f5c-e64fe53ca6ad'
-keywords: ["AccountName property Virtual Server", "AccountName property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , AccountName property", "AccountName property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , AccountName property"]
+ms.assetid: 38a08dcf-d4a4-48f8-8f5c-e64fe53ca6ad
+keywords:
+- AccountName property Virtual Server
+- AccountName property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , AccountName property
+- AccountName property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , AccountName property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AccountName property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AccountName(
-  [out] BSTR *accountName
+  [out] BSTR *accountName
 );
 ```
 
@@ -92,8 +102,8 @@ WScript.Echo "Account name: " & objVM.AccountName
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -105,9 +115,9 @@ WScript.Echo "Account name: " & objVM.AccountName
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

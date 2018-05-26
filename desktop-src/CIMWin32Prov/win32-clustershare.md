@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ClusterShare class represents a shared resource on a cluster.'
+Description: The Win32\_ClusterShare class represents a shared resource on a cluster.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6c8b40e3-431f-4728-a389-affbc04b8415'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6c8b40e3-431f-4728-a389-affbc04b8415
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ClusterShare class'
+title: Win32\_ClusterShare class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ClusterShare class
@@ -26,17 +29,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4D6-5FBB-11D2-AAC1-006008C78BC7}"), SupportsCreate, CreateBy("Create"), SupportsDelete, DeleteBy("DeleteInstance"), AMENDMENT]
 class Win32_ClusterShare : Win32_Share
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  uint32   AccessMask;
-  boolean  AllowMaximum;
-  uint32   MaximumAllowed;
-  string   Name;
-  string   Path;
-  uint32   Type;
-  string   ServerName;
+  string   Status;
+  uint32   AccessMask;
+  boolean  AllowMaximum;
+  uint32   MaximumAllowed;
+  string   Name;
+  string   Path;
+  uint32   Type;
+  string   ServerName;
 };
 ```
 
@@ -62,7 +65,7 @@ The **Win32\_ClusterShare** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -424,8 +427,8 @@ This property is inherited from [**Win32\_Share**](win32-share.md).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows 7<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Cimwin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -439,9 +442,9 @@ This property is inherited from [**Win32\_Share**](win32-share.md).
 [**Win32\_Share**](win32-share.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

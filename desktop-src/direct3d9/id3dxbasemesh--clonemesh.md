@@ -1,7 +1,12 @@
-﻿---
-Description: 'Clones a mesh using a declarator.'
-ms.assetid: '47e0329a-ea85-478d-af8b-cf85d2a779f6'
-title: 'ID3DXBaseMesh::CloneMesh method'
+---
+Description: Clones a mesh using a declarator.
+ms.assetid: 47e0329a-ea85-478d-af8b-cf85d2a779f6
+title: ID3DXBaseMeshCloneMesh method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::CloneMesh method
@@ -47,9 +52,9 @@ An array of [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) elements, which specif
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device object associated with the mesh.
 
 </dd> <dt>
 

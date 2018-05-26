@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxInboundRoutingMethod object''s data.'
-ms.assetid: '1115bedd-8af0-4ed3-bc4f-5b447bad899c'
-title: 'FaxInboundRoutingMethod.Save method'
+---
+Description: The Save method saves the FaxInboundRoutingMethod objects data.
+ms.assetid: 1115bedd-8af0-4ed3-bc4f-5b447bad899c
+title: FaxInboundRoutingMethod.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingMethod.Save method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-access-rights-enum.md) and [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access rights.
+To use this method, a user must have the [****farMANAGE\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access rights.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [****farMANAGE\_CONFIG****](-mfax-fax-a
 [**FaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingMethod**](-mfax-faxinboundroutingmethod-cpp.md)
+[**IFaxInboundRoutingMethod**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingmethod?branch=master)
 </dt> </dl>
 
  

@@ -1,14 +1,20 @@
 ---
 title: STATE3 control
 description: Defines a three-state check box control. The control is identical to a CHECKBOX, except that it has three states checked, unchecked, and disabled (grayed).
-ms.assetid: '74659827-ce46-4d36-a5e2-3a97e8fd1c04'
-keywords: ["STATE3 control Menus and Other Resources"]
+ms.assetid: 74659827-ce46-4d36-a5e2-3a97e8fd1c04
+keywords:
+- STATE3 control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - STATE3
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STATE3 control

@@ -1,7 +1,12 @@
 ---
-Description: 'Removes virtual resource settings from a virtual machine configuration.'
-ms.assetid: '74d9a70a-5258-4e4b-8131-b25513d11a4b'
-title: 'RemoveResourceSettings method of the Msvm\_VirtualSystemManagementService class'
+Description: Removes virtual resource settings from a virtual machine configuration.
+ms.assetid: 74d9a70a-5258-4e4b-8131-b25513d11a4b
+title: RemoveResourceSettings method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveResourceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Removes virtual resource settings from a virtual machine configuration. When app
 
 ```mof
 uint32 RemoveResourceSettings(
-  [in]  CIM_ResourceAllocationSettingData REF ResourceSettings[],
-  [out] CIM_ConcreteJob                   REF Job
+  [in]  CIM_ResourceAllocationSettingData REF ResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
 );
 ```
 
@@ -80,8 +85,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -95,9 +100,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

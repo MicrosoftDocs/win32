@@ -1,7 +1,12 @@
 ---
-Description: 'Introduction to using controls without caption properties for the Tablet PC.'
-ms.assetid: '8c44e1eb-8d57-4c3b-a329-c8ad77423cb7'
+Description: Introduction to using controls without caption properties for the Tablet PC.
+ms.assetid: 8c44e1eb-8d57-4c3b-a329-c8ad77423cb7
 title: Controls Without Caption Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls Without Caption Properties

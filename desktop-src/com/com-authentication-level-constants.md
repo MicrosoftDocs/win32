@@ -1,7 +1,7 @@
 ---
 title: Authentication Level Constants
 description: These values specify an authentication level, which indicates the amount of authentication provided to help protect the integrity of the data. Each level includes the protection provided by the previous levels.
-ms.assetid: '06c409e4-3772-45cf-8c31-c64f99aca244'
+ms.assetid: 06c409e4-3772-45cf-8c31-c64f99aca244
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_location:
 - rpcdce.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Level Constants
@@ -42,15 +47,15 @@ These values specify an authentication level, which indicates the amount of auth
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

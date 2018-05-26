@@ -1,8 +1,9 @@
 ---
 title: StorPortPoFxSetComponentLatency routine
 description: The StorPortPoFxSetComponentLatency routine specifies the maximum latency that can be tolerated in the transition from the idle condition to the active condition in the specified storage device component.
-ms.assetid: 'F175ED42-3DB6-4568-96CA-EFC283B14887'
-keywords: ["StorPortPoFxSetComponentLatency routine Storage Devices"]
+ms.assetid: F175ED42-3DB6-4568-96CA-EFC283B14887
+keywords:
+- StorPortPoFxSetComponentLatency routine Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StorPortPoFxSetComponentLatency routine
@@ -22,10 +28,10 @@ The **StorPortPoFxSetComponentLatency** routine specifies the maximum latency th
 
 ```C++
 ULONG StorPortPoFxSetComponentLatency(
-  _In_     PVOID         HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS Address,
-  _In_     ULONG         Component,
-  _In_     ULONGLONG     Latency
+  _In_     PVOID         HwDeviceExtension,
+  _In_opt_ PSTOR_ADDRESS Address,
+  _In_     ULONG         Component,
+  _In_     ULONGLONG     Latency
 );
 ```
 
@@ -52,7 +58,7 @@ The address of a storage device unit. This parameter is **NULL** when setting th
 *Component* \[in\]
 </dt> <dd>
 
-The index that identifies the component. This parameter is an index into the **Components** array in the [**STOR\_POFX\_DEVICE**](stor-pofx-device.md) structure that the miniport driver registered for the device with a call to [**StorPortInitializePoFxPower**](storportinitializepofxpower.md). If the **Components** array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the **Components** array in the [**STOR\_POFX\_DEVICE**](stor-pofx-device.md) structure that the miniport driver registered for the device with a call to [**StorPortInitializePoFxPower**](storportinitializepofxpower.md). If the **Components** array contains N elements, component indexes range from 0 to N 1.
 
 </dd> <dt>
 
@@ -78,7 +84,7 @@ The **StorPortPoFxSetComponentLatency** routine returns one of these status code
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,7 +93,7 @@ The **StorPortPoFxSetComponentLatency** routine returns one of these status code
 |                            |                                                                                                                                         |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Target platform<br/> | <dl> <dt>[Universal](http://go.microsoft.com/fwlink/p/?linkid=531356)</dt> </dl> |
-| Version<br/>         | Available in starting with Windows 8.<br/>                                                                                        |
+| Version<br/>         | Available in starting with Windows 8.<br/>                                                                                        |
 | Header<br/>          | <dl> <dt>Storport.h</dt> </dl>                                                   |
 | IRQL<br/>            | &lt;= DISPATCH\_LEVEL<br/>                                                                                                        |
 
@@ -100,9 +106,9 @@ The **StorPortPoFxSetComponentLatency** routine returns one of these status code
 [**PoFxSetComponentLatency**](https://msdn.microsoft.com/library/windows/hardware/hh439531)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20StorPortPoFxSetComponentLatency%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

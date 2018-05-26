@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the ID3DXFile object.'
-ms.assetid: '832878c6-73a4-400a-af30-57112b172977'
-title: 'ID3DXFileEnumObject::GetFile method'
+---
+Description: Retrieves the ID3DXFile object.
+ms.assetid: 832878c6-73a4-400a-af30-57112b172977
+title: ID3DXFileEnumObjectGetFile method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileEnumObject::GetFile method

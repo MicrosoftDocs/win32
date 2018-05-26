@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSampleTimes method retrieves the time stamps from a sample.'
-ms.assetid: 'a8fead22-a12c-489d-9c42-d5b61f480c25'
-title: 'CBaseRenderer.GetSampleTimes method'
+Description: The GetSampleTimes method retrieves the time stamps from a sample.
+ms.assetid: a8fead22-a12c-489d-9c42-d5b61f480c25
+title: CBaseRenderer.GetSampleTimes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.GetSampleTimes method
@@ -13,9 +18,9 @@ The `GetSampleTimes` method retrieves the time stamps from a sample.
 
 ```C++
 virtual HRESULT GetSampleTimes(
-   IMediaSample   *pMediaSample,
-   REFERENCE_TIME *pStartTime,
-   REFERENCE_TIME *pEndTime
+   IMediaSample   *pMediaSample,
+   REFERENCE_TIME *pStartTime,
+   REFERENCE_TIME *pEndTime
 );
 ```
 
@@ -28,7 +33,7 @@ virtual HRESULT GetSampleTimes(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> <dt>
 
@@ -61,7 +66,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -87,9 +92,9 @@ This method returns S\_OK if the sample has no time stamps, or if the filter doe
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

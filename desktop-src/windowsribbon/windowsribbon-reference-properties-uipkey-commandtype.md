@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_CommandType
 description: Identifies the UI\_PKEY\_CommandType property.
-ms.assetid: 'e56d942e-d210-41f9-b603-40d188a2afbb'
+ms.assetid: e56d942e-d210-41f9-b603-40d188a2afbb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_CommandType

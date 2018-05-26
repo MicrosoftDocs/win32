@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UnbindDevice method releases a printer from a bidirectional printer communication (bidi communication) request.'
-ms.assetid: '26f3fc82-051d-4827-8b59-ac2c99f4d2c5'
-title: 'IBidiSpl2::UnbindDevice method'
+---
+Description: The UnbindDevice method releases a printer from a bidirectional printer communication (bidi communication) request.
+ms.assetid: 26f3fc82-051d-4827-8b59-ac2c99f4d2c5
+title: IBidiSpl2UnbindDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl2::UnbindDevice method

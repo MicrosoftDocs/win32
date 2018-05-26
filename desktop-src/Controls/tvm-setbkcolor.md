@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETBKCOLOR message
 description: Sets the background color of the control. You can send this message explicitly or by using the TreeView\_SetBkColor macro.
-ms.assetid: '087f5e0b-ac73-4db4-b82e-15c7641b681c'
-keywords: ["TVM_SETBKCOLOR message Windows Controls"]
+ms.assetid: 087f5e0b-ac73-4db4-b82e-15c7641b681c
+keywords:
+- TVM_SETBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETBKCOLOR message
 
-Sets the background color of the control. You can send this message explicitly or by using the [**TreeView\_SetBkColor**](treeview-setbkcolor.md) macro.
+Sets the background color of the control. You can send this message explicitly or by using the [**TreeView\_SetBkColor**](/windows/win32/Commctrl/nf-commctrl-treeview_setbkcolor?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 [**TVM\_GETBKCOLOR**](tvm-getbkcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

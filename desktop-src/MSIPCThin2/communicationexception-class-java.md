@@ -4,17 +4,21 @@ description: Thrown when the device has no connection to the internet.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f4a70adb-8911-4012-8bd9-7503c641fe82'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: f4a70adb-8911-4012-8bd9-7503c641fe82
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CommunicationException class"]
+keywords:
+- CommunicationException class
 topic_type:
 - apiref
 api_name:
 - CommunicationException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CommunicationException class
@@ -32,7 +36,7 @@ public class CommunicationException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class CommunicationException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ public class CommunicationException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -74,9 +78,9 @@ The **CommunicationException** class extends the [**ProtectionException**](prote
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

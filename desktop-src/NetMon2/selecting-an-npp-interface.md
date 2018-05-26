@@ -1,7 +1,12 @@
 ---
-Description: 'Network packet providers (NPPs) expose the IDelaydC, IESP, IRTC, and IStats interfaces.'
-ms.assetid: '269b26f5-b794-4920-98da-505eda83c990'
+Description: Network packet providers (NPPs) expose the IDelaydC, IESP, IRTC, and IStats interfaces.
+ms.assetid: 269b26f5-b794-4920-98da-505eda83c990
 title: Selecting an NPP Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting an NPP Interface
@@ -11,7 +16,7 @@ Network packet providers (NPPs) expose the [**IDelaydC**](idelaydc.md), [**IESP*
 > [!Note]  
 > When you connect an NPP to the network with one of these interfaces, you can only use the methods provided by that interface. For example, if you connect to the network using the [**IRTC**](irtc.md) interface and then try to start a capture with [**IDelaydC**](idelaydc.md), your call to start the capture will fail, and an error code will be returned.
 
- 
+ 
 
 
 
@@ -24,11 +29,11 @@ Network packet providers (NPPs) expose the [**IDelaydC**](idelaydc.md), [**IESP*
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

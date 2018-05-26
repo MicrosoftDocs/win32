@@ -1,7 +1,12 @@
-﻿---
-Description: 'The LowQuotaWaterMark property is a value that specifies the lower threshold for the archive of outbound fax messages, in megabytes.'
-ms.assetid: '24b28cf9-54ef-4458-bef4-8d985ffc80fc'
-title: 'FaxOutgoingArchive.LowQuotaWaterMark property'
+---
+Description: The LowQuotaWaterMark property is a value that specifies the lower threshold for the archive of outbound fax messages, in megabytes.
+ms.assetid: 24b28cf9-54ef-4458-bef4-8d985ffc80fc
+title: FaxOutgoingArchive.LowQuotaWaterMark property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.LowQuotaWaterMark property
@@ -30,7 +35,7 @@ A **Long** value that receives the lower threshold for the archive of outbound f
 
  
 
-To read this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 

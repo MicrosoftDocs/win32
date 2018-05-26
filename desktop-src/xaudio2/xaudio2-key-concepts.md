@@ -1,7 +1,12 @@
 ---
-Description: 'This overview introduces some key concepts for using XAudio2.'
-ms.assetid: '103e939f-7815-51c5-159a-c607da1e99ba'
+Description: This overview introduces some key concepts for using XAudio2.
+ms.assetid: 103e939f-7815-51c5-159a-c607da1e99ba
 title: XAudio2 Key Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Key Concepts
@@ -16,7 +21,7 @@ This overview introduces some key concepts for using XAudio2.
 
 ## XAudio2 Engine
 
-The [**IXAudio2**](ixaudio2.md) interface is the core of the XAudio2 engine. Creating an instance of the **IXAudio2** interface allows the client to enumerate the available audio devices, to configure global API properties, to create voices, and to monitor performance. The [**XAudio2Create**](xaudio2create.md) helper function performs instantiation and initialization tasks for XAudio2.
+The [**IXAudio2**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2?branch=master) interface is the core of the XAudio2 engine. Creating an instance of the **IXAudio2** interface allows the client to enumerate the available audio devices, to configure global API properties, to create voices, and to monitor performance. The [**XAudio2Create**](/windows/win32/xaudio2/nf-xaudio2-xaudio2create?branch=master) helper function performs instantiation and initialization tasks for XAudio2.
 
 You can create instances of XAudio2 multiple times within a single process. Each XAudio2 object operates independently, and has its own audio processing thread. Only the debug settings are shared. This is important on Windows where several different components may be loaded in a single process. For example, Internet Explorer might use multiple XAudio2 components simultaneously. Although it is possible to create multiple XAudio2 engine objects within a single client application, you should not pass information between their respective graphs.
 
@@ -26,15 +31,15 @@ For an example of initializing the XAudio2 engine, see [How to: Initialize XAudi
 
 Voices are the objects XAudio2 use to process, to manipulate, and to play audio data. There are three types of voices in XAudio2.
 
--   [**Source Voices**](ixaudio2sourcevoice.md)
+-   [**Source Voices**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master)
 
     Source voices represent a stream of audio data. Source voices send their data to other types of voices.
 
--   [**Submix Voices**](ixaudio2submixvoice.md)
+-   [**Submix Voices**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2submixvoice?branch=master)
 
     Submix voices perform some manipulation of audio data they receive. One example of audio data manipulation might be sample rate conversion. After a submix voice processes data, it passes that data to another submix voice or to a master voice.
 
--   [**Mastering Voices**](ixaudio2masteringvoice.md)
+-   [**Mastering Voices**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2masteringvoice?branch=master)
 
     Mastering voices receive data from source voices and submix voices, and sends that data to the audio hardware.
 

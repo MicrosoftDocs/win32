@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '7f25c823-61f2-4f26-91d5-580c21beec31'
-title: 'System.Document.Version'
+Description: .
+ms.assetid: 7f25c823-61f2-4f26-91d5-580c21beec31
+title: System.Document.Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.Version

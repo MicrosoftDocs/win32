@@ -1,7 +1,12 @@
 ---
 Description: Authentication Packages Provided by Microsoft
-ms.assetid: 'b5be01b6-95fe-4801-bb99-30b8fc29531a'
+ms.assetid: b5be01b6-95fe-4801-bb99-30b8fc29531a
 title: Authentication Packages Provided by Microsoft
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Packages Provided by Microsoft

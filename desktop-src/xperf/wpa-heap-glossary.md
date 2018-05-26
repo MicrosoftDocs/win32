@@ -1,7 +1,12 @@
 ---
 title: WPA Heap Glossary
 description: WPA Heap Glossary
-ms.assetid: '41525136-b170-4ade-a6db-63a9fc821285'
+ms.assetid: 41525136-b170-4ade-a6db-63a9fc821285
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPA Heap Glossary
@@ -32,11 +37,11 @@ ms.assetid: '41525136-b170-4ade-a6db-63a9fc821285'
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

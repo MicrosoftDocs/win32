@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when a driver event occurs.'
-ms.assetid: 'F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B'
-title: 'IPrinterExtensionEvent::OnDriverEvent method'
+---
+Description: Called when a driver event occurs.
+ms.assetid: F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B
+title: IPrinterExtensionEventOnDriverEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEvent::OnDriverEvent method

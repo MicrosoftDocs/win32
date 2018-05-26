@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ShutdownComponentSettingData class
 description: Represents the configured state of the shutdown service.
-ms.assetid: '7a31a9ed-c18b-4226-bfcd-7178567c5310'
-keywords: ["Msvm_ShutdownComponentSettingData class Hyper-V", "Msvm_ShutdownComponentSettingData class Hyper-V , described"]
+ms.assetid: 7a31a9ed-c18b-4226-bfcd-7178567c5310
+keywords:
+- Msvm_ShutdownComponentSettingData class Hyper-V
+- Msvm_ShutdownComponentSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ShutdownComponentSettingData class
@@ -47,28 +54,28 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ShutdownComponentSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption = "Shutdown";
-  string  Description = "Microsoft Shutdown Component Setting Data";
-  string  InstanceID = "Microsoft:GUID\device-specific data";
-  string  ElementName = "Shutdown";
-  uint16  ResourceType = 1;
-  string  OtherResourceType = "Microsoft Shutdown Component";
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "Integration Components";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
+  string  Caption = "Shutdown";
+  string  Description = "Microsoft Shutdown Component Setting Data";
+  string  InstanceID = "Microsoft:GUID\device-specific data";
+  string  ElementName = "Shutdown";
+  uint16  ResourceType = 1;
+  string  OtherResourceType = "Microsoft Shutdown Component";
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "Integration Components";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  uint16  EnabledState = 2;
-  string  ResourceSubType;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  uint16  EnabledState = 2;
+  string  ResourceSubType;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
 };
 ```
 
@@ -436,9 +443,9 @@ Access to the **Msvm\_ShutdownComponentSettingData** class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -457,9 +464,9 @@ Access to the **Msvm\_ShutdownComponentSettingData** class might be restricted b
 [Integration Services Classes](integration-components-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

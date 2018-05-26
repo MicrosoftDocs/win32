@@ -1,8 +1,11 @@
 ---
 title: IMimeBody CopyTo method
 description: Copies everything from the current body object to the specified body object.
-ms.assetid: '39d5b4fe-60e4-4c03-8d19-c36b33fb910f'
-keywords: ["CopyTo method Windows Mail (formerly Outlook Express)", "CopyTo method Windows Mail (formerly Outlook Express) , IMimeBody interface", "IMimeBody interface Windows Mail (formerly Outlook Express) , CopyTo method"]
+ms.assetid: 39d5b4fe-60e4-4c03-8d19-c36b33fb910f
+keywords:
+- CopyTo method Windows Mail (formerly Outlook Express)
+- CopyTo method Windows Mail (formerly Outlook Express) , IMimeBody interface
+- IMimeBody interface Windows Mail (formerly Outlook Express) , CopyTo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeBody::CopyTo method
@@ -22,7 +30,7 @@ Copies everything from the current body object to the specified body object.
 
 ```C++
 HRESULT CopyTo(
-  [in] IMimeBody *pBody
+  [in] IMimeBody *pBody
 );
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,8 +79,8 @@ After this method, *pBody* is an exact replica of the current body object. *pBod
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -80,9 +88,9 @@ After this method, *pBody* is an exact replica of the current body object. *pBod
 
 
 
- 
+ 
 
- 
+ 
 
 
 

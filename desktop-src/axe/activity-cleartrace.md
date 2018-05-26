@@ -1,8 +1,11 @@
 ---
 title: Activity ClearTrace method
 description: Clears the Trace settings of the Activity.
-ms.assetid: '89B4DF86-7B84-45F6-99E2-863BE70BFCC0'
-keywords: ["ClearTrace method Access Execution Engine", "ClearTrace method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , ClearTrace method"]
+ms.assetid: 89B4DF86-7B84-45F6-99E2-863BE70BFCC0
+keywords:
+- ClearTrace method Access Execution Engine
+- ClearTrace method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , ClearTrace method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::ClearTrace method
@@ -46,8 +54,8 @@ The **Trace** holds data from element **Activity/Trace**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ The **Trace** holds data from element **Activity/Trace**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

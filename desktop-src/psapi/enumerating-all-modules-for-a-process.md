@@ -1,12 +1,17 @@
 ---
 title: Enumerating All Modules For a Process
 description: To determine which processes have loaded a particular DLL, you must enumerate the modules for each process. The following sample code uses the EnumProcessModules function to enumerate the modules of current processes in the system.
-ms.assetid: '2e411eba-ba60-4678-bf6f-bc15b6e8b478'
+ms.assetid: 2e411eba-ba60-4678-bf6f-bc15b6e8b478
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating All Modules For a Process
 
-To determine which processes have loaded a particular DLL, you must enumerate the modules for each process. The following sample code uses the [**EnumProcessModules**](enumprocessmodules.md) function to enumerate the modules of current processes in the system.
+To determine which processes have loaded a particular DLL, you must enumerate the modules for each process. The following sample code uses the [**EnumProcessModules**](/windows/win32/Psapi/nf-psapi-enumprocessmodules?branch=master) function to enumerate the modules of current processes in the system.
 
 
 ```C++
@@ -94,7 +99,7 @@ int main( void )
 
 
 
-The main function obtains a list of processes by using the [**EnumProcesses**](enumprocesses.md) function. For each process, the main function calls the PrintModules function, passing it the process identifier. PrintModules in turn calls the [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) function to obtain the process handle. If **OpenProcess** fails, the output shows only the process identifier. For example, **OpenProcess** fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them. Next, PrintModules calls the [**EnumProcessModules**](enumprocessmodules.md) function to obtain the module handles function. Finally, PrintModules calls the [**GetModuleFileNameEx**](getmodulefilenameex.md) function, once for each module, to obtain the module names.
+The main function obtains a list of processes by using the [**EnumProcesses**](/windows/win32/Psapi/nf-psapi-enumprocesses?branch=master) function. For each process, the main function calls the PrintModules function, passing it the process identifier. PrintModules in turn calls the [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) function to obtain the process handle. If **OpenProcess** fails, the output shows only the process identifier. For example, **OpenProcess** fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them. Next, PrintModules calls the [**EnumProcessModules**](/windows/win32/Psapi/nf-psapi-enumprocessmodules?branch=master) function to obtain the module handles function. Finally, PrintModules calls the [**GetModuleFileNameEx**](/windows/win32/Psapi/nf-psapi-getmodulefilenameexa?branch=master) function, once for each module, to obtain the module names.
 
  
 

@@ -4,13 +4,15 @@ description: This class stores the per-volume settings for each volume on the sy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '767e0ed1-fbc0-410d-801c-eb221a60b454'
-ms.prod: 'windows-server-dev'
+ms.assetid: 767e0ed1-fbc0-410d-801c-eb221a60b454
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrVolumeConfig class Distributed File System Replication", "MSFT_DfsrVolumeConfig class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrVolumeConfig class Distributed File System Replication
+- MSFT_DfsrVolumeConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrVolumeConfig class
@@ -45,18 +50,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrVolumeConfig
 {
-  string   VolumeGuid;
-  uint64   SerialNumber;
-  string   VolumePath;
-  uint32   LastChangeNumber;
+  string   VolumeGuid;
+  uint64   SerialNumber;
+  string   VolumePath;
+  uint32   LastChangeNumber;
   datetime LastChangeTime;
-  string   LastChangeSource;
-  string   DatabasePath;
-  uint32   MinNtfsJournalSizeInMb;
-  uint32   UsnCheckPoint;
-  uint32   MaxJetSessions;
-  boolean  IsClustered;
-  string   ClusterDiskResName;
+  string   LastChangeSource;
+  string   DatabasePath;
+  uint32   MinNtfsJournalSizeInMb;
+  uint32   UsnCheckPoint;
+  uint32   MaxJetSessions;
+  boolean  IsClustered;
+  string   ClusterDiskResName;
 };
 ```
 
@@ -83,7 +88,7 @@ The **MSFT\_DfsrVolumeConfig** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -292,7 +297,7 @@ This string has one of the following formats: "\\\\.\\*drive*:" or "\\\\?\\*volu
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -306,9 +311,9 @@ This string has one of the following formats: "\\\\.\\*drive*:" or "\\\\?\\*volu
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

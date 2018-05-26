@@ -1,7 +1,12 @@
 ---
 title: Progress Bar
 description: This section contains information about the programming elements used with progress bar controls.
-ms.assetid: '89468ecb-045a-4d30-8eb2-db33cbf0780e'
+ms.assetid: 89468ecb-045a-4d30-8eb2-db33cbf0780e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progress Bar
@@ -18,7 +23,7 @@ This section contains information about the programming elements used with progr
 
 
 
- 
+ 
 
 ### Messages
 
@@ -45,7 +50,7 @@ This section contains information about the programming elements used with progr
 
 
 
- 
+ 
 
 ### Structures
 
@@ -53,11 +58,11 @@ This section contains information about the programming elements used with progr
 
 | Topic                      | Contents                                                                                                                                                                 |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PBRANGE**](pbrange.md) | Contains information about the high and low limits of a progress bar control. This structure is used with the [**PBM\_GETRANGE**](pbm-getrange.md) message. <br/> |
+| [**PBRANGE**](/windows/win32/Commctrl/ns-commctrl-pbrange?branch=master) | Contains information about the high and low limits of a progress bar control. This structure is used with the [**PBM\_GETRANGE**](pbm-getrange.md) message. <br/> |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -69,11 +74,11 @@ This section contains information about the programming elements used with progr
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

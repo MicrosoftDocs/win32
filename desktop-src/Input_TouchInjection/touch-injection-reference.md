@@ -1,8 +1,17 @@
 ---
 title: Touch Injection Reference
 description: The topics in this section provide the reference specifications for Touch Injection.
-ms.assetid: 'BA50BC18-D862-4034-B4D6-610632A75ABE'
-keywords: ["user interaction", "input", "pointer", "touch"]
+ms.assetid: BA50BC18-D862-4034-B4D6-610632A75ABE
+keywords:
+- user interaction
+- input
+- pointer
+- touch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch Injection Reference
@@ -20,7 +29,7 @@ The topics in this section provide the reference specifications for [Touch Injec
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +38,9 @@ The topics in this section provide the reference specifications for [Touch Injec
 [Touch Injection](touch-injection-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

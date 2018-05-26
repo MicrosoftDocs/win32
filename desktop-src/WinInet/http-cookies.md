@@ -1,7 +1,12 @@
 ---
 title: HTTP Cookies
-description: HTTP cookies provide the server with a mechanism to store and retrieve state information on the client application's system.
-ms.assetid: 'c3574592-572f-4fde-adfa-aed3e862f13f'
+description: HTTP cookies provide the server with a mechanism to store and retrieve state information on the client applications system.
+ms.assetid: c3574592-572f-4fde-adfa-aed3e862f13f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Cookies
@@ -115,7 +120,7 @@ Using the Dynamic HTML (DHTML) object model, cookies can be set by calling the *
 
 ### Generating a Cookie Using the WinInet Functions
 
-Cookies can be created by applications using the [**InternetSetCookie**](internetsetcookie.md) function. For more information, see [Setting a Cookie](managing-cookies.md#setting-a-cookie).
+Cookies can be created by applications using the [**InternetSetCookie**](/windows/win32/Wininet/nf-wininet-internetsetcookiea?branch=master) function. For more information, see [Setting a Cookie](managing-cookies.md#setting-a-cookie).
 
 ### Generating a Cookie Using a CGI Script
 

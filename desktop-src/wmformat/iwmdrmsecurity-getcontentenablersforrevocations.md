@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity GetContentEnablersForRevocations method
 description: The GetContentEnablersForRevocations method retrieves content enabler interfaces that enable renewal of components based on revoked certificates.
-ms.assetid: '9e5b58b8-07d6-4607-a40f-cd7df4984ac5'
-keywords: ["GetContentEnablersForRevocations method windows Media Format", "GetContentEnablersForRevocations method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , GetContentEnablersForRevocations method"]
+ms.assetid: 9e5b58b8-07d6-4607-a40f-cd7df4984ac5
+keywords:
+- GetContentEnablersForRevocations method windows Media Format
+- GetContentEnablersForRevocations method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , GetContentEnablersForRevocations method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::GetContentEnablersForRevocations method
@@ -23,13 +31,13 @@ The **GetContentEnablersForRevocations** method retrieves content enabler interf
 
 ```C++
 HRESULT GetContentEnablersForRevocations(
-  [in]      BYTE              **rgpbCerts,
-  [in]      DWORD             *rgpdwCertSizes,
-  [in]      GUID              **rgpguidCerts,
-  [in]      DWORD             cCerts,
-  [in]      HRESULT           hResultHint,
-  [out]     IMFContentEnabler **prgContentEnablers,
-  [in, out] DWORD             *pcContentEnablers
+  [in]      BYTE              **rgpbCerts,
+  [in]      DWORD             *rgpdwCertSizes,
+  [in]      GUID              **rgpguidCerts,
+  [in]      DWORD             cCerts,
+  [in]      HRESULT           hResultHint,
+  [out]     IMFContentEnabler **prgContentEnablers,
+  [in, out] DWORD             *pcContentEnablers
 );
 ```
 
@@ -68,7 +76,7 @@ Array containing the types of the certificates in the *rgpbCerts* array. The num
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -112,7 +120,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -141,9 +149,9 @@ When you call **IMFContentEnabler::AutomaticEnable**, the content enabler launch
 [**IWMDRMSecurity Interface**](iwmdrmsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

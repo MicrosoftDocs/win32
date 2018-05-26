@@ -1,8 +1,11 @@
 ---
 title: ApplyVirtualSystemSnapshot method of the CIM\_VirtualSystemManagementService class
 description: Applies the disk state, runtime state, and configuration values for a snapshot to the virtual computer system.
-ms.assetid: '9d712c55-e2ea-4cf6-b18b-3b27de0bc9ae'
-keywords: ["ApplyVirtualSystemSnapshot method Hyper-V", "ApplyVirtualSystemSnapshot method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , ApplyVirtualSystemSnapshot method"]
+ms.assetid: 9d712c55-e2ea-4cf6-b18b-3b27de0bc9ae
+keywords:
+- ApplyVirtualSystemSnapshot method Hyper-V
+- ApplyVirtualSystemSnapshot method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , ApplyVirtualSystemSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplyVirtualSystemSnapshot method of the CIM\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Applies the disk state, runtime state, and configuration values for a snapshot t
 
 ```mof
 uint32 ApplyVirtualSystemSnapshot(
-  [in] CIM_ComputerSystem           REF ComputerSystem,
-  [in] CIM_VirtualSystemSettingData REF SnapshotSettingData
+  [in] CIM_ComputerSystem           REF ComputerSystem,
+  [in] CIM_VirtualSystemSettingData REF SnapshotSettingData
 );
 ```
 
@@ -110,9 +118,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. Any other
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

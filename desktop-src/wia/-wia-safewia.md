@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SafeWia object is a &\#0034;safe for scripting&\#0034; entry point for all Windows Image Acquisition (WIA) scripting functionality.'
-ms.assetid: '6b10bb8e-8500-4f2c-ae18-5db78ef75f74'
+---
+Description: The SafeWia object is a &\#0034;safe for scripting&\#0034; entry point for all Windows Image Acquisition (WIA) scripting functionality.
+ms.assetid: 6b10bb8e-8500-4f2c-ae18-5db78ef75f74
 title: SafeWia object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SafeWia object

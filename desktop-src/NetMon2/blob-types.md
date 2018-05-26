@@ -1,7 +1,12 @@
 ---
-Description: 'Network Monitor uses three types of binary large objects (BLOBs) to select and connect network interface cards (NICs), capture data, and manipulate NPP data.'
-ms.assetid: 'f7cbceb1-1a85-4a05-8420-90b32c9c9b61'
+Description: Network Monitor uses three types of binary large objects (BLOBs) to select and connect network interface cards (NICs), capture data, and manipulate NPP data.
+ms.assetid: f7cbceb1-1a85-4a05-8420-90b32c9c9b61
 title: BLOB Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BLOB Types

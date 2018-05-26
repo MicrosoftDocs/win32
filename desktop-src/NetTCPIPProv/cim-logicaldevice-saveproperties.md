@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the Device capture its current configuration, setup and/or state information in a backing store.'
-ms.assetid: 'dda58426-b7fa-4abe-9127-12cc03ce377c'
-title: 'SaveProperties method of the CIM\_LogicalDevice class'
+Description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
+ms.assetid: dda58426-b7fa-4abe-9127-12cc03ce377c
+title: SaveProperties method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SaveProperties method of the CIM\_LogicalDevice class
@@ -31,8 +36,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -46,9 +51,9 @@ TBD
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionStart property indicates the time that the fax outbound message began transmitting.'
-ms.assetid: '1d7dbd88-343d-4876-8066-abfb95c5ef22'
-title: 'FaxOutgoingMessage.TransmissionStart property'
+---
+Description: The TransmissionStart property indicates the time that the fax outbound message began transmitting.
+ms.assetid: 1d7dbd88-343d-4876-8066-abfb95c5ef22
+title: FaxOutgoingMessage.TransmissionStart property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.TransmissionStart property
@@ -48,7 +53,7 @@ For more information about the **Date** data type, see the *Microsoft Visual C++
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

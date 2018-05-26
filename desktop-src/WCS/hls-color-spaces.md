@@ -1,8 +1,26 @@
 ---
 title: HLS Color Spaces
 description: HLS color spaces are also widely used by artists. Its color components are hue, lightness, and saturation (chroma).
-ms.assetid: '8c80d200-c4d0-4233-8f53-a9637dff9ab2'
-keywords: ["Windows Color System (WCS),HLS color spaces", "WCS (Windows Color System),HLS color spaces", "image color management,HLS color spaces", "color management,HLS color spaces", "colors,HLS color spaces", "color spaces,HLS", "HLS color spaces", "hue", "saturation", "lightness", "zero saturation", "hue lightness saturation (HLS)", "HLS (hue lightness saturation)"]
+ms.assetid: 8c80d200-c4d0-4233-8f53-a9637dff9ab2
+keywords:
+- Windows Color System (WCS),HLS color spaces
+- WCS (Windows Color System),HLS color spaces
+- image color management,HLS color spaces
+- color management,HLS color spaces
+- colors,HLS color spaces
+- color spaces,HLS
+- HLS color spaces
+- hue
+- saturation
+- lightness
+- zero saturation
+- hue lightness saturation (HLS)
+- HLS (hue lightness saturation)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HLS Color Spaces

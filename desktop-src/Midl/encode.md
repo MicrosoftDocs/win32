@@ -2,13 +2,19 @@
 title: encode attribute
 description: The \ encode\ ACF attribute specifies that a procedure or a data type needs serialization support.
 ms.assetid: 2661021d-8a26-4216-935b-ca40b6f8b9ec
-keywords: ["encode attribute MIDL"]
+keywords:
+- encode attribute MIDL
 topic_type:
 - apiref
 api_name:
 - encode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # encode attribute

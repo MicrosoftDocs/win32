@@ -1,7 +1,12 @@
 ---
-Description: 'The attributes of the item. These are equivalent to the values recognized in the dwFileAttributes member of the WIN32\_FIND\_DATA structure.'
-ms.assetid: '55b669e6-f8e1-4b31-8265-bb0621921563'
-title: 'System.FileAttributes'
+Description: The attributes of the item. These are equivalent to the values recognized in the dwFileAttributes member of the WIN32\_FIND\_DATA structure.
+ms.assetid: 55b669e6-f8e1-4b31-8265-bb0621921563
+title: System.FileAttributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileAttributes

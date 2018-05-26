@@ -1,8 +1,26 @@
 ---
 title: Multimedia File I/O
 description: Multimedia File I/O
-ms.assetid: 'd72ba20c-0085-4d5c-9fc6-b9024b575027'
-keywords: ["Windows multimedia,file I/O", "multimedia,file I/O", "multimedia input,file I/O", "multimedia file I/O,about", "file I/O,about", "input and output (I/O),about", "I/O (input and output),about", "buffered I/O", "resource interchange file format (RIFF)", "RIFF (resource interchange file format)", "RIFF I/O", "custom I/O", "memory I/O"]
+ms.assetid: d72ba20c-0085-4d5c-9fc6-b9024b575027
+keywords:
+- Windows multimedia,file I/O
+- multimedia,file I/O
+- multimedia input,file I/O
+- multimedia file I/O,about
+- file I/O,about
+- input and output (I/O),about
+- I/O (input and output),about
+- buffered I/O
+- resource interchange file format (RIFF)
+- RIFF (resource interchange file format)
+- RIFF I/O
+- custom I/O
+- memory I/O
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia File I/O

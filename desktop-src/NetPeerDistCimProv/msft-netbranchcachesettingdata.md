@@ -1,7 +1,12 @@
 ---
-Description: 'Describes settings related to BranchCache.'
-ms.assetid: '49d1d3a0-328f-47e6-b85e-8a211b57e291'
-title: 'MSFT\_NetBranchCacheSettingData class'
+Description: Describes settings related to BranchCache.
+ms.assetid: 49d1d3a0-328f-47e6-b85e-8a211b57e291
+title: MSFT\_NetBranchCacheSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheSettingData class
@@ -28,17 +33,17 @@ The **MSFT\_NetBranchCacheSettingData** class does not define any members.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

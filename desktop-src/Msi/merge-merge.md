@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Merge method of the Merge object executes a merge of the current database and current module.'
-ms.assetid: '3ff1a2a8-accb-43d7-ba38-a89a5d099dc5'
-title: 'Merge.Merge method'
+---
+Description: The Merge method of the Merge object executes a merge of the current database and current module.
+ms.assetid: 3ff1a2a8-accb-43d7-ba38-a89a5d099dc5
+title: Merge.Merge method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge.Merge method
@@ -50,13 +55,13 @@ Once the merge is complete, components in the module are attached to the feature
 
 The module may be attached to additional features using the [**Connect**](merge-connect.md) method. Note that calling the **Connect** method only creates feature-component associations. It does not modify the rows that have already been merged in to the database.
 
-Changes made to the database are saved if and only if the [**CloseDatabase**](imsmmerge-closedatabase.md) method is called with *bCommit* set to **TRUE**.
+Changes made to the database are saved if and only if the [**CloseDatabase**](/windows/win32/Mergemod/?branch=master) method is called with *bCommit* set to **TRUE**.
 
 If any merge conflicts occur, including exclusions, they are placed in the error enumerator for later retrieval, but does not cause the merge to fail. Errors may be retrieved through the [**Errors**](error-object.md) property. Errors and informational messages are posted to the current log file.
 
 ### C++
 
-See [**Merge**](imsmmerge-merge.md) function.
+See [**Merge**](/windows/win32/Mergemod/?branch=master) function.
 
 ## Requirements
 

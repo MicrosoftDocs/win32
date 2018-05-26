@@ -1,6 +1,11 @@
 ---
-Description: 'A temporary user profile is issued each time an error condition prevents the user''s profile from loading.'
+Description: A temporary user profile is issued each time an error condition prevents the users profile from loading.
 title: Temporary User Profiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Temporary User Profiles

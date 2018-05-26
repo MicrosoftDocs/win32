@@ -1,7 +1,12 @@
 ---
 title: About Traps and Notifications
 description: One type of message an SNMP agent application can send to a WinSNMP application is an asynchronous message that informs the application of a significant event.
-ms.assetid: '5249c5a5-9260-4a67-b00f-a12214012bb3'
+ms.assetid: 5249c5a5-9260-4a67-b00f-a12214012bb3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Traps and Notifications
@@ -10,7 +15,7 @@ One type of message an SNMP agent application can send to a WinSNMP application 
 
 These types of messages are called traps under SNMPv1 and notifications under SNMPv2C. The Microsoft WinSNMP implementation always translates SNMPv1 traps to the SNMPv2C format, as defined by RFC 1908.
 
-When you call the [**SnmpCreatePdu**](snmpcreatepdu.md) function to create a trap PDU, you can create only an SNMPv2C trap PDU. The only type of trap PDU you can update with a call to the [**SnmpSetPduData**](snmpsetpdudata.md) function is an SNMPv2C trap PDU.
+When you call the [**SnmpCreatePdu**](/windows/win32/Winsnmp/nf-winsnmp-snmpcreatepdu?branch=master) function to create a trap PDU, you can create only an SNMPv2C trap PDU. The only type of trap PDU you can update with a call to the [**SnmpSetPduData**](/windows/win32/Winsnmp/nf-winsnmp-snmpsetpdudata?branch=master) function is an SNMPv2C trap PDU.
 
 For more information, see the following topics.
 

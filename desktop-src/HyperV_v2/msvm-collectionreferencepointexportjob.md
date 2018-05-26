@@ -1,7 +1,12 @@
 ---
-Description: 'This class represents a collection reference point export operation job.'
-ms.assetid: 'c752ff1d-163c-4aa9-b29e-76478a18a08c'
-title: 'Msvm\_CollectionReferencePointExportJob class'
+Description: This class represents a collection reference point export operation job.
+ms.assetid: c752ff1d-163c-4aa9-b29e-76478a18a08c
+title: Msvm\_CollectionReferencePointExportJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CollectionReferencePointExportJob class
@@ -17,17 +22,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_CollectionReferencePointExportJob : CIM_ConcreteJob
 {
   boolean Cancellable;
-  string  ErrorSummaryDescription;
-  string  CollectionId;
-  string  ReferencePointGroupId;
-  string  BaseReferencePointGroupId;
-  string  VirtualMachineId[];
-  string  ExportDirectory;
-  string  ExportedDisks[];
-  string  ExportedLogFilePaths[];
-  string  ExportedConfigFilePaths[];
-  string  ExportedRuntimeFilePaths[];
-  string  ExportedGuestStateFilePaths[];
+  string  ErrorSummaryDescription;
+  string  CollectionId;
+  string  ReferencePointGroupId;
+  string  BaseReferencePointGroupId;
+  string  VirtualMachineId[];
+  string  ExportDirectory;
+  string  ExportedDisks[];
+  string  ExportedLogFilePaths[];
+  string  ExportedConfigFilePaths[];
+  string  ExportedRuntimeFilePaths[];
+  string  ExportedGuestStateFilePaths[];
 };
 ```
 
@@ -52,7 +57,7 @@ The **Msvm\_CollectionReferencePointExportJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -166,9 +171,9 @@ Access type: Read-only
 Path of the exported virtual machine guest state file.
 
 > [!Note]  
-> Added in Windows 10, version 1709.
+> Added in Windows 10, version 1709.
 
- 
+ 
 
 </dd> <dt>
 
@@ -230,8 +235,8 @@ GUID of the virtual machines for which export operation has been performed.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -245,9 +250,9 @@ GUID of the virtual machines for which export operation has been performed.
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

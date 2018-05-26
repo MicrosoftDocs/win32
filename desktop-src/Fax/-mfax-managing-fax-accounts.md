@@ -1,7 +1,12 @@
 ---
-Description: 'The following example shows how to add, remove and enumerate fax accounts.'
-ms.assetid: 'a7256ab7-07b0-4f08-8efb-c35af2ee5eea'
+Description: The following example shows how to add, remove and enumerate fax accounts.
+ms.assetid: a7256ab7-07b0-4f08-8efb-c35af2ee5eea
 title: Managing Fax Accounts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Fax Accounts

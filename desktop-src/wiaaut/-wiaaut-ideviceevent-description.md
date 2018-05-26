@@ -1,8 +1,11 @@
 ---
 title: DeviceEvent.Description property
 description: Retrieves the DeviceEvent description.
-ms.assetid: '22ba6928-441f-4dc1-920d-9496fcfda1bd'
-keywords: ["Description property WIA Automation", "Description property WIA Automation , DeviceEvent object", "DeviceEvent object WIA Automation , Description property"]
+ms.assetid: 22ba6928-441f-4dc1-920d-9496fcfda1bd
+keywords:
+- Description property WIA Automation
+- Description property WIA Automation , DeviceEvent object
+- DeviceEvent object WIA Automation , Description property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceEvent.Description property
@@ -43,8 +51,8 @@ For example code, see [Enumerate all the Supported Events for the Selected Devic
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -75,9 +83,9 @@ For example code, see [Enumerate all the Supported Events for the Selected Devic
 [**Description (FilterInfo)**](-wiaaut-ifilterinfo-description.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

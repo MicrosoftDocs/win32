@@ -4,11 +4,17 @@ description: A dependent resource requires, or depends on, another resource to o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ad913d2-99cb-4885-a1de-822f77dc2030'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2ad913d2-99cb-4885-a1de-822f77dc2030
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource dependencies Failover Cluster", "resources Failover Cluster ,dependencies", "dependencies Failover Cluster"]
+keywords:
+- resource dependencies Failover Cluster
+- resources Failover Cluster ,dependencies
+- dependencies Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource Dependencies

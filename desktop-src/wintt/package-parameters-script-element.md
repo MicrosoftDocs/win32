@@ -1,14 +1,20 @@
 ---
 title: Parameters (Script) Element
 description: A list of parameter names.
-ms.assetid: '6957b81b-7a65-41a9-b922-4e1558ed0085'
-keywords: ["Parameters element Windows Troubleshooting Toolkit"]
+ms.assetid: 6957b81b-7a65-41a9-b922-4e1558ed0085
+keywords:
+- Parameters element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Parameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameters (Script) Element
@@ -36,14 +42,14 @@ The **Parameters** element is defined by the [**Script**](package-script-complex
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a Boolean value that indicates whether the private key belongs to a machine key set.'
-ms.assetid: 'ea13ba68-30ae-4aa4-b490-29fd4542c621'
-title: 'PrivateKey.IsMachineKeyset method'
+---
+Description: Returns a Boolean value that indicates whether the private key belongs to a machine key set.
+ms.assetid: ea13ba68-30ae-4aa4-b490-29fd4542c621
+title: PrivateKey.IsMachineKeyset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.IsMachineKeyset method

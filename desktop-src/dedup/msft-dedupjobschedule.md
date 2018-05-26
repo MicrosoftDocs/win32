@@ -4,13 +4,15 @@ description: Represents a data deduplication schedule.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CDBBF9D4-5A94-4B97-B55A-76A64B8D26C2'
-ms.prod: 'windows-server-dev'
+ms.assetid: CDBBF9D4-5A94-4B97-B55A-76A64B8D26C2
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DedupJobSchedule class Data Deduplication API", "MSFT_DedupJobSchedule class Data Deduplication API , described"]
+keywords:
+- MSFT_DedupJobSchedule class Data Deduplication API
+- MSFT_DedupJobSchedule class Data Deduplication API , described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DedupJobSchedule class
@@ -48,21 +53,21 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [dynamic, provider("DeduplicationProvider"), ClassVersion("1.0"), AMENDMENT]
 class MSFT_DedupJobSchedule
 {
-  string   Name;
-  string   ScheduledTask;
-  uint32   Type;
-  boolean  StopWhenSystemBusy;
-  uint32   Priority;
-  uint32   Memory;
-  uint32   Cores;
-  uint32   InputOutputThrottle;
-  uint32   InputOutputThrottleLevel;
-  boolean  Enabled;
+  string   Name;
+  string   ScheduledTask;
+  uint32   Type;
+  boolean  StopWhenSystemBusy;
+  uint32   Priority;
+  uint32   Memory;
+  uint32   Cores;
+  uint32   InputOutputThrottle;
+  uint32   InputOutputThrottleLevel;
+  boolean  Enabled;
   datetime Start;
-  uint32   DurationHours;
-  sint32   Days[];
-  boolean  Full;
-  boolean  ReadOnly;
+  uint32   DurationHours;
+  sint32   Days[];
+  boolean  Full;
+  boolean  ReadOnly;
 };
 ```
 
@@ -85,7 +90,7 @@ The **MSFT\_DedupJobSchedule** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -104,7 +109,7 @@ Access type: Read/write
 
 The maximum percentage of physical machine cores that the job can use.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -222,7 +227,7 @@ Access type: Read/write
 
 The amount of I/O throttling of the job to ensure that it does not interfere with other heavy I/O processes on the system. This value can range from "0" to "100".
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -237,7 +242,7 @@ Access type: Read/write
 
 Amount that the deduplication job throttles I/O to limit interference with other I/O intense processes.
 
-**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported until Windows Server 2012 R2.
 
 <dt>
 
@@ -287,7 +292,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-The maximum percentage of physical machine memory that can be consumed by this job. For optimization jobs, a range from 15-50 is suggested—with lower memory consumption for jobs that are scheduled to run when the **StopWhenSystemBusy** property is set to **false**. For garbage collection and scrubbing jobs, which are typically run at off hours, a higher memory consumption can be safely specified—for example, 50.
+The maximum percentage of physical machine memory that can be consumed by this job. For optimization jobs, a range from 15-50 is suggested with lower memory consumption for jobs that are scheduled to run when the **StopWhenSystemBusy** property is set to **false**. For garbage collection and scrubbing jobs, which are typically run at off hours, a higher memory consumption can be safely specified for example, 50.
 
 </dd> <dt>
 
@@ -461,16 +466,16 @@ This job undoes deduplication on all of the optimized files on the volume. At th
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

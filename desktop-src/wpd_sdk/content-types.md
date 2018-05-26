@@ -1,7 +1,12 @@
 ---
 Description: Content Types
-ms.assetid: 'f1bbd10f-bfe8-4860-aa10-17d198dc50a3'
+ms.assetid: f1bbd10f-bfe8-4860-aa10-17d198dc50a3
 title: Content Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content Types

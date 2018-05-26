@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectVariable GetAnnotationByIndex method
 description: Get an annotation by index.
-ms.assetid: 'fc130098-0269-4c78-bc45-284aa0b77865'
-keywords: ["GetAnnotationByIndex method Direct3D 11", "GetAnnotationByIndex method Direct3D 11 , ID3DX11EffectVariable interface", "ID3DX11EffectVariable interface Direct3D 11 , GetAnnotationByIndex method"]
+ms.assetid: fc130098-0269-4c78-bc45-284aa0b77865
+keywords:
+- GetAnnotationByIndex method Direct3D 11
+- GetAnnotationByIndex method Direct3D 11 , ID3DX11EffectVariable interface
+- ID3DX11EffectVariable interface Direct3D 11 , GetAnnotationByIndex method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectVariable::GetAnnotationByIndex method
@@ -23,7 +31,7 @@ Get an annotation by index.
 
 ```C++
 ID3DX11EffectVariable* GetAnnotationByIndex(
-   UINT Index
+   UINT Index
 );
 ```
 
@@ -55,7 +63,7 @@ Annonations can be attached to a technique, a pass, or a global variable.
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ Annonations can be attached to a technique, a pass, or a global variable.
 [ID3DX11EffectVariable](id3dx11effectvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

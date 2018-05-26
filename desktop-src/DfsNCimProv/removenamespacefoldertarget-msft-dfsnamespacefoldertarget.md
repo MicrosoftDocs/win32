@@ -4,13 +4,16 @@ description: Removes a target of a DFS folder.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '85a7664e-e913-40b8-b968-a71d05893543'
-ms.prod: 'windows-server-dev'
+ms.assetid: 85a7664e-e913-40b8-b968-a71d05893543
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveNamespaceFolderTarget method", "RemoveNamespaceFolderTarget method, MSFT_DfsNamespaceFolderTarget class", "MSFT_DfsNamespaceFolderTarget class, RemoveNamespaceFolderTarget method"]
+keywords:
+- RemoveNamespaceFolderTarget method
+- RemoveNamespaceFolderTarget method, MSFT_DfsNamespaceFolderTarget class
+- MSFT_DfsNamespaceFolderTarget class, RemoveNamespaceFolderTarget method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveNamespaceFolderTarget method of the MSFT\_DfsNamespaceFolderTarget class
@@ -30,8 +36,8 @@ Removes a target of a DFS folder. If the target being removed is the last target
 
 ```mof
 uint32 RemoveNamespaceFolderTarget(
-  [in] string NamespacePath,
-  [in] string TargetPath
+  [in] string NamespacePath,
+  [in] string TargetPath
 );
 ```
 
@@ -70,7 +76,7 @@ The *NamespacePath* and *TargetPath* parameters have a format of \\\\HostName\\S
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ The *NamespacePath* and *TargetPath* parameters have a format of \\\\HostName\\S
 [**MSFT\_DfsNamespaceFolderTarget**](msft-dfsnamespacefoldertarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

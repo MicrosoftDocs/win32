@@ -1,7 +1,12 @@
 ---
 title: About the HTML Help Authoring Guide
 description: About the HTML Help Authoring Guide
-ms.assetid: '0F7F0F4A-2799-4060-B16A-628D05278C23'
+ms.assetid: 0F7F0F4A-2799-4060-B16A-628D05278C23
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the HTML Help Authoring Guide

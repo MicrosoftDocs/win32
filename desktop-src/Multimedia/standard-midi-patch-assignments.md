@@ -1,8 +1,20 @@
 ---
 title: Standard MIDI Patch Assignments
 description: Standard MIDI Patch Assignments
-ms.assetid: '59982448-26b5-4673-b4a0-dd720a23bb28'
-keywords: ["Musical Instrument Digital Interface (MIDI),standard patch assignments", "MIDI (Musical Instrument Digital Interface),standard patch assignments", "creating MIDI files,standard patch assignments", "standard MIDI patch assignments", "MIDI Manufacturers Association (MMA)", "MMA (MIDI Manufacturers Association)", "General MIDI Mode specification"]
+ms.assetid: 59982448-26b5-4673-b4a0-dd720a23bb28
+keywords:
+- Musical Instrument Digital Interface (MIDI),standard patch assignments
+- MIDI (Musical Instrument Digital Interface),standard patch assignments
+- creating MIDI files,standard patch assignments
+- standard MIDI patch assignments
+- MIDI Manufacturers Association (MMA)
+- MMA (MIDI Manufacturers Association)
+- General MIDI Mode specification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard MIDI Patch Assignments

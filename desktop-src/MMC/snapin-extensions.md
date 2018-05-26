@@ -4,11 +4,16 @@ description: The Extensions property returns the Extensions collection for the s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd7504a23-937e-4180-9c63-62601791529c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: d7504a23-937e-4180-9c63-62601791529c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Extensions property MMC", "Extensions property MMC , SnapIn object", "SnapIn object MMC , Extensions property", "Extensions property MMC , SnapIn interface", "SnapIn interface MMC , Extensions property"]
+keywords:
+- Extensions property MMC
+- Extensions property MMC , SnapIn object
+- SnapIn object MMC , Extensions property
+- Extensions property MMC , SnapIn interface
+- SnapIn interface MMC , Extensions property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapIn::Extensions property
@@ -61,8 +69,8 @@ Set objExts = Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -80,9 +88,9 @@ Set objExts = Nothing
 [**Extensions collection**](extensions-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

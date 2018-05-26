@@ -1,8 +1,18 @@
 ---
 title: External Events
 description: External Events
-ms.assetid: 'd3fd8af6-8d7e-43b8-88fd-a59cf0cef609'
-keywords: ["Windows Media Player skins,external events", "skins,external events", "events,external", "writing code for skins,external events", "external events"]
+ms.assetid: d3fd8af6-8d7e-43b8-88fd-a59cf0cef609
+keywords:
+- Windows Media Player skins,external events
+- skins,external events
+- events,external
+- writing code for skins,external events
+- external events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External Events

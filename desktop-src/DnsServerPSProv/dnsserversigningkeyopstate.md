@@ -2,13 +2,15 @@
 title: DnsServerSigningKeyOpState class
 description: Represents the signing key operational state of a DNS server.
 audience: developer
-ms.assetid: '5a4fbe85-7d82-4311-9a23-2a801014d52a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5a4fbe85-7d82-4311-9a23-2a801014d52a
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerSigningKeyOpState class", "DnsServerSigningKeyOpState class, described"]
+keywords:
+- DnsServerSigningKeyOpState class
+- DnsServerSigningKeyOpState class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerSigningKeyOpState class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerSigningKeyOpState
 {
-  Uint16                  CurrentRollState;
-  boolean                 ManualTrigger;
-  Uint16                  PreRollEventFired;
-  datetime                NextKeyGenerationTime;
+  Uint16                  CurrentRollState;
+  boolean                 ManualTrigger;
+  Uint16                  PreRollEventFired;
+  datetime                NextKeyGenerationTime;
   DnsServerResourceRecord RevokedOrSwappedDnsKeys[];
   DnsServerResourceRecord FinalDnsKeys[];
-  String                  ActiveKeyScope;
-  String                  StandbyKeyScope;
-  String                  NextKeyScope;
+  String                  ActiveKeyScope;
+  String                  StandbyKeyScope;
+  String                  NextKeyScope;
 };
 ```
 
@@ -332,7 +337,7 @@ The possible values are.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -346,9 +351,9 @@ The possible values are.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

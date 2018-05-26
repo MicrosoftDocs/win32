@@ -1,7 +1,12 @@
 ---
-Description: 'The IsEndOfStream method queries whether the end-of-stream notification was received.'
-ms.assetid: '44f9b740-ff7d-4387-9c2c-a5b6b90f3295'
-title: 'CBaseRenderer.IsEndOfStream method'
+Description: The IsEndOfStream method queries whether the end-of-stream notification was received.
+ms.assetid: 44f9b740-ff7d-4387-9c2c-a5b6b90f3295
+title: CBaseRenderer.IsEndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.IsEndOfStream method
@@ -43,9 +48,9 @@ Returns the [**CBaseRenderer::m\_bEOS**](cbaserenderer-m-beos.md) flag.
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

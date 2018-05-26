@@ -1,7 +1,12 @@
 ---
-Description: 'The mstart attribute specifies the start time of a clip, relative to the original media file.'
-ms.assetid: 'ed63f448-8ca3-4733-afc0-2d743f82bebe'
+Description: The mstart attribute specifies the start time of a clip, relative to the original media file.
+ms.assetid: ed63f448-8ca3-4733-afc0-2d743f82bebe
 title: mstart Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mstart Attribute

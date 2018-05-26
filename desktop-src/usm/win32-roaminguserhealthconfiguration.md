@@ -1,8 +1,10 @@
 ---
 title: Win32\_RoamingUserHealthConfiguration class
 description: Represents health configuration properties for all roaming user profiles on a computer.
-ms.assetid: 'ab772e16-2d08-41a0-84de-7cca9bc7f47d'
-keywords: ["Win32_RoamingUserHealthConfiguration class User State Manageability API", "Win32_RoamingUserHealthConfiguration class User State Manageability API , described"]
+ms.assetid: ab772e16-2d08-41a0-84de-7cca9bc7f47d
+keywords:
+- Win32_RoamingUserHealthConfiguration class User State Manageability API
+- Win32_RoamingUserHealthConfiguration class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RoamingUserHealthConfiguration class
@@ -29,7 +36,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_RoamingUserHealthConfiguration
 {
-  uint8  HealthStatusForTempProfiles;
+  uint8  HealthStatusForTempProfiles;
   uint16 LastProfileUploadIntervalCautionInHours;
   uint16 LastProfileDownloadIntervalCautionInHours;
   uint16 LastProfileUploadIntervalUnhealthyInHours;
@@ -139,16 +146,16 @@ This class defines the thresholds used to calculate the Roaming User Profile Hea
 
 |                                     |                                                                                                                    |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                             |
 | MOF<br/>                      | <dl> <dt>UserProfileConfigurationWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvYMoveTo function is obsolete.'
-ms.assetid: '0d8539eb-0b9c-4aae-abbe-bb7ddd6231f5'
-title: 'PFN\_DrvYMoveTo callback function'
+---
+Description: The DrvYMoveTo function is obsolete.
+ms.assetid: 0d8539eb-0b9c-4aae-abbe-bb7ddd6231f5
+title: PFN\_DrvYMoveTo callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvYMoveTo callback function

@@ -1,14 +1,19 @@
 ---
-Description: 'The CDynamicOutputPin class implements an output pin that supports dynamic reconnections and format changes.'
-ms.assetid: 'd2488fba-a653-4b6e-b786-ce95f9e20daa'
+Description: The CDynamicOutputPin class implements an output pin that supports dynamic reconnections and format changes.
+ms.assetid: d2488fba-a653-4b6e-b786-ce95f9e20daa
 title: CDynamicOutputPin class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin class
 
 The `CDynamicOutputPin` class implements an output pin that supports dynamic reconnections and format changes.
 
-This class derives from the [**CBaseOutputPin**](cbaseoutputpin.md) class and implements the [**IPinFlowControl**](ipinflowcontrol.md) interface. It supports several operations that are important for dynamic graph building:
+This class derives from the [**CBaseOutputPin**](cbaseoutputpin.md) class and implements the [**IPinFlowControl**](/windows/win32/Strmif/nn-strmif-ipinflowcontrol?branch=master) interface. It supports several operations that are important for dynamic graph building:
 
 -   Dynamic reconnection: The pin can disconnect and reconnect while the filter is still active (paused or running).
 -   Dynamic format change: The pin can negotiate a new media type while the filter is still active, without reconnecting.
@@ -26,10 +31,10 @@ To coordinate among multiple threads, the owning filter must follow certain rule
 -   [**CBaseOutputPin::Deliver**](cbaseoutputpin-deliver.md)
 -   [**CBaseOutputPin::DeliverEndOfStream**](cbaseoutputpin-deliverendofstream.md)
 -   [**CBaseOutputPin::DeliverNewSegment**](cbaseoutputpin-delivernewsegment.md)
--   [**IMemInputPin::Receive**](imeminputpin-receive.md)
--   [**IMemInputPin::ReceiveMultiple**](imeminputpin-receivemultiple.md)
--   [**IPin::EndOfStream**](ipin-endofstream.md)
--   [**IPin::NewSegment**](ipin-newsegment.md)
+-   [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master)
+-   [**IMemInputPin::ReceiveMultiple**](/windows/win32/Strmif/nf-strmif-imeminputpin-receivemultiple?branch=master)
+-   [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master)
+-   [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master)
 
 Afterward, it must call the [**CDynamicOutputPin::StopUsingOutputPin**](cdynamicoutputpin-stopusingoutputpin.md) method.
 
@@ -39,7 +44,7 @@ These rules ensure that the application thread cannot block the pin while the st
 
 To avoid forgetting to call **StopUsingOutputPin**, you can use the [**CAutoUsingOutputPin**](cautousingoutputpin-cautousingoutputpin.md) class. It calls **StopUsingOutputPin** automatically when it goes out of scope.
 
-When the owning filter joins or leaveds the filter graph (in its [**IBaseFilter::JoinFilterGraph**](ibasefilter-joinfiltergraph.md) method), it must call the pin's [**CDynamicOutputPin::SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md) method.
+When the owning filter joins or leaveds the filter graph (in its [**IBaseFilter::JoinFilterGraph**](/windows/win32/Strmif/nf-strmif-ibasefilter-joinfiltergraph?branch=master) method), it must call the pin's [**CDynamicOutputPin::SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md) method.
 
 
 
@@ -49,10 +54,10 @@ When the owning filter joins or leaveds the filter graph (in its [**IBaseFilter:
 | [**m\_hUnblockOutputPinEvent**](cdynamicoutputpin-m-hunblockoutputpinevent.md)                 | Event that is signaled when the pin is not blocked.                                                                           |
 | [**m\_hNotifyCallerPinBlockedEvent**](cdynamicoutputpin-m-hnotifycallerpinblockedevent.md)     | Event that is signaled when the pin successfully blocks, or the user cancels a pending block.                                 |
 | [**m\_BlockState**](cdynamicoutputpin-m-blockstate.md)                                         | Blocking state.                                                                                                               |
-| [**m\_dwBlockCallerThreadID**](cdynamicoutputpin-m-dwblockcallerthreadid.md)                   | The identifier of the thread that last called the [**IPinFlowControl::Block**](ipinflowcontrol-block.md) method on this pin. |
+| [**m\_dwBlockCallerThreadID**](cdynamicoutputpin-m-dwblockcallerthreadid.md)                   | The identifier of the thread that last called the [**IPinFlowControl::Block**](/windows/win32/Strmif/nf-strmif-ipinflowcontrol-block?branch=master) method on this pin. |
 | [**m\_dwNumOutstandingOutputPinUsers**](cdynamicoutputpin-m-dwnumoutstandingoutputpinusers.md) | Number of streaming threads using this pin.                                                                                   |
 | [**m\_hStopEvent**](cdynamicoutputpin-m-hstopevent.md)                                         | Event that is signaled when the filter stops or the pin flushes data.                                                         |
-| [**m\_pGraphConfig**](cdynamicoutputpin-m-pgraphconfig.md)                                     | Pointer to the [**IGraphConfig**](igraphconfig.md) interface for performing dynamic reconnections.                           |
+| [**m\_pGraphConfig**](cdynamicoutputpin-m-pgraphconfig.md)                                     | Pointer to the [**IGraphConfig**](/windows/win32/Strmif/nn-strmif-igraphconfig?branch=master) interface for performing dynamic reconnections.                           |
 | [**m\_bPinUsesReadOnlyAllocator**](cdynamicoutputpin-m-bpinusesreadonlyallocator.md)           | Flag that specifies whether samples from the pin's allocator are read-only.                                                   |
 | Protected Methods                                                                               | Description                                                                                                                   |
 | [**SynchronousBlockOutputPin**](cdynamicoutputpin-synchronousblockoutputpin.md)                | Blocks the pin; does not return until the pin is blocked.                                                                     |
@@ -63,7 +68,7 @@ When the owning filter joins or leaveds the filter graph (in its [**IBaseFilter:
 | Public Methods                                                                                  | Description                                                                                                                   |
 | [**CDynamicOutputPin**](cdynamicoutputpin-cdynamicoutputpin.md)                                | Constructor method.                                                                                                           |
 | [**~CDynamicOutputPin**](cdynamicoutputpin--cdynamicoutputpin.md)                              | Destructor method.                                                                                                            |
-| [**SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md)                                        | Specifies the [**IGraphConfig**](igraphconfig.md) pointer and the stop event.                                                |
+| [**SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md)                                        | Specifies the [**IGraphConfig**](/windows/win32/Strmif/nn-strmif-igraphconfig?branch=master) pointer and the stop event.                                                |
 | [**DeliverBeginFlush**](cdynamicoutputpin-deliverbeginflush.md)                                | Requests the connected input pin to begin a flush operation.                                                                  |
 | [**DeliverEndFlush**](cdynamicoutputpin-deliverendflush.md)                                    | Requests the connected input pin to end a flush operation.                                                                    |
 | [**Inactive**](cdynamicoutputpin-inactive.md)                                                  | Notifies the pin that the filter has stopped.                                                                                 |
@@ -82,7 +87,7 @@ When the owning filter joins or leaveds the filter graph (in its [**IBaseFilter:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -95,9 +100,9 @@ When the owning filter joins or leaveds the filter graph (in its [**IBaseFilter:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowCopy class
 description: The Win32\_ShadowCopy class is a storage extent that represents a duplicate copy of the original volume at a previous time.
-ms.assetid: '62ba9405-108b-4025-9355-e637d52107ab'
-keywords: ["Win32_ShadowCopy class", "Win32_ShadowCopy class, described"]
+ms.assetid: 62ba9405-108b-4025-9355-e637d52107ab
+keywords:
+- Win32_ShadowCopy class
+- Win32_ShadowCopy class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowCopy class
@@ -51,33 +58,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_ShadowCopy : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ID;
+  string   Caption;
+  string   Description;
+  string   ID;
   datetime InstallDate;
-  string   Name;
-  string   SetID;
-  string   ProviderID;
-  string   Status;
-  uint32   Count;
-  string   DeviceObject;
-  string   VolumeName;
-  string   OriginatingMachine;
-  string   ServiceMachine;
-  string   ExposedName;
-  uint32   State;
-  boolean  Persistent;
-  boolean  ClientAccessible;
-  boolean  NoAutoRelease;
-  boolean  NoWriters;
-  boolean  Transportable;
-  boolean  NotSurfaced;
-  boolean  HardwareAssisted;
-  boolean  Differential;
-  boolean  Plex;
-  boolean  Imported;
-  boolean  ExposedRemotely;
-  boolean  ExposedLocally;
+  string   Name;
+  string   SetID;
+  string   ProviderID;
+  string   Status;
+  uint32   Count;
+  string   DeviceObject;
+  string   VolumeName;
+  string   OriginatingMachine;
+  string   ServiceMachine;
+  string   ExposedName;
+  uint32   State;
+  boolean  Persistent;
+  boolean  ClientAccessible;
+  boolean  NoAutoRelease;
+  boolean  NoWriters;
+  boolean  Transportable;
+  boolean  NotSurfaced;
+  boolean  HardwareAssisted;
+  boolean  Differential;
+  boolean  Plex;
+  boolean  Imported;
+  boolean  ExposedRemotely;
+  boolean  ExposedLocally;
 };
 ```
 
@@ -100,7 +107,7 @@ The **Win32\_ShadowCopy** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -438,7 +445,7 @@ Current state of a shadow copy.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -524,9 +531,9 @@ Name of the original volume for which a shadow copy is made.
 ## Remarks
 
 > [!Note]  
-> This class is unavailable for 32-bit applications on Windows Server 2008 x64. To access the class with Visual Studio, go to **Project Properties**, then **General**, and un-check the **Prefer 32-bit** box.
+> This class is unavailable for 32-bit applications on Windows Server 2008 x64. To access the class with Visual Studio, go to **Project Properties**, then **General**, and un-check the **Prefer 32-bit** box.
 
- 
+ 
 
 ## Examples
 
@@ -539,7 +546,7 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -577,9 +584,9 @@ The [Get Remote Shadow Volume Information With Powershell](http://gallery.techne
 [**Win32\_ShadowDiffVolumeSupport**](win32-shadowdiffvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

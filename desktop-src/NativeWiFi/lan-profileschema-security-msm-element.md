@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains security settings for wired networks.'
-ms.assetid: '08470cf4-3722-4cb9-9877-13eca2f7d04e'
-title: 'security (MSM) Element'
+---
+Description: Contains security settings for wired networks.
+ms.assetid: 08470cf4-3722-4cb9-9877-13eca2f7d04e
+title: security (MSM) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # security (MSM) Element

@@ -1,8 +1,9 @@
 ---
 title: WCS\_PROFILE\_MANAGEMENT\_SCOPE enumeration
 description: Specifies the scope of a profile management operation, such as associating a profile with a device.
-ms.assetid: '6895a807-81da-4263-b370-977ecfaffac8'
-keywords: ["WCS_PROFILE_MANAGEMENT_SCOPE enumeration Windows Color System"]
+ms.assetid: 6895a807-81da-4263-b370-977ecfaffac8
+keywords:
+- WCS_PROFILE_MANAGEMENT_SCOPE enumeration Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Icm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS\_PROFILE\_MANAGEMENT\_SCOPE enumeration
@@ -53,15 +59,15 @@ Indicates that the profile management operation affects only the current user.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IPOP3Transport CommandSTAT method
 description: Sends the STAT command to the server.
-ms.assetid: '72770e62-fce3-4d5a-88bf-62c3102d245e'
-keywords: ["CommandSTAT method Windows Mail (formerly Outlook Express)", "CommandSTAT method Windows Mail (formerly Outlook Express) , IPOP3Transport interface", "IPOP3Transport interface Windows Mail (formerly Outlook Express) , CommandSTAT method"]
+ms.assetid: 72770e62-fce3-4d5a-88bf-62c3102d245e
+keywords:
+- CommandSTAT method Windows Mail (formerly Outlook Express)
+- CommandSTAT method Windows Mail (formerly Outlook Express) , IPOP3Transport interface
+- IPOP3Transport interface Windows Mail (formerly Outlook Express) , CommandSTAT method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPOP3Transport::CommandSTAT method
@@ -50,7 +58,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -58,8 +66,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -67,9 +75,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

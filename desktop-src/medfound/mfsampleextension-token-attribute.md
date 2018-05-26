@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the token that was provided to the IMFMediaStream::RequestSample method.'
-ms.assetid: '9403bb15-e912-4aa3-9af1-fef4a4f9b242'
-title: 'MFSampleExtension\_Token attribute'
+---
+Description: Contains a pointer to the token that was provided to the IMFMediaStreamRequestSample method.
+ms.assetid: 9403bb15-e912-4aa3-9af1-fef4a4f9b242
+title: MFSampleExtension\_Token attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_Token attribute
 
-Contains a pointer to the token that was provided to the [**IMFMediaStream::RequestSample**](imfmediastream-requestsample.md) method.
+Contains a pointer to the token that was provided to the [**IMFMediaStream::RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master) method.
 
 ## Data type
 
@@ -14,19 +19,19 @@ Contains a pointer to the token that was provided to the [**IMFMediaStream::Requ
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 
-This attribute applies to media samples. The value of the attribute is the **IUnknown** pointer that is passed to the *pToken* parameter of the [**RequestSample**](imfmediastream-requestsample.md) method. The caller uses this attribute to track the status of the request.
+This attribute applies to media samples. The value of the attribute is the **IUnknown** pointer that is passed to the *pToken* parameter of the [**RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master) method. The caller uses this attribute to track the status of the request.
 
-If you are writing a custom media source, set this attribute on the sample when the media stream delivers a sample in response to the [**RequestSample**](imfmediastream-requestsample.md) method, unless the value of *pToken* is **NULL**.
+If you are writing a custom media source, set this attribute on the sample when the media stream delivers a sample in response to the [**RequestSample**](/windows/win32/mfidl/nf-mfidl-imfmediastream-requestsample?branch=master) method, unless the value of *pToken* is **NULL**.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

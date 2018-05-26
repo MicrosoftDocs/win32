@@ -4,17 +4,22 @@ description: If TRUE, the object hosting this attribute must be replicated durin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '736c8b25-0f82-4b3c-a4fc-4643cd71474e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 736c8b25-0f82-4b3c-a4fc-4643cd71474e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Is-Critical-System-Object attribute AD Schema", "isCriticalSystemObject attribute AD Schema"]
+keywords:
+- Is-Critical-System-Object attribute AD Schema
+- isCriticalSystemObject attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Is-Critical-System-Object
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Is-Critical-System-Object attribute
@@ -38,13 +43,13 @@ If **TRUE**, the object hosting this attribute must be replicated during install
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -193,9 +198,9 @@ If **TRUE**, the object hosting this attribute must be replicated during install
 
 
 
- 
+ 
 
- 
+ 
 
 
 

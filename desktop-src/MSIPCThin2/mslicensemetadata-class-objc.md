@@ -4,17 +4,21 @@ description: Information for the document tracking feature.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'CDEF128A-68F8-4B13-B6BF-80F24AC296C9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: CDEF128A-68F8-4B13-B6BF-80F24AC296C9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSLicenseMetadata class"]
+keywords:
+- MSLicenseMetadata class
 topic_type:
 - apiref
 api_name:
 - MSLicenseMetadata class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSLicenseMetadata class
@@ -44,7 +48,7 @@ For more information, see [**How to: Use document tracking**](how-to--use-docume
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ For more information, see [**How to: Use document tracking**](how-to--use-docume
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -72,21 +76,21 @@ MSLicenseMetadata.h
 
 
 
- 
+ 
 
 
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

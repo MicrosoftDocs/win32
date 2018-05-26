@@ -1,8 +1,15 @@
 ---
 title: Windows Networking (WNet)
 description: The Windows networking (WNet) functions allow you to implement networking capabilities in your application without making allowances for a particular network provider or physical network implementation.
-ms.assetid: '7668ac55-7104-4ddb-88eb-920cfe4e36fd'
-keywords: ["Windows networking WNet", "WNet WNet"]
+ms.assetid: 7668ac55-7104-4ddb-88eb-920cfe4e36fd
+keywords:
+- Windows networking WNet
+- WNet WNet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Networking (WNet)

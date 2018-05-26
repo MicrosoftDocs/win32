@@ -1,30 +1,35 @@
-﻿---
-Description: 'Raised by a media source when it starts a new stream.'
-ms.assetid: '1bc8b265-b7a1-4068-89f7-c0da03dfb874'
+---
+Description: Raised by a media source when it starts a new stream.
+ms.assetid: 1bc8b265-b7a1-4068-89f7-c0da03dfb874
 title: MENewStream event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENewStream event
 
 Raised by a media source when it starts a new stream.
 
-When the [**IMFMediaSource::Start**](imfmediasource-start.md) method is called on a media source, the media source sends one event for each selected stream:
+When the [**IMFMediaSource::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master) method is called on a media source, the media source sends one event for each selected stream:
 
--   The source sends the MENewStream event if the stream was not selected in the previous call to [**Start**](imfmediasource-start.md), or this is the very first call to **Start** on this media source.
+-   The source sends the MENewStream event if the stream was not selected in the previous call to [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master), or this is the very first call to **Start** on this media source.
 
--   The source sends the [MEUpdatedStream](meupdatedstream.md) event if the stream was already selected in the previous call to [**Start**](imfmediasource-start.md).
+-   The source sends the [MEUpdatedStream](meupdatedstream.md) event if the stream was already selected in the previous call to [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master).
 
 No events are sent for unselected streams.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
 | VARTYPE                | Description                                                                                                   |
 |------------------------|---------------------------------------------------------------------------------------------------------------|
-| VT\_UNKNOWN<br/> | Contains a pointer to the stream's [**IMFMediaStream**](imfmediastream.md) interface.<br/> <br/> |
+| VT\_UNKNOWN<br/> | Contains a pointer to the stream's [**IMFMediaStream**](/windows/win32/mfidl/nn-mfidl-imfmediastream?branch=master) interface.<br/> <br/> |
 
 
 

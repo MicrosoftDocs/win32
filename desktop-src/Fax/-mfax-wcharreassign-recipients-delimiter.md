@@ -1,12 +1,17 @@
-﻿---
-Description: 'Defines the delimiter that will separate the strings in the IFaxIncomingMessage2::Recipients property of IFaxIncomingMessage2 objects.'
-ms.assetid: '4d77bf60-6cf7-4921-be03-8a16beec8a08'
-title: 'wcharREASSIGN\_RECIPIENTS\_DELIMITER'
+---
+Description: Defines the delimiter that will separate the strings in the IFaxIncomingMessage2Recipients property of IFaxIncomingMessage2 objects.
+ms.assetid: 4d77bf60-6cf7-4921-be03-8a16beec8a08
+title: wcharREASSIGN\_RECIPIENTS\_DELIMITER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # wcharREASSIGN\_RECIPIENTS\_DELIMITER
 
-Defines the delimiter that will separate the strings in the [**IFaxIncomingMessage2::Recipients**](-mfax-faxincomingmessage2-cpp-mfax-faxincomingmessage-recipients-cpp.md) property of [**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md) objects.
+Defines the delimiter that will separate the strings in the [**IFaxIncomingMessage2::Recipients**](/windows/previous-versions/FaxComex/?branch=master) property of [**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master) objects.
 
 ## Requirements
 

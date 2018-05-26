@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Printer class represents the capabilities and management of the printer logical device.'
+Description: The CIM\_Printer class represents the capabilities and management of the printer logical device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e41ff580-0202-4d3f-8d78-4705d5fb41b3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e41ff580-0202-4d3f-8d78-4705d5fb41b3
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Printer class'
+title: CIM\_Printer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Printer class
@@ -19,7 +22,7 @@ The **CIM\_Printer** class represents the capabilities and management of the pri
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,57 +32,57 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C54A-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_Printer : CIM_LogicalDevice
 {
-  uint16   Availability;
-  string   AvailableJobSheets[];
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   Caption;
-  string   CharSetsSupported[];
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint16   CurrentCapabilities[];
-  string   CurrentCharSet;
-  uint16   CurrentLanguage;
-  string   CurrentMimeType;
-  string   CurrentNaturalLanguage;
-  string   CurrentPaperType;
-  uint16   DefaultCapabilities[];
-  uint32   DefaultCopies;
-  uint16   DefaultLanguage;
-  string   DefaultMimeType;
-  uint32   DefaultNumberUp;
-  string   DefaultPaperType;
-  string   Description;
-  uint16   DetectedErrorState;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorInformation[];
-  uint32   HorizontalResolution;
+  uint16   Availability;
+  string   AvailableJobSheets[];
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   Caption;
+  string   CharSetsSupported[];
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint16   CurrentCapabilities[];
+  string   CurrentCharSet;
+  uint16   CurrentLanguage;
+  string   CurrentMimeType;
+  string   CurrentNaturalLanguage;
+  string   CurrentPaperType;
+  uint16   DefaultCapabilities[];
+  uint32   DefaultCopies;
+  uint16   DefaultLanguage;
+  string   DefaultMimeType;
+  uint32   DefaultNumberUp;
+  string   DefaultPaperType;
+  string   Description;
+  uint16   DetectedErrorState;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorInformation[];
+  uint32   HorizontalResolution;
   datetime InstallDate;
-  uint32   JobCountSinceLastReset;
-  uint16   LanguagesSupported[];
-  uint32   LastErrorCode;
-  uint16   MarkingTechnology;
-  uint32   MaxCopies;
-  uint32   MaxNumberUp;
-  uint32   MaxSizeSupported;
-  string   MimeTypesSupported[];
-  string   Name;
-  string   NaturalLanguagesSupported[];
-  uint16   PaperSizesSupported[];
-  string   PaperTypesAvailable[];
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   PrinterStatus;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   JobCountSinceLastReset;
+  uint16   LanguagesSupported[];
+  uint32   LastErrorCode;
+  uint16   MarkingTechnology;
+  uint32   MaxCopies;
+  uint32   MaxNumberUp;
+  uint32   MaxSizeSupported;
+  string   MimeTypesSupported[];
+  string   Name;
+  string   NaturalLanguagesSupported[];
+  uint16   PaperSizesSupported[];
+  string   PaperTypesAvailable[];
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   PrinterStatus;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
   datetime TimeOfLastReset;
-  uint32   VerticalResolution;
+  uint32   VerticalResolution;
 };
 ```
 
@@ -103,7 +106,7 @@ The **CIM\_Printer** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -498,7 +501,7 @@ Two-sided short edge
 
 </dt> <dd>
 
-Quality—high
+Quality high
 
 </dd> <dt>
 
@@ -509,7 +512,7 @@ Quality—high
 
 </dt> <dd>
 
-Quality—normal
+Quality normal
 
 </dd> <dt>
 
@@ -520,7 +523,7 @@ Quality—normal
 
 </dt> <dd>
 
-Quality—low
+Quality low
 
 </dd> </dl>
 
@@ -543,7 +546,7 @@ Free-form strings that provide detailed explanations for any of the printer feat
 > [!Note]  
 > Each entry of this array is related to the entry in the **Capabilities** array that is located at the same index.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1145,7 +1148,7 @@ Two-sided short edge
 
 </dt> <dd>
 
-Quality—high
+Quality high
 
 </dd> <dt>
 
@@ -1156,7 +1159,7 @@ Quality—high
 
 </dt> <dd>
 
-Quality—normal
+Quality normal
 
 </dd> <dt>
 
@@ -1167,7 +1170,7 @@ Quality—normal
 
 </dt> <dd>
 
-Quality—low
+Quality low
 
 </dd> </dl>
 
@@ -1752,7 +1755,7 @@ Two-sided short edge
 
 </dt> <dd>
 
-Quality—high
+Quality high
 
 </dd> <dt>
 
@@ -1763,7 +1766,7 @@ Quality—high
 
 </dt> <dd>
 
-Quality—normal
+Quality normal
 
 </dd> <dt>
 
@@ -1774,7 +1777,7 @@ Quality—normal
 
 </dt> <dd>
 
-Quality—low
+Quality low
 
 </dd> </dl>
 
@@ -4087,8 +4090,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -4102,9 +4105,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

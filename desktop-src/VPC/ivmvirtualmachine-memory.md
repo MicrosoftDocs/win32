@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Memory property
 description: Amount of physical memory in the virtual machine, in megabytes.
-ms.assetid: '1a1d4cc7-a537-49f0-981f-0b72eca9013e'
-keywords: ["Memory property Virtual PC", "Memory property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , Memory property"]
+ms.assetid: 1a1d4cc7-a537-49f0-981f-0b72eca9013e
+keywords:
+- Memory property Virtual PC
+- Memory property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , Memory property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Memory property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves and sets the amount of physical memory in the virtual machine, in megabytes.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Memory(
-  [in]          long megabytesOfMemory
+  [in]          long megabytesOfMemory
 );
 
 HRESULT get_Memory(
-  [out, retval] long *megabytesOfMemory
+  [out, retval] long *megabytesOfMemory
 );
 ```
 
@@ -68,9 +76,9 @@ The amount of physical memory in a virtual machine must be at least 4 MB. The up
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -84,9 +92,9 @@ The amount of physical memory in a virtual machine must be at least 4 MB. The up
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

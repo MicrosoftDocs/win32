@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies what kind of operation will be done on a handle.'
-ms.assetid: '92932E4C-0A06-4CDE-B14B-BF53226E133B'
-title: 'ETW\_PROCESS\_HANDLE\_INFO\_TYPE enumeration'
+---
+Description: Specifies what kind of operation will be done on a handle.
+ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B
+title: ETW\_PROCESS\_HANDLE\_INFO\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ETW\_PROCESS\_HANDLE\_INFO\_TYPE enumeration

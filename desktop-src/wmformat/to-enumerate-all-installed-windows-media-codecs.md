@@ -1,8 +1,17 @@
 ---
 title: To Enumerate All Installed Windows Media Codecs
 description: To Enumerate All Installed Windows Media Codecs
-ms.assetid: '651c8624-0b66-4d0e-a25f-6c4b1a94e849'
-keywords: ["streams,enumerating installed Windows Media codecs", "codecs,enumerations", "streams,codec indexes", "codecs,indexes"]
+ms.assetid: 651c8624-0b66-4d0e-a25f-6c4b1a94e849
+keywords:
+- streams,enumerating installed Windows Media codecs
+- codecs,enumerations
+- streams,codec indexes
+- codecs,indexes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Enumerate All Installed Windows Media Codecs

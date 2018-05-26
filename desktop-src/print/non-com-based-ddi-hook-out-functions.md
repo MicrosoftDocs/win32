@@ -1,7 +1,12 @@
 ---
-Description: 'Non-COM-Based DDI Hook-out Functions'
-ms.assetid: 'f7c39603-a51a-4e21-a94b-1263a7699fb9'
-title: 'Non-COM-Based DDI Hook-out Functions'
+Description: Non-COM-Based DDI Hook-out Functions
+ms.assetid: f7c39603-a51a-4e21-a94b-1263a7699fb9
+title: Non-COM-Based DDI Hook-out Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Non-COM-Based DDI Hook-out Functions

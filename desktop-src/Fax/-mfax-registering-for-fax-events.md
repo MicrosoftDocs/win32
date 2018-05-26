@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to register for fax events.'
-ms.assetid: '3a9f42fa-383a-4072-92a6-b59f7940ab04'
+Description: The following Microsoft Visual Basic code example demonstrates how to register for fax events.
+ms.assetid: 3a9f42fa-383a-4072-92a6-b59f7940ab04
 title: Registering for Fax Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering for Fax Events

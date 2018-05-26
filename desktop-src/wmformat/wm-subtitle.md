@@ -1,14 +1,20 @@
 ---
 title: WM/SubTitle
 description: The WM/SubTitle attribute contains the subtitle of the content.
-ms.assetid: '290ec571-3bb9-4817-8f63-3d6c3c9802bf'
-keywords: ["WM/SubTitle windows Media Format"]
+ms.assetid: 290ec571-3bb9-4817-8f63-3d6c3c9802bf
+keywords:
+- WM/SubTitle windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/SubTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/SubTitle

@@ -4,13 +4,16 @@ description: Allows a client to request the Usage to be set if the client has ac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e4834e6-bf53-4c75-9b44-9ddb51774331'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6e4834e6-bf53-4c75-9b44-9ddb51774331
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestUsageChange method iSCSI Software Target API", "RequestUsageChange method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , RequestUsageChange method"]
+keywords:
+- RequestUsageChange method iSCSI Software Target API
+- RequestUsageChange method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , RequestUsageChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestUsageChange method of the CIM\_StorageConfigurationService class
@@ -30,11 +36,11 @@ Allows a client to request the Usage to be set if the client has access to the e
 
 ```mof
 uint32 RequestUsageChange(
-  [in]  uint16                 Operation,
-  [in]  uint16                 UsageValue,
-  [in]  string                 OtherUsageDescription,
-  [out] CIM_ConcreteJob    REF Job,
-  [in]  CIM_LogicalElement REF TheElement
+  [in]  uint16                 Operation,
+  [in]  uint16                 UsageValue,
+  [in]  string                 OtherUsageDescription,
+  [out] CIM_ConcreteJob    REF Job,
+  [in]  CIM_LogicalElement REF TheElement
 );
 ```
 
@@ -70,14 +76,14 @@ The action to perform.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *UsageValue* \[in\]
 </dt> <dd>
@@ -132,16 +138,16 @@ The storage element to modify.
 **Not Authorized** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -151,7 +157,7 @@ The storage element to modify.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -165,9 +171,9 @@ The storage element to modify.
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

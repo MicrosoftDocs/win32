@@ -1,8 +1,9 @@
 ---
 title: WOM\_DONE message
 description: The WOM\_DONE message is sent to a waveform-audio output callback function when the given output buffer is being returned to the application.
-ms.assetid: 'bbdebb68-82e5-4963-90bb-f93f8a91a8cf'
-keywords: ["WOM_DONE message Windows Multimedia"]
+ms.assetid: bbdebb68-82e5-4963-90bb-f93f8a91a8cf
+keywords:
+- WOM_DONE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WOM\_DONE message
@@ -54,8 +60,8 @@ This message does not return a value.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ This message does not return a value.
 [Waveform Messages](waveform-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly form of System.FlagColor. This value is not intended to be parsed programmatically.'
-ms.assetid: '3cddccf7-5724-415e-9c1d-cd824535f028'
-title: 'System.FlagColorText'
+Description: The user-friendly form of System.FlagColor. This value is not intended to be parsed programmatically.
+ms.assetid: 3cddccf7-5724-415e-9c1d-cd824535f028
+title: System.FlagColorText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FlagColorText

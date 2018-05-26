@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the stipple-pattern scale value.'
-ms.assetid: 'cf80ae8c-493d-4f35-b4f9-5981e64cc842'
-title: 'ID3DXLine::GetPatternScale method'
+---
+Description: Gets the stipple-pattern scale value.
+ms.assetid: cf80ae8c-493d-4f35-b4f9-5981e64cc842
+title: ID3DXLineGetPatternScale method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::GetPatternScale method

@@ -1,12 +1,17 @@
 ---
-Description: 'The following analog video subtypes are now obsolete. Use the AnalogVideoStandard enumeration instead.'
-ms.assetid: '67db7ee1-88ec-4e4f-be5e-8b4a7a652bca'
+Description: The following analog video subtypes are now obsolete. Use the AnalogVideoStandard enumeration instead.
+ms.assetid: 67db7ee1-88ec-4e4f-be5e-8b4a7a652bca
 title: Analog Video Subtypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Analog Video Subtypes
 
-The following analog video subtypes are now obsolete. Use the [**AnalogVideoStandard**](analogvideostandard.md) enumeration instead.
+The following analog video subtypes are now obsolete. Use the [**AnalogVideoStandard**](/windows/win32/strmif/ne-strmif-taganalogvideostandard?branch=master) enumeration instead.
 
 
 
@@ -47,9 +52,9 @@ The following analog video subtypes are now obsolete. Use the [**AnalogVideoStan
 [Video Subtypes](video-subtypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Enables or disables the Offline Files feature.'
+Description: Enables or disables the Offline Files feature.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a51147d3-ac7b-4a4b-8fcb-b9785f0bca9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a51147d3-ac7b-4a4b-8fcb-b9785f0bca9c
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Enable method of the Win32\_OfflineFilesCache class'
+title: Enable method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enable method of the Win32\_OfflineFilesCache class
@@ -19,8 +22,8 @@ Enables or disables the Offline Files feature.
 
 ```mof
 uint32 Enable(
-  [in]  boolean Enable,
-  [out] boolean RebootRequired
+  [in]  boolean Enable,
+  [out] boolean RebootRequired
 );
 ```
 
@@ -54,8 +57,8 @@ This method returns either a [WMI return code](https://msdn.microsoft.com/librar
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -69,9 +72,9 @@ This method returns either a [WMI return code](https://msdn.microsoft.com/librar
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'WMI automatically registers the View Provider DLL during the WMI installation process. However, you still need to register the View Provider with WMI for each namespace that will contain view classes.'
+Description: WMI automatically registers the View Provider DLL during the WMI installation process. However, you still need to register the View Provider with WMI for each namespace that will contain view classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '62db8cdc-0bbf-4784-bfc4-6fd5cb53368a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 62db8cdc-0bbf-4784-bfc4-6fd5cb53368a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering the View Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering the View Provider
@@ -62,7 +65,7 @@ The following procedure describes how to register the View Provider.
     };
     ```
 
-4.  Compile your MOF code using the MOF compiler ([mofcomp](mofcomp.md)) or the [**IMofCompiler**](imofcompiler.md) interface.
+4.  Compile your MOF code using the MOF compiler ([mofcomp](mofcomp.md)) or the [**IMofCompiler**](/windows/win32/Wbemcli/nn-wbemcli-imofcompiler?branch=master) interface.
 
     If you save the previously listed MOF code example into a file named Viewtest.mof, use the Mofcomp command to load the MOF code into the target namespace. *NamespacePath* is the namespace in which you wish to create the view class instance.
 

@@ -1,8 +1,15 @@
 ---
 title: Next Hop Flags
 description: Next Hop Flags
-ms.assetid: 'e4c7e9ea-21f5-491a-b005-1ef1a457cb80'
-keywords: ["Next", "Next Hop Flags"]
+ms.assetid: e4c7e9ea-21f5-491a-b005-1ef1a457cb80
+keywords:
+- Next
+- Next Hop Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Next Hop Flags

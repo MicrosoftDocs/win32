@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_STORAGE\_FORMAT command formats a storage functional object on the device.'
-ms.assetid: '5dc06ed3-791f-4c6b-9fb3-42452e948e0d'
-title: 'WPD\_COMMAND\_STORAGE\_FORMAT Command'
+Description: The WPD\_COMMAND\_STORAGE\_FORMAT command formats a storage functional object on the device.
+ms.assetid: 5dc06ed3-791f-4c6b-9fb3-42452e948e0d
+title: WPD\_COMMAND\_STORAGE\_FORMAT Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_STORAGE\_FORMAT Command
@@ -24,7 +29,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -39,11 +44,11 @@ The driver should return the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -62,9 +67,9 @@ Can only be called directly using [**IPortableDevice::SendCommand**](iportablede
 [**Commands**](commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ComClassAutoEmulator association WMI class relates a Component Object Model (COM) class and another COM class that it automatically emulates.'
+Description: The Win32\_ComClassAutoEmulator association WMI class relates a Component Object Model (COM) class and another COM class that it automatically emulates.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e060ba26-98e7-47cb-bf21-1ca80d0e8a07'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e060ba26-98e7-47cb-bf21-1ca80d0e8a07
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ComClassAutoEmulator class'
+title: Win32\_ComClassAutoEmulator class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ComClassAutoEmulator class
@@ -79,8 +82,8 @@ Reference to the instance representing the COM component that is automatically e
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -94,9 +97,9 @@ Reference to the instance representing the COM component that is automatically e
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

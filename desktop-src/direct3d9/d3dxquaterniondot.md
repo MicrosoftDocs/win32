@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the dot product of two quaternions.'
-ms.assetid: '2ed9aca9-0526-4b92-bd66-b09dcf4f474a'
+---
+Description: Returns the dot product of two quaternions.
+ms.assetid: 2ed9aca9-0526-4b92-bd66-b09dcf4f474a
 title: D3DXQuaternionDot function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionDot function

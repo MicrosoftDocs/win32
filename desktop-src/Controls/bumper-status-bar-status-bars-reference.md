@@ -1,7 +1,12 @@
 ---
 title: Status Bar Reference
 description: .
-ms.assetid: 'dc07bcf2-cb43-440c-a163-71b77b7ee2c0'
+ms.assetid: dc07bcf2-cb43-440c-a163-71b77b7ee2c0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Bar Reference

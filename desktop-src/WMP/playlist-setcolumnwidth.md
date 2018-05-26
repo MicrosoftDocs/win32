@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.setColumnWidth
 description: The setColumnWidth method specifies the column width and changes the resize mode of the column to \ 0034;Fixed \ 0034;.
-ms.assetid: '6eebea0a-48f2-4300-b535-78744db6fea4'
-keywords: ["PLAYLIST.setColumnWidth Windows Media Player"]
+ms.assetid: 6eebea0a-48f2-4300-b535-78744db6fea4
+keywords:
+- PLAYLIST.setColumnWidth Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.setColumnWidth
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.setColumnWidth
@@ -61,9 +67,9 @@ This method does not return a value.
 [**PLAYLIST.setColumnResizeMode**](playlist-setcolumnresizemode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

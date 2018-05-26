@@ -1,8 +1,13 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
-ms.assetid: '2442a788-2e70-44c1-9c38-901c1c18a742'
+Robots: noindex, nofollow
+ms.assetid: 2442a788-2e70-44c1-9c38-901c1c18a742
 title: R
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # R

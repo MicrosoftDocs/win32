@@ -1,7 +1,12 @@
 ---
-Description: 'The DeliverBeginFlush method requests the connected input pin to begin a flush operation.'
-ms.assetid: 'eafc3835-7696-480b-abc8-154938e19b15'
-title: 'CDynamicOutputPin.DeliverBeginFlush method'
+Description: The DeliverBeginFlush method requests the connected input pin to begin a flush operation.
+ms.assetid: eafc3835-7696-480b-abc8-154938e19b15
+title: CDynamicOutputPin.DeliverBeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.DeliverBeginFlush method
@@ -47,9 +52,9 @@ This method overrides the [**CBaseOutputPin::DeliverBeginFlush**](cbaseoutputpin
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

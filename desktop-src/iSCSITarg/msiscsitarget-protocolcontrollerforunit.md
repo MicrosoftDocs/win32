@@ -4,13 +4,15 @@ description: Defines a relationship between a CIM\_ProtocolController and an exp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3353d1e5-af59-4ef4-b180-2606f09bff9a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3353d1e5-af59-4ef4-b180-2606f09bff9a
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_ProtocolControllerForUnit class iSCSI Software Target API", "MSISCSITARGET_ProtocolControllerForUnit class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_ProtocolControllerForUnit class iSCSI Software Target API
+- MSISCSITARGET_ProtocolControllerForUnit class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_ProtocolControllerForUnit class
@@ -41,12 +46,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Version("1.0.0")]
 class MSISCSITARGET_ProtocolControllerForUnit : CIM_ProtocolControllerForUnit
 {
-  string                     DeviceNumber;
-  uint16                     AccessPriority;
-  uint16                     AccessState;
+  string                     DeviceNumber;
+  uint16                     AccessPriority;
+  uint16                     AccessState;
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
-  uint16                     DeviceAccess;
+  CIM_LogicalDevice      REF Dependent;
+  uint16                     DeviceAccess;
 };
 ```
 
@@ -219,14 +224,14 @@ This property is inherited from [**CIM\_ProtocolControllerForUnit**](cim-protoco
 **DMTF Reserved**
 
 
-</dt> <dd>5–15999</dd> <dt>
+</dt> <dd>5 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -252,7 +257,7 @@ This property is inherited from [**CIM\_ProtocolControllerForDevice**](cim-proto
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -269,9 +274,9 @@ This property is inherited from [**CIM\_ProtocolControllerForDevice**](cim-proto
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

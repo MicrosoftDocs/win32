@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink Command
 description: IAgentNotifySink Command
-ms.assetid: 'd54fb2e8-27d6-47a4-8a1e-5419a94ea26d'
+ms.assetid: d54fb2e8-27d6-47a4-8a1e-5419a94ea26d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::Command

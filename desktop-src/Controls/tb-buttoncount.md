@@ -1,8 +1,9 @@
 ---
 title: TB\_BUTTONCOUNT message
 description: Retrieves a count of the buttons currently in the toolbar.
-ms.assetid: '4d1b53a9-c561-49ce-9f8c-ffc9ce4dbbf7'
-keywords: ["TB_BUTTONCOUNT message Windows Controls"]
+ms.assetid: 4d1b53a9-c561-49ce-9f8c-ffc9ce4dbbf7
+keywords:
+- TB_BUTTONCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_BUTTONCOUNT message
@@ -37,15 +43,15 @@ Returns the count of the buttons.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

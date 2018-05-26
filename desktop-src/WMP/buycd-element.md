@@ -1,14 +1,20 @@
 ---
 title: BuyCD Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '01aaf20a-49ee-420b-a612-f09155390d4a'
-keywords: ["BuyCD Element Windows Media Player"]
+ms.assetid: 01aaf20a-49ee-420b-a612-f09155390d4a
+keywords:
+- BuyCD Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BuyCD Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BuyCD Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **BuyCD** element specifies the URLs for webpages that Windows Media Player displays when the user chooses to make a purchase.
 
@@ -64,7 +70,7 @@ URL for the webpage that the online store displays to offer a CD or DVD for purc
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,7 +91,7 @@ When the user clicks a button or link in Windows Media Player to purchase a CD o
 
 
 
- 
+ 
 
 Windows XP Media Center Edition 2004 provides users with a user interface designed to be viewed at a distance. You should create webpages for the *MediaCenterURL* parameter to be viewed on large displays.
 
@@ -112,9 +118,9 @@ Windows XP Media Center Edition 2004 provides users with a user interface design
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

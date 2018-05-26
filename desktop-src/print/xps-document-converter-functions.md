@@ -1,7 +1,12 @@
 ---
 Description: XPS Document Converter Functions
-ms.assetid: '8d2de2d0-a06f-40d6-b3ef-c8357963b4cb'
+ms.assetid: 8d2de2d0-a06f-40d6-b3ef-c8357963b4cb
 title: XPS Document Converter Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPS Document Converter Functions

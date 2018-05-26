@@ -1,7 +1,12 @@
 ---
 title: Collecting Spin Lock Data
 description: Collecting Spin Lock Data
-ms.assetid: '074dd18a-a767-4815-8b9f-3b41ad1df1dd'
+ms.assetid: 074dd18a-a767-4815-8b9f-3b41ad1df1dd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collecting Spin Lock Data
@@ -36,7 +41,7 @@ xperf -on PROC_THREAD+LOADER+SPINLOCK
 
 
 
- 
+ 
 
 Spin Lock event data can be collected using only the "SPINLOCK" option. For example:
 
@@ -56,7 +61,7 @@ If your test scenario is already running, it is not necessary to stop the scenar
 > [!Note]  
 > In certain cases, a large number of Spin Lock events can tax the ability WPT to keep up with logging events. A message box indicating that a number of events have been lost is displayed when merging data. In order to mitigate this circumstance WPT offers a number of parameters that can be tuned. For a complete discussion on avoiding lost events please see [Avoiding Lost Buffers](avoiding-lost-buffers.md).
 
- 
+ 
 
 ### Stopping Spin Lock Event Data Collection and Merging Data
 
@@ -78,7 +83,7 @@ xperf -d example.etl
 
 
 
- 
+ 
 
 For more information on stopping a trace please see [Stopping a Trace](stopping-a-trace.md).
 
@@ -133,11 +138,11 @@ Current Spinlock Contention Sample Rate = 100
 > [!Note]  
 > Spinlock collection parameters are returned to the default values when the system is rebooted. To ensure valid data collection, always query or set spinlock parameters before starting event data collection.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

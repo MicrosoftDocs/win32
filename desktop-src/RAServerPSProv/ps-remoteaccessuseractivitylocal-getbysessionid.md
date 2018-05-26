@@ -2,13 +2,16 @@
 title: GetBySessionId method of the PS\_RemoteAccessUserActivityLocal class
 description: Retrieves the user activity for a particular session.
 audience: developer
-ms.assetid: 'affab9d9-98c6-4f93-a76c-4eaafda8f964'
-ms.prod: 'windows-server-dev'
+ms.assetid: affab9d9-98c6-4f93-a76c-4eaafda8f964
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetBySessionId method", "GetBySessionId method, PS_RemoteAccessUserActivityLocal class", "PS_RemoteAccessUserActivityLocal class, GetBySessionId method"]
+keywords:
+- GetBySessionId method
+- GetBySessionId method, PS_RemoteAccessUserActivityLocal class
+- PS_RemoteAccessUserActivityLocal class, GetBySessionId method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetBySessionId method of the PS\_RemoteAccessUserActivityLocal class
@@ -28,8 +34,8 @@ Retrieves the user activity for a particular session.
 
 ```mof
 uint32 GetBySessionId(
-  [in]  uint64                        SessionId,
-  [out] RemoteAccessUserActivityLocal cmdletOutput[]
+  [in]  uint64                        SessionId,
+  [out] RemoteAccessUserActivityLocal cmdletOutput[]
 );
 ```
 
@@ -60,7 +66,7 @@ On success, returns an array of [**RemoteAccessUserActivityLocal**](ps-remoteacc
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ On success, returns an array of [**RemoteAccessUserActivityLocal**](ps-remoteacc
 [**PS\_RemoteAccessUserActivityLocal**](ps-remoteaccessuseractivitylocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 Description: Decoder Settings for Windows Media Center Edition
-ms.assetid: '019b063f-f215-44d8-a916-3125bee6af93'
+ms.assetid: 019b063f-f215-44d8-a916-3125bee6af93
 title: Decoder Settings for Windows Media Center Edition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoder Settings for Windows Media Center Edition
 
-Windows XP Media Center Edition 2005 and later uses the [**ICodecAPI**](icodecapi.md) interface to configure the audio decoder filter for television and DVD playback. The following properties are supported.
+Windows XP Media Center Edition 2005 and later uses the [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master) interface to configure the audio decoder filter for television and DVD playback. The following properties are supported.
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Describes a log entry for a configuration event in IPAM.'
+Description: Describes a log entry for a configuration event in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'feedbf34-ff08-4cf8-b97a-756888484073'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: feedbf34-ff08-4cf8-b97a-756888484073
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_ConfigLogEntry class'
+title: MSFT\_IPAM\_ConfigLogEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_ConfigLogEntry class
@@ -24,31 +27,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::System::Logs"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_ConfigLogEntry : CIM_LogEntry
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   RecordFormat;
-  string   RecordData;
-  string   Locale;
-  uint16   PerceivedSeverity;
-  string   InstanceID;
-  string   LogInstanceID;
-  string   LogName;
-  string   RecordID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   RecordFormat;
+  string   RecordData;
+  string   Locale;
+  uint16   PerceivedSeverity;
+  string   InstanceID;
+  string   LogInstanceID;
+  string   LogName;
+  string   RecordID;
   datetime CreationTimeStamp;
-  string   MessageID;
-  string   Message;
-  string   MessageArguments[];
-  sint64   EventID;
+  string   MessageID;
+  string   Message;
+  string   MessageArguments[];
+  sint64   EventID;
   datetime TimeOfEvent;
-  string   UserName;
-  string   UserDomainName;
-  string   ServerName;
-  string   UserForestName;
-  uint16   ServerType;
-  string   Keywords;
-  string   TaskCategory;
-  string   OperationalCode;
+  string   UserName;
+  string   UserDomainName;
+  string   ServerName;
+  string   UserForestName;
+  uint16   ServerType;
+  string   Keywords;
+  string   TaskCategory;
+  string   OperationalCode;
 };
 ```
 
@@ -71,7 +74,7 @@ The **MSFT\_IPAM\_ConfigLogEntry** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -606,7 +609,7 @@ Access type: Read-only
 
 The forest of the user who made the configuration change.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -630,7 +633,7 @@ The user who made the configuration change.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | RootMicrosoftIPAM<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -647,9 +650,9 @@ The user who made the configuration change.
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

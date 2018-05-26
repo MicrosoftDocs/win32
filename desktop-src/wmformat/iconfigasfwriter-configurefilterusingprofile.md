@@ -1,14 +1,22 @@
 ---
 title: IConfigAsfWriter ConfigureFilterUsingProfile method
 description: The ConfigureFilterUsingProfile method is the recommended way to set a profile. It configures the filter to write an ASF file based on the specified application-defined profile.
-ms.assetid: '278e5109-ba22-4a1c-9c6a-5cfcb9f57d37'
-keywords: ["ConfigureFilterUsingProfile method windows Media Format", "ConfigureFilterUsingProfile method windows Media Format , IConfigAsfWriter interface", "IConfigAsfWriter interface windows Media Format , ConfigureFilterUsingProfile method"]
+ms.assetid: 278e5109-ba22-4a1c-9c6a-5cfcb9f57d37
+keywords:
+- ConfigureFilterUsingProfile method windows Media Format
+- ConfigureFilterUsingProfile method windows Media Format , IConfigAsfWriter interface
+- IConfigAsfWriter interface windows Media Format , ConfigureFilterUsingProfile method
 topic_type:
 - apiref
 api_name:
 - IConfigAsfWriter.ConfigureFilterUsingProfile
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConfigAsfWriter::ConfigureFilterUsingProfile method
@@ -20,7 +28,7 @@ The **ConfigureFilterUsingProfile** method is the recommended way to set a profi
 
 ```C++
 HRESULT ConfigureFilterUsingProfile(
-  [in] IWMProfile *pProfile
+  [in] IWMProfile *pProfile
 );
 ```
 
@@ -51,7 +59,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,12 +69,12 @@ If successful, this method will cause an **EC\_GRAPH\_CHANGED** event to be sent
 
 <dl> <dt>
 
-[**IConfigAsfWriter Interface**](iconfigasfwriter.md)
+[**IConfigAsfWriter Interface**](/windows/win32/dshowasf/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

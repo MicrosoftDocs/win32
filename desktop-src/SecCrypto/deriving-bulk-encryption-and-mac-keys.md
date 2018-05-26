@@ -1,7 +1,12 @@
 ---
-Description: 'Bulk encryption and MAC keys are derived from a master key but can include other sources depending on the protocol and cipher suite used.'
-ms.assetid: 'f78acb54-c32a-46a8-b465-855251069a57'
+Description: Bulk encryption and MAC keys are derived from a master key but can include other sources depending on the protocol and cipher suite used.
+ms.assetid: f78acb54-c32a-46a8-b465-855251069a57
 title: Deriving Bulk Encryption and MAC Keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deriving Bulk Encryption and MAC Keys
@@ -10,9 +15,9 @@ title: Deriving Bulk Encryption and MAC Keys
 
 The process of deriving bulk encryption and MAC keys is the same for both client and server:
 
-1.  The protocol engine calls [**CryptSetKeyParam**](cryptsetkeyparam.md) on the master key one or more times to provide the CSP with the information needed to build the keys.
-2.  Because [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) keys cannot be derived directly from other keys, a hash object is created from the master key using [**CryptCreateHash**](cryptcreatehash.md). This [*hash*](security.h_gly#-security-hash-gly) is used to create the new keys.
-3.  The two bulk encryption keys and the two MAC keys are created from the "master hash" object using four calls to [**CryptDeriveKey**](cryptderivekey.md).
+1.  The protocol engine calls [**CryptSetKeyParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetkeyparam?branch=master) on the master key one or more times to provide the CSP with the information needed to build the keys.
+2.  Because [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) keys cannot be derived directly from other keys, a hash object is created from the master key using [**CryptCreateHash**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatehash?branch=master). This [*hash*](security.h_gly#-security-hash-gly) is used to create the new keys.
+3.  The two bulk encryption keys and the two MAC keys are created from the "master hash" object using four calls to [**CryptDeriveKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptderivekey?branch=master).
 
 > [!Note]When performing SSL reconnects, a protocol engine can perform the above procedure several times using the same master key. This enables the client and server to have multiple, often simultaneous connections, each using different [*bulk encryption*](security.b_gly#-security-bulk-encryption-key-gly) and MAC keys without additional RSA or Diffie-Hellman operations.
 >

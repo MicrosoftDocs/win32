@@ -1,7 +1,12 @@
 ---
 title: Edit or Update a Table of Contents
 description: After you create a table of contents you can edit or update the entries and how they appear to the user.
-ms.assetid: '68D81BBB-08EF-4454-A769-B69C6C9337F5'
+ms.assetid: 68D81BBB-08EF-4454-A769-B69C6C9337F5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit or Update a Table of Contents

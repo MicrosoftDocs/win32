@@ -1,7 +1,12 @@
-﻿---
-Description: 'The XMVECTORU8 type supports the use of C/C++ initializer syntax to load floating-point values into an instance of XMVECTOR type.'
-ms.assetid: '94be5288-1a8e-4ef3-84f3-528a1307acbc'
+---
+Description: The XMVECTORU8 type supports the use of C/C++ initializer syntax to load floating-point values into an instance of XMVECTOR type.
+ms.assetid: 94be5288-1a8e-4ef3-84f3-528a1307acbc
 title: XMVECTORU8 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVECTORU8 Extensions

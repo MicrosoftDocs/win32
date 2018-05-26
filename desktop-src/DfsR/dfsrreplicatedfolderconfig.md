@@ -4,13 +4,15 @@ description: An instance of this class is available for each replicated folder t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '056d61f1-7b7d-4fa0-bed0-c23763277617'
-ms.prod: 'windows-server-dev'
+ms.assetid: 056d61f1-7b7d-4fa0-bed0-c23763277617
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrReplicatedFolderConfig class Distributed File System Replication", "DfsrReplicatedFolderConfig class Distributed File System Replication , described"]
+keywords:
+- DfsrReplicatedFolderConfig class Distributed File System Replication
+- DfsrReplicatedFolderConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -51,6 +53,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrReplicatedFolderConfig class
@@ -63,26 +68,26 @@ An instance of this class is available for each replicated folder that this host
 [Dynamic, Provider("DfsrConfigProv")]
 class DfsrReplicatedFolderConfig : CIM_Setting
 {
-  string  Caption;
-  string  SettingID;
-  string  ReplicatedFolderGuid;
-  string  ReplicatedFolderName;
-  string  ReplicatedFolderDn;
-  string  ReplicationGroupGuid;
-  string  MemberGuid;
-  string  VolumeGuid;
-  string  RootPath;
-  uint32  RootSizeInMb;
-  string  StagingPath;
-  uint32  StagingSizeInMb;
-  string  ConflictPath;
-  uint32  ConflictSizeInMb;
-  string  FileFilter;
-  string  DirectoryFilter;
+  string  Caption;
+  string  SettingID;
+  string  ReplicatedFolderGuid;
+  string  ReplicatedFolderName;
+  string  ReplicatedFolderDn;
+  string  ReplicationGroupGuid;
+  string  MemberGuid;
+  string  VolumeGuid;
+  string  RootPath;
+  uint32  RootSizeInMb;
+  string  StagingPath;
+  uint32  StagingSizeInMb;
+  string  ConflictPath;
+  uint32  ConflictSizeInMb;
+  string  FileFilter;
+  string  DirectoryFilter;
   boolean Ghosted;
   boolean CacheObeyConnectionSchedule;
-  uint32  MinAgeInCacheInMin;
-  uint32  MaxAgeInCacheInMin;
+  uint32  MinAgeInCacheInMin;
+  uint32  MaxAgeInCacheInMin;
   boolean Enabled;
   boolean IsPrimary;
   boolean ReadOnly;
@@ -90,11 +95,11 @@ class DfsrReplicatedFolderConfig : CIM_Setting
   boolean DisableReanimateDeletes;
   boolean SharedStaging;
   boolean CompressedExtensions;
-  string  Description;
-  uint64  UsnCreated;
-  string  ContainerComputerName;
+  string  Description;
+  uint64  UsnCreated;
+  string  ContainerComputerName;
   boolean IsClustered;
-  string  VcoResourceName;
+  string  VcoResourceName;
 };
 ```
 
@@ -118,7 +123,7 @@ The **DfsrReplicatedFolderConfig** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -222,7 +227,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Con
 
 The name of the Active Directory computer object that holds the replicated folder information. Normally this name is same as the NETBIOS name of the local computer.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -349,7 +354,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Is 
 
 This property is **TRUE** if the Active Directory server that holds the replicated folder is a virtual computer in a cluster, or **FALSE** if it is a local computer.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -609,7 +614,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Rep
 
 The USN-created value of the object that represents the replicated folder in Active Directory.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -627,7 +632,7 @@ Qualifiers: [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Con
 
 If the replicated folder is configured against a virtual computer, this property specifies the Network Name resource of the clustered replicated folder.
 
-**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
+**Windows Vista and Windows Server 2008:** This property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -657,9 +662,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -676,9 +681,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: XTYP\_DISCONNECT transaction
-description: An application's Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_DISCONNECT transaction when the application's partner in a conversation uses the DdeDisconnect function to terminate the conversation.
-ms.assetid: '22a9ec63-8a74-4829-ad02-d07dd0e8fa9b'
-keywords: ["XTYP_DISCONNECT transaction Data Exchange"]
+description: An applications Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_DISCONNECT transaction when the applications partner in a conversation uses the DdeDisconnect function to terminate the conversation.
+ms.assetid: 22a9ec63-8a74-4829-ad02-d07dd0e8fa9b
+keywords:
+- XTYP_DISCONNECT transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_DISCONNECT transaction
 
-An application's Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_DISCONNECT** transaction when the application's partner in a conversation uses the [**DdeDisconnect**](ddedisconnect.md) function to terminate the conversation.
+An application's Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](ddecallback.md), receives the **XTYP\_DISCONNECT** transaction when the application's partner in a conversation uses the [**DdeDisconnect**](/windows/win32/Ddeml/nf-ddeml-ddedisconnect?branch=master) function to terminate the conversation.
 
 
 ```C++
@@ -88,9 +94,9 @@ Specifies whether the partners in the conversation are the same application inst
 
 ## Remarks
 
-This transaction is filtered if the application specified the **CBF\_SKIP\_DISCONNECTS** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the application specified the **CBF\_SKIP\_DISCONNECTS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
-The application can obtain the status of the terminated conversation by calling the [**DdeQueryConvInfo**](ddequeryconvinfo.md) function while processing this transaction. The conversation handle becomes invalid after the callback function returns.
+The application can obtain the status of the terminated conversation by calling the [**DdeQueryConvInfo**](/windows/win32/Ddeml/nf-ddeml-ddequeryconvinfo?branch=master) function while processing this transaction. The conversation handle becomes invalid after the callback function returns.
 
 An application cannot block this transaction type; the **CBR\_BLOCK** return code is ignored.
 
@@ -100,8 +106,8 @@ An application cannot block this transaction type; the **CBR\_BLOCK** return cod
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -113,13 +119,13 @@ An application cannot block this transaction type; the **CBR\_BLOCK** return cod
 **Reference**
 </dt> <dt>
 
-[**DdeDisconnect**](ddedisconnect.md)
+[**DdeDisconnect**](/windows/win32/Ddeml/nf-ddeml-ddedisconnect?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
-[**DdeQueryConvInfo**](ddequeryconvinfo.md)
+[**DdeQueryConvInfo**](/windows/win32/Ddeml/nf-ddeml-ddequeryconvinfo?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -128,9 +134,9 @@ An application cannot block this transaction type; the **CBR\_BLOCK** return cod
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

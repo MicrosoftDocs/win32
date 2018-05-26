@@ -1,7 +1,12 @@
 ---
 Description: Metronome Filter Sample
-ms.assetid: 'bb279898-875a-4ce4-ac69-6c58f640fbbd'
+ms.assetid: bb279898-875a-4ce4-ac69-6c58f640fbbd
 title: Metronome Filter Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metronome Filter Sample

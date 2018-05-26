@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deprecated. Provides notification of modifications to user identities on the system, as well as user requests to switch the current user identity.'
-ms.assetid: '09903aa6-62bf-4820-9a09-79956d775441'
+---
+Description: Deprecated. Provides notification of modifications to user identities on the system, as well as user requests to switch the current user identity.
+ms.assetid: 09903aa6-62bf-4820-9a09-79956d775441
 title: IIdentityChangeNotify interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIdentityChangeNotify interface

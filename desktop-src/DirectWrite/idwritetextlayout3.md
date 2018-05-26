@@ -1,8 +1,10 @@
 ---
 title: IDWriteTextLayout3 interface
 description: Represents a block of text after it has been fully analyzed and formatted.
-ms.assetid: 'a7741740-9524-caf0-650b-56808abcf328'
-keywords: ["IDWriteTextLayout3 interface Direct Write", "IDWriteTextLayout3 interface Direct Write , described"]
+ms.assetid: a7741740-9524-caf0-650b-56808abcf328
+keywords:
+- IDWriteTextLayout3 interface Direct Write
+- IDWriteTextLayout3 interface Direct Write , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteTextLayout3 interface
@@ -38,7 +45,7 @@ The **IDWriteTextLayout3** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,9 +53,9 @@ The **IDWriteTextLayout3** interface has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | Library<br/>                  | <dl> <dt>Dwrite.lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
@@ -61,9 +68,9 @@ The **IDWriteTextLayout3** interface has these methods.
 [**IDWriteTextLayout2**](idwritetextlayout2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

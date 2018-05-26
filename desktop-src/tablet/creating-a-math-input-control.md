@@ -1,7 +1,12 @@
 ---
-Description: 'Explains how to create a math input control.'
-ms.assetid: '59976b01-9032-4226-a160-e9b2d4b8b23b'
+Description: Explains how to create a math input control.
+ms.assetid: 59976b01-9032-4226-a160-e9b2d4b8b23b
 title: Creating a Math Input Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Math Input Control
@@ -63,7 +68,7 @@ After calling CoInitialize on the control pointer, you have a reference to the c
 
 ## Show the Control
 
-The control will not automatically appear after you create it. To show the control, call the [**Show**](imathinputcontrol-show.md) method on the control reference that you created in the previous step. The following code demonstrates how the [**Show**](peninputpanel-autoshow.md) method can be called.
+The control will not automatically appear after you create it. To show the control, call the [**Show**](/windows/win32/micaut/nf-micaut-imathinputcontrol-show?branch=master) method on the control reference that you created in the previous step. The following code demonstrates how the [**Show**](/windows/win32/msinkaut/?branch=master) method can be called.
 
 
 ```

@@ -4,13 +4,16 @@ description: Sets DNS credentials to be used by the DHCP server for registering 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '51f471a9-1144-4895-8f89-3e05a5561908'
-ms.prod: 'windows-server-dev'
+ms.assetid: 51f471a9-1144-4895-8f89-3e05a5561908
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerDnsCredential class", "PS_DhcpServerDnsCredential class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerDnsCredential class
+- PS_DhcpServerDnsCredential class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerDnsCredential class
@@ -30,10 +36,10 @@ Sets DNS credentials to be used by the DHCP server for registering or de-registe
 
 ```mof
 uint32 Set(
-  [in]  string                  ComputerName,
-  [in]  string                  Credential,
-  [in]  boolean                 PassThru,
-  [out] DhcpServerDnsCredential cmdletOutput
+  [in]  string                  ComputerName,
+  [in]  string                  Credential,
+  [in]  boolean                 PassThru,
+  [out] DhcpServerDnsCredential cmdletOutput
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of a [**DhcpServerDnsCredential**](dhcpserverdnscredential.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of a [**DhcpServerDnsCredential**](dhcpserverdnscredential.
 [**PS\_DhcpServerDnsCredential**](ps-dhcpserverdnscredential.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

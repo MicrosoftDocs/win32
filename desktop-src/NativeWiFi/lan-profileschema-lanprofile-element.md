@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a wired network profile.'
-ms.assetid: 'f5f9fcdc-febf-4730-8be4-5e1885d9ab08'
+---
+Description: Contains a wired network profile.
+ms.assetid: f5f9fcdc-febf-4730-8be4-5e1885d9ab08
 title: LANProfile Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LANProfile Element

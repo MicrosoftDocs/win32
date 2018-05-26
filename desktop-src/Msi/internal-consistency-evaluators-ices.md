@@ -1,14 +1,19 @@
 ---
-Description: 'Internal consistency evaluators, also called ICEs, are custom actions written in VBScript, JScript, or as a DLL or EXE.'
-ms.assetid: '0789103d-ae34-46be-a9fb-093e066d6d4b'
-title: 'Internal Consistency Evaluators - ICEs'
+Description: Internal consistency evaluators, also called ICEs, are custom actions written in VBScript, JScript, or as a DLL or EXE.
+ms.assetid: 0789103d-ae34-46be-a9fb-093e066d6d4b
+title: Internal Consistency Evaluators - ICEs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internal Consistency Evaluators - ICEs
 
-Internal consistency evaluators, also called ICEs, are custom actions written in VBScript, JScript, or as a DLL or EXE. When these custom actions are executed, they scan the database for entries in database records that are valid when examined individually but that may cause incorrect behavior in the context of the whole database. Note that this is different than the validation done on individual records using [**MsiViewModify**](msiviewmodify.md).
+Internal consistency evaluators, also called ICEs, are custom actions written in VBScript, JScript, or as a DLL or EXE. When these custom actions are executed, they scan the database for entries in database records that are valid when examined individually but that may cause incorrect behavior in the context of the whole database. Note that this is different than the validation done on individual records using [**MsiViewModify**](/windows/win32/Msiquery/nf-msiquery-msiviewmodify?branch=master).
 
-For example, the [Component table](component-table.md) may list several components that are all valid when tested individually with [**MsiViewModify**](msiviewmodify.md). However, **MsiViewModify** would not catch the error when two components use the same [GUID](guid.md) as their component code. The custom action [ICE08](ice08.md) is designed to validate that the Component table does not contain duplicate component code GUIDs.
+For example, the [Component table](component-table.md) may list several components that are all valid when tested individually with [**MsiViewModify**](/windows/win32/Msiquery/nf-msiquery-msiviewmodify?branch=master). However, **MsiViewModify** would not catch the error when two components use the same [GUID](guid.md) as their component code. The custom action [ICE08](ice08.md) is designed to validate that the Component table does not contain duplicate component code GUIDs.
 
 ICE custom actions return four kinds of messages:
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The following example shows how a thread initializes, enters, and releases a critical section. It uses the InitializeCriticalSectionAndSpinCount, EnterCriticalSection, LeaveCriticalSection, and DeleteCriticalSection functions.'
-ms.assetid: '3c96414b-97e7-4ebb-a629-bfdb7a77c576'
+Description: The following example shows how a thread initializes, enters, and releases a critical section. It uses the InitializeCriticalSectionAndSpinCount, EnterCriticalSection, LeaveCriticalSection, and DeleteCriticalSection functions.
+ms.assetid: 3c96414b-97e7-4ebb-a629-bfdb7a77c576
 title: Using Critical Section Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Critical Section Objects
 
-The following example shows how a thread initializes, enters, and releases a [critical section](critical-section-objects.md). It uses the [**InitializeCriticalSectionAndSpinCount**](initializecriticalsectionandspincount.md), [**EnterCriticalSection**](entercriticalsection.md), [**LeaveCriticalSection**](leavecriticalsection.md), and [**DeleteCriticalSection**](deletecriticalsection.md) functions.
+The following example shows how a thread initializes, enters, and releases a [critical section](critical-section-objects.md). It uses the [**InitializeCriticalSectionAndSpinCount**](/windows/win32/WinBase/nf-synchapi-initializecriticalsectionandspincount?branch=master), [**EnterCriticalSection**](/windows/win32/WinBase/nf-synchapi-entercriticalsection?branch=master), [**LeaveCriticalSection**](/windows/win32/WinBase/nf-synchapi-leavecriticalsection?branch=master), and [**DeleteCriticalSection**](/windows/win32/WinBase/nf-synchapi-deletecriticalsection?branch=master) functions.
 
 ``` syntax
 // Global variable

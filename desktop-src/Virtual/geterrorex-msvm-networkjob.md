@@ -1,8 +1,11 @@
 ---
 title: GetErrorEx method of the Msvm\_NetworkJob class
 description: When the job is executing or has terminated without error, then this method returns no Msvm\_Error instance.
-ms.assetid: 'af2f23ed-026c-4154-b910-53aefc2cb71c'
-keywords: ["GetErrorEx method Hyper-V", "GetErrorEx method Hyper-V , Msvm_NetworkJob class", "Msvm_NetworkJob class Hyper-V , GetErrorEx method"]
+ms.assetid: af2f23ed-026c-4154-b910-53aefc2cb71c
+keywords:
+- GetErrorEx method Hyper-V
+- GetErrorEx method Hyper-V , Msvm_NetworkJob class
+- Msvm_NetworkJob class Hyper-V , GetErrorEx method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetErrorEx method of the Msvm\_NetworkJob class
@@ -22,7 +30,7 @@ When the job is executing or has terminated without error, then this method retu
 
 ```mof
 uint32 GetErrorEx(
-  [out] string Errors[]
+  [out] string Errors[]
 );
 ```
 
@@ -96,9 +104,9 @@ Access to the [**Msvm\_NetworkJob**](msvm-networkjob.md) class might be restrict
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -111,9 +119,9 @@ Access to the [**Msvm\_NetworkJob**](msvm-networkjob.md) class might be restrict
 [**Msvm\_NetworkJob**](msvm-networkjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow Close method
 description: Closes a Messenger window. If the window is a conversation window, terminates any sessions contained in it.
-ms.assetid: '8231ab48-f4fa-4ade-9b04-67f9dd6ed282'
-keywords: ["Close method Windows Messenger", "Close method Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , Close method"]
+ms.assetid: 8231ab48-f4fa-4ade-9b04-67f9dd6ed282
+keywords:
+- Close method Windows Messenger
+- Close method Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , Close method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::Close method
 
-\[**Close** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Close** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Closes a Messenger window. If the window is a conversation window, terminates any sessions contained in it.
 
@@ -48,7 +56,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +70,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 Windows that are being closed while some actions are still in progress may return confirmation dialog boxes to the user, which will hang up the application until the user responds.
 
@@ -71,7 +79,7 @@ Closing the main application window effectively "knocks it into the tray." The o
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -111,9 +119,9 @@ End Sub
 [**IsClosed**](im-imessengerwindow-isclosed.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

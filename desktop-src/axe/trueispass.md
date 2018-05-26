@@ -1,14 +1,20 @@
 ---
 title: TrueIsPass element
 description: Indicates that the MetricValue is considered to pass if its boolean value is true.
-ms.assetid: 'FFB16A4C-6429-4533-B3C4-882C06E84AE1'
-keywords: ["TrueIsPass element Access Execution Engine"]
+ms.assetid: FFB16A4C-6429-4533-B3C4-882C06E84AE1
+keywords:
+- TrueIsPass element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - TrueIsPass
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TrueIsPass element

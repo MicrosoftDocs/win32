@@ -1,7 +1,12 @@
 ---
-Description: 'Explains the procedure used for storing a session key.'
-ms.assetid: '9ab7f747-9c69-40b5-af78-163f3ba315bf'
+Description: Explains the procedure used for storing a session key.
+ms.assetid: 9ab7f747-9c69-40b5-af78-163f3ba315bf
 title: Procedure for Storing a Session Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Procedure for Storing a Session Key
@@ -13,10 +18,10 @@ title: Procedure for Storing a Session Key
 
 **To store a session key**
 
-1.  Create a simple [*key BLOB*](security.k_gly#-security-key-blob-gly) by using the [**CryptExportKey**](cryptexportkey.md) function. This will transfer the session key from the CSP to an application's memory space. Specify that an exchange public key be used to sign the key BLOB.
+1.  Create a simple [*key BLOB*](security.k_gly#-security-key-blob-gly) by using the [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master) function. This will transfer the session key from the CSP to an application's memory space. Specify that an exchange public key be used to sign the key BLOB.
 2.  Store the signed key BLOB to disk. It is assumed that all disks are nonsecure.
 3.  When the key is needed, read the key BLOB from disk.
-4.  Import the key BLOB back into the CSP by using the [**CryptImportKey**](cryptimportkey.md) function.
+4.  Import the key BLOB back into the CSP by using the [**CryptImportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptimportkey?branch=master) function.
 
 For an example of creating a [*session key*](security.s_gly#-security-session-key-gly) and exporting that key to a [*simple key BLOB*](security.s_gly#-security-simple-key-blob-gly) that can be written to a disk file, see [Example C Program: Exporting a Session Key](example-c-program-exporting-a-session-key.md).
 

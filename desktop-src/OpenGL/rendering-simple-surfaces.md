@@ -1,8 +1,25 @@
 ---
 title: Rendering Simple Surfaces
 description: The GLU library includes a set of functions for drawing various simple surfaces (spheres, cylinders, disks, and parts of disks) in a variety of styles and orientations. These functions are described in detail in the OpenGL Reference Manual.
-ms.assetid: '403bdf8d-de4c-49e2-87d0-11109061b4c2'
-keywords: ["OpenGL Utility (GLU),simple surfaces", "GLU (OpenGL Utility),simple surfaces", "simple surfaces OpenGL", "OpenGL Utility (GLU),spheres", "GLU (OpenGL Utility),spheres", "spheres OpenGL", "OpenGL Utility (GLU),cylinders", "GLU (OpenGL Utility),cylinders", "cylinders OpenGL", "OpenGL Utility (GLU),disks", "GLU (OpenGL Utility),disks", "disks OpenGL"]
+ms.assetid: 403bdf8d-de4c-49e2-87d0-11109061b4c2
+keywords:
+- OpenGL Utility (GLU),simple surfaces
+- GLU (OpenGL Utility),simple surfaces
+- simple surfaces OpenGL
+- OpenGL Utility (GLU),spheres
+- GLU (OpenGL Utility),spheres
+- spheres OpenGL
+- OpenGL Utility (GLU),cylinders
+- GLU (OpenGL Utility),cylinders
+- cylinders OpenGL
+- OpenGL Utility (GLU),disks
+- GLU (OpenGL Utility),disks
+- disks OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering Simple Surfaces

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a list of script commands and the parameters for an Advanced Systems Format (ASF) file. This attribute corresponds to the Script Command Object in the ASF header, defined in the ASF specification.'
-ms.assetid: 'c85c9da4-f0b5-4055-a645-2a71cabbe4a3'
-title: 'MF\_PD\_ASF\_SCRIPT attribute'
+---
+Description: Specifies a list of script commands and the parameters for an Advanced Systems Format (ASF) file. This attribute corresponds to the Script Command Object in the ASF header, defined in the ASF specification.
+ms.assetid: c85c9da4-f0b5-4055-a645-2a71cabbe4a3
+title: MF\_PD\_ASF\_SCRIPT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_SCRIPT attribute
@@ -16,7 +21,7 @@ Byte array
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method creates the presentation descriptor and generates this attribute from the Script Command Object header. The following table shows the format of the blob:
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method creates the presentation descriptor and generates this attribute from the Script Command Object header. The following table shows the format of the blob:
 
 
 
@@ -64,13 +69,13 @@ The first **DWORD** is the number of script commands, followed by an array of co
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

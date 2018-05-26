@@ -1,7 +1,12 @@
 ---
-Description: 'The CallWorker method signals the thread with a request.'
-ms.assetid: '51431688-bf55-4778-afc0-91b6ab336aa3'
-title: 'CAMThread.CallWorker method'
+Description: The CallWorker method signals the thread with a request.
+ms.assetid: 51431688-bf55-4778-afc0-91b6ab336aa3
+title: CAMThread.CallWorker method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.CallWorker method
@@ -13,7 +18,7 @@ The `CallWorker` method signals the thread with a request.
 
 ```C++
 DWORD CallWorker(
-   DWORD dwParam
+   DWORD dwParam
 );
 ```
 
@@ -60,9 +65,9 @@ This method holds the [**CAMThread::m\_AccessLock**](camthread-m-accesslock.md) 
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Template data type is a text string that may contain properties that are enclosed in brackets \[ \]. The template type allows all of the Formatted type formats, plus \[1\] where 1 is a number.'
-ms.assetid: '17790b20-bee7-43ac-acc9-9fce8249b81a'
+Description: The Template data type is a text string that may contain properties that are enclosed in brackets \[ \]. The template type allows all of the Formatted type formats, plus \[1\] where 1 is a number.
+ms.assetid: 17790b20-bee7-43ac-acc9-9fce8249b81a
 title: Template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Template

@@ -1,8 +1,9 @@
 ---
 title: TVN\_SINGLEEXPAND notification code
 description: Sent by a tree-view control with the TVS\_SINGLEEXPAND style when the user opens or closes a tree item using a single click of the mouse. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ae738237-172a-400b-b9fe-33832224e299'
-keywords: ["TVN_SINGLEEXPAND notification code Windows Controls"]
+ms.assetid: ae738237-172a-400b-b9fe-33832224e299
+keywords:
+- TVN_SINGLEEXPAND notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_SINGLEEXPAND notification code
@@ -33,7 +39,7 @@ TVN_SINGLEEXPAND
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](nmtreeview.md) structure that contains information about this notification code.
+Pointer to an [**NMTREEVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmtreeviewa?branch=master) structure that contains information about this notification code.
 
 </dd> </dl>
 
@@ -50,7 +56,7 @@ Return TVNRET\_DEFAULT to allow the default behavior to occur. To modify the def
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,15 +70,15 @@ This notification code is only sent by tree-view controls that have the [**TVS\_
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Supporting Multiple Security Domains
 description: Supporting Multiple Security Domains
-ms.assetid: '1ec6fdfb-3671-4e1e-bd3a-a4cbdbfe9f09'
+ms.assetid: 1ec6fdfb-3671-4e1e-bd3a-a4cbdbfe9f09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting Multiple Security Domains

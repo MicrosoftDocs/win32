@@ -2,7 +2,12 @@
 title: V
 description: IrDA glossary terms beginning with V.
 Robots: noindex, nofollow
-ms.assetid: '72166a78-d406-48cb-a855-bd8e1cf37717'
+ms.assetid: 72166a78-d406-48cb-a855-bd8e1cf37717
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # V

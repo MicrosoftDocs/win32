@@ -1,15 +1,32 @@
 ---
 title: Getting and Setting Metadata and Attributes
 description: Getting and Setting Metadata and Attributes
-ms.assetid: '83534998-4e7d-49b6-a160-ef9a0ddea5db'
-keywords: ["Windows Media Device Manager,attributes", "Device Manager,attributes", "desktop applications,attributes", "service providers,attributes", "programming guide,attributes", "attributes", "Windows Media Device Manager,metadata", "Device Manager,metadata", "desktop applications,metadata", "service providers,metadata", "programming guide,metadata", "metadata"]
+ms.assetid: 83534998-4e7d-49b6-a160-ef9a0ddea5db
+keywords:
+- Windows Media Device Manager,attributes
+- Device Manager,attributes
+- desktop applications,attributes
+- service providers,attributes
+- programming guide,attributes
+- attributes
+- Windows Media Device Manager,metadata
+- Device Manager,metadata
+- desktop applications,metadata
+- service providers,metadata
+- programming guide,metadata
+- metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting and Setting Metadata and Attributes
 
-An application can get two kinds of information about a storage or device: attributes and metadata. Attributes are simpler Boolean values that generally describe file system information, such as whether a storage has child objects, whether it can be renamed, read, or deleted, and so on. Attributes are retrieved as flags values by calling [**IWMDMStorage::GetAttributes**](iwmdmstorage-getattributes.md) or [**IWMDMStorage2::GetAttributes2**](iwmdmstorage2-getattributes2.md). Attributes are set by calling [**IWMDMStorage3::SetMetadata**](iwmdmstorage3-setmetadata.md).
+An application can get two kinds of information about a storage or device: attributes and metadata. Attributes are simpler Boolean values that generally describe file system information, such as whether a storage has child objects, whether it can be renamed, read, or deleted, and so on. Attributes are retrieved as flags values by calling [**IWMDMStorage::GetAttributes**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getattributes?branch=master) or [**IWMDMStorage2::GetAttributes2**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2?branch=master). Attributes are set by calling [**IWMDMStorage3::SetMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata?branch=master).
 
-An application can also request more complex data (numeric, string, or other data types) as *metadata*. Metadata values are identified by unique string names. Windows Media Device Manager defines a list of string constants that can be used to request values; these defined values are listed in [Metadata Constants](metadata-constants.md). A service provider can define its own constants, but a calling application must be aware of these definitions in order to request or set these custom metadata values. The application requests metadata by calling [**IWMDMStorage3::GetMetadata**](iwmdmstorage3-getmetadata.md) or [**IWMDMStorage4::GetSpecifiedMetadata**](iwmdmstorage4-getspecifiedmetadata.md).
+An application can also request more complex data (numeric, string, or other data types) as *metadata*. Metadata values are identified by unique string names. Windows Media Device Manager defines a list of string constants that can be used to request values; these defined values are listed in [Metadata Constants](metadata-constants.md). A service provider can define its own constants, but a calling application must be aware of these definitions in order to request or set these custom metadata values. The application requests metadata by calling [**IWMDMStorage3::GetMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata?branch=master) or [**IWMDMStorage4::GetSpecifiedMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata?branch=master).
 
 An important aspect of getting and setting metadata and attributes is understanding where the retrieved values come from. The service provider or the device can get these values from many different places, including the following:
 

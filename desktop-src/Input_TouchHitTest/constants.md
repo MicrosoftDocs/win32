@@ -1,8 +1,17 @@
 ---
 title: Constants
 description: The topics in this section provide the reference specifications for Touch Hit Testing constants.
-ms.assetid: '43136C6C-89B8-4D37-9D7E-22518069B173'
-keywords: ["user interaction", "input", "pointer", "touch"]
+ms.assetid: 43136C6C-89B8-4D37-9D7E-22518069B173
+keywords:
+- user interaction
+- input
+- pointer
+- touch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants
@@ -20,7 +29,7 @@ The topics in this section provide the reference specifications for [Touch Hit T
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +38,9 @@ The topics in this section provide the reference specifications for [Touch Hit T
 [Touch Hit Testing Reference](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

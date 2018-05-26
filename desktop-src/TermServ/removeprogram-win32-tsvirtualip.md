@@ -4,11 +4,14 @@ description: Removes a program from the list of programs that use IP virtualizat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2a8069a0-2c48-40d3-a850-0cdfce4fbc82'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2a8069a0-2c48-40d3-a850-0cdfce4fbc82
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoveProgram method Remote Desktop Services", "RemoveProgram method Remote Desktop Services , Win32_TSVirtualIP class", "Win32_TSVirtualIP class Remote Desktop Services , RemoveProgram method"]
+keywords:
+- RemoveProgram method Remote Desktop Services
+- RemoveProgram method Remote Desktop Services , Win32_TSVirtualIP class
+- Win32_TSVirtualIP class Remote Desktop Services , RemoveProgram method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveProgram method of the Win32\_TSVirtualIP class
@@ -28,7 +34,7 @@ Removes a program from the list of programs that use IP virtualization.
 
 ```mof
 uint32 RemoveProgram(
-  [in] string ProgramPath
+  [in] string ProgramPath
 );
 ```
 
@@ -60,7 +66,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | Header<br/>                   | <dl> <dt>Bdaiface.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
@@ -75,9 +81,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TSVirtualIP**](win32-tsvirtualip.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

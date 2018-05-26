@@ -4,13 +4,16 @@ description: Creates a snapshot of a virtual system collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '929fc76a-baf2-44bb-98f4-6d3784beacb0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 929fc76a-baf2-44bb-98f4-6d3784beacb0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateSnapshot method", "CreateSnapshot method, Msvm_CollectionSnapshotService class", "Msvm_CollectionSnapshotService class, CreateSnapshot method"]
+keywords:
+- CreateSnapshot method
+- CreateSnapshot method, Msvm_CollectionSnapshotService class
+- Msvm_CollectionSnapshotService class, CreateSnapshot method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateSnapshot method of the Msvm\_CollectionSnapshotService class
@@ -30,11 +36,11 @@ Creates a snapshot of a virtual system collection.
 
 ```mof
 uint32 CreateSnapshot(
-  [in]      CIM_CollectionOfMSEs REF Collection,
-  [in]      string                   SnapshotSettings,
-  [in]      uint16                   SnapshotType,
-  [in, out] CIM_Collection       REF ResultingSnapshotCollection,
-  [out]     CIM_ConcreteJob      REF Job
+  [in]      CIM_CollectionOfMSEs REF Collection,
+  [in]      string                   SnapshotSettings,
+  [in]      uint16                   SnapshotType,
+  [in, out] CIM_Collection       REF ResultingSnapshotCollection,
+  [out]     CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -93,14 +99,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *ResultingSnapshotCollection* \[in, out\]
 </dt> <dd>
@@ -143,16 +149,16 @@ The possible return values are:
 **Invalid Type** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -162,7 +168,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Dbdaoint.h</dt> </dl>                  |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
@@ -177,9 +183,9 @@ The possible return values are:
 [**Msvm\_CollectionSnapshotService**](msvm-collectionsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

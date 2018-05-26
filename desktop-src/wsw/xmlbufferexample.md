@@ -1,8 +1,16 @@
 ---
 title: XmlBufferExample
 description: This example shows some use of the xml buffer APIs.
-ms.assetid: 'cf4530c7-48f4-4a76-bd3d-1f21b5469902'
-keywords: ["XmlBufferExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: cf4530c7-48f4-4a76-bd3d-1f21b5469902
+keywords:
+- XmlBufferExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XmlBufferExample

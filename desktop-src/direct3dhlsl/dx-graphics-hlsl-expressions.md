@@ -1,7 +1,12 @@
 ---
 title: Expressions
 description: An expression is a sequence of variables and literals, punctuated by operators. A literal is an explicit data value, such as 1 for an integer or 2.1 for a floating-point number. Literals are often used to assign a value to a variable.
-ms.assetid: 'b9ba1c1f-3338-45f3-9901-38eaf00278cc'
+ms.assetid: b9ba1c1f-3338-45f3-9901-38eaf00278cc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Expressions

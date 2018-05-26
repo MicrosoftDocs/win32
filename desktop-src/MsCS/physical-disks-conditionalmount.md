@@ -4,22 +4,27 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '847c4fd1-2de3-40eb-b0a0-cf5d26ba2ecf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 847c4fd1-2de3-40eb-b0a0-cf5d26ba2ecf
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ConditionalMount Failover Cluster ,for physical disks", "ConditionalMount Failover Cluster"]
+keywords:
+- ConditionalMount Failover Cluster ,for physical disks
+- ConditionalMount Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ConditionalMount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConditionalMount
 
-\[The **ConditionalMount** property is no longer available for use as of Windows Server 2012. Instead, use the [**DiskRunChkDsk**](diskrunchkdsk.md) property.\]
+\[The **ConditionalMount** property is no longer available for use as of Windows Server 2012. Instead, use the [**DiskRunChkDsk**](diskrunchkdsk.md) property.\]
 
 This property is not supported.
 
@@ -30,14 +35,14 @@ This property is not supported.
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE** (0) always mount the disk       |
 | Maximum   | **TRUE** (1) conditionally mount the disk |
 | Default   | **TRUE**                                  |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +61,7 @@ The following table summarizes the interaction between [**SkipChkdsk**](physical
 
 
 
- 
+ 
 
 Forcing a disk to mount despite errors can result in loss of data. Use caution when changing these properties.
 
@@ -83,8 +88,8 @@ ConditionalMountValue.dw        = ConditionalMountData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -95,9 +100,9 @@ ConditionalMountValue.dw        = ConditionalMountData;
 [**SkipChkdsk**](physical-disks-skipchkdsk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Not supported.'
-ms.assetid: '4629b626-c511-4a1e-a647-06554869891a'
-title: 'IRenderEngine::DoSmartRecompression method'
+Description: Not supported.
+ms.assetid: 4629b626-c511-4a1e-a647-06554869891a
+title: IRenderEngineDoSmartRecompression method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::DoSmartRecompression method

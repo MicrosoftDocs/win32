@@ -1,7 +1,12 @@
 ---
 title: Creating an Index for a Web Site
 description: Creating an index for use as a navigational aid on a Web site is similar to creating an index for use in a compiled help file. This procedure describes the extra steps you must take to make the index usable over the Web.
-ms.assetid: '92D669A0-0BB2-4a37-BC19-6F466C23A0B0'
+ms.assetid: 92D669A0-0BB2-4a37-BC19-6F466C23A0B0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Index for a Web Site
@@ -20,7 +25,7 @@ Creating an index for use as a navigational aid on a Web site is similar to crea
 
     
 
-     
+     
 
 4.  In the **Specify the command** box, click **Index**, and then follow the instructions on your screen.
 
@@ -37,9 +42,9 @@ Creating an index for use as a navigational aid on a Web site is similar to crea
 [About Creating Index Files](create-an-index-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

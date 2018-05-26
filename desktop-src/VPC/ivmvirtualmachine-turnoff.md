@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine TurnOff method
 description: Turns off the virtual machine.
-ms.assetid: '4ea00314-8f1e-47d9-bbb8-b5791af1fb86'
-keywords: ["TurnOff method Virtual PC", "TurnOff method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , TurnOff method"]
+ms.assetid: 4ea00314-8f1e-47d9-bbb8-b5791af1fb86
+keywords:
+- TurnOff method Virtual PC
+- TurnOff method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , TurnOff method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::TurnOff method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Turns off the virtual machine.
 
@@ -24,7 +32,7 @@ Turns off the virtual machine.
 
 ```C++
 HRESULT TurnOff(
-  [out, retval] IVMTask **turnOffTask
+  [out, retval] IVMTask **turnOffTask
 );
 ```
 
@@ -58,7 +66,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +78,9 @@ This method turns off the virtual machine in the same manner as turning the powe
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -86,9 +94,9 @@ This method turns off the virtual machine in the same manner as turning the powe
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases a protected output object.'
-ms.assetid: 'e9b09fd7-9db2-4189-b347-55f5fede2f80'
+---
+Description: Releases a protected output object.
+ms.assetid: e9b09fd7-9db2-4189-b347-55f5fede2f80
 title: DestroyOPMProtectedOutput function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroyOPMProtectedOutput function

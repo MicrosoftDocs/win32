@@ -1,8 +1,29 @@
 ---
 title: Programming Reference
 description: Programming Reference
-ms.assetid: '585e1dc4-8b79-4306-b2c7-3b04723ca24c'
-keywords: ["Windows Media Format SDK,DRM Client Extended APIs", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,Extended APIs", "Windows Media Format SDK,APIs", "Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,programming reference", "digital rights management (DRM),Client Extended APIs", "DRM (digital rights management),Client Extended APIs", "digital rights management (DRM),Extended APIs", "DRM (digital rights management),Extended APIs", "digital rights management (DRM),APIs", "DRM (digital rights management),APIs", "digital rights management (DRM),programming reference", "DRM (digital rights management),programming reference", "DRM Client Extended APIs,programming reference", "Client Extended APIs,programming reference"]
+ms.assetid: 585e1dc4-8b79-4306-b2c7-3b04723ca24c
+keywords:
+- Windows Media Format SDK,DRM Client Extended APIs
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,Extended APIs
+- Windows Media Format SDK,APIs
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,programming reference
+- digital rights management (DRM),Client Extended APIs
+- DRM (digital rights management),Client Extended APIs
+- digital rights management (DRM),Extended APIs
+- DRM (digital rights management),Extended APIs
+- digital rights management (DRM),APIs
+- DRM (digital rights management),APIs
+- digital rights management (DRM),programming reference
+- DRM (digital rights management),programming reference
+- DRM Client Extended APIs,programming reference
+- Client Extended APIs,programming reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Reference

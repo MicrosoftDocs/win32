@@ -1,7 +1,12 @@
 ---
 title: MaxCatalogs
 description: MaxCatalogs
-ms.assetid: '7d592253-78a9-4671-b5b9-0cf3f197e1e9'
+ms.assetid: 7d592253-78a9-4671-b5b9-0cf3f197e1e9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxCatalogs

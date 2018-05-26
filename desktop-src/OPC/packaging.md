@@ -1,12 +1,17 @@
 ---
 title: Packaging
 description: This topic describes the Packaging APIs, which provide support for applications that produce or consume Open Packaging Conventions \ 8211;compliant files, called packages.
-ms.assetid: '77df9cb2-757e-4b07-9c1c-73af0df4702f'
+ms.assetid: 77df9cb2-757e-4b07-9c1c-73af0df4702f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging
 
-This topic describes the Packaging APIs, which provide support for applications that produce or consume Open Packaging Conventions–compliant files, called packages.
+This topic describes the Packaging APIs, which provide support for applications that produce or consume Open Packaging Conventions compliant files, called packages.
 
 This topic contains the following sections.
 
@@ -20,15 +25,15 @@ This topic contains the following sections.
 
 ## Purpose
 
-The Windows 7 Packaging feature is a set of COM-based API that provides support for accessing, modifying, and saving packages by using C and C++.
+The Windows 7 Packaging feature is a set of COM-based API that provides support for accessing, modifying, and saving packages by using C and C++.
 
 ## What is Packaging?
 
-Packaging can be more easily understood through an analogy with real–world filing systems. People and businesses need to organize their information. Often, this information is tracked by using paperwork that is stored in folders, which are, in turn, stored in filing cabinets. For each person and business, someone had to design a system that would allow information to be quickly accessed when needed.
+Packaging can be more easily understood through an analogy with real world filing systems. People and businesses need to organize their information. Often, this information is tracked by using paperwork that is stored in folders, which are, in turn, stored in filing cabinets. For each person and business, someone had to design a system that would allow information to be quickly accessed when needed.
 
 A personalized filing system provides great advantages for someone who understands how the system works, but when someone new needs to access the system, how do they know where to find the information that they need? Suddenly, the personalized filing system becomes less convenient. Applications face similar challenges in organizing data: what information is most important and how can developers ensure that it is easily accessible?
 
-The *ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)* specification provides an answer to this question. A package, as described in the *OPC*, enables different applications to access key information from an OPC–based file in a standardized way. A package resembles a filing cabinet whose basic organization is known to all the people and businesses that interact with it.
+The *ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)* specification provides an answer to this question. A package, as described in the *OPC*, enables different applications to access key information from an OPC based file in a standardized way. A package resembles a filing cabinet whose basic organization is known to all the people and businesses that interact with it.
 
 Examples of ZIP-based package formats include:
 
@@ -58,7 +63,7 @@ To use the Packaging API, you must have a practical understanding of the technol
 
 
 
- 
+ 
 
 ## Additional Resources and Related Technologies
 
@@ -75,7 +80,7 @@ Although not required to use the Packaging API, knowledge of the following techn
 
 
 
- 
+ 
 
 ## Section Contents
 
@@ -83,14 +88,14 @@ Although not required to use the Packaging API, knowledge of the following techn
 
 | Topic                                                              | Description                                                                                                                                        |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Packaging API Programming Guide](packaging-programming-guide.md) | This section contains conceptual topics that describe how to use the Windows 7 Packaging APIs.                                                     |
+| [Packaging API Programming Guide](packaging-programming-guide.md) | This section contains conceptual topics that describe how to use the Windows 7 Packaging APIs.                                                     |
 | [Packaging API Reference](packaging-programming-reference.md)     | The topics in this section provide information about the Packaging APIs.                                                                           |
-| [Packaging API Samples](packaging-programming-samples.md)         | The topics in this section briefly describe the sample programs that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7. |
+| [Packaging API Samples](packaging-programming-samples.md)         | The topics in this section briefly describe the sample programs that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7. |
 | [*Packaging API Glossary*](packaging-glossary.md)                 | This topic provides definitions for Packaging API terms.                                                                                           |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -108,9 +113,9 @@ Although not required to use the Packaging API, knowledge of the following techn
 [ECMA-376 OpenXML](http://go.microsoft.com/fwlink/p/?linkid=123375)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

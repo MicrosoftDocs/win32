@@ -4,11 +4,20 @@ description: Common properties for groupsets are data values stored in the clust
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1EF21AA6-4F3C-47FF-81D3-F1E2DF0AAC6F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1EF21AA6-4F3C-47FF-81D3-F1E2DF0AAC6F
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["groupset properties Failover Cluster", "groupset properties Failover Cluster , common", "properties Failover Cluster ,groupset properties", "properties Failover Cluster ,groupset properties, common", "groupset Failover Cluster ,properties", "groupset Failover Cluster ,properties, common"]
+keywords:
+- groupset properties Failover Cluster
+- groupset properties Failover Cluster , common
+- properties Failover Cluster ,groupset properties
+- properties Failover Cluster ,groupset properties, common
+- groupset Failover Cluster ,properties
+- groupset Failover Cluster ,properties, common
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Groupset Common Properties

@@ -1,14 +1,19 @@
 ---
 title: Columns Count property
-description: The Count property returns the number of Column objects that are in the Columns collection. Hidden columns are included in the collection's count. This property is read-only.
+description: The Count property returns the number of Column objects that are in the Columns collection. Hidden columns are included in the collections count. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab0c7902-6dc0-4055-b92e-24b46d83e8f6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ab0c7902-6dc0-4055-b92e-24b46d83e8f6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Count property MMC", "Count property MMC , Columns object", "Columns object MMC , Count property", "Count property MMC , Columns interface", "Columns interface MMC , Count property"]
+keywords:
+- Count property MMC
+- Count property MMC , Columns object
+- Columns object MMC , Count property
+- Count property MMC , Columns interface
+- Columns interface MMC , Count property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Columns::Count property
@@ -54,8 +62,8 @@ nCols = objCols.Count
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -70,9 +78,9 @@ nCols = objCols.Count
 [**Columns.Item**](columns-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

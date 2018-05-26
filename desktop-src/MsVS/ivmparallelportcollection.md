@@ -1,8 +1,10 @@
 ---
 title: IVMParallelPortCollection interface
 description: The IVMParallelPortCollection interface defines the collection of parallel ports within the virtual machine. An IVMParallelPortCollection object is returned from the IVMVirtualMachine ParallelPorts property.
-ms.assetid: 'e9a81900-7285-4588-a743-f3c99c2fd8fd'
-keywords: ["IVMParallelPortCollection interface Virtual Server", "IVMParallelPortCollection interface Virtual Server , described"]
+ms.assetid: e9a81900-7285-4588-a743-f3c99c2fd8fd
+keywords:
+- IVMParallelPortCollection interface Virtual Server
+- IVMParallelPortCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMParallelPortCollection interface
@@ -37,7 +44,7 @@ The **IVMParallelPortCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,15 +52,15 @@ The **IVMParallelPortCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

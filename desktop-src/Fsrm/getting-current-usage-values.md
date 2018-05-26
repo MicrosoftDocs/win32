@@ -4,11 +4,17 @@ description: The following example shows how to get the usage and peak usage val
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7b755410-5520-4933-8859-9c201cbd13eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 7b755410-5520-4933-8859-9c201cbd13eb
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , getting current usage values", "usage values File Server Resource Manager", "peak usage values File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , getting current usage values
+- usage values File Server Resource Manager
+- peak usage values File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Current Usage Values

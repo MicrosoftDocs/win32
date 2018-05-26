@@ -1,7 +1,12 @@
 ---
-Description: 'The system broadcasts the DBT\_DEVICEREMOVECOMPLETE device event when a device or piece of media has been physically removed.'
-ms.assetid: 'e25d35b9-f8f1-4850-996c-e1cb393cca66'
-title: 'DBT\_DEVICEREMOVECOMPLETE event'
+Description: The system broadcasts the DBT\_DEVICEREMOVECOMPLETE device event when a device or piece of media has been physically removed.
+ms.assetid: e25d35b9-f8f1-4850-996c-e1cb393cca66
+title: DBT\_DEVICEREMOVECOMPLETE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBT\_DEVICEREMOVECOMPLETE event
@@ -50,7 +55,7 @@ Set to DBT\_DEVICEREMOVECOMPLETE
 *lParam* 
 </dt> <dd>
 
-A pointer to a structure identifying the device removed. The structure consists of an event-independent header, followed by event-dependent members that describe the device. To use this structure, treat the structure as a [**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md) structure, then check its **dbch\_devicetype** member to determine the device type.
+A pointer to a structure identifying the device removed. The structure consists of an event-independent header, followed by event-dependent members that describe the device. To use this structure, treat the structure as a [**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master) structure, then check its **dbch\_devicetype** member to determine the device type.
 
 </dd> </dl>
 
@@ -74,8 +79,8 @@ For an example, see [Detecting Media Insertion or Removal](detecting-media-inser
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
+| Minimum supported client<br/> | Windows XP<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Dbt.h</dt> </dl> |
 
 
@@ -90,15 +95,15 @@ For an example, see [Detecting Media Insertion or Removal](detecting-media-inser
 [Device Management Events](device-management-events.md)
 </dt> <dt>
 
-[**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md)
+[**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master)
 </dt> <dt>
 
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

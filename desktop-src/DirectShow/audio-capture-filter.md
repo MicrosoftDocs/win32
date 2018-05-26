@@ -1,7 +1,12 @@
 ---
 Description: Audio Capture Filter
-ms.assetid: 'ff345670-5a75-40d3-a228-8bc22aa76708'
+ms.assetid: ff345670-5a75-40d3-a228-8bc22aa76708
 title: Audio Capture Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Capture Filter
@@ -14,11 +19,11 @@ This filter can work with more than one hardware device, so calling CoCreateInst
 
 |                                          |                                                                                                                                                                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMAudioInputMixer**](iamaudioinputmixer.md), [**IAMFilterMiscFlags**](iamfiltermiscflags.md), [**IAMResourceControl**](iamresourcecontrol.md), [**IBaseFilter**](ibasefilter.md), IPersistPropertyBag, ISpecifyPropertyPages                                                               |
+| Filter Interfaces                        | [**IAMAudioInputMixer**](/windows/win32/Strmif/nn-strmif-iamaudioinputmixer?branch=master), [**IAMFilterMiscFlags**](/windows/win32/Strmif/nn-strmif-iamfiltermiscflags?branch=master), [**IAMResourceControl**](/windows/win32/Strmif/nn-strmif-iamresourcecontrol?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), IPersistPropertyBag, ISpecifyPropertyPages                                                               |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio, MEDIASUBTYPE\_NULL                                                                                                                                                                                                                                                         |
-| Input Pin Interfaces                     | [**IAMAudioInputMixer**](iamaudioinputmixer.md), [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                                                           |
+| Input Pin Interfaces                     | [**IAMAudioInputMixer**](/windows/win32/Strmif/nn-strmif-iamaudioinputmixer?branch=master), [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                                                           |
 | Output Pin Media Types                   | MEDIATYPE\_Audio, MEDIASUBTYPE\_NULL                                                                                                                                                                                                                                                               |
-| Output Pin Interfaces                    | [**IAMBufferNegotiation**](iambuffernegotiation.md), [**IAMPushSource**](iampushsource.md), [**IAMStreamConfig**](iamstreamconfig.md), [**IAMStreamControl**](iamstreamcontrol.md), [**IKsPropertySet**](ikspropertyset.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md) |
+| Output Pin Interfaces                    | [**IAMBufferNegotiation**](/windows/win32/Strmif/nn-strmif-iambuffernegotiation?branch=master), [**IAMPushSource**](/windows/win32/Strmif/nn-strmif-iampushsource?branch=master), [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master), [**IAMStreamControl**](/windows/win32/Strmif/nn-strmif-iamstreamcontrol?branch=master), [**IKsPropertySet**](ikspropertyset.md), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Filter CLSID                             | Not applicable                                                                                                                                                                                                                                                                                     |
 | Property Page CLSID                      | CLSID\_AudioInputMixerProperties                                                                                                                                                                                                                                                                   |
 | Executable                               | qcap.dll                                                                                                                                                                                                                                                                                           |

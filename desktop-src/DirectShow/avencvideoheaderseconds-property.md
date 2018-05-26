@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the starting second number in the group of pictures (GOP) header.'
-ms.assetid: '599964bd-a7d8-4cdd-82ce-d229b4b7ac72'
+Description: Specifies the starting second number in the group of pictures (GOP) header.
+ms.assetid: 599964bd-a7d8-4cdd-82ce-d229b4b7ac72
 title: AVEncVideoHeaderSeconds property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoHeaderSeconds property
@@ -28,8 +33,8 @@ The valid range of this property is 0 to 59, inclusive.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The valid range of this property is 0 to 59, inclusive.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

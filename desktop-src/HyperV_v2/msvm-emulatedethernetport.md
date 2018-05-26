@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an emulated Ethernet adapter.'
-ms.assetid: '8E990C76-7D48-42B0-BB4D-C4C07B1C482A'
-title: 'Msvm\_EmulatedEthernetPort class'
+Description: Represents an emulated Ethernet adapter.
+ms.assetid: 8E990C76-7D48-42B0-BB4D-C4C07B1C482A
+title: Msvm\_EmulatedEthernetPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EmulatedEthernetPort class
@@ -11,7 +16,7 @@ Represents an emulated Ethernet adapter. This adapter is used when a virtual mac
 > [!Note]  
 > This class is not available to generation 2 virtual machines.
 
- 
+ 
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -21,65 +26,65 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_EmulatedEthernetPort : CIM_EthernetPort
 {
-  string   InstanceID;
-  string   Caption = "Ethernet Port";
-  string   Description = "Microsoft Emulated Ethernet Port";
-  string   ElementName = "Legacy Network Adapter";
+  string   InstanceID;
+  string   Caption = "Ethernet Port";
+  string   Description = "Microsoft Emulated Ethernet Port";
+  string   ElementName = "Legacy Network Adapter";
   datetime InstallDate;
-  string   Name = "Ethernet Port";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Ethernet Port";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_EmulatedEthernetPort";
-  string   DeviceID = "Microsoft:GUID\device-specific data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint16   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint64   Speed = 1000000000;
-  uint64   MaxSpeed = 1000000000;
-  uint64   RequestedSpeed = 1000000000;
-  uint16   UsageRestriction = 4;
-  uint16   PortType = 1;
-  string   OtherPortType = "Virtual Ethernet";
-  string   OtherNetworkPortType;
-  uint16   PortNumber;
-  uint16   LinkTechnology = 2;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  string   NetworkAddresses[];
-  boolean  FullDuplex = True;
-  boolean  AutoSense = True;
-  string   SupportedMaximumTransmissionUnit = 1500;
-  uint64   ActiveMaximumTransmissionUnit = 1500;
-  uint32   MaxDataSize = 1500;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  uint16   EnabledCapabilities[];
-  string   OtherEnabledCapabilities[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_EmulatedEthernetPort";
+  string   DeviceID = "Microsoft:GUID\device-specific data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint16   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint64   Speed = 1000000000;
+  uint64   MaxSpeed = 1000000000;
+  uint64   RequestedSpeed = 1000000000;
+  uint16   UsageRestriction = 4;
+  uint16   PortType = 1;
+  string   OtherPortType = "Virtual Ethernet";
+  string   OtherNetworkPortType;
+  uint16   PortNumber;
+  uint16   LinkTechnology = 2;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  string   NetworkAddresses[];
+  boolean  FullDuplex = True;
+  boolean  AutoSense = True;
+  string   SupportedMaximumTransmissionUnit = 1500;
+  uint64   ActiveMaximumTransmissionUnit = 1500;
+  uint32   MaxDataSize = 1500;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  uint16   EnabledCapabilities[];
+  string   OtherEnabledCapabilities[];
 };
 ```
 
@@ -109,7 +114,7 @@ The **Msvm\_EmulatedEthernetPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -694,7 +699,7 @@ Network ports are often numbered relative to either a logical module or a networ
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -949,8 +954,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -967,9 +972,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_EthernetPort**](https://msdn.microsoft.com/library/mt446068)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

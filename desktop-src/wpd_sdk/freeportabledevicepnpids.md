@@ -1,20 +1,25 @@
 ---
-Description: 'Frees the Plug and Play (PnP) identifiers that are retrieved by the IPortableDeviceManager::GetDevices or IPortableDeviceServiceManager::GetDeviceServices methods.'
-ms.assetid: 'b86f7733-81a3-4b60-bb7c-840c75f8d03f'
+Description: Frees the Plug and Play (PnP) identifiers that are retrieved by the IPortableDeviceManagerGetDevices or IPortableDeviceServiceManagerGetDeviceServices methods.
+ms.assetid: b86f7733-81a3-4b60-bb7c-840c75f8d03f
 title: FreePortableDevicePnPIDs function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreePortableDevicePnPIDs function
 
-The **FreePortableDevicePnPIDs** helper function frees the Plug and Play (PnP) identifiers that are retrieved by the [**IPortableDeviceManager::GetDevices**](iportabledevicemanager-getdevices.md) or [**IPortableDeviceServiceManager::GetDeviceServices**](iportabledeviceservicemanager-getdeviceservices.md) methods.
+The **FreePortableDevicePnPIDs** helper function frees the Plug and Play (PnP) identifiers that are retrieved by the [**IPortableDeviceManager::GetDevices**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevices?branch=master) or [**IPortableDeviceServiceManager::GetDeviceServices**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceservices?branch=master) methods.
 
 ## Syntax
 
 
 ```C++
 void FreePortableDevicePnPIDs(
-   LPWSTR *pPnPIDs,
-   DWORD  cPnPIDs
+   LPWSTR *pPnPIDs,
+   DWORD  cPnPIDs
 );
 ```
 
@@ -74,15 +79,15 @@ if (pPnpDeviceIDs != NULL)
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                   |
 | Header<br/>                   | <dl> <dt>PortableDevice.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

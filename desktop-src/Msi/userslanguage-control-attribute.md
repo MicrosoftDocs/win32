@@ -1,7 +1,12 @@
 ---
-Description: 'If this bit flag is set, fonts are created using the user''s default UI code page. If the bit flag is not set, fonts are created using the database code page.'
-ms.assetid: '6a3dbabe-6a14-4401-b46c-e8a0bd0cbe63'
+Description: If this bit flag is set, fonts are created using the users default UI code page. If the bit flag is not set, fonts are created using the database code page.
+ms.assetid: 6a3dbabe-6a14-4401-b46c-e8a0bd0cbe63
 title: UsersLanguage Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UsersLanguage Control Attribute

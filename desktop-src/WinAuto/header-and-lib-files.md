@@ -1,7 +1,12 @@
 ---
 title: Header and Lib Files
 description: The following header and library files support the development of Microsoft Active Accessibility applications.
-ms.assetid: '825c551c-9a69-456e-b9a2-2c602814dc5b'
+ms.assetid: 825c551c-9a69-456e-b9a2-2c602814dc5b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header and Lib Files

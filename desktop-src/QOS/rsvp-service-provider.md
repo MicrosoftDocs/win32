@@ -1,8 +1,14 @@
 ---
 title: RSVP Service Provider
 description: The RSVP service provider (RSVP SP) is the name for the QOS component that invokes nearly all resulting QOS facilities.
-ms.assetid: 'abed6ad0-4023-4ddc-a469-390ad779bd93'
-keywords: ["Quality of Service QOS , described, RSVP service provider"]
+ms.assetid: abed6ad0-4023-4ddc-a469-390ad779bd93
+keywords:
+- Quality of Service QOS , described, RSVP service provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSVP Service Provider

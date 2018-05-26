@@ -4,17 +4,22 @@ description: The encryption algorithms supported by user, computer or trust acco
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6f9055a9-531e-4f4b-8703-aca5531a3bcb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6f9055a9-531e-4f4b-8703-aca5531a3bcb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Supported-Encryption-Types attribute AD Schema", "msDS-SupportedEncryptionTypes attribute AD Schema"]
+keywords:
+- ms-DS-Supported-Encryption-Types attribute AD Schema
+- msDS-SupportedEncryptionTypes attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Supported-Encryption-Types
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Supported-Encryption-Types attribute
@@ -24,7 +29,7 @@ The encryption algorithms supported by user, computer or trust accounts.
 > [!Note]  
 > The KDC uses this information while generating a service ticket for this account. Services and Computers can automatically update this attribute on their respective accounts in Active Directory, and therefore need write access to this attribute.
 
- 
+ 
 
 
 
@@ -43,9 +48,9 @@ The encryption algorithms supported by user, computer or trust accounts.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -110,9 +115,9 @@ The encryption algorithms supported by user, computer or trust accounts.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

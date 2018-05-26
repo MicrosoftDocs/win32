@@ -1,19 +1,24 @@
 ---
-Description: 'Occurs before IInkStrokeDisp objects are deleted from the Ink property.'
-ms.assetid: '747e0fdf-c68b-4805-bdc8-aa05e95ec0f7'
-title: 'InkPicture.StrokesDeleting event'
+Description: Occurs before IInkStrokeDisp objects are deleted from the Ink property.
+ms.assetid: 747e0fdf-c68b-4805-bdc8-aa05e95ec0f7
+title: InkPicture.StrokesDeleting event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.StrokesDeleting event
 
-Occurs before [**IInkStrokeDisp**](iinkstrokedisp.md) objects are deleted from the [**Ink**](inkpicture-ink.md) property.
+Occurs before [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects are deleted from the [**Ink**](/windows/win32/msinkaut/?branch=master) property.
 
 ## Syntax
 
 
 ```C++
 void StrokesDeleting(
-  [in] IInkStrokes *Strokes
+  [in] IInkStrokes *Strokes
 );
 ```
 
@@ -26,7 +31,7 @@ void StrokesDeleting(
 *Strokes* \[in\]
 </dt> <dd>
 
-The [InkStrokes](inkstrokes-collection.md) collection deleted when the **StrokesDeleting** event fires.
+The [InkStrokes](/windows/win32/msinkaut/?branch=master) collection deleted when the **StrokesDeleting** event fires.
 
 </dd> </dl>
 
@@ -44,7 +49,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -58,9 +63,9 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 [InkPicture](inkpicture-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

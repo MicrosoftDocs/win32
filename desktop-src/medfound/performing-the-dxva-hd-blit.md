@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'fc68704e-68d5-4767-b464-e45ab4c86058'
-title: 'Performing the DXVA-HD Blit'
+Description: .
+ms.assetid: fc68704e-68d5-4767-b464-e45ab4c86058
+title: Performing the DXVA-HD Blit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performing the DXVA-HD Blit

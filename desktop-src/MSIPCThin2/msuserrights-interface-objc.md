@@ -1,20 +1,24 @@
 ---
 title: MSUserRights class
-description: Represents a user's rights.
+description: Represents a users rights.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '225fe1f3-8bef-455e-b818-a96c6b8e4195'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 225fe1f3-8bef-455e-b818-a96c6b8e4195
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserRights class"]
+keywords:
+- MSUserRights class
 topic_type:
 - apiref
 api_name:
 - MSUserRights class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserRights class
@@ -37,7 +41,7 @@ Represents a user's rights.
 
 
 
- 
+ 
 
 ## Properties
 
@@ -50,7 +54,7 @@ Represents a user's rights.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -66,15 +70,15 @@ MSUserRights.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

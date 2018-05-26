@@ -1,8 +1,11 @@
 ---
 title: INapSoHConstructor Validate method
 description: Checks the validity of the SoH packet.
-ms.assetid: '66338213-43c0-461a-a794-5f18d56bd505'
-keywords: ["Validate method NAP", "Validate method NAP , INapSoHConstructor interface", "INapSoHConstructor interface NAP , Validate method"]
+ms.assetid: 66338213-43c0-461a-a794-5f18d56bd505
+keywords:
+- Validate method NAP
+- Validate method NAP , INapSoHConstructor interface
+- INapSoHConstructor interface NAP , Validate method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qutil.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSoHConstructor::Validate method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSoHConstructor::Validate** method checks the validity of the SoH packet.
 
@@ -27,8 +35,8 @@ The **INapSoHConstructor::Validate** method checks the validity of the SoH packe
 
 ```C++
 HRESULT Validate(
-  [in] const SoH  *soh,
-  [in]       BOOL isRequest
+  [in] const SoH  *soh,
+  [in]       BOOL isRequest
 );
 ```
 
@@ -41,14 +49,14 @@ HRESULT Validate(
 *soh* \[in\]
 </dt> <dd>
 
-A pointer to the constructed [**SoH**](soh-struct.md) packet.
+A pointer to the constructed [**SoH**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) packet.
 
 </dd> <dt>
 
 *isRequest* \[in\]
 </dt> <dd>
 
-A **BOOL** that is **TRUE** if the packet is an [**SoHRequest**](soh-struct.md) and **FALSE** if it is an **SoHResponse**.
+A **BOOL** that is **TRUE** if the packet is an [**SoHRequest**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) and **FALSE** if it is an **SoHResponse**.
 
 </dd> </dl>
 
@@ -67,7 +75,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,8 +83,8 @@ Other COM-specific error codes also may be returned.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
@@ -90,9 +98,9 @@ Other COM-specific error codes also may be returned.
 [**INapSoHConstructor**](inapsohconstructor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

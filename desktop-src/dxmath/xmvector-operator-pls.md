@@ -1,7 +1,12 @@
-﻿---
-Description: 'Addition operators.'
-ms.assetid: '60489ebb-2809-42ff-9bcc-9b802dd810f0'
+---
+Description: Addition operators.
+ms.assetid: 60489ebb-2809-42ff-9bcc-9b802dd810f0
 title: operator + operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator + operators

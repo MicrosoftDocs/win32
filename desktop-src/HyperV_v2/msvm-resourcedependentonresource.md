@@ -1,7 +1,12 @@
 ---
-Description: 'Establishes that a CIM\_ResourceAllocationSettingData instance representing a resource allocation depends on another resource allocation.'
-ms.assetid: '567ee36a-d47b-444d-8d2f-425873f95bef'
-title: 'Msvm\_ResourceDependentOnResource class'
+Description: Establishes that a CIM\_ResourceAllocationSettingData instance representing a resource allocation depends on another resource allocation.
+ms.assetid: 567ee36a-d47b-444d-8d2f-425873f95bef
+title: Msvm\_ResourceDependentOnResource class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ResourceDependentOnResource class
@@ -71,8 +76,8 @@ A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ A [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

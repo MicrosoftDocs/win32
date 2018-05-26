@@ -1,7 +1,12 @@
 ---
-Description: 'An X.509 version 1 certificate contains the following fields. Version 2 fields are discussed in Version 2 Fields. Version 3 fields are discussed in Version 3 Extensions.'
-ms.assetid: 'd614130c-cf1b-4580-8903-064982ed738e'
+Description: An X.509 version 1 certificate contains the following fields. Version 2 fields are discussed in Version 2 Fields. Version 3 fields are discussed in Version 3 Extensions.
+ms.assetid: d614130c-cf1b-4580-8903-064982ed738e
 title: Basic Fields
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Fields

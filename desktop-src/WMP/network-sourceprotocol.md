@@ -1,8 +1,9 @@
 ---
 title: Network.sourceProtocol
 description: The sourceProtocol property retrieves the source protocol used to receive data.
-ms.assetid: 'f09bbcd0-9c34-49d1-8080-247aed2548d5'
-keywords: ["Network.sourceProtocol Windows Media Player"]
+ms.assetid: f09bbcd0-9c34-49d1-8080-247aed2548d5
+keywords:
+- Network.sourceProtocol Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.sourceProtocol
@@ -64,9 +70,9 @@ The following JScript example uses *Network*.**sourceProtocol** to display the s
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

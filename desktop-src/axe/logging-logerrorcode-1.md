@@ -1,8 +1,11 @@
 ---
 title: Logging LogErrorCode method
-description: This method logs an error code and custom message to AXE’s pre-configured ETW session.
-ms.assetid: '1A62DAB2-BD0C-426B-A3C3-35E76099A5D2'
-keywords: ["LogErrorCode method Access Execution Engine", "LogErrorCode method Access Execution Engine , Logging interface", "Logging interface Access Execution Engine , LogErrorCode method"]
+description: This method logs an error code and custom message to AXE s pre-configured ETW session.
+ms.assetid: 1A62DAB2-BD0C-426B-A3C3-35E76099A5D2
+keywords:
+- LogErrorCode method Access Execution Engine
+- LogErrorCode method Access Execution Engine , Logging interface
+- Logging interface Access Execution Engine , LogErrorCode method
 topic_type:
 - apiref
 api_name:
@@ -11,18 +14,23 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging::LogErrorCode method
 
-This method logs an error code and custom message to AXE’s pre-configured ETW session.
+This method logs an error code and custom message to AXE s pre-configured ETW session.
 
 ## Syntax
 
 
 ```C++
 virtual HRESULT LogErrorCode(
-  [in] HRESULT errorCode
+  [in] HRESULT errorCode
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ Managed code uses the [**Logging.LogErrorCode(Int32)**](axe-logging_logerrorcode
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>AxeCore.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl> |
 
@@ -70,9 +78,9 @@ Managed code uses the [**Logging.LogErrorCode(Int32)**](axe-logging_logerrorcode
 [**LogErrorCode methods**](logging-logerrorcode-ovl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

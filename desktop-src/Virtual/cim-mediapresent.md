@@ -1,8 +1,10 @@
 ---
 title: CIM\_MediaPresent class
 description: Represents a relationship in which a storage extent must be accessed through a media access device.
-ms.assetid: '05767b40-ce70-4861-a2aa-25bedb6d7b30'
-keywords: ["CIM_MediaPresent class Hyper-V", "CIM_MediaPresent class Hyper-V , described"]
+ms.assetid: 05767b40-ce70-4861-a2aa-25bedb6d7b30
+keywords:
+- CIM_MediaPresent class Hyper-V
+- CIM_MediaPresent class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MediaPresent class
@@ -29,8 +36,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_MediaPresent : CIM_Dependency
 {
   CIM_MediaAccessDevice REF Antecedent;
-  CIM_StorageExtent     REF Dependent;
-  boolean                   FixedMedia;
+  CIM_StorageExtent     REF Dependent;
+  boolean                   FixedMedia;
 };
 ```
 
@@ -98,9 +105,9 @@ Access type: Read-only
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -113,9 +120,9 @@ Access type: Read-only
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

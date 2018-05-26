@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_COMPONENT Constants
 description: Specify the type of adapter being used.
-ms.assetid: 'f920788b-2175-4c01-81b5-e7b49111a7ac'
+ms.assetid: f920788b-2175-4c01-81b5-e7b49111a7ac
 topic_type:
 - apiref
 api_name:
@@ -12,11 +12,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_COMPONENT Constants
 
-The following constants can be used when calling [**WinBioControlUnit**](winbiocontrolunit.md) or [**WinBioControlUnitPrivileged**](winbiocontrolunitprivileged.md) to specify the type of adapter being used.
+The following constants can be used when calling [**WinBioControlUnit**](/windows/win32/Winbio/nf-winbio-winbiocontrolunit?branch=master) or [**WinBioControlUnitPrivileged**](/windows/win32/Winbio/nf-winbio-winbiocontrolunitprivileged?branch=master) to specify the type of adapter being used.
 
 
 
@@ -34,8 +39,8 @@ The following constants can be used when calling [**WinBioControlUnit**](winbioc
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -47,9 +52,9 @@ The following constants can be used when calling [**WinBioControlUnit**](winbioc
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

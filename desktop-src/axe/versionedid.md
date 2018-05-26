@@ -1,14 +1,20 @@
 ---
 title: VersionedId element
 description: The unique identity of a job or an assessment.
-ms.assetid: '4D2D521F-AD6B-4CD0-9B1B-69B5614CAB32'
-keywords: ["VersionedId element Access Execution Engine"]
+ms.assetid: 4D2D521F-AD6B-4CD0-9B1B-69B5614CAB32
+keywords:
+- VersionedId element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - VersionedId
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VersionedId element
@@ -104,9 +110,9 @@ The following example demonstrates this element.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,27 @@
 ---
 title: Producing a Dialog Box for Selecting a Filter
 description: Producing a Dialog Box for Selecting a Filter
-ms.assetid: '4cbb9276-6ce6-4cf4-a000-2b4f9ac42b31'
-keywords: ["audio compression manager (ACM),producing dialog boxes", "ACM (audio compression manager),producing dialog boxes", "ACM examples,producing dialog boxes", "producing dialog boxes", "acmFilterChoose function", "audio compression manager (ACM),selecting filters", "ACM (audio compression manager),selecting filters", "ACM examples,selecting filters", "selecting filters"]
+ms.assetid: 4cbb9276-6ce6-4cf4-a000-2b4f9ac42b31
+keywords:
+- audio compression manager (ACM),producing dialog boxes
+- ACM (audio compression manager),producing dialog boxes
+- ACM examples,producing dialog boxes
+- producing dialog boxes
+- acmFilterChoose function
+- audio compression manager (ACM),selecting filters
+- ACM (audio compression manager),selecting filters
+- ACM examples,selecting filters
+- selecting filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Producing a Dialog Box for Selecting a Filter
 
-An application can allow users to select an arbitrary filter operation and apply it to waveform-audio data. In the following example, the application allocates a buffer to hold the filter and then uses the [**acmFilterChoose**](acmfilterchoose.md) function to select the filter. The functions in this example must be called with the appropriate filter or filter tag.
+An application can allow users to select an arbitrary filter operation and apply it to waveform-audio data. In the following example, the application allocates a buffer to hold the filter and then uses the [**acmFilterChoose**](/windows/win32/Msacm/nf-msacm-acmfilterchoose?branch=master) function to select the filter. The functions in this example must be called with the appropriate filter or filter tag.
 
 
 ```C++

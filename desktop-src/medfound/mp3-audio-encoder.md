@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft Media Foundation.'
-ms.assetid: '4C397139-6553-4707-B737-7C31C5D423BA'
+---
+Description: The Microsoft Media Foundation.
+ms.assetid: 4C397139-6553-4707-B737-7C31C5D423BA
 title: MP3 Audio Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MP3 Audio Encoder
@@ -82,7 +87,7 @@ Set the following attributes on the output media type.
 
  
 
-Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](dshow.mpeglayer3waveformat) structure and call [**MFInitMediaTypeFromWaveFormatEx**](mfinitmediatypefromwaveformatex.md) to convert the structure to a Media Foundation media type.
+Alternatively, you can fill in an [**MPEGLAYER3WAVEFORMAT**](dshow.mpeglayer3waveformat) structure and call [**MFInitMediaTypeFromWaveFormatEx**](/windows/win32/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex?branch=master) to convert the structure to a Media Foundation media type.
 
 ### Input Types
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the default number of consecutive B frames between I and P frames.'
-ms.assetid: 'd41ed713-0159-4325-bc44-f4a3eea10aa2'
+Description: Specifies the default number of consecutive B frames between I and P frames.
+ms.assetid: d41ed713-0159-4325-bc44-f4a3eea10aa2
 title: AVEncMPVDefaultBPictureCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncMPVDefaultBPictureCount property
@@ -20,11 +25,11 @@ This property is read/write.
 
 ## Property value
 
-This property has a linear range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](icodecapi-getparameterrange.md).
+This property has a linear range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](/windows/win32/Strmif/nf-strmif-icodecapi-getparameterrange?branch=master).
 
 ## Remarks
 
-Prior to Windows 8, this property applies to MPEG video encoders. Starting with Windows 8, this property is used by MPEG, WMV, and H.264 video encoders.
+Prior to Windows 8, this property applies to MPEG video encoders. Starting with Windows 8, this property is used by MPEG, WMV, and H.264 video encoders.
 
 If the encoder supports this property, it can be used to control the group of pictures (GOP) structure.
 
@@ -34,8 +39,8 @@ If the encoder supports this property, it can be used to control the group of pi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -47,12 +52,12 @@ If the encoder supports this property, it can be used to control the group of pi
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

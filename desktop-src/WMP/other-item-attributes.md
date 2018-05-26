@@ -1,8 +1,22 @@
 ---
 title: Other Item Attributes
 description: Other Item Attributes
-ms.assetid: '18090c66-32a1-42af-b4a1-e3d539491e19'
-keywords: ["Windows Media Player,other item attributes", "Windows Media Player Mobile,other item attributes", "Windows Media Player object model,other item attributes", "object model,other item attributes", "ActiveX control,other item attributes", "Windows Media Player ActiveX control,other item attributes", "Windows Media Player Mobile ActiveX control,other item attributes", "reference for object model,other item attributes", "attributes,other items"]
+ms.assetid: 18090c66-32a1-42af-b4a1-e3d539491e19
+keywords:
+- Windows Media Player,other item attributes
+- Windows Media Player Mobile,other item attributes
+- Windows Media Player object model,other item attributes
+- object model,other item attributes
+- ActiveX control,other item attributes
+- Windows Media Player ActiveX control,other item attributes
+- Windows Media Player Mobile ActiveX control,other item attributes
+- reference for object model,other item attributes
+- attributes,other items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Item Attributes

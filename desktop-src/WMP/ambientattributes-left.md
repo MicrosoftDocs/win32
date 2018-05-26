@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.left
 description: The left attribute specifies or retrieves the left coordinate of the control.
-ms.assetid: 'fb1856f2-e286-4ba8-9ae4-b6cd8b0967b1'
-keywords: ["AmbientAttributes.left Windows Media Player"]
+ms.assetid: fb1856f2-e286-4ba8-9ae4-b6cd8b0967b1
+keywords:
+- AmbientAttributes.left Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.left
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.left
@@ -40,9 +46,9 @@ This attribute is a read/write **Number** (**long**) representing the distance i
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

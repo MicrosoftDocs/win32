@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia setItemInfo method
 description: The setItemInfo method sets the value of the specified attribute for the media item.
-ms.assetid: '247bbba5-7d9b-489d-8e41-ae8ec6e266fd'
-keywords: ["setItemInfo method Windows Media Player", "setItemInfo method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , setItemInfo method"]
+ms.assetid: 247bbba5-7d9b-489d-8e41-ae8ec6e266fd
+keywords:
+- setItemInfo method Windows Media Player
+- setItemInfo method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , setItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::setItemInfo method
@@ -172,9 +180,9 @@ End Sub</code></pre></td>
 [**IWMPMedia.isReadOnlyItem (VB and C#)**](wmplibiwmpmedia-iwmpmedia-isreadonlyitem--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

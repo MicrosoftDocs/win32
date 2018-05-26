@@ -1,7 +1,12 @@
 ---
-Description: 'Clouds are used by the Peer Grouping and Graphing Infrastructures.'
-ms.assetid: '01327211-0461-4922-925e-67bebe3e6158'
+Description: Clouds are used by the Peer Grouping and Graphing Infrastructures.
+ms.assetid: 01327211-0461-4922-925e-67bebe3e6158
 title: Clouds
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clouds

@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_Server class
 description: The MicrosoftDNS\_Server class describes a DNS Server. Every instance of this class may be associated with one instance of MicrosoftDNS\_Cache, one instance of MicrosoftDNS\_RootHints, and multiple instances of MicrosoftDNS\_Zone.
-ms.assetid: '768f5f96-d7a5-472f-afe6-63aa9c0e5258'
-keywords: ["MicrosoftDNS_Server class DNS", "MicrosoftDNS_Server class DNS , described"]
+ms.assetid: 768f5f96-d7a5-472f-afe6-63aa9c0e5258
+keywords:
+- MicrosoftDNS_Server class DNS
+- MicrosoftDNS_Server class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -63,6 +65,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_Server class
@@ -76,27 +83,27 @@ The following syntax is simplified from MOF code.
 ``` syntax
 class MicrosoftDNS_Server : CIM_Service
 {
-  string  Name;
-  uint32  Version;
-  uint32  LogLevel;
-  string  LogFilePath;
-  uint32  LogFileMaxSize;
-  string  LogIPFilterList[];
-  uint32  EventLogLevel;
-  sint32  RpcProtocol;
-  uint32  NameCheckFlag;
-  uint32  AddressAnswerLimit;
-  uint32  RecursionRetry;
-  uint32  RecursionTimeout;
-  uint32  DsPollingInterval;
-  uint32  DsTombstoneInterval;
-  uint32  MaxCacheTTL;
-  uint32  MaxNegativeCacheTTL;
-  uint32  SendPort;
-  uint32  XfrConnectTimeout;
-  uint32  BootMethod;
-  uint32  AllowUpdate;
-  uint32  UpdateOptions;
+  string  Name;
+  uint32  Version;
+  uint32  LogLevel;
+  string  LogFilePath;
+  uint32  LogFileMaxSize;
+  string  LogIPFilterList[];
+  uint32  EventLogLevel;
+  sint32  RpcProtocol;
+  uint32  NameCheckFlag;
+  uint32  AddressAnswerLimit;
+  uint32  RecursionRetry;
+  uint32  RecursionTimeout;
+  uint32  DsPollingInterval;
+  uint32  DsTombstoneInterval;
+  uint32  MaxCacheTTL;
+  uint32  MaxNegativeCacheTTL;
+  uint32  SendPort;
+  uint32  XfrConnectTimeout;
+  uint32  BootMethod;
+  uint32  AllowUpdate;
+  uint32  UpdateOptions;
   boolean DsAvailable;
   boolean DisableAutoReverseZones;
   boolean AutoCacheUpdate;
@@ -107,21 +114,21 @@ class MicrosoftDNS_Server : CIM_Service
   boolean LooseWildcarding;
   boolean BindSecondaries;
   boolean WriteAuthorityNS;
-  uint32  ForwardDelegations;
+  uint32  ForwardDelegations;
   boolean SecureResponses;
   boolean DisjointNets;
-  uint32  AutoConfigFileZones;
-  uint32  ScavengingInterval;
-  uint32  DefaultRefreshInterval;
-  uint32  DefaultNoRefreshInterval;
+  uint32  AutoConfigFileZones;
+  uint32  ScavengingInterval;
+  uint32  DefaultRefreshInterval;
+  uint32  DefaultNoRefreshInterval;
   boolean DefaultAgingState;
-  uint32  EDnsCacheTimeout;
+  uint32  EDnsCacheTimeout;
   boolean EnableEDnsProbes;
-  uint32  EnableDnsSec;
-  string  ServerAddresses[];
-  string  ListenAddresses[];
-  string  Forwarders[];
-  uint32  ForwardingTimeout;
+  uint32  EnableDnsSec;
+  string  ServerAddresses[];
+  string  ListenAddresses[];
+  string  Forwarders[];
+  uint32  ForwardingTimeout;
   boolean IsSlave;
   boolean EnableDirectoryPartitions;
 };
@@ -149,7 +156,7 @@ The **MicrosoftDNS\_Server** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -192,7 +199,7 @@ Specifies whether the DNS Server accepts dynamic update requests. Valid values a
 
 
 
- 
+ 
 
 Sum these values to determine the setting value.
 
@@ -207,7 +214,7 @@ Data type: **boolean**
 Access type: Read/write
 </dt> </dl>
 
-Indicates whether the DNS Server attempts to update its cache entries using data from root servers. When a DNS Server boots, it needs a list of root server 'hints'—NS and A records for the servers—historically called the cache file. Microsoft DNS Servers have a feature that enables them to attempt to write back a new cache file based on the responses from root servers.
+Indicates whether the DNS Server attempts to update its cache entries using data from root servers. When a DNS Server boots, it needs a list of root server 'hints' NS and A records for the servers historically called the cache file. Microsoft DNS Servers have a feature that enables them to attempt to write back a new cache file based on the responses from root servers.
 
 </dd> <dt>
 
@@ -233,11 +240,11 @@ Indicates which standard primary zones that are authoritative for the name of th
 
 
 
- 
+ 
 
 The default value is 1.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 The number 3 represents All servers.
 
@@ -278,7 +285,7 @@ Initialization method for the DNS Server. Valid values are shown in the followin
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -410,7 +417,7 @@ Access type: Read/write
 
 Specifies whether support for application directory partitions is enabled on the DNS Server.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 This method is named EnableDirectoryPartitionSupport.
 
@@ -437,7 +444,7 @@ Specifies whether the DNS Server includes DNSSEC-specific RRs, KEY, SIG, and NXT
 
 
 
- 
+ 
 
 If a query requests a resource record set of the DNSSEC type, the DNS Server always responds with such records, if available.
 
@@ -478,7 +485,7 @@ Indicates which events the DNS Server records in the Event Viewer system log. Th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -636,7 +643,7 @@ Should be set to specific values based on the following algorithm: Every policy 
 
 
 
- 
+ 
 
 The sum of the values corresponding to all the policies to be activated is indicated in this property.
 
@@ -717,9 +724,9 @@ Indicates the set of eligible characters to be used in DNS names. The following 
 
 
 
- 
+ 
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 A value of "2" indicates "Any."
 
@@ -803,7 +810,7 @@ RPC protocol or protocols over which administrative RPC runs. The following algo
 
 
 
- 
+ 
 
 The sum of the values indicates the protocols used.
 
@@ -850,7 +857,7 @@ Under certain situations, this is not the best configuration. One obvious case i
 
 If the **SendOnNonDnsPort** value is greater than 1024, the DNS Server binds explicitly to the port value given. This configuration option is useful when an administrator needs to fix the DNS query port for firewall purposes.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 Setting the SendPort property to a non-zero value causes the DNS server to bind to an arbitrary port for sending to remote DNS servers.
 
@@ -893,7 +900,7 @@ Access type: Read-only
 
 Restricts the type of records that can be dynamically updated on the server, used in addition to the **AllowUpdate** settings on Server and Zone objects.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 0: No restrictions.
 
@@ -953,7 +960,7 @@ Time, in seconds, the DNS Server waits for a successful TCP connection to a remo
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -975,9 +982,9 @@ Time, in seconds, the DNS Server waits for a successful TCP connection to a remo
 [**GetDistinguishedName Method of the MicrosoftDNS\_Server Class**](microsoftdns-server-getdistinguishedname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

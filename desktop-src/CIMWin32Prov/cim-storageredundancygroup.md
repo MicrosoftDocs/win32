@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_StorageRedundancyGroup class represents mass storage-related redundancy information.'
+Description: The CIM\_StorageRedundancyGroup class represents mass storage-related redundancy information.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6bc81680-672a-4872-8951-11d7f10acbc7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6bc81680-672a-4872-8951-11d7f10acbc7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_StorageRedundancyGroup class'
+title: CIM\_StorageRedundancyGroup class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StorageRedundancyGroup class
@@ -19,7 +22,7 @@ The **CIM\_StorageRedundancyGroup** class represents mass storage-related redund
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,14 +32,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{6D477DBC-E3D1-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_StorageRedundancyGroup : CIM_RedundancyGroup
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   CreationClassName;
-  uint16   RedundancyStatus;
-  uint16   TypeOfAlgorithm;
+  string   Name;
+  string   Status;
+  string   CreationClassName;
+  uint16   RedundancyStatus;
+  uint16   TypeOfAlgorithm;
 };
 ```
 
@@ -410,8 +413,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -425,9 +428,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_RedundancyGroup**](cim-redundancygroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

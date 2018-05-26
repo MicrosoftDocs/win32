@@ -4,11 +4,15 @@ description: The following example parses a value list returned from the CLUSCTL
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3504b04d-9b96-4b44-a8ae-f5e5eb8231d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3504b04d-9b96-4b44-a8ae-f5e5eb8231d8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["value lists Failover Cluster ,parsing"]
+keywords:
+- value lists Failover Cluster ,parsing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Parsing a Value List

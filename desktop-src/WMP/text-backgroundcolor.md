@@ -1,14 +1,20 @@
 ---
 title: TEXT.backgroundColor
 description: The backgroundColor attribute specifies or retrieves the background color for the Text control.
-ms.assetid: '0c16318f-bf57-4c5f-85c1-46641124d431'
-keywords: ["TEXT.backgroundColor Windows Media Player"]
+ms.assetid: 0c16318f-bf57-4c5f-85c1-46641124d431
+keywords:
+- TEXT.backgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.backgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.backgroundColor
@@ -60,9 +66,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.foregroundColor**](text-foregroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

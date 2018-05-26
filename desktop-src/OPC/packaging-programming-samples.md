@@ -1,12 +1,17 @@
 ---
 title: Packaging API Samples
-description: The topics in this section briefly describe the sample programs that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7.
-ms.assetid: '885137be-35d5-4ec5-bbcc-16c95adf55ab'
+description: The topics in this section briefly describe the sample programs that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7.
+ms.assetid: 885137be-35d5-4ec5-bbcc-16c95adf55ab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging API Samples
 
-The topics in this section briefly describe the sample programs that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7.
+The topics in this section briefly describe the sample programs that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7.
 
 The following table lists the topics that describe the Packaging API samples that are provided in the Windows SDK.
 
@@ -22,7 +27,7 @@ The following table lists the topics that describe the Packaging API samples tha
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -49,9 +54,9 @@ The following table lists the topics that describe the Packaging API samples tha
 [Packaging API Reference](packaging-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

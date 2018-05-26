@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a string that contains the certificate serial number.'
-ms.assetid: 'd08be744-4ae8-49f9-8b00-48e76c296f2b'
-title: 'Certificate.SerialNumber property'
+---
+Description: Retrieves a string that contains the certificate serial number.
+ms.assetid: d08be744-4ae8-49f9-8b00-48e76c296f2b
+title: Certificate.SerialNumber property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate.SerialNumber property

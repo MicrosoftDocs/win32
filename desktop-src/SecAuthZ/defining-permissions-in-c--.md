@@ -1,7 +1,12 @@
 ---
-Description: 'Instructions for using the Authorization Manager API to define permissions in C++ by creating an authorization policy store.'
-ms.assetid: '8a3bf625-7973-4905-a63c-e42e6682b7c2'
+Description: Instructions for using the Authorization Manager API to define permissions in C++ by creating an authorization policy store.
+ms.assetid: 8a3bf625-7973-4905-a63c-e42e6682b7c2
 title: Defining Permissions in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Permissions in C++

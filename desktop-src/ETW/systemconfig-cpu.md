@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for CPU configuration events.'
-ms.assetid: '5a24be04-9e5e-4ba9-baaf-b58b79ad947b'
-title: 'SystemConfig\_CPU class'
+---
+Description: This class is the event type class for CPU configuration events.
+ms.assetid: 5a24be04-9e5e-4ba9-baaf-b58b79ad947b
+title: SystemConfig\_CPU class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemConfig\_CPU class

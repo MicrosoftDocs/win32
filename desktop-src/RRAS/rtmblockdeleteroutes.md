@@ -1,8 +1,9 @@
 ---
 title: RtmBlockDeleteRoutes function
 description: The RtmBlockDeleteRoutes function deletes all routes in the specified subset of routes in the table.
-ms.assetid: 'd191883d-da3d-4a91-92e6-4979db96f4a4'
-keywords: ["RtmBlockDeleteRoutes function RAS"]
+ms.assetid: d191883d-da3d-4a91-92e6-4979db96f4a4
+keywords:
+- RtmBlockDeleteRoutes function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmBlockDeleteRoutes function
@@ -24,9 +30,9 @@ The **RtmBlockDeleteRoutes** function deletes all routes in the specified subset
 
 ```C++
 HANDLE RtmBlockDeleteRoutes(
-  _In_ HANDLE ClientHandle,
-  _In_ DWORD  EnumerationFlags,
-  _In_ PVOID  CriteriaRoute
+  _In_ HANDLE ClientHandle,
+  _In_ DWORD  EnumerationFlags,
+  _In_ PVOID  CriteriaRoute
 );
 ```
 
@@ -75,7 +81,7 @@ If the function fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,8 +94,8 @@ The function generates appropriate notification messages to all registered clien
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -112,9 +118,9 @@ The function generates appropriate notification messages to all registered clien
 [**RtmRegisterClient**](rtmregisterclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

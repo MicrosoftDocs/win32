@@ -1,8 +1,9 @@
 ---
 title: NM\_GETCUSTOMSPLITRECT notification code
 description: Sent by a button control to its parent to get measurements for the two rectangles of the split button. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ce72778d-3cca-46a4-9d05-40954a18681d'
-keywords: ["NM_GETCUSTOMSPLITRECT notification code Windows Controls"]
+ms.assetid: ce72778d-3cca-46a4-9d05-40954a18681d
+keywords:
+- NM_GETCUSTOMSPLITRECT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_GETCUSTOMSPLITRECT notification code
@@ -33,13 +39,13 @@ NM_GETCUSTOMSPLITRECT
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCUSTOMSPLITRECTINFO**](nmcustomsplitrectinfo.md) to receive bounding rectangles information. The **NMCUSTOMSPLITRECTINFO** structure is sent with the notification code as a request for the parent to provide measurements for the rectangles of the split button.
+A pointer to an [**NMCUSTOMSPLITRECTINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo?branch=master) to receive bounding rectangles information. The **NMCUSTOMSPLITRECTINFO** structure is sent with the notification code as a request for the parent to provide measurements for the rectangles of the split button.
 
 </dd> </dl>
 
 ## Return value
 
-Return [**CDRF\_SKIPDEFAULT**](cdrf-constants.md#cdrf-skipdefault) to tell the button control to use the values returned in the [**NMCUSTOMSPLITRECTINFO**](nmcustomsplitrectinfo.md) structure; otherwise, return [**CDRF\_DODEFAULT**](cdrf-constants.md#cdrf-dodefault).
+Return [**CDRF\_SKIPDEFAULT**](cdrf-constants.md#cdrf-skipdefault) to tell the button control to use the values returned in the [**NMCUSTOMSPLITRECTINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomsplitrectinfo?branch=master) structure; otherwise, return [**CDRF\_DODEFAULT**](cdrf-constants.md#cdrf-dodefault).
 
 ## Remarks
 
@@ -51,15 +57,15 @@ This notification code is sent by a button control before it is drawn. The butto
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

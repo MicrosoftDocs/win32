@@ -1,14 +1,20 @@
 ---
 title: WaveActiveAllEqual function
 description: Returns true if the expression is the same for every active lane in the current wave (and thus uniform across it).
-ms.assetid: 'E0A051A8-0ADD-4EC7-8D9A-8820CED9DA9D'
-keywords: ["WaveAllBitAnd function HLSL"]
+ms.assetid: E0A051A8-0ADD-4EC7-8D9A-8820CED9DA9D
+keywords:
+- WaveAllBitAnd function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllBitAnd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveAllEqual function

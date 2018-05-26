@@ -1,7 +1,12 @@
 ---
 title: AVIFile Operations
 description: AVIFile Operations
-ms.assetid: '0d9611d1-4d6a-480e-881a-171adac87a0c'
+ms.assetid: 0d9611d1-4d6a-480e-881a-171adac87a0c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVIFile Operations

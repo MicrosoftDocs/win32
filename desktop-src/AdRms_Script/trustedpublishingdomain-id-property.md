@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a unique ID for the trusted domain object.'
+Description: Retrieves a unique ID for the trusted domain object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '05497d1d-15bd-4a36-b7b6-c6c3430b8fef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 05497d1d-15bd-4a36-b7b6-c6c3430b8fef
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedPublishingDomain.Id property'
+title: TrustedPublishingDomain.Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedPublishingDomain.Id property
@@ -132,7 +135,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -144,9 +147,9 @@ END SUB
 [**TrustedPublishingDomain**](trustedpublishingdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

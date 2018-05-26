@@ -1,13 +1,16 @@
 ---
-Description: 'Describes the availability of WMI and certain WMI components.'
+Description: Describes the availability of WMI and certain WMI components.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f92bdea1-4226-4b80-b723-fba984570aa7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f92bdea1-4226-4b80-b723-fba984570aa7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Operating System Availability of WMI Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Operating System Availability of WMI Components

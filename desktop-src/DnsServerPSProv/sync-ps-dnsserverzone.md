@@ -2,13 +2,16 @@
 title: Sync method of the PS\_DnsServerZone class
 description: Write back all zone or roothint datafile(s) for the specified zone.
 audience: developer
-ms.assetid: 'd4a50e50-cc71-4d06-9024-8e74e36e86e3'
-ms.prod: 'windows-server-dev'
+ms.assetid: d4a50e50-cc71-4d06-9024-8e74e36e86e3
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Sync method", "Sync method, PS_DnsServerZone class", "PS_DnsServerZone class, Sync method"]
+keywords:
+- Sync method
+- Sync method, PS_DnsServerZone class
+- PS_DnsServerZone class, Sync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Sync method of the PS\_DnsServerZone class
@@ -28,10 +34,10 @@ Write back all zone or roothint datafile(s) for the specified zone.
 
 ```mof
 uint32 Sync(
-  [in]  string        Name,
-  [in]  string        ComputerName,
-  [in]  boolean       PassThru,
-  [out] DnsServerZone cmdletOutput[]
+  [in]  string        Name,
+  [in]  string        ComputerName,
+  [in]  boolean       PassThru,
+  [out] DnsServerZone cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Mlang.h</dt> </dl>                 |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
@@ -91,9 +97,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerZone**](ps-dnsserverzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

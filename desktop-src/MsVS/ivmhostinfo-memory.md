@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo Memory property
 description: The Memory property contains the total quantity, in megabytes, of physical RAM in the host machine.
-ms.assetid: 'cefe0366-bf70-4cbd-bdfe-8756324178b3'
-keywords: ["Memory property Virtual Server", "Memory property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , Memory property", "Memory property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , Memory property"]
+ms.assetid: cefe0366-bf70-4cbd-bdfe-8756324178b3
+keywords:
+- Memory property Virtual Server
+- Memory property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , Memory property
+- Memory property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , Memory property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::Memory property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Memory(
-  [out] VARIANT *megabytesOfMemory
+  [out] VARIANT *megabytesOfMemory
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

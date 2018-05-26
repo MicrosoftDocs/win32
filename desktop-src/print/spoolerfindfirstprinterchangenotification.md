@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '429A5DF5-46A6-4A41-A77B-4D5743C841DC'
+---
+Description: .
+ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
 title: SpoolerFindFirstPrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpoolerFindFirstPrinterChangeNotification function

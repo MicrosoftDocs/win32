@@ -1,21 +1,27 @@
 ---
 title: list command
 description: The list command determines the number and types of video and audio inputs. Digital-video and VCR devices recognize this command.
-ms.assetid: 'b3fe3819-0b8a-4de5-9c79-03e1e089436f'
-keywords: ["list command Windows Multimedia"]
+ms.assetid: b3fe3819-0b8a-4de5-9c79-03e1e089436f
+keywords:
+- list command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - list
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # list command
 
 The list command determines the number and types of video and audio inputs. Digital-video and VCR devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ Flag that identifies the number and types of video and audio inputs. The followi
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszList** parameter and their meanings.
 
@@ -78,7 +84,7 @@ The following table lists the flags that can be specified in the **lpszList** pa
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,8 +109,8 @@ For VCR devices, either "video source" or "audio source" must be specified with 
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -118,9 +124,9 @@ For VCR devices, either "video source" or "audio source" must be specified with 
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

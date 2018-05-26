@@ -1,7 +1,12 @@
 ---
 title: UiaNameShouldNotContainControlType
 description: UiaNameShouldNotContainControlType
-ms.assetid: '96F7A5FC-1879-4706-9E67-5B43D57F7281'
+ms.assetid: 96F7A5FC-1879-4706-9E67-5B43D57F7281
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UiaNameShouldNotContainControlType
@@ -33,7 +38,7 @@ This issue causes problems for people who rely on a screen-reader and keyboard f
 [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)
 </dt> <dt>
 
-[**IUIAutomationElement::CurrentName**](uiauto-iuiautomationelement-currentname.md)
+[**IUIAutomationElement::CurrentName**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currentname?branch=master)
 </dt> </dl>
 
  

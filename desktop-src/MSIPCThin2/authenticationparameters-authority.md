@@ -4,11 +4,14 @@ description: Gets authority with which the request is being made.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.AuthenticationParameters.Authority'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.AuthenticationParameters.Authority
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Authority property", "Authority property, AuthenticationParameters class", "AuthenticationParameters class, Authority property"]
+keywords:
+- Authority property
+- Authority property, AuthenticationParameters class
+- AuthenticationParameters class, Authority property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationParameters.Authority property
@@ -67,9 +73,9 @@ An example **authority** string would be, `https://login.windows.net/common/oaut
 [**AuthenticationParameters**](authenticationparameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

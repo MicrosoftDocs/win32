@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the current segment topology is empty.'
-ms.assetid: 'efd497dc-affc-4453-975c-09c5dca06374'
-title: 'MF\_EVENT\_SOURCE\_FAKE\_START attribute'
+---
+Description: Specifies whether the current segment topology is empty.
+ms.assetid: efd497dc-affc-4453-975c-09c5dca06374
+title: MF\_EVENT\_SOURCE\_FAKE\_START attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_SOURCE\_FAKE\_START attribute
@@ -44,10 +49,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> </dl>
 
  

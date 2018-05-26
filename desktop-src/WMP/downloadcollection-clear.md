@@ -1,8 +1,11 @@
 ---
 title: DownloadCollection.Clear method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Clear method removes all items from a download collection.
-ms.assetid: '3947a99d-5853-432d-a47b-7b19adebc3a5'
-keywords: ["Clear method Windows Media Player", "Clear method Windows Media Player , DownloadCollection class", "DownloadCollection class Windows Media Player , Clear method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The Clear method removes all items from a download collection.
+ms.assetid: 3947a99d-5853-432d-a47b-7b19adebc3a5
+keywords:
+- Clear method Windows Media Player
+- Clear method Windows Media Player , DownloadCollection class
+- DownloadCollection class Windows Media Player , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadCollection.Clear method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **Clear** method removes all items from a download collection.
 
@@ -57,9 +65,9 @@ This method does not return a value.
 [**DownloadCollection Object**](downloadcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

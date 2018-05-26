@@ -1,8 +1,19 @@
 ---
 title: Extending the WAB Property Sheets
-description: The WAB has an extensibility mechanism by which a client application can add its own property sheets to the WAB's predefined set of property sheets. This document describes how to extend the WAB Property Sheets for WAB contacts and groups.
-ms.assetid: '5770cd32-3d44-4b36-8d55-3251a994a7c7'
-keywords: ["address books", "Windows Address Book (WAB),property sheets", "WAB (Windows Address Book),property sheets", "Windows Address Book (WAB),registering property sheet extensions", "WAB (Windows Address Book),registering property sheet extensions", "registering WAB property sheet extensions"]
+description: The WAB has an extensibility mechanism by which a client application can add its own property sheets to the WABs predefined set of property sheets. This document describes how to extend the WAB Property Sheets for WAB contacts and groups.
+ms.assetid: 5770cd32-3d44-4b36-8d55-3251a994a7c7
+keywords:
+- address books
+- Windows Address Book (WAB),property sheets
+- WAB (Windows Address Book),property sheets
+- Windows Address Book (WAB),registering property sheet extensions
+- WAB (Windows Address Book),registering property sheet extensions
+- registering WAB property sheet extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending the WAB Property Sheets
@@ -21,7 +32,7 @@ WAB clients are able to extend the WAB schema easily by using named properties f
 A client can add a property sheet to the WAB by:
 
 1.  Implementing the property sheet UI and UI handler in a separate module (DLL).
-2.  Implementing [IShellPropSheetExt](_win32_IShellPropSheetExt) and [**IWABExtInit**](-wab-iwabextinit.md) to expose its property sheets.
+2.  Implementing [IShellPropSheetExt](_win32_IShellPropSheetExt) and [**IWABExtInit**](/windows/previous-versions/Wabapi/?branch=master) to expose its property sheets.
 3.  Registering its property sheet extension DLL in the registry under HKCR\\CLSID.
 4.  Registering its CLSID under the WAB's registry key.
 
@@ -37,11 +48,11 @@ You can choose at all times whether to display your property sheet from any WAB-
 
 Create your property sheet UI and a function handler for the property sheet in your module. Your property sheet can have a maximum size of 318 x 203 dialog units (dlus). Property sheets that are larger than this are not recommended, because they disrupt the consistent look of the other WAB property pages.
 
-To expose your property sheet, you must implement the [IShellPropSheetExt](_win32_IShellPropSheetExt) interface. You must also implement the [**IWABExtInt**](-wab-iwabextinit.md) interface defined in Wabapi.h. This interface has the standard [IUnknown](33f1d79a-33fc-4ce5-a372-e08bda378332) methods, as well as [**IWABExtInit::Initialize**](-wab-iwabextinit-initialize.md).
+To expose your property sheet, you must implement the [IShellPropSheetExt](_win32_IShellPropSheetExt) interface. You must also implement the [**IWABExtInt**](/windows/previous-versions/Wabapi/?branch=master) interface defined in Wabapi.h. This interface has the standard [IUnknown](33f1d79a-33fc-4ce5-a372-e08bda378332) methods, as well as [**IWABExtInit::Initialize**](/windows/previous-versions/Wabapi/?branch=master).
 
 When the WAB is ready to create your property sheet, it retrieves your module's CLSID and calls [CoCreateInstance](7295a55b-12c7-4ed0-a7a4-9ecee16afdec) on the CLSID specifying IID\_IShellPropSheetExt to request a [IShellPropSheetExt Interface](_win32_IShellPropSheetExt) object.
 
-The WAB calls [IUnknown::QueryInterface](54d5ff80-18db-43f2-b636-f93ac053146d) on the returned object, requesting an [**IWABExtInit**](-wab-iwabextinit.md) object. The WAB then calls [**Initialize**](-wab-iwabextinit-initialize.md) to provide your module with information about the object that is being displayed.
+The WAB calls [IUnknown::QueryInterface](54d5ff80-18db-43f2-b636-f93ac053146d) on the returned object, requesting an [**IWABExtInit**](/windows/previous-versions/Wabapi/?branch=master) object. The WAB then calls [**Initialize**](/windows/previous-versions/Wabapi/?branch=master) to provide your module with information about the object that is being displayed.
 
 To add your page, the WAB calls [IShellPropSheetExt::AddPages Method](_win32_IShellPropSheetExt_AddPages). In this call, you can create as many property sheets as you want by calling [CreatePropertySheetPage](_win32_CreatePropertySheetPage) and passing the resulting **HPROPSHEETPAGE** handle and *lParam* to the WAB through the *lpfnAddPage* function.
 
@@ -49,7 +60,7 @@ The [IShellPropSheetExt::ReplacePage Method](_win32_IShellPropSheetExt_ReplacePa
 
 The WAB uses your **HPROPSHEETPAGE** handle to add your property sheet to its set of preexisting property sheets. When the user switches to or from your property sheet, and makes modifications on your property sheets, your property sheet handler function will automatically be invoked.
 
-When the WAB invokes [**Initialize**](-wab-iwabextinit-initialize.md), it will pass a pointer to a [**WABEXTDISPLAY**](-wab-wabextdisplay.md) structure. The object being displayed is available to user's property sheet through the **lpPropObj** member of the **WABEXTDISPLAY** structure.
+When the WAB invokes [**Initialize**](/windows/previous-versions/Wabapi/?branch=master), it will pass a pointer to a [**WABEXTDISPLAY**](/windows/previous-versions/Wabapi/ns-wabapi-_wabextdisplay?branch=master) structure. The object being displayed is available to user's property sheet through the **lpPropObj** member of the **WABEXTDISPLAY** structure.
 
 When your property sheet has been activated by the user, it receives a [PSN\_ACTIVE](_win32_PSN_SETACTIVE) notification. The property sheet must then retrieve its relevant properties from the object by calling [IMAPIProp::GetProps](68b1621a-ba95-44a6-9433-56e59fafbcfe) and use these properties to populate the UI.
 
@@ -61,11 +72,11 @@ After you have created your property sheet extension module, you need to registe
 
 Register your property sheet extension module with the system just as you would register a [Shell Property Sheet Extension module](_win32_propsheet_handlers).
 
-With the WAB, you can create property sheet extensions for Contacts ([**IMailUser**](-wab-imailuser.md) objects), Distribution Lists ([**IDistList**](-wab-idistlist.md) objects), or both.
+With the WAB, you can create property sheet extensions for Contacts ([**IMailUser**](/windows/previous-versions/wabdefs/?branch=master) objects), Distribution Lists ([**IDistList**](/windows/previous-versions/wabdefs/?branch=master) objects), or both.
 
 ### Registering for Contacts
 
-To register property sheet extension under the WAB for extending the UI on Contacts ([**IMailUser**](-wab-imailuser.md) objects), place this information in the registry:
+To register property sheet extension under the WAB for extending the UI on Contacts ([**IMailUser**](/windows/previous-versions/wabdefs/?branch=master) objects), place this information in the registry:
 
 
 ```
@@ -82,11 +93,11 @@ HKEY_LOCAL_MACHINE
 
 Create a new string value whose name is the full CLSID identifying your extension module, as it is registered with the system. The value data can be set to the string "0" or to the string "1". The string "0" signifies that your property sheet should be shown at all times, whenever the WAB is asked to display its property sheets. The string "1" means that your property sheet will only be shown as part of your own process.
 
-If you want to add a property sheet that will only be shown within your own process, identify your process to the WAB. To do this, pass the GUID used for registering the property sheet extension into the **guidPSExt** member of the [**WAB\_PARAM**](-wab-wab-param.md) structure passed into [**WABOpen**](-wab-wabopen.md). When the WAB needs to load property sheets, it will load your extension only if the GUID matches and the Value-data is "1". The WAB will automatically load all extensions with value data "0".
+If you want to add a property sheet that will only be shown within your own process, identify your process to the WAB. To do this, pass the GUID used for registering the property sheet extension into the **guidPSExt** member of the [**WAB\_PARAM**](/windows/previous-versions/Wabapi/ns-wabapi-_tagwab_param?branch=master) structure passed into [**WABOpen**](/windows/previous-versions/Wabapi/nc-wabapi-wabopen?branch=master). When the WAB needs to load property sheets, it will load your extension only if the GUID matches and the Value-data is "1". The WAB will automatically load all extensions with value data "0".
 
 ### Registering for Distribution Lists
 
-To register your property sheet extension for extending the UI on Groups ([**IDistList**](-wab-idistlist.md) objects), register the same information as for the property sheet extension under the following key.
+To register your property sheet extension for extending the UI on Groups ([**IDistList**](/windows/previous-versions/wabdefs/?branch=master) objects), register the same information as for the property sheet extension under the following key.
 
 
 ```

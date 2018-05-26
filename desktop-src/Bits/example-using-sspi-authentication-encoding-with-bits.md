@@ -1,7 +1,12 @@
 ---
 title: Example Using SSPI Authentication Encoding with BITS
 description: You can use Security Support Provider Interface (SSPI) Authentication and Background Intelligent Transfer Service (BITS) methods to get the credentials from a user, encode the credentials, and set the encoded credentials on a BITS transfer job.
-ms.assetid: '5c8a6df7-0056-463e-8d73-1695dc75e023'
+ms.assetid: 5c8a6df7-0056-463e-8d73-1695dc75e023
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Using SSPI Authentication Encoding with BITS
@@ -17,18 +22,18 @@ This example uses the header and implementation defined in [Example: Common Clas
 **To use SSPI authentication encoding with BITS transfer jobs**
 
 1.  Initialize COM parameters by calling the CCoInitializer function. For more information about the CCoInitializer function, see [Example: Common Classes](common-classes.md).
-2.  Get pointers for the [**IBackgroundCopyManager**](ibackgroundcopymanager.md), [**IBackgroundCopyJob**](ibackgroundcopyjob.md), [**IBackgroundCopyJob2**](ibackgroundcopyjob2.md) interfaces. This example uses the [CComPtr Class](http://go.microsoft.com/fwlink/p/?linkid=162393) to manage COM interface pointers.
+2.  Get pointers for the [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master), [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master), [**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master) interfaces. This example uses the [CComPtr Class](http://go.microsoft.com/fwlink/p/?linkid=162393) to manage COM interface pointers.
 3.  Create a [CREDUI\_INFO](http://go.microsoft.com/fwlink/p/?linkid=162383) structure that contains information for customizing the appearance of the dialog box for the [SspiPromptForCredentials Function]( http://go.microsoft.com/fwlink/p/?linkid=162384). Then prompt for credentials from the user. For more information, see the [SspiPromptForCredentials Function]( http://go.microsoft.com/fwlink/p/?linkid=162384).
 4.  Encode credential structure as strings that can be passed to a BITS transfer job by using the [SspiEncodeAuthIdentityAsStrings]( http://go.microsoft.com/fwlink/p/?linkid=162385) function.
-5.  Prepare a [**BG\_AUTH\_CREDENTIALS**](bg-auth-credentials.md) structure.
+5.  Prepare a [**BG\_AUTH\_CREDENTIALS**](/windows/win32/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005?branch=master) structure.
 6.  Initialize COM process security by calling [CoInitializeSecurity](http://go.microsoft.com/fwlink/p/?linkid=162390). BITS requires at least the IMPERSONATE level of impersonation. BITS fails with **E\_ACCESSDENIED** if the correct impersonation level is not set.
 7.  Obtain the initial locator to BITS by calling the [CoCreateInstance]( http://go.microsoft.com/fwlink/p/?linkid=162386) function.
-8.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](ibackgroundcopymanager-createjob.md) method.
-9.  Get the identifier for the [**IBackgroundCopyJob2**](ibackgroundcopyjob2.md) interface, and call the **IBackgroundCopyJob::QueryInterface** method.
-10. Populate the [**BG\_AUTH\_CREDENTIALS**](bg-auth-credentials.md) structure with the encoded user name and password strings, and set the authentication scheme to Negotiate (**BG\_AUTH\_SCHEME\_NEGOTIATE**).
-11. Use the [**IBackgroundCopyJob2**](ibackgroundcopyjob2.md) pointer to make requests to BITS. This program uses the [**IBackgroundCopyJob2::SetCredentials**](ibackgroundcopyjob2-setcredentials.md) method to set the credentials for the BITS transfer job.
+8.  Create a BITS transfer job by calling the [**IBackgroundCopyManager::CreateJob**](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-createjob?branch=master) method.
+9.  Get the identifier for the [**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master) interface, and call the **IBackgroundCopyJob::QueryInterface** method.
+10. Populate the [**BG\_AUTH\_CREDENTIALS**](/windows/win32/Bits1_5/ns-bits1_5-__midl_ibackgroundcopyjob2_0005?branch=master) structure with the encoded user name and password strings, and set the authentication scheme to Negotiate (**BG\_AUTH\_SCHEME\_NEGOTIATE**).
+11. Use the [**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master) pointer to make requests to BITS. This program uses the [**IBackgroundCopyJob2::SetCredentials**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials?branch=master) method to set the credentials for the BITS transfer job.
 12. Add files, modify properties, or resume the BITS transfer job.
-13. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](ibackgroundcopyjob-complete.md).
+13. After the BITS transfer job is complete, remove the job from the queue by calling [**IBackgroundCopyJob::Complete**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-complete?branch=master).
 14. Finally, free the authentication identity structure by calling the [SspiFreeAuthIdentity](http://go.microsoft.com/fwlink/p/?linkid=162387) function.
 
 The following code example demonstrates how to use SSPI Authentication Encoding with BITS transfer jobs.
@@ -240,13 +245,13 @@ void _cdecl _tmain(int argc, LPWSTR* argv)
 [SSPI](http://go.microsoft.com/fwlink/p/?linkid=162382)
 </dt> <dt>
 
-[**IBackgroundCopyManager**](ibackgroundcopymanager.md)
+[**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master)
 </dt> <dt>
 
-[**IBackgroundCopyJob**](ibackgroundcopyjob.md)
+[**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master)
 </dt> <dt>
 
-[**IBackgroundCopyJob2**](ibackgroundcopyjob2.md)
+[**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master)
 </dt> <dt>
 
 [Example: Common Classes](common-classes.md)

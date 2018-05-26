@@ -1,7 +1,12 @@
 ---
 title: How to Create a Multiple-Selection List Box
 description: This topic demonstrates how to display and access the contents of a directory in a multiple-selection list box.
-ms.assetid: '5192E171-8CEF-4921-9378-A7C3A52A9024'
+ms.assetid: 5192E171-8CEF-4921-9378-A7C3A52A9024
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Multiple-Selection List Box
@@ -31,7 +36,7 @@ The directory listing application must perform the following list box–related 
 -   Retrieve the user's selections from the list box.
 -   Remove the file names from the list box after the selected files have been deleted.
 
-In the following C++ code example, the dialog box procedure initializes the multiple-selection list box (IDC\_FILELIST) by using the [**DlgDirList**](dlgdirlist.md) function to fill the list box with the names of all the files in the current directory.
+In the following C++ code example, the dialog box procedure initializes the multiple-selection list box (IDC\_FILELIST) by using the [**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master) function to fill the list box with the names of all the files in the current directory.
 
 When the user selects a group of files and chooses the **Delete** button, the dialog box procedure sends the [**LB\_GETSELCOUNT**](lb-getselcount.md) message, to retrieve the number of files selected, and the [**LB\_GETSELITEMS**](lb-getselitems.md) message, to retrieve an array of selected list box items. After deleting a file, the dialog procedure removes the corresponding item from the list box by sending the [**LB\_DELETESTRING**](lb-deletestring.md) message.
 

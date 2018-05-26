@@ -1,8 +1,21 @@
 ---
 title: Compressed Media Subtypes
 description: Compressed Media Subtypes
-ms.assetid: '0ed6b4e8-6450-4484-90d6-efa2f9101782'
-keywords: ["Windows Media Format SDK,media types", "Advanced Systems Format (ASF),media types", "ASF (Advanced Systems Format),media types", "Windows Media Format SDK,compressed media subtypes", "Advanced Systems Format (ASF),compressed media subtypes", "ASF (Advanced Systems Format),compressed media subtypes", "media types,compressed media subtypes", "compressed media subtypes"]
+ms.assetid: 0ed6b4e8-6450-4484-90d6-efa2f9101782
+keywords:
+- Windows Media Format SDK,media types
+- Advanced Systems Format (ASF),media types
+- ASF (Advanced Systems Format),media types
+- Windows Media Format SDK,compressed media subtypes
+- Advanced Systems Format (ASF),compressed media subtypes
+- ASF (Advanced Systems Format),compressed media subtypes
+- media types,compressed media subtypes
+- compressed media subtypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compressed Media Subtypes

@@ -1,13 +1,20 @@
 ---
 title: The Tools
-description: This topic describes the tools available for you to use in making your application 64-bit ready. Windows 10 is available for both x64 and ARM64 based processors.
-ms.assetid: '457b7cc1-8517-4a36-9a0c-cf191ff3b374'
-keywords: ["64-bit Windows programming guide 64-bit Windows Programming , tools", "tools 64-bit Windows Programming"]
+description: This topic describes the tools available for you to use in making your application 64-bit ready. Windows 10 is available for both x64 and ARM64 based processors.
+ms.assetid: 457b7cc1-8517-4a36-9a0c-cf191ff3b374
+keywords:
+- 64-bit Windows programming guide 64-bit Windows Programming , tools
+- tools 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Tools
 
-This topic describes the tools available for you to use in making your application 64-bit ready. Windows 10 is available for both x64 and ARM64 based processors.
+This topic describes the tools available for you to use in making your application 64-bit ready. Windows 10 is available for both x64 and ARM64 based processors.
 
 ## Include Files
 
@@ -31,7 +38,7 @@ The compiler defines the following macros to identify the platform.
 
 
 
- 
+ 
 
 The following macros are specific to the architecture.
 
@@ -46,7 +53,7 @@ The following macros are specific to the architecture.
 
 
 
- 
+ 
 
 Do not use these macros except with architecture-specific code, instead, use \_WIN64, \_WIN32, and \_WIN16 whenever possible.
 
@@ -77,7 +84,7 @@ void            * ULongToPtr(       const unsigned long ul )
 > \[!Warning\]  
 > **IntToPtr** sign-extends the **int** value, **UIntToPtr** zero-extends the **unsigned int** value, **LongToPtr** sign-extends the **long** value, and **ULongToPtr** zero-extends the **unsigned long** value.
 
- 
+ 
 
 ## 64-bit Compiler
 
@@ -107,9 +114,9 @@ There is a warning option to assist porting to LLP64. The -Wp64 -W3 switch enabl
 
 To build applications, use the linker and libraries provided by the Windows SDK. Most 32-bit libraries have a corresponding 64-bit version, but certain legacy libraries are available only in 32-bit versions. Code that calls into these libraries will not link when the application is built for 64-bit Windows.
 
- 
+ 
 
- 
+ 
 
 
 

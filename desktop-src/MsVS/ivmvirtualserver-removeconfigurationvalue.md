@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer RemoveConfigurationValue method
 description: The RemoveConfigurationValue method removes preference data for the current user for the requested key.
-ms.assetid: '9a116673-d0ce-478b-924d-c63d3f2b85d6'
-keywords: ["RemoveConfigurationValue method Virtual Server", "RemoveConfigurationValue method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , RemoveConfigurationValue method"]
+ms.assetid: 9a116673-d0ce-478b-924d-c63d3f2b85d6
+keywords:
+- RemoveConfigurationValue method Virtual Server
+- RemoveConfigurationValue method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , RemoveConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::RemoveConfigurationValue method
@@ -22,7 +30,7 @@ The **RemoveConfigurationValue** method removes preference data for the current 
 
 ```C++
 HRESULT RemoveConfigurationValue(
-  [in] BSTR preferenceKey
+  [in] BSTR preferenceKey
 );
 ```
 
@@ -57,7 +65,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +77,8 @@ This method provides low-level access to any preference value for the current us
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -82,9 +90,9 @@ This method provides low-level access to any preference value for the current us
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

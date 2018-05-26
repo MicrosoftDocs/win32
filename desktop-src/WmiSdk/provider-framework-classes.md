@@ -1,13 +1,16 @@
 ---
-Description: 'WMI C++ classes that are part of the WMI Provider Framework are now considered in final state.'
+Description: WMI C++ classes that are part of the WMI Provider Framework are now considered in final state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '062a7724-0589-4e9d-af7a-39fd9c08e40b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 062a7724-0589-4e9d-af7a-39fd9c08e40b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Provider Framework Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Provider Framework Classes
@@ -20,12 +23,12 @@ The provider framework implements the following classes.
 
 | Framework class                                | Description                                                                                                                                                                                                         |
 |------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CFrameworkQuery**](cframeworkquery.md)     | Contains methods for query processing.                                                                                                                                                                              |
-| [**CInstance**](cinstance.md)                 | Contains methods to set and retrieve properties and is an encapsulation of the [**IWbemClassObject**](iwbemclassobject.md) interface. Implementer should not have to access **IWbemClassObject** methods directly. |
-| [**CThreadBase**](cthreadbase.md)             | A base class that supplies the internal thread safety mechanisms for the WMI Provider Framework.                                                                                                                    |
-| [**CWbemGlueFactory**](cwbemgluefactory.md)   | Part of the WMI Provider Framework. The Provider Framework implements methods of this interface internally to create new instances of classes for the provider.                                                     |
-| [**CWbemProviderGlue**](cwbemproviderglue.md) | Implements [**IWbemProviderInit**](iwbemproviderinit.md) and methods that control the loading and unloading of the framework provider.                                                                             |
-| [**Provider**](provider.md)                   | Contains helper functions and provides default implementations of the methods of [**IWbemServices**](iwbemservices.md).                                                                                            |
+| [**CFrameworkQuery**](/windows/win32/FrQuery/nl-frquery-cframeworkquery?branch=master)     | Contains methods for query processing.                                                                                                                                                                              |
+| [**CInstance**](/windows/win32/Instance/nl-instance-cinstance?branch=master)                 | Contains methods to set and retrieve properties and is an encapsulation of the [**IWbemClassObject**](/windows/win32/WbemCli/nn-wbemcli-iwbemclassobject?branch=master) interface. Implementer should not have to access **IWbemClassObject** methods directly. |
+| [**CThreadBase**](/windows/win32/ThrdBase/nl-thrdbase-cthreadbase?branch=master)             | A base class that supplies the internal thread safety mechanisms for the WMI Provider Framework.                                                                                                                    |
+| [**CWbemGlueFactory**](/windows/win32/WbemGlue/nl-wbemglue-cwbemgluefactory?branch=master)   | Part of the WMI Provider Framework. The Provider Framework implements methods of this interface internally to create new instances of classes for the provider.                                                     |
+| [**CWbemProviderGlue**](/windows/win32/WbemGlue/nl-wbemglue-cwbemproviderglue?branch=master) | Implements [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) and methods that control the loading and unloading of the framework provider.                                                                             |
+| [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master)                   | Contains helper functions and provides default implementations of the methods of [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master).                                                                                            |
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckRequest method checks if there is a request, without blocking.'
-ms.assetid: '46d0840e-a304-41e3-9016-9f35e404cd30'
-title: 'CAMThread.CheckRequest method'
+Description: The CheckRequest method checks if there is a request, without blocking.
+ms.assetid: 46d0840e-a304-41e3-9016-9f35e404cd30
+title: CAMThread.CheckRequest method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread.CheckRequest method
@@ -13,7 +18,7 @@ The `CheckRequest` method checks if there is a request, without blocking.
 
 ```C++
 BOOL CheckRequest(
-   DWORD *pParam
+   DWORD *pParam
 );
 ```
 
@@ -58,9 +63,9 @@ If another thread is waiting on a call to CallWorker, this method retrieves the 
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

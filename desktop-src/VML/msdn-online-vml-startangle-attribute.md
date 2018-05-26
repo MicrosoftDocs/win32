@@ -1,7 +1,12 @@
 ---
 title: VML StartAngle Attribute
 description: VML StartAngle Attribute
-ms.assetid: '334ae52a-cde4-427e-8080-ec789b4d9d39'
+ms.assetid: 334ae52a-cde4-427e-8080-ec789b4d9d39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML StartAngle Attribute

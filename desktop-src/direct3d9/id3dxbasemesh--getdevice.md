@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the device associated with the mesh.'
-ms.assetid: '16ff5267-0c64-4c3d-925d-6fc10f54c9c4'
-title: 'ID3DXBaseMesh::GetDevice method'
+---
+Description: Retrieves the device associated with the mesh.
+ms.assetid: 16ff5267-0c64-4c3d-925d-6fc10f54c9c4
+title: ID3DXBaseMeshGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::GetDevice method
@@ -26,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the Direct3D device object associated with the mesh.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the Direct3D device object associated with the mesh.
 
 </dd> </dl>
 
@@ -40,7 +45,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 ## Remarks
 
-Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](idirect3ddevice9.md) interface. Be sure to call [**IUnknown**](com.iunknown) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
+Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface. Be sure to call [**IUnknown**](com.iunknown) when you are done using this **IDirect3DDevice9** interface or you will have a memory leak.
 
 ## Requirements
 

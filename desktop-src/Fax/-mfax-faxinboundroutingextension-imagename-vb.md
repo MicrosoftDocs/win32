@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension.'
-ms.assetid: '5b44f833-ce51-416a-830a-9669cdf2a718'
-title: 'FaxInboundRoutingExtension.ImageName property'
+---
+Description: The ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax routing extension.
+ms.assetid: 5b44f833-ce51-416a-830a-9669cdf2a718
+title: FaxInboundRoutingExtension.ImageName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.ImageName property
@@ -50,7 +55,7 @@ The path can include valid environment variables, for example, `%SYSTEMDRIVE%` a
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

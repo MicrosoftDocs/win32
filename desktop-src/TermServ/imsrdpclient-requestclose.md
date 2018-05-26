@@ -4,11 +4,32 @@ description: Requests a graceful shutdown of the Remote Desktop ActiveX control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b930a00-f134-4da2-a752-8fd131a22043'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0b930a00-f134-4da2-a752-8fd131a22043
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RequestClose method Remote Desktop Services", "RequestClose method Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , RequestClose method", "RequestClose method Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , RequestClose method"]
+keywords:
+- RequestClose method Remote Desktop Services
+- RequestClose method Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , RequestClose method
+- RequestClose method Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , RequestClose method
 topic_type:
 - apiref
 api_name:
@@ -26,18 +47,21 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient::RequestClose method
 
-Requests a graceful shutdown of the Remote Desktop ActiveX control. A graceful shutdown can include ending the user's Remote Desktop Services session but it does not shut down the Remote Desktop Session Host (RD Session Host) server.
+Requests a graceful shutdown of the Remote Desktop ActiveX control. A graceful shutdown can include ending the user's Remote Desktop Services session but it does not shut down the Remote Desktop Session Host (RD Session Host) server.
 
 ## Syntax
 
 
 ```C++
 HRESULT RequestClose(
-  [out] ControlCloseStatus *pCloseStatus
+  [out] ControlCloseStatus *pCloseStatus
 );
 ```
 
@@ -97,8 +121,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient is defined as 92b4a539-7115-4b7c-a5a9-e5d9efc2780a<br/>        |
@@ -145,9 +169,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsTscAxEvents::OnDisconnected**](imstscaxevents-ondisconnected.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: EM\_SETHANDLE message
 description: Sets the handle of the memory that will be used by a multiline edit control.
-ms.assetid: '0eae9365-62af-4040-8a51-273997a00b81'
-keywords: ["EM_SETHANDLE message Windows Controls"]
+ms.assetid: 0eae9365-62af-4040-8a51-273997a00b81
+keywords:
+- EM_SETHANDLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETHANDLE message
@@ -55,8 +61,8 @@ Sending an **EM\_SETHANDLE** message clears the undo buffer ([**EM\_CANUNDO**](e
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -77,9 +83,9 @@ Sending an **EM\_SETHANDLE** message clears the undo buffer ([**EM\_CANUNDO**](e
 [**EM\_GETMODIFY**](em-getmodify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

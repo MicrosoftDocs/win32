@@ -1,8 +1,23 @@
 ---
 title: Implementing an Audio DSP Plug-in
 description: Implementing an Audio DSP Plug-in
-ms.assetid: '93ff0c45-f418-443d-8fba-c0a62f6e4e80'
-keywords: ["Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,implementing code", "DSP plug-ins,implementing code", "digital signal processing plug-ins,modifying sample code", "DSP plug-ins,modifying sample code", "digital signal processing plug-ins,audio implementation", "DSP plug-ins,audio implementation", "audio DSP plug-ins,implementing code", "audio DSP plug-ins,modifying sample code"]
+ms.assetid: 93ff0c45-f418-443d-8fba-c0a62f6e4e80
+keywords:
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,implementing code
+- DSP plug-ins,implementing code
+- digital signal processing plug-ins,modifying sample code
+- DSP plug-ins,modifying sample code
+- digital signal processing plug-ins,audio implementation
+- DSP plug-ins,audio implementation
+- audio DSP plug-ins,implementing code
+- audio DSP plug-ins,modifying sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing an Audio DSP Plug-in

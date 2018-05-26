@@ -1,7 +1,12 @@
 ---
-Description: 'This table lists the Direct3D 9 formats that can be mapped to a Direct3D 10 format.'
-ms.assetid: '07c9b827-6e2e-4599-b48a-f726484b643d'
-title: 'Legacy Formats: Map Direct3D 9 Formats to Direct3D 10'
+Description: This table lists the Direct3D 9 formats that can be mapped to a Direct3D 10 format.
+ms.assetid: 07c9b827-6e2e-4599-b48a-f726484b643d
+title: Legacy Formats Map Direct3D 9 Formats to Direct3D 10
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Legacy Formats: Map Direct3D 9 Formats to Direct3D 10

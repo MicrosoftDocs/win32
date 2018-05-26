@@ -1,7 +1,12 @@
 ---
 title: SET PROPERTYNAME
 description: SET PROPERTYNAME
-ms.assetid: 'edd966ed-ae5f-47a8-888a-5177cdef76b3'
+ms.assetid: edd966ed-ae5f-47a8-888a-5177cdef76b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SET PROPERTYNAME

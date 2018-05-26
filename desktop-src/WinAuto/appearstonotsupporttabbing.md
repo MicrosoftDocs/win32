@@ -1,7 +1,12 @@
 ---
 title: AppearsToNotSupportTabbing
 description: AppearsToNotSupportTabbing
-ms.assetid: 'AA0A982E-A342-4B49-B159-A2683C8F5CC4'
+ms.assetid: AA0A982E-A342-4B49-B159-A2683C8F5CC4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppearsToNotSupportTabbing

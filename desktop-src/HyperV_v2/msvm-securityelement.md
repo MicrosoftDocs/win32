@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the runtime security settings of a CIM\_ComputerSystem.'
-ms.assetid: 'fa4448dc-9353-475f-ac9b-5c50f36360d8'
-title: 'Msvm\_SecurityElement class'
+Description: Represents the runtime security settings of a CIM\_ComputerSystem.
+ms.assetid: fa4448dc-9353-475f-ac9b-5c50f36360d8
+title: Msvm\_SecurityElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SecurityElement class
@@ -16,9 +21,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SecurityElement : CIM_EnabledLogicalElement
 {
-  string  SystemCreationClassName;
-  string  SystemName;
-  string  CreationClassName;
+  string  SystemCreationClassName;
+  string  SystemName;
+  string  CreationClassName;
   boolean Shielded;
   boolean EncryptStateAndVmMigrationTrafficEnabled;
 };
@@ -116,8 +121,8 @@ The name of the scoping system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -131,9 +136,9 @@ The name of the scoping system.
 [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

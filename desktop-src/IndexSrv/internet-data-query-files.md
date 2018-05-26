@@ -1,7 +1,12 @@
 ---
 title: Internet Data Query Files
 description: Internet Data Query Files
-ms.assetid: '9e4eb914-3d1f-4821-b8aa-95bf5408f584'
+ms.assetid: 9e4eb914-3d1f-4821-b8aa-95bf5408f584
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet Data Query Files
@@ -17,7 +22,7 @@ This part of the documentation contains the following topics:
 
 -   [Names Section of .Idq Files](names-section-of-idq-files.md): Defines nonstandard column names in an .idq file that can be referred to in a query.
 -   [Defining Friendly Names](defining-friendly-names.md): Examples of defining friendly names for properties.
--   [Defining Custom Properties](defining-custom-properties.md): Examples of custom properties from various [**IFilter**](ifilter.md) implementations, including Microsoft Office and HTML.
+-   [Defining Custom Properties](defining-custom-properties.md): Examples of custom properties from various [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementations, including Microsoft Office and HTML.
 -   [Query Section of .Idq Files](query-section-of-idq-files.md): Explains the parameters that can be used in a query.
 -   [Effect of Parameters on Query Performance](effect-of-parameters-on-query-performance.md): Tells how to set parameters for the best performance.
 -   [Sequential vs. Nonsequential Execution](sequential-and-nonsequential-execution.md): Describes the two ways to execute a query.

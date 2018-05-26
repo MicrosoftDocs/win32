@@ -1,12 +1,17 @@
 ---
 title: Processing Registrations
 description: The HTTP Server APIs use the routing database to apply access checks during registrations.
-ms.assetid: 'd72aa213-b8e8-4fe9-b98c-41114d2cea56'
+ms.assetid: d72aa213-b8e8-4fe9-b98c-41114d2cea56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing Registrations
 
-The HTTP Server APIs use the routing database to apply access checks during registrations. A registration for a [UrlPrefix](urlprefix-strings.md) must pass a series of access checks to ensure that the user registering for the namespace has access rights. Use the [**HttpAddUrl**](httpaddurl.md) function to add a new registration.
+The HTTP Server APIs use the routing database to apply access checks during registrations. A registration for a [UrlPrefix](urlprefix-strings.md) must pass a series of access checks to ensure that the user registering for the namespace has access rights. Use the [**HttpAddUrl**](/windows/win32/Http/nf-http-httpaddurl?branch=master) function to add a new registration.
 
 **To add a new registration with HttpAddUrl**
 
@@ -25,7 +30,7 @@ The following examples illustrate the process to install a registration in the r
 -   Registration: http://+:80/vroot/subdir/ by User A succeeds due to reservation 1.
 -   Registration: http://adatum.com:80/vroot/anotherdir/ by User B succeeds due to reservation 2.
 
-The access check for registration does not include checks for delegation privileges. There are no access checks based on reservations (see [**HttpRemoveUrl**](httpremoveurl.md)). The only requirement for deleting a registration us that the calling process must have created the registration.
+The access check for registration does not include checks for delegation privileges. There are no access checks based on reservations (see [**HttpRemoveUrl**](/windows/win32/Http/nf-http-httpremoveurl?branch=master)). The only requirement for deleting a registration us that the calling process must have created the registration.
 
  
 

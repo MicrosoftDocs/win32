@@ -1,7 +1,12 @@
 ---
-Description: 'When elevated privileges are not required to install a Windows Installer package, the author of the package can suppress the dialog box that User Account Control (UAC) displays to prompt users for administrator authorization.'
-ms.assetid: 'cab30f95-cc93-46db-aba5-741b44adb6de'
+Description: When elevated privileges are not required to install a Windows Installer package, the author of the package can suppress the dialog box that User Account Control (UAC) displays to prompt users for administrator authorization.
+ms.assetid: cab30f95-cc93-46db-aba5-741b44adb6de
 title: Authoring Packages without the UAC Dialog Box
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Packages without the UAC Dialog Box

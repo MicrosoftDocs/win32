@@ -1,8 +1,9 @@
 ---
 title: MsimtfIsWindowFiltered function
 description: The MsimtfIsWindowFiltered function tests if the given window is filtered by AIMM (Active Input Method Manager).
-ms.assetid: '1f5e98f1-3626-4aa5-b2da-b6bc48d02184'
-keywords: ["MsimtfIsWindowFiltered function Text Services Framework"]
+ms.assetid: 1f5e98f1-3626-4aa5-b2da-b6bc48d02184
+keywords:
+- MsimtfIsWindowFiltered function Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - msimtf.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsimtfIsWindowFiltered function
@@ -22,7 +28,7 @@ The **MsimtfIsWindowFiltered** function tests if the given window is filtered by
 
 ```C++
 BOOL CALLBACK MsimtfIsWindowFiltered(
-  _In_ HWND hwnd
+  _In_ HWND hwnd
 );
 ```
 
@@ -50,7 +56,7 @@ A window handle to be tested.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,15 +68,15 @@ A window can be filtered by IActiveIMMApp::FilterClientWindows.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Msimtf.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

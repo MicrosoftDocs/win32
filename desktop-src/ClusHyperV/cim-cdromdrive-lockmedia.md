@@ -4,13 +4,16 @@ description: Represents a device that can use media to store and retrieve data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6fbf0a53-f10c-449c-88b3-d47642dca33d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6fbf0a53-f10c-449c-88b3-d47642dca33d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["LockMedia method", "LockMedia method, CIM_CDROMDrive class", "CIM_CDROMDrive class, LockMedia method"]
+keywords:
+- LockMedia method
+- LockMedia method, CIM_CDROMDrive class
+- CIM_CDROMDrive class, LockMedia method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LockMedia method of the CIM\_CDROMDrive class
@@ -30,7 +36,7 @@ Represents a device that can use media to store and retrieve data.
 
 ```mof
 uint32 LockMedia(
-  [in] boolean Lock
+  [in] boolean Lock
 );
 ```
 
@@ -58,7 +64,7 @@ This method returns "0" if successful, "1" if not supported, and any other value
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -72,9 +78,9 @@ This method returns "0" if successful, "1" if not supported, and any other value
 [**CIM\_CDROMDrive**](cim-cdromdrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

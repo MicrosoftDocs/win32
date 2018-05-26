@@ -1,8 +1,11 @@
 ---
 title: IWMPClosedCaption2 getSAMIStyleName method
 description: The getSAMIStyleName method returns the name of a style supported by the current SAMI file.
-ms.assetid: 'e7678ca6-f52f-45f4-bd1c-7fbcdf1cc47c'
-keywords: ["getSAMIStyleName method Windows Media Player", "getSAMIStyleName method Windows Media Player , IWMPClosedCaption2 interface", "IWMPClosedCaption2 interface Windows Media Player , getSAMIStyleName method"]
+ms.assetid: e7678ca6-f52f-45f4-bd1c-7fbcdf1cc47c
+keywords:
+- getSAMIStyleName method Windows Media Player
+- getSAMIStyleName method Windows Media Player , IWMPClosedCaption2 interface
+- IWMPClosedCaption2 interface Windows Media Player , getSAMIStyleName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption2::getSAMIStyleName method
@@ -98,9 +106,9 @@ This method returns a zero-length string ("") unless a digital media file is ope
 [**IWMPClosedCaption2 Interface (VB and C#)**](iwmpclosedcaption2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

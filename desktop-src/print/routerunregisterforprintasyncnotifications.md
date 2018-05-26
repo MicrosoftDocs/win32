@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RouterUnregisterForPrintAsyncNotifications function unregisters for receiving asynchronous notifications associated with a printer or print server.'
-ms.assetid: '67909e35-fae2-40b7-b39f-58576e932332'
+---
+Description: The RouterUnregisterForPrintAsyncNotifications function unregisters for receiving asynchronous notifications associated with a printer or print server.
+ms.assetid: 67909e35-fae2-40b7-b39f-58576e932332
 title: RouterUnregisterForPrintAsyncNotifications function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterUnregisterForPrintAsyncNotifications function

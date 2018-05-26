@@ -1,12 +1,17 @@
 ---
-Description: 'Windows GDI+ uses three coordinate spaces: world, page, and device.'
-ms.assetid: 'eb20f5e9-25f5-4f27-8ea5-83f6819425ed'
+Description: Windows GDI+ uses three coordinate spaces world, page, and device.
+ms.assetid: eb20f5e9-25f5-4f27-8ea5-83f6819425ed
 title: Types of Coordinate Systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Coordinate Systems
 
-Windows GDI+ uses three coordinate spaces: world, page, and device. When you make the call `myGraphics.DrawLine(&myPen, 0, 0, 160, 80)`, the points that you pass to the [**Graphics::DrawLine**](-gdiplus-class-graphics-drawline-pen-pen-point-pt1-point-pt2-.md) method — (0, 0) and (160, 80) — are in the world coordinate space. Before GDI+ can draw the line on the screen, the coordinates pass through a sequence of transformations. One transformation converts world coordinates to page coordinates, and another transformation converts page coordinates to device coordinates.
+Windows GDI+ uses three coordinate spaces: world, page, and device. When you make the call `myGraphics.DrawLine(&myPen, 0, 0, 160, 80)`, the points that you pass to the [**Graphics::DrawLine**](/windows/win32/Gdiplusgraphics/?branch=master) method — (0, 0) and (160, 80) — are in the world coordinate space. Before GDI+ can draw the line on the screen, the coordinates pass through a sequence of transformations. One transformation converts world coordinates to page coordinates, and another transformation converts page coordinates to device coordinates.
 
 Suppose you want to work with a coordinate system that has its origin in the body of the client area rather than the upper-left corner. Say, for example, that you want the origin to be 100 pixels from the left edge of the client area and 50 pixels from the top of the client area. The following illustration shows such a coordinate system.
 
@@ -32,7 +37,7 @@ The coordinates of the endpoints of your line in the three coordinate spaces are
 
 Note that the page coordinate space has its origin at the upper-left corner of the client area; this will always be the case. Also note that because the unit of measure is the pixel, the device coordinates are the same as the page coordinates. If you set the unit of measure to something other than pixels (for example, inches), then the device coordinates will be different from the page coordinates.
 
-The transformation that maps world coordinates to page coordinates is called the *world transformation* and is maintained by a [**Graphics**](-gdiplus-class-graphics-class.md) object. In the previous example, the world transformation is a translation 100 units in the x direction and 50 units in the y direction. The following example sets the world transformation of a **Graphics** object and then uses that **Graphics** object to draw the line shown in the previous figure.
+The transformation that maps world coordinates to page coordinates is called the *world transformation* and is maintained by a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object. In the previous example, the world transformation is a translation 100 units in the x direction and 50 units in the y direction. The following example sets the world transformation of a **Graphics** object and then uses that **Graphics** object to draw the line shown in the previous figure.
 
 
 ```
@@ -43,9 +48,9 @@ myGraphics.DrawLine(&amp;myPen, 0, 0, 160, 80);
 
 
 
-The transformation that maps page coordinates to device coordinates is called the *page transformation*. The [**Graphics**](-gdiplus-class-graphics-class.md) class provides four methods for manipulating and inspecting the page transformation: [**Graphics::SetPageUnit**](-gdiplus-class-graphics-setpageunit-unit-.md), [**Graphics::GetPageUnit**](-gdiplus-class-graphics-getpageunit-.md), [**Graphics::SetPageScale**](-gdiplus-class-graphics-setpagescale-scale-.md), and [**Graphics::GetPageScale**](-gdiplus-class-graphics-getpagescale-.md). The **Graphics** class also provides two methods, [**Graphics::GetDpiX**](-gdiplus-class-graphics-getdpix-.md) and [**Graphics::GetDpiY**](-gdiplus-class-graphics-getdpiy-.md), for examining the horizontal and vertical dots per inch of the display device.
+The transformation that maps page coordinates to device coordinates is called the *page transformation*. The [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class provides four methods for manipulating and inspecting the page transformation: [**Graphics::SetPageUnit**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setpageunit?branch=master), [**Graphics::GetPageUnit**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-getpageunit?branch=master), [**Graphics::SetPageScale**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setpagescale?branch=master), and [**Graphics::GetPageScale**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-getpagescale?branch=master). The **Graphics** class also provides two methods, [**Graphics::GetDpiX**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpix?branch=master) and [**Graphics::GetDpiY**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-getdpiy?branch=master), for examining the horizontal and vertical dots per inch of the display device.
 
-You can use the [**Graphics::SetPageUnit**](-gdiplus-class-graphics-setpageunit-unit-.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class to specify a unit of measure. The following example draws a line from (0, 0) to (2, 1) where the point (2, 1) is 2 inches to the right and 1 inch down from the point (0, 0).
+You can use the [**Graphics::SetPageUnit**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-setpageunit?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class to specify a unit of measure. The following example draws a line from (0, 0) to (2, 1) where the point (2, 1) is 2 inches to the right and 1 inch down from the point (0, 0).
 
 
 ```
@@ -56,7 +61,7 @@ myGraphics.DrawLine(&amp;myPen, 0, 0, 2, 1);
 
 
 
-> [!Note] If you don't specify a pen width when you construct your pen, the previous example will draw a line that is one inch wide. You can specify the pen width in the second argument to the [**Pen**](-gdiplus-class-pen-class.md) constructor:
+> [!Note] If you don't specify a pen width when you construct your pen, the previous example will draw a line that is one inch wide. You can specify the pen width in the second argument to the [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) constructor:
 >
 > `Pen myPen(Color(255, 0, 0, 0), 1/myGraphics.GetDpiX())`.
 
@@ -76,7 +81,7 @@ If we assume that the display device has 96 dots per inch in the horizontal dire
 
  
 
-You can combine the world and page transformations to achieve a variety of effects. For example, suppose you want to use inches as the unit of measure and you want the origin of your coordinate system to be 2 inches from the left edge of the client area and 1/2 inch from the top of the client area. The following example sets the world and page transformations of a [**Graphics**](-gdiplus-class-graphics-class.md) object and then draws a line from (0, 0) to (2, 1).
+You can combine the world and page transformations to achieve a variety of effects. For example, suppose you want to use inches as the unit of measure and you want the origin of your coordinate system to be 2 inches from the left edge of the client area and 1/2 inch from the top of the client area. The following example sets the world and page transformations of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and then draws a line from (0, 0) to (2, 1).
 
 
 ```

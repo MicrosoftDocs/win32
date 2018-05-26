@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information about the space used by the Offline Files cache.'
-ms.assetid: '3a6fa548-0e9a-4138-a5ec-cde0aeb2b811'
+---
+Description: Retrieves information about the space used by the Offline Files cache.
+ms.assetid: 3a6fa548-0e9a-4138-a5ec-cde0aeb2b811
 title: CSCGetSpaceUsageW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSCGetSpaceUsageW function

@@ -4,11 +4,14 @@ description: Acquire a policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.UserPolicy.AcquireAsync(Windows.Storage.Streams.IBuffer,System.String,Microsoft.RightsManagement.IAuthenticationCallback,Microsoft.RightsManagement.PolicyAcquisitionOptions)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.UserPolicy.AcquireAsync(Windows.Storage.Streams.IBuffer,System.String,Microsoft.RightsManagement.IAuthenticationCallback,Microsoft.RightsManagement.PolicyAcquisitionOptions)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AcquireAsync method", "AcquireAsync method, UserPolicy class", "UserPolicy class, AcquireAsync method"]
+keywords:
+- AcquireAsync method
+- AcquireAsync method, UserPolicy class
+- UserPolicy class, AcquireAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.AcquireAsync method
@@ -123,9 +129,9 @@ The asynchronous operation. Upon completion, [IAsyncOperation](https://msdn.micr
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

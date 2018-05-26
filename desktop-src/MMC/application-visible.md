@@ -1,14 +1,19 @@
 ---
-title: \_Application Visible property
+title: '\_Application Visible property'
 description: The Visible property returns whether the MMC application is viewable or hidden. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '438757ad-0ca3-4aab-b955-7c7564028f9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 438757ad-0ca3-4aab-b955-7c7564028f9f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Visible property MMC", "Visible property MMC , Application object", "Application object MMC , Visible property", "Visible property MMC , _Application interface", "_Application interface MMC , Visible property"]
+keywords:
+- Visible property MMC
+- Visible property MMC , Application object
+- Application object MMC , Visible property
+- Visible property MMC , _Application interface
+- _Application interface MMC , Visible property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Visible property
@@ -55,8 +63,8 @@ End If
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -72,9 +80,9 @@ End If
 [Controlling the Lifetime of an MMC Instance](controlling-the-lifetime-of-an-mmc-instance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Returns an object containing event settings as supplied by the serv
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0ddadb89-7059-43bb-9b8b-e31976ce715a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 0ddadb89-7059-43bb-9b8b-e31976ce715a
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMADRSettings class File Server Resource Manager", "MSFT_FSRMADRSettings class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMADRSettings class File Server Resource Manager
+- MSFT_FSRMADRSettings class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMADRSettings class
@@ -44,14 +49,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMADRSettings
 {
-  uint32  Event;
+  uint32  Event;
   boolean Enabled = False;
-  string  DisplayMessage;
-  string  EmailMessage;
+  string  DisplayMessage;
+  string  EmailMessage;
   boolean AllowRequests = False;
   boolean MailToOwner = True;
   boolean MailCCAdmin = True;
-  string  MailTo = "";
+  string  MailTo = "";
   boolean IncludeDeviceClaims = True;
   boolean IncludeUserClaims = True;
   boolean EventLog = True;
@@ -270,7 +275,7 @@ Indicates whether these settings were set by group policy. The default value is 
 
 ## Remarks
 
-Not all combinations of properties are supported. The **Name** property is always required. The **UpdateDerived** and **UpdateDerivedMatching** properties are mutually exclusive—if one is provided then the other must not be set. Only one of **Description**, **Size**, **SoftLimit**, and **Threshold** must be provided. The table below indicates which combinations of properties in this class are supported.
+Not all combinations of properties are supported. The **Name** property is always required. The **UpdateDerived** and **UpdateDerivedMatching** properties are mutually exclusive if one is provided then the other must not be set. Only one of **Description**, **Size**, **SoftLimit**, and **Threshold** must be provided. The table below indicates which combinations of properties in this class are supported.
 
 
 
@@ -406,7 +411,7 @@ Yes
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -415,7 +420,7 @@ Yes
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -429,12 +434,12 @@ Yes
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> <dt>
 
-[**IFsrmAccessDeniedRemediationClient**](ifsrmaccessdeniedremediationclient.md)
+[**IFsrmAccessDeniedRemediationClient**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmaccessdeniedremediationclient?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

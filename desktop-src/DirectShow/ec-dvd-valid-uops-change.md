@@ -1,12 +1,17 @@
 ---
-Description: 'Signals that the available set of IDvdControl2 interface methods has changed.'
-ms.assetid: 'dfe698b9-abe5-44a7-9844-f408f11fd0ce'
-title: 'EC\_DVD\_VALID\_UOPS\_CHANGE'
+Description: Signals that the available set of IDvdControl2 interface methods has changed.
+ms.assetid: dfe698b9-abe5-44a7-9844-f408f11fd0ce
+title: EC\_DVD\_VALID\_UOPS\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_VALID\_UOPS\_CHANGE
 
-Signals that the available set of [**IDvdControl2**](idvdcontrol2.md) interface methods has changed.
+Signals that the available set of [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) interface methods has changed.
 
 ## Parameters
 
@@ -15,7 +20,7 @@ Signals that the available set of [**IDvdControl2**](idvdcontrol2.md) interface 
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-**DWORD** value that contains a combination of zero or more flags from the [**VALID\_UOP\_FLAG**](valid-uop-flag.md) enumeration. The bits indicate which [**IDvdControl2**](idvdcontrol2.md) commands were explicitly disabled by the DVD disc.
+**DWORD** value that contains a combination of zero or more flags from the [**VALID\_UOP\_FLAG**](/windows/win32/strmif/ne-strmif-__midl___midl_itf_strmif_0000_0132_0001?branch=master) enumeration. The bits indicate which [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) commands were explicitly disabled by the DVD disc.
 
 </dd> <dt>
 
@@ -28,7 +33,7 @@ Zero.
 
 ## Remarks
 
-This event indicates only which operations are explicitly disabled by the content on the DVD disc. It does not guarantee that it is valid to call methods that are not disabled. For example, if no buttons are present, the [**IDvdControl2::ActivateButton**](idvdcontrol2-activatebutton.md) method won't work, even though the method is not explicitly disabled.
+This event indicates only which operations are explicitly disabled by the content on the DVD disc. It does not guarantee that it is valid to call methods that are not disabled. For example, if no buttons are present, the [**IDvdControl2::ActivateButton**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-activatebutton?branch=master) method won't work, even though the method is not explicitly disabled.
 
 This event is raised in all domains.
 
@@ -55,9 +60,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

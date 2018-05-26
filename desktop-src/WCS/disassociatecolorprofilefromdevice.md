@@ -1,8 +1,9 @@
 ---
 title: DisassociateColorProfileFromDevice function
 description: The DisassociateColorProfileFromDevice function disassociates a specified color profile with a specified device on a specified computer.
-ms.assetid: '731b4172-3bd6-4f6f-9045-07f36197e120'
-keywords: ["DisassociateColorProfileFromDevice function Windows Color System"]
+ms.assetid: 731b4172-3bd6-4f6f-9045-07f36197e120
+keywords:
+- DisassociateColorProfileFromDevice function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisassociateColorProfileFromDevice function
@@ -24,9 +30,9 @@ The **DisassociateColorProfileFromDevice** function disassociates a specified co
 
 ```C++
 BOOL WINAPI DisassociateColorProfileFromDevice(
-   PCTSTR pMachineName,
-   PCTSTR pProfileName,
-   PCTSTR pDeviceName
+   PCTSTR pMachineName,
+   PCTSTR pProfileName,
+   PCTSTR pDeviceName
 );
 ```
 
@@ -77,8 +83,8 @@ If your application disassociates all profiles from a device, WCS uses the sRGB 
 
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                            |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>                                |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl>                            |
@@ -99,9 +105,9 @@ If your application disassociates all profiles from a device, WCS uses the sRGB 
 [**AssociateColorProfileWithDevice**](associatecolorprofilewithdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: The OnViewChange event occurs when the view has changed, such as by
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32a74571-b7ca-47a4-9ad5-5325e4ea0593'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 32a74571-b7ca-47a4-9ad5-5325e4ea0593
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["OnViewChange event MMC", "OnViewChange event MMC , Application object", "Application object MMC , OnViewChange event", "OnViewChange event MMC , AppEvents interface", "AppEvents interface MMC , OnViewChange event"]
+keywords:
+- OnViewChange event MMC
+- OnViewChange event MMC , Application object
+- Application object MMC , OnViewChange event
+- OnViewChange event MMC , AppEvents interface
+- AppEvents interface MMC , OnViewChange event
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AppEvents::OnViewChange event
@@ -77,8 +85,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -87,9 +95,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

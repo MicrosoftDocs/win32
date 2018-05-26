@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_TERMINATE message
 description: A Dynamic Data Exchange (DDE) application (client or server) posts a WM\_DDE\_TERMINATE message to terminate a conversation. To post this message, call the PostMessage function with the following parameters.
-ms.assetid: '4fc162c0-ccc2-44e3-9c07-d49d7426af8b'
-keywords: ["WM_DDE_TERMINATE message Data Exchange"]
+ms.assetid: 4fc162c0-ccc2-44e3-9c07-d49d7426af8b
+keywords:
+- WM_DDE_TERMINATE message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_TERMINATE message
@@ -60,8 +66,8 @@ The client or server application should respond by posting a **WM\_DDE\_TERMINAT
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -91,9 +97,9 @@ The client or server application should respond by posting a **WM\_DDE\_TERMINAT
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

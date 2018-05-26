@@ -1,7 +1,12 @@
 ---
-Description: 'The DirectXMath Library implements an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4).'
-ms.assetid: '9972e382-7a0f-88a7-ad44-18521af3520d'
+Description: The DirectXMath Library implements an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4).
+ms.assetid: 9972e382-7a0f-88a7-ad44-18521af3520d
 title: Getting Started
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started
@@ -37,7 +42,7 @@ The DirectXMath library is included in the Windows SDK. Alternatively you can do
 
 ## Run-Time System Requirements
 
-The DirectXMath Library uses specialized processor instructions for vector operations when they are available. To avoid having a program generate "unknown instruction exception" faults, check for processor support by calling [**XMVerifyCPUSupport**](xmverifycpusupport.md) before using the DirectXMath Library.
+The DirectXMath Library uses specialized processor instructions for vector operations when they are available. To avoid having a program generate "unknown instruction exception" faults, check for processor support by calling [**XMVerifyCPUSupport**](/windows/win32/DirectXMath/?branch=master) before using the DirectXMath Library.
 
 These are the basic DirectXMath Library run-time support requirements:
 
@@ -46,7 +51,7 @@ These are the basic DirectXMath Library run-time support requirements:
 -   Compilation with [**\_XM\_NO\_INTRINSICS\_**](ovw-xnamath-reference-directives.md) defined requires only standard floating-point operation support.
 
 > [!Note]  
-> When you call [**XMVerifyCPUSupport**](xmverifycpusupport.md), include &lt;windows.h&gt; before you include &lt;DirectXMath.h&gt;. This is the only function in the library that requires any content from &lt;windows.h&gt; so you aren't required to include &lt;windows.h&gt; in every module that uses &lt;DirectXMath.h&gt;.
+> When you call [**XMVerifyCPUSupport**](/windows/win32/DirectXMath/?branch=master), include &lt;windows.h&gt; before you include &lt;DirectXMath.h&gt;. This is the only function in the library that requires any content from &lt;windows.h&gt; so you aren't required to include &lt;windows.h&gt; in every module that uses &lt;DirectXMath.h&gt;.
 
  
 
@@ -74,18 +79,18 @@ To use DirectXMath Library functions, include the DirectXMath.h, DirectXPackedVe
 
 ## Type Usage Guidelines
 
-The [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](xmmatrix.md) types are the work horses for the DirectXMath Library. Every operation consumes or produces data of these types. Working with them is key to using the library. However, since DirectXMath makes use of the SIMD instruction sets, these data types are subject to a number of restrictions. It is critical that you understand these restrictions if you want to make good use of the DirectXMath functions.
+The [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) types are the work horses for the DirectXMath Library. Every operation consumes or produces data of these types. Working with them is key to using the library. However, since DirectXMath makes use of the SIMD instruction sets, these data types are subject to a number of restrictions. It is critical that you understand these restrictions if you want to make good use of the DirectXMath functions.
 
-You should think of [**XMVECTOR**](xmvector-data-type.md) as a proxy for a SIMD hardware register, and [**XMMATRIX**](xmmatrix.md) as a proxy for a logical grouping of four SIMD hardware registers. These types are annotated to indicate they require 16-byte alignment to work correctly. The compiler will automatically place them correctly on the stack when they are used as a local variable, or place them in the data segment when they are used as a global variable. With proper conventions, they can also be passed safely as parameters to a function (see [Calling Conventions](pg-xnamath-internals.md#calling-conventions) for details).
+You should think of [**XMVECTOR**](xmvector-data-type.md) as a proxy for a SIMD hardware register, and [**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) as a proxy for a logical grouping of four SIMD hardware registers. These types are annotated to indicate they require 16-byte alignment to work correctly. The compiler will automatically place them correctly on the stack when they are used as a local variable, or place them in the data segment when they are used as a global variable. With proper conventions, they can also be passed safely as parameters to a function (see [Calling Conventions](pg-xnamath-internals.md#calling-conventions) for details).
 
-Allocations from the heap, however, are more complicated. As such, you need to be careful whenever you use either [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](xmmatrix.md) as a member of a class or structure to be allocated from the heap. On Windows x64, all heap allocations are 16-byte aligned, but for Windows x86, they are only 8-byte aligned. There are options for allocating structures from the heap with 16-byte alignment (see [Properly Align Allocations](pg-xnamath-optimizing.md#properly-align-allocations)). For C++ programs, you can use operator new/delete/new\[\]/delete\[\] overloads (either globally or class-specific) to enforce optimal alignment if desired.
+Allocations from the heap, however, are more complicated. As such, you need to be careful whenever you use either [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) as a member of a class or structure to be allocated from the heap. On Windows x64, all heap allocations are 16-byte aligned, but for Windows x86, they are only 8-byte aligned. There are options for allocating structures from the heap with 16-byte alignment (see [Properly Align Allocations](pg-xnamath-optimizing.md#properly-align-allocations)). For C++ programs, you can use operator new/delete/new\[\]/delete\[\] overloads (either globally or class-specific) to enforce optimal alignment if desired.
 
 > [!Note]  
 > As an alternative to enforcing alignment in your C++ class directly by overloading new/delete, you can use the [pImpl idiom](http://en.wikipedia.org/wiki/Opaque_pointer). If you ensure your **Impl** class is aligned via [**\_\_aligned\_malloc**](fb788d40-ee94-4039-aa4d-97d73dab1ca0) internally, you can then freely use aligned types within the internal implementation. This is a good option when the 'public' class is a Windows Runtime ref class or intended for use with [**std::shared\_ptr&lt;&gt;**](1469fc51-c658-43f1-886c-f4530dd84860), which can otherwise disrupt careful alignment.
 
  
 
-However, often it is easier and more compact to avoid using [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](xmmatrix.md) directly in a class or structure. Instead, make use of the [**XMFLOAT3**](xmfloat3.md), [**XMFLOAT4**](xmfloat4.md), [**XMFLOAT4X3**](xmfloat4x3.md), [**XMFLOAT4X4**](xmfloat4x4.md), and so on, as members of your structure. Further, you can use the [Vector Loading](ovw-xnamath-reference-functions-load.md) and [Vector Storage](ovw-xnamath-reference-functions-storage.md) functions to move the data efficiently into **XMVECTOR** or **XMMATRIX** local variables, perform computations, and store the results. There are also streaming functions ([**XMVector3TransformStream**](xmvector3transformstream.md), [**XMVector4TransformStream**](xmvector4transformstream.md), and so on) that efficiently operate directly on arrays of these data types.
+However, often it is easier and more compact to avoid using [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) directly in a class or structure. Instead, make use of the [**XMFLOAT3**](/windows/win32/DirectXMath/?branch=master), [**XMFLOAT4**](/windows/win32/DirectXMath/?branch=master), [**XMFLOAT4X3**](/windows/win32/DirectXMath/?branch=master), [**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master), and so on, as members of your structure. Further, you can use the [Vector Loading](ovw-xnamath-reference-functions-load.md) and [Vector Storage](ovw-xnamath-reference-functions-storage.md) functions to move the data efficiently into **XMVECTOR** or **XMMATRIX** local variables, perform computations, and store the results. There are also streaming functions ([**XMVector3TransformStream**](xmvector3transformstream.md), [**XMVector4TransformStream**](xmvector4transformstream.md), and so on) that efficiently operate directly on arrays of these data types.
 
 ## Creating Vectors
 
@@ -158,8 +163,8 @@ Many operations require the use of constants in vector computations, and there a
 
 ### VECTORS FROM MEMORY
 
--   For loading a single float value from memory, see [**XMVectorReplicatePtr**](xmvectorreplicateptr.md), [**XMVectorReplicateIntPtr**](xmvectorreplicateintptr.md), [**XMLoadFloat**](xmloadfloat.md), and [**XMLoadInt**](xmloadint.md).
--   Common ways to load float arrays are: [**XMLoadFloat2**](xmloadfloat2.md), [**XMLoadFloat3**](xmloadfloat3.md), [**XMLoadFloat4**](xmloadfloat4.md), [**XMLoadFloat3x3**](xmloadfloat3x3.md), [**XMLoadFloat4x3**](xmloadfloat4x3.md), and [**XMLoadFloat4x4**](xmloadfloat4x4.md).
+-   For loading a single float value from memory, see [**XMVectorReplicatePtr**](xmvectorreplicateptr.md), [**XMVectorReplicateIntPtr**](xmvectorreplicateintptr.md), [**XMLoadFloat**](/windows/win32/DirectXMath/?branch=master), and [**XMLoadInt**](/windows/win32/DirectXMath/?branch=master).
+-   Common ways to load float arrays are: [**XMLoadFloat2**](/windows/win32/DirectXMath/?branch=master), [**XMLoadFloat3**](/windows/win32/DirectXMath/?branch=master), [**XMLoadFloat4**](/windows/win32/DirectXMath/?branch=master), [**XMLoadFloat3x3**](/windows/win32/DirectXMath/?branch=master), [**XMLoadFloat4x3**](/windows/win32/DirectXMath/?branch=master), and [**XMLoadFloat4x4**](/windows/win32/DirectXMath/?branch=master).
 -   DirectXMath includes a rich set of types and related loads and stores for handling various data-structures and common GPU formats. See [Vector Load](ovw-xnamath-reference-functions-load.md) and [Vector Store](ovw-xnamath-reference-functions-storage.md).
 
 ## Extracting Components from Vectors

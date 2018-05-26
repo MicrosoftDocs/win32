@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GET\_SEQUENCE\_SETUP message
 description: The WM\_CAP\_GET\_SEQUENCE\_SETUP message retrieves the current settings of the streaming capture parameters. You can send this message explicitly or by using the capCaptureGetSetup macro.
-ms.assetid: '2220c92a-1994-4f15-9730-1cf01972dda6'
-keywords: ["WM_CAP_GET_SEQUENCE_SETUP message Windows Multimedia"]
+ms.assetid: 2220c92a-1994-4f15-9730-1cf01972dda6
+keywords:
+- WM_CAP_GET_SEQUENCE_SETUP message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GET\_SEQUENCE\_SETUP message
 
-The **WM\_CAP\_GET\_SEQUENCE\_SETUP** message retrieves the current settings of the streaming capture parameters. You can send this message explicitly or by using the [**capCaptureGetSetup**](capcapturegetsetup.md) macro.
+The **WM\_CAP\_GET\_SEQUENCE\_SETUP** message retrieves the current settings of the streaming capture parameters. You can send this message explicitly or by using the [**capCaptureGetSetup**](/windows/win32/Vfw/nf-vfw-capcapturegetsetup?branch=master) macro.
 
 
 ```C++
@@ -40,7 +46,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="s"></span><span id="S"></span>*s*
 </dt> <dd>
 
-Pointer to a [**CAPTUREPARMS**](captureparms.md) structure.
+Pointer to a [**CAPTUREPARMS**](/windows/win32/Vfw/ns-vfw-tagcaptureparms?branch=master) structure.
 
 </dd> </dl>
 
@@ -50,7 +56,7 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 ## Remarks
 
-For information about the parameters used to control streaming capture, see the [**CAPTUREPARMS**](captureparms.md) structure.
+For information about the parameters used to control streaming capture, see the [**CAPTUREPARMS**](/windows/win32/Vfw/ns-vfw-tagcaptureparms?branch=master) structure.
 
 ## Requirements
 
@@ -58,8 +64,8 @@ For information about the parameters used to control streaming capture, see the 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ For information about the parameters used to control streaming capture, see the 
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

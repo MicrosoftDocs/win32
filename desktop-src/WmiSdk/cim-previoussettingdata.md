@@ -1,13 +1,16 @@
 ---
-Description: 'An association between a virtual system and the setting data of the snapshot which is the parent to the virtual system.'
+Description: An association between a virtual system and the setting data of the snapshot which is the parent to the virtual system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd11e00e0-a163-49ea-b8ef-e3909a7dc83f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d11e00e0-a163-49ea-b8ef-e3909a7dc83f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PreviousSettingData class'
+title: CIM\_PreviousSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PreviousSettingData class
@@ -17,7 +20,7 @@ An association between a virtual system and the setting data of the snapshot whi
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -85,9 +88,9 @@ The computer system that was the target of the application.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: HH\_LAST\_ERROR structure
 description: This structure returns the last HtmlHelp() error code and description.
-ms.assetid: 'A22A642C-213B-4732-8E4F-A5E20455B79F'
-keywords: ["HH_LAST_ERROR structure HTML Help Workshop"]
+ms.assetid: A22A642C-213B-4732-8E4F-A5E20455B79F
+keywords:
+- HH_LAST_ERROR structure HTML Help Workshop
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - HHError.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_LAST\_ERROR structure
@@ -22,9 +28,9 @@ This structure returns the last **HtmlHelp()** error code and description.
 
 ```C++
 typedef struct tagHH_LAST_ERROR {
-  int     cbStruct;
+  int     cbStruct;
   HRESULT hr;
-  BSTR    description;
+  BSTR    description;
 } HH_LAST_ERROR;
 ```
 
@@ -76,9 +82,9 @@ Specifies a Unicode string containing a description of the error.
 [About Structures](about-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

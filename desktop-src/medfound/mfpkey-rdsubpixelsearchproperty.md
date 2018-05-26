@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the encoder uses RD-based sub-pixel MV search.'
-ms.assetid: '1359c001-d0a1-4b7d-b142-1e85e6a0b570'
-title: 'MFPKEY\_RDSUBPIXELSEARCH Property'
+---
+Description: Specifies whether the encoder uses RD-based sub-pixel MV search.
+ms.assetid: 1359c001-d0a1-4b7d-b142-1e85e6a0b570
+title: MFPKEY\_RDSUBPIXELSEARCH Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RDSUBPIXELSEARCH Property

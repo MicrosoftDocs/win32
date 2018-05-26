@@ -1,7 +1,7 @@
 ---
 title: TF\_LBMENUF\_\ Constants
 description: The TF\_LBMENUF\_\ constants are used in the ITfMenu AddMenuItem method to specify the characteristics of a menu item in the language bar.
-ms.assetid: 'f8f3f397-b84e-4635-b454-31369c679ce2'
+ms.assetid: f8f3f397-b84e-4635-b454-31369c679ce2
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - Ctfutb.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_LBMENUF\_\* Constants
 
-The **TF\_LBMENUF\_\*** constants are used in the [ITfMenu::AddMenuItem](itfmenu-addmenuitem.md) method to specify the characteristics of a menu item in the language bar.
+The **TF\_LBMENUF\_\*** constants are used in the [ITfMenu::AddMenuItem](/windows/win32/Ctfutb/nf-ctfutb-itfmenu-addmenuitem?branch=master) method to specify the characteristics of a menu item in the language bar.
 
 
 
@@ -38,9 +43,9 @@ The **TF\_LBMENUF\_\*** constants are used in the [ITfMenu::AddMenuItem](itfmenu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                       |
 | Header<br/>                   | <dl> <dt>Ctfutb.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ctfutb.idl</dt> </dl> |
 
@@ -50,12 +55,12 @@ The **TF\_LBMENUF\_\*** constants are used in the [ITfMenu::AddMenuItem](itfmenu
 
 <dl> <dt>
 
-[ITfMenu::AddMenuItem](itfmenu-addmenuitem.md)
+[ITfMenu::AddMenuItem](/windows/win32/Ctfutb/nf-ctfutb-itfmenu-addmenuitem?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

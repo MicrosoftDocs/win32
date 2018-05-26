@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the OLEAdvtSupport property to true when the current user''s system has been upgraded to work with installation-on-demand through COM.'
-ms.assetid: '274d7658-3d33-4c3a-987c-878cbd5bf821'
+---
+Description: The installer sets the OLEAdvtSupport property to true when the current users system has been upgraded to work with installation-on-demand through COM.
+ms.assetid: 274d7658-3d33-4c3a-987c-878cbd5bf821
 title: OLEAdvtSupport property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OLEAdvtSupport property

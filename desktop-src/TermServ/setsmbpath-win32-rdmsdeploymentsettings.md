@@ -4,11 +4,14 @@ description: Updates the UNC path to the SMB share to which virtual machines of 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b0b5b17-7b52-41e5-b9c6-c5f3e51c7853'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0b0b5b17-7b52-41e5-b9c6-c5f3e51c7853
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetSMBPath method Remote Desktop Services", "SetSMBPath method Remote Desktop Services , Win32_RDMSDeploymentSettings class", "Win32_RDMSDeploymentSettings class Remote Desktop Services , SetSMBPath method"]
+keywords:
+- SetSMBPath method Remote Desktop Services
+- SetSMBPath method Remote Desktop Services , Win32_RDMSDeploymentSettings class
+- Win32_RDMSDeploymentSettings class Remote Desktop Services , SetSMBPath method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSMBPath method of the Win32\_RDMSDeploymentSettings class
@@ -28,7 +34,7 @@ Updates the UNC path to the SMB share to which virtual machines of the virtual d
 
 ```mof
 uint32 SetSMBPath(
-  [in] string DirectoryPath
+  [in] string DirectoryPath
 );
 ```
 
@@ -56,7 +62,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -70,9 +76,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSDeploymentSettings**](win32-rdmsdeploymentsettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

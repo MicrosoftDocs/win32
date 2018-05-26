@@ -1,7 +1,12 @@
 ---
 title: Dialog Box Overviews
 description: .
-ms.assetid: '325643f1-a46c-4a7a-9899-70be5faf8872'
+ms.assetid: 325643f1-a46c-4a7a-9899-70be5faf8872
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dialog Box Overviews

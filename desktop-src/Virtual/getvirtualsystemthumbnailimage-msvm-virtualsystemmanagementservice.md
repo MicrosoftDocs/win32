@@ -1,8 +1,11 @@
 ---
 title: GetVirtualSystemThumbnailImage method of the Msvm\_VirtualSystemManagementService class
 description: Retrieves the thumbnail image of an existing virtual system.
-ms.assetid: '28b0815b-31ac-4a56-a934-01353e0d1342'
-keywords: ["GetVirtualSystemThumbnailImage method Hyper-V", "GetVirtualSystemThumbnailImage method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , GetVirtualSystemThumbnailImage method"]
+ms.assetid: 28b0815b-31ac-4a56-a934-01353e0d1342
+keywords:
+- GetVirtualSystemThumbnailImage method Hyper-V
+- GetVirtualSystemThumbnailImage method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , GetVirtualSystemThumbnailImage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVirtualSystemThumbnailImage method of the Msvm\_VirtualSystemManagementService class
@@ -22,10 +30,10 @@ Retrieves the thumbnail image of an existing virtual system.
 
 ```mof
 uint32 GetVirtualSystemThumbnailImage(
-  [in]  CIM_VirtualSystemSettingData REF TargetSystem,
-  [in]  uint16                           WidthPixels,
-  [in]  uint16                           HeightPixels,
-  [out] uint8                            ImageData[]
+  [in]  CIM_VirtualSystemSettingData REF TargetSystem,
+  [in]  uint16                           WidthPixels,
+  [in]  uint16                           HeightPixels,
+  [out] uint8                            ImageData[]
 );
 ```
 
@@ -129,7 +137,7 @@ The following C# sample retrieves the thumbnail image of a virtual system. The r
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -232,7 +240,7 @@ The following VBScript sample retrieves the thumbnail image of a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -458,9 +466,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -473,9 +481,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

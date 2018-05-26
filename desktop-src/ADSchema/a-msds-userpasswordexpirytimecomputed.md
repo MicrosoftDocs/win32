@@ -1,20 +1,25 @@
 ---
 title: ms-DS-User-Password-Expiry-Time-Computed attribute
-description: Contains the expiry time for the user's current password.
+description: Contains the expiry time for the users current password.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '623122f5-48eb-47bb-9e30-71c73d2fa2fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 623122f5-48eb-47bb-9e30-71c73d2fa2fd
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-User-Password-Expiry-Time-Computed attribute AD Schema", "msDS-UserPasswordExpiryTimeComputed attribute AD Schema"]
+keywords:
+- ms-DS-User-Password-Expiry-Time-Computed attribute AD Schema
+- msDS-UserPasswordExpiryTimeComputed attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-User-Password-Expiry-Time-Computed
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-User-Password-Expiry-Time-Computed attribute
@@ -38,9 +43,9 @@ Contains the expiry time for the user's current password.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains the expiry time for the user's current password.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

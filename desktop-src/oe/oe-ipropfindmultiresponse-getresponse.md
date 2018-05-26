@@ -1,8 +1,11 @@
 ---
 title: IPropFindMultiResponse GetResponse method
 description: IPropFindMultiResponse GetResponse method
-ms.assetid: '1c5ee8f2-a3f9-438c-8258-7a6cf4f16f1c'
-keywords: ["GetResponse method Windows Mail (formerly Outlook Express)", "GetResponse method Windows Mail (formerly Outlook Express) , IPropFindMultiResponse interface", "IPropFindMultiResponse interface Windows Mail (formerly Outlook Express) , GetResponse method"]
+ms.assetid: 1c5ee8f2-a3f9-438c-8258-7a6cf4f16f1c
+keywords:
+- GetResponse method Windows Mail (formerly Outlook Express)
+- GetResponse method Windows Mail (formerly Outlook Express) , IPropFindMultiResponse interface
+- IPropFindMultiResponse interface Windows Mail (formerly Outlook Express) , GetResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropFindMultiResponse::GetResponse method
@@ -22,8 +30,8 @@ api_type:
 
 ```C++
 HRESULT GetResponse(
-  [in]  ULONG             ulIndex,
-  [out] IPropFindResponse **ppResponse
+  [in]  ULONG             ulIndex,
+  [out] IPropFindResponse **ppResponse
 );
 ```
 
@@ -63,8 +71,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -72,9 +80,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

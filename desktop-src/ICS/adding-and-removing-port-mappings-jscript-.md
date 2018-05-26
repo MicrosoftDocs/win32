@@ -1,7 +1,12 @@
 ---
 title: Adding and Removing Port Mappings (JScript)
 description: Adding and Removing Port Mappings (JScript)
-ms.assetid: '845887de-4b68-480c-8081-bc56bd0f45ff'
+ms.assetid: 845887de-4b68-480c-8081-bc56bd0f45ff
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding and Removing Port Mappings (JScript)

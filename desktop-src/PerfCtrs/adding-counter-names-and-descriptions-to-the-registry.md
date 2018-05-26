@@ -1,7 +1,12 @@
 ---
-Description: 'The names and descriptions of all performance objects and their counters are stored in the registry.'
-ms.assetid: '6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4'
+Description: The names and descriptions of all performance objects and their counters are stored in the registry.
+ms.assetid: 6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4
 title: Adding Counter Names and Descriptions to the Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Counter Names and Descriptions to the Registry
@@ -83,12 +88,12 @@ The keys are defined as follows:
 | **DriverName**                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Specify the name of the application's performance key located under the **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Services** key. For information on creating this key, see [Creating the Application's Performance Key](creating-the-applications-performance-key.md).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **SymbolFile**                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Specify the .h header file that contains symbolic values of your provider's objects and counters. The header file must be in the same directory as the .INI file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Trusted**                                                                                                                                                                                                                                                                                                                                                                                                                                                       | No value. If you include this key, **lodctr** adds a Library Validation Code registry value to your performance key. The data value is a binary signature of your performance DLL. When PERFLIB calls your DLL it compare the signature with your DLL to determine if it can trust it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Langid**                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Specify the language identifier of each language for which you are providing name and help text. To specify most languages, use the primary language identifier only. The complete list of language identifiers is in the Winnt.h header file, under the heading "Primary Language Ids." Convert the hex value found in Winnt.h into a sequence of characters that omit the “x.” For example, to specify English strings (0x09), use 009. To specify French strings (0x0C), use 00C. Note also that you can not specify Microsoft Locale ID here (e.g. 1033 for English-US.) To specify Chinese and Portuguese text, use both the primary and sublanguage identifiers. If you specify the primary identifier only, **lodctr** uses 804 (simplified Chinese) and 416 (Portuguese), respectively.**Windows Server 2003 and Windows XP:** Specify only the primary language identifier for Portuguese.<br/> <br/> |
+| **Langid**                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Specify the language identifier of each language for which you are providing name and help text. To specify most languages, use the primary language identifier only. The complete list of language identifiers is in the Winnt.h header file, under the heading "Primary Language Ids." Convert the hex value found in Winnt.h into a sequence of characters that omit the  x.  For example, to specify English strings (0x09), use 009. To specify French strings (0x0C), use 00C. Note also that you can not specify Microsoft Locale ID here (e.g. 1033 for English-US.) To specify Chinese and Portuguese text, use both the primary and sublanguage identifiers. If you specify the primary identifier only, **lodctr** uses 804 (simplified Chinese) and 416 (Portuguese), respectively.**Windows Server 2003 and Windows XP:** Specify only the primary language identifier for Portuguese.<br/> <br/> |
 | <dl> <dt><span id="symbol_langid_NAME"></span><span id="symbol_langid_name"></span><span id="SYMBOL_LANGID_NAME"></span>***symbol*\_*langid*\_NAME**</dt> <dd></dd> <dt><span id="symbol_langid_HELP"></span><span id="symbol_langid_help"></span><span id="SYMBOL_LANGID_HELP"></span>***symbol*\_*langid*\_HELP**</dt> <dd></dd> </dl> | Specify the text for your objects and counters. *Symbol* is the symbolic constant defined in *SymbolFile*. *Langid* is the language identifier of the text. NAME and HELP identify the text as either the name of the counter or the help text associated with the counter. The HELP text is optional, but you are encourage to provide it. The text keys can appear in any order. The length of the text strings is arbitrary. The text strings should not contain formatting characters.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 
- 
+ 
 
 The following is an example of an initialization file that is used in the [Creating a Performance Extension DLL](creating-a-performance-extension-dll.md) example.
 
@@ -156,47 +161,47 @@ The **lodctr** utility copies the strings from the .INI file to the **Counters**
 
 Before running **lodctr**, be sure that your application has an entry under the **Services** key. For details, see [Creating the Application's Performance Key](creating-the-applications-performance-key.md). If the key does not exist, **lodctr** will not update the registry with your names and descriptions.
 
-As an option to running **lodctr**, you can call [**LoadPerfCounterTextStrings**](loadperfcountertextstrings.md) (defined in Loadperf.h) from your installation program to load your counter names descriptions.
+As an option to running **lodctr**, you can call [**LoadPerfCounterTextStrings**](/windows/win32/Loadperf/nf-loadperf-loadperfcountertextstringsa?branch=master) (defined in Loadperf.h) from your installation program to load your counter names descriptions.
 
 The performance counter names and descriptions are stored in the following location in the registry.
 
 ```
 HKEY_LOCAL_MACHINE
-   \SOFTWARE
-      \Microsoft
-         \Windows NT
-            \CurrentVersion
-               \Perflib
-                  Last Counter = highest counter index
-                  Last Help = highest help index
-                  \009
-                     Counters = 2 System 4 Memory...
-                     Help = 3 The System Object Type...
-                  \supported language, other than English
-                     Counters = ...
-                     Help = ...
+   \SOFTWARE
+      \Microsoft
+         \Windows NT
+            \CurrentVersion
+               \Perflib
+                  Last Counter = highest counter index
+                  Last Help = highest help index
+                  \009
+                     Counters = 2 System 4 Memory...
+                     Help = 3 The System Object Type...
+                  \supported language, other than English
+                     Counters = ...
+                     Help = ...
 ```
 
 In addition to adding values under the **PerfLib** key, the **lodctr** tool also adds the following values to the **Services** node for the application. In most cases, the application and provider will have a one-to-one relationship; however, it is possible for a provider to provide counter data for multiple applications, which is why the key is based on the application and not the provider.
 
 ```
 HKEY_LOCAL_MACHINE
-   \SYSTEM
-      \CurrentControlSet
-         \Services
-            \MyApplication
-               \Performance
-                  First Counter = lowest counter index assigned to provider
-                  First Help = lowest help index assigned to provider
-                  Last Counter = highest counter index assigned to provider
-                  Last Help = highest help index assigned to provider
-                  Object List = list of object index values if the .INI includes the [objects] section
-                  Library Validation Code = if the [info] section contains a trustedkey
+   \SYSTEM
+      \CurrentControlSet
+         \Services
+            \MyApplication
+               \Performance
+                  First Counter = lowest counter index assigned to provider
+                  First Help = lowest help index assigned to provider
+                  Last Counter = highest counter index assigned to provider
+                  Last Help = highest help index assigned to provider
+                  Object List = list of object index values if the .INI includes the [objects] section
+                  Library Validation Code = if the [info] section contains a trustedkey
 ```
 
- 
+ 
 
- 
+ 
 
 
 

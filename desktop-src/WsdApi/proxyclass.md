@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the name of the client-side proxy class.'
-ms.assetid: '48e42d96-e3f2-4e00-a62d-adfac87c13a3'
+Description: Specifies the name of the client-side proxy class.
+ms.assetid: 48e42d96-e3f2-4e00-a62d-adfac87c13a3
 title: proxyClass element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # proxyClass element
@@ -41,14 +46,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

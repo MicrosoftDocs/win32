@@ -2,13 +2,19 @@
 title: comm\_status attribute
 description: The \ comm\_status\ ACF attribute causes an error code to be returned when a communication error occurs during the execution of a function.
 ms.assetid: 3ea9ce62-8bd4-40fe-b838-bfebd52b5a15
-keywords: ["comm_status attribute MIDL"]
+keywords:
+- comm_status attribute MIDL
 topic_type:
 - apiref
 api_name:
 - comm_status
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # comm\_status attribute

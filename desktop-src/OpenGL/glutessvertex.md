@@ -1,8 +1,9 @@
 ---
 title: gluTessVertex function
 description: The gluTessVertex function specifies a vertex on a polygon.
-ms.assetid: '9c555b32-5257-4eeb-9323-ccad59591097'
-keywords: ["gluTessVertex function OpenGL"]
+ms.assetid: 9c555b32-5257-4eeb-9323-ccad59591097
+keywords:
+- gluTessVertex function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluTessVertex function
@@ -22,9 +28,9 @@ The **gluTessVertex** function specifies a vertex on a polygon.
 
 ```C++
 void WINAPI gluTessVertex(
-   GLUtesselator *tess,
-   GLdouble      coords[3],
-   void          *data
+   GLUtesselator *tess,
+   GLdouble      coords[3],
+   void          *data
 );
 ```
 
@@ -71,8 +77,8 @@ The *data* parameter normally points to a structure containing the vertex locati
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -104,9 +110,9 @@ The *data* parameter normally points to a structure containing the vertex locati
 [**gluTessProperty**](glutessproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

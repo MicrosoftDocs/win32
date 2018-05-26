@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMFLOAT4X3 structure exposes the following operators.'
-ms.assetid: 'bcf2420c-cd66-4a50-9222-d74039867871'
+---
+Description: The XMFLOAT4X3 structure exposes the following operators.
+ms.assetid: bcf2420c-cd66-4a50-9222-d74039867871
 title: XMFLOAT4X3 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMFLOAT4X3 Operators
 
-The [**XMFLOAT4X3**](xmfloat4x3.md) structure exposes the following operators.
+The [**XMFLOAT4X3**](/windows/win32/DirectXMath/?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -36,7 +41,7 @@ The [**XMFLOAT4X3**](xmfloat4x3.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMFLOAT4X3**](xmfloat4x3.md)
+[**XMFLOAT4X3**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

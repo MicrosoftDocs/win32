@@ -1,7 +1,12 @@
 ---
-Description: 'The following material is valid only when Digest is used as a SASL mechanism. Ciphers and encryption are not available for HTTP authentication using Microsoft Digest.'
-ms.assetid: '3836b064-241f-4276-af08-557bdc53bb36'
+Description: The following material is valid only when Digest is used as a SASL mechanism. Ciphers and encryption are not available for HTTP authentication using Microsoft Digest.
+ms.assetid: 3836b064-241f-4276-af08-557bdc53bb36
 title: Ciphers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ciphers

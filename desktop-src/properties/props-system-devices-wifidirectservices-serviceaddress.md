@@ -1,7 +1,12 @@
 ---
-Description: 'Wi-Fi Direct Services Service Address.'
-ms.assetid: '6b29c244-685f-4eb7-9c80-d6b4fc591efc'
-title: 'System.Devices.WiFiDirectServices.ServiceAddress'
+Description: Wi-Fi Direct Services Service Address.
+ms.assetid: 6b29c244-685f-4eb7-9c80-d6b4fc591efc
+title: System.Devices.WiFiDirectServices.ServiceAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WiFiDirectServices.ServiceAddress

@@ -1,7 +1,12 @@
 ---
 title: Prepare Your Development Environment
 description: Prepare Your Development Environment
-ms.assetid: '5a3fd27e-ec8f-41eb-9d31-86d6d9f70862'
+ms.assetid: 5a3fd27e-ec8f-41eb-9d31-86d6d9f70862
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Prepare Your Development Environment

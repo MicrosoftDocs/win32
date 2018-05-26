@@ -1,14 +1,21 @@
 ---
 title: IRMGetLicense interface
 description: The IRMGetLicense interface is implemented in a run-time library that is installed as part of the Windows Media Format SDK.
-ms.assetid: '95a8cf57-72a4-496d-8d25-d094b47c3a57'
-keywords: ["IRMGetLicense interface windows Media Format", "IRMGetLicense interface windows Media Format , described"]
+ms.assetid: 95a8cf57-72a4-496d-8d25-d094b47c3a57
+keywords:
+- IRMGetLicense interface windows Media Format
+- IRMGetLicense interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IRMGetLicense
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRMGetLicense interface
@@ -27,8 +34,8 @@ The **IRMGetLicense** interface inherits from the [**IUnknown**](https://msdn.mi
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -39,9 +46,9 @@ The **IRMGetLicense** interface inherits from the [**IUnknown**](https://msdn.mi
 [**Interfaces**](interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

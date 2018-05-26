@@ -1,7 +1,12 @@
 ---
-Description: 'A communication endpoint that can connect to a LAN to send and receive data frames. LAN endpoints include ethernet, token Ring, and FDDI interfaces.'
-ms.assetid: 'c69464cf-00a9-476d-a494-2d7d65776334'
-title: 'CIM\_LANEndpoint class'
+Description: A communication endpoint that can connect to a LAN to send and receive data frames. LAN endpoints include ethernet, token Ring, and FDDI interfaces.
+ms.assetid: c69464cf-00a9-476d-a494-2d7d65776334
+title: CIM\_LANEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_LANEndpoint class
@@ -93,7 +98,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**C
 > [!Note]  
 > Deprecated description: The kind of technology used on the LAN.
 
- 
+ 
 
 This property is deprecated. Instead we recommend that you use the **ProtocolType** property.
 
@@ -189,7 +194,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**C
 > [!Note]  
 > Deprecated description: The type of technology used on the LAN when the **LANType** property is set to "1" (Other).
 
- 
+ 
 
 This property is deprecated. Instead we recommend that you use the **OtherTypeDescription** property.
 
@@ -201,8 +206,8 @@ This property is deprecated. Instead we recommend that you use the **OtherTypeDe
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -216,9 +221,9 @@ This property is deprecated. Instead we recommend that you use the **OtherTypeDe
 [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

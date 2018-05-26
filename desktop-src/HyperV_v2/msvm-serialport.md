@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a serial port associated with the serial controller.'
-ms.assetid: '856823A5-7481-453A-8476-1CDAB1D84123'
-title: 'Msvm\_SerialPort class'
+Description: Represents a serial port associated with the serial controller.
+ms.assetid: 856823A5-7481-453A-8476-1CDAB1D84123
+title: Msvm\_SerialPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SerialPort class
@@ -16,50 +21,50 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SerialPort : CIM_LogicalPort
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description = "Microsoft Virtual Serial Port";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description = "Microsoft Virtual Serial Port";
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_SerialPort";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = { 6 };
-  uint64   MaxQuiesceTime;
-  uint64   Speed = 115200;
-  uint32   MaxSpeed = 115200;
-  uint64   RequestedSpeed = 115200;
-  uint16   UsageRestriction = 4;
-  uint16   PortType = 1;
-  string   OtherPortType = "Serial Port";
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_SerialPort";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = { 6 };
+  uint64   MaxQuiesceTime;
+  uint64   Speed = 115200;
+  uint32   MaxSpeed = 115200;
+  uint64   RequestedSpeed = 115200;
+  uint16   UsageRestriction = 4;
+  uint16   PortType = 1;
+  string   OtherPortType = "Serial Port";
 };
 ```
 
@@ -89,7 +94,7 @@ The **Msvm\_SerialPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -117,7 +122,7 @@ Any additional availability and status of the device. This property is inherited
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -140,7 +145,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -316,7 +321,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -339,7 +344,7 @@ The enabled state of the element. It can also indicate the transitions between t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -619,7 +624,7 @@ This property is inherited from [**CIM\_LogicalPort**](https://msdn.microsoft.co
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -727,7 +732,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -867,7 +872,7 @@ In some circumstances, a logical port might be identifiable as a front end or ba
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -881,8 +886,8 @@ Access to the **Msvm\_SerialPort** class might be restricted by UAC Filtering. F
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -902,9 +907,9 @@ Access to the **Msvm\_SerialPort** class might be restricted by UAC Filtering. F
 [Serial Devices Classes](serial-devices-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

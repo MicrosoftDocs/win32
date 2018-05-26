@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Next method advances the iterator to the next part.'
-ms.assetid: 'ac54ac59-4144-4449-a732-b9da16338ddf'
-title: 'IXpsPartIterator::Next method'
+---
+Description: The Next method advances the iterator to the next part.
+ms.assetid: ac54ac59-4144-4449-a732-b9da16338ddf
+title: IXpsPartIteratorNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsPartIterator::Next method

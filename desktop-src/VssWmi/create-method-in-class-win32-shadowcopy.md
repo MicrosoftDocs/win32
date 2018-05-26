@@ -1,8 +1,11 @@
 ---
 title: Create method of the Win32\_ShadowCopy class
 description: The Create method creates a shadow copy using the specified context.
-ms.assetid: '62ba9405-108b-4025-9355-e637d52107ab'
-keywords: ["Create method", "Create method, Win32_ShadowCopy class", "Win32_ShadowCopy class, Create method"]
+ms.assetid: 62ba9405-108b-4025-9355-e637d52107ab
+keywords:
+- Create method
+- Create method, Win32_ShadowCopy class
+- Win32_ShadowCopy class, Create method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create method of the Win32\_ShadowCopy class
@@ -24,9 +32,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Create(
-  [in]  string Volume,
-  [in]  string Context = "ClientAccessible",
-  [out] string ShadowID
+  [in]  string Volume,
+  [in]  string Context = "ClientAccessible",
+  [out] string ShadowID
 );
 ```
 
@@ -80,7 +88,7 @@ Unique identifier that identifies this shadow copy.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -156,7 +164,7 @@ There are now 9 shadow copies on this sytem
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -170,9 +178,9 @@ There are now 9 shadow copies on this sytem
 [**Win32\_ShadowCopy**](win32-shadowcopy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

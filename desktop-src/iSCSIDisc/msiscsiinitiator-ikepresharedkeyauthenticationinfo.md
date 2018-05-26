@@ -1,7 +1,12 @@
-﻿---
-Description: 'This MSIscsiInitiator\_IKEPresharedKeyAuthenticationInfo structure describes the characteristics of shared keys utilized by the Initiator and the Target.'
-ms.assetid: '9a67f242-853b-425b-a006-e5d273d6cb71'
-title: 'MSIscsiInitiator\_IKEPresharedKeyAuthenticationInfo class'
+---
+Description: This MSIscsiInitiator\_IKEPresharedKeyAuthenticationInfo structure describes the characteristics of shared keys utilized by the Initiator and the Target.
+ms.assetid: 9a67f242-853b-425b-a006-e5d273d6cb71
+title: MSIscsiInitiator\_IKEPresharedKeyAuthenticationInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_IKEPresharedKeyAuthenticationInfo class

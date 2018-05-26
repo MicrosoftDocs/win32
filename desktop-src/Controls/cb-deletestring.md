@@ -1,8 +1,9 @@
 ---
 title: CB\_DELETESTRING message
 description: Deletes a string in the list box of a combo box.
-ms.assetid: '8d526796-04ef-4c01-94d6-fb50e6fef27b'
-keywords: ["CB_DELETESTRING message Windows Controls"]
+ms.assetid: 8d526796-04ef-4c01-94d6-fb50e6fef27b
+keywords:
+- CB_DELETESTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_DELETESTRING message
@@ -49,8 +55,8 @@ If you create the combo box with an owner-drawn style but without the [**CBS\_HA
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ If you create the combo box with an owner-drawn style but without the [**CBS\_HA
 [**WM\_DELETEITEM**](wm-deleteitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

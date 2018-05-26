@@ -1,8 +1,16 @@
 ---
 title: FileRepToolExample
 description: This is the command line tool that drives the FileRep service.
-ms.assetid: 'e6273036-2e31-4cbb-b72b-8f4d3ade6336'
-keywords: ["FileRepToolExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: e6273036-2e31-4cbb-b72b-8f4d3ade6336
+keywords:
+- FileRepToolExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileRepToolExample

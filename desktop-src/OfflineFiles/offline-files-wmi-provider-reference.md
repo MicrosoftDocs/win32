@@ -1,13 +1,16 @@
 ---
-Description: 'The OfflineFilesWmiProvider.mof file defines the Offline Files WMI provider. You can access the Offline Files provider classes in the ROOT\\CIMV2 namespace. For more information about WMI, see Windows Management Instrumentation.'
+Description: The OfflineFilesWmiProvider.mof file defines the Offline Files WMI provider. You can access the Offline Files provider classes in the ROOT\\CIMV2 namespace. For more information about WMI, see Windows Management Instrumentation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '53d87195-a95f-4b63-bc01-60a13f6fc4ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 53d87195-a95f-4b63-bc01-60a13f6fc4ff
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
 title: Offline Files WMI Provider Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Offline Files WMI Provider Reference

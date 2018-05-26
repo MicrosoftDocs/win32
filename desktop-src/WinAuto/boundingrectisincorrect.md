@@ -1,7 +1,12 @@
 ---
 title: BoundingRectIsIncorrect
 description: BoundingRectIsIncorrect
-ms.assetid: '29D3EFB4-204D-419E-B241-25C8BAE28C11'
+ms.assetid: 29D3EFB4-204D-419E-B241-25C8BAE28C11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingRectIsIncorrect
@@ -22,10 +27,10 @@ The bounding rectangle of the element is not consistent with expected hit testin
 
 <dl> <dt>
 
-[**IAccessible::accHitTest**](iaccessible-iaccessible--acchittest.md)
+[**IAccessible::accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)
 </dt> <dt>
 
-[**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
+[**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
 </dt> </dl>
 
  

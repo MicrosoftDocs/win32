@@ -1,8 +1,15 @@
 ---
 title: HTTP Server API
 description: The HTTP Server API enables applications to communicate over HTTP without using Microsoft Internet Information Server (IIS).
-ms.assetid: 'ef18716c-7511-4c8a-99bc-28369c3e46f4'
-keywords: ["HTTP Server API", "HTTP Server API, start page"]
+ms.assetid: ef18716c-7511-4c8a-99bc-28369c3e46f4
+keywords:
+- HTTP Server API
+- HTTP Server API, start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Server API
@@ -17,7 +24,7 @@ This API is designed for use by C/C++ programmers.
 
 ## Run-time requirements
 
-The HTTP Server API is supported on Windows Server 2003 operating systems and on Windows XP with Service Pack 2 (SP2). Be aware that Microsoft IIS 5 running on Windows XP with SP2 is not able to share port 80 with other HTTP applications running simultaneously.
+The HTTP Server API is supported on Windows Server 2003 operating systems and on Windows XP with Service Pack 2 (SP2). Be aware that Microsoft IIS 5 running on Windows XP with SP2 is not able to share port 80 with other HTTP applications running simultaneously.
 
 ## In this section
 
@@ -32,7 +39,7 @@ The HTTP Server API is supported on Windows Server 2003 operating systems and on
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -41,9 +48,9 @@ The HTTP Server API is supported on Windows Server 2003 operating systems and on
 [Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

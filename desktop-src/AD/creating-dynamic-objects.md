@@ -4,11 +4,15 @@ description: Specify the auxiliary class dynamicObject as a value for the object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd2d961c5-6420-446f-bbb2-54984410e04e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d2d961c5-6420-446f-bbb2-54984410e04e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Creating Dynamic Objects AD"]
+keywords:
+- Creating Dynamic Objects AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Dynamic Objects

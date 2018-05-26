@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_CurrentSensor class exists for backward compatibility to earlier CIM schema definitions.'
+Description: The CIM\_CurrentSensor class exists for backward compatibility to earlier CIM schema definitions.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd1835b09-4286-4586-92ec-f5f77791aea6'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d1835b09-4286-4586-92ec-f5f77791aea6
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_CurrentSensor class'
+title: CIM\_CurrentSensor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CurrentSensor class
@@ -21,7 +24,7 @@ Additions to [**CIM\_Sensor**](cim-sensor.md) and [**CIM\_NumericSensor**](cim-n
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -31,41 +34,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{DCA1D084-E3D3-11d2-8601-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_CurrentSensor : CIM_NumericSensor
 {
-  sint32   Accuracy;
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  sint32   CurrentReading;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  sint32   Accuracy;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  sint32   CurrentReading;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  boolean  IsLinear;
-  uint32   LastErrorCode;
-  sint32   LowerThresholdCritical;
-  sint32   LowerThresholdFatal;
-  sint32   LowerThresholdNonCritical;
-  sint32   MaxReadable;
-  sint32   MinReadable;
-  string   Name;
-  sint32   NominalReading;
-  sint32   NormalMax;
-  sint32   NormalMin;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint32   Resolution;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  sint32   Tolerance;
-  sint32   UpperThresholdCritical;
-  sint32   UpperThresholdFatal;
-  sint32   UpperThresholdNonCritical;
+  boolean  IsLinear;
+  uint32   LastErrorCode;
+  sint32   LowerThresholdCritical;
+  sint32   LowerThresholdFatal;
+  sint32   LowerThresholdNonCritical;
+  sint32   MaxReadable;
+  sint32   MinReadable;
+  string   Name;
+  sint32   NominalReading;
+  sint32   NormalMax;
+  sint32   NormalMin;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint32   Resolution;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  sint32   Tolerance;
+  sint32   UpperThresholdCritical;
+  sint32   UpperThresholdFatal;
+  sint32   UpperThresholdNonCritical;
 };
 ```
 
@@ -89,7 +92,7 @@ The **CIM\_CurrentSensor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -224,7 +227,7 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 </dt> <dd>
 
-Power save — unknown.
+Power save   unknown.
 
 Device is in a power-save mode, but its exact status is unknown.
 
@@ -237,7 +240,7 @@ Device is in a power-save mode, but its exact status is unknown.
 
 </dt> <dd>
 
-Power save — low-power mode.
+Power save   low-power mode.
 
 Device is in a power-save mode and still functioning, but may exhibit degraded performance.
 
@@ -250,7 +253,7 @@ Device is in a power-save mode and still functioning, but may exhibit degraded p
 
 </dt> <dd>
 
-Power save — standby.
+Power save   standby.
 
 Device is not functioning, but it could be brought to full power quickly.
 
@@ -270,7 +273,7 @@ Device is not functioning, but it could be brought to full power quickly.
 
 </dt> <dd>
 
-Power save — warning.
+Power save   warning.
 
 Device is in a warning state and a power-save mode.
 
@@ -1449,8 +1452,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1464,9 +1467,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_NumericSensor**](cim-numericsensor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

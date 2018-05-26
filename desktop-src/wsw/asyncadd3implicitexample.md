@@ -1,13 +1,21 @@
 ---
 title: AsyncAdd3ImplicitExample
 description: This example illustrates implementing a complex asynchronous function using WsAsyncExecute.
-ms.assetid: 'f84de03f-ecfb-494e-9a1d-a96d399a41c0'
-keywords: ["AsyncAdd3ImplicitExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: f84de03f-ecfb-494e-9a1d-a96d399a41c0
+keywords:
+- AsyncAdd3ImplicitExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AsyncAdd3ImplicitExample
 
-This example illustrates implementing a complex asynchronous function using [**WsAsyncExecute**](wsasyncexecute.md).
+This example illustrates implementing a complex asynchronous function using [**WsAsyncExecute**](/windows/win32/WebServices/nf-webservices-wsasyncexecute?branch=master).
 
 The example implements an asynchronous function 'AddThree' which adds three integers together by building upon an existing Add function which can add two integers asynchronously.
 

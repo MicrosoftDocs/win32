@@ -1,7 +1,12 @@
 ---
 title: Framework security
 description: The Windows Biometric Service enables non-privileged client applications to perform biometric operations without providing them direct access to biometric samples or hardware.
-ms.assetid: '503dc68b-d95d-49f5-83ed-2c4deaf331f5'
+ms.assetid: 503dc68b-d95d-49f5-83ed-2c4deaf331f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Framework security

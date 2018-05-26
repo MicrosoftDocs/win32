@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Core
-ms.assetid: 'f37e7c10-b2b9-4344-8bf3-0206582e26dd'
+ms.assetid: f37e7c10-b2b9-4344-8bf3-0206582e26dd
 title: Core
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core

@@ -1,12 +1,17 @@
 ---
-Description: 'To list files in a specified directory, call FindFirstFile, FindNextFile, and FindClose.'
-ms.assetid: 'ab0d977d-f71c-4a18-9b1d-2221169324f0'
+Description: To list files in a specified directory, call FindFirstFile, FindNextFile, and FindClose.
+ms.assetid: ab0d977d-f71c-4a18-9b1d-2221169324f0
 title: Listing the Files in a Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listing the Files in a Directory
 
-The following example calls [**FindFirstFile**](findfirstfile.md), [**FindNextFile**](findnextfile.md), and [**FindClose**](findclose.md) to list files in a specified directory.
+The following example calls [**FindFirstFile**](/windows/win32/FileAPI/nf-fileapi-findfirstfilea?branch=master), [**FindNextFile**](/windows/win32/FileAPI/nf-fileapi-findnextfilea?branch=master), and [**FindClose**](/windows/win32/FileAPI/nf-fileapi-findclose?branch=master) to list files in a specified directory.
 
 
 ```C++

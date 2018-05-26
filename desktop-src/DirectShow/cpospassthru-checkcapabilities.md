@@ -1,19 +1,24 @@
 ---
-Description: 'The CheckCapabilities method queries whether a stream has specified seeking capabilities. This method implements the IMediaSeeking::CheckCapabilities method.'
-ms.assetid: '48096af6-bbce-4a1f-be9a-fd150ed4536e'
-title: 'CPosPassThru.CheckCapabilities method'
+Description: The CheckCapabilities method queries whether a stream has specified seeking capabilities. This method implements the IMediaSeekingCheckCapabilities method.
+ms.assetid: 48096af6-bbce-4a1f-be9a-fd150ed4536e
+title: CPosPassThru.CheckCapabilities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.CheckCapabilities method
 
-The `CheckCapabilities` method queries whether a stream has specified seeking capabilities. This method implements the [**IMediaSeeking::CheckCapabilities**](imediaseeking-checkcapabilities.md) method.
+The `CheckCapabilities` method queries whether a stream has specified seeking capabilities. This method implements the [**IMediaSeeking::CheckCapabilities**](/windows/win32/Strmif/nf-strmif-imediaseeking-checkcapabilities?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT CheckCapabilities(
-   DWORD *pCapabilities
+   DWORD *pCapabilities
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT CheckCapabilities(
 *pCapabilities* 
 </dt> <dd>
 
-Pointer to a bitwise combination of one or more [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](am-seeking-seeking-capabilities.md) attributes. When the method returns, the value indicates which of those attributes are available.
+Pointer to a bitwise combination of one or more [**AM\_SEEKING\_SEEKING\_CAPABILITIES**](/windows/win32/strmif/ne-strmif-am_seeking_seekingcapabilities?branch=master) attributes. When the method returns, the value indicates which of those attributes are available.
 
 </dd> </dl>
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

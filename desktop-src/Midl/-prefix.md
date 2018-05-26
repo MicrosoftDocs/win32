@@ -2,13 +2,19 @@
 title: /prefix switch
 description: The /prefix switch directs the MIDL compiler to add prefix strings to the client and/or server stub routine names.
 ms.assetid: 5530e972-08bf-4cca-9bb4-9631db824bdb
-keywords: ["/prefix switch MIDL"]
+keywords:
+- /prefix switch MIDL
 topic_type:
 - apiref
 api_name:
 - /prefix
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /prefix switch

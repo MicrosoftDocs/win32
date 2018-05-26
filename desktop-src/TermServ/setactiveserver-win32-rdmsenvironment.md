@@ -4,11 +4,14 @@ description: Sets the FQDN of the Remote Desktop Management Services (RDMS) envi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ed7b71cf-c3a4-4d2f-856a-31332f94fac9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ed7b71cf-c3a4-4d2f-856a-31332f94fac9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetActiveServer method Remote Desktop Services", "SetActiveServer method Remote Desktop Services , Win32_RDMSEnvironment class", "Win32_RDMSEnvironment class Remote Desktop Services , SetActiveServer method"]
+keywords:
+- SetActiveServer method Remote Desktop Services
+- SetActiveServer method Remote Desktop Services , Win32_RDMSEnvironment class
+- Win32_RDMSEnvironment class Remote Desktop Services , SetActiveServer method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetActiveServer method of the Win32\_RDMSEnvironment class
@@ -47,7 +53,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -61,9 +67,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSEnvironment**](win32-rdmsenvironment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

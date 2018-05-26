@@ -1,7 +1,12 @@
 ---
-Description: 'Power setting change event sent with a WM\_POWERBROADCAST window message or in a HandlerEx notification callback for services.'
-ms.assetid: '0bcadb85-47c5-48a9-b3f9-f0a1ca60b503'
-title: 'PBT\_POWERSETTINGCHANGE event'
+Description: Power setting change event sent with a WM\_POWERBROADCAST window message or in a HandlerEx notification callback for services.
+ms.assetid: 0bcadb85-47c5-48a9-b3f9-f0a1ca60b503
+title: PBT\_POWERSETTINGCHANGE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_POWERSETTINGCHANGE event
@@ -37,7 +42,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -47,14 +52,14 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**POWERBROADCAST\_SETTING**](powerbroadcast-setting.md) structure.
+Pointer to a [**POWERBROADCAST\_SETTING**](/windows/win32/WinUser/ns-winuser-powerbroadcast_setting?branch=master) structure.
 
 </dd> </dl>
 
@@ -68,8 +73,8 @@ No return value.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,12 +92,12 @@ No return value.
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> <dt>
 
-[**POWERBROADCAST\_SETTING**](powerbroadcast-setting.md)
+[**POWERBROADCAST\_SETTING**](/windows/win32/WinUser/ns-winuser-powerbroadcast_setting?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

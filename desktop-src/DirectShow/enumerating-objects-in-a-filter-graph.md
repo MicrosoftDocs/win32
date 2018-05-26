@@ -1,7 +1,12 @@
 ---
 Description: Enumerating Objects in a Filter Graph
-ms.assetid: '04a3dbc8-33c4-4b70-930e-686be2f8301f'
+ms.assetid: 04a3dbc8-33c4-4b70-930e-686be2f8301f
 title: Enumerating Objects in a Filter Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Objects in a Filter Graph

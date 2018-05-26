@@ -1,14 +1,20 @@
 ---
 title: DEFPUSHBUTTON control
 description: Defines a default push-button control.
-ms.assetid: '17b2ffcb-0611-4d92-9108-bf27b1c07049'
-keywords: ["DEFPUSHBUTTON control Menus and Other Resources"]
+ms.assetid: 17b2ffcb-0611-4d92-9108-bf27b1c07049
+keywords:
+- DEFPUSHBUTTON control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - DEFPUSHBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEFPUSHBUTTON control

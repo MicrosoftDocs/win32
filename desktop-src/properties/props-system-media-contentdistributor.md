@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'b4c65279-e94e-48d2-bd6c-60980cacc154'
-title: 'System.Media.ContentDistributor'
+Description: .
+ms.assetid: b4c65279-e94e-48d2-bd6c-60980cacc154
+title: System.Media.ContentDistributor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.ContentDistributor

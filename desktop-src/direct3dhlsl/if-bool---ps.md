@@ -1,7 +1,12 @@
 ---
 title: if bool - ps
 description: Start of an if block.
-ms.assetid: 'cff53072-1c73-4cf8-9ecd-11032a9c4bbb'
+ms.assetid: cff53072-1c73-4cf8-9ecd-11032a9c4bbb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if bool - ps

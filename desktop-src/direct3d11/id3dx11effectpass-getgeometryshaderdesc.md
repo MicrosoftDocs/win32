@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectPass GetGeometryShaderDesc method
 description: Get a geometry-shader description.
-ms.assetid: '03298ec3-6b85-40bf-8920-a82c7606d326'
-keywords: ["GetGeometryShaderDesc method Direct3D 11", "GetGeometryShaderDesc method Direct3D 11 , ID3DX11EffectPass interface", "ID3DX11EffectPass interface Direct3D 11 , GetGeometryShaderDesc method"]
+ms.assetid: 03298ec3-6b85-40bf-8920-a82c7606d326
+keywords:
+- GetGeometryShaderDesc method Direct3D 11
+- GetGeometryShaderDesc method Direct3D 11 , ID3DX11EffectPass interface
+- ID3DX11EffectPass interface Direct3D 11 , GetGeometryShaderDesc method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectPass::GetGeometryShaderDesc method
@@ -23,7 +31,7 @@ Get a geometry-shader description.
 
 ```C++
 HRESULT GetGeometryShaderDesc(
-   D3DX11_PASS_SHADER_DESC *pDesc
+   D3DX11_PASS_SHADER_DESC *pDesc
 );
 ```
 
@@ -55,7 +63,7 @@ An effect pass can contain render state assignments and shader object assignment
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +83,9 @@ An effect pass can contain render state assignments and shader object assignment
 [ID3DX11EffectPass](id3dx11effectpass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

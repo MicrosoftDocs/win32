@@ -1,8 +1,9 @@
 ---
 title: HDM\_LAYOUT message
 description: Retrieves information used to set the size and position of the header control within the target rectangle of the parent window. You can send this message explicitly or use the Header\_Layout macro.
-ms.assetid: '0763e483-f01d-4739-8c61-1c52d1aad0b4'
-keywords: ["HDM_LAYOUT message Windows Controls"]
+ms.assetid: 0763e483-f01d-4739-8c61-1c52d1aad0b4
+keywords:
+- HDM_LAYOUT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_LAYOUT message
 
-Retrieves information used to set the size and position of the header control within the target rectangle of the parent window. You can send this message explicitly or use the [**Header\_Layout**](header-layout.md) macro.
+Retrieves information used to set the size and position of the header control within the target rectangle of the parent window. You can send this message explicitly or use the [**Header\_Layout**](/windows/win32/Commctrl/nf-commctrl-header_layout?branch=master) macro.
 
 ## Parameters
 
@@ -27,7 +33,7 @@ Retrieves information used to set the size and position of the header control wi
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDLAYOUT**](hdlayout.md) structure. The **prc** member specifies the coordinates of a rectangle, and the **pwpos** member receives the size and position for the header control within the rectangle.
+A pointer to an [**HDLAYOUT**](/windows/win32/Commctrl/ns-commctrl-_hd_layout?branch=master) structure. The **prc** member specifies the coordinates of a rectangle, and the **pwpos** member receives the size and position for the header control within the rectangle.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ To use **HDM\_LAYOUT** to set the initial size and position of a header control,
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

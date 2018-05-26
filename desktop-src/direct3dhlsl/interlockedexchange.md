@@ -1,14 +1,20 @@
 ---
 title: InterlockedExchange function
 description: Assigns value to dest and returns the original value.
-ms.assetid: '1e7ce7ff-9e23-47fa-8e76-713f6bf57abf'
-keywords: ["InterlockedExchange function HLSL"]
+ms.assetid: 1e7ce7ff-9e23-47fa-8e76-713f6bf57abf
+keywords:
+- InterlockedExchange function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedExchange
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedExchange function

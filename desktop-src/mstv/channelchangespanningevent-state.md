@@ -1,8 +1,9 @@
 ---
 title: ChannelChangeSpanningEvent\_State enumeration
 description: Specifies the current state of a channel-change event in an MPEG-2 stream.
-ms.assetid: '21ed5fdf-1e48-4020-8bff-6f7f9ed0ac12'
-keywords: ["ChannelChangeSpanningEvent_State enumeration Microsoft TV Technologies"]
+ms.assetid: 21ed5fdf-1e48-4020-8bff-6f7f9ed0ac12
+keywords:
+- ChannelChangeSpanningEvent_State enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChannelChangeSpanningEvent\_State enumeration
@@ -22,8 +28,8 @@ Specifies the current state of a channel-change event in an MPEG-2 stream.
 
 ```C++
 typedef enum  { 
-  ChannelChangeSpanningEvent_Start  = 0,
-  ChannelChangeSpanningEvent_End    = 2
+  ChannelChangeSpanningEvent_Start  = 0,
+  ChannelChangeSpanningEvent_End    = 2
 } ChannelChangeSpanningEvent_State;
 ```
 
@@ -53,15 +59,15 @@ End of the channel change.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Writes an updated version of the security descriptor that controls access to the service.'
+Description: Writes an updated version of the security descriptor that controls access to the service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c1745b69-f355-4b4c-9e58-6a76c230f498'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c1745b69-f355-4b4c-9e58-6a76c230f498
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetSecurityDescriptor method of the Win32\_Service class'
+title: SetSecurityDescriptor method of the Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSecurityDescriptor method of the Win32\_Service class
@@ -21,7 +24,7 @@ The **SetSecurityDescriptor** method writes an updated version of the security d
 
 ```mof
 uint32 SetSecurityDescriptor(
-  [in] Win32_SecurityDescriptor Descriptor
+  [in] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -232,7 +235,7 @@ The service is currently paused in the system.
 **Other**
 </dt> <dd>
 
-22–4294967295
+22 4294967295
 
 </dd> </dl>
 
@@ -264,8 +267,8 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -291,9 +294,9 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 [User Account Control and WMI](https://msdn.microsoft.com/library/aa826699)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

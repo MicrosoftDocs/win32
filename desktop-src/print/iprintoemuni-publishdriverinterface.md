@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::PublishDriverInterface method allows a rendering plug-in for Unidrv to obtain the Unidrv driver''s IPrintOemDriverUni or IPrintCoreHelperUni interface.'
-ms.assetid: '72bfa383-a7f2-4aa6-a45c-564928705e42'
-title: 'IPrintOemUni::PublishDriverInterface method'
+---
+Description: The IPrintOemUniPublishDriverInterface method allows a rendering plug-in for Unidrv to obtain the Unidrv drivers IPrintOemDriverUni or IPrintCoreHelperUni interface.
+ms.assetid: 72bfa383-a7f2-4aa6-a45c-564928705e42
+title: IPrintOemUniPublishDriverInterface method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::PublishDriverInterface method

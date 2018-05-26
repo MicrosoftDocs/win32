@@ -1,8 +1,10 @@
 ---
 title: ImageFile object
 description: Holds images transferred to your computer when you call Transfer or ShowTransfer.
-ms.assetid: '35de5260-1c95-4247-8095-994b5084b390'
-keywords: ["ImageFile object WIA Automation", "ImageFile object WIA Automation , described"]
+ms.assetid: 35de5260-1c95-4247-8095-994b5084b390
+keywords:
+- ImageFile object WIA Automation
+- ImageFile object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile object
@@ -37,7 +44,7 @@ The **ImageFile** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -66,7 +73,7 @@ The **ImageFile** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,7 +95,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,8 +103,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -119,9 +126,9 @@ Use any of the following to retrieve a reference to the object:
 [**ImageFile (Vector)**](-wiaaut-ivector-imagefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

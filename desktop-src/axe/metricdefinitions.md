@@ -1,14 +1,20 @@
 ---
 title: MetricDefinitions element
 description: This element contains a collection of MetricDefinition elements.
-ms.assetid: '3F3F2322-D7BD-43CA-90C7-D4AEAFFAE58A'
-keywords: ["MetricDefinitions element Access Execution Engine"]
+ms.assetid: 3F3F2322-D7BD-43CA-90C7-D4AEAFFAE58A
+keywords:
+- MetricDefinitions element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricDefinitions
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricDefinitions element
@@ -70,9 +76,9 @@ MetricDefinition
 [**AXE Assessment Manifest**](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

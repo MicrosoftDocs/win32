@@ -1,8 +1,14 @@
 ---
 title: Interface Information
 description: Interface information should be expressed in human-readable strings if that information is available to NetShell users.
-ms.assetid: '96a1a977-37fc-435a-a71f-a70207eaefbb'
-keywords: ["helper NetSh , command syntax, interface information"]
+ms.assetid: 96a1a977-37fc-435a-a71f-a70207eaefbb
+keywords:
+- helper NetSh , command syntax, interface information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Information

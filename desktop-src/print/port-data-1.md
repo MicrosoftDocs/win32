@@ -1,7 +1,12 @@
-﻿---
-Description: 'The XcvData function uses a PORT\_DATA\_1 structure when it adds a port or configures an existing port.'
-ms.assetid: 'd4fb5bf9-7982-4abd-91ba-59b7798a18c7'
-title: 'PORT\_DATA\_1 structure'
+---
+Description: The XcvData function uses a PORT\_DATA\_1 structure when it adds a port or configures an existing port.
+ms.assetid: d4fb5bf9-7982-4abd-91ba-59b7798a18c7
+title: PORT\_DATA\_1 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PORT\_DATA\_1 structure

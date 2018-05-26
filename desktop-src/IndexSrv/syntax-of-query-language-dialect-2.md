@@ -1,7 +1,12 @@
 ---
 title: Syntax of Query Language Dialect 2
 description: Syntax of Query Language Dialect 2
-ms.assetid: 'd1e412b5-2dd0-4690-b6cf-78660a581ab2'
+ms.assetid: d1e412b5-2dd0-4690-b6cf-78660a581ab2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Syntax of Query Language Dialect 2

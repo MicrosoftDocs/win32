@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-pixel buffers.'
-ms.assetid: '41e65674-e5e1-4df9-aab8-1530ebf85f25'
+---
+Description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-pixel buffers.
+ms.assetid: 41e65674-e5e1-4df9-aab8-1530ebf85f25
 title: D3DXCreatePRTBufferTex function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreatePRTBufferTex function

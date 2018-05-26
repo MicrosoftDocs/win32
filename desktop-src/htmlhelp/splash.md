@@ -1,7 +1,12 @@
 ---
 title: Splash
 description: Displays an image for a specified number of seconds when the file that contains the HTML Help ActiveX control is opened.
-ms.assetid: 'B6B67828-B844-46d1-92C6-19755C158670'
+ms.assetid: B6B67828-B844-46d1-92C6-19755C158670
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Splash

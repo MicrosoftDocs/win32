@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PushButton control displays a basic push button, also known as a command button.'
-ms.assetid: 'ae4a142d-a813-4fbb-9136-6f2d0c962847'
+---
+Description: The PushButton control displays a basic push button, also known as a command button.
+ms.assetid: ae4a142d-a813-4fbb-9136-6f2d0c962847
 title: PushButton Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PushButton Control

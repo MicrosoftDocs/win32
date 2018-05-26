@@ -1,8 +1,23 @@
 ---
 title: Example Code for Redistribution Setup
 description: Example Code for Redistribution Setup
-ms.assetid: '480f0da7-68c1-4144-a623-47578ae54acb'
-keywords: ["Windows Media Format SDK,software redistribution", "Advanced Systems Format (ASF),software redistribution", "ASF (Advanced Systems Format),software redistribution", "Windows Media Format SDK,redistribution", "Advanced Systems Format (ASF),redistribution", "ASF (Advanced Systems Format),redistribution", "software redistribution,example code", "software redistribution,code examples", "redistribution,example code", "redistribution,code examples"]
+ms.assetid: 480f0da7-68c1-4144-a623-47578ae54acb
+keywords:
+- Windows Media Format SDK,software redistribution
+- Advanced Systems Format (ASF),software redistribution
+- ASF (Advanced Systems Format),software redistribution
+- Windows Media Format SDK,redistribution
+- Advanced Systems Format (ASF),redistribution
+- ASF (Advanced Systems Format),redistribution
+- software redistribution,example code
+- software redistribution,code examples
+- redistribution,example code
+- redistribution,code examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example Code for Redistribution Setup

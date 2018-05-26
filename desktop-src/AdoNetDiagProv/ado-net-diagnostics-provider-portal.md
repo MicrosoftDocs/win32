@@ -1,15 +1,18 @@
 ---
-Description: 'ADO.NET Diagnostics Provider support Windows (ETW) events for ADO.NET classes.'
+Description: ADO.NET Diagnostics Provider support Windows (ETW) events for ADO.NET classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ff7bd29c-d7f3-4b4d-bd0f-e3ebcd067a43'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ff7bd29c-d7f3-4b4d-bd0f-e3ebcd067a43
+ms.prod: windows-server-dev
 ms.technology:
-- 'dotnet-ado'
-- 'windows-management-instrumentation'
+- dotnet-ado
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ADO.NET Diagnostics Provider'
+title: ADO.NET Diagnostics Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADO.NET Diagnostics Provider

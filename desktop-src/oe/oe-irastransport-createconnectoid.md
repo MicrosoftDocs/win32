@@ -1,8 +1,11 @@
 ---
 title: IRASTransport CreateConnectoid method
 description: Displays a dialog box for making a new remote access phonebook entry.
-ms.assetid: '1bf0f6d8-aaa6-4188-a78a-bf91800a3da7'
-keywords: ["CreateConnectoid method Windows Mail (formerly Outlook Express)", "CreateConnectoid method Windows Mail (formerly Outlook Express) , IRASTransport interface", "IRASTransport interface Windows Mail (formerly Outlook Express) , CreateConnectoid method"]
+ms.assetid: 1bf0f6d8-aaa6-4188-a78a-bf91800a3da7
+keywords:
+- CreateConnectoid method Windows Mail (formerly Outlook Express)
+- CreateConnectoid method Windows Mail (formerly Outlook Express) , IRASTransport interface
+- IRASTransport interface Windows Mail (formerly Outlook Express) , CreateConnectoid method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRASTransport::CreateConnectoid method
@@ -24,8 +32,8 @@ Displays a dialog box for making a new remote access phonebook entry.
 
 ```C++
 HRESULT CreateConnectoid(
-  [in]  HWND  hwndParent,
-  [out] DWORD *pdwRASResult
+  [in]  HWND  hwndParent,
+  [out] DWORD *pdwRASResult
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +84,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -85,9 +93,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

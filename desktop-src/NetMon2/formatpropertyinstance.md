@@ -1,7 +1,12 @@
 ---
-Description: 'Formats the property instance data using the generic formatter that Network Monitor provides.'
-ms.assetid: '36206601-7519-45c8-a14e-707b318c539d'
+Description: Formats the property instance data using the generic formatter that Network Monitor provides.
+ms.assetid: 36206601-7519-45c8-a14e-707b318c539d
 title: FormatPropertyInstance function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FormatPropertyInstance function
@@ -13,7 +18,7 @@ The **FormatPropertyInstance** function formats the property instance data using
 
 ```C++
 DWORD WINAPIV FormatPropertyInstance(
-  _Inout_ LPPROPERTYINST lpPropertyInst
+  _Inout_ LPPROPERTYINST lpPropertyInst
 );
 ```
 
@@ -47,7 +52,7 @@ The parser DLL indirectly calls the **FormatPropertyInstance** function when the
 > [!Note]  
 > The parser does not recognize which function is called when it must format an instance of a property. The function can be **FormatPropertyInstance** or a custom format function defined by the parser. The parser calls whatever format function is specified by the **InstanceData** member of the **PROPERTYINFO** structure for the property.
 
- 
+ 
 
 For more information and an example of how to implement [formatproperties](formatproperties.md), see [Implementing FormatProperties](implementing-formatproperties.md). For more information about how the generic formatter formats different types of data, see [Generic Formatter Output](generic-formatter-output.md).
 
@@ -57,8 +62,8 @@ For more information and an example of how to implement [formatproperties](forma
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -75,9 +80,9 @@ For more information and an example of how to implement [formatproperties](forma
 [PROPERTYINST](propertyinst.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

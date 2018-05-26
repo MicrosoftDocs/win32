@@ -4,13 +4,16 @@ description: Creates or starts a job to create new storage objects, which are re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff56e95c-cecf-47d7-b9af-cc6fd44cd824'
-ms.prod: 'windows-server-dev'
+ms.assetid: ff56e95c-cecf-47d7-b9af-cc6fd44cd824
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateGroupReplicaFromElements method iSCSI Software Target API", "CreateGroupReplicaFromElements method iSCSI Software Target API , MSISCSITARGET_ReplicationService class", "MSISCSITARGET_ReplicationService class iSCSI Software Target API , CreateGroupReplicaFromElements method"]
+keywords:
+- CreateGroupReplicaFromElements method iSCSI Software Target API
+- CreateGroupReplicaFromElements method iSCSI Software Target API , MSISCSITARGET_ReplicationService class
+- MSISCSITARGET_ReplicationService class iSCSI Software Target API , CreateGroupReplicaFromElements method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateGroupReplicaFromElements method of the MSISCSITARGET\_ReplicationService class
@@ -32,21 +38,21 @@ This method is inherited from the **CIM\_ReplicationService** class.
 
 ```mof
 uint32 CreateGroupReplicaFromElements(
-  [in, optional]      string                     RelationshipName,
-  [in]                uint16                     SyncType,
-  [in, optional]      uint16                     Mode,
-  [in]                CIM_LogicalElement     REF SourceElements[],
-  [in, out, optional] string                     SourceGroupName,
-  [in, optional]      CIM_ServiceAccessPoint REF SourceAccessPoint,
-  [in, out]           CIM_ReplicationGroup   REF TargetGroup,
-  [in, optional]      CIM_ServiceAccessPoint REF TargetAccessPoint,
-  [in, optional]      uint16                     Consistency,
-  [in, optional]      string                     ReplicationSettingData,
-  [out]               CIM_ConcreteJob        REF Job,
-  [out]               CIM_Synchronized       REF Synchronization,
-  [in, optional]      CIM_SettingData        REF TargetSettingGoal,
-  [in, optional]      CIM_ResourcePool       REF TargetPool,
-  [in, optional]      uint16                     WaitForCopyState
+  [in, optional]      string                     RelationshipName,
+  [in]                uint16                     SyncType,
+  [in, optional]      uint16                     Mode,
+  [in]                CIM_LogicalElement     REF SourceElements[],
+  [in, out, optional] string                     SourceGroupName,
+  [in, optional]      CIM_ServiceAccessPoint REF SourceAccessPoint,
+  [in, out]           CIM_ReplicationGroup   REF TargetGroup,
+  [in, optional]      CIM_ServiceAccessPoint REF TargetAccessPoint,
+  [in, optional]      uint16                     Consistency,
+  [in, optional]      string                     ReplicationSettingData,
+  [out]               CIM_ConcreteJob        REF Job,
+  [out]               CIM_Synchronized       REF Synchronization,
+  [in, optional]      CIM_SettingData        REF TargetSettingGoal,
+  [in, optional]      CIM_ResourcePool       REF TargetPool,
+  [in, optional]      uint16                     WaitForCopyState
 );
 ```
 
@@ -105,7 +111,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>9–0x7FFF</dd> <dt>
+</dt> <dd>9 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -142,7 +148,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–0x7FFF</dd> <dt>
+</dt> <dd>4 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -214,7 +220,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>4–0x7FFF</dd> <dt>
+</dt> <dd>4 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -299,13 +305,13 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
 **Vendor Specific** (0x8000 = *value* )
@@ -318,7 +324,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -335,9 +341,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_StorageVolume**](msiscsitarget-storagevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

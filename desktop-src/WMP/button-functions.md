@@ -1,8 +1,21 @@
 ---
 title: Button Functions
 description: Button Functions
-ms.assetid: '6383a9dc-31cc-409b-83b7-cb41050f18e8'
-keywords: ["Windows Media Player Mobile skins,button functions", "Windows Media Player Mobile skins,PlayPause buttons", "Windows Media Player Mobile skins,Stop buttons", "Windows Media Player Mobile skins,PlayPauseStop buttons", "Windows Media Player Mobile skins,Next buttons", "Windows Media Player Mobile skins,Prev buttons", "skins,button functions", "buttons in skins,functions"]
+ms.assetid: 6383a9dc-31cc-409b-83b7-cb41050f18e8
+keywords:
+- Windows Media Player Mobile skins,button functions
+- Windows Media Player Mobile skins,PlayPause buttons
+- Windows Media Player Mobile skins,Stop buttons
+- Windows Media Player Mobile skins,PlayPauseStop buttons
+- Windows Media Player Mobile skins,Next buttons
+- Windows Media Player Mobile skins,Prev buttons
+- skins,button functions
+- buttons in skins,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Functions

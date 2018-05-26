@@ -1,7 +1,12 @@
 ---
-Description: 'SRIOV settings for a network adapter.'
-ms.assetid: '300fcb85-de8f-4afc-b7bc-ef617dc1e405'
-title: 'MSFT\_NetAdapterSriovSettingData class'
+Description: SRIOV settings for a network adapter.
+ms.assetid: 300fcb85-de8f-4afc-b7bc-ef617dc1e405
+title: MSFT\_NetAdapterSriovSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterSriovSettingData class
@@ -16,30 +21,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterSriovSettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
   boolean Enabled;
-  uint8   SriovSupport;
-  string  HardwareCapabilities;
-  string  CurrentCapabilities;
-  uint16  SwitchType;
-  string  SwitchName;
-  uint32  NumVFs;
-  uint32  NumAllocatedVFs;
-  uint32  NumVPorts;
-  uint32  NumActiveVPorts;
-  uint32  NumQueuePairsForDefaultVPort;
-  uint32  NumQueuePairsForNonDefaultVPorts;
-  uint32  NumActiveDefaultVPortMacAddresses;
-  uint32  NumActiveNonDefaultVPortMacAddresses;
-  uint32  NumActiveDefaultVPortVlanIds;
-  uint32  NumActiveNonDefaultVPortVlanIds;
+  uint8   SriovSupport;
+  string  HardwareCapabilities;
+  string  CurrentCapabilities;
+  uint16  SwitchType;
+  string  SwitchName;
+  uint32  NumVFs;
+  uint32  NumAllocatedVFs;
+  uint32  NumVPorts;
+  uint32  NumActiveVPorts;
+  uint32  NumQueuePairsForDefaultVPort;
+  uint32  NumQueuePairsForNonDefaultVPorts;
+  uint32  NumActiveDefaultVPortMacAddresses;
+  uint32  NumActiveNonDefaultVPortMacAddresses;
+  uint32  NumActiveDefaultVPortVlanIds;
+  uint32  NumActiveNonDefaultVPortVlanIds;
 };
 ```
 
@@ -63,7 +68,7 @@ The **MSFT\_NetAdapterSriovSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -446,16 +451,16 @@ The scoping System\\'s Name. This property inherits from [**MSFT\_NetAdapterSett
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Help method invokes the property page help. This method implements the IPropertyPage::Help method.'
-ms.assetid: '8fe72b2e-a9f1-435d-8eda-27056f112c6d'
-title: 'CBasePropertyPage.Help method'
+Description: The Help method invokes the property page help. This method implements the IPropertyPageHelp method.
+ms.assetid: 8fe72b2e-a9f1-435d-8eda-27056f112c6d
+title: CBasePropertyPage.Help method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.Help method
@@ -13,7 +18,7 @@ The `Help` method invokes the property page help. This method implements the **I
 
 ```C++
 HRESULT Help(
-   LPCWSTR lpszHelpDir
+   LPCWSTR lpszHelpDir
 );
 ```
 
@@ -56,9 +61,9 @@ In the base class, the method always returns E\_NOTIMPL. When the method fails, 
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS\_EX structure
 description: The WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS\_EX structure holds extended information about a restriction for playing back content as analog video.
-ms.assetid: 'fe9092fe-a717-4377-9653-1cc07795319f'
-keywords: ["WMDRM_ANALOG_VIDEO_RESTRICTIONS_EX structure windows Media Format", "structure windows Media Format"]
+ms.assetid: fe9092fe-a717-4377-9653-1cc07795319f
+keywords:
+- WMDRM_ANALOG_VIDEO_RESTRICTIONS_EX structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS\_EX structure
@@ -23,9 +30,9 @@ The **WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS\_EX** structure holds extended informat
 ```C++
 typedef struct WMDRM_ANALOG_VIDEO_RESTRICTIONS_EX {
   DWORD dwVersion;
-  GUID  guidRestrictionID;
+  GUID  guidRestrictionID;
   DWORD cbRestrictionData;
-  BYTE  *pbRestrictionData;
+  BYTE  *pbRestrictionData;
 } ;
 ```
 
@@ -87,9 +94,9 @@ None.
 [**WMDRM\_ANALOG\_VIDEO\_RESTRICTIONS**](wmdrm-analog-video-restrictions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

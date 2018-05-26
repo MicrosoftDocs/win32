@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes how to use hardware overlays in Direct3D 9.'
-ms.assetid: 'fa9d5bf5-4c0f-471a-b639-d329b0cd89a4'
+---
+Description: Describes how to use hardware overlays in Direct3D 9.
+ms.assetid: fa9d5bf5-4c0f-471a-b639-d329b0cd89a4
 title: Hardware Overlay Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hardware Overlay Support
@@ -20,7 +25,7 @@ The use of hardware overlays for video playback was common in earlier versions o
 
 To query for overlay support, call **IDirect3D9::GetDeviceCaps**. If the driver supports hardware overlay, the **D3DCAPS\_OVERLAY** flag is set in the **D3DCAPS9.Caps** member.
 
-To find out whether a specific overlay format is supported for a given display mode, call [**IDirect3D9ExOverlayExtension::CheckDeviceOverlayType**](idirect3d9exoverlayextension-checkdeviceoverlaytype.md).
+To find out whether a specific overlay format is supported for a given display mode, call [**IDirect3D9ExOverlayExtension::CheckDeviceOverlayType**](/windows/win32/d3d9/nf-d3d9-idirect3d9exoverlayextension-checkdeviceoverlaytype?branch=master).
 
 To create the overlay, call **IDirect3D9Ex::CreateDeviceEx** and specify the **D3DSWAPEFFECT\_OVERLAY** swap effect. The back buffer can use a non-RGB format if the hardware supports it.
 

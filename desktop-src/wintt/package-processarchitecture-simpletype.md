@@ -1,14 +1,20 @@
 ---
 title: ProcessArchitecture Simple Type
 description: Defines the possible process architecture values.
-ms.assetid: '922d1915-4767-44c6-98d7-00657f2b7929'
-keywords: ["ProcessArchitecture simple type Windows Troubleshooting Toolkit"]
+ms.assetid: 922d1915-4767-44c6-98d7-00657f2b7929
+keywords:
+- ProcessArchitecture simple type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ProcessArchitecture
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessArchitecture Simple Type
@@ -57,8 +63,8 @@ The **ProcessArchitecture** simple type defines the following values.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ The **ProcessArchitecture** simple type defines the following values.
 [**Script**](package-script-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

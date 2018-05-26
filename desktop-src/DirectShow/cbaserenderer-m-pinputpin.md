@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the filter''s input pin.'
-ms.assetid: '405edb7d-7682-4cc0-b862-6ef5c44a26ab'
-title: 'CBaseRenderer::m\_pInputPin member'
+Description: Pointer to the filters input pin.
+ms.assetid: 405edb7d-7682-4cc0-b862-6ef5c44a26ab
+title: CBaseRendererm\_pInputPin member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_pInputPin member
@@ -35,9 +40,9 @@ CRendererInputPin *m_pInputPin;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: You can use Central Access Policies (CAP) to control access dynamic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '11967171-9C7D-488A-9DC2-5C7953FC8096'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 11967171-9C7D-488A-9DC2-5C7953FC8096
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , central access policies for dynamic access control"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , central access policies for dynamic access control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to use central access policies for dynamic access control

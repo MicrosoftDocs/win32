@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetIscsiInitiatorNodeName method sets the initiator node name.'
-ms.assetid: '71acfc5a-4dfc-4245-8bed-bdf48352f574'
-title: 'SetIscsiInitiatorNodeName method of the MSIscsiInitiator\_MethodClass class'
+---
+Description: The SetIscsiInitiatorNodeName method sets the initiator node name.
+ms.assetid: 71acfc5a-4dfc-4245-8bed-bdf48352f574
+title: SetIscsiInitiatorNodeName method of the MSIscsiInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIscsiInitiatorNodeName method of the MSIscsiInitiator\_MethodClass class

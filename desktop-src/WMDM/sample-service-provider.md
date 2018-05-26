@@ -1,8 +1,19 @@
 ---
 title: Sample Service Provider
 description: Sample Service Provider
-ms.assetid: 'bbdeddb5-4ddf-4a61-828c-a9ba7af307ea'
-keywords: ["Windows Media Device Manager,samples", "Device Manager,samples", "Windows Media Device Manager,service provider sample", "Device Manager,service provider sample", "service providers,samples", "samples,service providers"]
+ms.assetid: bbdeddb5-4ddf-4a61-828c-a9ba7af307ea
+keywords:
+- Windows Media Device Manager,samples
+- Device Manager,samples
+- Windows Media Device Manager,service provider sample
+- Device Manager,service provider sample
+- service providers,samples
+- samples,service providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Service Provider

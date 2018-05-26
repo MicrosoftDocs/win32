@@ -1,15 +1,28 @@
 ---
 title: Uncompressed Media Subtypes
 description: Uncompressed Media Subtypes
-ms.assetid: '5586e62a-d0f5-45cc-a690-4efa244b3f32'
-keywords: ["Windows Media Format SDK,media types", "Advanced Systems Format (ASF),media types", "ASF (Advanced Systems Format),media types", "Windows Media Format SDK,uncompressed media subtypes", "Advanced Systems Format (ASF),uncompressed media subtypes", "ASF (Advanced Systems Format),uncompressed media subtypes", "media types,uncompressed media subtypes", "uncompressed media subtypes"]
+ms.assetid: 5586e62a-d0f5-45cc-a690-4efa244b3f32
+keywords:
+- Windows Media Format SDK,media types
+- Advanced Systems Format (ASF),media types
+- ASF (Advanced Systems Format),media types
+- Windows Media Format SDK,uncompressed media subtypes
+- Advanced Systems Format (ASF),uncompressed media subtypes
+- ASF (Advanced Systems Format),uncompressed media subtypes
+- media types,uncompressed media subtypes
+- uncompressed media subtypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uncompressed Media Subtypes
 
 The following table lists the uncompressed media subtypes. These are types used as input and output formats, and formats for uncompressed streams. Not all of the types in the following tables are supported in all ways. Supported input and output format types can be enumerated by codec in the writer and reader/synchronous reader, respectively. For information about the types supported for uncompressed streams, see [Using Uncompressed Audio and Video Streams](using-uncompressed-audio-and-video-streams.md).
 
-The various RGB and palettized RGB video types listed here define colors using the RGB format, in which each color is represented by the intensity values of the red, green, and blue components of the pixel. Each intensity value can range from 0 to 255, for about 16.78 million unique colors. RGB translates easily into color values used for computer monitors, which use red, green, and blue phosphors to display color. Palettized video types must include palette information directly following the [**WMVIDEOINFOHEADER**](wmvideoinfoheader.md) structure. Likewise, 16 bit video requires bit field information, which should be included after the WMVIDEOINFOHEADER structure.
+The various RGB and palettized RGB video types listed here define colors using the RGB format, in which each color is represented by the intensity values of the red, green, and blue components of the pixel. Each intensity value can range from 0 to 255, for about 16.78 million unique colors. RGB translates easily into color values used for computer monitors, which use red, green, and blue phosphors to display color. Palettized video types must include palette information directly following the [**WMVIDEOINFOHEADER**](/windows/win32/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader?branch=master) structure. Likewise, 16 bit video requires bit field information, which should be included after the WMVIDEOINFOHEADER structure.
 
 Several of the media subtypes in the following table provide fewer colors than the RGB system is capable of, as described in the Description column. In palettized RGB types, colors in the palette represent RGB values, but are specified by a value that indicates the position of the color in the palette.
 

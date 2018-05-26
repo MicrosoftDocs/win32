@@ -1,7 +1,12 @@
 ---
-Description: 'The sequence tables of the sample upgrade package are the same as in the original product.'
-ms.assetid: '6b733638-a665-4638-8257-a36232119ba9'
+Description: The sequence tables of the sample upgrade package are the same as in the original product.
+ms.assetid: 6b733638-a665-4638-8257-a36232119ba9
 title: Updating Sequence Tables for an Upgrade
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Sequence Tables for an Upgrade

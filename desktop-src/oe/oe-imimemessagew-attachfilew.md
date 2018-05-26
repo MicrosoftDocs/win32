@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageW AttachFileW method
 description: Attaches the contents of a file to the message.
-ms.assetid: 'c44e2816-093b-4af0-86de-2461ad1420ef'
-keywords: ["AttachFileW method Windows Mail (formerly Outlook Express)", "AttachFileW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface", "IMimeMessageW interface Windows Mail (formerly Outlook Express) , AttachFileW method"]
+ms.assetid: c44e2816-093b-4af0-86de-2461ad1420ef
+keywords:
+- AttachFileW method Windows Mail (formerly Outlook Express)
+- AttachFileW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface
+- IMimeMessageW interface Windows Mail (formerly Outlook Express) , AttachFileW method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageW::AttachFileW method
@@ -22,9 +30,9 @@ Attaches the contents of a file to the message.
 
 ```C++
 HRESULT AttachFileW(
-  [in]  LPCWSTR pwszFilePath,
-  [in]  IStream *pstmFile,
-  [out] LPHBODY phBody
+  [in]  LPCWSTR pwszFilePath,
+  [in]  IStream *pstmFile,
+  [out] LPHBODY phBody
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +94,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -95,9 +103,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

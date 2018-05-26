@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetDisplayName method
 description: Retrieves the display name for the job. Typically, you use the display name to identify the job in a user interface.
-ms.assetid: 'E3D906E1-5D58-4BA8-A3AB-24BCDCD487F5'
-keywords: ["GetDisplayName method", "GetDisplayName method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetDisplayName method"]
+ms.assetid: E3D906E1-5D58-4BA8-A3AB-24BCDCD487F5
+keywords:
+- GetDisplayName method
+- GetDisplayName method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetDisplayName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetDisplayName method
@@ -22,7 +30,7 @@ Retrieves the display name for the job. Typically, you use the display name to i
 
 ```C++
 HRESULT GetDisplayName(
-  [out] LPWSTR *ppDisplayName
+  [out] LPWSTR *ppDisplayName
 );
 ```
 
@@ -52,7 +60,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,7 +68,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -77,9 +85,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IBackgroundCopyJob**](ibackgroundcopyjob-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

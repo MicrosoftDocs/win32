@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the class name and other information associated with a given GUID in a component''s manifest.'
-ms.assetid: 'af7c6e56-604d-4a1b-8fbf-71a372ba1ae7'
+---
+Description: Retrieves the class name and other information associated with a given GUID in a components manifest.
+ms.assetid: af7c6e56-604d-4a1b-8fbf-71a372ba1ae7
 title: SxsLookupClrGuid function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SxsLookupClrGuid function

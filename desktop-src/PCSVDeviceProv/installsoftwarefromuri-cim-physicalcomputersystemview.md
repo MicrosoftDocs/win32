@@ -1,13 +1,16 @@
 ---
-Description: 'An extrinsic method for installing software on this physical computer system.'
+Description: An extrinsic method for installing software on this physical computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c58e60cb-d065-40b5-87ad-d2eaddc702ac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c58e60cb-d065-40b5-87ad-d2eaddc702ac
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'InstallSoftwareFromURI method of the CIM\_PhysicalComputerSystemView class'
+title: InstallSoftwareFromURI method of the CIM\_PhysicalComputerSystemView class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallSoftwareFromURI method of the CIM\_PhysicalComputerSystemView class
@@ -19,11 +22,11 @@ An extrinsic method for installing software on this physical computer system. If
 
 ```mof
 uint32 InstallSoftwareFromURI(
-  [in, out] CIM_ConcreteJob REF Job,
-  [in]      uint16              Classifications[],
-  [in]      string              URI,
-  [in]      uint16              InstallOptions[],
-  [in]      string              InstallOptionsValues[]
+  [in, out] CIM_ConcreteJob REF Job,
+  [in]      uint16              Classifications[],
+  [in]      string              URI,
+  [in]      uint16              InstallOptions[],
+  [in]      string              InstallOptionsValues[]
 );
 ```
 
@@ -80,14 +83,14 @@ See CIM\_SoftwareIdentity.Classifications for details.
 **DMTF Reserved**
 
 
-</dt> <dd>15–32767</dd> <dt>
+</dt> <dd>15 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *URI* \[in\]
 </dt> <dd>
@@ -192,14 +195,14 @@ See CIM\_SoftwareInstallationService.InstallFromURI.InstallOptions for details.
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *InstallOptionsValues* \[in\]
 </dt> <dd>
@@ -224,10 +227,10 @@ See CIM\_SoftwareInstallationService.InstallFromURI.InstallOptionsValues for det
 **Job Started** (4096)
 </dt> <dt>
 
-**DMTF Reserved** (4097–32767)
+**DMTF Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -236,8 +239,8 @@ See CIM\_SoftwareInstallationService.InstallFromURI.InstallOptionsValues for det
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
@@ -251,9 +254,9 @@ See CIM\_SoftwareInstallationService.InstallFromURI.InstallOptionsValues for det
 [**CIM\_PhysicalComputerSystemView**](cim-physicalcomputersystemview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

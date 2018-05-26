@@ -1,8 +1,9 @@
 ---
 title: DTN\_FORMATQUERY notification code
 description: Sent by a date and time picker (DTP) control to retrieve the maximum allowable size of the string that will be displayed in a callback field. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '0f00086a-0ab8-4f6f-9c3e-6e77008aa088'
-keywords: ["DTN_FORMATQUERY notification code Windows Controls"]
+ms.assetid: 0f00086a-0ab8-4f6f-9c3e-6e77008aa088
+keywords:
+- DTN_FORMATQUERY notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTN\_FORMATQUERY notification code
@@ -35,13 +41,13 @@ DTN_FORMATQUERY
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMDATETIMEFORMATQUERY**](nmdatetimeformatquery.md) structure containing information about the callback field. The structure contains a substring that defines a callback field and receives the maximum allowable size of the string that will be displayed in the callback field.
+A pointer to an [**NMDATETIMEFORMATQUERY**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimeformatquerya?branch=master) structure containing information about the callback field. The structure contains a substring that defines a callback field and receives the maximum allowable size of the string that will be displayed in the callback field.
 
 </dd> </dl>
 
 ## Return value
 
-The owner of the control must calculate the maximum possible width of the text that will be displayed in the callback field, set the **szMax** member of the [**NMDATETIMEFORMATQUERY**](nmdatetimeformatquery.md) structure, and return zero.
+The owner of the control must calculate the maximum possible width of the text that will be displayed in the callback field, set the **szMax** member of the [**NMDATETIMEFORMATQUERY**](/windows/win32/Commctrl/ns-commctrl-tagnmdatetimeformatquerya?branch=master) structure, and return zero.
 
 ## Remarks
 
@@ -53,16 +59,16 @@ Handling this notification code prepares the control to adjust for the maximum s
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **DTN\_FORMATQUERYW** (Unicode) and **DTN\_FORMATQUERYA** (ANSI)<br/>           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

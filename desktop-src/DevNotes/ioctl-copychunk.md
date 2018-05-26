@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IOCTL\_COPYCHUNK control code initiates a server-side copy of a range of data, also called a chunk.'
-ms.assetid: '36f68840-bd5c-4cfc-a8ad-0cfbbdc5a2a9'
-title: 'IOCTL\_COPYCHUNK control code'
+---
+Description: The IOCTL\_COPYCHUNK control code initiates a server-side copy of a range of data, also called a chunk.
+ms.assetid: 36f68840-bd5c-4cfc-a8ad-0cfbbdc5a2a9
+title: IOCTL\_COPYCHUNK control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_COPYCHUNK control code

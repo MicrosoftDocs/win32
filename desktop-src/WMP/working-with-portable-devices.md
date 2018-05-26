@@ -1,8 +1,21 @@
 ---
 title: Working with Portable Devices
 description: Working with Portable Devices
-ms.assetid: '145ede07-a23b-486b-a561-9c87a48b72a8'
-keywords: ["Windows Media Player,portable devices", "Windows Media Player object model,portable devices", "object model,portable devices", "Windows Media Player ActiveX control,portable devices", "ActiveX control,portable devices", "Windows Media Player Mobile ActiveX control,portable devices", "Windows Media Player Mobile,portable devices", "portable devices,about"]
+ms.assetid: 145ede07-a23b-486b-a561-9c87a48b72a8
+keywords:
+- Windows Media Player,portable devices
+- Windows Media Player object model,portable devices
+- object model,portable devices
+- Windows Media Player ActiveX control,portable devices
+- ActiveX control,portable devices
+- Windows Media Player Mobile ActiveX control,portable devices
+- Windows Media Player Mobile,portable devices
+- portable devices,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Portable Devices

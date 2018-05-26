@@ -1,8 +1,10 @@
 ---
 title: WMDRMNET\_POLICY\_TYPE enumeration
 description: The WMDRMNET\_POLICY\_TYPE enumeration type lists the types of policies that are available for Windows Media DRM for Network Devices operations.
-ms.assetid: '83e9e247-3bd8-4857-97b6-95b3cd5ad25c'
-keywords: ["WMDRMNET_POLICY_TYPE enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: 83e9e247-3bd8-4857-97b6-95b3cd5ad25c
+keywords:
+- WMDRMNET_POLICY_TYPE enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMNET\_POLICY\_TYPE enumeration
@@ -22,8 +29,8 @@ The **WMDRMNET\_POLICY\_TYPE** enumeration type lists the types of policies that
 
 ```C++
 typedef enum WMDRMNET_POLICY_TYPE { 
-  WMDRMNET_POLICY_TYPE_UNDEFINED       = 0x0000,
-  WMDRMNET_POLICY_TYPE_TRANSCRYPTPLAY  = 0x0001
+  WMDRMNET_POLICY_TYPE_UNDEFINED       = 0x0000,
+  WMDRMNET_POLICY_TYPE_TRANSCRYPTPLAY  = 0x0001
 } ;
 ```
 
@@ -71,9 +78,9 @@ None.
 [**WMDRMNET\_POLICY**](wmdrmnet-policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

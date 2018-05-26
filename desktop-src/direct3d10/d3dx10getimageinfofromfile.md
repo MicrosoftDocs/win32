@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information about a given image file.'
-ms.assetid: '59bdce45-82d9-42da-b847-a29ca71919b5'
+---
+Description: Retrieves information about a given image file.
+ms.assetid: 59bdce45-82d9-42da-b847-a29ca71919b5
 title: D3DX10GetImageInfoFromFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10GetImageInfoFromFile function

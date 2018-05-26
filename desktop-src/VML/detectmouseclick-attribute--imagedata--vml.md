@@ -1,7 +1,12 @@
 ---
 title: DetectMouseClick Attribute (ImageData)(VML)
 description: DetectMouseClick Attribute (ImageData)(VML)
-ms.assetid: '65995332-5a86-4f43-ba23-598c295eda5d'
+ms.assetid: 65995332-5a86-4f43-ba23-598c295eda5d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetectMouseClick Attribute (ImageData)(VML)

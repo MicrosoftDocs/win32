@@ -1,7 +1,12 @@
 ---
 title: IISAdmin Sample
 description: IISAdmin Sample
-ms.assetid: 'a7a849df-dd6f-44c9-94eb-5d9d03c54e94'
+ms.assetid: a7a849df-dd6f-44c9-94eb-5d9d03c54e94
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IISAdmin Sample

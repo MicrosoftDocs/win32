@@ -1,7 +1,12 @@
 ---
-Description: 'Includes the contents of a macro or file in the generated output.'
-ms.assetid: '450ccfa6-b189-4557-bcb9-4aa29ac2356e'
+Description: Includes the contents of a macro or file in the generated output.
+ms.assetid: 450ccfa6-b189-4557-bcb9-4aa29ac2356e
 title: include element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # include element
@@ -61,14 +66,14 @@ The following XML shows how to include the **DoNotModify** macro. This XML can b
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

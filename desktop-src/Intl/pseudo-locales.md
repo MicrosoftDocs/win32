@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Vista and later: NLS defines several pseudo-locales for use in addition to the existing Windows locales.'
-ms.assetid: '8ec3038e-da18-47fc-a689-dd9162a41faa'
-title: 'Pseudo-Locales'
+Description: Windows Vista and later NLS defines several pseudo-locales for use in addition to the existing Windows locales.
+ms.assetid: 8ec3038e-da18-47fc-a689-dd9162a41faa
+title: Pseudo-Locales
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pseudo-Locales

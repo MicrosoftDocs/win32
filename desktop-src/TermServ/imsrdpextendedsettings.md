@@ -4,11 +4,13 @@ description: Used to set and retrieve named properties for the client control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b78eebc1-e514-4201-becf-770ee4a15187'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b78eebc1-e514-4201-becf-770ee4a15187
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpExtendedSettings interface Remote Desktop Services", "IMsRdpExtendedSettings interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpExtendedSettings interface Remote Desktop Services
+- IMsRdpExtendedSettings interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpExtendedSettings interface
@@ -41,7 +46,7 @@ The **IMsRdpExtendedSettings** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,8 +54,8 @@ The **IMsRdpExtendedSettings** interface has these properties.
 
 |                                     |                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                                                                                                                                                                                                                                                                                                                       |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                                                                                                                                                                                                                                                                                                                       |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                                                                                                                                                                                                                                               |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                                                                                                                                                                                                                                               |
 | CLSID<br/>                    | CLSID\_MsRdpClient10NotSafeForScripting is defined as A0C63C30-F08D-4AB4-907C-34905D770C7D<br/> CLSID\_MsRdpClient7NotSafeForScripting is defined as 54d38bf7-b1ef-4479-9674-1bd6ea465258<br/> CLSID\_MsRdpClient8NotSafeForScripting is defined as A3BC03A0-041D-42E3-AD22-882B7865C9C5<br/> CLSID\_MsRdpClient9NotSafeForScripting is defined as 8B918B82-7985-4C24-89DF-C33AD2BBFBCD<br/> |
@@ -58,9 +63,9 @@ The **IMsRdpExtendedSettings** interface has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

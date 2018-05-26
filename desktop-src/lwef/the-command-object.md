@@ -1,7 +1,12 @@
 ---
 title: The Command Object
 description: The Command Object
-ms.assetid: 'a757846a-c2d0-4239-9533-babf5dc8399f'
+ms.assetid: a757846a-c2d0-4239-9533-babf5dc8399f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Command Object
@@ -149,7 +154,7 @@ Yes
 
 Yes
 
-No¹
+No 
 
 True
 
@@ -163,7 +168,7 @@ Yes
 
 Yes
 
-No¹
+No 
 
 True
 
@@ -177,7 +182,7 @@ Yes
 
 Yes
 
-No¹
+No 
 
 False
 
@@ -191,7 +196,7 @@ Yes
 
 Yes
 
-No¹
+No 
 
 False
 
@@ -201,7 +206,7 @@ Does not appear
 
 No
 
-No¹
+No 
 
 Yes
 
@@ -215,7 +220,7 @@ Does not appear
 
 Yes, using [**VoiceCaption**](voicecaption-property.md)
 
-No¹
+No 
 
 Yes
 
@@ -229,7 +234,7 @@ Does not appear
 
 No
 
-No¹
+No 
 
 Yes
 
@@ -243,7 +248,7 @@ Does not appear
 
 Yes, using [**VoiceCaption**](voicecaption-property.md)
 
-No¹
+No 
 
 Yes
 
@@ -257,11 +262,11 @@ Does not appear
 
 No
 
-No¹
+No 
 
 Yes
 
-No¹
+No 
 
 True
 
@@ -271,11 +276,11 @@ Does not appear
 
 No
 
-No¹
+No 
 
 Yes
 
-No¹
+No 
 
 True
 
@@ -285,11 +290,11 @@ Does not appear
 
 No
 
-No¹
+No 
 
 Yes
 
-No¹
+No 
 
 False
 
@@ -299,11 +304,11 @@ Does not appear
 
 No
 
-No¹
+No 
 
 Yes
 
-No¹
+No 
 
 False
 
@@ -315,7 +320,7 @@ No
 
 Yes
 
-No¹
+No 
 
 Yes
 
@@ -329,7 +334,7 @@ Yes, using [**Caption**](caption-property.md)
 
 Yes
 
-No¹
+No 
 
 Yes
 
@@ -343,7 +348,7 @@ No
 
 Yes
 
-No¹
+No 
 
 Yes
 
@@ -357,7 +362,7 @@ Yes, using [**Caption**](caption-property.md)
 
 Yes
 
-No¹
+No 
 
 Yes
 
@@ -371,9 +376,9 @@ No
 
 Yes
 
-No¹
+No 
 
-No¹
+No 
 
 True
 
@@ -385,9 +390,9 @@ No
 
 Yes
 
-No¹
+No 
 
-No¹
+No 
 
 True
 
@@ -399,9 +404,9 @@ No
 
 Yes
 
-No¹
+No 
 
-No¹
+No 
 
 False
 
@@ -413,9 +418,9 @@ No
 
 Yes
 
-No¹
+No 
 
-No¹
+No 
 
 False
 
@@ -425,9 +430,9 @@ Does not appear
 
 No
 
-No¹
+No 
 
-No¹
+No 
 
 Yes
 
@@ -437,11 +442,11 @@ True
 
 Does not appear
 
-No²
+No 
 
-No¹
+No 
 
-No¹
+No 
 
 Yes
 
@@ -453,39 +458,39 @@ Does not appear
 
 No
 
-No¹
+No 
 
-No¹
-
-Yes
-
-False
-
-True
-
-Does not appear
-
-No²
-
-No¹
-
-No¹
+No 
 
 Yes
 
 False
 
+True
+
+Does not appear
+
+No 
+
+No 
+
+No 
+
+Yes
+
+False
+
 False
 
 Does not appear
 
 No
 
-No¹
+No 
 
-No¹
+No 
 
-No¹
+No 
 
 True
 
@@ -495,39 +500,39 @@ Does not appear
 
 No
 
-No¹
+No 
 
-No¹
+No 
 
-No¹
-
-True
-
-False
-
-Does not appear
-
-No
-
-No¹
-
-No¹
-
-No¹
-
-False
+No 
 
 True
 
+False
+
 Does not appear
 
 No
 
-No¹
+No 
 
-No¹
+No 
 
-No¹
+No 
+
+False
+
+True
+
+Does not appear
+
+No
+
+No 
+
+No 
+
+No 
 
 False
 
@@ -537,17 +542,17 @@ Does not appear
 
 No
 
-¹If the property setting is null. In some programming languages, an empty string may not be interpreted the same as a null string. ²The command is still voice-accessible.<br/>
+ If the property setting is null. In some programming languages, an empty string may not be interpreted the same as a null string.  The command is still voice-accessible.<br/>
 
 
 
- 
+ 
 
 When the server receives input for one of your commands, it sends a [**Command**](https://msdn.microsoft.com/library/windows/desktop/ms696441) event, and passes back the name of the **Command** as an attribute of the [**UserInput**](https://msdn.microsoft.com/library/windows/desktop/ms697590) object. You can then use conditional statements to match and process the **Command**.
 
- 
+ 
 
- 
+ 
 
 
 

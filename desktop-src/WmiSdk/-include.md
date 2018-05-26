@@ -1,13 +1,16 @@
 ---
-Description: 'Includes the contents of one MOF file into another MOF file.'
+Description: Includes the contents of one MOF file into another MOF file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '06765956-e4ee-467b-9b3b-d5da17b9cd82'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 06765956-e4ee-467b-9b3b-d5da17b9cd82
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\#include'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \#include

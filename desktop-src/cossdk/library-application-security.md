@@ -1,7 +1,12 @@
 ---
-Description: 'Because a COM+ library application is hosted by another process, which may have its own security settings, security for library applications requires special consideration.'
-ms.assetid: 'a966020c-a0bd-467c-b6d3-e09267cf5574'
+Description: Because a COM+ library application is hosted by another process, which may have its own security settings, security for library applications requires special consideration.
+ms.assetid: a966020c-a0bd-467c-b6d3-e09267cf5574
 title: Library Application Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Library Application Security

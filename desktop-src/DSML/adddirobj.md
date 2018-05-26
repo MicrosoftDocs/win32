@@ -4,11 +4,15 @@ description: The following code example adds an organizationalUnit object named 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1ad20551-5653-4157-bc6f-8cec609f8434'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1ad20551-5653-4157-bc6f-8cec609f8434
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Adding a Directory Object DSML"]
+keywords:
+- Adding a Directory Object DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding a Directory Object

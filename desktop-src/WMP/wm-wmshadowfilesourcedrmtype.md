@@ -1,14 +1,20 @@
 ---
 title: WM/WMShadowFileSourceDRMType
 description: The WM/WMShadowFileSourceDRMType is the digital rights management system used to protect the file contained in the shadow file.
-ms.assetid: 'f670752d-0490-411e-b4f1-a8c782ad9fcc'
-keywords: ["WM/WMShadowFileSourceDRMType Windows Media Player"]
+ms.assetid: f670752d-0490-411e-b4f1-a8c782ad9fcc
+keywords:
+- WM/WMShadowFileSourceDRMType Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/WMShadowFileSourceDRMType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMShadowFileSourceDRMType
@@ -41,9 +47,9 @@ The shadow file is specified by using the [ShadowFilePath](shadowfilepath-attrib
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

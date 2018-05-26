@@ -1,7 +1,12 @@
 ---
 title: Microsoft Agent Animations for Genie Character
 description: Microsoft Agent Animations for Genie Character
-ms.assetid: '56c42d7a-32af-47cb-8578-0a89507a41ed'
+ms.assetid: 56c42d7a-32af-47cb-8578-0a89507a41ed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Agent Animations for Genie Character
@@ -101,13 +106,13 @@ The character file includes sound effects for some animation as noted in the fol
 
 
 
- 
+ 
 
 \* If you play a looping animation, you must use [**Stop**](stop-method.md) to clear it before other animations in the character's queue will play.
 
- 
+ 
 
- 
+ 
 
 
 

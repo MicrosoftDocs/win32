@@ -1,7 +1,12 @@
 ---
-Description: 'Applications can control the location from which a DLL is loaded by specifying a full path or using another mechanism such as a manifest. If these methods are not used, the system searches for the DLL at load time as described in this topic.'
-ms.assetid: '44228cf2-6306-466c-8f16-f513cd3ba8b5'
-title: 'Dynamic-Link Library Search Order'
+Description: Applications can control the location from which a DLL is loaded by specifying a full path or using another mechanism such as a manifest. If these methods are not used, the system searches for the DLL at load time as described in this topic.
+ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
+title: Dynamic-Link Library Search Order
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dynamic-Link Library Search Order
@@ -28,7 +33,7 @@ The following factors affect whether the system searches for a DLL:
 
 ## Search Order for Windows Store apps
 
-When a Windows Store app loads a packaged module by calling the [**LoadPackagedLibrary**](loadpackagedlibrary.md) function, the DLL must be in the package dependency graph of the process. For more information, see **LoadPackagedLibrary**. When a Windows Store app loads a module by other means and does not specify a full path, the system searches for the DLL and its dependencies at load time as described in this section.
+When a Windows Store app loads a packaged module by calling the [**LoadPackagedLibrary**](/windows/win32/Winbase/nf-winbase-loadpackagedlibrary?branch=master) function, the DLL must be in the package dependency graph of the process. For more information, see **LoadPackagedLibrary**. When a Windows Store app loads a module by other means and does not specify a full path, the system searches for the DLL and its dependencies at load time as described in this section.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows Server 2003 and Windows XP:** Windows Store apps are supported starting with Windows 8 and Windows Server 2012.
 
@@ -51,7 +56,7 @@ If a DLL has dependencies, the system searches for the dependent DLLs as if they
 
 ### Alternate Search Order for Windows Store apps
 
-If a module changes the standard search order by calling the [**LoadLibraryEx**](loadlibraryex.md) function with **LOAD\_WITH\_ALTERED\_SEARCH\_PATH**, the system searches the directory the specified module was loaded from instead of the directory of the calling process. The system searches these locations in this order:
+If a module changes the standard search order by calling the [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function with **LOAD\_WITH\_ALTERED\_SEARCH\_PATH**, the system searches the directory the specified module was loaded from instead of the directory of the calling process. The system searches these locations in this order:
 
 1.  The package dependency graph of the process. This is the application's package plus any dependencies specified as `<PackageDependency>` in the `<Dependencies>` section of the application's package manifest. Dependencies are searched in the order they appear in the manifest.
 2.  The directory the specified module was loaded from.
@@ -101,15 +106,15 @@ If **SafeDllSearchMode** is disabled, the search order is as follows:
 
 ### Alternate Search Order for Desktop Applications
 
-The standard search order used by the system can be changed by calling the [**LoadLibraryEx**](loadlibraryex.md) function with **LOAD\_WITH\_ALTERED\_SEARCH\_PATH**. The standard search order can also be changed by calling the [**SetDllDirectory**](setdlldirectory.md) function.
+The standard search order used by the system can be changed by calling the [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function with **LOAD\_WITH\_ALTERED\_SEARCH\_PATH**. The standard search order can also be changed by calling the [**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master) function.
 
-**Windows XP:** Changing the standard search order by calling [**SetDllDirectory**](setdlldirectory.md) is not supported until Windows XP with Service Pack 1 (SP1).
+**Windows XP:** Changing the standard search order by calling [**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master) is not supported until Windows XP with Service Pack 1 (SP1).
 
 If you specify an alternate search strategy, its behavior continues until all associated executable modules have been located. After the system starts processing DLL initialization routines, the system reverts to the standard search strategy.
 
-The [**LoadLibraryEx**](loadlibraryex.md) function supports an alternate search order if the call specifies **LOAD\_WITH\_ALTERED\_SEARCH\_PATH** and the *lpFileName* parameter specifies an absolute path.
+The [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function supports an alternate search order if the call specifies **LOAD\_WITH\_ALTERED\_SEARCH\_PATH** and the *lpFileName* parameter specifies an absolute path.
 
-Note that the standard search strategy and the alternate search strategy specified by [**LoadLibraryEx**](loadlibraryex.md) with **LOAD\_WITH\_ALTERED\_SEARCH\_PATH** differ in just one way: The standard search begins in the calling application's directory, and the alternate search begins in the directory of the executable module that **LoadLibraryEx** is loading.
+Note that the standard search strategy and the alternate search strategy specified by [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) with **LOAD\_WITH\_ALTERED\_SEARCH\_PATH** differ in just one way: The standard search begins in the calling application's directory, and the alternate search begins in the directory of the executable module that **LoadLibraryEx** is loading.
 
 If **SafeDllSearchMode** is enabled, the alternate search order is as follows:
 
@@ -129,10 +134,10 @@ If **SafeDllSearchMode** is disabled, the alternate search order is as follows:
 5.  The Windows directory. Use the [**GetWindowsDirectory**](https://msdn.microsoft.com/library/windows/desktop/ms724454) function to get the path of this directory.
 6.  The directories that are listed in the PATH environment variable. Note that this does not include the per-application path specified by the **App Paths** registry key. The **App Paths** key is not used when computing the DLL search path.
 
-The [**SetDllDirectory**](setdlldirectory.md) function supports an alternate search order if the *lpPathName* parameter specifies a path. The alternate search order is as follows:
+The [**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master) function supports an alternate search order if the *lpPathName* parameter specifies a path. The alternate search order is as follows:
 
 1.  The directory from which the application loaded.
-2.  The directory specified by the *lpPathName* parameter of [**SetDllDirectory**](setdlldirectory.md).
+2.  The directory specified by the *lpPathName* parameter of [**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master).
 3.  The system directory. Use the [**GetSystemDirectory**](https://msdn.microsoft.com/library/windows/desktop/ms724373) function to get the path of this directory. The name of this directory is System32.
 4.  The 16-bit system directory. There is no function that obtains the path of this directory, but it is searched. The name of this directory is System.
 5.  The Windows directory. Use the [**GetWindowsDirectory**](https://msdn.microsoft.com/library/windows/desktop/ms724454) function to get the path of this directory.
@@ -140,30 +145,30 @@ The [**SetDllDirectory**](setdlldirectory.md) function supports an alternate sea
 
 If the *lpPathName* parameter is an empty string, the call removes the current directory from the search order.
 
-[**SetDllDirectory**](setdlldirectory.md) effectively disables safe DLL search mode while the specified directory is in the search path. To restore safe DLL search mode based on the **SafeDllSearchMode** registry value and restore the current directory to the search order, call **SetDllDirectory** with *lpPathName* as NULL.
+[**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master) effectively disables safe DLL search mode while the specified directory is in the search path. To restore safe DLL search mode based on the **SafeDllSearchMode** registry value and restore the current directory to the search order, call **SetDllDirectory** with *lpPathName* as NULL.
 
 ### Search Order Using **LOAD\_LIBRARY\_SEARCH** Flags
 
-An application can specify a search order by using one or more **LOAD\_LIBRARY\_SEARCH** flags with the [**LoadLibraryEx**](loadlibraryex.md) function. An application can also use **LOAD\_LIBRARY\_SEARCH** flags with the [**SetDefaultDllDirectories**](setdefaultdlldirectories.md) function to establish a DLL search order for a process. The application can specify additional directories for the process DLL search order by using the [**AddDllDirectory**](adddlldirectory.md) or [**SetDllDirectory**](setdlldirectory.md) functions.
+An application can specify a search order by using one or more **LOAD\_LIBRARY\_SEARCH** flags with the [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) function. An application can also use **LOAD\_LIBRARY\_SEARCH** flags with the [**SetDefaultDllDirectories**](/windows/win32/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories?branch=master) function to establish a DLL search order for a process. The application can specify additional directories for the process DLL search order by using the [**AddDllDirectory**](/windows/win32/LibLoaderAPI/nf-libloaderapi-adddlldirectory?branch=master) or [**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master) functions.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** The **LOAD\_LIBRARY\_SEARCH** flags are available on systems with [KB2533623](http://go.microsoft.com/fwlink/p/?linkid=217865) installed.
 
 **Windows Server 2003 and Windows XP:** The **LOAD\_LIBRARY\_SEARCH** flags are not supported.
 
-The directories that are searched depend on the flags specified with [**SetDefaultDllDirectories**](setdefaultdlldirectories.md) or [**LoadLibraryEx**](loadlibraryex.md). If more than one flag is used, the corresponding directories are searched in the following order:
+The directories that are searched depend on the flags specified with [**SetDefaultDllDirectories**](/windows/win32/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories?branch=master) or [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master). If more than one flag is used, the corresponding directories are searched in the following order:
 
 1.  The directory that contains the DLL (**LOAD\_LIBRARY\_SEARCH\_DLL\_LOAD\_DIR**). This directory is searched only for dependencies of the DLL to be loaded.
 2.  The application directory (**LOAD\_LIBRARY\_SEARCH\_APPLICATION\_DIR**).
-3.  Paths explicitly added with the [**AddDllDirectory**](adddlldirectory.md) function (**LOAD\_LIBRARY\_SEARCH\_USER\_DIRS**) or the [**SetDllDirectory**](setdlldirectory.md) function. If more than one path has been added, the order in which the paths are searched is unspecified.
+3.  Paths explicitly added with the [**AddDllDirectory**](/windows/win32/LibLoaderAPI/nf-libloaderapi-adddlldirectory?branch=master) function (**LOAD\_LIBRARY\_SEARCH\_USER\_DIRS**) or the [**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master) function. If more than one path has been added, the order in which the paths are searched is unspecified.
 4.  The System directory (**LOAD\_LIBRARY\_SEARCH\_SYSTEM32**).
 
-If the application does not call [**LoadLibraryEx**](loadlibraryex.md) with any **LOAD\_LIBRARY\_SEARCH** flags or establish a DLL search order for the process, the system searches for DLLs using either the standard search order or the alternate search order.
+If the application does not call [**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master) with any **LOAD\_LIBRARY\_SEARCH** flags or establish a DLL search order for the process, the system searches for DLLs using either the standard search order or the alternate search order.
 
 ## Related topics
 
 <dl> <dt>
 
-[**AddDllDirectory**](adddlldirectory.md)
+[**AddDllDirectory**](/windows/win32/LibLoaderAPI/nf-libloaderapi-adddlldirectory?branch=master)
 </dt> <dt>
 
 [Application Registration](https://msdn.microsoft.com/library/windows/desktop/ee872121)
@@ -178,16 +183,16 @@ If the application does not call [**LoadLibraryEx**](loadlibraryex.md) with any 
 [**LoadLibrary**](loadlibrary.md)
 </dt> <dt>
 
-[**LoadLibraryEx**](loadlibraryex.md)
+[**LoadLibraryEx**](/windows/win32/LibLoaderAPI/nf-libloaderapi-loadlibraryexa?branch=master)
 </dt> <dt>
 
-[**LoadPackagedLibrary**](loadpackagedlibrary.md)
+[**LoadPackagedLibrary**](/windows/win32/Winbase/nf-winbase-loadpackagedlibrary?branch=master)
 </dt> <dt>
 
-[**SetDefaultDllDirectories**](setdefaultdlldirectories.md)
+[**SetDefaultDllDirectories**](/windows/win32/LibLoaderAPI/nf-libloaderapi-setdefaultdlldirectories?branch=master)
 </dt> <dt>
 
-[**SetDllDirectory**](setdlldirectory.md)
+[**SetDllDirectory**](/windows/win32/Winbase/nf-winbase-setdlldirectorya?branch=master)
 </dt> <dt>
 
 [Side-by-side Components](https://msdn.microsoft.com/library/windows/desktop/dd408052)

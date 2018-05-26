@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the InkEdit control is double-clicked.'
-ms.assetid: '380499e4-8697-4823-8153-29f24b2f234c'
-title: 'InkEdit.DblClick event'
+Description: Occurs when the InkEdit control is double-clicked.
+ms.assetid: 380499e4-8697-4823-8153-29f24b2f234c
+title: InkEdit.DblClick event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit.DblClick event
@@ -13,7 +18,7 @@ Occurs when the [InkEdit](inkedit-control-reference.md) control is double-clicke
 
 ```C++
 void DblClick(
-  [in, out] VARIANT_BOOL *Cancel
+  [in, out] VARIANT_BOOL *Cancel
 );
 ```
 
@@ -39,7 +44,7 @@ This event does not return a value.
 > [!Note]  
 > To distinguish between the left, right, and middle mouse buttons, use the [**MouseDown**](inkedit-mousedown.md) and [**MouseUp**](inkedit-mouseup.md) events. If there is code in the [**Click**](inkedit-click.md) event, the **DblClick** event will never trigger.
 
- 
+ 
 
 This event method is defined in the **\_IInkEditEvents** interface. The **\_IInkEditEvents** interface implements the IDispatch interface with an identifier of **DISPID\_IeeDblClick**.
 
@@ -49,7 +54,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Inked.h (also requires inked\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
@@ -63,9 +68,9 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [InkEdit](inkedit-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Audio and Subpicture Streams
-ms.assetid: '8d361da3-a33a-401c-a750-f9b952022cf6'
+ms.assetid: 8d361da3-a33a-401c-a750-f9b952022cf6
 title: Audio and Subpicture Streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio and Subpicture Streams

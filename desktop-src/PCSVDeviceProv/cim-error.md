@@ -1,13 +1,16 @@
 ---
-Description: 'CIM\_Error is a specialized class that contains information about the severity, cause, recommended actions and other data related to the failure of a CIM Operation. Instances of this type MAY be included as part of the response to a CIM Operation.'
+Description: CIM\_Error is a specialized class that contains information about the severity, cause, recommended actions and other data related to the failure of a CIM Operation. Instances of this type MAY be included as part of the response to a CIM Operation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1cc46b41-752a-42ee-97b2-a3ae0256c124'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1cc46b41-752a-42ee-97b2-a3ae0256c124
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Error class'
+title: CIM\_Error class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Error class
@@ -271,14 +274,14 @@ The CIM status code that characterizes this instance. This property defines the 
 
 </dt> <dd></dd> <dt>
 
-13–32767
+13 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -356,14 +359,14 @@ The format of the ErrorSource property is interpretable based on the value of th
 
 </dt> <dd></dd> <dt>
 
-3–32767
+3 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -465,14 +468,14 @@ Primary classification of the error. The following values are defined: 2 - Commu
 
 </dt> <dd></dd> <dt>
 
-11–32767
+11 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -643,14 +646,14 @@ An enumerated value that describes the severity of the Indication from the notif
 
 </dt> <dd></dd> <dt>
 
-8–32767
+8 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -1592,14 +1595,14 @@ An enumerated value that describes the probable cause of the error.
 
 </dt> <dd></dd> <dt>
 
-131–32767
+131 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -1643,17 +1646,17 @@ A free-form string describing recommended actions to take to resolve the error.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

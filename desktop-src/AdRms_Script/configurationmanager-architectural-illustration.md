@@ -1,13 +1,16 @@
 ---
-Description: 'Illustration shows the objects that can be retrieved, directly or indirectly, by using the ConfigurationManager object.'
+Description: Illustration shows the objects that can be retrieved, directly or indirectly, by using the ConfigurationManager object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '85c1af64-1d88-4ee8-b811-b7beee25cf23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 85c1af64-1d88-4ee8-b811-b7beee25cf23
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ConfigurationManager Architectural Illustration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConfigurationManager Architectural Illustration

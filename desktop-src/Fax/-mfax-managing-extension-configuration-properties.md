@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Extension Configuration API mechanism is a means of persistently storing configuration data without having to write directly to the fax service registry.'
-ms.assetid: 'e9800209-9ff9-495d-ab60-a0cee64eb569'
+Description: The Fax Extension Configuration API mechanism is a means of persistently storing configuration data without having to write directly to the fax service registry.
+ms.assetid: e9800209-9ff9-495d-ab60-a0cee64eb569
 title: Managing Extension Configuration Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Extension Configuration Properties

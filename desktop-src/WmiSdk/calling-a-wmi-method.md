@@ -1,20 +1,23 @@
 ---
-Description: 'The main purpose of WMI is to provide access to classes and instances that represent objects on your network.'
+Description: The main purpose of WMI is to provide access to classes and instances that represent objects on your network.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8d559eee-3dbf-4132-b1c0-a6925b8feb56'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8d559eee-3dbf-4132-b1c0-a6925b8feb56
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Calling a WMI Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Calling a WMI Method
 
 The main purpose of WMI is to provide access to classes and instances that represent objects on your network. These classes and instances are supported by providers. For example, all of the instances that represent standard hardware devices on your enterprise, such as [**Win32\_PhysicalMemory**](https://msdn.microsoft.com/library/aa394347) or [**Win32\_Printer**](https://msdn.microsoft.com/library/aa394363), are supported by the Win32 provider. Similarly, you can access the event log through the Event Log provider, and the registry through the Registry provider.
 
-The methods that WMI implements in interfaces such as [**IWbemServices**](iwbemservices.md) or scripting objects such as [**SWbemServices**](swbemservices.md), are primarily for generically obtaining and manipulating data supplied by any provider. For example, use [**SWbemServices.InstancesOf**](swbemservices-instancesof.md) to obtain all the instances of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) in a subset of enterprise computers. You can then call the Win32 provider method [**GetOwnerSid**](https://msdn.microsoft.com/library/aa390459) on each **Win32\_Process** object.
+The methods that WMI implements in interfaces such as [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) or scripting objects such as [**SWbemServices**](swbemservices.md), are primarily for generically obtaining and manipulating data supplied by any provider. For example, use [**SWbemServices.InstancesOf**](swbemservices-instancesof.md) to obtain all the instances of [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372) in a subset of enterprise computers. You can then call the Win32 provider method [**GetOwnerSid**](https://msdn.microsoft.com/library/aa390459) on each **Win32\_Process** object.
 
 In the following example, the [**GetOwnerSid**](https://msdn.microsoft.com/library/aa390459) method is called as an automation method on the Process object. A WMI method, such as the [**Path\_**](swbemobject-path-.md) method defined for [**SWbemObject**](swbemobject.md) could also be called on the **Process** object.
 

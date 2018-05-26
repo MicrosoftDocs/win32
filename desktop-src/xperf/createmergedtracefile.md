@@ -1,8 +1,9 @@
 ---
 title: CreateMergedTraceFile function
 description: The CreateMergedTraceFile function merges multiple WPT/ETW trace files into a single output file.
-ms.assetid: '0fa4a8ae-29a7-4f02-9a44-3facbb63fc44'
-keywords: ["CreateMergedTraceFile function Windows Performance Analyzer"]
+ms.assetid: 0fa4a8ae-29a7-4f02-9a44-3facbb63fc44
+keywords:
+- CreateMergedTraceFile function Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - KernelTraceControl.dll.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMergedTraceFile function
@@ -24,10 +30,10 @@ The **CreateMergedTraceFile** function merges multiple WPT/ETW trace files into 
 ```C++
 ULONG
 WINAPI CreateMergedTraceFile(
-  _In_ LPCWSTR wszMergedFileName,
-  _In_ LPCWSTR wszTraceFileNames[],
-  _In_ ULONG   cTraceFileNames,
-  _In_ DWORD   dwExtendedDataFlags
+  _In_ LPCWSTR wszMergedFileName,
+  _In_ LPCWSTR wszTraceFileNames[],
+  _In_ ULONG   cTraceFileNames,
+  _In_ DWORD   dwExtendedDataFlags
 );
 ```
 
@@ -80,7 +86,7 @@ Possible error return values include:
 
 
 
- 
+ 
 
 In the case where neither of these error return codes is appropriate, a [System Error Code](http://go.microsoft.com/fwlink/p/?linkid=141506) is returned.
 
@@ -91,14 +97,14 @@ Two or more trace files from simultaneous sessions that were captured on the sam
 > [!Note]  
 > An unmerged kernel trace cannot decode symbols correctly. For more information on symbol decoding, see [MSDN](http://go.microsoft.com/fwlink/p/?linkid=141514).
 
- 
+ 
 
 **Unicode/ANSI:** The API is implemented in Unicode only.
 
 > [!Note]  
 > This API could be used to inject extended data into a single trace file. In this case the array *wszMergedFileName* contains only a single element, which is the name of the trace file.
 
- 
+ 
 
 ## Requirements
 
@@ -119,9 +125,9 @@ Two or more trace files from simultaneous sessions that were captured on the sam
 [**Custom Injection of System Information**](custom-injection-of-system-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

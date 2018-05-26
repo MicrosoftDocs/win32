@@ -4,17 +4,21 @@ description: A string that contains digits.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cf440092-8777-460c-a3a2-6cc7bd3075b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cf440092-8777-460c-a3a2-6cc7bd3075b8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(Numeric) syntax AD Schema"]
+keywords:
+- String(Numeric) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(Numeric)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(Numeric) syntax

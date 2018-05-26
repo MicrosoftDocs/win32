@@ -1,8 +1,9 @@
 ---
 title: TB\_LOADIMAGES message
-description: Loads system-defined button images into a toolbar control's image list.
-ms.assetid: '61146f43-9fd9-4fe3-b85c-cf465f2de769'
-keywords: ["TB_LOADIMAGES message Windows Controls"]
+description: Loads system-defined button images into a toolbar controls image list.
+ms.assetid: 61146f43-9fd9-4fe3-b85c-cf465f2de769
+keywords:
+- TB_LOADIMAGES message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_LOADIMAGES message
@@ -43,7 +49,7 @@ Identifier of a system-defined button image list. This parameter can be set to o
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -60,7 +66,7 @@ The count of images in the image list. Returns zero if the toolbar has no image 
 
 ## Remarks
 
-You must use the proper image index values when you prepare [**TBBUTTON**](tbbutton.md) structures prior to sending the [**TB\_ADDBUTTONS**](tb-addbuttons.md) message. For a list of image index values for these preset bitmaps, see [Toolbar Standard Button Image Index Values](toolbar-standard-button-image-index-values.md).
+You must use the proper image index values when you prepare [**TBBUTTON**](/windows/win32/Commctrl/ns-commctrl-_tbbutton?branch=master) structures prior to sending the [**TB\_ADDBUTTONS**](tb-addbuttons.md) message. For a list of image index values for these preset bitmaps, see [Toolbar Standard Button Image Index Values](toolbar-standard-button-image-index-values.md).
 
 ## Examples
 
@@ -80,8 +86,8 @@ SendMessage(hWndToolbar, TB_LOADIMAGES, (WPARAM)IDB_STD_SMALL_COLOR, (LPARAM)HIN
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -93,9 +99,9 @@ SendMessage(hWndToolbar, TB_LOADIMAGES, (WPARAM)IDB_STD_SMALL_COLOR, (LPARAM)HIN
 [**TB\_ADDBITMAP**](tb-addbitmap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Provides the ability to manage metrics.'
-ms.assetid: '3DC043ED-A790-4322-BF80-55961E9946C2'
-title: 'Msvm\_MetricService class'
+Description: Provides the ability to manage metrics.
+ms.assetid: 3DC043ED-A790-4322-BF80-55961E9946C2
+title: Msvm\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MetricService class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MetricService : CIM_MetricService
 {
-  string   InstanceID;
-  string   Caption = "Hyper-V Metric Service";
-  string   Description = "Provides Hyper-V Metric WMI management";
-  string   ElementName = "Hyper-V Metric Service";
+  string   InstanceID;
+  string   Caption = "Hyper-V Metric Service";
+  string   Description = "Provides Hyper-V Metric WMI management";
+  string   ElementName = "Hyper-V Metric Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status = "OK";
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status = "OK";
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   Name = "metricsvc";
-  string   CreationClassName = "Msvm_MetricService";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   Name = "metricsvc";
+  string   CreationClassName = "Msvm_MetricService";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started;
 };
 ```
 
@@ -75,7 +80,7 @@ The **Msvm\_MetricService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -584,17 +589,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

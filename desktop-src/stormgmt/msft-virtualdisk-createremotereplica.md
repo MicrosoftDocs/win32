@@ -1,8 +1,11 @@
 ---
 title: CreateReplica method of the MSFT\_VirtualDisk class
 description: Creates a replication relationship between virtual disks.
-ms.assetid: 'F2453003-BE50-4B12-ACDA-03B44D3803FF'
-keywords: ["CreateReplica method Windows Storage Management API", "CreateReplica method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , CreateReplica method"]
+ms.assetid: F2453003-BE50-4B12-ACDA-03B44D3803FF
+keywords:
+- CreateReplica method Windows Storage Management API
+- CreateReplica method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , CreateReplica method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - adojet.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateReplica method of the MSFT\_VirtualDisk class
@@ -22,16 +30,16 @@ Creates a replication relationship between virtual disks.
 
 ```mof
 UInt32 CreateReplica(
-  [in]  String              FriendlyName,
-  [in]  String              TargetStorageSubsystem,
-  [in]  String              TargetVirtualDiskObjectId,
-  [in]  String              TargetStoragePoolObjectId,
-  [in]  UInt16              RecoveryPointObjective,
-  [in]  String              ReplicationSettings,
-  [in]  UInt16              SyncType,
-  [out] String              CreatedReplicaPeer,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              FriendlyName,
+  [in]  String              TargetStorageSubsystem,
+  [in]  String              TargetVirtualDiskObjectId,
+  [in]  String              TargetStoragePoolObjectId,
+  [in]  UInt16              RecoveryPointObjective,
+  [in]  String              ReplicationSettings,
+  [in]  UInt16              SyncType,
+  [out] String              CreatedReplicaPeer,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -102,7 +110,7 @@ The type of copy that will be made. One of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -175,8 +183,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | Header<br/>                   | <dl> <dt>Adojet.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
@@ -190,9 +198,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

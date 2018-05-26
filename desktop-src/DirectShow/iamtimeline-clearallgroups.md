@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ClearAllGroups method removes all groups from the timeline, along with all objects contained in those groups.'
-ms.assetid: 'b0d2a463-bd18-4377-893c-ea4fdf77b1c8'
-title: 'IAMTimeline::ClearAllGroups method'
+---
+Description: The ClearAllGroups method removes all groups from the timeline, along with all objects contained in those groups.
+ms.assetid: b0d2a463-bd18-4377-893c-ea4fdf77b1c8
+title: IAMTimelineClearAllGroups method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::ClearAllGroups method

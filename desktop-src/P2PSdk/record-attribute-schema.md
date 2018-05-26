@@ -1,12 +1,17 @@
 ---
-Description: 'Records can have application-specific attributes that are a sequence of name or value pairs represented as an XML string in the pszAttributes member of the PEER\_RECORD structure.'
-ms.assetid: '2991af9b-da32-4915-b4d6-575e3faac04e'
+Description: Records can have application-specific attributes that are a sequence of name or value pairs represented as an XML string in the pszAttributes member of the PEER\_RECORD structure.
+ms.assetid: 2991af9b-da32-4915-b4d6-575e3faac04e
 title: Record Attribute Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record Attribute Schema
 
-Records can have application-specific attributes that are a sequence of name or value pairs represented as an XML string in the **pszAttributes** member of the [**PEER\_RECORD**](peer-record.md) structure. The attributes are used to filter a record search initiated by calls to [**PeerGroupSearchRecords**](peergroupsearchrecords.md), which takes an XML search filter specified in [Record Search Query Format](record-search-query-format.md) as a parameter.
+Records can have application-specific attributes that are a sequence of name or value pairs represented as an XML string in the **pszAttributes** member of the [**PEER\_RECORD**](/windows/win32/P2P/ns-p2p-peer_record_tag?branch=master) structure. The attributes are used to filter a record search initiated by calls to [**PeerGroupSearchRecords**](/windows/win32/P2P/nf-p2p-peergroupsearchrecords?branch=master), which takes an XML search filter specified in [Record Search Query Format](record-search-query-format.md) as a parameter.
 
 A record attribute can be one of the following three types:
 
@@ -67,7 +72,7 @@ The following schema example shows you how to define record attributes:
 
  
 
-The following example of an XML attribute sequence contains the custom **AuthenticationType** and **AuthExpires** attributes that appear in the **pszAttributes** member of [**PEER\_RECORD**](peer-record.md).
+The following example of an XML attribute sequence contains the custom **AuthenticationType** and **AuthExpires** attributes that appear in the **pszAttributes** member of [**PEER\_RECORD**](/windows/win32/P2P/ns-p2p-peer_record_tag?branch=master).
 
 ``` syntax
 <attributes>

@@ -1,8 +1,17 @@
 ---
 title: User Allocated Sample Support
 description: User Allocated Sample Support
-ms.assetid: 'c747139e-e157-4ea0-9132-256dc70e2b15'
-keywords: ["Windows Media Format SDK,user allocated sample support", "Advanced Systems Format (ASF),user allocated sample support", "ASF (Advanced Systems Format),user allocated sample support", "user allocated sample support"]
+ms.assetid: c747139e-e157-4ea0-9132-256dc70e2b15
+keywords:
+- Windows Media Format SDK,user allocated sample support
+- Advanced Systems Format (ASF),user allocated sample support
+- ASF (Advanced Systems Format),user allocated sample support
+- user allocated sample support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Allocated Sample Support

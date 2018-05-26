@@ -1,8 +1,15 @@
 ---
 title: Security Considerations OpenGL
 description: This document provides a list of topics that contain security information. These topics do not provide all you need to know about security issues \ 8212;instead, use them as a starting point and reference for this technology area.
-ms.assetid: 'a613c020-9e27-4a0f-a84d-1d0246505407'
-keywords: ["OpenGL,security", "security OpenGL"]
+ms.assetid: a613c020-9e27-4a0f-a84d-1d0246505407
+keywords:
+- OpenGL,security
+- security OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: OpenGL

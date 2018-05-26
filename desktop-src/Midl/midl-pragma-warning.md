@@ -1,14 +1,20 @@
 ---
 title: midl\_pragma warning attribute
-description: Use the midl\_pragma warning option to temporarily override MIDL's warning message behavior at compile time.
+description: Use the midl\_pragma warning option to temporarily override MIDLs warning message behavior at compile time.
 ms.assetid: d32a3d3f-5c4d-4f93-a72a-2224ceed0012
-keywords: ["midl_pragma warning attribute MIDL"]
+keywords:
+- midl_pragma warning attribute MIDL
 topic_type:
 - apiref
 api_name:
 - midl_pragma warning
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # midl\_pragma warning attribute

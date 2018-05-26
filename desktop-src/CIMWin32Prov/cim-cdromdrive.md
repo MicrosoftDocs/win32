@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_CDROMDrive class represents a CD-ROM drive on the computer.'
+Description: The CIM\_CDROMDrive class represents a CD-ROM drive on the computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '044c9687-fc25-4a8c-b2ef-bd7ea332af7b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 044c9687-fc25-4a8c-b2ef-bd7ea332af7b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_CDROMDrive class'
+title: CIM\_CDROMDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CDROMDrive class
@@ -19,12 +22,12 @@ The **CIM\_CDROMDrive** class represents a CD-ROM drive on the computer.
 > [!Note]  
 > The name of the drive does not correspond to the logical drive letter assigned to the device, which is the name of the logical storage device that is dependent on the drive.
 
- 
+ 
 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -34,35 +37,35 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C52B-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_CDROMDrive : CIM_MediaAccessDevice
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint16   Availability;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   DeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint32   LastErrorCode;
-  string   PNPDeviceID;
-  boolean  PowerManagementSupported;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   CompressionMethod;
-  uint64   DefaultBlockSize;
-  string   ErrorMethodology;
-  uint64   MaxBlockSize;
-  uint64   MaxMediaSize;
-  uint64   MinBlockSize;
-  boolean  NeedsCleaning;
-  uint32   NumberOfMediaSupported;
+  string   Name;
+  string   Status;
+  uint16   Availability;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   DeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint32   LastErrorCode;
+  string   PNPDeviceID;
+  boolean  PowerManagementSupported;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   CompressionMethod;
+  uint64   DefaultBlockSize;
+  string   ErrorMethodology;
+  uint64   MaxBlockSize;
+  uint64   MaxMediaSize;
+  uint64   MinBlockSize;
+  boolean  NeedsCleaning;
+  uint32   NumberOfMediaSupported;
 };
 ```
 
@@ -86,7 +89,7 @@ The **CIM\_CDROMDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -473,7 +476,7 @@ Array of free-form strings that provides detailed explanations for access device
 > [!Note]  
 > Each entry of this array is related to the entry in the **Capabilities** array, located at the same index.
 
- 
+ 
 
 This property is inherited from [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md).
 
@@ -1424,8 +1427,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1439,9 +1442,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The CRenderedInputPin class is a base class for implementing an input pin on a renderer.'
-ms.assetid: '644dc6ef-eefa-4dfa-a27e-cab690b6e1db'
+Description: The CRenderedInputPin class is a base class for implementing an input pin on a renderer.
+ms.assetid: 644dc6ef-eefa-4dfa-a27e-cab690b6e1db
 title: CRenderedInputPin class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRenderedInputPin class
@@ -15,7 +20,7 @@ To use this class, you must do at least the following:
 -   Declare a new pin class that inherits **CRenderedInputPin**.
 -   In your pin class, declare a critical section object to hold the streaming lock. You can use the [**CCritSec**](ccritsec.md) class for this purpose. For more information, see [Threads and Critical Sections](threads-and-critical-sections.md).
 -   Override [**CRenderedInputPin::EndOfStream**](crenderedinputpin-endofstream.md) to hold the streaming lock.
--   Implement the [**IMemInputPin::Receive**](imeminputpin-receive.md), [**CBasePin::CheckMediaType**](cbasepin-checkmediatype.md), and [**CBasePin::GetMediaType**](cbasepin-getmediatype.md) methods.
+-   Implement the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master), [**CBasePin::CheckMediaType**](cbasepin-checkmediatype.md), and [**CBasePin::GetMediaType**](cbasepin-getmediatype.md) methods.
 -   In your filter, implement [**CBaseFilter::GetPin**](cbasefilter-getpin.md) to return an instance of your pin class.
 
 You can use this class in a renderer that has more than one input pin. This class inherits the [**CBaseInputPin**](cbaseinputpin.md) class.
@@ -36,7 +41,7 @@ You can use this class in a renderer that has more than one input pin. This clas
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,9 +54,9 @@ You can use this class in a renderer that has more than one input pin. This clas
 
 
 
- 
+ 
 
- 
+ 
 
 
 

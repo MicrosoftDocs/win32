@@ -1,7 +1,12 @@
 ---
 title: COM Coding Practices
 description: This topic describes ways to make your COM code more effective and robust.
-ms.assetid: '76aca556-b4d6-4e67-a2a3-4439900f0c39'
+ms.assetid: 76aca556-b4d6-4e67-a2a3-4439900f0c39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Coding Practices

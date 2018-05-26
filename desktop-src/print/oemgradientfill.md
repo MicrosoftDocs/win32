@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMGradientFill function shades the specified primitives.'
-ms.assetid: '8a25d44b-c83b-4454-858b-117dbb6cc4b7'
+---
+Description: The OEMGradientFill function shades the specified primitives.
+ms.assetid: 8a25d44b-c83b-4454-858b-117dbb6cc4b7
 title: OEMGradientFill function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMGradientFill function

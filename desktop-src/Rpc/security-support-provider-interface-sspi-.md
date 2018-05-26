@@ -1,8 +1,14 @@
 ---
 title: Security Support Provider Interface (SSPI)
 description: In conjunction with its operating systems, Microsoft offers the Security Support Provider Interface (SSPI). The SSPI provides a universal, industry-standard interface for secure distributed applications.
-ms.assetid: '79ed7c51-4191-40b2-8d5f-06157f5b99be'
-keywords: ["Remote Procedure Call RPC , described, security support provider interface"]
+ms.assetid: 79ed7c51-4191-40b2-8d5f-06157f5b99be
+keywords:
+- Remote Procedure Call RPC , described, security support provider interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Support Provider Interface (SSPI)

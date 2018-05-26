@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes an index buffer.'
-ms.assetid: '5d45213e-b3c0-4eb7-a4f9-8d8730eb3899'
-title: 'D3DINDEXBUFFER\_DESC structure'
+---
+Description: Describes an index buffer.
+ms.assetid: 5d45213e-b3c0-4eb7-a4f9-8d8730eb3899
+title: D3DINDEXBUFFER\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DINDEXBUFFER\_DESC structure
@@ -115,7 +120,7 @@ Size of the index buffer, in bytes.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetDesc**](idirect3dindexbuffer9--getdesc.md)
+[**GetDesc**](/windows/win32/d3d9helper/nf-d3d9-idirect3dindexbuffer9-getdesc?branch=master)
 </dt> <dt>
 
 [Index Buffers (Direct3D 9)](index-buffers.md)

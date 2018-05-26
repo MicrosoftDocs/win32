@@ -1,14 +1,20 @@
 ---
 title: dailyScheduleType Complex Type
 description: Defines the child elements and sequencing information for the ScheduleByDay element.
-ms.assetid: 'e0b1b09f-d72a-4a85-9059-4a917bc0104a'
-keywords: ["dailyScheduleType complex type Task Scheduler"]
+ms.assetid: e0b1b09f-d72a-4a85-9059-4a917bc0104a
+keywords:
+- dailyScheduleType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - dailyScheduleType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dailyScheduleType Complex Type
@@ -54,8 +60,8 @@ Defines the child elements and sequencing information for the [**ScheduleByDay**
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ Defines the child elements and sequencing information for the [**ScheduleByDay**
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

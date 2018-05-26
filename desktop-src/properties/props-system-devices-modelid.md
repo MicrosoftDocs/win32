@@ -1,7 +1,12 @@
 ---
-Description: 'Model Id.'
-ms.assetid: 'eb2b9edf-a217-47d1-bd36-23ba166c0022'
-title: 'System.Devices.ModelId'
+Description: Model Id.
+ms.assetid: eb2b9edf-a217-47d1-bd36-23ba166c0022
+title: System.Devices.ModelId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.ModelId

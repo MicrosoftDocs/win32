@@ -1,7 +1,12 @@
-﻿---
-Description: 'The QueryTrace function retrieves the property settings and session statistics for the specified event tracing session. The ControlTrace function supersedes this function.'
-ms.assetid: '8ad0f4f6-902c-490e-b26e-7499dd99fc95'
+---
+Description: The QueryTrace function retrieves the property settings and session statistics for the specified event tracing session. The ControlTrace function supersedes this function.
+ms.assetid: 8ad0f4f6-902c-490e-b26e-7499dd99fc95
 title: QueryTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryTrace function
@@ -94,7 +99,7 @@ If the function fails, the return value is one of the [system error codes](base.
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>
-<td>Only users running with elevated administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can query event tracing sessions. To grant a restricted user the ability to query trace sessions, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](eventaccesscontrol-func.md).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can control a trace session.<br/></td>
+<td>Only users running with elevated administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can query event tracing sessions. To grant a restricted user the ability to query trace sessions, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](/windows/win32/Evntcons/nf-evntcons-eventaccesscontrol?branch=master).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can control a trace session.<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_WMI_INSTANCE_NOT_FOUND</strong></dt> </dl></td>

@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that indicates whether a run-time error has occurred.'
-ms.assetid: '917bcb21-a11e-4ac5-af96-565f61c155cd'
-title: 'CBasePin::m\_bRunTimeError member'
+Description: Flag that indicates whether a run-time error has occurred.
+ms.assetid: 917bcb21-a11e-4ac5-af96-565f61c155cd
+title: CBasePinm\_bRunTimeError member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin::m\_bRunTimeError member
@@ -39,9 +44,9 @@ This flag defaults to **FALSE**. Set the flag to **TRUE** if a run-time error oc
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

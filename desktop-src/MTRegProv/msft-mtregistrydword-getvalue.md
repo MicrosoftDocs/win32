@@ -4,11 +4,14 @@ description: Gets the registry value object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '991E3193-DCF0-4AF5-B975-7088B5F14683'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 991E3193-DCF0-4AF5-B975-7088B5F14683
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetValue method", "GetValue method, MSFT_MTRegistryDword interface", "MSFT_MTRegistryDword interface, GetValue method"]
+keywords:
+- GetValue method
+- GetValue method, MSFT_MTRegistryDword interface
+- MSFT_MTRegistryDword interface, GetValue method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RegProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetValue method of the MSFT\_MTRegistryDword class
@@ -28,8 +34,8 @@ Gets the registry value object.
 
 ```mof
 uint32 GetValue(
-  [in]  string               Name,
-  [out] MSFT_MTRegistryValue Result
+  [in]  string               Name,
+  [out] MSFT_MTRegistryValue Result
 );
 ```
 
@@ -60,7 +66,7 @@ On success, returns the requested [**MSFT\_MTRegistryValue**](msft-mtregistryval
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                   |
 | MOF<br/>                      | <dl> <dt>RegProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RegProv.dll</dt> </dl> |
@@ -74,9 +80,9 @@ On success, returns the requested [**MSFT\_MTRegistryValue**](msft-mtregistryval
 [**MSFT\_MTRegistryDword**](msft-mtregistrydword.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

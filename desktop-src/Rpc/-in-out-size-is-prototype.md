@@ -1,7 +1,12 @@
 ---
-title: \ in, out, size\_is\ Prototype
-description: \ in, out, size\_is\ prototype uses a single-counted character array that is passed from client to server and from server to client.
-ms.assetid: 'bce9a36f-9f7c-4438-9b5a-15b8877f74c0'
+title: '\ in, out, size\_is\ Prototype'
+description: '\ in, out, size\_is\ prototype uses a single-counted character array that is passed from client to server and from server to client.'
+ms.assetid: bce9a36f-9f7c-4438-9b5a-15b8877f74c0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \[in, out, size\_is\] Prototype

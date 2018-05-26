@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.SimpleRating property.'
-ms.assetid: 'd932a251-f238-4582-a1c4-cf4855f26fb3'
-title: 'System.SimpleRating Photo Metadata Policy'
+Description: The photo metadata policy for the System.SimpleRating property.
+ms.assetid: d932a251-f238-4582-a1c4-cf4855f26fb3
+title: System.SimpleRating Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.SimpleRating Photo Metadata Policy

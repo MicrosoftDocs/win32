@@ -4,11 +4,15 @@ description: Shows how snap-ins can insert items into the scope or result pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bf8ca366-2e8b-411f-b1e9-d5635b7212d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bf8ca366-2e8b-411f-b1e9-d5635b7212d3
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["cookies and inserting items MMC"]
+keywords:
+- cookies and inserting items MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cookies and Inserting Items

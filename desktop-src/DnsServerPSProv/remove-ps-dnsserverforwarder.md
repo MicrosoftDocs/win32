@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DnsServerForwarder class
 description: Remove the specified Forwarders.
 audience: developer
-ms.assetid: '6623fbb8-51a8-455b-bb78-6e7adcc8c849'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6623fbb8-51a8-455b-bb78-6e7adcc8c849
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DnsServerForwarder class", "PS_DnsServerForwarder class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DnsServerForwarder class
+- PS_DnsServerForwarder class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DnsServerForwarder class
@@ -28,11 +34,11 @@ Remove the specified Forwarders.
 
 ```mof
 uint32 Remove(
-  [in]  string             IPAddress[],
-  [in]  string             ComputerName,
-  [in]  boolean            PassThru,
-  [in]  boolean            Force,
-  [out] DnsServerForwarder cmdletOutput
+  [in]  string             IPAddress[],
+  [in]  string             ComputerName,
+  [in]  boolean            PassThru,
+  [in]  boolean            Force,
+  [out] DnsServerForwarder cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ On return, contains an embedded instance of the current object. This parameter r
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ On return, contains an embedded instance of the current object. This parameter r
 [**PS\_DnsServerForwarder**](ps-dnsserverforwarder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

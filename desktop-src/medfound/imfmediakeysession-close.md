@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes the media key session and must be called before the key session is released.'
-ms.assetid: '97c6b4bd-a973-4475-a325-0373af9b54b1'
-title: 'IMFMediaKeySession::Close method'
+---
+Description: Closes the media key session and must be called before the key session is released.
+ms.assetid: 97c6b4bd-a973-4475-a325-0373af9b54b1
+title: IMFMediaKeySessionClose method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaKeySession::Close method
@@ -41,7 +46,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaKeySession**](imfmediakeysession.md)
+[**IMFMediaKeySession**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediakeysession?branch=master)
 </dt> </dl>
 
  

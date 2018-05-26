@@ -1,8 +1,11 @@
 ---
 title: ResetSecondaries method of the MicrosoftDNS\_Zone class
 description: The ResetSecondaries method resets the IP addresses for secondary DNS Servers in the zone.
-ms.assetid: 'b9a47714-f180-40cf-831a-f59e804a4ca2'
-keywords: ["ResetSecondaries method DNS", "ResetSecondaries method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , ResetSecondaries method"]
+ms.assetid: b9a47714-f180-40cf-831a-f59e804a4ca2
+keywords:
+- ResetSecondaries method DNS
+- ResetSecondaries method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , ResetSecondaries method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResetSecondaries method of the MicrosoftDNS\_Zone class
@@ -22,11 +30,11 @@ The **ResetSecondaries** method resets the IP addresses for secondary DNS Server
 
 ```mof
 void ResetSecondaries(
-  [in]       string            SecondaryServers[],
-  [in]       uint32            SecureSecondaries,
-  [in]       string            NotifyServers[],
-  [in]       uint32            Notify,
-  [out, ref] MicrosoftDns_Zone &amp;RR
+  [in]       string            SecondaryServers[],
+  [in]       uint32            SecureSecondaries,
+  [in]       string            NotifyServers[],
+  [in]       uint32            Notify,
+  [out, ref] MicrosoftDns_Zone &amp;RR
 );
 ```
 
@@ -91,7 +99,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -134,9 +142,9 @@ This method does not return a value.
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

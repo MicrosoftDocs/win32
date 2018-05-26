@@ -4,13 +4,15 @@ description: A Job is a LogicalElement that represents an executing unit of work
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6c068486-6a78-4b1a-9228-044c753794dc'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6c068486-6a78-4b1a-9228-044c753794dc
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Job class", "CIM_Job class, described"]
+keywords:
+- CIM_Job class
+- CIM_Job class, described
 topic_type:
 - apiref
 api_name:
@@ -54,6 +56,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Job class
@@ -68,41 +73,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.10.0"), AMENDMENT]
 class CIM_Job : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   JobStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
 };
 ```
 
@@ -125,7 +130,7 @@ The **CIM\_Job** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1977,7 +1982,7 @@ The time after which the Job is invalid or should be stopped. This time can be r
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -1991,9 +1996,9 @@ The time after which the Job is invalid or should be stopped. This time can be r
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The RSM database contains information about the objects in an RSM system.'
-ms.assetid: 'bc6683a0-4ba0-4092-bf7b-de37baf76b02'
+Description: The RSM database contains information about the objects in an RSM system.
+ms.assetid: bc6683a0-4ba0-4092-bf7b-de37baf76b02
 title: RSM Database
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSM Database

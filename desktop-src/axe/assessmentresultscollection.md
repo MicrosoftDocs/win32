@@ -1,8 +1,10 @@
 ---
 title: AssessmentResultsCollection class
 description: This interface provides containers for AssessmentResults objects.
-ms.assetid: '6A07A3B9-CBC3-41E4-B02B-C07D9FD654D1'
-keywords: ["AssessmentResultsCollection class Access Execution Engine", "AssessmentResultsCollection class Access Execution Engine , described"]
+ms.assetid: 6A07A3B9-CBC3-41E4-B02B-C07D9FD654D1
+keywords:
+- AssessmentResultsCollection class Access Execution Engine
+- AssessmentResultsCollection class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentResultsCollection class
@@ -35,7 +42,7 @@ The **AssessmentResultsCollection** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,16 +52,16 @@ The **AssessmentResultsCollection** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

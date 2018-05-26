@@ -4,11 +4,12 @@ description: Removes the protection from a window protected using IpcProtectWind
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'FC84133C-52B8-4A63-8F0D-9B1762742C3F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: FC84133C-52B8-4A63-8F0D-9B1762742C3F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcUnprotectWindow function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcUnprotectWindow function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcUnprotectWindow function
@@ -28,7 +32,7 @@ Removes the protection from a window protected using [**IpcProtectWindow**](ipcp
 
 ```C++
 HRESULT WINAPI IpcUnprotectWindow(
-  _In_ HWND     hwnd
+  _In_ HWND     hwnd
 );
 ```
 
@@ -49,11 +53,11 @@ The window to unprotect.
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 ## Remarks
 
-To ensure that your application works with current and future versions of the RMS SDK 2.1, you should use the following code to unprotect a window.
+To ensure that your application works with current and future versions of the RMS SDK 2.1, you should use the following code to unprotect a window.
 
 
 ```C++
@@ -81,8 +85,8 @@ hr = S_OK;
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -99,9 +103,9 @@ hr = S_OK;
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

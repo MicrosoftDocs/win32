@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PDEV\_HOSTFONT\_ENABLED structure indicates whether the Hostfont feature is enabled.'
-ms.assetid: 'f7fc7e33-e80b-449e-a1d1-a93740cd967c'
-title: 'PDEV\_HOSTFONT\_ENABLED structure'
+---
+Description: The PDEV\_HOSTFONT\_ENABLED structure indicates whether the Hostfont feature is enabled.
+ms.assetid: f7fc7e33-e80b-449e-a1d1-a93740cd967c
+title: PDEV\_HOSTFONT\_ENABLED structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PDEV\_HOSTFONT\_ENABLED structure

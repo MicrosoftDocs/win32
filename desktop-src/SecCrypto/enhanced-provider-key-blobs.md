@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Base Provider, Strong Provider, and Enhanced Provider use the same key BLOBs.'
-ms.assetid: 'f1bd347b-33bd-40bc-9a9b-c06f264f1af4'
+---
+Description: The Base Provider, Strong Provider, and Enhanced Provider use the same key BLOBs.
+ms.assetid: f1bd347b-33bd-40bc-9a9b-c06f264f1af4
 title: Enhanced Provider Key BLOBs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced Provider Key BLOBs
@@ -28,9 +33,9 @@ The following table describes each public key component. All values are in [*lit
 
 | Field          | Description                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| modulus        | The public key modulus data is located directly after the [**RSAPUBKEY**](rsapubkey.md) structure. The size of this data will vary, depending on the size of the public key. The number of bytes can be determined by dividing the value of the **RSAPUBKEY bitlen** field by eight. |
-| publickeystruc | A [**PUBLICKEYSTRUC**](publickeystruc.md) structure.                                                                                                                                                                                                                                 |
-| rsapubkey      | A [**RSAPUBKEY**](rsapubkey.md) structure. The **magic** member must be set to 0x31415352. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of RSA1.                                                                         |
+| modulus        | The public key modulus data is located directly after the [**RSAPUBKEY**](/windows/win32/Wincrypt/ns-wincrypt-_rsapubkey?branch=master) structure. The size of this data will vary, depending on the size of the public key. The number of bytes can be determined by dividing the value of the **RSAPUBKEY bitlen** field by eight. |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) structure.                                                                                                                                                                                                                                 |
+| rsapubkey      | A [**RSAPUBKEY**](/windows/win32/Wincrypt/ns-wincrypt-_rsapubkey?branch=master) structure. The **magic** member must be set to 0x31415352. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of RSA1.                                                                         |
 
 
 
@@ -75,8 +80,8 @@ The following table describes the private key BLOB component.
 | prime1          | Prime number 1, often known as p.                                                                                                                                                                             |
 | prime2          | Prime number 2, often known as q.                                                                                                                                                                             |
 | privateExponent | Private exponent, often known as d.                                                                                                                                                                           |
-| publickeystruc  | A [**PUBLICKEYSTRUC**](publickeystruc.md) structure.                                                                                                                                                         |
-| rsapubkey       | A [**RSAPUBKEY**](rsapubkey.md) structure. The **magic** member must be set to 0x32415352. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of RSA2. |
+| publickeystruc  | A [**PUBLICKEYSTRUC**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) structure.                                                                                                                                                         |
+| rsapubkey       | A [**RSAPUBKEY**](/windows/win32/Wincrypt/ns-wincrypt-_rsapubkey?branch=master) structure. The **magic** member must be set to 0x32415352. This hexadecimal value is the [*ASCII*](security.a_gly#-security-ascii-gly) encoding of RSA2. |
 
 
 
@@ -87,7 +92,7 @@ The following table describes the private key BLOB component.
 
  
 
-When calling [**CryptExportKey**](cryptexportkey.md), the developer can choose whether to encrypt the key. The **PRIVATEKEYBLOB** is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**PUBLICKEYSTRUC**](publickeystruc.md) portion of the BLOB is encrypted.
+When calling [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master), the developer can choose whether to encrypt the key. The **PRIVATEKEYBLOB** is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**PUBLICKEYSTRUC**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) portion of the BLOB is encrypted.
 
 > [!Note]  
 > The encryption algorithm and encryption key parameters are not stored along with the private key BLOB. The application must manage and store this information. If zero is passed for *hExpKey*, the private key will be exported without encryption.
@@ -117,7 +122,7 @@ The following table describes each component of the **pbData** member of the **S
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | algid          | An [**ALG\_ID**](alg-id.md) structure that specifies the encryption algorithm used to encrypt the session key data. This typically has a value of CALG\_RSA\_KEYX, which indicates that the session key data was encrypted with a key exchange public key using the [*RSA Public Key algorithm*](security.r_gly#-security-rsa-public-key-algorithm-gly).                                                                                                                           |
 | encryptedkey   | A **BYTE** sequence that represents the encrypted session key data in the form of a PKCS \#1, type 2 encryption block. For information about this data format, see the Public Key Cryptography Standards (PKCS) \#1, published by RSA Data Security, Inc. This data is always the same size as the modulus of the public key. For example, public keys generated by the Microsoft RSA Base Provider can be 512 bits (64 bytes) in length, so the encrypted session key data is also always 512 bits (64 bytes).<br/> |
-| publickeystruc | A [**PUBLICKEYSTRUC**](publickeystruc.md) structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| publickeystruc | A [**PUBLICKEYSTRUC**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 

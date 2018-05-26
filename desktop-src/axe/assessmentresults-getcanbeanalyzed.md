@@ -1,8 +1,11 @@
 ---
 title: AssessmentResults GetCanBeAnalyzed method
 description: Returns the cannot analyze reason for this AssessmentResults object.
-ms.assetid: '409A7CD0-9A69-46E7-BE75-A1D49A10F547'
-keywords: ["GetCanBeAnalyzed method Access Execution Engine", "GetCanBeAnalyzed method Access Execution Engine , AssessmentResults interface", "AssessmentResults interface Access Execution Engine , GetCanBeAnalyzed method"]
+ms.assetid: 409A7CD0-9A69-46E7-BE75-A1D49A10F547
+keywords:
+- GetCanBeAnalyzed method Access Execution Engine
+- GetCanBeAnalyzed method Access Execution Engine , AssessmentResults interface
+- AssessmentResults interface Access Execution Engine , GetCanBeAnalyzed method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentResults::GetCanBeAnalyzed method
@@ -22,7 +30,7 @@ Returns the cannot analyze reason for this **AssessmentResults** object.
 
 ```C++
 virtual HRESULT GetCanBeAnalyzed(
-  [out] CannotAnalyzeReason *reason
+  [out] CannotAnalyzeReason *reason
 ) const = 0;
 ```
 
@@ -53,8 +61,8 @@ The cannot analyze reason is a member of [**CannotAnalyzeReason**](cannotanalyze
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The cannot analyze reason is a member of [**CannotAnalyzeReason**](cannotanalyze
 [**AssessmentResults**](assessmentresults-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Receive method receives a media sample, processes it, and delivers it to the downstream filter.'
-ms.assetid: '87126353-b73a-45f5-a8e7-b719efdf9d76'
-title: 'CTransInPlaceFilter.Receive method'
+Description: The Receive method receives a media sample, processes it, and delivers it to the downstream filter.
+ms.assetid: 87126353-b73a-45f5-a8e7-b719efdf9d76
+title: CTransInPlaceFilter.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.Receive method
@@ -13,7 +18,7 @@ The `Receive` method receives a media sample, processes it, and delivers it to t
 
 ```C++
 HRESULT Receive(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT Receive(
 *pSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface on the sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface on the sample.
 
 </dd> </dl>
 
@@ -43,13 +48,13 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
 The filter's input pin calls this method when it receives a sample. The filter calls the [**Transform**](ctransinplacefilter-transform.md) method, which the derived class must implement. The **Transform** method processes the data. If the filter is using only one allocator, it passes *pSample* directly to the **Transform** method. Otherwise, it copies *pSample* and passes the copy.
 
-If the **Transform** method returns S\_FALSE, the `Receive` method drops the sample. On the first dropped sample, the filter sends an [**EC\_QUALITY\_CHANGE**](ec-quality-change.md) event to the filter graph manager. Otherwise, if the **Transform** method returns S\_OK, the filter delivers the output sample. To do so, it calls the [**IMemInputPin::Receive**](imeminputpin-receive.md) method on the downstream input pin.
+If the **Transform** method returns S\_FALSE, the `Receive` method drops the sample. On the first dropped sample, the filter sends an [**EC\_QUALITY\_CHANGE**](ec-quality-change.md) event to the filter graph manager. Otherwise, if the **Transform** method returns S\_OK, the filter delivers the output sample. To do so, it calls the [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method on the downstream input pin.
 
 ## Requirements
 
@@ -69,9 +74,9 @@ If the **Transform** method returns S\_FALSE, the `Receive` method drops the sam
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

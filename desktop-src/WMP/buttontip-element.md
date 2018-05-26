@@ -1,14 +1,20 @@
 ---
 title: ButtonTip Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '93e5d0c8-8d2d-45c1-9d47-bbd0b6eb8b88'
-keywords: ["ButtonTip Element Windows Media Player"]
+ms.assetid: 93e5d0c8-8d2d-45c1-9d47-bbd0b6eb8b88
+keywords:
+- ButtonTip Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ButtonTip Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ButtonTip Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **ButtonTip** element specifies the text string that is displayed when the user points to a task pane button.
 
@@ -41,7 +47,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +56,7 @@ This element is optional for each instance of **ServiceTask1**, **ServiceTask2**
 > [!Note]  
 > Windows Media Player 10 has three task panes where an online store can display its webpages. The online store can choose to use one, two, or all three of the task panes. Windows Media Player 11 has only one task pane, which the user can view by clicking on the **Online Stores** tab. Windows Media Player 11 ignores the **ServiceTask2** and **ServiceTask3** elements.
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +81,9 @@ This element is optional for each instance of **ServiceTask1**, **ServiceTask2**
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

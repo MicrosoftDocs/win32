@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_PRINTCLIENT message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.'
-ms.assetid: '8703ee74-812a-4ca2-8ee3-a3b8779739e7'
-title: 'WM\_PRINTCLIENT message'
+---
+Description: The WM\_PRINTCLIENT message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.
+ms.assetid: 8703ee74-812a-4ca2-8ee3-a3b8779739e7
+title: WM\_PRINTCLIENT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PRINTCLIENT message
@@ -57,7 +62,7 @@ The drawing options. This parameter can be one or more of the following values.
 
 ## Remarks
 
-A window can process this message in much the same manner as [**WM\_PAINT**](gdi.WM_PAINT), except that [**BeginPaint**](beginpaint.md) and [**EndPaint**](endpaint.md) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
+A window can process this message in much the same manner as [**WM\_PAINT**](gdi.WM_PAINT), except that [**BeginPaint**](/windows/win32/Winuser/nf-winuser-beginpaint?branch=master) and [**EndPaint**](/windows/win32/Winuser/nf-winuser-endpaint?branch=master) need not be called (a device context is provided), and the window should draw its entire client area rather than just the invalid region.
 
 Windows that can be used anywhere in the system, such as controls, should process this message. It is probably worthwhile for other windows to process this message as well because it is relatively easy to implement.
 
@@ -88,10 +93,10 @@ The [AnimateWindow](http://msdn.microsoft.com/en-us/library/ms632669.aspx) funct
 [**AnimateWindow**](_win32_animatewindow_cpp)
 </dt> <dt>
 
-[**BeginPaint**](beginpaint.md)
+[**BeginPaint**](/windows/win32/Winuser/nf-winuser-beginpaint?branch=master)
 </dt> <dt>
 
-[**EndPaint**](endpaint.md)
+[**EndPaint**](/windows/win32/Winuser/nf-winuser-endpaint?branch=master)
 </dt> <dt>
 
 [**WM\_PAINT**](wm-paint.md)

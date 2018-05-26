@@ -4,17 +4,21 @@ description: Returns the number of bytes contained in the receiver.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b4862bd9-dcbc-4036-a5a1-ce501b3ec668'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b4862bd9-dcbc-4036-a5a1-ce501b3ec668
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSProtectedData length method"]
+keywords:
+- MSProtectedData length method
 topic_type:
 - apiref
 api_name:
 - MSProtectedData length method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSProtectedData length method
@@ -37,7 +41,7 @@ Returns the number of bytes contained in the receiver.
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,11 +63,11 @@ MSProtectedData.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

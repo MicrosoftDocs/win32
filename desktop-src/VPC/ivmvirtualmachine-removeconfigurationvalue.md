@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveConfigurationValue method
 description: Removes the value of the specified configuration setting for this virtual machine.
-ms.assetid: '2d75a667-9656-4d4c-bafe-f3f8be3763f5'
-keywords: ["RemoveConfigurationValue method Virtual PC", "RemoveConfigurationValue method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , RemoveConfigurationValue method"]
+ms.assetid: 2d75a667-9656-4d4c-bafe-f3f8be3763f5
+keywords:
+- RemoveConfigurationValue method Virtual PC
+- RemoveConfigurationValue method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , RemoveConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveConfigurationValue method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Removes the value of the specified configuration setting for this virtual machine.
 
@@ -24,7 +32,7 @@ Removes the value of the specified configuration setting for this virtual machin
 
 ```C++
 HRESULT RemoveConfigurationValue(
-  [in] BSTR configurationKey
+  [in] BSTR configurationKey
 );
 ```
 
@@ -57,13 +65,13 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 This method provides low-level access to any configuration value. It can be used to remove configuration values for customer-defined keys. Be careful if you use this method to remove system configuration values, since some values cannot be changed while the virtual machine is running.
 
-Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Configuration keys are located in the virtual machine's "\*.vmc" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to remove the value of the "ram\_size" key located in the following key tree:
 
@@ -105,9 +113,9 @@ The *configurationKey* path string would be specified as follows:
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -121,9 +129,9 @@ The *configurationKey* path string would be specified as follows:
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

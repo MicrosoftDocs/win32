@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMBitBlt function provides general bit-block transfer capabilities between device-managed surfaces, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.'
-ms.assetid: 'd47e1bdb-2c91-4f73-b742-5312d989781a'
+---
+Description: The OEMBitBlt function provides general bit-block transfer capabilities between device-managed surfaces, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
+ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 title: OEMBitBlt function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMBitBlt function

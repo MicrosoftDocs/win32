@@ -1,7 +1,12 @@
 ---
 title: max - ps
 description: Calculates the maximum of the sources.
-ms.assetid: '3d3bef5b-0ff7-441b-8681-a3f4cde0ae4f'
+ms.assetid: 3d3bef5b-0ff7-441b-8681-a3f4cde0ae4f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # max - ps

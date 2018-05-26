@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics provide information about troubleshooting VSS applications: Event and Error Handling Under VSSVSS Security IssuesSpecial VSS Usage Cases'
-ms.assetid: 'afdbcdaf-4e91-45c8-b8fe-11bd304f6e2d'
+Description: The following topics provide information about troubleshooting VSS applications Event and Error Handling Under VSSVSS Security IssuesSpecial VSS Usage Cases
+ms.assetid: afdbcdaf-4e91-45c8-b8fe-11bd304f6e2d
 title: Troubleshooting VSS Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting VSS Applications

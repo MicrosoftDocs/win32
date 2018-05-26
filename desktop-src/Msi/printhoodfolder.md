@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PrintHoodFolder property is the full path to the PrintHood folder.'
-ms.assetid: '5cf9489c-dbba-446d-b3f6-15e9b3176904'
+---
+Description: The PrintHoodFolder property is the full path to the PrintHood folder.
+ms.assetid: 5cf9489c-dbba-446d-b3f6-15e9b3176904
 title: PrintHoodFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrintHoodFolder property

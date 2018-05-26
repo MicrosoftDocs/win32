@@ -1,8 +1,11 @@
 ---
 title: IDatabaseSession OpenQuery method
 description: This function is not supported.
-ms.assetid: 'dd41f939-30b6-45ef-ae3d-bac3a1d2914e'
-keywords: ["OpenQuery method Windows Mail (formerly Outlook Express)", "OpenQuery method Windows Mail (formerly Outlook Express) , IDatabaseSession interface", "IDatabaseSession interface Windows Mail (formerly Outlook Express) , OpenQuery method"]
+ms.assetid: dd41f939-30b6-45ef-ae3d-bac3a1d2914e
+keywords:
+- OpenQuery method Windows Mail (formerly Outlook Express)
+- OpenQuery method Windows Mail (formerly Outlook Express) , IDatabaseSession interface
+- IDatabaseSession interface Windows Mail (formerly Outlook Express) , OpenQuery method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabaseSession::OpenQuery method
@@ -22,9 +30,9 @@ This function is not supported.
 
 ```C++
 HRESULT OpenQuery(
-  [in] IDatabase *pDatabase,
-  [in] LPCSTR    pszQuery,
-  [in] LPVOID    pReserved
+  [in] IDatabase *pDatabase,
+  [in] LPCSTR    pszQuery,
+  [in] LPVOID    pReserved
 );
 ```
 
@@ -75,7 +83,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,16 +91,16 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

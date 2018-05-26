@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the print ticket that is appropriate for the queue and the activation.'
-ms.assetid: 'B217DE53-23B9-46BA-8B35-DA869EB9DBDA'
-title: 'IPrinterExtensionContext::PrintSchemaTicket property'
+---
+Description: Gets the print ticket that is appropriate for the queue and the activation.
+ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
+title: IPrinterExtensionContextPrintSchemaTicket property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContext::PrintSchemaTicket property

@@ -1,7 +1,12 @@
 ---
-Description: 'The OpenSearch code sample demonstrates how to create a federated search service using the OpenSearch protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).'
-ms.assetid: '792884e4-826b-4474-82e1-1680d4d8b602'
+Description: The OpenSearch code sample demonstrates how to create a federated search service using the OpenSearch protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
+ms.assetid: 792884e4-826b-4474-82e1-1680d4d8b602
 title: OpenSearch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenSearch

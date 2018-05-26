@@ -1,8 +1,9 @@
 ---
 title: TDN\_CREATED notification code
 description: Sent by the task dialog after the dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the TaskDialogIndirect method.
-ms.assetid: 'cfe13db3-9c3c-425c-a6ef-17c5cb33eeb6'
-keywords: ["TDN_CREATED notification code Windows Controls"]
+ms.assetid: cfe13db3-9c3c-425c-a6ef-17c5cb33eeb6
+keywords:
+- TDN_CREATED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDN\_CREATED notification code
 
-Sent by the task dialog after the dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](taskdialogindirect.md) method.
+Sent by the task dialog after the dialog has been created and before it is displayed. This notification code is received only through the task dialog callback function, which can be registered using the [**TaskDialogIndirect**](/windows/win32/Commctrl/nf-commctrl-taskdialogindirect?branch=master) method.
 
 
 ```C++
@@ -55,15 +61,15 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

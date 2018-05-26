@@ -1,7 +1,12 @@
 ---
 title: Locating the Catalog for the Selected Scope
 description: Locating the Catalog for the Selected Scope
-ms.assetid: '28a889af-1a5c-4d0d-85c4-65534b75daea'
+ms.assetid: 28a889af-1a5c-4d0d-85c4-65534b75daea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Locating the Catalog for the Selected Scope
@@ -11,7 +16,7 @@ ms.assetid: '28a889af-1a5c-4d0d-85c4-65534b75daea'
 
  
 
-This code segment uses the [**LocateCatalogs**](locatecatalogs.md) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to locate the Indexing Service catalog for a specified scope. The first portion of the code segment declares a reference to the **LocateCatalog** function as an external procedure in Query.dll
+This code segment uses the [**LocateCatalogs**](/windows/win32/Ntquery/nf-ntquery-locatecatalogsa?branch=master) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to locate the Indexing Service catalog for a specified scope. The first portion of the code segment declares a reference to the **LocateCatalog** function as an external procedure in Query.dll
 
 
 ```VB
@@ -28,7 +33,7 @@ Private Declare Function LocateCatalogs Lib "Query" Alias "LocateCatalogsA" _
 
 
 
-The next portion of the code segment uses the [**LocateCatalogs**](locatecatalogs.md) function to determine the machine and catalog given the scope.
+The next portion of the code segment uses the [**LocateCatalogs**](/windows/win32/Ntquery/nf-ntquery-locatecatalogsa?branch=master) function to determine the machine and catalog given the scope.
 
 
 ```VB

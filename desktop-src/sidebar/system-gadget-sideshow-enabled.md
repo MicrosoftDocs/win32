@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.SideShow.enabled method
 description: Retrieves whether SideShow is supported.
-ms.assetid: 'bd0cf4da-7175-4a6e-9f08-b9c456a939b9'
-keywords: ["enabled method Windows Sidebar", "enabled method Windows Sidebar , System.Gadget.SideShow object", "System.Gadget.SideShow object Windows Sidebar , enabled method"]
+ms.assetid: bd0cf4da-7175-4a6e-9f08-b9c456a939b9
+keywords:
+- enabled method Windows Sidebar
+- enabled method Windows Sidebar , System.Gadget.SideShow object
+- System.Gadget.SideShow object Windows Sidebar , enabled method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.SideShow.enabled method
@@ -45,7 +53,7 @@ This method has no parameters.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,10 +81,10 @@ if (sideshowEnabled)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -98,9 +106,9 @@ if (sideshowEnabled)
 [Windows SideShow: Windows Hardware Developer Central](http://www.microsoft.com/whdc/device/sideshow/default.mspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

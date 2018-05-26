@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.'
-ms.assetid: 'fedabd5c-1ee1-4ed7-aaa8-06dd818f21f1'
-title: 'FaxOutgoingJob.AvailableOperations property'
+---
+Description: The AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
+ms.assetid: fedabd5c-1ee1-4ed7-aaa8-06dd818f21f1
+title: FaxOutgoingJob.AvailableOperations property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.AvailableOperations property
@@ -21,7 +26,7 @@ Property AvailableOperations As Integer
 
 ## Property value
 
-A value from the [**FAX\_JOB\_OPERATIONS\_ENUM**](-mfax-fax-job-operations-enum.md) enumeration, which specifies a bitwise combination of the operations that you can currently perform on the fax job. This is because some operations are mutually exclusive; for example, you cannot pause a job that has already been paused. For more information, see **FAX\_JOB\_OPERATIONS\_ENUM**.
+A value from the [**FAX\_JOB\_OPERATIONS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_operations_enum?branch=master) enumeration, which specifies a bitwise combination of the operations that you can currently perform on the fax job. This is because some operations are mutually exclusive; for example, you cannot pause a job that has already been paused. For more information, see **FAX\_JOB\_OPERATIONS\_ENUM**.
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A value from the [**FAX\_JOB\_OPERATIONS\_ENUM**](-mfax-fax-job-operations-enum.
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

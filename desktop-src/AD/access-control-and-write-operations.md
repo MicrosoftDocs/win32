@@ -4,11 +4,15 @@ description: Property modifications fail if the caller does not have sufficient 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eb5b97fb-4654-444e-9f5a-9a4be27ef1a3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eb5b97fb-4654-444e-9f5a-9a4be27ef1a3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Access Control and Writer Operations AD"]
+keywords:
+- Access Control and Writer Operations AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Access Control and Write Operations

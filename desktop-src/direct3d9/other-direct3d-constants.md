@@ -1,7 +1,12 @@
 ---
 Description: Other Direct3D Constants
-ms.assetid: '3e314f73-2653-481a-ac7d-1ce7db0591e2'
+ms.assetid: 3e314f73-2653-481a-ac7d-1ce7db0591e2
 title: Other Direct3D Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Direct3D Constants

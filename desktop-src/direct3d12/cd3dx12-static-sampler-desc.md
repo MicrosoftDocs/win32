@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_STATIC\_SAMPLER\_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_STATIC\_SAMPLER\_DESC structure.
-ms.assetid: 'C402415D-7BD5-4E23-82C9-B29B0B5669B8'
-keywords: ["CD3DX12_STATIC_SAMPLER_DESC structure"]
+ms.assetid: C402415D-7BD5-4E23-82C9-B29B0B5669B8
+keywords:
+- CD3DX12_STATIC_SAMPLER_DESC structure
 topic_type:
 - apiref
 api_name:
@@ -11,20 +12,25 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_STATIC\_SAMPLER\_DESC structure
 
-A helper structure to enable easy initialization of a [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 struct CD3DX12_STATIC_SAMPLER_DESC  : public D3D12_STATIC_SAMPLER_DESC{
-       CD3DX12_STATIC_SAMPLER_DESC();
-       explicit CD3DX12_STATIC_SAMPLER_DESC(const D3D12_STATIC_SAMPLER_DESC &amp;o);
-       CD3DX12_STATIC_SAMPLER_DESC(UINT shaderRegister, D3D12_FILTER filter = D3D12_FILTER_ANISOTROPIC, D3D12_TEXTURE_ADDRESS_MODE addressU = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressV = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressW = D3D12_TEXTURE_ADDRESS_MODE_WRAP, FLOAT mipLODBias = 0, UINT maxAnisotropy = 16, D3D12_COMPARISON_FUNC comparisonFunc = D3D12_COMPARISON_FUNC_LESS_EQUAL, D3D12_STATIC_BORDER_COLOR borderColor = D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, FLOAT minLOD = 0.f, FLOAT maxLOD = D3D12_FLOAT32_MAX, D3D12_SHADER_VISIBILITY shaderVisibility = D3D12_SHADER_VISIBILITY_ALL, UINT registerSpace = 0);
+       CD3DX12_STATIC_SAMPLER_DESC();
+       explicit CD3DX12_STATIC_SAMPLER_DESC(const D3D12_STATIC_SAMPLER_DESC &amp;o);
+       CD3DX12_STATIC_SAMPLER_DESC(UINT shaderRegister, D3D12_FILTER filter = D3D12_FILTER_ANISOTROPIC, D3D12_TEXTURE_ADDRESS_MODE addressU = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressV = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressW = D3D12_TEXTURE_ADDRESS_MODE_WRAP, FLOAT mipLODBias = 0, UINT maxAnisotropy = 16, D3D12_COMPARISON_FUNC comparisonFunc = D3D12_COMPARISON_FUNC_LESS_EQUAL, D3D12_STATIC_BORDER_COLOR borderColor = D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, FLOAT minLOD = 0.f, FLOAT maxLOD = D3D12_FLOAT32_MAX, D3D12_SHADER_VISIBILITY shaderVisibility = D3D12_SHADER_VISIBILITY_ALL, UINT registerSpace = 0);
   void static inline Init(D3D12_STATIC_SAMPLER_DESC &amp;samplerDesc, UINT shaderRegister, D3D12_FILTER filter = D3D12_FILTER_ANISOTROPIC, D3D12_TEXTURE_ADDRESS_MODE addressU = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressV = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressW = D3D12_TEXTURE_ADDRESS_MODE_WRAP, FLOAT mipLODBias = 0, UINT maxAnisotropy = 16, D3D12_COMPARISON_FUNC comparisonFunc = D3D12_COMPARISON_FUNC_LESS_EQUAL, D3D12_STATIC_BORDER_COLOR borderColor = D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, FLOAT minLOD = 0.f, FLOAT maxLOD = D3D12_FLOAT32_MAX, D3D12_SHADER_VISIBILITY shaderVisibility = D3D12_SHADER_VISIBILITY_ALL, UINT registerSpace = 0);
   void inline Init(UINT shaderRegister, D3D12_FILTER filter = D3D12_FILTER_ANISOTROPIC, D3D12_TEXTURE_ADDRESS_MODE addressU = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressV = D3D12_TEXTURE_ADDRESS_MODE_WRAP, D3D12_TEXTURE_ADDRESS_MODE addressW = D3D12_TEXTURE_ADDRESS_MODE_WRAP, FLOAT mipLODBias = 0, UINT maxAnisotropy = 16, D3D12_COMPARISON_FUNC comparisonFunc = D3D12_COMPARISON_FUNC_LESS_EQUAL, D3D12_STATIC_BORDER_COLOR borderColor = D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, FLOAT minLOD = 0.f, FLOAT maxLOD = D3D12_FLOAT32_MAX, D3D12_SHADER_VISIBILITY shaderVisibility = D3D12_SHADER_VISIBILITY_ALL, UINT registerSpace = 0);
 };
@@ -46,7 +52,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_STATIC\_SAMPLER\_DESC.
 **explicit CD3DX12\_STATIC\_SAMPLER\_DESC(const D3D12\_STATIC\_SAMPLER\_DESC &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_STATIC\_SAMPLER\_DESC, initialized with the contents of another [**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md) structure.
+Creates a new instance of a CD3DX12\_STATIC\_SAMPLER\_DESC, initialized with the contents of another [**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master) structure.
 
 </dd> <dt>
 
@@ -57,27 +63,27 @@ Creates a new instance of a CD3DX12\_STATIC\_SAMPLER\_DESC, initializing the fol
 
 UINT shaderRegister
 
-(opt) [**D3D12\_FILTER**](d3d12-filter.md) filter = D3D12\_FILTER\_ANISOTROPIC
+(opt) [**D3D12\_FILTER**](/windows/win32/D3D12/ne-d3d12-d3d12_filter?branch=master) filter = D3D12\_FILTER\_ANISOTROPIC
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
 (opt) FLOAT mipLODBias = 0
 
 (opt) UINT maxAnisotropy = 16
 
-(opt) [**D3D12\_COMPARISON\_FUNC**](d3d12-comparison-func.md) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
+(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/win32/D3D12/ne-d3d12-d3d12_comparison_func?branch=master) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
 
-(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](d3d12-static-border-color.md) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
+(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/win32/D3D12/ne-d3d12-d3d12_static_border_color?branch=master) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
 
 (opt) FLOAT minLOD = 0.f
 
 (opt) FLOAT maxLOD = D3D12\_FLOAT32\_MAX
 
-(opt) [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
+(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 (opt) UINT registerSpace = 0
 
@@ -88,31 +94,31 @@ UINT shaderRegister
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md) &samplerDesc
+[**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master) &samplerDesc
 
 UINT shaderRegister
 
-(opt) [**D3D12\_FILTER**](d3d12-filter.md) filter = D3D12\_FILTER\_ANISOTROPIC
+(opt) [**D3D12\_FILTER**](/windows/win32/D3D12/ne-d3d12-d3d12_filter?branch=master) filter = D3D12\_FILTER\_ANISOTROPIC
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
 (opt) FLOAT mipLODBias = 0
 
 (opt) UINT maxAnisotropy = 16
 
-(opt) [**D3D12\_COMPARISON\_FUNC**](d3d12-comparison-func.md) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
+(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/win32/D3D12/ne-d3d12-d3d12_comparison_func?branch=master) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
 
-(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](d3d12-static-border-color.md) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
+(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/win32/D3D12/ne-d3d12-d3d12_static_border_color?branch=master) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
 
 (opt) FLOAT minLOD = 0.f
 
 (opt) FLOAT maxLOD = D3D12\_FLOAT32\_MAX
 
-(opt) [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
+(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 (opt) UINT registerSpace = 0
 
@@ -125,27 +131,27 @@ Specifies a function that initializes the following parameters:
 
 UINT shaderRegister
 
-(opt) [**D3D12\_FILTER**](d3d12-filter.md) filter = D3D12\_FILTER\_ANISOTROPIC
+(opt) [**D3D12\_FILTER**](/windows/win32/D3D12/ne-d3d12-d3d12_filter?branch=master) filter = D3D12\_FILTER\_ANISOTROPIC
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressU = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressV = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
-(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](d3d12-texture-address-mode.md) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
+(opt) [**D3D12\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D12/ne-d3d12-d3d12_texture_address_mode?branch=master) addressW = D3D12\_TEXTURE\_ADDRESS\_MODE\_WRAP
 
 (opt) FLOAT mipLODBias = 0
 
 (opt) UINT maxAnisotropy = 16
 
-(opt) [**D3D12\_COMPARISON\_FUNC**](d3d12-comparison-func.md) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
+(opt) [**D3D12\_COMPARISON\_FUNC**](/windows/win32/D3D12/ne-d3d12-d3d12_comparison_func?branch=master) comparisonFunc = D3D12\_COMPARISON\_FUNC\_LESS\_EQUAL
 
-(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](d3d12-static-border-color.md) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
+(opt) [**D3D12\_STATIC\_BORDER\_COLOR**](/windows/win32/D3D12/ne-d3d12-d3d12_static_border_color?branch=master) borderColor = D3D12\_STATIC\_BORDER\_COLOR\_OPAQUE\_WHITE
 
 (opt) FLOAT minLOD = 0.f
 
 (opt) FLOAT maxLOD = D3D12\_FLOAT32\_MAX
 
-(opt) [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
+(opt) [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master) shaderVisibility = D3D12\_SHADER\_VISIBILITY\_ALL
 
 (opt) UINT registerSpace = 0
 
@@ -165,15 +171,15 @@ UINT shaderRegister
 
 <dl> <dt>
 
-[**D3D12\_STATIC\_SAMPLER\_DESC**](d3d12-static-sampler-desc.md)
+[**D3D12\_STATIC\_SAMPLER\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_static_sampler_desc?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The print spooler''s ReplyPrinterChangeNotification function allows a print provider to update the spooler''s database of print queue events associated with a notification handle, and to notify the client that print queue events have occurred.'
-ms.assetid: 'a884920c-1824-418f-90c8-0edf1381678b'
+---
+Description: The print spoolers ReplyPrinterChangeNotification function allows a print provider to update the spoolers database of print queue events associated with a notification handle, and to notify the client that print queue events have occurred.
+ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 title: ReplyPrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReplyPrinterChangeNotification function

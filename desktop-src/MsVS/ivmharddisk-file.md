@@ -1,8 +1,13 @@
 ---
 title: IVMHardDisk File property
 description: The File property contains the full path name of the current hard disk image file.
-ms.assetid: 'f2cbbe12-84cf-4a6c-8269-28f88147cc55'
-keywords: ["File property Virtual Server", "File property Virtual Server , IVMHardDisk interface", "IVMHardDisk interface Virtual Server , File property", "File property Virtual Server , VMHardDisk interface", "VMHardDisk interface Virtual Server , File property"]
+ms.assetid: f2cbbe12-84cf-4a6c-8269-28f88147cc55
+keywords:
+- File property Virtual Server
+- File property Virtual Server , IVMHardDisk interface
+- IVMHardDisk interface Virtual Server , File property
+- File property Virtual Server , VMHardDisk interface
+- VMHardDisk interface Virtual Server , File property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::File property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_File(
-  [out] BSTR *hardDiskName
+  [out] BSTR *hardDiskName
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

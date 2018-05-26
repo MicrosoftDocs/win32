@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperPS::EnumOptions method gets a list of available options for the given feature.'
-ms.assetid: 'bd23f4e6-7a99-4347-ae29-a1e832db2e03'
-title: 'IPrintCoreHelperPS::EnumOptions method'
+---
+Description: The IPrintCoreHelperPSEnumOptions method gets a list of available options for the given feature.
+ms.assetid: bd23f4e6-7a99-4347-ae29-a1e832db2e03
+title: IPrintCoreHelperPSEnumOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS::EnumOptions method

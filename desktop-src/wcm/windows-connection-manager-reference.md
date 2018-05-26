@@ -1,7 +1,12 @@
 ---
 title: Windows Connection Manager Reference
 description: This section contains information about the components of the Windows Connection Manager (WCM) API.
-ms.assetid: '9840922E-E01D-45F3-87EB-F7FF2A5B684F'
+ms.assetid: 9840922E-E01D-45F3-87EB-F7FF2A5B684F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Connection Manager Reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a reference point of a virtual system.'
-ms.assetid: '9cc7665a-9562-4267-bcd0-3162e426fbad'
-title: 'CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class'
+Description: Creates a reference point of a virtual system.
+ms.assetid: 9cc7665a-9562-4267-bcd0-3162e426fbad
+title: CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class
@@ -13,11 +18,11 @@ Creates a reference point of a virtual system.
 
 ```mof
 uint32 CreateReferencePoint(
-  [in]      Msvm_ComputerSystem              REF AffectedSystem,
-  [in]      string                               ReferencePointSettings,
-  [in]      uint16                               ReferencePointType,
-  [in, out] Msvm_VirtualSystemReferencePoint REF ResultingReferencePoint,
-  [out]     CIM_ConcreteJob                  REF Job
+  [in]      Msvm_ComputerSystem              REF AffectedSystem,
+  [in]      string                               ReferencePointSettings,
+  [in]      uint16                               ReferencePointType,
+  [in, out] Msvm_VirtualSystemReferencePoint REF ResultingReferencePoint,
+  [out]     CIM_ConcreteJob                  REF Job
 );
 ```
 
@@ -129,8 +134,8 @@ On success, returns 0; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -144,9 +149,9 @@ On success, returns 0; otherwise, returns an error.
 [**Msvm\_VirtualSystemReferencePointService**](msvm-virtualsystemreferencepointservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

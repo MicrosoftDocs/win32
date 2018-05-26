@@ -4,13 +4,16 @@ description: Defines the desired power state of a ComputerSystem and its running
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '48644d59-feb9-4de9-99af-82106458c26f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 48644d59-feb9-4de9-99af-82106458c26f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method", "SetPowerState method, MSCluster_Node class", "MSCluster_Node class, SetPowerState method"]
+keywords:
+- SetPowerState method
+- SetPowerState method, MSCluster_Node class
+- MSCluster_Node class, SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the MSCluster\_Node class
@@ -30,8 +36,8 @@ Defines the desired power state of a ComputerSystem and its running OperatingSys
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -122,7 +128,7 @@ Returns 0 if successful, 1 if the specified power state and time requests are no
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -136,9 +142,9 @@ Returns 0 if successful, 1 if the specified power state and time requests are no
 [**MSCluster\_Node**](mscluster-node.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

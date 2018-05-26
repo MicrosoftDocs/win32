@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a property''s display information.'
-ms.assetid: '27c03ced-a5fa-4ab4-b88e-5b78701da878'
+Description: Specifies a propertys display information.
+ms.assetid: 27c03ced-a5fa-4ab4-b88e-5b78701da878
 title: displayInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # displayInfo

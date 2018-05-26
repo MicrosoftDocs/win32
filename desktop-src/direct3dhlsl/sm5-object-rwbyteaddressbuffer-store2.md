@@ -1,14 +1,20 @@
 ---
 title: Store2 function
 description: Sets two values.
-ms.assetid: '7b32c84c-9ea2-47ae-a0f3-df6d95249163'
-keywords: ["Store2 function HLSL"]
+ms.assetid: 7b32c84c-9ea2-47ae-a0f3-df6d95249163
+keywords:
+- Store2 function HLSL
 topic_type:
 - apiref
 api_name:
 - Store2
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store2 function

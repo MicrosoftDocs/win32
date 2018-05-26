@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SummaryInfo object is used to read, create, and update document properties from the summary information stream of a storage object.'
-ms.assetid: '296e90d2-84b8-4c9e-8716-be90f94294ee'
+---
+Description: The SummaryInfo object is used to read, create, and update document properties from the summary information stream of a storage object.
+ms.assetid: 296e90d2-84b8-4c9e-8716-be90f94294ee
 title: SummaryInfo object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SummaryInfo object

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a TPM command to the local list of commands blocked from running on the operating system.'
-ms.assetid: '4e44ef21-346c-4d9f-b40d-cb70118398d1'
-title: 'AddBlockedCommand method of the Win32\_Tpm class'
+---
+Description: Adds a TPM command to the local list of commands blocked from running on the operating system.
+ms.assetid: 4e44ef21-346c-4d9f-b40d-cb70118398d1
+title: AddBlockedCommand method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddBlockedCommand method of the Win32\_Tpm class

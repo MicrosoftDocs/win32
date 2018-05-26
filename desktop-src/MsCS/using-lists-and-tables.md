@@ -4,11 +4,16 @@ description: The following sections describe the tools and techniques used to cr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f8f0297a-c050-41b9-a52f-a0265a18b87a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f8f0297a-c050-41b9-a52f-a0265a18b87a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property lists Failover Cluster ,using", "property tables Failover Cluster ,using"]
+keywords:
+- property lists Failover Cluster ,using
+- property tables Failover Cluster ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Lists and Tables

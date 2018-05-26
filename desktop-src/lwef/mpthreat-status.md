@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_STATUS enumeration
 description: Possible threat status.
-ms.assetid: '64B57C8B-231B-4A2C-BF2E-45DB62B8350E'
-keywords: ["MPTHREAT_STATUS enumeration Legacy Windows Environment Features", "PMPTHREAT_STATUS enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 64B57C8B-231B-4A2C-BF2E-45DB62B8350E
+keywords:
+- MPTHREAT_STATUS enumeration Legacy Windows Environment Features
+- PMPTHREAT_STATUS enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_STATUS enumeration
@@ -22,19 +29,19 @@ Possible threat status.
 
 ```C++
 typedef enum tagMPTHREAT_STATUS { 
-  MP_THREAT_STATUS_UNKNOWN            = 0,
-  MP_THREAT_STATUS_DETECTED           = 1,
-  MP_THREAT_STATUS_CLEANED            = 2,
-  MP_THREAT_STATUS_QUARANTINED        = 3,
-  MP_THREAT_STATUS_REMOVED            = 4,
-  MP_THREAT_STATUS_ALLOWED            = 5,
-  MP_THREAT_STATUS_BLOCKED            = 6,
-  MP_THREAT_STATUS_CLEAN_FAILED       = 102,
-  MP_THREAT_STATUS_QUARANTINE_FAILED  = 103,
-  MP_THREAT_STATUS_REMOVE_FAILED      = 104,
-  MP_THREAT_STATUS_ALLOW_FAILED       = 105,
-  MP_THREAT_STATUS_ABANDONED          = 106,
-  MP_THREAT_STATUS_BLOCK_FAILED       = 107
+  MP_THREAT_STATUS_UNKNOWN            = 0,
+  MP_THREAT_STATUS_DETECTED           = 1,
+  MP_THREAT_STATUS_CLEANED            = 2,
+  MP_THREAT_STATUS_QUARANTINED        = 3,
+  MP_THREAT_STATUS_REMOVED            = 4,
+  MP_THREAT_STATUS_ALLOWED            = 5,
+  MP_THREAT_STATUS_BLOCKED            = 6,
+  MP_THREAT_STATUS_CLEAN_FAILED       = 102,
+  MP_THREAT_STATUS_QUARANTINE_FAILED  = 103,
+  MP_THREAT_STATUS_REMOVE_FAILED      = 104,
+  MP_THREAT_STATUS_ALLOW_FAILED       = 105,
+  MP_THREAT_STATUS_ABANDONED          = 106,
+  MP_THREAT_STATUS_BLOCK_FAILED       = 107
 } MPTHREAT_STATUS, *PMPTHREAT_STATUS;
 ```
 
@@ -89,15 +96,15 @@ typedef enum tagMPTHREAT_STATUS {
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

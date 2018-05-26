@@ -1,8 +1,9 @@
 ---
 title: PFN\_CSP\_PAD\_DATA function pointer
 description: Pads a data buffer for use in a cryptographic operation when the smart card itself does not perform data padding.
-ms.assetid: '04c5d7fa-96cb-4d1c-a150-d8d0aa0a95a3'
-keywords: ["PFN_CSP_PAD_DATA function pointer Security"]
+ms.assetid: 04c5d7fa-96cb-4d1c-a150-d8d0aa0a95a3
+keywords:
+- PFN_CSP_PAD_DATA function pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_CSP\_PAD\_DATA function pointer
@@ -24,10 +30,10 @@ The **PFN\_CSP\_PAD\_DATA** function pads a data buffer for use in a cryptograph
 
 ```C++
 typedef DWORD ( WINAPI *PFN_CSP_PAD_DATA)(
-  _In_  PCARD_SIGNING_INFO pSigningInfo,
-  _In_  DWORD              cbMaxWidth,
-  _Out_ DWORD              *pcbPaddedBuffer,
-  _Out_ PBYTE              *ppbPaddedBuffer
+  _In_  PCARD_SIGNING_INFO pSigningInfo,
+  _In_  DWORD              cbMaxWidth,
+  _Out_ DWORD              *pcbPaddedBuffer,
+  _Out_ PBYTE              *ppbPaddedBuffer
 );
 ```
 
@@ -81,8 +87,8 @@ Currently, only PKCS \#1 version 1.1 padding is supported.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -94,9 +100,9 @@ Currently, only PKCS \#1 version 1.1 padding is supported.
 [Microsoft Base Smart Card Cryptographic Service Provider](microsoft-base-smart-card-cryptographic-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

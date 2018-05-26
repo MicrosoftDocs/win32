@@ -4,13 +4,15 @@ description: The default negotiation settings for an iSCSI Session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '80fc3bdc-fe80-4a5a-9976-ada5665faf15'
-ms.prod: 'windows-server-dev'
+ms.assetid: 80fc3bdc-fe80-4a5a-9976-ada5665faf15
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_iSCSISessionSettings class iSCSI Software Target API", "CIM_iSCSISessionSettings class iSCSI Software Target API , described"]
+keywords:
+- CIM_iSCSISessionSettings class iSCSI Software Target API
+- CIM_iSCSISessionSettings class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_iSCSISessionSettings class
@@ -48,21 +53,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.11.0"), UMLPackagePath("CIM::Network::iSCSI")]
 class CIM_iSCSISessionSettings : CIM_SettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint32  MaxConnectionsPerSession = 1;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint32  MaxConnectionsPerSession = 1;
   boolean InitialR2TPreference = TRUE;
   boolean ImmediateDataPreference = TRUE;
-  uint32  MaxOutstandingR2T = 1;
-  uint32  MaxUnsolicitedFirstDataBurstLength = 65536;
-  uint32  MaxDataBurstLength = 262144;
+  uint32  MaxOutstandingR2T = 1;
+  uint32  MaxUnsolicitedFirstDataBurstLength = 65536;
+  uint32  MaxDataBurstLength = 262144;
   boolean DataSequenceInOrderPreference = TRUE;
   boolean DataPDUInOrderPreference = TRUE;
-  uint32  DefaultTimeToWaitPreference = 2;
-  uint32  DefaultTimeToRetainPreference = 20;
-  uint32  ErrorRecoveryLevelPreference = 0;
+  uint32  DefaultTimeToWaitPreference = 2;
+  uint32  DefaultTimeToRetainPreference = 20;
+  uint32  ErrorRecoveryLevelPreference = 0;
 };
 ```
 
@@ -340,7 +345,7 @@ The maximum length (bytes) supported for unsolicited data to/from this node.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -354,9 +359,9 @@ The maximum length (bytes) supported for unsolicited data to/from this node.
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

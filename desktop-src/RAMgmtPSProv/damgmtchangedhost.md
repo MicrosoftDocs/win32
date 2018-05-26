@@ -2,13 +2,15 @@
 title: DAMgmtChangedHost class
 description: Changed host.
 audience: developer
-ms.assetid: 'af2fb1eb-96b9-4bbf-ba54-bf93a85ecdeb'
-ms.prod: 'windows-server-dev'
+ms.assetid: af2fb1eb-96b9-4bbf-ba54-bf93a85ecdeb
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DAMgmtChangedHost class", "DAMgmtChangedHost class, described"]
+keywords:
+- DAMgmtChangedHost class
+- DAMgmtChangedHost class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DAMgmtChangedHost class
@@ -176,16 +181,16 @@ The possible values are.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

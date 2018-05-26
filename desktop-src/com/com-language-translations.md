@@ -1,7 +1,12 @@
 ---
 title: COM Language Translations
 description: Components created using the Component Object Model (COM) can be reused in applications written in any programming language that supports COM. This is because COM is a binary standard and, as such, is language-independent.
-ms.assetid: '89e74768-b7bd-4ab6-9129-9e677a9c14ca'
+ms.assetid: 89e74768-b7bd-4ab6-9129-9e677a9c14ca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Language Translations

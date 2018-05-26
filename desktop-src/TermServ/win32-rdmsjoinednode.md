@@ -4,11 +4,13 @@ description: Represents a server node that is managed by Remote Desktop Manageme
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8751f3f7-dfb5-45bd-a6b1-758aa22a3569'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8751f3f7-dfb5-45bd-a6b1-758aa22a3569
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDMSJoinedNode class Remote Desktop Services", "Win32_RDMSJoinedNode class Remote Desktop Services , described"]
+keywords:
+- Win32_RDMSJoinedNode class Remote Desktop Services
+- Win32_RDMSJoinedNode class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDMSJoinedNode class
@@ -44,9 +49,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_RDManagement_Prov"), AMENDMENT]
 class Win32_RDMSJoinedNode
 {
-  string  FQDN;
-  string  SID;
-  String  OSVersion;
+  string  FQDN;
+  string  SID;
+  String  OSVersion;
   boolean IsRdcb;
   boolean IsRdg;
   boolean IsRdls;
@@ -75,13 +80,13 @@ The **Win32\_RDMSJoinedNode** class has these methods.
 
 | Method                                                                | Description                                                                                                                                                                                           |
 |:----------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**GetJoinedNodeCount**](win32-rdmsjoinednode-getjoinednodecount.md) | **Windows Server 2012 R2 and Windows Server 2012:** This method is unavailable prior to Windows Server 2016.<br/> Gets the number of servers that have the specified role installed.<br/> |
+| [**GetJoinedNodeCount**](win32-rdmsjoinednode-getjoinednodecount.md) | **Windows Server 2012 R2 and Windows Server 2012:** This method is unavailable prior to Windows Server 2016.<br/> Gets the number of servers that have the specified role installed.<br/> |
 | [**Join**](join-win32-rdmsjoinednode.md)                             | Adds a node to RDMS.<br/>                                                                                                                                                                       |
 | [**Unjoin**](unjoin-win32-rdmsjoinednode.md)                         | Removes a node from RDMS.<br/>                                                                                                                                                                  |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -274,7 +279,7 @@ Gets the security identifier (SID) of the node.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -288,9 +293,9 @@ Gets the security identifier (SID) of the node.
 [Remote Desktop Management Services Provider](rdms-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

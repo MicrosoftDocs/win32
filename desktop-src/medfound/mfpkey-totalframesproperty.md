@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the total number of video frames passed to the encoder during the endocing process.'
-ms.assetid: '33009587-6fb2-4331-88d7-21886125467e'
-title: 'MFPKEY\_TOTALFRAMES Property'
+---
+Description: Specifies the total number of video frames passed to the encoder during the endocing process.
+ms.assetid: 33009587-6fb2-4331-88d7-21886125467e
+title: MFPKEY\_TOTALFRAMES Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_TOTALFRAMES Property

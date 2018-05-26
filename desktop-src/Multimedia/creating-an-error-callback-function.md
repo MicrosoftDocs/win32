@@ -1,13 +1,19 @@
 ---
 title: Creating an Error Callback Function
 description: Creating an Error Callback Function
-ms.assetid: 'a489ec94-c566-44b1-aa93-9b43f23de744'
-keywords: ["capSetCallbackOnError macro"]
+ms.assetid: a489ec94-c566-44b1-aa93-9b43f23de744
+keywords:
+- capSetCallbackOnError macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Error Callback Function
 
-The following example is a simple error callback function. Register this callback by using the [**capSetCallbackOnError**](capsetcallbackonerror.md) macro.
+The following example is a simple error callback function. Register this callback by using the [**capSetCallbackOnError**](/windows/win32/Vfw/nf-vfw-capsetcallbackonerror?branch=master) macro.
 
 
 ```

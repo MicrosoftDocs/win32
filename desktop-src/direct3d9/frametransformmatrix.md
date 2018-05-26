@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a local transform for a frame (and all its child objects).'
-ms.assetid: 'e9531d93-86a6-4606-ae3c-824e17f7b5fa'
+Description: Defines a local transform for a frame (and all its child objects).
+ms.assetid: e9531d93-86a6-4606-ae3c-824e17f7b5fa
 title: FrameTransformMatrix
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FrameTransformMatrix

@@ -1,8 +1,9 @@
 ---
 title: float3x2 Structure
 description: A 3x2 matrix, used for 2D transforms.
-ms.assetid: '5C2A4C30-3EC4-4DE9-A42A-6A19F96F8D69'
-keywords: ["float3x2 Structure"]
+ms.assetid: 5C2A4C30-3EC4-4DE9-A42A-6A19F96F8D69
+keywords:
+- float3x2 Structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # float3x2 Structure
@@ -35,7 +41,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Functions
 
@@ -63,7 +69,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Methods
 
@@ -75,7 +81,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Operators
 
@@ -98,7 +104,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Fields
 
@@ -115,7 +121,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -135,9 +141,9 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Matr
 [windowsnumerics.h APIs](windowsnumerics-h-apis-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

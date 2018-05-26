@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'DB5FCF40-77C2-4741-9E6B-77A9CD98E29A'
+---
+Description: .
+ms.assetid: DB5FCF40-77C2-4741-9E6B-77A9CD98E29A
 title: PlayGdiScriptOnPrinterIC function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayGdiScriptOnPrinterIC function

@@ -1,7 +1,12 @@
 ---
 title: Using Visual Basic with Indexing Service APIs
 description: Using Visual Basic with Indexing Service APIs
-ms.assetid: 'b0201244-2ce0-4f6f-9850-e8aefe52334b'
+ms.assetid: b0201244-2ce0-4f6f-9850-e8aefe52334b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Visual Basic with Indexing Service APIs

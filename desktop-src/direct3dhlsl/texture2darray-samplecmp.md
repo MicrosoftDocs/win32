@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray SampleCmp methods
 description: Samples a Texture2DArray, using a comparison value to reject samples.
-ms.assetid: 'EDA2239F-8A13-4DD0-9DC5-65B879C9DAAC'
-keywords: ["SampleCmp methods HLSL"]
+ms.assetid: EDA2239F-8A13-4DD0-9DC5-65B879C9DAAC
+keywords:
+- SampleCmp methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::SampleCmp methods
@@ -32,9 +38,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md), using a comparison
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

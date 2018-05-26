@@ -4,11 +4,14 @@ description: Deletes the file system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b53ada50-2bea-4db4-9e5d-b78466f78e12'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b53ada50-2bea-4db4-9e5d-b78466f78e12
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Delete method", "Delete method, MSFT_SMFileSystem class", "MSFT_SMFileSystem class, Delete method"]
+keywords:
+- Delete method
+- Delete method, MSFT_SMFileSystem class
+- MSFT_SMFileSystem class, Delete method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delete method of the MSFT\_SMFileSystem class
@@ -28,9 +34,9 @@ Deletes the file system.
 
 ```mof
 UInt32 Delete(
-  [in]            Boolean               RunAsJob,
-  [out]           MSFT_SMJob        REF CreatedStorageJob,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            Boolean               RunAsJob,
+  [out]           MSFT_SMJob        REF CreatedStorageJob,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -72,7 +78,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -86,9 +92,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_SMFileSystem**](msft-smfilesystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

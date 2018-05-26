@@ -1,14 +1,18 @@
 ---
 title: Working with the Scope Pane Implementation Details
-description: The following procedure applies to primary snap-ins that insert their own items into the scope pane. For more information about how extension snap-ins can add items to the scope pane of a primary snap-in, see Extending a Primary Snap-in's Namespace.
+description: The following procedure applies to primary snap-ins that insert their own items into the scope pane. For more information about how extension snap-ins can add items to the scope pane of a primary snap-in, see Extending a Primary Snap-ins Namespace.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5e3fcd72-9623-43dc-b0a4-0c987599d0a0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5e3fcd72-9623-43dc-b0a4-0c987599d0a0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["working with the scope pane MMC , implementation details"]
+keywords:
+- working with the scope pane MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with the Scope Pane: Implementation Details

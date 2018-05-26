@@ -4,13 +4,15 @@ description: Dhcp Server v4Policy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8ae73ff0-3fc5-43eb-88d8-3148abcf4d7f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8ae73ff0-3fc5-43eb-88d8-3148abcf4d7f
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4Policy class", "DhcpServerv4Policy class, described"]
+keywords:
+- DhcpServerv4Policy class
+- DhcpServerv4Policy class, described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4Policy class
@@ -49,22 +54,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4Policy
 {
-  string   Name;
-  string   Description;
-  string   ScopeId;
-  boolean  Enabled;
-  string   Condition;
-  uint16   ProcessingOrder;
-  string   VendorClass[];
-  string   UserClass[];
-  string   MacAddress[];
-  string   ClientId[];
-  string   RelayAgent[];
-  string   CircuitId[];
-  string   RemoteId[];
-  string   SubscriberId[];
+  string   Name;
+  string   Description;
+  string   ScopeId;
+  boolean  Enabled;
+  string   Condition;
+  uint16   ProcessingOrder;
+  string   VendorClass[];
+  string   UserClass[];
+  string   MacAddress[];
+  string   ClientId[];
+  string   RelayAgent[];
+  string   CircuitId[];
+  string   RemoteId[];
+  string   SubscriberId[];
   Datetime LeaseDuration;
-  string   Fqdn[];
+  string   Fqdn[];
 };
 ```
 
@@ -172,7 +177,7 @@ Access type: Read/write
 
 The comparator to use, and values to compare with Fqdn.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -187,7 +192,7 @@ Access type: Read/write
 
 Lease duration to be set for clients matching the policy.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -315,16 +320,16 @@ The comparator to use, and values to compare VendorClass with
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

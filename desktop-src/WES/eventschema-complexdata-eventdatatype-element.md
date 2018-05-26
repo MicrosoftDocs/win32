@@ -1,14 +1,20 @@
 ---
 title: ComplexData (EventDataType) Element
 description: A structure that is defined in the template for the event.
-ms.assetid: '4869e269-fae1-48bc-912f-db1e9e9b9fb9'
-keywords: ["ComplexData element EventLog"]
+ms.assetid: 4869e269-fae1-48bc-912f-db1e9e9b9fb9
+keywords:
+- ComplexData element EventLog
 topic_type:
 - apiref
 api_name:
 - ComplexData
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComplexData (EventDataType) Element
@@ -29,8 +35,8 @@ The **ComplexData** element is defined by the [**EventDataType**](eventschema-ev
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **ComplexData** element is defined by the [**EventDataType**](eventschema-ev
 [**EventData (EventType)**](eventschema-eventdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

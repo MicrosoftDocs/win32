@@ -1,8 +1,19 @@
 ---
 title: DRM Attribute List
 description: DRM Attribute List
-ms.assetid: '222ef91c-b776-4de8-b1ad-88c2beca05aa'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,digital rights management (DRM)", "digital rights management (DRM),attributes", "DRM (digital rights management),attributes"]
+ms.assetid: 222ef91c-b776-4de8-b1ad-88c2beca05aa
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,digital rights management (DRM)
+- digital rights management (DRM),attributes
+- DRM (digital rights management),attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Attribute List

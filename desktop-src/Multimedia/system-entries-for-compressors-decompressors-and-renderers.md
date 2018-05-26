@@ -1,8 +1,15 @@
 ---
 title: System Entries for Compressors, Decompressors, and Renderers
 description: System Entries for Compressors, Decompressors, and Renderers
-ms.assetid: 'b27bbd5b-a218-49bb-b179-b24ce39869a1'
-keywords: ["Video for Windows (VFW),compressor system entries", "VFW (Video for Windows),compressor system entries"]
+ms.assetid: b27bbd5b-a218-49bb-b179-b24ce39869a1
+keywords:
+- Video for Windows (VFW),compressor system entries
+- VFW (Video for Windows),compressor system entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Entries for Compressors, Decompressors, and Renderers

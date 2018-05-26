@@ -1,7 +1,12 @@
 ---
 title: Direct3D 9Ex Improvements
-description: This topic describes Windows 7's added support for Flip Mode Present and its associated present statistics in Direct3D 9Ex and Desktop Window Manager.
-ms.assetid: 'cb92a162-57eb-4aee-af7a-c8ece37075a7'
+description: This topic describes Windows 7s added support for Flip Mode Present and its associated present statistics in Direct3D 9Ex and Desktop Window Manager.
+ms.assetid: cb92a162-57eb-4aee-af7a-c8ece37075a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 9Ex Improvements
@@ -10,7 +15,7 @@ This topic describes Windows 7's added support for Flip Mode Present and its ass
 
 This topic contains the following sections.
 
--   [What's Improved about Direct3D 9Ex for Windows 7](#whats-improved-about-direct3d-9ex-for-windows-7)
+-   [What's Improved about Direct3D 9Ex for Windows 7](#whats-improved-about-direct3d-9ex-for-windows-7)
 -   [Direct3D 9EX Flip Mode Presentation](#direct3d-9ex-flip-mode-presentation)
 -   [Programming Model and APIs](#programming-model-and-apis)
     -   [How to Opt Into the Direct3D 9Ex Flip Model](#how-to-opt-into-the-direct3d-9ex-flip-model)
@@ -49,7 +54,7 @@ Performance improvements of Direct3D 9Ex Flip Mode Present are significant on th
 
 
 
- 
+ 
 
 ![illustration of a comparison of the blt model and the flip model](images/blt-flip-mode-present.png)
 
@@ -543,7 +548,7 @@ VOID Render()
     > [!Note]  
     > When the application calls [**PresentEx**](https://msdn.microsoft.com/library/windows/desktop/bb174343) with D3DPRESENT\_DONOTFLIP, the [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) call succeeds but does not return an updated [**D3DPRESENTSTATS**](https://msdn.microsoft.com/library/windows/desktop/bb172587) structure when the application is in windowed mode.
 
-     
+     
 
 -   Call [**GetPresentStatistics**](https://msdn.microsoft.com/library/windows/desktop/bb205901) to obtain the actual PresentRefreshCount associated with each Present ID of frames shown, to make sure that the application handles failure returns from the call.
 -   If actual PresentRefreshCount is later than estimated PresentRefreshCount, a glitch is detected. Compensate by submitting lagging frames' Present with D3DPRESENT\_FORCEIMMEDIATE.
@@ -583,9 +588,9 @@ We encourage you to use Direct3D 9Ex Flip Model and its present statistics on Wi
 [DirectX Developer Center on MSDN](http://go.microsoft.com/fwlink/p/?linkid=179176)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

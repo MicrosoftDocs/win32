@@ -1,8 +1,11 @@
 ---
 title: IVMTask WaitForCompletion method
 description: The WaitForCompletion method waits for the task to complete or until the specified timeout expires.
-ms.assetid: '56a943f9-881d-4233-8ee1-b6d6812f6582'
-keywords: ["WaitForCompletion method Virtual Server", "WaitForCompletion method Virtual Server , IVMTask interface", "IVMTask interface Virtual Server , WaitForCompletion method"]
+ms.assetid: 56a943f9-881d-4233-8ee1-b6d6812f6582
+keywords:
+- WaitForCompletion method Virtual Server
+- WaitForCompletion method Virtual Server , IVMTask interface
+- IVMTask interface Virtual Server , WaitForCompletion method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::WaitForCompletion method
@@ -22,7 +30,7 @@ The **WaitForCompletion** method waits for the task to complete or until the spe
 
 ```C++
 HRESULT WaitForCompletion(
-  [in] long timeout
+  [in] long timeout
 );
 ```
 
@@ -53,7 +61,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -98,8 +106,8 @@ void CompactWithTimeout(IVMHardDiskPtr pIHD, long seconds) throw(/*...*/)
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -111,9 +119,9 @@ void CompactWithTimeout(IVMHardDiskPtr pIHD, long seconds) throw(/*...*/)
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

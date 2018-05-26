@@ -2,13 +2,15 @@
 title: BgpPeerConfig class
 description: Retrieves information about a peer configuration of a Border Gateway Protocol (BGP) router.
 audience: developer
-ms.assetid: 'f4f0c9bc-7bb9-43d4-b7ed-51fbd5f589ef'
-ms.prod: 'windows-server-dev'
+ms.assetid: f4f0c9bc-7bb9-43d4-b7ed-51fbd5f589ef
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BgpPeerConfig class", "BgpPeerConfig class, described"]
+keywords:
+- BgpPeerConfig class
+- BgpPeerConfig class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BgpPeerConfig class
@@ -47,21 +52,21 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class BgpPeerConfig
 {
-  string  RoutingDomain;
-  string  PeerName;
-  string  LocalIPAddress;
-  string  PeerIPAddress;
-  uint32  LocalASN;
-  uint32  PeerASN;
-  uint32  OperationMode;
-  uint32  PeeringMode;
-  uint16  HoldTimeSec;
-  uint16  IdleHoldTimeSec;
-  uint16  Weight;
-  uint32  ConnectivityStatus;
-  string  IngressPolicyList[];
-  string  EgressPolicyList[];
-  uint32  MaxAllowedPrefix;
+  string  RoutingDomain;
+  string  PeerName;
+  string  LocalIPAddress;
+  string  PeerIPAddress;
+  uint32  LocalASN;
+  uint32  PeerASN;
+  uint32  OperationMode;
+  uint32  PeeringMode;
+  uint16  HoldTimeSec;
+  uint16  IdleHoldTimeSec;
+  uint16  Weight;
+  uint32  ConnectivityStatus;
+  string  IngressPolicyList[];
+  string  EgressPolicyList[];
+  uint32  MaxAllowedPrefix;
   boolean RouteReflectorClient;
 };
 ```
@@ -258,7 +263,7 @@ Access type: Read-only
 
 Whether peer is a client peer or non-client peer.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -276,7 +281,7 @@ The user-defined alphanumeric ID of the BGP routing domain.
 > [!Note]  
 > This property is only used with multi-tenant deployments.
 
- 
+ 
 
 </dd> <dt>
 
@@ -300,7 +305,7 @@ The administrative preferences that are assigned to peer routes.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -314,9 +319,9 @@ The administrative preferences that are assigned to peer routes.
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: CreateStorageTier method of the MSFT\_StoragePool class
 description: Creates a storage tier template on the storage pool.
-ms.assetid: 'F559AE08-E9E8-4BEF-9E54-C5F8E3E9A9A0'
-keywords: ["CreateStorageTier method Windows Storage Management API", "CreateStorageTier method Windows Storage Management API , MSFT_StoragePool class", "MSFT_StoragePool class Windows Storage Management API , CreateStorageTier method"]
+ms.assetid: F559AE08-E9E8-4BEF-9E54-C5F8E3E9A9A0
+keywords:
+- CreateStorageTier method Windows Storage Management API
+- CreateStorageTier method Windows Storage Management API , MSFT_StoragePool class
+- MSFT_StoragePool class Windows Storage Management API , CreateStorageTier method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateStorageTier method of the MSFT\_StoragePool class
@@ -22,13 +30,13 @@ Creates a storage tier template on the storage pool. This method is available on
 
 ```mof
 UInt32 CreateStorageTier(
-  [in]  String              FriendlyName,
-  [in]  UInt16              MediaType,
-  [in]  String              Description,
-  [in]  Boolean             RunAsJob,
-  [out] String              CreatedStorageTier,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              FriendlyName,
+  [in]  UInt16              MediaType,
+  [in]  String              Description,
+  [in]  Boolean             RunAsJob,
+  [out] String              CreatedStorageTier,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -59,7 +67,7 @@ The media type of the storage tier.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,7 +86,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -148,8 +156,8 @@ Extended error information in a [**MSFT\_StorageExtendedStatus**](msft-storageex
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -162,9 +170,9 @@ Extended error information in a [**MSFT\_StorageExtendedStatus**](msft-storageex
 [**MSFT\_StoragePool**](msft-storagepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Validated write permission to enable setting of the SPN attribute w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f5760ee0-d1e3-4e0d-afb8-6f1c1493d379'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f5760ee0-d1e3-4e0d-afb8-6f1c1493d379
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Validated-SPN validated writes AD Schema"]
+keywords:
+- Validated-SPN validated writes AD Schema
 topic_type:
 - apiref
 api_name:
 - Validated-SPN
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Validated-SPN validated writes
@@ -33,12 +37,12 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -106,9 +110,9 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
- 
+ 
 
- 
+ 
 
 
 

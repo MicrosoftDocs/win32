@@ -1,8 +1,16 @@
 ---
 title: Windows Media Metafile Elements Reference
 description: Windows Media Metafile Elements Reference
-ms.assetid: '6f85e488-53f6-4fb0-ba48-55c3d7e59f1c'
-keywords: ["Windows Media metafiles,reference", "metafiles,reference", "reference for Windows Media metafiles"]
+ms.assetid: 6f85e488-53f6-4fb0-ba48-55c3d7e59f1c
+keywords:
+- Windows Media metafiles,reference
+- metafiles,reference
+- reference for Windows Media metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Metafile Elements Reference

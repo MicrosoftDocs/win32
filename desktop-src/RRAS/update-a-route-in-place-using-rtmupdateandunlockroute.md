@@ -1,7 +1,12 @@
 ---
 title: Update a Route In Place Using RtmUpdateAndUnlockRoute
 description: The following procedure outlines the steps used to update a route in place. The sample code that follows shows how to implement the procedure.
-ms.assetid: '3598a28f-8ade-4b3f-9d31-4f2c84df2dd6'
+ms.assetid: 3598a28f-8ade-4b3f-9d31-4f2c84df2dd6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Update a Route In Place Using RtmUpdateAndUnlockRoute
@@ -10,14 +15,14 @@ The following procedure outlines the steps used to update a route in place. The 
 
 **To update a route in place, the client should take the following steps**
 
-1.  Lock the route by calling [**RtmLockRoute**](rtmlockroute.md). Currently, this function actually locks the route's destination. The routing table manager returns a pointer to the route.
-2.  Use the pointer to the routing table manager's [**RTM\_ROUTE\_INFO**](rtm-route-info.md) structure, obtained in step 1, to make the necessary changes to the route. Only certain members of the **RTM\_ROUTE\_INFO** structure can be modified when updating in place. These members are: **Neighbour**, **PrefInfo**, **EntitySpecificInfo**, **BelongsToViews**, and **NextHopsList**.
+1.  Lock the route by calling [**RtmLockRoute**](/windows/win32/Rtmv2/nf-rtmv2-rtmlockroute?branch=master). Currently, this function actually locks the route's destination. The routing table manager returns a pointer to the route.
+2.  Use the pointer to the routing table manager's [**RTM\_ROUTE\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_route_info?branch=master) structure, obtained in step 1, to make the necessary changes to the route. Only certain members of the **RTM\_ROUTE\_INFO** structure can be modified when updating in place. These members are: **Neighbour**, **PrefInfo**, **EntitySpecificInfo**, **BelongsToViews**, and **NextHopsList**.
     > [!Note]  
-    > If the client adds information to either the **Neighbour** or **NextHopsList** members, the client must call [**RtmReferenceHandles**](rtmreferencehandles.md) to explicitly increment the reference count that the routing table manager keeps on the next-hop object. Similarly, if the client removes information from the **NextHopsList** member, the client must call [**RtmReleaseNextHops**](rtmreleasenexthops.md) to decrement the reference count.
+    > If the client adds information to either the **Neighbour** or **NextHopsList** members, the client must call [**RtmReferenceHandles**](/windows/win32/Rtmv2/nf-rtmv2-rtmreferencehandles?branch=master) to explicitly increment the reference count that the routing table manager keeps on the next-hop object. Similarly, if the client removes information from the **NextHopsList** member, the client must call [**RtmReleaseNextHops**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasenexthops?branch=master) to decrement the reference count.
 
      
 
-3.  Call [**RtmUpdateAndUnlockRoute**](rtmupdateandunlockroute.md) to notify the routing table manager that a change has taken place. The routing table manager commits the changes, updates the destination to reflect the new information, and then unlocks the route.
+3.  Call [**RtmUpdateAndUnlockRoute**](/windows/win32/Rtmv2/nf-rtmv2-rtmupdateandunlockroute?branch=master) to notify the routing table manager that a change has taken place. The routing table manager commits the changes, updates the destination to reflect the new information, and then unlocks the route.
 
 The following sample code shows how to update a route directly, using a pointer to the actual route information in the routing table.
 

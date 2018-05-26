@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPrintTicketProvider::ExpandIntentOptions method enables the plug-in to expand printer options (such as photo printing) into individual feature settings in the print ticket.'
-ms.assetid: 'c0499a9b-8f02-4a88-bffa-e088e9098a6c'
-title: 'IPrintOemPrintTicketProvider::ExpandIntentOptions method'
+---
+Description: The IPrintOemPrintTicketProviderExpandIntentOptions method enables the plug-in to expand printer options (such as photo printing) into individual feature settings in the print ticket.
+ms.assetid: c0499a9b-8f02-4a88-bffa-e088e9098a6c
+title: IPrintOemPrintTicketProviderExpandIntentOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPrintTicketProvider::ExpandIntentOptions method

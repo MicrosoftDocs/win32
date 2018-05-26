@@ -1,14 +1,22 @@
 ---
 title: WPDObject.Parent property
 description: The Parent property gets the immediate parent of this WPDObject.
-ms.assetid: 'd5c952d0-981b-49e7-9fff-4ee3b61924c1'
-keywords: ["Parent property WPD Automation", "Parent property WPD Automation , WPDObject object", "WPDObject object WPD Automation , Parent property"]
+ms.assetid: d5c952d0-981b-49e7-9fff-4ee3b61924c1
+keywords:
+- Parent property WPD Automation
+- Parent property WPD Automation , WPDObject object
+- WPDObject object WPD Automation , Parent property
 topic_type:
 - apiref
 api_name:
 - WPDObject.Parent
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDObject.Parent property
@@ -40,8 +48,8 @@ When objects are stored in a flat hierarchy, the immediate parent is the same as
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -58,9 +66,9 @@ When objects are stored in a flat hierarchy, the immediate parent is the same as
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

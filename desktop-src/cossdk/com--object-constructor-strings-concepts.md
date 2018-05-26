@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ object constructor strings are initialization strings that are administratively specified for a component.'
-ms.assetid: 'b4915dae-c97c-4d36-95ee-bb10dcb40845'
+Description: COM+ object constructor strings are initialization strings that are administratively specified for a component.
+ms.assetid: b4915dae-c97c-4d36-95ee-bb10dcb40845
 title: COM+ Object Constructor Strings Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Object Constructor Strings Concepts
@@ -17,11 +22,11 @@ For example, you might use this feature to write a component that holds a generi
 
 You can use object constructor strings in conjunction with [object pooling](com--object-pooling.md) to achieve a greater degree of granularity in how you pool and reuse resources. For example, you might create several distinct components, identical except for constructor strings and CLSIDs, to maintain distinct pools of objects holding connections usable by distinct groups of clients. This would be useful if connections are opened in a manner that binds them to particular security roles—such as when the connections are opened with some specific authentication at the database—rendering them non-reusable in the general case.
 
-To do this, you can write a single generic component that relies on object constructor strings, using [**IObjectConstruct**](iobjectconstruct.md), and recompile it to produce several customizable components each with a distinct CLSID. You can then administratively tailor each component to open an appropriate connection with a constructor string, configure them to be pooled, and they will be maintained in distinct pools per CLSID.
+To do this, you can write a single generic component that relies on object constructor strings, using [**IObjectConstruct**](/windows/win32/ComSvcs/nn-comsvcs-iobjectconstruct?branch=master), and recompile it to produce several customizable components each with a distinct CLSID. You can then administratively tailor each component to open an appropriate connection with a constructor string, configure them to be pooled, and they will be maintained in distinct pools per CLSID.
 
-You can specify a constructor string when a component has been written specifically to recognize the string that you enter. Components can access these strings programmatically by using [**IObjectConstruct**](iobjectconstruct.md).
+You can specify a constructor string when a component has been written specifically to recognize the string that you enter. Components can access these strings programmatically by using [**IObjectConstruct**](/windows/win32/ComSvcs/nn-comsvcs-iobjectconstruct?branch=master).
 
-Constructor strings are passed in at object creation time only when object construction is administratively enabled. COM+ calls the [**IObjectConstruct::Construct**](iobjectconstruct-construct.md) method that it implements. Within that method, you can access the constructor string by using [**IObjectConstructString**](iobjectconstructstring.md). Empty strings can be valid entries.
+Constructor strings are passed in at object creation time only when object construction is administratively enabled. COM+ calls the [**IObjectConstruct::Construct**](/windows/win32/ComSvcs/nf-comsvcs-iobjectconstruct-construct?branch=master) method that it implements. Within that method, you can access the constructor string by using [**IObjectConstructString**](/windows/win32/ComSvcs/nn-comsvcs-iobjectconstructstring?branch=master). Empty strings can be valid entries.
 
 ## Related topics
 

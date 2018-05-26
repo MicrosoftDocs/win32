@@ -1,7 +1,12 @@
 ---
-Description: 'This ControlEvent can be used to turn on or turn off the installer''s rollback capabilities.'
-ms.assetid: '5279151c-a7cd-4f66-8d1b-d688b3b1cf82'
+Description: This ControlEvent can be used to turn on or turn off the installers rollback capabilities.
+ms.assetid: 5279151c-a7cd-4f66-8d1b-d688b3b1cf82
 title: EnableRollback ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableRollback ControlEvent

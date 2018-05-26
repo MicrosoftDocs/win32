@@ -1,8 +1,10 @@
 ---
 title: MSFT\_ReplicaPeer class
 description: An enumerable object that represents an object in a target subsystem for which there is a replication relationship.
-ms.assetid: '5DE51AC0-E84A-4DD9-9F9B-E8A3F6948E9F'
-keywords: ["MSFT_ReplicaPeer class Windows Storage Management API", "MSFT_ReplicaPeer class Windows Storage Management API , described"]
+ms.assetid: 5DE51AC0-E84A-4DD9-9F9B-E8A3F6948E9F
+keywords:
+- MSFT_ReplicaPeer class Windows Storage Management API
+- MSFT_ReplicaPeer class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_ReplicaPeer class
@@ -32,14 +39,14 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class MSFT_ReplicaPeer : MSFT_StorageObject
 {
-  UInt16  PeerObjectType;
-  String  PeerObjectId;
-  String  PeerObjectName;
-  String  PeerUniqueId;
-  String  PeerSubsystemName;
-  String  PeerProviderURI;
+  UInt16  PeerObjectType;
+  String  PeerObjectId;
+  String  PeerObjectName;
+  String  PeerUniqueId;
+  String  PeerSubsystemName;
+  String  PeerProviderURI;
   Boolean IsPrimary;
-  String  PeerObject;
+  String  PeerObject;
 };
 ```
 
@@ -191,8 +198,8 @@ The unique Id of the replica peer within the replica's storage subsystem.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -205,9 +212,9 @@ The unique Id of the replica peer within the replica's storage subsystem.
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

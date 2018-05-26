@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETITEMCOUNT message
 description: Causes the list-view control to allocate memory for the specified number of items or sets the virtual number of items in a virtual list-view control.
-ms.assetid: '5e794c12-ddcb-44fc-b0d2-677352602503'
-keywords: ["LVM_SETITEMCOUNT message Windows Controls"]
+ms.assetid: 5e794c12-ddcb-44fc-b0d2-677352602503
+keywords:
+- LVM_SETITEMCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETITEMCOUNT message
@@ -42,7 +48,7 @@ Number of items that the list-view control will ultimately contain.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -52,7 +58,7 @@ Returns nonzero if successful, or zero otherwise.
 
 ## Remarks
 
-How the memory is allocated depends on how the list-view control was created. You can send this message explicitly or use the [**ListView\_SetItemCount**](listview-setitemcount.md) or [**ListView\_SetItemCountEx**](listview-setitemcountex.md) macros. For more information, see [Virtual List-View Style](https://msdn.microsoft.com/library/windows/desktop/bb774735.aspx#virtual-listview-style).
+How the memory is allocated depends on how the list-view control was created. You can send this message explicitly or use the [**ListView\_SetItemCount**](/windows/win32/Commctrl/nf-commctrl-listview_setitemcount?branch=master) or [**ListView\_SetItemCountEx**](/windows/win32/Commctrl/nf-commctrl-listview_setitemcountex?branch=master) macros. For more information, see [Virtual List-View Style](https://msdn.microsoft.com/library/windows/desktop/bb774735.aspx#virtual-listview-style).
 
 If the list-view control was created without the [**LVS\_OWNERDATA**](list-view-window-styles.md#lvs-ownerdata) style, sending this message causes the control to allocate its internal data structures for the specified number of items. This prevents the control from having to allocate the data structures every time an item is added.
 
@@ -68,15 +74,15 @@ When the common control list-view is a virtualized list-view ([**LVS\_OWNERDATA*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

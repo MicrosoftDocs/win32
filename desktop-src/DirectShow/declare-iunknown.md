@@ -1,7 +1,12 @@
 ---
-Description: 'The DECLARE\_IUNKNOWN macro declares the three methods of the base interface for a new interface.'
-ms.assetid: '3bf8e830-c923-4c31-8855-88fa08f80422'
-title: 'DECLARE\_IUNKNOWN'
+Description: The DECLARE\_IUNKNOWN macro declares the three methods of the base interface for a new interface.
+ms.assetid: 3bf8e830-c923-4c31-8855-88fa08f80422
+title: DECLARE\_IUNKNOWN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DECLARE\_IUNKNOWN
@@ -53,9 +58,9 @@ This macro works only with classes that derive, directly or indirectly, from the
 [How to Implement IUnknown](how-to-implement-iunknown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

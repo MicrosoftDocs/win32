@@ -1,7 +1,12 @@
 ---
 title: iSCSI Structures
 description: iSCSI Structures
-ms.assetid: '9c26241c-9085-43f5-8c86-c9ec68417850'
+ms.assetid: 9c26241c-9085-43f5-8c86-c9ec68417850
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI Structures

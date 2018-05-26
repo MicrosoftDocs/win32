@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetSubObjectGUID method specifies the GUID of the subobject associated with this object.'
-ms.assetid: '1f21e242-306e-4b28-8655-511b7db495ab'
-title: 'IAMTimelineObj::SetSubObjectGUID method'
+---
+Description: The SetSubObjectGUID method specifies the GUID of the subobject associated with this object.
+ms.assetid: 1f21e242-306e-4b28-8655-511b7db495ab
+title: IAMTimelineObjSetSubObjectGUID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetSubObjectGUID method

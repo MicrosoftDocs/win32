@@ -1,8 +1,11 @@
 ---
 title: INapComponentInfo GetVersion method
 description: Is used by the NAP System to get the version of a health client.
-ms.assetid: 'aabd13d9-d2ad-4554-a9f6-7845e6775ccd'
-keywords: ["GetVersion method NAP", "GetVersion method NAP , INapComponentInfo interface", "INapComponentInfo interface NAP , GetVersion method"]
+ms.assetid: aabd13d9-d2ad-4554-a9f6-7845e6775ccd
+keywords:
+- GetVersion method NAP
+- GetVersion method NAP , INapComponentInfo interface
+- INapComponentInfo interface NAP , GetVersion method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentInfo::GetVersion method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapComponentInfo::GetVersion** callback method is used by the NAP System to get the version of a health client.
 
@@ -27,7 +35,7 @@ The **INapComponentInfo::GetVersion** callback method is used by the NAP System 
 
 ```C++
 HRESULT GetVersion(
-  [out] MessageId *version
+  [out] MessageId *version
 );
 ```
 
@@ -58,7 +66,7 @@ Return one of these error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Return one of these error codes based on the result of this operation.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -83,9 +91,9 @@ Return one of these error codes based on the result of this operation.
 [**INapComponentInfo**](inapcomponentinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

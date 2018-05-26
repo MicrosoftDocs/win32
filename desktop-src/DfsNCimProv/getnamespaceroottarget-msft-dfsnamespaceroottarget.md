@@ -4,13 +4,16 @@ description: Retrieves the properties of the target of a DFS namespace (DFS-N) r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1c594c3c-327f-41f9-b21b-c21516bc65c2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1c594c3c-327f-41f9-b21b-c21516bc65c2
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetNamespaceRootTarget method", "GetNamespaceRootTarget method, MSFT_DfsNamespaceRootTarget class", "MSFT_DfsNamespaceRootTarget class, GetNamespaceRootTarget method"]
+keywords:
+- GetNamespaceRootTarget method
+- GetNamespaceRootTarget method, MSFT_DfsNamespaceRootTarget class
+- MSFT_DfsNamespaceRootTarget class, GetNamespaceRootTarget method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetNamespaceRootTarget method of the MSFT\_DfsNamespaceRootTarget class
@@ -30,9 +36,9 @@ Retrieves the properties of the target of a DFS namespace (DFS-N) root. If no ta
 
 ```mof
 uint32 GetNamespaceRootTarget(
-  [in]  string                      NamespaceRoot,
-  [in]  string                      RootTargetPath,
-  [out] MSFT_DfsNamespaceRootTarget cmdletOutput[]
+  [in]  string                      NamespaceRoot,
+  [in]  string                      RootTargetPath,
+  [out] MSFT_DfsNamespaceRootTarget cmdletOutput[]
 );
 ```
 
@@ -55,7 +61,7 @@ The Universal Naming Convention (UNC) path of the DFS-N root that has a target w
 
 
 
- 
+ 
 
 where:
 
@@ -92,7 +98,7 @@ When this method returns, contains an array that represents output from the **Ge
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -106,9 +112,9 @@ When this method returns, contains an array that represents output from the **Ge
 [**MSFT\_DfsNamespaceRootTarget**](msft-dfsnamespaceroottarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

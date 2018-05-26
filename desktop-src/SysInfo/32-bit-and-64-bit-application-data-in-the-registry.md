@@ -1,7 +1,12 @@
 ---
-Description: 'On 64-bit Windows, portions of the registry entries are stored separately for 32-bit application and 64-bit applications and mapped into separate logical registry views using the registry redirector and registry reflection, because the 64-bit version of an application may use different registry keys and values than the 32-bit version. There are also shared registry keys that are not redirected or reflected.'
-ms.assetid: '08dc034c-15ce-41d9-8e74-a49b61ad40a6'
-title: '32-bit and 64-bit Application Data in the Registry'
+Description: On 64-bit Windows, portions of the registry entries are stored separately for 32-bit application and 64-bit applications and mapped into separate logical registry views using the registry redirector and registry reflection, because the 64-bit version of an application may use different registry keys and values than the 32-bit version. There are also shared registry keys that are not redirected or reflected.
+ms.assetid: 08dc034c-15ce-41d9-8e74-a49b61ad40a6
+title: 32-bit and 64-bit Application Data in the Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 32-bit and 64-bit Application Data in the Registry
@@ -12,7 +17,7 @@ The parent of each 64-bit registry node is the Image-Specific Node or ISN. The r
 
 The KEY\_WOW64\_64KEY and KEY\_WOW64\_32KEY flags enable explicit access to the 64-bit registry view and the 32-bit view, respectively. For more information, see [Accessing an Alternate Registry View](https://msdn.microsoft.com/library/windows/desktop/aa384129).
 
-To disable and enable registry reflection for a particular key, use the [**RegDisableReflectionKey**](regdisablereflectionkey.md) and [**RegEnableReflectionKey**](regenablereflectionkey.md) functions. Applications should disable reflection only for the registry keys that they create and not attempt to disable reflection for the predefined keys such as **HKEY\_LOCAL\_MACHINE** or **HKEY\_CURRENT\_USER**. To determine which keys are on the reflection list, use the [**RegQueryReflectionKey**](regqueryreflectionkey.md) function.
+To disable and enable registry reflection for a particular key, use the [**RegDisableReflectionKey**](/windows/win32/Winreg/nf-winreg-regdisablereflectionkey?branch=master) and [**RegEnableReflectionKey**](/windows/win32/Winreg/nf-winreg-regenablereflectionkey?branch=master) functions. Applications should disable reflection only for the registry keys that they create and not attempt to disable reflection for the predefined keys such as **HKEY\_LOCAL\_MACHINE** or **HKEY\_CURRENT\_USER**. To determine which keys are on the reflection list, use the [**RegQueryReflectionKey**](/windows/win32/WinReg/nf-winreg-regqueryreflectionkey?branch=master) function.
 
 ## Related topics
 

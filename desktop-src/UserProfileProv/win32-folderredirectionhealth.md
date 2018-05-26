@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the health status of a redirected user folder.'
-ms.assetid: '7EC65CB4-44FE-47AA-8584-9AAA15ABD551'
-title: 'Win32\_FolderRedirectionHealth class'
+Description: Represents the health status of a redirected user folder.
+ms.assetid: 7EC65CB4-44FE-47AA-8584-9AAA15ABD551
+title: Win32\_FolderRedirectionHealth class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_FolderRedirectionHealth class
@@ -15,13 +20,13 @@ The following syntax is simplified from MOF code and includes all inherited prop
 ``` syntax
 class Win32_FolderRedirectionHealth
 {
-  string   OfflineFileNameFolderGUID;
-  boolean  Redirected;
-  boolean  OfflineAccessEnabled;
+  string   OfflineFileNameFolderGUID;
+  boolean  Redirected;
+  boolean  OfflineAccessEnabled;
   DATETIME LastSuccessfulSyncTime;
   DATETIME LastSyncTime;
-  uint8    LastSyncStatus;
-  uint8    HealthStatus;
+  uint8    LastSyncStatus;
+  uint8    HealthStatus;
 };
 ```
 
@@ -163,8 +168,8 @@ Whether the folder is redirected. **True** if this folder is redirected; otherwi
 
 |                                     |                                                                                                       |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                  |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>UserProfileWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Profprov.dll</dt> </dl>               |
@@ -178,9 +183,9 @@ Whether the folder is redirected. **True** if this folder is redirected; otherwi
 [UserProfileProvider Provider Classes](userprofileprovider-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

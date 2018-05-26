@@ -4,13 +4,16 @@ description: Removes a registry key from the list of keys being checkpointed for
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4e5ff11e-7ec8-4046-aba3-7d73a2a1e545'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4e5ff11e-7ec8-4046-aba3-7d73a2a1e545
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveRegistryCheckpoint method", "RemoveRegistryCheckpoint method, MSCluster_Resource class", "MSCluster_Resource class, RemoveRegistryCheckpoint method"]
+keywords:
+- RemoveRegistryCheckpoint method
+- RemoveRegistryCheckpoint method, MSCluster_Resource class
+- MSCluster_Resource class, RemoveRegistryCheckpoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveRegistryCheckpoint method of the MSCluster\_Resource class
@@ -30,7 +36,7 @@ Removes a registry key from the list of keys being checkpointed for the [resourc
 
 ```mof
 void RemoveRegistryCheckpoint(
-  [in] string CheckpointName
+  [in] string CheckpointName
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -72,9 +78,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

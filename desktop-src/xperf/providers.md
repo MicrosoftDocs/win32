@@ -1,14 +1,20 @@
 ---
 title: providers
 description: Displays the providers query options.
-ms.assetid: 'de14fff1-1d86-4c11-b3d3-36ddccc5a45b'
-keywords: ["providers Windows Performance Analyzer"]
+ms.assetid: de14fff1-1d86-4c11-b3d3-36ddccc5a45b
+keywords:
+- providers Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - providers
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # providers
@@ -37,13 +43,13 @@ The options in the following table are supported.
 
 
 
- 
+ 
 
 If no options are specified, all providers are included in the output.
 
- 
+ 
 
- 
+ 
 
 
 

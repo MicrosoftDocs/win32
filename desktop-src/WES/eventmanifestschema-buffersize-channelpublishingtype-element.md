@@ -1,14 +1,20 @@
 ---
 title: bufferSize (ChannelPublishingType) Element
 description: Contains the amount of memory, in kilobytes, allocated for the session buffers.
-ms.assetid: '05f38251-648a-48a2-a0f6-bac5ace7f02b'
-keywords: ["bufferSize element EventLog"]
+ms.assetid: 05f38251-648a-48a2-a0f6-bac5ace7f02b
+keywords:
+- bufferSize element EventLog
 topic_type:
 - apiref
 api_name:
 - bufferSize
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bufferSize (ChannelPublishingType) Element
@@ -29,8 +35,8 @@ The **bufferSize** element is defined by the [**ChannelPublishingType**](eventma
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **bufferSize** element is defined by the [**ChannelPublishingType**](eventma
 [**publishing (ChannelType)**](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

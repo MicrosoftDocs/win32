@@ -1,14 +1,20 @@
 ---
 title: THEME.openDialog
 description: The openDialog method opens a file dialog box.
-ms.assetid: 'd7f4549c-a5c3-4902-b13b-51f3d4444ea9'
-keywords: ["THEME.openDialog Windows Media Player"]
+ms.assetid: d7f4549c-a5c3-4902-b13b-51f3d4444ea9
+keywords:
+- THEME.openDialog Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.openDialog
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.openDialog
@@ -82,9 +88,9 @@ This method can be used for files on the local hard drives or on network drives.
 [**THEME Element**](theme-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

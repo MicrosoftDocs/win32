@@ -4,11 +4,15 @@ description: The definition of the search filter query syntax for DSML V2 is par
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0bf52e8b-62eb-4ac8-b882-c18cc6cbba8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0bf52e8b-62eb-4ac8-b882-c18cc6cbba8c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Specifying Search Filters DSML"]
+keywords:
+- Specifying Search Filters DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Specifying Search Filters

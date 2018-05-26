@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a system and a resource pool that is a component of the system.'
-ms.assetid: '0ac60dbd-0498-4978-b2d6-f4c9926a83a8'
-title: 'CIM\_HostedResourcePool class'
+Description: Represents an association between a system and a resource pool that is a component of the system.
+ms.assetid: 0ac60dbd-0498-4978-b2d6-f4c9926a83a8
+title: CIM\_HostedResourcePool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_HostedResourcePool class
@@ -14,7 +19,7 @@ Represents an association between a system and a resource pool that is a compone
 [Association, Aggregation, Composition, Abstract, Version("2.22.0"), UMLPackagePath("CIM::Core::Resource")]
 class CIM_HostedResourcePool : CIM_SystemComponent
 {
-  CIM_System       REF GroupComponent;
+  CIM_System       REF GroupComponent;
   CIM_ResourcePool REF PartComponent;
 };
 ```
@@ -69,8 +74,8 @@ The resource pool that is a component of the system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The resource pool that is a component of the system.
 [**CIM\_SystemComponent**](cim-systemcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

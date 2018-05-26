@@ -1,8 +1,11 @@
 ---
 title: Issue GetIssueToolTip method
 description: Returns the tooltip of the Issue.
-ms.assetid: 'CB605DED-1756-40DA-9DD8-328B4DB04EA4'
-keywords: ["GetIssueToolTip method Access Execution Engine", "GetIssueToolTip method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetIssueToolTip method"]
+ms.assetid: CB605DED-1756-40DA-9DD8-328B4DB04EA4
+keywords:
+- GetIssueToolTip method Access Execution Engine
+- GetIssueToolTip method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetIssueToolTip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetIssueToolTip method
@@ -22,7 +30,7 @@ Returns the tooltip of the **Issue**.
 
 ```C++
 virtual HRESULT GetIssueToolTip(
-  [out] LPCWSTR *issueToolTip
+  [out] LPCWSTR *issueToolTip
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The tooltip is the value of element **Issue/IssueToolTip**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The tooltip is the value of element **Issue/IssueToolTip**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

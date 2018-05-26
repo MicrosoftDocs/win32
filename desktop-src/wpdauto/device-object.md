@@ -1,14 +1,21 @@
 ---
 title: Device object
 description: The Device Object represents the current device instance and is the entry point into WPD Automation.
-ms.assetid: 'a8e64b13-db88-4abb-a0b0-abe340d0632a'
-keywords: ["Device object WPD Automation", "Device object WPD Automation , described"]
+ms.assetid: a8e64b13-db88-4abb-a0b0-abe340d0632a
+keywords:
+- Device object WPD Automation
+- Device object WPD Automation , described
 topic_type:
 - apiref
 api_name:
 - Device
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device object
@@ -27,7 +34,7 @@ var deviceObject = window.external;
 > [!Note]  
 > A **Device Object** is functional only while the physical device that it represents is connected. Any operations performed on a **Device Object** after the physical device is disconnected will return an error and raise a **DISP\_E\_EXCEPTION** exception, with **pExcepInfo** filled out.
 
- 
+ 
 
 ## Members
 
@@ -50,7 +57,7 @@ The **Device** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -64,7 +71,7 @@ The **Device** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -80,7 +87,7 @@ The **Device** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -88,8 +95,8 @@ The **Device** object has these properties.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -112,9 +119,9 @@ The **Device** object has these properties.
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

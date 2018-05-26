@@ -1,8 +1,26 @@
 ---
 title: Navigating from Windows Media Player Features
 description: Navigating from Windows Media Player Features
-ms.assetid: '7c608b34-5263-4a4b-aff6-2e9f6fef1aca'
-keywords: ["Windows Media Player online stores,navigating", "online stores,navigating", "type 2 online stores,navigating", "Windows Media Player online stores,service task panes", "online stores,service task panes", "type 2 online stores,service task panes", "Windows Media Player online stores,task panes", "online stores,task panes", "type 2 online stores,task panes", "navigating type 2 online stores", "Windows Media Player,service task panes", "Windows Media Player,task panes", "service task panes"]
+ms.assetid: 7c608b34-5263-4a4b-aff6-2e9f6fef1aca
+keywords:
+- Windows Media Player online stores,navigating
+- online stores,navigating
+- type 2 online stores,navigating
+- Windows Media Player online stores,service task panes
+- online stores,service task panes
+- type 2 online stores,service task panes
+- Windows Media Player online stores,task panes
+- online stores,task panes
+- type 2 online stores,task panes
+- navigating type 2 online stores
+- Windows Media Player,service task panes
+- Windows Media Player,task panes
+- service task panes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigating from Windows Media Player Features

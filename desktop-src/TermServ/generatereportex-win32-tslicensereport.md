@@ -4,11 +4,14 @@ description: Generates a current license usage report for both Per User and Per 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c454e0c5-ca1c-41c7-86b2-1e52c414aeb5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c454e0c5-ca1c-41c7-86b2-1e52c414aeb5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GenerateReportEx method Remote Desktop Services", "GenerateReportEx method Remote Desktop Services , Win32_TSLicenseReport class", "Win32_TSLicenseReport class Remote Desktop Services , GenerateReportEx method"]
+keywords:
+- GenerateReportEx method Remote Desktop Services
+- GenerateReportEx method Remote Desktop Services , Win32_TSLicenseReport class
+- Win32_TSLicenseReport class Remote Desktop Services , GenerateReportEx method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GenerateReportEx method of the Win32\_TSLicenseReport class
@@ -28,7 +34,7 @@ Generates a current license usage report for both Per User and Per Device licens
 
 ```mof
 uint32 GenerateReportEx(
-  [out] string FileName
+  [out] string FileName
 );
 ```
 
@@ -64,7 +70,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -78,9 +84,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseReport**](win32-tslicensereport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Receives an array of MSFT\_SomFilter objects and evaluates the rules in each for their application to this computer.'
+Description: Receives an array of MSFT\_SomFilter objects and evaluates the rules in each for their application to this computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c3524789-7524-40e4-a719-20a6ebafbd86'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c3524789-7524-40e4-a719-20a6ebafbd86
+ms.prod: windows-server-dev
 ms.technology:
-- 'group-policy'
-- 'windows-management-instrumentation'
+- group-policy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'BatchEvaluate method of the MSFT\_SomFilter class'
+title: BatchEvaluate method of the MSFT\_SomFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BatchEvaluate method of the MSFT\_SomFilter class
@@ -23,8 +26,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 Uint32 BatchEvaluate(
-  [in]  MSFT_SomFilter REF filters[],
-  [out] uint32             results[]
+  [in]  MSFT_SomFilter REF filters[],
+  [out] uint32             results[]
 );
 ```
 
@@ -58,8 +61,8 @@ Returns a value of **S\_OK** (0) if all the queries expressed in the rules of th
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\policy<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>PolicMan.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PolicMan.dll</dt> </dl> |
@@ -79,9 +82,9 @@ Returns a value of **S\_OK** (0) if all the queries expressed in the rules of th
 [**Evaluate Method in Class MSFT\_SomFilter**](evaluate-method-in-class-msft-somfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

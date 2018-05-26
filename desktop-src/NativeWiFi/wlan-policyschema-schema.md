@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a WLAN policy profile used by the Native Wifi AutoConfig service.'
-ms.assetid: 'b983df2e-95cf-41ce-929e-2bc560854f21'
-title: 'WLAN\_policy Schema'
+Description: Defines a WLAN policy profile used by the Native Wifi AutoConfig service.
+ms.assetid: b983df2e-95cf-41ce-929e-2bc560854f21
+title: WLAN\_policy Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLAN\_policy Schema

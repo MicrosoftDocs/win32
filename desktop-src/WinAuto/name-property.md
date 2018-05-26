@@ -1,7 +1,12 @@
 ---
 title: Name Property
 description: The Name property is a string used by clients to identify, find, or announce an object for the user. All objects support the Name property.
-ms.assetid: '7533955a-9538-4ead-a6ca-f61dd1b4d5c5'
+ms.assetid: 7533955a-9538-4ead-a6ca-f61dd1b4d5c5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Property
@@ -10,7 +15,7 @@ The **Name** property is a string used by clients to identify, find, or announce
 
 For example, the text on a button control is its name, while the name for a list box or edit control is the static text that immediately precedes the control in the tabbing order. Even graphic objects that do not display a name provide text when queried for the **Name** property.
 
-The **Name** property is retrieved by calling [**IAccessible::get\_accName**](iaccessible-iaccessible--get-accname.md).
+The **Name** property is retrieved by calling [**IAccessible::get\_accName**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accname?branch=master).
 
 ## Selecting Names
 

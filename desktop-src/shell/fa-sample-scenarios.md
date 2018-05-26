@@ -1,7 +1,12 @@
 ---
-Description: 'In the following example, a hypothetical software development company called Litware, Inc.'
-ms.assetid: 'e4392907-a84f-40ea-aa88-2ad0510bca3c'
+Description: In the following example, a hypothetical software development company called Litware, Inc.
+ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: File Association Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Association Example
@@ -52,7 +57,7 @@ The company should take the following steps.
     ```
 
 > [!Note]  
-> Whenever a file association is created or changed, notify the system that a change has been made by calling [**SHChangeNotify**](shchangenotify.md), specifying the SHCNE\_ASSOCCHANGED event. If this is not done, the Shell might not recognize any changes made until the system restarts.
+> Whenever a file association is created or changed, notify the system that a change has been made by calling [**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master), specifying the SHCNE\_ASSOCCHANGED event. If this is not done, the Shell might not recognize any changes made until the system restarts.
 
  
 

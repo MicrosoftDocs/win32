@@ -1,19 +1,24 @@
 ---
-Description: 'The GetProperties method retrieves the number of buffers that the allocator will create, and the buffer properties. This method implements the IMemAllocator::GetProperties method.'
-ms.assetid: 'ccee4d69-52fc-4e3c-b6a4-787914708be4'
-title: 'CBaseAllocator.GetProperties method'
+Description: The GetProperties method retrieves the number of buffers that the allocator will create, and the buffer properties. This method implements the IMemAllocatorGetProperties method.
+ms.assetid: ccee4d69-52fc-4e3c-b6a4-787914708be4
+title: CBaseAllocator.GetProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.GetProperties method
 
-The `GetProperties` method retrieves the number of buffers that the allocator will create, and the buffer properties. This method implements the [**IMemAllocator::GetProperties**](imemallocator-getproperties.md) method.
+The `GetProperties` method retrieves the number of buffers that the allocator will create, and the buffer properties. This method implements the [**IMemAllocator::GetProperties**](/windows/win32/Strmif/nf-strmif-imemallocator-getproperties?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetProperties(
-   ALLOCATOR_PROPERTIES *pProps
+   ALLOCATOR_PROPERTIES *pProps
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT GetProperties(
 *pProps* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that receives the allocator properties.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that receives the allocator properties.
 
 </dd> </dl>
 
@@ -52,9 +57,9 @@ Returns S\_OK.
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

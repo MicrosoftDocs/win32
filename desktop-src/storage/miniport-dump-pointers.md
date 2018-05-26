@@ -1,8 +1,10 @@
 ---
 title: MINIPORT\_DUMP\_POINTERS structure
 description: A Storport miniport driver uses this structure to support the SCSI\_REQUEST\_BLOCK (SRB) function code SRB\_FUNCTION\_DUMP\_POINTERS.
-ms.assetid: 'a61da8e7-6db0-4d89-bf68-8fa74c284720'
-keywords: ["MINIPORT_DUMP_POINTERS structure Storage Devices", "PMINIPORT_DUMP_POINTERS structure pointer Storage Devices"]
+ms.assetid: a61da8e7-6db0-4d89-bf68-8fa74c284720
+keywords:
+- MINIPORT_DUMP_POINTERS structure Storage Devices
+- PMINIPORT_DUMP_POINTERS structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MINIPORT\_DUMP\_POINTERS structure
@@ -22,24 +29,24 @@ A Storport miniport driver uses this structure to support the [**SCSI\_REQUEST\_
 
 ```C++
 typedef struct _MINIPORT_DUMP_POINTERS {
-  USHORT                 Version;
-  USHORT                 Size;
-  WCHAR                  DriverName[DUMP_MINIPORT_NAME_LENGTH];
-  struct _ADAPTER_OBJECT  *AdapterObject;
-  PVOID                  MappedRegisterBase;
-  ULONG                  CommonBufferSize;
-  PVOID                  MiniportPrivateDumpData;
-  ULONG                  SystemIoBusNumber;
-  INTERFACE_TYPE         AdapterInterfaceType;
-  ULONG                  MaximumTransferLength;
-  ULONG                  NumberOfPhysicalBreaks;
-  ULONG                  AlignmentMask;
-  ULONG                  NumberOfAccessRanges;
-  ACCESS_RANGE           (*AccessRanges)[];
-  UCHAR                  NumberOfBuses;
-  BOOLEAN                Master;
-  BOOLEAN                MapBuffers;
-  UCHAR                  MaximumNumberOfTargets;
+  USHORT                 Version;
+  USHORT                 Size;
+  WCHAR                  DriverName[DUMP_MINIPORT_NAME_LENGTH];
+  struct _ADAPTER_OBJECT  *AdapterObject;
+  PVOID                  MappedRegisterBase;
+  ULONG                  CommonBufferSize;
+  PVOID                  MiniportPrivateDumpData;
+  ULONG                  SystemIoBusNumber;
+  INTERFACE_TYPE         AdapterInterfaceType;
+  ULONG                  MaximumTransferLength;
+  ULONG                  NumberOfPhysicalBreaks;
+  ULONG                  AlignmentMask;
+  ULONG                  NumberOfAccessRanges;
+  ACCESS_RANGE           (*AccessRanges)[];
+  UCHAR                  NumberOfBuses;
+  BOOLEAN                Master;
+  BOOLEAN                MapBuffers;
+  UCHAR                  MaximumNumberOfTargets;
 } MINIPORT_DUMP_POINTERS, *PMINIPORT_DUMP_POINTERS;
 ```
 
@@ -94,7 +101,7 @@ The size of the common buffer that is required. The size must not be greater tha
 **MiniportPrivateDumpData**
 </dt> <dd>
 
-The context that is to be passed to the miniport driver's [**HwStorFindAdapter**](hwstorfindadapter.md) routine during the crash dump. The context is passed in the **Reserved** member or, starting with Windows 8, the **MiniportDumpData** member of the [**PORT\_CONFIGURATION\_INFORMATION**](port-configuration-information--storport-.md) structure.
+The context that is to be passed to the miniport driver's [**HwStorFindAdapter**](hwstorfindadapter.md) routine during the crash dump. The context is passed in the **Reserved** member or, starting with Windows 8, the **MiniportDumpData** member of the [**PORT\_CONFIGURATION\_INFORMATION**](port-configuration-information--storport-.md) structure.
 
 </dd> <dt>
 
@@ -177,7 +184,7 @@ Specifies the number of target peripherals that the adapter can control. For mor
 
 ## Remarks
 
-Starting with Windows 8, physical minport drivers can optionally support SRB\_FUNCTION\_DUMP\_POINTERS. If a physical miniport supports this function, it must set the STOR\_FEATURE\_DUMP\_POINTERS flag in the **FeatureSupport** member of the [**HW\_INITIALIZATION\_DATA**](hw-initialization-data--storport-.md) structure before calling [**StorPortInitialize**](storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT\_DUMP\_POINTERS**. Also, if different from the value given in [**PORT\_CONFIGURATION\_INFORMATION**](port-configuration-information--storport-.md), the **MaximumTransferLength** member is required for a physical miniport.
+Starting with Windows 8, physical minport drivers can optionally support SRB\_FUNCTION\_DUMP\_POINTERS. If a physical miniport supports this function, it must set the STOR\_FEATURE\_DUMP\_POINTERS flag in the **FeatureSupport** member of the [**HW\_INITIALIZATION\_DATA**](hw-initialization-data--storport-.md) structure before calling [**StorPortInitialize**](storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT\_DUMP\_POINTERS**. Also, if different from the value given in [**PORT\_CONFIGURATION\_INFORMATION**](port-configuration-information--storport-.md), the **MaximumTransferLength** member is required for a physical miniport.
 
 ## Requirements
 
@@ -205,9 +212,9 @@ Starting with Windows 8, physical minport drivers can optionally support SRB\_FU
 [**PORT\_CONFIGURATION\_INFORMATION**](port-configuration-information--storport-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20MINIPORT_DUMP_POINTERS%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -1,7 +1,12 @@
 ---
 title: Profiling DirectX Apps
 description: Shows you how to measure some of the most important performance time measurements for a DirectX app using the XPerf and GPUView tools that ship as part of the Windows Performance Toolkit.
-ms.assetid: '4B2F7273-C9B0-4DD3-B559-6220CDE62129'
+ms.assetid: 4B2F7273-C9B0-4DD3-B559-6220CDE62129
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Profiling DirectX Apps

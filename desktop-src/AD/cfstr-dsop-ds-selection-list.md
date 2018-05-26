@@ -4,9 +4,9 @@ description: The CFSTR\_DSOP\_DS\_SELECTION\_LIST clipboard format provides an H
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cd634e3b-0eb7-4144-b9e1-1d27a322f72c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cd634e3b-0eb7-4144-b9e1-1d27a322f72c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -16,6 +16,9 @@ api_location:
 - Objsel.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DSOP\_DS\_SELECTION\_LIST
@@ -30,7 +33,7 @@ api_type:
 
 
 
-The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format is provided by the [**IDataObject**](_ole_idataobject) obtained by calling [**IDsObjectPicker::InvokeDialog**](idsobjectpicker-invokedialog.md). The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format provides an **HGLOBAL** that contains a [**DS\_SELECTION\_LIST**](ds-selection-list.md) structure. The **DS\_SELECTION\_LIST** structure contains data about the items selected in a [Directory Object Picker](directory-object-picker.md) dialog box.
+The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format is provided by the [**IDataObject**](_ole_idataobject) obtained by calling [**IDsObjectPicker::InvokeDialog**](/windows/win32/Objsel/nf-objsel-idsobjectpicker-invokedialog?branch=master). The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format provides an **HGLOBAL** that contains a [**DS\_SELECTION\_LIST**](/windows/win32/Objsel/ns-objsel-_ds_selection_list?branch=master) structure. The **DS\_SELECTION\_LIST** structure contains data about the items selected in a [Directory Object Picker](directory-object-picker.md) dialog box.
 
 
 </dt> </dl> </dd> </dl>
@@ -41,8 +44,8 @@ The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format is provided by the [**
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Objsel.h</dt> </dl> |
 
 
@@ -51,18 +54,18 @@ The **CFSTR\_DSOP\_DS\_SELECTION\_LIST** clipboard format is provided by the [**
 
 <dl> <dt>
 
-[**DS\_SELECTION\_LIST**](ds-selection-list.md)
+[**DS\_SELECTION\_LIST**](/windows/win32/Objsel/ns-objsel-_ds_selection_list?branch=master)
 </dt> <dt>
 
-[**IDsObjectPicker::InvokeDialog**](idsobjectpicker-invokedialog.md)
+[**IDsObjectPicker::InvokeDialog**](/windows/win32/Objsel/nf-objsel-idsobjectpicker-invokedialog?branch=master)
 </dt> <dt>
 
 [Directory Object Picker](directory-object-picker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

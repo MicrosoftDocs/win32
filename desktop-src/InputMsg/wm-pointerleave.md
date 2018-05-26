@@ -1,8 +1,9 @@
 ---
 title: WM\_POINTERLEAVE message
 description: Sent to a window when a pointer leaves detection range over the window (hover) or when a pointer moves outside the boundaries of the window.
-ms.assetid: '3bdc37da-227c-4be1-bf0b-99704b8c1322'
-keywords: ["WM_POINTERLEAVE message Input Messages and Notifications"]
+ms.assetid: 3bdc37da-227c-4be1-bf0b-99704b8c1322
+keywords:
+- WM_POINTERLEAVE message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POINTERLEAVE message
@@ -22,7 +28,7 @@ A window receives this message through its [**WindowProc**](https://msdn.microso
 > \[!Important\]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
 
- 
+ 
 
 
 ```C++
@@ -54,7 +60,7 @@ Contains the point location of the pointer.
 > [!Note]  
 > Because the pointer may make contact with the device over a non-trivial area, this point location may be a simplification of a more complex pointer area. Whenever possible, an application should use the complete pointer area information instead of the point location.
 
- 
+ 
 
 Use the following macros to retrieve the physical screen coordinates of the point.
 
@@ -84,12 +90,12 @@ This notification is only sent to the window that is receiving input for the poi
 
 
 
- 
+ 
 
 > \[!Important\]  
 > When a window loses capture of a pointer and it receives the [**WM\_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md) notification, it typically will not receive any further notifications. For this reason, it is important that you not make any assumptions based on evenly paired [**WM\_POINTERDOWN**](wm-pointerdown.md)/[**WM\_POINTERUP**](wm-pointerup.md) or [**WM\_POINTERENTER**](wm-pointerenter.md)/**WM\_POINTERLEAVE** notifications.
 
- 
+ 
 
 If contact is maintained with the input digitizer and the pointer moves outside the window, **WM\_POINTERLEAVE** is not generated. **WM\_POINTERLEAVE** is generated only when a hovering pointer crosses window boundaries or contact is terminated.
 
@@ -101,8 +107,8 @@ If contact is maintained with the input digitizer and the pointer moves outside 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -126,9 +132,9 @@ If contact is maintained with the input digitizer and the pointer moves outside 
 [**IS\_POINTER\_INCONTACT\_WPARAM**](is-pointer-incontact-wparam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,26 +4,31 @@ description: Controls client-side caching on a file share.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '52d46b90-41de-4b77-a713-a8928f1e7310'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 52d46b90-41de-4b77-a713-a8928f1e7310
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CSCCache Failover Cluster ,for file shares", "CSCCache Failover Cluster"]
+keywords:
+- CSCCache Failover Cluster ,for file shares
+- CSCCache Failover Cluster
 topic_type:
 - apiref
 api_name:
 - CSCCache
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CSCCache
 
-\[The **CSCCache** property is no longer available for use as of Windows Server 2012.\]
+\[The **CSCCache** property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 Controls client-side caching on a file share. The following table summarizes the attributes of the **CSCCache** property.
 
@@ -34,13 +39,13 @@ Controls client-side caching on a file share. The following table summarizes the
 | Data type | **BYTE**                                                         |
 | Access    | Read/write                                                       |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 The **CSCCache** property must be set to one of the following values. For more information see the [**SHARE\_INFO\_1005**](https://msdn.microsoft.com/library/windows/desktop/bb525404) structure.
 
@@ -55,7 +60,7 @@ The **CSCCache** property must be set to one of the following values. For more i
 
 
 
- 
+ 
 
 ## Examples
 
@@ -80,8 +85,8 @@ memcpy( CSCValue.rgb, CSCData, sizeof( CSCData ) );
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -92,9 +97,9 @@ memcpy( CSCValue.rgb, CSCData, sizeof( CSCData ) );
 [File Share Private Properties](file-share-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

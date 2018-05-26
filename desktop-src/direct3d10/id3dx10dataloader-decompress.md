@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to decompress encoded data. Typically this would be used to load resources from file systems, such as ZIP files. When loading from an uncompressed resource, the decompression stage does not have to do any work.'
-ms.assetid: '7f7e3ffd-8dac-403f-813b-d6d21d146fa7'
-title: 'ID3DX10DataLoader::Decompress method'
+---
+Description: Used to decompress encoded data. Typically this would be used to load resources from file systems, such as ZIP files. When loading from an uncompressed resource, the decompression stage does not have to do any work.
+ms.assetid: 7f7e3ffd-8dac-403f-813b-d6d21d146fa7
+title: ID3DX10DataLoaderDecompress method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10DataLoader::Decompress method

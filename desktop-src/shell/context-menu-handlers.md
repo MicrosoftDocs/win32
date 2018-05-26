@@ -1,7 +1,12 @@
 ---
-Description: 'Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.'
-ms.assetid: 'cff79cdc-8a01-4575-9af7-2a485c6a8e46'
+Description: Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
+ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Creating Shortcut Menu Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Shortcut Menu Handlers
@@ -57,7 +62,7 @@ Applications are generally responsible for providing localized display strings f
 
  
 
-Shortcut menu handlers can provide their own canonical verbs through [**IContextMenu::GetCommandString**](icontextmenu-getcommandstring.md) with **GCS\_VERBW**, or **GCS\_VERBA**. The system will use the canonical verbs as the second parameter (*lpOperation*) passed to [**ShellExecute**](shellexecute.md), and is the [**CMINVOKECOMMANDINFO**](cminvokecommandinfo.md).**lpVerb** member passed to the [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md) method.
+Shortcut menu handlers can provide their own canonical verbs through [**IContextMenu::GetCommandString**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring?branch=master) with **GCS\_VERBW**, or **GCS\_VERBA**. The system will use the canonical verbs as the second parameter (*lpOperation*) passed to [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master), and is the [**CMINVOKECOMMANDINFO**](/windows/win32/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo?branch=master).**lpVerb** member passed to the [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master) method.
 
 ## Extended Verbs
 
@@ -69,7 +74,7 @@ You can use the registry to define one or more extended verbs. The associated co
 
 After [Choosing a Static or Dynamic Verb for your Shortcut Menu](shortcut-choose-method.md) you can extend the shortcut menu for a file type by registering a static verb for the file type. To do so, add a **Shell** subkey below the subkey for the ProgID of the application associated with the file type. Optionally, you can define a default verb for the file type by making it the default value of the **Shell** subkey.
 
-The default verb is displayed first on the shortcut menu. Its purpose is to provide the Shell with a verb it can use when the [**ShellExecuteEx**](shellexecuteex.md) function is called, but no verb is specified. The Shell does not necessarily select the default verb when **ShellExecuteEx** is used in this fashion.
+The default verb is displayed first on the shortcut menu. Its purpose is to provide the Shell with a verb it can use when the [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) function is called, but no verb is specified. The Shell does not necessarily select the default verb when **ShellExecuteEx** is used in this fashion.
 
 The Shell uses the first available verb in the following order:
 
@@ -117,7 +122,7 @@ The following diagram illustrates the extension of the shortcut menu in accordan
 
 ### Activating Your Handler Using the IDropTarget Interface
 
-Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](com.idroptarget) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](base.createprocess). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](shcreateshellitemarrayfromdataobject.md) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+Dynamic Data Exchange (DDE) is deprecated; use [**IDropTarget**](com.idroptarget) instead. **IDropTarget** is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](base.createprocess). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/win32/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject?branch=master) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
 For more information about [**IDropTarget**](com.idroptarget) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
@@ -165,7 +170,7 @@ Position=Top | Bottom
 
 ### Creating Static Cascading Menus
 
-In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](icontextmenu.md) interface. In Windows 7 and later, you should resort to COM code-based solutions only when the static methods are insufficient.
+In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master) interface. In Windows 7 and later, you should resort to COM code-based solutions only when the static methods are insufficient.
 
 The following screen shot provides an example of a cascading menu.
 
@@ -285,7 +290,7 @@ Because **HKEY\_CLASSES\_ROOT** is a combination of **HKEY\_CURRENT\_USER** and 
 
     Ensure that the default value of the *Test Cascade Menu 2* subkey is empty, and shown as **(value not set)**.
 
-4.  Populate the subverbs using any of the following static verb implementations. Note that the CommandFlags subkey represents EXPCMDFLAGS values. If you want to add a separator before or after the cascade menu item, use ECF\_SEPARATORBEFORE (0x20) or ECF\_SEPARATORAFTER (0x40). For a description of these Windows 7 and later flags, see [**IExplorerCommand::GetFlags**](iexplorercommand-getflags.md). ECF\_SEPARATORBEFORE works only for the top level menu items. MUIVerb is of type **REG\_SZ**, and CommandFlags is of type **REG\_DWORD**.
+4.  Populate the subverbs using any of the following static verb implementations. Note that the CommandFlags subkey represents EXPCMDFLAGS values. If you want to add a separator before or after the cascade menu item, use ECF\_SEPARATORBEFORE (0x20) or ECF\_SEPARATORAFTER (0x40). For a description of these Windows 7 and later flags, see [**IExplorerCommand::GetFlags**](/windows/win32/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags?branch=master). ECF\_SEPARATORBEFORE works only for the top level menu items. MUIVerb is of type **REG\_SZ**, and CommandFlags is of type **REG\_DWORD**.
 
     ```
     HKEY_CLASSES_ROOT
@@ -312,7 +317,7 @@ The following screen shot is an illustration of the previous registry key entry 
 
 ### Creating Cascading Menus with the IExplorerCommand Interface
 
-Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](iexplorercommand-enumsubcommands.md). This method enables data sources that provide their command module commands through [**IExplorerCommandProvider**](iexplorercommandprovider.md) to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using [**IExplorerCommand**](iexplorercommand.md) as you can with [**IContextMenu**](icontextmenu.md).
+Another option for adding verbs to a cascading menu is through [**IExplorerCommand::EnumSubCommands**](/windows/win32/shobjidl_core/nf-shobjidl_core-iexplorercommand-enumsubcommands?branch=master). This method enables data sources that provide their command module commands through [**IExplorerCommandProvider**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider?branch=master) to use those commands as verbs on a shortcut menu. In Windows 7 and later, you can provide the same verb implementation using [**IExplorerCommand**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommand?branch=master) as you can with [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master).
 
 The following two screen shots illustrate the use of cascading menus in the **Devices** folder.
 
@@ -323,13 +328,13 @@ The following screen shot illustrates another implementation of a cascading menu
 ![screen shot showing an example of a cascading menu in the devices folder](images/file-assoc/cascadedevices2.png)
 
 > [!Note]  
-> Because [**IExplorerCommand**](iexplorercommand.md) supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.
+> Because [**IExplorerCommand**](/windows/win32/shobjidl_core/nn-shobjidl_core-iexplorercommand?branch=master) supports in-process activation only, it is recommended for use by Shell data sources that need to share the implementation between commands and shortcut menus.
 
  
 
 ### Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax
 
-Advanced Query Syntax (AQS) can express a condition that will be evaluated using properties from the item that the verb is being instantiated for. This system works only with fast properties. These are properties that the Shell data source reports as fast by not returning [****SHCOLSTATE\_SLOW****](shcolstate.md) from [**IShellFolder2::GetDefaultColumnState**](ishellfolder2-getdefaultcolumnstate.md).
+Advanced Query Syntax (AQS) can express a condition that will be evaluated using properties from the item that the verb is being instantiated for. This system works only with fast properties. These are properties that the Shell data source reports as fast by not returning [****SHCOLSTATE\_SLOW****](/windows/win32/Shtypes/ne-shtypes-tagshcolstate?branch=master) from [**IShellFolder2::GetDefaultColumnState**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdefaultcolumnstate?branch=master).
 
 Windows 7 and later support canonical values that avoid problems on localized builds. The following canonical syntax is required on localized builds to take advantage of this Windows 7 enhancement.
 
@@ -377,7 +382,7 @@ For more information about AQS, see [Advanced Query Syntax](search._search_3x_Ad
 
 DDE is deprecated; use [**IDropTarget**](com.idroptarget) instead. DDE is deprecated because it relies on a broadcast window message to discover the DDE server. A DDE server hang stalls the broadcast window message and thus hangs DDE conversations for other applications. It is common for a single stuck application to cause subsequent hangs all across the user's experience.
 
-The [**IDropTarget**](com.idroptarget) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](base.createprocess). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](shcreateshellitemarrayfromdataobject.md) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
+The [**IDropTarget**](com.idroptarget) method is more robust and has better activation support because it uses COM activation of the handler. In the case of multiple item selection, **IDropTarget** is not subject to the buffer size restrictions found in both DDE and the [**CreateProcess**](base.createprocess). Also, items are passed to the application as a data object that can be converted to an item array by using the [**SHCreateShellItemArrayFromDataObject**](/windows/win32/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject?branch=master) function. Doing so is simpler, and does not lose namespace information as occurs when the item is converted to a path for command-line or DDE protocols.
 
 For more information about [**IDropTarget**](com.idroptarget) and Shell queries for file association attributes, see [Perceived Types and Application Registration](fa-perceivedtypes.md).
 
@@ -429,7 +434,7 @@ The screen shot illustrates the **New** submenu. When a user selects **MyProgram
 
 ### Creating Drag-and-Drop Handlers
 
-The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](com.idataobject) pointer passed to the handler's [**IShellExtInit::Initialize**](ishellextinit-initialize.md) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
+The basic procedure for implementing a drag-and-drop handler is the same as for conventional shortcut menu handlers. However, shortcut menu handlers normally use only the [**IDataObject**](com.idataobject) pointer passed to the handler's [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master) method to extract the object's name. A drag-and-drop handler could implement a more sophisticated data handler to modify the behavior of the dragged object.
 
 When a user right-clicks a Shell object to drag an object, a shortcut menu is displayed when the user attempts to drop the object. The following screen shot illustrates a typical drag-and-drop shortcut menu.
 
@@ -457,7 +462,7 @@ HKEY_CLASSES_ROOT
 
 ### Suppressing Verbs and Controlling Visibility
 
-You can use Windows policy settings to control verb visibility. Verbs can be suppressed through policy settings by adding a **SuppressionPolicy** value, or a **SuppressionPolicyEx** GUID value to the verb's registry subkey. Set the value of the **SuppressionPolicy** subkey to the policy ID. If the policy is turned on, the verb and its associated shortcut menu entry are suppressed. For possible policy ID values, see the [**RESTRICTIONS**](restrictions.md) enumeration.
+You can use Windows policy settings to control verb visibility. Verbs can be suppressed through policy settings by adding a **SuppressionPolicy** value, or a **SuppressionPolicyEx** GUID value to the verb's registry subkey. Set the value of the **SuppressionPolicy** subkey to the policy ID. If the policy is turned on, the verb and its associated shortcut menu entry are suppressed. For possible policy ID values, see the [**RESTRICTIONS**](/windows/win32/shlobj_core/ne-shlobj_core-restrictions?branch=master) enumeration.
 
 ### Employing the Verb Selection Model
 

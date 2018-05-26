@@ -1,8 +1,13 @@
 ---
-title: \_IVMRCClientControlEvents OnStateChanged method
+title: '\_IVMRCClientControlEvents OnStateChanged method'
 description: Called when the VMRC client connection state changes.
-ms.assetid: '24615b12-f256-465f-802b-5c59e5e60fbe'
-keywords: ["OnStateChanged method Virtual Server", "OnStateChanged method Virtual Server , _IVMRCClientControlEvents interface", "_IVMRCClientControlEvents interface Virtual Server , OnStateChanged method", "OnStateChanged method Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , OnStateChanged method"]
+ms.assetid: 24615b12-f256-465f-802b-5c59e5e60fbe
+keywords:
+- OnStateChanged method Virtual Server
+- OnStateChanged method Virtual Server , _IVMRCClientControlEvents interface
+- _IVMRCClientControlEvents interface Virtual Server , OnStateChanged method
+- OnStateChanged method Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , OnStateChanged method
 topic_type:
 - apiref
 api_name:
@@ -10,6 +15,11 @@ api_name:
 - VMRCClientControl.OnStateChanged
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_IVMRCClientControlEvents::OnStateChanged method
@@ -21,7 +31,7 @@ The **OnStateChanged** method is called when the VMRC client connection state ch
 
 ```C++
 HRESULT OnStateChanged(
-  [in] VMRCState state
+  [in] VMRCState state
 );
 ```
 
@@ -52,8 +62,8 @@ This method is called when the connection state of the VMRC client control objec
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 
 
 
@@ -64,9 +74,9 @@ This method is called when the connection state of the VMRC client control objec
 [**\_IVMRCClientControlEvents**](-ivmrcclientcontrolevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

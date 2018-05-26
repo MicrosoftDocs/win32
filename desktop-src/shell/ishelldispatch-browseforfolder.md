@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a dialog box that enables the user to select a folder and then returns the selected folder''s Folder object.'
-ms.assetid: '578C51C1-F59B-4604-A09B-62BA61225ABB'
-title: 'IShellDispatch.BrowseForFolder method'
+---
+Description: Creates a dialog box that enables the user to select a folder and then returns the selected folders Folder object.
+ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
+title: IShellDispatch.BrowseForFolder method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch.BrowseForFolder method
@@ -72,7 +77,7 @@ A **String** value that represents the title displayed inside the **Browse** dia
 
 Type: **Integer**
 
-An **Integer** value that contains the options for the method. This can be zero or a combination of the values listed under the **ulFlags** member of the [**BROWSEINFO**](browseinfo.md) structure.
+An **Integer** value that contains the options for the method. This can be zero or a combination of the values listed under the **ulFlags** member of the [**BROWSEINFO**](/windows/win32/shlobj_core/ns-shlobj_core-_browseinfoa?branch=master) structure.
 
 </dd> <dt>
 
@@ -81,7 +86,7 @@ An **Integer** value that contains the options for the method. This can be zero 
 
 Type: **Variant**
 
-The root folder to use in the dialog box. The user cannot browse higher in the tree than this folder. If this value is not specified, the root folder used in the dialog box is the desktop. This value can be a string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](shellspecialfolderconstants.md) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
+The root folder to use in the dialog box. The user cannot browse higher in the tree than this folder. If this value is not specified, the root folder used in the dialog box is the desktop. This value can be a string that specifies the path of the folder or one of the [**ShellSpecialFolderConstants**](/windows/win32/Shldisp/ne-shldisp-shellspecialfolderconstants?branch=master) values. Note that the constant names found in **ShellSpecialFolderConstants** are available in Visual Basic, but not in VBScript or JScript. In those cases, the numeric values must be used in their place.
 
 </dd> </dl>
 

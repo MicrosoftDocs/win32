@@ -1,7 +1,12 @@
 ---
-Description: 'The OnStop method must be implemented by the monitor. The MSCVC calls this method to notify the monitor that the capture will be stopped.'
-ms.assetid: '5988bfb8-2068-42a1-a774-6f6be9828568'
-title: 'IMonitor::OnStop method'
+Description: The OnStop method must be implemented by the monitor. The MSCVC calls this method to notify the monitor that the capture will be stopped.
+ms.assetid: 5988bfb8-2068-42a1-a774-6f6be9828568
+title: IMonitorOnStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitor::OnStop method
@@ -37,15 +42,15 @@ The MCSVC calls this method after [IRTC::Stop](irtc-stop.md) is called.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

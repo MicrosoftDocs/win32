@@ -1,12 +1,17 @@
 ---
-Description: 'The Windows Installer database tables can be exported to ASCII text files by using MsiDatabaseExport or the Export method of the Database object.'
-ms.assetid: '105d2b85-c6e1-4719-83b4-1693c14ef4f4'
+Description: The Windows Installer database tables can be exported to ASCII text files by using MsiDatabaseExport or the Export method of the Database object.
+ms.assetid: 105d2b85-c6e1-4719-83b4-1693c14ef4f4
 title: Text Archive Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Archive Files
 
-The Windows Installer database tables can be exported to ASCII text files by using [**MsiDatabaseExport**](msidatabaseexport.md) or the [**Export**](database-export.md) method of the [**Database**](database-object.md) object. The information in these text archive files can then be imported back into a Windows Installer database using [**MsiDatabaseImport**](msidatabaseimport.md) or the [Import](database-import.md) method of the **Database** object.
+The Windows Installer database tables can be exported to ASCII text files by using [**MsiDatabaseExport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseexporta?branch=master) or the [**Export**](database-export.md) method of the [**Database**](database-object.md) object. The information in these text archive files can then be imported back into a Windows Installer database using [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master) or the [Import](database-import.md) method of the **Database** object.
 
 Tools such as [msidb.exe](msidb-exe.md) are capable of exporting and importing text archive files. See [Export Files](export-files.md) and [Import Files](import-files.md) for [Windows Installer Scripting Examples](windows-installer-scripting-examples.md) that can export and import text archive files from a database.
 
@@ -23,7 +28,7 @@ Text archive files can be used for the following purposes.
 
 -   To determine the code page of a database. See [Determining an Installation Database's Code Page](determining-an-installation-database-s-code-page.md).
 -   To set the code page of a database. See [Setting the code page of a database](setting-the-code-page-of-a-database.md).
--   To increase the limit of a database column. Export the table using [**MsiDatabaseExport**](msidatabaseexport.md), edit the exported .idt file, and then import the table using [**MsiDatabaseImport**](msidatabaseimport.md). Authors cannot change the column data types, nullability, or localization attributes of any columns in standard tables. See also [Authoring a Large Package](authoring-a-large-package.md).
+-   To increase the limit of a database column. Export the table using [**MsiDatabaseExport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseexporta?branch=master), edit the exported .idt file, and then import the table using [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master). Authors cannot change the column data types, nullability, or localization attributes of any columns in standard tables. See also [Authoring a Large Package](authoring-a-large-package.md).
 
 The following pages describe text archive pages and their formats.
 

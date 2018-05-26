@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IInterFilterCommunicator interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface.'
-ms.assetid: '777da1db-5522-48fc-bf35-8e6bf9203d6a'
+---
+Description: The IInterFilterCommunicator interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface.
+ms.assetid: 777da1db-5522-48fc-bf35-8e6bf9203d6a
 title: IInterFilterCommunicator interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInterFilterCommunicator interface

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Wilogutl.exe assists the analysis of log files from a Windows Installer installation, and it displays suggested solutions to errors that are found in a log file.'
-ms.assetid: '09aa03ba-992f-47ab-999b-ebdfe85c1ea7'
-title: 'Wilogutl.exe'
+---
+Description: Wilogutl.exe assists the analysis of log files from a Windows Installer installation, and it displays suggested solutions to errors that are found in a log file.
+ms.assetid: 09aa03ba-992f-47ab-999b-ebdfe85c1ea7
+title: Wilogutl.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wilogutl.exe
@@ -87,7 +92,7 @@ When run in UI mode, Wilogutl.exe displays the following dialog boxes.
 <li>The <strong>Request</strong> column shows the user's selection during the installation for the feature or component's state.</li>
 <li>The <strong>Action</strong> column shows the action taken by the installer for the feature or component.</li>
 </ul>
-For more information, see [<strong>MsiGetComponentState</strong>](msigetcomponentstate.md) and [<strong>MsiGetFeatureState</strong>](msigetfeaturestate.md).<br/></td>
+For more information, see [<strong>MsiGetComponentState</strong>](/windows/win32/Msiquery/nf-msiquery-msigetcomponentstatea?branch=master) and [<strong>MsiGetFeatureState</strong>](/windows/win32/Msiquery/nf-msiquery-msigetfeaturestatea?branch=master).<br/></td>
 </tr>
 <tr class="even">
 <td>Properties</td>

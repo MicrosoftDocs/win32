@@ -1,8 +1,9 @@
 ---
 title: PBM\_GETBKCOLOR message
 description: Gets the background color of the progress bar.
-ms.assetid: '9526ed78-08d9-468f-831b-72bb7c8c92d1'
-keywords: ["PBM_GETBKCOLOR message Windows Controls"]
+ms.assetid: 9526ed78-08d9-468f-831b-72bb7c8c92d1
+keywords:
+- PBM_GETBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_GETBKCOLOR message
@@ -43,15 +49,15 @@ This function only affects the classic mode, not any visual style.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

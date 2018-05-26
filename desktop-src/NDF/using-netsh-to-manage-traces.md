@@ -1,7 +1,12 @@
 ---
 title: Using Netsh to Manage Traces
 description: In Windows 7, netsh.exe can be used from a command prompt to enable and configure network traces. This section describes some of the netsh.exe commands which can help in troubleshooting tracing issues, including the new netsh trace functionality.
-ms.assetid: 'f0f0fc7b-7cfa-43c7-89a3-3b80050875f8'
+ms.assetid: f0f0fc7b-7cfa-43c7-89a3-3b80050875f8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Netsh to Manage Traces

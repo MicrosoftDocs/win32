@@ -1,7 +1,12 @@
 ---
-Description: 'Provides additional information to be used with the CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class.'
-ms.assetid: '6b997ba5-871c-4c33-9ed5-b9a13cbfaacd'
-title: 'Msvm\_VirtualSystemReferencePointSettingData class'
+Description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_VirtualSystemReferencePointService class.
+ms.assetid: 6b997ba5-871c-4c33-9ed5-b9a13cbfaacd
+title: Msvm\_VirtualSystemReferencePointSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemReferencePointSettingData class
@@ -51,8 +56,8 @@ The consistency level of the reference point.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -66,9 +71,9 @@ The consistency level of the reference point.
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

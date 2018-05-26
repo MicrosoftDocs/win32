@@ -1,7 +1,12 @@
 ---
-Description: 'Certificates are granted according to policies that define criteria that requesters must meet to receive a certificate.'
-ms.assetid: 'ad79dc0d-6457-4459-80e6-ab340436ecac'
+Description: Certificates are granted according to policies that define criteria that requesters must meet to receive a certificate.
+ms.assetid: ad79dc0d-6457-4459-80e6-ab340436ecac
 title: Policy Independence
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy Independence

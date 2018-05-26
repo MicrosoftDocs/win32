@@ -1,7 +1,12 @@
 ---
-Description: 'Association class between a guest service interface component and the guest service resource.'
-ms.assetid: '4c16c3ab-4137-40ab-be2e-f385d8e36a41'
-title: 'Msvm\_GuestServiceInterfaceSettingDataComponent class'
+Description: Association class between a guest service interface component and the guest service resource.
+ms.assetid: 4c16c3ab-4137-40ab-be2e-f385d8e36a41
+title: Msvm\_GuestServiceInterfaceSettingDataComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestServiceInterfaceSettingDataComponent class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_GuestServiceInterfaceSettingDataComponent : CIM_Component
 {
   Msvm_GuestServiceInterfaceComponentSettingData REF GroupComponent;
-  CIM_SettingData                                REF PartComponent;
+  CIM_SettingData                                REF PartComponent;
 };
 ```
 
@@ -71,8 +76,8 @@ A [**CIM\_SettingData**](cim-settingdata.md) that references the guest service r
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ A [**CIM\_SettingData**](cim-settingdata.md) that references the guest service r
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

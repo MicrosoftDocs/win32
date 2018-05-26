@@ -4,17 +4,22 @@ description: A grammar for encoding the display table properties as a string.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '809981da-8572-4a9f-a4c3-06cff95c8bdc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 809981da-8572-4a9f-a4c3-06cff95c8bdc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Address-Syntax attribute AD Schema", "addressSyntax attribute AD Schema"]
+keywords:
+- Address-Syntax attribute AD Schema
+- addressSyntax attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Address-Syntax
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Address-Syntax attribute
@@ -38,12 +43,12 @@ A grammar for encoding the display table properties as a string.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ A grammar for encoding the display table properties as a string.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
 title: Windows Messenger
-description: This is the entry page to the reference documentation for Windows Messenger. This section includes information about the Messenger service APIs and the Messenger client APIs. The documentation consists of API reference and conceptual overviews.
-ms.assetid: '25517c5a-fd5e-4634-a001-6970e901c871'
+description: This is the entry page to the reference documentation for Windows Messenger. This section includes information about the Messenger service APIs and the Messenger client APIs. The documentation consists of API reference and conceptual overviews.
+ms.assetid: 25517c5a-fd5e-4634-a001-6970e901c871
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Messenger
 
-\[Windows Messenger is no longer available for use as of Windows Vista. \]
+\[Windows Messenger is no longer available for use as of Windows Vista. \]
 
-This is the entry page to the reference documentation for Windows Messenger. This section includes information about the Messenger service  APIs and the Messenger client APIs. The documentation consists of API reference and conceptual overviews.
+This is the entry page to the reference documentation for Windows Messenger. This section includes information about the Messenger service  APIs and the Messenger client APIs. The documentation consists of API reference and conceptual overviews.
 
 ## In this section
 
@@ -22,11 +27,11 @@ This is the entry page to the reference documentation for Windows Messenger. Thi
 
 
 
- 
+ 
 
 ## Windows Messenger Is No Longer Available
 
-Windows Vista does not include the APIs for Windows Messenger. They are included with Windows Live Messenger to ensure continued support for applications that use the Windows Messenger APIs. You can download Messenger from the [Windows Live Messenger](http://get.live.com/messenger/overview) site.
+Windows Vista does not include the APIs for Windows Messenger. They are included with Windows Live Messenger to ensure continued support for applications that use the Windows Messenger APIs. You can download Messenger from the [Windows Live Messenger](http://get.live.com/messenger/overview) site.
 
 Applications developed with the Windows Messenger SDK are compatible with Messenger; however, Messenger does not support script that uses Windows Messenger objects. Applications that require Messenger functionality should be developed with the appropriate Live SDK. More information about the Live SDKs can be found on [Windows Live Dev](http://dev.live.com).
 
@@ -44,15 +49,15 @@ Five properties of the [**IMessenger**](im-imessenger.md) interface have been de
 
 ## Windows Messenger Add-In APIs
 
-The documentation for the Add-In APIs shows you how to create add-in components for the Windows Messenger client on Windows XP. The Add-In APIs are not available with any version of Windows Messenger other than 4.6 or 4.7. To download this documentation, see [Windows Messenger Add-In APIs](http://download.microsoft.com/download/6/8/3/683DB9FE-8D61-4A3C-B7B8-3169FF70AE9F/WinMsgr.msi).
+The documentation for the Add-In APIs shows you how to create add-in components for the Windows Messenger client on Windows XP. The Add-In APIs are not available with any version of Windows Messenger other than 4.6 or 4.7. To download this documentation, see [Windows Messenger Add-In APIs](http://download.microsoft.com/download/6/8/3/683DB9FE-8D61-4A3C-B7B8-3169FF70AE9F/WinMsgr.msi).
 
 ## What's New in Windows Messenger 4.7
 
 A new overview [Using the Registration Mechanism](im-registration-mechanism.md) has been added.
 
- 
+ 
 
- 
+ 
 
 
 

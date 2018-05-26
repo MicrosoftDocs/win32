@@ -1,7 +1,12 @@
 ---
 title: Status Bar
 description: This section contains information about the programming elements used with status bar controls.
-ms.assetid: '77923055-9d00-4528-bda7-b602a26b577f'
+ms.assetid: 77923055-9d00-4528-bda7-b602a26b577f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Bar
@@ -18,7 +23,7 @@ This section contains information about the programming elements used with statu
 
 
 
- 
+ 
 
 ### Functions
 
@@ -37,7 +42,7 @@ This section contains information about the programming elements used with statu
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>CreateStatusWindow</strong>](createstatuswindow.md)</td>
+<td>[<strong>CreateStatusWindow</strong>](/windows/win32/Commctrl/nf-commctrl-createstatuswindowa?branch=master)</td>
 <td>Creates a status window, which is typically used to display the status of an application. The window generally appears at the bottom of the parent window, and it contains the specified text.
 <blockquote>
 [!Note]<br />
@@ -46,11 +51,11 @@ This function is obsolete. Use [<strong>CreateWindow</strong>](https://msdn.micr
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DrawStatusText</strong>](drawstatustext.md)</td>
-<td>The [<strong>DrawStatusText</strong>](drawstatustext.md) function draws the specified text in the style of a status window with borders.<br/></td>
+<td>[<strong>DrawStatusText</strong>](/windows/win32/Commctrl/nf-commctrl-drawstatustexta?branch=master)</td>
+<td>The [<strong>DrawStatusText</strong>](/windows/win32/Commctrl/nf-commctrl-drawstatustexta?branch=master) function draws the specified text in the style of a status window with borders.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MenuHelp</strong>](menuhelp.md)</td>
+<td>[<strong>MenuHelp</strong>](/windows/win32/Commctrl/nf-commctrl-menuhelp?branch=master)</td>
 <td>Processes [<strong>WM_MENUSELECT</strong>](https://msdn.microsoft.com/library/windows/desktop/ms646352) and [<strong>WM_COMMAND</strong>](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages and displays Help text about the current menu in the specified status window.<br/></td>
 </tr>
 </tbody>
@@ -58,7 +63,7 @@ This function is obsolete. Use [<strong>CreateWindow</strong>](https://msdn.micr
 
 
 
- 
+ 
 
 ### Messages
 
@@ -86,7 +91,7 @@ This function is obsolete. Use [<strong>CreateWindow</strong>](https://msdn.micr
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -102,7 +107,7 @@ This function is obsolete. Use [<strong>CreateWindow</strong>](https://msdn.micr
 
 
 
- 
+ 
 
 ### Constants
 
@@ -114,11 +119,11 @@ This function is obsolete. Use [<strong>CreateWindow</strong>](https://msdn.micr
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

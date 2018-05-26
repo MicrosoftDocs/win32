@@ -2,11 +2,14 @@
 title: Remove method of the PS\_VpnConnectionRoute class
 description: Removes a route from the routes to be plumbed for a VPN profile.
 audience: developer
-ms.assetid: 'A8CC8B28-D35E-4234-B1D0-D49D6EDDA1BF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: A8CC8B28-D35E-4234-B1D0-D49D6EDDA1BF
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_VpnConnectionRoute class", "PS_VpnConnectionRoute class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_VpnConnectionRoute class
+- PS_VpnConnectionRoute class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_VpnConnectionRoute class
@@ -26,11 +32,11 @@ Removes a route from the routes to be plumbed for a VPN profile.
 
 ```mof
 uint32 Remove(
-  [in]  string        ConnectionName,
-  [in]  string        DestinationPrefix,
-  [in]  boolean       AllUserConnection,
-  [in]  boolean       PassThru,
-  [out] MSFT_NetRoute cmdletOutput
+  [in]  string        ConnectionName,
+  [in]  string        DestinationPrefix,
+  [in]  boolean       AllUserConnection,
+  [in]  boolean       PassThru,
+  [out] MSFT_NetRoute cmdletOutput
 );
 ```
 
@@ -81,8 +87,8 @@ When this method returns, contains the [**MSFT\_NetRoute**](https://msdn.microso
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -96,9 +102,9 @@ When this method returns, contains the [**MSFT\_NetRoute**](https://msdn.microso
 [**PS\_VpnConnectionRoute**](ps-vpnconnectionroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: RSVP
 description: Resource Reservation Protocol (RSVP) is an IETF-draft networking protocol dedicated to being the facilitator and carrier of standardized QOS information and parameters.
-ms.assetid: '2bff34c7-2db9-4845-9db5-906c3ef3fa7f'
-keywords: ["Quality of Service QOS , described, RSVP"]
+ms.assetid: 2bff34c7-2db9-4845-9db5-906c3ef3fa7f
+keywords:
+- Quality of Service QOS , described, RSVP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSVP

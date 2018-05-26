@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the length, in characters, of the text associated with a window.'
-ms.assetid: '9e185435-a624-4380-adfd-be4f3645ee5d'
-title: 'WM\_GETTEXTLENGTH message'
+---
+Description: Determines the length, in characters, of the text associated with a window.
+ms.assetid: 9e185435-a624-4380-adfd-be4f3645ee5d
+title: WM\_GETTEXTLENGTH message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_GETTEXTLENGTH message

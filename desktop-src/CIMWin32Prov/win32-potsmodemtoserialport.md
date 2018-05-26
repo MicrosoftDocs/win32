@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_POTSModemToSerialPort association WMI class relates a modem to the serial port the modem uses.'
+---
+Description: The Win32\_POTSModemToSerialPort association WMI class relates a modem to the serial port the modem uses.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4dbde5ae-f785-4d2d-80d9-508effd72cf2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4dbde5ae-f785-4d2d-80d9-508effd72cf2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_POTSModemToSerialPort class'
+title: Win32\_POTSModemToSerialPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_POTSModemToSerialPort class

@@ -1,8 +1,19 @@
 ---
 title: Implementing Other Functions
 description: Implementing Other Functions
-ms.assetid: '274ba948-b954-4e9e-a384-dee5b3befbcb'
-keywords: ["visualizations,IWMPEffects interface", "custom visualizations,IWMPEffects interface", "visualizations,Render function", "custom visualizations,Render function", "Render function,additional functions", "IWMPEffects interface"]
+ms.assetid: 274ba948-b954-4e9e-a384-dee5b3befbcb
+keywords:
+- visualizations,IWMPEffects interface
+- custom visualizations,IWMPEffects interface
+- visualizations,Render function
+- custom visualizations,Render function
+- Render function,additional functions
+- IWMPEffects interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Other Functions
@@ -15,16 +26,16 @@ The **IWMPEffects** interface supports the following functions in addition to **
 
 | Function                                                   | Description                                                                                                                                                                                                                                                                                              |
 |------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [DisplayPropertyPage](iwmpeffects-displaypropertypage.md) | Default implementation not supplied by wizard.                                                                                                                                                                                                                                                           |
-| [GetCapabilities](iwmpeffects-getcapabilities.md)         | Gets the capabilities of your visualization and passes them to Windows Media Player.                                                                                                                                                                                                                     |
-| [GetCurrentPreset](iwmpeffects-getcurrentpreset.md)       | The wizard created two presets when it generated the code for your visualization. This function is called when the skin developer wants to get the index of the current preset. You will not want to change the implementation of this function because it just uses information set by other functions. |
-| [GetPresetCount](iwmpeffects-getpresetcount.md)           | The wizard created two presets when it generated the code for your visualization. You can change the count by changing the implementation of **GetPresetCount**. See [Presets](presets.md) for more information about changing the presets.                                                             |
-| [GetPresetTitle](iwmpeffects-getpresettitle.md)           | The wizard created two presets when it generated the code for your visualization. You can change the titles used by changing the implementation of **GetPresetTitle**. See [Presets](presets.md) for more information about changing the presets.                                                       |
-| [GetTitle](iwmpeffects-gettitle.md)                       | Gets the title of your visualization and passes it to Windows Media Player. The wizard used the name of your project to generate the name that is passed back.                                                                                                                                           |
-| [GoFullscreen](iwmpeffects-gofullscreen.md)               | Default implementation not supplied by wizard.                                                                                                                                                                                                                                                           |
-| [MediaInfo](iwmpeffects-mediainfo.md)                     | Retrieves the number of audio channels and the sample rate of the audio currently playing.                                                                                                                                                                                                               |
-| [RenderFullScreen](iwmpeffects-renderfullscreen.md)       | Default implementation not supplied by wizard.                                                                                                                                                                                                                                                           |
-| [SetCurrentPreset](iwmpeffects-setcurrentpreset.md)       | The wizard created two presets when it generated the code for your visualization. This function is called when Windows Media Player wants to change to a named preset.                                                                                                                                   |
+| [DisplayPropertyPage](/windows/win32/effects/nf-effects-iwmpeffects-displaypropertypage?branch=master) | Default implementation not supplied by wizard.                                                                                                                                                                                                                                                           |
+| [GetCapabilities](/windows/win32/effects/nf-effects-iwmpeffects-getcapabilities?branch=master)         | Gets the capabilities of your visualization and passes them to Windows Media Player.                                                                                                                                                                                                                     |
+| [GetCurrentPreset](/windows/win32/effects/nf-effects-iwmpeffects-getcurrentpreset?branch=master)       | The wizard created two presets when it generated the code for your visualization. This function is called when the skin developer wants to get the index of the current preset. You will not want to change the implementation of this function because it just uses information set by other functions. |
+| [GetPresetCount](/windows/win32/effects/nf-effects-iwmpeffects-getpresetcount?branch=master)           | The wizard created two presets when it generated the code for your visualization. You can change the count by changing the implementation of **GetPresetCount**. See [Presets](presets.md) for more information about changing the presets.                                                             |
+| [GetPresetTitle](/windows/win32/effects/nf-effects-iwmpeffects-getpresettitle?branch=master)           | The wizard created two presets when it generated the code for your visualization. You can change the titles used by changing the implementation of **GetPresetTitle**. See [Presets](presets.md) for more information about changing the presets.                                                       |
+| [GetTitle](/windows/win32/effects/nf-effects-iwmpeffects-gettitle?branch=master)                       | Gets the title of your visualization and passes it to Windows Media Player. The wizard used the name of your project to generate the name that is passed back.                                                                                                                                           |
+| [GoFullscreen](/windows/win32/effects/nf-effects-iwmpeffects-gofullscreen?branch=master)               | Default implementation not supplied by wizard.                                                                                                                                                                                                                                                           |
+| [MediaInfo](/windows/win32/effects/nf-effects-iwmpeffects-mediainfo?branch=master)                     | Retrieves the number of audio channels and the sample rate of the audio currently playing.                                                                                                                                                                                                               |
+| [RenderFullScreen](/windows/win32/effects/nf-effects-iwmpeffects-renderfullscreen?branch=master)       | Default implementation not supplied by wizard.                                                                                                                                                                                                                                                           |
+| [SetCurrentPreset](/windows/win32/effects/nf-effects-iwmpeffects-setcurrentpreset?branch=master)       | The wizard created two presets when it generated the code for your visualization. This function is called when Windows Media Player wants to change to a named preset.                                                                                                                                   |
 
 
 
@@ -36,12 +47,12 @@ The **IWMPEffects2** interface supports the following additional functions:
 
 | Function                                            | Description                                                                                                                                      |
 |-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Create](iwmpeffects2-create.md)                   | When rendering in a window, Windows Media Player calls this function to allow you to create a new window for rendering.                          |
-| [Destroy](iwmpeffects2-destroy.md)                 | When rendering in a window, Windows Media Player calls this function to permit you to destroy the window you created when **Create** was called. |
-| [NotifyNewMedia](iwmpeffects2-notifynewmedia.md)   | This function allows your visualization to respond when a new media item has been loaded by the Player.                                          |
-| [OnWindowMessage](iwmpeffects2-onwindowmessage.md) | This function receives windows messages from the Player when rendering in windowless mode.                                                       |
-| [RenderWindowed](iwmpeffects2-renderwindowed.md)   | This function is called by the Player instead of **IWMPEffects::Render** when the Player is rendering in windowed mode.                          |
-| [SetCore](iwmpeffects2-setcore.md)                 | This function receives a pointer to the **IWMPCore** interface.                                                                                  |
+| [Create](/windows/win32/effects/nf-effects-iwmpeffects2-create?branch=master)                   | When rendering in a window, Windows Media Player calls this function to allow you to create a new window for rendering.                          |
+| [Destroy](/windows/win32/effects/nf-effects-iwmpeffects2-destroy?branch=master)                 | When rendering in a window, Windows Media Player calls this function to permit you to destroy the window you created when **Create** was called. |
+| [NotifyNewMedia](/windows/win32/effects/nf-effects-iwmpeffects2-notifynewmedia?branch=master)   | This function allows your visualization to respond when a new media item has been loaded by the Player.                                          |
+| [OnWindowMessage](/windows/win32/effects/nf-effects-iwmpeffects2-onwindowmessage?branch=master) | This function receives windows messages from the Player when rendering in windowless mode.                                                       |
+| [RenderWindowed](/windows/win32/effects/nf-effects-iwmpeffects2-renderwindowed?branch=master)   | This function is called by the Player instead of **IWMPEffects::Render** when the Player is rendering in windowed mode.                          |
+| [SetCore](/windows/win32/effects/nf-effects-iwmpeffects2-setcore?branch=master)                 | This function receives a pointer to the **IWMPCore** interface.                                                                                  |
 
 
 

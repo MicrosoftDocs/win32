@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent one time to a window, after it has exited the moving or sizing modal loop.'
-ms.assetid: '3466bfb5-c38d-49d8-a4ab-bf23d09c454c'
-title: 'WM\_EXITSIZEMOVE message'
+---
+Description: Sent one time to a window, after it has exited the moving or sizing modal loop.
+ms.assetid: 3466bfb5-c38d-49d8-a4ab-bf23d09c454c
+title: WM\_EXITSIZEMOVE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_EXITSIZEMOVE message

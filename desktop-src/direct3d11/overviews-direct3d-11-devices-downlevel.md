@@ -1,7 +1,12 @@
 ---
 title: Direct3D 11 on Downlevel Hardware
 description: This section discusses how Direct3D 11 is designed to support both new and existing hardware, from DirectX 9 to DirectX 11.
-ms.assetid: '9a1ca4ff-df3d-46e5-8895-37199523343e'
+ms.assetid: 9a1ca4ff-df3d-46e5-8895-37199523343e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 11 on Downlevel Hardware
@@ -14,7 +19,7 @@ This diagram shows how Direct3D 11 supports new and existing hardware.
 
 With Direct3D 11, a new paradigm is introduced called feature levels. A feature level is a well defined set of GPU functionality. Using a feature level, you can target a Direct3D application to run on a downlevel version of Direct3D hardware.
 
-The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](id3d11device.md) and [**ID3D11DeviceContext**](id3d11devicecontext.md) methods behave at various 10Level9 feature levels.
+The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the differences between how various [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) and [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) methods behave at various 10Level9 feature levels.
 
 ## 
 
@@ -31,7 +36,7 @@ The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the
 
 
 
- 
+ 
 
 ## How to topics about feature levels
 
@@ -43,7 +48,7 @@ The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -52,9 +57,9 @@ The [10Level9 Reference](d3d11-graphics-reference-10level9.md) section lists the
 [Devices](overviews-direct3d-11-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

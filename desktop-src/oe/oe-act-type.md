@@ -1,8 +1,10 @@
 ---
 title: ACT\_TYPE enumeration
-description: ACT\_TYPE is no longer available for use as of Windows Vista.
-ms.assetid: 'ecc3880a-25b2-444d-bc89-376ec355787b'
-keywords: ["ACT_TYPE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+description: ACT\_TYPE is no longer available for use as of Windows Vista.
+ms.assetid: ecc3880a-25b2-444d-bc89-376ec355787b
+keywords:
+- ACT_TYPE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Oerules.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACT\_TYPE enumeration
 
-\[**ACT\_TYPE** is no longer available for use as of Windows Vista.\]
+\[**ACT\_TYPE** is no longer available for use as of Windows Vista.\]
 
 Specifies action types.
 
@@ -24,25 +31,25 @@ Specifies action types.
 
 ```C++
 typedef enum tagACT_TYPE { 
-  ACT_TYPE_NULL          = 0,
-  ACT_TYPE_COPY          = 1,
-  ACT_TYPE_FWD           = 2,
-  ACT_TYPE_NOTIFYMSG     = 3,
-  ACT_TYPE_NOTIFYSND     = 4,
-  ACT_TYPE_REPLY         = 5,
-  ACT_TYPE_MOVE          = 6,
-  ACT_TYPE_DELETE        = 7,
-  ACT_TYPE_DELETESERVER  = 8,
-  ACT_TYPE_DONTDOWNLOAD  = 9,
-  ACT_TYPE_HIGHLIGHT     = 10,
-  ACT_TYPE_FLAG          = 11,
-  ACT_TYPE_STOP          = 12,
-  ACT_TYPE_READ          = 13,
-  ACT_TYPE_MARKDOWNLOAD  = 14,
-  ACT_TYPE_SHOW          = 15,
-  ACT_TYPE_JUNKMAIL      = 16,
-  ACT_TYPE_WATCH         = 17,
-  ACT_TYPE_MAX           = 18
+  ACT_TYPE_NULL          = 0,
+  ACT_TYPE_COPY          = 1,
+  ACT_TYPE_FWD           = 2,
+  ACT_TYPE_NOTIFYMSG     = 3,
+  ACT_TYPE_NOTIFYSND     = 4,
+  ACT_TYPE_REPLY         = 5,
+  ACT_TYPE_MOVE          = 6,
+  ACT_TYPE_DELETE        = 7,
+  ACT_TYPE_DELETESERVER  = 8,
+  ACT_TYPE_DONTDOWNLOAD  = 9,
+  ACT_TYPE_HIGHLIGHT     = 10,
+  ACT_TYPE_FLAG          = 11,
+  ACT_TYPE_STOP          = 12,
+  ACT_TYPE_READ          = 13,
+  ACT_TYPE_MARKDOWNLOAD  = 14,
+  ACT_TYPE_SHOW          = 15,
+  ACT_TYPE_JUNKMAIL      = 16,
+  ACT_TYPE_WATCH         = 17,
+  ACT_TYPE_MAX           = 18
 } ACCESSTYPE;
 ```
 
@@ -115,19 +122,19 @@ typedef enum tagACT_TYPE {
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
-| End of client support<br/>    | Windows XP<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| End of client support<br/>    | Windows XP<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2003<br/>                                                         |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

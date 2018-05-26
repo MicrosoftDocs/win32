@@ -1,8 +1,10 @@
 ---
 title: Rational object
 description: Holds the rational values found in Exchangeable Image File (EXIF) tags. It is a supported element type of the Vector object and can be created using \ 0034;WIA.Rational \ 0034; as the ProgID in a call to CreateObject. The Rational object is a container.
-ms.assetid: '71d8ebe8-7098-4995-b4e2-a16da582b9d8'
-keywords: ["Rational object WIA Automation", "Rational object WIA Automation , described"]
+ms.assetid: 71d8ebe8-7098-4995-b4e2-a16da582b9d8
+keywords:
+- Rational object WIA Automation
+- Rational object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rational object
@@ -37,7 +44,7 @@ The **Rational** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,8 +58,8 @@ For example code, see [Set Rational Numerator and Denominator](-wiaaut-shared-sa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -74,9 +81,9 @@ For example code, see [Set Rational Numerator and Denominator](-wiaaut-shared-sa
 [**Value (Rational)**](-wiaaut-irational-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

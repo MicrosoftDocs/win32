@@ -1,7 +1,12 @@
 ---
 title: source
 description: Indicates that a member is a source of events.
-ms.assetid: '7f0e6349-9d31-4ab6-9a91-3822e81188e5'
+ms.assetid: 7f0e6349-9d31-4ab6-9a91-3822e81188e5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # source

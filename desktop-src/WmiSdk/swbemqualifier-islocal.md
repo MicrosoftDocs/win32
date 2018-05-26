@@ -1,13 +1,16 @@
 ---
-Description: 'The IsLocal property of the SWbemQualifier object is a Boolean value that indicates if this qualifier is local. This property is read-only.'
+Description: The IsLocal property of the SWbemQualifier object is a Boolean value that indicates if this qualifier is local. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ee403bcb-894f-47b7-88cc-d354e20b4e36'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ee403bcb-894f-47b7-88cc-d354e20b4e36
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifier.IsLocal property'
+title: SWbemQualifier.IsLocal property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifier.IsLocal property
@@ -35,8 +38,8 @@ SWbemQualifier.IsLocal As Boolean
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemQualifier.IsLocal As Boolean
 
 
 
- 
+ 
 
- 
+ 
 
 
 

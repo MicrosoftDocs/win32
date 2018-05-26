@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of inbound faxes.'
-ms.assetid: '6005a197-de27-4846-8d95-c8fa28e4a38a'
-title: 'FaxIncomingArchive.AgeLimit property'
+---
+Description: The AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of inbound faxes.
+ms.assetid: 6005a197-de27-4846-8d95-c8fa28e4a38a
+title: FaxIncomingArchive.AgeLimit property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive.AgeLimit property
@@ -30,7 +35,7 @@ A value of type **Integer** that specifies or receives the number of days that t
 
  
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -54,7 +59,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> </dl>
 
  

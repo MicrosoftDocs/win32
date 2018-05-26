@@ -1,8 +1,10 @@
 ---
 title: IVMVirtualMachine interface
 description: Defines the interface for a virtual machine.
-ms.assetid: 'c1c243f2-0fb7-4249-8dc9-f0b70059e78f'
-keywords: ["IVMVirtualMachine interface Virtual PC", "IVMVirtualMachine interface Virtual PC , described"]
+ms.assetid: c1c243f2-0fb7-4249-8dc9-f0b70059e78f
+keywords:
+- IVMVirtualMachine interface Virtual PC
+- IVMVirtualMachine interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines the interface for a virtual machine. **IVMVirtualMachine** can notify clients about events using the [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md) outgoing interface. **IVMVirtualMachine** objects are returned from [**IVMVirtualPC**](ivmvirtualpc.md) methods such as [**CreateVirtualMachine**](ivmvirtualpc-createvirtualmachine.md), [**RegisterVirtualMachine**](ivmvirtualpc-registervirtualmachine.md), and [**FindVirtualMachine**](ivmvirtualpc-findvirtualmachine.md). You can also retrieve an **IVMVirtualMachine** object from the [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md) object returned from the [**IVMVirtualPC::VirtualMachines**](ivmvirtualpc-virtualmachines.md) property.
 
@@ -62,7 +69,7 @@ The **IVMVirtualMachine** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -108,7 +115,7 @@ The **IVMVirtualMachine** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -116,18 +123,18 @@ The **IVMVirtualMachine** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

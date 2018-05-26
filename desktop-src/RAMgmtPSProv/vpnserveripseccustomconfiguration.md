@@ -2,13 +2,15 @@
 title: VpnServerIPsecCustomConfiguration class
 description: Represents the VPN server custom IPsec configuration.
 audience: developer
-ms.assetid: '1241ec69-1581-4ccc-b4d2-31088e077309'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1241ec69-1581-4ccc-b4d2-31088e077309
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnServerIPsecCustomConfiguration class", "VpnServerIPsecCustomConfiguration class, described"]
+keywords:
+- VpnServerIPsecCustomConfiguration class
+- VpnServerIPsecCustomConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnServerIPsecCustomConfiguration class
@@ -47,22 +52,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class VpnServerIPsecCustomConfiguration : VpnServerIPsecConfiguration
 {
-  uint32  IdleDisconnect;
-  uint32  SALifeTime;
-  uint32  MMSALifeTime;
-  uint32  SADataSizeForRenegotiation;
-  uint32  Ikev2Ports;
-  uint32  L2tpPorts;
-  uint32  SstpPorts;
-  uint32  GrePorts;
-  uint32  TunnelType;
+  uint32  IdleDisconnect;
+  uint32  SALifeTime;
+  uint32  MMSALifeTime;
+  uint32  SADataSizeForRenegotiation;
+  uint32  Ikev2Ports;
+  uint32  L2tpPorts;
+  uint32  SstpPorts;
+  uint32  GrePorts;
+  uint32  TunnelType;
   boolean CustomPolicy;
-  uint32  EncryptionMethod;
-  uint32  IntegrityCheckMethod;
-  uint32  CipherTransformConstants;
-  uint32  PfsGroup;
-  uint32  AuthenticationTransformConstants;
-  uint32  DHGroup;
+  uint32  EncryptionMethod;
+  uint32  IntegrityCheckMethod;
+  uint32  CipherTransformConstants;
+  uint32  PfsGroup;
+  uint32  AuthenticationTransformConstants;
+  uint32  DHGroup;
 };
 ```
 
@@ -154,7 +159,7 @@ Access type: Read/write
 
 Number of GRE ports created
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 This property is inherited from [**VpnServerIPsecConfiguration**](vpnserveripsecconfiguration.md).
 
@@ -231,7 +236,7 @@ Access type: Read/write
 
 Lifetime of main mode security association (SA) in seconds, after which the MM SA is no longer valid
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 This property is inherited from [**VpnServerIPsecConfiguration**](vpnserveripsecconfiguration.md).
 
@@ -291,7 +296,7 @@ Access type: Read/write
 
 Number of SSTP ports created
 
-**Windows Server 2012:** This property is not supported before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported before Windows Server 2012 R2.
 
 This property is inherited from [**VpnServerIPsecConfiguration**](vpnserveripsecconfiguration.md).
 
@@ -308,7 +313,7 @@ Access type: Read/write
 
 The tunnel type to apply to custom policy
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 This property is inherited from [**VpnServerIPsecConfiguration**](vpnserveripsecconfiguration.md).
 
@@ -321,16 +326,16 @@ This property is inherited from [**VpnServerIPsecConfiguration**](vpnserveripsec
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

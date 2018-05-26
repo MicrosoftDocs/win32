@@ -4,17 +4,21 @@ description: Instantiates a new UserRoles object.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '26CF97A3-51D0-47EC-948F-8E74E159C688'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 26CF97A3-51D0-47EC-948F-8E74E159C688
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRoles.userRoles method"]
+keywords:
+- UserRoles.userRoles method
 topic_type:
 - apiref
 api_name:
 - UserRoles.userRoles method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRoles.userRoles method
@@ -39,7 +43,7 @@ public UserRoles(Collection<String> users,
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -55,11 +59,11 @@ UserRoles.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

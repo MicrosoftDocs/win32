@@ -1,7 +1,12 @@
 ---
-Description: 'Clears save state from an existing snapshot.'
-ms.assetid: 'abb0ed4a-7f89-4d32-93d2-7491d2f2aa83'
-title: 'ClearSnapshotState method of the Msvm\_VirtualSystemSnapshotService class'
+Description: Clears save state from an existing snapshot.
+ms.assetid: abb0ed4a-7f89-4d32-93d2-7491d2f2aa83
+title: ClearSnapshotState method of the Msvm\_VirtualSystemSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClearSnapshotState method of the Msvm\_VirtualSystemSnapshotService class
@@ -13,8 +18,8 @@ Clears save state from an existing snapshot.
 
 ```mof
 uint32 ClearSnapshotState(
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -89,8 +94,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemSnapshotService**](msvm-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

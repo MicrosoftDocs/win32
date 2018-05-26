@@ -1,8 +1,19 @@
 ---
 title: Transforming Coordinates
 description: The OpenGL Utility library (GLU) provides several commonly used matrix transformation functions.
-ms.assetid: '9ca32be8-3bc0-4fca-a58c-69a4800c3c55'
-keywords: ["OpenGL Utility (GLU),matrix transformation functions", "GLU (OpenGL Utility),matrix transformation functions", "matrix transformation functions OpenGL", "OpenGL Utility (GLU),transforming coordinates", "GLU (OpenGL Utility),transforming coordinates", "transforming coordinates OpenGL"]
+ms.assetid: 9ca32be8-3bc0-4fca-a58c-69a4800c3c55
+keywords:
+- OpenGL Utility (GLU),matrix transformation functions
+- GLU (OpenGL Utility),matrix transformation functions
+- matrix transformation functions OpenGL
+- OpenGL Utility (GLU),transforming coordinates
+- GLU (OpenGL Utility),transforming coordinates
+- transforming coordinates OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transforming Coordinates

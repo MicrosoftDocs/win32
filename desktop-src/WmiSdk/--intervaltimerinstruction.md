@@ -1,13 +1,16 @@
 ---
-Description: 'Generates events at intervals, similar to a WM\_TIMER message in Windows programming.'
+Description: Generates events at intervals, similar to a WM\_TIMER message in Windows programming.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0895a743-a0dd-4833-a2bf-0196369e18b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0895a743-a0dd-4833-a2bf-0196369e18b9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_IntervalTimerInstruction class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_IntervalTimerInstruction class
@@ -21,9 +24,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __IntervalTimerInstruction : __TimerInstruction
 {
-  uint32  IntervalBetweenEvents;
+  uint32  IntervalBetweenEvents;
   boolean SkipIfPassed = FALSE;
-  string  TimerId;
+  string  TimerId;
 };
 ```
 
@@ -110,7 +113,7 @@ The value for the **IntervalBetweenEvents** property should be reasonably large.
 
 WMI generates the interval timer event by creating an instance of the [**\_\_TimerEvent**](--timerevent.md) class.
 
-To receive these timer events in a temporary event consumer, execute [**IWbemServices::ExecNotificationQuery**](iwbemservices-execnotificationquery.md) with the following event query string:
+To receive these timer events in a temporary event consumer, execute [**IWbemServices::ExecNotificationQuery**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery?branch=master) with the following event query string:
 
 
 ```sql
@@ -143,8 +146,8 @@ instance of __IntervalTimerInstruction
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -162,9 +165,9 @@ instance of __IntervalTimerInstruction
 [Receiving Timed or Repeating Events](receiving-a-timed-or-repeating-event.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

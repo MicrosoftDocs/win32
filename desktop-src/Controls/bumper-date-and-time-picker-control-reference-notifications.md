@@ -1,7 +1,12 @@
 ---
 title: Date and Time Picker Notifications
 description: .
-ms.assetid: '2b3eaf5b-11f7-4e95-8d8d-1808d447da81'
+ms.assetid: 2b3eaf5b-11f7-4e95-8d8d-1808d447da81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Date and Time Picker Notifications

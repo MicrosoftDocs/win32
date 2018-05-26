@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes a byte array property.'
-ms.assetid: '517CF135-A5D7-4C99-8592-59934E24DEE3'
-title: 'IPrinterScriptablePropertyBag::SetBytes method'
+---
+Description: Writes a byte array property.
+ms.assetid: 517CF135-A5D7-4C99-8592-59934E24DEE3
+title: IPrinterScriptablePropertyBagSetBytes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::SetBytes method

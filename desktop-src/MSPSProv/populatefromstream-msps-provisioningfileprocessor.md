@@ -4,13 +4,16 @@ description: Populates a provisioning file from a byte stream. May not be suppor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd329d0dc-f2ea-49ac-abe4-a7660fe791f8'
-ms.prod: 'windows-server-dev'
+ms.assetid: d329d0dc-f2ea-49ac-abe4-a7660fe791f8
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PopulateFromStream method", "PopulateFromStream method, Msps_ProvisioningFileProcessor class", "Msps_ProvisioningFileProcessor class, PopulateFromStream method"]
+keywords:
+- PopulateFromStream method
+- PopulateFromStream method, Msps_ProvisioningFileProcessor class
+- Msps_ProvisioningFileProcessor class, PopulateFromStream method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PopulateFromStream method of the Msps\_ProvisioningFileProcessor class
@@ -30,8 +36,8 @@ Populates a provisioning file from a byte stream. May not be supported by large 
 
 ```mof
 uint32 PopulateFromStream(
-  [in]  uint8                 Data[],
-  [out] Msps_ProvisioningFile ProvisioningFile
+  [in]  uint8                 Data[],
+  [out] Msps_ProvisioningFile ProvisioningFile
 );
 ```
 
@@ -62,7 +68,7 @@ An embedded instance of the new [**Msps\_ProvisioningFile**](msps-provisioningfi
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ An embedded instance of the new [**Msps\_ProvisioningFile**](msps-provisioningfi
 [**Msps\_ProvisioningFileProcessor**](msps-provisioningfileprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

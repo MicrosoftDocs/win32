@@ -1,7 +1,12 @@
 ---
-Description: 'The ShouldDrawSampleNow method determines how a sample is scheduled for rendering.'
-ms.assetid: '92994f1f-53d5-42d4-90a2-2984b693e4c0'
-title: 'CBaseRenderer.ShouldDrawSampleNow method'
+Description: The ShouldDrawSampleNow method determines how a sample is scheduled for rendering.
+ms.assetid: 92994f1f-53d5-42d4-90a2-2984b693e4c0
+title: CBaseRenderer.ShouldDrawSampleNow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.ShouldDrawSampleNow method
@@ -13,9 +18,9 @@ The `ShouldDrawSampleNow` method determines how a sample is scheduled for render
 
 ```C++
 virtual HRESULT ShouldDrawSampleNow(
-   IMediaSample   *pMediaSample,
-   REFERENCE_TIME *pStartTime,
-   REFERENCE_TIME *pEndTime
+   IMediaSample   *pMediaSample,
+   REFERENCE_TIME *pStartTime,
+   REFERENCE_TIME *pEndTime
 );
 ```
 
@@ -28,7 +33,7 @@ virtual HRESULT ShouldDrawSampleNow(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> <dt>
 
@@ -60,7 +65,7 @@ Returns S\_FALSE. If the derived class overrides this method, return one of the 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -84,9 +89,9 @@ The [**CBaseRenderer::GetSampleTimes**](cbaserenderer-getsampletimes.md) method 
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

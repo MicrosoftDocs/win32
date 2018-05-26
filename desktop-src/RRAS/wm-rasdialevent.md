@@ -1,8 +1,9 @@
 ---
 title: WM\_RASDIALEVENT message
 description: The operating system sends a WM\_RASDIALEVENT message to a window procedure when a change of state event occurs during a RAS connection process.
-ms.assetid: '4526da20-04e7-47b2-b576-8dc36c08b053'
-keywords: ["WM_RASDIALEVENT message RAS"]
+ms.assetid: 4526da20-04e7-47b2-b576-8dc36c08b053
+keywords:
+- WM_RASDIALEVENT message RAS
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Ras.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_RASDIALEVENT message
 
-The operating system sends a **WM\_RASDIALEVENT** message to a window procedure when a change of state event occurs during a RAS connection process. This happens when a window has been specified to handle notifications of such events by using the *notifier* parameter of [**RasDial**](rasdial.md).
+The operating system sends a **WM\_RASDIALEVENT** message to a window procedure when a change of state event occurs during a RAS connection process. This happens when a window has been specified to handle notifications of such events by using the *notifier* parameter of [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master).
 
-The two message parameters are equivalent to the parameters of the same names that are used with [**RasDialFunc**](rasdialfunc.md) and [**RasDialFunc1**](rasdialfunc1.md) callback functions.
+The two message parameters are equivalent to the parameters of the same names that are used with [**RasDialFunc**](/windows/win32/Ras/nc-ras-rasdialfunc?branch=master) and [**RasDialFunc1**](/windows/win32/Ras/nc-ras-rasdialfunc1?branch=master) callback functions.
 
 
 ```C++
@@ -36,16 +42,16 @@ dwError = (DWORD) lParam;
 *rasconnstate* 
 </dt> <dd>
 
-Value of *wParam*. Equivalent to the *rasconnstate* parameter of the [**RasDialFunc**](rasdialfunc.md) and [**RasDialFunc1**](rasdialfunc1.md) callback functions. Specifies a [**RASCONNSTATE**](rasconnstate.md) enumerator value that indicates the state the RasDial remote access connection process is about to enter.
+Value of *wParam*. Equivalent to the *rasconnstate* parameter of the [**RasDialFunc**](/windows/win32/Ras/nc-ras-rasdialfunc?branch=master) and [**RasDialFunc1**](/windows/win32/Ras/nc-ras-rasdialfunc1?branch=master) callback functions. Specifies a [**RASCONNSTATE**](/windows/win32/Ras/?branch=master) enumerator value that indicates the state the RasDial remote access connection process is about to enter.
 
 </dd> <dt>
 
 *dwError* 
 </dt> <dd>
 
-Value of *lParam*. Equivalent to the *dwError* parameter of the [**RasDialFunc**](rasdialfunc.md) and [**RasDialFunc1**](rasdialfunc1.md) callback functions. A nonzero value indicates the error that has occurred, or zero if no error has occurred.
+Value of *lParam*. Equivalent to the *dwError* parameter of the [**RasDialFunc**](/windows/win32/Ras/nc-ras-rasdialfunc?branch=master) and [**RasDialFunc1**](/windows/win32/Ras/nc-ras-rasdialfunc1?branch=master) callback functions. A nonzero value indicates the error that has occurred, or zero if no error has occurred.
 
-[**RasDial**](rasdial.md) sends this message with *dwError* set to zero upon entry to each connection state. If an error occurs within a state, the message is sent again for the state, this time with a nonzero *dwError* value.
+[**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) sends this message with *dwError* set to zero upon entry to each connection state. If an error occurs within a state, the message is sent again for the state, this time with a nonzero *dwError* value.
 
 </dd> </dl>
 
@@ -59,8 +65,8 @@ If an application processes this message, it should return **TRUE**.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Ras.h</dt> </dl> |
 
 
@@ -75,21 +81,21 @@ If an application processes this message, it should return **TRUE**.
 [Remote Access Service Messages](remote-access-service-messages.md)
 </dt> <dt>
 
-[**RasDial**](rasdial.md)
+[**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master)
 </dt> <dt>
 
-[**RasDialFunc**](rasdialfunc.md)
+[**RasDialFunc**](/windows/win32/Ras/nc-ras-rasdialfunc?branch=master)
 </dt> <dt>
 
-[**RasDialFunc1**](rasdialfunc1.md)
+[**RasDialFunc1**](/windows/win32/Ras/nc-ras-rasdialfunc1?branch=master)
 </dt> <dt>
 
-[**RASCONNSTATE**](rasconnstate.md)
+[**RASCONNSTATE**](/windows/win32/Ras/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

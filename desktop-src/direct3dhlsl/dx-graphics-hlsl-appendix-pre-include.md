@@ -1,14 +1,20 @@
 ---
-title: \ include Directive
+title: '\ include Directive'
 description: Preprocessor directive that inserts the contents of the specified file into the source program at the point where the directive appears.
-ms.assetid: '24796d89-5690-469b-950e-df56783aa05a'
-keywords: ["include Directive HLSL"]
+ms.assetid: 24796d89-5690-469b-950e-df56783aa05a
+keywords:
+- include Directive HLSL
 topic_type:
 - apiref
 api_name:
 - include Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#include Directive
@@ -23,7 +29,7 @@ Preprocessor directive that inserts the contents of the specified file into the 
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Preprocessor directive that inserts the contents of the specified file into the 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -44,7 +50,7 @@ The \#include directive causes replacement of the directive by the entire conten
 > [!Note]  
 > The [Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919) has a built-in include handler using the /I switch. However, when executing the compiler from the API, you can provide a customized include handler by implementing the ID3DXInclude interface.
 
- 
+ 
 
 The difference between the two syntax forms is the order in which the preprocessor searches for header files when the path is incompletely specified, as shown in the following table.
 
@@ -95,7 +101,7 @@ The INCLUDE environment variable is ignored in an development environment. Refer
 
 
 
- 
+ 
 
 ## Examples
 
@@ -121,9 +127,9 @@ The following example causes the preprocessor to replace the \#include directive
 [Effect-Compiler Tool](https://msdn.microsoft.com/library/windows/desktop/bb232919)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

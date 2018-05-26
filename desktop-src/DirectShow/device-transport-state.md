@@ -1,12 +1,17 @@
 ---
 Description: Device Transport State
-ms.assetid: '15edded0-207c-41e8-81fe-deb6335045eb'
+ms.assetid: 15edded0-207c-41e8-81fe-deb6335045eb
 title: Device Transport State
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Transport State
 
-To retrieve the current state of the device, such as play, pause, or stop, call the [**IAMExtTransport::get\_Mode**](iamexttransport-get-mode.md) method. The method retrieves a constant that indicates the device state:
+To retrieve the current state of the device, such as play, pause, or stop, call the [**IAMExtTransport::get\_Mode**](/windows/win32/Strmif/nf-strmif-iamexttransport-get_mode?branch=master) method. The method retrieves a constant that indicates the device state:
 
 
 

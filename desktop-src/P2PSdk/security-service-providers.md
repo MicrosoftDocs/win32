@@ -1,12 +1,17 @@
 ---
-Description: 'The Security Service Provider Interface (SSPI) provides a universal, industry-standard interface for secure distributed applications.'
-ms.assetid: 'c3cebb9d-9094-493f-96d3-763a0c282dfb'
+Description: The Security Service Provider Interface (SSPI) provides a universal, industry-standard interface for secure distributed applications.
+ms.assetid: c3cebb9d-9094-493f-96d3-763a0c282dfb
 title: Security Service Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Service Providers
 
-The Security Service Provider Interface (SSPI) provides a universal, industry-standard interface for secure distributed applications. The Peer Graphing API provides a way for applications to secure links in a graph by specifying a Security Service Provider (SSP), which is a DLL that implements an SSPI interface. An application specifies an SSP when it creates a graph by using [**PeerGraphCreate**](peergraphcreate.md).
+The Security Service Provider Interface (SSPI) provides a universal, industry-standard interface for secure distributed applications. The Peer Graphing API provides a way for applications to secure links in a graph by specifying a Security Service Provider (SSP), which is a DLL that implements an SSPI interface. An application specifies an SSP when it creates a graph by using [**PeerGraphCreate**](/windows/win32/P2P/nf-p2p-peergraphcreate?branch=master).
 
 For more information about creating your own SSP, see the SSPI documentation link in the list of [Graphing Reference Links](graphing-reference-links.md).
 

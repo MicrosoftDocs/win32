@@ -4,11 +4,16 @@ description: Before discussing where to bind to begin a search for objects in a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fd0b4556-465b-4338-87cb-375450590c44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fd0b4556-465b-4338-87cb-375450590c44
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["domain contents Active Directory", "searching domain contents Active Directory"]
+keywords:
+- domain contents Active Directory
+- searching domain contents Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching Domain Contents

@@ -1,22 +1,27 @@
 ---
-Description: 'Occurs after the InkPicture control has been resized, specifically, after the Width or Height property value changes.'
-ms.assetid: 'a5fc6c82-f9c8-4104-8abe-082c47c56be9'
-title: 'InkPicture.SizeChanged event'
+Description: Occurs after the InkPicture control has been resized, specifically, after the Width or Height property value changes.
+ms.assetid: a5fc6c82-f9c8-4104-8abe-082c47c56be9
+title: InkPicture.SizeChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.SizeChanged event
 
-Occurs after the [InkPicture](inkpicture-control-reference.md) control has been resized, specifically, after the [**Width**](inkdrawingattributes-width.md) or [**Height**](inkdrawingattributes-height.md) property value changes.
+Occurs after the [InkPicture](inkpicture-control-reference.md) control has been resized, specifically, after the [**Width**](/windows/win32/msinkaut/?branch=master) or [**Height**](/windows/win32/msinkaut/?branch=master) property value changes.
 
 ## Syntax
 
 
 ```C++
 void SizeChanged(
-  [in] long Left,
-  [in] long Top,
-  [in] long Right,
-  [in] long Bottom
+  [in] long Left,
+  [in] long Top,
+  [in] long Right,
+  [in] long Bottom
 );
 ```
 
@@ -68,7 +73,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -82,9 +87,9 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 [InkPicture](inkpicture-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

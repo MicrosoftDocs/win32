@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_CONTACT\_GROUP'
-ms.assetid: 'ddebb789-7e60-4728-a0a4-94c06d8a98f9'
-title: 'WPD\_CONTENT\_TYPE\_CONTACT\_GROUP'
+Description: WPD\_CONTENT\_TYPE\_CONTACT\_GROUP
+ms.assetid: ddebb789-7e60-4728-a0a4-94c06d8a98f9
+title: WPD\_CONTENT\_TYPE\_CONTACT\_GROUP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_CONTACT\_GROUP

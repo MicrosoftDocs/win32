@@ -1,7 +1,12 @@
 ---
 title: Order of Precedence Rules
 description: Order of Precedence Rules
-ms.assetid: '7e34f447-013e-4a07-a0cd-5fbf26cd2371'
+ms.assetid: 7e34f447-013e-4a07-a0cd-5fbf26cd2371
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Order of Precedence Rules

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes various configuraion capabilities for fax service applications.'
-ms.assetid: 'c7effe40-b84e-4651-aa1b-c49b302fa229'
+Description: This topic describes various configuraion capabilities for fax service applications.
+ms.assetid: c7effe40-b84e-4651-aa1b-c49b302fa229
 title: Device and Configuration Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device and Configuration Management

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.'
-ms.assetid: '65edce14-f225-4b7f-b953-32b085e1cabf'
+---
+Description: Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.
+ms.assetid: 65edce14-f225-4b7f-b953-32b085e1cabf
 title: GetSuggestedOPMProtectedOutputArraySize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSuggestedOPMProtectedOutputArraySize function

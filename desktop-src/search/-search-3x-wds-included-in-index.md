@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes the items that Windows Search indexes.'
-ms.assetid: '3f87970b-ca5b-484f-a8bf-152841b158d3'
+---
+Description: This topic describes the items that Windows Search indexes.
+ms.assetid: 3f87970b-ca5b-484f-a8bf-152841b158d3
 title: What Is Included in the Index
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What Is Included in the Index

@@ -1,8 +1,17 @@
 ---
 title: Data Input and Output
 description: Data Input and Output
-ms.assetid: 'a03b5327-65df-4cb9-a639-1e943ac28bfc'
-keywords: ["Windows Media Player plug-ins,data input and output", "plug-ins,data input and output", "digital signal processing plug-ins,data input and output", "DSP plug-ins,data input and output"]
+ms.assetid: a03b5327-65df-4cb9-a639-1e943ac28bfc
+keywords:
+- Windows Media Player plug-ins,data input and output
+- plug-ins,data input and output
+- digital signal processing plug-ins,data input and output
+- DSP plug-ins,data input and output
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Input and Output

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the maximum time, in milliseconds, between key frames in the codec output.'
-ms.assetid: '2a52e6a5-10a0-46dd-aa31-cb55094903b5'
-title: 'MFPKEY\_KEYDIST Property'
+---
+Description: Specifies the maximum time, in milliseconds, between key frames in the codec output.
+ms.assetid: 2a52e6a5-10a0-46dd-aa31-cb55094903b5
+title: MFPKEY\_KEYDIST Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_KEYDIST Property

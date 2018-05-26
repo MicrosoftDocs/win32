@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.RelatedSoundFile property.'
-ms.assetid: '3b212d90-7ae2-4b7c-b77a-2017490aca40'
-title: 'System.Photo.RelatedSoundFile Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.RelatedSoundFile property.
+ms.assetid: 3b212d90-7ae2-4b7c-b77a-2017490aca40
+title: System.Photo.RelatedSoundFile Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.RelatedSoundFile Photo Metadata Policy

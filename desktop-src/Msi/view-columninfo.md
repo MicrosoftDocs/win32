@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ColumnInfo property of the View object returns a Record object containing the requested information about each column in the result set.'
-ms.assetid: '8cfa504c-a6f1-443e-9b3a-b230c4c39b64'
-title: 'View.ColumnInfo property'
+---
+Description: The ColumnInfo property of the View object returns a Record object containing the requested information about each column in the result set.
+ms.assetid: 8cfa504c-a6f1-443e-9b3a-b230c4c39b64
+title: View.ColumnInfo property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # View.ColumnInfo property

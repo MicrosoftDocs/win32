@@ -1,7 +1,12 @@
 ---
-Description: 'User Account Control (UAC) patching enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users.'
-ms.assetid: 'f7d64f61-24c8-4037-a10b-d68d0e9e3c42'
-title: 'User Account Control (UAC) Patching'
+Description: User Account Control (UAC) patching enables the authors of Windows Installer installations to identify digitally-signed patches that can be applied in the future by non-administrator users.
+ms.assetid: f7d64f61-24c8-4037-a10b-d68d0e9e3c42
+title: User Account Control (UAC) Patching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Account Control (UAC) Patching
@@ -34,7 +39,7 @@ A patch that has been applied using UAC patching can also be removed by a non-ad
 
 Administrators can apply patches to per-machine installed products regardless of the application's UAC setting.
 
-You can determine whether least-privilege patching is enabled for an application by using the [**MsiGetProductInfoEx**](msigetproductinfoex.md) function to query for the INSTALLPROPERTY\_AUTHORIZED\_LUA\_APP property, or by using the [**ProductInfo**](installer-productinfo.md) method to query for the "AuthorizedLUAApp" property. If the value of either property is 1, the application is enabled for least-privilege user account patching.
+You can determine whether least-privilege patching is enabled for an application by using the [**MsiGetProductInfoEx**](/windows/win32/Msi/nf-msi-msigetproductinfoexa?branch=master) function to query for the INSTALLPROPERTY\_AUTHORIZED\_LUA\_APP property, or by using the [**ProductInfo**](installer-productinfo.md) method to query for the "AuthorizedLUAApp" property. If the value of either property is 1, the application is enabled for least-privilege user account patching.
 
 An administrator can disable least-privilege patching on the computer by setting the [DisableLUAPatching](disableluapatching.md) policy to 1. You can set the [**MSIDISABLELUAPATCHING**](msidisableluapatching.md) property to 1 during the initial installation of an application to prevent least-privilege patching for that application only.
 

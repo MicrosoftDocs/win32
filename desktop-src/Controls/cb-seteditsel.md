@@ -1,8 +1,9 @@
 ---
 title: CB\_SETEDITSEL message
 description: An application sends a CB\_SETEDITSEL message to select characters in the edit control of a combo box.
-ms.assetid: '25a07341-a21c-42a9-a220-62650997757b'
-keywords: ["CB_SETEDITSEL message Windows Controls"]
+ms.assetid: 25a07341-a21c-42a9-a220-62650997757b
+keywords:
+- CB_SETEDITSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETEDITSEL message
@@ -31,9 +37,9 @@ This parameter is not used.
 *lParam* \[in\]
 </dt> <dd>
 
-The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) of *lParam* specifies the starting position. If the **LOWORD** is –1, the selection, if any, is removed.
+The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) of *lParam* specifies the starting position. If the **LOWORD** is  1, the selection, if any, is removed.
 
-The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of *lParam* specifies the ending position. If the **HIWORD** is –1, all text from the starting position to the last character in the edit control is selected.
+The [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) of *lParam* specifies the ending position. If the **HIWORD** is  1, all text from the starting position to the last character in the edit control is selected.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ The positions are zero-based. The first character of the edit control is in the 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ The positions are zero-based. The first character of the edit control is in the 
 [**MAKELPARAM**](https://msdn.microsoft.com/library/windows/desktop/ms632661)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

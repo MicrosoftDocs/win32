@@ -1,7 +1,7 @@
 ---
 title: Identity constants
-description: Specifies the length of the strings for the package's identity fields.
-ms.assetid: 'C4F81822-B502-4360-AEA4-829F1AB926BF'
+description: Specifies the length of the strings for the packages identity fields.
+ms.assetid: C4F81822-B502-4360-AEA4-829F1AB926BF
 topic_type:
 - apiref
 api_name:
@@ -29,6 +29,11 @@ api_location:
 - AppModel.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identity constants
@@ -38,7 +43,7 @@ Specifies the length of the strings for the package's identity fields. The lengt
 > [!Note]  
 > Constants in the form: **APPLICATION\_USER\_MODEL\_ID\_\*\_LENGTH** and **PACKAGE\_RELATIVE\_APPLICATION\_ID\_\*\_LENGTH** include space for a NULL terminator, but constants in the form: **PACKAGE\_\*\_LENGTH** do not include space for a NULL terminator.
 
- 
+ 
 
 
 
@@ -73,15 +78,15 @@ Specifies the length of the strings for the package's identity fields. The lengt
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>AppModel.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

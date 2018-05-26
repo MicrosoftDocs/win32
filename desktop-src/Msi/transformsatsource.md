@@ -1,7 +1,12 @@
-﻿---
-Description: 'Setting this property is like setting the TransformsAtSource policy policy except that the scope is different.'
-ms.assetid: 'b78c3757-d969-4684-84b9-b2acfd9f5c82'
+---
+Description: Setting this property is like setting the TransformsAtSource policy policy except that the scope is different.
+ms.assetid: b78c3757-d969-4684-84b9-b2acfd9f5c82
 title: TRANSFORMSATSOURCE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRANSFORMSATSOURCE property

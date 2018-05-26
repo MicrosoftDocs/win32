@@ -1,7 +1,12 @@
 ---
-Description: 'A new segment has started.'
-ms.assetid: '9742436a-e233-4641-a0d5-aa240cde5f28'
-title: 'EC\_SEGMENT\_STARTED'
+Description: A new segment has started.
+ms.assetid: 9742436a-e233-4641-a0d5-aa240cde5f28
+title: EC\_SEGMENT\_STARTED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_SEGMENT\_STARTED
@@ -34,7 +39,7 @@ This event is not sent to the application. Applications cannot override the defa
 
 If a filter will send an [**EC\_END\_OF\_SEGMENT**](ec-end-of-segment.md) at the end of a segment, it sends this event at the start of the segment. The filter graph manager uses this event notification to compute how many EC\_END\_OF\_SEGMENT notifications it should expect at the end of the segment.
 
-By default, filters do not send [**EC\_END\_OF\_SEGMENT**](ec-end-of-segment.md) events at the end of segments, and therefore should not send this event. For more information, see [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md).
+By default, filters do not send [**EC\_END\_OF\_SEGMENT**](ec-end-of-segment.md) events at the end of segments, and therefore should not send this event. For more information, see [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master).
 
 ## Requirements
 
@@ -56,9 +61,9 @@ By default, filters do not send [**EC\_END\_OF\_SEGMENT**](ec-end-of-segment.md)
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

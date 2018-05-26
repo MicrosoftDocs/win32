@@ -4,11 +4,12 @@ description: Obtains the list of log files that must be backed up for the given 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '09b3fdac-41ea-471c-a0dd-54414181f6fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 09b3fdac-41ea-471c-a0dd-54414181f6fe
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsBackupGetBackupLogs function Active Directory"]
+keywords:
+- DsBackupGetBackupLogs function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsBackupGetBackupLogs function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsBackupGetBackupLogs** function obtains the list of log files that must be backed up for the given backup context.
 
@@ -32,9 +36,9 @@ The **DsBackupGetBackupLogs** function obtains the list of log files that must b
 
 ```C++
 HRESULT DsBackupGetBackupLogs(
-  _In_  HBC     hbc,
-  _Out_ LPTSTR  *pszBackupLogFiles,
-  _Out_ LPDWORD pcbSize
+  _In_  HBC     hbc,
+  _Out_ LPTSTR  *pszBackupLogFiles,
+  _Out_ LPDWORD pcbSize
 );
 ```
 
@@ -108,8 +112,8 @@ The **DsBackupGetBackupLogs** function provides a list of the log files necessar
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -136,9 +140,9 @@ The **DsBackupGetBackupLogs** function provides a list of the log files necessar
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

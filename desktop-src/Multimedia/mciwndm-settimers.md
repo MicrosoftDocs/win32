@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_SETTIMERS message
 description: The MCIWNDM\_SETTIMERS message sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window.
-ms.assetid: '06407c67-b620-4f80-9fe9-456cdf3d0666'
-keywords: ["MCIWNDM_SETTIMERS message Windows Multimedia"]
+ms.assetid: 06407c67-b620-4f80-9fe9-456cdf3d0666
+keywords:
+- MCIWNDM_SETTIMERS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_SETTIMERS message
 
-The **MCIWNDM\_SETTIMERS** message sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window. You can send this message explicitly or by using the [**MCIWndSetTimers**](mciwndsettimers.md) macro.
+The **MCIWNDM\_SETTIMERS** message sets the update periods used by MCIWnd to update the trackbar in the MCIWnd window, update the position information displayed in the window title bar, and send notification messages to the parent window. You can send this message explicitly or by using the [**MCIWndSetTimers**](/windows/win32/Vfw/nf-vfw-mciwndsettimers?branch=master) macro.
 
 
 ```C++
@@ -54,8 +60,8 @@ This message does not return a value.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -64,12 +70,12 @@ This message does not return a value.
 
 <dl> <dt>
 
-[**MCIWndSetTimers**](mciwndsettimers.md)
+[**MCIWndSetTimers**](/windows/win32/Vfw/nf-vfw-mciwndsettimers?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

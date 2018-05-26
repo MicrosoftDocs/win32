@@ -1,7 +1,12 @@
 ---
-Description: 'The Formatted Type of semantic type is one of the Text Format Types.'
-ms.assetid: '44af5b5c-bbf9-4043-8076-0881680a36c1'
+Description: The Formatted Type of semantic type is one of the Text Format Types.
+ms.assetid: 44af5b5c-bbf9-4043-8076-0881680a36c1
 title: Formatted Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatted Type

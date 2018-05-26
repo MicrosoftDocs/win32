@@ -1,14 +1,20 @@
 ---
 title: strTableRef Simple Type
 description: Defines a string that references a message string that is defined in a string table in the manifest or in a message (.mc) file.
-ms.assetid: 'ecbcefcb-3265-4508-be7d-17a0fe3fe911'
-keywords: ["strTableRef simple type EventLog"]
+ms.assetid: ecbcefcb-3265-4508-be7d-17a0fe3fe911
+keywords:
+- strTableRef simple type EventLog
 topic_type:
 - apiref
 api_name:
 - strTableRef
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # strTableRef Simple Type
@@ -41,14 +47,14 @@ The **strTableRef** simple type is a **xs:string** that is restricted by the fol
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

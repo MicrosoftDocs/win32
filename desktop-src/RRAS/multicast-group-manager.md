@@ -1,7 +1,12 @@
 ---
 title: Multicast Group Manager
 description: Multicast Group Manager
-ms.assetid: '55216742-d67c-4a17-aaf9-0b087938061e'
+ms.assetid: 55216742-d67c-4a17-aaf9-0b087938061e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multicast Group Manager

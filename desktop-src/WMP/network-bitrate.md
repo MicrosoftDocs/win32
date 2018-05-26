@@ -1,8 +1,9 @@
 ---
 title: Network.bitRate
 description: The bitRate property retrieves the current bit rate being received.
-ms.assetid: 'e970a43a-1773-4dc0-ac2f-115f698bc1f4'
-keywords: ["Network.bitRate Windows Media Player"]
+ms.assetid: e970a43a-1773-4dc0-ac2f-115f698bc1f4
+keywords:
+- Network.bitRate Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.bitRate
@@ -75,9 +81,9 @@ The following JScript example uses *Network*.**bitRate** to display the current 
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Typically, the latency between tiers of a distributed application differs greatly.'
-ms.assetid: '4780a9fd-5940-4b10-a596-22214b17c033'
+Description: Typically, the latency between tiers of a distributed application differs greatly.
+ms.assetid: 4780a9fd-5940-4b10-a596-22214b17c033
 title: Optimizing Interactions Between the COM+ Business Logic Tier and the Presentation Tier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optimizing Interactions Between the COM+ Business Logic Tier and the Presentation Tier
@@ -38,11 +43,11 @@ The following table shows areas where extra care needs to be taken when using an
 
 
 
- 
+ 
 
 The four columns define areas to watch out for when using that option to pass parameters.
 
--   **The Concurrency column** represents the need to code or provide a mechanism that manages locking conditions on update operations. Since methods that perform saves can represent updates, concurrency problems can arise. Two types of locking are prevalent—optimistic and pessimistic. Pessimistic locks prevent a user from getting data for update while another user has the potential for performing an update. Optimistic locking supports a great many more users by trading against the likelihood that any two users would be updating the same document at the same time. Optimistic locking calls for checking to see that the data that is stored matches the data at the point when a copy of the data was accessed for modification. ADO recordsets provide automatic support for optimistic locking. Update scenarios involving single row parameter lists do not provide sufficient support for concurrency checking. XML suffers from this same problem, in that no locking awareness is present in XML data.
+-   **The Concurrency column** represents the need to code or provide a mechanism that manages locking conditions on update operations. Since methods that perform saves can represent updates, concurrency problems can arise. Two types of locking are prevalent optimistic and pessimistic. Pessimistic locks prevent a user from getting data for update while another user has the potential for performing an update. Optimistic locking supports a great many more users by trading against the likelihood that any two users would be updating the same document at the same time. Optimistic locking calls for checking to see that the data that is stored matches the data at the point when a copy of the data was accessed for modification. ADO recordsets provide automatic support for optimistic locking. Update scenarios involving single row parameter lists do not provide sufficient support for concurrency checking. XML suffers from this same problem, in that no locking awareness is present in XML data.
 -   **The WAN column** represents conditions where there may be transmission contention on a wide area network (WAN ). When the WAN does not have sufficient capacity to manage all of the data being moved at any one time, application users experience response time delays. To support optimistic concurrency, disconnected ADO recordsets pass two copies of the data from the server to the client. The second copy is used by the client to determine the smallest update rowset to pass back when a change is being committed. While this cuts down on traffic from the presentation tier to the data, the extra load of the second copy can be significant. Using recordsets as the sole means of passing all information therefore causes twice as much data to be passed between tiers as is required, except when the update rowset is being passed back to the data tier from a presentation tier.
 -   **The Deployment column** represents issues associated with data passing when special technology is required on both the caller and component side of the network. For example, using ADO recordsets requires ADO components to be present on both client and server. XML parsers must be present on both sides as well, to avoid having to code parsers into your applications.
 -   **The Complexity column** is indicated for all four choices, and is a matter of preference or prior programming model experience that may be already established in your development organization. Some people find parameter passing to be cumbersome and feel it adds too much complexity to the programming problem. Keeping track of which parameter you are handling, and getting them all visible in one editing window, can create a logistical complexity that some developers find unmanageable.
@@ -71,9 +76,9 @@ Simple design choices such as choosing the same parameter name for the same piec
 [Optimizing Interactions Between the COM+ Business Logic Tier and the Data Tier](optimizing-interactions-between-the-com--business-logic-tier-and-the-data-tier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

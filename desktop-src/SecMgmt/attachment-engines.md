@@ -1,7 +1,12 @@
 ---
-Description: 'An attachment engine is a DLL that handles service-specific configuration and analysis requests.'
-ms.assetid: 'bbca486a-9eec-4510-b5fd-435972182a69'
+Description: An attachment engine is a DLL that handles service-specific configuration and analysis requests.
+ms.assetid: bbca486a-9eec-4510-b5fd-435972182a69
 title: Attachment Engines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attachment Engines

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents configuration data for a VLAN endpoint.'
-ms.assetid: '5ef3cc55-cf27-40b4-9e94-2e2b42ca41c5'
-title: 'CIM\_VLANEndpointSettingData class'
+Description: Represents configuration data for a VLAN endpoint.
+ms.assetid: 5ef3cc55-cf27-40b4-9e94-2e2b42ca41c5
+title: CIM\_VLANEndpointSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VLANEndpointSettingData class
@@ -67,7 +72,7 @@ The default value for the native VLAN on the trunk endpoint.
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **OperationalEndpointMode** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -88,7 +93,7 @@ The VLAN ID that is used to tag untagged traffic received on the trunk endpoint.
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **SwitchEndpointMode** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -109,7 +114,7 @@ An array that contains IDs of VLANs that the system may remove from the trunk en
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **OperationalEndpointMode** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -130,7 +135,7 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 > [!Note]  
 > This property is only used when the VLAN endpoint is operating in trunking mode, which is specified in the **OperationalEndpointMode** property.
 
- 
+ 
 
 </dd> </dl>
 
@@ -140,8 +145,8 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -155,9 +160,9 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

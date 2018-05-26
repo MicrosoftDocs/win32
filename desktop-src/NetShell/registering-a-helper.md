@@ -1,8 +1,15 @@
 ---
 title: Registering a Helper
 description: Helpers should register themselves in the Windows registry during their installation process.
-ms.assetid: '41548a13-5785-471b-ab3e-09a066c467bc'
-keywords: ["helper NetSh , registering", "NetShell NetSh , tasks, registering a helper"]
+ms.assetid: 41548a13-5785-471b-ab3e-09a066c467bc
+keywords:
+- helper NetSh , registering
+- NetShell NetSh , tasks, registering a helper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Helper

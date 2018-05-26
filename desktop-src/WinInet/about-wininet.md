@@ -1,8 +1,18 @@
 ---
 title: About WinINet
 description: The Windows Internet (WinINet) application programming interface (API) enables applications to interact with FTP, and HTTP protocols to access Internet resources.
-ms.assetid: '0a06f2af-957a-4dff-a8cc-187370181b5c'
-keywords: ["About WinINet WinINet", "WinINet WinINet , about", "WinINet WinINet , start page", "Windows Internet WinINet", "Internet, Windows Internet WinINet"]
+ms.assetid: 0a06f2af-957a-4dff-a8cc-187370181b5c
+keywords:
+- About WinINet WinINet
+- WinINet WinINet , about
+- WinINet WinINet , start page
+- Windows Internet WinINet
+- Internet, Windows Internet WinINet
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About WinINet

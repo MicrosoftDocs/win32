@@ -4,11 +4,16 @@ description: This section contains reference information for the API elements th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '352a77a1-19b2-4862-8e11-fff6db5b0d3b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 352a77a1-19b2-4862-8e11-fff6db5b0d3b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 Reference", "Microsoft Management Console MMC 2.0 , reference"]
+keywords:
+- MMC 2.0 Reference
+- Microsoft Management Console MMC 2.0 , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Reference

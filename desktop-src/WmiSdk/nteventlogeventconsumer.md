@@ -1,13 +1,16 @@
 ---
-Description: 'The NTEventLogEventConsumer class logs a specific message to the operating system event log when an event is delivered to it.'
+Description: The NTEventLogEventConsumer class logs a specific message to the operating system event log when an event is delivered to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cf986812-f09a-4f32-ba76-db76a23e2e4c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cf986812-f09a-4f32-ba76-db76a23e2e4c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: NTEventLogEventConsumer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NTEventLogEventConsumer class
@@ -20,7 +23,7 @@ The **NTEventLogEventConsumer** class logs a specific message to the operating s
 [AMENDMENT]
 class NTEventLogEventConsumer : __EventConsumer
 {
-  uint8  CreatorSID[];
+  uint8  CreatorSID[];
   string MachineName;
   uint32 MaximumQueueSize;
   uint16 Category;
@@ -282,7 +285,7 @@ Source name where a message is located. The customer is assumed to have register
 > [!Note]  
 > The value of this parameter must not include a colon (:) character.
 
- 
+ 
 
 </dd> <dt>
 
@@ -315,8 +318,8 @@ For an example of using **NTEventLogEventConsumer** to create a consumer, see [L
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\subscription<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>Wbemcons.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemcons.dll</dt> </dl> |
@@ -339,9 +342,9 @@ For an example of using **NTEventLogEventConsumer** to create a consumer, see [L
 [**\_\_EventConsumer**](--eventconsumer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

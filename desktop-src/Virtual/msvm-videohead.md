@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VideoHead class
 description: Describes the primary drawing surface on a display controller.
-ms.assetid: '33aa39fa-6de1-4f65-bca6-1371849993b1'
-keywords: ["Msvm_VideoHead class Hyper-V", "Msvm_VideoHead class Hyper-V , described"]
+ms.assetid: 33aa39fa-6de1-4f65-bca6-1371849993b1
+keywords:
+- Msvm_VideoHead class Hyper-V
+- Msvm_VideoHead class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -62,6 +64,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VideoHead class
@@ -76,49 +83,49 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VideoHead : CIM_VideoHead
 {
-  string   Caption = "Video Head";
-  string   Description = "Microsoft Virtual Video Head";
-  string   ElementName = "Video Head";
+  string   Caption = "Video Head";
+  string   Description = "Microsoft Virtual Video Head";
+  string   ElementName = "Video Head";
   datetime InstallDate;
-  string   Name = "Video Head";
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Video Head";
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_VideoHead";
-  string   DeviceID = "Microsoft:GUID\Head\Index";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
-  uint32   CurrentBitsPerPixel;
-  uint32   CurrentHorizontalResolution;
-  uint32   CurrentVerticalResolution;
-  uint32   MaxRefreshRate;
-  uint32   MinRefreshRate;
-  uint32   CurrentRefreshRate;
-  uint16   CurrentScanMode;
-  string   OtherCurrentScanMode;
-  uint64   CurrentNumberOfColors;
-  string   StatusDescriptions[] = { "OK" };
-  uint32   CurrentNumberOfRows;
-  uint32   CurrentNumberOfColumns;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_VideoHead";
+  string   DeviceID = "Microsoft:GUID\Head\Index";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
+  uint32   CurrentBitsPerPixel;
+  uint32   CurrentHorizontalResolution;
+  uint32   CurrentVerticalResolution;
+  uint32   MaxRefreshRate;
+  uint32   MinRefreshRate;
+  uint32   CurrentRefreshRate;
+  uint16   CurrentScanMode;
+  string   OtherCurrentScanMode;
+  uint64   CurrentNumberOfColors;
+  string   StatusDescriptions[] = { "OK" };
+  uint32   CurrentNumberOfRows;
+  uint32   CurrentNumberOfColumns;
 };
 ```
 
@@ -148,7 +155,7 @@ The **Msvm\_VideoHead** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -929,9 +936,9 @@ Access to the **Msvm\_VideoHead** class might be restricted by UAC Filtering. Fo
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -950,9 +957,9 @@ Access to the **Msvm\_VideoHead** class might be restricted by UAC Filtering. Fo
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

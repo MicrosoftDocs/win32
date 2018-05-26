@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Media Foundation H.264 video decoder is a Media Foundation Transform that supports decoding of Baseline, Main, and High profiles, up to level 5.1.'
-ms.assetid: '783a3618-981a-4573-9e9e-ebf5eeb75d06'
-title: 'H.264 Video Decoder'
+---
+Description: The Media Foundation H.264 video decoder is a Media Foundation Transform that supports decoding of Baseline, Main, and High profiles, up to level 5.1.
+ms.assetid: 783a3618-981a-4573-9e9e-ebf5eeb75d06
+title: H.264 Video Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # H.264 Video Decoder
@@ -11,17 +16,17 @@ The Media Foundation H.264 video decoder is a [Media Foundation Transform](media
 The H.264 video decoder exposes the following interfaces.
 
 -   [**ICodecAPI**](dshow.icodecapi) (supported in Windows 8)
--   [**IMFGetService**](imfgetservice.md)
--   [**IMFQualityAdvise**](imfqualityadvise.md)
--   [**IMFQualityAdvise2**](imfqualityadvise2.md)
--   [**IMFRateControl**](imfratecontrol.md)
--   [**IMFRateSupport**](imfratesupport.md)
--   [**IMFRealTimeClient**](imfrealtimeclient.md)
--   [**IMFTransform**](imftransform.md)
+-   [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master)
+-   [**IMFQualityAdvise**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise?branch=master)
+-   [**IMFQualityAdvise2**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise2?branch=master)
+-   [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master)
+-   [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)
+-   [**IMFRealTimeClient**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclient?branch=master)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 
 To create an instance of the decoder, do one of the following:
 
--   Call the [**MFTEnum**](mftenum.md) or [**MFTEnumEx**](mftenumex.md) function.
+-   Call the [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) or [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function.
 -   Call [**CoCreateInstance**](com.cocreateinstance). The CLSID for the decoder is **CLSID\_CMSH264DecoderMFT**, declared in wmcodecdsp.h.
 
 ## Input Types
@@ -39,7 +44,7 @@ The input type must contain at least the following two attributes:
 
  
 
-If the input type contains only these two attributes, the decoder will offer a default output type, which acts as a placeholder. When the decoder receives enough input samples to produce an output frame, it signals a format change by returning **MF\_E\_TRANSFORM\_STREAM\_CHANGE** from [**IMFTransform::ProcessOutput**](imftransform-processoutput.md). See the **ProcessOutput** documentation for details about handling format changes.
+If the input type contains only these two attributes, the decoder will offer a default output type, which acts as a placeholder. When the decoder receives enough input samples to produce an output frame, it signals a format change by returning **MF\_E\_TRANSFORM\_STREAM\_CHANGE** from [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master). See the **ProcessOutput** documentation for details about handling format changes.
 
 To avoid an initial format change, provide as much information in the input type as possible, including:
 
@@ -85,7 +90,7 @@ In H.264 video, the interlace structure can change dynamically, so the recommend
 
  
 
-The input type must be set before the output type. Until the input type is set, the encoder's [**IMFTransform::SetOutputType**](imftransform-setoutputtype.md) method returns **MF\_E\_TRANSFORM\_TYPE\_NOT\_SET**.
+The input type must be set before the output type. Until the input type is set, the encoder's [**IMFTransform::SetOutputType**](/windows/win32/mftransform/nf-mftransform-imftransform-setoutputtype?branch=master) method returns **MF\_E\_TRANSFORM\_TYPE\_NOT\_SET**.
 
 ## Output Types
 
@@ -101,7 +106,7 @@ For more information about these subtypes, see [Video Subtype GUIDs](video-subty
 
 ## Transform Attributes
 
-The H.264 decoder implements the [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method. Applications can use this method to get or set the following attributes.
+The H.264 decoder implements the [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method. Applications can use this method to get or set the following attributes.
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: RB\_GETPALETTE message
-description: Retrieves the rebar control's current palette.
-ms.assetid: 'f9eeefb3-8308-45bf-89e4-4f282ee6d935'
-keywords: ["RB_GETPALETTE message Windows Controls"]
+description: Retrieves the rebar controls current palette.
+ms.assetid: f9eeefb3-8308-45bf-89e4-4f282ee6d935
+keywords:
+- RB_GETPALETTE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_GETPALETTE message
@@ -37,8 +43,8 @@ Returns an **HPALETTE** that specifies the rebar control's current palette.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns an **HPALETTE** that specifies the rebar control's current palette.
 [**RB\_SETPALETTE**](rb-setpalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

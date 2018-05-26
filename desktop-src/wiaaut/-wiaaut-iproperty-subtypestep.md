@@ -1,8 +1,11 @@
 ---
 title: Property.SubTypeStep property
 description: Retrieves the step increment of Property values.
-ms.assetid: '1ed27e29-15cd-4c31-bbf6-feb3ab54963d'
-keywords: ["SubTypeStep property WIA Automation", "SubTypeStep property WIA Automation , Property object", "Property object WIA Automation , SubTypeStep property"]
+ms.assetid: 1ed27e29-15cd-4c31-bbf6-feb3ab54963d
+keywords:
+- SubTypeStep property WIA Automation
+- SubTypeStep property WIA Automation , Property object
+- Property object WIA Automation , SubTypeStep property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property.SubTypeStep property
@@ -43,8 +51,8 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -57,9 +65,9 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 [**Property**](-wiaaut-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: The failover cluster object handles are used by the Failover Cluste
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'C77D7123-70B2-4796-8B3A-83E28A667D78'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: C77D7123-70B2-4796-8B3A-83E28A667D78
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Object Handles
@@ -20,175 +23,175 @@ The following object handles are available to the failover cluster management fu
 
 <dl> <dt>
 
-[**\_HCHANGE**](-hchange.md)
+[**\_HCHANGE**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a notification port.
 
 </dd> <dt>
 
-[**\_HCLUSENUM**](-hclusenum.md)
+[**\_HCLUSENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a cluster enumeration.
 
 </dd> <dt>
 
-[**\_HCLUSENUMEX**](-hclusenumex.md)
+[**\_HCLUSENUMEX**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to an extended cluster enumeration.
 
 </dd> <dt>
 
-[**\_HCLUSTER**](-hcluster.md)
+[**\_HCLUSTER**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a cluster.
 
 </dd> <dt>
 
-[**\_HGROUPSET**](-hcollection.md)
+[**\_HGROUPSET**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a groupset.
 
 </dd> <dt>
 
-[**\_HGROUPSETENUM**](-hcollectionenum.md)
+[**\_HGROUPSETENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a groupset enumeration.
 
 </dd> <dt>
 
-[**\_HGROUP**](-hgroup.md)
+[**\_HGROUP**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a cluster group.
 
 </dd> <dt>
 
-[**\_HGROUPENUM**](-hgroupenum.md)
+[**\_HGROUPENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a cluster group enumeration.
 
 </dd> <dt>
 
-[**\_HGROUPENUMEX**](-hgroupenumex.md)
+[**\_HGROUPENUMEX**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to an extended cluster group enumeration.
 
 </dd> <dt>
 
-[**\_HNETINTERFACE**](-hnetinterface.md)
+[**\_HNETINTERFACE**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a network interface.
 
 </dd> <dt>
 
-[**\_HNETINTERFACEENUM**](-hnetinterfaceenum.md)
+[**\_HNETINTERFACEENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to an interface enumeration.
 
 </dd> <dt>
 
-[**\_HNETWORK**](-hnetwork.md)
+[**\_HNETWORK**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a network.
 
 </dd> <dt>
 
-[**\_HNETWORKENUM**](-hnetworkenum.md)
+[**\_HNETWORKENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a network enumeration.
 
 </dd> <dt>
 
-[**\_HNODE**](-hnode.md)
+[**\_HNODE**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a node.
 
 </dd> <dt>
 
-[**\_HNODEENUM**](-hnodeenum.md)
+[**\_HNODEENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a node enumeration.
 
 </dd> <dt>
 
-[**\_HNODEENUMEX**](-hnodeenumex.md)
+[**\_HNODEENUMEX**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to an extended node enumeration.
 
 </dd> <dt>
 
-[**\_HREGBATCH**](-hregbatch.md)
+[**\_HREGBATCH**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a batch.
 
 </dd> <dt>
 
-[**\_HREGBATCHNOTIFICATION**](-hregbatchnotification.md)
+[**\_HREGBATCHNOTIFICATION**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a batch notification.
 
 </dd> <dt>
 
-[**\_HREGBATCHPORT**](-hregbatchport.md)
+[**\_HREGBATCHPORT**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a batch notification port.
 
 </dd> <dt>
 
-[**\_HREGREADBATCH**](-hregreadbatch.md)
+[**\_HREGREADBATCH**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a read batch.
 
 </dd> <dt>
 
-[**\_HREGREADBATCHREPLY**](-hregreadbatchreply.md)
+[**\_HREGREADBATCHREPLY**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a read batch result.
 
 </dd> <dt>
 
-[**\_HRESENUM**](-hresenum.md)
+[**\_HRESENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a resource enumeration.
 
 </dd> <dt>
 
-[**\_HRESENUMEX**](-hresenumex.md)
+[**\_HRESENUMEX**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to an extended resource enumeration.
 
 </dd> <dt>
 
-[**\_HRESOURCE**](-hresource.md)
+[**\_HRESOURCE**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a resource.
 
 </dd> <dt>
 
-[**\_HRESTYPEENUM**](-hrestypeenum.md)
+[**\_HRESTYPEENUM**](/windows/previous-versions/MSClus/?branch=master)
 </dt> <dd>
 
 A handle to a resource type enumeration.

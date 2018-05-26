@@ -1,8 +1,10 @@
 ---
 title: DEVICE\_MEDIA\_INFO structure
 description: A storage class driver returns an array of DEVICE\_MEDIA\_INFO structures, embedded in a GET\_MEDIA\_TYPES structure, in response to an IOCTL\_STORAGE\_GET\_MEDIA\_TYPES\_EX device-control request.
-ms.assetid: '87906511-7bcb-4f4d-9383-44b0501536e3'
-keywords: ["DEVICE_MEDIA_INFO structure Storage Devices", "PDEVICE_MEDIA_INFO structure pointer Storage Devices"]
+ms.assetid: 87906511-7bcb-4f4d-9383-44b0501536e3
+keywords:
+- DEVICE_MEDIA_INFO structure Storage Devices
+- PDEVICE_MEDIA_INFO structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DEVICE\_MEDIA\_INFO structure
@@ -24,36 +31,36 @@ A storage class driver returns an array of **DEVICE\_MEDIA\_INFO** structures, e
 typedef struct _DEVICE_MEDIA_INFO {
   union {
     struct {
-      LARGE_INTEGER      Cylinders;
+      LARGE_INTEGER      Cylinders;
       STORAGE_MEDIA_TYPE MediaType;
-      ULONG              TracksPerCylinder;
-      ULONG              SectorsPerTrack;
-      ULONG              BytesPerSector;
-      ULONG              NumberMediaSides;
-      ULONG              MediaCharacteristics;
-    } DiskInfo;
+      ULONG              TracksPerCylinder;
+      ULONG              SectorsPerTrack;
+      ULONG              BytesPerSector;
+      ULONG              NumberMediaSides;
+      ULONG              MediaCharacteristics;
+    } DiskInfo;
     struct {
-      LARGE_INTEGER      Cylinders;
+      LARGE_INTEGER      Cylinders;
       STORAGE_MEDIA_TYPE MediaType;
-      ULONG              TracksPerCylinder;
-      ULONG              SectorsPerTrack;
-      ULONG              BytesPerSector;
-      ULONG              NumberMediaSides;
-      ULONG              MediaCharacteristics;
-    } RemovableDiskInfo;
+      ULONG              TracksPerCylinder;
+      ULONG              SectorsPerTrack;
+      ULONG              BytesPerSector;
+      ULONG              NumberMediaSides;
+      ULONG              MediaCharacteristics;
+    } RemovableDiskInfo;
     struct {
       STORAGE_MEDIA_TYPE MediaType;
-      ULONG              MediaCharacteristics;
-      ULONG              CurrentBlockSize;
-      STORAGE_BUS_TYPE   BusType;
+      ULONG              MediaCharacteristics;
+      ULONG              CurrentBlockSize;
+      STORAGE_BUS_TYPE   BusType;
       union {
         struct {
           UCHAR MediumType;
           UCHAR DensityCode;
-        } ScsiInformation;
-      } BusSpecificData;
-    } TapeInfo;
-  } DeviceSpecific;
+        } ScsiInformation;
+      } BusSpecificData;
+    } TapeInfo;
+  } DeviceSpecific;
 } DEVICE_MEDIA_INFO, *PDEVICE_MEDIA_INFO;
 ```
 
@@ -281,9 +288,9 @@ The driver fills in an array of **DEVICE\_MEDIA\_INFO** structures, one for each
 [**STORAGE\_MEDIA\_TYPE**](storage-media-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20DEVICE_MEDIA_INFO%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

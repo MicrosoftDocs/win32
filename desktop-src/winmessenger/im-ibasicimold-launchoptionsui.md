@@ -1,8 +1,11 @@
 ---
 title: IBasicIMOld LaunchOptionsUI method
 description: Initiates an Options dialog.
-ms.assetid: '1637907c-b003-4eb9-a52c-abc150b303c4'
-keywords: ["LaunchOptionsUI method Windows Messenger", "LaunchOptionsUI method Windows Messenger , IBasicIMOld interface", "IBasicIMOld interface Windows Messenger , LaunchOptionsUI method"]
+ms.assetid: 1637907c-b003-4eb9-a52c-abc150b303c4
+keywords:
+- LaunchOptionsUI method Windows Messenger
+- LaunchOptionsUI method Windows Messenger , IBasicIMOld interface
+- IBasicIMOld interface Windows Messenger , LaunchOptionsUI method
 topic_type:
 - apiref
 api_name:
@@ -11,18 +14,23 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicIMOld::LaunchOptionsUI method
 
-\[**LaunchOptionsUI** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**LaunchOptionsUI** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Initiates an Options dialog.
 
 > [!Note]  
 > The **LaunchOptionsUI** method is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger.
 
- 
+ 
 
 ## Syntax
 
@@ -49,17 +57,17 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                  |
-| End of server support<br/> | Windows Server 2003<br/>                                                         |
+| End of client support<br/> | Windows XP<br/>                                                                  |
+| End of server support<br/> | Windows Server 2003<br/>                                                         |
 | Header<br/>                | <dl> <dt>Basicim.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Basicim.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

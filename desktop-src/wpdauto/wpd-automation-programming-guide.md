@@ -1,8 +1,21 @@
 ---
 title: WPD Automation Programming Guide
 description: The WPD Automation object model exposes objects, methods, properties, and events that you can use to access the services and storages on a device through web applications that are written in JScript.
-ms.assetid: 'da7e4137-4941-4549-bc62-ba02cfad326e'
-keywords: ["WPD Automation,programming guide", "WPD Automation,object model", "WPD Automation,JScript", "Windows Portable Devices (WPD),WPD Automation object model", "WPD (Windows Portable Devices),WPD Automation object model", "Windows Portable Devices (WPD),WPD Automation", "WPD (Windows Portable Devices),WPD Automation", "programming guide,WPD Automation"]
+ms.assetid: da7e4137-4941-4549-bc62-ba02cfad326e
+keywords:
+- WPD Automation,programming guide
+- WPD Automation,object model
+- WPD Automation,JScript
+- Windows Portable Devices (WPD),WPD Automation object model
+- WPD (Windows Portable Devices),WPD Automation object model
+- Windows Portable Devices (WPD),WPD Automation
+- WPD (Windows Portable Devices),WPD Automation
+- programming guide,WPD Automation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD Automation Programming Guide

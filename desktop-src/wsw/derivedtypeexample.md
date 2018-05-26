@@ -1,13 +1,21 @@
 ---
 title: DerivedTypeExample
 description: This example writes and reads derived types using Wsutil generated C++ helper functions. See WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING for more about derived type descriptions.
-ms.assetid: '279663c0-8797-4f87-aaec-8cb8d4046a05'
-keywords: ["DerivedTypeExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 279663c0-8797-4f87-aaec-8cb8d4046a05
+keywords:
+- DerivedTypeExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DerivedTypeExample
 
-This example writes and reads derived types using Wsutil generated C++ helper functions. See [**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](ws-field-mapping.md) for more about derived type descriptions.
+This example writes and reads derived types using Wsutil generated C++ helper functions. See [**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](/windows/win32/WebServices/ne-webservices-ws_field_mapping?branch=master) for more about derived type descriptions.
 
 -   [DerivedType.cpp](#derivedtypecpp)
 -   [DerivedType.xsd](#derivedtypexsd)
@@ -395,7 +403,7 @@ Exit:
 
 <dl> <dt>
 
-[**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](ws-field-mapping.md)
+[**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](/windows/win32/WebServices/ne-webservices-ws_field_mapping?branch=master)
 </dt> </dl>
 
  

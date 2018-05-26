@@ -1,8 +1,35 @@
 ---
 title: A Basic Playlist
 description: A Basic Playlist
-ms.assetid: 'fdd87959-861a-456e-b903-f5a27b4f6221'
-keywords: ["Windows Media metafile playlists,playlist examples", "playlists,playlist examples", "metafile playlists,playlist examples", "Windows Media metafile playlists,example playlists", "playlists,example playlists", "metafile playlists,example playlists", "Windows Media metafile playlists,sample playlists", "playlists,sample playlists", "metafile playlists,sample playlists", "Windows Media metafile playlists,code example", "playlists,code example", "metafile playlists,code example", "Windows Media metafile playlists,basic playlist example", "playlists,basic playlist example", "metafile playlists,basic playlist example", "Windows Media Player,playlist examples", "Windows Media Player,example playlists", "Windows Media Player,sample playlists", "Windows Media Player,basic playlist example", "playlist examples", "example playlists", "sample playlists"]
+ms.assetid: fdd87959-861a-456e-b903-f5a27b4f6221
+keywords:
+- Windows Media metafile playlists,playlist examples
+- playlists,playlist examples
+- metafile playlists,playlist examples
+- Windows Media metafile playlists,example playlists
+- playlists,example playlists
+- metafile playlists,example playlists
+- Windows Media metafile playlists,sample playlists
+- playlists,sample playlists
+- metafile playlists,sample playlists
+- Windows Media metafile playlists,code example
+- playlists,code example
+- metafile playlists,code example
+- Windows Media metafile playlists,basic playlist example
+- playlists,basic playlist example
+- metafile playlists,basic playlist example
+- Windows Media Player,playlist examples
+- Windows Media Player,example playlists
+- Windows Media Player,sample playlists
+- Windows Media Player,basic playlist example
+- playlist examples
+- example playlists
+- sample playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A Basic Playlist
@@ -46,7 +73,7 @@ The following table provides details on the use of each element in the example c
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -67,9 +94,9 @@ The following table provides details on the use of each element in the example c
 [**Windows Media Metafile Guide**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

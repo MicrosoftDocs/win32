@@ -4,13 +4,15 @@ description: Represents a user account, which stores authentication and authoriz
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4591EA3E-C8AE-4ADA-858C-179E3104171F'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4591EA3E-C8AE-4ADA-858C-179E3104171F
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Account class", "Account class, described"]
+keywords:
+- Account class
+- Account class, described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Account class
@@ -55,28 +60,28 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("IPMIPrv"), AMENDMENT]
 class Account : CIM_Account
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   Name;
-  string   UserID;
-  string   ObjectClass[];
-  string   Descriptions[];
-  string   Host[];
-  string   LocalityName[];
-  string   OrganizationName[];
-  string   OU[];
-  string   SeeAlso[];
-  string   UserCertificate[];
-  string   UserPassword[];
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   Name;
+  string   UserID;
+  string   ObjectClass[];
+  string   Descriptions[];
+  string   Host[];
+  string   LocalityName[];
+  string   OrganizationName[];
+  string   OU[];
+  string   SeeAlso[];
+  string   UserCertificate[];
+  string   UserPassword[];
 };
 ```
 
@@ -780,8 +785,8 @@ This property is inherited from [**CIM\_Account**](cim-account.md).
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -798,9 +803,9 @@ This property is inherited from [**CIM\_Account**](cim-account.md).
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

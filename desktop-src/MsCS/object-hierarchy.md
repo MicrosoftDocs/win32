@@ -1,14 +1,18 @@
 ---
 title: Failover Cluster Automation Server Object Hierarchy
-description: The Failover Cluster Automation Server objects follow a functional hierarchy in which the objects and collections that can be obtained from any given object are a function of the object's role in the cluster.
+description: The Failover Cluster Automation Server objects follow a functional hierarchy in which the objects and collections that can be obtained from any given object are a function of the objects role in the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '577b8825-1746-4ea5-8d54-d6c10d08e18b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 577b8825-1746-4ea5-8d54-d6c10d08e18b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["object hierarchy Failover Cluster"]
+keywords:
+- object hierarchy Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Automation Server Object Hierarchy

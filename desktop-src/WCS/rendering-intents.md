@@ -1,8 +1,25 @@
 ---
 title: Rendering Intents
 description: The International Color Consortium (ICC) has defined four different values called rendering intents.
-ms.assetid: 'c980f3ea-daff-491a-a10a-03ba446d383e'
-keywords: ["Windows Color System (WCS),rendering intents", "WCS (Windows Color System),rendering intents", "image color management,rendering intents", "color management,rendering intents", "colors,rendering intents", "rendering intents", "International Color Consortium (ICC)", "IIC (International Color Consortium)", "Picture intent", "Graphic intent", "Proof intent", "Match intent"]
+ms.assetid: c980f3ea-daff-491a-a10a-03ba446d383e
+keywords:
+- Windows Color System (WCS),rendering intents
+- WCS (Windows Color System),rendering intents
+- image color management,rendering intents
+- color management,rendering intents
+- colors,rendering intents
+- rendering intents
+- International Color Consortium (ICC)
+- IIC (International Color Consortium)
+- Picture intent
+- Graphic intent
+- Proof intent
+- Match intent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rendering Intents

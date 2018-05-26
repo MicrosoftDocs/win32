@@ -1,7 +1,12 @@
 ---
 title: BCD WMI Provider Structures
-ms.assetid: '28c3708f-5754-432a-b2c5-02c54a724abd'
+ms.assetid: 28c3708f-5754-432a-b2c5-02c54a724abd
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCD WMI Provider Structures

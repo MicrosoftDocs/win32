@@ -4,11 +4,14 @@ description: Get the templates.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.TemplateDescriptor.GetTemplateListAsync(System.String,Microsoft.RightsManagement.IIAuthenticationCallback)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.TemplateDescriptor.GetTemplateListAsync(System.String,Microsoft.RightsManagement.IIAuthenticationCallback)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GetTemplateListAsync method", "GetTemplateListAsync method, TemplateDescriptor class", "TemplateDescriptor class, GetTemplateListAsync method"]
+keywords:
+- GetTemplateListAsync method
+- GetTemplateListAsync method, TemplateDescriptor class
+- TemplateDescriptor class, GetTemplateListAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TemplateDescriptor.GetTemplateListAsync method
@@ -89,9 +95,9 @@ A list of templates as a collection of [**TemplateDescriptor**](https://msdn.mic
 [**TemplateDescriptor**](templatedescriptor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

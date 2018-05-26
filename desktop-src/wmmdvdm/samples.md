@@ -1,8 +1,19 @@
 ---
 title: Samples
 description: Samples
-ms.assetid: 'b9acb143-1c23-4f6b-8f45-fef812c3b590'
-keywords: ["Windows Movie Maker,samples", "Movie Maker,samples", "Windows DVD Maker,samples", "DVD Maker,samples", "programming guide,Windows Movie Maker samples", "programming guide,Windows DVD Maker samples"]
+ms.assetid: b9acb143-1c23-4f6b-8f45-fef812c3b590
+keywords:
+- Windows Movie Maker,samples
+- Movie Maker,samples
+- Windows DVD Maker,samples
+- DVD Maker,samples
+- programming guide,Windows Movie Maker samples
+- programming guide,Windows DVD Maker samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Samples

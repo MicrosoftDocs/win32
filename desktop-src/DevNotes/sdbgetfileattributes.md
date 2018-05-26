@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the attribute data for the specified file.'
-ms.assetid: '899b4af3-8185-4ce5-8e81-05ec3a446e42'
+---
+Description: Retrieves the attribute data for the specified file.
+ms.assetid: 899b4af3-8185-4ce5-8e81-05ec3a446e42
 title: SdbGetFileAttributes function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbGetFileAttributes function

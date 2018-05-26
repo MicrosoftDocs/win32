@@ -1,14 +1,20 @@
 ---
 title: packoffset
 description: Optional shader constant packing keyword, which uses the following syntax
-ms.assetid: 'f0a3031b-d385-430d-83ee-7a8142334ad7'
-keywords: ["packoffset HLSL"]
+ms.assetid: f0a3031b-d385-430d-83ee-7a8142334ad7
+keywords:
+- packoffset HLSL
 topic_type:
 - apiref
 api_name:
 - packoffset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # packoffset
@@ -23,7 +29,7 @@ Optional shader constant packing keyword, which uses the following syntax:
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Optional shader constant packing keyword, which uses the following syntax:
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +86,9 @@ cbuffer MyBuffer
 [Variables (DirectX HLSL)](dx-graphics-hlsl-variables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the audio streams in a presentation have a variable bit rate.'
-ms.assetid: '2bd7eee1-5a93-4bde-8b58-80b6395a094e'
-title: 'MF\_PD\_AUDIO\_ISVARIABLEBITRATE attribute'
+---
+Description: Specifies whether the audio streams in a presentation have a variable bit rate.
+ms.assetid: 2bd7eee1-5a93-4bde-8b58-80b6395a094e
+title: MF\_PD\_AUDIO\_ISVARIABLEBITRATE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_AUDIO\_ISVARIABLEBITRATE attribute
@@ -14,13 +19,13 @@ Specifies whether the audio streams in a presentation have a variable bit rate.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies To
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 
 ## Remarks
 

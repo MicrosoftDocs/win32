@@ -1,15 +1,18 @@
 ---
-Description: 'Deletes a set of custom metadata values from IPAM.'
+Description: Deletes a set of custom metadata values from IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c179c3e4-ecce-414e-a69e-4aadd6f196b3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c179c3e4-ecce-414e-a69e-4aadd6f196b3
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'BulkDeleteCustomValue method of the MSFT\_IPAM\_CustomValue class'
+title: BulkDeleteCustomValue method of the MSFT\_IPAM\_CustomValue class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BulkDeleteCustomValue method of the MSFT\_IPAM\_CustomValue class
@@ -21,9 +24,9 @@ Deletes a set of custom metadata values from IPAM.
 
 ```mof
 uint32 BulkDeleteCustomValue(
-  [in]  string                    Name,
-  [in]  string                    Value[],
-  [out] MSFT_IPAM_OperationStatus Output[]
+  [in]  string                    Name,
+  [in]  string                    Value[],
+  [out] MSFT_IPAM_OperationStatus Output[]
 );
 ```
 
@@ -65,7 +68,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -79,9 +82,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_CustomValue**](msft-ipam-customvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: DelayUsnReadOnLowResource
 description: DelayUsnReadOnLowResource
-ms.assetid: '746c093c-b3e0-4f26-8e34-c9fb53b56403'
+ms.assetid: 746c093c-b3e0-4f26-8e34-c9fb53b56403
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DelayUsnReadOnLowResource

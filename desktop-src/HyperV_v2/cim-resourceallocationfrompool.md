@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.'
-ms.assetid: 'ca9060e5-4434-4302-a840-a7d9cf5db714'
-title: 'CIM\_ResourceAllocationFromPool class'
+Description: Represents an association in which a CIM\_ResourceAllocationSettingData instance is allocated from a resource pool.
+ms.assetid: ca9060e5-4434-4302-a840-a7d9cf5db714
+title: CIM\_ResourceAllocationFromPool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ResourceAllocationFromPool class
@@ -14,7 +19,7 @@ Represents an association in which a [**CIM\_ResourceAllocationSettingData**](ci
 [Association, Abstract, Version("2.22.0"), UMLPackagePath("CIM::System::Resource"), AMENDMENT]
 class CIM_ResourceAllocationFromPool : CIM_Dependency
 {
-  CIM_ResourcePool                  REF Antecedent;
+  CIM_ResourcePool                  REF Antecedent;
   CIM_ResourceAllocationSettingData REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The resource allocation data.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The resource allocation data.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

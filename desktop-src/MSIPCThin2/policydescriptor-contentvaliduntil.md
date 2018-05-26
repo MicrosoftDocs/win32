@@ -4,11 +4,14 @@ description: Gets or sets the date that the content is valid until.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.PolicyDescriptor.ContentValidUntil'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.PolicyDescriptor.ContentValidUntil
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ContentValidUntil property", "ContentValidUntil property, PolicyDescriptor class", "PolicyDescriptor class, ContentValidUntil property"]
+keywords:
+- ContentValidUntil property
+- ContentValidUntil property, PolicyDescriptor class
+- PolicyDescriptor class, ContentValidUntil property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.ContentValidUntil property
@@ -58,9 +64,9 @@ The date that the content is valid until.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

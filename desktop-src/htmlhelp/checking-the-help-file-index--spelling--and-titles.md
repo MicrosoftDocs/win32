@@ -1,7 +1,12 @@
 ---
 title: Checking the Help File Index, Spelling, and Titles
 description: Before you ship your help file, do a final spelling check and make sure that everything works correctly from the Index tab.
-ms.assetid: '421D5E48-47D6-43af-BCC5-629DE489B865'
+ms.assetid: 421D5E48-47D6-43af-BCC5-629DE489B865
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking the Help File Index, Spelling, and Titles

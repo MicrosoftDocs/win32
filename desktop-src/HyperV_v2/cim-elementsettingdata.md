@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a managed element and its associated setting data. This association also describes whether this is a default or current setting.'
-ms.assetid: '0df2b235-76d9-4899-938b-274ec5471324'
-title: 'CIM\_ElementSettingData class'
+Description: Represents an association between a managed element and its associated setting data. This association also describes whether this is a default or current setting.
+ms.assetid: 0df2b235-76d9-4899-938b-274ec5471324
+title: CIM\_ElementSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ElementSettingData class
@@ -15,10 +20,10 @@ Represents an association between a managed element and its associated setting d
 class CIM_ElementSettingData
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_SettingData    REF SettingData;
-  uint16                 IsDefault;
-  uint16                 IsCurrent;
-  uint16                 IsNext;
+  CIM_SettingData    REF SettingData;
+  uint16                 IsDefault;
+  uint16                 IsCurrent;
+  uint16                 IsNext;
 };
 ```
 
@@ -191,17 +196,17 @@ The setting data associated with the element.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

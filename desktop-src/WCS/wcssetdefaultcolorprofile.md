@@ -1,8 +1,9 @@
 ---
 title: WcsSetDefaultColorProfile function
 description: Sets the default color profile name for the specified profile type in the specified profile management scope.
-ms.assetid: '6f9e8df8-e696-4fd0-8631-5e3d23719def'
-keywords: ["WcsSetDefaultColorProfile function Windows Color System"]
+ms.assetid: 6f9e8df8-e696-4fd0-8631-5e3d23719def
+keywords:
+- WcsSetDefaultColorProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsSetDefaultColorProfile function
@@ -22,12 +28,12 @@ Sets the default color profile name for the specified profile type in the specif
 
 ```C++
 BOOL WINAPI WcsSetDefaultColorProfile(
-  _In_     WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_opt_ PCWSTR                       pDeviceName,
-  _In_     COLORPROFILETYPE             cptColorProfileType,
-  _In_     COLORPROFILESUBTYPE          cpstColorProfileSubType,
-  _In_     DWORD                        dwProfileID,
-  _In_     LPCWSTR                      pProfileName
+  _In_     WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
+  _In_opt_ PCWSTR                       pDeviceName,
+  _In_     COLORPROFILETYPE             cptColorProfileType,
+  _In_     COLORPROFILESUBTYPE          cpstColorProfileSubType,
+  _In_     DWORD                        dwProfileID,
+  _In_     LPCWSTR                      pProfileName
 );
 ```
 
@@ -103,8 +109,8 @@ See notes on valid profile type/subtype combinations.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -136,9 +142,9 @@ See notes on valid profile type/subtype combinations.
 [**WcsGetDefaultColorProfileSize**](wcsgetdefaultcolorprofilesize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

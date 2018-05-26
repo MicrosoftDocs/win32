@@ -1,14 +1,20 @@
 ---
 title: MENUITEM statement
 description: Defines a menu item.
-ms.assetid: 'b154211a-5267-4dcf-9e70-ac36671d10d3'
-keywords: ["MENUITEM statement Menus and Other Resources"]
+ms.assetid: b154211a-5267-4dcf-9e70-ac36671d10d3
+keywords:
+- MENUITEM statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - MENUITEM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MENUITEM statement

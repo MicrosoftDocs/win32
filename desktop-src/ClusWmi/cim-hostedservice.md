@@ -4,13 +4,15 @@ description: CIM\_HostedService is an association between a Service and the Syst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ab41db88-1ae5-40dd-9379-f811b1d2184f'
-ms.prod: 'windows-server-dev'
+ms.assetid: ab41db88-1ae5-40dd-9379-f811b1d2184f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_HostedService class", "CIM_HostedService class, described"]
+keywords:
+- CIM_HostedService class
+- CIM_HostedService class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedService class
@@ -37,7 +42,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, UUID("{F59C2609-0CCC-487a-B583-184FE6FC2F53}"), AMENDMENT]
 class CIM_HostedService : CIM_Dependency
 {
-  CIM_System  REF Antecedent;
+  CIM_System  REF Antecedent;
   CIM_Service REF Dependent;
 };
 ```
@@ -93,7 +98,7 @@ The Service hosted on the System.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -107,9 +112,9 @@ The Service hosted on the System.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

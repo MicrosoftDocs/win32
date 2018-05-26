@@ -1,7 +1,12 @@
 ---
 title: Backing Up and Restoring Virtual Machines
 description: Hyper-V uses the Volume Shadow Copy Service (VSS) to backup and restore virtual machines (VMs).
-ms.assetid: '673ee180-fa01-43ba-8060-5d4f563cf74c'
+ms.assetid: 673ee180-fa01-43ba-8060-5d4f563cf74c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backing Up and Restoring Virtual Machines

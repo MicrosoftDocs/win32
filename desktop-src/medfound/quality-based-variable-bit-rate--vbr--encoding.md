@@ -1,7 +1,12 @@
 ---
-Description: 'Quality-Based Variable Bit Rate Encoding'
-ms.assetid: 'e07c3f31-3d53-4250-9634-f66690357f26'
-title: 'Quality-Based Variable Bit Rate Encoding'
+Description: Quality-Based Variable Bit Rate Encoding
+ms.assetid: e07c3f31-3d53-4250-9634-f66690357f26
+title: Quality-Based Variable Bit Rate Encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quality-Based Variable Bit Rate Encoding

@@ -1,7 +1,12 @@
 ---
-Description: 'GDI+ provides horizontal, vertical, and diagonal linear gradients. By default, the color in a linear gradient changes uniformly. However, you can customize a linear gradient so that the color changes in a non-uniform fashion.'
-ms.assetid: '9b0236b2-be6b-4918-a106-5b0e6c3dd5ff'
+Description: GDI+ provides horizontal, vertical, and diagonal linear gradients. By default, the color in a linear gradient changes uniformly. However, you can customize a linear gradient so that the color changes in a non-uniform fashion.
+ms.assetid: 9b0236b2-be6b-4918-a106-5b0e6c3dd5ff
 title: Creating a Linear Gradient
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Linear Gradient
@@ -33,7 +38,7 @@ graphics.FillRectangle(&amp;linGrBrush, 0, 155, 500, 30);
 
 
 
-The [**LinearGradientBrush**](-gdiplus-class-lineargradientbrush-class.md) constructor receives four arguments: two points and two colors. The first point (0, 10) is associated with the first color (red), and the second point (200, 10) is associated with the second color (blue). As you would expect, the line drawn from (0, 10) to (200, 10) changes gradually from red to blue.
+The [**LinearGradientBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush?branch=master) constructor receives four arguments: two points and two colors. The first point (0, 10) is associated with the first color (red), and the second point (200, 10) is associated with the second color (blue). As you would expect, the line drawn from (0, 10) to (200, 10) changes gradually from red to blue.
 
 The 10s in the points (50, 10) and (200, 10) are not important. What's important is that the two points have the same second coordinate — the line connecting them is horizontal. The ellipse and the rectangle also change gradually from red to blue as the horizontal coordinate goes from 0 to 200.
 
@@ -61,7 +66,7 @@ GDI+ allows you to adjust the way a color varies from one edge of a gradient to 
 
 Note that the red component is at half intensity when the horizontal coordinate is only 20 percent of the way from 0 to 200.
 
-The following example calls the [**LinearGradientBrush::SetBlend**](-gdiplus-class-lineargradientbrush-setblend-blendfactors-blendpositions-count-.md) method of a [**LinearGradientBrush**](-gdiplus-class-lineargradientbrush-class.md) object to associate three relative intensities with three relative positions. As in the preceding table, a relative intensity of 0.5 is associated with a relative position of 0.2. The code fills an ellipse and a rectangle with the gradient brush.
+The following example calls the [**LinearGradientBrush::SetBlend**](/windows/win32/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-setblend?branch=master) method of a [**LinearGradientBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush?branch=master) object to associate three relative intensities with three relative positions. As in the preceding table, a relative intensity of 0.5 is associated with a relative position of 0.2. The code fills an ellipse and a rectangle with the gradient brush.
 
 
 ```
@@ -88,7 +93,7 @@ The following illustration shows the resulting ellipse and rectangle.
 
 ## Diagonal Linear Gradients
 
-The gradients in the preceding examples have been horizontal; that is, the color changes gradually as you move along any horizontal line. You can also define vertical gradients and diagonal gradients. The following code passes the points (0, 0) and (200, 100) to a [**LinearGradientBrush**](-gdiplus-class-lineargradientbrush-class.md) constructor. The color blue is associated with (0, 0), and the color green is associated with (200, 100). A line (with pen width 10) and an ellipse are filled with the linear gradient brush.
+The gradients in the preceding examples have been horizontal; that is, the color changes gradually as you move along any horizontal line. You can also define vertical gradients and diagonal gradients. The following code passes the points (0, 0) and (200, 100) to a [**LinearGradientBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush?branch=master) constructor. The color blue is associated with (0, 0), and the color green is associated with (200, 100). A line (with pen width 10) and an ellipse are filled with the linear gradient brush.
 
 
 ```

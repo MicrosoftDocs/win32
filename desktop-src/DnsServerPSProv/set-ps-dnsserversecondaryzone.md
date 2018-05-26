@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerSecondaryZone class
 description: Overwrites settings of DNS server secondary zone.
 audience: developer
-ms.assetid: '1b65b34b-819d-4a5c-bb33-d4934c3ed966'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1b65b34b-819d-4a5c-bb33-d4934c3ed966
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerSecondaryZone class", "PS_DnsServerSecondaryZone class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerSecondaryZone class
+- PS_DnsServerSecondaryZone class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerSecondaryZone class
@@ -28,13 +34,13 @@ Overwrites settings of DNS server secondary zone.
 
 ```mof
 uint32 Set(
-  [in]  string                 MasterServers[],
-  [in]  string                 Name,
-  [in]  string                 ComputerName,
-  [in]  string                 ZoneFile,
-  [in]  boolean                PassThru,
-  [in]  boolean                IgnorePolicies,
-  [out] DnsServerSecondaryZone cmdletOutput
+  [in]  string                 MasterServers[],
+  [in]  string                 Name,
+  [in]  string                 ComputerName,
+  [in]  string                 ZoneFile,
+  [in]  boolean                PassThru,
+  [in]  boolean                IgnorePolicies,
+  [out] DnsServerSecondaryZone cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ Specifies zone file path.
 
 **true** if the policies of this zone are to be ignored; otherwise, **false**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -102,7 +108,7 @@ Receives and embedded instance of the [**DnsServerSecondaryZone**](dnsserverseco
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -116,9 +122,9 @@ Receives and embedded instance of the [**DnsServerSecondaryZone**](dnsserverseco
 [**PS\_DnsServerSecondaryZone**](ps-dnsserversecondaryzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

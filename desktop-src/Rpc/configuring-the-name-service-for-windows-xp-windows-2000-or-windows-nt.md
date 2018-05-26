@@ -1,7 +1,12 @@
 ---
 title: Configuring the Name Service
 description: Starting with Windows 2000, when you install the Windows SDK, the setup program automatically selects Microsoft Locator as the name service provider. You can change the name service provider through Control Panel.
-ms.assetid: 'bd72ca2f-bb93-4057-a877-be755a88719d'
+ms.assetid: bd72ca2f-bb93-4057-a877-be755a88719d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Name Service

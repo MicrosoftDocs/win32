@@ -1,7 +1,12 @@
 ---
-Description: 'The CSourceSeeking class is an abstract class for implementing seeking in source filters with one output pin.'
-ms.assetid: '46e711e1-78d4-4e83-9df1-06032edeba6a'
+Description: The CSourceSeeking class is an abstract class for implementing seeking in source filters with one output pin.
+ms.assetid: 46e711e1-78d4-4e83-9df1-06032edeba6a
 title: CSourceSeeking class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking class
@@ -10,7 +15,7 @@ title: CSourceSeeking class
 
 The **CSourceSeeking** class is an abstract class for implementing seeking in source filters with one output pin.
 
-This class supports the [**IMediaSeeking**](imediaseeking.md) interface. It provides default implementations for all of the **IMediaSeeking** methods. Protected member variables store the start time, stop time, and current rate. By default, the only time format supported by the class is **TIME\_FORMAT\_MEDIA\_TIME** (100-nanosecond units). See Remarks for more information.
+This class supports the [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface. It provides default implementations for all of the **IMediaSeeking** methods. Protected member variables store the start time, stop time, and current rate. By default, the only time format supported by the class is **TIME\_FORMAT\_MEDIA\_TIME** (100-nanosecond units). See Remarks for more information.
 
 
 
@@ -49,7 +54,7 @@ This class supports the [**IMediaSeeking**](imediaseeking.md) interface. It prov
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,20 +66,20 @@ Whenever the start position, stop position, or playback rate changes, the **CSou
 
 The derived class must implement these methods. After any seek operation, a filter must do the following:
 
-1.  Call the [**IPin::BeginFlush**](ipin-beginflush.md) method on the downstream input pin.
+1.  Call the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method on the downstream input pin.
 2.  Halt the worker thread that is delivering data.
-3.  Call the [**IPin::EndFlush**](ipin-endflush.md) method on the input pin.
+3.  Call the [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) method on the input pin.
 4.  Restart the worker thread.
-5.  Call the [**IPin::NewSegment**](ipin-newsegment.md) method on the input pin.
-6.  Set the discontinuity property on the first sample. Call the [**IMediaSample::SetDiscontinuity**](imediasample-setdiscontinuity.md) method.
+5.  Call the [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master) method on the input pin.
+6.  Set the discontinuity property on the first sample. Call the [**IMediaSample::SetDiscontinuity**](/windows/win32/Strmif/nf-strmif-imediasample-setdiscontinuity?branch=master) method.
 
-The call to [**BeginFlush**](ipin-beginflush.md) frees the worker thread, if the thread is blocked waiting to deliver a sample.
+The call to [**BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) frees the worker thread, if the thread is blocked waiting to deliver a sample.
 
 In step 2, make sure that the thread has stopped sending data. Depending on the implementation, you might need to wait for the thread to exit, or for the thread to signal a response of some kind. If your filter uses the [**CSourceStream**](csourcestream.md) class, the [**CSourceStream::Stop**](csourcestream-stop.md) method blocks until the worker thread replies.
 
 Ideally, the new segment (step 5) should be delivered from the worker thread. It can also be done by the **CSourceSeeking** object, as long as the filter serializes it with the samples.
 
-The following example shows a possible implementation. It assumes that the source filter's output pin is derived from **CSourceSeeking** and [**CSourceStream**](csourcestream.md). This example defines a helper method, UpdateFromSeek, that performs steps 1–4. The [**CSourceStream::OnThreadStartPlay**](csourcestream-onthreadstartplay.md) method is overridden to send the new segment, and to set a flag indicating the discontinuity. The worker thread picks up this flag and calls the [**IMediaSample::SetDiscontinuity**](imediasample-setdiscontinuity.md) method:
+The following example shows a possible implementation. It assumes that the source filter's output pin is derived from **CSourceSeeking** and [**CSourceStream**](csourcestream.md). This example defines a helper method, UpdateFromSeek, that performs steps 1 4. The [**CSourceStream::OnThreadStartPlay**](csourcestream-onthreadstartplay.md) method is overridden to send the new segment, and to set a flag indicating the discontinuity. The worker thread picks up this flag and calls the [**IMediaSample::SetDiscontinuity**](/windows/win32/Strmif/nf-strmif-imediasample-setdiscontinuity?branch=master) method:
 
 
 ```C++
@@ -100,15 +105,15 @@ HRESULT CMyStream::OnThreadStartPlay()
 
 ### Supporting Additional Time Formats
 
-By default, this class supports seeking only in units of reference time (TIME\_FORMAT\_MEDIA\_TIME). To support additional time formats, override the [**IMediaSeeking**](imediaseeking.md) methods that deal with time formats:
+By default, this class supports seeking only in units of reference time (TIME\_FORMAT\_MEDIA\_TIME). To support additional time formats, override the [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) methods that deal with time formats:
 
--   [**IMediaSeeking::GetTimeFormat**](imediaseeking-gettimeformat.md)
--   [**IMediaSeeking::GetTimeFormat**](imediaseeking-gettimeformat.md)
--   [**IMediaSeeking::IsUsingTimeFormat**](imediaseeking-isusingtimeformat.md)
--   [**IMediaSeeking::IsUsingTimeFormat**](imediaseeking-isusingtimeformat.md)
--   [**IMediaSeeking::SetTimeFormat**](imediaseeking-settimeformat.md)
+-   [**IMediaSeeking::GetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-gettimeformat?branch=master)
+-   [**IMediaSeeking::GetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-gettimeformat?branch=master)
+-   [**IMediaSeeking::IsUsingTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-isusingtimeformat?branch=master)
+-   [**IMediaSeeking::IsUsingTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-isusingtimeformat?branch=master)
+-   [**IMediaSeeking::SetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-settimeformat?branch=master)
 
-In addition, override the remaining [**IMediaSeeking**](imediaseeking.md) methods to perform the necessary conversions between time formats. After the [**SetTimeFormat**](imediaseeking-settimeformat.md) method is called, all **IMediaSeeking** methods must treat incoming and outgoing time parameters as being in the new time format. For example, if the *m\_rtDuration* variable represents the duration in units of reference time, but the current time format is frames, then the [**GetDuration**](imediaseeking-getduration.md) method must return the value *m\_rtDuration* converted to frames. For example:
+In addition, override the remaining [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) methods to perform the necessary conversions between time formats. After the [**SetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-settimeformat?branch=master) method is called, all **IMediaSeeking** methods must treat incoming and outgoing time parameters as being in the new time format. For example, if the *m\_rtDuration* variable represents the duration in units of reference time, but the current time format is frames, then the [**GetDuration**](/windows/win32/Strmif/nf-strmif-imediaseeking-getduration?branch=master) method must return the value *m\_rtDuration* converted to frames. For example:
 
 
 ```
@@ -129,7 +134,7 @@ STDMETHODIMP GetDuration(LONGLONG *pDuration)
 
 
 
-Also, make sure to check for the AM\_SEEKING\_ReturnTime flag in the [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) method. If this flag is present, convert the position values into reference times when you return them to the caller.
+Also, make sure to check for the AM\_SEEKING\_ReturnTime flag in the [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) method. If this flag is present, convert the position values into reference times when you return them to the caller.
 
 ## Requirements
 
@@ -149,9 +154,9 @@ Also, make sure to check for the AM\_SEEKING\_ReturnTime flag in the [**IMediaSe
 [Supporting Seeking in a Source Filter](supporting-seeking-in-a-source-filter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

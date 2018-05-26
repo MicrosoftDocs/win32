@@ -2,13 +2,16 @@
 title: Disable method of the PS\_DnsServerSigningKeyRollover class
 description: Disables key rollover on input key.
 audience: developer
-ms.assetid: 'a1d86b01-2a5e-4a5d-b1a9-2ca45d5d45e6'
-ms.prod: 'windows-server-dev'
+ms.assetid: a1d86b01-2a5e-4a5d-b1a9-2ca45d5d45e6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Disable method", "Disable method, PS_DnsServerSigningKeyRollover class", "PS_DnsServerSigningKeyRollover class, Disable method"]
+keywords:
+- Disable method
+- Disable method, PS_DnsServerSigningKeyRollover class
+- PS_DnsServerSigningKeyRollover class, Disable method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disable method of the PS\_DnsServerSigningKeyRollover class
@@ -28,12 +34,12 @@ Disables key rollover on input key.
 
 ```mof
 uint32 Disable(
-  [in]  string              ZoneName,
-  [in]  boolean             Force,
-  [in]  string              KeyId,
-  [in]  string              ComputerName,
-  [in]  boolean             PassThru,
-  [out] DnsServerSigningKey cmdletOutput
+  [in]  string              ZoneName,
+  [in]  boolean             Force,
+  [in]  string              KeyId,
+  [in]  string              ComputerName,
+  [in]  boolean             PassThru,
+  [out] DnsServerSigningKey cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ On return, contains an embedded instance of a [**DnsServerSigningKeyRollover**](
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ On return, contains an embedded instance of a [**DnsServerSigningKeyRollover**](
 [**PS\_DnsServerSigningKeyRollover**](ps-dnsserversigningkeyrollover.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

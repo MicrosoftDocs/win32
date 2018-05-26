@@ -1,7 +1,12 @@
 ---
 title: Defining Friendly Names
 description: Defining Friendly Names
-ms.assetid: 'bf40a23f-1e47-4adf-a4b7-42aae71d39c2'
+ms.assetid: bf40a23f-1e47-4adf-a4b7-42aae71d39c2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Friendly Names

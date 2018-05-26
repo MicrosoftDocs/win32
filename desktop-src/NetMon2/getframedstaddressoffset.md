@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameDstAddressOffset function returns the offset to the destination address of a given frame.'
-ms.assetid: '8922d7d0-1a23-47ac-886b-fcc0bcaa6ba7'
+Description: The GetFrameDstAddressOffset function returns the offset to the destination address of a given frame.
+ms.assetid: 8922d7d0-1a23-47ac-886b-fcc0bcaa6ba7
 title: GetFrameDstAddressOffset function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameDstAddressOffset function
@@ -13,9 +18,9 @@ The **GetFrameDstAddressOffset** function returns the offset to the destination 
 
 ```C++
 DWORD WINAPI GetFrameDstAddressOffset(
-  _In_ HFRAME  hFrame,
-  _In_ DWORD   AddressType,
-  _In_ LPDWORD AddressLength
+  _In_ HFRAME  hFrame,
+  _In_ DWORD   AddressType,
+  _In_ LPDWORD AddressLength
 );
 ```
 
@@ -66,17 +71,17 @@ If the *AddressType* parameter is set to ADDRESS\_TYPE\_ETHERNET, the return val
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

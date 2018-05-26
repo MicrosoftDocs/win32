@@ -1,7 +1,12 @@
 ---
-Description: 'The following GUIDs define the types for the mutual exclusion object for Advanced Systems Format (ASF) streams.'
-ms.assetid: '3db8eebd-2e26-4c77-8f66-7d08436c9e42'
+Description: The following GUIDs define the types for the mutual exclusion object for Advanced Systems Format (ASF) streams.
+ms.assetid: 3db8eebd-2e26-4c77-8f66-7d08436c9e42
 title: ASF Mutual Exclusion Type GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Mutual Exclusion Type GUIDs
@@ -25,8 +30,8 @@ The following GUIDs define the types for the mutual exclusion object for Advance
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Wmcontainer.h</dt> </dl> |
 
 
@@ -35,18 +40,18 @@ The following GUIDs define the types for the mutual exclusion object for Advance
 
 <dl> <dt>
 
-[**IMFASFMutualExclusion::GetType**](imfasfmutualexclusion-gettype.md)
+[**IMFASFMutualExclusion::GetType**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-gettype?branch=master)
 </dt> <dt>
 
-[**IMFASFMutualExclusion::SetType**](imfasfmutualexclusion-settype.md)
+[**IMFASFMutualExclusion::SetType**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-settype?branch=master)
 </dt> <dt>
 
 [Media Foundation Constants](media-foundation-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

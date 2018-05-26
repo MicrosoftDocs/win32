@@ -1,8 +1,21 @@
 ---
 title: SeekThumb File
 description: SeekThumb File
-ms.assetid: '757aeb93-ebf0-4659-8cb0-686e54485ac4'
-keywords: ["Windows Media Player Mobile skins,art files", "skins,art files", "files for skins,art", "art files for skins,SeekThumbd files", "Windows Media Player Mobile skins,SeekThumb files", "skins,SeekThumb files", "SeekThumb files in skins", "thumb,SeekThumb files"]
+ms.assetid: 757aeb93-ebf0-4659-8cb0-686e54485ac4
+keywords:
+- Windows Media Player Mobile skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,SeekThumbd files
+- Windows Media Player Mobile skins,SeekThumb files
+- skins,SeekThumb files
+- SeekThumb files in skins
+- thumb,SeekThumb files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SeekThumb File

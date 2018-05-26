@@ -1,7 +1,12 @@
 ---
-Description: 'Sriov Capabilities.'
-ms.assetid: '35a6d096-8cf5-4893-921e-4f9799a355f6'
-title: 'MSFT\_NetAdapterSriovCapabilities class'
+Description: Sriov Capabilities.
+ms.assetid: 35a6d096-8cf5-4893-921e-4f9799a355f6
+title: MSFT\_NetAdapterSriovCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterSriovCapabilities class
@@ -21,12 +26,12 @@ class MSFT_NetAdapterSriovCapabilities
   boolean AsymmetricQueuePairsForNonDefaultVPortsSupported;
   boolean VfRssSupported;
   boolean SingleVportPoolSupported;
-  uint32  MaxNumSwitches;
-  uint32  MaxNumVPorts;
-  uint32  MaxNumVFs;
-  uint32  MaxNumQueuePairs;
-  uint32  MaxNumQueuePairsPerNonDefaultVPort;
-  uint32  MaxNumMacAddresses;
+  uint32  MaxNumSwitches;
+  uint32  MaxNumVPorts;
+  uint32  MaxNumVFs;
+  uint32  MaxNumQueuePairs;
+  uint32  MaxNumQueuePairsPerNonDefaultVPort;
+  uint32  MaxNumMacAddresses;
 };
 ```
 
@@ -192,16 +197,16 @@ Indicates if Vlans are supported
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

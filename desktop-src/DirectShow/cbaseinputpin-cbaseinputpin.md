@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'a853813d-cdf6-4cb4-8288-62685a883b56'
-title: 'CBaseInputPin.CBaseInputPin constructor'
+Description: Constructor method.
+ms.assetid: a853813d-cdf6-4cb4-8288-62685a883b56
+title: CBaseInputPin.CBaseInputPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.CBaseInputPin constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CBaseInputPin(
-   TCHAR       *pObjectName,
-   CBaseFilter *pFilter,
-   CCritSec    *pLock,
-   HRESULT     *phr,
-   LPCWSTR     pPinName
+   TCHAR       *pObjectName,
+   CBaseFilter *pFilter,
+   CCritSec    *pLock,
+   HRESULT     *phr,
+   LPCWSTR     pPinName
 );
 ```
 
@@ -84,9 +89,9 @@ All of the parameters are passed directly to the [**CBasePin**](cbasepin-cbasepi
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

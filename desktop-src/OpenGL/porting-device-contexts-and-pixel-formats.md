@@ -1,13 +1,20 @@
 ---
 title: Porting Device Contexts and Pixel Formats
 description: Porting Device Contexts and Pixel Formats
-ms.assetid: 'b60cac27-1e2e-4da5-81c4-69446b92f820'
-keywords: ["porting to OpenGL,pixels", "OpenGL porting,pixels"]
+ms.assetid: b60cac27-1e2e-4da5-81c4-69446b92f820
+keywords:
+- porting to OpenGL,pixels
+- OpenGL porting,pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Device Contexts and Pixel Formats
 
-Each window in the Microsoft implementation of OpenGL for Windows has its own current pixel format. A pixel format is defined by a [**PIXELFORMATDESCRIPTOR**](pixelformatdescriptor.md) data structure. Because each window has its own pixel format, you obtain a device context, set the pixel format of the device context, and then create an OpenGL rendering context for the device context. The rendering context automatically uses the pixel format of its device context.
+Each window in the Microsoft implementation of OpenGL for Windows has its own current pixel format. A pixel format is defined by a [**PIXELFORMATDESCRIPTOR**](/windows/win32/Wingdi/ns-wingdi-tagpixelformatdescriptor?branch=master) data structure. Because each window has its own pixel format, you obtain a device context, set the pixel format of the device context, and then create an OpenGL rendering context for the device context. The rendering context automatically uses the pixel format of its device context.
 
 The X Window System also uses a data structure, **XVisualInfo**, to specify the properties of pixels in a window. **XVisualInfo** structures contain a **Visual** data structure that describes how color resources are used in a specific screen.
 
@@ -19,10 +26,10 @@ The following table compares the X Window System and GLX visual functions with t
 
 | X window/GLX visual function                                                                                     | Windows pixel format function                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| XVisualInfo\***glXChooseVisual**( Display *\*dpy*,int *screen*,int *\*attribList*)                               | int [**ChoosePixelFormat**](choosepixelformat.md)( HDC *hdc*,PIXELFORMATDESCRIPTOR *\*ppfd*)                                      |
-| int **glXGetConfig**( Display *\*dpy*,XVisualInfo *\*vis*,int *\*attribList*,int *\*value*)                      | int [**DescribePixelFormat**](describepixelformat.md)( HDC *hdc*,int *iPixelFormat*,UINT *nBytes*,LPPIXELFORMATDESCRIPTOR *ppfd*) |
-| XVisualInfo\***XGetVisualInfo**( Display *\*dpy*,long *vinfo\_mask*,XVisualInfo *\*vinfo\_templ*,int *\*nitems*) | int [**GetPixelFormat**](getpixelformat.md)( HDC *hdc*)                                                                           |
-| The *visual* returned by **glxChooseVisual** is used when a window is created.                                   | BOOL [**SetPixelFormat**](setpixelformat.md)( HDC *hdc*,int *iPixelFormat*,PIXELFORMATDESCRIPTOR *\*ppfd*)                        |
+| XVisualInfo\***glXChooseVisual**( Display *\*dpy*,int *screen*,int *\*attribList*)                               | int [**ChoosePixelFormat**](/windows/win32/wingdi/nf-wingdi-choosepixelformat?branch=master)( HDC *hdc*,PIXELFORMATDESCRIPTOR *\*ppfd*)                                      |
+| int **glXGetConfig**( Display *\*dpy*,XVisualInfo *\*vis*,int *\*attribList*,int *\*value*)                      | int [**DescribePixelFormat**](/windows/win32/wingdi/nf-wingdi-describepixelformat?branch=master)( HDC *hdc*,int *iPixelFormat*,UINT *nBytes*,LPPIXELFORMATDESCRIPTOR *ppfd*) |
+| XVisualInfo\***XGetVisualInfo**( Display *\*dpy*,long *vinfo\_mask*,XVisualInfo *\*vinfo\_templ*,int *\*nitems*) | int [**GetPixelFormat**](/windows/win32/wingdi/nf-wingdi-getpixelformat?branch=master)( HDC *hdc*)                                                                           |
+| The *visual* returned by **glxChooseVisual** is used when a window is created.                                   | BOOL [**SetPixelFormat**](/windows/win32/wingdi/nf-wingdi-setpixelformat?branch=master)( HDC *hdc*,int *iPixelFormat*,PIXELFORMATDESCRIPTOR *\*ppfd*)                        |
 
 
 

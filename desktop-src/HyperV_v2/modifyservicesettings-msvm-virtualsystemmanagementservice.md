@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the setting data for the service.'
-ms.assetid: '1CA49922-894D-4AA1-B741-6A0DC9F5654E'
-title: 'ModifyServiceSettings method of the Msvm\_VirtualSystemManagementService class'
+Description: Modifies the setting data for the service.
+ms.assetid: 1CA49922-894D-4AA1-B741-6A0DC9F5654E
+title: ModifyServiceSettings method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyServiceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Modifies the setting data for the service.
 
 ```mof
 uint32 ModifyServiceSettings(
-  [in]  string              SettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -99,8 +104,8 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -120,9 +125,9 @@ Access to the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanag
 [**CIM\_ConcreteJob**](https://msdn.microsoft.com/library/cc136808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

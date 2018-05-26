@@ -1,21 +1,26 @@
 ---
-Description: 'The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. Implements the IPin::NewSegment method.'
-ms.assetid: 'e334d5a7-0398-496c-882c-bf73e6545867'
-title: 'CBasePin.NewSegment method'
+Description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. Implements the IPinNewSegment method.
+ms.assetid: e334d5a7-0398-496c-882c-bf73e6545867
+title: CBasePin.NewSegment method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.NewSegment method
 
-The `NewSegment` method notifies the pin that media samples received after this call are grouped as a segment. Implements the [**IPin::NewSegment**](ipin-newsegment.md) method.
+The `NewSegment` method notifies the pin that media samples received after this call are grouped as a segment. Implements the [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT NewSegment(
-   REFERENCE_TIME tStart,
-   REFERENCE_TIME tStop,
-   double         dRate
+   REFERENCE_TIME tStart,
+   REFERENCE_TIME tStop,
+   double         dRate
 );
 ```
 
@@ -72,9 +77,9 @@ This method sets the [**CBasePin::m\_tStart**](cbasepin-m-tstart.md), [**CBasePi
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

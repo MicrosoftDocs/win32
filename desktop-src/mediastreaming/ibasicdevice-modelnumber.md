@@ -1,26 +1,34 @@
 ---
 title: IBasicDevice ModelNumber method
-description: Retrieves the device’s model number.
-ms.assetid: 'C4199135-0C6C-4427-8152-224D7D29C270'
-keywords: ["ModelNumber method Media Streaming API", "ModelNumber method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , ModelNumber method"]
+description: Retrieves the device s model number.
+ms.assetid: C4199135-0C6C-4427-8152-224D7D29C270
+keywords:
+- ModelNumber method Media Streaming API
+- ModelNumber method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , ModelNumber method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.ModelNumber
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::ModelNumber method
 
-Retrieves the device’s model number.
+Retrieves the device s model number.
 
 ## Syntax
 
 
 ```C++
 HRESULT ModelNumber(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -33,7 +41,7 @@ HRESULT ModelNumber(
 *value* \[out\]
 </dt> <dd>
 
-Receives a pointer to the device’s model number.
+Receives a pointer to the device s model number.
 
 </dd> </dl>
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

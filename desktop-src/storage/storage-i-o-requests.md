@@ -1,7 +1,12 @@
 ---
 title: Storage I/O Requests
 description: Storage I/O Requests
-ms.assetid: '86d23bec-f70c-4ad3-bd0d-85259e83b3c6'
+ms.assetid: 86d23bec-f70c-4ad3-bd0d-85259e83b3c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage I/O Requests

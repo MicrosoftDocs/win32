@@ -4,17 +4,21 @@ description: Called upon failure to create a protected stream.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7ad98aa8-73a6-43e5-b0c5-4a77378f764d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7ad98aa8-73a6-43e5-b0c5-4a77378f764d
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CreationCallback T .onFailure method"]
+keywords:
+- CreationCallback T .onFailure method
 topic_type:
 - apiref
 api_name:
 - CreationCallback T .onFailure method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreationCallback&lt;T&gt;.onFailure method
@@ -37,7 +41,7 @@ void onFailure(ProtectionException e)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ CreationCallback.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

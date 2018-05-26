@@ -1,8 +1,15 @@
 ---
 title: MDM\_Firewall\_FirewallRules02\_01 class
 description: The MDM\_Firewall\_FirewallRules02\_01 class is used to configure the Windows Defender Firewall settings.
-ms.assetid: 'b09cbd98-152e-486c-acb5-4e1d83e5f8e2'
-keywords: ["MDM_Firewall_FirewallRules02_01 class", "MDM_Firewall_FirewallRules02_01 class, described"]
+ms.assetid: b09cbd98-152e-486c-acb5-4e1d83e5f8e2
+keywords:
+- MDM_Firewall_FirewallRules02_01 class
+- MDM_Firewall_FirewallRules02_01 class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Firewall\_FirewallRules02\_01 class
@@ -19,24 +26,24 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv1")]
 class MDM_Firewall_FirewallRules02_01
 {
-  string  InstanceID;
-  string  ParentID;
-  sint32  Protocol;
-  string  LocalPortRanges;
-  string  RemotePortRanges;
-  string  LocalAddressRanges;
-  string  RemoteAddressRanges;
-  string  Description;
+  string  InstanceID;
+  string  ParentID;
+  sint32  Protocol;
+  string  LocalPortRanges;
+  string  RemotePortRanges;
+  string  LocalAddressRanges;
+  string  RemoteAddressRanges;
+  string  Description;
   boolean Enabled;
-  sint32  Profiles;
-  string  Direction;
-  string  InterfaceTypes;
-  string  IcmpTypesAndCodes;
+  sint32  Profiles;
+  string  Direction;
+  string  InterfaceTypes;
+  string  IcmpTypesAndCodes;
   boolean EdgeTraversal;
-  string  LocalUserAuthorizedList;
-  string  Status;
-  string  FriendlyName;
-  string  Name;
+  string  LocalUserAuthorizedList;
+  string  Status;
+  string  FriendlyName;
+  string  Name;
 };
 ```
 
@@ -266,7 +273,7 @@ Access type: Read/write
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -274,9 +281,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

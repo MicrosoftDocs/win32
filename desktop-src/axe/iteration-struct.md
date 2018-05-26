@@ -1,8 +1,10 @@
 ---
 title: Iteration class
 description: This interface provides access to the Iterations element of an AssessmentResult.
-ms.assetid: 'FE18AA62-3E43-4490-8B7C-C415DAB479E4'
-keywords: ["Iteration class Access Execution Engine", "Iteration class Access Execution Engine , described"]
+ms.assetid: FE18AA62-3E43-4490-8B7C-C415DAB479E4
+keywords:
+- Iteration class Access Execution Engine
+- Iteration class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration class
@@ -64,7 +71,7 @@ The **Iteration** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,16 +79,16 @@ The **Iteration** class has these methods.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

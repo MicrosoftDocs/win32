@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '3f758c45-21ec-4728-ba7d-41da7b2fa02f'
-title: 'CMsgThread.CMsgThread constructor'
+Description: Constructor method.
+ms.assetid: 3f758c45-21ec-4728-ba7d-41da7b2fa02f
+title: CMsgThread.CMsgThread constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.CMsgThread constructor
@@ -43,9 +48,9 @@ Constructing a message thread object does not automatically create the thread. Y
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

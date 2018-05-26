@@ -1,8 +1,16 @@
 ---
 title: Configuring Video Streams
 description: Configuring Video Streams
-ms.assetid: 'caffdfc1-3c35-4b7b-8643-5a9095cc11f6'
-keywords: ["streams,configuring video streams", "codecs,configuring video streams", "video streams,configuring"]
+ms.assetid: caffdfc1-3c35-4b7b-8643-5a9095cc11f6
+keywords:
+- streams,configuring video streams
+- codecs,configuring video streams
+- video streams,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Video Streams
@@ -13,8 +21,8 @@ Video streams are more flexible in their configuration than audio streams. This 
 
 | Value                                 | Description                                                                                                                                                                                                                                                                 |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bit rate                              | Call [**IWMStreamConfig::SetBitrate**](iwmstreamconfig-setbitrate.md) to set to the desired value. The video codec will try to compress the media to meet your specifications. If your values are too low, the resulting compressed video will be very degraded.           |
-| Buffer window                         | Call [**IWMStreamConfig::SetBufferWindow**](iwmstreamconfig-setbufferwindow.md) to set to the desired value. The video codec will try to compress the media to meet your specifications. If your values are too low, the resulting compressed video will be very degraded. |
+| Bit rate                              | Call [**IWMStreamConfig::SetBitrate**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbitrate?branch=master) to set to the desired value. The video codec will try to compress the media to meet your specifications. If your values are too low, the resulting compressed video will be very degraded.           |
+| Buffer window                         | Call [**IWMStreamConfig::SetBufferWindow**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setbufferwindow?branch=master) to set to the desired value. The video codec will try to compress the media to meet your specifications. If your values are too low, the resulting compressed video will be very degraded. |
 | **WMVIDEOINFOHEADER.rcSource**        | The upper left corner must be set to 0,0. The lower right corner must be set to the frame dimensions. For example, in a 640x480 stream, these settings would be 0,0,640,480.                                                                                                |
 | **WMVIDEOINFOHEADER.rcTarget**        | Must match **rcSource**.                                                                                                                                                                                                                                                    |
 | **WMVIDEOINFOHEADER.dwBitRate**       | Must match the bit rate set for the stream.                                                                                                                                                                                                                                 |
@@ -36,7 +44,7 @@ If you are using variable bit rate encoding, you may need to make other adjustme
 
 Some Windows Media Video codecs support multiple complexity levels. Complexity levels determine the algorithms that the codec will use when encoding a video stream. Using a high complexity level will require more processing power for encoding and decoding.
 
-Each codec that supports complexity settings exposes the following settings that you can retrieve with the [**IWMCodecInfo3::GetCodecProp**](iwmcodecinfo3-getcodecprop.md) method.
+Each codec that supports complexity settings exposes the following settings that you can retrieve with the [**IWMCodecInfo3::GetCodecProp**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-getcodecprop?branch=master) method.
 
 
 
@@ -50,7 +58,7 @@ Each codec that supports complexity settings exposes the following settings that
 
  
 
-To set the complexity for a video stream in a profile, use the [**IWMPropertyVault::SetProperty**](iwmpropertyvault-setproperty.md) method using the property g\_wszComplexity. The value you set must be less than or equal to the maximum supported complexity for the codec.
+To set the complexity for a video stream in a profile, use the [**IWMPropertyVault::SetProperty**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty?branch=master) method using the property g\_wszComplexity. The value you set must be less than or equal to the maximum supported complexity for the codec.
 
 ## Related topics
 

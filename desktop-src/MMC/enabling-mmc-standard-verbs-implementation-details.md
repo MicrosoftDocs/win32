@@ -4,11 +4,15 @@ description: Enabling MMC Standard Verbs Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'edb6eeea-8c11-4ff8-8a80-692465c0acd2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: edb6eeea-8c11-4ff8-8a80-692465c0acd2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["enabling MMC standard verbs, implementation details"]
+keywords:
+- enabling MMC standard verbs, implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enabling MMC Standard Verbs: Implementation Details

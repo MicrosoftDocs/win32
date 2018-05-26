@@ -1,8 +1,9 @@
 ---
 title: GetVarConversionLocaleSetting function
 description: Gets an Automation specific National Language Support (NLS) flag that defines the general behavior of Automation when formatting the date, time, numbers, currency for the current user and machine.
-ms.assetid: '36f1857b-c56e-4ef5-a501-fcca386ace07'
-keywords: ["GetVarConversionLocaleSetting function Automation"]
+ms.assetid: 36f1857b-c56e-4ef5-a501-fcca386ace07
+keywords:
+- GetVarConversionLocaleSetting function Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - OleAut32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVarConversionLocaleSetting function
@@ -22,7 +28,7 @@ Gets an Automation specific National Language Support (NLS) flag that defines th
 
 ```C++
 HRESULT GetVarConversionLocaleSetting(
-  _Out_ ULONG *dwFlags
+  _Out_ ULONG *dwFlags
 );
 ```
 
@@ -73,7 +79,7 @@ Changing the default locale changes all regional settings (time, money, date for
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 [**SetVarConversionLocaleSetting**](setvarconversionlocalesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,23 @@
 ---
 title: CD Track Attributes
 description: CD Track Attributes
-ms.assetid: 'bc1ed934-87dd-4e19-8606-a8b18c44619f'
-keywords: ["Windows Media Player,CD track attributes", "Windows Media Player Mobile,CD track attributes", "Windows Media Player object model,CD track attributes", "object model,CD track attributes", "ActiveX control,CD track attributes", "Windows Media Player ActiveX control,CD track attributes", "Windows Media Player Mobile ActiveX control,CD track attributes", "reference for object model,CD track attributes", "attributes,CD tracks", "CD track attributes"]
+ms.assetid: bc1ed934-87dd-4e19-8606-a8b18c44619f
+keywords:
+- Windows Media Player,CD track attributes
+- Windows Media Player Mobile,CD track attributes
+- Windows Media Player object model,CD track attributes
+- object model,CD track attributes
+- ActiveX control,CD track attributes
+- Windows Media Player ActiveX control,CD track attributes
+- Windows Media Player Mobile ActiveX control,CD track attributes
+- reference for object model,CD track attributes
+- attributes,CD tracks
+- CD track attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD Track Attributes

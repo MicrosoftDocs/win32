@@ -1,8 +1,10 @@
 ---
 title: Win32\_OfflineFilesDiskSpaceLimit class
 description: Represents the maximum disk space that can be used by the Offline Files feature.
-ms.assetid: 'cf0a6e0c-799f-4417-a1d4-0afcfbb77883'
-keywords: ["Win32_OfflineFilesDiskSpaceLimit class User State Manageability API", "Win32_OfflineFilesDiskSpaceLimit class User State Manageability API , described"]
+ms.assetid: cf0a6e0c-799f-4417-a1d4-0afcfbb77883
+keywords:
+- Win32_OfflineFilesDiskSpaceLimit class User State Manageability API
+- Win32_OfflineFilesDiskSpaceLimit class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_OfflineFilesDiskSpaceLimit class
@@ -81,16 +88,16 @@ The total amount of disk space, in megabytes (MB), that can be used by the Offli
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                              |
 | MOF<br/>                      | <dl> <dt>OfflineFilesConfigurationWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

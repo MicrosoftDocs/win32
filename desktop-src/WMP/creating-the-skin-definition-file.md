@@ -1,8 +1,18 @@
 ---
 title: Creating the Skin Definition File
 description: Creating the Skin Definition File
-ms.assetid: 'a1fe79cd-7aca-45db-9cfb-c9ab26c53412'
-keywords: ["creating skins,skin definition files", "Windows Media Player skins,skin definition files", "skins,skin definition files", "files for skins,skin definition", "skin definition files,creating"]
+ms.assetid: a1fe79cd-7aca-45db-9cfb-c9ab26c53412
+keywords:
+- creating skins,skin definition files
+- Windows Media Player skins,skin definition files
+- skins,skin definition files
+- files for skins,skin definition
+- skin definition files,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Skin Definition File

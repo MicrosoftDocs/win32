@@ -4,10 +4,13 @@ description: The following clipboard formats are supported by the Event Viewer s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f7cc92ed-63fc-4d9f-9c4b-6d1cad1fae13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f7cc92ed-63fc-4d9f-9c4b-6d1cad1fae13
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Event Viewer Clipboard Formats

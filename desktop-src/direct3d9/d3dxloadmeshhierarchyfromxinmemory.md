@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads the first frame hierarchy from a .x file.'
-ms.assetid: '428e5cfb-d6a5-4a7f-b082-2d8898e65490'
+---
+Description: Loads the first frame hierarchy from a .x file.
+ms.assetid: 428e5cfb-d6a5-4a7f-b082-2d8898e65490
 title: D3DXLoadMeshHierarchyFromXInMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXLoadMeshHierarchyFromXInMemory function
@@ -60,9 +65,9 @@ Combination of one or more flags from the [**D3DXMESH**](direct3d9.d3dxmesh) enu
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, the device object associated with the mesh.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, the device object associated with the mesh.
 
 </dd> <dt>
 

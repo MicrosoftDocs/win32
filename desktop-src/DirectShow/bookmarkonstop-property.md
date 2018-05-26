@@ -1,7 +1,12 @@
 ---
-Description: 'The DVDAdm.BookmarkOnStop property sets or retrieves a value that tells the MSWebDVD object whether to automatically save a bookmark of the current location and settings when the user clicks the Stop button.'
-ms.assetid: 'bcadaa3c-23b7-4408-8199-058103a92a34'
+Description: The DVDAdm.BookmarkOnStop property sets or retrieves a value that tells the MSWebDVD object whether to automatically save a bookmark of the current location and settings when the user clicks the Stop button.
+ms.assetid: bcadaa3c-23b7-4408-8199-058103a92a34
 title: BookmarkOnStop Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BookmarkOnStop Property

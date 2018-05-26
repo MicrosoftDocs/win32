@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves a Boolean value that indicates whether lockbox exclusion is enabled.'
+Description: Specifies or retrieves a Boolean value that indicates whether lockbox exclusion is enabled.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'bc47bf36-be09-4acd-a83c-505ea47109cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: bc47bf36-be09-4acd-a83c-505ea47109cd
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedLockbox.Enabled property'
+title: ExcludedLockbox.Enabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedLockbox.Enabled property
@@ -129,7 +132,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -141,9 +144,9 @@ END SUB
 [**ExcludedLockbox**](excludedlockbox-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

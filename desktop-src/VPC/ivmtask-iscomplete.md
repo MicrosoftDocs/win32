@@ -1,8 +1,11 @@
 ---
 title: IVMTask IsComplete property
 description: Determines whether the task has completed.
-ms.assetid: '181fa220-4de2-4ab3-950b-fffc4fe4de64'
-keywords: ["IsComplete property Virtual PC", "IsComplete property Virtual PC , IVMTask interface", "IVMTask interface Virtual PC , IsComplete property"]
+ms.assetid: 181fa220-4de2-4ab3-950b-fffc4fe4de64
+keywords:
+- IsComplete property Virtual PC
+- IsComplete property Virtual PC , IVMTask interface
+- IVMTask interface Virtual PC , IsComplete property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::IsComplete property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether the task has completed.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsComplete(
-  [out, retval] VARIANT_BOOL *isComplete
+  [out, retval] VARIANT_BOOL *isComplete
 );
 ```
 
@@ -55,9 +63,9 @@ HRESULT get_IsComplete(
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMTask is defined as ab72b222-6e9c-48ae-aa54-85e3e635767c<br/>                    |
@@ -71,9 +79,9 @@ HRESULT get_IsComplete(
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

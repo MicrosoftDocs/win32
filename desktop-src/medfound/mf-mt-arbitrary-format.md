@@ -1,7 +1,12 @@
-﻿---
-Description: 'Additional format data for a binary stream in an Advanced Systems Format (ASF) file.'
-ms.assetid: 'fc5b9890-1508-498e-b2ce-ed4fa2052f9c'
-title: 'MF\_MT\_ARBITRARY\_FORMAT attribute'
+---
+Description: Additional format data for a binary stream in an Advanced Systems Format (ASF) file.
+ms.assetid: fc5b9890-1508-498e-b2ce-ed4fa2052f9c
+title: MF\_MT\_ARBITRARY\_FORMAT attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_ARBITRARY\_FORMAT attribute
@@ -14,13 +19,13 @@ Additional format data for a binary stream in an Advanced Systems Format (ASF) f
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetBlob**](imfattributes-getblob.md).
+To get this attribute, call [**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetBlob**](imfattributes-setblob.md).
+To set this attribute, call [**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master).
 
 ## Remarks
 
-Applications can use binary streams to hold custom data types. The ASF media source treats the value of this attribute as an opaque blob. The **formattype** member of the [**MT\_ARBITRARY\_HEADER**](mt-arbitrary-header.md) structure defines the layout of the format data.
+Applications can use binary streams to hold custom data types. The ASF media source treats the value of this attribute as an opaque blob. The **formattype** member of the [**MT\_ARBITRARY\_HEADER**](/windows/win32/mfapi/ns-mfapi-_mt_arbitrary_header?branch=master) structure defines the layout of the format data.
 
 This structure corresponds to the Format Data field of the type-specific data in the Stream Properties Object, in files where the stream type is **ASF\_Binary\_Media**. For more information, see the ASF specification.
 

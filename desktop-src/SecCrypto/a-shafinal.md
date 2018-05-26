@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes the final hash of the data entered by the MD5Update function.'
-ms.assetid: 'A0457D26-F4E3-4ED4-B374-0AFCB6F661FB'
-title: 'A\_SHAFinal function'
+---
+Description: Computes the final hash of the data entered by the MD5Update function.
+ms.assetid: A0457D26-F4E3-4ED4-B374-0AFCB6F661FB
+title: A\_SHAFinal function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A\_SHAFinal function

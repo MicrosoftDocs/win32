@@ -1,7 +1,12 @@
 ---
-Description: 'The ODBCAttribute table contains information about the attributes of Open Database Connectivity (ODBC) drivers and translators.'
-ms.assetid: '82fd83d4-22dd-4641-807b-d2b263918e4c'
+Description: The ODBCAttribute table contains information about the attributes of Open Database Connectivity (ODBC) drivers and translators.
+ms.assetid: 82fd83d4-22dd-4641-807b-d2b263918e4c
 title: ODBCAttribute Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODBCAttribute Table

@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetAlternativeSection function
 description: Do not use. Returns handle to the first body in the message tree that has the alternative content type. Also returns whether other instances were found.
-ms.assetid: '456c62d3-65d7-4af9-afd6-2d1a744eebed'
-keywords: ["MimeOleGetAlternativeSection function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 456c62d3-65d7-4af9-afd6-2d1a744eebed
+keywords:
+- MimeOleGetAlternativeSection function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetAlternativeSection function
@@ -22,9 +28,9 @@ Do not use. Returns handle to the first body in the message tree that has the al
 
 ```C++
 HRESULT MimeOleGetAlternativeSection(
-  _In_  IMimeMessageTree *pTree,
-  _Out_ LPHBODY          phAlternative,
-  _Out_ boolean          *pfMultiple
+  _In_  IMimeMessageTree *pTree,
+  _Out_ LPHBODY          phAlternative,
+  _Out_ boolean          *pfMultiple
 );
 ```
 
@@ -76,7 +82,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,8 +90,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -93,9 +99,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

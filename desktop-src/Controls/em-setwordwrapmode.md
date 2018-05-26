@@ -1,8 +1,9 @@
 ---
 title: EM\_SETWORDWRAPMODE message
 description: Sets the word-wrapping and word-breaking options for a rich edit control.
-ms.assetid: '43703ac8-6ae5-470b-9156-e60330ef97c4'
-keywords: ["EM_SETWORDWRAPMODE message Windows Controls"]
+ms.assetid: 43703ac8-6ae5-470b-9156-e60330ef97c4
+keywords:
+- EM_SETWORDWRAPMODE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETWORDWRAPMODE message
@@ -18,9 +24,9 @@ api_type:
 Sets the word-wrapping and word-breaking options for a rich edit control.
 
 > [!Note]  
-> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions.
+> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions.
 
- 
+ 
 
 ## Parameters
 
@@ -44,7 +50,7 @@ Specifies one or more of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -61,7 +67,7 @@ This message returns the current word-wrapping and word-breaking options.
 
 ## Remarks
 
-This message must not be sent by the application defined–word breaking procedure.
+This message must not be sent by the application defined word breaking procedure.
 
 ## Requirements
 
@@ -69,15 +75,15 @@ This message must not be sent by the application defined–word breaking procedure
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

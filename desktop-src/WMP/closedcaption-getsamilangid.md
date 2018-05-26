@@ -1,8 +1,11 @@
 ---
 title: ClosedCaption.getSAMILangID method
 description: The getSAMILangID method retrieves the locale identifier (LCID) of a language supported by the current SAMI file.
-ms.assetid: '35f8379a-a2f5-4b22-b1ad-3c5cc5bc5e3d'
-keywords: ["getSAMILangID method Windows Media Player", "getSAMILangID method Windows Media Player , ClosedCaption class", "ClosedCaption class Windows Media Player , getSAMILangID method"]
+ms.assetid: 35f8379a-a2f5-4b22-b1ad-3c5cc5bc5e3d
+keywords:
+- getSAMILangID method Windows Media Player
+- getSAMILangID method Windows Media Player , ClosedCaption class
+- ClosedCaption class Windows Media Player , getSAMILangID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.getSAMILangID method
@@ -72,9 +80,9 @@ This method cannot be used until a digital media file is open (*Player*.**openSt
 [**ClosedCaption Object**](closedcaption-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

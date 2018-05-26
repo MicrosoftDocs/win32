@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a video stream between color formats.'
-ms.assetid: '1c15dc2b-0e69-4d16-af02-8056a1eb2c5c'
+---
+Description: Converts a video stream between color formats.
+ms.assetid: 1c15dc2b-0e69-4d16-af02-8056a1eb2c5c
 title: Color Converter DSP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Converter DSP
@@ -15,10 +20,10 @@ CLSID\_CColorConvertDMO
 ## Interfaces
 
 -   [**IMediaObject**](dshow.imediaobject)
--   [**IMFRealTimeClient**](imfrealtimeclient.md)
--   [**IMFTransform**](imftransform.md)
+-   [**IMFRealTimeClient**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclient?branch=master)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 -   [**IPropertyStore**](properties.IPropertyStore)
--   [IWMColorConvProps](iwmcolorconvpropsinterface.md)
+-   [IWMColorConvProps](/windows/win32/wmcodecdsp/nn-wmcodecdsp-iwmcolorconvprops?branch=master)
 
 ## Input Formats
 
@@ -80,7 +85,7 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
 
 By default, this DSP copies the entire source image to the output buffer. Optionally, you can specify source and destination rectangles. The DSP copies the portion of the source image defined by source rectangle, and writes it into the destination rectangle on the output buffer. The DSP does not perform any scaling; the source and destination rectangles must be the same size. The source and destination rectangles cannot exceed the boundaries of the video frame.
 
-All of the properties except [**MFPKEY\_COLORCONV\_MODE**](mfpkey-colorconv-mode.md) must be set in a group. If you set any of these properties, you must set all of the others. Otherwise, the source and destination rectangles might be invalid, in which case both the [**IMFTransform::ProcessOutput**](imftransform-processoutput.md) and [**IMediaObject::ProcessOutput**](dshow.imediaobject_processoutput) methods will return **E\_INVALIDARG**.
+All of the properties except [**MFPKEY\_COLORCONV\_MODE**](mfpkey-colorconv-mode.md) must be set in a group. If you set any of these properties, you must set all of the others. Otherwise, the source and destination rectangles might be invalid, in which case both the [**IMFTransform::ProcessOutput**](/windows/win32/mftransform/nf-mftransform-imftransform-processoutput?branch=master) and [**IMediaObject::ProcessOutput**](dshow.imediaobject_processoutput) methods will return **E\_INVALIDARG**.
 
 The color converter does not support every combination of input format and output format. Usually, you should set the media format that you know, either input or output, and then enumerate the available formats on the opposite stream.
 

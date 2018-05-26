@@ -2,7 +2,12 @@
 title: Q
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '8c83c9e0-7dff-4796-b1fd-d9bffdf100f5'
+ms.assetid: 8c83c9e0-7dff-4796-b1fd-d9bffdf100f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Q

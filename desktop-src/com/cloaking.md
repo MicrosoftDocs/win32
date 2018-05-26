@@ -1,7 +1,12 @@
 ---
 title: Cloaking
 description: Cloaking is a COM security capability that determines what identity the client projects toward the server during impersonation.
-ms.assetid: '5b97d9d6-8fa9-4da2-8351-64772227d9a2'
+ms.assetid: 5b97d9d6-8fa9-4da2-8351-64772227d9a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cloaking
@@ -21,7 +26,7 @@ The following topics provide more information about cloaking:
 
 There are two types of cloaking: *static* cloaking and *dynamic* cloaking:
 
--   With static cloaking (EOAC\_STATIC\_CLOAKING), the server sees the thread token from the first call from a client to the server. For the first call, if the proxy identity was previously set during a call to [**CoSetProxyBlanket**](cosetproxyblanket.md), that proxy identity is used. However, if the proxy identity was not previously set, the thread token is used. If no thread token is present, the process token is used. For all future calls, the identity set on the first call is used.
+-   With static cloaking (EOAC\_STATIC\_CLOAKING), the server sees the thread token from the first call from a client to the server. For the first call, if the proxy identity was previously set during a call to [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master), that proxy identity is used. However, if the proxy identity was not previously set, the thread token is used. If no thread token is present, the process token is used. For all future calls, the identity set on the first call is used.
 -   With dynamic cloaking (EOAC\_DYNAMIC\_CLOAKING), on each call the current thread token (if there is a thread token) is used to determine the client's identity. If there is no thread token, the process token is used. This means that servers called on the client's behalf during impersonation see the identity of the COM client that originated the call, which is generally the desired behavior. (Of course, for impersonation to succeed, the client must have given the server authority to impersonate by setting an appropriate impersonation level. For more information, see [Impersonation Levels](impersonation-levels.md).) This type of cloaking is expensive.
 
 ## How Cloaking Affects Client Identity
@@ -44,7 +49,7 @@ To summarize, the identity of the client is a function of the cloaking flag set,
 
 
 
- 
+ 
 
 The following flowchart illustrates how the proxy identity is determined in different situations.
 
@@ -52,15 +57,15 @@ The following flowchart illustrates how the proxy identity is determined in diff
 
 ## Setting Cloaking
 
-Cloaking is set as a capability flag in a call to [**CoInitializeSecurity**](coinitializesecurity.md), which sets cloaking for the entire process. The cloaking capability is then set until the client changes it through a call to IClientSecurity::[**SetBlanket**](iclientsecurity-setblanket.md) (or to [**CoSetProxyBlanket**](cosetproxyblanket.md)), which sets cloaking for the proxy.
+Cloaking is set as a capability flag in a call to [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master), which sets cloaking for the entire process. The cloaking capability is then set until the client changes it through a call to IClientSecurity::[**SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master) (or to [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master)), which sets cloaking for the proxy.
 
-By default, cloaking is not set. To set it, pass EOAC\_STATIC\_CLOAKING or EOAC\_DYNAMIC\_CLOAKING to the *pCapabilities* parameter in [**CoInitializeSecurity**](coinitializesecurity.md) or [**SetBlanket**](iclientsecurity-setblanket.md).
+By default, cloaking is not set. To set it, pass EOAC\_STATIC\_CLOAKING or EOAC\_DYNAMIC\_CLOAKING to the *pCapabilities* parameter in [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or [**SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master).
 
-When static cloaking is enabled using [**CoInitializeSecurity**](coinitializesecurity.md), each proxy picks up a token (thread or process) the first time you make a call on the proxy. When static cloaking is enabled using [**SetBlanket**](iclientsecurity-setblanket.md), the proxy picks up the token on the thread at that time. If no thread token is available when **SetBlanket** is called, the process token is used for the proxy's identity. Basically, **SetBlanket** fixes the identity of the proxy.
+When static cloaking is enabled using [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master), each proxy picks up a token (thread or process) the first time you make a call on the proxy. When static cloaking is enabled using [**SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master), the proxy picks up the token on the thread at that time. If no thread token is available when **SetBlanket** is called, the process token is used for the proxy's identity. Basically, **SetBlanket** fixes the identity of the proxy.
 
-With dynamic cloaking, the proxy's identity is determined the same way regardless of whether dynamic cloaking is set using [**CoInitializeSecurity**](coinitializesecurity.md) or with [**SetBlanket**](iclientsecurity-setblanket.md). The current thread token is used if there is one; otherwise, the process token is used.
+With dynamic cloaking, the proxy's identity is determined the same way regardless of whether dynamic cloaking is set using [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or with [**SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master). The current thread token is used if there is one; otherwise, the process token is used.
 
-If cloaking is set for the entire process through a call to [**CoInitializeSecurity**](coinitializesecurity.md) and you want to make calls with the process token, do not impersonate while making calls.
+If cloaking is set for the entire process through a call to [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) and you want to make calls with the process token, do not impersonate while making calls.
 
 ## Cloaking and Impersonation Levels
 
@@ -97,9 +102,9 @@ With dynamic cloaking, the identity of the caller during impersonation is based 
 [Delegation and Impersonation](delegation-and-impersonation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

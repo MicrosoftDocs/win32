@@ -4,13 +4,15 @@ description: Represents a DFS folder. This class can be used for the creation, m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a4c4799e-25e9-45b4-9db0-deaef423caea'
-ms.prod: 'windows-server-dev'
+ms.assetid: a4c4799e-25e9-45b4-9db0-deaef423caea
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsNamespaceFolder class", "MSFT_DfsNamespaceFolder class, described"]
+keywords:
+- MSFT_DfsNamespaceFolder class
+- MSFT_DfsNamespaceFolder class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsNamespaceFolder class
@@ -69,7 +74,7 @@ The **MSFT\_DfsNamespaceFolder** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -159,7 +164,7 @@ A DFS-N root or a DFS-N link can have one of the following UNC path formats:
 
 
 
- 
+ 
 
 where:
 
@@ -235,16 +240,16 @@ This property is inherited from [**MSFT\_DfsNamespaceLinkBase**](msft-dfsnamespa
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor''s OpenPrintProcessor function.'
-ms.assetid: 'd7160747-d81c-407a-bbf0-7ec5b3210c13'
+---
+Description: The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processors OpenPrintProcessor function.
+ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 title: PRINTPROCESSOROPENDATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PRINTPROCESSOROPENDATA structure

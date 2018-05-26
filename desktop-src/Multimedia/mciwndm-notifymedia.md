@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_NOTIFYMEDIA message
 description: The MCIWNDM\_NOTIFYMEDIA message notifies the parent window of an application that the media has changed.
-ms.assetid: 'cc31502d-09a9-4580-9ff8-9c2be51c8e35'
-keywords: ["MCIWNDM_NOTIFYMEDIA message Windows Multimedia"]
+ms.assetid: cc31502d-09a9-4580-9ff8-9c2be51c8e35
+keywords:
+- MCIWNDM_NOTIFYMEDIA message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_NOTIFYMEDIA message
@@ -54,15 +60,15 @@ You can enable notification of media changes by specifying the MCIWNDF\_NOTIFYME
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

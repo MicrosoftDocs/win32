@@ -1,14 +1,19 @@
 ---
 title: Implementing the IDispatch Interface
 description: ActiveX or OLE objects can implement the IDispatch interface for access by ActiveX clients, such as Visual Basic.
-ms.assetid: '0e171f7f-0022-4e9b-ac8e-98192828e945'
+ms.assetid: 0e171f7f-0022-4e9b-ac8e-98192828e945
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing the IDispatch Interface
 
-ActiveX or OLE objects can implement the [**IDispatch**](idispatch.md) interface for access by ActiveX clients, such as Visual Basic. The object's properties and methods can be accessed using [IDispatch::GetIDsOfNames](6F6CF233-3481-436E-8D6A-51F93BF91619) and [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D).
+ActiveX or OLE objects can implement the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface for access by ActiveX clients, such as Visual Basic. The object's properties and methods can be accessed using [IDispatch::GetIDsOfNames](6F6CF233-3481-436E-8D6A-51F93BF91619) and [IDispatch::Invoke](964ADE8E-9D8A-4D32-BD47-AA678912A54D).
 
-The following examples show how to access an ActiveX or OLE object through the [**IDispatch**](idispatch.md) interface. Portions of the code are omitted for brevity, including handling any errors returned by function calls.
+The following examples show how to access an ActiveX or OLE object through the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface. Portions of the code are omitted for brevity, including handling any errors returned by function calls.
 
 
 ```C++
@@ -40,7 +45,7 @@ hresult = CoCreateInstance(CLSID_Hello, NULL, CLSCTX_SERVER, IID_IUnknown, (void
 
 
 
-**QueryInterface** checks whether the object supports [**IDispatch**](idispatch.md). (As with any call to **QueryInterface**, the returned pointer must be released when it is no longer needed.)
+**QueryInterface** checks whether the object supports [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master). (As with any call to **QueryInterface**, the returned pointer must be released when it is no longer needed.)
 
 
 ```C++
@@ -50,7 +55,7 @@ hresult = punk->QueryInterface(IID_IDispatch, &amp;pdisp);
 
 
 
-[**GetIDsOfNames**](idispatch-getidsofnames.md) retrieves the DISPID for the indicated method or property, in this case, szMember.
+[**GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master) retrieves the DISPID for the indicated method or property, in this case, szMember.
 
 
 ```C++
@@ -66,7 +71,7 @@ hresult = pdisp->GetIDsOfNames(
 
 
 
-In the following call to [**Invoke**](idispatch-invoke.md), the DISPID indicates the property or method to invoke. The `SayHello` method does not take any parameters, so the fifth argument (&*dispparamsNoArgs*), contains a Null and 0, as initialized at declaration.
+In the following call to [**Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master), the DISPID indicates the property or method to invoke. The `SayHello` method does not take any parameters, so the fifth argument (&*dispparamsNoArgs*), contains a Null and 0, as initialized at declaration.
 
 To invoke a property or method that requires parameters, supply the parameters in the DISPPARAMS structure.
 

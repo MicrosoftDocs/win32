@@ -1,7 +1,12 @@
 ---
-Description: 'This operator tests for inequality between CMediaType objects.'
-ms.assetid: '9caf4cb9-f049-42e7-abe4-79f8bf0ea542'
-title: 'CMediaType.CMediaType::operator!= method'
+Description: This operator tests for inequality between CMediaType objects.
+ms.assetid: 9caf4cb9-f049-42e7-abe4-79f8bf0ea542
+title: CMediaType.CMediaTypeoperator!= method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.CMediaType::operator!= method
@@ -13,7 +18,7 @@ This operator tests for inequality between [**CMediaType**](cmediatype.md) objec
 
 ```C++
 BOOL CMediaType::operator!=(
-  [ref] const CMediaType &amp;rt
+  [ref] const CMediaType &amp;rt
 );
 ```
 
@@ -52,9 +57,9 @@ Returns **TRUE** if *rt* is not equal to this object. Otherwise, returns **FALSE
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

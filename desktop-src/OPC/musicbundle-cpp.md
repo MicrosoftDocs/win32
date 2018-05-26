@@ -1,8 +1,25 @@
 ---
 title: musicbundle.cpp
 description: musicbundle.cpp
-ms.assetid: '6a219b9d-179d-41bf-99ad-f4c224eb4150'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle sample", "packaging,music bundle sample", "packages,music bundle sample", "music bundle sample,musicbundle.cpp", "Packaging APIs,musicbundle.cpp", "packaging,musicbundle.cpp", "packages,musicbundle.cpp", "musicbundle.cpp", "sample applications,music bundle"]
+ms.assetid: 6a219b9d-179d-41bf-99ad-f4c224eb4150
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle sample
+- packaging,music bundle sample
+- packages,music bundle sample
+- music bundle sample,musicbundle.cpp
+- Packaging APIs,musicbundle.cpp
+- packaging,musicbundle.cpp
+- packages,musicbundle.cpp
+- musicbundle.cpp
+- sample applications,music bundle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # musicbundle.cpp

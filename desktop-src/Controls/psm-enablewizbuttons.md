@@ -1,8 +1,9 @@
 ---
 title: PSM\_ENABLEWIZBUTTONS message
 description: Enables or disables any of the standard buttons in an Aero wizard. You can send this message explicitly or use the PropSheet\_EnableWizButtons macro.
-ms.assetid: '9e8ff2dc-c0e7-4754-8be2-2c7b65a524f4'
-keywords: ["PSM_ENABLEWIZBUTTONS message Windows Controls"]
+ms.assetid: 9e8ff2dc-c0e7-4754-8be2-2c7b65a524f4
+keywords:
+- PSM_ENABLEWIZBUTTONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_ENABLEWIZBUTTONS message
 
-Enables or disables any of the standard buttons in an Aero wizard. You can send this message explicitly or use the [**PropSheet\_EnableWizButtons**](propsheet-enablewizbuttons.md) macro.
+Enables or disables any of the standard buttons in an Aero wizard. You can send this message explicitly or use the [**PropSheet\_EnableWizButtons**](/windows/win32/Prsht/nf-prsht-propsheet_enablewizbuttons?branch=master) macro.
 
 ## Parameters
 
@@ -38,7 +44,7 @@ One or more of the following values that specify which property sheet buttons ar
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -59,15 +65,15 @@ No return value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

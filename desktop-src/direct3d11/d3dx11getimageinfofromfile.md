@@ -1,8 +1,9 @@
 ---
 title: D3DX11GetImageInfoFromFile function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, GetMetadataFromXXXFile (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Retrieves information about a given image file.
-ms.assetid: '57768604-3672-49a0-8120-f09240b8fc98'
-keywords: ["D3DX11GetImageInfoFromFile function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, GetMetadataFromXXXFile (where XXX is WIC, DDS, or TGA; WIC doesnt support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Retrieves information about a given image file.
+ms.assetid: 57768604-3672-49a0-8120-f09240b8fc98
+keywords:
+- D3DX11GetImageInfoFromFile function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11GetImageInfoFromFile function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use the [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library, **GetMetadataFromXXXFile** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 
- 
+ 
 
 Retrieves information about a given image file.
 
@@ -33,10 +39,10 @@ Retrieves information about a given image file.
 
 ```C++
 HRESULT D3DX11GetImageInfoFromFile(
-  _In_  LPCTSTR           pSrcFile,
-  _In_  ID3DX11ThreadPump *pPump,
-  _In_  D3DX11_IMAGE_INFO *pSrcInfo,
-  _Out_ HRESULT           *pHResult
+  _In_  LPCTSTR           pSrcFile,
+  _In_  ID3DX11ThreadPump *pPump,
+  _In_  D3DX11_IMAGE_INFO *pSrcInfo,
+  _Out_ HRESULT           *pHResult
 );
 ```
 
@@ -110,9 +116,9 @@ This function supports both Unicode and ANSI strings.
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

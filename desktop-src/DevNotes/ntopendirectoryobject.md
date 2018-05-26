@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens an existing directory object.'
-ms.assetid: '7313fb32-976b-4c73-b9ba-09fb8ad7faf1'
+---
+Description: Opens an existing directory object.
+ms.assetid: 7313fb32-976b-4c73-b9ba-09fb8ad7faf1
 title: NtOpenDirectoryObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtOpenDirectoryObject function

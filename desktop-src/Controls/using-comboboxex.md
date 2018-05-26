@@ -1,7 +1,12 @@
 ---
 title: Using ComboBoxEx Controls
 description: This section contains sample code and information about how to use ComboBoxEx controls.
-ms.assetid: '3c932a7e-e0cb-4e1e-a982-c480fac4a323'
+ms.assetid: 3c932a7e-e0cb-4e1e-a982-c480fac4a323
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using ComboBoxEx Controls
@@ -21,11 +26,11 @@ This section contains sample code and information about how to use ComboBoxEx co
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

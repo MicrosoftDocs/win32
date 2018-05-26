@@ -2,13 +2,16 @@
 title: AddByCustomPolicy method of the PS\_VpnS2SInterface class
 description: Creates an S2S Interface with the specified parameters.
 audience: developer
-ms.assetid: '3d75f881-b98e-4ab3-9f8a-2b14871d0b68'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3d75f881-b98e-4ab3-9f8a-2b14871d0b68
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByCustomPolicy method", "AddByCustomPolicy method, PS_VpnS2SInterface class", "PS_VpnS2SInterface class, AddByCustomPolicy method"]
+keywords:
+- AddByCustomPolicy method
+- AddByCustomPolicy method, PS_VpnS2SInterface class
+- PS_VpnS2SInterface class, AddByCustomPolicy method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByCustomPolicy method of the PS\_VpnS2SInterface class
@@ -28,54 +34,54 @@ Creates an S2S Interface with the specified parameters.
 
 ```mof
 uint32 AddByCustomPolicy(
-  [in]  string             Name,
-  [in]  string             Protocol,
-  [in]  string             Destination[],
-  [in]  boolean            AdminStatus,
-  [in]  boolean            PromoteAlternate,
-  [in]  string             AuthenticationMethod,
-  [in]  string             PostConnectionIPv4Subnet[],
-  [in]  string             PostConnectionIPv6Subnet[],
-  [in]  boolean            InitiateConfigPayload,
-  [in]  string             RadiusAttributeClass,
-  [in]  uint32             EnableQoS,
-  [in]  uint64             TxBandwidthKbps,
-  [in]  uint64             RxBandwidthKbps,
-  [in]  string             IPv4TriggerFilter[],
-  [in]  string             IPv6TriggerFilter[],
-  [in]  boolean            Persistent,
-  [in]  uint32             IPv4TriggerFilterAction,
-  [in]  uint32             IPv6TriggerFilterAction,
-  [in]  uint32             SADataSizeForRenegotiationKilobytes,
-  [in]  string             IPv4Subnet[],
-  [in]  string             IPv6Subnet[],
-  [in]  string             ResponderAuthenticationMethod,
-  [in]  boolean            PassThru,
-  [in]  string             RoutingDomain,
-  [in]  uint8              Certificate[],
-  [in]  string             SharedSecret,
-  [in]  uint32             NetworkOutageTimeSeconds,
-  [in]  uint32             NumberOfTries,
-  [in]  uint32             RetryIntervalSeconds,
-  [in]  uint32             SALifeTimeSeconds,
-  [in]  uint32             MMSALifeTimeSeconds,
-  [in]  string             EapMethod,
-  [in]  boolean            InternalIPv4,
-  [in]  boolean            InternalIPv6,
-  [in]  uint32             IdleDisconnectSeconds,
-  [in]  string             UserName,
-  [in]  string             Password,
-  [in]  boolean            CustomPolicy,
-  [in]  uint32             EncryptionMethod,
-  [in]  uint32             IntegrityCheckMethod,
-  [in]  uint32             CipherTransformConstants,
-  [in]  uint32             AuthenticationTransformConstants,
-  [in]  uint32             PfsGroup,
-  [in]  uint32             DHGroup,
-  [in]  string             SourceIPAddress,
-  [in]  VpnTrafficSelector LocalVpnTrafficSelector[],
-  [in]  VpnTrafficSelector RemoteVpnTrafficSelector[],
-  [out] VpnS2SInterface    cmdletOutput
+  [in]  string             Name,
+  [in]  string             Protocol,
+  [in]  string             Destination[],
+  [in]  boolean            AdminStatus,
+  [in]  boolean            PromoteAlternate,
+  [in]  string             AuthenticationMethod,
+  [in]  string             PostConnectionIPv4Subnet[],
+  [in]  string             PostConnectionIPv6Subnet[],
+  [in]  boolean            InitiateConfigPayload,
+  [in]  string             RadiusAttributeClass,
+  [in]  uint32             EnableQoS,
+  [in]  uint64             TxBandwidthKbps,
+  [in]  uint64             RxBandwidthKbps,
+  [in]  string             IPv4TriggerFilter[],
+  [in]  string             IPv6TriggerFilter[],
+  [in]  boolean            Persistent,
+  [in]  uint32             IPv4TriggerFilterAction,
+  [in]  uint32             IPv6TriggerFilterAction,
+  [in]  uint32             SADataSizeForRenegotiationKilobytes,
+  [in]  string             IPv4Subnet[],
+  [in]  string             IPv6Subnet[],
+  [in]  string             ResponderAuthenticationMethod,
+  [in]  boolean            PassThru,
+  [in]  string             RoutingDomain,
+  [in]  uint8              Certificate[],
+  [in]  string             SharedSecret,
+  [in]  uint32             NetworkOutageTimeSeconds,
+  [in]  uint32             NumberOfTries,
+  [in]  uint32             RetryIntervalSeconds,
+  [in]  uint32             SALifeTimeSeconds,
+  [in]  uint32             MMSALifeTimeSeconds,
+  [in]  string             EapMethod,
+  [in]  boolean            InternalIPv4,
+  [in]  boolean            InternalIPv6,
+  [in]  uint32             IdleDisconnectSeconds,
+  [in]  string             UserName,
+  [in]  string             Password,
+  [in]  boolean            CustomPolicy,
+  [in]  uint32             EncryptionMethod,
+  [in]  uint32             IntegrityCheckMethod,
+  [in]  uint32             CipherTransformConstants,
+  [in]  uint32             AuthenticationTransformConstants,
+  [in]  uint32             PfsGroup,
+  [in]  uint32             DHGroup,
+  [in]  string             SourceIPAddress,
+  [in]  VpnTrafficSelector LocalVpnTrafficSelector[],
+  [in]  VpnTrafficSelector RemoteVpnTrafficSelector[],
+  [out] VpnS2SInterface    cmdletOutput
 );
 ```
 
@@ -132,7 +138,7 @@ Specifies the authentication method to be used by the S2S connection.
 
 The IPv4 subnet to route. The routes specified by the subnet do not trigger the S2S connection.
 
-**Windows Server 2012:** This parameter was renamed from *IPv4DontTriggerSubnet* in Windows Server 2012 R2.
+**Windows Server 2012:** This parameter was renamed from *IPv4DontTriggerSubnet* in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -141,7 +147,7 @@ The IPv4 subnet to route. The routes specified by the subnet do not trigger the 
 
 The IPv6 subnet to route. The routes specified by the subnet do not trigger the S2S connection.
 
-**Windows Server 2012:** This parameter was renamed from *IPv6DontTriggerSubnet* in Windows Server 2012 R2.
+**Windows Server 2012:** This parameter was renamed from *IPv6DontTriggerSubnet* in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -150,7 +156,7 @@ The IPv6 subnet to route. The routes specified by the subnet do not trigger the 
 
 A value that indicates whether negotiate the configuration with peers. **True** to negotiate the configuration with peers; otherwise **false**.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -159,7 +165,7 @@ A value that indicates whether negotiate the configuration with peers. **True** 
 
 The Class attribute of the RADIUS server.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -168,7 +174,7 @@ The Class attribute of the RADIUS server.
 
 Indicates whether QoS is enabled on the network interface. 0 to enable QoS; otherwise 1.
 
-**Windows Server 2012:** This parameter was renamed from *QoS* in Windows Server 2012 R2.
+**Windows Server 2012:** This parameter was renamed from *QoS* in Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -177,7 +183,7 @@ Indicates whether QoS is enabled on the network interface. 0 to enable QoS; othe
 
 The bandwidth limit for incoming traffic from the VPN interface, in kbps.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -186,7 +192,7 @@ The bandwidth limit for incoming traffic from the VPN interface, in kbps.
 
 The bandwidth limit for outgoing traffic to the VPN interface, in kbps.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -195,7 +201,7 @@ The bandwidth limit for outgoing traffic to the VPN interface, in kbps.
 
 An array that contains the demand dial filters for the IPv4 Transport.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -204,7 +210,7 @@ An array that contains the demand dial filters for the IPv4 Transport.
 
 Sets and array that contains the demand dial filters for the IPv6 Transport.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -213,7 +219,7 @@ Sets and array that contains the demand dial filters for the IPv6 Transport.
 
 A value that indicates whether the connection is persistent or triggered by network traffic. **True** if the connection is persistent; otherwise **false**.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -222,7 +228,7 @@ A value that indicates whether the connection is persistent or triggered by netw
 
 Sets the value that indicates whether the IPv4 trigger filters initiates the S2S connection. This parameter can be set to one of the following values.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 <dt>
 
@@ -245,7 +251,7 @@ Block
 
 Sets the value that indicates whether the IPv6 trigger filters initiates the S2S connection. This parameter can be set to one of the following values.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 <dt>
 
@@ -303,7 +309,7 @@ Indicates whether the *cmdletOutput* parameter returns an object. **True** to re
 
 Specifies the RoutingDomainName in which interface is to be added.
 
-**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is unavailable before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -354,7 +360,7 @@ The lifetime of a security association (SA) in seconds, after which the SA is no
 
 Lifetime of main mode security association (SA) in seconds, after which the MM SA is no longer valid.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is supported starting with Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is supported starting with Windows Server 2016.
 
 </dd> <dt>
 
@@ -454,7 +460,7 @@ DH Group plumbed in IPsec policy.
 
 The source IP address.
 
-**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -463,7 +469,7 @@ The source IP address.
 
 An embedded instance of a local [**VpnTrafficSelector**](vpntrafficselector.md) to be negotiated.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -472,7 +478,7 @@ An embedded instance of a local [**VpnTrafficSelector**](vpntrafficselector.md) 
 
 An embedded instance of a remote [**VpnTrafficSelector**](vpntrafficselector.md) to be negotiated.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This method is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -490,7 +496,7 @@ Contains an embedded instance of a [**VpnS2SInterface**](ps-vpns2sinterface.md) 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -504,9 +510,9 @@ Contains an embedded instance of a [**VpnS2SInterface**](ps-vpns2sinterface.md) 
 [**PS\_VpnS2SInterface**](ps-vpns2sinterface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

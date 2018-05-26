@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Windows HTTP Services (WinHTTP) fully support the client side use of the Microsoft Passport authentication protocol. This topic provides an overview of the transactions involved in Passport authentication and how to handle them.'
-ms.assetid: '395d7aef-4da0-4664-8328-7d31ce58fedd'
+Description: Microsoft Windows HTTP Services (WinHTTP) fully support the client side use of the Microsoft Passport authentication protocol. This topic provides an overview of the transactions involved in Passport authentication and how to handle them.
+ms.assetid: 395d7aef-4da0-4664-8328-7d31ce58fedd
 title: Passport Authentication in WinHTTP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Passport Authentication in WinHTTP
@@ -60,18 +65,18 @@ The additional cookies in the response are intended to speed the authentication 
 
 Passport authentication in WinHTTP is very similar to other authentication schemes. See [Authentication in WinHTTP](authentication-in-winhttp.md) for an overview of authentication in WinHTTP.
 
-In WinHTTP 5.1, Passport authentication is disabled by default and must be explicitly enabled with [**WinHttpSetOption**](winhttpsetoption.md) before use.
+In WinHTTP 5.1, Passport authentication is disabled by default and must be explicitly enabled with [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) before use.
 
 WinHTTP handles many of the transaction details internally for Passport authentication. During the initial request, the server responds with a 302 status code when authentication is necessary. The 302 status code actually indicates a redirection and is part of the Passport protocol for backwards compatibility. WinHTTP hides the 302 status code and contacts the Passport nexus, and then the login server. The WinHTTP application is notified of the 401 status code sent by the login server to request user credentials. To the application, however, it appears as if the 401 status originates from the server from which the resource was requested. In this way, the WinHTTP application is unaware of interactions with other servers, and it can handle Passport authentication with the same code that handles other authentication schemes.
 
-Typically, a WinHTTP application responds to a 401 status code by supplying authentication credentials. When credentials are supplied with [**WinHttpSetCredentials**](winhttpsetcredentials.md) or [**SetCredentials**](iwinhttprequest-setcredentials.md) for passport authentication, the credentials are actually being sent to the login server, not to the server indicated in the request.
+Typically, a WinHTTP application responds to a 401 status code by supplying authentication credentials. When credentials are supplied with [**WinHttpSetCredentials**](/windows/win32/Winhttp/nf-winhttp-winhttpsetcredentials?branch=master) or [**SetCredentials**](iwinhttprequest-setcredentials.md) for passport authentication, the credentials are actually being sent to the login server, not to the server indicated in the request.
 
-However, when responding to a 407 status code, a WinHTTP application must use [**WinHttpSetOption**](winhttpsetoption.md) to provide proxy credentials, rather than [**WinHttpSetCredentials**](winhttpsetcredentials.md). Because **WinHttpSetOption** is a less secure way to supply credentials, it should normally be avoided.
+However, when responding to a 407 status code, a WinHTTP application must use [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) to provide proxy credentials, rather than [**WinHttpSetCredentials**](/windows/win32/Winhttp/nf-winhttp-winhttpsetcredentials?branch=master). Because **WinHttpSetOption** is a less secure way to supply credentials, it should normally be avoided.
 
 Once retrieved, [*tickets*](glossary.md#term-ticket) are managed internally and are automatically sent to applicable servers in future requests.
 
 > [!Note]  
-> WinHTTP enables you to disable automatic redirection by calling the [**WinHttpSetOption**](winhttpsetoption.md) function for the [**WINHTTP\_OPTION\_DISABLE\_FEATURE**](option-flags.md#winhttp-option-disable-feature) flag and specifying a value of [**WINHTTP\_DISABLE\_REDIRECTS**](option-flags.md#winhttp-disable-redirects). Disabling redirection does not interfere with the redirection that WinHTTP handles internally for Passport transactions.
+> WinHTTP enables you to disable automatic redirection by calling the [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) function for the [**WINHTTP\_OPTION\_DISABLE\_FEATURE**](option-flags.md#winhttp-option-disable-feature) flag and specifying a value of [**WINHTTP\_DISABLE\_REDIRECTS**](option-flags.md#winhttp-disable-redirects). Disabling redirection does not interfere with the redirection that WinHTTP handles internally for Passport transactions.
 
  
 
@@ -79,13 +84,13 @@ WinHTTP can successfully complete the Passport authentication even if an applica
 
 WinHTTP handles this implicit redirect specially. If an application has disabled automatic redirection, WinHTTP requires that the application give WinHTTP "permission" to redirect automatically in this special case.
 
-In order to have WinHTTP redirect back to the original URL after authentication, the application must register a callback function using [**WinHttpSetStatusCallback**](winhttpsetstatuscallback.md). WinHTTP can then notify the application with a WINHTTP\_CALLBACK\_STATUS\_REDIRECT callback, which allows the application to cancel the redirect. An application does not need to provide any functionality in the callback function; registration of the callback is sufficient to enable WinHTTP to follow this special-case redirect.
+In order to have WinHTTP redirect back to the original URL after authentication, the application must register a callback function using [**WinHttpSetStatusCallback**](/windows/win32/Winhttp/nf-winhttp-winhttpsetstatuscallback?branch=master). WinHTTP can then notify the application with a WINHTTP\_CALLBACK\_STATUS\_REDIRECT callback, which allows the application to cancel the redirect. An application does not need to provide any functionality in the callback function; registration of the callback is sufficient to enable WinHTTP to follow this special-case redirect.
 
 The ERROR\_WINHTTP\_LOGIN\_FAILURE message is generated if a callback function is not set by the application.
 
 ### Passport Cobranding
 
-Unlike traditional authentication schemes supported by WinHTTP, Passport can be extensively [*cobranded*](glossary.md#term-cobranding). Upon receiving a 401 status code that indicates a challenge, an application can retrieve the *cobranding* graphic and text. Retrieve a URL for the *cobranding* graphic by calling [**WinHttpQueryOption**](winhttpqueryoption.md) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_URL flag. Retrieve the *cobranding* text by calling [**WinHttpQueryOption**](winhttpqueryoption.md) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_TEXT flag. These items can be used to customize a credential-gathering dialog.
+Unlike traditional authentication schemes supported by WinHTTP, Passport can be extensively [*cobranded*](glossary.md#term-cobranding). Upon receiving a 401 status code that indicates a challenge, an application can retrieve the *cobranding* graphic and text. Retrieve a URL for the *cobranding* graphic by calling [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_URL flag. Retrieve the *cobranding* text by calling [**WinHttpQueryOption**](/windows/win32/Winhttp/nf-winhttp-winhttpqueryoption?branch=master) with the WINHTTP\_OPTION\_PASSPORT\_COBRANDING\_TEXT flag. These items can be used to customize a credential-gathering dialog.
 
 ### Stored User Names and Passwords
 
@@ -93,11 +98,11 @@ Windows XP introduced the concept of Stored User Names and Passwords. If a user
 
 ### Disabling Passport Authentication
 
-Some applications might require the ability to disable Passport authentication. For example, when a Passport affiliate responds with the initial 302 status code, it might be preferable to follow the indicated redirection and render the HTML Passport authentication page rather than allowing WinHTTP to handle the authentication internally. Passport authentication is disabled in WinHTTP by calling the [**WinHttpSetOption**](winhttpsetoption.md) function with the WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH option and passing the value WINHTTP\_DISABLE\_PASSPORT\_AUTH. It can later be re-enabled with WINHTTP\_ENABLE\_PASSPORT\_AUTH.
+Some applications might require the ability to disable Passport authentication. For example, when a Passport affiliate responds with the initial 302 status code, it might be preferable to follow the indicated redirection and render the HTML Passport authentication page rather than allowing WinHTTP to handle the authentication internally. Passport authentication is disabled in WinHTTP by calling the [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) function with the WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH option and passing the value WINHTTP\_DISABLE\_PASSPORT\_AUTH. It can later be re-enabled with WINHTTP\_ENABLE\_PASSPORT\_AUTH.
 
 Passport authentication cannot be disabled when using the [**WinHttpRequest**](winhttprequest.md) object.
 
-As noted earlier in this section, Passport authentication is disabled by default in WinHTTP 5.1, and must be explicitly enabled with [**WinHttpSetOption**](winhttpsetoption.md) before use.
+As noted earlier in this section, Passport authentication is disabled by default in WinHTTP 5.1, and must be explicitly enabled with [**WinHttpSetOption**](/windows/win32/Winhttp/nf-winhttp-winhttpsetoption?branch=master) before use.
 
 ## Passport Configuration Overrides Used for Testing
 

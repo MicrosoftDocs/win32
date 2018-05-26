@@ -1,8 +1,9 @@
 ---
 title: MediaCollectionAttributeStringChanged Event of the AxWindowsMediaPlayer Object
 description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed.
-ms.assetid: 'f5b91399-42b7-4202-9b65-caa9b15847b9'
-keywords: ["MediaCollectionAttributeStringChanged Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: f5b91399-42b7-4202-9b65-caa9b15847b9
+keywords:
+- MediaCollectionAttributeStringChanged Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollectionAttributeStringChanged Event of the AxWindowsMediaPlayer Object
@@ -45,7 +51,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Med
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +82,9 @@ When a user modifies library metadata, the media collection is updated and this 
 [**IWMPMediaCollection Interface (VB and C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: CIM\_SettingsDefineCapabilities class
 description: Represents an association between properties of a CIM\_SettingData instance and a CIM\_Capabilities instance.
-ms.assetid: 'f4967050-21c0-4506-b0d2-b5449c16f405'
-keywords: ["CIM_SettingsDefineCapabilities class Hyper-V", "CIM_SettingsDefineCapabilities class Hyper-V , described"]
+ms.assetid: f4967050-21c0-4506-b0d2-b5449c16f405
+keywords:
+- CIM_SettingsDefineCapabilities class Hyper-V
+- CIM_SettingsDefineCapabilities class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SettingsDefineCapabilities class
@@ -31,10 +38,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_SettingsDefineCapabilities : CIM_Component
 {
   CIM_Capabilities REF GroupComponent;
-  CIM_SettingData  REF PartComponent;
-  uint16               PropertyPolicy;
-  uint16               ValueRole;
-  uint16               ValueRange;
+  CIM_SettingData  REF PartComponent;
+  uint16               PropertyPolicy;
+  uint16               ValueRole;
+  uint16               ValueRange;
 };
 ```
 
@@ -119,7 +126,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>2–65535</dd> </dl>
+</dt> <dd>2 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -174,7 +181,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>4–65535</dd> </dl>
+</dt> <dd>4 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -260,9 +267,9 @@ Reserved.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -275,9 +282,9 @@ Reserved.
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

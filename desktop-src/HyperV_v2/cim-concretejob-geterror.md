@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an error due to a failed job.'
-ms.assetid: 'd499eb91-e1cc-4792-b32d-5a8875eebbb7'
-title: 'GetError method of the CIM\_ConcreteJob class'
+Description: Retrieves an error due to a failed job.
+ms.assetid: d499eb91-e1cc-4792-b32d-5a8875eebbb7
+title: GetError method of the CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetError method of the CIM\_ConcreteJob class
@@ -13,7 +18,7 @@ Retrieves an error due to a failed job. When the job is executing or has termina
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -69,8 +74,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

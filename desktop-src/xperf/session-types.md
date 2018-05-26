@@ -1,7 +1,12 @@
 ---
 title: Session Types
 description: Session Types
-ms.assetid: 'e31baf41-dfd1-4632-9f57-4a7bd3f4dd5e'
+ms.assetid: e31baf41-dfd1-4632-9f57-4a7bd3f4dd5e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session Types

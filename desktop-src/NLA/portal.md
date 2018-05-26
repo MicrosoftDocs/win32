@@ -1,7 +1,12 @@
 ---
 title: Network List Manager
 description: .
-ms.assetid: 'a30741ff-5d9a-4ebb-8373-97e9116fc64b'
+ms.assetid: a30741ff-5d9a-4ebb-8373-97e9116fc64b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network List Manager
@@ -16,7 +21,7 @@ Network List Manager is designed for use by COM programmers.
 
 ## Run-time requirements
 
-The Network List Manager API is supported starting with Windows Vista.
+The Network List Manager API is supported starting with Windows Vista.
 
 ## In this section
 
@@ -29,11 +34,11 @@ The Network List Manager API is supported starting with Windows Vista.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

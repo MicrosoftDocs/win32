@@ -1,8 +1,11 @@
 ---
 title: IVMDisplay SetDimensions method
-description: Sets the height and width of the VM's display, in pixels.
-ms.assetid: '8ad5cfc4-59b4-4327-b088-d54adf9c6fda'
-keywords: ["SetDimensions method Virtual PC", "SetDimensions method Virtual PC , IVMDisplay interface", "IVMDisplay interface Virtual PC , SetDimensions method"]
+description: Sets the height and width of the VMs display, in pixels.
+ms.assetid: 8ad5cfc4-59b4-4327-b088-d54adf9c6fda
+keywords:
+- SetDimensions method Virtual PC
+- SetDimensions method Virtual PC , IVMDisplay interface
+- IVMDisplay interface Virtual PC , SetDimensions method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::SetDimensions method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Sets the height and width of the virtual machine's (VM's) display, in pixels.
 
@@ -24,8 +32,8 @@ Sets the height and width of the virtual machine's (VM's) display, in pixels.
 
 ```C++
 HRESULT SetDimensions(
-  [in] long displayPixelWidth,
-  [in] long displayPixelHeight
+  [in] long displayPixelWidth,
+  [in] long displayPixelHeight
 );
 ```
 
@@ -68,7 +76,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,9 +88,9 @@ The minimum size of the virtual machine's display is 640 x 480 pixels. The maxim
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMDisplay is defined as 960895e9-f743-4498-96aa-261f867e7fc5<br/>                 |
@@ -96,9 +104,9 @@ The minimum size of the virtual machine's display is 640 x 480 pixels. The maxim
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

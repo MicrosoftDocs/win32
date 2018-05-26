@@ -4,10 +4,13 @@ description: Provides guidelines for testing console files.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '398c69eb-018b-49ee-a35c-e71c60bca8d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 398c69eb-018b-49ee-a35c-e71c60bca8d2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Testing the Console Files

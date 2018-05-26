@@ -1,7 +1,12 @@
 ---
 title: dmin (sm5 - asm)
 description: Component-wise double-precision minimum.
-ms.assetid: '77331B4D-C4B5-49B2-BB6A-77BD5050B575'
+ms.assetid: 77331B4D-C4B5-49B2-BB6A-77BD5050B575
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dmin (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise double-precision minimum.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise double-precision minimum.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +54,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +73,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -77,9 +82,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

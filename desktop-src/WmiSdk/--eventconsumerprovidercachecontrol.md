@@ -1,13 +1,16 @@
 ---
-Description: 'Determines when WMI should release an event consumer provider.'
+Description: Determines when WMI should release an event consumer provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '93246826-8070-4e05-96f0-f773041ed1d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 93246826-8070-4e05-96f0-f773041ed1d4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventConsumerProviderCacheControl class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventConsumerProviderCacheControl class
@@ -61,8 +64,8 @@ The **\_\_EventConsumerProviderCacheControl** class is derived from [**\_\_Cache
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | Root<br/>                |
 
 
@@ -74,9 +77,9 @@ The **\_\_EventConsumerProviderCacheControl** class is derived from [**\_\_Cache
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

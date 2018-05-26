@@ -1,7 +1,12 @@
-﻿---
-Description: 'Scales a color value.'
-ms.assetid: '35e8adee-7ce5-4db5-8276-f0e408748e78'
+---
+Description: Scales a color value.
+ms.assetid: 35e8adee-7ce5-4db5-8276-f0e408748e78
 title: D3DXColorScale function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXColorScale function

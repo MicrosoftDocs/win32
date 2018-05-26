@@ -1,7 +1,12 @@
 ---
-Description: 'Blocks until the thread exits.'
-ms.assetid: '1ee547b5-cd73-4ce8-8e66-c2062714d0f0'
-title: 'CMsgThread.WaitForThreadExit method'
+Description: Blocks until the thread exits.
+ms.assetid: 1ee547b5-cd73-4ce8-8e66-c2062714d0f0
+title: CMsgThread.WaitForThreadExit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMsgThread.WaitForThreadExit method
@@ -13,7 +18,7 @@ Blocks until the thread exits.
 
 ```C++
 BOOL WaitForThreadExit(
-   LPDWORD lpdwExitCode
+   LPDWORD lpdwExitCode
 );
 ```
 
@@ -56,9 +61,9 @@ Ensure that the worker thread has exited completely before completing the destru
 [**CMsgThread Class**](cmsgthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

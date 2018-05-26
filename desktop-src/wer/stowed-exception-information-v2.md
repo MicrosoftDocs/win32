@@ -1,8 +1,10 @@
 ---
 title: STOWED\_EXCEPTION\_INFORMATION\_V2 structure
 description: Contains stowed exception info.
-ms.assetid: '79267974-EE1B-4427-A6D6-265F6BC5D73A'
-keywords: ["STOWED_EXCEPTION_INFORMATION_V2 structure Windows Error Reporting", "PSTOWED_EXCEPTION_INFORMATION_V2 structure pointer Windows Error Reporting"]
+ms.assetid: 79267974-EE1B-4427-A6D6-265F6BC5D73A
+keywords:
+- STOWED_EXCEPTION_INFORMATION_V2 structure Windows Error Reporting
+- PSTOWED_EXCEPTION_INFORMATION_V2 structure pointer Windows Error Reporting
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - none
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STOWED\_EXCEPTION\_INFORMATION\_V2 structure
@@ -23,7 +30,7 @@ Contains stowed exception info.
 ```C++
 typedef struct _STOWED_EXCEPTION_INFORMATION_V2 {
   STOWED_EXCEPTION_INFORMATION_HEADER Header;
-  HRESULT                             ResultCode;
+  HRESULT                             ResultCode;
   struct {
     DWORD ExceptionForm  :2;
     DWORD ThreadId  :30;
@@ -39,8 +46,8 @@ typedef struct _STOWED_EXCEPTION_INFORMATION_V2 {
       PWSTR ErrorText;
     };
   };
-  ULONG                               NestedExceptionType;
-  PVOID                               NestedException;
+  ULONG                               NestedExceptionType;
+  PVOID                               NestedException;
 } STOWED_EXCEPTION_INFORMATION_V2, *PSTOWED_EXCEPTION_INFORMATION_V2;
 ```
 
@@ -90,7 +97,7 @@ A 2-bit value that identifies the form of the exception.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -208,7 +215,7 @@ Here are some common type definitions:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -235,8 +242,8 @@ The **STOWED\_EXCEPTION\_INFORMATION\_V1** structure is identical to this struct
 
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                         |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                         |
 | Header<br/>                   | <dl> <dt>None</dt> </dl> |
 
 
@@ -251,9 +258,9 @@ The **STOWED\_EXCEPTION\_INFORMATION\_V1** structure is identical to this struct
 [**STOWED\_EXCEPTION\_INFORMATION\_HEADER**](stowed-exception-information-header.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Network.setProxyName method
 description: The setProxyName method specifies the name of the proxy server to use.
-ms.assetid: '6f484f5b-195c-496d-932e-3e1fdbf873d8'
-keywords: ["setProxyName method Windows Media Player", "setProxyName method Windows Media Player , Network class", "Network class Windows Media Player , setProxyName method"]
+ms.assetid: 6f484f5b-195c-496d-932e-3e1fdbf873d8
+keywords:
+- setProxyName method Windows Media Player
+- setProxyName method Windows Media Player , Network class
+- Network class Windows Media Player , setProxyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.setProxyName method
@@ -102,9 +110,9 @@ alert("Proxy settings must be manual!");
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

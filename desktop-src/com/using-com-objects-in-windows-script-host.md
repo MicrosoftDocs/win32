@@ -1,7 +1,12 @@
 ---
 title: Using COM Objects in Windows Script Host
 description: Microsoft Windows Script Host is a scripting utility you can use to run scripts within the base operating system.
-ms.assetid: 'b13c1bdf-91ce-42a2-b66a-20d68952bb34'
+ms.assetid: b13c1bdf-91ce-42a2-b66a-20d68952bb34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using COM Objects in Windows Script Host

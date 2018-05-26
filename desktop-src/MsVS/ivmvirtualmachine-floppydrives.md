@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine FloppyDrives property
 description: The FloppyDrives property contains an enumerable collection of floppy drives attached to the virtual machine.
-ms.assetid: '27740f6e-0f6d-4094-a17e-9e4e9846aa2f'
-keywords: ["FloppyDrives property Virtual Server", "FloppyDrives property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , FloppyDrives property", "FloppyDrives property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , FloppyDrives property"]
+ms.assetid: 27740f6e-0f6d-4094-a17e-9e4e9846aa2f
+keywords:
+- FloppyDrives property Virtual Server
+- FloppyDrives property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , FloppyDrives property
+- FloppyDrives property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , FloppyDrives property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::FloppyDrives property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_FloppyDrives(
-  [out] IVMFloppyDriveCollection **floppyCollection
+  [out] IVMFloppyDriveCollection **floppyCollection
 );
 ```
 
@@ -93,8 +103,8 @@ WScript.Echo "Floppy disc drives installed: " & colFDs.Count
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ WScript.Echo "Floppy disc drives installed: " & colFDs.Count
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

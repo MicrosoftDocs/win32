@@ -1,15 +1,18 @@
 ---
-Description: 'Validate a configuration text for correctness without setting it active. Returns 1 on success, 0 on error.'
+Description: Validate a configuration text for correctness without setting it active. Returns 1 on success, 0 on error.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'baeabed0-7717-498a-9886-e49e4a101711'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: baeabed0-7717-498a-9886-e49e4a101711
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ValidateConfiguration method of the Control class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ValidateConfiguration method of the Control class
@@ -21,11 +24,11 @@ Validate a configuration text for correctness without setting it active. Returns
 
 ```mof
 Uint32 ValidateConfiguration(
-  [in]  string Config,
-  [out] string ErrorString,
-  [out] string WarningString,
-  [out] string InfoString,
-  [out] uint32 ErrorType
+  [in]  string Config,
+  [out] string ErrorString,
+  [out] string WarningString,
+  [out] string InfoString,
+  [out] uint32 ErrorType
 );
 ```
 
@@ -123,8 +126,8 @@ Success
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
@@ -138,9 +141,9 @@ Success
 [**Control**](control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

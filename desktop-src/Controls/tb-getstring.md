@@ -1,8 +1,9 @@
 ---
 title: TB\_GETSTRING message
-description: Retrieves a string from a toolbar's string pool.
-ms.assetid: 'a5f80c16-bc6d-466d-8ec6-77451432148e'
-keywords: ["TB_GETSTRING message Windows Controls"]
+description: Retrieves a string from a toolbars string pool.
+ms.assetid: a5f80c16-bc6d-466d-8ec6-77451432148e
+keywords:
+- TB_GETSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETSTRING message
@@ -51,8 +57,8 @@ This message returns the specified string from the toolbar's string pool. It doe
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_GETSTRINGW** (Unicode) and **TB\_GETSTRINGA** (ANSI)<br/>                 |
 
@@ -74,9 +80,9 @@ This message returns the specified string from the toolbar's string pool. It doe
 [**TB\_INSERTBUTTON**](tb-insertbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

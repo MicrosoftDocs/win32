@@ -1,8 +1,17 @@
 ---
 title: Adding Video
 description: Adding Video
-ms.assetid: '6f20a9ad-e92e-4774-868d-ad0e071f4935'
-keywords: ["creating skins,video", "Windows Media Player skins,video", "skins,video", "video in skins,adding"]
+ms.assetid: 6f20a9ad-e92e-4774-868d-ad0e071f4935
+keywords:
+- creating skins,video
+- Windows Media Player skins,video
+- skins,video
+- video in skins,adding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Video

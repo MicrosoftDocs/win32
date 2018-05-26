@@ -1,7 +1,12 @@
-﻿---
-Description: 'Handle to the video clipping window.'
-ms.assetid: '883bc7cf-f52f-4cb5-a942-b42b429b17a9'
-title: 'MF\_ACTIVATE\_VIDEO\_WINDOW attribute'
+---
+Description: Handle to the video clipping window.
+ms.assetid: 883bc7cf-f52f-4cb5-a942-b42b429b17a9
+title: MF\_ACTIVATE\_VIDEO\_WINDOW attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_ACTIVATE\_VIDEO\_WINDOW attribute
@@ -16,7 +21,7 @@ Treat as **DWORD\_PTR** (**HWND**).
 
 ## Remarks
 
-This attribute applies to the activation object for the enhanced video renderer (EVR). The value is set automatically when you call [**MFCreateVideoRendererActivate**](mfcreatevideorendereractivate.md) to create the EVR activation object.
+This attribute applies to the activation object for the enhanced video renderer (EVR). The value is set automatically when you call [**MFCreateVideoRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatevideorendereractivate?branch=master) to create the EVR activation object.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -42,10 +47,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Enhanced Video Renderer Attributes](enhanced-video-renderer-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT64**](imfattributes-getuint64.md)
+[**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT64**](imfattributes-setuint64.md)
+[**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master)
 </dt> <dt>
 
 [Activation Objects](activation-objects.md)

@@ -4,17 +4,22 @@ description: Contains the Distributed File System (DFS) Replication extension at
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '24c2c0d4-2e9f-4b22-ad9c-87fc90ac98eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 24c2c0d4-2e9f-4b22-ad9c-87fc90ac98eb
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-Extension attribute AD Schema", "msDFSR-Extension attribute AD Schema"]
+keywords:
+- ms-DFSR-Extension attribute AD Schema
+- msDFSR-Extension attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-Extension
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-Extension attribute
@@ -38,10 +43,10 @@ Contains the Distributed File System (DFS) Replication extension attribute.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the Distributed File System (DFS) Replication extension attribute.
 
 The **ms-DFSR-Extension** attribute is a part of the DFS Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

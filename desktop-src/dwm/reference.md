@@ -1,8 +1,15 @@
 ---
 title: DWM Reference
 description: This section contains the reference pages for the Desktop Window Manager (DWM) APIs.
-ms.assetid: 'ab4738b3-c985-4ef3-bf48-4903b3bcd867'
-keywords: ["Desktop Window Manager (DWM),reference", "DWM (Desktop Window Manager),reference"]
+ms.assetid: ab4738b3-c985-4ef3-bf48-4903b3bcd867
+keywords:
+- Desktop Window Manager (DWM),reference
+- DWM (Desktop Window Manager),reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM Reference
@@ -22,11 +29,11 @@ This section contains the reference pages for the Desktop Window Manager (DWM) A
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

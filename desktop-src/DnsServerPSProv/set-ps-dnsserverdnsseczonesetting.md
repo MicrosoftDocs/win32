@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerDnsSecZoneSetting class
 description: Specifies the NSEC/NSEC3 and other advanced DNSSEC settings for a zone.
 audience: developer
-ms.assetid: 'a6af48e9-5c46-4b31-9f83-8656ef659608'
-ms.prod: 'windows-server-dev'
+ms.assetid: a6af48e9-5c46-4b31-9f83-8656ef659608
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerDnsSecZoneSetting class", "PS_DnsServerDnsSecZoneSetting class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerDnsSecZoneSetting class
+- PS_DnsServerDnsSecZoneSetting class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerDnsSecZoneSetting class
@@ -28,25 +34,25 @@ Specifies the NSEC/NSEC3 and other advanced DNSSEC settings for a zone.
 
 ```mof
 uint32 Set(
-  [in]  string                     ZoneName,
-  [in]  string                     DenialOfExistence,
-  [in]  string                     NSec3HashAlgorithm,
-  [in]  uint16                     NSec3Iterations,
-  [in]  boolean                    NSec3OptOut,
-  [in]  uint8                      NSec3RandomSaltLength,
-  [in]  string                     NSec3UserSalt,
-  [in]  string                     DistributeTrustAnchor[],
-  [in]  boolean                    EnableRfc5011KeyRollover,
-  [in]  string                     DSRecordGenerationAlgorithm[],
-  [in]  datetime                   DSRecordSetTtl,
-  [in]  datetime                   DnsKeyRecordSetTtl,
-  [in]  datetime                   SignatureInceptionOffset,
-  [in]  datetime                   SecureDelegationPollingPeriod,
-  [in]  datetime                   PropagationTime,
-  [in]  boolean                    ParentHasSecureDelegation,
-  [in]  string                     ComputerName,
-  [in]  boolean                    PassThru,
-  [out] DnsServerDnsSecZoneSetting cmdletOutput
+  [in]  string                     ZoneName,
+  [in]  string                     DenialOfExistence,
+  [in]  string                     NSec3HashAlgorithm,
+  [in]  uint16                     NSec3Iterations,
+  [in]  boolean                    NSec3OptOut,
+  [in]  uint8                      NSec3RandomSaltLength,
+  [in]  string                     NSec3UserSalt,
+  [in]  string                     DistributeTrustAnchor[],
+  [in]  boolean                    EnableRfc5011KeyRollover,
+  [in]  string                     DSRecordGenerationAlgorithm[],
+  [in]  datetime                   DSRecordSetTtl,
+  [in]  datetime                   DnsKeyRecordSetTtl,
+  [in]  datetime                   SignatureInceptionOffset,
+  [in]  datetime                   SecureDelegationPollingPeriod,
+  [in]  datetime                   PropagationTime,
+  [in]  boolean                    ParentHasSecureDelegation,
+  [in]  string                     ComputerName,
+  [in]  boolean                    PassThru,
+  [out] DnsServerDnsSecZoneSetting cmdletOutput
 );
 ```
 
@@ -196,7 +202,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -210,9 +216,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerDnsSecZoneSetting**](ps-dnsserverdnsseczonesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

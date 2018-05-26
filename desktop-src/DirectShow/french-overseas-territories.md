@@ -1,7 +1,12 @@
 ---
 Description: French Overseas Territories
-ms.assetid: '19f178c5-46f7-4108-9a1a-e49a4eb51f27'
+ms.assetid: 19f178c5-46f7-4108-9a1a-e49a4eb51f27
 title: French Overseas Territories
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # French Overseas Territories

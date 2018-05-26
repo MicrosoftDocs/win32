@@ -1,7 +1,12 @@
 ---
 title: Inter-Object Communication
 description: COM is designed to allow clients to communicate transparently with objects, regardless of where those objects are runningâ€”in the same process, on the same computer, or on a different computer.
-ms.assetid: 'dd4adafb-a7e4-44ba-ae4a-80585875ecb6'
+ms.assetid: dd4adafb-a7e4-44ba-ae4a-80585875ecb6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inter-Object Communication
@@ -14,7 +19,7 @@ From a server's point of view, all calls to an object's interface functions are 
 
 COM provides an implementation of marshaling, referred to as *standard marshaling*. This implementation works very well for most objects and greatly reduces programming requirements, making the marshaling process effectively transparent.
 
-The clear separation of interface from implementation of COM's process transparency can, however, get in the way in some situations. The design of an interface that focuses on its function from the client's point of view can sometimes lead to design decisions that conflict with efficient implementation of that interface across a network. In cases like this, what is needed is not pure process transparency but "process transparency, unless you need to care." COM provides this capability by allowing an object implementor to support *custom marshaling* (also called [**IMarshal**](imarshal.md) marshaling). Standard marshaling is, in fact, an instance of custom marshaling; it is the default implementation used when an object does not require custom marshaling.
+The clear separation of interface from implementation of COM's process transparency can, however, get in the way in some situations. The design of an interface that focuses on its function from the client's point of view can sometimes lead to design decisions that conflict with efficient implementation of that interface across a network. In cases like this, what is needed is not pure process transparency but "process transparency, unless you need to care." COM provides this capability by allowing an object implementor to support *custom marshaling* (also called [**IMarshal**](/windows/win32/objidlbase/nn-objidl-imarshal?branch=master) marshaling). Standard marshaling is, in fact, an instance of custom marshaling; it is the default implementation used when an object does not require custom marshaling.
 
 You can implement custom marshaling to allow an object to take different actions when used from across a network than it takes under local accessâ€”and it is completely transparent to the client. This architecture makes it possible to design client/object interfaces without regard to network performance issues and then later to address network performance issues without disrupting the established design.
 

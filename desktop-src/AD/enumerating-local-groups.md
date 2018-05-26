@@ -4,11 +4,15 @@ description: On member servers and computers running on Windows 2000 Professiona
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'edbabbe5-13e1-42f6-8e73-f8e18ba4866b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: edbabbe5-13e1-42f6-8e73-f8e18ba4866b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Enumerating Local Groups AD"]
+keywords:
+- Enumerating Local Groups AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Local Groups

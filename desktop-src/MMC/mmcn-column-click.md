@@ -1,14 +1,15 @@
 ---
 title: MMCN\_COLUMN\_CLICK message
-description: The MMCN\_COLUMN\_CLICK notification message is sent to the snap-in's IComponent implementation when the user clicks a list view column header.
+description: The MMCN\_COLUMN\_CLICK notification message is sent to the snap-ins IComponent implementation when the user clicks a list view column header.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '92e98c31-032c-48ca-ba1c-a4062b208d6d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 92e98c31-032c-48ca-ba1c-a4062b208d6d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_COLUMN_CLICK message MMC"]
+keywords:
+- MMCN_COLUMN_CLICK message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_COLUMN\_CLICK message
 
-The **MMCN\_COLUMN\_CLICK** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when the user clicks a list view column header.
+The **MMCN\_COLUMN\_CLICK** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the user clicks a list view column header.
 
 ## Parameters
 
@@ -89,15 +93,15 @@ The snap-in should not perform a sort in response to this notification. MMC will
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

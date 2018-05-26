@@ -1,8 +1,18 @@
 ---
 title: The LaunchPage Method
 description: The LaunchPage Method
-ms.assetid: 'f0f93535-5afc-4777-9188-5bbac63ddc6b'
-keywords: ["Windows Media Player plug-ins,LaunchPage method", "plug-ins,LaunchPage method", "user interface plug-ins,LaunchPage method", "UI plug-ins,LaunchPage method", "LaunchPage method"]
+ms.assetid: f0f93535-5afc-4777-9188-5bbac63ddc6b
+keywords:
+- Windows Media Player plug-ins,LaunchPage method
+- plug-ins,LaunchPage method
+- user interface plug-ins,LaunchPage method
+- UI plug-ins,LaunchPage method
+- LaunchPage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The LaunchPage Method

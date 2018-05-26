@@ -1,7 +1,12 @@
 ---
-Description: 'The CRendererPosPassThru class handles seek commands for renderer filters, by passing them upstream to the next filter.'
-ms.assetid: '7b532177-939c-4cb7-a6fa-c0133f65c768'
+Description: The CRendererPosPassThru class handles seek commands for renderer filters, by passing them upstream to the next filter.
+ms.assetid: 7b532177-939c-4cb7-a6fa-c0133f65c768
 title: CRendererPosPassThru class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererPosPassThru class
@@ -32,7 +37,7 @@ For an example of how to use this class, refer to the [**CBaseRenderer**](cbaser
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,9 +50,9 @@ For an example of how to use this class, refer to the [**CBaseRenderer**](cbaser
 
 
 
- 
+ 
 
- 
+ 
 
 
 

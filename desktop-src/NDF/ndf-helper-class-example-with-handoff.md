@@ -1,7 +1,12 @@
 ---
 title: NDF Helper Class Extension with Handoff
 description: This Helper Class has a low-health dependency on the SimpleFileHelperClass coded in the first example.
-ms.assetid: 'b59cd855-c68a-4f5c-b145-ceac395ddcc4'
+ms.assetid: b59cd855-c68a-4f5c-b145-ceac395ddcc4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDF Helper Class Extension with Handoff

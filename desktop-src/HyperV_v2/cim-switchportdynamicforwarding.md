@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which an entry of a forwarding database applies to a switch port.'
-ms.assetid: 'e63ac61d-ed0c-49e9-b056-4fcb6d1d5455'
-title: 'CIM\_SwitchPortDynamicForwarding class'
+Description: Represents an association in which an entry of a forwarding database applies to a switch port.
+ms.assetid: e63ac61d-ed0c-49e9-b056-4fcb6d1d5455
+title: CIM\_SwitchPortDynamicForwarding class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SwitchPortDynamicForwarding class
@@ -14,7 +19,7 @@ Represents an association in which an entry of a forwarding database applies to 
 [Association, Abstract, Version("2.7.0"), UMLPackagePath("CIM::Network::SwitchingBridging"), AMENDMENT]
 class CIM_SwitchPortDynamicForwarding : CIM_Dependency
 {
-  CIM_SwitchPort             REF Antecedent;
+  CIM_SwitchPort             REF Antecedent;
   CIM_DynamicForwardingEntry REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ A [**CIM\_DynamicForwardingEntry**](cim-dynamicforwardingentry.md) reference to 
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

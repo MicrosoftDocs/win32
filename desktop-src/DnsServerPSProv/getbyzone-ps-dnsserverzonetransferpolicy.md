@@ -2,13 +2,16 @@
 title: GetByZone method of the PS\_DnsServerZoneTransferPolicy class
 description: Enumerates a zone transfer object by zone.
 audience: developer
-ms.assetid: '65830c40-4a49-48f6-bd06-07812fd6995f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 65830c40-4a49-48f6-bd06-07812fd6995f
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByZone method", "GetByZone method, PS_DnsServerZoneTransferPolicy class", "PS_DnsServerZoneTransferPolicy class, GetByZone method"]
+keywords:
+- GetByZone method
+- GetByZone method, PS_DnsServerZoneTransferPolicy class
+- PS_DnsServerZoneTransferPolicy class, GetByZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByZone method of the PS\_DnsServerZoneTransferPolicy class
@@ -28,10 +34,10 @@ Enumerates a zone transfer object by zone.
 
 ```mof
 uint32 GetByZone(
-  [in]  string          Name,
-  [in]  string          ComputerName,
-  [in]  string          ZoneName,
-  [out] DnsServerPolicy cmdletOutput[]
+  [in]  string          Name,
+  [in]  string          ComputerName,
+  [in]  string          ZoneName,
+  [out] DnsServerPolicy cmdletOutput[]
 );
 ```
 
@@ -76,7 +82,7 @@ On return, contains an array of [**DnsServerPolicy**](dnsserverpolicy.md). This 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ On return, contains an array of [**DnsServerPolicy**](dnsserverpolicy.md). This 
 [**PS\_DnsServerZoneTransferPolicy**](ps-dnsserverzonetransferpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

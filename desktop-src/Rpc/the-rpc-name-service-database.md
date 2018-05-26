@@ -1,8 +1,14 @@
 ---
 title: The RPC Name Service Database
 description: A name service is a service that maps names to objects, and usually maintains the (name, object) pairs in a database.
-ms.assetid: '9ced2307-cf30-45d5-bcd2-c1e4aae8c63b'
-keywords: ["Remote Procedure Call RPC , described, name service database"]
+ms.assetid: 9ced2307-cf30-45d5-bcd2-c1e4aae8c63b
+keywords:
+- Remote Procedure Call RPC , described, name service database
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The RPC Name Service Database

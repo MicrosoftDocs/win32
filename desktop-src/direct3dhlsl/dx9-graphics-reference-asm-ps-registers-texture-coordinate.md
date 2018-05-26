@@ -1,7 +1,12 @@
 ---
 title: Texture Coordinate Register
 description: Pixel shader input register containing texture coordinates.
-ms.assetid: '423f249d-fa9f-41f2-adbf-d97ceace06f5'
+ms.assetid: 423f249d-fa9f-41f2-adbf-d97ceace06f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Coordinate Register

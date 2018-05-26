@@ -1,7 +1,12 @@
 ---
-Description: 'You may install side-by-side assemblies as shared assemblies or as private assemblies. For more information, see Installing Side-by-Side Assemblies as Private Assemblies and Installing Side-by-side Assemblies as Shared Assemblies.'
-ms.assetid: '36f271ff-be0c-4162-8e1c-86088ebddbcc'
-title: 'Installing Side-by-side Assemblies'
+Description: You may install side-by-side assemblies as shared assemblies or as private assemblies. For more information, see Installing Side-by-Side Assemblies as Private Assemblies and Installing Side-by-side Assemblies as Shared Assemblies.
+ms.assetid: 36f271ff-be0c-4162-8e1c-86088ebddbcc
+title: Installing Side-by-side Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Side-by-side Assemblies

@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia isReadOnlyItem method
 description: The isReadOnlyItem method returns a value indicating whether the attributes of the specified media item can be edited.
-ms.assetid: 'c810c5c1-8cb9-4ac7-ac49-1ebdc86f5d7f'
-keywords: ["isReadOnlyItem method Windows Media Player", "isReadOnlyItem method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , isReadOnlyItem method"]
+ms.assetid: c810c5c1-8cb9-4ac7-ac49-1ebdc86f5d7f
+keywords:
+- isReadOnlyItem method Windows Media Player
+- isReadOnlyItem method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , isReadOnlyItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::isReadOnlyItem method
@@ -179,9 +187,9 @@ rwText.Lines = atInfo</code></pre></td>
 [**IWMPMedia.setItemInfo (VB and C#)**](wmplibiwmpmedia-iwmpmedia-setiteminfo--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

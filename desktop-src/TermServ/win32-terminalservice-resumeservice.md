@@ -4,11 +4,14 @@ description: Attempts to place the referenced service in the resumed state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'AA020A0A-E69C-44AB-B259-A73460728770'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: AA020A0A-E69C-44AB-B259-A73460728770
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ResumeService method Remote Desktop Services", "ResumeService method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , ResumeService method"]
+keywords:
+- ResumeService method Remote Desktop Services
+- ResumeService method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , ResumeService method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResumeService method of the Win32\_Service class
@@ -238,8 +244,8 @@ The [Resume AutoStart Services that are Paused](https://Gallery.TechNet.Microsof
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -262,9 +268,9 @@ The [Resume AutoStart Services that are Paused](https://Gallery.TechNet.Microsof
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

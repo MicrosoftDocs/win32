@@ -4,11 +4,14 @@ description: Gets the return code.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.GetProtectedFileStreamResult.Status'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.GetProtectedFileStreamResult.Status
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Status property", "Status property, GetProtectedFileStreamResult class", "GetProtectedFileStreamResult class, Status property"]
+keywords:
+- Status property
+- Status property, GetProtectedFileStreamResult class
+- GetProtectedFileStreamResult class, Status property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetProtectedFileStreamResult.Status property
@@ -63,9 +69,9 @@ The return code.
 [**GetProtectedFileStreamResult**](getprotectedfilestreamresult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

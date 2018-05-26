@@ -4,17 +4,21 @@ description: Sets the date that the content is valid until.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EE7F7615-48FC-4AB4-A7BD-F6898C091811'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: EE7F7615-48FC-4AB4-A7BD-F6898C091811
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor.setContentValidUntil method"]
+keywords:
+- PolicyDescriptor.setContentValidUntil method
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor.setContentValidUntil method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.setContentValidUntil method
@@ -37,7 +41,7 @@ public void setContentValidUntil(Date contentValidUntil)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

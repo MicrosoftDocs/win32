@@ -1,14 +1,20 @@
 ---
 title: Parameter Complex Type
 description: Defines a parameter name and default value.
-ms.assetid: '4fae1ae9-03f6-4b41-bac2-7220268c4829'
-keywords: ["Parameter complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 4fae1ae9-03f6-4b41-bac2-7220268c4829
+keywords:
+- Parameter complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Parameter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter Complex Type
@@ -53,8 +59,8 @@ Parameters are used to provide substitution values. The substitution string (for
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ Parameters are used to provide substitution values. The substitution string (for
 [**Parameters Complex Type**](package-parameters-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

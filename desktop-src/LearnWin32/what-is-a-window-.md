@@ -1,7 +1,12 @@
 ---
 title: What Is a Window
 description: .
-ms.assetid: 'eef5e139-91f9-4d8b-9153-e178d7416d7e'
+ms.assetid: eef5e139-91f9-4d8b-9153-e178d7416d7e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What Is a Window?

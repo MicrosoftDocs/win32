@@ -1,14 +1,20 @@
 ---
 title: Resolvers Complex Type
 description: Specifies a list of resolver scripts to run.
-ms.assetid: '814da48e-9bab-49e3-a434-33fd1e5fe0b4'
-keywords: ["Resolvers complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 814da48e-9bab-49e3-a434-33fd1e5fe0b4
+keywords:
+- Resolvers complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Resolvers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resolvers Complex Type
@@ -106,7 +112,7 @@ Specifies a list of resolver scripts to run.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td>ID</td>
@@ -139,8 +145,8 @@ Specifies a list of resolver scripts to run.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -157,9 +163,9 @@ Specifies a list of resolver scripts to run.
 [**Resolvers (LocalRootcause) Element**](package-resolvers-localrootcause-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

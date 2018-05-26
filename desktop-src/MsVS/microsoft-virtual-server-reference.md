@@ -1,8 +1,14 @@
 ---
 title: Microsoft Virtual Server Reference
 description: The Virtual Server COM interface is contained in the VirtualServer library module.
-ms.assetid: '44702615-4a0b-4c30-8590-1f8daf6c0146'
-keywords: ["Virtual Server COM Interface Virtual Server , reference"]
+ms.assetid: 44702615-4a0b-4c30-8590-1f8daf6c0146
+keywords:
+- Virtual Server COM Interface Virtual Server , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Virtual Server Reference

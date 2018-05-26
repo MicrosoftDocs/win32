@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the status of the ink analysis operation by describing whether the analysis was completed successfully and whether any warnings occurred.'
-ms.assetid: '57910a1d-3472-4689-ba0d-a220145e77c4'
+Description: Represents the status of the ink analysis operation by describing whether the analysis was completed successfully and whether any warnings occurred.
+ms.assetid: 57910a1d-3472-4689-ba0d-a220145e77c4
 title: IAnalysisStatus interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisStatus interface
@@ -28,7 +33,7 @@ The **IAnalysisStatus** interface has these methods.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -119,7 +124,7 @@ STDMETHODIMP CMyClass::Results(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -139,9 +144,9 @@ STDMETHODIMP CMyClass::Results(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

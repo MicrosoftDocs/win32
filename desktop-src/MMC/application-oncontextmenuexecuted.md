@@ -4,11 +4,16 @@ description: The OnContextMenuExecuted event occurs when a context menu item is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2eb1d223-a732-4159-91b1-c94211007d69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 2eb1d223-a732-4159-91b1-c94211007d69
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["OnContextMenuExecuted event MMC", "OnContextMenuExecuted event MMC , Application object", "Application object MMC , OnContextMenuExecuted event", "OnContextMenuExecuted event MMC , AppEvents interface", "AppEvents interface MMC , OnContextMenuExecuted event"]
+keywords:
+- OnContextMenuExecuted event MMC
+- OnContextMenuExecuted event MMC , Application object
+- Application object MMC , OnContextMenuExecuted event
+- OnContextMenuExecuted event MMC , AppEvents interface
+- AppEvents interface MMC , OnContextMenuExecuted event
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AppEvents::OnContextMenuExecuted event
@@ -68,8 +76,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -78,9 +86,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

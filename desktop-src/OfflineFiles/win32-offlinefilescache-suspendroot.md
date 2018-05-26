@@ -1,13 +1,16 @@
 ---
-Description: 'Suspends or releases a share root or directory tree.'
+Description: Suspends or releases a share root or directory tree.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0439fcfd-3e05-427f-948b-c41a9ebc4f52'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0439fcfd-3e05-427f-948b-c41a9ebc4f52
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'SuspendRoot method of the Win32\_OfflineFilesCache class'
+title: SuspendRoot method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SuspendRoot method of the Win32\_OfflineFilesCache class
@@ -19,8 +22,8 @@ Suspends or releases a share root or directory tree. A suspended item is always 
 
 ```mof
 uint32 SuspendRoot(
-  [in] string  Path,
-  [in] boolean Suspend
+  [in] string  Path,
+  [in] boolean Suspend
 );
 ```
 
@@ -60,8 +63,8 @@ Suspended items are always offline and are excluded from automatic synchronizati
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Cscobj.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
@@ -76,9 +79,9 @@ Suspended items are always offline and are excluded from automatic synchronizati
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

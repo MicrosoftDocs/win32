@@ -1,7 +1,12 @@
 ---
 title: IVMRCClientControl Methods
 description: The IVMRCClientControl interface defines the following methods
-ms.assetid: 'c36a4fdb-8686-4803-b07d-499b45f93ba0'
+ms.assetid: c36a4fdb-8686-4803-b07d-499b45f93ba0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl Methods

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes all resources from the device by setting their pointers to NULL. This should be called during shutdown of your application. It helps ensure that when one is releasing all of their resources that none of them are bound to the device.'
-ms.assetid: 'f41ce97e-5a81-43a4-a8c7-7411b43c0d61'
+---
+Description: Removes all resources from the device by setting their pointers to NULL. This should be called during shutdown of your application. It helps ensure that when one is releasing all of their resources that none of them are bound to the device.
+ms.assetid: f41ce97e-5a81-43a4-a8c7-7411b43c0d61
 title: D3DX10UnsetAllDeviceObjects function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10UnsetAllDeviceObjects function
@@ -26,9 +31,9 @@ HRESULT D3DX10UnsetAllDeviceObjects(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-Pointer to the device. See [**ID3D10Device Interface**](id3d10device.md).
+Pointer to the device. See [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master).
 
 </dd> </dl>
 

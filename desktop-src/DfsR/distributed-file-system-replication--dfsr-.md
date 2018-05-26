@@ -4,13 +4,19 @@ description: Supports replication scheduling and bandwidth throttling.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd9a3d78-7103-425c-a314-694dd1d8da40'
-ms.prod: 'windows-server-dev'
+ms.assetid: fd9a3d78-7103-425c-a314-694dd1d8da40
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Distributed File System Replication", "Distributed File System Replication Distributed File System Replication , home page", "DFSR Files See Distributed File System Replication"]
+keywords:
+- Distributed File System Replication Distributed File System Replication
+- Distributed File System Replication Distributed File System Replication , home page
+- DFSR Files See Distributed File System Replication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed File System Replication

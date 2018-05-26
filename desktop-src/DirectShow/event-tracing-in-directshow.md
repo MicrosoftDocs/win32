@@ -1,7 +1,12 @@
 ---
 Description: Event Tracing in DirectShow
-ms.assetid: 'e78c4514-25f4-441d-bfd0-6dac4f7567fd'
+ms.assetid: e78c4514-25f4-441d-bfd0-6dac4f7567fd
 title: Event Tracing in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Tracing in DirectShow

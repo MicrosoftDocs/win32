@@ -1,13 +1,19 @@
 ---
 title: Formatting Audio Capture
 description: Formatting Audio Capture
-ms.assetid: '3bbe34a6-8fd6-4780-b5af-fcf3d34ef701'
-keywords: ["capSetAudioFormat macro"]
+ms.assetid: 3bbe34a6-8fd6-4780-b5af-fcf3d34ef701
+keywords:
+- capSetAudioFormat macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting Audio Capture
 
-The following example uses [**capSetAudioFormat**](capsetaudioformat.md) to set the audio format to 11-kHz PCM 8-bit, stereo.
+The following example uses [**capSetAudioFormat**](/windows/win32/Vfw/nf-vfw-capsetaudioformat?branch=master) to set the audio format to 11-kHz PCM 8-bit, stereo.
 
 
 ```C++

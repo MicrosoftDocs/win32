@@ -1,8 +1,17 @@
 ---
 title: Redistributing Windows Media Player Software
 description: Redistributing Windows Media Player Software
-ms.assetid: '9af2225d-b18e-40d6-835e-f41003a7dea7'
-keywords: ["Windows Media Player,redistributing software", "Windows Media Player,software redistribution", "redistributing software", "software redistribution"]
+ms.assetid: 9af2225d-b18e-40d6-835e-f41003a7dea7
+keywords:
+- Windows Media Player,redistributing software
+- Windows Media Player,software redistribution
+- redistributing software
+- software redistribution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Redistributing Windows Media Player Software

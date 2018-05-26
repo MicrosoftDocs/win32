@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a single printer queue.'
-ms.assetid: '2DB57234-E783-4C6B-A743-F1E9F7D34D97'
+---
+Description: Represents a single printer queue.
+ms.assetid: 2DB57234-E783-4C6B-A743-F1E9F7D34D97
 title: IPrinterQueue interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueue interface

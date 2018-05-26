@@ -1,8 +1,17 @@
 ---
 title: list.csv
 description: list.csv
-ms.assetid: '020b213c-826c-430c-8ce7-92b819581de8'
-keywords: ["Windows Media Player online stores,list.csv", "online stores,list.csv", "type 1 online stores,list.csv", "list.csv"]
+ms.assetid: 020b213c-826c-430c-8ce7-92b819581de8
+keywords:
+- Windows Media Player online stores,list.csv
+- online stores,list.csv
+- type 1 online stores,list.csv
+- list.csv
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # list.csv
@@ -135,18 +144,18 @@ The Format column in the table below describes the way each Unicode text field i
 <td>ListItemsAreDynamic</td>
 <td>Yes</td>
 <td>Boolean. Can be 0 or 1.</td>
-<td>Indicates whether the list is generated dynamically. Dynamic lists do not have items in listitem.csv. If a list is marked as dynamic, its items are provided by [IWMPContentPartner::GetListContents](iwmpcontentpartner-getlistcontents.md)</td>
+<td>Indicates whether the list is generated dynamically. Dynamic lists do not have items in listitem.csv. If a list is marked as dynamic, its items are provided by [IWMPContentPartner::GetListContents](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents?branch=master)</td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

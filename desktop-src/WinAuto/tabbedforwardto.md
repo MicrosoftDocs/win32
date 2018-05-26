@@ -1,7 +1,12 @@
 ---
 title: TabbedForwardTo
 description: TabbedForwardTo
-ms.assetid: '2851D8E8-8BD8-4F05-BC48-92627217698B'
+ms.assetid: 2851D8E8-8BD8-4F05-BC48-92627217698B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TabbedForwardTo

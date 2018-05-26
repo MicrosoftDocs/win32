@@ -1,7 +1,12 @@
 ---
-Description: 'The CurrentButton property retrieves the number of the selected menu button.'
-ms.assetid: 'bd9720bc-068a-4f29-aa2d-1c6b550f789c'
+Description: The CurrentButton property retrieves the number of the selected menu button.
+ms.assetid: bd9720bc-068a-4f29-aa2d-1c6b550f789c
 title: CurrentButton Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentButton Property

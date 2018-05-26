@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the association between an Msvm\_BaseMetricDefinition and a CIM\_ManagedElement to define metrics for the latter. The metrics definition is given context by the ManagedElement, which is why the definition is dependent on the element.'
-ms.assetid: '528d9b1a-089d-48ae-b5a6-40bc9d09191c'
-title: 'Msvm\_MetricDefForME class'
+Description: Defines the association between an Msvm\_BaseMetricDefinition and a CIM\_ManagedElement to define metrics for the latter. The metrics definition is given context by the ManagedElement, which is why the definition is dependent on the element.
+ms.assetid: 528d9b1a-089d-48ae-b5a6-40bc9d09191c
+title: Msvm\_MetricDefForME class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MetricDefForME class
@@ -16,9 +21,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MetricDefForME : CIM_MetricDefForME
 {
-  CIM_ManagedElement       REF Antecedent;
+  CIM_ManagedElement       REF Antecedent;
   CIM_BaseMetricDefinition REF Dependent;
-  uint16                       MetricCollectionEnabled = 2;
+  uint16                       MetricCollectionEnabled = 2;
 };
 ```
 
@@ -82,7 +87,7 @@ Indicates whether the metric defined by **Dependent** is being collected for the
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -92,17 +97,17 @@ Indicates whether the metric defined by **Dependent** is being collected for the
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

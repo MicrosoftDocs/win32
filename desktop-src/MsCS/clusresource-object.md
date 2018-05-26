@@ -4,11 +4,13 @@ description: Enables operations on a resource, its properties, and related objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c1b66495-c428-4ee4-94e2-263fd31f61ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c1b66495-c428-4ee4-94e2-263fd31f61ad
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusResource object Failover Cluster", "ClusResource object Failover Cluster , described"]
+keywords:
+- ClusResource object Failover Cluster
+- ClusResource object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusResource object
@@ -53,7 +58,7 @@ The **ClusResource** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -86,7 +91,7 @@ The **ClusResource** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -104,7 +109,7 @@ A **ClusResource** object is obtained from the following collections:
 |                                     |                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                                                                           |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                                                                                           |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>                                                                                 |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>                                                                               |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>                                                                               |
@@ -120,9 +125,9 @@ A **ClusResource** object is obtained from the following collections:
 [Resource Management Objects](resource-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

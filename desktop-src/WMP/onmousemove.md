@@ -1,14 +1,20 @@
 ---
 title: onmousemove
 description: The onmousemove event handler handles an event that occurs when the user moves the mouse pointer while it is over an element.
-ms.assetid: '8c834593-c842-48db-862d-994922aad776'
-keywords: ["onmousemove Windows Media Player"]
+ms.assetid: 8c834593-c842-48db-862d-994922aad776
+keywords:
+- onmousemove Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onmousemove
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onmousemove
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element, the **VIDEO** 
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

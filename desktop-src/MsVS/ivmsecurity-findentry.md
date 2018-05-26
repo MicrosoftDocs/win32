@@ -1,8 +1,13 @@
 ---
 title: IVMSecurity FindEntry method
 description: The FindEntry method finds an existing access control entry.
-ms.assetid: 'd004223c-f4fd-465a-b895-4d82c27a46a1'
-keywords: ["FindEntry method Virtual Server", "FindEntry method Virtual Server , IVMSecurity interface", "IVMSecurity interface Virtual Server , FindEntry method", "FindEntry method Virtual Server , VMSecurity interface", "VMSecurity interface Virtual Server , FindEntry method"]
+ms.assetid: d004223c-f4fd-465a-b895-4d82c27a46a1
+keywords:
+- FindEntry method Virtual Server
+- FindEntry method Virtual Server , IVMSecurity interface
+- IVMSecurity interface Virtual Server , FindEntry method
+- FindEntry method Virtual Server , VMSecurity interface
+- VMSecurity interface Virtual Server , FindEntry method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSecurity::FindEntry method
@@ -23,9 +33,9 @@ The **FindEntry** method finds an existing access control entry.
 
 ```C++
 HRESULT FindEntry(
-  [in]  BSTR               nameOrSid,
-  [in]  VMAccessRightsType type,
-  [out] IVMAccessRights    **foundEntry
+  [in]  BSTR               nameOrSid,
+  [in]  VMAccessRightsType type,
+  [out] IVMAccessRights    **foundEntry
 );
 ```
 
@@ -72,7 +82,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,8 +90,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -99,9 +109,9 @@ This method supports standard return values, as well as the following. For infor
 [**VMAccessRightsType**](vmaccessrightstype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

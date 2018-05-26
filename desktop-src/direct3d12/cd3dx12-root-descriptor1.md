@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_ROOT\_DESCRIPTOR1 structure
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_DESCRIPTOR1 structure.
-ms.assetid: '664822BF-5C27-4541-953F-219894547A6C'
-keywords: ["CD3DX12_ROOT_DESCRIPTOR1 structure"]
+ms.assetid: 664822BF-5C27-4541-953F-219894547A6C
+keywords:
+- CD3DX12_ROOT_DESCRIPTOR1 structure
 topic_type:
 - apiref
 api_name:
@@ -11,20 +12,25 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_ROOT\_DESCRIPTOR1 structure
 
-A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR1**](d3d12-root-descriptor1.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_descriptor1?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 struct CD3DX12_ROOT_DESCRIPTOR1  : public D3D12_ROOT_DESCRIPTOR1{
-       CD3DX12_ROOT_DESCRIPTOR1();
-       explicit CD3DX12_ROOT_DESCRIPTOR1(const D3D12_ROOT_DESCRIPTOR1 &amp;o);
-       CD3DX12_ROOT_DESCRIPTOR1(UINT shaderRegister, UINT registerSpace = 0, D3D12_ROOT_DESCRIPTOR_FLAGS flags = D3D12_ROOT_DESCRIPTOR_FLAG_NONE);
+       CD3DX12_ROOT_DESCRIPTOR1();
+       explicit CD3DX12_ROOT_DESCRIPTOR1(const D3D12_ROOT_DESCRIPTOR1 &amp;o);
+       CD3DX12_ROOT_DESCRIPTOR1(UINT shaderRegister, UINT registerSpace = 0, D3D12_ROOT_DESCRIPTOR_FLAGS flags = D3D12_ROOT_DESCRIPTOR_FLAG_NONE);
   void inline Init(UINT shaderRegister, UINT registerSpace = 0, D3D12_ROOT_DESCRIPTOR_FLAGS flags = D3D12_ROOT_DESCRIPTOR_FLAG_NONE);
   void static inline Init(D3D12_ROOT_DESCRIPTOR1 &amp;table, UINT shaderRegister, UINT registerSpace = 0, D3D12_ROOT_DESCRIPTOR_FLAGS flags = D3D12_ROOT_DESCRIPTOR_FLAG_NONE);
 };
@@ -46,7 +52,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_ROOT\_DESCRIPTOR1.
 **explicit CD3DX12\_ROOT\_DESCRIPTOR1(const D3D12\_ROOT\_DESCRIPTOR1 &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR1, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR1**](d3d12-root-descriptor1.md) structure.
+Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR1, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_descriptor1?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -72,7 +78,7 @@ UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -81,13 +87,13 @@ UINT registerSpace = 0
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_DESCRIPTOR1**](d3d12-root-descriptor1.md) &table
+[**D3D12\_ROOT\_DESCRIPTOR1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_descriptor1?branch=master) &table
 
 UINT shaderRegister
 
 UINT registerSpace = 0
 
-[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](d3d12-root-descriptor-flags.md) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
+[**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_root_descriptor_flags?branch=master) flags = D3D12\_ROOT\_DESCRIPTOR\_FLAG\_NONE
 
 </dd> </dl>
 
@@ -105,15 +111,15 @@ UINT registerSpace = 0
 
 <dl> <dt>
 
-[**D3D12\_ROOT\_DESCRIPTOR1**](d3d12-root-descriptor1.md)
+[**D3D12\_ROOT\_DESCRIPTOR1**](/windows/win32/d3d12/ns-d3d12-d3d12_root_descriptor1?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

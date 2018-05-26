@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Direction-Alt Attribute
 description: VML MSO-Direction-Alt Attribute
-ms.assetid: 'b507d1d7-98d7-4814-81ac-de101d777710'
+ms.assetid: b507d1d7-98d7-4814-81ac-de101d777710
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Direction-Alt Attribute

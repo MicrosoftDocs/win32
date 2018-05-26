@@ -1,7 +1,12 @@
 ---
-Description: 'A publisher configuration file is an XML file that globally redirects applications and assemblies from using one version of a side-by-side assembly to another version of the same assembly.'
-ms.assetid: 'b10752af-80a7-4027-b525-90333d0d010a'
+Description: A publisher configuration file is an XML file that globally redirects applications and assemblies from using one version of a side-by-side assembly to another version of the same assembly.
+ms.assetid: b10752af-80a7-4027-b525-90333d0d010a
 title: Publisher Configuration Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Publisher Configuration Files
@@ -15,23 +20,23 @@ Publisher configuration files have the following elements and attributes. For a 
 | Element               | Attributes                | Required |
 |-----------------------|---------------------------|----------|
 | **assembly**          |                           | Yes      |
-|                       | **manifestVersion**       | Yes      |
+|                       | **manifestVersion**       | Yes      |
 | **assemblyIdentity**  |                           | Yes      |
-|                       | **type**                  | Yes      |
-|                       | **name**                  | Yes      |
-|                       | **language**              | No       |
-|                       | **processorArchitecture** | No       |
-|                       | **version**               | Yes      |
-|                       | **publicKeyToken**        | No       |
+|                       | **type**                  | Yes      |
+|                       | **name**                  | Yes      |
+|                       | **language**              | No       |
+|                       | **processorArchitecture** | No       |
+|                       | **version**               | Yes      |
+|                       | **publicKeyToken**        | No       |
 | **dependency**        |                           | No       |
 | **dependentAssembly** |                           | No       |
 | **bindingRedirect**   |                           | Yes      |
-|                       | **oldVersion**            | Yes      |
-|                       | **newVersion**            | Yes      |
+|                       | **oldVersion**            | Yes      |
+|                       | **newVersion**            | Yes      |
 
 
 
- 
+ 
 
 ## File Location
 
@@ -69,7 +74,7 @@ The **assembly** element has the following attributes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -119,7 +124,7 @@ The **assemblyIdentity** element has the following attributes. It has no sub-ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -148,12 +153,12 @@ This element has the attributes shown in the following table.
 
 | Attribute      | Description                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **oldVersion** | Specifies the assembly version being overridden and redirected. Use the four-part version syntax nnnnn.nnnnn.nnnnn.nnnnn. Specify a range of versions by a dash with no spaces. For example, 2.14.3.0 or 2.14.3.0–2.16.0.0. Required. |
+| **oldVersion** | Specifies the assembly version being overridden and redirected. Use the four-part version syntax nnnnn.nnnnn.nnnnn.nnnnn. Specify a range of versions by a dash with no spaces. For example, 2.14.3.0 or 2.14.3.0 2.16.0.0. Required. |
 | **newVersion** | Specifies the replacement assembly version. Use four-part version syntax nnnnn.nnnnn.nnnnn.nnnnn.                                                                                                                                     |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -176,9 +181,9 @@ Publisher configuration files do not specify files. Note that language-specific 
 </assembly>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'Find and print the name of the owner of a file.'
-ms.assetid: 'b0dbc785-58a7-4f39-ab39-b96abece5b93'
+Description: Find and print the name of the owner of a file.
+ms.assetid: b0dbc785-58a7-4f39-ab39-b96abece5b93
 title: Finding the Owner of a File Object in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding the Owner of a File Object in C++
 
-The following example uses the [**GetSecurityInfo**](getsecurityinfo.md) and [**LookupAccountSid**](lookupaccountsid.md) functions to find and print the name of the owner of a file. The file exists in the current working directory on the local server.
+The following example uses the [**GetSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-getsecurityinfo?branch=master) and [**LookupAccountSid**](/windows/win32/Winbase/nf-winbase-lookupaccountsida?branch=master) functions to find and print the name of the owner of a file. The file exists in the current working directory on the local server.
 
 
 ```C++

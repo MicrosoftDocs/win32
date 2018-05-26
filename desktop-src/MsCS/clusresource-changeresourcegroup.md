@@ -4,11 +4,14 @@ description: Removes the resource from its current group and places it in a diff
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c272144f-f417-4ea5-8147-4f7bd02170b7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c272144f-f417-4ea5-8147-4f7bd02170b7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ChangeResourceGroup method Failover Cluster", "ChangeResourceGroup method Failover Cluster , ClusResource class", "ClusResource class Failover Cluster , ChangeResourceGroup method"]
+keywords:
+- ChangeResourceGroup method Failover Cluster
+- ChangeResourceGroup method Failover Cluster , ClusResource class
+- ClusResource class Failover Cluster , ChangeResourceGroup method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.ChangeResourceGroup method
@@ -68,7 +74,7 @@ For more information, see [Resource Dependencies](resource-dependencies.md).
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -87,9 +93,9 @@ For more information, see [Resource Dependencies](resource-dependencies.md).
 [**ClusResource**](clusresource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

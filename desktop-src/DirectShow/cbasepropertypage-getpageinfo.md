@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPageInfo method retrieves information about the property page. This method implements the IPropertyPage::GetPageInfo method.'
-ms.assetid: 'f2e04652-7c71-48b2-b964-4e07ac98d367'
-title: 'CBasePropertyPage.GetPageInfo method'
+Description: The GetPageInfo method retrieves information about the property page. This method implements the IPropertyPageGetPageInfo method.
+ms.assetid: f2e04652-7c71-48b2-b964-4e07ac98d367
+title: CBasePropertyPage.GetPageInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.GetPageInfo method
@@ -13,7 +18,7 @@ The `GetPageInfo` method retrieves information about the property page. This met
 
 ```C++
 HRESULT GetPageInfo(
-   LPPROPPAGEINFO pPageInfo
+   LPPROPPAGEINFO pPageInfo
 );
 ```
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +68,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

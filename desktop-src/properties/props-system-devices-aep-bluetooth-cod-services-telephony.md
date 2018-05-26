@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth class of device service telephony.'
-ms.assetid: 'be9c4050-b429-4e95-8145-0926356b5464'
-title: 'System.Devices.Aep.Bluetooth.Cod.Services.Telephony'
+Description: Bluetooth class of device service telephony.
+ms.assetid: be9c4050-b429-4e95-8145-0926356b5464
+title: System.Devices.Aep.Bluetooth.Cod.Services.Telephony
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.Bluetooth.Cod.Services.Telephony

@@ -1,20 +1,25 @@
 ---
 title: ms-COM-DefaultPartitionLink attribute
-description: A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
+description: A link used to identify the default COM+ partition in a COM+ PartitionSet.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5fe4330c-845a-4c6b-8546-905b455698d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 5fe4330c-845a-4c6b-8546-905b455698d6
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-COM-DefaultPartitionLink attribute AD Schema", "msCOM-DefaultPartitionLink attribute AD Schema"]
+keywords:
+- ms-COM-DefaultPartitionLink attribute AD Schema
+- msCOM-DefaultPartitionLink attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-COM-DefaultPartitionLink
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-COM-DefaultPartitionLink attribute
@@ -38,11 +43,11 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

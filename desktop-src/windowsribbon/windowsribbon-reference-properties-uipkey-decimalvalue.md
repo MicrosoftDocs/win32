@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_DecimalValue
 description: Identifies the UI\_PKEY\_DecimalValue property.
-ms.assetid: '1bfa99c2-a31c-4524-9d1c-1b320e97c41a'
+ms.assetid: 1bfa99c2-a31c-4524-9d1c-1b320e97c41a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_DecimalValue

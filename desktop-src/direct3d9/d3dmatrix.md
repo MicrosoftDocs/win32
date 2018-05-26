@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a matrix.'
-ms.assetid: 'd6b98a32-e745-4724-b8ce-a81a3f5416f3'
+---
+Description: Describes a matrix.
+ms.assetid: d6b98a32-e745-4724-b8ce-a81a3f5416f3
 title: D3DMATRIX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DMATRIX
@@ -58,13 +63,13 @@ In Direct3D, the \_34 element of a projection matrix cannot be a negative number
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetTransform**](idirect3ddevice9--gettransform.md)
+[**GetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-gettransform?branch=master)
 </dt> <dt>
 
-[**MultiplyTransform**](idirect3ddevice9--multiplytransform.md)
+[**MultiplyTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-multiplytransform?branch=master)
 </dt> <dt>
 
-[**SetTransform**](idirect3ddevice9--settransform.md)
+[**SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master)
 </dt> <dt>
 
 **SetTransform**

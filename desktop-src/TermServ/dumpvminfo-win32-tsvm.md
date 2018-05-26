@@ -4,11 +4,14 @@ description: This member is for internal testing purposes, and should not be use
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '40cb4fdc-f657-47c6-8daa-684a12be30e4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 40cb4fdc-f657-47c6-8daa-684a12be30e4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DumpVmInfo method Remote Desktop Services", "DumpVmInfo method Remote Desktop Services , Win32_TSVm class", "Win32_TSVm class Remote Desktop Services , DumpVmInfo method"]
+keywords:
+- DumpVmInfo method Remote Desktop Services
+- DumpVmInfo method Remote Desktop Services , Win32_TSVm class
+- Win32_TSVm class Remote Desktop Services , DumpVmInfo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSVmHostWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DumpVmInfo method of the Win32\_TSVm class
@@ -47,7 +53,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>TSVmHost.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |
@@ -61,9 +67,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TSVm**](win32-tsvm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

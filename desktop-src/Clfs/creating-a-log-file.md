@@ -1,16 +1,21 @@
-﻿---
-Description: 'Before you can use CLFS, you must create a log file using the CreateLogFile function.'
-ms.assetid: '70d1f73b-bb39-46f8-a2fa-e68693a56082'
+---
+Description: Before you can use CLFS, you must create a log file using the CreateLogFile function.
+ms.assetid: 70d1f73b-bb39-46f8-a2fa-e68693a56082
 title: Creating a Log File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Log File
 
-Before you can use CLFS, you must create a log file using the [**CreateLogFile**](createlogfile.md) function. A log file is made up of a base log file that contains metadata, and a number of containers that hold the actual data. On any local file system, containers can be in one or more separate files; on NTFS, containers can be in one or more streams within a file.
+Before you can use CLFS, you must create a log file using the [**CreateLogFile**](/windows/win32/Clfsw32/nf-clfsw32-createlogfile?branch=master) function. A log file is made up of a base log file that contains metadata, and a number of containers that hold the actual data. On any local file system, containers can be in one or more separate files; on NTFS, containers can be in one or more streams within a file.
 
-You can create containers using the [**AddLogContainer**](addlogcontainer.md) and [**AddLogContainerSet**](addlogcontainerset.md) functions. You can also use the [CLFS Management API](common-log-file-system-management-api.md) to have CLFS create containers for you.
+You can create containers using the [**AddLogContainer**](/windows/win32/Clfsw32/nf-clfsw32-addlogcontainer?branch=master) and [**AddLogContainerSet**](/windows/win32/Clfsw32/nf-clfsw32-addlogcontainerset?branch=master) functions. You can also use the [CLFS Management API](common-log-file-system-management-api.md) to have CLFS create containers for you.
 
-When you create containers, they are created using the same security attributes as the .blf file, and are created within the context of the user calling the [**AddLogContainer**](addlogcontainer.md) function, not the context of the owner of the .blf file. For more information about .blf files, see [Log Types](log-types.md).
+When you create containers, they are created using the same security attributes as the .blf file, and are created within the context of the user calling the [**AddLogContainer**](/windows/win32/Clfsw32/nf-clfsw32-addlogcontainer?branch=master) function, not the context of the owner of the .blf file. For more information about .blf files, see [Log Types](log-types.md).
 
 ## Log File Names
 
@@ -28,9 +33,9 @@ Log file names consist of the log name and an optional log stream name, dependin
 
  
 
-Reading the first "::" from left to right delimits the end of the log name and the start of the log stream name. For example, you can create a dedicated or multiplexed log if you specify the log names in the table above when calling the [**CreateLogFile**](createlogfile.md) function.
+Reading the first "::" from left to right delimits the end of the log name and the start of the log stream name. For example, you can create a dedicated or multiplexed log if you specify the log names in the table above when calling the [**CreateLogFile**](/windows/win32/Clfsw32/nf-clfsw32-createlogfile?branch=master) function.
 
-Dedicated logs are created by clients that specify only a log name in the *pszLogFileName* parameter of the [**CreateLogFile**](createlogfile.md) function. This function creates a base log file (.blf) on the path that is specified by the log name. The path can be either absolute or relative. For example, if you specify "log" as the value of *pszLogFileName*, the file name on the computer is "log.blf", but the name of the log for the application is "log".
+Dedicated logs are created by clients that specify only a log name in the *pszLogFileName* parameter of the [**CreateLogFile**](/windows/win32/Clfsw32/nf-clfsw32-createlogfile?branch=master) function. This function creates a base log file (.blf) on the path that is specified by the log name. The path can be either absolute or relative. For example, if you specify "log" as the value of *pszLogFileName*, the file name on the computer is "log.blf", but the name of the log for the application is "log".
 
 When a log is created, CLFS determines whether the log is dedicated or multiplexed depending on whether a dedicated log path or a multiplexed log path is specified by the *pszLogFileName* parameter.
 

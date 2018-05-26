@@ -1,14 +1,20 @@
 ---
 title: Troubleshooter (LocalRootcause) Element
 description: Defines the troubleshooting script to run.
-ms.assetid: '0e2eb006-b6ef-40be-b153-9f9980890837'
-keywords: ["Troubleshooter element Windows Troubleshooting Toolkit"]
+ms.assetid: 0e2eb006-b6ef-40be-b153-9f9980890837
+keywords:
+- Troubleshooter element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Troubleshooter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooter (LocalRootcause) Element
@@ -27,14 +33,14 @@ The **Troubleshooter** element is defined by the [**LocalRootcause**](package-lo
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

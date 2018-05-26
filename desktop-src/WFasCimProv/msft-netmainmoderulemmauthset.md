@@ -1,7 +1,12 @@
 ---
-Description: 'Relates a main mode rule to its Phase 1 Authentication Set.'
-ms.assetid: '50f57e68-2a79-4a21-9465-cf70d236b9da'
-title: 'MSFT\_NetMainModeRuleMMAuthSet class'
+Description: Relates a main mode rule to its Phase 1 Authentication Set.
+ms.assetid: 50f57e68-2a79-4a21-9465-cf70d236b9da
+title: MSFT\_NetMainModeRuleMMAuthSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetMainModeRuleMMAuthSet class
@@ -17,7 +22,7 @@ class MSFT_NetMainModeRuleMMAuthSet : MSFT_NetSARuleMMAuth
 {
   MSFT_NetMainModeRule REF GroupComponent;
   MSFT_NetIKEP1AuthSet REF PartComponent;
-  uint16                   ActionOrder;
+  uint16                   ActionOrder;
 };
 ```
 
@@ -84,17 +89,17 @@ The Phase 1 Authentication Set used by the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

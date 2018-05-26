@@ -1,7 +1,12 @@
 ---
 title: not (sm4 - asm)
 description: Bitwise not.
-ms.assetid: 'AC7EBBC2-4B52-4793-812C-B25897FB8D05'
+ms.assetid: AC7EBBC2-4B52-4793-812C-B25897FB8D05
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # not (sm4 - asm)
@@ -15,7 +20,7 @@ Bitwise not.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Bitwise not.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -61,7 +66,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -70,9 +75,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

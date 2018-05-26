@@ -1,8 +1,9 @@
 ---
 title: SBM\_SETSCROLLINFO message
 description: The SBM\_SETSCROLLINFO message is sent to set the parameters of a scroll bar.
-ms.assetid: 'e0e42a81-67be-4d40-88c8-77398b068617'
-keywords: ["SBM_SETSCROLLINFO message Windows Controls"]
+ms.assetid: e0e42a81-67be-4d40-88c8-77398b068617
+keywords:
+- SBM_SETSCROLLINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SBM\_SETSCROLLINFO message
 
 The **SBM\_SETSCROLLINFO** message is sent to set the parameters of a scroll bar.
 
-Applications should not send this message directly. Instead, they should use the [**SetScrollInfo**](setscrollinfo.md) function. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollInfo** function to function properly.
+Applications should not send this message directly. Instead, they should use the [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function. A window receives this message through its [*WindowProc*](https://msdn.microsoft.com/library/windows/desktop/ms633573) function. Applications which implement a custom scroll bar control must respond to these messages for the **SetScrollInfo** function to function properly.
 
 ## Parameters
 
@@ -33,7 +39,7 @@ Specifies whether the scroll bar is redrawn to reflect the new scroll box positi
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**SCROLLINFO**](scrollinfo.md) structure. Before calling [**SetScrollInfo**](setscrollinfo.md), set the **cbSize** member of the structure to **sizeof**(**SCROLLINFO**), set the **fMask** member to indicate the parameters to set, and specify the new parameter values in the appropriate members.
+Pointer to a [**SCROLLINFO**](/windows/win32/Winuser/ns-winuser-tagscrollinfo?branch=master) structure. Before calling [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master), set the **cbSize** member of the structure to **sizeof**(**SCROLLINFO**), set the **fMask** member to indicate the parameters to set, and specify the new parameter values in the appropriate members.
 
 The **fMask** member can be one or more of the following values.
 
@@ -48,7 +54,7 @@ The **fMask** member can be one or more of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,7 +64,7 @@ The return value is the current position of the scroll box.
 
 ## Remarks
 
-The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md), provide only 16 bits of position data. However, the [**SCROLLINFO**](scrollinfo.md) structure used by [**SBM\_GETSCROLLINFO**](sbm-getscrollinfo.md), **SBM\_SETSCROLLINFO**, [**GetScrollInfo**](getscrollinfo.md), and [**SetScrollInfo**](setscrollinfo.md) provides 32 bits of scroll bar position data. You can use these messages and functions while processing either the **WM\_HSCROLL** or **WM\_VSCROLL** messages to obtain 32-bit scroll bar position data.
+The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md), provide only 16 bits of position data. However, the [**SCROLLINFO**](/windows/win32/Winuser/ns-winuser-tagscrollinfo?branch=master) structure used by [**SBM\_GETSCROLLINFO**](sbm-getscrollinfo.md), **SBM\_SETSCROLLINFO**, [**GetScrollInfo**](/windows/win32/Winuser/nf-winuser-getscrollinfo?branch=master), and [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) provides 32 bits of scroll bar position data. You can use these messages and functions while processing either the **WM\_HSCROLL** or **WM\_VSCROLL** messages to obtain 32-bit scroll bar position data.
 
 ## Requirements
 
@@ -66,8 +72,8 @@ The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md)
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -79,21 +85,21 @@ The messages that indicate scroll bar position, [**WM\_HSCROLL**](wm-hscroll.md)
 **Reference**
 </dt> <dt>
 
-[**GetScrollInfo**](getscrollinfo.md)
+[**GetScrollInfo**](/windows/win32/Winuser/nf-winuser-getscrollinfo?branch=master)
 </dt> <dt>
 
 [**SBM\_GETSCROLLINFO**](sbm-getscrollinfo.md)
 </dt> <dt>
 
-[**SCROLLINFO**](scrollinfo.md)
+[**SCROLLINFO**](/windows/win32/Winuser/ns-winuser-tagscrollinfo?branch=master)
 </dt> <dt>
 
-[**SetScrollInfo**](setscrollinfo.md)
+[**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

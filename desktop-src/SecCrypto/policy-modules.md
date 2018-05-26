@@ -1,12 +1,17 @@
 ---
-Description: 'Policy modules are programs that receive requests from the Certificate Services, evaluate those requests, and specify optional properties of the certificates that are built to fill these requests.'
-ms.assetid: '23d920ea-af62-42ce-ad48-c7a03ab55fc9'
+Description: Policy modules are programs that receive requests from the Certificate Services, evaluate those requests, and specify optional properties of the certificates that are built to fill these requests.
+ms.assetid: 23d920ea-af62-42ce-ad48-c7a03ab55fc9
 title: Policy Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy Modules
 
-Policy modules are programs that receive requests from the Certificate Services, evaluate those requests, and specify optional properties of the certificates that are built to fill these requests. A policy module is implemented as a [*dynamic-link library*](security.d_gly#-security-dynamic-link-library-gly) (DLL). A policy module can use the [ICertServerPolicy](icertserverpolicy.md) interface to communicate with Certificate Services. Certificate Services communicates with a policy module by means of direct COM calls or, if the module does not support direct COM calls, by means of Automation.
+Policy modules are programs that receive requests from the Certificate Services, evaluate those requests, and specify optional properties of the certificates that are built to fill these requests. A policy module is implemented as a [*dynamic-link library*](security.d_gly#-security-dynamic-link-library-gly) (DLL). A policy module can use the [ICertServerPolicy](/windows/win32/Certif/nn-certif-icertserverpolicy?branch=master) interface to communicate with Certificate Services. Certificate Services communicates with a policy module by means of direct COM calls or, if the module does not support direct COM calls, by means of Automation.
 
 A policy module may view existing certificate properties and extensions, and it may also view request attributes and properties. In addition, a policy module may set or modify certificate extensions and "NotBefore" and "NotAfter" properties, as well as the [*relative distinguished name*](security.r_gly#-security-relative-distinguished-name-gly) (RDN) of a Certificate Subject, subject to certain restrictions. A policy module ultimately issues or denies the [*certificate request*](security.c_gly#-security-certificate-request-gly) or holds it pending.
 

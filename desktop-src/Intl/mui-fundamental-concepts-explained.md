@@ -1,7 +1,12 @@
-﻿---
+---
 Description: MUI Fundamental Concepts Explained
-ms.assetid: '9ab19a56-4d31-471d-949e-a539751b62e3'
+ms.assetid: 9ab19a56-4d31-471d-949e-a539751b62e3
 title: MUI Fundamental Concepts Explained
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MUI Fundamental Concepts Explained

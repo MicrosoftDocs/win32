@@ -1,14 +1,20 @@
 ---
 title: Subject Attribute
 description: The Subject attribute is the subject of the photo item.
-ms.assetid: '6f6c3da3-77f0-4328-aa91-5c1368e48bd2'
-keywords: ["Subject Attribute Windows Media Player"]
+ms.assetid: 6f6c3da3-77f0-4328-aa91-5c1368e48bd2
+keywords:
+- Subject Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Subject
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the handle of a technique by looking up its name.'
-ms.assetid: '34871229-ad63-4575-8c60-f27d7f7dddce'
-title: 'ID3DXBaseEffect::GetTechniqueByName method'
+---
+Description: Gets the handle of a technique by looking up its name.
+ms.assetid: 34871229-ad63-4575-8c60-f27d7f7dddce
+title: ID3DXBaseEffectGetTechniqueByName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetTechniqueByName method

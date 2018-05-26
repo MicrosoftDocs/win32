@@ -4,11 +4,15 @@ description: One challenge of working within a distributed computing environment
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '66929290-b830-4768-a2ae-604d1a9de5c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 66929290-b830-4768-a2ae-604d1a9de5c4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Multiple Directory Services ADSI"]
+keywords:
+- Multiple Directory Services ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Multiple Directory Services

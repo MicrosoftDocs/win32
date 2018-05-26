@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.'
-ms.assetid: '06b625a8-7584-4a98-b8e7-f1de668c274e'
-title: 'WM\_DEVMODECHANGE message'
+---
+Description: The WM\_DEVMODECHANGE message is sent to all top-level windows whenever the user changes device-mode settings.
+ms.assetid: 06b625a8-7584-4a98-b8e7-f1de668c274e
+title: WM\_DEVMODECHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DEVMODECHANGE message

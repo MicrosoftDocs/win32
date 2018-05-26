@@ -1,8 +1,10 @@
 ---
 title: MDM\_EnterpriseModernAppManagement\_AppManagement01\_03 class
 description: The MDM\_EnterpriseModernAppManagement\_AppManagement01\_03 class provides specific information about the app, such as name, version, and publisher.
-ms.assetid: '424e68de-1411-490f-b33b-5243ffa5a31e'
-keywords: ["MDM_EnterpriseModernAppManagement_AppManagement01_03 class", "MDM_EnterpriseModernAppManagement_AppManagement01_03 class, described"]
+ms.assetid: 424e68de-1411-490f-b33b-5243ffa5a31e
+keywords:
+- MDM_EnterpriseModernAppManagement_AppManagement01_03 class
+- MDM_EnterpriseModernAppManagement_AppManagement01_03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_EnterpriseModernAppManagement\_AppManagement01\_03 class
@@ -240,7 +247,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -255,9 +262,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

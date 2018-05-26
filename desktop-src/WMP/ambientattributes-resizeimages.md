@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.resizeImages
 description: The resizeImages attribute specifies or retrieves a value indicating whether images contained in the control resize automatically when the control size changes.
-ms.assetid: 'b5dab857-ad13-4be4-9fc2-c3534f2d9a84'
-keywords: ["AmbientAttributes.resizeImages Windows Media Player"]
+ms.assetid: b5dab857-ad13-4be4-9fc2-c3534f2d9a84
+keywords:
+- AmbientAttributes.resizeImages Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.resizeImages
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.resizeImages
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read/write **Boolean**.
 [**Ambient Attributes**](ambient-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

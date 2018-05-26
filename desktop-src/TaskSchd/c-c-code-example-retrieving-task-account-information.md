@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving Task Account Information
 description: This code example retrieves the account information of a known task and displays the account name on the screen. This example assumes that the task and the test task already exist on the local computer and that the Task Scheduler is running.
-ms.assetid: 'ef330276-a063-42c6-a837-fddb4723091b'
-keywords: ["retrieving task account information Task Scheduler", "retrieving work item properties Task Scheduler , account information"]
+ms.assetid: ef330276-a063-42c6-a837-fddb4723091b
+keywords:
+- retrieving task account information Task Scheduler
+- retrieving work item properties Task Scheduler , account information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Task Account Information

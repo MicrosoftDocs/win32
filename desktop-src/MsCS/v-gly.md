@@ -5,10 +5,13 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f114c549-5dff-46d6-8fce-bb94db223bf8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f114c549-5dff-46d6-8fce-bb94db223bf8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # V
@@ -20,7 +23,7 @@ ms.tgt_platform: multiple
 <span id="_wolf_value_list_gly"></span><span id="_WOLF_VALUE_LIST_GLY"></span>**value list**
 </dt> <dd>
 
-A collection of data values that is used as the data portion of a property value in a [*property list*](p-gly.md#-wolf-property-list-gly). Each entry except the final one in a value list is made up of a [**CLUSPROP\_VALUE**](clusprop-value.md) structure and data. The final entry contains only the **CLUSPROP\_SYNTAX\_ENDMARK** value.
+A collection of data values that is used as the data portion of a property value in a [*property list*](p-gly.md#-wolf-property-list-gly). Each entry except the final one in a value list is made up of a [**CLUSPROP\_VALUE**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_value?branch=master) structure and data. The final entry contains only the **CLUSPROP\_SYNTAX\_ENDMARK** value.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Signals an event from a media sink that renders media data.'
-ms.assetid: 'bb7db7c9-c39f-4bf4-9412-42525c4f2ea3'
+---
+Description: Signals an event from a media sink that renders media data.
+ms.assetid: bb7db7c9-c39f-4bf4-9412-42525c4f2ea3
 title: MERendererEvent event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MERendererEvent event
@@ -12,7 +17,7 @@ The [Enhanced Video Renderer](enhanced-video-renderer.md) (EVR) sends this event
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -2,11 +2,14 @@
 title: Reset method of the MSFT\_NetRoute class
 description: Selects the best local IP address and best route to reach the specified remote address.
 audience: developer
-ms.assetid: 'c43af97c-52c7-42b1-8fc1-a23cbd77d3e8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c43af97c-52c7-42b1-8fc1-a23cbd77d3e8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Reset method", "Reset method, MSFT_NetRoute class", "MSFT_NetRoute class, Reset method"]
+keywords:
+- Reset method
+- Reset method, MSFT_NetRoute class
+- MSFT_NetRoute class, Reset method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reset method of the MSFT\_NetRoute class
@@ -26,10 +32,10 @@ Selects the best local IP address and best route to reach the specified remote a
 
 ```mof
 uint32 Reset(
-  [in]  uint23        InterfaceIndex,
-  [in]  string        LocalIPAddress,
-  [in]  string        RemoteIPAddress,
-  [out] MSFT_NetRoute CmdletOutput
+  [in]  uint23        InterfaceIndex,
+  [in]  string        LocalIPAddress,
+  [in]  string        RemoteIPAddress,
+  [out] MSFT_NetRoute CmdletOutput
 );
 ```
 
@@ -73,8 +79,8 @@ On return, contains an instance of the current object.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -88,9 +94,9 @@ On return, contains an instance of the current object.
 [**MSFT\_NetRoute**](msft-netroute-vpnclientpsprovider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The CIMType property of the SWbemProperty object is an integer that can be used to determine the CIM type of this property. This property is read-only.'
+Description: The CIMType property of the SWbemProperty object is an integer that can be used to determine the CIM type of this property. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fb570ba4-6ce3-4131-8088-2761110033ba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fb570ba4-6ce3-4131-8088-2761110033ba
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemProperty.CIMType property'
+title: SWbemProperty.CIMType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemProperty.CIMType property
@@ -31,7 +34,7 @@ SWbemProperty.CIMType As Integer
 
 ## Remarks
 
-For more information about valid types for this property, see [**WbemCimtypeEnum**](wbemcimtypeenum.md).
+For more information about valid types for this property, see [**WbemCimtypeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemcimtypeenum?branch=master).
 
 Instances of embedded objects are stored in composite objects as properties of type **CIM\_OBJECT**. To determine the class of an embedded object in an instance of a composite class, you must examine the **CIMType** qualifier of the **CIM\_OBJECT** type property.
 
@@ -43,8 +46,8 @@ The object references in an association class are stored in properties of type *
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -53,9 +56,9 @@ The object references in an association class are stored in properties of type *
 
 
 
- 
+ 
 
- 
+ 
 
 
 

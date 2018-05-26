@@ -1,7 +1,12 @@
 ---
-Description: 'Unicode is a worldwide character-encoding standard. The system uses Unicode exclusively for character and string manipulation. For a detailed description of all aspects of Unicode, refer to The Unicode Standard.'
-ms.assetid: '6da0cbee-4bc4-4b8b-835c-172234b73bdd'
+Description: Unicode is a worldwide character-encoding standard. The system uses Unicode exclusively for character and string manipulation. For a detailed description of all aspects of Unicode, refer to The Unicode Standard.
+ms.assetid: 6da0cbee-4bc4-4b8b-835c-172234b73bdd
 title: Unicode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unicode
@@ -27,15 +32,15 @@ For compatibility with 8-bit and 7-bit environments, Unicode can also be encoded
 
 New Windows applications should use UTF-16 as their internal data representation. Windows also provides extensive support for code pages, and mixed use in the same application is possible. Even new Unicode-based applications sometimes have to work with code pages. Reasons for this are discussed in [Code Pages](code-pages.md).
 
-An application can use the [**MultiByteToWideChar**](multibytetowidechar.md) and [**WideCharToMultiByte**](widechartomultibyte.md) functions to convert between strings based on code pages and Unicode strings. Although their names refer to "MultiByte", these functions work equally well with [single-byte character set](single-byte-character-sets.md) (SBCS), [double-byte character set](double-byte-character-sets.md) (DBCS), and multibyte character set (MBCS) code pages.
+An application can use the [**MultiByteToWideChar**](/windows/win32/Stringapiset/nf-stringapiset-multibytetowidechar?branch=master) and [**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) functions to convert between strings based on code pages and Unicode strings. Although their names refer to "MultiByte", these functions work equally well with [single-byte character set](single-byte-character-sets.md) (SBCS), [double-byte character set](double-byte-character-sets.md) (DBCS), and multibyte character set (MBCS) code pages.
 
 Typically, a Windows application should use UTF-16 internally, converting only as part of a "thin layer" over the interface that must use another format. This technique defends against loss and corruption of data. Each code page supports different characters, but none of them supports the full spectrum of characters provided by Unicode. Most of the code pages support different subsets, differently encoded. The code pages for UTF-8 and UTF-7 are an exception, since they support the complete Unicode character set, and conversion between these encodings and UTF-16 is lossless.
 
 Data converted directly from the encoding used by one code page to the encoding used by another is subject to corruption, because the same data value on different code pages can encode a different character. Even when your application is converting as close to the interface as possible, you should think carefully about the range of data to handle.
 
-Data converted from Unicode to a code page is subject to data loss, because a given code page might not be able to represent every character used in that particular Unicode data. Therefore, note that [**WideCharToMultiByte**](widechartomultibyte.md) might lose some data if the target code page cannot represent all of the characters in the Unicode string.
+Data converted from Unicode to a code page is subject to data loss, because a given code page might not be able to represent every character used in that particular Unicode data. Therefore, note that [**WideCharToMultiByte**](/windows/win32/Stringapiset/nf-stringapiset-widechartomultibyte?branch=master) might lose some data if the target code page cannot represent all of the characters in the Unicode string.
 
-When modernizing code page-based legacy applications to use Unicode, you can use generic functions and the [**TEXT**](text.md) macro to maintain a single set of sources from which to compile two versions of your application. One version supports Unicode and the other one works with Windows code pages. Using this mechanism, you can convert even very large applications from Windows code pages to Unicode while maintaining application sources that can be compiled, built, and tested at all phases of the conversion. For more information, see [Conventions for Function Prototypes](conventions-for-function-prototypes.md).
+When modernizing code page-based legacy applications to use Unicode, you can use generic functions and the [**TEXT**](/windows/win32/Winnt/nf-winnt-text?branch=master) macro to maintain a single set of sources from which to compile two versions of your application. One version supports Unicode and the other one works with Windows code pages. Using this mechanism, you can convert even very large applications from Windows code pages to Unicode while maintaining application sources that can be compiled, built, and tested at all phases of the conversion. For more information, see [Conventions for Function Prototypes](conventions-for-function-prototypes.md).
 
 Unicode characters and strings use data types that are distinct from those for code page-based characters and strings. Along with a series of macros and naming conventions, this distinction minimizes the chance of accidentally mixing the two types of character data. It facilitates compiler type checking to ensure that only Unicode parameter values are used with functions expecting Unicode strings.
 

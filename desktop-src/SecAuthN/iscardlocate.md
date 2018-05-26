@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ISCardLocate interface provides services for locating a smart card by its name.'
-ms.assetid: 'add00705-69d5-4562-a74f-94c6864f6bd8'
+---
+Description: The ISCardLocate interface provides services for locating a smart card by its name.
+ms.assetid: add00705-69d5-4562-a74f-94c6864f6bd8
 title: ISCardLocate interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardLocate interface

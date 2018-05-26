@@ -1,8 +1,9 @@
 ---
 title: Media.imageSourceHeight
 description: The ImageSourceHeight property retrieves the height of the current media item in pixels.
-ms.assetid: 'fa98ec62-4c58-46ab-98f3-8017096d46d8'
-keywords: ["Media.imageSourceHeight Windows Media Player"]
+ms.assetid: fa98ec62-4c58-46ab-98f3-8017096d46d8
+keywords:
+- Media.imageSourceHeight Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.imageSourceHeight
@@ -89,9 +95,9 @@ if (NewState == 13){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

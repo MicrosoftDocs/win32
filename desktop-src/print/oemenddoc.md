@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMEndDoc function is called by the GDI when it has finished sending a document to the driver for rendering.'
-ms.assetid: '268a22ba-1dce-4326-bdf4-4d7e7e83257c'
+---
+Description: The OEMEndDoc function is called by the GDI when it has finished sending a document to the driver for rendering.
+ms.assetid: 268a22ba-1dce-4326-bdf4-4d7e7e83257c
 title: OEMEndDoc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMEndDoc function

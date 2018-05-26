@@ -1,8 +1,10 @@
 ---
 title: IStoreFolder interface
 description: Interface to an Windows Mail (formerly Outlook Express) storage folder object.
-ms.assetid: '8ff9fc9b-a1a7-43f2-9c85-c47a93402401'
-keywords: ["IStoreFolder interface Windows Mail (formerly Outlook Express)", "IStoreFolder interface Windows Mail (formerly Outlook Express) , described"]
+ms.assetid: 8ff9fc9b-a1a7-43f2-9c85-c47a93402401
+keywords:
+- IStoreFolder interface Windows Mail (formerly Outlook Express)
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder interface
@@ -29,8 +36,8 @@ The **IStoreFolder** interface inherits from the [**IUnknown**](https://msdn.mic
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -45,9 +52,9 @@ The **IStoreFolder** interface inherits from the [**IUnknown**](https://msdn.mic
 [**IStoreNamespace**](oe-istorenamespace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: VML Path Element
 description: VML Path Element
-ms.assetid: 'c5b9f9e3-edee-45fa-9387-8f15e09983ee'
+ms.assetid: c5b9f9e3-edee-45fa-9387-8f15e09983ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Path Element

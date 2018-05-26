@@ -1,7 +1,12 @@
 ---
 title: Other Usage Rules
 description: Other Usage Rules
-ms.assetid: '42e24aed-8bf3-4d22-98e2-a03e6e1e44fe'
+ms.assetid: 42e24aed-8bf3-4d22-98e2-a03e6e1e44fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Usage Rules

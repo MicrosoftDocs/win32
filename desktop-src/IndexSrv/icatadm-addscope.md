@@ -1,8 +1,11 @@
 ---
 title: ICatAdm AddScope method
 description: Creates a new scope.
-ms.assetid: 'aa4ad351-7138-429d-b912-9b600da4b292'
-keywords: ["AddScope method Indexing Service", "AddScope method Indexing Service , ICatAdm interface", "ICatAdm interface Indexing Service , AddScope method"]
+ms.assetid: aa4ad351-7138-429d-b912-9b600da4b292
+keywords:
+- AddScope method Indexing Service
+- AddScope method Indexing Service , ICatAdm interface
+- ICatAdm interface Indexing Service , AddScope method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ciodm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatAdm::AddScope method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Creates a new scope.
 
@@ -24,11 +32,11 @@ Creates a new scope.
 
 ```C++
 HRESULT AddScope(
-  [in]           BSTR         bstrScopeName,
-  [in]           VARIANT_BOOL fExclude,
-  [in, optional] VARIANT      vtLogon,
-  [in, optional] VARIANT      vtPassword,
-  [out, retval]  IDispatch    **pIDisp
+  [in]           BSTR         bstrScopeName,
+  [in]           VARIANT_BOOL fExclude,
+  [in, optional] VARIANT      vtLogon,
+  [in, optional] VARIANT      vtPassword,
+  [out, retval]  IDispatch    **pIDisp
 );
 ```
 
@@ -86,7 +94,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -98,10 +106,10 @@ The *vtLogon* and *vtPassword* parameters are optional. However, they are both r
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -113,9 +121,9 @@ The *vtLogon* and *vtPassword* parameters are optional. However, they are both r
 [**ICatAdm**](icatadm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

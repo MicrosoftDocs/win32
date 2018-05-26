@@ -1,23 +1,28 @@
 ---
-Description: 'Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is released.'
-ms.assetid: '049e1560-d4b2-4d34-9d54-2b45217001b2'
-title: 'InkOverlay.MouseUp event'
+Description: Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is released.
+ms.assetid: 049e1560-d4b2-4d34-9d54-2b45217001b2
+title: InkOverlay.MouseUp event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkOverlay.MouseUp event
 
-Occurs when the mouse pointer is over the [**InkCollector**](inkcollector-class.md) or [**InkOverlay**](inkoverlay-class.md) object and a mouse button is released.
+Occurs when the mouse pointer is over the [**InkCollector**](/windows/win32/msinkaut/?branch=master) or [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object and a mouse button is released.
 
 ## Syntax
 
 
 ```C++
 void MouseUp(
-  [in]      InkMouseButton           Button,
-  [in]      InkShiftKeyModifierFlags Shift,
-  [in]      long                     pX,
-  [in]      long                     pY,
-  [in, out] VARIANT_BOOL             *Cancel
+  [in]      InkMouseButton           Button,
+  [in]      InkShiftKeyModifierFlags Shift,
+  [in]      long                     pX,
+  [in]      long                     pY,
+  [in, out] VARIANT_BOOL             *Cancel
 );
 ```
 
@@ -73,12 +78,12 @@ To improve real-time ink performance, hide or show the mouse cursor in the [**Mo
 > [!Note]  
 > The properties *pX* and *pY* are in pixels, and not the HIMETRIC units that are associated with the ink space. This is because this event replaces the related mouse event of a pen-unaware application and this type of application understands only pixels.
 
- 
+ 
 
 > [!Note]  
 > Some controls rely on a specific relationship between [**MouseDown**](inkcollector-mousedown.md), [**MouseMove**](inkcollector-mousemove.md), and [**MouseUp**](inkcollector-mouseup.md) events. Canceling some of these events may have unanticipated results.
 
- 
+ 
 
 This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_IPEMouseUp.
 
@@ -88,7 +93,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -99,18 +104,18 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 <dl> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**InkMouseButton Enumeration**](inkmousebutton.md)
+[**InkMouseButton Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkmousebutton?branch=master)
 </dt> <dt>
 
-[**InkShiftKeyModifierFlags Enumeration**](inkshiftkeymodifierflags.md)
+[**InkShiftKeyModifierFlags Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkshiftkeymodifierflags?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

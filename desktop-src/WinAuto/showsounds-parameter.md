@@ -1,7 +1,12 @@
 ---
 title: ShowSounds Parameter and Audio Descriptions Flag
 description: This topic includes information about a parameter that indicates whether an application should provide a visual alert or cue when it uses sound to convey important information.
-ms.assetid: '7b316892-76ff-48b3-bf67-34dea2e63936'
+ms.assetid: 7b316892-76ff-48b3-bf67-34dea2e63936
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowSounds Parameter and Audio Descriptions Flag

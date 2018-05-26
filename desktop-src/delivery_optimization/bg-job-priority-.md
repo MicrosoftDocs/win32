@@ -1,8 +1,10 @@
 ---
 title: BG\_JOB\_PRIORITY enumeration
 description: The BG\_JOB\_PRIORITY enumeration defines the constant values that specify the priority level of a job.
-ms.assetid: 'AF1F1F6D-473A-49E5-B24D-644A70DF304C'
-keywords: ["BG_JOB_PRIORITY enumeration", "BG_JOB_PRIORITY enumeration"]
+ms.assetid: AF1F1F6D-473A-49E5-B24D-644A70DF304C
+keywords:
+- BG_JOB_PRIORITY enumeration
+- BG_JOB_PRIORITY enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_JOB\_PRIORITY enumeration
@@ -73,7 +80,7 @@ Multiple foreground and background transfers can take place simultaneously.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -89,9 +96,9 @@ Multiple foreground and background transfers can take place simultaneously.
 [**IBackgroundCopyJob::SetPriority**](ibackgroundcopyjob-setpriority.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

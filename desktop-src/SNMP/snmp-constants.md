@@ -1,8 +1,15 @@
 ---
 title: SNMP Constants
 description: The SNMP API defines constants for use in a number of functional areas. The following table lists and describes these functional areas.
-ms.assetid: '18d0eede-c89b-41e3-8380-d88f893ba491'
-keywords: ["SNMP Constants SNMP", "Constants SNMP , SNMP"]
+ms.assetid: 18d0eede-c89b-41e3-8380-d88f893ba491
+keywords:
+- SNMP Constants SNMP
+- Constants SNMP , SNMP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMP Constants

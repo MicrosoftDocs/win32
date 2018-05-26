@@ -4,11 +4,12 @@ description: Enables access to error information.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.ErrorInfomation'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.ErrorInfomation
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ErrorInfomation class"]
+keywords:
+- ErrorInfomation class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation class
@@ -61,7 +65,7 @@ The **ErrorInfomation** class has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,9 +88,9 @@ The **ErrorInfomation** class has these properties.
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

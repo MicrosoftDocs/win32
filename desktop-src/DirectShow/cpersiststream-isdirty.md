@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the object has changed since it was last saved to its current stream.'
-ms.assetid: '69840be6-062e-4505-8381-ea04e822c660'
-title: 'CPersistStream.IsDirty method'
+Description: Indicates whether the object has changed since it was last saved to its current stream.
+ms.assetid: 69840be6-062e-4505-8381-ea04e822c660
+title: CPersistStream.IsDirty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.IsDirty method
@@ -47,9 +52,9 @@ This member function implements the **IPersistStream::IsDirty** method.
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

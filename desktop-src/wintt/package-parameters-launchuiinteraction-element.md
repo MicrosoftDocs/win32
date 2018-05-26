@@ -1,14 +1,20 @@
 ---
 title: Parameters (LaunchUIInteraction) Element
 description: A list of parameter names.
-ms.assetid: '7c27570e-44e6-4366-941a-d06bd93371dc'
-keywords: ["Parameters element Windows Troubleshooting Toolkit"]
+ms.assetid: 7c27570e-44e6-4366-941a-d06bd93371dc
+keywords:
+- Parameters element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Parameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameters (LaunchUIInteraction) Element
@@ -36,14 +42,14 @@ The **Parameters** element is defined by the [**LaunchUIInteraction**](package-l
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

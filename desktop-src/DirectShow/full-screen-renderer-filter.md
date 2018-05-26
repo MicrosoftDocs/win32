@@ -1,22 +1,27 @@
 ---
 Description: Full Screen Renderer Filter
-ms.assetid: '59332096-bdfe-4208-b99a-1f434652f287'
+ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Full Screen Renderer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Full Screen Renderer Filter
 
 The Full Screen Renderer filter provides full-screen video rendering on older hardware. Newer video cards can stretch the video efficiently enough that the Full Screen Renderer is not required. Therefore, the use of this filter is now deprecated.
 
-Do not manually add this filter to the filter graph. If an application calls [**IVideoWindow::put\_FullScreenMode**](ivideowindow-put-fullscreenmode.md), the Filter Graph Manager automatically selects the appropriate video renderer for full-screen mode. The selection is transparent to the application. With current video cards, the Filter Graph Manager is unlikely to select the Full Screen Renderer.
+Do not manually add this filter to the filter graph. If an application calls [**IVideoWindow::put\_FullScreenMode**](/windows/win32/Control/nf-control-ivideowindow-put_fullscreenmode?branch=master), the Filter Graph Manager automatically selects the appropriate video renderer for full-screen mode. The selection is transparent to the application. With current video cards, the Filter Graph Manager is unlikely to select the Full Screen Renderer.
 
 
 
 |                                          |                                                                                                                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](ibasefilter.md), [**IFullScreenVideoEx**](ifullscreenvideoex.md), [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IQualityControl**](iqualitycontrol.md), [**IQualProp**](iqualprop.md) |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IFullScreenVideoEx**](/windows/win32/Amvideo/nn-amvideo-ifullscreenvideoex?branch=master), [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master), [**IQualProp**](/windows/win32/Amvideo/nn-amvideo-iqualprop?branch=master) |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_Null                                                                                                                                                                                                               |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                                                             |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                                                             |
 | Output Pin Media Types                   | Not applicable                                                                                                                                                                                                                                     |
 | Output Pin Interfaces                    | Not applicable                                                                                                                                                                                                                                     |
 | Filter CLSID                             | CLSID\_ModexRenderer                                                                                                                                                                                                                               |
@@ -31,7 +36,7 @@ Do not manually add this filter to the filter graph. If an application calls [**
 
 ## Remarks
 
-The Full Screen Renderer supports a static set of display modes. The video card on the user's system might not support every mode, however. To determine whether the card supports a particular mode, call the [**IFullScreenVideoEx::IsModeAvailable**](ifullscreenvideoex-ismodeavailable.md) method. You can also disable a particular display mode programmatically, by calling the [**IFullScreenVideoEx::SetEnabled**](ifullscreenvideoex-setenabled.md). The Full Screen Renderer currently supports the display modes shown in the following table:
+The Full Screen Renderer supports a static set of display modes. The video card on the user's system might not support every mode, however. To determine whether the card supports a particular mode, call the [**IFullScreenVideoEx::IsModeAvailable**](/windows/win32/Amvideo/nf-amvideo-ifullscreenvideoex-ismodeavailable?branch=master) method. You can also disable a particular display mode programmatically, by calling the [**IFullScreenVideoEx::SetEnabled**](/windows/win32/Amvideo/nf-amvideo-ifullscreenvideoex-setenabled?branch=master). The Full Screen Renderer currently supports the display modes shown in the following table:
 
 
 
@@ -59,7 +64,7 @@ The Full Screen Renderer supports a static set of display modes. The video card 
 
  
 
-(All modes are RGB.) This list is subject to change, however. Use the [**IFullScreenVideoEx::GetModeInfo**](ifullscreenvideoex-getmodeinfo.md) method to get information about the modes. The Full Screen Renderer always chooses the lowest-resolution mode available, limited by a property called the *clip factor*, which determines how much of the video the Full Screen Renderer is allowed to clip. For more information, see [**IFullScreenVideoEx::GetClipFactor**](ifullscreenvideoex-getclipfactor.md).
+(All modes are RGB.) This list is subject to change, however. Use the [**IFullScreenVideoEx::GetModeInfo**](/windows/win32/Amvideo/nf-amvideo-ifullscreenvideoex-getmodeinfo?branch=master) method to get information about the modes. The Full Screen Renderer always chooses the lowest-resolution mode available, limited by a property called the *clip factor*, which determines how much of the video the Full Screen Renderer is allowed to clip. For more information, see [**IFullScreenVideoEx::GetClipFactor**](/windows/win32/Amvideo/nf-amvideo-ifullscreenvideoex-getclipfactor?branch=master).
 
 When the application runs or pauses the filter graph, the Full Screen Renderer switches to the display mode that was chosen. When the graph stops, the Full Screen Renderer restores the original display mode.
 

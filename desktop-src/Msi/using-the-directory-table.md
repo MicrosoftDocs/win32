@@ -1,7 +1,12 @@
 ---
-Description: 'The Directory table specifies the layout of an installation.'
-ms.assetid: '3f2e1cc2-6b36-4615-86e6-e78485edd2f7'
+Description: The Directory table specifies the layout of an installation.
+ms.assetid: 3f2e1cc2-6b36-4615-86e6-e78485edd2f7
 title: Using the Directory Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Directory Table

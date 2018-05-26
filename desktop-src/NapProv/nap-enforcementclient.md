@@ -1,7 +1,12 @@
 ---
-Description: 'Represents information on the NAP Enforcement Client (EC) and registered enforcers on a Windows system.'
-ms.assetid: 'bac64788-2dc1-4a91-a287-1513a2d9aaa0'
-title: 'NAP\_EnforcementClient class'
+Description: Represents information on the NAP Enforcement Client (EC) and registered enforcers on a Windows system.
+ms.assetid: bac64788-2dc1-4a91-a287-1513a2d9aaa0
+title: NAP\_EnforcementClient class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NAP\_EnforcementClient class
@@ -15,13 +20,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class NAP_EnforcementClient
 {
-  uint32  id;
-  string  friendlyName;
-  string  description;
-  string  version;
-  string  vendorName;
-  string  infoClsid;
-  string  registrationDate;
+  uint32  id;
+  string  friendlyName;
+  string  description;
+  string  version;
+  string  vendorName;
+  string  infoClsid;
+  string  registrationDate;
   boolean isBound;
 };
 ```
@@ -151,8 +156,8 @@ The version number of the EC.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                           |
 | Namespace<br/>                | Root\\NAP<br/>                                                                           |
 | MOF<br/>                      | <dl> <dt>Napclientschema.mof</dt> </dl> |
 
@@ -168,9 +173,9 @@ The version number of the EC.
 [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

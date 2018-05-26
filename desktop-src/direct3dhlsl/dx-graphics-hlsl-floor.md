@@ -1,8 +1,9 @@
 ---
 title: floor
 description: Returns the largest integer that is less than or equal to the specified value.
-ms.assetid: 'f7193425-2448-4ae6-99d5-bb5e1aa74111'
-keywords: ["floor HLSL"]
+ms.assetid: f7193425-2448-4ae6-99d5-bb5e1aa74111
+keywords:
+- floor HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # floor
@@ -24,7 +30,7 @@ Returns the largest integer that is less than or equal to the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Returns the largest integer that is less than or equal to the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The largest integer value (returned as a floating-point type) that is less than 
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +93,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

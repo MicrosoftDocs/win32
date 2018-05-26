@@ -4,10 +4,13 @@ description: Describes the property sheet GUI element.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3c2b5859-ba64-40e3-b787-b6fa04db242e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3c2b5859-ba64-40e3-b787-b6fa04db242e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Property Sheets

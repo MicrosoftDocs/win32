@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the PnP-X Hardware Identifier of the service.'
-ms.assetid: 'aa4c935f-0d60-4603-ae96-d5cabdf9af00'
+Description: Specifies the PnP-X Hardware Identifier of the service.
+ms.assetid: aa4c935f-0d60-4603-ae96-d5cabdf9af00
 title: PnPXHardwareId element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PnPXHardwareId element
@@ -42,14 +47,14 @@ To specify more than one hardware ID, separate the identifiers with a space char
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

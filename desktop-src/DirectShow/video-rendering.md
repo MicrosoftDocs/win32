@@ -1,7 +1,12 @@
 ---
 Description: Video Rendering
-ms.assetid: 'b0dcd757-f039-4a40-a0e9-414443abbc0d'
+ms.assetid: b0dcd757-f039-4a40-a0e9-414443abbc0d
 title: Video Rendering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Rendering

@@ -1,14 +1,22 @@
 ---
 title: IDeviceBroker OpenDeviceFromInterfacePath method
 description: Attempts to open a device interface instance on behalf of a client. IID 8604b268-34A6-4b1A-A59F-CDBD8379FD98.
-ms.assetid: '5ADDB994-3AAB-49B2-8B83-F71883AFD854'
-keywords: ["OpenDeviceFromInterfacePath method Device Access Broker API", "OpenDeviceFromInterfacePath method Device Access Broker API , IDeviceBroker interface", "IDeviceBroker interface Device Access Broker API , OpenDeviceFromInterfacePath method"]
+ms.assetid: 5ADDB994-3AAB-49B2-8B83-F71883AFD854
+keywords:
+- OpenDeviceFromInterfacePath method Device Access Broker API
+- OpenDeviceFromInterfacePath method Device Access Broker API , IDeviceBroker interface
+- IDeviceBroker interface Device Access Broker API , OpenDeviceFromInterfacePath method
 topic_type:
 - apiref
 api_name:
 - IDeviceBroker.OpenDeviceFromInterfacePath
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeviceBroker::OpenDeviceFromInterfacePath method

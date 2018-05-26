@@ -1,12 +1,17 @@
 ---
-Description: 'This topic shows you how you can change the volume of a voice at an overall level, at each output channel, or between each channel of a voice and another voice in its sendlist.'
-ms.assetid: '40004128-4abb-4bcd-fe76-91276be8abec'
-title: 'How to: Change Voice Volume'
+Description: This topic shows you how you can change the volume of a voice at an overall level, at each output channel, or between each channel of a voice and another voice in its sendlist.
+ms.assetid: 40004128-4abb-4bcd-fe76-91276be8abec
+title: How to Change Voice Volume
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Change Voice Volume
 
-This topic shows you how you can change the volume of a voice at an overall level, at each output channel, or between each channel of a voice and another voice in its [**sendlist**](xaudio2-voice-sends.md).
+This topic shows you how you can change the volume of a voice at an overall level, at each output channel, or between each channel of a voice and another voice in its [**sendlist**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_voice_sends?branch=master).
 
 ## To set an overall volume level for the voice's input
 
@@ -40,7 +45,7 @@ This topic shows you how you can change the volume of a voice at an overall leve
 
 ## To set the volume of connections
 
-Set the connection volume between the voice and a voice in its [**sendlist**](xaudio2-voice-sends.md).
+Set the connection volume between the voice and a voice in its [**sendlist**](/windows/win32/xaudio2/ns-xaudio2-xaudio2_voice_sends?branch=master).
 
 1.  Create an array of floating point numbers that defines an output matrix if the voice sends to another voice.
 

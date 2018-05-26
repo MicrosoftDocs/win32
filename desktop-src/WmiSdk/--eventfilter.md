@@ -1,13 +1,16 @@
 ---
-Description: 'The registration of a permanent event consumer requires an instance of the \_\_EventFilter system class.'
+Description: The registration of a permanent event consumer requires an instance of the \_\_EventFilter system class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '369d3c28-2b69-456f-9144-d7c73e3123bc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 369d3c28-2b69-456f-9144-d7c73e3123bc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventFilter class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventFilter class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __EventFilter : __IndicationRelated
 {
-  uint8  CreatorSID[] = {1,1,0,0,0,0,0,5,18,0,0,0};
+  uint8  CreatorSID[] = {1,1,0,0,0,0,0,5,18,0,0,0};
   string EventAccess;
   string EventNamespace;
   string Name;
@@ -148,8 +151,8 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -182,9 +185,9 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 [Securing WMI Events](securing-wmi-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

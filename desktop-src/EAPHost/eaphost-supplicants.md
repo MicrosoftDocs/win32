@@ -1,7 +1,12 @@
 ---
 title: EAPHost Supplicants
 description: Describes the behavior of EAPHost supplicants.
-ms.assetid: '843f3ada-9694-4d96-b835-41d0ccf24b68'
+ms.assetid: 843f3ada-9694-4d96-b835-41d0ccf24b68
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost Supplicants

@@ -1,7 +1,12 @@
 ---
 title: Generic Packet Classifier
 description: Packet classification provides a means by which packets internal to a specific network node can be classified, and consequently prioritized, within and by both user and kernel-mode network components.
-ms.assetid: '2cc3109d-7637-4713-97a4-6e092f0c2b9f'
+ms.assetid: 2cc3109d-7637-4713-97a4-6e092f0c2b9f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generic Packet Classifier

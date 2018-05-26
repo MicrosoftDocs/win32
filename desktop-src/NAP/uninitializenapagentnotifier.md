@@ -1,8 +1,9 @@
 ---
 title: UninitializeNapAgentNotifier function
 description: Unsubscribes the calling process from NapAgent state change notifications and quarantine state change notifications.
-ms.assetid: 'b676ee33-caf6-48f0-acf8-5be1b23c62fe'
-keywords: ["UninitializeNapAgentNotifier function NAP"]
+ms.assetid: b676ee33-caf6-48f0-acf8-5be1b23c62fe
+keywords:
+- UninitializeNapAgentNotifier function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UninitializeNapAgentNotifier function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **UninitializeNapAgentNotifier** function unsubscribes the calling process from NapAgent state change notifications and quarantine state change notifications. These notifications are provided by the NapAgent service.
 
@@ -27,7 +33,7 @@ The **UninitializeNapAgentNotifier** function unsubscribes the calling process f
 
 ```C++
 NAPAPI VOID WINAPI UninitializeNapAgentNotifier(
-  _In_ NapNotifyType type
+  _In_ NapNotifyType type
 );
 ```
 
@@ -40,7 +46,7 @@ NAPAPI VOID WINAPI UninitializeNapAgentNotifier(
 *type* \[in\]
 </dt> <dd>
 
-A [**NapNotifyType**](napnotifytype.md) value that specifies the type of service notifications to unsubscribe from.
+A [**NapNotifyType**](/windows/win32/NapTypes/ne-naptypes-tagnapnotifytype?branch=master) value that specifies the type of service notifications to unsubscribe from.
 
 </dd> </dl>
 
@@ -62,8 +68,8 @@ This function will fail silently if the process had not previously called [**Ini
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
@@ -76,9 +82,9 @@ This function will fail silently if the process had not previously called [**Ini
 [**InitializeNapAgentNotifier**](initializenapagentnotifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Describes time formats supported for use in the WQL WHERE clause.'
+Description: Describes time formats supported for use in the WQL WHERE clause.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd86bd2e3-f5cb-488f-9cd6-5105d82a1842'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d86bd2e3-f5cb-488f-9cd6-5105d82a1842
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WQL-Supported Time Formats'
+title: WQL-Supported Time Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WQL-Supported Time Formats
@@ -30,7 +33,7 @@ In addition to the WMI DATETIME format, the following date formats are supported
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +42,9 @@ In addition to the WMI DATETIME format, the following date formats are supported
 [WHERE Clause](where-clause.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

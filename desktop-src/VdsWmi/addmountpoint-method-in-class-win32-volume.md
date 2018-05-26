@@ -1,8 +1,11 @@
 ---
 title: AddMountPoint method of the Win32\_Volume class
 description: Adds a mount point directory for the volume.
-ms.assetid: '21a33e2b-5f31-459f-8b08-b991e2edc547'
-keywords: ["AddMountPoint method", "AddMountPoint method, Win32_Volume class", "Win32_Volume class, AddMountPoint method"]
+ms.assetid: 21a33e2b-5f31-459f-8b08-b991e2edc547
+keywords:
+- AddMountPoint method
+- AddMountPoint method, Win32_Volume class
+- Win32_Volume class, AddMountPoint method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddMountPoint method of the Win32\_Volume class
@@ -24,7 +32,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 AddMountPoint(
-  [in] string Directory
+  [in] string Directory
 );
 ```
 
@@ -57,7 +65,7 @@ Directory where the volume is to be mounted.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,7 +74,7 @@ Directory where the volume is to be mounted.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -80,9 +88,9 @@ Directory where the volume is to be mounted.
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

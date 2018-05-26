@@ -1,11 +1,16 @@
-﻿---
-Description: 'Allows the callback object to specify a help text string for menu items or toolbar buttons. Used by IShellFolderViewCB::MessageSFVCB.'
-title: 'SFVM\_GETHELPTEXT message'
+---
+Description: Allows the callback object to specify a help text string for menu items or toolbar buttons. Used by IShellFolderViewCBMessageSFVCB.
+title: SFVM\_GETHELPTEXT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETHELPTEXT message
 
-Allows the callback object to specify a help text string for menu items or toolbar buttons. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to specify a help text string for menu items or toolbar buttons. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

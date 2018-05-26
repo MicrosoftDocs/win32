@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_NOTIFYERROR message
 description: The MCIWNDM\_NOTIFYERROR message notifies the parent window of an application that an MCI error occurred.
-ms.assetid: '0f54886a-77dc-43cc-be46-2d322c75471a'
-keywords: ["MCIWNDM_NOTIFYERROR message Windows Multimedia"]
+ms.assetid: 0f54886a-77dc-43cc-be46-2d322c75471a
+keywords:
+- MCIWNDM_NOTIFYERROR message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_NOTIFYERROR message
@@ -54,15 +60,15 @@ You can enable MCI error notification by specifying the MCIWNDF\_NOTIFYERROR win
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

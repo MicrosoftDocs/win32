@@ -1,7 +1,12 @@
 ---
 title: Load Balancing Best Practices
 description: Load Balancing Best Practices
-ms.assetid: '260cf8dd-13b8-4b46-93a6-5333e794c0d3'
+ms.assetid: 260cf8dd-13b8-4b46-93a6-5333e794c0d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load Balancing Best Practices

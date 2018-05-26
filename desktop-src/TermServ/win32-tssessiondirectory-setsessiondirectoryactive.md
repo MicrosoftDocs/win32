@@ -4,11 +4,14 @@ description: The SetSessionDirectoryActive method sets the SessionDirectoryActiv
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b2175d1a-b62f-4bdf-9122-76e85233fba4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b2175d1a-b62f-4bdf-9122-76e85233fba4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetSessionDirectoryActive method Remote Desktop Services", "SetSessionDirectoryActive method Remote Desktop Services , Win32_TSSessionDirectory class", "Win32_TSSessionDirectory class Remote Desktop Services , SetSessionDirectoryActive method"]
+keywords:
+- SetSessionDirectoryActive method Remote Desktop Services
+- SetSessionDirectoryActive method Remote Desktop Services , Win32_TSSessionDirectory class
+- Win32_TSSessionDirectory class Remote Desktop Services , SetSessionDirectoryActive method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSessionDirectoryActive method of the Win32\_TSSessionDirectory class
@@ -28,7 +34,7 @@ The **SetSessionDirectoryActive** method sets the **SessionDirectoryActive** pro
 
 ```mof
 uint32 SetSessionDirectoryActive(
-  [in] uint32 SessionDirectoryActive
+  [in] uint32 SessionDirectoryActive
 );
 ```
 
@@ -86,7 +92,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -100,9 +106,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSSessionDirectory**](win32-tssessiondirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

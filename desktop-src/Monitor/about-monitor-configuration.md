@@ -1,8 +1,30 @@
 ---
 title: About Monitor Configuration
 description: About Monitor Configuration
-ms.assetid: '66345021-41e8-429a-bbf7-a4aa72a57337'
-keywords: ["monitor,about", "monitor,color calibration", "monitor,adjusting monitor display area", "monitor,saving monitor settings", "monitor,restoring monitor settings", "monitor,vendor features", "color calibration", "adjusting monitor display area", "saving monitor settings", "restoring monitor settings", "vendor features", "monitor configuration,color calibration", "monitor configuration,about", "monitor configuration,adjusting monitor display area", "monitor configuration,saving monitor settings", "monitor configuration,restoring monitor settings", "monitor configuration,vendor features"]
+ms.assetid: 66345021-41e8-429a-bbf7-a4aa72a57337
+keywords:
+- monitor,about
+- monitor,color calibration
+- monitor,adjusting monitor display area
+- monitor,saving monitor settings
+- monitor,restoring monitor settings
+- monitor,vendor features
+- color calibration
+- adjusting monitor display area
+- saving monitor settings
+- restoring monitor settings
+- vendor features
+- monitor configuration,color calibration
+- monitor configuration,about
+- monitor configuration,adjusting monitor display area
+- monitor configuration,saving monitor settings
+- monitor configuration,restoring monitor settings
+- monitor configuration,vendor features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Monitor Configuration

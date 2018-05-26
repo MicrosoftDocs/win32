@@ -1,14 +1,20 @@
 ---
 title: Value element
 description: This element contains a value.
-ms.assetid: 'fa2a998d-b2fd-4884-894a-4b2566134a6e'
-keywords: ["Value element Access Execution Engine"]
+ms.assetid: fa2a998d-b2fd-4884-894a-4b2566134a6e
+keywords:
+- Value element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Value
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Value element
@@ -68,9 +74,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

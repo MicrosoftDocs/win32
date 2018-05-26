@@ -1,7 +1,12 @@
 ---
-Description: 'The base name of the System.ItemNameDisplay property.'
-ms.assetid: '8add2d72-efd3-4971-89d9-428190115ba0'
-title: 'System.ItemName'
+Description: The base name of the System.ItemNameDisplay property.
+ms.assetid: 8add2d72-efd3-4971-89d9-428190115ba0
+title: System.ItemName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemName

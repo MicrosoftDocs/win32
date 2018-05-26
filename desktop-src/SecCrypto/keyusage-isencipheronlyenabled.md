@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the encipherOnly bit is set.'
-ms.assetid: '60d79ea4-4968-49e0-8d16-873fbcbd951c'
-title: 'KeyUsage.IsEncipherOnlyEnabled property'
+---
+Description: Retrieves a Boolean value that indicates whether the encipherOnly bit is set.
+ms.assetid: 60d79ea4-4968-49e0-8d16-873fbcbd951c
+title: KeyUsage.IsEncipherOnlyEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage.IsEncipherOnlyEnabled property

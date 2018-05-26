@@ -2,13 +2,16 @@
 title: Update method of the PS\_DAMgmtServer class
 description: This cmdlet updates the list of Management servers of the DA deployment. Management server here refers to patch servers, Domain Controllers and other servers.
 audience: developer
-ms.assetid: '75432686-6195-4b96-9548-07f171fc5ae1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 75432686-6195-4b96-9548-07f171fc5ae1
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Update method", "Update method, PS_DAMgmtServer class", "PS_DAMgmtServer class, Update method"]
+keywords:
+- Update method
+- Update method, PS_DAMgmtServer class
+- PS_DAMgmtServer class, Update method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Update method of the PS\_DAMgmtServer class
@@ -28,9 +34,9 @@ This cmdlet updates the list of Management servers of the DA deployment. Managem
 
 ```mof
 uint32 Update(
-  [in]  boolean      PassThru,
-  [in]  string       ComputerName,
-  [out] DAMgmtServer cmdletOutput
+  [in]  boolean      PassThru,
+  [in]  string       ComputerName,
+  [out] DAMgmtServer cmdletOutput
 );
 ```
 
@@ -68,7 +74,7 @@ Output contains the following: 1) List of added domain controllers 2) List of re
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Output contains the following: 1) List of added domain controllers 2) List of re
 [**PS\_DAMgmtServer**](ps-damgmtserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

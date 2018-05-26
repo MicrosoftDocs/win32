@@ -1,23 +1,28 @@
 ---
-Description: 'All application dictionaries are implemented by using the WordList object.'
-ms.assetid: '805788ec-1672-462a-b188-c680f56c2641'
-title: 'Understanding Word Lists, Recognizer Context, and Factoids'
+Description: All application dictionaries are implemented by using the WordList object.
+ms.assetid: 805788ec-1672-462a-b188-c680f56c2641
+title: Understanding Word Lists, Recognizer Context, and Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Word Lists, Recognizer Context, and Factoids
 
-All application dictionaries are implemented by using the [**WordList**](inkwordlist-class.md) object. The [**RecognizerContext**](inkrecognizercontext-class.md) object manages recognition, in part through that object's [**WordList**](inkrecognizercontext-wordlist.md) property. The **RecognizerContext** object passes the word list to the recognizer. You may enable an application dictionary in any **RecognizerContext** in your application by setting the **WordList** property of the **RecognizerContext** object. To make the word list available to the entire application, you must set the **WordList** property of every **RecognizerContext** object in the application.
+All application dictionaries are implemented by using the [**WordList**](/windows/win32/msinkaut/?branch=master) object. The [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object manages recognition, in part through that object's [**WordList**](/windows/win32/msinkaut/?branch=master) property. The **RecognizerContext** object passes the word list to the recognizer. You may enable an application dictionary in any **RecognizerContext** in your application by setting the **WordList** property of the **RecognizerContext** object. To make the word list available to the entire application, you must set the **WordList** property of every **RecognizerContext** object in the application.
 
 At the recognizer level, all dictionaries except for the system dictionary are implemented as word lists. However, the recognizer can only have one active word list at a time. This means that you cannot have both an application dictionary and the user dictionary active at the same time. On the other hand, the system dictionary is always available, unless a factoid is set that turns the system dictionary off.
 
-The user dictionary is the list of words that the user has added to his or her Tablet PC. If the [**WordList**](inkrecognizercontext-wordlist.md) property of the [**RecognizerContext**](inkrecognizercontext-class.md) is not set, the **RecognizerContext** passes the user dictionary as a word list to the recognizer. However, if the **WordList** property of the **RecognizerContext** object is set, the word list is passed to the recognizer instead of the user dictionary.
+The user dictionary is the list of words that the user has added to his or her Tablet PC. If the [**WordList**](/windows/win32/msinkaut/?branch=master) property of the [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) is not set, the **RecognizerContext** passes the user dictionary as a word list to the recognizer. However, if the **WordList** property of the **RecognizerContext** object is set, the word list is passed to the recognizer instead of the user dictionary.
 
 > [!Note]  
-> The [**Strokes**](inkrecognizercontext-strokes.md) property of the [**RecognizerContext**](inkrecognizercontext-class.md) object must be empty before you set the [**WordList**](inkrecognizercontext-wordlist.md) property. If the **Strokes** property is not empty, an exception is thrown. Words should never be added to a word list after it has been assigned to a **RecognizerContext** object.
+> The [**Strokes**](/windows/win32/msinkaut/?branch=master) property of the [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object must be empty before you set the [**WordList**](/windows/win32/msinkaut/?branch=master) property. If the **Strokes** property is not empty, an exception is thrown. Words should never be added to a word list after it has been assigned to a **RecognizerContext** object.
 
  
 
-Setting a factoid on the [**RecognizerContext**](inkrecognizercontext-class.md) object also affects how application dictionaries are used by the recognizer. The factoids that affect the behavior of dictionaries are:
+Setting a factoid on the [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object also affects how application dictionaries are used by the recognizer. The factoids that affect the behavior of dictionaries are:
 
 -   **WordList**
 -   **SystemDictionary**

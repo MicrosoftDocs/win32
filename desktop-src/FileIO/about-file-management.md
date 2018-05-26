@@ -1,7 +1,12 @@
 ---
-Description: 'Information about file management.'
-ms.assetid: 'cf4e69b9-86dd-43a4-9011-6209fc65f550'
+Description: Information about file management.
+ms.assetid: cf4e69b9-86dd-43a4-9011-6209fc65f550
 title: About File Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About File Management
@@ -18,7 +23,7 @@ The following topics contain more information about file management.
 | [Files and Clusters](files-and-clusters.md)<br/>                                               | A *file* is a unit of data in the file system that a user can access and manage.<br/>                                                                                                                              |
 | [Creating, Deleting, and Maintaining Files](creating--deleting--and-maintaining-files.md)<br/> | Functions to use to create, delete, and maintain files.<br/>                                                                                                                                                       |
 | [Obtaining and Setting File Information](obtaining-and-setting-file-information.md)<br/>       | Functions to use to get and set file information.<br/>                                                                                                                                                             |
-| [Reading From and Writing to Files](reading-from-and-writing-to-files.md)<br/>                 | An application reads from and writes to a file by using the [**ReadFile**](readfile.md), [**ReadFileEx**](readfileex.md), [**WriteFile**](writefile.md), and [**WriteFileEx**](writefileex.md) functions.<br/> |
+| [Reading From and Writing to Files](reading-from-and-writing-to-files.md)<br/>                 | An application reads from and writes to a file by using the [**ReadFile**](/windows/win32/FileAPI/nf-fileapi-readfile?branch=master), [**ReadFileEx**](/windows/win32/FileAPI/nf-fileapi-readfileex?branch=master), [**WriteFile**](/windows/win32/FileAPI/nf-fileapi-writefile?branch=master), and [**WriteFileEx**](/windows/win32/FileAPI/nf-fileapi-writefileex?branch=master) functions.<br/> |
 | [File and Directory Linking](file-and-directory-linking.md)<br/>                               | There are two types of links supported in the NTFS file system: [hard links and junctions](hard-links-and-junctions.md).<br/>                                                                                     |
 | [Block Cloning](block-cloning.md)<br/>                                                         | A *block clone* operation instructs the file system to copy a range of file bytes on behalf of an application.<br/>                                                                                                |
 | [File Compression and Decompression](file-compression-and-decompression.md)<br/>               | The NTFS file system uses Lempel-Ziv compression, which is a lossless compression algorithm.<br/>                                                                                                                  |
@@ -30,11 +35,11 @@ The following topics contain more information about file management.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

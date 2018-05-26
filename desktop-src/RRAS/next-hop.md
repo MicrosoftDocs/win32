@@ -1,7 +1,12 @@
 ---
 title: Next Hop
 description: A next hop is the next router on the path towards a destination. Packets from a source are forwarded to a destination on a hop-by-hop basis.
-ms.assetid: 'f92540fe-3836-4dfc-974e-769457a5bda5'
+ms.assetid: f92540fe-3836-4dfc-974e-769457a5bda5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Next Hop

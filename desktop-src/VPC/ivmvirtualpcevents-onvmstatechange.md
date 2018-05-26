@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPCEvents OnVMStateChange method
-description: Receives notification that a virtual machine's state has changed.
-ms.assetid: 'a79afe14-9b7d-4528-ad38-e9b5ad068561'
-keywords: ["OnVMStateChange method Virtual PC", "OnVMStateChange method Virtual PC , IVMVirtualPCEvents interface", "IVMVirtualPCEvents interface Virtual PC , OnVMStateChange method"]
+description: Receives notification that a virtual machines state has changed.
+ms.assetid: a79afe14-9b7d-4528-ad38-e9b5ad068561
+keywords:
+- OnVMStateChange method Virtual PC
+- OnVMStateChange method Virtual PC , IVMVirtualPCEvents interface
+- IVMVirtualPCEvents interface Virtual PC , OnVMStateChange method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPCEvents::OnVMStateChange method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Receives notification that a virtual machine's state has changed.
 
@@ -24,8 +32,8 @@ Receives notification that a virtual machine's state has changed.
 
 ```C++
 HRESULT OnVMStateChange(
-  [in] BSTR      virtualMachineConfig,
-  [in] VMVMState virtualMachineState
+  [in] BSTR      virtualMachineConfig,
+  [in] VMVMState virtualMachineState
 );
 ```
 
@@ -63,9 +71,9 @@ The client program must implement this interface method to receive notification 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | DIID\_IVMVirtualPCEvents is defined as efed1ef1-3c09-41f7-a9c2-7e29fa286c9d<br/>        |
@@ -79,9 +87,9 @@ The client program must implement this interface method to receive notification 
 [**IVMVirtualPCEvents**](ivmvirtualpcevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

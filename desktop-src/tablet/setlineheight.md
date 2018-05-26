@@ -1,12 +1,17 @@
-﻿---
-Description: 'Sets the LineHeight property on the InkDivider object.'
-ms.assetid: 'ce5e40c5-faa1-4d66-94f4-d5bd1a11ee4c'
+---
+Description: Sets the LineHeight property on the InkDivider object.
+ms.assetid: ce5e40c5-faa1-4d66-94f4-d5bd1a11ee4c
 title: SetLineHeight function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetLineHeight function
 
-Sets the [**LineHeight**](inkdivider-lineheight.md) property on the [**InkDivider**](inkdivider-class.md) object.
+Sets the [**LineHeight**](/windows/win32/msinkaut15/?branch=master) property on the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 This helper function is not intended to be used by application code.
 
@@ -29,14 +34,14 @@ HRESULT WINAPI SetLineHeight(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](inkdivider-class.md) object.
+A handle to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> <dt>
 
 *lLineHeight* \[in\]
 </dt> <dd>
 
-The [**LineHeight**](inkdivider-lineheight.md) property of the [**InkDivider**](inkdivider-class.md) object, in HIMETRIC units.
+The [**LineHeight**](/windows/win32/msinkaut15/?branch=master) property of the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object, in HIMETRIC units.
 
 </dd> </dl>
 

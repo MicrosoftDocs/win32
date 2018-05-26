@@ -1,12 +1,18 @@
 ---
 title: TextureCube Sample methods
 description: Samples a texture.
-ms.assetid: '8A43006B-E7BB-4D4D-8D46-F611322B0882'
-keywords: ["Sample methods HLSL"]
+ms.assetid: 8A43006B-E7BB-4D4D-8D46-F611322B0882
+keywords:
+- Sample methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::Sample methods
@@ -35,9 +41,9 @@ Samples a texture.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

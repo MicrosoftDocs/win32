@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies how the IInkAnalyzer performs ink analysis.'
-ms.assetid: 'bc526445-0c9c-4c53-8b02-32cf758266e6'
+Description: Specifies how the IInkAnalyzer performs ink analysis.
+ms.assetid: bc526445-0c9c-4c53-8b02-32cf758266e6
 title: AnalysisModes enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalysisModes enumeration
@@ -13,11 +18,11 @@ Specifies how the [**IInkAnalyzer**](iinkanalyzer.md) performs ink analysis.
 
 ```C++
 typedef enum AnalysisModes { 
-  AnalysisModes_None                     = 0x0000,
-  AnalysisModes_AutomaticReconciliation  = 0x0002,
-  AnalysisModes_StrokeCacheAutoCleanup   = 0x0004,
-  AnalysisModes_PersonalizationEnabled   = 0x0008,
-  AnalysisModes_Default                  = 0x000d
+  AnalysisModes_None                     = 0x0000,
+  AnalysisModes_AutomaticReconciliation  = 0x0002,
+  AnalysisModes_StrokeCacheAutoCleanup   = 0x0004,
+  AnalysisModes_PersonalizationEnabled   = 0x0008,
+  AnalysisModes_Default                  = 0x000d
 } AnalysisModes;
 ```
 
@@ -78,7 +83,7 @@ This enumeration allows a bitwise combination of its member values.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 
@@ -106,9 +111,9 @@ This enumeration allows a bitwise combination of its member values.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

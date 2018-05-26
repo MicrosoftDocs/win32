@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the left edge of the source rectangle, in pixels.'
-ms.assetid: 'e7432b80-f3fa-4c2f-89db-87cd130d7447'
-title: 'MFPKEY\_RESIZE\_SRC\_LEFT Property'
+---
+Description: Specifies the left edge of the source rectangle, in pixels.
+ms.assetid: e7432b80-f3fa-4c2f-89db-87cd130d7447
+title: MFPKEY\_RESIZE\_SRC\_LEFT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_SRC\_LEFT Property

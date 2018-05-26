@@ -2,13 +2,16 @@
 title: AddByInputObject method of the PS\_DnsServerRootHint class
 description: Adds a root hint to a DNS server based on the specified DnsServerRootHint object.
 audience: developer
-ms.assetid: '799266d0-adbf-4a88-9369-31c683db2bdd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 799266d0-adbf-4a88-9369-31c683db2bdd
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByInputObject method", "AddByInputObject method, PS_DnsServerRootHint class", "PS_DnsServerRootHint class, AddByInputObject method"]
+keywords:
+- AddByInputObject method
+- AddByInputObject method, PS_DnsServerRootHint class
+- PS_DnsServerRootHint class, AddByInputObject method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByInputObject method of the PS\_DnsServerRootHint class
@@ -28,10 +34,10 @@ Adds a root hint to a DNS server based on the specified [**DnsServerRootHint**](
 
 ```mof
 uint32 AddByInputObject(
-  [in]  string            ComputerName,
-  [in]  DnsServerRootHint InputObject,
-  [in]  boolean           PassThru,
-  [out] DnsServerRootHint cmdletOutput
+  [in]  string            ComputerName,
+  [in]  DnsServerRootHint InputObject,
+  [in]  boolean           PassThru,
+  [out] DnsServerRootHint cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ Receives the [**DnsServerRootHint**](dnsserverroothint.md) object that was added
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Receives the [**DnsServerRootHint**](dnsserverroothint.md) object that was added
 [**PS\_DnsServerRootHint**](ps-dnsserverroothint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Microsoft RPC
 description: Microsoft RPC
-ms.assetid: 'a9ca629a-2766-43d5-89da-73d0628b3c5e'
+ms.assetid: a9ca629a-2766-43d5-89da-73d0628b3c5e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft RPC

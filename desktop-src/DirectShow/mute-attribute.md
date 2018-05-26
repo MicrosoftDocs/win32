@@ -1,7 +1,12 @@
 ---
-Description: 'The mute attribute specifies the object''s mute state.'
-ms.assetid: '9a6dccf5-ae00-4ee0-8df3-bf817fe1a164'
+Description: The mute attribute specifies the objects mute state.
+ms.assetid: 9a6dccf5-ae00-4ee0-8df3-bf817fe1a164
 title: mute Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mute Attribute

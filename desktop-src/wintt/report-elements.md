@@ -1,7 +1,12 @@
 ---
 title: Report Elements
-ms.assetid: '40da92c2-1df3-4136-a615-a8498dd8f1d2'
+ms.assetid: 40da92c2-1df3-4136-a615-a8498dd8f1d2
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Report Elements

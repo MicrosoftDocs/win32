@@ -1,13 +1,16 @@
 ---
-Description: 'Describes how scripts, applications, and providers can establish connections to WMI on remote computers to obtain data or control hardware and software.'
+Description: Describes how scripts, applications, and providers can establish connections to WMI on remote computers to obtain data or control hardware and software.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '16b00ee3-f721-4912-9e8e-2fdbc897a813'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 16b00ee3-f721-4912-9e8e-2fdbc897a813
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Connecting to WMI on a Remote Computer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connecting to WMI on a Remote Computer
@@ -48,7 +51,7 @@ $colSettings = Get-WmiObject Win32_OperatingSystem -ComputerName $strComputer
 <span id="Connecting_to_WMI_Remotely_with_VBScript"></span><span id="connecting_to_wmi_remotely_with_vbscript"></span><span id="CONNECTING_TO_WMI_REMOTELY_WITH_VBSCRIPT"></span>[Connecting to WMI Remotely with VBScript](connecting-to-wmi-remotely-with-vbscript.md)
 </dt> <dd>
 
-Use a moniker that contains the name of the remote system in the call to [**GetObject**](iwbemservices-getobject.md).
+Use a moniker that contains the name of the remote system in the call to [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master).
 
 
 ```VB
@@ -102,7 +105,7 @@ ManagementObjectSearcher searcher = new ManagementObjectSearcher(scope, query);
 <span id="Example__Getting_WMI_Data_from_a_Remote_Computer__C___"></span><span id="example__getting_wmi_data_from_a_remote_computer__c___"></span><span id="EXAMPLE__GETTING_WMI_DATA_FROM_A_REMOTE_COMPUTER__C___"></span>[Example: Getting WMI Data from a Remote Computer (C++)](example--getting-wmi-data-from-a-remote-computer.md)
 </dt> <dd>
 
-Use the [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md) method to specify the name of the remote computer in the *strNetworkResource* parameter.
+Use the [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master) method to specify the name of the remote computer in the *strNetworkResource* parameter.
 
 
 ```CSharp

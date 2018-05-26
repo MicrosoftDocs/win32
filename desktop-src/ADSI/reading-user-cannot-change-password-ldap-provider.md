@@ -4,11 +4,17 @@ description: The ability of a user to change their password is a permission that
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd0d95d20-dcdb-453a-9d15-c386217927c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d0d95d20-dcdb-453a-9d15-c386217927c8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Reading User Cannot Change Password (LDAP Provider) ADSI", "User Cannot Change Password (LDAP Provider) ADSI , reading", "LDAP provider ADSI , user management examples, User Must Change Password at Next Logon, reading"]
+keywords:
+- Reading User Cannot Change Password (LDAP Provider) ADSI
+- User Cannot Change Password (LDAP Provider) ADSI , reading
+- LDAP provider ADSI , user management examples, User Must Change Password at Next Logon, reading
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reading User Cannot Change Password (LDAP Provider)
@@ -18,8 +24,8 @@ The ability of a user to change their password is a permission that can be grant
 **To determine if the change password permission is granted or denied**
 
 1.  Bind to the user object.
-2.  Obtain the [**IADsSecurityDescriptor**](iadssecuritydescriptor.md) object from the **ntSecurityDescriptor** property of the user object.
-3.  Obtain an [**IADsAccessControlList**](iadsaccesscontrollist.md) interface for the security descriptor from the [**IADsSecurityDescriptor.DiscretionaryAcl**](iadssecuritydescriptor-property-methods.md) property.
+2.  Obtain the [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master) object from the **ntSecurityDescriptor** property of the user object.
+3.  Obtain an [**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master) interface for the security descriptor from the [**IADsSecurityDescriptor.DiscretionaryAcl**](iadssecuritydescriptor-property-methods.md) property.
 4.  Enumerate the access control entries (ACE) for the object and search for the ACEs that have the change password GUID ({AB721A53-1E2F-11D0-9819-00AA0040529B}) for the [**IADsAccessControlEntry.ObjectType**](iadsaccesscontrolentry-property-methods.md) property and "Everyone" or "NT AUTHORITY\\SELF" well-known security principals for the **IADsAccessControlEntry.Trustee** property.
     > [!Note]  
     > The "Everyone" and "NT AUTHORITY\\SELF" strings are localized based on the language of the first domain controller in the domain. Therefore, the strings should not be used directly. The account names should be obtained at run time by calling the [**LookupAccountSid**](https://msdn.microsoft.com/library/windows/desktop/aa379166) function with the SID for the "Everyone" ("S-1-1-0") and "NT AUTHORITY\\SELF" ("S-1-5-10") well-known security principals. The following C++ **GetSidAccountName**, **GetSidAccountName\_Everyone**, and **GetSidAccountName\_Self** code examples show how to do this.

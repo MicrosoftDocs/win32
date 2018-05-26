@@ -1,8 +1,14 @@
 ---
 title: Windows Animation Tasks
 description: The topics contained in this section describe the basic tasks required of applications that use Windows Animation Manager.
-ms.assetid: '28103e5e-f00a-4ff5-820b-ece24a7ef21a'
-keywords: ["Windows Animation Windows Animation ,tasks"]
+ms.assetid: 28103e5e-f00a-4ff5-820b-ece24a7ef21a
+keywords:
+- Windows Animation Windows Animation ,tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Animation Tasks
@@ -26,7 +32,7 @@ These tasks, in order, include:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -41,9 +47,9 @@ These tasks, in order, include:
 [Windows Animation Samples](windows-animation-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

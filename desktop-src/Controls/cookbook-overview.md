@@ -1,7 +1,12 @@
 ---
 title: Enabling Visual Styles
-description: This topic explains how to configure your application to ensure that common controls are displayed in the user's preferred visual style.
-ms.assetid: 'eb6c2469-25b9-43c4-a6ca-391a7b2859b3'
+description: This topic explains how to configure your application to ensure that common controls are displayed in the users preferred visual style.
+ms.assetid: eb6c2469-25b9-43c4-a6ca-391a7b2859b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling Visual Styles
@@ -120,7 +125,7 @@ The following are examples of applications that do not use third-party extension
 
 **To create a manifest and enable your application to use visual styles.**
 
-1.  Link to ComCtl32.lib and call [**InitCommonControls**](initcommoncontrols.md).
+1.  Link to ComCtl32.lib and call [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master).
 2.  Add a file called YourApp.exe.manifest to your source tree that has the XML manifest format.
     ```C++
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -167,7 +172,7 @@ When you build your application, the manifest will be added as a binary resource
 
 **To create a manifest and enable your application to use visual styles.**
 
-1.  Link to ComCtl32.lib and call [**InitCommonControls**](initcommoncontrols.md).
+1.  Link to ComCtl32.lib and call [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master).
 2.  Add a file called YourApp.cpl.manifest to your source tree that has the XML manifest format.
     ```C++
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -256,7 +261,7 @@ Support for visual styles can be added to an extension, plug-in, MMC snap-in, or
 
 ## Turning Off Visual Styles
 
-You can turn off visual styles for a control or for all controls in a window by calling the [**SetWindowTheme**](setwindowtheme.md) function as follows:
+You can turn off visual styles for a control or for all controls in a window by calling the [**SetWindowTheme**](/windows/win32/Uxtheme/nf-uxtheme-setwindowtheme?branch=master) function as follows:
 
 
 ```C++
@@ -293,7 +298,7 @@ You must thoroughly test your content using visual styles to determine whether a
 
 To avoid applying visual styles to a top level window, give the window a non-null region (**SetWindowRgn**). The system assumes that a window with a non-NULL region is a specialized window that does not use visual styles. A child window associated with a non-visual-styles top level window may still apply visual styles even though the parent window does not.
 
-If you want to disable the use of visual styles for all windows in your application, call [**SetThemeAppProperties**](setthemeappproperties.md) and do not pass the STAP\_ALLOW\_NONCLIENT flag. If an application does not call **SetThemeAppProperties**, the assumed flag values are STAP\_ALLOW\_NONCLIENT \| STAP\_ALLOW\_CONTROLS \| STAP\_ALLOW\_WEBCONTENT. The assumed values cause the nonclient area, the controls, and web content to have a visual style applied.
+If you want to disable the use of visual styles for all windows in your application, call [**SetThemeAppProperties**](/windows/win32/Uxtheme/nf-uxtheme-setthemeappproperties?branch=master) and do not pass the STAP\_ALLOW\_NONCLIENT flag. If an application does not call **SetThemeAppProperties**, the assumed flag values are STAP\_ALLOW\_NONCLIENT \| STAP\_ALLOW\_CONTROLS \| STAP\_ALLOW\_WEBCONTENT. The assumed values cause the nonclient area, the controls, and web content to have a visual style applied.
 
 ## Making Your Application Compatible with Earlier Versions of Windows
 

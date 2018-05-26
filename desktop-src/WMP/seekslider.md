@@ -1,14 +1,20 @@
 ---
 title: SEEKSLIDER
 description: This is a predefined SLIDER with the following default values.
-ms.assetid: '9fdb0f70-e5ce-4dbc-aeba-44fa0e2c9b3c'
-keywords: ["SEEKSLIDER Windows Media Player"]
+ms.assetid: 9fdb0f70-e5ce-4dbc-aeba-44fa0e2c9b3c
+keywords:
+- SEEKSLIDER Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SEEKSLIDER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SEEKSLIDER
@@ -46,9 +52,9 @@ This creates a **SLIDER** control that seeks the media file to any position. The
 [**SLIDER Element**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a 4D vector.'
-ms.assetid: 'befed2a8-7695-4f06-a6ee-aff466d1940a'
-title: 'ID3DXTextureShader::SetVector method'
+---
+Description: Sets a 4D vector.
+ms.assetid: befed2a8-7695-4f06-a6ee-aff466d1940a
+title: ID3DXTextureShaderSetVector method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetVector method

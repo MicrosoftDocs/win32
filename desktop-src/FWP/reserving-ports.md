@@ -1,7 +1,12 @@
 ---
 title: Reserving Ports
 description: Following sample code demonstrates how to use the resource assignment layers to reserve a range of ports for administrators.
-ms.assetid: '415aa0c9-40d6-4dc9-9ce9-352f52ef7a76'
+ms.assetid: 415aa0c9-40d6-4dc9-9ce9-352f52ef7a76
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reserving Ports

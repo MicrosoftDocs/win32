@@ -4,13 +4,15 @@ description: Represents an association between a job and the CIM\_ManagedElement
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a07408ba-58c7-4252-b020-363ea1ce3e52'
-ms.prod: 'windows-server-dev'
+ms.assetid: a07408ba-58c7-4252-b020-363ea1ce3e52
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AffectedJobElement class", "CIM_AffectedJobElement class, described"]
+keywords:
+- CIM_AffectedJobElement class
+- CIM_AffectedJobElement class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AffectedJobElement class
@@ -38,9 +43,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Job            REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Job            REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -173,7 +178,7 @@ Additional details for corresponding "1" (Other) values in the **ElementEffects*
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -187,9 +192,9 @@ Additional details for corresponding "1" (Other) values in the **ElementEffects*
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

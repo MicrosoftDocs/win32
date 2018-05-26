@@ -1,8 +1,11 @@
 ---
 title: IMessengerContact Status property
 description: Retrieves the connection status of the contact associated with the MessengerContact object.
-ms.assetid: '50bec125-a4ba-4f06-a413-a6c25b70733f'
-keywords: ["Status property Windows Messenger", "Status property Windows Messenger , IMessengerContact interface", "IMessengerContact interface Windows Messenger , Status property"]
+ms.assetid: 50bec125-a4ba-4f06-a413-a6c25b70733f
+keywords:
+- Status property Windows Messenger
+- Status property Windows Messenger , IMessengerContact interface
+- IMessengerContact interface Windows Messenger , Status property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact::Status property
 
-\[**Status** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Status** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the connection status of the contact associated with the [**MessengerContact**](im-messengercontact.md) object.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Status(
-  [out, retval] MISTATUS *pMstate
+  [out, retval] MISTATUS *pMstate
 );
 ```
 
@@ -53,7 +61,7 @@ Pointer to the [**MISTATUS**](im-mistatus.md) of the user. Can be one of the fol
 
 
 
- 
+ 
 
 ## Error codes
 
@@ -85,7 +93,7 @@ All online [**MISTATUS**](im-mistatus.md) results are grouped by a common factor
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -119,17 +127,17 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

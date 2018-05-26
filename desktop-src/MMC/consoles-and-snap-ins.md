@@ -4,10 +4,13 @@ description: Helps to decide on a design that suits the snap-in functionality.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba344cf2-d691-4179-9ccb-109ca185f252'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ba344cf2-d691-4179-9ccb-109ca185f252
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Consoles and Snap-ins

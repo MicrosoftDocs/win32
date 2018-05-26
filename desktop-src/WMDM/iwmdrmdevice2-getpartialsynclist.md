@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice2 GetPartialSyncList method
 description: The GetPartialSyncList method gets a partial synchronization list.
-ms.assetid: '4ee8e9d7-d5d1-4614-b7a1-1dcb7f07b161'
-keywords: ["GetPartialSyncList method windows Media Device Manager", "GetPartialSyncList method windows Media Device Manager , IWMDRMDevice2 interface", "IWMDRMDevice2 interface windows Media Device Manager , GetPartialSyncList method"]
+ms.assetid: 4ee8e9d7-d5d1-4614-b7a1-1dcb7f07b161
+keywords:
+- GetPartialSyncList method windows Media Device Manager
+- GetPartialSyncList method windows Media Device Manager , IWMDRMDevice2 interface
+- IWMDRMDevice2 interface windows Media Device Manager , GetPartialSyncList method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice2::GetPartialSyncList method
@@ -23,14 +31,14 @@ The **GetPartialSyncList** method gets a partial synchronization list.
 
 ```C++
 HRESULT GetPartialSyncList(
-  [in]  DWORD cMinCountThreshold,
-  [in]  DWORD cMinHoursThreshold,
-  [in]  DWORD dwStartingIndex,
-  [in]  DWORD cItems,
-  [out] BYTE  **ppbSyncList,
-  [out] DWORD *pcbSyncList,
-  [out] DWORD *pdwNextStartingIndex,
-  [out] DWORD *pcItemsProcessed
+  [in]  DWORD cMinCountThreshold,
+  [in]  DWORD cMinHoursThreshold,
+  [in]  DWORD dwStartingIndex,
+  [in]  DWORD cItems,
+  [out] BYTE  **ppbSyncList,
+  [out] DWORD *pcbSyncList,
+  [out] DWORD *pdwNextStartingIndex,
+  [out] DWORD *pcItemsProcessed
 );
 ```
 
@@ -127,9 +135,9 @@ For an extensive list of possible error codes, see [Error Codes](error-codes.md)
 [**IWMDRMDevice2 Interface**](iwmdrmdevice2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

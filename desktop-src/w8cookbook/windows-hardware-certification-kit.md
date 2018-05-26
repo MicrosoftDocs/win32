@@ -1,7 +1,12 @@
 ---
 title: Windows Hardware Certification Kit
 description: Windows Hardware Certification Kit
-ms.assetid: '99BD2D7D-8F9D-445E-AE04-6A58FFF3DCE6'
+ms.assetid: 99BD2D7D-8F9D-445E-AE04-6A58FFF3DCE6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Hardware Certification Kit

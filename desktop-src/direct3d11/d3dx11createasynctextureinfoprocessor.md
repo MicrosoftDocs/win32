@@ -1,8 +1,9 @@
 ---
 title: D3DX11CreateAsyncTextureInfoProcessor function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create a data processor to be used with a thread pump.
-ms.assetid: '87de73a5-21f7-4abd-b83a-65c6761681c3'
-keywords: ["D3DX11CreateAsyncTextureInfoProcessor function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks. Create a data processor to be used with a thread pump.
+ms.assetid: 87de73a5-21f7-4abd-b83a-65c6761681c3
+keywords:
+- D3DX11CreateAsyncTextureInfoProcessor function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,14 +13,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11CreateAsyncTextureInfoProcessor function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 
- 
+ 
 
 Create a data processor to be used with a [**thread pump**](id3dx11threadpump.md).
 
@@ -28,8 +34,8 @@ Create a data processor to be used with a [**thread pump**](id3dx11threadpump.md
 
 ```C++
 HRESULT D3DX11CreateAsyncTextureInfoProcessor(
-  _In_  D3DX11_IMAGE_INFO    *pImageInfo,
-  _Out_ ID3DX11DataProcessor **ppDataProcessor
+  _In_  D3DX11_IMAGE_INFO    *pImageInfo,
+  _Out_ ID3DX11DataProcessor **ppDataProcessor
 );
 ```
 
@@ -67,7 +73,7 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 
 This API does creates a data-processor interface; [**D3DX11CreateAsyncTextureProcessor**](d3dx11createasynctextureprocessor.md) creates the data-processor interface and loads the texture.
 
-There’s no implementation of the ‘async loader’ outside of D3DX 10, and D3DX 11.
+There s no implementation of the  async loader  outside of D3DX 10, and D3DX 11.
 
 For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](http://go.microsoft.com/fwlink/p/?linkid=255263)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](64259b9b-f427-4ffd-a611-e7a2f82362b2)).
 
@@ -91,9 +97,9 @@ For Win32 desktop apps, you can use the [Concurrency Runtime](56237d96-10b0-494a
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Provides access to the resource types in a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '614d3ed6-255f-46ed-9354-7a73a21cac87'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 614d3ed6-255f-46ed-9354-7a73a21cac87
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusResTypes collection Failover Cluster", "ClusResTypes collection Failover Cluster , described"]
+keywords:
+- ClusResTypes collection Failover Cluster
+- ClusResTypes collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusResTypes collection
@@ -47,7 +52,7 @@ The **ClusResTypes** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +67,7 @@ The **ClusResTypes** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,7 +83,7 @@ A **ClusResTypes** collection:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -94,9 +99,9 @@ A **ClusResTypes** collection:
 [Cluster Management Objects](cluster-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.lineCount
 description: The lineCount attribute retrieves the number of lines in the edit box control.
-ms.assetid: '8922aa4a-2b39-431d-b876-82fd368df17a'
-keywords: ["EDITBOX.lineCount Windows Media Player"]
+ms.assetid: 8922aa4a-2b39-431d-b876-82fd368df17a
+keywords:
+- EDITBOX.lineCount Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.lineCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.lineCount
@@ -47,9 +53,9 @@ This attribute is useful only when **editStyle** is set to "multiline".
 [**EDITBOX.editStyle**](editbox-editstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

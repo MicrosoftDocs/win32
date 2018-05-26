@@ -1,8 +1,9 @@
 ---
 title: CB\_GETLBTEXTLEN message
 description: Gets the length, in characters, of a string in the list of a combo box.
-ms.assetid: 'f0fe0eef-f9db-4d9f-9a42-5bb2aeae30a0'
-keywords: ["CB_GETLBTEXTLEN message Windows Controls"]
+ms.assetid: f0fe0eef-f9db-4d9f-9a42-5bb2aeae30a0
+keywords:
+- CB_GETLBTEXTLEN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETLBTEXTLEN message
@@ -53,8 +59,8 @@ To obtain the exact length of the text, use the [**WM\_GETTEXT**](https://msdn.m
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -81,9 +87,9 @@ To obtain the exact length of the text, use the [**WM\_GETTEXT**](https://msdn.m
 [**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

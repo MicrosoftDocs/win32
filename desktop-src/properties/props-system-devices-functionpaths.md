@@ -1,7 +1,12 @@
 ---
-Description: 'Available functions for this device.'
-ms.assetid: 'a944e89c-595e-4e7d-8590-4bc6763eee85'
-title: 'System.Devices.FunctionPaths'
+Description: Available functions for this device.
+ms.assetid: a944e89c-595e-4e7d-8590-4bc6763eee85
+title: System.Devices.FunctionPaths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.FunctionPaths

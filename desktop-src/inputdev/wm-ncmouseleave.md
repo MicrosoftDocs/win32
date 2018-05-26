@@ -1,8 +1,9 @@
 ---
 title: WM\_NCMOUSELEAVE message
 description: Posted to a window when the cursor leaves the nonclient area of the window specified in a prior call to TrackMouseEvent.
-ms.assetid: 'b3ada6db-93ce-45d7-b408-d08692328aeb'
-keywords: ["WM_NCMOUSELEAVE message Keyboard and Mouse Input"]
+ms.assetid: b3ada6db-93ce-45d7-b408-d08692328aeb
+keywords:
+- WM_NCMOUSELEAVE message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCMOUSELEAVE message
@@ -58,8 +64,8 @@ All tracking requested by [**TrackMouseEvent**](trackmouseevent.md) is canceled 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -89,9 +95,9 @@ All tracking requested by [**TrackMouseEvent**](trackmouseevent.md) is canceled 
 [Mouse Input](mouse-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

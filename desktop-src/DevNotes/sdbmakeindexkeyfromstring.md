@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a key from a string.'
-ms.assetid: '107138b9-96f0-4144-a4bc-7115b6deab60'
+---
+Description: Creates a key from a string.
+ms.assetid: 107138b9-96f0-4144-a4bc-7115b6deab60
 title: SdbMakeIndexKeyFromString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbMakeIndexKeyFromString function

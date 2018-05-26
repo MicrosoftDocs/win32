@@ -4,11 +4,15 @@ description: Common properties are attributes possessed by every instance of a c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e92fa849-296f-4803-af16-4efc6f2b2da9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e92fa849-296f-4803-af16-4efc6f2b2da9
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["properties Failover Cluster ,common,grouped by object"]
+keywords:
+- properties Failover Cluster ,common,grouped by object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Object Common Properties

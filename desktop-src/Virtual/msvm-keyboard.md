@@ -1,8 +1,10 @@
 ---
 title: Msvm\_Keyboard class
 description: Represents a keyboard device.
-ms.assetid: 'eb1cac54-536b-4de1-9307-255634758b90'
-keywords: ["Msvm_Keyboard class Hyper-V", "Msvm_Keyboard class Hyper-V , described"]
+ms.assetid: eb1cac54-536b-4de1-9307-255634758b90
+keywords:
+- Msvm_Keyboard class Hyper-V
+- Msvm_Keyboard class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -55,6 +57,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Keyboard class
@@ -69,42 +76,42 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Keyboard : CIM_UserDevice
 {
-  string   Caption = "Keyboard";
-  string   Description = "Microsoft Virtual Keyboard";
+  string   Caption = "Keyboard";
+  string   Description = "Microsoft Virtual Keyboard";
   datetime InstallDate;
-  string   Name = "Keyboard";
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  uint16   RequestedState = 12;
+  string   Name = "Keyboard";
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  uint16   RequestedState = 12;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName = "GUID";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
-  boolean  IsLocked = False;
-  string   ElementName = "Keyboard";
-  string   OtherEnabledState;
-  uint16   EnabledDefault = 2;
-  string   CreationClassName = "Msvm_Keyboard";
-  string   DeviceID = "Microsoft:GUID";
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  string   Layout = "00000409";
-  uint16   NumberOfFunctionKeys = 12;
-  uint16   Password = 5;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName = "GUID";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
+  boolean  IsLocked = False;
+  string   ElementName = "Keyboard";
+  string   OtherEnabledState;
+  uint16   EnabledDefault = 2;
+  string   CreationClassName = "Msvm_Keyboard";
+  string   DeviceID = "Microsoft:GUID";
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  string   Layout = "00000409";
+  uint16   NumberOfFunctionKeys = 12;
+  uint16   Password = 5;
 };
 ```
 
@@ -136,12 +143,12 @@ The **Msvm\_Keyboard** class has these methods.
 | **SetPowerState**                                      | This method is not supported.<br/>                                                                                                                                                                          |
 | [**TypeCtrlAltDel**](typectrlaltdel-msvm-keyboard.md) | Sends the CTRL+ALT+DEL key sequence.<br/>                                                                                                                                                                   |
 | [**TypeKey**](typekey-msvm-keyboard.md)               | Types the specified key. This is equivalent to calling [**PressKey**](presskey-msvm-keyboard.md) followed by [**ReleaseKey**](releasekey-msvm-keyboard.md).<br/>                                          |
-| [**TypeScancodes**](msvm-keyboard-typescancodes.md)   | Simulates a key sequence using scan codes.<br/> **Windows Server 2008:** The [**TypeScancodes**](msvm-keyboard-typescancodes.md) method is not supported until Windows Server 2008 R2.<br/>          |
+| [**TypeScancodes**](msvm-keyboard-typescancodes.md)   | Simulates a key sequence using scan codes.<br/> **Windows Server 2008:** The [**TypeScancodes**](msvm-keyboard-typescancodes.md) method is not supported until Windows Server 2008 R2.<br/>          |
 | [**TypeText**](typetext-msvm-keyboard.md)             | Types the specified text string. This is equivalent to calling [**PressKey**](presskey-msvm-keyboard.md) followed by [**ReleaseKey**](releasekey-msvm-keyboard.md) for each character in the string.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -761,9 +768,9 @@ Access to the **Msvm\_Keyboard** class might be restricted by UAC Filtering. For
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -782,9 +789,9 @@ Access to the **Msvm\_Keyboard** class might be restricted by UAC Filtering. For
 [Input Classes](input-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

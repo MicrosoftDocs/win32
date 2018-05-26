@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameSrcAddressOffset function returns the offset of the frame's source address.'
-ms.assetid: '1c5408d7-cf66-4887-93ee-134c0b8c5eff'
+Description: The GetFrameSrcAddressOffset function returns the offset of the frames source address.
+ms.assetid: 1c5408d7-cf66-4887-93ee-134c0b8c5eff
 title: GetFrameSrcAddressOffset function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameSrcAddressOffset function
@@ -13,9 +18,9 @@ The **GetFrameSrcAddressOffset** function returns the offset of the frame's sour
 
 ```C++
 DWORD WINAPI GetFrameSrcAddressOffset(
-   HFRAME  hFrame,
-   DWORD   AddressType,
-   LPDWORD AddressLength
+   HFRAME  hFrame,
+   DWORD   AddressType,
+   LPDWORD AddressLength
 );
 ```
 
@@ -67,17 +72,17 @@ If the function is unsuccessful, the return value is minus one (-1).
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
 title: Storage and Stream Objects for a Property Set
 description: The programmer specifies whether a property set is stored in a storage or a stream when the property set is created.
-ms.assetid: 'd0ca649a-d405-4c34-af02-9c2ca8b2790e'
+ms.assetid: d0ca649a-d405-4c34-af02-9c2ca8b2790e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage and Stream Objects for a Property Set
 
-The programmer specifies whether a property set is stored in a storage or a stream when the property set is created. The PROPSETFLAG\_NONSIMPLE enumeration value, passed in the *grfFlags* parameter to the [**IPropertySetStorage::Create**](ipropertysetstorage-create.md) method, indicates this. Setting where the property set is stored provides proper application controls to fully interoperate through the [**IPropertySetStorage**](ipropertysetstorage.md) interface with the COM property set.
+The programmer specifies whether a property set is stored in a storage or a stream when the property set is created. The PROPSETFLAG\_NONSIMPLE enumeration value, passed in the *grfFlags* parameter to the [**IPropertySetStorage::Create**](/windows/win32/Propidl/nf-propidl-ipropertysetstorage-create?branch=master) method, indicates this. Setting where the property set is stored provides proper application controls to fully interoperate through the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface with the COM property set.
 
-If the PROPSETFLAG\_NONSIMPLE flag is set, the property set is stored in a storage object, and nonsimple property values can be written to it. Nonsimple values include values with a **VARTYPE** of VT\_STORAGE, VT\_STREAM, VT\_STORED\_OBJECT, or VT\_STREAMED\_OBJECT. For more information about **VARTYPE** values and how to use them, see the [**PROPVARIANT**](propvariant.md) structure.
+If the PROPSETFLAG\_NONSIMPLE flag is set, the property set is stored in a storage object, and nonsimple property values can be written to it. Nonsimple values include values with a **VARTYPE** of VT\_STORAGE, VT\_STREAM, VT\_STORED\_OBJECT, or VT\_STREAMED\_OBJECT. For more information about **VARTYPE** values and how to use them, see the [**PROPVARIANT**](/windows/win32/propidlbase/ns-propidl-tagpropvariant?branch=master) structure.
 
 If the PROPSETFLAG\_NONSIMPLE flag is not set, only simple values can be written to the property set.
 

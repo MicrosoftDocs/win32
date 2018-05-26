@@ -1,7 +1,12 @@
-﻿---
-Description: 'Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.'
-ms.assetid: 'cc716524-f976-4d75-84f3-693e277030e6'
-title: 'ProtectKeyWithCertificateFile method of the Win32\_EncryptableVolume class'
+---
+Description: Validates the Enhanced Key Usage (EKU) object identifier (OID) of the provided certificate.
+ms.assetid: cc716524-f976-4d75-84f3-693e277030e6
+title: ProtectKeyWithCertificateFile method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProtectKeyWithCertificateFile method of the Win32\_EncryptableVolume class

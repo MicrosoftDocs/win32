@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the IXMLDOMNode object associated with this item.'
-ms.assetid: '5E7F2292-1F71-4581-8E34-86F1464EC08F'
-title: 'IPrintSchemaElement::XmlNode property'
+---
+Description: Gets the IXMLDOMNode object associated with this item.
+ms.assetid: 5E7F2292-1F71-4581-8E34-86F1464EC08F
+title: IPrintSchemaElementXmlNode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaElement::XmlNode property

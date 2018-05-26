@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '778cc069-fc2d-4ace-b3bd-6d3f97486079'
-title: 'System.SoftwareUsed'
+Description: .
+ms.assetid: 778cc069-fc2d-4ace-b3bd-6d3f97486079
+title: System.SoftwareUsed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.SoftwareUsed

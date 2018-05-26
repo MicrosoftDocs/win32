@@ -1,13 +1,16 @@
 ---
-Description: 'The AuthenticationLevel property is an integer that defines the COM Authentication level that is assigned to this object.'
+Description: The AuthenticationLevel property is an integer that defines the COM Authentication level that is assigned to this object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '96c2e6a5-a91f-469d-bdd1-eaa20b176158'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 96c2e6a5-a91f-469d-bdd1-eaa20b176158
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemSecurity.AuthenticationLevel property'
+title: SWbemSecurity.AuthenticationLevel property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemSecurity.AuthenticationLevel property
@@ -47,7 +50,7 @@ The authenticationLevel setting enables you to request the level of DCOM authent
 
 
 
- 
+ 
 
 You can set the authentication level of the [**SWbemServices**](swbemservices.md), [**SWbemObject**](swbemobject.md), [**SWbemObjectSet**](swbemobjectset.md), [**SWbemObjectPath**](swbemobjectpath.md), and [**SwbemLocator**](swbemlocator.md) objects by setting the **AuthenticationLevel** property to the desired value.
 
@@ -75,8 +78,8 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,authentication
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID\_SWbemSecurity<br/>                                                         |
@@ -91,15 +94,15 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,authentication
 [Setting Client\_Application\_Process Security](setting-client-application-process-security.md)
 </dt> <dt>
 
-[**WbemAuthenticationLevelEnum**](wbemauthenticationlevelenum.md)
+[**WbemAuthenticationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master)
 </dt> <dt>
 
 [**SWbemSecurity**](swbemsecurity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

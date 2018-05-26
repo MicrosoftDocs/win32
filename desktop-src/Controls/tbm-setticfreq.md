@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETTICFREQ message
 description: Sets the interval frequency for tick marks in a trackbar.
-ms.assetid: 'c391260c-d6c2-4b6a-84e8-7fe5d734035b'
-keywords: ["TBM_SETTICFREQ message Windows Controls"]
+ms.assetid: c391260c-d6c2-4b6a-84e8-7fe5d734035b
+keywords:
+- TBM_SETTICFREQ message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETTICFREQ message
@@ -45,15 +51,15 @@ The trackbar must have the [**TBS\_AUTOTICKS**](trackbar-control-styles.md#tbs-a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

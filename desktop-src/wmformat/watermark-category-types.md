@@ -1,8 +1,22 @@
 ---
 title: Watermark Category Types
 description: Watermark Category Types
-ms.assetid: '5e03963d-6635-48c9-a6fd-cc890c3e7dac'
-keywords: ["Windows Media Format SDK,watermark categories", "Advanced Systems Format (ASF),watermark categories", "ASF (Advanced Systems Format),watermark categories", "Windows Media Format SDK,DMO", "Advanced Systems Format (ASF),DMO", "ASF (Advanced Systems Format),DMO", "watermarking,category types", "DirectX Media Object (DMO),watermark category types", "DMO (DirectX Media Object),watermark category types"]
+ms.assetid: 5e03963d-6635-48c9-a6fd-cc890c3e7dac
+keywords:
+- Windows Media Format SDK,watermark categories
+- Advanced Systems Format (ASF),watermark categories
+- ASF (Advanced Systems Format),watermark categories
+- Windows Media Format SDK,DMO
+- Advanced Systems Format (ASF),DMO
+- ASF (Advanced Systems Format),DMO
+- watermarking,category types
+- DirectX Media Object (DMO),watermark category types
+- DMO (DirectX Media Object),watermark category types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Watermark Category Types

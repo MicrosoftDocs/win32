@@ -1,8 +1,10 @@
 ---
 title: ISCSI\_SessionStaticInfo structure
 description: The ISCSI\_SessionStaticInfo structure provides information about the characteristics of an iSCSI session.
-ms.assetid: 'c652268f-4a31-4ec1-a668-8700cb7f4e1b'
-keywords: ["ISCSI_SessionStaticInfo structure Storage Devices", "PISCSI_SessionStaticInfo structure pointer Storage Devices"]
+ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
+keywords:
+- ISCSI_SessionStaticInfo structure Storage Devices
+- PISCSI_SessionStaticInfo structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - iscsimgt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCSI\_SessionStaticInfo structure
@@ -22,22 +29,22 @@ The ISCSI\_SessionStaticInfo structure provides information about the characteri
 
 ```C++
 typedef struct _ISCSI_SessionStaticInfo {
-  ULONGLONG                  UniqueSessionId;
-  WCHAR                      InitiatoriSCSIName[223 + 1];
-  WCHAR                      TargetiSCSIName[223 + 1];
-  USHORT                     TSID;
-  UCHAR                      ISID[6];
-  BOOLEAN                    InitialR2t;
-  BOOLEAN                    ImmediateData;
-  UCHAR                      Type;
-  BOOLEAN                    DataSequenceInOrder;
-  BOOLEAN                    DataPduInOrder;
-  UCHAR                      ErrorRecoveryLevel;
-  ULONG                      MaxOutstandingR2t;
-  ULONG                      FirstBurstLength;
-  ULONG                      MaxBurstLength;
-  ULONG                      MaxConnections;
-  USHORT                     ConnectionCount;
+  ULONGLONG                  UniqueSessionId;
+  WCHAR                      InitiatoriSCSIName[223 + 1];
+  WCHAR                      TargetiSCSIName[223 + 1];
+  USHORT                     TSID;
+  UCHAR                      ISID[6];
+  BOOLEAN                    InitialR2t;
+  BOOLEAN                    ImmediateData;
+  UCHAR                      Type;
+  BOOLEAN                    DataSequenceInOrder;
+  BOOLEAN                    DataPduInOrder;
+  UCHAR                      ErrorRecoveryLevel;
+  ULONG                      MaxOutstandingR2t;
+  ULONG                      FirstBurstLength;
+  ULONG                      MaxBurstLength;
+  ULONG                      MaxConnections;
+  USHORT                     ConnectionCount;
   ISCSI_ConnectionStaticInfo ConnectionsList[1];
 } ISCSI_SessionStaticInfo, *PISCSI_SessionStaticInfo;
 ```
@@ -113,7 +120,7 @@ An [ISCSI\_SESSION\_TYPE\_QUALIFIERS](https://msdn.microsoft.com/library/windows
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -208,9 +215,9 @@ A variable length array of [**ISCSI\_ConnectionStaticInfo**](iscsi-connectionsta
 [LoginToTarget](https://msdn.microsoft.com/library/windows/hardware/ff561599)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20ISCSI_SessionStaticInfo%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

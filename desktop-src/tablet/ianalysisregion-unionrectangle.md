@@ -1,7 +1,12 @@
 ---
-Description: 'Expands the area of this IAnalysisRegion to the area created by its union with the specified rectangle.'
-ms.assetid: '9b12f509-4f6a-43b0-9639-bef060fd6d50'
-title: 'IAnalysisRegion::UnionRectangle method'
+Description: Expands the area of this IAnalysisRegion to the area created by its union with the specified rectangle.
+ms.assetid: 9b12f509-4f6a-43b0-9639-bef060fd6d50
+title: IAnalysisRegionUnionRectangle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::UnionRectangle method
@@ -13,7 +18,7 @@ Expands the area of this [**IAnalysisRegion**](ianalysisregion.md) to the area c
 
 ```C++
 HRESULT UnionRectangle(
-  [in] RECT *pRectangle
+  [in] RECT *pRectangle
 );
 ```
 
@@ -46,7 +51,7 @@ If either area is infinite, the new area is also infinite.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -78,9 +83,9 @@ If either area is infinite, the new area is also infinite.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

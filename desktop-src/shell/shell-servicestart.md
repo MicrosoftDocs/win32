@@ -1,7 +1,12 @@
-﻿---
-Description: 'Starts a named service.'
-ms.assetid: '72214E80-38A2-4a57-B555-942902BAFC3D'
-title: 'Shell.ServiceStart method'
+---
+Description: Starts a named service.
+ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
+title: Shell.ServiceStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.ServiceStart method

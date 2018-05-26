@@ -1,7 +1,7 @@
 ---
 title: CICAT\_\ Constants
 description: Set and retrieve the state of an Indexing Service catalog. When setting the state, these values represent mutually exclusive states of the catalog and are not meant to be combined.
-ms.assetid: '0316d876-4d0d-4b1e-a944-e5621b625922'
+ms.assetid: 0316d876-4d0d-4b1e-a944-e5621b625922
 topic_type:
 - apiref
 api_name:
@@ -14,11 +14,16 @@ api_location:
 - Ntquery.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CICAT\_\* Constants
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Set and retrieve the state of an Indexing Service catalog. When setting the state, these values represent mutually exclusive states of the catalog and are not meant to be combined.
 
@@ -49,7 +54,7 @@ The following table describes the various states possible for an Indexing Servic
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,10 +62,10 @@ The following table describes the various states possible for an Indexing Servic
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Ntquery.h</dt> </dl> |
 
 
@@ -69,12 +74,12 @@ The following table describes the various states possible for an Indexing Servic
 
 <dl> <dt>
 
-[**SetCatalogState**](setcatalogstate.md)
+[**SetCatalogState**](/windows/win32/Ntquery/nf-ntquery-setcatalogstate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

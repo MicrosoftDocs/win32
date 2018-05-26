@@ -1,7 +1,12 @@
 ---
 title: Programming for Indexing Service
 description: Programming for Indexing Service involves a flexible and diverse combination of languages, APIs, and tools for performing Indexing Service tasks.
-ms.assetid: 'f34633e2-b875-4e37-8ddd-4ae165367e65'
+ms.assetid: f34633e2-b875-4e37-8ddd-4ae165367e65
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming for Indexing Service

@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_Owner method retrieves the current window owner.'
-ms.assetid: 'f0eea5e7-4dfa-4973-ae12-487657e6be80'
-title: 'CBaseControlWindow.get\_Owner method'
+Description: The get\_Owner method retrieves the current window owner.
+ms.assetid: f0eea5e7-4dfa-4973-ae12-487657e6be80
+title: CBaseControlWindow.get\_Owner method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_Owner method
@@ -13,7 +18,7 @@ The `get_Owner` method retrieves the current window owner.
 
 ```C++
 HRESULT get_Owner(
-   OAHWND *Owner
+   OAHWND *Owner
 );
 ```
 
@@ -40,7 +45,7 @@ The video window can play back within a document environment. To do this, the wi
 
 When the window is owned by another window, it will automatically forward certain sets of messages (in particular, mouse and keyboard messages). This allows an application to do simple hot-spot editing and other interactions.
 
-This member function is meant to be called by external objects through the [**IVideoWindow**](ivideowindow.md) interface, and therefore locks the critical section to synchronize with the associated filter. Call the [**CBaseControlWindow::GetOwnerWindow**](cbasecontrolwindow-getownerwindow.md) member function to retrieve this property if not calling from an external object.
+This member function is meant to be called by external objects through the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interface, and therefore locks the critical section to synchronize with the associated filter. Call the [**CBaseControlWindow::GetOwnerWindow**](cbasecontrolwindow-getownerwindow.md) member function to retrieve this property if not calling from an external object.
 
 ## Requirements
 
@@ -60,9 +65,9 @@ This member function is meant to be called by external objects through the [**IV
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

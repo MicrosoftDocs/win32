@@ -1,14 +1,18 @@
 ---
-title: Checking a Control Access Right in an Object's ACL
-description: To check a control access right on an object's ACL, use the AccessCheckByTypeResultList function.
+title: Checking a Control Access Right in an Objects ACL
+description: To check a control access right on an objects ACL, use the AccessCheckByTypeResultList function.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5a609622-6a1a-46ae-a336-afec504225c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5a609622-6a1a-46ae-a336-afec504225c7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Checking a Control Access Right in an Object ACL AD"]
+keywords:
+- Checking a Control Access Right in an Object ACL AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Checking a Control Access Right in an Object's ACL

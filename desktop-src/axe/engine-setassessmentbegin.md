@@ -1,8 +1,11 @@
 ---
 title: Engine SetAssessmentBegin method
 description: Specifies the native interface for the Engine to invoke to notify the solution of an assessment begin event.
-ms.assetid: '90D7E0FD-52DA-4324-9B83-28A807F0CA1C'
-keywords: ["SetAssessmentBegin method Access Execution Engine", "SetAssessmentBegin method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , SetAssessmentBegin method"]
+ms.assetid: 90D7E0FD-52DA-4324-9B83-28A807F0CA1C
+keywords:
+- SetAssessmentBegin method Access Execution Engine
+- SetAssessmentBegin method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , SetAssessmentBegin method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::SetAssessmentBegin method
@@ -22,7 +30,7 @@ Specifies the native interface for the [**Engine**](engine-if.md) to invoke to n
 
 ```C++
 virtual HRESULT SetAssessmentBegin(
-  [in, optional] IAssessmentBeginEventHandler *assessmentBegin
+  [in, optional] IAssessmentBeginEventHandler *assessmentBegin
 ) = 0;
 ```
 
@@ -57,8 +65,8 @@ Managed code uses the [**Engine.AssessmentBegin \| assessmentbegin**](axe-engine
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -77,9 +85,9 @@ Managed code uses the [**Engine.AssessmentBegin \| assessmentbegin**](axe-engine
 [**OnAssessmentBegin**](ievents-onassessmentbegin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

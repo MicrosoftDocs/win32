@@ -1,7 +1,12 @@
-﻿---
-Description: 'Checks texture-creation parameters.'
-ms.assetid: 'f8e788f3-02a9-4ee7-b74d-9e781a2fb39f'
+---
+Description: Checks texture-creation parameters.
+ms.assetid: f8e788f3-02a9-4ee7-b74d-9e781a2fb39f
 title: D3DXCheckTextureRequirements function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCheckTextureRequirements function
@@ -32,9 +37,9 @@ HRESULT D3DXCheckTextureRequirements(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
@@ -70,7 +75,7 @@ Pointer to number of requested mipmap levels, or **NULL**. Returns the corrected
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-0 or [**D3DUSAGE\_RENDERTARGET**](d3dusage.md). Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the pNewRenderTarget parameter of the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. If **D3DUSAGE\_RENDERTARGET** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md).
+0 or [**D3DUSAGE\_RENDERTARGET**](d3dusage.md). Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the pNewRenderTarget parameter of the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. If **D3DUSAGE\_RENDERTARGET** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master).
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
 title: BDA Data Types
 description: BDA Data Types
-ms.assetid: '4d73be1a-3738-400e-a654-65c801c10967'
+ms.assetid: 4d73be1a-3738-400e-a654-65c801c10967
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA Data Types

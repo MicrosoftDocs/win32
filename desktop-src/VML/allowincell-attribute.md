@@ -1,7 +1,12 @@
 ---
 title: AllowInCell Attribute
 description: AllowInCell Attribute
-ms.assetid: 'bb17720d-931e-44ff-a6f8-47b6696a49d3'
+ms.assetid: bb17720d-931e-44ff-a6f8-47b6696a49d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllowInCell Attribute

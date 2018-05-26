@@ -1,7 +1,12 @@
 ---
 title: Common Dialog Box Library Overviews
 description: .
-ms.assetid: '6e54e57d-7fc8-4a2f-9132-5d6785ca202c'
+ms.assetid: 6e54e57d-7fc8-4a2f-9132-5d6785ca202c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Dialog Box Library Overviews

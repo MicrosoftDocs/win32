@@ -1,13 +1,19 @@
 ---
 title: Using WER
-description: Beginning with Windows Vista, Windows provides crash, non-response, and kernel fault error reporting by default without requiring changes to your application.
-ms.assetid: 'c096cd89-e3a7-4959-a35f-40e6168f277e'
-keywords: ["Windows error reporting Windows Error Reporting , using"]
+description: Beginning with Windows Vista, Windows provides crash, non-response, and kernel fault error reporting by default without requiring changes to your application.
+ms.assetid: c096cd89-e3a7-4959-a35f-40e6168f277e
+keywords:
+- Windows error reporting Windows Error Reporting , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WER
 
-Beginning with Windows Vista, Windows provides crash, non-response, and kernel fault error reporting by default without requiring changes to your application. The report will include minidump and heap dump information if required. Applications instead use the WER API to send application-specific problem reports to Microsoft.
+Beginning with Windows Vista, Windows provides crash, non-response, and kernel fault error reporting by default without requiring changes to your application. The report will include minidump and heap dump information if required. Applications instead use the WER API to send application-specific problem reports to Microsoft.
 
 Because Windows automatically reports unhandled exceptions, application should not handle fatal exceptions. If the faulting or not-responding process is interactive, WER displays a user interface informing the user of the problem. An application is considered unresponsive if it does not respond to Windows messages for five seconds while the user is trying to interact with the application.
 
@@ -25,12 +31,12 @@ The following shows the steps that occur for an application crash, non-response,
 
 Applications can use the following functions to customize the contents of the report that is sent to Microsoft. The registration functions tell WER to include the specific files and memory blocks in the error report that it creates.
 
--   [**WerRegisterFile**](werregisterfile.md)
--   [**WerRegisterMemoryBlock**](werregistermemoryblock.md)
--   [**WerSetFlags**](wersetflags.md)
--   [**WerUnregisterFile**](werunregisterfile.md)
--   [**WerUnregisterMemoryBlock**](werunregistermemoryblock.md)
--   [**WerGetFlags**](wergetflags.md)
+-   [**WerRegisterFile**](/windows/win32/Werapi/nf-werapi-werregisterfile?branch=master)
+-   [**WerRegisterMemoryBlock**](/windows/win32/Werapi/nf-werapi-werregistermemoryblock?branch=master)
+-   [**WerSetFlags**](/windows/win32/Werapi/nf-werapi-wersetflags?branch=master)
+-   [**WerUnregisterFile**](/windows/win32/Werapi/nf-werapi-werunregisterfile?branch=master)
+-   [**WerUnregisterMemoryBlock**](/windows/win32/Werapi/nf-werapi-werunregistermemoryblock?branch=master)
+-   [**WerGetFlags**](/windows/win32/Werapi/nf-werapi-wergetflags?branch=master)
 
 ## Windows Error Reporting flow for generic event reporting
 
@@ -38,17 +44,17 @@ The following steps show how applications can get an error report for a non-fata
 
 1.  The non-fatal problem event occurs.
 2.  The application recognizes the event and uses the following sequence of function calls to generate the report.
-    1.  Call the [**WerReportCreate**](werreportcreate.md) function to create the report.
-    2.  Call the [**WerReportSetParameter**](werreportsetparameter.md) function to set the report parameters.
-    3.  Call the [**WerReportAddFile**](werreportaddfile.md) function to add files to the report.
-    4.  Call the [**WerReportAddDump**](werreportadddump.md) function to add a minidump to the report (if needed).
-    5.  Call the [**WerReportSubmit**](werreportsubmit.md) function to send the report.
-    6.  Call the [**WerReportCloseHandle**](werreportclosehandle.md) to free resources.
+    1.  Call the [**WerReportCreate**](/windows/win32/Werapi/nf-werapi-werreportcreate?branch=master) function to create the report.
+    2.  Call the [**WerReportSetParameter**](/windows/win32/Werapi/nf-werapi-werreportsetparameter?branch=master) function to set the report parameters.
+    3.  Call the [**WerReportAddFile**](/windows/win32/Werapi/nf-werapi-werreportaddfile?branch=master) function to add files to the report.
+    4.  Call the [**WerReportAddDump**](/windows/win32/Werapi/nf-werapi-werreportadddump?branch=master) function to add a minidump to the report (if needed).
+    5.  Call the [**WerReportSubmit**](/windows/win32/Werapi/nf-werapi-werreportsubmit?branch=master) function to send the report.
+    6.  Call the [**WerReportCloseHandle**](/windows/win32/Werapi/nf-werapi-werreportclosehandle?branch=master) to free resources.
 3.  Depending on the specific options used when calling the functions in step 2, WER will finish the error reporting. WER will ensure that the reporting is done in accordance with the policies set by the user. For example, WER will send the report to Microsoft, queue the report, and show the appropriate user interfaces to the user.
 
 ## Excluding an application from Windows Error Reporting
 
-To exclude your application from Windows error reporting, use the [**WerAddExcludedApplication**](weraddexcludedapplication.md) function. To restore error reporting for your application, use the [**WerRemoveExcludedApplication**](werremoveexcludedapplication.md) function.
+To exclude your application from Windows error reporting, use the [**WerAddExcludedApplication**](/windows/win32/Werapi/nf-werapi-weraddexcludedapplication?branch=master) function. To restore error reporting for your application, use the [**WerRemoveExcludedApplication**](/windows/win32/Werapi/nf-werapi-werremoveexcludedapplication?branch=master) function.
 
 ## Windows Error Reporting Samples
 
@@ -60,7 +66,7 @@ An application can use Application Recovery and Restart to save data and state i
 
 ## Legacy API
 
-An application can report a fault by calling the [**ReportFault**](reportfault.md) function. However, you should not use the **ReportFault** function unless you have a very specific requirement that the operating system's default error reporting behavior cannot fulfill.
+An application can report a fault by calling the [**ReportFault**](/windows/win32/ErrorRep/nf-errorrep-reportfault?branch=master) function. However, you should not use the **ReportFault** function unless you have a very specific requirement that the operating system's default error reporting behavior cannot fulfill.
 
 If error reporting is enabled, the system displays a dialog box to the user indicating that the application has encountered a problem and will close. If there is a debugger configured in the **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AeDebug** key, the user is given the option to launch the debugger. The user is also given the option to send a report to Microsoft. If the user sends the report, the system displays another dialog box thanking the user for the report and providing a link to more information.
 
@@ -78,13 +84,13 @@ The error reporting system supports the following operation modes.
 
 
 
- 
+ 
 
-To exclude your application from error reporting, use the [**AddERExcludedApplication**](adderexcludedapplication.md) function.
+To exclude your application from error reporting, use the [**AddERExcludedApplication**](/windows/win32/ErrorRep/nf-errorrep-adderexcludedapplicationa?branch=master) function.
 
- 
+ 
 
- 
+ 
 
 
 

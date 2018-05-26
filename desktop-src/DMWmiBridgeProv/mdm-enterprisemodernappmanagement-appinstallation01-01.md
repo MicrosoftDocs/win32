@@ -1,8 +1,10 @@
 ---
 title: MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class
 description: The MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class is used to install apps from the Windows Store or a hosted location.
-ms.assetid: 'fc4c4c82-6f43-41fc-863b-940c0517f28b'
-keywords: ["MDM_EnterpriseModernAppManagement_AppInstallation01_01 class", "MDM_EnterpriseModernAppManagement_AppInstallation01_01 class, described"]
+ms.assetid: fc4c4c82-6f43-41fc-863b-940c0517f28b
+keywords:
+- MDM_EnterpriseModernAppManagement_AppInstallation01_01 class
+- MDM_EnterpriseModernAppManagement_AppInstallation01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class
@@ -58,7 +65,7 @@ The **MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01** class has thes
 
 
 
- 
+ 
 
 ### Properties
 
@@ -148,7 +155,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -163,9 +170,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

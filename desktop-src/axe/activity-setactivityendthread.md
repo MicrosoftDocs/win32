@@ -1,8 +1,11 @@
 ---
 title: Activity SetActivityEndThread method
 description: Sets the activity end thread of the Activity.
-ms.assetid: '43C62E26-F22B-421D-AA4B-01175D961D96'
-keywords: ["SetActivityEndThread method Access Execution Engine", "SetActivityEndThread method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetActivityEndThread method"]
+ms.assetid: 43C62E26-F22B-421D-AA4B-01175D961D96
+keywords:
+- SetActivityEndThread method Access Execution Engine
+- SetActivityEndThread method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetActivityEndThread method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetActivityEndThread method
@@ -22,7 +30,7 @@ Sets the activity end thread of the **Activity**.
 
 ```C++
 virtual HRESULT SetActivityEndThread(
-  [in] INT activityEndThread
+  [in] INT activityEndThread
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity end thread is the value of element **Activity/ActivityEndThread**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity end thread is the value of element **Activity/ActivityEndThread**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

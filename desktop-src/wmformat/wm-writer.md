@@ -1,14 +1,20 @@
 ---
 title: WM/Writer
 description: The WM/Writer attribute contains the name of the writer who wrote the words of the content.
-ms.assetid: '3450c584-3bd4-4df3-a401-f260f543fb98'
-keywords: ["WM/Writer windows Media Format"]
+ms.assetid: 3450c584-3bd4-4df3-a401-f260f543fb98
+keywords:
+- WM/Writer windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Writer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Writer

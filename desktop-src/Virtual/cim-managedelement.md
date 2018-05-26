@@ -1,8 +1,10 @@
 ---
 title: CIM\_ManagedElement class
 description: The CIM\_ManagedElement class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
-ms.assetid: '9c591af3-67c0-436f-a146-cf43dea78194'
-keywords: ["CIM_ManagedElement class Hyper-V", "CIM_ManagedElement class Hyper-V , described"]
+ms.assetid: 9c591af3-67c0-436f-a146-cf43dea78194
+keywords:
+- CIM_ManagedElement class Hyper-V
+- CIM_ManagedElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ManagedElement class
@@ -95,17 +102,17 @@ A user-friendly name for the object. This property allows each instance to defin
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

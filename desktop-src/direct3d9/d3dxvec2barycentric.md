@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a point in Barycentric coordinates, using the specified 2D vectors.'
-ms.assetid: 'afbffe6d-d786-4d65-b737-ae201613d1ac'
+---
+Description: Returns a point in Barycentric coordinates, using the specified 2D vectors.
+ms.assetid: afbffe6d-d786-4d65-b737-ae201613d1ac
 title: D3DXVec2BaryCentric function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2BaryCentric function

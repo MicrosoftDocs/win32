@@ -1,14 +1,20 @@
 ---
 title: Cdrom Object
 description: The Cdrom object provides a way to access a CD or DVD in its drive.
-ms.assetid: '9045b130-3e08-4880-a4e7-79b704c4c1f9'
-keywords: ["Cdrom Object Windows Media Player"]
+ms.assetid: 9045b130-3e08-4880-a4e7-79b704c4c1f9
+keywords:
+- Cdrom Object Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Cdrom Object
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cdrom Object

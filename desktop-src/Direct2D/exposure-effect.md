@@ -1,7 +1,12 @@
 ---
 title: Exposure Effect
 description: Increase or decreases the exposure of the image.
-ms.assetid: 'd384f539-5c19-53c7-e52b-bf833e221449'
+ms.assetid: d384f539-5c19-53c7-e52b-bf833e221449
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exposure Effect
@@ -41,7 +46,7 @@ m_d2dContext->EndDraw();
 
 ## Effect Properties
 
-The properties for the exposure effect are defined by the [**D2D1\_EXPOSURE\_PROP**](d2d1-exposure-prop.md) enumeration.
+The properties for the exposure effect are defined by the [**D2D1\_EXPOSURE\_PROP**](/windows/win32/d2d1effects_2/ne-d2d1effects_2-d2d1_exposure_prop?branch=master) enumeration.
 
 ## Requirements
 
@@ -62,7 +67,7 @@ The properties for the exposure effect are defined by the [**D2D1\_EXPOSURE\_PRO
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

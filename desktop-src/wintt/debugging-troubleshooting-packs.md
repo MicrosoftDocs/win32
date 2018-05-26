@@ -1,7 +1,12 @@
 ---
 title: Debugging a Troubleshooting Pack
 description: A troubleshooting pack can fail during initialization or during the troubleshooting, resolution, or verification phase.
-ms.assetid: '5a99a6e5-14dc-4326-9c4d-952767825573'
+ms.assetid: 5a99a6e5-14dc-4326-9c4d-952767825573
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging a Troubleshooting Pack

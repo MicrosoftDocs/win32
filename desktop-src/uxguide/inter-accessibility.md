@@ -1,7 +1,12 @@
 ---
 title: Accessibility
 description: Designing software for accessibility means ensuring that programs and functionality are easily available to the widest range of users, including those who have disabilities and impairments.
-ms.assetid: 'df6947ec-6a1d-4645-ae3e-863839c32588'
+ms.assetid: df6947ec-6a1d-4645-ae3e-863839c32588
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessibility
@@ -38,7 +43,7 @@ The following table describes common user disabilities and impairments, and list
 
 
 
- 
+ 
 
 For more guidelines about helping users with these impairments, see [Addressing particular impairments](#addressing-particular-impairments) later in this article.
 
@@ -337,11 +342,11 @@ For more guidelines and examples, see [Keyboard](inter-keyboard.md).
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

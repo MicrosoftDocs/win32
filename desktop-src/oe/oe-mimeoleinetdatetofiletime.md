@@ -1,8 +1,9 @@
 ---
 title: MimeOleInetDateToFileTime function
 description: Do not use. On success, creates a file time from a specified Internet date. Input is in RFC822 format \ 0034;ddd, dd mmm yyyy hh mm ss +/- hhmm\\0 \ 0034;, such as \ 0034;Tue, 21 Jan 1997 18 25 40 GMT \ 0034;. On failure, created file time defaults to current system time.
-ms.assetid: '9afae9dd-6a38-43dd-a010-6eb5a9982021'
-keywords: ["MimeOleInetDateToFileTime function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 9afae9dd-6a38-43dd-a010-6eb5a9982021
+keywords:
+- MimeOleInetDateToFileTime function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleInetDateToFileTime function
@@ -22,8 +28,8 @@ Do not use. On success, creates a file time from a specified Internet date. Inpu
 
 ```C++
 HRESULT MimeOleInetDateToFileTime(
-  _In_  LPCSTR     pszDate,
-  _Out_ LPFILETIME pft
+  _In_  LPCSTR     pszDate,
+  _Out_ LPFILETIME pft
 );
 ```
 
@@ -66,7 +72,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +80,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -83,9 +89,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

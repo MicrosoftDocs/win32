@@ -1,7 +1,12 @@
 ---
 title: Interrupt Method
 description: Interrupt Method
-ms.assetid: 'b8442e25-a629-47c7-acdd-1d28e74d78a2'
+ms.assetid: b8442e25-a629-47c7-acdd-1d28e74d78a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interrupt Method

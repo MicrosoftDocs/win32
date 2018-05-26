@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the kernel event for which you want to enable call stack tracing.'
-ms.assetid: 'cbd77002-466b-40e6-85a5-cd872aef7d51'
-title: 'CLASSIC\_EVENT\_ID structure'
+Description: Identifies the kernel event for which you want to enable call stack tracing.
+ms.assetid: cbd77002-466b-40e6-85a5-cd872aef7d51
+title: CLASSIC\_EVENT\_ID structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CLASSIC\_EVENT\_ID structure
@@ -13,7 +18,7 @@ Identifies the kernel event for which you want to enable call stack tracing.
 
 ```C++
 typedef struct _CLASSIC_EVENT_ID {
-  GUID  EventGuid;
+  GUID  EventGuid;
   UCHAR Type;
   UCHAR Reserved[7];
 } CLASSIC_EVENT_ID, *PCLASSIC_EVENT_ID;
@@ -56,8 +61,8 @@ To enable the [**read**](diskio-typegroup1.md) event type for [**disk IO**](disk
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Evntrace.h</dt> </dl> |
 
 
@@ -69,9 +74,9 @@ To enable the [**read**](diskio-typegroup1.md) event type for [**disk IO**](disk
 [**TraceSetInformation**](tracesetinformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

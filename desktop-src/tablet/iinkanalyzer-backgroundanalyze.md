@@ -1,7 +1,12 @@
 ---
-Description: 'Performs asynchronous ink analysis.'
-ms.assetid: '36427b80-5e3b-4c9a-bb49-e6b7f9301cbd'
-title: 'IInkAnalyzer::BackgroundAnalyze method'
+Description: Performs asynchronous ink analysis.
+ms.assetid: 36427b80-5e3b-4c9a-bb49-e6b7f9301cbd
+title: IInkAnalyzerBackgroundAnalyze method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::BackgroundAnalyze method
@@ -93,7 +98,7 @@ if (pDirtyRegion != NULL)
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -131,9 +136,9 @@ if (pDirtyRegion != NULL)
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

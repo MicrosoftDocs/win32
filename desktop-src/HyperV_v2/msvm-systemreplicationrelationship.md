@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between an instance of Msvm\_ComputerSystem that represents the virtual machine and an instance of Msvm\_ReplicationRelationship that represents a replication relationship of the virtual machine.'
-ms.assetid: '23E7BF91-9527-434C-A571-05879E83950E'
-title: 'Msvm\_SystemReplicationRelationship class'
+Description: Represents an association between an instance of Msvm\_ComputerSystem that represents the virtual machine and an instance of Msvm\_ReplicationRelationship that represents a replication relationship of the virtual machine.
+ms.assetid: 23E7BF91-9527-434C-A571-05879E83950E
+title: Msvm\_SystemReplicationRelationship class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemReplicationRelationship class
@@ -16,7 +21,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SystemReplicationRelationship : CIM_Dependency
 {
-  Msvm_ComputerSystem          REF Antecedent;
+  Msvm_ComputerSystem          REF Antecedent;
   Msvm_ReplicationRelationship REF Dependent;
 };
 ```
@@ -71,8 +76,8 @@ Reference to the instance of the [**Msvm\_ReplicationRelationship**](msvm-replic
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -89,9 +94,9 @@ Reference to the instance of the [**Msvm\_ReplicationRelationship**](msvm-replic
 [**CIM\_Dependency**](https://msdn.microsoft.com/library/aa387238)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Renames an item in the cache. This method is identical to the RenameItem method, except that it will attempt to do the rename operation right away.'
+Description: Renames an item in the cache. This method is identical to the RenameItem method, except that it will attempt to do the rename operation right away.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3D25C334-132A-46F4-B281-4B6EE27552CB'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3D25C334-132A-46F4-B281-4B6EE27552CB
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'RenameItemEx method of the Win32\_OfflineFilesCache class'
+title: RenameItemEx method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RenameItemEx method of the Win32\_OfflineFilesCache class
@@ -19,9 +22,9 @@ Renames an item in the cache. This method is identical to the [**RenameItem**](w
 
 ```mof
 uint32 RenameItemEx(
-  [in] string  OriginalPath,
-  [in] string  NewPath,
-  [in] boolean ReplaceIfExists
+  [in] string  OriginalPath,
+  [in] string  NewPath,
+  [in] boolean ReplaceIfExists
 );
 ```
 
@@ -70,8 +73,8 @@ If you need to minimize the chance that the item is in use, call the [**RenameIt
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                             |
+| Minimum supported client<br/> | Windows 7 with SP1<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                             |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Cscobj.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
@@ -86,9 +89,9 @@ If you need to minimize the chance that the item is in use, call the [**RenameIt
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

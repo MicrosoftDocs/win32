@@ -1,7 +1,12 @@
-﻿---
-Description: 'Completes the given extension event with either a cancellation or success.'
-ms.assetid: '0EF8652F-34A8-4804-9D3F-8C8BEFCBCAAF'
+---
+Description: Completes the given extension event with either a cancellation or success.
+ms.assetid: 0EF8652F-34A8-4804-9D3F-8C8BEFCBCAAF
 title: IPrinterExtensionRequest interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionRequest interface

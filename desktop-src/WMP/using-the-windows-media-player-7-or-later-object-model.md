@@ -1,8 +1,22 @@
 ---
 title: Using the Windows Media Player 7 or Later Object Model
 description: Using the Windows Media Player 7 or Later Object Model
-ms.assetid: 'e2dbe2c1-23be-499b-b754-b7e87486ecd6'
-keywords: ["Windows Media Player,object model", "Windows Media Player object model,version 7 or later", "object model,version 7 or later", "Windows Media Player ActiveX control,version 7 or later", "ActiveX control,version 7 or later", "Windows Media Player Mobile ActiveX control,version 7 or later", "Windows Media Player Mobile,object model", "migration guide,version 7 or later", "versions of Windows Media Player,object model"]
+ms.assetid: e2dbe2c1-23be-499b-b754-b7e87486ecd6
+keywords:
+- Windows Media Player,object model
+- Windows Media Player object model,version 7 or later
+- object model,version 7 or later
+- Windows Media Player ActiveX control,version 7 or later
+- ActiveX control,version 7 or later
+- Windows Media Player Mobile ActiveX control,version 7 or later
+- Windows Media Player Mobile,object model
+- migration guide,version 7 or later
+- versions of Windows Media Player,object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Player 7 or Later Object Model

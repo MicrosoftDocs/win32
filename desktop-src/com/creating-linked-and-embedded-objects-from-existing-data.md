@@ -1,7 +1,12 @@
 ---
 title: Creating Linked and Embedded Objects from Existing Data
 description: Creating Linked and Embedded Objects from Existing Data
-ms.assetid: '76848b7e-6068-4bac-9793-304f813096f0'
+ms.assetid: 76848b7e-6068-4bac-9793-304f813096f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Linked and Embedded Objects from Existing Data
@@ -13,7 +18,7 @@ A user typically assembles a compound document by using either the clipboard or 
 
  
 
-Data transfer between OLE server and container applications is built on uniform data transfer, as described in [Data Transfer](data-transfer.md). OLE servers and object handlers implement [**IDataObject**](idataobject.md) in order to make their data available for transfers using either the clipboard or drag and drop. OLE objects support all the usual clipboard formats. In addition, they support six clipboard formats that support the creation of linked and embedded objects from a selected data object.
+Data transfer between OLE server and container applications is built on uniform data transfer, as described in [Data Transfer](data-transfer.md). OLE servers and object handlers implement [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master) in order to make their data available for transfers using either the clipboard or drag and drop. OLE objects support all the usual clipboard formats. In addition, they support six clipboard formats that support the creation of linked and embedded objects from a selected data object.
 
 OLE clipboard formats describe data objects that, upon being dropped or pasted in OLE containers, are to become embedded or linked compound-document objects. The data object presents these formats to container applications in order of their fidelity as descriptions of the data. In other words, the object presents first the format that best represents it, followed by the next best format, and so on. This intentional ordering encourages a container application to use the best possible format.
 

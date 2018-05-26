@@ -1,13 +1,16 @@
 ---
-Description: 'Describe the SELECT statement for a data query.'
+Description: Describe the SELECT statement for a data query.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9c1a164e-4728-4fbe-8a49-b571005a46ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9c1a164e-4728-4fbe-8a49-b571005a46ec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SELECT Statement for Data Queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SELECT Statement for Data Queries

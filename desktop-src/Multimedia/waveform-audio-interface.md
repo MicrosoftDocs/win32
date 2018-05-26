@@ -1,8 +1,17 @@
 ---
 title: Waveform-Audio Interface
 description: Waveform-Audio Interface
-ms.assetid: '8d42e1fb-9d28-4a2e-954a-4c8c8bcee496'
-keywords: ["multimedia audio,waveform-audio interface", "audio,waveform-audio interface", "waveform audio,waveform-audio interface", "waveform-audio interface,about"]
+ms.assetid: 8d42e1fb-9d28-4a2e-954a-4c8c8bcee496
+keywords:
+- multimedia audio,waveform-audio interface
+- audio,waveform-audio interface
+- waveform audio,waveform-audio interface
+- waveform-audio interface,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waveform-Audio Interface

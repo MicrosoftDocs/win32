@@ -1,8 +1,14 @@
 ---
 title: Developing RPC-Message Queuing Applications
 description: Very little effort is necessary to take advantage of the MSMQ transport in your RPC application.
-ms.assetid: '1ea97df8-cdf5-43b8-88aa-9e8fa6ae845a'
-keywords: ["Remote Procedure Call RPC , tasks, developing message queuing applications"]
+ms.assetid: 1ea97df8-cdf5-43b8-88aa-9e8fa6ae845a
+keywords:
+- Remote Procedure Call RPC , tasks, developing message queuing applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Developing RPC-Message Queuing Applications
@@ -25,16 +31,16 @@ By using journaling, calls can be logged to disk. If journaling is turned on, ea
 
 Call priority can be used in conjunction with the RPC \[[**message**](https://msdn.microsoft.com/library/windows/desktop/aa367077)\] function attribute to allow calls with higher priority to take precedence over calls with lower priority, even if the high priority calls arrive later. Call priority will also work in a limited fashion with synchronous RPC, but synchronous RPC calls cannot stack up in the same manner as asynchronous calls.
 
-The client process controls all of the above properties by calling [**RpcBindingSetOption**](rpcbindingsetoption.md). Once set, these properties remain in effect until they are changed in another call to **RpcBindingSetOption**.
+The client process controls all of the above properties by calling [**RpcBindingSetOption**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetoption?branch=master). Once set, these properties remain in effect until they are changed in another call to **RpcBindingSetOption**.
 
-The RPC server process can control the lifetime of its receive queue. By default the queue is deleted when the server process exits. However, the server process can use [**RpcServerUseProtseqEpEx**](rpcserveruseprotseqepex.md) when setting up its endpoint to tell the transport to allow the queue to continue to exist and to accept call requests even when the server process is not running. In this case, the calls are queued up and executed later, when the server process comes back online.
+The RPC server process can control the lifetime of its receive queue. By default the queue is deleted when the server process exits. However, the server process can use [**RpcServerUseProtseqEpEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex?branch=master) when setting up its endpoint to tell the transport to allow the queue to continue to exist and to accept call requests even when the server process is not running. In this case, the calls are queued up and executed later, when the server process comes back online.
 
 > [!Note]  
-> If you are using asynchronous \[[**message**](https://msdn.microsoft.com/library/windows/desktop/aa367077)\] calls in an interface, you must register the interface by calling [**RpcServerRegisterIf**](rpcserverregisterif.md) or [**RpcServerRegisterIfEx**](rpcserverregisterifex.md) before calling [**RpcServerUseProtseqEpEx**](rpcserveruseprotseqepex.md)**(ncadg\_mq)**. Once you turn on the protocol sequence, any calls already waiting on the queue for the server will begin to be read off the queue. If the corresponding RPC interface has not been registered, the calls will fail. This situation can happen if you have a setup a permanent endpoint for your remote procedure calls, the server has been shut down, and clients have continued to send calls to the server. These calls will be stacked up in the queue, waiting to be read once the server comes back online.
+> If you are using asynchronous \[[**message**](https://msdn.microsoft.com/library/windows/desktop/aa367077)\] calls in an interface, you must register the interface by calling [**RpcServerRegisterIf**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterif?branch=master) or [**RpcServerRegisterIfEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverregisterifex?branch=master) before calling [**RpcServerUseProtseqEpEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex?branch=master)**(ncadg\_mq)**. Once you turn on the protocol sequence, any calls already waiting on the queue for the server will begin to be read off the queue. If the corresponding RPC interface has not been registered, the calls will fail. This situation can happen if you have a setup a permanent endpoint for your remote procedure calls, the server has been shut down, and clients have continued to send calls to the server. These calls will be stacked up in the queue, waiting to be read once the server comes back online.
 
  
 
-For more information, see [**RpcBindingSetOption**](rpcbindingsetoption.md), [**RpcServerUseProtseqEpEx**](rpcserveruseprotseqepex.md), and \[[**message**](https://msdn.microsoft.com/library/windows/desktop/aa367077)\], [**ncadg\_mq**](https://msdn.microsoft.com/library/windows/desktop/aa367114).
+For more information, see [**RpcBindingSetOption**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetoption?branch=master), [**RpcServerUseProtseqEpEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex?branch=master), and \[[**message**](https://msdn.microsoft.com/library/windows/desktop/aa367077)\], [**ncadg\_mq**](https://msdn.microsoft.com/library/windows/desktop/aa367114).
 
  
 

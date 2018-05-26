@@ -1,8 +1,9 @@
 ---
 title: VMVMState enumeration
 description: Specifies the state of a virtual machine.
-ms.assetid: '952dab9d-3d38-4cc5-ab75-4ee5096f7923'
-keywords: ["VMVMState enumeration Virtual PC"]
+ms.assetid: 952dab9d-3d38-4cc5-ab75-4ee5096f7923
+keywords:
+- VMVMState enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMVMState enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the state of a virtual machine.
 
@@ -24,17 +30,17 @@ Specifies the state of a virtual machine.
 
 ```C++
 typedef enum  { 
-  vmVMState_Invalid        = 0,
-  vmVMState_TurnedOff      = 1,
-  vmVMState_Saved          = 2,
-  vmVMState_TurningOn      = 3,
-  vmVMState_Restoring      = 4,
-  vmVMState_Running        = 5,
-  vmVMState_Paused         = 6,
-  vmVMState_Saving         = 7,
-  vmVMState_TurningOff     = 8,
-  vmVMState_MergingDrives  = 9,
-  vmVMState_DeleteMachine  = 10
+  vmVMState_Invalid        = 0,
+  vmVMState_TurnedOff      = 1,
+  vmVMState_Saved          = 2,
+  vmVMState_TurningOn      = 3,
+  vmVMState_Restoring      = 4,
+  vmVMState_Running        = 5,
+  vmVMState_Paused         = 6,
+  vmVMState_Saving         = 7,
+  vmVMState_TurningOff     = 8,
+  vmVMState_MergingDrives  = 9,
+  vmVMState_DeleteMachine  = 10
 } VMVMState;
 ```
 
@@ -127,9 +133,9 @@ Deleting the virtual machine.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -148,9 +154,9 @@ Deleting the virtual machine.
 [**IVMVirtualPCEvents::OnVMStateChange**](ivmvirtualpcevents-onvmstatechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

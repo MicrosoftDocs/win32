@@ -4,17 +4,22 @@ description: Indicates whether the password for the account this attribute refer
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bafbcb4a-ee45-4f88-8fb2-93840efd1289'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bafbcb4a-ee45-4f88-8fb2-93840efd1289
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-User-Dont-Expire-Password attribute AD Schema", "msDS-UserDontExpirePassword attribute AD Schema"]
+keywords:
+- ms-DS-User-Dont-Expire-Password attribute AD Schema
+- msDS-UserDontExpirePassword attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-User-Dont-Expire-Password
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-User-Dont-Expire-Password attribute
@@ -65,9 +70,9 @@ Indicates whether the password for the account this attribute references will ex
 
 In ADAM, this attribute replaces the [**ADS\_UF\_DONT\_EXPIRE\_PASSWD**](https://msdn.microsoft.com/library/aa772300) flag of the [**userAccountControl**](a-useraccountcontrol.md) attribute.
 
- 
+ 
 
- 
+ 
 
 
 

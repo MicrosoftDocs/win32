@@ -1,15 +1,22 @@
 ---
 title: Command Strings
 description: Command Strings
-ms.assetid: 'ca9ca153-f2bf-45ed-84e6-44e86e8efaed'
-keywords: ["MCI command strings,about", "MCI command strings,syntax"]
+ms.assetid: ca9ca153-f2bf-45ed-84e6-44e86e8efaed
+keywords:
+- MCI command strings,about
+- MCI command strings,syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Strings
 
-To send a string command to an MCI device, use the [**mciSendString**](mcisendstring.md) function, which includes parameters for the string command and a buffer for any returned information.
+To send a string command to an MCI device, use the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function, which includes parameters for the string command and a buffer for any returned information.
 
-The **mciSendString** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](mcigeterrorstring.md) function to get a text description of the error.
+The **mciSendString** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](/windows/win32/Mmsystem/?branch=master) function to get a text description of the error.
 
 ## Syntax of Command Strings
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the properties in the property bag for the queue.'
-ms.assetid: '87EED8B5-676C-4056-812B-B0424148FCFA'
-title: 'IPrinterQueue::GetProperties method'
+---
+Description: Gets the properties in the property bag for the queue.
+ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
+title: IPrinterQueueGetProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueue::GetProperties method

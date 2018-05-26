@@ -1,8 +1,10 @@
 ---
 title: MDM\_DeviceStatus\_CellularIdentities01\_01 class
 description: The MDM\_DeviceStatus\_CellularIdentities01\_01 class allows you to query whether device are in compliance with enterprise encryption policy.
-ms.assetid: 'e117ff72-48c0-4b25-8b09-c096851c18ac'
-keywords: ["MDM_DeviceStatus_CellularIdentities01_01 class", "MDM_DeviceStatus_CellularIdentities01_01 class, described"]
+ms.assetid: e117ff72-48c0-4b25-8b09-c096851c18ac
+keywords:
+- MDM_DeviceStatus_CellularIdentities01_01 class
+- MDM_DeviceStatus_CellularIdentities01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_DeviceStatus\_CellularIdentities01\_01 class
@@ -29,12 +36,12 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_DeviceStatus_CellularIdentities01_01
 {
-  string  InstanceID;
-  string  ParentID;
-  string  IMSI;
-  string  ICCID;
-  string  PhoneNumber;
-  string  CommercializationOperator;
+  string  InstanceID;
+  string  ParentID;
+  string  IMSI;
+  string  ICCID;
+  string  PhoneNumber;
+  string  CommercializationOperator;
   boolean RoamingStatus;
   boolean RoamingCompliance;
 };
@@ -156,7 +163,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -171,9 +178,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

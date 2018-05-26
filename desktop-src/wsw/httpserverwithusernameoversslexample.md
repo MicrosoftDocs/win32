@@ -1,8 +1,16 @@
 ---
 title: HttpServerWithUsernameOverSslExample
 description: This example shows a TCP server that accepts a channel and receives and replies to messages, with username over SSL mixed-mode security.
-ms.assetid: 'd70ae988-0d7c-4494-a54d-1cd73ab8a8ce'
-keywords: ["HttpServerWithUsernameOverSslExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: d70ae988-0d7c-4494-a54d-1cd73ab8a8ce
+keywords:
+- HttpServerWithUsernameOverSslExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpServerWithUsernameOverSslExample

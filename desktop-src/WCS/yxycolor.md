@@ -1,8 +1,14 @@
 ---
 title: YxyCOLOR structure
 description: TBD.
-ms.assetid: '231551fb-12c9-42f6-b00c-436c2c5217c1'
-keywords: ["YxyCOLOR structure Windows Color System"]
+ms.assetid: 231551fb-12c9-42f6-b00c-436c2c5217c1
+keywords:
+- YxyCOLOR structure Windows Color System
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # YxyCOLOR structure
@@ -57,9 +63,9 @@ TBD
 
 
 
- 
+ 
 
- 
+ 
 
 
 

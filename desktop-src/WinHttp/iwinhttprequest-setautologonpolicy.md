@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the current Automatic Logon Policy.'
-ms.assetid: 'bc8e8c9c-574e-4392-b336-2c06947022ee'
-title: 'IWinHttpRequest::SetAutoLogonPolicy method'
+Description: Sets the current Automatic Logon Policy.
+ms.assetid: bc8e8c9c-574e-4392-b336-2c06947022ee
+title: IWinHttpRequestSetAutoLogonPolicy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::SetAutoLogonPolicy method
@@ -13,7 +18,7 @@ The **SetAutoLogonPolicy** method sets the current [Automatic Logon Policy](auth
 
 ```C++
 HRESULT SetAutoLogonPolicy(
-  [in] WinHttpRequestAutoLogonPolicy AutoLogonPolicy
+  [in] WinHttpRequestAutoLogonPolicy AutoLogonPolicy
 );
 ```
 
@@ -41,9 +46,9 @@ The default policy is [**AutoLogonPolicy\_OnlyIfBypassProxy**](winhttprequestaut
 Call **SetAutoLogonPolicy** to set the automatic logon policy before calling [**Send**](iwinhttprequest-send.md) to send the request.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -72,9 +77,9 @@ HttpReq.Send();
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -97,9 +102,9 @@ HttpReq.Send();
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

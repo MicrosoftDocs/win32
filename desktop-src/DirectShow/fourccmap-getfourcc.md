@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the FOURCC&\#160;DWORD from the FOURCCMap object.'
-ms.assetid: 'bb382a57-8499-44c0-b287-2d31f5f5d1d0'
-title: 'FOURCCMap::GetFOURCC method'
+Description: Retrieves the FOURCC&\#160;DWORD from the FOURCCMap object.
+ms.assetid: bb382a57-8499-44c0-b287-2d31f5f5d1d0
+title: FOURCCMapGetFOURCC method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FOURCCMap::GetFOURCC method
 
-Retrieves the **FOURCC** **DWORD** from the [**FOURCCMap**](fourccmap.md) object.
+Retrieves the **FOURCC** **DWORD** from the [**FOURCCMap**](fourccmap.md) object.
 
 ## Syntax
 
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns the **FOURCC** **DWORD** value. Note that if you construct a **GUID** that was not originally derived from a **FOURCC**, the return value will be essentially random.
+Returns the **FOURCC** **DWORD** value. Note that if you construct a **GUID** that was not originally derived from a **FOURCC**, the return value will be essentially random.
 
 ## Requirements
 
@@ -43,9 +48,9 @@ Returns the **FOURCC** **DWORD** value. Note that if you construct a **GUID** th
 [**FOURCCMap Class**](fourccmap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

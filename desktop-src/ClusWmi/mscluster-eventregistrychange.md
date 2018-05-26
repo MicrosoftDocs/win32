@@ -4,13 +4,15 @@ description: TBD
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd33f19df-fa8b-45d7-a66f-9e1578383577'
-ms.prod: 'windows-server-dev'
+ms.assetid: d33f19df-fa8b-45d7-a66f-9e1578383577
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_EventRegistryChange class", "MSCluster_EventRegistryChange class, described"]
+keywords:
+- MSCluster_EventRegistryChange class
+- MSCluster_EventRegistryChange class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_EventRegistryChange class
@@ -40,7 +45,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{642d4457-0125-4154-8681-19d59535c469}")]
 class MSCluster_EventRegistryChange : MSCluster_Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 EventTypeMajor;
   uint32 EventTypeMinor;
@@ -244,7 +249,7 @@ For more information about using **uint64** values in scripts, see [Scripting in
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -261,9 +266,9 @@ For more information about using **uint64** values in scripts, see [Scripting in
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

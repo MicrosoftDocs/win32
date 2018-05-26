@@ -1,14 +1,20 @@
 ---
 title: WM/MediaOriginalChannel Attribute
 description: The WM/MediaOriginalChannel attribute specifies the channel on which a given show was first broadcast.
-ms.assetid: 'b183312d-bd48-46e4-832c-724c9770a9c9'
-keywords: ["WM/MediaOriginalChannel Attribute Windows Media Player"]
+ms.assetid: b183312d-bd48-46e4-832c-724c9770a9c9
+keywords:
+- WM/MediaOriginalChannel Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/MediaOriginalChannel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaOriginalChannel Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

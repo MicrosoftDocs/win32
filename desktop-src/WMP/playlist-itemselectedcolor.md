@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.itemSelectedColor
 description: The itemSelectedColor attribute specifies or retrieves a value indicating the text color of a selected item in the playlist.
-ms.assetid: 'b7da5874-b8eb-46b3-8455-23bf146773cf'
-keywords: ["PLAYLIST.itemSelectedColor Windows Media Player"]
+ms.assetid: b7da5874-b8eb-46b3-8455-23bf146773cf
+keywords:
+- PLAYLIST.itemSelectedColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.itemSelectedColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.itemSelectedColor
@@ -43,9 +49,9 @@ This attribute is a read/write **String** representing a color. The default valu
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

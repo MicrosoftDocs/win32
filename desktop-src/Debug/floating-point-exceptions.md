@@ -1,7 +1,12 @@
 ---
-Description: 'By default, the system has all FP exceptions turned off.'
-ms.assetid: 'efbea036-de9c-4f92-865a-494161da375e'
-title: 'Floating-Point Exceptions'
+Description: By default, the system has all FP exceptions turned off.
+ms.assetid: efbea036-de9c-4f92-865a-494161da375e
+title: Floating-Point Exceptions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Floating-Point Exceptions

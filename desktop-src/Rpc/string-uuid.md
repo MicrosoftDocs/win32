@@ -1,7 +1,12 @@
 ---
 title: String UUID
 description: A string UUID contains the character-array representation of a UUID.
-ms.assetid: 'a8a04c88-0d41-4e0c-aae1-caa6c95f91c9'
+ms.assetid: a8a04c88-0d41-4e0c-aae1-caa6c95f91c9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String UUID
@@ -16,7 +21,7 @@ When providing a string UUID as an input parameter to an RPC run-time function, 
 
 <dl> <dt>
 
-[**UUID**](uuid-1.md)
+[**UUID**](/windows/win32/Rpcdce/?branch=master)
 </dt> </dl>
 
  

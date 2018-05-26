@@ -1,12 +1,17 @@
 ---
-Description: 'Using Windows GDI+ to draw on a printer is similar to using GDI+ to draw on a computer screen. To draw on a printer, obtain a device context handle for the printer and then pass that handle to a Graphics constructor.'
-ms.assetid: 'a76cca57-6ed8-44cd-a9f6-f2692d14b68a'
+Description: Using Windows GDI+ to draw on a printer is similar to using GDI+ to draw on a computer screen. To draw on a printer, obtain a device context handle for the printer and then pass that handle to a Graphics constructor.
+ms.assetid: a76cca57-6ed8-44cd-a9f6-f2692d14b68a
 title: Sending GDI+ Output to a Printer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending GDI+ Output to a Printer
 
-Using Windows GDI+ to draw on a printer is similar to using GDI+ to draw on a computer screen. To draw on a printer, obtain a device context handle for the printer and then pass that handle to a [**Graphics**](-gdiplus-class-graphics-class.md) constructor.
+Using Windows GDI+ to draw on a printer is similar to using GDI+ to draw on a computer screen. To draw on a printer, obtain a device context handle for the printer and then pass that handle to a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) constructor.
 
 The following console application draws a line, a rectangle, and an ellipse on a printer named MyPrinter:
 
@@ -66,7 +71,7 @@ Generally you won't want to hard-code the name of a printer as was done in the p
 
  
 
-The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](-gdiplus-class-graphics-drawrectangle-pen-pen-int-x-int-y-int-width-int-height-.md) call is in between calls to [StartPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_2isl.asp) and [EndPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_3b1h.asp), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
+The following console application gets the name of the default printer and then draws a rectangle and an ellipse on that printer. The [**Graphics::DrawRectangle**](/windows/win32/Gdiplusgraphics/?branch=master) call is in between calls to [StartPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_2isl.asp) and [EndPage](http://msdn.microsoft.com/library/en-us/gdi/prntspol_3b1h.asp), so the rectangle is on a page by itself. Similarly, the ellipse is on a page by itself.
 
 
 ```

@@ -1,8 +1,11 @@
 ---
 title: IWMPDVD topMenu method
 description: The topMenu method stops playback and displays the top (or root) menu for the current title.
-ms.assetid: 'd6eb6311-167d-4cc1-b445-4e3d3e111e43'
-keywords: ["topMenu method Windows Media Player", "topMenu method Windows Media Player , IWMPDVD interface", "IWMPDVD interface Windows Media Player , topMenu method"]
+ms.assetid: d6eb6311-167d-4cc1-b445-4e3d3e111e43
+keywords:
+- topMenu method Windows Media Player
+- topMenu method Windows Media Player , IWMPDVD interface
+- IWMPDVD interface Windows Media Player , topMenu method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPDVD::topMenu method
@@ -79,9 +87,9 @@ Every DVD is authored differently. The DVD must contain a menu for this method t
 [**IWMPDVD.titleMenu (VB and C#)**](wmplibiwmpdvd-iwmpdvd-titlemenu--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

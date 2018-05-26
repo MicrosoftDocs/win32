@@ -1,7 +1,12 @@
 ---
 title: IP Address Control
 description: This section contains information about the programming elements used with IP address controls.
-ms.assetid: 'ab89d354-9d0c-492b-af3f-a3180821f0e1'
+ms.assetid: ab89d354-9d0c-492b-af3f-a3180821f0e1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP Address Control
@@ -18,7 +23,7 @@ This section contains information about the programming elements used with IP ad
 
 
 
- 
+ 
 
 ### Macros
 
@@ -26,16 +31,16 @@ This section contains information about the programming elements used with IP ad
 
 | Topic                                         | Contents                                                                                                                              |
 |-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| [**FIRST\_IPADDRESS**](first-ipaddress.md)   | Extracts the field 0 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
-| [**FOURTH\_IPADDRESS**](fourth-ipaddress.md) | Extracts the field 3 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
-| [**MAKEIPADDRESS**](makeipaddress.md)        | Packs four byte-values into a single LPARAM suitable for use with the [**IPM\_SETADDRESS**](ipm-setaddress.md) message. <br/>  |
-| [**MAKEIPRANGE**](makeiprange.md)            | Packs two byte-values into a single LPARAM suitable for use with the [**IPM\_SETRANGE**](ipm-setrange.md) message. <br/>       |
-| [**SECOND\_IPADDRESS**](second-ipaddress.md) | Extracts the field 1 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
-| [**THIRD\_IPADDRESS**](third-ipaddress.md)   | Extracts the field 2 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
+| [**FIRST\_IPADDRESS**](/windows/win32/Commctrl/nf-commctrl-first_ipaddress?branch=master)   | Extracts the field 0 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
+| [**FOURTH\_IPADDRESS**](/windows/win32/Commctrl/nf-commctrl-fourth_ipaddress?branch=master) | Extracts the field 3 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
+| [**MAKEIPADDRESS**](/windows/win32/Commctrl/nf-commctrl-makeipaddress?branch=master)        | Packs four byte-values into a single LPARAM suitable for use with the [**IPM\_SETADDRESS**](ipm-setaddress.md) message. <br/>  |
+| [**MAKEIPRANGE**](/windows/win32/Commctrl/nf-commctrl-makeiprange?branch=master)            | Packs two byte-values into a single LPARAM suitable for use with the [**IPM\_SETRANGE**](ipm-setrange.md) message. <br/>       |
+| [**SECOND\_IPADDRESS**](/windows/win32/Commctrl/nf-commctrl-second_ipaddress?branch=master) | Extracts the field 1 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
+| [**THIRD\_IPADDRESS**](/windows/win32/Commctrl/nf-commctrl-third_ipaddress?branch=master)   | Extracts the field 2 value from a packed IP address retrieved with the [**IPM\_GETADDRESS**](ipm-getaddress.md) message. <br/> |
 
 
 
- 
+ 
 
 ### Messages
 
@@ -52,7 +57,7 @@ This section contains information about the programming elements used with IP ad
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -64,7 +69,7 @@ This section contains information about the programming elements used with IP ad
 
 
 
- 
+ 
 
 ### Structures
 
@@ -72,15 +77,15 @@ This section contains information about the programming elements used with IP ad
 
 | Topic                              | Contents                                                                                              |
 |------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**NMIPADDRESS**](nmipaddress.md) | Contains information for the [IPN\_FIELDCHANGED](ipn-fieldchanged.md) notification code. <br/> |
+| [**NMIPADDRESS**](/windows/win32/Commctrl/ns-commctrl-tagnmipaddress?branch=master) | Contains information for the [IPN\_FIELDCHANGED](ipn-fieldchanged.md) notification code. <br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the vertices and weights that a bone influences.'
-ms.assetid: '84cb064b-b6b2-402d-81cc-8c02de6f8b52'
-title: 'ID3DXSkinInfo::GetBoneInfluence method'
+---
+Description: Gets the vertices and weights that a bone influences.
+ms.assetid: 84cb064b-b6b2-402d-81cc-8c02de6f8b52
+title: ID3DXSkinInfoGetBoneInfluence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::GetBoneInfluence method

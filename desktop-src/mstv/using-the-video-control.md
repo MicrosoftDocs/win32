@@ -1,7 +1,12 @@
 ---
 title: Using the Video Control
 description: Using the Video Control
-ms.assetid: 'ff269a7a-3b9e-4125-8be1-594327e7177c'
+ms.assetid: ff269a7a-3b9e-4125-8be1-594327e7177c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Video Control

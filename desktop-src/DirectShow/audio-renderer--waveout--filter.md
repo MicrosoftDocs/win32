@@ -1,14 +1,19 @@
 ---
-Description: 'Audio Renderer (WaveOut) Filter'
-ms.assetid: 'a3f2776b-974b-4886-82a3-38e00b607a07'
-title: 'Audio Renderer (WaveOut) Filter'
+Description: Audio Renderer (WaveOut) Filter
+ms.assetid: a3f2776b-974b-4886-82a3-38e00b607a07
+title: Audio Renderer (WaveOut) Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Renderer (WaveOut) Filter
 
 This filter uses the waveOut\* API to render waveform audio. However, the [DirectSound Renderer Filter](directsound-renderer-filter.md) provides the same functionality using DirectSound. By default, the Filter Graph Manager uses the DirectSound Renderer instead of this filter. Audio mixing is disabled in the waveOut Audio Renderer, so if you need to mix multiple audio streams during playback, use the DirectSound renderer.
 
-This filter does not check the audio stream's subtype. The [**WAVEFORMAT**](https://msdn.microsoft.com/library/windows/desktop/dd757712) or [**WAVEFORMATEX**](waveformatex.md) structure passed in the format contains the information needed for the connection.
+This filter does not check the audio stream's subtype. The [**WAVEFORMAT**](https://msdn.microsoft.com/library/windows/desktop/dd757712) or [**WAVEFORMATEX**](/windows/win32/mmreg/?branch=master) structure passed in the format contains the information needed for the connection.
 
 This filter supports a range of sample rates that depends on the audio driver.
 
@@ -23,18 +28,18 @@ This filter supports a range of sample rates that depends on the audio driver.
 <tr class="odd">
 <td>Filter Interfaces</td>
 <td><ul>
-<li>[<strong>IAMAudioRendererStats</strong>](iamaudiorendererstats.md)</li>
-<li>[<strong>IAMClockSlave</strong>](iamclockslave.md)</li>
-<li>[<strong>IAMDirectSound</strong>](iamdirectsound.md)</li>
-<li>[<strong>IAMResourceControl</strong>](iamresourcecontrol.md)</li>
-<li>[<strong>IBaseFilter</strong>](ibasefilter.md)</li>
-<li>[<strong>IBasicAudio</strong>](ibasicaudio.md)</li>
-<li>[<strong>IMediaPosition</strong>](imediaposition.md)</li>
-<li>[<strong>IMediaSeeking</strong>](imediaseeking.md)</li>
+<li>[<strong>IAMAudioRendererStats</strong>](/windows/win32/Strmif/nn-strmif-iamaudiorendererstats?branch=master)</li>
+<li>[<strong>IAMClockSlave</strong>](/windows/win32/Strmif/nn-strmif-iamclockslave?branch=master)</li>
+<li>[<strong>IAMDirectSound</strong>](/windows/win32/Amaudio/nn-amaudio-iamdirectsound?branch=master)</li>
+<li>[<strong>IAMResourceControl</strong>](/windows/win32/Strmif/nn-strmif-iamresourcecontrol?branch=master)</li>
+<li>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</li>
+<li>[<strong>IBasicAudio</strong>](/windows/win32/Control/nn-control-ibasicaudio?branch=master)</li>
+<li>[<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master)</li>
+<li>[<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)</li>
 <li>IPersistPropertyBag</li>
 <li>IPersistStream</li>
-<li>[<strong>IQualityControl</strong>](iqualitycontrol.md)</li>
-<li>[<strong>IReferenceClock</strong>](ireferenceclock.md)</li>
+<li>[<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</li>
+<li>[<strong>IReferenceClock</strong>](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master)</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -44,9 +49,9 @@ This filter supports a range of sample rates that depends on the audio driver.
 <tr class="odd">
 <td>Input Pin Interfaces</td>
 <td><ul>
-<li>[<strong>IMemInputPin</strong>](imeminputpin.md)</li>
-<li>[<strong>IPin</strong>](ipin.md)</li>
-<li>[<strong>IQualityControl</strong>](iqualitycontrol.md)</li>
+<li>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)</li>
+<li>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master)</li>
+<li>[<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</li>
 </ul></td>
 </tr>
 <tr class="even">

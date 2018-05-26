@@ -1,7 +1,12 @@
 ---
 title: SSL Certificates
 description: Secure Sockets Layer (SSL) has become a standard for securing Internet connections and is used to prevent eavesdropping on the network. The SSL protocol allows a client and server to authenticate each other and negotiate encryption algorithms.
-ms.assetid: '2b78f609-473f-467b-8bf4-709b790bca53'
+ms.assetid: 2b78f609-473f-467b-8bf4-709b790bca53
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSL Certificates
@@ -12,7 +17,7 @@ SSL uses an encryption key and an encryption algorithm to secure the HTTP connec
 
 Server certificates must be stored in the HTTP Server API's local persistent storage, for use each time a secure connection is created. Each certificate store entry also contains the IP Address and port of the server, the certificate hash (used for signing the messages) and the application ID. The application ID is used to identify the application that owns the certificate.
 
-System administrators can store SSL server certificate information with the configuration APIs. An administrative tool calls the [**HttpSetServiceConfiguration**](httpsetserviceconfiguration.md) function and specifies HttpServiceConfigSSLCertInfo value for the service configuration parameter to set information for an SSL certificate. Only one server certificate can be configured for each IP Address and port pair on the machine. The HTTP Server API also provides [**query**](httpqueryserviceconfiguration.md) and [**delete**](httpdeleteserviceconfiguration.md) functions to access or delete existing certificates.
+System administrators can store SSL server certificate information with the configuration APIs. An administrative tool calls the [**HttpSetServiceConfiguration**](/windows/win32/Http/nf-http-httpsetserviceconfiguration?branch=master) function and specifies HttpServiceConfigSSLCertInfo value for the service configuration parameter to set information for an SSL certificate. Only one server certificate can be configured for each IP Address and port pair on the machine. The HTTP Server API also provides [**query**](/windows/win32/Http/nf-http-httpqueryserviceconfiguration?branch=master) and [**delete**](/windows/win32/Http/nf-http-httpdeleteserviceconfiguration?branch=master) functions to access or delete existing certificates.
 
  
 

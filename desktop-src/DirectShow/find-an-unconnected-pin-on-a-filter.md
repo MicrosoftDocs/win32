@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to find an unconnected pin on a filter. Finding an unconnected pin is useful when you are connecting filters.'
-ms.assetid: 'd0a906a8-bae4-43b3-8b02-ee5b97c9323d'
+Description: This topic describes how to find an unconnected pin on a filter. Finding an unconnected pin is useful when you are connecting filters.
+ms.assetid: d0a906a8-bae4-43b3-8b02-ee5b97c9323d
 title: Find an Unconnected Pin on a Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Find an Unconnected Pin on a Filter
@@ -10,7 +15,7 @@ This topic describes how to find an unconnected pin on a filter. Finding an unco
 
 In a typical DirectShow graph-building scenario, you need an unconnected pin that matches a particular pin direction (input or output). For example, when you connect two filters, you connect an output pin from one filter to an input pin from the other filter. Both pins must be unconnected before you connect them.
 
-First, we need a function that tests whether a pin is connected to another pin. This function calls the [**IPin::ConnectedTo**](ipin-connectedto.md) method to test whether the pin is connected to another pin.
+First, we need a function that tests whether a pin is connected to another pin. This function calls the [**IPin::ConnectedTo**](/windows/win32/Strmif/nf-strmif-ipin-connectedto?branch=master) method to test whether the pin is connected to another pin.
 
 
 ```C++
@@ -45,7 +50,7 @@ HRESULT IsPinConnected(IPin *pPin, BOOL *pResult)
 
  
 
-Next, we need a function that tests whether a pin matches a specified pin direction. This function calls the [**IPin::QueryDirection**](ipin-querydirection.md) method to get the pin direction.
+Next, we need a function that tests whether a pin matches a specified pin direction. This function calls the [**IPin::QueryDirection**](/windows/win32/Strmif/nf-strmif-ipin-querydirection?branch=master) method to get the pin direction.
 
 
 ```C++
@@ -95,7 +100,7 @@ HRESULT MatchPin(IPin *pPin, PIN_DIRECTION direction, BOOL bShouldBeConnected, B
 
 
 
-Finally, the following function uses the [**IEnumPins**](ienumpins.md) interface to loop through the pins on the filter. The caller specifies the desired pin direction. For each pin, the function calls `MatchPin` to test whether the pin is a match. If the direction matches and the pin is unconnected, the function returns a pointer to the matching pin in the *ppPin* parameter.
+Finally, the following function uses the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface to loop through the pins on the filter. The caller specifies the desired pin direction. For each pin, the function calls `MatchPin` to test whether the pin is a match. If the direction matches and the pin is unconnected, the function returns a pointer to the matching pin in the *ppPin* parameter.
 
 
 ```C++
@@ -154,7 +159,7 @@ For an example of how this function can be used, see [Connect Two Filters](conne
 [General Graph-Building Techniques](general-graph-building-techniques.md)
 </dt> <dt>
 
-[**ICaptureGraphBuilder2::FindPin**](icapturegraphbuilder2-findpin.md)
+[**ICaptureGraphBuilder2::FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master)
 </dt> </dl>
 
  

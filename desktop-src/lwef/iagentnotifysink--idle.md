@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink Idle
 description: IAgentNotifySink Idle
-ms.assetid: '7770a698-31d9-4f3a-9c7e-858c480b640e'
+ms.assetid: 7770a698-31d9-4f3a-9c7e-858c480b640e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::Idle

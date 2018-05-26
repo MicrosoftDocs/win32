@@ -1,7 +1,12 @@
 ---
-Description: 'Currently every installation that attempts to use the Windows Installer begins by checking whether the installer is present on the user''s computer, and if it is not present, whether the user and computer are ready to install Windows Installer.'
-ms.assetid: 'a5174284-2a8c-4510-accf-641fda5be98d'
+Description: Currently every installation that attempts to use the Windows Installer begins by checking whether the installer is present on the users computer, and if it is not present, whether the user and computer are ready to install Windows Installer.
+ms.assetid: a5174284-2a8c-4510-accf-641fda5be98d
 title: Bootstrapping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bootstrapping
@@ -10,25 +15,25 @@ Currently every installation that attempts to use the Windows Installer begins b
 
 The bootstrapping application must first check to see whether Windows Installer is currently installed. Applications can get the version of Windows Installer currently installed by using [**DllGetVersion**](_win32_dllgetversion_cpp). If Windows Installer is not currently installed, the bootstrapping application must query the operating system to determine which version of the Instmsi.exe is required. Once the installation of Windows Installer has initiated, the bootstrapping application must handle return codes from the Instmsi.exe application and handle any reboot that is incurred during the Windows Installer installation. For more information, see [Determining the Windows Installer Version](determining-the-windows-installer-version.md)
 
-The following example demonstrates how the setup application which installs Microsoft Office 2000 checks the user's system and configures the Windows Installer installation. This example is specifically written to install Office 2000 and should be used as a general reference only.
+The following example demonstrates how the setup application which installs Microsoft Office 2000 checks the user's system and configures the Windows Installer installation. This example is specifically written to install Office 2000 and should be used as a general reference only.
 
-When a user inserts an Office 2000 CD-ROM into their computer, Setup.exe attempts to launch the maintenance mode, the setup application, or does nothing at all, according to the user's needs. The following section describes how the Office 2000 setup application, named Setup.exe, qualifies the user and their computer, constructs a command line and installs Windows Installer using the Msiexec.exe application.
+When a user inserts an Office 2000 CD-ROM into their computer, Setup.exe attempts to launch the maintenance mode, the setup application, or does nothing at all, according to the user's needs. The following section describes how the Office 2000 setup application, named Setup.exe, qualifies the user and their computer, constructs a command line and installs Windows Installer using the Msiexec.exe application.
 
 ## How Setup.exe Bootstraps the Windows Installer when Installing Office 2000
 
-1.  The user inserts an Office 2000 CD-ROM into their computer. The Windows operating system initiates Setup.exe using the /autorun switch and the Autorun.inf file. The Autorun.inf file is found at the root of the Office 2000 CD-ROM and contains the following sections:
+1.  The user inserts an Office 2000 CD-ROM into their computer. The Windows operating system initiates Setup.exe using the /autorun switch and the Autorun.inf file. The Autorun.inf file is found at the root of the Office 2000 CD-ROM and contains the following sections:
 
     \[Autorun\]
 
-     
+     
 
     \[Office Features\]
 
-     
+     
 
     \[Product Information\]
 
-     
+     
 
     \[ServicePack\].
 
@@ -65,31 +70,31 @@ When a user inserts an Office 2000 CD-ROM into their computer, Setup.exe attempt
     SPLevel=3
     ```
 
-2.  The Setup.exe application checks for the \_MsiPromptForCD mutex. Windows Installer creates this mutex when it prompts the user to insert the CD-ROM. The presence of the mutex indicates that Windows Installer is running an installation that has requested the Office 2000 CD-ROM. In this case, the Setup.exe application exits immediately and allows the Office 2000 installation to continue. If the mutex is absent, the Setup.exe application continues at step 3 where a registry key is evaluated to determine if Office 2000 is installed.
+2.  The Setup.exe application checks for the \_MsiPromptForCD mutex. Windows Installer creates this mutex when it prompts the user to insert the CD-ROM. The presence of the mutex indicates that Windows Installer is running an installation that has requested the Office 2000 CD-ROM. In this case, the Setup.exe application exits immediately and allows the Office 2000 installation to continue. If the mutex is absent, the Setup.exe application continues at step 3 where a registry key is evaluated to determine if Office 2000 is installed.
 3.  The Setup.exe application checks the presence of the Office9 registry key:
 
     **HKCU/Software/Microsoft/Office/9.0/Common/General/InstallProductID**
 
-    If this registry key does not exist, the Setup.exe application continues at step 6 where the operating system is checked to determine if it qualifies for the installation of Office 2000.
+    If this registry key does not exist, the Setup.exe application continues at step 6 where the operating system is checked to determine if it qualifies for the installation of Office 2000.
 
-4.  If the Office 2000 registry key exists, the Setup.exe application checks the current installation state by calling [**MsiQueryProductState**](msiqueryproductstate.md). A return state of InstallState\_Default indicates that Office 2000 is already installed and the Setup.exe application continues at step 5 where the Office 2000 is checked for run from source.
+4.  If the Office 2000 registry key exists, the Setup.exe application checks the current installation state by calling [**MsiQueryProductState**](/windows/win32/Msi/nf-msi-msiqueryproductstatea?branch=master). A return state of InstallState\_Default indicates that Office 2000 is already installed and the Setup.exe application continues at step 5 where the Office 2000 is checked for run from source.
 
-    If Office 2000 is not installed, the Setup.exe application continues at step 6 where the operating system is checked to determine if it qualifies for the installation of Office 2000.
+    If Office 2000 is not installed, the Setup.exe application continues at step 6 where the operating system is checked to determine if it qualifies for the installation of Office 2000.
 
-5.  The Setup.exe application calls [**MsiQueryFeatureState**](msiqueryfeaturestate.md) for each of the features in the **\[OfficeFeatures\]** section of the Autorun.inf file. If any of these features returns INSTALLSTATE\_SOURCE, this indicates that the feature is being run from source and the Setup.exe application exits immediately.
+5.  The Setup.exe application calls [**MsiQueryFeatureState**](/windows/win32/Msi/nf-msi-msiqueryfeaturestatea?branch=master) for each of the features in the **\[OfficeFeatures\]** section of the Autorun.inf file. If any of these features returns INSTALLSTATE\_SOURCE, this indicates that the feature is being run from source and the Setup.exe application exits immediately.
 
     If none of the features returns INSTALLSTATE\_SOURCE, the Setup.exe application launches the installer application, Msiexec.exe, and presents the Windows Installer maintenance mode before exiting.
 
-6.  The Setup.exe application determines whether the operating system qualifies for an installation of Office 2000. Windows XP is required to install Office 2000. If the operating system requires a service pack update to qualify for Office 2000, the Setup.exe application displays the text specified in the Autorun.inf file. If the operating system does not qualify for Office 2000 or an upgrade of Office 2000, the Setup.exe application displays a message that prevents the user from continuing.
+6.  The Setup.exe application determines whether the operating system qualifies for an installation of Office 2000. Windows XP is required to install Office 2000. If the operating system requires a service pack update to qualify for Office 2000, the Setup.exe application displays the text specified in the Autorun.inf file. If the operating system does not qualify for Office 2000 or an upgrade of Office 2000, the Setup.exe application displays a message that prevents the user from continuing.
 
-    If the operating system qualifies for Office 2000, the Setup.exe application continues at step 7, which determines whether Windows Installer is installed on the user's computer.
+    If the operating system qualifies for Office 2000, the Setup.exe application continues at step 7, which determines whether Windows Installer is installed on the user's computer.
 
-7.  If Windows Installer exists on the user's machine, the Setup.exe application launches the Msiexec.exe application and passes the Office 2000 .msi file to it.
+7.  If Windows Installer exists on the user's machine, the Setup.exe application launches the Msiexec.exe application and passes the Office 2000 .msi file to it.
 
     If Windows Installer is not installed on the local machine, the Setup.exe application continues at step 8, which determines whether the operating system qualifies to have Windows Installer installed.
 
 8.  If the local computer is eligible to have Windows Installer installed, the Setup.exe application runs the correct version of the Instmsi.exe installer application for the platform. Setup.exe may pass the "/q" command line switch to suppress the user interface and prevent the user from changing any installation configuration options.
-9.  The Setup.exe application loads the newly installed Msi.dll file and performs a call to the [**MsiInstallProduct**](msiinstallproduct.md) function to install the user's application.
+9.  The Setup.exe application loads the newly installed Msi.dll file and performs a call to the [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master) function to install the user's application.
 
 ## Setup.exe Command Line Parameters
 
@@ -101,16 +106,16 @@ The Setup.exe application enables administrators and users to pass command line 
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | /autorun                     | setup.exe /autorun                                                                                                                           | Runs the Autorun.inf described above.                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | /a                           | setup.exe /a                                                                                                                                 | Initiates an administrative installation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| /j                           | \[u\|m\]*Package*or <br/> \[u\|m\]*Package* /t *Transform List*<br/> or <br/> \[u\|m\]*Package* /g *LanguageID*<br/> | Advertises a product. This option ignores any property values entered on the command line. u – Advertise to the current user.<br/> m – Advertise to all users of machine.<br/> g – Language identifier<br/> t – Applies transform to advertised package.<br/>                                                                                                                                                                                                                        |
+| /j                           | \[u\|m\]*Package*or <br/> \[u\|m\]*Package* /t *Transform List*<br/> or <br/> \[u\|m\]*Package* /g *LanguageID*<br/> | Advertises a product. This option ignores any property values entered on the command line. u   Advertise to the current user.<br/> m   Advertise to all users of machine.<br/> g   Language identifier<br/> t   Applies transform to advertised package.<br/>                                                                                                                                                                                                                        |
 | /I                           | setup.exe /I Office9.msi /t ProgramMgmt.mst                                                                                                  | Specifies the .msi file that Setup.exe is to install. If the /I option is not included, Setup.exe uses the Office9.msi file.                                                                                                                                                                                                                                                                                                                                                                                 |
 | /o&lt;*property*=*value*&gt; | setup.exe /o CDKEY=111111-1111                                                                                                               | Sets properties in the .msi file. Setup.exe passes these it to msiexec as written.                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| /q                           | setup.exe /q                                                                                                                                 | Set the UI level the installation. /q – no UI (/qn – for msiexec.) /qb – basic UI<br/> /qr – reduced UI.<br/>                                                                                                                                                                                                                                                                                                                                                                                    |
+| /q                           | setup.exe /q                                                                                                                                 | Set the UI level the installation. /q   no UI (/qn   for msiexec.) /qb   basic UI<br/> /qr   reduced UI.<br/>                                                                                                                                                                                                                                                                                                                                                                                    |
 | /m\#                         | setup.exe /m4                                                                                                                                | Supports multiple licenses in accordance with Select agreements. This property is used in by the License Verification custom action to write the LV certificate. The /m option must be followed by the number of unlocks allowed. The value specified by the /m option should be set as the "M" property in the Office9.msi file. If no value is specified, but the /m option is used with setup, the value of 0 should be set. The /m option is required to support Select customers using a CD or network. |
-| /settings                    | setup.exe /settings mysettings.ini                                                                                                           | Enables administrators to specify an .ini file containing all of the customized settings to be passed during Office 2000 setup. See the description of the .ini file below.                                                                                                                                                                                                                                                                                                                                  |
+| /settings                    | setup.exe /settings mysettings.ini                                                                                                           | Enables administrators to specify an .ini file containing all of the customized settings to be passed during Office 2000 setup. See the description of the .ini file below.                                                                                                                                                                                                                                                                                                                                  |
 
 
 
- 
+ 
 
 ## Using an .ini File
 
@@ -120,63 +125,63 @@ The format of the .ini file is:
 
 \[msi\]
 
- 
+ 
 
 \[mst\]
 
- 
+ 
 
 \[options\]
 
- 
+ 
 
 \[Display\]
 
 The \[msi\] section of the .ini file specifies the path to the installation package for the installation. This corresponds to the /I option on the command line.
 
-The \[mst\] section of the .ini file specifies the path to transforms used with this installation. This corresponds to the /j option on the command line. Multiple transforms are each indicated on a different line, using MST1 — MST(N). When parsed into the command line, the list in the .ini file is turned from left to right. Note that the number associated with the MST(N) title is present only to maintain unique identifiers and has no programmatic meaning.
+The \[mst\] section of the .ini file specifies the path to transforms used with this installation. This corresponds to the /j option on the command line. Multiple transforms are each indicated on a different line, using MST1   MST(N). When parsed into the command line, the list in the .ini file is turned from left to right. Note that the number associated with the MST(N) title is present only to maintain unique identifiers and has no programmatic meaning.
 
 The \[options\] section allows network administrators to set and override properties in the .msi or .mst files. Options set in the .ini file are added to the command line using the /o option. Each option in the option section must have a property name and a value.
 
-The \[Display\] section is used to set the user interface level used during setup. This corresponds to the /q option on the command line. Valid values are — none, basic, reduced, and full.
+The \[Display\] section is used to set the user interface level used during setup. This corresponds to the /q option on the command line. Valid values are   none, basic, reduced, and full.
 
 Sample .ini file
 
 \[MSI\]
 
- 
+ 
 
 MSI=\\\\sourceshare\\Office2000\\Office2000.msi
 
- 
+ 
 
 \[MST\]
 
- 
+ 
 
 MST1=\\\\sourceshare\\Office2000\\trns1.mst
 
- 
+ 
 
 MST2=\\\\sourceshare\\Office2000\\trns2.mst
 
- 
+ 
 
 \[Options\]
 
- 
+ 
 
 PUBLICPROPERTY=your value
 
 \[Display\]
 
- 
+ 
 
 Display=None
 
- 
+ 
 
- 
+ 
 
 
 

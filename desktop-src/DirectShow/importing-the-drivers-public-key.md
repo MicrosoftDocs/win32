@@ -1,7 +1,12 @@
 ---
 Description: Importing the Drivers Public Key
-ms.assetid: '9bab0e43-6e9f-4cdb-bfd0-cdafcc12d526'
+ms.assetid: 9bab0e43-6e9f-4cdb-bfd0-cdafcc12d526
 title: Importing the Drivers Public Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing the Drivers Public Key

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GETINFO\_MEMORY structure is used as input to the UNIFONTOBJ\_GetInfo callback function.'
-ms.assetid: 'd6730599-a8f0-4bea-9ee4-47a60249271d'
-title: 'GETINFO\_MEMORY structure'
+---
+Description: The GETINFO\_MEMORY structure is used as input to the UNIFONTOBJ\_GetInfo callback function.
+ms.assetid: d6730599-a8f0-4bea-9ee4-47a60249271d
+title: GETINFO\_MEMORY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GETINFO\_MEMORY structure

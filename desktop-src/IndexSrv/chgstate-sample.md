@@ -1,17 +1,22 @@
 ---
 title: ChgState Sample
 description: ChgState Sample
-ms.assetid: 'db0a624b-4788-42b2-aa38-569cfc1d3a9d'
+ms.assetid: db0a624b-4788-42b2-aa38-569cfc1d3a9d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChgState Sample
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
-The ChgState example is a command-line application written in C++ that can either report the current state of a catalog or change the state of the catalog using the [**SetCatalogState**](setcatalogstate.md) function of the OLE DB Helper API.
+The ChgState example is a command-line application written in C++ that can either report the current state of a catalog or change the state of the catalog using the [**SetCatalogState**](/windows/win32/Ntquery/nf-ntquery-setcatalogstate?branch=master) function of the OLE DB Helper API.
 
 Source: mssdk\\samples\\winbase\\indexing\\ChgState\\
 
@@ -39,11 +44,11 @@ Source: mssdk\\samples\\winbase\\indexing\\ChgState\\
 
     
 
-     
+     
 
 ## Programming Notes
 
-The previous state of the specified catalog is always returned in the *dwOldState* parameter of the [**SetCatalogState**](setcatalogstate.md) function and printed by the sample.
+The previous state of the specified catalog is always returned in the *dwOldState* parameter of the [**SetCatalogState**](/windows/win32/Ntquery/nf-ntquery-setcatalogstate?branch=master) function and printed by the sample.
 
 The state of the catalog will change to the new, specified state if that state does not violate read-only rules for the catalog. If the catalog resides on a read-only medium, the catalog is specified as read-only in the registry, or if the file cicat.hsh is set to read-only, the catalog is set to read-only even when the read/write state is requested.
 
@@ -74,9 +79,9 @@ Set the catalog CATALOGNAME on machine SERVERNAME to the Read-only state. (The c
 
 **chgstate /a:RO /c:CATALOGNAME /m:SERVERNAME**
 
- 
+ 
 
- 
+ 
 
 
 

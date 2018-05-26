@@ -1,8 +1,10 @@
 ---
 title: ICatalog interface
 description: State object, holds open catalog and all info about catalog
-ms.assetid: '6d09032b-3311-434b-b8db-97e3ee2f5f67'
-keywords: ["ICatalog interface HelpAPI", "ICatalog interface HelpAPI , described"]
+ms.assetid: 6d09032b-3311-434b-b8db-97e3ee2f5f67
+keywords:
+- ICatalog interface HelpAPI
+- ICatalog interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - adomd.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalog interface
@@ -40,7 +47,7 @@ The **ICatalog** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +62,7 @@ The **ICatalog** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,16 +70,16 @@ The **ICatalog** interface has these properties.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Adomd.h</dt> </dl>                  |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

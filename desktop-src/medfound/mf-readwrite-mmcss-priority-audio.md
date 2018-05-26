@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the base priority for audio-processing threads created by the Source Reader or Sink Writer.'
-ms.assetid: 'C0E3A472-959F-4F74-8906-03630DE4CB8C'
-title: 'MF\_READWRITE\_MMCSS\_PRIORITY\_AUDIO attribute'
+---
+Description: Sets the base priority for audio-processing threads created by the Source Reader or Sink Writer.
+ms.assetid: C0E3A472-959F-4F74-8906-03630DE4CB8C
+title: MF\_READWRITE\_MMCSS\_PRIORITY\_AUDIO attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_READWRITE\_MMCSS\_PRIORITY\_AUDIO attribute
@@ -14,9 +19,9 @@ Sets the base priority for audio-processing threads created by the Source Reader
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 

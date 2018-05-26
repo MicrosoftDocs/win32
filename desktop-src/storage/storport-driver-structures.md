@@ -1,7 +1,12 @@
 ---
 title: Storport Driver Structures
 description: Storport Driver Structures
-ms.assetid: '03d7a756-c76a-495d-9594-1085ded95c61'
+ms.assetid: 03d7a756-c76a-495d-9594-1085ded95c61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storport Driver Structures

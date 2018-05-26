@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayPreAuthServerAddr property
-description: Specifies or retrieves the web address of the pre-authentication server, which is used for the Remote Desktop Gateway (RD Gateway) one-time password (OTP) feature.
+description: Specifies or retrieves the web address of the pre-authentication server, which is used for the Remote Desktop Gateway (RD Gateway) one-time password (OTP) feature.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '14edad82-ab19-46fe-b878-d34298763c56'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 14edad82-ab19-46fe-b878-d34298763c56
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayPreAuthServerAddr property Remote Desktop Services", "GatewayPreAuthServerAddr property Remote Desktop Services , IMsRdpClientTransportSettings2 interface", "IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayPreAuthServerAddr property"]
+keywords:
+- GatewayPreAuthServerAddr property Remote Desktop Services
+- GatewayPreAuthServerAddr property Remote Desktop Services , IMsRdpClientTransportSettings2 interface
+- IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayPreAuthServerAddr property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings2::GatewayPreAuthServerAddr property
 
-Specifies or retrieves the web address of the pre-authentication server, which is used for the Remote Desktop Gateway (RD Gateway) one-time password (OTP) feature.
+Specifies or retrieves the web address of the pre-authentication server, which is used for the Remote Desktop Gateway (RD Gateway) one-time password (OTP) feature.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayPreAuthServerAddr(
-  [in]  BSTR bstrProxyPreAuthServerAddr
+  [in]  BSTR bstrProxyPreAuthServerAddr
 );
 
 HRESULT get_GatewayPreAuthServerAddr(
-  [out] BSTR *pbstrProxyPreAuthServerAddr
+  [out] BSTR *pbstrProxyPreAuthServerAddr
 );
 ```
 
@@ -56,8 +62,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings2 is defined as 67341688-D606-4c73-A5D2-2E0489009319<br/> |
@@ -74,9 +80,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The subject field of a PKCS \#10 certificate request contains the distinguished name of the entity requesting the certificate.'
-ms.assetid: '6c35ce42-07be-4d47-a14e-ed5a361dbe33'
+Description: The subject field of a PKCS \#10 certificate request contains the distinguished name of the entity requesting the certificate.
+ms.assetid: 6c35ce42-07be-4d47-a14e-ed5a361dbe33
 title: Subject Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject Names

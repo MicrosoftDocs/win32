@@ -1,14 +1,20 @@
 ---
 title: VIDEO.maintainAspectRatio
 description: The maintainAspectRatio attribute specifies or retrieves a value indicating whether the video will maintain its aspect ratio when trying to fit within the width and height defined for the control.
-ms.assetid: '42ac2196-b747-48d5-868d-7f7e5eb8dabb'
-keywords: ["VIDEO.maintainAspectRatio Windows Media Player"]
+ms.assetid: 42ac2196-b747-48d5-868d-7f7e5eb8dabb
+keywords:
+- VIDEO.maintainAspectRatio Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.maintainAspectRatio
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.maintainAspectRatio
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read/write **Boolean**.
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

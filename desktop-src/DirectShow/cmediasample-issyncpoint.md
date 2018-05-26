@@ -1,12 +1,17 @@
 ---
-Description: 'The IsSyncPoint method determines if the beginning of the sample is a synchronization point. This method implements the IMediaSample::IsSyncPoint method.'
-ms.assetid: 'e57f78f4-7bb9-4e23-bcb4-55ad7ab5482c'
-title: 'CMediaSample.IsSyncPoint method'
+Description: The IsSyncPoint method determines if the beginning of the sample is a synchronization point. This method implements the IMediaSampleIsSyncPoint method.
+ms.assetid: e57f78f4-7bb9-4e23-bcb4-55ad7ab5482c
+title: CMediaSample.IsSyncPoint method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.IsSyncPoint method
 
-The `IsSyncPoint` method determines if the beginning of the sample is a synchronization point. This method implements the [**IMediaSample::IsSyncPoint**](imediasample-issyncpoint.md) method.
+The `IsSyncPoint` method determines if the beginning of the sample is a synchronization point. This method implements the [**IMediaSample::IsSyncPoint**](/windows/win32/Strmif/nf-strmif-imediasample-issyncpoint?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ The [**CMediaSample::m\_dwFlags**](cmediasample-m-dwflags.md) member variable sp
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

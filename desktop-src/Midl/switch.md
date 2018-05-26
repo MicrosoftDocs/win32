@@ -2,13 +2,19 @@
 title: switch attribute
 description: The switch keyword selects the discriminant for an encapsulated\_union.
 ms.assetid: 66179b68-852f-4943-9105-e9fb310f3c2e
-keywords: ["switch attribute MIDL"]
+keywords:
+- switch attribute MIDL
 topic_type:
 - apiref
 api_name:
 - switch
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # switch attribute

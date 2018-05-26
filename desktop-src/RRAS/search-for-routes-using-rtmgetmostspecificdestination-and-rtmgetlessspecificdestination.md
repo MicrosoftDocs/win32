@@ -1,12 +1,17 @@
 ---
 title: Search for Routes Using a Prefix Tree
 description: The following sample code shows how to use RtmGetMostSpecificDestination and RtmGetLessSpecificDestination to walk up the prefix tree in the routing table.
-ms.assetid: '14e8e87f-c76c-48ad-93b5-0d8a711148d6'
+ms.assetid: 14e8e87f-c76c-48ad-93b5-0d8a711148d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Search for Routes Using a Prefix Tree
 
-The following sample code shows how to use [**RtmGetMostSpecificDestination**](rtmgetmostspecificdestination.md) and [**RtmGetLessSpecificDestination**](rtmgetlessspecificdestination.md) to walk up the prefix tree in the routing table.
+The following sample code shows how to use [**RtmGetMostSpecificDestination**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetmostspecificdestination?branch=master) and [**RtmGetLessSpecificDestination**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetlessspecificdestination?branch=master) to walk up the prefix tree in the routing table.
 
 
 ```C++

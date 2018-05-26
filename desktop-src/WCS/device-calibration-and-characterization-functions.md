@@ -1,8 +1,37 @@
 ---
 title: Device Calibration and Characterization Functions
 description: The following functions are useful for writing device calibration and characterization tools needed for installing and calibrating color display devices such as monitors and printers.
-ms.assetid: 'e66115cc-b6a9-4df5-b774-38619881bdb0'
-keywords: ["Windows Color System (WCS),functions", "WCS (Windows Color System),functions", "image color management,functions", "color management,functions", "colors,functions", "WCS reference,functions", "reference for WCS,functions", "Windows Color System (WCS),device calibration", "WCS (Windows Color System),device calibration", "image color management,device calibration", "color management,device calibration", "colors,device calibration", "WCS reference,device calibration", "reference for WCS,device calibration", "Windows Color System (WCS),characterization", "WCS (Windows Color System),characterization", "image color management,characterization", "color management,characterization", "colors,characterization", "WCS reference,characterization", "reference for WCS,characterization", "device calibration", "calibration", "characterization"]
+ms.assetid: e66115cc-b6a9-4df5-b774-38619881bdb0
+keywords:
+- Windows Color System (WCS),functions
+- WCS (Windows Color System),functions
+- image color management,functions
+- color management,functions
+- colors,functions
+- WCS reference,functions
+- reference for WCS,functions
+- Windows Color System (WCS),device calibration
+- WCS (Windows Color System),device calibration
+- image color management,device calibration
+- color management,device calibration
+- colors,device calibration
+- WCS reference,device calibration
+- reference for WCS,device calibration
+- Windows Color System (WCS),characterization
+- WCS (Windows Color System),characterization
+- image color management,characterization
+- color management,characterization
+- colors,characterization
+- WCS reference,characterization
+- reference for WCS,characterization
+- device calibration
+- calibration
+- characterization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Calibration and Characterization Functions

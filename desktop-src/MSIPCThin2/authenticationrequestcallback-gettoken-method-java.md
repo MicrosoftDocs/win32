@@ -4,17 +4,21 @@ description: Gets the token.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7CCFA55A-E9E0-43EF-86A2-ED5B9933C3A3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7CCFA55A-E9E0-43EF-86A2-ED5B9933C3A3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AuthenticationRequestCallback.getToken method"]
+keywords:
+- AuthenticationRequestCallback.getToken method
 topic_type:
 - apiref
 api_name:
 - AuthenticationRequestCallback.getToken method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationRequestCallback.getToken method
@@ -69,7 +73,7 @@ public void getToken(Map<String, String> authenticationParameters,
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -85,11 +89,11 @@ AuthenticaionRequestCallback.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

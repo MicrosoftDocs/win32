@@ -1,7 +1,12 @@
 ---
-Description: 'In each major release of Windows, there are fonts added to support international languages and scripts.'
-ms.assetid: '77b8c200-2682-4651-855a-602f768edc9b'
+Description: In each major release of Windows, there are fonts added to support international languages and scripts.
+ms.assetid: 77b8c200-2682-4651-855a-602f768edc9b
 title: International Font Enumeration and Selection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # International Font Enumeration and Selection
@@ -12,7 +17,7 @@ In each major release of Windows, there are fonts added to support international
 
 To enumerate international fonts in your application, you can use the [**EnumFontFamiliesEx**](gdi.enumfontfamiliesex) function. **EnumFontFamiliesEx** allows you to enumerate fonts based on typeface name and charset by passing in a pointer to a [**LOGFONT**](gdi.logfont) structure that contains the typeface name and charset information. To call **EnumFontFamiliesEx**, you can either specify a typeface name or a charset, or you can ask for whatever is available. Setting the typeface name of the **LOGFONT** to **NULL** enumerates all typeface names. Setting the charset field to **DEFAULT\_CHARSET** enumerates all charsets.
 
-Note that charsets are a legacy notion corresponding to pre-Unicode character sets. At this time, there is no mechanism to enumerate fonts supporting arbitrary scripts or character ranges in Unicode. The [**NEWTEXTMETRICEX**](gdi.newtextmetricex) structure passed by [**EnumFontFamExProc**](gdi.enumfontfamexproc) includes the [**FONTSIGNATURE**](fontsignature.md) structure, which includes more detailed declarations provided by the font developer as to what code pages and what Unicode ranges the font supports. To determine more precisely what character ranges a given font supports, select the font into a device context and call [**GetFontUnicodeRanges**](gdi.getfontunicoderanges). Note that this API does not support Unicode supplementary planes.
+Note that charsets are a legacy notion corresponding to pre-Unicode character sets. At this time, there is no mechanism to enumerate fonts supporting arbitrary scripts or character ranges in Unicode. The [**NEWTEXTMETRICEX**](gdi.newtextmetricex) structure passed by [**EnumFontFamExProc**](gdi.enumfontfamexproc) includes the [**FONTSIGNATURE**](/windows/win32/Wingdi/ns-wingdi-tagfontsignature?branch=master) structure, which includes more detailed declarations provided by the font developer as to what code pages and what Unicode ranges the font supports. To determine more precisely what character ranges a given font supports, select the font into a device context and call [**GetFontUnicodeRanges**](gdi.getfontunicoderanges). Note that this API does not support Unicode supplementary planes.
 
 ## ChooseFont
 

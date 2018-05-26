@@ -1,7 +1,12 @@
 ---
-Description: 'The EXPERTCONFIG structure contains the configuration data of the expert. The expert overlays the RawConfigData member with an expert-specific structure.'
-ms.assetid: '6167e846-d58c-40a8-94f7-c6d6185ae724'
+Description: The EXPERTCONFIG structure contains the configuration data of the expert. The expert overlays the RawConfigData member with an expert-specific structure.
+ms.assetid: 6167e846-d58c-40a8-94f7-c6d6185ae724
 title: EXPERTCONFIG structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXPERTCONFIG structure
@@ -14,7 +19,7 @@ The **EXPERTCONFIG** structure contains the configuration data of the expert. Th
 ```C++
 typedef struct {
   DWORD RawConfigLength;
-  BYTE  RawConfigData[];
+  BYTE  RawConfigData[];
 } EXPERTCONFIG, *PEXPERTCONFIG;
 ```
 
@@ -76,15 +81,15 @@ BOOL WINAPI Configure(
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The TitlesAvailable property retrieves the number of titles available on the disc.'
-ms.assetid: '821ab1dc-7a42-407f-8fcd-8662036a6fa5'
+Description: The TitlesAvailable property retrieves the number of titles available on the disc.
+ms.assetid: 821ab1dc-7a42-407f-8fcd-8662036a6fa5
 title: TitlesAvailable Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TitlesAvailable Property

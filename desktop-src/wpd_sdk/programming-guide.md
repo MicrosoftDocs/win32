@@ -1,7 +1,12 @@
 ---
 Description: Programming Guide
-ms.assetid: '87777b0b-a7a0-4032-99bb-92b717d3c452'
+ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 title: Programming Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide

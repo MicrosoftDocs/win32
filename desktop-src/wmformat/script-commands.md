@@ -1,8 +1,24 @@
 ---
 title: Script Commands
 description: Script Commands
-ms.assetid: 'b8d7d4d3-c0d3-4b09-b5dd-1c6bbc3f2020'
-keywords: ["Windows Media Format SDK,script commands", "Advanced Systems Format (ASF),script commands", "ASF (Advanced Systems Format),script commands", "Windows Media Format SDK,script streams", "Advanced Systems Format (ASF),script streams", "ASF (Advanced Systems Format),script streams", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "scripts,commands", "scripts,streams"]
+ms.assetid: b8d7d4d3-c0d3-4b09-b5dd-1c6bbc3f2020
+keywords:
+- Windows Media Format SDK,script commands
+- Advanced Systems Format (ASF),script commands
+- ASF (Advanced Systems Format),script commands
+- Windows Media Format SDK,script streams
+- Advanced Systems Format (ASF),script streams
+- ASF (Advanced Systems Format),script streams
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- scripts,commands
+- scripts,streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Script Commands

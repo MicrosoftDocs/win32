@@ -1,7 +1,12 @@
 ---
 title: CiCatalogFlags
 description: CiCatalogFlags
-ms.assetid: 'a3e1be38-5b7f-42ed-bc25-fd2600e725ad'
+ms.assetid: a3e1be38-5b7f-42ed-bc25-fd2600e725ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiCatalogFlags

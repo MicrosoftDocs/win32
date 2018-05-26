@@ -1,14 +1,20 @@
 ---
 title: InterlockedCompareStore function
 description: Ccompares the input to the comparison value, atomically.
-ms.assetid: 'd82a73b6-24a5-4eb3-9f20-15ba263c93d0'
-keywords: ["InterlockedCompareStore function HLSL"]
+ms.assetid: d82a73b6-24a5-4eb3-9f20-15ba263c93d0
+keywords:
+- InterlockedCompareStore function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedCompareStore
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedCompareStore function

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the drive for the storage is portable.'
-ms.assetid: 'd9ac5df6-9f25-4f11-a7fd-63cdc0060d8b'
-title: 'System.Storage.Portable'
+Description: Indicates if the drive for the storage is portable.
+ms.assetid: d9ac5df6-9f25-4f11-a7fd-63cdc0060d8b
+title: System.Storage.Portable
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Storage.Portable

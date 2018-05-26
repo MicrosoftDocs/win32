@@ -1,8 +1,18 @@
 ---
 title: Processing the MM\_WOM\_DONE Message
 description: Processing the MM\_WOM\_DONE Message
-ms.assetid: '215167d0-3020-453d-b6b3-cee5803836c9'
-keywords: ["waveform audio,messages", "auxiliary audio,messages", "waveform audio,MM_WOM_DONE message", "auxiliary audio,MM_WOM_DONE message", "MM_WOM_DONE message"]
+ms.assetid: 215167d0-3020-453d-b6b3-cee5803836c9
+keywords:
+- waveform audio,messages
+- auxiliary audio,messages
+- waveform audio,MM_WOM_DONE message
+- auxiliary audio,MM_WOM_DONE message
+- MM_WOM_DONE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing the MM\_WOM\_DONE Message

@@ -4,10 +4,13 @@ description: You use the Remote Desktop Protocol Provider API to create a protoc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dd14c569-195e-460e-a1c3-2a74d0f49ff5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: dd14c569-195e-460e-a1c3-2a74d0f49ff5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Protocol Provider API

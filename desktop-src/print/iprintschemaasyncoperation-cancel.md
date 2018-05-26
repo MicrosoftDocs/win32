@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cancels the asynchronous PrintSchema operation.'
-ms.assetid: '08DC764B-4410-4D7C-B199-29E38BA09CA6'
-title: 'IPrintSchemaAsyncOperation::Cancel method'
+---
+Description: Cancels the asynchronous PrintSchema operation.
+ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
+title: IPrintSchemaAsyncOperationCancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaAsyncOperation::Cancel method

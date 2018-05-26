@@ -1,7 +1,12 @@
 ---
 title: About Creating Information Types
 description: About Creating Information Types
-ms.assetid: 'BCA23A9B-3163-4fbd-898B-990CF1565167'
+ms.assetid: BCA23A9B-3163-4fbd-898B-990CF1565167
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Creating Information Types

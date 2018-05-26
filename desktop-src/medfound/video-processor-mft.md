@@ -1,7 +1,12 @@
-﻿---
-Description: 'The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, and mirroring.'
-ms.assetid: '1476995A-9692-4B08-8EF7-7DB6321BEC24'
+---
+Description: The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, and mirroring.
+ms.assetid: 1476995A-9692-4B08-8EF7-7DB6321BEC24
 title: Video Processor MFT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Processor MFT
@@ -14,9 +19,9 @@ CLSID\_VideoProcessorMFT
 
 ## Interfaces
 
--   [**IMFRealTimeClientEx**](imfrealtimeclientex.md)
--   [**IMFTransform**](imftransform.md)
--   [**IMFVideoProcessorControl**](imfvideoprocessorcontrol.md)
+-   [**IMFRealTimeClientEx**](/windows/win32/mfidl/nn-mfidl-imfrealtimeclientex?branch=master)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
+-   [**IMFVideoProcessorControl**](/windows/win32/mfidl/nn-mfidl-imfvideoprocessorcontrol?branch=master)
 
 ## Input Formats
 
@@ -57,7 +62,7 @@ CLSID\_VideoProcessorMFT
 -   **MFVideoFormat\_YUY2**
 -   **MFVideoFormat\_YV12**
 
-Not every combination of input and output formats is supported. To test whether a conversion is supported, set the input type and then call [**IMFTransform::GetOutputAvailableType**](imftransform-getoutputavailabletype.md).
+Not every combination of input and output formats is supported. To test whether a conversion is supported, set the input type and then call [**IMFTransform::GetOutputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master).
 
 For more information about these formats, see [Video Subtype GUIDs](video-subtype-guids.md).
 
@@ -65,10 +70,10 @@ For more information about these formats, see [Video Subtype GUIDs](video-subtyp
 
 An instance of the video processor can be created in one of the following ways:
 
--   By calling [**MFTEnumEx**](mftenumex.md). The video processor is registered under the **MFT\_CATEGORY\_VIDEO\_PROCESSOR** category.
+-   By calling [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master). The video processor is registered under the **MFT\_CATEGORY\_VIDEO\_PROCESSOR** category.
 -   By calling the COM function **CoCreateInstance** passing it the CLSID **CLSID\_VideoProcessorMFT**.
 
-The following remarks pertain to working with source rectangles and destination rectangles in the **Video Processor MFT**. Source and destination rectangles are set with [**IMFVideoProcessorControl::SetDestinationRectangle**](imfvideoprocessorcontrol-setdestinationrectangle.md) and [**SetSourceRectangle**](imfvideoprocessorcontrol-setsourcerectangle.md) and some times with [**IMFMediaEngineEx::UpdateVideoStream**](imfmediaengineex-updatevideostream.md).
+The following remarks pertain to working with source rectangles and destination rectangles in the **Video Processor MFT**. Source and destination rectangles are set with [**IMFVideoProcessorControl::SetDestinationRectangle**](/windows/win32/mfidl/nf-mfidl-imfvideoprocessorcontrol-setdestinationrectangle?branch=master) and [**SetSourceRectangle**](/windows/win32/mfidl/nf-mfidl-imfvideoprocessorcontrol-setsourcerectangle?branch=master) and some times with [**IMFMediaEngineEx::UpdateVideoStream**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineex-updatevideostream?branch=master).
 
 -   The source rectangle should be aligned and rounded to match the requirements of the color format of the frame inputted to the video processor. This is important because formats like 420 and 422 have requirements about the dimensions and offsets that can be created and accessed. For example, a source rectangle of {1, 0, 319, 240} (left, top, right, bottom) will be rounded to {2, 0, 320, 240} when the input format is 420.
 -   Both the destination and source rectangle will always be clamped to fit inside their respective frames—the source rectangle to the source frame and the destination rectangle to the destination frame. This means that negative values are not meaningful—they will be always clamped to 0.

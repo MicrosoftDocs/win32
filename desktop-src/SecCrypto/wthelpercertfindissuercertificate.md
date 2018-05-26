@@ -1,7 +1,12 @@
-﻿---
-Description: 'Finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.'
-ms.assetid: 'c724f602-fc73-4857-941f-0f22a9e472d1'
+---
+Description: Finds an issuer certificate from the specified certificate stores that matches the specified subject certificate.
+ms.assetid: c724f602-fc73-4857-941f-0f22a9e472d1
 title: WTHelperCertFindIssuerCertificate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WTHelperCertFindIssuerCertificate function
@@ -109,7 +114,7 @@ An issuer certificate that matches the subject certificate specified by the *pCh
 To successfully find a matching issuer certificate, the following requirements must be met:
 
 -   The signature of the subject certificate specified by the *pChildContext* parameter must be valid.
--   The **rgExtension** member of the **pCertInfo** member of the *pChildContext* parameter must contain a [**CERT\_AUTHORITY\_KEY\_ID\_INFO**](cert-authority-key-id-info.md) structure. The **CertIssuer** and **CertSerialMember** members of this structure much match the corresponding members for the issuer certificate.
+-   The **rgExtension** member of the **pCertInfo** member of the *pChildContext* parameter must contain a [**CERT\_AUTHORITY\_KEY\_ID\_INFO**](/windows/win32/Wincrypt/ns-wincrypt-_cert_authority_key_id_info?branch=master) structure. The **CertIssuer** and **CertSerialMember** members of this structure much match the corresponding members for the issuer certificate.
 -   The value of the *psftVerifyAsOf* parameter must be within the period of validity of the subject certificate.
 -   The period of validity of the subject certificate must be within the period of validity of the issuer certificate.
 

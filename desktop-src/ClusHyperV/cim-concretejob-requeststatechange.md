@@ -4,13 +4,16 @@ description: Requests the specified state change to a concrete job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7aace66c-2946-4dd7-a95c-bbfa41480e11'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7aace66c-2946-4dd7-a95c-bbfa41480e11
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method", "RequestStateChange method, CIM_ConcreteJob class", "CIM_ConcreteJob class, RequestStateChange method"]
+keywords:
+- RequestStateChange method
+- RequestStateChange method, CIM_ConcreteJob class
+- CIM_ConcreteJob class, RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the CIM\_ConcreteJob class
@@ -28,15 +34,15 @@ Requests the specified state change to a concrete job.
 > [!Note]  
 > Invoking this method multiple times could result in earlier requests being overwritten or lost.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 RequestStateChange(
-  [in] uint16   RequestedState,
-  [in] datetime TimeoutPeriod
+  [in] uint16   RequestedState,
+  [in] datetime TimeoutPeriod
 );
 ```
 
@@ -191,7 +197,7 @@ Cannot complete within Timeout Period
 **DMTF Reserved**
 </dt> <dd>
 
-7–4095
+7 4095
 
 </dd> <dt>
 
@@ -228,14 +234,14 @@ Method Parameters Checked - Job Started
 **Method Reserved**
 </dt> <dd>
 
-4100–32767
+4100 32767
 
 </dd> <dt>
 
 **Vendor Specific**
 </dt> <dd>
 
-32768–65535
+32768 65535
 
 </dd> </dl>
 
@@ -246,7 +252,7 @@ Method Parameters Checked - Job Started
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -260,9 +266,9 @@ Method Parameters Checked - Job Started
 [**CIM\_ConcreteJob**](cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

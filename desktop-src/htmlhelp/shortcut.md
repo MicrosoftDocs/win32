@@ -1,7 +1,12 @@
 ---
 title: Shortcut
 description: Creates a shortcut to a specified action by passing Windows-based messages and parameters.
-ms.assetid: 'CD76BCC4-7F0E-4eaa-AF9C-9EB310109DA5'
+ms.assetid: CD76BCC4-7F0E-4eaa-AF9C-9EB310109DA5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shortcut

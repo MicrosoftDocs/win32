@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a85fe46c-ce5f-4978-aa37-a3666560426b'
-title: 'Peer-to-Peer'
+Description: .
+ms.assetid: a85fe46c-ce5f-4978-aa37-a3666560426b
+title: Peer-to-Peer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peer-to-Peer
@@ -30,7 +35,7 @@ Developers using the Peer Infrastructure should be familiar with C programming c
 
 ## Run-time requirements
 
-The Peer Infrastructure is supported in Windows Vista, Windows XP with Service Pack 2 (SP2) and later as well the Advanced Networking Pack for Windows XP available for Windows XP with Service Pack 1 (SP1). The Peer-to-Peer Infrastructure requires that IPv6 be installed and initiated to allow peer networking applications to function. Use of Peer-to-Peer Collaboration is only supported in Windows Vista .
+The Peer Infrastructure is supported in Windows Vista, Windows XP with Service Pack 2 (SP2) and later as well the Advanced Networking Pack for Windows XP available for Windows XP with Service Pack 1 (SP1). The Peer-to-Peer Infrastructure requires that IPv6 be installed and initiated to allow peer networking applications to function. Use of Peer-to-Peer Collaboration is only supported in Windows Vista .
 
 ## In this section
 
@@ -44,7 +49,7 @@ The Peer Infrastructure is supported in Windows Vista, Windows XP with Service P
 
 
 
- 
+ 
 
 ## Additional resources
 
@@ -59,11 +64,11 @@ Further information regarding Peer-to-Peer technologies can be found at the foll
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

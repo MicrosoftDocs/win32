@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.background property
 description: Gets or sets the file path for the gadget background image.
-ms.assetid: '8a14bd7f-5f25-4b7e-aae2-d41a38fc3aa6'
-keywords: ["background property Windows Sidebar", "background property Windows Sidebar , System.Gadget object", "System.Gadget object Windows Sidebar , background property"]
+ms.assetid: 8a14bd7f-5f25-4b7e-aae2-d41a38fc3aa6
+keywords:
+- background property Windows Sidebar
+- background property Windows Sidebar , System.Gadget object
+- System.Gadget object Windows Sidebar , background property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.background property
@@ -44,7 +52,7 @@ The **background** property should be modified after the gadget has finished loa
 > [!Note]  
 > It is recommended that the [**src**](src-attribute-gbackground.md) property be used instead of the **background** property if the script is located within the `body` tags of the gadget HTML file. The System.Gadget object is not guaranteed to exist in these cases.
 
- 
+ 
 
 ## Requirements
 
@@ -52,10 +60,10 @@ The **background** property should be modified after the gadget has finished loa
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -68,9 +76,9 @@ The **background** property should be modified after the gadget has finished loa
 [**System.Gadget**](system-gadget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic has code examples for the following tasks.'
-ms.assetid: 'df8c4ace-349c-45f2-9f47-60e6be1edf85'
+Description: This topic has code examples for the following tasks.
+ms.assetid: df8c4ace-349c-45f2-9f47-60e6be1edf85
 title: Using Regions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Regions

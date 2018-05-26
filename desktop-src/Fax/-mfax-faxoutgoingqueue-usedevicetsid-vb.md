@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UseDeviceTSID property is a Boolean value that indicates whether the fax service uses the device transmitting station identifier (TSID) instead of a sender TSID.'
-ms.assetid: '1ca178fd-6740-449a-842d-cabfc4f47a54'
-title: 'FaxOutgoingQueue.UseDeviceTSID property'
+---
+Description: The UseDeviceTSID property is a Boolean value that indicates whether the fax service uses the device transmitting station identifier (TSID) instead of a sender TSID.
+ms.assetid: 1ca178fd-6740-449a-842d-cabfc4f47a54
+title: FaxOutgoingQueue.UseDeviceTSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.UseDeviceTSID property
@@ -27,7 +32,7 @@ A **Boolean** that specifies or receives whether the fax service uses the device
 
 If this property is equal to **True**, the fax service uses the device TSID rather than a user-specified TSID. If this property is equal to **False**, the fax service uses a user-specified TSID.
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Setting the Outgoing Queue Properties](-mfax-setting-the-outgoing-queue-properties.md)

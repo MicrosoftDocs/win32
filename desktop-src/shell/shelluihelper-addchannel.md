@@ -1,6 +1,11 @@
-﻿---
-Description: 'Adds a new channel to the list of channels in the Windows Internet Explorer Favorites menu and to the Channel bar on the desktop.'
-title: 'ShellUIHelper.AddChannel method'
+---
+Description: Adds a new channel to the list of channels in the Windows Internet Explorer Favorites menu and to the Channel bar on the desktop.
+title: ShellUIHelper.AddChannel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellUIHelper.AddChannel method

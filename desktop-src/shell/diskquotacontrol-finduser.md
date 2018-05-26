@@ -1,6 +1,11 @@
-﻿---
-Description: 'Finds a user''s entry, by name, in the volume''s quota file.'
-title: 'DiskQuotaControl.FindUser method'
+---
+Description: Finds a users entry, by name, in the volumes quota file.
+title: DiskQuotaControl.FindUser method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.FindUser method

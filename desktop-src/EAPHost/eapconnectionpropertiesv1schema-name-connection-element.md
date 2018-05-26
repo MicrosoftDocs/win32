@@ -1,14 +1,20 @@
 ---
 title: Name (Connection) Element
 description: Captures the name of the connection being defined, assisting in the identification of multiple connections.
-ms.assetid: '649c238d-0940-4fbe-93e5-2612d95fffa7'
-keywords: ["Name element EAPHost"]
+ms.assetid: 649c238d-0940-4fbe-93e5-2612d95fffa7
+keywords:
+- Name element EAPHost
 topic_type:
 - apiref
 api_name:
 - Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name (Connection) Element
@@ -29,8 +35,8 @@ The **Name** element is defined by the [**Connection**](eapconnectionpropertiesv
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -56,9 +62,9 @@ The **Name** element is defined by the [**Connection**](eapconnectionpropertiesv
 [eapconnectionpropertiesv1 Schema](eapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

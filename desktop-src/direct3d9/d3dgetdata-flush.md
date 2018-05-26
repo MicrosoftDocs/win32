@@ -1,12 +1,17 @@
-﻿---
-Description: 'This macro creates the value passed to GetData to flush query data.'
-ms.assetid: '874fe2d7-d7d8-49eb-8057-e606982527fa'
-title: 'D3DGETDATA\_FLUSH'
+---
+Description: This macro creates the value passed to GetData to flush query data.
+ms.assetid: 874fe2d7-d7d8-49eb-8057-e606982527fa
+title: D3DGETDATA\_FLUSH
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DGETDATA\_FLUSH
 
-This macro creates the value passed to [**GetData**](idirect3dquery9--getdata.md) to flush query data.
+This macro creates the value passed to [**GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master) to flush query data.
 
 ``` syntax
 #define D3DGETDATA_FLUSH (1 << 0)

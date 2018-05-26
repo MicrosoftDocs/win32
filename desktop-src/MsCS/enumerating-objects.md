@@ -4,11 +4,16 @@ description: Enumeration is the process of listing all objects of a given type t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '391b87d1-6765-45fd-bd27-37a1127e639a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 391b87d1-6765-45fd-bd27-37a1127e639a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster , enumerating", "enumerating objects Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster , enumerating
+- enumerating objects Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Cluster Objects
@@ -21,24 +26,24 @@ The following table lists the kinds of information available through enumeration
 
 | Objects to enumerate                                                                | Function                                                              |
 |-------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [dependencies](resource-dependencies.md) of a [resource](resources.md)<br/> | [**ClusterResourceEnum**](clusterresourceenum.md)<br/>         |
-| dependents of a resource<br/>                                                 | [**ClusterResourceEnum**](clusterresourceenum.md)<br/>         |
-| [groups](groups.md) in the cluster<br/>                                      | [**ClusterEnum**](clusterenum.md)<br/>                         |
-| [network interfaces](network-interfaces.md) available to a network<br/>      | [**ClusterNetworkEnum**](clusternetworkenum.md)<br/>           |
-| network interfaces in a node<br/>                                             | [**ClusterNodeEnum**](clusternodeenum.md)<br/>                 |
-| [networks](networks.md) in the cluster<br/>                                  | [**ClusterEnum**](clusterenum.md)<br/>                         |
-| [nodes](nodes.md) in a cluster<br/>                                          | [**ClusterEnum**](clusterenum.md)<br/>                         |
-| possible owner nodes of a resource<br/>                                       | [**ClusterResourceEnum**](clusterresourceenum.md)<br/>         |
-| possible owner nodes of a resource type<br/>                                  | [**ClusterResourceTypeEnum**](clusterresourcetypeenum.md)<br/> |
-| preferred owner nodes of a group<br/>                                         | [**ClusterGroupEnum**](clustergroupenum.md)<br/>               |
-| [resource types](resource-types.md) in a cluster<br/>                        | [**ClusterEnum**](clusterenum.md)<br/>                         |
-| [resources](resources.md) in a group<br/>                                    | [**ClusterGroupEnum**](clustergroupenum.md)<br/>               |
-| resources in a cluster<br/>                                                   | [**ClusterEnum**](clusterenum.md)<br/>                         |
-| network interfaces in a cluster<br/>                                          | [**ClusterEnum**](clusterenum.md)<br/>                         |
+| [dependencies](resource-dependencies.md) of a [resource](resources.md)<br/> | [**ClusterResourceEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_resource_enum?branch=master)<br/>         |
+| dependents of a resource<br/>                                                 | [**ClusterResourceEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_resource_enum?branch=master)<br/>         |
+| [groups](groups.md) in the cluster<br/>                                      | [**ClusterEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_enum?branch=master)<br/>                         |
+| [network interfaces](network-interfaces.md) available to a network<br/>      | [**ClusterNetworkEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_network_enum?branch=master)<br/>           |
+| network interfaces in a node<br/>                                             | [**ClusterNodeEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_node_enum?branch=master)<br/>                 |
+| [networks](networks.md) in the cluster<br/>                                  | [**ClusterEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_enum?branch=master)<br/>                         |
+| [nodes](nodes.md) in a cluster<br/>                                          | [**ClusterEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_enum?branch=master)<br/>                         |
+| possible owner nodes of a resource<br/>                                       | [**ClusterResourceEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_resource_enum?branch=master)<br/>         |
+| possible owner nodes of a resource type<br/>                                  | [**ClusterResourceTypeEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_resource_type_enum?branch=master)<br/> |
+| preferred owner nodes of a group<br/>                                         | [**ClusterGroupEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_enum?branch=master)<br/>               |
+| [resource types](resource-types.md) in a cluster<br/>                        | [**ClusterEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_enum?branch=master)<br/>                         |
+| [resources](resources.md) in a group<br/>                                    | [**ClusterGroupEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_enum?branch=master)<br/>               |
+| resources in a cluster<br/>                                                   | [**ClusterEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_enum?branch=master)<br/>                         |
+| network interfaces in a cluster<br/>                                          | [**ClusterEnum**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_enum?branch=master)<br/>                         |
 
 
 
- 
+ 
 
 The following generalized procedure applies to the enumeration functions of any object. Substitute the name of the object (that is, node, network, group, or resource) for *Object*.
 
@@ -268,9 +273,9 @@ endf:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

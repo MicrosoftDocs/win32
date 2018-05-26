@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the size of the buffer used during encoding. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.'
-ms.assetid: '3315785e-306f-44d6-ac39-796025a2da3a'
+Description: Specifies the size of the buffer used during encoding. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+ms.assetid: 3315785e-306f-44d6-ac39-796025a2da3a
 title: AVEncCommonBufferSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncCommonBufferSize property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-This property has a linear range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](icodecapi-getparameterrange.md). Parameter ranges are not supported for H.264 UVC 1.5 camera encoders.
+This property has a linear range of values. To get the supported range, call [**ICodecAPI::GetParameterRange**](/windows/win32/Strmif/nf-strmif-icodecapi-getparameterrange?branch=master). Parameter ranges are not supported for H.264 UVC 1.5 camera encoders.
 
 ## Remarks
 
@@ -40,8 +45,8 @@ This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.mic
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -53,12 +58,12 @@ This property is also used with [H.264 UVC 1.5 camera encoders](https://msdn.mic
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

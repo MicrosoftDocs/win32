@@ -1,7 +1,12 @@
 ---
-Description: 'Removes feature settings from a virtual machine Ethernet connection.'
-ms.assetid: '457056d0-7e69-47e4-8744-0136a1816f4a'
-title: 'RemoveFeatureSettings method of the Msvm\_VirtualSystemManagementService class'
+Description: Removes feature settings from a virtual machine Ethernet connection.
+ms.assetid: 457056d0-7e69-47e4-8744-0136a1816f4a
+title: RemoveFeatureSettings method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveFeatureSettings method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Removes feature settings from a virtual machine Ethernet connection.
 
 ```mof
 uint32 RemoveFeatureSettings(
-  [in]  Msvm_EthernetSwitchPortFeatureSettingData REF FeatureSettings[],
-  [out] CIM_ConcreteJob                           REF Job
+  [in]  Msvm_EthernetSwitchPortFeatureSettingData REF FeatureSettings[],
+  [out] CIM_ConcreteJob                           REF Job
 );
 ```
 
@@ -80,8 +85,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -95,9 +100,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

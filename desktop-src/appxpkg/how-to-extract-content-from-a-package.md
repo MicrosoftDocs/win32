@@ -1,7 +1,12 @@
 ---
 title: Extract app package contents (C++)
 description: Learn how to extract files from the app package for a Windows Store app using the packaging API.
-ms.assetid: '72C368F9-2EBA-4930-81CF-9B85717CC0AA'
+ms.assetid: 72C368F9-2EBA-4930-81CF-9B85717CC0AA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extract app package contents (C++)
@@ -12,7 +17,7 @@ You can also use the MakeAppx.exe tool to extract files from an app package or b
 
 ### Create a package reader
 
-To create a package reader, call the [**IAppxFactory::CreatePackageReader**](iappxfactory-createpackagereader.md) method. The first parameter is an input stream for the package (.appx file). The second parameter is an output parameter that receives a pointer to an [**IAppxPackageReader**](iappxpackagereader.md) pointer.
+To create a package reader, call the [**IAppxFactory::CreatePackageReader**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfactory-createpackagereader?branch=master) method. The first parameter is an input stream for the package (.appx file). The second parameter is an output parameter that receives a pointer to an [**IAppxPackageReader**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxpackagereader?branch=master) pointer.
 
 
 ```C++
@@ -122,7 +127,7 @@ HRESULT GetPackageReader(
 
 ### Extract footprint files
 
-Call the [**IAppxPackageReader::GetFootprintFile**](iappxpackagereader-getfootprintfile.md) method to get each footprint file. Each footprint file is represented by an [**IAppxFile**](iappxfile.md) interface. The `ExtractFile` function in this sample uses the [**GetName**](iappxfile-getname.md), [**GetContentType**](iappxfile-getcontenttype.md), and [**GetSize**](iappxfile-getsize.md) methods of **IAppxFile** to display basic information about the footprint file.
+Call the [**IAppxPackageReader::GetFootprintFile**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxpackagereader-getfootprintfile?branch=master) method to get each footprint file. Each footprint file is represented by an [**IAppxFile**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxfile?branch=master) interface. The `ExtractFile` function in this sample uses the [**GetName**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfile-getname?branch=master), [**GetContentType**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfile-getcontenttype?branch=master), and [**GetSize**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfile-getsize?branch=master) methods of **IAppxFile** to display basic information about the footprint file.
 
 
 ```C++
@@ -349,7 +354,7 @@ HRESULT GetOutputStream(
 
 ### Extract payload files
 
-Call the [**IAppxPackageReader::GetPayloadFiles**](iappxpackagereader-getpayloadfiles.md) method to enumerate the payload files. Each payload file is represented by an [**IAppxFile**](iappxfile.md) interface. The `ExtractFile` function in this sample uses the [**GetName**](iappxfile-getname.md), [**GetContentType**](iappxfile-getcontenttype.md), and [**GetSize**](iappxfile-getsize.md) methods of **IAppxFile** to display basic info about the payload file.
+Call the [**IAppxPackageReader::GetPayloadFiles**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles?branch=master) method to enumerate the payload files. Each payload file is represented by an [**IAppxFile**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxfile?branch=master) interface. The `ExtractFile` function in this sample uses the [**GetName**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfile-getname?branch=master), [**GetContentType**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfile-getcontenttype?branch=master), and [**GetSize**](/windows/win32/AppxPackaging/nf-appxpackaging-iappxfile-getsize?branch=master) methods of **IAppxFile** to display basic info about the payload file.
 
 This code uses the `ExtractFile` helper function shown in the previous step to create the stream for the package manifest.
 
@@ -446,7 +451,7 @@ CoUninitialize();
 **Reference**
 </dt> <dt>
 
-[**IAppxPackageReader**](iappxpackagereader.md)
+[**IAppxPackageReader**](/windows/win32/AppxPackaging/nn-appxpackaging-iappxpackagereader?branch=master)
 </dt> </dl>
 
  

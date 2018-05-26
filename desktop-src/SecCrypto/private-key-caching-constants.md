@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to represent registry entries that control private key caching by Microsoft software-based CSPs.'
-ms.assetid: '67909072-72fe-4777-ae52-a7b9047c9dd5'
+---
+Description: Used to represent registry entries that control private key caching by Microsoft software-based CSPs.
+ms.assetid: 67909072-72fe-4777-ae52-a7b9047c9dd5
 title: Private Key Caching Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Private Key Caching Constants

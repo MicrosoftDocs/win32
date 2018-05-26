@@ -1,8 +1,9 @@
 ---
 title: WM\_NCXBUTTONDOWN message
 description: Posted when the user presses the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
-ms.assetid: '72744c98-1898-4548-bd10-61ad53eeab15'
-keywords: ["WM_NCXBUTTONDOWN message Keyboard and Mouse Input"]
+ms.assetid: 72744c98-1898-4548-bd10-61ad53eeab15
+keywords:
+- WM_NCXBUTTONDOWN message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCXBUTTONDOWN message
@@ -44,7 +50,7 @@ The low-order word specifies the hit-test value returned by the [**DefWindowProc
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -84,11 +90,11 @@ yPos = GET_Y_LPARAM(lParam);
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function tests the specified point to get the position of the cursor and performs the appropriate action. If appropriate, it sends the [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360) message to the window.
 
-Unlike the [**WM\_NCLBUTTONDOWN**](wm-nclbuttondown.md), [**WM\_NCMBUTTONDOWN**](wm-ncmbuttondown.md), and [**WM\_NCRBUTTONDOWN**](wm-ncrbuttondown.md) messages, an application should return **TRUE** from this message if it processes it. Doing so will allow software that simulates this message on Windows systems earlier than Windows 2000 to determine whether the window procedure processed the message or called [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) to process it.
+Unlike the [**WM\_NCLBUTTONDOWN**](wm-nclbuttondown.md), [**WM\_NCMBUTTONDOWN**](wm-ncmbuttondown.md), and [**WM\_NCRBUTTONDOWN**](wm-ncrbuttondown.md) messages, an application should return **TRUE** from this message if it processes it. Doing so will allow software that simulates this message on Windows systems earlier than Windows 2000 to determine whether the window procedure processed the message or called [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) to process it.
 
 ## Requirements
 
@@ -96,8 +102,8 @@ Unlike the [**WM\_NCLBUTTONDOWN**](wm-nclbuttondown.md), [**WM\_NCMBUTTONDOWN**]
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -145,9 +151,9 @@ Unlike the [**WM\_NCLBUTTONDOWN**](wm-nclbuttondown.md), [**WM\_NCMBUTTONDOWN**]
 [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

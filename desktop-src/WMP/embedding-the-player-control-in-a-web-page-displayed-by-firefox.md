@@ -1,8 +1,33 @@
 ---
 title: Embedding the Player Control in a Web Page Displayed by Firefox
 description: Embedding the Player Control in a Web Page Displayed by Firefox
-ms.assetid: '57e725dc-6430-43ec-a39c-c17854a7d8db'
-keywords: ["Windows Media Player,embedding ActiveX control", "Windows Media Player object model,embedding ActiveX control", "object model,embedding ActiveX control", "Windows Media Player Mobile,embedding ActiveX control", "Windows Media Player ActiveX control,embedding", "Windows Media Player Mobile ActiveX control,embedding", "ActiveX control,embedding", "Windows Media Player ActiveX control,Web pages", "Windows Media Player Mobile ActiveX control,Web pages", "ActiveX control,Web pages", "Windows Media Player,Firefox", "Windows Media Player object model,Firefox", "object model,Firefox", "Windows Media Player Mobile,Firefox", "Windows Media Player ActiveX control,Firefox", "Windows Media Player Mobile ActiveX control,Firefox", "ActiveX control,Firefox", "Firefox,about webpage embedding", "embedding,Web pages", "Web page embedding,Firefox"]
+ms.assetid: 57e725dc-6430-43ec-a39c-c17854a7d8db
+keywords:
+- Windows Media Player,embedding ActiveX control
+- Windows Media Player object model,embedding ActiveX control
+- object model,embedding ActiveX control
+- Windows Media Player Mobile,embedding ActiveX control
+- Windows Media Player ActiveX control,embedding
+- Windows Media Player Mobile ActiveX control,embedding
+- ActiveX control,embedding
+- Windows Media Player ActiveX control,Web pages
+- Windows Media Player Mobile ActiveX control,Web pages
+- ActiveX control,Web pages
+- Windows Media Player,Firefox
+- Windows Media Player object model,Firefox
+- object model,Firefox
+- Windows Media Player Mobile,Firefox
+- Windows Media Player ActiveX control,Firefox
+- Windows Media Player Mobile ActiveX control,Firefox
+- ActiveX control,Firefox
+- Firefox,about webpage embedding
+- embedding,Web pages
+- Web page embedding,Firefox
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Embedding the Player Control in a Web Page Displayed by Firefox

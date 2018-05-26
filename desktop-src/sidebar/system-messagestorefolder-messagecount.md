@@ -1,8 +1,11 @@
 ---
 title: System.MessageStore.Folder.messageCount property
 description: Gets the number of messages in a Windows Mail (formerly Outlook Express) folder.
-ms.assetid: '4b85afa9-1d2f-4f48-86f5-83a25f3b72e6'
-keywords: ["messageCount property Windows Sidebar", "messageCount property Windows Sidebar , System.MessageStore.Folder object", "System.MessageStore.Folder object Windows Sidebar , messageCount property"]
+ms.assetid: 4b85afa9-1d2f-4f48-86f5-83a25f3b72e6
+keywords:
+- messageCount property Windows Sidebar
+- messageCount property Windows Sidebar , System.MessageStore.Folder object
+- System.MessageStore.Folder object Windows Sidebar , messageCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Folder.messageCount property
@@ -38,7 +46,7 @@ An **Integer** that receives the number of messages.
 
 Eliminates the need to create a [**Messages**](system-messagestorefolder-messages.md) collection and use [**count**](system-messagestorefolder-messages-count.md) to get the number of messages in a folder.
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
 
 ## Examples
 
@@ -64,10 +72,10 @@ var iMsgCount = oFolder.messageCount;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -92,9 +100,9 @@ var iMsgCount = oFolder.messageCount;
 [**Folders**](system-messagestore-folders.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

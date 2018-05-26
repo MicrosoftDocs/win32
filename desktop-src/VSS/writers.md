@@ -1,7 +1,12 @@
 ---
-Description: 'Writers are applications or services that store persistent information in files on disk and that provide the names and locations of these files to requesters by using the shadow copy interface.'
-ms.assetid: '5e1c3f9b-ca83-4e70-963b-0a237c6f4b0d'
+Description: Writers are applications or services that store persistent information in files on disk and that provide the names and locations of these files to requesters by using the shadow copy interface.
+ms.assetid: 5e1c3f9b-ca83-4e70-963b-0a237c6f4b0d
 title: Writers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writers
@@ -34,16 +39,16 @@ When no events are present, a writer does not perform VSS operations (such as a 
 
 To ensure that error handling for multiple parallel backup and restore sessions is performed correctly, and to ensure that one backup or restore session does not corrupt another, you must do the following:
 
--   If a writer's event handler (such as [**CVssWriter::OnFreeze**](cvsswriter-onfreeze.md)) calls the [**CVssWriterEx2::GetSessionId**](cvsswriterex2-getsessionid.md), [**CVssWriter::SetWriterFailure**](cvsswriter-setwriterfailure.md), or [**CVssWriterEx2::SetWriterFailureEx**](cvsswriterex2-setwriterfailureex.md) method, the event handler must call the method in the same thread that called the event handler.
--   Your writer’s implementation of an event handler such as [**OnFreeze**](cvsswriter-onfreeze.md) can offload work to worker threads if desired, as long as each worker thread marshals any needed error reporting back to the original event handler thread.
+-   If a writer's event handler (such as [**CVssWriter::OnFreeze**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onfreeze?branch=master)) calls the [**CVssWriterEx2::GetSessionId**](/windows/win32/VsWriter/nf-vswriter-cvsswriterex2-getsessionid?branch=master), [**CVssWriter::SetWriterFailure**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-setwriterfailure?branch=master), or [**CVssWriterEx2::SetWriterFailureEx**](/windows/win32/VsWriter/nf-vswriter-cvsswriterex2-setwriterfailureex?branch=master) method, the event handler must call the method in the same thread that called the event handler.
+-   Your writer’s implementation of an event handler such as [**OnFreeze**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onfreeze?branch=master) can offload work to worker threads if desired, as long as each worker thread marshals any needed error reporting back to the original event handler thread.
 
 ## Handling Identify Events
 
 With the exception of the Identify event, the type and order of the events a writer receives depends uniquely on the type of VSS operations that are currently ongoing.
 
-The Identify event requires writers to provide the system information about their configuration and the files they manage through their [*Writer Metadata Document*](vssgloss-w.md#base-vssgloss-writer-metadata-document). An Identify event is generated in support of almost any VSS operation, including system queries as well as shadow copy and backup and restore operations. Therefore, any writer's implementation of the Identify event handler [**CVssWriter::OnIdentify**](cvsswriter-onidentify.md) must be able to handle an Identify event at any time—including in the middle of processing another VSS operation, such as a backup or restore. An Identify event should never be thought of as part of the life cycle of a VSS operation, even though its generation may be expected and required prior to the start of that operation.
+The Identify event requires writers to provide the system information about their configuration and the files they manage through their [*Writer Metadata Document*](vssgloss-w.md#base-vssgloss-writer-metadata-document). An Identify event is generated in support of almost any VSS operation, including system queries as well as shadow copy and backup and restore operations. Therefore, any writer's implementation of the Identify event handler [**CVssWriter::OnIdentify**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onidentify?branch=master) must be able to handle an Identify event at any time—including in the middle of processing another VSS operation, such as a backup or restore. An Identify event should never be thought of as part of the life cycle of a VSS operation, even though its generation may be expected and required prior to the start of that operation.
 
-It is particularly important that state information about a VSS operation not be modified in [**CVssWriter::OnIdentify**](cvsswriter-onidentify.md), because receipt of an out-of-order event would reset that information.
+It is particularly important that state information about a VSS operation not be modified in [**CVssWriter::OnIdentify**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onidentify?branch=master), because receipt of an out-of-order event would reset that information.
 
 ## Backup and Restore Events
 

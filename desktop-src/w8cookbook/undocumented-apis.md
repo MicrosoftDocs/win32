@@ -1,7 +1,12 @@
 ---
 title: Undocumented APIs
 description: Undocumented APIs
-ms.assetid: 'BF0F8B77-3617-4AE2-B990-C8D3143E2E48'
+ms.assetid: BF0F8B77-3617-4AE2-B990-C8D3143E2E48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Undocumented APIs

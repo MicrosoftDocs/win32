@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl AdminDisplay method
-description: The AdminDisplay method displays the control's administrative information screen.
-ms.assetid: 'ca198a93-1b01-48d0-b058-61e4ba21037f'
-keywords: ["AdminDisplay method Virtual Server", "AdminDisplay method Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , AdminDisplay method", "AdminDisplay method Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , AdminDisplay method"]
+description: The AdminDisplay method displays the controls administrative information screen.
+ms.assetid: ca198a93-1b01-48d0-b058-61e4ba21037f
+keywords:
+- AdminDisplay method Virtual Server
+- AdminDisplay method Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , AdminDisplay method
+- AdminDisplay method Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , AdminDisplay method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::AdminDisplay method
@@ -44,7 +54,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,8 +62,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -66,9 +76,9 @@ This method can return one of these values.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: CBEM\_GETEDITCONTROL message
 description: Gets the handle to the edit control portion of a ComboBoxEx control. A ComboBoxEx control uses an edit box when it is set to the CBS\_DROPDOWN style.
-ms.assetid: 'def91949-cadc-4297-a504-0680d7d9b815'
-keywords: ["CBEM_GETEDITCONTROL message Windows Controls"]
+ms.assetid: def91949-cadc-4297-a504-0680d7d9b815
+keywords:
+- CBEM_GETEDITCONTROL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_GETEDITCONTROL message
@@ -37,15 +43,15 @@ Returns the handle to the edit control within the ComboBoxEx control if it uses 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

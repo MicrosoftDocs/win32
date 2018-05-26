@@ -1,14 +1,20 @@
 ---
 title: headerFieldsType Complex Type
 description: Defines the elements that specify the fields for an email header.
-ms.assetid: '1ad1b62d-5aca-4be4-b956-6f8c64761b2b'
-keywords: ["headerFieldsType complex type Task Scheduler"]
+ms.assetid: 1ad1b62d-5aca-4be4-b956-6f8c64761b2b
+keywords:
+- headerFieldsType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - headerFieldsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # headerFieldsType Complex Type
@@ -43,14 +49,14 @@ Defines the elements that specify the fields for an email header.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

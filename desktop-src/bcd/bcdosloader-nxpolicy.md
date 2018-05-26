@@ -1,14 +1,20 @@
 ---
 title: BcdOSLoader\_NxPolicy enumeration
 description: Specifies the no-execute page protection policies.
-ms.assetid: 'd4c40fe6-7de2-4bbf-80ef-ee4100d71aa3'
-keywords: ["BcdOSLoader_NxPolicy enumeration Boot Config"]
+ms.assetid: d4c40fe6-7de2-4bbf-80ef-ee4100d71aa3
+keywords:
+- BcdOSLoader_NxPolicy enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdOSLoader_NxPolicy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdOSLoader\_NxPolicy enumeration
@@ -20,10 +26,10 @@ Specifies the no-execute page protection policies.
 
 ```C++
 typedef enum BcdOSLoader_NxPolicy { 
-  NxPolicyOptIn      = 0,
-  NxPolicyOptOut     = 1,
-  NxPolicyAlwaysOff  = 2,
-  NxPolicyAlwaysOn   = 3
+  NxPolicyOptIn      = 0,
+  NxPolicyOptOut     = 1,
+  NxPolicyAlwaysOff  = 2,
+  NxPolicyAlwaysOn   = 3
 } BcdOSLoader_NxPolicy;
 ```
 
@@ -67,8 +73,8 @@ The no-execute page protection is always on.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +88,9 @@ The no-execute page protection is always on.
 [**BcdOSLoaderElementTypes**](bcdosloaderelementtypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

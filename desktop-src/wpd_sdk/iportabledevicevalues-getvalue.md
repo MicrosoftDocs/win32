@@ -1,7 +1,12 @@
 ---
-Description: 'The GetValue method retrieves a PROPVARIANT value specified by a key.'
-ms.assetid: '927844f5-8f57-4596-ae0d-c67b8011ca87'
-title: 'IPortableDeviceValues::GetValue method'
+Description: The GetValue method retrieves a PROPVARIANT value specified by a key.
+ms.assetid: 927844f5-8f57-4596-ae0d-c67b8011ca87
+title: IPortableDeviceValuesGetValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetValue method
@@ -13,8 +18,8 @@ The **GetValue** method retrieves a **PROPVARIANT** value specified by a key.
 
 ```C++
 HRESULT GetValue(
-  [in]  REFPROPERTYKEY key,
-  [out] PROPVARIANT    *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] PROPVARIANT    *pValue
 );
 ```
 
@@ -51,7 +56,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,9 +88,9 @@ This method can be used to retrieve a value of any type from the collection. How
 [**IPortableDeviceValues::SetValue**](iportabledevicevalues-setvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

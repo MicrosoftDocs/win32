@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AddProperty method adds a property to a property bag.'
-ms.assetid: 'ba994342-c203-443e-a9fd-60fd29721dae'
-title: 'IPrintPipelinePropertyBag::AddProperty method'
+---
+Description: The AddProperty method adds a property to a property bag.
+ms.assetid: ba994342-c203-443e-a9fd-60fd29721dae
+title: IPrintPipelinePropertyBagAddProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelinePropertyBag::AddProperty method

@@ -4,11 +4,16 @@ description: This topic gives an overview of the ADSI service providers that are
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '419d7953-a879-4d6c-be74-173d76c3f932'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 419d7953-a879-4d6c-be74-173d76c3f932
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI ADSI , Service Providers", "Service Providers ADSI"]
+keywords:
+- ADSI ADSI , Service Providers
+- Service Providers ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Service Providers
@@ -24,7 +29,7 @@ ADSI includes the service providers listed in the following table.
 
 
 
- 
+ 
 
 Other service providers are included as part of products other than ADSI. The following are the ADSI service providers implemented by Microsoft.
 
@@ -36,7 +41,7 @@ Other service providers are included as part of products other than ADSI. The fo
 
 
 
- 
+ 
 
 The methods and property methods exposed by ADSI interfaces are not supported by every service provider. Because different directory services vary in the types of objects and properties stored, use different protocols, and authentication, ADSI is designed to work seamlessly with supported service providers. Thus, there are interfaces, methods, and property methods that work with one service provider, such as LDAP, that may not work on another, such as WinNT.
 
@@ -47,13 +52,13 @@ In ADSI, different providers are associated with different DLLs. The LDAP provid
 > [!Note]  
 > Do not assume that default ADSI providers are thread-safe. Multithreaded application developers should coordinate access between threads through the proper use of synchronization objects such as semaphores, mutexes, critical sections, and so on.
 
- 
+ 
 
 For more information about ADSI service providers, see [ADSI Router](adsi-router.md) and [Provider Support of ADSI interfaces](provider-support-of-adsi-interfaces.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a Media Foundation transform (MFT) supports 3D stereoscopic video.'
-ms.assetid: 'DE96FD14-5C7E-4560-99AC-B1EBDA1EBB2B'
-title: 'MFT\_SUPPORT\_3DVIDEO attribute'
+---
+Description: Specifies whether a Media Foundation transform (MFT) supports 3D stereoscopic video.
+ms.assetid: DE96FD14-5C7E-4560-99AC-B1EBDA1EBB2B
+title: MFT\_SUPPORT\_3DVIDEO attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_SUPPORT\_3DVIDEO attribute
@@ -14,7 +19,7 @@ Specifies whether a Media Foundation transform (MFT) supports 3D stereoscopic vi
 
 ## Remarks
 
-To query this attribute, call [**IMFTransform::GetAttributes**](imftransform-getattributes.md) to get the global attribute store of the MFT. If **GetAttributes** succeeds, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To query this attribute, call [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) to get the global attribute store of the MFT. If **GetAttributes** succeeds, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
 The default value of this attribute is **FALSE**. Treat this attribute as read-only. Do not change the value; the MFT will ignore any changes to the value.
 

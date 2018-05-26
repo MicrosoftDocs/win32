@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.currentPreset
 description: The currentPreset attribute specifies or retrieves the current preset of the current visualization.
-ms.assetid: '92c405fb-6a0b-4f4d-a8c6-61df89b035df'
-keywords: ["EFFECTS.currentPreset Windows Media Player"]
+ms.assetid: 92c405fb-6a0b-4f4d-a8c6-61df89b035df
+keywords:
+- EFFECTS.currentPreset Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.currentPreset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.currentPreset
@@ -40,9 +46,9 @@ This attribute is a read/write **Number** (**long**) indicating the index of the
 [**EFFECTS Element**](effects-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

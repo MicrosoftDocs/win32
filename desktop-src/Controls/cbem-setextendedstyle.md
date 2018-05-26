@@ -1,8 +1,9 @@
 ---
 title: CBEM\_SETEXTENDEDSTYLE message
 description: Sets extended styles within a ComboBoxEx control.
-ms.assetid: '00848bd0-5a2f-4bfb-ae1f-ee3aa88ac57a'
-keywords: ["CBEM_SETEXTENDEDSTYLE message Windows Controls"]
+ms.assetid: 00848bd0-5a2f-4bfb-ae1f-ee3aa88ac57a
+keywords:
+- CBEM_SETEXTENDEDSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_SETEXTENDEDSTYLE message
@@ -51,15 +57,15 @@ If you try to set an extended style for a ComboBoxEx control created with the [*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

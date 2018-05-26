@@ -1,8 +1,20 @@
 ---
 title: Using Color Management Modules (CMM)
 description: Color Management Modules (CMMs) are modules of WCS code that use the information in device profiles to perform color conversion and color mapping.
-ms.assetid: 'df119e1a-b6f5-40a3-8852-8a57b21483d0'
-keywords: ["Windows Color System (WCS),Color Management Module (CMM)", "WCS (Windows Color System),Color Management Module (CMM)", "image color management,Color Management Module (CMM)", "color management,Color Management Module (CMM)", "colors,Color Management Module (CMM)", "Color Management Module (CMM)", "CMM (Color Management Module)"]
+ms.assetid: df119e1a-b6f5-40a3-8852-8a57b21483d0
+keywords:
+- Windows Color System (WCS),Color Management Module (CMM)
+- WCS (Windows Color System),Color Management Module (CMM)
+- image color management,Color Management Module (CMM)
+- color management,Color Management Module (CMM)
+- colors,Color Management Module (CMM)
+- Color Management Module (CMM)
+- CMM (Color Management Module)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Color Management Modules (CMM)

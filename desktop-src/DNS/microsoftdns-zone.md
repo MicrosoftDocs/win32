@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_Zone class
 description: The MicrosoftDNS\_Zone class describes a DNS Zone. Every instance of the MicrosoftDNS\_Zone class must be assigned to exactly one DNS Server. Zones may be associated with multiple instances of MicrosoftDNS\_Domain or MicrosoftDNS\_ResourceRecord classes.
-ms.assetid: '9c59fa61-cca5-4718-ad40-8d2c6ed5fc2d'
-keywords: ["MicrosoftDNS_Zone class DNS", "MicrosoftDNS_Zone class DNS , described"]
+ms.assetid: 9c59fa61-cca5-4718-ad40-8d2c6ed5fc2d
+keywords:
+- MicrosoftDNS_Zone class DNS
+- MicrosoftDNS_Zone class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -48,6 +50,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_Zone class
@@ -61,13 +68,13 @@ The following syntax is simplified from MOF code.
 ``` syntax
 class MicrosoftDNS_Zone : MicrosoftDNS_Domain
 {
-  uint32  ZoneType;
+  uint32  ZoneType;
   boolean DsIntegrated;
-  uint32  AllowUpdate;
-  string  DataFile;
+  uint32  AllowUpdate;
+  string  DataFile;
   boolean DisableWINSRecordReplication;
-  uint32  Notify;
-  uint32  SecureSecondaries;
+  uint32  Notify;
+  uint32  SecureSecondaries;
   boolean Paused;
   boolean Shutdown;
   boolean Reverse;
@@ -75,18 +82,18 @@ class MicrosoftDNS_Zone : MicrosoftDNS_Domain
   boolean UseWins;
   boolean UseNBStat;
   boolean Aging;
-  uint32  RefreshInterval;
-  uint32  NoRefreshInterval;
-  uint32  AvailForScavengeTime;
-  string  MasterServers[];
-  string  LocalMasterServers[];
-  string  ScavengeServers[];
-  string  SecondaryServers[];
-  string  NotifyServers[];
-  uint32  ForwarderTimeout;
+  uint32  RefreshInterval;
+  uint32  NoRefreshInterval;
+  uint32  AvailForScavengeTime;
+  string  MasterServers[];
+  string  LocalMasterServers[];
+  string  ScavengeServers[];
+  string  SecondaryServers[];
+  string  NotifyServers[];
+  uint32  ForwarderTimeout;
   boolean ForwarderSlave;
-  uint32  LastSuccessfulSoaCheck;
-  uint32  LastSuccessfulXfr;
+  uint32  LastSuccessfulSoaCheck;
+  uint32  LastSuccessfulXfr;
 };
 ```
 
@@ -114,12 +121,12 @@ The **MicrosoftDNS\_Zone** class has these methods.
 | **ReloadZone**           | Reloads the Zone. <br/> Qualifiers: Implemented<br/>                                                                                                                                           |
 | **ResetSecondaries**     | Resets the secondary ip address array. <br/> Qualifiers: Implemented<br/>                                                                                                                      |
 | **ResumeZone**           | Resumes the Zone. <br/> Qualifiers: Implemented<br/>                                                                                                                                           |
-| **UpdateFromDS**         | Forces an update of the Zone from the Directory Service (DS). For this method to be valid, the ZoneType must be 0—the Zone must indeed be stored in the DS. <br/> Qualifiers: Implemented<br/> |
+| **UpdateFromDS**         | Forces an update of the Zone from the Directory Service (DS). For this method to be valid, the ZoneType must be 0 the Zone must indeed be stored in the DS. <br/> Qualifiers: Implemented<br/> |
 | **WriteBackZone**        | Saves Zone data to its zone file. <br/> Qualifiers: Implemented, static<br/>                                                                                                                   |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -467,7 +474,7 @@ Indicates the type of the Zone. Valid values are:
 -   Primary
 -   Secondary
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 Additional values:
 
@@ -484,7 +491,7 @@ Additional values:
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -530,9 +537,9 @@ Additional values:
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

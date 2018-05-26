@@ -1,8 +1,26 @@
 ---
 title: Using the Shadow Element
 description: Using the Shadow Element
-ms.assetid: '905df226-6232-4e1c-8a9c-f4d4c50b13fa'
-keywords: ["Web workshop,shadow element", "designing Web pages,shadow element", "Vector Markup Language (VML),shadow element", "VML (Vector Markup Language),shadow element", "vector graphics,shadow element", "shadow element", "VML elements,shadow", "VML shapes,shadow element", "Vector Markup Language (VML),drawing with shadow effects", "VML (Vector Markup Language),drawing with shadow effects", "vector graphics,drawing with shadow effects", "VML shapes,drawing with shadow effects", "drawing with shadow effects"]
+ms.assetid: 905df226-6232-4e1c-8a9c-f4d4c50b13fa
+keywords:
+- Web workshop,shadow element
+- designing Web pages,shadow element
+- Vector Markup Language (VML),shadow element
+- VML (Vector Markup Language),shadow element
+- vector graphics,shadow element
+- shadow element
+- VML elements,shadow
+- VML shapes,shadow element
+- Vector Markup Language (VML),drawing with shadow effects
+- VML (Vector Markup Language),drawing with shadow effects
+- vector graphics,drawing with shadow effects
+- VML shapes,drawing with shadow effects
+- drawing with shadow effects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Shadow Element

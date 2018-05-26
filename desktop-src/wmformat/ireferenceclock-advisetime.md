@@ -1,14 +1,22 @@
 ---
 title: IReferenceClock AdviseTime method
 description: The AdviseTime method requests an asynchronous notification that a time has elapsed.
-ms.assetid: '8f3f8713-b53c-4110-ac7a-724bbc49368e'
-keywords: ["AdviseTime method windows Media Format", "AdviseTime method windows Media Format , IReferenceClock interface", "IReferenceClock interface windows Media Format , AdviseTime method"]
+ms.assetid: 8f3f8713-b53c-4110-ac7a-724bbc49368e
+keywords:
+- AdviseTime method windows Media Format
+- AdviseTime method windows Media Format , IReferenceClock interface
+- IReferenceClock interface windows Media Format , AdviseTime method
 topic_type:
 - apiref
 api_name:
 - IReferenceClock.AdviseTime
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IReferenceClock::AdviseTime method
@@ -20,10 +28,10 @@ The **AdviseTime** method requests an asynchronous notification that a time has 
 
 ```C++
 HRESULT AdviseTime(
-  [in]  REFERENCE_TIME rtBaseTime,
-  [in]  REFERENCE_TIME rtStreamTime,
-  [in]  HEVENT         hEvent,
-  [out] DWORD          *pdwAdviseCookie
+  [in]  REFERENCE_TIME rtBaseTime,
+  [in]  REFERENCE_TIME rtStreamTime,
+  [in]  HEVENT         hEvent,
+  [out] DWORD          *pdwAdviseCookie
 );
 ```
 
@@ -57,7 +65,7 @@ Handle to an event, created by the caller. This event will be signaled when the 
 *pdwAdviseCookie* \[out\]
 </dt> <dd>
 
-Pointer to a variable that receives an identifier for the request. This is used to identify this call to **AdviseTime** in the future—for example, to cancel the request.
+Pointer to a variable that receives an identifier for the request. This is used to identify this call to **AdviseTime** in the future for example, to cancel the request.
 
 </dd> </dl>
 
@@ -75,7 +83,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -84,9 +92,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IReferenceClock Interface**](ireferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

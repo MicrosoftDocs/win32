@@ -1,7 +1,7 @@
 ---
 title: NNTP User Information Types
 description: Do not use. Network News Transport Protocol (NNTP) user information type values that can be set, and their meaning.
-ms.assetid: 'adf002f6-842f-44c5-a82e-0f1cabee5a7c'
+ms.assetid: adf002f6-842f-44c5-a82e-0f1cabee5a7c
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - Imnact.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NNTP User Information Types
@@ -36,17 +41,17 @@ Do not use. Network News Transport Protocol (NNTP) user information type values 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

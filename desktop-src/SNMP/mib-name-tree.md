@@ -1,7 +1,12 @@
 ---
 title: MIB Name Tree
 description: The name space for MIB object identifiers is hierarchical. It is structured so that each manageable object can be assigned a globally unique name.
-ms.assetid: 'eb3c855c-b36b-4675-8df4-e11c128b2b34'
+ms.assetid: eb3c855c-b36b-4675-8df4-e11c128b2b34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIB Name Tree

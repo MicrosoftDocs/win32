@@ -1,8 +1,22 @@
 ---
 title: Refreshing Licenses for Stores That Have the PlaysForSure Logo
 description: Refreshing Licenses for Stores That Have the PlaysForSure Logo
-ms.assetid: 'd08d6b6e-937e-4dec-b7ca-376cdad069f9'
-keywords: ["Windows Media Player online stores,refreshing licenses", "online stores,license refreshing", "Windows Media Player online stores,license refreshing", "online stores,refreshing licenses", "Windows Media Player online stores,PlaysForSure logo", "online stores,PlaysForSure logo", "refreshing licenses", "licenses,refreshing", "PlaysForSure"]
+ms.assetid: d08d6b6e-937e-4dec-b7ca-376cdad069f9
+keywords:
+- Windows Media Player online stores,refreshing licenses
+- online stores,license refreshing
+- Windows Media Player online stores,license refreshing
+- online stores,refreshing licenses
+- Windows Media Player online stores,PlaysForSure logo
+- online stores,PlaysForSure logo
+- refreshing licenses
+- licenses,refreshing
+- PlaysForSure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Refreshing Licenses for Stores That Have the PlaysForSure Logo
@@ -20,7 +34,7 @@ The following example illustrates how the license updating process works.
      
 
 4.  The LRM looks up the URL of Proseware's ServiceInfo document, downloads the document, and inspects the document's **Install** element to obtain the URL of a package that the LRM can use to install Proseware's component. The LRM installs and loads the component.
-5.  For each of the 50 tracks, the LRM calls the Proseware component's [IWMPSubscriptionService::allowPlay](iwmpsubscriptionservice-allowplay.md) method. The **allowPlay** method places a license for the individual track on the new computer and returns **TRUE** in the *pfAllowPlay* parameter.
+5.  For each of the 50 tracks, the LRM calls the Proseware component's [IWMPSubscriptionService::allowPlay](/windows/win32/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay?branch=master) method. The **allowPlay** method places a license for the individual track on the new computer and returns **TRUE** in the *pfAllowPlay* parameter.
     > [!Note]  
     > The Proseware component must provide all licenses required to play the individual track. That is, the component must provide both a root license and a leaf license if needed.
 

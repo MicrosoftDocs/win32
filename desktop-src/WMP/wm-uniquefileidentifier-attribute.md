@@ -1,14 +1,20 @@
 ---
 title: WM/UniqueFileIdentifier Attribute
 description: The WM/UniqueFileIdentifier attribute is a string that uniquely identifies the item.
-ms.assetid: '8196fc38-05dc-4c9e-98cb-1e160ce28a9a'
-keywords: ["WM/UniqueFileIdentifier Attribute Windows Media Player"]
+ms.assetid: 8196fc38-05dc-4c9e-98cb-1e160ce28a9a
+keywords:
+- WM/UniqueFileIdentifier Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/UniqueFileIdentifier
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/UniqueFileIdentifier Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

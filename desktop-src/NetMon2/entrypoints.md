@@ -1,7 +1,12 @@
 ---
-Description: 'The ENTRYPOINTS structure defines the entry points to the export functions that Network Monitor uses to operate the parser.'
-ms.assetid: 'e2ac118d-e04b-489f-877f-84cc9888f8af'
+Description: The ENTRYPOINTS structure defines the entry points to the export functions that Network Monitor uses to operate the parser.
+ms.assetid: e2ac118d-e04b-489f-877f-84cc9888f8af
 title: ENTRYPOINTS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ENTRYPOINTS structure
@@ -13,9 +18,9 @@ The **ENTRYPOINTS** structure defines the entry points to the export functions t
 
 ```C++
 typedef struct __ENTRYPOINTS {
-  REGISTER         Register;
-  DEREGISTER       Deregister;
-  RECOGNIZEFRAME   RecognizeFrame;
+  REGISTER         Register;
+  DEREGISTER       Deregister;
+  RECOGNIZEFRAME   RecognizeFrame;
   ATTACHPROPERTIES AttachProperties;
   FORMATPROPERTIES FormatProperties;
 } ENTRYPOINTS, *LPENTRYPOINTS;
@@ -73,11 +78,11 @@ The [**FormatProperties**](formatproperties.md) function does not need to be imp
 | For information on                                        | See                                                     |
 |-----------------------------------------------------------|---------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor. | [Parsers](parsers.md)                                  |
-| How to implement **DllMain**— includes an example.        | [Implementing DllMain](implementing-dllmain-parser.md) |
+| How to implement **DllMain**  includes an example.        | [Implementing DllMain](implementing-dllmain-parser.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -85,8 +90,8 @@ The [**FormatProperties**](formatproperties.md) function does not need to be imp
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -113,9 +118,9 @@ The [**FormatProperties**](formatproperties.md) function does not need to be imp
 [Register](register-parser.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

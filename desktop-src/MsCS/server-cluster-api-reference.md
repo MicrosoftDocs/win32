@@ -4,11 +4,16 @@ description: This section describes the programming elements of the core Failove
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6c9baa6b-2981-495d-b47d-0c30b246cde4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6c9baa6b-2981-495d-b47d-0c30b246cde4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster APIs Failover Cluster ,Failover Cluster API reference", "Windows Clustering Failover Cluster ,Failover Cluster APIs,Failover Cluster API reference"]
+keywords:
+- Failover Cluster APIs Failover Cluster ,Failover Cluster API reference
+- Windows Clustering Failover Cluster ,Failover Cluster APIs,Failover Cluster API reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster API Reference

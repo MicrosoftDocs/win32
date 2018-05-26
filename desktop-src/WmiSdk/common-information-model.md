@@ -1,13 +1,16 @@
 ---
-Description: 'The Common Information Model (CIM) is an extensible, object-oriented data model that contains information about different parts of an enterprise.'
+Description: The Common Information Model (CIM) is an extensible, object-oriented data model that contains information about different parts of an enterprise.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3e619cb7-18a9-40ff-82fe-c10eb5090a93'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3e619cb7-18a9-40ff-82fe-c10eb5090a93
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Common Information Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Common Information Model

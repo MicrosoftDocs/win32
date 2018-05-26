@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to write a custom source filter for DirectShow.'
-ms.assetid: '032f7624-2237-41cd-844a-18ed4a2e420d'
+Description: This topic describes how to write a custom source filter for DirectShow.
+ms.assetid: 032f7624-2237-41cd-844a-18ed4a2e420d
 title: How to Write a Source Filter for DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Write a Source Filter for DirectShow
@@ -11,7 +16,7 @@ This topic describes how to write a custom source filter for DirectShow.
 > [!Note]  
 > This topic describes push sources only; it does not describe pull sources, such as the Async Reader Filter, or splitter filters that connect to pull sources. For the distinction between *push* and *pull* sources, see [Data Flow for Filter Developers](data-flow-for-filter-developers.md).
 
- 
+ 
 
 ## The DirectShow Streaming Model
 
@@ -39,8 +44,8 @@ The loop runs as quickly as possible, but is limited by how quickly the renderer
 
 The DirectShow base classes include two classes that support push sources: [**CSource**](csource.md) and [**CSourceStream**](csourcestream.md).
 
--   [**CSource**](csource.md) is the base class for the filter and implements the [**IBaseFilter**](ibasefilter.md) interface.
--   [**CSourceStream**](csourcestream.md) is the base class for the output pins, and implements the [**IPin**](ipin.md) interface.
+-   [**CSource**](csource.md) is the base class for the filter and implements the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface.
+-   [**CSourceStream**](csourcestream.md) is the base class for the output pins, and implements the [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 ### Output Pins
 
@@ -59,7 +64,7 @@ The output pin handles format negotiation with the following [**CSourceStream**]
 
 
 
- 
+ 
 
 The [**GetMediaType**](csourcestream-getmediatype.md) method is overloaded:
 
@@ -70,7 +75,7 @@ If the source filter's output pin supports exactly one media format, you should 
 
 If the pin supports more than one format, override (2). Initialize the [**CMediaType**](cmediatype.md) object according to the value of the index variable. The pin should return the formats as an ordered list. In this case, you must also override the [**CheckMediaType**](csourcestream-checkmediatype.md) to check the media type against your list of formats.
 
-For uncompressed video formats, remember that the downstream filter can propose formats with various stride values. Your filter should accept any valid stride value. For more information, see [**BITMAPINFOHEADER**](bitmapinfoheader.md).
+For uncompressed video formats, remember that the downstream filter can propose formats with various stride values. Your filter should accept any valid stride value. For more information, see [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master).
 
 You must also override the pure-virtual [**CBaseOutputPin::DecideBufferSize**](cbaseoutputpin-decidebuffersize.md) method. Use this method to set the size of the sample buffers.
 
@@ -93,14 +98,14 @@ If you have a source filter with one output pin, you can use the [**CSourceSeeki
 > [!Note]  
 > [**CSourceSeeking**](csourceseeking.md) is not recommended for a filter with more than one output pin. The main issue is that only one pin should respond to seeking requests. Typically this requires communication among the pins and the filter.
 
- 
+ 
 
 The [**CSourceSeeking**](csourceseeking.md) class manages the playback rate, start time, stop time, and duration. Your derived class should set the initial stop time and duration. Whenever one of these values changes, the [**CSourceSeeking::ChangeRate**](csourceseeking-changerate.md), [**CSourceSeeking::ChangeStart**](csourceseeking-changestart.md), or [**CSourceSeeking::ChangeStop**](csourceseeking-changestop.md) method is called, as appropriate. The methods are all pure virtual methods. The derived pin class overrides these methods to do the following:
 
-1.  Call [**IPin::BeginFlush**](ipin-beginflush.md) on the downstream pin. This causes downstream filters to release samples they are holding and reject new samples.
+1.  Call [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) on the downstream pin. This causes downstream filters to release samples they are holding and reject new samples.
 2.  Call [**CSourceStream::Stop**](csourcestream-stop.md) to stop the streaming thread. The source filter suspends producing new data.
-3.  Call [**IPin::EndFlush**](ipin-endflush.md) on the downstream pin. This signals the downstream filters to accept new data.
-4.  Call [**IPin::NewSegment**](ipin-newsegment.md) with the new start and stop times and rate.
+3.  Call [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) on the downstream pin. This signals the downstream filters to accept new data.
+4.  Call [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master) with the new start and stop times and rate.
 5.  Set the discontinuity property on the next sample.
 
 For more information, see [Supporting Seeking in a Source Filter](supporting-seeking-in-a-source-filter.md).
@@ -118,14 +123,14 @@ By default, seek commands are in units of 100-nanoseconds. Your source filter ca
 
 To support additional time formats, you must implement the following methods on your output pin:
 
--   [**IMediaSeeking::ConvertTimeFormat**](imediaseeking-converttimeformat.md)
--   [**IMediaSeeking::GetTimeFormat**](imediaseeking-gettimeformat.md)
--   [**IMediaSeeking::IsFormatSupported**](imediaseeking-isformatsupported.md)
--   [**IMediaSeeking::IsUsingTimeFormat**](imediaseeking-isusingtimeformat.md)
--   [**IMediaSeeking::QueryPreferredFormat**](imediaseeking-querypreferredformat.md)
--   [**IMediaSeeking::SetTimeFormat**](imediaseeking-settimeformat.md)
+-   [**IMediaSeeking::ConvertTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-converttimeformat?branch=master)
+-   [**IMediaSeeking::GetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-gettimeformat?branch=master)
+-   [**IMediaSeeking::IsFormatSupported**](/windows/win32/Strmif/nf-strmif-imediaseeking-isformatsupported?branch=master)
+-   [**IMediaSeeking::IsUsingTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-isusingtimeformat?branch=master)
+-   [**IMediaSeeking::QueryPreferredFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-querypreferredformat?branch=master)
+-   [**IMediaSeeking::SetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-settimeformat?branch=master)
 
-If the application sets a new time format, all of the position parameters in the [**IMediaSeeking**](imediaseeking.md) methods are interpreted in terms of the new time format. For example, if the time format is frames, the [**IMediaSeeking::GetDuration**](imediaseeking-getduration.md) method must return the duration in frames.
+If the application sets a new time format, all of the position parameters in the [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) methods are interpreted in terms of the new time format. For example, if the time format is frames, the [**IMediaSeeking::GetDuration**](/windows/win32/Strmif/nf-strmif-imediaseeking-getduration?branch=master) method must return the duration in frames.
 
 In practice, few DirectShow filters support additional time formats, and as a result, few DirectShow applications make use of this capability.
 
@@ -136,9 +141,9 @@ In practice, few DirectShow filters support additional time formats, and as a re
 [Writing Source Filters](writing-source-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

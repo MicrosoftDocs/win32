@@ -4,13 +4,16 @@ description: Creates a group and brings it online.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '02910650-1e1a-4046-8e31-ee639132bb28'
-ms.prod: 'windows-server-dev'
+ms.assetid: 02910650-1e1a-4046-8e31-ee639132bb28
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateGroup method", "CreateGroup method, MSCluster_ResourceGroup class", "MSCluster_ResourceGroup class, CreateGroup method"]
+keywords:
+- CreateGroup method
+- CreateGroup method, MSCluster_ResourceGroup class
+- MSCluster_ResourceGroup class, CreateGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateGroup method of the MSCluster\_ResourceGroup class
@@ -30,9 +36,9 @@ Creates a [group](https://msdn.microsoft.com/library/aa369645) and brings it [*o
 
 ```mof
 void CreateGroup(
-  [in]      string GroupName,
-  [in]      uint32 GroupType,
-  [in, out] string Id
+  [in]      string GroupName,
+  [in]      uint32 GroupType,
+  [in, out] string Id
 );
 ```
 
@@ -175,9 +181,9 @@ The resource group type.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This parameter is not supported before Windows Server 2012.
+This parameter is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -186,9 +192,9 @@ This parameter is not supported before Windows Server 2012.
 
 Id of the resource group.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This parameter is not supported before Windows Server 2012.
+This parameter is not supported before Windows Server 2012.
 
 </dd> </dl>
 
@@ -203,7 +209,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -220,9 +226,9 @@ This method does not return a value.
 [**DeleteGroup Method of the MSCluster\_ResourceGroup Class**](mscluster-resourcegroup-deletegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

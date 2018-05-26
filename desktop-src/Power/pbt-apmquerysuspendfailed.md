@@ -1,12 +1,17 @@
 ---
-Description: 'Notifies applications that permission to suspend the computer was denied.'
-ms.assetid: '0f68628f-9d38-45ca-9487-95bf62075e00'
-title: 'PBT\_APMQUERYSUSPENDFAILED event'
+Description: Notifies applications that permission to suspend the computer was denied.
+ms.assetid: 0f68628f-9d38-45ca-9487-95bf62075e00
+title: PBT\_APMQUERYSUSPENDFAILED event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMQUERYSUSPENDFAILED event
 
-\[PBT\_APMQUERYSUSPENDFAILED is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [**SetThreadExecutionState**](setthreadexecutionstate.md) instead.\]
+\[PBT\_APMQUERYSUSPENDFAILED is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [**SetThreadExecutionState**](/windows/win32/Winbase/nf-winbase-setthreadexecutionstate?branch=master) instead.\]
 
 Notifies applications that permission to suspend the computer was denied. This event is broadcast if any application or driver returned **BROADCAST\_QUERY\_DENY** to a previous [PBT\_APMQUERYSUSPEND](pbt-apmquerysuspend.md) event.
 
@@ -41,7 +46,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -51,7 +56,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,10 +81,10 @@ Applications typically respond to this event by resuming normal operation.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
-| End of client support<br/>    | Windows XP<br/>                                                                                    |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| End of client support<br/>    | Windows XP<br/>                                                                                    |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -100,9 +105,9 @@ Applications typically respond to this event by resuming normal operation.
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

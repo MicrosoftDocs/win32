@@ -1,7 +1,12 @@
 ---
 title: uidefault
 description: Indicates that the type information member is the default member for display in the user interface.
-ms.assetid: 'e9c71374-7976-4fc7-b2fd-0a0ec46f7463'
+ms.assetid: e9c71374-7976-4fc7-b2fd-0a0ec46f7463
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # uidefault

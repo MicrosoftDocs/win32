@@ -1,8 +1,9 @@
 ---
 title: EM\_LINESCROLL message
 description: Scrolls the text in a multiline edit control.
-ms.assetid: '5398082d-f1ef-4a3a-9e5a-83cf286adbf1'
-keywords: ["EM_LINESCROLL message Windows Controls"]
+ms.assetid: 5398082d-f1ef-4a3a-9e5a-83cf286adbf1
+keywords:
+- EM_LINESCROLL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_LINESCROLL message
@@ -49,7 +55,7 @@ The control does not scroll vertically past the last line of text in the edit co
 
 **Edit controls:** The **EM\_LINESCROLL** message scrolls the text vertically or horizontally in a multiline edit control. The **EM\_LINESCROLL** message can be used to scroll horizontally past the last character of any line.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. The **EM\_LINESCROLL** message scrolls the text vertically in a multiline edit control. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. The **EM\_LINESCROLL** message scrolls the text vertically in a multiline edit control. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -57,15 +63,15 @@ The control does not scroll vertically past the last line of text in the edit co
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

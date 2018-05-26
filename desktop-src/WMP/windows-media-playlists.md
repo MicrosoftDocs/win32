@@ -1,8 +1,18 @@
 ---
 title: Windows Media Playlists
 description: Windows Media Playlists
-ms.assetid: '70df7021-d08f-4c26-a9f9-bb44b4999d35'
-keywords: ["Windows Media Playlists (WPL)", "WPL (Windows Media Playlists)", "Windows Media,Windows Media Playlists (WPL)", "playlists,Windows Media Playlists (WPL)", "reference for Windows Media Playlists"]
+ms.assetid: 70df7021-d08f-4c26-a9f9-bb44b4999d35
+keywords:
+- Windows Media Playlists (WPL)
+- WPL (Windows Media Playlists)
+- Windows Media,Windows Media Playlists (WPL)
+- playlists,Windows Media Playlists (WPL)
+- reference for Windows Media Playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Playlists

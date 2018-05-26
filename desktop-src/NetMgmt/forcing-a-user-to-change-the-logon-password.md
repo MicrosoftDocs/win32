@@ -1,12 +1,17 @@
 ---
 title: Forcing a User to Change the Logon Password
 description: This code sample demonstrates how to force a user to change the logon password on the next logon using the NetUserGetInfo and NetUserSetInfo functions and the USER\_INFO\_3 structure.
-ms.assetid: '828f5d72-3e19-4b65-a1db-ac702fd4cfde'
+ms.assetid: 828f5d72-3e19-4b65-a1db-ac702fd4cfde
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Forcing a User to Change the Logon Password
 
-This code sample demonstrates how to force a user to change the logon password on the next logon using the [**NetUserGetInfo**](netusergetinfo.md) and [**NetUserSetInfo**](netusersetinfo.md) functions and the [**USER\_INFO\_3**](user-info-3-str.md) structure. Note that starting with Windows XP, it is recommended that you use the [**USER\_INFO\_4**](user-info-4-str.md) structure instead.
+This code sample demonstrates how to force a user to change the logon password on the next logon using the [**NetUserGetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusergetinfo?branch=master) and [**NetUserSetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusersetinfo?branch=master) functions and the [**USER\_INFO\_3**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_3?branch=master) structure. Note that starting with Windows XP, it is recommended that you use the [**USER\_INFO\_4**](/windows/win32/Lmaccess/ns-lmaccess-_user_info_4?branch=master) structure instead.
 
 Set the **usri3\_password\_expired** member of the **USER\_INFO\_3** structure to a nonzero value using the following code fragment:
 

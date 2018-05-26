@@ -1,7 +1,12 @@
 ---
-Description: 'Cloning and Sharing (Direct3D 9)'
-ms.assetid: '1dabe611-bf3b-49bf-99ab-dbdfd343f885'
-title: 'Cloning and Sharing (Direct3D 9)'
+Description: Cloning and Sharing (Direct3D 9)
+ms.assetid: 1dabe611-bf3b-49bf-99ab-dbdfd343f885
+title: Cloning and Sharing (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cloning and Sharing (Direct3D 9)

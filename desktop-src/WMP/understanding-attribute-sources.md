@@ -1,8 +1,23 @@
 ---
 title: Understanding Attribute Sources
 description: Understanding Attribute Sources
-ms.assetid: '83274fea-233d-40dc-b587-99e99ddcd92b'
-keywords: ["Windows Media Player,attributes for media items", "Windows Media Player object model,attributes for media items", "object model,attributes for media items", "Windows Media Player Mobile,attributes for media items", "Windows Media Player ActiveX control,attributes for media items", "Windows Media Player Mobile ActiveX control,attributes for media items", "ActiveX control,attributes for media items", "Windows Media Player library,attributes for media items", "library,attributes for media items", "attributes,sources"]
+ms.assetid: 83274fea-233d-40dc-b587-99e99ddcd92b
+keywords:
+- Windows Media Player,attributes for media items
+- Windows Media Player object model,attributes for media items
+- object model,attributes for media items
+- Windows Media Player Mobile,attributes for media items
+- Windows Media Player ActiveX control,attributes for media items
+- Windows Media Player Mobile ActiveX control,attributes for media items
+- ActiveX control,attributes for media items
+- Windows Media Player library,attributes for media items
+- library,attributes for media items
+- attributes,sources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Attribute Sources

@@ -1,7 +1,12 @@
 ---
 title: BITSAdmin Examples
 description: The following examples show how to use the BITSAdmin tool to perform the most common tasks. For a complete list of switches and description of their use, see BITSAdmin Tool.
-ms.assetid: 'cb8f8374-ba6e-4a68-85a1-9a95b8215354'
+ms.assetid: cb8f8374-ba6e-4a68-85a1-9a95b8215354
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITSAdmin Examples

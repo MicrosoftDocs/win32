@@ -1,8 +1,17 @@
 ---
 title: About Type 1 Online Stores
 description: About Type 1 Online Stores
-ms.assetid: '754b0097-5d28-4c1f-9847-a19cf23beaea'
-keywords: ["Windows Media Player online stores,type 1 online stores", "online stores,type 1 online stores", "type 1 online stores,about", "Windows Media Player,type 1 online stores"]
+ms.assetid: 754b0097-5d28-4c1f-9847-a19cf23beaea
+keywords:
+- Windows Media Player online stores,type 1 online stores
+- online stores,type 1 online stores
+- type 1 online stores,about
+- Windows Media Player,type 1 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Type 1 Online Stores
@@ -14,7 +23,7 @@ keywords: ["Windows Media Player online stores,type 1 online stores", "online st
 
 Microsoft Windows Media Player 11 supports two kinds of online stores: type 1 and type 2. Type 1 stores are more deeply integrated into Windows Media Player than type 2 stores. A type 1 online store provides a downloadable music catalog so that Windows Media Player can make the store's content available to the user as if the content were in the user's local media library.
 
-A type 1 online store must provide a plug-in that implements the [IWMPContentPartner](iwmpcontentpartner.md) interface. As the user navigates in the Windows Media Player user interface, the Player calls the plug-in so that the online store can enhance the user's experience by providing webpages that are displayed in the Player.
+A type 1 online store must provide a plug-in that implements the [IWMPContentPartner](/windows/win32/contentpartner/nn-contentpartner-iwmpcontentpartner?branch=master) interface. As the user navigates in the Windows Media Player user interface, the Player calls the plug-in so that the online store can enhance the user's experience by providing webpages that are displayed in the Player.
 
 Features of type 1 online stores that distinguish them from type 2 stores include the following:
 
@@ -39,7 +48,7 @@ The following sections provide overview information about type 1 online stores.
 | Section                                                                                              | Description                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Music Catalog](music-catalog.md)                                                                   | Describes the music catalog provided by the online store. Describes the catalog compiler provided by Microsoft.                                                                     |
-| [Content Containers](content-containers.md)                                                         | Describes the content container interface ([IWMPContentContainer](iwmpcontentcontainer.md)), which is used to represent a collection of media items to be purchased or downloaded. |
+| [Content Containers](content-containers.md)                                                         | Describes the content container interface ([IWMPContentContainer](/windows/win32/contentpartner/nn-contentpartner-iwmpcontentcontainer?branch=master)), which is used to represent a collection of media items to be purchased or downloaded. |
 | [Library Integration](library-integration.md)                                                       | Describes how the online store's music catalog is integrated into the Player's library view.                                                                                        |
 | [Discovery Pages](discovery-pages.md)                                                               | Describes the interaction between Windows Media Player and webpages provided by the online store.                                                                                   |
 | [Context Menus](context-menus.md)                                                                   | Describes how the online store can provide context menus as the user navigates the Player's user interface.                                                                         |

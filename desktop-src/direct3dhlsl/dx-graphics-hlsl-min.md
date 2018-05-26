@@ -1,14 +1,20 @@
 ---
 title: min
 description: Selects the lesser of x and y.
-ms.assetid: '4e10cfc2-d680-4d7f-81b2-fa52024f902d'
-keywords: ["min HLSL"]
+ms.assetid: 4e10cfc2-d680-4d7f-81b2-fa52024f902d
+keywords:
+- min HLSL
 topic_type:
 - apiref
 api_name:
 - min
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # min
@@ -22,7 +28,7 @@ Selects the lesser of x and y.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Selects the lesser of x and y.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ For values of -INF or INF, min will behave as expected. However for values of Na
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -72,7 +78,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -81,9 +87,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

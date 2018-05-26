@@ -1,8 +1,14 @@
 ---
 title: Retrieving Compact Disc Track-Specific Information
 description: Retrieving Compact Disc Track-Specific Information
-ms.assetid: '7a26fac2-7cc5-4a65-b045-35baf979c134'
-keywords: ["MCI_TRACK flag"]
+ms.assetid: 7a26fac2-7cc5-4a65-b045-35baf979c134
+keywords:
+- MCI_TRACK flag
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Compact Disc Track-Specific Information

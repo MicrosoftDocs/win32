@@ -1,7 +1,12 @@
 ---
 title: Animations
 description: Animations
-ms.assetid: '8bd9ac94-3f86-4168-bf33-7a2c8d11907d'
+ms.assetid: 8bd9ac94-3f86-4168-bf33-7a2c8d11907d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Animations
@@ -88,11 +93,11 @@ The Microsoft Agent Character Editor enables you to define seven basic mouth pos
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

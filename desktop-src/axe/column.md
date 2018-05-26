@@ -1,14 +1,20 @@
 ---
 title: Column element
 description: The column node describes a column of metric values.
-ms.assetid: 'A6C14E8A-2755-4A65-B6A4-7DD675D6C005'
-keywords: ["Column element Access Execution Engine"]
+ms.assetid: A6C14E8A-2755-4A65-B6A4-7DD675D6C005
+keywords:
+- Column element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Column
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Column element
@@ -76,9 +82,9 @@ MetricPageLinkHiddenChartedTestCaseKeyTestCaseNameTestCaseToolTip
 [**AXE Assessment Manifest**](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

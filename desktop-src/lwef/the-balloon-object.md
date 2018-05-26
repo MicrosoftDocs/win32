@@ -1,7 +1,12 @@
 ---
 title: The Balloon Object
 description: The Balloon Object
-ms.assetid: 'd5b52310-0b4e-4fe3-a481-53687be4a89c'
+ms.assetid: d5b52310-0b4e-4fe3-a481-53687be4a89c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Balloon Object

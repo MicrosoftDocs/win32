@@ -1,7 +1,12 @@
 ---
-Description: 'Here we describe how to manage or get info about virtual machines.'
-ms.assetid: 'B0F5E19F-36A6-4965-A119-42AF601A64BE'
-title: 'Hyper-V management'
+Description: Here we describe how to manage or get info about virtual machines.
+ms.assetid: B0F5E19F-36A6-4965-A119-42AF601A64BE
+title: Hyper-V management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V management
@@ -19,11 +24,11 @@ Here we describe how to manage or get info about virtual machines.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

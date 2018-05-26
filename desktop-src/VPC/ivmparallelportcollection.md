@@ -1,8 +1,10 @@
 ---
 title: IVMParallelPortCollection interface
 description: Defines the collection of parallel ports within the virtual machine. To obtain an IVMParallelPortCollection object, use the IVMVirtualMachine ParallelPorts property.
-ms.assetid: '038a5c08-cd92-426f-a059-9a4c2110548d'
-keywords: ["IVMParallelPortCollection interface Virtual PC", "IVMParallelPortCollection interface Virtual PC , described"]
+ms.assetid: 038a5c08-cd92-426f-a059-9a4c2110548d
+keywords:
+- IVMParallelPortCollection interface Virtual PC
+- IVMParallelPortCollection interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMParallelPortCollection interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines the collection of parallel ports within the virtual machine. To obtain an **IVMParallelPortCollection** object, use the [**IVMVirtualMachine::ParallelPorts**](ivmvirtualmachine-parallelports.md) property.
 
@@ -39,7 +46,7 @@ The **IVMParallelPortCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -47,9 +54,9 @@ The **IVMParallelPortCollection** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMParallelPortCollection is defined as 27c3e036-198f-430c-8735-6e652f7203fd<br/>  |
@@ -66,9 +73,9 @@ The **IVMParallelPortCollection** interface has these properties.
 [**IVMVirtualMachine::ParallelPorts**](ivmvirtualmachine-parallelports.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

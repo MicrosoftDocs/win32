@@ -1,8 +1,20 @@
 ---
 title: Starting a Single Timer Event
 description: Starting a Single Timer Event
-ms.assetid: '56010877-1a02-4a7b-b58c-9f96b169acb2'
-keywords: ["multimedia timers,events", "timers,events", "multimedia timers,starting events", "timers,starting events", "timeSetEvent function", "starting timer events", "single timer events"]
+ms.assetid: 56010877-1a02-4a7b-b58c-9f96b169acb2
+keywords:
+- multimedia timers,events
+- timers,events
+- multimedia timers,starting events
+- timers,starting events
+- timeSetEvent function
+- starting timer events
+- single timer events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting a Single Timer Event
@@ -12,7 +24,7 @@ keywords: ["multimedia timers,events", "timers,events", "multimedia timers,start
 
  
 
-To start a single timer event, call the [**timeSetEvent**](timesetevent.md) function, specifying the amount of time before the callback occurs, the resolution, the address of the callback function (see [**TimeProc**](timeproc.md)), and the user data to supply with the callback function. An application can use a function like the following to start a single timer event.
+To start a single timer event, call the [**timeSetEvent**](/windows/win32/TimeAPI/?branch=master) function, specifying the amount of time before the callback occurs, the resolution, the address of the callback function (see [**TimeProc**](/windows/win32/Mmsystem/?branch=master)), and the user data to supply with the callback function. An application can use a function like the following to start a single timer event.
 
 
 ```C++

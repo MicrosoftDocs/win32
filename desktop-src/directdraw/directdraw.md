@@ -1,7 +1,12 @@
 ---
 title: DirectDraw
 description: This section contains information about programming with the DirectDraw component of the DirectX application programming interface (API).
-ms.assetid: '7065A549-C9B4-495C-85B0-3F2974ACBDE7'
+ms.assetid: 7065A549-C9B4-495C-85B0-3F2974ACBDE7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectDraw

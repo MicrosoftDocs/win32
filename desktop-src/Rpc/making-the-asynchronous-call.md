@@ -1,21 +1,27 @@
 ---
 title: Making the Asynchronous Call
 description: Before it can make an asynchronous remote call, the client must initialize the asynchronous handle. Client and server programs use pointers to the RPC\_ASYNC\_STATE structure for asynchronous handles.
-ms.assetid: 'b40308ef-88ae-4c80-9118-29c5ffee77ad'
-keywords: ["Remote Procedure Call RPC , tasks, making asynchronous calls"]
+ms.assetid: b40308ef-88ae-4c80-9118-29c5ffee77ad
+keywords:
+- Remote Procedure Call RPC , tasks, making asynchronous calls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making the Asynchronous Call
 
-Before it can make an asynchronous remote call, the client must initialize the asynchronous handle. Client and server programs use pointers to the [**RPC\_ASYNC\_STATE**](rpc-async-state.md) structure for asynchronous handles.
+Before it can make an asynchronous remote call, the client must initialize the asynchronous handle. Client and server programs use pointers to the [**RPC\_ASYNC\_STATE**](/windows/win32/Rpcasync/ns-rpcasync-_rpc_async_state?branch=master) structure for asynchronous handles.
 
-Every outstanding call must have its own unique asynchronous handle. The client creates the handle and passes it to the [**RpcAsyncInitializeHandle**](rpcasyncinitializehandle.md) function. For the call to complete correctly, the client must ensure that the memory for the handle is not released until it receives the server's asynchronous reply. Also, before making another call on an existing asynchronous handle, the client must reinitialize the handle. Failure to do this can cause the client stub to raise an exception during the call. The client must also ensure that the buffers it supplies for \[[**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136)\] parameters and \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051), **out**\] parameters to an asynchronous remote procedure remain allocated until it has received the reply from the server.
+Every outstanding call must have its own unique asynchronous handle. The client creates the handle and passes it to the [**RpcAsyncInitializeHandle**](/windows/win32/Rpcasync/nf-rpcasync-rpcasyncinitializehandle?branch=master) function. For the call to complete correctly, the client must ensure that the memory for the handle is not released until it receives the server's asynchronous reply. Also, before making another call on an existing asynchronous handle, the client must reinitialize the handle. Failure to do this can cause the client stub to raise an exception during the call. The client must also ensure that the buffers it supplies for \[[**out**](https://msdn.microsoft.com/library/windows/desktop/aa367136)\] parameters and \[[**in**](https://msdn.microsoft.com/library/windows/desktop/aa367051), **out**\] parameters to an asynchronous remote procedure remain allocated until it has received the reply from the server.
 
 When it invokes an asynchronous remote procedure, the client must select the method that the RPC run-time library will use to notify it of the call's completion. The client can receive this notification in any one of the following ways:
 
 -   Event. The client can specify an event to be fired when the call has completed. For details, see [Event Objects](https://msdn.microsoft.com/library/windows/desktop/ms682655).
--   Polling. The client can repeatedly call [**RpcAsyncGetCallStatus**](rpcasyncgetcallstatus.md). If the return value is anything other than RPC\_S\_ASYNC\_CALL\_PENDING, the call is complete. This method uses more CPU time than the other methods described here.
--   APC. The client can specify an [asynchronous procedure call (APC)](https://msdn.microsoft.com/library/windows/desktop/ms681951) that gets called when the call completes. For the prototype of the APC function, see [**RPCNOTIFICATION\_ROUTINE**](rpcnotification-routine.md). The APC is called with its Event parameter set to RpcCallComplete. For APCs to get dispatched, the client thread must be in an alertable wait state.
+-   Polling. The client can repeatedly call [**RpcAsyncGetCallStatus**](/windows/win32/Rpcasync/nf-rpcasync-rpcasyncgetcallstatus?branch=master). If the return value is anything other than RPC\_S\_ASYNC\_CALL\_PENDING, the call is complete. This method uses more CPU time than the other methods described here.
+-   APC. The client can specify an [asynchronous procedure call (APC)](https://msdn.microsoft.com/library/windows/desktop/ms681951) that gets called when the call completes. For the prototype of the APC function, see [**RPCNOTIFICATION\_ROUTINE**](/windows/win32/Rpcdce/?branch=master). The APC is called with its Event parameter set to RpcCallComplete. For APCs to get dispatched, the client thread must be in an alertable wait state.
 
     If the **hThread** field in the asynchronous handle is set to 0, the APCs are queued on the thread that made the asynchronous call. If it is nonzero, the APCs are queued on the thread specified by m.
 

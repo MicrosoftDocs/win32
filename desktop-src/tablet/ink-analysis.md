@@ -1,7 +1,12 @@
 ---
-Description: 'For an application that accepts mixed handwriting and drawing input, the ability to distinguish between handwriting and drawing and to group handwriting into subcategories, such as recognition segments, lines, and paragraphs, is very useful.'
-ms.assetid: 'a3126930-2802-43c7-9e98-3a73498ac3f5'
+Description: For an application that accepts mixed handwriting and drawing input, the ability to distinguish between handwriting and drawing and to group handwriting into subcategories, such as recognition segments, lines, and paragraphs, is very useful.
+ms.assetid: a3126930-2802-43c7-9e98-3a73498ac3f5
 title: Ink Analysis
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Analysis

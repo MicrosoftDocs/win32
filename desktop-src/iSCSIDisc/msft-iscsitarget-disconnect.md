@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disconnects the specified session between an iSCSI initiator and an iSCSI target.'
-ms.assetid: '7EC188BC-5B29-4C06-A4D1-0FF3C22BC297'
-title: 'Disconnect method of the MSFT\_iSCSITarget class'
+---
+Description: Disconnects the specified session between an iSCSI initiator and an iSCSI target.
+ms.assetid: 7EC188BC-5B29-4C06-A4D1-0FF3C22BC297
+title: Disconnect method of the MSFT\_iSCSITarget class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disconnect method of the MSFT\_iSCSITarget class

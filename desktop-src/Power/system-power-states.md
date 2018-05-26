@@ -1,7 +1,12 @@
 ---
-Description: 'To the user, the system appears to be either on or off.'
-ms.assetid: '3d897a88-125e-457f-9ea7-ac2056b0767a'
+Description: To the user, the system appears to be either on or off.
+ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: System Power States
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Power States
@@ -11,7 +16,7 @@ To the user, the system appears to be either on or off. There are no other detec
 > [!Note]  
 > System integrators and developers creating drivers or applications with a system service should be particularly careful of driver quality issues, such as memory leaks. While driver quality has always been important, the up time between kernel reboots may be significantly longer than on previous versions of the OS because on user initiated sleeps and shutdowns, the kernel, drivers, and services will be preserved and restored, not re-started.
 
- 
+ 
 
 The following table lists the ACPI power states from highest to lowest power consumption.
 
@@ -71,9 +76,9 @@ SoC systems that support modern standby (the low-power idle state) do not use S1
 
 
 
- 
+ 
 
-The [**SYSTEM\_POWER\_STATE**](system-power-state.md) enumeration defines values that are used to specify system power states.
+The [**SYSTEM\_POWER\_STATE**](/windows/win32/WinNT/ne-winnt-_system_power_state?branch=master) enumeration defines values that are used to specify system power states.
 
 ## Working state (S0)
 
@@ -82,7 +87,7 @@ During the working state, the system is awake and running. In simple terms, the 
 > \[!Important\]  
 > Power-down hardware components whenever they're not being used - regardless of the state. Low power consumption is an important consideration for mobile device consumers.
 
- 
+ 
 
 ## Sleep state (Modern Standby)
 
@@ -91,7 +96,7 @@ In the S0 low-power idle mode of the working state, also referred to as [Modern 
 > [!Note]  
 > Modern Standby is only available on some SoC systems. When it's supported, the system does not support S1-S3.
 
- 
+ 
 
 ## Sleep state (S1-S3)
 
@@ -104,9 +109,9 @@ In these states (S1-S3), volatile memory is kept refreshed to maintain the syste
 The system also wakes from sleep in response to user activity or a wake-up event defined by an application. For more information, see [System Wake-up Events](system-wake-up-events.md). The amount of time it takes the system to wake depends on the sleep state it is waking from. The system takes more time to wake from a lower-powered state (S3) than from a higher-powered state (S1) because of the extra work the hardware may have to do (stabilize the power supply, reinitialize the processor, and so forth).
 
 > \[!Caution\]  
-> When calling [**SetThreadExecutionState**](setthreadexecutionstate.md), the **ES\_AWAYMODE\_REQUIRED** value should be used only when absolutely necessary by media applications that require the system to perform background tasks such as recording television content or streaming media to other devices while the system appears to be sleeping. Applications that do not require critical background processing or that run on portable computers should not enable away mode because it prevents the system from conserving power by entering true sleep.
+> When calling [**SetThreadExecutionState**](/windows/win32/Winbase/nf-winbase-setthreadexecutionstate?branch=master), the **ES\_AWAYMODE\_REQUIRED** value should be used only when absolutely necessary by media applications that require the system to perform background tasks such as recording television content or streaming media to other devices while the system appears to be sleeping. Applications that do not require critical background processing or that run on portable computers should not enable away mode because it prevents the system from conserving power by entering true sleep.
 
- 
+ 
 
 ### Hybrid sleep (S1-S3 + hibernation file)
 
@@ -114,7 +119,7 @@ The system also wakes from sleep in response to user activity or a wake-up event
 
 ## Hibernate state (S4)
 
-Windows uses hibernation to provide a fast startup experience. When available, it's also used on mobile devices to extend the usable battery life of a system by giving a mechanism to save all of the user’s state prior to shutting down the system. In a Hibernate transition, all the contents of memory are written to a file on the primary system drive, the *hibernation file*. This preserves the state of the operating system, applications, and devices. In the case where the combined memory footprint consumes all of physical memory, the hibernation file must be large enough to ensure there will be space to save all the contents of physical memory. Since data is written to non-volatile storage, DRAM does not need to maintain self-refresh and can be powered off, which means power consumption of hibernation is very low, almost the same as power off.
+Windows uses hibernation to provide a fast startup experience. When available, it's also used on mobile devices to extend the usable battery life of a system by giving a mechanism to save all of the user s state prior to shutting down the system. In a Hibernate transition, all the contents of memory are written to a file on the primary system drive, the *hibernation file*. This preserves the state of the operating system, applications, and devices. In the case where the combined memory footprint consumes all of physical memory, the hibernation file must be large enough to ensure there will be space to save all the contents of physical memory. Since data is written to non-volatile storage, DRAM does not need to maintain self-refresh and can be powered off, which means power consumption of hibernation is very low, almost the same as power off.
 
 During a full shutdown and boot (S5), the entire user session is torn down and restarted on the next boot. In contrast, during a hibernation (S4), the user session is closed and the user state is saved.
 
@@ -129,9 +134,9 @@ Fast startup logs off user sessions, but the contents of kernel (session 0) are 
 To programmatically initiate a fast startup-style shutdown, call the [**InitiateShutdown**](https://msdn.microsoft.com/library/windows/desktop/aa376872) function with the **SHUTDOWN\_HYBRID** flag or the [**ExitWindowsEx**](https://msdn.microsoft.com/library/windows/desktop/aa376868) function with the **EWX\_HYBRID\_SHUTDOWN** flag.
 
 > [!Note]  
-> Starting in Windows 8, fast startup is the default transition when a system shutdown is requested. A full shutdown (S5) occurs when a system restart is requested (or an application calls a shutdown API).
+> Starting in Windows 8, fast startup is the default transition when a system shutdown is requested. A full shutdown (S5) occurs when a system restart is requested (or an application calls a shutdown API).
 
- 
+ 
 
 ### Entering hibernation
 
@@ -143,11 +148,11 @@ When a hibernate request is made, the following steps occur as the system enters
 4.  Firmware is notified
 
 > [!Note]  
-> Starting in Windows 8, all cores on the system are used to compress the data in memory and write it to disk.
+> Starting in Windows 8, all cores on the system are used to compress the data in memory and write it to disk.
 
- 
+ 
 
-To programmatically initiate a hibernate transition, call the [**SetSuspendState**](setsuspendstate.md) function.
+To programmatically initiate a hibernate transition, call the [**SetSuspendState**](/windows/win32/PowrProf/nf-powrprof-setsuspendstate?branch=master) function.
 
 ### Resuming from hibernation
 
@@ -167,7 +172,7 @@ A resume from hibernation starts with a system POST that is similar to an S5 shu
 > [!Note]  
 > During a resume from hibernation, drivers and services are notified, but are not restarted. They are only restored to the state they were in prior to hibernation.
 
- 
+ 
 
 ### Hibernation file types
 
@@ -182,7 +187,7 @@ Hibernation files are used for hybrid sleep, fast startup, and standard hibernat
 
 
 
- 
+ 
 
 To verify or change the type of hibernation file used, run the **powercfg.exe** utility. The following examples demonstrate how. For more information, run `powercfg /? hibernate`.
 
@@ -198,7 +203,7 @@ To verify or change the type of hibernation file used, run the **powercfg.exe** 
 
 
 
- 
+ 
 
 ## Soft Off state (S5)
 
@@ -217,7 +222,7 @@ WOL is supported from sleep (S3) or hibernate (S4). It is not supported from fas
 > [!Note]  
 > WOL is not officially supported from soft off (S5). However, the BIOS on some systems may support arming NICs for wake, even though Windows is not involved in the process.
 
- 
+ 
 
 ## Related topics
 
@@ -226,9 +231,9 @@ WOL is supported from sleep (S3) or hibernate (S4). It is not supported from fas
 [About Power Management](about-power-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

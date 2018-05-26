@@ -1,7 +1,12 @@
 ---
-Description: 'This event notifies the installer, while keeping the present dialog running, that a feature or all features are to be run from source.'
-ms.assetid: 'fd8d6433-87cc-4544-9f4f-57a90e5f2ea5'
+Description: This event notifies the installer, while keeping the present dialog running, that a feature or all features are to be run from source.
+ms.assetid: fd8d6433-87cc-4544-9f4f-57a90e5f2ea5
 title: AddSource ControlEvent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddSource ControlEvent

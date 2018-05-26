@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace GetDirectory method
 description: Gets the file path of the message store.
-ms.assetid: 'e049a1c3-a734-42e1-84b7-8ec5e10de6a7'
-keywords: ["GetDirectory method Windows Mail (formerly Outlook Express)", "GetDirectory method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , GetDirectory method"]
+ms.assetid: e049a1c3-a734-42e1-84b7-8ec5e10de6a7
+keywords:
+- GetDirectory method Windows Mail (formerly Outlook Express)
+- GetDirectory method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , GetDirectory method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::GetDirectory method
@@ -22,8 +30,8 @@ Gets the file path of the message store.
 
 ```C++
 HRESULT GetDirectory(
-  [in, out] LPSTR pszPath,
-  [in]      DWORD cchMaxPath
+  [in, out] LPSTR pszPath,
+  [in]      DWORD cchMaxPath
 );
 ```
 
@@ -66,7 +74,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,8 +82,8 @@ Returns S\_OK if successful, or one of the following error values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -83,9 +91,9 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

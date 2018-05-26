@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.'
-ms.assetid: '1b2886a8-279b-4bec-9fb8-b88a68ded25b'
+---
+Description: Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.
+ms.assetid: 1b2886a8-279b-4bec-9fb8-b88a68ded25b
 title: NtGdiDdCreateSurfaceObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdCreateSurfaceObject function
@@ -121,7 +126,7 @@ Applications are advised to use the DirectDraw and [Direct3D](http://msdn.micros
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdCreateSurfaceObject**](-dxgkernel-ddcreatesurfaceobject.md)
+[**DdCreateSurfaceObject**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddcreatesurfaceobject?branch=master)
 </dt> <dt>
 
 [**NtGdiDdDeleteSurfaceObject**](-dxgkernel-ntgdidddeletesurfaceobject.md)

@@ -1,8 +1,11 @@
 ---
 title: IWMPClosedCaption2 getSAMILangName method
 description: The getSAMILangName method returns the name of a language supported by the current SAMI file.
-ms.assetid: '52aaf1cc-89ef-4c4c-af43-3f88dc4a9539'
-keywords: ["getSAMILangName method Windows Media Player", "getSAMILangName method Windows Media Player , IWMPClosedCaption2 interface", "IWMPClosedCaption2 interface Windows Media Player , getSAMILangName method"]
+ms.assetid: 52aaf1cc-89ef-4c4c-af43-3f88dc4a9539
+keywords:
+- getSAMILangName method Windows Media Player
+- getSAMILangName method Windows Media Player , IWMPClosedCaption2 interface
+- IWMPClosedCaption2 interface Windows Media Player , getSAMILangName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption2::getSAMILangName method
@@ -98,9 +106,9 @@ This method returns a zero-length string ("") unless a digital media file is ope
 [**IWMPClosedCaption2 Interface (VB and C#)**](iwmpclosedcaption2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

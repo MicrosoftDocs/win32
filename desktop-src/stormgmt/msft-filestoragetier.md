@@ -1,8 +1,10 @@
 ---
 title: MSFT\_FileStorageTier class
 description: This class provides methods to manually pin a file onto a storage tier and to unpin it.
-ms.assetid: '002FE1D2-A54F-45DB-B511-F7776A39FAD4'
-keywords: ["MSFT_FileStorageTier class Windows Storage Management API", "MSFT_FileStorageTier class Windows Storage Management API , described"]
+ms.assetid: 002FE1D2-A54F-45DB-B511-F7776A39FAD4
+keywords:
+- MSFT_FileStorageTier class Windows Storage Management API
+- MSFT_FileStorageTier class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_FileStorageTier class
@@ -60,7 +67,7 @@ The **MSFT\_FileStorageTier** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -145,7 +152,7 @@ The placement status of the file.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -172,7 +179,7 @@ The state of the attempt to pin the file.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -182,16 +189,16 @@ The state of the attempt to pin the file.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

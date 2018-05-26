@@ -1,7 +1,12 @@
 ---
 title: crs - ps
 description: Computes a cross product using the right-hand rule.
-ms.assetid: '602fa7cc-4e2b-4d90-90d8-df00d5812c81'
+ms.assetid: 602fa7cc-4e2b-4d90-90d8-df00d5812c81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # crs - ps

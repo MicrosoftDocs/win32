@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a logical file or directory of operating system events.'
-ms.assetid: '00575928-a56e-40fd-9cc2-0a547f42a30d'
-title: 'Win32\_NTEventlogFile class'
+Description: Represents a logical file or directory of operating system events.
+ms.assetid: 00575928-a56e-40fd-9cc2-0a547f42a30d
+title: Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_NTEventlogFile class
@@ -16,45 +21,45 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MS_NT_EVENTLOG_PROVIDER"), Dynamic]
 class Win32_NTEventlogFile : CIM_DataFile
 {
-  uint32   AccessMask;
-  boolean  Archive;
-  string   Caption;
-  boolean  Compressed;
-  string   CompressionMethod;
-  string   CreationClassName;
+  uint32   AccessMask;
+  boolean  Archive;
+  string   Caption;
+  boolean  Compressed;
+  string   CompressionMethod;
+  string   CreationClassName;
   datetime CreationDate;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Description;
-  string   Drive;
-  string   EightDotThreeFileName;
-  boolean  Encrypted;
-  string   EncryptionMethod;
-  string   Extension;
-  string   FileName;
-  uint64   FileSize;
-  string   FileType;
-  string   FSCreationClassName;
-  string   FSName;
-  boolean  Hidden;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Description;
+  string   Drive;
+  string   EightDotThreeFileName;
+  boolean  Encrypted;
+  string   EncryptionMethod;
+  string   Extension;
+  string   FileName;
+  uint64   FileSize;
+  string   FileType;
+  string   FSCreationClassName;
+  string   FSName;
+  boolean  Hidden;
   datetime InstallDate;
-  uint64   InUseCount;
+  uint64   InUseCount;
   datetime LastAccessed;
   datetime LastModified;
-  string   LogfileName;
-  string.  Manufacturer;
-  uint32   MaxFileSize;
-  string   Name;
-  uint32   NumberOfRecords;
-  uint32   OverwriteOutDated;
-  string   OverWritePolicy;
-  string   Path;
-  boolean  Readable;
-  string   Sources[];
-  string   Status;
-  boolean  System;
-  string   Version;
-  boolean  Writeable;
+  string   LogfileName;
+  string.  Manufacturer;
+  uint32   MaxFileSize;
+  string   Name;
+  uint32   NumberOfRecords;
+  uint32   OverwriteOutDated;
+  string   OverWritePolicy;
+  string   Path;
+  boolean  Readable;
+  string   Sources[];
+  string   Status;
+  boolean  System;
+  string   Version;
+  boolean  Writeable;
 };
 ```
 
@@ -92,7 +97,7 @@ The **Win32\_NTEventlogFile** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -114,7 +119,7 @@ Bitmask that represents the access rights required to access or perform specific
 > [!Note]  
 > On FAT volumes, the **FULL\_ACCESS** value is returned instead, which indicates no security has been set on the object.
 
- 
+ 
 
 </dd> <dt>
 
@@ -540,12 +545,12 @@ Possible values for **OverwriteOutDated** include the following.
 | Value                                                                                              | Meaning                                                                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>0 (0x0)</dt> </dl>                 | Any record can be overwritten if necessary. If necessary, all existing events in the event log can be overwritten to make room for new events.<br/>                                                                            |
-| <dl> <dt>1–365</dt> </dl>                   | Events older than the specified number of days can be overwritten as needed. If the event log does not contain any records older than the value specified, no new events will be recorded until the log has been cleared.<br/> |
+| <dl> <dt>1 365</dt> </dl>                   | Events older than the specified number of days can be overwritten as needed. If the event log does not contain any records older than the value specified, no new events will be recorded until the log has been cleared.<br/> |
 | <dl> <dt>4294967295 (0xFFFFFFFF)</dt> </dl> | No records can be overwritten. If the log reaches its maximum size, no new events will be recorded until the log has been cleared.<br/>                                                                                        |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -570,7 +575,7 @@ Current overwrite policy the Event Log service employs for this log file. Data c
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -729,7 +734,7 @@ The Security privilege does not grant you the ability to manage auditing and sec
 
 
 
- 
+ 
 
 No special user rights are required to access any of the other event logs on a computer.
 
@@ -756,7 +761,7 @@ The following VBScript code sample demonstrates how to retrieve the info about t
 > [!Note]  
 > This script only applies to NT-based systems since Win9x does not support event logs.
 
- 
+ 
 
 
 ```VB
@@ -817,8 +822,8 @@ else
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -835,9 +840,9 @@ else
 [WMI Tasks: Event Logs](https://msdn.microsoft.com/library/aa394593)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

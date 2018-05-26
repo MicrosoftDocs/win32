@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.RunOnlyIfNetworkAvailable property
 description: For scripting, gets or sets a Boolean value that indicates that the Task Scheduler will run the task only when a network is available.
-ms.assetid: 'd0926d75-e7d9-469c-aaa0-ddee8fe22dcd'
-keywords: ["RunOnlyIfNetworkAvailable property Task Scheduler", "RunOnlyIfNetworkAvailable property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , RunOnlyIfNetworkAvailable property"]
+ms.assetid: d0926d75-e7d9-469c-aaa0-ddee8fe22dcd
+keywords:
+- RunOnlyIfNetworkAvailable property Task Scheduler
+- RunOnlyIfNetworkAvailable property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , RunOnlyIfNetworkAvailable property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.RunOnlyIfNetworkAvailable property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, this setting is specified in the [**RunO
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When reading or writing XML for a task, this setting is specified in the [**RunO
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

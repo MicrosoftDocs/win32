@@ -1,7 +1,12 @@
 ---
 title: Correlation Descriptors
 description: A correlation descriptor is a format string that describes an expression based on one argument related to another argument.
-ms.assetid: '9f5f5077-d6a9-4253-bddf-b8cd0c868973'
+ms.assetid: 9f5f5077-d6a9-4253-bddf-b8cd0c868973
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Correlation Descriptors

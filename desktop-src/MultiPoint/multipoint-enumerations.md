@@ -4,10 +4,13 @@ description: MultiPoint Services includes the following enumerations.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '15B04A5F-FD18-4E57-8BF1-EF2D71F1A482'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 15B04A5F-FD18-4E57-8BF1-EF2D71F1A482
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MultiPoint Services Enumerations

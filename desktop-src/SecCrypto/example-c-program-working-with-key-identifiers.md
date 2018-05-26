@@ -1,17 +1,22 @@
 ---
-Description: 'Example C Program: Working with Key Identifiers'
-ms.assetid: '5ca160fd-8a63-46fa-99ce-e01a6acb81f4'
-title: 'Example C Program: Working with Key Identifiers'
+Description: Example C Program Working with Key Identifiers
+ms.assetid: 5ca160fd-8a63-46fa-99ce-e01a6acb81f4
+title: Example C Program Working with Key Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Working with Key Identifiers
 
 The following example demonstrates ways of working with key identifiers. This example illustrates the following tasks and CryptoAPI functions:
 
--   Creating a key identifier using [**CryptCreateKeyIdentifierFromCSP**](cryptcreatekeyidentifierfromcsp.md).
--   Setting a property on a key identifier using [**CryptSetKeyIdentifierProperty**](cryptsetkeyidentifierproperty.md).
--   Retrieving the contents of a key identifier property using [**CryptGetKeyIdentifierProperty**](cryptgetkeyidentifierproperty.md).
--   Listing the properties of a key identifier using [**CryptEnumKeyIdentifierProperties**](cryptenumkeyidentifierproperties.md).
+-   Creating a key identifier using [**CryptCreateKeyIdentifierFromCSP**](/windows/win32/Wincrypt/nf-wincrypt-cryptcreatekeyidentifierfromcsp?branch=master).
+-   Setting a property on a key identifier using [**CryptSetKeyIdentifierProperty**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty?branch=master).
+-   Retrieving the contents of a key identifier property using [**CryptGetKeyIdentifierProperty**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty?branch=master).
+-   Listing the properties of a key identifier using [**CryptEnumKeyIdentifierProperties**](/windows/win32/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties?branch=master).
 -   Declaring, defining, and using a callback function.
 
 

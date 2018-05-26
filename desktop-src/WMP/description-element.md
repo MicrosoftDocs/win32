@@ -1,14 +1,20 @@
 ---
 title: Description Element
 description: Note This section describes functionality designed for use by online stores.
-ms.assetid: '4d9ff447-e5a4-46b1-b599-87202077abfb'
-keywords: ["Description Element Windows Media Player"]
+ms.assetid: 4d9ff447-e5a4-46b1-b599-87202077abfb
+keywords:
+- Description Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Description Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **Description** element specifies a marketing description of the online store that is displayed during the user's first experience with an installation of Windows Media Player.
 
@@ -41,7 +47,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +76,9 @@ The length of the description must be less than or equal to 255 characters.
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

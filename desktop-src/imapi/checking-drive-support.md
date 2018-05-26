@@ -1,7 +1,12 @@
 ---
 title: Checking Drive Support
 description: The following example examines disc device characteristics that are independent of media inserted in the device.
-ms.assetid: '2d7e5ff9-7f1b-4bc1-bbc8-5e7eab45cdb0'
+ms.assetid: 2d7e5ff9-7f1b-4bc1-bbc8-5e7eab45cdb0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking Drive Support
@@ -106,19 +111,19 @@ End Function
 [Using IMAPI](using-imapi.md)
 </dt> <dt>
 
-[**IDiscMaster2**](idiscmaster2.md)
+[**IDiscMaster2**](/windows/win32/imapi2/nn-imapi2-idiscmaster2?branch=master)
 </dt> <dt>
 
-[**IDiscRecorder2**](idiscrecorder2.md)
+[**IDiscRecorder2**](/windows/win32/imapi2/nn-imapi2-idiscrecorder2?branch=master)
 </dt> <dt>
 
-[**IMAPI\_FEATURE\_PAGE\_TYPE**](imapi-feature-page-type.md)
+[**IMAPI\_FEATURE\_PAGE\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_feature_page_type?branch=master)
 </dt> <dt>
 
-[**IMAPI\_MODE\_PAGE\_TYPE**](imapi-mode-page-type.md)
+[**IMAPI\_MODE\_PAGE\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_mode_page_type?branch=master)
 </dt> <dt>
 
-[**IMAPI\_PROFILE\_TYPE**](imapi-profile-type.md)
+[**IMAPI\_PROFILE\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_profile_type?branch=master)
 </dt> </dl>
 
  

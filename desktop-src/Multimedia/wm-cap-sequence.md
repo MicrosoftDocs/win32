@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SEQUENCE message
 description: The WM\_CAP\_SEQUENCE message initiates streaming video and audio capture to a file. You can send this message explicitly or by using the capCaptureSequence macro.
-ms.assetid: '33d53abc-e37e-48c6-bfc8-9cd02fde5cb6'
-keywords: ["WM_CAP_SEQUENCE message Windows Multimedia"]
+ms.assetid: 33d53abc-e37e-48c6-bfc8-9cd02fde5cb6
+keywords:
+- WM_CAP_SEQUENCE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SEQUENCE message
 
-The **WM\_CAP\_SEQUENCE** message initiates streaming video and audio capture to a file. You can send this message explicitly or by using the [**capCaptureSequence**](capcapturesequence.md) macro.
+The **WM\_CAP\_SEQUENCE** message initiates streaming video and audio capture to a file. You can send this message explicitly or by using the [**capCaptureSequence**](/windows/win32/Vfw/nf-vfw-capcapturesequence?branch=master) macro.
 
 
 ```C++
@@ -36,7 +42,7 @@ If an error occurs and an error callback function is set using the [**WM\_CAP\_S
 
 If you want to alter the parameters controlling streaming capture, use the [**WM\_CAP\_SET\_SEQUENCE\_SETUP**](wm-cap-set-sequence-setup.md) message prior to starting the capture.
 
-By default, the capture window does not allow other applications to continue running during capture. To override this, either set the **fYield** member of the [**CAPTUREPARMS**](captureparms.md) structure to **TRUE**, or install a yield callback function.
+By default, the capture window does not allow other applications to continue running during capture. To override this, either set the **fYield** member of the [**CAPTUREPARMS**](/windows/win32/Vfw/ns-vfw-tagcaptureparms?branch=master) structure to **TRUE**, or install a yield callback function.
 
 During streaming capture, the capture window can optionally issue notifications to your application of specific types of conditions. To install callback procedures for these notifications, use the following messages:
 
@@ -52,8 +58,8 @@ During streaming capture, the capture window can optionally issue notifications 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ During streaming capture, the capture window can optionally issue notifications 
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

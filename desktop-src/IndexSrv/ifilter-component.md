@@ -1,7 +1,12 @@
 ---
 title: IFilter Component
 description: IFilter Component
-ms.assetid: '0a0029cb-35cb-4423-a045-bd030866faca'
+ms.assetid: 0a0029cb-35cb-4423-a045-bd030866faca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFilter Component

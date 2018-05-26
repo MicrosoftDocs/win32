@@ -1,7 +1,12 @@
 ---
 title: Stream Buffer Engine Filters
 description: Stream Buffer Engine Filters
-ms.assetid: '836fb29a-cac6-46c9-810f-360fa9182747'
+ms.assetid: 836fb29a-cac6-46c9-810f-360fa9182747
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Buffer Engine Filters

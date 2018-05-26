@@ -4,11 +4,14 @@ description: The GetListPadInfo method returns an MMCListPadInfo object that rep
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '59bf5d87-c1c1-46a3-9770-2ae819dda18b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 59bf5d87-c1c1-46a3-9770-2ae819dda18b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetListPadInfo method MMC", "GetListPadInfo method MMC , MMCCtrl class", "MMCCtrl class MMC , GetListPadInfo method"]
+keywords:
+- GetListPadInfo method MMC
+- GetListPadInfo method MMC , MMCCtrl class
+- MMCCtrl class MMC , GetListPadInfo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCCtrl.GetListPadInfo method
@@ -63,9 +69,9 @@ An **MMCListPadInfo** object that represents list view labels and a button to be
 
 
 
- 
+ 
 
- 
+ 
 
 
 

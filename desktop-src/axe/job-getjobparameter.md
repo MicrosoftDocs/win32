@@ -1,8 +1,11 @@
 ---
 title: Job GetJobParameter method
 description: Retrieve the value of a specified job parameter.
-ms.assetid: '46520170-E08A-40D2-97D5-7F3E5E9F37AD'
-keywords: ["GetJobParameter method Access Execution Engine", "GetJobParameter method Access Execution Engine , Job interface", "Job interface Access Execution Engine , GetJobParameter method"]
+ms.assetid: 46520170-E08A-40D2-97D5-7F3E5E9F37AD
+keywords:
+- GetJobParameter method Access Execution Engine
+- GetJobParameter method Access Execution Engine , Job interface
+- Job interface Access Execution Engine , GetJobParameter method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::GetJobParameter method
@@ -22,8 +30,8 @@ Retrieve the value of a specified job parameter.
 
 ```C++
 virtual HRESULT GetJobParameter(
-  [in]            LPCWSTR parameterName,
-  [out, optional] LPCWSTR *parameterValue
+  [in]            LPCWSTR parameterName,
+  [out, optional] LPCWSTR *parameterValue
 ) const = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed code uses [**Job.JobParameter \| jobParameter**](https://msdn.microsoft.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -75,9 +83,9 @@ Managed code uses [**Job.JobParameter \| jobParameter**](https://msdn.microsoft.
 [**Job**](job-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

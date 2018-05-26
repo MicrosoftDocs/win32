@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.textLimit
 description: The textLimit attribute specifies or retrieves the maximum number of characters that the user can type in the edit box control.
-ms.assetid: 'd05a1df4-6f02-4711-a952-963f034363f5'
-keywords: ["EDITBOX.textLimit Windows Media Player"]
+ms.assetid: d05a1df4-6f02-4711-a952-963f034363f5
+keywords:
+- EDITBOX.textLimit Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.textLimit
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.textLimit
@@ -40,9 +46,9 @@ This attribute is a read/write **Number** (**long**) with a default value of 0, 
 [**EDITBOX Element**](editbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

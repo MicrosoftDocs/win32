@@ -1,8 +1,14 @@
 ---
 title: The \ length\_is\ Attribute
 description: The \ size\_is\ attribute lets you specify the maximum size of the array.
-ms.assetid: '577a1efd-2d16-40d6-99bb-998d81ee2f8c'
-keywords: ["length_is"]
+ms.assetid: 577a1efd-2d16-40d6-99bb-998d81ee2f8c
+keywords:
+- length_is
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The \[length\_is\] Attribute

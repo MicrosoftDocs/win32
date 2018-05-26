@@ -1,7 +1,12 @@
 ---
-Description: 'The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.'
-ms.assetid: '81564924-6d5b-4b2a-b549-e3f358f18371'
-title: 'CBaseInputPin.GetAllocatorRequirements method'
+Description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
+ms.assetid: 81564924-6d5b-4b2a-b549-e3f358f18371
+title: CBaseInputPin.GetAllocatorRequirements method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseInputPin.GetAllocatorRequirements method
@@ -13,7 +18,7 @@ The `GetAllocatorRequirements` method retrieves the allocator properties request
 
 ```C++
 HRESULT GetAllocatorRequirements(
-   ALLOCATOR_PROPERTIES *pProps
+   ALLOCATOR_PROPERTIES *pProps
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT GetAllocatorRequirements(
 *pProps* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure, which is filled in with the requirements.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure, which is filled in with the requirements.
 
 </dd> </dl>
 
@@ -58,9 +63,9 @@ Implementing this method is optional. If the filter has specific alignment or pr
 [**CBaseInputPin Class**](cbaseinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

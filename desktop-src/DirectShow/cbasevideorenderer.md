@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseVideoRenderer base class is used for building video renderer filters.'
-ms.assetid: '659ce3d4-8702-4daf-9242-787d67758d90'
+Description: The CBaseVideoRenderer base class is used for building video renderer filters.
+ms.assetid: 659ce3d4-8702-4daf-9242-787d67758d90
 title: CBaseVideoRenderer class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer class
@@ -75,7 +80,7 @@ The `CBaseVideoRenderer` base class is used for building video renderer filters.
 | [**get\_Jitter**](cbasevideorenderer-get-jitter.md)                                   | Retrieves the standard deviation of the time in milliseconds between each frame and the next. This applies to all frames since streaming started.                                                                                    |
 | IQualityControl Methods                                                                | Description                                                                                                                                                                                                                          |
 | [**Notify**](cbasevideorenderer-notify.md)                                            | Notifies the recipient that a quality change is requested.                                                                                                                                                                           |
-| [**SetSink**](cbasevideorenderer-setsink.md)                                          | Sets the [**IQualityControl**](iqualitycontrol.md) object that will receive quality messages.                                                                                                                                       |
+| [**SetSink**](cbasevideorenderer-setsink.md)                                          | Sets the [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) object that will receive quality messages.                                                                                                                                       |
 
 
 

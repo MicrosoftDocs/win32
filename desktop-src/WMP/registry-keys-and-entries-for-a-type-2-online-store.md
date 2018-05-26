@@ -1,8 +1,17 @@
 ---
 title: Registry Keys and Entries for a Type 2 Online Store
 description: Registry Keys and Entries for a Type 2 Online Store
-ms.assetid: '17dff940-3884-488a-9016-29bb47c51caf'
-keywords: ["Windows Media Player online stores,registry", "online stores,registry", "type 2 online stores,registry", "registry,type 2 online stores"]
+ms.assetid: 17dff940-3884-488a-9016-29bb47c51caf
+keywords:
+- Windows Media Player online stores,registry
+- online stores,registry
+- type 2 online stores,registry
+- registry,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Keys and Entries for a Type 2 Online Store
@@ -10,7 +19,7 @@ keywords: ["Windows Media Player online stores,registry", "online stores,registr
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 To make a type 2 online store available in Windows Media Player, the online store provider must create the following registry subkeys and entries on the user's computer.
 
@@ -38,7 +47,7 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 | Placeholder    | Description                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *keyName*      | A string agreed upon between Microsoft and the online store. This string uniquely identifies the online store.Example: "Proseware"<br/>                                                                                                                                                                                                                                                          |
-| *flags*        | A bitwise **OR** of one or more plug-in capability flags These flags specify whether Windows Media Player should call particular methods of [IWMPSubscriptionService](iwmpsubscriptionservice.md) and [IWMPSubscriptionService2](iwmpsubscriptionservice2.md). For information about supported flags, see the table of plug-in capability flags that follows this table.Example: 00000037<br/> |
+| *flags*        | A bitwise **OR** of one or more plug-in capability flags These flags specify whether Windows Media Player should call particular methods of [IWMPSubscriptionService](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice?branch=master) and [IWMPSubscriptionService2](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2?branch=master). For information about supported flags, see the table of plug-in capability flags that follows this table.Example: 00000037<br/> |
 | *clsid*        | A GUID that is the class identifier (CLSID) for the class that implements **IWMPSubscriptionService** in the online store's plug-in. This GUID must be in registry format, complete with the curly braces.Format: {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}<br/>                                                                                                                                    |
 | *friendlyname* | A friendly name for the online store.Example: "Proseware Music Service"<br/>                                                                                                                                                                                                                                                                                                                     |
 | *pluginName*   | A name for the online store's plug-in.Example: "Proseware Service Plug-in"<br/>                                                                                                                                                                                                                                                                                                                  |
@@ -47,7 +56,7 @@ In the preceding registry syntax, the symbols in italic are placeholders for nam
 
 
 
- 
+ 
 
 The following table describes the plug-in capability flags.
 
@@ -55,17 +64,17 @@ The following table describes the plug-in capability flags.
 
 | Flag                                    | Value | Description                                                                                                                                                                                                                        |
 |-----------------------------------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SUBSCRIPTION\_CAP\_ALLOWPLAY            | 0X1   | Windows Media Player should call [IWMPSubscriptionService::allowPlay](iwmpsubscriptionservice-allowplay.md).                                                                                                                      |
-| SUBSCRIPTION\_CAP\_ALLOWCDBURN          | 0X2   | Windows Media Player should call [IWMPSubscriptionService::allowCDBurn](iwmpsubscriptionservice-allowcdburn.md).                                                                                                                  |
-| SUBSCRIPTION\_CAP\_ALLOWPDATRANSFER     | 0X4   | Windows Media Player should call [IWMPSubscriptionService::allowPDATransfer](iwmpsubscriptionservice-allowpdatransfer.md).                                                                                                        |
-| SUBSCRIPTION\_CAP\_BACKGROUNDPROCESSING | 0X8   | Windows Media Player should call [IWMPSubscriptionService::startBackgroundProcessing](iwmpsubscriptionservice-startbackgroundprocessing.md).                                                                                      |
-| SUBSCRIPTION\_CAP\_DEVICEAVAILABLE      | 0X10  | Windows Media Player should call [IWMPSubscriptionService2::deviceAvailable](iwmpsubscriptionservice2-deviceavailable.md).                                                                                                        |
-| SUBSCRIPTION\_CAP\_PREPAREFORSYNC       | 0X20  | Windows Media Player should call [IWMPSubscriptionService2::prepareForSync](iwmpsubscriptionservice2-prepareforsync.md).                                                                                                          |
+| SUBSCRIPTION\_CAP\_ALLOWPLAY            | 0X1   | Windows Media Player should call [IWMPSubscriptionService::allowPlay](/windows/win32/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowplay?branch=master).                                                                                                                      |
+| SUBSCRIPTION\_CAP\_ALLOWCDBURN          | 0X2   | Windows Media Player should call [IWMPSubscriptionService::allowCDBurn](/windows/win32/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowcdburn?branch=master).                                                                                                                  |
+| SUBSCRIPTION\_CAP\_ALLOWPDATRANSFER     | 0X4   | Windows Media Player should call [IWMPSubscriptionService::allowPDATransfer](/windows/win32/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-allowpdatransfer?branch=master).                                                                                                        |
+| SUBSCRIPTION\_CAP\_BACKGROUNDPROCESSING | 0X8   | Windows Media Player should call [IWMPSubscriptionService::startBackgroundProcessing](/windows/win32/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice-startbackgroundprocessing?branch=master).                                                                                      |
+| SUBSCRIPTION\_CAP\_DEVICEAVAILABLE      | 0X10  | Windows Media Player should call [IWMPSubscriptionService2::deviceAvailable](/windows/win32/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-deviceavailable?branch=master).                                                                                                        |
+| SUBSCRIPTION\_CAP\_PREPAREFORSYNC       | 0X20  | Windows Media Player should call [IWMPSubscriptionService2::prepareForSync](/windows/win32/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservice2-prepareforsync?branch=master).                                                                                                          |
 | SUBSCRIPTION\_V1\_CAPS                  | 0XF   | Default. This value is used if none is registered. This is equivalent to combining SUBSCRIPTION\_CAP\_ALLOWPLAY, SUBSCRIPTION\_CAP\_ALLOWCDBURN, SUBSCRIPTION\_CAP\_ALLOWPDATRANSFER, and SUBSCRIPTION\_CAP\_BACKGROUNDPROCESSING. |
 
 
 
- 
+ 
 
 **Registry Entries for Development and Testing**
 
@@ -112,9 +121,9 @@ In the preceding registry syntax, *serviceInfo* is a placeholder for a string th
 [**Reference for Type 2 Online Stores**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

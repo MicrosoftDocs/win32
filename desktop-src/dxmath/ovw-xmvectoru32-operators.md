@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following operators are exposed by the XMVECTORU32 structure.'
-ms.assetid: '5b451eec-d9ec-456c-b7bb-c02f8c168dce'
+---
+Description: The following operators are exposed by the XMVECTORU32 structure.
+ms.assetid: 5b451eec-d9ec-456c-b7bb-c02f8c168dce
 title: XMVECTORU32 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVECTORU32 Operators
@@ -19,8 +24,8 @@ The following operators are exposed by the [**XMVECTORU32**](xmvectoru32-data-ty
 
 | Methods                                                               | Description                                                                                                                                                                                                                                                                                               |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**operator \_\_m128i**](xmvectoru32-operator---m128i.md)<br/> | Returns the object implementing the current instance of [**XMVECTORU32**](xmvectoru32-data-type.md) cast to a [\_\_m128i](http://msdn.microsoft.com/en-us/library/26232t5c.aspx) instance of \[Windows systems supporting [SSE](http://msdn.microsoft.com/en-us/library/t467de55.aspx) Only\]<br/> |
-| [**operator XMVECTOR**](xmvectoru32-operator-xmvector.md)<br/> | Returns the instance of `XMVECTOR` implementing the current instance of `XMVECTORU32`.<br/>                                                                                                                                                                                                         |
+| [**operator \_\_m128i**](/windows/win32/DirectXMath/?branch=master)<br/> | Returns the object implementing the current instance of [**XMVECTORU32**](xmvectoru32-data-type.md) cast to a [\_\_m128i](http://msdn.microsoft.com/en-us/library/26232t5c.aspx) instance of \[Windows systems supporting [SSE](http://msdn.microsoft.com/en-us/library/t467de55.aspx) Only\]<br/> |
+| [**operator XMVECTOR**](/windows/win32/DirectXMath/?branch=master)<br/> | Returns the instance of `XMVECTOR` implementing the current instance of `XMVECTORU32`.<br/>                                                                                                                                                                                                         |
 
 
 

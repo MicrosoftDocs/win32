@@ -1,7 +1,12 @@
 ---
-Description: 'Contains links to overviews of Platform Software Development Kit (SDK) authentication technologies.'
-ms.assetid: 'd05f518a-53cc-4478-8375-173c754ea95a'
+Description: Contains links to overviews of Platform Software Development Kit (SDK) authentication technologies.
+ms.assetid: d05f518a-53cc-4478-8375-173c754ea95a
 title: About Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Authentication
@@ -21,11 +26,11 @@ The following sections provide information about authentication.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

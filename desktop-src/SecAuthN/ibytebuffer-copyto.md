@@ -1,12 +1,17 @@
 ---
-Description: 'The CopyTo method copies a specified number of bytes from the current seek pointer in the object to the current seek pointer in another object.'
-ms.assetid: '2044965f-665f-4aa1-abc0-42f5278dd647'
-title: 'IByteBuffer::CopyTo method'
+Description: The CopyTo method copies a specified number of bytes from the current seek pointer in the object to the current seek pointer in another object.
+ms.assetid: 2044965f-665f-4aa1-abc0-42f5278dd647
+title: IByteBufferCopyTo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::CopyTo method
 
-\[The **CopyTo** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **CopyTo** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **CopyTo** method copies a specified number of bytes from the current seek pointer in the object to the current seek pointer in another object.
 
@@ -15,10 +20,10 @@ The **CopyTo** method copies a specified number of bytes from the current seek p
 
 ```C++
 HRESULT CopyTo(
-  [in]  LPBYTEBUFFER *pByteBuffer,
-  [in]  LONG         cb,
-  [out] LONG         *pcbRead,
-  [out] LONG         *pcbWritten
+  [in]  LPBYTEBUFFER *pByteBuffer,
+  [in]  LONG         cb,
+  [out] LONG         *pcbRead,
+  [out] LONG         *pcbWritten
 );
 ```
 
@@ -70,10 +75,10 @@ This method copies the specified bytes from one stream to another. It can also b
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -81,9 +86,9 @@ This method copies the specified bytes from one stream to another. It can also b
 
 
 
- 
+ 
 
- 
+ 
 
 
 

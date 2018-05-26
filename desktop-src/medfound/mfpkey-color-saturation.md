@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adjusts the saturation.'
-ms.assetid: 'bd71f542-36d9-4dfc-b402-35ee8e574731'
-title: 'MFPKEY\_COLOR\_SATURATION Property'
+---
+Description: Adjusts the saturation.
+ms.assetid: bd71f542-36d9-4dfc-b402-35ee8e574731
+title: MFPKEY\_COLOR\_SATURATION Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_COLOR\_SATURATION Property

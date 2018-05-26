@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'f696e433-b051-4de0-80e5-f9cd31fd0f23'
-title: 'CEnumPins.CEnumPins constructor'
+Description: Constructor method.
+ms.assetid: f696e433-b051-4de0-80e5-f9cd31fd0f23
+title: CEnumPins.CEnumPins constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumPins.CEnumPins constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CEnumPins(
-   CBaseFilter *pFilter,
-   CEnumPins   *pEnumPins
+   CBaseFilter *pFilter,
+   CEnumPins   *pEnumPins
 );
 ```
 
@@ -34,7 +39,7 @@ Pointer to the filter on which to enumerate the pins.
 *pEnumPins* 
 </dt> <dd>
 
-Pointer to the [**IEnumPins**](ienumpins.md) interface of an enumerator to clone, or **NULL**.
+Pointer to the [**IEnumPins**](/windows/win32/Strmif/nn-strmif-ienumpins?branch=master) interface of an enumerator to clone, or **NULL**.
 
 </dd> </dl>
 
@@ -60,9 +65,9 @@ If *pEnumPins* is **NULL**, this method initializes the enumerator to the beginn
 [**CEnumPins Class**](cenumpins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: PICTYPE Constants
 description: Describe the type of a picture object as returned by IPicture get\_Type, as well as to describe the type of picture in the picType member of the PICTDESC structure that is passed to OleCreatePictureIndirect.
-ms.assetid: '79f10687-f0eb-4b5e-a1a9-9186dbd0b51f'
+ms.assetid: 79f10687-f0eb-4b5e-a1a9-9186dbd0b51f
 topic_type:
 - apiref
 api_name:
@@ -15,22 +15,27 @@ api_location:
 - OleCtl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PICTYPE Constants
 
-Describe the type of a picture object as returned by [**IPicture::get\_Type**](ipicture-get-type.md), as well as to describe the type of picture in the **picType** member of the [**PICTDESC**](pictdesc.md) structure that is passed to [**OleCreatePictureIndirect**](olecreatepictureindirect.md).
+Describe the type of a picture object as returned by [**IPicture::get\_Type**](/windows/win32/OCIdl/nf-ocidl-ipicture-get_type?branch=master), as well as to describe the type of picture in the **picType** member of the [**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master) structure that is passed to [**OleCreatePictureIndirect**](/windows/win32/OleCtl/nf-olectl-olecreatepictureindirect?branch=master).
 
 
 
 | Constant/value                                                                                                                                                                                                                                  | Description                                                                                                                                                                                                                   |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="PICTYPE_UNINITIALIZED"></span><span id="pictype_uninitialized"></span><dl> <dt>**PICTYPE\_UNINITIALIZED**</dt> <dt>(-1)</dt> </dl> | The picture object is currently uninitialized. This value is only valid as a return value from [**IPicture::get\_Type**](ipicture-get-type.md) and is not valid with the [**PICTDESC**](pictdesc.md) structure.<br/>  |
-| <span id="PICTYPE_NONE"></span><span id="pictype_none"></span><dl> <dt>**PICTYPE\_NONE**</dt> <dt>0</dt> </dl>                               | A new picture object is to be created without an initialized state. This value is valid only in the [**PICTDESC**](pictdesc.md) structure.<br/>                                                                        |
-| <span id="PICTYPE_BITMAP"></span><span id="pictype_bitmap"></span><dl> <dt>**PICTYPE\_BITMAP**</dt> <dt>1</dt> </dl>                         | The picture type is a bitmap. When this value occurs in the [**PICTDESC**](pictdesc.md) structure, it means that the **bmp** field of that structure contains the relevant initialization parameters.<br/>             |
-| <span id="PICTYPE_METAFILE"></span><span id="pictype_metafile"></span><dl> <dt>**PICTYPE\_METAFILE**</dt> <dt>2</dt> </dl>                   | The picture type is a metafile. When this value occurs in the [**PICTDESC**](pictdesc.md) structure, it means that the **wmf** field of that structure contains the relevant initialization parameters.<br/>           |
-| <span id="PICTYPE_ICON"></span><span id="pictype_icon"></span><dl> <dt>**PICTYPE\_ICON**</dt> <dt>3</dt> </dl>                               | The picture type is an icon. When this value occurs in the [**PICTDESC**](pictdesc.md) structure, it means that the **icon** field of that structure contains the relevant initialization parameters.<br/>             |
-| <span id="PICTYPE_ENHMETAFILE"></span><span id="pictype_enhmetafile"></span><dl> <dt>**PICTYPE\_ENHMETAFILE**</dt> <dt>4</dt> </dl>          | The picture type is an enhanced metafile. When this value occurs in the [**PICTDESC**](pictdesc.md) structure, it means that the **emf** field of that structure contains the relevant initialization parameters.<br/> |
+| <span id="PICTYPE_UNINITIALIZED"></span><span id="pictype_uninitialized"></span><dl> <dt>**PICTYPE\_UNINITIALIZED**</dt> <dt>(-1)</dt> </dl> | The picture object is currently uninitialized. This value is only valid as a return value from [**IPicture::get\_Type**](/windows/win32/OCIdl/nf-ocidl-ipicture-get_type?branch=master) and is not valid with the [**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master) structure.<br/>  |
+| <span id="PICTYPE_NONE"></span><span id="pictype_none"></span><dl> <dt>**PICTYPE\_NONE**</dt> <dt>0</dt> </dl>                               | A new picture object is to be created without an initialized state. This value is valid only in the [**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master) structure.<br/>                                                                        |
+| <span id="PICTYPE_BITMAP"></span><span id="pictype_bitmap"></span><dl> <dt>**PICTYPE\_BITMAP**</dt> <dt>1</dt> </dl>                         | The picture type is a bitmap. When this value occurs in the [**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master) structure, it means that the **bmp** field of that structure contains the relevant initialization parameters.<br/>             |
+| <span id="PICTYPE_METAFILE"></span><span id="pictype_metafile"></span><dl> <dt>**PICTYPE\_METAFILE**</dt> <dt>2</dt> </dl>                   | The picture type is a metafile. When this value occurs in the [**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master) structure, it means that the **wmf** field of that structure contains the relevant initialization parameters.<br/>           |
+| <span id="PICTYPE_ICON"></span><span id="pictype_icon"></span><dl> <dt>**PICTYPE\_ICON**</dt> <dt>3</dt> </dl>                               | The picture type is an icon. When this value occurs in the [**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master) structure, it means that the **icon** field of that structure contains the relevant initialization parameters.<br/>             |
+| <span id="PICTYPE_ENHMETAFILE"></span><span id="pictype_enhmetafile"></span><dl> <dt>**PICTYPE\_ENHMETAFILE**</dt> <dt>4</dt> </dl>          | The picture type is an enhanced metafile. When this value occurs in the [**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master) structure, it means that the **emf** field of that structure contains the relevant initialization parameters.<br/> |
 
 
 
@@ -40,8 +45,8 @@ Describe the type of a picture object as returned by [**IPicture::get\_Type**](i
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>OleCtl.h</dt> </dl> |
 
 
@@ -50,18 +55,18 @@ Describe the type of a picture object as returned by [**IPicture::get\_Type**](i
 
 <dl> <dt>
 
-[**IPicture::get\_Type**](ipicture-get-type.md)
+[**IPicture::get\_Type**](/windows/win32/OCIdl/nf-ocidl-ipicture-get_type?branch=master)
 </dt> <dt>
 
-[**OleCreatePictureIndirect**](olecreatepictureindirect.md)
+[**OleCreatePictureIndirect**](/windows/win32/OleCtl/nf-olectl-olecreatepictureindirect?branch=master)
 </dt> <dt>
 
-[**PICTDESC**](pictdesc.md)
+[**PICTDESC**](/windows/win32/Olectl/ns-olectl-tagpictdesc?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

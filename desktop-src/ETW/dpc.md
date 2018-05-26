@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for device deferred procedure call (DPC) events. The following syntax is simplified from MOF code.'
-ms.assetid: '46010179-7f0a-47dd-95fd-04d30fc597ba'
+---
+Description: This class is the event type class for device deferred procedure call (DPC) events. The following syntax is simplified from MOF code.
+ms.assetid: 46010179-7f0a-47dd-95fd-04d30fc597ba
 title: DPC class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DPC class

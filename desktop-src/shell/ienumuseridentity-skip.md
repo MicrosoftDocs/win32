@@ -1,7 +1,12 @@
-﻿---
-Description: 'IEnumUserIdentity::Skip is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: 'bb19ae50-b384-48fb-9272-15e3e3eaa9d0'
-title: 'IEnumUserIdentity::Skip method'
+---
+Description: IEnumUserIdentitySkip is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: bb19ae50-b384-48fb-9272-15e3e3eaa9d0
+title: IEnumUserIdentitySkip method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumUserIdentity::Skip method

@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySet QueryProp method
 description: Compares the value of a property in the property set with the specified string.
-ms.assetid: '3c383ca9-de90-4a00-960f-babea9b3429e'
-keywords: ["QueryProp method Windows Mail (formerly Outlook Express)", "QueryProp method Windows Mail (formerly Outlook Express) , IMimePropertySet interface", "IMimePropertySet interface Windows Mail (formerly Outlook Express) , QueryProp method"]
+ms.assetid: 3c383ca9-de90-4a00-960f-babea9b3429e
+keywords:
+- QueryProp method Windows Mail (formerly Outlook Express)
+- QueryProp method Windows Mail (formerly Outlook Express) , IMimePropertySet interface
+- IMimePropertySet interface Windows Mail (formerly Outlook Express) , QueryProp method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySet::QueryProp method
@@ -22,10 +30,10 @@ Compares the value of a property in the property set with the specified string.
 
 ```C++
 HRESULT QueryProp(
-  [in] LPCSTR  pszName,
-  [in] LPCSTR  pszCriteria,
-  [in] boolean fSubString,
-  [in] boolean fCaseSensitive
+  [in] LPCSTR  pszName,
+  [in] LPCSTR  pszCriteria,
+  [in] boolean fSubString,
+  [in] boolean fCaseSensitive
 );
 ```
 
@@ -69,7 +77,7 @@ Specifies whether *pszCriteria* is a sub-string of the property.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,7 +97,7 @@ Specifies whether the string comparison is case-sensitive.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -111,7 +119,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -123,8 +131,8 @@ A property ID can also be passed into this method through the *pszName* paramete
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -132,9 +140,9 @@ A property ID can also be passed into this method through the *pszName* paramete
 
 
 
- 
+ 
 
- 
+ 
 
 
 

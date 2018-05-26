@@ -1,8 +1,9 @@
 ---
 title: glClearColor function
 description: The glClearColor function specifies clear values for the color buffers.
-ms.assetid: 'f938e3f4-9db3-4c24-97ae-531b6799224e'
-keywords: ["glClearColor function OpenGL"]
+ms.assetid: f938e3f4-9db3-4c24-97ae-531b6799224e
+keywords:
+- glClearColor function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glClearColor function
@@ -22,10 +28,10 @@ The **glClearColor** function specifies clear values for the color buffers.
 
 ```C++
 void WINAPI glClearColor(
-   GLclampf red,
-   GLclampf green,
-   GLclampf blue,
-   GLclampf alpha
+   GLclampf red,
+   GLclampf green,
+   GLclampf blue,
+   GLclampf alpha
 );
 ```
 
@@ -107,8 +113,8 @@ The following functions retrieve information related to the **glClearColor** fun
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -131,9 +137,9 @@ The following functions retrieve information related to the **glClearColor** fun
 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

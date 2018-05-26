@@ -1,7 +1,12 @@
 ---
 title: Desktop Security and Access Rights
 description: Security enables you to control access to desktop objects. For more information about security, see Access-Control Model.
-ms.assetid: '6512d128-3b0c-4ba7-8709-2fd225389a40'
+ms.assetid: 6512d128-3b0c-4ba7-8709-2fd225389a40
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop Security and Access Rights

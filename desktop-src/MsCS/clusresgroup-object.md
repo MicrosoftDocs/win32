@@ -4,11 +4,13 @@ description: Enables operations on a group, its properties, and related objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cd0e8510-4eb0-45fe-819e-f40fe4bfa4e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: cd0e8510-4eb0-45fe-819e-f40fe4bfa4e7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusResGroup object Failover Cluster", "ClusResGroup object Failover Cluster , described"]
+keywords:
+- ClusResGroup object Failover Cluster
+- ClusResGroup object Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup object
@@ -48,7 +53,7 @@ The **ClusResGroup** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -71,7 +76,7 @@ The **ClusResGroup** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,7 +91,7 @@ A **ClusResGroup** object:
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -102,9 +107,9 @@ A **ClusResGroup** object:
 [Group Management Objects](group-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

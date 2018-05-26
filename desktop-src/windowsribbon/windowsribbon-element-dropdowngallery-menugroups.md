@@ -1,14 +1,20 @@
 ---
 title: DropDownGallery.MenuGroups property
 description: Represents a container for a set of drop-down menu items in a Drop-Down Gallery control.
-ms.assetid: '594f6ae5-760e-456d-98cd-04ecae0bae99'
-keywords: ["DropDownGallery.MenuGroups property Windows Ribbon"]
+ms.assetid: 594f6ae5-760e-456d-98cd-04ecae0bae99
+keywords:
+- DropDownGallery.MenuGroups property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - DropDownGallery.MenuGroups
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DropDownGallery.MenuGroups property
@@ -94,8 +100,8 @@ This section of code shows the **DropDownGallery.MenuGroups** control declaratio
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -109,9 +115,9 @@ This section of code shows the **DropDownGallery.MenuGroups** control declaratio
 [Working with Galleries](ribbon-controls-galleries.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

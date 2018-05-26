@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMSHORTN2 structure exposes the following operators.'
-ms.assetid: '69918b19-3dde-4c12-84f3-caac4f3e3c11'
+---
+Description: The XMSHORTN2 structure exposes the following operators.
+ms.assetid: 69918b19-3dde-4c12-84f3-caac4f3e3c11
 title: XMSHORTN2 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMSHORTN2 Operators
 
-The [**XMSHORTN2**](xmshortn2.md) structure exposes the following operators.
+The [**XMSHORTN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshortn2?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -35,7 +40,7 @@ The [**XMSHORTN2**](xmshortn2.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMSHORTN2**](xmshortn2.md)
+[**XMSHORTN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmshortn2?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to indicate that an error has occurred with the source buffer.'
-ms.assetid: 'a7187b7a-0090-4380-82bb-a7f72d54232e'
-title: 'IMFSourceBufferNotify::OnError method'
+---
+Description: Used to indicate that an error has occurred with the source buffer.
+ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
+title: IMFSourceBufferNotifyOnError method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFSourceBufferNotify::OnError method
@@ -46,7 +51,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IMFSourceBufferNotify**](imfsourcebuffernotify.md)
+[**IMFSourceBufferNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify?branch=master)
 </dt> </dl>
 
  

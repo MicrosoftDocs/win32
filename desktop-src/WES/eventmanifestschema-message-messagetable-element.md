@@ -1,14 +1,20 @@
 ---
 title: message (messageTable) Element
 description: Contains a reference to a string in the localization section of the manifest.
-ms.assetid: '0988cf99-c7e1-446b-869e-9ac4a0976ac5'
-keywords: ["message element EventLog"]
+ms.assetid: 0988cf99-c7e1-446b-869e-9ac4a0976ac5
+keywords:
+- message element EventLog
 topic_type:
 - apiref
 api_name:
 - message
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # message (messageTable) Element
@@ -59,8 +65,8 @@ The **message** element is defined by the [**messageTable**](eventmanifestschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -77,9 +83,9 @@ The **message** element is defined by the [**messageTable**](eventmanifestschema
 [**messageTable (MetadataType)**](eventmanifestschema-messagetable-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

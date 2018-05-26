@@ -4,11 +4,16 @@ description: A value list is a block of memory containing a sequence of data str
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f2b20fe5-0d7e-4ccd-b288-aa8104a24fef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f2b20fe5-0d7e-4ccd-b288-aa8104a24fef
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["value lists Failover Cluster", "data Failover Cluster ,value lists"]
+keywords:
+- value lists Failover Cluster
+- data Failover Cluster ,value lists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Value Lists
@@ -17,10 +22,10 @@ A value list is a block of memory containing a sequence of [data structures](dat
 
 Each data structure in a value list consists of the following elements:
 
--   A header that describes the [syntax](data-syntax.md) and [length](data-length.md) of the data contained within the structure. For example, many control codes use value lists that use the [**CLUSPROP\_VALUE**](clusprop-value.md) structure as the header. In turn, **CLUSPROP\_VALUE** contains a [**CLUSPROP\_SYNTAX**](clusprop-syntax.md) value that describes the type of data, and a **DWORD** containing the length of that data.
+-   A header that describes the [syntax](data-syntax.md) and [length](data-length.md) of the data contained within the structure. For example, many control codes use value lists that use the [**CLUSPROP\_VALUE**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_value?branch=master) structure as the header. In turn, **CLUSPROP\_VALUE** contains a [**CLUSPROP\_SYNTAX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_syntax?branch=master) value that describes the type of data, and a **DWORD** containing the length of that data.
 -   The [data itself](data-value.md). Types of data can include a single value (such as a string or **DWORD**), an array of values (such as a **BYTE** array), or a user-defined structure.
 
-For an example that uses a more complex structure than simply a list of [**CLUSPROP\_VALUE**](clusprop-value.md) elements and their associated data, see [Value Lists for Storage Class Resources](value-lists-for-storage-class-resources.md).
+For an example that uses a more complex structure than simply a list of [**CLUSPROP\_VALUE**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_value?branch=master) elements and their associated data, see [Value Lists for Storage Class Resources](value-lists-for-storage-class-resources.md).
 
 > [!Note]  
 > each data structure in the value list must be [DWORD-aligned](dword-aligned.md). It is a good idea to zero the memory of your value list buffer before building the list so that bytes used for padding do not contain misleading values.

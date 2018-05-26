@@ -1,13 +1,16 @@
 ---
-Description: 'Normally, direct access is adequate to call a WMI provider method.'
+Description: Normally, direct access is adequate to call a WMI provider method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'be9332b5-8094-44a2-8632-af9957ecf36b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: be9332b5-8094-44a2-8632-af9957ecf36b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Constructing InParameters Objects and Parsing OutParameters Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constructing InParameters Objects and Parsing OutParameters Objects

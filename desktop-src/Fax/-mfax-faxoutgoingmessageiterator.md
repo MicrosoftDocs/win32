@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutgoingMessageIterator messaging object is used by a fax client application to move through the archive of fax messages that the fax service has successfully transmitted, represented by FaxOutgoingMessage objects.'
-ms.assetid: '4eab8319-23ff-4f25-9402-bcb53a440879'
+---
+Description: The FaxOutgoingMessageIterator messaging object is used by a fax client application to move through the archive of fax messages that the fax service has successfully transmitted, represented by FaxOutgoingMessage objects.
+ms.assetid: 4eab8319-23ff-4f25-9402-bcb53a440879
 title: FaxOutgoingMessageIterator object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessageIterator object
@@ -54,7 +59,7 @@ A **FaxOutgoingMessageIterator** object is accessed through a [**FaxOutgoingArch
 
 To create a **FaxOutgoingMessageIterator** object in Microsoft Visual Basic, call the [**GetMessages**](-mfax-faxoutgoingarchive-getmessages.md) method of the [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md) object.
 
-To create a **FaxOutgoingMessageIterator** object in C++, call the [**GetMessages**](-mfax-faxoutgoingarchive-getmessages-cpp.md) method.
+To create a **FaxOutgoingMessageIterator** object in C++, call the [**GetMessages**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxoutgoingarchive-getmessages?branch=master) method.
 
 ## Requirements
 

@@ -1,8 +1,29 @@
 ---
 title: Creating a Windows Media Device Manager Application
 description: Creating a Windows Media Device Manager Application
-ms.assetid: '6a200bd9-19dd-4130-acb4-e038b469c334'
-keywords: ["Windows Media Device Manager,creating applications", "Device Manager,creating applications", "Windows Media Device Manager,programming guide", "Device Manager,programming guide", "programming guide,desktop applications", "programming guide,Windows Media Device Manager", "programming guide,plug-ins", "programming guide,creating applications", "Windows Media Device Manager,desktop applications", "Device Manager,desktop applications", "Windows Media Device Manager,plug-ins", "Device Manager,plug-insp", "plug-ins,creating", "plug-ins,programming guide", "desktop applications,creating", "creating Windows Media Device Manager applications,about"]
+ms.assetid: 6a200bd9-19dd-4130-acb4-e038b469c334
+keywords:
+- Windows Media Device Manager,creating applications
+- Device Manager,creating applications
+- Windows Media Device Manager,programming guide
+- Device Manager,programming guide
+- programming guide,desktop applications
+- programming guide,Windows Media Device Manager
+- programming guide,plug-ins
+- programming guide,creating applications
+- Windows Media Device Manager,desktop applications
+- Device Manager,desktop applications
+- Windows Media Device Manager,plug-ins
+- Device Manager,plug-insp
+- plug-ins,creating
+- plug-ins,programming guide
+- desktop applications,creating
+- creating Windows Media Device Manager applications,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Windows Media Device Manager Application

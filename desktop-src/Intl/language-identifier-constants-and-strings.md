@@ -1,7 +1,12 @@
 ---
-Description: 'Each language identifier is composed of a primary language identifier indicating the language and a sublanguage identifier indicating the country/region.'
-ms.assetid: '8a6373e0-46c2-4b1b-bc67-543f426ef15a'
+Description: Each language identifier is composed of a primary language identifier indicating the language and a sublanguage identifier indicating the country/region.
+ms.assetid: 8a6373e0-46c2-4b1b-bc67-543f426ef15a
 title: Language Identifier Constants and Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Identifier Constants and Strings
@@ -268,8 +273,8 @@ A user-defined sublanguage identifier has a value in the range 0x20 to 0x3f. All
 
 ## Language Identifier Notes
 
-1.  To set a neutral language, use **LANG\_CHINESE\_SIMPLIFIED** or **LANG\_CHINESE\_TRADITIONAL** with [**ConvertDefaultLocale**](convertdefaultlocale.md).
-2.  Primary language identifiers for Bosnian, Croatian, and Serbian are numerically identical. For Bosnian, use **LANG\_BOSNIAN** with **SUBLANG\_BOSNIAN\_***\** sublanguage identifiers. For Croatian, use **LANG\_CROATIAN** with **SUBLANG\_CROATIAN\_***\** sublanguage identifiers. For Serbian, use **LANG\_SERBIAN** with **SUBLANG\_SERBIAN\_***\** sublanguage identifiers. To set a neutral language, use **LANG\_BOSNIAN\_NEUTRAL**, **LANG\_CROATIAN**, or **LANG\_SERBIAN\_NEUTRAL** with [**ConvertDefaultLocale**](convertdefaultlocale.md).
+1.  To set a neutral language, use **LANG\_CHINESE\_SIMPLIFIED** or **LANG\_CHINESE\_TRADITIONAL** with [**ConvertDefaultLocale**](/windows/win32/Winnls/nf-winnls-convertdefaultlocale?branch=master).
+2.  Primary language identifiers for Bosnian, Croatian, and Serbian are numerically identical. For Bosnian, use **LANG\_BOSNIAN** with **SUBLANG\_BOSNIAN\_***\** sublanguage identifiers. For Croatian, use **LANG\_CROATIAN** with **SUBLANG\_CROATIAN\_***\** sublanguage identifiers. For Serbian, use **LANG\_SERBIAN** with **SUBLANG\_SERBIAN\_***\** sublanguage identifiers. To set a neutral language, use **LANG\_BOSNIAN\_NEUTRAL**, **LANG\_CROATIAN**, or **LANG\_SERBIAN\_NEUTRAL** with [**ConvertDefaultLocale**](/windows/win32/Winnls/nf-winnls-convertdefaultlocale?branch=master).
 3.  **Starting with Windows Vista**: **SUBLANG\_ENGLISH\_IRELAND** supersedes **SUBLANG\_ENGLISH\_EIRE**. The numerical values of the constants are identical.
 4.  Always use the language identifier constant **LANG\_IRISH** with **SUBLANG\_IRISH\_IRELAND**.
 5.  **Starting with Windows Vista**: **SUBLANG\_LITHUANIAN\_LITHUANIA** supersedes **SUBLANG\_LITHUANIAN**. The numerical values of the constants are identical.

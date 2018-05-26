@@ -4,11 +4,16 @@ description: This section discusses the specific Steps necessary for an extensio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a3e05023-0209-4deb-accc-c0aac97d6b9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a3e05023-0209-4deb-accc-c0aac97d6b9c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["extending a primary snap-in's control bar MMC", "primary snap-in's, extending a control bar"]
+keywords:
+- extending a primary snap-ins control bar MMC
+- primary snap-ins, extending a control bar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Control Bar of a Primary Snap-in

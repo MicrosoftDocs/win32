@@ -1,14 +1,20 @@
 ---
-title: \ line Directive
-description: Preprocessor directive that sets the compiler's internally-stored line number and filename to the specified values.
-ms.assetid: '307410af-bd78-4b3d-b515-adf58298f35f'
-keywords: ["line Directive HLSL"]
+title: '\ line Directive'
+description: Preprocessor directive that sets the compilers internally-stored line number and filename to the specified values.
+ms.assetid: 307410af-bd78-4b3d-b515-adf58298f35f
+keywords:
+- line Directive HLSL
 topic_type:
 - apiref
 api_name:
 - line Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#line Directive
@@ -22,7 +28,7 @@ Preprocessor directive that sets the compiler's internally-stored line number an
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Preprocessor directive that sets the compiler's internally-stored line number an
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,9 +80,9 @@ __LINE__, __FILE__ );}
 [Preprocessor Directives (DirectX HLSL)](dx-graphics-hlsl-appendix-preprocessor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

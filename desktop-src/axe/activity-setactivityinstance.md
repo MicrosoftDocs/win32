@@ -1,8 +1,11 @@
 ---
 title: Activity SetActivityInstance method
 description: Sets the activity instance of the Activity.
-ms.assetid: '20117190-89C8-449A-BA12-A7F49128F5CA'
-keywords: ["SetActivityInstance method Access Execution Engine", "SetActivityInstance method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetActivityInstance method"]
+ms.assetid: 20117190-89C8-449A-BA12-A7F49128F5CA
+keywords:
+- SetActivityInstance method Access Execution Engine
+- SetActivityInstance method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetActivityInstance method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetActivityInstance method
@@ -22,7 +30,7 @@ Sets the activity instance of the **Activity**.
 
 ```C++
 virtual HRESULT SetActivityInstance(
-  [in] LPCWSTR activityInstance
+  [in] LPCWSTR activityInstance
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity instance is the value of element **Activity/ActivityInstance**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity instance is the value of element **Activity/ActivityInstance**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

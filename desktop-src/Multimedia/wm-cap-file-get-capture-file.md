@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_FILE\_GET\_CAPTURE\_FILE message
 description: The WM\_CAP\_FILE\_GET\_CAPTURE\_FILE message returns the name of the current capture file. You can send this message explicitly or by using the capFileGetCaptureFile macro.
-ms.assetid: '86ce2904-834d-449f-9ef8-5a158c55bbaa'
-keywords: ["WM_CAP_FILE_GET_CAPTURE_FILE message Windows Multimedia"]
+ms.assetid: 86ce2904-834d-449f-9ef8-5a158c55bbaa
+keywords:
+- WM_CAP_FILE_GET_CAPTURE_FILE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_FILE\_GET\_CAPTURE\_FILE message
 
-The **WM\_CAP\_FILE\_GET\_CAPTURE\_FILE** message returns the name of the current capture file. You can send this message explicitly or by using the [**capFileGetCaptureFile**](capfilegetcapturefile.md) macro.
+The **WM\_CAP\_FILE\_GET\_CAPTURE\_FILE** message returns the name of the current capture file. You can send this message explicitly or by using the [**capFileGetCaptureFile**](/windows/win32/Vfw/nf-vfw-capfilegetcapturefile?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ The default capture filename is C:\\CAPTURE.AVI.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The default capture filename is C:\\CAPTURE.AVI.
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Your application will usually render 3D scenes more realistically if it uses colored light maps. A colored light map uses the RGB data in the light map for its lighting information.'
-ms.assetid: '47760884-7b9f-45de-9d4a-faf822da899f'
-title: 'Color Light Maps (Direct3D 9)'
+Description: Your application will usually render 3D scenes more realistically if it uses colored light maps. A colored light map uses the RGB data in the light map for its lighting information.
+ms.assetid: 47760884-7b9f-45de-9d4a-faf822da899f
+title: Color Light Maps (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Light Maps (Direct3D 9)

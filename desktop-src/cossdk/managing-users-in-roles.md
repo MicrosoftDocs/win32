@@ -1,7 +1,12 @@
 ---
-Description: 'Most administration tasks for configuring COM+ application security involve populating predefined roles with users, both when installing applications and on an ongoing basis.'
-ms.assetid: 'a7395d48-0193-420f-92ca-b0427ba9d496'
+Description: Most administration tasks for configuring COM+ application security involve populating predefined roles with users, both when installing applications and on an ongoing basis.
+ms.assetid: a7395d48-0193-420f-92ca-b0427ba9d496
 title: Managing Users in Roles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Users in Roles

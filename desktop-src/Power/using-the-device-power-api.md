@@ -1,7 +1,12 @@
 ---
-Description: 'Use the Device Power programming elements to manage the way devices perform while the system is in a sleep state.'
-ms.assetid: '44479f5d-2e92-4802-a633-3e0bb7d61e94'
+Description: Use the Device Power programming elements to manage the way devices perform while the system is in a sleep state.
+ms.assetid: 44479f5d-2e92-4802-a633-3e0bb7d61e94
 title: Using the Device Power API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Device Power API
@@ -10,17 +15,17 @@ Use the Device Power programming elements to manage the way devices perform whil
 
 ## Opening and closing the device list
 
-Opening and closing the device list is a costly process in terms of CPU time. The [**DevicePowerOpen**](devicepoweropen.md) and [**DevicePowerClose**](devicepowerclose.md) functions that do this are only necessary if the application needs to query the device list multiple times.
+Opening and closing the device list is a costly process in terms of CPU time. The [**DevicePowerOpen**](/windows/win32/PowrProf/nf-powrprof-devicepoweropen?branch=master) and [**DevicePowerClose**](/windows/win32/PowrProf/nf-powrprof-devicepowerclose?branch=master) functions that do this are only necessary if the application needs to query the device list multiple times.
 
-If [**DevicePowerOpen**](devicepoweropen.md) is called, [**DevicePowerClose**](devicepowerclose.md) must be called when device-list queries are complete. [**DevicePowerEnumDevices**](devicepowerenumdevices.md) and [**DevicePowerSetDeviceState**](devicepowersetdevicestate.md) will not close the device list if it has been explicitly opened by **DevicePowerOpen**.
+If [**DevicePowerOpen**](/windows/win32/PowrProf/nf-powrprof-devicepoweropen?branch=master) is called, [**DevicePowerClose**](/windows/win32/PowrProf/nf-powrprof-devicepowerclose?branch=master) must be called when device-list queries are complete. [**DevicePowerEnumDevices**](/windows/win32/PowrProf/nf-powrprof-devicepowerenumdevices?branch=master) and [**DevicePowerSetDeviceState**](/windows/win32/PowrProf/nf-powrprof-devicepowersetdevicestate?branch=master) will not close the device list if it has been explicitly opened by **DevicePowerOpen**.
 
 ## Enumerating devices
 
-The [**DevicePowerEnumDevices**](devicepowerenumdevices.md) function detects whether the device list is open, and if not, opens it. **DevicePowerEnumDevices** enumerates the devices based on the specified search criteria. If the device list was opened by the function, it is closed before the function returns.
+The [**DevicePowerEnumDevices**](/windows/win32/PowrProf/nf-powrprof-devicepowerenumdevices?branch=master) function detects whether the device list is open, and if not, opens it. **DevicePowerEnumDevices** enumerates the devices based on the specified search criteria. If the device list was opened by the function, it is closed before the function returns.
 
 ## Enabling and disabling a device from waking the system
 
-The [**DevicePowerSetDeviceState**](devicepowersetdevicestate.md) function, similar to [**DevicePowerEnumDevices**](devicepowerenumdevices.md), detects whether the device list is open, and if not, opens it. **DevicePowerSetDeviceState** then sets the specified criteria for the specified device. If the device list was opened by the function, it is closed before the function returns.
+The [**DevicePowerSetDeviceState**](/windows/win32/PowrProf/nf-powrprof-devicepowersetdevicestate?branch=master) function, similar to [**DevicePowerEnumDevices**](/windows/win32/PowrProf/nf-powrprof-devicepowerenumdevices?branch=master), detects whether the device list is open, and if not, opens it. **DevicePowerSetDeviceState** then sets the specified criteria for the specified device. If the device list was opened by the function, it is closed before the function returns.
 
 ## Example Code
 
@@ -92,7 +97,7 @@ int __cdecl main()
 
 
 
-In this example the device list is opened once, and closed once. If the [**DevicePowerOpen**](devicepoweropen.md) and [**DevicePowerClose**](devicepowerclose.md) functions were not called, the device list would have been opened and closed by each call to [**DevicePowerEnumDevices**](devicepowerenumdevices.md) and [**DevicePowerSetDeviceState**](devicepowersetdevicestate.md). By using **DevicePowerOpen** and **DevicePowerClose** we saved opening the device list two unnecessary times.
+In this example the device list is opened once, and closed once. If the [**DevicePowerOpen**](/windows/win32/PowrProf/nf-powrprof-devicepoweropen?branch=master) and [**DevicePowerClose**](/windows/win32/PowrProf/nf-powrprof-devicepowerclose?branch=master) functions were not called, the device list would have been opened and closed by each call to [**DevicePowerEnumDevices**](/windows/win32/PowrProf/nf-powrprof-devicepowerenumdevices?branch=master) and [**DevicePowerSetDeviceState**](/windows/win32/PowrProf/nf-powrprof-devicepowersetdevicestate?branch=master). By using **DevicePowerOpen** and **DevicePowerClose** we saved opening the device list two unnecessary times.
 
  
 

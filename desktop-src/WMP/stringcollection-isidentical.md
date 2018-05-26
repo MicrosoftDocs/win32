@@ -1,8 +1,11 @@
 ---
 title: StringCollection.isIdentical method
 description: The isIdentical method retrieves a value indicating whether the supplied object is the same as the current one.
-ms.assetid: '5f2aabbe-e6c7-4aa2-a30d-30178a4ba3db'
-keywords: ["isIdentical method Windows Media Player", "isIdentical method Windows Media Player , StringCollection class", "StringCollection class Windows Media Player , isIdentical method"]
+ms.assetid: 5f2aabbe-e6c7-4aa2-a30d-30178a4ba3db
+keywords:
+- isIdentical method Windows Media Player
+- isIdentical method Windows Media Player , StringCollection class
+- StringCollection class Windows Media Player , isIdentical method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringCollection.isIdentical method
@@ -65,9 +73,9 @@ To use this method, read access to the library is required. For more information
 [**StringCollection Object**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

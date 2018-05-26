@@ -1,8 +1,14 @@
 ---
 title: WebDAV API Reference
-ms.assetid: 'd3aac8fc-de7d-4d8e-82d7-0d89417c4404'
+ms.assetid: d3aac8fc-de7d-4d8e-82d7-0d89417c4404
 description: 
-keywords: ["WebDAV WebDAV , reference"]
+keywords:
+- WebDAV WebDAV , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebDAV API Reference

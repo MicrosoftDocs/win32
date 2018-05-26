@@ -1,7 +1,12 @@
-﻿---
-Description: 'Multiplies two quaternions.'
-ms.assetid: '11072fc9-dae8-4f63-b07d-b709eed381df'
+---
+Description: Multiplies two quaternions.
+ms.assetid: 11072fc9-dae8-4f63-b07d-b709eed381df
 title: D3DXQuaternionMultiply function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionMultiply function

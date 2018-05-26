@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies the date on which protected content expires.'
+Description: Retrieves a value that specifies the date on which protected content expires.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '59cdeae8-d766-4c85-abe0-1aef1b7efb5b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 59cdeae8-d766-4c85-abe0-1aef1b7efb5b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.TemplateExpirationTypeOnDate property'
+title: Constants.TemplateExpirationTypeOnDate property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.TemplateExpirationTypeOnDate property
@@ -132,7 +135,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -144,9 +147,9 @@ END SUB
 [**Constants**](constants-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

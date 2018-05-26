@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to properly create a DACL.'
-ms.assetid: 'f8ec202f-4f34-4123-8f3c-cfc5960b4dc2'
+Description: Shows how to properly create a DACL.
+ms.assetid: f8ec202f-4f34-4123-8f3c-cfc5960b4dc2
 title: Creating a DACL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a DACL

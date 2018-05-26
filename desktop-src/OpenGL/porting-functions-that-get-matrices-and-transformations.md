@@ -1,8 +1,23 @@
 ---
 title: Porting Functions that Get Matrices and Transformations
 description: The following table lists the IRIS GL functions that get the state of matrices and transformations and their OpenGL equivalents.
-ms.assetid: '53546bc0-ce1d-47e0-ab5e-5d6789c6db2a'
-keywords: ["IRIS GL porting,matrices", "porting from IRIS GL,matrices", "porting to OpenGL from IRIS GL,matrices", "OpenGL porting from IRIS GL,matrices", "matrices", "IRIS GL porting,transformations", "porting from IRIS GL,transformations", "porting to OpenGL from IRIS GL,transformations", "OpenGL porting from IRIS GL,transformations", "transformations"]
+ms.assetid: 53546bc0-ce1d-47e0-ab5e-5d6789c6db2a
+keywords:
+- IRIS GL porting,matrices
+- porting from IRIS GL,matrices
+- porting to OpenGL from IRIS GL,matrices
+- OpenGL porting from IRIS GL,matrices
+- matrices
+- IRIS GL porting,transformations
+- porting from IRIS GL,transformations
+- porting to OpenGL from IRIS GL,transformations
+- OpenGL porting from IRIS GL,transformations
+- transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Functions that Get Matrices and Transformations

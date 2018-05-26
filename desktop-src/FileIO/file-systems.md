@@ -1,6 +1,11 @@
 ---
-Description: 'Manage directories with directory entry table, directory handles, reparse points.'
+Description: Manage directories with directory entry table, directory handles, reparse points.
 title: Local File Systems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Local File Systems
@@ -29,7 +34,7 @@ All file systems supported by Windows have the following storage components:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -44,9 +49,9 @@ All file systems supported by Windows have the following storage components:
 [NTFS Technical Reference](Http://go.microsoft.com/fwlink/p/?linkid=89389)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

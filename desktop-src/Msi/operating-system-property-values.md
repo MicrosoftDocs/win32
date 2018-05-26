@@ -1,7 +1,12 @@
 ---
-Description: 'The table in this topic displays values for selected Windows Installer Operating System Properties.'
-ms.assetid: '4f516cf0-d5b3-4df6-b171-54bbafc0ef93'
+Description: The table in this topic displays values for selected Windows Installer Operating System Properties.
+ms.assetid: 4f516cf0-d5b3-4df6-b171-54bbafc0ef93
 title: Operating System Property Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operating System Property Values

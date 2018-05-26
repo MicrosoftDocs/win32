@@ -1,8 +1,9 @@
 ---
 title: glEvalCoord1fv function
 description: The glEvalCoord1fv function evaluates enabled one-dimensional maps.
-ms.assetid: 'd5c1cc99-ecf6-4d78-99bb-953b4c362ff4'
-keywords: ["glEvalCoord1fv function OpenGL"]
+ms.assetid: d5c1cc99-ecf6-4d78-99bb-953b4c362ff4
+keywords:
+- glEvalCoord1fv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEvalCoord1fv function
@@ -22,7 +28,7 @@ The **glEvalCoord1fv** function evaluates enabled one-dimensional maps.
 
 ```C++
 void WINAPI glEvalCoord1fv(
-   const GLfloat *u
+   const GLfloat *u
 );
 ```
 
@@ -97,8 +103,8 @@ The following functions retrieve information related to the **glEvalCoord1fv** f
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -157,9 +163,9 @@ The following functions retrieve information related to the **glEvalCoord1fv** f
 [**glVertex**](glvertex-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

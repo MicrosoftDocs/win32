@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '80b97bfc-4212-4401-a4a9-d96e2f39be60'
+Description: .
+ms.assetid: 80b97bfc-4212-4401-a4a9-d96e2f39be60
 title: File Library Replaces Document Folder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Library Replaces Document Folder

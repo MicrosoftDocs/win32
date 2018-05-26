@@ -1,7 +1,12 @@
 ---
-Description: 'The HTMLValueToUnicode function converts an HTML CP\_UTF8 string to a Unicode string.'
-ms.assetid: 'd175476e-9c84-48b8-9c89-00255b7cb638'
+Description: The HTMLValueToUnicode function converts an HTML CP\_UTF8 string to a Unicode string.
+ms.assetid: d175476e-9c84-48b8-9c89-00255b7cb638
 title: HTMLValueToUnicode function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTMLValueToUnicode function
@@ -13,7 +18,7 @@ The **HTMLValueToUnicode** function converts an HTML CP\_UTF8 string to a Unicod
 
 ```C++
 WCHAR* HTMLValueToUnicode(
-  _Inout_ const char *pValue
+  _Inout_ const char *pValue
 );
 ```
 
@@ -42,17 +47,17 @@ The function returns the Unicode equivalent of the string.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

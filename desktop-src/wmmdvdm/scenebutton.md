@@ -1,14 +1,20 @@
 ---
 title: SceneButton element
 description: Causes a media node to be created that renders a scene button.
-ms.assetid: '75935d4f-595c-469a-af14-ee6348970b1c'
-keywords: ["SceneButton element Windows Movie Maker and DVD Maker"]
+ms.assetid: 75935d4f-595c-469a-af14-ee6348970b1c
+keywords:
+- SceneButton element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - SceneButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SceneButton element
@@ -50,7 +56,7 @@ The media node created is based on the button style defined by the [SceneButtonT
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -65,9 +71,9 @@ The media node created is based on the button style defined by the [SceneButtonT
 [**SceneButtonTFXToken Element**](scenebuttontfxtoken.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

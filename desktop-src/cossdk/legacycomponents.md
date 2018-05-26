@@ -1,14 +1,19 @@
 ---
-Description: 'Contains an object for each unconfigured component in the Applications collection. Unconfigured components cannot make use of COM+ services. The properties exposed by these objects hold settings made at the component level.'
-ms.assetid: '87f3b93f-71aa-4187-88d2-889c13d8bd06'
+Description: Contains an object for each unconfigured component in the Applications collection. Unconfigured components cannot make use of COM+ services. The properties exposed by these objects hold settings made at the component level.
+ms.assetid: 87f3b93f-71aa-4187-88d2-889c13d8bd06
 title: LegacyComponents collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LegacyComponents collection
 
 Contains an object for each unconfigured component in the Applications collection. Unconfigured components cannot make use of COM+ services. The properties exposed by these objects hold settings made at the component level.
 
-This collection supports the [**Remove**](icatalogcollection-remove.md) method of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object, but not the [**Add**](icatalogcollection-add.md) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](comadmincatalog.md) object.
+This collection supports the [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) method of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object, but not the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -28,7 +33,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [AccessPermissions](#accesspermissions)
 -   [ActivateAtStorage](#activateatstorage)
@@ -176,7 +181,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                           |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A GUID for the component. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | A GUID for the component. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
 | Type           | String                                                                                                                                                    |
 | Default        | N/A                                                                                                                                                       |
@@ -304,7 +309,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Sets the password used by the server process to log on under the specified RunAs identity. Password should be set at the same time as the RunAs identity, prior to using [**SaveChanges**](icatalogcollection-savechanges.md), because the password and identity are validated before being saved. If the password and identity get out of sync, the component cannot be launched until they are reset by an administrator. |
+| Description    | Sets the password used by the server process to log on under the specified RunAs identity. Password should be set at the same time as the RunAs identity, prior to using [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master), because the password and identity are validated before being saved. If the password and identity get out of sync, the component cannot be launched until they are reset by an administrator. |
 | Access         | WriteOnly                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Type           | String                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Default        | NULL                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -352,7 +357,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Specifies the user under whose identity the component will run. Password should be set at the same time as the RunAs identity, prior to using [**SaveChanges**](icatalogcollection-savechanges.md), because the password and identity are validated before being saved. If the password and identity get out of sync, the component cannot be launched until they are reset by an administrator. |
+| Description    | Specifies the user under whose identity the component will run. Password should be set at the same time as the RunAs identity, prior to using [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master), because the password and identity are validated before being saved. If the password and identity get out of sync, the component cannot be launched until they are reset by an administrator. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                         |
 | Type           | String                                                                                                                                                                                                                                                                                                                                                                                            |
 | Default        | N/A                                                                                                                                                                                                                                                                                                                                                                                               |

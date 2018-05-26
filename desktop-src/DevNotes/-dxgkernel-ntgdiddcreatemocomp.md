@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies the driver that a software decoder will start using motion compensation with the specified GUID.'
-ms.assetid: 'c9a55428-7fe6-45dd-987a-d9ab8ae8a1cb'
+---
+Description: Notifies the driver that a software decoder will start using motion compensation with the specified GUID.
+ms.assetid: c9a55428-7fe6-45dd-987a-d9ab8ae8a1cb
 title: NtGdiDdCreateMoComp function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdCreateMoComp function

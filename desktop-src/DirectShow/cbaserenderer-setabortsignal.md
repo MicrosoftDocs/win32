@@ -1,7 +1,12 @@
 ---
-Description: 'The SetAbortSignal method sets a flag which indicates whether to stop rendering and reject further samples.'
-ms.assetid: '2dbf3b4d-e285-4d17-a77c-01a16c09d148'
-title: 'CBaseRenderer.SetAbortSignal method'
+Description: The SetAbortSignal method sets a flag which indicates whether to stop rendering and reject further samples.
+ms.assetid: 2dbf3b4d-e285-4d17-a77c-01a16c09d148
+title: CBaseRenderer.SetAbortSignal method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.SetAbortSignal method
@@ -13,7 +18,7 @@ The `SetAbortSignal` method sets a flag which indicates whether to stop renderin
 
 ```C++
 void SetAbortSignal(
-   BOOL bAbort
+   BOOL bAbort
 );
 ```
 
@@ -56,9 +61,9 @@ This method sets the [**CBaseRenderer::m\_bAbort**](cbaserenderer-m-babort.md) f
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

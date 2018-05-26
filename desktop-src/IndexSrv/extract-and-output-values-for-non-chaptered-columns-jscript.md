@@ -1,7 +1,12 @@
 ---
 title: Extract and Output Values for Non-Chaptered Columns
 description: Extract and Output Values for Non-Chaptered Columns
-ms.assetid: '4bdf0346-9871-46c2-a3b8-9abfecf8cc97'
+ms.assetid: 4bdf0346-9871-46c2-a3b8-9abfecf8cc97
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extract and Output Values for Non-Chaptered Columns

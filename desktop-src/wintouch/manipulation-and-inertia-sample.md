@@ -1,8 +1,34 @@
 ---
 title: Manipulation and Inertia Sample
 description: The Manipulation and Inertia sample shows how to add Windows Touch support to native Windows-based applications that use the Windows Touch API.
-ms.assetid: '6a6e2e39-026e-47a3-b936-16f6a740a3af'
-keywords: ["Windows Touch,code samples", "Windows Touch,sample code", "Windows Touch,manipulations", "Windows Touch,inertia", "Windows Touch,Manipulation and Inertia sample", "Manipulation and Inertia sample", "Windows Touch,_IManipulationEventSink interface", "Windows Touch,IManipulationProcessor interface", "Windows Touch,IInertiaProcessor interface", "manipulations,sample code", "manipulations,code samples", "manipulations,_IManipulationEventSink interface", "manipulations,IManipulationProcessor interface", "inertia,sample code", "inertia,code samples", "inertia,IInertiaProcessor interface", "_IManipulationEventSink interface", "IManipulationProcessor interface,code samples", "IManipulationProcessor interface,sample code", "IInertiaProcessor interface,code samples", "IInertiaProcessor interface,sample code"]
+ms.assetid: 6a6e2e39-026e-47a3-b936-16f6a740a3af
+keywords:
+- Windows Touch,code samples
+- Windows Touch,sample code
+- Windows Touch,manipulations
+- Windows Touch,inertia
+- Windows Touch,Manipulation and Inertia sample
+- Manipulation and Inertia sample
+- Windows Touch,_IManipulationEventSink interface
+- Windows Touch,IManipulationProcessor interface
+- Windows Touch,IInertiaProcessor interface
+- manipulations,sample code
+- manipulations,code samples
+- manipulations,_IManipulationEventSink interface
+- manipulations,IManipulationProcessor interface
+- inertia,sample code
+- inertia,code samples
+- inertia,IInertiaProcessor interface
+- _IManipulationEventSink interface
+- IManipulationProcessor interface,code samples
+- IManipulationProcessor interface,sample code
+- IInertiaProcessor interface,code samples
+- IInertiaProcessor interface,sample code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manipulation and Inertia Sample
@@ -27,7 +53,7 @@ Before you can receive touch input, you first must notify the system that your a
 
 ## Implement the \_IManipulationEventSink Interface
 
-The [**\_IManipulationEvents**](-imanipulationevents.md) event sink contains three functions: [**ManipulationStarted**](-imanipulationevents-manipulationstarted.md), [**ManipulationDelta**](-imanipulationevents-manipulationdelta.md), and [**ManipulationCompleted**](-imanipulationevents-manipulationcompleted.md). These callback functions are used by the [**IManipulationProcessor**](imanipulationprocessor.md) interface and [**IInertiaProcessor**](iinertiaprocessor.md) interface for returning the values calculated by the processors after they invoke the [**ProcessTime**](iinertiaprocessor-processtime.md), [**ProcessUpWithTime**](imanpiulationprocessor-processupwithtime.md), [**ProcessDownWithTime**](imanpiulationprocessor-processdownwithtime.md), and [**ProcessMoveWithTime**](imanpiulationprocessor-processmovewithtime.md) functions. The following code example shows an example implementation of a **\_IManipulationEvents** interface.
+The [**\_IManipulationEvents**](/windows/win32/manipulations/nn-manipulations-_imanipulationevents?branch=master) event sink contains three functions: [**ManipulationStarted**](/windows/win32/manipulations/nf-manipulations-_imanipulationevents-manipulationstarted?branch=master), [**ManipulationDelta**](/windows/win32/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta?branch=master), and [**ManipulationCompleted**](/windows/win32/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted?branch=master). These callback functions are used by the [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) interface and [**IInertiaProcessor**](/windows/win32/manipulations/nn-manipulations-iinertiaprocessor?branch=master) interface for returning the values calculated by the processors after they invoke the [**ProcessTime**](/windows/win32/manipulations/nf-manipulations-iinertiaprocessor-processtime?branch=master), [**ProcessUpWithTime**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime?branch=master), [**ProcessDownWithTime**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime?branch=master), and [**ProcessMoveWithTime**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime?branch=master) functions. The following code example shows an example implementation of a **\_IManipulationEvents** interface.
 
 
 ```
@@ -146,7 +172,7 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationCompleted(
 
 ## Create COM Objects and Set up the IManipulationProcessor and IInertiaProcessor Interfaces
 
-The API provides an implementation of the [**IManipulationProcessor**](imanipulationprocessor.md) and [**IInertiaProcessor**](iinertiaprocessor.md) interfaces. You should create an instance of and reference the COM objects from the [**IManipulationEvents**](-imanipulationevents.md) event sink that was implemented earlier.
+The API provides an implementation of the [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) and [**IInertiaProcessor**](/windows/win32/manipulations/nn-manipulations-iinertiaprocessor?branch=master) interfaces. You should create an instance of and reference the COM objects from the [**IManipulationEvents**](/windows/win32/manipulations/nn-manipulations-_imanipulationevents?branch=master) event sink that was implemented earlier.
 
 ## Handle WM\_TOUCH Messages
 
@@ -201,10 +227,10 @@ switch (msg)
 
 ## Pass TOUCHINPUT Structures to the Appropriate Processor
 
-After the data is extracted from the [**WM\_TOUCH**](wm-touchdown.md) messages by using the [**GetTouchInputInfo**](gettouchinputinfo.md) function, feed the data into the manipulation processor by invoking [**ProcessUpWithTime**](imanpiulationprocessor-processupwithtime.md), [**ProcessDownWithTime**](imanpiulationprocessor-processdownwithtime.md), or [**ProcessMoveWithTime**](imanpiulationprocessor-processmovewithtime.md) functions, depending on the **dwFlag** set in the [**TOUCHINPUT**](touchinput.md) structure.
+After the data is extracted from the [**WM\_TOUCH**](wm-touchdown.md) messages by using the [**GetTouchInputInfo**](/windows/win32/winuser/nf-winuser-gettouchinputinfo?branch=master) function, feed the data into the manipulation processor by invoking [**ProcessUpWithTime**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime?branch=master), [**ProcessDownWithTime**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime?branch=master), or [**ProcessMoveWithTime**](/windows/win32/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime?branch=master) functions, depending on the **dwFlag** set in the [**TOUCHINPUT**](/windows/win32/winuser/ns-winuser-tagtouchinput?branch=master) structure.
 
 > [!Note]  
-> When supporting multiple manipulations, a new manipulation processor must be created if the **dwID** defined in the [**TOUCHINPUT**](touchinput.md) structure must be used to send the data to the correct [**IManipulationProcessor**](imanipulationprocessor.md) object.
+> When supporting multiple manipulations, a new manipulation processor must be created if the **dwID** defined in the [**TOUCHINPUT**](/windows/win32/winuser/ns-winuser-tagtouchinput?branch=master) structure must be used to send the data to the correct [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) object.
 
  
 
@@ -255,7 +281,7 @@ VOID CComTouchDriver::DownEvent(CoreObject* coRef, tagTOUCHINPUT inData, BOOL* b
 
 ## Set up Inertia within ManipulationCompleted
 
-After the [**ManipulationCompleted**](-imanipulationevents-manipulationcompleted.md) method is invoked, the [**IManipulationProcessor**](imanipulationprocessor.md) object must set the values for the [**IInertiaProcessor**](iinertiaprocessor.md) object linked to the **IManipulationProcessor** to invoke inertia. The following code example shows how to set up the **IInertiaProcessor** object from the **IManipulationProcessor** method **ManipulationCompleted**.
+After the [**ManipulationCompleted**](/windows/win32/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted?branch=master) method is invoked, the [**IManipulationProcessor**](/windows/win32/manipulations/nn-manipulations-imanipulationprocessor?branch=master) object must set the values for the [**IInertiaProcessor**](/windows/win32/manipulations/nn-manipulations-iinertiaprocessor?branch=master) object linked to the **IManipulationProcessor** to invoke inertia. The following code example shows how to set up the **IInertiaProcessor** object from the **IManipulationProcessor** method **ManipulationCompleted**.
 
 
 ```

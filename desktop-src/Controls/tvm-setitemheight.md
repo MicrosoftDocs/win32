@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETITEMHEIGHT message
 description: Sets the height of the tree-view items. You can send this message explicitly or by using the TreeView\_SetItemHeight macro.
-ms.assetid: '23f6f2a4-cdd9-441d-af24-ed40513d2721'
-keywords: ["TVM_SETITEMHEIGHT message Windows Controls"]
+ms.assetid: 23f6f2a4-cdd9-441d-af24-ed40513d2721
+keywords:
+- TVM_SETITEMHEIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETITEMHEIGHT message
 
-Sets the height of the tree-view items. You can send this message explicitly or by using the [**TreeView\_SetItemHeight**](treeview-setitemheight.md) macro.
+Sets the height of the tree-view items. You can send this message explicitly or by using the [**TreeView\_SetItemHeight**](/windows/win32/Commctrl/nf-commctrl-treeview_setitemheight?branch=master) macro.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Returns the previous height of the items, in pixels.
 
 ## Remarks
 
-The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the **iIntegral** member of the [**TVITEMEX**](tvitemex.md) structure.
+The tree-view control uses this value for the height of all items. To modify the height of individual items, see the description of the **iIntegral** member of the [**TVITEMEX**](/windows/win32/Commctrl/ns-commctrl-tagtvitemexa?branch=master) structure.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ The tree-view control uses this value for the height of all items. To modify the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The tree-view control uses this value for the height of all items. To modify the
 [**TVM\_GETITEMHEIGHT**](tvm-getitemheight.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

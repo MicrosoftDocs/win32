@@ -1,13 +1,16 @@
 ---
-Description: 'The References\_ method of the SWbemObject object returns a collection of all association classes or instances that refer to the current object.'
+Description: The References\_ method of the SWbemObject object returns a collection of all association classes or instances that refer to the current object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ba02da47-0bb2-40e1-af50-1c42b4be2abd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ba02da47-0bb2-40e1-af50-1c42b4be2abd
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.References\_ method'
+title: SWbemObject.References\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.References\_ method
@@ -191,8 +194,8 @@ For more information about the REFERENCES OF associated WQL query, source instan
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -217,9 +220,9 @@ For more information about the REFERENCES OF associated WQL query, source instan
 [**SWbemServices.ReferencesTo**](swbemservices-referencesto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

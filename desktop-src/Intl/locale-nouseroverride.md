@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_NOUSEROVERRIDE'
-ms.assetid: 'ab68d16b-5e1e-4af3-b048-43975cded00a'
-title: 'LOCALE\_NOUSEROVERRIDE'
+Description: LOCALE\_NOUSEROVERRIDE
+ms.assetid: ab68d16b-5e1e-4af3-b048-43975cded00a
+title: LOCALE\_NOUSEROVERRIDE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_NOUSEROVERRIDE
@@ -11,7 +16,7 @@ title: 'LOCALE\_NOUSEROVERRIDE'
 
  
 
-No user override. In several functions, for example, [**GetLocaleInfo**](getlocaleinfo.md) and [**GetLocaleInfoEx**](getlocaleinfoex.md), this constant causes the function to bypass any user override and use the system default value for any other constant specified in the function call. The information is retrieved from the locale database, even if the identifier indicates the current locale and the user has changed some of the values using the Control Panel, or if an application has changed these values by using [**SetLocaleInfo**](setlocaleinfo.md). If this constant is not specified, any values that the user has configured from the Control Panel or that an application has configured using [**SetLocaleInfo**](setlocaleinfo.md) take precedence over the database settings for the current system default locale.
+No user override. In several functions, for example, [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) and [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master), this constant causes the function to bypass any user override and use the system default value for any other constant specified in the function call. The information is retrieved from the locale database, even if the identifier indicates the current locale and the user has changed some of the values using the Control Panel, or if an application has changed these values by using [**SetLocaleInfo**](/windows/win32/Winnls/nf-winnls-setlocaleinfoa?branch=master). If this constant is not specified, any values that the user has configured from the Control Panel or that an application has configured using [**SetLocaleInfo**](/windows/win32/Winnls/nf-winnls-setlocaleinfoa?branch=master) take precedence over the database settings for the current system default locale.
 
  
 

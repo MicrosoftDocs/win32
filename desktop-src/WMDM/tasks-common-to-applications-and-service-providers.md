@@ -1,8 +1,24 @@
 ---
 title: Tasks Common to Applications and Service Providers
 description: Tasks Common to Applications and Service Providers
-ms.assetid: 'e1ac0f31-7f8c-42c6-99b5-548dfbae28f1'
-keywords: ["Windows Media Device Manager,programming guide", "Device Manager,programming guide", "Windows Media Device Manager,desktop applications", "Device Manager,desktop applications", "Windows Media Device Manager,service providers", "Device Manager,service providers", "desktop applications,programming guide", "service providers,programming guide", "programming guide,desktop applications", "programming guide,service providers", "programming guide,Windows Media Device Manager"]
+ms.assetid: e1ac0f31-7f8c-42c6-99b5-548dfbae28f1
+keywords:
+- Windows Media Device Manager,programming guide
+- Device Manager,programming guide
+- Windows Media Device Manager,desktop applications
+- Device Manager,desktop applications
+- Windows Media Device Manager,service providers
+- Device Manager,service providers
+- desktop applications,programming guide
+- service providers,programming guide
+- programming guide,desktop applications
+- programming guide,service providers
+- programming guide,Windows Media Device Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tasks Common to Applications and Service Providers

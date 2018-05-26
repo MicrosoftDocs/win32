@@ -1,7 +1,12 @@
 ---
-Description: 'AVI/WAV File Source'
-ms.assetid: 'b8abf5d8-ba7f-441d-beef-9f85859318d5'
-title: 'AVI/WAV File Source'
+Description: AVI/WAV File Source
+ms.assetid: b8abf5d8-ba7f-441d-beef-9f85859318d5
+title: AVI/WAV File Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVI/WAV File Source

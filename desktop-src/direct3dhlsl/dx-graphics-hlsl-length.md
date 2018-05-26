@@ -1,14 +1,20 @@
 ---
 title: length
 description: Returns the length of the specified floating-point vector.
-ms.assetid: 'eb06c87c-d536-448e-becb-762783cc2a77'
-keywords: ["length HLSL"]
+ms.assetid: eb06c87c-d536-448e-becb-762783cc2a77
+keywords:
+- length HLSL
 topic_type:
 - apiref
 api_name:
 - length
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # length
@@ -22,7 +28,7 @@ Returns the length of the specified floating-point vector.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the length of the specified floating-point vector.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ A floating-point scalar that represents the length of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

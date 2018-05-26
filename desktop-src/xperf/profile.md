@@ -1,14 +1,20 @@
 ---
 title: profile
 description: Displays the profile options.
-ms.assetid: 'f45cad0b-2479-472b-a513-6ecf06b605bb'
-keywords: ["profile Windows Performance Analyzer"]
+ms.assetid: f45cad0b-2479-472b-a513-6ecf06b605bb
+keywords:
+- profile Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - profile
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # profile

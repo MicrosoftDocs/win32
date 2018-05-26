@@ -1,8 +1,10 @@
 ---
 title: IVMSerialPort interface
 description: Defines a serial port inside a virtual machine.
-ms.assetid: 'a6568885-bfdf-4559-8886-02ca59096ca0'
-keywords: ["IVMSerialPort interface Virtual PC", "IVMSerialPort interface Virtual PC , described"]
+ms.assetid: a6568885-bfdf-4559-8886-02ca59096ca0
+keywords:
+- IVMSerialPort interface Virtual PC
+- IVMSerialPort interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines a serial port inside a virtual machine. This interface allows you to configure serial ports inside a virtual machine. You can retrieve an **IVMSerialPort** object from the [**IVMSerialPortCollection**](ivmserialportcollection.md) object returned from the [**IVMVirtualMachine::SerialPorts**](ivmvirtualmachine-serialports.md) property.
 
@@ -39,7 +46,7 @@ The **IVMSerialPort** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +62,7 @@ The **IVMSerialPort** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,18 +70,18 @@ The **IVMSerialPort** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMSerialPort is defined as 2ce4460d-1d3f-4458-bf8b-44084b816815<br/>              |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

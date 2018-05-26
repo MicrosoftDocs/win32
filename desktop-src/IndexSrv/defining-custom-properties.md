@@ -1,7 +1,12 @@
 ---
 title: Defining Custom Properties
 description: Defining Custom Properties
-ms.assetid: 'ccf2fdd4-7986-4f3a-995d-27e30297cc90'
+ms.assetid: ccf2fdd4-7986-4f3a-995d-27e30297cc90
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Custom Properties
@@ -40,7 +45,7 @@ If defining a custom date, you must use the **VT\_FILETIME** data type. For exam
 DocDateCompleted( VT_FILETIME,20 ) = D5CDD505-2E9C-101B-9397-08002B2CF9AE "Date completed"
 ```
 
-For other Office properties, see the Microsoft Office Software Developer’s Kit (SDK). For properties available with other products, see the documentation for each independent software vendor that supplies an [**IFilter**](ifilter.md) implementation.
+For other Office properties, see the Microsoft Office Software Developer’s Kit (SDK). For properties available with other products, see the documentation for each independent software vendor that supplies an [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) implementation.
 
  
 

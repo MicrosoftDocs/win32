@@ -1,15 +1,18 @@
 ---
-Description: 'The Shutdown&\#8194;WMI class method unloads programs and DLLs until it is safe to turn off the computer.'
+Description: The Shutdown&\#8194;WMI class method unloads programs and DLLs until it is safe to turn off the computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3f069699-810c-49bc-b77e-3fe43acc3dd5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3f069699-810c-49bc-b77e-3fe43acc3dd5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Shutdown method of the Win32\_OperatingSystem class'
+title: Shutdown method of the Win32\_OperatingSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Shutdown method of the Win32\_OperatingSystem class
@@ -40,7 +43,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For e
 **Success** (0)
 </dt> <dt>
 
-**Other** (1–4294967295)
+**Other** (1 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -65,7 +68,7 @@ The following VBScript code shuts the local computer down.
 > [!Note]  
 > You must have the Shutdown privilege to successfully invoke the Shutdown method.
 
- 
+ 
 
 
 ```VB
@@ -83,7 +86,7 @@ The following Perl code shuts the local computer down.
 > [!Note]  
 > You must have the Shutdown privilege to successfully invoke the Shutdown method.
 
- 
+ 
 
 
 ```
@@ -120,7 +123,7 @@ The following VBScript code shuts the specified remote computer down. Fill in *R
 > [!Note]  
 > You must have the RemoteShutdown privilege to successfully invoke the **Shutdown** method.
 
- 
+ 
 
 
 ```VB
@@ -139,8 +142,8 @@ next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -163,9 +166,9 @@ next
 [Executing Privileged Operations Using VBScript](https://msdn.microsoft.com/library/aa390430)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

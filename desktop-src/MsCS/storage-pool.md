@@ -4,10 +4,13 @@ description: Manages a storage pool resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7AF45ED4-1F4E-40B3-BF4B-3936C6C647CD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7AF45ED4-1F4E-40B3-BF4B-3936C6C647CD
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Storage Pool
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -38,9 +41,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Storage Policies](storage-policies.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: VERSION statement
 description: Defines version information about a resource that can be used by tools that read and write resource files.
-ms.assetid: '3a33cff3-b8b3-43f4-b43a-ff1d1728cdc1'
-keywords: ["VERSION statement Menus and Other Resources"]
+ms.assetid: 3a33cff3-b8b3-43f4-b43a-ff1d1728cdc1
+keywords:
+- VERSION statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - VERSION
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VERSION statement

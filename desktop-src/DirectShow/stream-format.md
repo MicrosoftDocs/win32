@@ -1,7 +1,12 @@
 ---
 Description: Stream Format
-ms.assetid: '7ed095f2-b541-4b99-8afc-9acba58081cd'
+ms.assetid: 7ed095f2-b541-4b99-8afc-9acba58081cd
 title: Stream Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Format
@@ -10,7 +15,7 @@ Both the MSDV and the UVC driver can output two DV formats: interleaved audio-vi
 
 **MSDV Driver**
 
-The MSDV driver has two output pins. The first output pin sends interleaved data, and the second output pin sends video-only data. Only one output pin can be connected at a time. To select a format, connect the appropriate output pin. You can use the [**IAMStreamConfig**](iamstreamconfig.md) interface on the output pin to find the format.
+The MSDV driver has two output pins. The first output pin sends interleaved data, and the second output pin sends video-only data. Only one output pin can be connected at a time. To select a format, connect the appropriate output pin. You can use the [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master) interface on the output pin to find the format.
 
 **UVC Driver**
 

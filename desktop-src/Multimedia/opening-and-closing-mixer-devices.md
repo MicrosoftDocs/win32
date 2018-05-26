@@ -1,8 +1,26 @@
 ---
 title: Opening and Closing Mixer Devices
 description: Opening and Closing Mixer Devices
-ms.assetid: 'b1943308-3778-485e-80f3-6d80cb583e00'
-keywords: ["multimedia audio,opening mixer devices", "audio,opening mixer devices", "audio mixers,opening", "mixers,opening", "multimedia audio,closing mixer devices", "audio,closing mixer devices", "audio mixers,closing", "mixers,closing", "opening mixer devices", "closing mixer devices", "device identifiers vs. device handles", "audio mixers,device identifiers vs. device handles", "mixers,device identifiers vs. device handles"]
+ms.assetid: b1943308-3778-485e-80f3-6d80cb583e00
+keywords:
+- multimedia audio,opening mixer devices
+- audio,opening mixer devices
+- audio mixers,opening
+- mixers,opening
+- multimedia audio,closing mixer devices
+- audio,closing mixer devices
+- audio mixers,closing
+- mixers,closing
+- opening mixer devices
+- closing mixer devices
+- device identifiers vs. device handles
+- audio mixers,device identifiers vs. device handles
+- mixers,device identifiers vs. device handles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening and Closing Mixer Devices

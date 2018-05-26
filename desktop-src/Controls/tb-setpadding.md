@@ -1,8 +1,9 @@
 ---
 title: TB\_SETPADDING message
 description: Sets the padding for a toolbar control.
-ms.assetid: 'a18c4efb-1140-4149-8dce-dfc1f03bb61a'
-keywords: ["TB_SETPADDING message Windows Controls"]
+ms.assetid: a18c4efb-1140-4149-8dce-dfc1f03bb61a
+keywords:
+- TB_SETPADDING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETPADDING message
@@ -49,8 +55,8 @@ The padding values are used to create a blank area between the edge of the butto
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -62,9 +68,9 @@ The padding values are used to create a blank area between the edge of the butto
 [**TB\_GETPADDING**](tb-getpadding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

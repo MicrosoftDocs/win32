@@ -1,7 +1,12 @@
 ---
 title: How to Set Day States
 description: This topic demonstrates how to set day state information. The month calendar control uses day state information to determine how it draws specific days within the control.
-ms.assetid: 'EA92D858-BC80-4D08-9768-29A2BBDF900C'
+ms.assetid: EA92D858-BC80-4D08-9768-29A2BBDF900C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Set Day States
@@ -25,9 +30,9 @@ Month calendar controls that use the [**MCS\_DAYSTATE**](month-calendar-control-
 
 ### 
 
-An application can explicitly set day state information by sending the [**MCM\_SETDAYSTATE**](mcm-setdaystate.md) message or by using the corresponding macro, [**MonthCal\_SetDayState**](monthcal-setdaystate.md). However, day state information is usually set in response to the [MCN\_GETDAYSTATE](mcn-getdaystate.md) notification code, which is sent whenever the control needs to be refreshed because, for example, a different month has scrolled into view.
+An application can explicitly set day state information by sending the [**MCM\_SETDAYSTATE**](mcm-setdaystate.md) message or by using the corresponding macro, [**MonthCal\_SetDayState**](/windows/win32/Commctrl/nf-commctrl-monthcal_setdaystate?branch=master). However, day state information is usually set in response to the [MCN\_GETDAYSTATE](mcn-getdaystate.md) notification code, which is sent whenever the control needs to be refreshed because, for example, a different month has scrolled into view.
 
-The following example code shows how to process the [MCN\_GETDAYSTATE](mcn-getdaystate.md) notification code in a [**WM\_NOTIFY**](wm-notify.md) message handler. It processes MCN\_GETDAYSTATE by specifying that the first and fifteenth day of each visible month should be highlighted. The **cDayState** member of the [**NMDAYSTATE**](nmdaystate.md) structure specifies the number of [**MONTHDAYSTATE**](monthdaystate.md) values that are needed in the array, which is given an arbitrary maximum size. The code then loops to set the appropriate bits in each valid element of the array, using the application-defined **BOLDDAY** macro.
+The following example code shows how to process the [MCN\_GETDAYSTATE](mcn-getdaystate.md) notification code in a [**WM\_NOTIFY**](wm-notify.md) message handler. It processes MCN\_GETDAYSTATE by specifying that the first and fifteenth day of each visible month should be highlighted. The **cDayState** member of the [**NMDAYSTATE**](/windows/win32/Commctrl/ns-commctrl-tagnmdaystate?branch=master) structure specifies the number of [**MONTHDAYSTATE**](monthdaystate.md) values that are needed in the array, which is given an arbitrary maximum size. The code then loops to set the appropriate bits in each valid element of the array, using the application-defined **BOLDDAY** macro.
 
 ## 
 

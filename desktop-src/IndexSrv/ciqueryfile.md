@@ -1,7 +1,12 @@
 ---
 title: CiQueryFile
 description: CiQueryFile
-ms.assetid: '5fe2bb09-c576-4caf-97c0-36f74e028d09'
+ms.assetid: 5fe2bb09-c576-4caf-97c0-36f74e028d09
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiQueryFile

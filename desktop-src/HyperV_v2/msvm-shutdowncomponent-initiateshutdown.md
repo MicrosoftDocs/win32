@@ -1,7 +1,12 @@
 ---
-Description: 'Initiates an operating system shutdown operation on the associated child virtual machine. If zero (0) is returned, then the shutdown was initiated successfully. Any other return code indicates an error condition.'
-ms.assetid: '946BBC62-5479-4AE0-8870-D0A07827B902'
-title: 'InitiateShutdown method of the Msvm\_ShutdownComponent class'
+Description: Initiates an operating system shutdown operation on the associated child virtual machine. If zero (0) is returned, then the shutdown was initiated successfully. Any other return code indicates an error condition.
+ms.assetid: 946BBC62-5479-4AE0-8870-D0A07827B902
+title: InitiateShutdown method of the Msvm\_ShutdownComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitiateShutdown method of the Msvm\_ShutdownComponent class
@@ -13,8 +18,8 @@ Initiates an operating system shutdown operation on the associated child virtual
 
 ```mof
 uint32 InitiateShutdown(
-  [in] boolean Force,
-  [in] string  Reason
+  [in] boolean Force,
+  [in] string  Reason
 );
 ```
 
@@ -109,8 +114,8 @@ Access to the [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md) class mig
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Winreg.h</dt> </dl>                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
@@ -125,9 +130,9 @@ Access to the [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md) class mig
 [**Msvm\_ShutdownComponent**](msvm-shutdowncomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Updates the tablet digitizer to window location mapping coordinates.'
-ms.assetid: '2984b87b-620e-4e5d-a3cc-4c3f4c89bae3'
-title: 'ITabletContextP::TrackInputRect method'
+Description: Updates the tablet digitizer to window location mapping coordinates.
+ms.assetid: 2984b87b-620e-4e5d-a3cc-4c3f4c89bae3
+title: ITabletContextPTrackInputRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletContextP::TrackInputRect method
@@ -13,7 +18,7 @@ Updates the tablet digitizer to window location mapping coordinates.
 
 ```C++
 HRESULT TrackInputRect(
-  [out] RECT *prcInput
+  [out] RECT *prcInput
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ Call this method anytime the location of the window on the screen changes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -68,9 +73,9 @@ Call this method anytime the location of the window on the screen changes.
 [**ITabletContextP Interface**](itabletcontextp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,18 +1,23 @@
 ---
-Description: 'Example code that shows how to use the CreateFile function to create a new file or open an existing file.'
-ms.assetid: '04e089a7-c559-4a35-a38b-e1acdf3438d1'
+Description: Example code that shows how to use the CreateFile function to create a new file or open an existing file.
+ms.assetid: 04e089a7-c559-4a35-a38b-e1acdf3438d1
 title: Opening a File for Reading or Writing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a File for Reading or Writing
 
-The [**CreateFile**](createfile.md) function can create a new file or open an existing file. You must specify the file name, creation instructions, and other attributes. When an application creates a new file, the operating system adds it to the specified directory.
+The [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function can create a new file or open an existing file. You must specify the file name, creation instructions, and other attributes. When an application creates a new file, the operating system adds it to the specified directory.
 
 ## Example: Open a File for Writing
 
-The following example uses [**CreateFile**](createfile.md) to create a new file and open it for writing and [**WriteFile**](writefile.md) to write a simple string synchronously to the file.
+The following example uses [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to create a new file and open it for writing and [**WriteFile**](/windows/win32/FileAPI/nf-fileapi-writefile?branch=master) to write a simple string synchronously to the file.
 
-A subsequent call to open this file with [**CreateFile**](createfile.md) will fail until the handle is closed.
+A subsequent call to open this file with [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) will fail until the handle is closed.
 
 
 ```C++
@@ -133,9 +138,9 @@ void DisplayError(LPTSTR lpszFunction)
 
 ## Example: Open a File for Reading
 
-The following example uses [**CreateFile**](createfile.md) to open an existing file for reading and [**ReadFile**](readfile.md) to read up to 80 characters synchronously from the file.
+The following example uses [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to open an existing file for reading and [**ReadFile**](/windows/win32/FileAPI/nf-fileapi-readfile?branch=master) to read up to 80 characters synchronously from the file.
 
-In this case, [**CreateFile**](createfile.md) succeeds only if the specified file already exists in the current directory. A subsequent call to open this file with **CreateFile** will succeed if the call uses the same access and sharing modes.
+In this case, [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) succeeds only if the specified file already exists in the current directory. A subsequent call to open this file with **CreateFile** will succeed if the call uses the same access and sharing modes.
 
 Tip: You can use the file you created with the previous WriteFile example to test this example.
 

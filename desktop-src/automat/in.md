@@ -1,7 +1,12 @@
 ---
 title: in
 description: Specifies an input parameter.
-ms.assetid: 'c6e3b201-344e-40ac-9c78-3bbd2ccb1770'
+ms.assetid: c6e3b201-344e-40ac-9c78-3bbd2ccb1770
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # in

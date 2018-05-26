@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintOemPS COM interface.'
-ms.assetid: '14c545b7-8080-424f-9164-f97ef8a1acc2'
+---
+Description: This section describes the methods defined for the IPrintOemPS COM interface.
+ms.assetid: 14c545b7-8080-424f-9164-f97ef8a1acc2
 title: IPrintOemPS interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS interface

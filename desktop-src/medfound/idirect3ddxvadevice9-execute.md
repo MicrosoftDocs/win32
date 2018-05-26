@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a DirectX Video Acceleration (DXVA) decoding operation.'
-ms.assetid: 'cb87a087-ca53-470e-ab46-f4022cfd7869'
-title: 'IDirect3DDXVADevice9::Execute method'
+---
+Description: Performs a DirectX Video Acceleration (DXVA) decoding operation.
+ms.assetid: cb87a087-ca53-470e-ab46-f4022cfd7869
+title: IDirect3DDXVADevice9Execute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirect3DDXVADevice9::Execute method
@@ -74,7 +79,7 @@ The number of elements in the *pBufferInfo* array.
 *pBufferInfo* 
 </dt> <dd>
 
-A pointer to an array of [**DXVABufferInfo**](dxvabufferinfo.md) structures.
+A pointer to an array of [**DXVABufferInfo**](/windows/win32/dxva9typ/ns-dxva9typ-_dxvabufferinfo?branch=master) structures.
 
 </dd> </dl>
 

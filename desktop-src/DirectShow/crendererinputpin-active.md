@@ -1,7 +1,12 @@
 ---
-Description: 'The Active method notifies the pin that the filter is now active. This method overrides the CBasePin::Active method.'
-ms.assetid: '2e0c773a-1165-4da2-8acc-fe553663408d'
-title: 'CRendererInputPin.Active method'
+Description: The Active method notifies the pin that the filter is now active. This method overrides the CBasePinActive method.
+ms.assetid: 2e0c773a-1165-4da2-8acc-fe553663408d
+title: CRendererInputPin.Active method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.Active method
@@ -43,9 +48,9 @@ Returns an **HRESULT** value.
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Color Register
 description: These vertex shader output registers contain a color value.
-ms.assetid: 'fd36e207-7312-4c7e-b664-b2de9ba1ebcf'
+ms.assetid: fd36e207-7312-4c7e-b664-b2de9ba1ebcf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Register

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the IContextNode object at the specified index within this collection.'
-ms.assetid: '4b266512-9e58-43d2-8430-68310230fc27'
-title: 'IContextNodes::GetContextNode method'
+Description: Retrieves the IContextNode object at the specified index within this collection.
+ms.assetid: 4b266512-9e58-43d2-8430-68310230fc27
+title: IContextNodesGetContextNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNodes::GetContextNode method
@@ -13,8 +18,8 @@ Retrieves the [**IContextNode**](icontextnode.md) object at the specified index 
 
 ```C++
 HRESULT GetContextNode(
-  [in]  ULONG        ulIndex,
-  [out] IContextNode **ppContextNode
+  [in]  ULONG        ulIndex,
+  [out] IContextNode **ppContextNode
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppContextNode* when you no longer need to use the context node.
 
- 
+ 
 
 ## Examples
 
@@ -166,7 +171,7 @@ HRESULT CMyClass::ExploreContextNode(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -183,9 +188,9 @@ HRESULT CMyClass::ExploreContextNode(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

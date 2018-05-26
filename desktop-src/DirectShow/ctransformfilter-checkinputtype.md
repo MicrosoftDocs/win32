@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckInputType method checks whether a specified media type is acceptable for input.'
-ms.assetid: '11f156f7-add2-45be-a0d3-05d21f596b89'
-title: 'CTransformFilter.CheckInputType method'
+Description: The CheckInputType method checks whether a specified media type is acceptable for input.
+ms.assetid: 11f156f7-add2-45be-a0d3-05d21f596b89
+title: CTransformFilter.CheckInputType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.CheckInputType method
@@ -13,7 +18,7 @@ The `CheckInputType` method checks whether a specified media type is acceptable 
 
 ```C++
 virtual HRESULT CheckInputType(
-   const CMediaType *mtIn
+   const CMediaType *mtIn
 ) = 0;
 ```
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ This method does not need to verify that the input format is compatible with the
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

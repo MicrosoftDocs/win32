@@ -4,11 +4,13 @@ description: A base class for objects that represent storage events.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5685047f-cbe5-4987-af04-b5fa237f6148'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5685047f-cbe5-4987-af04-b5fa237f6148
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageEvent class", "MSFT_SMStorageEvent class, described"]
+keywords:
+- MSFT_SMStorageEvent class
+- MSFT_SMStorageEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageEvent class
@@ -37,12 +42,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Indication, Abstract, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMStorageEvent
 {
-  string               StorageSubsystemObjectId;
+  string               StorageSubsystemObjectId;
   MSFT_SMStorageObject SourceInstance;
-  string               Description;
-  datetime             EventTime;
-  uint16               PerceivedSeverity;
-  string               SourceClassName;
+  string               Description;
+  datetime             EventTime;
+  uint16               PerceivedSeverity;
+  string               SourceClassName;
 };
 ```
 
@@ -239,7 +244,7 @@ The ID of the storage object that caused the event.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -253,9 +258,9 @@ The ID of the storage object that caused the event.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

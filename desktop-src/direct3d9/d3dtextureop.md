@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines per-stage texture-blending operations.'
-ms.assetid: '7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3'
+---
+Description: Defines per-stage texture-blending operations.
+ms.assetid: 7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3
 title: D3DTEXTUREOP enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTEXTUREOP enumeration
@@ -288,7 +293,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## Remarks
 
-The members of this type are used when setting color or alpha operations by using the D3DTSS\_COLOROP or D3DTSS\_ALPHAOP values with the [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md) method.
+The members of this type are used when setting color or alpha operations by using the D3DTSS\_COLOROP or D3DTSS\_ALPHAOP values with the [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master) method.
 
 In the above formulas, S<sub>RGBA</sub> is the RGBA color produced by a texture operation, and Arg1, Arg2, and Arg3 represent the complete RGBA color of the texture arguments. Individual components of an argument are shown with subscripts. For example, the alpha component for argument 1 would be shown as Arg1<sub>A</sub>.
 

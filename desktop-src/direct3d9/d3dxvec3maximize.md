@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a 3D vector that is made up of the largest components of two 3D vectors.'
-ms.assetid: '8d3a5310-bee9-4dbd-bef3-8a0e1586f365'
+---
+Description: Returns a 3D vector that is made up of the largest components of two 3D vectors.
+ms.assetid: 8d3a5310-bee9-4dbd-bef3-8a0e1586f365
 title: D3DXVec3Maximize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Maximize function

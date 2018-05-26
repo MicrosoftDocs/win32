@@ -1,7 +1,12 @@
 ---
-Description: 'After the INF file is opened, you can gather information from it to build the user interface, or to direct the installation process. The setup functions provide several levels of functionality for gathering information from an INF file.'
-ms.assetid: '3ef2768b-8c73-4258-937c-77a40963ffe4'
+Description: After the INF file is opened, you can gather information from it to build the user interface, or to direct the installation process. The setup functions provide several levels of functionality for gathering information from an INF file.
+ms.assetid: 3ef2768b-8c73-4258-937c-77a40963ffe4
 title: Extracting File Information from the INF file
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extracting File Information from the INF file
@@ -12,28 +17,28 @@ After the INF file is opened, you can gather information from it to build the us
 
 | To gather information…                | Use these functions…                                                        |
 |---------------------------------------|-----------------------------------------------------------------------------|
-| About the INF file                    | [**SetupGetInfInformation**](setupgetinfinformation.md)                    |
-|                                       | [**SetupQueryInfFileInformation**](setupqueryinffileinformation.md)        |
-|                                       | [**SetupQueryInfVersionInformation**](setupqueryinfversioninformation.md). |
-| About source and target files         | [**SetupGetSourceFileLocation**](setupgetsourcefilelocation.md)            |
-|                                       | [**SetupGetSourceFileSize**](setupgetsourcefilesize.md)                    |
-|                                       | [**SetupGetTargetPath**](setupgettargetpath.md)                            |
-|                                       | [**SetupGetSourceInfo**](setupgetsourceinfo.md)                            |
-| From a line of an INF file            | [**SetupGetLineText**](setupgetlinetext.md)                                |
-|                                       | [**SetupFindNextLine**](setupfindnextline.md)                              |
-|                                       | [**SetupFindNextMatchLine**](setupfindnextmatchline.md)                    |
-|                                       | [**SetupGetLineByIndex**](setupgetlinebyindex.md)                          |
-|                                       | [**SetupFindFirstLine**](setupfindfirstline.md)                            |
-| From a field of a line in an INF file | [**SetupGetStringField**](setupgetstringfield.md)                          |
-|                                       | [**SetupGetIntField**](setupgetintfield.md)                                |
-|                                       | [**SetupGetBinaryField**](setupgetbinaryfield.md)                          |
-|                                       | [**SetupGetMultiSzField**](setupgetmultiszfield.md)                        |
+| About the INF file                    | [**SetupGetInfInformation**](/windows/win32/Setupapi/nf-setupapi-setupgetinfinformationa?branch=master)                    |
+|                                       | [**SetupQueryInfFileInformation**](/windows/win32/Setupapi/nf-setupapi-setupqueryinffileinformationa?branch=master)        |
+|                                       | [**SetupQueryInfVersionInformation**](/windows/win32/Setupapi/nf-setupapi-setupqueryinfversioninformationa?branch=master). |
+| About source and target files         | [**SetupGetSourceFileLocation**](/windows/win32/Setupapi/nf-setupapi-setupgetsourcefilelocationa?branch=master)            |
+|                                       | [**SetupGetSourceFileSize**](/windows/win32/Setupapi/nf-setupapi-setupgetsourcefilesizea?branch=master)                    |
+|                                       | [**SetupGetTargetPath**](/windows/win32/Setupapi/nf-setupapi-setupgettargetpatha?branch=master)                            |
+|                                       | [**SetupGetSourceInfo**](/windows/win32/Setupapi/nf-setupapi-setupgetsourceinfoa?branch=master)                            |
+| From a line of an INF file            | [**SetupGetLineText**](/windows/win32/Setupapi/nf-setupapi-setupgetlinetexta?branch=master)                                |
+|                                       | [**SetupFindNextLine**](/windows/win32/Setupapi/nf-setupapi-setupfindnextline?branch=master)                              |
+|                                       | [**SetupFindNextMatchLine**](/windows/win32/Setupapi/nf-setupapi-setupfindnextmatchlinea?branch=master)                    |
+|                                       | [**SetupGetLineByIndex**](/windows/win32/Setupapi/nf-setupapi-setupgetlinebyindexa?branch=master)                          |
+|                                       | [**SetupFindFirstLine**](/windows/win32/Setupapi/nf-setupapi-setupfindfirstlinea?branch=master)                            |
+| From a field of a line in an INF file | [**SetupGetStringField**](/windows/win32/Setupapi/nf-setupapi-setupgetstringfielda?branch=master)                          |
+|                                       | [**SetupGetIntField**](/windows/win32/Setupapi/nf-setupapi-setupgetintfield?branch=master)                                |
+|                                       | [**SetupGetBinaryField**](/windows/win32/Setupapi/nf-setupapi-setupgetbinaryfield?branch=master)                          |
+|                                       | [**SetupGetMultiSzField**](/windows/win32/Setupapi/nf-setupapi-setupgetmultiszfielda?branch=master)                        |
 
 
 
  
 
-The following example uses the [**SetupGetSourceInfo**](setupgetsourceinfo.md) function to retrieve the human-readable description of a source media from an INF file.
+The following example uses the [**SetupGetSourceInfo**](/windows/win32/Setupapi/nf-setupapi-setupgetsourceinfoa?branch=master) function to retrieve the human-readable description of a source media from an INF file.
 
 
 ```C++
@@ -65,7 +70,7 @@ return 0;
 
 
 
-In the example, MyInf is the handle to the open INF file. SourceId is the identifier for a specific source media. The value SRCINFO\_DESCRIPTION specifies that the [**SetupGetSourceInfo**](setupgetsourceinfo.md) function should retrieve the source media description. Buffer points to a string that will receive the description, MaxBufSize indicates the resources allocated to the buffer, and BufSize indicates the resources necessary to store the buffer.
+In the example, MyInf is the handle to the open INF file. SourceId is the identifier for a specific source media. The value SRCINFO\_DESCRIPTION specifies that the [**SetupGetSourceInfo**](/windows/win32/Setupapi/nf-setupapi-setupgetsourceinfoa?branch=master) function should retrieve the source media description. Buffer points to a string that will receive the description, MaxBufSize indicates the resources allocated to the buffer, and BufSize indicates the resources necessary to store the buffer.
 
 If BufSize is greater than MaxBufSize, the function will return **FALSE**, and a subsequent call to [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) will return ERROR\_INSUFFICIENT\_BUFFER.
 

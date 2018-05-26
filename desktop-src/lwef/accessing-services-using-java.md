@@ -1,7 +1,12 @@
 ---
 title: Accessing Services Using Java
 description: Accessing Services Using Java
-ms.assetid: '3eced858-487a-4f36-a7a1-34ac827aad13'
+ms.assetid: 3eced858-487a-4f36-a7a1-34ac827aad13
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing Services Using Java

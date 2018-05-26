@@ -1,7 +1,12 @@
-﻿---
-Description: 'Setting the SHORTFILENAMES property causes short file names to be used for the names of target files, rather than long file names. It does not affect the file names the installer looks for at the source.'
-ms.assetid: 'b330f9c3-3297-45cf-915c-5fbb291b8afb'
+---
+Description: Setting the SHORTFILENAMES property causes short file names to be used for the names of target files, rather than long file names. It does not affect the file names the installer looks for at the source.
+ms.assetid: b330f9c3-3297-45cf-915c-5fbb291b8afb
 title: SHORTFILENAMES property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHORTFILENAMES property

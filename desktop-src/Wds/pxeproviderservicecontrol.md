@@ -1,27 +1,33 @@
 ---
 title: PxeProviderServiceControl callback function
 description: Called when a service control code is received by the WDS service.
-ms.assetid: '180ddcda-d111-4c81-9177-db99cbf1449f'
-keywords: ["PxeProviderServiceControl callback function Windows Deployment Services"]
+ms.assetid: 180ddcda-d111-4c81-9177-db99cbf1449f
+keywords:
+- PxeProviderServiceControl callback function Windows Deployment Services
 topic_type:
 - apiref
 api_name:
 - PxeProviderServiceControl
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PxeProviderServiceControl callback function
 
-Called when a service control code is received by the WDS service. This callback function is registered by calling the [**PxeRegisterCallback**](pxeregistercallback.md) function with the *CallbackType* parameter set to **PXE\_CALLBACK\_SERVICE\_CONTROL**.
+Called when a service control code is received by the WDS service. This callback function is registered by calling the [**PxeRegisterCallback**](/windows/win32/WdsPxe/nf-wdspxe-pxeregistercallback?branch=master) function with the *CallbackType* parameter set to **PXE\_CALLBACK\_SERVICE\_CONTROL**.
 
 ## Syntax
 
 
 ```C++
 DWORD PXEAPI PxeProviderServiceControl(
-  _In_ PVOID pContext,
-       DWORD dwControl
+  _In_ PVOID pContext,
+       DWORD dwControl
 );
 ```
 
@@ -34,7 +40,7 @@ DWORD PXEAPI PxeProviderServiceControl(
 *pContext* \[in\]
 </dt> <dd>
 
-Context value passed to the [**PxeRegisterCallback**](pxeregistercallback.md) function.
+Context value passed to the [**PxeRegisterCallback**](/windows/win32/WdsPxe/nf-wdspxe-pxeregistercallback?branch=master) function.
 
 </dd> <dt>
 
@@ -56,7 +62,7 @@ If the provider shutdown succeeds, the callback should return **ERROR\_SUCCESS**
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |
 
 
 
@@ -67,12 +73,12 @@ If the provider shutdown succeeds, the callback should return **ERROR\_SUCCESS**
 [Windows Deployment Services Server Functions](windows-deployment-services-server-functions.md)
 </dt> <dt>
 
-[**PxeRegisterCallback**](pxeregistercallback.md)
+[**PxeRegisterCallback**](/windows/win32/WdsPxe/nf-wdspxe-pxeregistercallback?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

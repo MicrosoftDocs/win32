@@ -1,8 +1,28 @@
 ---
 title: Porting Defs, Binds, and Sets
 description: Porting Defs, Binds, and Sets
-ms.assetid: '971feb14-ed39-4492-a62b-9930bdc506e9'
-keywords: ["IRIS GL porting,definitions", "porting from IRIS GL,definitions", "porting to OpenGL from IRIS GL,definitions", "OpenGL porting from IRIS GL,definitions", "IRIS GL porting,binds", "porting from IRIS GL,binds", "porting to OpenGL from IRIS GL,binds", "OpenGL porting from IRIS GL,binds", "IRIS GL porting,sets", "porting from IRIS GL,sets", "porting to OpenGL from IRIS GL,sets", "OpenGL porting from IRIS GL,sets", "definitions", "binds", "sets"]
+ms.assetid: 971feb14-ed39-4492-a62b-9930bdc506e9
+keywords:
+- IRIS GL porting,definitions
+- porting from IRIS GL,definitions
+- porting to OpenGL from IRIS GL,definitions
+- OpenGL porting from IRIS GL,definitions
+- IRIS GL porting,binds
+- porting from IRIS GL,binds
+- porting to OpenGL from IRIS GL,binds
+- OpenGL porting from IRIS GL,binds
+- IRIS GL porting,sets
+- porting from IRIS GL,sets
+- porting to OpenGL from IRIS GL,sets
+- OpenGL porting from IRIS GL,sets
+- definitions
+- binds
+- sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Defs, Binds, and Sets

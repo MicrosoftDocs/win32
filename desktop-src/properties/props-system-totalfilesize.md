@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '10e1f806-e408-48ab-8fe7-1d7a4d41f320'
-title: 'System.TotalFileSize'
+Description: .
+ms.assetid: 10e1f806-e408-48ab-8fe7-1d7a4d41f320
+title: System.TotalFileSize
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.TotalFileSize

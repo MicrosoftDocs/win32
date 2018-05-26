@@ -1,8 +1,19 @@
 ---
 title: Samples
 description: Samples
-ms.assetid: '5e58ba53-3c3c-4492-8b87-7e50d10e655f'
-keywords: ["Windows Media Device Manager,samples", "Device Manager,samples", "desktop applications,samples", "service providers,samples", "samples,desktop applications", "samples,service providers"]
+ms.assetid: 5e58ba53-3c3c-4492-8b87-7e50d10e655f
+keywords:
+- Windows Media Device Manager,samples
+- Device Manager,samples
+- desktop applications,samples
+- service providers,samples
+- samples,desktop applications
+- samples,service providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Samples

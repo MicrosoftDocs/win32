@@ -1,7 +1,12 @@
-﻿---
-Description: 'Constructs an application protocol data unit (APDU) command that sequentially sets part of the content of an elementary file to its logical erased state, starting from a given offset.'
-ms.assetid: '89e2371e-e27d-475b-9427-bbf6d614c473'
-title: 'ISCardISO7816::EraseBinary method'
+---
+Description: Constructs an application protocol data unit (APDU) command that sequentially sets part of the content of an elementary file to its logical erased state, starting from a given offset.
+ms.assetid: 89e2371e-e27d-475b-9427-bbf6d614c473
+title: ISCardISO7816EraseBinary method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardISO7816::EraseBinary method

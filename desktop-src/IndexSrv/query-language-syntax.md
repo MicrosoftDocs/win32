@@ -1,7 +1,12 @@
 ---
 title: Query-Language Syntax
 description: Query-Language Syntax
-ms.assetid: '21e14c8e-450f-40fe-8cfc-cc29cbb559db'
+ms.assetid: 21e14c8e-450f-40fe-8cfc-cc29cbb559db
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query-Language Syntax

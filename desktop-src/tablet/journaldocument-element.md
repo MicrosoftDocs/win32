@@ -1,7 +1,12 @@
 ---
-Description: 'The top-level element in a Journal note XML file.'
-ms.assetid: '3887667c-67a7-416a-b94d-c30bb02a7985'
+Description: The top-level element in a Journal note XML file.
+ms.assetid: 3887667c-67a7-416a-b94d-c30bb02a7985
 title: JournalDocument Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JournalDocument Element

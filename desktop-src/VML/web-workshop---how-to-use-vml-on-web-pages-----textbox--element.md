@@ -1,8 +1,26 @@
 ---
 title: Using the Textbox Element
 description: Using the Textbox Element
-ms.assetid: 'e0022722-a504-47da-aa3f-62aa7fb4ac4d'
-keywords: ["Web workshop,textbox element", "designing Web pages,textbox element", "Vector Markup Language (VML),textbox element", "VML (Vector Markup Language),textbox element", "vector graphics,textbox element", "textbox element", "VML elements,textbox", "VML shapes,textbox element", "Vector Markup Language (VML),attaching text", "VML (Vector Markup Language),attaching text", "vector graphics,attaching text", "VML shapes,attaching text", "attaching text"]
+ms.assetid: e0022722-a504-47da-aa3f-62aa7fb4ac4d
+keywords:
+- Web workshop,textbox element
+- designing Web pages,textbox element
+- Vector Markup Language (VML),textbox element
+- VML (Vector Markup Language),textbox element
+- vector graphics,textbox element
+- textbox element
+- VML elements,textbox
+- VML shapes,textbox element
+- Vector Markup Language (VML),attaching text
+- VML (Vector Markup Language),attaching text
+- vector graphics,attaching text
+- VML shapes,attaching text
+- attaching text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Textbox Element

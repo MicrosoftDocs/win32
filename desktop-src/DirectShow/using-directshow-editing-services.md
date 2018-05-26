@@ -1,7 +1,12 @@
 ---
 Description: Using DirectShow Editing Services
-ms.assetid: 'c4182f5c-0710-4a77-894f-759f64974df6'
+ms.assetid: c4182f5c-0710-4a77-894f-759f64974df6
 title: Using DirectShow Editing Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using DirectShow Editing Services

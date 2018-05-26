@@ -1,12 +1,17 @@
 ---
 title: Window Types
 description: Window Types
-ms.assetid: 'DCDB5594-1742-4fd4-84F0-8B4F01AFD99F'
+ms.assetid: DCDB5594-1742-4fd4-84F0-8B4F01AFD99F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Window Types
 
-A window type is used to display a help topic and to provide users with a way to navigate through a compiled help (.chm) file. A help window is based on an [**HH\_WINTYPE**](hh-wintype-structure.md) structure and hosts a Microsoft Internet Explorer DLL (Shdocvw.dll) to display a help topic.
+A window type is used to display a help topic and to provide users with a way to navigate through a compiled help (.chm) file. A help window is based on an [**HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master) structure and hosts a Microsoft Internet Explorer DLL (Shdocvw.dll) to display a help topic.
 
 Any help window that you create through the HTML Help API is owned by the calling, or parent, program. This allows the help window to stay on top of its parent, yet not be on top of any other program that has focus.
 

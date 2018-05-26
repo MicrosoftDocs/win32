@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '79c197b5-a551-4e17-ab92-6eac99da4647'
-title: 'System.Media.ClassSecondaryID'
+Description: .
+ms.assetid: 79c197b5-a551-4e17-ab92-6eac99da4647
+title: System.Media.ClassSecondaryID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.ClassSecondaryID

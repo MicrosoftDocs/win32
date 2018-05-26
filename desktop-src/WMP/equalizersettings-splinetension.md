@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.splineTension
 description: The splineTension attribute specifies or retrieves the spline tension for the equalizer control.
-ms.assetid: 'bd208310-eb31-4787-8975-bca921db0aae'
-keywords: ["EQUALIZERSETTINGS.splineTension Windows Media Player"]
+ms.assetid: bd208310-eb31-4787-8975-bca921db0aae
+keywords:
+- EQUALIZERSETTINGS.splineTension Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.splineTension
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.splineTension
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**float**) ranging from 0.0 (no tensi
 [**EQUALIZERSETTINGS.enableSplineTension**](equalizersettings-enablesplinetension.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

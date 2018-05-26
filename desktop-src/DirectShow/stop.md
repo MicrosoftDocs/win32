@@ -1,7 +1,12 @@
 ---
-Description: 'The Stop event is sent when the Stop command has been enabled or disabled.'
-ms.assetid: '68d77f9a-95a2-4a71-bbe1-28be76fbc538'
+Description: The Stop event is sent when the Stop command has been enabled or disabled.
+ms.assetid: 68d77f9a-95a2-4a71-bbe1-28be76fbc538
 title: Stop
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stop

@@ -1,8 +1,23 @@
 ---
 title: Audio Item Attributes
 description: Audio Item Attributes
-ms.assetid: 'fbaff235-47bb-4fa2-8961-53dac26142dd'
-keywords: ["Windows Media Player,audio item attributes", "Windows Media Player Mobile,audio item attributes", "Windows Media Player object model,audio item attributes", "object model,audio item attributes", "ActiveX control,audio item attributes", "Windows Media Player ActiveX control,audio item attributes", "Windows Media Player Mobile ActiveX control,audio item attributes", "reference for object model,audio item attributes", "attributes,audio items", "audio item attributes"]
+ms.assetid: fbaff235-47bb-4fa2-8961-53dac26142dd
+keywords:
+- Windows Media Player,audio item attributes
+- Windows Media Player Mobile,audio item attributes
+- Windows Media Player object model,audio item attributes
+- object model,audio item attributes
+- ActiveX control,audio item attributes
+- Windows Media Player ActiveX control,audio item attributes
+- Windows Media Player Mobile ActiveX control,audio item attributes
+- reference for object model,audio item attributes
+- attributes,audio items
+- audio item attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Item Attributes

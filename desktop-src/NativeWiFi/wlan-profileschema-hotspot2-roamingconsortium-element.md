@@ -1,7 +1,12 @@
-﻿---
-Description: 'A list of Organizationally Unique Identifiers (OUI) assigned by IEEE.'
-ms.assetid: '4a9885b6-2e57-4a16-8e1d-b5b0797e09db'
-title: 'RoamingConsortium (Hotspot2) Element'
+---
+Description: A list of Organizationally Unique Identifiers (OUI) assigned by IEEE.
+ms.assetid: 4a9885b6-2e57-4a16-8e1d-b5b0797e09db
+title: RoamingConsortium (Hotspot2) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RoamingConsortium (Hotspot2) Element

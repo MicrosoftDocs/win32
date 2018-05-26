@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the guest service interface component be changed to the specified value.'
-ms.assetid: 'D9F7CD03-0D86-4005-A600-5CC7082A5047'
-title: 'Msvm\_GuestServiceInterfaceComponent::RequestStateChange method'
+Description: Requests that the state of the guest service interface component be changed to the specified value.
+ms.assetid: D9F7CD03-0D86-4005-A600-5CC7082A5047
+title: Msvm\_GuestServiceInterfaceComponentRequestStateChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestServiceInterfaceComponent::RequestStateChange method
@@ -13,9 +18,9 @@ Requests that the state of the guest service interface component be changed to t
 
 ```C++
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -156,7 +161,7 @@ This method returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -164,8 +169,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -179,9 +184,9 @@ This method returns one of the following values.
 [**Msvm\_GuestServiceInterfaceComponent**](msvm-guestserviceinterfacecomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: SendEmail (actionGroup) Element
 description: Represents an action that sends an email message.
-ms.assetid: '83416b02-8327-47b3-9dfc-1bf5b9365728'
-keywords: ["SendEmail element Task Scheduler"]
+ms.assetid: 83416b02-8327-47b3-9dfc-1bf5b9365728
+keywords:
+- SendEmail element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - SendEmail
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SendEmail (actionGroup) Element
@@ -54,11 +60,11 @@ The **SendEmail** element is defined by the [**actionGroup**](taskschedulerschem
 
 ## Remarks
 
-For C++ development, see the [**IEmailAction**](iemailaction.md) interface.
+For C++ development, see the [**IEmailAction**](/windows/win32/taskschd/nn-taskschd-iemailaction?branch=master) interface.
 
 For script development, see the [**EmailAction**](emailaction.md) object.
 
-**Windows 8 and Windows Server 2012:** This element has been removed. Please use IExecAction with the powershell [**Send-MailMessage**](796227F5-C9FF-402D-8A04-CDE9E0C180EE) cmdlet as a workaround.
+**Windows 8 and Windows Server 2012:** This element has been removed. Please use IExecAction with the powershell [**Send-MailMessage**](796227F5-C9FF-402D-8A04-CDE9E0C180EE) cmdlet as a workaround.
 
 ## Examples
 
@@ -70,16 +76,16 @@ For a complete example of the XML for a task that specifies an email action, see
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-| End of client support<br/>    | Windows 7<br/>                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| End of client support<br/>    | Windows 7<br/>                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: If you want to create your own control codes, you will need to refe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd107f743-8ce8-4c0c-b7a2-24a70ffbc0f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,architecture"]
+keywords:
+- control codes Failover Cluster ,architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Control Code Architecture
@@ -19,9 +23,9 @@ Control codes consist of seven smaller numbers arranged to form a 32-bit value. 
 
 ![](images/wfcode.png)
 
-## Object Code (bits 24–31)
+## Object Code (bits 24 31)
 
-The 8-bit object component indicates the type of cluster object to which the control code applies. Possible values are enumerated by the [**CLUSTER\_CONTROL\_OBJECT**](cluster-control-object.md) enumeration:
+The 8-bit object component indicates the type of cluster object to which the control code applies. Possible values are enumerated by the [**CLUSTER\_CONTROL\_OBJECT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_control_object?branch=master) enumeration:
 
 
 
@@ -38,7 +42,7 @@ The 8-bit object component indicates the type of cluster object to which the con
 
 
 
- 
+ 
 
 All of the values except **CLUS\_OBJECT\_USER** represent object types defined by Windows Failover Clustering.
 
@@ -57,7 +61,7 @@ The global bit indicates whether the control code represents a global operation 
 
 
 
- 
+ 
 
 The [CLUSCTL\_RESOURCE\_STORAGE\_CLUSTER\_DISK](clusctl-resource-storage-cluster-disk.md) and [CLUSCTL\_RESOURCE\_NETNAME\_CREDS\_UPDATED](clusctl-resource-netname-creds-updated.md) control codes are the only global control codes.
 
@@ -74,7 +78,7 @@ The modify bit indicates whether the control code causes a modification to data 
 
 
 
- 
+ 
 
 ## User Bit (bit 21)
 
@@ -89,7 +93,7 @@ The user bit indicates whether the control code is user-defined or defined by Wi
 
 
 
- 
+ 
 
 ## Internal/External Bit (bit 20)
 
@@ -104,9 +108,9 @@ The internal/external bit categorizes the control code as either internal or ext
 
 
 
- 
+ 
 
-## Operation Code (bits 0–19)
+## Operation Code (bits 0 19)
 
 The operation code describes the operation that a control code will perform. The procedures for using control codes that have different object codes but the same operation code are nearly identical. For more information, see [Using Control Codes](using-control-codes.md).
 
@@ -130,9 +134,9 @@ The following operation codes apply to all or most cluster objects:
 -   **CLCTL\_VALIDATE\_COMMON\_PROPERTIES**
 -   **CLCTL\_VALIDATE\_PRIVATE\_PROPERTIES**
 
-ClusAPI.h defines other operation codes that are object-specific, particularly for resources and resource types. For a complete list, see the [**CLCTL\_CODES**](clctl-codes.md) enumeration.
+ClusAPI.h defines other operation codes that are object-specific, particularly for resources and resource types. For a complete list, see the [**CLCTL\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clctl_codes?branch=master) enumeration.
 
-## Access Code (bits 0–1)
+## Access Code (bits 0 1)
 
 The access code (the lower two bits of the Operation Code) indicates whether the initiator of the request requires any specific type of access to perform the operation described by the operation code. Possible values:
 
@@ -146,11 +150,11 @@ The access code (the lower two bits of the Operation Code) indicates whether the
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

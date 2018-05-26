@@ -4,17 +4,21 @@ description: Specifies the resiliency type of the virtual disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F0A42CE9-06C1-4A92-8F5A-CC5F4EEDC1F6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F0A42CE9-06C1-4A92-8F5A-CC5F4EEDC1F6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["VirtualDiskResiliencyType Failover Cluster"]
+keywords:
+- VirtualDiskResiliencyType Failover Cluster
 topic_type:
 - apiref
 api_name:
 - VirtualDiskResiliencyType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VirtualDiskResiliencyType
@@ -27,14 +31,14 @@ Specifies the resiliency type of the virtual disk.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **SpResiliencyTypeUnknown** (0)           |
 | Maximum   | **SpResiliencyTypeMax** (4)               |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -54,7 +58,7 @@ This property can be set to one of the following values contained in the **SP\_R
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,7 +67,7 @@ This property can be set to one of the following values contained in the **SP\_R
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -74,9 +78,9 @@ This property can be set to one of the following values contained in the **SP\_R
 [Physical Disk Private Properties](physical-disk-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

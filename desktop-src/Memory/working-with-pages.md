@@ -1,7 +1,12 @@
 ---
-Description: 'To determine the size of a page on the current computer, use the GetSystemInfo function.'
-ms.assetid: '953ddfc4-6126-41fb-81a3-0ce1f0fb223f'
+Description: To determine the size of a page on the current computer, use the GetSystemInfo function.
+ms.assetid: 953ddfc4-6126-41fb-81a3-0ce1f0fb223f
 title: Working with Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Pages

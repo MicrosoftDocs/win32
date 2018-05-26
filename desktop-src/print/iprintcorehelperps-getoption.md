@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperPS::GetOption method gets a specified option for a given feature.'
-ms.assetid: 'fa212b86-89ae-4d22-a3ff-ebcc6100874b'
-title: 'IPrintCoreHelperPS::GetOption method'
+---
+Description: The IPrintCoreHelperPSGetOption method gets a specified option for a given feature.
+ms.assetid: fa212b86-89ae-4d22-a3ff-ebcc6100874b
+title: IPrintCoreHelperPSGetOption method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperPS::GetOption method

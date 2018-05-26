@@ -1,7 +1,12 @@
 ---
-Description: 'Renames an entry in the DirectAccess site table.'
-ms.assetid: 'c1f98b50-b4f6-45ce-8e3d-da625f2b47f7'
-title: 'Rename method of the MSFT\_DASiteTableEntry class'
+Description: Renames an entry in the DirectAccess site table.
+ms.assetid: c1f98b50-b4f6-45ce-8e3d-da625f2b47f7
+title: Rename method of the MSFT\_DASiteTableEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the MSFT\_DASiteTableEntry class
@@ -13,9 +18,9 @@ Renames an entry in the DirectAccess site table.
 
 ```mof
 uint32 Rename(
-  [in]  string                NewName,
-  [in]  boolean               PassThru,
-  [out] MSFT_DASiteTableEntry OutputObject
+  [in]  string                NewName,
+  [in]  boolean               PassThru,
+  [out] MSFT_DASiteTableEntry OutputObject
 );
 ```
 
@@ -52,8 +57,8 @@ Receives a [**MSFT\_DASiteTableEntry**](msft-dasitetableentry.md) object for the
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetDACim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetDACim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ Receives a [**MSFT\_DASiteTableEntry**](msft-dasitetableentry.md) object for the
 [**MSFT\_DASiteTableEntry**](msft-dasitetableentry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: Player.cdromCollection
 description: The cdromCollection property retrieves the CdromCollection object.
-ms.assetid: 'ca346033-eb0d-4568-b1a2-875b6cd71c6e'
-keywords: ["Player.cdromCollection Windows Media Player"]
+ms.assetid: ca346033-eb0d-4568-b1a2-875b6cd71c6e
+keywords:
+- Player.cdromCollection Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.cdromCollection
@@ -56,9 +62,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

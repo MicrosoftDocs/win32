@@ -1,8 +1,20 @@
 ---
 title: Time Controls
 description: Time Controls
-ms.assetid: '1799ec80-8e99-4ab7-8ff9-40e80e25f270'
-keywords: ["audio mixers,controls", "audio mixers,time controls", "mixers,controls", "mixers,time controls", "time controls", "microsecond control", "millisecond control"]
+ms.assetid: 1799ec80-8e99-4ab7-8ff9-40e80e25f270
+keywords:
+- audio mixers,controls
+- audio mixers,time controls
+- mixers,controls
+- mixers,time controls
+- time controls
+- microsecond control
+- millisecond control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time Controls

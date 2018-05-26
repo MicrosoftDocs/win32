@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.abortCopy
 description: The abortCopy method cancels a copy operation.
-ms.assetid: '1d13b160-a43b-419c-bd97-e0f4eb0fa429'
-keywords: ["PLAYLIST.abortCopy Windows Media Player"]
+ms.assetid: 1d13b160-a43b-419c-bd97-e0f4eb0fa429
+keywords:
+- PLAYLIST.abortCopy Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.abortCopy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.abortCopy
@@ -50,9 +56,9 @@ This method does not return a value.
 [**PLAYLIST.copying**](playlist-copying.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

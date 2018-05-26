@@ -1,7 +1,12 @@
 ---
-Description: 'The Security Configuration and Analysis is a stand-alone snap-in tool that users can use to import one or more saved configurations to a private security database.'
-ms.assetid: '75fcef40-5f7a-4a62-be34-b9d65e51a0c8'
+Description: The Security Configuration and Analysis is a stand-alone snap-in tool that users can use to import one or more saved configurations to a private security database.
+ms.assetid: 75fcef40-5f7a-4a62-be34-b9d65e51a0c8
 title: Security Configuration and Analysis
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Configuration and Analysis

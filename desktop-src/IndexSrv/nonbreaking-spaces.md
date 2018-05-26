@@ -1,7 +1,12 @@
 ---
 title: Nonbreaking Spaces
 description: Nonbreaking Spaces
-ms.assetid: '7841dce3-306b-4d3c-bea2-f3a55ebf3f62'
+ms.assetid: 7841dce3-306b-4d3c-bea2-f3a55ebf3f62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Nonbreaking Spaces

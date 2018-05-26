@@ -1,14 +1,20 @@
 ---
 title: WM/WMCollectionGroupID
 description: The WM/WMCollectionGroupID attribute contains a GUID identifying the collection group.
-ms.assetid: '5cfa1747-ce3b-4e8d-bcce-84fb719123e8'
-keywords: ["WM/WMCollectionGroupID windows Media Format"]
+ms.assetid: 5cfa1747-ce3b-4e8d-bcce-84fb719123e8
+keywords:
+- WM/WMCollectionGroupID windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/WMCollectionGroupID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMCollectionGroupID

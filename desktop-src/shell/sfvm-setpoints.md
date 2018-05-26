@@ -1,11 +1,16 @@
-﻿---
-Description: 'Sets the points of the currently selected objects to the data object on Copy and Cut commands. Used by SHShellFolderView\_Message.'
-title: 'SFVM\_SETPOINTS message'
+---
+Description: Sets the points of the currently selected objects to the data object on Copy and Cut commands. Used by SHShellFolderView\_Message.
+title: SFVM\_SETPOINTS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_SETPOINTS message
 
-Sets the points of the currently selected objects to the data object on **Copy** and **Cut** commands. Used by [**SHShellFolderView\_Message**](shshellfolderview-message.md).
+Sets the points of the currently selected objects to the data object on **Copy** and **Cut** commands. Used by [**SHShellFolderView\_Message**](/windows/win32/shlobj_core/nf-shlobj_core-shshellfolderview_message?branch=master).
 
 
 ```C++

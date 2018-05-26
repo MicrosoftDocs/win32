@@ -1,7 +1,12 @@
 ---
 title: C/C++ Code Example Creating a Task Trigger
 description: This example creates a new trigger for an existing task named Test Task.
-ms.assetid: '94755ec0-4b65-4adb-8074-9a0990e26e3c'
+ms.assetid: 94755ec0-4b65-4adb-8074-9a0990e26e3c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Creating a Task Trigger

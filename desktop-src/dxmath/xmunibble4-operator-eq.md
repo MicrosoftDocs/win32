@@ -1,14 +1,19 @@
-﻿---
-Description: 'Assigns vector component data to the current instance of XMUNIBBLE4.'
-ms.assetid: '03b4f870-696e-4719-8115-9becb307dd10'
+---
+Description: Assigns vector component data to the current instance of XMUNIBBLE4.
+ms.assetid: 03b4f870-696e-4719-8115-9becb307dd10
 title: operator = operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator = operators
 
 Assigns vector component data to the current instance of `XMUNIBBLE4`.
 
-Assigns vector component data to the current instance of [**XMUNIBBLE4**](xmunibble4.md).
+Assigns vector component data to the current instance of [**XMUNIBBLE4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmunibble4?branch=master).
 
 ### Overload list
 
@@ -37,7 +42,7 @@ This operator is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMUNIBBLE4::operator = (const XMUNIBBLE4&amp;)</strong>](xmunibble4-operator-eq-1.md)</td>
-<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMUNIBBLE4</strong>](xmunibble4.md) to the current instance of <code>XMUNIBBLE4</code>. <br/></td>
+<td style="text-align: left;">Assigns the vector component data from one instance of <code>XMUNIBBLE4</code> to the current instance of <code>XMUNIBBLE4</code>. <br/> This operator assigns the vector component data from one instance of [<strong>XMUNIBBLE4</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmunibble4?branch=master) to the current instance of <code>XMUNIBBLE4</code>. <br/></td>
 </tr>
 </tbody>
 </table>
@@ -54,7 +59,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMUNIBBLE4**](xmunibble4.md)
+[**XMUNIBBLE4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmunibble4?branch=master)
 </dt> </dl>
 
  

@@ -1,12 +1,17 @@
 ---
 title: How to Create an Image List
 description: This topic demonstrates how to use the ImageList\_Create function to create an image list.
-ms.assetid: '6092C555-B5B6-49DB-B07B-684EDB890761'
+ms.assetid: 6092C555-B5B6-49DB-B07B-684EDB890761
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create an Image List
 
-This topic demonstrates how to use the [**ImageList\_Create**](imagelist-create.md) function to create an image list.
+This topic demonstrates how to use the [**ImageList\_Create**](/windows/win32/Commctrl/nf-commctrl-imagelist_create?branch=master) function to create an image list.
 
 ## What you need to know
 
@@ -23,9 +28,9 @@ This topic demonstrates how to use the [**ImageList\_Create**](imagelist-create.
 
 ### 
 
-You create an image list by calling the [**ImageList\_Create**](imagelist-create.md) function. The parameters include the type of image list to create, the dimensions of each image, and the number of images that you intend to add to the list.
+You create an image list by calling the [**ImageList\_Create**](/windows/win32/Commctrl/nf-commctrl-imagelist_create?branch=master) function. The parameters include the type of image list to create, the dimensions of each image, and the number of images that you intend to add to the list.
 
-The following example creates a masked image list and uses the [**ImageList\_AddIcon**](imagelist-addicon.md) macro to add two icons to the list.
+The following example creates a masked image list and uses the [**ImageList\_AddIcon**](/windows/win32/Commctrl/nf-commctrl-imagelist_addicon?branch=master) macro to add two icons to the list.
 
 ## 
 

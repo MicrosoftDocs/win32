@@ -1,12 +1,17 @@
-﻿---
-Description: 'Sets the value of the secret used to derive the cryptographic session key used to encrypt and decrypt data.'
-ms.assetid: 'd940ae0b-a697-4529-b494-0051b9a6db5e'
-title: 'EncryptedData.SetSecret method'
+---
+Description: Sets the value of the secret used to derive the cryptographic session key used to encrypt and decrypt data.
+ms.assetid: d940ae0b-a697-4529-b494-0051b9a6db5e
+title: EncryptedData.SetSecret method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EncryptedData.SetSecret method
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API functions [**CryptEncryptMessage**](cryptencryptmessage.md) and [**CryptDecryptMessage**](cryptdecryptmessage.md) to encrypt and decrypt messages. For information about PInvoke, see [Platform Invoke Tutorial](http://go.microsoft.com/fwlink/p/?linkid=119531). The [.NET and CryptoAPI via P/Invoke: Part 1](http://go.microsoft.com/fwlink/p/?linkid=119533) and [.NET and CryptoAPI via P/Invoke: Part 2](http://go.microsoft.com/fwlink/p/?linkid=119534) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](http://go.microsoft.com/fwlink/p/?linkid=119532) may also be helpful.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use Platform Invocation Services (PInvoke) to call the Win32 API functions [**CryptEncryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptencryptmessage?branch=master) and [**CryptDecryptMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecryptmessage?branch=master) to encrypt and decrypt messages. For information about PInvoke, see [Platform Invoke Tutorial](http://go.microsoft.com/fwlink/p/?linkid=119531). The [.NET and CryptoAPI via P/Invoke: Part 1](http://go.microsoft.com/fwlink/p/?linkid=119533) and [.NET and CryptoAPI via P/Invoke: Part 2](http://go.microsoft.com/fwlink/p/?linkid=119534) subsections of [Extending .NET Cryptography with CAPICOM and P/Invoke](http://go.microsoft.com/fwlink/p/?linkid=119532) may also be helpful.\]
 
 The **SetSecret** method sets the value of the secret used to derive the cryptographic [*session key*](security.s_gly#-security-session-key-gly) used to encrypt and decrypt data.
 
@@ -58,7 +63,7 @@ This method does not return a value.
 
 The secret is used to create the session key for encryption or decryption. The same secret must be used for both operations. If the secret used to encrypt data is lost, the encrypted data cannot be decrypted.
 
-If appropriate for your application, consider using [**CryptProtectMemory**](cryptprotectmemory.md) or [**CryptProtectData**](cryptprotectdata.md) to protect the secret before and after use. Clear the memory associated with the secret when done.
+If appropriate for your application, consider using [**CryptProtectMemory**](/windows/win32/Dpapi/nf-dpapi-cryptprotectmemory?branch=master) or [**CryptProtectData**](/windows/win32/Dpapi/nf-dpapi-cryptprotectdata?branch=master) to protect the secret before and after use. Clear the memory associated with the secret when done.
 
 ## Requirements
 

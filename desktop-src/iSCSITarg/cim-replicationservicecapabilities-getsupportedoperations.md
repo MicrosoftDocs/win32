@@ -4,13 +4,16 @@ description: This method for a given ReplicationType returns the supported Opera
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '179af4f7-77f5-417a-8a11-afe440b8fb1c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 179af4f7-77f5-417a-8a11-afe440b8fb1c
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedOperations method iSCSI Software Target API", "GetSupportedOperations method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class", "CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedOperations method"]
+keywords:
+- GetSupportedOperations method iSCSI Software Target API
+- GetSupportedOperations method iSCSI Software Target API , CIM_ReplicationServiceCapabilities class
+- CIM_ReplicationServiceCapabilities class iSCSI Software Target API , GetSupportedOperations method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedOperations method of the CIM\_ReplicationServiceCapabilities class
@@ -30,8 +36,8 @@ This method for a given ReplicationType returns the supported Operations on a St
 
 ```mof
 uint32 GetSupportedOperations(
-  [in]  uint16 ReplicationType,
-  [out] uint16 SupportedOperations[]
+  [in]  uint16 ReplicationType,
+  [out] uint16 SupportedOperations[]
 );
 ```
 
@@ -256,14 +262,14 @@ Unprepare: Causes the synchronization to be reinitialized and stop in Prepared s
 **DMTF Reserved**
 
 
-</dt> <dd>24–32767</dd> <dt>
+</dt> <dd>24 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> </dl>
+</dt> <dd>32768 65535</dd> </dl> </dd> </dl>
 
 ## Return value
 
@@ -290,10 +296,10 @@ Unprepare: Causes the synchronization to be reinitialized and stop in Prepared s
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -303,7 +309,7 @@ Unprepare: Causes the synchronization to be reinitialized and stop in Prepared s
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -317,9 +323,9 @@ Unprepare: Causes the synchronization to be reinitialized and stop in Prepared s
 [**CIM\_ReplicationServiceCapabilities**](cim-replicationservicecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: mov - vs
 description: Move floating-point data between registers.
-ms.assetid: 'bf013ab2-593e-4201-ba75-faebd0c9f97a'
+ms.assetid: bf013ab2-593e-4201-ba75-faebd0c9f97a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mov - vs

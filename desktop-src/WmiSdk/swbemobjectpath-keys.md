@@ -1,13 +1,16 @@
 ---
-Description: 'The Keys property of the SWbemObjectPath object is an SWbemNamedValueSet object that contains the key value bindings. This property is read-only.'
+Description: The Keys property of the SWbemObjectPath object is an SWbemNamedValueSet object that contains the key value bindings. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1919403d-6dea-4d41-9bc7-a622a9c9c2c8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1919403d-6dea-4d41-9bc7-a622a9c9c2c8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectPath.Keys property'
+title: SWbemObjectPath.Keys property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath.Keys property
@@ -48,8 +51,8 @@ The feature or operation is not supported. This error is returned if a script at
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                             |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Adoctint.h (include Wbemdisp.h)</dt> </dl> |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl>                    |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl>                    |
@@ -58,9 +61,9 @@ The feature or operation is not supported. This error is returned if a script at
 
 
 
- 
+ 
 
- 
+ 
 
 
 

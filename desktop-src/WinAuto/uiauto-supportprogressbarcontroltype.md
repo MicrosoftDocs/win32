@@ -1,8 +1,29 @@
 ---
 title: ProgressBar Control Type
 description: This topic provides information about Microsoft UI Automation support for the ProgressBar control type.
-ms.assetid: '2ea0c1f1-1a0a-4360-bdcb-8edc13cc3c31'
-keywords: ["UI Automation,support for ProgressBar control type", "UI Automation,ProgressBar control type", "UI Automation,tree structure for ProgressBar control type", "UI Automation,properties for ProgressBar control type", "UI Automation,control patterns for ProgressBar control type", "UI Automation,events for ProgressBar control type", "tree structures,ProgressBar control type", "properties,ProgressBar control type", "control patterns,ProgressBar control type", "events,ProgressBar control type", "support for ProgressBar control type", "ProgressBar control type", "control types,tree structure for ProgressBar control type", "control types,control patterns for ProgressBar control type", "control types,support for ProgressBar", "control types,ProgressBar"]
+ms.assetid: 2ea0c1f1-1a0a-4360-bdcb-8edc13cc3c31
+keywords:
+- UI Automation,support for ProgressBar control type
+- UI Automation,ProgressBar control type
+- UI Automation,tree structure for ProgressBar control type
+- UI Automation,properties for ProgressBar control type
+- UI Automation,control patterns for ProgressBar control type
+- UI Automation,events for ProgressBar control type
+- tree structures,ProgressBar control type
+- properties,ProgressBar control type
+- control patterns,ProgressBar control type
+- events,ProgressBar control type
+- support for ProgressBar control type
+- ProgressBar control type
+- control types,tree structure for ProgressBar control type
+- control types,control patterns for ProgressBar control type
+- control types,support for ProgressBar
+- control types,ProgressBar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProgressBar Control Type
@@ -87,14 +108,14 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                              | Support/Value | Notes                                                                                                                                      |
 |---------------------------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IRangeValueProvider**](uiauto-irangevalueprovider.md)     | Depends       | Progress bar controls that take a numeric range must implement the [RangeValue](uiauto-implementingrangevalue.md) control pattern.        |
-| [**Minimum**](uiauto-irangevalueprovider-minimum.md)         | 0.0           | The value of this property must be the smallest value that the control can be set to.                                                      |
-| [**Maximum**](uiauto-irangevalueprovider-maximum.md)         | 100.0         | The value of this property must be the largest value that the control can be set to.                                                       |
-| [**SmallChange**](uiauto-irangevalueprovider-smallchange.md) | **NaN**       | This property is not required because progress bar controls are read-only.                                                                 |
-| [**LargeChange**](uiauto-irangevalueprovider-largechange.md) | **NaN**       | This property is not required because progress bar controls are read-only.                                                                 |
-| [**IValueProvider**](uiauto-ivalueprovider.md)               | Depends       | Progress bar controls that give a textual indication of progress must implement the [Value](uiauto-implementingvalue.md) control pattern. |
-| [**IsReadOnly**](uiauto-ivalueprovider-isreadonly.md)        | **TRUE**      | The value for this property is always **TRUE**.                                                                                            |
-| [**Value**](uiauto-ivalueprovider-value.md)                  | See notes.    | This property exposes textual progress of a progress bar control.                                                                          |
+| [**IRangeValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irangevalueprovider?branch=master)     | Depends       | Progress bar controls that take a numeric range must implement the [RangeValue](uiauto-implementingrangevalue.md) control pattern.        |
+| [**Minimum**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_minimum?branch=master)         | 0.0           | The value of this property must be the smallest value that the control can be set to.                                                      |
+| [**Maximum**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_maximum?branch=master)         | 100.0         | The value of this property must be the largest value that the control can be set to.                                                       |
+| [**SmallChange**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_smallchange?branch=master) | **NaN**       | This property is not required because progress bar controls are read-only.                                                                 |
+| [**LargeChange**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irangevalueprovider-get_largechange?branch=master) | **NaN**       | This property is not required because progress bar controls are read-only.                                                                 |
+| [**IValueProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-ivalueprovider?branch=master)               | Depends       | Progress bar controls that give a textual indication of progress must implement the [Value](uiauto-implementingvalue.md) control pattern. |
+| [**IsReadOnly**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_isreadonly?branch=master)        | **TRUE**      | The value for this property is always **TRUE**.                                                                                            |
+| [**Value**](/windows/win32/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value?branch=master)                  | See notes.    | This property exposes textual progress of a progress bar control.                                                                          |
 
 
 

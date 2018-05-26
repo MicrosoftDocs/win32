@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set the NOUSERNAME property to 1 to suppress the installer from setting of the USERNAME property. This property is used by applications that need to collect the user name at the first-run.'
-ms.assetid: '6e2d18f6-e0f6-4d35-aa8d-35aebe60dcac'
+---
+Description: Set the NOUSERNAME property to 1 to suppress the installer from setting of the USERNAME property. This property is used by applications that need to collect the user name at the first-run.
+ms.assetid: 6e2d18f6-e0f6-4d35-aa8d-35aebe60dcac
 title: NOUSERNAME property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NOUSERNAME property

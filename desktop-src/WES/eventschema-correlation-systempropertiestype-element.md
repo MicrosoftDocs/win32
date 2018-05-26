@@ -1,14 +1,20 @@
 ---
 title: Correlation (SystemPropertiesType) Element
 description: The activity identifiers that consumers can use to group related events together.
-ms.assetid: '63982f37-3581-4b11-ac14-b95bc52541cb'
-keywords: ["Correlation element EventLog"]
+ms.assetid: 63982f37-3581-4b11-ac14-b95bc52541cb
+keywords:
+- Correlation element EventLog
 topic_type:
 - apiref
 api_name:
 - Correlation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Correlation (SystemPropertiesType) Element
@@ -49,8 +55,8 @@ The **Correlation** element is defined by the [**SystemPropertiesType**](eventsc
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -64,9 +70,9 @@ The **Correlation** element is defined by the [**SystemPropertiesType**](eventsc
 [**System (EventType)**](eventschema-system-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

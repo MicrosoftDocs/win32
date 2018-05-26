@@ -1,7 +1,12 @@
-﻿---
-Description: 'Looks for the target of a Shell link, even if the target has been moved or renamed.'
-ms.assetid: '60e119be-8e45-4f63-a381-cad048de0765'
-title: 'ShellLinkObject.Resolve method'
+---
+Description: Looks for the target of a Shell link, even if the target has been moved or renamed.
+ms.assetid: 60e119be-8e45-4f63-a381-cad048de0765
+title: ShellLinkObject.Resolve method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject.Resolve method
@@ -111,7 +116,7 @@ Call the Windows Installer.
 
 ## Remarks
 
-This method is essentially identical in functionality to [**Resolve**](ishelllink-resolve.md). For further discussion of link resolution, see the Remarks section of that page.
+This method is essentially identical in functionality to [**Resolve**](/windows/win32/Shobjidl_core/?branch=master). For further discussion of link resolution, see the Remarks section of that page.
 
 ## Examples
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The 64-bit versions of Windows 7 and Windows Server 2008 R2 and later versions of Windows support more than 64 logical processors on a single computer. This functionality is not available on 32-bit versions of Windows.'
-ms.assetid: 'c627ac0f-96e8-48b5-9103-4316f487e173'
+Description: The 64-bit versions of Windows 7 and Windows Server 2008 R2 and later versions of Windows support more than 64 logical processors on a single computer. This functionality is not available on 32-bit versions of Windows.
+ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
 title: Processor Groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processor Groups
@@ -26,13 +31,13 @@ On systems with 64 or fewer processors, existing applications will operate corre
 
 By default, an application is constrained to a single group, which should provide ample processing capability for the typical application. The operating system initially assigns each process to a single group in a round-robin manner across the groups in the system. A process begins its execution assigned to one group. The first thread of a process initially runs in the group to which the process is assigned. Each newly created thread is assigned to the same group as the thread that created it.
 
-An application that requires the use of multiple groups so that it can run on more than 64 processors must explicitly determine where to run its threads and is responsible for setting the threads' processor affinities to the desired groups. The [INHERIT\_PARENT\_AFFINITY](process-creation-flags.md) flag can be used to specify a parent process (which can be different than the current process) from which to generate the affinity for a new process. If the process is running in a single group, it can read and modify its affinity using [**GetProcessAffinityMask**](getprocessaffinitymask.md) and [**SetProcessAffinityMask**](setprocessaffinitymask.md) while remaining in the same group; if the process affinity is modified, the new affinity is applied to its threads.
+An application that requires the use of multiple groups so that it can run on more than 64 processors must explicitly determine where to run its threads and is responsible for setting the threads' processor affinities to the desired groups. The [INHERIT\_PARENT\_AFFINITY](process-creation-flags.md) flag can be used to specify a parent process (which can be different than the current process) from which to generate the affinity for a new process. If the process is running in a single group, it can read and modify its affinity using [**GetProcessAffinityMask**](/windows/win32/WinBase/nf-winbase-getprocessaffinitymask?branch=master) and [**SetProcessAffinityMask**](/windows/win32/WinBase/nf-winbase-setprocessaffinitymask?branch=master) while remaining in the same group; if the process affinity is modified, the new affinity is applied to its threads.
 
-A thread's affinity can be specified at creation using the [**PROC\_THREAD\_ATTRIBUTE\_GROUP\_AFFINITY**](updateprocthreadattribute.md) extended attribute with the [**CreateRemoteThreadEx**](createremotethreadex.md) function. After the thread is created, its affinity can be changed by calling [**SetThreadAffinityMask**](setthreadaffinitymask.md) or [**SetThreadGroupAffinity**](setthreadgroupaffinity.md). If a thread is assigned to a different group than the process, the process's affinity is updated to include the thread's affinity and the process becomes a multi-group process. Further affinity changes must be made for individual threads; a multi-group process's affinity cannot be modified using [**SetProcessAffinityMask**](setprocessaffinitymask.md). The [**GetProcessGroupAffinity**](getprocessgroupaffinity.md) function retrieves the set of groups to which a process and its threads are assigned.
+A thread's affinity can be specified at creation using the [**PROC\_THREAD\_ATTRIBUTE\_GROUP\_AFFINITY**](/windows/win32/WinBase/nf-processthreadsapi-updateprocthreadattribute?branch=master) extended attribute with the [**CreateRemoteThreadEx**](/windows/win32/WinBase/nf-processthreadsapi-createremotethreadex?branch=master) function. After the thread is created, its affinity can be changed by calling [**SetThreadAffinityMask**](/windows/win32/WinBase/nf-winbase-setthreadaffinitymask?branch=master) or [**SetThreadGroupAffinity**](/windows/win32/WinBase/?branch=master). If a thread is assigned to a different group than the process, the process's affinity is updated to include the thread's affinity and the process becomes a multi-group process. Further affinity changes must be made for individual threads; a multi-group process's affinity cannot be modified using [**SetProcessAffinityMask**](/windows/win32/WinBase/nf-winbase-setprocessaffinitymask?branch=master). The [**GetProcessGroupAffinity**](/windows/win32/WinBase/?branch=master) function retrieves the set of groups to which a process and its threads are assigned.
 
 To specify affinity for all processes associated with a job object, use the [**SetInformationJobObject**](setinformationjobobject.md) function with the **JobObjectGroupInformation** or **JobObjectGroupInformationEx** information class.
 
-A logical processor is identified by its group number and its group-relative processor number. This is represented by a [**PROCESSOR\_NUMBER**](processor-number.md) structure. Numeric processor numbers used by legacy functions are group-relative.
+A logical processor is identified by its group number and its group-relative processor number. This is represented by a [**PROCESSOR\_NUMBER**](/windows/win32/WinNT/ns-winnt-_processor_number?branch=master) structure. Numeric processor numbers used by legacy functions are group-relative.
 
 For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](http://go.microsoft.com/fwlink/p/?linkid=133891).
 

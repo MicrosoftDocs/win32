@@ -1,14 +1,20 @@
 ---
 title: Iteration AddMetricValue methods
 description: Creates and adds a MetricValue to the Iteration.
-ms.assetid: 'C3149792-2521-4A9C-87FF-8B6B30CD3901'
-keywords: ["AddMetricValue methods Access Execution Engine"]
+ms.assetid: C3149792-2521-4A9C-87FF-8B6B30CD3901
+keywords:
+- AddMetricValue methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::AddMetricValue methods
@@ -40,8 +46,8 @@ The **MetricValue** objects hold information from the **Iteration/MetricValues/M
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -54,9 +60,9 @@ The **MetricValue** objects hold information from the **Iteration/MetricValues/M
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

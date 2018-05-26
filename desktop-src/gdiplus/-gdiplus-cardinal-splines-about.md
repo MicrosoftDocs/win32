@@ -1,7 +1,12 @@
 ---
-Description: 'A cardinal spline is a sequence of individual curves joined to form a larger curve.'
-ms.assetid: '4fc62f00-7006-4ade-bfcc-091a3a97d889'
+Description: A cardinal spline is a sequence of individual curves joined to form a larger curve.
+ms.assetid: 4fc62f00-7006-4ade-bfcc-091a3a97d889
 title: Cardinal Splines
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cardinal Splines
@@ -18,7 +23,7 @@ The formulas for mathematical splines are based on the properties of flexible ro
 
 Note that the four splines in the preceding figure share the same tangent line at the starting point. The tangent is the line drawn from the starting point to the next point along the curve. Likewise, the shared tangent at the ending point is the line drawn from the ending point to the previous point on the curve.
 
-To draw a cardinal spline, you need a [**Graphics**](-gdiplus-class-graphics-class.md) object, a [**Pen**](-gdiplus-class-pen-class.md) object, and an array of [**Point**](-gdiplus-class-point-class.md) objects. The **Graphics** object provides the [DrawCurve](-gdiplus-class-graphics-drawcurve-methods.md) method, which draws the spline, and the **Pen** object stores attributes of the spline, such as line width and color. The array of **Point** objects stores the points that the curve will pass through. The following example draws a cardinal spline that passes through the points in *myPointArray*. The third parameter is the tension.
+To draw a cardinal spline, you need a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object, a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object, and an array of [**Point**](/windows/win32/gdiplustypes/nl-gdiplustypes-point?branch=master) objects. The **Graphics** object provides the [DrawCurve](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawcurve(in const pen,in const point,in int)?branch=master) method, which draws the spline, and the **Pen** object stores attributes of the spline, such as line width and color. The array of **Point** objects stores the points that the curve will pass through. The following example draws a cardinal spline that passes through the points in *myPointArray*. The third parameter is the tension.
 
 
 ```

@@ -1,14 +1,20 @@
 ---
 title: format
 description: Displays time and timespan formats on the command line.
-ms.assetid: '12628b72-e8a5-4bca-a282-c80184bcb5e3'
-keywords: ["format Windows Performance Analyzer"]
+ms.assetid: 12628b72-e8a5-4bca-a282-c80184bcb5e3
+keywords:
+- format Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - format
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # format
@@ -34,12 +40,12 @@ Time parameters are usually taken by -range options. Time can be read in one of 
 
 
 
- 
+ 
 
 > [!Note]  
 > Only local timezone and UTC are currently supported.
 
- 
+ 
 
 Timespan parameters are usually taken by options accepting resolutions. Timespans can be read in one of the following formats:
 
@@ -52,16 +58,16 @@ Timespan parameters are usually taken by options accepting resolutions. Timespan
 
 
 
- 
+ 
 
 > [!Note]  
 > Event timestamps in the xperf trace dump are always presented in microseconds.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

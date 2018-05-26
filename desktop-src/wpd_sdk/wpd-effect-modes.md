@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_EFFECT\_MODES enumeration type describes various visual effects that can be applied to an image.'
-ms.assetid: '7624fccb-e416-4db4-978e-410c4c236328'
-title: 'WPD\_EFFECT\_MODES enumeration'
+Description: The WPD\_EFFECT\_MODES enumeration type describes various visual effects that can be applied to an image.
+ms.assetid: 7624fccb-e416-4db4-978e-410c4c236328
+title: WPD\_EFFECT\_MODES enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_EFFECT\_MODES enumeration
@@ -13,10 +18,10 @@ The **WPD\_EFFECT\_MODES** enumeration type describes various visual effects tha
 
 ```C++
 typedef enum WPD_EFFECT_MODES { 
-  WPD_EFFECT_MODE_UNDEFINED        = 0,
-  WPD_EFFECT_MODE_COLOR            = 1,
-  WPD_EFFECT_MODE_BLACK_AND_WHITE  = 2,
-  WPD_EFFECT_MODE_SEPIA            = 3
+  WPD_EFFECT_MODE_UNDEFINED        = 0,
+  WPD_EFFECT_MODE_COLOR            = 1,
+  WPD_EFFECT_MODE_BLACK_AND_WHITE  = 2,
+  WPD_EFFECT_MODE_SEPIA            = 3
 } ;
 ```
 
@@ -75,9 +80,9 @@ This enumeration is used by the [WPD\_STILL\_IMAGE\_EFFECT\_MODE](still-image-pr
 [**Structures and Enumeration Types**](structures-and-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

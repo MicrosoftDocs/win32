@@ -1,13 +1,20 @@
 ---
 title: Drawing with Double Buffers
 description: Double buffers smooth the transition between one image and another on the screen.
-ms.assetid: '10801cc7-d26c-4bfd-95c0-f352a1c7a1f5'
-keywords: ["OpenGL on Windows,double buffers", "double buffers OpenGL"]
+ms.assetid: 10801cc7-d26c-4bfd-95c0-f352a1c7a1f5
+keywords:
+- OpenGL on Windows,double buffers
+- double buffers OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing with Double Buffers
 
-Double buffers smooth the transition between one image and another on the screen. Swapping buffers typically comes at the end of a sequence of drawing commands. By default, the Microsoft implementation of OpenGL in Windows draws to the off-screen buffer; when drawing is complete, you call the [**SwapBuffers**](swapbuffers.md) function to copy the off-screen buffer to the on-screen buffer. The following code sample prepares to draw, calls a drawing function, and then copies the completed image on to the screen if double buffering is available.
+Double buffers smooth the transition between one image and another on the screen. Swapping buffers typically comes at the end of a sequence of drawing commands. By default, the Microsoft implementation of OpenGL in Windows draws to the off-screen buffer; when drawing is complete, you call the [**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master) function to copy the off-screen buffer to the on-screen buffer. The following code sample prepares to draw, calls a drawing function, and then copies the completed image on to the screen if double buffering is available.
 
 
 ```C++

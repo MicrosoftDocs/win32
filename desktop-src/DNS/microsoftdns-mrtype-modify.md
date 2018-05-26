@@ -1,8 +1,11 @@
 ---
 title: Modify method of the MicrosoftDNS\_MRType class
 description: The Modify method updates a Mailbox Rename (MR) Resource Record.
-ms.assetid: 'eb833735-d485-4603-9976-305244537acd'
-keywords: ["Modify method DNS", "Modify method DNS , MicrosoftDNS_MRType class", "MicrosoftDNS_MRType class DNS , Modify method"]
+ms.assetid: eb833735-d485-4603-9976-305244537acd
+keywords:
+- Modify method DNS
+- Modify method DNS , MicrosoftDNS_MRType class
+- MicrosoftDNS_MRType class DNS , Modify method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modify method of the MicrosoftDNS\_MRType class
@@ -22,9 +30,9 @@ The **Modify** method updates a Mailbox Rename (MR) Resource Record.
 
 ```mof
 void Modify(
-  [in, optional] uint32              TTL,
-  [in]           string              MRMailbox,
-  [out, ref]     MicrosoftDNS_MRType &amp;RR
+  [in, optional] uint32              TTL,
+  [in]           string              MRMailbox,
+  [out, ref]     MicrosoftDNS_MRType &amp;RR
 );
 ```
 
@@ -70,7 +78,7 @@ Any parameter not specified is left unchanged in the modified record.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -89,9 +97,9 @@ Any parameter not specified is left unchanged in the modified record.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

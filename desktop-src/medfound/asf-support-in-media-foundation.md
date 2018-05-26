@@ -1,7 +1,12 @@
 ---
 Description: ASF Support in Media Foundation
-ms.assetid: '4b0c4a83-623a-4378-9436-35ed120316af'
+ms.assetid: 4b0c4a83-623a-4378-9436-35ed120316af
 title: ASF Support in Media Foundation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Support in Media Foundation
@@ -35,7 +40,7 @@ Second, the WM Container layer provides low-level control over parsing and writi
 
 
 
- 
+ 
 
 For detailed information about the structure of an ASF file, see the ASF specification, which can be downloaded from this [Microsoft website](http://go.microsoft.com/fwlink/p/?linkid=91307).
 
@@ -46,9 +51,9 @@ For detailed information about the structure of an ASF file, see the ASF specifi
 [Media Foundation Programming Guide](media-foundation-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

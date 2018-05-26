@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a single authenticated attribute.'
-ms.assetid: '71c4543b-683f-4ffa-8301-c40c46c490b3'
+---
+Description: Represents a single authenticated attribute.
+ms.assetid: 71c4543b-683f-4ffa-8301-c40c46c490b3
 title: Attribute object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attribute object

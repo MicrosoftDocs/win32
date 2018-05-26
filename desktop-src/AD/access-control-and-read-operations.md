@@ -4,11 +4,15 @@ description: Security is an implicit filter for searching, enumerating container
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ee46cbc4-5539-48ce-991f-3ad0429f65ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ee46cbc4-5539-48ce-991f-3ad0429f65ca
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Access Control and Read Operations AD"]
+keywords:
+- Access Control and Read Operations AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Access Control and Read Operations

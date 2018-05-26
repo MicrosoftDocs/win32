@@ -2,13 +2,16 @@
 title: GetByAccountingStatistics method of the PS\_RemoteAccessConnectionStatisticsSummary class
 description: This cmdlet displays the following1. Summary statistics of current (real-time) active DirectAccess and VPN connections2. Summary statistics of DirectAccess and VPN historical connections for a specified time duration.
 audience: developer
-ms.assetid: 'aa6ff523-7951-4b02-a9f5-eadd872c7289'
-ms.prod: 'windows-server-dev'
+ms.assetid: aa6ff523-7951-4b02-a9f5-eadd872c7289
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByAccountingStatistics method", "GetByAccountingStatistics method, PS_RemoteAccessConnectionStatisticsSummary class", "PS_RemoteAccessConnectionStatisticsSummary class, GetByAccountingStatistics method"]
+keywords:
+- GetByAccountingStatistics method
+- GetByAccountingStatistics method, PS_RemoteAccessConnectionStatisticsSummary class
+- PS_RemoteAccessConnectionStatisticsSummary class, GetByAccountingStatistics method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByAccountingStatistics method of the PS\_RemoteAccessConnectionStatisticsSummary class
@@ -28,10 +34,10 @@ This cmdlet displays the following1. Summary statistics of current (real-time) a
 
 ```mof
 uint32 GetByAccountingStatistics(
-  [in]  datetime                      StartDateTime,
-  [in]  datetime                      EndDateTime,
-  [in]  string                        ComputerName,
-  [out] RemoteAccessAccountingSummary cmdletOutput
+  [in]  datetime                      StartDateTime,
+  [in]  datetime                      EndDateTime,
+  [in]  string                        ComputerName,
+  [out] RemoteAccessAccountingSummary cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ Based on the input specified this cmdlet displays the summary of the current (re
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Based on the input specified this cmdlet displays the summary of the current (re
 [**PS\_RemoteAccessConnectionStatisticsSummary**](ps-remoteaccessconnectionstatisticssummary.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

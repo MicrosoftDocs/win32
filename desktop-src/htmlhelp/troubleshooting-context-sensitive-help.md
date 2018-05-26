@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting Context-Sensitive Help
 description: Troubleshooting Context-Sensitive Help
-ms.assetid: '12E7E8C3-72B5-4a71-8A6E-BC6B2769ADD0'
+ms.assetid: 12E7E8C3-72B5-4a71-8A6E-BC6B2769ADD0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Context-Sensitive Help

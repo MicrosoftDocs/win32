@@ -1,8 +1,9 @@
 ---
 title: D3DX11PreprocessShaderFromFile function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the D3DPreprocess API. Create a shader from a file without compiling it.
-ms.assetid: 'aab08efd-b6b0-44e5-bd68-f32c242d9e94'
-keywords: ["D3DX11PreprocessShaderFromFile function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the D3DPreprocess API. Create a shader from a file without compiling it.
+ms.assetid: aab08efd-b6b0-44e5-bd68-f32c242d9e94
+keywords:
+- D3DX11PreprocessShaderFromFile function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11PreprocessShaderFromFile function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use the [**D3DPreprocess**](https://msdn.microsoft.com/library/windows/desktop/dd607332) API.
 
- 
+ 
 
 Create a shader from a file without compiling it.
 
@@ -33,13 +39,13 @@ Create a shader from a file without compiling it.
 
 ```C++
 HRESULT D3DX11PreprocessShaderFromFile(
-  _In_        LPCTSTR            pFileName,
-  _In_  const D3D11_SHADER_MACRO *pDefines,
-  _In_        LPD3D10INCLUDE     pInclude,
-  _In_        ID3DX11ThreadPump  *pPump,
-  _Out_       ID3D10Blob         **ppShaderText,
-  _Out_       ID3D10Blob         **ppErrorMsgs,
-  _Out_       HRESULT            *pHResult
+  _In_        LPCTSTR            pFileName,
+  _In_  const D3D11_SHADER_MACRO *pDefines,
+  _In_        LPD3D10INCLUDE     pInclude,
+  _In_        ID3DX11ThreadPump  *pPump,
+  _Out_       ID3D10Blob         **ppShaderText,
+  _Out_       ID3D10Blob         **ppErrorMsgs,
+  _Out_       HRESULT            *pHResult
 );
 ```
 
@@ -136,9 +142,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Body (sendEmailType) Element
 description: Contains the text in the body of the email message.
-ms.assetid: 'fac6ddd5-6f73-427b-b213-ab946512c87a'
-keywords: ["Body element Task Scheduler"]
+ms.assetid: fac6ddd5-6f73-427b-b213-ab946512c87a
+keywords:
+- Body element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Body
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Body (sendEmailType) Element
@@ -35,7 +41,7 @@ The **Body** element is defined by the [**sendEmailType**](taskschedulerschema-s
 
 ## Remarks
 
-For C++ development, see [**Body Property of IEmailAction**](iemailaction-body.md).
+For C++ development, see [**Body Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_body?branch=master).
 
 For script development, see [**EmailAction.Body**](emailaction-body.md).
 
@@ -45,14 +51,14 @@ For script development, see [**EmailAction.Body**](emailaction-body.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

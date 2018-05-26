@@ -4,13 +4,16 @@ description: Used to prepare an existing VM for provisioning.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6cb48543-974f-438c-9980-f5e045455578'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6cb48543-974f-438c-9980-f5e045455578
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PrepareSpecializedMachine method", "PrepareSpecializedMachine method, Msps_ProvisioningService class", "Msps_ProvisioningService class, PrepareSpecializedMachine method"]
+keywords:
+- PrepareSpecializedMachine method
+- PrepareSpecializedMachine method, Msps_ProvisioningService class
+- Msps_ProvisioningService class, PrepareSpecializedMachine method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PrepareSpecializedMachine method of the Msps\_ProvisioningService class
@@ -30,9 +36,9 @@ Used to prepare an existing VM for provisioning. The method should be executed a
 
 ```mof
 uint32 PrepareSpecializedMachine(
-  [in]  string               TemplateUtilityDiskPath,
-  [in]  string               MachineID,
-  [out] Msps_ProvisioningJob PreparationJob
+  [in]  string               TemplateUtilityDiskPath,
+  [in]  string               MachineID,
+  [out] Msps_ProvisioningJob PreparationJob
 );
 ```
 
@@ -69,8 +75,8 @@ Returns an embedded instance of [**Msps\_ProvisioningJob**](msps-provisioningjob
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -87,9 +93,9 @@ Returns an embedded instance of [**Msps\_ProvisioningJob**](msps-provisioningjob
 [**Msps\_ProvisioningJob**](msps-provisioningjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

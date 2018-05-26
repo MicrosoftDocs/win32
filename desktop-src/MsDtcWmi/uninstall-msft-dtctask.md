@@ -4,13 +4,16 @@ description: Uninstalls the local transactions coordinator.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '27fae008-c81e-44c6-a2b9-54d33307ad8b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 27fae008-c81e-44c6-a2b9-54d33307ad8b
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Uninstall method", "Uninstall method, MSFT_DtcTask class", "MSFT_DtcTask class, Uninstall method"]
+keywords:
+- Uninstall method
+- Uninstall method, MSFT_DtcTask class
+- MSFT_DtcTask class, Uninstall method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Uninstall method of the MSFT\_DtcTask class
@@ -48,8 +54,8 @@ Returns "0" on success, otherwise returns a WMI error code.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -63,9 +69,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_DtcTask**](msft-dtctask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

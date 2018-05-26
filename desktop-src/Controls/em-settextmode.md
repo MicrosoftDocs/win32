@@ -1,8 +1,9 @@
 ---
 title: EM\_SETTEXTMODE message
 description: Sets the text mode or undo level of a rich edit control. The message fails if the control contains any text.
-ms.assetid: 'd6741234-0ef3-4cd2-8817-6c852f1b500d'
-keywords: ["EM_SETTEXTMODE message Windows Controls"]
+ms.assetid: d6741234-0ef3-4cd2-8817-6c852f1b500d
+keywords:
+- EM_SETTEXTMODE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETTEXTMODE message
@@ -24,7 +30,7 @@ Sets the text mode or undo level of a rich edit control. The message fails if th
 *wParam* 
 </dt> <dd>
 
-One or more values from the [**TEXTMODE**](textmode.md) enumeration type. The values specify the new settings for the control's text mode and undo level parameters.
+One or more values from the [**TEXTMODE**](/windows/win32/Richedit/ne-richedit-tagtextmode?branch=master) enumeration type. The values specify the new settings for the control's text mode and undo level parameters.
 
 Specify one of the following values to set the text mode parameter. If you do not specify a text mode value, the text mode remains at its current setting. 
 
@@ -35,7 +41,7 @@ Specify one of the following values to set the text mode parameter. If you do no
 
 
 
- 
+ 
 
 Specify one of the following values to set the undo level parameter. If you do not specify an undo level value, the undo level remains at its current setting. 
 
@@ -46,7 +52,7 @@ Specify one of the following values to set the undo level parameter. If you do n
 
 
 
- 
+ 
 
 Specify one of the following values to set the code page parameter. If you do not specify an code page value, the code page remains at its current setting. 
 
@@ -57,7 +63,7 @@ Specify one of the following values to set the code page parameter. If you do no
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,8 +96,8 @@ The control must contain no text when it receives the **EM\_SETTEXTMODE** messag
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -106,15 +112,15 @@ The control must contain no text when it receives the **EM\_SETTEXTMODE** messag
 [**EM\_SETUNDOLIMIT**](em-setundolimit.md)
 </dt> <dt>
 
-[**TEXTMODE**](textmode.md)
+[**TEXTMODE**](/windows/win32/Richedit/ne-richedit-tagtextmode?branch=master)
 </dt> <dt>
 
 [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,20 +1,23 @@
 ---
-Description: 'When making calls outside of the calling process or to a remote WMI service, WMI uses the distributed version of the Component Object Model (DCOM).'
+Description: When making calls outside of the calling process or to a remote WMI service, WMI uses the distributed version of the Component Object Model (DCOM).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '261b4f18-5de5-4e06-a887-f5afd9c45511'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 261b4f18-5de5-4e06-a887-f5afd9c45511
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Authentication in WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Authentication in WMI
 
 When making calls outside of the calling process or to a remote WMI service, WMI uses the distributed version of the Component Object Model (DCOM). Out-of-process and remote calls are made through proxies, which require authentication of the credentials of the calling process.
 
-You set the authentication level when connecting to a computer and WMI namespace. To connect to WMI, call [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md) in C++. In scripting or Visual Basic, you connect to WMI using SWbemLocator.ConnectServer or through the [moniker](constructing-a-moniker-string.md) string. DCOM security and WMI both require certain authentication levels when connecting between computers. The required level differs according to which operating system you are connecting. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
+You set the authentication level when connecting to a computer and WMI namespace. To connect to WMI, call [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master) in C++. In scripting or Visual Basic, you connect to WMI using SWbemLocator.ConnectServer or through the [moniker](constructing-a-moniker-string.md) string. DCOM security and WMI both require certain authentication levels when connecting between computers. The required level differs according to which operating system you are connecting. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
 WMI normally runs in a shared service host and shares the same authentication as other processes in the host. To run the WMI process with a different level of authentication, run WMI with the [**winmgmt**](winmgmt.md) command with the **/standalonehost** switch and set the authentication level for WMI generally. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
 
@@ -26,10 +29,10 @@ To set authentication for a proxy, call the [**CoSetProxyBlanket**](_com_cosetpr
 
 The following [COM API for WMI](com-api-for-wmi.md) objects use proxies directly in C++ or C# to call out of process or to a remote WMI service:
 
--   [**IWbemServices**](iwbemservices.md)
--   [**IEnumWbemClassObject**](ienumwbemclassobject.md)
--   [**IWbemCallResult**](iwbemcallresult.md)
--   [**IWbemRefresher**](iwbemrefresher.md)
+-   [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master)
+-   [**IEnumWbemClassObject**](/windows/win32/Wbemcli/nn-wbemcli-ienumwbemclassobject?branch=master)
+-   [**IWbemCallResult**](/windows/win32/Wbemcli/nn-wbemcli-iwbemcallresult?branch=master)
+-   [**IWbemRefresher**](/windows/win32/Wbemcli/nn-wbemcli-iwbemrefresher?branch=master)
 
 The scripting objects, such as [**SWbemObject**](swbemobject.md), [**SWbemServices**](swbemservices.md), and [**SWbemRefresher**](swbemrefresher.md) do not use proxies directly. Instead, the scripting objects represent a wrapper or layer that calls into the [COM API for WMI](com-api-for-wmi.md) objects listed above. For more information and a code example of setting authentication in scripting, see [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md).
 

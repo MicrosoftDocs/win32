@@ -1,14 +1,20 @@
 ---
 title: InterlockedCompareExchange function
-description: Atomically compares the destination with the comparison value. If they are identical, the destination is overwritten with the input value. The original value is set to the destination's original value.
-ms.assetid: '85d1ba58-8e79-41cd-abd6-7ffff59839c7'
-keywords: ["InterlockedCompareExchange function HLSL"]
+description: Atomically compares the destination with the comparison value. If they are identical, the destination is overwritten with the input value. The original value is set to the destinations original value.
+ms.assetid: 85d1ba58-8e79-41cd-abd6-7ffff59839c7
+keywords:
+- InterlockedCompareExchange function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedCompareExchange
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedCompareExchange function

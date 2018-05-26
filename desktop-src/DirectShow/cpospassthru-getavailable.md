@@ -1,20 +1,25 @@
 ---
-Description: 'The GetAvailable method retrieves the range of times in which seeking is efficient. This method implements the IMediaSeeking::GetAvailable method.'
-ms.assetid: '5f4af41a-eb7b-4caa-97e0-aaed78467723'
-title: 'CPosPassThru.GetAvailable method'
+Description: The GetAvailable method retrieves the range of times in which seeking is efficient. This method implements the IMediaSeekingGetAvailable method.
+ms.assetid: 5f4af41a-eb7b-4caa-97e0-aaed78467723
+title: CPosPassThru.GetAvailable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.GetAvailable method
 
-The `GetAvailable` method retrieves the range of times in which seeking is efficient. This method implements the [**IMediaSeeking::GetAvailable**](imediaseeking-getavailable.md) method.
+The `GetAvailable` method retrieves the range of times in which seeking is efficient. This method implements the [**IMediaSeeking::GetAvailable**](/windows/win32/Strmif/nf-strmif-imediaseeking-getavailable?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetAvailable(
-   LONGLONG *pEarliest,
-   LONGLONG *pLatest
+   LONGLONG *pEarliest,
+   LONGLONG *pLatest
 );
 ```
 
@@ -60,9 +65,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to create a topology for audio or video playback.'
-ms.assetid: '9c536c4e-fbf8-4c16-932f-e5863b7652fe'
+Description: This topic describes how to create a topology for audio or video playback.
+ms.assetid: 9c536c4e-fbf8-4c16-932f-e5863b7652fe
 title: Creating Playback Topologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Playback Topologies
@@ -30,8 +35,8 @@ Here are the overall steps for creating a partial playback topology from a media
 
 To make this process easier to follow, the example code in this topic is organized into several functions. The top-level function is named `CreatePlaybackTopology`. It takes three parameters:
 
--   A pointer to a [**IMFMediaSource**](imfmediasource.md) interface of the media source.
--   A pointer to the [**IMFPresentationDescriptor**](imfpresentationdescriptor.md) interface of the presentation descriptor. Get this pointer by calling [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md). For sources with multiple presentations, the presentation descriptors for subsequent presentations are delivered in the [MENewPresentation](menewpresentation.md) event.
+-   A pointer to a [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface of the media source.
+-   A pointer to the [**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master) interface of the presentation descriptor. Get this pointer by calling [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master). For sources with multiple presentations, the presentation descriptors for subsequent presentations are delivered in the [MENewPresentation](menewpresentation.md) event.
 -   A handle to an application window. If the source has a video stream, the video will be displayed in this window.
 
 The function returns a pointer to a partial playback topology in the *ppTopology* parameter.
@@ -89,8 +94,8 @@ done:
 
 This function performs the following steps:
 
-1.  Call [**MFCreateTopology**](mfcreatetopology.md) to create the topology. Initially, the topology does not contain any nodes.
-2.  Call [**IMFPresentationDescriptor::GetStreamDescriptorCount**](imfpresentationdescriptor-getstreamdescriptorcount.md) to get the number of streams in the presentation.
+1.  Call [**MFCreateTopology**](/windows/win32/mfidl/nf-mfidl-mfcreatetopology?branch=master) to create the topology. Initially, the topology does not contain any nodes.
+2.  Call [**IMFPresentationDescriptor::GetStreamDescriptorCount**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount?branch=master) to get the number of streams in the presentation.
 3.  For each stream, call the application-defined `AddBranchToPartialTopology` function to a branch in the topology. This function is shown in the next section.
 
 ## Connecting Streams to Media Sinks
@@ -99,9 +104,9 @@ For each selected stream, add a source node and an output node, then connect the
 
 The `AddBranchToPartialTopology` function, shown in the next example, takes the following parameters:
 
--   A pointer to the [**IMFTopology**](imftopology.md) interface of the topology.
--   A pointer to the [**IMFMediaSource**](imfmediasource.md) interface of the media source.
--   A pointer to the [**IMFPresentationDescriptor**](imfpresentationdescriptor.md) interface of the presentation descriptor.
+-   A pointer to the [**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master) interface of the topology.
+-   A pointer to the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface of the media source.
+-   A pointer to the [**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master) interface of the presentation descriptor.
 -   The zero-based index of the stream.
 -   A handle to the video window. This handle is used only for the video stream.
 
@@ -178,15 +183,15 @@ done:
 
 The function does the following:
 
-1.  Calls [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](imfpresentationdescriptor-getstreamdescriptorbyindex.md) and passes in the stream index. This method returns a pointer to the stream descriptor for that stream, along with a Boolean value indicating whether the stream is selected.
+1.  Calls [**IMFPresentationDescriptor::GetStreamDescriptorByIndex**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex?branch=master) and passes in the stream index. This method returns a pointer to the stream descriptor for that stream, along with a Boolean value indicating whether the stream is selected.
 2.  If the stream is not selected, the function exits and returns S\_OK, because the application does not need to create a topology branch for a stream unless it is selected.
 3.  If the stream is selected, the function completes the topology branch as follows:
     1.  Creates an activation object for the sink, by calling the application-defined CreateMediaSinkActivate function. This function is shown in the next section.
     2.  Adds a source node to the topology. Code for this step is shown in the topic [Creating Source Nodes](creating-source-nodes.md).
     3.  Adds an output node to the topology. Code for this step is shown in the topic [Creating Output Nodes](creating-output-nodes.md).
-    4.  Connects the two nodes by calling [**IMFTopologyNode::ConnectOutput**](imftopologynode-connectoutput.md) on the source node. By connecting the nodes, the application indicates that the upstream node should deliver data to the downstream node. A source node has one output, and an output node has one input, so both stream indexes are zero.
+    4.  Connects the two nodes by calling [**IMFTopologyNode::ConnectOutput**](/windows/win32/mfidl/nf-mfidl-imftopologynode-connectoutput?branch=master) on the source node. By connecting the nodes, the application indicates that the upstream node should deliver data to the downstream node. A source node has one output, and an output node has one input, so both stream indexes are zero.
 
-More advanced applications can select or deselect streams, instead of using the source's default configuration. A source could have multiple streams, and any of them might be selected by default. The media source's presentation descriptor has a default set of stream selections. In a simple video file with a single audio stream and video stream, the media source will usually select both streams by default. However, a file might have multiple audio streams for different languages, or multiple video streams encoded at different bit rates. In that case, some of the streams will be unselected by default. The application can change the selection by calling [**IMFPresentationDescriptor::SelectStream**](imfpresentationdescriptor-selectstream.md) and [**IMFPresentationDescriptor::DeselectStream**](imfpresentationdescriptor-deselectstream.md) on the presentation descriptor.
+More advanced applications can select or deselect streams, instead of using the source's default configuration. A source could have multiple streams, and any of them might be selected by default. The media source's presentation descriptor has a default set of stream selections. In a simple video file with a single audio stream and video stream, the media source will usually select both streams by default. However, a file might have multiple audio streams for different languages, or multiple video streams encoded at different bit rates. In that case, some of the streams will be unselected by default. The application can change the selection by calling [**IMFPresentationDescriptor::SelectStream**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream?branch=master) and [**IMFPresentationDescriptor::DeselectStream**](/windows/win32/mfidl/nf-mfidl-imfpresentationdescriptor-deselectstream?branch=master) on the presentation descriptor.
 
 ## Creating the Media Sink
 
@@ -257,17 +262,17 @@ done:
 
 This function performs the following steps:
 
-1.  Calls [**IMFStreamDescriptor::GetMediaTypeHandler**](imfstreamdescriptor-getmediatypehandler.md) on the stream descriptor. This method returns an [**IMFMediaTypeHandler**](imfmediatypehandler.md) interface pointer.
+1.  Calls [**IMFStreamDescriptor::GetMediaTypeHandler**](/windows/win32/mfidl/nf-mfidl-imfstreamdescriptor-getmediatypehandler?branch=master) on the stream descriptor. This method returns an [**IMFMediaTypeHandler**](/windows/win32/mfidl/nn-mfidl-imfmediatypehandler?branch=master) interface pointer.
 
-2.  Calls [**IMFMediaTypeHandler::GetMajorType**](imfmediatypehandler-getmajortype.md). This method returns the major type GUID for the stream.
+2.  Calls [**IMFMediaTypeHandler::GetMajorType**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-getmajortype?branch=master). This method returns the major type GUID for the stream.
 
-3.  If the stream type is audio, the function calls [**MFCreateAudioRendererActivate**](mfcreateaudiorendereractivate.md) to create the audio renderer activation object. If the stream type is video, the function calls [**MFCreateVideoRendererActivate**](mfcreatevideorendereractivate.md) to create the video renderer activation object. Both of these functions return a pointer to the [**IMFActivate**](imfactivate.md) interface. This pointer is used to initialize the output node for the sink, as shown previously.
+3.  If the stream type is audio, the function calls [**MFCreateAudioRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorendereractivate?branch=master) to create the audio renderer activation object. If the stream type is video, the function calls [**MFCreateVideoRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatevideorendereractivate?branch=master) to create the video renderer activation object. Both of these functions return a pointer to the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) interface. This pointer is used to initialize the output node for the sink, as shown previously.
 
 For any other stream type, this example returns an error code. Alternatively, you could simply deselect the stream.
 
 ## Next Steps
 
-To play one media file at a time, queue the topology on the Media Session by calling [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md). The Media Session will use the topology loader to resolve the topology. For a complete example, see [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).
+To play one media file at a time, queue the topology on the Media Session by calling [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master). The Media Session will use the topology loader to resolve the topology. For a complete example, see [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).
 
 ## Related topics
 

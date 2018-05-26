@@ -1,12 +1,17 @@
 ---
-Description: 'You can enable gamma correction for a gradient brush by passing TRUE to the PathGradientBrush::SetGammaCorrection method of that brush.'
-ms.assetid: '47472e41-f469-44f4-8b39-cf3982b79f9e'
+Description: You can enable gamma correction for a gradient brush by passing TRUE to the PathGradientBrushSetGammaCorrection method of that brush.
+ms.assetid: 47472e41-f469-44f4-8b39-cf3982b79f9e
 title: Applying Gamma Correction to a Gradient
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying Gamma Correction to a Gradient
 
-You can enable gamma correction for a gradient brush by passing **TRUE** to the [**PathGradientBrush::SetGammaCorrection**](-gdiplus-class-pathgradientbrush-setgammacorrection-usegammacorrection-.md) method of that brush. You can disable gamma correction by passing **FALSE** to the **PathGradientBrush::SetGammaCorrection** method. Gamma correction is disabled by default.
+You can enable gamma correction for a gradient brush by passing **TRUE** to the [**PathGradientBrush::SetGammaCorrection**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setgammacorrection?branch=master) method of that brush. You can disable gamma correction by passing **FALSE** to the **PathGradientBrush::SetGammaCorrection** method. Gamma correction is disabled by default.
 
 The following example creates a linear gradient brush and uses that brush to fill two rectangles. The first rectangle is filled without gamma correction and the second rectangle is filled with gamma correction.
 
@@ -29,7 +34,7 @@ The following illustration shows the two filled rectangles. The top rectangle, w
 
 ![illustration showing two rectangles: the colored fill of the first varies in intensity, the fill of the second varies less](images/gammagradient1.png)
 
-The following example creates a path gradient brush based on a star-shaped path. The code uses the path gradient brush with gamma correction disabled (the default) to fill the path. Then the code passes **TRUE** to the [**PathGradientBrush::SetGammaCorrection**](-gdiplus-class-pathgradientbrush-setgammacorrection-usegammacorrection-.md) method to enable gamma correction for the path gradient brush. The call to [**Graphics::TranslateTransform**](-gdiplus-class-graphics-translatetransform-dx-dy-order-.md) sets the world transformation of a [**Graphics**](-gdiplus-class-graphics-class.md) object so that the subsequent call to [**Graphics::FillPath**](-gdiplus-class-graphics-fillpath-brush-path-.md) fills a star that sits to the right of the first star.
+The following example creates a path gradient brush based on a star-shaped path. The code uses the path gradient brush with gamma correction disabled (the default) to fill the path. Then the code passes **TRUE** to the [**PathGradientBrush::SetGammaCorrection**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setgammacorrection?branch=master) method to enable gamma correction for the path gradient brush. The call to [**Graphics::TranslateTransform**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-translatetransform?branch=master) sets the world transformation of a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object so that the subsequent call to [**Graphics::FillPath**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-fillpath?branch=master) fills a star that sits to the right of the first star.
 
 
 ```

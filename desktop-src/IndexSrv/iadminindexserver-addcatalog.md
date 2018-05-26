@@ -1,8 +1,11 @@
 ---
 title: IAdminIndexServer AddCatalog method
 description: Creates a new catalog to be used by Indexing Service that runs on the computer specified by the MachineName property.
-ms.assetid: '5c70c48b-3dca-45ee-a11f-4554947ba96b'
-keywords: ["AddCatalog method Indexing Service", "AddCatalog method Indexing Service , IAdminIndexServer interface", "IAdminIndexServer interface Indexing Service , AddCatalog method"]
+ms.assetid: 5c70c48b-3dca-45ee-a11f-4554947ba96b
+keywords:
+- AddCatalog method Indexing Service
+- AddCatalog method Indexing Service , IAdminIndexServer interface
+- IAdminIndexServer interface Indexing Service , AddCatalog method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ciodm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAdminIndexServer::AddCatalog method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Creates a new catalog to be used by Indexing Service that runs on the computer specified by the [**MachineName**](iadminindexserver-machinename.md) property.
 
@@ -24,9 +32,9 @@ Creates a new catalog to be used by Indexing Service that runs on the computer s
 
 ```C++
 HRESULT AddCatalog(
-  [in]          BSTR      bstrCatName,
-  [in]          BSTR      bstrCatLocation,
-  [out, retval] IDispatch **pIDsip
+  [in]          BSTR      bstrCatName,
+  [in]          BSTR      bstrCatLocation,
+  [out, retval] IDispatch **pIDsip
 );
 ```
 
@@ -71,10 +79,10 @@ Indexing Service must be stopped, using the [**Stop**](iadminindexserver-stop.md
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -86,9 +94,9 @@ Indexing Service must be stopped, using the [**Stop**](iadminindexserver-stop.md
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

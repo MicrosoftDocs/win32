@@ -1,7 +1,12 @@
 ---
 title: Using WinRM Windows PowerShell Cmdlets to Manage BITS Transfer Jobs
 description: Windows Remote Management PowerShell cmdlets can manage Background Intelligent Transfer Service (BITS) transfer jobs.
-ms.assetid: '9fbef8a1-ed3f-4277-9a07-ed427f60d7a8'
+ms.assetid: 9fbef8a1-ed3f-4277-9a07-ed427f60d7a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WinRM Windows PowerShell Cmdlets to Manage BITS Transfer Jobs
@@ -42,7 +47,7 @@ The following examples require the [BITS provider](http://go.microsoft.com/fwlin
 
     
 
-    The [Set-WsmanInstance](http://go.microsoft.com/fwlink/p/?linkid=155390) cmdlet changes the new BITS transfer job priority to 0 (**BG\_JOB\_PRIORITY\_FOREGROUND**). For more information about the priority levels, see the [**BG\_JOB\_PRIORITY**](bg-job-priority.md) enumeration.
+    The [Set-WsmanInstance](http://go.microsoft.com/fwlink/p/?linkid=155390) cmdlet changes the new BITS transfer job priority to 0 (**BG\_JOB\_PRIORITY\_FOREGROUND**). For more information about the priority levels, see the [**BG\_JOB\_PRIORITY**](/windows/win32/Bits/ne-bits-__midl_ibackgroundcopyjob_0001?branch=master) enumeration.
 
 3.  Resume the BITS transfer job.
 
@@ -100,7 +105,7 @@ The following examples require the [BITS provider](http://go.microsoft.com/fwlin
     -   If $result.State is 5 (**BG\_JOB\_STATE\_TRANSIENT\_ERROR**), the [Invoke-WsmanAction](http://go.microsoft.com/fwlink/p/?linkid=155388) cmdlet calls the [SetJobState](http://go.microsoft.com/fwlink/p/?linkid=162153) method and cancels the job.
     -   If $result.State is 6 (**BG\_JOB\_STATE\_TRANSFERRED**), the [Invoke-WsmanAction](http://go.microsoft.com/fwlink/p/?linkid=155388) cmdlet calls the [SetJobState](http://go.microsoft.com/fwlink/p/?linkid=162153) method and sets the state to complete.
 
-    For more information about job states, see the [**BG\_JOB\_STATE**](bg-job-state.md) enumeration.
+    For more information about job states, see the [**BG\_JOB\_STATE**](/windows/win32/Bits/ne-bits-__midl_ibackgroundcopyjob_0002?branch=master) enumeration.
 
 ## Related topics
 

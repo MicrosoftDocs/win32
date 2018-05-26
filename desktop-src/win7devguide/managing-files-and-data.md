@@ -1,7 +1,12 @@
 ---
 title: Managing Files and Data
 description: Users have easier access to files and data in Windows 7.
-ms.assetid: '44756220-1cd0-4c7e-a49e-5786a6220f8f'
+ms.assetid: 44756220-1cd0-4c7e-a49e-5786a6220f8f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Files and Data

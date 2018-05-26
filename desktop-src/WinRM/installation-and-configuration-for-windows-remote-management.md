@@ -4,10 +4,13 @@ description: If Windows Remote Management (WinRM) is not installed and configure
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '81c40456-0003-46d0-8695-83bf77432056'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Installation and Configuration for Windows Remote Management

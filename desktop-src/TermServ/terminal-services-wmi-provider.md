@@ -4,11 +4,15 @@ description: The Remote Desktop Services WMI provider provides programmatic acce
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd205a3da-3f9a-4ee1-9c99-a39e9cce0a11'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d205a3da-3f9a-4ee1-9c99-a39e9cce0a11
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , WMI provider"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , WMI provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services WMI provider

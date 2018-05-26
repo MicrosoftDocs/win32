@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an IMPlatform Provider.'
-ms.assetid: '4626332f-797f-4072-a797-51cb930ddf41'
-title: 'MSFT\_NetImPlatProvider class'
+Description: Represents an IMPlatform Provider.
+ms.assetid: 4626332f-797f-4072-a797-51cb930ddf41
+title: MSFT\_NetImPlatProvider class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetImPlatProvider class
@@ -68,17 +73,17 @@ The display name of this LWF.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>MsNetImPlatform.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NdisIMPlatCim.dll</dt> </dl>   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

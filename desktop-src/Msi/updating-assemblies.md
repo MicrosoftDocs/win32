@@ -1,7 +1,12 @@
 ---
-Description: 'The information in this topic identifies the recommended guidelines for updating assemblies using Windows Installer patches.'
-ms.assetid: '60c70d48-aae2-4ea5-a880-ac9e2c83c28c'
+Description: The information in this topic identifies the recommended guidelines for updating assemblies using Windows Installer patches.
+ms.assetid: 60c70d48-aae2-4ea5-a880-ac9e2c83c28c
 title: Updating Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Assemblies

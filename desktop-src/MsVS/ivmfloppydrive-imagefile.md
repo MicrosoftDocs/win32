@@ -1,8 +1,13 @@
 ---
 title: IVMFloppyDrive ImageFile property
 description: The ImageFile property contains the full path of the image file to which this floppy drive is attached.
-ms.assetid: '07f22d6e-5f9e-4163-8b8c-53dc9e44502d'
-keywords: ["ImageFile property Virtual Server", "ImageFile property Virtual Server , IVMFloppyDrive interface", "IVMFloppyDrive interface Virtual Server , ImageFile property", "ImageFile property Virtual Server , VMFloppyDrive interface", "VMFloppyDrive interface Virtual Server , ImageFile property"]
+ms.assetid: 07f22d6e-5f9e-4163-8b8c-53dc9e44502d
+keywords:
+- ImageFile property Virtual Server
+- ImageFile property Virtual Server , IVMFloppyDrive interface
+- IVMFloppyDrive interface Virtual Server , ImageFile property
+- ImageFile property Virtual Server , VMFloppyDrive interface
+- VMFloppyDrive interface Virtual Server , ImageFile property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive::ImageFile property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ImageFile(
-  [out] BSTR *imagePath
+  [out] BSTR *imagePath
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -90,9 +100,9 @@ This property value is read-only.
 [**IVMFloppyDrive**](ivmfloppydrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

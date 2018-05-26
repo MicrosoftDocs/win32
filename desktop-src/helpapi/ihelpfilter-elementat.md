@@ -1,8 +1,11 @@
 ---
 title: IHelpFilter ElementAt method
 description: method ElementAt - returns filter value at a particular index in the collection
-ms.assetid: '3beef150-da64-4558-926b-251b2849bec3'
-keywords: ["ElementAt method HelpAPI", "ElementAt method HelpAPI , IHelpFilter interface", "IHelpFilter interface HelpAPI , ElementAt method"]
+ms.assetid: 3beef150-da64-4558-926b-251b2849bec3
+keywords:
+- ElementAt method HelpAPI
+- ElementAt method HelpAPI , IHelpFilter interface
+- IHelpFilter interface HelpAPI , ElementAt method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHelpFilter::ElementAt method
@@ -22,8 +30,8 @@ method ElementAt - returns filter value at a particular index in the collection
 
 ```C++
 HRESULT ElementAt(
-  [in]          long              index,
-  [out, retval] IHelpKeyValuePair **pRetVal
+  [in]          long              index,
+  [out, retval] IHelpKeyValuePair **pRetVal
 );
 ```
 
@@ -49,8 +57,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -62,9 +70,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IHelpFilter**](ihelpfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

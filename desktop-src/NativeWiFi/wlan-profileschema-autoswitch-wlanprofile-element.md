@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the roaming behavior of an auto-connected network when a more preferred network is in range.'
-ms.assetid: '095dc797-1249-43aa-a8b7-5fa6eaee2a74'
-title: 'autoSwitch (WLANProfile) Element'
+---
+Description: Determines the roaming behavior of an auto-connected network when a more preferred network is in range.
+ms.assetid: 095dc797-1249-43aa-a8b7-5fa6eaee2a74
+title: autoSwitch (WLANProfile) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # autoSwitch (WLANProfile) Element

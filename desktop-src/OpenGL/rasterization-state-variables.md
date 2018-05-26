@@ -1,14 +1,20 @@
 ---
 title: Rasterization State Variables
 description: Rasterization State Variables
-ms.assetid: '57ce3dc0-3983-449a-bbe1-153232727ff8'
-keywords: ["Rasterization State Variables OpenGL"]
+ms.assetid: 57ce3dc0-3983-449a-bbe1-153232727ff8
+keywords:
+- Rasterization State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Rasterization State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rasterization State Variables

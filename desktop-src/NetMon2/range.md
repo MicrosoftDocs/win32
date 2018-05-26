@@ -1,7 +1,12 @@
 ---
-Description: 'The RANGE structure defines a range of valid property values.'
-ms.assetid: '7bd14410-f5c1-487b-8776-405567991e5a'
+Description: The RANGE structure defines a range of valid property values.
+ms.assetid: 7bd14410-f5c1-487b-8776-405567991e5a
 title: RANGE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RANGE structure
@@ -48,8 +53,8 @@ The **RANGE** structure is used to specify a valid range of numbers for a protoc
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The **RANGE** structure is used to specify a valid range of numbers for a protoc
 [PROPERTYINFO](propertyinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

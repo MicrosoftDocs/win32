@@ -2,13 +2,19 @@
 title: out\_of\_line attribute
 description: The DCE IDL keyword out\_of\_line is not supported in Microsoft RPC.
 ms.assetid: b56289d6-efe6-42be-9f5f-51d4f039c9df
-keywords: ["out_of_line attribute MIDL"]
+keywords:
+- out_of_line attribute MIDL
 topic_type:
 - apiref
 api_name:
 - out_of_line
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # out\_of\_line attribute

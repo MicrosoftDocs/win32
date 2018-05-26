@@ -1,21 +1,27 @@
 ---
 title: quality command
 description: The quality command defines a custom quality level for either audio, video or still image data compression. Digital-video devices recognize this command.
-ms.assetid: 'dd88a141-5461-4725-83f9-c2ead3a3a2b6'
-keywords: ["quality command Windows Multimedia"]
+ms.assetid: dd88a141-5461-4725-83f9-c2ead3a3a2b6
+keywords:
+- quality command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - quality
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # quality command
 
 The quality command defines a custom quality level for either audio, video or still image data compression. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -56,7 +62,7 @@ One or more of the following flags. (One of the three flags "audio", "still", an
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,8 +87,8 @@ This command defines a string name for the quality level, which can then be used
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -102,9 +108,9 @@ This command defines a string name for the quality level, which can then be used
 [setvideo](setvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

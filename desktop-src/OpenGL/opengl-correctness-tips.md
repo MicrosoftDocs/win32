@@ -1,8 +1,15 @@
 ---
 title: OpenGL Correctness Tips
 description: OpenGL Correctness Tips
-ms.assetid: '48397fbf-823d-4ea0-adfd-2c639e20e38f'
-keywords: ["OpenGL,correctness tips", "OpenGL,best practices"]
+ms.assetid: 48397fbf-823d-4ea0-adfd-2c639e20e38f
+keywords:
+- OpenGL,correctness tips
+- OpenGL,best practices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL Correctness Tips

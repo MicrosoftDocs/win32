@@ -4,11 +4,14 @@ description: Returns an input stream at the specified position in the protected 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream.GetInputStreamAt(System.UInt64)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream.GetInputStreamAt(System.UInt64)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["GetInputStreamAt method", "GetInputStreamAt method, CustomProtectedStream class", "CustomProtectedStream class, GetInputStreamAt method"]
+keywords:
+- GetInputStreamAt method
+- GetInputStreamAt method, CustomProtectedStream class
+- CustomProtectedStream class, GetInputStreamAt method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.GetInputStreamAt method
@@ -75,9 +81,9 @@ The input stream.
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the global settings for the automatic configuration of wired networks.'
-ms.assetid: '172cf15c-cd51-43d4-ae5d-f9460c2a40e2'
-title: 'globalFlags (LANPolicy) Element'
+---
+Description: Contains the global settings for the automatic configuration of wired networks.
+ms.assetid: 172cf15c-cd51-43d4-ae5d-f9460c2a40e2
+title: globalFlags (LANPolicy) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # globalFlags (LANPolicy) Element

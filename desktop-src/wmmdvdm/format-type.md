@@ -1,8 +1,9 @@
 ---
 title: FORMAT\_TYPE enumeration
 description: The FORMAT\_TYPE enumeration describes the format of a buffer and how it should be treated.
-ms.assetid: '4421d80f-17e8-4d3a-bccf-0ee90d987e21'
-keywords: ["FORMAT_TYPE enumeration Windows Movie Maker and DVD Maker"]
+ms.assetid: 4421d80f-17e8-4d3a-bccf-0ee90d987e21
+keywords:
+- FORMAT_TYPE enumeration Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - GPUPipelineTime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FORMAT\_TYPE enumeration
@@ -22,21 +28,21 @@ The **FORMAT\_TYPE** enumeration describes the format of a buffer and how it sho
 
 ```C++
 typedef enum eFORMAT_TYPE { 
-  FORMAT_VIDEO_TYPE_SYSTEMMEM            = 0x001,
-  FORMAT_VIDEO_TYPE_VIDEOMEM             = 0x002,
-  FORMAT_VIDEO_TYPE_SYSTEM_OR_VIDEO_MEM  = 0x004,
-  FORMAT_VIDEO_TYPE_ALPHA                = 0x010,
-  FORMAT_VIDEO_TYPE_NONALPHA             = 0x020,
-  FORMAT_VIDEO_FLAG_FORCELETTERBOX       = 0x100,
-  FORMAT_VIDEO_FLAG_CANLETTERBOX         = 0x200,
-  FORMAT_AUDIO_TYPE_BUFFER               = 0x001,
-  FORMAT_FLAG_READONLY                   = 0x010000,
-  FORMAT_FLAG_INPLACE_RENDER             = 0x020000,
-  FORMAT_FLAG_PREROLL                    = 0x100000,
-  FORMAT_FLAG_MASK                       = 0xFFFF0000,
-  FORMAT_VIDEO_LOCATION_TYPE_MASK        = 0x0F,
-  FORMAT_VIDEO_COLOR_TYPE_MASK           = 0xF0,
-  FORMAT_MEDIA_TYPE_MASK                 = 0xFFFF
+  FORMAT_VIDEO_TYPE_SYSTEMMEM            = 0x001,
+  FORMAT_VIDEO_TYPE_VIDEOMEM             = 0x002,
+  FORMAT_VIDEO_TYPE_SYSTEM_OR_VIDEO_MEM  = 0x004,
+  FORMAT_VIDEO_TYPE_ALPHA                = 0x010,
+  FORMAT_VIDEO_TYPE_NONALPHA             = 0x020,
+  FORMAT_VIDEO_FLAG_FORCELETTERBOX       = 0x100,
+  FORMAT_VIDEO_FLAG_CANLETTERBOX         = 0x200,
+  FORMAT_AUDIO_TYPE_BUFFER               = 0x001,
+  FORMAT_FLAG_READONLY                   = 0x010000,
+  FORMAT_FLAG_INPLACE_RENDER             = 0x020000,
+  FORMAT_FLAG_PREROLL                    = 0x100000,
+  FORMAT_FLAG_MASK                       = 0xFFFF0000,
+  FORMAT_VIDEO_LOCATION_TYPE_MASK        = 0x0F,
+  FORMAT_VIDEO_COLOR_TYPE_MASK           = 0xF0,
+  FORMAT_MEDIA_TYPE_MASK                 = 0xFFFF
 } FORMAT_TYPE;
 ```
 
@@ -133,7 +139,7 @@ A mask to determine the upper two bytes of the enumeration value.
 <span id="FORMAT_VIDEO_LOCATION_TYPE_MASK"></span><span id="format_video_location_type_mask"></span>**FORMAT\_VIDEO\_LOCATION\_TYPE\_MASK**
 </dt> <dd>
 
-A mask to determine what kind of memory this buffer uses—system memory (**FORMAT\_VIDEO\_TYPE\_SYSTEMMEM**) or video memory (**FORMAT\_VIDEO\_TYPE\_VIDEOMEM**).
+A mask to determine what kind of memory this buffer uses system memory (**FORMAT\_VIDEO\_TYPE\_SYSTEMMEM**) or video memory (**FORMAT\_VIDEO\_TYPE\_VIDEOMEM**).
 
 </dd> <dt>
 
@@ -157,8 +163,8 @@ A mask to determine the lower two bytes of the enumeration value. (This includes
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                         |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl> |
 
 
@@ -170,9 +176,9 @@ A mask to determine the lower two bytes of the enumeration value. (This includes
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

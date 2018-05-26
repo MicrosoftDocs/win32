@@ -4,10 +4,13 @@ description: Windows Remote Management (WinRM) supports the delegation of user c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e6c8966-bb05-4dfb-b154-300fa76e8d9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 0e6c8966-bb05-4dfb-b154-300fa76e8d9c
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Multi-Hop Support in WinRM
@@ -21,9 +24,9 @@ For more information about CredSSP, see [KB 951608](http://go.microsoft.com/fwli
 > [!Note]  
 > WinRM clients and servers will support CredSSP authentication only with explicit credentials.
 
- 
+ 
 
-## Multi-Hop Support Configuration—Setup and Details
+## Multi-Hop Support Configuration Setup and Details
 
 There are multiple mechanisms for configuring WinRM settings. In the following procedure, the **winrm** utility and Group Policy editor (**GPEdit.msc**) are used. CredSSP can also be enabled for WinRM by using Windows PowerShell. See the [Enable-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155385), [Get-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155386), and [Disable-WSManCredSSP](http://go.microsoft.com/fwlink/p/?linkid=155383) Windows PowerShell cmdlets for detailed configuration information and usage examples.
 
@@ -55,7 +58,7 @@ CredSSP delegation must be enabled in the client settings and in the service set
 
     
 
-     
+     
 
     For more information about setting Group Policies, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
@@ -74,7 +77,7 @@ If Kerberos authentication between the client and server is not possible, the us
     > [!Note]  
     > If the service setting is not configured, the WinRM server uses a self-signed certificate that is created in memory to encrypt messages sent to the client. However, this certificate is not used for authentication.
 
-     
+     
 
 -   If neither Kerberos authentication nor certificate thumbprints are available, the user can enable NTLM authentication. If NTLM authentication is used, the Allow Fresh Credentials with NTLM-only Server Authentication (**AllowFreshCredentialsWhenNTLMOnly**) policy must be enabled, and an SPN with the WSMAN prefix must be added to the policy. This setting is less secure than both Kerberos authentication and certificate thumbprints, because credentials are sent to an unauthenticated server.
 
@@ -86,9 +89,9 @@ A user can specify explicit credentials over both HTTP and HTTPS. The following 
 
 **winrm OPERATION -remote:https://myMachine -authentication:CredSSP -username:myUsername -password:myPassword**
 
- 
+ 
 
- 
+ 
 
 
 

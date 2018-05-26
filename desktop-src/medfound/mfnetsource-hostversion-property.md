@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the &\#0034;c-hostexever&\#0034; field that the network source uses for logging.'
-ms.assetid: 'eee93457-483d-41dc-91c5-c12382d03152'
-title: 'MFNETSOURCE\_HOSTVERSION property'
+---
+Description: The value of the &\#0034;c-hostexever&\#0034; field that the network source uses for logging.
+ms.assetid: eee93457-483d-41dc-91c5-c12382d03152
+title: MFNETSOURCE\_HOSTVERSION property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_HOSTVERSION property

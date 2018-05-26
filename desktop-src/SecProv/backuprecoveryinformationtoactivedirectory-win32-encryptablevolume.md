@@ -1,7 +1,12 @@
-﻿---
-Description: 'Backs up recovery data to Active Directory.'
-ms.assetid: '664562b3-5679-4185-8bbc-5d5350494707'
-title: 'BackupRecoveryInformationToActiveDirectory method of the Win32\_EncryptableVolume class'
+---
+Description: Backs up recovery data to Active Directory.
+ms.assetid: 664562b3-5679-4185-8bbc-5d5350494707
+title: BackupRecoveryInformationToActiveDirectory method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BackupRecoveryInformationToActiveDirectory method of the Win32\_EncryptableVolume class

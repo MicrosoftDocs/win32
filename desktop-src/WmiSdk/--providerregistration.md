@@ -1,13 +1,16 @@
 ---
-Description: 'Serves as the parent class for registration classes for various types of providers.'
+Description: Serves as the parent class for registration classes for various types of providers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1e5d95cb-0961-4be8-b80a-37b598c9ccfe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1e5d95cb-0961-4be8-b80a-37b598c9ccfe
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ProviderRegistration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ProviderRegistration class
@@ -79,8 +82,8 @@ Only administrators can register or delete a provider by creating an instance of
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -98,9 +101,9 @@ Only administrators can register or delete a provider by creating an instance of
 [Registering a Provider](registering-a-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

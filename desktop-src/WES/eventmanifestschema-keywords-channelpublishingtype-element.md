@@ -1,14 +1,20 @@
 ---
 title: keywords (ChannelPublishingType) Element
 description: A bitmask that determines the category of events that are written to the channel.
-ms.assetid: '5157e63f-3e46-4248-b0ca-116a5d5ada2c'
-keywords: ["keywords element EventLog"]
+ms.assetid: 5157e63f-3e46-4248-b0ca-116a5d5ada2c
+keywords:
+- keywords element EventLog
 topic_type:
 - apiref
 api_name:
 - keywords
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # keywords (ChannelPublishingType) Element
@@ -29,8 +35,8 @@ The **keywords** element is defined by the [**ChannelPublishingType**](eventmani
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **keywords** element is defined by the [**ChannelPublishingType**](eventmani
 [**publishing (ChannelType)**](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

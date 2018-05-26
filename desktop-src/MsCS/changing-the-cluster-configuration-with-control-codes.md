@@ -4,11 +4,15 @@ description: Failover Cluster API code example for using an input control code.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bca4e822-ef41-41c5-bbec-295fbf42cbd8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: bca4e822-ef41-41c5-bbec-295fbf42cbd8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,changing the cluster configuration"]
+keywords:
+- control codes Failover Cluster ,changing the cluster configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Changing the Cluster Configuration with Control Codes

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays a dialog box that contains the signer information for a signed message.'
-ms.assetid: 'e4552cbb-90f4-46f4-a271-3a91ccd5f806'
+---
+Description: Displays a dialog box that contains the signer information for a signed message.
+ms.assetid: e4552cbb-90f4-46f4-a271-3a91ccd5f806
 title: CryptUIDlgViewSignerInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptUIDlgViewSignerInfo function

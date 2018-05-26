@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.DisallowStartIfOnBatteries property
 description: For scripting, gets or sets a Boolean value that indicates that the task will not be started if the computer is running on batteries.
-ms.assetid: '8f80bc2a-8b7d-4771-b773-55b8f50a4126'
-keywords: ["DisallowStartIfOnBatteries property Task Scheduler", "DisallowStartIfOnBatteries property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , DisallowStartIfOnBatteries property"]
+ms.assetid: 8f80bc2a-8b7d-4771-b773-55b8f50a4126
+keywords:
+- DisallowStartIfOnBatteries property Task Scheduler
+- DisallowStartIfOnBatteries property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , DisallowStartIfOnBatteries property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.DisallowStartIfOnBatteries property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, this setting is specified in the [**Disa
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When reading or writing XML for a task, this setting is specified in the [**Disa
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

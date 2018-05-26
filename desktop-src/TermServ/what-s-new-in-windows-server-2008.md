@@ -1,18 +1,21 @@
 ---
-title: What's New in Windows Server 2008
-description: Windows Server 2008 introduces the following new programming elements for Terminal Services.
+title: Whats New in Windows Server 2008
+description: Windows Server 2008 introduces the following new programming elements for Terminal Services.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a2299b03-5e06-4984-a33f-b44c7cded513'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a2299b03-5e06-4984-a33f-b44c7cded513
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in Windows Server 2008
 
-Windows Server 2008 introduces the following new programming elements for Terminal Services.
+Windows Server 2008 introduces the following new programming elements for Terminal Services.
 
 
 
@@ -59,17 +62,17 @@ Windows Server 2008 introduces the following new programming elements for Termin
 <td>Terminal Services API Reference<br/></td>
 <td>The following functions were added to [Terminal Services API Reference](terminal-services-api-reference.md):<br/>
 <ul>
-<li>[<strong>WTSConnectSession Function</strong>](wtsconnectsession.md)</li>
-<li>[<strong>WTSRegisterSessionNotificationEx Function</strong>](wtsregistersessionnotificationex.md)</li>
-<li>[<strong>WTSStartRemoteControlSession Function</strong>](wtsstartremotecontrolsession.md)</li>
-<li>[<strong>WTSStopRemoteControlSession Function</strong>](wtsstopremotecontrolsession.md)</li>
-<li>[<strong>WTSUnRegisterSessionNotificationEx Function</strong>](wtsunregistersessionnotificationex.md)</li>
-<li>[<strong>WTSVirtualChannelOpenEx Function</strong>](wtsvirtualchannelopenex.md)</li>
+<li>[<strong>WTSConnectSession Function</strong>](/windows/win32/Wtsapi32/nf-wtsapi32-wtsconnectsessiona?branch=master)</li>
+<li>[<strong>WTSRegisterSessionNotificationEx Function</strong>](/windows/win32/Wtsapi32/nf-wtsapi32-wtsregistersessionnotificationex?branch=master)</li>
+<li>[<strong>WTSStartRemoteControlSession Function</strong>](/windows/win32/Wtsapi32/nf-wtsapi32-wtsstartremotecontrolsessiona?branch=master)</li>
+<li>[<strong>WTSStopRemoteControlSession Function</strong>](/windows/win32/Wtsapi32/nf-wtsapi32-wtsstopremotecontrolsession?branch=master)</li>
+<li>[<strong>WTSUnRegisterSessionNotificationEx Function</strong>](/windows/win32/Wtsapi32/nf-wtsapi32-wtsunregistersessionnotificationex?branch=master)</li>
+<li>[<strong>WTSVirtualChannelOpenEx Function</strong>](/windows/win32/Wtsapi32/nf-wtsapi32-wtsvirtualchannelopenex?branch=master)</li>
 </ul>
 The following structures were added:<br/>
 <ul>
-<li>[<strong>WTSCLIENT Structure</strong>](wtsclient.md)</li>
-<li>[<strong>WTSINFO Structure</strong>](wtsinfo.md)</li>
+<li>[<strong>WTSCLIENT Structure</strong>](/windows/win32/Wtsapi32/ns-wtsapi32-_wtsclienta?branch=master)</li>
+<li>[<strong>WTSINFO Structure</strong>](/windows/win32/Wtsapi32/ns-wtsapi32-_wtsinfoa?branch=master)</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -100,7 +103,7 @@ The following structures were added:<br/>
 </tr>
 <tr class="odd">
 <td>Terminal Services Session Broker Plug-in Reference<br/></td>
-<td>The Terminal Services Session Broker (TS Session Broker) plug-in is used to extend the capabilities of TS Session Broker.<br/>
+<td>The Terminal Services Session Broker (TS Session Broker) plug-in is used to extend the capabilities of TS Session Broker.<br/>
 <ul>
 <li>[Terminal Services Session Broker Plug-in Reference](https://msdn.microsoft.com/library/dd379710)</li>
 </ul></td>
@@ -110,11 +113,11 @@ The following structures were added:<br/>
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

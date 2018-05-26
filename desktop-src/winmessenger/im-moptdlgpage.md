@@ -1,8 +1,10 @@
 ---
 title: MOPTDLGPAGE enumeration
 description: Do not use.
-ms.assetid: 'a7d669bd-fcfe-4f7d-af92-6dc0052c393a'
-keywords: ["MOPTDLGPAGE enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: a7d669bd-fcfe-4f7d-af92-6dc0052c393a
+keywords:
+- MOPTDLGPAGE enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,18 +13,23 @@ api_location:
 - Mdisp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MOPTDLGPAGE enumeration
 
-\[**MOPTDLGPAGE** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MOPTDLGPAGE** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
-Do not use. Specifies which page of the Messenger client **Options** dialog box to display to the user.
+Do not use. Specifies which page of the Messenger client **Options** dialog box to display to the user.
 
 > [!Note]  
 > The **MOPTDLGPAGE** enumerated type is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [**MOPTIONPAGE**](im-moptionpage.md) instead.
 
- 
+ 
 
 ## Syntax
 
@@ -30,13 +37,13 @@ Do not use. Specifies which page of the Messenger client **Options** dialog box 
 ```C++
 typedef enum  { 
   MOPTDLG_GENERAL_PAGE,
-  MOPTDLG_PRIVACY_PAGE      = 1,
-  MOPTDLG_EXCHANGE_PAGE     = 2,
-  MOPTDLG_ACCOUNTS_PAGE     = 3,
-  MOPTDLG_CONNECTION_PAGE   = 4,
-  MOPTDLG_PREFERENCES_PAGE  = 5,
-  MOPTDLG_SERVICES_PAGE     = 6,
-  MOPTDLG_PHONE_PAGE        = 7
+  MOPTDLG_PRIVACY_PAGE      = 1,
+  MOPTDLG_EXCHANGE_PAGE     = 2,
+  MOPTDLG_ACCOUNTS_PAGE     = 3,
+  MOPTDLG_CONNECTION_PAGE   = 4,
+  MOPTDLG_PREFERENCES_PAGE  = 5,
+  MOPTDLG_SERVICES_PAGE     = 6,
+  MOPTDLG_PHONE_PAGE        = 7
 } LockError;
 ```
 
@@ -108,16 +115,16 @@ Display the **Phone** tab of the **Options** dialog box.
 
 |                                  |                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                |
-| End of server support<br/> | Windows Server 2003<br/>                                                       |
+| End of client support<br/> | Windows XP<br/>                                                                |
+| End of server support<br/> | Windows Server 2003<br/>                                                       |
 | Header<br/>                | <dl> <dt>Mdisp.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Mdisp.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

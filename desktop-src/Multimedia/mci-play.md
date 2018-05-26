@@ -1,8 +1,9 @@
 ---
 title: MCI\_PLAY command
 description: The MCI\_PLAY command signals the device to begin transmitting output data. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
-ms.assetid: 'd912ab49-63f0-40a9-aa4c-f9463782b54c'
-keywords: ["MCI_PLAY command Windows Multimedia"]
+ms.assetid: d912ab49-63f0-40a9-aa4c-f9463782b54c
+keywords:
+- MCI_PLAY command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_PLAY command
 
 The MCI\_PLAY command signals the device to begin transmitting output data. CD audio, digital-video, MIDI sequencer, videodisc, VCR, and waveform-audio devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -112,7 +118,7 @@ Playback should use a full-screen display. Use this flag only when playing compr
 
 </dd> </dl>
 
-For digital-video devices, *lpPlay* points to an [**MCI\_DGV\_PLAY\_PARMS**](mci-dgv-play-parms.md) structure.
+For digital-video devices, *lpPlay* points to an [**MCI\_DGV\_PLAY\_PARMS**](/windows/win32/Digitalv/?branch=master) structure.
 
 The following additional flags are used with the **vcr** device type:
 
@@ -186,8 +192,8 @@ The play speed is included in the **dwSpeed** member in the structure identified
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -202,9 +208,9 @@ The play speed is included in the **dwSpeed** member in the structure identified
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

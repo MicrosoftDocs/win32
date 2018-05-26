@@ -4,13 +4,16 @@ description: Places the service in the stopped state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '652b7fe8-1563-4903-ae24-dfedffb2b41b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 652b7fe8-1563-4903-ae24-dfedffb2b41b
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StopService method", "StopService method, CIM_Service class", "CIM_Service class, StopService method"]
+keywords:
+- StopService method
+- StopService method, CIM_Service class
+- CIM_Service class, StopService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the CIM\_Service class
@@ -49,7 +55,7 @@ Returns an integer value of 0 if the service was successfully started, 1 if the 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
@@ -64,9 +70,9 @@ Returns an integer value of 0 if the service was successfully started, 1 if the 
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

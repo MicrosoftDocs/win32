@@ -4,17 +4,22 @@ description: A string that identifies the location of an external store, such as
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '93c8ac85-521f-464b-a32f-6ae4c941899e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 93c8ac85-521f-464b-a32f-6ae4c941899e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-External-Store attribute AD Schema", "msDS-ExternalStore attribute AD Schema"]
+keywords:
+- ms-DS-External-Store attribute AD Schema
+- msDS-ExternalStore attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-External-Store
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-External-Store attribute

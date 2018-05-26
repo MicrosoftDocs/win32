@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies an icon for the object.'
-ms.assetid: '7abf0f9a-795b-4650-af7a-44aee4d3dd91'
-title: 'WPD\_RESOURCE\_ICON'
+Description: Specifies an icon for the object.
+ms.assetid: 7abf0f9a-795b-4650-af7a-44aee4d3dd91
+title: WPD\_RESOURCE\_ICON
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_RESOURCE\_ICON

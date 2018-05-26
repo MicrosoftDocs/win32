@@ -1,7 +1,12 @@
 ---
 title: Service Model Examples
-ms.assetid: '019918e1-fff5-40d7-b466-866de8e2e5e5'
+ms.assetid: 019918e1-fff5-40d7-b466-866de8e2e5e5
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Model Examples

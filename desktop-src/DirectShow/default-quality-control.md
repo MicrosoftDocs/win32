@@ -1,7 +1,12 @@
 ---
 Description: Default Quality Control
-ms.assetid: '91c4b8cf-3d24-4a11-b19c-b0297734e52b'
+ms.assetid: 91c4b8cf-3d24-4a11-b19c-b0297734e52b
 title: Default Quality Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Quality Control

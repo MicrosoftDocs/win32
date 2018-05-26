@@ -1,7 +1,12 @@
 ---
 title: VML Font Attribute
 description: VML Font Attribute
-ms.assetid: '5a48fc54-e2dd-4b68-863c-3a83f9386108'
+ms.assetid: 5a48fc54-e2dd-4b68-863c-3a83f9386108
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Font Attribute

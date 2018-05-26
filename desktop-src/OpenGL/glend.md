@@ -1,8 +1,9 @@
 ---
 title: glEnd function
 description: The glBegin and glend functions delimit the vertices of a primitive or a group of like primitives.
-ms.assetid: '040f8573-683c-4a8a-ae51-66abb0541ac4'
-keywords: ["glEnd function OpenGL"]
+ms.assetid: 040f8573-683c-4a8a-ae51-66abb0541ac4
+keywords:
+- glEnd function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glEnd function
@@ -89,7 +95,7 @@ The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices that 
 
     
 
-     
+     
 
 -   Modes that require a certain multiple of vertices are GL\_LINES (2), GL\_TRIANGLES (3), GL\_QUADS (4), and GL\_QUAD\_STRIP (2).
 
@@ -99,8 +105,8 @@ The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices that 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -144,9 +150,9 @@ The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices that 
 [**glVertex**](glvertex-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Number of buffers to provide.'
-ms.assetid: '73f87b14-4346-4909-bd1e-c4981cde403d'
-title: 'CBaseAllocator::m\_lCount member'
+Description: Number of buffers to provide.
+ms.assetid: 73f87b14-4346-4909-bd1e-c4981cde403d
+title: CBaseAllocatorm\_lCount member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator::m\_lCount member
@@ -35,9 +40,9 @@ long m_lCount;
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

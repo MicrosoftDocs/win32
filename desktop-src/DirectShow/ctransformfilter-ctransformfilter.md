@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'a64c3e29-91f2-455f-aac1-1e4ecce6958d'
-title: 'CTransformFilter.CTransformFilter constructor'
+Description: Constructor method.
+ms.assetid: a64c3e29-91f2-455f-aac1-1e4ecce6958d
+title: CTransformFilter.CTransformFilter constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.CTransformFilter constructor
@@ -13,9 +18,9 @@ Constructor method.
 
 ```C++
 CTransformFilter(
-   TCHAR     *pObjectName,
-   LPUNKNOWN lpUnk,
-   CLSID     clsid
+   TCHAR     *pObjectName,
+   LPUNKNOWN lpUnk,
+   CLSID     clsid
 );
 ```
 
@@ -68,9 +73,9 @@ The constructor does not create the filter's pins. That happens during the first
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

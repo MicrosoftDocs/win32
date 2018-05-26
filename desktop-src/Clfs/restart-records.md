@@ -1,7 +1,12 @@
 ---
-Description: 'Restart records mark a last-known good state of application data.'
-ms.assetid: 'f6c97136-fd43-4387-810d-0205d04c6133'
+Description: Restart records mark a last-known good state of application data.
+ms.assetid: f6c97136-fd43-4387-810d-0205d04c6133
 title: Restart Records
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restart Records

@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the effect constants:'
-ms.assetid: '434bcff8-47ea-480d-bc0b-44d3ed1f8cce'
-title: 'Effect Constants (Direct3D 10)'
+Description: This section contains information about the effect constants
+ms.assetid: 434bcff8-47ea-480d-bc0b-44d3ed1f8cce
+title: Effect Constants (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Constants (Direct3D 10)

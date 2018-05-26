@@ -1,12 +1,17 @@
 ---
-Description: 'Some applications translate (or shift) objects drawn in the client area.'
-ms.assetid: 'e319a5c6-a045-42b1-a83e-3a978172b52c'
+Description: Some applications translate (or shift) objects drawn in the client area.
+ms.assetid: e319a5c6-a045-42b1-a83e-3a978172b52c
 title: Translation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translation
 
-Some applications translate (or shift) objects drawn in the client area. by calling the [**SetWorldTransform**](setworldtransform.md) function to set the appropriate world-space to page-space transformation. The SetWorldTransform function receives a pointer to an [**XFORM**](xform.md) structure containing the appropriate values. The eDx and eDy members of XFORM specify the horizontal and vertical translation components, respectively.
+Some applications translate (or shift) objects drawn in the client area. by calling the [**SetWorldTransform**](/windows/win32/Wingdi/nf-wingdi-setworldtransform?branch=master) function to set the appropriate world-space to page-space transformation. The SetWorldTransform function receives a pointer to an [**XFORM**](/windows/win32/Wingdi/ns-wingdi-tagxform?branch=master) structure containing the appropriate values. The eDx and eDy members of XFORM specify the horizontal and vertical translation components, respectively.
 
 When *translation* occurs, each point in an object is shifted vertically, horizontally, or both, by a specified amount. The following illustration shows a 20- by 20-unit rectangle that was translated to the right by 10 units when copied from world-coordinate space to page-coordinate space.
 

@@ -1,8 +1,14 @@
 ---
 title: Smart Card API Reference
 description: This topic is not current. For the most current information about the Smart Card API, see Smart Card Minidriver Specification.
-ms.assetid: '11baff76-46e9-4488-a68d-60f2a3766b0d'
-keywords: ["Smart Card API Smart Card , reference"]
+ms.assetid: 11baff76-46e9-4488-a68d-60f2a3766b0d
+keywords:
+- Smart Card API Smart Card , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card API Reference

@@ -1,7 +1,12 @@
 ---
-Description: 'Shortcut menu handlers are also known as context menu handlers or verb handlers. A shortcut menu handler is a type of file type handler.'
-ms.assetid: '7FC65C6F-3798-404c-B359-2BC75D3F54E7'
+Description: Shortcut menu handlers are also known as context menu handlers or verb handlers. A shortcut menu handler is a type of file type handler.
+ms.assetid: 7FC65C6F-3798-404c-B359-2BC75D3F54E7
 title: Customizing a Shortcut Menu Using Dynamic Verbs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing a Shortcut Menu Using Dynamic Verbs
@@ -35,20 +40,20 @@ If you must extend the shortcut menu for a file type by registering a dynamic ve
 
 In addition to [**IUnknown**](com.iunknown), shortcut menu handlers export the following additional interfaces to handle the messaging needed to implement owner-drawn menu items:
 
--   [**IShellExtInit**](ishellextinit.md) (mandatory)
--   [**IContextMenu**](icontextmenu.md) (mandatory)
--   [**IContextMenu2**](icontextmenu2.md) (optional)
--   [**IContextMenu3**](icontextmenu3.md) (optional)
+-   [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master) (mandatory)
+-   [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master) (mandatory)
+-   [**IContextMenu2**](/windows/win32/shobjidl_core/nn-shobjidl_core-icontextmenu2?branch=master) (optional)
+-   [**IContextMenu3**](/windows/win32/shobjidl_core/nn-shobjidl_core-icontextmenu3?branch=master) (optional)
 
 For more information on owner-drawn menu items, see the *Creating Owner-Drawn Menu Items* section in [Using Menus](menurc.using_menus).
 
-Shell uses the [**IShellExtInit**](ishellextinit.md) interface to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](ishellextinit-initialize.md), it passes in a data object with the object's name and a pointer to an item identifier list (PIDL) of the folder that contains the file. The *hkeyProgID* parameter is the registry location under which the shortcut menu handle is registered. The **IShellExtInit::Initialize** method must extract the file name from the data object and store the name and the folder's pointer to an item identifier list (PIDL) for later use. For more information on handler initialization, see [Implementing IShellExtInit](handlers.md).
+Shell uses the [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master) interface to initialize the handler. When the Shell calls [**IShellExtInit::Initialize**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize?branch=master), it passes in a data object with the object's name and a pointer to an item identifier list (PIDL) of the folder that contains the file. The *hkeyProgID* parameter is the registry location under which the shortcut menu handle is registered. The **IShellExtInit::Initialize** method must extract the file name from the data object and store the name and the folder's pointer to an item identifier list (PIDL) for later use. For more information on handler initialization, see [Implementing IShellExtInit](handlers.md).
 
 When verbs are presented in a shortcut menu, they are first discovered, then presented to the user, and finally invoked. The following list describes these three steps in more detail:
 
-1.  The Shell calls [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md), which returns a set of verbs that can be based on the state of the items or the system.
+1.  The Shell calls [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master), which returns a set of verbs that can be based on the state of the items or the system.
 2.  The system passes in an **HMENU** handle that the method can use to add items to the shortcut menu.
-3.  If the user clicks one of the handler's items, the Shell calls [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md). The handler can then execute the appropriate command.
+3.  If the user clicks one of the handler's items, the Shell calls [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master). The handler can then execute the appropriate command.
 
 ## Avoiding Collisions Due to Unqualified Verb Names
 
@@ -82,7 +87,7 @@ HKEY_CLASSES_ROOT
 
 For more information about about which folder types you can register handlers for, see [Registering Shell Extension Handlers](handlers.md).
 
-If a file type has a shortcut menu associated with it, then double-clicking an object normally launches the default command, and the handler's [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) method is not called. To specify that the handler's **IContextMenu::QueryContextMenu** method should be called when an object is double-clicked, create a subkey under the handler's **CLSID** subkey as shown here.
+If a file type has a shortcut menu associated with it, then double-clicking an object normally launches the default command, and the handler's [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) method is not called. To specify that the handler's **IContextMenu::QueryContextMenu** method should be called when an object is double-clicked, create a subkey under the handler's **CLSID** subkey as shown here.
 
 ```
 HKEY_CLASSES_ROOT
@@ -92,7 +97,7 @@ HKEY_CLASSES_ROOT
             MayChangeDefaultMenu
 ```
 
-When an object associated with the handler is double-clicked, [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) is called with the **CMF\_DEFAULTONLY** flag set in the *uFlags* parameter.
+When an object associated with the handler is double-clicked, [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) is called with the **CMF\_DEFAULTONLY** flag set in the *uFlags* parameter.
 
 Shortcut menu handlers should set the **MayChangeDefaultMenu** subkey only if they might need to change the shortcut menu's default verb. Setting this subkey forces the system to load the handler's DLL when an associated item is double-clicked. If your handler does not change the default verb, you should not set this subkey because doing so causes the system to load your DLL unnecessarily.
 
@@ -118,15 +123,15 @@ HKEY_CLASSES_ROOT
 
 ## Implementing the IContextMenu Interface
 
-[**IContextMenu**](icontextmenu.md) is the most powerful but also the most complicated method to implement. We strongly recommend that you implement a verb by using one of the static verb methods. For more information, see [Choosing a Static or Dynamic Verb for your Shortcut Menu](shortcut-choose-method.md). [**IContextMenu**](icontextmenu.md) has three methods, **GetCommandString**, **InvokeCommand**, and **QueryContextMenu**, which are discussed here in detail.
+[**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master) is the most powerful but also the most complicated method to implement. We strongly recommend that you implement a verb by using one of the static verb methods. For more information, see [Choosing a Static or Dynamic Verb for your Shortcut Menu](shortcut-choose-method.md). [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master) has three methods, **GetCommandString**, **InvokeCommand**, and **QueryContextMenu**, which are discussed here in detail.
 
 ### IContextMenu::GetCommandString Method
 
-The handler's [**IContextMenu::GetCommandString**](icontextmenu-getcommandstring.md) method is used to return the canonical name for a verb. This method is optional. In Windows XP and earlier versions of Windows, when Windows Explorer has a Status bar, this method is used to retrieve the help text that is displayed in the Status bar for a menu item.
+The handler's [**IContextMenu::GetCommandString**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring?branch=master) method is used to return the canonical name for a verb. This method is optional. In Windows XP and earlier versions of Windows, when Windows Explorer has a Status bar, this method is used to retrieve the help text that is displayed in the Status bar for a menu item.
 
-The *idCmd* parameter holds the identifier offset of the command that was defined when [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) was called. If a help string is requested, *uFlags* will be set to **GCS\_HELPTEXTW**. Copy the help string to the *pszName* buffer, casting it to a **PWSTR**. The verb string is requested by setting *uFlags* to **GCS\_VERBW**. Copy the appropriate string to *pszName*, just as with the help string. The **GCS\_VALIDATEA** and **GCS\_VALIDATEW** flags are not used by shortcut menu handlers.
+The *idCmd* parameter holds the identifier offset of the command that was defined when [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) was called. If a help string is requested, *uFlags* will be set to **GCS\_HELPTEXTW**. Copy the help string to the *pszName* buffer, casting it to a **PWSTR**. The verb string is requested by setting *uFlags* to **GCS\_VERBW**. Copy the appropriate string to *pszName*, just as with the help string. The **GCS\_VALIDATEA** and **GCS\_VALIDATEW** flags are not used by shortcut menu handlers.
 
-The following example shows a simple implementation of [**IContextMenu::GetCommandString**](icontextmenu-getcommandstring.md) that corresponds to the [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) example given in the [IContextMenu::QueryContextMenu Method](#icontextmenuquerycontextmenu-method) section of this topic. Because the handler adds only one menu item, there is only one set of strings that can be returned. The method tests whether *idCmd* is valid and, if it is, returns the requested string.
+The following example shows a simple implementation of [**IContextMenu::GetCommandString**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring?branch=master) that corresponds to the [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) example given in the [IContextMenu::QueryContextMenu Method](#icontextmenuquerycontextmenu-method) section of this topic. Because the handler adds only one menu item, there is only one set of strings that can be returned. The method tests whether *idCmd* is valid and, if it is, returns the requested string.
 
 The [**StringCchCopy**](menurc.stringcchcopy) function is used to copy the requested string to *pszName* to ensure that the copied string does not exceed the size of the buffer specified by *cchName*. This example only implements support for the Unicode values of *uFlags*, because only those have been used in Windows Explorer since Windows 2000.
 
@@ -172,9 +177,9 @@ IFACEMETHODIMP CMenuExtension::GetCommandString(UINT idCommand,
 
 This method is called when a user clicks a menu item to tell the handler to run the associated command. The *pici* parameter points to a structure that contains the information required.
 
-Although *pici* is declared in Shlobj.h as a [**CMINVOKECOMMANDINFO**](cminvokecommandinfo.md) structure, in practice it often points to a [**CMINVOKECOMMANDINFOEX**](cminvokecommandinfoex.md) structure. This structure is an extended version of **CMINVOKECOMMANDINFO** and has several additional members that make it possible to pass Unicode strings.
+Although *pici* is declared in Shlobj.h as a [**CMINVOKECOMMANDINFO**](/windows/win32/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo?branch=master) structure, in practice it often points to a [**CMINVOKECOMMANDINFOEX**](/windows/win32/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex?branch=master) structure. This structure is an extended version of **CMINVOKECOMMANDINFO** and has several additional members that make it possible to pass Unicode strings.
 
-Check the **cbSize** member of *pici* to determine which structure was passed in. If it is a [**CMINVOKECOMMANDINFOEX**](cminvokecommandinfoex.md) structure and the **fMask** member has the **CMIC\_MASK\_UNICODE** flag set, cast *pici* to **CMINVOKECOMMANDINFOEX**. This enables your application to use the Unicode information contained in the last five members of the structure.
+Check the **cbSize** member of *pici* to determine which structure was passed in. If it is a [**CMINVOKECOMMANDINFOEX**](/windows/win32/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfoex?branch=master) structure and the **fMask** member has the **CMIC\_MASK\_UNICODE** flag set, cast *pici* to **CMINVOKECOMMANDINFOEX**. This enables your application to use the Unicode information contained in the last five members of the structure.
 
 The structure's **lpVerb** or **lpVerbW** member is used to identify the command to be executed. Commands are identified in one of the following two ways:
 
@@ -183,7 +188,7 @@ The structure's **lpVerb** or **lpVerbW** member is used to identify the command
 
 To distinguish between these two cases, check the high-order word of **lpVerb** for the ANSI case or **lpVerbW** for the Unicode case. If the high-order word is nonzero, **lpVerb** or **lpVerbW** holds a verb string. If the high-order word is zero, the command offset is in the low-order word of **lpVerb**.
 
-The following example shows a simple implementation of [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md) that corresponds to the [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) and [**IContextMenu::GetCommandString**](icontextmenu-getcommandstring.md) examples given before and after this section. The method first determines which structure is being passed in. It then determines whether the command is identified by its offset or its verb. If **lpVerb** or **lpVerbW** holds a valid verb or offset, the method displays a message box.
+The following example shows a simple implementation of [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master) that corresponds to the [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) and [**IContextMenu::GetCommandString**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring?branch=master) examples given before and after this section. The method first determines which structure is being passed in. It then determines whether the command is identified by its offset or its verb. If **lpVerb** or **lpVerbW** holds a valid verb or offset, the method displays a message box.
 
 
 ```C++
@@ -238,13 +243,13 @@ STDMETHODIMP CShellExtension::InvokeCommand(LPCMINVOKECOMMANDINFO lpcmi)
 
 ### IContextMenu::QueryContextMenu Method
 
-The Shell calls [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) to enable the shortcut menu handler to add its menu items to the menu. It passes in the **HMENU** handle in the *hmenu* parameter. The *indexMenu* parameter is set to the index to be used for the first menu item that is to be added.
+The Shell calls [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) to enable the shortcut menu handler to add its menu items to the menu. It passes in the **HMENU** handle in the *hmenu* parameter. The *indexMenu* parameter is set to the index to be used for the first menu item that is to be added.
 
 Any menu items that are added by the handler must have identifiers that fall between the values in the *idCmdFirst* and *idCmdLast* parameters. Typically, the first command identifier is set to *idCmdFirst*, which is incremented by one (1) for each additional command. This practice helps you avoid exceeding *idCmdLast* and maximizes the number of available identifiers in case the Shell calls more than one handler.
 
-An item identifier's *command offset* is the difference between the identifier and the value in *idCmdFirst*. Store the offset of each item that your handler adds to the shortcut menu because the Shell might use it to identify the item if it subsequently calls [**IContextMenu::GetCommandString**](icontextmenu-getcommandstring.md) or [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md).
+An item identifier's *command offset* is the difference between the identifier and the value in *idCmdFirst*. Store the offset of each item that your handler adds to the shortcut menu because the Shell might use it to identify the item if it subsequently calls [**IContextMenu::GetCommandString**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring?branch=master) or [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master).
 
-You should also assign a [verb](launch.md) to each command you add. A verb is a string that can be used instead of the offset to identify the command when [**IContextMenu::InvokeCommand**](icontextmenu-invokecommand.md) is called. It is also used by functions such as [**ShellExecuteEx**](shellexecuteex.md) to execute shortcut menu commands.
+You should also assign a [verb](launch.md) to each command you add. A verb is a string that can be used instead of the offset to identify the command when [**IContextMenu::InvokeCommand**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master) is called. It is also used by functions such as [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) to execute shortcut menu commands.
 
 There are three flags that can be passed in through the *uFlags* parameter that are relevant to shortcut menu handlers. They are described in the following table.
 
@@ -252,7 +257,7 @@ There are three flags that can be passed in through the *uFlags* parameter that 
 
 | Flag             | Description                                                                                                                                                                                                              |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CMF\_DEFAULTONLY | The user has selected the default command, usually by double-clicking the object. [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) should return control to the Shell without modifying the menu. |
+| CMF\_DEFAULTONLY | The user has selected the default command, usually by double-clicking the object. [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) should return control to the Shell without modifying the menu. |
 | CMF\_NODEFAULT   | No item in the menu should be the default item. The method should add its commands to the menu.                                                                                                                          |
 | CMF\_NORMAL      | The shortcut menu will be displayed normally. The method should add its commands to the menu.                                                                                                                            |
 
@@ -262,7 +267,7 @@ There are three flags that can be passed in through the *uFlags* parameter that 
 
 Use either [**InsertMenu**](menurc.insertmenu) or [**InsertMenuItem**](menurc.insertmenuitem) to add menu items to the list. Then return an **HRESULT** value with the severity set to **SEVERITY\_SUCCESS**. Set the code value to the offset of the largest command identifier that was assigned, plus one (1). For example, assume that *idCmdFirst* is set to 5 and you add three items to the menu with command identifiers of 5, 7, and 8. The return value should be `MAKE_HRESULT(SEVERITY_SUCCESS, 0, 8 + 1)`.
 
-The following example shows a simple implementation of [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md) that inserts a single command. The identifier offset for the command is IDM\_DISPLAY, which is set to zero. The **m\_pszVerb** and **m\_pwszVerb** variables are private variables used to store the associated language-independent verb string in both ANSI and Unicode formats.
+The following example shows a simple implementation of [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master) that inserts a single command. The identifier offset for the command is IDM\_DISPLAY, which is set to zero. The **m\_pszVerb** and **m\_pwszVerb** variables are private variables used to store the associated language-independent verb string in both ANSI and Unicode formats.
 
 
 ```C++

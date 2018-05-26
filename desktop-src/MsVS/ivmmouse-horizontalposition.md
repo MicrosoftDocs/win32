@@ -1,8 +1,13 @@
 ---
 title: IVMMouse HorizontalPosition property
 description: The HorizontalPosition property contains the absolute x-coordinate of the mouse.
-ms.assetid: '4b795bf5-3afa-4dc9-86c1-34ab55b8bbba'
-keywords: ["HorizontalPosition property Virtual Server", "HorizontalPosition property Virtual Server , IVMMouse interface", "IVMMouse interface Virtual Server , HorizontalPosition property", "HorizontalPosition property Virtual Server , VMMouse interface", "VMMouse interface Virtual Server , HorizontalPosition property"]
+ms.assetid: 4b795bf5-3afa-4dc9-86c1-34ab55b8bbba
+keywords:
+- HorizontalPosition property Virtual Server
+- HorizontalPosition property Virtual Server , IVMMouse interface
+- IVMMouse interface Virtual Server , HorizontalPosition property
+- HorizontalPosition property Virtual Server , VMMouse interface
+- VMMouse interface Virtual Server , HorizontalPosition property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMMouse::HorizontalPosition property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HorizontalPosition(
-  [in]  long position
+  [in]  long position
 );
 
 HRESULT get_HorizontalPosition(
-  [out] long *position
+  [out] long *position
 );
 ```
 
@@ -89,8 +99,8 @@ This property cannot be retrieved when using relative coordinates.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -102,9 +112,9 @@ This property cannot be retrieved when using relative coordinates.
 [**IVMMouse**](ivmmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

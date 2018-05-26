@@ -4,13 +4,15 @@ description: Associates a virtual machine and its devices with settings data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cd4f9457-e3a0-41d5-ab02-b497539d499f'
-ms.prod: 'windows-server-dev'
+ms.assetid: cd4f9457-e3a0-41d5-ab02-b497539d499f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_SettingsDefineState class", "Msvm_SettingsDefineState class, described"]
+keywords:
+- Msvm_SettingsDefineState class
+- Msvm_SettingsDefineState class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_SettingsDefineState class
@@ -36,7 +41,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class Msvm_SettingsDefineState : CIM_SettingsDefineState
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_SettingData    REF SettingData;
+  CIM_SettingData    REF SettingData;
 };
 ```
 
@@ -95,7 +100,7 @@ This property is inherited from [**CIM\_SettingsDefineState**](cim-settingsdefin
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -112,9 +117,9 @@ This property is inherited from [**CIM\_SettingsDefineState**](cim-settingsdefin
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the event is an online event.'
-ms.assetid: '1dc4d04f-7e7c-42a1-bd71-4549f83a806e'
-title: 'System.Calendar.IsOnline'
+Description: Indicates whether the event is an online event.
+ms.assetid: 1dc4d04f-7e7c-42a1-bd71-4549f83a806e
+title: System.Calendar.IsOnline
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.IsOnline

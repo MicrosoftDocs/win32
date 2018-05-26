@@ -1,14 +1,20 @@
 ---
 title: PlayButtonText element
-description: Specifies the text used for this menu style's \ 0034;Play \ 0034; button.
-ms.assetid: 'b11496c7-5b03-412b-b17f-3256e6ec755f'
-keywords: ["PlayButtonText element Windows Movie Maker and DVD Maker"]
+description: Specifies the text used for this menu styles \ 0034;Play \ 0034; button.
+ms.assetid: b11496c7-5b03-412b-b17f-3256e6ec755f
+keywords:
+- PlayButtonText element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - PlayButtonText
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayButtonText element
@@ -49,7 +55,7 @@ The "Play" button appears only on the main menu.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -67,9 +73,9 @@ The "Play" button appears only on the main menu.
 [**Submenu2ButtonText Element**](submenu2buttontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

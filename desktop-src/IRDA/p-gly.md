@@ -2,7 +2,12 @@
 title: P
 description: IrDA glossary terms beginning with P.
 Robots: noindex, nofollow
-ms.assetid: '364d96c2-a2f3-4300-9a1f-38d4e44f1f69'
+ms.assetid: 364d96c2-a2f3-4300-9a1f-38d4e44f1f69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # P

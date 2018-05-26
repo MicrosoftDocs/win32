@@ -1,8 +1,22 @@
 ---
 title: CLOSEBUTTON
 description: CLOSEBUTTON
-ms.assetid: '39e2de27-c5aa-4a8f-8545-8b7e5cab730f'
-keywords: ["Windows Media Player skins,BUTTON element", "skins,BUTTON element", "reference for skins,BUTTON element", "BUTTON element", "elements,BUTTON", "Windows Media Player skins,Close buttons", "skins,Close buttons", "Close buttons", "reference for skins,Close buttons"]
+ms.assetid: 39e2de27-c5aa-4a8f-8545-8b7e5cab730f
+keywords:
+- Windows Media Player skins,BUTTON element
+- skins,BUTTON element
+- reference for skins,BUTTON element
+- BUTTON element
+- elements,BUTTON
+- Windows Media Player skins,Close buttons
+- skins,Close buttons
+- Close buttons
+- reference for skins,Close buttons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CLOSEBUTTON

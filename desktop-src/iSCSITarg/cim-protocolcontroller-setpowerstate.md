@@ -4,13 +4,16 @@ description: Sets the power state of the Device. The use of this method has been
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7bda866e-2870-431f-9d72-c67c6bc9e2c1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7bda866e-2870-431f-9d72-c67c6bc9e2c1
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method iSCSI Software Target API", "SetPowerState method iSCSI Software Target API , CIM_ProtocolController class", "CIM_ProtocolController class iSCSI Software Target API , SetPowerState method"]
+keywords:
+- SetPowerState method iSCSI Software Target API
+- SetPowerState method iSCSI Software Target API , CIM_ProtocolController class
+- CIM_ProtocolController class iSCSI Software Target API , SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the CIM\_ProtocolController class
@@ -30,8 +36,8 @@ Sets the power state of the Device. The use of this method has been deprecated. 
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -104,7 +110,7 @@ Time indicates when the power state should be set, either as a regular date-time
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -118,9 +124,9 @@ Time indicates when the power state should be set, either as a regular date-time
 [**CIM\_ProtocolController**](cim-protocolcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

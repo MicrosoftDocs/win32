@@ -1,8 +1,14 @@
 ---
 title: DBPROBABILISTIC
 description: DBPROBABILISTIC
-ms.assetid: '5bb8f10a-83a6-4b03-b50b-cdfe41a8546a'
-keywords: ["DBPROBABILISTIC"]
+ms.assetid: 5bb8f10a-83a6-4b03-b50b-cdfe41a8546a
+keywords:
+- DBPROBABILISTIC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROBABILISTIC

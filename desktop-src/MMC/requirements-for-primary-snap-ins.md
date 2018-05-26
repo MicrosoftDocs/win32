@@ -4,11 +4,19 @@ description: Primary snap-ins have the following requirements
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09412bc3-0e39-49c5-8943-c2948f01a139'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 09412bc3-0e39-49c5-8943-c2948f01a139
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["requirements for primary snap-ins MMC", "requirements MMC", "requirements MMC , primary snap-ins", "primary snap-in's", "primary snap-in's, requirements"]
+keywords:
+- requirements for primary snap-ins MMC
+- requirements MMC
+- requirements MMC , primary snap-ins
+- primary snap-ins
+- primary snap-ins, requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Requirements for Primary Snap-ins

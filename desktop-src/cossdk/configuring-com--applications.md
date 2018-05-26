@@ -1,7 +1,12 @@
 ---
-Description: 'A COM+ application is essentially a declarative construct that enables you to configure any number of components in common. For example, you can configure the components in an application with a common security policy.'
-ms.assetid: '50039b30-1c91-4e93-9f23-873accb651cf'
+Description: A COM+ application is essentially a declarative construct that enables you to configure any number of components in common. For example, you can configure the components in an application with a common security policy.
+ms.assetid: 50039b30-1c91-4e93-9f23-873accb651cf
 title: Configuring COM+ Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring COM+ Applications
@@ -48,7 +53,7 @@ How you install components into an application can affect how you can configure 
 
 
 
- 
+ 
 
 ## Component-Level (Class-Level) Settings
 
@@ -68,11 +73,11 @@ How you install components into an application can affect how you can configure 
 <tbody>
 <tr class="odd">
 <td>[Transactions](configuring-transactions.md)<br/></td>
-<td>Sets automatic transaction requirements—Disabled, Not Supported, Supported, Required, or Requires New.<br/></td>
+<td>Sets automatic transaction requirements Disabled, Not Supported, Supported, Required, or Requires New.<br/></td>
 </tr>
 <tr class="even">
 <td>[Synchronization](setting-the-synchronization-attribute.md)<br/></td>
-<td>Sets synchronization requirements—Disabled, Not Supported, Supported, Required, or Requires New.<br/></td>
+<td>Sets synchronization requirements Disabled, Not Supported, Supported, Required, or Requires New.<br/></td>
 </tr>
 <tr class="odd">
 <td>[JIT Activation](enabling-jit-activation-for-a-component.md)<br/></td>
@@ -120,7 +125,7 @@ The constructor string should not be used to store security-sensitive informatio
 
 
 
- 
+ 
 
 ## Interface-Level Setting
 
@@ -133,7 +138,7 @@ The constructor string should not be used to store security-sensitive informatio
 
 
 
- 
+ 
 
 ## Method-Level Setting
 
@@ -146,7 +151,7 @@ The constructor string should not be used to store security-sensitive informatio
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -161,9 +166,9 @@ The constructor string should not be used to store security-sensitive informatio
 [Deploying COM+ Applications](deploying-com--applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

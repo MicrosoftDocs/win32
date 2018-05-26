@@ -1,7 +1,12 @@
 ---
 Description: PNRP NSP Error Codes
-ms.assetid: 'adf40b1a-c5d6-418d-a012-cf6ba7d4fa24'
+ms.assetid: adf40b1a-c5d6-418d-a012-cf6ba7d4fa24
 title: PNRP NSP Error Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PNRP NSP Error Codes
@@ -34,11 +39,11 @@ If the Namespace Provider (NSP) function returns a **SOCKET\_ERROR**, [WSAGetLas
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

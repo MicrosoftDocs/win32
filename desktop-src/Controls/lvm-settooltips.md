@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETTOOLTIPS message
 description: Sets the tooltip control that the list-view control will use to display tooltips. You can send this message explicitly or use the ListView\_SetToolTips macro.
-ms.assetid: '5b4335a4-e9f0-4b13-b00b-516af3b60bf1'
-keywords: ["LVM_SETTOOLTIPS message Windows Controls"]
+ms.assetid: 5b4335a4-e9f0-4b13-b00b-516af3b60bf1
+keywords:
+- LVM_SETTOOLTIPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETTOOLTIPS message
 
-Sets the tooltip control that the list-view control will use to display tooltips. You can send this message explicitly or use the [**ListView\_SetToolTips**](listview-settooltips.md) macro.
+Sets the tooltip control that the list-view control will use to display tooltips. You can send this message explicitly or use the [**ListView\_SetToolTips**](/windows/win32/Commctrl/nf-commctrl-listview_settooltips?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ Returns the handle to the previous tooltip control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns the handle to the previous tooltip control.
 [**LVM\_GETTOOLTIPS**](lvm-gettooltips.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

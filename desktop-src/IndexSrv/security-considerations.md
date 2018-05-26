@@ -1,7 +1,12 @@
 ---
 title: Security Considerations
 description: Security Considerations
-ms.assetid: 'fd789539-02a8-4457-8552-81a665d87a38'
+ms.assetid: fd789539-02a8-4457-8552-81a665d87a38
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations

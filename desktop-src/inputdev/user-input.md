@@ -1,8 +1,15 @@
 ---
 title: Keyboard and Mouse Input
 description: The user input section describes how user input is captured and used.
-ms.assetid: '560863a7-1432-4d53-af2e-06ade5caed80'
-keywords: ["user input,about", "capturing user input,about"]
+ms.assetid: 560863a7-1432-4d53-af2e-06ade5caed80
+keywords:
+- user input,about
+- capturing user input,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyboard and Mouse Input
@@ -21,11 +28,11 @@ The following sections describe methods of capturing user input.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

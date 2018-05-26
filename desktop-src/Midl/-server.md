@@ -2,13 +2,19 @@
 title: /server switch
 description: The /server switch directs the MIDL compiler to generate server-side C source files for an RPC interface.
 ms.assetid: c5ca6a47-e8b0-4a13-ba73-2d35a9ac8240
-keywords: ["/server switch MIDL"]
+keywords:
+- /server switch MIDL
 topic_type:
 - apiref
 api_name:
 - /server
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /server switch

@@ -1,7 +1,12 @@
 ---
 title: Internet Connection Sharing and Internet Connection Firewall Functions
 description: The ICS/ICF API exposes the following functions.
-ms.assetid: '4846e1d9-636f-4347-8145-3cf165a3739e'
+ms.assetid: 4846e1d9-636f-4347-8145-3cf165a3739e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet Connection Sharing and Internet Connection Firewall Functions
@@ -14,8 +19,8 @@ The ICS/ICF API exposes the following functions.
 
 | Function                                                   | Purpose                                                           |
 |------------------------------------------------------------|-------------------------------------------------------------------|
-| [**NcFreeNetconProperties**](ncfreenetconproperties.md)   | Frees [**NETCON\_PROPERTIES**](netcon-properties.md) structures. |
-| [**NcIsValidConnectionName**](ncisvalidconnectionname.md) | Checks if connection name is valid.                               |
+| [**NcFreeNetconProperties**](/windows/previous-versions/NetCon/nf-netcon-ncfreenetconproperties?branch=master)   | Frees [**NETCON\_PROPERTIES**](/windows/previous-versions/NetCon/ns-netcon-tagnetcon_properties?branch=master) structures. |
+| [**NcIsValidConnectionName**](/windows/previous-versions/NetCon/nf-netcon-ncisvalidconnectionname?branch=master) | Checks if connection name is valid.                               |
 
 
 

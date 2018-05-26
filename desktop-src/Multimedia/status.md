@@ -1,21 +1,27 @@
 ---
 title: status command
 description: The status command requests status information from a device. All devices recognize this command.
-ms.assetid: '5c974707-b6ca-4177-a262-6838d308fb0a'
-keywords: ["status command Windows Multimedia"]
+ms.assetid: 5c974707-b6ca-4177-a262-6838d308fb0a
+keywords:
+- status command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - status
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # status command
 
 The status command requests status information from a device. All devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -287,7 +293,7 @@ Flag for requesting status information. The following table lists device types t
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszRequest** parameter and their meanings.
 
@@ -794,7 +800,7 @@ The following table lists the flags that can be specified in the **lpszRequest**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -807,7 +813,7 @@ Can be "wait", "notify", or both. For digital-video and VCR devices, "test" can 
 
 ## Return Value
 
-Returns information in the *lpszReturnString* parameter of [**mciSendString**](mcisendstring.md). The information is dependent on the request type.
+Returns information in the *lpszReturnString* parameter of [**mciSendString**](/windows/win32/Mmsystem/?branch=master). The information is dependent on the request type.
 
 ## Remarks
 
@@ -827,8 +833,8 @@ status mysound mode
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -890,9 +896,9 @@ status mysound mode
 [undo](undo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

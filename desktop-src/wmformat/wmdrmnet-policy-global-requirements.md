@@ -1,8 +1,10 @@
 ---
 title: WMDRMNET\_POLICY\_GLOBAL\_REQUIREMENTS structure
 description: The WMDRMNET\_POLICY\_GLOBAL\_REQUIREMENTS structure holds global requirements for Windows Media DRM for Network Devices.
-ms.assetid: '140b3a6f-ccba-4735-b48a-2e990f5ec570'
-keywords: ["WMDRMNET_POLICY_GLOBAL_REQUIREMENTS structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 140b3a6f-ccba-4735-b48a-2e990f5ec570
+keywords:
+- WMDRMNET_POLICY_GLOBAL_REQUIREMENTS structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRMNET\_POLICY\_GLOBAL\_REQUIREMENTS structure
@@ -63,9 +70,9 @@ None.
 [**WMDRMNET\_POLICY**](wmdrmnet-policy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

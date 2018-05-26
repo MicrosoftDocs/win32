@@ -1,7 +1,12 @@
 ---
-Description: 'Demonstrates how to request a key archival certificate.'
-ms.assetid: 'a09f55c1-fb27-41e7-9a2f-617d2360c02f'
+Description: Demonstrates how to request a key archival certificate.
+ms.assetid: a09f55c1-fb27-41e7-9a2f-617d2360c02f
 title: Requesting a Key Archival Certificate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requesting a Key Archival Certificate
@@ -12,17 +17,17 @@ The following steps describe how to create and submit a certificate request.
 
 **To create and submit a certificate request**
 
-1.  Retrieve the CA's exchange certificate using the [**ICertRequest2::GetCACertificate**](icertrequest2-getcacertificate.md) method.
-2.  Specify that the retrieved CA exchange certificate is the key archive certificate using the [**ICEnroll4::PrivateKeyArchiveCertificate**](icenroll4-privatekeyarchivecertificate.md) property.
-3.  Create a CMC certificate request using the [**ICEnroll4::createRequest**](icenroll4-createrequest.md) method.
-4.  Submit the certificate request to a CA using the [**ICertRequest2::Submit**](icertrequest2-submit.md) method. The CA must be configured to support key archival.
+1.  Retrieve the CA's exchange certificate using the [**ICertRequest2::GetCACertificate**](/windows/win32/Certcli/nf-certcli-icertrequest-getcacertificate?branch=master) method.
+2.  Specify that the retrieved CA exchange certificate is the key archive certificate using the [**ICEnroll4::PrivateKeyArchiveCertificate**](/windows/win32/Xenroll/nf-xenroll-icenroll4-get_privatekeyarchivecertificate?branch=master) property.
+3.  Create a CMC certificate request using the [**ICEnroll4::createRequest**](/windows/win32/Xenroll/nf-xenroll-icenroll4-createrequest?branch=master) method.
+4.  Submit the certificate request to a CA using the [**ICertRequest2::Submit**](/windows/win32/Certcli/nf-certcli-icertrequest-submit?branch=master) method. The CA must be configured to support key archival.
 
 The following steps describe how to retrieve the issued certificate for key archival purposes.
 
 **To retrieve the issued certificate for key archival purposes**
 
-1.  Retrieve the full response, including the issued certificate, using the [**ICertRequest2::GetFullResponseProperty**](icertrequest2-getfullresponseproperty.md) method.
-2.  Install the issued certificate using the [**ICEnroll4::acceptResponse**](icenroll4-acceptresponse.md) method.
+1.  Retrieve the full response, including the issued certificate, using the [**ICertRequest2::GetFullResponseProperty**](/windows/win32/Certcli/nf-certcli-icertrequest2-getfullresponseproperty?branch=master) method.
+2.  Install the issued certificate using the [**ICEnroll4::acceptResponse**](/windows/win32/Xenroll/nf-xenroll-icenroll4-acceptresponse?branch=master) method.
 
 The following example shows creating and submitting a certificate request and receiving the resulting key archival certificate.
 

@@ -4,13 +4,15 @@ description: Dhcp Server v6 Dns Setting.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '80acf81d-f76c-49b5-b34f-3cbbe3913723'
-ms.prod: 'windows-server-dev'
+ms.assetid: 80acf81d-f76c-49b5-b34f-3cbbe3913723
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv6DnsSetting class", "DhcpServerv6DnsSetting class, described"]
+keywords:
+- DhcpServerv6DnsSetting class
+- DhcpServerv6DnsSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv6DnsSetting class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv6DnsSetting
 {
-  String  DynamicUpdates;
+  String  DynamicUpdates;
   boolean DeleteDnsRROnLeaseExpiry;
   boolean NameProtection;
 };
@@ -123,16 +128,16 @@ Indicates if Name protection (DHCIDRR validating) is enabled for the scope.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

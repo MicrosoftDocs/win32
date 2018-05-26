@@ -1,7 +1,12 @@
 ---
 title: exp - ps
 description: Provides full precision exponential 2x.
-ms.assetid: '09e4446f-4149-4ec8-b3e3-2045b55bd591'
+ms.assetid: 09e4446f-4149-4ec8-b3e3-2045b55bd591
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # exp - ps

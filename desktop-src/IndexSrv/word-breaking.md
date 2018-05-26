@@ -1,7 +1,12 @@
 ---
 title: Word Breaking
 description: Word Breaking
-ms.assetid: 'ed2e0887-080c-414c-96a1-baa6a841a234'
+ms.assetid: ed2e0887-080c-414c-96a1-baa6a841a234
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Word Breaking

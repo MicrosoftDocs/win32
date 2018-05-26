@@ -1,7 +1,12 @@
 ---
-Description: 'MPEG-2 Support in DirectShow'
-ms.assetid: 'a4fe4cc9-86a5-4c83-94be-8901b97c8280'
-title: 'MPEG-2 Support in DirectShow'
+Description: MPEG-2 Support in DirectShow
+ms.assetid: a4fe4cc9-86a5-4c83-94be-8901b97c8280
+title: MPEG-2 Support in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-2 Support in DirectShow

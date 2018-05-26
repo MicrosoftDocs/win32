@@ -1,7 +1,12 @@
 ---
-Description: 'Applies to Windows Vista and later.'
-ms.assetid: '4f170736-516d-4420-a215-e0e414f036cd'
-title: 'AM\_RATE\_ReverseMaxFullDataRate Property'
+Description: Applies to Windows Vista and later.
+ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
+title: AM\_RATE\_ReverseMaxFullDataRate Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AM\_RATE\_ReverseMaxFullDataRate Property
@@ -24,7 +29,7 @@ This property is read-only.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,9 +52,9 @@ Decoders that support smooth reverse playback should expose this property. For m
 [**Rate Change Property Set**](rate-change-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

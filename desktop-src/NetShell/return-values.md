@@ -1,7 +1,12 @@
 ---
 title: Return Values
 description: A helper command issued from inside NetShell should return whether the operation succeeded or failed. For example, a helper should return NO\_ERROR for success and ERROR\_SUPPRESS\_OUTPUT for failure.
-ms.assetid: '698976d5-60a7-4dbb-a6d0-1cf42dd4f94a'
+ms.assetid: 698976d5-60a7-4dbb-a6d0-1cf42dd4f94a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Return Values

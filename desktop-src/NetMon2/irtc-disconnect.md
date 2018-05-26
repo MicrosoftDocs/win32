@@ -1,7 +1,12 @@
 ---
-Description: 'The Disconnect method disconnects the NPP from the network.'
-ms.assetid: '47a0cce0-a50d-4bad-9787-672cc3d13d07'
-title: 'IRTC::Disconnect method'
+Description: The Disconnect method disconnects the NPP from the network.
+ms.assetid: 47a0cce0-a50d-4bad-9787-672cc3d13d07
+title: IRTCDisconnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRTC::Disconnect method
@@ -37,7 +42,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,8 +54,8 @@ This method cannot be called when the NPP is capturing data. You must call the [
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -69,9 +74,9 @@ This method cannot be called when the NPP is capturing data. You must call the [
 [IRTC::Stop](irtc-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

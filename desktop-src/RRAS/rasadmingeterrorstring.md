@@ -1,8 +1,9 @@
 ---
 title: RasAdminGetErrorString function
 description: The RasAdminGetErrorString function retrieves a message string that corresponds to a RAS error code returned by one of the RAS server administration (RasAdmin) functions.
-ms.assetid: 'b51bc1f9-fed7-43b6-9a07-f19ea4c0cd01'
-keywords: ["RasAdminGetErrorString function RAS"]
+ms.assetid: b51bc1f9-fed7-43b6-9a07-f19ea4c0cd01
+keywords:
+- RasAdminGetErrorString function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminGetErrorString function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminGetErrorString**](mpradmingeterrorstring.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminGetErrorString**](/windows/win32/Mprapi/nf-mprapi-mpradmingeterrorstring?branch=master) function.\]
 
 The **RasAdminGetErrorString** function retrieves a message string that corresponds to a RAS error code returned by one of the RAS server administration (RasAdmin) functions. These message strings are retrieved from the Rasmsg.dll that is installed as part of RAS.
 
@@ -24,9 +30,9 @@ The **RasAdminGetErrorString** function retrieves a message string that correspo
 
 ```C++
 DWORD RasAdminGetErrorString(
-  _In_  UINT  ResourceId,
-  _Out_ WCHAR *lpszString,
-  _In_  DWORD InBufSize
+  _In_  UINT  ResourceId,
+  _Out_ WCHAR *lpszString,
+  _In_  DWORD InBufSize
 );
 ```
 
@@ -72,7 +78,7 @@ If the function fails, the return value is an error code. This value can be a la
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -86,8 +92,8 @@ The RasAdmin functions can return error codes that are not in the range supporte
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -113,9 +119,9 @@ The RasAdmin functions can return error codes that are not in the range supporte
 [**LoadString**](_win32_loadstring)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: VML Map Attribute
 description: VML Map Attribute
-ms.assetid: '0de38dd9-3bbd-49de-8cac-29f739ea50ed'
+ms.assetid: 0de38dd9-3bbd-49de-8cac-29f739ea50ed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Map Attribute

@@ -1,8 +1,9 @@
 ---
 title: SB\_ISSIMPLE message
 description: Checks a status bar control to determine if it is in simple mode.
-ms.assetid: 'f4362bc3-1852-4569-af9b-96d2da4f0606'
-keywords: ["SB_ISSIMPLE message Windows Controls"]
+ms.assetid: f4362bc3-1852-4569-af9b-96d2da4f0606
+keywords:
+- SB_ISSIMPLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_ISSIMPLE message
@@ -37,15 +43,15 @@ Returns nonzero if the status bar control is in simple mode, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

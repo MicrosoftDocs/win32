@@ -1,8 +1,9 @@
 ---
 title: LB\_SETITEMDATA message
 description: Sets a value associated with the specified item in a list box.
-ms.assetid: 'df974fa2-114a-43ef-b0ac-0451c31d95cd'
-keywords: ["LB_SETITEMDATA message Windows Controls"]
+ms.assetid: df974fa2-114a-43ef-b0ac-0451c31d95cd
+keywords:
+- LB_SETITEMDATA message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SETITEMDATA message
@@ -26,7 +32,7 @@ Sets a value associated with the specified item in a list box.
 
 Specifies the zero-based index of the item. If this value is -1, the *lParam* value applies to all items in the list box.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me): The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -51,8 +57,8 @@ If the item is in an owner-drawn list box created without the [**LBS\_HASSTRINGS
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ If the item is in an owner-drawn list box created without the [**LBS\_HASSTRINGS
 [**LB\_INSERTSTRING**](lb-insertstring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

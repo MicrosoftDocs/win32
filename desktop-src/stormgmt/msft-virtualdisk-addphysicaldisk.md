@@ -1,8 +1,11 @@
 ---
 title: AddPhysicalDisk method of the MSFT\_VirtualDisk class
 description: Adds one or more physical disks for manual allocation.
-ms.assetid: 'EB92254A-1A7C-45F6-BD4B-5E4F97F09984'
-keywords: ["AddPhysicalDisk method Windows Storage Management API", "AddPhysicalDisk method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , AddPhysicalDisk method"]
+ms.assetid: EB92254A-1A7C-45F6-BD4B-5E4F97F09984
+keywords:
+- AddPhysicalDisk method Windows Storage Management API
+- AddPhysicalDisk method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , AddPhysicalDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddPhysicalDisk method of the MSFT\_VirtualDisk class
@@ -22,11 +30,11 @@ Adds one or more physical disks for manual allocation.
 
 ```mof
 UInt32 AddPhysicalDisk(
-  [in]  String              PhysicalDisks[],
-  [in]  UInt16              Usage,
-  [in]  Boolean             RunAsJob,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  String              PhysicalDisks[],
+  [in]  UInt16              Usage,
+  [in]  Boolean             RunAsJob,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -72,7 +80,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -155,8 +163,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -169,9 +177,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

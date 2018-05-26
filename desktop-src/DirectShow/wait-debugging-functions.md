@@ -1,7 +1,12 @@
 ---
 Description: Wait Debugging Functions
-ms.assetid: '784ef76e-3c17-45e0-9a0b-656c11c71322'
+ms.assetid: 784ef76e-3c17-45e0-9a0b-656c11c71322
 title: Wait Debugging Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wait Debugging Functions

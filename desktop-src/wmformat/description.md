@@ -1,14 +1,20 @@
 ---
 title: Description
 description: The Description attribute contains a description of the content of the file.
-ms.assetid: 'b9a1dcb1-9e8a-49a0-8dd5-388c929645c3'
-keywords: ["Description windows Media Format"]
+ms.assetid: b9a1dcb1-9e8a-49a0-8dd5-388c929645c3
+keywords:
+- Description windows Media Format
 topic_type:
 - apiref
 api_name:
 - Description
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Description

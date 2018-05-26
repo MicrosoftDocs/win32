@@ -1,8 +1,14 @@
 ---
 title: OpenGL Reference
 description: OpenGL Reference
-ms.assetid: 'b60bf06b-aa94-48e5-bffd-c9dea2950027'
-keywords: ["OpenGL,reference"]
+ms.assetid: b60bf06b-aa94-48e5-bffd-c9dea2950027
+keywords:
+- OpenGL,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL Reference

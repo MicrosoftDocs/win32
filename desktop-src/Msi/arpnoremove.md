@@ -1,12 +1,17 @@
 ---
-Description: 'Setting the ARPNOREMOVE property disables the Add or Remove Programs functionality in Control Panel that removes the product.'
-ms.assetid: 'f86c1af8-c984-4075-9c6b-0a71000b01a1'
+Description: Setting the ARPNOREMOVE property disables the Add or Remove Programs functionality in Control Panel that removes the product.
+ms.assetid: f86c1af8-c984-4075-9c6b-0a71000b01a1
 title: ARPNOREMOVE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARPNOREMOVE property
 
-Setting the **ARPNOREMOVE** property disables the **Add or Remove Programs** functionality in **Control Panel** that removes the product. For Windows 2000, this disables the **Remove** button for the product from the **Add or Remove Programs** in **Control Panel**. For earlier operating systems, this has the effect of removing the product from the list of installed products on the **Add or Remove Programs** in **Control Panel**.
+Setting the **ARPNOREMOVE** property disables the **Add or Remove Programs** functionality in **Control Panel** that removes the product. For Windows 2000, this disables the **Remove** button for the product from the **Add or Remove Programs** in **Control Panel**. For earlier operating systems, this has the effect of removing the product from the list of installed products on the **Add or Remove Programs** in **Control Panel**.
 
 If the **ARPNOREMOVE** property is set, the [RegisterProduct action](registerproduct-action.md) writes the value "NoRemove" under the registry key:
 
@@ -24,7 +29,7 @@ For example, this property can be set during a customization transform to preven
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 or later on Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 or later on Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -35,9 +40,9 @@ For example, this property can be set during a customization transform to preven
 [Properties](properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

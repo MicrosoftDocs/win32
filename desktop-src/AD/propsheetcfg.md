@@ -4,17 +4,22 @@ description: Used to contain property sheet configuration data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd3bde744-9d85-4506-894f-f8be3463721f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d3bde744-9d85-4506-894f-f8be3463721f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["PROPSHEETCFG structure Active Directory", "PPROPSHEETCFG structure pointer Active Directory"]
+keywords:
+- PROPSHEETCFG structure Active Directory
+- PPROPSHEETCFG structure pointer Active Directory
 topic_type:
 - apiref
 api_name:
 - PROPSHEETCFG
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # PROPSHEETCFG structure
@@ -24,7 +29,7 @@ The **PROPSHEETCFG** structure is used to contain property sheet configuration d
 > [!Note]  
 > This structure is not defined in a published header file. To use this structure, you must define it yourself in the exact format shown.
 
- 
+ 
 
 ## Syntax
 
@@ -32,9 +37,9 @@ The **PROPSHEETCFG** structure is used to contain property sheet configuration d
 ```C++
 typedef struct {
   LONG_PTR lNotifyHandle;
-  HWND     hwndParentSheet;
-  HWND     hwndHidden;
-  WPARAM   wParamSheetClose;
+  HWND     hwndParentSheet;
+  HWND     hwndHidden;
+  WPARAM   wParamSheetClose;
 } PROPSHEETCFG, *PPROPSHEETCFG;
 ```
 
@@ -78,8 +83,8 @@ Contains an application-defined 32-bit value. This value is passed back to the a
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -93,9 +98,9 @@ Contains an application-defined 32-bit value. This value is passed back to the a
 [**WM\_DSA\_SHEET\_CLOSE\_NOTIFY**](wm-dsa-sheet-close-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

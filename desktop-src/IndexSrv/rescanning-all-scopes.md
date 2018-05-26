@@ -1,7 +1,12 @@
 ---
 title: Rescanning All Scopes
 description: Rescanning All Scopes
-ms.assetid: '3fba1f33-004f-41eb-a56b-bdddba888922'
+ms.assetid: 3fba1f33-004f-41eb-a56b-bdddba888922
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rescanning All Scopes

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_AggregatePSExtent class defines the number of addressable logical blocks on a single storage device, excluding logical blocks mapped as check data.'
+Description: The CIM\_AggregatePSExtent class defines the number of addressable logical blocks on a single storage device, excluding logical blocks mapped as check data.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6c188955-a963-414d-94f9-b7e1cb5960ed'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6c188955-a963-414d-94f9-b7e1cb5960ed
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_AggregatePSExtent class'
+title: CIM\_AggregatePSExtent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AggregatePSExtent class
@@ -21,7 +24,7 @@ Automatic configuration can result in thousands of [**CIM\_ProtectedSpaceExtent*
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -31,30 +34,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{2D0E255C-E3D1-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_AggregatePSExtent : CIM_StorageExtent
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint16   Availability;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   DeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint32   LastErrorCode;
-  string   PNPDeviceID;
-  boolean  PowerManagementSupported;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   Access;
-  uint64   BlockSize;
-  string   ErrorMethodology;
-  uint64   NumberOfBlocks;
-  string   Purpose;
+  string   Name;
+  string   Status;
+  uint16   Availability;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   DeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint32   LastErrorCode;
+  string   PNPDeviceID;
+  boolean  PowerManagementSupported;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   Access;
+  uint64   BlockSize;
+  string   ErrorMethodology;
+  uint64   NumberOfBlocks;
+  string   Purpose;
 };
 ```
 
@@ -78,7 +81,7 @@ The **CIM\_AggregatePSExtent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1177,8 +1180,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1195,9 +1198,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [CIM Classes](https://msdn.microsoft.com/library/aa386179)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Finds the next frame in the current capture context that matches the filter.'
-ms.assetid: 'cc99b4a0-b6b0-43b4-8121-0e402d024009'
+Description: Finds the next frame in the current capture context that matches the filter.
+ms.assetid: cc99b4a0-b6b0-43b4-8121-0e402d024009
 title: FindNextFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FindNextFrame function
@@ -13,13 +18,13 @@ The **FindNextFrame** function finds the next frame in the current capture conte
 
 ```C++
 HFRAME WINAPI FindNextFrame(
-   HFRAME    hCurrentFrame,
-   LPSTR     ProtocolName,
-   LPADDRESS DestinationAddress,
-   LPADDRESS SourceAddress,
-   LPWORD    ProtocolOffset,
-   DWORD     OriginalFrameNumber,
-   DWORD     HighestFrame
+   HFRAME    hCurrentFrame,
+   LPSTR     ProtocolName,
+   LPADDRESS DestinationAddress,
+   LPADDRESS SourceAddress,
+   LPWORD    ProtocolOffset,
+   DWORD     OriginalFrameNumber,
+   DWORD     HighestFrame
 );
 ```
 
@@ -98,17 +103,17 @@ The *ProtocolOffset* pointer is returned to the calling parser, which adds the *
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,23 @@
 ---
 title: Starting the Downloads
 description: Starting the Downloads
-ms.assetid: '0a830b11-f7e1-41da-a867-86f9ac361c0b'
-keywords: ["Windows Media Player online stores,Download Manager", "online stores,Download Manager", "type 2 online stores,Download Manager", "Windows Media Player online stores,starting downloads", "online stores,starting downloads", "type 2 online stores,starting downloads", "Windows Media Player,Download Manager", "Windows Media Player Download Manager", "Download Manager", "starting downloads"]
+ms.assetid: 0a830b11-f7e1-41da-a867-86f9ac361c0b
+keywords:
+- Windows Media Player online stores,Download Manager
+- online stores,Download Manager
+- type 2 online stores,Download Manager
+- Windows Media Player online stores,starting downloads
+- online stores,starting downloads
+- type 2 online stores,starting downloads
+- Windows Media Player,Download Manager
+- Windows Media Player Download Manager
+- Download Manager
+- starting downloads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting the Downloads

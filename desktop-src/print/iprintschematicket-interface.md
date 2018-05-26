@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides the primary method to access and validate a PrintTicket.'
-ms.assetid: '190B0B88-6018-4B43-8699-78427421D6FF'
+---
+Description: Provides the primary method to access and validate a PrintTicket.
+ms.assetid: 190B0B88-6018-4B43-8699-78427421D6FF
 title: IPrintSchemaTicket interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket interface

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InsertSpace method splits any objects that exist at the specified time and inserts space between them.'
-ms.assetid: 'f9e48f58-1867-405c-b208-1ab781912aa1'
-title: 'IAMTimelineTrack::InsertSpace method'
+---
+Description: The InsertSpace method splits any objects that exist at the specified time and inserts space between them.
+ms.assetid: f9e48f58-1867-405c-b208-1ab781912aa1
+title: IAMTimelineTrackInsertSpace method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrack::InsertSpace method

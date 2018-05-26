@@ -1,7 +1,12 @@
 ---
-Description: 'Contains battery query information.'
-ms.assetid: 'ef5466fe-7de8-48cd-ad48-5774d7a4bb46'
-title: 'BATTERY\_QUERY\_INFORMATION structure'
+Description: Contains battery query information.
+ms.assetid: ef5466fe-7de8-48cd-ad48-5774d7a4bb46
+title: BATTERY\_QUERY\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BATTERY\_QUERY\_INFORMATION structure
@@ -13,9 +18,9 @@ Contains battery query information. This structure is used with the [**IOCTL\_BA
 
 ```C++
 typedef struct _BATTERY_QUERY_INFORMATION {
-  ULONG                           BatteryTag;
+  ULONG                           BatteryTag;
   BATTERY_QUERY_INFORMATION_LEVEL InformationLevel;
-  LONG                            AtRate;
+  LONG                            AtRate;
 } BATTERY_QUERY_INFORMATION, *PBATTERY_QUERY_INFORMATION;
 ```
 
@@ -45,7 +50,7 @@ The level of the battery information being queried. The data returned by the IOC
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="BatteryDeviceName"></span><span id="batterydevicename"></span><span id="BATTERYDEVICENAME"></span><dl> <dt>**BatteryDeviceName**</dt> <dt>4</dt> </dl>                                                 | Null-terminated Unicode string that contains the battery's name.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | <span id="BatteryEstimatedTime"></span><span id="batteryestimatedtime"></span><span id="BATTERYESTIMATEDTIME"></span><dl> <dt>**BatteryEstimatedTime**</dt> <dt>3</dt> </dl>                                     | A **ULONG** that specifies the estimated battery run time, in seconds. If the rate of drain provided in the **AtRate** member of the **BATTERY\_QUERY\_INFORMATION** structure is zero, this calculation is based on the present rate of drain. If **AtRate** is nonzero, the time returned is the expected run time for the given rate. If the estimated time is unknown (for example, the battery is not discharging and the **AtRate** specified was zero), the return value is BATTERY\_UNKNOWN\_TIME. Note that this value is not very accurate on some battery systems, and may vary widely depending on present power usage, which could be affected by disk activity and other factors. There is no notification mechanism for changes in this value.<br/> |
-| <span id="BatteryGranularityInformation"></span><span id="batterygranularityinformation"></span><span id="BATTERYGRANULARITYINFORMATION"></span><dl> <dt>**BatteryGranularityInformation**</dt> <dt>1</dt> </dl> | An array of [**BATTERY\_REPORTING\_SCALE**](battery-reporting-scale-str.md) structures, never more than four entries.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| <span id="BatteryGranularityInformation"></span><span id="batterygranularityinformation"></span><span id="BATTERYGRANULARITYINFORMATION"></span><dl> <dt>**BatteryGranularityInformation**</dt> <dt>1</dt> </dl> | An array of [**BATTERY\_REPORTING\_SCALE**](/windows/win32/WinNT/ns-winnt-battery_reporting_scale?branch=master) structures, never more than four entries.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | <span id="BatteryInformation"></span><span id="batteryinformation"></span><span id="BATTERYINFORMATION"></span><dl> <dt>**BatteryInformation**</dt> <dt>0</dt> </dl>                                             | A [**BATTERY\_INFORMATION**](battery-information-str.md) structure.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | <span id="BatteryManufactureDate"></span><span id="batterymanufacturedate"></span><span id="BATTERYMANUFACTUREDATE"></span><dl> <dt>**BatteryManufactureDate**</dt> <dt>5</dt> </dl>                             | A [**BATTERY\_MANUFACTURE\_DATE**](battery-manufacture-date-str.md) structure.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="BatteryManufactureName"></span><span id="batterymanufacturename"></span><span id="BATTERYMANUFACTURENAME"></span><dl> <dt>**BatteryManufactureName**</dt> <dt>6</dt> </dl>                             | Null-terminated Unicode string that specifies the name of the manufacturer of the battery.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -55,7 +60,7 @@ The level of the battery information being queried. The data returned by the IOC
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,9 +83,9 @@ Some information about batteries is optional or may be meaningless for some batt
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -94,7 +99,7 @@ Some information about batteries is optional or may be meaningless for some batt
 [**BATTERY\_MANUFACTURE\_DATE**](battery-manufacture-date-str.md)
 </dt> <dt>
 
-[**BATTERY\_REPORTING\_SCALE**](battery-reporting-scale-str.md)
+[**BATTERY\_REPORTING\_SCALE**](/windows/win32/WinNT/ns-winnt-battery_reporting_scale?branch=master)
 </dt> <dt>
 
 [**IOCTL\_BATTERY\_QUERY\_INFORMATION**](ioctl-battery-query-information.md)
@@ -103,9 +108,9 @@ Some information about batteries is optional or may be meaningless for some batt
 [**IOCTL\_BATTERY\_QUERY\_TAG**](ioctl-battery-query-tag.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

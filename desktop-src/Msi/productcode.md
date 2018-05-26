@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProductCode property is a unique identifier for the particular product release, represented as a string GUID, for example &\#0034;{12345678-1234-1234-1234-123456789012}&\#0034;.'
-ms.assetid: '14538e8b-3a7f-4d73-8c54-a0f83b013a42'
+---
+Description: The ProductCode property is a unique identifier for the particular product release, represented as a string GUID, for example &\#0034;{12345678-1234-1234-1234-123456789012}&\#0034;.
+ms.assetid: 14538e8b-3a7f-4d73-8c54-a0f83b013a42
 title: ProductCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProductCode property

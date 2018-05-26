@@ -1,7 +1,7 @@
 ---
 title: Access Right Identifiers
 description: Windows Filtering Platform (WFP) uses the standard Win32 access rights plus a set of WFP-specific access rights built into the filtering platform.
-ms.assetid: '77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c'
+ms.assetid: 77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c
 topic_type:
 - apiref
 api_name:
@@ -24,6 +24,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Right Identifiers
@@ -39,7 +44,7 @@ WFP specific access right identifiers are as follows.
 
 
 
-Add an object to the Base Filtering Engine (BFE). This access right is needed in order to call [**Fwpm\*Add0**](fwpmipsectunneladd0.md) functions.
+Add an object to the Base Filtering Engine (BFE). This access right is needed in order to call [**Fwpm\*Add0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmipsectunneladd0?branch=master) functions.
 
 
 </dt> </dl> </dd> <dt>
@@ -59,7 +64,7 @@ Add an object referenced through a link. For example, this access right is neede
 
 
 
-Begin a read-only transaction. This access right is needed in order to call [**FwpmTransactionBegin0**](fwpmtransactionbegin0-func.md).
+Begin a read-only transaction. This access right is needed in order to call [**FwpmTransactionBegin0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionbegin0?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -69,7 +74,7 @@ Begin a read-only transaction. This access right is needed in order to call [**F
 
 
 
-Begin a read/write transaction. This access right is needed in order to call [**FwpmTransactionBegin0**](fwpmtransactionbegin0-func.md) for a read/write transaction.
+Begin a read/write transaction. This access right is needed in order to call [**FwpmTransactionBegin0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmtransactionbegin0?branch=master) for a read/write transaction.
 
 
 </dt> </dl> </dd> <dt>
@@ -89,7 +94,7 @@ Classify Remote Procedure Call (RPC). This access right is needed by the RPC run
 
 
 
-Enumerate. This access right is needed in order to call [**Fwpm\*CreateEnumHandle0**](fwpmcalloutcreateenumhandle0-func.md) functions. To enumerate an object, the caller also needs FWPM\_ACTRL\_READ access to the object.
+Enumerate. This access right is needed in order to call [**Fwpm\*CreateEnumHandle0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutcreateenumhandle0?branch=master) functions. To enumerate an object, the caller also needs FWPM\_ACTRL\_READ access to the object.
 
 
 </dt> </dl> </dd> <dt>
@@ -99,7 +104,7 @@ Enumerate. This access right is needed in order to call [**Fwpm\*CreateEnumHandl
 
 
 
-Open a session to the filter engine. This access right is needed in order to call [**FwpmEngineOpen0**](fwpmengineopen0-func.md).
+Open a session to the filter engine. This access right is needed in order to call [**FwpmEngineOpen0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmengineopen0?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -109,7 +114,7 @@ Open a session to the filter engine. This access right is needed in order to cal
 
 
 
-Read. This access right is needed in order to call [**Fwpm\*GetById0**](fwpmcalloutgetbyid0-func.md) and [**Fwpm\*GetByKey0**](fwpmcalloutgetbykey0-func.md) functions.
+Read. This access right is needed in order to call [**Fwpm\*GetById0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutgetbyid0?branch=master) and [**Fwpm\*GetByKey0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmcalloutgetbykey0?branch=master) functions.
 
 
 </dt> </dl> </dd> <dt>
@@ -119,7 +124,7 @@ Read. This access right is needed in order to call [**Fwpm\*GetById0**](fwpmcall
 
 
 
-Read statistics. This access right is needed in order to call [**IPsecGetStatistics0**](ipsecgetstatistics0-func.md) and [**IkeextGetStatistics0**](ikeextgetstatistics0.md).
+Read statistics. This access right is needed in order to call [**IPsecGetStatistics0**](/windows/win32/Fwpmu/nf-fwpmu-ipsecgetstatistics0?branch=master) and [**IkeextGetStatistics0**](/windows/win32/Fwpmu/nf-fwpmu-ikeextgetstatistics0?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -129,7 +134,7 @@ Read statistics. This access right is needed in order to call [**IPsecGetStatist
 
 
 
-Subscribe. This access right is needed in order to call [**Fwpm\*SubscribeChanges0**](fwpmprovidersubscribechanges0-func.md) functions. To receive a notification for an object, a subscriber also needs FWPM\_ACTRL\_READ access to the object.
+Subscribe. This access right is needed in order to call [**Fwpm\*SubscribeChanges0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmprovidersubscribechanges0?branch=master) functions. To receive a notification for an object, a subscriber also needs FWPM\_ACTRL\_READ access to the object.
 
 
 </dt> </dl> </dd> <dt>
@@ -139,7 +144,7 @@ Subscribe. This access right is needed in order to call [**Fwpm\*SubscribeChange
 
 
 
-Write engine options. This access right is needed in order to call [**FwpmEngineSetOption0**](fwpmenginesetoption0.md).
+Write engine options. This access right is needed in order to call [**FwpmEngineSetOption0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmenginesetoption0?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -190,8 +195,8 @@ STANDARD\_RIGHTS\_REQUIRED \| FWPM\_ACTRL\_ADD \| FWPM\_ACTRL\_ADD\_LINK \| FWPM
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
@@ -206,9 +211,9 @@ STANDARD\_RIGHTS\_REQUIRED \| FWPM\_ACTRL\_ADD \| FWPM\_ACTRL\_ADD\_LINK \| FWPM
 [Standard Access Rights](https://msdn.microsoft.com/library/windows/desktop/aa379607)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

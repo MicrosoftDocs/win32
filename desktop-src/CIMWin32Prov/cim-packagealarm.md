@@ -1,25 +1,28 @@
 ---
-Description: 'The CIM\_PackageAlarm association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package''s environment&\#8212;its security state or its overall health.'
+Description: The CIM\_PackageAlarm association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the packages environment&\#8212;its security state or its overall health.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4911502a-de9c-46b4-91f6-a042c69fd052'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4911502a-de9c-46b4-91f6-a042c69fd052
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PackageAlarm class'
+title: CIM\_PackageAlarm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PackageAlarm class
 
-The [**CIM\_PackageAlarm**](https://msdn.microsoft.com/library/windows/desktop/aa382397) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment—its security state or its overall health.
+The [**CIM\_PackageAlarm**](https://msdn.microsoft.com/library/windows/desktop/aa382397) association represents the relationship in which an alarm device is installed as part of a package. The installation indicates issues with the package's environment its security state or its overall health.
 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -30,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_PackageAlarm : CIM_Dependency
 {
   CIM_PhysicalPackage REF Dependent;
-  CIM_AlarmDevice     REF Antecedent;
+  CIM_AlarmDevice     REF Antecedent;
 };
 ```
 
@@ -92,8 +95,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -107,9 +110,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

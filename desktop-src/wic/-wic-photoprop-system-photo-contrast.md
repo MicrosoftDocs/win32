@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.Contrast property.'
-ms.assetid: 'c5e2589d-507c-4b92-9ada-7d64e7c45dd8'
-title: 'System.Photo.Contrast Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.Contrast property.
+ms.assetid: c5e2589d-507c-4b92-9ada-7d64e7c45dd8
+title: System.Photo.Contrast Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Contrast Photo Metadata Policy

@@ -1,7 +1,12 @@
 ---
-Description: 'Expands the area of this IAnalysisRegion to the area created by its union with the specified IAnalysisRegion.'
-ms.assetid: 'cc3ec5c6-98ff-442e-a1e8-d1a57752ad56'
-title: 'IAnalysisRegion::UnionRegion method'
+Description: Expands the area of this IAnalysisRegion to the area created by its union with the specified IAnalysisRegion.
+ms.assetid: cc3ec5c6-98ff-442e-a1e8-d1a57752ad56
+title: IAnalysisRegionUnionRegion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::UnionRegion method
@@ -13,7 +18,7 @@ Expands the area of this [**IAnalysisRegion**](ianalysisregion.md) to the area c
 
 ```C++
 HRESULT UnionRegion(
-  [in] IAnalysisRegion *pRegionToUnion
+  [in] IAnalysisRegion *pRegionToUnion
 );
 ```
 
@@ -44,7 +49,7 @@ If either area is infinite, the new area is also infinite.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -76,9 +81,9 @@ If either area is infinite, the new area is also infinite.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

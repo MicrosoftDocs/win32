@@ -1,14 +1,17 @@
 ---
 title: IMsRdpClientTransportSettings2 GatewayUserName property
-description: Specifies or retrieves the user name that is provided to the Remote Desktop Gateway (RD Gateway) server.
+description: Specifies or retrieves the user name that is provided to the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eb5ed12f-e650-4abb-be20-bd5fae44e604'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: eb5ed12f-e650-4abb-be20-bd5fae44e604
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayUserName property Remote Desktop Services", "GatewayUserName property Remote Desktop Services , IMsRdpClientTransportSettings2 interface", "IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayUserName property"]
+keywords:
+- GatewayUserName property Remote Desktop Services
+- GatewayUserName property Remote Desktop Services , IMsRdpClientTransportSettings2 interface
+- IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayUserName property
 topic_type:
 - apiref
 api_name:
@@ -19,11 +22,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings2::GatewayUserName property
 
-Specifies or retrieves the user name that is provided to the Remote Desktop Gateway (RD Gateway) server.
+Specifies or retrieves the user name that is provided to the Remote Desktop Gateway (RD Gateway) server.
 
 This property is read/write.
 
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayUserName(
-  [in]  BSTR proxyUserName
+  [in]  BSTR proxyUserName
 );
 
 HRESULT get_GatewayUserName(
-  [out] BSTR *pProxyUserName
+  [out] BSTR *pProxyUserName
 );
 ```
 
@@ -44,7 +50,7 @@ HRESULT get_GatewayUserName(
 
 ## Property value
 
-The user name that is provided to connect to the RD Gateway server.
+The user name that is provided to connect to the RD Gateway server.
 
 ## Error codes
 
@@ -56,8 +62,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings2 is defined as 67341688-D606-4c73-A5D2-2E0489009319<br/> |
@@ -74,9 +80,9 @@ Returns **S\_OK** if successful.
 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

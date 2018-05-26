@@ -1,7 +1,12 @@
-﻿---
-Description: 'Begins encryption of a fully decrypted volume, or resumes encryption of a partially encrypted volume.'
-ms.assetid: 'bba8b800-309b-4268-8278-db69827bbdf6'
-title: 'Encrypt method of the Win32\_EncryptableVolume class'
+---
+Description: Begins encryption of a fully decrypted volume, or resumes encryption of a partially encrypted volume.
+ms.assetid: bba8b800-309b-4268-8278-db69827bbdf6
+title: Encrypt method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encrypt method of the Win32\_EncryptableVolume class

@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.downImage
 description: The downImage attribute specifies or retrieves the down state image of the custom slider.
-ms.assetid: 'e1efe703-df0a-4ef9-92a9-c9cfb991ee37'
-keywords: ["CUSTOMSLIDER.downImage Windows Media Player"]
+ms.assetid: e1efe703-df0a-4ef9-92a9-c9cfb991ee37
+keywords:
+- CUSTOMSLIDER.downImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.downImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.downImage
@@ -51,9 +57,9 @@ The supported image file types are BMP, JPG, PNG, and GIF (not including animate
 [**CUSTOMSLIDER.image**](customslider-image.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

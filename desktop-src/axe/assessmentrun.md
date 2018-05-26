@@ -1,14 +1,20 @@
 ---
 title: AssessmentRun element
 description: Defines the instance of an assessment for execution.
-ms.assetid: '88FBBFD1-8E26-45DD-9C33-A5DD09541CE4'
-keywords: ["AssessmentRun element Access Execution Engine"]
+ms.assetid: 88FBBFD1-8E26-45DD-9C33-A5DD09541CE4
+keywords:
+- AssessmentRun element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AssessmentRun
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentRun element
@@ -84,9 +90,9 @@ There are no attributes.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

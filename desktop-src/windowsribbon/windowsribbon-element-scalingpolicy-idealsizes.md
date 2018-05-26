@@ -1,14 +1,20 @@
 ---
 title: ScalingPolicy.IdealSizes property
 description: Represents a container of scaling specifications for the preferred SizeDefinition template, based on Ribbon size.
-ms.assetid: 'a4aa2642-160d-4d81-9df9-29277911aa5a'
-keywords: ["ScalingPolicy.IdealSizes property Windows Ribbon"]
+ms.assetid: a4aa2642-160d-4d81-9df9-29277911aa5a
+keywords:
+- ScalingPolicy.IdealSizes property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ScalingPolicy.IdealSizes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScalingPolicy.IdealSizes property
@@ -61,7 +67,7 @@ If **ScalingPolicy.IdealSizes** is defined, then a [**Scale**](windowsribbon-ele
 
 The following example demonstrates how the appearance of controls in a [**Group**](windowsribbon-element-group.md) can be customized through the adaptive layout functionality of Ribbon [**SizeDefinition**](windowsribbon-element-sizedefinition.md) templates.
 
-The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this example specifies a **ScalingPolicy.IdealSizes** [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, [**Scale**](windowsribbon-element-scale.md) elements are specified to influence the collapsing behavior, in descending size order, of each group.
+The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this example specifies a **ScalingPolicy.IdealSizes** [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, [**Scale**](windowsribbon-element-scale.md) elements are specified to influence the collapsing behavior, in descending size order, of each group.
 
 
 ```C++
@@ -133,8 +139,8 @@ The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -145,9 +151,9 @@ The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

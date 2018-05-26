@@ -1,8 +1,11 @@
 ---
 title: AddAccessPath method of the MSFT\_Partition class
 description: Adds a mount path or drive letter assignment to the partition.
-ms.assetid: 'd692d4f5-c912-48ec-98a6-9c72ac6e75f6'
-keywords: ["AddAccessPath method Windows Storage Management API", "AddAccessPath method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , AddAccessPath method"]
+ms.assetid: d692d4f5-c912-48ec-98a6-9c72ac6e75f6
+keywords:
+- AddAccessPath method Windows Storage Management API
+- AddAccessPath method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , AddAccessPath method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - vds.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddAccessPath method of the MSFT\_Partition class
@@ -22,9 +30,9 @@ Adds a mount path or drive letter assignment to the partition.
 
 ```mof
 UInt32 AddAccessPath(
-  [in]  String  AccessPath,
-  [in]  Boolean AssignDriveLetter,
-  [out] String  ExtendedStatus
+  [in]  String  AccessPath,
+  [in]  Boolean AssignDriveLetter,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -104,8 +112,8 @@ This method adds a mount path or drive letter assignment to the partition. The *
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | Header<br/>                   | <dl> <dt>Vds.h</dt> </dl>          |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
@@ -119,9 +127,9 @@ This method adds a mount path or drive letter assignment to the partition. The *
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

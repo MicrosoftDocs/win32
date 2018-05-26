@@ -1,7 +1,12 @@
 ---
 Description: SMPTE Wipe Transition
-ms.assetid: '9271bd4b-57b1-4b1b-bfee-d6ae5f49a154'
+ms.assetid: 9271bd4b-57b1-4b1b-bfee-d6ae5f49a154
 title: SMPTE Wipe Transition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMPTE Wipe Transition

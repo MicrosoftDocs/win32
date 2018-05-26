@@ -1,8 +1,9 @@
 ---
 title: D3DGetInputAndOutputSignatureBlob function
-description: Note D3DGetInputAndOutputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D\_BLOB\_INPUT\_AND\_OUTPUT\_SIGNATURE\_BLOB value. Gets the input and output signatures from a compilation result.
-ms.assetid: '3d6fdac7-6d6f-4787-b8ae-a2911a70f029'
-keywords: ["D3DGetInputAndOutputSignatureBlob function HLSL"]
+description: Note D3DGetInputAndOutputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D\_BLOB\_INPUT\_AND\_OUTPUT\_SIGNATURE\_BLOB value. Gets the input and output signatures from a compilation result.
+ms.assetid: 3d6fdac7-6d6f-4787-b8ae-a2911a70f029
+keywords:
+- D3DGetInputAndOutputSignatureBlob function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DGetInputAndOutputSignatureBlob function
 
 > [!Note]  
-> **D3DGetInputAndOutputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_AND\_OUTPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md#d3d-blob-input-and-output-signature-blob) value.
+> **D3DGetInputAndOutputSignatureBlob** may be altered or unavailable for releases after Windows 8.1. Instead use [**D3DGetBlobPart**](d3dgetblobpart.md) with the [**D3D\_BLOB\_INPUT\_AND\_OUTPUT\_SIGNATURE\_BLOB**](d3d-blob-part.md#d3d-blob-input-and-output-signature-blob) value.
 
- 
+ 
 
 Gets the input and output signatures from a compilation result.
 
@@ -26,9 +32,9 @@ Gets the input and output signatures from a compilation result.
 
 ``` syntax
 HRESULT WINAPI D3DGetInputAndOutputSignatureBlob(
-  in  LPCVOID pSrcData,
-  in  SIZE_T SrcDataSize,
-  out ID3DBlob ppSignatureBlob
+  in  LPCVOID pSrcData,
+  in  SIZE_T SrcDataSize,
+  out ID3DBlob ppSignatureBlob
 );
 ```
 
@@ -88,9 +94,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

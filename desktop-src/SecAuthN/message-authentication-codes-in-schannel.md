@@ -1,7 +1,12 @@
 ---
-Description: 'A Message Authentication Code (MAC) is used to detect message tampering and forgery.'
-ms.assetid: '44f50407-8f55-49c4-9e42-2f1666c9da7c'
+Description: A Message Authentication Code (MAC) is used to detect message tampering and forgery.
+ms.assetid: 44f50407-8f55-49c4-9e42-2f1666c9da7c
 title: Message Authentication Codes in Schannel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Authentication Codes in Schannel

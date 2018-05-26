@@ -4,13 +4,16 @@ description: This method resets the values of the thresholds to hardware default
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f4ab8969-c38d-4887-9490-58e908e0e115'
-ms.prod: 'windows-server-dev'
+ms.assetid: f4ab8969-c38d-4887-9490-58e908e0e115
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RestoreDefaultThresholds method", "RestoreDefaultThresholds method, CIM_NumericSensor class", "CIM_NumericSensor class, RestoreDefaultThresholds method"]
+keywords:
+- RestoreDefaultThresholds method
+- RestoreDefaultThresholds method, CIM_NumericSensor class
+- CIM_NumericSensor class, RestoreDefaultThresholds method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestoreDefaultThresholds method of the CIM\_NumericSensor class
@@ -44,8 +50,8 @@ This method has no parameters.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -59,9 +65,9 @@ This method has no parameters.
 [**CIM\_NumericSensor**](cim-numericsensor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

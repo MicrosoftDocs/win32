@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference information for the API elements used to work with DirectX .x files. These topics are new with the DirectX SDK Update (Summer 2004).'
-ms.assetid: '726dffe9-682f-445b-92a7-2246ad4e3848'
+Description: This section contains reference information for the API elements used to work with DirectX .x files. These topics are new with the DirectX SDK Update (Summer 2004).
+ms.assetid: 726dffe9-682f-445b-92a7-2246ad4e3848
 title: X File Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # X File Reference

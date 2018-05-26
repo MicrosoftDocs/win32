@@ -1,7 +1,12 @@
 ---
-Description: 'The Inactive method notifies the pin that the filter is no longer active. This method overrides the CBasePin::Inactive method. If the streaming thread is active, this method stops it and waits for the thread to exit.'
-ms.assetid: '82cf0f13-e563-4a0b-b2e1-25ab19f7ed78'
-title: 'CSourceStream.Inactive method'
+Description: The Inactive method notifies the pin that the filter is no longer active. This method overrides the CBasePinInactive method. If the streaming thread is active, this method stops it and waits for the thread to exit.
+ms.assetid: 82cf0f13-e563-4a0b-b2e1-25ab19f7ed78
+title: CSourceStream.Inactive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.Inactive method
@@ -43,9 +48,9 @@ Returns S\_OK or another **HRESULT** value.
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.previousEffect
 description: The previousEffect method displays the previous visualization, skipping presets.
-ms.assetid: 'f1cfef29-0241-4028-b047-4f17bf0e9250'
-keywords: ["EFFECTS.previousEffect Windows Media Player"]
+ms.assetid: f1cfef29-0241-4028-b047-4f17bf0e9250
+keywords:
+- EFFECTS.previousEffect Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.previousEffect
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.previousEffect
@@ -54,9 +60,9 @@ This method displays the previous visualization in the authoring order. If the c
 [**EFFECTS.allowAll**](effects-allowall.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The section discusses how to implement the IComponentData interface
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6b07f5aa-171c-486a-a7b2-c625985785b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6b07f5aa-171c-486a-a7b2-c625985785b2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["working with IComponentData MMC"]
+keywords:
+- working with IComponentData MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with IComponentData
@@ -60,9 +64,9 @@ Initialization is also the correct time for a snap-in to add a strip of icons to
 
 ## Creating an IComponent Object
 
-When the [**CreateComponent**](icomponentdata-createcomponent.md) method of the [**IComponentData**](icomponentdata.md) object is called, the snap-in can create an instance of the [**IComponent**](icomponent.md) interface. Typically, the newly created **IComponent** object caches a pointer to its parent **IComponentData** object in its constructor.
+When the [**CreateComponent**](icomponentdata-createcomponent.md) method of the [**IComponentData**](icomponentdata.md) object is called, the snap-in can create an instance of the [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) interface. Typically, the newly created **IComponent** object caches a pointer to its parent **IComponentData** object in its constructor.
 
-Be aware that MMC calls [**CreateComponent**](icomponentdata-createcomponent.md) each time a new view (a new MDI child window) is created; thus each view is associated with a different [**IComponent**](icomponent.md) object.
+Be aware that MMC calls [**CreateComponent**](icomponentdata-createcomponent.md) each time a new view (a new MDI child window) is created; thus each view is associated with a different [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) object.
 
 ## Sending Notifications to the IComponentData Object
 

@@ -1,7 +1,12 @@
 ---
 title: HLSL Specified Root Signature
 description: A Root Signature (a key table of resources and other elements for D3D12) can be specified in HLSL as a string.
-ms.assetid: 'E1359664-C775-4658-B26F-80EE525F64E5'
+ms.assetid: E1359664-C775-4658-B26F-80EE525F64E5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HLSL Specified Root Signature

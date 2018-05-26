@@ -1,7 +1,12 @@
-﻿---
-Description: 'Algorithms supported by the Microsoft Base DSS and Diffie-Hellman Cryptographic Provider.'
-ms.assetid: '8db1c7cb-41e0-470b-b927-989da4c09324'
-title: 'PROV\_DSS\_DH Provider Algorithms'
+---
+Description: Algorithms supported by the Microsoft Base DSS and Diffie-Hellman Cryptographic Provider.
+ms.assetid: 8db1c7cb-41e0-470b-b927-989da4c09324
+title: PROV\_DSS\_DH Provider Algorithms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROV\_DSS\_DH Provider Algorithms

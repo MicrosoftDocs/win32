@@ -1,7 +1,12 @@
 ---
 title: VML RoundRect Element
 description: VML RoundRect Element
-ms.assetid: '9ed36aa0-6cb1-4522-80c8-7fb81833da7d'
+ms.assetid: 9ed36aa0-6cb1-4522-80c8-7fb81833da7d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML RoundRect Element

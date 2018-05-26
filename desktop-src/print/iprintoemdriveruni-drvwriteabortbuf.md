@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverUni::DrvWriteAbortBuf method is provided by the Unidrv driver to allow an OEM rendering plug-in to send printer clean-up code after a user terminates a print job.'
-ms.assetid: '4f7aff9b-32cf-42a0-ba3b-ddc87ecdb8c3'
-title: 'IPrintOemDriverUni::DrvWriteAbortBuf method'
+---
+Description: The IPrintOemDriverUniDrvWriteAbortBuf method is provided by the Unidrv driver to allow an OEM rendering plug-in to send printer clean-up code after a user terminates a print job.
+ms.assetid: 4f7aff9b-32cf-42a0-ba3b-ddc87ecdb8c3
+title: IPrintOemDriverUniDrvWriteAbortBuf method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUni::DrvWriteAbortBuf method

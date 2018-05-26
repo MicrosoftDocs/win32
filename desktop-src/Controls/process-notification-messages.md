@@ -1,14 +1,19 @@
 ---
 title: How to Process Notification Messages
 description: A property sheet sends WM\_NOTIFY messages to retrieve information from the pages and to notify the pages of user actions.
-ms.assetid: '82768E43-97BA-451A-9373-D5B8FD06ABED'
+ms.assetid: 82768E43-97BA-451A-9373-D5B8FD06ABED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Process Notification Messages
 
 A property sheet sends [**WM\_NOTIFY**](wm-notify.md) messages to retrieve information from the pages and to notify the pages of user actions.
 
-The *lParam* parameter of the message is the address of an [**NMHDR**](nmhdr.md) structure, which contains the handle to the property sheet dialog box, the handle to the page dialog box, and a notification code. The page must respond to some notification messages by setting the DWL\_MSGRESULT value of the page to either **TRUE** or **FALSE**.
+The *lParam* parameter of the message is the address of an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure, which contains the handle to the property sheet dialog box, the handle to the page dialog box, and a notification code. The page must respond to some notification messages by setting the DWL\_MSGRESULT value of the page to either **TRUE** or **FALSE**.
 
 ## What you need to know
 

@@ -1,8 +1,16 @@
 ---
 title: Bluetooth and socket
 description: Creates a socket for incoming or outgoing connections.
-ms.assetid: '21b9cf1f-1a85-4a4b-9557-faa4f32c3696'
-keywords: ["Bluetooth Bluetooth", "socket Bluetooth", "Bluetooth and socket Bluetooth"]
+ms.assetid: 21b9cf1f-1a85-4a4b-9557-faa4f32c3696
+keywords:
+- Bluetooth Bluetooth
+- socket Bluetooth
+- Bluetooth and socket Bluetooth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and socket

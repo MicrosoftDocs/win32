@@ -1,8 +1,11 @@
 ---
 title: IVMKeyboard TypeKeySequence method
 description: Simulates a comma-delimited list of keys being typed.
-ms.assetid: 'ba4d4e43-cb2e-49ae-940d-2e81286d3473'
-keywords: ["TypeKeySequence method Virtual PC", "TypeKeySequence method Virtual PC , IVMKeyboard interface", "IVMKeyboard interface Virtual PC , TypeKeySequence method"]
+ms.assetid: ba4d4e43-cb2e-49ae-940d-2e81286d3473
+keywords:
+- TypeKeySequence method Virtual PC
+- TypeKeySequence method Virtual PC , IVMKeyboard interface
+- IVMKeyboard interface Virtual PC , TypeKeySequence method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard::TypeKeySequence method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Simulates a comma-delimited list of keys being typed.
 
@@ -24,7 +32,7 @@ Simulates a comma-delimited list of keys being typed.
 
 ```C++
 HRESULT TypeKeySequence(
-  [in] BSTR keySequence
+  [in] BSTR keySequence
 );
 ```
 
@@ -56,7 +64,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,9 +80,9 @@ For example, the DOWN modifier will send the key-pressed code for the following 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMKeyboard is defined as 00695f2e-c5ad-4d6e-b1ab-336ed121f8c4<br/>                |
@@ -91,9 +99,9 @@ For example, the DOWN modifier will send the key-pressed code for the following 
 [Key Sequences](key-sequences.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

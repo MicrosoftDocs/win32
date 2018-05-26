@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GET\_VIDEOFORMAT message
 description: The WM\_CAP\_GET\_VIDEOFORMAT message retrieves a copy of the video format in use or the size required for the video format. You can send this message explicitly or by using the capGetVideoFormat and capGetVideoFormatSize macros.
-ms.assetid: 'ac72dfdb-fe1a-4007-bdce-41e5e67d076a'
-keywords: ["WM_CAP_GET_VIDEOFORMAT message Windows Multimedia"]
+ms.assetid: ac72dfdb-fe1a-4007-bdce-41e5e67d076a
+keywords:
+- WM_CAP_GET_VIDEOFORMAT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GET\_VIDEOFORMAT message
 
-The **WM\_CAP\_GET\_VIDEOFORMAT** message retrieves a copy of the video format in use or the size required for the video format. You can send this message explicitly or by using the [**capGetVideoFormat**](capgetvideoformat.md) and [**capGetVideoFormatSize**](capgetvideoformatsize.md) macros.
+The **WM\_CAP\_GET\_VIDEOFORMAT** message retrieves a copy of the video format in use or the size required for the video format. You can send this message explicitly or by using the [**capGetVideoFormat**](/windows/win32/Vfw/nf-vfw-capgetvideoformat?branch=master) and [**capGetVideoFormatSize**](/windows/win32/Vfw/nf-vfw-capgetvideoformatsize?branch=master) macros.
 
 
 ```C++
@@ -58,8 +64,8 @@ Because compressed video formats vary in size requirements applications must fir
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ Because compressed video formats vary in size requirements applications must fir
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

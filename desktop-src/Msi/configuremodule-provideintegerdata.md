@@ -1,7 +1,12 @@
 ---
-Description: 'The ProvideIntegerData method of the ConfigureModule object is called by Mergemod.dll to retrieve integer data from the client tool.'
-ms.assetid: '13d48301-bd63-432c-b663-85a840886dda'
-title: 'ConfigureModule.ProvideIntegerData method'
+Description: The ProvideIntegerData method of the ConfigureModule object is called by Mergemod.dll to retrieve integer data from the client tool.
+ms.assetid: 13d48301-bd63-432c-b663-85a840886dda
+title: ConfigureModule.ProvideIntegerData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigureModule.ProvideIntegerData method
@@ -54,7 +59,7 @@ The client may be called no more than once for each record in the [ModuleConfigu
 
 ### C++
 
-See [**ProvideIntegerData function**](imsmconfiguremodule-provideintegerdata.md).
+See [**ProvideIntegerData function**](/windows/win32/Mergemod/nf-mergemod-imsmconfiguremodule-provideintegerdata?branch=master).
 
 ## Requirements
 
@@ -68,9 +73,9 @@ See [**ProvideIntegerData function**](imsmconfiguremodule-provideintegerdata.md)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

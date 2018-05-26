@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PowerSupply class exposes the following methods.'
+Description: The CIM\_PowerSupply class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'B4E229A0-D442-4A0A-B7FE-5B6A72DB4257'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: B4E229A0-D442-4A0A-B7FE-5B6A72DB4257
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PowerSupply Methods'
+title: CIM\_PowerSupply Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PowerSupply Methods

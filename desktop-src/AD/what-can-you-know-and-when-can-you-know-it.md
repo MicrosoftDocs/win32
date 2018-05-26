@@ -4,10 +4,13 @@ description: Applications that are sensitive to latency-induced states must reco
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd1d0135e-2d67-47dd-82ac-4869203ce85e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d1d0135e-2d67-47dd-82ac-4869203ce85e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What Can You Know, and When Can You Know It?

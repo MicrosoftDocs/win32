@@ -1,7 +1,12 @@
 ---
 title: HTML font fallback behavior
 description: HTML font fallback behavior
-ms.assetid: '5BDFBD58-0B34-4A58-BFAF-B8BB1DD569DB'
+ms.assetid: 5BDFBD58-0B34-4A58-BFAF-B8BB1DD569DB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML font fallback behavior

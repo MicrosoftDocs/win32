@@ -2,13 +2,16 @@
 title: RemoveByName method of the PS\_DnsServerTrustAnchor class
 description: Deletes the specified trust anchor.
 audience: developer
-ms.assetid: '2c44a53c-18d7-4f4a-9e37-422eea437d4c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2c44a53c-18d7-4f4a-9e37-422eea437d4c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByName method", "RemoveByName method, PS_DnsServerTrustAnchor class", "PS_DnsServerTrustAnchor class, RemoveByName method"]
+keywords:
+- RemoveByName method
+- RemoveByName method, PS_DnsServerTrustAnchor class
+- PS_DnsServerTrustAnchor class, RemoveByName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByName method of the PS\_DnsServerTrustAnchor class
@@ -28,12 +34,12 @@ Deletes the specified trust anchor.
 
 ```mof
 uint32 RemoveByName(
-  [in]  string               ComputerName,
-  [in]  string               Name,
-  [in]  string               Type,
-  [in]  boolean              Force,
-  [in]  boolean              PassThru,
-  [out] DnsServerTrustAnchor cmdletOutput[]
+  [in]  string               ComputerName,
+  [in]  string               Name,
+  [in]  string               Type,
+  [in]  boolean              Force,
+  [in]  boolean              PassThru,
+  [out] DnsServerTrustAnchor cmdletOutput[]
 );
 ```
 
@@ -92,7 +98,7 @@ On return, contains an instance of the current object. This parameter returns a 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ On return, contains an instance of the current object. This parameter returns a 
 [**PS\_DnsServerTrustAnchor**](ps-dnsservertrustanchor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

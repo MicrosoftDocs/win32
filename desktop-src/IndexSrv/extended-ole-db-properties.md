@@ -1,7 +1,12 @@
 ---
 title: Extended OLE DB Properties
 description: Extended OLE DB Properties
-ms.assetid: '5da12d1a-7b54-4f2a-8fa7-cea9927238f3'
+ms.assetid: 5da12d1a-7b54-4f2a-8fa7-cea9927238f3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extended OLE DB Properties

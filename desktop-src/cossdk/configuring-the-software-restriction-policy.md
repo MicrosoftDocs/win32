@@ -1,7 +1,12 @@
 ---
 Description: Configuring the Software Restriction Policy
-ms.assetid: '22c1897a-abb5-4ce9-9d09-21b6aed4f1d8'
+ms.assetid: 22c1897a-abb5-4ce9-9d09-21b6aed4f1d8
 title: Configuring the Software Restriction Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Software Restriction Policy

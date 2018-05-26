@@ -4,11 +4,14 @@ description: The SetTimeZoneRedirection method sets the TimeZoneRedirection prop
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ae149b7-b7de-4530-a142-7253dd1e0d07'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4ae149b7-b7de-4530-a142-7253dd1e0d07
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetTimeZoneRedirection method Remote Desktop Services", "SetTimeZoneRedirection method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , SetTimeZoneRedirection method"]
+keywords:
+- SetTimeZoneRedirection method Remote Desktop Services
+- SetTimeZoneRedirection method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , SetTimeZoneRedirection method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetTimeZoneRedirection method of the Win32\_TerminalServiceSetting class
@@ -28,7 +34,7 @@ The **SetTimeZoneRedirection** method sets the **TimeZoneRedirection** property,
 
 ```mof
 uint32 SetTimeZoneRedirection(
-  [in] uint32 TimeZoneRedirection
+  [in] uint32 TimeZoneRedirection
 );
 ```
 
@@ -73,7 +79,7 @@ Returns 0 on success; otherwise returns a WMI error code. Refer to [Remote Deskt
 
 ## Remarks
 
-By default, the time zone for the Remote Desktop Services session is the same as the time zone for the Remote Desktop Session Host (RD Session Host) server. Client computers cannot redirect time zone information.
+By default, the time zone for the Remote Desktop Services session is the same as the time zone for the Remote Desktop Session Host (RD Session Host) server. Client computers cannot redirect time zone information.
 
 If time zone redirection is disabled, new sessions inherit the server time zone. When a session reconnects, the session retains the time zone it had prior to disconnecting.
 
@@ -85,8 +91,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -100,9 +106,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

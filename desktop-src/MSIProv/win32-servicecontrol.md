@@ -1,8 +1,10 @@
 ---
 title: Win32\_ServiceControl class
 description: The Win32\_ServiceControl WMI class represents instructions for controlling installed and uninstalled services.
-ms.assetid: '345bfbf7-48f6-4ea4-a78b-27b0397a8c5f'
-keywords: ["Win32_ServiceControl class", "Win32_ServiceControl class, described"]
+ms.assetid: 345bfbf7-48f6-4ea4-a78b-27b0397a8c5f
+keywords:
+- Win32_ServiceControl class
+- Win32_ServiceControl class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ServiceControl class
@@ -29,7 +36,7 @@ The **Win32\_ServiceControl** [WMI class](https://msdn.microsoft.com/library/aa3
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -85,7 +92,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the [**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461) object—a one-line string.
+Short textual description of the [**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461) object a one-line string.
 
 </dd> <dt>
 
@@ -124,7 +131,7 @@ Bitmap that represents the operations for which this object applies. Decimal val
 
 
 
- 
+ 
 
 The following values are only used during an uninstall.
 
@@ -139,7 +146,7 @@ The following values are only used during an uninstall.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -221,8 +228,8 @@ The **Win32\_ServiceControl** class is derived from [**Win32\_MSIResource**](win
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -236,9 +243,9 @@ The **Win32\_ServiceControl** class is derived from [**Win32\_MSIResource**](win
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EXTCHKBOX structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended check box, which can be added to a property sheet page option.'
-ms.assetid: 'b3b82474-d4e5-467c-93dc-30edac189c66'
+---
+Description: The EXTCHKBOX structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended check box, which can be added to a property sheet page option.
+ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
 title: EXTCHKBOX structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXTCHKBOX structure

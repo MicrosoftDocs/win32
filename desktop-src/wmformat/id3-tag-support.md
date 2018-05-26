@@ -1,8 +1,18 @@
 ---
 title: ID3 Tag Support
 description: ID3 Tag Support
-ms.assetid: '57119b88-5901-4bea-abf6-a67fe71afd1b'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,ID3 tags", "ID3 tags"]
+ms.assetid: 57119b88-5901-4bea-abf6-a67fe71afd1b
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,ID3 tags
+- ID3 tags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3 Tag Support

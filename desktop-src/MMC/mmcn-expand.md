@@ -1,14 +1,15 @@
 ---
 title: MMCN\_EXPAND message
-description: The MMCN\_EXPAND notification message is sent to the snap-in's IComponentData implementation when a scope item must be expanded or collapsed.
+description: The MMCN\_EXPAND notification message is sent to the snap-ins IComponentData implementation when a scope item must be expanded or collapsed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'de89a195-082b-4d5f-bd8c-1c75215ab60f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: de89a195-082b-4d5f-bd8c-1c75215ab60f
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_EXPAND message MMC"]
+keywords:
+- MMCN_EXPAND message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_EXPAND message
@@ -78,8 +82,8 @@ On receipt of this notification the snap-in should enumerate the children (subco
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -94,9 +98,9 @@ On receipt of this notification the snap-in should enumerate the children (subco
 [**IConsoleNameSpace2**](iconsolenamespace2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,22 @@
 ---
 title: About Windows Address Book
 description: Windows provides an address book for storing contact information.
-ms.assetid: '16aefb03-359e-44c2-a87d-595e6a4e4451'
-keywords: ["Windows Address Book (WAB),about", "WAB (Windows Address Book),about", "address books", "Wab.exe", "Windows Address Book (WAB),registering applications", "WAB (Windows Address Book),registering applications", "WAB API", "registering applications to use WAB API", "WAB32.dll"]
+ms.assetid: 16aefb03-359e-44c2-a87d-595e6a4e4451
+keywords:
+- Windows Address Book (WAB),about
+- WAB (Windows Address Book),about
+- address books
+- Wab.exe
+- Windows Address Book (WAB),registering applications
+- WAB (Windows Address Book),registering applications
+- WAB API
+- registering applications to use WAB API
+- WAB32.dll
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Address Book

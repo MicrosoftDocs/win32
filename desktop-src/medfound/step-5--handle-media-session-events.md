@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 5 of the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: 'db9b896f-6f56-47b1-b129-331c984e0b16'
-title: 'Step 5: Handle Media Session Events'
+Description: This topic is step 5 of the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: db9b896f-6f56-47b1-b129-331c984e0b16
+title: Step 5 Handle Media Session Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 5: Handle Media Session Events
@@ -18,16 +23,16 @@ For background on this topic, read [Media Event Generators](media-event-generato
 
 ## Getting Session Events
 
-To get events from the Media Session, the CPlayer object calls the [**IMFMediaEventGenerator::BeginGetEvent**](imfmediaeventgenerator-begingetevent.md) method, as shown in [Step 4: Create the Media Session](step-4--create-the-media-session.md). This method is asynchronous, meaning it returns to the caller immediately. When the next session event occurs, the Media Session calls the [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md) method of the CPlayer object.
+To get events from the Media Session, the CPlayer object calls the [**IMFMediaEventGenerator::BeginGetEvent**](/windows/win32/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent?branch=master) method, as shown in [Step 4: Create the Media Session](step-4--create-the-media-session.md). This method is asynchronous, meaning it returns to the caller immediately. When the next session event occurs, the Media Session calls the [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method of the CPlayer object.
 
-It is important to remember that [**Invoke**](imfasynccallback-invoke.md) gets called from a worker thread, not from the application thread. Therefore, the implementation of **Invoke** must be multithread-safe. One approach would be to protect the member data with a critical section. However, the `CPlayer` class shows an alternative approach:
+It is important to remember that [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) gets called from a worker thread, not from the application thread. Therefore, the implementation of **Invoke** must be multithread-safe. One approach would be to protect the member data with a critical section. However, the `CPlayer` class shows an alternative approach:
 
-1.  In the [**Invoke**](imfasynccallback-invoke.md) method, the CPlayer object posts a **WM\_APP\_PLAYER\_EVENT** message to the application. The message parameter is an [**IMFMediaEvent**](imfmediaevent.md) pointer.
+1.  In the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method, the CPlayer object posts a **WM\_APP\_PLAYER\_EVENT** message to the application. The message parameter is an [**IMFMediaEvent**](/windows/win32/mfobjects/nn-mfobjects-imfmediaevent?branch=master) pointer.
 2.  The application receives the **WM\_APP\_PLAYER\_EVENT** message.
-3.  The application calls the `CPlayer::HandleEvent` method, passing in the [**IMFMediaEvent**](imfmediaevent.md) pointer.
+3.  The application calls the `CPlayer::HandleEvent` method, passing in the [**IMFMediaEvent**](/windows/win32/mfobjects/nn-mfobjects-imfmediaevent?branch=master) pointer.
 4.  The `HandleEvent` method responds to the event.
 
-The following code shows the [**Invoke**](imfasynccallback-invoke.md) method:
+The following code shows the [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method:
 
 
 ```C++
@@ -94,12 +99,12 @@ done:
 
 
 
-The [**Invoke**](imfasynccallback-invoke.md) method performs the following steps:
+The [**Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method performs the following steps:
 
-1.  Call [**IMFMediaEventGenerator::EndGetEvent**](imfmediaeventgenerator-endgetevent.md) to get the event. This method returns a pointer to the [**IMFMediaEvent**](imfmediaevent.md) interface.
-2.  Call [**IMFMediaEvent::GetType**](imfmediaevent-gettype.md) to get the event code.
+1.  Call [**IMFMediaEventGenerator::EndGetEvent**](/windows/win32/mfobjects/nf-mfobjects-imfmediaeventgenerator-endgetevent?branch=master) to get the event. This method returns a pointer to the [**IMFMediaEvent**](/windows/win32/mfobjects/nn-mfobjects-imfmediaevent?branch=master) interface.
+2.  Call [**IMFMediaEvent::GetType**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-gettype?branch=master) to get the event code.
 3.  If the event code is [MESessionClosed](mesessionclosed.md), call SetEvent to set the *m\_hCloseEvent* event. The reason for this step is explained in [Step 7: Shut Down the Media Session](step-7--shut-down-the-media-session.md), and also in the code comments.
-4.  For all other event codes, call [**IMFMediaEventGenerator::BeginGetEvent**](imfmediaeventgenerator-begingetevent.md) to request the next event.
+4.  For all other event codes, call [**IMFMediaEventGenerator::BeginGetEvent**](/windows/win32/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent?branch=master) to request the next event.
 5.  Post a **WM\_APP\_PLAYER\_EVENT** message to the window.
 
 The following code shows the HandleEvent method, which is called when the application receives the **WM\_APP\_PLAYER\_EVENT** message:
@@ -166,7 +171,7 @@ done:
 
 
 
-This method calls [**IMFMediaEvent::GetType**](imfmediaevent-gettype.md) to get the event type and [**IMFMediaEvent::GetStatus**](imfmediaevent-getstatus.md) to get the success of failure code associated with the event. The next action taken depends on the event code.
+This method calls [**IMFMediaEvent::GetType**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-gettype?branch=master) to get the event type and [**IMFMediaEvent::GetStatus**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getstatus?branch=master) to get the success of failure code associated with the event. The next action taken depends on the event code.
 
 ## MESessionTopologyStatus
 
@@ -199,7 +204,7 @@ HRESULT CPlayer::OnTopologyStatus(IMFMediaEvent *pEvent)
 
 The `CPlayer::StartPlayback` method is shown in [Step 6: Control Playback](step-6--control-playback.md).
 
-This example also calls [**MFGetService**](mfgetservice.md) to get the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interface from the [Enhanced Video Renderer](enhanced-video-renderer.md) (EVR). This interface is needed to handle repainting and resizing the video window, also shown in [Step 6: Control Playback](step-6--control-playback.md).
+This example also calls [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) to get the [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) interface from the [Enhanced Video Renderer](enhanced-video-renderer.md) (EVR). This interface is needed to handle repainting and resizing the video window, also shown in [Step 6: Control Playback](step-6--control-playback.md).
 
 ## MEEndOfPresentation
 
@@ -220,9 +225,9 @@ HRESULT CPlayer::OnPresentationEnded(IMFMediaEvent *pEvent)
 
 ## MENewPresentation
 
-The [MENewPresentation](menewpresentation.md) event signals the start of a new presentation. The event data is an [**IMFPresentationDescriptor**](imfpresentationdescriptor.md) pointer for the new presentation.
+The [MENewPresentation](menewpresentation.md) event signals the start of a new presentation. The event data is an [**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master) pointer for the new presentation.
 
-In many cases, you will not receive this event at all. If you do, use the [**IMFPresentationDescriptor**](imfpresentationdescriptor.md) pointer to create a new playback topology, as shown in [Step 3: Open a Media File](step-3--open-a-media-file.md). Then queue the new topology on the Media Session.
+In many cases, you will not receive this event at all. If you do, use the [**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master) pointer to create a new playback topology, as shown in [Step 3: Open a Media File](step-3--open-a-media-file.md). Then queue the new topology on the Media Session.
 
 
 ```C++

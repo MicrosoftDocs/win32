@@ -1,12 +1,17 @@
 ---
-Description: 'A call to the PeerGroupSearchRecords function requires an XML query string parameter that is used to determine the basic criteria of a search.'
-ms.assetid: '2c5ab425-6959-418a-8d9a-c8155257fc7e'
+Description: A call to the PeerGroupSearchRecords function requires an XML query string parameter that is used to determine the basic criteria of a search.
+ms.assetid: 2c5ab425-6959-418a-8d9a-c8155257fc7e
 title: Record Search Query Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record Search Query Format
 
-A call to the [**PeerGroupSearchRecords**](peergroupsearchrecords.md) function requires an XML query string parameter that is used to determine the basic criteria of a search. Use the following schema to formulate an XML string:
+A call to the [**PeerGroupSearchRecords**](/windows/win32/P2P/nf-p2p-peergroupsearchrecords?branch=master) function requires an XML query string parameter that is used to determine the basic criteria of a search. Use the following schema to formulate an XML string:
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?>
@@ -96,7 +101,7 @@ The primary element in a record search is **peersearch**, which contains the Uni
 
 <!-- -->
 
--   **clause** - The **clause** element specifies a basic comparative rule that compares the value of a specific record attribute with the value contained between the opening and closing tags. The **type** and **compare** attributes must be provided—**compare** indicates the comparison operation to be performed. For example, a simple search that indicates all matched records must have a **peercreatorid** value equal to James Peters appears in the XML query string as the following:
+-   **clause** - The **clause** element specifies a basic comparative rule that compares the value of a specific record attribute with the value contained between the opening and closing tags. The **type** and **compare** attributes must be provided **compare** indicates the comparison operation to be performed. For example, a simple search that indicates all matched records must have a **peercreatorid** value equal to James Peters appears in the XML query string as the following:
 
     ``` syntax
     <?xml version="1.0" encoding="utf-8" ?> 
@@ -168,7 +173,7 @@ The following list identifies other specific information that you must know to w
 
 ## Record Attributes
 
-By using the [Record Attribute Schema](record-attribute-schema.md), a user can create record attributes that the **attrib** XML attribute in a clause element specifies. Attributes for a new record are added by setting the **pszAttributes** member of [**PEER\_RECORD**](peer-record.md) to an XML string—using the format specified in the schema.
+By using the [Record Attribute Schema](record-attribute-schema.md), a user can create record attributes that the **attrib** XML attribute in a clause element specifies. Attributes for a new record are added by setting the **pszAttributes** member of [**PEER\_RECORD**](/windows/win32/P2P/ns-p2p-peer_record_tag?branch=master) to an XML string using the format specified in the schema.
 
 The Peer Infrastructure reserves the following attribute names:
 
@@ -194,13 +199,13 @@ Certain characters can be used to express matching patterns, or to escape other 
 
 
 
- 
+ 
 
-If the character sequence is not valid, the [**PeerGroupSearchRecords**](peergroupsearchrecords.md) function returns the error **E\_INVALIDARG**. An invalid sequence is any sequence that contains a "\\" (backslash) character not immediately followed by either an "\*" (asterisk) character, a "?" (question mark) character, or another "\\" (backslash) character.
+If the character sequence is not valid, the [**PeerGroupSearchRecords**](/windows/win32/P2P/nf-p2p-peergroupsearchrecords?branch=master) function returns the error **E\_INVALIDARG**. An invalid sequence is any sequence that contains a "\\" (backslash) character not immediately followed by either an "\*" (asterisk) character, a "?" (question mark) character, or another "\\" (backslash) character.
 
- 
+ 
 
- 
+ 
 
 
 

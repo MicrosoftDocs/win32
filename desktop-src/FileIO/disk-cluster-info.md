@@ -1,7 +1,12 @@
 ---
-Description: 'Represents information maintained on the partition manager about a disk that is part of a cluster.'
-ms.assetid: '9138F61A-E295-4F5B-AD65-361FCCB3C4B7'
-title: 'DISK\_CLUSTER\_INFO structure'
+Description: Represents information maintained on the partition manager about a disk that is part of a cluster.
+ms.assetid: 9138F61A-E295-4F5B-AD65-361FCCB3C4B7
+title: DISK\_CLUSTER\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DISK\_CLUSTER\_INFO structure
@@ -13,10 +18,10 @@ Represents information maintained on the partition manager about a disk that is 
 
 ```C++
 typedef struct _DISK_CLUSTER_INFO {
-  ULONG     Version;
+  ULONG     Version;
   ULONGLONG Flags;
   ULONGLONG FlagsMask;
-  BOOLEAN   Notify;
+  BOOLEAN   Notify;
 } DISK_CLUSTER_INFO, *PDISK_CLUSTER_INFO;
 ```
 
@@ -49,7 +54,7 @@ A combination of flags related to disks and clusters.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -74,7 +79,7 @@ The flags that are being modified in the **Flags** member.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Ntdddisk.h</dt> </dl> |
 
 
@@ -92,9 +97,9 @@ The flags that are being modified in the **Flags** member.
 [**IOCTL\_DISK\_SET\_CLUSTER\_INFO**](ioctl-disk-set-cluster-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

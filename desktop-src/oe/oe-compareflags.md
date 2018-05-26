@@ -1,8 +1,10 @@
 ---
 title: COMPAREFLAGS enumeration
 description: Do not use. This flag is used when defining indices of a database table. It specifies how database should compare two values.
-ms.assetid: '20e28048-003b-4d67-b991-bfc4a8db9de9'
-keywords: ["COMPAREFLAGS enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 20e28048-003b-4d67-b991-bfc4a8db9de9
+keywords:
+- COMPAREFLAGS enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Directdb.idl
 api_type:
 - IDLDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COMPAREFLAGS enumeration
@@ -22,9 +29,9 @@ Do not use. This flag is used when defining indices of a database table. It spec
 
 ```C++
 typedef enum  { 
-  COMPARE_IGNORECASE  = 0x00000001,
-  COMPARE_DESCENDING  = 0x00000002,
-  COMPARE_ASANSI      = 0x00000004
+  COMPARE_IGNORECASE  = 0x00000001,
+  COMPARE_DESCENDING  = 0x00000002,
+  COMPARE_ASANSI      = 0x00000004
 } ACCESSTYPE;
 ```
 
@@ -61,16 +68,16 @@ String value is treated as ANSI.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

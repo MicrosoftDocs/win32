@@ -4,13 +4,19 @@ description: Creates a new guardian by using the certificates identified by the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28bd59fb-2b9a-4f2b-9ed6-e0a709fd3768'
-ms.prod: 'windows-server-dev'
+ms.assetid: 28bd59fb-2b9a-4f2b-9ed6-e0a709fd3768
+ms.prod: windows-server-dev
 ms.technology:
-- 'host-guardian-service'
-- 'windows-management-instrumentation'
+- host-guardian-service
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewByCertificateThumbprints method", "NewByCertificateThumbprints method, MSFT_HgsGuardian class", "MSFT_HgsGuardian class, NewByCertificateThumbprints method"]
+keywords:
+- NewByCertificateThumbprints method
+- NewByCertificateThumbprints method, MSFT_HgsGuardian class
+- MSFT_HgsGuardian class, NewByCertificateThumbprints method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewByCertificateThumbprints method of the MSFT\_HgsGuardian class
@@ -22,12 +28,12 @@ Creates a new guardian by using the certificates identified by the specified thu
 
 ```mof
 uint32 NewByCertificateThumbprints(
-  [in]  string           Name,
-  [in]  string           SigningCertificateThumbprint,
-  [in]  string           EncryptionCertificateThumbprint,
-  [in]  boolean          AllowExpired,
-  [in]  boolean          AllowUntrustedRoot,
-  [out] MSFT_HgsGuardian cmdletOutput
+  [in]  string           Name,
+  [in]  string           SigningCertificateThumbprint,
+  [in]  string           EncryptionCertificateThumbprint,
+  [in]  boolean          AllowExpired,
+  [in]  boolean          AllowUntrustedRoot,
+  [out] MSFT_HgsGuardian cmdletOutput
 );
 ```
 
@@ -89,8 +95,8 @@ TBD
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Hgs<br/>                                                    |
 | MOF<br/>                      | <dl> <dt>HgsClientWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>HgsClientWmi.dll</dt> </dl> |
@@ -104,9 +110,9 @@ TBD
 [**MSFT\_HgsGuardian**](msft-hgsguardian.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

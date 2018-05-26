@@ -1,8 +1,21 @@
 ---
 title: Windows Media Player Object Model Reference
 description: Windows Media Player Object Model Reference
-ms.assetid: 'af313b94-230b-47d7-a3ad-7e23b669886f'
-keywords: ["Windows Media Player,object model", "Windows Media Player Mobile,object model", "Windows Media Player object model,reference", "object model,reference", "ActiveX control,reference", "Windows Media Player ActiveX control,reference", "Windows Media Player Mobile ActiveX control,reference", "reference for object model,about"]
+ms.assetid: af313b94-230b-47d7-a3ad-7e23b669886f
+keywords:
+- Windows Media Player,object model
+- Windows Media Player Mobile,object model
+- Windows Media Player object model,reference
+- object model,reference
+- ActiveX control,reference
+- Windows Media Player ActiveX control,reference
+- Windows Media Player Mobile ActiveX control,reference
+- reference for object model,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Object Model Reference

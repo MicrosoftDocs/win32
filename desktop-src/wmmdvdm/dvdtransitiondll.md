@@ -1,14 +1,20 @@
 ---
 title: DVDTransitionDLL element
 description: The boundary tag for a single DVD transition object.
-ms.assetid: 'd99b4cd7-61c5-45dd-95c3-41e53f32dbc5'
-keywords: ["DVDTransitionDLL element Windows Movie Maker and DVD Maker"]
+ms.assetid: d99b4cd7-61c5-45dd-95c3-41e53f32dbc5
+keywords:
+- DVDTransitionDLL element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - DVDTransitionDLL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVDTransitionDLL element
@@ -49,7 +55,7 @@ This object can hold one or more DVD transitions.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ This object can hold one or more DVD transitions.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordSrv class
 description: Represents a service (SRV) resource record on a DNS server.
 audience: developer
-ms.assetid: 'd39cca8d-2abc-4928-864a-83132ba4110e'
-ms.prod: 'windows-server-dev'
+ms.assetid: d39cca8d-2abc-4928-864a-83132ba4110e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordSrv class", "DnsServerResourceRecordSrv class, described"]
+keywords:
+- DnsServerResourceRecordSrv class
+- DnsServerResourceRecordSrv class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordSrv class
@@ -113,7 +118,7 @@ Indicates the load balancing weight for the SRV resource record.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -130,9 +135,9 @@ Indicates the load balancing weight for the SRV resource record.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

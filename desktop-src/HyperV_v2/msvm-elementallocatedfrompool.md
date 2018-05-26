@@ -1,7 +1,12 @@
 ---
-Description: 'Associates an instance of an allocated resource with the resource pool from which it was allocated.'
-ms.assetid: 'BA3168C7-E4F1-414B-827B-1A811069F223'
-title: 'Msvm\_ElementAllocatedFromPool class'
+Description: Associates an instance of an allocated resource with the resource pool from which it was allocated.
+ms.assetid: BA3168C7-E4F1-414B-827B-1A811069F223
+title: Msvm\_ElementAllocatedFromPool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ElementAllocatedFromPool class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ElementAllocatedFromPool : CIM_ElementAllocatedFromPool
 {
-  CIM_ResourcePool   REF Antecedent;
+  CIM_ResourcePool   REF Antecedent;
   CIM_LogicalElement REF Dependent;
 };
 ```
@@ -72,8 +77,8 @@ Access to the **Msvm\_ElementAllocatedFromPool** class might be restricted by UA
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -96,9 +101,9 @@ Access to the **Msvm\_ElementAllocatedFromPool** class might be restricted by UA
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

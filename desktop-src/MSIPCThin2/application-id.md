@@ -4,10 +4,13 @@ description: Creating an RMS-enabled app with the Rights Management SDK 4.2 req
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'CF0FE9DC-BC91-4018-B28D-2DB293A3EAA2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: CF0FE9DC-BC91-4018-B28D-2DB293A3EAA2
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Get an Azure Application ID

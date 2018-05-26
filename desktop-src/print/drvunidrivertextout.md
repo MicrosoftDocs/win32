@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvUnidriverTextOut function is obsolete.'
-ms.assetid: '72ba09b2-a889-439d-bbf2-ee6f9ebf5535'
-title: 'PFN\_DrvUnidriverTextOut callback function'
+---
+Description: The DrvUnidriverTextOut function is obsolete.
+ms.assetid: 72ba09b2-a889-439d-bbf2-ee6f9ebf5535
+title: PFN\_DrvUnidriverTextOut callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvUnidriverTextOut callback function

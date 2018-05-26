@@ -1,14 +1,20 @@
 ---
 title: TextInteraction (TextInteractions) Element
 description: Defines the text interaction.
-ms.assetid: 'c6c963bf-b52a-4229-a1c8-df9701f24ebc'
-keywords: ["TextInteraction element Windows Troubleshooting Toolkit"]
+ms.assetid: c6c963bf-b52a-4229-a1c8-df9701f24ebc
+keywords:
+- TextInteraction element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - TextInteraction
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextInteraction (TextInteractions) Element
@@ -27,14 +33,14 @@ The **TextInteraction** element is defined by the [**TextInteractions**](package
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

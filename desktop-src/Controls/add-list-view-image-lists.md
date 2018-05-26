@@ -1,7 +1,12 @@
 ---
 title: How to Add List-View Image Lists
 description: This topic demonstrates how to add image lists to a list-view control.
-ms.assetid: '3C282FBC-5E37-4D8E-A2C4-B2876874E9A7'
+ms.assetid: 3C282FBC-5E37-4D8E-A2C4-B2876874E9A7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Add List-View Image Lists
@@ -25,7 +30,7 @@ You create only the image lists that the control uses. For example, if your appl
 
 ### 
 
-To display item images, you must assign an image list to the list-view control. To do this, use the [**LVM\_SETIMAGELIST**](lvm-setimagelist.md) message or the corresponding macro [**ListView\_SetImageList**](listview-setimagelist.md), specifying whether the image list contains full-sized icons, small icons, or state images. To retrieve the handle to an image list that is currently assigned to a list-view control, use the [**LVM\_GETIMAGELIST**](lvm-getimagelist.md) message. You can use the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function to determine appropriate dimensions for the full-sized and small icons.
+To display item images, you must assign an image list to the list-view control. To do this, use the [**LVM\_SETIMAGELIST**](lvm-setimagelist.md) message or the corresponding macro [**ListView\_SetImageList**](/windows/win32/Commctrl/nf-commctrl-listview_setimagelist?branch=master), specifying whether the image list contains full-sized icons, small icons, or state images. To retrieve the handle to an image list that is currently assigned to a list-view control, use the [**LVM\_GETIMAGELIST**](lvm-getimagelist.md) message. You can use the [**GetSystemMetrics**](https://msdn.microsoft.com/library/windows/desktop/ms724385) function to determine appropriate dimensions for the full-sized and small icons.
 
 In the following C++ code example, the application-defined function first creates image lists and then assigns them to a list-view control.
 

@@ -1,7 +1,12 @@
 ---
 title: The HTML Help Components
 description: HTML Help is made up of several components.
-ms.assetid: '7A6A6E25-F4D5-4fc2-B696-77F782EDA0AC'
+ms.assetid: 7A6A6E25-F4D5-4fc2-B696-77F782EDA0AC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The HTML Help Components

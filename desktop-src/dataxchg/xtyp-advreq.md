@@ -1,8 +1,9 @@
 ---
 title: XTYP\_ADVREQ transaction
 description: The XTYP\_ADVREQ transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed.
-ms.assetid: '9bd43e61-cbd6-4d53-bab3-90e85819b16b'
-keywords: ["XTYP_ADVREQ transaction Data Exchange"]
+ms.assetid: 9bd43e61-cbd6-4d53-bab3-90e85819b16b
+keywords:
+- XTYP_ADVREQ transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_ADVREQ transaction
 
-The **XTYP\_ADVREQ** transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed. The system sends this transaction to the Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](ddecallback.md), after the server calls the [**DdePostAdvise**](ddepostadvise.md) function.
+The **XTYP\_ADVREQ** transaction informs the server that an advise transaction is outstanding on the specified topic name and item name pair and that data corresponding to the topic name and item name pair has changed. The system sends this transaction to the Dynamic Data Exchange (DDE) callback function, [*DdeCallback*](ddecallback.md), after the server calls the [**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master) function.
 
 
 ```C++
@@ -75,7 +81,7 @@ Not used.
 *dwData1* 
 </dt> <dd>
 
-The count, in the low-order word, of **XTYP\_ADVREQ** transactions that remain to be processed on the same topic, item, and format name set within the context of the current call to the [**DdePostAdvise**](ddepostadvise.md) function. The count is zero if the current **XTYP\_ADVREQ** transaction is the last one. A server can use this count to determine whether to create an **HDATA\_APPOWNED** data handle to the advise data.
+The count, in the low-order word, of **XTYP\_ADVREQ** transactions that remain to be processed on the same topic, item, and format name set within the context of the current call to the [**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master) function. The count is zero if the current **XTYP\_ADVREQ** transaction is the last one. A server can use this count to determine whether to create an **HDATA\_APPOWNED** data handle to the advise data.
 
 The low-order word is set to **CADV\_LATEACK** if the DDEML issued the **XTYP\_ADVREQ** transaction because of a late-arriving DDE\_ACK message from a client being outrun by the server.
 
@@ -92,7 +98,7 @@ Not used.
 
 ## Return value
 
-The server should first call the [**DdeCreateDataHandle**](ddecreatedatahandle.md) function to create a data handle that identifies the changed data and then return the handle. The server should return **NULL** if it is unable to complete the transaction.
+The server should first call the [**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master) function to create a data handle that identifies the changed data and then return the handle. The server should return **NULL** if it is unable to complete the transaction.
 
 ## Remarks
 
@@ -104,8 +110,8 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -117,13 +123,13 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 **Reference**
 </dt> <dt>
 
-[**DdeCreateDataHandle**](ddecreatedatahandle.md)
+[**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
-[**DdePostAdvise**](ddepostadvise.md)
+[**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -132,9 +138,9 @@ A server cannot block this transaction type; the **CBR\_BLOCK** return code is i
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

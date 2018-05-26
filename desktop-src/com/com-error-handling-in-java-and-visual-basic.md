@@ -1,7 +1,12 @@
 ---
 title: COM Error Handling in Java and Visual Basic
 description: COM Error Handling in Java and Visual Basic
-ms.assetid: '1130a038-3c18-4530-a6d7-9f538352297f'
+ms.assetid: 1130a038-3c18-4530-a6d7-9f538352297f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Error Handling in Java and Visual Basic
@@ -20,7 +25,7 @@ The three interfaces that provide support for **HRESULT**s are listed and descri
 
 
 
- 
+ 
 
 The three functions that provide support for **HRESULT**s are listed and described briefly in the following table.
 
@@ -34,7 +39,7 @@ The three functions that provide support for **HRESULT**s are listed and describ
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -43,9 +48,9 @@ The three functions that provide support for **HRESULT**s are listed and describ
 [Error Handling in COM](error-handling-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

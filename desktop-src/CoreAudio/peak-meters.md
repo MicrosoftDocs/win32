@@ -1,16 +1,21 @@
 ---
 Description: Peak Meters
-ms.assetid: '02f5d1b4-ba4f-424a-897f-b113d1f7cd6b'
+ms.assetid: 02f5d1b4-ba4f-424a-897f-b113d1f7cd6b
 title: Peak Meters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peak Meters
 
-To support Windows applications that display peak meters, the [EndpointVolume API](endpointvolume-api.md) includes an [**IAudioMeterInformation**](iaudiometerinformation.md) interface. This interface represents a peak meter on an [audio endpoint device](audio-endpoint-devices.md). For a rendering device, the value retrieved from the peak meter represents the maximum sample value encountered in the output stream to the device during the preceding metering period. For a capture device, the value retrieved from the peak meter represents the maximum sample value encountered in the input stream from the device.
+To support Windows applications that display peak meters, the [EndpointVolume API](endpointvolume-api.md) includes an [**IAudioMeterInformation**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudiometerinformation?branch=master) interface. This interface represents a peak meter on an [audio endpoint device](audio-endpoint-devices.md). For a rendering device, the value retrieved from the peak meter represents the maximum sample value encountered in the output stream to the device during the preceding metering period. For a capture device, the value retrieved from the peak meter represents the maximum sample value encountered in the input stream from the device.
 
-The peak-meter values obtained from the methods in the [**IAudioMeterInformation**](iaudiometerinformation.md) interface are floating-point numbers in the normalized range from 0.0 to 1.0. For example, if a PCM stream contains 16-bit samples, and the peak sample value during a particular metering period is —8914, then the absolute value recorded by the peak meter is 8914, and the normalized peak value reported by the **IAudioMeterInformation** interface is 8914/32768 = 0.272.
+The peak-meter values obtained from the methods in the [**IAudioMeterInformation**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudiometerinformation?branch=master) interface are floating-point numbers in the normalized range from 0.0 to 1.0. For example, if a PCM stream contains 16-bit samples, and the peak sample value during a particular metering period is —8914, then the absolute value recorded by the peak meter is 8914, and the normalized peak value reported by the **IAudioMeterInformation** interface is 8914/32768 = 0.272.
 
-If the audio endpoint device implements the peak meter in hardware, the [**IAudioMeterInformation**](iaudiometerinformation.md) interface uses the hardware peak meter. Otherwise, the interface implements the peak meter in software.
+If the audio endpoint device implements the peak meter in hardware, the [**IAudioMeterInformation**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudiometerinformation?branch=master) interface uses the hardware peak meter. Otherwise, the interface implements the peak meter in software.
 
 If a device has a hardware peak meter, the peak meter is active both in shared mode and in exclusive mode. If a device lacks hardware peak meter, the peak meter is active in shared mode, but not in exclusive mode. In exclusive mode, the application and the audio hardware exchange audio data directly, bypassing the software peak meter (which always reports a peak value of 0.0).
 
@@ -171,11 +176,11 @@ void DrawPeakMeter(HWND hPeakMeter, float peak)
 
 
 
-In the preceding code example, the [**WinMain**](winmsg.winmain) function calls the [**CoCreateInstance**](com.cocreateinstance) function to create an instance of the [**IMMDeviceEnumerator**](immdeviceenumerator.md) interface, and it calls the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md) method to obtain the [**IMMDevice**](immdevice.md) interface of the default rendering device. **WinMain** calls the [**IMMDevice::Activate**](immdevice-activate.md) method to obtain the device's [**IAudioMeterInformation**](iaudiometerinformation.md) interface, and it opens a dialog box to display a peak meter for the device. For more information about **WinMain** and **CoCreateInstance**, see the Windows SDK documentation. For more information about **IMMDeviceEnumerator** and **IMMDevice**, see [Enumerating Audio Devices](enumerating-audio-devices.md).
+In the preceding code example, the [**WinMain**](winmsg.winmain) function calls the [**CoCreateInstance**](com.cocreateinstance) function to create an instance of the [**IMMDeviceEnumerator**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator?branch=master) interface, and it calls the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master) method to obtain the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface of the default rendering device. **WinMain** calls the [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) method to obtain the device's [**IAudioMeterInformation**](/windows/win32/Endpointvolume/nn-endpointvolume-iaudiometerinformation?branch=master) interface, and it opens a dialog box to display a peak meter for the device. For more information about **WinMain** and **CoCreateInstance**, see the Windows SDK documentation. For more information about **IMMDeviceEnumerator** and **IMMDevice**, see [Enumerating Audio Devices](enumerating-audio-devices.md).
 
-In the preceding code example, the DlgProc function displays the peak meter in the dialog box. During processing of the WM\_INITDIALOG message, DlgProc calls the [**SetTimer**](winmsg.settimer) function to set up a timer that will generate WM\_TIMER messages at regular time intervals. When DlgProc receives a WM\_TIMER message, it calls [**IAudioMeterInformation::GetPeakValue**](iaudiometerinformation-getpeakvalue.md) to obtain the latest peak-meter reading for the stream. DlgProc then calls the DrawPeakMeter function to draw the updated peak meter in the dialog box. For more information about **SetTimer** and the WM\_INITDIALOG and WM\_TIMER messages, see the Windows SDK documentation.
+In the preceding code example, the DlgProc function displays the peak meter in the dialog box. During processing of the WM\_INITDIALOG message, DlgProc calls the [**SetTimer**](winmsg.settimer) function to set up a timer that will generate WM\_TIMER messages at regular time intervals. When DlgProc receives a WM\_TIMER message, it calls [**IAudioMeterInformation::GetPeakValue**](/windows/win32/Endpointvolume/nf-endpointvolume-iaudiometerinformation-getpeakvalue?branch=master) to obtain the latest peak-meter reading for the stream. DlgProc then calls the DrawPeakMeter function to draw the updated peak meter in the dialog box. For more information about **SetTimer** and the WM\_INITDIALOG and WM\_TIMER messages, see the Windows SDK documentation.
 
-You can easily modify the preceding code example to display a peak meter for the default capture device. In the [**WinMain**](winmsg.winmain) function, change the value of the first parameter in the call to the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md) from eRender to eCapture.
+You can easily modify the preceding code example to display a peak meter for the default capture device. In the [**WinMain**](winmsg.winmain) function, change the value of the first parameter in the call to the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master) from eRender to eCapture.
 
 The following code example is the resource script that defines the controls that appear in the preceding code example:
 

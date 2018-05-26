@@ -1,8 +1,16 @@
 ---
 title: ForwardMessageExample
 description: This example forwards a message.
-ms.assetid: 'bedaa7f3-2a43-45f4-a623-c0e41b5113a4'
-keywords: ["ForwardMessageExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: bedaa7f3-2a43-45f4-a623-c0e41b5113a4
+keywords:
+- ForwardMessageExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ForwardMessageExample

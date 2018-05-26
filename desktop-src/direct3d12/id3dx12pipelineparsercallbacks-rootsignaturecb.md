@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks RootSignatureCb method
 description: Calls the root signature subobject callback of an object that implements this interface.
-ms.assetid: 'FD467001-41B1-4A73-8E54-12C6B5EEAC3E'
-keywords: ["RootSignatureCb method", "RootSignatureCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, RootSignatureCb method"]
+ms.assetid: FD467001-41B1-4A73-8E54-12C6B5EEAC3E
+keywords:
+- RootSignatureCb method
+- RootSignatureCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, RootSignatureCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::RootSignatureCb method
@@ -22,7 +30,7 @@ Calls the root signature subobject callback of an object that implements this in
 
 ```C++
 void RootSignatureCb(
-   ID3D12RootSignature *RootSignature
+   ID3D12RootSignature *RootSignature
 );
 ```
 
@@ -35,7 +43,7 @@ void RootSignatureCb(
 *RootSignature* 
 </dt> <dd>
 
-Type: **[**ID3D12RootSignature**](id3d12rootsignature.md)\***
+Type: **[**ID3D12RootSignature**](/windows/win32/D3D12/?branch=master)\***
 
 Details of the root signature subobject parsed from a pipeline state stream.
 
@@ -67,12 +75,12 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**ID3D12RootSignature**](id3d12rootsignature.md)
+[**ID3D12RootSignature**](/windows/win32/D3D12/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Relates a connection security rule to its Quick Mode Crypto Set.'
-ms.assetid: 'd6e6f654-09ac-4666-a8f5-f364a5045514'
-title: 'MSFT\_NetConSecRuleQMCryptoSet class'
+Description: Relates a connection security rule to its Quick Mode Crypto Set.
+ms.assetid: d6e6f654-09ac-4666-a8f5-f364a5045514
+title: MSFT\_NetConSecRuleQMCryptoSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetConSecRuleQMCryptoSet class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetConSecRuleQMCryptoSet : MSFT_NetSARuleQMCrypto
 {
-  MSFT_NetConSecRule     REF GroupComponent;
+  MSFT_NetConSecRule     REF GroupComponent;
   MSFT_NetIKEQMCryptoSet REF PartComponent;
-  uint16                     ActionOrder;
+  uint16                     ActionOrder;
 };
 ```
 
@@ -84,17 +89,17 @@ The Quick Mode crypto set used by this rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

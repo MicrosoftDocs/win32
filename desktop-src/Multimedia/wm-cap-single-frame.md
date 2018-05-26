@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SINGLE\_FRAME message
 description: The WM\_CAP\_SINGLE\_FRAME message appends a single frame to a capture file that was opened using the WM\_CAP\_SINGLE\_FRAME\_OPEN message. You can send this message explicitly or by using the capCaptureSingleFrame macro.
-ms.assetid: '95466961-0719-4ff7-afc8-f7bf0e0974ac'
-keywords: ["WM_CAP_SINGLE_FRAME message Windows Multimedia"]
+ms.assetid: 95466961-0719-4ff7-afc8-f7bf0e0974ac
+keywords:
+- WM_CAP_SINGLE_FRAME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SINGLE\_FRAME message
 
-The **WM\_CAP\_SINGLE\_FRAME** message appends a single frame to a capture file that was opened using the [**WM\_CAP\_SINGLE\_FRAME\_OPEN**](wm-cap-single-frame-open.md) message. You can send this message explicitly or by using the [**capCaptureSingleFrame**](capcapturesingleframe.md) macro.
+The **WM\_CAP\_SINGLE\_FRAME** message appends a single frame to a capture file that was opened using the [**WM\_CAP\_SINGLE\_FRAME\_OPEN**](wm-cap-single-frame-open.md) message. You can send this message explicitly or by using the [**capCaptureSingleFrame**](/windows/win32/Vfw/nf-vfw-capcapturesingleframe?branch=master) macro.
 
 
 ```C++
@@ -36,8 +42,8 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -52,9 +58,9 @@ Returns **TRUE** if successful or **FALSE** otherwise.
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

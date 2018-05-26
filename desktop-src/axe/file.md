@@ -1,14 +1,20 @@
 ---
 title: File element
 description: Holds information that describes a file.
-ms.assetid: 'e2146b74-9914-436b-a339-8778e162bedc'
-keywords: ["File element Access Execution Engine"]
+ms.assetid: e2146b74-9914-436b-a339-8778e162bedc
+keywords:
+- File element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - File
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File element
@@ -80,9 +86,9 @@ Source for this element is the assessment.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

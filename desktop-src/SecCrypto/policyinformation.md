@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides access to the policy information of an extension.'
-ms.assetid: '03d627b3-2d44-4637-97a4-85cdcaf3e4d3'
+---
+Description: Provides access to the policy information of an extension.
+ms.assetid: 03d627b3-2d44-4637-97a4-85cdcaf3e4d3
 title: PolicyInformation object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PolicyInformation object

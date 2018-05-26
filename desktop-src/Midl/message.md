@@ -2,13 +2,19 @@
 title: message attribute
 description: The \ message\ attribute indicates that the remote procedure call is to be treated as a message from the client to the server.
 ms.assetid: ec616bf5-a845-4e7e-9f39-20947d2074f7
-keywords: ["message attribute MIDL"]
+keywords:
+- message attribute MIDL
 topic_type:
 - apiref
 api_name:
 - message
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # message attribute

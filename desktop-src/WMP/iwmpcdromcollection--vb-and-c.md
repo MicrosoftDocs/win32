@@ -1,8 +1,10 @@
 ---
 title: IWMPCdromCollection (VB and C\ ) interface
 description: Provides a way to organize and access a collection of CD or DVD drives.The IWMPCdromCollection interface exposes the following property.
-ms.assetid: '60874603-d9c8-4ed1-a92a-bd069bd0c253'
-keywords: ["IWMPCdromCollection (VB and C ) interface Windows Media Player", "IWMPCdromCollection (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 60874603-d9c8-4ed1-a92a-bd069bd0c253
+keywords:
+- IWMPCdromCollection (VB and C ) interface Windows Media Player
+- IWMPCdromCollection (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromCollection (VB and C#) interface
@@ -39,7 +46,7 @@ The **IWMPCdromCollection (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,7 +60,7 @@ The **IWMPCdromCollection (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPCdromCollection** interface by using the following property.
 
@@ -65,7 +72,7 @@ Get an **IWMPCdromCollection** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,9 +94,9 @@ Get an **IWMPCdromCollection** interface by using the following property.
 [**IWMPCdrom Interface (VB and C#)**](iwmpcdrom--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

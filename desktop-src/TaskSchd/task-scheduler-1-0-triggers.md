@@ -1,7 +1,12 @@
 ---
 title: Task Scheduler 1.0 Triggers
 description: The following topics refer to triggers used by Task Scheduler 1.0 tasks. They are included here for developers who are looking at existing code.
-ms.assetid: '76064508-0fae-4763-8ee9-90b9de9e4937'
+ms.assetid: 76064508-0fae-4763-8ee9-90b9de9e4937
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler 1.0 Triggers

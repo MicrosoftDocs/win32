@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes the DOT4\_DC\_DESTROY\_DATA structure.'
-ms.assetid: '1AA00E3C-C6FB-49A4-9EFB-DFFEEFF4C0A0'
-title: 'DOT4\_DC\_DESTROY\_DATA structure'
+---
+Description: This topic describes the DOT4\_DC\_DESTROY\_DATA structure.
+ms.assetid: 1AA00E3C-C6FB-49A4-9EFB-DFFEEFF4C0A0
+title: DOT4\_DC\_DESTROY\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT4\_DC\_DESTROY\_DATA structure

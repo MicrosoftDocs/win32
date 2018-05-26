@@ -1,7 +1,12 @@
 ---
-Description: 'To help maintain a secure software installation on locked-down computers, adhere to these guidelines when authoring the Windows Installer package.'
-ms.assetid: '46ee99a9-b77d-4138-98f0-04428e68cf30'
-title: 'Guidelines for Securing Packages on Locked-Down Computers'
+Description: To help maintain a secure software installation on locked-down computers, adhere to these guidelines when authoring the Windows Installer package.
+ms.assetid: 46ee99a9-b77d-4138-98f0-04428e68cf30
+title: Guidelines for Securing Packages on Locked-Down Computers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for Securing Packages on Locked-Down Computers

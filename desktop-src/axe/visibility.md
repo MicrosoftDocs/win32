@@ -1,14 +1,20 @@
 ---
 title: Visibility element
 description: Defines the visibility of the parameter.
-ms.assetid: '703F32EA-B390-4109-8EC4-51D6C446D9D8'
-keywords: ["Visibility element Access Execution Engine"]
+ms.assetid: 703F32EA-B390-4109-8EC4-51D6C446D9D8
+keywords:
+- Visibility element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Visibility
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visibility element
@@ -64,9 +70,9 @@ There are no parent elements.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

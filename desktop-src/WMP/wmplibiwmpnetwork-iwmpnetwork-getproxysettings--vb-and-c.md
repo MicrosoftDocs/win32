@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork getProxySettings method
 description: The getProxySettings method returns information about the proxy settings for a protocol.
-ms.assetid: 'eda4829a-4869-4557-8fe9-8061a1e0f586'
-keywords: ["getProxySettings method Windows Media Player", "getProxySettings method Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , getProxySettings method"]
+ms.assetid: eda4829a-4869-4557-8fe9-8061a1e0f586
+keywords:
+- getProxySettings method Windows Media Player
+- getProxySettings method Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , getProxySettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::getProxySettings method
@@ -75,7 +83,7 @@ A **System.Int32** that is one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -178,9 +186,9 @@ End Select</code></pre></td>
 [**IWMPNetwork.setProxySettings (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-setproxysettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

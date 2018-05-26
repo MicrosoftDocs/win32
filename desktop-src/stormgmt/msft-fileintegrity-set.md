@@ -1,8 +1,11 @@
 ---
 title: Set method of the MSFT\_FileIntegrity class
 description: Sets the file integrity state for the specified file.
-ms.assetid: '19ADB940-56F2-44C1-BC9A-77869930B5DB'
-keywords: ["Set method Windows Storage Management API", "Set method Windows Storage Management API , MSFT_FileIntegrity class", "MSFT_FileIntegrity class Windows Storage Management API , Set method"]
+ms.assetid: 19ADB940-56F2-44C1-BC9A-77869930B5DB
+keywords:
+- Set method Windows Storage Management API
+- Set method Windows Storage Management API , MSFT_FileIntegrity class
+- MSFT_FileIntegrity class Windows Storage Management API , Set method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set method of the MSFT\_FileIntegrity class
@@ -22,10 +30,10 @@ Sets the file integrity state for the specified file.
 
 ```mof
 UInt32 Set(
-  [in]  String  FileName,
-  [in]  Boolean Enable,
-  [in]  Boolean Enforce,
-  [out] String  ExtendedStatus
+  [in]  String  FileName,
+  [in]  Boolean Enable,
+  [in]  Boolean Enforce,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -93,8 +101,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -107,9 +115,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileIntegrity**](msft-fileintegrity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

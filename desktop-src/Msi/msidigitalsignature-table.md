@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiDigitalSignature table contains the signature information for every digitally signed object in the installation database.'
-ms.assetid: '63d62152-4f01-454f-bdea-550f2a9f6b14'
+Description: The MsiDigitalSignature table contains the signature information for every digitally signed object in the installation database.
+ms.assetid: 63d62152-4f01-454f-bdea-550f2a9f6b14
 title: MsiDigitalSignature Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiDigitalSignature Table
@@ -59,7 +64,7 @@ A foreign key into the [MsiDigitalCertificate table](msidigitalcertificate-table
 
 In this field enter the reference hash of the resource (or object) that is to be checked against the actual hash of the resource (or object) obtained at run-time. If only the certificate needs to be verified, the Hash field may be null. Note that the format of the hash depends on the type of the resource (or object) being signed.
 
-The Hash column contains the binary representation of the hash. The actual content is the **pbData** member of the [**CRYPT\_HASH\_BLOB**](security.cryptoapi_blob) structure, which is part of the **CRYPTOAPI\_BLOB** structure. This may be obtained by calling [WinVerifyTrust](security.winverifytrust) or [**MsiGetFileSignatureInformation**](msigetfilesignatureinformation.md).
+The Hash column contains the binary representation of the hash. The actual content is the **pbData** member of the [**CRYPT\_HASH\_BLOB**](security.cryptoapi_blob) structure, which is part of the **CRYPTOAPI\_BLOB** structure. This may be obtained by calling [WinVerifyTrust](security.winverifytrust) or [**MsiGetFileSignatureInformation**](/windows/win32/Msi/nf-msi-msigetfilesignatureinformationa?branch=master).
 
 </dd> </dl>
 
@@ -79,7 +84,7 @@ The Hash column contains the binary representation of the hash. The actual conte
 
 <dl> <dt>
 
-[**MsiGetFileSignatureInformation**](msigetfilesignatureinformation.md)
+[**MsiGetFileSignatureInformation**](/windows/win32/Msi/nf-msi-msigetfilesignatureinformationa?branch=master)
 </dt> <dt>
 
 [MsiDigitalCertificate table](msidigitalcertificate-table.md)

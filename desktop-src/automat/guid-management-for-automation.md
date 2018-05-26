@@ -1,7 +1,12 @@
 ---
 title: GUID Management for Automation
 description: Describes how to manage GUIDs for automation.
-ms.assetid: '61237f96-21e1-4e5e-b488-660636d8127f'
+ms.assetid: 61237f96-21e1-4e5e-b488-660636d8127f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUID Management for Automation

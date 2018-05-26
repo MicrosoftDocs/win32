@@ -1,7 +1,12 @@
 ---
-Description: 'The Connect method connects the NPP to the network by using a specified network interface card and provides configuration information about the connection.'
-ms.assetid: 'aae9ff9c-d077-4db2-a900-9916e4f7bb8b'
-title: 'IDelaydC::Connect method'
+Description: The Connect method connects the NPP to the network by using a specified network interface card and provides configuration information about the connection.
+ms.assetid: aae9ff9c-d077-4db2-a900-9916e4f7bb8b
+title: IDelaydCConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDelaydC::Connect method
@@ -13,10 +18,10 @@ The **Connect** method connects the NPP to the network by using a specified netw
 
 ```C++
 HRESULT STDMETHODCALLTYPE Connect(
-  [in]  HBLOB  hInputBlob,
-  [in]  LPVOID StatusCallbackProc,
-  [in]  LPVOID UserContext,
-  [out] HBLOB  hErrorBlob
+  [in]  HBLOB  hInputBlob,
+  [in]  LPVOID StatusCallbackProc,
+  [in]  LPVOID UserContext,
+  [out] HBLOB  hErrorBlob
 );
 ```
 
@@ -124,7 +129,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -144,7 +149,7 @@ The error BLOB returned in *hErrorBlob* contains error information that the deve
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -152,8 +157,8 @@ The error BLOB returned in *hErrorBlob* contains error information that the deve
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -175,9 +180,9 @@ The error BLOB returned in *hErrorBlob* contains error information that the deve
 [IDelaydC::Start](idelaydc-start.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

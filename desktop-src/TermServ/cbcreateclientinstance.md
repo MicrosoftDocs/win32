@@ -4,11 +4,12 @@ description: Creates an instance of the Remote Desktop Connection Broker RPC cli
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '700E47BC-C547-44AB-8607-B9797D542AA7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 700E47BC-C547-44AB-8607-B9797D542AA7
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CBCreateClientInstance function Remote Desktop Services"]
+keywords:
+- CBCreateClientInstance function Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Cbclient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CBCreateClientInstance function
@@ -28,8 +32,8 @@ Creates an instance of the Remote Desktop Connection Broker RPC client.
 
 ```C++
 HRESULT CBCreateClientInstance(
-  _In_  DWORD                   Version,
-  _Out_ IConnectionBrokerClient **ppCbClient
+  _In_  DWORD                   Version,
+  _Out_ IConnectionBrokerClient **ppCbClient
 );
 ```
 
@@ -76,9 +80,9 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
- 
+ 
 
- 
+ 
 
 
 

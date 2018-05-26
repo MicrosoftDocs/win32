@@ -1,8 +1,14 @@
 ---
 title: Monitored File Name Extensions
 description: Extensions are monitored by System Restore in Windows Vista and later.
-ms.assetid: '19e509fa-58b2-48bb-ac23-269818482e6f'
-keywords: ["System Restore,reference,monitored file name extensions"]
+ms.assetid: 19e509fa-58b2-48bb-ac23-269818482e6f
+keywords:
+- System Restore,reference,monitored file name extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitored File Name Extensions

@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense CanPersist method
 description: The CanPersist method queries whether the license can be persisted on in a local license store.
-ms.assetid: '040b30d8-4e47-44a3-8b09-e81cc30e8a53'
-keywords: ["CanPersist method windows Media Format", "CanPersist method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , CanPersist method"]
+ms.assetid: 040b30d8-4e47-44a3-8b09-e81cc30e8a53
+keywords:
+- CanPersist method windows Media Format
+- CanPersist method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , CanPersist method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::CanPersist method
@@ -22,7 +30,7 @@ The **CanPersist** method queries whether the license can be persisted on in a l
 
 ```C++
 HRESULT CanPersist(
-  [out] BOOL *pfCanPersist
+  [out] BOOL *pfCanPersist
 );
 ```
 
@@ -51,7 +59,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,9 +82,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

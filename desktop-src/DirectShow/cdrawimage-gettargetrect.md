@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTargetRect method retrieves the current destination rectangle.'
-ms.assetid: 'b6542b06-af36-4666-b6fa-d9fa3c6c7044'
-title: 'CDrawImage.GetTargetRect method'
+Description: The GetTargetRect method retrieves the current destination rectangle.
+ms.assetid: b6542b06-af36-4666-b6fa-d9fa3c6c7044
+title: CDrawImage.GetTargetRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.GetTargetRect method
@@ -13,7 +18,7 @@ The `GetTargetRect` method retrieves the current destination rectangle.
 
 ```C++
 void GetTargetRect(
-   RECT *pTargetRect
+   RECT *pTargetRect
 );
 ```
 
@@ -52,9 +57,9 @@ This method does not return a value.
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: A single resource DLL can support multiple resource types.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2f7a5f70-53ec-4ae8-9c51-052ea739d350'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2f7a5f70-53ec-4ae8-9c51-052ea739d350
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,supporting multiple types"]
+keywords:
+- resource types Failover Cluster ,supporting multiple types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supporting Multiple Resource Types

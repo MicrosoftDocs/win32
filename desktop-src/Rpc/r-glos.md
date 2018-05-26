@@ -2,7 +2,12 @@
 title: R
 description: Words starting with R in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: '7c1eadf9-367f-45c7-82a0-e410e7f58868'
+ms.assetid: 7c1eadf9-367f-45c7-82a0-e410e7f58868
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # R

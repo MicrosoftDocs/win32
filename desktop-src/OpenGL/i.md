@@ -2,8 +2,18 @@
 title: I
 description: Definitions of OpenGL terms that begin with the letter I.
 Robots: noindex, nofollow
-ms.assetid: '9c68221b-1633-435b-9ae4-abc1c52601aa'
-keywords: ["images", "image primitives", "immediate mode", "index", "IRIS GL"]
+ms.assetid: 9c68221b-1633-435b-9ae4-abc1c52601aa
+keywords:
+- images
+- image primitives
+- immediate mode
+- index
+- IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # I

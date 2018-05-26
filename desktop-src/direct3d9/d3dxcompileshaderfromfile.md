@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compile a shader file.'
-ms.assetid: '2ad6042f-3601-4f4a-9624-6319a3372355'
+---
+Description: Compile a shader file.
+ms.assetid: 2ad6042f-3601-4f4a-9624-6319a3372355
 title: D3DXCompileShaderFromFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCompileShaderFromFile function

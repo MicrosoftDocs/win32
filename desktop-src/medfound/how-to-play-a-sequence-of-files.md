@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to play a sequence of audio/video files using MFPlay.'
-ms.assetid: 'ee16eaa3-0506-4444-b139-f8a8498d6597'
+Description: This topic describes how to play a sequence of audio/video files using MFPlay.
+ms.assetid: ee16eaa3-0506-4444-b139-f8a8498d6597
 title: How to Play a Sequence of Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Play a Sequence of Files
@@ -16,9 +21,9 @@ The topic [Getting Started with MFPlay](getting-started-with-mfplay.md) shows ho
 
 ### Synchronous (Blocking) Method
 
-1.  Call the [**IMFPMediaPlayer::CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md) method. The method creates a media item.
-2.  Call [**IMFPMediaPlayer::SetMediaItem**](imfpmediaplayer-setmediaitem.md) to queue the media item for playback.
-3.  Call [**IMFPMediaPlayer::Play**](imfpmediaplayer-play.md) to start playback.
+1.  Call the [**IMFPMediaPlayer::CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master) method. The method creates a media item.
+2.  Call [**IMFPMediaPlayer::SetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem?branch=master) to queue the media item for playback.
+3.  Call [**IMFPMediaPlayer::Play**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-play?branch=master) to start playback.
 
 These steps are shown in the following code.
 
@@ -57,16 +62,16 @@ HRESULT OpenMediaFile(IMFPMediaPlayer *pPlayer, PCWSTR pwszURL)
 
 
 
-The [**CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md) method takes the following parameters:
+The [**CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master) method takes the following parameters:
 
 -   The first parameter is the URL of the file.
 -   The second parameter specifies whether the method blocks. Specifying the value **TRUE**, as shown here, causes the method to block until the media item is created.
--   The third parameter associates an arbitrary **DWORD\_PTR** value with the media item. You can get this value later by calling [**IMFPMediaItem::GetUserData**](imfpmediaitem-getuserdata.md).
--   The fourth parameter receives a pointer to the [**IMFPMediaItem**](imfpmediaitem.md) interface of the media item.
+-   The third parameter associates an arbitrary **DWORD\_PTR** value with the media item. You can get this value later by calling [**IMFPMediaItem::GetUserData**](/windows/win32/mfplay/nf-mfplay-imfpmediaitem-getuserdata?branch=master).
+-   The fourth parameter receives a pointer to the [**IMFPMediaItem**](/windows/win32/mfplay/nn-mfplay-imfpmediaitem?branch=master) interface of the media item.
 
 ### Asynchronous (Non-Blocking) Method
 
-Avoid the blocking option if you call [**CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md) from your UI thread, because it can take a noticeable amount of time to complete. The method typically opens a file or network connection and reads enough data to parse the file headers, all of which can take time. Therefore, it is generally better to set the second parameter to **FALSE**. This option causes the method to perform asynchronously. When the asynchronous option is used, the last parameter must be **NULL**:
+Avoid the blocking option if you call [**CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master) from your UI thread, because it can take a noticeable amount of time to complete. The method typically opens a file or network connection and reads enough data to parse the file headers, all of which can take time. Therefore, it is generally better to set the second parameter to **FALSE**. This option causes the method to perform asynchronously. When the asynchronous option is used, the last parameter must be **NULL**:
 
 
 ```C++
@@ -80,7 +85,7 @@ Avoid the blocking option if you call [**CreateMediaItemFromURL**](imfpmediaplay
 
 
 
-When the media item is created, your application receives an **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** event. The data structure for this event contains a pointer to the media item. Pass this pointer to the [**SetMediaItem**](imfpmediaplayer-setmediaitem.md) method to queue the item for playback.
+When the media item is created, your application receives an **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** event. The data structure for this event contains a pointer to the media item. Pass this pointer to the [**SetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem?branch=master) method to queue the item for playback.
 
 
 ```C++

@@ -1,19 +1,24 @@
 ---
 title: How to Transform a Geometry
 description: Shows how to transform a geometry using Direct2D.
-ms.assetid: 'de434615-14b1-4b66-b09b-e90468e03d58'
+ms.assetid: de434615-14b1-4b66-b09b-e90468e03d58
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Transform a Geometry
 
-To transform a geometry, you can either apply the transform to the render target by calling [**SetTransform**](id2d1rendertarget-settransform.md) or apply the transform to the geometry by calling [**CreateTransformedGeometry**](id2d1factory-createtransformedgeometry.md). Although both approaches transform a geometry, they have some fundamental differences. **CreateTransformedGeometry** affects the fill, but does not affect the stroke width. Further, **CreateTransformedGeometry** transforms the geometry alone without impacting other shapes on the render target, whereas [**SetTransform**](id2d1brush-settransform.md) applies the transform to all shapes on the render target.
+To transform a geometry, you can either apply the transform to the render target by calling [**SetTransform**](id2d1rendertarget-settransform.md) or apply the transform to the geometry by calling [**CreateTransformedGeometry**](/windows/win32/d2d1/nf-d2d1-createtransformedgeometry?branch=master). Although both approaches transform a geometry, they have some fundamental differences. **CreateTransformedGeometry** affects the fill, but does not affect the stroke width. Further, **CreateTransformedGeometry** transforms the geometry alone without impacting other shapes on the render target, whereas [**SetTransform**](/windows/win32/d2d1_1/nf-d2d1-settransform?branch=master) applies the transform to all shapes on the render target.
 
-This how-to topic describes how to transform a geometry by calling [**CreateTransformedGeometry**](id2d1factory-createtransformedgeometry-ptr-id2d1geometry-ref-d2d-matrix-3x2-f-ptr-ptr-id2d1transformedgeometry.md).
+This how-to topic describes how to transform a geometry by calling [**CreateTransformedGeometry**](/windows/win32/d2d1/?branch=master).
 
 **To transform a geometry**
 
-1.  Declare an [**ID2D1TransformedGeometry**](id2d1transformedgeometry.md) variable.
-2.  Call the [**CreateTransformedGeometry**](id2d1factory-createtransformedgeometry-ptr-id2d1geometry-ref-d2d-matrix-3x2-f-ptr-ptr-id2d1transformedgeometry.md) method to create a transformed geometry.
+1.  Declare an [**ID2D1TransformedGeometry**](/windows/win32/d2d1/?branch=master) variable.
+2.  Call the [**CreateTransformedGeometry**](/windows/win32/d2d1/?branch=master) method to create a transformed geometry.
 
 The following code shows how to create an hour glass, transform the hour glass, and draw the original and resulting hour glasses.
 

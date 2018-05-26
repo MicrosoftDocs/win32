@@ -1,8 +1,10 @@
 ---
 title: IHelpFilter interface
 description: Collection of filter criteria name/value pairs
-ms.assetid: '48a3a835-37e5-4af6-9cf3-9f66c3447a72'
-keywords: ["IHelpFilter interface HelpAPI", "IHelpFilter interface HelpAPI , described"]
+ms.assetid: 48a3a835-37e5-4af6-9cf3-9f66c3447a72
+keywords:
+- IHelpFilter interface HelpAPI
+- IHelpFilter interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHelpFilter interface
@@ -41,7 +48,7 @@ The **IHelpFilter** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,15 +56,15 @@ The **IHelpFilter** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The GetIpStatistics function fills a pointer to an MIB\_IPSTATS structure with information about the current IP statistics associated with the system.'
-ms.assetid: '2b65a817-3f80-426f-ada0-bf4b34a410ed'
+Description: The GetIpStatistics function fills a pointer to an MIB\_IPSTATS structure with information about the current IP statistics associated with the system.
+ms.assetid: 2b65a817-3f80-426f-ada0-bf4b34a410ed
 title: Retrieving Information Using GetIpStatistics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Information Using GetIpStatistics
 
-The [**GetIpStatistics**](getipstatistics.md) function fills a pointer to an [**MIB\_IPSTATS**](rras.mib_ipstats) structure with information about the current IP statistics associated with the system.
+The [**GetIpStatistics**](/windows/win32/Iphlpapi/nf-iphlpapi-getipstatistics?branch=master) function fills a pointer to an [**MIB\_IPSTATS**](rras.mib_ipstats) structure with information about the current IP statistics associated with the system.
 
 **To use GetIpStatistics**
 
@@ -27,7 +32,7 @@ The [**GetIpStatistics**](getipstatistics.md) function fills a pointer to an [**
 
     
 
-2.  Call the [**GetIpStatistics**](getipstatistics.md) function with the *pStats* parameter to retrieve IP statistics for the local computer. Check for errors and return the error value in the **DWORD** variable `dwRetval`. If an error occurs, the `dwRetval` variable can be used for more extensive error checking and reporting.
+2.  Call the [**GetIpStatistics**](/windows/win32/Iphlpapi/nf-iphlpapi-getipstatistics?branch=master) function with the *pStats* parameter to retrieve IP statistics for the local computer. Check for errors and return the error value in the **DWORD** variable `dwRetval`. If an error occurs, the `dwRetval` variable can be used for more extensive error checking and reporting.
     ```C++
     dwRetVal = GetIpStatistics(pStats);
     if (dwRetVal != NO_ERROR) {
@@ -37,7 +42,7 @@ The [**GetIpStatistics**](getipstatistics.md) function fills a pointer to an [**
 
     
 
-3.  If the call to [**GetIpStatistics**](getipstatistics.md) was successful, print out some of the data in the [**MIB\_IPSTATS**](rras.mib_ipstats) structure pointed to by the *pStats* parameter.
+3.  If the call to [**GetIpStatistics**](/windows/win32/Iphlpapi/nf-iphlpapi-getipstatistics?branch=master) was successful, print out some of the data in the [**MIB\_IPSTATS**](rras.mib_ipstats) structure pointed to by the *pStats* parameter.
     ```C++
     printf("Number of interfaces:   %ld\n", pStats->dwNumIf);
     printf("Number of IP addresses: %ld\n", pStats->dwNumAddr);

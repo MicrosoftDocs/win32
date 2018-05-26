@@ -1,8 +1,11 @@
 ---
 title: IMessenger MyContacts property
 description: Retrieves the contact list contained in the client or Messenger object. The retrieved list is a MessengerContacts collection object that can be manipulated with the IMessengerContacts interface.
-ms.assetid: '675561a5-63f8-4db9-8459-f31266ee928c'
-keywords: ["MyContacts property Windows Messenger", "MyContacts property Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , MyContacts property"]
+ms.assetid: 675561a5-63f8-4db9-8459-f31266ee928c
+keywords:
+- MyContacts property Windows Messenger
+- MyContacts property Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , MyContacts property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::MyContacts property
 
-\[**MyContacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MyContacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the contact list contained in the client or [**Messenger**](im-messenger.md) object. The retrieved list is a [**MessengerContacts**](im-messengercontacts.md) collection object that can be manipulated with the [**IMessengerContacts**](im-imessengercontacts.md) interface.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MyContacts(
-  [out, retval] IDispatch **ppMContacts
+  [out, retval] IDispatch **ppMContacts
 );
 ```
 
@@ -60,7 +68,7 @@ If this method is called while the client is not signed in, S\_OK will still be 
 > [!Note]  
 > This property is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -68,17 +76,17 @@ If this method is called while the client is not signed in, S\_OK will still be 
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

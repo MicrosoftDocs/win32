@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMStretchBlt function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces.'
-ms.assetid: '5a533a68-6bdb-45dc-b5d3-04fa8d3e7129'
+---
+Description: The OEMStretchBlt function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces.
+ms.assetid: 5a533a68-6bdb-45dc-b5d3-04fa8d3e7129
 title: OEMStretchBlt function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMStretchBlt function

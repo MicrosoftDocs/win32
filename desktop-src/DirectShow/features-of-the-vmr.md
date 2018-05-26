@@ -1,7 +1,12 @@
 ---
 Description: Features of the VMR
-ms.assetid: 'a809045b-b60d-4092-bc4d-0e70e17d2913'
+ms.assetid: a809045b-b60d-4092-bc4d-0e70e17d2913
 title: Features of the VMR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Features of the VMR

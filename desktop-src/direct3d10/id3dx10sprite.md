@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ID3DX10Sprite interface provides a set of methods that simplify the process of drawing sprites using Microsoft Direct3D. This interface can operate on a set of many sprites.'
-ms.assetid: '3703f272-f631-41c0-a0d5-e7cf2d4ae145'
+---
+Description: The ID3DX10Sprite interface provides a set of methods that simplify the process of drawing sprites using Microsoft Direct3D. This interface can operate on a set of many sprites.
+ms.assetid: 3703f272-f631-41c0-a0d5-e7cf2d4ae145
 title: ID3DX10Sprite interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Sprite interface

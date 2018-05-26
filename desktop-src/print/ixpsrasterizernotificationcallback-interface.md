@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IXpsRasterizerNotificationCallback interface enables the XPS rasterization service to determine whether to continue a rasterization operation that was previously initiated by an XPSDrv filter.'
-ms.assetid: '7616b5c7-a21f-4db1-923b-ebf2a039b5ec'
+---
+Description: The IXpsRasterizerNotificationCallback interface enables the XPS rasterization service to determine whether to continue a rasterization operation that was previously initiated by an XPSDrv filter.
+ms.assetid: 7616b5c7-a21f-4db1-923b-ebf2a039b5ec
 title: IXpsRasterizerNotificationCallback interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizerNotificationCallback interface

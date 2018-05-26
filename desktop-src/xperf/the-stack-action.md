@@ -1,7 +1,12 @@
 ---
 title: The Stack Action
 description: The Stack Action
-ms.assetid: '14e30edb-1f1b-44e8-ba9a-1d8453d13837'
+ms.assetid: 14e30edb-1f1b-44e8-ba9a-1d8453d13837
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Stack Action
@@ -35,11 +40,11 @@ The stack action produces a text file that summarizes the various metrics regard
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

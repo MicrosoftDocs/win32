@@ -1,8 +1,21 @@
 ---
 title: Sending System-Exclusive Messages
 description: Sending System-Exclusive Messages
-ms.assetid: '2bb95e4e-004e-46c8-9c56-25436fcc7f6c'
-keywords: ["Musical Instrument Digital Interface (MIDI),sending messages", "MIDI (Musical Instrument Digital Interface),sending messages", "playing MIDI files,sending messages", "sending MIDI messages", "Musical Instrument Digital Interface (MIDI),system-exclusive messages", "MIDI (Musical Instrument Digital Interface),system-exclusive messages", "playing MIDI files,system-exclusive messages", "system-exclusive MIDI messages"]
+ms.assetid: 2bb95e4e-004e-46c8-9c56-25436fcc7f6c
+keywords:
+- Musical Instrument Digital Interface (MIDI),sending messages
+- MIDI (Musical Instrument Digital Interface),sending messages
+- playing MIDI files,sending messages
+- sending MIDI messages
+- Musical Instrument Digital Interface (MIDI),system-exclusive messages
+- MIDI (Musical Instrument Digital Interface),system-exclusive messages
+- playing MIDI files,system-exclusive messages
+- system-exclusive MIDI messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending System-Exclusive Messages

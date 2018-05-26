@@ -1,7 +1,12 @@
 ---
-Description: 'The Stop method stops the current capture.'
-ms.assetid: '1b627137-e72d-4425-98d9-e296fb07e509'
-title: 'IDelaydC::Stop method'
+Description: The Stop method stops the current capture.
+ms.assetid: 1b627137-e72d-4425-98d9-e296fb07e509
+title: IDelaydCStop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDelaydC::Stop method
@@ -13,7 +18,7 @@ The **Stop** method stops the current capture.
 
 ```C++
 HRESULT STDMETHODCALLTYPE Stop(
-  [out] LPSTATISTICS lpStats
+  [out] LPSTATISTICS lpStats
 );
 ```
 
@@ -46,7 +51,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,8 +65,8 @@ When you stop and start the capture, make sure you call the [IDelaydC::Configure
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -86,9 +91,9 @@ When you stop and start the capture, make sure you call the [IDelaydC::Configure
 [STATISTICS](statistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ComputerSystemPackage class represents an association that explicitly defines the relationship between unitary computer systems and one or more physical packages.'
+Description: The CIM\_ComputerSystemPackage class represents an association that explicitly defines the relationship between unitary computer systems and one or more physical packages.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a91bf09d-0768-4d2a-a0e5-16237b2e6ddc'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a91bf09d-0768-4d2a-a0e5-16237b2e6ddc
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ComputerSystemPackage class'
+title: CIM\_ComputerSystemPackage class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ComputerSystemPackage class
@@ -19,7 +22,7 @@ The **CIM\_ComputerSystemPackage** class represents an association that explicit
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -30,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ComputerSystemPackage : CIM_Dependency
 {
   CIM_UnitaryComputerSystem REF Dependent;
-  CIM_PhysicalPackage       REF Antecedent;
+  CIM_PhysicalPackage       REF Antecedent;
 };
 ```
 
@@ -92,8 +95,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -107,9 +110,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

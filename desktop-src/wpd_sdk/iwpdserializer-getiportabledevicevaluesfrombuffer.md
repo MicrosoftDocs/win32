@@ -1,7 +1,12 @@
 ---
-Description: 'The GetIPortableDeviceValuesFromBuffer method deserializes a byte array to an IPortableDeviceValues interface.'
-ms.assetid: '93bea711-74d5-407a-a707-a3abe47bc2cd'
-title: 'IWpdSerializer::GetIPortableDeviceValuesFromBuffer method'
+Description: The GetIPortableDeviceValuesFromBuffer method deserializes a byte array to an IPortableDeviceValues interface.
+ms.assetid: 93bea711-74d5-407a-a707-a3abe47bc2cd
+title: IWpdSerializerGetIPortableDeviceValuesFromBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWpdSerializer::GetIPortableDeviceValuesFromBuffer method
@@ -13,9 +18,9 @@ The **GetIPortableDeviceValuesFromBuffer** method deserializes a byte array to a
 
 ```C++
 HRESULT GetIPortableDeviceValuesFromBuffer(
-  [in]  BYTE                  *pBuffer,
-  [in]  DWORD                 dwInputBufferLength,
-  [out] IPortableDeviceValues **ppParams
+  [in]  BYTE                  *pBuffer,
+  [in]  DWORD                 dwInputBufferLength,
+  [out] IPortableDeviceValues **ppParams
 );
 ```
 
@@ -60,7 +65,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +85,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWpdSerializer Interface**](iwpdserializer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

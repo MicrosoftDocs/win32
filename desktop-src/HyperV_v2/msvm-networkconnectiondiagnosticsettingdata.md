@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the settings used to test the network connectivity of a virtual machine.'
-ms.assetid: 'd719d9c9-7ca9-40a0-ada8-185b8cd44c22'
-title: 'Msvm\_NetworkConnectionDiagnosticSettingData class'
+Description: Represents the settings used to test the network connectivity of a virtual machine.
+ms.assetid: d719d9c9-7ca9-40a0-ada8-185b8cd44c22
+title: Msvm\_NetworkConnectionDiagnosticSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_NetworkConnectionDiagnosticSettingData class
@@ -17,12 +22,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_NetworkConnectionDiagnosticSettingData : CIM_SettingData
 {
   boolean IsSender;
-  string  SenderIP;
-  string  ReceiverIP;
-  string  ReceiverMac;
-  uint32  IsolationId;
-  uint32  SequenceNumber;
-  uint32  PayloadSize;
+  string  SenderIP;
+  string  ReceiverIP;
+  string  ReceiverMac;
+  uint32  IsolationId;
+  uint32  SequenceNumber;
+  uint32  PayloadSize;
 };
 ```
 
@@ -135,8 +140,8 @@ The sequence number.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -150,9 +155,9 @@ The sequence number.
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

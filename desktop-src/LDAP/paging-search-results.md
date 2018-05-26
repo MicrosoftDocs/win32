@@ -4,10 +4,13 @@ description: When an LDAP client is accessing a server across a slow connection,
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bf19f427-c7b0-43d6-9bd8-44010c297804'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: bf19f427-c7b0-43d6-9bd8-44010c297804
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Paging Search Results
@@ -20,7 +23,7 @@ The interaction between client and server is as follows.
 
 The client sends the server a search request with the Simple Paged Results control with an empty previous Enumeration Key, also known as a cookie, and the initial page size. The server then returns the number of entries specified by the page size and also returns a cookie used on the next client request to get the next page of results. The client then issues a search with the cookie included (optionally resetting the page size) and the server then responds with up to that number of entries.
 
-Paged results are indicated as a control on the [**ldap\_search\_ext**](ldap-search-ext.md) function call. Use [**ldap\_create\_page\_control**](ldap-create-page-control.md) to construct this control, and then call **ldap\_search\_ext** to add the control. This control structure must then be added to the list of server controls in the **ldap\_search\_ext** call. When the server returns the first page of results, it includes the resume cookie in the controls field of the SearchResultDone message. The client must then extract the cookie from the search result by retrieving the server controls by using [**ldap\_parse\_result**](ldap-parse-result.md) and parsing the control with [**ldap\_parse\_page\_control**](ldap-parse-page-control.md). The client then uses the cookie in the next call to **LDAP\_create\_page\_control** to retrieve the next page of results.
+Paged results are indicated as a control on the [**ldap\_search\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_search_ext?branch=master) function call. Use [**ldap\_create\_page\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_create_page_control?branch=master) to construct this control, and then call **ldap\_search\_ext** to add the control. This control structure must then be added to the list of server controls in the **ldap\_search\_ext** call. When the server returns the first page of results, it includes the resume cookie in the controls field of the SearchResultDone message. The client must then extract the cookie from the search result by retrieving the server controls by using [**ldap\_parse\_result**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_result?branch=master) and parsing the control with [**ldap\_parse\_page\_control**](/windows/previous-versions/Winldap/nf-winldap-ldap_parse_page_control?branch=master). The client then uses the cookie in the next call to **LDAP\_create\_page\_control** to retrieve the next page of results.
 
  
 

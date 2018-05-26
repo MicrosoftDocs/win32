@@ -1,8 +1,11 @@
 ---
 title: IVMHardDisk SizeInGuest property
 description: Retrieves the size of the virtual hard disk in the guest operating system.
-ms.assetid: '895598db-cd54-414c-8783-13102cfbd453'
-keywords: ["SizeInGuest property Virtual PC", "SizeInGuest property Virtual PC , IVMHardDisk interface", "IVMHardDisk interface Virtual PC , SizeInGuest property"]
+ms.assetid: 895598db-cd54-414c-8783-13102cfbd453
+keywords:
+- SizeInGuest property Virtual PC
+- SizeInGuest property Virtual PC , IVMHardDisk interface
+- IVMHardDisk interface Virtual PC , SizeInGuest property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDisk::SizeInGuest property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the size of the virtual hard disk in the guest operating system.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SizeInGuest(
-  [out, retval] VARIANT *fileSize
+  [out, retval] VARIANT *fileSize
 );
 ```
 
@@ -58,9 +66,9 @@ The size, in bytes, of the hard disk image. This value is a **VARIANT** of type 
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHardDisk is defined as ffa14ae6-48f5-42a4-8a22-186f2e5c7db0<br/>                |
@@ -74,9 +82,9 @@ The size, in bytes, of the hard disk image. This value is a **VARIANT** of type 
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

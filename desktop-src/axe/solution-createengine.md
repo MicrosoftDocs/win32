@@ -1,8 +1,11 @@
 ---
 title: Solution CreateEngine method
 description: Create an Engine object for running AXE jobs.
-ms.assetid: 'b1251e91-5479-43b3-854e-a05cc37a3292'
-keywords: ["CreateEngine method Access Execution Engine", "CreateEngine method Access Execution Engine , Solution interface", "Solution interface Access Execution Engine , CreateEngine method"]
+ms.assetid: b1251e91-5479-43b3-854e-a05cc37a3292
+keywords:
+- CreateEngine method Access Execution Engine
+- CreateEngine method Access Execution Engine , Solution interface
+- Solution interface Access Execution Engine , CreateEngine method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution::CreateEngine method
@@ -22,7 +30,7 @@ Create an [**Engine**](engine-if.md) object for running AXE jobs.
 
 ```C++
 virtual HRESULT CreateEngine(
-  [out] Engine **engine
+  [out] Engine **engine
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ Managed code uses the [**Solution.CreateEngine \| createEngine**](axe-solution_c
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ Managed code uses the [**Solution.CreateEngine \| createEngine**](axe-solution_c
 [**Solution**](solution-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

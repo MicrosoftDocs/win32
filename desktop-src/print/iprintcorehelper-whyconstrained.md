@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelper::WhyConstrained method provides a list of options that are constraining the specified feature-option pair in the current configuration.'
-ms.assetid: 'de3fdbd4-9647-4369-9c23-4779aa768b1b'
-title: 'IPrintCoreHelper::WhyConstrained method'
+---
+Description: The IPrintCoreHelperWhyConstrained method provides a list of options that are constraining the specified feature-option pair in the current configuration.
+ms.assetid: de3fdbd4-9647-4369-9c23-4779aa768b1b
+title: IPrintCoreHelperWhyConstrained method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelper::WhyConstrained method

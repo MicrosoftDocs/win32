@@ -1,8 +1,18 @@
 ---
 title: Orientation
 description: Orientation
-ms.assetid: '88aabf9c-0283-4b23-bd13-d305f2a8be79'
-keywords: ["Windows Media Player Mobile skins,orientation of devices", "Windows Media Player Mobile skins,device orientation", "orientation of devices in skins", "device orientation in skins", "skins,device orientation"]
+ms.assetid: 88aabf9c-0283-4b23-bd13-d305f2a8be79
+keywords:
+- Windows Media Player Mobile skins,orientation of devices
+- Windows Media Player Mobile skins,device orientation
+- orientation of devices in skins
+- device orientation in skins
+- skins,device orientation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Orientation

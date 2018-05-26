@@ -1,7 +1,12 @@
 ---
-Description: 'Handle to the thread.'
-ms.assetid: '93d1182a-58f0-4570-8568-fe0fded762cb'
-title: 'CAMThread::m\_hThread member'
+Description: Handle to the thread.
+ms.assetid: 93d1182a-58f0-4570-8568-fe0fded762cb
+title: CAMThreadm\_hThread member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMThread::m\_hThread member
@@ -39,9 +44,9 @@ This variable is initialized as **NULL**. The [**CAMThread::Create**](camthread-
 [**CAMThread Class**](camthread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

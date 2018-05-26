@@ -1,8 +1,14 @@
 ---
 title: Serialization Services
 description: Microsoft RPC supports two methods for encoding and decoding data, collectively called serializing data.
-ms.assetid: '36d6ea16-7d01-436e-ac32-610c3ddb8b8d'
-keywords: ["Remote Procedure Call RPC , described, serialization"]
+ms.assetid: 36d6ea16-7d01-436e-ac32-610c3ddb8b8d
+keywords:
+- Remote Procedure Call RPC , described, serialization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Serialization Services

@@ -1,8 +1,19 @@
 ---
 title: Microsoft Windows Sound System Drivers
 description: Microsoft Windows Sound System Drivers
-ms.assetid: '226ed685-70a0-440f-8e55-c25807cd89c1'
-keywords: ["Windows multimedia,sound system drivers", "multimedia,sound system drivers", "sound system drivers", "multimedia sound system drivers", "Sound Blaster drivers", "WSS NT drivers"]
+ms.assetid: 226ed685-70a0-440f-8e55-c25807cd89c1
+keywords:
+- Windows multimedia,sound system drivers
+- multimedia,sound system drivers
+- sound system drivers
+- multimedia sound system drivers
+- Sound Blaster drivers
+- WSS NT drivers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Windows Sound System Drivers

@@ -1,7 +1,12 @@
 ---
 Description: About the Transcode API
-ms.assetid: '54733364-f10c-4c1d-9800-75e283ba4be4'
+ms.assetid: 54733364-f10c-4c1d-9800-75e283ba4be4
 title: About the Transcode API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Transcode API
@@ -25,7 +30,7 @@ The encoding *topology* is the set of pipeline objects (source, decoder, resizer
 Different components are responsible for creating the various pipeline objects:
 
 -   The application typically uses the [Source Resolver](source-resolver.md) to create the media source.
--   The [Media Session](media-session.md) loads and configures the decoder, video resizer, and audio resampler. Internally, it uses the topology loader to do this (see [**IMFTopoLoader**](imftopoloader.md)).
+-   The [Media Session](media-session.md) loads and configures the decoder, video resizer, and audio resampler. Internally, it uses the topology loader to do this (see [**IMFTopoLoader**](/windows/win32/mfidl/nn-mfidl-imftopoloader?branch=master)).
 -   The transcode API loads and configures the encoder and the media sink.
 
 Advanced applications can configure the encoder and the media sink directly, rather than using the transcode API.

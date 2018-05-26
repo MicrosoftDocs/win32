@@ -1,8 +1,20 @@
 ---
 title: Porting Shading Models
 description: Like IRIS GL, OpenGL lets you switch between smooth (Gouraud) shading and flat shading. The following table lists the IRIS GL shading and dithering functions and their equivalent OpenGL functions.
-ms.assetid: '93e8f437-381f-4620-ad6f-52ce830d99b6'
-keywords: ["IRIS GL porting,shading", "porting from IRIS GL,shading", "porting to OpenGL from IRIS GL,shading", "OpenGL porting from IRIS GL,shading", "smooth shading", "Gouraud shading", "flat shading"]
+ms.assetid: 93e8f437-381f-4620-ad6f-52ce830d99b6
+keywords:
+- IRIS GL porting,shading
+- porting from IRIS GL,shading
+- porting to OpenGL from IRIS GL,shading
+- OpenGL porting from IRIS GL,shading
+- smooth shading
+- Gouraud shading
+- flat shading
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Shading Models
@@ -20,13 +32,13 @@ Like IRIS GL, OpenGL lets you switch between smooth (Gouraud) shading and flat s
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Gets the DHCPv4 option definition for the specified option ids.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e5e80742-e375-417b-a4bd-bd4ba93bf7d7'
-ms.prod: 'windows-server-dev'
+ms.assetid: e5e80742-e375-417b-a4bd-bd4ba93bf7d7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4OptionDefinition class", "PS_DhcpServerv4OptionDefinition class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4OptionDefinition class
+- PS_DhcpServerv4OptionDefinition class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4OptionDefinition class
@@ -30,11 +36,11 @@ Gets the DHCPv4 option definition for the specified option ids
 
 ```mof
 uint32 Get(
-  [in]  string                       ComputerName,
-  [in]  uint32                       OptionId[],
-  [in]  string                       VendorClass,
-  [in]  boolean                      All,
-  [out] DhcpServerv4OptionDefinition cmdletOutput[]
+  [in]  string                       ComputerName,
+  [in]  uint32                       OptionId[],
+  [in]  string                       VendorClass,
+  [in]  boolean                      All,
+  [out] DhcpServerv4OptionDefinition cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv4OptionDefinition**](dhcpserverv4optio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv4OptionDefinition**](dhcpserverv4optio
 [**PS\_DhcpServerv4OptionDefinition**](ps-dhcpserverv4optiondefinition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

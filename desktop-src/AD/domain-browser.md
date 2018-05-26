@@ -4,24 +4,28 @@ description: Using the IDsBrowseDomainTree interface, an application can display
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '26793c61-469e-4e99-9056-b9fc04336b69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 26793c61-469e-4e99-9056-b9fc04336b69
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["domain browser AD"]
+keywords:
+- domain browser AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Domain Browser
 
-Using the [**IDsBrowseDomainTree**](idsbrowsedomaintree.md) interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user. An application can also use the **IDsBrowseDomainTree** interface to obtain data about all domain trees and domains within a forest.
+Using the [**IDsBrowseDomainTree**](/windows/win32/Dsclient/?branch=master) interface, an application can display a domain browser dialog box and obtain the DNS name of the domain selected by the user. An application can also use the **IDsBrowseDomainTree** interface to obtain data about all domain trees and domains within a forest.
 
-An instance of the [**IDsBrowseDomainTree**](idsbrowsedomaintree.md) interface is created by calling [**CoCreateInstance**](_com_cocreateinstance) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
+An instance of the [**IDsBrowseDomainTree**](/windows/win32/Dsclient/?branch=master) interface is created by calling [**CoCreateInstance**](_com_cocreateinstance) with the **CLSID\_DsDomainTreeBrowser** class identifier as shown below.
 
-The [**IDsBrowseDomainTree::SetComputer**](idsbrowsedomaintree-setcomputer.md) method can be used to specify which computer and credentials are used as the basis for retrieving the domain data. When **SetComputer** is called on a particular [**IDsBrowseDomainTree**](idsbrowsedomaintree.md) instance, [**IDsBrowseDomainTree::FlushCachedDomains**](idsbrowsedomaintree-flushcacheddomains.md) must be called before **SetComputer** is called again.
+The [**IDsBrowseDomainTree::SetComputer**](/windows/win32/Dsclient/?branch=master) method can be used to specify which computer and credentials are used as the basis for retrieving the domain data. When **SetComputer** is called on a particular [**IDsBrowseDomainTree**](/windows/win32/Dsclient/?branch=master) instance, [**IDsBrowseDomainTree::FlushCachedDomains**](/windows/win32/Dsclient/?branch=master) must be called before **SetComputer** is called again.
 
-The [**IDsBrowseDomainTree::BrowseTo**](idsbrowsedomaintree-browseto.md) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](_com_cotaskmemfree).
+The [**IDsBrowseDomainTree::BrowseTo**](/windows/win32/Dsclient/?branch=master) method is used to display the domain browser dialog box. When the user selects a domain and clicks the **OK** button, the **IDsBrowseDomainTree::BrowseTo** returns **S\_OK** and the *ppszTargetPath* parameter contains the name of the selected domain. When the name string is no longer required, the caller must free the string by calling [**CoTaskMemFree**](_com_cotaskmemfree).
 
-The following code example shows how to use the [**IDsBrowseDomainTree**](idsbrowsedomaintree.md) interface to display the domain browser dialog box.
+The following code example shows how to use the [**IDsBrowseDomainTree**](/windows/win32/Dsclient/?branch=master) interface to display the domain browser dialog box.
 
 
 ```C++
@@ -70,9 +74,9 @@ void main(void)
 
 
 
-The [**IDsBrowseDomainTree::GetDomains**](idsbrowsedomaintree-getdomains.md) method is used to obtain domain tree data. The domain data is supplied in a [**DOMAINTREE**](domaintree.md) structure. The **DOMAINTREE** structure contains the size of the structure and the number of domain elements in the tree. The **DOMAINTREE** structure also contains one or more [**DOMAINDESC**](domaindesc.md) structures. The **DOMAINDESC** contains data about a single element in the domain tree, including child and sibling data. The siblings of a domain can be enumerated by accessing the **pdNextSibling** member of each subsequent **DOMAINDESC** structure. The children of the domain can be retrieved in a similar manner by accessing the **pdChildList** member of each subsequent **DOMAINDESC** structure.
+The [**IDsBrowseDomainTree::GetDomains**](/windows/win32/Dsclient/?branch=master) method is used to obtain domain tree data. The domain data is supplied in a [**DOMAINTREE**](/windows/win32/Dsclient/ns-dsclient-domain_tree?branch=master) structure. The **DOMAINTREE** structure contains the size of the structure and the number of domain elements in the tree. The **DOMAINTREE** structure also contains one or more [**DOMAINDESC**](/windows/win32/Dsclient/ns-dsclient-_domaindesc?branch=master) structures. The **DOMAINDESC** contains data about a single element in the domain tree, including child and sibling data. The siblings of a domain can be enumerated by accessing the **pdNextSibling** member of each subsequent **DOMAINDESC** structure. The children of the domain can be retrieved in a similar manner by accessing the **pdChildList** member of each subsequent **DOMAINDESC** structure.
 
-The following code example shows how to obtain and access the domain tree data using the [**IDsBrowseDomainTree::GetDomains**](idsbrowsedomaintree-getdomains.md) method.
+The following code example shows how to obtain and access the domain tree data using the [**IDsBrowseDomainTree::GetDomains**](/windows/win32/Dsclient/?branch=master) method.
 
 
 ```C++

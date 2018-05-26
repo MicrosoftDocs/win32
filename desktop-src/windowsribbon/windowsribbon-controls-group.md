@@ -1,7 +1,12 @@
 ---
 title: Group
 description: The Group organizes related Commands and controls within a Tab.
-ms.assetid: '5d098d3f-a4ee-4f76-8c81-832d0c49cb80'
+ms.assetid: 5d098d3f-a4ee-4f76-8c81-832d0c49cb80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Group
@@ -29,7 +34,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Group control.
 
@@ -89,7 +94,7 @@ The framework requires that the value of [UI_PKEY_Keytip](windowsribbon-referenc
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -101,9 +106,9 @@ The framework requires that the value of [UI_PKEY_Keytip](windowsribbon-referenc
 [**Group element**](windowsribbon-element-group.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

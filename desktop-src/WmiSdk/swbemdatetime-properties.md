@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemDateTime object exposes the following properties.'
+Description: The SWbemDateTime object exposes the following properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'CE495B0E-5B2F-4F35-9DA3-052E79C8090E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: CE495B0E-5B2F-4F35-9DA3-052E79C8090E
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemDateTime Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime Properties

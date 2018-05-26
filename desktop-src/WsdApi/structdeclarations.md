@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C structure declarations for known types.'
-ms.assetid: 'bfef9302-eea6-4957-b67d-d497f5db99a5'
+Description: Generates C structure declarations for known types.
+ms.assetid: bfef9302-eea6-4957-b67d-d497f5db99a5
 title: structDeclarations element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # structDeclarations element
@@ -42,14 +47,14 @@ Structures for known types are referenced by much of the generated code and by a
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

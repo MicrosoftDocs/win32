@@ -4,11 +4,14 @@ description: The ExplicitLogon method sets the credentials to use for authentica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cfd43396-0d66-4d5e-81c8-5c0e66422dc5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cfd43396-0d66-4d5e-81c8-5c0e66422dc5
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ExplicitLogon method Remote Desktop Services", "ExplicitLogon method Remote Desktop Services , Win32_TSLogonSetting class", "Win32_TSLogonSetting class Remote Desktop Services , ExplicitLogon method"]
+keywords:
+- ExplicitLogon method Remote Desktop Services
+- ExplicitLogon method Remote Desktop Services , Win32_TSLogonSetting class
+- Win32_TSLogonSetting class Remote Desktop Services , ExplicitLogon method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExplicitLogon method of the Win32\_TSLogonSetting class
@@ -28,9 +34,9 @@ The **ExplicitLogon** method sets the credentials to use for authentication.
 
 ```mof
 uint32 ExplicitLogon(
-  [in] string UserName,
-  [in] string Domain,
-  [in] string Password
+  [in] string UserName,
+  [in] string Domain,
+  [in] string Password
 );
 ```
 
@@ -75,8 +81,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -90,9 +96,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLogonSetting**](win32-tslogonsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

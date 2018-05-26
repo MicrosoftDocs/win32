@@ -1,8 +1,9 @@
 ---
 title: ICM\_GETBUFFERSWANTED message
 description: The ICM\_GETBUFFERSWANTED message queries a driver for the number of buffers to allocate. You can send this message explicitly or by using the ICGetBuffersWanted macro.
-ms.assetid: '109e8627-7ed4-4f17-bf7f-e77f42dfc8c7'
-keywords: ["ICM_GETBUFFERSWANTED message Windows Multimedia"]
+ms.assetid: 109e8627-7ed4-4f17-bf7f-e77f42dfc8c7
+keywords:
+- ICM_GETBUFFERSWANTED message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_GETBUFFERSWANTED message
 
-The **ICM\_GETBUFFERSWANTED** message queries a driver for the number of buffers to allocate. You can send this message explicitly or by using the [**ICGetBuffersWanted**](icgetbufferswanted.md) macro.
+The **ICM\_GETBUFFERSWANTED** message queries a driver for the number of buffers to allocate. You can send this message explicitly or by using the [**ICGetBuffersWanted**](/windows/win32/Vfw/nf-vfw-icgetbufferswanted?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ This message is used by drivers that use hardware to render data and want to ens
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ This message is used by drivers that use hardware to render data and want to ens
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

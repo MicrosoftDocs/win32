@@ -1,7 +1,12 @@
 ---
 Description: Using an Editing Decision List for Encoding Voice
-ms.assetid: 'a3d88483-acc9-47cf-8735-f17bd3b4ad57'
+ms.assetid: a3d88483-acc9-47cf-8735-f17bd3b4ad57
 title: Using an Editing Decision List for Encoding Voice
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using an Editing Decision List for Encoding Voice

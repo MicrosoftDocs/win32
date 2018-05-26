@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxIncomingArchive object is used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service.'
-ms.assetid: 'a81d6314-b26f-4946-896e-218a0095938f'
+---
+Description: The FaxIncomingArchive object is used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service.
+ms.assetid: a81d6314-b26f-4946-896e-218a0095938f
 title: FaxIncomingArchive object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive object
@@ -202,7 +207,7 @@ This property is not supported in Windows Vista, Windows Server 2008, and late
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> </dl>
 
  

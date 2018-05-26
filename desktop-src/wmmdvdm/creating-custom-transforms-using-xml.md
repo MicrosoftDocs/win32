@@ -1,8 +1,22 @@
 ---
 title: Creating Custom Transforms Using XML
 description: Creating Custom Transforms Using XML
-ms.assetid: 'e9fa51a1-3b0b-4d56-a4d4-d4a9cf0eff57'
-keywords: ["Windows Movie Maker,creating custom transforms", "Movie Maker,creating custom transforms", "Windows DVD Maker,creating custom transforms", "DVD Maker,creating custom transforms", "programming guide,creating custom transforms", "creating custom transforms using XML,about", "XML,creating custom transforms", "transforms,creating using XML", "custom transforms,creating using XML"]
+ms.assetid: e9fa51a1-3b0b-4d56-a4d4-d4a9cf0eff57
+keywords:
+- Windows Movie Maker,creating custom transforms
+- Movie Maker,creating custom transforms
+- Windows DVD Maker,creating custom transforms
+- DVD Maker,creating custom transforms
+- programming guide,creating custom transforms
+- creating custom transforms using XML,about
+- XML,creating custom transforms
+- transforms,creating using XML
+- custom transforms,creating using XML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Custom Transforms Using XML

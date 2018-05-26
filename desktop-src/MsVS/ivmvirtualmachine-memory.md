@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Memory property
 description: The Memory property contains the quantity, in megabytes, of physical RAM in the virtual machine.
-ms.assetid: 'f215b0d3-866a-433e-b14e-44d12eb92396'
-keywords: ["Memory property Virtual Server", "Memory property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Memory property", "Memory property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Memory property"]
+ms.assetid: f215b0d3-866a-433e-b14e-44d12eb92396
+keywords:
+- Memory property Virtual Server
+- Memory property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Memory property
+- Memory property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Memory property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Memory property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Memory(
-  [in]  long megabytesOfMemory
+  [in]  long megabytesOfMemory
 );
 
 HRESULT get_Memory(
-  [out] long *megabytesOfMemory
+  [out] long *megabytesOfMemory
 );
 ```
 
@@ -106,8 +116,8 @@ WScript.Echo "Memory: " & objVM.Memory
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -119,9 +129,9 @@ WScript.Echo "Memory: " & objVM.Memory
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

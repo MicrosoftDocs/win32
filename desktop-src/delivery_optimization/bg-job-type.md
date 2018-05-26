@@ -1,8 +1,9 @@
 ---
 title: BG\_JOB\_TYPE enumeration
 description: The BG\_JOB\_TYPE enumeration defines constant values that specify the type of transfer job, such as download.
-ms.assetid: '696A43C3-1FA2-436D-B34A-3544E7C9A66A'
-keywords: ["BG_JOB_TYPE enumeration"]
+ms.assetid: 696A43C3-1FA2-436D-B34A-3544E7C9A66A
+keywords:
+- BG_JOB_TYPE enumeration
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - deliveryoptimization.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BG\_JOB\_TYPE enumeration
@@ -45,7 +51,7 @@ Specifies that the job downloads files to the client.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl> |
 
@@ -61,9 +67,9 @@ Specifies that the job downloads files to the client.
 [**IBackgroundCopyManager::CreateJob**](ibackgroundcopymanager-createjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_NOTIFYPOS message
 description: The MCIWNDM\_NOTIFYPOS message notifies the parent window of an application that the window position has changed.
-ms.assetid: 'ccc8903b-ad79-495a-8003-20e120ad28ff'
-keywords: ["MCIWNDM_NOTIFYPOS message Windows Multimedia"]
+ms.assetid: ccc8903b-ad79-495a-8003-20e120ad28ff
+keywords:
+- MCIWNDM_NOTIFYPOS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_NOTIFYPOS message
@@ -54,15 +60,15 @@ You can enable notification of changes in the position of an MCIWnd window by sp
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

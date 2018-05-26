@@ -1,7 +1,12 @@
 ---
 title: Class Identifier
 description: The class identifier (CLSID) is that of a class that can display and/or provide programmatic access to the property values.
-ms.assetid: '16baff7e-090f-44bc-a802-c22d7892f51c'
+ms.assetid: 16baff7e-090f-44bc-a802-c22d7892f51c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Class Identifier

@@ -1,8 +1,18 @@
 ---
 title: ITEM Element
 description: ITEM Element
-ms.assetid: 'e9791009-67d0-46f3-a69a-2520eaea21cd'
-keywords: ["Windows Media Player skins,ITEM element", "skins,ITEM element", "ITEM element", "reference for skins,ITEM element", "elements,ITEM"]
+ms.assetid: e9791009-67d0-46f3-a69a-2520eaea21cd
+keywords:
+- Windows Media Player skins,ITEM element
+- skins,ITEM element
+- ITEM element
+- reference for skins,ITEM element
+- elements,ITEM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITEM Element

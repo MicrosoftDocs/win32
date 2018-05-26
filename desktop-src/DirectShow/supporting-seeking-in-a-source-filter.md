@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to implement seeking in a Microsoft DirectShow source filter. It uses the Ball Filter sample as the starting point and describes the additional code needed to support seeking in this filter.'
-ms.assetid: 'a2b4be09-2fd6-4aac-8ad6-c3d62377c1f2'
+Description: This topic describes how to implement seeking in a Microsoft DirectShow source filter. It uses the Ball Filter sample as the starting point and describes the additional code needed to support seeking in this filter.
+ms.assetid: a2b4be09-2fd6-4aac-8ad6-c3d62377c1f2
 title: Supporting Seeking in a Source Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting Seeking in a Source Filter
@@ -19,12 +24,12 @@ This topic contains the following sections:
 
 ## Overview of Seeking in DirectShow
 
-An application seeks the filter graph by calling an [**IMediaSeeking**](imediaseeking.md) method on the Filter Graph Manager. The Filter Graph Manager then distributes the call to every renderer in the graph. Each renderer sends the call upstream, through the output pin of the next upstream filter. The call travels upstream until it reaches a filter that can execute the seek command, typically a source filter or a parser filter. In general, the filter that originates the time stamps also handles seeking.
+An application seeks the filter graph by calling an [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) method on the Filter Graph Manager. The Filter Graph Manager then distributes the call to every renderer in the graph. Each renderer sends the call upstream, through the output pin of the next upstream filter. The call travels upstream until it reaches a filter that can execute the seek command, typically a source filter or a parser filter. In general, the filter that originates the time stamps also handles seeking.
 
 A filter responds to a seek command as follows:
 
 1.  The filter flushes the graph. This clears any stale data from graph, which improves responsiveness. Otherwise, samples that were buffered prior to the seek command might get delivered.
-2.  The filter calls [**IPin::NewSegment**](ipin-newsegment.md) to inform downstream filters of the new stop time, start time, and playback rate.
+2.  The filter calls [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master) to inform downstream filters of the new stop time, start time, and playback rate.
 3.  The filter then sets the discontinuity flag on the first sample after the seek command.
 
 Time stamps start from zero after any seek command (including rate changes).
@@ -56,7 +61,7 @@ Also, you will need to add an initializer for [**CSourceSeeking**](csourceseekin
 
 
 
-This statement calls the base constructor for [**CSourceSeeking**](csourceseeking.md). The parameters are a name, a pointer to the owning pin, an **HRESULT** value, and the address of a critical section object. The name is used only for debugging, and the [**NAME**](name.md) macro compiles to an empty string in retail builds. The pin directly inherits **CSourceSeeking**, so the second parameter is a pointer to itself, cast to an [**IPin**](ipin.md) pointer. The **HRESULT** value is ignored in the current version of the base classes; it remains for compatibility with previous versions. The critical section protects shared data, such as the current start time, stop time, and playback rate.
+This statement calls the base constructor for [**CSourceSeeking**](csourceseeking.md). The parameters are a name, a pointer to the owning pin, an **HRESULT** value, and the address of a critical section object. The name is used only for debugging, and the [**NAME**](name.md) macro compiles to an empty string in retail builds. The pin directly inherits **CSourceSeeking**, so the second parameter is a pointer to itself, cast to an [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) pointer. The **HRESULT** value is ignored in the current version of the base classes; it remains for compatibility with previous versions. The critical section protects shared data, such as the current start time, stop time, and playback rate.
 
 Add the following statement inside the [**CSourceSeeking**](csourceseeking.md) constructor:
 
@@ -79,11 +84,11 @@ REFERENCE_TIME  m_rtBallPosition; // Position of the ball.
 
 
 
-After every seek command, the filter must set the discontinuity flag on the next sample by calling [**IMediaSample::SetDiscontinuity**](imediasample-setdiscontinuity.md). The *m\_bDiscontinuity* variable will keep track of this. The *m\_rtBallPosition* variable will specify the position of the ball within the video frame. The original Ball filter calculates the position from the stream time, but the stream time resets to zero after each seek command. In a seekable stream, the absolute position is independent of the stream time.
+After every seek command, the filter must set the discontinuity flag on the next sample by calling [**IMediaSample::SetDiscontinuity**](/windows/win32/Strmif/nf-strmif-imediasample-setdiscontinuity?branch=master). The *m\_bDiscontinuity* variable will keep track of this. The *m\_rtBallPosition* variable will specify the position of the ball within the video frame. The original Ball filter calculates the position from the stream time, but the stream time resets to zero after each seek command. In a seekable stream, the absolute position is independent of the stream time.
 
 ### QueryInterface
 
-The [**CSourceSeeking**](csourceseeking.md) class implements the [**IMediaSeeking**](imediaseeking.md) interface. To expose this interface to clients, override the [**NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) method:
+The [**CSourceSeeking**](csourceseeking.md) class implements the [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface. To expose this interface to clients, override the [**NonDelegatingQueryInterface**](cunknown-nondelegatingqueryinterface.md) method:
 
 
 ```C++
@@ -118,16 +123,16 @@ The [**CSourceSeeking**](csourceseeking.md) class maintains several member varia
 
  
 
-The [**CSourceSeeking**](csourceseeking.md) implementation of [**IMediaSeeking::SetPositions**](imediaseeking-setpositions.md) updates the start and stop times, and then calls two pure virtual methods on the derived class, [**CSourceSeeking::ChangeStart**](csourceseeking-changestart.md) and [**CSourceSeeking::ChangeStop**](csourceseeking-changestop.md). The implementation of [**IMediaSeeking::SetRate**](imediaseeking-setrate.md) is similar: It updates the playback rate and then calls the pure virtual method [**CSourceSeeking::ChangeRate**](csourceseeking-changerate.md). In each of these virtual methods, the pin must do the following:
+The [**CSourceSeeking**](csourceseeking.md) implementation of [**IMediaSeeking::SetPositions**](/windows/win32/Strmif/nf-strmif-imediaseeking-setpositions?branch=master) updates the start and stop times, and then calls two pure virtual methods on the derived class, [**CSourceSeeking::ChangeStart**](csourceseeking-changestart.md) and [**CSourceSeeking::ChangeStop**](csourceseeking-changestop.md). The implementation of [**IMediaSeeking::SetRate**](/windows/win32/Strmif/nf-strmif-imediaseeking-setrate?branch=master) is similar: It updates the playback rate and then calls the pure virtual method [**CSourceSeeking::ChangeRate**](csourceseeking-changerate.md). In each of these virtual methods, the pin must do the following:
 
-1.  Call [**IPin::BeginFlush**](ipin-beginflush.md) to start flushing data.
+1.  Call [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) to start flushing data.
 2.  Halt the streaming thread.
-3.  Call [**IPin::EndFlush**](ipin-endflush.md).
+3.  Call [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master).
 4.  Restart the streaming thread.
-5.  Call [**IPin::NewSegment**](ipin-newsegment.md).
+5.  Call [**IPin::NewSegment**](/windows/win32/Strmif/nf-strmif-ipin-newsegment?branch=master).
 6.  Set the discontinuity flag on the next sample.
 
-The order of these steps is crucial, because the streaming thread can block while it waits to deliver a sample or get a new sample. The [**BeginFlush**](ipin-beginflush.md) method ensures that the streaming thread is not blocked and therefore will not deadlock in step 2. The [**EndFlush**](ipin-endflush.md) call informs the downstream filters to expect new samples, so they do not reject them when the thread starts again in step 4.
+The order of these steps is crucial, because the streaming thread can block while it waits to deliver a sample or get a new sample. The [**BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method ensures that the streaming thread is not blocked and therefore will not deadlock in step 2. The [**EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) call informs the downstream filters to expect new samples, so they do not reject them when the thread starts again in step 4.
 
 The following private method performs steps 1 through 4:
 
@@ -281,7 +286,7 @@ The major differences between this version and the original are the following:
 -   The time stamps are divided by the current rate.
 -   If *m\_bDiscontinuity* is **TRUE**, the method sets the discontinuity flag on the sample.
 
-There is another minor difference. Because the original version relies on having exactly one buffer, it fills the entire buffer with zeroes once, when streaming begins. After that, it just erases the ball from its previous position. However, this optimization reveals a slight bug in the Ball filter. When the [**CBaseOutputPin::DecideAllocator**](cbaseoutputpin-decideallocator.md) method calls [**IMemInputPin::NotifyAllocator**](imeminputpin-notifyallocator.md), it sets the read-only flag to **FALSE**. As a result, the downstream filter is free to write on the buffer. One solution is to override **DecideAllocator** so that it sets the read-only flag to **TRUE**. For simplicity, however, the new version simply removes the optimization altogether. Instead, this version fills the buffer with zeroes each time.
+There is another minor difference. Because the original version relies on having exactly one buffer, it fills the entire buffer with zeroes once, when streaming begins. After that, it just erases the ball from its previous position. However, this optimization reveals a slight bug in the Ball filter. When the [**CBaseOutputPin::DecideAllocator**](cbaseoutputpin-decideallocator.md) method calls [**IMemInputPin::NotifyAllocator**](/windows/win32/Strmif/nf-strmif-imeminputpin-notifyallocator?branch=master), it sets the read-only flag to **FALSE**. As a result, the downstream filter is free to write on the buffer. One solution is to override **DecideAllocator** so that it sets the read-only flag to **TRUE**. For simplicity, however, the new version simply removes the optimization altogether. Instead, this version fills the buffer with zeroes each time.
 
 ### Miscellaneous Changes
 
@@ -295,13 +300,13 @@ In the new version, these two lines are removed from the CBall constructor:
 
 
 
-The original Ball filter uses these values to add some randomness to the initial ball position. For our purposes, we want the ball to be deterministic. Also, some variables have been changed from [**CRefTime**](creftime.md) objects to [**REFERENCE\_TIME**](reference-time.md) variables. (The **CRefTime** class is a thin wrapper for a **REFERENCE\_TIME** value.) Lastly, the implementation of [**IQualityControl::Notify**](iqualitycontrol-notify.md) has been modified slightly; you can refer to the source code for details.
+The original Ball filter uses these values to add some randomness to the initial ball position. For our purposes, we want the ball to be deterministic. Also, some variables have been changed from [**CRefTime**](creftime.md) objects to [**REFERENCE\_TIME**](reference-time.md) variables. (The **CRefTime** class is a thin wrapper for a **REFERENCE\_TIME** value.) Lastly, the implementation of [**IQualityControl::Notify**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-notify?branch=master) has been modified slightly; you can refer to the source code for details.
 
 ## Limitations of the CSourceSeeking Class
 
 The [**CSourceSeeking**](csourceseeking.md) class is not meant for filters with multiple output pins, because of issues with cross-pin communication. For example, imagine a parser filter that receives an interleaved audio-video stream, splits the stream into its audio and video components, and delivers video from one output pin and audio from another. Both output pins will receive every seek command, but the filter should seek only once per seek command. The solution is to designate one of the pins to control seeking and to ignore seek commands received by the other pin.
 
-After the seek command, however, both pins should flush data. To complicate matters further, the seek command happens on the application thread, not the streaming thread. Therefore, you must make certain that neither pin is blocked and waiting for a [**IMemInputPin::Receive**](imeminputpin-receive.md) call to return, or it might cause a deadlock. For more information about thread-safe flushing in pins, see [Threads and Critical Sections](threads-and-critical-sections.md).
+After the seek command, however, both pins should flush data. To complicate matters further, the seek command happens on the application thread, not the streaming thread. Therefore, you must make certain that neither pin is blocked and waiting for a [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) call to return, or it might cause a deadlock. For more information about thread-safe flushing in pins, see [Threads and Critical Sections](threads-and-critical-sections.md).
 
 ## Related topics
 

@@ -1,7 +1,12 @@
 ---
-Description: 'DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.'
-ms.assetid: 'bd688f81-4b7c-4016-b0bd-e40782131f8e'
+Description: DXVA video processing encapsulates the functions of the graphics hardware that are devoted to processing uncompressed video images. Video processing services include deinterlacing and video mixing.
+ms.assetid: bd688f81-4b7c-4016-b0bd-e40782131f8e
 title: DXVA Video Processing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXVA Video Processing
@@ -69,7 +74,7 @@ A reference software device is also provided. The software device is optimized f
 
 Before using DXVA video processing, the application must create a video processing device. Here is a brief outline of the steps, which are explained in greater detail in the remainder of this section:
 
-1.  Get a pointer to the [**IDirectXVideoProcessorService**](idirectxvideoprocessorservice.md) interface.
+1.  Get a pointer to the [**IDirectXVideoProcessorService**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideoprocessorservice?branch=master) interface.
 2.  Create a description of the video format for the primary video stream. Use this description to get a list of the video processing devices that support the video format. Devices are identified by GUID.
 3.  For a particular device, get a list of render-target formats supported by the device. The formats are returned as a list of **D3DFORMAT** values. If you plan to mix substreams, get a list of the supported substream formats as well.
 4.  Query the capabilities of each device.
@@ -81,12 +86,12 @@ The remainder of this section describes these steps in detail.
 
 ### Get the IDirectXVideoProcessorService Pointer
 
-The [**IDirectXVideoProcessorService**](idirectxvideoprocessorservice.md) interface is obtained from the Direct3D device. There are two ways to get a pointer to this interface:
+The [**IDirectXVideoProcessorService**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideoprocessorservice?branch=master) interface is obtained from the Direct3D device. There are two ways to get a pointer to this interface:
 
 -   From a Direct3D device.
 -   From the [Direct3D Device Manager](direct3d-device-manager.md).
 
-If you have a pointer to a Direct3D device, you can get an [**IDirectXVideoProcessorService**](idirectxvideoprocessorservice.md) pointer by calling the [**DXVA2CreateVideoService**](dxva2createvideoservice.md) function. Pass in a pointer to the device's **IDirect3DDevice9** interface, and specify **IID\_IDirectXVideoProcessorService** for the *riid* parameter, as shown in the following code:
+If you have a pointer to a Direct3D device, you can get an [**IDirectXVideoProcessorService**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideoprocessorservice?branch=master) pointer by calling the [**DXVA2CreateVideoService**](/windows/win32/dxva2api/nf-dxva2api-dxva2createvideoservice?branch=master) function. Pass in a pointer to the device's **IDirect3DDevice9** interface, and specify **IID\_IDirectXVideoProcessorService** for the *riid* parameter, as shown in the following code:
 
 
 ```C++
@@ -96,7 +101,7 @@ If you have a pointer to a Direct3D device, you can get an [**IDirectXVideoProce
 
 
 
-n some cases, one object creates the Direct3D device and then shares it with other objects through the [Direct3D Device Manager](direct3d-device-manager.md). In this situation, you can call [**IDirect3DDeviceManager9::GetVideoService**](idirect3ddevicemanager9-getvideoservice.md) on the device manager to get the [**IDirectXVideoProcessorService**](idirectxvideoprocessorservice.md) pointer, as shown in the following code:
+n some cases, one object creates the Direct3D device and then shares it with other objects through the [Direct3D Device Manager](direct3d-device-manager.md). In this situation, you can call [**IDirect3DDeviceManager9::GetVideoService**](/windows/win32/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice?branch=master) on the device manager to get the [**IDirectXVideoProcessorService**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideoprocessorservice?branch=master) pointer, as shown in the following code:
 
 
 ```C++
@@ -140,7 +145,7 @@ HRESULT GetVideoProcessorService(
 
 ### Enumerate the Video Processing Devices
 
-To get a list of video processing devices, fill in a [**DXVA2\_VideoDesc**](dxva2-videodesc.md) structure with the format of the primary video stream, and pass this structure to the [**IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids**](idirectxvideoprocessorservice-getvideoprocessordeviceguids.md) method. The method returns an array of GUIDs, one for each video processing device that can be used with this video format.
+To get a list of video processing devices, fill in a [**DXVA2\_VideoDesc**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videodesc?branch=master) structure with the format of the primary video stream, and pass this structure to the [**IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids?branch=master) method. The method returns an array of GUIDs, one for each video processing device that can be used with this video format.
 
 Consider an application that renders a video stream in YUY2 format, using the BT.709 definition of YUV color, with a frame rate of 29.97 frames per second. Assume that the video content consists entirely of progressive frames. The following code fragment shows how to fill in the format description and get the device GUIDs:
 
@@ -175,11 +180,11 @@ Consider an application that renders a video stream in YUY2 format, using the BT
 
 The code for this example is taken from the [DXVA2\_VideoProc](dxva2-videoproc-sample.md) SDK sample.
 
-The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](idirectxvideoprocessorservice-getvideoprocessordeviceguids.md) method, so the application must free the array by calling [**CoTaskMemFree**](com.cotaskmemfree). The remaining steps can be performed using any of the device GUIDs returned by this method.
+The *pGuids* array in this example is allocated by the [**GetVideoProcessorDeviceGuids**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids?branch=master) method, so the application must free the array by calling [**CoTaskMemFree**](com.cotaskmemfree). The remaining steps can be performed using any of the device GUIDs returned by this method.
 
 ### Enumerate Render-Target Formats
 
-To get the list of render-target formats supported by the device, pass the device GUID and the [**DXVA2\_VideoDesc**](dxva2-videodesc.md) structure to the [**IDirectXVideoProcessorService::GetVideoProcessorRenderTargets**](idirectxvideoprocessorservice-getvideoprocessorrendertargets.md) method, as shown in the following code:
+To get the list of render-target formats supported by the device, pass the device GUID and the [**DXVA2\_VideoDesc**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videodesc?branch=master) structure to the [**IDirectXVideoProcessorService::GetVideoProcessorRenderTargets**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorrendertargets?branch=master) method, as shown in the following code:
 
 
 ```C++
@@ -218,7 +223,7 @@ To get the list of render-target formats supported by the device, pass the devic
 
 The method returns an array of **D3DFORMAT** values. In this example, where the input type is YUY2, a typical list of formats might be D3DFMT\_X8R8G8B8 (32-bit RGB) and D3DMFT\_YUY2 (the input format). However, the exact list will depend on the driver.
 
-The list of available formats for the substreams can vary depending on the render-target format and the input format. To get the list of substream formats, pass the device GUID, the format structure, and the render-target format to the [**IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats**](idirectxvideoprocessorservice-getvideoprocessorsubstreamformats.md) method, as shown in the following code:
+The list of available formats for the substreams can vary depending on the render-target format and the input format. To get the list of substream formats, pass the device GUID, the format structure, and the render-target format to the [**IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorsubstreamformats?branch=master) method, as shown in the following code:
 
 
 ```C++
@@ -258,7 +263,7 @@ This method returns another array of **D3DFORMAT** values. Typical substream for
 
 ### Query the Device Capabilities
 
-To get the capabilities of a particular device, pass the device GUID, the format structure, and a render-target format to the [**IDirectXVideoProcessorService::GetVideoProcessorCaps**](idirectxvideoprocessorservice-getvideoprocessorcaps.md) method. The method fills in a [**DXVA2\_VideoProcessorCaps**](dxva2-videoprocessorcaps.md) structure structure with the device capabilities.
+To get the capabilities of a particular device, pass the device GUID, the format structure, and a render-target format to the [**IDirectXVideoProcessorService::GetVideoProcessorCaps**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessorcaps?branch=master) method. The method fills in a [**DXVA2\_VideoProcessorCaps**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps?branch=master) structure structure with the device capabilities.
 
 
 ```C++
@@ -278,7 +283,7 @@ To get the capabilities of a particular device, pass the device GUID, the format
 
 ### Create the Device
 
-To create the video processing device, call [**IDirectXVideoProcessorService::CreateVideoProcessor**](idirectxvideoprocessorservice-createvideoprocessor.md). The input to this method is the device GUID, the format description, the render-target format, and the maximum number of substreams that you plan to mix. The method returns a pointer to the [**IDirectXVideoProcessor**](idirectxvideoprocessor.md) interface, which represents the video processing device.
+To create the video processing device, call [**IDirectXVideoProcessorService::CreateVideoProcessor**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-createvideoprocessor?branch=master). The input to this method is the device GUID, the format description, the render-target format, and the maximum number of substreams that you plan to mix. The method returns a pointer to the [**IDirectXVideoProcessor**](/windows/win32/dxva2api/nn-dxva2api-idirectxvideoprocessor?branch=master) interface, which represents the video processing device.
 
 
 ```C++
@@ -297,13 +302,13 @@ To create the video processing device, call [**IDirectXVideoProcessorService::Cr
 
 ## Video Process Blit
 
-The main video processing operation is the *video processing blit*. (A *blit* is any operation that combines two or more bitmaps into a single bitmap. A video processing blit combines input pictures to create an output frame.) To perform a video processing blit, call [**IDirectXVideoProcessor::VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md). This method passes a set of video samples to the video processing device. In response, the video processing device processes the input pictures and generates one output frame. Processing can include deinterlacing, color-space conversion, and substream mixing. The output is written to a destination surface provided by the caller.
+The main video processing operation is the *video processing blit*. (A *blit* is any operation that combines two or more bitmaps into a single bitmap. A video processing blit combines input pictures to create an output frame.) To perform a video processing blit, call [**IDirectXVideoProcessor::VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master). This method passes a set of video samples to the video processing device. In response, the video processing device processes the input pictures and generates one output frame. Processing can include deinterlacing, color-space conversion, and substream mixing. The output is written to a destination surface provided by the caller.
 
-The [**VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md) method takes the following parameters:
+The [**VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master) method takes the following parameters:
 
 -   *pRT* points to an **IDirect3DSurface9** render target surface that will receive the processed video frame.
--   *pBltParams* points to a [**DXVA2\_VideoProcessBltParams**](dxva2-videoprocessbltparams.md) structure that specifies the parameters for the blit.
--   *pSamples* is the address of an array of [**DXVA2\_VideoSample**](dxva2-videosample.md) structures. These structures contain the input samples for the blit.
+-   *pBltParams* points to a [**DXVA2\_VideoProcessBltParams**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams?branch=master) structure that specifies the parameters for the blit.
+-   *pSamples* is the address of an array of [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structures. These structures contain the input samples for the blit.
 -   *NumSamples* gives the size of the *pSamples* array.
 -   The *Reserved* parameter is reserved and should be set to **NULL**.
 
@@ -317,9 +322,9 @@ The driver expects this array to be in a particular order, as described in [Inpu
 
 ### Blit Parameters
 
-The [**DXVA2\_VideoProcessBltParams**](dxva2-videoprocessbltparams.md) structure contains general parameters for the blit. The most important parameters are stored in the following members of the structure:
+The [**DXVA2\_VideoProcessBltParams**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams?branch=master) structure contains general parameters for the blit. The most important parameters are stored in the following members of the structure:
 
--   **TargetFrame** is the presentation time of the output frame. For progressive content, this time must equal the start time for the current frame from the primary video stream. This time is specified in the **Start** member of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure for that input sample.
+-   **TargetFrame** is the presentation time of the output frame. For progressive content, this time must equal the start time for the current frame from the primary video stream. This time is specified in the **Start** member of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure for that input sample.
 
     For interlaced content, a frame with two interleaved fields produces two deinterlaced output frames. On the first output frame, the presentation time must equal the start time of the current picture in the primary video stream, just like progressive content. On the second output frame, the start time must equal the midpoint between the start time of the current picture in the primary video stream and the start time of the next picture in the stream. For example, if the input video is 25 frames per second (50 fields per second), the output frames will have the time stamps shown in the following table. Time stamps are shown in units of 100 nanoseconds.
 
@@ -338,15 +343,15 @@ The [**DXVA2\_VideoProcessBltParams**](dxva2-videoprocessbltparams.md) structure
 
     If interlaced content consists of single fields rather than interleaved fields, the output times always match the input times, as with progressive content.
 
--   **TargetRect** defines a rectangular region within the destination surface. The blit will write the output to this region. Specifically, every pixel inside **TargetRect** will be modified, and no pixels outside of **TargetRect** will be modified. The target rectangle defines the bounding rectangle for all of the input video streams. Placement of individual streams within that rectangle is controlled through the *pSamples* parameter of [**IDirectXVideoProcessor::VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md).
+-   **TargetRect** defines a rectangular region within the destination surface. The blit will write the output to this region. Specifically, every pixel inside **TargetRect** will be modified, and no pixels outside of **TargetRect** will be modified. The target rectangle defines the bounding rectangle for all of the input video streams. Placement of individual streams within that rectangle is controlled through the *pSamples* parameter of [**IDirectXVideoProcessor::VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master).
 -   **BackgroundColor** gives the color of the background wherever no video image appears. For example, when a 16 x 9 video image is displayed within a 4 x 3 area (letterboxing), the letterboxed regions are displayed with the background color. The background color applies only within the target rectangle (**TargetRect**). Any pixels outside of **TargetRect** are not modified.
 -   **DestFormat** describes the color space for the output video—for example, whether ITU-R BT.709 or BT.601 color is used. This information can affect how the image is displayed. For more information, see [Extended Color Information](extended-color-information.md).
 
-Other parameters are described on the reference page for the [**DXVA2\_VideoProcessBltParams**](dxva2-videoprocessbltparams.md) structure.
+Other parameters are described on the reference page for the [**DXVA2\_VideoProcessBltParams**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams?branch=master) structure.
 
 ### Input Samples
 
-The *pSamples* parameter of [**IDirectXVideoProcessor::VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md) points to an array of [**DXVA2\_VideoSample**](dxva2-videosample.md) structures. Each of these structures contains information about one input sample and a pointer to the Direct3D surface that contains the sample. Each sample is one of the following:
+The *pSamples* parameter of [**IDirectXVideoProcessor::VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master) points to an array of [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structures. Each of these structures contains information about one input sample and a pointer to the Direct3D surface that contains the sample. Each sample is one of the following:
 
 -   The current picture from the primary stream.
 -   A forward or backward reference picture from the primary stream, used for deinterlacing.
@@ -354,18 +359,18 @@ The *pSamples* parameter of [**IDirectXVideoProcessor::VideoProcessBlt**](idirec
 
 The exact order in which the samples must appear in the array is described later, in the section [Input Sample Order](#input-sample-order).
 
-Up to 15 substream pictures can be provided, although most video applications need only one substream, at the most. The number of substreams can change with each call to [**VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md). Substream pictures are indicated by setting the **SampleFormat.SampleFormat** member of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure equal to DXVA2\_SampleSubStream. For the primary video stream, this member describes the interlacing of the input video. For more information, see [**DXVA2\_SampleFormat**](dxva2-sampleformat.md) enumeration.
+Up to 15 substream pictures can be provided, although most video applications need only one substream, at the most. The number of substreams can change with each call to [**VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master). Substream pictures are indicated by setting the **SampleFormat.SampleFormat** member of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure equal to DXVA2\_SampleSubStream. For the primary video stream, this member describes the interlacing of the input video. For more information, see [**DXVA2\_SampleFormat**](/windows/win32/dxva2api/ne-dxva2api-_dxva2_sampleformat?branch=master) enumeration.
 
-For the primary video stream, the **Start** and **End** members of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure give the start and end times of the input sample. For substream pictures, set these values to zero, because the presentation time is always calculated from the primary stream. The application is responsible for tracking when each substream picture should be presented and submitting it to [**VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md) at the proper time.
+For the primary video stream, the **Start** and **End** members of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure give the start and end times of the input sample. For substream pictures, set these values to zero, because the presentation time is always calculated from the primary stream. The application is responsible for tracking when each substream picture should be presented and submitting it to [**VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master) at the proper time.
 
 Two rectangles define how the source video is positioned for each stream:
 
--   The **SrcRect** member of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure specifies the *source rectangle*, a rectangular region of the source picture that will appear in the composited output frame. To crop the picture, set this to a value smaller than the frame size. Otherwise, set it equal to the frame size.
+-   The **SrcRect** member of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure specifies the *source rectangle*, a rectangular region of the source picture that will appear in the composited output frame. To crop the picture, set this to a value smaller than the frame size. Otherwise, set it equal to the frame size.
 -   The **DstRect** member of the same structure specifies the *destination rectangle*, a rectangular region of the destination surface where the video frame will appear.
 
 The driver blits pixels from the source rectangle into the destination rectangle. The two rectangles can have different sizes or aspect ratios; the driver will scale the image as needed. Moreover, each input stream can use a different scaling factor. In fact, scaling might be necessary to produce the correct aspect ratio in the output frame. The driver does not take the source's pixel aspect ratio into account, so if the source image uses non-square pixels, it is up to the application to calculate the correct destination rectangle.
 
-The preferred substream formats are AYUV and AI44. The latter is a palletized format with 16 colors. Palette entries are specified in the **Pal** member of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure. (If your source video format is originally expressed as a Media Foundation media type, the palette entries are stored in the [**MF\_MT\_PALETTE**](mf-mt-palette-attribute.md) attribute.) For non-palletized formats, clear this array to zero.
+The preferred substream formats are AYUV and AI44. The latter is a palletized format with 16 colors. Palette entries are specified in the **Pal** member of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure. (If your source video format is originally expressed as a Media Foundation media type, the palette entries are stored in the [**MF\_MT\_PALETTE**](mf-mt-palette-attribute.md) attribute.) For non-palletized formats, clear this array to zero.
 
 ## Image Composition
 
@@ -382,8 +387,8 @@ The target and destination rectangles are specified relative to the destination 
 The video processing device alpha blends the input pictures, using any of the following sources of alpha data:
 
 -   Per-pixel alpha data from substreams.
--   A planar alpha value for each video stream, specified in the **PlanarAlpha** member of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure.
--   The planar alpha value of the composited image, specified in the **Alpha** member of the [**DXVA2\_VideoProcessBltParams**](dxva2-videoprocessbltparams.md) structure. This value is used to blend the entire composited image with the background color.
+-   A planar alpha value for each video stream, specified in the **PlanarAlpha** member of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure.
+-   The planar alpha value of the composited image, specified in the **Alpha** member of the [**DXVA2\_VideoProcessBltParams**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams?branch=master) structure. This value is used to blend the entire composited image with the background color.
 
 This section gives a series of examples that show how the video processing device creates the output image.
 
@@ -401,7 +406,7 @@ The preceding diagram shows the following rectangles:
     -   Source rectangle: { 0, 0, 720, 480 }
     -   Destination rectangle: { 0, 60, 640, 420 }
 
-The driver will deinterlace the video, shrink the deinterlaced frame to 640 × 360, and blit the frame into the destination rectangle. The target rectangle is larger than the destination rectangle, so the driver will use the background color to fill the horizontal bars above and below the frame. The background color is specified in the [**DXVA2\_VideoProcessBltParams**](dxva2-videoprocessbltparams.md) structure.
+The driver will deinterlace the video, shrink the deinterlaced frame to 640 × 360, and blit the frame into the destination rectangle. The target rectangle is larger than the destination rectangle, so the driver will use the background color to fill the horizontal bars above and below the frame. The background color is specified in the [**DXVA2\_VideoProcessBltParams**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videoprocessbltparams?branch=master) structure.
 
 ### Example 2: Stretching Substream Images
 
@@ -514,18 +519,18 @@ The preceding diagram shows the following rectangles:
 
 ## Input Sample Order
 
-The *pSamples* parameter of the [**VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md) method is a pointer to an array of input samples. Samples from the primary video stream appear first, followed by substream pictures in Z-order. Samples must be placed into the array in the following order:
+The *pSamples* parameter of the [**VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master) method is a pointer to an array of input samples. Samples from the primary video stream appear first, followed by substream pictures in Z-order. Samples must be placed into the array in the following order:
 
--   Samples for the primary video stream appear first in the array, in temporal order. Depending on the deinterlace mode, the driver may require one or more reference samples from the primary video stream. The **NumForwardRefSamples** and **NumBackwardRefSamples** members of the [**DXVA2\_VideoProcessorCaps**](dxva2-videoprocessorcaps.md) structure specify how many forward and backward reference samples are needed. The caller must provide these reference samples even if the video content is progressive and does not require deinterlacing. (This can occur when progressive frames are given to a deinterlacing device, for example when the source contains a mix of both interlaced and progressive frames.)
+-   Samples for the primary video stream appear first in the array, in temporal order. Depending on the deinterlace mode, the driver may require one or more reference samples from the primary video stream. The **NumForwardRefSamples** and **NumBackwardRefSamples** members of the [**DXVA2\_VideoProcessorCaps**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videoprocessorcaps?branch=master) structure specify how many forward and backward reference samples are needed. The caller must provide these reference samples even if the video content is progressive and does not require deinterlacing. (This can occur when progressive frames are given to a deinterlacing device, for example when the source contains a mix of both interlaced and progressive frames.)
 -   After the samples for the primary video stream, the array can contain up to 15 substream samples, arranged in Z-order, from bottom to top. Substreams are always progressive and do not require reference pictures.
 
 At any time, the primary video stream can switch between interlaced and progressive content, and the number of substreams can change.
 
-The **SampleFormat.SampleFormat** member of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure indicates the type of picture. For substream pictures, set this value to DXVA2\_SampleSubStream. For progressive pictures, the value is DXVA2\_SampleProgressiveFrame. For interlaced pictures, the value depends on the field layout.
+The **SampleFormat.SampleFormat** member of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure indicates the type of picture. For substream pictures, set this value to DXVA2\_SampleSubStream. For progressive pictures, the value is DXVA2\_SampleProgressiveFrame. For interlaced pictures, the value depends on the field layout.
 
 If the driver requires forward and backward reference samples, the full number of samples might not be available at the start of the video sequence. In that case, include entries for them in the *pSamples* array, but mark the missing samples as having type DXVA2\_SampleUnknown.
 
-The **Start** and **End** members of the [**DXVA2\_VideoSample**](dxva2-videosample.md) structure give the temporal location of each sample. These values are used only for samples from the primary video stream. For substream pictures, set both members to zero.
+The **Start** and **End** members of the [**DXVA2\_VideoSample**](/windows/win32/dxva2api/ns-dxva2api-_dxva2_videosample?branch=master) structure give the temporal location of each sample. These values are used only for samples from the primary video stream. For substream pictures, set both members to zero.
 
 The following examples may help to clarify these requirements.
 
@@ -601,7 +606,7 @@ If the video stream switches to progressive content, using the same deinterlacin
 
 At the start of a video sequence, forward and backward reference samples might not be available. When this happens, entries for the missing samples are included in the *pSamples* array, with sample type DXVA2\_SampleUnknown.
 
-Assuming that the deinterlacing mode needs one forward and one backward reference sample, the first three calls to [**VideoProcessBlt**](idirectxvideoprocessor-videoprocessblt.md) would have the sequences of inputs shown in the following three tables.
+Assuming that the deinterlacing mode needs one forward and one backward reference sample, the first three calls to [**VideoProcessBlt**](/windows/win32/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt?branch=master) would have the sequences of inputs shown in the following three tables.
 
 
 

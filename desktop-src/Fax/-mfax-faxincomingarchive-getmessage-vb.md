@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMessage method gets a fax message from the archive of inbound faxes by using the fax message ID.'
-ms.assetid: 'e78f59d8-c78d-483e-98d6-2b155918b032'
-title: 'FaxIncomingArchive.GetMessage method'
+---
+Description: The GetMessage method gets a fax message from the archive of inbound faxes by using the fax message ID.
+ms.assetid: e78f59d8-c78d-483e-98d6-2b155918b032
+title: FaxIncomingArchive.GetMessage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive.GetMessage method
@@ -34,13 +39,13 @@ Specifies a null-terminated string that contains the message ID of the fax to re
 
 ## Return value
 
-Type: **[**IFaxIncomingMessage**](-mfax-faxincomingmessage-cpp.md)\*\***
+Type: **[**IFaxIncomingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage?branch=master)\*\***
 
 A [**FaxIncomingMessage**](-mfax-faxincomingmessage.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -65,7 +70,7 @@ To use this method, a user must have the [****farQUERY\_IN\_ARCHIVE****](-mfax-f
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls and User Account Control
-ms.assetid: 'dc7c322a-f534-4dda-8c62-aa628a7b91bc'
+ms.assetid: dc7c322a-f534-4dda-8c62-aa628a7b91bc
 title: Parental Controls and User Account Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls and User Account Control

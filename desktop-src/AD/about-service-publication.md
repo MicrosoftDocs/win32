@@ -4,10 +4,13 @@ description: A service is an application that makes data or operations available
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '500f37ff-2551-44a0-91d8-56f0df5afa69'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 500f37ff-2551-44a0-91d8-56f0df5afa69
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Service Publication

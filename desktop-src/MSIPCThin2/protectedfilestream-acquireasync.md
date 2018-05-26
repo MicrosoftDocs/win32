@@ -4,11 +4,14 @@ description: Creates a ProtectedFileStream object from a backing stream.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.ProtectedFileStream.AcquireAsync(Microsoft.RightsManagement.ProtectionPolicy,Windows.Storage.Streams.IRandomAccessStream,System.String,Microsoft.RightsManagement.ProtectionOperationOptions)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.ProtectedFileStream.AcquireAsync(Microsoft.RightsManagement.ProtectionPolicy,Windows.Storage.Streams.IRandomAccessStream,System.String,Microsoft.RightsManagement.ProtectionOperationOptions)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AcquireAsync method", "AcquireAsync method, ProtectedFileStream class", "ProtectedFileStream class, AcquireAsync method"]
+keywords:
+- AcquireAsync method
+- AcquireAsync method, ProtectedFileStream class
+- ProtectedFileStream class, AcquireAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.Protection.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileStream.AcquireAsync method
@@ -26,12 +32,12 @@ Creates a [**ProtectedFileStream**](protectedfilestream.md) object from a backin
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](protectedfilestream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 > \[!Warning\]  
 > This method must be called on a UI thread. Calling it on a worker thread may result in an unexpected behavior.
 
- 
+ 
 
 ## Syntax
 
@@ -120,12 +126,12 @@ The asynchronous operation. Upon completion, **IAsyncOperation.GetResults** retu
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](protectedfilestream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 > \[!Warning\]  
 > This method must be called on a UI thread. Calling it on a worker thread may result in an unexpected behavior.
 
- 
+ 
 
 ## Requirements
 
@@ -148,9 +154,9 @@ The asynchronous operation. Upon completion, **IAsyncOperation.GetResults** retu
 [**ProtectedFileStream**](protectedfilestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

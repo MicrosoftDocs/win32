@@ -1,8 +1,18 @@
 ---
 title: Ambient Event Attributes
 description: Ambient Event Attributes
-ms.assetid: '56cd2701-53b3-4456-8fcd-d65f8a6aefd7'
-keywords: ["Windows Media Player skins,ambient event attributes", "skins,ambient event attributes", "reference for skins,ambient event attributes", "ambient event attributes", "attributes,ambient event"]
+ms.assetid: 56cd2701-53b3-4456-8fcd-d65f8a6aefd7
+keywords:
+- Windows Media Player skins,ambient event attributes
+- skins,ambient event attributes
+- reference for skins,ambient event attributes
+- ambient event attributes
+- attributes,ambient event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ambient Event Attributes

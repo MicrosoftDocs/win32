@@ -1,14 +1,22 @@
 ---
 title: IReferenceClock GetTime method
 description: The GetTime method retrieves the current reference time.
-ms.assetid: '9bf5050a-ae09-4a72-a3f2-3df8339d99b9'
-keywords: ["GetTime method windows Media Format", "GetTime method windows Media Format , IReferenceClock interface", "IReferenceClock interface windows Media Format , GetTime method"]
+ms.assetid: 9bf5050a-ae09-4a72-a3f2-3df8339d99b9
+keywords:
+- GetTime method windows Media Format
+- GetTime method windows Media Format , IReferenceClock interface
+- IReferenceClock interface windows Media Format , GetTime method
 topic_type:
 - apiref
 api_name:
 - IReferenceClock.GetTime
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IReferenceClock::GetTime method
@@ -20,7 +28,7 @@ The **GetTime** method retrieves the current reference time.
 
 ```C++
 HRESULT GetTime(
-  [out] REFERENCE_TIME *pTime
+  [out] REFERENCE_TIME *pTime
 );
 ```
 
@@ -50,7 +58,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -59,9 +67,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IReferenceClock Interface**](ireferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

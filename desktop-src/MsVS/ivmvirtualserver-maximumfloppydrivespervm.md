@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer MaximumFloppyDrivesPerVM property
 description: The MaximumFloppyDrivesPerVM property contains the maximum number of floppy drives per virtual machine.
-ms.assetid: '29ed5e01-129a-4f80-9451-d445b0fe3350'
-keywords: ["MaximumFloppyDrivesPerVM property Virtual Server", "MaximumFloppyDrivesPerVM property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , MaximumFloppyDrivesPerVM property", "MaximumFloppyDrivesPerVM property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , MaximumFloppyDrivesPerVM property"]
+ms.assetid: 29ed5e01-129a-4f80-9451-d445b0fe3350
+keywords:
+- MaximumFloppyDrivesPerVM property Virtual Server
+- MaximumFloppyDrivesPerVM property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , MaximumFloppyDrivesPerVM property
+- MaximumFloppyDrivesPerVM property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , MaximumFloppyDrivesPerVM property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::MaximumFloppyDrivesPerVM property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_MaximumFloppyDrivesPerVM(
-  [out] long *maxDrives
+  [out] long *maxDrives
 );
 ```
 
@@ -91,8 +101,8 @@ Wscript.Echo "Maximum floppy drives per VM: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +114,9 @@ Wscript.Echo "Maximum floppy drives per VM: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

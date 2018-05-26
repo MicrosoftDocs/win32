@@ -1,8 +1,21 @@
 ---
 title: About the StringCollection Object
 description: About the StringCollection Object
-ms.assetid: '7d1210fa-9ea5-45cc-89f7-46731413f806'
-keywords: ["Windows Media Player,StringCollection object", "Windows Media Player object model,StringCollection object", "object model,StringCollection object", "Windows Media Player ActiveX control,StringCollection object", "ActiveX control,StringCollection object", "Windows Media Player Mobile ActiveX control,StringCollection object", "Windows Media Player Mobile,StringCollection object", "StringCollection object"]
+ms.assetid: 7d1210fa-9ea5-45cc-89f7-46731413f806
+keywords:
+- Windows Media Player,StringCollection object
+- Windows Media Player object model,StringCollection object
+- object model,StringCollection object
+- Windows Media Player ActiveX control,StringCollection object
+- ActiveX control,StringCollection object
+- Windows Media Player Mobile ActiveX control,StringCollection object
+- Windows Media Player Mobile,StringCollection object
+- StringCollection object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the StringCollection Object

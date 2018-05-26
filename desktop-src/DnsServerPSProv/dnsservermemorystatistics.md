@@ -2,13 +2,15 @@
 title: DnsServerMemoryStatistics class
 description: DNS server statistics related to memory usage for different operations on the server.
 audience: developer
-ms.assetid: 'fe841ce6-cdfb-446e-89a2-64878dd7b5cb'
-ms.prod: 'windows-server-dev'
+ms.assetid: fe841ce6-cdfb-446e-89a2-64878dd7b5cb
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerMemoryStatistics class", "DnsServerMemoryStatistics class, described"]
+keywords:
+- DnsServerMemoryStatistics class
+- DnsServerMemoryStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerMemoryStatistics class
@@ -50,24 +55,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerMemoryStatistics
 {
-  uint32                    Memory;
-  uint32                    Alloc;
-  uint32                    Free;
-  uint32                    StdUsed;
-  uint32                    StdReturn;
-  uint32                    StdInUse;
-  uint32                    StdMemory;
-  uint32                    StdToHeapAlloc;
-  uint32                    StdToHeapFree;
-  uint32                    StdToHeapInUse;
-  uint32                    StdToHeapMemory;
-  uint32                    StdBlockAlloc;
-  uint32                    StdBlockUsed;
-  uint32                    StdBlockReturn;
-  uint32                    StdBlockInUse;
-  uint32                    StdBlockFreeList;
-  uint32                    StdBlockFreeListMemory;
-  uint32                    StdBlockMemory;
+  uint32                    Memory;
+  uint32                    Alloc;
+  uint32                    Free;
+  uint32                    StdUsed;
+  uint32                    StdReturn;
+  uint32                    StdInUse;
+  uint32                    StdMemory;
+  uint32                    StdToHeapAlloc;
+  uint32                    StdToHeapFree;
+  uint32                    StdToHeapInUse;
+  uint32                    StdToHeapMemory;
+  uint32                    StdBlockAlloc;
+  uint32                    StdBlockUsed;
+  uint32                    StdBlockReturn;
+  uint32                    StdBlockInUse;
+  uint32                    StdBlockFreeList;
+  uint32                    StdBlockFreeListMemory;
+  uint32                    StdBlockMemory;
   DnsServerMemtagStatistics MemTags[];
 };
 ```
@@ -341,7 +346,7 @@ The cumulative number of times a common-size block of memory was allocated by th
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -355,9 +360,9 @@ The cumulative number of times a common-size block of memory was allocated by th
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

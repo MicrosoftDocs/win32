@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an ISCardFileAccess interface.'
-ms.assetid: '06a5948f-c7bd-49bf-9032-f40f3d0d330c'
-title: 'ISCardManage::CreateFileAccess method'
+---
+Description: Creates an ISCardFileAccess interface.
+ms.assetid: 06a5948f-c7bd-49bf-9032-f40f3d0d330c
+title: ISCardManageCreateFileAccess method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardManage::CreateFileAccess method

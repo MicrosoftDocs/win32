@@ -1,7 +1,12 @@
 ---
 Description: Loading a Graph From an External Process
-ms.assetid: '1c657c7f-46d7-4feb-88a7-4a3227c9070b'
+ms.assetid: 1c657c7f-46d7-4feb-88a7-4a3227c9070b
 title: Loading a Graph From an External Process
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loading a Graph From an External Process

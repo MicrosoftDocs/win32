@@ -1,14 +1,20 @@
 ---
 title: message pragma Directive
 description: Pragma directive that produces compiler-time messages.
-ms.assetid: 'dc3ece10-9730-4ab1-acc8-f95abc92de7d'
-keywords: ["message pragma Directive HLSL"]
+ms.assetid: dc3ece10-9730-4ab1-acc8-f95abc92de7d
+keywords:
+- message pragma Directive HLSL
 topic_type:
 - apiref
 api_name:
 - message pragma Directive
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # message pragma Directive
@@ -22,7 +28,7 @@ Pragma directive that produces compiler-time messages.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Pragma directive that produces compiler-time messages.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -57,9 +63,9 @@ The following example demonstrates message processing during preprocessing.
 [\#pragma Directive (DirectX HLSL)](dx-graphics-hlsl-appendix-pre-pragma.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

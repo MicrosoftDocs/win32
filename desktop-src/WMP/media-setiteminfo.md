@@ -1,8 +1,11 @@
 ---
 title: Media.setItemInfo method
 description: The setItemInfo method sets the value of the specified attribute for the current media item.
-ms.assetid: '919fe92f-9519-4229-8097-4970a8f6cc25'
-keywords: ["setItemInfo method Windows Media Player", "setItemInfo method Windows Media Player , Media class", "Media class Windows Media Player , setItemInfo method"]
+ms.assetid: 919fe92f-9519-4229-8097-4970a8f6cc25
+keywords:
+- setItemInfo method Windows Media Player
+- setItemInfo method Windows Media Player , Media class
+- Media class Windows Media Player , setItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.setItemInfo method
@@ -122,9 +130,9 @@ onClick = "
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

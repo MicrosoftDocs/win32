@@ -4,10 +4,13 @@ description: The graphics virtual channels reference contains programming elemen
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F6A53BAF-638D-4BF1-ABDE-0712D17FA56B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: F6A53BAF-638D-4BF1-ABDE-0712D17FA56B
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Graphics virtual channels reference

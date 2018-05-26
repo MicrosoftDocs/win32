@@ -4,17 +4,22 @@ description: This is a multivalued attribute whose values are a number that repr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b2b4aafe-ac2d-44b3-80eb-910ba9852bb0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b2b4aafe-ac2d-44b3-80eb-910ba9852bb0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Admin-Multiselect-Property-Pages attribute AD Schema", "adminMultiselectPropertyPages attribute AD Schema"]
+keywords:
+- Admin-Multiselect-Property-Pages attribute AD Schema
+- adminMultiselectPropertyPages attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Admin-Multiselect-Property-Pages
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Admin-Multiselect-Property-Pages attribute
@@ -38,11 +43,11 @@ This is a multivalued attribute whose values are a number that represents the or
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ This is a multivalued attribute whose values are a number that represents the or
 
 
 
- 
+ 
 
- 
+ 
 
 
 

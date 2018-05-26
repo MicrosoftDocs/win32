@@ -1,7 +1,12 @@
 ---
 Description: General Guidelines for Implementing RAW Codecs
-ms.assetid: '47b3b226-4642-41d2-b05c-bc12583047aa'
+ms.assetid: 47b3b226-4642-41d2-b05c-bc12583047aa
 title: General Guidelines for Implementing RAW Codecs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Guidelines for Implementing RAW Codecs
@@ -11,7 +16,7 @@ Compared to non-RAW image types such as JPEG or TIFF, there are two notable diff
 -   Most RAW image formats are presumed to be "read only" and probably will not support pixel encoding to RAW format. However, because Windows Imaging Component (WIC) requires an encoder to support metadata write-back, RAW codec authors should plan to implement at least a skeleton encoder class.
 -   Decoding a full-size RAW image can take a long time compared to other formats. For this reason, Microsoft recommends that certain approaches be taken to minimize decoding latency and to ensure support for scenarios such as rapid rendering of thumbnails and previews.
 
-    For example, all RAW codec authors must implement the [**IWICBitmapSourceTransform**](-wic-codec-iwicbitmapsourcetransform.md) interface, which provides a mechanism to notify the decoder in advance of the target bitmap size, thus enabling optimized decoding to a smaller output image size.
+    For example, all RAW codec authors must implement the [**IWICBitmapSourceTransform**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsourcetransform?branch=master) interface, which provides a mechanism to notify the decoder in advance of the target bitmap size, thus enabling optimized decoding to a smaller output image size.
 
 ## Related topics
 

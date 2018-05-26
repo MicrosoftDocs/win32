@@ -2,13 +2,16 @@
 title: Disable method of the PS\_BgpRouteFlapDampening class
 description: Stops performing route Dampening for the flapping BGP routes.
 audience: developer
-ms.assetid: '3c8a7a28-0a13-4431-87cf-c8db36deb1ca'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3c8a7a28-0a13-4431-87cf-c8db36deb1ca
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Disable method", "Disable method, PS_BgpRouteFlapDampening class", "PS_BgpRouteFlapDampening class, Disable method"]
+keywords:
+- Disable method
+- Disable method, PS_BgpRouteFlapDampening class
+- PS_BgpRouteFlapDampening class, Disable method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disable method of the PS\_BgpRouteFlapDampening class
@@ -28,8 +34,8 @@ stops performing route Dampening for the flapping BGP routes.
 
 ```mof
 uint32 Disable(
-  [in] string  RoutingDomain,
-  [in] boolean Force
+  [in] string  RoutingDomain,
+  [in] boolean Force
 );
 ```
 
@@ -60,7 +66,7 @@ User-defined unique alphanumeric identifier for the routing domain or tenant.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ User-defined unique alphanumeric identifier for the routing domain or tenant.
 [**PS\_BgpRouteFlapDampening**](ps-bgprouteflapdampening.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

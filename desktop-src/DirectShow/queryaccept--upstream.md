@@ -1,19 +1,24 @@
 ---
-Description: 'QueryAccept (Upstream)'
-ms.assetid: '3153e3a4-2227-4fdd-b2b0-218763013d2d'
-title: 'QueryAccept (Upstream)'
+Description: QueryAccept (Upstream)
+ms.assetid: 3153e3a4-2227-4fdd-b2b0-218763013d2d
+title: QueryAccept (Upstream)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QueryAccept (Upstream)
 
-This mechanism enables an input pin to propose a format change to its upstream peer. The downstream filter must attach a media type to the sample that the upstream filter will obtain in its next call to [**IMemAllocator::GetBuffer**](imemallocator-getbuffer.md). In order to do this, however, the downstream filter must provide a custom allocator for the connection. This allocator must implement a private method that the downstream filter can use to set the media type on the next sample.
+This mechanism enables an input pin to propose a format change to its upstream peer. The downstream filter must attach a media type to the sample that the upstream filter will obtain in its next call to [**IMemAllocator::GetBuffer**](/windows/win32/Strmif/nf-strmif-imemallocator-getbuffer?branch=master). In order to do this, however, the downstream filter must provide a custom allocator for the connection. This allocator must implement a private method that the downstream filter can use to set the media type on the next sample.
 
 The following steps occur:
 
 1.  The downstream filter checks whether the pin connection uses the filter's custom allocator. If the upstream filter owns the allocator, the downstream filter cannot change the format.
-2.  The downstream filter calls [**IPin::QueryAccept**](ipin-queryaccept.md) on the upstream output pin (see illustration, step A).
-3.  If `QueryAccept` returns S\_OK, the downstream filter calls the private method on its allocator in order to set the media type. Within this private method, the allocator calls [**IMediaSample::SetMediaType**](imediasample-setmediatype.md) on the next available sample (B).
-4.  The upstream filter calls **GetBuffer** to get a new sample (C) and [**IMediaSample::GetMediaType**](imediasample-getmediatype.md) to get the media type (D).
+2.  The downstream filter calls [**IPin::QueryAccept**](/windows/win32/Strmif/nf-strmif-ipin-queryaccept?branch=master) on the upstream output pin (see illustration, step A).
+3.  If `QueryAccept` returns S\_OK, the downstream filter calls the private method on its allocator in order to set the media type. Within this private method, the allocator calls [**IMediaSample::SetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-setmediatype?branch=master) on the next available sample (B).
+4.  The upstream filter calls **GetBuffer** to get a new sample (C) and [**IMediaSample::GetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-getmediatype?branch=master) to get the media type (D).
 5.  When the upstream filter delivers the sample, it should leave the media type attached to that sample. That way, the downstream filter can confirm that the media type has changed (E).
 
 If the upstream filter accepts the format change, it must also be able to switch back to the original media type, as shown in the following diagram.

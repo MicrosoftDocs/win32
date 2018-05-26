@@ -1,8 +1,11 @@
 ---
 title: ISMTPTransport2 SendMessage2 method
 description: Sends a Simple Mail Transport Protocol (SMTP) message with Delivery Status Notification (DSN) support.
-ms.assetid: 'f09a1327-1c00-4402-83b8-85f9c6c781ba'
-keywords: ["SendMessage2 method Windows Mail (formerly Outlook Express)", "SendMessage2 method Windows Mail (formerly Outlook Express) , ISMTPTransport2 interface", "ISMTPTransport2 interface Windows Mail (formerly Outlook Express) , SendMessage2 method"]
+ms.assetid: f09a1327-1c00-4402-83b8-85f9c6c781ba
+keywords:
+- SendMessage2 method Windows Mail (formerly Outlook Express)
+- SendMessage2 method Windows Mail (formerly Outlook Express) , ISMTPTransport2 interface
+- ISMTPTransport2 interface Windows Mail (formerly Outlook Express) , SendMessage2 method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISMTPTransport2::SendMessage2 method
@@ -24,7 +32,7 @@ Sends a Simple Mail Transport Protocol (SMTP) message with Delivery Status Notif
 
 ```C++
 HRESULT SendMessage2(
-  [in] LPSMTPMESSAGE2 pMessage
+  [in] LPSMTPMESSAGE2 pMessage
 );
 ```
 
@@ -63,7 +71,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,8 +87,8 @@ This method duplicates the contents of *pMessage* and adds a reference for *pMes
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -88,9 +96,9 @@ This method duplicates the contents of *pMessage* and adds a reference for *pMes
 
 
 
- 
+ 
 
- 
+ 
 
 
 

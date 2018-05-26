@@ -1,7 +1,12 @@
 ---
 title: Internet Explorer 8
 description: The evolution of the Internet has introduced new sources of rich information and more ways to access it.
-ms.assetid: '8ebb532f-6c30-4996-a57c-6357edd298cf'
+ms.assetid: 8ebb532f-6c30-4996-a57c-6357edd298cf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Internet Explorer 8

@@ -1,14 +1,19 @@
 ---
-Description: 'You can use the following methods to determine the Windows Installer version:'
-ms.assetid: '6b39bb19-4360-4d0e-a797-980912a91275'
+Description: You can use the following methods to determine the Windows Installer version
+ms.assetid: 6b39bb19-4360-4d0e-a797-980912a91275
 title: Determining the Windows Installer Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining the Windows Installer Version
 
 You can use the following methods to determine the Windows Installer version:
 
--   Call the [**MsiGetFileVersion**](msigetfileversion.md) function with the *szFilePath* parameter set to the path to the file Msi.dll.
+-   Call the [**MsiGetFileVersion**](/windows/win32/Msi/nf-msi-msigetfileversiona?branch=master) function with the *szFilePath* parameter set to the path to the file Msi.dll.
 
     You can call the [**SHGetKnownFolderPath**](_shell_shgetknownfolderpath) function with the **CSIDL\_SYSTEM** constant to get the path to Msi.dll. Beginning with Windows Vista, applications should use the [**SHGetFolderPath**](_win32_shgetfolderpath_cpp) function and the **REFKNOWNFOLDERID** "System." Existing applications that use the **SHGetFolderPath** function and the **CSIDL** type will continue to work.
 

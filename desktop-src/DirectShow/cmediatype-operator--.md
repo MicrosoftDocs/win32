@@ -1,7 +1,12 @@
 ---
-Description: 'This operator tests for equality between CMediaType objects.'
-ms.assetid: 'd50f3a72-c5e8-44a5-aa0e-b1c40a19fee3'
-title: 'CMediaType.CMediaType::operator== method'
+Description: This operator tests for equality between CMediaType objects.
+ms.assetid: d50f3a72-c5e8-44a5-aa0e-b1c40a19fee3
+title: CMediaType.CMediaTypeoperator== method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.CMediaType::operator== method
@@ -13,7 +18,7 @@ This operator tests for equality between [**CMediaType**](cmediatype.md) objects
 
 ```C++
 BOOL CMediaType::operator==(
-  [ref] const CMediaType &amp;rt
+  [ref] const CMediaType &amp;rt
 );
 ```
 
@@ -52,9 +57,9 @@ Returns **TRUE** if *rt* is equal to this object. Otherwise, returns **FALSE**.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

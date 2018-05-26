@@ -1,7 +1,12 @@
 ---
 title: DO Interfaces
 description: Use the following Delivery Optimization (DO) interfaces to transfer files and monitor jobs within the transfer queue.
-ms.assetid: '20203CCD-86CC-4551-BA4F-0A5999F8C956'
+ms.assetid: 20203CCD-86CC-4551-BA4F-0A5999F8C956
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DO Interfaces

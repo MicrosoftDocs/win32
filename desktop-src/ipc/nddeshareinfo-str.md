@@ -1,12 +1,17 @@
 ---
-Description: 'Contains DDE share attributes maintained by the NetDDE Share Database Manager (DSDM).'
-ms.assetid: 'f4101553-06ef-4f83-87c7-5b6fdf0467e5'
+Description: Contains DDE share attributes maintained by the NetDDE Share Database Manager (DSDM).
+ms.assetid: f4101553-06ef-4f83-87c7-5b6fdf0467e5
 title: NDDESHAREINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDDESHAREINFO structure
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Contains DDE share attributes maintained by the NetDDE Share Database Manager (DSDM). The security descriptor associated with each DDE share is not passed through this structure but is accessed through specific functions. The NetDDE DSDM API accepts this structure for set functions; for get functions, the DSDM returns the structure packed into the supplied buffer along with the data referenced by the members **lpszShareName**, **lpszAppTopicList**, and **lpszItemList**.
 
@@ -15,16 +20,16 @@ Contains DDE share attributes maintained by the NetDDE Share Database Manager (D
 
 ```C++
 typedef struct _NDDESHAREINFO {
-  LONG   lRevision;
+  LONG   lRevision;
   LPTSTR lpszShareName;
-  LONG   lShareType;
+  LONG   lShareType;
   LPTSTR lpszAppTopicList;
-  LONG   fSharedFlag;
-  LONG   fService;
-  LONG   fStartAppFlag;
-  LONG   nCmdShow;
-  LONG   qModifyId[2];
-  LONG   cNumItems;
+  LONG   fSharedFlag;
+  LONG   fService;
+  LONG   fStartAppFlag;
+  LONG   nCmdShow;
+  LONG   qModifyId[2];
+  LONG   cNumItems;
   LPTSTR lpszItemList;
 } NDDESHAREINFO, *PNDDESHAREINFO;
 ```
@@ -64,7 +69,7 @@ One or more DDE share types. This member can be a combination of the following s
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -136,8 +141,8 @@ A pointer to a buffer containing null-terminated strings that specify the items 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl> |
 
 
@@ -161,9 +166,9 @@ A pointer to a buffer containing null-terminated strings that specify the items 
 [**WinMain**](_win32_winmain_cpp)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

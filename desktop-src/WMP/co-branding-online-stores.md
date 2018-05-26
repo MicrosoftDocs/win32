@@ -1,8 +1,18 @@
 ---
 title: Co-Branding Online Stores
 description: Co-Branding Online Stores
-ms.assetid: 'b564845a-a4e0-4fe6-90cb-63ef320c7e52'
-keywords: ["Windows Media Player online stores,co-branding", "online stores,co-branding", "type 1 online stores,co-branding", "type 2 online stores,co-branding", "co-branding online stores"]
+ms.assetid: b564845a-a4e0-4fe6-90cb-63ef320c7e52
+keywords:
+- Windows Media Player online stores,co-branding
+- online stores,co-branding
+- type 1 online stores,co-branding
+- type 2 online stores,co-branding
+- co-branding online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Co-Branding Online Stores

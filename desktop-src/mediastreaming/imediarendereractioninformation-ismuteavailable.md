@@ -1,14 +1,22 @@
 ---
 title: IMediaRendererActionInformation IsMuteAvailable method
 description: Retrieves a value that indicates whether the DMR is capable of muting the audio.
-ms.assetid: 'F744C2D7-5518-4A9F-A71E-60CF0B312177'
-keywords: ["IsMuteAvailable method Media Streaming API", "IsMuteAvailable method Media Streaming API , IMediaRendererActionInformation interface", "IMediaRendererActionInformation interface Media Streaming API , IsMuteAvailable method"]
+ms.assetid: F744C2D7-5518-4A9F-A71E-60CF0B312177
+keywords:
+- IsMuteAvailable method Media Streaming API
+- IsMuteAvailable method Media Streaming API , IMediaRendererActionInformation interface
+- IMediaRendererActionInformation interface Media Streaming API , IsMuteAvailable method
 topic_type:
 - apiref
 api_name:
 - IMediaRendererActionInformation.IsMuteAvailable
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRendererActionInformation::IsMuteAvailable method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is capable of muting the audio.
 
 ```C++
 HRESULT IsMuteAvailable(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRendererActionInformation**](imediarendereractioninformation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

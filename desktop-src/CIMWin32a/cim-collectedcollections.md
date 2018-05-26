@@ -4,13 +4,15 @@ description: CIM\_CollectedCollections is an aggregation association representin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd157558-2272-4d60-bdd6-0c3ee5f7cb28'
-ms.prod: 'windows-server-dev'
+ms.assetid: fd157558-2272-4d60-bdd6-0c3ee5f7cb28
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_CollectedCollections class", "CIM_CollectedCollections class, described"]
+keywords:
+- CIM_CollectedCollections class
+- CIM_CollectedCollections class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Wmipcima.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CollectedCollections class
@@ -90,17 +95,17 @@ A reference to a [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) containing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipcima.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipcima.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Power Policy Provider
 description: The Power Policy provider provides Windows Management Instrumentation (WMI) classes the ability to remotely manage all the power policy infrastructure.
-ms.assetid: '3312E07D-4831-4F21-9200-3600EC68A958'
+ms.assetid: 3312E07D-4831-4F21-9200-3600EC68A958
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Power Policy Provider
@@ -31,11 +36,11 @@ All classes and objects are defined in the following namespace: \\\\.\\root\\cim
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

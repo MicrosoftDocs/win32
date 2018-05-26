@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks StreamOutputCb method
 description: Calls the stream output description subobject callback of an object that implements this interface.
-ms.assetid: '93447ABE-A942-4562-A532-600EC63072DA'
-keywords: ["StreamOutputCb method", "StreamOutputCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, StreamOutputCb method"]
+ms.assetid: 93447ABE-A942-4562-A532-600EC63072DA
+keywords:
+- StreamOutputCb method
+- StreamOutputCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, StreamOutputCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::StreamOutputCb method
@@ -22,7 +30,7 @@ Calls the stream output description subobject callback of an object that impleme
 
 ```C++
 void StreamOutputCb(
-  [ref] const D3D12_STREAM_OUTPUT_DESC &amp;StreamOutput
+  [ref] const D3D12_STREAM_OUTPUT_DESC &amp;StreamOutput
 );
 ```
 
@@ -35,7 +43,7 @@ void StreamOutputCb(
 *StreamOutput* \[ref\]
 </dt> <dd>
 
-Type: **const [**D3D12\_STREAM\_OUTPUT\_DESC**](d3d12-stream-output-desc.md)**
+Type: **const [**D3D12\_STREAM\_OUTPUT\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_stream_output_desc?branch=master)**
 
 Details of the stream output description subobject parsed from a pipeline state stream.
 
@@ -67,12 +75,12 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**D3D12\_STREAM\_OUTPUT\_DESC**](d3d12-stream-output-desc.md)
+[**D3D12\_STREAM\_OUTPUT\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_stream_output_desc?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

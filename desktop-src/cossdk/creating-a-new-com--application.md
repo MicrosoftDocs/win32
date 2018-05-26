@@ -1,7 +1,12 @@
 ---
 Description: Creating a New COM+ Application
-ms.assetid: 'eec4e871-36c2-4e60-9808-1400efcfc60c'
+ms.assetid: eec4e871-36c2-4e60-9808-1400efcfc60c
 title: Creating a New COM+ Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a New COM+ Application

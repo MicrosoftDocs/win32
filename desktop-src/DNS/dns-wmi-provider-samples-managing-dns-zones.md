@@ -1,8 +1,14 @@
 ---
 title: DNS WMI Provider Samples—Managing DNS Zones
 description: DNS WMI Provider Samples—Managing DNS Zones
-ms.assetid: '12958b71-b47d-4dd7-bd08-409ecd369e4f'
-keywords: ["DNS WMI Provider Samples 8212;Managing DNS Zones"]
+ms.assetid: 12958b71-b47d-4dd7-bd08-409ecd369e4f
+keywords:
+- DNS WMI Provider Samples 8212;Managing DNS Zones
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS WMI Provider Samples—Managing DNS Zones

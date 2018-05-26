@@ -1,8 +1,9 @@
 ---
 title: gluGetNurbsProperty function
 description: The gluGetNurbsProperty function gets a Non-Uniform Rational B-Spline (NURBS) property.
-ms.assetid: '7dbc75a0-d04e-4794-b3dd-a602addf9dfa'
-keywords: ["gluGetNurbsProperty function OpenGL"]
+ms.assetid: 7dbc75a0-d04e-4794-b3dd-a602addf9dfa
+keywords:
+- gluGetNurbsProperty function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluGetNurbsProperty function
@@ -22,9 +28,9 @@ The **gluGetNurbsProperty** function gets a Non-Uniform Rational B-Spline ([NURB
 
 ```C++
 void WINAPI gluGetNurbsProperty(
-   GLUnurbs *nobj,
-   GLenum   property,
-   GLfloat  *value
+   GLUnurbs *nobj,
+   GLenum   property,
+   GLfloat  *value
 );
 ```
 
@@ -69,8 +75,8 @@ Use **gluGetNurbsProperty** to retrieve properties stored in a NURBS object. The
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -87,9 +93,9 @@ Use **gluGetNurbsProperty** to retrieve properties stored in a NURBS object. The
 [**gluNurbsProperty**](glunurbsproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

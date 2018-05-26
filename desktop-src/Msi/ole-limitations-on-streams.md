@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of installation databases need to be aware of two limitations on the handling of streams by the Win32 OLE structured storage implementation.'
-ms.assetid: 'ebd5fcac-0238-4f30-9fd5-a0c5cf9028ef'
+Description: Developers of installation databases need to be aware of two limitations on the handling of streams by the Win32 OLE structured storage implementation.
+ms.assetid: ebd5fcac-0238-4f30-9fd5-a0c5cf9028ef
 title: OLE Limitations on Streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OLE Limitations on Streams

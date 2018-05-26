@@ -1,7 +1,12 @@
 ---
 title: Access Control
 description: These APIs are subject to the following access controls.
-ms.assetid: 'edc9085c-8c5c-4e50-9236-c4554dfa4548'
+ms.assetid: edc9085c-8c5c-4e50-9236-c4554dfa4548
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Access Control

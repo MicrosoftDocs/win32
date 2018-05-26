@@ -1,7 +1,12 @@
 ---
 title: RPC Buffer Allocation Errors
 description: Because the RPC run-time library allocates memory for send and receive buffers, the function should expect RPC allocation errors.
-ms.assetid: 'be9105df-1183-48d6-8cea-391ca628c8b7'
+ms.assetid: be9105df-1183-48d6-8cea-391ca628c8b7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC Buffer Allocation Errors

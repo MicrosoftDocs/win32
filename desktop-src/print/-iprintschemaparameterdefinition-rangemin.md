@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RangeMin property gets the minimum value of the allowed data range.'
-ms.assetid: 'ED8A29D9-84CE-4FB5-BCEE-C31DA9AB3D00'
-title: 'IPrintSchemaParameterDefinition::RangeMin property'
+---
+Description: The RangeMin property gets the minimum value of the allowed data range.
+ms.assetid: ED8A29D9-84CE-4FB5-BCEE-C31DA9AB3D00
+title: IPrintSchemaParameterDefinitionRangeMin property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterDefinition::RangeMin property

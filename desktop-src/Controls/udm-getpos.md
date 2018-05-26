@@ -1,8 +1,9 @@
 ---
 title: UDM\_GETPOS message
 description: Retrieves the current position of an up-down control with 16-bit precision.
-ms.assetid: '5f395de0-11b3-44f8-9bf4-42e27ce88a0c'
-keywords: ["UDM_GETPOS message Windows Controls"]
+ms.assetid: 5f395de0-11b3-44f8-9bf4-42e27ce88a0c
+keywords:
+- UDM_GETPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_GETPOS message
@@ -43,8 +49,8 @@ If 32-bit values have been enabled for an up-down control with [**UDM\_SETRANGE3
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ If 32-bit values have been enabled for an up-down control with [**UDM\_SETRANGE3
 [**UDM\_SETRANGE32**](udm-setrange32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

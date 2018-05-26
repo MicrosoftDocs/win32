@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies how IPropertyDescription::FormatForDisplay should format the property''s value as a string. This is applicable only if &lt;displayInfo displayType=&\#0034;String&\#0034;&gt;.'
-ms.assetid: 'f6384910-4411-4ac2-884d-3476c1b6ff96'
+Description: Specifies how IPropertyDescriptionFormatForDisplay should format the propertys value as a string. This is applicable only if &lt;displayInfo displayType=&\#0034;String&\#0034;&gt;.
+ms.assetid: f6384910-4411-4ac2-884d-3476c1b6ff96
 title: booleanFormat
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # booleanFormat

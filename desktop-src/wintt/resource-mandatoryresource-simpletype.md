@@ -1,14 +1,20 @@
 ---
 title: MandatoryResource Simple Type
 description: Defines a string type that must contain content.
-ms.assetid: 'd0f91a9f-bc9d-473c-9f5b-d76dce5466d1'
-keywords: ["MandatoryResource simple type Windows Troubleshooting Toolkit"]
+ms.assetid: d0f91a9f-bc9d-473c-9f5b-d76dce5466d1
+keywords:
+- MandatoryResource simple type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - MandatoryResource
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MandatoryResource Simple Type
@@ -40,8 +46,8 @@ The string must contain at least one character but no more than 1,024 characters
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -52,9 +58,9 @@ The string must contain at least one character but no more than 1,024 characters
 [**DisplayInformation**](package-displayinformation-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

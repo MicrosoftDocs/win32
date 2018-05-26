@@ -4,13 +4,15 @@ description: This subclass defines the replication capabilities of a StorageConf
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5c3860c1-44b9-4825-ad5f-f6180dc1d722'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5c3860c1-44b9-4825-ad5f-f6180dc1d722
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_StorageReplicationCapabilities class iSCSI Software Target API", "CIM_StorageReplicationCapabilities class iSCSI Software Target API , described"]
+keywords:
+- CIM_StorageReplicationCapabilities class iSCSI Software Target API
+- CIM_StorageReplicationCapabilities class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -57,6 +59,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StorageReplicationCapabilities class
@@ -71,18 +76,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("2.10.0"), UMLPackagePath("CIM::Device::StorageServices")]
 class CIM_StorageReplicationCapabilities : CIM_Capabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  SupportedSynchronizationType;
-  uint16  SupportedAsynchronousActions[];
-  uint16  SupportedSynchronousActions[];
-  uint16  InitialReplicationState;
-  uint16  SupportedSpecializedElements[];
-  uint16  SupportedModifyOperations[];
-  uint16  ReplicaHostAccessibility;
-  uint16  HostAccessibleState[];
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  SupportedSynchronizationType;
+  uint16  SupportedAsynchronousActions[];
+  uint16  SupportedSynchronousActions[];
+  uint16  InitialReplicationState;
+  uint16  SupportedSpecializedElements[];
+  uint16  SupportedModifyOperations[];
+  uint16  ReplicaHostAccessibility;
+  uint16  HostAccessibleState[];
   boolean SpaceLimitSupported;
   boolean SpaceReservationSupported;
   boolean LocalMirrorSnapshotSupported;
@@ -90,25 +95,25 @@ class CIM_StorageReplicationCapabilities : CIM_Capabilities
   boolean IncrementalDeltasSupported;
   boolean PersistentReplicasSupported;
   boolean BidirectionalConnectionsSupported;
-  uint16  MaximumReplicasPerSource;
-  uint16  MaximumPortsPerConnection;
-  uint16  MaximumConnectionsPerPort;
-  uint16  MaximumPeerConnections;
-  uint16  MaximumLocalReplicationDepth = 1;
-  uint16  MaximumRemoteReplicationDepth = 1;
-  uint16  InitialSynchronizationDefault;
-  uint16  ReplicationPriorityDefault;
-  uint8   LowSpaceWarningThresholdDefault;
-  uint8   SpaceLimitWarningThresholdDefault;
-  uint16  RemoteReplicationServicePointAccess;
-  uint16  AlternateReplicationServicePointAccess;
-  uint16  DeltaReplicaPoolAccess;
-  uint16  RemoteBufferElementType;
-  uint16  RemoteBufferHost;
-  uint16  RemoteBufferLocation;
-  uint16  RemoteBufferSupported;
-  uint16  UseReplicationBufferDefault;
-  string  PeerConnectionProtocol;
+  uint16  MaximumReplicasPerSource;
+  uint16  MaximumPortsPerConnection;
+  uint16  MaximumConnectionsPerPort;
+  uint16  MaximumPeerConnections;
+  uint16  MaximumLocalReplicationDepth = 1;
+  uint16  MaximumRemoteReplicationDepth = 1;
+  uint16  InitialSynchronizationDefault;
+  uint16  ReplicationPriorityDefault;
+  uint8   LowSpaceWarningThresholdDefault;
+  uint8   SpaceLimitWarningThresholdDefault;
+  uint16  RemoteReplicationServicePointAccess;
+  uint16  AlternateReplicationServicePointAccess;
+  uint16  DeltaReplicaPoolAccess;
+  uint16  RemoteBufferElementType;
+  uint16  RemoteBufferHost;
+  uint16  RemoteBufferLocation;
+  uint16  RemoteBufferSupported;
+  uint16  UseReplicationBufferDefault;
+  string  PeerConnectionProtocol;
 };
 ```
 
@@ -170,14 +175,14 @@ Remote replication provides StorageConfigurationService instances for source sys
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -251,14 +256,14 @@ DeltaReplicaPool indicates that a specialized pool is required as a container fo
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -414,14 +419,14 @@ Lists the replica synchronization states in which the provider allows host acces
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -493,14 +498,14 @@ Synchronized: The replicas are synchronized.Idle: an UnSyncAssoc replica is read
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -546,14 +551,14 @@ Start or do not start background copy when replica is created.
 **DMTF Reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -753,14 +758,14 @@ InPool: buffer must be created in passed pool.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -809,14 +814,14 @@ Pipe: one or two buffer elements per replication pipe.
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -865,14 +870,14 @@ Both: buffers needed for both source and target platforms.
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -919,14 +924,14 @@ Optional: may have buffer if any Async remote replicas are created.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -989,14 +994,14 @@ Remote replication provides StorageConfigurationService instances for source sys
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1048,7 +1053,7 @@ Indicates host access restrictions for replicas with thesecapabilities. Values: 
 **DMTF Reserved**
 
 
-</dt> <dd>6–65535</dd> </dl>
+</dt> <dd>6 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1105,14 +1110,14 @@ High: Replication engine I/O has higher priority than host I/O.
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1231,7 +1236,7 @@ Enumeration indicating what operations will be executed as asynchronous jobs. If
 **DMTF Reserved**
 
 
-</dt> <dd>9–65535</dd> </dl>
+</dt> <dd>9 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1340,14 +1345,14 @@ Enumeration indicating which ModifySynchronization operations are supported by t
 **DMTF Reserved**
 
 
-</dt> <dd>14–32767</dd> <dt>
+</dt> <dd>14 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1421,14 +1426,14 @@ Enumeration indicating which specialized storage element types are supported by 
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1493,14 +1498,14 @@ UnSyncUnAssoc: create a full size, independent replica.
 **DMTF Reserved**
 
 
-</dt> <dd>7–32767</dd> <dt>
+</dt> <dd>7 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1581,7 +1586,7 @@ Enumeration indicating what operations will be executed without the creation of 
 **DMTF Reserved**
 
 
-</dt> <dd>10–65535</dd> </dl>
+</dt> <dd>10 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1627,14 +1632,14 @@ Indicate if an async remote replica pair is allowed to use a write buffer for as
 **DMTF Reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -1645,7 +1650,7 @@ Indicate if an async remote replica pair is allowed to use a write buffer for as
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -1659,9 +1664,9 @@ Indicate if an async remote replica pair is allowed to use a write buffer for as
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

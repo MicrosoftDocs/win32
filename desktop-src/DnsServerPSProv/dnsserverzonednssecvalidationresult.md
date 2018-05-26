@@ -2,13 +2,15 @@
 title: DnsServerZoneDnsSecValidationResult class
 description: Represents a set of results returned by a Domain Name System Security Extensions (DNSSEC) validation operation.
 audience: developer
-ms.assetid: 'feffde55-5f38-4441-bea1-8d1166d877d7'
-ms.prod: 'windows-server-dev'
+ms.assetid: feffde55-5f38-4441-bea1-8d1166d877d7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerZoneDnsSecValidationResult class", "DnsServerZoneDnsSecValidationResult class, described"]
+keywords:
+- DnsServerZoneDnsSecValidationResult class
+- DnsServerZoneDnsSecValidationResult class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerZoneDnsSecValidationResult class
@@ -158,7 +163,7 @@ The name of the zone.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -172,9 +177,9 @@ The name of the zone.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

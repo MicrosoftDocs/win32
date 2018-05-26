@@ -1,7 +1,12 @@
 ---
-Description: 'You can create outbound routing rules using scripts.'
-ms.assetid: '35bb803d-fce4-46a3-825a-ec3a5138ed67'
+Description: You can create outbound routing rules using scripts.
+ms.assetid: 35bb803d-fce4-46a3-825a-ec3a5138ed67
 title: Creating and Managing Outbound Routing Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Managing Outbound Routing Rules

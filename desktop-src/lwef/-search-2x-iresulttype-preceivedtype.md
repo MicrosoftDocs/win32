@@ -1,8 +1,11 @@
 ---
 title: IResultType PreceivedType property
 description: This property contains the string used to identify the type in the index.
-ms.assetid: '26d5f14c-162a-4ded-ac72-875561b8c977'
-keywords: ["PreceivedType property Legacy Windows Environment Features", "PreceivedType property Legacy Windows Environment Features , IResultType interface", "IResultType interface Legacy Windows Environment Features , PreceivedType property"]
+ms.assetid: 26d5f14c-162a-4ded-ac72-875561b8c977
+keywords:
+- PreceivedType property Legacy Windows Environment Features
+- PreceivedType property Legacy Windows Environment Features , IResultType interface
+- IResultType interface Legacy Windows Environment Features , PreceivedType property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultType::PreceivedType property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_PreceivedType(
-  [out, retval] BSTR *name
+  [out, retval] BSTR *name
 );
 ```
 
@@ -43,16 +51,16 @@ returns the address of the string identifyint the type in the index.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

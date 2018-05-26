@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Connection ClosePort method
 description: The ClosePort method modifies the firewall configuration for a connection to disallow inbound connection attempts for the specified port and protocol.
-ms.assetid: 'c6e99869-6090-4c2e-90fb-cb143e746437'
-keywords: ["ClosePort method ICS/ICF", "ClosePort method ICS/ICF , INetFwV6Connection interface", "INetFwV6Connection interface ICS/ICF , ClosePort method"]
+ms.assetid: c6e99869-6090-4c2e-90fb-cb143e746437
+keywords:
+- ClosePort method ICS/ICF
+- ClosePort method ICS/ICF , INetFwV6Connection interface
+- INetFwV6Connection interface ICS/ICF , ClosePort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Connection::ClosePort method
@@ -26,8 +34,8 @@ This is a state-changing method, and thus is subject to the access control and c
 
 ```C++
 HRESULT ClosePort(
-  [in] USHORT        usPort,
-  [in] PORT_PROTOCOL Protocol
+  [in] USHORT        usPort,
+  [in] PORT_PROTOCOL Protocol
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT ClosePort(
 *usPort* \[in\]
 </dt> <dd>
 
-Specifies the port ID in host byte order. Must be in the range 1 – 65535.
+Specifies the port ID in host byte order. Must be in the range 1   65535.
 
 </dd> <dt>
 
@@ -72,7 +80,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,10 +88,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -96,9 +104,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Connection**](inetfwv6connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

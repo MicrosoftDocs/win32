@@ -1,14 +1,20 @@
 ---
 title: MetricThresholds element
 description: Contains one or more metric thresholds.
-ms.assetid: '48242467-76C2-49DF-BE5B-C3E6E1DB3FD3'
-keywords: ["MetricThresholds element Access Execution Engine"]
+ms.assetid: 48242467-76C2-49DF-BE5B-C3E6E1DB3FD3
+keywords:
+- MetricThresholds element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MetricThresholds
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholds element
@@ -82,9 +88,9 @@ These are used to generate Green/Yellow/Red reports. This element should be trea
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Using Events with Asynchronous Calls
 description: Using Events with Asynchronous Calls
-ms.assetid: '98c24176-a632-400e-b23b-5e13f1bd9a27'
-keywords: ["Windows Media Format SDK,events with asynchronous calls", "Windows Media Format SDK,asynchronous call events", "events,asynchronous calls", "asynchronous call events"]
+ms.assetid: 98c24176-a632-400e-b23b-5e13f1bd9a27
+keywords:
+- Windows Media Format SDK,events with asynchronous calls
+- Windows Media Format SDK,asynchronous call events
+- events,asynchronous calls
+- asynchronous call events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Events with Asynchronous Calls

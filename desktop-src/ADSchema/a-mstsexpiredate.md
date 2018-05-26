@@ -4,17 +4,22 @@ description: TS expiration date.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'be314a8d-aca9-4655-a1be-3632b2ee4c43'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: be314a8d-aca9-4655-a1be-3632b2ee4c43
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TS-ExpireDate attribute AD Schema", "msTSExpireDate attribute AD Schema"]
+keywords:
+- MS-TS-ExpireDate attribute AD Schema
+- msTSExpireDate attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TS-ExpireDate
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TS-ExpireDate attribute

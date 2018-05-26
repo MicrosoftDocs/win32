@@ -1,7 +1,12 @@
 ---
-Description: 'World-Space to Page-Space Transformations'
-ms.assetid: '5563bc5f-8150-4ec7-a60c-d46ee6bf35cd'
-title: 'World-Space to Page-Space Transformations'
+Description: World-Space to Page-Space Transformations
+ms.assetid: 5563bc5f-8150-4ec7-a60c-d46ee6bf35cd
+title: World-Space to Page-Space Transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # World-Space to Page-Space Transformations

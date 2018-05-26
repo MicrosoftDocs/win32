@@ -1,7 +1,12 @@
 ---
-Description: 'You can move a component from one COM+ application to another. In effect, moving a component removes the component from the original COM+ application and installs it in the target COM+ application.'
-ms.assetid: '5d897acb-11a2-4099-b024-768333b31568'
+Description: You can move a component from one COM+ application to another. In effect, moving a component removes the component from the original COM+ application and installs it in the target COM+ application.
+ms.assetid: 5d897acb-11a2-4099-b024-768333b31568
 title: Moving Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Moving Components

@@ -1,7 +1,12 @@
 ---
 Description: Partition Properties
-ms.assetid: 'bd6647a8-ad38-4bd9-842d-6592440099a4'
+ms.assetid: bd6647a8-ad38-4bd9-842d-6592440099a4
 title: Partition Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Partition Properties

@@ -1,7 +1,12 @@
 ---
 title: Using Classify Options
 description: Following code samples demonstrate how to use filter classify options in order to alter the filtering process.
-ms.assetid: '02d57ea2-066b-4cb9-81f1-2ff9ee55f22f'
+ms.assetid: 02d57ea2-066b-4cb9-81f1-2ff9ee55f22f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Classify Options

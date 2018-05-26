@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides an overview of the fax service.'
-ms.assetid: 'aa0abad9-fb14-48b0-9d8c-463d359730a1'
+Description: This topic provides an overview of the fax service.
+ms.assetid: aa0abad9-fb14-48b0-9d8c-463d359730a1
 title: About the Fax Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Fax Service

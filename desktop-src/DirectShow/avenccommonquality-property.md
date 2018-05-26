@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the quality level for encoding.'
-ms.assetid: '2c7f3836-2392-47c6-9a56-d5a9b52560ff'
+Description: Specifies the quality level for encoding.
+ms.assetid: 2c7f3836-2392-47c6-9a56-d5a9b52560ff
 title: AVEncCommonQuality property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncCommonQuality property
@@ -31,7 +36,7 @@ The value of this property has the following range.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,8 +48,8 @@ This property controls the quality level when the encoder is not using a constra
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -56,12 +61,12 @@ This property controls the quality level when the encoder is not using a constra
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

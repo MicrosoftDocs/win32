@@ -1,7 +1,12 @@
 ---
-Description: 'The Reverse method reverses the order of the list.'
-ms.assetid: 'f6f72f06-d219-4e18-a4fa-a816f9b50462'
-title: 'CBaseList.Reverse method'
+Description: The Reverse method reverses the order of the list.
+ms.assetid: f6f72f06-d219-4e18-a4fa-a816f9b50462
+title: CBaseList.Reverse method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.Reverse method
@@ -43,9 +48,9 @@ This method does not return a value.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

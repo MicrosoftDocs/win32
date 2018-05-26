@@ -1,14 +1,20 @@
 ---
 title: AnonymousUserName (IdentityPrivacyParameters) Element
-description: Contains an anonymous identity used in place of a user's true identify. It is sent during the 1st Phase of PEAP authentication when Identity is sent as plain text.
-ms.assetid: '74a33a75-cf21-4346-a984-f2f8564c3b57'
-keywords: ["AnonymousUserName element EAPHost"]
+description: Contains an anonymous identity used in place of a users true identify. It is sent during the 1st Phase of PEAP authentication when Identity is sent as plain text.
+ms.assetid: 74a33a75-cf21-4346-a984-f2f8564c3b57
+keywords:
+- AnonymousUserName element EAPHost
 topic_type:
 - apiref
 api_name:
 - Username
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnonymousUserName (IdentityPrivacyParameters) Element
@@ -36,8 +42,8 @@ The **AnonymousUserName** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ The **AnonymousUserName** element is optional.
 [mspeapconnectionpropertiesv2 Schema Elements](mspeapconnectionpropertiesv2schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

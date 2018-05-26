@@ -4,11 +4,14 @@ description: Unique identifier of a cluster node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8ef68a5e-e7a0-4b32-8649-4fd194520ea6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8ef68a5e-e7a0-4b32-8649-4fd194520ea6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["NodeID property Failover Cluster", "NodeID property Failover Cluster , ClusNode object", "ClusNode object Failover Cluster , NodeID property"]
+keywords:
+- NodeID property Failover Cluster
+- NodeID property Failover Cluster , ClusNode object
+- ClusNode object Failover Cluster , NodeID property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNode.NodeID property
@@ -55,7 +61,7 @@ Changing the name of a node does not affect its **NodeID**.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -74,9 +80,9 @@ Changing the name of a node does not affect its **NodeID**.
 [**ClusNode**](clusnode-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

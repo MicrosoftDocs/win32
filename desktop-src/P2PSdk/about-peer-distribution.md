@@ -1,12 +1,17 @@
 ---
-Description: 'The Peer Distribution API, which supports the Branch Cache feature in Windows 7, Windows Server 2008 R2, Windows 8, and Windows Server 2012 offers a set of platform APIs that can increase network responsiveness of centralized applications when accessed from remote offices and aid in reducing overall wide area network (WAN) utilization without interfering with the network security technologies.'
-ms.assetid: 'feb9666e-563a-49f4-ad1c-f166a0faff31'
+Description: The Peer Distribution API, which supports the Branch Cache feature in Windows 7, Windows Server 2008 R2, Windows 8, and Windows Server 2012 offers a set of platform APIs that can increase network responsiveness of centralized applications when accessed from remote offices and aid in reducing overall wide area network (WAN) utilization without interfering with the network security technologies.
+ms.assetid: feb9666e-563a-49f4-ad1c-f166a0faff31
 title: About Peer Distribution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Peer Distribution
 
-The Peer Distribution API, which supports the Branch Cache feature in Windows 7, Windows Server 2008 R2, Windows 8, and Windows Server 2012 offers a set of platform APIs that can increase network responsiveness of centralized applications when accessed from remote offices and aid in reducing overall wide area network (WAN) utilization without interfering with the network security technologies.
+The Peer Distribution API, which supports the Branch Cache feature in Windows 7, Windows Server 2008 R2, Windows 8, and Windows Server 2012 offers a set of platform APIs that can increase network responsiveness of centralized applications when accessed from remote offices and aid in reducing overall wide area network (WAN) utilization without interfering with the network security technologies.
 
 The Peer Distribution system offers a set of platform APIs utilized by both the publishers that provide digital content and consumers that request it. To easily differentiate these roles, it may be easier to think of the publisher in a server role and the consumer in a client role. That aside, it is important to remember that aside from these conceptual roles, the Peer Distribution service is a true peer system, as indicated by the ability for any Peer Distribution node to both publish and consume digital content. The Peer Distribution platform APIs are exposed to publishers and consumers by a Win32 import library (**PeerDist.Lib**).
 
@@ -16,13 +21,13 @@ The lifecycle of content supplied by a publisher and retrieved by a consumer wit
 
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Content Publication** | Publishing is done to produce a description of content termed **Content Information**, or **Content Info** for short. This Content Info can then be used by an instance of the Peer Distribution service to authenticate and rebuild the content. When content is published by an application into the Peer Distribution service, which is conceptually a server-side operation, that content becomes associated with the Publisher Identity, which is based on the SID of the user associated with the thread access token. This binding is done to limit access to content by unauthorized entities. However, it is important to note that access to the content information is equivalent to access to the content itself, as the content information can be used to obtain the content from peers or a hosted cache.<br/> There is a new version of the content information data structure in Windows 8; however, the previous version is still supported. To interoperate with Windows 7 clients, an administrator may configure the Peer Distribution service to use the previous version of the content information data structure.<br/> |
+| **Content Publication** | Publishing is done to produce a description of content termed **Content Information**, or **Content Info** for short. This Content Info can then be used by an instance of the Peer Distribution service to authenticate and rebuild the content. When content is published by an application into the Peer Distribution service, which is conceptually a server-side operation, that content becomes associated with the Publisher Identity, which is based on the SID of the user associated with the thread access token. This binding is done to limit access to content by unauthorized entities. However, it is important to note that access to the content information is equivalent to access to the content itself, as the content information can be used to obtain the content from peers or a hosted cache.<br/> There is a new version of the content information data structure in Windows 8; however, the previous version is still supported. To interoperate with Windows 7 clients, an administrator may configure the Peer Distribution service to use the previous version of the content information data structure.<br/> |
 | **Content Retrieval**   | For a consumer to retrieve content from the Peer Distribution service, access must be provided to the published Content Info associated with that content. The Peer Distribution service used to publish the content can provide the associated Content Info. Once the consumer has the Content Info, other Peer Distribution APIs can be used to request content from the Peer Distribution service. The Peer Distribution service will attempt to retrieve the content from the local network. If the content is not available, the client application is responsible for retrieving the content from the source server.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Publication Removal** | For applications that have published content into the Peer Distribution service, the [**PeerDistServerUnpublish**](peerdistserverunpublish.md) function has been provided to allow content to be unpublished. Once content has been unpublished, the local Peer Distribution service will no longer provide the content info associated with that content.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Publication Removal** | For applications that have published content into the Peer Distribution service, the [**PeerDistServerUnpublish**](/windows/win32/PeerDist/nf-peerdist-peerdistserverunpublish?branch=master) function has been provided to allow content to be unpublished. Once content has been unpublished, the local Peer Distribution service will no longer provide the content info associated with that content.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 
 
- 
+ 
 
 ## Asynchronous Completions
 
@@ -38,10 +43,10 @@ User invokes the I/O completion port mechanism by providing a completion port ha
 
 <dl>
 
-[**PeerDistRegisterForStatusChangeNotification**](peerdistregisterforstatuschangenotification.md)  
-[**PeerDistServerPublishStream**](peerdistserverpublishstream.md)  
-[**PeerDistServerOpenContentInformation**](peerdistserveropencontentinformation.md)  
-[**PeerDistClientOpenContent**](peerdistclientopencontent.md)  
+[**PeerDistRegisterForStatusChangeNotification**](/windows/win32/PeerDist/nf-peerdist-peerdistregisterforstatuschangenotification?branch=master)  
+[**PeerDistServerPublishStream**](/windows/win32/PeerDist/nf-peerdist-peerdistserverpublishstream?branch=master)  
+[**PeerDistServerOpenContentInformation**](/windows/win32/PeerDist/nf-peerdist-peerdistserveropencontentinformation?branch=master)  
+[**PeerDistClientOpenContent**](/windows/win32/PeerDist/nf-peerdist-peerdistclientopencontent?branch=master)  
 </dl>
 
 The User creates a completion port by calling [**CreateIoCompletionPort**](https://msdn.microsoft.com/library/windows/desktop/aa363862). This completion port handle can be simultaneously used for other asynchronous I/O operations as well as Peer Distribution specific operations.
@@ -58,7 +63,7 @@ A thread caller can manage overlapped operations by specifying a handle to the [
 
 If the caller provides a completion port along with an event, the event will be used as the completion mechanism.
 
-**Windows 7:** Use the [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) function instead of [**PeerGetOverlappedResult**](p2p-peergetoverlappedresult).
+**Windows 7:** Use the [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) function instead of [**PeerGetOverlappedResult**](p2p-peergetoverlappedresult).
 
 ## Related topics
 
@@ -67,9 +72,9 @@ If the caller provides a completion port along with an event, the event will be 
 [Peer Distribution API Reference](peer-distribution-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

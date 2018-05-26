@@ -1,8 +1,9 @@
 ---
 title: MpHandleClose function
 description: Closes the handle returned by MpManagerOpen, MpScanStart, MpThreatOpen, or MpUpdateStart.
-ms.assetid: '335776E2-7598-4DC1-92AB-B49B35222EF6'
-keywords: ["MpHandleClose function Legacy Windows Environment Features"]
+ms.assetid: 335776E2-7598-4DC1-92AB-B49B35222EF6
+keywords:
+- MpHandleClose function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpHandleClose function
@@ -22,7 +28,7 @@ Closes the handle returned by [**MpManagerOpen**](mpmanageropen.md), [**MpScanSt
 
 ```C++
 HRESULT WINAPI MpHandleClose(
-  _In_ MPHANDLE hMpHandle
+  _In_ MPHANDLE hMpHandle
 );
 ```
 
@@ -57,7 +63,7 @@ The following specific error can be returned by the function:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +71,8 @@ The following specific error can be returned by the function:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -88,9 +94,9 @@ The following specific error can be returned by the function:
 [**MpThreatOpen**](mpthreatopen.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

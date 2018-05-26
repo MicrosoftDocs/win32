@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyManager interface
 description: Creates transfer jobs, retrieves an enumerator object that contains the jobs in the queue, and retrieves individual jobs from the queue.
-ms.assetid: 'EA7CB5CE-5E95-4C6D-8026-4B8375EE216A'
-keywords: ["IBackgroundCopyManager interface", "IBackgroundCopyManager interface, described"]
+ms.assetid: EA7CB5CE-5E95-4C6D-8026-4B8375EE216A
+keywords:
+- IBackgroundCopyManager interface
+- IBackgroundCopyManager interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyManager interface
@@ -36,7 +43,7 @@ The **IBackgroundCopyManager** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,7 +51,7 @@ The **IBackgroundCopyManager** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -61,9 +68,9 @@ The **IBackgroundCopyManager** interface has these methods.
 [**IBackgroundCopyJob**](ibackgroundcopyjob-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

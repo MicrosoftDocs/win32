@@ -1,8 +1,10 @@
 ---
 title: MDM\_DeviceRegistrationInfo class
 description: This class provides device registration details.
-ms.assetid: '75cc6ba1-e166-410e-85ad-dbf9f6f74f08'
-keywords: ["MDM_DeviceRegistrationInfo class MDM Settings", "MDM_DeviceRegistrationInfo class MDM Settings , described"]
+ms.assetid: 75cc6ba1-e166-410e-85ad-dbf9f6f74f08
+keywords:
+- MDM_DeviceRegistrationInfo class MDM Settings
+- MDM_DeviceRegistrationInfo class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_DeviceRegistrationInfo class
@@ -94,7 +101,7 @@ The user principle name (UPN) of the registered user.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -109,9 +116,9 @@ The user principle name (UPN) of the registered user.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

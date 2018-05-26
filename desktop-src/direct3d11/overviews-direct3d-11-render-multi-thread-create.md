@@ -1,12 +1,17 @@
 ---
 title: Object Creation with Multithreading
 description: Use the ID3D11Device interface to create resources and objects, use the ID3D11DeviceContext for rendering.
-ms.assetid: 'e1765192-865c-4a62-9be7-6e95280ee8ad'
+ms.assetid: e1765192-865c-4a62-9be7-6e95280ee8ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Creation with Multithreading
 
-Use the [**ID3D11Device**](id3d11device.md) interface to create resources and objects, use the [**ID3D11DeviceContext**](id3d11devicecontext.md) for [rendering](overviews-direct3d-11-render-multi-thread-render.md).
+Use the [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) interface to create resources and objects, use the [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) for [rendering](overviews-direct3d-11-render-multi-thread-render.md).
 
 Here are some examples of how to create resources:
 
@@ -17,11 +22,11 @@ Here are some examples of how to create resources:
 
 ## Multithreading Considerations
 
-The amount of concurrency of resource creation and rendering that your application can achieve depends on the level of multithreading support that the driver implements. If the driver supports concurrent creates, then the application should have much less concurrency concerns. However, if the driver does not support concurrent object creation, the amount of concurrency is extremely limited. To understand the amount of support available in a driver, query the driver for the value of the **DriverConcurrentCreates** member of the [**D3D11\_FEATURE\_DATA\_THREADING**](d3d11-feature-data-threading.md) structure. For more information about checking for driver support of multithreading, see [How To: Check for Driver Support](overviews-direct3d-11-render-multi-thread-support.md).
+The amount of concurrency of resource creation and rendering that your application can achieve depends on the level of multithreading support that the driver implements. If the driver supports concurrent creates, then the application should have much less concurrency concerns. However, if the driver does not support concurrent object creation, the amount of concurrency is extremely limited. To understand the amount of support available in a driver, query the driver for the value of the **DriverConcurrentCreates** member of the [**D3D11\_FEATURE\_DATA\_THREADING**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_threading?branch=master) structure. For more information about checking for driver support of multithreading, see [How To: Check for Driver Support](overviews-direct3d-11-render-multi-thread-support.md).
 
 Concurrent operations do not necessarily lead to better performance. For example, creating and loading a texture is typically limited by memory bandwidth. Attempting to create and load multiple textures might be no faster than doing one texture at a time, even if this leaves multiple CPU cores idle. However, creating multiple shaders using multiple threads can increase performance as this operation is less dependent on system resources such as memory bandwidth.
 
-When the driver and graphics hardware support multithreading, you can typically initialize newly created resources more efficiently by passing a pointer to initial data in the *pInitialData* parameter (for example, in a call to the [**ID3D11Device::CreateTexture2D**](id3d11device-createtexture2d.md) method).
+When the driver and graphics hardware support multithreading, you can typically initialize newly created resources more efficiently by passing a pointer to initial data in the *pInitialData* parameter (for example, in a call to the [**ID3D11Device::CreateTexture2D**](/windows/win32/D3D11/nf-d3d11-id3d11device-createtexture2d?branch=master) method).
 
 ## Related topics
 

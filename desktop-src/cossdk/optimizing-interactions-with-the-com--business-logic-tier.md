@@ -1,7 +1,12 @@
 ---
 Description: Optimizing Interactions with the COM+ Business Logic Tier
-ms.assetid: '71e4bde4-f592-4bc5-9e96-6b3f58915d29'
+ms.assetid: 71e4bde4-f592-4bc5-9e96-6b3f58915d29
 title: Optimizing Interactions with the COM+ Business Logic Tier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optimizing Interactions with the COM+ Business Logic Tier

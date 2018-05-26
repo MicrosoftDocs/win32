@@ -1,8 +1,19 @@
 ---
 title: Text Services Framework Reference
 description: Text Services Framework Reference
-ms.assetid: 'cd2685f2-cbb9-417e-ae07-2af60c212b51'
-keywords: ["Text Services Framework (TSF),reference", "TSF (Text Services Framework),reference", "text services,reference", "TSF-enabled applications,reference", "TSF reference,about", "reference for TSF,about"]
+ms.assetid: cd2685f2-cbb9-417e-ae07-2af60c212b51
+keywords:
+- Text Services Framework (TSF),reference
+- TSF (Text Services Framework),reference
+- text services,reference
+- TSF-enabled applications,reference
+- TSF reference,about
+- reference for TSF,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Services Framework Reference

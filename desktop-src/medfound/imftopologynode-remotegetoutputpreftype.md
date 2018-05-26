@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFTopologyNode::GetOutputPrefType method.'
-ms.assetid: '56fbbf14-0c55-4f98-bcda-7f434cff803c'
+---
+Description: Remotable version of the IMFTopologyNodeGetOutputPrefType method.
+ms.assetid: 56fbbf14-0c55-4f98-bcda-7f434cff803c
 title: RemoteGetOutputPrefType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteGetOutputPrefType
 
-Remotable version of the [**IMFTopologyNode::GetOutputPrefType**](imftopologynode-getoutputpreftype.md) method.
+Remotable version of the [**IMFTopologyNode::GetOutputPrefType**](/windows/win32/mfidl/nf-mfidl-imftopologynode-getoutputpreftype?branch=master) method.
 
 ``` syntax
 [call_as(GetOutputPrefType)] 
@@ -38,7 +43,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> </dl>
 
  

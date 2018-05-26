@@ -2,10 +2,13 @@
 title: Deleting an Event Collector Subscription
 description: You can delete an Event Collector subscription from a local computer.
 audience: developer
-ms.assetid: 'd3102149-906d-4286-85c8-e5b1eb6dd382'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: d3102149-906d-4286-85c8-e5b1eb6dd382
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deleting an Event Collector Subscription
@@ -22,7 +25,7 @@ You can delete an Event Collector subscription from a local computer. You must k
 
  
 
-After you retrieve the name of the Event Collector subscription to delete, you can provide the name of the subscription as a parameter to [**EcDeleteSubscription**](ecdeletesubscription.md).
+After you retrieve the name of the Event Collector subscription to delete, you can provide the name of the subscription as a parameter to [**EcDeleteSubscription**](/windows/win32/Evcoll/nf-evcoll-ecdeletesubscription?branch=master).
 
 The following C++ code example shows how to delete an Event Collector subscription.
 

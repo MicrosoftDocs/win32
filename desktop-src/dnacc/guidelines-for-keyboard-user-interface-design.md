@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: 'b1880bed-11c6-4171-85db-2a7cef61c5dd'
+ms.assetid: b1880bed-11c6-4171-85db-2a7cef61c5dd
 title: Guidelines for Keyboard User Interface Design
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Guidelines for Keyboard User Interface Design
@@ -62,9 +67,9 @@ This article describes the guidelines for designing a keyboard user interface (U
 
 ## Role of the Keyboard UI in Accessibility
 
-A well-designed keyboard UI is an important aspect of software accessibility. It enables users who are blind or who have certain motor disabilities to navigate an application and interact with its features. Such users may be unable to operate a mouse, and may rely on assistive technologies — such as keyboard enhancement tools, on-screen keyboards, screen enlargers, screen readers, and voice input utilities — all of which depend on an application's keyboard UI.
+A well-designed keyboard UI is an important aspect of software accessibility. It enables users who are blind or who have certain motor disabilities to navigate an application and interact with its features. Such users may be unable to operate a mouse, and may rely on assistive technologies   such as keyboard enhancement tools, on-screen keyboards, screen enlargers, screen readers, and voice input utilities   all of which depend on an application's keyboard UI.
 
-Many assistive technologies use the keyboard UI programmatically,even if users are not using a standard keyboard input device. Although some assistive technologies may have custom keyboard shortcuts that can make an operation easier, consistency and standardization in keyboard UI design — for assistive technologies and for all aspects of accessibility — are critical to avoid confusing users.
+Many assistive technologies use the keyboard UI programmatically,even if users are not using a standard keyboard input device. Although some assistive technologies may have custom keyboard shortcuts that can make an operation easier, consistency and standardization in keyboard UI design   for assistive technologies and for all aspects of accessibility   are critical to avoid confusing users.
 
 The Windows UI design maximizes input flexibility. **Accessibility Options** in Control Panel offers tools that enhance keyboard functionality, such as StickyKeys, FilterKeys, ToggleKeys, and MouseKeys. These tools can help users to operate applications with the keyboard. However, they do not replace the accessibility provided by a well-designed keyboard UI.
 
@@ -314,7 +319,7 @@ The following design rules help ensure that access keys provide a solid accessib
 
 -   Make access keys discoverable.
 
-    Access keys must be easy for the user to find. Choose letters for access keys as close to the beginning of the label as possible — for example, <span class="underline">S</span>ettings. The following are good letter choices:
+    Access keys must be easy for the user to find. Choose letters for access keys as close to the beginning of the label as possible   for example, <span class="underline">S</span>ettings. The following are good letter choices:
 
     -   Letters at the beginning of the first or second word of the label.
     -   A distinctive consonant or a vowel in the label.
@@ -332,7 +337,7 @@ The following design rules help ensure that access keys provide a solid accessib
 
     Keep access key assignments unique; duplicated access keys can confuse users. If absolutely necessary, you can assign a duplicate access key, but be sure that it does not block a user's keyboard operation. Some controls allow the input focus to move between controls with duplicated access keys within the same scope, such as standard menu and list-view controls.
 
-    If no characters in the label are available, you can either rename the control or append an access key in parentheses to the end of the label — for example, Next (&gt;). Or, depending on how frequently the commands are used, you may omit some of the access keys assigned to some of the UI controls.
+    If no characters in the label are available, you can either rename the control or append an access key in parentheses to the end of the label   for example, Next (&gt;). Or, depending on how frequently the commands are used, you may omit some of the access keys assigned to some of the UI controls.
 
 <!-- -->
 
@@ -433,7 +438,7 @@ Another type ofexte extended selection that a user can make is a two-dimensional
 
 
 
- 
+ 
 
 The following procedures illustrate two methods for selecting Cell (1,2) and extend the selection to include Cell (2,3):
 
@@ -556,7 +561,7 @@ When a user makes an extended selection, one end of the selection is the active 
 
 Applications must always display a visible insertion point at the selection's active end to indicate the input focus location, as shown in Figure 8.
 
-![figure 8. text showing visible insertion point at the selection’s active end](images/atg-keyboardshortcuts-08.png)
+![figure 8. text showing visible insertion point at the selection s active end](images/atg-keyboardshortcuts-08.png)
 
 When a user moves the input focus to an object, such as an icon or bitmap with an adjacent label, applications must position the system caret or cursor invisibly over that object as well as the visual indicator.
 
@@ -602,7 +607,7 @@ The Windows operating system supports many system parameters that share the syst
 
 There are many keyboard UI-related system parameters available in the operating system. Many of the system parameter values have read and write procedures through the API, although an application usually only reads those settings because most of the system parameters are controlled through Control Panel. System parameters and their corresponding API names and descriptions are shown in the following table.
 
-**Keyboard UI–Related System Parameters**
+**Keyboard UI Related System Parameters**
 
 
 
@@ -610,26 +615,26 @@ There are many keyboard UI-related system parameters available in the operating 
 |---------------------------------------------------------|---------------------------|----------------------------------------------------------|
 | Keyboard Preference                                     | SPI\_GETKEYBOARDPREF      | Get settings for a user's keyboard interface preference. |
 | Access Key Underlines                                   | SPI\_GETKEYBOARDCUES      | Get settings for underline of access keys.               |
-|                                                         | SPI\_GETMENUUNDERLINES    | Get settings for underline of access keys.               |
+|                                                         | SPI\_GETMENUUNDERLINES    | Get settings for underline of access keys.               |
 | Focus Rectangle Border                                  | SPI\_GETFOCUSBORDERHEIGHT | Get settings for focus border height.                    |
-|                                                         | SPI\_GETFOCUSBORDERWIDTH  | Get settings for focus border width.                     |
+|                                                         | SPI\_GETFOCUSBORDERWIDTH  | Get settings for focus border width.                     |
 | Cursor Width                                            | SPI\_GETCARETWIDTH        | Get settings for system cursor width.                    |
 | Windows Accessibility Options and Keyboard Repeat Rates | SPI\_GETFILTERKEYS        | Get settings for FilterKeys options.                     |
-|                                                         | SPI\_GETMOUSEKEYS         | Get settings for MouseKeys options.                      |
-|                                                         | SPI\_GETSTICKYKEYS        | Get settings for StickyKeys options.                     |
-|                                                         | SPI\_GETTOGGLEKEYS        | Get settings for ToggleKeys options.                     |
-|                                                         | SPI\_GETKEYBOARDDELAY     | Get settings for delay time of key inputs.               |
-|                                                         | SPI\_GETKEYBOARDSPEED     | Get settings for repeat rate of key inputs.              |
+|                                                         | SPI\_GETMOUSEKEYS         | Get settings for MouseKeys options.                      |
+|                                                         | SPI\_GETSTICKYKEYS        | Get settings for StickyKeys options.                     |
+|                                                         | SPI\_GETTOGGLEKEYS        | Get settings for ToggleKeys options.                     |
+|                                                         | SPI\_GETKEYBOARDDELAY     | Get settings for delay time of key inputs.               |
+|                                                         | SPI\_GETKEYBOARDSPEED     | Get settings for repeat rate of key inputs.              |
 | Tooltips                                                | SPI\_GETMOUSEHOVERTIME    | Get settings for delay time to display tooltips.         |
 
 
 
- 
+ 
 
 > [!Note]  
 > SPI\_GETSERIALKEYS is not listed here because it is only supported in earlier Windows platforms. The input from serial key devices must be received by applications in the same manner as those from standard keyboard or mouse input devices.
 
- 
+ 
 
 ## About the Keyboard Preference Flag
 
@@ -648,7 +653,7 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 > [!Note]  
 > This section is an overview of commonly used shortcut keys. If you are connected to Windows through Microsoft Terminal Services Client, some shortcuts may have changed depending on your configuration. Some keyboard shortcuts may require Microsoft Natural Keyboard or another compatible keyboard that includes the Windows logo key (![](images/atg-keyboardshortcuts-11.png)).
 
- 
+ 
 
 **System-Wide Shortcut Keys**
 
@@ -675,7 +680,7 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 | ![](images/atg-keyboardshortcuts-11.png)+UP ARROW                | Maximize window.                                                                                                                                                                  |
 | ![](images/atg-keyboardshortcuts-11.png)+RIGHT\|LEFT ARROW       | Dock/undock window to the right or left of the desktop.                                                                                                                           |
 | ![](images/atg-keyboardshortcuts-11.png)+SHIFT+RIGHT\|LEFT ARROW | Move window among the desktops (available with Windows 7 installed with more than one monitor).                                                                                   |
-| ![](images/atg-keyboardshortcuts-11.png)+SPACE                   | Peek at gadgets. Hold down the ![](images/atg-keyboardshortcuts-11.png) key to hold the state (new with Windows 7).                                                               |
+| ![](images/atg-keyboardshortcuts-11.png)+SPACE                   | Peek at gadgets. Hold down the ![](images/atg-keyboardshortcuts-11.png) key to hold the state (new with Windows 7).                                                               |
 | ![](images/atg-keyboardshortcuts-11.png)+*number*                | Launch or toggle between applications on the taskbar (new with Windows 7).                                                                                                        |
 | ![](images/atg-keyboardshortcuts-11.png)+F1                      | Display Windows Help.                                                                                                                                                             |
 | ![](images/atg-keyboardshortcuts-11.png)+BREAK                   | Display the **System Properties** dialog box.                                                                                                                                     |
@@ -692,16 +697,16 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
- 
+ 
 
 **System-Wide Accessibility Options and Tools Shortcut Keys**
 
 > [!Note]  
 > This section does not list all keyboard shortcuts offered by accessibility tools. For more information about keyboard shortcuts offered by a particular accessibility tool, please see the online Help for that tool.
 
- 
+ 
 
 
 
@@ -717,7 +722,7 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
 **General Shortcut Keys for Applications**
 
@@ -739,7 +744,7 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
 **Navigation and Window Controls Shortcut Keys**
 
@@ -758,7 +763,7 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
 **Menu Controls Shortcut Keys**
 
@@ -779,9 +784,9 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
- 
+ 
 
 **Edit Box Shortcut Keys**
 
@@ -802,76 +807,76 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
 **Dialog Box and Common Controls Shortcut Keys**
 
 > [!Note]  
 > Arrow keys, PAGE UP or PAGE DOWN, HOME, and END keys for general navigation are omitted from the next table.
 
- 
+ 
 
 
 
 | Control type                               | Press                     | To                                                                                                                                                                                        |
 |--------------------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | General                                    | TAB                       | Move forward through options.                                                                                                                                                             |
-|                                            | SHIFT+TAB                 | Move backward through options.                                                                                                                                                            |
+|                                            | SHIFT+TAB                 | Move backward through options.                                                                                                                                                            |
 | Dialog box                                 | ALT+access key            | Select or carry out the corresponding command or control.                                                                                                                                 |
-|                                            | ENTER                     | Carry out the default command of the dialog box or command of the selected control.                                                                                                       |
-|                                            | SPACE                     | Toggle the selection status or carry out the selected option or control command.                                                                                                          |
-|                                            | Arrow keys                | Move focus or selection in a group of controls or items.                                                                                                                                  |
+|                                            | ENTER                     | Carry out the default command of the dialog box or command of the selected control.                                                                                                       |
+|                                            | SPACE                     | Toggle the selection status or carry out the selected option or control command.                                                                                                          |
+|                                            | Arrow keys                | Move focus or selection in a group of controls or items.                                                                                                                                  |
 | Tab control                                | CTRL + TAB                | Move forward through tabs.                                                                                                                                                                |
-|                                            | CTRL + SHIFT+TAB          | Move backward through tabs.                                                                                                                                                               |
-|                                            | CTRL + PAGE DOWN          | Move forward through tabs (same as CTRL+TAB).                                                                                                                                             |
-|                                            | CTRL + PAGE UP            | Move backward through tabs (same as CTRL+SHIFT+TAB).                                                                                                                                      |
-|                                            | Arrow keys                | Move between tabs when focusing on the control.                                                                                                                                           |
+|                                            | CTRL + SHIFT+TAB          | Move backward through tabs.                                                                                                                                                               |
+|                                            | CTRL + PAGE DOWN          | Move forward through tabs (same as CTRL+TAB).                                                                                                                                             |
+|                                            | CTRL + PAGE UP            | Move backward through tabs (same as CTRL+SHIFT+TAB).                                                                                                                                      |
+|                                            | Arrow keys                | Move between tabs when focusing on the control.                                                                                                                                           |
 | Combo box                                  | F4                        | Display or hide the items in the active list.                                                                                                                                             |
-|                                            | ALT + DOWN or UP          | Display or hide the items in the active list (same as F4).                                                                                                                                |
-|                                            | Any printable key or keys | Moves the selection to the item matching prefix letters in the beginning of title. For more information, see [Navigating by Matching Characters](#navigating-by-matching-characters).     |
+|                                            | ALT + DOWN or UP          | Display or hide the items in the active list (same as F4).                                                                                                                                |
+|                                            | Any printable key or keys | Moves the selection to the item matching prefix letters in the beginning of title. For more information, see [Navigating by Matching Characters](#navigating-by-matching-characters).     |
 | List view                                  | SPACE                     | Locates new selection and anchor for the item.                                                                                                                                            |
-|                                            | SHIFT+SPACE               | Extends the selection from anchor to the item.                                                                                                                                            |
-|                                            | CTRL+SPACE                | Invoke additional selection or deselection and move the anchor to the selected item.                                                                                                      |
-|                                            | Arrow keys                | Move focus and remove all selection and the anchor previously made.                                                                                                                       |
-|                                            | CTRL+arrow keys           | Move focus without move of selection or the anchor.                                                                                                                                       |
-|                                            | Any printable key or keys | Moves the selection to the item matching prefix letters in the beginning of the label. For more information, see [Navigating by Matching Characters](#navigating-by-matching-characters). |
-|                                            | CTRL + "+" (numeric pad)  | Adjusts the width of all columns to fit their contents.                                                                                                                                   |
+|                                            | SHIFT+SPACE               | Extends the selection from anchor to the item.                                                                                                                                            |
+|                                            | CTRL+SPACE                | Invoke additional selection or deselection and move the anchor to the selected item.                                                                                                      |
+|                                            | Arrow keys                | Move focus and remove all selection and the anchor previously made.                                                                                                                       |
+|                                            | CTRL+arrow keys           | Move focus without move of selection or the anchor.                                                                                                                                       |
+|                                            | Any printable key or keys | Moves the selection to the item matching prefix letters in the beginning of the label. For more information, see [Navigating by Matching Characters](#navigating-by-matching-characters). |
+|                                            | CTRL + "+" (numeric pad)  | Adjusts the width of all columns to fit their contents.                                                                                                                                   |
 | Header (where keyboard focus is supported) | RIGHT/LEFT                | Move selection of the header right and left.                                                                                                                                              |
-|                                            | CTRL+SHIFT+RIGHT/LEFT     | Adjust the width of the selected header.                                                                                                                                                  |
-|                                            | CTRL+ALT+RIGHT/LEFT       | Move the selected header right and left.                                                                                                                                                  |
-|                                            | SPACE                     | \[Windows Explorer\] Toggle the sort condition of the selected header.                                                                                                                    |
-|                                            | DOWN ARROW                | \[Windows Explorer\] Open more options for the selected header.                                                                                                                           |
+|                                            | CTRL+SHIFT+RIGHT/LEFT     | Adjust the width of the selected header.                                                                                                                                                  |
+|                                            | CTRL+ALT+RIGHT/LEFT       | Move the selected header right and left.                                                                                                                                                  |
+|                                            | SPACE                     | \[Windows Explorer\] Toggle the sort condition of the selected header.                                                                                                                    |
+|                                            | DOWN ARROW                | \[Windows Explorer\] Open more options for the selected header.                                                                                                                           |
 | Tree view                                  | \* (Numpad)               | Display all sub-items under the selected item.                                                                                                                                            |
-|                                            | \+ (Numpad)               | Display sub-items directly under the selected item.                                                                                                                                       |
-|                                            | \- (Numpad)               | Collapse the items directly under the selected item group.                                                                                                                                |
-|                                            | RIGHT ARROW               | Display sub-items directly under the selected item (same as +).                                                                                                                           |
-|                                            | LEFT ARROW                | Collapse the selected item group and move focus to the group leaf root.                                                                                                                   |
-|                                            | CTRL+UP ARROW             | Scroll the view without change of the selection.                                                                                                                                          |
-|                                            | CTRL+DOWN ARROW           | Scroll the view without change of the selection.                                                                                                                                          |
-|                                            | Any printable key or keys | Moves the selection to the item matching prefix letters in the beginning of title. For more information, see [Navigating by Matching Characters](#navigating-by-matching-characters).     |
+|                                            | \+ (Numpad)               | Display sub-items directly under the selected item.                                                                                                                                       |
+|                                            | \- (Numpad)               | Collapse the items directly under the selected item group.                                                                                                                                |
+|                                            | RIGHT ARROW               | Display sub-items directly under the selected item (same as +).                                                                                                                           |
+|                                            | LEFT ARROW                | Collapse the selected item group and move focus to the group leaf root.                                                                                                                   |
+|                                            | CTRL+UP ARROW             | Scroll the view without change of the selection.                                                                                                                                          |
+|                                            | CTRL+DOWN ARROW           | Scroll the view without change of the selection.                                                                                                                                          |
+|                                            | Any printable key or keys | Moves the selection to the item matching prefix letters in the beginning of title. For more information, see [Navigating by Matching Characters](#navigating-by-matching-characters).     |
 | Date and time picker                       | F4                        | Display calendar below the control.                                                                                                                                                       |
-|                                            | ALT+DOWN                  | Display calendar below the control.                                                                                                                                                       |
-|                                            | ALT+UP                    | Hide calendar below the control.                                                                                                                                                          |
-|                                            | PAGE UP                   | Move to next month in the calendar.                                                                                                                                                       |
-|                                            | PAGE DOWN                 | Move to previous month in the calendar.                                                                                                                                                   |
-|                                            | CTRL+PAGE UP              | Move to next year in the calendar.                                                                                                                                                        |
-|                                            | CTRL+PAGE DOWN            | Move to previous year in the calendar.                                                                                                                                                    |
+|                                            | ALT+DOWN                  | Display calendar below the control.                                                                                                                                                       |
+|                                            | ALT+UP                    | Hide calendar below the control.                                                                                                                                                          |
+|                                            | PAGE UP                   | Move to next month in the calendar.                                                                                                                                                       |
+|                                            | PAGE DOWN                 | Move to previous month in the calendar.                                                                                                                                                   |
+|                                            | CTRL+PAGE UP              | Move to next year in the calendar.                                                                                                                                                        |
+|                                            | CTRL+PAGE DOWN            | Move to previous year in the calendar.                                                                                                                                                    |
 | Check box                                  | SPACE                     | Toggles the selected option.                                                                                                                                                              |
-|                                            | \-                        | Clear the option.                                                                                                                                                                         |
-|                                            | \+                        | Select the option.                                                                                                                                                                        |
+|                                            | \-                        | Clear the option.                                                                                                                                                                         |
+|                                            | \+                        | Select the option.                                                                                                                                                                        |
 | Slider                                     | Arrow keys                | Move the slider to the next value. The direction can be reversed by selecting the slider control style LBS\_DOWNISLEFT.                                                                   |
-|                                            | PAGE UP and DOWN          | Move the slider to next value in specified incremental amount. The direction can be reversed by selecting the slider control style LBS\_DOWNISLEFT.                                       |
+|                                            | PAGE UP and DOWN          | Move the slider to next value in specified incremental amount. The direction can be reversed by selecting the slider control style LBS\_DOWNISLEFT.                                       |
 
 
 
- 
+ 
 
 **Windows Explorer Shortcut Keys**
 
 > [!Note]  
 > The shortcut keys in the next table are presented only as examples and do not represent all of the available shortcut keys.
 
- 
+ 
 
 
 
@@ -892,14 +897,14 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
 **Microsoft Office XP Shortcut Keys**
 
 > [!Note]  
 > The shortcut keys in the next table are presented only as examples and do not represent all of the available shortcut keys. A complete list of shortcut keys is provided in the online documentation of each Microsoft Office application.
 
- 
+ 
 
 
 
@@ -922,11 +927,11 @@ As noted in the [Designing the Keyboard UI](#designing-the-keyboard-ui) section,
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

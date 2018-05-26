@@ -4,10 +4,13 @@ description: Windows Remote Management includes a scripting API and a COM C++ AP
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c996f074-f14b-4edd-80b7-8f4de4cbabb0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: c996f074-f14b-4edd-80b7-8f4de4cbabb0
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Remote Management Reference

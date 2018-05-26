@@ -1,13 +1,20 @@
 ---
 title: Obtaining the MIB II Interfaces Table
 description: The following code uses MprAdminMIBEntryGet to obtain the MIB II interfaces table from the local machine.
-ms.assetid: '76152cd8-f285-42b3-8ee5-bbab1d14b99f'
-keywords: ["MIB, obtaining the interfaces", "Obtaining the MIB interfaces"]
+ms.assetid: 76152cd8-f285-42b3-8ee5-bbab1d14b99f
+keywords:
+- MIB, obtaining the interfaces
+- Obtaining the MIB interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining the MIB II Interfaces Table
 
-The following code uses [**MprAdminMIBEntryGet**](mpradminmibentryget.md) to obtain the MIB II interfaces table from the local machine.
+The following code uses [**MprAdminMIBEntryGet**](/windows/win32/Mprapi/nf-mprapi-mpradminmibentryget?branch=master) to obtain the MIB II interfaces table from the local machine.
 
 
 ```C++
@@ -126,7 +133,7 @@ int __cdecl main(){
 [**MIB\_OPAQUE\_QUERY**](https://msdn.microsoft.com/library/windows/desktop/aa366884)
 </dt> <dt>
 
-[**MprAdminMIBEntryGet**](mpradminmibentryget.md)
+[**MprAdminMIBEntryGet**](/windows/win32/Mprapi/nf-mprapi-mpradminmibentryget?branch=master)
 </dt> </dl>
 
  

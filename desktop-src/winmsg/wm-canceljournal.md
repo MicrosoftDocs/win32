@@ -1,7 +1,12 @@
-﻿---
-Description: 'Posted to an application when a user cancels the application''s journaling activities. The message is posted with a NULL window handle.'
-ms.assetid: '7515acb5-4526-40f7-abb7-822a073ac7dc'
-title: 'WM\_CANCELJOURNAL message'
+---
+Description: Posted to an application when a user cancels the applications journaling activities. The message is posted with a NULL window handle.
+ms.assetid: 7515acb5-4526-40f7-abb7-822a073ac7dc
+title: WM\_CANCELJOURNAL message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CANCELJOURNAL message
@@ -37,7 +42,7 @@ This parameter is not used.
 
 Type: **void**
 
-This message does not return a value. It is meant to be processed from within an application's main loop or a [**GetMessage**](getmessage.md) hook procedure, not from a window procedure.
+This message does not return a value. It is meant to be processed from within an application's main loop or a [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) hook procedure, not from a window procedure.
 
 ## Remarks
 
@@ -45,7 +50,7 @@ Journal record and playback modes are modes imposed on the system that let an ap
 
 To ensure a robust system, one that cannot be made unresponsive by any one application, the system automatically cancels any journaling activities when a user presses CTRL+ESC or CTRL+ALT+DEL. The system then unhooks any journaling hook procedures, and posts a **WM\_CANCELJOURNAL** message, with a **NULL** window handle, to the application that set the journaling hook.
 
-The **WM\_CANCELJOURNAL** message has a **NULL** window handle, therefore it cannot be dispatched to a window procedure. There are two ways for an application to see a **WM\_CANCELJOURNAL** message: If the application is running in its own main loop, it must catch the message between its call to [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) and its call to [**DispatchMessage**](dispatchmessage.md). If the application is not running in its own main loop, it must set a [*GetMsgProc*](getmsgproc.md) hook procedure (through a call to [**SetWindowsHookEx**](setwindowshookex.md) specifying the **WH\_GETMESSAGE** hook type) that watches for the message.
+The **WM\_CANCELJOURNAL** message has a **NULL** window handle, therefore it cannot be dispatched to a window procedure. There are two ways for an application to see a **WM\_CANCELJOURNAL** message: If the application is running in its own main loop, it must catch the message between its call to [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) and its call to [**DispatchMessage**](dispatchmessage.md). If the application is not running in its own main loop, it must set a [*GetMsgProc*](getmsgproc.md) hook procedure (through a call to [**SetWindowsHookEx**](setwindowshookex.md) specifying the **WH\_GETMESSAGE** hook type) that watches for the message.
 
 When an application sees a **WM\_CANCELJOURNAL** message, it can assume two things: the user has intentionally canceled the journal record or playback mode, and the system has already unhooked any journal record or playback hook procedures.
 

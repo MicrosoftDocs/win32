@@ -4,11 +4,15 @@ description: The following code example moves the Consulting organizational unit
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '892d6c63-caec-41d3-9cd9-22afed18131d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 892d6c63-caec-41d3-9cd9-22afed18131d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Moving a Directory Object DSML"]
+keywords:
+- Moving a Directory Object DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Moving a Directory Object

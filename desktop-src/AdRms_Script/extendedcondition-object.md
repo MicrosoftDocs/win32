@@ -1,13 +1,16 @@
 ---
-Description: 'Contains predefined policies that can be set on a rights template.'
+Description: Contains predefined policies that can be set on a rights template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'c8f9210f-977c-40f1-9ce0-d370867b5e4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: c8f9210f-977c-40f1-9ce0-d370867b5e4f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExtendedCondition object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExtendedCondition object
@@ -33,7 +36,7 @@ The **ExtendedCondition** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -130,7 +133,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -145,9 +148,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IEnumBackgroundCopyFiles Skip method
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
-ms.assetid: 'B01D4292-6BA5-4171-928B-AB2C555E2C2A'
-keywords: ["Skip method", "Skip method, IEnumBackgroundCopyFiles interface", "IEnumBackgroundCopyFiles interface, Skip method"]
+ms.assetid: B01D4292-6BA5-4171-928B-AB2C555E2C2A
+keywords:
+- Skip method
+- Skip method, IEnumBackgroundCopyFiles interface
+- IEnumBackgroundCopyFiles interface, Skip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumBackgroundCopyFiles::Skip method
@@ -22,7 +30,7 @@ Skips the next specified number of elements in the enumeration sequence. If ther
 
 ```C++
 HRESULT Skip(
-  [in] ULONG celt
+  [in] ULONG celt
 );
 ```
 
@@ -52,7 +60,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,7 +68,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -77,9 +85,9 @@ This method returns the following **HRESULT** values, as well as others.
 [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

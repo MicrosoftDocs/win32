@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectDepthStencilVariable GetDepthStencilState method
 description: Get a pointer to a depth-stencil interface.
-ms.assetid: '3e8f7fc6-960c-45f5-9276-9aa2a5e7a6c9'
-keywords: ["GetDepthStencilState method Direct3D 11", "GetDepthStencilState method Direct3D 11 , ID3DX11EffectDepthStencilVariable interface", "ID3DX11EffectDepthStencilVariable interface Direct3D 11 , GetDepthStencilState method"]
+ms.assetid: 3e8f7fc6-960c-45f5-9276-9aa2a5e7a6c9
+keywords:
+- GetDepthStencilState method Direct3D 11
+- GetDepthStencilState method Direct3D 11 , ID3DX11EffectDepthStencilVariable interface
+- ID3DX11EffectDepthStencilVariable interface Direct3D 11 , GetDepthStencilState method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectDepthStencilVariable::GetDepthStencilState method
@@ -23,8 +31,8 @@ Get a pointer to a depth-stencil interface.
 
 ```C++
 HRESULT GetDepthStencilState(
-   UINT                    Index,
-   ID3D11DepthStencilState **ppDepthStencilState
+   UINT                    Index,
+   ID3D11DepthStencilState **ppDepthStencilState
 );
 ```
 
@@ -46,9 +54,9 @@ Index into an array of depth-stencil interfaces. If there is only one depth-sten
 *ppDepthStencilState* 
 </dt> <dd>
 
-Type: **[**ID3D11DepthStencilState**](id3d11depthstencilstate.md)\*\***
+Type: **[**ID3D11DepthStencilState**](/windows/win32/D3D11/nn-d3d11-id3d11depthstencilstate?branch=master)\*\***
 
-The address of a pointer to a blend-state interface (see [**ID3D11DepthStencilState**](id3d11depthstencilstate.md)).
+The address of a pointer to a blend-state interface (see [**ID3D11DepthStencilState**](/windows/win32/D3D11/nn-d3d11-id3d11depthstencilstate?branch=master)).
 
 </dd> </dl>
 
@@ -63,7 +71,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectDepthStencilVariable](id3dx11effectdepthstencilvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

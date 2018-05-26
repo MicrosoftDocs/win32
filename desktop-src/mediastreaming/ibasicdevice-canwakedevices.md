@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice CanWakeDevices method
 description: Retrieves a value that indicates if the device can wake.
-ms.assetid: 'AAD0597C-AD33-40EE-A5DA-27AC66375D38'
-keywords: ["CanWakeDevices method Media Streaming API", "CanWakeDevices method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , CanWakeDevices method"]
+ms.assetid: AAD0597C-AD33-40EE-A5DA-27AC66375D38
+keywords:
+- CanWakeDevices method Media Streaming API
+- CanWakeDevices method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , CanWakeDevices method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.CanWakeDevices
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::CanWakeDevices method
@@ -20,7 +28,7 @@ Retrieves a value that indicates if the device can wake.
 
 ```C++
 HRESULT CanWakeDevices(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

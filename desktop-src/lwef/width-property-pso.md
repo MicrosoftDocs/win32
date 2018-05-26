@@ -1,7 +1,12 @@
 ---
 title: Width Property
 description: Width Property
-ms.assetid: 'fe5d4c44-3eea-4b13-913e-09f4c97f3aaa'
+ms.assetid: fe5d4c44-3eea-4b13-913e-09f4c97f3aaa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Width Property

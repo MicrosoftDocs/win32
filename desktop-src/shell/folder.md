@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a Shell folder. This object contains properties and methods that allow you to retrieve information about the folder.'
-ms.assetid: '269DFCDF-A5F7-4367-8B08-3A5015BB04FE'
+---
+Description: Represents a Shell folder. This object contains properties and methods that allow you to retrieve information about the folder.
+ms.assetid: 269DFCDF-A5F7-4367-8B08-3A5015BB04FE
 title: Folder object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder object

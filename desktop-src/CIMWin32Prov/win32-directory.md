@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_Directory&\#32;WMI class represents a directory entry on a computer system running Windows.'
+Description: The Win32\_Directory&\#32;WMI class represents a directory entry on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd61cb5ee-8e87-4604-95e6-325c9b543411'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d61cb5ee-8e87-4604-95e6-325c9b543411
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_Directory class'
+title: Win32\_Directory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Directory class
@@ -24,37 +27,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4C7-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_Directory : CIM_Directory
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint32   AccessMask;
-  boolean  Archive;
-  boolean  Compressed;
-  string   CompressionMethod;
-  string   CreationClassName;
+  string   Name;
+  string   Status;
+  uint32   AccessMask;
+  boolean  Archive;
+  boolean  Compressed;
+  string   CompressionMethod;
+  string   CreationClassName;
   datetime CreationDate;
-  string   CSCreationClassName;
-  string   CSName;
-  string   Drive;
-  string   EightDotThreeFileName;
-  boolean  Encrypted;
-  string   EncryptionMethod;
-  string   Extension;
-  string   FileName;
-  uint64   FileSize;
-  string   FileType;
-  string   FSCreationClassName;
-  string   FSName;
-  boolean  Hidden;
-  uint64   InUseCount;
+  string   CSCreationClassName;
+  string   CSName;
+  string   Drive;
+  string   EightDotThreeFileName;
+  boolean  Encrypted;
+  string   EncryptionMethod;
+  string   Extension;
+  string   FileName;
+  uint64   FileSize;
+  string   FileType;
+  string   FSCreationClassName;
+  string   FSName;
+  boolean  Hidden;
+  uint64   InUseCount;
   datetime LastAccessed;
   datetime LastModified;
-  string   Path;
-  boolean  Readable;
-  boolean  System;
-  boolean  Writeable;
+  string   Path;
+  boolean  Readable;
+  boolean  System;
+  boolean  Writeable;
 };
 ```
 
@@ -90,7 +93,7 @@ The **Win32\_Directory** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -115,7 +118,7 @@ Bitmask that represents the access rights required to access or perform specific
 > [!Note]  
 > On FAT volumes, the **FULL\_ACCESS** value is returned instead, which indicates no security has been set on the object.
 
- 
+ 
 
 This property is inherited from [**CIM\_LogicalFile**](cim-logicalfile.md).
 
@@ -482,7 +485,7 @@ Access type: Read-only
 Qualifiers: [**Schema**](https://msdn.microsoft.com/library/aa393650) ("Win32"), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Eight Dot Three File Name")
 </dt> </dl>
 
-MS-DOS®-compatible name for the folder.
+MS-DOS -compatible name for the folder.
 
 Example: "c:\\progra~1"
 
@@ -1007,8 +1010,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1025,9 +1028,9 @@ Next
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

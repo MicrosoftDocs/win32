@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_TrafficFilterList02\_App04 class
 description: The MDM\_TrafficFilterList02\_App04 class provides configuration of the apps that are allowed over the VPN interface.
-ms.assetid: 'a56d004b-8fe3-4187-8aad-962f1cab8f7f'
-keywords: ["MDM_VPNv2_TrafficFilterList02_App04 class", "MDM_VPNv2_TrafficFilterList02_App04 class, described"]
+ms.assetid: a56d004b-8fe3-4187-8aad-962f1cab8f7f
+keywords:
+- MDM_VPNv2_TrafficFilterList02_App04 class
+- MDM_VPNv2_TrafficFilterList02_App04 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_TrafficFilterList02\_App04 class
@@ -108,7 +115,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -123,9 +130,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

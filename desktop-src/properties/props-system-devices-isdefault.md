@@ -1,7 +1,12 @@
 ---
-Description: 'If this property is true, the device is the default device.'
-ms.assetid: 'b290fa2d-d67d-4073-9268-dcab22b876c9'
-title: 'System.Devices.IsDefault'
+Description: If this property is true, the device is the default device.
+ms.assetid: b290fa2d-d67d-4073-9268-dcab22b876c9
+title: System.Devices.IsDefault
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.IsDefault

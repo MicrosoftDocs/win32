@@ -1,12 +1,17 @@
 ---
 title: Registering a Callback
 description: If the application requires notification when the value of a state variable changes or the service instance it represents becomes unavailable, the application must register a callback function.
-ms.assetid: '881e71f7-39e6-4847-bdf2-78e54d1750cb'
+ms.assetid: 881e71f7-39e6-4847-bdf2-78e54d1750cb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Callback
 
-If the application requires notification when the value of a state variable changes or the service instance it represents becomes unavailable, the application must register a callback function. To register a callback function for the service object to invoke, use the [**IUPnPService::AddCallback**](iupnpservice-addcallback.md) method. This method can be used to register more than one callback.
+If the application requires notification when the value of a state variable changes or the service instance it represents becomes unavailable, the application must register a callback function. To register a callback function for the service object to invoke, use the [**IUPnPService::AddCallback**](/windows/win32/Upnp/nf-upnp-iupnpservice-addcallback?branch=master) method. This method can be used to register more than one callback.
 
 Developers should not cancel an asynchronous operation inside an asynchronous callback.
 
@@ -25,7 +30,7 @@ The second argument is the Service object for which the callback is invoked. If 
 
 In this example, the callback simply displays a message box that shows the name of the changed variable and its new value, and if the callback was invoked for a state variable change. Otherwise, it displays a message that indicates the service instance is no longer available.
 
-The last part of the code fragment shows how to register the callback function using the [**AddCallback**](iupnpservice-addcallback.md) method. The service object variables, *appService* and *xportService* are assumed to have been initialized as shown in [Obtaining Service Objects](obtaining-service-objects.md).
+The last part of the code fragment shows how to register the callback function using the [**AddCallback**](/windows/win32/Upnp/nf-upnp-iupnpservice-addcallback?branch=master) method. The service object variables, *appService* and *xportService* are assumed to have been initialized as shown in [Obtaining Service Objects](obtaining-service-objects.md).
 
 
 ```VB

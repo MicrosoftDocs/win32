@@ -1,7 +1,12 @@
 ---
 title: Preparing the Environment
 description: Preparing the Environment
-ms.assetid: 'd8387d53-3e9e-4516-8224-f4bb9157b640'
+ms.assetid: d8387d53-3e9e-4516-8224-f4bb9157b640
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preparing the Environment

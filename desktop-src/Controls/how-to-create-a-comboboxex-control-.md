@@ -1,7 +1,12 @@
 ---
 title: How to Create a ComboBoxEx Control
 description: This topic demonstrates how to create a ComboBoxEx control.
-ms.assetid: 'E3D577AF-3290-431E-AA6C-1E9A9ED6448C'
+ms.assetid: E3D577AF-3290-431E-AA6C-1E9A9ED6448C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a ComboBoxEx Control
@@ -23,7 +28,7 @@ This topic demonstrates how to create a ComboBoxEx control.
 
 ### 
 
-To create a ComboBoxEx control, call the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, using [**WC\_COMBOBOXEX**](common-control-window-classes.md#wc-comboboxex) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](initcommoncontrolsex.md) function, while specifying the ICC\_USEREX\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure.
+To create a ComboBoxEx control, call the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, using [**WC\_COMBOBOXEX**](common-control-window-classes.md#wc-comboboxex) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function, while specifying the ICC\_USEREX\_CLASSES bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure.
 
 ## Complete example
 

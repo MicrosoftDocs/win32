@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to add items to the automatic Jump List for an application, including switching between the display of the Frequent and Recent categories.'
+Description: Demonstrates how to add items to the automatic Jump List for an application, including switching between the display of the Frequent and Recent categories.
 title: Automatic Jump List Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Jump List Sample

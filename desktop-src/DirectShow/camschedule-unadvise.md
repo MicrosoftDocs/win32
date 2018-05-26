@@ -1,7 +1,12 @@
 ---
-Description: 'The Unadvise method removes an advise request.'
-ms.assetid: 'b3dfda82-577e-4499-a114-1c8721e4af9e'
-title: 'CAMSchedule.Unadvise method'
+Description: The Unadvise method removes an advise request.
+ms.assetid: b3dfda82-577e-4499-a114-1c8721e4af9e
+title: CAMSchedule.Unadvise method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.Unadvise method
@@ -13,7 +18,7 @@ The `Unadvise` method removes an advise request.
 
 ```C++
 HRESULT Unadvise(
-   DWORD_PTR dwAdviseCookie
+   DWORD_PTR dwAdviseCookie
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,9 +68,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

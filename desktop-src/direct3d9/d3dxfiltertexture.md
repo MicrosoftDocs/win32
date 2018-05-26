@@ -1,7 +1,12 @@
-﻿---
-Description: 'Filters mipmap levels of a texture.'
-ms.assetid: 'bfeae9b0-9480-4a26-a225-4a34780546ce'
+---
+Description: Filters mipmap levels of a texture.
+ms.assetid: bfeae9b0-9480-4a26-a225-4a34780546ce
 title: D3DXFilterTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFilterTexture function
@@ -29,18 +34,18 @@ HRESULT D3DXFilterTexture(
 *pBaseTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DBASETEXTURE9**](idirect3dbasetexture9.md)**
+Type: **[**LPDIRECT3DBASETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dbasetexture9?branch=master)**
 
-Pointer to an [**IDirect3DBaseTexture9**](idirect3dbasetexture9.md) interface that represents the texture object to filter.
+Pointer to an [**IDirect3DBaseTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dbasetexture9?branch=master) interface that represents the texture object to filter.
 
 </dd> <dt>
 
 *pPalette* \[out\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](paletteentry.md)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure that represents a 256-color palette to fill in, or **NULL** for nonpalettized formats. If a palette is not specified, the default Direct3D palette (an all opaque white palette) is provided. See Remarks.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure that represents a 256-color palette to fill in, or **NULL** for nonpalettized formats. If a palette is not specified, the default Direct3D palette (an all opaque white palette) is provided. See Remarks.
 
 </dd> <dt>
 
@@ -72,11 +77,11 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 A filter is recursively applied to each texture level to generate the next texture level.
 
-Writing to a non-level-zero surface of the texture will not cause the dirty rectangle to be updated. If **D3DXFilterTexture** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](idirect3dtexture9--adddirtyrect.md) on the texture.
+Writing to a non-level-zero surface of the texture will not cause the dirty rectangle to be updated. If **D3DXFilterTexture** is called and the surface was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**AddDirtyRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3dtexture9-adddirtyrect?branch=master) on the texture.
 
 Textures created in the default pool (D3DPOOL\_DEFAULT) cannot be used with **D3DXFilterTexture** (unless created with D3DUSAGE\_DYNAMIC) because a lock operation is needed on the object. Note that locks are prohibited on textures in the default pool (unless they are dynamic).
 
-For details on [**PALETTEENTRY**](paletteentry.md), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
+For details on [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master), see the Platform SDK. Note that as of DirectX 8.0, the peFlags member of the **PALETTEENTRY** structure does not function as documented in the Platform SDK. The peFlags member is now the alpha channel for 8-bit palettized formats.
 
 There is only one texture filtering function, but two macros that call this method.
 

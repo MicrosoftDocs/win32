@@ -1,7 +1,12 @@
 ---
-Description: 'Your Unicode applications should always cast zero to TCHAR when using null-terminated strings.'
-ms.assetid: '43bbf0ab-9b69-4f7d-acda-d0f8b6caf4b5'
-title: 'Using Null-terminated Strings'
+Description: Your Unicode applications should always cast zero to TCHAR when using null-terminated strings.
+ms.assetid: 43bbf0ab-9b69-4f7d-acda-d0f8b6caf4b5
+title: Using Null-terminated Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Null-terminated Strings

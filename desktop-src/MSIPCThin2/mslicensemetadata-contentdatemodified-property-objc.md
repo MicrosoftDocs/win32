@@ -4,17 +4,21 @@ description: Last date the tracked document was modified.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '172537FB-BD74-438D-9352-17E0DF5C7495'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 172537FB-BD74-438D-9352-17E0DF5C7495
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSLicenseMetadata contentDateModified property"]
+keywords:
+- MSLicenseMetadata contentDateModified property
 topic_type:
 - apiref
 api_name:
 - MSLicenseMetadata contentDateModified property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSLicenseMetadata contentDateModified property
@@ -33,11 +37,11 @@ Last date the tracked document was modified. This parameter is optional and can 
 
 | Name                             | Datatype                 | Notes                                                                                                                                                                                     |
 |----------------------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *contentDateModified*<br/> | **NSDate** \*<br/> | This property defaults to the current date and time if property not set.<br/> The format this property is governed by RFC3339. <br/> Example: “2015-08-20T15:17” .<br/> |
+| *contentDateModified*<br/> | **NSDate** \*<br/> | This property defaults to the current date and time if property not set.<br/> The format this property is governed by RFC3339. <br/> Example:  2015-08-20T15:17  .<br/> |
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

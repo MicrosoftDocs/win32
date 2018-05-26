@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '229ee531-32b9-4e11-b64c-3ce5b5ab6530'
-title: 'Standard User Analyzer (SUA) Tool and Standard User Analyzer Wizard (SUA Wizard)'
+Description: .
+ms.assetid: 229ee531-32b9-4e11-b64c-3ce5b5ab6530
+title: Standard User Analyzer (SUA) Tool and Standard User Analyzer Wizard (SUA Wizard)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard User Analyzer (SUA) Tool and Standard User Analyzer Wizard (SUA Wizard)

@@ -1,8 +1,10 @@
 ---
 title: RunningTaskCollection object
 description: Scripting object that provides a collection that is used to control running tasks.
-ms.assetid: 'f95efba5-563d-49c0-81d3-143aa158ad8f'
-keywords: ["RunningTaskCollection object Task Scheduler", "RunningTaskCollection object Task Scheduler , described"]
+ms.assetid: f95efba5-563d-49c0-81d3-143aa158ad8f
+keywords:
+- RunningTaskCollection object Task Scheduler
+- RunningTaskCollection object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunningTaskCollection object
@@ -36,7 +43,7 @@ The **RunningTaskCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,8 +51,8 @@ The **RunningTaskCollection** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -70,9 +77,9 @@ The **RunningTaskCollection** object has these properties.
 [**RegisteredTask.GetInstances**](registeredtask-getinstances.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

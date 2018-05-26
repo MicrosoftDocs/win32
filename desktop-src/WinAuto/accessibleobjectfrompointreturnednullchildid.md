@@ -1,7 +1,12 @@
 ---
 title: AccessibleObjectFromPointReturnedNullChildId
 description: AccessibleObjectFromPointReturnedNullChildId
-ms.assetid: '20511B76-736B-4B43-8DC3-4306DF74CF73'
+ms.assetid: 20511B76-736B-4B43-8DC3-4306DF74CF73
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AccessibleObjectFromPointReturnedNullChildId
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-The ChildId of the object's [**IAccessible**](iaccessible.md) interface obtained for the given coordinates is NULL.
+The ChildId of the object's [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface obtained for the given coordinates is NULL.
 
 ## Possible causes
 
@@ -29,7 +34,7 @@ User interaction during verification, such as moving focus to a non-target HWND,
 [Navigation Through Hit Testing and Screen Location](navigation-through-hit-testing-and-screen-location.md)
 </dt> <dt>
 
-[**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
+[**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
 </dt> </dl>
 
  

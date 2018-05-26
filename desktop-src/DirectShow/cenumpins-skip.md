@@ -1,19 +1,24 @@
 ---
-Description: 'The Skip method skips over a specified number of pins in the enumeration sequence. This method implements the IEnumPins::Skip method.'
-ms.assetid: 'd42f958c-f488-4730-ab84-fc4e4150b186'
-title: 'CEnumPins.Skip method'
+Description: The Skip method skips over a specified number of pins in the enumeration sequence. This method implements the IEnumPinsSkip method.
+ms.assetid: d42f958c-f488-4730-ab84-fc4e4150b186
+title: CEnumPins.Skip method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumPins.Skip method
 
-The `Skip` method skips over a specified number of pins in the enumeration sequence. This method implements the [**IEnumPins::Skip**](ienumpins-skip.md) method.
+The `Skip` method skips over a specified number of pins in the enumeration sequence. This method implements the [**IEnumPins::Skip**](/windows/win32/Strmif/nf-strmif-ienumpins-skip?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Skip(
-   ULONG cPins
+   ULONG cPins
 );
 ```
 
@@ -44,7 +49,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,9 +69,9 @@ Returns one of the **HRESULT** values shown in the following table.
 [**CEnumPins Class**](cenumpins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

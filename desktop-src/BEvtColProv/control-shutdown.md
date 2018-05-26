@@ -1,15 +1,18 @@
 ---
-Description: 'Stops the collector. If the collector is running as a service, stopping the service is the better approach.'
+Description: Stops the collector. If the collector is running as a service, stopping the service is the better approach.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fab3e060-156f-46f5-98a2-d47a23d64552'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fab3e060-156f-46f5-98a2-d47a23d64552
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Shutdown method of the Control class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Shutdown method of the Control class
@@ -39,8 +42,8 @@ This method does not return a value.
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
@@ -54,9 +57,9 @@ This method does not return a value.
 [**Control**](control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

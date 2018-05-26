@@ -4,13 +4,16 @@ description: Adds DH-CHAP parameters to a synthetic fibre channel port in a VM.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc56ded1-851f-47a2-9da9-b603e5a22141'
-ms.prod: 'windows-server-dev'
+ms.assetid: fc56ded1-851f-47a2-9da9-b603e5a22141
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddFibreChannelChap method", "AddFibreChannelChap method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, AddFibreChannelChap method"]
+keywords:
+- AddFibreChannelChap method
+- AddFibreChannelChap method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, AddFibreChannelChap method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddFibreChannelChap method of the Msvm\_VirtualSystemManagementService class
@@ -28,16 +34,16 @@ Adds DH-CHAP parameters to a synthetic fibre channel port in a VM.
 > [!Note]  
 > This will fail if the VM is running.
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 AddFibreChannelChap(
-  [in] string FcPortSettings[],
-  [in] uint8  SecretEncoding,
-  [in] uint8  SharedSecret[]
+  [in] string FcPortSettings[],
+  [in] uint8  SecretEncoding,
+  [in] uint8  SharedSecret[]
 );
 ```
 
@@ -131,7 +137,7 @@ The possible values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -145,9 +151,9 @@ The possible values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

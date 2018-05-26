@@ -1,7 +1,12 @@
 ---
 title: Listing Virtual Roots
 description: Listing Virtual Roots
-ms.assetid: '9a85c709-7340-4b0a-af9f-f02a203285c7'
+ms.assetid: 9a85c709-7340-4b0a-af9f-f02a203285c7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listing Virtual Roots

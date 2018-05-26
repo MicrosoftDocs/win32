@@ -1,7 +1,12 @@
 ---
 title: Windowless Controls
 description: Windowless Controls
-ms.assetid: '1759e5db-423c-44cc-b901-f50046c91956'
+ms.assetid: 1759e5db-423c-44cc-b901-f50046c91956
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windowless Controls

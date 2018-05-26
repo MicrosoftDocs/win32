@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows Vista, the FaxConfiguration object is used to set properties of archive and queue folders. The following Microsoft Visual Basic examples show how to do this.'
-ms.assetid: 'ff01d86e-3aae-4bbf-8221-e0d219d2687c'
+Description: In Windows Vista, the FaxConfiguration object is used to set properties of archive and queue folders. The following Microsoft Visual Basic examples show how to do this.
+ms.assetid: ff01d86e-3aae-4bbf-8221-e0d219d2687c
 title: Managing Queues and Archives
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Queues and Archives

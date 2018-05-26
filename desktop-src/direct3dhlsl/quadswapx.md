@@ -1,14 +1,20 @@
 ---
 title: QuadReadAccrossX function
 description: Returns the specified local value read from the other lane in this quad in the X direction.
-ms.assetid: '7A7E0623-30EC-4167-90A5-D79E10A394CC'
-keywords: ["QuadSwapX function HLSL"]
+ms.assetid: 7A7E0623-30EC-4167-90A5-D79E10A394CC
+keywords:
+- QuadSwapX function HLSL
 topic_type:
 - apiref
 api_name:
 - QuadSwapX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuadReadAccrossX function

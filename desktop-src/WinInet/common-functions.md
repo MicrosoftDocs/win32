@@ -1,7 +1,12 @@
 ---
 title: Common Functions
 description: The different Internet protocols (such as ftp and http) use several of the same WinINet functions to handle information on the Internet.
-ms.assetid: 'c80768cf-c8c0-4bdf-9ea2-f82c92ade05a'
+ms.assetid: c80768cf-c8c0-4bdf-9ea2-f82c92ade05a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Functions
@@ -10,11 +15,11 @@ The different Internet protocols (such as ftp and http) use several of the same 
 
 The common functions handle the following tasks:
 
--   Downloading resources from the Internet ([**InternetReadFile**](internetreadfile.md), [**InternetSetFilePointer**](internetsetfilepointer.md), [**InternetFindNextFile**](internetfindnextfile.md), and [**InternetQueryDataAvailable**](internetquerydataavailable.md)).
--   Setting up asynchronous operations ([**InternetSetStatusCallback**](internetsetstatuscallback.md)).
--   Viewing and changing options ([**InternetSetOption**](internetsetoption.md) and [**InternetQueryOption**](internetqueryoption.md)).
--   Closing all types of [**HINTERNET**](appendix-a-hinternet-handles.md) handles ([**InternetCloseHandle**](internetclosehandle.md)).
--   Placing and removing locks on resources ([**InternetLockRequestFile**](internetlockrequestfile.md) and [**InternetUnlockRequestFile**](internetunlockrequestfile.md)).
+-   Downloading resources from the Internet ([**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master), [**InternetSetFilePointer**](/windows/win32/Wininet/nf-wininet-internetsetfilepointer?branch=master), [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master), and [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master)).
+-   Setting up asynchronous operations ([**InternetSetStatusCallback**](/windows/win32/Wininet/nf-wininet-internetsetstatuscallback?branch=master)).
+-   Viewing and changing options ([**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) and [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master)).
+-   Closing all types of [**HINTERNET**](appendix-a-hinternet-handles.md) handles ([**InternetCloseHandle**](/windows/win32/Wininet/nf-wininet-internetclosehandle?branch=master)).
+-   Placing and removing locks on resources ([**InternetLockRequestFile**](/windows/win32/Wininet/nf-wininet-internetlockrequestfile?branch=master) and [**InternetUnlockRequestFile**](/windows/win32/Wininet/nf-wininet-internetunlockrequestfile?branch=master)).
 
 ## Using Common Functions
 
@@ -24,15 +29,15 @@ The following table lists the common functions included in the WinINet functions
 
 | Function                                                         | Description                                                                                                                                                                                                                                             |
 |------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**InternetFindNextFile**](internetfindnextfile.md)             | Continues file enumeration or search. Requires a handle created by the [**FtpFindFirstFile**](ftpfindfirstfile.md), or [**InternetOpenUrl**](internetopenurl.md) function.                                                                            |
-| [**InternetLockRequestFile**](internetlockrequestfile.md)       | Allows the user to place a lock on the file that is being used. This function requires a handle returned by the [**FtpOpenFile**](ftpopenfile.md), [**HttpOpenRequest**](httpopenrequest.md), or [**InternetOpenUrl**](internetopenurl.md) function. |
-| [**InternetQueryDataAvailable**](internetquerydataavailable.md) | Retrieves the amount of data available. Requires a handle created by the [**FtpOpenFile**](ftpopenfile.md), or [**HttpOpenRequest**](httpopenrequest.md) function.                                                                                    |
-| [**InternetQueryOption**](internetqueryoption.md)               | Retrieves the setting of an Internet option.                                                                                                                                                                                                            |
-| [**InternetReadFile**](internetreadfile.md)                     | Reads URL data. Requires a handle created by the [**InternetOpenUrl**](internetopenurl.md), [**FtpOpenFile**](ftpopenfile.md), or [**HttpOpenRequest**](httpopenrequest.md) function.                                                                |
-| [**InternetSetFilePointer**](internetsetfilepointer.md)         | Sets the position for the next read in a file. Requires a handle created by [**InternetOpenUrl**](internetopenurl.md) (on an HTTP URL only) or a handle created by [**HttpOpenRequest**](httpopenrequest.md) using the GET HTTP verb.                 |
-| [**InternetSetOption**](internetsetoption.md)                   | Sets an Internet option.                                                                                                                                                                                                                                |
-| [**InternetSetStatusCallback**](internetsetstatuscallback.md)   | Sets a callback function that receives status information. Assigns a callback function to the designated [**HINTERNET**](appendix-a-hinternet-handles.md) handle and all handles derived from it.                                                      |
-| [**InternetUnlockRequestFile**](internetunlockrequestfile.md)   | Unlocks a file that was locked using the [**InternetLockRequestFile**](internetlockrequestfile.md) function.                                                                                                                                           |
+| [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master)             | Continues file enumeration or search. Requires a handle created by the [**FtpFindFirstFile**](/windows/win32/Wininet/nf-wininet-ftpfindfirstfilea?branch=master), or [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) function.                                                                            |
+| [**InternetLockRequestFile**](/windows/win32/Wininet/nf-wininet-internetlockrequestfile?branch=master)       | Allows the user to place a lock on the file that is being used. This function requires a handle returned by the [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master), or [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) function. |
+| [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master) | Retrieves the amount of data available. Requires a handle created by the [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) function.                                                                                    |
+| [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master)               | Retrieves the setting of an Internet option.                                                                                                                                                                                                            |
+| [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master)                     | Reads URL data. Requires a handle created by the [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) function.                                                                |
+| [**InternetSetFilePointer**](/windows/win32/Wininet/nf-wininet-internetsetfilepointer?branch=master)         | Sets the position for the next read in a file. Requires a handle created by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) (on an HTTP URL only) or a handle created by [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) using the GET HTTP verb.                 |
+| [**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master)                   | Sets an Internet option.                                                                                                                                                                                                                                |
+| [**InternetSetStatusCallback**](/windows/win32/Wininet/nf-wininet-internetsetstatuscallback?branch=master)   | Sets a callback function that receives status information. Assigns a callback function to the designated [**HINTERNET**](appendix-a-hinternet-handles.md) handle and all handles derived from it.                                                      |
+| [**InternetUnlockRequestFile**](/windows/win32/Wininet/nf-wininet-internetunlockrequestfile?branch=master)   | Unlocks a file that was locked using the [**InternetLockRequestFile**](/windows/win32/Wininet/nf-wininet-internetlockrequestfile?branch=master) function.                                                                                                                                           |
 
 
 
@@ -42,16 +47,16 @@ Reading files, finding the next file, manipulating options, and setting up async
 
 ### Reading Files
 
-The [**InternetReadFile**](internetreadfile.md) function is used to download resources from an [**HINTERNET**](appendix-a-hinternet-handles.md) handle returned by the [**InternetOpenUrl**](internetopenurl.md), [**FtpOpenFile**](ftpopenfile.md), or [**HttpOpenRequest**](httpopenrequest.md) function.
+The [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master) function is used to download resources from an [**HINTERNET**](appendix-a-hinternet-handles.md) handle returned by the [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) function.
 
-[**InternetReadFile**](internetreadfile.md) accepts a void pointer variable that contains the address of a buffer and a pointer to a variable that contains the length of the buffer. The function returns the data in the buffer and the amount of data downloaded into the buffer.
+[**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master) accepts a void pointer variable that contains the address of a buffer and a pointer to a variable that contains the length of the buffer. The function returns the data in the buffer and the amount of data downloaded into the buffer.
 
 The WinINet functions provide two techniques to download an entire resource:
 
--   The [**InternetQueryDataAvailable**](internetquerydataavailable.md) function.
--   The return values of [**InternetReadFile**](internetreadfile.md).
+-   The [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master) function.
+-   The return values of [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master).
 
-[**InternetQueryDataAvailable**](internetquerydataavailable.md) takes the [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpenUrl**](internetopenurl.md), [**FtpOpenFile**](ftpopenfile.md), or [**HttpOpenRequest**](httpopenrequest.md) (after [**HttpSendRequest**](httpsendrequest.md) has been called on the handle) and returns the number of bytes available. The application should allocate a buffer equal to the number of bytes available, plus 1 for the terminating **null** character, and use that buffer with [**InternetReadFile**](internetreadfile.md). This method does not always work because [**InternetQueryDataAvailable**](internetquerydataavailable.md) is checking the file size listed in the header and not the actual file. The information in the header file could be outdated, or the header file could be missing, since it is not currently required under all standards.
+[**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master) takes the [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) (after [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master) has been called on the handle) and returns the number of bytes available. The application should allocate a buffer equal to the number of bytes available, plus 1 for the terminating **null** character, and use that buffer with [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master). This method does not always work because [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master) is checking the file size listed in the header and not the actual file. The information in the header file could be outdated, or the header file could be missing, since it is not currently required under all standards.
 
 The following example reads the contents of the resource accessed by the hResource handle and displayed in the edit box indicated by intCtrlID.
 
@@ -175,9 +180,9 @@ int WINAPI Dumper(HWND hX, int intCtrlID, HINTERNET hResource)
 
 
 
-[**InternetReadFile**](internetreadfile.md) returns zero bytes read and completes successfully when all available data has been read. This allows an application to use [**InternetReadFile**](internetreadfile.md) in a loop to download the data and exit when it returns zero bytes read and completes successfully.
+[**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master) returns zero bytes read and completes successfully when all available data has been read. This allows an application to use [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master) in a loop to download the data and exit when it returns zero bytes read and completes successfully.
 
-The following example reads the resource from the Internet and displays the resource in the edit box indicated by intCtrlID. The [**HINTERNET**](appendix-a-hinternet-handles.md) handle, hInternet, was returned by [**InternetOpenUrl**](internetopenurl.md), [**FtpOpenFile**](ftpopenfile.md), or [**HttpOpenRequest**](httpopenrequest.md) (after being sent by [**HttpSendRequest**](httpsendrequest.md)).
+The following example reads the resource from the Internet and displays the resource in the edit box indicated by intCtrlID. The [**HINTERNET**](appendix-a-hinternet-handles.md) handle, hInternet, was returned by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**FtpOpenFile**](/windows/win32/Wininet/nf-wininet-ftpopenfilea?branch=master), or [**HttpOpenRequest**](/windows/win32/Wininet/nf-wininet-httpopenrequesta?branch=master) (after being sent by [**HttpSendRequest**](/windows/win32/Wininet/nf-wininet-httpsendrequesta?branch=master)).
 
 
 ```C++
@@ -289,11 +294,11 @@ int WINAPI Dump(HWND hX, int intCtrlID, HINTERNET hResource)
 
 ### Finding the Next File
 
-The [**InternetFindNextFile**](internetfindnextfile.md) function is used to find the next file in a file search, using the search parameters and [**HINTERNET**](appendix-a-hinternet-handles.md) handle from [**FtpFindFirstFile**](ftpfindfirstfile.md), or [**InternetOpenUrl**](internetopenurl.md).
+The [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master) function is used to find the next file in a file search, using the search parameters and [**HINTERNET**](appendix-a-hinternet-handles.md) handle from [**FtpFindFirstFile**](/windows/win32/Wininet/nf-wininet-ftpfindfirstfilea?branch=master), or [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master).
 
-To complete a file search, continue to call [**InternetFindNextFile**](internetfindnextfile.md) using the [**HINTERNET**](appendix-a-hinternet-handles.md) handle returned by [**FtpFindFirstFile**](ftpfindfirstfile.md), or [**InternetOpenUrl**](internetopenurl.md) until the function fails with the extended error message [ERROR\_NO\_MORE\_FILES](wininet-errors.md#error-no-more-files). To get the extended error information, call the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function.
+To complete a file search, continue to call [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master) using the [**HINTERNET**](appendix-a-hinternet-handles.md) handle returned by [**FtpFindFirstFile**](/windows/win32/Wininet/nf-wininet-ftpfindfirstfilea?branch=master), or [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) until the function fails with the extended error message [ERROR\_NO\_MORE\_FILES](wininet-errors.md#error-no-more-files). To get the extended error information, call the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function.
 
-The following example displays the contents of an FTP directory in the list box indicated by lstDirectory. The [**HINTERNET**](appendix-a-hinternet-handles.md) handle, hConnect, is a handle returned by the [**InternetConnect**](internetconnect.md) function after it establishes an FTP session.
+The following example displays the contents of an FTP directory in the list box indicated by lstDirectory. The [**HINTERNET**](appendix-a-hinternet-handles.md) handle, hConnect, is a handle returned by the [**InternetConnect**](/windows/win32/Wininet/nf-wininet-internetconnecta?branch=master) function after it establishes an FTP session.
 
 
 ```C++
@@ -427,21 +432,21 @@ bool WINAPI DisplayDir( HWND hX,
 
 ### Manipulating Options
 
-[**InternetSetOption**](internetsetoption.md) and [**InternetQueryOption**](internetqueryoption.md) are used to manipulate the WinINet options.
+[**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) and [**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) are used to manipulate the WinINet options.
 
-[**InternetSetOption**](internetsetoption.md) accepts a variable that indicates the option to set, a buffer to hold the option setting, and a pointer that contains the address of the variable that contains the length of the buffer.
+[**InternetSetOption**](/windows/win32/Wininet/nf-wininet-internetsetoptiona?branch=master) accepts a variable that indicates the option to set, a buffer to hold the option setting, and a pointer that contains the address of the variable that contains the length of the buffer.
 
-[**InternetQueryOption**](internetqueryoption.md) accepts a variable that indicates the option to retrieve, a buffer to hold the option setting, and a pointer that contains the address of the variable that contains the length of the buffer.
+[**InternetQueryOption**](/windows/win32/Wininet/nf-wininet-internetqueryoptiona?branch=master) accepts a variable that indicates the option to retrieve, a buffer to hold the option setting, and a pointer that contains the address of the variable that contains the length of the buffer.
 
 ### Setting Up Asynchronous Operations
 
-By default, the WinINet functions operate synchronously. An application can request asynchronous operation by setting the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag in the call to the [**InternetOpen**](internetopen.md) function. All future calls made against handles derived from the handle returned from [**InternetOpen**](internetopen.md) are made asynchronously.
+By default, the WinINet functions operate synchronously. An application can request asynchronous operation by setting the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag in the call to the [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master) function. All future calls made against handles derived from the handle returned from [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master) are made asynchronously.
 
 The rationale for asynchronous versus synchronous operation is to allow a single-threaded application to maximize its utilization of the CPU without having to wait for network I/O to complete. Therefore, depending on the request, the operation might complete synchronously or asynchronously. The application should check the return code. If a function returns **FALSE** or **NULL**, and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_IO\_PENDING, the request has been made asynchronously, and the application is called back with INTERNET\_STATUS\_REQUEST\_COMPLETE when the function has completed.
 
-To begin asynchronous operation, the application must set the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag in its call to [**InternetOpen**](internetopen.md). The application must then register a valid callback function, using [**InternetSetStatusCallback**](internetsetstatuscallback.md).
+To begin asynchronous operation, the application must set the [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) flag in its call to [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master). The application must then register a valid callback function, using [**InternetSetStatusCallback**](/windows/win32/Wininet/nf-wininet-internetsetstatuscallback?branch=master).
 
-After a callback function is registered for a handle, all operations on that handle can generate status indications, provided that the context value that was supplied when the handle was created was not zero. Providing a zero context value forces an operation to complete synchronously, even though [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) was specified in [**InternetOpen**](internetopen.md).
+After a callback function is registered for a handle, all operations on that handle can generate status indications, provided that the context value that was supplied when the handle was created was not zero. Providing a zero context value forces an operation to complete synchronously, even though [INTERNET\_FLAG\_ASYNC](api-flags.md#internet-flag-async) was specified in [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master).
 
 Status indications give the application feedback about the progress of network operations, such as resolving a host name, connecting to a server, and receiving data. Three special-purpose status indications can be made for a handle:
 
@@ -449,9 +454,9 @@ Status indications give the application feedback about the progress of network o
 -   INTERNET\_STATUS\_HANDLE\_CREATED indicates when the handle is initially created.
 -   INTERNET\_STATUS\_REQUEST\_COMPLETE indicates an asynchronous operation has completed.
 
-The application must check the [**INTERNET\_ASYNC\_RESULT**](internet-async-result.md) structure to determine whether the operation succeeded or failed after receiving an INTERNET\_STATUS\_REQUEST\_COMPLETE indication.
+The application must check the [**INTERNET\_ASYNC\_RESULT**](/windows/win32/Wininet/ns-wininet-internet_async_result?branch=master) structure to determine whether the operation succeeded or failed after receiving an INTERNET\_STATUS\_REQUEST\_COMPLETE indication.
 
-The following sample shows an example of a callback function and a call to [**InternetSetStatusCallback**](internetsetstatuscallback.md) to register the function as the callback function.
+The following sample shows an example of a callback function and a call to [**InternetSetStatusCallback**](/windows/win32/Wininet/nf-wininet-internetsetstatuscallback?branch=master) to register the function as the callback function.
 
 
 ```C++
@@ -479,7 +484,7 @@ INTERNET_STATUS_CALLBACK dwISC =
 
 ### Closing HINTERNET Handles
 
-All [**HINTERNET**](appendix-a-hinternet-handles.md) handles can be closed by using the [**InternetCloseHandle**](internetclosehandle.md) function. Client applications must close all **HINTERNET** handles derived from the **HINTERNET** handle they are trying to close before calling [**InternetCloseHandle**](internetclosehandle.md) on the handle.
+All [**HINTERNET**](appendix-a-hinternet-handles.md) handles can be closed by using the [**InternetCloseHandle**](/windows/win32/Wininet/nf-wininet-internetclosehandle?branch=master) function. Client applications must close all **HINTERNET** handles derived from the **HINTERNET** handle they are trying to close before calling [**InternetCloseHandle**](/windows/win32/Wininet/nf-wininet-internetclosehandle?branch=master) on the handle.
 
 The following example illustrates the handle hierarchy.
 
@@ -508,9 +513,9 @@ InternetCloseHandle(hRootHandle);
 
 ### Locking and Unlocking Resources
 
-The [**InternetLockRequestFile**](internetlockrequestfile.md) function allows an application to ensure that the cached resource associated with the [**HINTERNET**](appendix-a-hinternet-handles.md) handle passed to it does not disappear from the cache. If another download tries to commit a resource that has the same URL as the locked file, the cache avoids removing the file by doing a safe delete. After the application calls the [**InternetUnlockRequestFile**](internetunlockrequestfile.md) function, the cache is given permission to delete the file.
+The [**InternetLockRequestFile**](/windows/win32/Wininet/nf-wininet-internetlockrequestfile?branch=master) function allows an application to ensure that the cached resource associated with the [**HINTERNET**](appendix-a-hinternet-handles.md) handle passed to it does not disappear from the cache. If another download tries to commit a resource that has the same URL as the locked file, the cache avoids removing the file by doing a safe delete. After the application calls the [**InternetUnlockRequestFile**](/windows/win32/Wininet/nf-wininet-internetunlockrequestfile?branch=master) function, the cache is given permission to delete the file.
 
-If the [INTERNET\_FLAG\_NO\_CACHE\_WRITE](api-flags.md#internet-flag-no-cache-write) or [INTERNET\_FLAG\_DONT\_CACHE](api-flags.md#internet-flag-dont-cache) flag has been set, [**InternetLockRequestFile**](internetlockrequestfile.md) creates a temporary file with the extension TMP, unless the handle is connected to an https resource. If the function accesses an https resource and INTERNET\_FLAG\_NO\_CACHE\_WRITE (or INTERNET\_FLAG\_DONT\_CACHE) has been set, [**InternetLockRequestFile**](internetlockrequestfile.md) fails.
+If the [INTERNET\_FLAG\_NO\_CACHE\_WRITE](api-flags.md#internet-flag-no-cache-write) or [INTERNET\_FLAG\_DONT\_CACHE](api-flags.md#internet-flag-dont-cache) flag has been set, [**InternetLockRequestFile**](/windows/win32/Wininet/nf-wininet-internetlockrequestfile?branch=master) creates a temporary file with the extension TMP, unless the handle is connected to an https resource. If the function accesses an https resource and INTERNET\_FLAG\_NO\_CACHE\_WRITE (or INTERNET\_FLAG\_DONT\_CACHE) has been set, [**InternetLockRequestFile**](/windows/win32/Wininet/nf-wininet-internetlockrequestfile?branch=master) fails.
 
 > [!Note]  
 > WinINet does not support server implementations. In addition, it should not be used from a service. For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273).

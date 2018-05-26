@@ -1,7 +1,12 @@
 ---
-Description: 'Using the MPEG-2 Splitter'
-ms.assetid: 'a08e079c-41be-475a-9e88-ee46d17fe938'
-title: 'Using the MPEG-2 Splitter'
+Description: Using the MPEG-2 Splitter
+ms.assetid: a08e079c-41be-475a-9e88-ee46d17fe938
+title: Using the MPEG-2 Splitter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the MPEG-2 Splitter
@@ -24,21 +29,21 @@ The MPEG-2 Splitter does not parse transport streams. Use the MPEG-2 Demultiplex
 
 **Time Stamps**
 
-When playing back MPEG-2 program streams, the MPEG-2 Splitter filter treats the first system clock reference it encounters as the time origin of any stream. This differs from the [MPEG-1 Stream Splitter](mpeg-1-stream-splitter-filter.md), which uses presentation time stamps. The [**IAMParse::GetParseTime**](iamparse-getparsetime.md) method returns the (possibly estimated) stream system clock time for the data it has processed.
+When playing back MPEG-2 program streams, the MPEG-2 Splitter filter treats the first system clock reference it encounters as the time origin of any stream. This differs from the [MPEG-1 Stream Splitter](mpeg-1-stream-splitter-filter.md), which uses presentation time stamps. The [**IAMParse::GetParseTime**](/windows/win32/Amparse/nf-amparse-iamparse-getparsetime?branch=master) method returns the (possibly estimated) stream system clock time for the data it has processed.
 
-If the MPEG-2 splitter filter encounters an input sample with the discontinuity property set (the discontinuity property can be set by using [**IMediaSample::SetDiscontinuity**](imediasample-setdiscontinuity.md) or [**IMediaSample2::SetProperties**](imediasample2-setproperties.md)), it skips data until it finds the first pack in the data and adjusts its time stamps so that the system clock reference (SCR) for that pack is considered identical to the SCR time before the discontinuity. If the SCR clock appears either to jump backward or to jump forward by more than a second, then (in line with the MPEG-2 program stream specification), this is also treated as a clock discontinuity and the apparent clock discrepancy is subtracted from the time stamps passed to downstream filters.
+If the MPEG-2 splitter filter encounters an input sample with the discontinuity property set (the discontinuity property can be set by using [**IMediaSample::SetDiscontinuity**](/windows/win32/Strmif/nf-strmif-imediasample-setdiscontinuity?branch=master) or [**IMediaSample2::SetProperties**](/windows/win32/Strmif/nf-strmif-imediasample2-setproperties?branch=master)), it skips data until it finds the first pack in the data and adjusts its time stamps so that the system clock reference (SCR) for that pack is considered identical to the SCR time before the discontinuity. If the SCR clock appears either to jump backward or to jump forward by more than a second, then (in line with the MPEG-2 program stream specification), this is also treated as a clock discontinuity and the apparent clock discrepancy is subtracted from the time stamps passed to downstream filters.
 
 **Stream Selection**
 
-When playing back the MPEG-2 program stream, the first video stream and first audio stream found traversing the program stream are chosen. Up to one audio and one video output pin are supported. Through the [**IAMStreamSelect**](iamstreamselect.md) interface, different streams of the same type can be selected up to the number specified by the audio limit in the system header. For MPEG-2 audio, it is currently assumed the streams form a contiguous range starting at stream 0xC0.
+When playing back the MPEG-2 program stream, the first video stream and first audio stream found traversing the program stream are chosen. Up to one audio and one video output pin are supported. Through the [**IAMStreamSelect**](/windows/win32/Strmif/nn-strmif-iamstreamselect?branch=master) interface, different streams of the same type can be selected up to the number specified by the audio limit in the system header. For MPEG-2 audio, it is currently assumed the streams form a contiguous range starting at stream 0xC0.
 
 **Supported Interfaces**
 
 The MPEG-2 splitter filter supports the following interfaces.
 
--   [**IAMParse**](iamparse.md). MPEG-2 program stream only.
--   [**IAMStreamSelect**](iamstreamselect.md). MPEG-2 program stream only, audio streams only.
--   [**IMediaSeeking**](imediaseeking.md). Includes byte mode seeking.
+-   [**IAMParse**](/windows/win32/Amparse/nn-amparse-iamparse?branch=master). MPEG-2 program stream only.
+-   [**IAMStreamSelect**](/windows/win32/Strmif/nn-strmif-iamstreamselect?branch=master). MPEG-2 program stream only, audio streams only.
+-   [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master). Includes byte mode seeking.
 
 ## Related topics
 

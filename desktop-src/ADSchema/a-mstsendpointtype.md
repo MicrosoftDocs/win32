@@ -4,17 +4,22 @@ description: This attribute defines whether the computer is a physical computer 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e7bf05e1-de40-473b-8ab3-27e8aea6c4b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e7bf05e1-de40-473b-8ab3-27e8aea6c4b9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Endpoint-Type attribute AD Schema", "msTSEndpointType attribute AD Schema"]
+keywords:
+- ms-TS-Endpoint-Type attribute AD Schema
+- msTSEndpointType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Endpoint-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Endpoint-Type attribute
@@ -38,8 +43,8 @@ This attribute defines whether the computer is a physical computer or a virtual 
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ This attribute defines whether the computer is a physical computer or a virtual 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

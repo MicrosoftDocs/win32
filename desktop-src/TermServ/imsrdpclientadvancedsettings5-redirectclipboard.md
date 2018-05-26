@@ -4,11 +4,20 @@ description: Sets or retrieves the configuration for clipboard redirection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c653f593-9912-4ade-a0a3-70d9afac2ab1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c653f593-9912-4ade-a0a3-70d9afac2ab1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RedirectClipboard property Remote Desktop Services", "RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , RedirectClipboard property", "RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RedirectClipboard property", "RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RedirectClipboard property", "RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RedirectClipboard property"]
+keywords:
+- RedirectClipboard property Remote Desktop Services
+- RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , RedirectClipboard property
+- RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , RedirectClipboard property
+- RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , RedirectClipboard property
+- RedirectClipboard property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , RedirectClipboard property
 topic_type:
 - apiref
 api_name:
@@ -28,6 +37,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings5::RedirectClipboard property
@@ -41,11 +53,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_RedirectClipboard(
-  [in]  VARIANT_BOOL fRedirectClipboard
+  [in]  VARIANT_BOOL fRedirectClipboard
 );
 
 HRESULT get_RedirectClipboard(
-  [out] VARIANT_BOOL *pfRedirectClipboard
+  [out] VARIANT_BOOL *pfRedirectClipboard
 );
 ```
 
@@ -61,8 +73,8 @@ Sets the clipboard redirection mode to **TRUE** or **FALSE**. If set to **TRUE**
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings5 is defined as FBA7F64E-6783-4405-DA45-FA4A763DABD0<br/> |
@@ -85,9 +97,9 @@ Sets the clipboard redirection mode to **TRUE** or **FALSE**. If set to **TRUE**
 [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

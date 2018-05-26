@@ -4,13 +4,16 @@ description: Executes a control code on the cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3db1780f-c02b-4b12-91d8-4bd455afad42'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3db1780f-c02b-4b12-91d8-4bd455afad42
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExecuteClusterControl method", "ExecuteClusterControl method, MSCluster_Cluster class", "MSCluster_Cluster class, ExecuteClusterControl method"]
+keywords:
+- ExecuteClusterControl method
+- ExecuteClusterControl method, MSCluster_Cluster class
+- MSCluster_Cluster class, ExecuteClusterControl method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExecuteClusterControl method of the MSCluster\_Cluster class
@@ -30,10 +36,10 @@ Executes a control code on the cluster.
 
 ```mof
 void ExecuteClusterControl(
-  [in]  sint32 ControlCode,
-  [in]  uint8  InputBuffer[],
-  [out] uint8  OutputBuffer[],
-  [out] sint32 OutputBufferSize
+  [in]  sint32 ControlCode,
+  [in]  uint8  InputBuffer[],
+  [out] uint8  OutputBuffer[],
+  [out] sint32 OutputBufferSize
 );
 ```
 
@@ -90,7 +96,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -110,9 +116,9 @@ This method does not return a value.
 [Cluster Control Codes](https://msdn.microsoft.com/library/aa369093)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

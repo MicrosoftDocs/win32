@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an object that can be used to manage configuration settings of a proxy server.'
+Description: Retrieves an object that can be used to manage configuration settings of a proxy server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '2913333e-fc68-4c61-bd24-2ce915f1ed76'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 2913333e-fc68-4c61-bd24-2ce915f1ed76
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Enterprise.ProxySettings property'
+title: Enterprise.ProxySettings property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enterprise.ProxySettings property
@@ -134,7 +137,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -146,9 +149,9 @@ END FUNCTION
 [**Enterprise**](enterprise-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

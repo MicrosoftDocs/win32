@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a string property.'
-ms.assetid: 'FA14B81D-0B51-4C07-96BC-38CAABED735A'
-title: 'IPrinterScriptablePropertyBag::GetString method'
+---
+Description: Gets a string property.
+ms.assetid: FA14B81D-0B51-4C07-96BC-38CAABED735A
+title: IPrinterScriptablePropertyBagGetString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::GetString method

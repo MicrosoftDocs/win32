@@ -1,8 +1,16 @@
 ---
 title: Schema support
 description: WsUtil.exe supports the XSD schema specified at XML Schema.
-ms.assetid: '33096cda-9dbe-44d2-8d08-410bc33ae81c'
-keywords: ["Schema support Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 33096cda-9dbe-44d2-8d08-410bc33ae81c
+keywords:
+- Schema support Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Schema support
@@ -17,13 +25,13 @@ Identifier generation
 
 Element name or type name in the schema might not be valid C identifier, and the names are normalized to generated valid C names. Invalid C identifier characters are converted to the hex name, and a underscore '\_' might be prefixed to the name if necessary. Anonymous types are named after the enclosing element name but prefixed with underscore "\_" to avoid name collision. Global type names are preserved as it is after invalid characters are normalized. Nested anonymous types are prefixed with the parent type name.
 
-For every global element definition, wsutil.exe generates a [**WS\_ELEMENT\_DESCRIPTION**](ws-element-description.md) in the global description structure. For every global type definition, wsutil.exe generates a type description in the global description structure to be referenced by application.
+For every global element definition, wsutil.exe generates a [**WS\_ELEMENT\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_element_description?branch=master) in the global description structure. For every global type definition, wsutil.exe generates a type description in the global description structure to be referenced by application.
 
-For each field in the structure, wsutil.exe generates a [**WS\_FIELD\_DESCRIPTION**](ws-field-description.md) embedded as part of the enclosure structure.
+For each field in the structure, wsutil.exe generates a [**WS\_FIELD\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_field_description?branch=master) embedded as part of the enclosure structure.
 
 ## Simple Types
 
-Value types, as listed in [**WS\_VALUE\_TYPE**](ws-value-type.md), are treated as simple types. Notice that WS\_VALUE\_TYPE is really a subset of [**WS\_TYPE**](ws-type.md). It includes basic integral and float data types, as well as DECIMAL, WS\_DATETIME, and UUID.
+Value types, as listed in [**WS\_VALUE\_TYPE**](/windows/win32/WebServices/ne-webservices-ws_value_type?branch=master), are treated as simple types. Notice that WS\_VALUE\_TYPE is really a subset of [**WS\_TYPE**](/windows/win32/WebServices/ne-webservices-ws_type?branch=master). It includes basic integral and float data types, as well as DECIMAL, WS\_DATETIME, and UUID.
 
 In service model, in simple types are passed by value, while out and in,out simple types are passed by reference.
 
@@ -558,7 +566,7 @@ struct _DerivedLinkList* WINAPI LinkList_As_DerivedLinkList(LinkList*);
 
 In C style helper, before serialiation, application calls wsutil generated routine LinkList\_Init to initialize the structure and set the type description to LinkList type description. After deserialization, application can call LinkList\_As\_DerivedLinkList to get the derived type.
 
-To retrieve type information in runtime, wsutil generates the first field of base type with [**WS\_STRUCT\_DESCRIPTION**](ws-struct-description.md)\* type and [**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](ws-field-mapping.md) field mapping to describe the xsi:type information. Application can directly set or check the field to determine the actual type of structures. For example, the following code set the type of the structure to be DrivedLinkList:
+To retrieve type information in runtime, wsutil generates the first field of base type with [**WS\_STRUCT\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_struct_description?branch=master)\* type and [**WS\_TYPE\_ATTRIBUTE\_FIELD\_MAPPING**](/windows/win32/WebServices/ne-webservices-ws_field_mapping?branch=master) field mapping to describe the xsi:type information. Application can directly set or check the field to determine the actual type of structures. For example, the following code set the type of the structure to be DrivedLinkList:
 
 ``` syntax
 _DerivedLinkList derivedLinkList;

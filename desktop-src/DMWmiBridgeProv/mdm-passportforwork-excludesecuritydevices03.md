@@ -1,8 +1,10 @@
 ---
 title: MDM\_PassportForWork\_ExcludeSecurityDevices03 class
 description: The MDM\_PassportForWork\_ExcludeSecurityDevices03 class defines the Trusted Platform Modules allowed to use with Windows Hello for Business.
-ms.assetid: 'ca8fba3a-736b-4bd3-ac93-e0d44d54798d'
-keywords: ["MDM_PassportForWork_ExcludeSecurityDevices03 class", "MDM_PassportForWork_ExcludeSecurityDevices03 class, described"]
+ms.assetid: ca8fba3a-736b-4bd3-ac93-e0d44d54798d
+keywords:
+- MDM_PassportForWork_ExcludeSecurityDevices03 class
+- MDM_PassportForWork_ExcludeSecurityDevices03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_PassportForWork\_ExcludeSecurityDevices03 class
@@ -29,8 +36,8 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_PassportForWork_ExcludeSecurityDevices03
 {
-  string  InstanceID;
-  string  ParentID;
+  string  InstanceID;
+  string  ParentID;
   boolean TPM12;
 };
 ```
@@ -96,7 +103,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -104,9 +111,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

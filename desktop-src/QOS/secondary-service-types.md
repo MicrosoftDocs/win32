@@ -1,7 +1,12 @@
 ---
 title: Secondary Service Types
 description: There are three secondary service types.
-ms.assetid: '12fba32c-686a-4db5-b196-6de962c6dae1'
+ms.assetid: 12fba32c-686a-4db5-b196-6de962c6dae1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secondary Service Types

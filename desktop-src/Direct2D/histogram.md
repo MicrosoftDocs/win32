@@ -1,8 +1,14 @@
 ---
 title: Histogram effect
 description: Use the histogram effect to generate a histogram for the input bitmap based on the specified number of bins.
-ms.assetid: '458E2334-F383-41DE-9479-601AC3007BF3'
-keywords: ["histogram effect"]
+ms.assetid: 458E2334-F383-41DE-9479-601AC3007BF3
+keywords:
+- histogram effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Histogram effect
@@ -31,7 +37,7 @@ The CLSID for this effect is CLSID\_D2D1Histogram.
 
 
 
- 
+ 
 
 
 ```C++
@@ -76,7 +82,7 @@ Here's the equation to generate the output.
 
 
 
- 
+ 
 
 ## Channel selectors
 
@@ -91,7 +97,7 @@ Here's the equation to generate the output.
 
 
 
- 
+ 
 
 ## Data output
 
@@ -100,9 +106,9 @@ This effect outputs a FLOAT\[\], with the number of elements corresponding to th
 ## Remarks
 
 > [!Note]  
-> The [**CreateEffect**](id2d1devicecontext-createeffect.md) method fails if the device doesn't support DirectCompute and returns HRESULT = D2DERR\_INSUFFICIENT\_DEVICE\_CAPABILITIES. All DirectX11 cards and DirectX10 cards that support DirectCompute can use the effect.
+> The [**CreateEffect**](/windows/win32/D2d1_1/?branch=master) method fails if the device doesn't support DirectCompute and returns HRESULT = D2DERR\_INSUFFICIENT\_DEVICE\_CAPABILITIES. All DirectX11 cards and DirectX10 cards that support DirectCompute can use the effect.
 
- 
+ 
 
 ## Requirements
 
@@ -110,25 +116,25 @@ This effect outputs a FLOAT\[\], with the number of elements corresponding to th
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: Most data stored using Active Directory Domain Services is static. 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ebc8b5d3-0ab0-4bee-be20-aad4729ce0f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ebc8b5d3-0ab0-4bee-be20-aad4729ce0f8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Storing Dynamic Data"]
+keywords:
+- Storing Dynamic Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Storing Dynamic Data

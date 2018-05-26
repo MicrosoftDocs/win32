@@ -1,8 +1,10 @@
 ---
 title: INapServerManagement interface
 description: Are used to manage the NAP Server.
-ms.assetid: '5c4f9bf1-fe82-48f5-8aa4-5c73ab01a78a'
-keywords: ["INapServerManagement interface NAP", "INapServerManagement interface NAP , described"]
+ms.assetid: 5c4f9bf1-fe82-48f5-8aa4-5c73ab01a78a
+keywords:
+- INapServerManagement interface NAP
+- INapServerManagement interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerManagement interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerManagement** provides methods that are used to manage the NAP Server.
 
@@ -42,7 +49,7 @@ The **INapServerManagement** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,7 +58,7 @@ The **INapServerManagement** interface has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapServerManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapServerManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
@@ -68,9 +75,9 @@ The **INapServerManagement** interface has these methods.
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

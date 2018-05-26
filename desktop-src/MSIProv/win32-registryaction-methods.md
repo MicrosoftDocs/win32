@@ -1,7 +1,12 @@
 ---
 title: Win32\_RegistryAction Methods
 description: The Win32\_RegistryAction class exposes the following methods.
-ms.assetid: '2E212773-AECE-48B0-8DFB-7D399E1F25A6'
+ms.assetid: 2E212773-AECE-48B0-8DFB-7D399E1F25A6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RegistryAction Methods

@@ -1,8 +1,9 @@
 ---
 title: DecrementCounter function
-description: Decrements the object's hidden counter.
-ms.assetid: '24bc0b63-a482-4fa5-9898-2d43bca20cf4'
-keywords: ["DecrementCounter function HLSL"]
+description: Decrements the objects hidden counter.
+ms.assetid: 24bc0b63-a482-4fa5-9898-2d43bca20cf4
+keywords:
+- DecrementCounter function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - httpserv.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DecrementCounter function
@@ -47,7 +53,7 @@ This function is supported for the following types of shaders:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -69,9 +75,9 @@ This function is supported for the following types of shaders:
 [Shader Model 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

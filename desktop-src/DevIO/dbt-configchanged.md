@@ -1,7 +1,12 @@
 ---
-Description: 'The system broadcasts the DBT\_CONFIGCHANGED device event to indicate that the current configuration has changed, due to a dock or undock. An application or driver that stores data in the registry under the HKEY\_CURRENT\_CONFIG key should update the data.'
-ms.assetid: 'e5e33970-b17e-4723-98aa-e242f90fe4e7'
-title: 'DBT\_CONFIGCHANGED event'
+Description: The system broadcasts the DBT\_CONFIGCHANGED device event to indicate that the current configuration has changed, due to a dock or undock. An application or driver that stores data in the registry under the HKEY\_CURRENT\_CONFIG key should update the data.
+ms.assetid: e5e33970-b17e-4723-98aa-e242f90fe4e7
+title: DBT\_CONFIGCHANGED event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBT\_CONFIGCHANGED event
@@ -64,8 +69,8 @@ Return **TRUE**.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
+| Minimum supported client<br/> | Windows XP<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Dbt.h</dt> </dl> |
 
 
@@ -83,9 +88,9 @@ Return **TRUE**.
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

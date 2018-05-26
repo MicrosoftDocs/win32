@@ -1,14 +1,15 @@
 ---
 title: ConsentResult class
-description: Used for managing the user's consent information.
+description: Used for managing the users consent information.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.ConsentResult'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.ConsentResult
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ConsentResult class"]
+keywords:
+- ConsentResult class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentResult class
@@ -25,7 +29,7 @@ api_type:
 
 Used for managing the user's consent information.
 
-In operation, users can accept the consent or reject it. Users can also choose to show the consent again or not. You can save a user’s decision about whether to see the consent prompt again by using the [**ShowAgain**](consentresult-showagain.md) property.
+In operation, users can accept the consent or reject it. Users can also choose to show the consent again or not. You can save a user s decision about whether to see the consent prompt again by using the [**ShowAgain**](consentresult-showagain.md) property.
 
 ## Syntax
 
@@ -55,7 +59,7 @@ The **ConsentResult** class has these methods. It also inherits methods from the
 
 
 
- 
+ 
 
 ### Properties
 
@@ -71,7 +75,7 @@ The **ConsentResult** class has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -94,9 +98,9 @@ The **ConsentResult** class has these properties.
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

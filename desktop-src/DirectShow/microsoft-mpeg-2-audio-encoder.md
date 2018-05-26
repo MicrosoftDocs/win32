@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft MPEG-2 Audio Encoder filter encodes MPEG-1 audio layers I and II, including support for the MPEG-2 Low Sampling Frequency (LSF) extensions.'
-ms.assetid: 'a36e838b-8b11-4851-9dd2-efd9fe070770'
-title: 'Microsoft MPEG-2 Audio Encoder'
+---
+Description: The Microsoft MPEG-2 Audio Encoder filter encodes MPEG-1 audio layers I and II, including support for the MPEG-2 Low Sampling Frequency (LSF) extensions.
+ms.assetid: a36e838b-8b11-4851-9dd2-efd9fe070770
+title: Microsoft MPEG-2 Audio Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft MPEG-2 Audio Encoder
@@ -21,7 +26,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IBaseFilter**](ibasefilter.md)<br/> [**ICodecAPI**](icodecapi.md)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](imediaseeking.md)<br/> [**IVideoEncoder**](ivideoencoder.md)<br/>
+[**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)<br/> [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)<br/> **IEncoderAPI**<br/> [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IVideoEncoder**](/windows/win32/strmif/?branch=master)<br/>
 
 Input Pin Media Types
 
@@ -29,7 +34,7 @@ Input Pin Media Types
 
 Input Pin Interfaces
 
-[**IMemInputPin**](imeminputpin.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Output Pin Media Types
 
@@ -37,7 +42,7 @@ Output Pin Media Types
 
 Output Pin Interfaces
 
-[**IMediaSeeking**](imediaseeking.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Filter CLSID
 
@@ -86,7 +91,7 @@ The encoder does not support the following:
 
 ### Codec Properties
 
-The filter supports the following properties through [**ICodecAPI**](icodecapi.md):
+The filter supports the following properties through [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master):
 
 -   [**AVAudioChannelCount**](avaudiochannelcount-property.md)
 -   [**AVAudioSampleRate**](avaudiosamplerate-property.md)

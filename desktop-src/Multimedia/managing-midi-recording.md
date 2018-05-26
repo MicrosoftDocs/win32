@@ -1,8 +1,17 @@
 ---
 title: Managing MIDI Recording
 description: Managing MIDI Recording
-ms.assetid: '48b2d815-72cf-4c96-8d93-247d2426b8f2'
-keywords: ["Musical Instrument Digital Interface (MIDI),recording", "MIDI (Musical Instrument Digital Interface),recording", "recording MIDI audio,managing", "MIDI recording"]
+ms.assetid: 48b2d815-72cf-4c96-8d93-247d2426b8f2
+keywords:
+- Musical Instrument Digital Interface (MIDI),recording
+- MIDI (Musical Instrument Digital Interface),recording
+- recording MIDI audio,managing
+- MIDI recording
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing MIDI Recording

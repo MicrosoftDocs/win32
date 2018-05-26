@@ -4,13 +4,19 @@ description: Removes orphaned Storage Replica metadata from the registry, partit
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ADECB616-F4C5-4E89-8FED-E29B63D80E6E'
-ms.prod: 'windows-server-dev'
+ms.assetid: ADECB616-F4C5-4E89-8FED-E29B63D80E6E
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ClearMetadataAll method", "ClearMetadataAll method, MSFT_WvrAdminTasks interface", "MSFT_WvrAdminTasks interface, ClearMetadataAll method"]
+keywords:
+- ClearMetadataAll method
+- ClearMetadataAll method, MSFT_WvrAdminTasks interface
+- MSFT_WvrAdminTasks interface, ClearMetadataAll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClearMetadataAll method of the MSFT\_WvrAdminTasks class
@@ -24,11 +30,11 @@ Removes orphaned Storage Replica metadata from the registry, partition, and syst
 
 ```mof
 uint32 ClearMetadataAll(
-  [in] string  ComputerName,
-  [in] boolean AllConfiguration,
-  [in] boolean AllLogs,
-  [in] boolean AllPartitions,
-  [in] boolean NoRestart
+  [in] string  ComputerName,
+  [in] boolean AllConfiguration,
+  [in] boolean AllLogs,
+  [in] boolean AllPartitions,
+  [in] boolean NoRestart
 );
 ```
 
@@ -80,7 +86,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -94,9 +100,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

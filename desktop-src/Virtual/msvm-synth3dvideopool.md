@@ -1,8 +1,10 @@
 ---
 title: Msvm\_Synth3dVideoPool class
 description: Contains information about the synthetic 3-D video graphics processing units (GPUs) available on the host system.
-ms.assetid: '5FFDAFA9-9669-4D8A-9EA6-C95F64B34DF4'
-keywords: ["Msvm_Synth3dVideoPool class Hyper-V", "Msvm_Synth3dVideoPool class Hyper-V , described"]
+ms.assetid: 5FFDAFA9-9669-4D8A-9EA6-C95F64B34DF4
+keywords:
+- Msvm_Synth3dVideoPool class Hyper-V
+- Msvm_Synth3dVideoPool class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Synth3dVideoPool class
@@ -45,26 +52,26 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_Synth3dVideoPool : CIM_ResourcePool
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   Status;
-  uint16   HealthState = 5;
-  string   InstanceID;
-  string   PoolID;
-  boolean  Primordial = FALSE;
-  uint64   Capacity;
-  uint64   Reserved;
-  uint16   ResourceType = 4;
-  string   ResourceSubType;
-  string   AllocationUnits;
-  string   ElementName;
-  string   StatusDescriptions[];
-  string   OtherResourceType;
-  string   PhysicalGPUList[];
-  boolean  Is3dVideoSupported;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   Status;
+  uint16   HealthState = 5;
+  string   InstanceID;
+  string   PoolID;
+  boolean  Primordial = FALSE;
+  uint64   Capacity;
+  uint64   Reserved;
+  uint16   ResourceType = 4;
+  string   ResourceSubType;
+  string   AllocationUnits;
+  string   ElementName;
+  string   StatusDescriptions[];
+  string   OtherResourceType;
+  string   PhysicalGPUList[];
+  boolean  Is3dVideoSupported;
 };
 ```
 
@@ -87,7 +94,7 @@ The **Msvm\_Synth3dVideoPool** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -408,9 +415,9 @@ Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) a
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                                           |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -423,9 +430,9 @@ Strings that describe the various [**OperationalStatus**](msvm-bioselement.md) a
 [**CIM\_ResourcePool**](cim-resourcepool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

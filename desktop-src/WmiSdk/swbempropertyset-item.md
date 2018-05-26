@@ -1,13 +1,16 @@
 ---
-Description: 'The Item method of the SWbemPropertySet object gets a named SWbemProperty from the collection. This is the default method for this object.'
+Description: The Item method of the SWbemPropertySet object gets a named SWbemProperty from the collection. This is the default method for this object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '72025676-01dd-4fd7-b000-de6b09ecc6dc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 72025676-01dd-4fd7-b000-de6b09ecc6dc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPropertySet.Item method'
+title: SWbemPropertySet.Item method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPropertySet.Item method
@@ -83,8 +86,8 @@ Not enough memory for this method to execute.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -93,9 +96,9 @@ Not enough memory for this method to execute.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

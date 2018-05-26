@@ -1,7 +1,7 @@
 ---
 title: STGM Constants
 description: Flags that indicate conditions for creating and deleting the object and access modes for the object.
-ms.assetid: '15a35da9-332a-46e1-9190-500c95e26f59'
+ms.assetid: 15a35da9-332a-46e1-9190-500c95e26f59
 topic_type:
 - apiref
 api_name:
@@ -27,15 +27,20 @@ api_location:
 - ObjBase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STGM Constants
 
-The STGM constants are flags that indicate conditions for creating and deleting the object and access modes for the object. The STGM constants are included in the [**IStorage**](istorage.md), [**IStream**](istream.md), and [**IPropertySetStorage**](ipropertysetstorage.md) interfaces and in the [**StgCreateDocfile**](stgcreatedocfile.md), [**StgCreateStorageEx**](stgcreatestorageex.md), [**StgCreateDocfileOnILockBytes**](stgcreatedocfileonilockbytes.md), [**StgOpenStorage**](stgopenstorage.md), and [**StgOpenStorageEx**](stgopenstorageex.md) functions.
+The STGM constants are flags that indicate conditions for creating and deleting the object and access modes for the object. The STGM constants are included in the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master), [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master), and [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interfaces and in the [**StgCreateDocfile**](/windows/win32/coml2api/nf-coml2api-stgcreatedocfile?branch=master), [**StgCreateStorageEx**](/windows/win32/coml2api/nf-coml2api-stgcreatestorageex?branch=master), [**StgCreateDocfileOnILockBytes**](/windows/win32/coml2api/nf-coml2api-stgcreatedocfileonilockbytes?branch=master), [**StgOpenStorage**](/windows/win32/coml2api/nf-coml2api-stgopenstorage?branch=master), and [**StgOpenStorageEx**](/windows/win32/coml2api/nf-coml2api-stgopenstorageex?branch=master) functions.
 
 These elements are often combined using an **OR**operator. They are interpreted in groups as listed in the following table. It is not valid to use more than one element from a single group.
 
-Use a flag from the creation group when creating an object, such as with [**StgCreateStorageEx**](stgcreatestorageex.md) or [**IStorage::CreateStream**](istorage-createstream.md).
+Use a flag from the creation group when creating an object, such as with [**StgCreateStorageEx**](/windows/win32/coml2api/nf-coml2api-stgcreatestorageex?branch=master) or [**IStorage::CreateStream**](/windows/win32/Objidl/nf-objidl-istorage-createstream?branch=master).
 
 For more information about transactioning, see the Remarks section.
 
@@ -44,27 +49,27 @@ For more information about transactioning, see the Remarks section.
 | Group                      | Flag                         | Value       |
 |----------------------------|------------------------------|-------------|
 | Access                     | **STGM\_READ**               | 0x00000000L |
-|                            | **STGM\_WRITE**              | 0x00000001L |
-|                            | **STGM\_READWRITE**          | 0x00000002L |
+|                            | **STGM\_WRITE**              | 0x00000001L |
+|                            | **STGM\_READWRITE**          | 0x00000002L |
 | Sharing                    | **STGM\_SHARE\_DENY\_NONE**  | 0x00000040L |
-|                            | **STGM\_SHARE\_DENY\_READ**  | 0x00000030L |
-|                            | **STGM\_SHARE\_DENY\_WRITE** | 0x00000020L |
-|                            | **STGM\_SHARE\_EXCLUSIVE**   | 0x00000010L |
-|                            | **STGM\_PRIORITY**           | 0x00040000L |
+|                            | **STGM\_SHARE\_DENY\_READ**  | 0x00000030L |
+|                            | **STGM\_SHARE\_DENY\_WRITE** | 0x00000020L |
+|                            | **STGM\_SHARE\_EXCLUSIVE**   | 0x00000010L |
+|                            | **STGM\_PRIORITY**           | 0x00040000L |
 | Creation                   | **STGM\_CREATE**             | 0x00001000L |
-|                            | **STGM\_CONVERT**            | 0x00020000L |
-|                            | **STGM\_FAILIFTHERE**        | 0x00000000L |
+|                            | **STGM\_CONVERT**            | 0x00020000L |
+|                            | **STGM\_FAILIFTHERE**        | 0x00000000L |
 | Transactioning             | **STGM\_DIRECT**             | 0x00000000L |
-|                            | **STGM\_TRANSACTED**         | 0x00010000L |
+|                            | **STGM\_TRANSACTED**         | 0x00010000L |
 | Transactioning Performance | **STGM\_NOSCRATCH**          | 0x00100000L |
-|                            | **STGM\_NOSNAPSHOT**         | 0x00200000L |
+|                            | **STGM\_NOSNAPSHOT**         | 0x00200000L |
 | Direct SWMR and Simple     | **STGM\_SIMPLE**             | 0x08000000L |
-|                            | **STGM\_DIRECT\_SWMR**       | 0x00400000L |
+|                            | **STGM\_DIRECT\_SWMR**       | 0x00400000L |
 | Delete On Release          | **STGM\_DELETEONRELEASE**    | 0x04000000L |
 
 
 
- 
+ 
 
 <dl> <dt>
 
@@ -76,7 +81,7 @@ For more information about transactioning, see the Remarks section.
 
 
 
-Indicates that the object is read-only, meaning that modifications cannot be made. For example, if a stream object is opened with **STGM\_READ**, the [**ISequentialStream::Read**](isequentialstream-read.md) method may be called, but the [**ISequentialStream::Write**](isequentialstream-write.md) method may not. Similarly, if a storage object opened with **STGM\_READ**, the [**IStorage::OpenStream**](istorage-openstream.md) and [**IStorage::OpenStorage**](istorage-openstorage.md) methods may be called, but the [**IStorage::CreateStream**](istorage-createstream.md) and [**IStorage::CreateStorage**](istorage-createstorage.md) methods may not.
+Indicates that the object is read-only, meaning that modifications cannot be made. For example, if a stream object is opened with **STGM\_READ**, the [**ISequentialStream::Read**](/windows/win32/Objidl/nf-objidl-isequentialstream-read?branch=master) method may be called, but the [**ISequentialStream::Write**](/windows/win32/Objidl/nf-objidl-isequentialstream-write?branch=master) method may not. Similarly, if a storage object opened with **STGM\_READ**, the [**IStorage::OpenStream**](/windows/win32/Objidl/nf-objidl-istorage-openstream?branch=master) and [**IStorage::OpenStorage**](/windows/win32/Objidl/nf-objidl-istorage-openstorage?branch=master) methods may be called, but the [**IStorage::CreateStream**](/windows/win32/Objidl/nf-objidl-istorage-createstream?branch=master) and [**IStorage::CreateStorage**](/windows/win32/Objidl/nf-objidl-istorage-createstorage?branch=master) methods may not.
 
 
 </dt> </dl> </dd> <dt>
@@ -89,7 +94,7 @@ Indicates that the object is read-only, meaning that modifications cannot be mad
 
 
 
-Enables you to save changes to the object, but does not permit access to its data. The provided implementations of the [**IPropertyStorage**](ipropertystorage.md) and [**IPropertySetStorage**](ipropertysetstorage.md) interfaces do not support this write-only mode.
+Enables you to save changes to the object, but does not permit access to its data. The provided implementations of the [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master) and [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interfaces do not support this write-only mode.
 
 
 </dt> </dl> </dd> <dt>
@@ -102,7 +107,7 @@ Enables you to save changes to the object, but does not permit access to its dat
 
 
 
-Enables access and modification of object data. For example, if a stream object is created or opened in this mode, it is possible to call both [**IStream::Read**](istream.md) and **IStream::Write**. Be aware that this constant is not a simple binary **OR** operation of the **STGM\_WRITE** and **STGM\_READ** elements.
+Enables access and modification of object data. For example, if a stream object is created or opened in this mode, it is possible to call both [**IStream::Read**](/windows/win32/Objidl/nn-objidl-istream?branch=master) and **IStream::Write**. Be aware that this constant is not a simple binary **OR** operation of the **STGM\_WRITE** and **STGM\_READ** elements.
 
 
 </dt> </dl> </dd> <dt>
@@ -167,7 +172,7 @@ Prevents others from subsequently opening the object in any mode. Be aware that 
 
 
 
-Opens the storage object with exclusive access to the most recently committed version. Thus, other users cannot commit changes to the object while you have it open in priority mode. You gain performance benefits for copy operations, but you prevent others from committing changes. Limit the time that objects are open in priority mode. You must specify **STGM\_DIRECT** and **STGM\_READ** with priority mode, and you cannot specify **STGM\_DELETEONRELEASE**. **STGM\_DELETEONRELEASE** is only valid when creating a root object, such as with [**StgCreateStorageEx**](stgcreatestorageex.md). It is not valid when opening an existing root object, such as with [**StgOpenStorageEx**](stgopenstorageex.md). It is also not valid when creating or opening a subelement, such as with [**IStorage::OpenStorage**](istorage-openstorage.md).
+Opens the storage object with exclusive access to the most recently committed version. Thus, other users cannot commit changes to the object while you have it open in priority mode. You gain performance benefits for copy operations, but you prevent others from committing changes. Limit the time that objects are open in priority mode. You must specify **STGM\_DIRECT** and **STGM\_READ** with priority mode, and you cannot specify **STGM\_DELETEONRELEASE**. **STGM\_DELETEONRELEASE** is only valid when creating a root object, such as with [**StgCreateStorageEx**](/windows/win32/coml2api/nf-coml2api-stgcreatestorageex?branch=master). It is not valid when opening an existing root object, such as with [**StgOpenStorageEx**](/windows/win32/coml2api/nf-coml2api-stgopenstorageex?branch=master). It is also not valid when creating or opening a subelement, such as with [**IStorage::OpenStorage**](/windows/win32/Objidl/nf-objidl-istorage-openstorage?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -188,7 +193,7 @@ This flag is used when attempting to create:
 -   An object inside a storage object, but an object with the specified name exists.
 -   A byte array object, but one with the specified name exists.
 
-This flag cannot be used with open operations, such as [**StgOpenStorageEx**](stgopenstorageex.md) or [**IStorage::OpenStream**](istorage-openstream.md).
+This flag cannot be used with open operations, such as [**StgOpenStorageEx**](/windows/win32/coml2api/nf-coml2api-stgopenstorageex?branch=master) or [**IStorage::OpenStream**](/windows/win32/Objidl/nf-objidl-istorage-openstream?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -201,7 +206,7 @@ This flag cannot be used with open operations, such as [**StgOpenStorageEx**](st
 
 
 
-Creates the new object while preserving existing data in a stream named "Contents". In the case of a storage object or a byte array, the old data is formatted into a stream regardless of whether the existing file or byte array currently contains a layered storage object. This flag can only be used when creating a root storage object. It cannot be used within a storage object; for example, in [**IStorage::CreateStream**](istorage-createstream.md). It is also not valid to use this flag and the **STGM\_DELETEONRELEASE** flag simultaneously.
+Creates the new object while preserving existing data in a stream named "Contents". In the case of a storage object or a byte array, the old data is formatted into a stream regardless of whether the existing file or byte array currently contains a layered storage object. This flag can only be used when creating a root storage object. It cannot be used within a storage object; for example, in [**IStorage::CreateStream**](/windows/win32/Objidl/nf-objidl-istorage-createstream?branch=master). It is also not valid to use this flag and the **STGM\_DELETEONRELEASE** flag simultaneously.
 
 
 </dt> </dl> </dd> <dt>
@@ -240,7 +245,7 @@ Indicates that, in direct mode, each change to a storage or stream element is wr
 
 
 
-Indicates that, in transacted mode, changes are buffered and written only if an explicit commit operation is called. To ignore the changes, call the [**Revert**](istream-revert.md) method in the [**IStream**](istream.md), [**IStorage**](istorage.md), or [**IPropertyStorage**](ipropertystorage.md) interface. The COM compound file implementation of **IStorage** does not support transacted streams, which means that streams can be opened only in direct mode, and you cannot revert changes to them, however transacted storages are supported. The compound file, stand-alone, and NTFS file system implementations of [**IPropertySetStorage**](ipropertysetstorage.md) similarly do not support transacted, simple property sets because these property sets are stored in streams. However, transactioning of nonsimple property sets, which can be created by specifying the **PROPSETFLAG\_NONSIMPLE** flag in the *grfFlags* parameter of [**IPropertySetStorage::Create**](ipropertysetstorage-create.md), are supported.
+Indicates that, in transacted mode, changes are buffered and written only if an explicit commit operation is called. To ignore the changes, call the [**Revert**](/windows/win32/Objidl/nf-objidl-istream-revert?branch=master) method in the [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master), [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master), or [**IPropertyStorage**](/windows/win32/Propidl/nn-propidl-ipropertystorage?branch=master) interface. The COM compound file implementation of **IStorage** does not support transacted streams, which means that streams can be opened only in direct mode, and you cannot revert changes to them, however transacted storages are supported. The compound file, stand-alone, and NTFS file system implementations of [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) similarly do not support transacted, simple property sets because these property sets are stored in streams. However, transactioning of nonsimple property sets, which can be created by specifying the **PROPSETFLAG\_NONSIMPLE** flag in the *grfFlags* parameter of [**IPropertySetStorage::Create**](/windows/win32/Propidl/nf-propidl-ipropertysetstorage-create?branch=master), are supported.
 
 
 </dt> </dl> </dd> <dt>
@@ -305,7 +310,7 @@ Supports direct mode for single-writer, multireader file operations. For more in
 
 
 
-Indicates that the underlying file is to be automatically destroyed when the root storage object is released. This feature is most useful for creating temporary files. This flag can only be used when creating a root object, such as with [**StgCreateStorageEx**](stgcreatestorageex.md). It is not valid when opening a root object, such as with [**StgOpenStorageEx**](stgopenstorageex.md), or when creating or opening a subelement, such as with [**IStorage::CreateStream**](istorage-createstream.md). It is also not valid to use this flag and the STGM\_CONVERT flag simultaneously.
+Indicates that the underlying file is to be automatically destroyed when the root storage object is released. This feature is most useful for creating temporary files. This flag can only be used when creating a root object, such as with [**StgCreateStorageEx**](/windows/win32/coml2api/nf-coml2api-stgcreatestorageex?branch=master). It is not valid when opening a root object, such as with [**StgOpenStorageEx**](/windows/win32/coml2api/nf-coml2api-stgopenstorageex?branch=master), or when creating or opening a subelement, such as with [**IStorage::CreateStream**](/windows/win32/Objidl/nf-objidl-istorage-createstream?branch=master). It is also not valid to use this flag and the STGM\_CONVERT flag simultaneously.
 
 
 </dt> </dl> </dd> </dl>
@@ -332,21 +337,21 @@ When the **STGM\_DIRECT**flag is specified, only one of the following combinatio
 
 Be aware that direct mode is implied by the absence of **STGM\_TRANSACTED**. That is, if neither **STGM\_DIRECT** nor **STGM\_TRANSACTED** is specified, **STGM\_DIRECT** is assumed.
 
-When the **STGM\_TRANSACTED** flag is specified, objects are created or opened in transacted mode. In this mode, changes to an object do not persist until they are committed. For example, changes to a transacted storage object are not persisted until the [**IStorage::Commit**](istorage-commit.md) method is called. Changes to such a storage object will be lost if the storage object is released (final release) before the **Commit** method is called, or if the [**IStorage::Revert**](istorage-revert.md) method is called.
+When the **STGM\_TRANSACTED** flag is specified, objects are created or opened in transacted mode. In this mode, changes to an object do not persist until they are committed. For example, changes to a transacted storage object are not persisted until the [**IStorage::Commit**](/windows/win32/Objidl/nf-objidl-istorage-commit?branch=master) method is called. Changes to such a storage object will be lost if the storage object is released (final release) before the **Commit** method is called, or if the [**IStorage::Revert**](/windows/win32/Objidl/nf-objidl-istorage-revert?branch=master) method is called.
 
 When an object is created or opened in transacted mode, the implementation must keep both the original data and updates to this data, so that updates can be reverted if necessary. This is typically performed by writing changes to a scratch area until they are committed, or by creating a copy, called a snapshot, of the most recently committed data.
 
-When a root storage object is opened in transacted mode, the location and behavior of the scratch data and the snapshot copies can be controlled to optimize performance with the **STGM\_NOSCRATCH** and **STGM\_NOSNAPSHOT** flags. (A root storage object is obtained from, for example, the [**StgOpenStorageEx**](stgopenstorageex.md) function; a storage object obtained from the [**IStorage::OpenStorage**](istorage-openstorage.md) method is a substorage object.) Typically, the scratch data and snapshots are stored in temporary files, separate from the storage.
+When a root storage object is opened in transacted mode, the location and behavior of the scratch data and the snapshot copies can be controlled to optimize performance with the **STGM\_NOSCRATCH** and **STGM\_NOSNAPSHOT** flags. (A root storage object is obtained from, for example, the [**StgOpenStorageEx**](/windows/win32/coml2api/nf-coml2api-stgopenstorageex?branch=master) function; a storage object obtained from the [**IStorage::OpenStorage**](/windows/win32/Objidl/nf-objidl-istorage-openstorage?branch=master) method is a substorage object.) Typically, the scratch data and snapshots are stored in temporary files, separate from the storage.
 
 The effect of these flags depends on the number of readers and/or writers accessing the root storage.
 
 In the "single-writer" case, a transacted mode storage object is opened for write access and there can be no other access to the file. That is, the file is opened with **STGM\_TRANSACTED**, access of **STGM\_WRITE** or **STGM\_READWRITE**, and sharing of **STGM\_SHARE\_EXCLUSIVE**. In this case, changes to the storage object are written to the scratch area. When those changes are committed, they are copied to the original storage. Therefore, if no changes are actually made to the storage object, there will be no unnecessary data transfer.
 
-In the "multiple-writer" case, a transacted storage object is opened for write access, but is shared in such asway as to allow other writers. That is, the storage object is opened with **STGM\_TRANSACTED**, access of **STGM\_WRITE** or **STGM\_READWRITE**, and sharing of **STGM\_SHARE\_DENY\_READ**. If sharing of **STGM\_SHARE\_DENY\_NONE** is specified instead, then the case is "multiple-writer, multiple-reader". In these cases, a snapshot of the original data will be made during the open operation. Therefore, even if no changes are actually made to the storage and/or it is not actually opened by another writer simultaneously, data transfer is still necessary during the open. As a result the best open-time performance can be obtained by opening the storage object in **STGM\_SHARE\_DENY\_WRITE** or **STGM\_SHARE\_EXCLUSIVE** modes. For more information about how changes are committed when there are multiple writers, see [**IStorage::Commit**](istorage-commit.md).
+In the "multiple-writer" case, a transacted storage object is opened for write access, but is shared in such asway as to allow other writers. That is, the storage object is opened with **STGM\_TRANSACTED**, access of **STGM\_WRITE** or **STGM\_READWRITE**, and sharing of **STGM\_SHARE\_DENY\_READ**. If sharing of **STGM\_SHARE\_DENY\_NONE** is specified instead, then the case is "multiple-writer, multiple-reader". In these cases, a snapshot of the original data will be made during the open operation. Therefore, even if no changes are actually made to the storage and/or it is not actually opened by another writer simultaneously, data transfer is still necessary during the open. As a result the best open-time performance can be obtained by opening the storage object in **STGM\_SHARE\_DENY\_WRITE** or **STGM\_SHARE\_EXCLUSIVE** modes. For more information about how changes are committed when there are multiple writers, see [**IStorage::Commit**](/windows/win32/Objidl/nf-objidl-istorage-commit?branch=master).
 
 In the "single-writer, multiple-reader" case, a transacted storage object is opened for write access, but is shared with readers. That is, the storage object is opened by the writer with **STGM\_TRANSACTED**, access of **STGM\_READWRITE** or **STGM\_WRITE**, and sharing of **STGM\_SHARE\_DENY\_WRITE**. The storage is opened by readers with **STGM\_TRANSACTED**, access of **STGM\_READ**, and sharing of **STGM\_SHARE\_DENY\_NONE**. In this case the writer uses the scratch area to store uncommitted changes. As in the cases above, the reader incurs an open-time performance penalty while a snapshot copy of the data is created.
 
-Typically, the scratch area is a temporary file, separate from the original data. When changes are committed to the original file, the data must be transferred from the temporary file. To avoid this data transfer, the **STGM\_NOSCRATCH**flag may be specified. When this flag is specified, portions of the storage object file are used for the scratch area, rather than a separate temporary file. As a result, committing changes can be performed quickly, because little data transfer is required. The disadvantage is that the storage file can become larger than it would otherwise be, because it must be grown to be large enough for both the original data and the scratch area. To consolidate the data and remove this unnecessary area, reopen the root storage in transacted mode, but without setting the **STGM\_NOSCRATCH** flag. Then, call [**IStorage::Commit**](istorage-commit.md) with the **STGC\_CONSOLIDATE** flag set.
+Typically, the scratch area is a temporary file, separate from the original data. When changes are committed to the original file, the data must be transferred from the temporary file. To avoid this data transfer, the **STGM\_NOSCRATCH**flag may be specified. When this flag is specified, portions of the storage object file are used for the scratch area, rather than a separate temporary file. As a result, committing changes can be performed quickly, because little data transfer is required. The disadvantage is that the storage file can become larger than it would otherwise be, because it must be grown to be large enough for both the original data and the scratch area. To consolidate the data and remove this unnecessary area, reopen the root storage in transacted mode, but without setting the **STGM\_NOSCRATCH** flag. Then, call [**IStorage::Commit**](/windows/win32/Objidl/nf-objidl-istorage-commit?branch=master) with the **STGC\_CONSOLIDATE** flag set.
 
 The snapshot area, like the scratch area, is also, typically, a temporary file, and this too can be affected with a STGM flag. By specifying the **STGM\_NOSNAPSHOT** flag, a separate temporary snapshot file is not created. Instead, the original data is never modified, even if there are one or more writers per object. When changes are committed, they are added to the file, but the original data remains intact. This mode increases efficiency because it reduces run time by eliminating the requirement of creating a snapshot during the open operation. However, using this mode may result in a very large storage file because data in the file can never be overwritten. This is no limit to the size of files opened in NoSnapshot mode.
 
@@ -362,7 +367,7 @@ and each of the readers opens the object with these flags:
 
 **STGM\_DIRECT\_SWMR** \| **STGM\_READ** \| **STGM\_SHARE\_DENY\_NONE**
 
-In this mode, to modify the storage object, the writer must get exclusive access to the object. This is possible when all the readers have closed it. The writer uses the [**IDirectWriterLock**](idirectwriterlock.md) interface to obtain this exclusive access.
+In this mode, to modify the storage object, the writer must get exclusive access to the object. This is possible when all the readers have closed it. The writer uses the [**IDirectWriterLock**](/windows/win32/Objidl/nn-objidl-idirectwriterlock?branch=master) interface to obtain this exclusive access.
 
 ### Simple Mode
 
@@ -370,21 +375,21 @@ Simple mode (**STGM\_SIMPLE**) is useful for applications that perform complete 
 
 -   No support exists for substorages.
 -   The storage object, and stream objects obtained from it, cannot be marshaled.
--   Each stream has a minimum size. If fewer than the minimum bytes are written into a stream when the stream is released, the stream is extended to the minimum size. For example, the minimum size for a particular [**IStream**](istream.md) implementation is 4 KB. A stream is created and 1 KB is written to it. At the final release of that **IStream**, the stream size will be automatically extended to 4 KB. Subsequently, opening the stream and calling the [**IStream::Stat**](istream-stat.md) method will show a size of 4 KB.
--   Not all methods of [**IStorage**](istorage.md) or [**IStream**](istream.md) will be supported by the implementation. For more information, see [IStorage - Compound File Implementation](istorage-compound-file-implementation.md), and [IStream - Compound File Implementation](istream-compound-file-implementation.md).
+-   Each stream has a minimum size. If fewer than the minimum bytes are written into a stream when the stream is released, the stream is extended to the minimum size. For example, the minimum size for a particular [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) implementation is 4 KB. A stream is created and 1 KB is written to it. At the final release of that **IStream**, the stream size will be automatically extended to 4 KB. Subsequently, opening the stream and calling the [**IStream::Stat**](/windows/win32/Objidl/nf-objidl-istream-stat?branch=master) method will show a size of 4 KB.
+-   Not all methods of [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) or [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) will be supported by the implementation. For more information, see [IStorage - Compound File Implementation](istorage-compound-file-implementation.md), and [IStream - Compound File Implementation](istream-compound-file-implementation.md).
 
 [Marshaling](https://msdn.microsoft.com/library/windows/desktop/aa367073) is the process of packaging, unpackaging, and sending interface method parameters across thread or process boundaries within a Remote Procedure Call (RPC). For more information, see [Marshaling Details](_com_marshaling_details) and [Interface Marshaling](_com_interface_marshaling).
 
 When a storage object is obtained by a Create operation in simple mode:
 
 -   Stream elements can be created, but not opened.
--   When a stream element is created by calling [**IStorage::CreateStream**](istorage-createstream.md), it is not possible to create another stream until that stream object is released.
--   After all streams are written, call [**IStorage::Commit**](istorage-commit.md) to flush the changes.
+-   When a stream element is created by calling [**IStorage::CreateStream**](/windows/win32/Objidl/nf-objidl-istorage-createstream?branch=master), it is not possible to create another stream until that stream object is released.
+-   After all streams are written, call [**IStorage::Commit**](/windows/win32/Objidl/nf-objidl-istorage-commit?branch=master) to flush the changes.
 
 When a storage object is obtained by an Open operation in simple mode:
 
 -   It is possible to open only one stream element at a time.
--   It is not possible to change the size of a stream by calling the [**IStream::SetSize**](istream-setsize.md) method or by seeking or writing beyond the end of the stream. However, because all streams are of a minimum size, it is possible to use the stream up to that size, even if less data was originally written to it. To determine the size of a stream, use the [**IStream::Stat**](istream-stat.md) method.
+-   It is not possible to change the size of a stream by calling the [**IStream::SetSize**](/windows/win32/Objidl/nf-objidl-istream-setsize?branch=master) method or by seeking or writing beyond the end of the stream. However, because all streams are of a minimum size, it is possible to use the stream up to that size, even if less data was originally written to it. To determine the size of a stream, use the [**IStream::Stat**](/windows/win32/Objidl/nf-objidl-istream-stat?branch=master) method.
 
 Be aware that, if a storage element is modified by a storage object that is not in simple mode, it will not be possible, again, to open that storage element in simple mode.
 
@@ -394,8 +399,8 @@ Be aware that, if a storage element is modified by a storage object that is not 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>ObjBase.h</dt> </dl> |
 
 
@@ -404,33 +409,33 @@ Be aware that, if a storage element is modified by a storage object that is not 
 
 <dl> <dt>
 
-[**ISequentialStream::Read**](isequentialstream-read.md)
+[**ISequentialStream::Read**](/windows/win32/Objidl/nf-objidl-isequentialstream-read?branch=master)
 </dt> <dt>
 
-[**IStorage**](istorage.md)
+[**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master)
 </dt> <dt>
 
-[**StgCreateDocfile**](stgcreatedocfile.md)
+[**StgCreateDocfile**](/windows/win32/coml2api/nf-coml2api-stgcreatedocfile?branch=master)
 </dt> <dt>
 
-[**StgCreateDocfileOnILockBytes**](stgcreatedocfileonilockbytes.md)
+[**StgCreateDocfileOnILockBytes**](/windows/win32/coml2api/nf-coml2api-stgcreatedocfileonilockbytes?branch=master)
 </dt> <dt>
 
-[**StgCreateStorageEx**](stgcreatestorageex.md)
+[**StgCreateStorageEx**](/windows/win32/coml2api/nf-coml2api-stgcreatestorageex?branch=master)
 </dt> <dt>
 
-[**StgOpenStorage**](stgopenstorage.md)
+[**StgOpenStorage**](/windows/win32/coml2api/nf-coml2api-stgopenstorage?branch=master)
 </dt> <dt>
 
-[**StgOpenStorageEx**](stgopenstorageex.md)
+[**StgOpenStorageEx**](/windows/win32/coml2api/nf-coml2api-stgopenstorageex?branch=master)
 </dt> <dt>
 
-[**StgOpenStorageOnILockBytes**](stgopenstorageonilockbytes.md)
+[**StgOpenStorageOnILockBytes**](/windows/win32/coml2api/nf-coml2api-stgopenstorageonilockbytes?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

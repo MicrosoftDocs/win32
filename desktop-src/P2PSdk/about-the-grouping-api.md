@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer Grouping API combines the technology of the PNRP Name Space Provider API and the Graphing API.'
-ms.assetid: '0a575efe-968c-48ab-a446-0d910ecb5708'
+Description: The Peer Grouping API combines the technology of the PNRP Name Space Provider API and the Graphing API.
+ms.assetid: 0a575efe-968c-48ab-a446-0d910ecb5708
 title: About the Grouping API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Grouping API

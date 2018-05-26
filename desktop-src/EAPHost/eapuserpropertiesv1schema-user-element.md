@@ -1,14 +1,20 @@
 ---
 title: User Element
 description: Is not used when using legacy methods via the EAPHost APIs.
-ms.assetid: 'd35fb4ba-5f48-431d-b2bf-738043f5d1ff'
-keywords: ["User element EAPHost"]
+ms.assetid: d35fb4ba-5f48-431d-b2bf-738043f5d1ff
+keywords:
+- User element EAPHost
 topic_type:
 - apiref
 api_name:
 - User
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Element
@@ -44,8 +50,8 @@ The **User** element is not used when using legacy methods via the EAPHost APIs.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -59,9 +65,9 @@ The **User** element is not used when using legacy methods via the EAPHost APIs.
 [eapuserpropertiesv1 Schema](eapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

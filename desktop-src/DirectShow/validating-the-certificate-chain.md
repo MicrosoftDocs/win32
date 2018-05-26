@@ -1,7 +1,12 @@
 ---
 Description: Validating the Certificate Chain
-ms.assetid: 'e0c36f04-1694-40d8-94a1-06ee7de08777'
+ms.assetid: e0c36f04-1694-40d8-94a1-06ee7de08777
 title: Validating the Certificate Chain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Validating the Certificate Chain

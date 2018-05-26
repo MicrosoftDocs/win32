@@ -1,8 +1,9 @@
 ---
 title: EN\_REQUESTRESIZE notification code
-description: Notifies a rich edit control's parent window that the control's contents are either smaller or larger than the control's window size. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '708c23b1-7b81-46f1-9595-46230693855d'
-keywords: ["EN_REQUESTRESIZE notification code Windows Controls"]
+description: Notifies a rich edit controls parent window that the controls contents are either smaller or larger than the controls window size. A rich edit control sends this notification code in the form of a WM\_NOTIFY message.
+ms.assetid: 708c23b1-7b81-46f1-9595-46230693855d
+keywords:
+- EN_REQUESTRESIZE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_REQUESTRESIZE notification code
@@ -33,7 +39,7 @@ EN_REQUESTRESIZE
 *lParam* 
 </dt> <dd>
 
-A [**REQRESIZE**](reqresize.md) structure that receives the requested size.
+A [**REQRESIZE**](/windows/win32/Richedit/ns-richedit-_reqresize?branch=master) structure that receives the requested size.
 
 </dd> </dl>
 
@@ -53,8 +59,8 @@ To receive EN\_REQUESTRESIZE notification codes, specify [**ENM\_REQUESTRESIZE**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -66,15 +72,15 @@ To receive EN\_REQUESTRESIZE notification codes, specify [**ENM\_REQUESTRESIZE**
 **Reference**
 </dt> <dt>
 
-[**REQRESIZE**](reqresize.md)
+[**REQRESIZE**](/windows/win32/Richedit/ns-richedit-_reqresize?branch=master)
 </dt> <dt>
 
 [**WM\_NOTIFY**](wm-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

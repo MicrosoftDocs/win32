@@ -1,8 +1,11 @@
 ---
 title: SetFriendlyName method of the MSFT\_VirtualDisk class
 description: Renames the virtual disk.
-ms.assetid: '2EE40577-65EE-478E-9C69-20E47D949AC5'
-keywords: ["SetFriendlyName method Windows Storage Management API", "SetFriendlyName method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , SetFriendlyName method"]
+ms.assetid: 2EE40577-65EE-478E-9C69-20E47D949AC5
+keywords:
+- SetFriendlyName method Windows Storage Management API
+- SetFriendlyName method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , SetFriendlyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetFriendlyName method of the MSFT\_VirtualDisk class
@@ -22,8 +30,8 @@ Renames the virtual disk.
 
 ```mof
 UInt32 SetFriendlyName(
-  [in]  String FriendlyName,
-  [out] String ExtendedStatus
+  [in]  String FriendlyName,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -103,8 +111,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -117,9 +125,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

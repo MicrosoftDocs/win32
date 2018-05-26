@@ -1,8 +1,11 @@
 ---
 title: SetReplicationRelationship method of the MSFT\_VirtualDisk class
 description: Sets the replication relationship between virtual disks.
-ms.assetid: 'FF87D964-498E-4413-BC33-CCC1E6A5AF0F'
-keywords: ["SetReplicationRelationship method Windows Storage Management API", "SetReplicationRelationship method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , SetReplicationRelationship method"]
+ms.assetid: FF87D964-498E-4413-BC33-CCC1E6A5AF0F
+keywords:
+- SetReplicationRelationship method Windows Storage Management API
+- SetReplicationRelationship method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , SetReplicationRelationship method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetReplicationRelationship method of the MSFT\_VirtualDisk class
@@ -22,10 +30,10 @@ Sets the replication relationship between virtual disks.
 
 ```mof
 UInt32 SetReplicationRelationship(
-  [in]  UInt16              Operation,
-  [in]  String              VirtualDiskReplicaPeer,
-  [out] MSFT_StorageJob REF CreatedStorageJob,
-  [out] String              ExtendedStatus
+  [in]  UInt16              Operation,
+  [in]  String              VirtualDiskReplicaPeer,
+  [out] MSFT_StorageJob REF CreatedStorageJob,
+  [out] String              ExtendedStatus
 );
 ```
 
@@ -177,8 +185,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -191,9 +199,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

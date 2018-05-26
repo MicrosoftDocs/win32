@@ -1,20 +1,25 @@
 ---
 title: Preferred-OU attribute
-description: The Organizational Unit to show by default on user' s desktop.
+description: The Organizational Unit to show by default on user s desktop.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e6f0d6df-0353-4626-8b1b-fa5f99f5ef58'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e6f0d6df-0353-4626-8b1b-fa5f99f5ef58
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Preferred-OU attribute AD Schema", "preferredOU attribute AD Schema"]
+keywords:
+- Preferred-OU attribute AD Schema
+- preferredOU attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Preferred-OU
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Preferred-OU attribute
@@ -38,12 +43,12 @@ The Organizational Unit to show by default on user' s desktop.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The Organizational Unit to show by default on user' s desktop.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

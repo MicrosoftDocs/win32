@@ -1,7 +1,12 @@
 ---
 title: mspeapuserpropertiesv1 Schema Elements
 description: Consists of the following schema elements.
-ms.assetid: '39a16a9c-6c04-4318-b347-3e1008e9a5c4'
+ms.assetid: 39a16a9c-6c04-4318-b347-3e1008e9a5c4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mspeapuserpropertiesv1 Schema Elements

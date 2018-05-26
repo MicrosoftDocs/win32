@@ -1,8 +1,14 @@
 ---
 title: Task Scheduler Reference
 description: This section describes the APIs, scripting objects, and XML schema that are provided by the Task Scheduler.
-ms.assetid: 'e3b5a1e1-4d18-44b7-aaa6-ebec11892bec'
-keywords: ["Task Scheduler Task Scheduler , reference"]
+ms.assetid: e3b5a1e1-4d18-44b7-aaa6-ebec11892bec
+keywords:
+- Task Scheduler Task Scheduler , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler Reference

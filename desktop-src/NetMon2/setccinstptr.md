@@ -1,7 +1,12 @@
 ---
-Description: 'The SetCCInstPtr function captures a context instance pointer.'
-ms.assetid: '31924608-4aa1-4801-a5de-d8de054e12d9'
+Description: The SetCCInstPtr function captures a context instance pointer.
+ms.assetid: 31924608-4aa1-4801-a5de-d8de054e12d9
 title: SetCCInstPtr function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetCCInstPtr function
@@ -13,7 +18,7 @@ The **SetCCInstPtr** function captures a context instance pointer.
 
 ```C++
 VOID WINAPI SetCCInstPtr(
-   LPVOID lpCurCaptureInst
+   LPVOID lpCurCaptureInst
 );
 ```
 
@@ -44,8 +49,8 @@ Use this function to store a pointer to a block that was allocated with the **CC
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -71,9 +76,9 @@ Use this function to store a pointer to a block that was allocated with the **CC
 [CCHeapSize](ccheapsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

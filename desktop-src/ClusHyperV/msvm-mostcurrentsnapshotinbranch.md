@@ -1,16 +1,18 @@
 ---
 title: Msvm\_MostCurrentSnapshotInBranch class
-description: Associates a virtual machine and the most current virtual machine snapshot in the virtual machine's branch of dependent snapshots.
+description: Associates a virtual machine and the most current virtual machine snapshot in the virtual machines branch of dependent snapshots.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2395cd84-e95c-494f-8f80-f320977f8a8f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2395cd84-e95c-494f-8f80-f320977f8a8f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_MostCurrentSnapshotInBranch class", "Msvm_MostCurrentSnapshotInBranch class, described"]
+keywords:
+- Msvm_MostCurrentSnapshotInBranch class
+- Msvm_MostCurrentSnapshotInBranch class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_MostCurrentSnapshotInBranch class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Experimental, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MostCurrentSnapshotInBranch : CIM_MostCurrentSnapshotInBranch
 {
-  CIM_ComputerSystem            REF Antecedent;
+  CIM_ComputerSystem            REF Antecedent;
   Msvm_VirtualSystemSettingData REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ A reference to the instance of the [**Msvm\_VirtualSystemSettingData**](msvm-vir
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ A reference to the instance of the [**Msvm\_VirtualSystemSettingData**](msvm-vir
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

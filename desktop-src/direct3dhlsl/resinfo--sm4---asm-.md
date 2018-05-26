@@ -1,7 +1,12 @@
 ---
 title: resinfo (sm4 - asm)
 description: Query the dimensions of a given input resource.
-ms.assetid: '5D549AC6-E0CB-4395-953C-5E5ECEEE234D'
+ms.assetid: 5D549AC6-E0CB-4395-953C-5E5ECEEE234D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # resinfo (sm4 - asm)
@@ -15,7 +20,7 @@ Query the dimensions of a given input resource.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Query the dimensions of a given input resource.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,7 +86,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -100,7 +105,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -109,9 +114,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

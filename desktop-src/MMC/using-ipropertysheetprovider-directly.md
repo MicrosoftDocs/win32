@@ -4,10 +4,13 @@ description: Allows snap-ins to display property sheets and wizards.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5371b7ab-a298-44d1-99f1-1cd8f188cb91'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5371b7ab-a298-44d1-99f1-1cd8f188cb91
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using IPropertySheetProvider Directly
@@ -32,7 +35,7 @@ Be aware that, regardless of whether or not a snap-in directly uses MMC's [**IPr
 
     -   If the wizard sheet is for a scope item, set *bScopePane* to **TRUE**. Otherwise, set this parameter to **FALSE**.
     -   If the snap-in should receive notifications via the [**MMCN\_PROPERTY\_CHANGE**](mmcn-property-change.md) notification when the user changes any wizard properties, set the *bCreateHandle* parameter to **TRUE**.
-    -   If *bCreateHandle* is set to **TRUE**, the snap-in object that exposes [**IExtendPropertySheet**](iextendpropertysheet.md) to MMC must also expose either [**IComponent**](icomponent.md) (if *bScopePane* == **FALSE**) or [**IComponentData**](icomponentdata.md) (if *bScopePane* == **TRUE**) and handle the [**MMCN\_PROPERTY\_CHANGE**](mmcn-property-change.md) notification in its [**IComponent::Notify**](icomponent-notify.md) (or [**IComponentData::Notify**](icomponentdata-notify.md)) implementation. The *lpUnknown* parameter should be a pointer to the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) of this object. Be aware that non-namespace extension snap-ins need only implement **IComponent::Notify** (or **IComponentData::Notify**). The implementations of all other **IComponent** (or **IComponentData**) methods can return **E\_NOTIMPL**.
+    -   If *bCreateHandle* is set to **TRUE**, the snap-in object that exposes [**IExtendPropertySheet**](iextendpropertysheet.md) to MMC must also expose either [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) (if *bScopePane* == **FALSE**) or [**IComponentData**](icomponentdata.md) (if *bScopePane* == **TRUE**) and handle the [**MMCN\_PROPERTY\_CHANGE**](mmcn-property-change.md) notification in its [**IComponent::Notify**](icomponent-notify.md) (or [**IComponentData::Notify**](icomponentdata-notify.md)) implementation. The *lpUnknown* parameter should be a pointer to the [**IUnknown**](https://msdn.microsoft.com/library/windows/desktop/ms680509) of this object. Be aware that non-namespace extension snap-ins need only implement **IComponent::Notify** (or **IComponentData::Notify**). The implementations of all other **IComponent** (or **IComponentData**) methods can return **E\_NOTIMPL**.
 
     In MMC's [**AddPrimaryPages**](ipropertysheetprovider-addprimarypages.md) implementation, MMC calls back to the snap-in's [**IExtendPropertySheet2::CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method.
 
@@ -43,12 +46,12 @@ Be aware that, regardless of whether or not a snap-in directly uses MMC's [**IPr
     In the implementation of [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md):
 
     -   If you set *bCreateHandle* to **TRUE** in the call to [**IPropertySheetProvider::AddPrimaryPages**](ipropertysheetprovider-addprimarypages.md) in Step 4., the handle parameter holds the handle value that the snap-in must specify in any future calls to [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md). The snap-in should cache this value for future use.
-    -   Define one or more wizard pages by filling the [**PROPSHEETPAGE**](propsheetpage.md) structure for each of the pages with information about the page. Be aware that the standard size for a property page in an MMC console is 252 dialog units horizontally and 218 dialog units vertically.
-    -   For each [**PROPSHEETPAGE**](propsheetpage.md) structure, call the API function [**CreatePropertySheetPage**](_win32_createpropertysheetpage_cpp) to create a page. The function returns a handle to the **HPROPSHEETPAGE** type that uniquely identifies the page.
+    -   Define one or more wizard pages by filling the [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure for each of the pages with information about the page. Be aware that the standard size for a property page in an MMC console is 252 dialog units horizontally and 218 dialog units vertically.
+    -   For each [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure, call the API function [**CreatePropertySheetPage**](_win32_createpropertysheetpage_cpp) to create a page. The function returns a handle to the **HPROPSHEETPAGE** type that uniquely identifies the page.
     -   Using the pointer to the [**IPropertySheetCallback**](ipropertysheetcallback.md) interface passed to the snap-in in the call to the [**CreatePropertyPages**](iextendpropertysheet2-createpropertypages.md) method, call the [**IPropertySheetCallback::AddPage**](ipropertysheetcallback-addpage.md) method to add each page to the wizard.
 
-8.  Implement a dialog box procedure for each page. The **pfnDlgProc** member of each page's [**PROPSHEETPAGE**](propsheetpage.md) structure should be set to the address of this procedure.
-9.  The snap-in should call the [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md) function if the user has changed any properties. As a result of this method call, an [**MMCN\_PROPERTY\_CHANGE**](mmcn-property-change.md) notification is sent to the appropriate [**IComponent**](icomponent.md) or [**IComponentData**](icomponentdata.md) object. The snap-in should be prepared to handle this notification.
+8.  Implement a dialog box procedure for each page. The **pfnDlgProc** member of each page's [**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master) structure should be set to the address of this procedure.
+9.  The snap-in should call the [**MMCPropertyChangeNotify**](mmcpropertychangenotify.md) function if the user has changed any properties. As a result of this method call, an [**MMCN\_PROPERTY\_CHANGE**](mmcn-property-change.md) notification is sent to the appropriate [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) or [**IComponentData**](icomponentdata.md) object. The snap-in should be prepared to handle this notification.
 
 ## Related topics
 

@@ -1,8 +1,23 @@
 ---
 title: Vector Markup Language (VML)
 description: Vector Markup Language (VML)
-ms.assetid: '1f30d60f-3d4f-43e4-9a2b-424a5ee8f852'
-keywords: ["Vector Markup Language (VML),about", "VML (Vector Markup Language),about", "vector graphics,about", "vector graphics,Vector Markup Language (VML)", "Vector Markup Language (VML),World Wide Web Consortium (W3C)", "VML (Vector Markup Language),World Wide Web Consortium (W3C)", "vector graphics,World Wide Web Consortium (W3C)", "vector graphics,VML benefits", "Vector Markup Language (VML),benefits", "VML (Vector Markup Language),benefits"]
+ms.assetid: 1f30d60f-3d4f-43e4-9a2b-424a5ee8f852
+keywords:
+- Vector Markup Language (VML),about
+- VML (Vector Markup Language),about
+- vector graphics,about
+- vector graphics,Vector Markup Language (VML)
+- Vector Markup Language (VML),World Wide Web Consortium (W3C)
+- VML (Vector Markup Language),World Wide Web Consortium (W3C)
+- vector graphics,World Wide Web Consortium (W3C)
+- vector graphics,VML benefits
+- Vector Markup Language (VML),benefits
+- VML (Vector Markup Language),benefits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector Markup Language (VML)

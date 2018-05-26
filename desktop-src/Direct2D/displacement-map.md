@@ -1,8 +1,14 @@
 ---
 title: Displacement map effect
 description: Use the displacement map effect to displace the pixels of the input image by the intensity values of a second input image.
-ms.assetid: '07AA64B1-B570-428E-924F-D7DF3E4DB3F8'
-keywords: ["displacement map effect"]
+ms.assetid: 07AA64B1-B570-428E-924F-D7DF3E4DB3F8
+keywords:
+- displacement map effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displacement map effect
@@ -30,7 +36,7 @@ The CLSID for this effect is CLSID\_D2D1DisplacementMap.
 
 
 
- 
+ 
 
 
 ```C++
@@ -57,7 +63,7 @@ The locations of the pixels in the output are determined using this formula:
 
 C' (x,y)=C(x+ scale\*(XChannelSelector(Displacement Bitmap (x,y))-0.5),y+ scale\*(YChannelSelector(Displacement Bitmap (x,y))-0.5))
 
-Where:<dl> *C’ (x, y)* is the output pixel at (x, y).  
+Where:<dl> *C  (x, y)* is the output pixel at (x, y).  
 *C (x, y)* is the input pixel at (x, y).  
 *Displacement Bitmap (x, y)* is the displacement pixel intensity at the specified coordinates  
 *XChannelSelector* the intensity of the selected RGBA channel from the displacement bitmap that displaces the input image in the X direction.  
@@ -80,7 +86,7 @@ This effect works on straight and premultiplied alpha images. The output alpha f
 
 
 
- 
+ 
 
 ## Color channels
 
@@ -95,7 +101,7 @@ This effect works on straight and premultiplied alpha images. The output alpha f
 
 
 
- 
+ 
 
 ## Output Bitmap
 
@@ -111,25 +117,25 @@ Output Bitmap<sub>y</sub> Pixels=(Input Bitmap Size<sub>y</sub>(DIPs) + Scale)\*
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

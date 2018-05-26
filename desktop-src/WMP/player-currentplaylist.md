@@ -1,8 +1,9 @@
 ---
 title: Player.currentPlaylist
 description: The currentPlaylist property specifies or retrieves the current Playlist object.
-ms.assetid: 'fabfb927-5f64-4fc4-8ee5-e2449082dfbc'
-keywords: ["Player.currentPlaylist Windows Media Player"]
+ms.assetid: fabfb927-5f64-4fc4-8ee5-e2449082dfbc
+keywords:
+- Player.currentPlaylist Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.currentPlaylist
@@ -82,9 +88,9 @@ document.write("Found first playlist. Name: " + Player.currentPlaylist.name);
 [**Settings.autoStart**](settings-autostart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

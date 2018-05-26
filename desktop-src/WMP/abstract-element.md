@@ -1,14 +1,20 @@
 ---
 title: ABSTRACT Element
 description: The ABSTRACT element contains text that describes the associated ASX, BANNER, or ENTRY element.
-ms.assetid: '7866fee8-1778-433a-be2f-9df0baa1c13e'
-keywords: ["ABSTRACT Element Windows Media Player"]
+ms.assetid: 7866fee8-1778-433a-be2f-9df0baa1c13e
+keywords:
+- ABSTRACT Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ABSTRACT Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ABSTRACT Element
@@ -37,7 +43,7 @@ This element has no attributes.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,9 +97,9 @@ Use only one **ABSTRACT** element per scope. Only the first **ABSTRACT** element
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

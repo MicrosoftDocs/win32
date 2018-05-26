@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_NTLogEvent&\#32;WMI class is used to translate instances from the Windows event log. An application must have SeSecurityPrivilege to receive events from the security event log, otherwise &\#0034;Access Denied&\#0034; is returned to the application.'
-ms.assetid: 'd2c96eef-3680-42f8-bdf1-f987a3e94257'
-title: 'Win32\_NTLogEvent class'
+Description: The Win32\_NTLogEvent&\#32;WMI class is used to translate instances from the Windows event log. An application must have SeSecurityPrivilege to receive events from the security event log, otherwise &\#0034;Access Denied&\#0034; is returned to the application.
+ms.assetid: d2c96eef-3680-42f8-bdf1-f987a3e94257
+title: Win32\_NTLogEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_NTLogEvent class
@@ -15,22 +20,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_NTLogEvent
 {
-  uint16   Category;
-  string   CategoryString;
-  string   ComputerName;
-  uint8    Data[];
-  uint16   EventCode;
-  uint32   EventIdentifier;
-  uint8    EventType;
-  string   InsertionStrings[];
-  string   Logfile;
-  string   Message;
-  uint32   RecordNumber;
-  string   SourceName;
+  uint16   Category;
+  string   CategoryString;
+  string   ComputerName;
+  uint8    Data[];
+  uint16   EventCode;
+  uint32   EventIdentifier;
+  uint8    EventType;
+  string   InsertionStrings[];
+  string   Logfile;
+  string   Message;
+  uint32   RecordNumber;
+  string   SourceName;
   datetime TimeGenerated;
   datetime TimeWritten;
-  string   Type;
-  string   User;
+  string   Type;
+  string   User;
 };
 ```
 
@@ -114,7 +119,7 @@ Value of the lower 16-bits of the **EventIdentifier** property. It is present to
 > [!Note]  
 > Two events from the same source may have the same value for this property but may have different severity and **EventIdentifier** values. For example, a successful logoff is recorded in the Security log with the Event ID 538. However, Event IDs are not necessarily unique. It is possible that, when retrieving Event ID 538, you can get other kinds of events with ID 538. If this happens, you might need to filter by the source as well as ID.
 
- 
+ 
 
 </dd> <dt>
 
@@ -154,7 +159,7 @@ Type of event.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -280,7 +285,7 @@ Type of event. This is an enumerated string. It is preferable to use the **Event
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -483,8 +488,8 @@ WScript.Echo "finished"
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -498,9 +503,9 @@ WScript.Echo "finished"
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

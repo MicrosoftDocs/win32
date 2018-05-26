@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_TapeDrive class represents a tape drive on the system. Tape drives are primarily distinguished in that they can only be accessed sequentially.'
+Description: The CIM\_TapeDrive class represents a tape drive on the system. Tape drives are primarily distinguished in that they can only be accessed sequentially.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8b7f2277-e37d-4597-81bb-d3c8d4966a81'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8b7f2277-e37d-4597-81bb-d3c8d4966a81
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_TapeDrive class'
+title: CIM\_TapeDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_TapeDrive class
@@ -19,7 +22,7 @@ The **CIM\_TapeDrive** class represents a tape drive on the system. Tape drives 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,38 +32,38 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C52D-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_TapeDrive : CIM_MediaAccessDevice
 {
-  uint16   Availability;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   Caption;
-  string   CompressionMethod;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint64   DefaultBlockSize;
-  string   Description;
-  string   DeviceID;
-  uint32   EOTWarningZoneSize;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
+  uint16   Availability;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   Caption;
+  string   CompressionMethod;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint64   DefaultBlockSize;
+  string   Description;
+  string   DeviceID;
+  uint32   EOTWarningZoneSize;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint64   MaxBlockSize;
-  uint64   MaxMediaSize;
-  uint32   MaxPartitionCount;
-  uint64   MinBlockSize;
-  string   Name;
-  boolean  NeedsCleaning;
-  uint32   NumberOfMediaSupported;
-  uint32   Padding;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  uint64   MaxBlockSize;
+  uint64   MaxMediaSize;
+  uint32   MaxPartitionCount;
+  uint64   MinBlockSize;
+  string   Name;
+  boolean  NeedsCleaning;
+  uint32   NumberOfMediaSupported;
+  uint32   Padding;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -84,7 +87,7 @@ The **CIM\_TapeDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1560,8 +1563,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1575,9 +1578,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

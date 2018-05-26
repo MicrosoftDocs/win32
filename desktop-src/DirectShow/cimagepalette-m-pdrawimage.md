@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_pDrawImage member variable is a pointer to the CDrawImage object that draws the video image.'
-ms.assetid: 'a3e65a50-eff7-4bbc-9692-70f7fb0966be'
-title: 'CImagePalette::m\_pDrawImage member'
+Description: The m\_pDrawImage member variable is a pointer to the CDrawImage object that draws the video image.
+ms.assetid: a3e65a50-eff7-4bbc-9692-70f7fb0966be
+title: CImagePalettem\_pDrawImage member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette::m\_pDrawImage member
@@ -35,9 +40,9 @@ CDrawImage *m_pDrawImage;
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

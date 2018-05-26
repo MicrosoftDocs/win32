@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains properties that represent a print job.'
-ms.assetid: '068E53EC-26B8-48E7-A605-081709C94043'
+---
+Description: Contains properties that represent a print job.
+ms.assetid: 068E53EC-26B8-48E7-A605-081709C94043
 title: IPrintJob interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintJob interface

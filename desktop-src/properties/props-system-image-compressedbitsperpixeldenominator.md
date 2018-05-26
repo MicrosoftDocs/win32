@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_Image\_CompressedBitsPerPixel.'
-ms.assetid: '70779e4b-3564-4df8-8861-3276ba90276c'
-title: 'System.Image.CompressedBitsPerPixelDenominator'
+Description: The denominator of PKEY\_Image\_CompressedBitsPerPixel.
+ms.assetid: 70779e4b-3564-4df8-8861-3276ba90276c
+title: System.Image.CompressedBitsPerPixelDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.CompressedBitsPerPixelDenominator

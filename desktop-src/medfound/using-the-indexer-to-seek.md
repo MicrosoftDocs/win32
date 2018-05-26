@@ -1,7 +1,12 @@
 ---
-Description: 'The ASF indexer is a WMContainer layer component that is used to read or write Index Objects in an Advanced Systems Format (ASF) file. This topic provides information about using the ASF indexer to seek within an ASF file.'
-ms.assetid: '9c501d33-847e-448e-a19c-39dfbc7757ca'
+Description: The ASF indexer is a WMContainer layer component that is used to read or write Index Objects in an Advanced Systems Format (ASF) file. This topic provides information about using the ASF indexer to seek within an ASF file.
+ms.assetid: 9c501d33-847e-448e-a19c-39dfbc7757ca
 title: Using the Indexer to Seek Within an ASF File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Indexer to Seek Within an ASF File
@@ -18,11 +23,11 @@ For information about the structure of an ASF file, see [ASF File Structure](asf
 
 To initialize the ASF indexer for seeking:
 
-1.  Call [**MFCreateASFIndexer**](mfcreateasfindexer.md) to create a new instance of the ASF indexer.
-2.  Call [**IMFASFIndexer::Initialize**](imfasfindexer-initialize.md) to initialize the indexer. This method gets information from the ASF header to determine which ASF streams are indexed. By default, the indexer object is configured for seeking.
-3.  Call [**IMFASFIndexer::GetIndexPosition**](imfasfindexer-getindexposition.md) to find the offset of the index within the ASF file.
-4.  Call the [**MFCreateASFIndexerByteStream**](mfcreateasfindexerbytestream.md) function to create a byte stream for reading the index. The input to this function is a pointer to a byte stream that contains the ASF file, and the offset of the index (from the previous step).
-5.  Call [**IMFASFIndexer::SetIndexByteStreams**](imfasfindexer-setindexbytestreams.md) to set the index byte stream on the indexer.
+1.  Call [**MFCreateASFIndexer**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfindexer?branch=master) to create a new instance of the ASF indexer.
+2.  Call [**IMFASFIndexer::Initialize**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-initialize?branch=master) to initialize the indexer. This method gets information from the ASF header to determine which ASF streams are indexed. By default, the indexer object is configured for seeking.
+3.  Call [**IMFASFIndexer::GetIndexPosition**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition?branch=master) to find the offset of the index within the ASF file.
+4.  Call the [**MFCreateASFIndexerByteStream**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfindexerbytestream?branch=master) function to create a byte stream for reading the index. The input to this function is a pointer to a byte stream that contains the ASF file, and the offset of the index (from the previous step).
+5.  Call [**IMFASFIndexer::SetIndexByteStreams**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-setindexbytestreams?branch=master) to set the index byte stream on the indexer.
 
 The following code shows these steps:
 
@@ -112,11 +117,11 @@ done:
 
 ## Getting the Seek Position.
 
-1.  To find out if a particular stream is indexed, call [**IMFASFIndexer::GetIndexStatus**](imfasfindexer-getindexstatus.md). If the stream is indexed, the *pfIsIndexed* parameter receives the value **TRUE**; otherwise it receives the value **FALSE**.
-2.  By default, the indexer uses forward seeking. For reverse seeking (that is, seeking from the end of the file), call [**IMFASFIndexer::SetFlags**](imfasfindexer-setflags.md) and set the **MFASF\_INDEXER\_READ\_FOR\_REVERSEPLAYBACK** flag. Otherwise, skip this step.
-3.  If the stream is indexed, get the seek position for a specified presentation time by calling [**IMFASFIndexer::GetSeekPositionForValue**](imfasfindexer-getseekpositionforvalue.md). This method reads the ASF index and finds the index entry that is closest to the requested time. The method returns the byte offset of the data packet specified by the index entry. The byte offset is relative to the start of the ASF Data Object.
+1.  To find out if a particular stream is indexed, call [**IMFASFIndexer::GetIndexStatus**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-getindexstatus?branch=master). If the stream is indexed, the *pfIsIndexed* parameter receives the value **TRUE**; otherwise it receives the value **FALSE**.
+2.  By default, the indexer uses forward seeking. For reverse seeking (that is, seeking from the end of the file), call [**IMFASFIndexer::SetFlags**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-setflags?branch=master) and set the **MFASF\_INDEXER\_READ\_FOR\_REVERSEPLAYBACK** flag. Otherwise, skip this step.
+3.  If the stream is indexed, get the seek position for a specified presentation time by calling [**IMFASFIndexer::GetSeekPositionForValue**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue?branch=master). This method reads the ASF index and finds the index entry that is closest to the requested time. The method returns the byte offset of the data packet specified by the index entry. The byte offset is relative to the start of the ASF Data Object.
 
-The [**GetSeekPositionForValue**](imfasfindexer-getseekpositionforvalue.md) method takes a pointer to the [**ASF\_INDEX\_IDENTIFIER**](asf-index-identifier.md) structure. This structure specifies an index type and a stream identifier. Currently, the index type must be GUID\_NULL, which specifies time-based indexing.
+The [**GetSeekPositionForValue**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue?branch=master) method takes a pointer to the [**ASF\_INDEX\_IDENTIFIER**](/windows/win32/wmcontainer/ns-wmcontainer-_asf_index_identifier?branch=master) structure. This structure specifies an index type and a stream identifier. Currently, the index type must be GUID\_NULL, which specifies time-based indexing.
 
 The following code gets a seek position, given a stream identifier and target presentation time. If the call succeeds, it returns the data offset in the *pcbDataOffset* parameter and the approximate actual seek time in *phnsApproxSeekTime*.
 

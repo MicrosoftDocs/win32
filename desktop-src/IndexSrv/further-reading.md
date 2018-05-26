@@ -1,7 +1,12 @@
 ---
 title: Further Reading
 description: Further Reading
-ms.assetid: '2fef3342-df44-4189-abd4-285216cf735b'
+ms.assetid: 2fef3342-df44-4189-abd4-285216cf735b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Further Reading

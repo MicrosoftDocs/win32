@@ -4,11 +4,16 @@ description: The process of backing up and restoring AD LDS is considerably more
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '39a48608-6f7d-49d5-b412-2e3649a545a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 39a48608-6f7d-49d5-b412-2e3649a545a6
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["backing up and restoring ADAM", "AD LDS examples ADAM , backing up and restoring"]
+keywords:
+- backing up and restoring ADAM
+- AD LDS examples ADAM , backing up and restoring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Backing Up and Restoring

@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo DVDDrives property
 description: The DVDDrives property contains an array of drive letters associated with host CD-ROM or DVD-ROM devices.
-ms.assetid: '0ee2136e-1b1e-46a9-bfad-9d9103d33d9c'
-keywords: ["DVDDrives property Virtual Server", "DVDDrives property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , DVDDrives property", "DVDDrives property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , DVDDrives property"]
+ms.assetid: 0ee2136e-1b1e-46a9-bfad-9d9103d33d9c
+keywords:
+- DVDDrives property Virtual Server
+- DVDDrives property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , DVDDrives property
+- DVDDrives property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , DVDDrives property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::DVDDrives property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DVDDrives(
-  [out] VARIANT *DVDDrives
+  [out] VARIANT *DVDDrives
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

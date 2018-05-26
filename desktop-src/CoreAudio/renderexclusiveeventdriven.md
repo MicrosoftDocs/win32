@@ -1,7 +1,12 @@
 ---
-Description: 'This sample application uses the Core Audio APIs to render audio data to an output device specified by the user.'
-ms.assetid: '3a2e3fa6-2d6a-4ab0-a531-d1c968458e96'
+Description: This sample application uses the Core Audio APIs to render audio data to an output device specified by the user.
+ms.assetid: 3a2e3fa6-2d6a-4ab0-a531-d1c968458e96
 title: RenderExclusiveEventDriven
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RenderExclusiveEventDriven
@@ -88,8 +93,8 @@ If the application is run without arguments, it enumerates the available devices
 
 The RenderExclusiveEventDriven sample demonstrates event-driven buffering. The sample shows how to:
 
--   Instantiate an audio client, configure it to run in exclusive mode, and enable event-driven buffering by setting the **AUDCLNT\_STREAMFLAGS\_EVENTCALLBACK** flag in the call to [**IAudioClient::Initialize**](iaudioclient-initialize.md).
--   Associate the client with the samples that are ready to be rendered by providing an event handle to the system by calling the [**IAudioClient::SetEventHandle**](iaudioclient-seteventhandle.md) method.
+-   Instantiate an audio client, configure it to run in exclusive mode, and enable event-driven buffering by setting the **AUDCLNT\_STREAMFLAGS\_EVENTCALLBACK** flag in the call to [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master).
+-   Associate the client with the samples that are ready to be rendered by providing an event handle to the system by calling the [**IAudioClient::SetEventHandle**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-seteventhandle?branch=master) method.
 -   Create a render thread to process samples from the audio engine.
 -   Align the buffers properly on a 128-byte boundary before sending them to the device. This is done by adjusting the periodicity of the engine.
 -   Check the mix format of the device endpoint to determine whether the samples can be rendered. If the device does not support the mix format, the data is converted to PCM.

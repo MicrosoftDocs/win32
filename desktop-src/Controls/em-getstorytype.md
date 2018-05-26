@@ -1,8 +1,9 @@
 ---
 title: EM\_GETSTORYTYPE message
 description: Gets the story type.
-ms.assetid: '06D87AA1-5AA3-4235-AC1D-045CE9975384'
-keywords: ["EM_GETSTORYTYPE message Windows Controls"]
+ms.assetid: 06D87AA1-5AA3-4235-AC1D-045CE9975384
+keywords:
+- EM_GETSTORYTYPE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETSTORYTYPE message
@@ -99,8 +105,8 @@ Returns the story type, which can be a client-defined custom value, or one of th
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -112,12 +118,12 @@ Returns the story type, which can be a client-defined custom value, or one of th
 [**EM\_SETSTORYTYPE**](em-setstorytype.md)
 </dt> <dt>
 
-[**ITextStoryRanges::Item**](itextstoryranges-item.md)
+[**ITextStoryRanges::Item**](/windows/win32/Tom/nf-tom-itextstoryranges-item?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

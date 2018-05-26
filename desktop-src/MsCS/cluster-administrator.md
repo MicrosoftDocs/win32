@@ -4,11 +4,16 @@ description: Administrators use cluster management applications to configure, co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d89c4b8-0554-4672-9e06-2ce7c5d15d5f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5d89c4b8-0554-4672-9e06-2ce7c5d15d5f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["administration interfaces Failover Cluster ,Failover Cluster Administrator", "Failover Cluster Administrator Failover Cluster"]
+keywords:
+- administration interfaces Failover Cluster ,Failover Cluster Administrator
+- Failover Cluster Administrator Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Administrator

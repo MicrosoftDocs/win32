@@ -4,11 +4,15 @@ description: Active Directory servers must be restored offline.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '91fbbdc1-0e84-4b89-8a38-4c8d0268992b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 91fbbdc1-0e84-4b89-8a38-4c8d0268992b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Restoring Active Directory Active Directory"]
+keywords:
+- Restoring Active Directory Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Restoring an Active Directory Server

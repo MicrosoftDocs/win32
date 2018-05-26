@@ -4,13 +4,16 @@ description: Requests a state change on the computer system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'da7a5c77-ce78-49b5-9f2e-28e394a84bf6'
-ms.prod: 'windows-server-dev'
+ms.assetid: da7a5c77-ce78-49b5-9f2e-28e394a84bf6
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RequestStateChange method", "RequestStateChange method, Msvm_ComputerSystem class", "Msvm_ComputerSystem class, RequestStateChange method"]
+keywords:
+- RequestStateChange method
+- RequestStateChange method, Msvm_ComputerSystem class
+- Msvm_ComputerSystem class, RequestStateChange method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestStateChange method of the Msvm\_ComputerSystem class
@@ -30,9 +36,9 @@ Requests a state change on the computer system.
 
 ```mof
 uint32 RequestStateChange(
-  [in]  uint16              RequestedState,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedState,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -119,14 +125,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>12–32767</dd> <dt>
+</dt> <dd>12 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> <dt>
+</dt> <dd>32768 65535</dd> </dl> </dd> <dt>
 
 *Job* \[out\]
 </dt> <dd>
@@ -272,7 +278,7 @@ Out of memory
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -286,9 +292,9 @@ Out of memory
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

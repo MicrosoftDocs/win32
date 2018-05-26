@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes a string property.'
-ms.assetid: '9B4EBCA4-8370-4F00-9853-6EE8408367BE'
-title: 'IPrinterScriptablePropertyBag::SetString method'
+---
+Description: Writes a string property.
+ms.assetid: 9B4EBCA4-8370-4F00-9853-6EE8408367BE
+title: IPrinterScriptablePropertyBagSetString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::SetString method

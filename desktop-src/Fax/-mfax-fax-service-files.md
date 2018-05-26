@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the header files that relate to the fax service.'
-ms.assetid: '324b931b-3d6e-4b30-94ac-f21b674d5e27'
+Description: This topic describes the header files that relate to the fax service.
+ms.assetid: 324b931b-3d6e-4b30-94ac-f21b674d5e27
 title: Fax Service Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Files

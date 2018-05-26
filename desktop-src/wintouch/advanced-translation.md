@@ -1,8 +1,19 @@
 ---
 title: Advanced Translation
 description: Advanced Translation
-ms.assetid: '48a1bdd5-8b7b-4460-9b7b-1ab8969a28f8'
-keywords: ["Windows Touch,translation", "Windows Touch,advanced translation", "Windows Touch,manipulations", "manipulations,translation", "manipulations,advanced translation", "translation"]
+ms.assetid: 48a1bdd5-8b7b-4460-9b7b-1ab8969a28f8
+keywords:
+- Windows Touch,translation
+- Windows Touch,advanced translation
+- Windows Touch,manipulations
+- manipulations,translation
+- manipulations,advanced translation
+- translation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Translation
@@ -17,7 +28,7 @@ In example A, the simple translation example, the object is moved without rotati
 
 As the object is moved, the radius is recalculated and the pivot point is moved.
 
-The following code shows one way that you can do this in an implementation of [**ManipulationDelta**](-imanipulationevents-manipulationdelta.md) that enables complex translation.
+The following code shows one way that you can do this in an implementation of [**ManipulationDelta**](/windows/win32/manipulations/nf-manipulations-_imanipulationevents-manipulationdelta?branch=master) that enables complex translation.
 
 
 ```C++

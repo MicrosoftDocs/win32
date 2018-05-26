@@ -4,11 +4,15 @@ description: Microsoft Windows Installer (MSI) provides the ability to load a sn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fd9748c9-c153-4bf9-951f-e80e8c76bd6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fd9748c9-c153-4bf9-951f-e80e8c76bd6e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Microsoft Windows Installer integration MMC"]
+keywords:
+- Microsoft Windows Installer integration MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Microsoft Windows Installer Integration

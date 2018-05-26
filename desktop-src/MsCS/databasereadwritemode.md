@@ -4,17 +4,21 @@ description: Specifies the read/write mode for the cluster database.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E001D255-4E59-44C4-A98A-083B8ACBF630'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: E001D255-4E59-44C4-A98A-083B8ACBF630
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DatabaseReadWriteMode Failover Cluster"]
+keywords:
+- DatabaseReadWriteMode Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DatabaseReadWriteMode
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DatabaseReadWriteMode
@@ -27,14 +31,14 @@ Specifies the read/write mode for the cluster database.
 |----------------------|-------------------------------------------|
 | Data type<br/> | **DWORD**                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum<br/>   | 0<br/>                              |
 | Maximum<br/>   | 2<br/>                              |
 | Default<br/>   | 0<br/>                              |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +56,7 @@ The possible values are:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,7 +65,7 @@ The possible values are:
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
 
 
 
@@ -72,9 +76,9 @@ The possible values are:
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

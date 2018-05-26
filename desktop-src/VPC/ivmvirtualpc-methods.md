@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualPC Methods
 description: The IVMVirtualPC interface exposes the following methods.
-ms.assetid: '3098D0ED-B16F-4CA1-A76B-83B4988CB6B3'
+ms.assetid: 3098D0ED-B16F-4CA1-A76B-83B4988CB6B3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC Methods

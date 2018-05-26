@@ -1,7 +1,12 @@
 ---
 Description: Rate Control
-ms.assetid: '509b2cc8-6017-41a9-ae80-9af21dce9367'
+ms.assetid: 509b2cc8-6017-41a9-ae80-9af21dce9367
 title: Rate Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rate Control

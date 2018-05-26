@@ -1,7 +1,12 @@
 ---
 title: VML IVgVector2D Data Type
 description: VML IVgVector2D Data Type
-ms.assetid: 'e4455d07-53f6-4d35-a70f-dbf969b32c26'
+ms.assetid: e4455d07-53f6-4d35-a70f-dbf969b32c26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML IVgVector2D Data Type

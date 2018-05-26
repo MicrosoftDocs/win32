@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '81597594-eab2-4992-8d09-7409fba247fe'
-title: 'System.RecordedTV.IsClosedCaptioningAvailable'
+Description: .
+ms.assetid: 81597594-eab2-4992-8d09-7409fba247fe
+title: System.RecordedTV.IsClosedCaptioningAvailable
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.IsClosedCaptioningAvailable

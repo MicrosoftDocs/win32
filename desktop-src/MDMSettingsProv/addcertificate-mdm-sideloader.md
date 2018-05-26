@@ -1,8 +1,11 @@
 ---
 title: AddCertificate method of the MDM\_SideLoader class
 description: Adds the package-signing certificate.
-ms.assetid: '397096e8-d7a9-442b-b1f0-d0ec08d1699e'
-keywords: ["AddCertificate method MDM Settings", "AddCertificate method MDM Settings , MDM_SideLoader class", "MDM_SideLoader class MDM Settings , AddCertificate method"]
+ms.assetid: 397096e8-d7a9-442b-b1f0-d0ec08d1699e
+keywords:
+- AddCertificate method MDM Settings
+- AddCertificate method MDM Settings , MDM_SideLoader class
+- MDM_SideLoader class MDM Settings , AddCertificate method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddCertificate method of the MDM\_SideLoader class
@@ -22,7 +30,7 @@ Adds the package-signing certificate.
 
 ```mof
 uint32 AddCertificate(
-  [in] string CertificateBlob
+  [in] string CertificateBlob
 );
 ```
 
@@ -45,7 +53,7 @@ The certificate in Base64-encoded format.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | Header<br/>                   | <dl> <dt>Certenroll.h</dt> </dl>        |
@@ -61,9 +69,9 @@ The certificate in Base64-encoded format.
 [**MDM\_SideLoader**](https://msdn.microsoft.com/library/dn610395)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

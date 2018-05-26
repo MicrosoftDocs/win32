@@ -4,13 +4,16 @@ description: Creates a new key protector.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BCE05C92-D382-4ADD-B816-26A8907A3375'
-ms.prod: 'windows-server-dev'
+ms.assetid: BCE05C92-D382-4ADD-B816-26A8907A3375
+ms.prod: windows-server-dev
 ms.technology:
-- 'host-guardian-service'
-- 'windows-management-instrumentation'
+- host-guardian-service
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewByGuardians method", "NewByGuardians method, MSFT_HgsKeyProtector interface", "MSFT_HgsKeyProtector interface, NewByGuardians method"]
+keywords:
+- NewByGuardians method
+- NewByGuardians method, MSFT_HgsKeyProtector interface
+- MSFT_HgsKeyProtector interface, NewByGuardians method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - HgsClientWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewByGuardians method of the MSFT\_HgsKeyProtector class
@@ -30,11 +36,11 @@ Creates a new key protector.
 
 ```mof
 uint32 NewByGuardians(
-  [in]  boolean              AllowUntrustedRoot,
-  [in]  boolean              AllowExpired,
-  [in]  MSFT_HgsGuardian     Owner,
-  [in]  MSFT_HgsGuardian     Guardian[],
-  [out] MSFT_HgsKeyProtector cmdletOutput
+  [in]  boolean              AllowUntrustedRoot,
+  [in]  boolean              AllowExpired,
+  [in]  MSFT_HgsGuardian     Owner,
+  [in]  MSFT_HgsGuardian     Guardian[],
+  [out] MSFT_HgsKeyProtector cmdletOutput
 );
 ```
 
@@ -85,8 +91,8 @@ Returns an embedded instance of a [**MSFT\_HgsKeyProtector**](msft-hgskeyprotect
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Hgs<br/>                                                    |
 | MOF<br/>                      | <dl> <dt>HgsClientWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>HgsClientWmi.dll</dt> </dl> |
@@ -100,9 +106,9 @@ Returns an embedded instance of a [**MSFT\_HgsKeyProtector**](msft-hgskeyprotect
 [**MSFT\_HgsKeyProtector**](msft-hgskeyprotector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

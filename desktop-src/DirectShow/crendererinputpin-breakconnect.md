@@ -1,7 +1,12 @@
 ---
-Description: 'The BreakConnect method releases the pin from a connection. This method overrides the CBaseInputPin::BreakConnect method.'
-ms.assetid: '47bfd666-4ef2-4978-a4f8-a83647dd782d'
-title: 'CRendererInputPin.BreakConnect method'
+Description: The BreakConnect method releases the pin from a connection. This method overrides the CBaseInputPinBreakConnect method.
+ms.assetid: 47bfd666-4ef2-4978-a4f8-a83647dd782d
+title: CRendererInputPin.BreakConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.BreakConnect method
@@ -43,9 +48,9 @@ Returns an **HRESULT** value.
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

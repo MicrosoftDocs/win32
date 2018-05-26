@@ -1,7 +1,12 @@
-﻿---
-Description: 'Multiplication operators.'
-ms.assetid: 'f8397999-9956-4d11-8705-c95b788a9f03'
-title: 'operator \* operators'
+---
+Description: Multiplication operators.
+ms.assetid: f8397999-9956-4d11-8705-c95b788a9f03
+title: operator \* operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator \* operators

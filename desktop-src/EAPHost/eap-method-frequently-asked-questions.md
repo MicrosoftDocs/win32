@@ -1,7 +1,12 @@
 ---
 title: EAP Method Frequently Asked Questions
 description: Provides answers to commonly-asked programming questions about EAP method authoring.
-ms.assetid: '244e048f-4cc0-4094-a2b9-0f84674a293c'
+ms.assetid: 244e048f-4cc0-4094-a2b9-0f84674a293c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Method Frequently Asked Questions
@@ -69,7 +74,7 @@ This topic provides answers to commonly-asked programming questions about EAP me
 <td>The EAP-FAST scenario works as follows. <br/>
 <ul>
 <li>The method processes a password change at single-sign-on (SSO) employing the method UI.</li>
-<li>The method returns the [<strong>eatCredentialsChanged</strong>](eap-attribute-type.md) attribute.</li>
+<li>The method returns the [<strong>eatCredentialsChanged</strong>](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_attribute_type?branch=master) attribute.</li>
 <li>The supplicant indicates to the user that credentials have changed and requests the user to re-enter their credentials.</li>
 <li>The supplicant re-enters the user credentials, and sends those credentials to the method.</li>
 </ul>
@@ -77,7 +82,7 @@ For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tu
 </tr>
 <tr class="even">
 <td>What is Pre-Shared Key(PSK)?</td>
-<td>A method of transmitting and receiving digital signals in which the phase of a transmitted signal is varied to convey information. The [<strong>EAPConfigInputPSK</strong>](eap-config-input-field-type.md) input field contains the user's EAP-FAST PSK.</td>
+<td>A method of transmitting and receiving digital signals in which the phase of a transmitted signal is varied to convey information. The [<strong>EAPConfigInputPSK</strong>](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_config_input_field_type?branch=master) input field contains the user's EAP-FAST PSK.</td>
 </tr>
 <tr class="odd">
 <td>What is WOW and how does it matter to EAPHost?</td>
@@ -85,31 +90,31 @@ For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tu
 </tr>
 <tr class="even">
 <td>What are &quot;action codes&quot; and under what conditions are these action codes returned?</td>
-<td>&quot;Action codes&quot; allow methods to control the flow of authentication, and are integral to the state machine. They are values returned by an EAP method to indicate the next action the EAPHost should take. For example, an action code could indicate to EAPHost that the EAP method has a packet ready for transmission. The supplicant abides by all action codes returned by an EAP method, but never issues action codes.For more information, see [EAP Peer Supplicant Action Codes](eaphostpeerresponseaction.md).<br/></td>
+<td>&quot;Action codes&quot; allow methods to control the flow of authentication, and are integral to the state machine. They are values returned by an EAP method to indicate the next action the EAPHost should take. For example, an action code could indicate to EAPHost that the EAP method has a packet ready for transmission. The supplicant abides by all action codes returned by an EAP method, but never issues action codes.For more information, see [EAP Peer Supplicant Action Codes](/windows/previous-versions/eaphostpeertypes/ne-eaphostpeertypes-tageaphostpeerresponseaction?branch=master).<br/></td>
 </tr>
 <tr class="odd">
-<td>When does a method return [<strong>EapPeerMethodResponseActionDiscard</strong>](eappeermethodresponseaction.md), and what does this action code mean to EAPHost?</td>
-<td>[<strong>EapPeerMethodResponseActionDiscard</strong>](eappeermethodresponseaction.md) is returned by an EAP method to indicate to the EAPHost that it must discard the packet it supplied to the method. Specifically, the method has determined that the packet is invalid. EAPHost then waits for the next package.</td>
+<td>When does a method return [<strong>EapPeerMethodResponseActionDiscard</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master), and what does this action code mean to EAPHost?</td>
+<td>[<strong>EapPeerMethodResponseActionDiscard</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) is returned by an EAP method to indicate to the EAPHost that it must discard the packet it supplied to the method. Specifically, the method has determined that the packet is invalid. EAPHost then waits for the next package.</td>
 </tr>
 <tr class="even">
-<td>When does a method return [<strong>EapPeerMethodResponseActionSend</strong>](eappeermethodresponseaction.md) and what does this action code mean to EAPHost?</td>
-<td>[<strong>EapPeerMethodResponseActionSend</strong>](eappeermethodresponseaction.md) is returned by an EAP method to indicate to EAPHost that the next packet received by EAPHost must be sent to the network access server (NAS).</td>
+<td>When does a method return [<strong>EapPeerMethodResponseActionSend</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) and what does this action code mean to EAPHost?</td>
+<td>[<strong>EapPeerMethodResponseActionSend</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) is returned by an EAP method to indicate to EAPHost that the next packet received by EAPHost must be sent to the network access server (NAS).</td>
 </tr>
 <tr class="odd">
-<td>When does a method return [<strong>EapPeerMethodResponseActionResult</strong>](eappeermethodresponseaction.md) and what does this action code mean to EAPHost?</td>
-<td>[<strong>EapPeerMethodResponseActionResult</strong>](eappeermethodresponseaction.md) is returned by an EAP method to indicate to the EAPHost that the authentication session has concluded and that the results of that session are available.</td>
+<td>When does a method return [<strong>EapPeerMethodResponseActionResult</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) and what does this action code mean to EAPHost?</td>
+<td>[<strong>EapPeerMethodResponseActionResult</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) is returned by an EAP method to indicate to the EAPHost that the authentication session has concluded and that the results of that session are available.</td>
 </tr>
 <tr class="even">
-<td>When does a method return [<strong>EapPeerMethodResponseActionInvokeUI</strong>](eappeermethodresponseaction.md) and what does this action code mean to EAPHost?</td>
-<td>[<strong>EapPeerMethodResponseActionInvokeUI</strong>](eappeermethodresponseaction.md) is returned by an EAP method to indicate to EAPHost that user input is required to continue with authentication, and that a user interface dialog box must be displayed to obtain that input. Once the user input data has been obtained, EAPHost can call the EAP method again with the updated UI context data.</td>
+<td>When does a method return [<strong>EapPeerMethodResponseActionInvokeUI</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) and what does this action code mean to EAPHost?</td>
+<td>[<strong>EapPeerMethodResponseActionInvokeUI</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) is returned by an EAP method to indicate to EAPHost that user input is required to continue with authentication, and that a user interface dialog box must be displayed to obtain that input. Once the user input data has been obtained, EAPHost can call the EAP method again with the updated UI context data.</td>
 </tr>
 <tr class="odd">
-<td>When does a method return [<strong>EapPeerMethodResponseActionRespond</strong>](eappeermethodresponseaction.md) and what does this action code mean to EAPHost?</td>
-<td>[<strong>EapPeerMethodResponseActionRespond</strong>](eappeermethodresponseaction.md) is returned by an EAP method to indicate to EAPHost that the EAP method has attributes available for EAPHost to use during authentication. EAPHost obtains the attributes by calling the [<strong>EapPeerGetResponseAttributes</strong>](eappeergetresponseattributes.md) method followed by a call to the [<strong>EapPeerSetResponseAttributes</strong>](eappeersetresponseattributes.md) method.</td>
+<td>When does a method return [<strong>EapPeerMethodResponseActionRespond</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) and what does this action code mean to EAPHost?</td>
+<td>[<strong>EapPeerMethodResponseActionRespond</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) is returned by an EAP method to indicate to EAPHost that the EAP method has attributes available for EAPHost to use during authentication. EAPHost obtains the attributes by calling the [<strong>EapPeerGetResponseAttributes</strong>](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetresponseattributes?branch=master) method followed by a call to the [<strong>EapPeerSetResponseAttributes</strong>](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetresponseattributes?branch=master) method.</td>
 </tr>
 <tr class="even">
-<td>When does a method return [<strong>EapPeerMethodResponseActionNone</strong>](eappeermethodresponseaction.md) and what does this action code mean to EAPHost?</td>
-<td>[<strong>EapPeerMethodResponseActionNone</strong>](eappeermethodresponseaction.md) is returned by an EAP method to indicate to EAPHost that no action is required at this time.</td>
+<td>When does a method return [<strong>EapPeerMethodResponseActionNone</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) and what does this action code mean to EAPHost?</td>
+<td>[<strong>EapPeerMethodResponseActionNone</strong>](/windows/previous-versions/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-tageappeermethodresponseaction?branch=master) is returned by an EAP method to indicate to EAPHost that no action is required at this time.</td>
 </tr>
 <tr class="odd">
 <td>Can I enable tracing on the authenticator side?</td>
@@ -120,7 +125,7 @@ For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tu
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -138,9 +143,9 @@ For more information on EAP-FAST, see [EAP Flexible Authentication via Secure Tu
 [EAPHost Development FAQs](eaphost-development-frequently-asked-questions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

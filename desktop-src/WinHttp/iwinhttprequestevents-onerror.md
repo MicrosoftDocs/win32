@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when there is a run-time error in the application.'
-ms.assetid: 'd99400a4-3661-4162-bfd6-8c2a27e0f328'
-title: 'IWinHttpRequestEvents::OnError event'
+Description: Occurs when there is a run-time error in the application.
+ms.assetid: d99400a4-3661-4162-bfd6-8c2a27e0f328
+title: IWinHttpRequestEventsOnError event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequestEvents::OnError event
@@ -13,8 +18,8 @@ The **OnError** event occurs when there is a run-time error in the application.
 
 ```C++
 void OnError(
-  [in] long ErrorNumber,
-  [in] BSTR ErrorDescription
+  [in] long ErrorNumber,
+  [in] BSTR ErrorDescription
 );
 ```
 
@@ -45,9 +50,9 @@ This event does not return a value.
 ## Remarks
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Requirements
 
@@ -55,9 +60,9 @@ This event does not return a value.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 
 
@@ -75,9 +80,9 @@ This event does not return a value.
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

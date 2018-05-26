@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Record object is a container for holding and transferring a variable number of values.'
-ms.assetid: 'e832c19f-61a6-4e42-a10a-b7bb1705af59'
+---
+Description: The Record object is a container for holding and transferring a variable number of values.
+ms.assetid: e832c19f-61a6-4e42-a10a-b7bb1705af59
 title: Record object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record object

@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.allowItemEditing
 description: The allowItemEditing attribute specifies or retrieves a value indicating whether items in a playlist will support in-place editing.
-ms.assetid: 'fc6120d9-0424-4c42-8aa9-ba4bbbd580fe'
-keywords: ["PLAYLIST.allowItemEditing Windows Media Player"]
+ms.assetid: fc6120d9-0424-4c42-8aa9-ba4bbbd580fe
+keywords:
+- PLAYLIST.allowItemEditing Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.allowItemEditing
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.allowItemEditing
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read/write **Boolean**.
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

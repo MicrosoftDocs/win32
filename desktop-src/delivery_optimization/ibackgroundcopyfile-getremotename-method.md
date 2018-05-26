@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyFile GetRemoteName method
 description: Retrieves the remote name of the file.
-ms.assetid: '518857E0-C16A-400B-8F3D-5264B3CB43FF'
-keywords: ["GetRemoteName method", "GetRemoteName method, IBackgroundCopyFile interface", "IBackgroundCopyFile interface, GetRemoteName method"]
+ms.assetid: 518857E0-C16A-400B-8F3D-5264B3CB43FF
+keywords:
+- GetRemoteName method
+- GetRemoteName method, IBackgroundCopyFile interface
+- IBackgroundCopyFile interface, GetRemoteName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile::GetRemoteName method
@@ -22,7 +30,7 @@ Retrieves the remote name of the file.
 
 ```C++
 HRESULT GetRemoteName(
-  [out] LPWSTR *ppName
+  [out] LPWSTR *ppName
 );
 ```
 
@@ -53,7 +61,7 @@ To change the remote file name, call the [**IBackgroundCopyFile2::SetRemoteName*
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -73,9 +81,9 @@ To change the remote file name, call the [**IBackgroundCopyFile2::SetRemoteName*
 [**IBackgroundCopyFile::GetLocalName**](ibackgroundcopyfile-getlocalname-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

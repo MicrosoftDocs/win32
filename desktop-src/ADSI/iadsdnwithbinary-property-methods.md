@@ -4,11 +4,12 @@ description: The property method of the IADsDNWithBinary interface sets the prop
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3e9ceabb-7a38-4a63-ab62-240ff521e373'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3e9ceabb-7a38-4a63-ab62-240ff521e373
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsDNWithBinary Property Methods ADSI"]
+keywords:
+- IADsDNWithBinary Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -23,11 +24,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsDNWithBinary Property Methods
 
-The property method of the [**IADsDNWithBinary**](iadsdnwithbinary.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsDNWithBinary**](/windows/win32/Iads/nn-iads-iadsdnwithbinary?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -89,7 +93,7 @@ HRESULT put_DNString(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -97,8 +101,8 @@ HRESULT put_DNString(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsDNWithBinary is defined as 7E99C0A2-F935-11D2-BA96-00C04FB6D0D1<br/>     |
@@ -109,15 +113,15 @@ HRESULT put_DNString(
 
 <dl> <dt>
 
-[**IADsDNWithBinary**](iadsdnwithbinary.md)
+[**IADsDNWithBinary**](/windows/win32/Iads/nn-iads-iadsdnwithbinary?branch=master)
 </dt> <dt>
 
-[**ADS\_DN\_WITH\_BINARY**](ads-dn-with-binary.md)
+[**ADS\_DN\_WITH\_BINARY**](/windows/win32/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0015?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

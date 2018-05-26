@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '1e4331b3-3553-4e98-a914-2ac4e934eacf'
+ms.assetid: 1e4331b3-3553-4e98-a914-2ac4e934eacf
 title: Microsoft Accessibility Technical Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Accessibility Technical Support

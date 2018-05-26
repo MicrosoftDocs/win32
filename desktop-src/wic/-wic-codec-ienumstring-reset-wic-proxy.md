@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Imaging Component (WIC) proxy function for IEnumString::Reset.'
-ms.assetid: '084a3de0-c6de-4ce2-ba78-5d1bacb56cb0'
-title: 'IEnumString\_Reset\_WIC\_Proxy function'
+Description: Windows Imaging Component (WIC) proxy function for IEnumStringReset.
+ms.assetid: 084a3de0-c6de-4ce2-ba78-5d1bacb56cb0
+title: IEnumString\_Reset\_WIC\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumString\_Reset\_WIC\_Proxy function
@@ -13,10 +18,10 @@ Windows Imaging Component (WIC) proxy function for IEnumString::Reset.
 
 ```C++
 HRESULT IEnumString_Reset_WIC_Proxy(
-  _In_  IEnumString *THIS_PTR,
-  _In_  ULONG       celt,
-  _Out_ LPOLESTR    *rgelt,
-  _Out_ ULONG       *pceltFetched
+  _In_  IEnumString *THIS_PTR,
+  _In_  ULONG       celt,
+  _Out_ LPOLESTR    *rgelt,
+  _Out_ ULONG       *pceltFetched
 );
 ```
 
@@ -70,15 +75,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

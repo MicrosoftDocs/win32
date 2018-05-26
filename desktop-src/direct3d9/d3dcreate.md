@@ -1,7 +1,12 @@
-﻿---
-Description: 'A combination of one or more flags that control the device create behavior.'
-ms.assetid: '91387a2d-3927-4285-a09b-9ce247e6bfdd'
+---
+Description: A combination of one or more flags that control the device create behavior.
+ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCREATE
@@ -22,7 +27,7 @@ A combination of one or more flags that control the device create behavior.
 </tr>
 <tr class="even">
 <td>D3DCREATE_ADAPTERGROUP_DEVICE</td>
-<td>Application asks the device to drive all the heads that this master adapter owns. The flag is illegal on nonmaster adapters. If this flag is set, the presentation parameters passed to [<strong>CreateDevice</strong>](idirect3d9--createdevice.md) should point to an array of [<strong>D3DPRESENT_PARAMETERS</strong>](d3dpresent-parameters.md). The number of elements in <strong>D3DPRESENT_PARAMETERS</strong> should equal the number of adapters defined by the NumberOfAdaptersInGroup member of the [<strong>D3DCAPS9</strong>](d3dcaps9.md) structure. The DirectX runtime will assign each element to each head in the numerical order specified by the AdapterOrdinalInGroup member of <strong>D3DCAPS9</strong>.</td>
+<td>Application asks the device to drive all the heads that this master adapter owns. The flag is illegal on nonmaster adapters. If this flag is set, the presentation parameters passed to [<strong>CreateDevice</strong>](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master) should point to an array of [<strong>D3DPRESENT_PARAMETERS</strong>](d3dpresent-parameters.md). The number of elements in <strong>D3DPRESENT_PARAMETERS</strong> should equal the number of adapters defined by the NumberOfAdaptersInGroup member of the [<strong>D3DCAPS9</strong>](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure. The DirectX runtime will assign each element to each head in the numerical order specified by the AdapterOrdinalInGroup member of <strong>D3DCAPS9</strong>.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_DISABLE_DRIVER_MANAGEMENT</td>
@@ -60,7 +65,7 @@ A combination of one or more flags that control the device create behavior.
 </tr>
 <tr class="odd">
 <td>D3DCREATE_ENABLE_PRESENTSTATS</td>
-<td>Enables the gathering of present statistics on the device. Calls to [<strong>GetPresentStatistics</strong>](idirect3dswapchain9-getpresentstatistics.md) will return valid data. 
+<td>Enables the gathering of present statistics on the device. Calls to [<strong>GetPresentStatistics</strong>](/windows/win32/d3d9/?branch=master) will return valid data. 
 <table>
 <tbody>
 <tr class="odd">
@@ -141,7 +146,7 @@ If this flag is set, the application must fully support all focus management eve
 
  
 
-D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](idirect3d9--createdevice.md).
+D3DCREATE\_HARDWARE\_VERTEXPROCESSING, D3DCREATE\_MIXED\_VERTEXPROCESSING, and D3DCREATE\_SOFTWARE\_VERTEXPROCESSING are mutually exclusive flags. At least one of these vertex processing flags must be specified when calling [**CreateDevice**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-createdevice?branch=master).
 
 ## Constant Information
 

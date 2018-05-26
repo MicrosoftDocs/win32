@@ -1,8 +1,14 @@
 ---
 title: Requirements for Online Music Stores
 description: Requirements for Online Music Stores
-ms.assetid: '0595e7e0-6da9-4caa-a305-cfedd81e217e'
-keywords: ["Windows Media Player Online Stores"]
+ms.assetid: 0595e7e0-6da9-4caa-a305-cfedd81e217e
+keywords:
+- Windows Media Player Online Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requirements for Online Music Stores

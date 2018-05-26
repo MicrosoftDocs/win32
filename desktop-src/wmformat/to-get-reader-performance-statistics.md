@@ -1,8 +1,22 @@
 ---
 title: To Get Reader Performance Statistics
 description: To Get Reader Performance Statistics
-ms.assetid: '996abfe6-1444-48ab-8c34-ba923c4cd511'
-keywords: ["Advanced Systems Format (ASF),reader performance statistics", "ASF (Advanced Systems Format),reader performance statistics", "Advanced Systems Format (ASF),asynchronous readers", "ASF (Advanced Systems Format),asynchronous readers", "Advanced Systems Format (ASF),performance statistics", "ASF (Advanced Systems Format),performance statistics", "asynchronous readers,performance statistics", "performance,reader statistics", "performance,asynchronous readers"]
+ms.assetid: 996abfe6-1444-48ab-8c34-ba923c4cd511
+keywords:
+- Advanced Systems Format (ASF),reader performance statistics
+- ASF (Advanced Systems Format),reader performance statistics
+- Advanced Systems Format (ASF),asynchronous readers
+- ASF (Advanced Systems Format),asynchronous readers
+- Advanced Systems Format (ASF),performance statistics
+- ASF (Advanced Systems Format),performance statistics
+- asynchronous readers,performance statistics
+- performance,reader statistics
+- performance,asynchronous readers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Get Reader Performance Statistics
@@ -19,9 +33,9 @@ The performance information you can retrieve from the reader includes the follow
 
 To get reader performance statistics, perform the following steps.
 
-1.  Before starting playback, create a [**WM\_READER\_STATISTICS**](wm-reader-statistics.md) structure. You must set the **cbSize** member to sizeof(WM\_READER\_STATISTICS).
-2.  Obtain a pointer to the [**IWMReaderAdvanced**](iwmreaderadvanced.md) interface of the reader object by calling **IWMReader::QueryInterface**.
-3.  During playback, make calls to [**IWMReaderAdvanced::GetStatistics**](iwmreaderadvanced-getstatistics.md) frequently to monitor performance. Pass your **WM\_READER\_STATISTICS** structure with each call and examine the appropriate members.
+1.  Before starting playback, create a [**WM\_READER\_STATISTICS**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmreaderstatistics?branch=master) structure. You must set the **cbSize** member to sizeof(WM\_READER\_STATISTICS).
+2.  Obtain a pointer to the [**IWMReaderAdvanced**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced?branch=master) interface of the reader object by calling **IWMReader::QueryInterface**.
+3.  During playback, make calls to [**IWMReaderAdvanced::GetStatistics**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics?branch=master) frequently to monitor performance. Pass your **WM\_READER\_STATISTICS** structure with each call and examine the appropriate members.
 
 ## Related topics
 

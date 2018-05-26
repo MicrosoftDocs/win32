@@ -1,14 +1,20 @@
 ---
 title: UserEffectiveRating Attribute
 description: The UserEffectiveRating attribute is the rating computed by Windows Media Player based on how often the item has been played.
-ms.assetid: '6a420e20-f61d-4e15-84f8-a738caabd1d7'
-keywords: ["UserEffectiveRating Attribute Windows Media Player"]
+ms.assetid: 6a420e20-f61d-4e15-84f8-a738caabd1d7
+keywords:
+- UserEffectiveRating Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserEffectiveRating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserEffectiveRating Attribute
@@ -39,7 +45,7 @@ User ratings are represented by integer values, as described in the following ta
 
 
 
- 
+ 
 
 This attribute is stored only in the library.
 
@@ -62,9 +68,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

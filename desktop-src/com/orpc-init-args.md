@@ -1,8 +1,10 @@
 ---
 title: ORPC\_INIT\_ARGS structure
 description: The ORPC\_INIT\_ARGS structure contains information used to initialize remote debugging using the IOrpcDebugNotify interface.
-ms.assetid: 'be7646c7-3394-45ae-ae8f-9cee68bbc789'
-keywords: ["ORPC_INIT_ARGS structure COM", "LPORPC_INIT_ARGS structure pointer COM"]
+ms.assetid: be7646c7-3394-45ae-ae8f-9cee68bbc789
+keywords:
+- ORPC_INIT_ARGS structure COM
+- LPORPC_INIT_ARGS structure pointer COM
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - N/A
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORPC\_INIT\_ARGS structure
@@ -23,9 +30,9 @@ The **ORPC\_INIT\_ARGS** structure contains information used to initialize remot
 ```C++
 typedef struct ORPC_INIT_ARGS {
   IOrpcDebugNotify *lpIntfOrpcDebug;
-  void             *pvPSN;
-  DWORD            *dwReserved1;
-  DWORD            *dwReserved2;
+  void             *pvPSN;
+  DWORD            *dwReserved1;
+  DWORD            *dwReserved2;
 } ORPC_INIT_ARGS, *LPORPC_INIT_ARGS;
 ```
 
@@ -69,8 +76,8 @@ Reserved. Must be 0.
 
 |                                     |                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
 | Header<br/>                   | <dl> <dt>N/A</dt> </dl> |
 
 
@@ -91,9 +98,9 @@ Reserved. Must be 0.
 [**IOrpcDebugNotify**](iorpcdebugnotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

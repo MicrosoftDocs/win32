@@ -1,8 +1,16 @@
 ---
 title: HttpPurchaseOrderWithKerberosOverSslClientExample
 description: This example shows a HTTP client that uses service proxy to talk to a PurchaseOrder service, with kerberos over SSL mixed-mode security.
-ms.assetid: '6756043c-ef4c-4fa6-a27b-7ecb900601f9'
-keywords: ["HttpPurchaseOrderWithKerberosOverSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 6756043c-ef4c-4fa6-a27b-7ecb900601f9
+keywords:
+- HttpPurchaseOrderWithKerberosOverSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpPurchaseOrderWithKerberosOverSslClientExample

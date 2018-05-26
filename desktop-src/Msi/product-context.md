@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Context property returns the context of this product.'
-ms.assetid: 'aa772a95-eb4e-45af-9788-9833d62139e8'
-title: 'Product.Context property'
+---
+Description: The Context property returns the context of this product.
+ms.assetid: aa772a95-eb4e-45af-9788-9833d62139e8
+title: Product.Context property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.Context property

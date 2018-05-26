@@ -1,14 +1,20 @@
 ---
 title: clip
 description: Discards the current pixel if the specified value is less than zero.
-ms.assetid: 'c9f84a27-5572-45aa-a12f-4446614b7be5'
-keywords: ["clip HLSL"]
+ms.assetid: c9f84a27-5572-45aa-a12f-4446614b7be5
+keywords:
+- clip HLSL
 topic_type:
 - apiref
 api_name:
 - clip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # clip
@@ -22,7 +28,7 @@ Discards the current pixel if the specified value is less than zero.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Discards the current pixel if the specified value is less than zero.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -63,7 +69,7 @@ clip( Input.Color.A < 0.1f ? -1:1 );
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -80,7 +86,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -89,9 +95,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

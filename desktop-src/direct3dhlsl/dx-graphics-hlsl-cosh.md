@@ -1,14 +1,20 @@
 ---
 title: cosh
 description: Returns the hyperbolic cosine of the specified value.
-ms.assetid: 'ed68c461-de91-4ce4-a424-8ab28ee43f23'
-keywords: ["cosh HLSL"]
+ms.assetid: ed68c461-de91-4ce4-a424-8ab28ee43f23
+keywords:
+- cosh HLSL
 topic_type:
 - apiref
 api_name:
 - cosh
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cosh
@@ -22,7 +28,7 @@ Returns the hyperbolic cosine of the specified value.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the hyperbolic cosine of the specified value.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The hyperbolic cosine of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

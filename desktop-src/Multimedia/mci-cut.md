@@ -1,8 +1,9 @@
 ---
 title: MCI\_CUT command
 description: The MCI\_CUT command removes data from the file and copies it to the clipboard. Digital-video devices recognize this command.
-ms.assetid: '09bb505b-715a-4393-80f0-e9ba270a8ac1'
-keywords: ["MCI_CUT command Windows Multimedia"]
+ms.assetid: 09bb505b-715a-4393-80f0-e9ba270a8ac1
+keywords:
+- MCI_CUT command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_CUT command
 
 The MCI\_CUT command removes data from the file and copies it to the clipboard. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -52,7 +58,7 @@ MCI\_NOTIFY, MCI\_WAIT, or MCI\_TEST. For information about these flags, see [Th
 <span id="lpCut"></span><span id="lpcut"></span><span id="LPCUT"></span>*lpCut*
 </dt> <dd>
 
-Pointer to an [**MCI\_DGV\_CUT\_PARMS**](mci-dgv-cut-parms.md) structure.
+Pointer to an [**MCI\_DGV\_CUT\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_cut_parms?branch=master) structure.
 
 </dd> </dl>
 
@@ -107,8 +113,8 @@ An ending location is included in the **dwTo** member of the structure identifie
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -123,9 +129,9 @@ An ending location is included in the **dwTo** member of the structure identifie
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

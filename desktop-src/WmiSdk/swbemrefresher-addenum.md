@@ -1,13 +1,16 @@
 ---
-Description: 'Adds a new enumerator to the SWbemRefresher object. This enumerator is for all the instances of the class that is specified in the strClass parameter.'
+Description: Adds a new enumerator to the SWbemRefresher object. This enumerator is for all the instances of the class that is specified in the strClass parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0fa22a47-4050-43ae-aad3-3a8ebbf5e9b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0fa22a47-4050-43ae-aad3-3a8ebbf5e9b2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemRefresher.AddEnum method'
+title: SWbemRefresher.AddEnum method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemRefresher.AddEnum method
@@ -72,8 +75,8 @@ If the call is successful, an [**SWbemRefreshableItem**](swbemrefreshableitem.md
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -89,9 +92,9 @@ If the call is successful, an [**SWbemRefreshableItem**](swbemrefreshableitem.md
 [**SWbemRefresher**](swbemrefresher.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

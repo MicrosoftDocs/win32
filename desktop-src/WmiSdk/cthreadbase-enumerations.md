@@ -1,27 +1,30 @@
 ---
-Description: 'The CThreadBase class has the following enumerations.'
+Description: The CThreadBase class has the following enumerations.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '214DF754-5BE9-4F6A-A969-3C763946F75A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 214DF754-5BE9-4F6A-A969-3C763946F75A
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CThreadBase Enumerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CThreadBase Enumerations
 
-The [**CThreadBase**](cthreadbase.md) class has the following enumerations.
+The [**CThreadBase**](/windows/win32/ThrdBase/nl-thrdbase-cthreadbase?branch=master) class has the following enumerations.
 
 ## In this section
 
 <dl> <dt>
 
-[**FlagDefs**](flagdefs.md)
+[**FlagDefs**](/windows/win32/Provider/?branch=master)
 </dt> <dd>
 
-Specifies which flags are valid for the specified type of operation. This enumeration is used by the [**Provider::ValidateFlags**](provider-validateflags.md) method.
+Specifies which flags are valid for the specified type of operation. This enumeration is used by the [**Provider::ValidateFlags**](/windows/win32/Provider/nf-provider-provider-validateflags?branch=master) method.
 
 </dd> </dl>
 
@@ -29,7 +32,7 @@ Specifies which flags are valid for the specified type of operation. This enumer
 
 <dl> <dt>
 
-[**CThreadBase**](cthreadbase.md)
+[**CThreadBase**](/windows/win32/ThrdBase/nl-thrdbase-cthreadbase?branch=master)
 </dt> </dl>
 
  

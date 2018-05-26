@@ -1,12 +1,17 @@
-﻿---
-Description: 'The SourceListForceResolution method clears the last used source property.'
-ms.assetid: '9ecfdf6e-4fed-46fc-8956-85d20cbe5327'
-title: 'Patch.SourceListForceResolution method'
+---
+Description: The SourceListForceResolution method clears the last used source property.
+ms.assetid: 9ecfdf6e-4fed-46fc-8956-85d20cbe5327
+title: Patch.SourceListForceResolution method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.SourceListForceResolution method
 
-The **SourceListForceResolution** method clears the last used source property. This forces the installer to search the source list for a valid patch source the next time the patch source is required. For example, the installer requires the patch source to perform an installation or reinstallation when the local cache copy of the patch is missing. This method calls [**MsiSourceListForceResolution**](msisourcelistforceresolution.md).
+The **SourceListForceResolution** method clears the last used source property. This forces the installer to search the source list for a valid patch source the next time the patch source is required. For example, the installer requires the patch source to perform an installation or reinstallation when the local cache copy of the patch is missing. This method calls [**MsiSourceListForceResolution**](/windows/win32/Msi/nf-msi-msisourcelistforceresolutiona?branch=master).
 
 ## Syntax
 
@@ -44,7 +49,7 @@ This method does not return a value.
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListForceResolution**](msisourcelistforceresolution.md)
+[**MsiSourceListForceResolution**](/windows/win32/Msi/nf-msi-msisourcelistforceresolutiona?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

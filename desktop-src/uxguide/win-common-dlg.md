@@ -1,7 +1,12 @@
 ---
 title: Common Dialogs
 description: The Microsoft Windows common dialogs consist of the Open File, Save File, Open Folder, Find and Replace, Print, Page Setup, Font, and Color dialog boxes.
-ms.assetid: '3f9fb0c9-bc1a-48c4-b021-99f155f8ea9e'
+ms.assetid: 3f9fb0c9-bc1a-48c4-b021-99f155f8ea9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Common Dialogs
@@ -110,7 +115,7 @@ For Windows Vista, the Open File and Save File have a new extensible architectur
 
 
 
- 
+ 
 
 -   You can use more specific commands, as appropriate. Example: for exporting a file, use the command Export file instead of Save as.
 -   Set the dialog box title to reflect the command that launched it. Example: If Save File is launched from an Export file command, rename the dialog box to Export File.
@@ -170,9 +175,9 @@ For Windows Vista, the Open File and Save File have a new extensible architectur
     -   **Example:** For a typical document-based application, it's helpful to use persistent Open File and Save File settings within a program instance and across consecutive instances, but keep concurrent instances independent. That way, users can work efficiently with several documents at a time.
 -   Make the settings persist on a per-program, per-user basis.
 
- 
+ 
 
- 
+ 
 
 
 

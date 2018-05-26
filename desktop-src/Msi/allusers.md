@@ -1,7 +1,12 @@
 ---
-Description: 'The ALLUSERS property configures the installation context of the package.'
-ms.assetid: '942e7764-a80f-4880-9559-72174f1827f7'
+Description: The ALLUSERS property configures the installation context of the package.
+ms.assetid: 942e7764-a80f-4880-9559-72174f1827f7
 title: ALLUSERS property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALLUSERS property
@@ -14,11 +19,11 @@ The value of the **ALLUSERS** property, at installation time, determines the [in
 -   An **ALLUSERS** property value of an empty string ("") specifies the per-user installation context.
 -   If the value of the **ALLUSERS** property is set to 2, the Windows Installer always resets the value of the **ALLUSERS** property to 1 and performs a per-machine installation or it resets the value of the **ALLUSERS** property to an empty string ("") and performs a per-user installation. The value ALLUSERS=2 enables the system to reset the value of **ALLUSERS**, and the installation context, dependent upon the user's privileges and the version of Windows.
 
-    **Windows 7:** Set the **ALLUSERS** property to 2 to use the [**MSIINSTALLPERUSER**](msiinstallperuser.md) property to specify the installation context. Set the **MSIINSTALLPERUSER** property to an empty string ("") for a per-machine installation. Set the **MSIINSTALLPERUSER** property to 1 for a per-user installation. If the package has been written following the development guidelines described in [Single Package Authoring](single-package-authoring.md), users having user access can install into the per-user context without having to provide UAC credentials. If the user has user access privileges, the installer performs a per-machine installation only if Admin credentials are provided to the UAC dialog box.
+    **Windows 7:** Set the **ALLUSERS** property to 2 to use the [**MSIINSTALLPERUSER**](msiinstallperuser.md) property to specify the installation context. Set the **MSIINSTALLPERUSER** property to an empty string ("") for a per-machine installation. Set the **MSIINSTALLPERUSER** property to 1 for a per-user installation. If the package has been written following the development guidelines described in [Single Package Authoring](single-package-authoring.md), users having user access can install into the per-user context without having to provide UAC credentials. If the user has user access privileges, the installer performs a per-machine installation only if Admin credentials are provided to the UAC dialog box.
 
-    **Windows Vista:** Set the **ALLUSERS** property to 2 and Windows Installer complies with [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC). If the user has user access privileges, and ALLUSERS=2, the installer performs a per-machine installation only if Admin credentials are provided to the UAC dialog box. If UAC is enabled and the correct Admin credentials are not provided, the installation fails with an error stating that administrator privileges are required. If UAC is disabled by the registry key, group policy, or the control panel, the UAC dialog box is not displayed and the installation fails with an error stating that administrator privileges are required.
+    **Windows Vista:** Set the **ALLUSERS** property to 2 and Windows Installer complies with [*User Account Control*](u-gly.md#-msi-user-account-control-gly) (UAC). If the user has user access privileges, and ALLUSERS=2, the installer performs a per-machine installation only if Admin credentials are provided to the UAC dialog box. If UAC is enabled and the correct Admin credentials are not provided, the installation fails with an error stating that administrator privileges are required. If UAC is disabled by the registry key, group policy, or the control panel, the UAC dialog box is not displayed and the installation fails with an error stating that administrator privileges are required.
 
-    **Windows XP:** Set the **ALLUSERS** property to 2 and Windows Installer performs a per-user installation if the user has user access privileges.
+    **Windows XP:** Set the **ALLUSERS** property to 2 and Windows Installer performs a per-user installation if the user has user access privileges.
 
 -   If the value of the **ALLUSERS** property does not equal 2, the Windows Installer ignores the value of the [**MSIINSTALLPERUSER**](msiinstallperuser.md) property.
 
@@ -36,7 +41,7 @@ The [installation context](installation-context.md) determines the values of the
 
 |                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 
 
 
@@ -56,9 +61,9 @@ The [installation context](installation-context.md) determines the values of the
 [Single Package Authoring](single-package-authoring.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

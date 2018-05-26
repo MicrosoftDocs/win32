@@ -4,11 +4,16 @@ description: The system restricts the ability to create, modify, or delete conne
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38e20a47-738d-4951-ad74-249039afeb52'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 38e20a47-738d-4951-ad74-249039afeb52
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Security Issues for Service Publication AD", "Active Directory, using, security, service publication security issues"]
+keywords:
+- Security Issues for Service Publication AD
+- Active Directory, using, security, service publication security issues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security Issues for Service Publication

@@ -1,7 +1,12 @@
 ---
-Description: 'A filter has completed frame stepping.'
-ms.assetid: '61c3c343-3754-40b7-9f85-9a96d3faf4a2'
-title: 'EC\_STEP\_COMPLETE'
+Description: A filter has completed frame stepping.
+ms.assetid: 61c3c343-3754-40b7-9f85-9a96d3faf4a2
+title: EC\_STEP\_COMPLETE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_STEP\_COMPLETE
@@ -50,12 +55,12 @@ The filter graph manager pauses the graph and passes the event to the applicatio
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
-[**IVideoFrameStep::Step**](ivideoframestep-step.md)
+[**IVideoFrameStep::Step**](/windows/win32/Strmif/nf-strmif-ivideoframestep-step?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

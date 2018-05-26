@@ -1,7 +1,7 @@
 ---
 title: LDAP NTDS Types
 description: Do not use. Lightweight Directory Access Protocol (LDAP) NTDS type values that can be set.
-ms.assetid: '741e2d44-7215-4e7e-874f-3456c29f5fe8'
+ms.assetid: 741e2d44-7215-4e7e-874f-3456c29f5fe8
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - Imnact.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LDAP NTDS Types
@@ -36,17 +41,17 @@ Do not use. Lightweight Directory Access Protocol (LDAP) NTDS type values that c
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

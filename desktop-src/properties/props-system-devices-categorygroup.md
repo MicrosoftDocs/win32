@@ -1,7 +1,12 @@
 ---
-Description: 'Plural of device category.'
-ms.assetid: 'a695adab-99f7-4660-a5a3-2b3ec619a0f8'
-title: 'System.Devices.CategoryGroup'
+Description: Plural of device category.
+ms.assetid: a695adab-99f7-4660-a5a3-2b3ec619a0f8
+title: System.Devices.CategoryGroup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.CategoryGroup

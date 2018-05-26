@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines bit patterns that enable user-defined clipping planes. These macros are defined as a convenience when setting values for the D3DRS\_CLIPPLANEENABLE render state.'
-ms.assetid: '5bca2401-a3fb-4b1c-bb59-621b15da10f1'
+---
+Description: Defines bit patterns that enable user-defined clipping planes. These macros are defined as a convenience when setting values for the D3DRS\_CLIPPLANEENABLE render state.
+ms.assetid: 5bca2401-a3fb-4b1c-bb59-621b15da10f1
 title: D3DCLIPPLANEn macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCLIPPLANEn macro

@@ -1,7 +1,12 @@
 ---
-Description: 'The Internet Protocol Helper (IP Helper) API enables the retrieval and modification of network configuration settings for the local computer.'
-ms.assetid: '4896a9f8-0486-4380-bf49-d1c9ef114acc'
+Description: The Internet Protocol Helper (IP Helper) API enables the retrieval and modification of network configuration settings for the local computer.
+ms.assetid: 4896a9f8-0486-4380-bf49-d1c9ef114acc
 title: IP Helper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP Helper
@@ -35,7 +40,7 @@ The IP Helper API can be used on all Windows platforms. Not all operating system
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -47,9 +52,9 @@ The IP Helper API can be used on all Windows platforms. Not all operating system
 [Routing and Remote Access Service](_mpr_routing_and_remote_access_service_rras_start_page)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

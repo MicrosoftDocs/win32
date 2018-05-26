@@ -4,17 +4,21 @@ description: A case-sensitive string.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '50a26c4d-f92b-4df9-991b-78871a337e2a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 50a26c4d-f92b-4df9-991b-78871a337e2a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(Case Sensitive) syntax AD Schema"]
+keywords:
+- String(Case Sensitive) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(Case Sensitive)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(Case Sensitive) syntax

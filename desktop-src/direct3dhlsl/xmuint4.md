@@ -1,8 +1,9 @@
 ---
 title: XMUINT4 structure
 description: Describes an 4D unsigned integer vector.
-ms.assetid: '289293e5-882e-479c-886e-82c802f824b5'
-keywords: ["XMUINT4 structure HLSL"]
+ms.assetid: 289293e5-882e-479c-886e-82c802f824b5
+keywords:
+- XMUINT4 structure HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUINT4 structure
@@ -85,9 +91,9 @@ w-component of the vector.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

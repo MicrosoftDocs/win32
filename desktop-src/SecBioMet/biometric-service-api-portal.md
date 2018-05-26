@@ -1,8 +1,15 @@
 ---
 title: Windows Biometric Framework
 description: You can use the Windows Biometric Framework API to create client applications that securely capture, save, and compare end-user biometric information.
-ms.assetid: 'd9ac9ec1-bb34-402d-a590-73d5070b97ba'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API", "Windows Biometric Framework API Windows Biometric Framework API , home page"]
+ms.assetid: d9ac9ec1-bb34-402d-a590-73d5070b97ba
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API
+- Windows Biometric Framework API Windows Biometric Framework API , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Biometric Framework
@@ -17,7 +24,7 @@ Developers who use this API should be familiar with the C and C++ programming la
 
 ## Run-time requirements
 
-The Windows Biometric Framework API is supported beginning with Windows Server 2008 R2 and Windows 7. For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
+The Windows Biometric Framework API is supported beginning with Windows Server 2008 R2 and Windows 7. For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
 
 ## In this section
 
@@ -33,11 +40,11 @@ The Windows Biometric Framework API is supported beginning with Windows Server 2
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MIMEPROPFLAGS enumeration
 description: Do not use. Defines aspects of a MimeOLE property.
-ms.assetid: '68d8e2e1-5553-4377-a34e-689025ce277c'
-keywords: ["MIMEPROPFLAGS enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 68d8e2e1-5553-4377-a34e-689025ce277c
+keywords:
+- MIMEPROPFLAGS enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIMEPROPFLAGS enumeration
@@ -22,12 +29,12 @@ Do not use. Defines aspects of a MimeOLE property.
 
 ```C++
 typedef enum tagMIMEPROPFLAGS { 
-  MPF_INETCSET   = 0x00000001,
-  MPF_RFC1522    = 0x00000002,
-  MPF_ADDRESS    = 0x00000004,
-  MPF_HASPARAMS  = 0x00000008,
-  MPF_MIME       = 0x00000010,
-  MPF_READONLY   = 0x00000020
+  MPF_INETCSET   = 0x00000001,
+  MPF_RFC1522    = 0x00000002,
+  MPF_ADDRESS    = 0x00000004,
+  MPF_HASPARAMS  = 0x00000008,
+  MPF_MIME       = 0x00000010,
+  MPF_READONLY   = 0x00000020
 } ACCESSTYPE;
 ```
 
@@ -85,17 +92,17 @@ Indicates that the property is read-only.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

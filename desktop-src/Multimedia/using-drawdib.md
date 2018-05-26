@@ -1,8 +1,16 @@
 ---
 title: Using DrawDib
 description: Using DrawDib
-ms.assetid: '520c3b66-0cc6-40bf-9895-b259f921d1a2'
-keywords: ["Video for Windows (VFW),DrawDib", "VFW (Video for Windows),DrawDib", "DrawDib,about"]
+ms.assetid: 520c3b66-0cc6-40bf-9895-b259f921d1a2
+keywords:
+- Video for Windows (VFW),DrawDib
+- VFW (Video for Windows),DrawDib
+- DrawDib,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using DrawDib

@@ -1,7 +1,12 @@
 ---
-Description: 'The SetClassIDInBlob function sets the named class identifier value of a BLOB.'
-ms.assetid: 'd17dd48b-2e35-4c57-ba33-688180910b63'
+Description: The SetClassIDInBlob function sets the named class identifier value of a BLOB.
+ms.assetid: d17dd48b-2e35-4c57-ba33-688180910b63
 title: SetClassIDInBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetClassIDInBlob function
@@ -13,11 +18,11 @@ The **SetClassIDInBlob** function sets the named class identifier value of a BLO
 
 ```C++
 DWORD SetClassIDInBlob(
-  _In_       HBLOB hBlob,
-  _In_ const char  *pOwnerName,
-  _In_ const char  *pCategoryName,
-  _In_ const char  *pTagName,
-  _In_ const CLSID *pClsID
+  _In_       HBLOB hBlob,
+  _In_ const char  *pOwnerName,
+  _In_ const char  *pCategoryName,
+  _In_ const char  *pTagName,
+  _In_ const CLSID *pClsID
 );
 ```
 
@@ -74,8 +79,8 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -113,9 +118,9 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 [SetStringInBlob](setstringinblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

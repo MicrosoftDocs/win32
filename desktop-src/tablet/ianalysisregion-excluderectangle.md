@@ -1,7 +1,12 @@
 ---
-Description: 'Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified rectangle.'
-ms.assetid: 'a35b8bfc-a87a-4e9a-908f-2b13a128d222'
-title: 'IAnalysisRegion::ExcludeRectangle method'
+Description: Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified rectangle.
+ms.assetid: a35b8bfc-a87a-4e9a-908f-2b13a128d222
+title: IAnalysisRegionExcludeRectangle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::ExcludeRectangle method
@@ -13,7 +18,7 @@ Restricts the area of the [**IAnalysisRegion**](ianalysisregion.md) to the porti
 
 ```C++
 HRESULT ExcludeRectangle(
-  [in] RECT *pExcludingRectangle
+  [in] RECT *pExcludingRectangle
 );
 ```
 
@@ -46,7 +51,7 @@ If the two areas do not intersect, the [**IAnalysisRegion**](ianalysisregion.md)
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -78,9 +83,9 @@ If the two areas do not intersect, the [**IAnalysisRegion**](ianalysisregion.md)
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

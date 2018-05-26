@@ -1,8 +1,11 @@
 ---
 title: Reset method of the MSFT\_PhysicalDisk class
 description: Resets the health and operational status of the physical disk.
-ms.assetid: '0330F04C-1FAE-40BA-8FFD-B4BEDB3B4D9C'
-keywords: ["Reset method Windows Storage Management API", "Reset method Windows Storage Management API , MSFT_PhysicalDisk class", "MSFT_PhysicalDisk class Windows Storage Management API , Reset method"]
+ms.assetid: 0330F04C-1FAE-40BA-8FFD-B4BEDB3B4D9C
+keywords:
+- Reset method Windows Storage Management API
+- Reset method Windows Storage Management API , MSFT_PhysicalDisk class
+- MSFT_PhysicalDisk class Windows Storage Management API , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_PhysicalDisk class
@@ -22,7 +30,7 @@ Resets the health and operational status of the physical disk.
 
 ```mof
 UInt32 Reset(
-  [out] String ExtendedStatus
+  [out] String ExtendedStatus
 );
 ```
 
@@ -95,8 +103,8 @@ If the physical disk is not a member of a concrete pool, then this method should
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -109,9 +117,9 @@ If the physical disk is not a member of a concrete pool, then this method should
 [**MSFT\_PhysicalDisk**](msft-physicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
-﻿---
-Description: 'Whether a patch can be uninstalled depends upon how the patch was authored, the version of Windows Installer used to install the patch, and the changes made by the patch to the application.'
-ms.assetid: '95a5365c-e2ae-4e35-9aeb-67d04e67c7df'
+---
+Description: Whether a patch can be uninstalled depends upon how the patch was authored, the version of Windows Installer used to install the patch, and the changes made by the patch to the application.
+ms.assetid: 95a5365c-e2ae-4e35-9aeb-67d04e67c7df
 title: Uninstallable Patches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uninstallable Patches
 
 Whether a patch can be uninstalled depends upon how the patch was authored, the version of Windows Installer used to install the patch, and the changes made by the patch to the application. If a patch is not uninstallable, then the only way to remove the patch is to uninstall the entire application and reinstall without applying the patch being removed.
 
-You can call for the uninstallation of patches applied with Windows Installer version 3.0 by using [Command Line Options](command-line-options.md), the [**MsiRemovePatches**](msiremovepatches.md) function, or the [**RemovePatches method**](installer-removepatches.md) as described in the [Uninstalling Patches](uninstalling-patches.md) section. The Windows Installer verifies that each of the patches listed for removal in the [**MSIPATCHREMOVE**](msipatchremove.md) property is uninstallable. If the user does not have privileges to remove the patch, the patch is unknown for the product, patch policy prevents removal, or the patch was marked as not uninstallable, the installer returns an error indicating a failed installation transaction.
+You can call for the uninstallation of patches applied with Windows Installer version 3.0 by using [Command Line Options](command-line-options.md), the [**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master) function, or the [**RemovePatches method**](installer-removepatches.md) as described in the [Uninstalling Patches](uninstalling-patches.md) section. The Windows Installer verifies that each of the patches listed for removal in the [**MSIPATCHREMOVE**](msipatchremove.md) property is uninstallable. If the user does not have privileges to remove the patch, the patch is unknown for the product, patch policy prevents removal, or the patch was marked as not uninstallable, the installer returns an error indicating a failed installation transaction.
 
 **Windows Installer 2.0:** Not supported. Patches applied using a version of Windows Installer that is earlier than Windows Installer 3.0 are not uninstallable.
 
@@ -101,13 +106,13 @@ A patch (.msp file) applied to an installed application is not uninstallable in 
 [**MSIPATCHREMOVE**](msipatchremove.md)
 </dt> <dt>
 
-[**MsiEnumapplicationsEx**](msienumproductsex.md)
+[**MsiEnumapplicationsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master)
 </dt> <dt>
 
-[**MsiGetPatchInfoEx**](msigetpatchinfoex.md)
+[**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master)
 </dt> <dt>
 
-[**MsiRemovePatches**](msiremovepatches.md)
+[**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master)
 </dt> </dl>
 
  

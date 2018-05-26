@@ -1,8 +1,10 @@
 ---
 title: FETCH\_CMD\_RESULTS structure
 description: Contains data from a FETCH response.
-ms.assetid: '8147a65e-314b-4b43-b476-2d8cb8cf84c8'
-keywords: ["FETCH_CMD_RESULTS structure Windows Mail (formerly Outlook Express)", "FETCH_BODY_PART structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: 8147a65e-314b-4b43-b476-2d8cb8cf84c8
+keywords:
+- FETCH_CMD_RESULTS structure Windows Mail (formerly Outlook Express)
+- FETCH_BODY_PART structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FETCH\_CMD\_RESULTS structure
@@ -24,17 +31,17 @@ Contains data from a FETCH response. Because FETCH responses can be unsolicited,
 
 ```C++
 typedef struct tagFETCH_CMD_RESULTS {
-  DWORD         dwMsgSeqNum;
-  BOOL          bMsgFlags;
+  DWORD         dwMsgSeqNum;
+  BOOL          bMsgFlags;
   IMAP_MSGFLAGS mfMsgFlags;
-  BOOL          bRFC822Size;
-  DWORD         dwRFC822Size;
-  BOOL          bUID;
-  DWORD         dwUID;
-  BOOL          bInternalDate;
-  FILETIME      ftInternalDate;
-  LPARAM        lpFetchCookie1;
-  LPARAM        lpFetchCookie2;
+  BOOL          bRFC822Size;
+  DWORD         dwRFC822Size;
+  BOOL          bUID;
+  DWORD         dwUID;
+  BOOL          bInternalDate;
+  FILETIME      ftInternalDate;
+  LPARAM        lpFetchCookie1;
+  LPARAM        lpFetchCookie2;
 } FETCH_BODY_PART;
 ```
 
@@ -175,17 +182,17 @@ This structure is returned after the entire FETCH response is received.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IterationCollection GetCount method
 description: Returns the count of Iteration objects in the collection.
-ms.assetid: 'C25751AF-EAC7-4384-B178-A5964D351553'
-keywords: ["GetCount method Access Execution Engine", "GetCount method Access Execution Engine , IterationCollection interface", "IterationCollection interface Access Execution Engine , GetCount method"]
+ms.assetid: C25751AF-EAC7-4384-B178-A5964D351553
+keywords:
+- GetCount method Access Execution Engine
+- GetCount method Access Execution Engine , IterationCollection interface
+- IterationCollection interface Access Execution Engine , GetCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IterationCollection::GetCount method
@@ -22,7 +30,7 @@ Returns the count of [**Iteration**](iteration-struct.md) objects in the collect
 
 ```C++
 virtual HRESULT GetCount(
-  [out] INT *count
+  [out] INT *count
 ) const = 0;
 ```
 
@@ -49,8 +57,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -63,9 +71,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**IterationCollection**](iterationcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

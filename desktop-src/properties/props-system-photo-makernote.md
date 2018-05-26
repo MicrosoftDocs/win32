@@ -1,7 +1,12 @@
 ---
-Description: 'The Exchangeable Image File (EXIF) extensibility mechanism that allows camera manufacturers to provide custom information.'
-ms.assetid: '7472fdc6-683c-41cc-a008-f5be77521901'
-title: 'System.Photo.MakerNote'
+Description: The Exchangeable Image File (EXIF) extensibility mechanism that allows camera manufacturers to provide custom information.
+ms.assetid: 7472fdc6-683c-41cc-a008-f5be77521901
+title: System.Photo.MakerNote
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MakerNote

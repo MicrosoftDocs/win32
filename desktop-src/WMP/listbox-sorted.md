@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.sorted
 description: The sorted attribute specifies or retrieves a value indicating whether the list box control is sorted alphabetically. Can only be set at design time.
-ms.assetid: 'f07bf9bf-fe01-4d7c-a630-075ea809fd32'
-keywords: ["LISTBOX.sorted Windows Media Player"]
+ms.assetid: f07bf9bf-fe01-4d7c-a630-075ea809fd32
+keywords:
+- LISTBOX.sorted Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.sorted
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.sorted
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +57,9 @@ This attribute is a read/write **Boolean**.
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,23 @@
 ---
 title: Actions and Rights
 description: Actions and Rights
-ms.assetid: '711c6a04-6c40-4ea5-8c4f-91d000286b7b'
-keywords: ["Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,DRM licenses", "Windows Media Format SDK,licenses for DRM", "digital rights management (DRM),actions", "DRM (digital rights management),actions", "digital rights management (DRM),rights", "DRM (digital rights management),rights", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "licenses,DRM"]
+ms.assetid: 711c6a04-6c40-4ea5-8c4f-91d000286b7b
+keywords:
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,DRM licenses
+- Windows Media Format SDK,licenses for DRM
+- digital rights management (DRM),actions
+- DRM (digital rights management),actions
+- digital rights management (DRM),rights
+- DRM (digital rights management),rights
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- licenses,DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Actions and Rights

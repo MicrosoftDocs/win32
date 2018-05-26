@@ -1,8 +1,25 @@
 ---
 title: Applying an Update To a Catalog
 description: Applying an Update To a Catalog
-ms.assetid: '4aedb0d6-36c7-425c-b6d3-e16161cf6828'
-keywords: ["Windows Media Player online stores,applying updates to catalogs", "online stores,applying updates to catalogs", "type 1 online stores,applying updates to catalogs", "Windows Media Player online stores,updating catalogs", "online stores,updating catalogs", "type 1 online stores,updating catalogs", "Windows Media Player online stores,catalog updates", "online stores,catalog updates", "type 1 online stores,catalog updates", "catalog updates", "updating catalogs", "applying updates to catalogs"]
+ms.assetid: 4aedb0d6-36c7-425c-b6d3-e16161cf6828
+keywords:
+- Windows Media Player online stores,applying updates to catalogs
+- online stores,applying updates to catalogs
+- type 1 online stores,applying updates to catalogs
+- Windows Media Player online stores,updating catalogs
+- online stores,updating catalogs
+- type 1 online stores,updating catalogs
+- Windows Media Player online stores,catalog updates
+- online stores,catalog updates
+- type 1 online stores,catalog updates
+- catalog updates
+- updating catalogs
+- applying updates to catalogs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying an Update To a Catalog

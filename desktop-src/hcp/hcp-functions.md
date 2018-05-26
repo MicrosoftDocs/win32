@@ -1,7 +1,12 @@
 ---
 title: HCP Functions
 description: The following are the Hardware Counter Profiling (HCP) functions.
-ms.assetid: '7ab40372-60be-40d9-b106-c8a7b7ebe62c'
+ms.assetid: 7ab40372-60be-40d9-b106-c8a7b7ebe62c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HCP Functions
@@ -19,11 +24,11 @@ The following are the Hardware Counter Profiling (HCP) functions.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

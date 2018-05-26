@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts an array of 16-bit floats to 32-bit floats.'
-ms.assetid: 'cf07a21d-9ea3-4fbe-ab8f-564e2bbb8d60'
+---
+Description: Converts an array of 16-bit floats to 32-bit floats.
+ms.assetid: cf07a21d-9ea3-4fbe-ab8f-564e2bbb8d60
 title: D3DXFloat16To32Array function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFloat16To32Array function

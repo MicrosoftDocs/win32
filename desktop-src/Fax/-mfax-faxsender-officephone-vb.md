@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OfficePhone property is a null-terminated string that contains the office telephone number associated with the sender.'
-ms.assetid: '0999841a-3ab3-4ed4-8249-0325939a02b9'
-title: 'FaxSender.OfficePhone property'
+---
+Description: The OfficePhone property is a null-terminated string that contains the office telephone number associated with the sender.
+ms.assetid: 0999841a-3ab3-4ed4-8249-0325939a02b9
+title: FaxSender.OfficePhone property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.OfficePhone property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the office telephone number associated w
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

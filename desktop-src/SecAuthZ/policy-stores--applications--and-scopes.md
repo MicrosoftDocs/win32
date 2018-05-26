@@ -1,7 +1,12 @@
 ---
-Description: 'Authorization policy stores, applications, and scopes represent different levels of organization of Authorization Manager policy.'
-ms.assetid: '235f236d-59c9-4a8c-aec6-60d1ddba4d5d'
-title: 'Policy Stores, Applications, and Scopes'
+Description: Authorization policy stores, applications, and scopes represent different levels of organization of Authorization Manager policy.
+ms.assetid: 235f236d-59c9-4a8c-aec6-60d1ddba4d5d
+title: Policy Stores, Applications, and Scopes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Policy Stores, Applications, and Scopes
@@ -16,23 +21,23 @@ Authorization policy stores, applications, and scopes represent different levels
 
 ## Authorization Policy Stores
 
-In the Authorization Manager API, an authorization policy store is represented by an [**IAzAuthorizationStore**](azauthorizationstore.md) object. The authorization policy store contains definitions and assignments of applications, scopes, operations, tasks, roles, and user groups.
+In the Authorization Manager API, an authorization policy store is represented by an [**IAzAuthorizationStore**](/windows/win32/Azroles/nn-azroles-iazauthorizationstore?branch=master) object. The authorization policy store contains definitions and assignments of applications, scopes, operations, tasks, roles, and user groups.
 
 An authorization policy store can be stored either as an XML file or in Active Directory.
 
 An application must initialize an authorization policy store before changing information in the store or using the store policy to check client access to resources.
 
-An authorization policy store can contain one or more [**IAzApplication**](iazapplication.md) objects that each represent authorization policy for a specific application.
+An authorization policy store can contain one or more [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) objects that each represent authorization policy for a specific application.
 
 ## Applications
 
-In the Authorization Manager API, an application is represented by an [**IAzApplication**](iazapplication.md) object. An authorization policy store can contain authorization policy information for many applications. Using **IAzApplication** objects allows you to store different authorization policy for different applications in a single policy store.
+In the Authorization Manager API, an application is represented by an [**IAzApplication**](/windows/win32/Azroles/nn-azroles-iazapplication?branch=master) object. An authorization policy store can contain authorization policy information for many applications. Using **IAzApplication** objects allows you to store different authorization policy for different applications in a single policy store.
 
 An authorization policy store must contain at least one application.
 
 ## Scopes
 
-In the Authorization Manager API, a scope is represented by an [**IAzScope**](iazscope.md) object. Scopes provide an additional, optional level of organization for an authorization policy. An application can contain one or more scopes, but need not contain any (Authorization Manager provides a default, application-wide scope).
+In the Authorization Manager API, a scope is represented by an [**IAzScope**](/windows/win32/Azroles/nn-azroles-iazscope?branch=master) object. Scopes provide an additional, optional level of organization for an authorization policy. An application can contain one or more scopes, but need not contain any (Authorization Manager provides a default, application-wide scope).
 
 A scope is a subdivision within an application that separates resources from other resources that are used by that application. If you have Authorization Manager groups, role assignments, role definitions, or task definitions that you do not want to apply to an entire application, you can create them at the scope level.
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings defaultFrame property
 description: The defaultFrame property gets or sets the name of the frame used to display a URL that is received in an AxWindowsMediaPlayer\_WMPOCXEvents\_ScriptCommandEvent event.
-ms.assetid: '92c775ac-5ff1-4d21-b21d-491bc48a033f'
-keywords: ["defaultFrame property Windows Media Player", "defaultFrame property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , defaultFrame property"]
+ms.assetid: 92c775ac-5ff1-4d21-b21d-491bc48a033f
+keywords:
+- defaultFrame property Windows Media Player
+- defaultFrame property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , defaultFrame property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::defaultFrame property
@@ -76,9 +84,9 @@ This property is ignored when using the Netscape Navigator Java applet. In Netsc
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

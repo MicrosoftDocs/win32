@@ -1,14 +1,20 @@
 ---
 title: onclick
 description: The onclick event handler handles an event that occurs when the user clicks the element.
-ms.assetid: '59aa0038-b004-4dc3-849a-6015db764843'
-keywords: ["onclick Windows Media Player"]
+ms.assetid: 59aa0038-b004-4dc3-849a-6015db764843
+keywords:
+- onclick Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onclick
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onclick
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element, the **POPUP** 
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a child resource pool.'
-ms.assetid: '30a70231-f1b7-4f0e-ac47-cf5a79ddb8ab'
-title: 'CreatePool method of the Msvm\_ResourcePoolConfigurationService class'
+Description: Creates a child resource pool.
+ms.assetid: 30a70231-f1b7-4f0e-ac47-cf5a79ddb8ab
+title: CreatePool method of the Msvm\_ResourcePoolConfigurationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreatePool method of the Msvm\_ResourcePoolConfigurationService class
@@ -13,11 +18,11 @@ Creates a child resource pool. The resource pool will be scoped to the same Syst
 
 ```mof
 uint32 CreatePool(
-  [in]  string               PoolSettings,
-  [in]  CIM_ResourcePool REF ParentPools[],
-  [in]  string               AllocationSettings[],
-  [out] CIM_ResourcePool REF Pool,
-  [out] CIM_ConcreteJob  REF Job
+  [in]  string               PoolSettings,
+  [in]  CIM_ResourcePool REF ParentPools[],
+  [in]  string               AllocationSettings[],
+  [out] CIM_ResourcePool REF Pool,
+  [out] CIM_ConcreteJob  REF Job
 );
 ```
 
@@ -136,8 +141,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -151,9 +156,9 @@ This method returns one of the following values.
 [**Msvm\_ResourcePoolConfigurationService**](msvm-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

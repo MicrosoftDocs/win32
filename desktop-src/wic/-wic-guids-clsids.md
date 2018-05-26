@@ -1,7 +1,12 @@
 ---
-Description: 'This document includes GUIDs and class identifiers (CLSIDs) tables of Windows Imaging Component (WIC).'
-ms.assetid: '2be5cfeb-2dd3-4486-b639-35ee28a7dd7b'
+Description: This document includes GUIDs and class identifiers (CLSIDs) tables of Windows Imaging Component (WIC).
+ms.assetid: 2be5cfeb-2dd3-4486-b639-35ee28a7dd7b
 title: WIC GUIDs and CLSIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIC GUIDs and CLSIDs

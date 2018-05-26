@@ -1,6 +1,11 @@
-﻿---
-ms.assetid: '0B4C1BAC-173E-42E9-8805-028FE165D49D'
-title: 'XPSRAS\_BACKGROUND\_COLOR enumeration'
+---
+ms.assetid: 0B4C1BAC-173E-42E9-8805-028FE165D49D
+title: XPSRAS\_BACKGROUND\_COLOR enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPSRAS\_BACKGROUND\_COLOR enumeration

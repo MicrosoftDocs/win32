@@ -1,8 +1,18 @@
 ---
 title: Marquee Color
 description: Marquee Color
-ms.assetid: '58bc3483-3e3e-4514-8ef7-cc45fc78edde'
-keywords: ["Windows Media Player Mobile skins,marquees", "skins,marquees", "reference for skins,marquees", "marquees in skins,colors", "color reference for skins"]
+ms.assetid: 58bc3483-3e3e-4514-8ef7-cc45fc78edde
+keywords:
+- Windows Media Player Mobile skins,marquees
+- skins,marquees
+- reference for skins,marquees
+- marquees in skins,colors
+- color reference for skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marquee Color

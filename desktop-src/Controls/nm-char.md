@@ -1,8 +1,9 @@
 ---
 title: NM\_CHAR notification code
 description: The NM\_CHAR notification code is sent by a control when a character key is processed. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'b750f2a6-8642-4d76-96bb-bf58b00cd5c4'
-keywords: ["NM_CHAR notification code Windows Controls"]
+ms.assetid: b750f2a6-8642-4d76-96bb-bf58b00cd5c4
+keywords:
+- NM_CHAR notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CHAR notification code
@@ -33,7 +39,7 @@ NM_CHAR
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCHAR**](nmchar.md) structure that contains additional information about the character that caused the notification code.
+A pointer to an [**NMCHAR**](/windows/win32/Commctrl/ns-commctrl-tagnmchar?branch=master) structure that contains additional information about the character that caused the notification code.
 
 </dd> </dl>
 
@@ -47,8 +53,8 @@ The return value is ignored by most controls. For more information, see the docu
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ The return value is ignored by most controls. For more information, see the docu
 [NM\_CHAR (toolbar)](nm-char-toolbar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

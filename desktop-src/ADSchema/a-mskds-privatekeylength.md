@@ -4,17 +4,22 @@ description: The length of the secret agreement private key.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0e6bfa2f-d938-4a47-afcc-71cdb87329fc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0e6bfa2f-d938-4a47-afcc-71cdb87329fc
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-PrivateKey-Length attribute AD Schema", "msKds-PrivateKeyLength attribute AD Schema"]
+keywords:
+- ms-Kds-PrivateKey-Length attribute AD Schema
+- msKds-PrivateKeyLength attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-PrivateKey-Length
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-PrivateKey-Length attribute
@@ -38,7 +43,7 @@ The length of the secret agreement private key.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ The length of the secret agreement private key.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

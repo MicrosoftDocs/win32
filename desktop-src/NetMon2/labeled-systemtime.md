@@ -1,7 +1,12 @@
 ---
-Description: 'The LABELED\_SYSTEMTIME structure defines a label that is displayed when a specific SYSTEMTIME property value is detected.'
-ms.assetid: '307b490a-af8e-4f2a-a45a-33a84fcb4d5c'
-title: 'LABELED\_SYSTEMTIME structure'
+Description: The LABELED\_SYSTEMTIME structure defines a label that is displayed when a specific SYSTEMTIME property value is detected.
+ms.assetid: 307b490a-af8e-4f2a-a45a-33a84fcb4d5c
+title: LABELED\_SYSTEMTIME structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LABELED\_SYSTEMTIME structure
@@ -14,7 +19,7 @@ The **LABELED\_SYSTEMTIME** structure defines a label that is displayed when a s
 ```C++
 typedef struct _LABELED_SYSTEMTIME {
   SYSTEMTIME Value;
-  LPSTR      Label;
+  LPSTR      Label;
 } LABELED_SYSTEMTIME, *LPLABELED_SYSTEMTIME;
 ```
 
@@ -48,8 +53,8 @@ The **lpLabeledSystemTimeTable** member of the [SET](set.md) structure points to
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -61,9 +66,9 @@ The **lpLabeledSystemTimeTable** member of the [SET](set.md) structure points to
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

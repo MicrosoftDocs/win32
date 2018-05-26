@@ -1,14 +1,20 @@
 ---
 title: Data (Contents) Element
 description: Identifies the file that contains the custom detail.
-ms.assetid: 'b23bfeb3-76b9-4e8a-8b2d-d2e78d7d4a00'
-keywords: ["Data element Windows Troubleshooting Toolkit"]
+ms.assetid: b23bfeb3-76b9-4e8a-8b2d-d2e78d7d4a00
+keywords:
+- Data element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (Contents) Element
@@ -33,8 +39,8 @@ For details on the contents of the **Data** element, see the [**Contents**](repo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ For details on the contents of the **Data** element, see the [**Contents**](repo
 [**Contents (Detail)**](report-contents-detail-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

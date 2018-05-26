@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMUDEC4describes a 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.'
-ms.assetid: '9861c484-b80d-41a6-a938-322fd8cafdad'
+---
+Description: XMUDEC4describes a 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
+ms.assetid: 9861c484-b80d-41a6-a938-322fd8cafdad
 title: XMUDEC4 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUDEC4 Extensions
 
-[**XMUDEC4**](xmudec4.md)describes a 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
+[**XMUDEC4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmudec4?branch=master)describes a 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMUDEC4 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMUDEC4**](xmudec4.md)
+[**XMUDEC4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmudec4?branch=master)
 </dt> </dl>
 
  

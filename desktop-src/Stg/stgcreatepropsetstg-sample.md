@@ -1,13 +1,19 @@
 ---
 title: StgCreatePropSetStg Sample
 description: Shows how the StgCreatePropSetStg function can be used to create an IPropertySetStorage interface on top of any given IStorage interface.
-ms.assetid: 'f0d0664a-2cfd-4eb0-b1d5-47d1545394fd'
-keywords: ["Structured Storage Strctd Stg , samples, StgCreatePropSetStg"]
+ms.assetid: f0d0664a-2cfd-4eb0-b1d5-47d1545394fd
+keywords:
+- Structured Storage Strctd Stg , samples, StgCreatePropSetStg
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StgCreatePropSetStg Sample
 
-The StgCreatePropSetStg.cpp sample shows how the [**StgCreatePropSetStg**](stgcreatepropsetstg.md) function can be used to create an [**IPropertySetStorage**](ipropertysetstorage.md) interface on top of any given [**IStorage**](istorage.md) interface.
+The StgCreatePropSetStg.cpp sample shows how the [**StgCreatePropSetStg**](/windows/win32/coml2api/nf-coml2api-stgcreatepropsetstg?branch=master) function can be used to create an [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface on top of any given [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface.
 
 
 ```C++

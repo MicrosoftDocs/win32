@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX supplies the following precomputed radiance transfer (PRT) functions:'
-ms.assetid: 'd642f33f-b4dd-475f-9797-3680fef81d98'
+Description: D3DX supplies the following precomputed radiance transfer (PRT) functions
+ms.assetid: d642f33f-b4dd-475f-9797-3680fef81d98
 title: Precomputed Radiance Transfer Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Precomputed Radiance Transfer Functions

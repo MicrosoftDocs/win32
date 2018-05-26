@@ -1,12 +1,17 @@
 ---
-Description: 'This section lists the ternary raster-operation codes used by the BitBlt, PatBlt, and StretchBlt functions. Ternary raster-operation codes define how GDI combines the bits in a source bitmap with the bits in the destination bitmap.'
-ms.assetid: '538f3580-d6a7-4dae-8185-802eb9c96735'
+Description: This section lists the ternary raster-operation codes used by the BitBlt, PatBlt, and StretchBlt functions. Ternary raster-operation codes define how GDI combines the bits in a source bitmap with the bits in the destination bitmap.
+ms.assetid: 538f3580-d6a7-4dae-8185-802eb9c96735
 title: Ternary Raster Operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ternary Raster Operations
 
-This section lists the ternary raster-operation codes used by the [**BitBlt**](bitblt.md), [**PatBlt**](patblt.md), and [**StretchBlt**](stretchblt.md) functions. Ternary raster-operation codes define how GDI combines the bits in a source bitmap with the bits in the destination bitmap.
+This section lists the ternary raster-operation codes used by the [**BitBlt**](/windows/win32/Wingdi/nf-wingdi-bitblt?branch=master), [**PatBlt**](/windows/win32/Wingdi/nf-wingdi-patblt?branch=master), and [**StretchBlt**](/windows/win32/Wingdi/nf-wingdi-stretchblt?branch=master) functions. Ternary raster-operation codes define how GDI combines the bits in a source bitmap with the bits in the destination bitmap.
 
 Each raster-operation code represents a Boolean operation in which the values of the pixels in the source, the selected brush, and the destination are combined. The following are the three operands used in these operations.
 
@@ -79,7 +84,7 @@ In this case, PSo has the operation index 00FC (read from the bottom up); DPSoo 
 
 The most commonly used raster operations have been given special names in the SDK header file, WINDOWS.H. You should use these names whenever possible in your applications.
 
-When the source and destination bitmaps are monochrome, a bit value of zero represents a black pixel and a bit value of 1 represents a white pixel. When the source and the destination bitmaps are color, those colors are represented with RGB values. For more information about RGB values, see [**RGB**](rgb.md).
+When the source and destination bitmaps are monochrome, a bit value of zero represents a black pixel and a bit value of 1 represents a white pixel. When the source and the destination bitmaps are color, those colors are represented with RGB values. For more information about RGB values, see [**RGB**](/windows/win32/Wingdi/nf-wingdi-rgb?branch=master).
 
 **Raster-Operation Codes**
 

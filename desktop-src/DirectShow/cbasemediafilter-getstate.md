@@ -1,20 +1,25 @@
 ---
-Description: 'The GetState method retrieves the object''s state (running, stopped, or paused). This method implements the IMediaFilter::GetState method.'
-ms.assetid: 'd4cc7e2b-5ea5-4165-842f-becc3a81cbce'
-title: 'CBaseMediaFilter.GetState method'
+Description: The GetState method retrieves the objects state (running, stopped, or paused). This method implements the IMediaFilterGetState method.
+ms.assetid: d4cc7e2b-5ea5-4165-842f-becc3a81cbce
+title: CBaseMediaFilter.GetState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter.GetState method
 
-The `GetState` method retrieves the object's state (running, stopped, or paused). This method implements the [**IMediaFilter::GetState**](imediafilter-getstate.md) method.
+The `GetState` method retrieves the object's state (running, stopped, or paused). This method implements the [**IMediaFilter::GetState**](/windows/win32/Strmif/nf-strmif-imediafilter-getstate?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetState(
-   DWORD        dwMilliSecsTimeout,
-   FILTER_STATE *State
+   DWORD        dwMilliSecsTimeout,
+   FILTER_STATE *State
 );
 ```
 
@@ -34,7 +39,7 @@ Time-out interval, in milliseconds.
 *State* 
 </dt> <dd>
 
-Pointer to a variable that receives a member of the [**FILTER\_STATE**](filter-state.md) enumerated type, indicating the object's state.
+Pointer to a variable that receives a member of the [**FILTER\_STATE**](/windows/win32/strmif/ne-strmif-_filterstate?branch=master) enumerated type, indicating the object's state.
 
 </dd> </dl>
 
@@ -64,9 +69,9 @@ In the base class, all state transitions are synchronous and the *dwMilliSecsTim
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

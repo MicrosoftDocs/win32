@@ -1,8 +1,15 @@
 ---
 title: Buffering Content
 description: Buffering Content
-ms.assetid: 'e14e0130-aefd-4e46-b288-4302d2333de2'
-keywords: ["Windows Media Format SDK,buffering content", "buffering content"]
+ms.assetid: e14e0130-aefd-4e46-b288-4302d2333de2
+keywords:
+- Windows Media Format SDK,buffering content
+- buffering content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffering Content

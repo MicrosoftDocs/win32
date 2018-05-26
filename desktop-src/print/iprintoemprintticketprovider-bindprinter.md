@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPrintTicketProvider::BindPrinter method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.'
-ms.assetid: '6b31b340-de94-4e6c-a48a-7c1b874eb7cd'
-title: 'IPrintOemPrintTicketProvider::BindPrinter method'
+---
+Description: The IPrintOemPrintTicketProviderBindPrinter method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.
+ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
+title: IPrintOemPrintTicketProviderBindPrinter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPrintTicketProvider::BindPrinter method

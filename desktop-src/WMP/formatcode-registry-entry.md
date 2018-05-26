@@ -1,8 +1,21 @@
 ---
 title: FormatCode Registry Entry
 description: FormatCode Registry Entry
-ms.assetid: 'cc444eaa-6898-48ab-9573-9e7d5e25d6db'
-keywords: ["Windows Media Player,FormatCode registry entries", "Windows Media Player,file name extensions", "Windows Media Player,registry", "registry,file name extensions", "registry,FormatCode entries", "registry,settings for Windows Media Player", "file name extension registry settings", "FormatCode registry entries"]
+ms.assetid: cc444eaa-6898-48ab-9573-9e7d5e25d6db
+keywords:
+- Windows Media Player,FormatCode registry entries
+- Windows Media Player,file name extensions
+- Windows Media Player,registry
+- registry,file name extensions
+- registry,FormatCode entries
+- registry,settings for Windows Media Player
+- file name extension registry settings
+- FormatCode registry entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FormatCode Registry Entry

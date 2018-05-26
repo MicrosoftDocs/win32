@@ -1,7 +1,12 @@
 ---
-Description: 'The summary information stream contains information about the package that can be viewed through Microsoft Windows Explorer.'
-ms.assetid: 'b909955f-ddd6-4cf1-8e86-fcf89be80b41'
+Description: The summary information stream contains information about the package that can be viewed through Microsoft Windows Explorer.
+ms.assetid: b909955f-ddd6-4cf1-8e86-fcf89be80b41
 title: About the Summary Information Stream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Summary Information Stream

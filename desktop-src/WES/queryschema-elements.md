@@ -1,7 +1,12 @@
 ---
 title: Query Schema Elements
 description: The following are the elements that the Query Schema defines.
-ms.assetid: 'c728c4f1-79a8-4d08-aad5-bcdabb25f23c'
+ms.assetid: c728c4f1-79a8-4d08-aad5-bcdabb25f23c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Schema Elements
@@ -19,11 +24,11 @@ The following are the elements that the Query Schema defines. This section conta
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

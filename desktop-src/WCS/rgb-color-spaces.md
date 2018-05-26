@@ -1,8 +1,22 @@
 ---
 title: RGB Color Spaces
 description: An RGB color space is created by mapping the colors red, green, and blue onto a 3-D Cartesian coordinate system.
-ms.assetid: 'fbe00c2a-700f-4905-a67a-47e3fd2bfa5c'
-keywords: ["Windows Color System (WCS),RGB color spaces", "WCS (Windows Color System),RGB color spaces", "image color management,RGB color spaces", "color management,RGB color spaces", "colors,RGB color spaces", "color spaces,RGB", "RGB color spaces", "red green blue (RGB)", "RGB (red green blue)"]
+ms.assetid: fbe00c2a-700f-4905-a67a-47e3fd2bfa5c
+keywords:
+- Windows Color System (WCS),RGB color spaces
+- WCS (Windows Color System),RGB color spaces
+- image color management,RGB color spaces
+- color management,RGB color spaces
+- colors,RGB color spaces
+- color spaces,RGB
+- RGB color spaces
+- red green blue (RGB)
+- RGB (red green blue)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RGB Color Spaces

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an asynchronous PrintTicket validation operation context.'
-ms.assetid: 'B46AE68A-36E1-4367-95F5-0FFBAA42171C'
-title: 'IPrintSchemaTicket::ValidateAsync method'
+---
+Description: Gets an asynchronous PrintTicket validation operation context.
+ms.assetid: B46AE68A-36E1-4367-95F5-0FFBAA42171C
+title: IPrintSchemaTicketValidateAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaTicket::ValidateAsync method

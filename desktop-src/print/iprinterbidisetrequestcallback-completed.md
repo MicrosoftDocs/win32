@@ -1,7 +1,12 @@
-﻿---
-Description: 'Invoked when the Bidi “Set”” operation is completed.'
-ms.assetid: 'F086903F-2FCA-4B9F-948B-0F40F114E11D'
-title: 'IPrinterBidiSetRequestCallback::Completed method'
+---
+Description: Invoked when the Bidi “Set”” operation is completed.
+ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
+title: IPrinterBidiSetRequestCallbackCompleted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterBidiSetRequestCallback::Completed method

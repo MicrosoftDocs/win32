@@ -1,7 +1,12 @@
 ---
 title: Touch
 description: All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
-ms.assetid: 'a87d0726-1c57-4cf8-9e35-4e73a09ff1a3'
+ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch
@@ -92,7 +97,7 @@ The press and hold gesture displays detailed info or teaching visuals (for examp
 > \[!Important\]  
 > You can use press and hold for selection in cases where both horizontal and vertical panning is enabled.
 
- 
+ 
 
 Entry state: One or two fingers in contact with the screen.
 
@@ -259,7 +264,7 @@ Keep in mind that the minimum size is really based on physical area, not layout 
 
 
 
- 
+ 
 
 Furthermore, research shows that a minimum size of 10x10 mm (about 40x40 pixels) enables better speed and accuracy, and also feels more comfortable to users. When practical, use this larger size for command buttons used for the most important or frequently used commands.
 
@@ -287,7 +292,7 @@ There's no perfect size for touch targets. Different sizes work for different si
 
 
 
- 
+ 
 
 **Target size guidelines for common controls**
 
@@ -399,7 +404,7 @@ Using the correct controls gets you only part of the way to a touch-optimized ap
     > [!Note]  
     > Developers: For more info about integrating the touch keyboard, see [**ITextInputPanel**](https://msdn.microsoft.com/library/windows/desktop/ms695563).
 
-     
+     
 
 -   **Allow users to zoom the content UI if your program has tasks that require editing text.** Consider automatically zooming to 150 percent when touch is used.
 -   **Provide smooth, responsive panning and zooming wherever appropriate.** Redraw quickly after a pan or zoom to remain responsive. Doing so is necessary to make direct manipulation feel truly direct.
@@ -408,7 +413,7 @@ Using the correct controls gets you only part of the way to a touch-optimized ap
 
 ### Forgiveness
 
-Direct manipulation makes touch natural, expressive, efficient, and engaging. However, where there is direct manipulation, there can be accidental manipulation—and therefore the need for forgiveness.
+Direct manipulation makes touch natural, expressive, efficient, and engaging. However, where there is direct manipulation, there can be accidental manipulation and therefore the need for forgiveness.
 
 Forgiveness is the ability to reverse or correct an undesired action easily. You make a touch experience forgiving by providing undo, giving good visual feedback, having a clear physical separation between frequently used commands and destructive commands, and allowing users to correct mistakes easily. Associated with forgiveness is preventing undesired actions from happening in the first place, which you can do by using constrained controls and confirmations for risky actions or commands that have unintended consequences.
 
@@ -424,9 +429,9 @@ Forgiveness is the ability to reverse or correct an undesired action easily. You
 
     Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](https://msdn.microsoft.com/library/windows/desktop/hh448799) API.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Describes changes to the programming model for implementing virtual
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b9ec2e4b-99c7-4f0d-9706-45a98446ca04'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b9ec2e4b-99c7-4f0d-9706-45a98446ca04
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scriptable virtual channels

@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback for the user to register a .x file template.'
-ms.assetid: '60568556-704c-4be3-bbde-04887583cf70'
-title: 'ID3DXSaveUserData::RegisterTemplates method'
+---
+Description: A callback for the user to register a .x file template.
+ms.assetid: 60568556-704c-4be3-bbde-04887583cf70
+title: ID3DXSaveUserDataRegisterTemplates method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSaveUserData::RegisterTemplates method

@@ -1,8 +1,9 @@
 ---
 title: MpUpdateStart function
 description: Starts a signature update operation.
-ms.assetid: 'BB056356-17E5-42F0-9636-9E1C254361E4'
-keywords: ["MpUpdateStart function Legacy Windows Environment Features"]
+ms.assetid: BB056356-17E5-42F0-9636-9E1C254361E4
+keywords:
+- MpUpdateStart function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpUpdateStart function
@@ -22,10 +28,10 @@ Starts a signature update operation.
 
 ```C++
 HRESULT WINAPI MpUpdateStart(
-  _In_     MPHANDLE         hMpHandle,
-  _In_     DWORD            dwUpdateOptions,
-  _In_opt_ PMPCALLBACK_INFO pCallbackInfo,
-  _Out_    PMPHANDLE        phUpdateHandle
+  _In_     MPHANDLE         hMpHandle,
+  _In_     DWORD            dwUpdateOptions,
+  _In_opt_ PMPCALLBACK_INFO pCallbackInfo,
+  _Out_    PMPHANDLE        phUpdateHandle
 );
 ```
 
@@ -65,7 +71,7 @@ Specifies the option for the signature update operation. It can be one of the fo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +102,7 @@ A pointer to the callback information used to feed the client with signature upd
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -123,8 +129,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -149,9 +155,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MPSIGUPDATE\_DATA**](mpsigupdate-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

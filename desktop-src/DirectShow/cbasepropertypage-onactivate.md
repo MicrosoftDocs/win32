@@ -1,7 +1,12 @@
 ---
-Description: 'The OnActivate method is called when the property page is activated.'
-ms.assetid: 'aff843d4-cfb2-4255-a59c-0579f1cd24bd'
-title: 'CBasePropertyPage.OnActivate method'
+Description: The OnActivate method is called when the property page is activated.
+ms.assetid: aff843d4-cfb2-4255-a59c-0579f1cd24bd
+title: CBasePropertyPage.OnActivate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.OnActivate method
@@ -67,9 +72,9 @@ HRESULT CMyProp::OnActivate(void)
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

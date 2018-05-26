@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a Media Foundation transform (MFT) is registered only in the application's process.'
-ms.assetid: 'e10d6378-8e85-4f73-9fa3-a2e954fc8249'
-title: 'MFT\_PROCESS\_LOCAL\_Attribute attribute'
+---
+Description: Specifies whether a Media Foundation transform (MFT) is registered only in the applications process.
+ms.assetid: e10d6378-8e85-4f73-9fa3-a2e954fc8249
+title: MFT\_PROCESS\_LOCAL\_Attribute attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_PROCESS\_LOCAL\_Attribute attribute
@@ -14,17 +19,17 @@ Specifies whether a Media Foundation transform (MFT) is registered only in the a
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
 This attribute is used as follows:
 
-1.  The application registers a local MFT by calling either the [**MFTRegisterLocal**](mftregisterlocal.md) or [**MFTRegisterLocalByCLSID**](mftregisterlocalbyclsid.md) function. These functions register the MFT in the application's process.
-2.  The [**MFTEnumEx**](mftenumex.md) function is called to enumerate MFTs that match a particular set of criteria. The application might call the **MFTEnumEx** function directly, but more often this function is called by the topology loader.
-3.  The [**MFTEnumEx**](mftenumex.md) function retrieves an array of [**IMFActivate**](imfactivate.md) pointers, each representing an activation object for an MFT. If an MFT is registered locally, the MFT\_PROCESS\_LOCAL\_Attribute attribute is set to **TRUE** on the corresponding activation object.
+1.  The application registers a local MFT by calling either the [**MFTRegisterLocal**](/windows/win32/mfapi/nf-mfapi-mftregisterlocal?branch=master) or [**MFTRegisterLocalByCLSID**](/windows/win32/mfapi/nf-mfapi-mftregisterlocalbyclsid?branch=master) function. These functions register the MFT in the application's process.
+2.  The [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function is called to enumerate MFTs that match a particular set of criteria. The application might call the **MFTEnumEx** function directly, but more often this function is called by the topology loader.
+3.  The [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function retrieves an array of [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointers, each representing an activation object for an MFT. If an MFT is registered locally, the MFT\_PROCESS\_LOCAL\_Attribute attribute is set to **TRUE** on the corresponding activation object.
 
 The default value for this attribute is **FALSE**.
 

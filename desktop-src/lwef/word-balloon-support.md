@@ -1,7 +1,12 @@
 ---
 title: Word Balloon Support
 description: Word Balloon Support
-ms.assetid: 'deac032f-0480-4a0d-bc69-e26f12666bbc'
+ms.assetid: deac032f-0480-4a0d-bc69-e26f12666bbc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Word Balloon Support

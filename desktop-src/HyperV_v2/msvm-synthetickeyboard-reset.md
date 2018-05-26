@@ -1,7 +1,12 @@
 ---
-Description: 'Resets the virtual keyboard.'
-ms.assetid: '2a943dd8-3b94-4b20-8786-7f9d8b0aeaa6'
-title: 'Reset method of the Msvm\_SyntheticKeyboard class'
+Description: Resets the virtual keyboard.
+ms.assetid: 2a943dd8-3b94-4b20-8786-7f9d8b0aeaa6
+title: Reset method of the Msvm\_SyntheticKeyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_SyntheticKeyboard class
@@ -39,8 +44,8 @@ On success, returns 0; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -54,9 +59,9 @@ On success, returns 0; otherwise, returns an error.
 [**Msvm\_SyntheticKeyboard**](msvm-synthetickeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

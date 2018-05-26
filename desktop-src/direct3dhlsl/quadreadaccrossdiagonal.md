@@ -1,14 +1,20 @@
 ---
 title: QuadReadAccrossDiagonal function
 description: Returns the specified local value which is read from the diagonally opposite lane in this quad.
-ms.assetid: '2914F1F9-5CE2-437A-ADDB-4955D2C1490B'
-keywords: ["QuadSwapX function HLSL"]
+ms.assetid: 2914F1F9-5CE2-437A-ADDB-4955D2C1490B
+keywords:
+- QuadSwapX function HLSL
 topic_type:
 - apiref
 api_name:
 - QuadSwapX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuadReadAccrossDiagonal function

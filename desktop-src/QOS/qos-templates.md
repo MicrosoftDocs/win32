@@ -1,8 +1,14 @@
 ---
 title: QOS Templates
 description: The use of QOS templates enables applications to leverage well-known QOS settings for common transmission types.
-ms.assetid: 'd1cc5634-25c9-42cf-923f-25c70c74dc2c'
-keywords: ["Quality of Service QOS , tasks, using templates"]
+ms.assetid: d1cc5634-25c9-42cf-923f-25c70c74dc2c
+keywords:
+- Quality of Service QOS , tasks, using templates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QOS Templates

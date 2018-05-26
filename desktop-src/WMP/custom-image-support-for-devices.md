@@ -1,8 +1,18 @@
 ---
 title: Custom Image Support for Devices
 description: Custom Image Support for Devices
-ms.assetid: '0ccc327c-e953-4348-9802-705331b574ac'
-keywords: ["Windows Media Player,custom image support for devices", "Windows Media Player,image support for devices", "device custom image support", "custom image support for devices", "image support for devices"]
+ms.assetid: 0ccc327c-e953-4348-9802-705331b574ac
+keywords:
+- Windows Media Player,custom image support for devices
+- Windows Media Player,image support for devices
+- device custom image support
+- custom image support for devices
+- image support for devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Image Support for Devices

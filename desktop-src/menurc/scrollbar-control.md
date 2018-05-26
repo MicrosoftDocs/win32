@@ -1,14 +1,20 @@
 ---
 title: SCROLLBAR control
 description: Defines a scroll-bar control.
-ms.assetid: '9b0b60b1-4b4b-494e-90d0-aaa67e7ea88c'
-keywords: ["SCROLLBAR control Menus and Other Resources"]
+ms.assetid: 9b0b60b1-4b4b-494e-90d0-aaa67e7ea88c
+keywords:
+- SCROLLBAR control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - SCROLLBAR
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCROLLBAR control

@@ -1,7 +1,12 @@
 ---
-Description: 'DirectShow: Appendix'
-ms.assetid: '94cfa199-5be7-4dc2-a78e-a9d1313a26ad'
-title: 'DirectShow: Appendix'
+Description: DirectShow Appendix
+ms.assetid: 94cfa199-5be7-4dc2-a78e-a9d1313a26ad
+title: DirectShow Appendix
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow: Appendix

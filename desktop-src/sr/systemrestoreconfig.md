@@ -1,8 +1,10 @@
 ---
 title: SystemRestoreConfig class
 description: Provides properties for controlling the frequency of scheduled restore point creation and the amount of disk space consumed on each drive.
-ms.assetid: 'ed09e03f-8cc1-4923-8f39-bbe7d9a19b44'
-keywords: ["SystemRestoreConfig class System Restore", "SystemRestoreConfig class System Restore , described"]
+ms.assetid: ed09e03f-8cc1-4923-8f39-bbe7d9a19b44
+keywords:
+- SystemRestoreConfig class System Restore
+- SystemRestoreConfig class System Restore , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\Default
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemRestoreConfig class
@@ -56,7 +63,7 @@ Access type: Read-only
 
 The maximum amount of disk space on each drive that can be used by System Restore. This value is specified as a percentage of the total drive space. The default value is 12 percent.
 
-**Windows Vista:** Receives a value from the Volume Shadow Copy Service (VSS). This this is the maximum amount of disk space on each drive that can be used by System Restore. The default value is 15 percent of the total drive space or 30 percent of the available free space, whichever is smaller.
+**Windows Vista:** Receives a value from the Volume Shadow Copy Service (VSS). This this is the maximum amount of disk space on each drive that can be used by System Restore. The default value is 15 percent of the total drive space or 30 percent of the available free space, whichever is smaller.
 
 </dd> <dt>
 
@@ -71,7 +78,7 @@ Access type: Read-only
 
 The absolute time interval at which scheduled system checkpoints are created, in seconds. The default value is 86,400 (24 hours).
 
-**Windows Vista:** Receives a value from the task scheduler for System Restore. Zero if the task is disabled.
+**Windows Vista:** Receives a value from the task scheduler for System Restore. Zero if the task is disabled.
 
 </dd> <dt>
 
@@ -86,7 +93,7 @@ Access type: Read-only
 
 The time interval for which restore points are preserved, in seconds. When a restore point becomes older than this specified interval, it is deleted. The default age limit is 90 days.
 
-**Windows Vista:** Receives a value of **UINTMAX**.
+**Windows Vista:** Receives a value of **UINTMAX**.
 
 </dd> <dt>
 
@@ -101,7 +108,7 @@ Access type: Read-only
 
 The time interval at which scheduled system checkpoints are created during the session, in seconds. The default value is zero, indicating that the feature is turned off.
 
-**Windows Vista:** Receives zero if System Restore is disabled.
+**Windows Vista:** Receives zero if System Restore is disabled.
 
 </dd> </dl>
 
@@ -109,7 +116,7 @@ The time interval at which scheduled system checkpoints are created during the s
 
 The following sample code is not supported. Use the command-line tool Vssadmin.exe to change the size of reserved drive space.
 
-**Windows XP:** This sample is supported.
+**Windows XP:** This sample is supported.
 
 
 ```VB
@@ -173,7 +180,7 @@ End If
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
 | Namespace<br/>                | Root\\Default<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr.mof</dt> </dl> |
@@ -190,9 +197,9 @@ End If
 [Windows Management Instrumentation](https://msdn.microsoft.com/library/aa394582)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

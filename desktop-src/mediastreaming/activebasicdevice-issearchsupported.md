@@ -1,8 +1,11 @@
 ---
 title: ActiveBasicDevice IsSearchSupported property
 description: Gets a value that indicates if the device supports search.
-ms.assetid: '091D467A-1FF6-4635-BF89-4E62AC9C660A'
-keywords: ["IsSearchSupported property Media Streaming API", "IsSearchSupported property Media Streaming API , ActiveBasicDevice interface", "ActiveBasicDevice interface Media Streaming API , IsSearchSupported property"]
+ms.assetid: 091D467A-1FF6-4635-BF89-4E62AC9C660A
+keywords:
+- IsSearchSupported property Media Streaming API
+- IsSearchSupported property Media Streaming API , ActiveBasicDevice interface
+- ActiveBasicDevice interface Media Streaming API , IsSearchSupported property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveBasicDevice::IsSearchSupported property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsSearchSupported(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -43,8 +51,8 @@ A pointer to a**boolean** that indicates if the device supports search.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>PlayToDevice.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>PlayToDevice.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
@@ -58,9 +66,9 @@ A pointer to a**boolean** that indicates if the device supports search.
 [**ActiveBasicDevice**](activebasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

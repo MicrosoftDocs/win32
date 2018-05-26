@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicate that the end of the media stream has been reached.'
-ms.assetid: '6d6bffcc-aa3c-4825-9268-00dcd2a347e6'
-title: 'IMFMediaSourceExtension::SetEndOfStream method'
+---
+Description: Indicate that the end of the media stream has been reached.
+ms.assetid: 6d6bffcc-aa3c-4825-9268-00dcd2a347e6
+title: IMFMediaSourceExtensionSetEndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaSourceExtension::SetEndOfStream method
@@ -50,7 +55,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaSourceExtension**](imfmediasourceextension.md)
+[**IMFMediaSourceExtension**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediasourceextension?branch=master)
 </dt> <dt>
 
 [**MF\_MSE\_ERROR**](mf-mse-error.md)

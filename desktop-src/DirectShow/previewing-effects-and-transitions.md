@@ -1,7 +1,12 @@
 ---
 Description: Previewing Effects and Transitions
-ms.assetid: 'aa13bd57-69c1-462c-86e3-64026a03bfc4'
+ms.assetid: aa13bd57-69c1-462c-86e3-64026a03bfc4
 title: Previewing Effects and Transitions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Previewing Effects and Transitions

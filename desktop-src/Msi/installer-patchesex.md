@@ -1,12 +1,17 @@
-﻿---
-Description: 'The PatchesEx property returns a RecordList object that enumerates the list of patches.'
-ms.assetid: '14fa0a1b-325c-42b7-b023-cd168e0615cc'
-title: 'Installer.PatchesEx property'
+---
+Description: The PatchesEx property returns a RecordList object that enumerates the list of patches.
+ms.assetid: 14fa0a1b-325c-42b7-b023-cd168e0615cc
+title: Installer.PatchesEx property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.PatchesEx property
 
-The **PatchesEx** property returns a [**RecordList**](recordlist-object.md) object that enumerates the list of patches. This property calls [**MsiEnumPatchesEx**](msienumpatchesex.md).
+The **PatchesEx** property returns a [**RecordList**](recordlist-object.md) object that enumerates the list of patches. This property calls [**MsiEnumPatchesEx**](/windows/win32/Msi/nf-msi-msienumpatchesexa?branch=master).
 
 This property is read-only.
 
@@ -40,7 +45,7 @@ propVal = Installer.PatchesEx
 [**Installer**](installer-object.md)
 </dt> <dt>
 
-[**MsiEnumPatchesEx**](msienumpatchesex.md)
+[**MsiEnumPatchesEx**](/windows/win32/Msi/nf-msi-msienumpatchesexa?branch=master)
 </dt> <dt>
 
 [**Patch**](patch-object.md)

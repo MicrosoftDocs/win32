@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the object that handles quality messages.'
-ms.assetid: '86f29550-9ab0-48de-879d-afad0589a30c'
-title: 'CBasePin::m\_pQSink member'
+Description: Pointer to the object that handles quality messages.
+ms.assetid: 86f29550-9ab0-48de-879d-afad0589a30c
+title: CBasePinm\_pQSink member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin::m\_pQSink member
@@ -35,9 +40,9 @@ IQualityControl *m_pQSink;
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

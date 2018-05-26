@@ -4,13 +4,16 @@ description: Delete one or more IPv4 option definitions from a DHCP Server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6b686704-6ce6-4f58-986d-15e871297ac2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6b686704-6ce6-4f58-986d-15e871297ac2
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DhcpServerv4OptionDefinition class", "PS_DhcpServerv4OptionDefinition class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DhcpServerv4OptionDefinition class
+- PS_DhcpServerv4OptionDefinition class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DhcpServerv4OptionDefinition class
@@ -30,11 +36,11 @@ Delete one or more IPv4 option definitions from a DHCP Server.
 
 ```mof
 uint32 Remove(
-  [in]  string                       ComputerName,
-  [in]  uint32                       OptionId[],
-  [in]  string                       VendorClass,
-  [in]  boolean                      Passthru,
-  [out] DhcpServerv4OptionDefinition cmdletOutput[]
+  [in]  string                       ComputerName,
+  [in]  uint32                       OptionId[],
+  [in]  string                       VendorClass,
+  [in]  boolean                      Passthru,
+  [out] DhcpServerv4OptionDefinition cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv4OptionDefinition**](dhcpserverv4optio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv4OptionDefinition**](dhcpserverv4optio
 [**PS\_DhcpServerv4OptionDefinition**](ps-dhcpserverv4optiondefinition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

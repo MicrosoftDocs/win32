@@ -1,7 +1,12 @@
 ---
 title: continue (sm4 - asm)
 description: Continues execution at the beginning of the current loop.
-ms.assetid: '3F0021B2-50D1-407C-9EE4-1CB679E184BF'
+ms.assetid: 3F0021B2-50D1-407C-9EE4-1CB679E184BF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # continue (sm4 - asm)

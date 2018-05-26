@@ -1,7 +1,12 @@
 ---
 title: Windows
 description: Windows are the main \ 0034;canvases \ 0034; or UI surfaces of your desktop app, including the main windows itself and pop-ups, dialogs, and wizards. Follow these guidelines when deciding which surface to use and how best to use them.
-ms.assetid: 'E1FA78DA-D580-4B0E-AB59-29F013278766'
+ms.assetid: E1FA78DA-D580-4B0E-AB59-29F013278766
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows
@@ -58,11 +63,11 @@ Windows are the main "canvases" or UI surfaces of your desktop app, including th
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

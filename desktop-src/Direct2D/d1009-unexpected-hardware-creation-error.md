@@ -1,14 +1,20 @@
 ---
 title: D1009 Unexpected Hardware Creation Error
 description: An unexpected error \ error\ was encountered while trying to create a Direct3D target.
-ms.assetid: '1ff34b1f-0ab3-4821-97f5-a4e67831383a'
-keywords: ["D1009 Unexpected Hardware Creation Error Direct2D"]
+ms.assetid: 1ff34b1f-0ab3-4821-97f5-a4e67831383a
+keywords:
+- D1009 Unexpected Hardware Creation Error Direct2D
 topic_type:
 - apiref
 api_name:
 - D1009 Unexpected Hardware Creation Error
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1009: Unexpected Hardware Creation Error

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperUni::CreateGDLSnapshot method creates a GDL snapshot of the driver configuration file based on the current configuration.'
-ms.assetid: '3dd9c7f9-27d4-45d2-8692-4270818c1823'
-title: 'IPrintCoreHelperUni::CreateGDLSnapshot method'
+---
+Description: The IPrintCoreHelperUniCreateGDLSnapshot method creates a GDL snapshot of the driver configuration file based on the current configuration.
+ms.assetid: 3dd9c7f9-27d4-45d2-8692-4270818c1823
+title: IPrintCoreHelperUniCreateGDLSnapshot method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni::CreateGDLSnapshot method

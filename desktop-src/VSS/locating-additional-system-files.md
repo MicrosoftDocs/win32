@@ -1,7 +1,12 @@
 ---
-Description: 'When performing a VSS backup or restore, the Windows system state is defined as being a collection of several key operating system elements and their files. These elements should always be treated as a unit by backup and restore operations.'
-ms.assetid: '48721358-8450-462f-8f99-23e207311041'
+Description: When performing a VSS backup or restore, the Windows system state is defined as being a collection of several key operating system elements and their files. These elements should always be treated as a unit by backup and restore operations.
+ms.assetid: 48721358-8450-462f-8f99-23e207311041
 title: Backing Up and Restoring System State
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backing Up and Restoring System State
@@ -18,10 +23,10 @@ When performing a VSS backup or restore, the Windows system state is defined as 
 
  
 
-When backing up and recovering system state, the recommended strategy is to back up and recover the system and boot volumes in addition to the files enumerated by the system state writers. System state writers are writers that have the [**VSS\_USAGE\_TYPE**](vss-usage-type.md) attribute set to either VSS\_UT\_BOOTABLESYSTEMSTATE or VSS\_UT\_SYSTEMSERVICE.
+When backing up and recovering system state, the recommended strategy is to back up and recover the system and boot volumes in addition to the files enumerated by the system state writers. System state writers are writers that have the [**VSS\_USAGE\_TYPE**](/windows/win32/VsWriter/ne-vswriter-vss_usage_type?branch=master) attribute set to either VSS\_UT\_BOOTABLESYSTEMSTATE or VSS\_UT\_SYSTEMSERVICE.
 
 > \[!Important\]  
-> If a VSS Writer is identified by its [**VSS\_USAGE\_TYPE**](vss-usage-type.md) as a system state writer it must be included in a system state backup even if it is selectable.
+> If a VSS Writer is identified by its [**VSS\_USAGE\_TYPE**](/windows/win32/VsWriter/ne-vswriter-vss_usage_type?branch=master) as a system state writer it must be included in a system state backup even if it is selectable.
 
  
 

@@ -1,8 +1,9 @@
 ---
 title: WM\_VSCROLL message
-description: The WM\_VSCROLL message is sent to a window when a scroll event occurs in the window's standard vertical scroll bar.
-ms.assetid: '495733b8-1aac-4ff7-b0be-15f14581f41c'
-keywords: ["WM_VSCROLL message Windows Controls"]
+description: The WM\_VSCROLL message is sent to a window when a scroll event occurs in the windows standard vertical scroll bar.
+ms.assetid: 495733b8-1aac-4ff7-b0be-15f14581f41c
+keywords:
+- WM_VSCROLL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_VSCROLL message
@@ -56,7 +62,7 @@ The [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) sp
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -75,11 +81,11 @@ If an application processes this message, it should return zero.
 
 The SB\_THUMBTRACK request code is typically used by applications that provide feedback as the user drags the scroll box.
 
-If an application scrolls the content of the window, it must also reset the position of the scroll box by using the [**SetScrollPos**](setscrollpos.md) function.
+If an application scrolls the content of the window, it must also reset the position of the scroll box by using the [**SetScrollPos**](/windows/win32/Winuser/nf-winuser-setscrollpos?branch=master) function.
 
 Note that the **WM\_VSCROLL** message carries only 16 bits of scroll box position data. Thus, applications that rely solely on **WM\_VSCROLL** (and [**WM\_HSCROLL**](wm-hscroll.md)) for scroll position data have a practical maximum position value of 65,535.
 
-However, because the [**SetScrollInfo**](setscrollinfo.md), [**SetScrollPos**](setscrollpos.md), [**SetScrollRange**](setscrollrange.md), [**GetScrollInfo**](getscrollinfo.md), [**GetScrollPos**](getscrollpos.md), and [**GetScrollRange**](getscrollrange.md) functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the [**WM\_HSCROLL**](wm-hscroll.md) and **WM\_VSCROLL** messages. See **GetScrollInfo** for a description of the technique.
+However, because the [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master), [**SetScrollPos**](/windows/win32/Winuser/nf-winuser-setscrollpos?branch=master), [**SetScrollRange**](/windows/win32/Winuser/nf-winuser-setscrollrange?branch=master), [**GetScrollInfo**](/windows/win32/Winuser/nf-winuser-getscrollinfo?branch=master), [**GetScrollPos**](/windows/win32/Winuser/nf-winuser-getscrollpos?branch=master), and [**GetScrollRange**](/windows/win32/Winuser/nf-winuser-getscrollrange?branch=master) functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the [**WM\_HSCROLL**](wm-hscroll.md) and **WM\_VSCROLL** messages. See **GetScrollInfo** for a description of the technique.
 
 ## Requirements
 
@@ -87,8 +93,8 @@ However, because the [**SetScrollInfo**](setscrollinfo.md), [**SetScrollPos**](s
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -100,22 +106,22 @@ However, because the [**SetScrollInfo**](setscrollinfo.md), [**SetScrollPos**](s
 **Reference**
 </dt> <dt>
 
-[**GetScrollInfo**](getscrollinfo.md)
+[**GetScrollInfo**](/windows/win32/Winuser/nf-winuser-getscrollinfo?branch=master)
 </dt> <dt>
 
-[**GetScrollPos**](getscrollpos.md)
+[**GetScrollPos**](/windows/win32/Winuser/nf-winuser-getscrollpos?branch=master)
 </dt> <dt>
 
-[**GetScrollRange**](getscrollrange.md)
+[**GetScrollRange**](/windows/win32/Winuser/nf-winuser-getscrollrange?branch=master)
 </dt> <dt>
 
-[**SetScrollInfo**](setscrollinfo.md)
+[**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master)
 </dt> <dt>
 
-[**SetScrollPos**](setscrollpos.md)
+[**SetScrollPos**](/windows/win32/Winuser/nf-winuser-setscrollpos?branch=master)
 </dt> <dt>
 
-[**SetScrollRange**](setscrollrange.md)
+[**SetScrollRange**](/windows/win32/Winuser/nf-winuser-setscrollrange?branch=master)
 </dt> <dt>
 
 [**WM\_HSCROLL**](wm-hscroll.md)
@@ -124,9 +130,9 @@ However, because the [**SetScrollInfo**](setscrollinfo.md), [**SetScrollPos**](s
 [**WM\_VSCROLL (Trackbar)**](wm-vscroll--trackbar-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

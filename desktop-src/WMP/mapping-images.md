@@ -1,8 +1,20 @@
 ---
 title: Mapping Images
 description: Mapping Images
-ms.assetid: 'ecdee7ec-f9a6-4d6f-845f-8706a2e29376'
-keywords: ["Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,mapping images", "Windows Media Player skins,mapping images", "skins,mapping images", "mapping images in skins"]
+ms.assetid: ecdee7ec-f9a6-4d6f-845f-8706a2e29376
+keywords:
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,mapping images
+- Windows Media Player skins,mapping images
+- skins,mapping images
+- mapping images in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mapping Images

@@ -1,7 +1,12 @@
 ---
 title: xor (sm4 - asm)
 description: Bitwise xor.
-ms.assetid: '6B949653-6DDA-402B-8ABE-B93858B68470'
+ms.assetid: 6B949653-6DDA-402B-8ABE-B93858B68470
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # xor (sm4 - asm)
@@ -15,7 +20,7 @@ Bitwise xor.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Bitwise xor.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

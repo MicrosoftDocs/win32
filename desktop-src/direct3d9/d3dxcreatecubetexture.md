@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an empty cube texture, adjusting the calling parameters as needed.'
-ms.assetid: '96cf3fc1-9efc-4b97-a082-2956386145c7'
+---
+Description: Creates an empty cube texture, adjusting the calling parameters as needed.
+ms.assetid: 96cf3fc1-9efc-4b97-a082-2956386145c7
 title: D3DXCreateCubeTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateCubeTexture function
@@ -32,9 +37,9 @@ HRESULT D3DXCreateCubeTexture(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
@@ -61,7 +66,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-0, D3DUSAGE\_RENDERTARGET, or D3DUSAGE\_DYNAMIC. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
+0, D3DUSAGE\_RENDERTARGET, or D3DUSAGE\_DYNAMIC. Setting this flag to D3DUSAGE\_RENDERTARGET indicates that the surface is to be used as a render target. The resource can then be passed to the *pNewRenderTarget* parameter of the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. If D3DUSAGE\_RENDERTARGET is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
 </dd> <dt>
 
@@ -86,9 +91,9 @@ Member of the [**D3DPOOL**](direct3d9.d3dpool) enumerated type, describing the m
 *ppCubeTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](idirect3dcubetexture9.md)\***
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DCubeTexture9**](idirect3dcubetexture9.md) interface, representing the created cube texture object.
+Address of a pointer to an [**IDirect3DCubeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master) interface, representing the created cube texture object.
 
 </dd> </dl>
 
@@ -102,7 +107,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 Cube textures differ from other surfaces in that they are collections of surfaces.
 
-Internally, D3DXCreateCubeTexture uses [**D3DXCheckCubeTextureRequirements**](d3dxcheckcubetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateCubeTexture will often succeed where calls to [**CreateCubeTexture**](idirect3ddevice9--createcubetexture.md) would fail.
+Internally, D3DXCreateCubeTexture uses [**D3DXCheckCubeTextureRequirements**](d3dxcheckcubetexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateCubeTexture will often succeed where calls to [**CreateCubeTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createcubetexture?branch=master) would fail.
 
 ## Requirements
 

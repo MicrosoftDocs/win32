@@ -1,8 +1,11 @@
 ---
 title: CompactVirtualHardDisk method of the Msvm\_ImageManagementService class
 description: Compacts a dynamic virtual hard disk file.
-ms.assetid: 'cef90f58-5d59-474d-ae4a-d0bd76f0b17e'
-keywords: ["CompactVirtualHardDisk method Hyper-V", "CompactVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , CompactVirtualHardDisk method"]
+ms.assetid: cef90f58-5d59-474d-ae4a-d0bd76f0b17e
+keywords:
+- CompactVirtualHardDisk method Hyper-V
+- CompactVirtualHardDisk method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , CompactVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CompactVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -22,8 +30,8 @@ Compacts a dynamic virtual hard disk file. Compacting is the process of unalloca
 
 ```mof
 uint32 CompactVirtualHardDisk(
-  [in]  string              Path,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -318,9 +326,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -339,9 +347,9 @@ End Function
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

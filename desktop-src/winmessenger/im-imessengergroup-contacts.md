@@ -1,8 +1,11 @@
 ---
 title: IMessengerGroup Contacts property
-description: Retrieves a list of contacts from the group's collection of users.
-ms.assetid: '7a0605ea-5f8c-4130-a017-174cc478dba0'
-keywords: ["Contacts property Windows Messenger", "Contacts property Windows Messenger , IMessengerGroup interface", "IMessengerGroup interface Windows Messenger , Contacts property"]
+description: Retrieves a list of contacts from the groups collection of users.
+ms.assetid: 7a0605ea-5f8c-4130-a017-174cc478dba0
+keywords:
+- Contacts property Windows Messenger
+- Contacts property Windows Messenger , IMessengerGroup interface
+- IMessengerGroup interface Windows Messenger , Contacts property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerGroup::Contacts property
 
-\[**Contacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Contacts** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a list of contacts from the group's collection of users.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Contacts(
-  [out, retval] IDispatch **ppMContacts
+  [out, retval] IDispatch **ppMContacts
 );
 ```
 
@@ -63,14 +71,14 @@ The following table lists the error codes returned by this property.
 
 
 
- 
+ 
 
 This property is available for scripting languages.
 
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -78,8 +86,8 @@ This property is available for scripting languages.
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -93,9 +101,9 @@ This property is available for scripting languages.
 [**IMessengerGroup**](im-imessengergroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

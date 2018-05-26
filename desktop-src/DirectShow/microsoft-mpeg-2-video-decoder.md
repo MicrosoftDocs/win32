@@ -1,7 +1,12 @@
-﻿---
-Description: 'This filter decodes MPEG-1, MPEG-2, H.264 video.'
-ms.assetid: 'd8195c3a-97ac-4ad1-a097-18878c8fda6f'
-title: 'Microsoft MPEG-2 Video Decoder'
+---
+Description: This filter decodes MPEG-1, MPEG-2, H.264 video.
+ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
+title: Microsoft MPEG-2 Video Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft MPEG-2 Video Decoder
@@ -26,7 +31,7 @@ Filter Information
 
 Filter Interfaces
 
-[**IAMDecoderCaps**](iamdecodercaps.md)<br/> [**IBaseFilter**](ibasefilter.md)<br/> [**ICodecAPI**](icodecapi.md)<br/>
+[**IAMDecoderCaps**](/windows/win32/Strmif/nn-strmif-iamdecodercaps?branch=master)<br/> [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)<br/> [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)<br/>
 
 Input Pin Media Types
 
@@ -54,7 +59,7 @@ See [H.264 Video Types](h-264-video-types.md) for more information. The input me
 
 Input Pin Interfaces
 
-[**ICodecAPI**](icodecapi.md)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMemInputPin**](imeminputpin.md)<br/> [**IMFSampleProtection**](mf.imfsampleprotection)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/>
+[**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)<br/> [**IMFSampleProtection**](mf.imfsampleprotection)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/>
 
 Output Pin Media Types
 
@@ -83,7 +88,7 @@ Subpicture output pin:<br/>
 
 Output Pin Interfaces
 
-[**IAMVideoAcceleratorNotify**](iamvideoacceleratornotify.md) (video output pin only)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMediaSeeking**](imediaseeking.md)<br/> [**IPin**](ipin.md)<br/> [**IQualityControl**](iqualitycontrol.md)<br/> [**IVPConfig**](ivpconfig.md)<br/>
+[**IAMVideoAcceleratorNotify**](/windows/win32/videoacc/nn-videoacc-iamvideoacceleratornotify?branch=master) (video output pin only)<br/> [**IKsPropertySet**](ikspropertyset.md)<br/> [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)<br/> [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master)<br/> [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)<br/> [**IVPConfig**](/windows/win32/Vpconfig/nn-vpconfig-ivpconfig?branch=master)<br/>
 
 Filter CLSID
 
@@ -194,7 +199,7 @@ The input pins support the following property sets through [**IKsPropertySet**](
 -   [**DVD Copy Protection Property Set**](dvd-copy-protection-property-set.md)
 -   [**DVD Subpicture Property Set**](dvd-subpicture-property-set.md) (subpicture pin only)
 
-The input pins support the following properties through [**ICodecAPI**](icodecapi.md):
+The input pins support the following properties through [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master):
 
 
 
@@ -208,7 +213,7 @@ The input pins support the following properties through [**ICodecAPI**](icodecap
 
  
 
-The filter supports the following properties through [**ICodecAPI**](icodecapi.md):
+The filter supports the following properties through [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master):
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'X3DAudio is an API used with XAudio2 to position sound in 3D space to create the illusion of sound coming from a point in space relative to the position of the camera.'
-ms.assetid: '1638e848-4186-5dea-18e8-5369eee544ae'
+Description: X3DAudio is an API used with XAudio2 to position sound in 3D space to create the illusion of sound coming from a point in space relative to the position of the camera.
+ms.assetid: 1638e848-4186-5dea-18e8-5369eee544ae
 title: X3DAudio Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # X3DAudio Overview
@@ -18,19 +23,19 @@ To manage sounds in 3D space, X3DAudio employs the concepts of *listeners* and *
 
 In addition to position, listeners and emitters can include velocity. Unlike a 3D rendering engine, X3DAudio only uses velocity to calculate Doppler effects (it is not used to calculate position).
 
-For more details about listeners and emitters, see the [**X3DAUDIO\_LISTENER**](x3daudio-listener.md) and [**X3DAUDIO\_EMITTER**](x3daudio-emitter.md) structure reference topics.
+For more details about listeners and emitters, see the [**X3DAUDIO\_LISTENER**](/windows/win32/x3daudio/ns-x3daudio-x3daudio_listener?branch=master) and [**X3DAUDIO\_EMITTER**](/windows/win32/x3daudio/ns-x3daudio-x3daudio_emitter?branch=master) structure reference topics.
 
 ## Using X3DAudio with XAudio2
 
 For all interaction between X3DAudio and XAudio2, use the following X3DAudio functions.
 
--   [**X3DAudioInitialize**](x3daudioinitialize.md)
+-   [**X3DAudioInitialize**](/windows/win32/x3daudio/nf-x3daudio-x3daudioinitialize?branch=master)
 
-    Call the [**X3DAudioInitialize**](x3daudioinitialize.md) function to initialize X3DAudio. Typically, you only need to call **X3DAudioInitialize** once in the lifetime of a game, unless the speaker configuration is changed.
+    Call the [**X3DAudioInitialize**](/windows/win32/x3daudio/nf-x3daudio-x3daudioinitialize?branch=master) function to initialize X3DAudio. Typically, you only need to call **X3DAudioInitialize** once in the lifetime of a game, unless the speaker configuration is changed.
 
--   [**X3DAudioCalculate**](x3daudiocalculate.md)
+-   [**X3DAudioCalculate**](/windows/win32/x3daudio/nf-x3daudio-x3daudiocalculate?branch=master)
 
-    After you initialize X3DAudio, you can determine volume and other values for a given sound by passing the sound's emitter and the listener to the [**X3DAudioCalculate**](x3daudiocalculate.md) function. The values calculated by **X3DAudioCalculate** can then be applied to XAudio2 voices or effects as appropriate for the flags passed to the function. You can apply volume and pitch values calculated by X3DAudio to a voice with the [**IXAudio2Voice::SetOutputMatrix**](ixaudio2voice-interface-setoutputmatrix.md) and [**IXAudio2SourceVoice::SetFrequencyRatio**](ixaudio2sourcevoice-interface-setfrequencyratio.md) methods. Other values calculated by X3DAudio will need to be applied to a [**reverb effect**](xaudio2createreverb.md) using the [**IXAudio2Voice::SetEffectParameters**](ixaudio2voice-interface-seteffectparameters.md) method.
+    After you initialize X3DAudio, you can determine volume and other values for a given sound by passing the sound's emitter and the listener to the [**X3DAudioCalculate**](/windows/win32/x3daudio/nf-x3daudio-x3daudiocalculate?branch=master) function. The values calculated by **X3DAudioCalculate** can then be applied to XAudio2 voices or effects as appropriate for the flags passed to the function. You can apply volume and pitch values calculated by X3DAudio to a voice with the [**IXAudio2Voice::SetOutputMatrix**](ixaudio2voice-interface-setoutputmatrix.md) and [**IXAudio2SourceVoice::SetFrequencyRatio**](ixaudio2sourcevoice-interface-setfrequencyratio.md) methods. Other values calculated by X3DAudio will need to be applied to a [**reverb effect**](/windows/win32/xaudio2fx/nf-xaudio2fx-xaudio2createreverb?branch=master) using the [**IXAudio2Voice::SetEffectParameters**](ixaudio2voice-interface-seteffectparameters.md) method.
 
 For a step-by-step example of using X3DAudio with XAudio2, see [How to: Integrate X3DAudio with XAudio](how-to--integrate-x3daudio-with-xaudio2.md)
 

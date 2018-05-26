@@ -1,12 +1,17 @@
-﻿---
-Description: 'Assigns vector component data to the current instance of XMCOLOR.'
-ms.assetid: '36001947-7303-4357-a7ff-e5e24853bff2'
+---
+Description: Assigns vector component data to the current instance of XMCOLOR.
+ms.assetid: 36001947-7303-4357-a7ff-e5e24853bff2
 title: operator = operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator = operators
 
-Assigns vector component data to the current instance of [**XMCOLOR**](xmcolor.md).
+Assigns vector component data to the current instance of [**XMCOLOR**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmcolor?branch=master).
 
 ### Overload list
 
@@ -26,7 +31,7 @@ Assigns vector component data to the current instance of [**XMCOLOR**](xmcolor.m
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[XMCOLOR::operator = (const XMCOLOR&amp;)](xmcolor-operator-eq-1.md)</td>
-<td style="text-align: left;">This operator assigns the vector component data from one instance of [<strong>XMCOLOR</strong>](xmcolor.md) to the current instance of <strong>XMCOLOR</strong>.<br/>
+<td style="text-align: left;">This operator assigns the vector component data from one instance of [<strong>XMCOLOR</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmcolor?branch=master) to the current instance of <strong>XMCOLOR</strong>.<br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -35,7 +40,7 @@ This operator is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[XMCOLOR::operator = (const uint32_t)](xmcolor-operator-eq-2.md)</td>
-<td style="text-align: left;">This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMCOLOR</strong>](xmcolor.md).<br/>
+<td style="text-align: left;">This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to the current instance of [<strong>XMCOLOR</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmcolor?branch=master).<br/>
 <blockquote>
 [!Note]<br />
 This operator is only available under C++.
@@ -57,7 +62,7 @@ This operator is only available under C++.
 **Reference**
 </dt> <dt>
 
-[**XMCOLOR**](xmcolor.md)
+[**XMCOLOR**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmcolor?branch=master)
 </dt> </dl>
 
  

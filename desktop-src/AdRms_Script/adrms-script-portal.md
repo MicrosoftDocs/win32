@@ -1,13 +1,16 @@
 ---
-Description: 'The Active Directory Rights Management Services (AD RMS) Scripting API can be used to create scripts to administer an AD RMS installation.'
+Description: The Active Directory Rights Management Services (AD RMS) Scripting API can be used to create scripts to administer an AD RMS installation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '1a53bf41-6b54-4937-9f63-6beed1ea9ffc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 1a53bf41-6b54-4937-9f63-6beed1ea9ffc
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: Active Directory Rights Management Services Scripting API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Rights Management Services Scripting API

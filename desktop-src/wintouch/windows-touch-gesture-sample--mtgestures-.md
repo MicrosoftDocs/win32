@@ -1,8 +1,20 @@
 ---
 title: Windows Touch Gesture Sample (MTGestures)
 description: This section describes the Windows Touch Gesture sample.
-ms.assetid: '04166c9c-5de7-409e-9d5e-dd210a3a3f11'
-keywords: ["Windows Touch,code samples", "Windows Touch,sample code", "Windows Touch,gestures", "Windows Touch,Gesture samples", "Gesture samples", "gestures,sample code", "gestures,code samples"]
+ms.assetid: 04166c9c-5de7-409e-9d5e-dd210a3a3f11
+keywords:
+- Windows Touch,code samples
+- Windows Touch,sample code
+- Windows Touch,gestures
+- Windows Touch,Gesture samples
+- Gesture samples
+- gestures,sample code
+- gestures,code samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Gesture Sample (MTGestures)

@@ -4,13 +4,15 @@ description: Represents an SMB mapping.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F8D70743-6EE5-4DE1-AA4E-BCDBEB7D38A9'
-ms.prod: 'windows-server-dev'
+ms.assetid: F8D70743-6EE5-4DE1-AA4E-BCDBEB7D38A9
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SmbMapping class SMB", "MSFT_SmbMapping class SMB , described"]
+keywords:
+- MSFT_SmbMapping class SMB
+- MSFT_SmbMapping class SMB , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SmbMapping class
@@ -62,7 +67,7 @@ The **MSFT\_SmbMapping** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -172,17 +177,17 @@ Status of the SMB mapping.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

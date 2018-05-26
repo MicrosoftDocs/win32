@@ -1,12 +1,17 @@
 ---
 title: AutoDial Mapping Database
 description: The AutoDial mapping database maps network addresses to RAS phone-book entries.
-ms.assetid: '4589d1e5-eec3-46ac-a10f-f20ae9f7b543'
+ms.assetid: 4589d1e5-eec3-46ac-a10f-f20ae9f7b543
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AutoDial Mapping Database
 
-The AutoDial mapping database maps network addresses to RAS phone-book entries. The database can include IP addresses (for example, "172.21.167.35"), Internet host names (for example, "www.microsoft.com"), or NetBIOS names (for example, "products1"). Associated with each address in the AutoDial database is a set of one or more [**RASAUTODIALENTRY**](rasautodialentry-str.md) entries. Each of these entries specifies a phone-book entry that RAS can dial to connect to the address from a particular Telephony Application Programming Interface (TAPI) dialing location. For more information about TAPI dialing locations, see the TAPI documentation.
+The AutoDial mapping database maps network addresses to RAS phone-book entries. The database can include IP addresses (for example, "172.21.167.35"), Internet host names (for example, "www.microsoft.com"), or NetBIOS names (for example, "products1"). Associated with each address in the AutoDial database is a set of one or more [**RASAUTODIALENTRY**](/windows/win32/Ras/?branch=master) entries. Each of these entries specifies a phone-book entry that RAS can dial to connect to the address from a particular Telephony Application Programming Interface (TAPI) dialing location. For more information about TAPI dialing locations, see the TAPI documentation.
 
 AutoDial automatically creates entries in the AutoDial mapping database in two situations:
 
@@ -18,7 +23,7 @@ AutoDial automatically creates entries in the AutoDial mapping database in two s
 
     Whenever the user connects to a network address, AutoDial creates an entry in the database. The entry maps the network address to the phone-book entry that was used to establish the RAS connection.
 
-You can use the [**RasSetAutodialAddress**](rassetautodialaddress.md) function to add an address to the AutoDial mapping database, delete an address from the database, or change the AutoDial entries associated with an existing address in the database. You can use the [**RasGetAutodialAddress**](rasgetautodialaddress.md) function to retrieve the AutoDial entries associated with a specified network address in the AutoDial mapping database. The [**RasEnumAutodialAddresses**](rasenumautodialaddresses.md) function returns a list of all addresses in the AutoDial mapping database.
+You can use the [**RasSetAutodialAddress**](/windows/win32/Ras/nf-ras-rassetautodialaddressa?branch=master) function to add an address to the AutoDial mapping database, delete an address from the database, or change the AutoDial entries associated with an existing address in the database. You can use the [**RasGetAutodialAddress**](/windows/win32/Ras/nf-ras-rasgetautodialaddressa?branch=master) function to retrieve the AutoDial entries associated with a specified network address in the AutoDial mapping database. The [**RasEnumAutodialAddresses**](/windows/win32/Ras/nf-ras-rasenumautodialaddressesa?branch=master) function returns a list of all addresses in the AutoDial mapping database.
 
  
 

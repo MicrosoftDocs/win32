@@ -4,11 +4,16 @@ description: Developers who use ADSI or LDAP to store and access relatively stat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bf856c3a-9061-474a-a536-c87ca50d5f83'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bf856c3a-9061-474a-a536-c87ca50d5f83
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["About Application Directory Partitions", "Application Directory Partitions, About"]
+keywords:
+- About Application Directory Partitions
+- Application Directory Partitions, About
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Application Directory Partitions

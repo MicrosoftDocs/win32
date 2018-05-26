@@ -1,7 +1,12 @@
 ---
-Description: 'There are many ways to handle dispatching received SOAP messages to the appropriate service. The two simplest mechanisms are transport level dispatch, and address and action dispatch.'
-ms.assetid: '988dc505-5d1f-46df-9340-107483bb9581'
+Description: There are many ways to handle dispatching received SOAP messages to the appropriate service. The two simplest mechanisms are transport level dispatch, and address and action dispatch.
+ms.assetid: 988dc505-5d1f-46df-9340-107483bb9581
 title: Dispatching SOAP Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dispatching SOAP Messages

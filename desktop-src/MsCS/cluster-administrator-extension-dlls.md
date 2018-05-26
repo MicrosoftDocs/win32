@@ -4,11 +4,15 @@ description: Extend the functionality of Failover Cluster Administrator to suppo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bce290f6-e68f-4b41-ae37-d11b2fb4f312'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: bce290f6-e68f-4b41-ae37-d11b2fb4f312
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster Administrator Failover Cluster , extension DLLs"]
+keywords:
+- Failover Cluster Administrator Failover Cluster , extension DLLs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Administrator Extension DLLs

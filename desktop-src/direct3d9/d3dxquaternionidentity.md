@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the identity quaternion.'
-ms.assetid: '8088897b-5755-4ea0-afef-bd49d1921f5c'
+---
+Description: Returns the identity quaternion.
+ms.assetid: 8088897b-5755-4ea0-afef-bd49d1921f5c
 title: D3DXQuaternionIdentity function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXQuaternionIdentity function

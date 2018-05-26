@@ -1,8 +1,9 @@
 ---
 title: IWMPSettings.isAvailable (VB and C\ )
 description: The isAvailable property (the get\_isAvailable method in C\ ) gets a value that indicates whether a specified action can be performed.
-ms.assetid: '9db1fc50-5c2a-4d2d-b1ed-02b8e6571372'
-keywords: ["IWMPSettings.isAvailable (VB and C ) Windows Media Player"]
+ms.assetid: 9db1fc50-5c2a-4d2d-b1ed-02b8e6571372
+keywords:
+- IWMPSettings.isAvailable (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings.isAvailable (VB and C#)
@@ -62,7 +68,7 @@ A **System.String** that is one of the following values.
 
 
 
- 
+ 
 
 ## Property Value
 
@@ -196,9 +202,9 @@ playerSettings.Lines = results</code></pre></td>
 [**IWMPSettings.volume (VB and C#)**](wmplibiwmpsettings-iwmpsettings-volume--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

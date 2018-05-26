@@ -1,7 +1,12 @@
 ---
 Description: Controlling a DV Camcorder
-ms.assetid: '3b17b28a-cac8-4753-8c4e-3e57f372d8e5'
+ms.assetid: 3b17b28a-cac8-4753-8c4e-3e57f372d8e5
 title: Controlling a DV Camcorder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controlling a DV Camcorder

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates that an Intelligent Platform Management Interface (IPMI) system event has occurred. The error is written to the SMBIOS System Event Log (SEL). This class is available only in 64-bit Windows systems.'
-ms.assetid: '1964f850-ac55-4639-9205-2eb0996dbaae'
-title: 'MSMCAEvent\_SystemEventError class'
+Description: Indicates that an Intelligent Platform Management Interface (IPMI) system event has occurred. The error is written to the SMBIOS System Event Log (SEL). This class is available only in 64-bit Windows systems.
+ms.assetid: 1964f850-ac55-4639-9205-2eb0996dbaae
+title: MSMCAEvent\_SystemEventError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_SystemEventError class
@@ -16,27 +21,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_SystemEventError : WMIEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint8   SEL_DATA1;
-  uint8   SEL_DATA2;
-  uint8   SEL_DATA3;
-  uint8   SEL_EVENT_DIR_TYPE;
-  uint8   SEL_EVM_REV;
-  uint16  SEL_GENERATOR_ID;
-  uint16  SEL_RECORD_ID;
-  uint8   SEL_RECORD_TYPE;
-  uint8   SEL_SENSOR_NUM;
-  uint8   SEL_SENSOR_TYPE;
-  uint64  SEL_TIME_STAMP;
-  uint32  Size;
-  uint32  Type;
-  uint64  VALIDATION_BITS;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint8   SEL_DATA1;
+  uint8   SEL_DATA2;
+  uint8   SEL_DATA3;
+  uint8   SEL_EVENT_DIR_TYPE;
+  uint8   SEL_EVM_REV;
+  uint16  SEL_GENERATOR_ID;
+  uint16  SEL_RECORD_ID;
+  uint8   SEL_RECORD_TYPE;
+  uint8   SEL_SENSOR_NUM;
+  uint8   SEL_SENSOR_TYPE;
+  uint64  SEL_TIME_STAMP;
+  uint32  Size;
+  uint32  Type;
+  uint64  VALIDATION_BITS;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -112,7 +117,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -372,7 +377,7 @@ Validation bits used to indicate the validity of the subsequent fields.
 
 
 
- 
+ 
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -388,8 +393,8 @@ The **MSMCAEvent\_SystemEventError** class is derived from [**WMIEvent**](wmieve
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -406,9 +411,9 @@ The **MSMCAEvent\_SystemEventError** class is derived from [**WMIEvent**](wmieve
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

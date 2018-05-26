@@ -1,7 +1,12 @@
 ---
 title: Start a Help System Design
 description: Start a Help System Design
-ms.assetid: 'B3246B04-359A-44b2-A632-E47CA023D365'
+ms.assetid: B3246B04-359A-44b2-A632-E47CA023D365
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Start a Help System Design

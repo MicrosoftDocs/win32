@@ -1,8 +1,11 @@
 ---
 title: Engine AnalyzeResults method
 description: Analyzes the assessment results.
-ms.assetid: '71282C73-2304-4C26-B7FF-91553809E292'
-keywords: ["AnalyzeResults method Access Execution Engine", "AnalyzeResults method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , AnalyzeResults method"]
+ms.assetid: 71282C73-2304-4C26-B7FF-91553809E292
+keywords:
+- AnalyzeResults method Access Execution Engine
+- AnalyzeResults method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , AnalyzeResults method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::AnalyzeResults method
@@ -22,7 +30,7 @@ Analyzes the assessment results.
 
 ```C++
 virtual HRESULT AnalyzeResults(
-  [in] AnalyzeResultsInfo *info
+  [in] AnalyzeResultsInfo *info
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ Parameter *info* is an [**AnalyzeResultsInfo**](analyzeresultsinfo.md) structure
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ Parameter *info* is an [**AnalyzeResultsInfo**](analyzeresultsinfo.md) structure
 [**Engine**](engine-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

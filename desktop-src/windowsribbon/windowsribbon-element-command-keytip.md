@@ -1,14 +1,20 @@
 ---
 title: Command.Keytip property
 description: Represents the keytip for a control.
-ms.assetid: '214f69ae-dd35-4abf-b294-d898d7802aa6'
-keywords: ["Command.Keytip property Windows Ribbon"]
+ms.assetid: 214f69ae-dd35-4abf-b294-d898d7802aa6
+keywords:
+- Command.Keytip property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Command.Keytip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command.Keytip property
@@ -57,7 +63,7 @@ May occur at most once for each [**Command**](windowsribbon-element-command.md) 
 
 A **Command.Keytip** can begin with a number only when associated with a control within a [Tab](windowsribbon-controls-tab.md) or the [Quick Access Toolbar](windowsribbon-controls-quickaccesstoolbar.md).
 
-To display the keytips that are valid for the current state of the ribbon, press and hold the ALT key. The following screen shot shows the initial, or first level, keytips that are displayed in Microsoft Paint for Windows 7. After a first-level keytip has been selected, only second-level keytips are displayed.
+To display the keytips that are valid for the current state of the ribbon, press and hold the ALT key. The following screen shot shows the initial, or first level, keytips that are displayed in Microsoft Paint for Windows 7. After a first-level keytip has been selected, only second-level keytips are displayed.
 
 ![first-level keytips in microsoft paint for windows 7](images/properties/ui-pkey-label-keytips.png)
 
@@ -68,7 +74,7 @@ If no value is supplied for **Command.Keytip**, the [**String**](windowsribbon-e
 > [!Note]  
 > If **Command.Keytip** contains both a value and a [**String**](windowsribbon-element-string.md) child element, **String** takes precedence.
 
- 
+ 
 
 By default, the following letters are used by the framework to automatically generate keytips:
 
@@ -79,7 +85,7 @@ By default, the following letters are used by the framework to automatically gen
 > [!Note]  
 > None of these letters are reserved by the framework. Each can be assigned to one or more commands as required.
 
- 
+ 
 
 The framework resolves keytip conflicts in the following ways:
 
@@ -90,7 +96,7 @@ The framework resolves keytip conflicts in the following ways:
 > [!Note]  
 > A slight variation in text color is used to highlight refactored keytips in a standard ribbon implementation. For a nonstandard ribbon implementation where the ribbon color has been customized, this framework behavior is overridden and all keytips are displayed with the same text color. For more information, see [Customizing Ribbon Colors](ribbon-color.md).
 
- 
+ 
 
 The maximum length is unbounded.
 
@@ -126,8 +132,8 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -138,9 +144,9 @@ The following example demonstrates the markup for a [**Command**](windowsribbon-
 [UI\_PKEY\_Keytip](windowsribbon-reference-properties-uipkey-keytip.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

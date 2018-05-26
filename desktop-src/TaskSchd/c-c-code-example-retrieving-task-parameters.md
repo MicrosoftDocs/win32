@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving Task Parameters
 description: This example retrieves the parameter string that is executed when the task is run and displays that string on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'fefa668e-803f-4e05-8097-b75231ee8f72'
-keywords: ["retrieving task parameters Task Scheduler", "retrieving task properties Task Scheduler , parameters"]
+ms.assetid: fefa668e-803f-4e05-8097-b75231ee8f72
+keywords:
+- retrieving task parameters Task Scheduler
+- retrieving task properties Task Scheduler , parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Task Parameters

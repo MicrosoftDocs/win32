@@ -1,7 +1,12 @@
 ---
 title: Kernel Trace Control Design Guide
 description: Kernel Trace Control Design Guide
-ms.assetid: '32d805e2-1e14-435a-9d32-69bb1558fe1f'
+ms.assetid: 32d805e2-1e14-435a-9d32-69bb1558fe1f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kernel Trace Control Design Guide

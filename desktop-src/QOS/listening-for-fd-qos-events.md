@@ -1,7 +1,12 @@
 ---
 title: Listening for FD\_QOS Events
 description: QOS status is provided through FD\_QOS events.
-ms.assetid: '5e3a8cb1-e841-4050-8083-48838fdc6caf'
+ms.assetid: 5e3a8cb1-e841-4050-8083-48838fdc6caf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listening for FD\_QOS Events

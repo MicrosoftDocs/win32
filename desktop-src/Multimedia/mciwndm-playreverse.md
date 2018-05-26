@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_PLAYREVERSE message
 description: The MCIWNDM\_PLAYREVERSE message plays the current content in the reverse direction, beginning at the current position and ending at the beginning of the content or until another command stops playback.
-ms.assetid: '93a22454-eca6-453f-abbe-6cf20198dbad'
-keywords: ["MCIWNDM_PLAYREVERSE message Windows Multimedia"]
+ms.assetid: 93a22454-eca6-453f-abbe-6cf20198dbad
+keywords:
+- MCIWNDM_PLAYREVERSE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_PLAYREVERSE message
 
-The **MCIWNDM\_PLAYREVERSE** message plays the current content in the reverse direction, beginning at the current position and ending at the beginning of the content or until another command stops playback. You can send this message explicitly or by using the [**MCIWndPlayReverse**](mciwndplayreverse.md) macro.
+The **MCIWNDM\_PLAYREVERSE** message plays the current content in the reverse direction, beginning at the current position and ending at the beginning of the content or until another command stops playback. You can send this message explicitly or by using the [**MCIWndPlayReverse**](/windows/win32/Vfw/nf-vfw-mciwndplayreverse?branch=master) macro.
 
 
 ```C++
@@ -36,8 +42,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -46,12 +52,12 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndPlayReverse**](mciwndplayreverse.md)
+[**MCIWndPlayReverse**](/windows/win32/Vfw/nf-vfw-mciwndplayreverse?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

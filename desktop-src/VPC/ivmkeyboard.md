@@ -1,8 +1,10 @@
 ---
 title: IVMKeyboard interface
 description: Controls the keyboard device within a virtual machine. The IVMKeyboard for a virtual machine can be retrieved using the IVMVirtualMachine Keyboard property.
-ms.assetid: 'a64a23b6-3937-40c6-af9d-fb341c04fbf7'
-keywords: ["IVMKeyboard interface Virtual PC", "IVMKeyboard interface Virtual PC , described"]
+ms.assetid: a64a23b6-3937-40c6-af9d-fb341c04fbf7
+keywords:
+- IVMKeyboard interface Virtual PC
+- IVMKeyboard interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMKeyboard interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Controls the keyboard device within a virtual machine. The **IVMKeyboard** for a virtual machine can be retrieved using the [**IVMVirtualMachine::Keyboard**](ivmvirtualmachine-keyboard.md) property.
 
@@ -43,7 +50,7 @@ The **IVMKeyboard** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +64,7 @@ The **IVMKeyboard** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,9 +78,9 @@ To avoid multiple scripts, applications, or users from simultaneously attempting
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMKeyboard is defined as 00695f2e-c5ad-4d6e-b1ab-336ed121f8c4<br/>                |
@@ -90,9 +97,9 @@ To avoid multiple scripts, applications, or users from simultaneously attempting
 [Key Sequences](key-sequences.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

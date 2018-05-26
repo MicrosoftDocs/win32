@@ -1,7 +1,12 @@
 ---
 Description: Transform Attributes
-ms.assetid: '9beb1306-1378-499c-b9e1-c768a7b4c8bc'
+ms.assetid: 9beb1306-1378-499c-b9e1-c768a7b4c8bc
 title: Transform Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transform Attributes
@@ -28,7 +33,7 @@ The following attributes apply either to [Media Foundation Transforms](media-fou
 | [MFT\_ENUM\_HARDWARE\_URL\_Attribute](mft-enum-hardware-url-attribute.md)                                    | Contains the symbolic link for a hardware-based MFT.                                                                                                                                          | MFTs/MFT activation objects |
 | [MFT\_ENUM\_HARDWARE\_VENDOR\_ID\_Attribute](mft-enum-hardware-vendor-id-attribute.md)                       | Specifies the vendor ID for a hardware-based Media Foundation Transform                                                                                                                       | MFTs                        |
 | [MFT\_ENUM\_TRANSCODE\_ONLY\_ATTRIBUTE](mft-enum-transcode-only-attribute.md)                                | Specifies whether a decoder is optimized for transcoding rather than for playback.                                                                                                            | MFTs                        |
-| [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md)                                     | Contains an [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) pointer, which can be used to unlock the MFT.                                                                            | MFT activation objects      |
+| [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md)                                     | Contains an [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) pointer, which can be used to unlock the MFT.                                                                            | MFT activation objects      |
 | [MFT\_FRIENDLY\_NAME\_Attribute](mft-friendly-name-attribute.md)                                             | Contains the display name for a hardware-based MFT.                                                                                                                                           | MFT activation objects      |
 | [MFT\_INPUT\_TYPES\_Attributes](mft-input-types-attributes.md)                                               | Contains the registered input types for an MFT.                                                                                                                                               | MFT activation objects      |
 | [MFT\_OUTPUT\_TYPES\_Attributes](mft-output-types-attributes.md)                                             | Contains the registered output types for an MFT.                                                                                                                                              | MFT activation objects      |
@@ -49,7 +54,7 @@ The following attributes apply either to [Media Foundation Transforms](media-fou
 
 <dl> <dt>
 
-[**IMFTransform**](imftransform.md)
+[**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

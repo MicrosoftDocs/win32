@@ -4,13 +4,15 @@ description: Represents the Shielded VM Provisioning Service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e895dfa5-8802-47d5-bcd7-62b9813384d2'
-ms.prod: 'windows-server-dev'
+ms.assetid: e895dfa5-8802-47d5-bcd7-62b9813384d2
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msps_ProvisioningService class", "Msps_ProvisioningService class, described"]
+keywords:
+- Msps_ProvisioningService class
+- Msps_ProvisioningService class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msps\_ProvisioningService class
@@ -55,7 +60,7 @@ The **Msps\_ProvisioningService** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,16 +69,16 @@ The **Msps\_ProvisioningService** class has these methods.
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

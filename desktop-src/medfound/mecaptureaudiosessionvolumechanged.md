@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an audio capture source when the volume changes.'
-ms.assetid: '4A525D5F-9226-4277-BDB7-174BF65FE320'
+---
+Description: Sent by an audio capture source when the volume changes.
+ms.assetid: 4A525D5F-9226-4277-BDB7-174BF65FE320
 title: MECaptureAudioSessionVolumeChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MECaptureAudioSessionVolumeChanged event
@@ -10,7 +15,7 @@ Sent by an audio capture source when the volume changes.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The ExecMethodAsync\_ method of SWbemObject asynchronously executes a method that a method provider exports.'
+Description: The ExecMethodAsync\_ method of SWbemObject asynchronously executes a method that a method provider exports.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b848b38b-c0c3-49cd-b1e2-b0a440b82d61'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b848b38b-c0c3-49cd-b1e2-b0a440b82d61
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.ExecMethodAsync\_ method'
+title: SWbemObject.ExecMethodAsync\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.ExecMethodAsync\_ method
@@ -233,8 +236,8 @@ end sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -253,9 +256,9 @@ end sub
 [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

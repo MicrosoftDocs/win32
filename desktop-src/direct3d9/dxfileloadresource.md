@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies resource data. Deprecated.'
-ms.assetid: 'acb379c7-ac80-412f-8891-d5917b3f8da4'
+---
+Description: Identifies resource data. Deprecated.
+ms.assetid: acb379c7-ac80-412f-8891-d5917b3f8da4
 title: DXFILELOADRESOURCE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXFILELOADRESOURCE structure

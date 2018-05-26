@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::DrvUpdateUISetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can notify the driver of a modified user interface option.'
-ms.assetid: '64cbb304-51f6-4db4-93cb-a64ea5e03599'
-title: 'IPrintCoreUI2::DrvUpdateUISetting method'
+---
+Description: The IPrintCoreUI2DrvUpdateUISetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can notify the driver of a modified user interface option.
+ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
+title: IPrintCoreUI2DrvUpdateUISetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::DrvUpdateUISetting method

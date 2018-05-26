@@ -4,17 +4,22 @@ description: The time when this root key was created.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7e43e290-4c6b-4410-a8ec-d55d9c71c181'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7e43e290-4c6b-4410-a8ec-d55d9c71c181
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-CreateTime attribute AD Schema", "msKds-CreateTime attribute AD Schema"]
+keywords:
+- ms-Kds-CreateTime attribute AD Schema
+- msKds-CreateTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-CreateTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-CreateTime attribute
@@ -38,7 +43,7 @@ The time when this root key was created.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ The time when this root key was created.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

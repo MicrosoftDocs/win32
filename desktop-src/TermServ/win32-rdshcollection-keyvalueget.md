@@ -4,11 +4,14 @@ description: Retrieves the value associated with the specified key in the collec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '69d309a4-b32e-4dbc-bd28-be79d395ac26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 69d309a4-b32e-4dbc-bd28-be79d395ac26
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["KeyValueGet method Remote Desktop Services", "KeyValueGet method Remote Desktop Services , Win32_RDSHCollection class", "Win32_RDSHCollection class Remote Desktop Services , KeyValueGet method"]
+keywords:
+- KeyValueGet method Remote Desktop Services
+- KeyValueGet method Remote Desktop Services , Win32_RDSHCollection class
+- Win32_RDSHCollection class Remote Desktop Services , KeyValueGet method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KeyValueGet method of the Win32\_RDSHCollection class
@@ -28,8 +34,8 @@ Retrieves the value associated with the specified key in the collection.
 
 ```mof
 uint32 KeyValueGet(
-  [in]  string Key,
-  [out] string Value
+  [in]  string Key,
+  [out] string Value
 );
 ```
 
@@ -60,7 +66,7 @@ On success, returns the value associated with the specified key.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -74,9 +80,9 @@ On success, returns the value associated with the specified key.
 [**Win32\_RDSHCollection**](win32-rdshcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

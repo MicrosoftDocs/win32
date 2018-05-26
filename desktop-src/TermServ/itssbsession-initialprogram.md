@@ -4,11 +4,14 @@ description: Retrieves or specifies the initial program for this session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c299c4f7-3c5f-468f-9fc7-81eac322dfa2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c299c4f7-3c5f-468f-9fc7-81eac322dfa2
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["InitialProgram property Remote Desktop Services", "InitialProgram property Remote Desktop Services , ITsSbSession interface", "ITsSbSession interface Remote Desktop Services , InitialProgram property"]
+keywords:
+- InitialProgram property Remote Desktop Services
+- InitialProgram property Remote Desktop Services , ITsSbSession interface
+- ITsSbSession interface Remote Desktop Services , InitialProgram property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbSession::InitialProgram property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_InitialProgram(
-  [in]          BSTR Application
+  [in]          BSTR Application
 );
 
 HRESULT get_InitialProgram(
-  [out, retval] BSTR *app
+  [out, retval] BSTR *app
 );
 ```
 
@@ -53,7 +59,7 @@ A **BSTR** variable that contains the initial program.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -62,12 +68,12 @@ A **BSTR** variable that contains the initial program.
 
 <dl> <dt>
 
-[**ITsSbSession**](itssbsession.md)
+[**ITsSbSession**](/windows/win32/sbtsv/nn-sbtsv-itssbsession?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

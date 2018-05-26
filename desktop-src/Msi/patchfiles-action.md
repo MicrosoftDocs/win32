@@ -1,7 +1,12 @@
 ---
-Description: 'The PatchFiles action queries the Patch table to determine which patches are to be applied. The PatchFiles action also performs the byte-wise patching of the files.'
-ms.assetid: '4026755e-a006-40c0-8816-de5358f4582e'
+Description: The PatchFiles action queries the Patch table to determine which patches are to be applied. The PatchFiles action also performs the byte-wise patching of the files.
+ms.assetid: 4026755e-a006-40c0-8816-de5358f4582e
 title: PatchFiles Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PatchFiles Action

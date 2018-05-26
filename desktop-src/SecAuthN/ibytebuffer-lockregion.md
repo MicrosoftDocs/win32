@@ -1,12 +1,17 @@
 ---
-Description: 'Restricts access to a specified range of bytes in the buffer object.'
-ms.assetid: '7bcb3c1e-5739-41f7-a3aa-2943542943ed'
-title: 'IByteBuffer::LockRegion method'
+Description: Restricts access to a specified range of bytes in the buffer object.
+ms.assetid: 7bcb3c1e-5739-41f7-a3aa-2943542943ed
+title: IByteBufferLockRegion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer::LockRegion method
 
-\[The **LockRegion** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
+\[The **LockRegion** method is available for use in the operating systems specified in the Requirements section. It is not available for use in Windows Server 2003 with Service Pack 1 (SP1) and later, Windows Vista, Windows Server 2008, and subsequent versions of the operating system. The [**IStream**](https://msdn.microsoft.com/library/windows/desktop/aa380034) interface provides similar functionality.\]
 
 The **LockRegion** method restricts access to a specified range of bytes in the buffer object.
 
@@ -15,9 +20,9 @@ The **LockRegion** method restricts access to a specified range of bytes in the 
 
 ```C++
 HRESULT LockRegion(
-  [in] LONG libOffset,
-  [in] LONG cb,
-  [in] LONG dwLockType
+  [in] LONG libOffset,
+  [in] LONG cb,
+  [in] LONG dwLockType
 );
 ```
 
@@ -56,7 +61,7 @@ Specifies the restrictions being requested on accessing the range. This can be o
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -94,10 +99,10 @@ if (FAILED(hr))
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Scardssp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Scardssp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
@@ -105,9 +110,9 @@ if (FAILED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

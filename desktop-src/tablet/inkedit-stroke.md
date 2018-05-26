@@ -1,21 +1,26 @@
 ---
-Description: 'Occurs when the user draws a new IInkStrokeDisp object on any IInkTablet object.'
-ms.assetid: 'fac5104d-d0da-40b1-a4a6-00a34718d09f'
-title: 'InkEdit.Stroke event'
+Description: Occurs when the user draws a new IInkStrokeDisp object on any IInkTablet object.
+ms.assetid: fac5104d-d0da-40b1-a4a6-00a34718d09f
+title: InkEdit.Stroke event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit.Stroke event
 
-Occurs when the user draws a new [**IInkStrokeDisp**](iinkstrokedisp.md) object on any [**IInkTablet**](iinktablet.md) object.
+Occurs when the user draws a new [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object on any [**IInkTablet**](/windows/win32/msinkaut/nn-msinkaut-iinktablet?branch=master) object.
 
 ## Syntax
 
 
 ```C++
 HRESULT Stroke(
-  [in]      IInkCursor     *Cursor,
-  [in]      IInkStrokeDisp *Stroke,
-  [in, out] VARIANT_BOOL   *Cancel
+  [in]      IInkCursor     *Cursor,
+  [in]      IInkStrokeDisp *Stroke,
+  [in, out] VARIANT_BOOL   *Cancel
 );
 ```
 
@@ -28,21 +33,21 @@ HRESULT Stroke(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor**](iinkcursor.md) object.
+The [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object.
 
 </dd> <dt>
 
 *Stroke* \[in\]
 </dt> <dd>
 
-The collected [**IInkStrokeDisp**](iinkstrokedisp.md) object.
+The collected [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object.
 
 </dd> <dt>
 
 *Cancel* \[in, out\]
 </dt> <dd>
 
-**VARIANT\_TRUE** to cancel the collection of the [**IInkStrokeDisp**](iinkstrokedisp.md) object; **VARIANT\_FALSE** to collect the **IInkStrokeDisp** object and continue with the **Stroke** even.
+**VARIANT\_TRUE** to cancel the collection of the [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) object; **VARIANT\_FALSE** to collect the **IInkStrokeDisp** object and continue with the **Stroke** even.
 
 </dd> </dl>
 
@@ -60,7 +65,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Inked.h (also requires inked\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
@@ -74,15 +79,15 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [InkEdit](inkedit-control-reference.md)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> <dt>
 
-[**IInkStrokeDisp Interface**](iinkstrokedisp.md)
+[**IInkStrokeDisp Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

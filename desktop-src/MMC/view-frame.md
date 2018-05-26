@@ -4,11 +4,16 @@ description: The Frame property retrieves the frame for the view. This property 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b0218168-2987-40a6-9a66-f18c4055985d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b0218168-2987-40a6-9a66-f18c4055985d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Frame property MMC", "Frame property MMC , View object", "View object MMC , Frame property", "Frame property MMC , View interface", "View interface MMC , Frame property"]
+keywords:
+- Frame property MMC
+- Frame property MMC , View object
+- View object MMC , Frame property
+- Frame property MMC , View interface
+- View interface MMC , Frame property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::Frame property
@@ -60,8 +68,8 @@ Set objFrm = Nothing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -76,9 +84,9 @@ Set objFrm = Nothing
 [**Frame object**](frame-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

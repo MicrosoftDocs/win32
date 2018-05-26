@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.'
-ms.assetid: 'ed9053c0-b1df-4f74-bdee-627c0f60d942'
+---
+Description: Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.
+ms.assetid: ed9053c0-b1df-4f74-bdee-627c0f60d942
 title: D3DXComputeNormalMap function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXComputeNormalMap function
@@ -31,27 +36,27 @@ HRESULT D3DXComputeNormalMap(
 *pTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface, representing the destination texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface, representing the destination texture.
 
 </dd> <dt>
 
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)**
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)**
 
-Pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface, representing the source height-map texture.
+Pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface, representing the source height-map texture.
 
 </dd> <dt>
 
 *pSrcPalette* \[in\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](paletteentry.md)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) type that contains the source palette of 256 colors or **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) type that contains the source palette of 256 colors or **NULL**.
 
 </dd> <dt>
 

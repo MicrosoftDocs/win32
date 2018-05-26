@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an instance of the capture engine.'
-ms.assetid: '4B0C9DD6-135D-4412-A585-7E98A84101B5'
+---
+Description: Creates an instance of the capture engine.
+ms.assetid: 4B0C9DD6-135D-4412-A585-7E98A84101B5
 title: MFCreateCaptureEngine function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFCreateCaptureEngine function
@@ -28,7 +33,7 @@ HRESULT MFCreateCaptureEngine(
 *ppCaptureEngine* \[out\]
 </dt> <dd>
 
-Receives a pointer to the [**IMFCaptureEngine**](imfcaptureengine.md) interface. The caller must release the interface.
+Receives a pointer to the [**IMFCaptureEngine**](/windows/win32/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine?branch=master) interface. The caller must release the interface.
 
 </dd> </dl>
 

@@ -4,17 +4,22 @@ description: The effective quota for a security principal computed from the assi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '22422499-9b56-4d74-a30e-63917abacdd1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 22422499-9b56-4d74-a30e-63917abacdd1
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Quota-Effective attribute AD Schema", "msDS-QuotaEffective attribute AD Schema"]
+keywords:
+- ms-DS-Quota-Effective attribute AD Schema
+- msDS-QuotaEffective attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Quota-Effective
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Quota-Effective attribute
@@ -38,12 +43,12 @@ The effective quota for a security principal computed from the assigned quotas f
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -171,9 +176,9 @@ The effective quota for a security principal computed from the assigned quotas f
 
 
 
- 
+ 
 
- 
+ 
 
 
 

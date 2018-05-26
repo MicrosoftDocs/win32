@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides information about the interfaces that enable the new print driver in Windows 8.'
-ms.assetid: '65B27388-D77C-406D-B537-60A17FDF5284'
+Description: This section provides information about the interfaces that enable the new print driver in Windows 8.
+ms.assetid: 65B27388-D77C-406D-B537-60A17FDF5284
 title: Print Schema Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Print Schema Interfaces

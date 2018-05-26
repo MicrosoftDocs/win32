@@ -1,7 +1,12 @@
 ---
 title: To create an 800 X 600 window from the command line
 description: To create an 800 X 600 window from the command line
-ms.assetid: 'B40923F5-E407-4cdd-B97F-D51CB1301B43'
+ms.assetid: B40923F5-E407-4cdd-B97F-D51CB1301B43
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create an 800 X 600 window from the command line

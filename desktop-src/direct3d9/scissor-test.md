@@ -1,7 +1,12 @@
 ---
-Description: 'The scissor test culls pixels that are outside of the scissor rectangle, a user-defined rectangular sub-section of the render target.'
-ms.assetid: 'deff4f54-4a2f-4d9a-98a7-a69d5fc0853d'
-title: 'Scissor Test (Direct3D 9)'
+Description: The scissor test culls pixels that are outside of the scissor rectangle, a user-defined rectangular sub-section of the render target.
+ms.assetid: deff4f54-4a2f-4d9a-98a7-a69d5fc0853d
+title: Scissor Test (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scissor Test (Direct3D 9)
@@ -12,7 +17,7 @@ The scissor rectangle could be used to indicate the area of the render target wh
 
 Scissor rectangles cannot be set larger than the render target, but they can be set larger than the viewport.
 
-The scissor rectangle is managed by a device render state. A scissor test is enabled or disabled by setting the renderstate to **TRUE** or **FALSE**. This test is performed after the fragment color is computed but before alpha testing. [**IDirect3DDevice9::SetRenderTarget**](idirect3ddevice9--setrendertarget.md) resets the scissor rectangle to the full render target, analogous to the viewport reset. [**IDirect3DDevice9::SetScissorRect**](idirect3ddevice9--setscissorrect.md) is recorded by stateblocks, and [**IDirect3DDevice9::CreateStateBlock**](idirect3ddevice9--createstateblock.md) with the all state setting (D3DSBT\_ALL value in [**D3DSTATEBLOCKTYPE**](direct3d9.d3dstateblocktype)). The scissor test also affects the device [**IDirect3DDevice9::Clear**](idirect3ddevice9--clear.md) operation.
+The scissor rectangle is managed by a device render state. A scissor test is enabled or disabled by setting the renderstate to **TRUE** or **FALSE**. This test is performed after the fragment color is computed but before alpha testing. [**IDirect3DDevice9::SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) resets the scissor rectangle to the full render target, analogous to the viewport reset. [**IDirect3DDevice9::SetScissorRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setscissorrect?branch=master) is recorded by stateblocks, and [**IDirect3DDevice9::CreateStateBlock**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createstateblock?branch=master) with the all state setting (D3DSBT\_ALL value in [**D3DSTATEBLOCKTYPE**](direct3d9.d3dstateblocktype)). The scissor test also affects the device [**IDirect3DDevice9::Clear**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-clear?branch=master) operation.
 
 
 ```

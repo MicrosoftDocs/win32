@@ -1,7 +1,12 @@
 ---
 title: Mobile Device Management Application Provider
 description: The Mobile Device Management (MDM) application provider manages applications on devices that subscribe to the MDM service.
-ms.assetid: '7466a06d-5bc2-472f-9c33-8c5f3633d122'
+ms.assetid: 7466a06d-5bc2-472f-9c33-8c5f3633d122
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mobile Device Management Application Provider

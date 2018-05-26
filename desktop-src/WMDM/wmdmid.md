@@ -1,8 +1,10 @@
 ---
 title: WMDMID structure
 description: The WMDMID structure describes serial numbers and group IDs.
-ms.assetid: 'eaa5786e-a2a1-42d7-b527-be83d944cb20'
-keywords: ["WMDMID structure windows Media Device Manager", "PWMDMID structure pointer windows Media Device Manager"]
+ms.assetid: eaa5786e-a2a1-42d7-b527-be83d944cb20
+keywords:
+- WMDMID structure windows Media Device Manager
+- PWMDMID structure pointer windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDMID structure
@@ -22,10 +29,10 @@ The **WMDMID** structure describes serial numbers and group IDs.
 
 ```C++
 typedef struct __WMDMID {
-  UINT  cbSize;
+  UINT  cbSize;
   DWORD dwVendorID;
-  BYTE  pID[WMDMID_LENGTH];
-  UINT  SerialNumberLength;
+  BYTE  pID[WMDMID_LENGTH];
+  UINT  SerialNumberLength;
 } WMDMID, *PWMDMID;
 ```
 
@@ -77,24 +84,24 @@ Actual length of the serial number returned, in bytes.
 
 <dl> <dt>
 
-[**IMDSPDevice::GetSerialNumber**](imdspdevice-getserialnumber.md)
+[**IMDSPDevice::GetSerialNumber**](/windows/win32/mswmdm/nf-mswmdm-imdspdevice-getserialnumber?branch=master)
 </dt> <dt>
 
-[**IMDSPStorageGlobals::GetSerialNumber**](imdspstorageglobals-getserialnumber.md)
+[**IMDSPStorageGlobals::GetSerialNumber**](/windows/win32/mswmdm/nf-mswmdm-imdspstorageglobals-getserialnumber?branch=master)
 </dt> <dt>
 
-[**IWMDMDevice::GetSerialNumber**](iwmdmdevice-getserialnumber.md)
+[**IWMDMDevice::GetSerialNumber**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice-getserialnumber?branch=master)
 </dt> <dt>
 
-[**IWMDMStorageGlobals::GetSerialNumber**](iwmdmstorageglobals-getserialnumber.md)
+[**IWMDMStorageGlobals::GetSerialNumber**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorageglobals-getserialnumber?branch=master)
 </dt> <dt>
 
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

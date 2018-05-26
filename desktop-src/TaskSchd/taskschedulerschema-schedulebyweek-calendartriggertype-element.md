@@ -1,14 +1,21 @@
 ---
 title: ScheduleByWeek (calendarTriggerType) Element
 description: Specifies a weekly schedule.
-ms.assetid: 'd2c33e76-0564-4b3c-ab86-e7bca667fa4f'
-keywords: ["weekly trigger Task Scheduler , XML element", "ScheduleByWeek element Task Scheduler"]
+ms.assetid: d2c33e76-0564-4b3c-ab86-e7bca667fa4f
+keywords:
+- weekly trigger Task Scheduler , XML element
+- ScheduleByWeek element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ScheduleByWeek
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScheduleByWeek (calendarTriggerType) Element
@@ -52,7 +59,7 @@ The time of day that the task is started is set by the [**StartBoundary**](tasks
 
 For scripting development, a weekly trigger is specified using the [**WeeklyTrigger**](weeklytrigger.md) object.
 
-For C++ development, a weekly trigger is specified using the [**IWeeklyTrigger**](iweeklytrigger.md) interface.
+For C++ development, a weekly trigger is specified using the [**IWeeklyTrigger**](/windows/win32/taskschd/nn-taskschd-iweeklytrigger?branch=master) interface.
 
 ## Examples
 
@@ -84,8 +91,8 @@ The following XML defines a weekly calendar trigger that starts a task Monday th
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -99,9 +106,9 @@ The following XML defines a weekly calendar trigger that starts a task Monday th
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

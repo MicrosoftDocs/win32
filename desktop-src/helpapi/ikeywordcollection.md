@@ -1,8 +1,10 @@
 ---
 title: IKeywordCollection interface
 description: Collection of IKeyword interfaces
-ms.assetid: '6e61654a-1983-4c8e-b182-76ea0dd52326'
-keywords: ["IKeywordCollection interface HelpAPI", "IKeywordCollection interface HelpAPI , described"]
+ms.assetid: 6e61654a-1983-4c8e-b182-76ea0dd52326
+keywords:
+- IKeywordCollection interface HelpAPI
+- IKeywordCollection interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IKeywordCollection interface
@@ -42,7 +49,7 @@ The **IKeywordCollection** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -58,7 +65,7 @@ The **IKeywordCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,15 +73,15 @@ The **IKeywordCollection** interface has these properties.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

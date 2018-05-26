@@ -1,8 +1,17 @@
 ---
 title: Live DRM
 description: Live DRM
-ms.assetid: '0af65f28-8c47-4827-b6d6-c32d75b00f2c'
-keywords: ["Windows Media Format SDK,Live DRM", "digital rights management (DRM),Live DRM", "DRM (digital rights management),Live DRM", "Live DRM"]
+ms.assetid: 0af65f28-8c47-4827-b6d6-c32d75b00f2c
+keywords:
+- Windows Media Format SDK,Live DRM
+- digital rights management (DRM),Live DRM
+- DRM (digital rights management),Live DRM
+- Live DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Live DRM

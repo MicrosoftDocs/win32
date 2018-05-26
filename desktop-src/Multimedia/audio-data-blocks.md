@@ -1,8 +1,18 @@
 ---
 title: Audio Data Blocks
 description: Audio Data Blocks
-ms.assetid: '9646e18c-294b-4532-bd5e-709d66ad31f4'
-keywords: ["multimedia audio,data blocks", "audio,data blocks", "waveform audio,data blocks", "audio data blocks,about", "WAVEHDR structure"]
+ms.assetid: 9646e18c-294b-4532-bd5e-709d66ad31f4
+keywords:
+- multimedia audio,data blocks
+- audio,data blocks
+- waveform audio,data blocks
+- audio data blocks,about
+- WAVEHDR structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Data Blocks

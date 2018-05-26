@@ -1,7 +1,12 @@
 ---
-Description: 'The ConnectedIMemInputPin method retrieves a pointer to the downstream input pin. This method returns the CBaseOutputPin::m\_pInputPin member variable.'
-ms.assetid: '39a12603-7768-43c3-9558-7caaa8f55108'
-title: 'CTransInPlaceOutputPin.ConnectedIMemInputPin method'
+Description: The ConnectedIMemInputPin method retrieves a pointer to the downstream input pin. This method returns the CBaseOutputPinm\_pInputPin member variable.
+ms.assetid: 39a12603-7768-43c3-9558-7caaa8f55108
+title: CTransInPlaceOutputPin.ConnectedIMemInputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceOutputPin.ConnectedIMemInputPin method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to the [**IMemInputPin**](imeminputpin.md) interface on the downstream input pin.
+Returns a pointer to the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface on the downstream input pin.
 
 ## Requirements
 
@@ -43,9 +48,9 @@ Returns a pointer to the [**IMemInputPin**](imeminputpin.md) interface on the do
 [**CTransInPlaceOutputPin Class**](ctransinplaceoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

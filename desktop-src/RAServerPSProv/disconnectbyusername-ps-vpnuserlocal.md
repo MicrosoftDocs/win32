@@ -2,13 +2,16 @@
 title: DisconnectByUserName method of the PS\_VpnUserLocal class
 description: Disconnects the specified user.
 audience: developer
-ms.assetid: 'e47a7bcb-b514-47af-8eed-a2b43eb5f687'
-ms.prod: 'windows-server-dev'
+ms.assetid: e47a7bcb-b514-47af-8eed-a2b43eb5f687
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DisconnectByUserName method", "DisconnectByUserName method, PS_VpnUserLocal class", "PS_VpnUserLocal class, DisconnectByUserName method"]
+keywords:
+- DisconnectByUserName method
+- DisconnectByUserName method, PS_VpnUserLocal class
+- PS_VpnUserLocal class, DisconnectByUserName method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisconnectByUserName method of the PS\_VpnUserLocal class
@@ -28,8 +34,8 @@ Disconnects the specified user.
 
 ```mof
 uint32 DisconnectByUserName(
-  [in]  string UserName[],
-  [out] uint32 StatusCodes[]
+  [in]  string UserName[],
+  [out] uint32 StatusCodes[]
 );
 ```
 
@@ -60,7 +66,7 @@ Error codes returned by the internal RPC APIs
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Error codes returned by the internal RPC APIs
 [**PS\_VpnUserLocal**](ps-vpnuserlocal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

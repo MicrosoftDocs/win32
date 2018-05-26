@@ -1,7 +1,12 @@
 ---
 Description: Introduction to TopoEdit
-ms.assetid: '9223309c-5ee0-4059-9480-4f54252fdd39'
+ms.assetid: 9223309c-5ee0-4059-9480-4f54252fdd39
 title: Introduction to TopoEdit
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to TopoEdit

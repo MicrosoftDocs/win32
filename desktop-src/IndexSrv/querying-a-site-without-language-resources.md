@@ -1,7 +1,12 @@
 ---
 title: Querying a Site Without Language Resources
 description: Querying a Site Without Language Resources
-ms.assetid: '6374a9f5-2fd2-43b8-ae4a-1acaa9bf253d'
+ms.assetid: 6374a9f5-2fd2-43b8-ae4a-1acaa9bf253d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying a Site Without Language Resources

@@ -1,7 +1,12 @@
 ---
 title: Quick Start Example
 description: Quick Start Example
-ms.assetid: 'cc183f1c-3ba7-4630-85ea-72d86353cc06'
+ms.assetid: cc183f1c-3ba7-4630-85ea-72d86353cc06
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start Example

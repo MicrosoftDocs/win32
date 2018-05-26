@@ -1,7 +1,12 @@
 ---
-Description: 'Programming considerations for working with symbolic links.'
-ms.assetid: '8966ac3e-a92b-4d68-b40b-e32a4173f869'
+Description: Programming considerations for working with symbolic links.
+ms.assetid: 8966ac3e-a92b-4d68-b40b-e32a4173f869
 title: Programming Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Considerations

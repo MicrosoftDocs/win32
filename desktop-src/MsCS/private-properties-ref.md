@@ -4,11 +4,15 @@ description: Private properties are attributes possessed by an individual instan
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f38a9787-e05b-4969-95b5-190df9d1fbb1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f38a9787-e05b-4969-95b5-190df9d1fbb1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["properties Failover Cluster ,private,grouped by object"]
+keywords:
+- properties Failover Cluster ,private,grouped by object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Object Private Properties

@@ -1,7 +1,12 @@
 ---
-Description: 'The Hyper-V replication API defines the following programming elements.'
-ms.assetid: '0A6FDE16-6A0A-4E6F-9241-79BCF77627E2'
-title: 'Hyper-V replication API reference'
+Description: The Hyper-V replication API defines the following programming elements.
+ms.assetid: 0A6FDE16-6A0A-4E6F-9241-79BCF77627E2
+title: Hyper-V replication API reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V replication API reference
@@ -27,11 +32,11 @@ The Hyper-V replication API defines the following programming elements.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

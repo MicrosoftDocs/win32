@@ -1,12 +1,17 @@
 ---
-Description: 'Once your application has located a file object, the next step is often to act on it in some way.'
-ms.assetid: 'd774c3b2-4caf-460a-ac32-0ed603491d5f'
-title: 'Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)'
+Description: Once your application has located a file object, the next step is often to act on it in some way.
+ms.assetid: d774c3b2-4caf-460a-ac32-0ed603491d5f
+title: Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Launching Applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)
 
-Once your application has located a file object, the next step is often to act on it in some way. For instance, your application might want to launch another application that allows the user to modify a data file. If the file of interest is an executable, your application might want to simply launch it. This document discusses how to use [**ShellExecute**](shellexecute.md) or [**ShellExecuteEx**](shellexecuteex.md) to perform these tasks.
+Once your application has located a file object, the next step is often to act on it in some way. For instance, your application might want to launch another application that allows the user to modify a data file. If the file of interest is an executable, your application might want to simply launch it. This document discusses how to use [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) or [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) to perform these tasks.
 
 -   [Using ShellExecute and ShellExecuteEx](#using-shellexecute-and-shellexecuteex)
     -   [Object Verbs](#object-verbs)
@@ -16,7 +21,7 @@ Once your application has located a file object, the next step is often to act o
 
 ## Using ShellExecute and ShellExecuteEx
 
-To use [**ShellExecute**](shellexecute.md) or [**ShellExecuteEx**](shellexecuteex.md), your application must specify the file or folder object that is to be acted on, and a *verb* that specifies the operation. For **ShellExecute**, assign these values to the appropriate parameters. For **ShellExecuteEx**, fill in the appropriate members of a [**SHELLEXECUTEINFO**](shellexecuteinfo.md) structure. There are also several other members or parameters that can be used to fine-tune the behavior of the two functions.
+To use [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) or [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master), your application must specify the file or folder object that is to be acted on, and a *verb* that specifies the operation. For **ShellExecute**, assign these values to the appropriate parameters. For **ShellExecuteEx**, fill in the appropriate members of a [**SHELLEXECUTEINFO**](/windows/win32/Shellapi/ns-shellapi-_shellexecuteinfoa?branch=master) structure. There are also several other members or parameters that can be used to fine-tune the behavior of the two functions.
 
 File and folder objects can be part of the file system or virtual objects, and they can be identified by either paths or pointers to item identifier lists (PIDLs).
 
@@ -59,20 +64,20 @@ C:\Program Files\Windows NT\Accessories\Wordpad.exe" "%1"
 
 
 
-When you use [**ShellExecute**](shellexecute.md) or [**ShellExecuteEx**](shellexecuteex.md) to open a .txt file, Wordpad.exe is launched with the specified file as its argument. Some commands can have additional arguments, such as flags, that can be added as needed to launch the application properly. For further discussion of shortcut menus and verbs, see [Extending Shortcut Menus](context.md).
+When you use [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) or [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) to open a .txt file, Wordpad.exe is launched with the specified file as its argument. Some commands can have additional arguments, such as flags, that can be added as needed to launch the application properly. For further discussion of shortcut menus and verbs, see [Extending Shortcut Menus](context.md).
 
-In general, trying to determine the list of available verbs for a particular file is somewhat complicated. In many cases, you can simply set the *lpVerb* parameter to **NULL**, which invokes the default command for the file type. This procedure is usually equivalent to setting *lpVerb* to "open", but some file types may have a different default command. For further information, see [Extending Shortcut Menus](context.md) and the [**ShellExecuteEx**](shellexecuteex.md) reference documentation.
+In general, trying to determine the list of available verbs for a particular file is somewhat complicated. In many cases, you can simply set the *lpVerb* parameter to **NULL**, which invokes the default command for the file type. This procedure is usually equivalent to setting *lpVerb* to "open", but some file types may have a different default command. For further information, see [Extending Shortcut Menus](context.md) and the [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) reference documentation.
 
 ### Using ShellExecuteEx to Provide Activation Services from a Site
 
-A site chain's services can control many behaviors of item activation. As of Windows 8, you can provide a pointer to the site chain to [**ShellExecuteEx**](shellexecuteex.md) to enable these behaviors. To provide the site to **ShellExecuteEx**:
+A site chain's services can control many behaviors of item activation. As of Windows 8, you can provide a pointer to the site chain to [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) to enable these behaviors. To provide the site to **ShellExecuteEx**:
 
--   Specify the SEE\_MASK\_FLAG\_HINST\_IS\_SITE flag in the **fMask** member of [**SHELLEXECUTEINFO**](shellexecuteinfo.md).
--   Provide the [**IUnknown**](com.iunknown) in the **hInstApp** member of [**SHELLEXECUTEINFO**](shellexecuteinfo.md).
+-   Specify the SEE\_MASK\_FLAG\_HINST\_IS\_SITE flag in the **fMask** member of [**SHELLEXECUTEINFO**](/windows/win32/Shellapi/ns-shellapi-_shellexecuteinfoa?branch=master).
+-   Provide the [**IUnknown**](com.iunknown) in the **hInstApp** member of [**SHELLEXECUTEINFO**](/windows/win32/Shellapi/ns-shellapi-_shellexecuteinfoa?branch=master).
 
 ### Using ShellExecute to Launch the Search Dialog Box
 
-When a user right-clicks a folder icon in Windows Explorer, one of the menu items is "Search". If they select that item, the Shell launches its Search utility. This utility displays a dialog box that can be used to search files for a specified text string. An application can programmatically launch the Search utility for a directory by calling [**ShellExecute**](shellexecute.md), with "find" as the *lpVerb* parameter, and the directory path as the *lpFile* parameter. For instance, the following line of code launches the Search utility for the c:\\MyPrograms directory.
+When a user right-clicks a folder icon in Windows Explorer, one of the menu items is "Search". If they select that item, the Shell launches its Search utility. This utility displays a dialog box that can be used to search files for a specified text string. An application can programmatically launch the Search utility for a directory by calling [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master), with "find" as the *lpVerb* parameter, and the directory path as the *lpFile* parameter. For instance, the following line of code launches the Search utility for the c:\\MyPrograms directory.
 
 
 ```C++
@@ -83,7 +88,7 @@ ShellExecute(hwnd, "find", "c:\\MyPrograms", NULL, NULL, 0);
 
 ## A Simple Example of How to Use ShellExecuteEx
 
-The following sample console application illustrates the use of [**ShellExecuteEx**](shellexecuteex.md). Most error checking code has been omitted for clarity.
+The following sample console application illustrates the use of [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master). Most error checking code has been omitted for clarity.
 
 
 ```C++
@@ -152,9 +157,9 @@ main()
 
 
 
-The application first retrieves the PIDL of the Windows directory, and enumerates its contents until it finds the first .bmp file. Unlike the earlier example, [**IShellFolder::GetDisplayNameOf**](ishellfolder-getdisplaynameof.md) is used to retrieve the file's parsing name instead of its display name. Because this is a file system folder, the parsing name is a fully qualified path, which is what is needed for [**ShellExecuteEx**](shellexecuteex.md).
+The application first retrieves the PIDL of the Windows directory, and enumerates its contents until it finds the first .bmp file. Unlike the earlier example, [**IShellFolder::GetDisplayNameOf**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof?branch=master) is used to retrieve the file's parsing name instead of its display name. Because this is a file system folder, the parsing name is a fully qualified path, which is what is needed for [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master).
 
-Once the first .bmp file has been located, appropriate values are assigned to the members of a [**SHELLEXECUTEINFO**](shellexecuteinfo.md) structure. The **lpFile** member is set to the parsing name of the file, and the **lpVerb** member to **NULL**, to begin the default operation. In this case, the default operation is "open". The structure is then passed to [**ShellExecuteEx**](shellexecuteex.md), which launches the default handler for bitmap files, typically MSPaint.exe, to open the file. After the function returns, the PIDLs are freed and the Windows folder's [**IShellFolder**](ishellfolder.md) interface is released.
+Once the first .bmp file has been located, appropriate values are assigned to the members of a [**SHELLEXECUTEINFO**](/windows/win32/Shellapi/ns-shellapi-_shellexecuteinfoa?branch=master) structure. The **lpFile** member is set to the parsing name of the file, and the **lpVerb** member to **NULL**, to begin the default operation. In this case, the default operation is "open". The structure is then passed to [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master), which launches the default handler for bitmap files, typically MSPaint.exe, to open the file. After the function returns, the PIDLs are freed and the Windows folder's [**IShellFolder**](ishellfolder.md) interface is released.
 
  
 

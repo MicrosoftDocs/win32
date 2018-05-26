@@ -1,13 +1,19 @@
 ---
 title: BITS IIS Extension Properties
 description: Background Intelligent Transfer Service (BITS) uses an ISAPI to extend IIS to support upload jobs.
-ms.assetid: '08a40cc1-ec6d-4b65-971a-15c7b06df148'
-keywords: ["BITS IIS Extension Properties BITS"]
+ms.assetid: 08a40cc1-ec6d-4b65-971a-15c7b06df148
+keywords:
+- BITS IIS Extension Properties BITS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS IIS Extension Properties
 
-Background Intelligent Transfer Service (BITS) uses an ISAPI to extend IIS to support [**upload jobs**](bg-job-type.md). The following table lists the properties that BITS adds to the IIS metabase for the virtual directory component. BITS uses these properties to determine how to upload the files. The BITS IIS extension properties are inheritable, except for **BITSUploadEnabled**.
+Background Intelligent Transfer Service (BITS) uses an ISAPI to extend IIS to support [**upload jobs**](/windows/win32/Bits/ne-bits-__midl_ibackgroundcopyjob_0003?branch=master). The following table lists the properties that BITS adds to the IIS metabase for the virtual directory component. BITS uses these properties to determine how to upload the files. The BITS IIS extension properties are inheritable, except for **BITSUploadEnabled**.
 
 
 
@@ -25,7 +31,7 @@ Background Intelligent Transfer Service (BITS) uses an ISAPI to extend IIS to su
 <tbody>
 <tr class="odd">
 <td><strong>BITSUploadEnabled</strong>Data type: <strong>Boolean</strong><br/></td>
-<td>Indicates whether BITS uploads are enabled on the virtual directory. If the setting is not present or is 0, BITS uploads are disabled.<br/> This is a read-only property. To set this property, call the [<strong>EnableBITSUploads</strong>](ibitsextensionsetup-enablebitsuploads.md) or [<strong>DisableBITSUploads</strong>](ibitsextensionsetup-disablebitsuploads.md) method of the [<strong>IBITSExtensionSetup</strong>](ibitsextensionsetup.md) interface.<br/></td>
+<td>Indicates whether BITS uploads are enabled on the virtual directory. If the setting is not present or is 0, BITS uploads are disabled.<br/> This is a read-only property. To set this property, call the [<strong>EnableBITSUploads</strong>](/windows/win32/Bitscfg/nf-bitscfg-ibitsextensionsetup-enablebitsuploads?branch=master) or [<strong>DisableBITSUploads</strong>](/windows/win32/Bitscfg/nf-bitscfg-ibitsextensionsetup-disablebitsuploads?branch=master) method of the [<strong>IBITSExtensionSetup</strong>](/windows/win32/Bitscfg/nn-bitscfg-ibitsextensionsetup?branch=master) interface.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>BITSSessionTimeout</strong>Data type: <strong>DWORD</strong><br/></td>
@@ -42,7 +48,7 @@ In IIS 7, the default upload limit is 30 million bytes. The value of the <strong
 </tr>
 <tr class="even">
 <td><strong>BITSServerNotificationType</strong>Data type: <strong>DWORD</strong><br/></td>
-<td>Specifies how to send the upload file to the server application. The possible values are: 0, 1, and 2.<br/> A value of 0 means the file is not sent to the server application. BITS puts the upload file in the directory specified in the remote name (the remote name specified when you [added the file](ibackgroundcopyjob-addfile.md) to the job) without notifying the server application. If the file currently exists in the destination directory, it is replaced with the upload file.<br/> A value of 1 means BITS passes the location of the upload file to the server application specified in the <strong>BITSServerNotificationURL</strong> property. The server application processes the file and generates a reply file, if needed. By default, BITS removes the upload and reply files from the server after it receives the response from the server application. To have BITS copy the upload file to the location specified by the remote file name in the job, include the [BITS-Copy-File-To-Destination](notification-protocol-for-server-applications.md) header in your response. If you do not include the header and you want to save the upload and reply files, you must copy the upload and reply files to a new location before responding.<br/> A value of 2 means BITS passes the upload file in the body of the request to the server application specified in the <strong>BITSServerNotificationURL</strong> property. The server application processes the file and passes back the reply in the body of the response, if needed.<br/> For details on the request and response headers, see [Notification Protocol for Server Applications](notification-protocol-for-server-applications.md).<br/> The server application must provide a response within five minutes. If the server application does not reply within five minutes, the job enters the transient error state. When the [<strong>retry delay</strong>](ibackgroundcopyjob-setminimumretrydelay.md) expires, the BITS server will send another notification to the server application (the server application should be written to handle duplicate notifications).<strong>BITS 1.5:</strong> The notification time-out is 30 seconds.<br/> <br/> Default value is 0.<br/></td>
+<td>Specifies how to send the upload file to the server application. The possible values are: 0, 1, and 2.<br/> A value of 0 means the file is not sent to the server application. BITS puts the upload file in the directory specified in the remote name (the remote name specified when you [added the file](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-addfile?branch=master) to the job) without notifying the server application. If the file currently exists in the destination directory, it is replaced with the upload file.<br/> A value of 1 means BITS passes the location of the upload file to the server application specified in the <strong>BITSServerNotificationURL</strong> property. The server application processes the file and generates a reply file, if needed. By default, BITS removes the upload and reply files from the server after it receives the response from the server application. To have BITS copy the upload file to the location specified by the remote file name in the job, include the [BITS-Copy-File-To-Destination](notification-protocol-for-server-applications.md) header in your response. If you do not include the header and you want to save the upload and reply files, you must copy the upload and reply files to a new location before responding.<br/> A value of 2 means BITS passes the upload file in the body of the request to the server application specified in the <strong>BITSServerNotificationURL</strong> property. The server application processes the file and passes back the reply in the body of the response, if needed.<br/> For details on the request and response headers, see [Notification Protocol for Server Applications](notification-protocol-for-server-applications.md).<br/> The server application must provide a response within five minutes. If the server application does not reply within five minutes, the job enters the transient error state. When the [<strong>retry delay</strong>](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay?branch=master) expires, the BITS server will send another notification to the server application (the server application should be written to handle duplicate notifications).<strong>BITS 1.5:</strong> The notification time-out is 30 seconds.<br/> <br/> Default value is 0.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>BITSServerNotificationURL</strong>Data type: <strong>String</strong><br/></td>
@@ -59,7 +65,7 @@ Do not use the <strong>BITSHostId</strong> property if SSL is used in a web farm
 </tr>
 <tr class="odd">
 <td><strong>BITSHostIdFallbackTimeout</strong>Data type: <strong>DWORD</strong><br/></td>
-<td>Number of seconds the BITS client tries to reconnect to the <strong>BITSHostId</strong> server name before reverting to the host name specified in the remote file name of the job. The timer begins when BITS is unable to connect to the <strong>BITSHostId</strong> server. The timer is reset when the client successfully connects to the server.<br/> Note that the no progress timeout value of the job (see [<strong>IBackgroundCopyJob::SetNoProgressTimeout</strong>](ibackgroundcopyjob-setnoprogresstimeout.md)) should be longer than this timeout value. If not, the job will fail before fallback timeout value expires.<br/> Set this property only if you set the <strong>BITSHostId</strong> property.<br/> Default value is 86,400 (1 day).<br/></td>
+<td>Number of seconds the BITS client tries to reconnect to the <strong>BITSHostId</strong> server name before reverting to the host name specified in the remote file name of the job. The timer begins when BITS is unable to connect to the <strong>BITSHostId</strong> server. The timer is reset when the client successfully connects to the server.<br/> Note that the no progress timeout value of the job (see [<strong>IBackgroundCopyJob::SetNoProgressTimeout</strong>](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout?branch=master)) should be longer than this timeout value. If not, the job will fail before fallback timeout value expires.<br/> Set this property only if you set the <strong>BITSHostId</strong> property.<br/> Default value is 86,400 (1 day).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>BITSAllowOverwrites</strong>Data type: <strong>Integer</strong><br/></td>
@@ -67,7 +73,7 @@ Do not use the <strong>BITSHostId</strong> property if SSL is used in a web farm
 </tr>
 <tr class="odd">
 <td><strong>BITSCleanupUseDefault</strong>Data type: <strong>Boolean</strong><br/></td>
-<td>Indicates whether the cleanup task uses the default schedules. By default, the cleanup task is run every 12 hours.<br/> Set to 1 to use the default schedule; otherwise, 0 to specify a schedule.<br/> To specify a schedule, use the <strong>BITSCleanupCount</strong> and <strong>BITSCleanupUnits</strong> properties.<br/> The cleanup task cleans up the virtual directory by deleting jobs that have not been modified within the session time-out period (see <strong>BITSSessionTimeout</strong>).<br/> The default is 1—use the default schedule.<br/> <strong>IIS 6.0:</strong> Not supported.<br/></td>
+<td>Indicates whether the cleanup task uses the default schedules. By default, the cleanup task is run every 12 hours.<br/> Set to 1 to use the default schedule; otherwise, 0 to specify a schedule.<br/> To specify a schedule, use the <strong>BITSCleanupCount</strong> and <strong>BITSCleanupUnits</strong> properties.<br/> The cleanup task cleans up the virtual directory by deleting jobs that have not been modified within the session time-out period (see <strong>BITSSessionTimeout</strong>).<br/> The default is 1 use the default schedule.<br/> <strong>IIS 6.0:</strong> Not supported.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>BITSCleanupCount</strong>Data type: <strong>Integer</strong><br/></td>
@@ -93,7 +99,7 @@ Do not use the <strong>BITSHostId</strong> property if SSL is used in a web farm
 
 
 
- 
+ 
 
 The following example shows how to set the BITS IIS extension properties using Windows Script Host. If the virtual directory points to a remote share, also set the **UNCUserName** and **UNCPassword** IIS properties.
 
@@ -130,9 +136,9 @@ WScript.Quit( 0 );
 
 
 
- 
+ 
 
- 
+ 
 
 
 

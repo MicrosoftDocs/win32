@@ -1,7 +1,12 @@
-﻿---
-Description: 'Animates the mesh and advances the global animation time by a specified amount.'
-ms.assetid: 'a822d92a-c301-4289-b67b-1df99808c79d'
-title: 'ID3DXAnimationController::AdvanceTime method'
+---
+Description: Animates the mesh and advances the global animation time by a specified amount.
+ms.assetid: a822d92a-c301-4289-b67b-1df99808c79d
+title: ID3DXAnimationControllerAdvanceTime method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::AdvanceTime method

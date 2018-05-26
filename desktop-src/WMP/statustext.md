@@ -1,14 +1,20 @@
 ---
 title: STATUSTEXT
 description: This is a predefined TEXT element with the following default values.
-ms.assetid: 'cb87b34b-bbb7-4bd1-a117-03768f6c5d7e'
-keywords: ["STATUSTEXT Windows Media Player"]
+ms.assetid: cb87b34b-bbb7-4bd1-a117-03768f6c5d7e
+keywords:
+- STATUSTEXT Windows Media Player
 topic_type:
 - apiref
 api_name:
 - STATUSTEXT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STATUSTEXT
@@ -41,9 +47,9 @@ This will create a **TEXT** element that will display the playback status. All p
 [**TEXT Element**](text-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The Security\_ property of the SWbemLocator object is used to read or set the security settings for an SWbemLocator object. This property is an SWbemSecurity object.'
+Description: The Security\_ property of the SWbemLocator object is used to read or set the security settings for an SWbemLocator object. This property is an SWbemSecurity object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '75987bef-21ae-4420-b069-afab90499218'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 75987bef-21ae-4420-b069-afab90499218
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemLocator.Security\_ property'
+title: SWbemLocator.Security\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemLocator.Security\_ property
@@ -17,7 +20,7 @@ The **Security\_** property of the [**SWbemLocator**](swbemlocator.md) object is
 > [!Note]  
 > Setting the **Security\_** property of an [**SWbemLocator**](swbemlocator.md) object to **NULL** grants unlimited access to everyone at all times. For more information, see [**SWbemSecurity**](swbemsecurity.md).
 
- 
+ 
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -36,7 +39,7 @@ SWbemLocator.Security_ As Object
 
 ## Remarks
 
-The properties of an **SWbemLocator.Security\_** object have no default values. If you attempt to get the value of [**SWbemSecurity.AuthenticationLevel**](swbemsecurity-authenticationlevel.md) or [**SWbemSecurity.ImpersonationLevel**](swbemsecurity-impersonationlevel.md) on an [**SWbemLocator**](swbemlocator.md) object before you have set it, an [wbemErrFailed](wbemerrorenum.md) error results.
+The properties of an **SWbemLocator.Security\_** object have no default values. If you attempt to get the value of [**SWbemSecurity.AuthenticationLevel**](swbemsecurity-authenticationlevel.md) or [**SWbemSecurity.ImpersonationLevel**](swbemsecurity-impersonationlevel.md) on an [**SWbemLocator**](swbemlocator.md) object before you have set it, an [wbemErrFailed](/windows/win32/Wbemdisp/ne-wbemdisp-wbemerrorenum?branch=master) error results.
 
 ## Requirements
 
@@ -44,8 +47,8 @@ The properties of an **SWbemLocator.Security\_** object have no default values. 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -76,9 +79,9 @@ The properties of an **SWbemLocator.Security\_** object have no default values. 
 [Securing a Remote WMI Connection](securing-a-remote-wmi-connection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

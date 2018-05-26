@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an integer property.'
-ms.assetid: '0E1089E4-5FE4-4769-A244-3E1979E4DE46'
-title: 'IPrinterScriptablePropertyBag::GetInt32 method'
+---
+Description: Gets an integer property.
+ms.assetid: 0E1089E4-5FE4-4769-A244-3E1979E4DE46
+title: IPrinterScriptablePropertyBagGetInt32 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::GetInt32 method

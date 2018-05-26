@@ -1,8 +1,32 @@
 ---
 title: What Was New in Windows Media Player 11
 description: This topic lists features that were new in Windows Media Player 11 and the Windows Media Player 11 SDK.
-ms.assetid: 'd2a6b6ce-a924-4b55-9dc7-68cc57e5651f'
-keywords: ["Windows Media Player,what's new", "Windows Media Player,new features", "software development kit (SDK),Windows Media Player 11", "SDK (software development kit),Windows Media Player 11", "documentation,Windows Media Player 11 SDK", "what's new,Windows Media Player 11", "new features,Windows Media Player 11", "interfaces,new features in Windows Media Player 11", "attributes,new features in Windows Media Player 11", "Windows Media Player ActiveX control,new features in version 11", "ActiveX control,new features in version 11", "skins,new features in Windows Media Player 11", "Windows Media Player skins,new features in version 11", "plug-ins,new features in Windows Media Player 11", "Windows Media Player plug-ins,new features in version 11", "online stores,new features in Windows Media Player 11", "Windows Media Player online stores,new features in version 11", "samples,new features in Windows Media Player 11", "versions of Windows Media Player,new features in version 11"]
+ms.assetid: d2a6b6ce-a924-4b55-9dc7-68cc57e5651f
+keywords:
+- Windows Media Player,whats new
+- Windows Media Player,new features
+- software development kit (SDK),Windows Media Player 11
+- SDK (software development kit),Windows Media Player 11
+- documentation,Windows Media Player 11 SDK
+- whats new,Windows Media Player 11
+- new features,Windows Media Player 11
+- interfaces,new features in Windows Media Player 11
+- attributes,new features in Windows Media Player 11
+- Windows Media Player ActiveX control,new features in version 11
+- ActiveX control,new features in version 11
+- skins,new features in Windows Media Player 11
+- Windows Media Player skins,new features in version 11
+- plug-ins,new features in Windows Media Player 11
+- Windows Media Player plug-ins,new features in version 11
+- online stores,new features in Windows Media Player 11
+- Windows Media Player online stores,new features in version 11
+- samples,new features in Windows Media Player 11
+- versions of Windows Media Player,new features in version 11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What Was New in Windows Media Player 11
@@ -13,22 +37,22 @@ This topic lists features that were new in Windows Media Player 11 and the Windo
 
 The following interfaces were new in the Windows Media Player 11 ActiveX control.
 
--   [**IWMPLibrary Interface**](iwmplibrary.md)
--   [**IWMPLibraryServices Interface**](iwmplibraryservices.md)
--   [**IWMPLibrarySharingServices Interface**](iwmplibrarysharingservices.md)
--   [**IWMPMediaCollection2 Interface**](iwmpmediacollection2.md)
--   [**IWMPQuery Interface**](iwmpquery.md)
--   [**IWMPStringCollection2 Interface**](iwmpstringcollection2.md)
+-   [**IWMPLibrary Interface**](/windows/win32/wmp/nn-wmp-iwmplibrary?branch=master)
+-   [**IWMPLibraryServices Interface**](/windows/win32/wmp/nn-wmp-iwmplibraryservices?branch=master)
+-   [**IWMPLibrarySharingServices Interface**](/windows/win32/wmp/nn-wmp-iwmplibrarysharingservices?branch=master)
+-   [**IWMPMediaCollection2 Interface**](/windows/win32/wmp/nn-wmp-iwmpmediacollection2?branch=master)
+-   [**IWMPQuery Interface**](/windows/win32/wmp/nn-wmp-iwmpquery?branch=master)
+-   [**IWMPStringCollection2 Interface**](/windows/win32/wmp/nn-wmp-iwmpstringcollection2?branch=master)
 -   [**MediaCollection Object**](mediacollection-object.md)
 -   [**Query Object**](query-object.md)
 -   [**StringCollection Object**](stringcollection-object.md)
--   [**IWMPCdromRip Interface**](iwmpcdromrip.md)
--   [**IWMPCdromBurn Interface**](iwmpcdromburn.md)
--   [**IWMPFolderMonitorServices Interface**](iwmpfoldermonitorservices.md)
--   [**IWMPSyncDevice2 Interface**](iwmpsyncdevice2.md)
--   [**IWMPVideoRenderConfig Interface**](iwmpvideorenderconfig.md)
--   [**IWMPUserEventSink**](iwmpusereventsink.md)
--   [**IWMPEvents3 Interface**](iwmpevents3.md)
+-   [**IWMPCdromRip Interface**](/windows/win32/wmp/nn-wmp-iwmpcdromrip?branch=master)
+-   [**IWMPCdromBurn Interface**](/windows/win32/wmp/nn-wmp-iwmpcdromburn?branch=master)
+-   [**IWMPFolderMonitorServices Interface**](/windows/win32/wmp/nn-wmp-iwmpfoldermonitorservices?branch=master)
+-   [**IWMPSyncDevice2 Interface**](/windows/win32/wmp/nn-wmp-iwmpsyncdevice2?branch=master)
+-   [**IWMPVideoRenderConfig Interface**](/windows/win32/wmprealestate/nn-wmprealestate-iwmpvideorenderconfig?branch=master)
+-   [**IWMPUserEventSink**](/windows/win32/wmpservices/nn-wmpservices-iwmpusereventsink?branch=master)
+-   [**IWMPEvents3 Interface**](/windows/win32/wmp/nn-wmp-iwmpevents3?branch=master)
 
 ## Windows Media Player Skins
 
@@ -64,8 +88,8 @@ The C# sample named SchemaReader was new in the Windows Media Player 11 SDK. The
 
 The C++ sample named WMPML was updated in the Windows Media Player 11 SDK to demonstrate the following features:
 
--   Using the new [**IWMPStringCollection2**](iwmpstringcollection2.md) interface to create a user interface similar to the Windows Media Player library feature.
--   Using the [**IWMPQuery**](iwmpquery.md) and [**IWMPMediaCollection2**](iwmpmediacollection2.md) interfaces to create compound queries and display the results.
+-   Using the new [**IWMPStringCollection2**](/windows/win32/wmp/nn-wmp-iwmpstringcollection2?branch=master) interface to create a user interface similar to the Windows Media Player library feature.
+-   Using the [**IWMPQuery**](/windows/win32/wmp/nn-wmp-iwmpquery?branch=master) and [**IWMPMediaCollection2**](/windows/win32/wmp/nn-wmp-iwmpmediacollection2?branch=master) interfaces to create compound queries and display the results.
 
  
 

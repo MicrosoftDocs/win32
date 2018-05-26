@@ -4,11 +4,16 @@ description: This section discusses the specific Steps necessary for an extensio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0f88a2a2-50b6-4c75-a742-016e3b262b31'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0f88a2a2-50b6-4c75-a742-016e3b262b31
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["extending a primary snap-in's taskpad MMC", "primary snap-in's, extending a taskpad"]
+keywords:
+- extending a primary snap-ins taskpad MMC
+- primary snap-ins, extending a taskpad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Taskpad of a Primary Snap-in

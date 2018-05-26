@@ -1,14 +1,20 @@
 ---
 title: Troubleshooter Complex Type
 description: Specifies the troubleshooting script to run.
-ms.assetid: '812d6ffb-78d6-4e6b-b008-f5ec8086528c'
-keywords: ["Troubleshooter complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 812d6ffb-78d6-4e6b-b008-f5ec8086528c
+keywords:
+- Troubleshooter complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Troubleshooter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooter Complex Type
@@ -49,8 +55,8 @@ Specifies the troubleshooting script to run.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +76,9 @@ Specifies the troubleshooting script to run.
 [**Troubleshooter (LocalRootcause) Element**](package-troubleshooter-localrootcause-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

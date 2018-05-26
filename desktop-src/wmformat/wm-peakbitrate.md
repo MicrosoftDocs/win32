@@ -1,14 +1,20 @@
 ---
 title: WM/PeakBitrate
 description: The WM/PeakBitrate attribute contains the peak bit rate of a variable bit rate (VBR) stream in bits per second.
-ms.assetid: 'be10879b-3078-46e9-94de-88f2d4974710'
-keywords: ["WM/PeakBitrate windows Media Format"]
+ms.assetid: be10879b-3078-46e9-94de-88f2d4974710
+keywords:
+- WM/PeakBitrate windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/PeakBitrate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/PeakBitrate

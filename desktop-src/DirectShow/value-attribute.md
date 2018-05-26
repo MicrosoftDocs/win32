@@ -1,7 +1,12 @@
 ---
-Description: 'The value attribute specifies the value of a parameter.'
-ms.assetid: '0fa4de60-5da5-42dd-b841-0cb9e3ba2c8f'
+Description: The value attribute specifies the value of a parameter.
+ms.assetid: 0fa4de60-5da5-42dd-b841-0cb9e3ba2c8f
 title: value Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # value Attribute

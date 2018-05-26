@@ -4,11 +4,13 @@ description: The Document object is used to manage the application document.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '77bf197d-f9c4-407d-9f55-0b1e66f8559c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 77bf197d-f9c4-407d-9f55-0b1e66f8559c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Document Object object MMC", "Document Object object MMC , described"]
+keywords:
+- Document Object object MMC
+- Document Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Document Object object
@@ -45,7 +50,7 @@ The **Document Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -68,7 +73,7 @@ The **Document Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +81,8 @@ The **Document Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -85,9 +90,9 @@ The **Document Object** object has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

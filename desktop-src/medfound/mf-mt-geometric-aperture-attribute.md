@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the geometric aperture for a video media type.'
-ms.assetid: 'a2489ba1-f322-4b63-a479-0d9879c30a8c'
-title: 'MF\_MT\_GEOMETRIC\_APERTURE attribute'
+---
+Description: Defines the geometric aperture for a video media type.
+ms.assetid: a2489ba1-f322-4b63-a479-0d9879c30a8c
+title: MF\_MT\_GEOMETRIC\_APERTURE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_GEOMETRIC\_APERTURE attribute
@@ -14,7 +19,7 @@ Byte array
 
 ## Remarks
 
-The value of this attribute is an [**MFVideoArea**](mfvideoarea.md) structure.
+The value of this attribute is an [**MFVideoArea**](/windows/win32/mfobjects/ns-mfobjects-_mfvideoarea?branch=master) structure.
 
 The picture aspect ratio is calculated relative to the geometric aperture, using the following formula: Picture aspect ratio = (geometric aperture width / geometric aperture height) × pixel aspect ratio.
 
@@ -76,13 +81,13 @@ HRESULT SetGeometricAperture(
 [Video Media Types](video-media-types.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [**MF\_MT\_MINIMUM\_DISPLAY\_APERTURE**](mf-mt-minimum-display-aperture-attribute.md)

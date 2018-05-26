@@ -1,7 +1,12 @@
 ---
 Description: Other Source Objects
-ms.assetid: '67482227-9df6-4e89-b16f-160a0bae6609'
+ms.assetid: 67482227-9df6-4e89-b16f-160a0bae6609
 title: Other Source Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other Source Objects

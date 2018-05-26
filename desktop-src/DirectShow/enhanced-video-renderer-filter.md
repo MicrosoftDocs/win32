@@ -1,7 +1,12 @@
 ---
-Description: 'The Enhanced Video Renderer (EVR) filter is a 16-channel video mixer and renderer. It has the same core functionality and plug-in model as the Media Foundation EVR media sink.'
-ms.assetid: 'ead99cb3-2be2-42c6-ac22-be0c2ddf28d5'
+Description: The Enhanced Video Renderer (EVR) filter is a 16-channel video mixer and renderer. It has the same core functionality and plug-in model as the Media Foundation EVR media sink.
+ms.assetid: ead99cb3-2be2-42c6-ac22-be0c2ddf28d5
 title: Enhanced Video Renderer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enhanced Video Renderer Filter
@@ -9,7 +14,7 @@ title: Enhanced Video Renderer Filter
 > [!Note]  
 > This topic applies to Windows Vista and later.
 
- 
+ 
 
 The Enhanced Video Renderer (EVR) filter is a 16-channel video mixer and renderer. It has the same core functionality and plug-in model as the Media Foundation EVR media sink.
 
@@ -27,14 +32,14 @@ The DirectShow EVR filter is documented in the Media Foundation SDK documentatio
 <td>Filter Interfaces (through <strong>QueryInterface</strong>)</td>
 <td>DirectShow interfaces:
 <ul>
-<li>[<strong>IAMCertifiedOutputProtection</strong>](iamcertifiedoutputprotection.md)</li>
-<li>[<strong>IAMFilterMiscFlags</strong>](iamfiltermiscflags.md)</li>
-<li>[<strong>IBaseFilter</strong>](ibasefilter.md)</li>
+<li>[<strong>IAMCertifiedOutputProtection</strong>](/windows/win32/Strmif/nn-strmif-iamcertifiedoutputprotection?branch=master)</li>
+<li>[<strong>IAMFilterMiscFlags</strong>](/windows/win32/Strmif/nn-strmif-iamfiltermiscflags?branch=master)</li>
+<li>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</li>
 <li>[<strong>IKsPropertySet</strong>](ikspropertyset.md)</li>
-<li>[<strong>IMediaEventSink</strong>](imediaeventsink.md)</li>
-<li>[<strong>IMediaSeeking</strong>](imediaseeking.md)</li>
-<li>[<strong>IQualityControl</strong>](iqualitycontrol.md)</li>
-<li>[<strong>IQualProp</strong>](iqualprop.md)</li>
+<li>[<strong>IMediaEventSink</strong>](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master)</li>
+<li>[<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)</li>
+<li>[<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</li>
+<li>[<strong>IQualProp</strong>](/windows/win32/Amvideo/nn-amvideo-iqualprop?branch=master)</li>
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
@@ -52,9 +57,9 @@ Media Foundation interfaces:<br/>
 <td>Input Pin Interfaces (through <strong>QueryInterface</strong>)</td>
 <td>DirectShow interfaces:
 <ul>
-<li>[<strong>IMemInputPin</strong>](imeminputpin.md)</li>
-<li>[<strong>IPin</strong>](ipin.md)</li>
-<li>[<strong>IQualityControl</strong>](iqualitycontrol.md)</li>
+<li>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master)</li>
+<li>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master)</li>
+<li>[<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</li>
 </ul>
 Media Foundation interfaces:<br/>
 <ul>
@@ -92,7 +97,7 @@ Media Foundation interfaces:<br/>
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -109,7 +114,7 @@ In addition to the interfaces exposed through **QueryInterface**, the EVR expose
 
 
 
- 
+ 
 
 The EVR can mix up to 16 video streams. The first input stream (pin 0) is called the *reference stream*. The reference stream always appears first in the z-order. Any additional streams are called substreams, and are mixed on top of the reference stream. The application can change the z-order of the substreams, but no substream can be first in the z-order.
 
@@ -128,8 +133,8 @@ The EVR forwards seek commands upstream through pin 0. The substream pins do not
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -140,9 +145,9 @@ The EVR forwards seek commands upstream through pin 0. The substream pins do not
 [DirectShow Filters](directshow-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

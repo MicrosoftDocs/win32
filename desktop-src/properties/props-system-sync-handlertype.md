@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'ba99bf9c-e559-4b0d-bcf4-40d11d0a9cf0'
-title: 'System.Sync.HandlerType'
+Description: .
+ms.assetid: ba99bf9c-e559-4b0d-bcf4-40d11d0a9cf0
+title: System.Sync.HandlerType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.HandlerType

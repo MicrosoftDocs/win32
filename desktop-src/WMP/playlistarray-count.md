@@ -1,8 +1,9 @@
 ---
 title: PlaylistArray.count
 description: The count property retrieves the number of playlists in the playlist array.
-ms.assetid: '6409d089-d635-4dc1-8502-7bb65de0a01f'
-keywords: ["PlaylistArray.count Windows Media Player"]
+ms.assetid: 6409d089-d635-4dc1-8502-7bb65de0a01f
+keywords:
+- PlaylistArray.count Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistArray.count
@@ -53,9 +59,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

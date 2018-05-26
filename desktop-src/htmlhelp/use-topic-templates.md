@@ -1,7 +1,12 @@
 ---
 title: Use Topic Templates
 description: Use Topic Templates
-ms.assetid: 'B25BC54D-D3D9-40a9-83EC-B79408A0F041'
+ms.assetid: B25BC54D-D3D9-40a9-83EC-B79408A0F041
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use Topic Templates

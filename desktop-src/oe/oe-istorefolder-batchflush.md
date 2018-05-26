@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder BatchFlush method
 description: Unlocks a batched operation. Currently, not used.
-ms.assetid: '6b632707-1605-40fb-99ac-2ddeea0fd511'
-keywords: ["BatchFlush method Windows Mail (formerly Outlook Express)", "BatchFlush method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , BatchFlush method"]
+ms.assetid: 6b632707-1605-40fb-99ac-2ddeea0fd511
+keywords:
+- BatchFlush method Windows Mail (formerly Outlook Express)
+- BatchFlush method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , BatchFlush method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::BatchFlush method
@@ -22,8 +30,8 @@ Unlocks a batched operation. Currently, not used.
 
 ```C++
 HRESULT BatchFlush(
-  [in] DWORD      dwReserved,
-  [in] HBATCHLOCK hBatchLock
+  [in] DWORD      dwReserved,
+  [in] HBATCHLOCK hBatchLock
 );
 ```
 
@@ -63,8 +71,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -72,9 +80,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

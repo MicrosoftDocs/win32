@@ -1,7 +1,12 @@
 ---
-Description: 'Demonstrates how to register and unregister, custom properties and how to get detailed information about custom property schemas that are already registered with the system.'
-ms.assetid: 'C67C2F8B-13EA-41ec-A556-918356472BF5'
+Description: Demonstrates how to register and unregister, custom properties and how to get detailed information about custom property schemas that are already registered with the system.
+ms.assetid: C67C2F8B-13EA-41ec-A556-918356472BF5
 title: Property Schema Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Schema Sample

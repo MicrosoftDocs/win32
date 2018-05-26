@@ -1,8 +1,10 @@
 ---
 title: IVMGuestOS interface
 description: The IVMGuestOS interface defines the guest operating system running inside a virtual machine.
-ms.assetid: 'cf3d6a66-8466-49f0-bd01-3904e9aebd03'
-keywords: ["IVMGuestOS interface Virtual Server", "IVMGuestOS interface Virtual Server , described"]
+ms.assetid: cf3d6a66-8466-49f0-bd01-3904e9aebd03
+keywords:
+- IVMGuestOS interface Virtual Server
+- IVMGuestOS interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS interface
@@ -45,7 +52,7 @@ The **IVMGuestOS** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -64,7 +71,7 @@ The **IVMGuestOS** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,8 +79,8 @@ The **IVMGuestOS** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -97,9 +104,9 @@ The **IVMGuestOS** interface has these properties.
 [IVMGuestOS Properties](ivmguestos-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

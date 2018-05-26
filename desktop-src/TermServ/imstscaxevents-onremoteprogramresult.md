@@ -4,11 +4,14 @@ description: Called when a RemoteApp program returns a result to the client cont
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5bc9570f-14fb-4b6f-a7dd-c1bce3ef19e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5bc9570f-14fb-4b6f-a7dd-c1bce3ef19e0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnRemoteProgramResult method Remote Desktop Services", "OnRemoteProgramResult method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnRemoteProgramResult method"]
+keywords:
+- OnRemoteProgramResult method Remote Desktop Services
+- OnRemoteProgramResult method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnRemoteProgramResult method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnRemoteProgramResult method
@@ -28,9 +34,9 @@ Called when a RemoteApp program returns a result to the client control.
 
 ```C++
 VOID OnRemoteProgramResult(
-  [in] BSTR                bstrRemoteProgram,
-  [in] RemoteProgramResult lError,
-  [in] VARIANT_BOOL        vbIsExecutable
+  [in] BSTR                bstrRemoteProgram,
+  [in] RemoteProgramResult lError,
+  [in] VARIANT_BOOL        vbIsExecutable
 );
 ```
 
@@ -94,7 +100,7 @@ The RemoteApp program returned a protocol error.
 
 </dt> <dd>
 
-The RemoteApp program is not in the approved list of the RD Session Host server.
+The RemoteApp program is not in the approved list of the RD Session Host server.
 
 </dd> <dt>
 
@@ -166,7 +172,7 @@ This method is called immediately after the ActiveX control attempts to launch t
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents is defined as 336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |
@@ -180,9 +186,9 @@ This method is called immediately after the ActiveX control attempts to launch t
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

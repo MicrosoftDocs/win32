@@ -1,14 +1,20 @@
 ---
 title: WM/Conductor
 description: The WM/Conductor attribute contains the name of the conductor.
-ms.assetid: '12c58716-7b91-4014-9741-575a017cf7f1'
-keywords: ["WM/Conductor windows Media Format"]
+ms.assetid: 12c58716-7b91-4014-9741-575a017cf7f1
+keywords:
+- WM/Conductor windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Conductor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Conductor

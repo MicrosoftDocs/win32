@@ -1,8 +1,11 @@
 ---
 title: Error.item method
 description: The item method retrieves an ErrorItem object from the error queue.
-ms.assetid: '3aca21ff-4c6b-4c24-a85d-3d015612a496'
-keywords: ["item method Windows Media Player", "item method Windows Media Player , Error class", "Error class Windows Media Player , item method"]
+ms.assetid: 3aca21ff-4c6b-4c24-a85d-3d015612a496
+keywords:
+- item method Windows Media Player
+- item method Windows Media Player , Error class
+- Error class Windows Media Player , item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error.item method
@@ -97,9 +105,9 @@ alert(errNum + "\n" + errDesc);
 [**ErrorItem Object**](erroritem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

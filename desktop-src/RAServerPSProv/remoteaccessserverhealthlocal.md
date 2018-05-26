@@ -2,13 +2,15 @@
 title: RemoteAccessServerHealthLocal class
 description: Remote Access Server Health object.
 audience: developer
-ms.assetid: '860707d9-ae64-40b3-976b-cd6abd82d825'
-ms.prod: 'windows-server-dev'
+ms.assetid: 860707d9-ae64-40b3-976b-cd6abd82d825
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessServerHealthLocal class", "RemoteAccessServerHealthLocal class, described"]
+keywords:
+- RemoteAccessServerHealthLocal class
+- RemoteAccessServerHealthLocal class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessServerHealthLocal class
@@ -36,7 +41,7 @@ class RemoteAccessServerHealthLocal
 {
   uint32 HealthStatus;
   uint32 NumOfHealthMonitors;
-  uint8  Data[];
+  uint8  Data[];
 };
 ```
 
@@ -98,16 +103,16 @@ Total number of health monitors
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

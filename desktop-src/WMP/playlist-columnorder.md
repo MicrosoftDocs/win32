@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.columnOrder
 description: The columnOrder attribute specifies or retrieves the order of the playlist columns.
-ms.assetid: '91a2e15b-1993-4666-98ef-b893df2b570c'
-keywords: ["PLAYLIST.columnOrder Windows Media Player"]
+ms.assetid: 91a2e15b-1993-4666-98ef-b893df2b570c
+keywords:
+- PLAYLIST.columnOrder Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.columnOrder
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.columnOrder
@@ -40,9 +46,9 @@ This attribute is a read/write **String** specifying a semicolon-delimited list 
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

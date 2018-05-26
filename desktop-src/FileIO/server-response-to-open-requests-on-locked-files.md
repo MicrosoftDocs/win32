@@ -1,7 +1,12 @@
 ---
-Description: 'You can minimize the impact your application has on other clients and the impact they have on your application by granting as much sharing as possible, requesting the minimum access level necessary, and using the least intrusive opportunistic lock suitable for your application.'
-ms.assetid: 'c28b0ae0-0d35-4b59-9f54-87c55ca72716'
+Description: You can minimize the impact your application has on other clients and the impact they have on your application by granting as much sharing as possible, requesting the minimum access level necessary, and using the least intrusive opportunistic lock suitable for your application.
+ms.assetid: c28b0ae0-0d35-4b59-9f54-87c55ca72716
 title: Server Response to Open Requests on Locked Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Response to Open Requests on Locked Files

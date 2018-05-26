@@ -1,8 +1,22 @@
 ---
 title: DVD
 description: DVD
-ms.assetid: 'b3634a28-b1d6-44a5-97e4-fcc1f655d652'
-keywords: ["Windows Media Player,migrating DVDs", "Windows Media Player object model,DVDs", "object model,DVDs", "Windows Media Player ActiveX control,DVDs", "ActiveX control,DVDs", "Windows Media Player Mobile ActiveX control,DVDs", "Windows Media Player Mobile,migrating DVDs", "migration guide,DVDs", "DVD migration"]
+ms.assetid: b3634a28-b1d6-44a5-97e4-fcc1f655d652
+keywords:
+- Windows Media Player,migrating DVDs
+- Windows Media Player object model,DVDs
+- object model,DVDs
+- Windows Media Player ActiveX control,DVDs
+- ActiveX control,DVDs
+- Windows Media Player Mobile ActiveX control,DVDs
+- Windows Media Player Mobile,migrating DVDs
+- migration guide,DVDs
+- DVD migration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD

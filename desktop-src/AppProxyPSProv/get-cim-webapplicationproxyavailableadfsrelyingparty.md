@@ -1,15 +1,18 @@
 ---
-Description: 'Retrieves a list of RelyingPartyMetadata objects that represent the relying parties that are available to Web Application Proxy.'
+Description: Retrieves a list of RelyingPartyMetadata objects that represent the relying parties that are available to Web Application Proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f5b7789e-cedf-4eb3-a794-ef556ead9099'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f5b7789e-cedf-4eb3-a794-ef556ead9099
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Get method of the CIM\_WebApplicationProxyAvailableADFSRelyingParty class'
+title: Get method of the CIM\_WebApplicationProxyAvailableADFSRelyingParty class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the CIM\_WebApplicationProxyAvailableADFSRelyingParty class
@@ -21,7 +24,7 @@ Retrieves a list of [**RelyingPartyMetadata**](relyingpartymetadata.md) objects 
 
 ```mof
 uint32 Get(
-  [out] RelyingPartyMetadata cmdletOutput[]
+  [out] RelyingPartyMetadata cmdletOutput[]
 );
 ```
 
@@ -49,7 +52,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -63,9 +66,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**CIM\_WebApplicationProxyAvailableADFSRelyingParty**](cim-webapplicationproxyavailableadfsrelyingparty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

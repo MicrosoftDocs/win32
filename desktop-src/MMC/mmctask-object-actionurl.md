@@ -4,11 +4,14 @@ description: Returns the URL to which the task links when the user clicks the ta
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9607ead4-dd96-41a6-801c-9750fa18cb47'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9607ead4-dd96-41a6-801c-9750fa18cb47
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ActionURL property MMC", "ActionURL property MMC , MMCTask class", "MMCTask class MMC , ActionURL property"]
+keywords:
+- ActionURL property MMC
+- ActionURL property MMC , MMCTask class
+- MMCTask class MMC , ActionURL property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCTask.ActionURL property
@@ -49,9 +55,9 @@ The returned property is the string specified in the szActionURL member of the M
 
 
 
- 
+ 
 
- 
+ 
 
 
 

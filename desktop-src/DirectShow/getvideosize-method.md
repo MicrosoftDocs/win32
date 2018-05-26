@@ -1,7 +1,12 @@
 ---
-Description: 'The GetVideoSize method retrieves the native video dimensions.'
-ms.assetid: '50db2c15-4064-4d18-94f0-f6cf05f1d236'
+Description: The GetVideoSize method retrieves the native video dimensions.
+ms.assetid: 50db2c15-4064-4d18-94f0-f6cf05f1d236
 title: GetVideoSize Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetVideoSize Method

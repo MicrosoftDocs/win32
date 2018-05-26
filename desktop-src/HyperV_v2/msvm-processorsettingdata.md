@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the virtual processor settings for a virtual machine.'
-ms.assetid: '2B299793-E1CD-49D4-898C-AE60B49F44F5'
-title: 'Msvm\_ProcessorSettingData class'
+Description: Represents the virtual processor settings for a virtual machine.
+ms.assetid: 2B299793-E1CD-49D4-898C-AE60B49F44F5
+title: Msvm\_ProcessorSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ProcessorSettingData class
@@ -16,36 +21,36 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ProcessorSettingData : CIM_ResourceAllocationSettingData
 {
-  string  InstanceID;
-  string  Caption = "Processor";
-  string  Description = "A logical processor of the hypervisor running on the host computer system.";
-  string  ElementName;
-  uint16  ResourceType = 3;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft:Hyper-V:Processor";
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits = "percent / 1000";
-  uint64  VirtualQuantity = "count";
-  uint64  Reservation = 0;
-  uint64  Limit = 100000;
-  uint32  Weight = 100;
+  string  InstanceID;
+  string  Caption = "Processor";
+  string  Description = "A logical processor of the hypervisor running on the host computer system.";
+  string  ElementName;
+  uint16  ResourceType = 3;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft:Hyper-V:Processor";
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits = "percent / 1000";
+  uint64  VirtualQuantity = "count";
+  uint64  Reservation = 0;
+  uint64  Limit = 100000;
+  uint32  Weight = 100;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
   boolean LimitCPUID;
-  uint64  HwThreadsPerCore;
+  uint64  HwThreadsPerCore;
   boolean LimitProcessorFeatures;
-  uint64  MaxProcessorsPerNumaNode;
-  uint64  MaxNumaNodesPerSocket;
+  uint64  MaxProcessorsPerNumaNode;
+  uint64  MaxNumaNodesPerSocket;
   boolean EnableHostResourceProtection;
-  string  CpuGroupId;
+  string  CpuGroupId;
   boolean HideHypervisorPresent;
   boolean ExposeVirtualizationExtensions;
 };
@@ -182,9 +187,9 @@ Access type: Read-only
 The Cpu Group Id this VM is bound to. When value is 0 it means is not bound to a specific CPU group.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -226,9 +231,9 @@ Access type: Read-only
 Indicates whether the VM should enable features that increase the protection of host resources from workload running in the VM.
 
 > [!Note]  
-> Added in Windows 10.
+> Added in Windows 10.
 
- 
+ 
 
 </dd> <dt>
 
@@ -244,9 +249,9 @@ Access type: Read-only
 Indicates whether Hyper-V should expose virtualized hardware virtualization extensions to the VM.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -262,9 +267,9 @@ Access type: Read-only
 Indicates whether Hyper-V should report that a hypervisor is present to the nested guest.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -293,9 +298,9 @@ Access type: Read-only
 Indicates the number of SMT threads per core reported to the guest. This reporting is independent of whether the hardware for SMT is present.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -328,7 +333,7 @@ The maximum amount of CPU resources that may be consumed by the virtual machine.
 
 100000
 
-Range: 0–100000
+Range: 0 100000
 
 </dd> <dt>
 
@@ -449,7 +454,7 @@ The amount of CPU resources that are reserved for use by the virtual machine. Th
 
 0
 
-Range: 0–100000
+Range: 0 100000
 
 </dd> <dt>
 
@@ -518,7 +523,7 @@ The weight for each virtual machine processor. After all reserves have been met,
 
 100
 
-Range: 0–10000
+Range: 0 10000
 
 </dd> </dl>
 
@@ -532,8 +537,8 @@ Access to the **Msvm\_ProcessorSettingData** class might be restricted by UAC Fi
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -553,9 +558,9 @@ Access to the **Msvm\_ProcessorSettingData** class might be restricted by UAC Fi
 [Processor Classes](processor-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

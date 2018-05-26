@@ -1,18 +1,21 @@
 ---
-Description: 'Used in the IOfflineFilesItemFilter::GetFilterFlags method to control flag-based filtering of items.'
+Description: Used in the IOfflineFilesItemFilterGetFilterFlags method to control flag-based filtering of items.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '496126e0-d29b-415c-a3b3-44bdd9e71f78'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 496126e0-d29b-415c-a3b3-44bdd9e71f78
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
 title: Offline Files Filter Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Offline Files Filter Flags
 
-Used in the [**IOfflineFilesItemFilter::GetFilterFlags**](iofflinefilesitemfilter-getfilterflags.md) method to control flag-based filtering of items.
+Used in the [**IOfflineFilesItemFilter::GetFilterFlags**](/windows/previous-versions/CscObj/nf-cscobj-iofflinefilesitemfilter-getfilterflags?branch=master) method to control flag-based filtering of items.
 
 <dl> <dt>
 
@@ -89,7 +92,7 @@ The item was deleted offline and has not yet been synchronized to the server.
 
 
 
-The item has local changes that have not yet been synchronized to the server. This can mean one or more of the following – created offline, deleted offline, modified data, modified attributes.
+The item has local changes that have not yet been synchronized to the server. This can mean one or more of the following   created offline, deleted offline, modified data, modified attributes.
 
 
 </dt> </dl> </dd> <dt>
@@ -360,8 +363,8 @@ This flag is reserved for future use.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>CscObj.h</dt> </dl> |
 
 
@@ -370,12 +373,12 @@ This flag is reserved for future use.
 
 <dl> <dt>
 
-[**IOfflineFilesItemFilter::GetFilterFlags**](iofflinefilesitemfilter-getfilterflags.md)
+[**IOfflineFilesItemFilter::GetFilterFlags**](/windows/previous-versions/CscObj/nf-cscobj-iofflinefilesitemfilter-getfilterflags?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

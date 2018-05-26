@@ -4,13 +4,16 @@ description: Moves the resource to a different group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ae1e5ff1-ecdb-46aa-ad62-40183ab429c6'
-ms.prod: 'windows-server-dev'
+ms.assetid: ae1e5ff1-ecdb-46aa-ad62-40183ab429c6
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MoveToNewGroup method", "MoveToNewGroup method, MSCluster_Resource class", "MSCluster_Resource class, MoveToNewGroup method"]
+keywords:
+- MoveToNewGroup method
+- MoveToNewGroup method, MSCluster_Resource class
+- MSCluster_Resource class, MoveToNewGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MoveToNewGroup method of the MSCluster\_Resource class
@@ -30,7 +36,7 @@ Moves the [resource](https://msdn.microsoft.com/library/aa372152) to a different
 
 ```mof
 void MoveToNewGroup(
-  [in] string Group
+  [in] string Group
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -72,9 +78,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

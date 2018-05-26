@@ -1,8 +1,10 @@
 ---
 title: IResultType interface
 description: Exposes property type information.
-ms.assetid: '68abd470-2505-4836-a17f-f1c14157f8e7'
-keywords: ["IResultType interface Legacy Windows Environment Features", "IResultType interface Legacy Windows Environment Features , described"]
+ms.assetid: 68abd470-2505-4836-a17f-f1c14157f8e7
+keywords:
+- IResultType interface Legacy Windows Environment Features
+- IResultType interface Legacy Windows Environment Features , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultType interface
@@ -41,7 +48,7 @@ The **IResultType** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,16 +60,16 @@ These methods expose the types of information returned.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 3.0<br/>                                               |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

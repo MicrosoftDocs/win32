@@ -1,8 +1,9 @@
 ---
 title: MimeOleParseRfc822AddressW function
 description: Do not use. Parses the specified RFC 822 address string.
-ms.assetid: '490cc0e8-40df-4901-a139-024e92cc20e8'
-keywords: ["MimeOleParseRfc822AddressW function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 490cc0e8-40df-4901-a139-024e92cc20e8
+keywords:
+- MimeOleParseRfc822AddressW function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleParseRfc822AddressW function
@@ -23,9 +29,9 @@ Do not use. Parses the specified [RFC 822](http://www.ietf.org/rfc/rfc822.txt) a
 
 ```C++
 HRESULT MimeOleParseRfc822AddressW(
-  _In_  DWORD         dwAdrType,
-  _In_  LPCWSTR       pwszRfc822Adr,
-  _Out_ LPADDRESSLIST pList
+  _In_  DWORD         dwAdrType,
+  _In_  LPCWSTR       pwszRfc822Adr,
+  _Out_ LPADDRESSLIST pList
 );
 ```
 
@@ -78,7 +84,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +92,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -96,9 +102,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Modifies an IPv4 vendor class or user class on the DHCP Server with
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4f70cb6f-aec6-43b1-897a-875fdb0a4148'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4f70cb6f-aec6-43b1-897a-875fdb0a4148
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv4Class class", "PS_DhcpServerv4Class class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv4Class class
+- PS_DhcpServerv4Class class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv4Class class
@@ -30,13 +36,13 @@ Modifies an IPv4 vendor class or user class on the DHCP Server with specified pa
 
 ```mof
 uint32 Set(
-  [in]  string            Name,
-  [in]  string            Type,
-  [in]  string            Data,
-  [in]  string            Description,
-  [in]  string            ComputerName,
-  [in]  boolean           PassThru,
-  [out] DhcpServerv4Class cmdletOutput
+  [in]  string            Name,
+  [in]  string            Type,
+  [in]  string            Data,
+  [in]  string            Description,
+  [in]  string            ComputerName,
+  [in]  boolean           PassThru,
+  [out] DhcpServerv4Class cmdletOutput
 );
 ```
 
@@ -116,7 +122,7 @@ An embedded instance of a [**DhcpServerv4Class**](dhcpserverv4class.md) object.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -130,9 +136,9 @@ An embedded instance of a [**DhcpServerv4Class**](dhcpserverv4class.md) object.
 [**PS\_DhcpServerv4Class**](ps-dhcpserverv4class.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

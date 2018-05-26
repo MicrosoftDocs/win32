@@ -1,14 +1,20 @@
 ---
 title: Ordinal element
 description: This is an optional unsigned integer that specifies the order in which Iteration nodes should appear in the Job Results file.
-ms.assetid: '7F9071CD-E451-4A6C-8DDA-0AE9E38D0D05'
-keywords: ["Ordinal element Access Execution Engine"]
+ms.assetid: 7F9071CD-E451-4A6C-8DDA-0AE9E38D0D05
+keywords:
+- Ordinal element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Ordinal
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ordinal element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

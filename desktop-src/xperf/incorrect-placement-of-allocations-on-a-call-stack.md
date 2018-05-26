@@ -1,7 +1,12 @@
 ---
 title: Incorrect Placement of Allocations on a Call Stack
 description: Incorrect Placement of Allocations on a Call Stack
-ms.assetid: '3097520b-8291-499e-8a1f-9bcba1096ff0'
+ms.assetid: 3097520b-8291-499e-8a1f-9bcba1096ff0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Incorrect Placement of Allocations on a Call Stack

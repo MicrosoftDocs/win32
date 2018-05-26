@@ -1,7 +1,12 @@
 ---
-Description: 'These constants and corresponding values indicate HTTP status codes returned by servers on the Internet.'
-ms.assetid: '3de6a35d-41e9-4fce-ab92-e970c7c07e55'
+Description: These constants and corresponding values indicate HTTP status codes returned by servers on the Internet.
+ms.assetid: 3de6a35d-41e9-4fce-ab92-e970c7c07e55
 title: HTTP Status Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Status Codes
@@ -536,8 +541,8 @@ The server does not support the HTTP protocol version that was used in the reque
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |
 | Header<br/>                   | <dl> <dt>Winhttp.h</dt> </dl> |
 
 
@@ -549,9 +554,9 @@ The server does not support the HTTP protocol version that was used in the reque
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

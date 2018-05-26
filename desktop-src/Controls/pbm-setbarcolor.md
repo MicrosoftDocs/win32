@@ -1,8 +1,9 @@
 ---
 title: PBM\_SETBARCOLOR message
 description: Sets the color of the progress indicator bar in the progress bar control.
-ms.assetid: '4b512420-04ec-4884-ab13-4c58304b95f6'
-keywords: ["PBM_SETBARCOLOR message Windows Controls"]
+ms.assetid: 4b512420-04ec-4884-ab13-4c58304b95f6
+keywords:
+- PBM_SETBARCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_SETBARCOLOR message
@@ -49,15 +55,15 @@ When visual styles are enabled, this message has no effect.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

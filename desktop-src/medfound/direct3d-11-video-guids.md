@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following GUIDs support Direct3D 11 Video APIs.'
-ms.assetid: 'CF2F3058-328A-4128-B5C6-29723B49AB1E'
+---
+Description: The following GUIDs support Direct3D 11 Video APIs.
+ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: Direct3D 11 Video GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 11 Video GUIDs
@@ -17,17 +22,17 @@ The following GUIDs support Direct3D 11 Video APIs.
 
 Indicates that the decoder will receive data from a hardware-based DRM component
 
-**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION** can be specified in the *pKeyExchangeType* parameter of the [**ID3D11VideoDevice::CreateCryptoSession**](id3d11videodevice-createcryptosession.md) function to indicate that the [**ID3D11CryptoSession**](id3d11cryptosession.md) interface will be used purely for communication between a user mode DRM component and the secure execution environment.
+**D3D11\_KEY\_EXCHANGE\_HW\_PROTECTION** can be specified in the *pKeyExchangeType* parameter of the [**ID3D11VideoDevice::CreateCryptoSession**](/windows/win32/d3d11/nf-d3d11-id3d11videodevice-createcryptosession?branch=master) function to indicate that the [**ID3D11CryptoSession**](/windows/win32/d3d11/nn-d3d11-id3d11cryptosession?branch=master) interface will be used purely for communication between a user mode DRM component and the secure execution environment.
 
 When this GUID is specified, the following methods should not be called:
 
--   [**ID3D11CryptoSession::GetCertificateSize**](id3d11cryptosession-getcertificatesize.md)
--   [**ID3D11CryptoSession::GetCertificate**](id3d11cryptosession-getcertificate.md)
--   [**ID3D11VideoContext::EncryptionBlt**](id3d11videocontext-encryptionblt.md)
--   [**ID3D11VideoContext::DecryptionBlt**](id3d11videocontext-decryptionblt.md)
--   [**ID3D11VideoContext::StartSessionKeyRefresh**](id3d11videocontext-startsessionkeyrefresh.md)
--   [**ID3D11VideoContext::FinishSessionKeyRefresh**](id3d11videocontext-finishsessionkeyrefresh.md)
--   [**ID3D11VideoContext::GetEncryptionBltKey**](id3d11videocontext-getencryptionbltkey.md)
+-   [**ID3D11CryptoSession::GetCertificateSize**](/windows/win32/d3d11/nf-d3d11-id3d11cryptosession-getcertificatesize?branch=master)
+-   [**ID3D11CryptoSession::GetCertificate**](/windows/win32/d3d11/nf-d3d11-id3d11cryptosession-getcertificate?branch=master)
+-   [**ID3D11VideoContext::EncryptionBlt**](/windows/win32/d3d11/nf-d3d11-id3d11videocontext-encryptionblt?branch=master)
+-   [**ID3D11VideoContext::DecryptionBlt**](/windows/win32/d3d11/nf-d3d11-id3d11videocontext-decryptionblt?branch=master)
+-   [**ID3D11VideoContext::StartSessionKeyRefresh**](/windows/win32/d3d11/nf-d3d11-id3d11videocontext-startsessionkeyrefresh?branch=master)
+-   [**ID3D11VideoContext::FinishSessionKeyRefresh**](/windows/win32/d3d11/nf-d3d11-id3d11videocontext-finishsessionkeyrefresh?branch=master)
+-   [**ID3D11VideoContext::GetEncryptionBltKey**](/windows/win32/d3d11/nf-d3d11-id3d11videocontext-getencryptionbltkey?branch=master)
 
 
 </dt> </dl> </dd> <dt>
@@ -39,14 +44,14 @@ When this GUID is specified, the following methods should not be called:
 
 Indicates that the decoder will receive data from a hardware-based DRM component
 
-Setting this GUID in the **guidConfigBitstreamEncryption** member of the [**D3D11\_VIDEO\_DECODER\_CONFIG**](d3d11-video-decoder-config.md) structure passed to the [**ID3D11VideoDevice::CreateVideoDecoder**](id3d11videodevice-createvideodecoder.md) API indicates that the following parameters will be passed in the [**ID3D11VideoDevice::DecoderBeginFrame**](id3d11videocontext-decoderbeginframe.md) call:
+Setting this GUID in the **guidConfigBitstreamEncryption** member of the [**D3D11\_VIDEO\_DECODER\_CONFIG**](/windows/win32/d3d11/ns-d3d11-d3d11_video_decoder_config?branch=master) structure passed to the [**ID3D11VideoDevice::CreateVideoDecoder**](/windows/win32/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder?branch=master) API indicates that the following parameters will be passed in the [**ID3D11VideoDevice::DecoderBeginFrame**](/windows/win32/d3d11/nf-d3d11-id3d11videocontext-decoderbeginframe?branch=master) call:
 
 
 
 |                  |                                                                                                                                                                                                                                                     |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *ContentKeySize* | Contains the size of the [**D3D11\_VIDEO\_DECODER\_BEGIN\_FRAME\_CRYPTO\_SESSION**](d3d11-video-decoder-begin-frame-crypto-session.md) structure.                                                                                                  |
-| *pContentKey*    | A pointer to a [**D3D11\_VIDEO\_DECODER\_BEGIN\_FRAME\_CRYPTO\_SESSION**](d3d11-video-decoder-begin-frame-crypto-session.md) providing the [**ID3D11CryptoSession**](id3d11cryptosession.md) and the key information needed to decrypt the frame. |
+| *ContentKeySize* | Contains the size of the [**D3D11\_VIDEO\_DECODER\_BEGIN\_FRAME\_CRYPTO\_SESSION**](/windows/win32/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session?branch=master) structure.                                                                                                  |
+| *pContentKey*    | A pointer to a [**D3D11\_VIDEO\_DECODER\_BEGIN\_FRAME\_CRYPTO\_SESSION**](/windows/win32/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session?branch=master) providing the [**ID3D11CryptoSession**](/windows/win32/d3d11/nn-d3d11-id3d11cryptosession?branch=master) and the key information needed to decrypt the frame. |
 
 
 

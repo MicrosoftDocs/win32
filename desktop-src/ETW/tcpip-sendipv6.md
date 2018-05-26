@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for IPv6 TCP/IP send events. The following syntax is simplified from MOF code.'
-ms.assetid: '231ef62f-e3a5-497d-b10a-79449dc73c71'
-title: 'TcpIp\_SendIPV6 class'
+---
+Description: This class is the event type class for IPv6 TCP/IP send events. The following syntax is simplified from MOF code.
+ms.assetid: 231ef62f-e3a5-497d-b10a-79449dc73c71
+title: TcpIp\_SendIPV6 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TcpIp\_SendIPV6 class

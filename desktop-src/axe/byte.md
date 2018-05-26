@@ -1,14 +1,20 @@
 ---
 title: Byte element
 description: The data type is an unsigned integer value between 0 and 255.
-ms.assetid: '9AE1BAE0-58B5-4CAA-859F-77F87B998E3F'
-keywords: ["Byte element Access Execution Engine"]
+ms.assetid: 9AE1BAE0-58B5-4CAA-859F-77F87B998E3F
+keywords:
+- Byte element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Byte
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Byte element

@@ -1,8 +1,15 @@
 ---
 title: Using Windows Firewall for Windows XP with SP2 API
 description: Using Windows Firewall for Windows XP with SP2 API
-ms.assetid: 'd81da65d-179d-4fc5-ad7a-536387426d33'
-keywords: ["Windows Firewall, using", "Windows Firewall, examples"]
+ms.assetid: d81da65d-179d-4fc5-ad7a-536387426d33
+keywords:
+- Windows Firewall, using
+- Windows Firewall, examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Firewall for Windows XP with SP2 API

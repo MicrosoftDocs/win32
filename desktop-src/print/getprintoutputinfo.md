@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '0EC09215-48B1-4B71-9B4C-99A25C35269F'
+---
+Description: .
+ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 title: GetPrintOutputInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPrintOutputInfo function

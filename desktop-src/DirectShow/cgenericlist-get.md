@@ -1,7 +1,12 @@
 ---
-Description: 'The Get method retrieves the item at the specified position.'
-ms.assetid: 'cafa4083-96e6-4ed3-afbc-5828b7f1c5be'
-title: 'CGenericList.Get method'
+Description: The Get method retrieves the item at the specified position.
+ms.assetid: cafa4083-96e6-4ed3-afbc-5828b7f1c5be
+title: CGenericList.Get method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.Get method
@@ -13,7 +18,7 @@ The `Get` method retrieves the item at the specified position.
 
 ```C++
 OBJECT* Get(
-   POSITION pos
+   POSITION pos
 );
 ```
 
@@ -56,9 +61,9 @@ If *pos* is **NULL**, the method returns **NULL**.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

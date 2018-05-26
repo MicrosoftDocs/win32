@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the ServiceID and Types elements for the service host.'
-ms.assetid: '95066c04-5bdc-4c97-98b8-1da9928d9395'
+Description: Defines the ServiceID and Types elements for the service host.
+ms.assetid: 95066c04-5bdc-4c97-98b8-1da9928d9395
 title: host element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # host element
@@ -56,14 +61,14 @@ There are no attributes.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

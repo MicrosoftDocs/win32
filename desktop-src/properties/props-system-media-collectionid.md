@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '8e404517-6406-4c53-81d5-b20cafbc393f'
-title: 'System.Media.CollectionID'
+Description: .
+ms.assetid: 8e404517-6406-4c53-81d5-b20cafbc393f
+title: System.Media.CollectionID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.CollectionID

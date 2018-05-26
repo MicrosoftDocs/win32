@@ -1,8 +1,11 @@
 ---
 title: System.Time.timeZones property
 description: A collection of System.Time.timeZone objects.
-ms.assetid: 'a763108e-11dd-4430-b743-e8aa87aedd1c'
-keywords: ["timeZones property Windows Sidebar", "timeZones property Windows Sidebar , System.Time object", "System.Time object Windows Sidebar , timeZones property"]
+ms.assetid: a763108e-11dd-4430-b743-e8aa87aedd1c
+keywords:
+- timeZones property Windows Sidebar
+- timeZones property Windows Sidebar , System.Time object
+- System.Time object Windows Sidebar , timeZones property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Time.timeZones property
@@ -22,7 +30,7 @@ A collection of [**System.Time.timeZone**](system-time-timezone.md) objects.
 > [!Note]  
 > Objects of type [**System.Time.timeZone**](system-time-timezone.md) can only be accessed through the **timeZones** collection. This collection is a member of [**System.Time**](system-time.md).
 
- 
+ 
 
 This property is read-only.
 
@@ -60,10 +68,10 @@ var strName = oTimeZone.displayName;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -88,9 +96,9 @@ var strName = oTimeZone.displayName;
 [**System.Time**](system-time.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,32 @@ description: Sets the virtual channel options for the Remote Desktop ActiveX con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c74c3917-5766-4d5b-8458-b051eb91cb28'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c74c3917-5766-4d5b-8458-b051eb91cb28
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetVirtualChannelOptions method Remote Desktop Services", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient interface", "IMsRdpClient interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient2 interface", "IMsRdpClient2 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient3 interface", "IMsRdpClient3 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient4 interface", "IMsRdpClient4 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient5 interface", "IMsRdpClient5 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , SetVirtualChannelOptions method", "SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , SetVirtualChannelOptions method"]
+keywords:
+- SetVirtualChannelOptions method Remote Desktop Services
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient interface
+- IMsRdpClient interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient2 interface
+- IMsRdpClient2 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient3 interface
+- IMsRdpClient3 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient4 interface
+- IMsRdpClient4 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient5 interface
+- IMsRdpClient5 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , SetVirtualChannelOptions method
+- SetVirtualChannelOptions method Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , SetVirtualChannelOptions method
 topic_type:
 - apiref
 api_name:
@@ -26,6 +47,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient::SetVirtualChannelOptions method
@@ -39,8 +63,8 @@ Call this method after calling the [**CreateVirtualChannels**](imstscax-createvi
 
 ```C++
 HRESULT SetVirtualChannelOptions(
-  [in] BSTR ChanName,
-  [in] LONG chanOptions
+  [in] BSTR ChanName,
+  [in] LONG chanOptions
 );
 ```
 
@@ -60,7 +84,7 @@ The name of the virtual channel that was specified in the call to the [**CreateV
 *chanOptions* \[in\]
 </dt> <dd>
 
-The options to set for the virtual channel specified by the *ChanName* parameter. For a description of possible options, see [**CHANNEL\_DEF**](channel-def-str.md). For more information, see the following Remarks section.
+The options to set for the virtual channel specified by the *ChanName* parameter. For a description of possible options, see [**CHANNEL\_DEF**](/windows/win32/Pchannel/ns-pchannel-tagchannel_def?branch=master). For more information, see the following Remarks section.
 
 </dd> </dl>
 
@@ -80,8 +104,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient is defined as 92b4a539-7115-4b7c-a5a9-e5d9efc2780a<br/>        |
@@ -122,7 +146,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> <dt>
 
-[**CHANNEL\_DEF**](channel-def-str.md)
+[**CHANNEL\_DEF**](/windows/win32/Pchannel/ns-pchannel-tagchannel_def?branch=master)
 </dt> <dt>
 
 [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)
@@ -131,9 +155,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

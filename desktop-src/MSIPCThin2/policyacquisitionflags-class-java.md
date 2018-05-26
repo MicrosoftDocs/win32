@@ -4,17 +4,21 @@ description: Defines modes for consuming protected content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'D332F590-974F-41EF-B994-F79B2C1BC655'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: D332F590-974F-41EF-B994-F79B2C1BC655
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyAcquisitionFlags class"]
+keywords:
+- PolicyAcquisitionFlags class
 topic_type:
 - apiref
 api_name:
 - PolicyAcquisitionFlags class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyAcquisitionFlags class
@@ -38,7 +42,7 @@ public final class PolicyAcquisitionFlags
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -54,7 +58,7 @@ PolicyAcquisitionFlags.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -68,9 +72,9 @@ For more information about the built-in rights and the usage restrictions associ
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

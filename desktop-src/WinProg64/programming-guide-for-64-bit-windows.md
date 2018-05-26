@@ -1,8 +1,16 @@
 ---
 title: Programming Guide for 64-bit Windows
 description: Microsoft has released 64-bit versions of the Windows operating system.
-ms.assetid: 'eb31408a-549d-427e-9f8e-9ae96bf6f854'
-keywords: ["64-bit Windows programming guide 64-bit Windows Programming", "64-bit Windows programming guide 64-bit Windows Programming , home page", "programming guide for 64-bit Windows 64-bit Windows Programming See 64-bit Windows programming guide"]
+ms.assetid: eb31408a-549d-427e-9f8e-9ae96bf6f854
+keywords:
+- 64-bit Windows programming guide 64-bit Windows Programming
+- 64-bit Windows programming guide 64-bit Windows Programming , home page
+- programming guide for 64-bit Windows 64-bit Windows Programming See 64-bit Windows programming guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide for 64-bit Windows

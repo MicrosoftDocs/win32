@@ -1,8 +1,16 @@
 ---
 title: InsertElementExample
 description: This example shows how to insert an element in an xml buffer.
-ms.assetid: '98fed487-77f8-4224-9a73-b20afcb01d47'
-keywords: ["InsertElementExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 98fed487-77f8-4224-9a73-b20afcb01d47
+keywords:
+- InsertElementExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InsertElementExample

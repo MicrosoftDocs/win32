@@ -1,7 +1,12 @@
 ---
 title: Date and Time Picker Messages
 description: .
-ms.assetid: 'ace058fa-7410-4de9-b4c4-5dde88bbb8c8'
+ms.assetid: ace058fa-7410-4de9-b4c4-5dde88bbb8c8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Date and Time Picker Messages

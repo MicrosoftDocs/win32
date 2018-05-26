@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice SetMeterResponse method
 description: The SetMeterResponse method sets the metering response.
-ms.assetid: '3f2e7d7c-6470-4d53-96b0-d3eebdb08329'
-keywords: ["SetMeterResponse method windows Media Device Manager", "SetMeterResponse method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , SetMeterResponse method"]
+ms.assetid: 3f2e7d7c-6470-4d53-96b0-d3eebdb08329
+keywords:
+- SetMeterResponse method windows Media Device Manager
+- SetMeterResponse method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , SetMeterResponse method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::SetMeterResponse method
@@ -23,9 +31,9 @@ The **SetMeterResponse** method sets the metering response.
 
 ```C++
 HRESULT SetMeterResponse(
-  [in]  BYTE  *pbMeterResponse,
-  [in]  DWORD cbMeterResponse,
-  [out] DWORD *pdwFlags
+  [in]  BYTE  *pbMeterResponse,
+  [in]  DWORD cbMeterResponse,
+  [out] DWORD *pdwFlags
 );
 ```
 
@@ -63,7 +71,7 @@ Response flags. This value must be one of the following flags.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -79,7 +87,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -99,9 +107,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSignedIntegerValue method retrieves a LONG value (type VT\_I4) specified by a key.'
-ms.assetid: 'd2291a64-d0b3-4a30-a37c-2b6cd9880a11'
-title: 'IPortableDeviceValues::GetSignedIntegerValue method'
+Description: The GetSignedIntegerValue method retrieves a LONG value (type VT\_I4) specified by a key.
+ms.assetid: d2291a64-d0b3-4a30-a37c-2b6cd9880a11
+title: IPortableDeviceValuesGetSignedIntegerValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetSignedIntegerValue method
@@ -13,8 +18,8 @@ The **GetSignedIntegerValue** method retrieves a **LONG** value (type VT\_I4) sp
 
 ```C++
 HRESULT GetSignedIntegerValue(
-  [in]  REFPROPERTYKEY key,
-  [out] LONG           *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] LONG           *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetSignedIntegerValue**](iportabledevicevalues-setsignedintegervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

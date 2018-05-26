@@ -1,7 +1,12 @@
 ---
-Description: 'The Pause method signals the streaming thread to become active.'
-ms.assetid: 'c97da113-c5a7-422d-9215-70b556e0b8ca'
-title: 'CSourceStream.Pause method'
+Description: The Pause method signals the streaming thread to become active.
+ms.assetid: c97da113-c5a7-422d-9215-70b556e0b8ca
+title: CSourceStream.Pause method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.Pause method
@@ -47,9 +52,9 @@ The [**CSourceStream::Active**](csourcestream-active.md) method calls this metho
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

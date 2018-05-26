@@ -1,7 +1,12 @@
 ---
-Description: 'Adds an IContextNode object to this collection.'
-ms.assetid: '48feae05-1cc8-46c3-97cd-4493ee28b8e5'
-title: 'IContextNodes::AddContextNode method'
+Description: Adds an IContextNode object to this collection.
+ms.assetid: 48feae05-1cc8-46c3-97cd-4493ee28b8e5
+title: IContextNodesAddContextNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNodes::AddContextNode method
@@ -13,7 +18,7 @@ Adds an [**IContextNode**](icontextnode.md) object to this collection.
 
 ```C++
 HRESULT AddContextNode(
-  [in] IContextNode *pContextNode
+  [in] IContextNode *pContextNode
 );
 ```
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -57,9 +62,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

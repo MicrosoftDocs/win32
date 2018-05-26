@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetSwapInputs method retrieves a value that indicates whether the transition inputs are swapped.'
-ms.assetid: '84cb5c3d-7c3a-4c35-aac7-97d812d99a38'
-title: 'IAMTimelineTrans::GetSwapInputs method'
+---
+Description: The GetSwapInputs method retrieves a value that indicates whether the transition inputs are swapped.
+ms.assetid: 84cb5c3d-7c3a-4c35-aac7-97d812d99a38
+title: IAMTimelineTransGetSwapInputs method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineTrans::GetSwapInputs method

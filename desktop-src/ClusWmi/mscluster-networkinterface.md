@@ -4,13 +4,18 @@ description: A dynamic WMI class that represents a network interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd9669a77-9eae-41e5-86c2-74a62e63ee4d'
-ms.prod: 'windows-server-dev'
+ms.assetid: d9669a77-9eae-41e5-86c2-74a62e63ee4d
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_NetworkInterface class", "MSCluster_NetworkInterface class, described"]
+keywords:
+- MSCluster_NetworkInterface class
+- MSCluster_NetworkInterface class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_NetworkInterface class
@@ -25,42 +30,42 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{3DE393F8-8FD5-4426-901D-8EE017003A61}"), AMENDMENT]
 class MSCluster_NetworkInterface : CIM_LogicalDevice
 {
-  string             Caption;
-  string             Status;
-  datetime           InstallDate;
-  string             SystemCreationClassName;
-  string             SystemName;
-  string             CreationClassName;
-  string             DeviceID;
-  boolean            PowerManagementSupported;
-  uint16             PowerManagementCapabilities[];
-  uint16             Availability;
-  uint32             ConfigManagerErrorCode;
-  boolean            ConfigManagerUserConfig;
-  string             PNPDeviceID;
-  uint16             StatusInfo;
-  uint32             LastErrorCode;
-  string             ErrorDescription;
-  boolean            ErrorCleared;
-  string             OtherIdentifyingInfo[];
-  uint64             PowerOnHours;
-  uint64             TotalPowerOnHours;
-  string             IdentifyingDescriptions[];
-  string             Name;
-  string             Description;
-  string             Adapter;
-  string             AdapterId;
-  string             Node;
-  string             Address;
-  string             Network;
-  uint32             State;
-  uint32             Flags;
-  uint32             Characteristics;
-  string             IPv6Addresses[];
-  string             IPv4Addresses[];
-  boolean            DhcpEnabled;
+  string             Caption;
+  string             Status;
+  datetime           InstallDate;
+  string             SystemCreationClassName;
+  string             SystemName;
+  string             CreationClassName;
+  string             DeviceID;
+  boolean            PowerManagementSupported;
+  uint16             PowerManagementCapabilities[];
+  uint16             Availability;
+  uint32             ConfigManagerErrorCode;
+  boolean            ConfigManagerUserConfig;
+  string             PNPDeviceID;
+  uint16             StatusInfo;
+  uint32             LastErrorCode;
+  string             ErrorDescription;
+  boolean            ErrorCleared;
+  string             OtherIdentifyingInfo[];
+  uint64             PowerOnHours;
+  uint64             TotalPowerOnHours;
+  string             IdentifyingDescriptions[];
+  string             Name;
+  string             Description;
+  string             Adapter;
+  string             AdapterId;
+  string             Node;
+  string             Address;
+  string             Network;
+  uint32             State;
+  uint32             Flags;
+  uint32             Characteristics;
+  string             IPv6Addresses[];
+  string             IPv4Addresses[];
+  boolean            DhcpEnabled;
   MSCluster_Property PrivateProperties;
-  string             Id;
+  string             Id;
 };
 ```
 
@@ -86,7 +91,7 @@ The **MSCluster\_NetworkInterface** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -883,7 +888,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Provides the Clustering Service–generated name for the network interface.
+Provides the Clustering Service generated name for the network interface.
 
 Inherited from [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884).
 
@@ -1124,9 +1129,9 @@ Indicates the current state of the network interface. The following are the poss
 
 </dt> <dd>
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **StateUnknown** before Windows Server 2012 R2 .
+This value is **StateUnknown** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -1324,7 +1329,7 @@ The **MSCluster\_NetworkInterface** class is derived from the [**CIM\_LogicalDev
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -1341,9 +1346,9 @@ The **MSCluster\_NetworkInterface** class is derived from the [**CIM\_LogicalDev
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

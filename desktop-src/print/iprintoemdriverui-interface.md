@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintOemDriverUI COM Interface.'
-ms.assetid: '2a885dd5-d328-4aae-8771-613ff93b35ac'
+---
+Description: This section describes the methods defined for the IPrintOemDriverUI COM Interface.
+ms.assetid: 2a885dd5-d328-4aae-8771-613ff93b35ac
 title: IPrintOemDriverUI interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUI interface

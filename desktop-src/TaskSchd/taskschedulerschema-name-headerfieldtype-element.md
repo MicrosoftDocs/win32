@@ -1,14 +1,20 @@
 ---
 title: Name (headerFieldType) Element
 description: Contains the name of a header field in an email message.
-ms.assetid: '1c2b3677-7a58-4f90-aa3c-c9e25e4415a1'
-keywords: ["Name element Task Scheduler"]
+ms.assetid: 1c2b3677-7a58-4f90-aa3c-c9e25e4415a1
+keywords:
+- Name element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name (headerFieldType) Element
@@ -39,14 +45,14 @@ The **Name** element is defined by the [**headerFieldType**](taskschedulerschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

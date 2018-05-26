@@ -4,10 +4,13 @@ description: API reference for the Android operating system.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '7ba8e8b1-bfc1-4be0-b376-3ba4a1457cba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 7ba8e8b1-bfc1-4be0-b376-3ba4a1457cba
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Android API Reference

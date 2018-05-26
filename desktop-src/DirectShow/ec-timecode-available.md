@@ -1,7 +1,12 @@
 ---
-Description: 'Not supported.'
-ms.assetid: '90b205f4-0fe3-4a19-bb8a-198d8f3d445c'
-title: 'EC\_TIMECODE\_AVAILABLE'
+Description: Not supported.
+ms.assetid: 90b205f4-0fe3-4a19-bb8a-198d8f3d445c
+title: EC\_TIMECODE\_AVAILABLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_TIMECODE\_AVAILABLE
@@ -28,9 +33,9 @@ Not supported.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,19 @@
 title: call\_as attribute
 description: The \ call\_as\ attribute enables you to map a function that cannot be called remotely to a remote function.
 ms.assetid: 4078f37a-9bd7-4316-b228-afbffc4caeab
-keywords: ["call_as attribute MIDL"]
+keywords:
+- call_as attribute MIDL
 topic_type:
 - apiref
 api_name:
 - call_as
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # call\_as attribute

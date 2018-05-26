@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies the control protocol used by the network source.'
-ms.assetid: '4de8b8ba-97d9-4269-a16c-1853dc02f674'
-title: 'MFNETSOURCE\_PROTOCOL property'
+---
+Description: Specifies the control protocol used by the network source.
+ms.assetid: 4de8b8ba-97d9-4269-a16c-1853dc02f674
+title: MFNETSOURCE\_PROTOCOL property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PROTOCOL property
 
-Specifies the control protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_PROTOCOL\_TYPE**](mfnetsource-protocol-type.md) enumeration.
+Specifies the control protocol used by the network source. The value of this property is a member of the [**MFNETSOURCE\_PROTOCOL\_TYPE**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_protocol_type?branch=master) enumeration.
 
 
 

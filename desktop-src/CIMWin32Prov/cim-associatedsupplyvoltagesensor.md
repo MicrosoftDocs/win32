@@ -1,15 +1,18 @@
 ---
-Description: 'Associates a power supply with a voltage sensor that monitors its input voltage.'
+Description: Associates a power supply with a voltage sensor that monitors its input voltage.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4164320e-8362-4ce2-9949-f14669278bd8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4164320e-8362-4ce2-9949-f14669278bd8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_AssociatedSupplyVoltageSensor class'
+title: CIM\_AssociatedSupplyVoltageSensor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AssociatedSupplyVoltageSensor class
@@ -19,7 +22,7 @@ The **CIM\_AssociatedSupplyVoltageSensor** class associates a power supply with 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,9 +32,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{327ABD78-E3D3-11d2-8601-0000F8102E5F}"), AMENDMENT]
 class CIM_AssociatedSupplyVoltageSensor : CIM_AssociatedSensor
 {
-  CIM_PowerSupply   REF Dependent;
+  CIM_PowerSupply   REF Dependent;
   CIM_VoltageSensor REF Antecedent;
-  uint16                MonitoringRange;
+  uint16                MonitoringRange;
 };
 ```
 
@@ -147,8 +150,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -162,9 +165,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_AssociatedSensor**](cim-associatedsensor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

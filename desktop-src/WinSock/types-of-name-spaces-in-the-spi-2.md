@@ -1,7 +1,12 @@
 ---
-Description: 'The three types of namespaces in the Windows Sockets (Winsock) SPI include dynamic, static, and persistent namespaces.'
-ms.assetid: '2968ac98-bd40-4d37-9dd7-7870c4decd40'
+Description: The three types of namespaces in the Windows Sockets (Winsock) SPI include dynamic, static, and persistent namespaces.
+ms.assetid: 2968ac98-bd40-4d37-9dd7-7870c4decd40
 title: Types of Namespaces in the SPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Namespaces in the SPI

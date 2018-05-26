@@ -4,11 +4,16 @@ description: This topic includes a C++ code example that programmatically extend
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e84678c5-ac12-424b-ba6c-c6cba23e4ff6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e84678c5-ac12-424b-ba6c-c6cba23e4ff6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Extending the Schema Programmatically AD", "Extending the Schema Programmatically AD , Example Code for"]
+keywords:
+- Example Code for Extending the Schema Programmatically AD
+- Extending the Schema Programmatically AD , Example Code for
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Extending the Schema Programmatically

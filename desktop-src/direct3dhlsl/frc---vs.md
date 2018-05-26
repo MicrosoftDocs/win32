@@ -1,7 +1,12 @@
 ---
 title: frc - vs
 description: Returns the fractional portion of each input component.
-ms.assetid: '6b6a4475-b665-4de0-9423-88ea8103e606'
+ms.assetid: 6b6a4475-b665-4de0-9423-88ea8103e606
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # frc - vs

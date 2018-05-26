@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initializes a color with the supplied red, green, blue, and alpha values.'
-ms.assetid: '87d322f1-4a26-42fd-a1c3-7be220cecf0f'
-title: 'D3DCOLOR\_RGBA macro'
+---
+Description: Initializes a color with the supplied red, green, blue, and alpha values.
+ms.assetid: 87d322f1-4a26-42fd-a1c3-7be220cecf0f
+title: D3DCOLOR\_RGBA macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCOLOR\_RGBA macro

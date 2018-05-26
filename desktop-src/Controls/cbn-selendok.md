@@ -1,8 +1,9 @@
 ---
 title: CBN\_SELENDOK notification code
-description: Sent when the user selects a list item, or selects an item and then closes the list. It indicates that the user's selection is to be processed. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
-ms.assetid: 'ef0ac46f-2db9-40d6-ba82-7e90d71fdd37'
-keywords: ["CBN_SELENDOK notification code Windows Controls"]
+description: Sent when the user selects a list item, or selects an item and then closes the list. It indicates that the users selection is to be processed. The parent window of the combo box receives this notification code through the WM\_COMMAND message.
+ms.assetid: ef0ac46f-2db9-40d6-ba82-7e90d71fdd37
+keywords:
+- CBN_SELENDOK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBN\_SELENDOK notification code
@@ -55,8 +61,8 @@ In a combo box with the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style,
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ In a combo box with the [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style,
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

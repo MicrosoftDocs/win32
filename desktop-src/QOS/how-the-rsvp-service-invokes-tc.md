@@ -1,7 +1,12 @@
 ---
 title: How the RSVP Service Invokes TC
 description: The RSVP service and TC communicate in order to work together to provide overall quality of service for a given sending flow.
-ms.assetid: '8ad05dba-8f1d-48b8-8d07-bcc7a83a1550'
+ms.assetid: 8ad05dba-8f1d-48b8-8d07-bcc7a83a1550
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How the RSVP Service Invokes TC
@@ -10,18 +15,18 @@ ms.assetid: '8ad05dba-8f1d-48b8-8d07-bcc7a83a1550'
 
 The RSVP service and TC communicate in order to work together to provide overall quality of service for a given sending flow. When an application requests quality of service using the RSVP SP, the RSVP SP responds by initiating RSVP signaling and invoking kernel traffic control from local TC components (using the traffic control Interface). As such, traffic control and RSVP signaling are initiated concurrently upon flow setup.
 
-In this transitional period (presuming [**QOS\_SD\_MODE**](qos-sd-mode.md) has not been specifically set) the reservation has not been established, and therefore traffic control is configured to transmit traffic associated with the flow's specification, as follows:
+In this transitional period (presuming [**QOS\_SD\_MODE**](/windows/previous-versions/Qos/ns-qos-_qos_sd_mode?branch=master) has not been specifically set) the reservation has not been established, and therefore traffic control is configured to transmit traffic associated with the flow's specification, as follows:
 
 -   [BEST\_EFFORT](best-effort.md) traffic is transmitted with its QOS\_SD\_MODE set to borrow mode (TC\_NONCONF\_BORROW)
 -   [CONTROLLED LOAD](controlled-load.md) traffic is transmitted with its QOS\_SD\_MODE set to TC\_NONCONF\_BORROW
 -   GUARANTEED traffic is shaped with its QOS\_SD\_MODE set to TC\_NONCONF\_SHAPE
 
 > [!Note]  
-> The above default configuration can be overridden by supplying the [**QOS\_SD\_MODE**](qos-sd-mode.md) object in the [ProviderSpecific](the-providerspecific-buffer.md) buffer.
+> The above default configuration can be overridden by supplying the [**QOS\_SD\_MODE**](/windows/previous-versions/Qos/ns-qos-_qos_sd_mode?branch=master) object in the [ProviderSpecific](the-providerspecific-buffer.md) buffer.
 
  
 
-In this transitional period, all packets conforming to the flowspec for BEST\_EFFORT and CONTROLLED LOAD are sent immediately with the appropriate traffic control marking, and nonconforming packets are sent immediately with their host and network priority demoted. Transmission settings for any given flow are aligned with the allowed sending rate specified by the system (which is in turn determined by settings in the appropriate [**FLOWSPEC**](flowspec.md)).
+In this transitional period, all packets conforming to the flowspec for BEST\_EFFORT and CONTROLLED LOAD are sent immediately with the appropriate traffic control marking, and nonconforming packets are sent immediately with their host and network priority demoted. Transmission settings for any given flow are aligned with the allowed sending rate specified by the system (which is in turn determined by settings in the appropriate [**FLOWSPEC**](/windows/previous-versions/Qos/ns-qos-_flowspec?branch=master)).
 
 Sending applications can determine what the allowed sending rate is by querying the Allowed\_Rate using SIO\_CHK\_QOS. More information about using SIO\_CHK\_QOS is provided in [Using SIO\_CHK\_QOS](using-sio-chk-qos.md).
 

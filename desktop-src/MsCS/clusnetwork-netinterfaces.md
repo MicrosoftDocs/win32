@@ -4,11 +4,14 @@ description: ClusNetworkNetInterfaces collection providing access to the network
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dbb51326-42a1-4b93-b7ab-a9b645c1ef8f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: dbb51326-42a1-4b93-b7ab-a9b645c1ef8f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["NetInterfaces property Failover Cluster", "NetInterfaces property Failover Cluster , ClusNetwork object", "ClusNetwork object Failover Cluster , NetInterfaces property"]
+keywords:
+- NetInterfaces property Failover Cluster
+- NetInterfaces property Failover Cluster , ClusNetwork object
+- ClusNetwork object Failover Cluster , NetInterfaces property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNetwork.NetInterfaces property
@@ -47,7 +53,7 @@ A [**ClusNetworkNetInterfaces**](clusnetworknetinterfaces-collection.md) collect
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -69,9 +75,9 @@ A [**ClusNetworkNetInterfaces**](clusnetworknetinterfaces-collection.md) collect
 [**Cluster Object**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

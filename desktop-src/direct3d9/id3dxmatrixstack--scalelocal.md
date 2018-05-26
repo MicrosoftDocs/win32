@@ -1,7 +1,12 @@
-﻿---
-Description: 'Scale the current matrix about the object origin.'
-ms.assetid: 'fe71da67-c8c9-4c78-9055-9bc3cadc0780'
-title: 'ID3DXMATRIXStack::ScaleLocal method'
+---
+Description: Scale the current matrix about the object origin.
+ms.assetid: fe71da67-c8c9-4c78-9055-9bc3cadc0780
+title: ID3DXMATRIXStackScaleLocal method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::ScaleLocal method

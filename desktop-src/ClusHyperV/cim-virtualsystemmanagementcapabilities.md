@@ -4,13 +4,15 @@ description: Represents the capabilities of a CIM\_VirtualSystemManagementServic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd680a3b8-b83b-4e59-a330-9fb3a24c43f9'
-ms.prod: 'windows-server-dev'
+ms.assetid: d680a3b8-b83b-4e59-a330-9fb3a24c43f9
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_VirtualSystemManagementCapabilities class", "CIM_VirtualSystemManagementCapabilities class, described"]
+keywords:
+- CIM_VirtualSystemManagementCapabilities class
+- CIM_VirtualSystemManagementCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VirtualSystemManagementCapabilities class
@@ -45,18 +50,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.23.0"), UMLPackagePath("CIM::Core::Virtualization")]
 class CIM_VirtualSystemManagementCapabilities : CIM_EnabledLogicalElementCapabilities
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
   boolean ElementNameEditSupported;
-  uint16  MaxElementNameLen;
-  uint16  RequestedStatesSupported[];
-  string  ElementNameMask;
-  string  VirtualSystemTypesSupported[];
-  uint16  SynchronousMethodsSupported[];
-  uint16  AsynchronousMethodsSupported[];
-  uint16  IndicationsSupported[];
+  uint16  MaxElementNameLen;
+  uint16  RequestedStatesSupported[];
+  string  ElementNameMask;
+  string  VirtualSystemTypesSupported[];
+  uint16  SynchronousMethodsSupported[];
+  uint16  AsynchronousMethodsSupported[];
+  uint16  IndicationsSupported[];
 };
 ```
 
@@ -155,14 +160,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>11–23766</dd> <dt>
+</dt> <dd>11 23766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -252,7 +257,7 @@ A regular expression that indicates the restrictions on the **ElementName** prop
 > [!Note]  
 > If this property and the **ElementNameMask** property of the enable logical element describe the maximum length of **ElementName**, the smaller value is used.
 
- 
+ 
 
 This property is inherited from [**CIM\_EnabledLogicalElementCapabilities**](cim-enabledlogicalelementcapabilities.md).
 
@@ -299,14 +304,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>5–23766</dd> <dt>
+</dt> <dd>5 23766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -336,7 +341,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_Capabilities**](cim-capabilities.md).
 
@@ -528,14 +533,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>11–23766</dd> <dt>
+</dt> <dd>11 23766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -562,7 +567,7 @@ The type of virtual systems supported by the implementation.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -579,9 +584,9 @@ The type of virtual systems supported by the implementation.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

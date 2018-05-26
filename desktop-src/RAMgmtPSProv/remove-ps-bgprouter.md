@@ -2,13 +2,16 @@
 title: Remove method of the PS\_BgpRouter class
 description: Removes a BGP router from the associated tenants.
 audience: developer
-ms.assetid: '668b0432-aa3c-4308-af53-5d588c79ca8e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 668b0432-aa3c-4308-af53-5d588c79ca8e
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_BgpRouter class", "PS_BgpRouter class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_BgpRouter class
+- PS_BgpRouter class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_BgpRouter class
@@ -28,8 +34,8 @@ Removes a BGP router from the associated tenants.
 
 ```mof
 uint32 Remove(
-  [in] string  RoutingDomain[],
-  [in] boolean Force
+  [in] string  RoutingDomain[],
+  [in] boolean Force
 );
 ```
 
@@ -60,7 +66,7 @@ Indicates no confirmation prompt before removing the BGP router for specified te
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Indicates no confirmation prompt before removing the BGP router for specified te
 [**PS\_BgpRouter**](ps-bgprouter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

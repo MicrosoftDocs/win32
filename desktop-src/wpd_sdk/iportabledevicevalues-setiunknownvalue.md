@@ -1,7 +1,12 @@
 ---
-Description: 'The SetIUnknownValue method adds a new IUnknown value (type VT\_UNKNOWN) or overwrites an existing one.'
-ms.assetid: '292adf45-439c-4aae-9b17-e4d9ed701eda'
-title: 'IPortableDeviceValues::SetIUnknownValue method'
+Description: The SetIUnknownValue method adds a new IUnknown value (type VT\_UNKNOWN) or overwrites an existing one.
+ms.assetid: 292adf45-439c-4aae-9b17-e4d9ed701eda
+title: IPortableDeviceValuesSetIUnknownValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetIUnknownValue method
@@ -13,8 +18,8 @@ The **SetIUnknownValue** method adds a new **IUnknown** value (type VT\_UNKNOWN)
 
 ```C++
 HRESULT SetIUnknownValue(
-  [in] REFPROPERTYKEY key,
-  [in] IUnknown       *pValue
+  [in] REFPROPERTYKEY key,
+  [in] IUnknown       *pValue
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetIUnknownValue**](iportabledevicevalues-getiunknownvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

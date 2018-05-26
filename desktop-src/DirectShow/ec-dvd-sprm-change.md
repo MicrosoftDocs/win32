@@ -1,7 +1,12 @@
 ---
-Description: 'Sent when the value of a system parameter register (SPRM) changes.'
-ms.assetid: '266b6de1-740d-4b3d-8487-5a9570d6c852'
-title: 'EC\_DVD\_SPRM\_Change'
+Description: Sent when the value of a system parameter register (SPRM) changes.
+ms.assetid: 266b6de1-740d-4b3d-8487-5a9570d6c852
+title: EC\_DVD\_SPRM\_Change
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_SPRM\_Change
@@ -28,7 +33,7 @@ The lower 16 bits contains the new SPRM value.
 
 ## Remarks
 
-This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](idvdcontrol2-setoption.md) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
+This event is disabled by default. To enable this event, call [**IDvdControl2::SetOption**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-setoption?branch=master) and set the **DVD\_EnableLoggingEvents** option to **TRUE**.
 
 ## Requirements
 
@@ -53,12 +58,12 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
-[**IDvdInfo2::GetAllSPRMs**](idvdinfo2-getallsprms.md)
+[**IDvdInfo2::GetAllSPRMs**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getallsprms?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

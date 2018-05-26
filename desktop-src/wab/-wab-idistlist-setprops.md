@@ -1,8 +1,11 @@
 ---
 title: IDistList SetProps method
 description: Sets property values for a distribution list object.
-ms.assetid: '5cfd22b1-19cb-48e3-a51f-b1a1437e61a3'
-keywords: ["SetProps method Windows Address Book", "SetProps method Windows Address Book , IDistList interface", "IDistList interface Windows Address Book , SetProps method"]
+ms.assetid: 5cfd22b1-19cb-48e3-a51f-b1a1437e61a3
+keywords:
+- SetProps method Windows Address Book
+- SetProps method Windows Address Book , IDistList interface
+- IDistList interface Windows Address Book , SetProps method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDistList::SetProps method
@@ -22,9 +30,9 @@ Sets property values for a distribution list object.
 
 ```C++
 HRESULT SetProps(
-   ULONG             cValues,
-   SPropValue        *lpPropArray,
-   SPropProblemArray **lppProblems
+   ULONG             cValues,
+   SPropValue        *lpPropArray,
+   SPropProblemArray **lppProblems
 );
 ```
 
@@ -46,18 +54,18 @@ Value of type **ULONG** that specifies the count of the property values to be se
 *lpPropArray* 
 </dt> <dd>
 
-Type: **[**SPropValue**](-wab-spropvalue.md)\***
+Type: **[**SPropValue**](/windows/previous-versions/Wabdefs/ns-wabdefs-_spropvalue?branch=master)\***
 
-Pointer to an [**SPropValue**](-wab-spropvalue.md) array containing the properties to be set.
+Pointer to an [**SPropValue**](/windows/previous-versions/Wabdefs/ns-wabdefs-_spropvalue?branch=master) array containing the properties to be set.
 
 </dd> <dt>
 
 *lppProblems* 
 </dt> <dd>
 
-Type: **[**SPropProblemArray**](-wab-spropproblemarray.md)\*\***
+Type: **[**SPropProblemArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_spropproblemarray?branch=master)\*\***
 
-Address of a pointer to a [**SPropProblemArray**](-wab-spropproblemarray.md). This must be freed by the caller if a non-NULL value is retrieved.
+Address of a pointer to a [**SPropProblemArray**](/windows/previous-versions/Wabdefs/ns-wabdefs-_spropproblemarray?branch=master). This must be freed by the caller if a non-NULL value is retrieved.
 
 </dd> </dl>
 
@@ -81,7 +89,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,17 +97,17 @@ This method can return one of these values.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

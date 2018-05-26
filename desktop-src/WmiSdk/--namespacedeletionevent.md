@@ -1,13 +1,16 @@
 ---
-Description: 'Reports a namespace deletion event, which is a type of intrinsic event that is generated when a sub-namespace is removed from the current namespace.'
+Description: Reports a namespace deletion event, which is a type of intrinsic event that is generated when a sub-namespace is removed from the current namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f7160a90-562d-40d9-9189-32aaabcd81d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f7160a90-562d-40d9-9189-32aaabcd81d0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_NamespaceDeletionEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_NamespaceDeletionEvent class
@@ -21,9 +24,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __NamespaceDeletionEvent : __NamespaceOperationEvent
 {
-  uint8       SECURITY_DESCRIPTOR[];
+  uint8       SECURITY_DESCRIPTOR[];
   __Namespace TargetNamespace;
-  uint64      TIME_CREATED;
+  uint64      TIME_CREATED;
 };
 ```
 
@@ -90,8 +93,8 @@ The **\_\_NamespaceDeletionEvent** class is derived from [**\_\_NamespaceOperati
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -106,9 +109,9 @@ The **\_\_NamespaceDeletionEvent** class is derived from [**\_\_NamespaceOperati
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

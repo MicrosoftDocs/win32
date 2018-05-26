@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of pages per sheet.'
-ms.assetid: '036F59B3-962D-446C-A736-CDA1D5199CF5'
-title: 'IPrintSchemaNUpOption::PagesPerSheet property'
+---
+Description: Gets the number of pages per sheet.
+ms.assetid: 036F59B3-962D-446C-A736-CDA1D5199CF5
+title: IPrintSchemaNUpOptionPagesPerSheet property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaNUpOption::PagesPerSheet property

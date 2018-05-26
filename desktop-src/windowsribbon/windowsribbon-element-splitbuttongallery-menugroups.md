@@ -1,14 +1,20 @@
 ---
 title: SplitButtonGallery.MenuGroups property
 description: Represents a container for a set of drop-down menu items in a SplitButtonGallery control.
-ms.assetid: 'e30fcf9a-488b-423a-8bc4-fccbc78f74de'
-keywords: ["SplitButtonGallery.MenuGroups property Windows Ribbon"]
+ms.assetid: e30fcf9a-488b-423a-8bc4-fccbc78f74de
+keywords:
+- SplitButtonGallery.MenuGroups property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - SplitButtonGallery.MenuGroups
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SplitButtonGallery.MenuGroups property
@@ -90,8 +96,8 @@ This section of code shows the **SplitButtonGallery.MenuGroups** control declara
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -105,9 +111,9 @@ This section of code shows the **SplitButtonGallery.MenuGroups** control declara
 [Working with Galleries](ribbon-controls-galleries.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

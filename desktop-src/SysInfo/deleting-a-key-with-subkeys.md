@@ -1,12 +1,17 @@
 ---
-Description: 'The example in this topic uses the RegOpenKeyEx, RegEnumKeyEx, and RegDeleteKey functions to delete a registry key with subkeys.'
-ms.assetid: '1cf6db95-85a4-4416-b17e-e14f45804503'
+Description: The example in this topic uses the RegOpenKeyEx, RegEnumKeyEx, and RegDeleteKey functions to delete a registry key with subkeys.
+ms.assetid: 1cf6db95-85a4-4416-b17e-e14f45804503
 title: Deleting a Key with Subkeys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deleting a Key with Subkeys
 
-The example in this topic uses the [**RegOpenKeyEx**](regopenkeyex.md), [**RegEnumKeyEx**](regenumkeyex.md), and [**RegDeleteKey**](regdeletekey.md) functions to delete a registry key with subkeys.
+The example in this topic uses the [**RegOpenKeyEx**](/windows/win32/Winreg/nf-winreg-regopenkeyexa?branch=master), [**RegEnumKeyEx**](/windows/win32/Winreg/nf-winreg-regenumkeyexa?branch=master), and [**RegDeleteKey**](/windows/win32/Winreg/nf-winreg-regdeletekeya?branch=master) functions to delete a registry key with subkeys.
 
 To test this example, create the following registry key by using Regedt32.exe, and then add a few values and subkeys:
 

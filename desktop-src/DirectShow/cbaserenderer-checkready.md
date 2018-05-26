@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckReady method queries whether a state transition is complete.'
-ms.assetid: 'dfa669ed-a5ab-498e-9fc2-ff15d6ddbc13'
-title: 'CBaseRenderer.CheckReady method'
+Description: The CheckReady method queries whether a state transition is complete.
+ms.assetid: dfa669ed-a5ab-498e-9fc2-ff15d6ddbc13
+title: CBaseRenderer.CheckReady method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.CheckReady method
@@ -49,9 +54,9 @@ Returns **TRUE** if the state transition is complete, or **FALSE** if the filter
 [**CBaseRenderer::Ready**](cbaserenderer-ready.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

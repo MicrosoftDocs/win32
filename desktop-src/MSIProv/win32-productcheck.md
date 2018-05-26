@@ -1,8 +1,10 @@
 ---
 title: Win32\_ProductCheck class
 description: The Win32\_ProductCheck association WMI class relates instances of CIM\_Check and Win32\_Product.
-ms.assetid: 'b75a03c3-1b48-4cee-9fff-1cf92ba39abf'
-keywords: ["Win32_ProductCheck class", "Win32_ProductCheck class, described"]
+ms.assetid: b75a03c3-1b48-4cee-9fff-1cf92ba39abf
+keywords:
+- Win32_ProductCheck class
+- Win32_ProductCheck class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ProductCheck class
@@ -22,7 +29,7 @@ The **Win32\_ProductCheck** association [WMI class](https://msdn.microsoft.com/l
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -32,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_ProductCheck
 {
-  CIM_Check     Check;
+  CIM_Check     Check;
   Win32_Product Product;
 };
 ```
@@ -87,8 +94,8 @@ Reference to the instance that represents the properties of a product being inst
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -102,9 +109,9 @@ Reference to the instance that represents the properties of a product being inst
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

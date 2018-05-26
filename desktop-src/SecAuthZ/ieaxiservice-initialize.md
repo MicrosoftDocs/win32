@@ -1,7 +1,12 @@
 ---
-Description: 'Checks and downloads an ActiveX object.'
-ms.assetid: 'a477c6dc-32a7-4d17-a997-6df4967d6c55'
-title: 'IeAxiService::Initialize method'
+Description: Checks and downloads an ActiveX object.
+ms.assetid: a477c6dc-32a7-4d17-a997-6df4967d6c55
+title: IeAxiServiceInitialize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IeAxiService::Initialize method
@@ -13,13 +18,13 @@ The **Initialize** method checks and downloads an ActiveX object. If the object 
 
 ```C++
 SECURITY_STATUS Initialize(
-  [in]  HWND     hwndParent,
-  [in]  DWORD    dwClientPID,
-  [in]  BSTR     bstrDesktop,
-  [in]  BSTR     bstrClsID,
-  [in]  BSTR     bstrURL,
-  [out] BSTR     *pbstrNonce,
-  [out] IUnknown **ppISyncBrokerInterface
+  [in]  HWND     hwndParent,
+  [in]  DWORD    dwClientPID,
+  [in]  BSTR     bstrDesktop,
+  [in]  BSTR     bstrClsID,
+  [in]  BSTR     bstrURL,
+  [out] BSTR     *pbstrNonce,
+  [out] IUnknown **ppISyncBrokerInterface
 );
 ```
 
@@ -92,7 +97,7 @@ If the function fails, the return value can be one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -100,7 +105,7 @@ If the function fails, the return value can be one of the following error codes.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |
 | IID<br/>                      | IID\_IeAxiService is defined as E9E92380-9ECD-4982-A0EB-6815A56CCF27<br/>                           |
 
@@ -113,9 +118,9 @@ If the function fails, the return value can be one of the following error codes.
 [**IeAxiService**](ieaxiservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

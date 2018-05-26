@@ -1,8 +1,23 @@
 ---
 title: Windows Media Player Object Model
 description: Windows Media Player Object Model
-ms.assetid: '386ed03a-6c43-4637-ae45-7023a641b487'
-keywords: ["Windows Media Player,object model", "Windows Media Player object model,about", "object model,about", "Windows Media Player ActiveX control,object model", "ActiveX control,object model", "Windows Media Player Mobile ActiveX control,object model", "Windows Media Player Mobile,object model", "software development kit (SDK),Windows Media Player ActiveX control object model", "SDK (software development kit),Windows Media Player ActiveX control object model", "documentation,Windows Media Player ActiveX control object model"]
+ms.assetid: 386ed03a-6c43-4637-ae45-7023a641b487
+keywords:
+- Windows Media Player,object model
+- Windows Media Player object model,about
+- object model,about
+- Windows Media Player ActiveX control,object model
+- ActiveX control,object model
+- Windows Media Player Mobile ActiveX control,object model
+- Windows Media Player Mobile,object model
+- software development kit (SDK),Windows Media Player ActiveX control object model
+- SDK (software development kit),Windows Media Player ActiveX control object model
+- documentation,Windows Media Player ActiveX control object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player Object Model

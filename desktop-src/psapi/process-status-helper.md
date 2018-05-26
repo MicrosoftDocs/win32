@@ -1,8 +1,16 @@
 ---
 title: Process Status API
 description: Obtain information about processes, modules (executable files or DLLs), and device drivers. Collect memory usage data. Take snapshots of the amount of memory physically mapped to the process context.
-ms.assetid: '512c3f0f-b1b5-43a0-9460-eb668315d6f4'
-keywords: ["process status API", "process status helper", "PSAPI"]
+ms.assetid: 512c3f0f-b1b5-43a0-9460-eb668315d6f4
+keywords:
+- process status API
+- process status helper
+- PSAPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Status API

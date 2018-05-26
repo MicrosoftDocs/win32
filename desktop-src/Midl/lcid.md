@@ -2,13 +2,19 @@
 title: lcid attribute
 description: The \ lcid\ attribute specifies a locale identifier and enables locale-specific MIDL compiler support.
 ms.assetid: 40457a1a-251c-41cd-bfa6-9d506601ff5e
-keywords: ["lcid attribute MIDL"]
+keywords:
+- lcid attribute MIDL
 topic_type:
 - apiref
 api_name:
 - lcid
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # lcid attribute

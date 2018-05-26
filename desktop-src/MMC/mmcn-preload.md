@@ -4,11 +4,12 @@ description: The MMCN\_PRELOAD notification is introduced in MMC 1.1.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a648e5f5-e3da-45d7-8e8f-a3f67699ccdc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a648e5f5-e3da-45d7-8e8f-a3f67699ccdc
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_PRELOAD message MMC"]
+keywords:
+- MMCN_PRELOAD message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_PRELOAD message
@@ -80,8 +84,8 @@ The preloaded snap-in can handle this notification by performing any actions req
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -96,9 +100,9 @@ The preloaded snap-in can handle this notification by performing any actions req
 [**CCF\_SNAPIN\_PRELOADS**](ccf-snapin-preloads.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

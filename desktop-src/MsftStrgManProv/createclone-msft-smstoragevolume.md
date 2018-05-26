@@ -4,11 +4,14 @@ description: Starts a job to create an associated un-synced Clone of the MSFT\_S
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88cf17c7-069c-4e84-aa75-46dd3c38db24'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 88cf17c7-069c-4e84-aa75-46dd3c38db24
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateClone method", "CreateClone method, MSFT_SMStorageVolume class", "MSFT_SMStorageVolume class, CreateClone method"]
+keywords:
+- CreateClone method
+- CreateClone method, MSFT_SMStorageVolume class
+- MSFT_SMStorageVolume class, CreateClone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateClone method of the MSFT\_SMStorageVolume class
@@ -28,13 +34,13 @@ Starts a job to create an associated un-synced Clone of the [**MSFT\_SMStorageVo
 
 ```mof
 uint32 CreateClone(
-  [in, optional]  string                   ElementName,
-  [out, optional] MSFT_SMStorageVolume REF TargetStorageVolume,
-  [in, optional]  MSFT_SMPool          REF TargetPool,
-  [in, optional]  String                   username,
-  [in, optional]  String                   password,
-  [out]           MSFT_SMJob           REF Job,
-  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
+  [in, optional]  string                   ElementName,
+  [out, optional] MSFT_SMStorageVolume REF TargetStorageVolume,
+  [in, optional]  MSFT_SMPool          REF TargetPool,
+  [in, optional]  String                   username,
+  [in, optional]  String                   password,
+  [out]           MSFT_SMJob           REF Job,
+  [out, optional] MSFT_SMExtendedStatus    ExtendedStatus
 );
 ```
 
@@ -144,7 +150,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 
 8
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -160,7 +166,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 
 40001
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -169,7 +175,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 
 40002
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -178,7 +184,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 
 40003
 
-**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This value is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -441,7 +447,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -455,9 +461,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageVolume**](msft-smstoragevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

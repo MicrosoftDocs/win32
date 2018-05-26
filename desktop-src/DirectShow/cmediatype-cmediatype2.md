@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '89356578-0509-46c1-abd4-421688017f1d'
-title: 'CMediaType.CMediaType constructor'
+Description: Constructor method.
+ms.assetid: 89356578-0509-46c1-abd4-421688017f1d
+title: CMediaType.CMediaType constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.CMediaType constructor
@@ -13,7 +18,7 @@ Constructor method.
 
 ```C++
 CMediaType(
-   const GUID *majortype
+   const GUID *majortype
 );
 ```
 
@@ -52,9 +57,9 @@ The constructor calls the [**CMediaType::InitMediaType**](cmediatype-initmediaty
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

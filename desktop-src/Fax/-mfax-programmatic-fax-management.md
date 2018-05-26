@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service extended Component Object Model (COM) API gives developers a mechanism to manage fax service functionality.'
-ms.assetid: '23181850-1ac2-46f5-9d80-707cea648e7d'
+Description: The fax service extended Component Object Model (COM) API gives developers a mechanism to manage fax service functionality.
+ms.assetid: 23181850-1ac2-46f5-9d80-707cea648e7d
 title: Programmatic Fax Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programmatic Fax Management

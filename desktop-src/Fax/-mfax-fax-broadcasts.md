@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Service Extended COM API implementation provides complete support for the broadcasting of faxes.'
-ms.assetid: 'dd9a7eae-110b-498e-88f9-5a596b25cadd'
+Description: The Fax Service Extended COM API implementation provides complete support for the broadcasting of faxes.
+ms.assetid: dd9a7eae-110b-498e-88f9-5a596b25cadd
 title: Fax Broadcasts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Broadcasts

@@ -2,7 +2,12 @@
 title: U
 description: IrDA glossary terms beginning with U.
 Robots: noindex, nofollow
-ms.assetid: '58fd7853-bc23-4d85-99ff-0e7d07887459'
+ms.assetid: 58fd7853-bc23-4d85-99ff-0e7d07887459
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # U

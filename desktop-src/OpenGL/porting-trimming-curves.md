@@ -1,8 +1,23 @@
 ---
 title: Porting Trimming Curves
 description: OpenGL trimming curves are very similar to IRIS GL trimming curves. The following table lists the IRIS GL functions for defining trimming curves and their equivalent OpenGL functions.
-ms.assetid: '9aeea9ca-5ecd-4be1-853d-45b1566b263b'
-keywords: ["IRIS GL porting,trimming curves", "porting from IRIS GL,trimming curves", "porting to OpenGL from IRIS GL,trimming curves", "OpenGL porting from IRIS GL,trimming curves", "trimming curves", "curves", "IRIS GL porting,curves", "porting from IRIS GL,curves", "porting to OpenGL from IRIS GL,curves", "OpenGL porting from IRIS GL,curves"]
+ms.assetid: 9aeea9ca-5ecd-4be1-853d-45b1566b263b
+keywords:
+- IRIS GL porting,trimming curves
+- porting from IRIS GL,trimming curves
+- porting to OpenGL from IRIS GL,trimming curves
+- OpenGL porting from IRIS GL,trimming curves
+- trimming curves
+- curves
+- IRIS GL porting,curves
+- porting from IRIS GL,curves
+- porting to OpenGL from IRIS GL,curves
+- OpenGL porting from IRIS GL,curves
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Trimming Curves

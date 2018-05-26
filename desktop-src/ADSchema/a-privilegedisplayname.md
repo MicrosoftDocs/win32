@@ -4,17 +4,22 @@ description: Display name for a Windows NT privilege.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9509b342-c7ff-48c8-adfc-351abf9beaf2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9509b342-c7ff-48c8-adfc-351abf9beaf2
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Privilege-Display-Name attribute AD Schema", "privilegeDisplayName attribute AD Schema"]
+keywords:
+- Privilege-Display-Name attribute AD Schema
+- privilegeDisplayName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Privilege-Display-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Privilege-Display-Name attribute

@@ -1,8 +1,15 @@
 ---
 title: Using TBS
 description: Each command submitted to the TBS is associated with a specific entity. This is accomplished by creating one or more contexts for an entity, which are then associated with each subsequent command submitted by that entity.
-ms.assetid: '609f1e95-9868-4e34-8758-71306ac4e51f'
-keywords: ["TPM Base Services TBS , examples", "TPM Base Services TBS , using"]
+ms.assetid: 609f1e95-9868-4e34-8758-71306ac4e51f
+keywords:
+- TPM Base Services TBS , examples
+- TPM Base Services TBS , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using TBS

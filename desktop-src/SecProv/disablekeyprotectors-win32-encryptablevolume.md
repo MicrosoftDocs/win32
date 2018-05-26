@@ -1,7 +1,12 @@
-﻿---
-Description: 'Disables or suspends all key protectors associated with this volume.'
-ms.assetid: '19eed858-a116-4ec8-937a-2eea7aadbdc6'
-title: 'DisableKeyProtectors method of the Win32\_EncryptableVolume class'
+---
+Description: Disables or suspends all key protectors associated with this volume.
+ms.assetid: 19eed858-a116-4ec8-937a-2eea7aadbdc6
+title: DisableKeyProtectors method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableKeyProtectors method of the Win32\_EncryptableVolume class

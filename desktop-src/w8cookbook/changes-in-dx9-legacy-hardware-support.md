@@ -1,7 +1,12 @@
 ---
 title: Changes in DX9 legacy hardware support
 description: Changes in DX9 legacy hardware support
-ms.assetid: '25C7DFC7-58F4-4F6D-8D26-6DBA92424A0B'
+ms.assetid: 25C7DFC7-58F4-4F6D-8D26-6DBA92424A0B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changes in DX9 legacy hardware support

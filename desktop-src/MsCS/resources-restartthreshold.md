@@ -4,17 +4,22 @@ description: Specifies the maximum number of restart attempts that can be made o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0fc4a0bd-f74f-4aad-a369-f4adbe998122'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0fc4a0bd-f74f-4aad-a369-f4adbe998122
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RestartThreshold Failover Cluster ,for resources", "RestartThreshold Failover Cluster"]
+keywords:
+- RestartThreshold Failover Cluster ,for resources
+- RestartThreshold Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RestartThreshold
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestartThreshold
@@ -27,14 +32,14 @@ Specifies the maximum number of restart attempts that can be made on a [resource
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                                |
 | Default<br/>   | 3<br/>                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,7 +70,7 @@ RestartThresholdValue.dw =        RestartThresholdData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -76,7 +81,7 @@ RestartThresholdValue.dw =        RestartThresholdData;
 [Resource Common Properties](resource-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**RestartAction**](resources-restartaction.md)
@@ -85,9 +90,9 @@ RestartThresholdValue.dw =        RestartThresholdData;
 [**RestartPeriod**](resources-restartperiod.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Describes a log entry for an IP address audit event in IPAM.'
+Description: Describes a log entry for an IP address audit event in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '36bff35e-05f7-4926-a2e2-7137017adebe'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 36bff35e-05f7-4926-a2e2-7137017adebe
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_IpAuditLogEntry class'
+title: MSFT\_IPAM\_IpAuditLogEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_IpAuditLogEntry class
@@ -24,31 +27,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::System::Logs"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_IpAuditLogEntry : CIM_LogEntry
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   RecordFormat;
-  string   RecordData;
-  string   Locale;
-  uint16   PerceivedSeverity;
-  string   InstanceID;
-  string   LogInstanceID;
-  string   LogName;
-  string   RecordID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   RecordFormat;
+  string   RecordData;
+  string   Locale;
+  uint16   PerceivedSeverity;
+  string   InstanceID;
+  string   LogInstanceID;
+  string   LogName;
+  string   RecordID;
   datetime CreationTimeStamp;
-  string   MessageID;
-  string   Message;
-  string   MessageArguments[];
+  string   MessageID;
+  string   Message;
+  string   MessageArguments[];
   datetime TimeOfEvent;
-  string   IPAddress;
-  uint16   EventType;
-  string   HostName;
-  string   UserName;
-  string   ClientId;
-  string   UserDomainName;
-  string   UserForestName;
-  string   SourceServer;
-  uint16   ServerType;
+  string   IPAddress;
+  uint16   EventType;
+  string   HostName;
+  string   UserName;
+  string   ClientId;
+  string   UserDomainName;
+  string   UserForestName;
+  string   SourceServer;
+  uint16   ServerType;
 };
 ```
 
@@ -71,7 +74,7 @@ The **MSFT\_IPAM\_IpAuditLogEntry** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -694,7 +697,7 @@ Access type: Read-only
 
 Forest name collected from DC logon events.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -718,7 +721,7 @@ The username from DC logon events and NPS events.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | RootMicrosoftIPAM<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -735,9 +738,9 @@ The username from DC logon events and NPS events.
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

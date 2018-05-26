@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_DEPTH\_STENCIL\_DESC1 structure
 description: A helper structure to enable easy initialization of a D3D12\_DEPTH\_STENCIL\_DESC1 structure.
-ms.assetid: '8EB008F9-212D-486E-9C62-D7BA9D3C6807'
-keywords: ["CD3DX12_DEPTH_STENCIL_DESC1 structure"]
+ms.assetid: 8EB008F9-212D-486E-9C62-D7BA9D3C6807
+keywords:
+- CD3DX12_DEPTH_STENCIL_DESC1 structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_DEPTH\_STENCIL\_DESC1 structure
 
-A helper structure to enable easy initialization of a [**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master) structure.
 
 ## Syntax
 
@@ -27,9 +33,9 @@ struct CD3DX12_DEPTH_STENCIL_DESC1  : public D3D12_DEPTH_STENCIL_DESC1{
   CD3DX12_DEPTH_STENCIL_DESC1 explicit CD3DX12_DEPTH_STENCIL_DESC1(const D3D12_DEPTH_STENCIL_DESC&amp; o);
   CD3DX12_DEPTH_STENCIL_DESC1 explicit CD3DX12_DEPTH_STENCIL_DESC1(CD3DX12_DEFAULT);
   CD3DX12_DEPTH_STENCIL_DESC1 explicit CD3DX12_DEPTH_STENCIL_DESC1(BOOL depthEnable, D3D12_DEPTH_WRITE_MASK depthWriteMask, D3D12_COMPARISON_FUNC depthFunc, BOOL stencilEnable, UINT8 stencilReadMask, UINT8 stencilWriteMask, D3D12_STENCIL_OP frontStencilFailOp, D3D12_STENCIL_OP frontStencilDepthFailOp, D3D12_STENCIL_OP frontStencilPassOp, D3D12_COMPARISON_FUNC frontStencilFunc, D3D12_STENCIL_OP backStencilFailOp, D3D12_STENCIL_OP backStencilDepthFailOp, D3D12_STENCIL_OP backStencilPassOp, D3D12_COMPARISON_FUNC backStencilFunc, BOOL depthBoundsTestEnable);
-                              ~CD3DX12_DEPTH_STENCIL_DESC1();
-                              operator const D3D12_DEPTH_STENCIL_DESC1&amp;() const;
-                              operator const D3D12_DEPTH_STENCIL_DESC() const;
+                              ~CD3DX12_DEPTH_STENCIL_DESC1();
+                              operator const D3D12_DEPTH_STENCIL_DESC1&amp;() const;
+                              operator const D3D12_DEPTH_STENCIL_DESC() const;
 };
 ```
 
@@ -49,14 +55,14 @@ Creates a new, uninitialized, instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1.
 **explicit CD3DX12\_DEPTH\_STENCIL\_DESC1(const D3D12\_DEPTH\_STENCIL\_DESC1& o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1, initialized with values copied from a [**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md) structure.
+Creates a new instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1, initialized with values copied from a [**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master) structure.
 
 </dd> <dt>
 
 **explicit CD3DX12\_DEPTH\_STENCIL\_DESC1(const D3D12\_DEPTH\_STENCIL\_DESC& o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1, initialized with values copied from a [**D3D12\_DEPTH\_STENCIL\_DESC**](d3d12-depth-stencil-desc.md) structure
+Creates a new instance of a CD3DX12\_DEPTH\_STENCIL\_DESC1, initialized with values copied from a [**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_depth_stencil_desc?branch=master) structure
 
 and the additional **DepthBoundsTestEnable** member set to **FALSE**.
 
@@ -129,15 +135,15 @@ Implicit conversion to a D3D12\_DEPTH\_STENCIL\_DESC structure value. Because D3
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> <dt>
 
-[**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md)
+[**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master)
 </dt> <dt>
 
-[**D3D12\_DEPTH\_STENCIL\_DESC**](d3d12-depth-stencil-desc.md)
+[**D3D12\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_depth_stencil_desc?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

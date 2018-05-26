@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initializes the trace.'
-ms.assetid: 'd2708e29-920d-4b13-8917-a6f2065ba58c'
+---
+Description: Initializes the trace.
+ms.assetid: d2708e29-920d-4b13-8917-a6f2065ba58c
 title: InitAsyncTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitAsyncTrace function

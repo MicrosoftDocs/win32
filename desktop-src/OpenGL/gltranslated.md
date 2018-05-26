@@ -1,8 +1,9 @@
 ---
 title: glTranslated function
 description: The glTranslated function multiplies the current matrix by a translation matrix.
-ms.assetid: '9f066a92-ee78-44d1-b8f8-0eacde0e1a47'
-keywords: ["glTranslated function OpenGL"]
+ms.assetid: 9f066a92-ee78-44d1-b8f8-0eacde0e1a47
+keywords:
+- glTranslated function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glTranslated function
@@ -22,9 +28,9 @@ The **glTranslated** function multiplies the current matrix by a translation mat
 
 ```C++
 void WINAPI glTranslated(
-   GLdouble x,
-   GLdouble y,
-   GLdouble z
+   GLdouble x,
+   GLdouble y,
+   GLdouble z
 );
 ```
 
@@ -65,7 +71,7 @@ The **glTranslated** function produces the translation specified by (*x*, *y*, *
 
 ![](images/trans01.png)
 
-The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this translation matrix, with the product replacing the current matrix. That is, if M is the current matrix and T is the translation matrix, then M is replaced with M•T.
+The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this translation matrix, with the product replacing the current matrix. That is, if M is the current matrix and T is the translation matrix, then M is replaced with M T.
 
 If the matrix mode is either GL\_MODELVIEW or GL\_PROJECTION, all objects drawn after **glTranslated** is called are translated. Use [**glPushMatrix**](glpushmatrix.md) and **glPopMatrix** to save and restore the untranslated coordinate system.
 
@@ -85,8 +91,8 @@ The following functions retrieve information related to [**glTranslated**](gltra
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -118,9 +124,9 @@ The following functions retrieve information related to [**glTranslated**](gltra
 [**glScale**](glscale.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

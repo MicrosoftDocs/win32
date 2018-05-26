@@ -1,8 +1,11 @@
 ---
 title: IMessenger ViewProfile method
 description: Launches a new browser instance, allowing the client user to view properties of the specified contact through the Public Profiles feature.
-ms.assetid: 'f0c045b9-8ad1-4909-bfc7-d7c82af22859'
-keywords: ["ViewProfile method Windows Messenger", "ViewProfile method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , ViewProfile method"]
+ms.assetid: f0c045b9-8ad1-4909-bfc7-d7c82af22859
+keywords:
+- ViewProfile method Windows Messenger
+- ViewProfile method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , ViewProfile method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::ViewProfile method
 
-\[**ViewProfile** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**ViewProfile** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches a new browser instance, allowing the client user to view properties of the specified contact through the **Public Profiles** feature.
 
@@ -24,7 +32,7 @@ Launches a new browser instance, allowing the client user to view properties of 
 
 ```C++
 HRESULT ViewProfile(
-  [in] VARIANT vContact
+  [in] VARIANT vContact
 );
 ```
 
@@ -62,11 +70,11 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
-This option is available in the Microsoft Exchange Instant Messaging Service (IM) client, but only for Microsoft .NET Messenger Service users.
+This option is available in the Microsoft Exchange Instant Messaging Service (IM) client, but only for Microsoft .NET Messenger Service users.
 
 Calling this method on a user or service other than the Microsoft .NET Messenger Service will launch the browser instance, but the interface will not find a valid user. Because profiles (and each element of data therein) are opt-in, even Microsoft .NET Messenger Service users are not guaranteed to have profiles available.
 
@@ -79,7 +87,7 @@ This method should be called on the local user's sign-in name to obtain public p
 > [!Note]  
 > This method is available for scripting languages but it returns E\_NOTIMPL.
 
- 
+ 
 
 ## Requirements
 
@@ -87,8 +95,8 @@ This method should be called on the local user's sign-in name to obtain public p
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -105,9 +113,9 @@ This method should be called on the local user's sign-in name to obtain public p
 [**IMessengerContact**](im-imessengercontact.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

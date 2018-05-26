@@ -1,12 +1,18 @@
 ---
 title: RWBuffer Load methods
 description: Gets one value from a RWBuffer.
-ms.assetid: '85A8F1C9-6896-4E3A-AFDF-B82D1D3E96EA'
-keywords: ["Load methods HLSL"]
+ms.assetid: 85A8F1C9-6896-4E3A-AFDF-B82D1D3E96EA
+keywords:
+- Load methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RWBuffer::Load methods
@@ -31,9 +37,9 @@ Gets one value from a [**RWBuffer**](sm5-object-rwbuffer.md).
 [RWBuffer](sm5-object-rwbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Learn about the various Desktop inking APIs for Windows apps.'
-ms.assetid: '0691afb1-575a-4bb7-8fa5-006b231b8f1f'
+---
+Description: Learn about the various Desktop inking APIs for Windows apps.
+ms.assetid: 0691afb1-575a-4bb7-8fa5-006b231b8f1f
 title: Ink input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink input

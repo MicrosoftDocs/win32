@@ -1,7 +1,12 @@
 ---
-Description: 'This sample demonstrates decoding various frames in a GIF file, reading appropriate metadata for each frame, composing frames, and rendering the animation with Direct2D.'
-ms.assetid: 'd71c66b5-d37c-4c8a-bfd7-b97c69c3b8e9'
+Description: This sample demonstrates decoding various frames in a GIF file, reading appropriate metadata for each frame, composing frames, and rendering the animation with Direct2D.
+ms.assetid: d71c66b5-d37c-4c8a-bfd7-b97c69c3b8e9
 title: WIC Animated Gif Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIC Animated Gif Sample

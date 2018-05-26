@@ -1,7 +1,12 @@
 ---
 Description: Supporting AutoPlay
-ms.assetid: 'e91334d9-9041-4cb8-a6d0-0e2371800064'
+ms.assetid: e91334d9-9041-4cb8-a6d0-0e2371800064
 title: Supporting AutoPlay
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting AutoPlay

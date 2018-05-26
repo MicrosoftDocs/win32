@@ -1,19 +1,24 @@
 ---
-Description: 'The Run method runs the object. This method implements the IMediaFilter::Run method.'
-ms.assetid: 'a59180df-46b4-4c23-973f-2931d95ace55'
-title: 'CBaseMediaFilter.Run method'
+Description: The Run method runs the object. This method implements the IMediaFilterRun method.
+ms.assetid: a59180df-46b4-4c23-973f-2931d95ace55
+title: CBaseMediaFilter.Run method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter.Run method
 
-The `Run` method runs the object. This method implements the [**IMediaFilter::Run**](imediafilter-run.md) method.
+The `Run` method runs the object. This method implements the [**IMediaFilter::Run**](/windows/win32/Strmif/nf-strmif-imediafilter-run?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT Run(
-   REFERENCE_TIME tStart
+   REFERENCE_TIME tStart
 );
 ```
 
@@ -58,9 +63,9 @@ Stream time is calculated as the current reference time minus *tStart*. A media 
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

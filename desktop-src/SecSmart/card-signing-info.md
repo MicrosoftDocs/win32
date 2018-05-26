@@ -1,8 +1,10 @@
 ---
 title: CARD\_SIGNING\_INFO structure
 description: Specifies data to be signed by the CardSignData function.
-ms.assetid: '120e7980-63ea-40cb-9e66-622e9ff7e194'
-keywords: ["CARD_SIGNING_INFO structure Security", "PCARD_SIGNING_INFO structure pointer Security"]
+ms.assetid: 120e7980-63ea-40cb-9e66-622e9ff7e194
+keywords:
+- CARD_SIGNING_INFO structure Security
+- PCARD_SIGNING_INFO structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_SIGNING\_INFO structure
@@ -24,17 +31,17 @@ The **CARD\_SIGNING\_INFO** structure specifies data to be signed by the [**Card
 
 ```C++
 typedef struct _CARD_SIGNING_INFO {
-  DWORD  dwVersion;
-  BYTE   bContainerIndex;
-  DWORD  dwKeySpec;
-  DWORD  dwSigningFlags;
+  DWORD  dwVersion;
+  BYTE   bContainerIndex;
+  DWORD  dwKeySpec;
+  DWORD  dwSigningFlags;
   ALG_ID aiHashAlg;
-  PBYTE  pbData;
-  DWORD  cbData;
-  PBYTE  pbSignedData;
-  DWORD  cbSignedData;
+  PBYTE  pbData;
+  DWORD  cbData;
+  PBYTE  pbSignedData;
+  DWORD  cbSignedData;
   LPVOID pPaddingInfo;
-  DWORD  dwPaddingType;
+  DWORD  dwPaddingType;
 } CARD_SIGNING_INFO, *PCARD_SIGNING_INFO;
 ```
 
@@ -72,7 +79,7 @@ The purpose of the keys in the key container. This member can be one of the foll
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,7 +97,7 @@ Specifies certain behavior of this structure. The following flags are defined.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -134,7 +141,7 @@ The size, in bytes, of the **pbSignedData** buffer.
 
 A pointer to a structure that specifies padding scheme options. The value of the **dwPaddingType** member determines which padding structure is used.
 
-**Windows Server 2003, Windows 2000 Server with SP4 and later, Windows XP and Windows 2000 Professional with SP4 and later:** This member is not supported.
+**Windows Server 2003, Windows 2000 Server with SP4 and later, Windows XP and Windows 2000 Professional with SP4 and later:** This member is not supported.
 
 </dd> <dt>
 
@@ -143,7 +150,7 @@ A pointer to a structure that specifies padding scheme options. The value of the
 
 The type of padding structure that the **pPaddingInfo** member points to. The following values are defined.
 
-**Windows Server 2003, Windows 2000 Server with SP4 and later, Windows XP and Windows 2000 Professional with SP4 and later:** This member is not supported.
+**Windows Server 2003, Windows 2000 Server with SP4 and later, Windows XP and Windows 2000 Professional with SP4 and later:** This member is not supported.
 
 
 
@@ -155,7 +162,7 @@ The type of padding structure that the **pPaddingInfo** member points to. The fo
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -165,8 +172,8 @@ The type of padding structure that the **pPaddingInfo** member points to. The fo
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -181,9 +188,9 @@ The type of padding structure that the **pPaddingInfo** member points to. The fo
 [**CardSignData**](cardsigndata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,16 @@
 ---
 title: Win32\_TerminalServiceSetting class
-description: Represents the configuration for a Remote Desktop Session Host (RD Session Host) server.
+description: Represents the configuration for a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4cd047db-921f-4ccb-946b-d2c7b8d6beea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4cd047db-921f-4ccb-946b-d2c7b8d6beea
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TerminalServiceSetting class Remote Desktop Services", "Win32_TerminalServiceSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TerminalServiceSetting class Remote Desktop Services
+- Win32_TerminalServiceSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -71,11 +73,14 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TerminalServiceSetting class
 
-The **Win32\_TerminalServiceSetting** WMI class represents the configuration for a Remote Desktop Session Host (RD Session Host) server. Settings include capabilities such as RD Session Host server mode, licensing, Active Desktop, permissions, deletion of temporary folders, and temporary directories for sessions.
+The **Win32\_TerminalServiceSetting** WMI class represents the configuration for a Remote Desktop Session Host (RD Session Host) server. Settings include capabilities such as RD Session Host server mode, licensing, Active Desktop, permissions, deletion of temporary folders, and temporary directories for sessions.
 
 The following syntax is simplified from MOF code and includes all defined and inherited properties, in alphabetical order. For reference information on methods, see the table of methods later in this topic.
 
@@ -85,60 +90,60 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TERMINALSERVICESETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer"), AMENDMENT]
 class Win32_TerminalServiceSetting : CIM_Setting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   ServerName;
-  uint32   TerminalServerMode;
-  uint32   GetCapabilitiesID;
-  uint32   LicensingType;
-  uint32   PolicySourceLicensingType;
-  uint32   PossibleLicensingTypes;
-  string   LicensingName;
-  string   LicensingDescription;
-  uint32   ActiveDesktop;
-  uint32   UserPermission;
-  uint32   DeleteTempFolders;
-  uint32   PolicySourceDeleteTempFolders;
-  uint32   UseTempFolders;
-  uint32   PolicySourceUseTempFolders;
-  uint32   AllowTSConnections;
-  uint32   PolicySourceAllowTSConnections;
-  uint32   SingleSession;
-  uint32   PolicySourceSingleSession;
-  string   ProfilePath;
-  uint32   PolicySourceProfilePath;
-  string   HomeDirectory;
-  uint32   PolicySourceHomeDirectory;
-  uint32   TimeZoneRedirection;
-  uint32   PolicySourceTimeZoneRedirection;
-  string   Logons;
-  string   DirectConnectLicenseServers;
-  uint32   PolicySourceDirectConnectLicenseServers;
-  uint32   PolicySourceConfiguredLicenseServers;
-  uint32   DisableForcibleLogoff;
-  uint32   PolicySourceDisableForcibleLogoff;
-  uint32   FallbackPrintDriverType;
-  uint32   PolicySourceFallbackPrintDriverType;
-  uint32   SessionBrokerDrainMode;
-  uint32   LimitedUserSessions;
-  uint32   EnableDFSS;
-  uint32   PolicySourceEnableDFSS;
-  uint32   EnableRemoteDesktopMSI;
-  uint32   PolicySourceEnableRemoteDesktopMSI;
-  uint32   EnableAutomaticReconnection;
-  uint32   PolicySourceEnableAutomaticReconnection;
-  uint32   UseRDEasyPrintDriver;
-  uint32   PolicySourceUseRDEasyPrintDriver;
-  uint32   RedirectSmartCards;
-  uint32   PolicySourceRedirectSmartCards;
-  uint32   EnableDiskFSS;
-  uint32   EnableNetworkFSS;
-  uint32   NetworkFSSUserSessionWeight;
-  uint32   NetworkFSSLocalSystemWeight;
-  uint32   NetworkFSSCatchAllWeight;
+  string   Name;
+  string   Status;
+  string   ServerName;
+  uint32   TerminalServerMode;
+  uint32   GetCapabilitiesID;
+  uint32   LicensingType;
+  uint32   PolicySourceLicensingType;
+  uint32   PossibleLicensingTypes;
+  string   LicensingName;
+  string   LicensingDescription;
+  uint32   ActiveDesktop;
+  uint32   UserPermission;
+  uint32   DeleteTempFolders;
+  uint32   PolicySourceDeleteTempFolders;
+  uint32   UseTempFolders;
+  uint32   PolicySourceUseTempFolders;
+  uint32   AllowTSConnections;
+  uint32   PolicySourceAllowTSConnections;
+  uint32   SingleSession;
+  uint32   PolicySourceSingleSession;
+  string   ProfilePath;
+  uint32   PolicySourceProfilePath;
+  string   HomeDirectory;
+  uint32   PolicySourceHomeDirectory;
+  uint32   TimeZoneRedirection;
+  uint32   PolicySourceTimeZoneRedirection;
+  string   Logons;
+  string   DirectConnectLicenseServers;
+  uint32   PolicySourceDirectConnectLicenseServers;
+  uint32   PolicySourceConfiguredLicenseServers;
+  uint32   DisableForcibleLogoff;
+  uint32   PolicySourceDisableForcibleLogoff;
+  uint32   FallbackPrintDriverType;
+  uint32   PolicySourceFallbackPrintDriverType;
+  uint32   SessionBrokerDrainMode;
+  uint32   LimitedUserSessions;
+  uint32   EnableDFSS;
+  uint32   PolicySourceEnableDFSS;
+  uint32   EnableRemoteDesktopMSI;
+  uint32   PolicySourceEnableRemoteDesktopMSI;
+  uint32   EnableAutomaticReconnection;
+  uint32   PolicySourceEnableAutomaticReconnection;
+  uint32   UseRDEasyPrintDriver;
+  uint32   PolicySourceUseRDEasyPrintDriver;
+  uint32   RedirectSmartCards;
+  uint32   PolicySourceRedirectSmartCards;
+  uint32   EnableDiskFSS;
+  uint32   EnableNetworkFSS;
+  uint32   NetworkFSSUserSessionWeight;
+  uint32   NetworkFSSLocalSystemWeight;
+  uint32   NetworkFSSCatchAllWeight;
 };
 ```
 
@@ -159,14 +164,14 @@ The **Win32\_TerminalServiceSetting** class has these methods.
 |:----------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddDirectConnectLicenseServer**](win32-terminalservicesetting-adddirectconnectlicenseserver.md)                   | Configures a new license server in the enterprise.<br/>                                                                                                                  |
 | [**AddLSToSpecifiedLicenseServerList**](addlstospecifiedlicenseserverlist-win32-terminalservicesetting.md)           | Adds the given license server to the end of the list of specified license servers.<br/>                                                                                  |
-| [**CanAccessLicenseServer**](canaccesslicenseserver-win32-terminalservicesetting.md)                                 | Determines whether the RD Session Host server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from a Remote Desktop license server.<br/> |
+| [**CanAccessLicenseServer**](canaccesslicenseserver-win32-terminalservicesetting.md)                                 | Determines whether the RD Session Host server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from a Remote Desktop license server.<br/> |
 | [**ChangeMode**](win32-terminalservicesetting-changemode.md)                                                         | Sets the licensing type of the Remote Desktop license server.<br/>                                                                                                       |
 | [**CreateWinstation**](createwinstation-win32-terminalservicesetting.md)                                             | Creates a new listener stack based on the unique combination of listener name and NIC.<br/>                                                                              |
 | [**DeleteDirectConnectLicenseServer**](win32-terminalservicesetting-deletedirectconnectlicenseserver.md)             | Deletes the specified license server from the enterprise.<br/>                                                                                                           |
 | [**EmptySpecifiedLicenseServerList**](emptyspecifiedlicenseserverlist-win32-terminalservicesetting.md)               | Removes all license servers from the list of specified license servers.<br/>                                                                                             |
 | [**FindLicenseServers**](findlicenseservers-win32-terminalservicesetting.md)                                         | Enumerates all of the Remote Desktop license servers and the method of discovery.<br/>                                                                                   |
-| [**GetDomain**](getdomain-win32-terminalservicesetting.md)                                                           | Retrieves the name of the domain that the RD Session Host server is a member of.<br/>                                                                                    |
-| [**GetGracePeriodDays**](getgraceperioddays-win32-terminalservicesetting.md)                                         | Retrieves the number of days that are remaining in the RD Licensing grace period for an RD Session Host server.<br/>                                                     |
+| [**GetDomain**](getdomain-win32-terminalservicesetting.md)                                                           | Retrieves the name of the domain that the RD Session Host server is a member of.<br/>                                                                                    |
+| [**GetGracePeriodDays**](getgraceperioddays-win32-terminalservicesetting.md)                                         | Retrieves the number of days that are remaining in the RD Licensing grace period for an RD Session Host server.<br/>                                                     |
 | [**GetRegisteredLicenseServerList**](getregisteredlicenseserverlist-win32-terminalservicesetting.md)                 | Gets the list of registered license servers.<br/>                                                                                                                        |
 | [**GetSpecifiedLicenseServerList**](getspecifiedlicenseserverlist-win32-terminalservicesetting.md)                   | Retrieves the list of specified license servers.<br/>                                                                                                                    |
 | [**GetTSLanaIds**](gettslanaids-win32-terminalservicesetting.md)                                                     | Gets the IDs and descriptions of Remote Desktop Services network adapters.<br/>                                                                                          |
@@ -188,7 +193,7 @@ The **Win32\_TerminalServiceSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -354,7 +359,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651)
 
 This property is not available.
 
-**Windows Server 2008:** Enumerates the list of license servers.
+**Windows Server 2008:** Enumerates the list of license servers.
 
 </dd> <dt>
 
@@ -396,7 +401,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-Specifies whether to allow Remote Desktop connection clients to automatically reconnect to sessions on an RD Session Host server if the network link is temporarily lost.
+Specifies whether to allow Remote Desktop connection clients to automatically reconnect to sessions on an RD Session Host server if the network link is temporarily lost.
 
 <dt>
 
@@ -414,7 +419,7 @@ Automatic reconnection is enabled.
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -429,7 +434,7 @@ Access type: Read/write
 
 Indicates whether dynamic fair-share scheduling (DFSS) is enabled or disabled. This can be one of the following values.
 
-**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
+**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
 
 <dt>
 
@@ -476,7 +481,7 @@ Disk fair share scheduling is enabled.
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -507,7 +512,7 @@ Network fair share scheduling is enabled.
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -538,7 +543,7 @@ Enabled
 
 </dd> </dl>
 
-**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
+**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -702,7 +707,7 @@ The licensing type for the specified server mode.
 
 </dt> <dd>
 
-Personal RD Session Host server.
+Personal RD Session Host server.
 
 </dd> <dt>
 
@@ -761,19 +766,19 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-Indicates whether the feature to limit the number of both active and inactive sessions that are allowed on an RD Session Host server is enabled. For example, you may want to set **LimitedUserSessions** to guarantee license compliance for a particular application that is installed on the RD Session Host server. Or, you may want to limit the maximum number of sessions on an RD Session Host server in a load-balanced farm so that the server will not be overloaded if another server in the farm fails.
+Indicates whether the feature to limit the number of both active and inactive sessions that are allowed on an RD Session Host server is enabled. For example, you may want to set **LimitedUserSessions** to guarantee license compliance for a particular application that is installed on the RD Session Host server. Or, you may want to limit the maximum number of sessions on an RD Session Host server in a load-balanced farm so that the server will not be overloaded if another server in the farm fails.
 
 > [!Note]
 >
 > The session that is used to connect to the server for administrative purposes is not affected by **LimitedUserSessions**.
 >
-> In an RD Session Host server farm, if a user exceeds the session limit, the session will be directed to another server by RD Connection Broker load balancing. If the server is a stand-alone server, the user will not be able to connect.
+> In an RD Session Host server farm, if a user exceeds the session limit, the session will be directed to another server by RD Connection Broker load balancing. If the server is a stand-alone server, the user will not be able to connect.
 >
 > Because of the session that is used to connect to the server for administrative purposes, and the timing of the enforcement of the number of sessions during the logon cycle, it is recommended that you set **LimitedUserSessions** to a value that is slightly lower that the physical limit for the number of sessions on a server.
 >
-> The **LimitedUserSessions** property is only valid if the RD Session Host role service is installed.
+> The **LimitedUserSessions** property is only valid if the RD Session Host role service is installed.
 
- 
+ 
 
 <dt>
 
@@ -787,7 +792,7 @@ The feature is disabled.
 1 or greater
 </dt> <dd>
 
-A value of one or greater represents the maximum number of sessions (both active and inactive) that are allowed on the RD Session Host server.
+A value of one or greater represents the maximum number of sessions (both active and inactive) that are allowed on the RD Session Host server.
 
 </dd> </dl>
 
@@ -848,7 +853,7 @@ Access type: Read/write
 
 Specifies the default network fair share weight for catch-all network traffic. Valid values are 1 to 9.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -863,7 +868,7 @@ Access type: Read/write
 
 Specifies the default network fair share weight for a local system processes. Valid values are 1 to 9.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -878,7 +883,7 @@ Access type: Read/write
 
 Specifies the default network fair share weight for a user session. Valid values are 1 to 9.
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -922,7 +927,7 @@ Access type: Read-only
 
 Indicates whether the license servers returned by the [**GetSpecifiedLicenseServerList**](getspecifiedlicenseserverlist-win32-terminalservicesetting.md) method are configured by the server or by group policy.
 
-**Windows Server 2008:** This property is not available.
+**Windows Server 2008:** This property is not available.
 
 <dt>
 
@@ -985,7 +990,7 @@ Qualifiers: [**DEPRECATED**](https://msdn.microsoft.com/library/aa393651)
 
 This property is not available.
 
-**Windows Server 2008:** Indicates whether the **DirectConnectLicenseServers** property is configured by the server or by group policy.
+**Windows Server 2008:** Indicates whether the **DirectConnectLicenseServers** property is configured by the server or by group policy.
 
 <dt>
 
@@ -1016,7 +1021,7 @@ Access type: Read-only
 
 This property is not supported.
 
-**Windows Server 2008:** Determines whether the **DisableForcibleLogoff** property is configured by the server or by group policy.
+**Windows Server 2008:** Determines whether the **DisableForcibleLogoff** property is configured by the server or by group policy.
 
 <dt>
 
@@ -1063,7 +1068,7 @@ Group policy
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -1094,7 +1099,7 @@ Group policy
 
 </dd> </dl>
 
-**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
+**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -1125,7 +1130,7 @@ Group policy
 
 </dd> </dl>
 
-**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
+**Windows Server 2008:** This property is unavailable prior to Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -1272,7 +1277,7 @@ Group policy
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -1361,7 +1366,7 @@ Group policy
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -1413,7 +1418,7 @@ A bitmask that specifies the licensing types that are available. This can be a c
 1 (0x1)
 </dt> <dd>
 
-Personal RD Session Host server licenses are supported.
+Personal RD Session Host server licenses are supported.
 
 </dd> <dt>
 
@@ -1480,7 +1485,7 @@ Smart card device redirection is allowed.
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -1496,7 +1501,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Name of the RD Session Host server whose properties are of interest.
+Name of the RD Session Host server whose properties are of interest.
 
 </dd> <dt>
 
@@ -1509,7 +1514,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-The RD Connection Broker user logon mode.
+The RD Connection Broker user logon mode.
 
 <dt>
 
@@ -1658,7 +1663,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-The RD Session Host server operating mode of the Remote Desktop Services service. This mode controls the licensing policies that are applicable as well as whether application-compatibility features are enabled.
+The RD Session Host server operating mode of the Remote Desktop Services service. This mode controls the licensing policies that are applicable as well as whether application-compatibility features are enabled.
 
 <dt>
 
@@ -1731,18 +1736,18 @@ Specifies whether the Remote Desktop Easy Print printer driver is used first to 
 0
 </dt> <dd>
 
-The RD Session Host server tries to find a suitable printer driver to install the client printer. If the RD Session Host server does not have a printer driver that matches the client printer, the server tries to use the Remote Desktop Easy Print driver to install the client printer.
+The RD Session Host server tries to find a suitable printer driver to install the client printer. If the RD Session Host server does not have a printer driver that matches the client printer, the server tries to use the Remote Desktop Easy Print driver to install the client printer.
 
 </dd> <dt>
 
 1
 </dt> <dd>
 
-The RD Session Host server first tries to use the Remote Desktop Easy Print printer driver to install all client printers. If for any reason the Remote Desktop Easy Print printer driver cannot be used, a printer driver on the RD Session Host server that matches the client printer is used.
+The RD Session Host server first tries to use the Remote Desktop Easy Print printer driver to install all client printers. If for any reason the Remote Desktop Easy Print printer driver cannot be used, a printer driver on the RD Session Host server that matches the client printer is used.
 
 </dd> </dl>
 
-**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
+**Windows Server 2008 R2 and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -1848,7 +1853,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -1877,9 +1882,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

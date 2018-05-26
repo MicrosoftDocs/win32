@@ -1,7 +1,12 @@
 ---
-Description: 'Filters traffic based on its protocol and port.'
-ms.assetid: '66b3779a-aef3-4079-8a2f-7dfdd9924d27'
-title: 'MSFT\_NetProtocolPortFilter class'
+Description: Filters traffic based on its protocol and port.
+ms.assetid: 66b3779a-aef3-4079-8a2f-7dfdd9924d27
+title: MSFT\_NetProtocolPortFilter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetProtocolPortFilter class
@@ -15,29 +20,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetProtocolPortFilter : CIM_FilterEntryBase
 {
-  string   Protocol;
-  string   RemotePort[];
-  string   LocalPort[];
-  string   IcmpType[];
-  uint32   DynamicTransport;
-  string   Name;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  boolean  IsNegated;
+  string   Protocol;
+  string   RemotePort[];
+  string   LocalPort[];
+  string   IcmpType[];
+  uint32   DynamicTransport;
+  string   Name;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  boolean  IsNegated;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
 };
 ```
 
@@ -378,17 +383,17 @@ Reserved for internal use by the WMI provider only.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

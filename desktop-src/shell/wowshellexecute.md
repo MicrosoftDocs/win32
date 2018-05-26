@@ -1,14 +1,19 @@
-﻿---
-Description: 'Performs an operation on a specified file.'
-ms.assetid: 'ce652565-40b6-4f69-bd2a-9e05e3f360ac'
+---
+Description: Performs an operation on a specified file.
+ms.assetid: ce652565-40b6-4f69-bd2a-9e05e3f360ac
 title: WOWShellExecute function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WOWShellExecute function
 
 \[This function is available through Windows XP with Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.\]
 
-Performs an operation on a specified file. **WOWShellExecute** exists only for use with the Microsoft Windows NT Virtual DOS Machine (Ntvdm.exe), which allows disk operating system (DOS) and 16-bit software to run on a Windows system, and should not be used by anyone else. Use [**ShellExecute**](shellexecute.md) instead.
+Performs an operation on a specified file. **WOWShellExecute** exists only for use with the Microsoft Windows NT Virtual DOS Machine (Ntvdm.exe), which allows disk operating system (DOS) and 16-bit software to run on a Windows system, and should not be used by anyone else. Use [**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master) instead.
 
 ## Syntax
 
@@ -332,7 +337,7 @@ This method allows you to execute any commands in a folder's shortcut menu or st
 
 If *lpOperation* is **NULL**, the function opens the file specified by *lpFile*. If *lpOperation* is "open" or "explore", the function attempts to open or explore the folder.
 
-To obtain information about the application that is launched as a result of calling **WOWShellExecute**, use [**ShellExecuteEx**](shellexecuteex.md).
+To obtain information about the application that is launched as a result of calling **WOWShellExecute**, use [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master).
 
 > [!Note]  
 > The **Launch folder windows in a separate process** setting in Folder Options affects **WOWShellExecute**. If that option is disabled (the default setting), **WOWShellExecute** uses an open Explorer window rather than launch a new one. If no Explorer window is open, **WOWShellExecute** launches a new one.
@@ -355,7 +360,7 @@ To obtain information about the application that is launched as a result of call
 
 <dl> <dt>
 
-[**ShellExecute**](shellexecute.md)
+[**ShellExecute**](/windows/win32/Shellapi/nf-shellapi-shellexecutea?branch=master)
 </dt> </dl>
 
  

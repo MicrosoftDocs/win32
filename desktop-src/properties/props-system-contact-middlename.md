@@ -1,7 +1,12 @@
 ---
-Description: 'Middle name of the contact.'
-ms.assetid: 'ee408ca2-0d8b-454d-9f6b-009638caf25c'
-title: 'System.Contact.MiddleName'
+Description: Middle name of the contact.
+ms.assetid: ee408ca2-0d8b-454d-9f6b-009638caf25c
+title: System.Contact.MiddleName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.MiddleName

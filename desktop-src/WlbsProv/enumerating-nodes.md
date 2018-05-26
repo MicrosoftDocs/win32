@@ -4,13 +4,17 @@ description: Behavior of WMI enumeration procedures when used with the Network L
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '275eb49b-452b-4fe0-a366-d7a2e541b2bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: 275eb49b-452b-4fe0-a366-d7a2e541b2bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["enumerating nodes in NLB Failover Cluster"]
+keywords:
+- enumerating nodes in NLB Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Nodes
@@ -33,7 +37,7 @@ The following table illustrates enumeration results in a NLB [*cluster*](https:/
 
 
 
- 
+ 
 
 -   Node D does not show up in any enumeration because NLB is not running on that node.
 -   Node C shows up in all enumerations even though cluster operations have been stopped on that node.
@@ -42,9 +46,9 @@ The following table illustrates enumeration results in a NLB [*cluster*](https:/
 
 Because of the behavior described above, WMI enumeration is not a reliable indicator of [*cluster*](https://msdn.microsoft.com/library/aa367183#mscs-a---e-5-gly) membership. This is by design. Do not use enumeration as the basis of a NLB cluster membership algorithm. The most accurate method to use to enumerate the nodes in a NLB cluster is to locate the cluster using the [*cluster IP address*](https://msdn.microsoft.com/library/aa367183#mscs-a---e-6-gly). For an example, see [Monitoring Application Level Health](https://msdn.microsoft.com/library/cc307934).
 
- 
+ 
 
- 
+ 
 
 
 

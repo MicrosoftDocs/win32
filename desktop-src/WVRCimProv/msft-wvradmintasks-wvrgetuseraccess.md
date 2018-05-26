@@ -4,13 +4,16 @@ description: Performs a CIM call to obtain list of users that have permissions t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '32bda217-ddfa-4450-b04f-c9a7fb1cdcec'
-ms.prod: 'windows-server-dev'
+ms.assetid: 32bda217-ddfa-4450-b04f-c9a7fb1cdcec
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrGetUserAccess method", "WvrGetUserAccess method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrGetUserAccess method"]
+keywords:
+- WvrGetUserAccess method
+- WvrGetUserAccess method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrGetUserAccess method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - wvrcimprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrGetUserAccess method of the MSFT\_WvrAdminTasks class
@@ -30,7 +36,7 @@ Performs a CIM call to obtain list of users that have permissions to manage Stor
 
 ```mof
 uint32 WvrGetUserAccess(
-  [out] MSFT_WvrUser Output[]
+  [out] MSFT_WvrUser Output[]
 );
 ```
 
@@ -54,7 +60,7 @@ On success, contains a collection of [**MSFT\_WvrUser**](msft-wvruser.md) object
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>Wvrcimprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wvrcimprov.dll</dt> </dl> |
@@ -68,9 +74,9 @@ On success, contains a collection of [**MSFT\_WvrUser**](msft-wvruser.md) object
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

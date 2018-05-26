@@ -1,8 +1,10 @@
 ---
 title: DRM\_CRYPTO\_TYPE enumeration
 description: The DRM\_CRYPTO\_TYPE enumeration defines the cryptographic algorithm types that can be used to encrypt content.
-ms.assetid: 'e04d22cd-04fe-4b80-9644-7cd24dc99f04'
-keywords: ["DRM_CRYPTO_TYPE enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: e04d22cd-04fe-4b80-9644-7cd24dc99f04
+keywords:
+- DRM_CRYPTO_TYPE enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_CRYPTO\_TYPE enumeration
@@ -22,7 +29,7 @@ The **DRM\_CRYPTO\_TYPE** enumeration defines the cryptographic algorithm types 
 
 ```C++
 typedef enum DRM_CRYPTO_TYPE { 
-  CRYPTO_TYPE_MCE  = 0
+  CRYPTO_TYPE_MCE  = 0
 } ;
 ```
 
@@ -60,9 +67,9 @@ None.
 [**Enumeration Types**](drm-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_IDENTITY structure
 description: Contains an identifying value associated with a biometric template.
-ms.assetid: '58a5f4ba-2f58-466c-90fd-9480c3c095db'
-keywords: ["WINBIO_IDENTITY structure Windows Biometric Framework API"]
+ms.assetid: 58a5f4ba-2f58-466c-90fd-9480c3c095db
+keywords:
+- WINBIO_IDENTITY structure Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_IDENTITY structure
@@ -24,14 +30,14 @@ The **WINBIO\_IDENTITY** structure contains an identifying value associated with
 typedef struct _WINBIO_IDENTITY {
   WINBIO_IDENTITY_TYPE Type;
   union {
-    ULONG  Null;
-    ULONG  Wildcard;
-    GUID   TemplateGuid;
+    ULONG  Null;
+    ULONG  Wildcard;
+    GUID   TemplateGuid;
     struct {
       ULONG Size;
       UCHAR Data[SECURITY_MAX_SID_SIZE];
-    } AccountSid;
-  } Value;
+    } AccountSid;
+  } Value;
 } WINBIO_IDENTITY;
 ```
 
@@ -57,7 +63,7 @@ Specifies the format of the identity information contained in this structure. Th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -114,14 +120,14 @@ An array of unsigned characters that contain the SID. The current maximum size o
 
 This structure is used in the following functions:
 
--   [**WinBioDeleteTemplate**](winbiodeletetemplate.md)
--   [**WinBioEnrollCommit**](winbioenrollcommit.md)
--   [**WinBioEnumEnrollments**](winbioenumenrollments.md)
--   [**WinBioGetCredentialState**](winbiogetcredentialstate.md)
--   [**WinBioIdentify**](winbioidentify.md)
--   [**WinBioRemoveCredential**](winbioremovecredential.md)
--   [**WinBioVerify**](winbioverify.md)
--   [**WinBioVerifyWithCallback**](winbioverifywithcallback.md)
+-   [**WinBioDeleteTemplate**](/windows/win32/Winbio/nf-winbio-winbiodeletetemplate?branch=master)
+-   [**WinBioEnrollCommit**](/windows/win32/Winbio/nf-winbio-winbioenrollcommit?branch=master)
+-   [**WinBioEnumEnrollments**](/windows/win32/Winbio/nf-winbio-winbioenumenrollments?branch=master)
+-   [**WinBioGetCredentialState**](/windows/win32/Winbio/nf-winbio-winbiogetcredentialstate?branch=master)
+-   [**WinBioIdentify**](/windows/win32/Winbio/nf-winbio-winbioidentify?branch=master)
+-   [**WinBioRemoveCredential**](/windows/win32/Winbio/nf-winbio-winbioremovecredential?branch=master)
+-   [**WinBioVerify**](/windows/win32/Winbio/nf-winbio-winbioverify?branch=master)
+-   [**WinBioVerifyWithCallback**](/windows/win32/Winbio/nf-winbio-winbioverifywithcallback?branch=master)
 
 ## Requirements
 
@@ -129,8 +135,8 @@ This structure is used in the following functions:
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -142,9 +148,9 @@ This structure is used in the following functions:
 [Client Application Structures](client-application-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

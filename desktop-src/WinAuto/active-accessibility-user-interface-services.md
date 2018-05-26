@@ -1,7 +1,12 @@
 ---
 title: Active Accessibility User Interface Services
 description: This section discusses the following topics
-ms.assetid: '91738bc9-0e33-4959-8f8a-ac4645e8511a'
+ms.assetid: 91738bc9-0e33-4959-8f8a-ac4645e8511a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Active Accessibility User Interface Services

@@ -4,17 +4,22 @@ description: The DNS name to look up to find a server running this service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b2852276-30f5-4c2a-9f72-9df0d7c0c994'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b2852276-30f5-4c2a-9f72-9df0d7c0c994
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Service-DNS-Name attribute AD Schema", "serviceDNSName attribute AD Schema"]
+keywords:
+- Service-DNS-Name attribute AD Schema
+- serviceDNSName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Service-DNS-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Service-DNS-Name attribute
@@ -38,12 +43,12 @@ The DNS name to look up to find a server running this service.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The DNS name to look up to find a server running this service.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

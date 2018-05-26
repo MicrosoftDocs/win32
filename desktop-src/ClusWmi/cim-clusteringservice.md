@@ -4,13 +4,15 @@ description: TBD
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '77fa665c-680a-46db-9cc7-7ef99e69a6b8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 77fa665c-680a-46db-9cc7-7ef99e69a6b8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ClusteringService class", "CIM_ClusteringService class, described"]
+keywords:
+- CIM_ClusteringService class
+- CIM_ClusteringService class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ClusteringService class
@@ -43,16 +48,16 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, UUID("{CA0A869F-8876-4be7-AADF-A427F7733415}"), AMENDMENT]
 class CIM_ClusteringService : CIM_Service
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   StartMode;
-  boolean  Started;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   StartMode;
+  boolean  Started;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -337,7 +342,7 @@ This property is inherited from [**CIM\_Service**](cim-service.md).
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -351,9 +356,9 @@ This property is inherited from [**CIM\_Service**](cim-service.md).
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

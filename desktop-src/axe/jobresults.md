@@ -1,14 +1,21 @@
 ---
 title: JobResults class
 description: This interface provides access to JobResults objects.
-ms.assetid: 'DBB2BAE8-55D0-4A08-B835-C68D049230DA'
-keywords: ["JobResults class Access Execution Engine", "JobResults class Access Execution Engine , described"]
+ms.assetid: DBB2BAE8-55D0-4A08-B835-C68D049230DA
+keywords:
+- JobResults class Access Execution Engine
+- JobResults class Access Execution Engine , described
 topic_type:
 - apiref
 api_name:
 - JobResults
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobResults class
@@ -38,11 +45,11 @@ The **JobResults** class has these methods.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

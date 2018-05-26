@@ -1,8 +1,11 @@
 ---
 title: RemoveResourcesFromResourcePool method of the CIM\_ResourcePoolConfigurationService class
 description: Starts a job to remove resources from a resource pool. The updated resource pool will be a root pool with no parent pool.
-ms.assetid: '2810441d-bbea-401e-8da2-f54644ccd35b'
-keywords: ["RemoveResourcesFromResourcePool method Hyper-V", "RemoveResourcesFromResourcePool method Hyper-V , CIM_ResourcePoolConfigurationService class", "CIM_ResourcePoolConfigurationService class Hyper-V , RemoveResourcesFromResourcePool method"]
+ms.assetid: 2810441d-bbea-401e-8da2-f54644ccd35b
+keywords:
+- RemoveResourcesFromResourcePool method Hyper-V
+- RemoveResourcesFromResourcePool method Hyper-V , CIM_ResourcePoolConfigurationService class
+- CIM_ResourcePoolConfigurationService class Hyper-V , RemoveResourcesFromResourcePool method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveResourcesFromResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -22,10 +30,10 @@ Starts a job to remove resources from a resource pool. The updated resource pool
 
 ```mof
 uint32 RemoveResourcesFromResourcePool(
-  [in]  CIM_LogicalDevice REF HostResources[],
-  [in]  CIM_ResourcePool  REF Pool,
-  [out] CIM_ConcreteJob   REF Job,
-  [out] string                Error
+  [in]  CIM_LogicalDevice REF HostResources[],
+  [in]  CIM_ResourcePool  REF Pool,
+  [out] CIM_ConcreteJob   REF Job,
+  [out] string                Error
 );
 ```
 
@@ -93,7 +101,7 @@ The possible return values are:
 **Incorrect ResourceType for the Pool** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–4095)
+**DMTF Reserved** (8 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -102,10 +110,10 @@ The possible return values are:
 **Size Not Supported** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -126,9 +134,9 @@ The possible return values are:
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

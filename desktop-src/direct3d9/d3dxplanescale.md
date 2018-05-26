@@ -1,7 +1,12 @@
-﻿---
-Description: 'Scale the plane with the given scaling factor.'
-ms.assetid: '3a0454ef-2821-472f-b7a4-5e49bb5f556e'
+---
+Description: Scale the plane with the given scaling factor.
+ms.assetid: 3a0454ef-2821-472f-b7a4-5e49bb5f556e
 title: D3DXPlaneScale function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPlaneScale function

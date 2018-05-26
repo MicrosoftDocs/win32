@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the CAPICOM\_STORE\_LOCATION of a certificate store.'
-ms.assetid: '2bb76f51-f092-4dbe-93e9-1fdc185c7c50'
-title: 'ICertStore::StoreLocation property'
+---
+Description: Sets or retrieves the CAPICOM\_STORE\_LOCATION of a certificate store.
+ms.assetid: 2bb76f51-f092-4dbe-93e9-1fdc185c7c50
+title: ICertStoreStoreLocation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertStore::StoreLocation property

@@ -1,7 +1,12 @@
 ---
-Description: 'Use setup functions to prompt the user for a new source disk or to create error dialog boxes.'
-ms.assetid: '0bff17a6-590d-4410-9ed1-0a655d94caad'
+Description: Use setup functions to prompt the user for a new source disk or to create error dialog boxes.
+ms.assetid: 0bff17a6-590d-4410-9ed1-0a655d94caad
 title: Disk Prompting and Error Handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Prompting and Error Handling

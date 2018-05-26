@@ -1,14 +1,20 @@
 ---
 title: THEME.showErrorDialog
 description: The showErrorDialog method displays the standard error dialog box.
-ms.assetid: 'cec9ecfd-6665-4b0a-a09c-49120d557a80'
-keywords: ["THEME.showErrorDialog Windows Media Player"]
+ms.assetid: cec9ecfd-6665-4b0a-a09c-49120d557a80
+keywords:
+- THEME.showErrorDialog Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.showErrorDialog
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.showErrorDialog
@@ -53,9 +59,9 @@ For Windows Media Player 9 Series or later, this method must be called from the 
 [**Settings.enableErrorDialogs**](settings-enableerrordialogs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

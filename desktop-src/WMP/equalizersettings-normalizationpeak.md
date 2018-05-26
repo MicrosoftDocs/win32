@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.normalizationPeak
 description: The normalizationPeak attribute retrieves the peak normalization value.
-ms.assetid: 'edc914a8-5e80-41a2-b60e-a8bd481e2d11'
-keywords: ["EQUALIZERSETTINGS.normalizationPeak Windows Media Player"]
+ms.assetid: edc914a8-5e80-41a2-b60e-a8bd481e2d11
+keywords:
+- EQUALIZERSETTINGS.normalizationPeak Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.normalizationPeak
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.normalizationPeak
@@ -46,9 +52,9 @@ This attribute is a read-only **Number** (**float**).
 [**EQUALIZERSETTINGS.normalizationAverage**](equalizersettings-normalizationaverage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

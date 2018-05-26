@@ -1,8 +1,15 @@
 ---
 title: Routing Table Manager Version 1 Structures
 description: The Routing Table Manager Version 1 Functions use the following structures
-ms.assetid: '9bcf1dc6-0032-4825-bf96-e72970fb76ce'
-keywords: ["Routing and Remote Access Service RRAS ,Routing Table Manager Version 1, structures", "Routing Table Manager Version 1 RRAS ,structures"]
+ms.assetid: 9bcf1dc6-0032-4825-bf96-e72970fb76ce
+keywords:
+- Routing and Remote Access Service RRAS ,Routing Table Manager Version 1, structures
+- Routing Table Manager Version 1 RRAS ,structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager Version 1 Structures

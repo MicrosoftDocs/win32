@@ -1,8 +1,10 @@
 ---
 title: Msvm\_HostedAccessPoint class
 description: An association that connects a virtual switch service to a switch port inside of the Microsoft Hyper-V platform.
-ms.assetid: '8f1def3f-ac54-4bca-ae5e-811b685a44bc'
-keywords: ["Msvm_HostedAccessPoint class Hyper-V", "Msvm_HostedAccessPoint class Hyper-V , described"]
+ms.assetid: 8f1def3f-ac54-4bca-ae5e-811b685a44bc
+keywords:
+- Msvm_HostedAccessPoint class Hyper-V
+- Msvm_HostedAccessPoint class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedAccessPoint class
@@ -28,7 +35,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_HostedAccessPoint : CIM_HostedAccessPoint
 {
   Msvm_VirtualSwitch REF Antecedent;
-  Msvm_SwitchPort    REF Dependent;
+  Msvm_SwitchPort    REF Dependent;
 };
 ```
 
@@ -87,9 +94,9 @@ Access to the **Msvm\_HostedAccessPoint** class might be restricted by UAC Filte
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -108,9 +115,9 @@ Access to the **Msvm\_HostedAccessPoint** class might be restricted by UAC Filte
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

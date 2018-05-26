@@ -4,11 +4,16 @@ description: Directory Services Markup Language (DSML) Services for Windows is t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6d681c5-d810-4020-badf-194c631e0fc7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a6d681c5-d810-4020-badf-194c631e0fc7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSML Services for Windows DSML", "DSML Services for Windows, start page"]
+keywords:
+- DSML Services for Windows DSML
+- DSML Services for Windows, start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DSML Services for Windows

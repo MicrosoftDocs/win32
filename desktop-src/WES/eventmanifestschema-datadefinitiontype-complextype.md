@@ -1,14 +1,20 @@
 ---
 title: DataDefinitionType Complex Type
 description: Defines a data item that you want to include with the event.
-ms.assetid: 'f4234e54-a5a8-48e4-941f-05107dcd3f88'
-keywords: ["DataDefinitionType complex type EventLog"]
+ms.assetid: f4234e54-a5a8-48e4-941f-05107dcd3f88
+keywords:
+- DataDefinitionType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - DataDefinitionType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DataDefinitionType Complex Type
@@ -87,7 +93,7 @@ Defines a data item that you want to include with the event.
 <tr class="odd">
 <td>length</td>
 <td>[<strong>LengthType</strong>](eventmanifestschema-lengthtype-simpletype.md)</td>
-<td>The length of a variable length data item, such as a binary blob. For binary data, specify the length in bytes and for string data, specify the length in characters. You can specify the actual length or the name of another data item that contains the length.<br/> If you use the length attribute to specify a fixed length string, you must pad the string to its fixed length allowing for the null-terminator character at the end (for example, if the length is 5, the string &quot;abc&quot; must be padded as &quot;abc &quot;. The string length must include the null-terminator character.<br/></td>
+<td>The length of a variable length data item, such as a binary blob. For binary data, specify the length in bytes and for string data, specify the length in characters. You can specify the actual length or the name of another data item that contains the length.<br/> If you use the length attribute to specify a fixed length string, you must pad the string to its fixed length allowing for the null-terminator character at the end (for example, if the length is 5, the string &quot;abc&quot; must be padded as &quot;abc &quot;. The string length must include the null-terminator character.<br/></td>
 </tr>
 <tr class="even">
 <td>map</td>
@@ -102,12 +108,12 @@ Defines a data item that you want to include with the event.
 <tr class="odd">
 <td>name</td>
 <td>string</td>
-<td>The name of the data item. You can use the name to reference this data item in your XML fragment if you specify a [<strong>UserData</strong>](eventmanifestschema-userdata-templateitemtype-element.md) section in your template. You can also reference this name in a length or count attribute of another data item if this data item contains its length or count value.<br/> <strong>Windows Vista:</strong> This attribute is optional.<br/></td>
+<td>The name of the data item. You can use the name to reference this data item in your XML fragment if you specify a [<strong>UserData</strong>](eventmanifestschema-userdata-templateitemtype-element.md) section in your template. You can also reference this name in a length or count attribute of another data item if this data item contains its length or count value.<br/> <strong>Windows Vista:</strong> This attribute is optional.<br/></td>
 </tr>
 <tr class="even">
 <td>outType</td>
 <td><strong>QName</strong></td>
-<td>The data type to use when rendering this data item. For a list of predefined output data types, see the [<strong>OutputType</strong>](eventmanifestschema-outputtype-complextype.md) complex type.<br/> <strong>Windows Vista:</strong> The output type is ignored, and the service determines the type based on the input type.<br/></td>
+<td>The data type to use when rendering this data item. For a list of predefined output data types, see the [<strong>OutputType</strong>](eventmanifestschema-outputtype-complextype.md) complex type.<br/> <strong>Windows Vista:</strong> The output type is ignored, and the service determines the type based on the input type.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -200,14 +206,14 @@ The following are a few examples of the data item definitions.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

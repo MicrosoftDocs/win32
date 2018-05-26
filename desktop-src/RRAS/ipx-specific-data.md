@@ -1,8 +1,10 @@
 ---
 title: IPX\_SPECIFIC\_DATA structure
 description: The IPX\_SPECIFIC\_DATA structure contains IPX-specific data.
-ms.assetid: '4d97092d-692c-4dc7-af7f-260dc76c6c08'
-keywords: ["IPX_SPECIFIC_DATA structure RAS", "PIPX_SPECIFIC_DATA structure pointer RAS"]
+ms.assetid: 4d97092d-692c-4dc7-af7f-260dc76c6c08
+keywords:
+- IPX_SPECIFIC_DATA structure RAS
+- PIPX_SPECIFIC_DATA structure pointer RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPX\_SPECIFIC\_DATA structure
@@ -24,7 +31,7 @@ The **IPX\_SPECIFIC\_DATA** structure contains IPX-specific data.
 
 ```C++
 typedef struct _IPX_SPECIFIC_DATA {
-  DWORD  FSD_Flags;
+  DWORD  FSD_Flags;
   USHORT FSD_TickCount;
   USHORT FSD_HopCount;
 } IPX_SPECIFIC_DATA, *PIPX_SPECIFIC_DATA;
@@ -49,7 +56,7 @@ Specifies flags that describe the route. Currently, this member is either zero o
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -74,8 +81,8 @@ Specifies the hop count associated with the route.
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -93,9 +100,9 @@ Specifies the hop count associated with the route.
 [**RTM\_IPX\_ROUTE**](rtm-ipx-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

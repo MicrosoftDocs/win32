@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the value portion of a name-value pair.'
+Description: Specifies or retrieves the value portion of a name-value pair.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'd6e9263d-538d-41f4-bec1-3ef6d8bb27ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: d6e9263d-538d-41f4-bec1-3ef6d8bb27ef
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ApplicationSpecificDataItem.Value property'
+title: ApplicationSpecificDataItem.Value property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ApplicationSpecificDataItem.Value property
@@ -123,7 +126,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -135,9 +138,9 @@ END SUB
 [**ApplicationSpecificDataItem**](applicationspecificdataitem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

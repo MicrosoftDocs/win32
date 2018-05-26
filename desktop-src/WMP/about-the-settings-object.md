@@ -1,8 +1,21 @@
 ---
 title: About the Settings Object
 description: About the Settings Object
-ms.assetid: '941463e6-7928-438e-824e-e5e281421a4a'
-keywords: ["Windows Media Player,Settings object", "Windows Media Player object model,Settings object", "object model,Settings object", "Windows Media Player ActiveX control,Settings object", "ActiveX control,Settings object", "Windows Media Player Mobile ActiveX control,Settings object", "Windows Media Player Mobile,Settings object", "Settings object"]
+ms.assetid: 941463e6-7928-438e-824e-e5e281421a4a
+keywords:
+- Windows Media Player,Settings object
+- Windows Media Player object model,Settings object
+- object model,Settings object
+- Windows Media Player ActiveX control,Settings object
+- ActiveX control,Settings object
+- Windows Media Player Mobile ActiveX control,Settings object
+- Windows Media Player Mobile,Settings object
+- Settings object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Settings Object

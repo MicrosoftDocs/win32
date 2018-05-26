@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_CLOSE\_CHANNEL.'
-ms.assetid: '66832FC2-D958-480F-84FB-B910B760444D'
-title: 'IOCTL\_DOT4\_CLOSE\_CHANNEL control code'
+---
+Description: This topic describes IOCTL\_DOT4\_CLOSE\_CHANNEL.
+ms.assetid: 66832FC2-D958-480F-84FB-B910B760444D
+title: IOCTL\_DOT4\_CLOSE\_CHANNEL control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_CLOSE\_CHANNEL control code

@@ -1,7 +1,12 @@
 ---
-Description: 'Clusters may be referred to from two different perspectives: within the file and on the volume.'
-ms.assetid: '8e999524-4fe9-49b0-8b59-081fa7a42c72'
+Description: Clusters may be referred to from two different perspectives within the file and on the volume.
+ms.assetid: 8e999524-4fe9-49b0-8b59-081fa7a42c72
 title: Clusters and Extents
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clusters and Extents

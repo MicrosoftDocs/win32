@@ -1,7 +1,7 @@
 ---
 title: Pointer Device Change
 description: Values that can be passed in the wParam parameter of the WM\_POINTERDEVICECHANGE message.
-ms.assetid: 'B95191D7-820B-445A-A3A4-811F9F1A8C4F'
+ms.assetid: B95191D7-820B-445A-A3A4-811F9F1A8C4F
 topic_type:
 - apiref
 api_name:
@@ -21,6 +21,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointer Device Change
@@ -191,8 +196,8 @@ The display aspect ratio.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -204,12 +209,12 @@ The display aspect ratio.
 [Constants](constants.md)
 </dt> <dt>
 
-[**POINTER\_INFO**](pointer-info-struct.md)
+[**POINTER\_INFO**](/windows/win32/Winuser/ns-rimext-tagpointer_info?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

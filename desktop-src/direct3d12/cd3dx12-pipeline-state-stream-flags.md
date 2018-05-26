@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_FLAGS structure
 description: A helper structure used to describe pipeline state flags as a single object suitable for a stream description.
-ms.assetid: 'EF67936B-315A-4B3F-9E07-7CF4C5EE47CF'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_FLAGS structure"]
+ms.assetid: EF67936B-315A-4B3F-9E07-7CF4C5EE47CF
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_FLAGS structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_FLAGS structure
@@ -22,10 +28,10 @@ A helper structure used to describe pipeline state flags as a single object suit
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_FLAGS {
-                                      CD3DX12_PIPELINE_STATE_STREAM_FLAGS;
-                                      CD3DX12_PIPELINE_STATE_STREAM_FLAGS(D3D12_PIPELINE_STATE_FLAGS const &amp;i);
+                                      CD3DX12_PIPELINE_STATE_STREAM_FLAGS;
+                                      CD3DX12_PIPELINE_STATE_STREAM_FLAGS(D3D12_PIPELINE_STATE_FLAGS const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_FLAGS operator=(D3D12_PIPELINE_STATE_FLAGS const&amp; i);
-                                      operator D3D12_PIPELINE_STATE_FLAGS() const;
+                                      operator D3D12_PIPELINE_STATE_FLAGS() const;
 };
 ```
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_FL
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_FLAGS(D3D12\_PIPELINE\_STATE\_FLAGS const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_FLAGS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_FLAGS** and subobject data copied from *i*, a [**D3D12\_PIPELINE\_STATE\_FLAGS**](d3d12-pipeline-state-flags.md) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_FLAGS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_FLAGS** and subobject data copied from *i*, a [**D3D12\_PIPELINE\_STATE\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_pipeline_state_flags?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Copy-assignment operator.
 **operator D3D12\_PIPELINE\_STATE\_FLAGS() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_PIPELINE\_STATE\_FLAGS**](d3d12-pipeline-state-flags.md) structure.
+Implicit conversion to a [**D3D12\_PIPELINE\_STATE\_FLAGS**](/windows/win32/d3d12/ne-d3d12-d3d12_pipeline_state_flags?branch=master) structure.
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_PIPELINE_STATE_FLAGS, D3D1
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

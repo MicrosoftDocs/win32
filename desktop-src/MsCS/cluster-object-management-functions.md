@@ -4,11 +4,17 @@ description: The failover cluster object management functions manage failover cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6af20fe3-b91f-4d94-ace4-ef472a0891b3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6af20fe3-b91f-4d94-ace4-ef472a0891b3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["failover cluster object management functions Failover Cluster", "failover cluster objects Failover Cluster ,management functions", "failover cluster objects Failover Cluster , management functions,(See failover cluster object management functions Failover Cluster )"]
+keywords:
+- failover cluster object management functions Failover Cluster
+- failover cluster objects Failover Cluster ,management functions
+- failover cluster objects Failover Cluster , management functions,(See failover cluster object management functions Failover Cluster )
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Object Management Functions

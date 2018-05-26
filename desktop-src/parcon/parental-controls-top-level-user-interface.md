@@ -1,7 +1,12 @@
 ---
-Description: 'Parental Controls Top-Level User Interface'
-ms.assetid: 'c6dfd3bc-191f-42d1-b9de-cc85a2da0a99'
-title: 'Parental Controls Top-Level User Interface'
+Description: Parental Controls Top-Level User Interface
+ms.assetid: c6dfd3bc-191f-42d1-b9de-cc85a2da0a99
+title: Parental Controls Top-Level User Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Top-Level User Interface

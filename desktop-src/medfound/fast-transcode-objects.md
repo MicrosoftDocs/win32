@@ -1,7 +1,12 @@
 ---
-Description: 'This topic described how to use the transcode API to encode a media file.'
-ms.assetid: '52b27359-b319-41a0-88e8-d23567420e92'
+Description: This topic described how to use the transcode API to encode a media file.
+ms.assetid: 52b27359-b319-41a0-88e8-d23567420e92
 title: Using the Transcode API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Transcode API
@@ -49,11 +54,11 @@ A *transcode profile* describes the format and settings that are used to encode 
 -   Video attributes: Describe the target video format and video encoder settings.
 -   Container attributes: Define the type of file container, as well as some global encoding settings.
 
-To create a transcode profile, call the [**MFCreateTranscodeProfile**](mfcreatetranscodeprofile.md) function. This function returns a pointer to the [**IMFTranscodeProfile**](imftranscodeprofile.md) interface. The initial profile object is empty; it contains no attributes. The next step is to add the attributes that define the profile.
+To create a transcode profile, call the [**MFCreateTranscodeProfile**](/windows/win32/mfidl/nf-mfidl-mfcreatetranscodeprofile?branch=master) function. This function returns a pointer to the [**IMFTranscodeProfile**](/windows/win32/mfidl/nn-mfidl-imftranscodeprofile?branch=master) interface. The initial profile object is empty; it contains no attributes. The next step is to add the attributes that define the profile.
 
 ### Audio Attributes
 
-To add attributes for the audio stream, call [**IMFTranscodeProfile::SetAudioAttributes**](imftranscodeprofile-setaudioattributes.md). These attributes specify how the audio stream is encoded. If the output file will not contain an audio stream, omit these attributes.
+To add attributes for the audio stream, call [**IMFTranscodeProfile::SetAudioAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes?branch=master). These attributes specify how the audio stream is encoded. If the output file will not contain an audio stream, omit these attributes.
 
 Audio attributes fall into two categories:
 
@@ -92,11 +97,11 @@ The following encoding parameters are defined.
 
 You must set the format attributes. The encoding parameters are optional.
 
-One way to find a format that is compatible with the encoder is to call the [**MFTranscodeGetAudioOutputAvailableTypes**](mftranscodegetaudiooutputavailabletypes.md) function. The desired encoder is specified by subtype. The function returns a collection of media types for that encoder. You can select a type from the list and copy the attributes to the profile. For example code that uses this approach, see [Tutorial: Encoding a WMA File](tutorial--converting-an-mp3-file-to-a-wma-file.md).
+One way to find a format that is compatible with the encoder is to call the [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/win32/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes?branch=master) function. The desired encoder is specified by subtype. The function returns a collection of media types for that encoder. You can select a type from the list and copy the attributes to the profile. For example code that uses this approach, see [Tutorial: Encoding a WMA File](tutorial--converting-an-mp3-file-to-a-wma-file.md).
 
 ### Video Attributes
 
-To add attributes for the video stream, call [**IMFTranscodeProfile::SetVideoAttributes**](imftranscodeprofile-setvideoattributes.md). These attributes specify how the video stream is encoded. If the output file will not contain a video stream, omit these attributes.
+To add attributes for the video stream, call [**IMFTranscodeProfile::SetVideoAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes?branch=master). These attributes specify how the video stream is encoded. If the output file will not contain a video stream, omit these attributes.
 
 As with audio attributes, the video attributes fall into two categories:
 
@@ -137,7 +142,7 @@ You must set the format attributes. The encoding parameters are optional.
 
 ### Container Attributes
 
-Container attributes define file-level characteristics of the output file. To set container attributes, call [**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md). The following attributes are defined.
+Container attributes define file-level characteristics of the output file. To set container attributes, call [**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master). The following attributes are defined.
 
 
 
@@ -157,26 +162,26 @@ The [MF\_TRANSCODE\_CONTAINERTYPE](mf-transcode-containertype.md) attribute is r
 
 ## Creating a Transcode Topology
 
-The transcode topology is a partial topology that contains the media source, the appropriate codecs, and the media sink. To create the transcode topology, call to the [**MFCreateTranscodeTopology**](mfcreatetranscodetopology.md) function. This function takes the following parameters as input:
+The transcode topology is a partial topology that contains the media source, the appropriate codecs, and the media sink. To create the transcode topology, call to the [**MFCreateTranscodeTopology**](/windows/win32/mfidl/nf-mfidl-mfcreatetranscodetopology?branch=master) function. This function takes the following parameters as input:
 
--   A pointer to the [**IMFMediaSource**](imfmediasource.md) interface of the media source.
+-   A pointer to the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface of the media source.
 -   The name of the output file.
--   A pointer to the [**IMFTranscodeProfile**](imftranscodeprofile.md) interface of the transcode profile.
+-   A pointer to the [**IMFTranscodeProfile**](/windows/win32/mfidl/nn-mfidl-imftranscodeprofile?branch=master) interface of the transcode profile.
 
-The function returns a pointer to the [**IMFTopology**](imftopology.md) interface.
+The function returns a pointer to the [**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master) interface.
 
 ## Running the Encoding Session
 
 After you create the topology, you are ready to encode the file. You can discard the profile at this point.
 
-1.  Call [**MFCreateMediaSession**](mfcreatemediasession.md) to create the Media Session.
-2.  Call [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) to set the topology on the Media Session.
-3.  Call [**IMFMediaSession::Start**](imfmediasession-start.md) to start the encoding session.
+1.  Call [**MFCreateMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatemediasession?branch=master) to create the Media Session.
+2.  Call [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) to set the topology on the Media Session.
+3.  Call [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) to start the encoding session.
 4.  Wait for the [MESessionEnded](mesessionended.md) event.
-5.  Call [**IMFMediaSession::Close**](imfmediasession-close.md) to close the Media Session.
+5.  Call [**IMFMediaSession::Close**](/windows/win32/mfidl/nf-mfidl-imfmediasession-close?branch=master) to close the Media Session.
 6.  Wait for the [MESessionClosed](mesessionclosed.md) event.
-7.  Call [**IMFMediaSource::Shutdown**](imfmediasource-shutdown.md).
-8.  Call [**IMFMediaSession::Shutdown**](imfmediasession-shutdown.md).
+7.  Call [**IMFMediaSource::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master).
+8.  Call [**IMFMediaSession::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasession-shutdown?branch=master).
 
 Most of the time spent encoding occurs between steps 3 and 4.
 

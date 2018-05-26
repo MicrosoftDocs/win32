@@ -1,12 +1,17 @@
 ---
-Description: 'Contains the new classes for Windows 10, version 1709.'
-ms.assetid: '8C4C98E1-6327-486D-B566-D01404309908'
+Description: Contains the new classes for Windows 10, version 1709.
+ms.assetid: 8C4C98E1-6327-486D-B566-D01404309908
 title: RS3 Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RS3 Classes
 
-Contains the new classes for Windows 10, version 1709.
+Contains the new classes for Windows 10, version 1709.
 
 ## In this section
 
@@ -20,11 +25,11 @@ Contains the new classes for Windows 10, version 1709.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

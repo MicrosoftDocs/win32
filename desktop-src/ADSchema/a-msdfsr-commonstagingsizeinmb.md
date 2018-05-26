@@ -4,17 +4,22 @@ description: Size, in megabytes, of the common staging directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a7344654-a5c6-40dc-a03a-a1fb6ca06311'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a7344654-a5c6-40dc-a03a-a1fb6ca06311
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-CommonStagingSizeInMb attribute AD Schema", "msDFSR-CommonStagingSizeInMb attribute AD Schema"]
+keywords:
+- ms-DFSR-CommonStagingSizeInMb attribute AD Schema
+- msDFSR-CommonStagingSizeInMb attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-CommonStagingSizeInMb
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-CommonStagingSizeInMb attribute
@@ -38,9 +43,9 @@ Size, in megabytes, of the common staging directory.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Size, in megabytes, of the common staging directory.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: The property method of the IADsReplicaPointer interface sets the pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fc520ea4-b2c2-44c0-8bec-25f8d4a77074'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fc520ea4-b2c2-44c0-8bec-25f8d4a77074
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsReplicaPointer Property Methods ADSI"]
+keywords:
+- IADsReplicaPointer Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -32,11 +33,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsReplicaPointer Property Methods
 
-The property method of the [**IADsReplicaPointer**](iadsreplicapointer.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsReplicaPointer**](/windows/win32/Iads/nn-iads-iadsreplicapointer?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -182,7 +186,7 @@ HRESULT put_ServerName(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -190,8 +194,8 @@ HRESULT put_ServerName(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsReplicaPointer is defined as F60FB803-4080-11D1-A3AC-00C04FB950DC<br/>   |
@@ -202,15 +206,15 @@ HRESULT put_ServerName(
 
 <dl> <dt>
 
-[**IADsReplicaPointer**](iadsreplicapointer.md)
+[**IADsReplicaPointer**](/windows/win32/Iads/nn-iads-iadsreplicapointer?branch=master)
 </dt> <dt>
 
-[**ADS\_REPLICAPOINTER**](ads-replicapointer.md)
+[**ADS\_REPLICAPOINTER**](/windows/win32/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0012?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

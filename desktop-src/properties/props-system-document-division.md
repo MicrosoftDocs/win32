@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'b1cc598d-d861-4526-b2ed-ab10db805ccb'
-title: 'System.Document.Division'
+Description: .
+ms.assetid: b1cc598d-d861-4526-b2ed-ab10db805ccb
+title: System.Document.Division
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.Division

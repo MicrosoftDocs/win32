@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETISEARCHSTRING message
 description: Retrieves the incremental search string of a list-view control. You can send this message explicitly or by using the ListView\_GetISearchString macro.
-ms.assetid: 'e953c4a0-0556-4987-8abf-3276e787fe49'
-keywords: ["LVM_GETISEARCHSTRING message Windows Controls"]
+ms.assetid: e953c4a0-0556-4987-8abf-3276e787fe49
+keywords:
+- LVM_GETISEARCHSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETISEARCHSTRING message
 
-Retrieves the incremental search string of a list-view control. You can send this message explicitly or by using the [**ListView\_GetISearchString**](listview-getisearchstring.md) macro.
+Retrieves the incremental search string of a list-view control. You can send this message explicitly or by using the [**ListView\_GetISearchString**](/windows/win32/Commctrl/nf-commctrl-listview_getisearchstring?branch=master) macro.
 
 ## Parameters
 
@@ -53,16 +59,16 @@ Make sure that the buffer is large enough to hold the string and the terminating
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVM\_GETISEARCHSTRINGW** (Unicode) and **LVM\_GETISEARCHSTRINGA** (ANSI)<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following table identifies the properties for the summary information stream of the merge module. For more information, see Summary Information Stream.'
-ms.assetid: 'a5be60f0-0245-4730-ba30-215a1bc3fa6a'
+---
+Description: The following table identifies the properties for the summary information stream of the merge module. For more information, see Summary Information Stream.
+ms.assetid: a5be60f0-0245-4730-ba30-215a1bc3fa6a
 title: Merge Module Summary Information Stream Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge Module Summary Information Stream Reference

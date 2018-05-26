@@ -1,7 +1,12 @@
 ---
-Description: 'Proxy function for negotiating the pixel format and the palette for the encoder.'
-ms.assetid: '01179598-ba40-4aed-a7c4-888cb4e851f4'
-title: 'WICSetEncoderFormat\_Proxy function'
+Description: Proxy function for negotiating the pixel format and the palette for the encoder.
+ms.assetid: 01179598-ba40-4aed-a7c4-888cb4e851f4
+title: WICSetEncoderFormat\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WICSetEncoderFormat\_Proxy function
@@ -13,10 +18,10 @@ Proxy function for negotiating the pixel format and the palette for the encoder.
 
 ```C++
 HRESULT WICSetEncoderFormat_Proxy(
-  _In_  IWICBitmapSource      *pSourceIn,
-  _In_  IWICPalette           *pIPalette,
-  _In_  IWICBitmapFrameEncode *pIFrameEncode,
-  _Out_ IWICBitmapSource      **ppSourceOut
+  _In_  IWICBitmapSource      *pSourceIn,
+  _In_  IWICPalette           *pIPalette,
+  _In_  IWICBitmapFrameEncode *pIFrameEncode,
+  _Out_ IWICBitmapSource      **ppSourceOut
 );
 ```
 
@@ -29,7 +34,7 @@ HRESULT WICSetEncoderFormat_Proxy(
 *pSourceIn* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)\***
+Type: **[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)\***
 
 Pointer to the source bitmap.
 
@@ -38,7 +43,7 @@ Pointer to the source bitmap.
 *pIPalette* \[in\]
 </dt> <dd>
 
-Type: **[**IWICPalette**](-wic-codec-iwicpalette.md)\***
+Type: **[**IWICPalette**](/windows/win32/Wincodec/nn-wincodec-iwicpalette?branch=master)\***
 
 Pointer to the palette to use for encoding.
 
@@ -47,7 +52,7 @@ Pointer to the palette to use for encoding.
 *pIFrameEncode* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md)\***
+Type: **[**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master)\***
 
 Pointer to the frame encode object.
 
@@ -56,7 +61,7 @@ Pointer to the frame encode object.
 *ppSourceOut* \[out\]
 </dt> <dd>
 
-Type: **[**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md)\*\***
+Type: **[**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master)\*\***
 
 Pointer that receives a pointer to the output source.
 
@@ -76,15 +81,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

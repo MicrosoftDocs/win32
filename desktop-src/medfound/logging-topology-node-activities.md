@@ -1,7 +1,12 @@
 ---
 Description: Logging Topology Node Activities
-ms.assetid: '853b3900-1214-43b9-bf0e-e45c1159c5f1'
+ms.assetid: 853b3900-1214-43b9-bf0e-e45c1159c5f1
 title: Logging Topology Node Activities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging Topology Node Activities
@@ -14,7 +19,7 @@ TopoEdit provides the option for collecting logging information for a transform 
 
 2.  From the **Tools** menu, click **Spy Selected Node**.
 
-During topology building, all method calls on the selected node are logged to a text file. This is saved in the folder where the media file is located. The log file is saved with the node name and the unique topology node identifier. This ensures that no other node writes to the log. To get the identifier programmatically, call [**IMFTopologyNode::GetTopoNodeID**](imftopologynode-gettoponodeid.md).
+During topology building, all method calls on the selected node are logged to a text file. This is saved in the folder where the media file is located. The log file is saved with the node name and the unique topology node identifier. This ensures that no other node writes to the log. To get the identifier programmatically, call [**IMFTopologyNode::GetTopoNodeID**](/windows/win32/mfidl/nf-mfidl-imftopologynode-gettoponodeid?branch=master).
 
 The following is an excerpt from a log file.
 

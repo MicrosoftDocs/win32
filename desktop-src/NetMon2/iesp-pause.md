@@ -1,7 +1,12 @@
 ---
-Description: 'The Pause method pauses the current capture.'
-ms.assetid: 'efbc8947-b9fe-4dbd-8097-375b5f99845e'
-title: 'IESP::Pause method'
+Description: The Pause method pauses the current capture.
+ms.assetid: efbc8947-b9fe-4dbd-8097-375b5f99845e
+title: IESPPause method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP::Pause method
@@ -13,7 +18,7 @@ The **Pause** method pauses the current capture.
 
 ```C++
 HRESULT STDMETHODCALLTYPE Pause(
-   LPSTATISTICS lpStats
+   LPSTATISTICS lpStats
 );
 ```
 
@@ -47,7 +52,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,8 +68,8 @@ To restart the capture, call [IESP::Resume](iesp-resume.md). To stop the capture
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -89,9 +94,9 @@ To restart the capture, call [IESP::Resume](iesp-resume.md). To stop the capture
 [IESP::Stop](iesp-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

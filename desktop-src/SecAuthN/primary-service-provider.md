@@ -1,7 +1,12 @@
 ---
-Description: 'Each smart card known to the system may have a registered COM interface listed as its primary service provider.'
-ms.assetid: '4ce06b98-a2d0-46eb-9a6e-473f6c21499b'
+Description: Each smart card known to the system may have a registered COM interface listed as its primary service provider.
+ms.assetid: 4ce06b98-a2d0-46eb-9a6e-473f6c21499b
 title: Primary Service Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primary Service Provider

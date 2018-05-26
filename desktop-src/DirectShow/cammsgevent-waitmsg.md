@@ -1,7 +1,12 @@
 ---
-Description: 'The WaitMsg method waits for the event to be signaled, while dispatching sent messages.'
-ms.assetid: '5cab98ca-f9f3-4c7c-9ce2-8e16109d8fbb'
-title: 'CAMMsgEvent.WaitMsg method'
+Description: The WaitMsg method waits for the event to be signaled, while dispatching sent messages.
+ms.assetid: 5cab98ca-f9f3-4c7c-9ce2-8e16109d8fbb
+title: CAMMsgEvent.WaitMsg method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMMsgEvent.WaitMsg method
@@ -13,7 +18,7 @@ The `WaitMsg` method waits for the event to be signaled, while dispatching sent 
 
 ```C++
 BOOL WaitMsg(
-   DWORD dwTimeOut = INFINITE
+   DWORD dwTimeOut = INFINITE
 );
 ```
 
@@ -58,9 +63,9 @@ For example, suppose you create a thread and then block until the thread initial
 [**CAMMsgEvent Class**](cammsgevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

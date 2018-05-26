@@ -1,7 +1,12 @@
 ---
 title: About Scroll Bars
-description: A window can display a data object, such as a document or a bitmap, that is larger than the window's client area.
-ms.assetid: '9cb3afad-79ef-4817-950a-c8c1de39401b'
+description: A window can display a data object, such as a document or a bitmap, that is larger than the windows client area.
+ms.assetid: 9cb3afad-79ef-4817-950a-c8c1de39401b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Scroll Bars
@@ -48,17 +53,17 @@ A scroll bar control can have a number of styles that serves to control the orie
 For a table of scroll bar control styles, see [Scroll Bar Control Styles](scroll-bar-control-styles.md).
 
 > [!Note]  
-> To use visual styles with scroll bars, an application must include a manifest and must call [**InitCommonControls**](initcommoncontrols.md) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
+> To use visual styles with scroll bars, an application must include a manifest and must call [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
  
 
 ## Scroll Box Position and Scrolling Range
 
-The position of the scroll box is represented as an integer; it is relative to the left or upper end of the scroll bar, depending on whether the scroll bar is horizontal or vertical. The position must be within the minimum and maximum values of the scrolling range. For example, in a scroll bar with a range of 0 through 100, position 50 is in the middle, with the remaining positions distributed equally along the scroll bar. The initial range depends on the scroll bar. Standard scroll bars have an initial range of 0 through 100; scroll bar controls have an empty range (both minimum and maximum values are zero), unless you supply an explicit range when the control is created. You can change the range at any time. You can use the [**SetScrollInfo**](setscrollinfo.md) function to set the range values, and the [**GetScrollInfo**](getscrollinfo.md) function to retrieve the current range values.
+The position of the scroll box is represented as an integer; it is relative to the left or upper end of the scroll bar, depending on whether the scroll bar is horizontal or vertical. The position must be within the minimum and maximum values of the scrolling range. For example, in a scroll bar with a range of 0 through 100, position 50 is in the middle, with the remaining positions distributed equally along the scroll bar. The initial range depends on the scroll bar. Standard scroll bars have an initial range of 0 through 100; scroll bar controls have an empty range (both minimum and maximum values are zero), unless you supply an explicit range when the control is created. You can change the range at any time. You can use the [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function to set the range values, and the [**GetScrollInfo**](/windows/win32/Winuser/nf-winuser-getscrollinfo?branch=master) function to retrieve the current range values.
 
 An application typically adjusts the scroll range to convenient integers, making it easy to translate the scroll box position into a value corresponding to the data object to be scrolled. For example, if an application must display 260 lines of a text file in a window that can show only 16 lines at a time, the vertical scroll bar range can be set to 1 through 244. If the scroll box is at position 1, the first line will be at the top of the window. If the scroll box is at position 244, the last line (line 260) will be at the bottom of the window. If an application attempts to specify a position value that is less than the minimum or more than the maximum, the minimum or maximum scrolling range value is used instead.
 
-You can set a page size for a scroll bar. The *page size* represents the number of data units that can fit in the client area of the owner window given its current size. For example, if the client area can hold 16 lines of text, an application would set the page size to 16. The system uses the page size, along with the scrolling range and length of the scroll bar shaft, to set the size of the scroll box. Whenever a window containing a scroll bar is resized, an application should call the [**SetScrollInfo**](setscrollinfo.md) function to set the page size. An application can retrieve the current page size by calling the sending [**GetScrollInfo**](getscrollinfo.md) function.
+You can set a page size for a scroll bar. The *page size* represents the number of data units that can fit in the client area of the owner window given its current size. For example, if the client area can hold 16 lines of text, an application would set the page size to 16. The system uses the page size, along with the scrolling range and length of the scroll bar shaft, to set the size of the scroll box. Whenever a window containing a scroll bar is resized, an application should call the [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function to set the page size. An application can retrieve the current page size by calling the sending [**GetScrollInfo**](/windows/win32/Winuser/nf-winuser-getscrollinfo?branch=master) function.
 
 To establish a useful relationship between the scroll bar range and the data object, an application must adjust the range whenever the size of the data object changes.
 
@@ -73,13 +78,13 @@ MaxScrollPos = MaxRangeValue - (PageSize - 1)
 
 
 
-An application must move the scroll box in a scroll bar. Although the user makes a request for scrolling in a scroll bar, the scroll bar does not automatically update the scroll box position. Instead, it passes the request to the parent window, which must scroll the data and update the scroll box position. An application uses the [**SetScrollInfo**](setscrollinfo.md) function to update the scroll box position; otherwise, it uses the [**SetScrollPos**](setscrollpos.md) function. Because it controls the scroll box movement, the application can move the scroll box in increments that work best for the data being scrolled.
+An application must move the scroll box in a scroll bar. Although the user makes a request for scrolling in a scroll bar, the scroll bar does not automatically update the scroll box position. Instead, it passes the request to the parent window, which must scroll the data and update the scroll box position. An application uses the [**SetScrollInfo**](/windows/win32/Winuser/nf-winuser-setscrollinfo?branch=master) function to update the scroll box position; otherwise, it uses the [**SetScrollPos**](/windows/win32/Winuser/nf-winuser-setscrollpos?branch=master) function. Because it controls the scroll box movement, the application can move the scroll box in increments that work best for the data being scrolled.
 
 ## Scroll Bar Visibility
 
-The system hides and disables a standard scroll bar when equal minimum and maximum values are specified. The system also hides and disables a standard scroll bar if you specify a page size that includes the entire scroll range of the scroll bar. This is the way to temporarily hide a scroll bar when it is not needed for the content of the client area. There is no need to make scrolling requests through the scroll bar when it is hidden. The system enables the scroll bar and shows it again when you set the minimum and maximum values to unequal values or when the page size that does not include the entire scroll range. The [**ShowScrollBar**](showscrollbar.md) function can also be used to hide or show a scroll bar. It does not affect the scroll bar's range, page size, or scroll box position.
+The system hides and disables a standard scroll bar when equal minimum and maximum values are specified. The system also hides and disables a standard scroll bar if you specify a page size that includes the entire scroll range of the scroll bar. This is the way to temporarily hide a scroll bar when it is not needed for the content of the client area. There is no need to make scrolling requests through the scroll bar when it is hidden. The system enables the scroll bar and shows it again when you set the minimum and maximum values to unequal values or when the page size that does not include the entire scroll range. The [**ShowScrollBar**](/windows/win32/Winuser/nf-winuser-showscrollbar?branch=master) function can also be used to hide or show a scroll bar. It does not affect the scroll bar's range, page size, or scroll box position.
 
-The [**EnableScrollBar**](enablescrollbar.md) function can be used to disable one or both arrows of a scroll bar. An application displays disabled arrows in gray and does not respond to user input.
+The [**EnableScrollBar**](/windows/win32/Winuser/nf-winuser-enablescrollbar?branch=master) function can be used to disable one or both arrows of a scroll bar. An application displays disabled arrows in gray and does not respond to user input.
 
 ## Scroll Bar Requests
 
@@ -151,13 +156,13 @@ If you want a keyboard interface for a standard scroll bar, you can create one y
 
 The simplest way to scroll the content of a client area is to erase and then redraw it. This is the method an application is likely to use with SB\_PAGEUP, SB\_PAGEDOWN, and SB\_TOP request codes, which typically require completely new content.
 
-For some request codes, such as SB\_LINEUP and SB\_LINEDOWN, not all the content need be erased, because some remains visible after scrolling occurs. The [**ScrollWindowEx**](scrollwindowex.md) function preserves a portion of the client area's content, moves the preserved portion a specified amount, and then prepares the rest of the client area for painting new information. **ScrollWindowEx** uses the [**BitBlt**](https://msdn.microsoft.com/library/windows/desktop/dd183370) function to move a specific part of the data object to a new location within the client area. Any uncovered part of the client area (anything not preserved) is invalidated, erased, and painted when the next [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message occurs.
+For some request codes, such as SB\_LINEUP and SB\_LINEDOWN, not all the content need be erased, because some remains visible after scrolling occurs. The [**ScrollWindowEx**](/windows/win32/Winuser/nf-winuser-scrollwindowex?branch=master) function preserves a portion of the client area's content, moves the preserved portion a specified amount, and then prepares the rest of the client area for painting new information. **ScrollWindowEx** uses the [**BitBlt**](https://msdn.microsoft.com/library/windows/desktop/dd183370) function to move a specific part of the data object to a new location within the client area. Any uncovered part of the client area (anything not preserved) is invalidated, erased, and painted when the next [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message occurs.
 
-The [**ScrollWindowEx**](scrollwindowex.md) function can be used to exclude a portion of the client area from the scrolling operation. This keeps items with fixed positions, such as child windows, from moving within the client area. It automatically invalidates the portion of the client area that is to receive the new information, so the application does not have to compute its own clipping regions. For more information on clipping, see [Clipping](https://msdn.microsoft.com/library/windows/desktop/dd183435).
+The [**ScrollWindowEx**](/windows/win32/Winuser/nf-winuser-scrollwindowex?branch=master) function can be used to exclude a portion of the client area from the scrolling operation. This keeps items with fixed positions, such as child windows, from moving within the client area. It automatically invalidates the portion of the client area that is to receive the new information, so the application does not have to compute its own clipping regions. For more information on clipping, see [Clipping](https://msdn.microsoft.com/library/windows/desktop/dd183435).
 
 Usually an application scrolls the content of a window in the direction opposite that indicated by the scroll bar. For example, when the user clicks the scroll bar shaft in the area below the scroll box, an application scrolls the object in the window upward to reveal a portion of the object that is below the visible portion.
 
-You can also scroll a rectangular region using the [**ScrollDC**](scrolldc.md) function.
+You can also scroll a rectangular region using the [**ScrollDC**](/windows/win32/Winuser/nf-winuser-scrolldc?branch=master) function.
 
 ## Scroll Bar Colors and Metrics
 

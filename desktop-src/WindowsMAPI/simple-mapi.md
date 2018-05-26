@@ -1,7 +1,12 @@
 ---
-Description: 'Simple MAPI is a set of functions and related data structures you can use to add messaging functionality to Windows-based applications written in C, C++, or Visual Basic.'
-ms.assetid: '741a0f97-e728-4d3a-99f3-2c4eccca5978'
+Description: Simple MAPI is a set of functions and related data structures you can use to add messaging functionality to Windows-based applications written in C, C++, or Visual Basic.
+ms.assetid: 741a0f97-e728-4d3a-99f3-2c4eccca5978
 title: Simple MAPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple MAPI

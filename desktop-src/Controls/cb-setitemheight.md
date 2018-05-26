@@ -1,8 +1,9 @@
 ---
 title: CB\_SETITEMHEIGHT message
 description: An application sends a CB\_SETITEMHEIGHT message to set the height of list items or the selection field in a combo box.
-ms.assetid: '25a01170-5ffc-4d86-b696-706f5375570b'
-keywords: ["CB_SETITEMHEIGHT message Windows Controls"]
+ms.assetid: 25a01170-5ffc-4d86-b696-706f5375570b
+keywords:
+- CB_SETITEMHEIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETITEMHEIGHT message
@@ -26,7 +32,7 @@ An application sends a **CB\_SETITEMHEIGHT** message to set the height of list i
 
 Specifies the component of the combo box for which to set the height.
 
-This parameter must be –1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style. In that case, the *wParam* parameter is the zero-based index of a specific list item.
+This parameter must be  1 to set the height of the selection field. It must be zero to set the height of list items, unless the combo box has the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style. In that case, the *wParam* parameter is the zero-based index of a specific list item.
 
 </dd> <dt>
 
@@ -51,8 +57,8 @@ The selection field height in a combo box is set independently of the height of 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ The selection field height in a combo box is set independently of the height of 
 [**WM\_MEASUREITEM**](wm-measureitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

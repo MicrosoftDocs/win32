@@ -1,8 +1,18 @@
 ---
 title: Using Joysticks
 description: Using Joysticks
-ms.assetid: '3f7ccbb3-73b5-48dc-ace6-ecb55cb267fa'
-keywords: ["Windows multimedia,joysticks", "multimedia,joysticks", "multimedia input,joysticks", "joysticks,about", "joysticks,examples"]
+ms.assetid: 3f7ccbb3-73b5-48dc-ace6-ecb55cb267fa
+keywords:
+- Windows multimedia,joysticks
+- multimedia,joysticks
+- multimedia input,joysticks
+- joysticks,about
+- joysticks,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Joysticks

@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink RequestComplete
 description: IAgentNotifySink RequestComplete
-ms.assetid: '995bc961-f175-4429-94a4-91962161298b'
+ms.assetid: 995bc961-f175-4429-94a4-91962161298b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::RequestComplete

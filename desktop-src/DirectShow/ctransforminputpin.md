@@ -1,7 +1,12 @@
 ---
-Description: 'The CTransformInputPin class implements an input pin that is used by the CTransformFilter class.'
-ms.assetid: '032da1bb-448d-48ea-ab3d-f721d790637f'
+Description: The CTransformInputPin class implements an input pin that is used by the CTransformFilter class.
+ms.assetid: 032da1bb-448d-48ea-ab3d-f721d790637f
 title: CTransformInputPin class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformInputPin class
@@ -37,7 +42,7 @@ Typically, you do not need to derive from this class. Most of the methods in thi
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,9 +55,9 @@ Typically, you do not need to derive from this class. Most of the methods in thi
 
 
 
- 
+ 
 
- 
+ 
 
 
 

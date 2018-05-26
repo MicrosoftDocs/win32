@@ -4,11 +4,13 @@ description: Defines the successful deactivation of a permanent consumer subscri
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba8f9761-9383-4ac9-9338-957712c8cfde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: ba8f9761-9383-4ac9-9338-957712c8cfde
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiFilterDeactivated class", "MSFT_WmiFilterDeactivated class, described"]
+keywords:
+- MSFT_WmiFilterDeactivated class
+- MSFT_WmiFilterDeactivated class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiFilterDeactivated class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_WmiFilterDeactivated : MSFT_WmiFilterEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string QueryLanguage;
   string Name;
@@ -157,8 +162,8 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -184,9 +189,9 @@ WMI Troubleshooting
 [Monitoring Events](https://msdn.microsoft.com/library/aa392396)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

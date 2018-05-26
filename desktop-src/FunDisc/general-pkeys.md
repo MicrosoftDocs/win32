@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the PKEYs to be used by any Function Discovery provider.'
-ms.assetid: '356ec8eb-f226-48e3-b0b6-ce35ee3ab6ab'
+Description: Defines the PKEYs to be used by any Function Discovery provider.
+ms.assetid: 356ec8eb-f226-48e3-b0b6-ce35ee3ab6ab
 title: General PKEYs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General PKEYs
@@ -17,7 +22,7 @@ The following are general keys.
 
 
 
-The instance identifier. The PnP provider uses this key on Windows XP to provide access to the devnode descriptor. PROPVARIANT type VT\_LPWSTR.
+The instance identifier. The PnP provider uses this key on Windows XP to provide access to the devnode descriptor. PROPVARIANT type VT\_LPWSTR.
 
 
 </dt> </dl> </dd> <dt>
@@ -148,8 +153,8 @@ The time that the property store was last written. This key is used by the regis
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>FunctionDiscoveryKeys.h</dt> </dl> |
 
 
@@ -161,9 +166,9 @@ The time that the property store was last written. This key is used by the regis
 [**Key Definitions**](key-definitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

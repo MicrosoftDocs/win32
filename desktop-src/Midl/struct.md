@@ -2,13 +2,19 @@
 title: struct attribute
 description: The struct keyword is used in a structure type specifier.
 ms.assetid: 89e18f0e-185a-408e-812d-3d11f228b473
-keywords: ["struct attribute MIDL"]
+keywords:
+- struct attribute MIDL
 topic_type:
 - apiref
 api_name:
 - struct
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # struct attribute

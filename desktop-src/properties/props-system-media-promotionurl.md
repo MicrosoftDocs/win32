@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a0e464a0-ff43-43a8-87f7-2fef17ca15eb'
-title: 'System.Media.PromotionUrl'
+Description: .
+ms.assetid: a0e464a0-ff43-43a8-87f7-2fef17ca15eb
+title: System.Media.PromotionUrl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.PromotionUrl

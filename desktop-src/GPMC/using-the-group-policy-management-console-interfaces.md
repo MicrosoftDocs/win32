@@ -4,11 +4,15 @@ description: This section discusses using the Group Policy Management Console (G
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a5ee9e91-4ccb-4eb4-a11e-bc3b8b6c5c4f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: a5ee9e91-4ccb-4eb4-a11e-bc3b8b6c5c4f
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["Group Policy Management Console, using"]
+keywords:
+- Group Policy Management Console, using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Group Policy Management Console

@@ -1,14 +1,20 @@
 ---
 title: DisplayInformation Complex Type
 description: Specifies the localized name and description strings that are used for display in a UI component.
-ms.assetid: '725e860b-243f-4f35-a234-7d4d9a97acf5'
-keywords: ["DisplayInformation complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 725e860b-243f-4f35-a234-7d4d9a97acf5
+keywords:
+- DisplayInformation complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - DisplayInformation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisplayInformation Complex Type
@@ -68,8 +74,8 @@ How the strings are used depends on where this node is located in the manifest. 
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -110,9 +116,9 @@ How the strings are used depends on where this node is located in the manifest. 
 [**DisplayInformation (Resolver) Element**](package-displayinformation-resolver-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

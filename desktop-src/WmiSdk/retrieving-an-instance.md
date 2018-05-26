@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieving an instance is one of the most common retrieval procedures you are likely to perform in WMI.'
+Description: Retrieving an instance is one of the most common retrieval procedures you are likely to perform in WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c3258783-ffcd-4c40-aaf2-7c65617cf9f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c3258783-ffcd-4c40-aaf2-7c65617cf9f8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Retrieving a WMI Instance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving a WMI Instance
@@ -119,13 +122,13 @@ Retrieve a local copy of the instance with a call to the VBScript [**GetObject**
 
     Retrieving a specific instance requires giving a name as part of the object path.
 
-In C++, call [**IWbemServices::GetObject**](iwbemservices-getobject.md).
+In C++, call [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master).
 
 **To retrieve an instance of a WMI class using C++**
 
--   Retrieve a local copy of the instance with a call to [**IWbemServices::GetObject**](iwbemservices-getobject.md) or [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md). The WMI path to the object must be included.
+-   Retrieve a local copy of the instance with a call to [**IWbemServices::GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) or [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master). The WMI path to the object must be included.
 
-    As the name implies, [**GetObjectAsync**](iwbemservices-getobjectasync.md) retrieves the instance asynchronously, while [**GetObject**](iwbemservices-getobject.md) retrieves the instance synchronously. If you want to use asynchronous retrieval, you must implement the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
+    As the name implies, [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) retrieves the instance asynchronously, while [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master) retrieves the instance synchronously. If you want to use asynchronous retrieval, you must implement the [**IWbemObjectSink**](iwbemobjectsink.md) interface.
 
 ## Examples
 

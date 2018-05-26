@@ -1,7 +1,12 @@
 ---
 title: Grayscale effect
 description: Converts an image to monochromatic gray.
-ms.assetid: '4e0b26ed-ba71-5f8f-db1e-f1b4e28fbd11'
+ms.assetid: 4e0b26ed-ba71-5f8f-db1e-f1b4e28fbd11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Grayscale effect
@@ -46,7 +51,7 @@ This effect has no properties.
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

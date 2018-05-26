@@ -1,7 +1,12 @@
 ---
 title: How to Initialize a Texture From a File
 description: This topic shows how to use Windows Imaging Component (WIC) to create the texture and the view separately.
-ms.assetid: 'ea3c6003-191d-47d1-8931-f43598728ad4'
+ms.assetid: ea3c6003-191d-47d1-8931-f43598728ad4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Initialize a Texture From a File
@@ -50,7 +55,7 @@ At the end of this topic, you'll find the full example code. The topic describes
     \* The single-channel DXGI formats are all red channel, so you need HLSL shader swizzles such as .rrr to render these as grayscale.
 
 6.  Call the [**IWICBitmapSource::CopyPixels**](https://msdn.microsoft.com/library/windows/desktop/ee690179) method to copy the image pixels into a buffer. Use the [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) type and the buffer to initialize the 2D texture resource and shader-resource-view object.
-7.  Call the [**ID3D11Device::CreateTexture2D**](id3d11device-createtexture2d.md) method to initialize the 2D texture resource. In this call, pass the address of an [**ID3D11Texture2D**](id3d11texture2d.md) interface pointer.
+7.  Call the [**ID3D11Device::CreateTexture2D**](/windows/win32/D3D11/nf-d3d11-id3d11device-createtexture2d?branch=master) method to initialize the 2D texture resource. In this call, pass the address of an [**ID3D11Texture2D**](/windows/win32/D3D11/nn-d3d11-id3d11texture2d?branch=master) interface pointer.
 
     ```C++
         // Create texture
@@ -79,7 +84,7 @@ At the end of this topic, you'll find the full example code. The topic describes
 
     
 
-8.  Call the [**ID3D11Device::CreateShaderResourceView**](id3d11device-createshaderresourceview.md) method to initialize a shader-resource-view object. Pass either a **NULL** shader-resource-view description (to get a view with default parameters) or a non-**NULL** shader-resource-view description (to get a view with non-default parameters). If necessary, determine the texture type by calling [**ID3D11Resource::GetType**](id3d11resource-gettype.md) and the texture format by calling [**ID3D11ShaderResourceView::GetDesc**](id3d11shaderresourceview-getdesc.md).
+8.  Call the [**ID3D11Device::CreateShaderResourceView**](/windows/win32/D3D11/nf-d3d11-id3d11device-createshaderresourceview?branch=master) method to initialize a shader-resource-view object. Pass either a **NULL** shader-resource-view description (to get a view with default parameters) or a non-**NULL** shader-resource-view description (to get a view with non-default parameters). If necessary, determine the texture type by calling [**ID3D11Resource::GetType**](/windows/win32/D3D11/nf-d3d11-id3d11resource-gettype?branch=master) and the texture format by calling [**ID3D11ShaderResourceView::GetDesc**](/windows/win32/D3D11/nf-d3d11-id3d11shaderresourceview-getdesc?branch=master).
     ```C++
         if ( SUCCEEDED(hr) &amp;&amp; tex != 0 )
         {
@@ -103,7 +108,7 @@ At the end of this topic, you'll find the full example code. The topic describes
 
     
 
-The preceding example code assumes that the *d3dDevice* variable is an [**ID3D11Device**](id3d11device.md) object that has been previously initialized.
+The preceding example code assumes that the *d3dDevice* variable is an [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) object that has been previously initialized.
 
 Here is the header that you can include in your app. The header declares the **CreateWICTextureFromFile** and **CreateWICTextureFromMemory** functions that you can call in your app to create a texture from a file and from memory.
 

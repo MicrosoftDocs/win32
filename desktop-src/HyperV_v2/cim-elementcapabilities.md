@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a managed element and its capabilities.'
-ms.assetid: '0e080042-4a56-40b7-acc5-cf69eb2a0604'
-title: 'CIM\_ElementCapabilities class'
+Description: Represents an association between a managed element and its capabilities.
+ms.assetid: 0e080042-4a56-40b7-acc5-cf69eb2a0604
+title: CIM\_ElementCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ElementCapabilities class
@@ -15,8 +20,8 @@ Represents an association between a managed element and its capabilities.
 class CIM_ElementCapabilities
 {
   CIM_ManagedElement REF ManagedElement;
-  CIM_Capabilities   REF Capabilities;
-  uint16                 Characteristics[];
+  CIM_Capabilities   REF Capabilities;
+  uint16                 Characteristics[];
 };
 ```
 
@@ -113,17 +118,17 @@ The managed element.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

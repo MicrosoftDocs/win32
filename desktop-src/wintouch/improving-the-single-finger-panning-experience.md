@@ -1,8 +1,29 @@
 ---
 title: Improving the Single-Finger Panning Experience
 description: If you build an application that targets Windows Touch, it automatically provides basic panning support. However, you can use the WM\_GESTURE message to provide enhanced support for single-finger panning.
-ms.assetid: 'eb01a6df-9969-44d1-a657-4f83fb0b67cb'
-keywords: ["Windows Touch,single-finger panning", "Windows Touch,panning", "Windows Touch,scroll bars", "Windows Touch,flicks", "Windows Touch,gesture pan messages", "Windows Touch,boundary feedback", "single-finger panning", "panning,single-finger", "panning,boundary feedback", "scroll bars,single-finger panning", "flicks,single-finger panning", "scroll bars,disabling", "flicks,disabling", "gestures,gesture pan messages", "panning,gesture pan messages", "boundary feedback,single-finger panning"]
+ms.assetid: eb01a6df-9969-44d1-a657-4f83fb0b67cb
+keywords:
+- Windows Touch,single-finger panning
+- Windows Touch,panning
+- Windows Touch,scroll bars
+- Windows Touch,flicks
+- Windows Touch,gesture pan messages
+- Windows Touch,boundary feedback
+- single-finger panning
+- panning,single-finger
+- panning,boundary feedback
+- scroll bars,single-finger panning
+- flicks,single-finger panning
+- scroll bars,disabling
+- flicks,disabling
+- gestures,gesture pan messages
+- panning,gesture pan messages
+- boundary feedback,single-finger panning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Improving the Single-Finger Panning Experience
@@ -66,7 +87,7 @@ GESTUREINFO gi;
 
 Next, add the handler for the [**WM\_GESTURE**](wm-gesture.md) message so that the scroll bars are updated with deltas based on panning gestures. This gives you a much finer-grained control of panning.
 
-The following code gets the [**GESTUREINFO**](gestureinfo.md) structure from the *lParam*, saves the last y-coordinate from the structure, and determines the change in position to update the scroll bar object. The following code should be placed in your **WndProc** switch statement.
+The following code gets the [**GESTUREINFO**](/windows/win32/winuser/ns-winuser-taggestureinfo?branch=master) structure from the *lParam*, saves the last y-coordinate from the structure, and determines the change in position to update the scroll bar object. The following code should be placed in your **WndProc** switch statement.
 
 
 ```C++
@@ -204,13 +225,13 @@ Now your application's window should have boundary feedback when a user pans pas
 [Windows Touch Gestures](guide-multi-touch-gestures.md)
 </dt> <dt>
 
-[**BeginPanningFeedback**](setpanningfeedback.md)
+[**BeginPanningFeedback**](/windows/win32/uxtheme/?branch=master)
 </dt> <dt>
 
-[**EndPanningFeedback**](resetpanningfeedback.md)
+[**EndPanningFeedback**](/windows/win32/uxtheme/?branch=master)
 </dt> <dt>
 
-[**UpdatePanningFeedback**](updatepanningfeedback.md)
+[**UpdatePanningFeedback**](/windows/win32/uxtheme/?branch=master)
 </dt> </dl>
 
  

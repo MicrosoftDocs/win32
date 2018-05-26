@@ -4,13 +4,16 @@ description: Migrates the virtual machine settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '406D5357-11A0-4008-9E5B-5D94F3BF066F'
-ms.prod: 'windows-server-dev'
+ms.assetid: 406D5357-11A0-4008-9E5B-5D94F3BF066F
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MigrateVirtualMachine method", "MigrateVirtualMachine method, MSCluster_Resource class", "MSCluster_Resource class, MigrateVirtualMachine method"]
+keywords:
+- MigrateVirtualMachine method
+- MigrateVirtualMachine method, MSCluster_Resource class
+- MSCluster_Resource class, MigrateVirtualMachine method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MigrateVirtualMachine method of the MSCluster\_Resource class
@@ -30,12 +36,12 @@ Migrates the virtual machine settings.
 
 ```mof
 void MigrateVirtualMachine(
-  [in] string SnapshotDestinationPath,
-  [in] string ConfigurationDestinationPath,
-  [in] string SwapFileDestinationPath,
-  [in] string SourcePaths[],
-  [in] string DestinationPaths[],
-  [in] string ResourceDestinationPools[]
+  [in] string SnapshotDestinationPath,
+  [in] string ConfigurationDestinationPath,
+  [in] string SwapFileDestinationPath,
+  [in] string SourcePaths[],
+  [in] string DestinationPaths[],
+  [in] string ResourceDestinationPools[]
 );
 ```
 
@@ -98,7 +104,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -112,9 +118,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

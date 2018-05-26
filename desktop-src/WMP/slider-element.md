@@ -1,8 +1,18 @@
 ---
 title: SLIDER Element
 description: SLIDER Element
-ms.assetid: '9cba9bdd-ea5b-4a4a-a61e-e6aff29fc3e0'
-keywords: ["Windows Media Player skins,SLIDER element", "skins,SLIDER element", "SLIDER element", "reference for skins,SLIDER element", "elements,SLIDER"]
+ms.assetid: 9cba9bdd-ea5b-4a4a-a61e-e6aff29fc3e0
+keywords:
+- Windows Media Player skins,SLIDER element
+- skins,SLIDER element
+- SLIDER element
+- reference for skins,SLIDER element
+- elements,SLIDER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER Element

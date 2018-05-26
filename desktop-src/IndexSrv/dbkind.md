@@ -1,8 +1,14 @@
 ---
 title: DBKIND
 description: DBKIND
-ms.assetid: '06e054f6-4d77-463e-91cb-5b2168145d89'
-keywords: ["DBKIND"]
+ms.assetid: 06e054f6-4d77-463e-91cb-5b2168145d89
+keywords:
+- DBKIND
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBKIND

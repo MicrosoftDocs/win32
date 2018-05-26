@@ -1,7 +1,12 @@
 ---
 title: AXE XSD Schema
 description: This is the AXE XSD schema.
-ms.assetid: '7C887BA8-B8DE-4871-AC11-5E394D605E72'
+ms.assetid: 7C887BA8-B8DE-4871-AC11-5E394D605E72
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AXE XSD Schema

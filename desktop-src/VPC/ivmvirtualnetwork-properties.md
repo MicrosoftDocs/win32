@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualNetwork Properties
 description: The IVMVirtualNetwork interface exposes the following properties.
-ms.assetid: '2F45FD7C-6858-4529-B62B-C2EDA3413CC4'
+ms.assetid: 2F45FD7C-6858-4529-B62B-C2EDA3413CC4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork Properties
@@ -13,7 +18,7 @@ The [**IVMVirtualNetwork**](ivmvirtualnetwork.md) interface exposes the followin
 ## In this section
 
 -   [**HostAdapter Property**](ivmvirtualnetwork-hostadapter.md)
--   [**MediaType Property**](ivmvirtualnetwork-mediatype.md)
+-   [**MediaType Property**](/windows/win32/mshtmlc/?branch=master)
 -   [**Name Property**](ivmvirtualnetwork-name.md)
 -   [**NetworkAdapters Property**](ivmvirtualnetwork-networkadapters.md)
 

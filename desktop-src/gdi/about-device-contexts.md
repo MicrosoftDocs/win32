@@ -1,7 +1,12 @@
 ---
-Description: 'Device independence is one of the chief features of Microsoft Windows.'
-ms.assetid: 'f2a4c4cf-55e9-4129-8067-256552af49d2'
+Description: Device independence is one of the chief features of Microsoft Windows.
+ms.assetid: f2a4c4cf-55e9-4129-8067-256552af49d2
 title: About Device Contexts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Device Contexts
@@ -18,7 +23,7 @@ This overview provides information on the following topics:
 -   [Device Context Operations](device-context-operations.md)
 -   [ICM-Enabled Device Context Functions](icm-enabled-device-context-functions.md)
 
-An important concept is the layout of a DC or a window, which describes the order in which GDI objects and text are revealed (either left-to-right or right-to-left). For more information, see "Window Layout and Mirroring" in [**Window Features**](_win32_Window_Features_cpp) and the [**GetLayout**](getlayout.md) and [**SetLayout**](setlayout.md) functions.
+An important concept is the layout of a DC or a window, which describes the order in which GDI objects and text are revealed (either left-to-right or right-to-left). For more information, see "Window Layout and Mirroring" in [**Window Features**](_win32_Window_Features_cpp) and the [**GetLayout**](/windows/win32/Wingdi/nf-wingdi-getlayout?branch=master) and [**SetLayout**](/windows/win32/Wingdi/nf-wingdi-setlayout?branch=master) functions.
 
  
 

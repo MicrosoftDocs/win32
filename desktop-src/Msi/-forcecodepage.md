@@ -1,7 +1,12 @@
 ---
-Description: 'The \_ForceCodepage table is a special table used for changing the code page of an installation package. You can determine or set the code page by exporting or importing a text archive file named \_ForceCodepage.idt.'
-ms.assetid: 'd95c205f-a800-4a63-a712-6f06675e4a8a'
+Description: The \_ForceCodepage table is a special table used for changing the code page of an installation package. You can determine or set the code page by exporting or importing a text archive file named \_ForceCodepage.idt.
+ms.assetid: d95c205f-a800-4a63-a712-6f06675e4a8a
 title: '\_ForceCodepage'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_ForceCodepage

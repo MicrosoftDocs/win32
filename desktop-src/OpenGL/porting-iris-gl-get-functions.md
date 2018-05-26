@@ -1,8 +1,17 @@
 ---
 title: Porting IRIS GL Get Functions
 description: IRIS GL \ 0034;get \ 0034; functions take the following form
-ms.assetid: '5bd6aa13-b41d-4f89-91dc-cc47481ac7b7'
-keywords: ["IRIS GL porting,get functions", "porting from IRIS GL,get functions", "porting to OpenGL from IRIS GL,get functions", "OpenGL porting from IRIS GL,get functions"]
+ms.assetid: 5bd6aa13-b41d-4f89-91dc-cc47481ac7b7
+keywords:
+- IRIS GL porting,get functions
+- porting from IRIS GL,get functions
+- porting to OpenGL from IRIS GL,get functions
+- OpenGL porting from IRIS GL,get functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting IRIS GL Get Functions

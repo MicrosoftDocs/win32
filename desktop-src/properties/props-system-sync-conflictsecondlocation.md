@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '436aec48-518b-4759-b06a-d23b8e422ca8'
-title: 'System.Sync.ConflictSecondLocation'
+Description: .
+ms.assetid: 436aec48-518b-4759-b06a-d23b8e422ca8
+title: System.Sync.ConflictSecondLocation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.ConflictSecondLocation

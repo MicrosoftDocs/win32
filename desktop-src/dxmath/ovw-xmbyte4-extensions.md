@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a 4D vector made up signed integer, 8-bits (1 byte) in length.'
-ms.assetid: '771479f4-0819-48e3-afae-a79ee2c502b6'
+---
+Description: Describes a 4D vector made up signed integer, 8-bits (1 byte) in length.
+ms.assetid: 771479f4-0819-48e3-afae-a79ee2c502b6
 title: XMBYTE4 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMBYTE4 Extensions
@@ -33,7 +38,7 @@ Describes a 4D vector made up signed integer, 8-bits (1 byte) in length.
 **Reference**
 </dt> <dt>
 
-[**XMBYTE4**](xmbyte4.md)
+[**XMBYTE4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmbyte4?branch=master)
 </dt> </dl>
 
  

@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the name of the template.'
+Description: Specifies or retrieves the name of the template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'e8dfbb08-3000-4075-a748-a9cd6c318873'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: e8dfbb08-3000-4075-a748-a9cd6c318873
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TemplateLocaleName.Name property'
+title: TemplateLocaleName.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TemplateLocaleName.Name property
@@ -133,7 +136,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -145,9 +148,9 @@ END SUB
 [**TemplateLocaleName**](templatelocalename-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

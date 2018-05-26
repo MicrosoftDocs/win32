@@ -1,8 +1,17 @@
 ---
 title: Windows Multimedia
 description: Microsoft Windows multimedia support enables applications to use sound and video.
-ms.assetid: 'c035f3d0-c2ca-4698-b5ae-281d5098a83d'
-keywords: ["Windows multimedia,about", "multimedia,about", "Windows multimedia,Start page", "multimedia,Start page"]
+ms.assetid: c035f3d0-c2ca-4698-b5ae-281d5098a83d
+keywords:
+- Windows multimedia,about
+- multimedia,about
+- Windows multimedia,Start page
+- multimedia,Start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Multimedia
@@ -34,11 +43,11 @@ Windows multimedia is designed for use by C/C++ programmers. Familiarity with th
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

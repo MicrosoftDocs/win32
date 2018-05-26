@@ -1,8 +1,10 @@
 ---
 title: IWMPQuery (VB and C\ ) interface
 description: Represents a compound query.
-ms.assetid: 'b9cfeec9-f928-4b12-88c2-0f78b26f8687'
-keywords: ["IWMPQuery (VB and C ) interface Windows Media Player", "IWMPQuery (VB and C ) interface Windows Media Player , described"]
+ms.assetid: b9cfeec9-f928-4b12-88c2-0f78b26f8687
+keywords:
+- IWMPQuery (VB and C ) interface Windows Media Player
+- IWMPQuery (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPQuery (VB and C#) interface
@@ -36,7 +43,7 @@ The **IWMPQuery (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 Get an **IWMPQuery** interface by using the following method.
 
@@ -44,11 +51,11 @@ Get an **IWMPQuery** interface by using the following method.
 
 | Interface                                                      | Method                                                  |
 |----------------------------------------------------------------|---------------------------------------------------------|
-| [**IWMPMediaCollection2**](iwmpmediacollection2--vb-and-c.md) | [**createQuery**](iwmpmediacollection2-createquery.md) |
+| [**IWMPMediaCollection2**](iwmpmediacollection2--vb-and-c.md) | [**createQuery**](/windows/win32/wmp/nf-wmp-iwmpmediacollection2-createquery?branch=master) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,9 +83,9 @@ Get an **IWMPQuery** interface by using the following method.
 [**IWMPMediaCollection2.getStringCollectionByQuery (VB and C#)**](wmplibiwmpmediacollection2-iwmpmediacollection2-getstringcollectionbyquery--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

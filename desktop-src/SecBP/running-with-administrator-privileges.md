@@ -1,7 +1,12 @@
 ---
-Description: 'To help prevent malicious attack, determine whether your application requires administrator privileges. For functions that require administrator permissions, create a separate application and use the Windows RunAs command line command.'
-ms.assetid: 'afa520fc-c206-49de-8d73-8f6566ec4fb6'
+Description: To help prevent malicious attack, determine whether your application requires administrator privileges. For functions that require administrator permissions, create a separate application and use the Windows RunAs command line command.
+ms.assetid: afa520fc-c206-49de-8d73-8f6566ec4fb6
 title: Running with Administrator Privileges
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running with Administrator Privileges

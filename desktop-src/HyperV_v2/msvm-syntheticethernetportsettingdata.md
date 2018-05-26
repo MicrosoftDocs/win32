@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configured state of a synthetic Ethernet adapter.'
-ms.assetid: 'BE895BAF-7766-43A2-9659-3ABA97A16134'
-title: 'Msvm\_SyntheticEthernetPortSettingData class'
+Description: Represents the configured state of a synthetic Ethernet adapter.
+ms.assetid: BE895BAF-7766-43A2-9659-3ABA97A16134
+title: Msvm\_SyntheticEthernetPortSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SyntheticEthernetPortSettingData class
@@ -16,32 +21,32 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SyntheticEthernetPortSettingData : CIM_EthernetPortAllocationSettingData
 {
-  string  InstanceID;
-  string  Caption = "Virtual Ethernet Port Default Settings";
-  string  Description = "Describes the default settings for the virtual Ethernet port resources.";
-  string  ElementName;
-  uint16  ResourceType = 10;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft:Hyper-V:Synthetic Ethernet Port";
-  string  PoolID;
-  uint16  ConsumerVisibility = 3;
-  string  HostResource[];
-  string  AllocationUnits = "count";
-  uint64  VirtualQuantity = 1;
-  uint64  Reservation = 1;
-  uint64  Limit = 1;
-  uint32  Weight = 0;
+  string  InstanceID;
+  string  Caption = "Virtual Ethernet Port Default Settings";
+  string  Description = "Describes the default settings for the virtual Ethernet port resources.";
+  string  ElementName;
+  uint16  ResourceType = 10;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft:Hyper-V:Synthetic Ethernet Port";
+  string  PoolID;
+  uint16  ConsumerVisibility = 3;
+  string  HostResource[];
+  string  AllocationUnits = "count";
+  uint64  VirtualQuantity = 1;
+  uint64  Reservation = 1;
+  uint64  Limit = 1;
+  uint32  Weight = 0;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
-  uint16  DesiredVLANEndpointMode;
-  string  OtherEndpointMode;
-  string  VirtualSystemIdentifiers[];
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
+  uint16  DesiredVLANEndpointMode;
+  string  OtherEndpointMode;
+  string  VirtualSystemIdentifiers[];
   boolean DeviceNamingEnabled = FALSE;
   boolean AllowPacketDirect = FALSE;
   boolean StaticMacAddress = False;
@@ -112,9 +117,9 @@ Access type: Read/write
 Indicates if PacketDirect projection is enabled for the VM.
 
 > [!Note]  
-> Added in Windows 10, version 1703 and Windows Server 2016.
+> Added in Windows 10, version 1703 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -170,7 +175,7 @@ Indicates whether this ethernet adapter is monitored by a cluster. This property
 
 This is a read-only property, but it can be changed by using the [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
+**Windows 8.1:** This value is not supported until Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -240,9 +245,9 @@ Indicates whether this ethernet adapter supports device naming.
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystemResources**](virtual-cim_virtualsystemmanagementservice_modifyvirtualsystemresources) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> <dt>
 
@@ -487,8 +492,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -505,9 +510,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_ResourceAllocationSettingData**](https://msdn.microsoft.com/library/mt146214)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

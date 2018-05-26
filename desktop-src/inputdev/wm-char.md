@@ -1,8 +1,9 @@
 ---
 title: WM\_CHAR message
 description: Posted to the window with the keyboard focus when a WM\_KEYDOWN message is translated by the TranslateMessage function. The WM\_CHAR message contains the character code of the key that was pressed.
-ms.assetid: '7e45dc6f-ff68-4534-9e52-46e5f4110532'
-keywords: ["WM_CHAR message Keyboard and Mouse Input"]
+ms.assetid: 7e45dc6f-ff68-4534-9e52-46e5f4110532
+keywords:
+- WM_CHAR message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CHAR message
@@ -54,7 +60,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -78,8 +84,8 @@ The [**WM\_UNICHAR**](wm-unichar.md) message is the same as **WM\_CHAR**, except
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -106,9 +112,9 @@ The [**WM\_UNICHAR**](wm-unichar.md) message is the same as **WM\_CHAR**, except
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: File Menu
-ms.assetid: '1edf2119-facb-4c19-9855-0e3666378abb'
+ms.assetid: 1edf2119-facb-4c19-9855-0e3666378abb
 title: File Menu
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Menu

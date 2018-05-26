@@ -1,7 +1,12 @@
 ---
-Description: 'Low-level security functions help you work with security descriptors, access control lists (ACLs), and access control entries (ACEs).'
-ms.assetid: '16337b77-23c5-4b7a-a344-66a02ee0e8a8'
-title: 'Low-level Access Control'
+Description: Low-level security functions help you work with security descriptors, access control lists (ACLs), and access control entries (ACEs).
+ms.assetid: 16337b77-23c5-4b7a-a344-66a02ee0e8a8
+title: Low-level Access Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Low-level Access Control

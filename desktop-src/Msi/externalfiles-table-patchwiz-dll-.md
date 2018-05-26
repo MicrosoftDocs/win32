@@ -1,7 +1,12 @@
 ---
-Description: 'The ExternalFiles table contains information about specific files that are not part of a regular target image.'
-ms.assetid: 'c75591c2-5266-4a99-8104-53815f6550e2'
-title: 'ExternalFiles Table (Patchwiz.dll)'
+Description: The ExternalFiles table contains information about specific files that are not part of a regular target image.
+ms.assetid: c75591c2-5266-4a99-8104-53815f6550e2
+title: ExternalFiles Table (Patchwiz.dll)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExternalFiles Table (Patchwiz.dll)

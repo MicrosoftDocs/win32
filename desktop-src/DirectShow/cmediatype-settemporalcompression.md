@@ -1,7 +1,12 @@
 ---
-Description: 'The SetTemporalCompression method specifies whether samples are compressed using temporal (interframe) compression.'
-ms.assetid: 'cdd181ee-d1e9-48b0-96f6-e76db9f3f933'
-title: 'CMediaType.SetTemporalCompression method'
+Description: The SetTemporalCompression method specifies whether samples are compressed using temporal (interframe) compression.
+ms.assetid: cdd181ee-d1e9-48b0-96f6-e76db9f3f933
+title: CMediaType.SetTemporalCompression method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.SetTemporalCompression method
@@ -13,7 +18,7 @@ The `SetTemporalCompression` method specifies whether samples are compressed usi
 
 ```C++
 void SetTemporalCompression(
-   BOOL bCompressed
+   BOOL bCompressed
 );
 ```
 
@@ -56,9 +61,9 @@ This method sets the **bTemporalCompression** member.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

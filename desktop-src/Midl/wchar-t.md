@@ -2,13 +2,19 @@
 title: wchar\_t attribute
 description: The wchar\_t keyword designates a wide-character type.
 ms.assetid: e21b2587-909a-4e2b-8c6d-6cc570bf509f
-keywords: ["wchar_t attribute MIDL"]
+keywords:
+- wchar_t attribute MIDL
 topic_type:
 - apiref
 api_name:
 - wchar_t
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # wchar\_t attribute

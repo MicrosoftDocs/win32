@@ -1,7 +1,12 @@
 ---
 title: MaxIndexes
 description: MaxIndexes
-ms.assetid: '0d4019e9-a7c5-4622-9391-1ac5a43d252d'
+ms.assetid: 0d4019e9-a7c5-4622-9391-1ac5a43d252d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxIndexes

@@ -1,8 +1,13 @@
 ---
 title: IVMNetworkAdapter IsEthernetAddressDynamic property
 description: The IsEthernetAddressDynamic property contains whether the Ethernet (MAC/Physical/Network) address of a virtual NIC can either be set to a static address or it can be generated dynamically to avoid conflicts with other virtual machines.
-ms.assetid: 'ccc81dae-b94f-4f78-bd3d-6acf8489db34'
-keywords: ["IsEthernetAddressDynamic property Virtual Server", "IsEthernetAddressDynamic property Virtual Server , IVMNetworkAdapter interface", "IVMNetworkAdapter interface Virtual Server , IsEthernetAddressDynamic property", "IsEthernetAddressDynamic property Virtual Server , VMNetworkAdapter interface", "VMNetworkAdapter interface Virtual Server , IsEthernetAddressDynamic property"]
+ms.assetid: ccc81dae-b94f-4f78-bd3d-6acf8489db34
+keywords:
+- IsEthernetAddressDynamic property Virtual Server
+- IsEthernetAddressDynamic property Virtual Server , IVMNetworkAdapter interface
+- IVMNetworkAdapter interface Virtual Server , IsEthernetAddressDynamic property
+- IsEthernetAddressDynamic property Virtual Server , VMNetworkAdapter interface
+- VMNetworkAdapter interface Virtual Server , IsEthernetAddressDynamic property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter::IsEthernetAddressDynamic property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_IsEthernetAddressDynamic(
-  [in]  VARIANT_BOOL isDynamic
+  [in]  VARIANT_BOOL isDynamic
 );
 
 HRESULT get_IsEthernetAddressDynamic(
-  [out] VARIANT_BOOL *isDynamic
+  [out] VARIANT_BOOL *isDynamic
 );
 ```
 
@@ -89,8 +99,8 @@ The DynamicEthernetAddress property should be set to **TRUE** (default) for most
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -102,9 +112,9 @@ The DynamicEthernetAddress property should be set to **TRUE** (default) for most
 [**IVMNetworkAdapter**](ivmnetworkadapter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

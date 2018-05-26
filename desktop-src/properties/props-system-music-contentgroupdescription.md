@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a2725816-eea0-4e49-9134-8f6bcc00c72a'
-title: 'System.Music.ContentGroupDescription'
+Description: .
+ms.assetid: a2725816-eea0-4e49-9134-8f6bcc00c72a
+title: System.Music.ContentGroupDescription
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.ContentGroupDescription

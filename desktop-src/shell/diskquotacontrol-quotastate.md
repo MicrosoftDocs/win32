@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sets or gets the state of the volume''s disk quotas.'
-title: 'DiskQuotaControl.QuotaState property'
+---
+Description: Sets or gets the state of the volumes disk quotas.
+title: DiskQuotaControl.QuotaState property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.QuotaState property

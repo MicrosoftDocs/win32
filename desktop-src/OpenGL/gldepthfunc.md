@@ -1,8 +1,9 @@
 ---
 title: glDepthFunc function
 description: The glDepthFunc function specifies the value used for depth-buffer comparisons.
-ms.assetid: '6ab8774a-8887-4c1e-b567-4492c0a60cf2'
-keywords: ["glDepthFunc function OpenGL"]
+ms.assetid: 6ab8774a-8887-4c1e-b567-4492c0a60cf2
+keywords:
+- glDepthFunc function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glDepthFunc function
@@ -22,7 +28,7 @@ The **glDepthFunc** function specifies the value used for depth-buffer compariso
 
 ```C++
 void WINAPI glDepthFunc(
-   GLenum func
+   GLenum func
 );
 ```
 
@@ -52,7 +58,7 @@ Specifies the depth-comparison function. The following symbolic constants are ac
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -102,8 +108,8 @@ The following functions retrieve information related to **glDepthFunc**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -132,9 +138,9 @@ The following functions retrieve information related to **glDepthFunc**:
 [**glIsEnabled**](glisenabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

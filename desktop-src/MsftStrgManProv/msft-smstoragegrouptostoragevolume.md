@@ -4,11 +4,13 @@ description: Represents a relationship between a storage group and a storage vol
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'de004ecb-8aa4-49a2-b7f8-e92b8a5eb6d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: de004ecb-8aa4-49a2-b7f8-e92b8a5eb6d4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageGroupToStorageVolume class", "MSFT_SMStorageGroupToStorageVolume class, described"]
+keywords:
+- MSFT_SMStorageGroupToStorageVolume class
+- MSFT_SMStorageGroupToStorageVolume class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageGroupToStorageVolume class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, dynamic, provider("WMIStorage")]
 class MSFT_SMStorageGroupToStorageVolume
 {
-  MSFT_SMStorageGroup  REF Parent;
+  MSFT_SMStorageGroup  REF Parent;
   MSFT_SMStorageVolume REF Child;
 };
 ```
@@ -89,7 +94,7 @@ The object that represents the storage group in the relationship.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ The object that represents the storage group in the relationship.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

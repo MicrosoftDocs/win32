@@ -1,8 +1,14 @@
 ---
 title: Other RPC Types
 description: Remote Procedure Call (RPC) types other than structures and enumerated types.
-ms.assetid: '7f99f997-4cf2-4815-adb8-6939d0cd3ac5'
-keywords: ["Remote Procedure Call RPC , reference, other types"]
+ms.assetid: 7f99f997-4cf2-4815-adb8-6939d0cd3ac5
+keywords:
+- Remote Procedure Call RPC , reference, other types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Other RPC Types

@@ -1,8 +1,11 @@
 ---
 title: System.Contact.defaultEmail property
 description: Gets the default email address associated with the contact.
-ms.assetid: 'c1beebae-eb9b-4b0a-aa7e-cb28336a6985'
-keywords: ["defaultEmail property Windows Sidebar", "defaultEmail property Windows Sidebar , System.Contact object", "System.Contact object Windows Sidebar , defaultEmail property"]
+ms.assetid: c1beebae-eb9b-4b0a-aa7e-cb28336a6985
+keywords:
+- defaultEmail property Windows Sidebar
+- defaultEmail property Windows Sidebar , System.Contact object
+- System.Contact object Windows Sidebar , defaultEmail property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.defaultEmail property
@@ -64,18 +72,18 @@ for (var i = 0; i < oContact.count; i++)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

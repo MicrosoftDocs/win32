@@ -4,11 +4,17 @@ description: DFS Server Target Prioritization is a feature available in Microsof
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0aacebf7-49cc-4287-a5c4-0d25a416d227'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-distributed-file-system-(dfs)'
+ms.assetid: 0aacebf7-49cc-4287-a5c4-0d25a416d227
+ms.prod: windows-server-dev
+ms.technology: windows-distributed-file-system-(dfs)
 ms.tgt_platform: multiple
-keywords: ["DFS Server Target Prioritization Files", "target priority Files", "prioritizing targets Files"]
+keywords:
+- DFS Server Target Prioritization Files
+- target priority Files
+- prioritizing targets Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFS Server Target Prioritization
@@ -68,11 +74,11 @@ The referral response from a DFS server consists of target sets ordered as indic
 
 For the specific API implementation of this feature, please see the following reference topics:
 
--   [**DFS\_INFO\_6**](dfs-info-6.md)
--   [**DFS\_INFO\_104**](dfs-info-104.md)
--   [**DFS\_INFO\_106**](dfs-info-106.md)
--   [**DFS\_TARGET\_PRIORITY**](dfs-target-priority.md)
--   [**DFS\_TARGET\_PRIORITY\_CLASS**](dfs-target-priority-class.md)
+-   [**DFS\_INFO\_6**](/windows/previous-versions/LmDfs/ns-lmdfs-_dfs_info_6?branch=master)
+-   [**DFS\_INFO\_104**](/windows/previous-versions/LmDfs/ns-lmdfs-_dfs_info_104?branch=master)
+-   [**DFS\_INFO\_106**](/windows/previous-versions/LmDfs/ns-lmdfs-_dfs_info_106?branch=master)
+-   [**DFS\_TARGET\_PRIORITY**](/windows/previous-versions/LmDfs/ns-lmdfs-_dfs_target_priority?branch=master)
+-   [**DFS\_TARGET\_PRIORITY\_CLASS**](/windows/previous-versions/LmDfs/ne-lmdfs-_dfs_target_priority_class?branch=master)
 
  
 

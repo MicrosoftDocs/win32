@@ -1,8 +1,9 @@
 ---
 title: CCM\_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control. This message enables you to change the character set used by the control at run time rather than having to re-create the control.
-ms.assetid: '8028b7d7-30d2-4154-81c7-ba1ed095ef02'
-keywords: ["CCM_SETUNICODEFORMAT message Windows Controls"]
+ms.assetid: 8028b7d7-30d2-4154-81c7-ba1ed095ef02
+keywords:
+- CCM_SETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCM\_SETUNICODEFORMAT message
@@ -41,8 +47,8 @@ Returns the previous Unicode format flag for the control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns the previous Unicode format flag for the control.
 [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

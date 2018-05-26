@@ -1,8 +1,9 @@
 ---
 title: WM\_TOUCHHITTESTING message
 description: Sent to a window on a touch down in order to determine the most probable touch target.
-ms.assetid: '741F9D67-A914-46CF-91A3-EF40447E7438'
-keywords: ["WM_TOUCHHITTESTING message Input Messages and Notifications"]
+ms.assetid: 741F9D67-A914-46CF-91A3-EF40447E7438
+keywords:
+- WM_TOUCHHITTESTING message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TOUCHHITTESTING message
@@ -20,7 +26,7 @@ Sent to a window on a touch down in order to determine the most probable touch t
 > \[!Important\]  
 > Desktop apps should be DPI aware. If your app is not DPI aware, screen coordinates contained in pointer messages and related structures might appear inaccurate due to DPI virtualization. DPI virtualization provides automatic scaling support to applications that are not DPI aware and is active by default (users can turn it off). For more information, see [Writing High-DPI Win32 Applications](https://msdn.microsoft.com/library/windows/desktop/dd464660).
 
- 
+ 
 
 
 ```C++
@@ -65,8 +71,8 @@ This message is sent to windows that register through the [**RegisterTouchHitTes
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -81,9 +87,9 @@ This message is sent to windows that register through the [**RegisterTouchHitTes
 [**Touch Hit Testing Scores**](https://msdn.microsoft.com/library/windows/desktop/hh437249)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

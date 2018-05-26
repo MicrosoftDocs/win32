@@ -1,7 +1,12 @@
 ---
 title: Undersize Data Structures
 description: Undersize Data Structures
-ms.assetid: 'b68f7c83-11fe-4596-a4bc-0e74f509ff01'
+ms.assetid: b68f7c83-11fe-4596-a4bc-0e74f509ff01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Undersize Data Structures

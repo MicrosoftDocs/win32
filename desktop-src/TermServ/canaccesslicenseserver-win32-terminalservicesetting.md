@@ -4,11 +4,14 @@ description: CanAccessLicenseServer is no longer available.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b09fa901-8ae1-431e-8d97-27ee84a84779'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b09fa901-8ae1-431e-8d97-27ee84a84779
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CanAccessLicenseServer method Remote Desktop Services", "CanAccessLicenseServer method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , CanAccessLicenseServer method"]
+keywords:
+- CanAccessLicenseServer method Remote Desktop Services
+- CanAccessLicenseServer method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , CanAccessLicenseServer method
 topic_type:
 - apiref
 api_name:
@@ -17,15 +20,18 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CanAccessLicenseServer method of the Win32\_TerminalServiceSetting class
 
-\[**CanAccessLicenseServer** is no longer available for use as of Windows Server 2008 R2.\]
+\[**CanAccessLicenseServer** is no longer available for use as of Windows Server 2008 R2.\]
 
-**Windows Server 2008:  **
+**Windows Server 2008:  **
 
-Determines whether the Remote Desktop Session Host (RD Session Host) server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from a Remote Desktop license server based on the following:
+Determines whether the Remote Desktop Session Host (RD Session Host) server is allowed to request Remote Desktop Services client access licenses (RDS CALs) from a Remote Desktop license server based on the following:
 
 -   The "license server security group" group policy setting on the Remote Desktop license server.
 -   Membership in the Terminal Server Computers local group on the license server.
@@ -35,8 +41,8 @@ Determines whether the Remote Desktop Session Host (RD Session Host) server is a
 
 ```mof
 uint32 CanAccessLicenseServer(
-  [in]  string ServerName,
-  [out] uint32 AccessAllowed
+  [in]  string ServerName,
+  [out] uint32 AccessAllowed
 );
 ```
 
@@ -56,7 +62,7 @@ The name of the Remote Desktop license server.
 *AccessAllowed* \[out\]
 </dt> <dd>
 
-Whether the RD Session Host server is allowed to request RDS CALs from the license server.
+Whether the RD Session Host server is allowed to request RDS CALs from the license server.
 
 <dt>
 
@@ -76,11 +82,11 @@ The request is not allowed.
 
 ## Return value
 
-Returns **S\_OK** if the RD Session Host server has access to the license server. Returns **S\_FALSE** if the RD Session Host server does not have access to the license server.
+Returns **S\_OK** if the RD Session Host server has access to the license server. Returns **S\_FALSE** if the RD Session Host server does not have access to the license server.
 
 ## Remarks
 
-The "license server security group" policy setting allows you to specify the RD Session Host servers that are permitted to contact the license server to obtain RDS CALs. If the policy setting is enabled on the license server, the license server will only respond to RDS CAL requests from RD Session Host servers whose computer accounts are members of the Terminal Server Computers local group on the license server.
+The "license server security group" policy setting allows you to specify the RD Session Host servers that are permitted to contact the license server to obtain RDS CALs. If the policy setting is enabled on the license server, the license server will only respond to RDS CAL requests from RD Session Host servers whose computer accounts are members of the Terminal Server Computers local group on the license server.
 
 To connect to the \\root\\CIMV2\\TerminalServices namespace, the authentication level must include packet privacy. For C/C++ calls, this is an authentication level of **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**. For Visual Basic and scripting calls, this is an authentication level of **WbemAuthenticationLevelPktPrivacy** or "pktPrivacy", with a value of 6. The following Visual Basic Scripting Edition (VBScript) example shows how to connect to a remote computer with packet privacy.
 
@@ -102,9 +108,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | End of client support<br/>    | None supported<br/>                                                               |
-| End of server support<br/>    | Windows Server 2008<br/>                                                          |
+| End of server support<br/>    | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -118,9 +124,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

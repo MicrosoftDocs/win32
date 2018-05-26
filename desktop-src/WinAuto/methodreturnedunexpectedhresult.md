@@ -1,7 +1,12 @@
 ---
 title: MethodReturnedUnexpectedHResult
 description: MethodReturnedUnexpectedHResult
-ms.assetid: 'CDDB4792-363F-4A4E-95BC-73D9AF95DF7E'
+ms.assetid: CDDB4792-363F-4A4E-95BC-73D9AF95DF7E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MethodReturnedUnexpectedHResult
@@ -26,7 +31,7 @@ An incorrect or invalid MSAA implementation.
 
 <dl> <dt>
 
-[**IAccessible::get\_accChild**](iaccessible-iaccessible--get-accchild.md)
+[**IAccessible::get\_accChild**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchild?branch=master)
 </dt> </dl>
 
  

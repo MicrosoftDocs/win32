@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd EnumSoftKeyboard method
 description: The ISoftKbd EnumSoftKeyboard method enumerates the possible soft keyboards that support the specified language.
-ms.assetid: 'c71f99e5-c4c2-4b09-a58f-d3f4348d0c5d'
-keywords: ["EnumSoftKeyboard method Text Services Framework", "EnumSoftKeyboard method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , EnumSoftKeyboard method"]
+ms.assetid: c71f99e5-c4c2-4b09-a58f-d3f4348d0c5d
+keywords:
+- EnumSoftKeyboard method Text Services Framework
+- EnumSoftKeyboard method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , EnumSoftKeyboard method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::EnumSoftKeyboard method
@@ -22,8 +30,8 @@ The **ISoftKbd::EnumSoftKeyboard** method enumerates the possible soft keyboards
 
 ```C++
 HRESULT EnumSoftKeyboard(
-  [in]  LANGID langid,
-  [out] DWORD  *lpdwKeyboard
+  [in]  LANGID langid,
+  [out] DWORD  *lpdwKeyboard
 );
 ```
 
@@ -60,7 +68,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,9 +76,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -84,9 +92,9 @@ This method can return one of these values.
 [**ISoftKbd**](isoftkbd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

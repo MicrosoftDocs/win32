@@ -1,7 +1,12 @@
 ---
-Description: 'Beginning with Windows Vista, you use an XML manifest to define the performance counters that your provider provides.'
-ms.assetid: 'fa13d13a-f2e2-4732-8bf7-cb0a0f1d4ed7'
+Description: Beginning with Windows Vista, you use an XML manifest to define the performance counters that your provider provides.
+ms.assetid: fa13d13a-f2e2-4732-8bf7-cb0a0f1d4ed7
 title: Performance Counters Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Counters Schema

@@ -1,7 +1,12 @@
 ---
-Description: 'General tasks required to decode an enveloped message.'
-ms.assetid: 'cb71ea3a-0edd-4d46-8088-a395fab89d2b'
+Description: General tasks required to decode an enveloped message.
+ms.assetid: cb71ea3a-0edd-4d46-8088-a395fab89d2b
 title: Decoding Enveloped Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoding Enveloped Data
@@ -26,14 +31,14 @@ The following procedure uses low-level message functions to accomplish the tasks
 **To decode an enveloped message**
 
 1.  Get a pointer to the encoded BLOB.
-2.  Call [**CryptMsgOpenToDecode**](cryptmsgopentodecode.md), passing the necessary arguments.
-3.  Call [**CryptMsgUpdate**](cryptmsgupdate.md) once, passing in the handle retrieved in step 2 and a pointer to the data that is to be decoded. This causes the appropriate actions to be taken on the message, depending on the message type.
-4.  Call [**CryptMsgGetParam**](cryptmsggetparam.md), passing in the handle retrieved in step 2 and CMSG\_TYPE\_PARAM to verify that the message is of the enveloped data type.
-5.  Again call [**CryptMsgGetParam**](cryptmsggetparam.md), passing in CMSG\_INNER\_CONTENT\_TYPE\_PARAM to get the data type of the [*inner content*](security.i_gly#-security-inner-content-gly).
+2.  Call [**CryptMsgOpenToDecode**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgopentodecode?branch=master), passing the necessary arguments.
+3.  Call [**CryptMsgUpdate**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgupdate?branch=master) once, passing in the handle retrieved in step 2 and a pointer to the data that is to be decoded. This causes the appropriate actions to be taken on the message, depending on the message type.
+4.  Call [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master), passing in the handle retrieved in step 2 and CMSG\_TYPE\_PARAM to verify that the message is of the enveloped data type.
+5.  Again call [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master), passing in CMSG\_INNER\_CONTENT\_TYPE\_PARAM to get the data type of the [*inner content*](security.i_gly#-security-inner-content-gly).
 6.  If the inner content data type is **data**, proceed to decrypt and decode the content. Otherwise, run a decoding procedure appropriate for the content data type.
-7.  Assuming the inner content type is "data", initialize the [**CMSG\_CTRL\_DECRYPT\_PARA**](cmsg-ctrl-decrypt-para.md) data structure, and call [**CryptMsgControl**](cryptmsgcontrol.md), passing in CMSG\_CTRL\_DECRYPT and the address of the structure. The content will be decrypted.
-8.  Call [**CryptMsgGetParam**](cryptmsggetparam.md), passing in CMSG\_CONTENT\_PARAM to get a pointer to the decoded content data BLOB (**BYTE** string).
-9.  Call [**CryptMsgClose**](cryptmsgclose.md) to close the message.
+7.  Assuming the inner content type is "data", initialize the [**CMSG\_CTRL\_DECRYPT\_PARA**](/windows/win32/Wincrypt/ns-wincrypt-_cmsg_ctrl_decrypt_para?branch=master) data structure, and call [**CryptMsgControl**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgcontrol?branch=master), passing in CMSG\_CTRL\_DECRYPT and the address of the structure. The content will be decrypted.
+8.  Call [**CryptMsgGetParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsggetparam?branch=master), passing in CMSG\_CONTENT\_PARAM to get a pointer to the decoded content data BLOB (**BYTE** string).
+9.  Call [**CryptMsgClose**](/windows/win32/Wincrypt/nf-wincrypt-cryptmsgclose?branch=master) to close the message.
 
 The result of this procedure is that the message is decoded and decrypted and a pointer is retrieved to the content data BLOB.
 

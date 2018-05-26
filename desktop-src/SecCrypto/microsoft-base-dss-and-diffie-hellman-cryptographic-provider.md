@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Base DSS and Diffie-Hellman Cryptographic Provider supports Diffie-Hellman (D-H) key exchange (a 40-bit DES derivative), SHA hashing, DSS data signing, and DSS signature verification. It can be exported to other countries/regions.'
-ms.assetid: 'f3964a7e-162e-4784-a325-01f478b0cd49'
-title: 'Microsoft Base DSS and Diffie-Hellman Cryptographic Provider'
+Description: The Microsoft Base DSS and Diffie-Hellman Cryptographic Provider supports Diffie-Hellman (D-H) key exchange (a 40-bit DES derivative), SHA hashing, DSS data signing, and DSS signature verification. It can be exported to other countries/regions.
+ms.assetid: f3964a7e-162e-4784-a325-01f478b0cd49
+title: Microsoft Base DSS and Diffie-Hellman Cryptographic Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Base DSS and Diffie-Hellman Cryptographic Provider

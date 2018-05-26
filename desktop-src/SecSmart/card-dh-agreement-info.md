@@ -1,8 +1,10 @@
 ---
 title: CARD\_DH\_AGREEMENT\_INFO structure
 description: Specifies information necessary for the CardConstructDHAgreement function to calculate a Diffie-Hellman key exchange secret agreement.
-ms.assetid: '20f69e8e-c5ed-4291-8289-7e7588bc0ac2'
-keywords: ["CARD_DH_AGREEMENT_INFO structure Security", "PCARD_DH_AGREEMENT_INFO structure pointer Security"]
+ms.assetid: 20f69e8e-c5ed-4291-8289-7e7588bc0ac2
+keywords:
+- CARD_DH_AGREEMENT_INFO structure Security
+- PCARD_DH_AGREEMENT_INFO structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_DH\_AGREEMENT\_INFO structure
@@ -19,7 +26,7 @@ This topic is not current. For the most current information about the Smart Card
 
 The **CARD\_DH\_AGREEMENT\_INFO** structure specifies information necessary for the [**CardConstructDHAgreement**](cardconstructdhagreement.md) function to calculate a Diffie-Hellman key exchange secret agreement.
 
-**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** Diffie-Hellman key exchange secret calculation is not supported.
+**Windows Server 2003, Windows XP, Windows 2000 Server and Windows 2000 Professional:** Diffie-Hellman key exchange secret calculation is not supported.
 
 ## Syntax
 
@@ -27,13 +34,13 @@ The **CARD\_DH\_AGREEMENT\_INFO** structure specifies information necessary for 
 ```C++
 typedef struct _CARD_DH_AGREEMENT_INFO {
   DWORD dwVersion;
-  BYTE  bContainerIndex;
+  BYTE  bContainerIndex;
   DWORD dwFlags;
   DWORD dwPublicKey;
   PBYTE pbPublicKey;
   PBYTE pbReserved;
   DWORD cbReserved;
-  BYTE  bSecretAgreementIndex;
+  BYTE  bSecretAgreementIndex;
 } CARD_DH_AGREEMENT_INFO, *PCARD_DH_AGREEMENT_INFO;
 ```
 
@@ -105,8 +112,8 @@ The index of the container that holds the secret agreement on successful complet
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -118,9 +125,9 @@ The index of the container that holds the secret agreement on successful complet
 [Microsoft Base Smart Card Cryptographic Service Provider](microsoft-base-smart-card-cryptographic-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

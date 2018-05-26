@@ -1,7 +1,12 @@
 ---
-Description: 'Applies a virtual machine snapshot to the virtual machine that it was created from.'
-ms.assetid: '45f1ec8f-aa96-4060-8f8c-0471d0ad4a21'
-title: 'ApplySnapshot method of the Msvm\_VirtualSystemSnapshotService class'
+Description: Applies a virtual machine snapshot to the virtual machine that it was created from.
+ms.assetid: 45f1ec8f-aa96-4060-8f8c-0471d0ad4a21
+title: ApplySnapshot method of the Msvm\_VirtualSystemSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplySnapshot method of the Msvm\_VirtualSystemSnapshotService class
@@ -13,8 +18,8 @@ Applies a virtual machine snapshot to the virtual machine that it was created fr
 
 ```mof
 uint32 ApplySnapshot(
-  [in]  CIM_VirtualSystemSettingData REF Snapshot,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF Snapshot,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -92,8 +97,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -113,9 +118,9 @@ This method returns one of the following values.
 [**ApplyVirtualSystemSnapshotEx (V1)**](https://msdn.microsoft.com/library/dd379578)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

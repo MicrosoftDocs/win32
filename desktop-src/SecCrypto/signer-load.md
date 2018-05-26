@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a signing certificate from a specified .pfx file.'
-ms.assetid: '98963354-c237-40d0-9235-8318728e2c8e'
-title: 'Signer.Load method'
+---
+Description: Loads a signing certificate from a specified .pfx file.
+ms.assetid: 98963354-c237-40d0-9235-8318728e2c8e
+title: Signer.Load method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signer.Load method

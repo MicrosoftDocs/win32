@@ -1,7 +1,12 @@
 ---
 title: CiLocale
 description: CiLocale
-ms.assetid: 'a7bf3d15-4532-4719-b50d-a35ff10c3482'
+ms.assetid: a7bf3d15-4532-4719-b50d-a35ff10c3482
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiLocale

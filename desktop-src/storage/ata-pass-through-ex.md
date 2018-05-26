@@ -1,8 +1,10 @@
 ---
 title: ATA\_PASS\_THROUGH\_EX structure
 description: The ATA\_PASS\_THROUGH\_EX structure is used in conjunction with an IOCTL\_ATA\_PASS\_THROUGH request to instruct the port driver to send an embedded ATA command to the target device.
-ms.assetid: '76d8f5be-0011-4a7c-ac21-7115ad7e1155'
-keywords: ["ATA_PASS_THROUGH_EX structure Storage Devices", "PATA_PASS_THROUGH_EX structure pointer Storage Devices"]
+ms.assetid: 76d8f5be-0011-4a7c-ac21-7115ad7e1155
+keywords:
+- ATA_PASS_THROUGH_EX structure Storage Devices
+- PATA_PASS_THROUGH_EX structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddscsi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA\_PASS\_THROUGH\_EX structure
@@ -22,18 +29,18 @@ The ATA\_PASS\_THROUGH\_EX structure is used in conjunction with an [**IOCTL\_AT
 
 ```C++
 typedef struct _ATA_PASS_THROUGH_EX {
-  USHORT    Length;
-  USHORT    AtaFlags;
-  UCHAR     PathId;
-  UCHAR     TargetId;
-  UCHAR     Lun;
-  UCHAR     ReservedAsUchar;
-  ULONG     DataTransferLength;
-  ULONG     TimeOutValue;
-  ULONG     ReservedAsUlong;
+  USHORT    Length;
+  USHORT    AtaFlags;
+  UCHAR     PathId;
+  UCHAR     TargetId;
+  UCHAR     Lun;
+  UCHAR     ReservedAsUchar;
+  ULONG     DataTransferLength;
+  ULONG     TimeOutValue;
+  ULONG     ReservedAsUlong;
   ULONG_PTR DataBufferOffset;
-  UCHAR     PreviousTaskFile[8];
-  UCHAR     CurrentTaskFile[8];
+  UCHAR     PreviousTaskFile[8];
+  UCHAR     CurrentTaskFile[8];
 } ATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX;
 ```
 
@@ -68,7 +75,7 @@ Indicates the direction of data transfer and specifies the kind of operation to 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -155,7 +162,7 @@ Specifies the content of the task file register on both input and output. On inp
 
 
 
- 
+ 
 
 When [**IOCTL\_ATA\_PASS\_THROUGH**](ioctl-ata-pass-through.md) completes, the port driver updates **CurrentTaskFile** with the values that are present in the device's output registers at the completion of the embedded command. The array values in **CurrentTaskFile** correspond to the following task file output registers.
 
@@ -174,7 +181,7 @@ When [**IOCTL\_ATA\_PASS\_THROUGH**](ioctl-ata-pass-through.md) completes, the p
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -205,9 +212,9 @@ When [**IOCTL\_ATA\_PASS\_THROUGH**](ioctl-ata-pass-through.md) completes, the p
 [**IOCTL\_ATA\_PASS\_THROUGH\_DIRECT**](ioctl-ata-pass-through-direct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20ATA_PASS_THROUGH_EX%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

@@ -1,14 +1,20 @@
 ---
 title: Bitrate Attribute
 description: The Bitrate attribute is the bit rate of the item, in bits per second.
-ms.assetid: '28272aa2-49ac-4c13-aa3e-6e733cc49514'
-keywords: ["Bitrate Attribute Windows Media Player"]
+ms.assetid: 28272aa2-49ac-4c13-aa3e-6e733cc49514
+keywords:
+- Bitrate Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Bitrate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitrate Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

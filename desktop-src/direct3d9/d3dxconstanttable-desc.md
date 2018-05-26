@@ -1,7 +1,12 @@
-﻿---
-Description: 'A description of the constant table.'
-ms.assetid: '848b328a-95a4-4fd0-a7d4-4fb0e5d14f64'
-title: 'D3DXCONSTANTTABLE\_DESC structure'
+---
+Description: A description of the constant table.
+ms.assetid: 848b328a-95a4-4fd0-a7d4-4fb0e5d14f64
+title: D3DXCONSTANTTABLE\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCONSTANTTABLE\_DESC structure

@@ -1,7 +1,12 @@
 ---
-Description: 'Stop time on the current sample.'
-ms.assetid: '78045c9f-76bd-42a8-b40a-6b18ac93c9b2'
-title: 'CBaseRenderer::m\_SignalTime member'
+Description: Stop time on the current sample.
+ms.assetid: 78045c9f-76bd-42a8-b40a-6b18ac93c9b2
+title: CBaseRendererm\_SignalTime member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_SignalTime member
@@ -35,9 +40,9 @@ REFERENCE_TIME m_SignalTime;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

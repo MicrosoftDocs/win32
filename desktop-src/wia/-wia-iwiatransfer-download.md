@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initiates a data download to the caller.'
-ms.assetid: 'e639fabb-2c13-4009-affa-1c2b06c0d4c8'
-title: 'IWiaTransfer::Download method'
+---
+Description: Initiates a data download to the caller.
+ms.assetid: e639fabb-2c13-4009-affa-1c2b06c0d4c8
+title: IWiaTransferDownload method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaTransfer::Download method

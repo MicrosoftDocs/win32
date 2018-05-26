@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DXGI\_PRESENT constants specify options for presenting frames to the output.'
-ms.assetid: '1ddf8643-ea3e-4c9f-8439-c245942f7333'
-title: 'DXGI\_PRESENT'
+---
+Description: The DXGI\_PRESENT constants specify options for presenting frames to the output.
+ms.assetid: 1ddf8643-ea3e-4c9f-8439-c245942f7333
+title: DXGI\_PRESENT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI\_PRESENT
@@ -45,14 +50,14 @@ If the calling application sets the DXGI_PRESENT_DO_NOT_SEQUENCE constant on the
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="DXGI_PRESENT_DO_NOT_WAIT"></span><span id="dxgi_present_do_not_wait"></span><dl> <dt><strong>DXGI_PRESENT_DO_NOT_WAIT</strong></dt> <dt>0x00000008UL</dt> </dl></td>
-<td style="text-align: left;">Specifies that the runtime will fail the presentation (that is, fail a call to [<strong>IDXGISwapChain1::Present1</strong>](idxgiswapchain1-present1.md)) with the [DXGI_ERROR_WAS_STILL_DRAWING](dxgi-error.md#dxgi-error-was-still-drawing) error code if the calling thread is blocked; the runtime returns DXGI_ERROR_WAS_STILL_DRAWING instead of sleeping until the dependency is resolved.<br/> <strong>Direct3D 11:</strong> This enumeration value is supported starting with Windows 8.<br/></td>
+<td style="text-align: left;">Specifies that the runtime will fail the presentation (that is, fail a call to [<strong>IDXGISwapChain1::Present1</strong>](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master)) with the [DXGI_ERROR_WAS_STILL_DRAWING](dxgi-error.md#dxgi-error-was-still-drawing) error code if the calling thread is blocked; the runtime returns DXGI_ERROR_WAS_STILL_DRAWING instead of sleeping until the dependency is resolved.<br/> <strong>Direct3D 11:</strong> This enumeration value is supported starting with Windows 8.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="DXGI_PRESENT_RESTRICT_TO_OUTPUT"></span><span id="dxgi_present_restrict_to_output"></span><dl> <dt><strong>DXGI_PRESENT_RESTRICT_TO_OUTPUT</strong></dt> <dt>0x00000010UL</dt> </dl></td>
 <td style="text-align: left;">Indicates that presentation content will be shown only on the particular output. The content will not be visible on other outputs. For example, if the user tries to relocate video content on another output, the video content will not be visible. <br/> <strong>Direct3D 11:</strong> This enumeration value is supported starting with Windows 8. <br/>
 <blockquote>
 [!Note]<br />
-This flag should only be used with swap effect [DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL](dxgi-swap-effect.md) or DXGI_SWAP_EFFECT_FLIP_DISCARD. The use of this flag with <em>other</em> swap effects is being deprecated, and may not work in future versions of Windows.
+This flag should only be used with swap effect [DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL](/windows/win32/DXGI/ne-dxgi-dxgi_swap_effect?branch=master) or DXGI_SWAP_EFFECT_FLIP_DISCARD. The use of this flag with <em>other</em> swap effects is being deprecated, and may not work in future versions of Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -62,11 +67,11 @@ This flag should only be used with swap effect [DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="DXGI_PRESENT_STEREO_TEMPORARY_MONO"></span><span id="dxgi_present_stereo_temporary_mono"></span><dl> <dt><strong>DXGI_PRESENT_STEREO_TEMPORARY_MONO</strong></dt> <dt>0x00000040UL</dt> </dl></td>
-<td style="text-align: left;">Indicates that the presentation should use the left buffer as a mono buffer. An application calls the [<strong>IDXGISwapChain1::IsTemporaryMonoSupported</strong>](idxgiswapchain1-istemporarymonosupported.md) method to determine whether a swap chain supports &quot;temporary mono&quot;.<br/> <strong>Direct3D 11:</strong> This enumeration value is supported starting with Windows 8.<br/></td>
+<td style="text-align: left;">Indicates that the presentation should use the left buffer as a mono buffer. An application calls the [<strong>IDXGISwapChain1::IsTemporaryMonoSupported</strong>](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-istemporarymonosupported?branch=master) method to determine whether a swap chain supports &quot;temporary mono&quot;.<br/> <strong>Direct3D 11:</strong> This enumeration value is supported starting with Windows 8.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="DXGI_PRESENT_USE_DURATION"></span><span id="dxgi_present_use_duration"></span><dl> <dt><strong>DXGI_PRESENT_USE_DURATION</strong></dt> <dt>0x00000100UL</dt> </dl></td>
-<td style="text-align: left;">This flag must be set by media apps that are currently using a custom present duration (custom refresh rate). See [<strong>IDXGISwapChainMedia</strong>](idxgiswapchainmedia.md).<br/>
+<td style="text-align: left;">This flag must be set by media apps that are currently using a custom present duration (custom refresh rate). See [<strong>IDXGISwapChainMedia</strong>](/windows/win32/dxgi1_3/nn-dxgi1_3-idxgiswapchainmedia?branch=master).<br/>
 <blockquote>
 [!Note]<br />
 This value is supported starting in Windows 8.1.
@@ -78,10 +83,10 @@ This value is supported starting in Windows 8.1.
 <td style="text-align: left;">Allowing tearing is a requirement of variable refresh rate displays.<br/> The conditions for using DXGI_PRESENT_ALLOW_TEARING during Present are as follows:<br/>
 <ul>
 <li>The swap chain must be created with the [<strong>DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING</strong>](direct3ddxgi.dxgi_swap_chain_flag) flag.</li>
-<li>The sync interval passed in to [<strong>Present</strong>](idxgiswapchain-present.md) (or [<strong>Present1</strong>](idxgiswapchain1-present1.md)) must be 0.</li>
-<li>The DXGI_PRESENT_ALLOW_TEARING flag cannot be used in an application that is currently in full screen exclusive mode (set by calling [<strong>SetFullscreenState(TRUE)</strong>](idxgiswapchain-setfullscreenstate.md)). It can only be used in windowed mode. To use this flag in full screen Win32 apps, the application should present to a fullscreen borderless window and disable automatic ALT+ENTER fullscreen switching using [<strong>IDXGIFactory::MakeWindowAssociation</strong>](idxgifactory-makewindowassociation.md). UWP apps that enter fullscreen mode by calling <code>Windows::UI::ViewManagement::ApplicationView::TryEnterFullscreen()</code> are fullscreen borderless windows and may use the flag.</li>
+<li>The sync interval passed in to [<strong>Present</strong>](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-present?branch=master) (or [<strong>Present1</strong>](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master)) must be 0.</li>
+<li>The DXGI_PRESENT_ALLOW_TEARING flag cannot be used in an application that is currently in full screen exclusive mode (set by calling [<strong>SetFullscreenState(TRUE)</strong>](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-setfullscreenstate?branch=master)). It can only be used in windowed mode. To use this flag in full screen Win32 apps, the application should present to a fullscreen borderless window and disable automatic ALT+ENTER fullscreen switching using [<strong>IDXGIFactory::MakeWindowAssociation</strong>](/windows/win32/DXGI/nf-dxgi-idxgifactory-makewindowassociation?branch=master). UWP apps that enter fullscreen mode by calling <code>Windows::UI::ViewManagement::ApplicationView::TryEnterFullscreen()</code> are fullscreen borderless windows and may use the flag.</li>
 </ul>
-Calling [<strong>Present</strong>](idxgiswapchain-present.md) (or [<strong>Present1</strong>](idxgiswapchain1-present1.md)) with this flag and not meeting the conditions above will result in a DXGI_ERROR_INVALID_CALL error being returned to the calling application.<br/></td>
+Calling [<strong>Present</strong>](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-present?branch=master) (or [<strong>Present1</strong>](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master)) with this flag and not meeting the conditions above will result in a DXGI_ERROR_INVALID_CALL error being returned to the calling application.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -90,11 +95,11 @@ Calling [<strong>Present</strong>](idxgiswapchain-present.md) (or [<strong>Prese
 
 ## Remarks
 
-Presentation options are supplied during the [**IDXGISwapChain::Present**](idxgiswapchain-present.md) or [**IDXGISwapChain1::Present1**](idxgiswapchain1-present1.md) call. The buffers are specified in the swap chain description (see [**DXGI\_SWAP\_CHAIN\_DESC**](dxgi-swap-chain-desc.md) or [**DXGI\_SWAP\_CHAIN\_DESC1**](dxgi-swap-chain-desc1.md)).
+Presentation options are supplied during the [**IDXGISwapChain::Present**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-present?branch=master) or [**IDXGISwapChain1::Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master) call. The buffers are specified in the swap chain description (see [**DXGI\_SWAP\_CHAIN\_DESC**](/windows/win32/DXGI/ns-dxgi-dxgi_swap_chain_desc?branch=master) or [**DXGI\_SWAP\_CHAIN\_DESC1**](/windows/win32/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1?branch=master)).
 
 DXGI\_PRESENT\_RESTART is valid only for flip-model swap chains and full screen. Applications can use DXGI\_PRESENT\_RESTART to recover from glitches in playback, as well as to discard previously queued presentations. Discarding previously queued presentations is useful if those queued presentations are windowed scenarios. In particular, the previously queued presentation might have assumed that the window is an old size (that is, a resize operation occurred after submission).
 
-DXGI\_PRESENT\_RESTRICT\_TO\_OUTPUT is valid only for swap chains that specified a particular output to restrict content to when those swap chains were created ([**IDXGIFactory2::CreateSwapChainForHwnd**](idxgifactory2-createswapchain1.md)). If there is no output to restrict to, the flag is invalid.
+DXGI\_PRESENT\_RESTRICT\_TO\_OUTPUT is valid only for swap chains that specified a particular output to restrict content to when those swap chains were created ([**IDXGIFactory2::CreateSwapChainForHwnd**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd?branch=master)). If there is no output to restrict to, the flag is invalid.
 
 DXGI\_PRESENT\_STEREO\_PREFER\_RIGHT indicates that if the stereo present must be reduced to mono the right eye should be used rather than the left (default) eye. You can use this flag if one side is higher quality (for example, if the stereo pair is synthesized from a standard image.)
 

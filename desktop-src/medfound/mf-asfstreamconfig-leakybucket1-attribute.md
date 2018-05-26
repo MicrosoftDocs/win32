@@ -1,12 +1,17 @@
-﻿---
-Description: 'Sets the average &\#0034;leaky bucket&\#0034; parameters (see Remarks) for encoding a Windows Media file. Set this attribute by using the IMFASFStreamConfig interface.'
-ms.assetid: '5aa570eb-1004-4942-9a63-b8f6373d4e53'
-title: 'MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1 attribute'
+---
+Description: Sets the average &\#0034;leaky bucket&\#0034; parameters (see Remarks) for encoding a Windows Media file. Set this attribute by using the IMFASFStreamConfig interface.
+ms.assetid: 5aa570eb-1004-4942-9a63-b8f6373d4e53
+title: MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1 attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1 attribute
 
-Sets the average "leaky bucket" parameters (see Remarks) for encoding a Windows Media file. Set this attribute by using the [**IMFASFStreamConfig**](imfasfstreamconfig.md) interface.
+Sets the average "leaky bucket" parameters (see Remarks) for encoding a Windows Media file. Set this attribute by using the [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) interface.
 
 ## Data type
 
@@ -46,10 +51,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [ASF Attributes](asf-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
 [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET2**](mf-asfstreamconfig-leakybucket2-attribute.md)

@@ -1,8 +1,13 @@
 ---
 title: IVMTask ID property
 description: The ID property contains the unique ID of the task.
-ms.assetid: '20e10ba1-5290-4028-b28e-70fdbb0db15f'
-keywords: ["ID property Virtual Server", "ID property Virtual Server , IVMTask interface", "IVMTask interface Virtual Server , ID property", "ID property Virtual Server , VMTask interface", "VMTask interface Virtual Server , ID property"]
+ms.assetid: 20e10ba1-5290-4028-b28e-70fdbb0db15f
+keywords:
+- ID property Virtual Server
+- ID property Virtual Server , IVMTask interface
+- IVMTask interface Virtual Server , ID property
+- ID property Virtual Server , VMTask interface
+- VMTask interface Virtual Server , ID property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::ID property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ID(
-  [in] long *ID
+  [in] long *ID
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

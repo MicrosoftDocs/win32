@@ -1,8 +1,13 @@
 ---
 title: IVMAccessRights Name property
 description: The Name property retrieves the account name of the user or group.
-ms.assetid: 'a4bb0fdb-94a6-4fd0-af5a-46c6489a6ffc'
-keywords: ["Name property Virtual Server", "Name property Virtual Server , IVMAccessRights interface", "IVMAccessRights interface Virtual Server , Name property", "Name property Virtual Server , VMAccessRights interface", "VMAccessRights interface Virtual Server , Name property"]
+ms.assetid: a4bb0fdb-94a6-4fd0-af5a-46c6489a6ffc
+keywords:
+- Name property Virtual Server
+- Name property Virtual Server , IVMAccessRights interface
+- IVMAccessRights interface Virtual Server , Name property
+- Name property Virtual Server , VMAccessRights interface
+- VMAccessRights interface Virtual Server , Name property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights::Name property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Name(
-  [in]  BSTR name
+  [in]  BSTR name
 );
 
 HRESULT get_Name(
-  [out] BSTR *name
+  [out] BSTR *name
 );
 ```
 
@@ -106,8 +116,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -119,9 +129,9 @@ Next
 [**IVMAccessRights**](ivmaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

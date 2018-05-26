@@ -1,7 +1,12 @@
 ---
 title: MSVidEVR
 description: MSVidEVR
-ms.assetid: '437f515b-0353-4ff2-b8c2-5dd27d4e12f7'
+ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidEVR
@@ -14,8 +19,8 @@ The **MSVidEVR** object represents the Enhanced Video Renderer (EVR) filter.
 
 |                           |                                          |
 |---------------------------|------------------------------------------|
-| Interfaces                | [**IMSVidEVR**](imsvidevr.md)           |
-| Outgoing Event Interfaces | [**IMSVidEVREvent**](imsvidevrevent.md) |
+| Interfaces                | [**IMSVidEVR**](/windows/win32/segment/nn-segment-imsvidevr?branch=master)           |
+| Outgoing Event Interfaces | [**IMSVidEVREvent**](/windows/win32/segment/nn-segment-imsvidevrevent?branch=master) |
 
 
 

@@ -1,14 +1,19 @@
 ---
-Description: 'Not supported. Use the SoftwareLicensingService class.'
-ms.assetid: '953c2f88-00cd-47d1-8bf1-277bcb64f622'
+Description: Not supported. Use the SoftwareLicensingService class.
+ms.assetid: 953c2f88-00cd-47d1-8bf1-277bcb64f622
 title: SoftwareLicensingService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingService class
 
 Not supported. Use the [**SoftwareLicensingService**](https://msdn.microsoft.com/library/cc534597) class.
 
-**Windows Vista and Windows Server 2008:** This class exposes the product-independent properties and methods of the Software Licensing service.
+**Windows Vista and Windows Server 2008:** This class exposes the product-independent properties and methods of the Software Licensing service.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -67,7 +72,7 @@ The **SoftwareLicensingService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -108,7 +113,7 @@ Indicates whether the machine has a key management service (KMS) enabled. The fo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -275,7 +280,7 @@ Indicates whether the licensing policy cache needs to be updated. The following 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -340,10 +345,10 @@ Specifies the frequency, in minutes, of how often the current machine should con
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
-| End of client support<br/>    | Windows Vista<br/>                                                             |
-| End of server support<br/>    | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| End of client support<br/>    | Windows Vista<br/>                                                             |
+| End of server support<br/>    | Windows Server 2008<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>SLWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SLWmi.dll</dt> </dl> |
@@ -357,9 +362,9 @@ Specifies the frequency, in minutes, of how often the current machine should con
 [**SoftwareLicensingService**](https://msdn.microsoft.com/library/cc534597)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

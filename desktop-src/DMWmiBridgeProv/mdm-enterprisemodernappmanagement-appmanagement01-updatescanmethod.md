@@ -1,8 +1,11 @@
 ---
 title: UpdateScanMethod method of the MDM\_EnterpriseModernAppManagement\_AppManagement01 class
 description: Method for starting the Windows Update scan. See also, UpdateScan.
-ms.assetid: '61d17072-0fe5-4d5b-8e9e-fed536883ac9'
-keywords: ["UpdateScanMethod method", "UpdateScanMethod method, MDM_EnterpriseModernAppManagement_AppManagement01 class", "MDM_EnterpriseModernAppManagement_AppManagement01 class, UpdateScanMethod method"]
+ms.assetid: 61d17072-0fe5-4d5b-8e9e-fed536883ac9
+keywords:
+- UpdateScanMethod method
+- UpdateScanMethod method, MDM_EnterpriseModernAppManagement_AppManagement01 class
+- MDM_EnterpriseModernAppManagement_AppManagement01 class, UpdateScanMethod method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateScanMethod method of the MDM\_EnterpriseModernAppManagement\_AppManagement01 class
@@ -38,7 +46,7 @@ This method has no parameters.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -56,9 +64,9 @@ This method has no parameters.
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

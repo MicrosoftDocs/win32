@@ -4,11 +4,18 @@ description: Specifies a RemoteApp program to start in the remote session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5fb251bf-4832-4e35-b372-23418c280350'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5fb251bf-4832-4e35-b372-23418c280350
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ServerStartProgram method Remote Desktop Services", "ServerStartProgram method Remote Desktop Services , ITSRemoteProgram interface", "ITSRemoteProgram interface Remote Desktop Services , ServerStartProgram method", "ServerStartProgram method Remote Desktop Services , ITSRemoteProgram2 interface", "ITSRemoteProgram2 interface Remote Desktop Services , ServerStartProgram method", "ServerStartProgram method Remote Desktop Services , ITSRemoteProgram3 interface", "ITSRemoteProgram3 interface Remote Desktop Services , ServerStartProgram method"]
+keywords:
+- ServerStartProgram method Remote Desktop Services
+- ServerStartProgram method Remote Desktop Services , ITSRemoteProgram interface
+- ITSRemoteProgram interface Remote Desktop Services , ServerStartProgram method
+- ServerStartProgram method Remote Desktop Services , ITSRemoteProgram2 interface
+- ITSRemoteProgram2 interface Remote Desktop Services , ServerStartProgram method
+- ServerStartProgram method Remote Desktop Services , ITSRemoteProgram3 interface
+- ITSRemoteProgram3 interface Remote Desktop Services , ServerStartProgram method
 topic_type:
 - apiref
 api_name:
@@ -19,23 +26,26 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITSRemoteProgram::ServerStartProgram method
 
-Specifies a RemoteApp program to start in the remote session. This function must be invoked on a connected session (after the session connected notification is received at the client). Any number of RemoteApp programs can be started in a session. A RemoteApp session will time out if no RemoteApp program is started in the session within the time-out limit, which is two minutes for Windows Server 2008.
+Specifies a RemoteApp program to start in the remote session. This function must be invoked on a connected session (after the session connected notification is received at the client). Any number of RemoteApp programs can be started in a session. A RemoteApp session will time out if no RemoteApp program is started in the session within the time-out limit, which is two minutes for Windows Server 2008.
 
 ## Syntax
 
 
 ```C++
 HRESULT ServerStartProgram(
-  [in] BSTR         bstrExecutablePath,
-  [in] BSTR         bstrFilePath,
-  [in] BSTR         bstrWorkingDirectory,
-  [in] VARIANT_BOOL vbExpandEnvVarInWorkingDirectoryOnServer,
-  [in] BSTR         bstrArguments,
-  [in] VARIANT_BOOL vbExpandEnvVarInArgumentsOnServer
+  [in] BSTR         bstrExecutablePath,
+  [in] BSTR         bstrFilePath,
+  [in] BSTR         bstrWorkingDirectory,
+  [in] VARIANT_BOOL vbExpandEnvVarInWorkingDirectoryOnServer,
+  [in] BSTR         bstrArguments,
+  [in] VARIANT_BOOL vbExpandEnvVarInArgumentsOnServer
 );
 ```
 
@@ -97,8 +107,8 @@ Returns **S\_OK** if successful.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_ITSRemoteProgram is defined as FDD029F9-467A-4c49-8529-64B521DBD1B4<br/>    |
@@ -118,9 +128,9 @@ Returns **S\_OK** if successful.
 [**ITSRemoteProgram**](itsremoteprogram.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'You can rotate TrueType fonts at any angle.'
-ms.assetid: '371ddb04-410a-425b-857f-ed3d4749b0f9'
+Description: You can rotate TrueType fonts at any angle.
+ms.assetid: 371ddb04-410a-425b-857f-ed3d4749b0f9
 title: Rotating Lines of Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rotating Lines of Text
 
-You can rotate TrueType fonts at any angle. This is useful for labeling charts and other illustrations. The following example rotates a string in 10-degree increments around the center of the client area by changing the value of the **lfEscapement** and **lfOrientation** members of the [LOGFONT](logfont.md) structure used to create the font.
+You can rotate TrueType fonts at any angle. This is useful for labeling charts and other illustrations. The following example rotates a string in 10-degree increments around the center of the client area by changing the value of the **lfEscapement** and **lfOrientation** members of the [LOGFONT](/windows/win32/Wingdi/ns-wingdi-taglogfonta?branch=master) structure used to create the font.
 
 
 ```C++

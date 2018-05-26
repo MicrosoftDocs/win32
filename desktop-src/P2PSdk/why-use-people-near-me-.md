@@ -1,7 +1,12 @@
 ---
-Description: 'Why use People Near Me?'
-ms.assetid: '94e37cb0-1832-46ae-81ec-b92a5b4dcd51'
-title: 'Why use People Near Me?'
+Description: Why use People Near Me?
+ms.assetid: 94e37cb0-1832-46ae-81ec-b92a5b4dcd51
+title: Why use People Near Me?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Why use People Near Me?

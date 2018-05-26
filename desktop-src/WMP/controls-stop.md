@@ -1,8 +1,11 @@
 ---
 title: Controls.stop method
 description: The stop method stops playback of the media item.
-ms.assetid: 'ace95fde-9c94-4737-88f2-94321cbc687c'
-keywords: ["stop method Windows Media Player", "stop method Windows Media Player , Controls class", "Controls class Windows Media Player , stop method"]
+ms.assetid: ace95fde-9c94-4737-88f2-94321cbc687c
+keywords:
+- stop method Windows Media Player
+- stop method Windows Media Player , Controls class
+- Controls class Windows Media Player , stop method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.stop method
@@ -87,9 +95,9 @@ The following example creates an HTML BUTTON element that uses **stop** to stop 
 [**Controls.previous**](controls-previous.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Threads are scheduled to run based on their scheduling priority.'
-ms.assetid: '8710cd56-6bf3-4317-a1f6-1a159394ce2a'
+Description: Threads are scheduled to run based on their scheduling priority.
+ms.assetid: 8710cd56-6bf3-4317-a1f6-1a159394ce2a
 title: Scheduling Priorities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scheduling Priorities
@@ -27,11 +32,11 @@ HIGH\_PRIORITY\_CLASS
 REALTIME\_PRIORITY\_CLASS  
 </dl>
 
-By default, the priority class of a process is NORMAL\_PRIORITY\_CLASS. Use the [**CreateProcess**](createprocess.md) function to specify the priority class of a child process when you create it. If the calling process is IDLE\_PRIORITY\_CLASS or BELOW\_NORMAL\_PRIORITY\_CLASS, the new process will inherit this class. Use the [**GetPriorityClass**](getpriorityclass.md) function to determine the current priority class of a process and the [**SetPriorityClass**](setpriorityclass.md) function to change the priority class of a process.
+By default, the priority class of a process is NORMAL\_PRIORITY\_CLASS. Use the [**CreateProcess**](/windows/win32/WinBase/nf-processthreadsapi-createprocessa?branch=master) function to specify the priority class of a child process when you create it. If the calling process is IDLE\_PRIORITY\_CLASS or BELOW\_NORMAL\_PRIORITY\_CLASS, the new process will inherit this class. Use the [**GetPriorityClass**](/windows/win32/WinBase/nf-processthreadsapi-getpriorityclass?branch=master) function to determine the current priority class of a process and the [**SetPriorityClass**](/windows/win32/WinBase/nf-processthreadsapi-setpriorityclass?branch=master) function to change the priority class of a process.
 
 Processes that monitor the system, such as screen savers or applications that periodically update a display, should use IDLE\_PRIORITY\_CLASS. This prevents the threads of this process, which do not have high priority, from interfering with higher priority threads.
 
-Use HIGH\_PRIORITY\_CLASS with care. If a thread runs at the highest priority level for extended periods, other threads in the system will not get processor time. If several threads are set at high priority at the same time, the threads lose their effectiveness. The high-priority class should be reserved for threads that must respond to time-critical events. If your application performs one task that requires the high-priority class while the rest of its tasks are normal priority, use [**SetPriorityClass**](setpriorityclass.md) to raise the priority class of the application temporarily; then reduce it after the time-critical task has been completed. Another strategy is to create a high-priority process that has all of its threads blocked most of the time, awakening threads only when critical tasks are needed. The important point is that a high-priority thread should execute for a brief time, and only when it has time-critical work to perform.
+Use HIGH\_PRIORITY\_CLASS with care. If a thread runs at the highest priority level for extended periods, other threads in the system will not get processor time. If several threads are set at high priority at the same time, the threads lose their effectiveness. The high-priority class should be reserved for threads that must respond to time-critical events. If your application performs one task that requires the high-priority class while the rest of its tasks are normal priority, use [**SetPriorityClass**](/windows/win32/WinBase/nf-processthreadsapi-setpriorityclass?branch=master) to raise the priority class of the application temporarily; then reduce it after the time-critical task has been completed. Another strategy is to create a high-priority process that has all of its threads blocked most of the time, awakening threads only when critical tasks are needed. The important point is that a high-priority thread should execute for a brief time, and only when it has time-critical work to perform.
 
 You should almost never use REALTIME\_PRIORITY\_CLASS, because this interrupts system threads that manage mouse input, keyboard input, and background disk flushing. This class can be appropriate for applications that "talk" directly to hardware or that perform brief tasks that should have limited interruptions.
 
@@ -46,11 +51,11 @@ THREAD\_PRIORITY\_HIGHEST
 THREAD\_PRIORITY\_TIME\_CRITICAL  
 </dl>
 
-All threads are created using THREAD\_PRIORITY\_NORMAL. This means that the thread priority is the same as the process priority class. After you create a thread, use the [**SetThreadPriority**](setthreadpriority.md) function to adjust its priority relative to other threads in the process.
+All threads are created using THREAD\_PRIORITY\_NORMAL. This means that the thread priority is the same as the process priority class. After you create a thread, use the [**SetThreadPriority**](/windows/win32/WinBase/nf-processthreadsapi-setthreadpriority?branch=master) function to adjust its priority relative to other threads in the process.
 
-A typical strategy is to use THREAD\_PRIORITY\_ABOVE\_NORMAL or THREAD\_PRIORITY\_HIGHEST for the process's input thread, to ensure that the application is responsive to the user. Background threads, particularly those that are processor intensive, can be set to THREAD\_PRIORITY\_BELOW\_NORMAL or THREAD\_PRIORITY\_LOWEST, to ensure that they can be preempted when necessary. However, if you have a thread waiting for another thread with a lower priority to complete some task, be sure to block the execution of the waiting high-priority thread. To do this, use a [wait function](base.wait_functions), [critical section](base.critical_section_objects), or the [**Sleep**](sleep.md) function, [**SleepEx**](sleepex.md), or [**SwitchToThread**](switchtothread.md) function. This is preferable to having the thread execute a loop. Otherwise, the process may become deadlocked, because the thread with lower priority is never scheduled.
+A typical strategy is to use THREAD\_PRIORITY\_ABOVE\_NORMAL or THREAD\_PRIORITY\_HIGHEST for the process's input thread, to ensure that the application is responsive to the user. Background threads, particularly those that are processor intensive, can be set to THREAD\_PRIORITY\_BELOW\_NORMAL or THREAD\_PRIORITY\_LOWEST, to ensure that they can be preempted when necessary. However, if you have a thread waiting for another thread with a lower priority to complete some task, be sure to block the execution of the waiting high-priority thread. To do this, use a [wait function](base.wait_functions), [critical section](base.critical_section_objects), or the [**Sleep**](/windows/win32/WinBase/nf-synchapi-sleep?branch=master) function, [**SleepEx**](/windows/win32/WinBase/nf-synchapi-sleepex?branch=master), or [**SwitchToThread**](/windows/win32/WinBase/nf-processthreadsapi-switchtothread?branch=master) function. This is preferable to having the thread execute a loop. Otherwise, the process may become deadlocked, because the thread with lower priority is never scheduled.
 
-To determine the current priority level of a thread, use the [**GetThreadPriority**](getthreadpriority.md) function.
+To determine the current priority level of a thread, use the [**GetThreadPriority**](/windows/win32/WinBase/nf-processthreadsapi-getthreadpriority?branch=master) function.
 
 ## Base Priority
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The PreparePalette method sets up a palette, based on a media type from the owning filter.'
-ms.assetid: 'cb012391-39ab-4ad1-aeb7-ec25010ac64a'
-title: 'CImagePalette.PreparePalette method'
+Description: The PreparePalette method sets up a palette, based on a media type from the owning filter.
+ms.assetid: cb012391-39ab-4ad1-aeb7-ec25010ac64a
+title: CImagePalette.PreparePalette method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImagePalette.PreparePalette method
@@ -13,9 +18,9 @@ The `PreparePalette` method sets up a palette, based on a media type from the ow
 
 ```C++
 HRESULT PreparePalette(
-   const CMediaType *pmtNew,
-   const CMediaType *pmtOld,
-         LPSTR      szDevice
+   const CMediaType *pmtNew,
+   const CMediaType *pmtOld,
+         LPSTR      szDevice
 );
 ```
 
@@ -28,7 +33,7 @@ HRESULT PreparePalette(
 *pmtNew* 
 </dt> <dd>
 
-Pointer to the new media type. The format block must be a [**VIDEOINFOHEADER**](videoinfoheader.md) structure.
+Pointer to the new media type. The format block must be a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure.
 
 </dd> <dt>
 
@@ -77,9 +82,9 @@ If the palette needs to be updated, this method performs the following actions:
 [**CImagePalette Class**](cimagepalette.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

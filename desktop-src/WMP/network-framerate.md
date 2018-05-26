@@ -1,8 +1,9 @@
 ---
 title: Network.frameRate
 description: The frameRate property retrieves the current video frame rate in frames per hundred seconds. For example, a value of 2998 indicates 29.98 frames per second.
-ms.assetid: 'ee30dce5-a42e-4be5-ab4b-0d5f8869d23a'
-keywords: ["Network.frameRate Windows Media Player"]
+ms.assetid: ee30dce5-a42e-4be5-ab4b-0d5f8869d23a
+keywords:
+- Network.frameRate Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.frameRate
@@ -69,9 +75,9 @@ The following JScript example uses *Network*.**frameRate** to display the curren
 [**Network.encodedFrameRate**](network-encodedframerate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,22 @@
 ---
 title: Creating Licenses Locally
 description: Creating Licenses Locally
-ms.assetid: '151dd231-26a9-4203-84e1-446a07c1e07a'
-keywords: ["Windows Media Format SDK,creating licenses locally", "Windows Media Format SDK,licenses", "digital rights management (DRM),creating licenses locally", "DRM (digital rights management),creating licenses locally", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "DRM Client Extended APIs,creating licenses locally", "Client Extended APIs,creating licenses locally", "licenses,creating licenses locally"]
+ms.assetid: 151dd231-26a9-4203-84e1-446a07c1e07a
+keywords:
+- Windows Media Format SDK,creating licenses locally
+- Windows Media Format SDK,licenses
+- digital rights management (DRM),creating licenses locally
+- DRM (digital rights management),creating licenses locally
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- DRM Client Extended APIs,creating licenses locally
+- Client Extended APIs,creating licenses locally
+- licenses,creating licenses locally
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Licenses Locally

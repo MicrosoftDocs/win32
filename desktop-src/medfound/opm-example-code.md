@@ -1,7 +1,12 @@
 ---
-Description: 'This topic contains example code for using Output Protection Manager.'
-ms.assetid: 'ad2303a0-f3f3-43a0-83eb-023640da2ece'
+Description: This topic contains example code for using Output Protection Manager.
+ms.assetid: ad2303a0-f3f3-43a0-83eb-023640da2ece
 title: OPM Example Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Example Code
@@ -20,7 +25,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
 ## Performing the OPM Handshake
 
-1.  After enumerating the OPM devices and selecting a video output (not shown), the first step is to call [**IOPMVideoOutput::StartInitialization**](iopmvideooutput-iopmvideooutput--startinitialization.md) to get the device's X.509 certificate chain:
+1.  After enumerating the OPM devices and selecting a video output (not shown), the first step is to call [**IOPMVideoOutput::StartInitialization**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-startinitialization?branch=master) to get the device's X.509 certificate chain:
 
     ```C++
         OPM_RANDOM_NUMBER random;   // Random number from driver.
@@ -348,7 +353,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
     
 
-6.  Call [**IOPMVideoOutput::FinishInitialization**](iopmvideooutput-iopmvideooutput--finishinitialization.md) to complete the handshake.
+6.  Call [**IOPMVideoOutput::FinishInitialization**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-finishinitialization?branch=master) to complete the handshake.
     ```C++
         // Complete the handshake.
         hr = pVideoOutput->FinishInitialization(
@@ -367,7 +372,7 @@ The procedures shown in this topic are explained in more detail in [Using Output
 
 The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) status request.
 
-1.  Fill in an [**OPM\_GET\_INFO\_PARAMETERS**](opm-get-info-parameters.md) structure with the information for the status request.
+1.  Fill in an [**OPM\_GET\_INFO\_PARAMETERS**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_get_info_parameters?branch=master) structure with the information for the status request.
     ```C++
         //--------------------------------------------------------------------
         // Prepare the status request structure.
@@ -412,7 +417,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
     
 
-2.  The **omac** member of the [**OPM\_GET\_INFO\_PARAMETERS**](opm-get-info-parameters.md) structure is a one-key CBC MAC (OMAC) computed for the rest of the structure. The ComputeOMAC function (shown later) is declared as follows:
+2.  The **omac** member of the [**OPM\_GET\_INFO\_PARAMETERS**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_get_info_parameters?branch=master) structure is a one-key CBC MAC (OMAC) computed for the rest of the structure. The ComputeOMAC function (shown later) is declared as follows:
     ```C++
     HRESULT ComputeOMAC(
         OPM_RANDOM_NUMBER&amp;  AesKey,     // Session key
@@ -424,7 +429,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
     
 
-3.  Call [**IOPMVideoOutput::GetInformation**](iopmvideooutput-iopmvideooutput--getinformation.md) to send the status request.
+3.  Call [**IOPMVideoOutput::GetInformation**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-getinformation?branch=master) to send the status request.
     ```C++
         //  Send the status request.
         hr = pVideoOutput->GetInformation(&amp;StatusInput, &amp;StatusOutput);
@@ -438,7 +443,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
     
 
-4.  The driver writes the response to the [**OPM\_REQUESTED\_INFORMATION**](opm-requested-information.md) structure. The response structure includes an OMAC value, computed for the remainder of the structure. Verify this value before trusting the response data:
+4.  The driver writes the response to the [**OPM\_REQUESTED\_INFORMATION**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_requested_information?branch=master) structure. The response structure includes an OMAC value, computed for the remainder of the structure. Verify this value before trusting the response data:
     ```C++
         //--------------------------------------------------------------------
         // Verify the signature.
@@ -473,7 +478,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
     
 
-5.  The **abRequestedInformation** member of the [**OPM\_REQUESTED\_INFORMATION**](opm-requested-information.md) structure contains the response data. For the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) request, the response data consists of a [**OPM\_STANDARD\_INFORMATION**](opm-standard-information.md) structure.
+5.  The **abRequestedInformation** member of the [**OPM\_REQUESTED\_INFORMATION**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_requested_information?branch=master) structure contains the response data. For the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-connector-type.md) request, the response data consists of a [**OPM\_STANDARD\_INFORMATION**](/windows/win32/ksopmapi/ns-ksopmapi-_opm_standard_information?branch=master) structure.
     ```C++
         // Examine the response. 
         // The response data is an OPM_STANDARD_INFORMATION structure.
@@ -517,7 +522,7 @@ The next example shows how to send the [**OPM\_GET\_CONNECTOR\_TYPE**](opm-get-c
 
 The next example shows how to enable High-Bandwidth Digital Content Protection (HDCP) by sending the [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command.
 
-1.  All OPM commands use the [**OPM\_CONFIGURE\_PARAMETERS**](opm-configure-parameters.md) structure for input data. The **abParameters** array in this structure contains command-specific data. For the [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command, the **abParameters** array contains an [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](opm-set-protection-level-parameters.md) structure. Fill in this structure as follows:
+1.  All OPM commands use the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_configure_parameters?branch=master) structure for input data. The **abParameters** array in this structure contains command-specific data. For the [**OPM\_SET\_PROTECTION\_LEVEL**](opm-set-protection-level.md) command, the **abParameters** array contains an [**OPM\_SET\_PROTECTION\_LEVEL\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_set_protection_level_parameters?branch=master) structure. Fill in this structure as follows:
     ```C++
         //--------------------------------------------------------------------
         // Prepare the command structure.
@@ -537,7 +542,7 @@ The next example shows how to enable High-Bandwidth Digital Content Protection (
 
     
 
-2.  Next, fill in the [**OPM\_CONFIGURE\_PARAMETERS**](opm-configure-parameters.md) structure and compute the OMAC.
+2.  Next, fill in the [**OPM\_CONFIGURE\_PARAMETERS**](/windows/win32/opmapi/ns-opmapi-_opm_configure_parameters?branch=master) structure and compute the OMAC.
     ```C++
         // Common command parameters
         OPM_CONFIGURE_PARAMETERS Command;
@@ -565,7 +570,7 @@ The next example shows how to enable High-Bandwidth Digital Content Protection (
 
     
 
-3.  To send the command, call [**IOPMVideoOutput::Configure**](iopmvideooutput-iopmvideooutput--configure.md). Remember to increment the command sequence number after each command.
+3.  To send the command, call [**IOPMVideoOutput::Configure**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-configure?branch=master). Remember to increment the command sequence number after each command.
     ```C++
         //  Send the command.
         hr = pVideoOutput->Configure(

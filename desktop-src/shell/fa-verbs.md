@@ -1,7 +1,12 @@
 ---
-Description: 'When a user right-clicks a Shell object such as a file, the Shell displays a shortcut (context) menu.'
-ms.assetid: '4f46b8c3-1e12-447c-87f4-bbe2c305f77a'
+Description: When a user right-clicks a Shell object such as a file, the Shell displays a shortcut (context) menu.
+ms.assetid: 4f46b8c3-1e12-447c-87f4-bbe2c305f77a
 title: Verbs and File Associations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verbs and File Associations
@@ -38,7 +43,7 @@ A shortcut menu handler is a file type handler that adds commands to an existing
 
 ## Shortcut Menu Verbs
 
-Each command on the shortcut menu is identified in the registry by its verb. These verbs are the same as those used by [**ShellExecuteEx**](shellexecuteex.md) when launching applications programmatically.
+Each command on the shortcut menu is identified in the registry by its verb. These verbs are the same as those used by [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) when launching applications programmatically.
 
 A verb is a simple text string that is used by the Shell to identify the associated command. Each verb corresponds to the command string used to launch the command in a console window or batch (.bat) file.
 

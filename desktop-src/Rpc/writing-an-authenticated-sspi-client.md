@@ -1,8 +1,14 @@
 ---
 title: Writing an Authenticated SSPI Client
 description: Writing an authenticated SSPI client and Remote Procedure Call (RPC).
-ms.assetid: 'db39d3bf-84fa-466e-9ba1-ba17f64c8f8d'
-keywords: ["Remote Procedure Call RPC , tasks, writing an authenticated SSPI client"]
+ms.assetid: db39d3bf-84fa-466e-9ba1-ba17f64c8f8d
+keywords:
+- Remote Procedure Call RPC , tasks, writing an authenticated SSPI client
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing an Authenticated SSPI Client
@@ -16,9 +22,9 @@ For related information, see [Procedures Used with Most Security Packages and Pr
 
 ## Creating Client-side Binding Handles
 
-To create an authenticated session with a server program, client applications must provide authentication information with their binding handle. To set up an authenticated binding handle, clients invoke the [**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md) or [**RpcBindingSetAuthInfoEx**](rpcbindingsetauthinfoex.md) function. These two functions are nearly identical. The only difference between them is that the client can specify the quality of service with the **RpcBindingSetAuthInfoEx** function.
+To create an authenticated session with a server program, client applications must provide authentication information with their binding handle. To set up an authenticated binding handle, clients invoke the [**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master) or [**RpcBindingSetAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa?branch=master) function. These two functions are nearly identical. The only difference between them is that the client can specify the quality of service with the **RpcBindingSetAuthInfoEx** function.
 
-The following code fragment shows how a call to [**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md) might look.
+The following code fragment shows how a call to [**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master) might look.
 
 
 ```C++
@@ -49,9 +55,9 @@ rpcStatus = RpcBindingSetAuthInfo(
 
 
 
-After the client successfully calls the [**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md) or [**RpcBindingSetAuthInfoEx**](rpcbindingsetauthinfoex.md) functions, the RPC run-time library automatically authenticates all RPC calls on the binding. The level of security and authentication that the client selects applies only to that binding handle. Context handles derived from the binding handle will use the same security information, but subsequent modifications to the binding handle will not be reflected in the context handles. For more information, see [Context Handles](context-handles.md).
+After the client successfully calls the [**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master) or [**RpcBindingSetAuthInfoEx**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa?branch=master) functions, the RPC run-time library automatically authenticates all RPC calls on the binding. The level of security and authentication that the client selects applies only to that binding handle. Context handles derived from the binding handle will use the same security information, but subsequent modifications to the binding handle will not be reflected in the context handles. For more information, see [Context Handles](context-handles.md).
 
-The authentication level stays in effect until the client chooses another level, or until the process terminates. Most applications will not require a change in the security level. The client can query any binding handle to obtain its authorization information by invoking [**RpcBindingInqAuthClient**](rpcbindinginqauthclient.md) and passing it the binding handle.
+The authentication level stays in effect until the client chooses another level, or until the process terminates. Most applications will not require a change in the security level. The client can query any binding handle to obtain its authorization information by invoking [**RpcBindingInqAuthClient**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthclient?branch=master) and passing it the binding handle.
 
 ## Providing Client Credentials to the Server
 
@@ -61,8 +67,8 @@ Another method is to leave the binding handles out of the IDL file and to place 
 
 The process of extracting the client credentials from the binding handle occurs as follows:
 
--   RPC clients call [**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md) and include their authentication information as part of the binding information passed to the server.
--   Usually, the server calls [**RpcImpersonateClient**](rpcimpersonateclient.md) in order to behave as though it were the client. If the binding handle is not authenticated, the call fails with RPC\_S\_NO\_CONTEXT\_AVAILABLE. To obtain the client's user name, call [**RpcBindingInqAuthClient**](rpcbindinginqauthclient.md) while impersonating, or on Windows XP or later versions of Windows, call [**RpcGetAuthorizationContextForClient**](rpcgetauthorizationcontextforclient.md) to get the authorization context, then use Authz functions to retrieve the name.
+-   RPC clients call [**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master) and include their authentication information as part of the binding information passed to the server.
+-   Usually, the server calls [**RpcImpersonateClient**](/windows/win32/Rpcdce/nf-rpcdce-rpcimpersonateclient?branch=master) in order to behave as though it were the client. If the binding handle is not authenticated, the call fails with RPC\_S\_NO\_CONTEXT\_AVAILABLE. To obtain the client's user name, call [**RpcBindingInqAuthClient**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindinginqauthclient?branch=master) while impersonating, or on Windows XP or later versions of Windows, call [**RpcGetAuthorizationContextForClient**](/windows/win32/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient?branch=master) to get the authorization context, then use Authz functions to retrieve the name.
 -   The server will normally call [**CreatePrivateObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa376405) to create objects with ACLs. After this is accomplished, later security checks become automatic.
 
  

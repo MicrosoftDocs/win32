@@ -1,7 +1,12 @@
-﻿---
-Description: 'Locks the attribute buffer.'
-ms.assetid: '6e05e613-ca93-41b0-a3b3-a9564ada3b0c'
-title: 'ID3DXPatchMesh::LockAttributeBuffer method'
+---
+Description: Locks the attribute buffer.
+ms.assetid: 6e05e613-ca93-41b0-a3b3-a9564ada3b0c
+title: ID3DXPatchMeshLockAttributeBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::LockAttributeBuffer method

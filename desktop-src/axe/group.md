@@ -1,14 +1,20 @@
 ---
 title: Group element
 description: A named arrangements of metric data.
-ms.assetid: 'B8C29799-B688-4009-931F-B875FF9E4251'
-keywords: ["Group element Access Execution Engine"]
+ms.assetid: B8C29799-B688-4009-931F-B875FF9E4251
+keywords:
+- Group element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Group
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Group element
@@ -34,7 +40,7 @@ There are no attributes.
 | Element                                       | Description                                                                                                                                                                                                                                     |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Columns**](columns.md)<br/>         | A collection of the most important metrics gathered by the assessment. <br/> <br/>                                                                                                                                                  |
-| [**Description**](description.md)<br/> | This node contains the description of the page. Groups do not require programmatic names, but [**Name**](name.md) and [**ToolTip**](tooltip.md) are used. The group’s description is used for the header of the group.<br/> <br/> |
+| [**Description**](description.md)<br/> | This node contains the description of the page. Groups do not require programmatic names, but [**Name**](name.md) and [**ToolTip**](tooltip.md) are used. The group s description is used for the header of the group.<br/> <br/> |
 | [**PageLink**](pagelink.md)<br/>       | This node is the main page of the report.<br/> <br/>                                                                                                                                                                                |
 
 
@@ -72,9 +78,9 @@ DescriptionPageLinkColumns
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

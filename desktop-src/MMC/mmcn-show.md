@@ -1,14 +1,15 @@
 ---
 title: MMCN\_SHOW message
-description: The MMCN\_SHOW notification message is sent to the snap-in's IComponent implementation when a scope item is selected or deselected.
+description: The MMCN\_SHOW notification message is sent to the snap-ins IComponent implementation when a scope item is selected or deselected.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc2a9da4-1351-4930-8fb4-577cdcc14e10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: cc2a9da4-1351-4930-8fb4-577cdcc14e10
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_SHOW message MMC"]
+keywords:
+- MMCN_SHOW message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_SHOW message
 
-The **MMCN\_SHOW** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when a scope item is selected or deselected.
+The **MMCN\_SHOW** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when a scope item is selected or deselected.
 
 ## Parameters
 
@@ -73,15 +77,15 @@ Also, snap-ins that have a custom result pane (OCX or web) can call [**IConsole2
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

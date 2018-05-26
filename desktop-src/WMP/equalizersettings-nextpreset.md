@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.nextPreset
 description: The nextPreset method applies the next equalizer preset.
-ms.assetid: '67d40ec9-2744-4d63-aa56-0ee20496e896'
-keywords: ["EQUALIZERSETTINGS.nextPreset Windows Media Player"]
+ms.assetid: 67d40ec9-2744-4d63-aa56-0ee20496e896
+keywords:
+- EQUALIZERSETTINGS.nextPreset Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.nextPreset
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.nextPreset
@@ -74,9 +80,9 @@ If the current preset is the last one available, the first preset is made curren
 [**EQUALIZERSETTINGS.previousPreset**](equalizersettings-previouspreset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

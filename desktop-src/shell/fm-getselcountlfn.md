@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent by a File Manager extension to retrieve the number of selected files in the active File Manager window (either the directory window or the Search Results window). The count includes files that have long file names.'
-title: 'FM\_GETSELCOUNTLFN message'
+---
+Description: Sent by a File Manager extension to retrieve the number of selected files in the active File Manager window (either the directory window or the Search Results window). The count includes files that have long file names.
+title: FM\_GETSELCOUNTLFN message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FM\_GETSELCOUNTLFN message

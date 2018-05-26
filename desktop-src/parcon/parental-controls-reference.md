@@ -1,7 +1,12 @@
 ---
-Description: 'Reference information about how to interact with Parental Controls APIs.'
-ms.assetid: 'd968dddc-2f61-4da1-9a66-e8f520a0b920'
+Description: Reference information about how to interact with Parental Controls APIs.
+ms.assetid: d968dddc-2f61-4da1-9a66-e8f520a0b920
 title: Parental Controls Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Reference

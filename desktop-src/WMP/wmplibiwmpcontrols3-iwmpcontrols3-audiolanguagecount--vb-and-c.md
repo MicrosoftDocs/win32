@@ -1,8 +1,11 @@
 ---
 title: IWMPControls3 audioLanguageCount property
 description: The audioLanguageCount property gets the count of supported audio languages.
-ms.assetid: '92e2093f-435b-4427-9f85-8c8ae76e0e2d'
-keywords: ["audioLanguageCount property Windows Media Player", "audioLanguageCount property Windows Media Player , IWMPControls3 interface", "IWMPControls3 interface Windows Media Player , audioLanguageCount property"]
+ms.assetid: 92e2093f-435b-4427-9f85-8c8ae76e0e2d
+keywords:
+- audioLanguageCount property Windows Media Player
+- audioLanguageCount property Windows Media Player , IWMPControls3 interface
+- IWMPControls3 interface Windows Media Player , audioLanguageCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls3::audioLanguageCount property
@@ -86,9 +94,9 @@ For Windows Media-based content, properties and methods related to language sele
 [**IWMPControls3.getLanguageName (VB and C#)**](wmplibiwmpcontrols3-iwmpcontrols3-getlanguagename--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

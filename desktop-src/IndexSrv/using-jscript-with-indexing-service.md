@@ -1,7 +1,12 @@
 ---
 title: Using JScript with Indexing Service
 description: Using JScript with Indexing Service
-ms.assetid: '14d5e7ad-b912-418e-a083-6f080be3293a'
+ms.assetid: 14d5e7ad-b912-418e-a083-6f080be3293a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using JScript with Indexing Service

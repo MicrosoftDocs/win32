@@ -1,14 +1,15 @@
 ---
 title: MMCN\_LISTPAD message
-description: Sent to a snap-in's IComponent implementation when the list control for the list view taskpad for one of its scope items is being attached or detached.
+description: Sent to a snap-ins IComponent implementation when the list control for the list view taskpad for one of its scope items is being attached or detached.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ce2a3146-f466-4768-a573-a4968baf659e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: ce2a3146-f466-4768-a573-a4968baf659e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_LISTPAD message MMC"]
+keywords:
+- MMCN_LISTPAD message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_LISTPAD message
 
 The **MMCN\_LISTPAD** notification is introduced in MMC 1.1.
 
-The **MMCN\_LISTPAD** notification message is sent to a snap-in's [**IComponent**](icomponent.md) implementation when the list control for the list view taskpad for one of its scope items is being attached or detached.
+The **MMCN\_LISTPAD** notification message is sent to a snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the list control for the list view taskpad for one of its scope items is being attached or detached.
 
 ## Parameters
 
@@ -82,8 +86,8 @@ When the snap-in receives the **MMCN\_LISTPAD** notification with arg set to **T
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -95,9 +99,9 @@ When the snap-in receives the **MMCN\_LISTPAD** notification with arg set to **T
 [**IComponent::Notify**](icomponent-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

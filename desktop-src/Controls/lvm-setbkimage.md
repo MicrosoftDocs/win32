@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETBKIMAGE message
 description: Sets the background image in a list-view control. You can send this message explicitly or by using the ListView\_SetBkImage macro.
-ms.assetid: '8fdd363c-ac12-498b-80b7-aaa5741cfd76'
-keywords: ["LVM_SETBKIMAGE message Windows Controls"]
+ms.assetid: 8fdd363c-ac12-498b-80b7-aaa5741cfd76
+keywords:
+- LVM_SETBKIMAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETBKIMAGE message
 
-Sets the background image in a list-view control. You can send this message explicitly or by using the [**ListView\_SetBkImage**](listview-setbkimage.md) macro.
+Sets the background image in a list-view control. You can send this message explicitly or by using the [**ListView\_SetBkImage**](/windows/win32/Commctrl/nf-commctrl-listview_setbkimage?branch=master) macro.
 
 ## Parameters
 
@@ -33,13 +39,13 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**LVBKIMAGE**](lvbkimage.md) structure that contains the new background image information.
+Pointer to a [**LVBKIMAGE**](/windows/win32/Commctrl/ns-commctrl-taglvbkimagea?branch=master) structure that contains the new background image information.
 
 </dd> </dl>
 
 ## Return value
 
-Returns nonzero if successful, or zero otherwise. Returns zero if the **ulFlags** member of the [**LVBKIMAGE**](lvbkimage.md) structure is **LVBKIF\_SOURCE\_NONE**.
+Returns nonzero if successful, or zero otherwise. Returns zero if the **ulFlags** member of the [**LVBKIMAGE**](/windows/win32/Commctrl/ns-commctrl-taglvbkimagea?branch=master) structure is **LVBKIF\_SOURCE\_NONE**.
 
 ## Remarks
 
@@ -51,8 +57,8 @@ Because the list-view control uses OLE COM to manipulate the background images, 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVM\_SETBKIMAGEW** (Unicode) and **LVM\_SETBKIMAGEA** (ANSI)<br/>             |
 
@@ -65,9 +71,9 @@ Because the list-view control uses OLE COM to manipulate the background images, 
 [**LVM\_GETBKIMAGE**](lvm-getbkimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

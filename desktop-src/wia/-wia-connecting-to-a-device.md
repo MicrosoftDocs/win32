@@ -1,6 +1,11 @@
 ---
-ms.assetid: '16ff280d-818b-4a4e-b5a6-16e81f5b35c6'
+ms.assetid: 16ff280d-818b-4a4e-b5a6-16e81f5b35c6
 title: Connecting to a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting to a Device

@@ -4,17 +4,22 @@ description: To be set only when the namespace is created. Stable across rename 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '66907d40-48a7-40ae-9031-1366a4a4d2a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 66907d40-48a7-40ae-9031-1366a4a4d2a2
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Namespace-Identity-GUID-v2 attribute AD Schema", "msDFS-NamespaceIdentityGUIDv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Namespace-Identity-GUID-v2 attribute AD Schema
+- msDFS-NamespaceIdentityGUIDv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Namespace-Identity-GUID-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Namespace-Identity-GUID-v2 attribute
@@ -38,9 +43,9 @@ To be set only when the namespace is created. Stable across rename or move as lo
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ To be set only when the namespace is created. Stable across rename or move as lo
 
 
 
- 
+ 
 
- 
+ 
 
 
 

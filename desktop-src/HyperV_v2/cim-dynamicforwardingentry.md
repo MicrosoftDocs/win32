@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an entry in the forwarding database associated with the CIM\_TransparentBridgingService class.'
-ms.assetid: '4c3afe7c-f7e5-4a83-8ba1-f0b1909cee52'
-title: 'CIM\_DynamicForwardingEntry class'
+Description: Represents an entry in the forwarding database associated with the CIM\_TransparentBridgingService class.
+ms.assetid: 4c3afe7c-f7e5-4a83-8ba1-f0b1909cee52
+title: CIM\_DynamicForwardingEntry class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DynamicForwardingEntry class
@@ -191,8 +196,8 @@ The name of the scoping system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -206,9 +211,9 @@ The name of the scoping system.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

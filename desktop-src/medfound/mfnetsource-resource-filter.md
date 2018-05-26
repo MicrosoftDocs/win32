@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the IMFNetResourceFilter callback interface for the Microsoft Media Foundation HTTP byte stream.'
-ms.assetid: 'C035B4AD-CF99-4A4F-9384-F80A3620BD27'
-title: 'MFNETSOURCE\_RESOURCE\_FILTER property'
+---
+Description: Contains a pointer to the IMFNetResourceFilter callback interface for the Microsoft Media Foundation HTTP byte stream.
+ms.assetid: C035B4AD-CF99-4A4F-9384-F80A3620BD27
+title: MFNETSOURCE\_RESOURCE\_FILTER property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_RESOURCE\_FILTER property
 
-Contains a pointer to the [**IMFNetResourceFilter**](imfnetresourcefilter.md) callback interface for the Microsoft Media Foundation HTTP byte stream.
+Contains a pointer to the [**IMFNetResourceFilter**](/windows/win32/mfidl/nn-mfidl-imfnetresourcefilter?branch=master) callback interface for the Microsoft Media Foundation HTTP byte stream.
 
 
 

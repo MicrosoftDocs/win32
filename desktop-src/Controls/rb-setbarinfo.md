@@ -1,8 +1,9 @@
 ---
 title: RB\_SETBARINFO message
 description: Sets the characteristics of a rebar control.
-ms.assetid: 'e4413d46-574f-4ccd-b5fd-3ba6c1e3924b'
-keywords: ["RB_SETBARINFO message Windows Controls"]
+ms.assetid: e4413d46-574f-4ccd-b5fd-3ba6c1e3924b
+keywords:
+- RB_SETBARINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_SETBARINFO message
@@ -27,7 +33,7 @@ Sets the characteristics of a rebar control.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REBARINFO**](rebarinfo.md) structure that contains the information to be set. You must set the **cbSize** member of this structure to **sizeof**(REBARINFO) before sending this message.
+Pointer to a [**REBARINFO**](/windows/win32/Commctrl/ns-commctrl-tagrebarinfo?branch=master) structure that contains the information to be set. You must set the **cbSize** member of this structure to **sizeof**(REBARINFO) before sending this message.
 
 </dd> </dl>
 
@@ -41,15 +47,15 @@ Returns nonzero if successful, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

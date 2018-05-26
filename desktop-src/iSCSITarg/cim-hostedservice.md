@@ -4,13 +4,15 @@ description: CIM\_HostedService is an association between a Service and the Syst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8efe036c-7757-43e7-be4d-b463ef2d8efa'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8efe036c-7757-43e7-be4d-b463ef2d8efa
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_HostedService class iSCSI Software Target API", "CIM_HostedService class iSCSI Software Target API , described"]
+keywords:
+- CIM_HostedService class iSCSI Software Target API
+- CIM_HostedService class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_HostedService class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Service")]
 class CIM_HostedService : CIM_HostedDependency
 {
-  CIM_System  REF Antecedent;
+  CIM_System  REF Antecedent;
   CIM_Service REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ The Service hosted on the System.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ The Service hosted on the System.
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

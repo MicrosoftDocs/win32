@@ -1,7 +1,12 @@
 ---
 title: Examples of Incompatible Changes
 description: When dealing with incompatible changes, the unfortunate rule of thumb is as follows any change can be backward incompatible, unless it is very well understood.
-ms.assetid: '5b893d79-b81d-4ede-8d49-71d85219c497'
+ms.assetid: 5b893d79-b81d-4ede-8d49-71d85219c497
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Examples of Incompatible Changes

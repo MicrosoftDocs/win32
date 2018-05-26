@@ -1,8 +1,10 @@
 ---
 title: MDM\_SecurityStatus class
 description: Represents security health metrics on the device.
-ms.assetid: '362e011a-aab7-4021-bf81-f589564e31ac'
-keywords: ["MDM_SecurityStatus class MDM Settings", "MDM_SecurityStatus class MDM Settings , described"]
+ms.assetid: 362e011a-aab7-4021-bf81-f589564e31ac
+keywords:
+- MDM_SecurityStatus class MDM Settings
+- MDM_SecurityStatus class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_SecurityStatus class
@@ -36,17 +43,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_SecurityStatus
 {
-  Uint32  Key;
-  Uint32  FirewallStatus;
-  Uint32  AutoUpdateStatus;
-  Uint32  AntiVirusStatus;
-  Uint32  AntiVirusSignatureStatus;
+  Uint32  Key;
+  Uint32  FirewallStatus;
+  Uint32  AutoUpdateStatus;
+  Uint32  AntiVirusStatus;
+  Uint32  AntiVirusSignatureStatus;
   boolean RequireEncryption;
-  Uint32  MaintenanceScheduleStartHour;
-  string  MaintenanceScheduleDelayPattern;
+  Uint32  MaintenanceScheduleStartHour;
+  string  MaintenanceScheduleDelayPattern;
   boolean MaintenanceScheduleAllowWakeup;
   boolean IsMicrosoftAccountOptional;
-  string  ApplicationContentUriRules;
+  string  ApplicationContentUriRules;
 };
 ```
 
@@ -157,7 +164,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-**Windows 8:** This property is supported beginning with Windows 8.1.
+**Windows 8:** This property is supported beginning with Windows 8.1.
 
 The application content URI rules. For example, "https://mail.microsoft.com/owa".
 
@@ -258,7 +265,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**Windows 8:** This property is supported beginning with Windows 8.1.
+**Windows 8:** This property is supported beginning with Windows 8.1.
 
 True if Microsoft accounts are optional to use modern applications.
 
@@ -289,7 +296,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**Windows 8:** This property is supported beginning with Windows 8.1.
+**Windows 8:** This property is supported beginning with Windows 8.1.
 
 True if to wake up the machine to start maintenance.
 
@@ -304,7 +311,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-**Windows 8:** This property is supported beginning with Windows 8.1.
+**Windows 8:** This property is supported beginning with Windows 8.1.
 
 The maintenance window start delay pattern. For example, "PT30M".
 
@@ -319,13 +326,13 @@ Data type: **Uint32**
 Access type: Read-only
 </dt> </dl>
 
-**Windows 8:** This property is supported beginning with Windows 8.1.
+**Windows 8:** This property is supported beginning with Windows 8.1.
 
 The maintenance window start hour.
 
 The possible values are.
 
-Range: 0–23
+Range: 0 23
 
 </dd> <dt>
 
@@ -348,7 +355,7 @@ True if BitLocker encryption is required.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -363,9 +370,9 @@ True if BitLocker encryption is required.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

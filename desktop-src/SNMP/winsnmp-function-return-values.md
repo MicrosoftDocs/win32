@@ -1,7 +1,12 @@
 ---
 title: WinSNMP Function Return Values
 description: The return value from a WinSNMP function call can be a handle to a resource that the Microsoft WinSNMP implementation allocates for the WinSNMP application.
-ms.assetid: 'f0723cc7-fa3b-4a72-93a0-49d40a1fedd5'
+ms.assetid: f0723cc7-fa3b-4a72-93a0-49d40a1fedd5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSNMP Function Return Values

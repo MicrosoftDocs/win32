@@ -1,14 +1,20 @@
 ---
 title: HTML resource
 description: Defines an HTML file.
-ms.assetid: 'd3cf8348-8c10-41d9-a061-cdce0e13abf4'
-keywords: ["HTML resource Menus and Other Resources"]
+ms.assetid: d3cf8348-8c10-41d9-a061-cdce0e13abf4
+keywords:
+- HTML resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - HTML
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML resource

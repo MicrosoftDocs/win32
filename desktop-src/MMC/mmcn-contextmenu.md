@@ -4,11 +4,15 @@ description: MMCN\_CONTEXTMENU
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b9599db4-89e8-423e-b0dd-c88133d11150'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b9599db4-89e8-423e-b0dd-c88133d11150
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_CONTEXTMENU"]
+keywords:
+- MMCN_CONTEXTMENU
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_CONTEXTMENU

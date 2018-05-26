@@ -1,14 +1,20 @@
 ---
 title: Ribbon.HelpButton property
 description: Represents a container for the Help Button.
-ms.assetid: 'a64239b2-2440-4bcf-8fd7-079003de6d8c'
-keywords: ["Ribbon.HelpButton property Windows Ribbon"]
+ms.assetid: a64239b2-2440-4bcf-8fd7-079003de6d8c
+keywords:
+- Ribbon.HelpButton property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Ribbon.HelpButton
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbon.HelpButton property
@@ -85,14 +91,14 @@ This section of code shows the **Ribbon.HelpButton** control declaration.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the type of the device''s network.'
-ms.assetid: '24d7cfbe-832f-4fe9-9645-5445cd7c7745'
-title: 'System.Devices.NetworkType'
+Description: Represents the type of the devices network.
+ms.assetid: 24d7cfbe-832f-4fe9-9645-5445cd7c7745
+title: System.Devices.NetworkType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.NetworkType

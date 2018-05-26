@@ -1,7 +1,12 @@
 ---
-Description: 'The IsQueued method determines whether the object is using a worker thread to deliver samples.'
-ms.assetid: '8d26661f-6cd7-42ea-bc4b-8746d22a7ca0'
-title: 'COutputQueue.IsQueued method'
+Description: The IsQueued method determines whether the object is using a worker thread to deliver samples.
+ms.assetid: 8d26661f-6cd7-42ea-bc4b-8746d22a7ca0
+title: COutputQueue.IsQueued method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.IsQueued method
@@ -43,9 +48,9 @@ Returns **TRUE** if the object is using a worker thread, or **FALSE** otherwise.
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The MSFT\_NetVirtualizationProviderRouteSettingData represents a physical route configured on the network interface the WNV module is configured on.'
-ms.assetid: 'a096336e-65d3-44f5-956d-a5b9ad4eb6f8'
-title: 'MSFT\_NetVirtualizationProviderRouteSettingData class'
+Description: The MSFT\_NetVirtualizationProviderRouteSettingData represents a physical route configured on the network interface the WNV module is configured on.
+ms.assetid: a096336e-65d3-44f5-956d-a5b9ad4eb6f8
+title: MSFT\_NetVirtualizationProviderRouteSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetVirtualizationProviderRouteSettingData class
@@ -106,17 +111,17 @@ The next hop gateway IP address for this route record.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>NetWNV.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetWNV.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

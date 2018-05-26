@@ -1,7 +1,12 @@
 ---
-Description: 'Most textures, like bitmaps, are a two-dimensional array of color values.'
-ms.assetid: 'fb56f2a1-c535-467c-9df4-1012c56fd09a'
-title: 'Texture Coordinates (Direct3D 9)'
+Description: Most textures, like bitmaps, are a two-dimensional array of color values.
+ms.assetid: fb56f2a1-c535-467c-9df4-1012c56fd09a
+title: Texture Coordinates (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Coordinates (Direct3D 9)
@@ -42,11 +47,11 @@ It is possible for texture coordinates of a vertex to be greater than 1.0. When 
 
 ## Texture Coordinates and Texture Stages
 
-Texture coordinates are associated with textures by way of texture stages. Textures get assigned to texture stages with SetTexture(stageIndex, pTexture). See [**IDirect3DDevice9::SetTexture**](idirect3ddevice9--settexture.md).
+Texture coordinates are associated with textures by way of texture stages. Textures get assigned to texture stages with SetTexture(stageIndex, pTexture). See [**IDirect3DDevice9::SetTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexture?branch=master).
 
 A Flexible Vertex Format(FVF) code can define up to eight sets of texture coordinates. The texture coordinate data is furnished by the user in the vertex data. The data is referred to with a zero based index: 0 - 7. There are up to eight texture blending stages. A texture is associated with a particular stage using SetTexture( stageIndex, pTexture).
 
-Once this is done, any set of texture coordinates can be used by any stage. Each set of coordinates is associated with a stage using SetTextureStageState( stageIndex, D3DTSS\_TEXCOORDINDEX, textureCoordinateIndex ). See [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md). This way, the blending stages can be set up to use any texture and any texture coordinates. More than one stage can use the same textures, or texture coordinates.
+Once this is done, any set of texture coordinates can be used by any stage. Each set of coordinates is associated with a stage using SetTextureStageState( stageIndex, D3DTSS\_TEXCOORDINDEX, textureCoordinateIndex ). See [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master). This way, the blending stages can be set up to use any texture and any texture coordinates. More than one stage can use the same textures, or texture coordinates.
 
 Additional information is contained in the following topics.
 

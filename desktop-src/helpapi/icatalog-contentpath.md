@@ -1,8 +1,11 @@
 ---
 title: ICatalog ContentPath property
 description: property ContentPath - returns the content path for this catalog
-ms.assetid: '3f44cecf-3628-4341-baaf-b4f7aebdbcfa'
-keywords: ["ContentPath property HelpAPI", "ContentPath property HelpAPI , ICatalog interface", "ICatalog interface HelpAPI , ContentPath property"]
+ms.assetid: 3f44cecf-3628-4341-baaf-b4f7aebdbcfa
+keywords:
+- ContentPath property HelpAPI
+- ContentPath property HelpAPI , ICatalog interface
+- ICatalog interface HelpAPI , ContentPath property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalog::ContentPath property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ContentPath(
-  [out, retval] BSTR *pRetVal
+  [out, retval] BSTR *pRetVal
 );
 ```
 
@@ -41,8 +49,8 @@ The content path for this catalog.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -54,9 +62,9 @@ The content path for this catalog.
 [**ICatalog**](icatalog.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

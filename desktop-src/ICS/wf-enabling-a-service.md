@@ -1,8 +1,15 @@
 ---
 title: Enabling a Service
 description: Enabling a Service
-ms.assetid: '2535db99-3fca-456b-8529-f16992ae4901'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 2535db99-3fca-456b-8529-f16992ae4901
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enabling a Service

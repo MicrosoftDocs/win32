@@ -4,11 +4,12 @@ description: The property method of the IADsEmail interface sets the property de
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '605ba62f-b15a-4411-839b-c4ad8acedd8a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 605ba62f-b15a-4411-839b-c4ad8acedd8a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsEmail Property Methods ADSI"]
+keywords:
+- IADsEmail Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -23,11 +24,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsEmail Property Methods
 
-The property method of the [**IADsEmail**](iadsemail.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsEmail**](/windows/win32/Iads/nn-iads-iadsemail?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -89,7 +93,7 @@ HRESULT put_Type(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -97,8 +101,8 @@ HRESULT put_Type(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsEmail is defined as 97AF011A-478E-11D1-A3B4-00C04FB950DC<br/>            |
@@ -109,15 +113,15 @@ HRESULT put_Type(
 
 <dl> <dt>
 
-[**IADsEmail**](iadsemail.md)
+[**IADsEmail**](/windows/win32/Iads/nn-iads-iadsemail?branch=master)
 </dt> <dt>
 
-[**ADS\_EMAIL**](ads-email.md)
+[**ADS\_EMAIL**](/windows/win32/Iads/ns-iads-__midl___midl_itf_ads_0000_0000_0014?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

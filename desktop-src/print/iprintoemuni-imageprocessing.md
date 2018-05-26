@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::ImageProcessing method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning.'
-ms.assetid: '201450cb-cda6-4dd3-93ee-056d1627b00d'
-title: 'IPrintOemUni::ImageProcessing method'
+---
+Description: The IPrintOemUniImageProcessing method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning.
+ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
+title: IPrintOemUniImageProcessing method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::ImageProcessing method

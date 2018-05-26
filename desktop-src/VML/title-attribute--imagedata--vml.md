@@ -1,7 +1,12 @@
 ---
 title: Title Attribute (ImageData)(VML)
 description: Title Attribute (ImageData)(VML)
-ms.assetid: '64abb8c3-69d6-46c7-8cc6-7c16068a47b2'
+ms.assetid: 64abb8c3-69d6-46c7-8cc6-7c16068a47b2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Title Attribute (ImageData)(VML)

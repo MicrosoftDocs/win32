@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualNetwork Properties
 description: The IVMVirtualMachineEvents interface defines the following properties
-ms.assetid: 'c8c3907e-09bc-44eb-8662-38fb986a90f5'
+ms.assetid: c8c3907e-09bc-44eb-8662-38fb986a90f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork Properties

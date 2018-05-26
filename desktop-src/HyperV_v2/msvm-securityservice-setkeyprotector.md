@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the key protector for a virtual system.'
-ms.assetid: '84c114cb-a3a0-44f2-b862-38b05b96bd46'
-title: 'SetKeyProtector method of the Msvm\_SecurityService class'
+Description: Sets the key protector for a virtual system.
+ms.assetid: 84c114cb-a3a0-44f2-b862-38b05b96bd46
+title: SetKeyProtector method of the Msvm\_SecurityService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetKeyProtector method of the Msvm\_SecurityService class
@@ -13,9 +18,9 @@ Sets the key protector for a virtual system.
 
 ```mof
 uint32 SetKeyProtector(
-  [in]  string              SecuritySettingData,
-  [in]  uint8               KeyProtector[],
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SecuritySettingData,
+  [in]  uint8               KeyProtector[],
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -97,8 +102,8 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -112,9 +117,9 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 [**Msvm\_SecurityService**](msvm-securityservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

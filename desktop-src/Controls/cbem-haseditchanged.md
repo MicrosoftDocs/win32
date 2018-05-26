@@ -1,8 +1,9 @@
 ---
 title: CBEM\_HASEDITCHANGED message
 description: Determines whether the user has changed the text of a ComboBoxEx edit control.
-ms.assetid: '8bf8c40a-e1ab-4748-899b-a9ed27767884'
-keywords: ["CBEM_HASEDITCHANGED message Windows Controls"]
+ms.assetid: 8bf8c40a-e1ab-4748-899b-a9ed27767884
+keywords:
+- CBEM_HASEDITCHANGED message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEM\_HASEDITCHANGED message
@@ -45,15 +51,15 @@ The [**CBS\_SIMPLE**](combo-box-styles.md#cbs-simple) style does not work correc
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

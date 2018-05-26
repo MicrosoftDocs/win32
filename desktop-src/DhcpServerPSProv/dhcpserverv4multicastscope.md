@@ -4,13 +4,15 @@ description: Dhcp Server v4 Multicast Scope class.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c5f0abc4-1160-4421-9ce7-847ea32d0a92'
-ms.prod: 'windows-server-dev'
+ms.assetid: c5f0abc4-1160-4421-9ce7-847ea32d0a92
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4MulticastScope class", "DhcpServerv4MulticastScope class, described"]
+keywords:
+- DhcpServerv4MulticastScope class
+- DhcpServerv4MulticastScope class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4MulticastScope class
@@ -41,14 +46,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4MulticastScope
 {
-  string   Name;
-  string   Description;
-  string   StartRange;
-  string   EndRange;
+  string   Name;
+  string   Description;
+  string   StartRange;
+  string   EndRange;
   DateTime LeaseDuration;
   DateTime ExpiryTime;
-  string   State;
-  UINT32   Ttl;
+  string   State;
+  UINT32   Ttl;
 };
 ```
 
@@ -191,16 +196,16 @@ Number of routers through which multicast traffic passes through.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

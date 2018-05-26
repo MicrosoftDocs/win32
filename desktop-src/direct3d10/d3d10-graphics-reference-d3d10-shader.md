@@ -1,7 +1,12 @@
 ---
-Description: 'The Direct3D API defines several API elements to help you create and manage programmable shaders.'
-ms.assetid: 'b493a9e9-6fd6-4383-aa0b-3b3ac287116d'
+Description: The Direct3D API defines several API elements to help you create and manage programmable shaders.
+ms.assetid: b493a9e9-6fd6-4383-aa0b-3b3ac287116d
 title: Shader Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Reference

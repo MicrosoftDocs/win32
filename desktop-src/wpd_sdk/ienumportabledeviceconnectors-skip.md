@@ -1,7 +1,12 @@
 ---
-Description: 'Skips the specified number of devices in the enumeration sequence.'
-ms.assetid: '38b72b80-93f5-433e-977c-e3ee503daae5'
-title: 'IEnumPortableDeviceConnectors::Skip method'
+Description: Skips the specified number of devices in the enumeration sequence.
+ms.assetid: 38b72b80-93f5-433e-977c-e3ee503daae5
+title: IEnumPortableDeviceConnectorsSkip method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPortableDeviceConnectors::Skip method
@@ -13,7 +18,7 @@ The **Skip** method skips the specified number of devices in the enumeration seq
 
 ```C++
 HRESULT Skip(
-  [in] UINT32 cConnectors
+  [in] UINT32 cConnectors
 );
 ```
 
@@ -43,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,8 +56,8 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 |                                     |                                                                                                                                                                        |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                                   |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                                   |
 | Header<br/>                   | <dl> <dt>Devpkey.h; </dt> <dt>Portabledeviceconnectapi.h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Portabledeviceconnectapi.idl</dt> </dl>                                                                |
 | Library<br/>                  | <dl> <dt>PortableDeviceGuids.lib</dt> </dl>                                                                     |
@@ -66,9 +71,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IEnumPortableDeviceConnectors**](ienumportabledeviceconnectors.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

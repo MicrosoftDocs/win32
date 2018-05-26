@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Vista introduces a large number of functions that use locale names instead of locale identifiers.'
-ms.assetid: 'e88c31b2-b1da-40ae-b512-67b8ad409b95'
-title: 'Calling the "Locale Name" Functions'
+Description: Windows Vista introduces a large number of functions that use locale names instead of locale identifiers.
+ms.assetid: e88c31b2-b1da-40ae-b512-67b8ad409b95
+title: Calling the "Locale Name" Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling the "Locale Name" Functions
@@ -19,24 +24,24 @@ The following table lists the locale name functions along with the older functio
 
 | Functions using locale names                                     | Functions using locale identifiers                                                             |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [**CompareStringEx**](comparestringex.md)                       | [**CompareString**](comparestring.md)                                                         |
-| [**EnumCalendarInfoExEx**](enumcalendarinfoexex.md)             | [**EnumCalendarInfo**](enumcalendarinfo.md), [**EnumCalendarInfoEx**](enumcalendarinfoex.md) |
-| [**EnumDateFormatsExEx**](enumdateformatsexex.md)               | [**EnumDateFormats**](enumdateformats.md), [**EnumDateFormatsEx**](enumdateformatsex.md)     |
-| [**EnumSystemLocalesEx**](enumsystemlocalesex.md)               | [**EnumSystemLocales**](enumsystemlocales.md)                                                 |
-| [**EnumTimeFormatsEx**](enumtimeformatsex.md)                   | [**EnumTimeFormats**](enumtimeformats.md)                                                     |
-| [**FindNLSStringEx**](findnlsstringex.md)                       | [**FindNLSString**](findnlsstring.md)                                                         |
-| [**GetCalendarInfoEx**](getcalendarinfoex.md)                   | [**GetCalendarInfo**](getcalendarinfo.md)                                                     |
-| [**GetCurrencyFormatEx**](getcurrencyformatex.md)               | [**GetCurrencyFormat**](getcurrencyformat.md)                                                 |
-| [**GetDateFormatEx**](getdateformatex.md)                       | [**GetDateFormat**](getdateformat.md)                                                         |
-| [**GetDurationFormatEx**](getdurationformatex.md)               | [**GetDurationFormat**](getdurationformat.md)                                                 |
-| [**GetLocaleInfoEx**](getlocaleinfoex.md)                       | [**GetLocaleInfo**](getlocaleinfo.md)                                                         |
-| [**GetNLSVersionEx**](getnlsversionex.md)                       | [**GetNLSVersion**](getnlsversion.md)                                                         |
-| [**GetNumberFormatEx**](getnumberformatex.md)                   | [**GetNumberFormat**](getnumberformat.md)                                                     |
-| [**GetSystemDefaultLocaleName**](getsystemdefaultlocalename.md) | [**GetSystemDefaultLCID**](getsystemdefaultlcid.md)                                           |
-| [**GetTimeFormatEx**](gettimeformatex.md)                       | [**GetTimeFormat**](gettimeformat.md)                                                         |
-| [**GetUserDefaultLocaleName**](getuserdefaultlocalename.md)     | [**GetUserDefaultLCID**](getuserdefaultlcid.md)                                               |
-| [**IsValidLocaleName**](isvalidlocalename.md)                   | [**IsValidLocale**](isvalidlocale.md)                                                         |
-| [**LCMapStringEx**](lcmapstringex.md)                           | [**LCMapString**](lcmapstring.md)                                                             |
+| [**CompareStringEx**](/windows/win32/Stringapiset/nf-stringapiset-comparestringex?branch=master)                       | [**CompareString**](/windows/win32/Winnls/nf-stringapiset-comparestringw?branch=master)                                                         |
+| [**EnumCalendarInfoExEx**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoexex?branch=master)             | [**EnumCalendarInfo**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoa?branch=master), [**EnumCalendarInfoEx**](/windows/win32/Winnls/nf-winnls-enumcalendarinfoexa?branch=master) |
+| [**EnumDateFormatsExEx**](/windows/win32/Winnls/nf-winnls-enumdateformatsexex?branch=master)               | [**EnumDateFormats**](/windows/win32/Winnls/nf-winnls-enumdateformatsa?branch=master), [**EnumDateFormatsEx**](/windows/win32/Winnls/nf-winnls-enumdateformatsexa?branch=master)     |
+| [**EnumSystemLocalesEx**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesex?branch=master)               | [**EnumSystemLocales**](/windows/win32/Winnls/nf-winnls-enumsystemlocalesa?branch=master)                                                 |
+| [**EnumTimeFormatsEx**](/windows/win32/Winnls/nf-winnls-enumtimeformatsex?branch=master)                   | [**EnumTimeFormats**](/windows/win32/Winnls/nf-winnls-enumtimeformatsa?branch=master)                                                     |
+| [**FindNLSStringEx**](/windows/win32/Winnls/nf-winnls-findnlsstringex?branch=master)                       | [**FindNLSString**](/windows/win32/Winnls/nf-winnls-findnlsstring?branch=master)                                                         |
+| [**GetCalendarInfoEx**](/windows/win32/Winnls/nf-winnls-getcalendarinfoex?branch=master)                   | [**GetCalendarInfo**](/windows/win32/Winnls/nf-winnls-getcalendarinfoa?branch=master)                                                     |
+| [**GetCurrencyFormatEx**](/windows/win32/Winnls/nf-winnls-getcurrencyformatex?branch=master)               | [**GetCurrencyFormat**](/windows/win32/Winnls/nf-winnls-getcurrencyformata?branch=master)                                                 |
+| [**GetDateFormatEx**](/windows/win32/datetimeapi/nf-datetimeapi-getdateformatex?branch=master)                       | [**GetDateFormat**](/windows/win32/datetimeapi/nf-datetimeapi-getdateformata?branch=master)                                                         |
+| [**GetDurationFormatEx**](/windows/win32/Winnls/nf-winnls-getdurationformatex?branch=master)               | [**GetDurationFormat**](/windows/win32/Winnls/nf-winnls-getdurationformat?branch=master)                                                 |
+| [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master)                       | [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master)                                                         |
+| [**GetNLSVersionEx**](/windows/win32/Winnls/nf-winnls-getnlsversionex?branch=master)                       | [**GetNLSVersion**](/windows/win32/Winnls/nf-winnls-getnlsversion?branch=master)                                                         |
+| [**GetNumberFormatEx**](/windows/win32/Winnls/nf-winnls-getnumberformatex?branch=master)                   | [**GetNumberFormat**](/windows/win32/Winnls/nf-winnls-getnumberformata?branch=master)                                                     |
+| [**GetSystemDefaultLocaleName**](/windows/win32/Winnls/nf-winnls-getsystemdefaultlocalename?branch=master) | [**GetSystemDefaultLCID**](/windows/win32/Winnls/nf-winnls-getsystemdefaultlcid?branch=master)                                           |
+| [**GetTimeFormatEx**](/windows/win32/datetimeapi/nf-datetimeapi-gettimeformatex?branch=master)                       | [**GetTimeFormat**](/windows/win32/datetimeapi/nf-datetimeapi-gettimeformata?branch=master)                                                         |
+| [**GetUserDefaultLocaleName**](/windows/win32/Winnls/nf-winnls-getuserdefaultlocalename?branch=master)     | [**GetUserDefaultLCID**](/windows/win32/Winnls/nf-winnls-getuserdefaultlcid?branch=master)                                               |
+| [**IsValidLocaleName**](/windows/win32/Winnls/nf-winnls-isvalidlocalename?branch=master)                   | [**IsValidLocale**](/windows/win32/Winnls/nf-winnls-isvalidlocale?branch=master)                                                         |
+| [**LCMapStringEx**](/windows/win32/Winnls/nf-winnls-lcmapstringex?branch=master)                           | [**LCMapString**](/windows/win32/Winnls/nf-winnls-lcmapstringa?branch=master)                                                             |
 
 
 

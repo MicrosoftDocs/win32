@@ -2,13 +2,16 @@
 title: Get method of the PS\_VpnS2SInterfaceStatistics class
 description: Retrieves statistics of an S2S interface for the specified VPN connection.
 audience: developer
-ms.assetid: '1702a123-3762-4666-97e6-567df8f844ae'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1702a123-3762-4666-97e6-567df8f844ae
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_VpnS2SInterfaceStatistics class", "PS_VpnS2SInterfaceStatistics class, Get method"]
+keywords:
+- Get method
+- Get method, PS_VpnS2SInterfaceStatistics class
+- PS_VpnS2SInterfaceStatistics class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_VpnS2SInterfaceStatistics class
@@ -28,10 +34,10 @@ Retrieves statistics of an S2S interface for the specified VPN connection.
 
 ```mof
 uint32 Get(
-  [in]  string                    Name,
-  [in]  boolean                   Clear,
-  [in]  boolean                   Force,
-  [out] VpnS2SInterfaceStatistics cmdletOutput
+  [in]  string                    Name,
+  [in]  boolean                   Clear,
+  [in]  boolean                   Force,
+  [out] VpnS2SInterfaceStatistics cmdletOutput
 );
 ```
 
@@ -53,7 +59,7 @@ Specifies the name of the connection.
 
 Indicates whether to delete the statistics. **True** to delete the statistics; otherwise **false**.
 
-**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -62,7 +68,7 @@ Indicates whether to delete the statistics. **True** to delete the statistics; o
 
 Indicates whether this method displays the default confirmation prompt to the user. **True** to display the default confirmation prompt; otherwise **false**.
 
-**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is not available before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -80,7 +86,7 @@ The cmdlet output.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -94,9 +100,9 @@ The cmdlet output.
 [**PS\_VpnS2SInterfaceStatistics**](ps-vpns2sinterfacestatistics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: D1107 Internal Error
 description: D1107 Internal Error
-ms.assetid: '8faafff5-246d-401d-9a28-6d1a26fce73f'
-keywords: ["D1107 Internal Error Direct2D"]
+ms.assetid: 8faafff5-246d-401d-9a28-6d1a26fce73f
+keywords:
+- D1107 Internal Error Direct2D
 topic_type:
 - apiref
 api_name:
 - D1107 Internal Error
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1107: Internal Error

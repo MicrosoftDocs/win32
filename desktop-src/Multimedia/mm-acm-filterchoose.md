@@ -1,8 +1,9 @@
 ---
 title: MM\_ACM\_FILTERCHOOSE message
 description: The MM\_ACM\_FILTERCHOOSE message notifies an acmFilterChoose dialog box hook function before adding an element to one of the three drop-down list boxes.
-ms.assetid: 'f3c68240-a9aa-4771-96b9-1cb3bb5ea906'
-keywords: ["MM_ACM_FILTERCHOOSE message Windows Multimedia"]
+ms.assetid: f3c68240-a9aa-4771-96b9-1cb3bb5ea906
+keywords:
+- MM_ACM_FILTERCHOOSE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Msacm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_ACM\_FILTERCHOOSE message
 
-The **MM\_ACM\_FILTERCHOOSE** message notifies an [**acmFilterChoose**](acmfilterchoose.md) dialog box hook function before adding an element to one of the three drop-down list boxes. This message allows an application to further customize the selections available through the user interface.
+The **MM\_ACM\_FILTERCHOOSE** message notifies an [**acmFilterChoose**](/windows/win32/Msacm/nf-msacm-acmfilterchoose?branch=master) dialog box hook function before adding an element to one of the three drop-down list boxes. This message allows an application to further customize the selections available through the user interface.
 
 
 ```C++
@@ -40,15 +46,15 @@ Drop-down list box being initialized and a verify or add operation.
 
 |                                 |                                                                                                                                                                                                                                          |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FILTERCHOOSE\_CUSTOM\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFILTER**](wavefilter.md) structure to be added to the custom Name drop-down list box.                                                                                                   |
-| FILTERCHOOSE\_FILTER\_ADD       | The *lParam* parameter is a pointer to a buffer that will accept a [**WAVEFILTER**](wavefilter.md) structure to be added to the Filter drop-down list box. The application must copy the filter structure to be added into this buffer. |
-| FILTERCHOOSE\_FILTER\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFILTER**](wavefilter.md) structure to be added to the Filter drop-down list box.                                                                                                        |
+| FILTERCHOOSE\_CUSTOM\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFILTER**](/windows/win32/Mmreg/ns-mmreg-wavefilter_tag?branch=master) structure to be added to the custom Name drop-down list box.                                                                                                   |
+| FILTERCHOOSE\_FILTER\_ADD       | The *lParam* parameter is a pointer to a buffer that will accept a [**WAVEFILTER**](/windows/win32/Mmreg/ns-mmreg-wavefilter_tag?branch=master) structure to be added to the Filter drop-down list box. The application must copy the filter structure to be added into this buffer. |
+| FILTERCHOOSE\_FILTER\_VERIFY    | The *lParam* parameter is a pointer to a [**WAVEFILTER**](/windows/win32/Mmreg/ns-mmreg-wavefilter_tag?branch=master) structure to be added to the Filter drop-down list box.                                                                                                        |
 | FILTERCHOOSE\_FILTERTAG\_ADD    | The *lParam* parameter is a pointer to a **DWORD** that will accept a waveform-audio filter tag to be added to the Filter Tag drop-down list box.                                                                                        |
 | FILTERCHOOSE\_FILTERTAG\_VERIFY | The *lParam* parameter is a waveform-audio filter tag to be listed in the Filter Tag drop-down list box.                                                                                                                                 |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -65,7 +71,7 @@ Returns **TRUE** if an application handles this message or **FALSE** otherwise.
 
 ## Remarks
 
-If the application processes the FILTERCHOOSE\_FILTER\_ADD operation, the size of the memory buffer supplied in *lParam* will be determined from the [**acmMetrics**](acmmetrics.md) function.
+If the application processes the FILTERCHOOSE\_FILTER\_ADD operation, the size of the memory buffer supplied in *lParam* will be determined from the [**acmMetrics**](/windows/win32/Msacm/nf-msacm-acmmetrics?branch=master) function.
 
 If the application processes a verify operation, the application must precede the return value with **SetWindowLong** (hwnd, DWL\_MSGRESULT, (LONG) **FALSE**) to prevent the dialog box from listing this selection or with **SetWindowLong** (hwnd, DWL\_MSGRESULT, (LONG)**TRUE**) to allow the dialog box to list this selection. If processing an add operation, the application must precede the return with **SetWindowLong** (hwnd, DWL\_MSGRESULT, (LONG)**FALSE**) to indicate that no more additions are required or with **SetWindowLong** (hwnd, DWL\_MSGRESULT, (LONG)**TRUE**) if more additions are required.
 
@@ -75,8 +81,8 @@ If the application processes a verify operation, the application must precede th
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Msacm.h</dt> </dl> |
 
 
@@ -91,9 +97,9 @@ If the application processes a verify operation, the application must precede th
 [Audio Compression Messages](audio-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

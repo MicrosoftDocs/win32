@@ -4,11 +4,12 @@ description: Property methods for the IADsPrintJob interface get or set the prop
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '23e7cbf3-09ce-44ce-b618-2c0fa6b34428'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 23e7cbf3-09ce-44ce-b618-2c0fa6b34428
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPrintJob Property Methods ADSI"]
+keywords:
+- IADsPrintJob Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -46,11 +47,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPrintJob Property Methods
 
-Property methods for the [**IADsPrintJob**](iadsprintjob.md) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+Property methods for the [**IADsPrintJob**](/windows/win32/Iads/nn-iads-iadsprintjob?branch=master) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -371,7 +375,7 @@ HRESULT get_UserPath(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -481,8 +485,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsPrintJob is defined as 32FB6780-1ED0-11CF-A988-00AA006BC149<br/>         |
@@ -493,15 +497,15 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsPrintJob**](iadsprintjob.md)
+[**IADsPrintJob**](/windows/win32/Iads/nn-iads-iadsprintjob?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

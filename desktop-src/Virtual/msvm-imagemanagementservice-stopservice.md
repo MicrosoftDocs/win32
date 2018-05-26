@@ -1,8 +1,11 @@
 ---
 title: StopService method of the Msvm\_ImageManagementService class
 description: Stops the service.CIM\_Service.
-ms.assetid: '28a18a9d-f2ea-4c79-80c7-4b23649d691a'
-keywords: ["StopService method Hyper-V", "StopService method Hyper-V , Msvm_ImageManagementService class", "Msvm_ImageManagementService class Hyper-V , StopService method"]
+ms.assetid: 28a18a9d-f2ea-4c79-80c7-4b23649d691a
+keywords:
+- StopService method Hyper-V
+- StopService method Hyper-V , Msvm_ImageManagementService class
+- Msvm_ImageManagementService class Hyper-V , StopService method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopService method of the Msvm\_ImageManagementService class
@@ -57,9 +65,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

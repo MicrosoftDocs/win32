@@ -1,7 +1,12 @@
 ---
-Description: 'The CQueue class template implements a simple, statically sized queue.'
-ms.assetid: '5a4f0bcf-24ed-427d-898d-f3ddc6a35b59'
+Description: The CQueue class template implements a simple, statically sized queue.
+ms.assetid: 5a4f0bcf-24ed-427d-898d-f3ddc6a35b59
 title: CQueue class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CQueue class
@@ -19,7 +24,7 @@ The **CQueue** class template implements a simple, statically sized queue.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,9 +51,9 @@ The class uses two semaphores to control queuing operations, a "get" semaphore a
 
 
 
- 
+ 
 
- 
+ 
 
 
 

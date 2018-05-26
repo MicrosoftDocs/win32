@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the address of a delay-load failure callback function for the specified DLL and process.'
-ms.assetid: 'db1d34cb-800a-4984-b4a3-d1ce1c6ee86c'
+---
+Description: Returns the address of a delay-load failure callback function for the specified DLL and process.
+ms.assetid: db1d34cb-800a-4984-b4a3-d1ce1c6ee86c
 title: DelayLoadFailureHook function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DelayLoadFailureHook function

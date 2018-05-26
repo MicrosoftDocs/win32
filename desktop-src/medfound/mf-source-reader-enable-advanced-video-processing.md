@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables advanced video processing by the Source Reader, including color space conversion, deinterlacing, video resizing, and frame-rate conversion.'
-ms.assetid: '1055CD55-4B25-4EEC-AF1B-C84C52287F8F'
-title: 'MF\_SOURCE\_READER\_ENABLE\_ADVANCED\_VIDEO\_PROCESSING attribute'
+---
+Description: Enables advanced video processing by the Source Reader, including color space conversion, deinterlacing, video resizing, and frame-rate conversion.
+ms.assetid: 1055CD55-4B25-4EEC-AF1B-C84C52287F8F
+title: MF\_SOURCE\_READER\_ENABLE\_ADVANCED\_VIDEO\_PROCESSING attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SOURCE\_READER\_ENABLE\_ADVANCED\_VIDEO\_PROCESSING attribute
@@ -23,9 +28,9 @@ If this attribute is **TRUE**, the Source Reader can insert a video processor in
 
 If this attribute is **TRUE**, the [MF\_READWRITE\_DISABLE\_CONVERTERS](mf-readwrite-disable-converters.md) attribute must be **FALSE**.
 
-The Source Reader looks for video processors that are registered in the **MFT\_CATEGORY\_VIDEO\_PROCESSOR** category, including MFTs that are registered for the local process. (See [**MFTRegisterLocal**](mftregisterlocal.md) for more information about local registration of MFTs.) The Source Reader uses the Transcode Video Processor (XVP) if no other suitable video processor is found.
+The Source Reader looks for video processors that are registered in the **MFT\_CATEGORY\_VIDEO\_PROCESSOR** category, including MFTs that are registered for the local process. (See [**MFTRegisterLocal**](/windows/win32/mfapi/nf-mfapi-mftregisterlocal?branch=master) for more information about local registration of MFTs.) The Source Reader uses the Transcode Video Processor (XVP) if no other suitable video processor is found.
 
-The application specifies the desired output type by calling [**IMFSourceReader::SetCurrentMediaType**](imfsourcereader-setcurrentmediatype.md). When the Source Reader configures the video processor, it attempts to match the following attributes of the output type:
+The application specifies the desired output type by calling [**IMFSourceReader::SetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype?branch=master). When the Source Reader configures the video processor, it attempts to match the following attributes of the output type:
 
 -   Frame rate ([MF\_MT\_FRAME\_RATE](mf-mt-frame-rate-attribute.md))
 -   Frame size ([MF\_MT\_FRAME\_SIZE](mf-mt-frame-size-attribute.md))

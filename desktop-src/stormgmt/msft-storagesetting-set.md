@@ -1,8 +1,11 @@
 ---
 title: Set method of the MSFT\_StorageSetting class
 description: Sets the state of various storage settings on this computer.
-ms.assetid: '94F98CA7-795B-481C-BE97-B65FF015B761'
-keywords: ["Set method Windows Storage Management API", "Set method Windows Storage Management API , MSFT_StorageSetting class", "MSFT_StorageSetting class Windows Storage Management API , Set method"]
+ms.assetid: 94F98CA7-795B-481C-BE97-B65FF015B761
+keywords:
+- Set method Windows Storage Management API
+- Set method Windows Storage Management API , MSFT_StorageSetting class
+- MSFT_StorageSetting class Windows Storage Management API , Set method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set method of the MSFT\_StorageSetting class
@@ -24,8 +32,8 @@ Only the parameters specified will be set on the system.
 
 ```mof
 UInt32 Set(
-  [in] UInt16 NewDiskPolicy,
-  [in] UInt32 ScrubPolicy
+  [in] UInt16 NewDiskPolicy,
+  [in] UInt32 ScrubPolicy
 );
 ```
 
@@ -52,7 +60,7 @@ The new disk policy.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -71,7 +79,7 @@ The file scrub policy of the automatic data integrity scanner.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -81,8 +89,8 @@ The file scrub policy of the automatic data integrity scanner.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -95,9 +103,9 @@ The file scrub policy of the automatic data integrity scanner.
 [**MSFT\_StorageSetting**](msft-storagesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,24 @@
 ---
-Description: 'The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. This method implements the IMediaSeeking::GetCurrentPosition method.'
-ms.assetid: '07020182-2199-4153-9bab-f30d112bc09f'
-title: 'CPosPassThru.GetCurrentPosition method'
+Description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. This method implements the IMediaSeekingGetCurrentPosition method.
+ms.assetid: 07020182-2199-4153-9bab-f30d112bc09f
+title: CPosPassThru.GetCurrentPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.GetCurrentPosition method
 
-The `GetCurrentPosition` method retrieves the current position, relative to the total duration of the stream. This method implements the [**IMediaSeeking::GetCurrentPosition**](imediaseeking-getcurrentposition.md) method.
+The `GetCurrentPosition` method retrieves the current position, relative to the total duration of the stream. This method implements the [**IMediaSeeking::GetCurrentPosition**](/windows/win32/Strmif/nf-strmif-imediaseeking-getcurrentposition?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetCurrentPosition(
-   LONGLONG *pCurrent
+   LONGLONG *pCurrent
 );
 ```
 
@@ -44,7 +49,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +75,9 @@ The **GetMediaTime** method fails by default in the base class. If your filter c
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

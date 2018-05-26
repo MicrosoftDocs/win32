@@ -1,7 +1,12 @@
 ---
-Description: 'Frequently asked questions for Web Authentication Broker.'
-ms.assetid: '49ACB2E3-CF57-4D8E-9670-E7C18A06F76A'
+Description: Frequently asked questions for Web Authentication Broker.
+ms.assetid: 49ACB2E3-CF57-4D8E-9670-E7C18A06F76A
 title: FAQ for Web Authentication Broker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FAQ for Web Authentication Broker

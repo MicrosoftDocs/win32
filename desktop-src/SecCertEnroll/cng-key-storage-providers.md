@@ -1,7 +1,12 @@
 ---
-Description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers (KSPs).'
-ms.assetid: 'bd4aadc5-d953-4971-b862-00f6d4db0572'
+Description: Unlike Cryptography API (CryptoAPI), Cryptography API Next Generation (CNG) separates cryptographic providers from key storage providers (KSPs).
+ms.assetid: bd4aadc5-d953-4971-b862-00f6d4db0572
 title: CNG Key Storage Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CNG Key Storage Providers

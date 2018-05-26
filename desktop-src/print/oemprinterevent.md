@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMPrinterEvent function
-ms.assetid: 'bbd37342-f0d0-43e0-bc27-1b47c426da6e'
+ms.assetid: bbd37342-f0d0-43e0-bc27-1b47c426da6e
 title: OEMPrinterEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMPrinterEvent function

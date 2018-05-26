@@ -4,11 +4,17 @@ description: This section describes the extended LDAP controls. All extended con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3e1e29ff-43ec-4cc3-9414-41b7c61f8b42'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 3e1e29ff-43ec-4cc3-9414-41b7c61f8b42
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Extended Controls", "LDAP LDAP , reference, extended controls", "Extended LDAP Controls"]
+keywords:
+- Extended Controls
+- LDAP LDAP , reference, extended controls
+- Extended LDAP Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extended Controls

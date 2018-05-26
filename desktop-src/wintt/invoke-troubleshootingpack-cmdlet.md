@@ -1,7 +1,12 @@
 ---
 title: Invoke-TroubleshootingPack Cmdlet
 description: Runs a troubleshooting pack from a Windows Powershell window in interactive or unattended mode.
-ms.assetid: '07707830-67d2-4ff0-a70e-e9e16dc74c12'
+ms.assetid: 07707830-67d2-4ff0-a70e-e9e16dc74c12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Invoke-TroubleshootingPack Cmdlet
@@ -42,7 +47,7 @@ The troubleshooting pack to run. To get the DiagPack object, call the [Get-Troub
 
 
 
- 
+ 
 
 ### -AnswerFile *String*
 
@@ -65,7 +70,7 @@ Typically, you do not use an answer file in interactive mode but sometimes it is
 
 
 
- 
+ 
 
 ### -Unattended
 
@@ -88,7 +93,7 @@ To determine whether the root cause runs manually, access the RootCause.Manual p
 
 
 
- 
+ 
 
 ### -Result *String*
 
@@ -118,7 +123,7 @@ The Results.xsl applies only to the ResultsReport.
 
 
 
- 
+ 
 
 ## Input and Return Types
 
@@ -131,7 +136,7 @@ The input type is the type of the objects that you can pipe to the cmdlet. The r
 
 
 
- 
+ 
 
 ## Examples
 
@@ -159,9 +164,9 @@ The following example shows how to run the specified pack in unattended mode usi
 
 **PS:&gt;Invoke-TroubleshootingPack -Pack $aero -Answer AeroAnswerFile.xml -Unattended**
 
- 
+ 
 
- 
+ 
 
 
 

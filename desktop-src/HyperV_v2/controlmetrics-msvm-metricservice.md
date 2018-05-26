@@ -1,7 +1,12 @@
 ---
-Description: 'Used to control the collection of metrics for a managed element or elements.'
-ms.assetid: '3DC043ED-A790-4322-BF80-55961E9946C2'
-title: 'ControlMetrics method of the Msvm\_MetricService class'
+Description: Used to control the collection of metrics for a managed element or elements.
+ms.assetid: 3DC043ED-A790-4322-BF80-55961E9946C2
+title: ControlMetrics method of the Msvm\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlMetrics method of the Msvm\_MetricService class
@@ -13,9 +18,9 @@ Used to control the collection of metrics for a managed element or elements.
 
 ```mof
 uint32 ControlMetrics(
-  [in] CIM_ManagedElement       REF Subject,
-  [in] CIM_BaseMetricDefinition REF Definition,
-  [in] uint16                       MetricCollectionEnabled
+  [in] CIM_ManagedElement       REF Subject,
+  [in] CIM_BaseMetricDefinition REF Definition,
+  [in] uint16                       MetricCollectionEnabled
 );
 ```
 
@@ -128,8 +133,8 @@ This method will fail in the following instances:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -143,9 +148,9 @@ This method will fail in the following instances:
 [**Msvm\_MetricService**](msvm-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

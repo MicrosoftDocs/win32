@@ -1,8 +1,29 @@
 ---
 title: Tree Control Type
 description: This topic provides information about Microsoft UI Automation support for the Tree control type.
-ms.assetid: '0fa8f308-7815-4561-a1ce-c5f5582861da'
-keywords: ["UI Automation,support for Tree control type", "UI Automation,Tree control type", "UI Automation,tree structure for Tree control type", "UI Automation,properties for Tree control type", "UI Automation,control patterns for Tree control type", "UI Automation,events for Tree control type", "tree structures,Tree control type", "properties,Tree control type", "control patterns,Tree control type", "events,Tree control type", "support for Tree control type", "Tree control type", "control types,tree structure for Tree control type", "control types,control patterns for Tree control type", "control types,support for Tree", "control types,Tree"]
+ms.assetid: 0fa8f308-7815-4561-a1ce-c5f5582861da
+keywords:
+- UI Automation,support for Tree control type
+- UI Automation,Tree control type
+- UI Automation,tree structure for Tree control type
+- UI Automation,properties for Tree control type
+- UI Automation,control patterns for Tree control type
+- UI Automation,events for Tree control type
+- tree structures,Tree control type
+- properties,Tree control type
+- control patterns,Tree control type
+- events,Tree control type
+- support for Tree control type
+- Tree control type
+- control types,tree structure for Tree control type
+- control types,control patterns for Tree control type
+- control types,support for Tree
+- control types,Tree
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tree Control Type
@@ -97,7 +118,7 @@ The following table lists the UI Automation properties whose value or definition
 | [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid)         | TRUE       | The tree control is always included in the content view of the UI Automation tree.                                                                                                                                                                                                         |
 | [**UIA\_IsControlElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontrolelementpropertyid)         | TRUE       | The tree control is always included in the control view of the UI Automation tree.                                                                                                                                                                                                         |
 | [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)   | See notes. | If the control can receive keyboard focus, it must support this property.                                                                                                                                                                                                                  |
-| [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md#uia-labeledbypropertyid)                       | See notes. | If the tree control has a label associated with it, this property returns a [**IUIAutomationElement**](uiauto-iuiautomationelement.md) pointer for that label. Otherwise, the property returns a null reference.                                                                          |
+| [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md#uia-labeledbypropertyid)                       | See notes. | If the tree control has a label associated with it, this property returns a [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) pointer for that label. Otherwise, the property returns a null reference.                                                                          |
 | [**UIA\_LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md#uia-localizedcontroltypepropertyid) | See notes. | Localized string corresponding to the **Tree** control type. The default value is "tree" for en-US or English (United States).                                                                                                                                                             |
 | [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)                                 | See notes. | The value of a tree control's name property usually comes from text that labels the control. If there is no text label, you must provide a value for this property.                                                                                                                        |
 
@@ -113,10 +134,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                                             | Support/Value | Notes                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IScrollProvider**](uiauto-iscrollprovider.md)                            | Depends       | Implement the [Scroll](uiauto-implementingscroll.md) control pattern if items in the tree container can be scrolled.                                                                                                                 |
-| [**ISelectionProvider**](uiauto-iselectionprovider.md)                      | Depends       | Tree controls that contain a set of selectable items must implement the [Selection](uiauto-implementingselection.md) control pattern. It need not be implemented if selecting an item conveys no meaningful information to the user. |
-| [**CanSelectMultiple**](uiauto-iselectionprovider-canselectmultiple.md)     | See notes.    | Implement this property if the tree control supports multiple selection (most tree controls do not support multiple selection).                                                                                                       |
-| [**IsSelectionRequired**](uiauto-iselectionprovider-isselectionrequired.md) | See notes.    | The value of this property is exposed if the control requires that an item be selected.                                                                                                                                               |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)                            | Depends       | Implement the [Scroll](uiauto-implementingscroll.md) control pattern if items in the tree container can be scrolled.                                                                                                                 |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master)                      | Depends       | Tree controls that contain a set of selectable items must implement the [Selection](uiauto-implementingselection.md) control pattern. It need not be implemented if selecting an item conveys no meaningful information to the user. |
+| [**CanSelectMultiple**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple?branch=master)     | See notes.    | Implement this property if the tree control supports multiple selection (most tree controls do not support multiple selection).                                                                                                       |
+| [**IsSelectionRequired**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired?branch=master) | See notes.    | The value of this property is exposed if the control requires that an item be selected.                                                                                                                                               |
 
 
 

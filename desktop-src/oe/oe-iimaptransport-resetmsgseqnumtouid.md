@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport ResetMsgSeqNumToUID method
 description: Resets the variables used to maintain the MsgSeqNumToUID table.
-ms.assetid: '8268c0a1-88d8-4384-842e-76cd90b70d8b'
-keywords: ["ResetMsgSeqNumToUID method Windows Mail (formerly Outlook Express)", "ResetMsgSeqNumToUID method Windows Mail (formerly Outlook Express) , IIMAPTransport interface", "IIMAPTransport interface Windows Mail (formerly Outlook Express) , ResetMsgSeqNumToUID method"]
+ms.assetid: 8268c0a1-88d8-4384-842e-76cd90b70d8b
+keywords:
+- ResetMsgSeqNumToUID method Windows Mail (formerly Outlook Express)
+- ResetMsgSeqNumToUID method Windows Mail (formerly Outlook Express) , IIMAPTransport interface
+- IIMAPTransport interface Windows Mail (formerly Outlook Express) , ResetMsgSeqNumToUID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport::ResetMsgSeqNumToUID method
@@ -50,8 +58,8 @@ Because this method is called automatically, it does not normally need to be cal
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -59,9 +67,9 @@ Because this method is called automatically, it does not normally need to be cal
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,16 @@
 title: Remove method of the PS\_DnsServerZone class
 description: Removes the specified zone.
 audience: developer
-ms.assetid: 'c9ecda34-7ed8-4a62-89a5-6153aa9266e9'
-ms.prod: 'windows-server-dev'
+ms.assetid: c9ecda34-7ed8-4a62-89a5-6153aa9266e9
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DnsServerZone class", "PS_DnsServerZone class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DnsServerZone class
+- PS_DnsServerZone class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DnsServerZone class
@@ -28,12 +34,12 @@ Removes the specified zone.
 
 ```mof
 uint32 Remove(
-  [in]  string        Name,
-  [in]  string        ComputerName,
-  [in]  boolean       PassThru,
-  [in]  boolean       Force,
-  [in]  string        VirtualizationInstance,
-  [out] DnsServerZone cmdletOutput
+  [in]  string        Name,
+  [in]  string        ComputerName,
+  [in]  boolean       PassThru,
+  [in]  boolean       Force,
+  [in]  string        VirtualizationInstance,
+  [out] DnsServerZone cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ Specifies the remote computer on which to execute the command
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -94,7 +100,7 @@ On return, contains an embedded [**DnsServerZone**](dnsserverzone.md) object. Th
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -108,9 +114,9 @@ On return, contains an embedded [**DnsServerZone**](dnsserverzone.md) object. Th
 [**PS\_DnsServerZone**](ps-dnsserverzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

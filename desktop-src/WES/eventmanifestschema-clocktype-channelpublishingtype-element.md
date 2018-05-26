@@ -1,14 +1,20 @@
 ---
 title: clockType (ChannelPublishingType) Element
 description: The clock resolution to use when logging the time stamp for each event.
-ms.assetid: 'dc2ed9d0-782c-44c9-aa55-ca6ff340f413'
-keywords: ["clockType element EventLog"]
+ms.assetid: dc2ed9d0-782c-44c9-aa55-ca6ff340f413
+keywords:
+- clockType element EventLog
 topic_type:
 - apiref
 api_name:
 - clockType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # clockType (ChannelPublishingType) Element
@@ -40,8 +46,8 @@ The **clockType** element is defined by the [**ChannelPublishingType**](eventman
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -55,9 +61,9 @@ The **clockType** element is defined by the [**ChannelPublishingType**](eventman
 [**publishing (ChannelType)**](eventmanifestschema-publishing-channeltype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

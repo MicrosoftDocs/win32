@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PatchMetadata Table contains information about a Windows Installer patch that is required to remove a patch and that is used by Add/Remove Programs.'
-ms.assetid: '09a06de4-0713-4e92-ab29-f34f6c94b677'
-title: 'PatchMetadata Table (PATCHWIZ.DLL)'
+---
+Description: The PatchMetadata Table contains information about a Windows Installer patch that is required to remove a patch and that is used by Add/Remove Programs.
+ms.assetid: 09a06de4-0713-4e92-ab29-f34f6c94b677
+title: PatchMetadata Table (PATCHWIZ.DLL)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PatchMetadata Table (PATCHWIZ.DLL)
@@ -56,7 +61,7 @@ The name of a metadata property. The AllowRemoval, ManufacturerName, TargetProdu
 <tbody>
 <tr class="odd">
 <td>AllowRemoval</td>
-<td>An integer value that indicates whether or not the patch is an [Uninstallable Patch](uninstallable-patches.md). If the Value field contains a 0 (zero), the patch cannot be removed. If the Value field contains 1 (one), the patch is an Uninstallable Patch. This property is required.This property is registered and its value can be obtain by using the [<strong>MsiGetPatchInfoEx</strong>](msigetpatchinfoex.md) function.<br/></td>
+<td>An integer value that indicates whether or not the patch is an [Uninstallable Patch](uninstallable-patches.md). If the Value field contains a 0 (zero), the patch cannot be removed. If the Value field contains 1 (one), the patch is an Uninstallable Patch. This property is required.This property is registered and its value can be obtain by using the [<strong>MsiGetPatchInfoEx</strong>](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) function.<br/></td>
 </tr>
 <tr class="even">
 <td>ManufacturerName</td>
@@ -77,7 +82,7 @@ To require that Windows Installer 3.1 be installed to apply the patch, set the 
 </tr>
 <tr class="odd">
 <td>MoreInfoURL</td>
-<td>A string value that contains a URL pointing to information for this patch. This required property is registered and its value can be obtained by using the [<strong>MsiGetPatchInfoEx</strong>](msigetpatchinfoex.md) function. Beginning with Windows XP with Service Pack 2 (SP2), this value can be the support link for the patch displayed in Add/Remove Programs.<br/></td>
+<td>A string value that contains a URL pointing to information for this patch. This required property is registered and its value can be obtained by using the [<strong>MsiGetPatchInfoEx</strong>](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) function. Beginning with Windows XP with Service Pack 2 (SP2), this value can be the support link for the patch displayed in Add/Remove Programs.<br/></td>
 </tr>
 <tr class="even">
 <td>CreationTimeUTC</td>
@@ -85,7 +90,7 @@ To require that Windows Installer 3.1 be installed to apply the patch, set the 
 </tr>
 <tr class="odd">
 <td>DisplayName</td>
-<td>A string value that contains the title for the patch that is suitable for public display. This property is required. This property is registered and its value can be obtain by using the [<strong>MsiGetPatchInfoEx</strong>](msigetpatchinfoex.md) function. Beginning with Windows XP with SP2, this value is the name of the patch displayed in Add/Remove Programs beginning with Windows XP with SP2.<br/></td>
+<td>A string value that contains the title for the patch that is suitable for public display. This property is required. This property is registered and its value can be obtain by using the [<strong>MsiGetPatchInfoEx</strong>](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) function. Beginning with Windows XP with SP2, this value is the name of the patch displayed in Add/Remove Programs beginning with Windows XP with SP2.<br/></td>
 </tr>
 <tr class="even">
 <td>Description</td>
@@ -119,7 +124,7 @@ Value of the metadata property. This can never be Null or an empty string. This 
 
 Available beginning in Windows Installer 3.0.
 
-All properties authored into the PatchMetadata Table are added to the MsiPatchMetadata table of the msp file. AllowRemoval, MoreInfoURL and DisplayName properties are registered and are accessible through the [**MsiGetPatchInfoEx**](msigetpatchinfoex.md).
+All properties authored into the PatchMetadata Table are added to the MsiPatchMetadata table of the msp file. AllowRemoval, MoreInfoURL and DisplayName properties are registered and are accessible through the [**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master).
 
  
 

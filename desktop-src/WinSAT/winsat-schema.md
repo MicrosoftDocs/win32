@@ -1,7 +1,12 @@
 ---
 title: WinSAT Schema
 description: You can use the Windows System Assessment Tool (WinSAT) schema to determine valid XPath queries to run.
-ms.assetid: 'da497f3b-f5a2-401e-8230-937362ecf4f2'
+ms.assetid: da497f3b-f5a2-401e-8230-937362ecf4f2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinSAT Schema
@@ -10,10 +15,10 @@ ms.assetid: 'da497f3b-f5a2-401e-8230-937362ecf4f2'
 
 You can use the Windows System Assessment Tool (WinSAT) schema to determine valid XPath queries to run. To run an XPath query, see one of the following methods:
 
--   [**IQueryAllWinSATAssessments::get\_AllXML**](iqueryallwinsatassessments-allxml.md)
--   [**IQueryRecentWinSATAssessment::get\_XML**](iqueryrecentwinsatassessment-xml.md)
+-   [**IQueryAllWinSATAssessments::get\_AllXML**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml?branch=master)
+-   [**IQueryRecentWinSATAssessment::get\_XML**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml?branch=master)
 
-The **WinSAT** element can have a **WinsatAssessments** element as a parent element when you call the [**get\_AllXML**](iqueryallwinsatassessments-allxml.md) method.
+The **WinSAT** element can have a **WinsatAssessments** element as a parent element when you call the [**get\_AllXML**](/windows/win32/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml?branch=master) method.
 
 The following is the WinSAT schema that you can use to determine the XPath.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_NTEventlogFile class exposes the following methods.'
-ms.assetid: 'CE0B7FB6-ED51-41A2-A0A1-E793A8EF9BA1'
-title: 'Win32\_NTEventlogFile Methods'
+Description: The Win32\_NTEventlogFile class exposes the following methods.
+ms.assetid: CE0B7FB6-ED51-41A2-A0A1-E793A8EF9BA1
+title: Win32\_NTEventlogFile Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_NTEventlogFile Methods

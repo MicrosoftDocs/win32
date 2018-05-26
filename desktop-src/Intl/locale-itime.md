@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_ITIME'
-ms.assetid: '52f760c3-00df-44f1-857b-419d0dfdec19'
-title: 'LOCALE\_ITIME'
+Description: LOCALE\_ITIME
+ms.assetid: 52f760c3-00df-44f1-857b-419d0dfdec19
+title: LOCALE\_ITIME
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_ITIME

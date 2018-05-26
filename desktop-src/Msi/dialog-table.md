@@ -1,7 +1,12 @@
 ---
-Description: 'The Dialog Table contains all the dialogs that appear in the user interface (UI) in both the full and reduced modes.'
-ms.assetid: '981386dd-4fee-4003-8c62-16933cc5bd14'
+Description: The Dialog Table contains all the dialogs that appear in the user interface (UI) in both the full and reduced modes.
+ms.assetid: 981386dd-4fee-4003-8c62-16933cc5bd14
 title: Dialog Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dialog Table

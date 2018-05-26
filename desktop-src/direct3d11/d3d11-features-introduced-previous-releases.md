@@ -1,7 +1,12 @@
 ---
 title: Features Introduced In Previous Releases
-ms.assetid: 'c70a7f7d-1833-478f-bd71-7462d860b5f4'
+ms.assetid: c70a7f7d-1833-478f-bd71-7462d860b5f4
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Features Introduced In Previous Releases
@@ -21,7 +26,7 @@ Discover what new features have been added to the previous SDK updates:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ Discover what new features have been added to the previous SDK updates:
 [Direct3D 11 Graphics](atoc-dx-graphics-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

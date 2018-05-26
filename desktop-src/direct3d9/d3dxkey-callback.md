@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a callback key for use in key frame animation.'
-ms.assetid: 'aca034f5-6961-49f1-ba7c-addcf016af2b'
-title: 'D3DXKEY\_CALLBACK structure'
+---
+Description: Describes a callback key for use in key frame animation.
+ms.assetid: aca034f5-6961-49f1-ba7c-addcf016af2b
+title: D3DXKEY\_CALLBACK structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXKEY\_CALLBACK structure

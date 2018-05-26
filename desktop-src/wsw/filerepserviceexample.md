@@ -1,8 +1,16 @@
 ---
 title: FileRepServiceExample
 description: FileRep retrieves files from a server and copies them to a client.
-ms.assetid: '9f446999-8f10-4ce4-86eb-e9289e131733'
-keywords: ["FileRepServiceExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 9f446999-8f10-4ce4-86eb-e9289e131733
+keywords:
+- FileRepServiceExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileRepServiceExample

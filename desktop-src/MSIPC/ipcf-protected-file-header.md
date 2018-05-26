@@ -4,11 +4,13 @@ description: Describes the protected file header content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EB051D1D-B6C3-4026-AAD6-3047086E699D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: EB051D1D-B6C3-4026-AAD6-3047086E699D
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPCF_PROTECTED_FILE_HEADER structure Active Directory Rights Management Services SDK 2.0", "_IPCF_PROTECTED_FILE_HEADER structure Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPCF_PROTECTED_FILE_HEADER structure Active Directory Rights Management Services SDK 2.0
+- _IPCF_PROTECTED_FILE_HEADER structure Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - Ipcfile.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPCF\_PROTECTED\_FILE\_HEADER structure
@@ -28,10 +33,10 @@ Describes the protected file header content. For more information on protected f
 
 ```C++
 typedef struct _IPC_PROTECTED_FILE_HEADER {
-  BYTE  magic[6];
+  BYTE  magic[6];
   DWORD dwMajor;
   DWORD dwMinor;
-  BYTE  rgbUndocumented[278];
+  BYTE  rgbUndocumented[278];
   DWORD dwEncryptedContentsOffset;
 } _IPCF_PROTECTED_FILE_HEADER, *IPCF_PROTECTED_FILE_HEADER;
 ```
@@ -83,8 +88,8 @@ The offset in the file where the encrypted payload of the protected file starts.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcfile.h (include Msipc.h)</dt> </dl> |
 
 
@@ -99,9 +104,9 @@ The offset in the file where the encrypted payload of the protected file starts.
 [Structures](msipc-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

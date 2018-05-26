@@ -1,8 +1,18 @@
 ---
 title: Server-Side Design
 description: Server-side functions communicate with the client wizard through the windows.external object. Server-side script provides these functions to respond to wizard events and to retrieve information about the wizard.
-ms.assetid: '7cc8b814-f230-4326-a9df-a491ed35483e'
-keywords: ["publishing wizards,server-side design", "window.external,publishing wizards", "publishing wizards,window.external", "publishing wizards,navigation script functions", "scripts,publishing wizards"]
+ms.assetid: 7cc8b814-f230-4326-a9df-a491ed35483e
+keywords:
+- publishing wizards,server-side design
+- window.external,publishing wizards
+- publishing wizards,window.external
+- publishing wizards,navigation script functions
+- scripts,publishing wizards
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server-Side Design

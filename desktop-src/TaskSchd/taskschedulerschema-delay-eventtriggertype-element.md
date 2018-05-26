@@ -1,14 +1,20 @@
 ---
 title: Delay (eventTriggerType) Element
 description: Specifies the amount of time between when the event occurs and when the task is started.
-ms.assetid: 'b38bebc7-9818-41f0-a277-cb0e63c28d86'
-keywords: ["Delay element Task Scheduler"]
+ms.assetid: b38bebc7-9818-41f0-a277-cb0e63c28d86
+keywords:
+- Delay element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Delay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Delay (eventTriggerType) Element
@@ -37,7 +43,7 @@ The **Delay** element is defined by the [**eventTriggerType**](taskschedulersche
 
 For script development, the event trigger delay is specified by the [**EventTrigger.Delay**](eventtrigger-delay.md) property.
 
-For C++ development, the event trigger delay is specified by the [**IEventTrigger::Delay**](ieventtrigger-delay.md) property.
+For C++ development, the event trigger delay is specified by the [**IEventTrigger::Delay**](/windows/win32/taskschd/nf-taskschd-ieventtrigger-get_delay?branch=master) property.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ For C++ development, the event trigger delay is specified by the [**IEventTrigge
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ For C++ development, the event trigger delay is specified by the [**IEventTrigge
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

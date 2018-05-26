@@ -4,11 +4,13 @@ description: The disk volume data object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0c869552-df87-4276-95d1-5a5a52c920a4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 0c869552-df87-4276-95d1-5a5a52c920a4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTDiskVolume class", "MSFT_MTDiskVolume class, described"]
+keywords:
+- MSFT_MTDiskVolume class
+- MSFT_MTDiskVolume class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTDiskVolume class
@@ -39,12 +44,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), AMENDMENT]
 class MSFT_MTDiskVolume : CIM_ManagedElement
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  uint64  FormattedSize;
-  string  VolumePath;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  uint64  FormattedSize;
+  string  VolumePath;
   boolean SystemDisk;
   boolean PageFile;
 };
@@ -184,7 +189,7 @@ Gets the logical path of the disk volume on the computer system.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -201,9 +206,9 @@ Gets the logical path of the disk volume on the computer system.
 [Management Tools Task Manager WMI Provider](management-tools-task-manager-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

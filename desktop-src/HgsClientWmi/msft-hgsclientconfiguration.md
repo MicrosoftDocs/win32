@@ -4,13 +4,15 @@ description: Describes the configuration of the Host Guardian Service Client.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9d6c3852-8e59-42ae-b7e6-c4916eab9d3c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9d6c3852-8e59-42ae-b7e6-c4916eab9d3c
+ms.prod: windows-server-dev
 ms.technology:
-- 'host-guardian-service'
-- 'windows-management-instrumentation'
+- host-guardian-service
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_HgsClientConfiguration class", "MSFT_HgsClientConfiguration class, described"]
+keywords:
+- MSFT_HgsClientConfiguration class
+- MSFT_HgsClientConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - HgsClientWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_HgsClientConfiguration class
@@ -40,13 +45,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("HgsClientWmi"), ClassVersion("1.0"), AMENDMENT]
 class MSFT_HgsClientConfiguration
 {
-  uint16  Mode;
+  uint16  Mode;
   boolean IsHostGuarded;
-  string  KeyProtectionServerUrl;
-  string  AttestationServerUrl;
-  uint16  AttestationOperationMode;
-  uint16  AttestationStatus;
-  uint64  AttestationSubstatus;
+  string  KeyProtectionServerUrl;
+  string  AttestationServerUrl;
+  uint16  AttestationOperationMode;
+  uint16  AttestationStatus;
+  uint64  AttestationSubstatus;
 };
 ```
 
@@ -71,7 +76,7 @@ The **MSFT\_HgsClientConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -314,8 +319,8 @@ The possible values are.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                 |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                              |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Hgs<br/>                                                    |
 | MOF<br/>                      | <dl> <dt>HgsClientWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>HgsClientWmi.dll</dt> </dl> |
@@ -329,9 +334,9 @@ The possible values are.
 [Host Guardian Service WMI Provider](hoster-guardian-service-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

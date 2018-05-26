@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.'
-ms.assetid: 'd75f18e1-e5fa-4039-bb74-76dea334b0fd'
+---
+Description: Enables or disables the specified classic event trace provider. On Windows Vista and later, call the EnableTraceEx function to enable or disable a provider.
+ms.assetid: d75f18e1-e5fa-4039-bb74-76dea334b0fd
 title: EnableTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableTrace function
@@ -124,7 +129,7 @@ If the function fails, the return value is one of the [system error codes](base.
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>
-<td>Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](eventaccesscontrol-func.md).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
+<td>Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](/windows/win32/Evntcons/nf-evntcons-eventaccesscontrol?branch=master).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -158,7 +163,7 @@ If you use **EnableTrace** to enable a manifest-based provider, the following tr
 
 -   The *EnableLevel* parameter is the same as setting the *Level* parameter in [**EnableTraceEx**](enabletraceex-func.md).
 -   The *EnableFlag* is the same as setting the *MatchAnyKeyword* parameter in [**EnableTraceEx**](enabletraceex-func.md).
--   In the [**EnableCallback**](enablecallback.md) callback, the *SourceId* parameter will be **NULL**, *Level* will be set to the value in **EnableTrace**, *MatchAnyKeyword* will be set to the value of *EnableFlag* in [**EventTrace**](eventtrace.md), *MatchAllKeyword* will be 0, and *FilterData* will be **NULL**.
+-   In the [**EnableCallback**](/windows/win32/Evntprov/nc-evntprov-penablecallback?branch=master) callback, the *SourceId* parameter will be **NULL**, *Level* will be set to the value in **EnableTrace**, *MatchAnyKeyword* will be set to the value of *EnableFlag* in [**EventTrace**](eventtrace.md), *MatchAllKeyword* will be 0, and *FilterData* will be **NULL**.
 
 On Windows 8.1,Windows Server 2012 R2, and later, payload filters can be used by the [**EnableTraceEx2**](enabletraceex2.md) function to filter on specific conditions in a logger session.
 

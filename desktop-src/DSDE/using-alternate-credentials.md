@@ -1,13 +1,16 @@
 ---
-Description: 'This example uses DSDE to export employee data to a file from the fabrikam.com Active Directory. It performs the same search as the Exporting Active Directory Objects example, but specifies a set of alternate security credentials.'
+Description: This example uses DSDE to export employee data to a file from the fabrikam.com Active Directory. It performs the same search as the Exporting Active Directory Objects example, but specifies a set of alternate security credentials.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'fc662cf1-cdca-4a22-9863-28619dd14fa1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: fc662cf1-cdca-4a22-9863-28619dd14fa1
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: Using Alternate Credentials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Alternate Credentials

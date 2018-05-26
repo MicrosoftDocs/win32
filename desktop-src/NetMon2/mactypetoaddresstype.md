@@ -1,7 +1,12 @@
 ---
-Description: 'The MacTypeToAddressType function converts a given MAC type to an address type.'
-ms.assetid: '7ede39a8-9a71-4c7a-8d2d-84a4ea2173bb'
+Description: The MacTypeToAddressType function converts a given MAC type to an address type.
+ms.assetid: 7ede39a8-9a71-4c7a-8d2d-84a4ea2173bb
 title: MacTypeToAddressType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MacTypeToAddressType function
@@ -13,7 +18,7 @@ The **MacTypeToAddressType** function converts a given MAC type to an address ty
 
 ```C++
 DWORD WINAPI MacTypeToAddressType(
-  _In_ DWORD MacType
+  _In_ DWORD MacType
 );
 ```
 
@@ -50,17 +55,17 @@ If the function is unsuccessful, the MAC type is unknown, the return value is -1
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

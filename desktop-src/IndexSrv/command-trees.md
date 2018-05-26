@@ -1,7 +1,12 @@
 ---
 title: Command Trees
 description: Command Trees
-ms.assetid: '5336cda8-08ad-41cf-b192-f057c3a9693e'
+ms.assetid: 5336cda8-08ad-41cf-b192-f057c3a9693e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Trees

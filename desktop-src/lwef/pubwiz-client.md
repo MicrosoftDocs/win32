@@ -1,8 +1,19 @@
 ---
 title: Client-Side Design
 description: Script in server-side HTML pages communicates with the Online Print Ordering Wizard client in which it is hosted. This communication is accomplished through methods and properties accessed by the window.external object.
-ms.assetid: 'fa76ccee-0b94-41b5-8cc8-eb7e1818dbed'
-keywords: ["publishing wizards,client-side design", "window.external,publishing wizards", "publishing wizards,window.external", "publishing wizards,design considerations", "publishing wizards,Online Print Ordering Wizard", "Online Print Ordering Wizard,client-side design"]
+ms.assetid: fa76ccee-0b94-41b5-8cc8-eb7e1818dbed
+keywords:
+- publishing wizards,client-side design
+- window.external,publishing wizards
+- publishing wizards,window.external
+- publishing wizards,design considerations
+- publishing wizards,Online Print Ordering Wizard
+- Online Print Ordering Wizard,client-side design
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client-Side Design

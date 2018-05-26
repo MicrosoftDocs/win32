@@ -4,11 +4,16 @@ description: The ConnectTo method provides a way for an Application object to re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '04360c43-0fad-4b5e-8167-5a7b42aee351'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 04360c43-0fad-4b5e-8167-5a7b42aee351
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ConnectTo method MMC", "ConnectTo method MMC , AppEventsDHTMLConnector object", "AppEventsDHTMLConnector object MMC , ConnectTo method", "ConnectTo method MMC , EventConnector interface", "EventConnector interface MMC , ConnectTo method"]
+keywords:
+- ConnectTo method MMC
+- ConnectTo method MMC , AppEventsDHTMLConnector object
+- AppEventsDHTMLConnector object MMC , ConnectTo method
+- ConnectTo method MMC , EventConnector interface
+- EventConnector interface MMC , ConnectTo method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EventConnector::ConnectTo method
@@ -60,8 +68,8 @@ To close the connection, call [**AppEventsDHTMLConnector.Disconnect**](appevents
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                               |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                               |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>          |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl>      |
@@ -80,9 +88,9 @@ To close the connection, call [**AppEventsDHTMLConnector.Disconnect**](appevents
 [**AppEventsDHTMLConnector.Disconnect**](appeventsdhtmlconnector-disconnect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

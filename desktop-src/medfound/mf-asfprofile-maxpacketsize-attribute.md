@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the maximum packet size for an ASF file, in bytes.'
-ms.assetid: 'c43423c2-a5f2-411c-aa47-802a3c808ad8'
-title: 'MF\_ASFPROFILE\_MAXPACKETSIZE attribute'
+---
+Description: Specifies the maximum packet size for an ASF file, in bytes.
+ms.assetid: c43423c2-a5f2-411c-aa47-802a3c808ad8
+title: MF\_ASFPROFILE\_MAXPACKETSIZE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_ASFPROFILE\_MAXPACKETSIZE attribute
@@ -14,7 +19,7 @@ Specifies the maximum packet size for an ASF file, in bytes.
 
 ## Remarks
 
-This attribute applies to ASF profile objects. To set this attribute, use the [**IMFASFProfile**](imfasfprofile.md) interface.
+This attribute applies to ASF profile objects. To set this attribute, use the [**IMFASFProfile**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfprofile?branch=master) interface.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -40,10 +45,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [ASF Attributes](asf-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> </dl>
 
  

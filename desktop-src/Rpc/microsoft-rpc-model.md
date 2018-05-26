@@ -1,8 +1,14 @@
 ---
 title: The RPC Model
 description: Remote Procedure Call (RPC) for the C and C++ programming languages is designed to help meet the needs of developers working on the next generation of software for Windows operating systems.
-ms.assetid: 'ebab41a5-e841-4e0f-8acd-d0aab94f01c1'
-keywords: ["Remote Procedure Call RPC , described, the RPC model"]
+ms.assetid: ebab41a5-e841-4e0f-8acd-d0aab94f01c1
+keywords:
+- Remote Procedure Call RPC , described, the RPC model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The RPC Model

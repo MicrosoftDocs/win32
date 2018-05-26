@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyFile5 interface
 description: Use this interface to get or set generic properties of Delivery Optimization (DO) file transfers.
-ms.assetid: '2D729717-62D2-4C69-92FE-F4289EC48DF1'
-keywords: ["IBackgroundCopyFile5 interface", "IBackgroundCopyFile5 interface, described"]
+ms.assetid: 2D729717-62D2-4C69-92FE-F4289EC48DF1
+keywords:
+- IBackgroundCopyFile5 interface
+- IBackgroundCopyFile5 interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile5 interface
@@ -38,7 +45,7 @@ The **IBackgroundCopyFile5** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -46,7 +53,7 @@ The **IBackgroundCopyFile5** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -66,9 +73,9 @@ The **IBackgroundCopyFile5** interface has these methods.
 [**IBackgroundCopyFile2**](ibackgroundcopyfile2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

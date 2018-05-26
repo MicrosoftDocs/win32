@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides bidirectional communication reference information.'
-ms.assetid: 'AE869061-A8E2-448E-BCB8-6AF6F0A1E8D4'
+Description: This section provides bidirectional communication reference information.
+ms.assetid: AE869061-A8E2-448E-BCB8-6AF6F0A1E8D4
 title: Bidirectional Communication Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bidirectional Communication Reference

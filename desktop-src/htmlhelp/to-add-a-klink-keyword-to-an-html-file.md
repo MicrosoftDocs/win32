@@ -1,7 +1,12 @@
 ---
 title: To add a KLink keyword to an HTML file
 description: To add a KLink keyword to an HTML file
-ms.assetid: '2B6CA051-5A12-4c44-A046-14C231A8B194'
+ms.assetid: 2B6CA051-5A12-4c44-A046-14C231A8B194
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add a KLink keyword to an HTML file

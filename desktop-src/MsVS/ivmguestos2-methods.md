@@ -1,7 +1,12 @@
 ---
 title: IVMGuestOS2 Methods
 description: The IVMGuestOS2 interface defines the following method in addition to those inherited from IVMGuestOS, IDispatch, and IUnknown
-ms.assetid: '21d656c4-fcd4-4655-a933-9be94c9b1fac'
+ms.assetid: 21d656c4-fcd4-4655-a933-9be94c9b1fac
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS2 Methods

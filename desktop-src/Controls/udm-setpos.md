@@ -1,8 +1,9 @@
 ---
 title: UDM\_SETPOS message
 description: Sets the current position for an up-down control with 16-bit precision.
-ms.assetid: 'e7c8b55f-3a4f-47e7-8c7d-e47509f27f1d'
-keywords: ["UDM_SETPOS message Windows Controls"]
+ms.assetid: e7c8b55f-3a4f-47e7-8c7d-e47509f27f1d
+keywords:
+- UDM_SETPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_SETPOS message
@@ -45,8 +51,8 @@ This message only supports 16-bit positions. If 32-bit values have been enabled 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ This message only supports 16-bit positions. If 32-bit values have been enabled 
 [**UDM\_GETPOS**](udm-getpos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

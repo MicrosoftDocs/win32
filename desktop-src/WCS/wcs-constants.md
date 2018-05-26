@@ -1,8 +1,27 @@
 ---
 title: WCS Constants
 description: WCS Constants
-ms.assetid: '13874b84-cce6-4165-8b22-01d84f8ea933'
-keywords: ["Windows Color System (WCS),constants", "WCS (Windows Color System),constants", "image color management,constants", "color management,constants", "colors,constants", "WCS reference,constants", "reference for WCS,constants", "Windows Color System (WCS),flags", "WCS (Windows Color System),flags", "image color management,flags", "color management,flags", "colors,flags", "WCS reference,flags", "reference for WCS,flags"]
+ms.assetid: 13874b84-cce6-4165-8b22-01d84f8ea933
+keywords:
+- Windows Color System (WCS),constants
+- WCS (Windows Color System),constants
+- image color management,constants
+- color management,constants
+- colors,constants
+- WCS reference,constants
+- reference for WCS,constants
+- Windows Color System (WCS),flags
+- WCS (Windows Color System),flags
+- image color management,flags
+- color management,flags
+- colors,flags
+- WCS reference,flags
+- reference for WCS,flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Constants

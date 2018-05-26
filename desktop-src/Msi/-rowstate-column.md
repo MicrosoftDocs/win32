@@ -1,7 +1,12 @@
 ---
-Description: 'The reserved column name \_RowState represents the non-persistent state associated with each table row in an installer database table.'
-ms.assetid: 'ff570b47-7c16-47ae-b1c2-2ecad9266372'
+Description: The reserved column name \_RowState represents the non-persistent state associated with each table row in an installer database table.
+ms.assetid: ff570b47-7c16-47ae-b1c2-2ecad9266372
 title: '\_RowState Column'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_RowState Column

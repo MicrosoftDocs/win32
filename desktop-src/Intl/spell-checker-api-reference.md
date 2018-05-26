@@ -1,7 +1,12 @@
 ---
 Description: Spell Checking API Reference
-ms.assetid: '87CFC55A-5F55-40F1-96D7-6BD41C59110A'
+ms.assetid: 87CFC55A-5F55-40F1-96D7-6BD41C59110A
 title: Spell Checking API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spell Checking API Reference

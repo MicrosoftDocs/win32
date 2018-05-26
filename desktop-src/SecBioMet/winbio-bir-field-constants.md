@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_BIR\_FIELD Constants
 description: Specify a bitmask.
-ms.assetid: 'D8D12BCF-FEB3-4E02-B751-9F3AE5048BC1'
+ms.assetid: D8D12BCF-FEB3-4E02-B751-9F3AE5048BC1
 topic_type:
 - apiref
 api_name:
@@ -25,6 +25,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BIR\_FIELD Constants
@@ -60,8 +65,8 @@ The following constants are used to create a bitmask for the **ValidFields** mem
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -73,9 +78,9 @@ The following constants are used to create a bitmask for the **ValidFields** mem
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

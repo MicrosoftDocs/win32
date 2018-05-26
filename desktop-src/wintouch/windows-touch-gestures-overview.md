@@ -1,8 +1,17 @@
 ---
 title: Windows Touch Gestures Overview
 description: This section describes the various gestures supported by Windows Touch.
-ms.assetid: 'b2fa11a7-9abb-4149-96e3-e8c663c29d4a'
-keywords: ["Windows Touch,gestures", "gestures,about", "Windows Touch,legacy support", "gestures,legacy support"]
+ms.assetid: b2fa11a7-9abb-4149-96e3-e8c663c29d4a
+keywords:
+- Windows Touch,gestures
+- gestures,about
+- Windows Touch,legacy support
+- gestures,legacy support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Gestures Overview
@@ -18,7 +27,7 @@ Windows Touch enables several gestures that support single and multiple contacts
 > [!Note]  
 > Some recognizers are more reliable at interpreting gestures with multiple contacts when the contacts are further apart from each other.
 
- 
+ 
 
 ## Legacy Support
 
@@ -34,13 +43,13 @@ For legacy support, the default gesture handler maps some gestures to Windows me
 
 
 
- 
+ 
 
 ## Interpreting Windows Touch Gestures
 
-Windows Touch gestures can be interpreted by application developers by handling the [**WM\_GESTURE**](wm-gesture.md) message from the WndProc function of an application. After handling this message, you can retrieve a [**GESTUREINFO**](gestureinfo.md) structure which describes the gesture. The **GESTUREINFO** structure will have assorted information that depends on the type of gesture.
+Windows Touch gestures can be interpreted by application developers by handling the [**WM\_GESTURE**](wm-gesture.md) message from the WndProc function of an application. After handling this message, you can retrieve a [**GESTUREINFO**](/windows/win32/winuser/ns-winuser-taggestureinfo?branch=master) structure which describes the gesture. The **GESTUREINFO** structure will have assorted information that depends on the type of gesture.
 
-The [**GESTUREINFO**](gestureinfo.md) structure is retrieved by passing the handle to the gesture information structure to the [**GetGestureInfo**](getgestureinfo.md) function.
+The [**GESTUREINFO**](/windows/win32/winuser/ns-winuser-taggestureinfo?branch=master) structure is retrieved by passing the handle to the gesture information structure to the [**GetGestureInfo**](/windows/win32/winuser/nf-winuser-getgestureinfo?branch=master) function.
 
 The following flags indicate the various states of the gestures and are stored in *dwFlags*. 
 
@@ -52,12 +61,12 @@ The following flags indicate the various states of the gestures and are stored i
 
 
 
- 
+ 
 
 > [!Note]  
 > Most applications should ignore the **GID\_BEGIN** and **GID\_END** and pass them to [DefWindowProc](http://go.microsoft.com/fwlink/p/?linkid=136637). These messages are used by the default gesture handler. Application behavior is undefined when the **GID\_BEGIN** and **GID\_END** messages are consumed by a third-party application.
 
- 
+ 
 
 The following table indicates the various identifiers for gestures. 
 
@@ -73,14 +82,14 @@ The following table indicates the various identifiers for gestures.
 
 
 
- 
+ 
 
 > [!Note]  
 > The **GID\_PAN** gesture has built-in inertia. At the end of a pan gesture, additional pan gesture messages are created by the operating system.
 
- 
+ 
 
-The [**GESTUREINFO**](gestureinfo.md) structure members **ptsLocation** and **ullArguments** specify a point (using the **POINTS** structure) and additional information about gestures depending on the gesture. The following table lists the values associated with each type of gesture.
+The [**GESTUREINFO**](/windows/win32/winuser/ns-winuser-taggestureinfo?branch=master) structure members **ptsLocation** and **ullArguments** specify a point (using the **POINTS** structure) and additional information about gestures depending on the gesture. The following table lists the values associated with each type of gesture.
 
 
 
@@ -88,13 +97,13 @@ The [**GESTUREINFO**](gestureinfo.md) structure members **ptsLocation** and **ul
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | **GID\_ZOOM**         | Indicates the distance between the two points.                                                                                                                                                                                                                                                                                                                                                              | Indicates the center of the zoom.                                                                                 |
 | **GID\_PAN**          | Indicates the distance between the two points.                                                                                                                                                                                                                                                                                                                                                              | Indicates the current position of the pan.                                                                        |
-| **GID\_ROTATE**       | Indicates the angle of rotation if If the **GF\_BEGIN** flag is set. Otherwise, this is the angle change since the rotation has started. This is signed to indicate the direction of the rotation. Use the [**GID\_ROTATE\_ANGLE\_FROM\_ARGUMENT**](gci-rotate-angle-from-argument.md) and [**GID\_ROTATE\_ANGLE\_TO\_ARGUMENT**](gci-rotate-angle-to-argument.md) macros to get and set the angle value. | This indicates the center of the rotation which is the stationary point that the target object is rotated around. |
+| **GID\_ROTATE**       | Indicates the angle of rotation if If the **GF\_BEGIN** flag is set. Otherwise, this is the angle change since the rotation has started. This is signed to indicate the direction of the rotation. Use the [**GID\_ROTATE\_ANGLE\_FROM\_ARGUMENT**](/windows/win32/winuser/nf-winuser-gid_rotate_angle_from_argument?branch=master) and [**GID\_ROTATE\_ANGLE\_TO\_ARGUMENT**](/windows/win32/winuser/nf-winuser-gid_rotate_angle_to_argument?branch=master) macros to get and set the angle value. | This indicates the center of the rotation which is the stationary point that the target object is rotated around. |
 | **GID\_TWOFINGERTAP** | Indicates the distance between the two fingers.                                                                                                                                                                                                                                                                                                                                                             | Indicates the center of the two fingers.                                                                          |
 | **GID\_PRESSANDTAP**  | Indicates the delta between the first finger and the second finger. This value is stored in a **POINT** structure in the lower 32 bits of the *ullArguments* member.                                                                                                                                                                                                                                        | Indicates the position that the first finger comes down on.                                                       |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -103,9 +112,9 @@ The [**GESTUREINFO**](gestureinfo.md) structure members **ptsLocation** and **ul
 [Windows Touch Gestures](guide-multi-touch-gestures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

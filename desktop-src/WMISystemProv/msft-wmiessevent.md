@@ -4,11 +4,13 @@ description: The parent class for all WMI Eventing SubSystem (ESS) self events.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '42f08a7c-b07a-4339-b521-6c7d585178e2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 42f08a7c-b07a-4339-b521-6c7d585178e2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiEssEvent class", "MSFT_WmiEssEvent class, described"]
+keywords:
+- MSFT_WmiEssEvent class
+- MSFT_WmiEssEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiEssEvent class
@@ -32,7 +37,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_WmiEssEvent : MSFT_WmiSelfEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
 };
 ```
@@ -87,8 +92,8 @@ This property is inherited from [**\_\_Event**](https://msdn.microsoft.com/libra
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -117,9 +122,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The value of this per-machine system policy is set to &\#0034;1&\#0034; to disable the logging that is specified for the package by the MsiLogging property for all users of the computer.'
-ms.assetid: '775d5cd8-75c5-46d6-919d-01d2cd6565e6'
+Description: The value of this per-machine system policy is set to &\#0034;1&\#0034; to disable the logging that is specified for the package by the MsiLogging property for all users of the computer.
+ms.assetid: 775d5cd8-75c5-46d6-919d-01d2cd6565e6
 title: DisableLoggingFromPackage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableLoggingFromPackage

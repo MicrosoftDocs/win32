@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Dolby audio decoder is an MFT that decodes Dolby Digital (AC-3) and Dolby Digital Plus.'
-ms.assetid: 'A968914A-E4C5-4472-8776-C73F5910089A'
+---
+Description: The Dolby audio decoder is an MFT that decodes Dolby Digital (AC-3) and Dolby Digital Plus.
+ms.assetid: A968914A-E4C5-4472-8776-C73F5910089A
 title: Dolby Audio Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dolby Audio Decoder
@@ -272,7 +277,7 @@ Not needed for digital output. <br/></td>
 
 ## Transform Attributes
 
-The Dolby audio decoder implements the [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method. The application can use this method to get or set the following attributes.
+The Dolby audio decoder implements the [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method. The application can use this method to get or set the following attributes.
 
 
 

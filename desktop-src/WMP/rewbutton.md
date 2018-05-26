@@ -1,14 +1,20 @@
 ---
 title: REWBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: '941ea1b3-d276-4073-b9ae-60574052f544'
-keywords: ["REWBUTTON Windows Media Player"]
+ms.assetid: 941ea1b3-d276-4073-b9ae-60574052f544
+keywords:
+- REWBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - REWBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REWBUTTON
@@ -43,9 +49,9 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

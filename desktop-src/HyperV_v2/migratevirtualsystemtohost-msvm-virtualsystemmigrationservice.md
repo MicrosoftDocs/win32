@@ -1,7 +1,12 @@
 ---
-Description: 'Migrates a virtual system or the storage of a virtual system to a destination host specified by a hostname.'
-ms.assetid: '796b043c-5ac9-4c69-9838-0f415be5a63e'
-title: 'MigrateVirtualSystemToHost method of the Msvm\_VirtualSystemMigrationService class'
+Description: Migrates a virtual system or the storage of a virtual system to a destination host specified by a hostname.
+ms.assetid: 796b043c-5ac9-4c69-9838-0f415be5a63e
+title: MigrateVirtualSystemToHost method of the Msvm\_VirtualSystemMigrationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MigrateVirtualSystemToHost method of the Msvm\_VirtualSystemMigrationService class
@@ -13,12 +18,12 @@ Migrates a virtual system or the storage of a virtual system to a destination ho
 
 ```mof
 uint32 MigrateVirtualSystemToHost(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 DestinationHost,
-  [in]  string                 MigrationSettingData,
-  [in]  string                 NewSystemSettingData,
-  [in]  string                 NewResourceSettingData[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 DestinationHost,
+  [in]  string                 MigrationSettingData,
+  [in]  string                 NewSystemSettingData,
+  [in]  string                 NewResourceSettingData[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -118,8 +123,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -133,9 +138,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemMigrationService**](msvm-virtualsystemmigrationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

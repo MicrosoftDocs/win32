@@ -1,8 +1,14 @@
 ---
 title: Best RPC Programming Practices
 description: The following sections provide guidance on RPC programming practices that help create the best possible RPC applications. These practices are divided among RPC programming tasks, but otherwise are not ordered in any significant manner.
-ms.assetid: '83aae673-f7ef-40b5-abac-7b85ead801ac'
-keywords: ["Remote Procedure Call RPC , best practices"]
+ms.assetid: 83aae673-f7ef-40b5-abac-7b85ead801ac
+keywords:
+- Remote Procedure Call RPC , best practices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best RPC Programming Practices

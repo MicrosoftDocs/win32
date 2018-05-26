@@ -4,17 +4,21 @@ description: Implements a wrapper of the input stream allowing reading of an RMS
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd0042f09-287b-4957-9efb-cb67eb717a3f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: d0042f09-287b-4957-9efb-cb67eb717a3f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileInputStream class"]
+keywords:
+- ProtectedFileInputStream class
 topic_type:
 - apiref
 api_name:
 - ProtectedFileInputStream class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileInputStream class
@@ -42,7 +46,7 @@ public abstract class ProtectedFileInputStream extends InputStream
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -58,7 +62,7 @@ ProtectedFileInputStream.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -72,9 +76,9 @@ The **ProtectedFileInputStream** class inherits from the **InputStream** class. 
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

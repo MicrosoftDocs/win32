@@ -1,8 +1,14 @@
 ---
 title: Fibre Channel HBA Library Routines
 description: Fibre Channel HBA Library Routines
-ms.assetid: '9810e9ee-b47c-415f-a0c0-a0c58f2b203b'
-keywords: ["fibre"]
+ms.assetid: 9810e9ee-b47c-415f-a0c0-a0c58f2b203b
+keywords:
+- fibre
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fibre Channel HBA Library Routines

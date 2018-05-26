@@ -1,8 +1,15 @@
 ---
 title: Hyper-V WMI Provider
 description: The Microsoft Hyper-V server provider supports a scalable, reliable, and highly available virtual machine management environment. Hyper-V virtual machine software consolidates servers and development and testing environments.
-ms.assetid: 'b9cb1d1c-9bc4-46d9-ad5a-526f5d6b9230'
-keywords: ["Hyper-V Hyper-V", "Hyper-V Hyper-V , home page"]
+ms.assetid: b9cb1d1c-9bc4-46d9-ad5a-526f5d6b9230
+keywords:
+- Hyper-V Hyper-V
+- Hyper-V Hyper-V , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hyper-V WMI Provider
@@ -31,7 +38,7 @@ Hyper-V services require an x64-based system that supports hardware-assisted vir
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -46,9 +53,9 @@ Hyper-V services require an x64-based system that supports hardware-assisted vir
 [Windows Server Virtualization](http://go.microsoft.com/fwlink/p/?linkid=104682)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

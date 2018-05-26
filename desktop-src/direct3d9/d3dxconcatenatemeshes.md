@@ -1,7 +1,12 @@
-﻿---
-Description: 'Concatenates a group of meshes into one common mesh. This method can optionally apply a matrix transformation to each input mesh and its texture coordinates.'
-ms.assetid: '0f2af63a-ece5-4c99-8cb8-045099eca3ea'
+---
+Description: Concatenates a group of meshes into one common mesh. This method can optionally apply a matrix transformation to each input mesh and its texture coordinates.
+ms.assetid: 0f2af63a-ece5-4c99-8cb8-045099eca3ea
 title: D3DXConcatenateMeshes function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXConcatenateMeshes function
@@ -87,9 +92,9 @@ Optional pointer to a vertex declaration (see [**D3DVERTEXELEMENT9**](d3dvertexe
 *pD3DDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to a [**IDirect3DDevice9**](idirect3ddevice9.md) device that is used to create the new mesh.
+Pointer to a [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) device that is used to create the new mesh.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Name of the device''s network.'
-ms.assetid: 'c5b6f196-d84b-4ccb-a18a-6f78aae4035a'
-title: 'System.Devices.NetworkName'
+Description: Name of the devices network.
+ms.assetid: c5b6f196-d84b-4ccb-a18a-6f78aae4035a
+title: System.Devices.NetworkName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.NetworkName

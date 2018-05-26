@@ -1,8 +1,9 @@
 ---
 title: WPUGetQOSTemplate function
 description: The WPUGetQOSTemplate function retrieves a QOS template for a particular service provider.
-ms.assetid: 'edd66b0a-04c8-42c6-9cd4-c3d20ddec20a'
-keywords: ["WPUGetQOSTemplate function QOS"]
+ms.assetid: edd66b0a-04c8-42c6-9cd4-c3d20ddec20a
+keywords:
+- WPUGetQOSTemplate function QOS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Qosname.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPUGetQOSTemplate function
 
-\[ This function is not supported as of Windows Vista.\]
+\[ This function is not supported as of Windows Vista.\]
 
 The **WPUGetQOSTemplate** function retrieves a QOS template for a particular service provider.
 
@@ -24,9 +30,9 @@ The **WPUGetQOSTemplate** function retrieves a QOS template for a particular ser
 
 ```C++
 INT WPUGetQOSTemplate(
-  _In_  const LPGUID   lpProviderId,
-  _In_        LPWSABUF lpQOSName,
-  _Out_       LPQOS    lpQOS
+  _In_  const LPGUID   lpProviderId,
+  _In_        LPWSABUF lpQOSName,
+  _Out_       LPQOS    lpQOS
 );
 ```
 
@@ -39,7 +45,7 @@ INT WPUGetQOSTemplate(
 *lpProviderId* \[in\]
 </dt> <dd>
 
-Pointer to a provider selected–globally unique identifier (GUID).
+Pointer to a provider selected globally unique identifier (GUID).
 
 </dd> <dt>
 
@@ -53,7 +59,7 @@ Specifies the QOS template name.
 *lpQOS* \[out\]
 </dt> <dd>
 
-Pointer to a [**QOS**](qos.md) structure.
+Pointer to a [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure.
 
 </dd> </dl>
 
@@ -72,15 +78,15 @@ If **WPUGetQOSTemplate** succeeds, the return value is zero. If the function fai
 
 
 
- 
+ 
 
 ## Remarks
 
-In Windows Vista and later, this function always returns with an error.
+In Windows Vista and later, this function always returns with an error.
 
-The **WPUGetQOSTemplate** function retrieves a QOS-named template containing the associated [**QOS**](qos.md) structure. If *lpProviderId* is **NULL**, **WPUGetQOSTemplate** attempts to find the QOS-named template in the global list of QOS names. Otherwise, **WPUGetQOSTemplate** searches the template list specific to the service provider indicated by lpProviderId.
+The **WPUGetQOSTemplate** function retrieves a QOS-named template containing the associated [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure. If *lpProviderId* is **NULL**, **WPUGetQOSTemplate** attempts to find the QOS-named template in the global list of QOS names. Otherwise, **WPUGetQOSTemplate** searches the template list specific to the service provider indicated by lpProviderId.
 
-The *lpQOS* parameter can include a [ProviderSpecific](the-providerspecific-buffer.md) buffer for retrieval with the basic [**QOS**](qos.md) structure. In this case, the ProviderSpecific buffer must be large enough to hold the provider-specific information stored in the template; otherwise **WPUGetQOSTemplate** returns WSAENOBUFS.
+The *lpQOS* parameter can include a [ProviderSpecific](the-providerspecific-buffer.md) buffer for retrieval with the basic [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure. In this case, the ProviderSpecific buffer must be large enough to hold the provider-specific information stored in the template; otherwise **WPUGetQOSTemplate** returns WSAENOBUFS.
 
 ## Requirements
 
@@ -88,10 +94,10 @@ The *lpQOS* parameter can include a [ProviderSpecific](the-providerspecific-buff
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| End of client support<br/>    | Windows XP<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| End of client support<br/>    | Windows XP<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2003<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Qosname.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Qosname.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qosname.dll</dt> </dl> |
@@ -102,7 +108,7 @@ The *lpQOS* parameter can include a [ProviderSpecific](the-providerspecific-buff
 
 <dl> <dt>
 
-[**QOS**](qos.md)
+[**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master)
 </dt> <dt>
 
 [**WSAGetQOSByName**](https://msdn.microsoft.com/library/windows/desktop/ms741587)
@@ -114,9 +120,9 @@ The *lpQOS* parameter can include a [ProviderSpecific](the-providerspecific-buff
 [**WSCRemoveQOSTemplate**](wscremoveqostemplate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

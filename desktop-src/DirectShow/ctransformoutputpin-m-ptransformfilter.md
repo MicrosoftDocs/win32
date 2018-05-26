@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the owning filter.'
-ms.assetid: 'b70c4c25-ee2a-4667-964e-70db0f46f0ae'
-title: 'CTransformOutputPin::m\_pTransformFilter member'
+Description: Pointer to the owning filter.
+ms.assetid: b70c4c25-ee2a-4667-964e-70db0f46f0ae
+title: CTransformOutputPinm\_pTransformFilter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin::m\_pTransformFilter member
@@ -28,9 +33,9 @@ CTransformOutputPin *m_pTransformFilter;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

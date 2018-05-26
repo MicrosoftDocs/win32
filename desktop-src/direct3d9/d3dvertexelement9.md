@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the vertex data layout. Each vertex can contain one or more data types, and each data type is described by a vertex element.'
-ms.assetid: '6f3c40a0-b28e-48d6-acad-ef80a919c5d7'
+---
+Description: Defines the vertex data layout. Each vertex can contain one or more data types, and each data type is described by a vertex element.
+ms.assetid: 6f3c40a0-b28e-48d6-acad-ef80a919c5d7
 title: D3DVERTEXELEMENT9 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DVERTEXELEMENT9 structure

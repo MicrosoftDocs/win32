@@ -1,8 +1,11 @@
 ---
 title: MetricThreshold GetTarget method
 description: Returns the target of the MetricThreshold.
-ms.assetid: 'A1A29086-D089-496F-91B8-03C98C71282C'
-keywords: ["GetTarget method Access Execution Engine", "GetTarget method Access Execution Engine , MetricThreshold interface", "MetricThreshold interface Access Execution Engine , GetTarget method"]
+ms.assetid: A1A29086-D089-496F-91B8-03C98C71282C
+keywords:
+- GetTarget method Access Execution Engine
+- GetTarget method Access Execution Engine , MetricThreshold interface
+- MetricThreshold interface Access Execution Engine , GetTarget method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThreshold::GetTarget method
@@ -22,7 +30,7 @@ Returns the target of the **MetricThreshold**.
 
 ```C++
 virtual HRESULT GetTarget(
-  [out] LPCWSTR *target
+  [out] LPCWSTR *target
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The target is the value of element **MetricThreshold/Target**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The target is the value of element **MetricThreshold/Target**.
 [**MetricThreshold**](metricthreshold-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

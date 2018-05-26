@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a surface.'
-ms.assetid: 'fad8ffdb-36e5-4695-b343-e1315357c31a'
-title: 'D3DSURFACE\_DESC structure'
+---
+Description: Describes a surface.
+ms.assetid: fad8ffdb-36e5-4695-b343-e1315357c31a
+title: D3DSURFACE\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSURFACE\_DESC structure
@@ -92,7 +97,7 @@ Type: **[**DWORD**](winprog.windows_data_types)**
 
 </dd> <dd>
 
-Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](idirect3d9--checkdevicemultisampletype.md). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
+Quality level. The valid range is between zero and one less than the level returned by pQualityLevels used by [**CheckDeviceMultiSampleType**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdevicemultisampletype?branch=master). Passing a larger value returns the error, D3DERR\_INVALIDCALL. The MultisampleQuality values of paired render targets, depth stencil surfaces and the MultiSample type must all match.
 
 </dd> <dt>
 
@@ -135,13 +140,13 @@ Height of the surface, in pixels.
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetLevelDesc**](idirect3dcubetexture9--getleveldesc.md)
+[**GetLevelDesc**](/windows/win32/d3d9helper/nf-d3d9-idirect3dcubetexture9-getleveldesc?branch=master)
 </dt> <dt>
 
-[**GetDesc**](idirect3dsurface9--getdesc.md)
+[**GetDesc**](/windows/win32/d3d9helper/nf-d3d9-idirect3dsurface9-getdesc?branch=master)
 </dt> <dt>
 
-[**GetLevelDesc**](idirect3dtexture9--getleveldesc.md)
+[**GetLevelDesc**](/windows/win32/d3d9helper/nf-d3d9-idirect3dtexture9-getleveldesc?branch=master)
 </dt> </dl>
 
  

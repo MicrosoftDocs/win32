@@ -1,7 +1,12 @@
 ---
 title: VML Width Attribute
 description: VML Width Attribute
-ms.assetid: 'e01c60d4-3c3a-41e5-8c28-6da9533921df'
+ms.assetid: e01c60d4-3c3a-41e5-8c28-6da9533921df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Width Attribute

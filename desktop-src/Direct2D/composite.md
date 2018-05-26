@@ -1,8 +1,14 @@
 ---
 title: Composite effect
 description: Use the composite effect to combine 2 or more images. This effect has 13 different composite modes.
-ms.assetid: '6EC8CD61-5B51-4A8E-8A61-B291ABB5C5E0'
-keywords: ["composite effect"]
+ms.assetid: 6EC8CD61-5B51-4A8E-8A61-B291ABB5C5E0
+keywords:
+- composite effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Composite effect
@@ -42,7 +48,7 @@ Here's another example using the default mode.
 
 
 
- 
+ 
 
 
 ```C++
@@ -69,7 +75,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Mode types
 
@@ -85,8 +91,8 @@ The table here shows the modes of this effect. The equations listed in the table
 
 | Enumeration                                  | Equation                          | Output Bitmap Size                                                                                      |
 |----------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------|
-| D2D1\_COMPOSITE\_MODE\_SOURCE\_OVER          | O = S + (1 – SA) \* D             | Union of source and destination bitmaps                                                                 |
-| D2D1\_COMPOSITE\_MODE\_DESTINATION\_OVER     | O = (1 – DA) \* S + D             | Union of source and destination bitmaps                                                                 |
+| D2D1\_COMPOSITE\_MODE\_SOURCE\_OVER          | O = S + (1   SA) \* D             | Union of source and destination bitmaps                                                                 |
+| D2D1\_COMPOSITE\_MODE\_DESTINATION\_OVER     | O = (1   DA) \* S + D             | Union of source and destination bitmaps                                                                 |
 | D2D1\_COMPOSITE\_MODE\_SOURCE\_IN            | O = DA \* S                       | Intersection of source and destination bitmaps                                                          |
 | D2D1\_COMPOSITE\_MODE\_DESTINATION\_IN       | O = SA \* D                       | Intersection of source and destination bitmaps                                                          |
 | D2D1\_COMPOSITE\_MODE\_SOURCE\_OUT           | O = (1 - DA) \* S                 | Region of the source bitmap                                                                             |
@@ -97,11 +103,11 @@ The table here shows the modes of this effect. The equations listed in the table
 | D2D1\_COMPOSITE\_MODE\_PLUS                  | O = S + D                         | Union of source and destination bitmaps                                                                 |
 | D2D1\_COMPOSITE\_MODE\_SOURCE\_COPY          | O = S                             | Region of the source bitmap                                                                             |
 | D2D1\_COMPOSITE\_MODE\_BOUNDED\_SOURCE\_COPY | O = S (only where source exists)  | Union of source and destination bitmaps. Destination is not overwritten where the source doesn't exist. |
-| D2D1\_COMPOSITE\_MODE\_MASK\_INVERT          | O = (1 – D) \* S + (1 – SA) \* D  | Union of source and destination bitmaps.The alpha values are unchanged.                                 |
+| D2D1\_COMPOSITE\_MODE\_MASK\_INVERT          | O = (1   D) \* S + (1   SA) \* D  | Union of source and destination bitmaps.The alpha values are unchanged.                                 |
 
 
 
- 
+ 
 
 The figure here shows an example of each of the modes with images that have an opacity of 1.0 or 0.5.
 
@@ -117,25 +123,25 @@ For an example of this effect, download the [Direct2D composite effect modes sam
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

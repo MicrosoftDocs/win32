@@ -1,7 +1,12 @@
 ---
-Description: 'The System Event Notification Service enables mobile-aware applications to receive notifications from system events that SENS monitors. When the requested event occurs, SENS notifies the application.'
-ms.assetid: '19311dec-4611-4104-b6e4-ff8f7c8af0e7'
+Description: The System Event Notification Service enables mobile-aware applications to receive notifications from system events that SENS monitors. When the requested event occurs, SENS notifies the application.
+ms.assetid: 19311dec-4611-4104-b6e4-ff8f7c8af0e7
 title: Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications
@@ -22,7 +27,7 @@ For example, an application can subscribe to any of the following system events:
 -   The percentage of remaining battery power is within a specified parameter
 -   Scheduled events using Synchronization Manager occur
 
-**Windows Server 2008 R2 and Windows 7:** The subscriber has a maximum of 3 minutes to respond to a notification on the [**ISensLogon**](isenslogon.md) and [**ISensLogon2**](isenslogon2.md) interfaces. After 3 minutes, SENS cancels the call to subscribers and unblocks the notification thread. If a lengthy operation is required to respond to the notification, return from **ISensLogon** or **ISensLogon2** as quickly as possible and open another thread for processing.
+**Windows Server 2008 R2 and Windows 7:** The subscriber has a maximum of 3 minutes to respond to a notification on the [**ISensLogon**](/windows/win32/Sensevts/nn-sensevts-isenslogon?branch=master) and [**ISensLogon2**](/windows/win32/Sensevts/nn-sensevts-isenslogon2?branch=master) interfaces. After 3 minutes, SENS cancels the call to subscribers and unblocks the notification thread. If a lengthy operation is required to respond to the notification, return from **ISensLogon** or **ISensLogon2** as quickly as possible and open another thread for processing.
 
  
 

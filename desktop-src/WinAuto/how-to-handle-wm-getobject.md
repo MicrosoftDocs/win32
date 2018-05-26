@@ -1,14 +1,19 @@
 ---
 title: How to Handle WM\_GETOBJECT
 description: When it receives a WM\_GETOBJECT message that contains OBJID\_CLIENT, the server must return a pointer to the object that implements IAccessible.
-ms.assetid: '455398b7-f748-4ab0-8953-3f74439e44f1'
+ms.assetid: 455398b7-f748-4ab0-8953-3f74439e44f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Handle WM\_GETOBJECT
 
-When it receives a [**WM\_GETOBJECT**](wm-getobject.md) message that contains [**OBJID\_CLIENT**](object-identifiers.md#objid-client), the server must return a pointer to the object that implements [**IAccessible**](iaccessible.md). This pointer is an LRESULT that is obtained by calling [**LresultFromObject**](lresultfromobject.md). Microsoft Active Accessibility, in conjunction with the Component Object Model (COM) library, performs the appropriate marshaling and passes the **IAccessible** interface pointer from the server to the client.
+When it receives a [**WM\_GETOBJECT**](wm-getobject.md) message that contains [**OBJID\_CLIENT**](object-identifiers.md#objid-client), the server must return a pointer to the object that implements [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master). This pointer is an LRESULT that is obtained by calling [**LresultFromObject**](/windows/win32/Oleacc/nf-oleacc-lresultfromobject?branch=master). Microsoft Active Accessibility, in conjunction with the Component Object Model (COM) library, performs the appropriate marshaling and passes the **IAccessible** interface pointer from the server to the client.
 
-Servers must correctly handle reference counting on the accessible object. Remember that when you create a COM object, the reference count is 1. [**LresultFromObject**](lresultfromobject.md) then further increments the reference count several times. All the references created by **LresultFromObject** are automatically released when the object is no longer needed, but the server is responsible for releasing the initial reference, and unless it does so, the object will never be destroyed. The examples in the following sections show how to release references to accessible objects.
+Servers must correctly handle reference counting on the accessible object. Remember that when you create a COM object, the reference count is 1. [**LresultFromObject**](/windows/win32/Oleacc/nf-oleacc-lresultfromobject?branch=master) then further increments the reference count several times. All the references created by **LresultFromObject** are automatically released when the object is no longer needed, but the server is responsible for releasing the initial reference, and unless it does so, the object will never be destroyed. The examples in the following sections show how to release references to accessible objects.
 
 Servers typically handle [**WM\_GETOBJECT**](wm-getobject.md) in one of the following ways:
 
@@ -17,7 +22,7 @@ Servers typically handle [**WM\_GETOBJECT**](wm-getobject.md) in one of the foll
 -   [Create New Interfaces to the Same Object](create-new-interfaces-to-the-same-object.md)
 
 > [!Note]  
-> In this section as in the rest of the documentation, when a pointer to an [**IAccessible**](iaccessible.md) interface is discussed, this pointer may actually be a pointer to a proxy object that wraps the **IAccessible** interface. For more information about proxy objects, see [Creating Proxy Objects](creating-proxy-objects.md).
+> In this section as in the rest of the documentation, when a pointer to an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface is discussed, this pointer may actually be a pointer to a proxy object that wraps the **IAccessible** interface. For more information about proxy objects, see [Creating Proxy Objects](creating-proxy-objects.md).
 
  
 

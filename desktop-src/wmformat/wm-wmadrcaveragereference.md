@@ -1,14 +1,20 @@
 ---
 title: WM/WMADRCAverageReference
 description: The WM/WMADRCAverageReference attribute contains the average volume level of the file as encoded.
-ms.assetid: '994614e3-06e2-48f0-bdac-6de5ab0c0eff'
-keywords: ["WM/WMADRCAverageReference windows Media Format"]
+ms.assetid: 994614e3-06e2-48f0-bdac-6de5ab0c0eff
+keywords:
+- WM/WMADRCAverageReference windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/WMADRCAverageReference
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMADRCAverageReference

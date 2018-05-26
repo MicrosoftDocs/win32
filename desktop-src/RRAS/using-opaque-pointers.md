@@ -1,7 +1,12 @@
 ---
 title: Using Opaque Pointers
 description: Clients often must store additional, client-specific information about destinations.
-ms.assetid: 'e96805b0-680f-411c-a02c-2c3fda7276ae'
+ms.assetid: e96805b0-680f-411c-a02c-2c3fda7276ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Opaque Pointers

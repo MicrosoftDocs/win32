@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the DiscountRateStartMinute property for a FaxServer object. The DiscountRateStartMinute property is a number that represents the minute the discount period begins. The discount period applies only to outgoing fax transmissions.'
-ms.assetid: '5159eb01-d464-4cc3-8617-e785c97ff6ff'
-title: 'FaxServer.DiscountRateStartMinute property'
+---
+Description: Sets or retrieves the DiscountRateStartMinute property for a FaxServer object. The DiscountRateStartMinute property is a number that represents the minute the discount period begins. The discount period applies only to outgoing fax transmissions.
+ms.assetid: 5159eb01-d464-4cc3-8617-e785c97ff6ff
+title: FaxServer.DiscountRateStartMinute property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.DiscountRateStartMinute property

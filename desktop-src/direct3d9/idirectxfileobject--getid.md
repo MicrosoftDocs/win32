@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a pointer to the GUID that identifies a DirectX file object. Deprecated.'
-ms.assetid: '74c7a1d9-85e4-43eb-bcd8-1f3ddd713e9f'
-title: 'IDirectXFileObject::GetId method'
+---
+Description: Retrieves a pointer to the GUID that identifies a DirectX file object. Deprecated.
+ms.assetid: 74c7a1d9-85e4-43eb-bcd8-1f3ddd713e9f
+title: IDirectXFileObjectGetId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileObject::GetId method

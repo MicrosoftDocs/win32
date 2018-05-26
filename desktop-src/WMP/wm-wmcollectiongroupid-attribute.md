@@ -1,14 +1,20 @@
 ---
 title: WM/WMCollectionGroupID Attribute
 description: The WM/WMCollectionGroupID attribute is a GUID identifying the group containing the collection to which the item belongs.
-ms.assetid: '5383fb12-fc16-474e-b9a0-c1e69b86a057'
-keywords: ["WM/WMCollectionGroupID Attribute Windows Media Player"]
+ms.assetid: 5383fb12-fc16-474e-b9a0-c1e69b86a057
+keywords:
+- WM/WMCollectionGroupID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/WMCollectionGroupID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMCollectionGroupID Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

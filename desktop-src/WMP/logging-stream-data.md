@@ -1,8 +1,23 @@
 ---
 title: Logging Stream Data
 description: Logging Stream Data
-ms.assetid: 'c902a755-afdd-4dea-bc3e-036555fdff10'
-keywords: ["Windows Media metafile playlists,logging stream data", "playlists,logging stream data", "metafile playlists,logging stream data", "Windows Media metafile playlists,stream data logging", "playlists,stream data logging", "metafile playlists,stream data logging", "logging stream data", "stream data logging", "Windows Media Player,logging stream data", "Windows Media Player,stream data logging"]
+ms.assetid: c902a755-afdd-4dea-bc3e-036555fdff10
+keywords:
+- Windows Media metafile playlists,logging stream data
+- playlists,logging stream data
+- metafile playlists,logging stream data
+- Windows Media metafile playlists,stream data logging
+- playlists,stream data logging
+- metafile playlists,stream data logging
+- logging stream data
+- stream data logging
+- Windows Media Player,logging stream data
+- Windows Media Player,stream data logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Logging Stream Data

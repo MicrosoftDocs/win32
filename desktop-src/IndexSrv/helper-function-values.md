@@ -1,7 +1,7 @@
 ---
 title: Helper-Function Values
 description: Values 0xHHHH1800 to 0xHHHH182F are return values produced by the content-indexing helper functions. The following table gives the content-indexing helper-function values in alphabetical order.
-ms.assetid: 'dae558db-00ce-4a5c-b771-0eb77e703c22'
+ms.assetid: dae558db-00ce-4a5c-b771-0eb77e703c22
 topic_type:
 - apiref
 api_name:
@@ -50,11 +50,16 @@ api_location:
 - Cierror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Helper-Function Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1800 to 0x*HHHH*182F are return values produced by the content-indexing helper functions. The following table gives the content-indexing helper-function values in alphabetical order.
 
@@ -112,17 +117,17 @@ Values 0x*HHHH*1800 to 0x*HHHH*182F are return values produced by the content-in
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

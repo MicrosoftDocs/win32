@@ -1,7 +1,12 @@
 ---
-Description: 'In this revision, the sample application is redesigned to eliminate unnecessary connects.'
-ms.assetid: '0db6ded4-0a59-454e-824e-8cd7f0dc9fec'
-title: 'Revision Two: Redesigning for Fewer Connects'
+Description: In this revision, the sample application is redesigned to eliminate unnecessary connects.
+ms.assetid: 0db6ded4-0a59-454e-824e-8cd7f0dc9fec
+title: Revision Two Redesigning for Fewer Connects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Revision Two: Redesigning for Fewer Connects

@@ -4,11 +4,14 @@ description: Adds additional data required to process the request. For example, 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c85949fc-41e7-47eb-8aab-9b456490bc81'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: c85949fc-41e7-47eb-8aab-9b456490bc81
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["AddOption method Windows Remote Management", "AddOption method Windows Remote Management , ResourceLocator object", "ResourceLocator object Windows Remote Management , AddOption method"]
+keywords:
+- AddOption method Windows Remote Management
+- AddOption method Windows Remote Management , ResourceLocator object
+- ResourceLocator object Windows Remote Management , AddOption method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceLocator.AddOption method
@@ -75,8 +81,8 @@ This method does not return a value.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -91,9 +97,9 @@ This method does not return a value.
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

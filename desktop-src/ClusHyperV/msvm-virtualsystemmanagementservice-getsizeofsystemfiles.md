@@ -4,13 +4,16 @@ description: Retrieves the total size of the system files for a virtual system o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b62da53b-f831-44c4-823a-b64587094c7a'
-ms.prod: 'windows-server-dev'
+ms.assetid: b62da53b-f831-44c4-823a-b64587094c7a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSizeOfSystemFiles method", "GetSizeOfSystemFiles method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, GetSizeOfSystemFiles method"]
+keywords:
+- GetSizeOfSystemFiles method
+- GetSizeOfSystemFiles method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, GetSizeOfSystemFiles method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSizeOfSystemFiles method of the Msvm\_VirtualSystemManagementService class
@@ -30,8 +36,8 @@ Retrieves the total size of the system files for a virtual system or for a virtu
 
 ```mof
 uint32 GetSizeOfSystemFiles(
-  [in]  CIM_VirtualSystemSettingData REF Vssd,
-  [out] uint64                           Size
+  [in]  CIM_VirtualSystemSettingData REF Vssd,
+  [out] uint64                           Size
 );
 ```
 
@@ -107,7 +113,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -121,9 +127,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

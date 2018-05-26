@@ -1,8 +1,11 @@
 ---
 title: Playlist.item method
 description: The item method retrieves the media item at the specified index.
-ms.assetid: 'a564f6db-ede4-4c85-87ca-0e2539d914c2'
-keywords: ["item method Windows Media Player", "item method Windows Media Player , Playlist class", "Playlist class Windows Media Player , item method"]
+ms.assetid: a564f6db-ede4-4c85-87ca-0e2539d914c2
+keywords:
+- item method Windows Media Player
+- item method Windows Media Player , Playlist class
+- Playlist class Windows Media Player , item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.item method
@@ -100,9 +108,9 @@ Player.URL = listItem.sourceURL;
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

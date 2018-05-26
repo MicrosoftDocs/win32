@@ -4,13 +4,15 @@ description: Dhcp Server v4 Dns Setting.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8cfaa197-60ac-410f-8d47-ba8852ba64c3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8cfaa197-60ac-410f-8d47-ba8852ba64c3
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DhcpServerv4DnsSetting class", "DhcpServerv4DnsSetting class, described"]
+keywords:
+- DhcpServerv4DnsSetting class
+- DhcpServerv4DnsSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DhcpServerv4DnsSetting class
@@ -39,12 +44,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DhcpServerPSProvider"), AMENDMENT]
 class DhcpServerv4DnsSetting
 {
-  String  DynamicUpdates;
+  String  DynamicUpdates;
   boolean DeleteDnsRROnLeaseExpiry;
   boolean UpdateDnsRRForOlderClients;
   boolean NameProtection;
   boolean DisableDnsPtrRRUpdate;
-  string  DnsSuffix;
+  string  DnsSuffix;
 };
 ```
 
@@ -84,7 +89,7 @@ Access type: Read/write
 
 Indicates if the PTR record registration has been disabled.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -99,7 +104,7 @@ Access type: Read/write
 
 The domain under which the clients are to be registered.
 
-**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This value is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -172,16 +177,16 @@ Indicates if the server should perform DNS registration for older clients which 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

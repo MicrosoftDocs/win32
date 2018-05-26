@@ -1,7 +1,12 @@
 ---
 title: Displaying the Status of a Catalog
 description: Displaying the Status of a Catalog
-ms.assetid: 'd0a80948-0a23-4af3-8036-0d1471441624'
+ms.assetid: d0a80948-0a23-4af3-8036-0d1471441624
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying the Status of a Catalog
@@ -11,7 +16,7 @@ ms.assetid: 'd0a80948-0a23-4af3-8036-0d1471441624'
 
  
 
-The following code segment is the **DisplayStatus** function of the sample, which uses the [**CISTATE**](cistate.md) structure, the [**CI\_STATE\_\***](ci-state-constants.md) constants, and the **CIState** function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to determine the status of the specified catalog. It outputs the status using the sample's **DisplayStat** function and the IDS\_\* strings defined in QSample.rc.
+The following code segment is the **DisplayStatus** function of the sample, which uses the [**CISTATE**](/windows/win32/Ntquery/nf-ntquery-cistate?branch=master) structure, the [**CI\_STATE\_\***](ci-state-constants.md) constants, and the **CIState** function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api) to determine the status of the specified catalog. It outputs the status using the sample's **DisplayStat** function and the IDS\_\* strings defined in QSample.rc.
 
 
 ```C++

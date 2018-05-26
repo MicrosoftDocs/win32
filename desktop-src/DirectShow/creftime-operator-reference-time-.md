@@ -1,7 +1,12 @@
 ---
-Description: 'The REFERENCE\_TIME() operator casts the object to a REFERENCE\_TIME data type.'
-ms.assetid: '36f51e03-a458-46e6-9657-977b263c127f'
-title: 'CRefTime.operator REFERENCE\_TIME method'
+Description: The REFERENCE\_TIME() operator casts the object to a REFERENCE\_TIME data type.
+ms.assetid: 36f51e03-a458-46e6-9657-977b263c127f
+title: CRefTime.operator REFERENCE\_TIME method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRefTime.operator REFERENCE\_TIME method
@@ -48,9 +53,9 @@ REFERENCE_TIME rt = (REFERENCE_TIME)cRT;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

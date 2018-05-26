@@ -4,9 +4,9 @@ description: The CFSTR\_DS\_PARENTHWND clipboard format provides a global memory
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '871fa9f5-6e80-490c-982a-5a3806f66860'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 871fa9f5-6e80-490c-982a-5a3806f66860
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -14,6 +14,9 @@ api_name:
 - CFSTR_DS_PARENTHWND
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CFSTR\_DS\_PARENTHWND
@@ -33,7 +36,7 @@ The **CFSTR\_DS\_PARENTHWND** clipboard format provides a global memory handle (
 > [!Note]  
 > This clipboard format value is not defined in a published header file. To use this clipboard format value, define it in the exact format shown.
 
- 
+ 
 
 
 </dt> </dl> </dd> </dl>
@@ -44,14 +47,14 @@ The **CFSTR\_DS\_PARENTHWND** clipboard format provides a global memory handle (
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

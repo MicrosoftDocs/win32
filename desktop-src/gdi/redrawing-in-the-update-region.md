@@ -1,14 +1,19 @@
 ---
-Description: 'You can limit the amount of drawing your application carries out when processing the WM\_PAINT message by determining the size and location of the update region.'
-ms.assetid: '3407014d-6427-45e9-8be4-b8037ca5438f'
+Description: You can limit the amount of drawing your application carries out when processing the WM\_PAINT message by determining the size and location of the update region.
+ms.assetid: 3407014d-6427-45e9-8be4-b8037ca5438f
 title: Redrawing in the Update Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Redrawing in the Update Region
 
 You can limit the amount of drawing your application carries out when processing the [**WM\_PAINT**](wm-paint.md) message by determining the size and location of the update region. Because the system uses the update region when creating the clipping region for the window's display device context, you can indirectly determine the update region by examining the clipping region.
 
-In the following example, the window procedure draws a triangle, a rectangle, a pentagon, and a hexagon, but only if all or a portion of each figure lies within the update region. The window procedure uses the [**RectVisible**](rectvisible.md) function and a 100-by-100 rectangle to determine whether a figure is within the clipping region (and therefore the update region) for the common device context retrieved by [**BeginPaint**](beginpaint.md).
+In the following example, the window procedure draws a triangle, a rectangle, a pentagon, and a hexagon, but only if all or a portion of each figure lies within the update region. The window procedure uses the [**RectVisible**](/windows/win32/Wingdi/nf-wingdi-rectvisible?branch=master) function and a 100-by-100 rectangle to determine whether a figure is within the clipping region (and therefore the update region) for the common device context retrieved by [**BeginPaint**](/windows/win32/Winuser/nf-winuser-beginpaint?branch=master).
 
 
 ```C++
@@ -48,7 +53,7 @@ POINT aptTriangle[4]  = {50,2, 98,86,  2,86, 50,2},
 
 
 
-The coordinates of each figure in this example lie within the same 100-by-100 rectangle. Before drawing a figure, the window procedure sets the viewport origin to a different part of the client area by using the [**SetViewportOrgEx**](setviewportorgex.md) function. This prevents figures from being drawn one on top of the other. Changing the viewport origin does not affect the clipping region, but does affect how the coordinates of the rectangle passed to [**RectVisible**](rectvisible.md) are interpreted. Changing the origin also allows you to use a single rectangle to check the update region rather than individual rectangles for each figure.
+The coordinates of each figure in this example lie within the same 100-by-100 rectangle. Before drawing a figure, the window procedure sets the viewport origin to a different part of the client area by using the [**SetViewportOrgEx**](/windows/win32/Wingdi/nf-wingdi-setviewportorgex?branch=master) function. This prevents figures from being drawn one on top of the other. Changing the viewport origin does not affect the clipping region, but does affect how the coordinates of the rectangle passed to [**RectVisible**](/windows/win32/Wingdi/nf-wingdi-rectvisible?branch=master) are interpreted. Changing the origin also allows you to use a single rectangle to check the update region rather than individual rectangles for each figure.
 
  
 

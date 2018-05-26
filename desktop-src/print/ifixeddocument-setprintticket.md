@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetPrintTicket method inserts a print ticket into the fixed document.'
-ms.assetid: '701c53d5-bb1e-4003-9505-19b9c46689c6'
-title: 'IFixedDocument::SetPrintTicket method'
+---
+Description: The SetPrintTicket method inserts a print ticket into the fixed document.
+ms.assetid: 701c53d5-bb1e-4003-9505-19b9c46689c6
+title: IFixedDocumentSetPrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedDocument::SetPrintTicket method

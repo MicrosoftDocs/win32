@@ -1,14 +1,20 @@
 ---
 title: TimeCreated (SystemPropertiesType) Element
 description: The time stamp that identifies when the event was logged.
-ms.assetid: '16b2b71b-078e-4862-b1be-ef7cec315bc5'
-keywords: ["TimeCreated element EventLog"]
+ms.assetid: 16b2b71b-078e-4862-b1be-ef7cec315bc5
+keywords:
+- TimeCreated element EventLog
 topic_type:
 - apiref
 api_name:
 - TimeCreated
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TimeCreated (SystemPropertiesType) Element
@@ -44,8 +50,8 @@ The **TimeCreated** element is defined by the [**SystemPropertiesType**](eventsc
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -59,9 +65,9 @@ The **TimeCreated** element is defined by the [**SystemPropertiesType**](eventsc
 [**System (EventType)**](eventschema-system-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

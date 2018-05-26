@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport CommandARTICLE method
 description: This function is used to request an article from the server.
-ms.assetid: 'bcaf0a21-af89-4088-8e7d-3e275a777d39'
-keywords: ["CommandARTICLE method Windows Mail (formerly Outlook Express)", "CommandARTICLE method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandARTICLE method"]
+ms.assetid: bcaf0a21-af89-4088-8e7d-3e275a777d39
+keywords:
+- CommandARTICLE method Windows Mail (formerly Outlook Express)
+- CommandARTICLE method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandARTICLE method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::CommandARTICLE method
@@ -24,7 +32,7 @@ This function is used to request an article from the server. If the caller has p
 
 ```C++
 HRESULT CommandARTICLE(
-  [in] LPARTICLEID pArticleId
+  [in] LPARTICLEID pArticleId
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

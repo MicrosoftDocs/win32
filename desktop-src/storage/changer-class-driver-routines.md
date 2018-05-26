@@ -1,7 +1,12 @@
 ---
 title: Changer Class Driver Routines
 description: Changer Class Driver Routines
-ms.assetid: 'a724ff52-dc60-4733-89d6-bf8c403a719f'
+ms.assetid: a724ff52-dc60-4733-89d6-bf8c403a719f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changer Class Driver Routines

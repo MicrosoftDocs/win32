@@ -1,7 +1,12 @@
 ---
-Description: 'A Plug and Play device was removed or became available again.'
-ms.assetid: '0640ba96-22a5-4b82-bd9f-117b67dee311'
-title: 'EC\_DEVICE\_LOST'
+Description: A Plug and Play device was removed or became available again.
+ms.assetid: 0640ba96-22a5-4b82-bd9f-117b67dee311
+title: EC\_DEVICE\_LOST
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DEVICE\_LOST
@@ -57,9 +62,9 @@ When the device becomes available again, the previous state of the device filter
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,19 @@
 ---
 title: Opening a Compound Device by Using the Filename
 description: Opening a Compound Device by Using the Filename
-ms.assetid: '5199bb68-44be-4fad-af5b-8fe89f27caee'
-keywords: ["mciSendCommand function"]
+ms.assetid: 5199bb68-44be-4fad-af5b-8fe89f27caee
+keywords:
+- mciSendCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a Compound Device by Using the Filename
 
-The following example opens the waveform-audio device by specifying a waveform-audio file named "TIMPANI.WAV" using the [**mciSendCommand**](mcisendcommand.md) function.
+The following example opens the waveform-audio device by specifying a waveform-audio file named "TIMPANI.WAV" using the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
 
 ```C++

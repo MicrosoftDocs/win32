@@ -1,7 +1,12 @@
 ---
 title: Changer Structures
 description: Changer Structures
-ms.assetid: 'e70c1b31-f05d-49ed-9019-0fb5f88224c0'
+ms.assetid: e70c1b31-f05d-49ed-9019-0fb5f88224c0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changer Structures

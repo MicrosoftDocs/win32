@@ -1,7 +1,12 @@
 ---
 title: Keyboard Input Notifications
 description: .
-ms.assetid: 'dbce37a4-e84d-4719-8e9d-038a9847a6a0'
+ms.assetid: dbce37a4-e84d-4719-8e9d-038a9847a6a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Keyboard Input Notifications

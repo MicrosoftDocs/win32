@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'e98bf6ca-0572-419b-8bc0-bc0239f8a6ff'
-title: 'System.Media.SubTitle'
+Description: .
+ms.assetid: e98bf6ca-0572-419b-8bc0-bc0239f8a6ff
+title: System.Media.SubTitle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.SubTitle

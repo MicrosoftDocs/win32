@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.'
-ms.assetid: '8c634532-4bc9-4395-84aa-76bb38a81f3d'
-title: 'FaxOutgoingMessageIterator.PrefetchSize property'
+---
+Description: The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer. This determines how many fax messages the iterator object retrieves from the fax server when the object needs to refresh its contents.
+ms.assetid: 8c634532-4bc9-4395-84aa-76bb38a81f3d
+title: FaxOutgoingMessageIterator.PrefetchSize property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessageIterator.PrefetchSize property
@@ -49,7 +54,7 @@ A **Long** value that receives the size of the prefetch buffer.
 [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator-cpp.md)
+[**IFaxOutgoingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessageiterator?branch=master)
 </dt> </dl>
 
  

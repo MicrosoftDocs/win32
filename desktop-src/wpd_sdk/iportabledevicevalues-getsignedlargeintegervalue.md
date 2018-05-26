@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSignedLargeIntegerValue method retrieves a LONGLONG value (type VT\_I8) specified by a key.'
-ms.assetid: 'b8d2a0b6-7ca3-4a56-a502-cc18b08df22a'
-title: 'IPortableDeviceValues::GetSignedLargeIntegerValue method'
+Description: The GetSignedLargeIntegerValue method retrieves a LONGLONG value (type VT\_I8) specified by a key.
+ms.assetid: b8d2a0b6-7ca3-4a56-a502-cc18b08df22a
+title: IPortableDeviceValuesGetSignedLargeIntegerValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetSignedLargeIntegerValue method
@@ -13,8 +18,8 @@ The **GetSignedLargeIntegerValue** method retrieves a **LONGLONG** value (type V
 
 ```C++
 HRESULT GetSignedLargeIntegerValue(
-  [in]  REFPROPERTYKEY key,
-  [out] LONGLONG       *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] LONGLONG       *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetSignedLargeIntegerValue**](iportabledevicevalues-setsignedlargeintegervalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

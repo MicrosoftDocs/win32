@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a collection of the extensions associated with the certificate.'
-ms.assetid: '07793061-6f94-4467-bb01-aa65db657658'
-title: 'ICertificate2::Extensions method'
+---
+Description: Returns a collection of the extensions associated with the certificate.
+ms.assetid: 07793061-6f94-4467-bb01-aa65db657658
+title: ICertificate2Extensions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::Extensions method

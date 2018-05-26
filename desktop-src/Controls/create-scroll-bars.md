@@ -1,7 +1,12 @@
 ---
 title: How to Create Scroll Bars
 description: When creating an overlapped, pop-up, or child window, you can add standard scroll bars by using the CreateWindowEx function and specifying WS\_HSCROLL, WS\_VSCROLL, or both styles.
-ms.assetid: '58353030-DCF5-4368-9658-BB282B8B5EF0'
+ms.assetid: 58353030-DCF5-4368-9658-BB282B8B5EF0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Scroll Bars

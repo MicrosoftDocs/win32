@@ -1,7 +1,12 @@
 ---
 title: Checking Registration
 description: Checking Registration
-ms.assetid: '7df63955-d838-4518-8473-0c1a24e90f69'
+ms.assetid: 7df63955-d838-4518-8473-0c1a24e90f69
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking Registration

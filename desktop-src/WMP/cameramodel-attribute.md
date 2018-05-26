@@ -1,14 +1,20 @@
 ---
 title: CameraModel Attribute
 description: The CameraModel attribute is a string representing the model of the camera.
-ms.assetid: '21718367-7a05-465a-958d-ea4b229ca3cb'
-keywords: ["CameraModel Attribute Windows Media Player"]
+ms.assetid: 21718367-7a05-465a-958d-ea4b229ca3cb
+keywords:
+- CameraModel Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CameraModel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CameraModel Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

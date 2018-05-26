@@ -1,8 +1,10 @@
 ---
 title: WMDRM\_OUTPUT\_PROTECTION\_LEVELS structure
 description: The WMDRM\_OUTPUT\_PROTECTION\_LEVELS structure contains the output protections levels (OPLs) required by a license to perform various actions.
-ms.assetid: '6b284180-1033-4c57-b010-6d4ab4bc593a'
-keywords: ["WMDRM_OUTPUT_PROTECTION_LEVELS structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 6b284180-1033-4c57-b010-6d4ab4bc593a
+keywords:
+- WMDRM_OUTPUT_PROTECTION_LEVELS structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDRM\_OUTPUT\_PROTECTION\_LEVELS structure
@@ -100,9 +107,9 @@ This structure is used by the [**IWMDRMLicense::GetOutputProtectionLevels**](iwm
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

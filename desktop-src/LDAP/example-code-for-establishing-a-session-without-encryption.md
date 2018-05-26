@@ -4,18 +4,25 @@ description: This code example shows how to establish an unencrypted LDAP connec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fc48ec0a-a457-4b65-991c-4b061ac14e72'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: fc48ec0a-a457-4b65-991c-4b061ac14e72
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Establishing a Session Without Encryption LDAP", "example code for establishing a session without encryption LDAP", "establish a session LDAP", "establishing a session LDAP"]
+keywords:
+- Example Code for Establishing a Session Without Encryption LDAP
+- example code for establishing a session without encryption LDAP
+- establish a session LDAP
+- establishing a session LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Establishing a Session Without Encryption
 
 This code example shows how to establish an unencrypted LDAP connection to an Active Directory server using LDAP version 3. Be aware that the user password is not transmitted over the network in plaintext.
 
--   Initializes a session ([**LDAP**](ldap.md) structure).
+-   Initializes a session ([**LDAP**](/windows/previous-versions/Winldap/ns-winldap-ldap?branch=master) structure).
 -   Sets the LDAP version to three.
 -   Sets a bind to the server using the user-login credentials and LDAP\_AUTH\_NEGOTIATE. Binding in this manner, assures that the user password is not transmitted over the network in plaintext, but the method of authentication used depends on what methods are available on both the client and server.
 

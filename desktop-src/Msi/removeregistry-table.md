@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RemoveRegistry table contains the registry information the application needs to delete from the system registry.'
-ms.assetid: '8be382f1-f5ab-4a9d-bf0e-05275310c5b5'
+---
+Description: The RemoveRegistry table contains the registry information the application needs to delete from the system registry.
+ms.assetid: 8be382f1-f5ab-4a9d-bf0e-05275310c5b5
 title: RemoveRegistry Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveRegistry Table

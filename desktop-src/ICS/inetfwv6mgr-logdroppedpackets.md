@@ -1,8 +1,11 @@
 ---
 title: INetFwV6Mgr LogDroppedPackets property
 description: Specifies whether the firewall logs information about dropped packets to the file location at LogfilePath.
-ms.assetid: '8d4708a8-f8f2-40b3-9aa2-b7805d9c7267'
-keywords: ["LogDroppedPackets property ICS/ICF", "LogDroppedPackets property ICS/ICF , INetFwV6Mgr interface", "INetFwV6Mgr interface ICS/ICF , LogDroppedPackets property"]
+ms.assetid: 8d4708a8-f8f2-40b3-9aa2-b7805d9c7267
+keywords:
+- LogDroppedPackets property ICS/ICF
+- LogDroppedPackets property ICS/ICF , INetFwV6Mgr interface
+- INetFwV6Mgr interface ICS/ICF , LogDroppedPackets property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6Mgr::LogDroppedPackets property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_LogDroppedPackets(
-  [in]  VARIANT_BOOL bvLogDroppedPackets
+  [in]  VARIANT_BOOL bvLogDroppedPackets
 );
 
 HRESULT get_LogDroppedPackets(
-  [out] VARIANT_BOOL *pbvLogDroppedPackets
+  [out] VARIANT_BOOL *pbvLogDroppedPackets
 );
 ```
 
@@ -69,10 +77,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -91,9 +99,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6Mgr**](inetfwv6mgr.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

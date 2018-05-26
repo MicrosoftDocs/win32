@@ -1,8 +1,11 @@
 ---
 title: IsKeyPressed method of the Msvm\_Keyboard class
 description: Retrieves the key state of a key.
-ms.assetid: 'eb1cac54-536b-4de1-9307-255634758b90'
-keywords: ["IsKeyPressed method Hyper-V", "IsKeyPressed method Hyper-V , Msvm_Keyboard class", "Msvm_Keyboard class Hyper-V , IsKeyPressed method"]
+ms.assetid: eb1cac54-536b-4de1-9307-255634758b90
+keywords:
+- IsKeyPressed method Hyper-V
+- IsKeyPressed method Hyper-V , Msvm_Keyboard class
+- Msvm_Keyboard class Hyper-V , IsKeyPressed method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsKeyPressed method of the Msvm\_Keyboard class
@@ -22,8 +30,8 @@ Retrieves the key state of a key.
 
 ```mof
 uint32 IsKeyPressed(
-  [in]  uint32  keyCode,
-  [out] boolean keyState
+  [in]  uint32  keyCode,
+  [out] boolean keyState
 );
 ```
 
@@ -111,9 +119,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -129,9 +137,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Virtual-Key Codes**](_win32_virtual_key_codes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Porting Antialiasing Functions
 description: Porting Antialiasing Functions
-ms.assetid: '7f79f0fa-4a08-4678-bc73-8611e8d9e91a'
-keywords: ["IRIS GL porting,antialiasing", "porting from IRIS GL,antialiasing", "porting to OpenGL from IRIS GL,antialiasing", "OpenGL porting from IRIS GL,antialiasing", "antialiasing"]
+ms.assetid: 7f79f0fa-4a08-4678-bc73-8611e8d9e91a
+keywords:
+- IRIS GL porting,antialiasing
+- porting from IRIS GL,antialiasing
+- porting to OpenGL from IRIS GL,antialiasing
+- OpenGL porting from IRIS GL,antialiasing
+- antialiasing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Antialiasing Functions

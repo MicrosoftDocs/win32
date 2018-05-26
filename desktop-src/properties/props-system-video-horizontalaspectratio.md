@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the horizontal portion of the pixel aspect ratio. The X portion of XX:YY. For example, 10 is the X portion of 10:11.'
-ms.assetid: 'bf490821-2838-46e7-8460-03f7c64c9292'
-title: 'System.Video.HorizontalAspectRatio'
+Description: Indicates the horizontal portion of the pixel aspect ratio. The X portion of XXYY. For example, 10 is the X portion of 1011.
+ms.assetid: bf490821-2838-46e7-8460-03f7c64c9292
+title: System.Video.HorizontalAspectRatio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.HorizontalAspectRatio

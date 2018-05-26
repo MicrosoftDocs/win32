@@ -1,7 +1,12 @@
 ---
-Description: 'The ODBCDriver table lists the ODBC drivers belonging to the installation.'
-ms.assetid: '3518b370-0652-4b54-8057-9871365d5e8c'
+Description: The ODBCDriver table lists the ODBC drivers belonging to the installation.
+ms.assetid: 3518b370-0652-4b54-8057-9871365d5e8c
 title: ODBCDriver Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODBCDriver Table

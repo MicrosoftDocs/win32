@@ -1,7 +1,12 @@
 ---
 title: Direct3D 10 Frequently Asked Questions
 description: This article contains some of the frequently asked questions surrounding Direct3D 10 from the point of view of a developer who is porting an existing application from Direct3D 9 (D3D9) to Direct3D 10 (D3D10).
-ms.assetid: 'da3022ca-b120-d0d7-6747-65b946dbc73c'
+ms.assetid: da3022ca-b120-d0d7-6747-65b946dbc73c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 10 Frequently Asked Questions

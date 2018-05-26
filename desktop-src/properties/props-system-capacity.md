@@ -1,7 +1,12 @@
 ---
-Description: 'The amount of total storage space, expressed in bytes.'
-ms.assetid: '14cd6b5d-0534-4527-8439-e7ba8cdef8da'
-title: 'System.Capacity'
+Description: The amount of total storage space, expressed in bytes.
+ms.assetid: 14cd6b5d-0534-4527-8439-e7ba8cdef8da
+title: System.Capacity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Capacity

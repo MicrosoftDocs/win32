@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_ROOT\_DESCRIPTOR\_TABLE structure
 description: A helper structure to enable easy initialization of a D3D12\_ROOT\_DESCRIPTOR\_TABLE structure.
-ms.assetid: '154B4C50-4E94-471C-A44E-F120A84F007C'
-keywords: ["CD3DX12_ROOT_DESCRIPTOR_TABLE structure"]
+ms.assetid: 154B4C50-4E94-471C-A44E-F120A84F007C
+keywords:
+- CD3DX12_ROOT_DESCRIPTOR_TABLE structure
 topic_type:
 - apiref
 api_name:
@@ -11,20 +12,25 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_ROOT\_DESCRIPTOR\_TABLE structure
 
-A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](d3d12-root-descriptor-table.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/win32/D3D12/ns-d3d12-d3d12_root_descriptor_table?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 struct CD3DX12_ROOT_DESCRIPTOR_TABLE  : public D3D12_ROOT_DESCRIPTOR_TABLE{
-       CD3DX12_ROOT_DESCRIPTOR_TABLE();
-       explicit CD3DX12_ROOT_DESCRIPTOR_TABLE(const D3D12_ROOT_DESCRIPTOR_TABLE &amp;o);
-       CD3DX12_ROOT_DESCRIPTOR_TABLE(UINT numDescriptorRanges, const D3D12_DESCRIPTOR_RANGE* _pDescriptorRanges);
+       CD3DX12_ROOT_DESCRIPTOR_TABLE();
+       explicit CD3DX12_ROOT_DESCRIPTOR_TABLE(const D3D12_ROOT_DESCRIPTOR_TABLE &amp;o);
+       CD3DX12_ROOT_DESCRIPTOR_TABLE(UINT numDescriptorRanges, const D3D12_DESCRIPTOR_RANGE* _pDescriptorRanges);
   void inline Init(UINT numDescriptorRanges, const D3D12_DESCRIPTOR_RANGE* _pDescriptorRanges);
   void static inline Init(D3D12_ROOT_DESCRIPTOR_TABLE &amp;rootDescriptorTable, UINT numDescriptorRanges, const D3D12_DESCRIPTOR_RANGE* _pDescriptorRanges);
 };
@@ -46,7 +52,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE.
 **explicit CD3DX12\_ROOT\_DESCRIPTOR\_TABLE(const D3D12\_ROOT\_DESCRIPTOR\_TABLE &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](d3d12-root-descriptor-table.md) structure.
+Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE, initialized with the contents of another [**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/win32/D3D12/ns-d3d12-d3d12_root_descriptor_table?branch=master) structure.
 
 </dd> <dt>
 
@@ -57,7 +63,7 @@ Creates a new instance of a CD3DX12\_ROOT\_DESCRIPTOR\_TABLE, initializing the f
 
 UINT numDescriptorRanges
 
-[**D3D12\_DESCRIPTOR\_RANGE**](d3d12-descriptor-range.md)\* \_pDescriptorRanges
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/win32/D3D12/ns-d3d12-d3d12_descriptor_range?branch=master)\* \_pDescriptorRanges
 
 </dd> <dt>
 
@@ -68,7 +74,7 @@ Specifies a function that initializes the following parameters:
 
 UINT numDescriptorRanges
 
-[**D3D12\_DESCRIPTOR\_RANGE**](d3d12-descriptor-range.md)\* \_pDescriptorRanges
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/win32/D3D12/ns-d3d12-d3d12_descriptor_range?branch=master)\* \_pDescriptorRanges
 
 </dd> <dt>
 
@@ -77,11 +83,11 @@ UINT numDescriptorRanges
 
 Specifies a function that initializes the following parameters:
 
-[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](d3d12-root-descriptor-table.md) &rootDescriptorTable
+[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/win32/D3D12/ns-d3d12-d3d12_root_descriptor_table?branch=master) &rootDescriptorTable
 
 UINT numDescriptorRanges
 
-[**D3D12\_DESCRIPTOR\_RANGE**](d3d12-descriptor-range.md)\* \_pDescriptorRanges
+[**D3D12\_DESCRIPTOR\_RANGE**](/windows/win32/D3D12/ns-d3d12-d3d12_descriptor_range?branch=master)\* \_pDescriptorRanges
 
 </dd> </dl>
 
@@ -99,15 +105,15 @@ UINT numDescriptorRanges
 
 <dl> <dt>
 
-[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](d3d12-root-descriptor-table.md)
+[**D3D12\_ROOT\_DESCRIPTOR\_TABLE**](/windows/win32/D3D12/ns-d3d12-d3d12_root_descriptor_table?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

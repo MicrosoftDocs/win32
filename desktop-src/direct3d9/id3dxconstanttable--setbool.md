@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a Boolean value.'
-ms.assetid: '652e5b68-88f3-4b05-959b-38bb530c546a'
-title: 'ID3DXConstantTable::SetBool method'
+---
+Description: Sets a Boolean value.
+ms.assetid: 652e5b68-88f3-4b05-959b-38bb530c546a
+title: ID3DXConstantTableSetBool method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::SetBool method
@@ -28,9 +33,9 @@ HRESULT SetBool(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device associated with the constant table.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device associated with the constant table.
 
 </dd> <dt>
 

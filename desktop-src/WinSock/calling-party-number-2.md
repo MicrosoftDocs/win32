@@ -1,7 +1,12 @@
 ---
-Description: 'This section lists the type definition for the calling party number.'
-ms.assetid: 'eb930123-28cf-4857-b7ad-f3c1786da7cc'
+Description: This section lists the type definition for the calling party number.
+ms.assetid: eb930123-28cf-4857-b7ad-f3c1786da7cc
 title: Calling Party Number
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling Party Number

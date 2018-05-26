@@ -1,8 +1,18 @@
 ---
 title: Low-Delay Audio
 description: Low-Delay Audio
-ms.assetid: 'f93819eb-f38a-45a0-aa1b-4e677e33daf8'
-keywords: ["Windows Media Format SDK,low-delay audio", "Windows Media Format SDK,audio support", "codecs,low-delay audio", "codecs,audio support", "low-delay audio"]
+ms.assetid: f93819eb-f38a-45a0-aa1b-4e677e33daf8
+keywords:
+- Windows Media Format SDK,low-delay audio
+- Windows Media Format SDK,audio support
+- codecs,low-delay audio
+- codecs,audio support
+- low-delay audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Low-Delay Audio

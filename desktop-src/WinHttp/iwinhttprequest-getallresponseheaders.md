@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves all HTTP response headers.'
-ms.assetid: '68b13d4c-5afd-486d-8b78-a7eef0f59a24'
-title: 'IWinHttpRequest::GetAllResponseHeaders method'
+Description: Retrieves all HTTP response headers.
+ms.assetid: 68b13d4c-5afd-486d-8b78-a7eef0f59a24
+title: IWinHttpRequestGetAllResponseHeaders method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::GetAllResponseHeaders method
@@ -13,7 +18,7 @@ The **GetAllResponseHeaders** method retrieves all HTTP response headers.
 
 ```C++
 HRESULT GetAllResponseHeaders(
-  [out, retval] BSTR *Headers
+  [out, retval] BSTR *Headers
 );
 ```
 
@@ -39,9 +44,9 @@ The return value is **S\_OK** on success or an error value otherwise.
 This method returns all of the headers contained in the most recent server response. The individual headers are delimited by a carriage return and line feed combination (ASCII 13 and 10). The last entry is followed by two delimiters (13, 10, 13, 10). Invoke this method only after the [**Send**](iwinhttprequest-send.md) method has been called.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -162,9 +167,9 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -187,9 +192,9 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

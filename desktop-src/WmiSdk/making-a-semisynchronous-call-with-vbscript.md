@@ -1,13 +1,16 @@
 ---
-Description: 'Provides semisynchronous access functionality and a code example for making a semisynchronous method call.'
+Description: Provides semisynchronous access functionality and a code example for making a semisynchronous method call.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3eae38e8-6a63-45c0-99b0-94e25ddbc5a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3eae38e8-6a63-45c0-99b0-94e25ddbc5a8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Making a Semisynchronous Call with VBScript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Making a Semisynchronous Call with VBScript
@@ -24,10 +27,10 @@ The following procedure describes how to use VBScript to make a semisynchronous 
 
 **To make a semisynchronous call in VBScript**
 
-1.  Set the *IFlags* parameter to the value of [wbemFlagReturnImmediately](wbemflagenum.md).
+1.  Set the *IFlags* parameter to the value of [wbemFlagReturnImmediately](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master).
 2.  Make the normal synchronous call for [**SWbemServices.ExecQuery**](swbemservices-execquery.md) or [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) with the *iFlags* value.
 3.  If you want to treat the objects returned by the call as a collection, use an enumeration syntax such as VBScript **For Each**. As each object is returned, it is processed as the next item in the collection.
-4.  Create a forward-only enumerator by combining the value of **wbemFlagReturnImmediately** with the value of **wbemFlagForwardOnly**. The decimal value of this OR operation is 48. These constants are defined in the wbemdisp.tlb type library for Visual Basic. Most scripting languages use the numeric value or define a constant. For more information, see [WbemFlagEnum](wbemflagenum.md).
+4.  Create a forward-only enumerator by combining the value of **wbemFlagReturnImmediately** with the value of **wbemFlagForwardOnly**. The decimal value of this OR operation is 48. These constants are defined in the wbemdisp.tlb type library for Visual Basic. Most scripting languages use the numeric value or define a constant. For more information, see [WbemFlagEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master).
 
 The following code example shows how to make a semisynchronous method call. For more information, see [Calling a Method](calling-a-method.md).
 

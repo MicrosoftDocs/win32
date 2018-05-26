@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_MinValue
 description: Identifies the UI\_PKEY\_MinValue property.
-ms.assetid: '0a979c63-3a52-41be-8647-102d4665d391'
+ms.assetid: 0a979c63-3a52-41be-8647-102d4665d391
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_MinValue

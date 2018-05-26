@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a constant by looking up its name.'
-ms.assetid: '785a2d4f-6391-4419-a0b8-d8244a03ceae'
-title: 'ID3DXConstantTable::GetConstantByName method'
+---
+Description: Gets a constant by looking up its name.
+ms.assetid: 785a2d4f-6391-4419-a0b8-d8244a03ceae
+title: ID3DXConstantTableGetConstantByName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXConstantTable::GetConstantByName method

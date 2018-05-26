@@ -1,7 +1,7 @@
 ---
 title: Constants
 description: This section provides the reference specifications for Touch Injection constants.
-ms.assetid: '52941DF1-88AF-452B-BF3E-838ADBDBC9B2'
+ms.assetid: 52941DF1-88AF-452B-BF3E-838ADBDBC9B2
 topic_type:
 - apiref
 api_name:
@@ -13,6 +13,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constants
@@ -36,8 +41,8 @@ This section provides the reference specifications for [Touch Injection](touch-i
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
 
@@ -49,9 +54,9 @@ This section provides the reference specifications for [Touch Injection](touch-i
 [Touch Injection Reference](touch-injection-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

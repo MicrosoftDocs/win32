@@ -1,8 +1,15 @@
 ---
 title: Disk Quota Provider
 description: The Windows Disk Quota provider allows administrators to control the amount of data that each user stores on an NTFS file system.
-ms.assetid: '0d22c376-0fbf-4e16-ac91-612933bf5d17'
-keywords: ["providers Windows Management Instrumentation , Disk Quota", "Disk Quota provider Windows Management Instrumentation"]
+ms.assetid: 0d22c376-0fbf-4e16-ac91-612933bf5d17
+keywords:
+- providers Windows Management Instrumentation , Disk Quota
+- Disk Quota provider Windows Management Instrumentation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disk Quota Provider

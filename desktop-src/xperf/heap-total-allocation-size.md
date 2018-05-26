@@ -1,7 +1,12 @@
 ---
 title: Heap Total Allocation Size
 description: Heap Total Allocation Size
-ms.assetid: '60fbfa1f-2dd6-4a9c-9673-9e8f8830d6b5'
+ms.assetid: 60fbfa1f-2dd6-4a9c-9673-9e8f8830d6b5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Heap Total Allocation Size

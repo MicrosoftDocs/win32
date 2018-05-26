@@ -1,8 +1,18 @@
 ---
 title: Changing the Volume of Waveform-Audio Playback
 description: Changing the Volume of Waveform-Audio Playback
-ms.assetid: '814daa35-7905-47a2-ab08-29f20493af1e'
-keywords: ["waveform audio,changing playback volume", "waveform-audio interface,changing playback volume", "waveform audio,playback volume", "waveform-audio interface,playback volume", "changing waveform-audio playback volume"]
+ms.assetid: 814daa35-7905-47a2-ab08-29f20493af1e
+keywords:
+- waveform audio,changing playback volume
+- waveform-audio interface,changing playback volume
+- waveform audio,playback volume
+- waveform-audio interface,playback volume
+- changing waveform-audio playback volume
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing the Volume of Waveform-Audio Playback

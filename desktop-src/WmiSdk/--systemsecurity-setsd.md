@@ -1,13 +1,16 @@
 ---
-Description: 'Sets the security descriptor for the namespace to which a user is connected. This method requires a security descriptor in binary byte array format. If you are writing a script, use the SetSecurityDescriptor method.'
+Description: Sets the security descriptor for the namespace to which a user is connected. This method requires a security descriptor in binary byte array format. If you are writing a script, use the SetSecurityDescriptor method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '049f8722-1674-4c4f-9300-09b1cc1412fb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 049f8722-1674-4c4f-9300-09b1cc1412fb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetSD method of the \_\_SystemSecurity class'
+title: SetSD method of the \_\_SystemSecurity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSD method of the \_\_SystemSecurity class
@@ -21,14 +24,14 @@ A user must have the **WRITE\_DAC** permission, and by default, an administrator
 > [!Note]  
 > Because deny and allow ACEs are both permitted in a DACL, the order of ACEs is important. For more information, see [Ordering of ACEs in a DACL](https://msdn.microsoft.com/library/windows/desktop/aa379298).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 HRESULT SetSD(
-  [in] uint8 SD[]
+  [in] uint8 SD[]
 );
 ```
 
@@ -219,8 +222,8 @@ The following C# code sample uses the System.Security.AccessControl.RawSecurityD
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -250,9 +253,9 @@ The following C# code sample uses the System.Security.AccessControl.RawSecurityD
 [Securing WMI Namespaces](securing-wmi-namespaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

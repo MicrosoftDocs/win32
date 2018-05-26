@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of OID objects.'
-ms.assetid: '2c4ff87a-58e1-46aa-9680-29062b05308c'
+---
+Description: Represents a collection of OID objects.
+ms.assetid: 2c4ff87a-58e1-46aa-9680-29062b05308c
 title: OIDs object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OIDs object

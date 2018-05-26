@@ -1,7 +1,12 @@
 ---
-Description: 'Aggregates the processor resources that may be allocated to a virtual machine.'
-ms.assetid: 'C0497900-00F3-4975-9D12-C82C13C03D8E'
-title: 'Msvm\_ProcessorPool class'
+Description: Aggregates the processor resources that may be allocated to a virtual machine.
+ms.assetid: C0497900-00F3-4975-9D12-C82C13C03D8E
+title: Msvm\_ProcessorPool class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ProcessorPool class
@@ -16,31 +21,31 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ProcessorPool : CIM_ResourcePool
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   PoolID = "Microsoft:GUID\Root";
-  boolean  Primordial = False;
-  uint64   Capacity;
-  uint64   Reserved;
-  uint16   ResourceType = 4;
-  string   OtherResourceType;
-  string   ResourceSubType;
-  string   AllocationUnits = "Megabyte";
-  string   ConsumedResourceUnits = "count";
-  uint64   CurrentlyConsumedResource;
-  uint64   MaxConsumableResource;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   PoolID = "Microsoft:GUID\Root";
+  boolean  Primordial = False;
+  uint64   Capacity;
+  uint64   Reserved;
+  uint16   ResourceType = 4;
+  string   OtherResourceType;
+  string   ResourceSubType;
+  string   AllocationUnits = "Megabyte";
+  string   ConsumedResourceUnits = "count";
+  uint64   CurrentlyConsumedResource;
+  uint64   MaxConsumableResource;
 };
 ```
 
@@ -63,7 +68,7 @@ The **Msvm\_ProcessorPool** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -537,8 +542,8 @@ Access to the **Msvm\_ProcessorPool** class might be restricted by UAC Filtering
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -558,9 +563,9 @@ Access to the **Msvm\_ProcessorPool** class might be restricted by UAC Filtering
 [Processor Classes](processor-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

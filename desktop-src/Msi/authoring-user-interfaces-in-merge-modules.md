@@ -1,7 +1,12 @@
 ---
-Description: 'Merge modules rarely require a user interface.'
-ms.assetid: '53bd2064-09dd-406f-a8ff-7b04f3525b9f'
+Description: Merge modules rarely require a user interface.
+ms.assetid: 53bd2064-09dd-406f-a8ff-7b04f3525b9f
 title: Authoring User Interfaces in Merge Modules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring User Interfaces in Merge Modules

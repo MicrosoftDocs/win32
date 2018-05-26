@@ -1,8 +1,10 @@
 ---
 title: Msvm\_DVDDrive class
 description: Represents a DVD drive inside of a virtual machine.
-ms.assetid: '42e8221e-3c18-4585-ac1f-27613f3c78c8'
-keywords: ["Msvm_DVDDrive class Hyper-V", "Msvm_DVDDrive class Hyper-V , described"]
+ms.assetid: 42e8221e-3c18-4585-ac1f-27613f3c78c8
+keywords:
+- Msvm_DVDDrive class Hyper-V
+- Msvm_DVDDrive class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -76,6 +78,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DVDDrive class
@@ -90,62 +97,62 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_DVDDrive : CIM_DVDDrive
 {
-  string   Caption = "DVD Drive";
-  string   Description = "Microsoft Virtual DVD Drive";
-  string   ElementName = "DVD Drive";
+  string   Caption = "DVD Drive";
+  string   Description = "Microsoft Virtual DVD Drive";
+  string   ElementName = "DVD Drive";
   datetime InstallDate;
-  string   Name = "DVD Drive";
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
+  string   Name = "DVD Drive";
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_DVDDrive";
-  string   DeviceID = "Microsoft:GUID\device-specific-data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   ErrorMethodology = "None";
-  string   CompressionMethod = "Not Compressed";
-  uint64   MaxMediaSize = 9400000;
-  uint64   DefaultBlockSize = 2048;
-  uint64   MaxBlockSize = 2048;
-  uint64   MinBlockSize = 2048;
-  boolean  NeedsCleaning = FALSE;
-  boolean  MediaIsLocked = FALSE;
-  uint16   Security = 3;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_DVDDrive";
+  string   DeviceID = "Microsoft:GUID\device-specific-data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   ErrorMethodology = "None";
+  string   CompressionMethod = "Not Compressed";
+  uint64   MaxMediaSize = 9400000;
+  uint64   DefaultBlockSize = 2048;
+  uint64   MaxBlockSize = 2048;
+  uint64   MinBlockSize = 2048;
+  boolean  NeedsCleaning = FALSE;
+  boolean  MediaIsLocked = FALSE;
+  uint16   Security = 3;
   datetime LastCleaned;
-  uint64   MaxAccessTime = 0;
-  uint32   UncompressedDataRate;
-  uint64   LoadTime = 0;
-  uint64   MountCount = 0;
+  uint64   MaxAccessTime = 0;
+  uint32   UncompressedDataRate;
+  uint64   LoadTime = 0;
+  uint64   MountCount = 0;
   datetime TimeOfLastMount;
-  uint64   TotalMountTime = 0;
-  uint64   MaxUnitsBeforeCleaning = 0xffffffffffffffff;
-  uint64   UnitsUsed = 0;
-  uint16   FormatsSupported[];
-  string   StatusDescriptions[] = { "OK" };
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  uint32   NumberOfMediaSupported = 1;
-  uint64   UnloadTime = 0;
-  string   UnitsDescription;
+  uint64   TotalMountTime = 0;
+  uint64   MaxUnitsBeforeCleaning = 0xffffffffffffffff;
+  uint64   UnitsUsed = 0;
+  uint16   FormatsSupported[];
+  string   StatusDescriptions[] = { "OK" };
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  uint32   NumberOfMediaSupported = 1;
+  uint64   UnloadTime = 0;
+  string   UnitsDescription;
 };
 ```
 
@@ -176,7 +183,7 @@ The **Msvm\_DVDDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1599,9 +1606,9 @@ Access to the **Msvm\_DVDDrive** class might be restricted by UAC Filtering. For
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1620,9 +1627,9 @@ Access to the **Msvm\_DVDDrive** class might be restricted by UAC Filtering. For
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

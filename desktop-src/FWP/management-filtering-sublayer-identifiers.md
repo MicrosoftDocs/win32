@@ -1,7 +1,7 @@
 ---
 title: Filtering Sublayer Identifiers
 description: WFP API management filtering sublayer identifier constants.
-ms.assetid: '4c8dbe35-e84b-4490-bf7a-7ff8b94e2022'
+ms.assetid: 4c8dbe35-e84b-4490-bf7a-7ff8b94e2022
 topic_type:
 - apiref
 api_name:
@@ -20,6 +20,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Sublayer Identifiers
@@ -38,9 +43,9 @@ These identifiers are defined as follows.
 Edge traversal filters are added to this sublayer.
 
 > [!Note]  
-> For Windows 7 and later, use **FWPM\_SUBLAYER\_EDGE\_TRAVERSAL**.
+> For Windows 7 and later, use **FWPM\_SUBLAYER\_EDGE\_TRAVERSAL**.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -63,9 +68,9 @@ This is the lowest weighted sublayer. It is used only for inspection filters.
 IPsec DoS Protection filters are added to this sublayer.
 
 > [!Note]  
-> Available only on Windows Vista with SP1, Windows Server 2008, and later.
+> Available only on Windows Vista with SP1, Windows Server 2008, and later.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -78,9 +83,9 @@ IPsec DoS Protection filters are added to this sublayer.
 IPsec forward outbound tunnel filters are added to this sublayer.
 
 > [!Note]  
-> Available only on Windows 7, Windows Server 2008 R2, and later.
+> Available only on Windows 7, Windows Server 2008 R2, and later.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -143,9 +148,9 @@ TCP Chimney Offload filters are added to this sublayer.
 TCP template filters are added to this sublayer.
 
 > [!Note]  
-> Available only on Windows 8, Windows Server 2012, and later.
+> Available only on Windows 8, Windows Server 2012, and later.
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -166,15 +171,15 @@ This sublayer hosts all filters that are not assigned to any of the other sublay
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Source Register Bias
 description: Subtract 0.5 from all components.
-ms.assetid: '6e1e96b0-e265-4b43-a9cb-8435e1fe891c'
+ms.assetid: 6e1e96b0-e265-4b43-a9cb-8435e1fe891c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Register Bias

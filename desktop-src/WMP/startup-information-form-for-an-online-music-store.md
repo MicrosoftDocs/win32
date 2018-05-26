@@ -1,8 +1,14 @@
 ---
 title: Startup Information Form for an Online Music Store
 description: Startup Information Form for an Online Music Store
-ms.assetid: '6ee30446-7505-40ae-b664-3727a5be9976'
-keywords: ["Windows Media Player Online Stores"]
+ms.assetid: 6ee30446-7505-40ae-b664-3727a5be9976
+keywords:
+- Windows Media Player Online Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Startup Information Form for an Online Music Store
@@ -20,7 +26,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
- 
+ 
 
 ## Startup Information for Test Store
 
@@ -37,7 +43,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
- 
+ 
 
 
 
@@ -50,7 +56,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
- 
+ 
 
 ## Startup Information for Production Store
 
@@ -67,7 +73,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
- 
+ 
 
 
 
@@ -80,7 +86,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
- 
+ 
 
 ## Test Accounts
 
@@ -92,7 +98,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
- 
+ 
 
 ## Valid Accounts That Testers Can Use to Purchase Albums or Tracks
 
@@ -108,7 +114,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -117,9 +123,9 @@ Please fill out and send one form for each store and each locale to the Windows 
 [Online Stores Welcome Kit](online-stores-welcome-kit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

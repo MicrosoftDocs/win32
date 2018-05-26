@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMRCIdleConnectionTimeout property
 description: The VMRCIdleConnectionTimeout property contains the time in seconds after which idle VMRC connections are disconnected.
-ms.assetid: 'a824d13a-99fa-4af2-9da7-517e5a16f824'
-keywords: ["VMRCIdleConnectionTimeout property Virtual Server", "VMRCIdleConnectionTimeout property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMRCIdleConnectionTimeout property", "VMRCIdleConnectionTimeout property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VMRCIdleConnectionTimeout property"]
+ms.assetid: a824d13a-99fa-4af2-9da7-517e5a16f824
+keywords:
+- VMRCIdleConnectionTimeout property Virtual Server
+- VMRCIdleConnectionTimeout property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMRCIdleConnectionTimeout property
+- VMRCIdleConnectionTimeout property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VMRCIdleConnectionTimeout property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMRCIdleConnectionTimeout property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VMRCIdleConnectionTimeout(
-  [in]  long idleTimeout
+  [in]  long idleTimeout
 );
 
 HRESULT get_VMRCIdleConnectionTimeout(
-  [out] long *idleTimeout
+  [out] long *idleTimeout
 );
 ```
 
@@ -102,8 +112,8 @@ Wscript.Echo "VMRC idle connection timeout: " & _
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -115,9 +125,9 @@ Wscript.Echo "VMRC idle connection timeout: " & _
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: VML Vertices Attribute
 description: VML Vertices Attribute
-ms.assetid: '3b887ecb-19e8-4ebf-9db6-bf3ed4f7d589'
+ms.assetid: 3b887ecb-19e8-4ebf-9db6-bf3ed4f7d589
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Vertices Attribute

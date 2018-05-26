@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an InternetExplorer object that represents the Shell window.'
-ms.assetid: '04157d1a-8a4d-4ffd-882d-41748408ba2b'
-title: 'ShellWindows.Item method'
+---
+Description: Retrieves an InternetExplorer object that represents the Shell window.
+ms.assetid: 04157d1a-8a4d-4ffd-882d-41748408ba2b
+title: ShellWindows.Item method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellWindows.Item method

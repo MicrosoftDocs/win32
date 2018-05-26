@@ -4,11 +4,14 @@ description: Attempts to place the referenced service into its startup state.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4DA05C48-03A0-4D4B-9E69-0404393C219C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4DA05C48-03A0-4D4B-9E69-0404393C219C
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["StartService method Remote Desktop Services", "StartService method Remote Desktop Services , Win32_Service class", "Win32_Service class Remote Desktop Services , StartService method"]
+keywords:
+- StartService method Remote Desktop Services
+- StartService method Remote Desktop Services , Win32_Service class
+- Win32_Service class Remote Desktop Services , StartService method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartService method of the Win32\_Service class
@@ -236,8 +242,8 @@ If you start a stopped service that depends on another service, then both servic
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -260,9 +266,9 @@ If you start a stopped service that depends on another service, then both servic
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

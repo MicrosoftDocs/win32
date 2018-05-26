@@ -1,7 +1,12 @@
 ---
-Description: 'The OnDirectRender method collects timing information that controls synchronization and quality control.'
-ms.assetid: 'ed617fac-b2c6-4a3a-ac91-77e2d7cce981'
-title: 'CBaseVideoRenderer.OnDirectRender method'
+Description: The OnDirectRender method collects timing information that controls synchronization and quality control.
+ms.assetid: ed617fac-b2c6-4a3a-ac91-77e2d7cce981
+title: CBaseVideoRenderer.OnDirectRender method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.OnDirectRender method
@@ -13,7 +18,7 @@ The **OnDirectRender** method collects timing information that controls synchron
 
 ```C++
 virtual HRESULT OnDirectRender(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT OnDirectRender(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the media sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the media sample.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ Call this method instead of [**OnRenderStart**](cbasevideorenderer-onrenderstart
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

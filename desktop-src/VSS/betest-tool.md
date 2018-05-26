@@ -1,7 +1,12 @@
 ---
-Description: 'BETest is a VSS requester that tests advanced backup and restore operations.'
-ms.assetid: 'a6cc7308-a9fa-4a84-9e7c-4d0adda28db5'
+Description: BETest is a VSS requester that tests advanced backup and restore operations.
+ms.assetid: a6cc7308-a9fa-4a84-9e7c-4d0adda28db5
 title: BETest Tool
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BETest Tool
@@ -187,7 +192,7 @@ Stops BETest when the first writer error is encountered.
 <span id="_T_BackupType"></span><span id="_t_backuptype"></span><span id="_T_BACKUPTYPE"></span>**/T** *BackupType*
 </dt> <dd>
 
-Specifies the backup type. *BackupType* can be FULL, LOG, COPY, INCREMENTAL, or DIFFERENTIAL. For more information about backup types, see [**VSS\_BACKUP\_TYPE**](vss-backup-type.md).
+Specifies the backup type. *BackupType* can be FULL, LOG, COPY, INCREMENTAL, or DIFFERENTIAL. For more information about backup types, see [**VSS\_BACKUP\_TYPE**](/windows/win32/Vss/ne-vss-_vss_backup_type?branch=master).
 
 </dd> <dt>
 
@@ -251,7 +256,7 @@ The following sample configuration file, VswriterSample.xml, can be found in the
 
 The root element in this configuration file is named TestWriter. All other elements are arranged under the TestWriter element.
 
-The first attribute associated with TestWriter is the usage attribute. This attribute specifies the usage type reported through the [**IVssExamineWriterMetadata::GetIdentity**](ivssexaminewritermetadata-getidentity.md) method. One of the possible values for this attribute is USER\_DATA.
+The first attribute associated with TestWriter is the usage attribute. This attribute specifies the usage type reported through the [**IVssExamineWriterMetadata::GetIdentity**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-getidentity?branch=master) method. One of the possible values for this attribute is USER\_DATA.
 
 The second attribute is the deleteFiles attribute. This attribute is described in [Configuring Writer Attributes](vss-test-writer-tool.md#configuring-writer-attributes).
 

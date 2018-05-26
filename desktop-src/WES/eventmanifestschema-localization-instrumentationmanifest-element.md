@@ -1,14 +1,20 @@
 ---
 title: localization (instrumentationManifest) Element
 description: Defines a group of localized resources that you reference in your manifest.
-ms.assetid: '20c41456-cba2-4c8c-9c7e-2ffa0d1b37e5'
-keywords: ["localization element EventLog"]
+ms.assetid: 20c41456-cba2-4c8c-9c7e-2ffa0d1b37e5
+keywords:
+- localization element EventLog
 topic_type:
 - apiref
 api_name:
 - localization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # localization (instrumentationManifest) Element
@@ -29,8 +35,8 @@ The **localization** element is defined by the [**instrumentationManifest**](eve
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **localization** element is defined by the [**instrumentationManifest**](eve
 [**instrumentationManifest**](eventmanifestschema-instrumentationmanifest-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

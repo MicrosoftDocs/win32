@@ -1,7 +1,12 @@
-﻿---
-Description: 'Each part of the interactive logon process has a set of responsibilities. This section defines those responsibilities and indicates where you can implement features not contained in the standard version of the operating system.'
-ms.assetid: '4b816598-a2dc-4db2-a79a-0c327320fd86'
+---
+Description: Each part of the interactive logon process has a set of responsibilities. This section defines those responsibilities and indicates where you can implement features not contained in the standard version of the operating system.
+ms.assetid: 4b816598-a2dc-4db2-a79a-0c327320fd86
 title: Responsibilities and Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Responsibilities and Features

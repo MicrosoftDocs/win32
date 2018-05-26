@@ -4,11 +4,13 @@ description: Displays frame buffers from an input device that is connected to th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a0812a27-a24b-42cc-9321-59da261220ef'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a0812a27-a24b-42cc-9321-59da261220ef
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IWmsStationPresenter2 interface", "IWmsStationPresenter2 interface, described"]
+keywords:
+- IWmsStationPresenter2 interface
+- IWmsStationPresenter2 interface, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IWmsStationPresenter2 interface
@@ -48,7 +53,7 @@ The **IWmsStationPresenter2** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,7 +62,7 @@ The **IWmsStationPresenter2** interface has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsStationPresenter2 is defined as 5c03282a-b68f-476a-ace8-e0736a9d1260<br/>           |
 
@@ -73,9 +78,9 @@ The **IWmsStationPresenter2** interface has these methods.
 [**IWmsStationPresenter**](iwmsstationpresenter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

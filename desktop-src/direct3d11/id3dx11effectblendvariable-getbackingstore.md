@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectBlendVariable GetBackingStore method
 description: Get a pointer to a blend-state variable.
-ms.assetid: '809daaad-9bf0-48fb-ae91-f237c43db324'
-keywords: ["GetBackingStore method Direct3D 11", "GetBackingStore method Direct3D 11 , ID3DX11EffectBlendVariable interface", "ID3DX11EffectBlendVariable interface Direct3D 11 , GetBackingStore method"]
+ms.assetid: 809daaad-9bf0-48fb-ae91-f237c43db324
+keywords:
+- GetBackingStore method Direct3D 11
+- GetBackingStore method Direct3D 11 , ID3DX11EffectBlendVariable interface
+- ID3DX11EffectBlendVariable interface Direct3D 11 , GetBackingStore method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectBlendVariable::GetBackingStore method
@@ -23,8 +31,8 @@ Get a pointer to a blend-state variable.
 
 ```C++
 HRESULT GetBackingStore(
-   UINT             Index,
-   D3D11_BLEND_DESC *pBlendDesc
+   UINT             Index,
+   D3D11_BLEND_DESC *pBlendDesc
 );
 ```
 
@@ -46,9 +54,9 @@ Index into an array of blend-state descriptions. If there is only one blend-stat
 *pBlendDesc* 
 </dt> <dd>
 
-Type: **[**D3D11\_BLEND\_DESC**](d3d11-blend-desc.md)\***
+Type: **[**D3D11\_BLEND\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_blend_desc?branch=master)\***
 
-A pointer to a blend-state description (see [**D3D11\_BLEND\_DESC**](d3d11-blend-desc.md)).
+A pointer to a blend-state description (see [**D3D11\_BLEND\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_blend_desc?branch=master)).
 
 </dd> </dl>
 
@@ -65,7 +73,7 @@ Effect variables are saved in memory in the backing store; when a technique is a
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -85,9 +93,9 @@ Effect variables are saved in memory in the backing store; when a technique is a
 [ID3DX11EffectBlendVariable](id3dx11effectblendvariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

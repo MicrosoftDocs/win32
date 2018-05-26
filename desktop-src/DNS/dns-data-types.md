@@ -1,8 +1,14 @@
 ---
 title: DNS Data Types
-ms.assetid: '652012a5-e45d-4ea6-896a-17e8b1ed4a05'
+ms.assetid: 652012a5-e45d-4ea6-896a-17e8b1ed4a05
 description: 
-keywords: ["IP4_ADDRESS"]
+keywords:
+- IP4_ADDRESS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS Data Types
@@ -31,15 +37,15 @@ A value that represents an Internet Protocol version 4 (IPv4) address. For examp
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Windns.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MsiServiceConfig table configures a service that is installed or being installed by the current package.'
-ms.assetid: '0d9fd005-9326-4a18-8496-35b5d1927f47'
+---
+Description: The MsiServiceConfig table configures a service that is installed or being installed by the current package.
+ms.assetid: 0d9fd005-9326-4a18-8496-35b5d1927f47
 title: MsiServiceConfig Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiServiceConfig Table

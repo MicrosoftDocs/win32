@@ -1,8 +1,9 @@
 ---
 title: NM\_SETFOCUS (date time) notification code
-description: Notifies a date and time picker control's parent window that the control has received the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '61c62fb2-bc79-404b-9958-7208d1c781fa'
-keywords: ["NM_SETFOCUS (date time) notification code Windows Controls"]
+description: Notifies a date and time picker controls parent window that the control has received the input focus. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 61c62fb2-bc79-404b-9958-7208d1c781fa
+keywords:
+- NM_SETFOCUS (date time) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_SETFOCUS (date time) notification code
@@ -33,7 +39,7 @@ NM_SETFOCUS
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHDR**](nmhdr.md) structure that contains additional information about this notification.
+A pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

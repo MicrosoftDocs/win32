@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_NamedJobObjectLimit association WMI class class represents an association between a job object and the job object limit settings.'
+Description: The Win32\_NamedJobObjectLimit association WMI class class represents an association between a job object and the job object limit settings.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'be5c5866-d970-4310-b6b7-5e4bfbba4039'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: be5c5866-d970-4310-b6b7-5e4bfbba4039
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NamedJobObjectLimit class'
+title: Win32\_NamedJobObjectLimit class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NamedJobObjectLimit class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("CIMWin32a"), Dynamic, UUID("{08E31939-FAAB-4a3b-9B10-50151D1B9D24}"), AMENDMENT]
 class Win32_NamedJobObjectLimit : CIM_CollectionSetting
 {
-  Win32_NamedJobObject             REF Collection;
+  Win32_NamedJobObject             REF Collection;
   Win32_NamedJobObjectLimitSetting REF Setting;
 };
 ```
@@ -81,8 +84,8 @@ The **Win32\_NamedJobObjectLimit** class is derived from [**CIM\_CollectionSetti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipjobj.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipjobj.dll</dt> </dl> |
@@ -99,9 +102,9 @@ The **Win32\_NamedJobObjectLimit** class is derived from [**CIM\_CollectionSetti
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

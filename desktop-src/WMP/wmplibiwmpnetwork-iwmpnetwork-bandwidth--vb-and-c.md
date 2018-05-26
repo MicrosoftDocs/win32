@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork bandWidth property
 description: The bandWidth property gets the current bandwidth of the media item.
-ms.assetid: '4355aa14-bca7-4b46-aad5-3e3796a54735'
-keywords: ["bandWidth property Windows Media Player", "bandWidth property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , bandWidth property"]
+ms.assetid: 4355aa14-bca7-4b46-aad5-3e3796a54735
+keywords:
+- bandWidth property Windows Media Player
+- bandWidth property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , bandWidth property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::bandWidth property
@@ -146,9 +154,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

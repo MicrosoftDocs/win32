@@ -1,7 +1,12 @@
 ---
 title: To create a hyperlink to open the pop-up window
 description: To create a hyperlink to open the pop-up window
-ms.assetid: 'B4134683-E42D-4cab-AD99-72A255B69E83'
+ms.assetid: B4134683-E42D-4cab-AD99-72A255B69E83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a hyperlink to open the pop-up window

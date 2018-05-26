@@ -1,8 +1,14 @@
 ---
 title: CMainWindow
 description: The following example code illustrates this procedure.
-ms.assetid: 'a2998232-db71-48ce-b14b-5e17de147172'
-keywords: ["CMainWindow"]
+ms.assetid: a2998232-db71-48ce-b14b-5e17de147172
+keywords:
+- CMainWindow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMainWindow

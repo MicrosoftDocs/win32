@@ -1,8 +1,24 @@
 ---
 title: How To Set Up Text Services Framework
 description: To set up Text Services Framework (TSF) to be used from the desktop, you must install text services. The following procedures describe how to install text services and the TSF language control bar on Windows XP.
-ms.assetid: '4d39252a-8211-4150-a60d-a730132adead'
-keywords: ["Text Services Framework (TSF),installing text services", "TSF (Text Services Framework),installing text services", "text services,installing", "installing text services", "Text Services Framework (TSF),setting up", "TSF (Text Services Framework),setting up", "setting up TSF", "Text Services Framework (TSF),language bar", "TSF (Text Services Framework),language bar", "text services,language bar", "language bar"]
+ms.assetid: 4d39252a-8211-4150-a60d-a730132adead
+keywords:
+- Text Services Framework (TSF),installing text services
+- TSF (Text Services Framework),installing text services
+- text services,installing
+- installing text services
+- Text Services Framework (TSF),setting up
+- TSF (Text Services Framework),setting up
+- setting up TSF
+- Text Services Framework (TSF),language bar
+- TSF (Text Services Framework),language bar
+- text services,language bar
+- language bar
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To Set Up Text Services Framework

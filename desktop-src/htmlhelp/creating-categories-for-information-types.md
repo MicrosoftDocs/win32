@@ -1,7 +1,12 @@
 ---
 title: Creating Categories for Information Types
 description: Categories allow you to group information types into easily referenced subject areas. You might, for example, create a category named Experience Level, and then assign the following information types to the category Novice, Intermediate, and Advanced.
-ms.assetid: 'FA4204E8-C3EA-4ac9-B89B-CADFF2A98CEB'
+ms.assetid: FA4204E8-C3EA-4ac9-B89B-CADFF2A98CEB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Categories for Information Types

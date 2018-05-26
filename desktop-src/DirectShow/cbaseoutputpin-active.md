@@ -1,7 +1,12 @@
 ---
-Description: 'The Active method notifies the pin that the filter is now active.'
-ms.assetid: '35df4305-0e2c-4ee1-bc63-db5aec864c46'
-title: 'CBaseOutputPin.Active method'
+Description: The Active method notifies the pin that the filter is now active.
+ms.assetid: 35df4305-0e2c-4ee1-bc63-db5aec864c46
+title: CBaseOutputPin.Active method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.Active method
@@ -34,11 +39,11 @@ Returns an **HRESULT** value. Possible values include those listed in the follow
 
 
 
- 
+ 
 
 ## Remarks
 
-This method overrides the [**CBasePin::Active**](cbasepin-active.md) method. It calls the [**IMemAllocator::Commit**](imemallocator-commit.md) method on the allocator, to allocate memory for buffers.
+This method overrides the [**CBasePin::Active**](cbasepin-active.md) method. It calls the [**IMemAllocator::Commit**](/windows/win32/Strmif/nf-strmif-imemallocator-commit?branch=master) method on the allocator, to allocate memory for buffers.
 
 If you override this method, call the base-class method from your overriding method.
 
@@ -60,9 +65,9 @@ If you override this method, call the base-class method from your overriding met
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

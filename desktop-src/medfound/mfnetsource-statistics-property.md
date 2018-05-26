@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains network statistics for the network source.'
-ms.assetid: '1948481b-febd-434b-a5dc-faef592ea0ed'
-title: 'MFNETSOURCE\_STATISTICS Property'
+---
+Description: Contains network statistics for the network source.
+ms.assetid: 1948481b-febd-434b-a5dc-faef592ea0ed
+title: MFNETSOURCE\_STATISTICS Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_STATISTICS Property
@@ -14,7 +19,7 @@ Varies; see Remarks.
 
 ## Remarks
 
-The constant MFNETSOURCE\_STATISTICS defines a GUID that is used in conjunction with the [**MFNETSOURCE\_STATISTICS\_IDS**](mfnetsource-statistics-ids.md) enumeration to define a set of property keys. Each property key in the set has **fmtid** equal to MFNETSOURCE\_STATISTICS and **pid** equal to one member of the enumeration. For more information, see [**MFNETSOURCE\_STATISTICS\_IDS**](mfnetsource-statistics-ids.md).
+The constant MFNETSOURCE\_STATISTICS defines a GUID that is used in conjunction with the [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_statistics_ids?branch=master) enumeration to define a set of property keys. Each property key in the set has **fmtid** equal to MFNETSOURCE\_STATISTICS and **pid** equal to one member of the enumeration. For more information, see [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_statistics_ids?branch=master).
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX supplies the following general purpose functions.'
-ms.assetid: '36db8e11-9cb0-4fa7-be40-4bf2eb8337ed'
+Description: D3DX supplies the following general purpose functions.
+ms.assetid: 36db8e11-9cb0-4fa7-be40-4bf2eb8337ed
 title: General Purpose Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Purpose Functions

@@ -1,8 +1,10 @@
 ---
 title: IVMFloppyDrive interface
 description: The IVMFloppyDrive interface controls a floppy drive within a virtual machine.
-ms.assetid: '9abcd75e-f2b7-4f4d-a66f-f551a1c85cc4'
-keywords: ["IVMFloppyDrive interface Virtual Server", "IVMFloppyDrive interface Virtual Server , described"]
+ms.assetid: 9abcd75e-f2b7-4f4d-a66f-f551a1c85cc4
+keywords:
+- IVMFloppyDrive interface Virtual Server
+- IVMFloppyDrive interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive interface
@@ -39,7 +46,7 @@ The **IVMFloppyDrive** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +63,7 @@ The **IVMFloppyDrive** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +71,8 @@ The **IVMFloppyDrive** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -77,9 +84,9 @@ The **IVMFloppyDrive** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Adds storage to Cluster Shared Volumes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0860020-f458-4977-9bb7-6c1eb50ab652'
-ms.prod: 'windows-server-dev'
+ms.assetid: f0860020-f458-4977-9bb7-6c1eb50ab652
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddResourceToClusterSharedVolumes method", "AddResourceToClusterSharedVolumes method, MSCluster_Cluster class", "MSCluster_Cluster class, AddResourceToClusterSharedVolumes method"]
+keywords:
+- AddResourceToClusterSharedVolumes method
+- AddResourceToClusterSharedVolumes method, MSCluster_Cluster class
+- MSCluster_Cluster class, AddResourceToClusterSharedVolumes method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddResourceToClusterSharedVolumes method of the MSCluster\_Cluster class
@@ -30,7 +36,7 @@ Adds storage to Cluster Shared Volumes.
 
 ```mof
 void AddResourceToClusterSharedVolumes(
-  [in] String Resource
+  [in] String Resource
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Clusapi.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
@@ -73,9 +79,9 @@ This method does not return a value.
 [**MSCluster\_Cluster**](mscluster-cluster.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

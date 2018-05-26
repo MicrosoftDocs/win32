@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_ACK message
 description: The WM\_DDE\_ACK message notifies a Dynamic Data Exchange (DDE) application of the receipt and processing of the following messages WM\_DDE\_POKE, WM\_DDE\_EXECUTE, WM\_DDE\_DATA, WM\_DDE\_ADVISE, WM\_DDE\_UNADVISE, WM\_DDE\_INITIATE, or WM\_DDE\_REQUEST (in some cases). To post this message, call the PostMessage function with the following parameters.
-ms.assetid: 'aca47dbf-e1f2-4725-8364-0aa7fcd98bd9'
-keywords: ["WM_DDE_ACK message Data Exchange"]
+ms.assetid: aca47dbf-e1f2-4725-8364-0aa7fcd98bd9
+keywords:
+- WM_DDE_ACK message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_ACK message
@@ -46,9 +52,9 @@ When replying to all other messages, this parameter is a handle to the client or
 
 When responding to [**WM\_DDE\_INITIATE**](wm-dde-initiate.md), the low-order word contains an atom that identifies the replying application. The high-order word contains an atom that identifies the topic for which a conversation is being established.
 
-When responding to [**WM\_DDE\_EXECUTE**](wm-dde-execute.md), the low-order word specifies a [**DDEACK**](ddeack.md) structure containing a series of flags that indicate the status of the response. The high-order word is a handle to a global memory object that contains the command string that was received in the **WM\_DDE\_EXECUTE** message.
+When responding to [**WM\_DDE\_EXECUTE**](wm-dde-execute.md), the low-order word specifies a [**DDEACK**](/windows/win32/Dde/ns-dde-ddeack?branch=master) structure containing a series of flags that indicate the status of the response. The high-order word is a handle to a global memory object that contains the command string that was received in the **WM\_DDE\_EXECUTE** message.
 
-When replying to all other messages, the low-order word specifies a [**DDEACK**](ddeack.md) structure containing a series of flags that indicate the status of the response. The high-order word contains a global atom that identifies the name of the data item for which the response is sent.
+When replying to all other messages, the low-order word specifies a [**DDEACK**](/windows/win32/Dde/ns-dde-ddeack?branch=master) structure containing a series of flags that indicate the status of the response. The high-order word contains a global atom that identifies the name of the data item for which the response is sent.
 
 </dd> </dl>
 
@@ -62,7 +68,7 @@ When acknowledging any message with an accompanying atom, the application postin
 
 When acknowledging [**WM\_DDE\_EXECUTE**](wm-dde-execute.md), the application that posts **WM\_DDE\_ACK** should reuse the global memory object identified in the original **WM\_DDE\_EXECUTE** message.
 
-All posted **WM\_DDE\_ACK** messages must create or reuse the *lParam* parameter by calling the [**PackDDElParam**](packddelparam.md) function or the [**ReuseDDElParam**](reuseddelparam.md) function.
+All posted **WM\_DDE\_ACK** messages must create or reuse the *lParam* parameter by calling the [**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master) function or the [**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master) function.
 
 If an application has initiated the termination of a conversation by posting [**WM\_DDE\_TERMINATE**](wm-dde-terminate.md) and is awaiting confirmation, the waiting application should not acknowledge (positively or negatively) any subsequent messages sent by the other application. The waiting application should delete any atoms or shared memory objects received in these intervening messages. Memory objects should not be freed if the **fRelease** flag is set to **FALSE** in [**WM\_DDE\_POKE**](wm-dde-poke.md) and [**WM\_DDE\_DATA**](wm-dde-data.md) messages.
 
@@ -72,7 +78,7 @@ The application that receives a **WM\_DDE\_ACK** message should delete all atoms
 
 If the application receives a negative **WM\_DDE\_ACK** message posted in reply to a [**WM\_DDE\_ADVISE**](wm-dde-advise.md) message, the application should delete the global memory object posted with the original **WM\_DDE\_ADVISE** message. If the application receives a negative **WM\_DDE\_ACK** message posted in reply to a [**WM\_DDE\_DATA**](wm-dde-data.md), [**WM\_DDE\_POKE**](wm-dde-poke.md), or [**WM\_DDE\_EXECUTE**](wm-dde-execute.md) message, the application should delete the global memory object posted with the original **WM\_DDE\_DATA**, **WM\_DDE\_POKE**, or **WM\_DDE\_EXECUTE** message.
 
-The application that receives a posted **WM\_DDE\_ACK** message must free the *lParam* parameter by using the [**FreeDDElParam**](freeddelparam.md) function.
+The application that receives a posted **WM\_DDE\_ACK** message must free the *lParam* parameter by using the [**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master) function.
 
 ## Requirements
 
@@ -80,8 +86,8 @@ The application that receives a posted **WM\_DDE\_ACK** message must free the *l
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -93,25 +99,25 @@ The application that receives a posted **WM\_DDE\_ACK** message must free the *l
 **Reference**
 </dt> <dt>
 
-[**DDEACK**](ddeack.md)
+[**DDEACK**](/windows/win32/Dde/ns-dde-ddeack?branch=master)
 </dt> <dt>
 
-[**FreeDDElParam**](freeddelparam.md)
+[**FreeDDElParam**](/windows/win32/Dde/nf-dde-freeddelparam?branch=master)
 </dt> <dt>
 
-[**PackDDElParam**](packddelparam.md)
+[**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master)
 </dt> <dt>
 
 [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
 </dt> <dt>
 
-[**ReuseDDElParam**](reuseddelparam.md)
+[**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master)
 </dt> <dt>
 
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**UnpackDDElParam**](unpackddelparam.md)
+[**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master)
 </dt> <dt>
 
 [**WM\_DDE\_ADVISE**](wm-dde-advise.md)
@@ -144,9 +150,9 @@ The application that receives a posted **WM\_DDE\_ACK** message must free the *l
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

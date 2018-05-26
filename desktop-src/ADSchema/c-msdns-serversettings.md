@@ -4,17 +4,22 @@ description: A container for storing DNS server settings.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '65e8bd41-8873-493e-8b1b-960c2419aa96'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 65e8bd41-8873-493e-8b1b-960c2419aa96
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Server-Settings class AD Schema", "msDNS-ServerSettings class AD Schema"]
+keywords:
+- ms-DNS-Server-Settings class AD Schema
+- msDNS-ServerSettings class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Server-Settings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Server-Settings class
@@ -35,7 +40,7 @@ A container for storing DNS server settings.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ A container for storing DNS server settings.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -190,9 +195,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

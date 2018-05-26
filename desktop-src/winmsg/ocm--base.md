@@ -1,7 +1,12 @@
 ---
-Description: 'Used to define private messages for use by private window classes, usually of the form OCM\_\_BASE+x, where x is an integer value.'
-ms.assetid: 'b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10'
-title: 'OCM\_\_BASE'
+Description: Used to define private messages for use by private window classes, usually of the form OCM\_\_BASE+x, where x is an integer value.
+ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
+title: OCM\_\_BASE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OCM\_\_BASE
@@ -21,7 +26,7 @@ The following are the ranges of message numbers.
 
 | Range                                                 | Meaning                                                        |
 |-------------------------------------------------------|----------------------------------------------------------------|
-| 0 through [**WM\_USER**](wm-user.md) –1<br/>   | Messages reserved for use by the system.<br/>            |
+| 0 through [**WM\_USER**](wm-user.md)  1<br/>   | Messages reserved for use by the system.<br/>            |
 | [**WM\_USER**](wm-user.md) through 0x7FFF<br/> | Integer messages for use by private window classes.<br/> |
 | [**WM\_APP**](wm-app.md) through 0xBFFF<br/>   | Messages available for use by applications.<br/>         |
 | 0xC000 through 0xFFFF<br/>                      | String messages for use by applications.<br/>            |
@@ -29,9 +34,9 @@ The following are the ranges of message numbers.
 
 
 
- 
+ 
 
-Message numbers in the first range (0 through [**WM\_USER**](wm-user.md) –1) are defined by the system. Values in this range that are not explicitly defined are reserved by the system.
+Message numbers in the first range (0 through [**WM\_USER**](wm-user.md)  1) are defined by the system. Values in this range that are not explicitly defined are reserved by the system.
 
 Message numbers in the second range ([**WM\_USER**](wm-user.md) through 0x7FFF) can be defined and used by an application to send messages within a private window class. These values cannot be used to define messages that are meaningful throughout an application because some predefined window classes already define values in this range. For example, predefined control classes such as **BUTTON**, **EDIT**, **LISTBOX**, and **COMBOBOX** may use these values. Messages in this range should not be sent to other applications unless the applications have been designed to exchange messages and to attach the same meaning to the message numbers.
 
@@ -47,8 +52,8 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Olectl.h</dt> </dl> |
 
 
@@ -72,9 +77,9 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 [Messages and Message Queues](messages-and-message-queues.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

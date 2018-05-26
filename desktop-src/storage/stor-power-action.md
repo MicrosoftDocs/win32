@@ -1,8 +1,10 @@
 ---
 title: STOR\_POWER\_ACTION enumeration
 description: The STOR\_POWER\_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
-ms.assetid: 'ffc7c1ec-faec-4383-ab69-844cf68d054f'
-keywords: ["STOR_POWER_ACTION enumeration Storage Devices", "PSTOR_POWER_ACTION enumeration pointer Storage Devices"]
+ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
+keywords:
+- STOR_POWER_ACTION enumeration Storage Devices
+- PSTOR_POWER_ACTION enumeration pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STOR\_POWER\_ACTION enumeration
@@ -22,14 +29,14 @@ The STOR\_POWER\_ACTION enumerator indicates the power state that the system is 
 
 ```C++
 typedef enum  { 
-  StorPowerActionNone           = 0,
-  StorPowerActionReserved       = 1,
-  StorPowerActionSleep          = 2,
-  StorPowerActionHibernate      = 3,
-  StorPowerActionShutdown       = 4,
-  StorPowerActionShutdownReset  = 5,
-  StorPowerActionShutdownOff    = 6,
-  StorPowerActionWarmEject      = 7
+  StorPowerActionNone           = 0,
+  StorPowerActionReserved       = 1,
+  StorPowerActionSleep          = 2,
+  StorPowerActionHibernate      = 3,
+  StorPowerActionShutdown       = 4,
+  StorPowerActionShutdownReset  = 5,
+  StorPowerActionShutdownOff    = 6,
+  StorPowerActionWarmEject      = 7
 } STOR_POWER_ACTION, *PSTOR_POWER_ACTION;
 ```
 
@@ -112,9 +119,9 @@ The system is preparing for ejection.
 [**SCSI\_POWER\_REQUEST\_BLOCK**](scsi-power-request-block.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20STOR_POWER_ACTION%20enumeration%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

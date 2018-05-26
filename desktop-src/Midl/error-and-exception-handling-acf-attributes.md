@@ -2,7 +2,13 @@
 title: Error and Exception Handling ACF Attributes
 description: Use the following attributes for error handling.
 ms.assetid: fb00df67-4645-4ef0-9216-618d0af1d9d4
-keywords: ["ACF MIDL , attributes, error and exception-handling"]
+keywords:
+- ACF MIDL , attributes, error and exception-handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error and Exception Handling ACF Attributes

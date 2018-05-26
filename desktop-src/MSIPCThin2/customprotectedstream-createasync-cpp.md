@@ -4,11 +4,14 @@ description: Creates a CustomProtectedStream object based on the specified prote
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream.CreateAsync(Microsoft.RightsManagement.ProtectionPolicy,Windows.Storage.Streams.IRandomAccessStream,System.UInt64)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream.CreateAsync(Microsoft.RightsManagement.ProtectionPolicy,Windows.Storage.Streams.IRandomAccessStream,System.UInt64)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CreateAsync method", "CreateAsync method, CustomProtectedStream class", "CustomProtectedStream class, CreateAsync method"]
+keywords:
+- CreateAsync method
+- CreateAsync method, CustomProtectedStream class
+- CustomProtectedStream class, CreateAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.CreateAsync method
@@ -26,7 +32,7 @@ Creates a [**CustomProtectedStream**](customprotectedstream.md) object based on 
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](customprotectedstream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 ## Syntax
 
@@ -102,12 +108,12 @@ You specify a range (*contentStartPosition*, *contentSize*) where the encrypted 
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](customprotectedstream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 > \[!Warning\]  
 > This method must be called on a UI thread. Calling it on a worker thread may result in an unexpected behavior.
 
- 
+ 
 
 ## Requirements
 
@@ -130,9 +136,9 @@ You specify a range (*contentStartPosition*, *contentSize*) where the encrypted 
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

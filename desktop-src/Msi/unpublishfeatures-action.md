@@ -1,7 +1,12 @@
 ---
-Description: 'When an entire product is uninstalled, the UnpublishFeatures action removes selection-state and feature-component mapping information from the system registry. This action queries the FeatureComponents Table.'
-ms.assetid: '8c6995c0-c482-4008-baac-6cc368b66089'
+Description: When an entire product is uninstalled, the UnpublishFeatures action removes selection-state and feature-component mapping information from the system registry. This action queries the FeatureComponents Table.
+ms.assetid: 8c6995c0-c482-4008-baac-6cc368b66089
 title: UnpublishFeatures Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnpublishFeatures Action

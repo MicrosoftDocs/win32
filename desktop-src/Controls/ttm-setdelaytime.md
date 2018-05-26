@@ -1,8 +1,9 @@
 ---
 title: TTM\_SETDELAYTIME message
 description: Sets the initial, pop-up, and reshow durations for a tooltip control.
-ms.assetid: '0a73def0-550c-4d01-9cb1-1eb1f4356fa3'
-keywords: ["TTM_SETDELAYTIME message Windows Controls"]
+ms.assetid: 0a73def0-550c-4d01-9cb1-1eb1f4356fa3
+keywords:
+- TTM_SETDELAYTIME message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_SETDELAYTIME message
@@ -37,7 +43,7 @@ Flag that specifies which time value to set. This parameter can be one of the fo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,8 +79,8 @@ reshow = GetDoubleClickTime() / 5;
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ reshow = GetDoubleClickTime() / 5;
 [**TTM\_GETDELAYTIME**](ttm-getdelaytime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

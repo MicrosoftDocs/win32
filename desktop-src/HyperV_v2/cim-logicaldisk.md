@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a contiguous range of logical blocks that is identifiable by a file system through the disk's DeviceID (key) field.'
-ms.assetid: 'a70b4bee-7f5d-43b1-a7cc-7f0593bc8a11'
-title: 'CIM\_LogicalDisk class'
+Description: Represents a contiguous range of logical blocks that is identifiable by a file system through the disks DeviceID (key) field.
+ms.assetid: a70b4bee-7f5d-43b1-a7cc-7f0593bc8a11
+title: CIM\_LogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_LogicalDisk class
@@ -101,8 +106,8 @@ Indicates whether the logical device has the same namespace as the OS.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -116,9 +121,9 @@ Indicates whether the logical device has the same namespace as the OS.
 [**CIM\_StorageExtent**](cim-storageextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

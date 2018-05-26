@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a pointer to the comment of a capture.'
-ms.assetid: '3ef5c5b3-5586-469f-8975-049713715403'
+Description: Returns a pointer to the comment of a capture.
+ms.assetid: 3ef5c5b3-5586-469f-8975-049713715403
 title: GetCaptureComment function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCaptureComment function
@@ -13,7 +18,7 @@ The **GetCaptureComment** function returns a pointer to the comment of a capture
 
 ```C++
 LPSTR WINAPI GetCaptureComment(
-  _In_ HCAPTURE hCapture
+  _In_ HCAPTURE hCapture
 );
 ```
 
@@ -52,8 +57,8 @@ To retrieve the comment of a capture from its capture file, call the [GetCapture
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -73,9 +78,9 @@ To retrieve the comment of a capture from its capture file, call the [GetCapture
 [GetFrameCaptureHandle](getframecapturehandle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

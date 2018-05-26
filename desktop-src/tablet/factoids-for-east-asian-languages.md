@@ -1,7 +1,12 @@
 ---
-Description: 'East Asian languages are defined as Japanese, Chinese (Simplified), Chinese (Traditional), and Korean.'
-ms.assetid: '780ffb2f-3233-46d0-aff5-d0e8acd4ef75'
+Description: East Asian languages are defined as Japanese, Chinese (Simplified), Chinese (Traditional), and Korean.
+ms.assetid: 780ffb2f-3233-46d0-aff5-d0e8acd4ef75
 title: Factoids for East Asian Languages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Factoids for East Asian Languages
@@ -13,7 +18,7 @@ For example, the **Telephone** factoid is different in each language. Furthermor
 > [!Note]  
 > The factoids for East Asian languages are implemented by specifying a list of acceptable Unicode characters. The factoids for western languages are implemented by using regular expressions that describe the expected input. This is because western languages are composed of letters that are combined to make words, whereas East Asian languages are character based.
 
- 
+ 
 
 Recognizers of East Asian characters support combining up to ten factoids together. These factoid combinations employ a logical OR operator; therefore, the input can match any of the factoids in the expression.
 
@@ -26,7 +31,7 @@ Recognizers of East Asian characters support combining up to ten factoids togeth
 
 
 
- 
+ 
 
 The following topics show the formats supported for each factoid in Japanese, Chinese (Simplified), Chinese (Traditional), and Korean.
 
@@ -35,9 +40,9 @@ The following topics show the formats supported for each factoid in Japanese, Ch
 -   [Chinese (Traditional) Factoids](chinese--traditional--factoids.md)
 -   [Korean Factoids](korean-factoids.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adds a matrix to the stack.'
-ms.assetid: '8660047f-64bc-4b34-8270-3087412db942'
-title: 'ID3DXMATRIXStack::Push method'
+---
+Description: Adds a matrix to the stack.
+ms.assetid: 8660047f-64bc-4b34-8270-3087412db942
+title: ID3DXMATRIXStackPush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::Push method

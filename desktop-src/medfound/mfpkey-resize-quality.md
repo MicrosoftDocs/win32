@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.'
-ms.assetid: 'a6760e7e-7c99-4412-bde5-05958fad89a1'
-title: 'MFPKEY\_RESIZE\_QUALITY Property'
+---
+Description: Specifies whether to use an algorithm that produces higher-quality video, or a faster algorithm.
+ms.assetid: a6760e7e-7c99-4412-bde5-05958fad89a1
+title: MFPKEY\_RESIZE\_QUALITY Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_QUALITY Property

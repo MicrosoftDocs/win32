@@ -4,11 +4,15 @@ description: This section lists the source code for the ADSI example provider co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '207912e5-ac17-48c7-9536-981a8e92e8cf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 207912e5-ac17-48c7-9536-981a8e92e8cf
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Code Details ADSI"]
+keywords:
+- Code Details ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Code Details
@@ -16,7 +20,7 @@ keywords: ["Code Details ADSI"]
 This section lists the source code for the ADSI example provider component implementation. All source code references in this document are subject to change and are available in the example code directory included in the ADSI SDK.
 
 > [!Note]  
-> The [**IADs**](iads.md) methods **GetEx** and **PutEx** are not implemented in the ADSI example provider component. That is, code that implements Active Directory objects that inherit from **IADs** do not have **GetEx** and **PutEx** methods. This includes the schema class object that supports [**IADsClass**](iadsclass.md), the property object that supports [**IADsProperty**](iadsproperty.md), the generic Active Directory object that supports **IADs**, and any container object that supports [**IADsContainer**](iadscontainer.md). In addition, syntax objects are not present in the example provider component. However, the ADSI architecture requires the syntax objects to be included in the schema container object, just as are the schema class and property objects.
+> The [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) methods **GetEx** and **PutEx** are not implemented in the ADSI example provider component. That is, code that implements Active Directory objects that inherit from **IADs** do not have **GetEx** and **PutEx** methods. This includes the schema class object that supports [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master), the property object that supports [**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master), the generic Active Directory object that supports **IADs**, and any container object that supports [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master). In addition, syntax objects are not present in the example provider component. However, the ADSI architecture requires the syntax objects to be included in the schema container object, just as are the schema class and property objects.
 
  
 

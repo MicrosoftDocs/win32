@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the endoder is allowed to drop frames.'
-ms.assetid: 'ceb0cf92-2d5a-4f21-bf02-8999efd6d35a'
-title: 'MFPKEY\_FULLFRAMERATE Property'
+---
+Description: Specifies whether the endoder is allowed to drop frames.
+ms.assetid: ceb0cf92-2d5a-4f21-bf02-8999efd6d35a
+title: MFPKEY\_FULLFRAMERATE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FULLFRAMERATE Property

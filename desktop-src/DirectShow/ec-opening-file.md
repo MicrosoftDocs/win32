@@ -1,7 +1,12 @@
 ---
-Description: 'The graph is opening a file, or has finished opening a file.'
-ms.assetid: '352867e1-025f-4adb-be32-f7941c0ec8cf'
-title: 'EC\_OPENING\_FILE'
+Description: The graph is opening a file, or has finished opening a file.
+ms.assetid: 352867e1-025f-4adb-be32-f7941c0ec8cf
+title: EC\_OPENING\_FILE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_OPENING\_FILE
@@ -54,9 +59,9 @@ A filter can send this event if it spends significant time opening a file. (For 
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

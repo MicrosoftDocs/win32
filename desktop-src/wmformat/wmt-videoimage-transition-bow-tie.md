@@ -1,8 +1,9 @@
 ---
 title: WMT\_VIDEOIMAGE\_TRANSITION\_BOW\_TIE
 description: The bow tie transition reveals the new image in a set of triangles on opposite sides of the frame.
-ms.assetid: 'd98da767-eea7-460c-ae5f-6bef9d93ad9d'
-keywords: ["WMT_VIDEOIMAGE_TRANSITION_BOW_TIE windows Media Format"]
+ms.assetid: d98da767-eea7-460c-ae5f-6bef9d93ad9d
+keywords:
+- WMT_VIDEOIMAGE_TRANSITION_BOW_TIE windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmsdkidl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMT\_VIDEOIMAGE\_TRANSITION\_BOW\_TIE
@@ -19,7 +25,7 @@ The bow tie transition reveals the new image in a set of triangles on opposite s
 
 ## Parameters
 
-The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](wmt-videoimage-sample2.md) structure to which they are assigned.
+The following table describes the parameters used by this transition and lists the members of the [**WMT\_VIDEOIMAGE\_SAMPLE2**](/windows/win32/Wmsdkidl/ns-wmsdkidl-__wmt_videoimage_sample2?branch=master) structure to which they are assigned.
 
 
 
@@ -70,7 +76,7 @@ The following table describes the parameters used by this transition and lists t
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,9 +95,9 @@ The following table describes the parameters used by this transition and lists t
 [**Video Image Transitions**](video-image-transitions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

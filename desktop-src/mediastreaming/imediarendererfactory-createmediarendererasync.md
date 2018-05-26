@@ -1,14 +1,22 @@
 ---
 title: IMediaRendererFactory CreateMediaRendererAsync method
 description: Asynchronously creates a new instance of an object that implements the IMediaRenderer interface using the specified Unique Device Name (UDN).
-ms.assetid: 'FD1242F8-4C2E-4027-B1DE-5FD69557684C'
-keywords: ["CreateMediaRendererAsync method Media Streaming API", "CreateMediaRendererAsync method Media Streaming API , IMediaRendererFactory interface", "IMediaRendererFactory interface Media Streaming API , CreateMediaRendererAsync method"]
+ms.assetid: FD1242F8-4C2E-4027-B1DE-5FD69557684C
+keywords:
+- CreateMediaRendererAsync method Media Streaming API
+- CreateMediaRendererAsync method Media Streaming API , IMediaRendererFactory interface
+- IMediaRendererFactory interface Media Streaming API , CreateMediaRendererAsync method
 topic_type:
 - apiref
 api_name:
 - IMediaRendererFactory.CreateMediaRendererAsync
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRendererFactory::CreateMediaRendererAsync method
@@ -20,8 +28,8 @@ Asynchronously creates a new instance of an object that implements the [**IMedia
 
 ```C++
 HRESULT CreateMediaRendererAsync(
-  [in]          HSTRING                      deviceIdentifier,
-  [out, retval] CreateMediaRendererOperation **value
+  [in]          HSTRING                      deviceIdentifier,
+  [out, retval] CreateMediaRendererOperation **value
 );
 ```
 
@@ -57,7 +65,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -66,9 +74,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRendererFactory**](imediarendererfactory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

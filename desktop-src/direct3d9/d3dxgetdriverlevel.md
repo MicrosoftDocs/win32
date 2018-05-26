@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the driver level.'
-ms.assetid: 'e8c85201-7850-4c8d-a124-ceb76d4e24d5'
+---
+Description: Returns the driver level.
+ms.assetid: e8c85201-7850-4c8d-a124-ceb76d4e24d5
 title: D3DXGetDriverLevel function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetDriverLevel function
@@ -26,9 +31,9 @@ UINT D3DXGetDriverLevel(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface representing the device.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface representing the device.
 
 </dd> </dl>
 

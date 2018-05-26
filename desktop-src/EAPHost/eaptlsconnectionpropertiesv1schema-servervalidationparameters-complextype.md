@@ -1,14 +1,20 @@
 ---
 title: ServerValidationParameters Complex Type
 description: Contains information about how to perform server validation.
-ms.assetid: '7a35c7f5-4cab-43d5-87dc-a4020811d3a9'
-keywords: ["ServerValidationParameters complex type EAPHost"]
+ms.assetid: 7a35c7f5-4cab-43d5-87dc-a4020811d3a9
+keywords:
+- ServerValidationParameters complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - ServerValidationParameters
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServerValidationParameters Complex Type
@@ -53,8 +59,8 @@ The **ServerValidationParameters** complex type contains information about how t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -71,9 +77,9 @@ The **ServerValidationParameters** complex type contains information about how t
 [eaptlsconnectionpropertiesv1 Schema Complex Types](eaptlsconnectionpropertiesv1schema-complex-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

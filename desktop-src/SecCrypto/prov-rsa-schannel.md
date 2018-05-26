@@ -1,7 +1,12 @@
-﻿---
-Description: 'Supports both RSA and Schannel protocols.'
-ms.assetid: 'f0c11a04-7931-424a-b085-0cc584ea7bb7'
-title: 'PROV\_RSA\_SCHANNEL'
+---
+Description: Supports both RSA and Schannel protocols.
+ms.assetid: f0c11a04-7931-424a-b085-0cc584ea7bb7
+title: PROV\_RSA\_SCHANNEL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROV\_RSA\_SCHANNEL

@@ -1,12 +1,17 @@
 ---
 title: Capability Querying
 description: Applications can discover the level of support for resource binding, and many other features, via the ID3D12Device CheckFeatureSupport call.
-ms.assetid: 'ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8'
+ms.assetid: ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capability Querying
 
-Applications can discover the level of support for resource binding, and many other features, via the [**ID3D12Device::CheckFeatureSupport**](id3d12device-checkfeaturesupport.md) call.
+Applications can discover the level of support for resource binding, and many other features, via the [**ID3D12Device::CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master) call.
 
 -   [Resource binding tiers](#resource-binding-tiers)
 -   [Check feature support](#check-feature-support)
@@ -24,7 +29,7 @@ Applications can discover the level of support for resource binding, and many ot
 
 For resource binding, each tier is a superset of lower tiers in functionality, so code that works on a given tier works on any higher tier unchanged.
 
-The number of resource binding tiers is stored in the [**D3D12\_RESOURCE\_BINDING\_TIER**](d3d12-resource-binding-tier.md) enum.
+The number of resource binding tiers is stored in the [**D3D12\_RESOURCE\_BINDING\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_resource_binding_tier?branch=master) enum.
 
 To check the resource binding tier, use code such as
 
@@ -51,28 +56,28 @@ The following section shows the full range of options for checking feature suppo
 
 ## Check feature support
 
-Select one member of the enum [**D3D12\_FEATURE**](d3d12-feature.md) as input to [**CheckFeatureSupport**](id3d12device-checkfeaturesupport.md) to determine what features to request support information on. It can be one of the following.
+Select one member of the enum [**D3D12\_FEATURE**](/windows/win32/D3D12/ne-d3d12-d3d12_feature?branch=master) as input to [**CheckFeatureSupport**](/windows/win32/D3D12/nf-d3d12-id3d12device-checkfeaturesupport?branch=master) to determine what features to request support information on. It can be one of the following.
 
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](d3d12-feature-data-d3d12-options.md)
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS1**](d3d12-feature-data-d3d12-options1.md)
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS2**](d3d12-feature-data-d3d12-options2.md)
--   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS3**](d3d12-feature-data-d3d12-options3.md)
--   [**D3D12\_FEATURE\_DATA\_ROOT\_SIGNATURE**](d3d12-feature-data-root-signature.md)
--   [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](d3d12-feature-data-architecture.md)
--   [**D3D12\_FEATURE\_DATA\_ARCHITECTURE1**](d3d12-feature-data-architecture1.md)
--   [**D3D12\_FEATURE\_DATA\_FEATURE\_LEVELS**](d3d12-feature-data-feature-levels.md)
--   [**D3D12\_FEATURE\_DATA\_SHADER\_MODEL**](d3d12-feature-data-shader-model.md)
--   [**D3D12\_FEATURE\_DATA\_FORMAT\_SUPPORT**](d3d12-feature-data-format-support.md)
--   [**D3D12\_FEATURE\_DATA\_MULTISAMPLE\_QUALITY\_LEVELS**](d3d12-feature-data-multisample-quality-levels.md)
--   [**D3D12\_FEATURE\_DATA\_FORMAT\_INFO**](d3d12-feature-data-format-info.md)
--   [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](d3d12-feature-data-gpu-virtual-address-support.md)
--   [**D3D12\_FEATURE\_DATA\_SHADER\_CACHE**](d3d12-feature-data-shader-cache.md)
--   [**D3D12\_FEATURE\_DATA\_COMMAND\_QUEUE\_PRIORITY**](d3d12-feature-data-command-queue-priority.md)
--   [**D3D12\_FEATURE\_DATA\_EXISTING\_HEAPS**](d3d12-feature-data-existing-heaps.md)
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_d3d12_options?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS1**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options1?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS2**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options2?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS3**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options3?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_ROOT\_SIGNATURE**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_root_signature?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_architecture?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_ARCHITECTURE1**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_architecture1?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_FEATURE\_LEVELS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_feature_levels?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_SHADER\_MODEL**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_shader_model?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_FORMAT\_SUPPORT**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_format_support?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_MULTISAMPLE\_QUALITY\_LEVELS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_multisample_quality_levels?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_FORMAT\_INFO**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_format_info?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_SHADER\_CACHE**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_shader_cache?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_COMMAND\_QUEUE\_PRIORITY**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_command_queue_priority?branch=master)
+-   [**D3D12\_FEATURE\_DATA\_EXISTING\_HEAPS**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps?branch=master)
 
 ### D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS
 
-The [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](d3d12-feature-data-d3d12-options.md) structure holds a range of supported feature data.
+The [**D3D12\_FEATURE\_DATA\_D3D12\_OPTIONS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_d3d12_options?branch=master) structure holds a range of supported feature data.
 
 ``` syntax
 typedef struct D3D12_FEATURE_DATA_D3D12_OPTIONS  
@@ -105,35 +110,35 @@ typedef struct D3D12_FEATURE_DATA_D3D12_OPTIONS
 
 Refer to the following enums.
 
--   [**D3D12\_SHADER\_MIN\_PRECISION\_SUPPORT**](d3d12-shader-min-precision-support.md)
--   [**D3D12\_TILED\_RESOURCES\_TIER**](d3d12-tiled-resources-tier.md)
--   [**D3D12\_RESOURCE\_BINDING\_TIER**](d3d12-resource-binding-tier.md)
--   [**D3D12\_CONSERVATIVE\_RASTERIZATION\_TIER**](d3d12-conservative-rasterization-tier.md)
+-   [**D3D12\_SHADER\_MIN\_PRECISION\_SUPPORT**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_min_precision_support?branch=master)
+-   [**D3D12\_TILED\_RESOURCES\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_tiled_resources_tier?branch=master)
+-   [**D3D12\_RESOURCE\_BINDING\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_resource_binding_tier?branch=master)
+-   [**D3D12\_CONSERVATIVE\_RASTERIZATION\_TIER**](/windows/win32/D3D12/ne-d3d12-d3d12_conservative_rasterization_tier?branch=master)
 
 ### D3D12\_FEATURE\_DATA\_ARCHITECTURE
 
-The [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](d3d12-feature-data-architecture.md) structure holds three booleans referencing tile based rendering and UMA support.
+The [**D3D12\_FEATURE\_DATA\_ARCHITECTURE**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_architecture?branch=master) structure holds three booleans referencing tile based rendering and UMA support.
 
 ### D3D12\_FEATURE\_DATA\_FEATURE\_LEVELS
 
-The [**D3D12\_FEATURE\_DATA\_FEATURE\_LEVELS**](d3d12-feature-data-feature-levels.md) structure holds Direct3D feature level support information.
+The [**D3D12\_FEATURE\_DATA\_FEATURE\_LEVELS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_feature_levels?branch=master) structure holds Direct3D feature level support information.
 
 ### D3D12\_FEATURE\_DATA\_FORMAT\_SUPPORT
 
-The [**D3D12\_FEATURE\_DATA\_FORMAT\_SUPPORT**](d3d12-feature-data-format-support.md) structure holds data format support details, and refer to the following enums.
+The [**D3D12\_FEATURE\_DATA\_FORMAT\_SUPPORT**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_format_support?branch=master) structure holds data format support details, and refer to the following enums.
 
--   [**D3D12\_FORMAT\_SUPPORT1**](d3d12-format-support1.md)
--   [**D3D12\_FORMAT\_SUPPORT2**](d3d12-format-support2.md)
+-   [**D3D12\_FORMAT\_SUPPORT1**](/windows/win32/D3D12/ne-d3d12-d3d12_format_support1?branch=master)
+-   [**D3D12\_FORMAT\_SUPPORT2**](/windows/win32/D3D12/ne-d3d12-d3d12_format_support2?branch=master)
 
 Refer to [Typed Unordered Access View Loads](typed-unordered-access-view-loads.md) for an example use of this structure.
 
 ### D3D12\_FEATURE\_DATA\_MULTISAMPLE\_QUALITY\_LEVELS
 
-The [**D3D12\_FEATURE\_DATA\_MULTISAMPLE\_QUALITY\_LEVELS**](d3d12-feature-data-multisample-quality-levels.md) structure holds multi-sampling quality level support information, and refer to the [**D3D12\_MULTISAMPLE\_QUALITY\_LEVELS\_FLAG**](d3d12-multisample-quality-level-flags.md) enum.
+The [**D3D12\_FEATURE\_DATA\_MULTISAMPLE\_QUALITY\_LEVELS**](/windows/win32/D3D12/ns-d3d12-d3d12_feature_data_multisample_quality_levels?branch=master) structure holds multi-sampling quality level support information, and refer to the [**D3D12\_MULTISAMPLE\_QUALITY\_LEVELS\_FLAG**](/windows/win32/D3D12/ne-d3d12-d3d12_multisample_quality_level_flags?branch=master) enum.
 
 ### D3D12\_FEATURE\_DATA\_FORMAT\_INFO
 
-The [**D3D12\_FEATURE\_DATA\_FORMAT\_INFO**](d3d12-feature-data-format-info.md) structure describes the supported [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) and plane count.
+The [**D3D12\_FEATURE\_DATA\_FORMAT\_INFO**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_format_info?branch=master) structure describes the supported [**DXGI\_FORMAT**](https://msdn.microsoft.com/library/windows/desktop/bb173059) and plane count.
 
 For example,
 
@@ -157,7 +162,7 @@ inline UINT8 D3D12GetFormatPlaneCount(
 
 ### D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT
 
-The [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](d3d12-feature-data-gpu-virtual-address-support.md) structure provides the maximum number of bits for a virtual GPU address for resources, and for processes.
+The [**D3D12\_FEATURE\_DATA\_GPU\_VIRTUAL\_ADDRESS\_SUPPORT**](/windows/win32/d3d12/ns-d3d12-d3d12_feature_data_gpu_virtual_address_support?branch=master) structure provides the maximum number of bits for a virtual GPU address for resources, and for processes.
 
 ## Hardware support for DXGI Formats
 

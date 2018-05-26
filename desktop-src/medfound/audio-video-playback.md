@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes how to implement audio/video playback in your application, using Microsoft Media Foundation.'
-ms.assetid: '6efadfe6-013a-4942-9df5-bed557d9af8b'
-title: 'Audio/Video Playback'
+Description: This section describes how to implement audio/video playback in your application, using Microsoft Media Foundation.
+ms.assetid: 6efadfe6-013a-4942-9df5-bed557d9af8b
+title: Audio/Video Playback
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio/Video Playback
@@ -25,7 +30,7 @@ This section describes how to implement audio/video playback in your application
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -40,9 +45,9 @@ This section describes how to implement audio/video playback in your application
 [MPEG-4 Support in Media Foundation](mpeg-4-support-in-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

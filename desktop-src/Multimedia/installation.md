@@ -1,8 +1,20 @@
 ---
 title: Installation
 description: Installation
-ms.assetid: '8d007ea4-b75a-4b3f-965f-8091fcd4cb2f'
-keywords: ["installable drivers,installing", "installable drivers,DRV_INSTALL message", "installable drivers,DRV_REMOVE message", "DRV_INSTALL message", "DRV_REMOVE message", "DRVCONFIGINFO message", "installing drivers"]
+ms.assetid: 8d007ea4-b75a-4b3f-965f-8091fcd4cb2f
+keywords:
+- installable drivers,installing
+- installable drivers,DRV_INSTALL message
+- installable drivers,DRV_REMOVE message
+- DRV_INSTALL message
+- DRV_REMOVE message
+- DRVCONFIGINFO message
+- installing drivers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation

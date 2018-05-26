@@ -4,11 +4,12 @@ description: Serializes a license.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '355bef41-bcef-403d-8d3e-b7b526401d39'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 355bef41-bcef-403d-8d3e-b7b526401d39
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcSerializeLicense function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcSerializeLicense function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcSerializeLicense function
@@ -30,12 +34,12 @@ Serialization is the final mandatory step that is needed before the license can 
 
 ```C++
 HRESULT WINAPI IpcSerializeLicense(
-  _In_      LPCVOID          pvLicenseInfo,
-            DWORD            dwType,
-            DWORD            dwFlags,
-  _In_opt_  PCIPC_PROMPT_CTX pContext,
-  _Out_opt_ PIPC_KEY_HANDLE  phKey,
-  _Out_     PIPC_BUFFER      *ppvLicense
+  _In_      LPCVOID          pvLicenseInfo,
+            DWORD            dwType,
+            DWORD            dwFlags,
+  _In_opt_  PCIPC_PROMPT_CTX pContext,
+  _Out_opt_ PIPC_KEY_HANDLE  phKey,
+  _Out_     PIPC_BUFFER      *ppvLicense
 );
 ```
 
@@ -111,7 +115,7 @@ Use this flag to prevent a key from being cached locally and inserted within the
 > [!Note]  
 > If this flag is used, the creator of the serialized license will require a network connection to the RMS server if they attempt to create a key from it using [**IpcGetKey**](ipcgetkey.md).
 
- 
+ 
 
 </dd> <dt>
 
@@ -137,9 +141,9 @@ This flag should only be used by applications that protect content using functio
 
 > \[!Important\]
 >
-> Licenses that are created with this flag cannot be used with RMS SDK 2.1. This flag cannot be combined with any other flag.
+> Licenses that are created with this flag cannot be used with RMS SDK 2.1. This flag cannot be combined with any other flag.
 
- 
+ 
 
 </dd> <dt>
 
@@ -155,7 +159,7 @@ Use this flag to prevent an encrypted copy of this key from being cached within 
 > [!Note]  
 > If you are storing confidential information in the AppSpecific data field, you should specify the IPC\_SL\_FLAG\_KEY\_NO\_PERSIST\_LICENSE when serializing your license so your information will remain confidential.
 
- 
+ 
 
 </dd> </dl> </dd> <dt>
 
@@ -184,7 +188,7 @@ A pointer to a variable that receives a pointer to the buffer that contains the 
 
 If the function succeeds the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -202,7 +206,7 @@ Action: We recommend that your application user interface prompt the user to exp
 **IPCERROR\_NEEDS\_ONLINE**
 </dt> <dd>
 
-Meaning: The RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
+Meaning: The RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
 
 Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFFLINE** flag. Typically, this flag is used in situations in which failure is acceptable and preferred to performing a network access. The system is already optimized to use the network only when absolutely necessary, so we do not recommend that developers use the **IPC\_PROMPT\_FLAG\_OFFLINE** flag as an optimization.
 
@@ -211,7 +215,7 @@ Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFF
 **IPCERROR\_NEEDS\_UI**
 </dt> <dd>
 
-Meaning: RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
+Meaning: RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
 
 Action: Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_SILENT** flag.
 
@@ -253,8 +257,8 @@ If you are storing confidential information in the **AppSpecific** data field, y
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -289,9 +293,9 @@ If you are storing confidential information in the **AppSpecific** data field, y
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

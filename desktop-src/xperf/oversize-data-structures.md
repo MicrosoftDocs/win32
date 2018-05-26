@@ -1,7 +1,12 @@
 ---
 title: Oversize Data Structures
 description: Oversize Data Structures
-ms.assetid: 'a548c33a-e83d-497e-98ca-465347ddb67b'
+ms.assetid: a548c33a-e83d-497e-98ca-465347ddb67b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Oversize Data Structures

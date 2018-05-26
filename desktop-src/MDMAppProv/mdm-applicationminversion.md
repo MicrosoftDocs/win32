@@ -1,8 +1,10 @@
 ---
 title: MDM\_ApplicationMinVersion class
 description: Identifies an application through the minimum version of the application.
-ms.assetid: '8CDCA5BF-6760-4B61-AA73-8DD9114346D1'
-keywords: ["MDM_ApplicationMinVersion class MDM App Management", "MDM_ApplicationMinVersion class MDM App Management , described"]
+ms.assetid: 8CDCA5BF-6760-4B61-AA73-8DD9114346D1
+keywords:
+- MDM_ApplicationMinVersion class MDM App Management
+- MDM_ApplicationMinVersion class MDM App Management , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_ApplicationMinVersion class
@@ -165,7 +172,7 @@ Get the user security identifier (SID) of the package.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\cimv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -180,9 +187,9 @@ Get the user security identifier (SID) of the package.
 [Mobile Device Management Application Provider Classes](https://msdn.microsoft.com/library/dn610374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

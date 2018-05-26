@@ -4,11 +4,15 @@ description: Active Directory Lightweight Directory Services (AD LDS) has both f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '93169df7-cf07-4948-ab83-6c24fdf2ddb9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 93169df7-cf07-4948-ab83-6c24fdf2ddb9
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS ADAM , benefits of"]
+keywords:
+- AD LDS ADAM , benefits of
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Why Use Active Directory Lightweight Directory Services?

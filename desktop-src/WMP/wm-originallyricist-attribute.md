@@ -1,14 +1,20 @@
 ---
 title: WM/OriginalLyricist Attribute
 description: The WM/Lyricist attribute is the name of the person who wrote the original lyrics.
-ms.assetid: '8b8d8f7d-fb1a-4f29-b015-c6d0fff4fb81'
-keywords: ["WM/OriginalLyricist Attribute Windows Media Player"]
+ms.assetid: 8b8d8f7d-fb1a-4f29-b015-c6d0fff4fb81
+keywords:
+- WM/OriginalLyricist Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/OriginalLyricist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/OriginalLyricist Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

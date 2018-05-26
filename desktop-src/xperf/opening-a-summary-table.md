@@ -1,7 +1,12 @@
 ---
 title: Opening a Summary Table
 description: Opening a Summary Table
-ms.assetid: 'de68f4da-c643-4e43-b239-eec1dc85833b'
+ms.assetid: de68f4da-c643-4e43-b239-eec1dc85833b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Opening a Summary Table

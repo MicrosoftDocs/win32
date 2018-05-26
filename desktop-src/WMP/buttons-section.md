@@ -1,8 +1,19 @@
 ---
 title: Buttons Section
 description: Buttons Section
-ms.assetid: 'fa413bb4-e04a-4e3d-9754-cd4c2d82de6e'
-keywords: ["Windows Media Player Mobile skins,Buttons section", "skins,Buttons section", "creating skins,Buttons section", "writing code for skins,Buttons section", "buttons in skins,Buttons section", "skin definition files,Buttons section"]
+ms.assetid: fa413bb4-e04a-4e3d-9754-cd4c2d82de6e
+keywords:
+- Windows Media Player Mobile skins,Buttons section
+- skins,Buttons section
+- creating skins,Buttons section
+- writing code for skins,Buttons section
+- buttons in skins,Buttons section
+- skin definition files,Buttons section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buttons Section

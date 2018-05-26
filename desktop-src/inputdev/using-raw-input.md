@@ -1,8 +1,22 @@
 ---
 title: Using Raw Input
 description: This section includes sample code for tasks relating to raw input.
-ms.assetid: 'e078e13c-06b8-4440-9d37-78c344b587e9'
-keywords: ["user input,raw input", "capturing user input,raw input", "raw input", "buffered read of raw input", "standard read of raw input", "registering raw input", "reading raw input", "joystick raw input", "game pad raw input"]
+ms.assetid: e078e13c-06b8-4440-9d37-78c344b587e9
+keywords:
+- user input,raw input
+- capturing user input,raw input
+- raw input
+- buffered read of raw input
+- standard read of raw input
+- registering raw input
+- reading raw input
+- joystick raw input
+- game pad raw input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Raw Input

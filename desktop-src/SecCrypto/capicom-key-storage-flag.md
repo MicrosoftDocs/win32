@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CAPICOM\_KEY\_STORAGE\_FLAG enumeration defines key storage flags.'
-ms.assetid: '326cef75-24a5-4dc9-a7e9-a63dd3d8de54'
-title: 'CAPICOM\_KEY\_STORAGE\_FLAG enumeration'
+---
+Description: The CAPICOM\_KEY\_STORAGE\_FLAG enumeration defines key storage flags.
+ms.assetid: 326cef75-24a5-4dc9-a7e9-a63dd3d8de54
+title: CAPICOM\_KEY\_STORAGE\_FLAG enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_KEY\_STORAGE\_FLAG enumeration

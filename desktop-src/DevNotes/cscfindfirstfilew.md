@@ -1,7 +1,12 @@
-﻿---
-Description: 'Searches for a file in the Offline Files cache that meets the specified criteria.'
-ms.assetid: '09de6c55-fc37-4c0a-b5a0-ea73f06793d5'
+---
+Description: Searches for a file in the Offline Files cache that meets the specified criteria.
+ms.assetid: 09de6c55-fc37-4c0a-b5a0-ea73f06793d5
 title: CSCFindFirstFileW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSCFindFirstFileW function

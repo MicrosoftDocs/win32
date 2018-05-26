@@ -4,10 +4,13 @@ description: This section contains CDXML documentation and PowerShell examples t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '73497261-D3D6-48F0-B622-1D287EE62043'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 73497261-D3D6-48F0-B622-1D287EE62043
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to get object instances through querying and filtering

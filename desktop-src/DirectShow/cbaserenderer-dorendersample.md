@@ -1,7 +1,12 @@
 ---
-Description: 'The DoRenderSample method renders a sample.'
-ms.assetid: 'cf06192c-44c0-4d88-a20e-6501ea48cbfd'
-title: 'CBaseRenderer.DoRenderSample method'
+Description: The DoRenderSample method renders a sample.
+ms.assetid: cf06192c-44c0-4d88-a20e-6501ea48cbfd
+title: CBaseRenderer.DoRenderSample method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.DoRenderSample method
@@ -13,7 +18,7 @@ The `DoRenderSample` method renders a sample.
 
 ```C++
 virtual HRESULT DoRenderSample(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 ) = 0;
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT DoRenderSample(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ The derived class must implement this method. The behavior depends entirely on t
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

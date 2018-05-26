@@ -1,7 +1,12 @@
 ---
-Description: 'When you unregister a peer name, a registered name is removed from a Peer Name Resolution Protocol (PNRP) cloud.'
-ms.assetid: 'a451988e-7026-4b3c-a7a3-366f9886aa02'
+Description: When you unregister a peer name, a registered name is removed from a Peer Name Resolution Protocol (PNRP) cloud.
+ms.assetid: a451988e-7026-4b3c-a7a3-366f9886aa02
 title: Unregistering a Peer Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unregistering a Peer Name
@@ -26,7 +31,7 @@ The [**WSAQUERYSET**](pnrp-and-wsaqueryset.md) structure must be configured acco
 
 -   **dwSize** must specify the size the [**WSAQUERYSET**](pnrp-and-wsaqueryset.md) structure.
 -   **lpszServiceInstanceName** must point to the peer name that is being unregistered.
--   **lpBlob** must point to a [**PNRPINFO**](pnrpinfo.md) structure.
+-   **lpBlob** must point to a [**PNRPINFO**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) structure.
 -   **lpcsaBuffer** must point to the address list.
 
 > [!Note]  

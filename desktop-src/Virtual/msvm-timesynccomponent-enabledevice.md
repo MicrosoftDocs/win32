@@ -1,8 +1,11 @@
 ---
 title: EnableDevice method of the Msvm\_TimeSyncComponent class
 description: This method is deprecated. Instead, use the RequestStateChange method.
-ms.assetid: '9ae7128f-2c0b-413c-9023-2f3c820f4944'
-keywords: ["EnableDevice method Hyper-V", "EnableDevice method Hyper-V , Msvm_TimeSyncComponent class", "Msvm_TimeSyncComponent class Hyper-V , EnableDevice method"]
+ms.assetid: 9ae7128f-2c0b-413c-9023-2f3c820f4944
+keywords:
+- EnableDevice method Hyper-V
+- EnableDevice method Hyper-V , Msvm_TimeSyncComponent class
+- Msvm_TimeSyncComponent class Hyper-V , EnableDevice method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableDevice method of the Msvm\_TimeSyncComponent class
@@ -24,7 +32,7 @@ This method is deprecated. Instead, use the [**RequestStateChange**](virtual-cim
 
 ```mof
 uint32 EnableDevice(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -84,9 +92,9 @@ The operation was not completed because it is not supported.
 [**Msvm\_TimeSyncComponent**](msvm-timesynccomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: PS\_DnsServerTrustAnchor class
 description: DNS Server Trust Anchor Task Definition.
 audience: developer
-ms.assetid: '646e0b50-8322-4ec0-88b3-68e6cfb6c581'
-ms.prod: 'windows-server-dev'
+ms.assetid: 646e0b50-8322-4ec0-88b3-68e6cfb6c581
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerTrustAnchor class", "PS_DnsServerTrustAnchor class, described"]
+keywords:
+- PS_DnsServerTrustAnchor class
+- PS_DnsServerTrustAnchor class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerTrustAnchor class
@@ -59,7 +64,7 @@ The **PS\_DnsServerTrustAnchor** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,7 +73,7 @@ The **PS\_DnsServerTrustAnchor** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -82,9 +87,9 @@ The **PS\_DnsServerTrustAnchor** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

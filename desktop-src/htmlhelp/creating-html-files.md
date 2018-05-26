@@ -1,7 +1,12 @@
 ---
 title: Creating HTML Files
 description: The easiest way to author your help system is to create a new HTML file for each help topic or Web page. You can then create a help project file to collect, manage, and compile your help topics.
-ms.assetid: '83B7C319-3431-41a4-95BB-C56769B18A9F'
+ms.assetid: 83B7C319-3431-41a4-95BB-C56769B18A9F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating HTML Files

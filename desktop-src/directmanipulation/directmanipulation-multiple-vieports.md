@@ -1,20 +1,25 @@
 ---
-Description: 'When using multiple viewports, Hit testingdetermines which viewport(s) are affected by user input by taking the screen location of a contact and determining which viewport rectangle the contact hits.'
-ms.assetid: '960EF92D-F439-4A84-AAF9-1469E2830573'
+Description: When using multiple viewports, Hit testingdetermines which viewport(s) are affected by user input by taking the screen location of a contact and determining which viewport rectangle the contact hits.
+ms.assetid: 960EF92D-F439-4A84-AAF9-1469E2830573
 title: Using multiple viewports in DirectManipulation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using multiple viewports in DirectManipulation
 
 When using multiple viewports, *Hit testing*determines which viewport(s) are affected by user input by taking the screen location of a contact and determining which viewport rectangle the contact hits.
 
-A common scenario in [Direct Manipulation](direct-manipulation-portal.md) is to place one viewport inside another, also known as *nesting viewports*. If the contact hits more than one viewport, the order of [**SetContact**](idirectmanipulationviewport-setcontact.md) calls by the window’s [*WndProc*](winmsg.callwndproc) determines the parent-child relationship of the nested viewports.
+A common scenario in [Direct Manipulation](direct-manipulation-portal.md) is to place one viewport inside another, also known as *nesting viewports*. If the contact hits more than one viewport, the order of [**SetContact**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact?branch=master) calls by the window’s [*WndProc*](winmsg.callwndproc) determines the parent-child relationship of the nested viewports.
 
-Rule: The child element should call [**SetContact**](idirectmanipulationviewport-setcontact.md)before calling the parent.
+Rule: The child element should call [**SetContact**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact?branch=master)before calling the parent.
 
 ![diagram showing hierachy of hit testing](images/dm-art-8.png)
 
-A contact comes down in a viewport. [**SetContact**](idirectmanipulationviewport-setcontact.md) should first be called on the orange (child) viewport and then the green (parent) viewport to establish the correct hierarchy.
+A contact comes down in a viewport. [**SetContact**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact?branch=master) should first be called on the orange (child) viewport and then the green (parent) viewport to establish the correct hierarchy.
 
 ## Targeting the correct viewport
 
@@ -33,7 +38,7 @@ When the end of the content is reached during a manipulation, [Direct Manipulati
 When the user pans the child viewport all the way to the edge of the content, the manipulation "chains" to the parent viewport, and the user begins panning the parent content instead.
 
 > [!Note]  
-> The X and Y axes chain independently of one another, so if a diagonal pan hits the x boundary before the y boundary, the manipulation moves the parent in the x direction while continuing to move the child in the y direction. To enable or disable chaining, call the [**SetChaining**](idirectmanipulationviewport-setchaining.md) API on the child viewport.
+> The X and Y axes chain independently of one another, so if a diagonal pan hits the x boundary before the y boundary, the manipulation moves the parent in the x direction while continuing to move the child in the y direction. To enable or disable chaining, call the [**SetChaining**](/windows/previous-versions/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setchaining?branch=master) API on the child viewport.
 
  
 

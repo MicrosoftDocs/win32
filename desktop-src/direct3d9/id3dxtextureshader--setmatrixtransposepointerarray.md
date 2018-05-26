@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of pointers to transposed matrices.'
-ms.assetid: '2b9f1efe-b2ea-416b-a370-202db57b1925'
-title: 'ID3DXTextureShader::SetMatrixTransposePointerArray method'
+---
+Description: Sets an array of pointers to transposed matrices.
+ms.assetid: 2b9f1efe-b2ea-416b-a370-202db57b1925
+title: ID3DXTextureShaderSetMatrixTransposePointerArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetMatrixTransposePointerArray method

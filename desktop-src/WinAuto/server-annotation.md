@@ -1,7 +1,12 @@
 ---
 title: Server Annotation
 description: This section provides information about using server annotation.
-ms.assetid: 'd8de90af-f5ed-42ef-bd74-e383360e8128'
+ms.assetid: d8de90af-f5ed-42ef-bd74-e383360e8128
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Annotation
@@ -10,13 +15,13 @@ This section provides information about using server annotation.
 
 ## Summary
 
-You define a class that implements [**IAccPropServer**](iaccpropserver.md), create an instance of it, and tell the system that you want it to override specific properties on specific UI elements. When a client requests one of the properties from one of the UI elements, your object is called and given an opportunity to provide a value. If your object returns a value, that value is passed back to the client. If your object does not return a value, the default value for that UI element is returned to the client.
+You define a class that implements [**IAccPropServer**](/windows/win32/oleacc/nn-oleacc-iaccpropserver?branch=master), create an instance of it, and tell the system that you want it to override specific properties on specific UI elements. When a client requests one of the properties from one of the UI elements, your object is called and given an opportunity to provide a value. If your object returns a value, that value is passed back to the client. If your object does not return a value, the default value for that UI element is returned to the client.
 
 ## When to Use This Technique
 
-Use this technique when you want to override the [**IAccessible**](iaccessible.md) properties for an object. This technique is much simpler than previous **IAccessible** techniques. For more information, see [Alternatives to Dynamic Annotation](alternatives-to-dynamic-annotation.md).
+Use this technique when you want to override the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties for an object. This technique is much simpler than previous **IAccessible** techniques. For more information, see [Alternatives to Dynamic Annotation](alternatives-to-dynamic-annotation.md).
 
-You cannot use server annotation to alter the exposed object structure. To change the structure of an object, you must implement a full [**IAccessible**](iaccessible.md) interface pointer.
+You cannot use server annotation to alter the exposed object structure. To change the structure of an object, you must implement a full [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer.
 
 For more information on server annotation, see the following topics:
 

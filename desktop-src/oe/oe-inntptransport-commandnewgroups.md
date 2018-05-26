@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport CommandNEWGROUPS method
 description: Retrieves the list of newsgroups which have been added to the server since the date specified in pstLast.
-ms.assetid: 'c6a27dc0-5433-48ad-ad9b-93b812951c9e'
-keywords: ["CommandNEWGROUPS method Windows Mail (formerly Outlook Express)", "CommandNEWGROUPS method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandNEWGROUPS method"]
+ms.assetid: c6a27dc0-5433-48ad-ad9b-93b812951c9e
+keywords:
+- CommandNEWGROUPS method Windows Mail (formerly Outlook Express)
+- CommandNEWGROUPS method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandNEWGROUPS method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::CommandNEWGROUPS method
@@ -24,8 +32,8 @@ Retrieves the list of newsgroups which have been added to the server since the d
 
 ```C++
 HRESULT CommandNEWGROUPS(
-  [in] SYSTEMTIME *pstLast,
-  [in] LPSTR      pszDist
+  [in] SYSTEMTIME *pstLast,
+  [in] LPSTR      pszDist
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +84,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -85,9 +93,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

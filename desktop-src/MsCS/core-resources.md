@@ -4,11 +4,16 @@ description: A cluster requires that a set of resources be online in order to op
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '46b71882-be37-4c3f-a328-a394c1310958'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 46b71882-be37-4c3f-a328-a394c1310958
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["core resources Failover Cluster", "resources Failover Cluster , core"]
+keywords:
+- core resources Failover Cluster
+- resources Failover Cluster , core
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Core Resources
@@ -25,7 +30,7 @@ If the core resources cannot be brought online, the cluster will not form and no
 
 In fact, there are good reasons for not creating resources in the cluster group. By default (as determined by the [**RestartAction**](resources-restartaction.md) property), if a resource fails the cluster initiates failover for the entire group. Failing over a group means taking all the resources in the group offline—which, for the core resources, means taking the cluster offline.
 
-The cluster identifies the core resources by the **CLUS\_FLAG\_CORE** flag of the [**CLUS\_FLAGS**](clus-flags.md) enumeration. For information on how to get the flags for a resource, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](clusctl-resource-get-flags.md).
+The cluster identifies the core resources by the **CLUS\_FLAG\_CORE** flag of the [**CLUS\_FLAGS**](/windows/previous-versions/ClusAPI/ne-clusapi-clus_flags?branch=master) enumeration. For information on how to get the flags for a resource, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](clusctl-resource-get-flags.md).
 
  
 

@@ -1,7 +1,12 @@
 ---
 title: Pager Control Messages
 description: .
-ms.assetid: '9f0f9f7c-49c5-4c44-9c0a-692a62383550'
+ms.assetid: 9f0f9f7c-49c5-4c44-9c0a-692a62383550
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pager Control Messages

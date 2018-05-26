@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an event handle to the next priority blend event scheduled to occur after a specified event.'
-ms.assetid: '64fa6fca-dc4a-4534-ab8e-b11b3c7ed23c'
-title: 'ID3DXAnimationController::GetUpcomingPriorityBlend method'
+---
+Description: Returns an event handle to the next priority blend event scheduled to occur after a specified event.
+ms.assetid: 64fa6fca-dc4a-4534-ab8e-b11b3c7ed23c
+title: ID3DXAnimationControllerGetUpcomingPriorityBlend method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::GetUpcomingPriorityBlend method

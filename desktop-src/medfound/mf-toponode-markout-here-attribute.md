@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the pipeline applies mark-out at this node. Mark-out is the point where a presentation ends. If pipeline components generate data past the mark-out point, the data is not rendered.'
-ms.assetid: 'adf2361a-90c7-4650-a486-5c450a41ab54'
-title: 'MF\_TOPONODE\_MARKOUT\_HERE attribute'
+---
+Description: Specifies whether the pipeline applies mark-out at this node. Mark-out is the point where a presentation ends. If pipeline components generate data past the mark-out point, the data is not rendered.
+ms.assetid: adf2361a-90c7-4650-a486-5c450a41ab54
+title: MF\_TOPONODE\_MARKOUT\_HERE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_MARKOUT\_HERE attribute
@@ -43,13 +48,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [**MF\_TOPONODE\_MARKIN\_HERE**](mf-toponode-markin-here-attribute.md)

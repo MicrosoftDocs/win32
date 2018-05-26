@@ -1,7 +1,12 @@
 ---
 title: Caching Value-Type Properties
 description: Caching Value-Type Properties
-ms.assetid: 'ab959ef3-db10-4028-be40-1ebe57376d50'
+ms.assetid: ab959ef3-db10-4028-be40-1ebe57376d50
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Caching Value-Type Properties

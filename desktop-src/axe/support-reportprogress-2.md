@@ -1,8 +1,11 @@
 ---
 title: Support ReportProgress method
 description: Reports the progress of the assessment to the AXE engine and can inform the assessment if it should stop running.
-ms.assetid: 'CA232A1B-257C-4674-A00E-B3322A89D016'
-keywords: ["ReportProgress method Access Execution Engine", "ReportProgress method Access Execution Engine , Support interface", "Support interface Access Execution Engine , ReportProgress method"]
+ms.assetid: CA232A1B-257C-4674-A00E-B3322A89D016
+keywords:
+- ReportProgress method Access Execution Engine
+- ReportProgress method Access Execution Engine , Support interface
+- Support interface Access Execution Engine , ReportProgress method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::ReportProgress method
@@ -22,10 +30,10 @@ Reports the progress of the assessment to the AXE engine and can inform the asse
 
 ```C++
 virtual HRESULT ReportProgress(
-  [in]            AxeProgressType progressType,
-  [in]            UINT            progressValue,
-  [in, optional]  LPCWSTR         progressMessage,
-  [out, optional] BOOL            *cancelAssessment
+  [in]            AxeProgressType progressType,
+  [in]            UINT            progressValue,
+  [in, optional]  LPCWSTR         progressMessage,
+  [out, optional] BOOL            *cancelAssessment
 ) const = 0;
 ```
 
@@ -83,8 +91,8 @@ Managed code uses the [**Support.ReportProgress**](axe-support_reportprogress_om
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -100,9 +108,9 @@ Managed code uses the [**Support.ReportProgress**](axe-support_reportprogress_om
 [**ReportProgress methods**](support-reportprogress-overl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

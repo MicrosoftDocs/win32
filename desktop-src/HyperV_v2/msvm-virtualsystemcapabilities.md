@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities of the associated Msvm\_ComputerSystem.'
-ms.assetid: '7e3b51ba-f85d-4b83-abc6-a094d412eca1'
-title: 'Msvm\_VirtualSystemCapabilities class'
+Description: Describes the capabilities of the associated Msvm\_ComputerSystem.
+ms.assetid: 7e3b51ba-f85d-4b83-abc6-a094d412eca1
+title: Msvm\_VirtualSystemCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemCapabilities class
@@ -16,14 +21,14 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemCapabilities : CIM_EnabledLogicalElementCapabilities
 {
-  string  InstanceID;
-  string  Caption = "Hyper-V Virtual System Capabilities";
-  string  Description = "Defines Virtual System Capabilities";
-  string  ElementName = "Hyper-V Virtual System Capabilities";
+  string  InstanceID;
+  string  Caption = "Hyper-V Virtual System Capabilities";
+  string  Description = "Defines Virtual System Capabilities";
+  string  ElementName = "Hyper-V Virtual System Capabilities";
   boolean ElementNameEditSupported = True;
-  unit16  MaxElementNameLen = 100;
-  unit16  RequestedStatesSupported[];
-  string  ElementNameMask;
+  unit16  MaxElementNameLen = 100;
+  unit16  RequestedStatesSupported[];
+  string  ElementNameMask;
 };
 ```
 
@@ -163,7 +168,7 @@ Indicates the possible states that can be requested when using the **RequestStat
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -173,17 +178,17 @@ Indicates the possible states that can be requested when using the **RequestStat
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

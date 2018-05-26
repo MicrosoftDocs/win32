@@ -1,7 +1,12 @@
 ---
-Description: 'Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.'
-ms.assetid: 'ad783188-b60a-4271-aa2d-8050c36e70eb'
-title: 'Msvm\_CollectedVirtualSystems class'
+Description: Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
+ms.assetid: ad783188-b60a-4271-aa2d-8050c36e70eb
+title: Msvm\_CollectedVirtualSystems class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CollectedVirtualSystems class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Msvm_CollectedVirtualSystems : CIM_CollectedMSEs
 {
   Msvm_VirtualSystemCollection REF Collection;
-  Msvm_ComputerSystem          REF Member;
+  Msvm_ComputerSystem          REF Member;
 };
 ```
 
@@ -71,8 +76,8 @@ An [**Msvm\_ComputerSystem**](msvm-computersystem.md) object containing the memb
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -86,9 +91,9 @@ An [**Msvm\_ComputerSystem**](msvm-computersystem.md) object containing the memb
 [**CIM\_CollectedMSEs**](cim-collectedmses.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

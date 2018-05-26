@@ -4,11 +4,24 @@ description: Retrieves the IMsRdpClientAdvancedSettings6 interface.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64b05c66-ac6a-4190-9df8-4a88dbc46c3f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 64b05c66-ac6a-4190-9df8-4a88dbc46c3f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AdvancedSettings7 property Remote Desktop Services", "AdvancedSettings7 property Remote Desktop Services , IMsRdpClient6 interface", "IMsRdpClient6 interface Remote Desktop Services , AdvancedSettings7 property", "AdvancedSettings7 property Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , AdvancedSettings7 property", "AdvancedSettings7 property Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings7 property", "AdvancedSettings7 property Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings7 property", "AdvancedSettings7 property Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings7 property", "AdvancedSettings7 property Remote Desktop Services , MsRdpClient6 object", "MsRdpClient6 object Remote Desktop Services , AdvancedSettings7 property"]
+keywords:
+- AdvancedSettings7 property Remote Desktop Services
+- AdvancedSettings7 property Remote Desktop Services , IMsRdpClient6 interface
+- IMsRdpClient6 interface Remote Desktop Services , AdvancedSettings7 property
+- AdvancedSettings7 property Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , AdvancedSettings7 property
+- AdvancedSettings7 property Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , AdvancedSettings7 property
+- AdvancedSettings7 property Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , AdvancedSettings7 property
+- AdvancedSettings7 property Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , AdvancedSettings7 property
+- AdvancedSettings7 property Remote Desktop Services , MsRdpClient6 object
+- MsRdpClient6 object Remote Desktop Services , AdvancedSettings7 property
 topic_type:
 - apiref
 api_name:
@@ -27,6 +40,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient6::AdvancedSettings7 property
@@ -40,7 +56,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AdvancedSettings7(
-  [out] IMsRdpClientAdvancedSettings6 **ppAdvSettings
+  [out] IMsRdpClientAdvancedSettings6 **ppAdvSettings
 );
 ```
 
@@ -56,8 +72,8 @@ An [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md) interfa
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IID\_IMsRdpClient6 is defined as d43b7d80-8517-4b6d-9eac-96ad6800d7f2<br/>       |
@@ -83,9 +99,9 @@ An [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md) interfa
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

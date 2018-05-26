@@ -1,7 +1,12 @@
 ---
 title: Audio Output Support
 description: Audio Output Support
-ms.assetid: '28b7b1dc-0bf2-46db-b114-f93e460d958f'
+ms.assetid: 28b7b1dc-0bf2-46db-b114-f93e460d958f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Output Support

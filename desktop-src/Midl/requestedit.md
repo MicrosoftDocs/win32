@@ -2,13 +2,19 @@
 title: requestedit attribute
 description: The \ requestedit\ attribute indicates that the property supports the OnRequestEdit notification.
 ms.assetid: 63f38d83-596b-4031-bb6a-972374cd0c60
-keywords: ["requestedit attribute MIDL"]
+keywords:
+- requestedit attribute MIDL
 topic_type:
 - apiref
 api_name:
 - requestedit
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # requestedit attribute

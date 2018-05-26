@@ -1,8 +1,14 @@
 ---
 title: Smart Card Enrollment Control Usage Scenario
 description: The following scenario illustrates the use of the Smart Card Enrollment control by an administrator issuing smart cards for an organization.
-ms.assetid: '2d9a36e3-76fd-4226-bc39-405b7c13a115'
-keywords: ["Smart Card Enrollment Control usage scenario Security"]
+ms.assetid: 2d9a36e3-76fd-4226-bc39-405b7c13a115
+keywords:
+- Smart Card Enrollment Control usage scenario Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card Enrollment Control Usage Scenario

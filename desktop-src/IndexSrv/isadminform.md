@@ -1,7 +1,12 @@
 ---
 title: ISAdminForm
 description: ISAdminForm
-ms.assetid: 'd7340a0a-32aa-4b38-afbf-6421c948d980'
+ms.assetid: d7340a0a-32aa-4b38-afbf-6421c948d980
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISAdminForm

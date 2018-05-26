@@ -1,7 +1,12 @@
 ---
 title: MaxFilesizeFiltered
 description: MaxFilesizeFiltered
-ms.assetid: '94a6ec0a-3b5d-4a95-823d-aca234f21593'
+ms.assetid: 94a6ec0a-3b5d-4a95-823d-aca234f21593
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxFilesizeFiltered

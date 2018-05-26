@@ -1,7 +1,12 @@
 ---
 title: HH\_UNINITIALIZE command
 description: HH\_UNINITIALIZE command
-ms.assetid: 'FFE44D4D-C1E6-4469-AB5B-16F029E87F2C'
+ms.assetid: FFE44D4D-C1E6-4469-AB5B-16F029E87F2C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_UNINITIALIZE command

@@ -1,8 +1,23 @@
 ---
 title: Video Item Attributes
 description: Video Item Attributes
-ms.assetid: '000bc03d-aa2e-4922-b611-7d6e8ebb22e9'
-keywords: ["Windows Media Player,video item attributes", "Windows Media Player Mobile,video item attributes", "Windows Media Player object model,video item attributes", "object model,video item attributes", "ActiveX control,video item attributes", "Windows Media Player ActiveX control,video item attributes", "Windows Media Player Mobile ActiveX control,video item attributes", "reference for object model,video item attributes", "attributes,video items", "video item attributes"]
+ms.assetid: 000bc03d-aa2e-4922-b611-7d6e8ebb22e9
+keywords:
+- Windows Media Player,video item attributes
+- Windows Media Player Mobile,video item attributes
+- Windows Media Player object model,video item attributes
+- object model,video item attributes
+- ActiveX control,video item attributes
+- Windows Media Player ActiveX control,video item attributes
+- Windows Media Player Mobile ActiveX control,video item attributes
+- reference for object model,video item attributes
+- attributes,video items
+- video item attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Item Attributes

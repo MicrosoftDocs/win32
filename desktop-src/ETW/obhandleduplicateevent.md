@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the event type class for handle duplication events.'
-ms.assetid: 'a933ffaa-8c99-4b87-ad00-4c40fa4d8d26'
+---
+Description: Represents the event type class for handle duplication events.
+ms.assetid: a933ffaa-8c99-4b87-ad00-4c40fa4d8d26
 title: ObHandleDuplicateEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ObHandleDuplicateEvent class

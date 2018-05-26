@@ -1,8 +1,11 @@
 ---
 title: IMessenger2 ContactsSortOrder property
 description: Sets or retrieves the current sort order for the local client, which is used to determine if the contacts should be sorted by groups or by their online/offline status.
-ms.assetid: '75cbe224-23be-4e93-aefa-24c3f7f2ea47'
-keywords: ["ContactsSortOrder property Windows Messenger", "ContactsSortOrder property Windows Messenger , IMessenger2 interface", "IMessenger2 interface Windows Messenger , ContactsSortOrder property"]
+ms.assetid: 75cbe224-23be-4e93-aefa-24c3f7f2ea47
+keywords:
+- ContactsSortOrder property Windows Messenger
+- ContactsSortOrder property Windows Messenger , IMessenger2 interface
+- IMessenger2 interface Windows Messenger , ContactsSortOrder property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger2::ContactsSortOrder property
 
-\[**ContactsSortOrder** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**ContactsSortOrder** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Sets or retrieves the current sort order for the local client, which is used to determine if the contacts should be sorted by groups or by their online/offline status.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ContactsSortOrder(
-  [in]          MUASORT Sort
+  [in]          MUASORT Sort
 );
 
 HRESULT get_ContactsSortOrder(
-  [out, retval] MUASORT *pSort
+  [out, retval] MUASORT *pSort
 );
 ```
 
@@ -59,12 +67,12 @@ Returns one of the following values.
 
 ## Remarks
 
-Some services, such as Microsoft Exchange Instant Messaging Service (IM), do not support groups. The use of this property on these services will return the error **MSGR\_E\_GROUPS\_NOT\_ENABLED**.
+Some services, such as Microsoft Exchange Instant Messaging Service (IM), do not support groups. The use of this property on these services will return the error **MSGR\_E\_GROUPS\_NOT\_ENABLED**.
 
 > [!Note]  
 > The following remarks apply to scripting languages. The **get\_ContactsSort** property is available for scripting languages; **put\_ContactsSort** is not.
 
- 
+ 
 
 ## Requirements
 
@@ -72,17 +80,17 @@ Some services, such as Microsoft Exchange Instant Messaging Service (IM), do not
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

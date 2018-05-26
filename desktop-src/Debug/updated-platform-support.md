@@ -1,7 +1,12 @@
 ---
-Description: 'Where necessary, the DbgHelp library has been widened to support both 32- and 64-bit Windows.'
-ms.assetid: '34ec8cd3-3260-441d-b55f-4ea21c736eb1'
+Description: Where necessary, the DbgHelp library has been widened to support both 32- and 64-bit Windows.
+ms.assetid: 34ec8cd3-3260-441d-b55f-4ea21c736eb1
 title: Updated Platform Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updated Platform Support
@@ -14,40 +19,40 @@ The following is a list of the updated functions:
 
 <dl>
 
-[**EnumerateLoadedModules64**](enumerateloadedmodules64.md)  
-[**StackWalk64**](stackwalk64.md)  
-[**SymEnumerateModules64**](symenumeratemodules64.md)  
-[**SymEnumerateSymbols64**](symenumeratesymbols64.md)  
-[**SymFunctionTableAccess64**](symfunctiontableaccess64.md)  
-[**SymGetLineFromAddr64**](symgetlinefromaddr64.md)  
-[**SymGetLineFromName64**](symgetlinefromname64.md)  
-[**SymGetLineNext64**](symgetlinenext64.md)  
-[**SymGetLinePrev64**](symgetlineprev64.md)  
-[**SymGetModuleBase64**](symgetmodulebase64.md)  
-[**SymGetModuleInfo64**](symgetmoduleinfo64.md)  
-[**SymGetSymFromAddr64**](symgetsymfromaddr64.md)  
-[**SymGetSymFromName64**](symgetsymfromname64.md)  
-[**SymGetSymNext64**](symgetsymnext64.md)  
-[**SymGetSymPrev64**](symgetsymprev64.md)  
-[**SymLoadModule64**](symloadmodule64.md)  
-[**SymRegisterCallback64**](symregistercallback64.md)  
-[**SymRegisterFunctionEntryCallback64**](symregisterfunctionentrycallback64.md)  
-[**SymUnDName64**](symundname64.md)  
-[**SymUnloadModule64**](symunloadmodule64.md)  
+[**EnumerateLoadedModules64**](/windows/win32/Dbghelp/nf-dbghelp-enumerateloadedmodules?branch=master)  
+[**StackWalk64**](/windows/win32/DbgHelp/nf-dbghelp-stackwalk?branch=master)  
+[**SymEnumerateModules64**](/windows/win32/Dbghelp/nf-dbghelp-symenumeratemodules?branch=master)  
+[**SymEnumerateSymbols64**](/windows/win32/Dbghelp/nf-dbghelp-symenumeratesymbols?branch=master)  
+[**SymFunctionTableAccess64**](/windows/win32/Dbghelp/nf-dbghelp-symfunctiontableaccess?branch=master)  
+[**SymGetLineFromAddr64**](/windows/win32/Dbghelp/nf-dbghelp-symgetlinefromaddr?branch=master)  
+[**SymGetLineFromName64**](/windows/win32/Dbghelp/nf-dbghelp-symgetlinefromname?branch=master)  
+[**SymGetLineNext64**](/windows/win32/Dbghelp/nf-dbghelp-symgetlinenext?branch=master)  
+[**SymGetLinePrev64**](/windows/win32/Dbghelp/nf-dbghelp-symgetlineprev?branch=master)  
+[**SymGetModuleBase64**](/windows/win32/Dbghelp/nf-dbghelp-symgetmodulebase?branch=master)  
+[**SymGetModuleInfo64**](/windows/win32/Dbghelp/nf-dbghelp-symgetmoduleinfo?branch=master)  
+[**SymGetSymFromAddr64**](/windows/win32/Dbghelp/nf-dbghelp-symgetsymfromaddr?branch=master)  
+[**SymGetSymFromName64**](/windows/win32/Dbghelp/nf-dbghelp-symgetsymfromname?branch=master)  
+[**SymGetSymNext64**](/windows/win32/Dbghelp/nf-dbghelp-symgetsymnext?branch=master)  
+[**SymGetSymPrev64**](/windows/win32/Dbghelp/nf-dbghelp-symgetsymprev?branch=master)  
+[**SymLoadModule64**](/windows/win32/Dbghelp/nf-dbghelp-symloadmodule?branch=master)  
+[**SymRegisterCallback64**](/windows/win32/Dbghelp/nf-dbghelp-symregistercallback?branch=master)  
+[**SymRegisterFunctionEntryCallback64**](/windows/win32/Dbghelp/nf-dbghelp-symregisterfunctionentrycallback?branch=master)  
+[**SymUnDName64**](/windows/win32/Dbghelp/nf-dbghelp-symundname?branch=master)  
+[**SymUnloadModule64**](/windows/win32/Dbghelp/nf-dbghelp-symunloadmodule?branch=master)  
 </dl>
 
 The following is a list of the updated structures:
 
 <dl>
 
-[**ADDRESS64**](address64-str.md)  
-[**IMAGEHLP\_DEFERRED\_SYMBOL\_LOAD64**](imagehlp-deferred-symbol-load64-str.md)  
-[**IMAGEHLP\_DUPLICATE\_SYMBOL64**](imagehlp-duplicate-symbol64-str.md)  
-[**IMAGEHLP\_LINE64**](imagehlp-line64-str.md)  
-[**IMAGEHLP\_MODULE64**](imagehlp-module64-str.md)  
-[**IMAGEHLP\_SYMBOL64**](imagehlp-symbol64-str.md)  
-[**KDHELP64**](kdhelp64-str.md)  
-[**STACKFRAME64**](stackframe64-str.md)  
+[**ADDRESS64**](/windows/win32/DbgHelp/ns-dbghelp-_tagaddress?branch=master)  
+[**IMAGEHLP\_DEFERRED\_SYMBOL\_LOAD64**](/windows/win32/DbgHelp/ns-dbghelp-_imagehlp_deferred_symbol_load?branch=master)  
+[**IMAGEHLP\_DUPLICATE\_SYMBOL64**](/windows/win32/DbgHelp/ns-dbghelp-_imagehlp_duplicate_symbol?branch=master)  
+[**IMAGEHLP\_LINE64**](/windows/win32/DbgHelp/ns-dbghelp-_imagehlp_line?branch=master)  
+[**IMAGEHLP\_MODULE64**](/windows/win32/DbgHelp/ns-dbghelp-_imagehlp_module?branch=master)  
+[**IMAGEHLP\_SYMBOL64**](/windows/win32/DbgHelp/ns-dbghelp-_imagehlp_symbol?branch=master)  
+[**KDHELP64**](/windows/win32/DbgHelp/ns-dbghelp-_kdhelp?branch=master)  
+[**STACKFRAME64**](/windows/win32/DbgHelp/ns-dbghelp-_tagstackframe?branch=master)  
 </dl>
 
  

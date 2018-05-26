@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.ApplicationName property.'
-ms.assetid: 'bf4b310a-7e63-45c5-a327-2638fb31d676'
-title: 'System.ApplicationName Photo Metadata Policy'
+Description: The photo metadata policy for the System.ApplicationName property.
+ms.assetid: bf4b310a-7e63-45c5-a327-2638fb31d676
+title: System.ApplicationName Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ApplicationName Photo Metadata Policy

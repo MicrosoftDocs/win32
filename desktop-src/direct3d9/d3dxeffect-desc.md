@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes an effect object.'
-ms.assetid: '161d3e7a-213a-4a83-a1b5-837b0aab96bf'
-title: 'D3DXEFFECT\_DESC structure'
+---
+Description: Describes an effect object.
+ms.assetid: 161d3e7a-213a-4a83-a1b5-837b0aab96bf
+title: D3DXEFFECT\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXEFFECT\_DESC structure

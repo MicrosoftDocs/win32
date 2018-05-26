@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains the response from the IDirect3DAuthenticatedChannel9::Query method.'
-ms.assetid: 'b2783b8e-0436-419a-a93e-93dc1b87024d'
-title: 'D3DAUTHENTICATEDCHANNEL\_QUERY\_OUTPUT structure'
+---
+Description: Contains the response from the IDirect3DAuthenticatedChannel9Query method.
+ms.assetid: b2783b8e-0436-419a-a93e-93dc1b87024d
+title: D3DAUTHENTICATEDCHANNEL\_QUERY\_OUTPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_QUERY\_OUTPUT structure
 
-Contains the response from the [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md) method.
+Contains the response from the [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master) method.
 
 ## Syntax
 
@@ -85,7 +90,7 @@ For the **QueryType**, **hChannel**, and **SequenceNumber** members, the driver 
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

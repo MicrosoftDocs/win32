@@ -1,7 +1,12 @@
 ---
 title: Hue to RGB Effect
 description: Converts an HSL (Hue, Saturation, Lightness) or HSV (Hue, Saturation, Value) image to the RGB color space.
-ms.assetid: '18e92535-9e89-bf8d-b8c3-a49b645fc417'
+ms.assetid: 18e92535-9e89-bf8d-b8c3-a49b645fc417
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hue to RGB Effect
@@ -42,7 +47,7 @@ m_d2dContext->EndDraw();
 
 ## Effect Properties
 
-The properties for the contrast effect are defined by the [**D2D1\_HUETORGB\_PROP**](d2d1-huetorgb-prop.md) enumeration.
+The properties for the contrast effect are defined by the [**D2D1\_HUETORGB\_PROP**](/windows/win32/d2d1effects_2/ne-d2d1effects_2-d2d1_huetorgb_prop?branch=master) enumeration.
 
 ## Requirements
 
@@ -63,7 +68,7 @@ The properties for the contrast effect are defined by the [**D2D1\_HUETORGB\_PRO
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
  

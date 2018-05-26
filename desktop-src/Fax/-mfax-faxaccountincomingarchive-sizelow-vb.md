@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages for a particular fax account.'
-ms.assetid: '69b89865-9d2c-4c95-8fb0-dcc60ea6183b'
-title: 'FaxAccountIncomingArchive.SizeLow property'
+---
+Description: Specifies the low 32-bit value (in bytes) for the size of the archive of inbound fax messages for a particular fax account.
+ms.assetid: 69b89865-9d2c-4c95-8fb0-dcc60ea6183b
+title: FaxAccountIncomingArchive.SizeLow property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountIncomingArchive.SizeLow property
@@ -29,7 +34,7 @@ Because the archive may exceed 4 GB in size, its size is described using two lon
 
 If both the **SizeLow** and [**SizeHigh**](-mfax-faxaccountincomingarchive-sizehigh-vb.md) properties have the value 0xffffffff, they specify an invalid archive size, and you should ignore both property values.
 
-To read this property, a user must have the [****far2QUERY\_CONFIG****](-mfax-fax-access-rights-enum-2.md) access right.
+To read this property, a user must have the [****far2QUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master) access right.
 
 ## Requirements
 
@@ -51,7 +56,7 @@ To read this property, a user must have the [****far2QUERY\_CONFIG****](-mfax-fa
 [**FaxAccountIncomingArchive**](-mfax-faxaccountincomingarchive.md)
 </dt> <dt>
 
-[**IFaxAccountIncomingArchive**](-mfax-faxaccountincomingarchive-cpp.md)
+[**IFaxAccountIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountincomingarchive?branch=master)
 </dt> </dl>
 
  

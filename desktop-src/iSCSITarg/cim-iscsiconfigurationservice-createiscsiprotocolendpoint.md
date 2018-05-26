@@ -4,13 +4,16 @@ description: This method creates an iSCSI Port in the form of an instance of iSC
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c524a244-f2ad-4dd9-9c85-cce6dd88fb96'
-ms.prod: 'windows-server-dev'
+ms.assetid: c524a244-f2ad-4dd9-9c85-cce6dd88fb96
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateiSCSIProtocolEndpoint method iSCSI Software Target API", "CreateiSCSIProtocolEndpoint method iSCSI Software Target API , CIM_iSCSIConfigurationService class", "CIM_iSCSIConfigurationService class iSCSI Software Target API , CreateiSCSIProtocolEndpoint method"]
+keywords:
+- CreateiSCSIProtocolEndpoint method iSCSI Software Target API
+- CreateiSCSIProtocolEndpoint method iSCSI Software Target API , CIM_iSCSIConfigurationService class
+- CIM_iSCSIConfigurationService class iSCSI Software Target API , CreateiSCSIProtocolEndpoint method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateiSCSIProtocolEndpoint method of the CIM\_iSCSIConfigurationService class
@@ -30,11 +36,11 @@ This method creates an iSCSI Port in the form of an instance of iSCSIProtocolEnd
 
 ```mof
 uint32 CreateiSCSIProtocolEndpoint(
-  [in]  CIM_SCSIProtocolController REF iSCSINode,
-  [in]  uint16                         Role,
-  [in]  string                         Identifier,
-  [in]  CIM_ProtocolEndpoint       REF NetworkPortals[],
-  [out] CIM_iSCSIProtocolEndpoint  REF iSCSIPort
+  [in]  CIM_SCSIProtocolController REF iSCSINode,
+  [in]  uint16                         Role,
+  [in]  string                         Identifier,
+  [in]  CIM_ProtocolEndpoint       REF NetworkPortals[],
+  [out] CIM_iSCSIProtocolEndpoint  REF iSCSIPort
 );
 ```
 
@@ -115,7 +121,7 @@ A reference to the new iSCSIProtocolEndpoint that is created.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **SCSIProtocolController Non-existent** (4096)
@@ -142,10 +148,10 @@ A reference to the new iSCSIProtocolEndpoint that is created.
 **ProtocolEndpoints Not From Same Endpoint Collection** (4103)
 </dt> <dt>
 
-**Method Reserved** (4104–32767)
+**Method Reserved** (4104 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -155,7 +161,7 @@ A reference to the new iSCSIProtocolEndpoint that is created.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -169,9 +175,9 @@ A reference to the new iSCSIProtocolEndpoint that is created.
 [**CIM\_iSCSIConfigurationService**](cim-iscsiconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

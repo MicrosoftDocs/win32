@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates a Machine Check Architecture (MCA) system BIOS error. This class is available only in 64-bit Windows systems.'
-ms.assetid: 'b451ca45-6208-4445-b9f1-b4e3174837a4'
-title: 'MSMCAEvent\_SMBIOSError class'
+Description: Indicates a Machine Check Architecture (MCA) system BIOS error. This class is available only in 64-bit Windows systems.
+ms.assetid: b451ca45-6208-4445-b9f1-b4e3174837a4
+title: MSMCAEvent\_SMBIOSError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_SMBIOSError class
@@ -16,17 +21,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_SMBIOSError : WMIEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint32  Size;
-  uint8   SMBIOS_EVENT_TYPE;
-  uint32  Type;
-  uint64  VALIDATION_BITS;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint32  Size;
+  uint8   SMBIOS_EVENT_TYPE;
+  uint32  Type;
+  uint64  VALIDATION_BITS;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -102,7 +107,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -218,7 +223,7 @@ Event type.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -260,8 +265,8 @@ The **MSMCAEvent\_SMBIOSError** class is derived from [**WMIEvent**](wmievent.md
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -278,9 +283,9 @@ The **MSMCAEvent\_SMBIOSError** class is derived from [**WMIEvent**](wmievent.md
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

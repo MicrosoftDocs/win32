@@ -1,7 +1,12 @@
-﻿---
-Description: 'Use this method to release all references to video memory resources and delete all stateblocks. This method should be called whenever a device is lost, or before resetting a device.'
-ms.assetid: '76dcf5f3-0d2f-4388-9b75-c4dbd1c74982'
-title: 'ID3DXRenderToEnvMap::OnLostDevice method'
+---
+Description: Use this method to release all references to video memory resources and delete all stateblocks. This method should be called whenever a device is lost, or before resetting a device.
+ms.assetid: 76dcf5f3-0d2f-4388-9b75-c4dbd1c74982
+title: ID3DXRenderToEnvMapOnLostDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap::OnLostDevice method
@@ -29,7 +34,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 ## Remarks
 
-This method should be called whenever the device is lost or before the user calls [**IDirect3DDevice9::Reset**](idirect3ddevice9--reset.md). Even if the device was not actually lost, **ID3DXRenderToEnvMap::OnLostDevice** is responsible for freeing stateblocks and other resources that may need to be released before resetting the device. As a result, the font object cannot be used again before calling **IDirect3DDevice9::Reset** and then [**ID3DXRenderToEnvMap::OnResetDevice**](id3dxrendertoenvmap--onresetdevice.md).
+This method should be called whenever the device is lost or before the user calls [**IDirect3DDevice9::Reset**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-reset?branch=master). Even if the device was not actually lost, **ID3DXRenderToEnvMap::OnLostDevice** is responsible for freeing stateblocks and other resources that may need to be released before resetting the device. As a result, the font object cannot be used again before calling **IDirect3DDevice9::Reset** and then [**ID3DXRenderToEnvMap::OnResetDevice**](id3dxrendertoenvmap--onresetdevice.md).
 
 ## Requirements
 

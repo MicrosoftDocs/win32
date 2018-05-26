@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following functions are among the CryptoAPI functions that can be extended.'
-ms.assetid: 'eb4c1352-1432-4f45-a309-fa17b694a35e'
+---
+Description: The following functions are among the CryptoAPI functions that can be extended.
+ms.assetid: eb4c1352-1432-4f45-a309-fa17b694a35e
 title: Creating the New Functionality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the New Functionality
@@ -12,11 +17,11 @@ The following functions are among the CryptoAPI functions that can be extended.
 
 | CryptoAPI function                                   | OID function name define                         | OID function name string  |
 |------------------------------------------------------|--------------------------------------------------|---------------------------|
-| [**CryptEncodeObject**](cryptencodeobject.md)       | CRYPT\_OID\_ENCODE\_ OBJECT\_FUNC<br/>     | "CryptDllEncodeObject"    |
-| [**CryptDecodeObject**](cryptdecodeobject.md)       | CRYPT\_OID\_DECODE\_ OBJECT\_FUNC<br/>     | "CryptDllDecodeObject"    |
-| [**CertOpenStore**](certopenstore.md)               | CRYPT\_OID\_OPEN\_ STORE\_PROV\_FUNC<br/>  | "CertDllOpenStoreProv"    |
-| [**CertVerifyCTLUsage**](certverifyctlusage.md)     | CRYPT\_OID\_VERIFY\_ CTL\_USAGE\_FUNC<br/> | "CertDllVerifyCTLUsage"   |
-| [**CertVerifyRevocation**](certverifyrevocation.md) | CRYPT\_OID\_VERIFY\_ REVOCATION\_FUNC<br/> | "CertDllVerifyRevocation" |
+| [**CryptEncodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptencodeobject?branch=master)       | CRYPT\_OID\_ENCODE\_ OBJECT\_FUNC<br/>     | "CryptDllEncodeObject"    |
+| [**CryptDecodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecodeobject?branch=master)       | CRYPT\_OID\_DECODE\_ OBJECT\_FUNC<br/>     | "CryptDllDecodeObject"    |
+| [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master)               | CRYPT\_OID\_OPEN\_ STORE\_PROV\_FUNC<br/>  | "CertDllOpenStoreProv"    |
+| [**CertVerifyCTLUsage**](/windows/win32/Wincrypt/nf-wincrypt-certverifyctlusage?branch=master)     | CRYPT\_OID\_VERIFY\_ CTL\_USAGE\_FUNC<br/> | "CertDllVerifyCTLUsage"   |
+| [**CertVerifyRevocation**](/windows/win32/Wincrypt/nf-wincrypt-certverifyrevocation?branch=master) | CRYPT\_OID\_VERIFY\_ REVOCATION\_FUNC<br/> | "CertDllVerifyRevocation" |
 
 
 
@@ -28,7 +33,7 @@ When one of the listed functions is called with the newly designated OID and enc
 
 The name of the newly developed function can be the name listed under "OID function name string" in the previous table or a different name can be given when the new function code is registered.
 
-The new function must use an appropriate prototype. In all cases except for [**CertOpenStore**](certopenstore.md), this prototype is the same as the CryptoAPI function that calls the new function. In the case of **CertOpenStore** the prototype is as follows.
+The new function must use an appropriate prototype. In all cases except for [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master), this prototype is the same as the CryptoAPI function that calls the new function. In the case of **CertOpenStore** the prototype is as follows.
 
 
 ```C++
@@ -52,7 +57,7 @@ BOOL WINAPI CertDllOpenStoreProv(
 
  
 
-In addition to providing the code for the new function in a DLL, extending the functionality of [**CryptEncodeObject**](cryptencodeobject.md) or [**CryptDecodeObject**](cryptdecodeobject.md) requires a type definition for the new C data structure to be placed in a header file included when the user's program is compiled.
+In addition to providing the code for the new function in a DLL, extending the functionality of [**CryptEncodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptencodeobject?branch=master) or [**CryptDecodeObject**](/windows/win32/Wincrypt/nf-wincrypt-cryptdecodeobject?branch=master) requires a type definition for the new C data structure to be placed in a header file included when the user's program is compiled.
 
  
 

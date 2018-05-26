@@ -1,7 +1,12 @@
 ---
-Description: 'The client and server use the same sequence of operations to initialize SSPI and select a security package.'
-ms.assetid: '21227b11-a089-49fe-83c7-69e5b2ceed34'
+Description: The client and server use the same sequence of operations to initialize SSPI and select a security package.
+ms.assetid: 21227b11-a089-49fe-83c7-69e5b2ceed34
 title: Initializing SSPI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Initializing SSPI

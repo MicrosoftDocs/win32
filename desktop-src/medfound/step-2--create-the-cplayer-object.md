@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 2 of the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: 'b489312f-ab8c-4ec6-8070-f5848034087e'
-title: 'Step 2: Create the CPlayer Object'
+Description: This topic is step 2 of the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: b489312f-ab8c-4ec6-8070-f5848034087e
+title: Step 2 Create the CPlayer Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 2: Create the CPlayer Object
@@ -87,7 +92,7 @@ CPlayer::CPlayer(HWND hVideo, HWND hEvent) :
 
 The constructor does the following:
 
-1.  Calls [**MFStartup**](mfstartup.md) to initialize the Media Foundation platform.
+1.  Calls [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master) to initialize the Media Foundation platform.
 2.  Creates an auto-reset event. This event is used when closing the Media Session; see [Step 7: Shut Down the Media Session](step-7--shut-down-the-media-session.md).
 
 The destructor shuts down the Media Session, as described in [Step 7: Shut Down the Media Session](step-7--shut-down-the-media-session.md).

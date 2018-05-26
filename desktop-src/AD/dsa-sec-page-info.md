@@ -4,17 +4,22 @@ description: Used with the WM\_ADSPROP\_SHEET\_CREATE and WM\_DSA\_SHEET\_CREATE
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '422d84dc-6b5e-43bf-ac4f-3b99cb59f9df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 422d84dc-6b5e-43bf-ac4f-3b99cb59f9df
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSA_SEC_PAGE_INFO structure Active Directory", "PDSA_SEC_PAGE_INFO structure pointer Active Directory"]
+keywords:
+- DSA_SEC_PAGE_INFO structure Active Directory
+- PDSA_SEC_PAGE_INFO structure pointer Active Directory
 topic_type:
 - apiref
 api_name:
 - DSA_SEC_PAGE_INFO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # DSA\_SEC\_PAGE\_INFO structure
@@ -24,15 +29,15 @@ The **DSA\_SEC\_PAGE\_INFO** structure is used with the [**WM\_ADSPROP\_SHEET\_C
 > [!Note]  
 > This structure is not defined in a published header file. To use this structure, define it in the exact format shown.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef struct _DSA_SEC_PAGE_INFO {
-  HWND          hwndParentSheet;
-  DWORD         offsetTitle;
+  HWND          hwndParentSheet;
+  DWORD         offsetTitle;
   DSOBJECTNAMES dsObjectNames;
 } DSA_SEC_PAGE_INFO, *PDSA_SEC_PAGE_INFO;
 ```
@@ -60,7 +65,7 @@ Contains the offset, in bytes, from the start of the **DSA\_SEC\_PAGE\_INFO** st
 **dsObjectNames**
 </dt> <dd>
 
-Contains a [**DSOBJECTNAMES**](dsobjectnames.md) structure that defines the secondary property sheet. Only one secondary property sheet can be created at a time, so the **DSOBJECTNAMES** structure can only contain one [**DSOBJECT**](dsobject.md) structure.
+Contains a [**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master) structure that defines the secondary property sheet. Only one secondary property sheet can be created at a time, so the **DSOBJECTNAMES** structure can only contain one [**DSOBJECT**](/windows/win32/Dsclient/ns-dsclient-dsobject?branch=master) structure.
 
 </dd> </dl>
 
@@ -70,8 +75,8 @@ Contains a [**DSOBJECTNAMES**](dsobjectnames.md) structure that defines the seco
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -85,15 +90,15 @@ Contains a [**DSOBJECTNAMES**](dsobjectnames.md) structure that defines the seco
 [**WM\_DSA\_SHEET\_CREATE\_NOTIFY**](wm-dsa-sheet-create-notify.md)
 </dt> <dt>
 
-[**DSOBJECTNAMES**](dsobjectnames.md)
+[**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master)
 </dt> <dt>
 
-[**DSOBJECT**](dsobject.md)
+[**DSOBJECT**](/windows/win32/Dsclient/ns-dsclient-dsobject?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

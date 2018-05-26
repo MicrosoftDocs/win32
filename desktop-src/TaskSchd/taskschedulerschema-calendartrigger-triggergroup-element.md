@@ -1,14 +1,21 @@
 ---
 title: CalendarTrigger (triggerGroup) Element
 description: Specifies a daily, weekly, monthly, or a monthly day-of-the-week (DOW) trigger.
-ms.assetid: '9b9218bf-222c-4ece-8b37-5c5d8b765015'
-keywords: ["calendar trigger Task Scheduler , XML element", "CalendarTrigger element Task Scheduler"]
+ms.assetid: 9b9218bf-222c-4ece-8b37-5c5d8b765015
+keywords:
+- calendar trigger Task Scheduler , XML element
+- CalendarTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - CalendarTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CalendarTrigger (triggerGroup) Element
@@ -76,10 +83,10 @@ For script development, calendar triggers are specified using one of the followi
 
 For C++ development, calendar triggers are specified using one of the following interfaces.
 
--   [**IDailyTrigger**](idailytrigger.md)
--   [**IWeeklyTrigger**](iweeklytrigger.md)
--   [**IMonthlyTrigger**](imonthlytrigger.md)
--   [**IMonthlyDOWTrigger**](imonthlydowtrigger.md)
+-   [**IDailyTrigger**](/windows/win32/taskschd/nn-taskschd-idailytrigger?branch=master)
+-   [**IWeeklyTrigger**](/windows/win32/taskschd/nn-taskschd-iweeklytrigger?branch=master)
+-   [**IMonthlyTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlytrigger?branch=master)
+-   [**IMonthlyDOWTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlydowtrigger?branch=master)
 
 ## Examples
 
@@ -91,8 +98,8 @@ For a complete example of the XML for a task that specifies a calendar trigger, 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -106,9 +113,9 @@ For a complete example of the XML for a task that specifies a calendar trigger, 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPMediaCollection2 getPlaylistByQuery method
 description: The getPlaylistByQuery method returns an IWMPPlaylist interface that provides access to media items that match the query conditions.
-ms.assetid: 'ebbb631f-1faa-4c89-8c1d-cc2b128126b8'
-keywords: ["getPlaylistByQuery method Windows Media Player", "getPlaylistByQuery method Windows Media Player , IWMPMediaCollection2 interface", "IWMPMediaCollection2 interface Windows Media Player , getPlaylistByQuery method"]
+ms.assetid: ebbb631f-1faa-4c89-8c1d-cc2b128126b8
+keywords:
+- getPlaylistByQuery method Windows Media Player
+- getPlaylistByQuery method Windows Media Player , IWMPMediaCollection2 interface
+- IWMPMediaCollection2 interface Windows Media Player , getPlaylistByQuery method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMediaCollection2::getPlaylistByQuery method
@@ -125,9 +133,9 @@ When the compound query specified by the *pQuery* parameter contains a condition
 [**MediaType Attribute**](mediatype-attribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

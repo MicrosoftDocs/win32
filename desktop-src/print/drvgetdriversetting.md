@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DrvGetDriverSetting function is obsolete.'
-ms.assetid: '04473567-42ac-4d99-947d-6ec7b3bde90b'
-title: 'PFN\_DrvGetDriverSetting callback function'
+---
+Description: The DrvGetDriverSetting function is obsolete.
+ms.assetid: 04473567-42ac-4d99-947d-6ec7b3bde90b
+title: PFN\_DrvGetDriverSetting callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvGetDriverSetting callback function

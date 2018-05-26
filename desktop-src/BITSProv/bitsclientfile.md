@@ -1,8 +1,10 @@
 ---
 title: BitsClientFile class
 description: The BitsClientFile class provides information about a file for a BITS transfer job.
-ms.assetid: 'f32acff8-3d8f-4cec-aba1-182ad73f33cd'
-keywords: ["BitsClientFile class", "BitsClientFile class, described"]
+ms.assetid: f32acff8-3d8f-4cec-aba1-182ad73f33cd
+keywords:
+- BitsClientFile class
+- BitsClientFile class, described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BitsClientFile class
@@ -29,10 +36,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class BitsClientFile
 {
-  string  RemoteUrl;
-  string  LocalFile;
-  uint64  BytesTotal;
-  uint64  BytesTransferred;
+  string  RemoteUrl;
+  string  LocalFile;
+  uint64  BytesTotal;
+  uint64  BytesTransferred;
   boolean Completed;
 };
 ```
@@ -121,16 +128,16 @@ This property defines the remote URL for the file transfer.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

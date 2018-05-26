@@ -1,7 +1,12 @@
-﻿---
-Description: 'Makes the specified file (EF or DF) not valid. A file that is not valid cannot be accessed by other methods prior to using Rehabilitate.'
-ms.assetid: '5600fcf0-091c-437e-a45c-4de5b0a47d68'
-title: 'ISCardFileAccess::Invalidate method'
+---
+Description: Makes the specified file (EF or DF) not valid. A file that is not valid cannot be accessed by other methods prior to using Rehabilitate.
+ms.assetid: 5600fcf0-091c-437e-a45c-4de5b0a47d68
+title: ISCardFileAccessInvalidate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::Invalidate method

@@ -1,14 +1,20 @@
 ---
 title: Execution (SystemPropertiesType) Element
 description: Contains information about the process and thread that logged the event.
-ms.assetid: '4d2feb0d-a3e6-479c-aa34-cd95a708add5'
-keywords: ["Execution element EventLog"]
+ms.assetid: 4d2feb0d-a3e6-479c-aa34-cd95a708add5
+keywords:
+- Execution element EventLog
 topic_type:
 - apiref
 api_name:
 - Execution
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execution (SystemPropertiesType) Element
@@ -74,8 +80,8 @@ The **Execution** element is defined by the [**SystemPropertiesType**](eventsche
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -95,9 +101,9 @@ The **Execution** element is defined by the [**SystemPropertiesType**](eventsche
 [**System (EventType)**](eventschema-system-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

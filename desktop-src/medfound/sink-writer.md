@@ -1,7 +1,12 @@
 ---
-Description: 'The sink writer is a component for encoding audio or video files.'
-ms.assetid: '23AF25B8-B94C-48BC-83D8-5863ACFFD4CA'
+Description: The sink writer is a component for encoding audio or video files.
+ms.assetid: 23AF25B8-B94C-48BC-83D8-5863ACFFD4CA
 title: Sink Writer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sink Writer

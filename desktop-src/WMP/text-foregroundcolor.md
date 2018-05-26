@@ -1,14 +1,20 @@
 ---
 title: TEXT.foregroundColor
 description: The foregroundColor attribute specifies or retrieves the text color for the Text control.
-ms.assetid: '1ddbad93-fbff-4be6-9797-6594b5f09a1e'
-keywords: ["TEXT.foregroundColor Windows Media Player"]
+ms.assetid: 1ddbad93-fbff-4be6-9797-6594b5f09a1e
+keywords:
+- TEXT.foregroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.foregroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.foregroundColor
@@ -56,9 +62,9 @@ When you use **alphaBlend** or **alphaBlendTo** with a **TEXT** element that doe
 [**TEXT.backgroundColor**](text-backgroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '64de54af-6900-4361-a7b5-f29fbd5cd0e0'
-title: 'System.Media.Publisher'
+Description: .
+ms.assetid: 64de54af-6900-4361-a7b5-f29fbd5cd0e0
+title: System.Media.Publisher
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.Publisher

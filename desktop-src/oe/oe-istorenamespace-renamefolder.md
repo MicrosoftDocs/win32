@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace RenameFolder method
 description: Renames a user-created message folder.
-ms.assetid: 'b4491cd1-06c4-44bf-9e2d-35303ca9acb3'
-keywords: ["RenameFolder method Windows Mail (formerly Outlook Express)", "RenameFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , RenameFolder method"]
+ms.assetid: b4491cd1-06c4-44bf-9e2d-35303ca9acb3
+keywords:
+- RenameFolder method Windows Mail (formerly Outlook Express)
+- RenameFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , RenameFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::RenameFolder method
@@ -22,9 +30,9 @@ Renames a user-created message folder.
 
 ```C++
 HRESULT RenameFolder(
-  [in] STOREFOLDERID dwFolderId,
-  [in] DWORD         dwReserved,
-  [in] LPCSTR        pszNewName
+  [in] STOREFOLDERID dwFolderId,
+  [in] DWORD         dwReserved,
+  [in] LPCSTR        pszNewName
 );
 ```
 
@@ -76,7 +84,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,8 +96,8 @@ Only user-created folders can be renamed. Special folders cannot be renamed.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -97,9 +105,9 @@ Only user-created folders can be renamed. Special folders cannot be renamed.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

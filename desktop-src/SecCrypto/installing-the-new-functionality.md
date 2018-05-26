@@ -1,18 +1,23 @@
 ---
-Description: 'Installing new functionality into memory can improve performance. CryptoAPI functions search memory for the functionality before searching the registry for the DLL. The DLL must be loaded before installing the functionality.'
-ms.assetid: 'f6e5fc6a-a186-4648-af63-0555307f53d8'
+Description: Installing new functionality into memory can improve performance. CryptoAPI functions search memory for the functionality before searching the registry for the DLL. The DLL must be loaded before installing the functionality.
+ms.assetid: f6e5fc6a-a186-4648-af63-0555307f53d8
 title: Installing the New Functionality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing the New Functionality
 
 Installing new functionality into memory can improve performance. [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions search memory for the functionality before searching the registry for the DLL. The DLL must be loaded before installing the functionality.
 
-[**CryptInstallOIDFunctionAddress**](cryptinstalloidfunctionaddress.md) installs the address of the new functionality. It should be placed in the **DllMain** function of the DLL.
+[**CryptInstallOIDFunctionAddress**](/windows/win32/Wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress?branch=master) installs the address of the new functionality. It should be placed in the **DllMain** function of the DLL.
 
-If *hModule* is passed to [**CryptInstallOIDFunctionAddress**](cryptinstalloidfunctionaddress.md), once installed, the DLL is not unloaded until the Crypt32.dll is unloaded.
+If *hModule* is passed to [**CryptInstallOIDFunctionAddress**](/windows/win32/Wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress?branch=master), once installed, the DLL is not unloaded until the Crypt32.dll is unloaded.
 
-The following example calls the [**CryptInstallOIDFunctionAddress**](cryptinstalloidfunctionaddress.md) function.
+The following example calls the [**CryptInstallOIDFunctionAddress**](/windows/win32/Wincrypt/nf-wincrypt-cryptinstalloidfunctionaddress?branch=master) function.
 
 
 ```C++

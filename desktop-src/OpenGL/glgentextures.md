@@ -1,8 +1,9 @@
 ---
 title: glGenTextures function
 description: The glGenTextures function generates texture names.
-ms.assetid: 'f2491faf-2b33-4b06-9a9f-51ac295690fb'
-keywords: ["glGenTextures function OpenGL"]
+ms.assetid: f2491faf-2b33-4b06-9a9f-51ac295690fb
+keywords:
+- glGenTextures function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGenTextures function
@@ -22,8 +28,8 @@ The **glGenTextures** function generates texture names.
 
 ```C++
 void WINAPI glGenTextures(
-   GLsizei n,
-   GLuint  *textures
+   GLsizei n,
+   GLuint  *textures
 );
 ```
 
@@ -86,7 +92,7 @@ You cannot include **glGenTextures** in display lists.
 > [!Note]  
 > The **glGenTextures** function is only available in OpenGL version 1.1 or later.
 
- 
+ 
 
 The following function retrieves information related to **glGenTextures**:
 
@@ -98,8 +104,8 @@ The following function retrieves information related to **glGenTextures**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -140,9 +146,9 @@ The following function retrieves information related to **glGenTextures**:
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

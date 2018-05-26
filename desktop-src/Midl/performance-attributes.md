@@ -2,7 +2,13 @@
 title: Performance Attributes
 description: Use the following attributes in an IDL file to reduce the size of the stub code or otherwise improve performance.
 ms.assetid: 0f23265e-7f3e-4a15-ac3b-1d852a8110eb
-keywords: ["IDL MIDL , attributes, performance"]
+keywords:
+- IDL MIDL , attributes, performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Attributes

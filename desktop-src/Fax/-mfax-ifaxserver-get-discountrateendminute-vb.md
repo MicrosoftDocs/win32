@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the DiscountRateEndMinute property for a FaxServer object. The DiscountRateEndMinute property is a number that represents the minute the discount period ends. The discount period applies only to outgoing fax transmissions.'
-ms.assetid: 'db9e206b-d398-4924-93b9-c7628043dd23'
-title: 'FaxServer.DiscountRateEndMinute property'
+---
+Description: Sets or retrieves the DiscountRateEndMinute property for a FaxServer object. The DiscountRateEndMinute property is a number that represents the minute the discount period ends. The discount period applies only to outgoing fax transmissions.
+ms.assetid: db9e206b-d398-4924-93b9-c7628043dd23
+title: FaxServer.DiscountRateEndMinute property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.DiscountRateEndMinute property

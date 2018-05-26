@@ -1,7 +1,12 @@
-﻿---
-Description: 'Turns off automatic subclassing.'
-ms.assetid: '85e5689f-6805-4aad-b97c-aa496e315900'
+---
+Description: Turns off automatic subclassing.
+ms.assetid: 85e5689f-6805-4aad-b97c-aa496e315900
 title: Ctl3dUnAutoSubclass function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ctl3dUnAutoSubclass function

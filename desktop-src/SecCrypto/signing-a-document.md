@@ -1,7 +1,12 @@
 ---
-Description: 'A standard use of a signature is to sign a text and save that signed text to a file. The signed text could also be sent over the Internet. The signed message is in PKCS \#7 format.'
-ms.assetid: 'f81cbf7b-317d-4fab-9b30-88b6c6576db8'
+Description: A standard use of a signature is to sign a text and save that signed text to a file. The signed text could also be sent over the Internet. The signed message is in PKCS \#7 format.
+ms.assetid: f81cbf7b-317d-4fab-9b30-88b6c6576db8
 title: Signing a Document
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signing a Document

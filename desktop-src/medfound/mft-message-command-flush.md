@@ -1,7 +1,12 @@
-﻿---
-Description: 'Requests a Media Foundation transform (MFT) to flush all stored data.'
-ms.assetid: 'c799a962-da79-46df-a37f-4016c8c1701e'
-title: 'MFT\_MESSAGE\_COMMAND\_FLUSH'
+---
+Description: Requests a Media Foundation transform (MFT) to flush all stored data.
+ms.assetid: c799a962-da79-46df-a37f-4016c8c1701e
+title: MFT\_MESSAGE\_COMMAND\_FLUSH
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_MESSAGE\_COMMAND\_FLUSH
@@ -14,7 +19,7 @@ None.
 
 ## Remarks
 
-To send this message, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md).
+To send this message, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master).
 
 After this message is sent, the MFT can accept new input samples. The current media types are not invalidated.
 
@@ -40,7 +45,7 @@ All MFTs must implement this message. When it receives this message, the MFT sho
 
 <dl> <dt>
 
-[**MFT\_MESSAGE\_TYPE**](mft-message-type.md)
+[**MFT\_MESSAGE\_TYPE**](/windows/win32/mftransform/ne-mftransform-_mft_message_type?branch=master)
 </dt> </dl>
 
  

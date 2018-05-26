@@ -1,8 +1,10 @@
 ---
 title: Msvm\_LogicalDisk class
 description: Represents storage drive media and is used to populate the storage drives.
-ms.assetid: '72124824-768e-425d-add2-821e64e3f37d'
-keywords: ["Msvm_LogicalDisk class Hyper-V", "Msvm_LogicalDisk class Hyper-V , described"]
+ms.assetid: 72124824-768e-425d-add2-821e64e3f37d
+keywords:
+- Msvm_LogicalDisk class Hyper-V
+- Msvm_LogicalDisk class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -70,6 +72,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_LogicalDisk class
@@ -84,57 +91,57 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_LogicalDisk : CIM_LogicalDisk
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_ComputerSystem";
-  string   DeviceID = "Microsoft:GUID\device-specific-data";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator = 4;
-  uint16   DataOrganization = 2;
-  string   Purpose;
-  uint16   Access;
-  string   ErrorMethodology;
-  uint64   NumberOfBlocks;
-  uint64   ConsumableBlocks = 0;
-  boolean  IsBasedOnUnderlyingRedundancy = FALSE;
-  boolean  SequentialAccess;
-  uint16   ExtentStatus[] = 2;
-  boolean  NoSinglePointOfFailure = FALSE;
-  uint16   DataRedundancy = 0;
-  uint16   PackageRedundancy = 0;
-  uint8    DeltaReservation = 0;
-  boolean  Primordial = FALSE;
-  string   Name;
-  string   OtherNameNamespace;
-  string   OtherNameFormat;
-  uint16   NameFormat = 12;
-  uint16   NameNamespace = 8;
-  uint64   BlockSize;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_ComputerSystem";
+  string   DeviceID = "Microsoft:GUID\device-specific-data";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator = 4;
+  uint16   DataOrganization = 2;
+  string   Purpose;
+  uint16   Access;
+  string   ErrorMethodology;
+  uint64   NumberOfBlocks;
+  uint64   ConsumableBlocks = 0;
+  boolean  IsBasedOnUnderlyingRedundancy = FALSE;
+  boolean  SequentialAccess;
+  uint16   ExtentStatus[] = 2;
+  boolean  NoSinglePointOfFailure = FALSE;
+  uint16   DataRedundancy = 0;
+  uint16   PackageRedundancy = 0;
+  uint8    DeltaReservation = 0;
+  boolean  Primordial = FALSE;
+  string   Name;
+  string   OtherNameNamespace;
+  string   OtherNameFormat;
+  uint16   NameFormat = 12;
+  uint16   NameNamespace = 8;
+  uint64   BlockSize;
 };
 ```
 
@@ -164,7 +171,7 @@ The **Msvm\_LogicalDisk** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1045,9 +1052,9 @@ Access to the **Msvm\_LogicalDisk** class might be restricted by UAC Filtering. 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1066,9 +1073,9 @@ Access to the **Msvm\_LogicalDisk** class might be restricted by UAC Filtering. 
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

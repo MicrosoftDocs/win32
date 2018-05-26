@@ -4,11 +4,14 @@ description: Removes the current Remote Authentication Dial-In User Service (RAD
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '915f6d38-ba6a-4994-8bb9-bfddb9aa6ff8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 915f6d38-ba6a-4994-8bb9-bfddb9aa6ff8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remove method Remote Desktop Services", "Remove method Remote Desktop Services , Win32_TSGatewayRADIUSServer interface", "Win32_TSGatewayRADIUSServer interface Remote Desktop Services , Remove method"]
+keywords:
+- Remove method Remote Desktop Services
+- Remove method Remote Desktop Services , Win32_TSGatewayRADIUSServer interface
+- Win32_TSGatewayRADIUSServer interface Remote Desktop Services , Remove method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the Win32\_TSGatewayRADIUSServer class
@@ -53,7 +59,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -67,9 +73,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayRADIUSServer**](win32-tsgatewayradiusserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

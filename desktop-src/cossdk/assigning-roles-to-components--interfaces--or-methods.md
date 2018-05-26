@@ -1,7 +1,12 @@
 ---
-Description: 'Assigning Roles to Components, Interfaces, or Methods'
-ms.assetid: '687d5692-4a83-4de8-b99d-859aaaddd16d'
-title: 'Assigning Roles to Components, Interfaces, or Methods'
+Description: Assigning Roles to Components, Interfaces, or Methods
+ms.assetid: 687d5692-4a83-4de8-b99d-859aaaddd16d
+title: Assigning Roles to Components, Interfaces, or Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Assigning Roles to Components, Interfaces, or Methods

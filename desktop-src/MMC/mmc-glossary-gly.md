@@ -4,11 +4,16 @@ description: This section provides a glossary of technical terms used in the Mic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d203545-52d7-44b6-bfc2-c5f77e0c3b70'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5d203545-52d7-44b6-bfc2-c5f77e0c3b70
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 glossary", "glossary MMC 2.0"]
+keywords:
+- MMC 2.0 glossary
+- glossary MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Glossary

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves session and station information about the current capture.'
-ms.assetid: '7fc436fc-b569-402d-a1ea-c1bb65de8a9e'
-title: 'IStats::GetConversationStatistics method'
+Description: Retrieves session and station information about the current capture.
+ms.assetid: 7fc436fc-b569-402d-a1ea-c1bb65de8a9e
+title: IStatsGetConversationStatistics method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::GetConversationStatistics method
@@ -13,11 +18,11 @@ The **GetConversationStatistics** method retrieves session and station informati
 
 ```C++
 HRESULT STDMETHODCALLTYPE GetConversationStatistics(
-  [out] DWORD          *nSessions,
-  [out] LPSESSIONSTATS lpSessionStats,
-  [out] DWORD          *nStations,
-  [out] LPSTATIONSTATS lpStationStats,
-  [in]  BOOL           fClearAfterReading
+  [out] DWORD          *nSessions,
+  [out] LPSESSIONSTATS lpSessionStats,
+  [out] DWORD          *nStations,
+  [out] LPSTATIONSTATS lpStationStats,
+  [in]  BOOL           fClearAfterReading
 );
 ```
 
@@ -79,7 +84,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,8 +98,8 @@ To start a capture, call the [**IStats::Start**](istats-start.md) method. To ret
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -122,9 +127,9 @@ To start a capture, call the [**IStats::Start**](istats-start.md) method. To ret
 [**STATIONSTATS**](stationstats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

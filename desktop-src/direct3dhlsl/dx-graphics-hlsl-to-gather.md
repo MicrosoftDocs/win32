@@ -1,7 +1,12 @@
 ---
 title: Gather (DirectX HLSL Texture Object)
 description: Gets the four samples (red component only) that would be used for bilinear interpolation when sampling a texture.
-ms.assetid: 'a394d8c2-99cc-4a38-9ac9-34afc666ebe0'
+ms.assetid: a394d8c2-99cc-4a38-9ac9-34afc666ebe0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gather (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Gets the four samples (red component only) that would be used for bilinear inter
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -62,13 +67,13 @@ Gets the four samples (red component only) that would be used for bilinear inter
 <td>float3</td>
 </tr>
 <tr class="odd">
-<td>TextureCubeArray¹</td>
+<td>TextureCubeArray </td>
 <td>float4</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>
@@ -87,20 +92,20 @@ Gets the four samples (red component only) that would be used for bilinear inter
 <td>int2</td>
 </tr>
 <tr class="even">
-<td>TextureCube, TextureCubeArray¹</td>
+<td>TextureCube, TextureCubeArray </td>
 <td>not supported</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -112,13 +117,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 |          | x         |          | x         |          | x         |
 
 
 
- 
+ 
 
 1.  TextureCubeArray is available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
@@ -162,9 +167,9 @@ int4 main (float4 f : SV_Position) : SV_Target
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

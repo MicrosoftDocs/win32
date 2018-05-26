@@ -1,18 +1,23 @@
 ---
-Description: 'A network provider is a DLL that enables the Windows operating system to support a specific network protocol.'
-ms.assetid: '21dfa941-72fd-4f2c-8bc4-379ed6ca2a4c'
+Description: A network provider is a DLL that enables the Windows operating system to support a specific network protocol.
+ms.assetid: 21dfa941-72fd-4f2c-8bc4-379ed6ca2a4c
 title: Implementing a Network Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Network Provider
 
 A network provider is a DLL that enables the Windows operating system to support a specific network protocol. It does this by implementing the Network Provider API. This API is a set of functions the [*Multiple Provider Router*](security.m_gly#-security-multiple-provider-router-gly) (MPR) calls to communicate with the network. The network provider then translates these calls into network-specific API calls to perform the action specified by the MPR. In this way, the Windows operating system can interact with new network protocols without having to understand their network-specific APIs.
 
-To create a network provider, write a DLL that exports the [**NPGetCaps**](npgetcaps.md) function.
+To create a network provider, write a DLL that exports the [**NPGetCaps**](/windows/win32/Npapi/nf-npapi-npgetcaps?branch=master) function.
 
 Support of the other functions in the Network Provider API is optional. If your network provider does not require a function, your DLL does not need to implement it or provide a stub implementation. For more information, see the individual function topics in [Network Provider Functions](authentication-functions.md#network-provider-functions).
 
-The exception is that if you support one of the following enumeration functions, you must support the other two functions as well: [**NPOpenEnum**](npopenenum.md), [**NPEnumResource**](npenumresource.md), and [**NPCloseEnum**](npcloseenum.md).
+The exception is that if you support one of the following enumeration functions, you must support the other two functions as well: [**NPOpenEnum**](/windows/win32/Npapi/nf-npapi-npopenenum?branch=master), [**NPEnumResource**](/windows/win32/Npapi/nf-npapi-npenumresource?branch=master), and [**NPCloseEnum**](/windows/win32/Npapi/nf-npapi-npcloseenum?branch=master).
 
 The following guidelines describe how to write a network provider that interacts well with the MPR and the Windows operating system. Whenever possible, your provider should adhere to the following guidelines for speed, validation, and routing.
 
@@ -22,7 +27,7 @@ A network provider should quickly determine whether a network resource is its ow
 
 If the network provider does not own the resource, it should immediately return the WN\_BAD\_NETNAME status code.
 
-It is also important that providers that support [**NPGetDirectoryType**](npgetdirectorytype.md) return results for this function quickly because it is called while WinFile is painting the directory tree.
+It is also important that providers that support [**NPGetDirectoryType**](/windows/win32/Npapi/nf-npapi-npgetdirectorytype?branch=master) return results for this function quickly because it is called while WinFile is painting the directory tree.
 
 ## Validation
 

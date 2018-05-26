@@ -1,14 +1,21 @@
 ---
 title: IWMDRMEncrypt interface
 description: The IWMDRMEncrypt interface provides a method for encrypting data in place.
-ms.assetid: 'da57d72e-da6b-4e27-9bcb-72f87b3e5c90'
-keywords: ["IWMDRMEncrypt interface windows Media Format", "IWMDRMEncrypt interface windows Media Format , described"]
+ms.assetid: da57d72e-da6b-4e27-9bcb-72f87b3e5c90
+keywords:
+- IWMDRMEncrypt interface windows Media Format
+- IWMDRMEncrypt interface windows Media Format , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMEncrypt
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMEncrypt interface
@@ -33,7 +40,7 @@ The **IWMDRMEncrypt** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -45,9 +52,9 @@ The **IWMDRMEncrypt** interface has these methods.
 [**IWMDRMDecrypt Interface**](iwmdrmdecrypt.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

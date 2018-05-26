@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set the range of an array to pass to the device.'
-ms.assetid: '43f1c258-770c-4756-9033-e5667b379fe6'
-title: 'ID3DXBaseEffect::SetArrayRange method'
+---
+Description: Set the range of an array to pass to the device.
+ms.assetid: 43f1c258-770c-4756-9033-e5667b379fe6
+title: ID3DXBaseEffectSetArrayRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::SetArrayRange method

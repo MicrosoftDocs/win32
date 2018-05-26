@@ -1,7 +1,12 @@
 ---
 title: DLLsToRegister
 description: DLLsToRegister
-ms.assetid: 'aaf7ab48-1db5-4485-9512-0d2ce824ff9e'
+ms.assetid: aaf7ab48-1db5-4485-9512-0d2ce824ff9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DLLsToRegister

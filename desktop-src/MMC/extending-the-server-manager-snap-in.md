@@ -4,10 +4,13 @@ description: In Windows Server 2008 the new Server Manager snap-in replaces the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b96fb465-37a6-4a4b-a231-0b7bb4adce2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: b96fb465-37a6-4a4b-a231-0b7bb4adce2b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Server Manager Snap-in

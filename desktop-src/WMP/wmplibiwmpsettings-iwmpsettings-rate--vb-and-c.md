@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings rate property
 description: The rate property gets or sets the current playback rate for video.
-ms.assetid: '7baa667b-52e5-4419-8e12-c3627a417b20'
-keywords: ["rate property Windows Media Player", "rate property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , rate property"]
+ms.assetid: 7baa667b-52e5-4419-8e12-c3627a417b20
+keywords:
+- rate property Windows Media Player
+- rate property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , rate property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::rate property
@@ -65,10 +73,10 @@ The mode chosen by Windows Media Player depends on numerous factors including fi
 
 Other considerations apply as well, depending on the digital media format used to create the content:
 
--   **Windows Media Video (WMV) and ASF.** Optimal values for the **rate** property are from 1 to 10, or from –1 to –10 for reverse play. Values from 0.5 to 1.0 or from -0.5 to -1.0 may also work well in cases where audio pitch can be maintained, such as when playing files located on the local computer. Values with an absolute magnitude greater than 10 are allowed, but are not very meaningful.
+-   **Windows Media Video (WMV) and ASF.** Optimal values for the **rate** property are from 1 to 10, or from  1 to  10 for reverse play. Values from 0.5 to 1.0 or from -0.5 to -1.0 may also work well in cases where audio pitch can be maintained, such as when playing files located on the local computer. Values with an absolute magnitude greater than 10 are allowed, but are not very meaningful.
 -   **Other video formats.** The **rate** property can range from 0 to 9. Negative values are not allowed. Values less than 1 represent slow motion. Values above 9 are allowed, but are not very meaningful.
 
-The **IWMPControls.fastForward** method changes the value of **rate** to 5.0, while the **IWMPControls.fastReverse** method changes the value of **rate** to –5.0.
+The **IWMPControls.fastForward** method changes the value of **rate** to 5.0, while the **IWMPControls.fastReverse** method changes the value of **rate** to  5.0.
 
 The playback rate of some digital media formats cannot be altered. Use the **IWMPSettings.isAvailable** property (In C# the **IWMPSettings.get\_isAvailable** method) to discover whether this property can be specified for a particular media item.
 
@@ -157,9 +165,9 @@ End Sub</code></pre></td>
 [**IWMPSettings.mute (VB and C#)**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IRenderEngine interface renders a DirectShow Editing Services (DES) project by constructing a filter graph from a timeline.DES provides two components that implement this interface:The basic render engine creates uncompressed output.'
-ms.assetid: 'e2a91b34-ee4d-405e-81bf-29d15ea6342a'
+---
+Description: The IRenderEngine interface renders a DirectShow Editing Services (DES) project by constructing a filter graph from a timeline.DES provides two components that implement this interfaceThe basic render engine creates uncompressed output.
+ms.assetid: e2a91b34-ee4d-405e-81bf-29d15ea6342a
 title: IRenderEngine interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine interface

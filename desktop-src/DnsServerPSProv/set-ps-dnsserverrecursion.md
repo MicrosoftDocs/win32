@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerRecursion class
 description: Sets DNS Server Recursion settings.
 audience: developer
-ms.assetid: '033d64fc-8cbb-459d-a103-c9e7110780a0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 033d64fc-8cbb-459d-a103-c9e7110780a0
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerRecursion class", "PS_DnsServerRecursion class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerRecursion class
+- PS_DnsServerRecursion class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerRecursion class
@@ -28,14 +34,14 @@ Sets DNS Server Recursion settings.
 
 ```mof
 uint32 Set(
-  [in]  string             ComputerName,
-  [in]  uint32             AdditionalTimeout,
-  [in]  uint32             RetryInterval,
-  [in]  uint32             Timeout,
-  [in]  boolean            Enable,
-  [in]  boolean            PassThru,
-  [in]  boolean            SecureResponse,
-  [out] DnsServerRecursion cmdletOutput
+  [in]  string             ComputerName,
+  [in]  uint32             AdditionalTimeout,
+  [in]  uint32             RetryInterval,
+  [in]  uint32             Timeout,
+  [in]  boolean            Enable,
+  [in]  boolean            PassThru,
+  [in]  boolean            SecureResponse,
+  [out] DnsServerRecursion cmdletOutput
 );
 ```
 
@@ -108,7 +114,7 @@ DNSServerRecursionSettings uint32 RecursionRetry. //Elapsed seconds before retry
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -122,9 +128,9 @@ DNSServerRecursionSettings uint32 RecursionRetry. //Elapsed seconds before retry
 [**PS\_DnsServerRecursion**](ps-dnsserverrecursion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

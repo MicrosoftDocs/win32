@@ -1,14 +1,20 @@
 ---
 title: KeywordType Complex Type
 description: Defines a keyword that identifies a category of events.
-ms.assetid: '6bd41d4a-1d55-4cce-a1f8-136f749fde2a'
-keywords: ["KeywordType complex type EventLog"]
+ms.assetid: 6bd41d4a-1d55-4cce-a1f8-136f749fde2a
+keywords:
+- KeywordType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - KeywordType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeywordType Complex Type
@@ -71,14 +77,14 @@ The Winmeta.xml file that is included in the Windows SDK contains a list of keyw
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

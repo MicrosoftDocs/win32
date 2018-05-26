@@ -1,7 +1,12 @@
 ---
-Description: 'The GetInterface function retrieves an interface pointer.'
-ms.assetid: '75fe8849-c779-4d47-a5ff-5a23308c8a21'
+Description: The GetInterface function retrieves an interface pointer.
+ms.assetid: 75fe8849-c779-4d47-a5ff-5a23308c8a21
 title: GetInterface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetInterface function
@@ -13,8 +18,8 @@ The `GetInterface` function retrieves an interface pointer.
 
 ```C++
 HRESULT GetInterface(
-   LPUNKNOWN pUnk,
-   void      **ppv
+   LPUNKNOWN pUnk,
+   void      **ppv
 );
 ```
 
@@ -67,9 +72,9 @@ This member function performs a thread-safe increment of the reference count. To
 [**INonDelegatingUnknown**](inondelegatingunknown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Game Mode
 description: The Game Mode APIs for the Universal Windows Platform (UWP) allow you to produce the most optimized gaming experience by taking advantage of Game Mode in Windows 10.
-ms.assetid: 'a677c165-f2ba-47c6-8f6f-213a4bdefa74'
+ms.assetid: a677c165-f2ba-47c6-8f6f-213a4bdefa74
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Game Mode
@@ -9,16 +14,16 @@ ms.assetid: 'a677c165-f2ba-47c6-8f6f-213a4bdefa74'
 The Game Mode APIs for the Universal Windows Platform (UWP) allow you to produce the most optimized gaming experience by taking advantage of Game Mode in Windows 10. These APIs are located in the **&lt;expandedresources.h&gt;** header.
 
 > [!Note]  
-> These are Win32 APIs that are supported in UWP desktop and Xbox apps, as well as Win32 apps (except for [ReleaseExclusiveCpuSets](releaseexclusivecpusets.md), which isn't supported in Win32 apps).
+> These are Win32 APIs that are supported in UWP desktop and Xbox apps, as well as Win32 apps (except for [ReleaseExclusiveCpuSets](/windows/previous-versions/expandedresources/nf-expandedresources-releaseexclusivecpusets?branch=master), which isn't supported in Win32 apps).
 
- 
+ 
 
 Game Mode provides customers with the best possible gaming experience by fully utilizing the capacity of their current hardware. It does this by granting a game exclusive or priority access to hardware resources. These resources being dedicated to the game help it hit performance targets more consistently. The performance increase that comes from Game Mode is directly related to the number and impact of other activities running on the device.
 
 > [!Note]  
 > The app must be in the foreground and have focus before exclusive resources are granted.
 
- 
+ 
 
 Game Mode works by default for most Windows games, requiring no action or opt-in by the customer, and no work by the game developer. However, you can use the Game Mode API to take it a step further and programmatically query for available system resources, determining whether the operating system considers each resource as shared or exclusive. You can leverage the available system resources in a way that best fits your game design and the configuration of the customer's system.
 
@@ -26,9 +31,9 @@ By using the **expandedResources** capability, you can explicitly declare that t
 
 The Game Mode API has the following members:
 
--   [GetExpandedResourceExclusiveCpuCount](getexpandedresourceexclusivecpucount.md): Query for details of exclusive hardware, such as cache topology, in order to rank resources.
--   [HasExpandedResources](hasexpandedresources.md): Know when the game enters and exits Game Mode. When the game enters Game Mode, it can provide a tailored experience. When the game exits Game Mode, it can scale back the usage of resources. The general pattern is to poll once per frame.
--   [ReleaseExclusiveCpuSets](releaseexclusivecpusets.md): Opt out of CPU exclusivity.
+-   [GetExpandedResourceExclusiveCpuCount](/windows/previous-versions/expandedresources/nf-expandedresources-getexpandedresourceexclusivecpucount?branch=master): Query for details of exclusive hardware, such as cache topology, in order to rank resources.
+-   [HasExpandedResources](/windows/previous-versions/expandedresources/nf-expandedresources-hasexpandedresources?branch=master): Know when the game enters and exits Game Mode. When the game enters Game Mode, it can provide a tailored experience. When the game exits Game Mode, it can scale back the usage of resources. The general pattern is to poll once per frame.
+-   [ReleaseExclusiveCpuSets](/windows/previous-versions/expandedresources/nf-expandedresources-releaseexclusivecpusets?branch=master): Opt out of CPU exclusivity.
 
 > [!Note]
 >
@@ -64,7 +69,7 @@ The Game Mode API has the following members:
 >
 > This capability is granted on a per-title basis; contact your account manager for more information. You can publish a UWP app with this capability to the Store if it targets desktop, but if it targets Xbox it will be rejected in certification.
 >
->  
+>  
 >
 > Games should call **HasExpandedResources** once per frame or game tick to determine whether exclusive resources have been granted. When they have been granted, the game can call [GetSystemCpuSetInformation](https://msdn.microsoft.com/library/windows/desktop/mt186425.aspx) to understand what cores the game is eligible to use. Using this function, deeper inspection, such as getting cache details, can be achieved to rank the cores for performance. The [SYSTEM\_CPU\_SET\_INFORMATION](https://msdn.microsoft.com/library/windows/desktop/mt186429.aspx) structure returned by **GetSystemCpuSetInformation** exposes details that the game can use to scale the number of threads it runs, and give threads the affinity for the appropriate cores using [SetThreadSelectedCpuSets](https://msdn.microsoft.com/library/windows/desktop/mt186428.aspx).
 >
@@ -201,17 +206,17 @@ The Game Mode API has the following members:
 >
 > | Topic                                                                                           | Description                                                                                                                               |
 > |-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-> | [**GetExpandedResourceExclusiveCpuCount**](getexpandedresourceexclusivecpucount.md)<br/> | Gets the expected number of exclusive CPU sets that are available to the app when in Game Mode.<br/>                                |
-> | [**HasExpandedResources**](hasexpandedresources.md)<br/>                                 | Gets the current resource state (that is, whether the app is running in Game Mode or shared mode).<br/>                             |
-> | [**ReleaseExclusiveCpuSets**](releaseexclusivecpusets.md)<br/>                           | Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.<br/> |
+> | [**GetExpandedResourceExclusiveCpuCount**](/windows/previous-versions/expandedresources/nf-expandedresources-getexpandedresourceexclusivecpucount?branch=master)<br/> | Gets the expected number of exclusive CPU sets that are available to the app when in Game Mode.<br/>                                |
+> | [**HasExpandedResources**](/windows/previous-versions/expandedresources/nf-expandedresources-hasexpandedresources?branch=master)<br/>                                 | Gets the current resource state (that is, whether the app is running in Game Mode or shared mode).<br/>                             |
+> | [**ReleaseExclusiveCpuSets**](/windows/previous-versions/expandedresources/nf-expandedresources-releaseexclusivecpusets?branch=master)<br/>                           | Opts out of CPU exclusivity, giving the app access to all cores, but at the cost of having to share them with other processes.<br/> |
 >
 > 
 >
->  
+>  
 >
->  
+>  
 >
->  
+>  
 >
 
 

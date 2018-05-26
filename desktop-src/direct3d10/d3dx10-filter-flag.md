@@ -1,7 +1,12 @@
-﻿---
-Description: 'Texture filtering flags.'
-ms.assetid: 'bc73d916-fe18-4b15-b507-7954e157ab9a'
-title: 'D3DX10\_FILTER\_FLAG enumeration'
+---
+Description: Texture filtering flags.
+ms.assetid: bc73d916-fe18-4b15-b507-7954e157ab9a
+title: D3DX10\_FILTER\_FLAG enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10\_FILTER\_FLAG enumeration

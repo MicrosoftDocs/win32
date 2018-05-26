@@ -1,13 +1,16 @@
 ---
-Description: 'You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, reads some data, and cleans up.'
+Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, reads some data, and cleans up.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd80bcf9f-e57c-499f-b7b8-cf25678c5a82'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d80bcf9f-e57c-499f-b7b8-cf25678c5a82
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Example: Creating a WMI Application'
+title: Example Creating a WMI Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example: Creating a WMI Application
@@ -24,7 +27,7 @@ This following procedure includes all of the steps that are required by all C++ 
 
     For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md).
 
-3.  Obtain a pointer to [**IWbemServices**](iwbemservices.md) for a namespace on a specified host computer—the local computer in the simple case—by calling [**IWbemLocator::ConnectServer**](iwbemlocator-connectserver.md).
+3.  Obtain a pointer to [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) for a namespace on a specified host computer—the local computer in the simple case—by calling [**IWbemLocator::ConnectServer**](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master).
 
     To connect to a remote computer, for example Computer\_A, use the following object path parameter:
 
@@ -36,11 +39,11 @@ This following procedure includes all of the steps that are required by all C++ 
 
     For more information, see [Creating a Connection to a WMI Namespace](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Set the [**IWbemServices**](iwbemservices.md) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
+4.  Set the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) proxy security so WMI service can impersonate the client by calling [**CoSetProxyBlanket**](_com_cosetproxyblanket).
 
     For more information, see [Setting the Security Levels on a WMI Connection](setting-the-security-levels-on-a-wmi-connection.md).
 
-5.  Use the [**IWbemServices**](iwbemservices.md) pointer to make requests of WMI. For example, querying for all the [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) instances to determine which services are stopped.
+5.  Use the [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) pointer to make requests of WMI. For example, querying for all the [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418) instances to determine which services are stopped.
 
     For more information, see [Manipulating Class and Instance Information](manipulating-class-and-instance-information.md), [Querying WMI](querying-wmi.md), and [Receiving a WMI Event](receiving-a-wmi-event.md).
 

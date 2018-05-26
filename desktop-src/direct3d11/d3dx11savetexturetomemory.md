@@ -1,8 +1,9 @@
 ---
 title: D3DX11SaveTextureToMemory function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, CaptureTexture then SaveToXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Save a texture to memory.
-ms.assetid: '3b54d8e1-6474-48fd-8348-a3baac406101'
-keywords: ["D3DX11SaveTextureToMemory function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, CaptureTexture then SaveToXXXMemory (where XXX is WIC, DDS, or TGA; WIC doesnt support DDS and TGA; D3DX 9 supported TGA as a common art source format for games). Save a texture to memory.
+ms.assetid: 3b54d8e1-6474-48fd-8348-a3baac406101
+keywords:
+- D3DX11SaveTextureToMemory function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11SaveTextureToMemory function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use the [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library, **CaptureTexture** then **SaveToXXXMemory** (where XXX is WIC, DDS, or TGA; WIC doesn't support DDS and TGA; D3DX 9 supported TGA as a common art source format for games).
 
- 
+ 
 
 Save a texture to memory.
 
@@ -33,11 +39,11 @@ Save a texture to memory.
 
 ```C++
 HRESULT D3DX11SaveTextureToMemory(
-        ID3D11DeviceContext      *pContext,
-  _In_  ID3D11Resource           *pSrcTexture,
-  _In_  D3DX11_IMAGE_FILE_FORMAT DestFormat,
-  _Out_ LPD3D10BLOB              *ppDestBuf,
-  _In_  UINT                     Flags
+        ID3D11DeviceContext      *pContext,
+  _In_  ID3D11Resource           *pSrcTexture,
+  _In_  D3DX11_IMAGE_FILE_FORMAT DestFormat,
+  _Out_ LPD3D10BLOB              *ppDestBuf,
+  _In_  UINT                     Flags
 );
 ```
 
@@ -50,18 +56,18 @@ HRESULT D3DX11SaveTextureToMemory(
 *pContext* 
 </dt> <dd>
 
-Type: **[**ID3D11DeviceContext**](id3d11devicecontext.md)\***
+Type: **[**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)\***
 
-A pointer to an [**ID3D11DeviceContext**](id3d11devicecontext.md) object.
+A pointer to an [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) object.
 
 </dd> <dt>
 
 *pSrcTexture* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D11Resource**](id3d11resource.md)\***
+Type: **[**ID3D11Resource**](/windows/win32/D3D11/nn-d3d11-id3d11resource?branch=master)\***
 
-Pointer to the texture to be saved. See [**ID3D11Resource**](id3d11resource.md).
+Pointer to the texture to be saved. See [**ID3D11Resource**](/windows/win32/D3D11/nn-d3d11-id3d11resource?branch=master).
 
 </dd> <dt>
 
@@ -116,9 +122,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

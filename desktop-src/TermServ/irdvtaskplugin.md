@@ -4,17 +4,22 @@ description: The IRDVTaskPlugin interface is implemented by a virtual machine up
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e06eb707-be78-4d1f-96d3-21526b167e61'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e06eb707-be78-4d1f-96d3-21526b167e61
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IRDVTaskPlugin interface Remote Desktop Services", "IRDVTaskPlugin interface Remote Desktop Services , described"]
+keywords:
+- IRDVTaskPlugin interface Remote Desktop Services
+- IRDVTaskPlugin interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
 - IRDVTaskPlugin
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IRDVTaskPlugin interface
@@ -42,7 +47,7 @@ The **IRDVTaskPlugin** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +61,7 @@ The **IRDVTaskPlugin** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,14 +82,14 @@ Under this registry key, add the following values:
 
 
 
- 
+ 
 
 > [!Note]  
 > More than one task agent can be registered, but only one task agent will be used. If more than one task agent is enabled, only the first one found will be used.
 
- 
+ 
 
-Although this interface is supported on the operating systems identified in the Requirements below, it will only be used if the virtual machine is hosted on Windows Server 2012.
+Although this interface is supported on the operating systems identified in the Requirements below, it will only be used if the virtual machine is hosted on Windows Server 2012.
 
 ## Requirements
 
@@ -92,14 +97,14 @@ Although this interface is supported on the operating systems identified in the 
 
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
-| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

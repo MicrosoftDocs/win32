@@ -1,8 +1,9 @@
 ---
 title: WM\_INITMENUPOPUP message
 description: Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
-ms.assetid: '08ae1a78-5e68-488c-9b77-ee42044ca3ab'
-keywords: ["WM_INITMENUPOPUP message Menus and Other Resources"]
+ms.assetid: 08ae1a78-5e68-488c-9b77-ee42044ca3ab
+keywords:
+- WM_INITMENUPOPUP message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_INITMENUPOPUP message
@@ -54,8 +60,8 @@ If an application processes this message, it should return zero.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -82,9 +88,9 @@ If an application processes this message, it should return zero.
 [Keyboard Accelerators](keyboard-accelerators.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

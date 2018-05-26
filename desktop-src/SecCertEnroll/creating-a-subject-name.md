@@ -1,12 +1,17 @@
 ---
-Description: 'You can use the IX500DistinguishedName interface to create a subject name from a distinguished name string.'
-ms.assetid: '78fbf15a-678f-4d87-a309-e70374e3ecee'
+Description: You can use the IX500DistinguishedName interface to create a subject name from a distinguished name string.
+ms.assetid: 78fbf15a-678f-4d87-a309-e70374e3ecee
 title: Creating a Subject Name
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Subject Name
 
-You can use the [**IX500DistinguishedName**](ix500distinguishedname.md) interface to create a subject name from a distinguished name string. The string consists of concatenated relative distinguished names (RDNs). The following RDN keys are supported by the Certificate Enrollment API.
+You can use the [**IX500DistinguishedName**](/windows/win32/CertEnroll/nn-certenroll-ix500distinguishedname?branch=master) interface to create a subject name from a distinguished name string. The string consists of concatenated relative distinguished names (RDNs). The following RDN keys are supported by the Certificate Enrollment API.
 
 | Key                               | OID                                             | Description                                                                                        |
 |-----------------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -26,9 +31,9 @@ You can use the [**IX500DistinguishedName**](ix500distinguishedname.md) interfac
 
 
 
- 
+ 
 
-When you initialize an [**IX500DistinguishedName**](ix500distinguishedname.md) object, you can identify the format of the distinguished name by specifying a value from the [**X500NameFlags**](x500nameflags-enum.md) enumeration type. For example, assume that the subject distinguished name consists of the following RDNs:<dl> CN=Administrator  
+When you initialize an [**IX500DistinguishedName**](/windows/win32/CertEnroll/nn-certenroll-ix500distinguishedname?branch=master) object, you can identify the format of the distinguished name by specifying a value from the [**X500NameFlags**](/windows/win32/CertEnroll/ne-certenroll-x500nameflags?branch=master) enumeration type. For example, assume that the subject distinguished name consists of the following RDNs:<dl> CN=Administrator  
 CN=Users  
 DC=jdomcsc  
 DC=nttest  
@@ -36,7 +41,7 @@ DC=microsoft
 DC=com  
 </dl>
 
-If you concatenate these RDNs into the following comma-delimited distinguished name string, you can specify the **XCN\_CERT\_NAME\_STR\_COMMA\_FLAG** value when initializing an [**IX500DistinguishedName**](ix500distinguishedname.md) object.
+If you concatenate these RDNs into the following comma-delimited distinguished name string, you can specify the **XCN\_CERT\_NAME\_STR\_COMMA\_FLAG** value when initializing an [**IX500DistinguishedName**](/windows/win32/CertEnroll/nn-certenroll-ix500distinguishedname?branch=master) object.
 
 ``` syntax
 CN=Administrator,CN=Users,DC=jdomcsc,DC=nttest,DC=microsoft,DC=com
@@ -52,9 +57,9 @@ CN=Administrator,CN=Users,DC=jdomcsc,DC=nttest,DC=microsoft,DC=com
 [Subject Names](subject-names.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: Precise Capture Control
 description: Precise Capture Control
-ms.assetid: '497c9d77-f392-4cbb-88f3-8418e1e9fc6b'
-keywords: ["AVICap callback functions,precise capture control"]
+ms.assetid: 497c9d77-f392-4cbb-88f3-8418e1e9fc6b
+keywords:
+- AVICap callback functions,precise capture control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Precise Capture Control

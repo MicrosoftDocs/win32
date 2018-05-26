@@ -1,7 +1,12 @@
 ---
 Description: DeviceTopology API
-ms.assetid: '051311ef-dd29-4014-bb9c-4cdccf7ce7de'
+ms.assetid: 051311ef-dd29-4014-bb9c-4cdccf7ce7de
 title: DeviceTopology API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceTopology API
@@ -10,12 +15,12 @@ The DeviceTopology API provides client applications with the ability to traverse
 
 Header file Devicetopology.h defines the interfaces in the DeviceTopology API.
 
-To access the DeviceTopology API interfaces, a client first obtains a reference to the [**IDeviceTopology**](idevicetopology.md) interface for an audio endpoint device by following these steps:
+To access the DeviceTopology API interfaces, a client first obtains a reference to the [**IDeviceTopology**](/windows/win32/Devicetopology/nn-devicetopology-idevicetopology?branch=master) interface for an audio endpoint device by following these steps:
 
-1.  By using one of the techniques described in [**IMMDevice Interface**](immdevice.md), obtain a reference to the **IMMDevice** interface for an audio endpoint device.
-2.  Call the [**IMMDevice::Activate**](immdevice-activate.md) method with parameter *iid* set to **REFIID** IID\_IDeviceTopology.
+1.  By using one of the techniques described in [**IMMDevice Interface**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master), obtain a reference to the **IMMDevice** interface for an audio endpoint device.
+2.  Call the [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master) method with parameter *iid* set to **REFIID** IID\_IDeviceTopology.
 
-The client can obtain references to the other interfaces in the DeviceTopology API by calling the methods in the [**IDeviceTopology**](idevicetopology.md) interface.
+The client can obtain references to the other interfaces in the DeviceTopology API by calling the methods in the [**IDeviceTopology**](/windows/win32/Devicetopology/nn-devicetopology-idevicetopology?branch=master) interface.
 
 The DeviceTopology API implements the following interfaces.
 
@@ -23,27 +28,27 @@ The DeviceTopology API implements the following interfaces.
 
 | Interface                                                  | Description                                                                                                                                                                                                               |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IAudioAutoGainControl**](iaudioautogaincontrol.md)     | Provides access to a hardware automatic gain control (AGC).                                                                                                                                                               |
-| [**IAudioBass**](iaudiobass.md)                           | Provides access to a hardware bass-level control.                                                                                                                                                                         |
-| [**IAudioChannelConfig**](iaudiochannelconfig.md)         | Provides access to a hardware channel-configuration control.                                                                                                                                                              |
-| [**IAudioInputSelector**](iaudioinputselector.md)         | Provides access to a hardware multiplexer control (input selector).                                                                                                                                                       |
-| [**IAudioLoudness**](iaudioloudness.md)                   | Provides access to a "loudness" compensation control.                                                                                                                                                                     |
-| [**IAudioMidrange**](iaudiomidrange.md)                   | Provides access to a hardware midrange-level control.                                                                                                                                                                     |
-| [**IAudioMute**](iaudiomute.md)                           | Provides access to a hardware mute control.                                                                                                                                                                               |
-| [**IAudioOutputSelector**](iaudiooutputselector.md)       | Provides access to a hardware demultiplexer control (output selector).                                                                                                                                                    |
-| [**IAudioPeakMeter**](iaudiopeakmeter.md)                 | Provides access to a hardware peak-meter control.                                                                                                                                                                         |
-| [**IAudioTreble**](iaudiotreble.md)                       | Provides access to a hardware treble-level control.                                                                                                                                                                       |
-| [**IAudioVolumeLevel**](iaudiovolumelevel.md)             | Provides access to a hardware volume control.                                                                                                                                                                             |
-| [**IConnector**](iconnector.md)                           | Represents a point of connection between components.                                                                                                                                                                      |
-| [**IControlInterface**](icontrolinterface.md)             | Represents a control interface on a part (subunit or connector).                                                                                                                                                          |
-| [**IDeviceSpecificProperty**](idevicespecificproperty.md) | Represents a device-specific property of a connector or subunit.                                                                                                                                                          |
-| [**IDeviceTopology**](idevicetopology.md)                 | Provides access to the topology of an audio device.                                                                                                                                                                       |
-| [**IKsFormatSupport**](iksformatsupport.md)               | Provides information about the audio data formats that are supported by a software-configured I/O connection (typically a DMA channel) between the audio device and system memory.                                        |
-| [**IKsJackDescription**](iksjackdescription.md)           | Provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player). |
-| [**IPart**](ipart.md)                                     | Represents a part (connector or subunit) of a device topology.                                                                                                                                                            |
-| [**IPartsList**](ipartslist.md)                           | Represents a list of parts (connectors and subunits).                                                                                                                                                                     |
-| [**IPerChannelDbLevel**](iperchanneldblevel.md)           | Represents a generic subunit control interface that provides per-channel control over the volume level, in decibels, of an audio stream or of a frequency band in an audio stream.                                        |
-| [**ISubunit**](isubunit.md)                               | Represents a hardware subunit (for example, a volume-level control) that lies in the data path between a client and an audio endpoint device.                                                                             |
+| [**IAudioAutoGainControl**](/windows/win32/Devicetopology/nn-devicetopology-iaudioautogaincontrol?branch=master)     | Provides access to a hardware automatic gain control (AGC).                                                                                                                                                               |
+| [**IAudioBass**](/windows/win32/Devicetopology/?branch=master)                           | Provides access to a hardware bass-level control.                                                                                                                                                                         |
+| [**IAudioChannelConfig**](/windows/win32/Devicetopology/nn-devicetopology-iaudiochannelconfig?branch=master)         | Provides access to a hardware channel-configuration control.                                                                                                                                                              |
+| [**IAudioInputSelector**](/windows/win32/Devicetopology/nn-devicetopology-iaudioinputselector?branch=master)         | Provides access to a hardware multiplexer control (input selector).                                                                                                                                                       |
+| [**IAudioLoudness**](/windows/win32/Devicetopology/nn-devicetopology-iaudioloudness?branch=master)                   | Provides access to a "loudness" compensation control.                                                                                                                                                                     |
+| [**IAudioMidrange**](/windows/win32/Devicetopology/?branch=master)                   | Provides access to a hardware midrange-level control.                                                                                                                                                                     |
+| [**IAudioMute**](/windows/win32/Devicetopology/nn-devicetopology-iaudiomute?branch=master)                           | Provides access to a hardware mute control.                                                                                                                                                                               |
+| [**IAudioOutputSelector**](/windows/win32/Devicetopology/nn-devicetopology-iaudiooutputselector?branch=master)       | Provides access to a hardware demultiplexer control (output selector).                                                                                                                                                    |
+| [**IAudioPeakMeter**](/windows/win32/Devicetopology/nn-devicetopology-iaudiopeakmeter?branch=master)                 | Provides access to a hardware peak-meter control.                                                                                                                                                                         |
+| [**IAudioTreble**](/windows/win32/Devicetopology/?branch=master)                       | Provides access to a hardware treble-level control.                                                                                                                                                                       |
+| [**IAudioVolumeLevel**](/windows/win32/Devicetopology/?branch=master)             | Provides access to a hardware volume control.                                                                                                                                                                             |
+| [**IConnector**](/windows/win32/Devicetopology/nn-devicetopology-iconnector?branch=master)                           | Represents a point of connection between components.                                                                                                                                                                      |
+| [**IControlInterface**](/windows/win32/Devicetopology/nn-devicetopology-icontrolinterface?branch=master)             | Represents a control interface on a part (subunit or connector).                                                                                                                                                          |
+| [**IDeviceSpecificProperty**](/windows/win32/Devicetopology/nn-devicetopology-idevicespecificproperty?branch=master) | Represents a device-specific property of a connector or subunit.                                                                                                                                                          |
+| [**IDeviceTopology**](/windows/win32/Devicetopology/nn-devicetopology-idevicetopology?branch=master)                 | Provides access to the topology of an audio device.                                                                                                                                                                       |
+| [**IKsFormatSupport**](/windows/win32/Devicetopology/nn-devicetopology-iksformatsupport?branch=master)               | Provides information about the audio data formats that are supported by a software-configured I/O connection (typically a DMA channel) between the audio device and system memory.                                        |
+| [**IKsJackDescription**](/windows/win32/Devicetopology/nn-devicetopology-iksjackdescription?branch=master)           | Provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player). |
+| [**IPart**](/windows/win32/Devicetopology/nn-devicetopology-ipart?branch=master)                                     | Represents a part (connector or subunit) of a device topology.                                                                                                                                                            |
+| [**IPartsList**](/windows/win32/Devicetopology/nn-devicetopology-ipartslist?branch=master)                           | Represents a list of parts (connectors and subunits).                                                                                                                                                                     |
+| [**IPerChannelDbLevel**](/windows/win32/Devicetopology/nn-devicetopology-iperchanneldblevel?branch=master)           | Represents a generic subunit control interface that provides per-channel control over the volume level, in decibels, of an audio stream or of a frequency band in an audio stream.                                        |
+| [**ISubunit**](/windows/win32/Devicetopology/?branch=master)                               | Represents a hardware subunit (for example, a volume-level control) that lies in the data path between a client and an audio endpoint device.                                                                             |
 
 
 
@@ -55,7 +60,7 @@ DeviceTopology API clients that require notification of control-change events in
 
 | Interface                                            | Description                                                                      |
 |------------------------------------------------------|----------------------------------------------------------------------------------|
-| [**IControlChangeNotify**](icontrolchangenotify.md) | Provides notifications when the status of a part (connector or subunit) changes. |
+| [**IControlChangeNotify**](/windows/win32/Devicetopology/nn-devicetopology-icontrolchangenotify?branch=master) | Provides notifications when the status of a part (connector or subunit) changes. |
 
 
 

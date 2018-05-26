@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter W.'
-Robots: 'noindex, nofollow'
-ms.assetid: 'b768f51a-62ff-467c-b8a7-5c7f9932953a'
+Description: Glossary of Network Monitor terms that begin with the letter W.
+Robots: noindex, nofollow
+ms.assetid: b768f51a-62ff-467c-b8a7-5c7f9932953a
 title: W
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # W

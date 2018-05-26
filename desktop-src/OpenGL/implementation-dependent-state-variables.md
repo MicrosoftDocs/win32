@@ -1,14 +1,20 @@
 ---
 title: Implementation-Dependent State Variables
 description: Implementation-Dependent State Variables
-ms.assetid: '6778b50c-a6ac-4106-9dd6-3a123c257687'
-keywords: ["Implementation-Dependent State Variables OpenGL"]
+ms.assetid: 6778b50c-a6ac-4106-9dd6-3a123c257687
+keywords:
+- Implementation-Dependent State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Implementation-Dependent State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementation-Dependent State Variables

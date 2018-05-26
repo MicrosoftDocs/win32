@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly form of System.Sensitivity. This value is not intended to be parsed programmatically.'
-ms.assetid: '416d1a2d-a9cf-45a6-bcf5-523d055b4240'
-title: 'System.SensitivityText'
+Description: The user-friendly form of System.Sensitivity. This value is not intended to be parsed programmatically.
+ms.assetid: 416d1a2d-a9cf-45a6-bcf5-523d055b4240
+title: System.SensitivityText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.SensitivityText

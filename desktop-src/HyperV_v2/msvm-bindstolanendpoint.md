@@ -1,7 +1,12 @@
 ---
-Description: 'This association establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.'
-ms.assetid: '14edefd8-d59b-4925-8b78-a979fb9a975f'
-title: 'Msvm\_BindsToLANEndpoint class'
+Description: This association establishes a service access point (SAP) as a requester of protocol services from a protocol endpoint.
+ms.assetid: 14edefd8-d59b-4925-8b78-a979fb9a975f
+title: Msvm\_BindsToLANEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BindsToLANEndpoint class
@@ -16,9 +21,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_BindsToLANEndpoint : CIM_BindsToLANEndpoint
 {
-  Msvm_LANEndpoint  REF Antecedent;
+  Msvm_LANEndpoint  REF Antecedent;
   Msvm_VLANEndpoint REF Dependent;
-  uint16                FrameType;
+  uint16                FrameType;
 };
 ```
 
@@ -85,17 +90,17 @@ Describes the framing method for the upper layer SAP or endpoint that is bound t
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

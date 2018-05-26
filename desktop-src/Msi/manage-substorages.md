@@ -1,7 +1,12 @@
 ---
-Description: 'The VBScript file WiSubStg.vbs is provided in the Windows SDK Components for Windows Installer Developers.'
-ms.assetid: 'a0248dfb-e406-4ce6-ab11-1e428aa67af4'
+Description: The VBScript file WiSubStg.vbs is provided in the Windows SDK Components for Windows Installer Developers.
+ms.assetid: a0248dfb-e406-4ce6-ab11-1e428aa67af4
 title: Manage Substorages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manage Substorages

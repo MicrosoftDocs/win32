@@ -4,17 +4,21 @@ description: Callback to asynchronously pass the access token.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'C77980D4-823B-43BD-A45C-B65EC57F0A1F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: C77980D4-823B-43BD-A45C-B65EC57F0A1F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["AuthenticationCompletionCallback onSuccess method"]
+keywords:
+- AuthenticationCompletionCallback onSuccess method
 topic_type:
 - apiref
 api_name:
 - AuthenticationCompletionCallback onSuccess method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthenticationCompletionCallback onSuccess method
@@ -37,7 +41,7 @@ public void onSuccess(String accessToken);
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ AuthenticaionCompletionCallback.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

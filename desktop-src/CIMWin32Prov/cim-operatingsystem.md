@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_OperatingSystem class represents a computer operating system, which is made up of software and firmware that make a computer system''s hardware usable.'
+Description: The CIM\_OperatingSystem class represents a computer operating system, which is made up of software and firmware that make a computer systems hardware usable.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '014d2553-e1ac-4394-84ae-307af3658f6e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 014d2553-e1ac-4394-84ae-307af3658f6e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_OperatingSystem class'
+title: CIM\_OperatingSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_OperatingSystem class
@@ -19,7 +22,7 @@ The **CIM\_OperatingSystem** class represents a computer operating system, which
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,33 +32,33 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C565-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_OperatingSystem : CIM_LogicalElement
 {
-  string   Caption;
-  string   CreationClassName;
-  string   CSCreationClassName;
-  string   CSName;
-  sint16   CurrentTimeZone;
-  string   Description;
-  boolean  Distributed;
-  uint64   FreePhysicalMemory;
-  uint64   FreeSpaceInPagingFiles;
-  uint64   FreeVirtualMemory;
+  string   Caption;
+  string   CreationClassName;
+  string   CSCreationClassName;
+  string   CSName;
+  sint16   CurrentTimeZone;
+  string   Description;
+  boolean  Distributed;
+  uint64   FreePhysicalMemory;
+  uint64   FreeSpaceInPagingFiles;
+  uint64   FreeVirtualMemory;
   datetime InstallDate;
   datetime LastBootUpTime;
   datetime LocalDateTime;
-  uint32   MaxNumberOfProcesses;
-  uint64   MaxProcessMemorySize;
-  string   Name;
-  uint32   NumberOfLicensedUsers;
-  uint32   NumberOfProcesses;
-  uint32   NumberOfUsers;
-  uint16   OSType;
-  string   OtherTypeDescription;
-  uint64   SizeStoredInPagingFiles;
-  string   Status;
-  uint64   TotalSwapSpaceSize;
-  uint64   TotalVirtualMemorySize;
-  uint64   TotalVisibleMemorySize;
-  string   Version;
+  uint32   MaxNumberOfProcesses;
+  uint64   MaxProcessMemorySize;
+  string   Name;
+  uint32   NumberOfLicensedUsers;
+  uint32   NumberOfProcesses;
+  uint32   NumberOfUsers;
+  uint16   OSType;
+  string   OtherTypeDescription;
+  uint64   SizeStoredInPagingFiles;
+  string   Status;
+  uint64   TotalSwapSpaceSize;
+  uint64   TotalVirtualMemorySize;
+  uint64   TotalVisibleMemorySize;
+  string   Version;
 };
 ```
 
@@ -79,7 +82,7 @@ The **CIM\_OperatingSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1158,8 +1161,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1173,9 +1176,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

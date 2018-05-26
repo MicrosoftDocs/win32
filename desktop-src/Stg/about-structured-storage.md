@@ -1,8 +1,15 @@
 ---
 title: About Structured Storage
 description: Traditional file systems encounter challenges when they attempt to store efficiently multiple kinds of objects in one document.
-ms.assetid: 'a571f7c2-0490-463c-813e-de4a9fd12a2d'
-keywords: ["About Structured Storage", "Structured Storage Strctd Stg , about"]
+ms.assetid: a571f7c2-0490-463c-813e-de4a9fd12a2d
+keywords:
+- About Structured Storage
+- Structured Storage Strctd Stg , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Structured Storage

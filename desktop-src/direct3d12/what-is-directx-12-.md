@@ -1,7 +1,12 @@
 ---
 title: What is Direct3D 12
 description: DirectX 12 introduces the next version of Direct3D, the 3D graphics API at the heart of DirectX.
-ms.assetid: '09C586BF-11CE-4392-9BFD-A40B05DD0624'
+ms.assetid: 09C586BF-11CE-4392-9BFD-A40B05DD0624
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What is Direct3D 12?

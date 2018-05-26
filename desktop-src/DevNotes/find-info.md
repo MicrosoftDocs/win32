@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains search context information.'
-ms.assetid: '4b865563-98c2-459b-bb2b-75420d51d6a7'
-title: 'FIND\_INFO structure'
+---
+Description: Contains search context information.
+ms.assetid: 4b865563-98c2-459b-bb2b-75420d51d6a7
+title: FIND\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FIND\_INFO structure

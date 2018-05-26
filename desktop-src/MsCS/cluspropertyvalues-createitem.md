@@ -4,11 +4,14 @@ description: Creates a property value and adds it to the ClusPropertyValues coll
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b7175a46-3e0c-4d71-b435-589a145a56f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b7175a46-3e0c-4d71-b435-589a145a56f3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CreateItem method Failover Cluster", "CreateItem method Failover Cluster , ClusPropertyValues collection", "ClusPropertyValues collection Failover Cluster , CreateItem method"]
+keywords:
+- CreateItem method Failover Cluster
+- CreateItem method Failover Cluster , ClusPropertyValues collection
+- ClusPropertyValues collection Failover Cluster , CreateItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusPropertyValues.CreateItem method
@@ -66,7 +72,7 @@ A [**ClusPropertyValue**](cluspropertyvalue-object.md) object that receives the 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>               |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>               |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>   |
@@ -85,9 +91,9 @@ A [**ClusPropertyValue**](cluspropertyvalue-object.md) object that receives the 
 [**ClusProperty**](clusproperty-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

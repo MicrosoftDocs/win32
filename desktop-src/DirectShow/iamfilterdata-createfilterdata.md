@@ -1,7 +1,12 @@
-﻿---
-Description: 'Note  This interface has been deprecated.'
-ms.assetid: 'ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb'
-title: 'IAMFilterData::CreateFilterData method'
+---
+Description: Note  This interface has been deprecated.
+ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
+title: IAMFilterDataCreateFilterData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMFilterData::CreateFilterData method
@@ -13,7 +18,7 @@ title: 'IAMFilterData::CreateFilterData method'
 
 The `CreateFilterData` method creates binary registry data for a filter. This data can be written to the registry as a REG\_BINARY subkey named FilterData, under the filter's CLSID key.
 
-There is typically no reason for an application to call this method. The [**IFilterMapper2::RegisterFilter**](ifiltermapper2-registerfilter.md) method automatically creates the binary data and adds it to the correct location in the registry. For more information, see [How to Register DirectShow Filters](how-to-register-directshow-filters.md).
+There is typically no reason for an application to call this method. The [**IFilterMapper2::RegisterFilter**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-registerfilter?branch=master) method automatically creates the binary data and adds it to the correct location in the registry. For more information, see [How to Register DirectShow Filters](how-to-register-directshow-filters.md).
 
 ## Syntax
 
@@ -35,7 +40,7 @@ HRESULT CreateFilterData(
 *prf2* \[in\]
 </dt> <dd>
 
-Pointer to a [**REGFILTER2**](regfilter2.md) structure that contains the filter information.
+Pointer to a [**REGFILTER2**](/windows/win32/strmif/ns-strmif-regfilter2?branch=master) structure that contains the filter information.
 
 </dd> <dt>
 

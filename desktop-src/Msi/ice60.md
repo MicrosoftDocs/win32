@@ -1,7 +1,12 @@
 ---
-Description: 'ICE60 validates the File table of a Windows Installer database.'
-ms.assetid: '95d9b8b4-0b65-451a-8629-f0b276d6e35d'
+Description: ICE60 validates the File table of a Windows Installer database.
+ms.assetid: 95d9b8b4-0b65-451a-8629-f0b276d6e35d
 title: ICE60
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE60

@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used to create and manage placeholder files and directories.'
-ms.assetid: '518988BF-9D75-4CA7-8622-33A5C9DD1F4E'
+Description: The following elements are used to create and manage placeholder files and directories.
+ms.assetid: 518988BF-9D75-4CA7-8622-33A5C9DD1F4E
 title: Cloud Filter Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cloud Filter Reference
@@ -20,11 +25,11 @@ The following elements are used to create and manage placeholder files and direc
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

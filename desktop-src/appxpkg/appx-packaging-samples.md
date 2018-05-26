@@ -1,7 +1,12 @@
 ---
 title: Packaging, deployment, and query SDK samples
 description: These samples demonstrate the packaging, deployment, and query APIs for Windows Store apps.
-ms.assetid: '2D27A7EC-3F80-4F0A-A9E3-47D81C409C63'
+ms.assetid: 2D27A7EC-3F80-4F0A-A9E3-47D81C409C63
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging, deployment, and query SDK samples

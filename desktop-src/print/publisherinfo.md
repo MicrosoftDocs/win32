@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PUBLISHERINFO structure is used as an input parameter to the IPrintOemPS::GetInfo method.'
-ms.assetid: '6749b2e8-a9db-48a3-96e1-8592bcfa580d'
+---
+Description: The PUBLISHERINFO structure is used as an input parameter to the IPrintOemPSGetInfo method.
+ms.assetid: 6749b2e8-a9db-48a3-96e1-8592bcfa580d
 title: PUBLISHERINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PUBLISHERINFO structure

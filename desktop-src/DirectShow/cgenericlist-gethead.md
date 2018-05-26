@@ -1,7 +1,12 @@
 ---
-Description: 'The GetHead method retrieves the item at the head of the list.'
-ms.assetid: '1cbaa790-e26a-4d81-b96b-3a07b22dff1e'
-title: 'CGenericList.GetHead method'
+Description: The GetHead method retrieves the item at the head of the list.
+ms.assetid: 1cbaa790-e26a-4d81-b96b-3a07b22dff1e
+title: CGenericList.GetHead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.GetHead method
@@ -43,9 +48,9 @@ Returns a pointer to an object of type **OBJECT** (the template type).
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

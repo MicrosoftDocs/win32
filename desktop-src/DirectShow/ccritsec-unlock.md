@@ -1,7 +1,12 @@
 ---
-Description: 'The Unlock method unlocks the critical section object.'
-ms.assetid: '61811e0e-df77-48e9-96d5-b7dff8c8db9b'
-title: 'CCritSec.Unlock method'
+Description: The Unlock method unlocks the critical section object.
+ms.assetid: 61811e0e-df77-48e9-96d5-b7dff8c8db9b
+title: CCritSec.Unlock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCritSec.Unlock method
@@ -47,9 +52,9 @@ This method calls the [**LeaveCriticalSection**](https://msdn.microsoft.com/libr
 [**CCritSec Class**](ccritsec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

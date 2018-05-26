@@ -1,8 +1,11 @@
 ---
 title: IProgressUpdateEventHandler OnProgressUpdate method
 description: The AXE Core raises this event to notify the solution of the current progress reported by the assessment.
-ms.assetid: '08F35E50-1A69-420A-AE53-95B468D278A6'
-keywords: ["OnProgressUpdate method Access Execution Engine", "OnProgressUpdate method Access Execution Engine , IProgressUpdateEventHandler interface", "IProgressUpdateEventHandler interface Access Execution Engine , OnProgressUpdate method"]
+ms.assetid: 08F35E50-1A69-420A-AE53-95B468D278A6
+keywords:
+- OnProgressUpdate method Access Execution Engine
+- OnProgressUpdate method Access Execution Engine , IProgressUpdateEventHandler interface
+- IProgressUpdateEventHandler interface Access Execution Engine , OnProgressUpdate method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IProgressUpdateEventHandler ::OnProgressUpdate method
@@ -22,8 +30,8 @@ The AXE Core raises this event to notify the solution of the current progress re
 
 ```C++
 virtual void OnProgressUpdate(
-             Engine                  *sender,
-  [in] const ProgressUpdateEventArgs *e
+             Engine                  *sender,
+  [in] const ProgressUpdateEventArgs *e
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ Managed code uses the [**ProgressUpdateEventHandler**](axe-progressupdateeventha
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ Managed code uses the [**ProgressUpdateEventHandler**](axe-progressupdateeventha
 [**IProgressUpdateEventHandler**](iprogressupdateeventhandler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

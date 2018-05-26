@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Null Renderer filter is a renderer that discards every sample it receives, without displaying or rendering the sample data.'
-ms.assetid: '2954762d-2ae6-4e38-ac88-5390a081897e'
+---
+Description: The Null Renderer filter is a renderer that discards every sample it receives, without displaying or rendering the sample data.
+ms.assetid: 2954762d-2ae6-4e38-ac88-5390a081897e
 title: Null Renderer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Null Renderer Filter
@@ -17,9 +22,9 @@ The Null Renderer filter is a renderer that discards every sample it receives, w
 
 |                                          |                                                                                                                      |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Filter interfaces                        | [**IBaseFilter**](ibasefilter.md), [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md) |
+| Filter interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) |
 | Input pin media types                    | Any media type                                                                                                       |
-| Input pin interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)               |
+| Input pin interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)               |
 | Output pin media types                   | Not applicable.                                                                                                      |
 | Output pin interfaces                    | Not applicable.                                                                                                      |
 | Filter CLSID                             | CLSID\_NullRenderer                                                                                                  |

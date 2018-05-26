@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses the provided certificate thumbprint to obtain the derived key and unlock the encrypted volume.'
-ms.assetid: '41c25d17-db1b-427e-907b-a547483927e0'
-title: 'UnlockWithCertificateThumbprint method of the Win32\_EncryptableVolume class'
+---
+Description: Uses the provided certificate thumbprint to obtain the derived key and unlock the encrypted volume.
+ms.assetid: 41c25d17-db1b-427e-907b-a547483927e0
+title: UnlockWithCertificateThumbprint method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnlockWithCertificateThumbprint method of the Win32\_EncryptableVolume class

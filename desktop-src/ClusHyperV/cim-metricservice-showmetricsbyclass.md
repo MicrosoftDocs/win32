@@ -4,13 +4,16 @@ description: Indicates whether metric collection is enabled for each instance of
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '109c0b28-1d04-4f9f-bd7c-620b585348ff'
-ms.prod: 'windows-server-dev'
+ms.assetid: 109c0b28-1d04-4f9f-bd7c-620b585348ff
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ShowMetricsByClass method", "ShowMetricsByClass method, CIM_MetricService class", "CIM_MetricService class, ShowMetricsByClass method"]
+keywords:
+- ShowMetricsByClass method
+- ShowMetricsByClass method, CIM_MetricService class
+- CIM_MetricService class, ShowMetricsByClass method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ShowMetricsByClass method of the CIM\_MetricService class
@@ -30,11 +36,11 @@ Indicates whether metric collection is enabled for each instance of the specifie
 
 ```mof
 uint32 ShowMetricsByClass(
-  [in]  CIM_ManagedElement       REF Subject,
-  [in]  CIM_BaseMetricDefinition REF Definition,
-  [out] CIM_BaseMetricDefinition REF DefinitionList[],
-  [out] string                       MetricNames[],
-  [out] uint16                       MetricCollectionEnabled[]
+  [in]  CIM_ManagedElement       REF Subject,
+  [in]  CIM_BaseMetricDefinition REF Definition,
+  [out] CIM_BaseMetricDefinition REF DefinitionList[],
+  [out] string                       MetricNames[],
+  [out] uint16                       MetricCollectionEnabled[]
 );
 ```
 
@@ -139,10 +145,10 @@ The possible return values are:
 **Failed** (2)
 </dt> <dt>
 
-**Method Reserved** (3–32767)
+**Method Reserved** (3 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -152,7 +158,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -166,9 +172,9 @@ The possible return values are:
 [**CIM\_MetricService**](cim-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

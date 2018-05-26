@@ -1,8 +1,9 @@
 ---
 title: HDM\_SETUNICODEFORMAT message
 description: Sets the UNICODE character format flag for the control.
-ms.assetid: '18161fe5-c779-4be0-9e7a-1b5948e42b80'
-keywords: ["HDM_SETUNICODEFORMAT message Windows Controls"]
+ms.assetid: 18161fe5-c779-4be0-9e7a-1b5948e42b80
+keywords:
+- HDM_SETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_SETUNICODEFORMAT message
 
-Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can send this message explicitly or use the [**Header\_SetUnicodeFormat**](header-setunicodeformat.md) macro.
+Sets the UNICODE character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can send this message explicitly or use the [**Header\_SetUnicodeFormat**](/windows/win32/Commctrl/nf-commctrl-header_setunicodeformat?branch=master) macro.
 
 ## Parameters
 
@@ -45,8 +51,8 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 [**HDM\_GETUNICODEFORMAT**](hdm-getunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

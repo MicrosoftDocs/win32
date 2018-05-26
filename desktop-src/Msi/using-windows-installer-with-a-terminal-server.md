@@ -1,7 +1,12 @@
 ---
-Description: 'The following may affect Windows Installer installations when using a terminal server. Setup developers should always test that their Windows Installer package installs as expected when users are also using a terminal server.'
-ms.assetid: 'deda9efa-a0fc-4b4e-a531-650ac201fd84'
+Description: The following may affect Windows Installer installations when using a terminal server. Setup developers should always test that their Windows Installer package installs as expected when users are also using a terminal server.
+ms.assetid: deda9efa-a0fc-4b4e-a531-650ac201fd84
 title: Using Windows Installer with a Terminal Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Installer with a Terminal Server

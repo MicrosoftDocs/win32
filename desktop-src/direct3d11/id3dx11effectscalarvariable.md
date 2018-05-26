@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectScalarVariable interface
 description: An effect-scalar-variable interface accesses scalar values.
-ms.assetid: '52e3b856-aa1b-4ed2-b140-7ae96ec1c94b'
-keywords: ["ID3DX11EffectScalarVariable interface Direct3D 11", "ID3DX11EffectScalarVariable interface Direct3D 11 , described"]
+ms.assetid: 52e3b856-aa1b-4ed2-b140-7ae96ec1c94b
+keywords:
+- ID3DX11EffectScalarVariable interface Direct3D 11
+- ID3DX11EffectScalarVariable interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectScalarVariable interface
@@ -47,14 +54,14 @@ The **ID3DX11EffectScalarVariable** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +87,9 @@ The **ID3DX11EffectScalarVariable** interface has these methods.
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

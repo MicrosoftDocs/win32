@@ -1,7 +1,12 @@
 ---
-Description: 'Adds a new IContextLink to the IContextNode object''s collection of context links.'
-ms.assetid: 'b7b9da10-3015-4976-bc4e-1a7f69b7c85b'
-title: 'IContextNode::AddContextLink method'
+Description: Adds a new IContextLink to the IContextNode objects collection of context links.
+ms.assetid: b7b9da10-3015-4976-bc4e-1a7f69b7c85b
+title: IContextNodeAddContextLink method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::AddContextLink method
@@ -13,9 +18,9 @@ Adds a new [**IContextLink**](icontextlink.md) to the [**IContextNode**](icontex
 
 ```C++
 HRESULT AddContextLink(
-  [in]  IContextNode         *pDestinationNode,
-  [in]  ContextLinkDirection linkDirection,
-  [out] IContextLink         **ppContextLinkToAdd
+  [in]  IContextNode         *pDestinationNode,
+  [in]  ContextLinkDirection linkDirection,
+  [out] IContextLink         **ppContextLinkToAdd
 );
 ```
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppContextLinkToAdd* when you no longer need to use the context node.
 
- 
+ 
 
 This [**IContextNode**](icontextnode.md) object is the source node (see [**IContextLink::GetSourceNode**](icontextlink-getsourcenode.md)) for the new [**IContextLink**](icontextlink.md) object.
 
@@ -65,7 +70,7 @@ This [**IContextNode**](icontextnode.md) object is the source node (see [**ICont
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -97,9 +102,9 @@ This [**IContextNode**](icontextnode.md) object is the source node (see [**ICont
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

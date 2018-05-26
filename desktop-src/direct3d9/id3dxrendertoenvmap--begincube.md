@@ -1,7 +1,12 @@
-﻿---
-Description: 'Initiate the rendering of a cubic environment map.'
-ms.assetid: '0f02b2e2-8132-4994-ab07-c79a1b7821dd'
-title: 'ID3DXRenderToEnvMap::BeginCube method'
+---
+Description: Initiate the rendering of a cubic environment map.
+ms.assetid: 0f02b2e2-8132-4994-ab07-c79a1b7821dd
+title: ID3DXRenderToEnvMapBeginCube method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXRenderToEnvMap::BeginCube method
@@ -26,9 +31,9 @@ HRESULT BeginCube(
 *pCubeTex* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](idirect3dcubetexture9.md)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master)**
 
-Pointer to an [**IDirect3DCubeTexture9**](idirect3dcubetexture9.md) interface that represents the cube texture to which to render.
+Pointer to an [**IDirect3DCubeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master) interface that represents the cube texture to which to render.
 
 </dd> </dl>
 

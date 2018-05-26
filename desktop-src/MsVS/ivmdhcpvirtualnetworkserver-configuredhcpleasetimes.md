@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer ConfigureDHCPLeaseTimes method
 description: The ConfigureDHCPLeaseTimes method sets the lease time parameters for leases managed by the virtual DHCP server.
-ms.assetid: 'b1dd4723-8ec8-4078-a91f-3cafb8143cc4'
-keywords: ["ConfigureDHCPLeaseTimes method Virtual Server", "ConfigureDHCPLeaseTimes method Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPLeaseTimes method", "ConfigureDHCPLeaseTimes method Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPLeaseTimes method"]
+ms.assetid: b1dd4723-8ec8-4078-a91f-3cafb8143cc4
+keywords:
+- ConfigureDHCPLeaseTimes method Virtual Server
+- ConfigureDHCPLeaseTimes method Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPLeaseTimes method
+- ConfigureDHCPLeaseTimes method Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , ConfigureDHCPLeaseTimes method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::ConfigureDHCPLeaseTimes method
@@ -23,9 +33,9 @@ The **ConfigureDHCPLeaseTimes** method sets the lease time parameters for leases
 
 ```C++
 HRESULT ConfigureDHCPLeaseTimes(
-  [in] VARIANT leaseTime,
-  [in] VARIANT leaseRenewalTime,
-  [in] VARIANT leaseRebindingTime
+  [in] VARIANT leaseTime,
+  [in] VARIANT leaseRenewalTime,
+  [in] VARIANT leaseRebindingTime
 );
 ```
 
@@ -73,7 +83,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,8 +95,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -98,9 +108,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

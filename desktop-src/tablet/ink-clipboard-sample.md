@@ -1,7 +1,12 @@
 ---
-Description: 'This program demonstrates how to copy and paste ink into another application. It also enables the user to copy a selection of strokes and paste the result into the existing ink object.'
-ms.assetid: 'a0c42f1c-543d-44f8-83d9-fe810de410ff'
+Description: This program demonstrates how to copy and paste ink into another application. It also enables the user to copy a selection of strokes and paste the result into the existing ink object.
+ms.assetid: a0c42f1c-543d-44f8-83d9-fe810de410ff
 title: Ink Clipboard Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink Clipboard Sample

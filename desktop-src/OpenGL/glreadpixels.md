@@ -1,8 +1,9 @@
 ---
 title: glReadPixels function
 description: The glReadPixels function reads a block of pixels from the framebuffer.
-ms.assetid: '41fbad5c-b8ca-456d-bbfc-b48c176e15b0'
-keywords: ["glReadPixels function OpenGL"]
+ms.assetid: 41fbad5c-b8ca-456d-bbfc-b48c176e15b0
+keywords:
+- glReadPixels function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glReadPixels function
@@ -22,13 +28,13 @@ The **glReadPixels** function reads a block of pixels from the framebuffer.
 
 ```C++
 void WINAPI glReadPixels(
-   GLint   x,
-   GLint   y,
-   GLsizei width,
-   GLsizei height,
-   GLenum  format,
-   GLenum  type,
-   GLvoid  *pixels
+   GLint   x,
+   GLint   y,
+   GLsizei width,
+   GLsizei height,
+   GLenum  format,
+   GLenum  type,
+   GLvoid  *pixels
 );
 ```
 
@@ -82,7 +88,7 @@ The format of the pixel data. The following symbolic values are accepted:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -98,15 +104,15 @@ The data type of the pixel data. Must be one of the following values.
 | GL\_UNSIGNED\_BYTE  | 281        | (281)*c*             |
 | GL\_BYTE            | 271        | \[(271)*c*-1\]/2     |
 | GL\_BITMAP          | 1          | 1                    |
-| GL\_UNSIGNED\_SHORT | 2¹61       | (2¹61)*c*            |
-| GL\_SHORT           | 2¹51       | \[(2¹51)*c*1\]/2     |
-| GL\_UNSIGNED\_INT\_ | 2³²1       | (2³²1)*c*            |
-| GL\_INT             | 2³¹ 1      | \[(2³¹1)*c*1\]/2     |
+| GL\_UNSIGNED\_SHORT | 2 61       | (2 61)*c*            |
+| GL\_SHORT           | 2 51       | \[(2 51)*c*1\]/2     |
+| GL\_UNSIGNED\_INT\_ | 2  1       | (2  1)*c*            |
+| GL\_INT             | 2   1      | \[(2  1)*c*1\]/2     |
 | GL\_FLOAT           | none       | *c*                  |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -157,9 +163,9 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 ## Remarks
 
-The **glReadPixels** function returns pixel data from the framebuffer, starting with the pixel whose lower-left corner is at location (*x*, *y*), into client memory starting at location *pixels*. Several parameters control the processing of the pixel data before it is placed into client memory. These parameters are set with three commands: [**glPixelStore**](glpixelstore-functions.md), [**glPixelTransfer**](glpixeltransfer.md), and [**glPixelMap**](glpixelmap.md). This topic describes the effects on **glReadPixels** of most, but not all of the parameters specified by these three commands.
+The **glReadPixels** function returns pixel data from the framebuffer, starting with the pixel whose lower-left corner is at location (*x*, *y*), into client memory starting at location *pixels*. Several parameters control the processing of the pixel data before it is placed into client memory. These parameters are set with three commands: [**glPixelStore**](glpixelstore-functions.md), [**glPixelTransfer**](glpixeltransfer.md), and [**glPixelMap**](glpixelmap.md). This topic describes the effects on **glReadPixels** of most, but not all of the parameters specified by these three commands.
 
-The **glReadPixels** function returns values from each pixel with lower-left corner at (*x* + i, *y* + j) for 0 = i &lt; *width* and 0 = j &lt; *height*. This pixel is said to be the *i*th pixel in the *j*th row. Pixels are returned in row order from the lowest to the highest row, left to right in each row.
+The **glReadPixels** function returns values from each pixel with lower-left corner at (*x* + i, *y* + j) for 0 = i &lt; *width* and 0 = j &lt; *height*. This pixel is said to be the *i*th pixel in the *j*th row. Pixels are returned in row order from the lowest to the highest row, left to right in each row.
 
 The shift, scale, bias, and lookup factors described above are all specified by [**glPixelTransfer**](glpixeltransfer.md). The lookup table contents are specified by [**glPixelMap**](glpixelmap.md).
 
@@ -183,8 +189,8 @@ The following function retrieves information related to **glReadPixels**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -219,9 +225,9 @@ The following function retrieves information related to **glReadPixels**:
 [**glReadBuffer**](glreadbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

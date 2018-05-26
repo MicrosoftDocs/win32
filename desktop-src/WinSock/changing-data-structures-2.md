@@ -1,7 +1,12 @@
 ---
-Description: 'When adding support for IPv6, you must ensure that your application defines properly sized data structures.'
-ms.assetid: '2bf353e2-38d5-462c-9e6c-65886b617215'
+Description: When adding support for IPv6, you must ensure that your application defines properly sized data structures.
+ms.assetid: 2bf353e2-38d5-462c-9e6c-65886b617215
 title: Changing Data Structures for IPv6 Winsock Appications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing Data Structures for IPv6 Winsock Appications
@@ -10,7 +15,7 @@ When adding support for IPv6, you must ensure that your application defines prop
 
 Best Practice
 
-The best approach to ensuring that your structures are properly sized is to use the [**SOCKADDR\_STORAGE**](sockaddr-storage-2.md) structure. The **SOCKADDR\_STORAGE** structure is agnostic to IP address version. When the **SOCKADDR\_STORAGE** structure is used to store IP addresses, IPv4 and IPv6 addresses can be properly handled with one code base.
+The best approach to ensuring that your structures are properly sized is to use the [**SOCKADDR\_STORAGE**](/windows/win32/Ws2def/?branch=master) structure. The **SOCKADDR\_STORAGE** structure is agnostic to IP address version. When the **SOCKADDR\_STORAGE** structure is used to store IP addresses, IPv4 and IPv6 addresses can be properly handled with one code base.
 
 The following example, which is an excerpt taken from the Server.c file found in Appendix B, identifies an appropriate use of the **SOCKADDR\_STORAGE** structure. Notice that the structure, when used properly as this example shows, gracefully handles either an IPv4 or IPv6 address.
 
@@ -69,7 +74,7 @@ int main(int argc, char **argv)
 
 
 > [!Note]  
-> The [**SOCKADDR\_STORAGE**](sockaddr-storage-2.md) structure is new for Windows XP.
+> The [**SOCKADDR\_STORAGE**](/windows/win32/Ws2def/?branch=master) structure is new for Windows XP.
 
  
 
@@ -83,13 +88,13 @@ Coding Task
 
 1.  Acquire the Checkv4.exe utility. The utility is included with the Microsoft Windows Software Development Kit (SDK) which is made available through your MSDN subscription, or from the web as a download.
 2.  Run the Checkv4.exe utility against your code. Learn about how to run the Checkv4.exe utility against your files in the section on [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md).
-3.  The utility alerts you to usage of **sockaddr** or **sockaddr\_in** structures, and provides recommendations on how to replace either with the IPv6 compatible structure [**SOCKADDR\_STORAGE**](sockaddr-storage-2.md).
+3.  The utility alerts you to usage of **sockaddr** or **sockaddr\_in** structures, and provides recommendations on how to replace either with the IPv6 compatible structure [**SOCKADDR\_STORAGE**](/windows/win32/Ws2def/?branch=master).
 4.  Replace any such instances, and associated code as appropriate, to use the **SOCKADDR\_STORAGE** structure.
 
 Alternatively, you can search your code base for instances of the **sockaddr** and **sockaddr\_in** structures, and change all such usage (and other associated code, as appropriate) to the **SOCKADDR\_STORAGE** structure.
 
 > [!Note]  
-> The **addrinfo** and **SOCKADDR\_STORAGE** structures include protocol and address family members (**ai\_family** and **ss\_family**), respectively. RFC 2553 specifies the **ai\_family** member of [**addrinfo**](addrinfo-2.md) as an int, while **ss\_family** is specified as a short; as such, a direct copy between those members results in a compiler error.
+> The **addrinfo** and **SOCKADDR\_STORAGE** structures include protocol and address family members (**ai\_family** and **ss\_family**), respectively. RFC 2553 specifies the **ai\_family** member of [**addrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-freeaddrinfo?branch=master) as an int, while **ss\_family** is specified as a short; as such, a direct copy between those members results in a compiler error.
 
  
 

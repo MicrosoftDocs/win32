@@ -1,8 +1,11 @@
 ---
 title: IPropFindRequest AddProperty method
 description: IPropFindRequest AddProperty method
-ms.assetid: 'f4b398fc-a3a6-4103-8af1-a0ff6ca3aa49'
-keywords: ["AddProperty method Windows Mail (formerly Outlook Express)", "AddProperty method Windows Mail (formerly Outlook Express) , IPropFindRequest interface", "IPropFindRequest interface Windows Mail (formerly Outlook Express) , AddProperty method"]
+ms.assetid: f4b398fc-a3a6-4103-8af1-a0ff6ca3aa49
+keywords:
+- AddProperty method Windows Mail (formerly Outlook Express)
+- AddProperty method Windows Mail (formerly Outlook Express) , IPropFindRequest interface
+- IPropFindRequest interface Windows Mail (formerly Outlook Express) , AddProperty method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropFindRequest::AddProperty method
@@ -22,8 +30,8 @@ api_type:
 
 ```C++
 HRESULT AddProperty(
-  [in] DWORD  dwNamespaceID,
-  [in] LPCSTR pszPropertyName
+  [in] DWORD  dwNamespaceID,
+  [in] LPCSTR pszPropertyName
 );
 ```
 
@@ -59,8 +67,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -68,9 +76,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

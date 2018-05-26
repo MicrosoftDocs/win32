@@ -1,8 +1,19 @@
 ---
 title: Porting Points
 description: OpenGL has no command to draw a single point. Otherwise, porting point functions is straightforward. The following table lists IRIS GL functions for drawing points and their equivalent OpenGL functions.
-ms.assetid: '348c7767-321a-43c6-bc88-7dc00f426f50'
-keywords: ["IRIS GL porting,points", "porting from IRIS GL,points", "porting to OpenGL from IRIS GL,points", "OpenGL porting from IRIS GL,points", "drawing functions,points", "points"]
+ms.assetid: 348c7767-321a-43c6-bc88-7dc00f426f50
+keywords:
+- IRIS GL porting,points
+- porting from IRIS GL,points
+- porting to OpenGL from IRIS GL,points
+- OpenGL porting from IRIS GL,points
+- drawing functions,points
+- points
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Points

@@ -1,7 +1,12 @@
 ---
-Description: 'The metering mode used by the camera, taken from the Exchangeable Image File (EXIF) information.'
-ms.assetid: '9dd031a8-f1fa-4753-a86b-18051c624a00'
-title: 'System.Photo.MeteringMode'
+Description: The metering mode used by the camera, taken from the Exchangeable Image File (EXIF) information.
+ms.assetid: 9dd031a8-f1fa-4753-a86b-18051c624a00
+title: System.Photo.MeteringMode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.MeteringMode

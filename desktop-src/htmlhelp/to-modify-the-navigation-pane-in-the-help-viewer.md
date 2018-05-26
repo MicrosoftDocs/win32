@@ -1,7 +1,12 @@
 ---
 title: To modify the Navigation pane in the Help Viewer
 description: To modify the Navigation pane in the Help Viewer
-ms.assetid: 'F155B239-3CBE-429d-B75C-2D87B830CC2A'
+ms.assetid: F155B239-3CBE-429d-B75C-2D87B830CC2A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To modify the Navigation pane in the Help Viewer
@@ -16,7 +21,7 @@ ms.assetid: 'F155B239-3CBE-429d-B75C-2D87B830CC2A'
 
     
 
-     
+     
 
 2.  In the **Create a new window type named** box, type a window name for the Help Viewer.
 3.  Click the **Navigation Pane** tab, and in the **Window type** box, select the Help Viewer by the name you gave it in step 2.
@@ -38,9 +43,9 @@ ms.assetid: 'F155B239-3CBE-429d-B75C-2D87B830CC2A'
 [About Creating Help Windows](create-help-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

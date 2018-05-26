@@ -1,7 +1,12 @@
 ---
-Description: 'Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified IAnalysisRegion.'
-ms.assetid: '7a11d2a8-c2ca-4088-b932-8a6c3e789b7f'
-title: 'IAnalysisRegion::ExcludeRegion method'
+Description: Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified IAnalysisRegion.
+ms.assetid: 7a11d2a8-c2ca-4088-b932-8a6c3e789b7f
+title: IAnalysisRegionExcludeRegion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::ExcludeRegion method
@@ -13,7 +18,7 @@ Restricts the area of the [**IAnalysisRegion**](ianalysisregion.md) to the porti
 
 ```C++
 HRESULT ExcludeRegion(
-  [in] IAnalysisRegion *pRegionToExclude
+  [in] IAnalysisRegion *pRegionToExclude
 );
 ```
 
@@ -44,7 +49,7 @@ If the two areas do not intersect, this [**IAnalysisRegion**](ianalysisregion.md
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -76,9 +81,9 @@ If the two areas do not intersect, this [**IAnalysisRegion**](ianalysisregion.md
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

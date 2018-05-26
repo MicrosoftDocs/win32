@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for thread end events. The following syntax is simplified from MOF code.'
-ms.assetid: 'c495bf22-04ce-4285-8e7e-152e4ab65823'
-title: 'Thread\_V1\_TypeGroup2 class'
+---
+Description: This class is the event type class for thread end events. The following syntax is simplified from MOF code.
+ms.assetid: c495bf22-04ce-4285-8e7e-152e4ab65823
+title: Thread\_V1\_TypeGroup2 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread\_V1\_TypeGroup2 class

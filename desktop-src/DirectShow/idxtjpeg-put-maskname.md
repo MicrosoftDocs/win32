@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_MaskName method specifies the name of a JPEG file to use as the wipe mask.'
-ms.assetid: 'f2b93c1e-479e-46c1-afe3-25b0ef720ab3'
-title: 'IDxtJpeg::put\_MaskName method'
+---
+Description: The put\_MaskName method specifies the name of a JPEG file to use as the wipe mask.
+ms.assetid: f2b93c1e-479e-46c1-afe3-25b0ef720ab3
+title: IDxtJpegput\_MaskName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_MaskName method

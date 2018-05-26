@@ -2,13 +2,19 @@
 title: boolean attribute
 description: The keyword boolean indicates that the expression or constant expression associated with the identifier takes only the values TRUE and FALSE.
 ms.assetid: ed3b00a4-880f-4674-9f6d-8f5faf1eea66
-keywords: ["boolean attribute MIDL"]
+keywords:
+- boolean attribute MIDL
 topic_type:
 - apiref
 api_name:
 - boolean
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # boolean attribute

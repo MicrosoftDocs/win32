@@ -4,13 +4,15 @@ description: The Msft\_MiQuery WMI class represents a data stream that encapsula
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd9c2d891-4de9-48cd-a947-d2f235711247'
-ms.prod: 'windows-server-dev'
+ms.assetid: d9c2d891-4de9-48cd-a947-d2f235711247
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msft_MiQuery class Software Inventory Logging", "Msft_MiQuery class Software Inventory Logging , described"]
+keywords:
+- Msft_MiQuery class Software Inventory Logging
+- Msft_MiQuery class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - MiStreamProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_MiQuery class
@@ -91,7 +96,7 @@ Access type: Read-only
 
 Gets the namespace of the data provider.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> </dl>
 
@@ -102,7 +107,7 @@ Gets the namespace of the data provider.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>MiStreamProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MiStreamProv.dll</dt> </dl> |
@@ -119,9 +124,9 @@ Gets the namespace of the data provider.
 [Software Inventory Logging WMI Stream Provider Classes](software-inventory-logging-wmi-stream-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

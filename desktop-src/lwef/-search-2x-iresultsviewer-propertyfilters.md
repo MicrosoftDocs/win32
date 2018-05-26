@@ -1,8 +1,11 @@
 ---
 title: IResultsViewer PropertyFilters property
 description: When calling the property filter collection it will return the following
-ms.assetid: '8673f2de-f156-4910-8f2f-e8bfe3369f71'
-keywords: ["PropertyFilters property Legacy Windows Environment Features", "PropertyFilters property Legacy Windows Environment Features , IResultsViewer interface", "IResultsViewer interface Legacy Windows Environment Features , PropertyFilters property"]
+ms.assetid: 8673f2de-f156-4910-8f2f-e8bfe3369f71
+keywords:
+- PropertyFilters property Legacy Windows Environment Features
+- PropertyFilters property Legacy Windows Environment Features , IResultsViewer interface
+- IResultsViewer interface Legacy Windows Environment Features , PropertyFilters property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - WdsView.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultsViewer::PropertyFilters property
@@ -31,16 +39,16 @@ When called this will return a pointer to the address of the property filters co
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | Header<br/>                   | <dl> <dt>WdsView.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

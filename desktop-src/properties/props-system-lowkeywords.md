@@ -1,7 +1,12 @@
 ---
-Description: 'The low confidence keywords for the item.'
-ms.assetid: '606619aa-2995-4024-99ee-64de9f2109b0'
-title: 'System.LowKeywords'
+Description: The low confidence keywords for the item.
+ms.assetid: 606619aa-2995-4024-99ee-64de9f2109b0
+title: System.LowKeywords
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.LowKeywords

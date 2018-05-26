@@ -4,11 +4,17 @@ description: To enable this option using the WinNT ADSI provider, set the ADS\_U
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9e38b31c-399b-447f-bceb-36c599b2714e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9e38b31c-399b-447f-bceb-36c599b2714e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Password Never Expires (WinNT Provider)", "Password Never Expires ADSI , WinNT provider", "WinNT provider ADSI , user management examples, Password Never Expires"]
+keywords:
+- Password Never Expires (WinNT Provider)
+- Password Never Expires ADSI , WinNT provider
+- WinNT provider ADSI , user management examples, Password Never Expires
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Password Never Expires (WinNT Provider)

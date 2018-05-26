@@ -1,8 +1,30 @@
 ---
 title: URL Flipping
 description: URL Flipping
-ms.assetid: '2921dff1-f740-491c-9b5e-79b7638e2065'
-keywords: ["Windows Media Player,Web-based presentations", "Windows Media Player object model,Web-based presentations", "object model,Web-based presentations", "Windows Media Player Mobile,Web-based presentations", "Windows Media Player ActiveX control,Web-based presentations", "Windows Media Player Mobile ActiveX control,Web-based presentations", "ActiveX control,Web-based presentations", "Windows Media Player,URL flipping", "Windows Media Player object model,URL flipping", "object model,URL flipping", "Windows Media Player Mobile,URL flipping", "Windows Media Player ActiveX control,URL flipping", "Windows Media Player Mobile ActiveX control,URL flipping", "ActiveX control,URL flipping", "Web-based presentations,URL flipping", "creating Web-based presentations,URL flipping", "URL flipping"]
+ms.assetid: 2921dff1-f740-491c-9b5e-79b7638e2065
+keywords:
+- Windows Media Player,Web-based presentations
+- Windows Media Player object model,Web-based presentations
+- object model,Web-based presentations
+- Windows Media Player Mobile,Web-based presentations
+- Windows Media Player ActiveX control,Web-based presentations
+- Windows Media Player Mobile ActiveX control,Web-based presentations
+- ActiveX control,Web-based presentations
+- Windows Media Player,URL flipping
+- Windows Media Player object model,URL flipping
+- object model,URL flipping
+- Windows Media Player Mobile,URL flipping
+- Windows Media Player ActiveX control,URL flipping
+- Windows Media Player Mobile ActiveX control,URL flipping
+- ActiveX control,URL flipping
+- Web-based presentations,URL flipping
+- creating Web-based presentations,URL flipping
+- URL flipping
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # URL Flipping

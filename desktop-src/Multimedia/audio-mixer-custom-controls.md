@@ -1,8 +1,19 @@
 ---
 title: Audio Mixer Custom Controls
 description: Audio Mixer Custom Controls
-ms.assetid: '6ab7a016-a4c1-4eef-ba97-7031d7425ee2'
-keywords: ["multimedia audio,mixer controls", "audio,mixer controls", "audio mixers,controls", "audio mixers,custom controls", "mixers,controls", "mixers,custom controls"]
+ms.assetid: 6ab7a016-a4c1-4eef-ba97-7031d7425ee2
+keywords:
+- multimedia audio,mixer controls
+- audio,mixer controls
+- audio mixers,controls
+- audio mixers,custom controls
+- mixers,controls
+- mixers,custom controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Mixer Custom Controls

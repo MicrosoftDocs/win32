@@ -1,7 +1,12 @@
 ---
 title: HTML Extension Files
 description: HTML Extension Files
-ms.assetid: 'e1a9a456-0bdf-43bc-b110-b4ff94745805'
+ms.assetid: e1a9a456-0bdf-43bc-b110-b4ff94745805
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Extension Files

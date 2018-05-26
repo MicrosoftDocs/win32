@@ -1,14 +1,20 @@
 ---
 title: ResultReport Complex Type
 description: Defines the contents of the result report for a troubleshooting package that ran.
-ms.assetid: '6cbd81fe-e9de-4d08-9d51-ad46643b2022'
-keywords: ["ResultReport complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 6cbd81fe-e9de-4d08-9d51-ad46643b2022
+keywords:
+- ResultReport complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ResultReport
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultReport Complex Type
@@ -67,14 +73,14 @@ WTP always produces a results report when a troubleshooting package runs. The re
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

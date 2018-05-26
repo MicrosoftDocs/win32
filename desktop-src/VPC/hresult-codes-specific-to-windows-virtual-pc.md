@@ -1,7 +1,7 @@
 ---
 title: HRESULT Codes Specific to Windows Virtual PC
 description: HRESULT Codes Specific to Windows Virtual PC
-ms.assetid: '9e3b534c-eb1e-42b1-bdae-b5af555e7de4'
+ms.assetid: 9e3b534c-eb1e-42b1-bdae-b5af555e7de4
 topic_type:
 - apiref
 api_name:
@@ -66,11 +66,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HRESULT Codes Specific to Windows Virtual PC
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 
 
@@ -142,9 +147,9 @@ api_type:
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -157,9 +162,9 @@ api_type:
 [Windows Virtual PC Constants](windows-virtual-pc-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

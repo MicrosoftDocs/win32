@@ -1,14 +1,20 @@
 ---
 title: Texture1DArray
 description: Texture1DArray
-ms.assetid: '3d793423-3d79-48c1-aa78-f9d93b79e0b6'
-keywords: ["Texture1DArray HLSL"]
+ms.assetid: 3d793423-3d79-48c1-aa78-f9d93b79e0b6
+keywords:
+- Texture1DArray HLSL
 topic_type:
 - apiref
 api_name:
 - Texture1DArray
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1DArray

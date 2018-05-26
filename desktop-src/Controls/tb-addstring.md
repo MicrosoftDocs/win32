@@ -1,8 +1,9 @@
 ---
 title: TB\_ADDSTRING message
-description: Adds a new string to the toolbar's string pool.
-ms.assetid: 'e22ee2cc-6443-49d3-aea6-a4ab256d4538'
-keywords: ["TB_ADDSTRING message Windows Controls"]
+description: Adds a new string to the toolbars string pool.
+ms.assetid: e22ee2cc-6443-49d3-aea6-a4ab256d4538
+keywords:
+- TB_ADDSTRING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_ADDSTRING message
@@ -53,16 +59,16 @@ If *wParam* is the HINSTANCE of the application or of another module containing 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_ADDSTRINGW** (Unicode) and **TB\_ADDSTRINGA** (ANSI)<br/>                 |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

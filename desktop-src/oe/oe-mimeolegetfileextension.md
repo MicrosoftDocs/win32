@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetFileExtension function
 description: Do not use. Gets the file name extension for the specified file.
-ms.assetid: '62d651cc-2651-47db-8b8e-937e6bfeb470'
-keywords: ["MimeOleGetFileExtension function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 62d651cc-2651-47db-8b8e-937e6bfeb470
+keywords:
+- MimeOleGetFileExtension function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetFileExtension function
@@ -22,9 +28,9 @@ Do not use. Gets the file name extension for the specified file.
 
 ```C++
 HRESULT MimeOleGetFileExtension(
-  _In_    LPCSTR pszFilePath,
-  _Inout_ LPSTR  pszExt,
-  _In_    ULONG  cchMax
+  _In_    LPCSTR pszFilePath,
+  _Inout_ LPSTR  pszExt,
+  _In_    ULONG  cchMax
 );
 ```
 
@@ -76,7 +82,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -84,8 +90,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -93,9 +99,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

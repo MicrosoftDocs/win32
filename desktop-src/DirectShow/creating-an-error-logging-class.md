@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to implement error logging in DirectShow Editing Services.'
-ms.assetid: 'c0b3b25c-ed03-4f78-9c53-0c0bcff1c60c'
+Description: This topic describes how to implement error logging in DirectShow Editing Services.
+ms.assetid: c0b3b25c-ed03-4f78-9c53-0c0bcff1c60c
 title: Creating an Error Logging Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Error Logging Class

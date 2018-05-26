@@ -1,7 +1,12 @@
 ---
-Description: 'The OnPaletteChange method handles palette-change messages.'
-ms.assetid: '2abae4f1-fbd0-4a32-8772-012fa96b6d6c'
-title: 'CBaseWindow.OnPaletteChange method'
+Description: The OnPaletteChange method handles palette-change messages.
+ms.assetid: 2abae4f1-fbd0-4a32-8772-012fa96b6d6c
+title: CBaseWindow.OnPaletteChange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.OnPaletteChange method
@@ -13,8 +18,8 @@ The `OnPaletteChange` method handles palette-change messages.
 
 ```C++
 virtual LRESULT OnPaletteChange(
-   HWND hwnd,
-   UINT Message
+   HWND hwnd,
+   UINT Message
 );
 ```
 
@@ -64,9 +69,9 @@ This method handles WM\_PALETTECHANGED and WM\_QUERYNEWPALETTE messages. It call
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseReferenceClock class implements a reference clock.'
-ms.assetid: '898e1968-a9ab-4bb9-abf0-943bfae502e2'
+Description: The CBaseReferenceClock class implements a reference clock.
+ms.assetid: 898e1968-a9ab-4bb9-abf0-943bfae502e2
 title: CBaseReferenceClock class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseReferenceClock class
@@ -36,11 +41,11 @@ The `CBaseReferenceClock` class implements a reference clock.
 
 
 
- 
+ 
 
 ## Remarks
 
-This class implements a reference clock that supports the [**IReferenceClock**](ireferenceclock.md) and [**IReferenceClockTimerControl**](ireferenceclocktimercontrol.md) interfaces. If a filter can provide a reference clock for the filter graph—for example, by accessing a hardware device—it can use this class to implement the clock.
+This class implements a reference clock that supports the [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master) and [**IReferenceClockTimerControl**](/windows/win32/Strmif/nn-strmif-ireferenceclocktimercontrol?branch=master) interfaces. If a filter can provide a reference clock for the filter graph for example, by accessing a hardware device it can use this class to implement the clock.
 
 The `CBaseReferenceClock` object maintains two distinct time values:
 
@@ -76,9 +81,9 @@ This class uses a [**CAMSchedule**](camschedule.md) object to handle scheduling 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

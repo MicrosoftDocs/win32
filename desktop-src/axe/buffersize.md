@@ -1,14 +1,20 @@
 ---
 title: BufferSize element
 description: Specifies the size of each ETW buffer.
-ms.assetid: '2E8BD24C-F7A3-4056-B028-35833C402812'
-keywords: ["BufferSize element Access Execution Engine"]
+ms.assetid: 2E8BD24C-F7A3-4056-B028-35833C402812
+keywords:
+- BufferSize element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - BufferSize
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BufferSize element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Application contexts can be used to create side-by-side Windows classes.'
-ms.assetid: '4941ae1b-f9c6-45ff-b39b-a4078a12a58c'
-title: 'Creating Side-By-Side Windows Classes'
+Description: Application contexts can be used to create side-by-side Windows classes.
+ms.assetid: 4941ae1b-f9c6-45ff-b39b-a4078a12a58c
+title: Creating Side-By-Side Windows Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Side-By-Side Windows Classes

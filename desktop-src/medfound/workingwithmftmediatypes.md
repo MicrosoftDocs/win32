@@ -1,7 +1,12 @@
 ---
 Description: Working with MFT Media Types
-ms.assetid: '16c270ee-f246-4222-97e9-d8d0fe009155'
+ms.assetid: 16c270ee-f246-4222-97e9-d8d0fe009155
 title: Working with MFT Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with MFT Media Types

@@ -1,14 +1,20 @@
 ---
 title: ValueMapValueType Complex Type
 description: Defines the mapping between an integer value and a string value.
-ms.assetid: '8fd3b3ed-5b62-4e2e-b6f9-8e1bf6d83a35'
-keywords: ["ValueMapValueType complex type EventLog"]
+ms.assetid: 8fd3b3ed-5b62-4e2e-b6f9-8e1bf6d83a35
+keywords:
+- ValueMapValueType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ValueMapValueType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValueMapValueType Complex Type
@@ -58,14 +64,14 @@ Defines the mapping between an integer value and a string value.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

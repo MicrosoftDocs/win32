@@ -1,7 +1,12 @@
 ---
 title: System Files for SNMP
 description: The following table describes the principal files that relate to the SNMP service.
-ms.assetid: '513d7c75-2f68-4d7d-897f-493089f045cd'
+ms.assetid: 513d7c75-2f68-4d7d-897f-493089f045cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Files for SNMP

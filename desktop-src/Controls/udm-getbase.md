@@ -1,8 +1,9 @@
 ---
 title: UDM\_GETBASE message
 description: Retrieves the current radix base (that is, either base 10 or 16) for an up-down control.
-ms.assetid: 'df755b11-9a11-44f1-bdef-1bb7244c7979'
-keywords: ["UDM_GETBASE message Windows Controls"]
+ms.assetid: df755b11-9a11-44f1-bdef-1bb7244c7979
+keywords:
+- UDM_GETBASE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UDM\_GETBASE message
@@ -37,15 +43,15 @@ The return value is the current base value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

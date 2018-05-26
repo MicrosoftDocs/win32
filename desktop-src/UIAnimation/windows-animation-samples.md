@@ -1,8 +1,14 @@
 ---
 title: Windows Animation Samples
 description: The topics contained in this section provide details about the code samples that support the Windows Animation Manager documentation.
-ms.assetid: '33b1770a-5acb-4ab5-999c-9663f4c075f0'
-keywords: ["Windows Animation Windows Animation ,samples"]
+ms.assetid: 33b1770a-5acb-4ab5-999c-9663f4c075f0
+keywords:
+- Windows Animation Windows Animation ,samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Animation Samples
@@ -23,7 +29,7 @@ The topics contained in this section provide details about the code samples that
 
 
 
- 
+ 
 
 ## Sample Files
 
@@ -90,9 +96,9 @@ Creates animation variables and renders thumbnails.
 [Windows Animation Reference](windows-animation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

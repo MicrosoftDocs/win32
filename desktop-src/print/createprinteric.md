@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '87C99B3A-EF77-4D87-9953-BBE9628D2A3D'
+---
+Description: .
+ms.assetid: 87C99B3A-EF77-4D87-9953-BBE9628D2A3D
 title: CreatePrinterIC function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreatePrinterIC function

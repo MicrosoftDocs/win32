@@ -4,18 +4,22 @@ description: The following code example registers or unregisters one or more ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '60c252c7-76d2-4683-bf90-0f3483e6e8e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 60c252c7-76d2-4683-bf90-0f3483e6e8e0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Registering the SPNs for a Service AD"]
+keywords:
+- Registering the SPNs for a Service AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering the SPNs for a Service
 
 The following code example registers or unregisters one or more service principal names (SPNs) for a service instance.
 
-The example calls the [**DsWriteAccountSpn**](dswriteaccountspn.md) function, which stores the SPNs in Active Directory Domain Services under the [**servicePrincipalName**](https://msdn.microsoft.com/library/ms679785) attribute of the account object specified by the *pszServiceAcctDN* parameter. The account object corresponds to the logon account specified in the [**CreateService**](https://msdn.microsoft.com/library/windows/desktop/ms682450) call for this service instance. If the logon account is a domain user account, *pszServiceAcctDN* must be the distinguished name of the account object in Active Directory Domain Servers for that user account. If the service's logon account is the LocalSystem account, *pszServiceAcctDN* must be the distinguished name of the computer account object for the host computer on which the service is installed.
+The example calls the [**DsWriteAccountSpn**](/windows/win32/Ntdsapi/nf-ntdsapi-dswriteaccountspna?branch=master) function, which stores the SPNs in Active Directory Domain Services under the [**servicePrincipalName**](https://msdn.microsoft.com/library/ms679785) attribute of the account object specified by the *pszServiceAcctDN* parameter. The account object corresponds to the logon account specified in the [**CreateService**](https://msdn.microsoft.com/library/windows/desktop/ms682450) call for this service instance. If the logon account is a domain user account, *pszServiceAcctDN* must be the distinguished name of the account object in Active Directory Domain Servers for that user account. If the service's logon account is the LocalSystem account, *pszServiceAcctDN* must be the distinguished name of the computer account object for the host computer on which the service is installed.
 
 
 ```C++

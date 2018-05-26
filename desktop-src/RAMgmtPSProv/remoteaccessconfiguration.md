@@ -2,13 +2,15 @@
 title: RemoteAccessConfiguration class
 description: Manages a Remote Access configuration.
 audience: developer
-ms.assetid: '4bca8d34-12af-4f7c-8888-b0466a745704'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4bca8d34-12af-4f7c-8888-b0466a745704
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessConfiguration class", "RemoteAccessConfiguration class, described"]
+keywords:
+- RemoteAccessConfiguration class
+- RemoteAccessConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessConfiguration class
@@ -44,19 +49,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class RemoteAccessConfiguration
 {
-  uint32                                 Version;
-  uint64                                 RemoteAccessCapacityKbps;
+  uint32                                 Version;
+  uint64                                 RemoteAccessCapacityKbps;
   RemoteAccessRoutingDomainConfiguration RoutingDomainConfig[];
-  RemoteAccessS2SConfiguration           S2SInterfaceConfiguration[];
-  VSIDConfiguration                      VSIDs[];
-  uint8                                  GlobalIpv4TransportInfo[];
-  uint8                                  GlobalIpv6TransportInfo[];
-  RemoteAccessServerAuthConfiguration    ServerAuthConfig;
-  object                                 ServerIpSecConfiguration;
-  RemoteAccessRadiusConfig               RadiusServerConfigs[];
-  string                                 RadiusAccountingStatus;
-  string                                 VPNAuthType;
-  RemoteAccessBgpPeerConfig              BGPPeerConfig[];
+  RemoteAccessS2SConfiguration           S2SInterfaceConfiguration[];
+  VSIDConfiguration                      VSIDs[];
+  uint8                                  GlobalIpv4TransportInfo[];
+  uint8                                  GlobalIpv6TransportInfo[];
+  RemoteAccessServerAuthConfiguration    ServerAuthConfig;
+  object                                 ServerIpSecConfiguration;
+  RemoteAccessRadiusConfig               RadiusServerConfigs[];
+  string                                 RadiusAccountingStatus;
+  string                                 VPNAuthType;
+  RemoteAccessBgpPeerConfig              BGPPeerConfig[];
 };
 ```
 
@@ -269,7 +274,7 @@ The Virtual Subnet ID (VSID) configuration as a [**VSIDConfiguration**](vsidconf
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -283,9 +288,9 @@ The Virtual Subnet ID (VSID) configuration as a [**VSIDConfiguration**](vsidconf
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

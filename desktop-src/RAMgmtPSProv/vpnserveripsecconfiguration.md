@@ -2,13 +2,15 @@
 title: VpnServerIPsecConfiguration class
 description: Represents a VPN server Internet Protocol Security (IPsec) configuration.
 audience: developer
-ms.assetid: '3cee426d-87f3-4ac9-88d7-f94bc375825b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3cee426d-87f3-4ac9-88d7-f94bc375825b
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnServerIPsecConfiguration class", "VpnServerIPsecConfiguration class, described"]
+keywords:
+- VpnServerIPsecConfiguration class
+- VpnServerIPsecConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnServerIPsecConfiguration class
@@ -75,7 +80,7 @@ Access type: Read/write
 
 Number of GRE ports created
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -131,7 +136,7 @@ Access type: Read/write
 
 Lifetime of main mode security association (SA) in seconds, after which the MM SA is no longer valid
 
-**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -172,7 +177,7 @@ Access type: Read/write
 
 Number of SSTP ports created
 
-**Windows Server 2012:** This property is not supported before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not supported before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -187,7 +192,7 @@ Access type: Read/write
 
 The tunnel type to apply to custom policy
 
-**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
+**Windows Server 2012:** This property is not available before Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -198,16 +203,16 @@ The tunnel type to apply to custom policy
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: priorityType Simple Type
 description: Defines the minimum and maximum values for the Priority (settingsType) element.
-ms.assetid: '44e97d78-f035-4db9-a557-f24960518628'
-keywords: ["priorityType simple type Task Scheduler"]
+ms.assetid: 44e97d78-f035-4db9-a557-f24960518628
+keywords:
+- priorityType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - priorityType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # priorityType Simple Type
@@ -49,8 +55,8 @@ The **priorityType** simple type defines the following values.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -64,9 +70,9 @@ The **priorityType** simple type defines the following values.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

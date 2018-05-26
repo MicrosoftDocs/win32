@@ -1,8 +1,16 @@
 ---
 title: NavigateXmlExample
 description: This example writes XML to an XML buffer, and then reads it back out.
-ms.assetid: 'b37da839-de05-4fb6-b1aa-b00801e88e47'
-keywords: ["NavigateXmlExample Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: b37da839-de05-4fb6-b1aa-b00801e88e47
+keywords:
+- NavigateXmlExample Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NavigateXmlExample

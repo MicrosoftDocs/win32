@@ -1,8 +1,11 @@
 ---
 title: Subject GetInstanceDisplay method
 description: Returns the instance display name of the Subject.
-ms.assetid: '182CC705-F41B-4CD4-8E65-0CD4CB803AEE'
-keywords: ["GetInstanceDisplay method Access Execution Engine", "GetInstanceDisplay method Access Execution Engine , Subject interface", "Subject interface Access Execution Engine , GetInstanceDisplay method"]
+ms.assetid: 182CC705-F41B-4CD4-8E65-0CD4CB803AEE
+keywords:
+- GetInstanceDisplay method Access Execution Engine
+- GetInstanceDisplay method Access Execution Engine , Subject interface
+- Subject interface Access Execution Engine , GetInstanceDisplay method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subject::GetInstanceDisplay method
@@ -22,7 +30,7 @@ Returns the instance display name of the **Subject**.
 
 ```C++
 virtual HRESULT GetInstanceDisplay(
-  [out] LPCWSTR *name
+  [out] LPCWSTR *name
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The instance display name is the value of element **Subject/Instance/DisplayName
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The instance display name is the value of element **Subject/Instance/DisplayName
 [**Subject**](subject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

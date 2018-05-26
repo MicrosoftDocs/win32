@@ -1,7 +1,12 @@
 ---
-Description: 'The SetDelayTime method sets the delay time for the ToolTip associated with the MSWebDVD object.'
-ms.assetid: 'bb1086e1-57e2-495a-9b7b-2d349a516e72'
+Description: The SetDelayTime method sets the delay time for the ToolTip associated with the MSWebDVD object.
+ms.assetid: bb1086e1-57e2-495a-9b7b-2d349a516e72
 title: SetDelayTime
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetDelayTime

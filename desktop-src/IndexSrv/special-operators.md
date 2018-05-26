@@ -1,7 +1,12 @@
 ---
 title: Special Operators
 description: Special Operators
-ms.assetid: 'a34b24dc-72dc-45fe-afec-a450c9e84853'
+ms.assetid: a34b24dc-72dc-45fe-afec-a450c9e84853
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Special Operators

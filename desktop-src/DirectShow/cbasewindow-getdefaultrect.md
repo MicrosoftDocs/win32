@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDefaultRect method retrieves the default size of the client area.'
-ms.assetid: '9eb9e3a4-0d45-4aa3-a496-1b0bd92d4989'
-title: 'CBaseWindow.GetDefaultRect method'
+Description: The GetDefaultRect method retrieves the default size of the client area.
+ms.assetid: 9eb9e3a4-0d45-4aa3-a496-1b0bd92d4989
+title: CBaseWindow.GetDefaultRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.GetDefaultRect method
@@ -47,9 +52,9 @@ When the window is activated, the object calls this method to determine how larg
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,20 @@
 ---
 title: Comparison Predicate
 description: Comparison Predicate
-ms.assetid: '1a6f6612-dd24-4f1a-afff-ba50b152ce7b'
+ms.assetid: 1a6f6612-dd24-4f1a-afff-ba50b152ce7b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Comparison Predicate
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 A comparison predicate uses arithmetic operators to compare column data to a literal value. For a row to be selected, the predicate must evaluate to TRUE. (Indexing Service queries that use such predicates are called *relational property queries*.) This predicate is an optional part of the optional **WHERE** clause of the **SELECT** statement.
 
@@ -71,7 +76,7 @@ Specifies the arithmetic operator to use to compare the column reference data to
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -152,7 +157,7 @@ The Indexing Service engine requires dates to be in terms of file times based on
 <li><em>minute</em> or <em>mi</em></li>
 <li><em>second</em> or <em>ss</em></li>
 </ul>
-The <strong>GETGMTDATE()</strong> function is modeled after the <strong>GETDATE()</strong> function in Microsoft SQL Server™, but <strong>GETGMTDATE()</strong> indicates the current GMT rather than the current time on the local computer. <br/> Use the following format to specify the relative date/time: <br/> For example, to express an Indexing Service relative time value of -2 years, enter:<br/>
+The <strong>GETGMTDATE()</strong> function is modeled after the <strong>GETDATE()</strong> function in Microsoft SQL Server , but <strong>GETGMTDATE()</strong> indicates the current GMT rather than the current time on the local computer. <br/> Use the following format to specify the relative date/time: <br/> For example, to express an Indexing Service relative time value of -2 years, enter:<br/>
 <pre class="syntax" data-space="preserve"><code>DATEADD(year, -2, GETGMTDATE())</code></pre>
 To express a relative time value of - 3 years, 24 days, and 5 hours, enter: <br/>
 <pre class="syntax" data-space="preserve"><code>DATEADD(hh, -5, DATEADD(dd, -24, DATEADD(yy, -3, GETGMTDATE())))</code></pre>
@@ -176,7 +181,7 @@ When determining whether a literal is defined, use <strong>IS</strong> and <stro
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -249,9 +254,9 @@ The following example returns all the files that have a size less than 10,0000 o
 [WHERE Clause](where-clause.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

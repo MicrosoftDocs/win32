@@ -1,7 +1,12 @@
 ---
 title: Modifying Part Content
 description: This topic shows how to use the Packaging APIs to modify the content of a part in a package.
-ms.assetid: 'e00425a6-1e80-40e7-bd49-147658d0d076'
+ms.assetid: e00425a6-1e80-40e7-bd49-147658d0d076
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying Part Content
@@ -115,7 +120,7 @@ HRESULT
 
     In the [Set Author Sample](set-author-sample.md), where these code examples originate, a helper function is used to create a DOM to represent part content because the content of the Core Properties part is XML markup. Using the XML DOM APIs in this way facilitates the use of XPath queries to locate content that is to be changed. For the implementation details of `DOMFromPart`, see [opclib.cpp](opclib-cpp.md) of the Set Author Sample.
 
-    If the part content is not XML markup, retrieve the part content stream by calling the [**IOpcPart::GetContentStream**](iopcpart-getcontentstream.md) method and change the data as needed for the application.
+    If the part content is not XML markup, retrieve the part content stream by calling the [**IOpcPart::GetContentStream**](/windows/previous-versions/msopc/nf-msopc-iopcpart-getcontentstream?branch=master) method and change the data as needed for the application.
 
     The changes made by using the XML DOM APIs must be explicitly applied to part content by using the part content stream.
 

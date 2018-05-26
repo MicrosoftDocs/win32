@@ -1,8 +1,9 @@
 ---
 title: MCI\_RESUME command
 description: The MCI\_RESUME command causes a paused device to resume the paused operation.
-ms.assetid: '2df712c1-5005-4e89-a439-a651076bbb73'
-keywords: ["MCI_RESUME command Windows Multimedia"]
+ms.assetid: 2df712c1-5005-4e89-a439-a651076bbb73
+keywords:
+- MCI_RESUME command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_RESUME command
 
 The MCI\_RESUME command causes a paused device to resume the paused operation. Digital-video, VCR, and waveform-audio devices recognize this command. Although CD audio, MIDI sequencer, and videodisc devices also recognize this command, the MCICDA, MCISEQ, and MCIPIONR device drivers do not support it.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -70,8 +76,8 @@ This command resumes playing and recording without changing the current track po
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ This command resumes playing and recording without changing the current track po
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

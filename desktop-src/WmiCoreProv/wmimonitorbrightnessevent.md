@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a change in the brightness of a monitor.'
-ms.assetid: 'c2eb5630-a52f-4ad4-aaee-1cc8afef8c9e'
+Description: Represents a change in the brightness of a monitor.
+ms.assetid: c2eb5630-a52f-4ad4-aaee-1cc8afef8c9e
 title: WmiMonitorBrightnessEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorBrightnessEvent class
@@ -14,8 +19,8 @@ The **WmiMonitorBrightnessEvent** WMI event class represents a change in the bri
 class WmiMonitorBrightnessEvent : WMIEvent
 {
   boolean Active;
-  uint8   Brightness;
-  string  InstanceName;
+  uint8   Brightness;
+  string  InstanceName;
 };
 ```
 
@@ -79,8 +84,8 @@ Name of the specific monitor instance.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -100,9 +105,9 @@ Name of the specific monitor instance.
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: BgpRouteInfo class
 description: Retrieves the configuration of a Border Gateway Protocol (BGP) route.
 audience: developer
-ms.assetid: '8c065e49-eb6f-4a19-a697-a12d19edebb7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8c065e49-eb6f-4a19-a697-a12d19edebb7
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BgpRouteInfo class", "BgpRouteInfo class, described"]
+keywords:
+- BgpRouteInfo class
+- BgpRouteInfo class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BgpRouteInfo class
@@ -45,20 +50,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class BgpRouteInfo
 {
-  string        RoutingDomain;
-  string        Network;
-  string        NextHop;
-  string        Origin;
+  string        RoutingDomain;
+  string        Network;
+  string        NextHop;
+  string        Origin;
   ASPathSegment ASPath[];
-  uint32        LocalPref;
-  string        Community[];
-  uint32        MED;
-  string        LearnedFromPeer;
-  uint32        State[];
-  uint32        ClusterList[];
-  string        OriginatorId;
-  string        Aggregator;
-  boolean       Aggregate;
+  uint32        LocalPref;
+  string        Community[];
+  uint32        MED;
+  string        LearnedFromPeer;
+  uint32        State[];
+  uint32        ClusterList[];
+  string        OriginatorId;
+  string        Aggregator;
+  boolean       Aggregate;
 };
 ```
 
@@ -85,7 +90,7 @@ Access type: Read-only
 
 **True** if the route is an aggregate route.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -100,7 +105,7 @@ Access type: Read-only
 
 Contains the 2 byte ASN\|IpAddress of the aggregating node in case the route is an aggregated route
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -131,7 +136,7 @@ Access type: Read-only
 
 The Cluster Ids that make up the cluster list of the route.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -262,7 +267,7 @@ Access type: Read-only
 
 The BGP identifier of the originator of the route in the local autonomous system (AS).
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -280,7 +285,7 @@ The user-defined alphanumeric ID of the network's routing domain.
 > [!Note]  
 > This property is only used with multi-tenant deployments.
 
- 
+ 
 
 </dd> <dt>
 
@@ -297,7 +302,7 @@ A flag that indicates the state of route.
 
 Examples: BestPath or Suppressed
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> </dl>
 
@@ -308,7 +313,7 @@ Examples: BestPath or Suppressed
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -322,9 +327,9 @@ Examples: BestPath or Suppressed
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

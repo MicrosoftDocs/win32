@@ -1,14 +1,19 @@
 ---
-Description: 'The topic Using a Color Matrix to Set Alpha Values in Images shows a nondestructive method for changing the alpha values of an image.'
-ms.assetid: '38c6254d-5191-4948-804a-1a4427aab7c6'
+Description: The topic Using a Color Matrix to Set Alpha Values in Images shows a nondestructive method for changing the alpha values of an image.
+ms.assetid: 38c6254d-5191-4948-804a-1a4427aab7c6
 title: Setting the Alpha Values of Individual Pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Alpha Values of Individual Pixels
 
 The topic [Using a Color Matrix to Set Alpha Values in Images](-gdiplus-using-a-color-matrix-to-set-alpha-values-in-images-use.md) shows a nondestructive method for changing the alpha values of an image. The example in that topic renders an image semitransparently, but the pixel data in the bitmap is not changed. The alpha values are altered only during rendering.
 
-The following example shows how to change the alpha values of individual pixels. The code in the example actually changes the alpha information in a [**Bitmap**](-gdiplus-class-bitmap-class.md) object. The approach is much slower than using a color matrix and an [**ImageAttributes**](-gdiplus-class-imageattributes-class.md) object but gives you control over the individual pixels in the bitmap.
+The following example shows how to change the alpha values of individual pixels. The code in the example actually changes the alpha information in a [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) object. The approach is much slower than using a color matrix and an [**ImageAttributes**](/windows/win32/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes?branch=master) object but gives you control over the individual pixels in the bitmap.
 
 
 ```
@@ -41,9 +46,9 @@ The following illustration shows the resulting image.
 
 ![illustration showing an image that gets more opaque from left to right, over a black rectangle](images/image3.png)
 
-The preceding code example uses nested loops to change the alpha value of each pixel in the bitmap. For each pixel, [**Bitmap::GetPixel**](-gdiplus-class-bitmap-getpixel-x-y-color-.md) gets the existing color, [**Color::SetValue**](-gdiplus-class-color-setvalue-argb-.md) creates a temporary color that contains the new alpha value, and then [**Bitmap::SetPixel**](-gdiplus-class-bitmap-setpixel-x-y-color-.md) sets the new color. The alpha value is set based on the column of the bitmap. In the first column, alpha is set to 0. In the last column, alpha is set to 255. So the resulting image goes from fully transparent (on the left edge) to fully opaque (on the right edge).
+The preceding code example uses nested loops to change the alpha value of each pixel in the bitmap. For each pixel, [**Bitmap::GetPixel**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-bitmap-getpixel?branch=master) gets the existing color, [**Color::SetValue**](/windows/win32/Gdipluscolor/nf-gdipluscolor-color-setvalue?branch=master) creates a temporary color that contains the new alpha value, and then [**Bitmap::SetPixel**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-bitmap-setpixel?branch=master) sets the new color. The alpha value is set based on the column of the bitmap. In the first column, alpha is set to 0. In the last column, alpha is set to 255. So the resulting image goes from fully transparent (on the left edge) to fully opaque (on the right edge).
 
-[**Bitmap::GetPixel**](-gdiplus-class-bitmap-getpixel-x-y-color-.md) and [**Bitmap::SetPixel**](-gdiplus-class-bitmap-setpixel-x-y-color-.md) give you control of the individual pixel values. However, using **Bitmap::GetPixel** and **Bitmap::SetPixel** is not nearly as fast as using the [**ImageAttributes**](-gdiplus-class-imageattributes-class.md) class and the [**ColorMatrix**](-gdiplus-struc-colormatrix.md) structure.
+[**Bitmap::GetPixel**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-bitmap-getpixel?branch=master) and [**Bitmap::SetPixel**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-bitmap-setpixel?branch=master) give you control of the individual pixel values. However, using **Bitmap::GetPixel** and **Bitmap::SetPixel** is not nearly as fast as using the [**ImageAttributes**](/windows/win32/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes?branch=master) class and the [**ColorMatrix**](/windows/win32/Gdipluscolormatrix/ns-gdipluscolormatrix-colormatrix?branch=master) structure.
 
  
 

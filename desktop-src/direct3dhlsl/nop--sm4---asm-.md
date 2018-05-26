@@ -1,7 +1,12 @@
 ---
 title: nop (sm4 - asm)
 description: Do nothing.
-ms.assetid: '0FFCBD8D-F67F-418B-B37A-0428DA27A778'
+ms.assetid: 0FFCBD8D-F67F-418B-B37A-0428DA27A778
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # nop (sm4 - asm)

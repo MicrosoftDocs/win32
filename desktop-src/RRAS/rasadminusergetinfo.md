@@ -1,8 +1,9 @@
 ---
 title: RasAdminUserGetInfo function
 description: The RasAdminUserGetInfo function gets the RAS permissions and callback phone number information for a specified user.
-ms.assetid: '178ff775-9cd2-43f0-9a9a-dbae337c5fe8'
-keywords: ["RasAdminUserGetInfo function RAS"]
+ms.assetid: 178ff775-9cd2-43f0-9a9a-dbae337c5fe8
+keywords:
+- RasAdminUserGetInfo function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Rassapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RasAdminUserGetInfo function
 
-\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminUserGetInfo**](mpradminusergetinfo.md) function.\]
+\[This function is provided only for backward compatibility with Windows NT Server 4.0. It returns ERROR\_CALL\_NOT\_IMPLEMENTED on Windows Server 2003. Applications should use the [**MprAdminUserGetInfo**](/windows/win32/Mprapi/nf-mprapi-mpradminusergetinfo?branch=master) function.\]
 
 The **RasAdminUserGetInfo** function gets the RAS permissions and callback phone number information for a specified user.
 
@@ -24,9 +30,9 @@ The **RasAdminUserGetInfo** function gets the RAS permissions and callback phone
 
 ```C++
 DWORD RasAdminUserGetInfo(
-  _In_ const WCHAR       *lpszUserAccountServer,
-  _In_ const WCHAR       *lpszUser,
-             PRAS_USER_0 pRasUser0
+  _In_ const WCHAR       *lpszUserAccountServer,
+  _In_ const WCHAR       *lpszUser,
+             PRAS_USER_0 pRasUser0
 );
 ```
 
@@ -71,7 +77,7 @@ If the function fails, the return value can be the following error code.
 
 
 
- 
+ 
 
 There is no extended error information for this function; do not call [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360).
 
@@ -81,8 +87,8 @@ There is no extended error information for this function; do not call [**GetLast
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
-| End of server support<br/> | Windows 2000 Server<br/>                                                         |
+| End of client support<br/> | Windows 2000 Professional<br/>                                                   |
+| End of server support<br/> | Windows 2000 Server<br/>                                                         |
 | Header<br/>                | <dl> <dt>Rassapi.h</dt> </dl>   |
 | Library<br/>               | <dl> <dt>Rassapi.lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
@@ -108,9 +114,9 @@ There is no extended error information for this function; do not call [**GetLast
 [**RasAdminUserSetInfo**](rasadminusersetinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

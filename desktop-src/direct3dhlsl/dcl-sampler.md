@@ -1,7 +1,12 @@
 ---
 title: dcl\_sampler (sm4 - asm)
 description: dcl\_sampler (sm4 - asm)
-ms.assetid: '285a47fa-2d47-4ba9-90b9-3f4c61d5dce1'
+ms.assetid: 285a47fa-2d47-4ba9-90b9-3f4c61d5dce1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_sampler (sm4 - asm)
@@ -15,7 +20,7 @@ Declares a sampler register.
 
 
 
- 
+ 
 
 
 
@@ -61,14 +66,14 @@ Declares a sampler register.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 The mode restricts the sample instructions that can be used; this table lists the texture-object methods that are supported for each mode.
 
@@ -82,7 +87,7 @@ The mode restricts the sample instructions that can be used; this table lists th
 
 
 
- 
+ 
 
 This instruction applies to the following shader stages:
 
@@ -94,7 +99,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 \* - Using a sampler in mono mode is supported only in a pixel shader.
 
@@ -128,7 +133,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -137,9 +142,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

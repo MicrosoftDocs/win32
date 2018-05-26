@@ -1,12 +1,17 @@
 ---
-Description: 'The Image class provides the Image::GetEncoderParameterList method so that you can determine the parameters that are supported by a given image encoder.'
-ms.assetid: '2e1a5279-dd9d-46de-822c-d356a344f340'
+Description: The Image class provides the ImageGetEncoderParameterList method so that you can determine the parameters that are supported by a given image encoder.
+ms.assetid: 2e1a5279-dd9d-46de-822c-d356a344f340
 title: Determining the Parameters Supported by an Encoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining the Parameters Supported by an Encoder
 
-The [**Image**](-gdiplus-class-image-class.md) class provides the [**Image::GetEncoderParameterList**](-gdiplus-class-image-getencoderparameterlist-clsidencoder-size-buffer-.md) method so that you can determine the parameters that are supported by a given image encoder. The **Image::GetEncoderParameterList** method returns an array of [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) objects. You must allocate a buffer to receive that array before you call **Image::GetEncoderParameterList**. You can call [**Image::GetEncoderParameterListSize**](-gdiplus-class-image-getencoderparameterlistsize-clsidencoder-.md) to determine the size of the required buffer.
+The [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class provides the [**Image::GetEncoderParameterList**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist?branch=master) method so that you can determine the parameters that are supported by a given image encoder. The **Image::GetEncoderParameterList** method returns an array of [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) objects. You must allocate a buffer to receive that array before you call **Image::GetEncoderParameterList**. You can call [**Image::GetEncoderParameterListSize**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize?branch=master) to determine the size of the required buffer.
 
 The following console application obtains the parameter list for the JPEG encoder. The main function relies on the helper function GetEncoderClsid, which is shown in [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
 
@@ -72,9 +77,9 @@ There are 4 EncoderParameter objects in the array.
 
 
 
-Each of the [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) objects in the array has the following four public data members:
+Each of the [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) objects in the array has the following four public data members:
 
-The following code is a continuation of the console application shown in the preceding example. The code looks at the second [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object in the array returned by [**Image::GetEncoderParameterList**](-gdiplus-class-image-getencoderparameterlist-clsidencoder-size-buffer-.md). The code calls [StringFromGUID2](http://msdn.microsoft.com/library/en-us/com/htm/cmf_m2z_2jzm.asp), which is a system function declared in Objbase.h, to convert the **Guid** member of the **EncoderParameter** object to a string.
+The following code is a continuation of the console application shown in the preceding example. The code looks at the second [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object in the array returned by [**Image::GetEncoderParameterList**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist?branch=master). The code calls [StringFromGUID2](http://msdn.microsoft.com/library/en-us/com/htm/cmf_m2z_2jzm.asp), which is a system function declared in Objbase.h, to convert the **Guid** member of the **EncoderParameter** object to a string.
 
 
 ```
@@ -106,11 +111,11 @@ Parameter[1]
 
 
 
-You can look up the GUID in Gdiplusimaging.h and find out that the category of this [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object is EncoderQuality. You can use this category (EncoderQuality) of parameter to set the compression level of a JPEG image.
+You can look up the GUID in Gdiplusimaging.h and find out that the category of this [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object is EncoderQuality. You can use this category (EncoderQuality) of parameter to set the compression level of a JPEG image.
 
-In Gdiplusenums.h, the [**EncoderParameterValueType**](-gdiplus-enum-encoderparametervaluetype.md) enumeration indicates that data type 6 is **ValueLongRange**. A long range is a pair of **ULONG** values.
+In Gdiplusenums.h, the [**EncoderParameterValueType**](/windows/win32/Gdiplusenums/ne-gdiplusenums-encoderparametervaluetype?branch=master) enumeration indicates that data type 6 is **ValueLongRange**. A long range is a pair of **ULONG** values.
 
-The number of values is one, so we know that the **Value** member of the [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object is a pointer to an array that has one element. That one element is a pair of **ULONG** values.
+The number of values is one, so we know that the **Value** member of the [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object is a pointer to an array that has one element. That one element is a pair of **ULONG** values.
 
 The following code is a continuation of the console application that is shown in the preceding two examples. The code defines a data type called **PLONGRANGE** (pointer to a long range). A variable of type **PLONGRANGE** is used to extract the minimum and maximum values that can be passed as a quality setting to the JPEG encoder.
 
@@ -144,7 +149,7 @@ The maximum possible quality value is 100.
 
 
 
-In the preceding example, the value returned in the [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object is a pair of **ULONG** values that indicate the minimum and maximum possible values for the quality parameter. In some cases, the values returned in an **EncoderParameter** object are members of the [**EncoderValue**](-gdiplus-enum-encodervalue.md) enumeration. The following topics discuss the **EncoderValue** enumeration and methods for listing possible parameter values in more detail:
+In the preceding example, the value returned in the [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object is a pair of **ULONG** values that indicate the minimum and maximum possible values for the quality parameter. In some cases, the values returned in an **EncoderParameter** object are members of the [**EncoderValue**](/windows/win32/Gdiplusenums/ne-gdiplusenums-encodervalue?branch=master) enumeration. The following topics discuss the **EncoderValue** enumeration and methods for listing possible parameter values in more detail:
 
 -   [Using the EncoderValue Enumeration](-gdiplus-using-the-encodervalue-enumeration-use.md)
 -   [Listing Parameters and Values for All Encoders](-gdiplus-listing-parameters-and-values-for-all-encoders-use.md)

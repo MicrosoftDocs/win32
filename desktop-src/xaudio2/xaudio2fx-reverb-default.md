@@ -1,12 +1,17 @@
-﻿---
-Description: 'Default values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.'
-ms.assetid: 'a7e579ae-5390-ebac-27e4-bbdd71a82181'
-title: 'XAUDIO2FX\_REVERB\_DEFAULT'
+---
+Description: Default values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
+ms.assetid: a7e579ae-5390-ebac-27e4-bbdd71a82181
+title: XAUDIO2FX\_REVERB\_DEFAULT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAUDIO2FX\_REVERB\_DEFAULT
 
-Default values for use with the [**XAUDIO2FX\_REVERB\_PARAMETERS**](xaudio2fx-reverb-parameters.md) structure.
+Default values for use with the [**XAUDIO2FX\_REVERB\_PARAMETERS**](/windows/win32/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_parameters?branch=master) structure.
 
 <dl> <span id="XAUDIO2FX_REVERB_DEFAULT_WET_DRY_MIX"></span><span id="xaudio2fx_reverb_default_wet_dry_mix"></span>**XAUDIO2FX\_REVERB\_DEFAULT\_WET\_DRY\_MIX** (100.0f)  
 <span id="XAUDIO2FX_REVERB_DEFAULT_REFLECTIONS_DELAY"></span><span id="xaudio2fx_reverb_default_reflections_delay"></span>**XAUDIO2FX\_REVERB\_DEFAULT\_REFLECTIONS\_DELAY** (5)  

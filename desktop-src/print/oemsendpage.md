@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMSendPage function is called by GDI when it has finished drawing a physical page, so that the driver can send the page to the printer.'
-ms.assetid: '9a3380d0-2d90-49ec-b97d-be55eb6eaaa5'
+---
+Description: The OEMSendPage function is called by GDI when it has finished drawing a physical page, so that the driver can send the page to the printer.
+ms.assetid: 9a3380d0-2d90-49ec-b97d-be55eb6eaaa5
 title: OEMSendPage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMSendPage function

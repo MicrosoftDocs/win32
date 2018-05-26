@@ -1,14 +1,20 @@
 ---
 title: onblur
 description: The onblur event handler handles an event that occurs when the element loses the keyboard focus.
-ms.assetid: '38bbf373-3050-4247-b2c9-3215bc63c6eb'
-keywords: ["onblur Windows Media Player"]
+ms.assetid: 38bbf373-3050-4247-b2c9-3215bc63c6eb
+keywords:
+- onblur Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onblur
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onblur
@@ -40,9 +46,9 @@ The **onblur** event handler is not applicable to the **EFFECTS** element or the
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

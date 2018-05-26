@@ -1,12 +1,17 @@
 ---
-Description: 'A hatch pattern is made from two colors: one for the background and one for the lines that form the pattern over the background.'
-ms.assetid: '7c2bfe54-3259-40d6-9eb4-1a8ad3dda477'
+Description: A hatch pattern is made from two colors one for the background and one for the lines that form the pattern over the background.
+ms.assetid: 7c2bfe54-3259-40d6-9eb4-1a8ad3dda477
 title: Filling a Shape with a Hatch Pattern
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filling a Shape with a Hatch Pattern
 
-A hatch pattern is made from two colors: one for the background and one for the lines that form the pattern over the background. To fill a closed shape with a hatch pattern, use a [**HatchBrush**](-gdiplus-class-hatchbrush-class.md) object. The following example demonstrates how to fill an ellipse with a hatch pattern:
+A hatch pattern is made from two colors: one for the background and one for the lines that form the pattern over the background. To fill a closed shape with a hatch pattern, use a [**HatchBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-hatchbrush?branch=master) object. The following example demonstrates how to fill an ellipse with a hatch pattern:
 
 
 ```
@@ -21,7 +26,7 @@ The following illustration shows the filled ellipse.
 
 ![illustration of an ellipse filled with hatch pattern of horizontal lines over a solid background](images/hatch1.png)
 
-The [**HatchBrush**](-gdiplus-class-hatchbrush-class.md) constructor takes three arguments: the hatch style, the color of the hatch line, and the color of the background. The hatch style argument can be any element of the [**HatchStyle**](-gdiplus-enum-hatchstyle.md) enumeration. There are more than fifty elements in the **HatchStyle** enumeration; a few of those elements are shown in the following list:
+The [**HatchBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-hatchbrush?branch=master) constructor takes three arguments: the hatch style, the color of the hatch line, and the color of the background. The hatch style argument can be any element of the [**HatchStyle**](/windows/win32/Gdiplusenums/ne-gdiplusenums-hatchstyle?branch=master) enumeration. There are more than fifty elements in the **HatchStyle** enumeration; a few of those elements are shown in the following list:
 
 -   **HatchStyleHorizontal**
 -   **HatchStyleVertical**

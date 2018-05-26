@@ -2,8 +2,28 @@
 title: C
 description: Definitions of OpenGL terms that begin with the letter C.
 Robots: noindex, nofollow
-ms.assetid: '037c39b1-b728-41d3-a664-c0aa6c487103'
-keywords: ["client computers", "client memory", "clip coordinates", "clipping", "color index", "color-index mode", "color maps", "components", "contexts", "convex", "convex hull", "coordinate system", "culling", "current matrix", "current raster position"]
+ms.assetid: 037c39b1-b728-41d3-a664-c0aa6c487103
+keywords:
+- client computers
+- client memory
+- clip coordinates
+- clipping
+- color index
+- color-index mode
+- color maps
+- components
+- contexts
+- convex
+- convex hull
+- coordinate system
+- culling
+- current matrix
+- current raster position
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C

@@ -4,11 +4,15 @@ description: Microsoft provides the Active Directory Service Interfaces (ADSI) f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b0408b09-9667-4cf5-8685-81373c4e6451'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: b0408b09-9667-4cf5-8685-81373c4e6451
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP and ADSI LDAP"]
+keywords:
+- LDAP and ADSI LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP and ADSI

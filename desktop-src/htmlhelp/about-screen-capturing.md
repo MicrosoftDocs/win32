@@ -1,7 +1,12 @@
 ---
 title: About Screen Capturing
 description: About Screen Capturing
-ms.assetid: '88C66E0E-3BF9-428e-9EAD-18753AFAE5C4'
+ms.assetid: 88C66E0E-3BF9-428e-9EAD-18753AFAE5C4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Screen Capturing

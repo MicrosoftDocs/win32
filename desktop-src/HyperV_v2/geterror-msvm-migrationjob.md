@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the error object for the migration job, if one exists.'
-ms.assetid: '83a68ded-086a-42d9-b76d-e46af70d9b43'
-title: 'GetError method of the Msvm\_MigrationJob class'
+Description: Retrieves the error object for the migration job, if one exists.
+ms.assetid: 83a68ded-086a-42d9-b76d-e46af70d9b43
+title: GetError method of the Msvm\_MigrationJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetError method of the Msvm\_MigrationJob class
@@ -13,7 +18,7 @@ Retrieves the error object for the migration job, if one exists. When the job is
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -78,8 +83,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ This method returns one of the following values.
 [**Msvm\_MigrationJob**](msvm-migrationjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

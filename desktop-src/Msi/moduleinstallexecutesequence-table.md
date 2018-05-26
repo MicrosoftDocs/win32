@@ -1,7 +1,12 @@
 ---
-Description: 'A merge tool evaluates the ModuleInstallExecuteSequence table and then inserts the calculated actions into the InstallExecuteSequence table with a correct sequence number.'
-ms.assetid: '6cd04d9a-5489-4fde-951e-aa962e9bd755'
+Description: A merge tool evaluates the ModuleInstallExecuteSequence table and then inserts the calculated actions into the InstallExecuteSequence table with a correct sequence number.
+ms.assetid: 6cd04d9a-5489-4fde-951e-aa962e9bd755
 title: ModuleInstallExecuteSequence Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModuleInstallExecuteSequence Table

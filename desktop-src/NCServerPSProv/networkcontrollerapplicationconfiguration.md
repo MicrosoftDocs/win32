@@ -4,11 +4,13 @@ description: Contains the network controller application configuration data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e2173d76-e5cd-4ad4-af3c-9dc76cab499d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e2173d76-e5cd-4ad4-af3c-9dc76cab499d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NetworkControllerApplicationConfiguration class", "NetworkControllerApplicationConfiguration class, described"]
+keywords:
+- NetworkControllerApplicationConfiguration class
+- NetworkControllerApplicationConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NetworkControllerApplicationConfiguration class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("NcServerPSProvider"), AMENDMENT]
 class NetworkControllerApplicationConfiguration
 {
-  string                               Version;
-  string                               RestClientAuthentication;
-  string                               RestClientCertThumbprints[];
-  string                               RestClientSecurityGroupName;
+  string                               Version;
+  string                               RestClientAuthentication;
+  string                               RestClientCertThumbprints[];
+  string                               RestClientSecurityGroupName;
   NetworkControllerNodeApplicationInfo NodeList[];
-  string                               RestIPAddress;
-  uint8                                SslCertificateRawData[];
-  boolean                              IsApplicationLogEnabled;
-  string                               RestURL;
+  string                               RestIPAddress;
+  uint8                                SslCertificateRawData[];
+  boolean                              IsApplicationLogEnabled;
+  string                               RestURL;
 };
 ```
 
@@ -219,16 +224,16 @@ Gets the version of the Network Controller deployment.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

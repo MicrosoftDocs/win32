@@ -1,8 +1,45 @@
 ---
 title: Transaction Management
 description: This topic discusses how a client can send transactions to obtain data and services from the server.
-ms.assetid: '2d08ffa3-cbd7-4806-b94f-979938322c38'
-keywords: ["Windows User Interface,Dynamic Data Exchange (DDE)", "Dynamic Data Exchange (DDE),transactions", "DDE (Dynamic Data Exchange),transactions", "data exchange,Dynamic Data Exchange (DDE)", "Windows User Interface,Dynamic Data Exchange Management Library (DDEML)", "Dynamic Data Exchange Management Library (DDEML),transactions", "DDEML (Dynamic Data Exchange Management Library),transactions", "data exchange,Dynamic Data Exchange Management Library (DDEML)", "Dynamic Data Exchange (DDE),request transactions", "DDE (Dynamic Data Exchange),request transactions", "Dynamic Data Exchange Management Library (DDEML),request transactions", "DDEML (Dynamic Data Exchange Management Library),request transactions", "Dynamic Data Exchange (DDE),poke transactions", "DDE (Dynamic Data Exchange),poke transactions", "Dynamic Data Exchange Management Library (DDEML),poke transactions", "DDEML (Dynamic Data Exchange Management Library),poke transactions", "Dynamic Data Exchange (DDE),advise transactions", "DDE (Dynamic Data Exchange),advise transactions", "Dynamic Data Exchange Management Library (DDEML),advise transactions", "DDEML (Dynamic Data Exchange Management Library),advise transactions", "Dynamic Data Exchange (DDE),execute transactions", "DDE (Dynamic Data Exchange),execute transactions", "Dynamic Data Exchange Management Library (DDEML),execute transactions", "DDEML (Dynamic Data Exchange Management Library),execute transactions", "Dynamic Data Exchange (DDE),synchronous transactions", "DDE (Dynamic Data Exchange),synchronous transactions", "Dynamic Data Exchange Management Library (DDEML),synchronous transactions", "DDEML (Dynamic Data Exchange Management Library),synchronous transactions", "Dynamic Data Exchange (DDE),asynchronous transactions", "DDE (Dynamic Data Exchange),asynchronous transactions", "Dynamic Data Exchange Management Library (DDEML),asynchronous transactions", "DDEML (Dynamic Data Exchange Management Library),asynchronous transactions"]
+ms.assetid: 2d08ffa3-cbd7-4806-b94f-979938322c38
+keywords:
+- Windows User Interface,Dynamic Data Exchange (DDE)
+- Dynamic Data Exchange (DDE),transactions
+- DDE (Dynamic Data Exchange),transactions
+- data exchange,Dynamic Data Exchange (DDE)
+- Windows User Interface,Dynamic Data Exchange Management Library (DDEML)
+- Dynamic Data Exchange Management Library (DDEML),transactions
+- DDEML (Dynamic Data Exchange Management Library),transactions
+- data exchange,Dynamic Data Exchange Management Library (DDEML)
+- Dynamic Data Exchange (DDE),request transactions
+- DDE (Dynamic Data Exchange),request transactions
+- Dynamic Data Exchange Management Library (DDEML),request transactions
+- DDEML (Dynamic Data Exchange Management Library),request transactions
+- Dynamic Data Exchange (DDE),poke transactions
+- DDE (Dynamic Data Exchange),poke transactions
+- Dynamic Data Exchange Management Library (DDEML),poke transactions
+- DDEML (Dynamic Data Exchange Management Library),poke transactions
+- Dynamic Data Exchange (DDE),advise transactions
+- DDE (Dynamic Data Exchange),advise transactions
+- Dynamic Data Exchange Management Library (DDEML),advise transactions
+- DDEML (Dynamic Data Exchange Management Library),advise transactions
+- Dynamic Data Exchange (DDE),execute transactions
+- DDE (Dynamic Data Exchange),execute transactions
+- Dynamic Data Exchange Management Library (DDEML),execute transactions
+- DDEML (Dynamic Data Exchange Management Library),execute transactions
+- Dynamic Data Exchange (DDE),synchronous transactions
+- DDE (Dynamic Data Exchange),synchronous transactions
+- Dynamic Data Exchange Management Library (DDEML),synchronous transactions
+- DDEML (Dynamic Data Exchange Management Library),synchronous transactions
+- Dynamic Data Exchange (DDE),asynchronous transactions
+- DDE (Dynamic Data Exchange),asynchronous transactions
+- Dynamic Data Exchange Management Library (DDEML),asynchronous transactions
+- DDEML (Dynamic Data Exchange Management Library),asynchronous transactions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transaction Management
@@ -22,25 +59,25 @@ The following topics describe the types of transactions that clients can use to 
 
 ## Request Transaction
 
-A client application can use the [**XTYP\_REQUEST**](xtyp-request.md) transaction to request a data item from a server application. The client calls the [**DdeClientTransaction**](ddeclienttransaction.md) function, specifying **XTYP\_REQUEST** as the transaction type and specifying the data item the application needs.
+A client application can use the [**XTYP\_REQUEST**](xtyp-request.md) transaction to request a data item from a server application. The client calls the [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) function, specifying **XTYP\_REQUEST** as the transaction type and specifying the data item the application needs.
 
-The Dynamic Data Exchange Management Library (DDEML) passes the [**XTYP\_REQUEST**](xtyp-request.md) transaction to the server, specifying the topic name, item name, and data format requested by the client. If the server supports the requested topic, item, and format, the server should return a data handle that identifies the current value of the item. The DDEML passes this handle to the client as the return value from [**DdeClientTransaction**](ddeclienttransaction.md). The server should return **NULL** if it does not support the topic, item, or format requested.
+The Dynamic Data Exchange Management Library (DDEML) passes the [**XTYP\_REQUEST**](xtyp-request.md) transaction to the server, specifying the topic name, item name, and data format requested by the client. If the server supports the requested topic, item, and format, the server should return a data handle that identifies the current value of the item. The DDEML passes this handle to the client as the return value from [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master). The server should return **NULL** if it does not support the topic, item, or format requested.
 
-[**DdeClientTransaction**](ddeclienttransaction.md) uses the *lpdwResult* parameter to return a transaction-status flag to the client. If the server does not process the [**XTYP\_REQUEST**](xtyp-request.md) transaction, **DdeClientTransaction** returns **NULL**, and *lpdwResult* points to the DDE\_FNOTPROCESSED or DDE\_FBUSY flag. If the DDE\_FNOTPROCESSED flag is returned, the client cannot determine why the server did not process the transaction.
+[**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) uses the *lpdwResult* parameter to return a transaction-status flag to the client. If the server does not process the [**XTYP\_REQUEST**](xtyp-request.md) transaction, **DdeClientTransaction** returns **NULL**, and *lpdwResult* points to the DDE\_FNOTPROCESSED or DDE\_FBUSY flag. If the DDE\_FNOTPROCESSED flag is returned, the client cannot determine why the server did not process the transaction.
 
-If a server does not support the [**XTYP\_REQUEST**](xtyp-request.md) transaction, it should specify the CBF\_FAIL\_REQUESTS filter flag in the [**DdeInitialize**](ddeinitialize.md) function. This flag prevents the DDEML from sending the transaction to the server.
+If a server does not support the [**XTYP\_REQUEST**](xtyp-request.md) transaction, it should specify the CBF\_FAIL\_REQUESTS filter flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function. This flag prevents the DDEML from sending the transaction to the server.
 
 ## Poke Transaction
 
-A client can send unsolicited data to a server by using [**DdeClientTransaction**](ddeclienttransaction.md) to send an [**XTYP\_POKE**](xtyp-poke.md) transaction to a server's callback function.
+A client can send unsolicited data to a server by using [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) to send an [**XTYP\_POKE**](xtyp-poke.md) transaction to a server's callback function.
 
-The client application first creates a buffer that contains the data to send to the server and then passes a pointer to the buffer as a parameter to [**DdeClientTransaction**](ddeclienttransaction.md). Alternatively, the client can use the [**DdeCreateDataHandle**](ddecreatedatahandle.md) function to obtain a data handle that identifies the data and then pass the handle to **DdeClientTransaction**. In either case, the client also specifies the topic name, item name, and data format when it calls **DdeClientTransaction**.
+The client application first creates a buffer that contains the data to send to the server and then passes a pointer to the buffer as a parameter to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master). Alternatively, the client can use the [**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master) function to obtain a data handle that identifies the data and then pass the handle to **DdeClientTransaction**. In either case, the client also specifies the topic name, item name, and data format when it calls **DdeClientTransaction**.
 
 The DDEML passes the [**XTYP\_POKE**](xtyp-poke.md) transaction to the server, specifying the topic name, item name, and data format that the client requested. To accept the data item and format, the server should return DDE\_FACK. To reject the data, the server should return DDE\_FNOTPROCESSED. If the server is too busy to accept the data, the server should return DDE\_FBUSY.
 
-When [**DdeClientTransaction**](ddeclienttransaction.md) returns, the client can use the *lpdwResult* parameter to access the transaction-status flag. If the flag is DDE\_FBUSY, the client should send the transaction again later.
+When [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) returns, the client can use the *lpdwResult* parameter to access the transaction-status flag. If the flag is DDE\_FBUSY, the client should send the transaction again later.
 
-If a server does not support the [**XTYP\_POKE**](xtyp-poke.md) transaction, it should specify the CBF\_FAIL\_POKES filter flag in [**DdeInitialize**](ddeinitialize.md). This flag prevents the DDEML from sending this transaction to the server.
+If a server does not support the [**XTYP\_POKE**](xtyp-poke.md) transaction, it should specify the CBF\_FAIL\_POKES filter flag in [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master). This flag prevents the DDEML from sending this transaction to the server.
 
 ## Advise Transaction
 
@@ -48,48 +85,48 @@ A client application can use the DDEML to establish one or more links to items i
 
 There are two kinds of advise loops: "hot" and "warm." In a hot advise loop, the server immediately sends a data handle that identifies the changed value. In a warm advise loop, the server notifies the client that the value of the item has changed but does not send the data handle until the client requests it.
 
-A client can request a hot advise loop with a server by specifying the [**XTYP\_ADVSTART**](xtyp-advstart.md) transaction type in a call to [**DdeClientTransaction**](ddeclienttransaction.md). To request a warm advise loop, the client must combine the XTYPF\_NODATA flag with the **XTYP\_ADVSTART** transaction type. In either event, the DDEML passes the **XTYP\_ADVSTART** transaction to the server's Dynamic Data Exchange (DDE) callback function. The server's DDE callback function should examine the parameters that accompany the **XTYP\_ADVSTART** transaction (including the requested format, topic name, and item name) and then return **TRUE** to allow the advise loop or **FALSE** to deny it.
+A client can request a hot advise loop with a server by specifying the [**XTYP\_ADVSTART**](xtyp-advstart.md) transaction type in a call to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master). To request a warm advise loop, the client must combine the XTYPF\_NODATA flag with the **XTYP\_ADVSTART** transaction type. In either event, the DDEML passes the **XTYP\_ADVSTART** transaction to the server's Dynamic Data Exchange (DDE) callback function. The server's DDE callback function should examine the parameters that accompany the **XTYP\_ADVSTART** transaction (including the requested format, topic name, and item name) and then return **TRUE** to allow the advise loop or **FALSE** to deny it.
 
-After an advise loop has been established, the server application should call the [**DdePostAdvise**](ddepostadvise.md) function whenever the value of the item associated with the requested item name changes. This call results in an [**XTYP\_ADVREQ**](xtyp-advreq.md) transaction being sent to the server's own DDE callback function. The server's DDE callback function should return a data handle that identifies the new value of the data item. The DDEML then notifies the client that the specified item has changed by sending the [**XTYP\_ADVDATA**](xtyp-advdata.md) transaction to the client's DDE callback function.
+After an advise loop has been established, the server application should call the [**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master) function whenever the value of the item associated with the requested item name changes. This call results in an [**XTYP\_ADVREQ**](xtyp-advreq.md) transaction being sent to the server's own DDE callback function. The server's DDE callback function should return a data handle that identifies the new value of the data item. The DDEML then notifies the client that the specified item has changed by sending the [**XTYP\_ADVDATA**](xtyp-advdata.md) transaction to the client's DDE callback function.
 
 If the client requested a hot advise loop, the DDEML passes the data handle to the changed item to the client during the [**XTYP\_ADVDATA**](xtyp-advdata.md) transaction. Otherwise, the client can send an [**XTYP\_REQUEST**](xtyp-request.md) transaction to obtain the data handle.
 
 It is possible for a server to send updates faster than a client can process the new data. The speed of updates can be a problem for a client that must perform lengthy processing operations on the data. In this case, the client should specify the XTYPF\_ACKREQ flag when it requests an advise loop. This flag causes the server to wait for the client to acknowledge that it has received and processed a data item before the server sends the next data item. Advise loops that are established with the XTYPF\_ACKREQ flag are more robust with fast servers but can occasionally miss updates. Advise loops established without the XTYPF\_ACKREQ flag are guaranteed not to miss updates as long as the client keeps up with the server.
 
-A client can end an advise loop by specifying the [**XTYP\_ADVSTOP**](xtyp-advstop.md) transaction type in a call to [**DdeClientTransaction**](ddeclienttransaction.md).
+A client can end an advise loop by specifying the [**XTYP\_ADVSTOP**](xtyp-advstop.md) transaction type in a call to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master).
 
-If a server does not support advise loops, it should specify the CBF\_FAIL\_ADVISES filter flag in the [**DdeInitialize**](ddeinitialize.md) function. This flag prevents the DDEML from sending the [**XTYP\_ADVSTART**](xtyp-advstart.md) and [**XTYP\_ADVSTOP**](xtyp-advstop.md) transactions to the server.
+If a server does not support advise loops, it should specify the CBF\_FAIL\_ADVISES filter flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function. This flag prevents the DDEML from sending the [**XTYP\_ADVSTART**](xtyp-advstart.md) and [**XTYP\_ADVSTOP**](xtyp-advstop.md) transactions to the server.
 
 ## Execute Transaction
 
 A client can use the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction to cause a server to execute a command or a series of commands.
 
-To execute a server command, the client first creates a buffer that contains a command string for the server to execute and then passes either a pointer to the buffer or a data handle identifying the buffer when it calls [**DdeClientTransaction**](ddeclienttransaction.md). Other required parameters include the conversation handle, the item name string handle, the format specification, and the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction type. An application that creates a data handle to passing execute data must specify **NULL** for the *hszItem* parameter of the [**DdeCreateDataHandle**](ddecreatedatahandle.md) function and zero for the *uFmt* parameter.
+To execute a server command, the client first creates a buffer that contains a command string for the server to execute and then passes either a pointer to the buffer or a data handle identifying the buffer when it calls [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master). Other required parameters include the conversation handle, the item name string handle, the format specification, and the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction type. An application that creates a data handle to passing execute data must specify **NULL** for the *hszItem* parameter of the [**DdeCreateDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddecreatedatahandle?branch=master) function and zero for the *uFmt* parameter.
 
-The DDEML passes the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction to the server's DDE callback function and specifies the format name, conversation handle, topic name, and data handle identifying the command string. If the server supports the command, it should use the [**DdeAccessData**](ddeaccessdata.md) function to obtain a pointer to the command string, execute the command, and then return DDE\_FACK. If the server does not support the command or cannot complete the transaction, it should return DDE\_FNOTPROCESSED. The server should return DDE\_FBUSY if it is too busy to complete the transaction.
+The DDEML passes the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction to the server's DDE callback function and specifies the format name, conversation handle, topic name, and data handle identifying the command string. If the server supports the command, it should use the [**DdeAccessData**](/windows/win32/Ddeml/nf-ddeml-ddeaccessdata?branch=master) function to obtain a pointer to the command string, execute the command, and then return DDE\_FACK. If the server does not support the command or cannot complete the transaction, it should return DDE\_FNOTPROCESSED. The server should return DDE\_FBUSY if it is too busy to complete the transaction.
 
 In general, a server's callback function should process the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction before returning with the following exceptions:
 
 1.  When the command passed with the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction requests the server to terminate, the server should not terminate until its callback function returns from processing **XTYP\_EXECUTE**.
 2.  If the server must perform an operation, such as processing a dialog box or a DDE transaction that might cause DDEML recursion problems, the server should return the CBR\_BLOCK return code to block the execute transaction, perform the operation, and then resume processing the execute transaction.
 
-When [**DdeClientTransaction**](ddeclienttransaction.md) returns, the client can use the *lpdwResult* parameter to access the transaction status flag. If the flag is DDE\_FBUSY, the client should send the transaction again later.
+When [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) returns, the client can use the *lpdwResult* parameter to access the transaction status flag. If the flag is DDE\_FBUSY, the client should send the transaction again later.
 
-If a server does not support the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction, it should specify the CBF\_FAIL\_EXECUTES filter flag in the [**DdeInitialize**](ddeinitialize.md) function. Doing so prevents the DDEML from sending the transaction to the server.
+If a server does not support the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction, it should specify the CBF\_FAIL\_EXECUTES filter flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function. Doing so prevents the DDEML from sending the transaction to the server.
 
 ## Synchronous and Asynchronous Transactions
 
-A client can send either synchronous or asynchronous transactions. In a synchronous transaction, the client specifies a time-out value that indicates the maximum amount of time it will wait for the server to process the transaction. [**DdeClientTransaction**](ddeclienttransaction.md) does not return until the server processes the transaction, the transaction fails, or the time-out value expires. The client specifies the time-out value when it calls **DdeClientTransaction**.
+A client can send either synchronous or asynchronous transactions. In a synchronous transaction, the client specifies a time-out value that indicates the maximum amount of time it will wait for the server to process the transaction. [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) does not return until the server processes the transaction, the transaction fails, or the time-out value expires. The client specifies the time-out value when it calls **DdeClientTransaction**.
 
-During a synchronous transaction, the client enters a modal loop while waiting for the transaction to be processed. The client can still process user input but cannot send another synchronous transaction until [**DdeClientTransaction**](ddeclienttransaction.md) returns.
+During a synchronous transaction, the client enters a modal loop while waiting for the transaction to be processed. The client can still process user input but cannot send another synchronous transaction until [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) returns.
 
-A client sends an asynchronous transaction by specifying the TIMEOUT\_ASYNC flag in [**DdeClientTransaction**](ddeclienttransaction.md). The function returns after the transaction has begun, passing a transaction identifier to the client. When the server finishes processing the asynchronous transaction, the DDEML sends an [**XTYP\_XACT\_COMPLETE**](xtyp-xact-complete.md) transaction to the client. One of the parameters that the DDEML passes to the client during the **XTYP\_XACT\_COMPLETE** transaction is the transaction identifier. By comparing this transaction identifier with the identifier returned by **DdeClientTransaction**, the client identifies which asynchronous transaction the server has finished processing.
+A client sends an asynchronous transaction by specifying the TIMEOUT\_ASYNC flag in [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master). The function returns after the transaction has begun, passing a transaction identifier to the client. When the server finishes processing the asynchronous transaction, the DDEML sends an [**XTYP\_XACT\_COMPLETE**](xtyp-xact-complete.md) transaction to the client. One of the parameters that the DDEML passes to the client during the **XTYP\_XACT\_COMPLETE** transaction is the transaction identifier. By comparing this transaction identifier with the identifier returned by **DdeClientTransaction**, the client identifies which asynchronous transaction the server has finished processing.
 
-A client can use the [**DdeSetUserHandle**](ddesetuserhandle.md) function as an aid in processing an asynchronous transaction. This function makes it possible for a client to associate an application-defined value with a conversation handle and a transaction identifier. The client can use the [**DdeQueryConvInfo**](ddequeryconvinfo.md) function during the [**XTYP\_XACT\_COMPLETE**](xtyp-xact-complete.md) transaction to obtain the application-defined value. Because of this function, an application need not maintain a list of active transaction identifiers.
+A client can use the [**DdeSetUserHandle**](/windows/win32/Ddeml/nf-ddeml-ddesetuserhandle?branch=master) function as an aid in processing an asynchronous transaction. This function makes it possible for a client to associate an application-defined value with a conversation handle and a transaction identifier. The client can use the [**DdeQueryConvInfo**](/windows/win32/Ddeml/nf-ddeml-ddequeryconvinfo?branch=master) function during the [**XTYP\_XACT\_COMPLETE**](xtyp-xact-complete.md) transaction to obtain the application-defined value. Because of this function, an application need not maintain a list of active transaction identifiers.
 
-When a client successfully completes a request for data using a synchronous transaction, the DDEML has no way to tell when the client has finished using the data received. The client application must pass the data handle received to the [**DdeFreeDataHandle**](ddefreedatahandle.md) function, notifying the DDEML that the handle will no longer be used. Data handles returned by synchronous transactions are effectively owned by the client.
+When a client successfully completes a request for data using a synchronous transaction, the DDEML has no way to tell when the client has finished using the data received. The client application must pass the data handle received to the [**DdeFreeDataHandle**](/windows/win32/Ddeml/nf-ddeml-ddefreedatahandle?branch=master) function, notifying the DDEML that the handle will no longer be used. Data handles returned by synchronous transactions are effectively owned by the client.
 
-If a server does not process an asynchronous transaction in a timely manner, the client can abandon the transaction by calling the [**DdeAbandonTransaction**](ddeabandontransaction.md) function. The DDEML releases all resources associated with the transaction and discards the results of the transaction when the server finishes processing it. A time-out during a synchronous transaction effectively cancels the transaction.
+If a server does not process an asynchronous transaction in a timely manner, the client can abandon the transaction by calling the [**DdeAbandonTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeabandontransaction?branch=master) function. The DDEML releases all resources associated with the transaction and discards the results of the transaction when the server finishes processing it. A time-out during a synchronous transaction effectively cancels the transaction.
 
 The asynchronous transaction method is provided for applications that must send a high volume of DDE transactions while simultaneously performing a substantial amount of processing, such as performing calculations. The asynchronous method is also useful in applications that must stop processing DDE transactions temporarily so they can complete other tasks without interruption. In most other situations, an application should use the synchronous method.
 
@@ -99,17 +136,17 @@ If the client has installed a hook procedure to filter messages (that is, specif
 
 ## Transaction Control
 
-An application can suspend transactions to its DDE callback function — either those transactions associated with a specific conversation handle or all transactions regardless of the conversation handle. This capability is useful when an application receives a transaction that requires lengthy processing. In such a case, the application can return the CBR\_BLOCK return code to suspend future transactions associated with the transaction's conversation handle, so that the application is free to process other conversations.
+An application can suspend transactions to its DDE callback function   either those transactions associated with a specific conversation handle or all transactions regardless of the conversation handle. This capability is useful when an application receives a transaction that requires lengthy processing. In such a case, the application can return the CBR\_BLOCK return code to suspend future transactions associated with the transaction's conversation handle, so that the application is free to process other conversations.
 
-When processing has been completed, the application calls the [**DdeEnableCallback**](ddeenablecallback.md) function to resume transactions associated with the suspended conversation. Calling **DdeEnableCallback** causes the DDEML to resend the transaction that resulted in the application suspending the conversation. Therefore, the application should store the result of the transaction in such a way that it can obtain and return the result without reprocessing the transaction.
+When processing has been completed, the application calls the [**DdeEnableCallback**](/windows/win32/Ddeml/nf-ddeml-ddeenablecallback?branch=master) function to resume transactions associated with the suspended conversation. Calling **DdeEnableCallback** causes the DDEML to resend the transaction that resulted in the application suspending the conversation. Therefore, the application should store the result of the transaction in such a way that it can obtain and return the result without reprocessing the transaction.
 
-An application can suspend all transactions associated with a specific conversation handle by specifying the handle and the EC\_DISABLE flag in a call to [**DdeEnableCallback**](ddeenablecallback.md). By specifying a **NULL** handle, an application can suspend all transactions for all conversations.
+An application can suspend all transactions associated with a specific conversation handle by specifying the handle and the EC\_DISABLE flag in a call to [**DdeEnableCallback**](/windows/win32/Ddeml/nf-ddeml-ddeenablecallback?branch=master). By specifying a **NULL** handle, an application can suspend all transactions for all conversations.
 
 When a conversation has been suspended, the DDEML saves transactions for the conversation in a transaction queue. When the application reenables the conversation, the DDEML removes the saved transactions from the queue and passes each transaction to the appropriate callback function. The capacity of the transaction queue is large, but an application should reenable a suspended conversation as soon as possible to avoid losing transactions.
 
-An application can resume usual transaction processing by specifying the EC\_ENABLEALL flag in [**DdeEnableCallback**](ddeenablecallback.md). For a more controlled resumption of transaction processing, the application can specify the EC\_ENABLEONE flag. This flag removes one transaction from the transaction queue and passes it to the appropriate callback function; after that transaction has been processed, any conversations are again disabled.
+An application can resume usual transaction processing by specifying the EC\_ENABLEALL flag in [**DdeEnableCallback**](/windows/win32/Ddeml/nf-ddeml-ddeenablecallback?branch=master). For a more controlled resumption of transaction processing, the application can specify the EC\_ENABLEONE flag. This flag removes one transaction from the transaction queue and passes it to the appropriate callback function; after that transaction has been processed, any conversations are again disabled.
 
-If the EC\_ENABLEONE flag and a conversation handle are specified in the call to [**DdeEnableCallback**](ddeenablecallback.md), only that conversation is blocked after the transaction has been processed. If a **NULL** conversation handle is specified, all conversations are blocked after a transaction has been processed in any conversation.
+If the EC\_ENABLEONE flag and a conversation handle are specified in the call to [**DdeEnableCallback**](/windows/win32/Ddeml/nf-ddeml-ddeenablecallback?branch=master), only that conversation is blocked after the transaction has been processed. If a **NULL** conversation handle is specified, all conversations are blocked after a transaction has been processed in any conversation.
 
 ## Transaction Classes
 
@@ -128,7 +165,7 @@ A transaction's class determines the return value that a callback function is ex
 
 
 
- 
+ 
 
 ## Transaction Types
 
@@ -139,29 +176,29 @@ Each DDE transaction type has a receiver and an associated activity that causes 
 | Transaction type                                       | Receiver                   | Cause                                                                                                                                                                         |
 |--------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**XTYP\_ADVDATA**](xtyp-advdata.md)                  | Client                     | A server responded to an [**XTYP\_ADVREQ**](xtyp-advreq.md) transaction by returning a data handle.                                                                          |
-| [**XTYP\_ADVREQ**](xtyp-advreq.md)                    | Server                     | A server called the [**DdePostAdvise**](ddepostadvise.md) function, indicating that the value of a data item in an advise loop had changed.                                  |
-| [**XTYP\_ADVSTART**](xtyp-advstart.md)                | Server                     | A client specified the [**XTYP\_ADVSTART**](xtyp-advstart.md) transaction type in a call to the [**DdeClientTransaction**](ddeclienttransaction.md) function.               |
-| [**XTYP\_ADVSTOP**](xtyp-advstop.md)                  | Server                     | A client specified the [**XTYP\_ADVSTOP**](xtyp-advstop.md) transaction type in a call to [**DdeClientTransaction**](ddeclienttransaction.md).                              |
-| [**XTYP\_CONNECT**](xtyp-connect.md)                  | Server                     | A client called the [**DdeConnect**](ddeconnect.md) function and specified a service name and topic name supported by the server.                                            |
+| [**XTYP\_ADVREQ**](xtyp-advreq.md)                    | Server                     | A server called the [**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master) function, indicating that the value of a data item in an advise loop had changed.                                  |
+| [**XTYP\_ADVSTART**](xtyp-advstart.md)                | Server                     | A client specified the [**XTYP\_ADVSTART**](xtyp-advstart.md) transaction type in a call to the [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) function.               |
+| [**XTYP\_ADVSTOP**](xtyp-advstop.md)                  | Server                     | A client specified the [**XTYP\_ADVSTOP**](xtyp-advstop.md) transaction type in a call to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master).                              |
+| [**XTYP\_CONNECT**](xtyp-connect.md)                  | Server                     | A client called the [**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master) function and specified a service name and topic name supported by the server.                                            |
 | [**XTYP\_CONNECT\_CONFIRM**](xtyp-connect-confirm.md) | Server                     | The server returned **TRUE** in response to an [**XTYP\_CONNECT**](xtyp-connect.md) or [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md) transaction.                            |
-| [**XTYP\_DISCONNECT**](xtyp-disconnect.md)            | Client/Server              | A partner in a conversation called the [**DdeDisconnect**](ddedisconnect.md) function, causing both partners to receive this transaction.                                    |
+| [**XTYP\_DISCONNECT**](xtyp-disconnect.md)            | Client/Server              | A partner in a conversation called the [**DdeDisconnect**](/windows/win32/Ddeml/nf-ddeml-ddedisconnect?branch=master) function, causing both partners to receive this transaction.                                    |
 | [**XTYP\_ERROR**](xtyp-error.md)                      | Client/Server              | A critical error has occurred. The DDEML may not have sufficient resources to continue.                                                                                       |
-| [**XTYP\_EXECUTE**](xtyp-execute.md)                  | Server                     | A client specified the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction type in a call to [**DdeClientTransaction**](ddeclienttransaction.md).                              |
+| [**XTYP\_EXECUTE**](xtyp-execute.md)                  | Server                     | A client specified the [**XTYP\_EXECUTE**](xtyp-execute.md) transaction type in a call to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master).                              |
 | [**XTYP\_MONITOR**](xtyp-monitor.md)                  | DDE monitoring application | A DDE event occurred in the system. For more information about DDE monitoring applications, see [Monitoring Applications](monitoring-applications.md).                       |
-| [**XTYP\_POKE**](xtyp-poke.md)                        | Server                     | A client specified the [**XTYP\_POKE**](xtyp-poke.md) transaction type in a call to [**DdeClientTransaction**](ddeclienttransaction.md).                                    |
-| [**XTYP\_REGISTER**](xtyp-register.md)                | Client/Server              | A server application used the [**DdeNameService**](ddenameservice.md) function to register a service name.                                                                   |
-| [**XTYP\_REQUEST**](xtyp-request.md)                  | Server                     | A client specified the [**XTYP\_REQUEST**](xtyp-request.md) transaction type in a call to [**DdeClientTransaction**](ddeclienttransaction.md).                              |
-| [**XTYP\_UNREGISTER**](xtyp-unregister.md)            | Client/Server              | A server application used [**DdeNameService**](ddenameservice.md) to unregister a service name.                                                                              |
-| [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md)          | Server                     | A client called the [**DdeConnect**](ddeconnect.md) or [**DdeConnectList**](ddeconnectlist.md) function, specifying **NULL** for the service name, the topic name, or both. |
-| [**XTYP\_XACT\_COMPLETE**](xtyp-xact-complete.md)     | Client                     | An asynchronous transaction, sent when the client specified the TIMEOUT\_ASYNC flag in a call to [**DdeClientTransaction**](ddeclienttransaction.md), has concluded.         |
+| [**XTYP\_POKE**](xtyp-poke.md)                        | Server                     | A client specified the [**XTYP\_POKE**](xtyp-poke.md) transaction type in a call to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master).                                    |
+| [**XTYP\_REGISTER**](xtyp-register.md)                | Client/Server              | A server application used the [**DdeNameService**](/windows/win32/Ddeml/nf-ddeml-ddenameservice?branch=master) function to register a service name.                                                                   |
+| [**XTYP\_REQUEST**](xtyp-request.md)                  | Server                     | A client specified the [**XTYP\_REQUEST**](xtyp-request.md) transaction type in a call to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master).                              |
+| [**XTYP\_UNREGISTER**](xtyp-unregister.md)            | Client/Server              | A server application used [**DdeNameService**](/windows/win32/Ddeml/nf-ddeml-ddenameservice?branch=master) to unregister a service name.                                                                              |
+| [**XTYP\_WILDCONNECT**](xtyp-wildconnect.md)          | Server                     | A client called the [**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master) or [**DdeConnectList**](/windows/win32/Ddeml/nf-ddeml-ddeconnectlist?branch=master) function, specifying **NULL** for the service name, the topic name, or both. |
+| [**XTYP\_XACT\_COMPLETE**](xtyp-xact-complete.md)     | Client                     | An asynchronous transaction, sent when the client specified the TIMEOUT\_ASYNC flag in a call to [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master), has concluded.         |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

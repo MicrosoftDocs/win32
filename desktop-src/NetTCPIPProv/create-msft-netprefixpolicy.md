@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a prefix policy.'
-ms.assetid: 'a6205f16-a30b-43ee-9587-e7d721f04e44'
-title: 'Create method of the MSFT\_NetPrefixPolicy class'
+Description: Creates a prefix policy.
+ms.assetid: a6205f16-a30b-43ee-9587-e7d721f04e44
+title: Create method of the MSFT\_NetPrefixPolicy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create method of the MSFT\_NetPrefixPolicy class
@@ -13,12 +18,12 @@ Creates a prefix policy.
 
 ```mof
 uint32 Create(
-  [in]  string               Prefix,
-  [in]  uint32               Precedence,
-  [in]  uint32               Label,
-  [in]  string               PolicyStore,
-  [in]  boolean              PassThru,
-  [out] MSFT_NetPrefixPolicy CmdletOutput[]
+  [in]  string               Prefix,
+  [in]  uint32               Precedence,
+  [in]  uint32               Label,
+  [in]  string               PolicyStore,
+  [in]  boolean              PassThru,
+  [out] MSFT_NetPrefixPolicy CmdletOutput[]
 );
 ```
 
@@ -76,8 +81,8 @@ Receives a [**MSFT\_NetPrefixPolicy**](msft-netprefixpolicy.md) object that repr
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -91,9 +96,9 @@ Receives a [**MSFT\_NetPrefixPolicy**](msft-netprefixpolicy.md) object that repr
 [**MSFT\_NetPrefixPolicy**](msft-netprefixpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

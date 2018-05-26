@@ -1,8 +1,18 @@
 ---
 title: Command-line Options for Windows DVD Maker
 description: Command-line Options for Windows DVD Maker
-ms.assetid: '976af86b-758f-4fde-a7eb-07261511b109'
-keywords: ["Windows DVD Maker,command-line options", "DVD Maker,command-line options", "programming reference,Windows DVD Maker command-line options", "reference for Windows DVD Maker,command-line options", "command-line options for Windows DVD Maker,about"]
+ms.assetid: 976af86b-758f-4fde-a7eb-07261511b109
+keywords:
+- Windows DVD Maker,command-line options
+- DVD Maker,command-line options
+- programming reference,Windows DVD Maker command-line options
+- reference for Windows DVD Maker,command-line options
+- command-line options for Windows DVD Maker,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command-line Options for Windows DVD Maker

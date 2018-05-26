@@ -4,11 +4,14 @@ description: Deactivates the Remote Desktop license server over the Internet.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e049d7f-1753-484d-98b8-fde66d16b5ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6e049d7f-1753-484d-98b8-fde66d16b5ab
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DeactivateServerAutomatic method Remote Desktop Services", "DeactivateServerAutomatic method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , DeactivateServerAutomatic method"]
+keywords:
+- DeactivateServerAutomatic method Remote Desktop Services
+- DeactivateServerAutomatic method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , DeactivateServerAutomatic method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeactivateServerAutomatic method of the Win32\_TSLicenseServer class
@@ -28,7 +34,7 @@ Deactivates the Remote Desktop license server over the Internet.
 
 ```mof
 uint32 DeactivateServerAutomatic(
-  [out] uint32 ActivationStatus
+  [out] uint32 ActivationStatus
 );
 ```
 
@@ -83,7 +89,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -97,9 +103,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

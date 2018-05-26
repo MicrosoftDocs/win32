@@ -1,8 +1,15 @@
 ---
 title: About Bluetooth
 description: Bluetooth is an industry-standard protocol that enables wireless connectivity for a multitude of devices, including computers, printers, mobile phones, and handheld devices.
-ms.assetid: '424168a1-e55c-4947-9a80-8594b4d83bbd'
-keywords: ["Bluetooth Bluetooth , described", "Bluetooth Bluetooth , about"]
+ms.assetid: 424168a1-e55c-4947-9a80-8594b4d83bbd
+keywords:
+- Bluetooth Bluetooth , described
+- Bluetooth Bluetooth , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Bluetooth

@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_AutoShow method sets the AutoShow state flag.'
-ms.assetid: '857472b8-845b-46d3-8593-3fba9a9c8cdc'
-title: 'CBaseControlWindow.put\_AutoShow method'
+Description: The put\_AutoShow method sets the AutoShow state flag.
+ms.assetid: 857472b8-845b-46d3-8593-3fba9a9c8cdc
+title: CBaseControlWindow.put\_AutoShow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_AutoShow method
@@ -13,7 +18,7 @@ The `put_AutoShow` method sets the AutoShow state flag.
 
 ```C++
 HRESULT put_AutoShow(
-   long AutoShow
+   long AutoShow
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT put_AutoShow(
 *AutoShow* 
 </dt> <dd>
 
-Automation Boolean flag (0 is off, –1 is on).
+Automation Boolean flag (0 is off,  1 is on).
 
 </dd> </dl>
 
@@ -36,7 +41,7 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This property simplifies window display access for applications. If this is set to –1 (on), the window, which is typically hidden after the filter is connected, will be displayed automatically when the filter pauses or runs. The window should not be hidden when the filter stops, however. If this is set to 0 (off), the window is made visible only when the application calls [**CBaseControlWindow::put\_Visible**](cbasecontrolwindow-put-visible.md) or [**CBaseControlWindow::put\_WindowState**](cbasecontrolwindow-put-windowstate.md) with the appropriate parameters.
+This property simplifies window display access for applications. If this is set to  1 (on), the window, which is typically hidden after the filter is connected, will be displayed automatically when the filter pauses or runs. The window should not be hidden when the filter stops, however. If this is set to 0 (off), the window is made visible only when the application calls [**CBaseControlWindow::put\_Visible**](cbasecontrolwindow-put-visible.md) or [**CBaseControlWindow::put\_WindowState**](cbasecontrolwindow-put-windowstate.md) with the appropriate parameters.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This property simplifies window display access for applications. If this is set 
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

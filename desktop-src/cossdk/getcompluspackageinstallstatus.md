@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the 64-bit Common Language Runtime (CLR) is installed.'
-ms.assetid: 'c68af270-6a40-4026-9725-5fe657123fd5'
+Description: Indicates whether the 64-bit Common Language Runtime (CLR) is installed.
+ms.assetid: c68af270-6a40-4026-9725-5fe657123fd5
 title: GetComPlusPackageInstallStatus function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetComPlusPackageInstallStatus function
@@ -34,7 +39,7 @@ This method can return the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -42,14 +47,14 @@ This method can return the following values.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents per-interface ISATAP Configuration settings.'
-ms.assetid: '0ff50d57-6442-4e54-bd62-d2dcee711f8a'
-title: 'MSFT\_NetISATAPState class'
+Description: Represents per-interface ISATAP Configuration settings.
+ms.assetid: 0ff50d57-6442-4e54-bd62-d2dcee711f8a
+title: MSFT\_NetISATAPState class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetISATAPState class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetTtCim")]
 class MSFT_NetISATAPState : CIM_ElementSettingData
 {
-  MSFT_NetIPInterface         REF ManagedElement;
+  MSFT_NetIPInterface         REF ManagedElement;
   MSFT_NetISATAPConfiguration REF SettingData;
 };
 ```
@@ -65,17 +70,17 @@ Specifies the ISATAP global settings associated with this interface.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

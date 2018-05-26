@@ -1,8 +1,10 @@
 ---
 title: WiaImagePropertyType enumeration
 description: Specifies the type of the value of an image property. Image properties can be found in the Properties (ImageFile) collection of an ImageFile object.
-ms.assetid: '31bad79f-4a55-4cb3-9bef-097768f14755'
-keywords: ["WiaImagePropertyType enumeration WIA Automation", "WiaDeviceType enumeration WIA Automation"]
+ms.assetid: 31bad79f-4a55-4cb3-9bef-097768f14755
+keywords:
+- WiaImagePropertyType enumeration WIA Automation
+- WiaDeviceType enumeration WIA Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WiaImagePropertyType enumeration
@@ -53,16 +60,16 @@ For example code, see [Display all ImageFile Properties](-wiaaut-shared-samples.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

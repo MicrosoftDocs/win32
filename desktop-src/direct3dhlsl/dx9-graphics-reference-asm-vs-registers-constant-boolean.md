@@ -1,7 +1,12 @@
 ---
 title: Constant Boolean Register
 description: This register is a collection of bits used in static flow control instructions (for example, if bool - vs - else - vs - endif - vs).
-ms.assetid: 'bd02d03b-c228-481a-9c98-7442be4cdd07'
+ms.assetid: bd02d03b-c228-481a-9c98-7442be4cdd07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Constant Boolean Register

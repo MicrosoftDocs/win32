@@ -1,6 +1,11 @@
 ---
-ms.assetid: '43923954-a220-496c-8149-94468dd5c038'
+ms.assetid: 43923954-a220-496c-8149-94468dd5c038
 title: Using Basic Debugging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Basic Debugging

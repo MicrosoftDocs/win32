@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the default proxy locator should force proxy auto-detection.'
-ms.assetid: 'ab547a92-94a2-482e-b7ac-aeb3fdfb6b91'
-title: 'MFNETSOURCE\_PROXYRERUNAUTODETECTION property'
+---
+Description: Specifies whether the default proxy locator should force proxy auto-detection.
+ms.assetid: ab547a92-94a2-482e-b7ac-aeb3fdfb6b91
+title: MFNETSOURCE\_PROXYRERUNAUTODETECTION property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_PROXYRERUNAUTODETECTION property
@@ -28,7 +33,7 @@ VT\_I4
 
 The constant **MFNETSOURCE\_PROXYSETTINGS** defines the GUID for this property key. The property identifier (PID) is zero.
 
-Applications can use this property to configure the proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](mfcreateproxylocator.md) function. In auto-detect mode, the proxy locator uses the WinInet proxy detection mechanism. To force auto-detection, set the value to 0.
+Applications can use this property to configure the proxy locator when creating the proxy locator object. To set the property, pass an **IPropertyStore** pointer in the *pProxyConfig* parameter of the [**MFCreateProxyLocator**](/windows/win32/mfidl/nf-mfidl-mfcreateproxylocator?branch=master) function. In auto-detect mode, the proxy locator uses the WinInet proxy detection mechanism. To force auto-detection, set the value to 0.
 
 ## Requirements
 

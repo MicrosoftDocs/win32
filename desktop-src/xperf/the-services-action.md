@@ -1,7 +1,12 @@
 ---
 title: The Services Action
 description: The Services Action
-ms.assetid: 'fc1c8f9a-ad1a-4964-a5ce-816c5a0f9da5'
+ms.assetid: fc1c8f9a-ad1a-4964-a5ce-816c5a0f9da5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Services Action
@@ -26,13 +31,13 @@ The services action produces a text file that summarizes the various metrics reg
 
 
 
- 
+ 
 
 The default is to not flag any services as points of interest. All times are displayed in milliseconds.
 
- 
+ 
 
- 
+ 
 
 
 

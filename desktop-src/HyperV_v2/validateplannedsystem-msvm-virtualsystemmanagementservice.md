@@ -1,7 +1,12 @@
 ---
-Description: 'Validates the specified planned system.'
-ms.assetid: 'cb969b38-f36d-4c70-b234-590f1c219d22'
-title: 'ValidatePlannedSystem method of the Msvm\_VirtualSystemManagementService class'
+Description: Validates the specified planned system.
+ms.assetid: cb969b38-f36d-4c70-b234-590f1c219d22
+title: ValidatePlannedSystem method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValidatePlannedSystem method of the Msvm\_VirtualSystemManagementService class
@@ -13,8 +18,8 @@ Validates the specified planned system. This involves checks of the virtual mach
 
 ```mof
 uint32 ValidatePlannedSystem(
-  [in]  Msvm_PlannedComputerSystem REF PlannedSystem,
-  [out] CIM_ConcreteJob            REF Job
+  [in]  Msvm_PlannedComputerSystem REF PlannedSystem,
+  [out] CIM_ConcreteJob            REF Job
 );
 ```
 
@@ -93,7 +98,7 @@ The following C# sample uses the **ValidatePlannedSystem** method to validate a 
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -143,8 +148,8 @@ ValidatePvm(
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -158,9 +163,9 @@ ValidatePvm(
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

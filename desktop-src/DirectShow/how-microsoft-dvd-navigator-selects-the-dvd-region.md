@@ -1,7 +1,12 @@
 ---
 Description: How Microsoft DVD Navigator Selects the DVD Region
-ms.assetid: '407619c6-2d4b-4f7f-a861-42ee0f462ecd'
+ms.assetid: 407619c6-2d4b-4f7f-a861-42ee0f462ecd
 title: How Microsoft DVD Navigator Selects the DVD Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Microsoft DVD Navigator Selects the DVD Region

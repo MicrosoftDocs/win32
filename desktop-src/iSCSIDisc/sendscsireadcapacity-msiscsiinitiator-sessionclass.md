@@ -1,7 +1,12 @@
-﻿---
-Description: 'TheSendScsiReadCapacitymethod sends the SCSI Read Capacity command to the specified Logical Unit Number (LUN).'
-ms.assetid: '0686a59d-d097-4cf2-98ce-b803403ec465'
-title: 'SendScsiReadCapacity method of the MSIscsiInitiator\_SessionClass class'
+---
+Description: TheSendScsiReadCapacitymethod sends the SCSI Read Capacity command to the specified Logical Unit Number (LUN).
+ms.assetid: 0686a59d-d097-4cf2-98ce-b803403ec465
+title: SendScsiReadCapacity method of the MSIscsiInitiator\_SessionClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SendScsiReadCapacity method of the MSIscsiInitiator\_SessionClass class

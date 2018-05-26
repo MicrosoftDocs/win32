@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETFOOTERRECT message
 description: Retrieves the coordinates of the footer for a list-view control. Send this message explicitly or by using the ListView\_GetFooterRect macro.
-ms.assetid: 'f8816f35-c1d2-4072-81d3-0a9a3df53d64'
-keywords: ["LVM_GETFOOTERRECT message Windows Controls"]
+ms.assetid: f8816f35-c1d2-4072-81d3-0a9a3df53d64
+keywords:
+- LVM_GETFOOTERRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETFOOTERRECT message
 
-Retrieves the coordinates of the footer for a list-view control. Send this message explicitly or by using the [**ListView\_GetFooterRect**](listview-getfooterrect.md) macro.
+Retrieves the coordinates of the footer for a list-view control. Send this message explicitly or by using the [**ListView\_GetFooterRect**](/windows/win32/Commctrl/nf-commctrl-listview_getfooterrect?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

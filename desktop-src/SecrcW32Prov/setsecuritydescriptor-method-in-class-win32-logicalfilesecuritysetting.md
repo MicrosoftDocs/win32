@@ -1,13 +1,16 @@
 ---
-Description: 'The SetSecurityDescriptorWMI class method sets a security descriptor to the specified structure.'
+Description: The SetSecurityDescriptorWMI class method sets a security descriptor to the specified structure.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '15fc56c9-9990-4d83-bb1e-92eeecb1798b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 15fc56c9-9990-4d83-bb1e-92eeecb1798b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetSecurityDescriptor method of the Win32\_LogicalFileSecuritySetting class'
+title: SetSecurityDescriptor method of the Win32\_LogicalFileSecuritySetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetSecurityDescriptor method of the Win32\_LogicalFileSecuritySetting class
@@ -21,7 +24,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetSecurityDescriptor(
-  [in] Win32_SecurityDescriptor Descriptor
+  [in] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -59,7 +62,7 @@ The **SetSecurityDescriptor** method can return the error codes listed in the fo
 **Invalid parameter** (21)
 </dt> <dt>
 
-**Other** (22–4294967295)
+**Other** (22 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -178,8 +181,8 @@ else {
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -208,9 +211,9 @@ else {
 [WMI Security Descriptor Objects](https://msdn.microsoft.com/library/aa394577)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

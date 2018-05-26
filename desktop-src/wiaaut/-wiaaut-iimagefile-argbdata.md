@@ -1,8 +1,11 @@
 ---
 title: ImageFile.ARGBData property
 description: Retrieves the raw image bits as a Vector of Long values.
-ms.assetid: '2eb9d583-b804-4255-b7ee-c2f58923ceb8'
-keywords: ["ARGBData property WIA Automation", "ARGBData property WIA Automation , ImageFile object", "ImageFile object WIA Automation , ARGBData property"]
+ms.assetid: 2eb9d583-b804-4255-b7ee-c2f58923ceb8
+keywords:
+- ARGBData property WIA Automation
+- ARGBData property WIA Automation , ImageFile object
+- ImageFile object WIA Automation , ARGBData property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile.ARGBData property
@@ -120,8 +128,8 @@ For additional example code, see [ARGB Filter: Create a Modified Version of an I
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -146,9 +154,9 @@ For additional example code, see [ARGB Filter: Create a Modified Version of an I
 [**Vector**](-wiaaut-vector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

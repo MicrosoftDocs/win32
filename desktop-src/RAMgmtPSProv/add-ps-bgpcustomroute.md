@@ -2,13 +2,16 @@
 title: Add method of the PS\_BgpCustomRoute class
 description: Adds custom BGP routes to a BGP routing table.
 audience: developer
-ms.assetid: '1acf8fef-3963-4388-9da4-f5fad6d05d81'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1acf8fef-3963-4388-9da4-f5fad6d05d81
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_BgpCustomRoute class", "PS_BgpCustomRoute class, Add method"]
+keywords:
+- Add method
+- Add method, PS_BgpCustomRoute class
+- PS_BgpCustomRoute class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_BgpCustomRoute class
@@ -28,11 +34,11 @@ Adds custom BGP routes to a BGP routing table.
 
 ```mof
 uint32 Add(
-  [in]  boolean              PassThru,
-  [in]  string               RoutingDomain,
-  [in]  string               Interface[],
-  [in]  string               Network[],
-  [out] BgpCustomNetworkInfo cmdletOutput
+  [in]  boolean              PassThru,
+  [in]  string               RoutingDomain,
+  [in]  string               Interface[],
+  [in]  string               Network[],
+  [out] BgpCustomNetworkInfo cmdletOutput
 );
 ```
 
@@ -84,7 +90,7 @@ Receives the [**BgpCustomNetworkInfo**](bgpcustomnetworkinfo.md) object that con
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ Receives the [**BgpCustomNetworkInfo**](bgpcustomnetworkinfo.md) object that con
 [**PS\_BgpCustomRoute**](ps-bgpcustomroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

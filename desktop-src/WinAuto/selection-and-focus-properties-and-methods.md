@@ -1,7 +1,12 @@
 ---
 title: Selection and Focus Properties and Methods
 description: Like many elements in applications running on Microsoft Windows operating systems, accessible objects select and receive keyboard focus. These attributes enable users to interact with application elements, change values, and otherwise manipulate them.
-ms.assetid: '8170fe19-f157-4d7d-8eec-d384e51f1560'
+ms.assetid: 8170fe19-f157-4d7d-8eec-d384e51f1560
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selection and Focus Properties and Methods
@@ -15,7 +20,7 @@ There are some key differences between object selection and object focus:
 
 For example, a user can select several items in a list-view control, but the focus is given only to one object in the system at a time. Note that focused items are from a selection of items.
 
-Clients determine whether a particular accessible object or child element has the focus by calling [**IAccessible::get\_accFocus**](iaccessible-iaccessible--get-accfocus.md). Clients determine whether an object is selected, or which children within an accessible object are selected, by calling [**IAccessible::get\_accSelection**](iaccessible-iaccessible--get-accselection.md). For objects such as list-view controls in which more than one child is selected, the parent object must support the [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) interface, which allows clients to enumerate the selected children.
+Clients determine whether a particular accessible object or child element has the focus by calling [**IAccessible::get\_accFocus**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accfocus?branch=master). Clients determine whether an object is selected, or which children within an accessible object are selected, by calling [**IAccessible::get\_accSelection**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accselection?branch=master). For objects such as list-view controls in which more than one child is selected, the parent object must support the [IEnumVARIANT](http://go.microsoft.com/fwlink/p/?linkid=120799) interface, which allows clients to enumerate the selected children.
 
 ## Events Triggered in Menus
 

@@ -1,8 +1,14 @@
 ---
 title: MIDL Array Attributes Used in RPC
 description: Navigation page for the MIDL array attributes used in Remote Procedure Call (RPC).
-ms.assetid: '5cdf88fe-fc91-48fa-8edb-b5c6296ec9fe'
-keywords: ["Remote Procedure Call RPC , reference, MIDL attributes"]
+ms.assetid: 5cdf88fe-fc91-48fa-8edb-b5c6296ec9fe
+keywords:
+- Remote Procedure Call RPC , reference, MIDL attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Array Attributes Used in RPC

@@ -1,8 +1,9 @@
 ---
 title: External.libraryLocationType
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'aaf20147-8331-40bd-a5cd-5ee9b8e2d022'
-keywords: ["External.libraryLocationType Windows Media Player"]
+ms.assetid: aaf20147-8331-40bd-a5cd-5ee9b8e2d022
+keywords:
+- External.libraryLocationType Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.libraryLocationType
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **libraryLocationType** property retrieves a [library location constant](library-location-constants.md) that indicates the type of the current view in Windows Media Player.
 
@@ -59,9 +65,9 @@ This property works in combination with the [External.libraryLocationID](externa
 [**Location and Selected Item**](location-and-selected-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'The distance of the near plane of the BoundingFrustum from its origin.'
-ms.assetid: 'e94d30e5-a63a-4dab-8947-d0c77e7db044'
-title: 'BoundingFrustum.Near'
+---
+Description: The distance of the near plane of the BoundingFrustum from its origin.
+ms.assetid: e94d30e5-a63a-4dab-8947-d0c77e7db044
+title: BoundingFrustum.Near
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingFrustum.Near
 
-The distance of the near plane of the [**BoundingFrustum**](boundingfrustum.md) from its origin.
+The distance of the near plane of the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master) from its origin.
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](boundingfrustum.md)
+[**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master)
 </dt> </dl>
 
  

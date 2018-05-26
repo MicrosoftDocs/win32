@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_VideoHeight method retrieves the height of the native video.'
-ms.assetid: 'f33ba789-f9c6-47f1-879b-241bfdc72010'
-title: 'CBaseControlVideo.get\_VideoHeight method'
+Description: The get\_VideoHeight method retrieves the height of the native video.
+ms.assetid: f33ba789-f9c6-47f1-879b-241bfdc72010
+title: CBaseControlVideo.get\_VideoHeight method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.get\_VideoHeight method
@@ -13,7 +18,7 @@ The `get_VideoHeight` method retrieves the height of the native video.
 
 ```C++
 HRESULT get_VideoHeight(
-   long *pVideoHeight
+   long *pVideoHeight
 );
 ```
 
@@ -36,7 +41,7 @@ Returns NOERROR if successful or E\_OUTOFMEMORY if there is not enough memory av
 
 ## Remarks
 
-This member function implements the [**IBasicVideo::get\_VideoHeight**](ibasicvideo-get-videoheight.md) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) to retrieve the [**VIDEOINFOHEADER**](videoinfoheader.md) structure from the derived class.
+This member function implements the [**IBasicVideo::get\_VideoHeight**](/windows/win32/Control/nf-control-ibasicvideo-get_videoheight?branch=master) method. It calls the pure virtual [**CBaseControlVideo::GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) to retrieve the [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure from the derived class.
 
 ## Requirements
 
@@ -56,9 +61,9 @@ This member function implements the [**IBasicVideo::get\_VideoHeight**](ibasicvi
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

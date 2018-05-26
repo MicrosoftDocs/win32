@@ -4,10 +4,13 @@ description: Active Directory Rights Management Services is well supported by a 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e3bdaa6d-e8ca-421a-a429-553bfc54b78b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: e3bdaa6d-e8ca-421a-a429-553bfc54b78b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Community resources

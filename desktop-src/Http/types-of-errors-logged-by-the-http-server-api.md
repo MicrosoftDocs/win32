@@ -1,8 +1,14 @@
 ---
 title: Types of Errors Logged by the HTTP Server API
 description: The HTTP Server API logs error responses to clients, connection time-outs, orphaned requests, and dropped connections that are handled incorrectly.
-ms.assetid: '58344b4d-7fde-4e32-b513-a471a8cafa14'
-keywords: ["HTTP Server API, types of errors logged"]
+ms.assetid: 58344b4d-7fde-4e32-b513-a471a8cafa14
+keywords:
+- HTTP Server API, types of errors logged
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Errors Logged by the HTTP Server API
@@ -21,7 +27,7 @@ The following table lists errors logged by HTTP.
 
 
 
- 
+ 
 
 Specific error types are designated by Reason Phrase strings that always appear as the last field of each error line. The following table lists HTTP Reason Phrases.
 
@@ -64,11 +70,11 @@ Specific error types are designated by Reason Phrase strings that always appear 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

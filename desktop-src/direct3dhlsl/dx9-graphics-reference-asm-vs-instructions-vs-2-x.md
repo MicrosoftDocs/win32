@@ -1,7 +1,12 @@
 ---
 title: Instructions - vs\_2\_x
 description: This section contains reference information for the vertex shader version 2\_x instructions.
-ms.assetid: 'fac85f96-0f4b-49a8-9c00-9e68000d1c76'
+ms.assetid: fac85f96-0f4b-49a8-9c00-9e68000d1c76
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Instructions - vs\_2\_x

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_SystemServices association WMI class relates a computer system and a service program that exists on the system.'
+---
+Description: The Win32\_SystemServices association WMI class relates a computer system and a service program that exists on the system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b372e696-e1e0-4b1e-9fb8-83af8a75c405'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b372e696-e1e0-4b1e-9fb8-83af8a75c405
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SystemServices class'
+title: Win32\_SystemServices class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SystemServices class

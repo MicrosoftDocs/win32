@@ -1,8 +1,9 @@
 ---
 title: TTM\_GETTIPTEXTCOLOR message
 description: Retrieves the text color in a tooltip window.
-ms.assetid: 'dede991e-35e6-4bd0-9654-656c96135298'
-keywords: ["TTM_GETTIPTEXTCOLOR message Windows Controls"]
+ms.assetid: dede991e-35e6-4bd0-9654-656c96135298
+keywords:
+- TTM_GETTIPTEXTCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_GETTIPTEXTCOLOR message
@@ -37,8 +43,8 @@ Returns a **COLORREF** value that represents the text color.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a **COLORREF** value that represents the text color.
 [**TTM\_SETTIPTEXTCOLOR**](ttm-settiptextcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

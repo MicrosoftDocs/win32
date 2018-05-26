@@ -1,7 +1,12 @@
 ---
-Description: 'You can use any one of the following methods to debug your service.'
-ms.assetid: '6f4ae117-2120-4c1e-b69f-641ce2e633fa'
+Description: You can use any one of the following methods to debug your service.
+ms.assetid: 6f4ae117-2120-4c1e-b69f-641ce2e633fa
 title: Debugging a Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging a Service
@@ -20,7 +25,7 @@ You can use any one of the following methods to debug your service.
 
 To debug the initialization code of an auto-start service, you will have to temporarily install and run the service as a demand-start service.
 
-At times, it may be necessary to run a service as a console application for debugging purposes. In this scenario, the [**StartServiceCtrlDispatcher**](startservicectrldispatcher.md) function will return **ERROR\_FAILED\_SERVICE\_CONTROLLER\_CONNECT**. Therefore, be sure to structure your code such that service-specific code is not called when this error is returned.
+At times, it may be necessary to run a service as a console application for debugging purposes. In this scenario, the [**StartServiceCtrlDispatcher**](/windows/win32/Winsvc/nf-winsvc-startservicectrldispatchera?branch=master) function will return **ERROR\_FAILED\_SERVICE\_CONTROLLER\_CONNECT**. Therefore, be sure to structure your code such that service-specific code is not called when this error is returned.
 
 ## Related topics
 

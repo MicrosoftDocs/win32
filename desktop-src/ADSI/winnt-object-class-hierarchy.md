@@ -4,11 +4,15 @@ description: The WinNT object class hierarchy starts from the Namespace object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '01dfdfec-cfdf-43ee-bf2f-c05a741bfb22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 01dfdfec-cfdf-43ee-bf2f-c05a741bfb22
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WinNT service provider ADSI ,object class hierarchy"]
+keywords:
+- WinNT service provider ADSI ,object class hierarchy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WinNT Object Class Hierarchy
@@ -20,12 +24,12 @@ The WinNT object class hierarchy starts from the Namespace object.
 | Object class                   | Description                                                                       |
 |--------------------------------|-----------------------------------------------------------------------------------|
 | Namespace<br/>           | Top-level object container.<br/>                                            |
-| Domain<br/>              | The Windows NT domain.<br/>                                                 |
+| Domain<br/>              | The Windows NT domain.<br/>                                                 |
 | User<br/>                | User account.<br/>                                                          |
 | Group<br/>               | Group account for managing access rights.<br/>                              |
-| UserGroupCollection<br/> | A set of user groups implementing [**IADsMembers**](iadsmembers.md).<br/>  |
-| GroupCollection<br/>     | A set of other groups implementing [**IADsMembers**](iadsmembers.md).<br/> |
-| Computer<br/>            | Windows NT 4.0 server or workstation.<br/>                                  |
+| UserGroupCollection<br/> | A set of user groups implementing [**IADsMembers**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master).<br/>  |
+| GroupCollection<br/>     | A set of other groups implementing [**IADsMembers**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master).<br/> |
+| Computer<br/>            | Windows NT 4.0 server or workstation.<br/>                                  |
 | PrintJob<br/>            | Print job in the print queue.<br/>                                          |
 | PrintJobsCollection<br/> | A set of print jobs.<br/>                                                   |
 | PrintQueue<br/>          | Print queue on a printer spooler.<br/>                                      |
@@ -45,11 +49,11 @@ The WinNT object class hierarchy starts from the Namespace object.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

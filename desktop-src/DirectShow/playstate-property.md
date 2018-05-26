@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayState property retrieves the current state of the MSWebDVD object.'
-ms.assetid: 'ffe71c3f-f8c2-45cc-84bf-e937cfbbe7b9'
+Description: The PlayState property retrieves the current state of the MSWebDVD object.
+ms.assetid: ffe71c3f-f8c2-45cc-84bf-e937cfbbe7b9
 title: PlayState Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayState Property

@@ -1,7 +1,12 @@
 ---
-Description: 'The default security policy restricts anonymous local access to having no rights. Administrators can then add or subtract rights as they see fit.'
-ms.assetid: '3d813e46-f06e-4147-874c-30b5fc6f50d9'
+Description: The default security policy restricts anonymous local access to having no rights. Administrators can then add or subtract rights as they see fit.
+ms.assetid: 3d813e46-f06e-4147-874c-30b5fc6f50d9
 title: Allowing Anonymous Access
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Allowing Anonymous Access

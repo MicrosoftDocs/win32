@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the Media Session when the status of a topology changes.'
-ms.assetid: 'b45fd598-ab1e-4b12-8d82-c88c96d1f770'
+---
+Description: Raised by the Media Session when the status of a topology changes.
+ms.assetid: b45fd598-ab1e-4b12-8d82-c88c96d1f770
 title: MESessionTopologyStatus event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionTopologyStatus event
@@ -10,13 +15,13 @@ Raised by the Media Session when the status of a topology changes.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
 | VARTYPE                | Description                                                                                         |
 |------------------------|-----------------------------------------------------------------------------------------------------|
-| VT\_UNKNOWN<br/> | Pointer to the [**IMFTopology**](imftopology.md) interface of the topology.<br/> <br/> |
+| VT\_UNKNOWN<br/> | Pointer to the [**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master) interface of the topology.<br/> <br/> |
 
 
 
@@ -34,7 +39,7 @@ The following attributes are defined for this event.
 
 ## Remarks
 
-For a code example that retrieves the [**IMFTopology**](imftopology.md) pointer from the event, see [MESessionTopologySet](mesessiontopologyset.md) event.
+For a code example that retrieves the [**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master) pointer from the event, see [MESessionTopologySet](mesessiontopologyset.md) event.
 
 ## Requirements
 

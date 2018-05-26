@@ -1,14 +1,20 @@
 ---
 title: saturate
 description: Clamps the specified value within the range of 0 to 1.
-ms.assetid: 'efe4dedd-732a-4643-8a57-61814434f6ff'
-keywords: ["saturate HLSL"]
+ms.assetid: efe4dedd-732a-4643-8a57-61814434f6ff
+keywords:
+- saturate HLSL
 topic_type:
 - apiref
 api_name:
 - saturate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # saturate
@@ -22,7 +28,7 @@ Clamps the specified value within the range of 0 to 1.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Clamps the specified value within the range of 0 to 1.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The *x* parameter, clamped within the range of 0 to 1.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -65,7 +71,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -74,9 +80,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

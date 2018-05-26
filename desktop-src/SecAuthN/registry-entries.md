@@ -1,7 +1,12 @@
-﻿---
-Description: 'Explains the registry entries for Winlogon events.'
-ms.assetid: 'dbebe23f-84ff-4a3e-8b8c-fa3bda10fa57'
+---
+Description: Explains the registry entries for Winlogon events.
+ms.assetid: dbebe23f-84ff-4a3e-8b8c-fa3bda10fa57
 title: Registry Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry Entries

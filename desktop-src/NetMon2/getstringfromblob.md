@@ -1,7 +1,12 @@
 ---
-Description: 'Returns a string located at a given position within a BLOB.'
-ms.assetid: '5930a30b-f0ed-4d5b-a0ba-6cead55c2fcd'
+Description: Returns a string located at a given position within a BLOB.
+ms.assetid: 5930a30b-f0ed-4d5b-a0ba-6cead55c2fcd
 title: GetStringFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetStringFromBlob function
@@ -13,11 +18,11 @@ The **GetStringFromBlob** function returns a string located at a given position 
 
 ```C++
 DWORD GetStringFromBlob(
-  _In_        HBLOB hBlob,
-  _In_  const char  *pOwnerName,
-  _In_  const char  *pCategoryName,
-  _In_  const char  *pTagName,
-  _Out_ const char  **ppString
+  _In_        HBLOB hBlob,
+  _In_  const char  *pOwnerName,
+  _In_  const char  *pCategoryName,
+  _In_  const char  *pTagName,
+  _Out_ const char  **ppString
 );
 ```
 
@@ -76,8 +81,8 @@ If the specified **Owner**, **Category**, or **Tag** data does not exist, the fu
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -118,9 +123,9 @@ If the specified **Owner**, **Category**, or **Tag** data does not exist, the fu
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

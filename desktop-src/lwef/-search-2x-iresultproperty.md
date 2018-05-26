@@ -1,8 +1,10 @@
 ---
 title: IResultProperty interface
 description: Exposes result properties.
-ms.assetid: '58d8c516-47c6-4cae-b46c-5127baf3054d'
-keywords: ["IResultProperty interface Legacy Windows Environment Features", "IResultProperty interface Legacy Windows Environment Features , described"]
+ms.assetid: 58d8c516-47c6-4cae-b46c-5127baf3054d
+keywords:
+- IResultProperty interface Legacy Windows Environment Features
+- IResultProperty interface Legacy Windows Environment Features , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultProperty interface
@@ -39,7 +46,7 @@ The **IResultProperty** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -58,7 +65,7 @@ The **IResultProperty** interface has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,16 +77,16 @@ These are the items return properties.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 3.0<br/>                                               |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

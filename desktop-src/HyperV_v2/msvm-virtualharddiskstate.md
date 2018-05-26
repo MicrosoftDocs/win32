@@ -1,7 +1,12 @@
 ---
-Description: 'Provides state information for an existing virtual hard disk image.'
-ms.assetid: 'b0177906-71dc-4be8-b351-97d7ef427acd'
-title: 'Msvm\_VirtualHardDiskState class'
+Description: Provides state information for an existing virtual hard disk image.
+ms.assetid: b0177906-71dc-4be8-b351-97d7ef427acd
+title: Msvm\_VirtualHardDiskState class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualHardDiskState class
@@ -16,12 +21,12 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [AMENDMENT]
 class Msvm_VirtualHardDiskState
 {
-  uint64   FileSize;
-  boolean  InUse;
-  uint64   MinInternalSize;
-  uint32   PhysicalSectorSize;
-  uint32   Alignment;
-  uint32   FragmentationPercentage;
+  uint64   FileSize;
+  boolean  InUse;
+  uint64   MinInternalSize;
+  uint32   PhysicalSectorSize;
+  uint32   Alignment;
+  uint32   FragmentationPercentage;
   DATETIME Timestamp;
 };
 ```
@@ -58,7 +63,7 @@ Specifies the type of alignment of the virtual hard disk. This will be one of th
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -139,9 +144,9 @@ Access type: Read-only
 The timestamp of the virtual hard disk
 
 > [!Note]  
-> Added in Windows 10 and Windows Server 2016.
+> Added in Windows 10 and Windows Server 2016.
 
- 
+ 
 
 </dd> </dl>
 
@@ -151,8 +156,8 @@ The timestamp of the virtual hard disk
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -166,9 +171,9 @@ The timestamp of the virtual hard disk
 [**GetVirtualHardDiskState**](getvirtualharddiskstate-msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

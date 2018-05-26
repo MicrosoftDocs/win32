@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Search enables you to manage the Windows Search index with three main components: Search Manager, Catalog Manager, and Crawl Scope Manager.'
-ms.assetid: '345d1159-aa51-4a01-9831-216075a8fb78'
+Description: Windows Search enables you to manage the Windows Search index with three main components Search Manager, Catalog Manager, and Crawl Scope Manager.
+ms.assetid: 345d1159-aa51-4a01-9831-216075a8fb78
 title: Managing the Index
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Index

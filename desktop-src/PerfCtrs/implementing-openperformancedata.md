@@ -1,14 +1,19 @@
 ---
-Description: 'The OpenPerformanceData function gives the provider an opportunity to initialize its performance data structures.'
-ms.assetid: '0849d9cb-90d1-4b79-810d-b43f69cc9055'
+Description: The OpenPerformanceData function gives the provider an opportunity to initialize its performance data structures.
+ms.assetid: 0849d9cb-90d1-4b79-810d-b43f69cc9055
 title: Implementing OpenPerformanceData
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing OpenPerformanceData
 
-The [**OpenPerformanceData**](openperformancedata.md) function gives the provider an opportunity to initialize its performance data structures. The system calls your open function the first time a consumer calls [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911), or if the consumer uses the [**RegOpenKey**](https://msdn.microsoft.com/library/windows/desktop/ms724895) or [**RegConnectRegistry**](https://msdn.microsoft.com/library/windows/desktop/ms724840) function to open **HKEY\_PERFORMANCE\_DATA**.
+The [**OpenPerformanceData**](/windows/win32/Winperf/?branch=master) function gives the provider an opportunity to initialize its performance data structures. The system calls your open function the first time a consumer calls [**RegQueryValueEx**](https://msdn.microsoft.com/library/windows/desktop/ms724911), or if the consumer uses the [**RegOpenKey**](https://msdn.microsoft.com/library/windows/desktop/ms724895) or [**RegConnectRegistry**](https://msdn.microsoft.com/library/windows/desktop/ms724840) function to open **HKEY\_PERFORMANCE\_DATA**.
 
-The following example shows an implementation of the [**OpenPerformanceData**](openperformancedata.md) function. The header file that contains the definition of the counters used in this function follows this example. If you use C++ to implement this function, be sure to use extern "C" when you declare your function. The counter offset constants used in this example are defined the CounterOffsets.h file shown in [Adding Counter Names and Description to the Registry](adding-counter-names-and-descriptions-to-the-registry.md).
+The following example shows an implementation of the [**OpenPerformanceData**](/windows/win32/Winperf/?branch=master) function. The header file that contains the definition of the counters used in this function follows this example. If you use C++ to implement this function, be sure to use extern "C" when you declare your function. The counter offset constants used in this example are defined the CounterOffsets.h file shown in [Adding Counter Names and Description to the Registry](adding-counter-names-and-descriptions-to-the-registry.md).
 
 
 ```C++
@@ -258,7 +263,7 @@ EXPORTS
 
 
 
-The following example shows an implementation of the [*ClosePerformanceData*](closeperformancedata.md) function. The system calls your close function when a consumer calls the [**RegCloseKey**](https://msdn.microsoft.com/library/windows/desktop/ms724837) to close **HKEY\_PERFORMANCE\_DATA**. Providers use this call to release any resources that they have allocated.
+The following example shows an implementation of the [*ClosePerformanceData*](/windows/win32/Winperf/nc-winperf-pm_close_proc?branch=master) function. The system calls your close function when a consumer calls the [**RegCloseKey**](https://msdn.microsoft.com/library/windows/desktop/ms724837) to close **HKEY\_PERFORMANCE\_DATA**. Providers use this call to release any resources that they have allocated.
 
 
 ```C++

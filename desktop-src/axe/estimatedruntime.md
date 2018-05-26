@@ -1,14 +1,20 @@
 ---
 title: EstimatedRunTime element
 description: Describes the estimated run time of the assessment.
-ms.assetid: '45BB4259-D6D9-49BE-B1D7-23A561417692'
-keywords: ["EstimatedRunTime element Access Execution Engine"]
+ms.assetid: 45BB4259-D6D9-49BE-B1D7-23A561417692
+keywords:
+- EstimatedRunTime element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - EstimatedRunTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EstimatedRunTime element
@@ -69,9 +75,9 @@ This value is optional and is used only to set expectations for the user. It is 
 [**WatchDogTimeOut**](watchdogtimeout.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

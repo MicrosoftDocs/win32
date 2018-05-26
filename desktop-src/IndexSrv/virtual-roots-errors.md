@@ -1,7 +1,12 @@
 ---
 title: Virtual Roots Errors
 description: Virtual Roots Errors
-ms.assetid: '20645b84-251d-467e-9aba-6aeda86eda66'
+ms.assetid: 20645b84-251d-467e-9aba-6aeda86eda66
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Roots Errors

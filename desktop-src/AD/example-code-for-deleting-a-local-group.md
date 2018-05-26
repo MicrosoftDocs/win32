@@ -4,11 +4,15 @@ description: Code examples to delete a local group on a member server or a compu
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ff4fd148-2fa2-4355-bfaa-1f093d61aa00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ff4fd148-2fa2-4355-bfaa-1f093d61aa00
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory ,deleting a local group"]
+keywords:
+- Active Directory examples Active Directory ,deleting a local group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Deleting a Local Group

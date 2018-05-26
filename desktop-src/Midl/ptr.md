@@ -2,13 +2,19 @@
 title: ptr attribute
 description: The \ ptr\ attribute designates a pointer as a full pointer.
 ms.assetid: a1233a25-b651-4a01-8abf-a64dc9ee168e
-keywords: ["ptr attribute MIDL"]
+keywords:
+- ptr attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ptr
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ptr attribute

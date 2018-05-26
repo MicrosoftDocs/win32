@@ -1,8 +1,17 @@
 ---
 title: Adding a Slider
 description: Adding a Slider
-ms.assetid: '7062d580-a9d1-4fd7-bc28-db2615464838'
-keywords: ["creating skins,sliders", "Windows Media Player skins,sliders", "skins,sliders", "sliders in skins"]
+ms.assetid: 7062d580-a9d1-4fd7-bc28-db2615464838
+keywords:
+- creating skins,sliders
+- Windows Media Player skins,sliders
+- skins,sliders
+- sliders in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Slider

@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference information for the macros provided by the D3DX utility library.'
-ms.assetid: '7219363f-b8ac-42e9-96ff-4825c084d00f'
+Description: This section contains reference information for the macros provided by the D3DX utility library.
+ms.assetid: 7219363f-b8ac-42e9-96ff-4825c084d00f
 title: Macros
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Macros

@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_DEPTH\_STENCIL structure
 description: A helper structure used to describe a depth stencil description as a single object suitable for a stream description.
-ms.assetid: '4FB54EA5-FCC6-4B64-A747-27DFE4C1D2DC'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure"]
+ms.assetid: 4FB54EA5-FCC6-4B64-A747-27DFE4C1D2DC
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_DEPTH\_STENCIL structure
@@ -22,10 +28,10 @@ A helper structure used to describe a depth stencil description as a single obje
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL {
-                                              CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL;
-                                              CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL(CD3DX12_DEPTH_STENCIL_DESC const &amp;i);
+                                              CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL;
+                                              CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL(CD3DX12_DEPTH_STENCIL_DESC const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL operator=(CD3DX12_DEPTH_STENCIL_DESC const&amp; i);
-                                              operator CD3DX12_DEPTH_STENCIL_DESC() const;
+                                              operator CD3DX12_DEPTH_STENCIL_DESC() const;
 };
 ```
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<CD3DX12_DEPTH_STENCIL_DESC, D3D1
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

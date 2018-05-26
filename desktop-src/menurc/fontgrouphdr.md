@@ -1,14 +1,20 @@
 ---
 title: FONTGROUPHDR structure
 description: Contains the information necessary for an application to access a specific font. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '180b3dfd-3f20-4100-b45b-2f253b7c0582'
-keywords: ["FONTGROUPHDR structure Menus and Other Resources"]
+ms.assetid: 180b3dfd-3f20-4100-b45b-2f253b7c0582
+keywords:
+- FONTGROUPHDR structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - FONTGROUPHDR
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FONTGROUPHDR structure
@@ -20,7 +26,7 @@ Contains the information necessary for an application to access a specific font.
 
 ```C++
 typedef struct {
-  WORD     NumberOfFonts;
+  WORD     NumberOfFonts;
   DIRENTRY DE;
 } FONTGROUPHDR;
 ```
@@ -63,8 +69,8 @@ The **FONTGROUPHDR** structure follows the data for the individual fonts in the 
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -87,9 +93,9 @@ The **FONTGROUPHDR** structure follows the data for the individual fonts in the 
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

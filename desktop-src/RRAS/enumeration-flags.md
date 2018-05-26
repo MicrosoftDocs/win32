@@ -1,8 +1,15 @@
 ---
 title: Enumeration Flags
 description: Enumeration Flags
-ms.assetid: 'd5677e3a-c0c1-4768-aae4-f6564a40ee99'
-keywords: ["Enumeration", "Enumeration Flags"]
+ms.assetid: d5677e3a-c0c1-4768-aae4-f6564a40ee99
+keywords:
+- Enumeration
+- Enumeration Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumeration Flags

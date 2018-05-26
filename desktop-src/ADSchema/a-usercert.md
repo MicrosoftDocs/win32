@@ -4,17 +4,22 @@ description: Nortel v1 or DMS certificates.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f0aa19ad-0599-4e38-b49b-0a24241f1a23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f0aa19ad-0599-4e38-b49b-0a24241f1a23
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["User-Cert attribute AD Schema", "userCert attribute AD Schema"]
+keywords:
+- User-Cert attribute AD Schema
+- userCert attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - User-Cert
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User-Cert attribute
@@ -38,12 +43,12 @@ Nortel v1 or DMS certificates.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Nortel v1 or DMS certificates.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

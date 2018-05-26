@@ -1,8 +1,10 @@
 ---
 title: EmailAction object
 description: Scripting object that represents an action that sends an email message.
-ms.assetid: 'edc0dc4d-eda0-47e0-981f-8521ac4678eb'
-keywords: ["EmailAction object Task Scheduler", "EmailAction object Task Scheduler , described"]
+ms.assetid: edc0dc4d-eda0-47e0-981f-8521ac4678eb
+keywords:
+- EmailAction object Task Scheduler
+- EmailAction object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EmailAction object
@@ -44,11 +51,11 @@ The **EmailAction** object has these properties.
 | [**Server**](emailaction-server.md)<br/>             | Read/write<br/> | Gets or sets the name of the server that you use to send email from.<br/>                           |
 | [**Subject**](emailaction-subject.md)<br/>           | Read/write<br/> | Gets or sets the subject of the email message.<br/>                                                 |
 | [**To**](emailaction-to.md)<br/>                     | Read/write<br/> | Gets or sets the email address or addresses that you want to send the email to.<br/>                |
-| [**Type**](iaction-type.md)<br/>                     | Read-only<br/>  | Inherited from [**Action**](action.md) object. Gets the type of the action.<br/>                   |
+| [**Type**](/windows/win32/taskschd/nf-taskschd-iaction-get_type?branch=master)<br/>                     | Read-only<br/>  | Inherited from [**Action**](action.md) object. Gets the type of the action.<br/>                   |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,18 +73,18 @@ For more information and example code for this scripting object, see [Event Trig
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Copy this rule.'
-ms.assetid: 'b418de78-1e79-4048-81ad-8f1809038cd7'
-title: 'CloneObject method of the MSFT\_NetConSecRule class'
+Description: Copy this rule.
+ms.assetid: b418de78-1e79-4048-81ad-8f1809038cd7
+title: CloneObject method of the MSFT\_NetConSecRule class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CloneObject method of the MSFT\_NetConSecRule class
@@ -13,9 +18,9 @@ Copy this rule.
 
 ```mof
 uint32 CloneObject(
-  [in] string NewName,
-  [in] string NewPolicyStore,
-  [in] string NewGPOSession
+  [in] string NewName,
+  [in] string NewPolicyStore,
+  [in] string NewGPOSession
 );
 ```
 
@@ -52,8 +57,8 @@ The new GPOSession for the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ The new GPOSession for the rule.
 [**MSFT\_NetConSecRule**](msft-netconsecrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

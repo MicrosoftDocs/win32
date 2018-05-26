@@ -1,7 +1,12 @@
 ---
 title: Writing Internet Data Administration Scripts
 description: Writing Internet Data Administration Scripts
-ms.assetid: '034830bf-3798-4eaa-a927-0773d1fd08ce'
+ms.assetid: 034830bf-3798-4eaa-a927-0773d1fd08ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing Internet Data Administration Scripts

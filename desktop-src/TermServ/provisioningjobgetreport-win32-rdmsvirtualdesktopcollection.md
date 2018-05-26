@@ -4,11 +4,14 @@ description: Gets a report about the status of a virtual desktop provisioning jo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8fc03fed-0838-4530-9b0f-0f561d76769d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8fc03fed-0838-4530-9b0f-0f561d76769d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ProvisioningJobGetReport method Remote Desktop Services", "ProvisioningJobGetReport method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class", "Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , ProvisioningJobGetReport method"]
+keywords:
+- ProvisioningJobGetReport method Remote Desktop Services
+- ProvisioningJobGetReport method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection class
+- Win32_RDMSVirtualDesktopCollection class Remote Desktop Services , ProvisioningJobGetReport method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProvisioningJobGetReport method of the Win32\_RDMSVirtualDesktopCollection class
@@ -28,8 +34,8 @@ Gets a report about the status of a virtual desktop provisioning job.
 
 ```mof
 uint32 ProvisioningJobGetReport(
-  [in]  string JobGuid,
-  [out] string JobReportXml
+  [in]  string JobGuid,
+  [out] string JobReportXml
 );
 ```
 
@@ -64,7 +70,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -78,9 +84,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktopCollection**](win32-rdmsvirtualdesktopcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

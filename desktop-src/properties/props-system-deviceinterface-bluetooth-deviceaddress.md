@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth device address.'
-ms.assetid: '41588629-d1cd-4274-989b-0e81cbdc1e87'
-title: 'System.DeviceInterface.Bluetooth.DeviceAddress'
+Description: Bluetooth device address.
+ms.assetid: 41588629-d1cd-4274-989b-0e81cbdc1e87
+title: System.DeviceInterface.Bluetooth.DeviceAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Bluetooth.DeviceAddress

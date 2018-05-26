@@ -4,13 +4,16 @@ description: Gets the group type for this resource group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd444f3a3-f64b-4ab5-a397-3003df21f020'
-ms.prod: 'windows-server-dev'
+ms.assetid: d444f3a3-f64b-4ab5-a397-3003df21f020
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetGroupType method", "GetGroupType method, MSCluster_ResourceGroup class", "MSCluster_ResourceGroup class, GetGroupType method"]
+keywords:
+- GetGroupType method
+- GetGroupType method, MSCluster_ResourceGroup class
+- MSCluster_ResourceGroup class, GetGroupType method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetGroupType method of the MSCluster\_ResourceGroup class
@@ -49,9 +55,9 @@ This method returns one of the following values:
 
 100
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **FileServer** before Windows Server 2012 R2 .
+This value is **FileServer** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -60,9 +66,9 @@ This value is **FileServer** before Windows Server 2012 R2 .
 
 101
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **PrintServer** before Windows Server 2012 R2 .
+This value is **PrintServer** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -71,9 +77,9 @@ This value is **PrintServer** before Windows Server 2012 R2 .
 
 102
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **DhcpServer** before Windows Server 2012 R2 .
+This value is **DhcpServer** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -89,9 +95,9 @@ This value is **DhcpServer** before Windows Server 2012 R2 .
 
 104
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **Msmq** before Windows Server 2012 R2 .
+This value is **Msmq** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -100,9 +106,9 @@ This value is **Msmq** before Windows Server 2012 R2 .
 
 105
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **Wins** before Windows Server 2012 R2 .
+This value is **Wins** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -111,9 +117,9 @@ This value is **Wins** before Windows Server 2012 R2 .
 
 106
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **StandAloneDfs** before Windows Server 2012 R2 .
+This value is **StandAloneDfs** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -122,9 +128,9 @@ This value is **StandAloneDfs** before Windows Server 2012 R2 .
 
 107
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **GenericApplication** before Windows Server 2012 R2 .
+This value is **GenericApplication** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -133,9 +139,9 @@ This value is **GenericApplication** before Windows Server 2012 R2 .
 
 108
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **GenericService** before Windows Server 2012 R2 .
+This value is **GenericService** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -144,9 +150,9 @@ This value is **GenericService** before Windows Server 2012 R2 .
 
 109
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **GenericScript** before Windows Server 2012 R2 .
+This value is **GenericScript** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -155,9 +161,9 @@ This value is **GenericScript** before Windows Server 2012 R2 .
 
 110
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **IScsiNameService** before Windows Server 2012 R2 .
+This value is **IScsiNameService** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -166,9 +172,9 @@ This value is **IScsiNameService** before Windows Server 2012 R2 .
 
 111
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **Virtual Machine** before Windows Server 2012 R2 .
+This value is **Virtual Machine** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -177,9 +183,9 @@ This value is **Virtual Machine** before Windows Server 2012 R2 .
 
 112
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **TsSessionBroker** before Windows Server 2012 R2 .
+This value is **TsSessionBroker** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -218,7 +224,7 @@ This value is **TsSessionBroker** before Windows Server 2012 R2 .
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                               |
 | Header<br/>                   | <dl> <dt>Dvbsiparser.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl>   |
@@ -233,9 +239,9 @@ This value is **TsSessionBroker** before Windows Server 2012 R2 .
 [**MSCluster\_ResourceGroup**](mscluster-resourcegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

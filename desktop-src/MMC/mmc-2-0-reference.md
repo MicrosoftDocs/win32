@@ -4,11 +4,15 @@ description: The following topics provide reference information for Microsoft Ma
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cbb58d73-10f8-4717-ba00-ab22a322a022'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: cbb58d73-10f8-4717-ba00-ab22a322a022
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Microsoft Management Console 2.0 MMC , MMC 2.0 reference"]
+keywords:
+- Microsoft Management Console 2.0 MMC , MMC 2.0 reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Reference

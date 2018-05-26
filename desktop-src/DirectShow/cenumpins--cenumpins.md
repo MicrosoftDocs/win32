@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: '21845996-8c00-4f00-adcf-1bec67cfc235'
-title: 'CEnumPins.~CEnumPins destructor'
+Description: Destructor method.
+ms.assetid: 21845996-8c00-4f00-adcf-1bec67cfc235
+title: CEnumPins.~CEnumPins destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CEnumPins.~CEnumPins destructor
@@ -35,9 +40,9 @@ virtual ~CEnumPins();
 [**CEnumPins Class**](cenumpins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

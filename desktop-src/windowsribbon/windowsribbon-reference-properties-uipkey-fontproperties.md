@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_FontProperties
 description: Identifies the UI\_PKEY\_FontProperties property.
-ms.assetid: 'dc98ef5a-c591-46aa-a53d-0bb1e59de567'
+ms.assetid: dc98ef5a-c591-46aa-a53d-0bb1e59de567
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_FontProperties

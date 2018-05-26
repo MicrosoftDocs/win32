@@ -1,13 +1,19 @@
 ---
 title: EAP\_CRED\_LOGON\_RESP
 description: Stores EAP security credentials within a EAP\_CONFIG\_INPUT\_FIELD\_ARRAY structure.
-ms.assetid: '1244A40F-6999-4053-97C4-1C4FB107B2F5'
-keywords: ["EAP_CRED_LOGON_RESP"]
+ms.assetid: 1244A40F-6999-4053-97C4-1C4FB107B2F5
+keywords:
+- EAP_CRED_LOGON_RESP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP\_CRED\_LOGON\_RESP
 
-The **EAP\_CRED\_LOGON\_RESP** structure stores EAP security credentials within a [**EAP\_CONFIG\_INPUT\_FIELD\_ARRAY**](eap-config-input-field-array.md) structure.
+The **EAP\_CRED\_LOGON\_RESP** structure stores EAP security credentials within a [**EAP\_CONFIG\_INPUT\_FIELD\_ARRAY**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_config_input_field_array?branch=master) structure.
 
 
 ```C++
@@ -21,7 +27,7 @@ typedef EAP_CONFIG_INPUT_FIELD_ARRAY EAP_CRED_LOGON_RESP;
 **EAP\_CRED\_LOGON\_RESP**
 </dt> <dd>
 
-The **EAP\_CRED\_LOGON\_RESP** structure stores EAP security credentials pointed to by the *pbUiData* parameter of the [**EAP\_INTERACTIVE\_UI\_DATA**](eap-interactive-ui-data.md) structure when the *dwDataType* parameter of [**EAP\_INTERACTIVE\_UI\_DATA\_TYPE**](eap-interactive-ui-data-type.md) specifies a credential request type. The input fields in this structure will be same as the input fields returned by [**EapHostPeerQueryCredentialInputFields**](eaphostpeerquerycredentialinputfields.md). **EAP\_CRED\_LOGON\_RESP** is used in the initial credential request and [**EAP\_CRED\_RESP**](eap-cred-resp.md) is used in the credential retry request during an authentication.
+The **EAP\_CRED\_LOGON\_RESP** structure stores EAP security credentials pointed to by the *pbUiData* parameter of the [**EAP\_INTERACTIVE\_UI\_DATA**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_interactive_ui_data?branch=master) structure when the *dwDataType* parameter of [**EAP\_INTERACTIVE\_UI\_DATA\_TYPE**](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_interactive_ui_data_type?branch=master) specifies a credential request type. The input fields in this structure will be same as the input fields returned by [**EapHostPeerQueryCredentialInputFields**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields?branch=master). **EAP\_CRED\_LOGON\_RESP** is used in the initial credential request and [**EAP\_CRED\_RESP**](eap-cred-resp.md) is used in the credential retry request during an authentication.
 
 </dd> </dl>
 
@@ -37,8 +43,8 @@ The **EAP\_CRED\_LOGON\_RESP** structure is identical to the [**EAP\_CRED\_LOGON
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Eaptypes.h</dt> </dl> |
 
 
@@ -47,24 +53,24 @@ The **EAP\_CRED\_LOGON\_RESP** structure is identical to the [**EAP\_CRED\_LOGON
 
 <dl> <dt>
 
-[**EapHostPeerQueryCredentialInputFields**](eaphostpeerquerycredentialinputfields.md)
+[**EapHostPeerQueryCredentialInputFields**](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerquerycredentialinputfields?branch=master)
 </dt> <dt>
 
-[**EAP\_CONFIG\_INPUT\_FIELD\_ARRAY**](eap-config-input-field-array.md)
+[**EAP\_CONFIG\_INPUT\_FIELD\_ARRAY**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_config_input_field_array?branch=master)
 </dt> <dt>
 
 [**EAP\_CRED\_LOGON\_REQ**](eap-cred-logon-req.md)
 </dt> <dt>
 
-[**EAP\_INTERACTIVE\_UI\_DATA**](eap-interactive-ui-data.md)
+[**EAP\_INTERACTIVE\_UI\_DATA**](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_interactive_ui_data?branch=master)
 </dt> <dt>
 
-[**EAP\_INTERACTIVE\_UI\_DATA\_TYPE**](eap-interactive-ui-data-type.md)
+[**EAP\_INTERACTIVE\_UI\_DATA\_TYPE**](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_interactive_ui_data_type?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

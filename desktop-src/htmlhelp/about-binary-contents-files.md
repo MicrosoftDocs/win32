@@ -1,7 +1,12 @@
 ---
 title: About Binary Contents Files
 description: About Binary Contents Files
-ms.assetid: '585873DB-FBB7-4a36-B250-F2CA34EE5C10'
+ms.assetid: 585873DB-FBB7-4a36-B250-F2CA34EE5C10
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Binary Contents Files

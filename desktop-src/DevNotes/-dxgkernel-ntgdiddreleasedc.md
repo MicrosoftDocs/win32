@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases the previously created device context (DC) for the indicated kernel-mode Microsoft DirectDraw surface object.'
-ms.assetid: '98def2a1-878d-4776-a519-32cb70107338'
+---
+Description: Releases the previously created device context (DC) for the indicated kernel-mode Microsoft DirectDraw surface object.
+ms.assetid: 98def2a1-878d-4776-a519-32cb70107338
 title: NtGdiDdReleaseDC function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdReleaseDC function
@@ -59,7 +64,7 @@ Applications that need to obtain a DC for a DirectDraw surface may use [IDirectD
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdReleaseDC**](-dxgkernel-ddreleasedc.md)
+[**DdReleaseDC**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddreleasedc?branch=master)
 </dt> </dl>
 
  

@@ -4,10 +4,13 @@ description: Lists standard Windows GUI elements commonly used by MMC.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1501258-90ec-40bf-9ec0-3477a221dc6d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e1501258-90ec-40bf-9ec0-3477a221dc6d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Common GUI Elements

@@ -1,8 +1,31 @@
 ---
 title: Mutual Exclusion
 description: Mutual Exclusion
-ms.assetid: '3a3f6763-a241-4bbd-a6e8-62041b05622d'
-keywords: ["Windows Media Format SDK,mutual exclusion", "Advanced Systems Format (ASF),mutual exclusion", "ASF (Advanced Systems Format),mutual exclusion", "Windows Media Format SDK,MBR mutual exclusion", "Advanced Systems Format (ASF),MBR mutual exclusion", "ASF (Advanced Systems Format),MBR mutual exclusion", "Windows Media Format SDK,multiple bit rate (MBR)", "Advanced Systems Format (ASF),multiple bit rate (MBR)", "ASF (Advanced Systems Format),multiple bit rate (MBR)", "mutual exclusion,about", "multiple bit rate (MBR),mutual exclusion", "MBR (multiple bit rate),mutual exclusion", "mutual exclusion,bit rate", "mutual exclusion,language", "mutual exclusion,presentation", "mutual exclusion,unknown", "mutual exclusion,features", "mutual exclusion,advanced features"]
+ms.assetid: 3a3f6763-a241-4bbd-a6e8-62041b05622d
+keywords:
+- Windows Media Format SDK,mutual exclusion
+- Advanced Systems Format (ASF),mutual exclusion
+- ASF (Advanced Systems Format),mutual exclusion
+- Windows Media Format SDK,MBR mutual exclusion
+- Advanced Systems Format (ASF),MBR mutual exclusion
+- ASF (Advanced Systems Format),MBR mutual exclusion
+- Windows Media Format SDK,multiple bit rate (MBR)
+- Advanced Systems Format (ASF),multiple bit rate (MBR)
+- ASF (Advanced Systems Format),multiple bit rate (MBR)
+- mutual exclusion,about
+- multiple bit rate (MBR),mutual exclusion
+- MBR (multiple bit rate),mutual exclusion
+- mutual exclusion,bit rate
+- mutual exclusion,language
+- mutual exclusion,presentation
+- mutual exclusion,unknown
+- mutual exclusion,features
+- mutual exclusion,advanced features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mutual Exclusion

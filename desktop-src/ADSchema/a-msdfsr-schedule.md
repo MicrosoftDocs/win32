@@ -4,17 +4,22 @@ description: Contains the replication schedule for the Distributed File System (
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6dfcce16-44a4-4f7a-93ba-0c0d50605682'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6dfcce16-44a4-4f7a-93ba-0c0d50605682
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-Schedule attribute AD Schema", "msDFSR-Schedule attribute AD Schema"]
+keywords:
+- ms-DFSR-Schedule attribute AD Schema
+- msDFSR-Schedule attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-Schedule
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-Schedule attribute
@@ -38,10 +43,10 @@ Contains the replication schedule for the Distributed File System (DFS) Replicat
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the replication schedule for the Distributed File System (DFS) Replicat
 
 The attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

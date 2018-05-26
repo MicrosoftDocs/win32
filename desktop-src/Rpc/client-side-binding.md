@@ -1,7 +1,12 @@
 ---
 title: Client-side Binding
 description: Binding handles are composed of a protocol sequence, the name or address of a server program host computer, and a server program endpoint. Therefore, your client program must obtain or provide this information to create a binding.
-ms.assetid: '0a3bed37-95c7-4f4a-9ed3-9d57f69db523'
+ms.assetid: 0a3bed37-95c7-4f4a-9ed3-9d57f69db523
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client-side Binding

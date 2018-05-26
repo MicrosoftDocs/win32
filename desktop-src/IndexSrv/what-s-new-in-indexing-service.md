@@ -1,7 +1,12 @@
 ---
 title: About the Indexing Service
 description: About the Indexing Service
-ms.assetid: '4c83a189-11fb-4781-9674-581d51a6d7e3'
+ms.assetid: 4c83a189-11fb-4781-9674-581d51a6d7e3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Indexing Service

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Forwards the events of the specified ShellFolderView object to the corresponding ShellFolderViewOC event handler.'
-ms.assetid: '44a2a0a5-aa87-43ae-b4ea-0d301fcb8464'
-title: 'ShellFolderViewOC.SetFolderView method'
+---
+Description: Forwards the events of the specified ShellFolderView object to the corresponding ShellFolderViewOC event handler.
+ms.assetid: 44a2a0a5-aa87-43ae-b4ea-0d301fcb8464
+title: ShellFolderViewOC.SetFolderView method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderViewOC.SetFolderView method

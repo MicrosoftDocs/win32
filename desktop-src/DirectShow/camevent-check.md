@@ -1,7 +1,12 @@
 ---
-Description: 'The Check method checks whether the event is set, without blocking.'
-ms.assetid: 'b8e55798-fd8e-4442-bc35-08887d8a3129'
-title: 'CAMEvent.Check method'
+Description: The Check method checks whether the event is set, without blocking.
+ms.assetid: b8e55798-fd8e-4442-bc35-08887d8a3129
+title: CAMEvent.Check method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMEvent.Check method
@@ -43,9 +48,9 @@ Returns **TRUE** if the event is set, or **FALSE** otherwise. This method calls 
 [**CAMEvent Class**](camevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

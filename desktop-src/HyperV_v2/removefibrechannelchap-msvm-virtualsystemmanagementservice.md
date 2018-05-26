@@ -1,7 +1,12 @@
 ---
-Description: 'Removes DH-CHAP (Diffie Hellman - Challenge Handshake Authentication Protocol) parameters from a synthetic Fibre Channel port in a virtual machine.'
-ms.assetid: 'f15673e2-287d-4e87-bee4-6c0f5f9178c8'
-title: 'RemoveFibreChannelChap method of the Msvm\_VirtualSystemManagementService class'
+Description: Removes DH-CHAP (Diffie Hellman - Challenge Handshake Authentication Protocol) parameters from a synthetic Fibre Channel port in a virtual machine.
+ms.assetid: f15673e2-287d-4e87-bee4-6c0f5f9178c8
+title: RemoveFibreChannelChap method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveFibreChannelChap method of the Msvm\_VirtualSystemManagementService class
@@ -13,7 +18,7 @@ Removes DH-CHAP (Diffie Hellman - Challenge Handshake Authentication Protocol) p
 
 ```mof
 uint32 RemoveFibreChannelChap(
-  [in] string FcPortSettings[]
+  [in] string FcPortSettings[]
 );
 ```
 
@@ -78,8 +83,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

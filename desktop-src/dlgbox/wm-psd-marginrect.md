@@ -1,8 +1,9 @@
 ---
 title: WM\_PSD\_MARGINRECT message
 description: Notifies the hook procedure of a Page Setup dialog box, PagePaintHook, that the dialog box is about to draw the margin rectangle of the sample page.
-ms.assetid: '81c057ab-6faf-4dd8-8b0c-34a2753e572c'
-keywords: ["WM_PSD_MARGINRECT message Dialog Boxes"]
+ms.assetid: 81c057ab-6faf-4dd8-8b0c-34a2753e572c
+keywords:
+- WM_PSD_MARGINRECT message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commdlg.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PSD\_MARGINRECT message
@@ -59,8 +65,8 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Commdlg.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ The **Page Setup** dialog box includes an image of a sample page that shows how 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a named feature from the PrintCapabilities, by name and full namespace URI.'
-ms.assetid: 'AC6434F5-0892-4426-98BB-BC02AD17917B'
-title: 'IPrintSchemaCapabilities::GetFeature method'
+---
+Description: Gets a named feature from the PrintCapabilities, by name and full namespace URI.
+ms.assetid: AC6434F5-0892-4426-98BB-BC02AD17917B
+title: IPrintSchemaCapabilitiesGetFeature method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities::GetFeature method

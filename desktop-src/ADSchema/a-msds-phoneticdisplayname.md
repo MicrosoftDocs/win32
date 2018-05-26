@@ -4,17 +4,22 @@ description: The phonetic display name of an object. In the absence of a phoneti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd1dd7d20-c280-4533-9da9-a7b6ff224970'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d1dd7d20-c280-4533-9da9-a7b6ff224970
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Phonetic-Display-Name attribute AD Schema", "msDS-PhoneticDisplayName attribute AD Schema"]
+keywords:
+- ms-DS-Phonetic-Display-Name attribute AD Schema
+- msDS-PhoneticDisplayName attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Phonetic-Display-Name
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Phonetic-Display-Name attribute
@@ -38,9 +43,9 @@ The phonetic display name of an object. In the absence of a phonetic display nam
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ The phonetic display name of an object. In the absence of a phonetic display nam
 
 
 
- 
+ 
 
- 
+ 
 
 
 

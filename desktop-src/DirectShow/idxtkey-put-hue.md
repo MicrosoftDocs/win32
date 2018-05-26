@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_Hue method specifies the hue value on which to key. This property applies only when the key type is DXTKEY\_HUE.'
-ms.assetid: '90c8c610-7ceb-479b-bb0e-d8753d0d7dac'
-title: 'IDxtKey::put\_Hue method'
+---
+Description: The put\_Hue method specifies the hue value on which to key. This property applies only when the key type is DXTKEY\_HUE.
+ms.assetid: 90c8c610-7ceb-479b-bb0e-d8753d0d7dac
+title: IDxtKeyput\_Hue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtKey::put\_Hue method

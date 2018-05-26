@@ -1,8 +1,14 @@
 ---
 title: Plug-in Functions
 description: Functions you can use to create the adapter plug-ins that make up a biometric unit.
-ms.assetid: '5f04d912-f9bc-41d4-aa9e-b843e4b5a994'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , plug-in functions"]
+ms.assetid: 5f04d912-f9bc-41d4-aa9e-b843e4b5a994
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , plug-in functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Plug-in Functions
@@ -21,11 +27,11 @@ The following topics discuss the functions you can use to create the adapter plu
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a partitionable GPU. Each GPU can be sliced into a number of GPU partitions, which can be assigned to a virtual machine as a vGPU.'
-ms.assetid: 'a32dfc03-6967-4fa3-ae32-bf074137740b'
-title: 'Msvm\_PartitionableGpu class'
+Description: Represents a partitionable GPU. Each GPU can be sliced into a number of GPU partitions, which can be assigned to a virtual machine as a vGPU.
+ms.assetid: a32dfc03-6967-4fa3-ae32-bf074137740b
+title: Msvm\_PartitionableGpu class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_PartitionableGpu class
@@ -345,8 +350,8 @@ An array of valid GPU partition options the physical GPU can be sliced into.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -360,9 +365,9 @@ An array of valid GPU partition options the physical GPU can be sliced into.
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

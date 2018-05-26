@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_MTP\_EXT\_READ\_DATA command retrieves data from the device after the WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ command is run.'
-ms.assetid: 'd7acb2cc-28b0-4314-99fd-4e7eded22122'
-title: 'WPD\_COMMAND\_MTP\_EXT\_READ\_DATA Command'
+Description: The WPD\_COMMAND\_MTP\_EXT\_READ\_DATA command retrieves data from the device after the WPD\_COMMAND\_MTP\_EXT\_EXECUTE\_COMMAND\_WITH\_DATA\_TO\_READ command is run.
+ms.assetid: d7acb2cc-28b0-4314-99fd-4e7eded22122
+title: WPD\_COMMAND\_MTP\_EXT\_READ\_DATA Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_MTP\_EXT\_READ\_DATA Command
@@ -26,7 +31,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -41,11 +46,11 @@ The driver returns the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly by using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly by using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -64,9 +69,9 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](iportabl
 [Supporting MTP Extensions](supporting-mtp-extensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

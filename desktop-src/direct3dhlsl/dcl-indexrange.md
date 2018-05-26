@@ -1,7 +1,12 @@
 ---
 title: dcl\_indexRange (sm4 - asm)
 description: dcl\_indexRange (sm4 - asm)
-ms.assetid: '88af30f3-dbf9-4556-b170-a7371680f9b9'
+ms.assetid: 88af30f3-dbf9-4556-b170-a7371680f9b9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_indexRange (sm4 - asm)
@@ -15,7 +20,7 @@ Declares a range of registers that will be accessed by index (an integer compute
 
 
 
- 
+ 
 
 
 
@@ -48,7 +53,7 @@ Declares a range of registers that will be accessed by index (an integer compute
 
 
 
- 
+ 
 
 The following restrictions apply to all registers:
 
@@ -72,7 +77,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 This instruction is included to aid in debugging a shader in assembly; you cannot author a shader in assembly language using Shader Model 4.
 
@@ -105,7 +110,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -114,9 +119,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

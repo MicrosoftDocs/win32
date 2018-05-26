@@ -1,7 +1,12 @@
 ---
-Description: 'A termination handler ensures that a specific block of code is executed whenever flow of control leaves a particular guarded body of code. A termination handler consists of the following elements.'
-ms.assetid: '899e2939-e028-4be1-9f08-9a79bf97eb37'
+Description: A termination handler ensures that a specific block of code is executed whenever flow of control leaves a particular guarded body of code. A termination handler consists of the following elements.
+ms.assetid: 899e2939-e028-4be1-9f08-9a79bf97eb37
 title: Termination Handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Termination Handling

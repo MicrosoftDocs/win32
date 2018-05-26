@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'b3256b3f-20c5-4611-abbe-d0c5ee470922'
-title: 'CBaseDispatch.~CBaseDispatch destructor'
+Description: Destructor method.
+ms.assetid: b3256b3f-20c5-4611-abbe-d0c5ee470922
+title: CBaseDispatch.~CBaseDispatch destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseDispatch.~CBaseDispatch destructor
@@ -35,9 +40,9 @@ Destructor method.
 [**CBaseDispatch Class**](cbasedispatch.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

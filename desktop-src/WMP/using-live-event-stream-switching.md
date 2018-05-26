@@ -1,8 +1,28 @@
 ---
 title: Using Live Event Stream Switching
 description: Using Live Event Stream Switching
-ms.assetid: 'fa8af007-2db6-438f-9551-8e748bb79ef4'
-keywords: ["Windows Media metafile playlists,live event stream switching", "playlists,live event stream switching", "metafile playlists,live event stream switching", "Windows Media metafile playlists,event stream switching", "playlists,event stream switching", "metafile playlists,event stream switching", "Windows Media metafile playlists,ad insertion", "playlists,ad insertion", "metafile playlists,ad insertion", "Windows Media Player,live event stream switching", "Windows Media Player,event stream switching", "Windows Media Player,ad insertion", "live event stream switching", "event stream switching", "ad insertion"]
+ms.assetid: fa8af007-2db6-438f-9551-8e748bb79ef4
+keywords:
+- Windows Media metafile playlists,live event stream switching
+- playlists,live event stream switching
+- metafile playlists,live event stream switching
+- Windows Media metafile playlists,event stream switching
+- playlists,event stream switching
+- metafile playlists,event stream switching
+- Windows Media metafile playlists,ad insertion
+- playlists,ad insertion
+- metafile playlists,ad insertion
+- Windows Media Player,live event stream switching
+- Windows Media Player,event stream switching
+- Windows Media Player,ad insertion
+- live event stream switching
+- event stream switching
+- ad insertion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Live Event Stream Switching

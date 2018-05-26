@@ -1,14 +1,20 @@
 ---
 title: Scale element
 description: Represents the size and layout preference of a Group of controls through a Group, SizeDefinition pair.
-ms.assetid: 'feef3721-c779-4c64-96c6-9d951ac32277'
-keywords: ["Scale element Windows Ribbon"]
+ms.assetid: feef3721-c779-4c64-96c6-9d951ac32277
+keywords:
+- Scale element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Scale
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scale element
@@ -48,7 +54,7 @@ Represents the size and layout preference of a [**Group**](windowsribbon-element
 <td><strong>Group</strong><br/></td>
 <td>xs:positiveInteger or xs:string<br/></td>
 <td>Yes<br/></td>
-<td>Must correspond to an existing [<strong>Group</strong>](windowsribbon-element-group.md) <em>CommandName</em>.<br/> <br/>
+<td>Must correspond to an existing [<strong>Group</strong>](windowsribbon-element-group.md) <em>CommandName</em>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:positiveInteger or xs:string)<br/> </dt> <dd> A string or an integer value between 2 and 59999, inclusive, or 0x2 and 0xea5f in hexadecimal, inclusive. <br/> The value must be unique within the Ribbon XML document. <br/> Maximum length: 100 characters. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
@@ -90,7 +96,7 @@ Each (*Group*, *Size*) attribute pair must be unique.
 
 The following example demonstrates how the appearance of controls in a [**Group**](windowsribbon-element-group.md) can be customized through the adaptive layout functionality of Ribbon [**SizeDefinition**](windowsribbon-element-sizedefinition.md) templates.
 
-The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this example specifies a [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, **Scale** elements are specified to influence the collapsing behavior, in descending size order, of each group.
+The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this example specifies a [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, **Scale** elements are specified to influence the collapsing behavior, in descending size order, of each group.
 
 
 ```XML
@@ -162,7 +168,7 @@ The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -174,9 +180,9 @@ The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

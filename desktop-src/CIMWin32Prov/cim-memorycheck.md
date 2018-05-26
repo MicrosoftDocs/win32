@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_MemoryCheck class specifies a condition for the minimum amount of memory that must be available on a system.'
+Description: The CIM\_MemoryCheck class specifies a condition for the minimum amount of memory that must be available on a system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a7d22f31-a285-41c4-b069-47c54865ddf5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a7d22f31-a285-41c4-b069-47c54865ddf5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_MemoryCheck class'
+title: CIM\_MemoryCheck class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_MemoryCheck class
@@ -19,7 +22,7 @@ The **CIM\_MemoryCheck** class specifies a condition for the minimum amount of m
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,16 +32,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{DC0E96FE-DB2A-11d2-85FC-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_MemoryCheck : CIM_Check
 {
-  string  CheckID;
-  string  Caption;
-  string  Description;
+  string  CheckID;
+  string  Caption;
+  string  Description;
   boolean CheckMode;
-  string  Name;
-  uint16  TargetOperatingSystem;
-  string  Version;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  uint64  MemorySize;
+  string  Name;
+  uint16  TargetOperatingSystem;
+  string  Version;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  uint64  MemorySize;
 };
 ```
 
@@ -61,7 +64,7 @@ The **CIM\_MemoryCheck** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -818,8 +821,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -833,9 +836,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Check**](cim-check.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

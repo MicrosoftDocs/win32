@@ -1,7 +1,12 @@
-﻿---
-Description: 'The print spooler''s PartialReplyPrinterChangeNotification function allows a print provider to update the spooler''s database of printer changes associated with a notification handle.'
-ms.assetid: 'a884920c-1824-418f-90c8-0edf1381678b'
+---
+Description: The print spoolers PartialReplyPrinterChangeNotification function allows a print provider to update the spoolers database of printer changes associated with a notification handle.
+ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 title: PartialReplyPrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PartialReplyPrinterChangeNotification function

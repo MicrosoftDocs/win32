@@ -4,11 +4,14 @@ description: Brings the resource online.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '64f63071-b07d-4391-9631-a7a1dae35dc5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 64f63071-b07d-4391-9631-a7a1dae35dc5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Online method Failover Cluster", "Online method Failover Cluster , ClusResource class", "ClusResource class Failover Cluster , Online method"]
+keywords:
+- Online method Failover Cluster
+- Online method Failover Cluster , ClusResource class
+- ClusResource class Failover Cluster , Online method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResource.Online method
@@ -70,7 +76,7 @@ Any resources that the resource [*depends*](d-gly.md#-wolf-dependency-relationsh
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -86,9 +92,9 @@ Any resources that the resource [*depends*](d-gly.md#-wolf-dependency-relationsh
 [**ClusResource**](clusresource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

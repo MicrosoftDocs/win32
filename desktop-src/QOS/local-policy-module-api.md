@@ -1,8 +1,14 @@
 ---
 title: Local Policy Module API Reference
 description: The Local Policy Module (LPM) API is a set of functions that the Policy Control Module (PCM) uses to interact with one or more LPMs.
-ms.assetid: '55a7c8ba-2151-4a44-b77c-b101041fcd12'
-keywords: ["Quality of Service QOS , reference, local policy module"]
+ms.assetid: 55a7c8ba-2151-4a44-b77c-b101041fcd12
+keywords:
+- Quality of Service QOS , reference, local policy module
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Local Policy Module API Reference

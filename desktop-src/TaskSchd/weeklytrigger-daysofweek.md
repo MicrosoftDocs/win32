@@ -1,8 +1,11 @@
 ---
 title: WeeklyTrigger.DaysOfWeek property
 description: For scripting, gets or sets the days of the week on which the task runs.
-ms.assetid: '3d4bb891-8620-401e-b1ce-39d593c1038a'
-keywords: ["DaysOfWeek property Task Scheduler", "DaysOfWeek property Task Scheduler , WeeklyTrigger object", "WeeklyTrigger object Task Scheduler , DaysOfWeek property"]
+ms.assetid: 3d4bb891-8620-401e-b1ce-39d593c1038a
+keywords:
+- DaysOfWeek property Task Scheduler
+- DaysOfWeek property Task Scheduler , WeeklyTrigger object
+- WeeklyTrigger object Task Scheduler , DaysOfWeek property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WeeklyTrigger.DaysOfWeek property
@@ -48,7 +56,7 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 
 
- 
+ 
 
 When reading or writing your own XML for a task, the days of the week are specified using the [**DaysOfWeek**](taskschedulerschema-daysofweek-weeklyscheduletype-element.md) element of the Task Scheduler schema.
 
@@ -58,8 +66,8 @@ When reading or writing your own XML for a task, the days of the week are specif
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -72,9 +80,9 @@ When reading or writing your own XML for a task, the days of the week are specif
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

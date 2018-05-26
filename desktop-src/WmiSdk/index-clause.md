@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies a key to select a unique row in a scalar or table collection.'
+Description: Specifies a key to select a unique row in a scalar or table collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3c4edae0-55be-4804-b5fe-07458b918365'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3c4edae0-55be-4804-b5fe-07458b918365
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: INDEX Clause
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # INDEX Clause

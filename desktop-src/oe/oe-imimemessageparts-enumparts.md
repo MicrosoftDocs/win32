@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageParts EnumParts method
 description: Creates an IMimeEnumMessageParts object that can be used to enumerate the partial messages in the collection.
-ms.assetid: '8ff2779b-fbaa-47f9-9889-f90a625f6a58'
-keywords: ["EnumParts method Windows Mail (formerly Outlook Express)", "EnumParts method Windows Mail (formerly Outlook Express) , IMimeMessageParts interface", "IMimeMessageParts interface Windows Mail (formerly Outlook Express) , EnumParts method"]
+ms.assetid: 8ff2779b-fbaa-47f9-9889-f90a625f6a58
+keywords:
+- EnumParts method Windows Mail (formerly Outlook Express)
+- EnumParts method Windows Mail (formerly Outlook Express) , IMimeMessageParts interface
+- IMimeMessageParts interface Windows Mail (formerly Outlook Express) , EnumParts method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageParts::EnumParts method
@@ -22,7 +30,7 @@ Creates an [**IMimeEnumMessageParts**](oe-imimeenummessageparts.md) object that 
 
 ```C++
 HRESULT EnumParts(
-  [out] IMimeEnumMessageParts **ppEnum
+  [out] IMimeEnumMessageParts **ppEnum
 );
 ```
 
@@ -57,7 +65,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +73,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -74,9 +82,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

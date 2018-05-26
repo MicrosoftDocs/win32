@@ -1,8 +1,9 @@
 ---
 title: D3DX\_R16G16\_SNORM\_to\_FLOAT2 function
 description: Unpacks DXGI\_FORMAT\_R16G16\_SNORM shader data to an XMFLOAT2.
-ms.assetid: 'b54df555-b71f-46cd-8be7-34de785d15e2'
-keywords: ["D3DX_R16G16_SNORM_to_FLOAT2 function HLSL"]
+ms.assetid: b54df555-b71f-46cd-8be7-34de785d15e2
+keywords:
+- D3DX_R16G16_SNORM_to_FLOAT2 function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_R16G16\_SNORM\_to\_FLOAT2 function
@@ -21,7 +27,7 @@ Unpacks DXGI\_FORMAT\_R16G16\_SNORM shader data to an XMFLOAT2.
 
 ``` syntax
 XMFLOAT2 D3DX_R16G16_SNORM_to_FLOAT2(
-   UINT packedInput
+   UINT packedInput
 );
 ```
 
@@ -60,9 +66,9 @@ The unpacked shader data.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The MyHandleError function is an example of a tool function used to print an error message and exit the calling program.'
-ms.assetid: '7b28509f-a77f-4b60-90d4-18edaa6d1a2d'
+Description: The MyHandleError function is an example of a tool function used to print an error message and exit the calling program.
+ms.assetid: 7b28509f-a77f-4b60-90d4-18edaa6d1a2d
 title: MyHandleError
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MyHandleError

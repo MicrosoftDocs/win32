@@ -1,13 +1,16 @@
 ---
-Description: 'Some formulas require both a counter property and base property.'
+Description: Some formulas require both a counter property and base property.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c14be351-e712-40bd-bab7-5b9ef6cd8a00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c14be351-e712-40bd-bab7-5b9ef6cd8a00
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Base Counter Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Base Counter Types
@@ -32,7 +35,7 @@ The following table lists the **CounterType** constant values.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -44,9 +47,9 @@ The following table lists the **CounterType** constant values.
 [Counter Types](http://go.microsoft.com/fwlink/p/?linkid=44341)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

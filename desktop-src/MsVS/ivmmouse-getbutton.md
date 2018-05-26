@@ -1,8 +1,13 @@
 ---
 title: IVMMouse GetButton method
 description: The GetButton method returns the current state (up or down) of the specified mouse button.
-ms.assetid: 'e4c42a12-d591-43d6-af0b-03b13563c161'
-keywords: ["GetButton method Virtual Server", "GetButton method Virtual Server , IVMMouse interface", "IVMMouse interface Virtual Server , GetButton method", "GetButton method Virtual Server , VMMouse interface", "VMMouse interface Virtual Server , GetButton method"]
+ms.assetid: e4c42a12-d591-43d6-af0b-03b13563c161
+keywords:
+- GetButton method Virtual Server
+- GetButton method Virtual Server , IVMMouse interface
+- IVMMouse interface Virtual Server , GetButton method
+- GetButton method Virtual Server , VMMouse interface
+- VMMouse interface Virtual Server , GetButton method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMMouse::GetButton method
@@ -23,8 +33,8 @@ The **GetButton** method returns the current state (up or down) of the specified
 
 ```C++
 HRESULT GetButton(
-  [in]  VMMouseButton buttonIndex,
-  [out] VARIANT_BOOL  *isDown
+  [in]  VMMouseButton buttonIndex,
+  [out] VARIANT_BOOL  *isDown
 );
 ```
 
@@ -65,7 +75,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -73,8 +83,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This method supports standard return values, as well as the following. For infor
 [**VMMouseButton**](vmmousebutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

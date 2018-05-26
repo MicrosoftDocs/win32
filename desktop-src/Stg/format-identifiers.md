@@ -1,8 +1,14 @@
 ---
 title: Format Identifiers
 description: Property set values are stored in a section tagged with a unique FMTID.
-ms.assetid: '506c9567-62f2-40aa-a8e7-1530e8aed846'
-keywords: ["Format Identifiers"]
+ms.assetid: 506c9567-62f2-40aa-a8e7-1530e8aed846
+keywords:
+- Format Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format Identifiers
@@ -21,7 +27,7 @@ DEFINE_GUID(FMTID_SummaryInformation, 0xF29F85E0, 0x4FF9, 0x1068,
 
 Any code that requires the FMTID for the Summary Information property set, can access it through the *FMTID\_SummaryInformation* variable.
 
-When storing property sets in [**IStorage**](istorage.md) instances, convert the FMTID to a string name for the storage object.
+When storing property sets in [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) instances, convert the FMTID to a string name for the storage object.
 
  
 

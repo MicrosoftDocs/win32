@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MsiPatchMetadata Table contains information about a Windows Installer patch that is required to remove the patch and that is used by Add/Remove Programs.'
-ms.assetid: 'b1c30e16-6c91-451a-8b75-7ddbcefcc092'
+---
+Description: The MsiPatchMetadata Table contains information about a Windows Installer patch that is required to remove the patch and that is used by Add/Remove Programs.
+ms.assetid: b1c30e16-6c91-451a-8b75-7ddbcefcc092
 title: MsiPatchMetadata Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPatchMetadata Table
@@ -73,7 +78,7 @@ Rows in the MsiPatchMetadata Table that contain a Null value in the CompanyName 
 <tbody>
 <tr class="odd">
 <td>AllowRemoval</td>
-<td>Indicates whether or not the patch is an [Uninstallable Patch](uninstallable-patches.md). If the value field contains 0 (zero), the patch cannot be removed. If the value field contains one (1), the patch is an Uninstallable Patch.This property is registered and its value can be obtain by using the [<strong>MsiGetPatchInfoEx</strong>](msigetpatchinfoex.md) function. <br/></td>
+<td>Indicates whether or not the patch is an [Uninstallable Patch](uninstallable-patches.md). If the value field contains 0 (zero), the patch cannot be removed. If the value field contains one (1), the patch is an Uninstallable Patch.This property is registered and its value can be obtain by using the [<strong>MsiGetPatchInfoEx</strong>](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) function. <br/></td>
 </tr>
 <tr class="even">
 <td>ManufacturerName</td>
@@ -89,7 +94,7 @@ Rows in the MsiPatchMetadata Table that contain a Null value in the CompanyName 
 </tr>
 <tr class="odd">
 <td>MoreInfoURL</td>
-<td>A URL that provides information specific to this patch. This property is registered and its value can be obtained by using the [<strong>MsiGetPatchInfoEx</strong>](msigetpatchinfoex.md) function. Beginning with Windows XP with Service Pack 2 (SP2), this value can be the support link for the patch displayed in <strong>Add/Remove Programs</strong>.<br/></td>
+<td>A URL that provides information specific to this patch. This property is registered and its value can be obtained by using the [<strong>MsiGetPatchInfoEx</strong>](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) function. Beginning with Windows XP with Service Pack 2 (SP2), this value can be the support link for the patch displayed in <strong>Add/Remove Programs</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td>CreationTimeUTC</td>
@@ -97,7 +102,7 @@ Rows in the MsiPatchMetadata Table that contain a Null value in the CompanyName 
 </tr>
 <tr class="odd">
 <td>DisplayName</td>
-<td>A title for the patch that is okay for public display. This property is registered, and its value can be obtained by using the [<strong>MsiGetPatchInfoEx</strong>](msigetpatchinfoex.md) function. Beginning with Windows XP with SP2, this value is the name of the patch that is displayed in <strong>Add/Remove Programs</strong>.<br/></td>
+<td>A title for the patch that is okay for public display. This property is registered, and its value can be obtained by using the [<strong>MsiGetPatchInfoEx</strong>](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master) function. Beginning with Windows XP with SP2, this value is the name of the patch that is displayed in <strong>Add/Remove Programs</strong>.<br/></td>
 </tr>
 <tr class="even">
 <td>Description</td>

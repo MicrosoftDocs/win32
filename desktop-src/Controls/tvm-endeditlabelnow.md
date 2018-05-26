@@ -1,8 +1,9 @@
 ---
 title: TVM\_ENDEDITLABELNOW message
-description: Ends the editing of a tree-view item's label. You can send this message explicitly or by using the TreeView\_EndEditLabelNow macro.
-ms.assetid: '68de2020-9311-4958-859a-de55f5e41fcf'
-keywords: ["TVM_ENDEDITLABELNOW message Windows Controls"]
+description: Ends the editing of a tree-view items label. You can send this message explicitly or by using the TreeView\_EndEditLabelNow macro.
+ms.assetid: 68de2020-9311-4958-859a-de55f5e41fcf
+keywords:
+- TVM_ENDEDITLABELNOW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_ENDEDITLABELNOW message
 
-Ends the editing of a tree-view item's label. You can send this message explicitly or by using the [**TreeView\_EndEditLabelNow**](treeview-endeditlabelnow.md) macro.
+Ends the editing of a tree-view item's label. You can send this message explicitly or by using the [**TreeView\_EndEditLabelNow**](/windows/win32/Commctrl/nf-commctrl-treeview_endeditlabelnow?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ This message causes the [TVN\_ENDLABELEDIT](tvn-endlabeledit.md) notification co
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

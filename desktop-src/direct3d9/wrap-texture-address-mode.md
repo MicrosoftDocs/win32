@@ -1,7 +1,12 @@
 ---
-Description: 'The wrap texture address mode, identified by the D3DTADDRESS\_WRAP member of the D3DTEXTUREADDRESS enumerated type, makes Direct3D repeat the texture on every integer junction.'
-ms.assetid: 'fe33c484-346d-4888-ba88-b8ab00feefbb'
-title: 'Wrap Texture Address Mode (Direct3D 9)'
+Description: The wrap texture address mode, identified by the D3DTADDRESS\_WRAP member of the D3DTEXTUREADDRESS enumerated type, makes Direct3D repeat the texture on every integer junction.
+ms.assetid: fe33c484-346d-4888-ba88-b8ab00feefbb
+title: Wrap Texture Address Mode (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wrap Texture Address Mode (Direct3D 9)

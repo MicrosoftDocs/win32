@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the global 6to4 configuration shared across all 6to4 interfaces.'
-ms.assetid: 'af6506d6-bbd6-4c12-b018-a34b45fbd22d'
-title: 'MSFT\_Net6to4Configuration class'
+Description: Represents the global 6to4 configuration shared across all 6to4 interfaces.
+ms.assetid: af6506d6-bbd6-4c12-b018-a34b45fbd22d
+title: MSFT\_Net6to4Configuration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_Net6to4Configuration class
@@ -44,7 +49,7 @@ The **MSFT\_Net6to4Configuration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -151,17 +156,17 @@ Specifies the 6to4 service state using one of the following values:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

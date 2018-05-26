@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a set of elements&\#8212;Paragraph, InkWord, Drawing, Text, Image, or Flag&\#8212;that are grouped together in the Journal note.'
-ms.assetid: '59ee3037-7178-41c8-84d5-d5c68fa2cf9b'
+Description: Contains a set of elements&\#8212;Paragraph, InkWord, Drawing, Text, Image, or Flag&\#8212;that are grouped together in the Journal note.
+ms.assetid: 59ee3037-7178-41c8-84d5-d5c68fa2cf9b
 title: GroupNode Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GroupNode Element

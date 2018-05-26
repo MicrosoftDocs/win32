@@ -1,8 +1,9 @@
 ---
 title: TVN\_ENDLABELEDIT notification code
-description: Notifies a tree-view control's parent window about the end of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '82eb9fcd-de10-4efb-8501-78c5af5e089e'
-keywords: ["TVN_ENDLABELEDIT notification code Windows Controls"]
+description: Notifies a tree-view controls parent window about the end of label editing for an item. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 82eb9fcd-de10-4efb-8501-78c5af5e089e
+keywords:
+- TVN_ENDLABELEDIT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_ENDLABELEDIT notification code
@@ -35,7 +41,7 @@ TVN_ENDLABELEDIT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTVDISPINFO**](nmtvdispinfo.md) structure. The **item** member of this structure is a [**TVITEM**](tvitem.md) structure whose **hItem**, **lParam**, and **pszText** members contain valid information about the item that was edited. If label editing was canceled, the **pszText** member of the **TVITEM** structure is **NULL**; otherwise, **pszText** is the address of the edited text.
+Pointer to an [**NMTVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagtvdispinfoa?branch=master) structure. The **item** member of this structure is a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure whose **hItem**, **lParam**, and **pszText** members contain valid information about the item that was edited. If label editing was canceled, the **pszText** member of the **TVITEM** structure is **NULL**; otherwise, **pszText** is the address of the edited text.
 
 </dd> </dl>
 
@@ -55,16 +61,16 @@ If you specified the LPSTR\_TEXTCALLBACK value for this item and the **pszText**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_ENDLABELEDITW** (Unicode) and **TVN\_ENDLABELEDITA** (ANSI)<br/>         |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

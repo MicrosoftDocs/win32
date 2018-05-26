@@ -1,7 +1,12 @@
 ---
-Description: 'The WDM class provider defines the WMIBinaryMofResource class in the \\root\\wmi namespace to support the task of keeping track of the status of data in the WMI repository.'
-ms.assetid: '57416a36-5b3a-4d04-808c-09adc597c47a'
+Description: The WDM class provider defines the WMIBinaryMofResource class in the \\root\\wmi namespace to support the task of keeping track of the status of data in the WMI repository.
+ms.assetid: 57416a36-5b3a-4d04-808c-09adc597c47a
 title: WMIBinaryMofResource class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMIBinaryMofResource class
@@ -13,10 +18,10 @@ The WDM class provider defines the **WMIBinaryMofResource** class in the \\root\
 ``` syntax
 class WMIBinaryMofResource
 {
-  uint32  HighDateTime;
-  uint32  LowDateTime;
+  uint32  HighDateTime;
+  uint32  LowDateTime;
   boolean MofProcessed;
-  string  Name;
+  string  Name;
 };
 ```
 
@@ -89,7 +94,7 @@ Access type: Read-only
 Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa393650)
 </dt> </dl>
 
-Name of the WDM–enabled driver that has a binary MOF file successfully compiled in the WMI repository.
+Name of the WDM enabled driver that has a binary MOF file successfully compiled in the WMI repository.
 
 </dd> </dl>
 
@@ -105,8 +110,8 @@ Whenever WMI initializes the provider, the provider compares the timestamp with 
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                     |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Wmi.mof</dt> </dl> |
 
@@ -119,9 +124,9 @@ Whenever WMI initializes the provider, the provider compares the timestamp with 
 [WDM Provider](wdm-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

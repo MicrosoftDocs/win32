@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'bc37f754-053e-4d98-991e-d8caf1bb9ad6'
-title: 'System.Contact.HomeAddress2Country'
+Description: .
+ms.assetid: bc37f754-053e-4d98-991e-d8caf1bb9ad6
+title: System.Contact.HomeAddress2Country
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress2Country

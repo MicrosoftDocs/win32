@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_BIR structure
 description: Represents a biometric information record (BIR).
-ms.assetid: '39cfab34-0416-4897-bf95-a1b3c3a6a7a1'
-keywords: ["WINBIO_BIR structure Windows Biometric Framework API"]
+ms.assetid: 39cfab34-0416-4897-bf95-a1b3c3a6a7a1
+keywords:
+- WINBIO_BIR structure Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BIR structure
@@ -77,8 +83,8 @@ If this structure contains a *StandardDataBlock* value, the *Type* parameter of 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -96,9 +102,9 @@ If this structure contains a *StandardDataBlock* value, the *Type* parameter of 
 [**WINBIO\_BIR\_HEADER**](winbio-bir-header.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

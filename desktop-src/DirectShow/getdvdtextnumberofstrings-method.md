@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDVDTextNumberOfStrings method retrieves the number of text strings available for the specified language.'
-ms.assetid: '84d2b5b7-b474-48a4-9058-ea9da8109398'
+Description: The GetDVDTextNumberOfStrings method retrieves the number of text strings available for the specified language.
+ms.assetid: 84d2b5b7-b474-48a4-9058-ea9da8109398
 title: GetDVDTextNumberOfStrings Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDVDTextNumberOfStrings Method

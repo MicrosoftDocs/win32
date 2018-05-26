@@ -1,8 +1,11 @@
 ---
 title: ID3DX11DataProcessor CreateDeviceObject method
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Creates a device object.
-ms.assetid: '797d216b-2f54-4d24-aa97-04be0c71f909'
-keywords: ["CreateDeviceObject method Direct3D 11", "CreateDeviceObject method Direct3D 11 , ID3DX11DataProcessor interface", "ID3DX11DataProcessor interface Direct3D 11 , CreateDeviceObject method"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Creates a device object.
+ms.assetid: 797d216b-2f54-4d24-aa97-04be0c71f909
+keywords:
+- CreateDeviceObject method Direct3D 11
+- CreateDeviceObject method Direct3D 11 , ID3DX11DataProcessor interface
+- ID3DX11DataProcessor interface Direct3D 11 , CreateDeviceObject method
 topic_type:
 - apiref
 api_name:
@@ -12,14 +15,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11DataProcessor::CreateDeviceObject method
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Creates a device object.
 
@@ -28,7 +36,7 @@ Creates a device object.
 
 ```C++
 HRESULT CreateDeviceObject(
-  [out] void **ppDataObject
+  [out] void **ppDataObject
 );
 ```
 
@@ -78,9 +86,9 @@ This method is used by an [**ID3DX11ThreadPump Interface**](id3dx11threadpump.md
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

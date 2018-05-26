@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a relationship between a controller and a logical device that is managed by the controller.'
-ms.assetid: '5a938fa4-3b91-42ad-beee-12ed0ce6df9a'
-title: 'CIM\_ControlledBy class'
+Description: Represents a relationship between a controller and a logical device that is managed by the controller.
+ms.assetid: 5a938fa4-3b91-42ad-beee-12ed0ce6df9a
+title: CIM\_ControlledBy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ControlledBy class
@@ -14,15 +19,15 @@ Represents a relationship between a controller and a logical device that is mana
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Device::Controller"), AMENDMENT]
 class CIM_ControlledBy : CIM_DeviceConnection
 {
-  CIM_Controller    REF Antecedent;
+  CIM_Controller    REF Antecedent;
   CIM_LogicalDevice REF Dependent;
-  uint16                AccessState;
-  datetime              TimeOfDeviceReset;
-  uint32                NumberOfHardResets;
-  uint32                NumberOfSoftResets;
-  string                DeviceNumber;
-  uint16                AccessMode;
-  uint16                AccessPriority;
+  uint16                AccessState;
+  datetime              TimeOfDeviceReset;
+  uint32                NumberOfHardResets;
+  uint32                NumberOfSoftResets;
+  string                DeviceNumber;
+  uint16                AccessMode;
+  uint16                AccessPriority;
 };
 ```
 
@@ -219,8 +224,8 @@ The time when the downstream device was last reset by the controller.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -234,9 +239,9 @@ The time when the downstream device was last reset by the controller.
 [**CIM\_DeviceConnection**](cim-deviceconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

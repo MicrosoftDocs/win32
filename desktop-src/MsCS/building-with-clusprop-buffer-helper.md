@@ -4,16 +4,21 @@ description: To create a value or property list with CLUSPROP\_BUFFER\_HELPER, o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9efe1457-72ab-4e9a-9d92-128e206b0fb3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9efe1457-72ab-4e9a-9d92-128e206b0fb3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property lists Failover Cluster ,building with CLUSPROP_BUFFER_HELPER", "value lists Failover Cluster ,building with CLUSPROP_BUFFER_HELPER"]
+keywords:
+- property lists Failover Cluster ,building with CLUSPROP_BUFFER_HELPER
+- value lists Failover Cluster ,building with CLUSPROP_BUFFER_HELPER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Building with CLUSPROP\_BUFFER\_HELPER
 
-To create a [value](value-lists.md) or [property list](property-lists.md) with [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md), or to create any other kind of structure in a buffer, use the following procedure.
+To create a [value](value-lists.md) or [property list](property-lists.md) with [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master), or to create any other kind of structure in a buffer, use the following procedure.
 
 **To create a value or property list**
 
@@ -28,7 +33,7 @@ When using this procedure, you must be familiar with the architecture of [value 
 
 ## Example
 
-The following examples use [**CLUSPROP\_BUFFER\_HELPER**](clusprop-buffer-helper.md) to generate a value list entry. A value list would consist of "stacks" of these entries terminated by **CLUSPROP\_SYNTAX\_ENDMARK**. A property list would consist of "stacks" of value lists (one value list per property) prefixed by the count of properties in the list.
+The following examples use [**CLUSPROP\_BUFFER\_HELPER**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_buffer_helper?branch=master) to generate a value list entry. A value list would consist of "stacks" of these entries terminated by **CLUSPROP\_SYNTAX\_ENDMARK**. A property list would consist of "stacks" of value lists (one value list per property) prefixed by the count of properties in the list.
 
 In the first example (ClusDocEx\_BasicPropertyValueList) the numbers in parentheses correspond to the steps in the procedure presented above. The second example (ClusDocEx\_CreateValueListEntry) is used by several other example functions.
 

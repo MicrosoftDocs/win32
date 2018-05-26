@@ -4,11 +4,16 @@ description: In this topic, \ 0034;object \ 0034; indicates the object, as a who
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '76207326-879e-408b-8004-06d940401a41'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 76207326-879e-408b-8004-06d940401a41
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Resolution of Function and Property Name Conflicts in Automation in Extensions", "extensions ADSI , resolving function and property name conflicts in Automation"]
+keywords:
+- Resolution of Function and Property Name Conflicts in Automation in Extensions
+- extensions ADSI , resolving function and property name conflicts in Automation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resolution of Function/Property Name Conflicts in Automation in Extensions

@@ -1,14 +1,20 @@
 ---
 title: filter Element
 description: The filter element contains elements that limit the size of a playlist, duration of a playlist, or number of media items in a playlist.
-ms.assetid: '880885f6-493f-466b-b5ad-ab9b569f4cc5'
-keywords: ["filter Element Windows Media Player"]
+ms.assetid: 880885f6-493f-466b-b5ad-ab9b569f4cc5
+keywords:
+- filter Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - filter Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # filter Element
@@ -49,7 +55,7 @@ The GUID that uniquely identifies a filter object. The filter object's methods a
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,7 +72,7 @@ The name of the filter object.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -81,7 +87,7 @@ The name of the filter object.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -132,9 +138,9 @@ The **filter** element does not add any media elements to a playlist; it simply 
 [**Windows Media Playlist Elements Reference**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

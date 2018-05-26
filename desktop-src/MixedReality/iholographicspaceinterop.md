@@ -2,8 +2,10 @@
 title: IHolographicSpaceInterop interface
 description: Enables interoperability with a Univeral Windows Platform (UWP) HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
 Search.Product: eADQiWindows 10XVcnh
-ms.assetid: '119299C1-ECD9-46BA-B499-66890225E4E0'
-keywords: ["IHolographicSpaceInterop interface", "IHolographicSpaceInterop interface, described"]
+ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
+keywords:
+- IHolographicSpaceInterop interface
+- IHolographicSpaceInterop interface, described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - HolographicSpaceInterop.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHolographicSpaceInterop interface
@@ -30,7 +37,7 @@ The **IHolographicSpaceInterop** interface does not define any members.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                              |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | None supported<br/>                                                                              |
 | Header<br/>                   | <dl> <dt>HolographicSpaceInterop.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>HolographicSpaceInterop.idl</dt> </dl> |
@@ -47,9 +54,9 @@ The **IHolographicSpaceInterop** interface does not define any members.
 [WinRT reference documentation](https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

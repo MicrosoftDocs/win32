@@ -1,7 +1,12 @@
 ---
-Description: 'The IsDefaultSourceRect method determines if the renderer is using the default source rectangle (pure virtual).'
-ms.assetid: '08c7a365-585c-47e6-9c26-6aa1fa3625e7'
-title: 'CBaseControlVideo.IsDefaultSourceRect method'
+Description: The IsDefaultSourceRect method determines if the renderer is using the default source rectangle (pure virtual).
+ms.assetid: 08c7a365-585c-47e6-9c26-6aa1fa3625e7
+title: CBaseControlVideo.IsDefaultSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.IsDefaultSourceRect method
@@ -75,9 +80,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

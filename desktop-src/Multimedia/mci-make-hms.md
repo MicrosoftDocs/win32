@@ -1,8 +1,9 @@
 ---
 title: MCI\_MAKE\_HMS macro
 description: The MCI\_MAKE\_HMS macro creates a time value in packed hours/minutes/seconds (HMS) format from the given hours, minutes, and seconds values.
-ms.assetid: '470e89eb-36e1-4b05-babd-4c986adc88dd'
-keywords: ["MCI_MAKE_HMS macro Windows Multimedia"]
+ms.assetid: 470e89eb-36e1-4b05-babd-4c986adc88dd
+keywords:
+- MCI_MAKE_HMS macro Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_MAKE\_HMS macro
@@ -22,9 +28,9 @@ The **MCI\_MAKE\_HMS** macro creates a time value in packed hours/minutes/second
 
 ```C++
 DWORD MCI_MAKE_HMS(
-   BYTE hours,
-   BYTE minutes,
-   BYTE seconds
+   BYTE hours,
+   BYTE minutes,
+   BYTE seconds
 );
 ```
 
@@ -80,8 +86,8 @@ The **MCI\_MAKE\_HMS** macro is defined as follows:
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -96,9 +102,9 @@ The **MCI\_MAKE\_HMS** macro is defined as follows:
 [MCI Macros](mci-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

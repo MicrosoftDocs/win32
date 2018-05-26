@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics outline typical tasks required to incorporate the functionality of the Fax Service Client API in a fax client application.'
-ms.assetid: '4d0f633d-8df5-4316-84bc-68c4fc051748'
+Description: The following topics outline typical tasks required to incorporate the functionality of the Fax Service Client API in a fax client application.
+ms.assetid: 4d0f633d-8df5-4316-84bc-68c4fc051748
 title: Fax Client API Programming Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Client API Programming Tasks

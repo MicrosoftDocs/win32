@@ -1,7 +1,12 @@
 ---
 Description: File Writer Filter
-ms.assetid: '2bfbea8a-679f-4656-9ff3-fdf34aa0eb26'
+ms.assetid: 2bfbea8a-679f-4656-9ff3-fdf34aa0eb26
 title: File Writer Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Writer Filter
@@ -19,9 +24,9 @@ The file writer filter uses the input stream's time stamps as file offsets and p
 
 |                                          |                                                                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IAMFilterMiscFlags**](iamfiltermiscflags.md), [**IBaseFilter**](ibasefilter.md), [**IFileSinkFilter**](ifilesinkfilter.md), [**IFileSinkFilter2**](ifilesinkfilter2.md), **IPersistStream** |
+| Filter Interfaces                        | [**IAMFilterMiscFlags**](/windows/win32/Strmif/nn-strmif-iamfiltermiscflags?branch=master), [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IFileSinkFilter**](/windows/win32/Strmif/nn-strmif-ifilesinkfilter?branch=master), [**IFileSinkFilter2**](/windows/win32/Strmif/nn-strmif-ifilesinkfilter2?branch=master), **IPersistStream** |
 | Input Pin Media Types                    | MEDIATYPE\_Stream, MEDIASUBTYPE\_NULL                                                                                                                                                              |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md), **IStream**                                                                                |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master), **IStream**                                                                                |
 | Output Pin Media Types                   | Not applicable                                                                                                                                                                                     |
 | Output Pin Interfaces                    | Not applicable                                                                                                                                                                                     |
 | Filter CLSID                             | CLSID\_FileWriter                                                                                                                                                                                  |

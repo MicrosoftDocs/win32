@@ -1,7 +1,12 @@
 ---
 title: Query Syntax Errors
 description: Query Syntax Errors
-ms.assetid: '287ec486-cf08-43c3-b975-b121e17e780d'
+ms.assetid: 287ec486-cf08-43c3-b975-b121e17e780d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Syntax Errors

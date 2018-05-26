@@ -1,14 +1,20 @@
 ---
 title: CDTrackEnabled Attribute
 description: The CDTrackEnabled attribute indicates whether the track is enabled for playback.
-ms.assetid: 'ebbc42bd-2d6c-47ae-9a3f-c6256b120d35'
-keywords: ["CDTrackEnabled Attribute Windows Media Player"]
+ms.assetid: ebbc42bd-2d6c-47ae-9a3f-c6256b120d35
+keywords:
+- CDTrackEnabled Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CDTrackEnabled
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDTrackEnabled Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

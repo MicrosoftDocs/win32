@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses the GPU to compute the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation. Computing the lighting on the GPU will generally be much faster than on the CPU.'
-ms.assetid: 'ccea5a5e-23f1-4fdf-bce8-9bfc35d45257'
-title: 'ID3DXPRTEngine::ComputeDirectLightingSHGPU method'
+---
+Description: Uses the GPU to compute the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation. Computing the lighting on the GPU will generally be much faster than on the CPU.
+ms.assetid: ccea5a5e-23f1-4fdf-bce8-9bfc35d45257
+title: ID3DXPRTEngineComputeDirectLightingSHGPU method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::ComputeDirectLightingSHGPU method
@@ -31,12 +36,12 @@ HRESULT ComputeDirectLightingSHGPU(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to the [**IDirect3DDevice9**](idirect3ddevice9.md) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](direct3dhlsl.dx9_graphics_reference_asm_ps_2_0) pixel shaders.
+Pointer to the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) device object used to run the simulation on the GPU. The device must support [ps\_2\_0](direct3dhlsl.dx9_graphics_reference_asm_ps_2_0) pixel shaders.
 
 > [!Note]  
-> Callback functions should not use the [**IDirect3DDevice9**](idirect3ddevice9.md) device object used by the GPU simulator.
+> Callback functions should not use the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) device object used by the GPU simulator.
 
  
 

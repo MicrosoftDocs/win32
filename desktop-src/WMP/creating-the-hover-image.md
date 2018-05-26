@@ -1,8 +1,21 @@
 ---
 title: Creating the Hover Image
 description: Creating the Hover Image
-ms.assetid: '169a99ba-96a0-4487-aa1c-07c83c0bc237'
-keywords: ["creating skins,hover images", "Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,hover images", "Windows Media Player skins,hover images", "skins,hover images", "hover images in skins"]
+ms.assetid: 169a99ba-96a0-4487-aa1c-07c83c0bc237
+keywords:
+- creating skins,hover images
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,hover images
+- Windows Media Player skins,hover images
+- skins,hover images
+- hover images in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Hover Image

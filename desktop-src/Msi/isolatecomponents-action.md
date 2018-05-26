@@ -1,7 +1,12 @@
 ---
-Description: 'The IsolateComponents action installs a copy of a component (commonly a shared DLL) into a private location for use by a specific application (typically an .exe).'
-ms.assetid: '3f39ad5d-5539-48cc-8369-bd4d3127fbdd'
+Description: The IsolateComponents action installs a copy of a component (commonly a shared DLL) into a private location for use by a specific application (typically an .exe).
+ms.assetid: 3f39ad5d-5539-48cc-8369-bd4d3127fbdd
 title: IsolateComponents Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsolateComponents Action

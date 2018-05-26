@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Remove method removes this object from the timeline (including subobjects but not children), for reinsertion elsewhere.'
-ms.assetid: '118a08a5-abba-47df-8aeb-42ce8c8ed2ba'
-title: 'IAMTimelineObj::Remove method'
+---
+Description: The Remove method removes this object from the timeline (including subobjects but not children), for reinsertion elsewhere.
+ms.assetid: 118a08a5-abba-47df-8aeb-42ce8c8ed2ba
+title: IAMTimelineObjRemove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::Remove method

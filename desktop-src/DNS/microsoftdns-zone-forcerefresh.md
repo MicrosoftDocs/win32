@@ -1,8 +1,11 @@
 ---
 title: ForceRefresh method of the MicrosoftDNS\_Zone class
 description: The ForceRefresh method forces an update of the secondary DNS Server from the master server.
-ms.assetid: '8dde1703-53c3-4d1e-bfb3-f6d5d1666740'
-keywords: ["ForceRefresh method DNS", "ForceRefresh method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , ForceRefresh method"]
+ms.assetid: 8dde1703-53c3-4d1e-bfb3-f6d5d1666740
+keywords:
+- ForceRefresh method DNS
+- ForceRefresh method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , ForceRefresh method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ForceRefresh method of the MicrosoftDNS\_Zone class
@@ -41,7 +49,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -84,9 +92,9 @@ This method does not return a value.
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Configuration
-ms.assetid: 'aba21473-07cc-4de9-a310-ad9b43c133eb'
+ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
 title: Configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuration

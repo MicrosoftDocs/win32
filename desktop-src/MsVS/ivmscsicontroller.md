@@ -1,8 +1,10 @@
 ---
 title: IVMSCSIController interface
 description: The IVMSCSIController interface provides access to a SCSI controller attached to a virtual machine.
-ms.assetid: 'bea79ee3-a2aa-4479-b63e-6713a07a1088'
-keywords: ["IVMSCSIController interface Virtual Server", "IVMSCSIController interface Virtual Server , described"]
+ms.assetid: bea79ee3-a2aa-4479-b63e-6713a07a1088
+keywords:
+- IVMSCSIController interface Virtual Server
+- IVMSCSIController interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSCSIController interface
@@ -36,7 +43,7 @@ The **IVMSCSIController** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -52,7 +59,7 @@ The **IVMSCSIController** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,8 +67,8 @@ The **IVMSCSIController** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -73,9 +80,9 @@ The **IVMSCSIController** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

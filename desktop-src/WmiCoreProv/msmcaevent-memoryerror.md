@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a Machine Check Architecture (MCA) memory error event. This class is available only in 64-bit Windows systems.'
-ms.assetid: '0db1d526-e2c3-4e48-90c8-cbcd9121040e'
-title: 'MSMCAEvent\_MemoryError class'
+Description: Represents a Machine Check Architecture (MCA) memory error event. This class is available only in 64-bit Windows systems.
+ms.assetid: 0db1d526-e2c3-4e48-90c8-cbcd9121040e
+title: MSMCAEvent\_MemoryError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_MemoryError class
@@ -16,31 +21,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_MemoryError : WMIEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint64  BUS_SPECIFIC_DATA;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint16  MEM_BANK;
-  uint16  MEM_BIT_POSITION;
-  uint16  MEM_CARD;
-  uint16  MEM_COLUMN;
-  uint64  MEM_ERROR_STATUS;
-  uint16  MEM_MODULE;
-  uint16  MEM_NODE;
-  uint64  MEM_PHYSICAL_ADDR;
-  uint64  MEM_PHYSICAL_MASK;
-  uint16  MEM_ROW;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint64  REQUESTOR_ID;
-  uint64  RESPONDER_ID;
-  uint32  Size;
-  uint64  TARGET_ID;
-  uint32  Type;
-  uint64  VALIDATION_BITS;
-  uint16  MEM_DEVICE;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint64  BUS_SPECIFIC_DATA;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint16  MEM_BANK;
+  uint16  MEM_BIT_POSITION;
+  uint16  MEM_CARD;
+  uint16  MEM_COLUMN;
+  uint64  MEM_ERROR_STATUS;
+  uint16  MEM_MODULE;
+  uint16  MEM_NODE;
+  uint64  MEM_PHYSICAL_ADDR;
+  uint64  MEM_PHYSICAL_MASK;
+  uint16  MEM_ROW;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint64  REQUESTOR_ID;
+  uint64  RESPONDER_ID;
+  uint32  Size;
+  uint64  TARGET_ID;
+  uint32  Type;
+  uint64  VALIDATION_BITS;
+  uint16  MEM_DEVICE;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -131,7 +136,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -299,7 +304,7 @@ Valid address bits in the 64-bit physical address of the memory error.
 > [!Note]  
 > The physical mask specifies the granularity of the physical address. The physical address of the memory error is dependent on hardware implementation factors.
 
- 
+ 
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -452,7 +457,7 @@ Validation bits used to indicate the validity of the subsequent fields.
 
 
 
- 
+ 
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -468,8 +473,8 @@ The **MSMCAEvent\_MemoryError** class is derived from [**WMIEvent**](wmievent.md
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -486,9 +491,9 @@ The **MSMCAEvent\_MemoryError** class is derived from [**WMIEvent**](wmievent.md
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

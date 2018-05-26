@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a serial port with a serial controller.'
-ms.assetid: 'A07DE787-2600-4C40-9CE2-7D96D6A58E53'
-title: 'Msvm\_SerialPortOnSerialController class'
+Description: Associates a serial port with a serial controller.
+ms.assetid: A07DE787-2600-4C40-9CE2-7D96D6A58E53
+title: Msvm\_SerialPortOnSerialController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SerialPortOnSerialController class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_SerialPortOnSerialController : CIM_PortOnDevice
 {
   CIM_LogicalDevice REF Antecedent;
-  CIM_LogicalPort   REF Dependent;
+  CIM_LogicalPort   REF Dependent;
 };
 ```
 
@@ -69,8 +74,8 @@ Access to the **Msvm\_SerialPortOnSerialController** class might be restricted b
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -90,9 +95,9 @@ Access to the **Msvm\_SerialPortOnSerialController** class might be restricted b
 [Serial Devices Classes](serial-devices-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

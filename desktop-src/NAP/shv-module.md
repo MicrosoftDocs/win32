@@ -1,7 +1,12 @@
 ---
 title: SHV Module
 description: Note  The Network Access Protection platform is not available starting with Windows 10 Sets up a system health validator (SHV) module including registration and unregistration with the NAP system.
-ms.assetid: '0f2edd23-d44a-4a01-ae33-f7eef0e4b27f'
+ms.assetid: 0f2edd23-d44a-4a01-ae33-f7eef0e4b27f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SHV Module

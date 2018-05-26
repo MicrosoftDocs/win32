@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseQuery QueryLicenseState method
 description: The QueryLicenseState method queries the local license store for license information that applies to a Key ID for one or more specific rights.
-ms.assetid: '17f40c56-2266-4c94-9e95-a33a92ddef74'
-keywords: ["QueryLicenseState method windows Media Format", "QueryLicenseState method windows Media Format , IWMDRMLicenseQuery interface", "IWMDRMLicenseQuery interface windows Media Format , QueryLicenseState method"]
+ms.assetid: 17f40c56-2266-4c94-9e95-a33a92ddef74
+keywords:
+- QueryLicenseState method windows Media Format
+- QueryLicenseState method windows Media Format , IWMDRMLicenseQuery interface
+- IWMDRMLicenseQuery interface windows Media Format , QueryLicenseState method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseQuery::QueryLicenseState method
@@ -23,10 +31,10 @@ The **QueryLicenseState** method queries the local license store for license inf
 
 ```C++
 HRESULT QueryLicenseState(
-  [in]  BSTR                   bstrKID,
-  [in]  DWORD                  cActionsToQuery,
-  [in]  BSTR                   rgbstrActionsToQuery[],
-  [out] DRM_LICENSE_STATE_DATA rgResultStateData[]
+  [in]  BSTR                   bstrKID,
+  [in]  DWORD                  cActionsToQuery,
+  [in]  BSTR                   rgbstrActionsToQuery[],
+  [out] DRM_LICENSE_STATE_DATA rgResultStateData[]
 );
 ```
 
@@ -71,7 +79,7 @@ Array of one or more rights for which to query. This array must contain as many 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -94,7 +102,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -118,9 +126,9 @@ All licenses that apply to the specified Key ID will be searched and evaluated. 
 [**IWMDRMLicenseQuery Interface**](iwmdrmlicensequery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Enumerates the system certificate store locations, the system certificate stores, and the physical stores associated with each system store.'
-ms.assetid: 'bc4268ea-f657-4789-9d0a-6e5354508f86'
-title: 'Example C Program: Listing System and Physical Stores'
+Description: Enumerates the system certificate store locations, the system certificate stores, and the physical stores associated with each system store.
+ms.assetid: bc4268ea-f657-4789-9d0a-6e5354508f86
+title: Example C Program Listing System and Physical Stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Listing System and Physical Stores
@@ -10,8 +15,8 @@ The following example enumerates the system [*certificate store*](security.c_gly
 
 This example illustrates the following [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) functions:
 
--   [**CertEnumSystemStoreLocation**](certenumsystemstorelocation.md)
--   [**CertEnumSystemStore**](certenumsystemstore.md)
+-   [**CertEnumSystemStoreLocation**](/windows/win32/Wincrypt/nf-wincrypt-certenumsystemstorelocation?branch=master)
+-   [**CertEnumSystemStore**](/windows/win32/Wincrypt/nf-wincrypt-certenumsystemstore?branch=master)
 
 This example also uses the function [**MyHandleError**](myhandleerror.md). Code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

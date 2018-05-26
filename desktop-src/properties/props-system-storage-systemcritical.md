@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the storage media is system critical.'
-ms.assetid: '596e4750-9fd6-4de5-b2af-40de39d6a602'
-title: 'System.Storage.SystemCritical'
+Description: Indicates if the storage media is system critical.
+ms.assetid: 596e4750-9fd6-4de5-b2af-40de39d6a602
+title: System.Storage.SystemCritical
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Storage.SystemCritical

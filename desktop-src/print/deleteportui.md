@@ -1,7 +1,12 @@
-﻿---
-Description: 'A port monitor UI DLL''s DeletePortUI function deletes a printer port.'
-ms.assetid: 'a556ec29-9149-4185-b4b3-9aae803e62f7'
+---
+Description: A port monitor UI DLLs DeletePortUI function deletes a printer port.
+ms.assetid: a556ec29-9149-4185-b4b3-9aae803e62f7
 title: DeletePortUI function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeletePortUI function

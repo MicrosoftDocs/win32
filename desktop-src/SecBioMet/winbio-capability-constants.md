@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_CAPABILITY Constants
 description: Fingerprint sensor sub types.
-ms.assetid: 'D447273E-2A02-484E-B0E4-69FEADD15797'
+ms.assetid: D447273E-2A02-484E-B0E4-69FEADD15797
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_CAPABILITY Constants
@@ -70,7 +75,7 @@ The following fingerprint sensor sub types are **WINBIO\_CAPABILITIES** values t
 <td style="text-align: left;">The sensor adapter manages its own connection to the biometric hardware.<br/>
 <blockquote>
 [!Note]<br />
-This constant applies only for Windows 10 and later.
+This constant applies only for Windows 10 and later.
 </blockquote>
 <br/></td>
 </tr>
@@ -85,8 +90,8 @@ This constant applies only for Windows 10 and later.
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                                                                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                                                                                  |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -101,9 +106,9 @@ This constant applies only for Windows 10 and later.
 [**WINBIO\_UNIT\_SCHEMA**](winbio-unit-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

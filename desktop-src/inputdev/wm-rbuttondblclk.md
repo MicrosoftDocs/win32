@@ -1,8 +1,9 @@
 ---
 title: WM\_RBUTTONDBLCLK message
 description: Posted when the user double-clicks the right mouse button while the cursor is in the client area of a window.
-ms.assetid: '2db9a947-f052-4738-9fae-6ecaba3de9b9'
-keywords: ["WM_RBUTTONDBLCLK message Keyboard and Mouse Input"]
+ms.assetid: 2db9a947-f052-4738-9fae-6ecaba3de9b9
+keywords:
+- WM_RBUTTONDBLCLK message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_RBUTTONDBLCLK message
@@ -49,7 +55,7 @@ Indicates whether various virtual keys are down. This parameter can be one or mo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,7 +91,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 ## Requirements
 
@@ -93,8 +99,8 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -145,9 +151,9 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

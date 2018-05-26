@@ -1,8 +1,11 @@
 ---
 title: ExportVirtualSystem method of the CIM\_VirtualSystemManagementService class
-description: Beginning with Windows Server 2008 R2 this method is deprecated.
-ms.assetid: '299398da-2bfa-4ccd-8746-86d9af272267'
-keywords: ["ExportVirtualSystem method Hyper-V", "ExportVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class", "CIM_VirtualSystemManagementService class Hyper-V , ExportVirtualSystem method"]
+description: Beginning with Windows Server 2008 R2 this method is deprecated.
+ms.assetid: 299398da-2bfa-4ccd-8746-86d9af272267
+keywords:
+- ExportVirtualSystem method Hyper-V
+- ExportVirtualSystem method Hyper-V , CIM_VirtualSystemManagementService class
+- CIM_VirtualSystemManagementService class Hyper-V , ExportVirtualSystem method
 topic_type:
 - apiref
 api_name:
@@ -11,21 +14,26 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExportVirtualSystem method of the CIM\_VirtualSystemManagementService class
 
-Beginning with Windows Server 2008 R2 this method is deprecated.
+Beginning with Windows Server 2008 R2 this method is deprecated.
 
 ## Syntax
 
 
 ```mof
 uint32 ExportVirtualSystem(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  boolean                CopyVmState,
-  [in]  string                 ExportDirectory,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  boolean                CopyVmState,
+  [in]  string                 ExportDirectory,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -126,9 +134,9 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

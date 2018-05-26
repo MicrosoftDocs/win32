@@ -2,13 +2,16 @@
 title: RemoveByClientDownlevelSGGpo method of the PS\_DAClient class
 description: This cmdlet performs the following operations1.
 audience: developer
-ms.assetid: '56023003-034d-4d8a-a2c4-42dd292f5774'
-ms.prod: 'windows-server-dev'
+ms.assetid: 56023003-034d-4d8a-a2c4-42dd292f5774
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByClientDownlevelSGGpo method", "RemoveByClientDownlevelSGGpo method, PS_DAClient class", "PS_DAClient class, RemoveByClientDownlevelSGGpo method"]
+keywords:
+- RemoveByClientDownlevelSGGpo method
+- RemoveByClientDownlevelSGGpo method, PS_DAClient class
+- PS_DAClient class, RemoveByClientDownlevelSGGpo method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByClientDownlevelSGGpo method of the PS\_DAClient class
@@ -28,12 +34,12 @@ This cmdlet performs the following operations1. Removes one or more client machi
 
 ```mof
 uint32 RemoveByClientDownlevelSGGpo(
-  [in]  string   DownlevelSecurityGroupNameList[],
-  [in]  string   ComputerName,
-  [in]  boolean  PassThru,
-  [in]  string   DownlevelDomainName[],
-  [in]  string   EntrypointName,
-  [out] DAClient cmdletOutput
+  [in]  string   DownlevelSecurityGroupNameList[],
+  [in]  string   ComputerName,
+  [in]  boolean  PassThru,
+  [in]  string   DownlevelDomainName[],
+  [in]  string   EntrypointName,
+  [out] DAClient cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ Entrypoint refers to the identity of a site in a multi-site deployment from whic
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ Entrypoint refers to the identity of a site in a multi-site deployment from whic
 [**PS\_DAClient**](ps-daclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

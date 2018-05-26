@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the WindowsVolume property to the volume of the windows folder.'
-ms.assetid: '56b78c88-ef58-4474-92ad-b42fe49a2f30'
+---
+Description: The installer sets the WindowsVolume property to the volume of the windows folder.
+ms.assetid: 56b78c88-ef58-4474-92ad-b42fe49a2f30
 title: WindowsVolume property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WindowsVolume property

@@ -1,8 +1,10 @@
 ---
 title: MSFT\_TargetPortal class
 description: Represents a target portal.
-ms.assetid: '27412123-730E-4AD4-9899-049CB9528CCB'
-keywords: ["MSFT_TargetPortal class Windows Storage Management API", "MSFT_TargetPortal class Windows Storage Management API , described"]
+ms.assetid: 27412123-730E-4AD4-9899-049CB9528CCB
+keywords:
+- MSFT_TargetPortal class Windows Storage Management API
+- MSFT_TargetPortal class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_TargetPortal class
@@ -107,8 +114,8 @@ The subnet mask for the IPv4 address of the target portal, if a subnet mask is d
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -121,9 +128,9 @@ The subnet mask for the IPv4 address of the target portal, if a subnet mask is d
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

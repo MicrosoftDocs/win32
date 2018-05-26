@@ -1,15 +1,18 @@
 ---
-Description: 'Set access scope on an array of DNS conditional forwarders from IPAM.'
+Description: Set access scope on an array of DNS conditional forwarders from IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'de6e2b34-1a07-4153-af15-a4d6a40f657d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: de6e2b34-1a07-4153-af15-a4d6a40f657d
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetDnsConditionalForwarderAccessScope method of the MSFT\_IPAM\_AccessScope class'
+title: SetDnsConditionalForwarderAccessScope method of the MSFT\_IPAM\_AccessScope class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDnsConditionalForwarderAccessScope method of the MSFT\_IPAM\_AccessScope class
@@ -21,11 +24,11 @@ Set access scope on an array of DNS conditional forwarders from IPAM.
 
 ```mof
 uint32 SetDnsConditionalForwarderAccessScope(
-  [in]  boolean                           IpamDnsConditionalForwarder,
-  [in]  string                            AccessScopePath,
-  [in]  boolean                           IsInheritedAccessScope,
-  [in]  MSFT_IPAM_DnsConditionalForwarder InputObject[],
-  [out] MSFT_IPAM_DnsConditionalForwarder Output[]
+  [in]  boolean                           IpamDnsConditionalForwarder,
+  [in]  string                            AccessScopePath,
+  [in]  boolean                           IsInheritedAccessScope,
+  [in]  MSFT_IPAM_DnsConditionalForwarder InputObject[],
+  [out] MSFT_IPAM_DnsConditionalForwarder Output[]
 );
 ```
 
@@ -77,7 +80,7 @@ Returns the scope as an array of [**MSFT\_IPAM\_DnsConditionalForwarder**](msft-
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -91,9 +94,9 @@ Returns the scope as an array of [**MSFT\_IPAM\_DnsConditionalForwarder**](msft-
 [**MSFT\_IPAM\_AccessScope**](msft-ipam-accessscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

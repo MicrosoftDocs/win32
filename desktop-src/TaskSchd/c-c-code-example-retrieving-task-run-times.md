@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving Task Run Times
 description: This example retrieves the run times of the task and displays them on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'ad9eb4a7-f42b-4f5a-86a3-05d02dc88f97'
-keywords: ["retrieving task run times Task Scheduler", "retrieving work item properties Task Scheduler , task run times"]
+ms.assetid: ad9eb4a7-f42b-4f5a-86a3-05d02dc88f97
+keywords:
+- retrieving task run times Task Scheduler
+- retrieving work item properties Task Scheduler , task run times
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Task Run Times

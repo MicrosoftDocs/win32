@@ -1,7 +1,12 @@
 ---
-Description: 'Flag that specifies whether the window posts or sends its destruction message.'
-ms.assetid: '553a372e-1abe-4661-bfa5-b8a63be63c72'
-title: 'CBaseWindow::m\_bDoPostToDestroy member'
+Description: Flag that specifies whether the window posts or sends its destruction message.
+ms.assetid: 553a372e-1abe-4661-bfa5-b8a63be63c72
+title: CBaseWindowm\_bDoPostToDestroy member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_bDoPostToDestroy member
@@ -35,9 +40,9 @@ BOOL m_bDoPostToDestroy;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

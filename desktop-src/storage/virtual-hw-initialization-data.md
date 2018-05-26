@@ -1,8 +1,10 @@
 ---
 title: VIRTUAL\_HW\_INITIALIZATION\_DATA structure
 description: The VIRTUAL\_HW\_INITIALIZATION\_DATA structure contains information particular to each virtual miniport driver.
-ms.assetid: '10e7e097-ed84-4200-b7b6-6a838a058fd2'
-keywords: ["VIRTUAL_HW_INITIALIZATION_DATA structure Storage Devices", "PVIRTUAL_HW_INITIALIZATION_DATA structure pointer Storage Devices"]
+ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
+keywords:
+- VIRTUAL_HW_INITIALIZATION_DATA structure Storage Devices
+- PVIRTUAL_HW_INITIALIZATION_DATA structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIRTUAL\_HW\_INITIALIZATION\_DATA structure
@@ -22,41 +29,41 @@ The **VIRTUAL\_HW\_INITIALIZATION\_DATA** structure contains information particu
 
 ```C++
 typedef struct _VIRTUAL_HW_INITIALIZATION_DATA {
-  ULONG                       HwInitializationDataSize;
-  INTERFACE_TYPE              AdapterInterfaceType;
-  PHW_INITIALIZE              HwInitialize;
-  PHW_STARTIO                 HwStartIo;
-  PHW_INTERRUPT               HwInterrupt;
-  PVIRTUAL_HW_FIND_ADAPTER    HwFindAdapter;
-  PHW_RESET_BUS               HwResetBus;
-  PHW_DMA_STARTED             HwDmaStarted;
-  PHW_ADAPTER_STATE           HwAdapterState;
-  ULONG                       DeviceExtensionSize;
-  ULONG                       SpecificLuExtensionSize;
-  ULONG                       SrbExtensionSize;
-  ULONG                       NumberOfAccessRanges;
-  PVOID                       Reserved;
-  UCHAR                       MapBuffers;
-  BOOLEAN                     NeedPhysicalAddresses;
-  BOOLEAN                     TaggedQueuing;
-  BOOLEAN                     AutoRequestSense;
-  BOOLEAN                     MultipleRequestPerLu;
-  BOOLEAN                     ReceiveEvent;
-  USHORT                      VendorIdLength;
-  PVOID                       VendorId;
+  ULONG                       HwInitializationDataSize;
+  INTERFACE_TYPE              AdapterInterfaceType;
+  PHW_INITIALIZE              HwInitialize;
+  PHW_STARTIO                 HwStartIo;
+  PHW_INTERRUPT               HwInterrupt;
+  PVIRTUAL_HW_FIND_ADAPTER    HwFindAdapter;
+  PHW_RESET_BUS               HwResetBus;
+  PHW_DMA_STARTED             HwDmaStarted;
+  PHW_ADAPTER_STATE           HwAdapterState;
+  ULONG                       DeviceExtensionSize;
+  ULONG                       SpecificLuExtensionSize;
+  ULONG                       SrbExtensionSize;
+  ULONG                       NumberOfAccessRanges;
+  PVOID                       Reserved;
+  UCHAR                       MapBuffers;
+  BOOLEAN                     NeedPhysicalAddresses;
+  BOOLEAN                     TaggedQueuing;
+  BOOLEAN                     AutoRequestSense;
+  BOOLEAN                     MultipleRequestPerLu;
+  BOOLEAN                     ReceiveEvent;
+  USHORT                      VendorIdLength;
+  PVOID                       VendorId;
   union {
     USHORT ReservedUshort;
     USHORT PortVersionFlags;
   };
-  USHORT                      DeviceIdLength;
-  PVOID                       DeviceId;
-  PHW_ADAPTER_CONTROL         HwAdapterControl;
-  PHW_BUILDIO                 HwBuildIo;
-  PHW_FREE_ADAPTER_RESOURCES  HwFreeAdapterResources;
+  USHORT                      DeviceIdLength;
+  PVOID                       DeviceId;
+  PHW_ADAPTER_CONTROL         HwAdapterControl;
+  PHW_BUILDIO                 HwBuildIo;
+  PHW_FREE_ADAPTER_RESOURCES  HwFreeAdapterResources;
   PHW_PROCESS_SERVICE_REQUEST HwProcessServiceRequest;
-  PHW_COMPLETE_SERVICE_IRP    HwCompleteServiceIrp;
-  PHW_INITIALIZE_TRACING      HwInitializeTracing;
-  PHW_CLEANUP_TRACING         HwCleanupTracing;
+  PHW_COMPLETE_SERVICE_IRP    HwCompleteServiceIrp;
+  PHW_INITIALIZE_TRACING      HwInitializeTracing;
+  PHW_CLEANUP_TRACING         HwCleanupTracing;
 } VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA;
 ```
 
@@ -299,7 +306,7 @@ A pointer to the virtual miniport driver's [**HwStorCleanupTracing**](hwstorclea
 
 ## Remarks
 
-If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the [**HW\_INITIALIZATION\_DATA**](hw-initialization-data--storport-.md) structure instead of **VIRTUAL\_HW\_INITIALIZATION\_DATA**.
+If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the [**HW\_INITIALIZATION\_DATA**](hw-initialization-data--storport-.md) structure instead of **VIRTUAL\_HW\_INITIALIZATION\_DATA**.
 
 ## Requirements
 
@@ -345,9 +352,9 @@ If a virtual miniport driver will execute only on Windows 8 or later, the driver
 [**VirtualHwStorFindAdapter**](virtualhwstorfindadapter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20VIRTUAL_HW_INITIALIZATION_DATA%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

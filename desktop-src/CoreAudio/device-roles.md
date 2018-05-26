@@ -1,7 +1,12 @@
 ---
 Description: Device Roles
-ms.assetid: 'aa787004-0d3e-448b-80dd-92055f841aee'
+ms.assetid: aa787004-0d3e-448b-80dd-92055f841aee
 title: Device Roles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Roles
@@ -10,7 +15,7 @@ If a system contains two or more audio-rendering endpoint devices, then one devi
 
 Similarly, if a system contains two or more audio-capture endpoint devices, then one device might be best for capturing one type of audio content, and another device might be best for capturing another type of content. For example, if a system has two capture devices, the user might choose to record live music on one device and to use the other device for voice commands.
 
-Devices can have three roles: Console, Communications, and Multimedia.The following table describes the device roles identified by the three constants—eConsole, eCommunications, and eMultimedia—in the [**ERole**](erole.md) enumeration.
+Devices can have three roles: Console, Communications, and Multimedia.The following table describes the device roles identified by the three constants—eConsole, eCommunications, and eMultimedia—in the [**ERole**](/windows/win32/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0002?branch=master) enumeration.
 
 
 

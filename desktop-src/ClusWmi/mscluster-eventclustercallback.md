@@ -4,13 +4,15 @@ description: TBD
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f6ff92b7-608f-423c-9977-364a8eb44cec'
-ms.prod: 'windows-server-dev'
+ms.assetid: f6ff92b7-608f-423c-9977-364a8eb44cec
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_EventClusterCallback class", "MSCluster_EventClusterCallback class, described"]
+keywords:
+- MSCluster_EventClusterCallback class
+- MSCluster_EventClusterCallback class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_EventClusterCallback class
@@ -46,7 +51,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{5F9229F6-DF68-4115-818A-315A8AF93AA7}"), AMENDMENT]
 class MSCluster_EventClusterCallback : MSCluster_Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 EventTypeMajor;
   uint32 EventTypeMinor;
@@ -245,7 +250,7 @@ Access type: Read-only
 
 Provides the amount as a percent complete.
 
-Range: 0–100
+Range: 0 100
 
 </dd> <dt>
 
@@ -584,7 +589,7 @@ The **MSCluster\_EventClusterCallback** class is derived from the [**MSCluster\_
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -613,9 +618,9 @@ The **MSCluster\_EventClusterCallback** class is derived from the [**MSCluster\_
 [*ClusterSetupProgressCallback*](https://msdn.microsoft.com/library/bb394687)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

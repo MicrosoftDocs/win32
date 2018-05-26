@@ -2,13 +2,16 @@
 title: SetByParameters method of the PS\_DnsServerPrimaryZone class
 description: Overwrites settings of DNS server primary zone.
 audience: developer
-ms.assetid: 'ac03176c-ddd9-4461-9abc-548f17df4611'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac03176c-ddd9-4461-9abc-548f17df4611
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByParameters method", "SetByParameters method, PS_DnsServerPrimaryZone class", "PS_DnsServerPrimaryZone class, SetByParameters method"]
+keywords:
+- SetByParameters method
+- SetByParameters method, PS_DnsServerPrimaryZone class
+- PS_DnsServerPrimaryZone class, SetByParameters method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByParameters method of the PS\_DnsServerPrimaryZone class
@@ -28,18 +34,18 @@ Overwrites settings of DNS server primary zone.
 
 ```mof
 uint32 SetByParameters(
-  [in]  string               AllowedDcForNsRecordsAutoCreation[],
-  [in]  string               DynamicUpdate,
-  [in]  string               Name,
-  [in]  string               Notify,
-  [in]  string               NotifyServers[],
-  [in]  string               SecondaryServers[],
-  [in]  string               SecureSecondaries,
-  [in]  string               ComputerName,
-  [in]  boolean              PassThru,
-  [in]  boolean              IsPluginEnabled,
-  [in]  boolean              IgnorePolicies,
-  [out] DnsServerPrimaryZone cmdletOutput
+  [in]  string               AllowedDcForNsRecordsAutoCreation[],
+  [in]  string               DynamicUpdate,
+  [in]  string               Name,
+  [in]  string               Notify,
+  [in]  string               NotifyServers[],
+  [in]  string               SecondaryServers[],
+  [in]  string               SecureSecondaries,
+  [in]  string               ComputerName,
+  [in]  boolean              PassThru,
+  [in]  boolean              IsPluginEnabled,
+  [in]  boolean              IgnorePolicies,
+  [out] DnsServerPrimaryZone cmdletOutput
 );
 ```
 
@@ -193,7 +199,7 @@ Specifies the remote computer on which to execute the command
 
 Marks the zone as a plugin-enabled zone.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -202,7 +208,7 @@ Marks the zone as a plugin-enabled zone.
 
 Whether to ignore the policies of this zone.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -220,7 +226,7 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -234,9 +240,9 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 [**PS\_DnsServerPrimaryZone**](ps-dnsserverprimaryzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

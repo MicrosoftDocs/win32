@@ -2,13 +2,16 @@
 title: GetByHostIP method of the PS\_RemoteAccessUserActivity class
 description: This cmdlet displays the following1. Resources accessed over the active DA and VPN connections2. Resources accessed over historical DA and VPN connections.
 audience: developer
-ms.assetid: '80711289-4b13-4acd-b2c1-e3de92650c08'
-ms.prod: 'windows-server-dev'
+ms.assetid: 80711289-4b13-4acd-b2c1-e3de92650c08
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetByHostIP method", "GetByHostIP method, PS_RemoteAccessUserActivity class", "PS_RemoteAccessUserActivity class, GetByHostIP method"]
+keywords:
+- GetByHostIP method
+- GetByHostIP method, PS_RemoteAccessUserActivity class
+- PS_RemoteAccessUserActivity class, GetByHostIP method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetByHostIP method of the PS\_RemoteAccessUserActivity class
@@ -28,11 +34,11 @@ This cmdlet displays the following1. Resources accessed over the active DA and V
 
 ```mof
 uint32 GetByHostIP(
-  [in]  string                   HostIPAddress,
-  [in]  string                   ComputerName,
-  [in]  datetime                 EndDateTime,
-  [in]  datetime                 StartDateTime,
-  [out] RemoteAccessUserActivity cmdletOutput[]
+  [in]  string                   HostIPAddress,
+  [in]  string                   ComputerName,
+  [in]  datetime                 EndDateTime,
+  [in]  datetime                 StartDateTime,
+  [out] RemoteAccessUserActivity cmdletOutput[]
 );
 ```
 
@@ -84,7 +90,7 @@ On return, contains a [**RemoteAccessUserActivity**](remoteaccessuseractivity.md
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -98,9 +104,9 @@ On return, contains a [**RemoteAccessUserActivity**](remoteaccessuseractivity.md
 [**PS\_RemoteAccessUserActivity**](ps-remoteaccessuseractivity.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

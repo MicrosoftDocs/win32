@@ -1,7 +1,12 @@
 ---
 title: About the Decision Topic Template
 description: About the Decision Topic Template
-ms.assetid: '93C9BFC5-1CB3-4a8a-BFBF-E60D00623DF3'
+ms.assetid: 93C9BFC5-1CB3-4a8a-BFBF-E60D00623DF3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Decision Topic Template

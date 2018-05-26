@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether a stroke should be analyzed as part of a drawing or as part of writing.'
-ms.assetid: 'bbd0bc23-89f9-4033-bc32-f9bd737c960c'
+---
+Description: Indicates whether a stroke should be analyzed as part of a drawing or as part of writing.
+ms.assetid: bbd0bc23-89f9-4033-bc32-f9bd737c960c
 title: StrokeType enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StrokeType enumeration

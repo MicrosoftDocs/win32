@@ -1,8 +1,9 @@
 ---
 title: plane Structure
 description: This structure represents a plane using a 3D vector normal and a distance value.
-ms.assetid: '3C5A5EA0-8A51-4F9B-A84A-0C8E726CE3FD'
-keywords: ["plane Structure"]
+ms.assetid: 3C5A5EA0-8A51-4F9B-A84A-0C8E726CE3FD
+keywords:
+- plane Structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # plane Structure
@@ -35,7 +41,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Plan
 
 
 
- 
+ 
 
 ## Functions
 
@@ -53,7 +59,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Plan
 
 
 
- 
+ 
 
 ## Operators
 
@@ -67,7 +73,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Plan
 
 
 
- 
+ 
 
 ## Fields
 
@@ -80,7 +86,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Plan
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -100,9 +106,9 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Plan
 [windowsnumerics.h APIs](windowsnumerics-h-apis-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

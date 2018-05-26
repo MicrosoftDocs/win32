@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDeviceApp GenerateMeterChallenge method
 description: The GenerateMeterChallenge method acquires metering data from a device.
-ms.assetid: '2457cab7-bd45-49a7-ba69-74ae022207ce'
-keywords: ["GenerateMeterChallenge method windows Media Device Manager", "GenerateMeterChallenge method windows Media Device Manager , IWMDRMDeviceApp interface", "IWMDRMDeviceApp interface windows Media Device Manager , GenerateMeterChallenge method"]
+ms.assetid: 2457cab7-bd45-49a7-ba69-74ae022207ce
+keywords:
+- GenerateMeterChallenge method windows Media Device Manager
+- GenerateMeterChallenge method windows Media Device Manager , IWMDRMDeviceApp interface
+- IWMDRMDeviceApp interface windows Media Device Manager , GenerateMeterChallenge method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDeviceApp::GenerateMeterChallenge method
@@ -23,10 +31,10 @@ The **GenerateMeterChallenge** method acquires metering data from a device.
 
 ```C++
 HRESULT GenerateMeterChallenge(
-  [in]  IWMDMDevice *pDevice,
-  [in]  BSTR        bstrMeterCert,
-  [out] BSTR        *pbstrMeterURL,
-  [out] BSTR        *pbstrMeterData
+  [in]  IWMDMDevice *pDevice,
+  [in]  BSTR        bstrMeterCert,
+  [out] BSTR        *pbstrMeterURL,
+  [out] BSTR        *pbstrMeterData
 );
 ```
 
@@ -39,7 +47,7 @@ HRESULT GenerateMeterChallenge(
 *pDevice* \[in\]
 </dt> <dd>
 
-Pointer to an [**IWMDMDevice**](iwmdmdevice.md) interface. If the application passes in **NULL**, metering information stored on the computer is used instead of metering information from a connected device.
+Pointer to an [**IWMDMDevice**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master) interface. If the application passes in **NULL**, metering information stored on the computer is used instead of metering information from a connected device.
 
 </dd> <dt>
 
@@ -80,11 +88,11 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 | <dl> <dt>**DRM\_E\_XMLNOTFOUND**</dt> </dl>               | Failed to find a required XML tag.<br/>                                 |
 | <dl> <dt>**Errors from the device**</dt> </dl>            | Any of a number of device errors.<br/>                                  |
 | <dl> <dt>**Errors from the DRM Client**</dt> </dl>        | Any of a number of internal DRM client errors.<br/>                     |
-| <dl> <dt>**NS\_E\_DEVICE\_NOT\_WMDRM\_DEVICE**</dt> </dl> | The specified device is not a Windows Media DRM–compatible device.<br/> |
+| <dl> <dt>**NS\_E\_DEVICE\_NOT\_WMDRM\_DEVICE**</dt> </dl> | The specified device is not a Windows Media DRM compatible device.<br/> |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -155,15 +163,15 @@ if (hr == S_OK)
 [**Handling Protected Content in the Application**](handling-protected-content-in-the-application.md)
 </dt> <dt>
 
-[**IWMDMDevice Interface**](iwmdmdevice.md)
+[**IWMDMDevice Interface**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master)
 </dt> <dt>
 
 [**IWMDRMDeviceApp Interface**](iwmdrmdeviceapp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

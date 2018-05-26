@@ -1,7 +1,12 @@
 ---
 title: RAS Server Administration Structures
 description: For Windows NT 4.0, use the following structures to implement RAS server administration functionality.
-ms.assetid: 'b04bef8c-a83e-4c6e-849e-feeca99699e8'
+ms.assetid: b04bef8c-a83e-4c6e-849e-feeca99699e8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS Server Administration Structures
@@ -17,11 +22,11 @@ For Windows NT 4.0, use the following structures to implement RAS server admin
 -   [**RAS\_PPP\_IPXCP\_RESULT**](ras-ppp-ipxcp-result-str.md)
 -   [**RAS\_PPP\_NBFCP\_RESULT**](ras-ppp-nbfcp-result-str.md)
 -   [**RAS\_PPP\_PROJECTION\_RESULT**](ras-ppp-projection-result-str.md)
--   [**RAS\_SECURITY\_INFO**](ras-security-info-str.md)
+-   [**RAS\_SECURITY\_INFO**](/windows/win32/Rasshost/ns-rasshost-_ras_security_info?branch=master)
 -   [**RAS\_SERVER\_0**](ras-server-0-str.md)
--   [**RAS\_STATS**](ras-stats.md)
+-   [**RAS\_STATS**](/windows/win32/Ras/ns-ras-_ras_stats?branch=master)
 -   [**RAS\_USER\_0**](ras-user-0-str.md)
--   [**SECURITY\_MESSAGE**](security-message-str.md)
+-   [**SECURITY\_MESSAGE**](/windows/win32/Rasshost/ns-rasshost-_security_message?branch=master)
 
  
 

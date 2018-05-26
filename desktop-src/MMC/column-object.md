@@ -4,11 +4,13 @@ description: The Column object is used to manage a column in the result pane.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9005ab58-ec89-4168-ac7c-aeaa25c2c778'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9005ab58-ec89-4168-ac7c-aeaa25c2c778
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Column Object object MMC", "Column Object object MMC , described"]
+keywords:
+- Column Object object MMC
+- Column Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Column Object object
@@ -44,7 +49,7 @@ The **Column Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -60,7 +65,7 @@ The **Column Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,8 +73,8 @@ The **Column Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -77,9 +82,9 @@ The **Column Object** object has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: break\_comp - vs
 description: Conditionally break out of the current loop at the nearest endloop - vs or endrep - vs.
-ms.assetid: '01745e03-874a-4594-b6ab-12db22d0cb4a'
+ms.assetid: 01745e03-874a-4594-b6ab-12db22d0cb4a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # break\_comp - vs

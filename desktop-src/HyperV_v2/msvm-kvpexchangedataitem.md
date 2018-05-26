@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a key/value pair.'
-ms.assetid: 'B13E9C5F-5B13-4EE5-AE5F-F51B61BDB9B7'
-title: 'Msvm\_KvpExchangeDataItem class'
+Description: Represents a key/value pair.
+ms.assetid: B13E9C5F-5B13-4EE5-AE5F-F51B61BDB9B7
+title: Msvm\_KvpExchangeDataItem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_KvpExchangeDataItem class
@@ -138,7 +143,7 @@ The key portion of the key/value pair.
 | <dl> <dt>"OSMajorVersion"</dt> </dl>             | A string that represents the major version number of the operating system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <dl> <dt>"OSMinorVersion"</dt> </dl>             | A string that represents the minor version number of the operating system.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | <dl> <dt>"OSPlatformId"</dt> </dl>               | A string that represents the operating system platform. The possible values of the **Data** property are "1" to indicate an unsupported Windows system and "2" to indicate a supported Windows system.<br/>                                                                                                                                                                                                                                                                                                               |
-| <dl> <dt>"OSVersion"</dt> </dl>                  | A string that represents the operating system version. The format of this string is *MajorVersion*.*MinorVersion*.*BuildNumber*. For example, "5.2.3790" for Windows Server 2003.<br/>                                                                                                                                                                                                                                                                                                                                    |
+| <dl> <dt>"OSVersion"</dt> </dl>                  | A string that represents the operating system version. The format of this string is *MajorVersion*.*MinorVersion*.*BuildNumber*. For example, "5.2.3790" for Windows Server 2003.<br/>                                                                                                                                                                                                                                                                                                                                    |
 | <dl> <dt>"ProcessorArchitecture"</dt> </dl>      | A string that represents the processor architecture of the operating system. For a list of values, see the **wProcessorArchitecture** member of the [**SYSTEM\_INFO**](https://msdn.microsoft.com/library/windows/desktop/ms724958) structure.<br/>                                                                                                                                                                                                                                                                                                              |
 | <dl> <dt>"ProductType"</dt> </dl>                | A string that represents the product type. For a list of values, see the **wProductType** member of the [**OSVERSIONINFOEX**](https://msdn.microsoft.com/library/windows/desktop/ms724833) structure.<br/>                                                                                                                                                                                                                                                                                                                                                   |
 | <dl> <dt>"RDPAddressIPv4"</dt> </dl>             | A string that contains a semicolon-delimited list of the IPv4 addresses that the guest virtual machine RDP stack is currently listening on. If the RDP stack is not currently running, the string will be empty. The list is automatically updated whenever a TCP/IP configuration change affects the RDP stack on the guest virtual machine. Each address is represented in dot-decimal notation.<br/>                                                                                                                   |
@@ -149,7 +154,7 @@ The key portion of the key/value pair.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -175,7 +180,7 @@ The source of the data.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -189,8 +194,8 @@ Access to the **Msvm\_KvpExchangeDataItem** class might be restricted by UAC Fil
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -207,9 +212,9 @@ Access to the **Msvm\_KvpExchangeDataItem** class might be restricted by UAC Fil
 [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/mt432218)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

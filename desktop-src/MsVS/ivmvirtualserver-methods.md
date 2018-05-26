@@ -1,7 +1,12 @@
 ---
 title: IVMVirtualServer Methods
 description: The IVMVirtualServer interface defines the following methods
-ms.assetid: 'c79d65f1-49e6-4c9b-b338-6e69211cf06c'
+ms.assetid: c79d65f1-49e6-4c9b-b338-6e69211cf06c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer Methods

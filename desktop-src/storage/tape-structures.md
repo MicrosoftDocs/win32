@@ -1,7 +1,12 @@
 ---
 title: Tape Structures
 description: Tape Structures
-ms.assetid: '4092250a-b4aa-4963-a536-f32e7181a13d'
+ms.assetid: 4092250a-b4aa-4963-a536-f32e7181a13d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tape Structures

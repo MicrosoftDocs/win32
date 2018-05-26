@@ -2,13 +2,16 @@
 title: AddByFileReverseLookupZone method of the PS\_DnsServerPrimaryZone class
 description: Adds Primary zone on DNS server.
 audience: developer
-ms.assetid: '850f01aa-cab8-4762-ab46-27f41e64c30f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 850f01aa-cab8-4762-ab46-27f41e64c30f
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByFileReverseLookupZone method", "AddByFileReverseLookupZone method, PS_DnsServerPrimaryZone class", "PS_DnsServerPrimaryZone class, AddByFileReverseLookupZone method"]
+keywords:
+- AddByFileReverseLookupZone method
+- AddByFileReverseLookupZone method, PS_DnsServerPrimaryZone class
+- PS_DnsServerPrimaryZone class, AddByFileReverseLookupZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByFileReverseLookupZone method of the PS\_DnsServerPrimaryZone class
@@ -28,15 +34,15 @@ Adds Primary zone on DNS server.
 
 ```mof
 uint32 AddByFileReverseLookupZone(
-  [in]  string               ResponsiblePerson,
-  [in]  string               DynamicUpdate,
-  [in]  boolean              LoadExisting,
-  [in]  string               NetworkID,
-  [in]  string               ZoneFile,
-  [in]  string               VirtualizationInstance,
-  [in]  string               ComputerName,
-  [in]  boolean              PassThru,
-  [out] DnsServerPrimaryZone cmdletOutput[]
+  [in]  string               ResponsiblePerson,
+  [in]  string               DynamicUpdate,
+  [in]  boolean              LoadExisting,
+  [in]  string               NetworkID,
+  [in]  string               ZoneFile,
+  [in]  string               VirtualizationInstance,
+  [in]  string               ComputerName,
+  [in]  boolean              PassThru,
+  [out] DnsServerPrimaryZone cmdletOutput[]
 );
 ```
 
@@ -109,7 +115,7 @@ Specifies File based zone path or custom directory partition path
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -141,7 +147,7 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -155,9 +161,9 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 [**PS\_DnsServerPrimaryZone**](ps-dnsserverprimaryzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

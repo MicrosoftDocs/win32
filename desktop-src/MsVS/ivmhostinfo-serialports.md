@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo SerialPorts property
 description: The SerialPorts property contains a list of serial ports on the host computer.
-ms.assetid: 'dceb2443-2c4e-4a49-96dc-7e031daaf3da'
-keywords: ["SerialPorts property Virtual Server", "SerialPorts property Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , SerialPorts property", "SerialPorts property Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , SerialPorts property"]
+ms.assetid: dceb2443-2c4e-4a49-96dc-7e031daaf3da
+keywords:
+- SerialPorts property Virtual Server
+- SerialPorts property Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , SerialPorts property
+- SerialPorts property Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , SerialPorts property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::SerialPorts property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SerialPorts(
-  [out] BSTR *serialPorts
+  [out] BSTR *serialPorts
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

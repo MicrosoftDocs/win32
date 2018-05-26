@@ -1,13 +1,16 @@
 ---
-Description: 'The following lists standard qualifiers specific to WMI.'
+Description: The following lists standard qualifiers specific to WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '63bdbafc-51f3-4714-8b7e-9d5a61cef45e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 63bdbafc-51f3-4714-8b7e-9d5a61cef45e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Standard WMI Qualifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Standard WMI Qualifiers
@@ -168,7 +171,7 @@ Applies to: instances
 
 Indicates that an instance contains values provided by a dynamic property provider.
 
-The value is passed to the property provider as an argument to the [**IWbemPropertyProvider::GetProperty**](iwbempropertyprovider-getproperty.md) method.
+The value is passed to the property provider as an argument to the [**IWbemPropertyProvider::GetProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty?branch=master) method.
 
 </dd> <dt>
 
@@ -225,7 +228,7 @@ Applies to: properties
 
 Indicates that an instance property contains values provided by dynamic property providers.
 
-You must specify this qualifier on such a property. The value is passed to the property provider as an argument to [**IWbemPropertyProvider::GetProperty**](iwbempropertyprovider-getproperty.md).
+You must specify this qualifier on such a property. The value is passed to the property provider as an argument to [**IWbemPropertyProvider::GetProperty**](/windows/win32/Wbemprov/nf-wbemprov-iwbempropertyprovider-getproperty?branch=master).
 
 </dd> <dt>
 
@@ -249,7 +252,7 @@ Applies to: namespace instances
 
 If set to **TRUE**, **RequiresEncryption** marks a namespace so that client applications and scripts must connect with encrypted authentication. The authentication level must be set to **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY** in C++. In scripting or Visual Basic, authentication level must be set to **WbemAuthenticationLevelPktPrivacy**. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md). The qualifier is used in [*MOF*](gloss-m.md#wmi-gloss-managed-object-format) with the pragma namespace preprocessor command.
 
-For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md) or [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md). Scripting authentication levels are defined in [**WbemAuthenticationLevelEnum**](wbemauthenticationlevelenum.md).
+For more information, see [Setting the Default Process Security Level Using C++](setting-the-default-process-security-level-using-c-.md) or [Setting the Default Process Security Level Using VBScript](setting-the-default-process-security-level-using-vbscript.md). Scripting authentication levels are defined in [**WbemAuthenticationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master).
 
 </dd> <dt>
 
@@ -362,7 +365,7 @@ A locale code is of the form "MS\_&lt;Three Digit Language ID&gt;". For example,
 
 
 
- 
+ 
 
 ### Using the Bypass\_GetObject Qualifier
 
@@ -412,8 +415,8 @@ ExecMethod("Circle.Name='MyCircle'","DrawIt");
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -430,9 +433,9 @@ ExecMethod("Circle.Name='MyCircle'","DrawIt");
 [Adding a Qualifier](adding-a-qualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

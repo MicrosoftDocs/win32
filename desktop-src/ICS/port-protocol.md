@@ -1,8 +1,10 @@
 ---
 title: PORT\_PROTOCOL enumeration
 description: The PORT\_PROTOCOL enumeration defines the set of IPv6 Firewall Configuration protocols.
-ms.assetid: '775c3d29-89c7-4768-9476-2e56555fd82b'
-keywords: ["PORT_PROTOCOL enumeration ICS/ICF", "PORT_PROTOCOL enumeration ICS/ICF"]
+ms.assetid: 775c3d29-89c7-4768-9476-2e56555fd82b
+keywords:
+- PORT_PROTOCOL enumeration ICS/ICF
+- PORT_PROTOCOL enumeration ICS/ICF
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Netfwv6.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PORT\_PROTOCOL enumeration
@@ -24,8 +31,8 @@ The **PORT\_PROTOCOL** enumeration defines the set of IPv6 Firewall Configuratio
 
 ```C++
 typedef enum PORT_PROTOCOL_ { 
-  PORT_PROTOCOL_TCP  = 6,
-  PORT_PROTOCOL_UDP  = 17
+  PORT_PROTOCOL_TCP  = 6,
+  PORT_PROTOCOL_UDP  = 17
 } PORT_PROTOCOL;
 ```
 
@@ -55,9 +62,9 @@ Designates UDP protocol.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                 |
 | Minimum supported server<br/> | None supported<br/>                                                            |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                   |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                   |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl> |
 
 
@@ -69,9 +76,9 @@ Designates UDP protocol.
 [IPv6 Firewall Configuration Enumerated Types](ipv6-firewall-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

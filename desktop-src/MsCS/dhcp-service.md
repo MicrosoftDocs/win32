@@ -4,11 +4,16 @@ description: The DHCP Service resource type supports the Dynamic Host Configurat
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0aa3ea17-1a46-46d4-8adf-4b9ce860b013'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0aa3ea17-1a46-46d4-8adf-4b9ce860b013
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,DHCP Service", "DHCP Service resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster ,DHCP Service
+- DHCP Service resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DHCP Service

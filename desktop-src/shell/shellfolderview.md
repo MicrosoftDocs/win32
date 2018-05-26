@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the objects in a view and provides properties and methods used to obtain information about the contents of the view.'
-ms.assetid: 'e3b0b35f-6707-4e37-8470-31b1d4421d07'
+---
+Description: Represents the objects in a view and provides properties and methods used to obtain information about the contents of the view.
+ms.assetid: e3b0b35f-6707-4e37-8470-31b1d4421d07
 title: ShellFolderView object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellFolderView object
@@ -84,7 +89,7 @@ The **ShellFolderView** object has these properties.
 
 <dl> <dt>
 
-[**ShellFolderViewOptions Flags**](shellfolderviewoptions.md)
+[**ShellFolderViewOptions Flags**](/windows/win32/Shldisp/ne-shldisp-shellfolderviewoptions?branch=master)
 </dt> </dl>
 
  

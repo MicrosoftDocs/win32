@@ -1,8 +1,9 @@
 ---
 title: EM\_GETLINE message
 description: Copies a line of text from an edit control and places it in a specified buffer. You can send this message to either an edit control or a rich edit control.
-ms.assetid: 'ff56d2c6-5013-46c6-90d8-ee2bdc9074b1'
-keywords: ["EM_GETLINE message Windows Controls"]
+ms.assetid: ff56d2c6-5013-46c6-90d8-ee2bdc9074b1
+keywords:
+- EM_GETLINE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETLINE message
@@ -43,7 +49,7 @@ The return value is the number of **TCHAR**s copied. The return value is zero if
 
 **Edit controls:** The copied line does not contain a terminating null character.
 
-**Rich edit controls:** Supported in Microsoft Rich Edit 1.0 and later. The copied line does not contain a terminating null character, unless no text was copied. If no text was copied, the message places a null character at the beginning of the buffer. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich edit controls:** Supported in Microsoft Rich Edit 1.0 and later. The copied line does not contain a terminating null character, unless no text was copied. If no text was copied, the message places a null character at the beginning of the buffer. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -51,8 +57,8 @@ The return value is the number of **TCHAR**s copied. The return value is zero if
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -67,7 +73,7 @@ The return value is the number of **TCHAR**s copied. The return value is zero if
 [**EM\_LINELENGTH**](em-linelength.md)
 </dt> <dt>
 
-[**Edit\_GetLine**](edit-getline.md)
+[**Edit\_GetLine**](/windows/win32/Windowsx/nf-windowsx-edit_getline?branch=master)
 </dt> <dt>
 
 **Other Resources**
@@ -76,9 +82,9 @@ The return value is the number of **TCHAR**s copied. The return value is zero if
 [**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

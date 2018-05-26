@@ -1,7 +1,12 @@
 ---
-Description: 'Before you can make use of a namespace object, you need a way to identify it.'
-ms.assetid: '54225481-a147-4d29-a642-24c9b59fc3ac'
-title: 'Getting a Folder''s ID'
+Description: Before you can make use of a namespace object, you need a way to identify it.
+ms.assetid: 54225481-a147-4d29-a642-24c9b59fc3ac
+title: Getting a Folders ID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting a Folder's ID
@@ -17,19 +22,19 @@ For a more powerful approach that will work with any folder, use the [**IShellFo
 
 ## The OpenFiles Dialog Box
 
-To enable the user to navigate the namespace and select a folder, your application can use the [**IFileDialog**](ifiledialog.md) interface. Calling this interface with the **FOS\_PICKFOLDERS** flag launches the [Open Files](dlgbox.open_and_save_as_dialog_boxes) common dialog box in "pick folders" mode.
+To enable the user to navigate the namespace and select a folder, your application can use the [**IFileDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifiledialog?branch=master) interface. Calling this interface with the **FOS\_PICKFOLDERS** flag launches the [Open Files](dlgbox.open_and_save_as_dialog_boxes) common dialog box in "pick folders" mode.
 
 For Windows Vista and later, this is the recommended way to pick folders.
 
 ## The SHBrowseForFolder Dialog Box
 
-To enable the user to navigate the namespace and select a folder, your application can simply invoke [**SHBrowseForFolder**](shbrowseforfolder.md). Calling this function launches a dialog box with a UI that works somewhat like the [Open or SaveAs](dlgbox.open_and_save_as_dialog_boxes) common dialog boxes.
+To enable the user to navigate the namespace and select a folder, your application can simply invoke [**SHBrowseForFolder**](/windows/win32/shlobj_core/nf-shlobj_core-shbrowseforfoldera?branch=master). Calling this function launches a dialog box with a UI that works somewhat like the [Open or SaveAs](dlgbox.open_and_save_as_dialog_boxes) common dialog boxes.
 
-When the user selects a folder, [**SHBrowseForFolder**](shbrowseforfolder.md) returns the folder's fully qualified PIDL and its display name. If the folder is in the file system, the application can convert the PIDL to a path by calling [**SHGetPathFromIDList**](shgetpathfromidlist.md). The application can also restrict the range of folders that the user can select from by specifying a root folder. Only folders that are below that root in the namespace will appear. The following illustration shows the **SHBrowseForFolder** dialog box, with the root folder set to Program Files.
+When the user selects a folder, [**SHBrowseForFolder**](/windows/win32/shlobj_core/nf-shlobj_core-shbrowseforfoldera?branch=master) returns the folder's fully qualified PIDL and its display name. If the folder is in the file system, the application can convert the PIDL to a path by calling [**SHGetPathFromIDList**](/windows/win32/shlobj_core/nf-shlobj_core-shgetpathfromidlista?branch=master). The application can also restrict the range of folders that the user can select from by specifying a root folder. Only folders that are below that root in the namespace will appear. The following illustration shows the **SHBrowseForFolder** dialog box, with the root folder set to Program Files.
 
 ![screen shot of the browse for folder dialog box](images/shell1.png)
 
-A simple example of how to use [**SHBrowseForFolder**](shbrowseforfolder.md) is provided later.
+A simple example of how to use [**SHBrowseForFolder**](/windows/win32/shlobj_core/nf-shlobj_core-shbrowseforfoldera?branch=master) is provided later.
 
 ## Special Folders and CSIDLs
 
@@ -41,14 +46,14 @@ CSIDLs provide a uniform way of identifying and locating special folders, regard
 
 A CSIDL is used in conjunction with one of several Shell functions to retrieve a special folder's PIDL, or a special file system folder's path. If the folder does not exist on a system, your application can force it to be created by combining its CSIDL with **CSIDL\_FLAG\_CREATE**. The CSIDL can be passed to the following functions:
 
--   [**SHGetFolderLocation**](shgetfolderlocation.md), which retrieves the PIDL of a special folder.
--   [**SHGetFolderPath**](shgetfolderpath.md), which retrieves the path of a file system special folder.
+-   [**SHGetFolderLocation**](/windows/win32/shlobj_core/nf-shlobj_core-shgetfolderlocation?branch=master), which retrieves the PIDL of a special folder.
+-   [**SHGetFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shgetfolderpatha?branch=master), which retrieves the path of a file system special folder.
 
-Note that these two functions were introduced with version 5.0 of the Shell and supersede the [**SHGetSpecialFolderLocation**](shgetspecialfolderlocation.md) and [**SHGetSpecialFolderPath**](shgetspecialfolderpath.md) functions.
+Note that these two functions were introduced with version 5.0 of the Shell and supersede the [**SHGetSpecialFolderLocation**](/windows/win32/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation?branch=master) and [**SHGetSpecialFolderPath**](/windows/win32/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha?branch=master) functions.
 
 ## A Simple Example of How to Use CSIDLs and SHBrowseForFolder
 
-The following sample function, PidlBrowse, illustrates how to use CSIDLs to retrieve a folder's PIDL, and use [**SHBrowseForFolder**](shbrowseforfolder.md) to have the user select a folder. It returns the PIDL and display name of the selected folder.
+The following sample function, PidlBrowse, illustrates how to use CSIDLs to retrieve a folder's PIDL, and use [**SHBrowseForFolder**](/windows/win32/shlobj_core/nf-shlobj_core-shbrowseforfoldera?branch=master) to have the user select a folder. It returns the PIDL and display name of the selected folder.
 
 
 ```
@@ -89,7 +94,7 @@ LPITEMIDLIST PidlBrowse(HWND hwnd, int nCSIDL, LPSTR pszDisplayName)
 
 
 
-The calling application passes in a window handle, which is needed by [**SHBrowseForFolder**](shbrowseforfolder.md). The *nCSIDL* parameter is an optional CSIDL that is used to specify a root folder. Only folders below the root folder in the hierarchy will be displayed. The illustration shown earlier was generated by calling this function with *nCSIDL* set to **CSIDL\_PROGRAM\_FILES**. The calling application also passes in a string buffer, *pszDisplayName*, to hold the display name of the selected folder when PidlBrowse returns. It is the responsibility of the calling application to free the IDList returned by **SHBrowseForFolder** using [**CoTaskMemFree**](com.cotaskmemfree).
+The calling application passes in a window handle, which is needed by [**SHBrowseForFolder**](/windows/win32/shlobj_core/nf-shlobj_core-shbrowseforfoldera?branch=master). The *nCSIDL* parameter is an optional CSIDL that is used to specify a root folder. Only folders below the root folder in the hierarchy will be displayed. The illustration shown earlier was generated by calling this function with *nCSIDL* set to **CSIDL\_PROGRAM\_FILES**. The calling application also passes in a string buffer, *pszDisplayName*, to hold the display name of the selected folder when PidlBrowse returns. It is the responsibility of the calling application to free the IDList returned by **SHBrowseForFolder** using [**CoTaskMemFree**](com.cotaskmemfree).
 
  
 

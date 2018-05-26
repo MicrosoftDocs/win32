@@ -1,20 +1,25 @@
 ---
 title: Profile-Path attribute
-description: Specifies a path to the user's profile. This value can be a null string, a local absolute path, or a UNC path.
+description: Specifies a path to the users profile. This value can be a null string, a local absolute path, or a UNC path.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '03891152-52c6-4799-ae79-3be284204391'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 03891152-52c6-4799-ae79-3be284204391
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Profile-Path attribute AD Schema", "profilePath attribute AD Schema"]
+keywords:
+- Profile-Path attribute AD Schema
+- profilePath attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Profile-Path
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Profile-Path attribute
@@ -38,12 +43,12 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Specifies a path to the user's profile. This value can be a null string, a local
 
 
 
- 
+ 
 
- 
+ 
 
 
 

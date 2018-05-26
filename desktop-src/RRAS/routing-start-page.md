@@ -1,8 +1,17 @@
 ---
 title: Routing
 description: The Routing APIs make it possible to create applications to administer the routing capabilities of the operating system.
-ms.assetid: '66e1bbb4-73c8-40fc-9575-ffe76d4b697b'
-keywords: ["Routing RAS", "Routing RAS , start page", "RRAS RAS", "RRAS RAS , See Routing"]
+ms.assetid: 66e1bbb4-73c8-40fc-9575-ffe76d4b697b
+keywords:
+- Routing RAS
+- Routing RAS , start page
+- RRAS RAS
+- RRAS RAS , See Routing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing
@@ -21,7 +30,7 @@ The Routing APIs are designed for use by C/C++ programmers. Programmers should a
 
 ## Run-time requirements
 
-Routing is a server-based technology. All the functionality of Routing is incorporated into Windows 2000 Server and the Windows Server 2003. Routing applications cannot run on Windows NT Workstation 4.0 or on client operating systems, such as Windows 95. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
+Routing is a server-based technology. All the functionality of Routing is incorporated into Windows 2000 Server and the Windows Server 2003. Routing applications cannot run on Windows NT Workstation 4.0 or on client operating systems, such as Windows 95. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
 
 ## In this section
 
@@ -34,7 +43,7 @@ Routing is a server-based technology. All the functionality of Routing is incorp
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -49,9 +58,9 @@ Routing is a server-based technology. All the functionality of Routing is incorp
 [Routing Protocols](routing-protocols-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: IOCTL\_SCSI\_MINIPORT\_HYBRID control code
 description: The IOCTL\_SCSI\_MINIPORT\_HYBRID control code sends a hybrid disk control request to an HBA-specific miniport driver.
-ms.assetid: '57DA022A-FAC6-4727-94E1-BCF6FEF1E945'
-keywords: ["IOCTL_SCSI_MINIPORT_HYBRID control code Storage Devices"]
+ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
+keywords:
+- IOCTL_SCSI_MINIPORT_HYBRID control code Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ntddscsi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_SCSI\_MINIPORT\_HYBRID control code
@@ -22,12 +28,12 @@ The **IOCTL\_SCSI\_MINIPORT\_HYBRID** control code sends a hybrid disk control r
 > \[!Warning\]  
 > Use of **IOCTL\_SCSI\_MINIPORT\_HYBRID** to modify hybrid cache behavior will conflict with the operation of Windows system components and is not supported.
 
- 
+ 
 
 > [!Note]  
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Input Buffer
 
@@ -60,7 +66,7 @@ The resulting status of the function request is set in the **ReturnCode** member
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -120,7 +126,7 @@ Disables the hybrid cache. Disabling the cache can take several minutes. If quer
 <span id="HYBRID_FUNCTION_ENABLE_CACHING_MEDIUM"></span><span id="hybrid_function_enable_caching_medium"></span>HYBRID\_FUNCTION\_ENABLE\_CACHING\_MEDIUM
 </dt> <dd>
 
-Sets the caching medium to its default state, which is “enabled”. The **DataBufferOffset** member of **HYBRID\_REQUEST\_BLOCK** is set to 0. When this function completes, when queried, the **NV\_CACHE\_STATUS** member of the [**HYBRID\_INFORMATION**](hybrid-information.md) structure is set to **NvCacheStatusEnabled**. For this function, the **DataBufferOffset** member of **HYBRID\_REQUEST\_BLOCK** is set 0. This function has no output parameters.
+Sets the caching medium to its default state, which is  enabled . The **DataBufferOffset** member of **HYBRID\_REQUEST\_BLOCK** is set to 0. When this function completes, when queried, the **NV\_CACHE\_STATUS** member of the [**HYBRID\_INFORMATION**](hybrid-information.md) structure is set to **NvCacheStatusEnabled**. For this function, the **DataBufferOffset** member of **HYBRID\_REQUEST\_BLOCK** is set 0. This function has no output parameters.
 
 </dd> <dt>
 
@@ -173,7 +179,7 @@ The parameter requirements depend on the function code of the hybrid disk reques
 
 
 
- 
+ 
 
 The **HYBRID\_REQUEST\_BLOCK** structure is located after the [**SRB\_IO\_CONTROL**](srb-io-control.md) structure in the **DataBuffer** of the SRB. Any function data included with the request is found at the offset in **DataBufferOffset** after the beginning of the **SRB\_IO\_CONTROL** structure.
 
@@ -326,7 +332,7 @@ The [**SRB\_IO\_CONTROL**](srb-io-control.md) structure for this IOCTL contains 
 
 |                    |                                                                                                            |
 |--------------------|------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Available starting with Windows 8.1.<br/>                                                            |
+| Version<br/> | Available starting with Windows 8.1.<br/>                                                            |
 | Header<br/>  | <dl> <dt>Ntddscsi.h (include Ntddscsi.h)</dt> </dl> |
 
 
@@ -347,9 +353,9 @@ The [**SRB\_IO\_CONTROL**](srb-io-control.md) structure for this IOCTL contains 
 [**STORAGE\_REQUEST\_BLOCK**](storage-request-block.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20IOCTL_SCSI_MINIPORT_HYBRID%20control%20code%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

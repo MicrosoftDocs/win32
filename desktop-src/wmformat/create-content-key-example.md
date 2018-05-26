@@ -1,8 +1,29 @@
 ---
 title: Create Content Key Example
 description: Create Content Key Example
-ms.assetid: '8e75bac3-d1fb-4a72-8088-fe5ff0899ac2'
-keywords: ["Windows Media Format SDK,content keys", "Windows Media Format SDK,example code", "Windows Media Format SDK,code examples", "digital rights management (DRM),content keys", "DRM (digital rights management),content keys", "digital rights management (DRM),example code", "DRM (digital rights management),example code", "digital rights management (DRM),code examples", "DRM (digital rights management),code examples", "DRM Client Extended APIs,content keys", "Client Extended APIs,content keys", "DRM Client Extended APIs,example code", "Client Extended APIs,example code", "DRM Client Extended APIs,code examples", "Client Extended APIs,code examples", "content keys"]
+ms.assetid: 8e75bac3-d1fb-4a72-8088-fe5ff0899ac2
+keywords:
+- Windows Media Format SDK,content keys
+- Windows Media Format SDK,example code
+- Windows Media Format SDK,code examples
+- digital rights management (DRM),content keys
+- DRM (digital rights management),content keys
+- digital rights management (DRM),example code
+- DRM (digital rights management),example code
+- digital rights management (DRM),code examples
+- DRM (digital rights management),code examples
+- DRM Client Extended APIs,content keys
+- Client Extended APIs,content keys
+- DRM Client Extended APIs,example code
+- Client Extended APIs,example code
+- DRM Client Extended APIs,code examples
+- Client Extended APIs,code examples
+- content keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create Content Key Example

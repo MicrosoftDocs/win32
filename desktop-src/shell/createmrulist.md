@@ -1,6 +1,11 @@
-﻿---
-Description: 'Creates a new most recently used (MRU) list.'
+---
+Description: Creates a new most recently used (MRU) list.
 title: CreateMRUListW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateMRUListW function

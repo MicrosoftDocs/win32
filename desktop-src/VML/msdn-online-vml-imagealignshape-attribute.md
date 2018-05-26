@@ -1,7 +1,12 @@
 ---
 title: VML ImageAlignShape Attribute
 description: VML ImageAlignShape Attribute
-ms.assetid: '45d72560-ab64-4e85-b495-88f1557a62f1'
+ms.assetid: 45d72560-ab64-4e85-b495-88f1557a62f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML ImageAlignShape Attribute

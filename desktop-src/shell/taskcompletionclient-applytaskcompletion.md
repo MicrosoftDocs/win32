@@ -1,7 +1,12 @@
-﻿---
-Description: 'Begins the task completion.'
-ms.assetid: '75C84DD9-D815-45C2-A28E-EAE437EAFF89'
-title: 'TaskCompletionClient::ApplyTaskCompletion method'
+---
+Description: Begins the task completion.
+ms.assetid: 75C84DD9-D815-45C2-A28E-EAE437EAFF89
+title: TaskCompletionClientApplyTaskCompletion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskCompletionClient::ApplyTaskCompletion method

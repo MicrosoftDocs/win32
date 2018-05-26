@@ -1,23 +1,28 @@
 ---
 title: How to Combine Geometries
 description: Shows how to combine two geometries using Direct2D.
-ms.assetid: 'c5413e59-ae73-4797-b4ad-3a78ad700634'
+ms.assetid: c5413e59-ae73-4797-b4ad-3a78ad700634
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Combine Geometries
 
-This topic describes how to combine two geometries. Direct2D supports four modes for combining geometries: Union, Intersect, XOR, and Exclude. These modes are specified in the [**D2D1\_COMBINE\_MODE**](d2d1-combine-mode.md) enum type.
+This topic describes how to combine two geometries. Direct2D supports four modes for combining geometries: Union, Intersect, XOR, and Exclude. These modes are specified in the [**D2D1\_COMBINE\_MODE**](/windows/win32/d2d1/ne-d2d1-d2d1_combine_mode?branch=master) enum type.
 
 **To combine two geometries by using any of the four modes**
 
-1.  Declare a path geometry: a variable of type [**ID2D1PathGeometry**](id2d1pathgeometry.md) that will store the result of geometry combination.
-2.  Declare a geometry sink: a variable of type [**ID2D1GeometrySink**](id2d1geometrysink.md) that will store the path geometry.
-3.  Create the path geometry object by calling the [**ID2D1Factory::CreatePathGeometry**](id2d1factory-createpathgeometry.md) method.
-4.  Open the geometry sink object by calling the [**ID2D1PathGeometry::Open**](id2d1pathgeometry-open.md) method.
-5.  Use one of the four modes to combine the two geometries by calling the [**ID2D1EllipseGeometry::CombineWithGeometry**](id2d1geometry-combinewithgeometry-ptr-id2d1geometry-d2d1-combine-mode-ref-d2d-matrix-3x2-f-ptr-id2d1simplifiedgeometrysink.md) method.
+1.  Declare a path geometry: a variable of type [**ID2D1PathGeometry**](/windows/win32/d2d1/?branch=master) that will store the result of geometry combination.
+2.  Declare a geometry sink: a variable of type [**ID2D1GeometrySink**](/windows/win32/d2d1/?branch=master) that will store the path geometry.
+3.  Create the path geometry object by calling the [**ID2D1Factory::CreatePathGeometry**](/windows/win32/d2d1/?branch=master) method.
+4.  Open the geometry sink object by calling the [**ID2D1PathGeometry::Open**](/windows/win32/d2d1/?branch=master) method.
+5.  Use one of the four modes to combine the two geometries by calling the [**ID2D1EllipseGeometry::CombineWithGeometry**](/windows/win32/d2d1/?branch=master) method.
 6.  Close the geometry sink object.
 
-The following code declares the variables of type [**ID2D1PathGeometry**](id2d1pathgeometry.md) and **ID2D1GeometrySink**.
+The following code declares the variables of type [**ID2D1PathGeometry**](/windows/win32/d2d1/?branch=master) and **ID2D1GeometrySink**.
 
 
 ```C++
@@ -29,7 +34,7 @@ The following code declares the variables of type [**ID2D1PathGeometry**](id2d1p
 
 
 
-The following code uses each of the four modes to combine the two [**ID2D1EllipseGeometry**](id2d1ellipsegeometry.md) objects and performs the following actions:
+The following code uses each of the four modes to combine the two [**ID2D1EllipseGeometry**](/windows/win32/d2d1/?branch=master) objects and performs the following actions:
 
 -   Creates two ellipses, m\_spEllipseGeometryOne and m\_spEllipseGeometryTwo.
 -   Creates a path geometry object.
@@ -207,13 +212,13 @@ This code produces the output shown in the following illustration.
 
 <dl> <dt>
 
-[**D2D1\_COMBINE\_MODE**](d2d1-combine-mode.md)
+[**D2D1\_COMBINE\_MODE**](/windows/win32/d2d1/ne-d2d1-d2d1_combine_mode?branch=master)
 </dt> <dt>
 
-[**ID2D1EllipseGeometry**](id2d1ellipsegeometry.md)
+[**ID2D1EllipseGeometry**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
-[**ID2D1PathGeometry**](id2d1pathgeometry.md)
+[**ID2D1PathGeometry**](/windows/win32/d2d1/?branch=master)
 </dt> <dt>
 
 **ID2D1GeometrySink**

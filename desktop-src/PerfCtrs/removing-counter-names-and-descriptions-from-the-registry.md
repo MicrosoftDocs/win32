@@ -1,7 +1,12 @@
 ---
-Description: 'The unlodctr tool removes the registry entries created by lodctr.'
-ms.assetid: '83c0fb91-857c-40d9-8fb8-8734c1b573c4'
+Description: The unlodctr tool removes the registry entries created by lodctr.
+ms.assetid: 83c0fb91-857c-40d9-8fb8-8734c1b573c4
 title: Removing Counter Names and Descriptions from the Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removing Counter Names and Descriptions from the Registry
@@ -34,7 +39,7 @@ HKEY_LOCAL_MACHINE
 The **unlodctr** tool also removes the **First Counter**, **Last Counter**, **First Help**, **Last Help**, and **Object List** values from the application's **Performance** key located at **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Services**\\*application-name*\\**Performance**.
 
 > [!Note]  
-> The unloading function of **unlodctr**, [**UnloadPerfCounterTextStrings**](unloadperfcountertextstrings.md), is declared in Loadperf.h and exported from Loadperf.dll. This allows you to call this function directly from your uninstall program.
+> The unloading function of **unlodctr**, [**UnloadPerfCounterTextStrings**](/windows/win32/Loadperf/nf-loadperf-unloadperfcountertextstringsa?branch=master), is declared in Loadperf.h and exported from Loadperf.dll. This allows you to call this function directly from your uninstall program.
 
  
 

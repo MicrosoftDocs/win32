@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.closedCaption property
 description: The closedCaption property gets an IWMPClosedCaption interface for the current media item.
-ms.assetid: '459a04fd-daf5-46f9-925b-02011bbbf640'
-keywords: ["closedCaption property Windows Media Player", "closedCaption property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , closedCaption property"]
+ms.assetid: 459a04fd-daf5-46f9-925b-02011bbbf640
+keywords:
+- closedCaption property Windows Media Player
+- closedCaption property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , closedCaption property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.closedCaption property
@@ -72,9 +80,9 @@ The WMPLIB.IWMPClosedCaption interface.
 [**IWMPClosedCaption Interface (VB and C#)**](iwmpclosedcaption--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

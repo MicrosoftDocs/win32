@@ -1,14 +1,20 @@
 ---
 title: Duration Attribute
 description: The Duration attribute is the playing duration of the item, in seconds.
-ms.assetid: 'c64cb4ca-b0bc-4beb-b2ae-ddd0c5fcd35c'
-keywords: ["Duration Attribute Windows Media Player"]
+ms.assetid: c64cb4ca-b0bc-4beb-b2ae-ddd0c5fcd35c
+keywords:
+- Duration Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - Duration
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Duration Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

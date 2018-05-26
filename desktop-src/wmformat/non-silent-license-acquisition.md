@@ -1,8 +1,23 @@
 ---
 title: Non-Silent License Acquisition
 description: Non-Silent License Acquisition
-ms.assetid: '3b3fce53-9202-4e55-82d5-7c70ea833087'
-keywords: ["Windows Media Format SDK,non-silent license acquisition", "Windows Media Format SDK,licenses", "digital rights management (DRM),non-silent license acquisition", "DRM (digital rights management),non-silent license acquisition", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "DRM Client Extended APIs,non-silent license acquisition", "Client Extended APIs,non-silent license acquisition", "non-silent license acquisition", "licenses,non-silent license acquisition"]
+ms.assetid: 3b3fce53-9202-4e55-82d5-7c70ea833087
+keywords:
+- Windows Media Format SDK,non-silent license acquisition
+- Windows Media Format SDK,licenses
+- digital rights management (DRM),non-silent license acquisition
+- DRM (digital rights management),non-silent license acquisition
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- DRM Client Extended APIs,non-silent license acquisition
+- Client Extended APIs,non-silent license acquisition
+- non-silent license acquisition
+- licenses,non-silent license acquisition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Non-Silent License Acquisition

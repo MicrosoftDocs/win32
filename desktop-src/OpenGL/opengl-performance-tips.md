@@ -1,8 +1,15 @@
 ---
 title: OpenGL Performance Tips
 description: OpenGL Performance Tips
-ms.assetid: 'f85bf725-1361-49b9-894c-c803b2dead60'
-keywords: ["OpenGL,performance tips", "OpenGL,best practices"]
+ms.assetid: f85bf725-1361-49b9-894c-c803b2dead60
+keywords:
+- OpenGL,performance tips
+- OpenGL,best practices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OpenGL Performance Tips

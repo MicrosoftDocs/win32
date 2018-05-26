@@ -1,8 +1,16 @@
 ---
 title: Serialization
 description: Serialization is the process of writing values in C data structures (structs, arrays, and primitive values) as an XML element. Deserialization is the reverse process.
-ms.assetid: 'aa092156-30ae-4f8a-baa2-450f38a78153'
-keywords: ["Serialization Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: aa092156-30ae-4f8a-baa2-450f38a78153
+keywords:
+- Serialization Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Serialization
@@ -17,9 +25,9 @@ Both processes rely on a description of the mapping between the C data structure
 
 ![](images/xmlmapping.png)
 
-To serialize a value, the application calls [**WsWriteElement**](wswriteelement.md), [**WsWriteAttribute**](wswriteattribute.md) or [**WsWriteType**](wswritetype.md).
+To serialize a value, the application calls [**WsWriteElement**](/windows/win32/WebServices/nf-webservices-wswriteelement?branch=master), [**WsWriteAttribute**](/windows/win32/WebServices/nf-webservices-wswriteattribute?branch=master) or [**WsWriteType**](/windows/win32/WebServices/nf-webservices-wswritetype?branch=master).
 
-To deserialize a value, the application calls [**WsReadElement**](wsreadelement.md), [**WsReadAttribute**](wsreadattribute.md) or [**WsReadType**](wsreadtype.md).
+To deserialize a value, the application calls [**WsReadElement**](/windows/win32/WebServices/nf-webservices-wsreadelement?branch=master), [**WsReadAttribute**](/windows/win32/WebServices/nf-webservices-wsreadattribute?branch=master) or [**WsReadType**](/windows/win32/WebServices/nf-webservices-wsreadtype?branch=master).
 
 ## Security
 
@@ -31,8 +39,8 @@ By default deserialization is strict. Some conditions that cause deserialization
 
 -   Expected elements is missing
 -   Unexpected element fields appear between required elements
--   Extra element content after required fields, unless [**WS\_STRUCT\_IGNORE\_TRAILING\_ELEMENT\_CONTENT**](ws-struct-options.md)
--   Unexpected attributes, unless [**WS\_STRUCT\_IGNORE\_UNHANDLED\_ATTRIBUTES**](ws-struct-options.md) flag is specified
+-   Extra element content after required fields, unless [**WS\_STRUCT\_IGNORE\_TRAILING\_ELEMENT\_CONTENT**](/windows/win32/WebServices/?branch=master)
+-   Unexpected attributes, unless [**WS\_STRUCT\_IGNORE\_UNHANDLED\_ATTRIBUTES**](/windows/win32/WebServices/?branch=master) flag is specified
 -   Unexpected data type value that is out of specified range
 -   Count of repeating element is out of the specified range
 
@@ -44,69 +52,69 @@ A string value containing an embedded zero is supported in the wire formats (tex
 
 The following callbacks are used with serialization:
 
--   [**WS\_DURATION\_COMPARISON\_CALLBACK**](ws-duration-comparison-callback.md)
--   [**WS\_READ\_TYPE\_CALLBACK**](ws-read-type-callback.md)
--   [**WS\_WRITE\_TYPE\_CALLBACK**](ws-write-type-callback.md)
+-   [**WS\_DURATION\_COMPARISON\_CALLBACK**](/windows/win32/WebServices/nc-webservices-ws_duration_comparison_callback?branch=master)
+-   [**WS\_READ\_TYPE\_CALLBACK**](/windows/win32/WebServices/nc-webservices-ws_read_type_callback?branch=master)
+-   [**WS\_WRITE\_TYPE\_CALLBACK**](/windows/win32/WebServices/nc-webservices-ws_write_type_callback?branch=master)
 
 The following enumerations are used with serialization:
 
--   [**WS\_FIELD\_MAPPING**](ws-field-mapping.md)
--   [**WS\_FIELD\_OPTIONS**](ws-field-options.md)
--   [**WS\_READ\_OPTION**](ws-read-option.md)
--   [**WS\_TYPE**](ws-type.md)
--   [**WS\_TYPE\_MAPPING**](ws-type-mapping.md)
--   [**WS\_WRITE\_OPTION**](ws-write-option.md)
+-   [**WS\_FIELD\_MAPPING**](/windows/win32/WebServices/ne-webservices-ws_field_mapping?branch=master)
+-   [**WS\_FIELD\_OPTIONS**](/windows/win32/WebServices/?branch=master)
+-   [**WS\_READ\_OPTION**](/windows/win32/WebServices/ne-webservices-ws_read_option?branch=master)
+-   [**WS\_TYPE**](/windows/win32/WebServices/ne-webservices-ws_type?branch=master)
+-   [**WS\_TYPE\_MAPPING**](/windows/win32/WebServices/ne-webservices-ws_type_mapping?branch=master)
+-   [**WS\_WRITE\_OPTION**](/windows/win32/WebServices/ne-webservices-ws_write_option?branch=master)
 
 The following functions are used with serialization:
 
--   [**WsReadAttribute**](wsreadattribute.md)
--   [**WsReadElement**](wsreadelement.md)
--   [**WsReadType**](wsreadtype.md)
--   [**WsWriteAttribute**](wswriteattribute.md)
--   [**WsWriteElement**](wswriteelement.md)
--   [**WsWriteType**](wswritetype.md)
+-   [**WsReadAttribute**](/windows/win32/WebServices/nf-webservices-wsreadattribute?branch=master)
+-   [**WsReadElement**](/windows/win32/WebServices/nf-webservices-wsreadelement?branch=master)
+-   [**WsReadType**](/windows/win32/WebServices/nf-webservices-wsreadtype?branch=master)
+-   [**WsWriteAttribute**](/windows/win32/WebServices/nf-webservices-wswriteattribute?branch=master)
+-   [**WsWriteElement**](/windows/win32/WebServices/nf-webservices-wswriteelement?branch=master)
+-   [**WsWriteType**](/windows/win32/WebServices/nf-webservices-wswritetype?branch=master)
 
 The following structures are used with serialization:
 
--   [**WS\_ATTRIBUTE\_DESCRIPTION**](ws-attribute-description.md)
--   [**WS\_BOOL\_DESCRIPTION**](ws-bool-description.md)
--   [**WS\_BYTES\_DESCRIPTION**](ws-bytes-description.md)
--   [**WS\_BYTE\_ARRAY\_DESCRIPTION**](ws-byte-array-description.md)
--   [**WS\_CHAR\_ARRAY\_DESCRIPTION**](ws-char-array-description.md)
--   [**WS\_CUSTOM\_TYPE\_DESCRIPTION**](ws-custom-type-description.md)
--   [**WS\_DATETIME\_DESCRIPTION**](ws-datetime-description.md)
--   [**WS\_DECIMAL\_DESCRIPTION**](ws-decimal-description.md)
--   [**WS\_DEFAULT\_VALUE**](ws-default-value.md)
--   [**WS\_DOUBLE\_DESCRIPTION**](ws-double-description.md)
--   [**WS\_DURATION\_DESCRIPTION**](ws-duration-description.md)
--   [**WS\_ELEMENT\_DESCRIPTION**](ws-element-description.md)
--   [**WS\_ENDPOINT\_ADDRESS\_DESCRIPTION**](ws-endpoint-address-description.md)
--   [**WS\_ENUM\_DESCRIPTION**](ws-enum-description.md)
--   [**WS\_ENUM\_VALUE**](ws-enum-value.md)
--   [**WS\_FAULT\_DESCRIPTION**](ws-fault-description.md)
--   [**WS\_FIELD\_DESCRIPTION**](ws-field-description.md)
--   [**WS\_FLOAT\_DESCRIPTION**](ws-float-description.md)
--   [**WS\_GUID\_DESCRIPTION**](ws-guid-description.md)
--   [**WS\_INT16\_DESCRIPTION**](ws-int16-description.md)
--   [**WS\_INT32\_DESCRIPTION**](ws-int32-description.md)
--   [**WS\_INT64\_DESCRIPTION**](ws-int64-description.md)
--   [**WS\_INT8\_DESCRIPTION**](ws-int8-description.md)
--   [**WS\_ITEM\_RANGE**](ws-item-range.md)
--   [**WS\_STRING\_DESCRIPTION**](ws-string-description.md)
--   [**WS\_STRUCT\_DESCRIPTION**](ws-struct-description.md)
--   [**WS\_TIMESPAN\_DESCRIPTION**](ws-timespan-description.md)
--   [**WS\_UINT16\_DESCRIPTION**](ws-uint16-description.md)
--   [**WS\_UINT32\_DESCRIPTION**](ws-uint32-description.md)
--   [**WS\_UINT64\_DESCRIPTION**](ws-uint64-description.md)
--   [**WS\_UINT8\_DESCRIPTION**](ws-uint8-description.md)
--   [**WS\_UNION\_DESCRIPTION**](ws-union-description.md)
--   [**WS\_UNION\_FIELD\_DESCRIPTION**](ws-union-field-description.md)
--   [**WS\_UNIQUE\_ID\_DESCRIPTION**](ws-unique-id-description.md)
--   [**WS\_UTF8\_ARRAY\_DESCRIPTION**](ws-utf8-array-description.md)
--   [**WS\_VOID\_DESCRIPTION**](ws-void-description.md)
--   [**WS\_WSZ\_DESCRIPTION**](ws-wsz-description.md)
--   [**WS\_XML\_QNAME\_DESCRIPTION**](ws-xml-qname-description.md)
--   [**WS\_XML\_STRING\_DESCRIPTION**](ws-xml-string-description.md)
+-   [**WS\_ATTRIBUTE\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_attribute_description?branch=master)
+-   [**WS\_BOOL\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_bool_description?branch=master)
+-   [**WS\_BYTES\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_bytes_description?branch=master)
+-   [**WS\_BYTE\_ARRAY\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_byte_array_description?branch=master)
+-   [**WS\_CHAR\_ARRAY\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_char_array_description?branch=master)
+-   [**WS\_CUSTOM\_TYPE\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_custom_type_description?branch=master)
+-   [**WS\_DATETIME\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_datetime_description?branch=master)
+-   [**WS\_DECIMAL\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_decimal_description?branch=master)
+-   [**WS\_DEFAULT\_VALUE**](/windows/win32/WebServices/ns-webservices-_ws_default_value?branch=master)
+-   [**WS\_DOUBLE\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_double_description?branch=master)
+-   [**WS\_DURATION\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_duration_description?branch=master)
+-   [**WS\_ELEMENT\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_element_description?branch=master)
+-   [**WS\_ENDPOINT\_ADDRESS\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_endpoint_address_description?branch=master)
+-   [**WS\_ENUM\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_enum_description?branch=master)
+-   [**WS\_ENUM\_VALUE**](/windows/win32/WebServices/ns-webservices-_ws_enum_value?branch=master)
+-   [**WS\_FAULT\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_fault_description?branch=master)
+-   [**WS\_FIELD\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_field_description?branch=master)
+-   [**WS\_FLOAT\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_float_description?branch=master)
+-   [**WS\_GUID\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_guid_description?branch=master)
+-   [**WS\_INT16\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_int16_description?branch=master)
+-   [**WS\_INT32\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_int32_description?branch=master)
+-   [**WS\_INT64\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_int64_description?branch=master)
+-   [**WS\_INT8\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_int8_description?branch=master)
+-   [**WS\_ITEM\_RANGE**](/windows/win32/WebServices/ns-webservices-_ws_item_range?branch=master)
+-   [**WS\_STRING\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_string_description?branch=master)
+-   [**WS\_STRUCT\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_struct_description?branch=master)
+-   [**WS\_TIMESPAN\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_timespan_description?branch=master)
+-   [**WS\_UINT16\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_uint16_description?branch=master)
+-   [**WS\_UINT32\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_uint32_description?branch=master)
+-   [**WS\_UINT64\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_uint64_description?branch=master)
+-   [**WS\_UINT8\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_uint8_description?branch=master)
+-   [**WS\_UNION\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_union_description?branch=master)
+-   [**WS\_UNION\_FIELD\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_union_field_description?branch=master)
+-   [**WS\_UNIQUE\_ID\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_unique_id_description?branch=master)
+-   [**WS\_UTF8\_ARRAY\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_utf8_array_description?branch=master)
+-   [**WS\_VOID\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_void_description?branch=master)
+-   [**WS\_WSZ\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_wsz_description?branch=master)
+-   [**WS\_XML\_QNAME\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_xml_qname_description?branch=master)
+-   [**WS\_XML\_STRING\_DESCRIPTION**](/windows/win32/WebServices/ns-webservices-_ws_xml_string_description?branch=master)
 
  
 

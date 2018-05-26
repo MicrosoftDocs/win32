@@ -1,7 +1,12 @@
 ---
 title: Evaluating Spin Lock Data
 description: Evaluating Spin Lock Data
-ms.assetid: 'fbff3064-d335-480f-b29e-4fe23c325a0a'
+ms.assetid: fbff3064-d335-480f-b29e-4fe23c325a0a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Evaluating Spin Lock Data
@@ -29,7 +34,7 @@ xperf -i example.etl -symbols -o example.txt -a spinlock
 
 
 
- 
+ 
 
 For help with spinlock action processing, please use the following command line syntax:
 
@@ -65,7 +70,7 @@ Individual Spin Lock Information:
     > [!Note]  
     > Spinlocks created dynamically will not have symbols.
 
-     
+     
 
 4.  Summary Report displays the following information:
 
@@ -84,7 +89,7 @@ Individual Spin Lock Information:
     > [!Note]  
     > Spinlock instrumentation is sampling based. The output will show both sampled results as well as normalized results.
 
-     
+     
 
 5.  Events skipped due to interrupts - Interrupts can be fired while Spin Locks are held. In the case that an interrupt is fired while a Spin Lock is held, the interrupt handling time is included in the Spin Lock holding time. This situation can cause the Spin Lock hold time to appear inordinately long. WPT does not include Spin Lock events that are held while an interrupt is handled when calculating Spin Lock hold times. The "Events skipped due to interrupts" line displays the number of events that were not included in the calculation. This number is normally very small.
 
@@ -124,15 +129,15 @@ xperf -i example.etl -symbols -o example.txt -a spinlock -summary -counts 5
 
 
 
- 
+ 
 
 Using the "summary" option with the spinlock Action allows you to easily import data into Microsoft Excel or other tools for analysis, as shown in the following screen shot.
 
 ![screen shot of an excel spreadsheet displaying an example of summarized event data that shows the five hottest spin locks](images/spl-04.png)
 
- 
+ 
 
- 
+ 
 
 
 

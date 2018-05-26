@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a virtual machine instance with the management service that controls its state.'
-ms.assetid: '12EB3951-74D4-477F-8B55-69FAA3B14631'
-title: 'Msvm\_ServiceAffectsElement class'
+Description: Associates a virtual machine instance with the management service that controls its state.
+ms.assetid: 12EB3951-74D4-477F-8B55-69FAA3B14631
+title: Msvm\_ServiceAffectsElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ServiceAffectsElement class
@@ -17,9 +22,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ServiceAffectsElement : CIM_ServiceAffectsElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Service        REF AffectingElement;
-  uint16                 ElementEffects[] = 5;
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Service        REF AffectingElement;
+  uint16                 ElementEffects[] = 5;
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -80,7 +85,7 @@ Specifies the type of control that the association represents. This property is 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,8 +112,8 @@ Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC F
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -125,9 +130,9 @@ Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC F
 [**CIM\_ServiceAffectsElement**](https://msdn.microsoft.com/library/cc136907)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Executes a verb on a collection of FolderItem objects. This method is an extension of the InvokeVerb method, allowing additional control of the operation through a set of flags.'
-ms.assetid: '2c02985d-8877-4a02-a232-6aeb1716928c'
-title: 'FolderItems2.InvokeVerbEx method'
+---
+Description: Executes a verb on a collection of FolderItem objects. This method is an extension of the InvokeVerb method, allowing additional control of the operation through a set of flags.
+ms.assetid: 2c02985d-8877-4a02-a232-6aeb1716928c
+title: FolderItems2.InvokeVerbEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItems2.InvokeVerbEx method

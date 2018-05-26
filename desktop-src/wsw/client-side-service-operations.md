@@ -1,8 +1,16 @@
 ---
 title: Client-side Service Operations
-ms.assetid: '9d6e2441-91de-4108-b1c4-282fbca5fe7c'
+ms.assetid: 9d6e2441-91de-4108-b1c4-282fbca5fe7c
 description: 
-keywords: ["Client Side Service Operations Web Services for Windows", "WWSAPI", "WWS"]
+keywords:
+- Client Side Service Operations Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client-side Service Operations
@@ -12,9 +20,9 @@ The following is the layout of a client-side service operation:
 -   [WS\_SERVICE\_PROXY](ws-service-proxy.md)\* serviceProxy: The [service proxy](service-proxy.md) for the call.
 -   [WS\_HEAP](ws-heap.md)\* heap: A required heap used for body serialization and deserialization of the [WS\_MESSAGE](ws-message.md).
 -   Service Operations Parameters: Parameters pertaining to the service operation.
--   [**Call Properties and their count**](ws-call-property.md): An array of call properties.
--   [**Call**](ws-call-property.md) property count: The count of call properties.
--   [**WS\_ASYNC\_CONTEXT**](ws-async-context.md) asyncContext: Async context for executing the call asynchronously.
+-   [**Call Properties and their count**](/windows/win32/WebServices/ns-webservices-_ws_call_property?branch=master): An array of call properties.
+-   [**Call**](/windows/win32/WebServices/ns-webservices-_ws_call_property?branch=master) property count: The count of call properties.
+-   [**WS\_ASYNC\_CONTEXT**](/windows/win32/WebServices/ns-webservices-_ws_async_context?branch=master) asyncContext: Async context for executing the call asynchronously.
 -   [WS\_ERROR](ws-error.md) error: Rich error object.
 
 ## 
@@ -35,9 +43,9 @@ typedef HRESULT(CALLBACK *ICalculator_Add)(WS_SERVICE_PROXY* serviceProxy,
 
 The call to the service operation takes a [WS\_HEAP](ws-heap.md)\* as parameter. This is a required parameter used for serialization/deserialization of message bodies to parameters.
 
-The application must call [**WsResetHeap**](wsresetheap.md) whether the call succeeded or not. If the call succeeded and it has outgoing parameters, the application should call **WsResetHeap** immediately after it is finished with the outgoing parameters.
+The application must call [**WsResetHeap**](/windows/win32/WebServices/nf-webservices-wsresetheap?branch=master) whether the call succeeded or not. If the call succeeded and it has outgoing parameters, the application should call **WsResetHeap** immediately after it is finished with the outgoing parameters.
 
-The application should allocate memory for in and out parameters with [**WsAlloc**](wsalloc.md). The service proxy may need to reallocate them so provided pointers will be overwritten. An attempt to free such memory will cause the application to crash.
+The application should allocate memory for in and out parameters with [**WsAlloc**](/windows/win32/WebServices/nf-webservices-wsalloc?branch=master). The service proxy may need to reallocate them so provided pointers will be overwritten. An attempt to free such memory will cause the application to crash.
 
 ### Client-side Service Operation and WS\_HEAP
 
@@ -67,7 +75,7 @@ The application should always pass in the error parameter to:
 
 ### Call Properties for Client-side Service Operations
 
-Call properties allow an application to specify custom settings for a given call. Currently, only one call property is available with the service model, [**WS\_CALL\_PROPERTY\_CALL\_ID**](ws-call-property-id.md).
+Call properties allow an application to specify custom settings for a given call. Currently, only one call property is available with the service model, [**WS\_CALL\_PROPERTY\_CALL\_ID**](/windows/win32/WebServices/ne-webservices-ws_call_property_id?branch=master).
 
 ``` syntax
 WS_CALL_PROPERTY callProperties[1] = {0};
@@ -93,17 +101,17 @@ hr = WsAbandonCall(serviceProxy, 5, error);
 
 ### Abandoning a Call
 
-It is often desirable to abandon the results of a call in order to relinquish the control back to the application, such that the actual call completion is handled by the infrastructure. Service proxy provides this facility through [**WsAbandonCall**](wsabandoncall.md).
+It is often desirable to abandon the results of a call in order to relinquish the control back to the application, such that the actual call completion is handled by the infrastructure. Service proxy provides this facility through [**WsAbandonCall**](/windows/win32/WebServices/nf-webservices-wsabandoncall?branch=master).
 
 Note that the control to the caller may not be given back immediately, the only guarantee that the service proxy runtime gives is that it would not wait for any I/O bound operation to complete before it gives control back to the caller.
 
-Calls on a client side service operation can be abandoned by means of a call to [**WsAbandonCall**](wsabandoncall.md). It takes a service proxy and a call id. A call Id is given as part of a call properties on a service operation.
+Calls on a client side service operation can be abandoned by means of a call to [**WsAbandonCall**](/windows/win32/WebServices/nf-webservices-wsabandoncall?branch=master). It takes a service proxy and a call id. A call Id is given as part of a call properties on a service operation.
 
 If the call Id is 0, then the service proxy will abandon all pending calls at that instance.
 
 ### Call Timeouts
 
-By default a service proxy has a 30 second timeout for every call. The timeout on a call can be changed by [**WS\_PROXY\_PROPERTY\_CALL\_TIMEOUT**](ws-proxy-property-id.md) service proxy property when creating a service proxy through [**WsCreateServiceProxy**](wscreateserviceproxy.md).
+By default a service proxy has a 30 second timeout for every call. The timeout on a call can be changed by [**WS\_PROXY\_PROPERTY\_CALL\_TIMEOUT**](/windows/win32/WebServices/ne-webservices-ws_proxy_property_id?branch=master) service proxy property when creating a service proxy through [**WsCreateServiceProxy**](/windows/win32/WebServices/nf-webservices-wscreateserviceproxy?branch=master).
 
 After a timeout is reached, the call is abandoned.
 
@@ -123,7 +131,7 @@ For a complete list of return values, see [Windows Web Services Return Values](w
 For code examples, see the following:
 
 -   [CallAbandonExample](callabandonexample.md)
--   [**WsAbandonCall**](wsabandoncall.md)
+-   [**WsAbandonCall**](/windows/win32/WebServices/nf-webservices-wsabandoncall?branch=master)
 
  
 

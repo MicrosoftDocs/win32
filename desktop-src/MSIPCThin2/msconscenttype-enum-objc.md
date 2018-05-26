@@ -4,17 +4,21 @@ description: Types of user consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '51B12F53-64D3-4A1A-A242-BA976B8CAF48'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 51B12F53-64D3-4A1A-A242-BA976B8CAF48
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSConsentType enum"]
+keywords:
+- MSConsentType enum
 topic_type:
 - apiref
 api_name:
 - MSConsentType enum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSConsentType enum
@@ -42,7 +46,7 @@ typedef NS_ENUM(NSUInteger, MSConsentType)
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -58,11 +62,11 @@ MSConsent.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

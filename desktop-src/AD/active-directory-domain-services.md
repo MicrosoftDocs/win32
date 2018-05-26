@@ -4,11 +4,17 @@ description: Microsoft Active Directory Domain Services are the foundation for d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9fc78c72-c59c-4c4d-ace5-00a431645c4b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9fc78c72-c59c-4c4d-ace5-00a431645c4b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Domain Services Active Directory", "Active Directory Active Directory , start page", "Active Directory Domain Services Active Directory , start page"]
+keywords:
+- Active Directory Domain Services Active Directory
+- Active Directory Active Directory , start page
+- Active Directory Domain Services Active Directory , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Active Directory Domain Services

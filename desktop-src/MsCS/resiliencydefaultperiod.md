@@ -4,17 +4,21 @@ description: Specifies the default resiliency period, in seconds, for the cluste
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05A61769-F5A5-4D65-B936-0139BEB9444A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 05A61769-F5A5-4D65-B936-0139BEB9444A
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ResiliencyDefaultPeriod Failover Cluster"]
+keywords:
+- ResiliencyDefaultPeriod Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ResiliencyDefaultPeriod
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResiliencyDefaultPeriod
@@ -27,14 +31,14 @@ Specifies the default resiliency period, in seconds, for the cluster.
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                                |
 | Default<br/>   | 240<br/>                                       |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_RESILIENCY\_DEFAULT\_SECONDS*
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_RESILIENCY\_DEFAULT\_SECONDS*
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

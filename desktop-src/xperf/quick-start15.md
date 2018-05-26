@@ -1,8 +1,21 @@
 ---
 title: Quick Start
 description: Quick Start
-ms.assetid: '017a1659-ceeb-40b0-8b52-6de037ae7787'
-keywords: ["Event Tracing for Windows", "kernel flags", "kernel groups", "NT Kernel Logger", "provider", ".etl files", "Xperfview.exe", "Xperf.exe"]
+ms.assetid: 017a1659-ceeb-40b0-8b52-6de037ae7787
+keywords:
+- Event Tracing for Windows
+- kernel flags
+- kernel groups
+- NT Kernel Logger
+- provider
+- .etl files
+- Xperfview.exe
+- Xperf.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start
@@ -30,11 +43,11 @@ The following table defines WPA terms that we use in this example.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

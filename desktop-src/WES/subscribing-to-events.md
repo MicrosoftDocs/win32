@@ -1,12 +1,17 @@
 ---
 title: Subscribing to Events
 description: To subscribe to events, call the EvtSubscribe function.
-ms.assetid: '1e86deeb-fc59-4658-9353-e4ced7ace89a'
+ms.assetid: 1e86deeb-fc59-4658-9353-e4ced7ace89a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subscribing to Events
 
-To subscribe to events, call the [**EvtSubscribe**](evtsubscribe.md) function. You can subscribe to events from one or more Admin or Operational channels. The channel can exist on the local computer or a remote computer. To specify the events that you want to subscribe to, you can use an XPath query or a structure XML query. For details on writing the query, see [Consuming Events](consuming-events.md).
+To subscribe to events, call the [**EvtSubscribe**](/windows/win32/WinEvt/nf-winevt-evtsubscribe?branch=master) function. You can subscribe to events from one or more Admin or Operational channels. The channel can exist on the local computer or a remote computer. To specify the events that you want to subscribe to, you can use an XPath query or a structure XML query. For details on writing the query, see [Consuming Events](consuming-events.md).
 
 Windows Event Log provides two models for event subscription:
 
@@ -169,7 +174,7 @@ cleanup:
 
 ## Pull Subscriptions
 
-The pull subscription model uses an event object (see the [**CreateEventEx**](https://msdn.microsoft.com/library/windows/desktop/ms682400) function) to signal the application that there are events in the result set that match the query criteria. Create a loop construct that waits on the event object until the event is signaled. Then, call the [**EvtNext**](evtnext.md) function in a loop to enumerate the events in the result set. When the **EvtNext** function fails and sets the last error to ERROR\_NO\_MORE\_ITEMS, reset the event object and wait for the service to signal the object again when there are events in the result set.
+The pull subscription model uses an event object (see the [**CreateEventEx**](https://msdn.microsoft.com/library/windows/desktop/ms682400) function) to signal the application that there are events in the result set that match the query criteria. Create a loop construct that waits on the event object until the event is signaled. Then, call the [**EvtNext**](/windows/win32/WinEvt/nf-winevt-evtnext?branch=master) function in a loop to enumerate the events in the result set. When the **EvtNext** function fails and sets the last error to ERROR\_NO\_MORE\_ITEMS, reset the event object and wait for the service to signal the object again when there are events in the result set.
 
 The following example shows how to use the pull subscription model.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'For YUV media types, defines the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space.'
-ms.assetid: 'b268d16d-b4cc-4026-9ba7-805cc5409b95'
-title: 'MF\_MT\_YUV\_MATRIX attribute'
+---
+Description: For YUV media types, defines the conversion matrix from the YCbCr color space to the RGB color space.
+ms.assetid: b268d16d-b4cc-4026-9ba7-805cc5409b95
+title: MF\_MT\_YUV\_MATRIX attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_YUV\_MATRIX attribute
@@ -14,7 +19,7 @@ For YUV media types, defines the conversion matrix from the Y'Cb'Cr' color space
 
 ## Remarks
 
-The value of this attribute is a member of the [**MFVideoTransferMatrix**](mfvideotransfermatrix.md) enumeration.
+The value of this attribute is a member of the [**MFVideoTransferMatrix**](/windows/win32/mfobjects/ne-mfobjects-_mfvideotransfermatrix?branch=master) enumeration.
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -37,13 +42,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'A port monitor UI DLL''s InitializePrintMonitorUI function supplies the print spooler with addresses of DLL functions.'
-ms.assetid: 'baa80f8c-68ed-43a3-8c82-79a4388f9ab6'
+---
+Description: A port monitor UI DLLs InitializePrintMonitorUI function supplies the print spooler with addresses of DLL functions.
+ms.assetid: baa80f8c-68ed-43a3-8c82-79a4388f9ab6
 title: InitializePrintMonitorUI function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitializePrintMonitorUI function

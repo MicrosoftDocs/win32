@@ -4,11 +4,16 @@ description: The GetChild method returns the first child node for a given scope 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '955b35fb-4dbf-4e58-ba90-4dbc93367746'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 955b35fb-4dbf-4e58-ba90-4dbc93367746
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetChild method MMC", "GetChild method MMC , ScopeNamespace object", "ScopeNamespace object MMC , GetChild method", "GetChild method MMC , ScopeNamespace interface", "ScopeNamespace interface MMC , GetChild method"]
+keywords:
+- GetChild method MMC
+- GetChild method MMC , ScopeNamespace object
+- ScopeNamespace object MMC , GetChild method
+- GetChild method MMC , ScopeNamespace interface
+- ScopeNamespace interface MMC , GetChild method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScopeNamespace::GetChild method
@@ -56,8 +64,8 @@ For an example of code that uses the **GetChild** method, see the [**ScopeNamesp
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Mmcobj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Mmcobj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -78,9 +86,9 @@ For an example of code that uses the **GetChild** method, see the [**ScopeNamesp
 [**Node object**](node-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

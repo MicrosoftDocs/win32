@@ -1,8 +1,38 @@
 ---
 title: Object Model Reference for Visual Basic .NET and C\
 description: Object Model Reference for Visual Basic .NET and C\
-ms.assetid: '81cd1f81-1bd2-420f-b20b-3505ad52f201'
-keywords: ["Windows Media Player,object model", "Windows Media Player Mobile,object model", "Windows Media Player object model,reference", "object model,reference", "ActiveX control,reference", "Windows Media Player ActiveX control,reference", "Windows Media Player Mobile ActiveX control,reference", "reference for object model,Visual Basic .NET", "Windows Media Player,Visual Basic .NET", "Windows Media Player Mobile,Visual Basic .NET", "Windows Media Player object model,Visual Basic .NET", "object model,Visual Basic .NET", "Windows Media Player ActiveX control,Visual Basic .NET", "Windows Media Player Mobile ActiveX control,Visual Basic .NET", "ActiveX control,Visual Basic .NET", "Visual Basic .NET object model reference", "reference for object model,C", "Windows Media Player,C", "Windows Media Player Mobile,C", "Windows Media Player object model,C", "object model,C", "Windows Media Player ActiveX control,C", "Windows Media Player Mobile ActiveX control,C", "ActiveX control,C", "C object model reference"]
+ms.assetid: 81cd1f81-1bd2-420f-b20b-3505ad52f201
+keywords:
+- Windows Media Player,object model
+- Windows Media Player Mobile,object model
+- Windows Media Player object model,reference
+- object model,reference
+- ActiveX control,reference
+- Windows Media Player ActiveX control,reference
+- Windows Media Player Mobile ActiveX control,reference
+- reference for object model,Visual Basic .NET
+- Windows Media Player,Visual Basic .NET
+- Windows Media Player Mobile,Visual Basic .NET
+- Windows Media Player object model,Visual Basic .NET
+- object model,Visual Basic .NET
+- Windows Media Player ActiveX control,Visual Basic .NET
+- Windows Media Player Mobile ActiveX control,Visual Basic .NET
+- ActiveX control,Visual Basic .NET
+- Visual Basic .NET object model reference
+- reference for object model,C
+- Windows Media Player,C
+- Windows Media Player Mobile,C
+- Windows Media Player object model,C
+- object model,C
+- Windows Media Player ActiveX control,C
+- Windows Media Player Mobile ActiveX control,C
+- ActiveX control,C
+- C object model reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Model Reference for Visual Basic .NET and C#

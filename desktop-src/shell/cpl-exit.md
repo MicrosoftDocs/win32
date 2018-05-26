@@ -1,12 +1,17 @@
-﻿---
-Description: 'Sent once to the CPlApplet function of a Control Panel application before the DLL containing the Control Panel application is released.'
-ms.assetid: '1afcb0d3-41a7-4fd8-9561-d96e1e8f0ddb'
-title: 'CPL\_EXIT message'
+---
+Description: Sent once to the CPlApplet function of a Control Panel application before the DLL containing the Control Panel application is released.
+ms.assetid: 1afcb0d3-41a7-4fd8-9561-d96e1e8f0ddb
+title: CPL\_EXIT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPL\_EXIT message
 
-Sent once to the [**CPlApplet**](cplapplet.md) function of a Control Panel application before the DLL containing the Control Panel application is released.
+Sent once to the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function of a Control Panel application before the DLL containing the Control Panel application is released.
 
 ## Parameters
 
@@ -20,7 +25,7 @@ Sent once to the [**CPlApplet**](cplapplet.md) function of a Control Panel appli
 
 ## Return value
 
-If the [**CPlApplet**](cplapplet.md) function processes this message successfully, it should return zero.
+If the [**CPlApplet**](/windows/win32/Cpl/nc-cpl-applet_proc?branch=master) function processes this message successfully, it should return zero.
 
 ## Remarks
 

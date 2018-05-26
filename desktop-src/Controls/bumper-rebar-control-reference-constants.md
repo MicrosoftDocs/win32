@@ -1,7 +1,12 @@
 ---
 title: Rebar Control Constants
 description: .
-ms.assetid: 'b4cebbd3-25a8-4782-9bef-592ca0f71d11'
+ms.assetid: b4cebbd3-25a8-4782-9bef-592ca0f71d11
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rebar Control Constants

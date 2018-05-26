@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains the response to a call to the IDirect3DAuthenticatedChannel9::Configure method.'
-ms.assetid: '6f33d3f7-a883-4aca-a058-b656d745f2b1'
-title: 'D3DAUTHENTICATEDCHANNEL\_CONFIGURE\_OUTPUT structure'
+---
+Description: Contains the response to a call to the IDirect3DAuthenticatedChannel9Configure method.
+ms.assetid: 6f33d3f7-a883-4aca-a058-b656d745f2b1
+title: D3DAUTHENTICATEDCHANNEL\_CONFIGURE\_OUTPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_CONFIGURE\_OUTPUT structure
 
-Contains the response to a call to the [**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md) method.
+Contains the response to a call to the [**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master) method.
 
 ## Syntax
 
@@ -85,7 +90,7 @@ For the **ConfigureType**, **hChannel**, and **SequenceNumber** members, the dri
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md)
+[**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master)
 </dt> </dl>
 
  

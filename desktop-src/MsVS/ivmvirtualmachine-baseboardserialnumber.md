@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine BaseBoardSerialNumber property
 description: The BaseBoardSerialNumber property contains the base board serial number.
-ms.assetid: '012f9bb5-292e-4161-a508-bdcbe4045104'
-keywords: ["BaseBoardSerialNumber property Virtual Server", "BaseBoardSerialNumber property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , BaseBoardSerialNumber property", "BaseBoardSerialNumber property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , BaseBoardSerialNumber property"]
+ms.assetid: 012f9bb5-292e-4161-a508-bdcbe4045104
+keywords:
+- BaseBoardSerialNumber property Virtual Server
+- BaseBoardSerialNumber property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , BaseBoardSerialNumber property
+- BaseBoardSerialNumber property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , BaseBoardSerialNumber property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::BaseBoardSerialNumber property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_BaseBoardSerialNumber(
-  [in]  BSTR baseBoardSerialNumber
+  [in]  BSTR baseBoardSerialNumber
 );
 
 HRESULT get_BaseBoardSerialNumber(
-  [out] BSTR *baseBoardSerialNumber
+  [out] BSTR *baseBoardSerialNumber
 );
 ```
 
@@ -109,8 +119,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -122,9 +132,9 @@ End If
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

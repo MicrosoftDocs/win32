@@ -1,7 +1,12 @@
 ---
 title: ishl (sm5 - asm)
 description: Shift left.
-ms.assetid: '3EE669BA-252D-4617-85B0-AEBB7F7E4C5E'
+ms.assetid: 3EE669BA-252D-4617-85B0-AEBB7F7E4C5E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ishl (sm5 - asm)
@@ -15,7 +20,7 @@ Shift left.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Shift left.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: LogReaderCallbackData structure
 description: This structure defines the data from a single event that was logged to an .ETL file.
-ms.assetid: 'C27EB327-F7D6-4727-AEF9-56BAF2AD9148'
-keywords: ["LogReaderCallbackData structure Access Execution Engine"]
+ms.assetid: C27EB327-F7D6-4727-AEF9-56BAF2AD9148
+keywords:
+- LogReaderCallbackData structure Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogReaderCallbackData structure
@@ -23,10 +29,10 @@ This structure defines the data from a single event that was logged to an .ETL f
 ```C++
 struct LogReaderCallbackData {
   FILETIME Timestamp;
-  LPCWSTR  LogDate;
-  LPCWSTR  LogTime;
-  LPCWSTR  LogText;
-  LPCWSTR  LogError;
+  LPCWSTR  LogDate;
+  LPCWSTR  LogTime;
+  LPCWSTR  LogText;
+  LPCWSTR  LogError;
 };
 ```
 
@@ -77,15 +83,15 @@ The error text for any additional error information that was logged for the curr
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

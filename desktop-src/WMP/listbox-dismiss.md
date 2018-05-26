@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.dismiss
 description: The dismiss method hides the control.
-ms.assetid: '102f1223-7b03-4d60-b746-9abb4c8aef10'
-keywords: ["LISTBOX.dismiss Windows Media Player"]
+ms.assetid: 102f1223-7b03-4d60-b746-9abb4c8aef10
+keywords:
+- LISTBOX.dismiss Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.dismiss
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.dismiss
@@ -54,9 +60,9 @@ This method is primarily used with the **POPUP** element, which represents a lis
 [**POPUP Element**](popup-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

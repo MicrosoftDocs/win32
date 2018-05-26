@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method. The constuctor provides the mapping between old-style multimedia format DWORD types and GUID subtypes.'
-ms.assetid: '35344aae-ed87-4e5e-8824-84f5482b332e'
-title: 'FOURCCMap::FOURCCMap constructor'
+Description: Constructor method. The constuctor provides the mapping between old-style multimedia format DWORD types and GUID subtypes.
+ms.assetid: 35344aae-ed87-4e5e-8824-84f5482b332e
+title: FOURCCMapFOURCCMap constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FOURCCMap::FOURCCMap constructor
@@ -13,7 +18,7 @@ Constructor method. The constuctor provides the mapping between old-style multim
 
 ```C++
 FOURCCMap(
-   DWORD Fourcc
+   DWORD Fourcc
 );
 ```
 
@@ -52,9 +57,9 @@ If this object is constructed with the **FOURCC** code, a **GUID** is created to
 [**FOURCCMap Class**](fourccmap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

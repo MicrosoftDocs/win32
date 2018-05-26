@@ -1,14 +1,20 @@
 ---
 title: AUTORADIOBUTTON control
 description: Defines an automatic radio button control. This control automatically performs mutual exclusion with the other AUTORADIOBUTTON controls in the same group. When the button is chosen, the application is notified with BN\_CLICKED.
-ms.assetid: 'af843084-5213-4934-b291-0787b88ef62d'
-keywords: ["AUTORADIOBUTTON control Menus and Other Resources"]
+ms.assetid: af843084-5213-4934-b291-0787b88ef62d
+keywords:
+- AUTORADIOBUTTON control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - AUTORADIOBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUTORADIOBUTTON control

@@ -1,8 +1,11 @@
 ---
 title: Iteration AddTestCase method
 description: Creates and adds a TestCase to the Iteration.
-ms.assetid: '22760C8B-B4C6-485E-AF1D-4CA0162FDAAA'
-keywords: ["AddTestCase method Access Execution Engine", "AddTestCase method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , AddTestCase method"]
+ms.assetid: 22760C8B-B4C6-485E-AF1D-4CA0162FDAAA
+keywords:
+- AddTestCase method Access Execution Engine
+- AddTestCase method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , AddTestCase method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::AddTestCase method
@@ -22,7 +30,7 @@ Creates and adds a [**TestCase**](testcase-struct.md) to the **Iteration**.
 
 ```C++
 virtual HRESULT AddTestCase(
-  [out] TestCase **testCase
+  [out] TestCase **testCase
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

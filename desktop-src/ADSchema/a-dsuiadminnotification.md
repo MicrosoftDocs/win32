@@ -4,17 +4,22 @@ description: This is a list of the GUIDs of COM objects that support a callback 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4845c221-087f-49f5-a95d-71f58a4e8819'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4845c221-087f-49f5-a95d-71f58a4e8819
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["DS-UI-Admin-Notification attribute AD Schema", "dSUIAdminNotification attribute AD Schema"]
+keywords:
+- DS-UI-Admin-Notification attribute AD Schema
+- dSUIAdminNotification attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - DS-UI-Admin-Notification
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS-UI-Admin-Notification attribute
@@ -38,12 +43,12 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This is a list of the GUIDs of COM objects that support a callback interface tha
 
 
 
- 
+ 
 
- 
+ 
 
 
 

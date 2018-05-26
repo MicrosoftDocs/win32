@@ -4,11 +4,15 @@ description: The following table contains a list of common errors that can occur
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '844d4280-a943-4906-b0c6-0c650ef9c114'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 844d4280-a943-4906-b0c6-0c650ef9c114
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Common Errors AD"]
+keywords:
+- Common Errors AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Common Errors

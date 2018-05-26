@@ -1,8 +1,9 @@
 ---
 title: ICM\_COMPRESS\_GET\_SIZE message
 description: The ICM\_COMPRESS\_GET\_SIZE message requests that the video compression driver supply the maximum size of one frame of data when compressed into the specified output format. You can send this message explicitly or by using the ICCompressGetSize macro.
-ms.assetid: '6910e588-e60f-43b1-8fa6-113c2ec32a53'
-keywords: ["ICM_COMPRESS_GET_SIZE message Windows Multimedia"]
+ms.assetid: 6910e588-e60f-43b1-8fa6-113c2ec32a53
+keywords:
+- ICM_COMPRESS_GET_SIZE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_COMPRESS\_GET\_SIZE message
 
-The **ICM\_COMPRESS\_GET\_SIZE** message requests that the video compression driver supply the maximum size of one frame of data when compressed into the specified output format. You can send this message explicitly or by using the [**ICCompressGetSize**](iccompressgetsize.md) macro.
+The **ICM\_COMPRESS\_GET\_SIZE** message requests that the video compression driver supply the maximum size of one frame of data when compressed into the specified output format. You can send this message explicitly or by using the [**ICCompressGetSize**](/windows/win32/Vfw/nf-vfw-iccompressgetsize?branch=master) macro.
 
 
 ```C++
@@ -60,8 +66,8 @@ The driver should calculate the size of the largest possible frame based on the 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ The driver should calculate the size of the largest possible frame based on the 
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

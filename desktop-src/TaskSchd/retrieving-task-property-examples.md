@@ -1,13 +1,19 @@
 ---
 title: Retrieving Task Property Examples
 description: To retrieve the properties of a task, call ITaskScheduler Activate to get retrieve the interface of the task object, then call the appropriate ITask method to retrieve the task property that you are interested in.
-ms.assetid: '9ec9d836-c735-4a32-96b1-3dbd0a31b22a'
-keywords: ["retrieving task properties Task Scheduler"]
+ms.assetid: 9ec9d836-c735-4a32-96b1-3dbd0a31b22a
+keywords:
+- retrieving task properties Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Task Property Examples
 
-To retrieve the properties of a task, call [**ITaskScheduler::Activate**](itaskscheduler-activate.md) to get retrieve the interface of the task object, then call the appropriate [**ITask**](itask.md) method to retrieve the task property that you are interested in. The code examples listed at the bottom of the page show how to retrieve the different task properties.
+To retrieve the properties of a task, call [**ITaskScheduler::Activate**](/windows/win32/Mstask/nf-mstask-itaskscheduler-activate?branch=master) to get retrieve the interface of the task object, then call the appropriate [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) method to retrieve the task property that you are interested in. The code examples listed at the bottom of the page show how to retrieve the different task properties.
 
 The code examples listed at the bottom of the page show how to retrieve the properties that are unique to task objects. For other [*work item*](w.md#-msb-work-items-gly) properties that also apply to tasks, see [Retrieving Work Item Examples](retrieving-work-item-property-examples.md).
 
@@ -23,8 +29,8 @@ The following procedure describes how to retrieve a task property.
 **To retrieve a task property**
 
 1.  Call [**CoInitialize**](_com_coinitialize) to initialize the COM library and [**CoCreateInstance**](_com_cocreateinstance) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
-2.  Call [**ITaskScheduler::Activate**](itaskscheduler-activate.md) to get the [**ITask**](itask.md) interface of the task object. (Note that this example gets the "Test Task" task.)
-3.  Call the appropriate [**ITask**](itask.md) method to retrieve the property you are interested in.
+2.  Call [**ITaskScheduler::Activate**](/windows/win32/Mstask/nf-mstask-itaskscheduler-activate?branch=master) to get the [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) interface of the task object. (Note that this example gets the "Test Task" task.)
+3.  Call the appropriate [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) method to retrieve the property you are interested in.
 4.  Process the property as needed. (These examples print the property to the screen.)
 5.  If the returned property is a string, call [CoTaskMemFree](_com_cotaskmemfree) to free the memory allocated for the returned string.
 

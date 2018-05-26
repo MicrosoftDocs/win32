@@ -1,7 +1,12 @@
 ---
-Description: 'The RefreshDisplayType method updates the object''s video format to match the specified display.'
-ms.assetid: 'cc2bdfeb-80f1-4fb6-859d-977d644a5e08'
-title: 'CImageDisplay.RefreshDisplayType method'
+Description: The RefreshDisplayType method updates the objects video format to match the specified display.
+ms.assetid: cc2bdfeb-80f1-4fb6-859d-977d644a5e08
+title: CImageDisplay.RefreshDisplayType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.RefreshDisplayType method
@@ -13,7 +18,7 @@ The `RefreshDisplayType` method updates the object's video format to match the s
 
 ```C++
 HRESULT RefreshDisplayType(
-   LPSTR szDeviceName
+   LPSTR szDeviceName
 );
 ```
 
@@ -58,9 +63,9 @@ Call this method whenever a WM\_DISPLAYCHANGED message is received, or to specif
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

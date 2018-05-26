@@ -1,14 +1,20 @@
 ---
 title: NavigationButton element
 description: Causes a media node to be created that renders a scene button.
-ms.assetid: 'd71702be-3e5c-4bb5-8feb-75751a8870c7'
-keywords: ["NavigationButton element Windows Movie Maker and DVD Maker"]
+ms.assetid: d71702be-3e5c-4bb5-8feb-75751a8870c7
+keywords:
+- NavigationButton element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - NavigationButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NavigationButton element
@@ -50,7 +56,7 @@ The media node created is based on the button style defined by the [NavigationBu
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -65,9 +71,9 @@ The media node created is based on the button style defined by the [NavigationBu
 [**NavigationButtonTFXToken Element**](navigationbuttontfxtoken.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

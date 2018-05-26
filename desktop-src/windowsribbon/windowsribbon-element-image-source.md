@@ -1,14 +1,20 @@
 ---
 title: Image.Source property
 description: Represents the directory path of an image.
-ms.assetid: '174a518a-e9a3-4461-a9a3-d61b62d2b718'
-keywords: ["Image.Source property Windows Ribbon"]
+ms.assetid: 174a518a-e9a3-4461-a9a3-d61b62d2b718
+keywords:
+- Image.Source property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Image.Source
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image.Source property
@@ -82,14 +88,14 @@ The following code example shows the markup required to declare, through a set o
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

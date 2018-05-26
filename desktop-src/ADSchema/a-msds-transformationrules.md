@@ -4,17 +4,22 @@ description: Specifies the Transformation Rules for Cross-Forest Claims Transfor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6e58d5fd-2880-4cce-adfb-f1527a70ab8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6e58d5fd-2880-4cce-adfb-f1527a70ab8c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Transformation-Rules attribute AD Schema", "msDS-TransformationRules attribute AD Schema"]
+keywords:
+- ms-DS-Transformation-Rules attribute AD Schema
+- msDS-TransformationRules attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Transformation-Rules
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Transformation-Rules attribute
@@ -38,7 +43,7 @@ Specifies the Transformation Rules for Cross-Forest Claims Transformation.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ Specifies the Transformation Rules for Cross-Forest Claims Transformation.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

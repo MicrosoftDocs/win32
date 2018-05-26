@@ -1,7 +1,12 @@
 ---
 title: Management Information Base
-ms.assetid: '8ec7b317-e55b-461e-9aa7-71e9be581e65'
+ms.assetid: 8ec7b317-e55b-461e-9aa7-71e9be581e65
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Management Information Base
@@ -34,11 +39,11 @@ The structures in the MIB API are supported on both Microsoft Windows network se
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

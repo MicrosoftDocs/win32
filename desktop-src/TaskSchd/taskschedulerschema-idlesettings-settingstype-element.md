@@ -1,14 +1,20 @@
 ---
 title: IdleSettings (settingsType) Element
 description: Specifies how the Task Scheduler performs tasks when the computer is in an idle state.
-ms.assetid: '23d57417-95a9-42e3-904c-7f0859fcda7c'
-keywords: ["IdleSettings element Task Scheduler"]
+ms.assetid: 23d57417-95a9-42e3-904c-7f0859fcda7c
+keywords:
+- IdleSettings element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - IdleSettings
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IdleSettings (settingsType) Element
@@ -51,7 +57,7 @@ The **IdleSettings** element is defined by the [**settingsType**](taskschedulers
 
 For script development, idle settings are specified using the [**TaskSettings.IdleSettings**](tasksettings-idlesettings.md) property.
 
-For C++ development, idle settings are specified using the [**ITaskSettings::IdleSettings**](itasksettings-idlesettings.md) property.
+For C++ development, idle settings are specified using the [**ITaskSettings::IdleSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_idlesettings?branch=master) property.
 
 ## Examples
 
@@ -77,8 +83,8 @@ The following XML defines a settings element that allows Task Scheduler to wait 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -92,9 +98,9 @@ The following XML defines a settings element that allows Task Scheduler to wait 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

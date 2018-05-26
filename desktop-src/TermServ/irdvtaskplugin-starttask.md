@@ -4,17 +4,23 @@ description: Called to start the update task on the virtual machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c1e9f18b-1e83-4a29-8646-8adde94e8c14'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c1e9f18b-1e83-4a29-8646-8adde94e8c14
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["StartTask method Remote Desktop Services", "StartTask method Remote Desktop Services , IRDVTaskPlugin interface", "IRDVTaskPlugin interface Remote Desktop Services , StartTask method"]
+keywords:
+- StartTask method Remote Desktop Services
+- StartTask method Remote Desktop Services , IRDVTaskPlugin interface
+- IRDVTaskPlugin interface Remote Desktop Services , StartTask method
 topic_type:
 - apiref
 api_name:
 - IRDVTaskPlugin.StartTask
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRDVTaskPlugin::StartTask method
@@ -26,9 +32,9 @@ Called to start the update task on the virtual machine.
 
 ```C++
 HRESULT StartTask(
-  [in] BSTR            Label,
-  [in] BSTR            Identifier,
-  [in] SAFEARRAY(BYTE) *Context
+  [in] BSTR            Label,
+  [in] BSTR            Identifier,
+  [in] SAFEARRAY(BYTE) *Context
 );
 ```
 
@@ -69,8 +75,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
-| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
@@ -81,9 +87,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IRDVTaskPlugin**](irdvtaskplugin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

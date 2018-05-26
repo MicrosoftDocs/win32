@@ -1,7 +1,12 @@
 ---
-Description: 'Contains formatting information for the horizontal lines used for the stationery in a Journal note.'
-ms.assetid: 'e3c9e7a8-8de6-4871-b386-2186883f2ee7'
+Description: Contains formatting information for the horizontal lines used for the stationery in a Journal note.
+ms.assetid: e3c9e7a8-8de6-4871-b386-2186883f2ee7
 title: Horizontal Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Horizontal Element
@@ -85,7 +90,7 @@ None.
 
 
 
- 
+ 
 
 ## Element Information
 
@@ -99,11 +104,11 @@ None.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: SMTPSTREAM structure
 description: Contains information about the Simple Mail Transport Protocol (SMTP) stream.
-ms.assetid: '07d67bbb-e88c-4812-80ef-167fb1c75167'
-keywords: ["SMTPSTREAM structure Windows Mail (formerly Outlook Express)", "LPSMTPSTREAM structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 07d67bbb-e88c-4812-80ef-167fb1c75167
+keywords:
+- SMTPSTREAM structure Windows Mail (formerly Outlook Express)
+- LPSMTPSTREAM structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMTPSTREAM structure
@@ -75,17 +82,17 @@ Contains the total size in bytes of the message being streamed.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

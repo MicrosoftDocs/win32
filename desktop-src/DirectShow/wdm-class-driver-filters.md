@@ -1,16 +1,21 @@
 ---
 Description: WDM Class Driver Filters
-ms.assetid: '864fc5ad-5aeb-4dc7-bdd2-2ad2bfb57741'
+ms.assetid: 864fc5ad-5aeb-4dc7-bdd2-2ad2bfb57741
 title: WDM Class Driver Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WDM Class Driver Filters
 
-If a capture device uses a Windows Driver Model (WDM) driver, the graph might require certain filters upstream from the capture filter. These filters are called stream-class driver filters or WDM filters. They support additional functionality provided by the hardware. For example, a TV tuner card has functions for setting the channel. The corresponding filter is the [TV Tuner](tv-tuner-filter.md) filter, which exposes the [**IAMTVTuner**](iamtvtuner.md) interface. To make this functionality available to the application, you must connect the TV Tuner filter to the capture filter.
+If a capture device uses a Windows Driver Model (WDM) driver, the graph might require certain filters upstream from the capture filter. These filters are called stream-class driver filters or WDM filters. They support additional functionality provided by the hardware. For example, a TV tuner card has functions for setting the channel. The corresponding filter is the [TV Tuner](tv-tuner-filter.md) filter, which exposes the [**IAMTVTuner**](/windows/win32/Strmif/nn-strmif-iamtvtuner?branch=master) interface. To make this functionality available to the application, you must connect the TV Tuner filter to the capture filter.
 
-The [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface provides the easiest way to add WDM filters to the graph. At some point while building the graph, call [**FindInterface**](icapturegraphbuilder2-findinterface.md) or [**RenderStream**](icapturegraphbuilder2-renderstream.md). Either one of these methods will automatically locate the necessary WDM filters and connect them to the capture filter. The rest of this section describes how to add WDM filters manually. However, be aware that the recommend approach is simply to call one of these **ICaptureGraphBuilder2** methods.
+The [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface provides the easiest way to add WDM filters to the graph. At some point while building the graph, call [**FindInterface**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findinterface?branch=master) or [**RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master). Either one of these methods will automatically locate the necessary WDM filters and connect them to the capture filter. The rest of this section describes how to add WDM filters manually. However, be aware that the recommend approach is simply to call one of these **ICaptureGraphBuilder2** methods.
 
-The pins on a WDM filter support one or more mediums. A medium defines a method of communication, such as a bus. You must connect pins that support the same medium. The [**REGPINMEDIUM**](regpinmedium.md) structure, which is equivalent to the **KSPIN\_MEDIUM** structure used for kernel streaming drivers, defines a medium in DirectShow. The **clsMedium** member of the **REGPINMEDIUM** structure specifies the class identifier (CLSID) for the medium. To retrieve a pin's medium, call the [**IKsPin::KsQueryMediums**](ikspin-ksquerymediums.md) method. This method returns a pointer to a block of memory that contains a [**KSMULTIPLE\_ITEM**](ksmultiple-item.md) structure, followed by zero or more **REGPINMEDIUM** structures. Each **REGPINMEDIUM** structure identifies a medium the pin supports.
+The pins on a WDM filter support one or more mediums. A medium defines a method of communication, such as a bus. You must connect pins that support the same medium. The [**REGPINMEDIUM**](/windows/win32/strmif/ns-strmif-regpinmedium?branch=master) structure, which is equivalent to the **KSPIN\_MEDIUM** structure used for kernel streaming drivers, defines a medium in DirectShow. The **clsMedium** member of the **REGPINMEDIUM** structure specifies the class identifier (CLSID) for the medium. To retrieve a pin's medium, call the [**IKsPin::KsQueryMediums**](ikspin-ksquerymediums.md) method. This method returns a pointer to a block of memory that contains a [**KSMULTIPLE\_ITEM**](ksmultiple-item.md) structure, followed by zero or more **REGPINMEDIUM** structures. Each **REGPINMEDIUM** structure identifies a medium the pin supports.
 
 Do not connect a pin if the medium has a CLSID of GUID\_NULL or KSMEDIUMSETID\_Standard. These are default values indicating that the pin does not support mediums.
 

@@ -4,17 +4,22 @@ description: Holds a MOF definition of some WMI object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0408b857-4b72-40dc-9d95-d7faecce8119'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0408b857-4b72-40dc-9d95-d7faecce8119
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-Mof attribute AD Schema", "msWMI-Mof attribute AD Schema"]
+keywords:
+- ms-WMI-Mof attribute AD Schema
+- msWMI-Mof attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-Mof
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-Mof attribute

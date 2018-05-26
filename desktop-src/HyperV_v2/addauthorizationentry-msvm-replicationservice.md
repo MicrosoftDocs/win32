@@ -1,7 +1,12 @@
 ---
-Description: 'Adds an authorization entry to a recovery server.'
-ms.assetid: 'edc11c5b-b1a1-45e0-a920-2f1f1b0b8779'
-title: 'AddAuthorizationEntry method of the Msvm\_ReplicationService class'
+Description: Adds an authorization entry to a recovery server.
+ms.assetid: edc11c5b-b1a1-45e0-a920-2f1f1b0b8779
+title: AddAuthorizationEntry method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddAuthorizationEntry method of the Msvm\_ReplicationService class
@@ -13,8 +18,8 @@ Adds an authorization entry to a recovery server. These entries are used for aut
 
 ```mof
 uint32 AddAuthorizationEntry(
-  [in]  string              AuthorizationEntry,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              AuthorizationEntry,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -92,8 +97,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -116,9 +121,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

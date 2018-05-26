@@ -1,8 +1,23 @@
 ---
 title: Creating a RIFF Chunk
 description: Creating a RIFF Chunk
-ms.assetid: 'd17f6215-f04f-4776-826e-eedb245f549b'
-keywords: ["multimedia file I/O,creating RIFF chunk", "file I/O,creating RIFF chunk", "input and output (I/O),creating RIFF chunk", "I/O (input and output),creating RIFF chunk", "creating RIFF chunk", "mmioCreateChunk function", "resource interchange file format (RIFF)", "RIFF (resource interchange file format)", "RIFF I/O", "RIFF chunk"]
+ms.assetid: d17f6215-f04f-4776-826e-eedb245f549b
+keywords:
+- multimedia file I/O,creating RIFF chunk
+- file I/O,creating RIFF chunk
+- input and output (I/O),creating RIFF chunk
+- I/O (input and output),creating RIFF chunk
+- creating RIFF chunk
+- mmioCreateChunk function
+- resource interchange file format (RIFF)
+- RIFF (resource interchange file format)
+- RIFF I/O
+- RIFF chunk
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a RIFF Chunk

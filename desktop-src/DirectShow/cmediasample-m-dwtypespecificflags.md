@@ -1,7 +1,12 @@
 ---
-Description: 'Type-specific flags. The meaning of this member variable depends on the media type of the sample.'
-ms.assetid: '3aca168e-b253-468e-a1a1-3c213f710dfd'
-title: 'CMediaSample::m\_dwTypeSpecificFlags member'
+Description: Type-specific flags. The meaning of this member variable depends on the media type of the sample.
+ms.assetid: 3aca168e-b253-468e-a1a1-3c213f710dfd
+title: CMediaSamplem\_dwTypeSpecificFlags member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample::m\_dwTypeSpecificFlags member
@@ -35,9 +40,9 @@ DWORD m_dwTypeSpecificFlags;
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

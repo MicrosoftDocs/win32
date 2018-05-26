@@ -1,13 +1,16 @@
 ---
-Description: 'To create a WMI method provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_MethodProviderRegistration.'
+Description: To create a WMI method provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_MethodProviderRegistration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1cfb16ae-8dcf-437d-b779-db2f30bb0d34'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1cfb16ae-8dcf-437d-b779-db2f30bb0d34
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering a Method Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering a Method Provider
@@ -24,7 +27,7 @@ The following procedure describes how to register a method provider.
 
 2.  Create an instance of the [**\_\_MethodProviderRegistration**](--methodproviderregistration.md) class that describes the feature set of the provider.
 
-    Be sure to tag the class with both the [**Dynamic**](dynamic-qualifier.md) and [**Provider**](provider.md) qualifiers. The **Dynamic** qualifier signals that WMI should use a provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
+    Be sure to tag the class with both the [**Dynamic**](dynamic-qualifier.md) and [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifiers. The **Dynamic** qualifier signals that WMI should use a provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
 
 The following code example describes how to register a method provider.
 

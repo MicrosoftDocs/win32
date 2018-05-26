@@ -1,7 +1,12 @@
 ---
 title: To create a tag for an expandable section
 description: To create a tag for an expandable section
-ms.assetid: 'B2E1E94B-D37D-443f-8118-7E6B85544FC8'
+ms.assetid: B2E1E94B-D37D-443f-8118-7E6B85544FC8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a tag for an expandable section

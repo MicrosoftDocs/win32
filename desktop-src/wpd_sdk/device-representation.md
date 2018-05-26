@@ -1,7 +1,12 @@
 ---
 Description: Device Representation
-ms.assetid: 'bf8b9c67-b023-40ed-97c6-9ca030de610a'
+ms.assetid: bf8b9c67-b023-40ed-97c6-9ca030de610a
 title: Device Representation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Representation

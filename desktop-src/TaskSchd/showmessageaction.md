@@ -1,8 +1,10 @@
 ---
 title: ShowMessageAction object
 description: For scripting, represents an action that shows a message box when a task is activated.
-ms.assetid: '329232de-6068-4757-b567-3ce4d2c5ba4a'
-keywords: ["ShowMessageAction object Task Scheduler", "ShowMessageAction object Task Scheduler , described"]
+ms.assetid: 329232de-6068-4757-b567-3ce4d2c5ba4a
+keywords:
+- ShowMessageAction object Task Scheduler
+- ShowMessageAction object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowMessageAction object
@@ -40,7 +47,7 @@ The **ShowMessageAction** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,18 +65,18 @@ For more information and example code for this scripting object, see [Message Bo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
 Description: About the Capture Graph Builder
-ms.assetid: '9399a06e-7305-41e8-aefe-3d158052a8ed'
+ms.assetid: 9399a06e-7305-41e8-aefe-3d158052a8ed
 title: About the Capture Graph Builder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Capture Graph Builder
 
-A filter graph that performs video or audio capture is called a *capture graph*. Capture graphs are often more complicated than file playback graphs. To make it easier for applications to build capture graphs, DirectShow provides a helper object called the Capture Graph Builder. The Capture Graph Builder exposes the [**ICaptureGraphBuilder2**](icapturegraphbuilder2.md) interface, which contains methods for building and controlling a capture graph. The following diagram illustrates the Capture Graph Builder and the **ICaptureGraphBuilder2** interface.
+A filter graph that performs video or audio capture is called a *capture graph*. Capture graphs are often more complicated than file playback graphs. To make it easier for applications to build capture graphs, DirectShow provides a helper object called the Capture Graph Builder. The Capture Graph Builder exposes the [**ICaptureGraphBuilder2**](/windows/win32/Strmif/nn-strmif-icapturegraphbuilder2?branch=master) interface, which contains methods for building and controlling a capture graph. The following diagram illustrates the Capture Graph Builder and the **ICaptureGraphBuilder2** interface.
 
 ![using the capture graph builder](images/cgb01.png)
 
-Start by calling CoCreateInstance to create new instances of the Capture Graph Builder and the Filter Graph Manager. Then initialize the Capture Graph Builder by calling [**ICaptureGraphBuilder2::SetFiltergraph**](icapturegraphbuilder2-setfiltergraph.md) with a pointer to the Filter Graph Manager's [**IGraphBuilder**](igraphbuilder.md) interface. The following diagram illustrates this process.
+Start by calling CoCreateInstance to create new instances of the Capture Graph Builder and the Filter Graph Manager. Then initialize the Capture Graph Builder by calling [**ICaptureGraphBuilder2::SetFiltergraph**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph?branch=master) with a pointer to the Filter Graph Manager's [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) interface. The following diagram illustrates this process.
 
 ![initializing the capture graph builder](images/cgb03.png)
 

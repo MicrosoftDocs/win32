@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the length of the public key in bits.'
-ms.assetid: '02cb631a-5a5d-4d16-bdad-55263a0a53b3'
-title: 'PublicKey.Length property'
+---
+Description: Retrieves the length of the public key in bits.
+ms.assetid: 02cb631a-5a5d-4d16-bdad-55263a0a53b3
+title: PublicKey.Length property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PublicKey.Length property

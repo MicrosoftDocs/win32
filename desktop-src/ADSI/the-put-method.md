@@ -4,16 +4,22 @@ description: Saves the value for a property for an Active Directory object by na
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8534ceba-5fcb-441f-9e76-3060319478af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8534ceba-5fcb-441f-9e76-3060319478af
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Put ADSI ,about", "ADSI ADSI ,example code Visual Basic ,using the Put method", "properties ADSI ,saving a value for a property to property cache"]
+keywords:
+- Put ADSI ,about
+- ADSI ADSI ,example code Visual Basic ,using the Put method
+- properties ADSI ,saving a value for a property to property cache
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The Put Method
 
-The [**IADs::Put**](iads-put.md) method saves the value for a property for an Active Directory object by name into the property cache. Use [**IADs::PutEx**](iads-putex.md) to save multi-valued properties to the property cache, or to remove a property from an object. These values are not persisted to the underlying directory service until [**IADs::SetInfo**](iads-setinfo.md) is called.
+The [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) method saves the value for a property for an Active Directory object by name into the property cache. Use [**IADs::PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master) to save multi-valued properties to the property cache, or to remove a property from an object. These values are not persisted to the underlying directory service until [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) is called.
 
 
 ```VB
@@ -48,7 +54,7 @@ End Sub
 
 
 
-The following code example shows how to use [**IADs::Put**](iads-put.md) with a single value:
+The following code example shows how to use [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) with a single value:
 
 
 ```VB
@@ -77,7 +83,7 @@ CleanUp:
 
 
 
-The following code example shows how to use [**IADs::Put**](iads-put.md) with multiple values:
+The following code example shows how to use [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) with multiple values:
 
 
 ```VB
@@ -110,7 +116,7 @@ CleanUp:
 
 
 
-The following code example shows how to use [**IADs::Put**](iads-put.md) with both multiple and single values:
+The following code example shows how to use [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) with both multiple and single values:
 
 
 ```C++

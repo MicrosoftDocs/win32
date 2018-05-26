@@ -1,8 +1,9 @@
 ---
 title: ICM\_SETSTATE message
 description: The ICM\_SETSTATE message notifies a video compression driver to set the state of the compressor. You can send this message explicitly or by using the ICSetState macro.
-ms.assetid: 'd1a91847-2893-4c8b-9ca1-02db71ec2c81'
-keywords: ["ICM_SETSTATE message Windows Multimedia"]
+ms.assetid: d1a91847-2893-4c8b-9ca1-02db71ec2c81
+keywords:
+- ICM_SETSTATE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_SETSTATE message
 
-The **ICM\_SETSTATE** message notifies a video compression driver to set the state of the compressor. You can send this message explicitly or by using the [**ICSetState**](icsetstate.md) macro.
+The **ICM\_SETSTATE** message notifies a video compression driver to set the state of the compressor. You can send this message explicitly or by using the [**ICSetState**](/windows/win32/Vfw/nf-vfw-icsetstate?branch=master) macro.
 
 
 ```C++
@@ -58,8 +64,8 @@ The information used by this message is private and specific to a given compress
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ The information used by this message is private and specific to a given compress
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

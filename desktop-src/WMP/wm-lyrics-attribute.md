@@ -1,14 +1,20 @@
 ---
 title: WM/Lyrics Attribute
 description: The WM/Lyrics attribute is the lyrics of the content.
-ms.assetid: '125a2a51-81f2-478a-a9e9-234662a17bc0'
-keywords: ["WM/Lyrics Attribute Windows Media Player"]
+ms.assetid: 125a2a51-81f2-478a-a9e9-234662a17bc0
+keywords:
+- WM/Lyrics Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Lyrics
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Lyrics Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

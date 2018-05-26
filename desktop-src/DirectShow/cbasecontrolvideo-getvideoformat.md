@@ -1,7 +1,12 @@
 ---
-Description: 'The GetVideoFormat method retrieves a video sample that represents the current video format.'
-ms.assetid: 'f7457c5b-037c-4a63-963e-0fc6086609a4'
-title: 'CBaseControlVideo.GetVideoFormat method'
+Description: The GetVideoFormat method retrieves a video sample that represents the current video format.
+ms.assetid: f7457c5b-037c-4a63-963e-0fc6086609a4
+title: CBaseControlVideo.GetVideoFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetVideoFormat method
@@ -23,11 +28,11 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to a [**VIDEOINFOHEADER**](videoinfoheader.md) structure that contains the current video format.
+Returns a pointer to a [**VIDEOINFOHEADER**](/windows/win32/amvideo/ns-amvideo-tagvideoinfoheader?branch=master) structure that contains the current video format.
 
 ## Remarks
 
-To return and check certain information through [**IBasicVideo**](ibasicvideo.md), the object must know the current video format. It gets this information by calling this pure virtual method that derived classes must override. This member function is called by the following [**CBaseControlVideo**](cbasecontrolvideo.md) member functions.
+To return and check certain information through [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master), the object must know the current video format. It gets this information by calling this pure virtual method that derived classes must override. This member function is called by the following [**CBaseControlVideo**](cbasecontrolvideo.md) member functions.
 
 -   [**CBaseControlVideo::OnVideoSizeChange**](cbasecontrolvideo-onvideosizechange.md)
 -   [**CBaseControlVideo::get\_AvgTimePerFrame**](cbasecontrolvideo-get-avgtimeperframe.md)
@@ -56,9 +61,9 @@ To return and check certain information through [**IBasicVideo**](ibasicvideo.md
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

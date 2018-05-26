@@ -1,14 +1,20 @@
 ---
 title: DecimalPlaces element
 description: The number of decimal places to retain for the metric.
-ms.assetid: '508B544E-6EFC-47E5-B0B7-647446B8E37F'
-keywords: ["DecimalPlaces element Access Execution Engine"]
+ms.assetid: 508B544E-6EFC-47E5-B0B7-647446B8E37F
+keywords:
+- DecimalPlaces element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - DecimalPlaces
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DecimalPlaces element

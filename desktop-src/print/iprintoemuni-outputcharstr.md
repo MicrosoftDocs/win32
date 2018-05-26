@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::OutputCharStr method enables a rendering plug-in to control the printing of font glyphs.'
-ms.assetid: '73518253-d65a-40ab-8735-44e92fbbed57'
-title: 'IPrintOemUni::OutputCharStr method'
+---
+Description: The IPrintOemUniOutputCharStr method enables a rendering plug-in to control the printing of font glyphs.
+ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
+title: IPrintOemUniOutputCharStr method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::OutputCharStr method

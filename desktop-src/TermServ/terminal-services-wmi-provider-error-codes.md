@@ -4,9 +4,9 @@ description: Errors returned by the Remote Desktop Services WMI provider. For a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1e68c41d-f321-4bc5-ba30-b69f5ba741eb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1e68c41d-f321-4bc5-ba30-b69f5ba741eb
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -38,6 +38,9 @@ api_location:
 - Wbemcli.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services WMI provider error codes
@@ -351,15 +354,15 @@ The specified object path was not valid.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

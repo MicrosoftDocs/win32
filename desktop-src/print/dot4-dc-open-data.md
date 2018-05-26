@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes the DOT4\_DC\_OPEN\_DATA structure.'
-ms.assetid: '72AE7A78-C02D-4C14-B017-9CEECF34FEDF'
-title: 'DOT4\_DC\_OPEN\_DATA structure'
+---
+Description: This topic describes the DOT4\_DC\_OPEN\_DATA structure.
+ms.assetid: 72AE7A78-C02D-4C14-B017-9CEECF34FEDF
+title: DOT4\_DC\_OPEN\_DATA structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT4\_DC\_OPEN\_DATA structure

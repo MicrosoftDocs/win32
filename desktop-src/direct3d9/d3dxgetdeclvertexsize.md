@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the size of a vertex from the vertex declaration.'
-ms.assetid: 'a2524f96-103e-43ab-bdcb-b99e7402fd89'
+---
+Description: Returns the size of a vertex from the vertex declaration.
+ms.assetid: a2524f96-103e-43ab-bdcb-b99e7402fd89
 title: D3DXGetDeclVertexSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetDeclVertexSize function

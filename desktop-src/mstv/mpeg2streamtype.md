@@ -1,8 +1,10 @@
 ---
 title: MPEG2StreamType enumeration
 description: Specifies the MPEG2 stream type.
-ms.assetid: '10df5a9e-965c-4118-8ece-2d8ee353cd10'
-keywords: ["MPEG2StreamType enumeration Microsoft TV Technologies", "MPEG2StreamType enumeration Microsoft TV Technologies"]
+ms.assetid: 10df5a9e-965c-4118-8ece-2d8ee353cd10
+keywords:
+- MPEG2StreamType enumeration Microsoft TV Technologies
+- MPEG2StreamType enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG2StreamType enumeration
@@ -22,26 +29,26 @@ Specifies the MPEG2 stream type. The values in this enumeration correspond to th
 
 ```C++
 typedef enum MPEG2StreamType { 
-  BDA_UNITIALIZED_MPEG2STREAMTYPE  = -1,
-  Reserved1                        = 0x00,
-  ISO_IEC_11172_2_VIDEO            = 0x01,
-  ISO_IEC_13818_2_VIDEO            = 0x02,
-  ISO_IEC_11172_3_AUDIO            = 0x03,
-  ISO_IEC_13818_3_AUDIO            = 0x04,
-  ISO_IEC_13818_1_PRIVATE_SECTION  = 0x05,
-  ISO_IEC_13818_1_PES              = 0x06,
-  ISO_IEC_13522_MHEG               = 0x07,
-  ANNEX_A_DSM_CC                   = 0x08,
-  ITU_T_REC_H_222_1                = 0x09,
-  ISO_IEC_13818_6_TYPE_A           = 0x0A,
-  ISO_IEC_13818_6_TYPE_B           = 0x0B,
-  ISO_IEC_13818_6_TYPE_C           = 0x0C,
-  ISO_IEC_13818_6_TYPE_D           = 0x0D,
-  ISO_IEC_13818_1_AUXILIARY        = 0x0E,
-  ISO_IEC_13818_1_RESERVED         = 0x0F,
-  USER_PRIVATE                     = 0x10,
-  ISO_IEC_USER_PRIVATE             = 0x80,
-  DOLBY_AC3_AUDIO                  = 0x81
+  BDA_UNITIALIZED_MPEG2STREAMTYPE  = -1,
+  Reserved1                        = 0x00,
+  ISO_IEC_11172_2_VIDEO            = 0x01,
+  ISO_IEC_13818_2_VIDEO            = 0x02,
+  ISO_IEC_11172_3_AUDIO            = 0x03,
+  ISO_IEC_13818_3_AUDIO            = 0x04,
+  ISO_IEC_13818_1_PRIVATE_SECTION  = 0x05,
+  ISO_IEC_13818_1_PES              = 0x06,
+  ISO_IEC_13522_MHEG               = 0x07,
+  ANNEX_A_DSM_CC                   = 0x08,
+  ITU_T_REC_H_222_1                = 0x09,
+  ISO_IEC_13818_6_TYPE_A           = 0x0A,
+  ISO_IEC_13818_6_TYPE_B           = 0x0B,
+  ISO_IEC_13818_6_TYPE_C           = 0x0C,
+  ISO_IEC_13818_6_TYPE_D           = 0x0D,
+  ISO_IEC_13818_1_AUXILIARY        = 0x0E,
+  ISO_IEC_13818_1_RESERVED         = 0x0F,
+  USER_PRIVATE                     = 0x10,
+  ISO_IEC_USER_PRIVATE             = 0x80,
+  DOLBY_AC3_AUDIO                  = 0x81
 } MPEG2StreamType;
 ```
 
@@ -175,7 +182,7 @@ MPEG-2 Reserved streams.
 
 This constant is not supported; use ISO\_IEC\_USER\_PRIVATE instead.
 
-**Windows Server 2008, Windows Vista and earlier:** User proprietary streams.
+**Windows Server 2008, Windows Vista and earlier:** User proprietary streams.
 
 </dd> <dt>
 
@@ -207,15 +214,15 @@ Dolby AC3 audio.
 
 <dl> <dt>
 
-[**IMPEG2ComponentType::get\_StreamType**](impeg2componenttype-get-streamtype.md)
+[**IMPEG2ComponentType::get\_StreamType**](/windows/previous-versions/tuner/nf-tuner-impeg2componenttype-get_streamtype?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

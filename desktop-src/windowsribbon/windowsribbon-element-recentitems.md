@@ -1,14 +1,20 @@
 ---
 title: RecentItems element
 description: Represents the Recent Items control in the Application Menu.
-ms.assetid: 'a3df0bb0-e0f8-413a-879d-8e39164535d0'
-keywords: ["RecentItems element Windows Ribbon"]
+ms.assetid: a3df0bb0-e0f8-413a-879d-8e39164535d0
+keywords:
+- RecentItems element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - RecentItems
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecentItems element
@@ -126,7 +132,7 @@ The following example shows the associated **RecentItems** controls declaration.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -141,9 +147,9 @@ The following example shows the associated **RecentItems** controls declaration.
 [Recent Items control](windowsribbon-controls-recentitems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

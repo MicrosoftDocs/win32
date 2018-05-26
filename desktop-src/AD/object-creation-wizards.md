@@ -4,11 +4,15 @@ description: In the administrative MMC snap-ins of Active Directory Domain Servi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7ac7ec21-72a9-4d1f-80f1-1eb5bfa2b296'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7ac7ec21-72a9-4d1f-80f1-1eb5bfa2b296
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["objects AD ,creation wizards"]
+keywords:
+- objects AD ,creation wizards
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Object Creation Wizards
@@ -30,7 +34,7 @@ Both primary and secondary object creation extensions are COM in-proc servers th
 
 **To create and install an object creation extension**
 
-1.  Create the object creation extension DLL. An object creation extension is a COM in-proc server that, at a minimum, implements the [**IDsAdminNewObjExt**](idsadminnewobjext.md) interface. For more information, see [Implementing the Object Creation Extension COM Object](implementing-the-object-creation-extension-com-object.md).
+1.  Create the object creation extension DLL. An object creation extension is a COM in-proc server that, at a minimum, implements the [**IDsAdminNewObjExt**](/windows/win32/DSAdmin/nn-dsadmin-idsadminnewobjext?branch=master) interface. For more information, see [Implementing the Object Creation Extension COM Object](implementing-the-object-creation-extension-com-object.md).
 2.  Install the creation extension on computers where the creation extension is to be used. To do this, create a Microsoft Windows Installer package for the creation extension DLL and deploy the package appropriately using the group policy. For more information, see [Distributing User Interface Components](distributing-user-interface-components.md).
 3.  Register the creation extension in the Windows registry and with Active Directory Domain Services. For more information, see [Registering the Object Creation Extension](registering-the-object-creation-extension.md).
 

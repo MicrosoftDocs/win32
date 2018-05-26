@@ -1,8 +1,11 @@
 ---
 title: System.Shell.RecycleBin.folderCount property
 description: Gets the number of folders in the Recycle Bin.
-ms.assetid: '05094833-9a28-460e-9744-370e812b3ce0'
-keywords: ["folderCount property Windows Sidebar", "folderCount property Windows Sidebar , System.Shell.RecycleBin object", "System.Shell.RecycleBin object Windows Sidebar , folderCount property"]
+ms.assetid: 05094833-9a28-460e-9744-370e812b3ce0
+keywords:
+- folderCount property Windows Sidebar
+- folderCount property Windows Sidebar , System.Shell.RecycleBin object
+- System.Shell.RecycleBin object Windows Sidebar , folderCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.RecycleBin.folderCount property
@@ -65,18 +73,18 @@ function EmptyRecycleBin()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

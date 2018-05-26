@@ -1,7 +1,12 @@
 ---
 title: Rule Authoring
 description: At this point you should have collected all the information necessary to start authoring firewall rules.
-ms.assetid: '2a5ee070-3476-4b23-8543-90aa58832a4c'
+ms.assetid: 2a5ee070-3476-4b23-8543-90aa58832a4c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rule Authoring
@@ -54,7 +59,7 @@ These strings should be indirect MUI-localizable strings referencing a resource 
 
  
 
-Resource paths must be normalized in the rules you add. Two different indirect strings may seem equivalent if they refer to the same resource ID within the same DLL, but via a different path. For instance, "@C:\\Progra~1\\Contos~1\\Storefro~1.dll,-1234" refers to the same resource as "@C:\\Program Files\\Contoso Storefront\\StorefrontRes.dll,-1234". However, the firewall does not consider these indirect strings to be equal, so the Group name that you use in all your rules should be normalized. If it is not, [**INetFwPolicy2::IsRuleGroupEnabled**](inetfwpolicy2-isrulegroupenabled.md) and [**INetFwPolicy2::EnableRuleGroup**](inetfwpolicy2-enablerulegroup.md) will not work correctly and your application performance may be impacted.
+Resource paths must be normalized in the rules you add. Two different indirect strings may seem equivalent if they refer to the same resource ID within the same DLL, but via a different path. For instance, "@C:\\Progra~1\\Contos~1\\Storefro~1.dll,-1234" refers to the same resource as "@C:\\Program Files\\Contoso Storefront\\StorefrontRes.dll,-1234". However, the firewall does not consider these indirect strings to be equal, so the Group name that you use in all your rules should be normalized. If it is not, [**INetFwPolicy2::IsRuleGroupEnabled**](/windows/previous-versions/Netfw/nf-netfw-inetfwpolicy2-isrulegroupenabled?branch=master) and [**INetFwPolicy2::EnableRuleGroup**](/windows/previous-versions/Netfw/nf-netfw-inetfwpolicy2-enablerulegroup?branch=master) will not work correctly and your application performance may be impacted.
 
 Normalizing the paths is made easier when you create all of your rules at once, when your application is installed, rather than dynamically adding and removing rules later. Disable the rules that you do not need.
 
@@ -75,7 +80,7 @@ The purpose of each of these restrictive parameters is described in the table be
 | Interfaces       | This parameter allows the specification of an array of interface LUIDs. This is commonly used by USB RNDIS devices to restrict traffic to the specific non-routable interface.                                                                                                                                                                                                  |
 | Interface Types  | This parameter allows the specification of friendly interface types such as Wireless, LAN, or Remote Access. This is typically not specified by components and more often used by the administrator.                                                                                                                                                                            |
 | Local Addresses  | This parameter restricts traffic to the local addresses of network interfaces on the local system. This is typically not specified by components and more often used by the administrator.                                                                                                                                                                                      |
-| Remote Addresses | This iparameter restricts traffic coming from a particular remote address range. This is typically used in specific scenarios such as home networks to restrict traffic to the Local Subnet or Local Link. This can be done by using keywords such as **NET\_FW\_SCOPE\_LOCAL\_SUBNET**. For a complete list of keywords, see the [**NET\_FW\_SCOPE**](net-fw-scope.md) topic. |
+| Remote Addresses | This iparameter restricts traffic coming from a particular remote address range. This is typically used in specific scenarios such as home networks to restrict traffic to the Local Subnet or Local Link. This can be done by using keywords such as **NET\_FW\_SCOPE\_LOCAL\_SUBNET**. For a complete list of keywords, see the [**NET\_FW\_SCOPE**](/windows/previous-versions/Icftypes/ne-icftypes-net_fw_scope_?branch=master) topic. |
 
 
 
@@ -93,10 +98,10 @@ By default, Windows Firewall allows outbound traffic. However, an administrator 
 
 <dl> <dt>
 
-[**INetFwPolicy2::IsRuleGroupEnabled**](inetfwpolicy2-isrulegroupenabled.md)
+[**INetFwPolicy2::IsRuleGroupEnabled**](/windows/previous-versions/Netfw/nf-netfw-inetfwpolicy2-isrulegroupenabled?branch=master)
 </dt> <dt>
 
-[**INetFwPolicy2::EnableRuleGroup**](inetfwpolicy2-enablerulegroup.md)
+[**INetFwPolicy2::EnableRuleGroup**](/windows/previous-versions/Netfw/nf-netfw-inetfwpolicy2-enablerulegroup?branch=master)
 </dt> </dl>
 
  

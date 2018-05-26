@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property retrieves the number of Extension objects in the collection.'
-ms.assetid: 'fc185f7b-813b-4115-8c5f-01900f9f8b6c'
-title: 'NoticeNumbers.Count property'
+---
+Description: The Count property retrieves the number of Extension objects in the collection.
+ms.assetid: fc185f7b-813b-4115-8c5f-01900f9f8b6c
+title: NoticeNumbers.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NoticeNumbers.Count property

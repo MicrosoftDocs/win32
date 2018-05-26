@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SID&\#8194;WMI class represents an arbitrary security identifier (SID). This property cannot be enumerated.'
+Description: The Win32\_SID&\#8194;WMI class represents an arbitrary security identifier (SID). This property cannot be enumerated.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '33453b86-4aec-4c98-a9f8-a10efc981926'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 33453b86-4aec-4c98-a9f8-a10efc981926
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SID class'
+title: Win32\_SID class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SID class
@@ -23,7 +26,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_SID
 {
   string AccountName;
-  uint8  BinaryRepresentation[];
+  uint8  BinaryRepresentation[];
   string ReferencedDomainName;
   string SID;
   uint32 SidLength;
@@ -127,8 +130,8 @@ Length of the SID in bytes.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -151,9 +154,9 @@ Length of the SID in bytes.
 [Maintaining WMI Security](https://msdn.microsoft.com/library/aa392291)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

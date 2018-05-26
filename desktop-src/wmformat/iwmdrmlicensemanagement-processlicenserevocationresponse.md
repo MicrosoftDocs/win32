@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement ProcessLicenseRevocationResponse method
 description: The ProcessLicenseRevocationResponse method revokes licenses from the local license store. This method uses a license revocation blob (LRB) received from a license revocation server to identify the licenses to revoke.
-ms.assetid: '4428ac44-c3f4-404e-9997-cbc7360faedf'
-keywords: ["ProcessLicenseRevocationResponse method windows Media Format", "ProcessLicenseRevocationResponse method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , ProcessLicenseRevocationResponse method"]
+ms.assetid: 4428ac44-c3f4-404e-9997-cbc7360faedf
+keywords:
+- ProcessLicenseRevocationResponse method windows Media Format
+- ProcessLicenseRevocationResponse method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , ProcessLicenseRevocationResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::ProcessLicenseRevocationResponse method
@@ -22,10 +30,10 @@ The **ProcessLicenseRevocationResponse** method revokes licenses from the local 
 
 ```C++
 HRESULT ProcessLicenseRevocationResponse(
-  [in]  BYTE  *pbSignedLRB,
-  [in]  DWORD cbSignedLRB,
-  [out] BYTE  **ppbSignedACK,
-  [out] DWORD *pcbSignedACK
+  [in]  BYTE  *pbSignedLRB,
+  [in]  DWORD cbSignedLRB,
+  [out] BYTE  **ppbSignedACK,
+  [out] DWORD *pcbSignedACK
 );
 ```
 
@@ -75,7 +83,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -98,9 +106,9 @@ None.
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

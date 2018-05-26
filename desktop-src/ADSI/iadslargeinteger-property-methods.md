@@ -4,11 +4,12 @@ description: The property methods of the IADsLargeInteger interface get and set 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '73e0c7fe-e468-4f92-9c9e-721bf00dd4bb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 73e0c7fe-e468-4f92-9c9e-721bf00dd4bb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsLargeInteger Property Methods ADSI"]
+keywords:
+- IADsLargeInteger Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -23,11 +24,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsLargeInteger Property Methods
 
-The property methods of the [**IADsLargeInteger**](iadslargeinteger.md) interface get and set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsLargeInteger**](/windows/win32/Iads/nn-iads-iadslargeinteger?branch=master) interface get and set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -89,7 +93,7 @@ HRESULT put_LowPart(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -121,8 +125,8 @@ LI.LowPart = 987654321
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsLargeInteger is defined as 9068270B-0939-11D1-8BE1-00C04FD8D503<br/>     |
@@ -133,12 +137,12 @@ LI.LowPart = 987654321
 
 <dl> <dt>
 
-[**IADsLargeInteger**](iadslargeinteger.md)
+[**IADsLargeInteger**](/windows/win32/Iads/nn-iads-iadslargeinteger?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

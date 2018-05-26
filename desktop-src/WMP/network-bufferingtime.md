@@ -1,8 +1,9 @@
 ---
 title: Network.bufferingTime
 description: The bufferingTime property specifies or retrieves the amount of time in milliseconds allocated for buffering incoming data before playing begins.
-ms.assetid: 'b52b7f44-6be1-4299-94da-c37d758795af'
-keywords: ["Network.bufferingTime Windows Media Player"]
+ms.assetid: b52b7f44-6be1-4299-94da-c37d758795af
+keywords:
+- Network.bufferingTime Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.bufferingTime
@@ -65,9 +71,9 @@ The following JScript example uses *Network*.**bufferingTime** to specify the nu
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

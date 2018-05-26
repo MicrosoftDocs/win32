@@ -1,7 +1,12 @@
 ---
-Description: 'The text (with formatted property values) to show in the infotip.'
-ms.assetid: 'a7017908-f116-4f0e-b705-d180d0517cdd'
-title: 'System.InfoTipText'
+Description: The text (with formatted property values) to show in the infotip.
+ms.assetid: a7017908-f116-4f0e-b705-d180d0517cdd
+title: System.InfoTipText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.InfoTipText

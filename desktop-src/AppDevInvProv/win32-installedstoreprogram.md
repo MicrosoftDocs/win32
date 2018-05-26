@@ -1,8 +1,10 @@
 ---
 title: Win32\_InstalledStoreProgram class
 description: The Win32\_InstalledStoreProgram class represents an installed Windows store application.
-ms.assetid: '154c19c7-f2e5-48bd-b05b-3022e45f2aa4'
-keywords: ["Win32_InstalledStoreProgram class Application and Device Inventory Provider", "Win32_InstalledStoreProgram class Application and Device Inventory Provider , described"]
+ms.assetid: 154c19c7-f2e5-48bd-b05b-3022e45f2aa4
+keywords:
+- Win32_InstalledStoreProgram class Application and Device Inventory Provider
+- Win32_InstalledStoreProgram class Application and Device Inventory Provider , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_InstalledStoreProgram class
@@ -138,16 +145,16 @@ The version of the Windows store application.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                 |
+| Minimum supported client<br/> | Windows 8<br/>                                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Aeinv.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Filters a Windows firewall rule by protocol or port.'
-ms.assetid: '3545aa9a-f949-4e7f-8e98-a82a72a997ff'
-title: 'MSFT\_NetFirewallRuleFilterByProtocolPort class'
+Description: Filters a Windows firewall rule by protocol or port.
+ms.assetid: 3545aa9a-f949-4e7f-8e98-a82a72a997ff
+title: MSFT\_NetFirewallRuleFilterByProtocolPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetFirewallRuleFilterByProtocolPort class
@@ -15,7 +20,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetFirewallRuleFilterByProtocolPort : MSFT_NetFirewallRuleFilters
 {
-  MSFT_NetFirewallRule       REF GroupComponent;
+  MSFT_NetFirewallRule       REF GroupComponent;
   MSFT_NetProtocolPortFilter REF PartComponent;
 };
 ```
@@ -70,17 +75,17 @@ The protocol/port filter applied to the rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

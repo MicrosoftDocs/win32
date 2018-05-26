@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.leftStatus
 description: The leftStatus attribute specifies or retrieves the status text that is displayed on the left side and bottom of the PLAYLIST element.
-ms.assetid: 'c83f4fd1-d0e6-4822-9208-8e968c409a78'
-keywords: ["PLAYLIST.leftStatus Windows Media Player"]
+ms.assetid: c83f4fd1-d0e6-4822-9208-8e968c409a78
+keywords:
+- PLAYLIST.leftStatus Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.leftStatus
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.leftStatus
@@ -48,7 +54,7 @@ The following keywords can be used.
 
 
 
- 
+ 
 
 The value "Total Time: %duration%" for a playlist that contains a total duration of seven minutes will display "Total Time: 07:00".
 
@@ -69,9 +75,9 @@ The value "Total Time: %duration%" for a playlist that contains a total duration
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

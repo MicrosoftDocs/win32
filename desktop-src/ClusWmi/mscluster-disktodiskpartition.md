@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a list of the disk partitions o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47dc7e3f-4635-4da4-8ce1-3d038ac71b47'
-ms.prod: 'windows-server-dev'
+ms.assetid: 47dc7e3f-4635-4da4-8ce1-3d038ac71b47
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_DiskToDiskPartition class", "MSCluster_DiskToDiskPartition class, described"]
+keywords:
+- MSCluster_DiskToDiskPartition class
+- MSCluster_DiskToDiskPartition class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_DiskToDiskPartition class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{960c49e0-ae52-4888-9136-21441fe642dd}"), AMENDMENT]
 class MSCluster_DiskToDiskPartition : CIM_Component
 {
-  MSCluster_Disk          REF GroupComponent;
+  MSCluster_Disk          REF GroupComponent;
   MSCluster_DiskPartition REF PartComponent;
 };
 ```
@@ -95,7 +100,7 @@ The [**MSCluster\_ResourceToDisk**](mscluster-resourcetodisk.md) class is derive
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -112,9 +117,9 @@ The [**MSCluster\_ResourceToDisk**](mscluster-resourcetodisk.md) class is derive
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

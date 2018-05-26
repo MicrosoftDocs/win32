@@ -1,7 +1,12 @@
 ---
-Description: 'Computes the Secure Sockets Layer protocol (SSL) master secret key.'
-ms.assetid: 'c9408eb3-711d-42c3-a4ba-e388689da34e'
+Description: Computes the Secure Sockets Layer protocol (SSL) master secret key.
+ms.assetid: c9408eb3-711d-42c3-a4ba-e388689da34e
 title: SslGenerateMasterKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslGenerateMasterKey function
@@ -13,17 +18,17 @@ The **SslGenerateMasterKey** function computes the [*Secure Sockets Layer protoc
 
 ```C++
 SECURITY_STATUS WINAPI SslGenerateMasterKey(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _In_  NCRYPT_KEY_HANDLE  hPrivateKey,
-  _In_  NCRYPT_KEY_HANDLE  hPublicKey,
-  _Out_ NCRYPT_KEY_HANDLE  *phMasterKey,
-  _In_  DWORD              dwProtocol,
-  _In_  DWORD              dwCipherSuite,
-  _In_  PNCryptBufferDesc  pParameterList,
-  _Out_ PBYTE              pbOutput,
-  _In_  DWORD              cbOutput,
-  _Out_ DWORD              *pcbResult,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _In_  NCRYPT_KEY_HANDLE  hPrivateKey,
+  _In_  NCRYPT_KEY_HANDLE  hPublicKey,
+  _Out_ NCRYPT_KEY_HANDLE  *phMasterKey,
+  _In_  DWORD              dwProtocol,
+  _In_  DWORD              dwCipherSuite,
+  _In_  PNCryptBufferDesc  pParameterList,
+  _Out_ PBYTE              pbOutput,
+  _In_  DWORD              cbOutput,
+  _Out_ DWORD              *pcbResult,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -90,7 +95,7 @@ The address of a buffer that receives the premaster secret encrypted with the pu
 > [!Note]  
 > This buffer is used when performing a RSA key exchange.
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +127,7 @@ Specifies whether this function is being used for client-side or server-side key
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -144,7 +149,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -152,16 +157,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

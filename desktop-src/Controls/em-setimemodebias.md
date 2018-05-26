@@ -1,8 +1,9 @@
 ---
 title: EM\_SETIMEMODEBIAS message
 description: Set the Input Method Editor (IME) mode bias for a rich edit control.
-ms.assetid: '4a3f97eb-fe80-4e84-a73e-3ed6d73644de'
-keywords: ["EM_SETIMEMODEBIAS message Windows Controls"]
+ms.assetid: 4a3f97eb-fe80-4e84-a73e-3ed6d73644de
+keywords:
+- EM_SETIMEMODEBIAS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETIMEMODEBIAS message
@@ -35,7 +41,7 @@ IME mode bias value. It can be one of the following.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -64,8 +70,8 @@ The application should call [**EM\_ISIME**](em-isime.md) before calling this fun
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ The application should call [**EM\_ISIME**](em-isime.md) before calling this fun
 [**EM\_SETCTFMODEBIAS**](em-setctfmodebias.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

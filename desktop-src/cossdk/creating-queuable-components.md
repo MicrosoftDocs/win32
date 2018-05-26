@@ -1,7 +1,12 @@
 ---
-Description: 'A component with at least one queuable interface is a queuable component.'
-ms.assetid: '8183f640-4bf3-4555-8837-90a26130c618'
+Description: A component with at least one queuable interface is a queuable component.
+ms.assetid: 8183f640-4bf3-4555-8837-90a26130c618
 title: Creating Queuable Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Queuable Components

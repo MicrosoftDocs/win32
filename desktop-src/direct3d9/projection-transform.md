@@ -1,7 +1,12 @@
 ---
-Description: 'You can think of the projection transformation as controlling the camera''s internals; it is analogous to choosing a lens for the camera.'
-ms.assetid: '09e6e887-7657-4654-be19-2e83dcbc91cf'
-title: 'Projection Transform (Direct3D 9)'
+Description: You can think of the projection transformation as controlling the cameras internals; it is analogous to choosing a lens for the camera.
+ms.assetid: 09e6e887-7657-4654-be19-2e83dcbc91cf
+title: Projection Transform (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Projection Transform (Direct3D 9)
@@ -46,7 +51,7 @@ For a C++ application, these two dimensions correspond directly to the Width and
 
 Whatever formula you decide to use, be sure to set Zₙ to as large a value as possible, because z-values extremely close to the camera don't vary by much. This makes depth comparisons using 16-bit z-buffers somewhat complicated.
 
-As with the world and view transformations, you call the [**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md) method to set the projection transform.
+As with the world and view transformations, you call the [**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master) method to set the projection transform.
 
 ## Setting Up a Projection Matrix
 
@@ -84,7 +89,7 @@ ProjectionMatrix(const float near_plane, // Distance to near clipping
 
 
 
-After creating the matrix, set it with [**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md) specifying D3DTS\_PROJECTION.
+After creating the matrix, set it with [**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master) specifying D3DTS\_PROJECTION.
 
 The D3DX utility library provides the following functions to help you set up your projection matrix.
 

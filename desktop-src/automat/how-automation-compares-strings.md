@@ -1,20 +1,25 @@
 ---
 title: How Automation Compares Strings
 description: Describes the string comparison rules applied by Automation.
-ms.assetid: '9c2709a8-f726-4bd3-98e0-6db069fb712a'
+ms.assetid: 9c2709a8-f726-4bd3-98e0-6db069fb712a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Automation Compares Strings
 
 This appendix describes how Automation compares strings. These comparisons are important when creating applications that support national language accents and digraphs. The information in this appendix applies to the following:
 
--   [**CreateStdDispatch**](createstddispatch.md)
+-   [**CreateStdDispatch**](/windows/previous-versions/OleAuto/nf-oleauto-createstddispatch?branch=master)
 
--   [**DispGetIDsOfNames**](dispgetidsofnames.md)
+-   [**DispGetIDsOfNames**](/windows/previous-versions/OleAuto/nf-oleauto-dispgetidsofnames?branch=master)
 
--   [**ITypeLib::FindName**](itypelib-findname.md)
+-   [**ITypeLib::FindName**](/windows/previous-versions/oaidl/nf-oaidl-itypelib-findname?branch=master)
 
--   [**IDispatch::GetIDsOfNames**](idispatch-getidsofnames.md)
+-   [**IDispatch::GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master)
 
 -   Using MIDL
 
@@ -28,7 +33,7 @@ When comparing strings, Automation components use the following rules:
 
 -   Comparisons are sensitive to digraphs. For example, the "Æ" string is not the same as "AE".
 
--   For Japanese, Korean, and Chinese locales, [**ITypeLib::FindName**](itypelib-findname.md) and [**IDispatch::GetIDsOfNames**](idispatch-getidsofnames.md) ignore width and kanatype.
+-   For Japanese, Korean, and Chinese locales, [**ITypeLib::FindName**](/windows/previous-versions/oaidl/nf-oaidl-itypelib-findname?branch=master) and [**IDispatch::GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master) ignore width and kanatype.
 
 ## Related topics
 

@@ -1,8 +1,9 @@
 ---
 title: MrmIndexFileAutoQualifiers function
 description: Indexes a resource file belonging to a UWP app. Infers a list of resource qualifiers from the filePath parameter. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: 'CEA4D845-987C-48D6-B80E-9F055363FFE0'
-keywords: ["MrmIndexFileAutoQualifiers function Menus and Other Resources"]
+ms.assetid: CEA4D845-987C-48D6-B80E-9F055363FFE0
+keywords:
+- MrmIndexFileAutoQualifiers function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmIndexFileAutoQualifiers function
@@ -24,8 +30,8 @@ Indexes a resource file belonging to a UWP app. Infers a list of resource qualif
 
 ```C++
 HRESULT HRESULT MrmIndexFileAutoQualifiers(
-  _In_ MrmResourceIndexerHandle indexer,
-  _In_ PCWSTR                   filePath
+  _In_ MrmResourceIndexerHandle indexer,
+  _In_ PCWSTR                   filePath
 );
 ```
 
@@ -71,7 +77,7 @@ L"Files" will be used as the resource map subtree name for this resource when yo
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -86,9 +92,9 @@ L"Files" will be used as the resource map subtree name for this resource when yo
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

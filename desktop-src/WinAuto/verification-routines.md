@@ -1,7 +1,12 @@
 ---
 title: Verification Routines
-description: This section describes the verification routines that UI Accessibility Checker can run to test an application's accessibility implementation.
-ms.assetid: '56F3EA1F-39C3-4DD9-8F2B-0C3608DD8737'
+description: This section describes the verification routines that UI Accessibility Checker can run to test an applications accessibility implementation.
+ms.assetid: 56F3EA1F-39C3-4DD9-8F2B-0C3608DD8737
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verification Routines

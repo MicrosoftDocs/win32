@@ -1,7 +1,12 @@
-﻿---
-Description: 'Access the mesh''s vertex buffer after it has been committed to the device with ID3DX10Mesh::CommitToDevice. This is different from ID3DX10Mesh::GetVertexBuffer, which returns the vertex buffer before it has been committed to the device.'
-ms.assetid: '621d9105-e55d-47b8-8557-8adb7db19d66'
-title: 'ID3DX10Mesh::GetDeviceVertexBuffer method'
+---
+Description: Access the meshs vertex buffer after it has been committed to the device with ID3DX10MeshCommitToDevice. This is different from ID3DX10MeshGetVertexBuffer, which returns the vertex buffer before it has been committed to the device.
+ms.assetid: 621d9105-e55d-47b8-8557-8adb7db19d66
+title: ID3DX10MeshGetDeviceVertexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetDeviceVertexBuffer method
@@ -36,7 +41,7 @@ An index identifying which vertex buffer to access.
 *ppVertexBuffer* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Buffer**](id3d10buffer.md)\*\***
+Type: **[**ID3D10Buffer**](/windows/win32/D3D10/nn-d3d10-id3d10buffer?branch=master)\*\***
 
 The vertex buffer after it has been committed to the device.
 

@@ -1,8 +1,9 @@
 ---
 title: CreateVPNConnection function
 description: Creates a VPN connection.
-ms.assetid: '3d4a3b5d-b7fa-426f-bc71-15a4c38c4e7b'
-keywords: ["CreateVPNConnection function Get Connected Wizard API"]
+ms.assetid: 3d4a3b5d-b7fa-426f-bc71-15a4c38c4e7b
+keywords:
+- CreateVPNConnection function Get Connected Wizard API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - connect.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateVPNConnection function
@@ -22,12 +28,12 @@ The **CreateVPNConnection** function creates a VPN connection.
 
 ```C++
 HRESULT WINAPI CreateVPNConnection(
-  _In_     const HWND   hwndParent,
-  _In_     const DWORD  dwWizardType,
-  _In_     const DWORD  dwContextFlags,
-  _In_     const DWORD  dwUserFlags,
-  _In_     const HANDLE hUserContext,
-  _In_opt_       LPWSTR pszCommandLine
+  _In_     const HWND   hwndParent,
+  _In_     const DWORD  dwWizardType,
+  _In_     const DWORD  dwContextFlags,
+  _In_     const DWORD  dwUserFlags,
+  _In_     const HANDLE hUserContext,
+  _In_opt_       LPWSTR pszCommandLine
 );
 ```
 
@@ -61,7 +67,7 @@ This parameter is optional and can be set to 0.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,7 +87,7 @@ This parameter is optional and can be set to 0.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +128,7 @@ The following command-line options are supported:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -144,15 +150,15 @@ An import library containing the **CreateVPNConnection** function is not include
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Connect.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

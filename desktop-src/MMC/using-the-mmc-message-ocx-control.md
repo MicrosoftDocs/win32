@@ -4,11 +4,16 @@ description: This feature is introduced in MMC 1.2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc6db308-d8dd-4868-803d-45c64b951192'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bc6db308-d8dd-4868-803d-45c64b951192
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 message OCX control", "message OCX control MMC 2.0"]
+keywords:
+- MMC 2.0 message OCX control
+- message OCX control MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the MMC 2.0 Message OCX Control

@@ -1,8 +1,18 @@
 ---
 title: Why Make Skins
 description: Why Make Skins
-ms.assetid: '7aca14a3-5fd8-4244-b023-fa21a76e00fc'
-keywords: ["Windows Media Player,skins", "Windows Media Player skins,purpose", "skins,purpose", "Windows Media Player skins,examples", "skins,examples"]
+ms.assetid: 7aca14a3-5fd8-4244-b023-fa21a76e00fc
+keywords:
+- Windows Media Player,skins
+- Windows Media Player skins,purpose
+- skins,purpose
+- Windows Media Player skins,examples
+- skins,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Why Make Skins?

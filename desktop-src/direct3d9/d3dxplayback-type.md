@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the type of animation set looping modes used for playback.'
-ms.assetid: '2ce26bf0-2b33-4193-a58f-03493a051351'
-title: 'D3DXPLAYBACK\_TYPE enumeration'
+---
+Description: Defines the type of animation set looping modes used for playback.
+ms.assetid: 2ce26bf0-2b33-4193-a58f-03493a051351
+title: D3DXPLAYBACK\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPLAYBACK\_TYPE enumeration

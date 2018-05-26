@@ -1,8 +1,21 @@
 ---
 title: ConvertPluginCLSID Subkey
 description: ConvertPluginCLSID Subkey
-ms.assetid: '2bf5b6ad-31e9-40c2-a682-c7ad813e8f7a'
-keywords: ["Windows Media Player,ConvertPluginCLSID subkey", "Windows Media Player,file name extensions", "Windows Media Player,registry", "registry,file name extensions", "registry,ConvertPluginCLSID subkey", "registry,settings for Windows Media Player", "file name extension registry settings", "ConvertPluginCLSID subkey"]
+ms.assetid: 2bf5b6ad-31e9-40c2-a682-c7ad813e8f7a
+keywords:
+- Windows Media Player,ConvertPluginCLSID subkey
+- Windows Media Player,file name extensions
+- Windows Media Player,registry
+- registry,file name extensions
+- registry,ConvertPluginCLSID subkey
+- registry,settings for Windows Media Player
+- file name extension registry settings
+- ConvertPluginCLSID subkey
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertPluginCLSID Subkey

@@ -1,8 +1,11 @@
 ---
 title: LogFileItem Path property
 description: Retrieves the path of the log file.
-ms.assetid: '948d28d6-0445-4452-ad39-9981f99d3bf6'
-keywords: ["Path property SysMon", "Path property SysMon , LogFileItem interface", "LogFileItem interface SysMon , Path property"]
+ms.assetid: 948d28d6-0445-4452-ad39-9981f99d3bf6
+keywords:
+- Path property SysMon
+- Path property SysMon , LogFileItem interface
+- LogFileItem interface SysMon , Path property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogFileItem::Path property
@@ -39,8 +47,8 @@ Path of the log file.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -55,9 +63,9 @@ Path of the log file.
 LogFiles.Add
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

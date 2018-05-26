@@ -1,14 +1,20 @@
 ---
 title: UserServiceRating Attribute
 description: The UserServiceRating attribute is reserved for future use.
-ms.assetid: 'e6113474-725d-4eb1-9c05-cff7749f2010'
-keywords: ["UserServiceRating Attribute Windows Media Player"]
+ms.assetid: e6113474-725d-4eb1-9c05-cff7749f2010
+keywords:
+- UserServiceRating Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserServiceRating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserServiceRating Attribute
@@ -38,7 +44,7 @@ User ratings are represented by integer values, as described in the following ta
 
 
 
- 
+ 
 
 This attribute is stored only in the library.
 
@@ -61,9 +67,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

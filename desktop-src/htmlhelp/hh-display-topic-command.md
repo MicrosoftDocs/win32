@@ -1,7 +1,12 @@
 ---
 title: HH\_DISPLAY\_TOPIC command
 description: HH\_DISPLAY\_TOPIC command
-ms.assetid: 'EE933BFD-0C55-47ef-B90B-30250A096CEF'
+ms.assetid: EE933BFD-0C55-47ef-B90B-30250A096CEF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_DISPLAY\_TOPIC command
@@ -18,7 +23,7 @@ If a window type is not specified, a default window type is used. If the window 
 
 
 
- 
+ 
 
 ## Example
 
@@ -53,9 +58,9 @@ The handle (hwnd) of the help window.
 [HH\_HELP\_CONTEXT](hh-help-context-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

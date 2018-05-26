@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'A187FD9F-8A2E-4B98-8CC4-C0AC66D6FB08'
+---
+Description: .
+ms.assetid: A187FD9F-8A2E-4B98-8CC4-C0AC66D6FB08
 title: IPrintBidiAsyncNotifyRegistration interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintBidiAsyncNotifyRegistration interface

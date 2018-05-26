@@ -1,8 +1,9 @@
 ---
 title: PBM\_GETSTATE message
 description: Gets the state of the progress bar.
-ms.assetid: 'ff240160-7db6-4711-8d4e-25a77dfba118'
-keywords: ["PBM_GETSTATE message Windows Controls"]
+ms.assetid: ff240160-7db6-4711-8d4e-25a77dfba118
+keywords:
+- PBM_GETSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_GETSTATE message
@@ -41,7 +47,7 @@ Returns the current state of the progress bar. One of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,15 +55,15 @@ Returns the current state of the progress bar. One of the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

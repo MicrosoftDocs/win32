@@ -1,15 +1,18 @@
 ---
-Description: 'Places the service represented by the Win32\_PrinterDriver object in the stopped state.'
+Description: Places the service represented by the Win32\_PrinterDriver object in the stopped state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0e730fe6-ff9f-4866-a255-be6d372f2d7d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0e730fe6-ff9f-4866-a255-be6d372f2d7d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'StopService method of the Win32\_PrinterDriver class'
+title: StopService method of the Win32\_PrinterDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the Win32\_PrinterDriver class
@@ -57,8 +60,8 @@ Request not supported.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>           |
 | MOF<br/>                      | <dl> <dt>Win32\_Printer.mof</dt> </dl> |
@@ -76,9 +79,9 @@ Request not supported.
 [**Win32\_PrinterDriver**](win32-printerdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

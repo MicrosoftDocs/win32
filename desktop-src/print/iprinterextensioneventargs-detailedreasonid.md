@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a more detailed activation reason than what can be retrieved from ReasonId.'
-ms.assetid: 'B39DC40A-2B7D-402F-B88C-E6684BF9AA0F'
-title: 'IPrinterExtensionEventArgs::DetailedReasonId property'
+---
+Description: Gets a more detailed activation reason than what can be retrieved from ReasonId.
+ms.assetid: B39DC40A-2B7D-402F-B88C-E6684BF9AA0F
+title: IPrinterExtensionEventArgsDetailedReasonId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs::DetailedReasonId property

@@ -4,17 +4,22 @@ description: Container for all Enterprise Scan Post Scan Process objects.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'aa0315e1-973b-4066-a5e3-834149c1ab7f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: aa0315e1-973b-4066-a5e3-834149c1ab7f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Imaging-PSPs class AD Schema", "msImaging-PSPs class AD Schema"]
+keywords:
+- ms-Imaging-PSPs class AD Schema
+- msImaging-PSPs class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Imaging-PSPs
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Imaging-PSPs class
@@ -35,8 +40,8 @@ Container for all Enterprise Scan Post Scan Process objects.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -63,7 +68,7 @@ Container for all Enterprise Scan Post Scan Process objects.
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -212,7 +217,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -342,9 +347,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

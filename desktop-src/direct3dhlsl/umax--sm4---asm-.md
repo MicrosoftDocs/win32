@@ -1,7 +1,12 @@
 ---
 title: umax (sm4 - asm)
 description: Component-wise unsigned integer maximum.
-ms.assetid: '86BCF7A7-99CA-481B-82B4-E0BA30963344'
+ms.assetid: 86BCF7A7-99CA-481B-82B4-E0BA30963344
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # umax (sm4 - asm)
@@ -15,7 +20,7 @@ Component-wise unsigned integer maximum.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise unsigned integer maximum.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,7 +46,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -60,7 +65,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: EvaluateAttributeSnapped function
 description: Evaluates at the pixel centroid with an offset.
-ms.assetid: 'f5085016-0e94-49bb-96b6-42fa15c30b9f'
-keywords: ["EvaluateAttributeSnapped function HLSL"]
+ms.assetid: f5085016-0e94-49bb-96b6-42fa15c30b9f
+keywords:
+- EvaluateAttributeSnapped function HLSL
 topic_type:
 - apiref
 api_name:
 - EvaluateAttributeSnapped
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EvaluateAttributeSnapped function

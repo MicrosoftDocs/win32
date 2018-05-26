@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS::ResetPDEV method allows a rendering plug-in for Pscript5 to reset its PDEV structure.'
-ms.assetid: '10248026-471a-4419-9c96-3502c24a6e96'
-title: 'IPrintOemPS::ResetPDEV method'
+---
+Description: The IPrintOemPSResetPDEV method allows a rendering plug-in for Pscript5 to reset its PDEV structure.
+ms.assetid: 10248026-471a-4419-9c96-3502c24a6e96
+title: IPrintOemPSResetPDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::ResetPDEV method

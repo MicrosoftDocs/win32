@@ -1,14 +1,17 @@
 ---
 title: IFsrmClassifierModuleImplementation LastModified property
-description: The last time the classifier's internal rules were modified as a 64-bit FILETIME value.
+description: The last time the classifiers internal rules were modified as a 64-bit FILETIME value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'edda630a-947d-4c81-b4d5-c02b3ba02f10'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: edda630a-947d-4c81-b4d5-c02b3ba02f10
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["LastModified property File Server Resource Manager", "LastModified property File Server Resource Manager , IFsrmClassifierModuleImplementation interface", "IFsrmClassifierModuleImplementation interface File Server Resource Manager , LastModified property"]
+keywords:
+- LastModified property File Server Resource Manager
+- LastModified property File Server Resource Manager , IFsrmClassifierModuleImplementation interface
+- IFsrmClassifierModuleImplementation interface File Server Resource Manager , LastModified property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IFsrmClassifierModuleImplementation::LastModified property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_LastModified(
-  [out] VARIANT *pLastModified
+  [out] VARIANT *pLastModified
 );
 ```
 
@@ -100,7 +106,7 @@ A value corresponding to **FsrmAlwaysModified** can be returned if the classifie
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                                      |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>                  |
 | IID<br/>                      | IID\_IFsrmClassifierModuleImplementation is defined as 4c968fc6-6edb-4051-9c18-73b7291ae106<br/> |
 
@@ -110,12 +116,12 @@ A value corresponding to **FsrmAlwaysModified** can be returned if the classifie
 
 <dl> <dt>
 
-[**IFsrmClassifierModuleImplementation**](ifsrmclassifiermoduleimplementation.md)
+[**IFsrmClassifierModuleImplementation**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

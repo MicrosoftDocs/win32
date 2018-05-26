@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETSELEND message
 description: Sets the ending logical position of the current selection range in a trackbar. This message is ignored if the trackbar does not have the TBS\_ENABLESELRANGE style.
-ms.assetid: '1feec14c-1607-49d5-a147-af2443f82dc1'
-keywords: ["TBM_SETSELEND message Windows Controls"]
+ms.assetid: 1feec14c-1607-49d5-a147-af2443f82dc1
+keywords:
+- TBM_SETSELEND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETSELEND message
@@ -45,8 +51,8 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ No return value.
 [**TBM\_SETSELSTART**](tbm-setselstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

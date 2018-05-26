@@ -4,18 +4,24 @@ description: In addition to IADs Put and IADs PutEx, you can use the IDirectoryO
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1d3fe8f6-34be-4bcb-8ba5-2d92ddc0852a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1d3fe8f6-34be-4bcb-8ba5-2d92ddc0852a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Modifying Attributes with the IDirectoryObject Interface ADSI", "IDirectoryObject ADSI , Using to Modify Attributes", "ADSI ADSI , Example Code C/C++ , Using IDirectoryObject to Modify Attributes"]
+keywords:
+- Modifying Attributes with the IDirectoryObject Interface ADSI
+- IDirectoryObject ADSI , Using to Modify Attributes
+- ADSI ADSI , Example Code C/C++ , Using IDirectoryObject to Modify Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Modifying Attributes with the IDirectoryObject Interface
 
-In addition to [**IADs::Put**](iads-put.md) and [**IADs::PutEx**](iads-putex.md), you can use the [**IDirectoryObject::SetObjectAttributes**](idirectoryobject-setobjectattributes.md) method to modify attribute values. To use this method, you must fill in an [**ADS\_ATTR\_INFO**](ads-attr-info.md) structure for each attribute to modify.
+In addition to [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) and [**IADs::PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master), you can use the [**IDirectoryObject::SetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-setobjectattributes?branch=master) method to modify attribute values. To use this method, you must fill in an [**ADS\_ATTR\_INFO**](/windows/win32/Iads/ns-iads-_ads_attr_info?branch=master) structure for each attribute to modify.
 
-The [**IDirectoryObject::SetObjectAttributes**](idirectoryobject-setobjectattributes.md) method enables you to modify both single-valued and multi-valued attributes. This function provides similar operational controls, such as clear, append, delete, and update, to those found in the [**IADs::PutEx**](iads-putex.md) method. The control constants include:
+The [**IDirectoryObject::SetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-setobjectattributes?branch=master) method enables you to modify both single-valued and multi-valued attributes. This function provides similar operational controls, such as clear, append, delete, and update, to those found in the [**IADs::PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master) method. The control constants include:
 
 -   [**ADS\_ATTR\_CLEAR**](adsi-attribute-modification-types.md)
 -   [**ADS\_ATTR\_UPDATE**](adsi-attribute-modification-types.md)
@@ -25,13 +31,13 @@ The [**IDirectoryObject::SetObjectAttributes**](idirectoryobject-setobjectattrib
 Specifying [**ADS\_ATTR\_UPDATE**](adsi-attribute-modification-types.md) will trigger a server side operation that can be resource-intensive. An example would be to initiate the operation to update a long list of group membership. In general, refrain from using this operation unless the modification involves a small number of attributes in the directory. To modify a long list of group memberships, the more efficient approach would be to read the list from the underlying directory, make modifications, and store the updated list back to the directory.
 
 > [!Note]  
-> Like [**IADs::Put**](iads-put.md) and [**IADs::PutEx**](iads-putex.md) with [**IADs::SetInfo**](iads-setinfo.md), the attribute changes are either completely committed or discarded in Active Directory. If one or more of the modifications are not allowed and therefore not able to be performed, then none of the collective modifications made to the attributes are committed to the directory.
+> Like [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master) and [**IADs::PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master) with [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master), the attribute changes are either completely committed or discarded in Active Directory. If one or more of the modifications are not allowed and therefore not able to be performed, then none of the collective modifications made to the attributes are committed to the directory.
 
  
 
 ## Example
 
-The following code example shows how to modify both single and multi-valued attributes with the [**IDirectoryObject::SetObjectAttributes**](idirectoryobject-setobjectattributes.md) method.
+The following code example shows how to modify both single and multi-valued attributes with the [**IDirectoryObject::SetObjectAttributes**](/windows/win32/Iads/nf-iads-idirectoryobject-setobjectattributes?branch=master) method.
 
 
 ```C++

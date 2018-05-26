@@ -1,8 +1,9 @@
 ---
 title: BM\_SETSTATE message
 description: Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can send this message explicitly or use the Button\_SetState macro.
-ms.assetid: '675ebe8d-b381-46ca-b328-ebe9f25d864a'
-keywords: ["BM_SETSTATE message Windows Controls"]
+ms.assetid: 675ebe8d-b381-46ca-b328-ebe9f25d864a
+keywords:
+- BM_SETSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BM\_SETSTATE message
 
-Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can send this message explicitly or use the [**Button\_SetState**](button-setstate.md) macro.
+Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can send this message explicitly or use the [**Button\_SetState**](/windows/win32/Windowsx/nf-windowsx-button_setstate?branch=master) macro.
 
 ## Parameters
 
@@ -51,8 +57,8 @@ A button is automatically highlighted when the user positions the cursor over it
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,9 +76,9 @@ A button is automatically highlighted when the user positions the cursor over it
 [**BM\_SETCHECK**](bm-setcheck.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

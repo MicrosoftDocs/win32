@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets texel barycentric coordinates.'
-ms.assetid: '6c7c74aa-71a3-45aa-9b18-6409fbd63bda'
-title: 'ID3DXTextureGutterHelper::SetBaryMap method'
+---
+Description: Sets texel barycentric coordinates.
+ms.assetid: 6c7c74aa-71a3-45aa-9b18-6409fbd63bda
+title: ID3DXTextureGutterHelperSetBaryMap method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureGutterHelper::SetBaryMap method

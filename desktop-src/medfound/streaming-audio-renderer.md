@@ -1,7 +1,12 @@
 ---
-Description: 'The streaming audio renderer (SAR) is a media sink that renders audio.'
-ms.assetid: '5884a128-597d-432b-a706-e10c894d7965'
+Description: The streaming audio renderer (SAR) is a media sink that renders audio.
+ms.assetid: 5884a128-597d-432b-a706-e10c894d7965
 title: Streaming Audio Renderer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Streaming Audio Renderer
@@ -10,8 +15,8 @@ The streaming audio renderer (SAR) is a media sink that renders audio. Each inst
 
 To create the SAR, call either of the following functions:
 
--   [**MFCreateAudioRenderer**](mfcreateaudiorenderer.md). Returns a pointer to the SAR.
--   [**MFCreateAudioRendererActivate**](mfcreateaudiorendereractivate.md). Returns a pointer to an activation object, which can be used to create the SAR.
+-   [**MFCreateAudioRenderer**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorenderer?branch=master). Returns a pointer to the SAR.
+-   [**MFCreateAudioRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorendereractivate?branch=master). Returns a pointer to an activation object, which can be used to create the SAR.
 
 The second function, which returns an activation object, is required if you are playing protected content, because the activation object must be serialized to the protected process. For clear content, you can use either function.
 
@@ -19,13 +24,13 @@ The SAR can receive uncompressed audio in either PCM or IEEE floating-point form
 
 ## Configuring the Audio Renderer
 
-The SAR supports several configuration attributes. The mechanism for setting these attributes depends on which function you call to create the SAR. If you use the [**MFCreateAudioRenderer**](mfcreateaudiorenderer.md) function, do the following:
+The SAR supports several configuration attributes. The mechanism for setting these attributes depends on which function you call to create the SAR. If you use the [**MFCreateAudioRenderer**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorenderer?branch=master) function, do the following:
 
-1.  Create a new attribute store by calling [**MFCreateAttributes**](mfcreateattributes.md).
+1.  Create a new attribute store by calling [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master).
 2.  Add the attributes to the attribute store.
-3.  Pass the attribute store to the [**MFCreateAudioRenderer**](mfcreateaudiorenderer.md) function in the *pAudioAttributes* parameter.
+3.  Pass the attribute store to the [**MFCreateAudioRenderer**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorenderer?branch=master) function in the *pAudioAttributes* parameter.
 
-If you use the [**MFCreateAudioRendererActivate**](mfcreateaudiorendereractivate.md) function, the function returns a pointer to the [**IMFAttributes**](imfattributes.md) interface in the *ppActivate* parameter. Use this pointer to add the attributes.
+If you use the [**MFCreateAudioRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorendereractivate?branch=master) function, the function returns a pointer to the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface in the *ppActivate* parameter. Use this pointer to add the attributes.
 
 For a list of configuration attributes, see [Audio Renderer Attributes](audio-renderer-attributes.md).
 
@@ -45,7 +50,7 @@ Rather than enumerate devices, you can specify the audio device by its *role*. A
 
 The two attributes listed in this section are mutually exclusive. If you do not set either of them, the SAR uses the audio device that is assigned to the **eConsole** role.
 
-The following code enumerates the audio rendering devices and assigns the first device in the list to the SAR. This example uses the [**MFCreateAudioRenderer**](mfcreateaudiorenderer.md) function to create the SAR.
+The following code enumerates the audio rendering devices and assigns the first device in the list to the SAR. This example uses the [**MFCreateAudioRenderer**](/windows/win32/mfidl/nf-mfidl-mfcreateaudiorenderer?branch=master) function to create the SAR.
 
 
 ```C++
@@ -146,11 +151,11 @@ An audio session is a group of related audio streams that an application can man
 
 By default, an audio session is process-specific, meaning it contains only streams from the calling process. To join a cross-process session, set the [MF\_AUDIO\_RENDERER\_ATTRIBUTE\_FLAGS](mf-audio-renderer-attribute-flags-attribute.md) attribute with the value **MF\_AUDIO\_RENDERER\_ATTRIBUTE\_FLAGS\_CROSSPROCESS**.
 
-After you create the SAR, you use the [**IMFAudioPolicy**](imfaudiopolicy.md) interface to join the session to a group of sessions, all of which are controlled by the same volume control in the control panel. You can also use this interface to set the display name and the icon that appear in the volume control.
+After you create the SAR, you use the [**IMFAudioPolicy**](/windows/win32/mfidl/nn-mfidl-imfaudiopolicy?branch=master) interface to join the session to a group of sessions, all of which are controlled by the same volume control in the control panel. You can also use this interface to set the display name and the icon that appear in the volume control.
 
 ## Controlling Volume Levels
 
-To control the master volume level of all the streams in the SAR's audio session, use the [**IMFSimpleAudioVolume**](imfsimpleaudiovolume.md) interface. To control the volume of an individual stream, or to control the volume of individual channels within a stream, use the [**IMFAudioStreamVolume**](imfaudiostreamvolume.md) interface. Both interfaces are obtained by calling [**IMFGetService::GetService**](imfgetservice-getservice.md). You can call **GetService** directly on the SAR, or call it on the Media Session. Volume levels are expressed as attenuation values. For each channel, the attenuation level is the product of the master volume and the channel volume.
+To control the master volume level of all the streams in the SAR's audio session, use the [**IMFSimpleAudioVolume**](/windows/win32/mfidl/nn-mfidl-imfsimpleaudiovolume?branch=master) interface. To control the volume of an individual stream, or to control the volume of individual channels within a stream, use the [**IMFAudioStreamVolume**](/windows/win32/mfidl/nn-mfidl-imfaudiostreamvolume?branch=master) interface. Both interfaces are obtained by calling [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master). You can call **GetService** directly on the SAR, or call it on the Media Session. Volume levels are expressed as attenuation values. For each channel, the attenuation level is the product of the master volume and the channel volume.
 
 ## Related topics
 

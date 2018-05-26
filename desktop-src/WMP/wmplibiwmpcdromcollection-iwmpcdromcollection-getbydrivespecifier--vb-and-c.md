@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromCollection getByDriveSpecifier method
 description: The getByDriveSpecifier method returns an IWMPCdrom interface associated with a particular drive letter.
-ms.assetid: '4a550eb1-a37e-43fd-9e08-801c4fd64e68'
-keywords: ["getByDriveSpecifier method Windows Media Player", "getByDriveSpecifier method Windows Media Player , IWMPCdromCollection interface", "IWMPCdromCollection interface Windows Media Player , getByDriveSpecifier method"]
+ms.assetid: 4a550eb1-a37e-43fd-9e08-801c4fd64e68
+keywords:
+- getByDriveSpecifier method Windows Media Player
+- getByDriveSpecifier method Windows Media Player , IWMPCdromCollection interface
+- IWMPCdromCollection interface Windows Media Player , getByDriveSpecifier method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromCollection::getByDriveSpecifier method
@@ -150,9 +158,9 @@ drive.eject()</code></pre></td>
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

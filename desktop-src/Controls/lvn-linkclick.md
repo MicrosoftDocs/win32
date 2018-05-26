@@ -1,8 +1,9 @@
 ---
 title: LVN\_LINKCLICK notification code
-description: Notifies a list-view control's parent window that a link has been clicked on. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'de8f40d6-b79e-4324-af67-9a3c0915609d'
-keywords: ["LVN_LINKCLICK notification code Windows Controls"]
+description: Notifies a list-view controls parent window that a link has been clicked on. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: de8f40d6-b79e-4324-af67-9a3c0915609d
+keywords:
+- LVN_LINKCLICK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_LINKCLICK notification code
@@ -33,7 +39,7 @@ LVN_LINKCLICK
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVLINK**](nmlvlink.md) structure. The identifier of the group containing the link is in the **iSubItem** member.
+Pointer to an [**NMLVLINK**](/windows/win32/Commctrl/ns-commctrl-tagnmlvlink?branch=master) structure. The identifier of the group containing the link is in the **iSubItem** member.
 
 </dd> </dl>
 
@@ -75,15 +81,15 @@ case LVN_LINKCLICK:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IVMFloppyDrive HostDriveLetter property
 description: The letter of the host drive to which the floppy drive is attached.
-ms.assetid: '16d11e06-e3bc-4a4a-850d-f7b4122e6af9'
-keywords: ["HostDriveLetter property Virtual PC", "HostDriveLetter property Virtual PC , IVMFloppyDrive interface", "IVMFloppyDrive interface Virtual PC , HostDriveLetter property"]
+ms.assetid: 16d11e06-e3bc-4a4a-850d-f7b4122e6af9
+keywords:
+- HostDriveLetter property Virtual PC
+- HostDriveLetter property Virtual PC , IVMFloppyDrive interface
+- IVMFloppyDrive interface Virtual PC , HostDriveLetter property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive::HostDriveLetter property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the letter of the host drive to which the floppy drive is attached.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HostDriveLetter(
-  [out, retval] BSTR *driveLetter
+  [out, retval] BSTR *driveLetter
 );
 ```
 
@@ -56,9 +64,9 @@ The letter of the physical floppy drive.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMFloppyDrive is defined as 661abee6-112a-4ed9-babf-3c874969f10e<br/>             |
@@ -72,9 +80,9 @@ The letter of the physical floppy drive.
 [**IVMFloppyDrive**](ivmfloppydrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

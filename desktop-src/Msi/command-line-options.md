@@ -1,14 +1,19 @@
 ---
-Description: 'Command-line options for msiexec.exe for Windows Installer 3.0 and earlier. Provides a table showing options, parameters, and descriptions. Examples showing how to install products and other tasks.'
-ms.assetid: 'a70d8cc8-af47-4472-aabc-97481d97080d'
-title: 'Command-Line Options'
+Description: Command-line options for msiexec.exe for Windows Installer 3.0 and earlier. Provides a table showing options, parameters, and descriptions. Examples showing how to install products and other tasks.
+ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
+title: Command-Line Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command-Line Options
 
 The executable program that interprets packages and installs products is Msiexec.exe. Note that Msiexec also sets an error level on return that corresponds to [system error codes](https://msdn.microsoft.com/library/windows/desktop/ms681381). Command-line options are case-insensitive.
 
-The command-line options in the following table are available with Windows Installer  3.0 and earlier versions. The [Standard Installer Command-Line Options](standard-installer-command-line-options.md) are also available beginning with Windows Installer 3.0.
+The command-line options in the following table are available with Windows Installer  3.0 and earlier versions. The [Standard Installer Command-Line Options](standard-installer-command-line-options.md) are also available beginning with Windows Installer 3.0.
 
 
 
@@ -73,8 +78,8 @@ The length of <em>filename</em> must be no more than eight characters.
 </tr>
 <tr class="even">
 <td><strong>/p</strong></td>
-<td><em>PatchPackage[;patchPackage2</em>…]</td>
-<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em>&lt;PatchPackage&gt;[;patchPackage2…]</em> /a <em>&lt;Package&gt;</em><br/></td>
+<td><em>PatchPackage[;patchPackage2</em> ]</td>
+<td>Applies a patch. To apply a patch to an installed administrative image you must combine the following options:<br/> /p <em>&lt;PatchPackage&gt;[;patchPackage2 ]</em> /a <em>&lt;Package&gt;</em><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/q</strong></td>
@@ -83,7 +88,7 @@ The length of <em>filename</em> must be no more than eight characters.
 </tr>
 <tr class="even">
 <td><strong>/?</strong> or <strong>/h</strong></td>
-<td> </td>
+<td> </td>
 <td>Displays copyright information for Windows Installer.<br/></td>
 </tr>
 <tr class="odd">
@@ -99,19 +104,19 @@ The length of <em>filename</em> must be no more than eight characters.
 <tr class="odd">
 <td><strong>/c</strong></td>
 
-<td>Advertises a new instance of the product. Must be used in conjunction with /t. Available starting with the Windows Installer version that is shipped with Windows Server 2003 and Windows XP with Service Pack 1 (SP1).<br/></td>
+<td>Advertises a new instance of the product. Must be used in conjunction with /t. Available starting with the Windows Installer version that is shipped with Windows Server 2003 and Windows XP with Service Pack 1 (SP1).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/n</strong></td>
 <td><em>ProductCode</em></td>
-<td>Specifies a particular instance of the product. Used to identify an instance installed using the multiple instance support through a product code changing transforms. Available starting with the Windows Installer version shipped with Windows Server 2003 and Windows XP with SP1. <br/></td>
+<td>Specifies a particular instance of the product. Used to identify an instance installed using the multiple instance support through a product code changing transforms. Available starting with the Windows Installer version shipped with Windows Server 2003 and Windows XP with SP1. <br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 The options /i, /x, /f\[p\|o\|e\|d\|c\|a\|u\|m\|s\|v\], /j\[u\|m\], /a, /p, /y and /z should not be used together. The one exception to this rule is that patching an [administrative installation](administrative-installation.md) requires using both /p and /a. The options /t, /c and /g should only be used with /j. The options /l and /q can be used with /i, /x, /f\[p\|o\|e\|d\|c\|a\|u\|m\|s\|v\], /j\[u\|m\], /a, and /p. The option /n can be used with /i, /f, /x and /p.
 
@@ -165,9 +170,9 @@ When you apply patches to a specific product, the /i and /p options cannot be sp
 
 The [**PATCH**](patch.md) property cannot be set in a command line, when /p option is used. If the **PATCH** property is set when the /p option is used, the value of **PATCH** property is ignored and overwritten.
 
- 
+ 
 
- 
+ 
 
 
 

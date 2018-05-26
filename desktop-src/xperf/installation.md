@@ -1,8 +1,22 @@
 ---
 title: Installation
 description: Installation
-ms.assetid: '8ab613f2-3327-465f-9b02-1e63023a0053'
-keywords: ["Windows Performance Analyzer, installation", ".msi", "PATH", "install", "target system", "perfctrl.dll", "x64", "Windows XP", "Windows Server 2003"]
+ms.assetid: 8ab613f2-3327-465f-9b02-1e63023a0053
+keywords:
+- Windows Performance Analyzer, installation
+- .msi
+- PATH
+- install
+- target system
+- perfctrl.dll
+- x64
+- Windows XP
+- Windows Server 2003
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installation

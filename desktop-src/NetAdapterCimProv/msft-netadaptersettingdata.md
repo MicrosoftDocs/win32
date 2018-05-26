@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the base class for network adapter settings.'
-ms.assetid: 'fa81c7e8-611e-4992-8035-b3417c31f6aa'
-title: 'MSFT\_NetAdapterSettingData class'
+Description: Represents the base class for network adapter settings.
+ms.assetid: fa81c7e8-611e-4992-8035-b3417c31f6aa
+title: MSFT\_NetAdapterSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterSettingData class
@@ -171,16 +176,16 @@ The scoping System\\'s Name.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

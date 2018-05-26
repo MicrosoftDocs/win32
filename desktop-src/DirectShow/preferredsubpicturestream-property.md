@@ -1,7 +1,12 @@
 ---
-Description: 'The PreferredSubpictureStream property retrieves the preferred subpicture stream for the current viewing session.'
-ms.assetid: '9c15dc6f-c016-41bf-b03d-e8e5415215ae'
+Description: The PreferredSubpictureStream property retrieves the preferred subpicture stream for the current viewing session.
+ms.assetid: 9c15dc6f-c016-41bf-b03d-e8e5415215ae
 title: PreferredSubpictureStream Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PreferredSubpictureStream Property

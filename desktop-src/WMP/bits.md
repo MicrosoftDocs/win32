@@ -1,8 +1,18 @@
 ---
 title: BITS
 description: BITS
-ms.assetid: '67159ad9-e11b-4fea-bff2-468d5a7447be'
-keywords: ["Windows Media Player online stores,Background Intelligent Transfer Service (BITS)", "online stores,Background Intelligent Transfer Service (BITS)", "type 2 online stores,Background Intelligent Transfer Service (BITS)", "Background Intelligent Transfer Service (BITS)", "BITS (Background Intelligent Transfer Service)"]
+ms.assetid: 67159ad9-e11b-4fea-bff2-468d5a7447be
+keywords:
+- Windows Media Player online stores,Background Intelligent Transfer Service (BITS)
+- online stores,Background Intelligent Transfer Service (BITS)
+- type 2 online stores,Background Intelligent Transfer Service (BITS)
+- Background Intelligent Transfer Service (BITS)
+- BITS (Background Intelligent Transfer Service)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS

@@ -1,14 +1,20 @@
 ---
 title: event.screenX
 description: The screenX attribute retrieves the absolute x-coordinate of the mouse pointer with respect to the screen.
-ms.assetid: '120c9247-183d-4324-8940-519d43687e9f'
-keywords: ["event.screenX Windows Media Player"]
+ms.assetid: 120c9247-183d-4324-8940-519d43687e9f
+keywords:
+- event.screenX Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.screenX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.screenX
@@ -43,9 +49,9 @@ This attribute is a read-only **Number** (**long**).
 [**event.screenY**](event-screeny.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

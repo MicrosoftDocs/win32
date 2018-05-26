@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines what information is to be queried from a certificate.'
-ms.assetid: 'b603c06b-e6d4-4d5d-92b2-3b4f5b93478a'
-title: 'CAPICOM\_CERT\_INFO\_TYPE enumeration'
+---
+Description: Defines what information is to be queried from a certificate.
+ms.assetid: b603c06b-e6d4-4d5d-92b2-3b4f5b93478a
+title: CAPICOM\_CERT\_INFO\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_CERT\_INFO\_TYPE enumeration

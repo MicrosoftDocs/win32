@@ -1,8 +1,23 @@
 ---
 title: HTML Clipboard Format
 description: This section discusses the HTML Clipboard format.
-ms.assetid: 'e891393f-234f-4c94-b581-c4e5f885d2ab'
-keywords: ["Windows User Interface,clipboard", "clipboard,cutting data", "clipboard,copying data", "clipboard,pasting data", "clipboard,formats", "clipboard,HTML format", "clipboard,cutting HTML text", "clipboard,pasting HTML text", "CF_HTML clipboard format", "clipboard,CF_HTML format"]
+ms.assetid: e891393f-234f-4c94-b581-c4e5f885d2ab
+keywords:
+- Windows User Interface,clipboard
+- clipboard,cutting data
+- clipboard,copying data
+- clipboard,pasting data
+- clipboard,formats
+- clipboard,HTML format
+- clipboard,cutting HTML text
+- clipboard,pasting HTML text
+- CF_HTML clipboard format
+- clipboard,CF_HTML format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Clipboard Format

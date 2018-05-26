@@ -1,8 +1,10 @@
 ---
 title: BcdObjectListElement class
 description: Represents a list of objects.
-ms.assetid: '2ec1df00-16a4-48d8-8fd0-ffa4ad2d9b90'
-keywords: ["BcdObjectListElement class Boot Config", "BcdObjectListElement class Boot Config , described"]
+ms.assetid: 2ec1df00-16a4-48d8-8fd0-ffa4ad2d9b90
+keywords:
+- BcdObjectListElement class Boot Config
+- BcdObjectListElement class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdObjectListElement class
@@ -58,8 +65,8 @@ The array of object identifiers.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -75,9 +82,9 @@ The array of object identifiers.
 [**SetObjectListElement**](setobjectlistelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

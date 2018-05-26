@@ -1,7 +1,12 @@
 ---
-Description: 'The following example creates a random session key, gets and prints some default parameters of that key, sets a new parameters on the original key, then gets and prints the value of that new parameter.'
-ms.assetid: '00f93036-05c9-4585-842a-a42a7faea2a5'
-title: 'Example C Program: Setting and Getting Session Key Parameters'
+Description: The following example creates a random session key, gets and prints some default parameters of that key, sets a new parameters on the original key, then gets and prints the value of that new parameter.
+ms.assetid: 00f93036-05c9-4585-842a-a42a7faea2a5
+title: Example C Program Setting and Getting Session Key Parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Setting and Getting Session Key Parameters
@@ -10,13 +15,13 @@ The following example creates a random session key, gets and prints some default
 
 This example illustrates the use of the following tasks and functions:
 
--   Accessing a CSP using [**CryptAcquireContext**](cryptacquirecontext.md).
--   Filing a buffer with random bytes using [**CryptGenRandom**](cryptgenrandom.md).
--   Creating a session key using [**CryptGenKey**](cryptgenkey.md).
--   Getting the value of key parameters using [**CryptGetKeyParam**](cryptgetkeyparam.md).
--   Using [**CryptSetKeyParam**](cryptsetkeyparam.md) to alter the key generation process.
--   Destroying the keys using [**CryptDestroyKey**](cryptdestroykey.md).
--   Releasing the CSP with [**CryptReleaseContext**](cryptreleasecontext.md).
+-   Accessing a CSP using [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master).
+-   Filing a buffer with random bytes using [**CryptGenRandom**](/windows/win32/Wincrypt/nf-wincrypt-cryptgenrandom?branch=master).
+-   Creating a session key using [**CryptGenKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgenkey?branch=master).
+-   Getting the value of key parameters using [**CryptGetKeyParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetkeyparam?branch=master).
+-   Using [**CryptSetKeyParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetkeyparam?branch=master) to alter the key generation process.
+-   Destroying the keys using [**CryptDestroyKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptdestroykey?branch=master).
+-   Releasing the CSP with [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master).
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

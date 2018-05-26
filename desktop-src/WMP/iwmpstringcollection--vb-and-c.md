@@ -1,8 +1,10 @@
 ---
 title: IWMPStringCollection (VB and C\ ) interface
 description: Provides a property and a method for accessing a collection of strings by index number.The IWMPStringCollection interface exposes the following property.
-ms.assetid: '03d163f9-40a5-4aff-b36e-b9c6a1d11905'
-keywords: ["IWMPStringCollection (VB and C ) interface Windows Media Player", "IWMPStringCollection (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 03d163f9-40a5-4aff-b36e-b9c6a1d11905
+keywords:
+- IWMPStringCollection (VB and C ) interface Windows Media Player
+- IWMPStringCollection (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPStringCollection (VB and C#) interface
@@ -38,7 +45,7 @@ The **IWMPStringCollection (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -52,7 +59,7 @@ The **IWMPStringCollection (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPStringCollection** interface by using the following methods.
 
@@ -60,11 +67,11 @@ Get an **IWMPStringCollection** interface by using the following methods.
 
 | Object                                                   | Property                                                                                 |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [IWMPMediaCollection](iwmpmediacollection--vb-and-c.md) | [**getAttributeStringCollection**](iwmpmediacollection-getattributestringcollection.md) |
+| [IWMPMediaCollection](iwmpmediacollection--vb-and-c.md) | [**getAttributeStringCollection**](/windows/win32/wmp/nf-wmp-iwmpmediacollection-getattributestringcollection?branch=master) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,9 +93,9 @@ Get an **IWMPStringCollection** interface by using the following methods.
 [**IWMPStringCollection2 Interface (VB and C#)**](iwmpstringcollection2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

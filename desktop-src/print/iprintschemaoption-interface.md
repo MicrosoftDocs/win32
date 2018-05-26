@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes a Print Schema Option object.'
-ms.assetid: 'B520875A-7882-43D5-A890-0F82654EFD6C'
+---
+Description: Exposes a Print Schema Option object.
+ms.assetid: B520875A-7882-43D5-A890-0F82654EFD6C
 title: IPrintSchemaOption interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOption interface

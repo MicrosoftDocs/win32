@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'D93D09AE-B0B8-4682-BBBA-1EEC952A733D'
-title: 'NOTIFICATION\_CALLBACK\_COMMANDS enumeration'
+---
+Description: .
+ms.assetid: D93D09AE-B0B8-4682-BBBA-1EEC952A733D
+title: NOTIFICATION\_CALLBACK\_COMMANDS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NOTIFICATION\_CALLBACK\_COMMANDS enumeration

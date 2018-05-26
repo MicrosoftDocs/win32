@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the name of the cryptographic key container used to store the private key.'
+Description: Retrieves the name of the cryptographic key container used to store the private key.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '174eea00-adae-4f46-ac34-a9f39f78b337'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 174eea00-adae-4f46-ac34-a9f39f78b337
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServicePrivateKeyProtectionInformation.KeyContainer property'
+title: ServicePrivateKeyProtectionInformation.KeyContainer property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServicePrivateKeyProtectionInformation.KeyContainer property
@@ -100,7 +103,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -112,9 +115,9 @@ END FUNCTION
 [**ServicePrivateKeyProtectionInformation**](serviceprivatekeyprotectioninformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

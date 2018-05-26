@@ -1,14 +1,20 @@
 ---
 title: Arguments (execType) Element
 description: Specifies the arguments associated with the command-line operation.
-ms.assetid: '37207c4f-941c-4cbf-9a81-5876b224a7c1'
-keywords: ["Arguments element Task Scheduler"]
+ms.assetid: 37207c4f-941c-4cbf-9a81-5876b224a7c1
+keywords:
+- Arguments element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Arguments
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Arguments (execType) Element
@@ -35,7 +41,7 @@ The **Arguments** element is defined by the [**execType**](taskschedulerschema-e
 
 ## Remarks
 
-For C++ development, see the [**Arguments property of IExecAction**](iexecaction-arguments.md).
+For C++ development, see the [**Arguments property of IExecAction**](/windows/win32/taskschd/nf-taskschd-iexecaction-get_arguments?branch=master).
 
 For script development, see [**ExecAction.Arguments**](execaction-arguments.md).
 
@@ -49,8 +55,8 @@ For a complete example of the XML for a task that uses an executable action, see
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ For a complete example of the XML for a task that uses an executable action, see
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

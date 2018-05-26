@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer DeleteVirtualMachine method
 description: The DeleteVirtualMachine method deletes a virtual machine configuration.
-ms.assetid: '3b3ffb6c-6955-4b60-ac95-b3870d67c516'
-keywords: ["DeleteVirtualMachine method Virtual Server", "DeleteVirtualMachine method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , DeleteVirtualMachine method"]
+ms.assetid: 3b3ffb6c-6955-4b60-ac95-b3870d67c516
+keywords:
+- DeleteVirtualMachine method Virtual Server
+- DeleteVirtualMachine method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , DeleteVirtualMachine method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::DeleteVirtualMachine method
@@ -22,7 +30,7 @@ The **DeleteVirtualMachine** method deletes a virtual machine configuration.
 
 ```C++
 HRESULT DeleteVirtualMachine(
-  [in] IVMVirtualMachine *virtualMachine
+  [in] IVMVirtualMachine *virtualMachine
 );
 ```
 
@@ -57,7 +65,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +77,8 @@ Only stopped virtual machines can be deleted. Note that any existing saved state
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -82,9 +90,9 @@ Only stopped virtual machines can be deleted. Note that any existing saved state
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

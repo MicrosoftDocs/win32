@@ -1,7 +1,12 @@
 ---
 title: Video Classes
 description: All virtual machines reflect the presence of an emulated S3 video controller and an accelerated, synthetic video controller.
-ms.assetid: '0a02f8f5-f117-46e2-b4c8-822033d40523'
+ms.assetid: 0a02f8f5-f117-46e2-b4c8-822033d40523
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Classes
@@ -30,7 +35,7 @@ The following are virtualization WMI classes related to video.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +44,9 @@ The following are virtualization WMI classes related to video.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

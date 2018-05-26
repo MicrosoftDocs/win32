@@ -1,8 +1,9 @@
 ---
 title: WM\_KILLFOCUS message
 description: Sent to a window immediately before it loses the keyboard focus.
-ms.assetid: '6d32a09b-a856-4f94-9544-3345b3a700f4'
-keywords: ["WM_KILLFOCUS message Keyboard and Mouse Input"]
+ms.assetid: 6d32a09b-a856-4f94-9544-3345b3a700f4
+keywords:
+- WM_KILLFOCUS message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_KILLFOCUS message
@@ -58,8 +64,8 @@ While processing this message, do not make any function calls that display or ac
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -83,9 +89,9 @@ While processing this message, do not make any function calls that display or ac
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

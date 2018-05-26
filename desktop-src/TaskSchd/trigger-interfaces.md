@@ -1,8 +1,15 @@
 ---
 title: Trigger Interfaces
 description: The APIs that are used to manage triggers vary depending on the version of the Task Scheduler. However, in both cases these APIs enable you to create new triggers, retrieve and update existing triggers, and delete triggers that are no longer required.
-ms.assetid: '94c11f11-72e2-404f-b396-ab7b1be71942'
-keywords: ["triggers Task Scheduler , interfaces", "triggers Task Scheduler , interfaces, described"]
+ms.assetid: 94c11f11-72e2-404f-b396-ab7b1be71942
+keywords:
+- triggers Task Scheduler , interfaces
+- triggers Task Scheduler , interfaces, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger Interfaces
@@ -39,31 +46,31 @@ For more information about the methods and properties of the objects that are us
 
 For more information about the methods and properties of the interfaces that are used to specify triggers, see:
 
--   [**ITaskDefinition**](itaskdefinition.md)
--   [**ITriggerCollection**](itriggercollection.md)
--   [**ITrigger**](itrigger.md)
--   [**IBootTrigger**](iboottrigger.md)
--   [**IDailyTrigger**](idailytrigger.md)
--   [**IEventTrigger**](ieventtrigger.md)
--   [**IIdleTrigger**](iidletrigger.md)
--   [**ILogonTrigger**](ilogontrigger.md)
--   [**IMonthlyDOWTrigger**](imonthlydowtrigger.md)
--   [**IMonthlyTrigger**](imonthlytrigger.md)
--   [**IRegistrationTrigger**](iregistrationtrigger.md)
--   [**ITimeTrigger**](itimetrigger.md)
--   [**IWeeklyTrigger**](iweeklytrigger.md)
+-   [**ITaskDefinition**](/windows/win32/taskschd/nn-taskschd-itaskdefinition?branch=master)
+-   [**ITriggerCollection**](/windows/win32/taskschd/nn-taskschd-itriggercollection?branch=master)
+-   [**ITrigger**](/windows/win32/taskschd/nn-taskschd-itrigger?branch=master)
+-   [**IBootTrigger**](/windows/win32/taskschd/nn-taskschd-iboottrigger?branch=master)
+-   [**IDailyTrigger**](/windows/win32/taskschd/nn-taskschd-idailytrigger?branch=master)
+-   [**IEventTrigger**](/windows/win32/taskschd/nn-taskschd-ieventtrigger?branch=master)
+-   [**IIdleTrigger**](/windows/win32/taskschd/?branch=master)
+-   [**ILogonTrigger**](/windows/win32/taskschd/nn-taskschd-ilogontrigger?branch=master)
+-   [**IMonthlyDOWTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlydowtrigger?branch=master)
+-   [**IMonthlyTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlytrigger?branch=master)
+-   [**IRegistrationTrigger**](/windows/win32/taskschd/nn-taskschd-iregistrationtrigger?branch=master)
+-   [**ITimeTrigger**](/windows/win32/taskschd/nn-taskschd-itimetrigger?branch=master)
+-   [**IWeeklyTrigger**](/windows/win32/taskschd/nn-taskschd-iweeklytrigger?branch=master)
 
 ## Task Scheduler 1.0 Trigger Interfaces
 
 Existing applications that are developed using Task Scheduler 1.0 can use the methods that are available from the Task Scheduler 1.0 interfaces to create, retrieve, modify, and delete the triggers for a [*work item*](w.md#-msb-work-items-gly). However, note that all Task Scheduler 1.0 interfaces, enumerations, and structures are obsolete and should not be used for the development of new applications.
 
-The two interfaces that are used to do this are shown in the following illustration. The [**IScheduledWorkItem**](ischeduledworkitem.md) interface is used to manage all the triggers that are associated with a work item (such management includes creating a new trigger for the work item). The [**ITaskTrigger**](itasktrigger.md) interface is used to manage a specific trigger.
+The two interfaces that are used to do this are shown in the following illustration. The [**IScheduledWorkItem**](/windows/win32/Mstask/nn-mstask-ischeduledworkitem?branch=master) interface is used to manage all the triggers that are associated with a work item (such management includes creating a new trigger for the work item). The [**ITaskTrigger**](/windows/win32/Mstask/nn-mstask-itasktrigger?branch=master) interface is used to manage a specific trigger.
 
 ![task scheduler 1.0 trigger interfaces](images/tsktri2.png)
 
-The [**IScheduledWorkItem**](ischeduledworkitem.md) interface provides methods for creating a new trigger for a work item, retrieving the number of triggers that are associated with a work item, retrieving the [*trigger structures*](t.md#-msb-trigger-structures-gly) that are associated with the work item, retrieving [*trigger strings*](t.md#-msb-trigger-strings-gly) that are associated with the work item, and for deleting triggers.
+The [**IScheduledWorkItem**](/windows/win32/Mstask/nn-mstask-ischeduledworkitem?branch=master) interface provides methods for creating a new trigger for a work item, retrieving the number of triggers that are associated with a work item, retrieving the [*trigger structures*](t.md#-msb-trigger-structures-gly) that are associated with the work item, retrieving [*trigger strings*](t.md#-msb-trigger-strings-gly) that are associated with the work item, and for deleting triggers.
 
-Once the trigger object is available, you can use the [**ITaskTrigger**](itasktrigger.md) interface to retrieve the trigger structure and the string of the trigger and to set the criteria that is used to fire the trigger. This interface is used only when you are working with a [*task trigger object*](t.md#-msb-task-trigger-objects-gly).
+Once the trigger object is available, you can use the [**ITaskTrigger**](/windows/win32/Mstask/nn-mstask-itasktrigger?branch=master) interface to retrieve the trigger structure and the string of the trigger and to set the criteria that is used to fire the trigger. This interface is used only when you are working with a [*task trigger object*](t.md#-msb-task-trigger-objects-gly).
 
 ## Related topics
 

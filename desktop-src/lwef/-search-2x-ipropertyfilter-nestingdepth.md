@@ -1,8 +1,11 @@
 ---
 title: IPropertyFilter NestingDepth property
 description: Filters depth within a nested set of parentheses.
-ms.assetid: 'a52992b3-d232-46a5-907c-8df6bd5ad6fc'
-keywords: ["NestingDepth property Legacy Windows Environment Features", "NestingDepth property Legacy Windows Environment Features , IPropertyFilter interface", "IPropertyFilter interface Legacy Windows Environment Features , NestingDepth property"]
+ms.assetid: a52992b3-d232-46a5-907c-8df6bd5ad6fc
+keywords:
+- NestingDepth property Legacy Windows Environment Features
+- NestingDepth property Legacy Windows Environment Features , IPropertyFilter interface
+- IPropertyFilter interface Legacy Windows Environment Features , NestingDepth property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyFilter::NestingDepth property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_NestingDepth(
-  [in]          long depth
+  [in]          long depth
 );
 
 HRESULT get_NestingDepth(
-  [out, retval] long *depth
+  [out, retval] long *depth
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the number indicating the depth of nested parentheses.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

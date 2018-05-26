@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the uncompressed formats to which the hardware can decode the data.'
-ms.assetid: '44bcc4e2-0f8e-4292-b4a4-1ebbf899c14a'
+---
+Description: Indicates the uncompressed formats to which the hardware can decode the data.
+ms.assetid: 44bcc4e2-0f8e-4292-b4a4-1ebbf899c14a
 title: NtGdiDdGetMoCompFormats function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdGetMoCompFormats function

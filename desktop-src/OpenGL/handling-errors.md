@@ -1,8 +1,15 @@
 ---
 title: Handling Errors
 description: The gluErrorString function retrieves error strings that correspond to OpenGL or GLU error codes.
-ms.assetid: '59f93c1c-9d15-4980-b246-19257c66b6b8'
-keywords: ["OpenGL Utility (GLU),error codes", "GLU (OpenGL Utility),error codes"]
+ms.assetid: 59f93c1c-9d15-4980-b246-19257c66b6b8
+keywords:
+- OpenGL Utility (GLU),error codes
+- GLU (OpenGL Utility),error codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Errors

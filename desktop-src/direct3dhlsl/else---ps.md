@@ -1,7 +1,12 @@
 ---
 title: else - ps
 description: Start of an else block.
-ms.assetid: '81c21ce0-0a43-43d3-a2e3-84b6828545d3'
+ms.assetid: 81c21ce0-0a43-43d3-a2e3-84b6828545d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # else - ps

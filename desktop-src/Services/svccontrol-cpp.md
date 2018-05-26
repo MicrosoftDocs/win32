@@ -1,7 +1,12 @@
 ---
-Description: 'The following is a sample service control program.'
-ms.assetid: '9d582ab9-028c-48a2-ba34-ab48a9a317ce'
-title: 'SvcControl.cpp'
+Description: The following is a sample service control program.
+ms.assetid: 9d582ab9-028c-48a2-ba34-ab48a9a317ce
+title: SvcControl.cpp
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SvcControl.cpp

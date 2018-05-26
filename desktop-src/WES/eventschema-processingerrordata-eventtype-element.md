@@ -1,14 +1,20 @@
 ---
 title: ProcessingErrorData (EventType) Element
 description: Contains details of the error that occurred while trying to render the event.
-ms.assetid: '03551695-5daa-4c01-951b-82ee331db15a'
-keywords: ["ProcessingErrorData element EventLog"]
+ms.assetid: 03551695-5daa-4c01-951b-82ee331db15a
+keywords:
+- ProcessingErrorData element EventLog
 topic_type:
 - apiref
 api_name:
 - ProcessingErrorData
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessingErrorData (EventType) Element
@@ -29,8 +35,8 @@ The **ProcessingErrorData** element is defined by the [**EventType**](eventschem
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **ProcessingErrorData** element is defined by the [**EventType**](eventschem
 [**Event**](eventschema-event-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

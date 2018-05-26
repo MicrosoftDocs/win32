@@ -1,8 +1,16 @@
 ---
 title: Obtaining State Information
 description: Obtaining State Information
-ms.assetid: '86fc8503-92b9-4b5b-8a28-4c9783983ac6'
-keywords: ["OpenGL,state information", "OpenGL,state variables", "state information OpenGL"]
+ms.assetid: 86fc8503-92b9-4b5b-8a28-4c9783983ac6
+keywords:
+- OpenGL,state information
+- OpenGL,state variables
+- state information OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining State Information

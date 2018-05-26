@@ -1,8 +1,17 @@
 ---
 title: DirectShow and Windows Media
 description: DirectShow and Windows Media
-ms.assetid: 'e2ddc781-9f56-4f77-a191-015018755eff'
-keywords: ["Windows Media Format SDK,DirectShow", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "DirectShow,about"]
+ms.assetid: e2ddc781-9f56-4f77-a191-015018755eff
+keywords:
+- Windows Media Format SDK,DirectShow
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- DirectShow,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectShow and Windows Media

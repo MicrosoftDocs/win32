@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the sample-grabber sink uses the presentation clock to schedule samples.'
-ms.assetid: '780ec4a6-8e14-4b81-9d50-82b2850c70ae'
-title: 'MF\_SAMPLEGRABBERSINK\_IGNORE\_CLOCK attribute'
+---
+Description: Specifies whether the sample-grabber sink uses the presentation clock to schedule samples.
+ms.assetid: 780ec4a6-8e14-4b81-9d50-82b2850c70ae
+title: MF\_SAMPLEGRABBERSINK\_IGNORE\_CLOCK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_SAMPLEGRABBERSINK\_IGNORE\_CLOCK attribute
@@ -14,13 +19,13 @@ Specifies whether the sample-grabber sink uses the presentation clock to schedul
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
-You can set this attribute on the activation object created by the [**MFCreateSampleGrabberSinkActivate**](mfcreatesamplegrabbersinkactivate.md) function. Set the attribute before calling the [**IMFActivate::ActivateObject**](imfactivate-activateobject.md) method on the activation object.
+You can set this attribute on the activation object created by the [**MFCreateSampleGrabberSinkActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatesamplegrabbersinkactivate?branch=master) function. Set the attribute before calling the [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master) method on the activation object.
 
 By default, when the sample-grabber sink receives a sample, it waits until the presentation time of the sample to invoke the application's callback. If the MF\_SAMPLEGRABBERSINK\_IGNORE\_CLOCK attribute is nonzero, the sample-grabber sink ignores the presentation clock and invokes the callback as soon as it receives each sample.
 

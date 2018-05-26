@@ -2,11 +2,14 @@
 title: Add method of the PS\_VpnConnectionRoute class
 description: Adds a route to be plumbed for a VPN profile.
 audience: developer
-ms.assetid: 'B2A6EDD1-49D3-4E8D-81CF-55902E8EE3B4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: B2A6EDD1-49D3-4E8D-81CF-55902E8EE3B4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_VpnConnectionRoute class", "PS_VpnConnectionRoute class, Add method"]
+keywords:
+- Add method
+- Add method, PS_VpnConnectionRoute class
+- PS_VpnConnectionRoute class, Add method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_VpnConnectionRoute class
@@ -26,12 +32,12 @@ Adds a route to be plumbed for a VPN profile.
 
 ```mof
 uint32 Add(
-  [in]  string        ConnectionName,
-  [in]  string        DestinationPrefix,
-  [in]  uint32        RouteMetric,
-  [in]  boolean       PassThru,
-  [in]  boolean       AllUserConnection,
-  [out] MSFT_NetRoute cmdletOutput
+  [in]  string        ConnectionName,
+  [in]  string        DestinationPrefix,
+  [in]  uint32        RouteMetric,
+  [in]  boolean       PassThru,
+  [in]  boolean       AllUserConnection,
+  [out] MSFT_NetRoute cmdletOutput
 );
 ```
 
@@ -89,8 +95,8 @@ When this method returns, contains the [**MSFT\_NetRoute**](https://msdn.microso
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -104,9 +110,9 @@ When this method returns, contains the [**MSFT\_NetRoute**](https://msdn.microso
 [**PS\_VpnConnectionRoute**](ps-vpnconnectionroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

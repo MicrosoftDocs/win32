@@ -1,13 +1,16 @@
 ---
-Description: 'WMI scripts can access the preinstalled WMI Performance Counter Classes, either on the local computer or remotely.'
+Description: WMI scripts can access the preinstalled WMI Performance Counter Classes, either on the local computer or remotely.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '79e47173-c8b6-452d-9400-93e2bd6e9da5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 79e47173-c8b6-452d-9400-93e2bd6e9da5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing Performance Data in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing Performance Data in Script

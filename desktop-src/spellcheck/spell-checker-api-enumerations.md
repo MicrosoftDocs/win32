@@ -1,7 +1,12 @@
 ---
 title: Spell Checker API Enumerations
-ms.assetid: '4CB058B8-832E-42C9-9020-2F682C74F6E5'
+ms.assetid: 4CB058B8-832E-42C9-9020-2F682C74F6E5
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Spell Checker API Enumerations

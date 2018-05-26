@@ -1,8 +1,9 @@
 ---
 title: AxeInitAssessment function
 description: Initializes the assessment portion of the AXE core and instantiates the Support interface in C++.
-ms.assetid: '35261115-4740-4B3B-B9B8-0AA4F219596B'
-keywords: ["AxeInitAssessment function Access Execution Engine"]
+ms.assetid: 35261115-4740-4B3B-B9B8-0AA4F219596B
+keywords:
+- AxeInitAssessment function Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxeInitAssessment function
@@ -22,8 +28,8 @@ Initializes the assessment portion of the AXE core and instantiates the [**Suppo
 
 ```C++
 HRESULT WINAPI AxeInitAssessment(
-  _Inout_opt_ LPVOID                                  pReserved,
-  _Out_       Microsoft::Assessment::Runtime::Support **ppSupport
+  _Inout_opt_ LPVOID                                  pReserved,
+  _Out_       Microsoft::Assessment::Runtime::Support **ppSupport
 );
 ```
 
@@ -59,7 +65,7 @@ If *ppSupport* is **NULL**, the return value is **E\_POINTER**.
 
 ## Remarks
 
-This function is supported on Windows 7, Windows Server 2008 R2, Windows 8, and Windows Server 2012.
+This function is supported on Windows 7, Windows Server 2008 R2, Windows 8, and Windows Server 2012.
 
 This function provides the solution with the primary interface or object in the AXE support. It increments the reference count on the [**Support**](support.md) interface before returning the interface or object to the assessment.
 
@@ -73,16 +79,16 @@ In managed code, this function is a static method of the AssessmentSupport objec
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

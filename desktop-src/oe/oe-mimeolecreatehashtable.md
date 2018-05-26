@@ -1,8 +1,9 @@
 ---
 title: MimeOleCreateHashTable function
 description: Do not use. On success, creates and initializes a hash table.
-ms.assetid: '3992ed63-4720-4364-9208-1b60422466e7'
-keywords: ["MimeOleCreateHashTable function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 3992ed63-4720-4364-9208-1b60422466e7
+keywords:
+- MimeOleCreateHashTable function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleCreateHashTable function
@@ -22,9 +28,9 @@ Do not use. On success, creates and initializes a hash table.
 
 ```C++
 HRESULT MimeOleCreateHashTable(
-  _In_  DWORD      dwSize,
-  _In_  BOOL       fDupeKeys,
-  _Out_ IHashTable **ppHashTable
+  _In_  DWORD      dwSize,
+  _In_  BOOL       fDupeKeys,
+  _Out_ IHashTable **ppHashTable
 );
 ```
 
@@ -77,14 +83,14 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > User is responsible for freeing [**IHashTable**](oe-ihashtable.md) object.
 
- 
+ 
 
 ## Requirements
 
@@ -92,8 +98,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -101,9 +107,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

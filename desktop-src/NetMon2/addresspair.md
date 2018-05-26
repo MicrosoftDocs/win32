@@ -1,7 +1,12 @@
 ---
-Description: 'The ADDRESSPAIR structure constructs a capture filter.'
-ms.assetid: '0dd2bcaa-5e0f-448f-969e-14b923a01a2f'
+Description: The ADDRESSPAIR structure constructs a capture filter.
+ms.assetid: 0dd2bcaa-5e0f-448f-969e-14b923a01a2f
 title: ADDRESSPAIR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADDRESSPAIR structure
@@ -13,8 +18,8 @@ The **ADDRESSPAIR** structure constructs a capture filter.
 
 ```C++
 typedef struct _ADDRESSPAIR {
-  WORD    AddressFlags;
-  WORD    NalReserved;
+  WORD    AddressFlags;
+  WORD    NalReserved;
   ADDRESS DstAddress;
   ADDRESS SrcAddress;
 } ADDRESSPAIR, *LPADDRESSPAIR;
@@ -43,7 +48,7 @@ Flags that describe the addresses used by a capture filter. See Remarks for more
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -84,8 +89,8 @@ For more information about implementing this structure, see [Capture Filters](ca
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -97,9 +102,9 @@ For more information about implementing this structure, see [Capture Filters](ca
 [CAPTUREFILTER](capturefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

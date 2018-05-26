@@ -1,14 +1,20 @@
 ---
 title: lerp
 description: Performs a linear interpolation.
-ms.assetid: 'e369f182-b5bd-4b7f-aa77-9cfe11033bc4'
-keywords: ["lerp HLSL"]
+ms.assetid: e369f182-b5bd-4b7f-aa77-9cfe11033bc4
+keywords:
+- lerp HLSL
 topic_type:
 - apiref
 api_name:
 - lerp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # lerp
@@ -22,7 +28,7 @@ Performs a linear interpolation.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Performs a linear interpolation.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -55,7 +61,7 @@ The result of the linear interpolation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -74,7 +80,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -83,9 +89,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

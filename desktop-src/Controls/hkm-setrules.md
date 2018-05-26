@@ -1,8 +1,9 @@
 ---
 title: HKM\_SETRULES message
 description: Defines the invalid combinations and the default modifier combination for a hot key control.
-ms.assetid: 'de3dd463-a534-4c7c-ae04-da80a3bff2ab'
-keywords: ["HKM_SETRULES message Windows Controls"]
+ms.assetid: de3dd463-a534-4c7c-ae04-da80a3bff2ab
+keywords:
+- HKM_SETRULES message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HKM\_SETRULES message
@@ -41,7 +47,7 @@ An array of flags that specify invalid key combinations. This parameter can be a
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,15 +72,15 @@ When a user enters an invalid key combination, as defined by flags specified in 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

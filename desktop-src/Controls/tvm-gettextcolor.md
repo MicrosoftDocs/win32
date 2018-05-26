@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETTEXTCOLOR message
 description: Retrieves the current text color of the control. You can send this message explicitly or by using the TreeView\_GetTextColor macro.
-ms.assetid: 'fe1aa2e8-fdf2-48d1-936b-6d6bc8e589f4'
-keywords: ["TVM_GETTEXTCOLOR message Windows Controls"]
+ms.assetid: fe1aa2e8-fdf2-48d1-936b-6d6bc8e589f4
+keywords:
+- TVM_GETTEXTCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETTEXTCOLOR message
 
-Retrieves the current text color of the control. You can send this message explicitly or by using the [**TreeView\_GetTextColor**](treeview-gettextcolor.md) macro.
+Retrieves the current text color of the control. You can send this message explicitly or by using the [**TreeView\_GetTextColor**](/windows/win32/Commctrl/nf-commctrl-treeview_gettextcolor?branch=master) macro.
 
 ## Parameters
 
@@ -37,8 +43,8 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 [**TVM\_SETTEXTCOLOR**](tvm-settextcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

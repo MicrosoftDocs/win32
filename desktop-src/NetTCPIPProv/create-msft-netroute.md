@@ -1,7 +1,12 @@
 ---
-Description: 'Create an IP route.'
-ms.assetid: '06dfd275-25f9-48bc-8361-87ab1c905c17'
-title: 'Create method of the MSFT\_NetRoute class'
+Description: Create an IP route.
+ms.assetid: 06dfd275-25f9-48bc-8361-87ab1c905c17
+title: Create method of the MSFT\_NetRoute class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create method of the MSFT\_NetRoute class
@@ -13,19 +18,19 @@ Create an IP route.
 
 ```mof
 uint32 Create(
-  [in]  uint32        InterfaceIndex,
-  [in]  string        InterfaceAlias,
-  [in]  string        DestinationPrefix,
-  [in]  string        NextHop,
-  [in]  uint8         Publish,
-  [in]  uint16        RouteMetric,
-  [in]  uint16        Protocol,
-  [in]  datetime      ValidLifetime,
-  [in]  datetime      PreferredLifetime,
-  [in]  string        PolicyStore,
-  [in]  uint16        AddressFamily,
-  [in]  boolean       PassThru,
-  [out] MSFT_NetRoute CmdletOutput[]
+  [in]  uint32        InterfaceIndex,
+  [in]  string        InterfaceAlias,
+  [in]  string        DestinationPrefix,
+  [in]  string        NextHop,
+  [in]  uint8         Publish,
+  [in]  uint16        RouteMetric,
+  [in]  uint16        Protocol,
+  [in]  datetime      ValidLifetime,
+  [in]  datetime      PreferredLifetime,
+  [in]  string        PolicyStore,
+  [in]  uint16        AddressFamily,
+  [in]  boolean       PassThru,
+  [out] MSFT_NetRoute CmdletOutput[]
 );
 ```
 
@@ -78,7 +83,7 @@ The value that indicates how to advertise the route. This parameter can contain 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -94,7 +99,7 @@ The route metric.
 
 TBD
 
-**Windows 8 and Windows Server 2012:** This parameter is not supported before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** This parameter is not supported before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -133,7 +138,7 @@ A value that indicates whether the route uses the IPv4 or IPv6 address family. T
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -157,8 +162,8 @@ The [**MSFT\_NetRoute**](msft-netroute.md) object that receives the new route.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -172,9 +177,9 @@ The [**MSFT\_NetRoute**](msft-netroute.md) object that receives the new route.
 [**MSFT\_NetRoute**](msft-netroute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,11 @@
-﻿---
-Description: 'This section describes the Windows objects implemented by the Shell.'
+---
+Description: This section describes the Windows objects implemented by the Shell.
 title: Shell Objects for Scripting and Microsoft Visual Basic
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell Objects for Scripting and Microsoft Visual Basic
@@ -33,7 +38,7 @@ This section describes the Windows objects implemented by the Shell.
 </tr>
 <tr class="odd">
 <td>[<strong>DShellWindowsEvents</strong>](dshellwindowsevents.md)<br/></td>
-<td>Receives [<strong>IShellWindows</strong>](ishellwindows.md) window registration events. <br/></td>
+<td>Receives [<strong>IShellWindows</strong>](/windows/win32/Exdisp/nn-exdisp-ishellwindows?branch=master) window registration events. <br/></td>
 </tr>
 <tr class="even">
 <td>[<strong>Folder</strong>](folder.md)<br/></td>
@@ -147,7 +152,7 @@ This section describes the Windows objects implemented by the Shell.
 </tr>
 <tr class="even">
 <td>[<strong>ShellLinkObject</strong>](shelllinkobject-object.md)<br/></td>
-<td>Manages Shell links. This object makes much of the functionality of the [<strong>IShellLink</strong>](ishelllink.md) interface available to scripting applications. <br/></td>
+<td>Manages Shell links. This object makes much of the functionality of the [<strong>IShellLink</strong>](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master) interface available to scripting applications. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>ShellUIHelper</strong>](shelluihelper.md)<br/></td>

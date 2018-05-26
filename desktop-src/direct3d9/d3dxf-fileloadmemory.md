@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies memory data.'
-ms.assetid: '0ec0597f-d83a-4c1e-b993-30f0bbd64e6b'
-title: 'D3DXF\_FILELOADMEMORY structure'
+---
+Description: Identifies memory data.
+ms.assetid: 0ec0597f-d83a-4c1e-b993-30f0bbd64e6b
+title: D3DXF\_FILELOADMEMORY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXF\_FILELOADMEMORY structure

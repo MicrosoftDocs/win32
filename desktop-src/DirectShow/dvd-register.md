@@ -1,7 +1,12 @@
 ---
-Description: 'The DVD\_REGISTER data type contains a value for a DVD general parameter register (GPRM) or system parameter register (SPRM).'
-ms.assetid: 'cd1aaeff-241c-4e54-9d05-da5cf61b58df'
-title: 'DVD\_REGISTER'
+Description: The DVD\_REGISTER data type contains a value for a DVD general parameter register (GPRM) or system parameter register (SPRM).
+ms.assetid: cd1aaeff-241c-4e54-9d05-da5cf61b58df
+title: DVD\_REGISTER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD\_REGISTER
@@ -38,9 +43,9 @@ typedef WORD DVD_REGISTER;
 [**SPRMARRAY**](sprmarray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

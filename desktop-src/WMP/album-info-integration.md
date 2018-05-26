@@ -1,8 +1,23 @@
 ---
 title: Album Info Integration
 description: Album Info Integration
-ms.assetid: 'c59c0c1b-eddc-4061-87cc-a5c44ae0c15d'
-keywords: ["Windows Media Player online stores,album info integration", "online stores,album info integration", "type 2 online stores,album info integration", "Windows Media Player online stores,integrating album info", "online stores,integrating album info", "type 2 online stores,integrating album info", "Windows Media Player,integrating album info", "Windows Media Player,album info integration", "album info integration", "integrating album info"]
+ms.assetid: c59c0c1b-eddc-4061-87cc-a5c44ae0c15d
+keywords:
+- Windows Media Player online stores,album info integration
+- online stores,album info integration
+- type 2 online stores,album info integration
+- Windows Media Player online stores,integrating album info
+- online stores,integrating album info
+- type 2 online stores,integrating album info
+- Windows Media Player,integrating album info
+- Windows Media Player,album info integration
+- album info integration
+- integrating album info
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Album Info Integration

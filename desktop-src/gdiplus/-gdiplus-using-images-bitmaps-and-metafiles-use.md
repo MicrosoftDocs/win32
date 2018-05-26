@@ -1,14 +1,19 @@
 ---
-Description: 'Windows GDI+ provides the Image class for working with raster images (bitmaps) and vector images (metafiles).'
-ms.assetid: '57e3bf33-5490-4f4a-addf-356ef8f1aeed'
-title: 'Using Images, Bitmaps, and Metafiles'
+Description: Windows GDI+ provides the Image class for working with raster images (bitmaps) and vector images (metafiles).
+ms.assetid: 57e3bf33-5490-4f4a-addf-356ef8f1aeed
+title: Using Images, Bitmaps, and Metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Images, Bitmaps, and Metafiles
 
-Windows GDI+ provides the [**Image**](-gdiplus-class-image-class.md) class for working with raster images (bitmaps) and vector images (metafiles). The [**Bitmap**](-gdiplus-class-bitmap-class.md) class and the [**Metafile**](-gdiplus-class-metafile-class.md) class both inherit from the **Image** class. The **Bitmap** class expands on the capabilities of the **Image** class by providing additional methods for loading, saving, and manipulating raster images. The **Metafile** class expands on the capabilities of the **Image** class by providing additional methods for recording and examining vector images.
+Windows GDI+ provides the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class for working with raster images (bitmaps) and vector images (metafiles). The [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master) class and the [**Metafile**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-metafile?branch=master) class both inherit from the **Image** class. The **Bitmap** class expands on the capabilities of the **Image** class by providing additional methods for loading, saving, and manipulating raster images. The **Metafile** class expands on the capabilities of the **Image** class by providing additional methods for recording and examining vector images.
 
-The following topics cover the [**Image**](-gdiplus-class-image-class.md), [**Bitmap**](-gdiplus-class-bitmap-class.md), and [**Metafile**](-gdiplus-class-metafile-class.md) classes in more detail:
+The following topics cover the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master), [**Bitmap**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-bitmap?branch=master), and [**Metafile**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-metafile?branch=master) classes in more detail:
 
 -   [Loading and Displaying Bitmaps](-gdiplus-loading-and-displaying-bitmaps-use.md)
 -   [Loading and Displaying Metafiles](-gdiplus-loading-and-displaying-metafiles-use.md)

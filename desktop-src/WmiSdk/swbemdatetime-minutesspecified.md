@@ -1,13 +1,16 @@
 ---
-Description: 'Indicates whether the minutes component in the CIM datetime value contains an interval or a wildcard value.'
+Description: Indicates whether the minutes component in the CIM datetime value contains an interval or a wildcard value.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'de15f87e-0092-467e-b0d7-42ef447fa00a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: de15f87e-0092-467e-b0d7-42ef447fa00a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemDateTime.MinutesSpecified property'
+title: SWbemDateTime.MinutesSpecified property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemDateTime.MinutesSpecified property
@@ -39,8 +42,8 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -62,9 +65,9 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 [DATETIME](datetime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

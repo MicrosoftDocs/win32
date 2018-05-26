@@ -1,7 +1,12 @@
 ---
-Description: 'Contains mode descriptor elements for the MonitorSourceModes array in the WmiMonitorListedSupportedSourceModes class.'
-ms.assetid: '6d6c846d-caec-41a8-8a88-1c1e14bc0473'
+Description: Contains mode descriptor elements for the MonitorSourceModes array in the WmiMonitorListedSupportedSourceModes class.
+ms.assetid: 6d6c846d-caec-41a8-8a88-1c1e14bc0473
 title: VideoModeDescriptor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VideoModeDescriptor class
@@ -13,32 +18,32 @@ The **VideoModeDescriptorVideo** WMI class contains mode descriptor elements for
 ``` syntax
 class VideoModeDescriptor : WmiMonitorSupportedVideoModes
 {
-  uint8   CompositePolarityType;
-  uint16  HorizontalActivePixels;
-  uint16  HorizontalBlankingPixels;
-  uint16  HorizontalBorder;
-  uint16  HorizontalImageSize;
-  uint8   HorizontalPolarityType;
-  uint16  HorizontalRefreshRateDenominator;
-  uint16  HorizontalRefreshRateNumerator;
-  uint16  HorizontalSyncOffset;
-  uint16  HorizontalSyncPulseWidth;
+  uint8   CompositePolarityType;
+  uint16  HorizontalActivePixels;
+  uint16  HorizontalBlankingPixels;
+  uint16  HorizontalBorder;
+  uint16  HorizontalImageSize;
+  uint8   HorizontalPolarityType;
+  uint16  HorizontalRefreshRateDenominator;
+  uint16  HorizontalRefreshRateNumerator;
+  uint16  HorizontalSyncOffset;
+  uint16  HorizontalSyncPulseWidth;
   boolean IsInterlaced;
-  uint8   IsSerrationRequired;
-  uint8   IsSyncOnRGB;
-  uint32  PixelClockRate;
-  uint8   StereoModeType;
-  uint8   SyncSignalType;
-  uint16  VerticalActivePixels;
-  uint16  VerticalBlankingPixels;
-  uint16  VerticalBorder;
-  uint16  VerticalImageSize;
-  uint16  VerticalRefreshRateDenominator;
-  uint16  VerticalRefreshRateNumerator;
-  uint16  VerticalSyncOffset;
-  uint8   VerticalPolarityType;
-  uint16  VerticalSyncPulseWidth;
-  uint8   VideoStandardType;
+  uint8   IsSerrationRequired;
+  uint8   IsSyncOnRGB;
+  uint32  PixelClockRate;
+  uint8   StereoModeType;
+  uint8   SyncSignalType;
+  uint16  VerticalActivePixels;
+  uint16  VerticalBlankingPixels;
+  uint16  VerticalBorder;
+  uint16  VerticalImageSize;
+  uint16  VerticalRefreshRateDenominator;
+  uint16  VerticalRefreshRateNumerator;
+  uint16  VerticalSyncOffset;
+  uint8   VerticalPolarityType;
+  uint16  VerticalSyncPulseWidth;
+  uint8   VideoStandardType;
 };
 ```
 
@@ -75,7 +80,7 @@ Composite polarity type. This is polarity of horizontal sync pulses outside of v
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -152,7 +157,7 @@ Horizontal polarity type.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -242,7 +247,7 @@ Indicates what type of serration is required, if appropriate.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -267,7 +272,7 @@ Indicates which video signal lines should be synchronized, if appropriate.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -309,7 +314,7 @@ Stereo mode type. The following table lists the possible values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -335,7 +340,7 @@ Signal sync type. The following table lists the possible values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -412,7 +417,7 @@ Vertical polarity type.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -514,7 +519,7 @@ Video standard type.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -524,8 +529,8 @@ Video standard type.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -539,9 +544,9 @@ Video standard type.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

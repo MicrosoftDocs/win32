@@ -1,14 +1,19 @@
 ---
 title: Windows Firewall with Advanced Security
 description: Windows Firewall with Advanced Security helps to protect computers from unsolicited network traffic.
-ms.assetid: '8F33B96B-AA9A-46d5-8808-0F2D0723935B'
+ms.assetid: 8F33B96B-AA9A-46d5-8808-0F2D0723935B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Firewall with Advanced Security
 
 ## Purpose
 
-Windows Firewall with Advanced Security helps to protect computers from unsolicited network traffic. The Windows Firewall with Advanced Security APIs make it possible to programmatically manage the features of Windows Firewall with Advanced Security by allowing applications to create, enable, and disable firewall exceptions. Windows Firewall with Advanced Security is available only on Windows Vista and later.
+Windows Firewall with Advanced Security helps to protect computers from unsolicited network traffic. The Windows Firewall with Advanced Security APIs make it possible to programmatically manage the features of Windows Firewall with Advanced Security by allowing applications to create, enable, and disable firewall exceptions. Windows Firewall with Advanced Security is available only on Windows Vista and later.
 
 ## Where applicable
 
@@ -20,7 +25,7 @@ The Windows Firewall with Advanced Security API is designed for use by programme
 
 ## Run-time requirements
 
-The Windows Firewall with Advanced Security API is supported on Windows Vista and later. For more specific information about which operating systems support a particular programming element, refer to the Requirements sections in the documentation.
+The Windows Firewall with Advanced Security API is supported on Windows Vista and later. For more specific information about which operating systems support a particular programming element, refer to the Requirements sections in the documentation.
 
 ## In this section
 
@@ -34,11 +39,11 @@ The Windows Firewall with Advanced Security API is supported on Windows Vista an
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

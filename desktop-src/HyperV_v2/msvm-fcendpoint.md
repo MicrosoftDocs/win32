@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the logical connection point for a Fibre Channel port.'
-ms.assetid: '54e9cb76-04f2-417b-b250-1b3156772694'
-title: 'Msvm\_FcEndpoint class'
+Description: Represents the logical connection point for a Fibre Channel port.
+ms.assetid: 54e9cb76-04f2-417b-b250-1b3156772694
+title: Msvm\_FcEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_FcEndpoint class
@@ -16,37 +21,37 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_FcEndpoint : CIM_ProtocolEndpoint
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   NameFormat;
-  uint16   ProtocolType;
-  uint16   ProtocolIFType;
-  string   OtherTypeDescription;
-  boolean  Connected;
-  string   WWPN;
-  string   WWNN;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   NameFormat;
+  uint16   ProtocolType;
+  uint16   ProtocolIFType;
+  string   OtherTypeDescription;
+  boolean  Connected;
+  string   WWPN;
+  string   WWNN;
 };
 ```
 
@@ -69,7 +74,7 @@ The **Msvm\_FcEndpoint** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -263,7 +268,7 @@ Specifies the enabled state of the planned system. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -420,7 +425,7 @@ The property is used to categorize and classify instances of this class. If the 
 > [!Note]  
 > **ProtocolIFType** is an enumeration that is synchronized with the [IANA ifType MIB](http://www.iana.org/assignments/ianaiftype-mib). Additional values defined by the DMTF are also included.
 
- 
+ 
 
 <dl> <dt>
 
@@ -1244,7 +1249,7 @@ The last requested or desired state for the management service. This property is
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1385,17 +1390,17 @@ The world wide port name of the Fibre Channel port this endpoint is connected to
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TCM\_GETCURFOCUS message
 description: Returns the index of the item that has the focus in a tab control. You can send this message explicitly or by using the TabCtrl\_GetCurFocus macro.
-ms.assetid: 'ae6ee159-c769-41d6-b0bb-2a9ade4c0e71'
-keywords: ["TCM_GETCURFOCUS message Windows Controls"]
+ms.assetid: ae6ee159-c769-41d6-b0bb-2a9ade4c0e71
+keywords:
+- TCM_GETCURFOCUS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_GETCURFOCUS message
 
-Returns the index of the item that has the focus in a tab control. You can send this message explicitly or by using the [**TabCtrl\_GetCurFocus**](tabctrl-getcurfocus.md) macro.
+Returns the index of the item that has the focus in a tab control. You can send this message explicitly or by using the [**TabCtrl\_GetCurFocus**](/windows/win32/Commctrl/nf-commctrl-tabctrl_getcurfocus?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ The item that has the focus may be different than the selected item.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

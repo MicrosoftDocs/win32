@@ -1,7 +1,12 @@
 ---
 title: Render Targets, Devices, and Resources
 description: Render Targets, Devices, and Resources
-ms.assetid: 'cf48c2ce-16ad-4e61-8900-501c7c27da23'
+ms.assetid: cf48c2ce-16ad-4e61-8900-501c7c27da23
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Render Targets, Devices, and Resources

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The flags in the following table specify output protection mechanisms for Output Protection Manager (OPM).'
-ms.assetid: '484dfea9-301d-4b2b-b5d1-d785ebaa8c8f'
+---
+Description: The flags in the following table specify output protection mechanisms for Output Protection Manager (OPM).
+ms.assetid: 484dfea9-301d-4b2b-b5d1-d785ebaa8c8f
 title: OPM Protection Type Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPM Protection Type Flags
@@ -38,8 +43,8 @@ The following two flags are defined for HDCP.
 
 | Value                                         | Description                                                                                                                                                                    |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OPM\_PROTECTION\_TYPE\_HDCP                   | Use this flag if the [**IOPMVideoOutput**](iopmvideooutput.md) pointer was created with OPM semantics.                                                                        |
-| OPM\_PROTECTION\_TYPE\_COPP\_COMPATIBLE\_HDCP | Use this flag if the [**IOPMVideoOutput**](iopmvideooutput.md) pointer was created with COPP semantics. This flag corresponds to the COPP\_ProtectionType\_HDCP flag in COPP. |
+| OPM\_PROTECTION\_TYPE\_HDCP                   | Use this flag if the [**IOPMVideoOutput**](/windows/win32/opmapi/nn-opmapi-iopmvideooutput?branch=master) pointer was created with OPM semantics.                                                                        |
+| OPM\_PROTECTION\_TYPE\_COPP\_COMPATIBLE\_HDCP | Use this flag if the [**IOPMVideoOutput**](/windows/win32/opmapi/nn-opmapi-iopmvideooutput?branch=master) pointer was created with COPP semantics. This flag corresponds to the COPP\_ProtectionType\_HDCP flag in COPP. |
 
 
 
@@ -55,7 +60,7 @@ OPM semantics also support the following:
 -   HDCP repeaters. An *HDCP repeater* is an HDCP device that can receive HDCP content and also re-encrypt and transmit the same content.
 -   HDCP revocation. If a revoked HDCP device is attached to the OPM video output, the video output will not transmit the video. The application does not need to parse HDCP system renewability messages (SRMs) or determine whether the output device has been revoked. For more information, see the [**OPM\_SET\_HDCP\_SRM**](opm-set-hdcp-srm.md) command.
 
-When COPP semantics are used, the [**IOPMVideoOutput**](iopmvideooutput.md) interface does not support HDCP repeaters. Also, it does not handle HDCP revocation. Instead, the application must parse the SRM to determine whether an HDCP device has been revoked.
+When COPP semantics are used, the [**IOPMVideoOutput**](/windows/win32/opmapi/nn-opmapi-iopmvideooutput?branch=master) interface does not support HDCP repeaters. Also, it does not handle HDCP revocation. Instead, the application must parse the SRM to determine whether an HDCP device has been revoked.
 
 ## Requirements
 

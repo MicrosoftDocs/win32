@@ -1,8 +1,9 @@
 ---
 title: Settings.defaultAudioLanguage
 description: The defaultAudioLanguage property retrieves the LCID of the default audio language specified in Windows Media Player.
-ms.assetid: '5f3c8d9e-2741-435d-a566-98b12d04bd75'
-keywords: ["Settings.defaultAudioLanguage Windows Media Player"]
+ms.assetid: 5f3c8d9e-2741-435d-a566-98b12d04bd75
+keywords:
+- Settings.defaultAudioLanguage Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.defaultAudioLanguage
@@ -50,9 +56,9 @@ An LCID uniquely identifies a particular language dialect, called a locale.
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

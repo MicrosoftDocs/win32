@@ -1,8 +1,9 @@
 ---
 title: LVM\_SETWORKAREAS message
 description: Sets the working areas within a list-view control. You can send this message explicitly or use the ListView\_SetWorkAreas macro.
-ms.assetid: '87ac192d-f481-43ac-b8a5-c754cf33e487'
-keywords: ["LVM_SETWORKAREAS message Windows Controls"]
+ms.assetid: 87ac192d-f481-43ac-b8a5-c754cf33e487
+keywords:
+- LVM_SETWORKAREAS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SETWORKAREAS message
 
-Sets the working areas within a list-view control. You can send this message explicitly or use the [**ListView\_SetWorkAreas**](listview-setworkareas.md) macro.
+Sets the working areas within a list-view control. You can send this message explicitly or use the [**ListView\_SetWorkAreas**](/windows/win32/Commctrl/nf-commctrl-listview_setworkareas?branch=master) macro.
 
 ## Parameters
 
@@ -45,8 +51,8 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The return value for this message is not used.
 [Using List-View Controls](using-list-view-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

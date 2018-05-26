@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Remove method removes an outbound routing rule (FaxOutboundRoutingRule object) from the FaxOutboundRoutingRules collection using the routing rule''s index.'
-ms.assetid: '1377b3e1-3480-4e16-964e-c3b143613c5f'
-title: 'FaxOutboundRoutingRules.Remove method'
+---
+Description: The Remove method removes an outbound routing rule (FaxOutboundRoutingRule object) from the FaxOutboundRoutingRules collection using the routing rules index.
+ms.assetid: 1377b3e1-3480-4e16-964e-c3b143613c5f
+title: FaxOutboundRoutingRules.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRules.Remove method
@@ -36,7 +41,7 @@ A **Long** value that specifies the index of the outbound routing rule to remove
 
 The default outbound routing rule cannot be removed.
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -61,7 +66,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules-cpp.md)
+[**IFaxOutboundRoutingRules**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrules?branch=master)
 </dt> </dl>
 
  

@@ -1,15 +1,18 @@
 ---
-Description: 'The recent history of changes to the forwarding data for a target computer.'
+Description: The recent history of changes to the forwarding data for a target computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '621e2734-fc75-4e7a-9fae-de3d1b0272ae'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 621e2734-fc75-4e7a-9fae-de3d1b0272ae
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: TargetForwardingHistory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TargetForwardingHistory class
@@ -24,15 +27,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("BootEventCollectorWmiProvider"), Dynamic, AMENDMENT]
 class TargetForwardingHistory
 {
-  string   TargetEndpoint;
-  string   TargetMac;
-  string   TargetGuid;
-  string   CollectorEndpoint;
-  string   Computer;
-  string   ForwarderType;
-  string   Destination;
-  string   DestinationPattern;
-  string   Error;
+  string   TargetEndpoint;
+  string   TargetMac;
+  string   TargetGuid;
+  string   CollectorEndpoint;
+  string   Computer;
+  string   ForwarderType;
+  string   Destination;
+  string   DestinationPattern;
+  string   Error;
   DATETIME ConnectedSince;
   DATETIME DisconnectedSince;
   DATETIME WmiDateTime;
@@ -250,7 +253,7 @@ Timestamp of when this state change was recorded.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
@@ -264,9 +267,9 @@ Timestamp of when this state change was recorded.
 [Boot Event Collector WMI Provider](boot-event-collector-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

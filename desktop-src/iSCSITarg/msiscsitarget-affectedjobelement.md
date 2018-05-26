@@ -4,13 +4,15 @@ description: Represents an association between a job and the managed elements th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b97e693d-8394-40ab-8a25-b0e943a26b47'
-ms.prod: 'windows-server-dev'
+ms.assetid: b97e693d-8394-40ab-8a25-b0e943a26b47
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_AffectedJobElement class iSCSI Software Target API", "MSISCSITARGET_AffectedJobElement class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_AffectedJobElement class iSCSI Software Target API
+- MSISCSITARGET_AffectedJobElement class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - WTWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_AffectedJobElement class
@@ -38,9 +43,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSISCSITARGET_AffectedJobElement : CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Job            REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Job            REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -179,7 +184,7 @@ This property is inherited from [**CIM\_AffectedJobElement**](cim-affectedjobele
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WTWmiProv.dll</dt> </dl>     |
@@ -199,9 +204,9 @@ This property is inherited from [**CIM\_AffectedJobElement**](cim-affectedjobele
 [**CIM\_AffectedJobElement**](https://msdn.microsoft.com/library/cc150663)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

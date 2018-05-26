@@ -1,14 +1,19 @@
 ---
 Description: ASF Indexer
-ms.assetid: '3f95b0ac-d70f-4bc2-8524-c7de1df34afa'
+ms.assetid: 3f95b0ac-d70f-4bc2-8524-c7de1df34afa
 title: ASF Indexer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Indexer
 
 The ASF *indexer* is a WMContainer layer component that is used to read or write Index Objects in an Advanced Systems Format (ASF) file. For information about the structure of an ASF file, see [ASF File Structure](asf-file-structure.md).
 
-An application can use the indexer to perform seeking based on presentation time or to generate new index entries for an ASF file. The ASF indexer implements the [**IMFASFIndexer**](imfasfindexer.md) interface.
+An application can use the indexer to perform seeking based on presentation time or to generate new index entries for an ASF file. The ASF indexer implements the [**IMFASFIndexer**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfindexer?branch=master) interface.
 
 
 
@@ -51,7 +56,7 @@ Frame-based index objects are not currently supported.
 
 
 
- 
+ 
 
 This section contains the following topics.
 
@@ -65,7 +70,7 @@ This section contains the following topics.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -77,9 +82,9 @@ This section contains the following topics.
 [ASF Support in Media Foundation](asf-support-in-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

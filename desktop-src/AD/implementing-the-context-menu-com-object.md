@@ -4,11 +4,16 @@ description: A context menu extension is a COM object implemented as an in-proc 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '362dd8e5-1518-4bf4-ac53-115263cd6c62'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 362dd8e5-1518-4bf4-ac53-115263cd6c62
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["context menu COM object AD", "context menu COM object AD ,implementing"]
+keywords:
+- context menu COM object AD
+- context menu COM object AD ,implementing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing the Context Menu COM Object
@@ -19,9 +24,9 @@ A context menu extension is a COM object implemented as an in-proc server. The c
 
 After the context menu extension COM object is instantiated, the [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) method is called. **IShellExtInit::Initialize** supplies the context menu extension with an [**IDataObject**](_ole_idataobject) object that contains data pertinent to the directory object that the context menu applies to.
 
-The [**IDataObject**](_ole_idataobject) contains data in the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) format. The **CFSTR\_DSOBJECTNAMES** data format is an **HGLOBAL** that contains a [**DSOBJECTNAMES**](dsobjectnames.md) structure. The **DSOBJECTNAMES** structure contains data about the directory object that the property sheet extension applies to.
+The [**IDataObject**](_ole_idataobject) contains data in the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) format. The **CFSTR\_DSOBJECTNAMES** data format is an **HGLOBAL** that contains a [**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master) structure. The **DSOBJECTNAMES** structure contains data about the directory object that the property sheet extension applies to.
 
-The [**IDataObject**](_ole_idataobject) also contains data in the [**CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS**](cfstr-ds-display-spec-options.md) format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** data format is an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](dsdisplayspecoptions.md) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
+The [**IDataObject**](_ole_idataobject) also contains data in the [**CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS**](cfstr-ds-display-spec-options.md) format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** data format is an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](/windows/win32/Dsclient/ns-dsclient-_dsdisplayspecoptions?branch=master) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
 
 If any value other than **S\_OK** is returned from [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp), the context menu extension will not be used.
 

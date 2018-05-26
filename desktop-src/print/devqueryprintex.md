@@ -1,7 +1,12 @@
-﻿---
-Description: 'A printer interface DLL''s DevQueryPrintEx function determines if a specified print job is compatible with the printer''s current configuration and can therefore be printed.'
-ms.assetid: 'f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc'
+---
+Description: A printer interface DLLs DevQueryPrintEx function determines if a specified print job is compatible with the printers current configuration and can therefore be printed.
+ms.assetid: f4cd0fe6-acdc-43e6-8dd7-7b547b1ec7cc
 title: DevQueryPrintEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DevQueryPrintEx function

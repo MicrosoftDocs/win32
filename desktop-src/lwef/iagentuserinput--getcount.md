@@ -1,7 +1,12 @@
 ---
 title: IAgentUserInput GetCount
 description: IAgentUserInput GetCount
-ms.assetid: '9c127387-b680-405a-9a62-ee08cc70813a'
+ms.assetid: 9c127387-b680-405a-9a62-ee08cc70813a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentUserInput::GetCount

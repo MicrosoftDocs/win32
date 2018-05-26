@@ -2,7 +2,13 @@
 title: MIDL Predefined and Base Types
 description: MIDL supports the following base and predefined types.
 ms.assetid: 72da24b6-253d-4032-ba0c-58b2542701fc
-keywords: ["data types MIDL , predefined and base"]
+keywords:
+- data types MIDL , predefined and base
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Predefined and Base Types

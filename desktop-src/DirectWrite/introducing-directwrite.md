@@ -1,8 +1,32 @@
 ---
 title: Introducing DirectWrite
 description: People communicate with text all the time in their daily lives.
-ms.assetid: 'ec7cc4a3-b925-48dc-920f-fd293b4c69f0'
-keywords: ["DirectWrite,about", "DirectWrite,typographic features", "typography", "DirectWrite,international text", "DirectWrite,OpenType fonts", "OpenType fonts", "DirectWrite,ClearType", "ClearType", "DirectWrite,API overview", "DirectWrite,IDWriteFontFace", "IDWriteFontFace", "DirectWrite,text rendering", "DirectWrite,rendering modes", "DirectWrite,GDI interoperation", "DirectWrite,interoperability", "interoperability,DirectWrite", "interoperability,Graphics Device Interface (GDI)", "Graphics Device Interface (GDI)", "GDI (Graphics Device Interface)"]
+ms.assetid: ec7cc4a3-b925-48dc-920f-fd293b4c69f0
+keywords:
+- DirectWrite,about
+- DirectWrite,typographic features
+- typography
+- DirectWrite,international text
+- DirectWrite,OpenType fonts
+- OpenType fonts
+- DirectWrite,ClearType
+- ClearType
+- DirectWrite,API overview
+- DirectWrite,IDWriteFontFace
+- IDWriteFontFace
+- DirectWrite,text rendering
+- DirectWrite,rendering modes
+- DirectWrite,GDI interoperation
+- DirectWrite,interoperability
+- interoperability,DirectWrite
+- interoperability,Graphics Device Interface (GDI)
+- Graphics Device Interface (GDI)
+- GDI (Graphics Device Interface)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introducing DirectWrite
@@ -31,7 +55,7 @@ The [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097) supp
 
 ## Support for Advanced Typographic Features
 
-[DirectWrite](direct-write-portal.md) enables application developers to unlock the features of OpenType fonts that they couldn't use in WinForms or GDI. The DirectWrite [**IDWriteTypography**](idwritetypography.md) object exposes many of the advanced features of OpenType fonts, such as stylistic alternates and swashes. The Microsoft Windows Software Development Kit (SDK) provides a set of sample [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097) fonts that are designed with rich features, such as the Pericles and Pescadero fonts. For more details on OpenType features, see [OpenType Font Features](4061a9d1-fe8b-4921-9e17-18ec7d2e3ea2).
+[DirectWrite](direct-write-portal.md) enables application developers to unlock the features of OpenType fonts that they couldn't use in WinForms or GDI. The DirectWrite [**IDWriteTypography**](/windows/win32/dwrite/?branch=master) object exposes many of the advanced features of OpenType fonts, such as stylistic alternates and swashes. The Microsoft Windows Software Development Kit (SDK) provides a set of sample [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097) fonts that are designed with rich features, such as the Pericles and Pescadero fonts. For more details on OpenType features, see [OpenType Font Features](4061a9d1-fe8b-4921-9e17-18ec7d2e3ea2).
 
 ## Support for International Text
 
@@ -155,15 +179,15 @@ Any of the above rendering modes can be combined with either of the two antialia
 
 ## API Overview
 
-The [**IDWriteFactory**](idwritefactory.md) interface is the starting point for using DirectWrite functionality. The factory is the root object that creates a set of objects that can be used together.
+The [**IDWriteFactory**](/windows/win32/dwrite/?branch=master) interface is the starting point for using DirectWrite functionality. The factory is the root object that creates a set of objects that can be used together.
 
-The formatting and layout operation is a prerequisite to the operations, as text needs to be properly formatted and laid out to a specified set of constraints before it can be drawn or hit-tested. Two key objects that you can create with an [**IDWriteFactory**](idwritefactory.md) for this purpose are [**IDWriteTextFormat**](idwritetextformat.md) and [**IDWriteTextLayout**](idwritetextlayout.md). An **IDWriteTextFormat** object represents the formatting information for a paragraph of text. The [**IDWriteFactory::CreateTextLayout**](idwritefactory-createtextlayout.md) function takes the input string, the associated constraints such as the dimension of the space to be filled, and the **IDWriteTextFormat** object, and puts the fully analyzed and formatted result into **IDWriteTextLayout** to use in subsequent operations.
+The formatting and layout operation is a prerequisite to the operations, as text needs to be properly formatted and laid out to a specified set of constraints before it can be drawn or hit-tested. Two key objects that you can create with an [**IDWriteFactory**](/windows/win32/dwrite/?branch=master) for this purpose are [**IDWriteTextFormat**](/windows/win32/dwrite/?branch=master) and [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master). An **IDWriteTextFormat** object represents the formatting information for a paragraph of text. The [**IDWriteFactory::CreateTextLayout**](/windows/win32/dwrite/?branch=master) function takes the input string, the associated constraints such as the dimension of the space to be filled, and the **IDWriteTextFormat** object, and puts the fully analyzed and formatted result into **IDWriteTextLayout** to use in subsequent operations.
 
-The application can then render the text using the [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) function provided by [Direct2D](direct2d.direct2d_portal.xml) or by implementing a callback function that can use GDI, Direct2D, or other graphics systems to render the glyphs. For a single format text, the [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function on Direct2D provides a simpler way to draw text without having to first create a [**IDWriteTextLayout**](idwritetextlayout.md) object.
+The application can then render the text using the [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) function provided by [Direct2D](direct2d.direct2d_portal.xml) or by implementing a callback function that can use GDI, Direct2D, or other graphics systems to render the glyphs. For a single format text, the [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function on Direct2D provides a simpler way to draw text without having to first create a [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) object.
 
 ## Formatting and Drawing "Hello World" Using DirectWrite
 
-The following code example shows how an application can format a single paragraph using [**IDWriteTextFormat**](idwritetextformat.md) and draw it using the [Direct2D](direct2d.direct2d_portal.xml)[**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function.
+The following code example shows how an application can format a single paragraph using [**IDWriteTextFormat**](/windows/win32/dwrite/?branch=master) and draw it using the [Direct2D](direct2d.direct2d_portal.xml)[**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd371919) function.
 
 
 ```C++
@@ -232,13 +256,13 @@ HRESULT DemoApp::DrawHelloWorld(
 
 ## Accessing the Font System
 
-In addition to specifying a font family name for the text string by using the [**IDWriteTextFormat**](idwritetextformat.md) interface in the example above, [DirectWrite](direct-write-portal.md) provides applications more control over font selection through font enumeration and the ability to create custom font collection based on embedded document fonts.
+In addition to specifying a font family name for the text string by using the [**IDWriteTextFormat**](/windows/win32/dwrite/?branch=master) interface in the example above, [DirectWrite](direct-write-portal.md) provides applications more control over font selection through font enumeration and the ability to create custom font collection based on embedded document fonts.
 
-The [**IDWriteFontCollection**](idwritefontcollection.md) object is a collection of font families. DirectWrite provides access to the set of fonts installed on the system through a special font collection called the system font collection. This is obtained by calling the [**GetSystemFontCollection**](idwritefactory-getsystemfontcollection.md) method of the [**IDWriteFactory**](idwritefactory.md) object. An application can also create a custom font collection from a set of fonts enumerated by an application-defined callback, that is, private fonts installed by an application, or fonts embedded in a document.
+The [**IDWriteFontCollection**](/windows/win32/dwrite/?branch=master) object is a collection of font families. DirectWrite provides access to the set of fonts installed on the system through a special font collection called the system font collection. This is obtained by calling the [**GetSystemFontCollection**](/windows/win32/dwrite/?branch=master) method of the [**IDWriteFactory**](/windows/win32/dwrite/?branch=master) object. An application can also create a custom font collection from a set of fonts enumerated by an application-defined callback, that is, private fonts installed by an application, or fonts embedded in a document.
 
-The application can then call [**GetFontFamily**](idwritefont-getfontfamily.md) to get to a specific FontFamily object within the collection, and then call [**IDWriteFontFamily::GetFirstMatchingFont**](idwritefontfamily-getfirstmatchingfont.md) to get to a specific [**IDWriteFont**](idwritefont.md) object. The **IDWriteFont** object represents a font in a font collection and exposes properties and a few basic font metrics.
+The application can then call [**GetFontFamily**](/windows/win32/dwrite/?branch=master) to get to a specific FontFamily object within the collection, and then call [**IDWriteFontFamily::GetFirstMatchingFont**](/windows/win32/dwrite/?branch=master) to get to a specific [**IDWriteFont**](/windows/win32/dwrite/?branch=master) object. The **IDWriteFont** object represents a font in a font collection and exposes properties and a few basic font metrics.
 
-The [**IDWriteFontFace**](idwritefontface.md) is another object that represents a font and exposes a full set of metrics on a font. The **IDWriteFontFace** can be created directly from a font name; an application does not have to get a font collection to access it. It is useful for a text layout application such as Microsoft Word that needs to query the details for a specific font.
+The [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master) is another object that represents a font and exposes a full set of metrics on a font. The **IDWriteFontFace** can be created directly from a font name; an application does not have to get a font collection to access it. It is useful for a text layout application such as Microsoft Word that needs to query the details for a specific font.
 
 The following diagram illustrates the relationship between these objects.
 
@@ -246,9 +270,9 @@ The following diagram illustrates the relationship between these objects.
 
 ### IDWriteFontFace
 
-The [**IDWriteFontFace**](idwritefontface.md) object represents a font and provides more detailed information about the font than the [**IDWriteFont**](idwritefont.md) object does. The font and glyph metrics from the **IDWriteFontFace** are useful for applications that implement text layout.
+The [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master) object represents a font and provides more detailed information about the font than the [**IDWriteFont**](/windows/win32/dwrite/?branch=master) object does. The font and glyph metrics from the **IDWriteFontFace** are useful for applications that implement text layout.
 
-Most mainstream applications will not use these APIs directly, and instead will use [**IDWriteFont**](idwritefont.md) or specify the font family name directly.
+Most mainstream applications will not use these APIs directly, and instead will use [**IDWriteFont**](/windows/win32/dwrite/?branch=master) or specify the font family name directly.
 
 The following table summarizes the usage scenarios for the two objects.
 
@@ -401,28 +425,28 @@ The text rendering APIs enable glyphs in a [DirectWrite](direct-write-portal.md)
 
 All the options are adjustable by all the available ClearType knobs accessible through the [DirectWrite](direct-write-portal.md) APIs, and also exposed via the new Windows 7 ClearType tuner control panel applet.
 
-There are two APIs available for rendering glyphs, one providing hardware-accelerated rendering through [Direct2D](direct2d.direct2d_portal.xml) and the other providing software rendering to a GDI bitmap. An application using [**IDWriteTextLayout**](idwritetextlayout.md) and implementing the [**IDWriteTextRenderer**](idwritetextrenderer.md) callback can call either of these functions in response to a [**DrawGlyphRun**](idwritetextrenderer-drawglyphrun.md) callback. Also, applications that implement their own layout or deal with glyph-level data can use these APIs.
+There are two APIs available for rendering glyphs, one providing hardware-accelerated rendering through [Direct2D](direct2d.direct2d_portal.xml) and the other providing software rendering to a GDI bitmap. An application using [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) and implementing the [**IDWriteTextRenderer**](/windows/win32/dwrite/?branch=master) callback can call either of these functions in response to a [**DrawGlyphRun**](/windows/win32/dwrite/?branch=master) callback. Also, applications that implement their own layout or deal with glyph-level data can use these APIs.
 
 1.  [**ID2DRenderTarget::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371893)
 
     Applications can use the [Direct2D](direct2d.direct2d_portal.xml) API [**DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/dd371893) to provide hardware acceleration for text rendering using the GPU. Hardware acceleration affects all phases of the text rendering pipeline—from merging glyphs into glyph runs and filtering the glyph-run bitmap, to applying the ClearType blending algorithm to the final displayed output. This is the recommended API for getting the best rendering performance.
 
-2.  [**IDWriteBitmapRenderTarget::DrawGlyphRun**](idwritebitmaprendertarget-drawglyphrun.md)
+2.  [**IDWriteBitmapRenderTarget::DrawGlyphRun**](/windows/win32/dwrite/?branch=master)
 
-    Applications can use the [**IDWriteBitmapRenderTarget::DrawGlyphRun**](idwritebitmaprendertarget-drawglyphrun.md) method to perform a software-rendering of a run of glyphs to a 32-bpp bitmap. The [**IDWriteBitmapRenderTarget**](idwritebitmaprendertarget.md) object encapsulates a bitmap and a memory device context that can be used for rendering glyphs. This API is useful if you want to stay with GDI because you have an existing code base that renders in GDI.
+    Applications can use the [**IDWriteBitmapRenderTarget::DrawGlyphRun**](/windows/win32/dwrite/?branch=master) method to perform a software-rendering of a run of glyphs to a 32-bpp bitmap. The [**IDWriteBitmapRenderTarget**](/windows/win32/dwrite/?branch=master) object encapsulates a bitmap and a memory device context that can be used for rendering glyphs. This API is useful if you want to stay with GDI because you have an existing code base that renders in GDI.
 
-If you have an application that has existing text layout code that uses GDI, and you want to preserve its existing layout code but use [DirectWrite](direct-write-portal.md) just for the final step of rendering glyphs, [**IDWriteGdiInterop::CreateFontFaceFromHdc**](idwritegdiinterop-createfontfacefromhdc.md) provides the bridge between the two APIs. Before calling this function, the application will use the **IDWriteGdiInterop::CreateFontFaceFromHdc** function to get a font-face reference from a device context.
+If you have an application that has existing text layout code that uses GDI, and you want to preserve its existing layout code but use [DirectWrite](direct-write-portal.md) just for the final step of rendering glyphs, [**IDWriteGdiInterop::CreateFontFaceFromHdc**](/windows/win32/dwrite/?branch=master) provides the bridge between the two APIs. Before calling this function, the application will use the **IDWriteGdiInterop::CreateFontFaceFromHdc** function to get a font-face reference from a device context.
 
 > [!Note]  
-> For most scenarios, applications may not need to use these glyph-rendering APIs. After an application has created an [**IDWriteTextLayout**](idwritetextlayout.md) object, it can use the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) method to render the text.
+> For most scenarios, applications may not need to use these glyph-rendering APIs. After an application has created an [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) object, it can use the [**ID2D1RenderTarget::DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/dd371913) method to render the text.
 
  
 
 ## Custom Rendering Modes
 
-A number of parameters affect text rendering, such as gamma, ClearType level, pixel geometry, and enhanced contrast. Rendering parameters are encapsulated by an object, which implements the public [**IDWriteRenderingParams**](idwriterenderingparams.md) interface. The rendering parameters object is automatically initialized based on hardware properties and/or user preferences specified through the ClearType control panel applet in Windows 7. Generally, if a client uses the [DirectWrite](direct-write-portal.md) layout API, DirectWrite will automatically select a rendering mode that corresponds to the specified measuring mode.
+A number of parameters affect text rendering, such as gamma, ClearType level, pixel geometry, and enhanced contrast. Rendering parameters are encapsulated by an object, which implements the public [**IDWriteRenderingParams**](/windows/win32/dwrite/?branch=master) interface. The rendering parameters object is automatically initialized based on hardware properties and/or user preferences specified through the ClearType control panel applet in Windows 7. Generally, if a client uses the [DirectWrite](direct-write-portal.md) layout API, DirectWrite will automatically select a rendering mode that corresponds to the specified measuring mode.
 
-Applications that want more control can use [**IDWriteFactory::CreateCustomRenderingParams**](idwritefactory-createcustomrenderingparams.md) to implement the different rendering options. This function can also be used to set the gamma, pixel geometry, and enhanced contrast.
+Applications that want more control can use [**IDWriteFactory::CreateCustomRenderingParams**](/windows/win32/dwrite/?branch=master) to implement the different rendering options. This function can also be used to set the gamma, pixel geometry, and enhanced contrast.
 
 The following are the various rendering options available:
 
@@ -456,25 +480,25 @@ The following are the various rendering options available:
 
 ## GDI Interoperability
 
-The [**IDWriteGdiInterop**](idwritegdiinterop.md) interface provides interoperability with GDI. This enables applications to continue their existing investment in GDI code bases and selectively use [DirectWrite](direct-write-portal.md) for either rendering or layout.
+The [**IDWriteGdiInterop**](/windows/win32/dwrite/?branch=master) interface provides interoperability with GDI. This enables applications to continue their existing investment in GDI code bases and selectively use [DirectWrite](direct-write-portal.md) for either rendering or layout.
 
 The following are the APIs that enable an application to migrate to or from the GDI font system:
 
--   [**CreateFontFromLOGFONT**](idwritegdiinterop-createfontfromlogfont.md)
+-   [**CreateFontFromLOGFONT**](/windows/win32/dwrite/?branch=master)
 
-    Creates an [**IDWriteFont**](idwritefont.md) object that matches the properties specified by the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure.
+    Creates an [**IDWriteFont**](/windows/win32/dwrite/?branch=master) object that matches the properties specified by the [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure.
 
--   [**ConvertFontToLOGFONT**](idwritegdiinterop-convertfonttologfont.md)
+-   [**ConvertFontToLOGFONT**](/windows/win32/dwrite/?branch=master)
 
-    Initializes a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure based on the GDI-compatible properties of the specified [**IDWriteFont**](idwritefont.md).
+    Initializes a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure based on the GDI-compatible properties of the specified [**IDWriteFont**](/windows/win32/dwrite/?branch=master).
 
--   [**ConvertFontFaceToLOGFONT**](idwritegdiinterop-convertfontfacetologfont.md)
+-   [**ConvertFontFaceToLOGFONT**](/windows/win32/dwrite/?branch=master)
 
-    Initializes a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure based on the GDI-compatible properties of the specified [**IDWriteFontFace**](idwritefontface.md).
+    Initializes a [**LOGFONT**](https://msdn.microsoft.com/library/windows/desktop/dd145037) structure based on the GDI-compatible properties of the specified [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master).
 
--   [**CreateFontFaceFromHdc**](idwritegdiinterop-createfontfacefromhdc.md)
+-   [**CreateFontFaceFromHdc**](/windows/win32/dwrite/?branch=master)
 
-    Creates an [**IDWriteFontFace**](idwritefontface.md) object that corresponds to the currently selected **HFONT**.
+    Creates an [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master) object that corresponds to the currently selected **HFONT**.
 
 ## Conclusion
 

@@ -1,8 +1,9 @@
 ---
 title: DDS\_HEADER\_DXT10 structure
-description: DDS header extension to handle resource arrays, DXGI pixel formats that don't map to the legacy Microsoft DirectDraw pixel format structures, and additional metadata.
-ms.assetid: '502d6943-8f25-446c-b990-8276f862c195'
-keywords: ["DDS_HEADER_DXT10 structure DDS"]
+description: DDS header extension to handle resource arrays, DXGI pixel formats that dont map to the legacy Microsoft DirectDraw pixel format structures, and additional metadata.
+ms.assetid: 502d6943-8f25-446c-b990-8276f862c195
+keywords:
+- DDS_HEADER_DXT10 structure DDS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dds.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDS\_HEADER\_DXT10 structure
@@ -22,11 +28,11 @@ DDS header extension to handle resource arrays, DXGI pixel formats that don't ma
 
 ```C++
 typedef struct {
-  DXGI_FORMAT              dxgiFormat;
+  DXGI_FORMAT              dxgiFormat;
   D3D10_RESOURCE_DIMENSION resourceDimension;
-  UINT                     miscFlag;
-  UINT                     arraySize;
-  UINT                     miscFlags2;
+  UINT                     miscFlag;
+  UINT                     arraySize;
+  UINT                     miscFlags2;
 } DDS_HEADER_DXT10;
 ```
 
@@ -66,7 +72,7 @@ Identifies the type of resource. The following values for this member are a subs
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -87,7 +93,7 @@ Identifies other, less common options for resources. The following value for thi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,12 +133,12 @@ Contains additional metadata (formerly was reserved). The lower 3 bits indicate 
 
 
 
- 
+ 
 
 > [!Note]  
 > The legacy D3DX 10 and [D3DX 11](https://msdn.microsoft.com/library/windows/desktop/ff476162) utility libraries will fail to load any .DDS file with **miscFlags2** not equal to zero.
 
- 
+ 
 
 </dd> </dl>
 
@@ -159,9 +165,9 @@ This header is present if the **dwFourCC** member of the [**DDS\_PIXELFORMAT**](
 [Reference for DDS](dx-graphics-dds-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

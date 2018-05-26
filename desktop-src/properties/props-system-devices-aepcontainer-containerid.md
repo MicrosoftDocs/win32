@@ -1,7 +1,12 @@
 ---
-Description: 'Device Association Endpoint Container''s Identity.'
-ms.assetid: '57af4101-ee2a-499e-a407-0f4498958b47'
-title: 'System.Devices.AepContainer.ContainerId'
+Description: Device Association Endpoint Containers Identity.
+ms.assetid: 57af4101-ee2a-499e-a407-0f4498958b47
+title: System.Devices.AepContainer.ContainerId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.ContainerId

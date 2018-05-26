@@ -1,7 +1,12 @@
 ---
 title: Virtual Machine Architecture
 description: The virtual machine sessions running in Microsoft Virtual Server are implemented as a set of COM objects which are accessible through the Virtual Server COM API.
-ms.assetid: '142e6383-6356-4abe-b6a4-a79fcff43cd3'
+ms.assetid: 142e6383-6356-4abe-b6a4-a79fcff43cd3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Machine Architecture

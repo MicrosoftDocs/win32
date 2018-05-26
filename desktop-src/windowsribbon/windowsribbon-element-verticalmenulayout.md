@@ -1,14 +1,20 @@
 ---
 title: VerticalMenuLayout element
 description: Represents a vertical layout for items in a gallery.
-ms.assetid: '4124c639-c078-4eb0-9d36-37d1ffcebac0'
-keywords: ["VerticalMenuLayout element Windows Ribbon"]
+ms.assetid: 4124c639-c078-4eb0-9d36-37d1ffcebac0
+keywords:
+- VerticalMenuLayout element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - VerticalMenuLayout
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VerticalMenuLayout element
@@ -55,7 +61,7 @@ Represents a vertical layout for items in a gallery.
 <td><strong>IsMultipleHighlightingEnabled</strong><br/></td>
 <td>xs:boolean<br/></td>
 <td>No<br/></td>
-<td><strong>Windows 8 and newer</strong><br/> Highlights all items in the list up to, and including, the current mouseover item (instead of the mouseover item only). Typically used for mutliple <strong>Undo</strong> and <strong>Redo</strong> functionality.<br/> <br/>
+<td><strong>Windows 8 and newer</strong><br/> Highlights all items in the list up to, and including, the current mouseover item (instead of the mouseover item only). Typically used for mutliple <strong>Undo</strong> and <strong>Redo</strong> functionality.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true)<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (false)<br/> </dt> <dd> Default. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
@@ -133,14 +139,14 @@ This section of code shows the [**InRibbonGallery**](windowsribbon-element-inrib
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

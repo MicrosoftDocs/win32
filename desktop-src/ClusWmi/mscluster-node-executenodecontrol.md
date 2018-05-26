@@ -4,13 +4,16 @@ description: Executes a control code on the node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dca2f1c6-7ba0-43ca-87c1-d41fbfb2a20b'
-ms.prod: 'windows-server-dev'
+ms.assetid: dca2f1c6-7ba0-43ca-87c1-d41fbfb2a20b
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ExecuteNodeControl method", "ExecuteNodeControl method, MSCluster_Node class", "MSCluster_Node class, ExecuteNodeControl method"]
+keywords:
+- ExecuteNodeControl method
+- ExecuteNodeControl method, MSCluster_Node class
+- MSCluster_Node class, ExecuteNodeControl method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExecuteNodeControl method of the MSCluster\_Node class
@@ -30,10 +36,10 @@ Executes a control code on the node.
 
 ```mof
 void ExecuteNodeControl(
-  [in]  sint32 ControlCode,
-  [in]  uint8  InputBuffer[],
-  [out] uint8  OutputBuffer[],
-  [out] sint32 OutputBufferSize
+  [in]  sint32 ControlCode,
+  [in]  uint8  InputBuffer[],
+  [out] uint8  OutputBuffer[],
+  [out] sint32 OutputBufferSize
 );
 ```
 
@@ -88,7 +94,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -108,9 +114,9 @@ This method does not return a value.
 [Node Control Codes](https://msdn.microsoft.com/library/aa371759)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

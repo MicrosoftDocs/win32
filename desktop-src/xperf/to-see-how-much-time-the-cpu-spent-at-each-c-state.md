@@ -1,7 +1,12 @@
 ---
 title: To See How Much Time the CPU Spent at Each C-state
 description: To See How Much Time the CPU Spent at Each C-state
-ms.assetid: '92b97703-8ed8-4730-8c58-4b0b0705c304'
+ms.assetid: 92b97703-8ed8-4730-8c58-4b0b0705c304
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To See How Much Time the CPU Spent at Each C-state

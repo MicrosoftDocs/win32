@@ -1,14 +1,19 @@
 ---
 Description: Queued Components Security
-ms.assetid: '3fbeb81a-e3e4-495b-b891-896877fab92f'
+ms.assetid: 3fbeb81a-e3e4-495b-b891-896877fab92f
 title: Queued Components Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Queued Components Security
 
 When a client makes a method call to a queued object, the call is actually made to the recorder, which packages it as part of a message to the server. The listener reads the message from the queue and passes it to the player. The player invokes the actual server component and makes the same method call. The server component must observe the security call context of the client (not the player's security call context) when the player makes the method call. The recorder marshals the client's security call context into the message, and the player unmarshals it at the server before making the method call. As far as the server object is concerned, there is no difference in security context between a direct call from the client and an indirect call from the player. In particular, the methods invoked execute with the sender's privileges.
 
-A COM+ queued component supports role-based security semantics just like other components built for use with COM+ applications. Components of a queued application can therefore use programmatic interfaces to discover the role membership of their caller ([**ISecurityCallContext::IsCallerInRole**](isecuritycallcontext-iscallerinrole.md)) or a specific user ([**ISecurityCallContext::IsUserInRole**](isecuritycallcontext-isuserinrole.md)). It is recommended that any queued component with a potential security impact use these interfaces to explicitly check the sender's credentials.
+A COM+ queued component supports role-based security semantics just like other components built for use with COM+ applications. Components of a queued application can therefore use programmatic interfaces to discover the role membership of their caller ([**ISecurityCallContext::IsCallerInRole**](/windows/win32/ComSvcs/nf-comsvcs-isecuritycallcontext-iscallerinrole?branch=master)) or a specific user ([**ISecurityCallContext::IsUserInRole**](/windows/win32/ComSvcs/nf-comsvcs-isecuritycallcontext-isuserinrole?branch=master)). It is recommended that any queued component with a potential security impact use these interfaces to explicitly check the sender's credentials.
 
 The caller identity is the identity associated with a method call. Caller identity is used by role-based security and is present in the security call context. In queued components, the caller identity is represented as data in the Message Queuing message. Message Queuing authenticates the message sender identity. When the caller identity and the message sender identity are the same, Message Queuing authenticates both the message and the caller. This is the usual case.
 

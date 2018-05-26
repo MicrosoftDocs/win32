@@ -1,7 +1,12 @@
 ---
 title: Validating a Package Signature
 description: This topic shows how to validate a package digital signature.
-ms.assetid: 'd768b5cf-e4ab-43ab-a145-5cc547c7fe04'
+ms.assetid: d768b5cf-e4ab-43ab-a145-5cc547c7fe04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Validating a Package Signature
@@ -137,9 +142,9 @@ For the code that demonstrates how to retrieve the interface pointers that are n
 
         
 
-        If the call to [**IOpcCertificateEnumerator::GetCurrent**](iopccertificateenumerator-getcurrent.md) fails, an error code is returned and the method did not allocate memory for the certificate; therefore, memory for the certificate does not need to be freed.
+        If the call to [**IOpcCertificateEnumerator::GetCurrent**](/windows/previous-versions/msopc/nf-msopc-iopccertificateenumerator-getcurrent?branch=master) fails, an error code is returned and the method did not allocate memory for the certificate; therefore, memory for the certificate does not need to be freed.
 
-        If the method fails and the error that is returned is recoverable, report the error, reset the `hr` variable to **S\_OK**, and move on to the next certificate. If the method fails and the error that is returned is not recoverable—the package signature could not be validated—exit the loop and then the `ValidateSignature` function. Use the error code returned by [**IOpcCertificateEnumerator::GetCurrent**](iopccertificateenumerator-getcurrent.md) as the return value for `ValidateSignature`.
+        If the method fails and the error that is returned is recoverable, report the error, reset the `hr` variable to **S\_OK**, and move on to the next certificate. If the method fails and the error that is returned is not recoverable—the package signature could not be validated—exit the loop and then the `ValidateSignature` function. Use the error code returned by [**IOpcCertificateEnumerator::GetCurrent**](/windows/previous-versions/msopc/nf-msopc-iopccertificateenumerator-getcurrent?branch=master) as the return value for `ValidateSignature`.
 
     3.  If a certificate was retrieved successfully, attempt to validate the package signature by using that certificate:
 
@@ -184,11 +189,11 @@ For the code that demonstrates how to retrieve the interface pointers that are n
 
         
 
-        If the call to [**IOpcDigitalSignatureManager::Validate**](iopcdigitalsignaturemanager-validate.md) succeeds, set the **out** parameter variables and exit the loop.
+        If the call to [**IOpcDigitalSignatureManager::Validate**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-validate?branch=master) succeeds, set the **out** parameter variables and exit the loop.
 
-        If the call to [**IOpcDigitalSignatureManager::Validate**](iopcdigitalsignaturemanager-validate.md) fails and the error is recoverable, report the error, reset the `hr` variable to **S\_OK**, and move on to the next certificate. If the error is not recoverable, do not reset `hr`; this ensures that when the loop conditions are checked, the loop will terminate appropriately.
+        If the call to [**IOpcDigitalSignatureManager::Validate**](/windows/previous-versions/msopc/nf-msopc-iopcdigitalsignaturemanager-validate?branch=master) fails and the error is recoverable, report the error, reset the `hr` variable to **S\_OK**, and move on to the next certificate. If the error is not recoverable, do not reset `hr`; this ensures that when the loop conditions are checked, the loop will terminate appropriately.
 
-    4.  Free the memory that was allocated for the certificate if [**IOpcCertificateEnumerator::GetCurrent**](iopccertificateenumerator-getcurrent.md) was called successfully, then close the loop:
+    4.  Free the memory that was allocated for the certificate if [**IOpcCertificateEnumerator::GetCurrent**](/windows/previous-versions/msopc/nf-msopc-iopccertificateenumerator-getcurrent?branch=master) was called successfully, then close the loop:
 
         ```C++
                 // Free the CERT_CONTEXT that was obtained from the certificate enumerator.
@@ -198,7 +203,7 @@ For the code that demonstrates how to retrieve the interface pointers that are n
 
         
 
-        Because the [**IOpcCertificateEnumerator::GetCurrent**](iopccertificateenumerator-getcurrent.md) method guarantees that memory will not be allocated when the method fails, this statement is only executed when **IOpcCertificateEnumerator::GetCurrent** returns successfully. For details, see step 3.a.
+        Because the [**IOpcCertificateEnumerator::GetCurrent**](/windows/previous-versions/msopc/nf-msopc-iopccertificateenumerator-getcurrent?branch=master) method guarantees that memory will not be allocated when the method fails, this statement is only executed when **IOpcCertificateEnumerator::GetCurrent** returns successfully. For details, see step 3.a.
 
 4.  If needed, check that the signer certificate is included inside the package:
 
@@ -458,13 +463,13 @@ Code examples are not intended to be complete and working programs. The code exa
 **Reference**
 </dt> <dt>
 
-[**IOpcCertificateEnumerator**](iopccertificateenumerator.md)
+[**IOpcCertificateEnumerator**](/windows/previous-versions/msopc/nn-msopc-iopccertificateenumerator?branch=master)
 </dt> <dt>
 
-[**IOpcDigitalSignature**](iopcdigitalsignature.md)
+[**IOpcDigitalSignature**](/windows/previous-versions/msopc/nn-msopc-iopcdigitalsignature?branch=master)
 </dt> <dt>
 
-[**IOpcDigitalSignatureManager**](iopcdigitalsignaturemanager.md)
+[**IOpcDigitalSignatureManager**](/windows/previous-versions/msopc/nn-msopc-iopcdigitalsignaturemanager?branch=master)
 </dt> <dt>
 
 [Packaging API Reference](packaging-programming-reference.md)

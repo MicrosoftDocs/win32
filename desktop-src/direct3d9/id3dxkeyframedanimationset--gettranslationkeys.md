@@ -1,7 +1,12 @@
-﻿---
-Description: 'Fills an array with translational key data used for key frame animation.'
-ms.assetid: 'ecb791ad-e586-4057-9239-facd37a47637'
-title: 'ID3DXKeyframedAnimationSet::GetTranslationKeys method'
+---
+Description: Fills an array with translational key data used for key frame animation.
+ms.assetid: ecb791ad-e586-4057-9239-facd37a47637
+title: ID3DXKeyframedAnimationSetGetTranslationKeys method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::GetTranslationKeys method

@@ -4,11 +4,20 @@ description: Retrieves the status text for the specified status code.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1da2280a-c26d-4caa-b227-c289055f3aa9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 1da2280a-c26d-4caa-b227-c289055f3aa9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetStatusText method Remote Desktop Services", "GetStatusText method Remote Desktop Services , IMsRdpClient7 interface", "IMsRdpClient7 interface Remote Desktop Services , GetStatusText method", "GetStatusText method Remote Desktop Services , IMsRdpClient8 interface", "IMsRdpClient8 interface Remote Desktop Services , GetStatusText method", "GetStatusText method Remote Desktop Services , IMsRdpClient9 interface", "IMsRdpClient9 interface Remote Desktop Services , GetStatusText method", "GetStatusText method Remote Desktop Services , IMsRdpClient10 interface", "IMsRdpClient10 interface Remote Desktop Services , GetStatusText method"]
+keywords:
+- GetStatusText method Remote Desktop Services
+- GetStatusText method Remote Desktop Services , IMsRdpClient7 interface
+- IMsRdpClient7 interface Remote Desktop Services , GetStatusText method
+- GetStatusText method Remote Desktop Services , IMsRdpClient8 interface
+- IMsRdpClient8 interface Remote Desktop Services , GetStatusText method
+- GetStatusText method Remote Desktop Services , IMsRdpClient9 interface
+- IMsRdpClient9 interface Remote Desktop Services , GetStatusText method
+- GetStatusText method Remote Desktop Services , IMsRdpClient10 interface
+- IMsRdpClient10 interface Remote Desktop Services , GetStatusText method
 topic_type:
 - apiref
 api_name:
@@ -20,6 +29,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClient7::GetStatusText method
@@ -31,8 +43,8 @@ Retrieves the status text for the specified status code.
 
 ```C++
 HRESULT GetStatusText(
-  [in]          UINT statusCode,
-  [out, retval] BSTR *pBstrStatusText
+  [in]          UINT statusCode,
+  [out, retval] BSTR *pBstrStatusText
 );
 ```
 
@@ -66,8 +78,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported client<br/> | Windows 7<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Openservice.h</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
@@ -91,9 +103,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IMsRdpClient10**](imsrdpclient10.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

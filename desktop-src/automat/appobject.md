@@ -1,7 +1,12 @@
 ---
 title: appobject
 description: Identifies the Application object.
-ms.assetid: '61b9a9d0-18b5-4fb5-a299-b445e6defd58'
+ms.assetid: 61b9a9d0-18b5-4fb5-a299-b445e6defd58
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # appobject

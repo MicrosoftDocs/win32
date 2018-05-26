@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ISmartRenderEngine interface provides methods that support smart recompression in DirectShow Editing Services (DES). The smart render engine exposes this interface.'
-ms.assetid: '0e03708f-e471-4188-a212-ec5e951d20fa'
+---
+Description: The ISmartRenderEngine interface provides methods that support smart recompression in DirectShow Editing Services (DES). The smart render engine exposes this interface.
+ms.assetid: 0e03708f-e471-4188-a212-ec5e951d20fa
 title: ISmartRenderEngine interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISmartRenderEngine interface

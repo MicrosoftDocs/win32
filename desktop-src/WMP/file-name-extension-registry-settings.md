@@ -1,8 +1,18 @@
 ---
 title: File Name Extension Registry Settings
 description: File Name Extension Registry Settings
-ms.assetid: 'a5c31cf7-e1e1-4f1a-8e94-ed08f99ad973'
-keywords: ["Windows Media Player,registry", "Windows Media Player,file name extensions", "registry,file name extensions", "registry,settings for Windows Media Player", "file name extension registry settings"]
+ms.assetid: a5c31cf7-e1e1-4f1a-8e94-ed08f99ad973
+keywords:
+- Windows Media Player,registry
+- Windows Media Player,file name extensions
+- registry,file name extensions
+- registry,settings for Windows Media Player
+- file name extension registry settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Name Extension Registry Settings

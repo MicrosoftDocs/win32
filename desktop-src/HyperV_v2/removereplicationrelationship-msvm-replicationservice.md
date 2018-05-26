@@ -1,7 +1,12 @@
 ---
-Description: 'Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.'
-ms.assetid: 'a9a20aa1-378d-4a2a-9ebc-9786ab2dfda7'
-title: 'RemoveReplicationRelationship method of the Msvm\_ReplicationService class'
+Description: Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.
+ms.assetid: a9a20aa1-378d-4a2a-9ebc-9786ab2dfda7
+title: RemoveReplicationRelationship method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveReplicationRelationship method of the Msvm\_ReplicationService class
@@ -9,17 +14,17 @@ title: 'RemoveReplicationRelationship method of the Msvm\_ReplicationService cla
 Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.
 
 > [!Note]  
-> Starting with Windows 8.1, we recommend not to use **RemoveReplicationRelationship** anymore to remove a virtual machine replication relationship. Instead, use [**RemoveReplicationRelationshipEx**](removereplicationrelationshipex-msvm-replicationservice.md).
+> Starting with Windows 8.1, we recommend not to use **RemoveReplicationRelationship** anymore to remove a virtual machine replication relationship. Instead, use [**RemoveReplicationRelationshipEx**](removereplicationrelationshipex-msvm-replicationservice.md).
 
- 
+ 
 
 ## Syntax
 
 
 ```mof
 uint32 RemoveReplicationRelationship(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -97,8 +102,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -115,9 +120,9 @@ This method returns one of the following values.
 [**Msvm\_ReplicationService**](msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

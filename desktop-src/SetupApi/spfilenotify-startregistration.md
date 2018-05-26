@@ -1,14 +1,19 @@
 ---
-Description: 'When using the RegisterDlls INF directive to self-register DLLs, callers of SetupInstallFromInfSection may receive notifications on each file as it is registered or unregistered.'
-ms.assetid: '0faf277c-7805-478f-9cec-0dd7b6acdb0e'
-title: 'SPFILENOTIFY\_STARTREGISTRATION message'
+Description: When using the RegisterDlls INF directive to self-register DLLs, callers of SetupInstallFromInfSection may receive notifications on each file as it is registered or unregistered.
+ms.assetid: 0faf277c-7805-478f-9cec-0dd7b6acdb0e
+title: SPFILENOTIFY\_STARTREGISTRATION message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPFILENOTIFY\_STARTREGISTRATION message
 
-When using the **RegisterDlls** INF directive to self-register DLLs, callers of [**SetupInstallFromInfSection**](setupinstallfrominfsection.md) may receive notifications on each file as it is registered or unregistered. To send a **SPFILENOTIFY\_STARTREGISTRATION** notification to the callback routine once before registering a file, include SPINST\_REGISTERCALLBACKAWARE plus SPINST\_REGSVR in the *Flags* parameter of **SetupInstallFromInfSection**. To send notification of unregistration, include SPINST\_REGISTERCALLBACKAWARE plus SPINST\_UNREGSVR in the *Flags* parameter.
+When using the **RegisterDlls** INF directive to self-register DLLs, callers of [**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master) may receive notifications on each file as it is registered or unregistered. To send a **SPFILENOTIFY\_STARTREGISTRATION** notification to the callback routine once before registering a file, include SPINST\_REGISTERCALLBACKAWARE plus SPINST\_REGSVR in the *Flags* parameter of **SetupInstallFromInfSection**. To send notification of unregistration, include SPINST\_REGISTERCALLBACKAWARE plus SPINST\_UNREGSVR in the *Flags* parameter.
 
-The callback routine specified by the *MsgHandler* parameter of [**SetupInstallFromInfSection**](setupinstallfrominfsection.md) must be the type [PSP\_FILE\_CALLBACK](psp-file-callback.md). Set the *Context* parameter to the same *Context* specified in **SetupInstallFromInfSection**. Set the *Notification* parameter to **SPFILENOTIFY\_STARTREGISTRATION**.
+The callback routine specified by the *MsgHandler* parameter of [**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master) must be the type [PSP\_FILE\_CALLBACK](/windows/win32/setupapi/?branch=master). Set the *Context* parameter to the same *Context* specified in **SetupInstallFromInfSection**. Set the *Notification* parameter to **SPFILENOTIFY\_STARTREGISTRATION**.
 
 
 ```C++
@@ -27,7 +32,7 @@ SPFILENOTIFY_STARTREGISTRATION
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**SP\_REGISTER\_CONTROL\_STATUS**](sp-register-control-status.md) structure containing information about the file being registered or unregistered. The member **cbsize** should be set to the size of the structure. The **FileName** member should be set to the fully qualified path of the file being registered. **Win32Error** is not used and should be set to NO\_ERROR. **FailureCode** is not used and should be set to SPREG\_SUCCESS.
+Pointer to a [**SP\_REGISTER\_CONTROL\_STATUS**](/windows/win32/Setupapi/ns-setupapi-_sp_register_control_statusa?branch=master) structure containing information about the file being registered or unregistered. The member **cbsize** should be set to the size of the structure. The **FileName** member should be set to the fully qualified path of the file being registered. **Win32Error** is not used and should be set to NO\_ERROR. **FailureCode** is not used and should be set to SPREG\_SUCCESS.
 
 </dd> <dt>
 
@@ -52,7 +57,7 @@ After receiving notification, the callback function may return one of the follow
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -60,8 +65,8 @@ After receiving notification, the callback function may return one of the follow
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Setupapi.h</dt> </dl> |
 
 
@@ -76,15 +81,15 @@ After receiving notification, the callback function may return one of the follow
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**SetupInstallFromInfSection**](setupinstallfrominfsection.md)
+[**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master)
 </dt> <dt>
 
 [**SPFILENOTIFY\_ENDREGISTRATION**](spfilenotify-endregistration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

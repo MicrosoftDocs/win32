@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPlayerParentalCountry method retrieves the current country/region as set in the MSWebDVD object.'
-ms.assetid: '9404c6b7-9157-4366-be3a-ed65ef260f12'
+Description: The GetPlayerParentalCountry method retrieves the current country/region as set in the MSWebDVD object.
+ms.assetid: 9404c6b7-9157-4366-be3a-ed65ef260f12
 title: GetPlayerParentalCountry Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetPlayerParentalCountry Method

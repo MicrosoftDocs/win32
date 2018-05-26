@@ -4,11 +4,13 @@ description: This is a class of property qualifiers that provides an overview of
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1ff5c589-b71e-4b8a-8c04-5f25cb407ab5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'user-access-logging'
+ms.assetid: 1ff5c589-b71e-4b8a-8c04-5f25cb407ab5
+ms.prod: windows-server-dev
+ms.technology: user-access-logging
 ms.tgt_platform: multiple
-keywords: ["MsftUal_Overview class User Access Logging", "MsftUal_Overview class User Access Logging , described"]
+keywords:
+- MsftUal_Overview class User Access Logging
+- MsftUal_Overview class User Access Logging , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - UALProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MsftUal\_Overview class
@@ -36,9 +41,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("1"), dynamic, provider("UAL")]
 class MsftUal_Overview
 {
-  string   ProductName;
-  string   RoleName;
-  GUID     GUID;
+  string   ProductName;
+  string   RoleName;
+  GUID     GUID;
   datetime FirstSeen;
   datetime LastSeen;
 };
@@ -130,17 +135,17 @@ The name of the role, component, or sub-product that is providing User Access Lo
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\AccessLogging<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>Sum.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>UALProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

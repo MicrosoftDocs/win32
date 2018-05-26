@@ -1,8 +1,10 @@
 ---
 title: DRM\_INDIVIDUALIZATION\_STATUS enumeration
 description: The DRM\_INDIVIDUALIZATION\_STATUS enumeration type defines the valid states for DRM individualization.
-ms.assetid: '4e6712e2-3297-4636-9b0c-07269bd63d52'
-keywords: ["DRM_INDIVIDUALIZATION_STATUS enumeration windows Media Format", "enumeration windows Media Format"]
+ms.assetid: 4e6712e2-3297-4636-9b0c-07269bd63d52
+keywords:
+- DRM_INDIVIDUALIZATION_STATUS enumeration windows Media Format
+- enumeration windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_INDIVIDUALIZATION\_STATUS enumeration
@@ -22,13 +29,13 @@ The **DRM\_INDIVIDUALIZATION\_STATUS** enumeration type defines the valid states
 
 ```C++
 typedef enum DRM_INDIVIDUALIZATION_STATUS { 
-  INDI_UNDEFINED  = 0x0000,
-  INDI_BEGIN      = 0x0001,
-  INDI_SUCCEED    = 0x0002,
-  INDI_FAIL       = 0x0004,
-  INDI_CANCEL     = 0x0008,
-  INDI_DOWNLOAD   = 0x0010,
-  INDI_INSTALL    = 0x0020
+  INDI_UNDEFINED  = 0x0000,
+  INDI_BEGIN      = 0x0001,
+  INDI_SUCCEED    = 0x0002,
+  INDI_FAIL       = 0x0004,
+  INDI_CANCEL     = 0x0008,
+  INDI_DOWNLOAD   = 0x0010,
+  INDI_INSTALL    = 0x0020
 } ;
 ```
 
@@ -108,9 +115,9 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](drmwm-individual
 [**Enumeration Types**](drm-enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

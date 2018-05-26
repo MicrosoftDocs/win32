@@ -4,13 +4,16 @@ description: Defines the desired power state of a computer system and its runnin
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '975820ad-bef1-40f2-9b05-16fb03943949'
-ms.prod: 'windows-server-dev'
+ms.assetid: 975820ad-bef1-40f2-9b05-16fb03943949
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetPowerState method", "SetPowerState method, CIM_UnitaryComputerSystem class", "CIM_UnitaryComputerSystem class, SetPowerState method"]
+keywords:
+- SetPowerState method
+- SetPowerState method, CIM_UnitaryComputerSystem class
+- CIM_UnitaryComputerSystem class, SetPowerState method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPowerState method of the CIM\_UnitaryComputerSystem class
@@ -30,8 +36,8 @@ Defines the desired power state of a computer system and its running operating s
 
 ```mof
 uint32 SetPowerState(
-  [in] uint16   PowerState,
-  [in] datetime Time
+  [in] uint16   PowerState,
+  [in] datetime Time
 );
 ```
 
@@ -122,7 +128,7 @@ Returns 0 if successful, 1 if the specified power state and time requests are no
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -136,9 +142,9 @@ Returns 0 if successful, 1 if the specified power state and time requests are no
 [**CIM\_UnitaryComputerSystem**](cim-unitarycomputersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

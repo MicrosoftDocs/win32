@@ -1,15 +1,25 @@
 ---
 title: Bandwidth Sharing Object
 description: Bandwidth Sharing Object
-ms.assetid: '9dc863da-1842-41e7-b66c-c97e0140046d'
-keywords: ["Windows Media Format SDK,bandwidth sharing objects", "Advanced Systems Format (ASF),bandwidth sharing objects", "ASF (Advanced Systems Format),bandwidth sharing objects", "objects,bandwidth sharing objects", "bandwidth sharing,about"]
+ms.assetid: 9dc863da-1842-41e7-b66c-c97e0140046d
+keywords:
+- Windows Media Format SDK,bandwidth sharing objects
+- Advanced Systems Format (ASF),bandwidth sharing objects
+- ASF (Advanced Systems Format),bandwidth sharing objects
+- objects,bandwidth sharing objects
+- bandwidth sharing,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bandwidth Sharing Object
 
 A bandwidth sharing object is used to indicate that two or more streams, regardless of their individual bit rates, will never use more than a specified amount of bandwidth between them. This is a purely informational object; the bit rates set within it are not enforced programmatically by any object of this SDK.
 
-Bandwidth sharing information is an optional part of a profile. Bandwidth sharing objects can be created for existing bandwidth sharing information in a profile or can be created empty, ready to receive new data. Bandwidth sharing objects cannot exist independently of a profile object. To save the contents of a bandwidth sharing object, you must call [**IWMProfile3::AddBandwidthSharing**](iwmprofile3-addbandwidthsharing.md).
+Bandwidth sharing information is an optional part of a profile. Bandwidth sharing objects can be created for existing bandwidth sharing information in a profile or can be created empty, ready to receive new data. Bandwidth sharing objects cannot exist independently of a profile object. To save the contents of a bandwidth sharing object, you must call [**IWMProfile3::AddBandwidthSharing**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing?branch=master).
 
 To create a bandwidth sharing object, call one of the following methods.
 
@@ -17,8 +27,8 @@ To create a bandwidth sharing object, call one of the following methods.
 
 | Method                                                                                  | Description                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IWMProfile3::CreateNewBandwidthSharing**](iwmprofile3-createnewbandwidthsharing.md) | Creates a bandwidth sharing object without any data.                                                                                                           |
-| [**IWMProfile3::GetBandwidthSharing**](iwmprofile3-getbandwidthsharing.md)             | Creates a bandwidth sharing object populated with data from a profile. Uses the bandwidth sharing index to identify the desired bandwidth sharing information. |
+| [**IWMProfile3::CreateNewBandwidthSharing**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile3-createnewbandwidthsharing?branch=master) | Creates a bandwidth sharing object without any data.                                                                                                           |
+| [**IWMProfile3::GetBandwidthSharing**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing?branch=master)             | Creates a bandwidth sharing object populated with data from a profile. Uses the bandwidth sharing index to identify the desired bandwidth sharing information. |
 
 
 
@@ -32,8 +42,8 @@ The following interfaces are supported by every bandwidth sharing object.
 
 | Interface                                          | Description                                                             |
 |----------------------------------------------------|-------------------------------------------------------------------------|
-| [**IWMBandwidthSharing**](iwmbandwidthsharing.md) | Manages the properties of a group of streams that will share bandwidth. |
-| [**IWMStreamList**](iwmstreamlist.md)             | Manages the list of streams that will share bandwidth.                  |
+| [**IWMBandwidthSharing**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmbandwidthsharing?branch=master) | Manages the properties of a group of streams that will share bandwidth. |
+| [**IWMStreamList**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamlist?branch=master)             | Manages the list of streams that will share bandwidth.                  |
 
 
 

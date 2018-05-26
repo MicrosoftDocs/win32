@@ -2,13 +2,16 @@
 title: Add method of the PS\_DnsServerResourceRecordA class
 description: Adds type A resource record to a DNS server.
 audience: developer
-ms.assetid: '1321dbe2-bdd4-4dc8-9269-fbf005cdcb33'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1321dbe2-bdd4-4dc8-9269-fbf005cdcb33
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsServerResourceRecordA class", "PS_DnsServerResourceRecordA class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsServerResourceRecordA class
+- PS_DnsServerResourceRecordA class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsServerResourceRecordA class
@@ -28,18 +34,18 @@ Adds type A resource record to a DNS server.
 
 ```mof
 uint32 Add(
-  [in]  boolean                 AllowUpdateAny,
-  [in]  boolean                 CreatePtr,
-  [in]  string                  Name,
-  [in]  string                  IPv4Address[],
-  [in]  string                  ComputerName,
-  [in]  datetime                TimeToLive,
-  [in]  string                  ZoneName,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput[]
+  [in]  boolean                 AllowUpdateAny,
+  [in]  boolean                 CreatePtr,
+  [in]  string                  Name,
+  [in]  string                  IPv4Address[],
+  [in]  string                  ComputerName,
+  [in]  datetime                TimeToLive,
+  [in]  string                  ZoneName,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput[]
 );
 ```
 
@@ -117,7 +123,7 @@ The zone that contains the record.
 
 The name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -126,7 +132,7 @@ The name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -144,7 +150,7 @@ An array that receives and embedded instance of the [**DnsServerResourceRecordA*
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -158,9 +164,9 @@ An array that receives and embedded instance of the [**DnsServerResourceRecordA*
 [**PS\_DnsServerResourceRecordA**](ps-dnsserverresourcerecorda.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

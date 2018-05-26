@@ -1,7 +1,12 @@
-﻿---
-Description: 'Writes the access rules for the given type.'
-ms.assetid: 'd5cfd782-8d87-45ae-a574-0a294a30ca71'
-title: 'IPStore::WriteAccessRuleset method'
+---
+Description: Writes the access rules for the given type.
+ms.assetid: d5cfd782-8d87-45ae-a574-0a294a30ca71
+title: IPStoreWriteAccessRuleset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::WriteAccessRuleset method

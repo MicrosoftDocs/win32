@@ -1,7 +1,12 @@
 ---
 title: Drop-down Lists Combo Boxes
 description: With a drop-down list or combo box, users make a choice among a list of mutually exclusive values.
-ms.assetid: 'dbe88cf1-7946-4343-bc16-ce12be7ce205'
+ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drop-down Lists & Combo Boxes
@@ -23,7 +28,7 @@ The following terms are important to understand as you read this article:
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md) are presented in a separate article.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -95,7 +100,7 @@ Drop-down lists and combo boxes have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -127,14 +132,14 @@ Drop-down lists and combo boxes have several usage patterns:
 
     ![screen shot of drop-down list with none selected ](images/ctrl-drop-image15.png)
 
-    In this example, "(None)" is a meta-option because it is not a valid value for the choice—rather it describes that the option itself isn't being used.
+    In this example, "(None)" is a meta-option because it is not a valid value for the choice rather it describes that the option itself isn't being used.
 
 -   **When disabling a drop-down list or combo box, also disable any associated labels and command buttons.**
 
 ### Drop-down lists
 
 -   When a single drop-down list is used to change the view of an associated control, **change the view immediately on selection instead of requiring a separate command button.** Use a separate command button only if the list takes a significant amount of time to render. However, list headers and [menu buttons](ctrl-command-buttons.md#usage-patterns) are the preferred controls for this purpose.
--   **Don't have blank list items**—**use meta-options instead**. Users don't know how to interpret blank items, whereas the meaning of meta-options is explicit.
+-   **Don't have blank list items** **use meta-options instead**. Users don't know how to interpret blank items, whereas the meaning of meta-options is explicit.
 
     **Correct:** ![screen shot of drop-down list with none selected ](images/ctrl-drop-image16.png)
 
@@ -270,9 +275,9 @@ When referring to combo boxes:
 
 Example: In the **Font** box, enter the font you want to use.
 
- 
+ 
 
- 
+ 
 
 
 

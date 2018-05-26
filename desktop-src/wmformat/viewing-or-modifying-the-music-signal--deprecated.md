@@ -1,8 +1,25 @@
 ---
 title: Viewing or Modifying the Music Signal (deprecated)
 description: Viewing or Modifying the Music Signal (deprecated)
-ms.assetid: '47150951-2ab5-4cbe-ae57-4ebd23943f1d'
-keywords: ["Windows Media Format SDK,Microsoft Secure Audio Path (SAP)", "digital rights management (DRM),Microsoft Secure Audio Path (SAP)", "DRM (digital rights management),Microsoft Secure Audio Path (SAP)", "Windows Media Format SDK,Secure Audio Path (SAP)", "digital rights management (DRM),Secure Audio Path (SAP)", "DRM (digital rights management),Secure Audio Path (SAP)", "Windows Media Format SDK,music signal viewing or modifying", "digital rights management (DRM),music signal viewing or modifying", "DRM (digital rights management),music signal viewing or modifying", "Microsoft Secure Audio Path (SAP),music signal viewing or modifying", "Secure Audio Path (SAP),music signal viewing or modifying", "SAP (Secure Audio Path),music signal viewing or modifying"]
+ms.assetid: 47150951-2ab5-4cbe-ae57-4ebd23943f1d
+keywords:
+- Windows Media Format SDK,Microsoft Secure Audio Path (SAP)
+- digital rights management (DRM),Microsoft Secure Audio Path (SAP)
+- DRM (digital rights management),Microsoft Secure Audio Path (SAP)
+- Windows Media Format SDK,Secure Audio Path (SAP)
+- digital rights management (DRM),Secure Audio Path (SAP)
+- DRM (digital rights management),Secure Audio Path (SAP)
+- Windows Media Format SDK,music signal viewing or modifying
+- digital rights management (DRM),music signal viewing or modifying
+- DRM (digital rights management),music signal viewing or modifying
+- Microsoft Secure Audio Path (SAP),music signal viewing or modifying
+- Secure Audio Path (SAP),music signal viewing or modifying
+- SAP (Secure Audio Path),music signal viewing or modifying
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Viewing or Modifying the Music Signal (deprecated)

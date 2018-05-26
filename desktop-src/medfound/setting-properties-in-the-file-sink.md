@@ -1,24 +1,29 @@
 ---
-Description: 'The ASF file sink is an implementation of IMFMediaSink provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see ASF Media Sinks.'
-ms.assetid: 'a47caabd-23e3-4d22-b4b6-5fdb79d62ca1'
+Description: The ASF file sink is an implementation of IMFMediaSink provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks object model and general usage, see ASF Media Sinks.
+ms.assetid: a47caabd-23e3-4d22-b4b6-5fdb79d62ca1
 title: Setting Properties in the File Sink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Properties in the File Sink
 
-The ASF file sink is an implementation of [**IMFMediaSink**](imfmediasink.md) provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see [ASF Media Sinks](asf-media-sinks.md).
+The ASF file sink is an implementation of [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see [ASF Media Sinks](asf-media-sinks.md).
 
 After [Creating the ASF file sink](creating-the-asf-file-sink.md), it must be configured with information about the streams in the output file. This procedure is described in [Adding Stream Information to the ASF File Sink](adding-stream-information-to-the-asf-file-sink.md). You can set additional properties on the file sink depending on the type of encoding; leaky buckets; general file properties. These settings are not written in the final ASF Header Object. This topic describes process of adding these properties in the file sink's property store.
 
 The ContentInfo object maintains the global file properties and individual stream properties for the file sink. For information about getting a reference to the file sink's ASF ContentInfo object, see [Creating the ASF File Sink](creating-the-asf-file-sink.md).
 
-To get a reference to the file sink's property store ([**IPropertyStore**](shell_IPropertyStore)), call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md) on the file sink's ContentInfo object's reference.
+To get a reference to the file sink's property store ([**IPropertyStore**](shell_IPropertyStore)), call [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master) on the file sink's ContentInfo object's reference.
 
 ## Stream Encoding Properties
 
 To encode content properly the file needs to know certain encoding information such as type of encoding and the related encoding parameters. These values are set on the file sink as property values in a property store that is maintained by the ASF ContentInfo object. If you are configuring the file sink before instantiating the relevant encoders, you can use the ContentInfo object with all the populated properties to create the Windows Media encoders. In this case, the properties are automatically set on the instantiated encoders. Conversely, if you are creating the encoders before the sink, make sure that the properties that you set on the encoders are copied into the file sink's property store.
 
-To set encoding properties, you need access to the file sink's stream-level property store. Pass the stream number in the *wStreamNumber* parameter of the [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md) method. The stream numbers must match the values set while configuring each stream in the profile. Property values are set by calling [**IPropertyStore::SetValue**](shell_IPropertyStore). The following table describes the supported properties.
+To set encoding properties, you need access to the file sink's stream-level property store. Pass the stream number in the *wStreamNumber* parameter of the [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master) method. The stream numbers must match the values set while configuring each stream in the profile. Property values are set by calling [**IPropertyStore::SetValue**](shell_IPropertyStore). The following table describes the supported properties.
 
 The properties depend on the type of encoding. For information about the properties and the respective values that you must set, see [Encoding Properties](configuring-the-encoder.md).
 
@@ -30,7 +35,7 @@ The retrieved values can be set for this property for each stream in the ASF fil
 
 ## Global File Sink Properties
 
-To get the file sink's global property store, pass 0 in the *wStreamNumber* parameter of the [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](imfasfcontentinfo-getencodingconfigurationpropertystore.md) method. Property values are set by calling [**IPropertyStore::SetValue**](shell_IPropertyStore). The following table describes the supported properties.
+To get the file sink's global property store, pass 0 in the *wStreamNumber* parameter of the [**IMFASFContentInfo::GetEncodingConfigurationPropertyStore**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore?branch=master) method. Property values are set by calling [**IPropertyStore::SetValue**](shell_IPropertyStore). The following table describes the supported properties.
 
 | File-level Properties                                                                                | Description                                                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

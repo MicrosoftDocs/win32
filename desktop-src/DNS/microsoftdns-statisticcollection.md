@@ -1,8 +1,14 @@
 ---
 title: MicrosoftDNS\_StatisticCollection
 description: The MicrosoftDNS\_StatisticCollection class represents a collection of related DNS Server statistics.
-ms.assetid: '74e080e9-a676-4a82-ae8b-ee904622eb9a'
-keywords: ["MicrosoftDNS_StatisticCollection"]
+ms.assetid: 74e080e9-a676-4a82-ae8b-ee904622eb9a
+keywords:
+- MicrosoftDNS_StatisticCollection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_StatisticCollection

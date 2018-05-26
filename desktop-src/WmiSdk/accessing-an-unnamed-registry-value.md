@@ -1,13 +1,16 @@
 ---
 Description: Accessing an Unnamed Registry Value
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1095da4c-8b9f-4674-9801-f2d25c4f372b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1095da4c-8b9f-4674-9801-f2d25c4f372b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Accessing an Unnamed Registry Value
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Accessing an Unnamed Registry Value

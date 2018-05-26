@@ -1,7 +1,12 @@
 ---
-Description: 'The OnStopStreaming method is called at the end of streaming to fix times for the property page report.'
-ms.assetid: '92174edb-2f6c-4bad-91c5-769aaebcc495'
-title: 'CBaseVideoRenderer.OnStopStreaming method'
+Description: The OnStopStreaming method is called at the end of streaming to fix times for the property page report.
+ms.assetid: 92174edb-2f6c-4bad-91c5-769aaebcc495
+title: CBaseVideoRenderer.OnStopStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.OnStopStreaming method
@@ -49,9 +54,9 @@ This member function overrides [**CBaseRenderer::OnStopStreaming**](cbaserendere
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

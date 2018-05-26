@@ -1,12 +1,17 @@
 ---
 Description: Enumerating Media Types
-ms.assetid: '7878885f-c285-4744-8eab-445678dcfd49'
+ms.assetid: 7878885f-c285-4744-8eab-445678dcfd49
 title: Enumerating Media Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Media Types
 
-Pins support the [**IPin::EnumMediaTypes**](ipin-enummediatypes.md) method, which enumerates a pin's preferred media types. It returns a pointer to the [**IEnumMediaTypes**](ienummediatypes.md) interface. The [**IEnumMediaTypes::Next**](ienummediatypes-next.md) method retrieves pointers to [**AM\_MEDIA\_TYPE**](am-media-type.md) structures describing media types.
+Pins support the [**IPin::EnumMediaTypes**](/windows/win32/Strmif/nf-strmif-ipin-enummediatypes?branch=master) method, which enumerates a pin's preferred media types. It returns a pointer to the [**IEnumMediaTypes**](/windows/win32/Strmif/nn-strmif-ienummediatypes?branch=master) interface. The [**IEnumMediaTypes::Next**](/windows/win32/Strmif/nf-strmif-ienummediatypes-next?branch=master) method retrieves pointers to [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structures describing media types.
 
 The media type enumerator exists primarily to help the Filter Graph Manager make intelligent connections, and your applications will probably not use it. A pin does not necessarily return any preferred media types. Moreover, the media types it returns might depend on the filter's connection status. For example, a filter's output pin might return a different set of media types depending on which media type was set for the filter's input pin.
 
@@ -100,7 +105,7 @@ HRESULT GetPinMediaType(
 [Enumerating Objects in a Filter Graph](enumerating-objects-in-a-filter-graph.md)
 </dt> <dt>
 
-[**IEnumMediaTypes**](ienummediatypes.md)
+[**IEnumMediaTypes**](/windows/win32/Strmif/nn-strmif-ienummediatypes?branch=master)
 </dt> </dl>
 
  

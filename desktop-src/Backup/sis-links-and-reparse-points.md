@@ -1,8 +1,16 @@
 ---
 title: SIS Links and Reparse Points
 description: SIS is an NTFS filter driver that replaces duplicate files with copy-on-write links (referred to as SIS links) that point to a single backing file, reducing the disk and cache overhead of those files.
-ms.assetid: '1600a9ff-413c-4059-b04c-c862f6cf8f32'
-keywords: ["reparse points Backup", "single-instance store (SIS) Backup , SIS links", "single-instance store (SIS) Backup , reparse points"]
+ms.assetid: 1600a9ff-413c-4059-b04c-c862f6cf8f32
+keywords:
+- reparse points Backup
+- single-instance store (SIS) Backup , SIS links
+- single-instance store (SIS) Backup , reparse points
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SIS Links and Reparse Points

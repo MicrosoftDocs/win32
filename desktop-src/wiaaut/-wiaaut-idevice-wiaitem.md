@@ -1,8 +1,11 @@
 ---
 title: Device.WiaItem property
 description: Retrieves the underlying IWiaItem interface for this Device object.
-ms.assetid: '31ee5a4e-88d1-4af2-85d2-44453baf2402'
-keywords: ["WiaItem property WIA Automation", "WiaItem property WIA Automation , Device object", "Device object WIA Automation , WiaItem property"]
+ms.assetid: 31ee5a4e-88d1-4af2-85d2-44453baf2402
+keywords:
+- WiaItem property WIA Automation
+- WiaItem property WIA Automation , Device object
+- Device object WIA Automation , WiaItem property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.WiaItem property
@@ -43,8 +51,8 @@ The **WiaItem (Device)** method is provided for the C++ developer who wants to u
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -63,9 +71,9 @@ The **WiaItem (Device)** method is provided for the C++ developer who wants to u
 [**WiaItem (Item)**](-wiaaut-iitem-wiaitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

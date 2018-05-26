@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork File property
-description: The File property retrieves the full path to the virtual network's configuration file.
-ms.assetid: 'b3382e1f-d5b4-41ef-b32b-09c4be342fc2'
-keywords: ["File property Virtual Server", "File property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , File property", "File property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , File property"]
+description: The File property retrieves the full path to the virtual networks configuration file.
+ms.assetid: b3382e1f-d5b4-41ef-b32b-09c4be342fc2
+keywords:
+- File property Virtual Server
+- File property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , File property
+- File property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , File property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::File property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_File(
-  [out] BSTR *file
+  [out] BSTR *file
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

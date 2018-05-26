@@ -1,7 +1,12 @@
 ---
-Description: 'AppSequence information contained in WS-Discovery announcement and response messages (Hello, ProbeMatches, and ResolveMatches).'
-ms.assetid: 'f54eaa09-7ce8-4948-a0c5-edf2d054f6d5'
+Description: AppSequence information contained in WS-Discovery announcement and response messages (Hello, ProbeMatches, and ResolveMatches).
+ms.assetid: f54eaa09-7ce8-4948-a0c5-edf2d054f6d5
 title: AppSequence Validation Rules
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppSequence Validation Rules
@@ -21,7 +26,7 @@ WSDAPI ignores stale messages. For each device (uniquely identified by the Endpo
 
 WSDAPI ignores stale XAddr announcements. If the AppSequence InstanceId is lower than the last InstanceId seen, WSDAPI ignores the XAddrs advertised in the SOAP body. Also, if the InstanceId is the same as previous but the MetadataVersion is lower than the last MetadataVersion, WSDAPI ignores the XAddrs.
 
-WSDAPI ignores duplicate WS-Discovery messages. If two identical WS-Discovery messages are sent to WSDAPI, only the first received will be processed. This is typically only relevant for applications that call directly into the [**IWSDiscoveryPublisher**](iwsdiscoverypublisher.md) or [**IWSDiscoveryProvider**](iwsdiscoveryprovider.md) interfaces.
+WSDAPI ignores duplicate WS-Discovery messages. If two identical WS-Discovery messages are sent to WSDAPI, only the first received will be processed. This is typically only relevant for applications that call directly into the [**IWSDiscoveryPublisher**](/windows/win32/WsdDisco/nn-wsddisco-iwsdiscoverypublisher?branch=master) or [**IWSDiscoveryProvider**](/windows/win32/WsdDisco/nn-wsddisco-iwsdiscoveryprovider?branch=master) interfaces.
 
 ## Related topics
 

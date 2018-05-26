@@ -1,7 +1,12 @@
 ---
 title: Getting Started
 description: Microsoft Active Accessibility is a set of Component Object Model (COM) interfaces and API elements that provide a reliable way to expose and collect information about Microsoft Windows-based UI elements and web content.
-ms.assetid: '13148049-dbb0-4529-b1d7-0c41ebeb7543'
+ms.assetid: 13148049-dbb0-4529-b1d7-0c41ebeb7543
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started

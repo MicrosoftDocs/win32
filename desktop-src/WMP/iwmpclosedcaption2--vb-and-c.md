@@ -1,8 +1,10 @@
 ---
 title: IWMPClosedCaption2 (VB and C\ ) interface
 description: Provides properties and methods for closed captioning that supplement the IWMPClosedCaption interface.In addition to the properties inherited from IWMPClosedCaption, the IWMPClosedCaption2 interface exposes the following properties.
-ms.assetid: 'e34ea819-dc1a-48f3-9e55-cf2217379ddb'
-keywords: ["IWMPClosedCaption2 (VB and C ) interface Windows Media Player", "IWMPClosedCaption2 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: e34ea819-dc1a-48f3-9e55-cf2217379ddb
+keywords:
+- IWMPClosedCaption2 (VB and C ) interface Windows Media Player
+- IWMPClosedCaption2 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPClosedCaption2 (VB and C#) interface
@@ -40,7 +47,7 @@ The **IWMPClosedCaption2 (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +62,7 @@ The **IWMPClosedCaption2 (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPClosedCaption2** interface by casting the value returned by the [**AxWindowsMediaPlayer.closedCaption**](axwmplib-axwindowsmediaplayer-closedcaption--vb-and-c.md) property.
 
@@ -82,9 +89,9 @@ Get an **IWMPClosedCaption2** interface by casting the value returned by the [**
 [**IWMPClosedCaption Interface (VB and C#)**](iwmpclosedcaption--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

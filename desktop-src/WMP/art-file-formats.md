@@ -1,8 +1,20 @@
 ---
 title: Art File Formats
 description: Art File Formats
-ms.assetid: '803479e8-0e00-4724-80b7-9d86709c43db'
-keywords: ["Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,file formats", "Windows Media Player skins,file formats for art", "skins,file formats for art", "file formats for skin art"]
+ms.assetid: 803479e8-0e00-4724-80b7-9d86709c43db
+keywords:
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,file formats
+- Windows Media Player skins,file formats for art
+- skins,file formats for art
+- file formats for skin art
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Art File Formats

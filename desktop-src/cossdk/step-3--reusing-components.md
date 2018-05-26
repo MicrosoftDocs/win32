@@ -1,7 +1,12 @@
 ---
-Description: 'Step 3: Reusing Components'
-ms.assetid: 'd9c14cf8-5bc9-4a6c-9421-c16c3f41b10d'
-title: 'Step 3: Reusing Components'
+Description: Step 3 Reusing Components
+ms.assetid: d9c14cf8-5bc9-4a6c-9421-c16c3f41b10d
+title: Step 3 Reusing Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3: Reusing Components

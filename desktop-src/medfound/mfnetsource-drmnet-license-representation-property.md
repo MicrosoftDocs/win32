@@ -1,7 +1,12 @@
-﻿---
-Description: 'Stores an array of bytes that represents the DRM license associated with the byte stream.'
-ms.assetid: '866a9706-0b0a-4675-af61-5f55a5a69014'
-title: 'MFNETSOURCE\_DRMNET\_LICENSE\_REPRESENTATION property'
+---
+Description: Stores an array of bytes that represents the DRM license associated with the byte stream.
+ms.assetid: 866a9706-0b0a-4675-af61-5f55a5a69014
+title: MFNETSOURCE\_DRMNET\_LICENSE\_REPRESENTATION property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_DRMNET\_LICENSE\_REPRESENTATION property

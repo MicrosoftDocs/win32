@@ -4,13 +4,15 @@ description: A class derived from System that is a special collection of Managed
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f2dffc2d-c9bd-4cf0-8f75-e1c799cd7514'
-ms.prod: 'windows-server-dev'
+ms.assetid: f2dffc2d-c9bd-4cf0-8f75-e1c799cd7514
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ComputerSystem class", "CIM_ComputerSystem class, described"]
+keywords:
+- CIM_ComputerSystem class
+- CIM_ComputerSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ComputerSystem class
@@ -46,19 +51,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{DB2EBD10-5113-44a1-96E6-52A4FB4210E1}"), AMENDMENT]
 class CIM_ComputerSystem : CIM_System
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  string   Roles[];
-  string   NameFormat;
-  string   OtherIdentifyingInfo[];
-  string   IdentifyingDescriptions[];
-  uint16   Dedicated[];
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  string   Roles[];
+  string   NameFormat;
+  string   OtherIdentifyingInfo[];
+  string   IdentifyingDescriptions[];
+  uint16   Dedicated[];
 };
 ```
 
@@ -574,7 +579,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -588,9 +593,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_System**](cim-system.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

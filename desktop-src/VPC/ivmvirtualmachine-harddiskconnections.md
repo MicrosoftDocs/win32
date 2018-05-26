@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine HardDiskConnections property
 description: Retrieves an enumerable collection of hard disk connections.
-ms.assetid: '167eb8af-bbc1-49a8-83fd-8d946b50530d'
-keywords: ["HardDiskConnections property Virtual PC", "HardDiskConnections property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , HardDiskConnections property"]
+ms.assetid: 167eb8af-bbc1-49a8-83fd-8d946b50530d
+keywords:
+- HardDiskConnections property Virtual PC
+- HardDiskConnections property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , HardDiskConnections property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::HardDiskConnections property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves an enumerable collection of hard disk connections.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HardDiskConnections(
-  [out, retval] IVMHardDiskConnectionCollection **hardDiskConnectionCollection
+  [out, retval] IVMHardDiskConnectionCollection **hardDiskConnectionCollection
 );
 ```
 
@@ -56,9 +64,9 @@ An [**IVMHardDiskConnectionCollection**](ivmharddiskconnectioncollection.md) obj
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -72,9 +80,9 @@ An [**IVMHardDiskConnectionCollection**](ivmharddiskconnectioncollection.md) obj
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

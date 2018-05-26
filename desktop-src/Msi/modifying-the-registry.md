@@ -1,7 +1,12 @@
 ---
-Description: 'Registry keys can be written to the system registry once all selected components and their related files have been installed.'
-ms.assetid: 'b3b39471-85b1-4361-94fd-19d0f0ee2b78'
+Description: Registry keys can be written to the system registry once all selected components and their related files have been installed.
+ms.assetid: b3b39471-85b1-4361-94fd-19d0f0ee2b78
 title: Modifying the Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying the Registry

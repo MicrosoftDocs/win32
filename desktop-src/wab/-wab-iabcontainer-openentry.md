@@ -1,8 +1,11 @@
 ---
 title: IABContainer OpenEntry method
 description: Opens a child container object in the open container.
-ms.assetid: '9300d757-8eb9-4160-9e05-9eee3b58b0fb'
-keywords: ["OpenEntry method Windows Address Book", "OpenEntry method Windows Address Book , IABContainer interface", "IABContainer interface Windows Address Book , OpenEntry method"]
+ms.assetid: 9300d757-8eb9-4160-9e05-9eee3b58b0fb
+keywords:
+- OpenEntry method Windows Address Book
+- OpenEntry method Windows Address Book , IABContainer interface
+- IABContainer interface Windows Address Book , OpenEntry method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IABContainer::OpenEntry method
@@ -22,12 +30,12 @@ Opens a child container object in the open container.
 
 ```C++
 HRESULT OpenEntry(
-   ULONG     cbEntryID,
-   ENTRYID   *lpEntryID,
-   IID       *lpInterface,
-   ULONG     ulFlags,
-   ULONG     *lpulObjType,
-   LPUNKNOWN *lppUnk
+   ULONG     cbEntryID,
+   ENTRYID   *lpEntryID,
+   IID       *lpInterface,
+   ULONG     ulFlags,
+   ULONG     *lpulObjType,
+   LPUNKNOWN *lppUnk
 );
 ```
 
@@ -49,9 +57,9 @@ Value of type **ULONG** that specifies the size of the entry identifier to open.
 *lpEntryID* 
 </dt> <dd>
 
-Type: **[**ENTRYID**](-wab-entryid.md)\***
+Type: **[**ENTRYID**](/windows/previous-versions/Wabdefs/ns-wabdefs-entryid?branch=master)\***
 
-Pointer to a variable of type [**ENTRYID**](-wab-entryid.md) that specifies the identifier of the object to open.
+Pointer to a variable of type [**ENTRYID**](/windows/previous-versions/Wabdefs/ns-wabdefs-entryid?branch=master) that specifies the identifier of the object to open.
 
 </dd> <dt>
 
@@ -136,17 +144,17 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

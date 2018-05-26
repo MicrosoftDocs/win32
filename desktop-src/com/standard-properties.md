@@ -1,7 +1,12 @@
 ---
 title: Standard Properties
 description: Standard Properties
-ms.assetid: '08b7c388-a362-4d71-ac24-93675984881f'
+ms.assetid: 08b7c388-a362-4d71-ac24-93675984881f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard Properties
@@ -22,7 +27,7 @@ OLE defines a set of standard DISPIDs for all three kinds of properties: control
 
 
 
- 
+ 
 
 
 
@@ -40,7 +45,7 @@ OLE defines a set of standard DISPIDs for all three kinds of properties: control
 
 
 
- 
+ 
 
 
 
@@ -53,13 +58,13 @@ OLE defines a set of standard DISPIDs for all three kinds of properties: control
 
 
 
- 
+ 
 
 All of these standard properties have negative DISPID values, indicating their standard status.
 
 Note that to avoid conflicts in the programmatic symbols for these DISPIDs, all ambient properties are given symbols in the form DISPID\_AMBIENT\_*property* as in DISPID\_AMBIENT\_FORECOLOR. All other symbols use DISPID\_*property* as usual.
 
-Some ambient properties, as well as control properties, involve colors. The **OLE\_COLOR** type mentioned in the previous tables can refer to a standard **COLORREF** type, an index to a palette, a palette-relative index, or a system color index used with the [**GetSysColor**](https://msdn.microsoft.com/library/windows/desktop/ms724371) function. The [**OleTranslateColor**](oletranslatecolor.md) function converts an **OLE\_COLOR** type to a **COLORREF** type given a palette.
+Some ambient properties, as well as control properties, involve colors. The **OLE\_COLOR** type mentioned in the previous tables can refer to a standard **COLORREF** type, an index to a palette, a palette-relative index, or a system color index used with the [**GetSysColor**](https://msdn.microsoft.com/library/windows/desktop/ms724371) function. The [**OleTranslateColor**](/windows/win32/OleCtl/nf-olectl-oletranslatecolor?branch=master) function converts an **OLE\_COLOR** type to a **COLORREF** type given a palette.
 
 ## Related topics
 
@@ -68,9 +73,9 @@ Some ambient properties, as well as control properties, involve colors. The **OL
 [Control Properties](control-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A Component table is required in every merge module.'
-ms.assetid: 'ef4a0678-bf6b-47c9-89e8-40e12da52d9b'
+Description: A Component table is required in every merge module.
+ms.assetid: ef4a0678-bf6b-47c9-89e8-40e12da52d9b
 title: Authoring Merge Module Component Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Merge Module Component Tables

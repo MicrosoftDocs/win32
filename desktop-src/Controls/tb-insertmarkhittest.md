@@ -1,8 +1,9 @@
 ---
 title: TB\_INSERTMARKHITTEST message
 description: Retrieves the insertion mark information for a point in a toolbar.
-ms.assetid: '65c64fd0-f089-4b1a-84e5-1a3e10aa7f5e'
-keywords: ["TB_INSERTMARKHITTEST message Windows Controls"]
+ms.assetid: 65c64fd0-f089-4b1a-84e5-1a3e10aa7f5e
+keywords:
+- TB_INSERTMARKHITTEST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_INSERTMARKHITTEST message
@@ -31,7 +37,7 @@ Pointer to a [**POINT**](https://msdn.microsoft.com/library/windows/desktop/dd16
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBINSERTMARK**](tbinsertmark.md) structure that receives the insertion mark information.
+Pointer to a [**TBINSERTMARK**](/windows/win32/Commctrl/ns-commctrl-tbinsertmark?branch=master) structure that receives the insertion mark information.
 
 </dd> </dl>
 
@@ -45,15 +51,15 @@ Returns nonzero if the point is an insertion mark, or zero otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

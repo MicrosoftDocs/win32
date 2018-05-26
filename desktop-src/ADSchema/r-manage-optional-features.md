@@ -4,17 +4,21 @@ description: Manage optional features for Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '58a8d3f9-e736-40e1-8253-ed00bf150e1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 58a8d3f9-e736-40e1-8253-ed00bf150e1f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Manage-Optional-Features extended right AD Schema"]
+keywords:
+- Manage-Optional-Features extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - Manage-Optional-Features
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Manage-Optional-Features extended right
@@ -33,8 +37,8 @@ Manage optional features for Active Directory.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -58,9 +62,9 @@ Manage optional features for Active Directory.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

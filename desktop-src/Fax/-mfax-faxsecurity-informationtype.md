@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InformationType property retrieves the security information type.'
-ms.assetid: '0ddd5219-8f75-413c-bc88-57e4dd3b0a25'
-title: 'FaxSecurity.InformationType property'
+---
+Description: The InformationType property retrieves the security information type.
+ms.assetid: 0ddd5219-8f75-413c-bc88-57e4dd3b0a25
+title: FaxSecurity.InformationType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSecurity.InformationType property

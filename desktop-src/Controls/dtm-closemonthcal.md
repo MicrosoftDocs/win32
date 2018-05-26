@@ -1,8 +1,9 @@
 ---
 title: DTM\_CLOSEMONTHCAL message
 description: Closes a date and time picker (DTP) control. Send this message explicitly or by using the DateTime\_CloseMonthCal macro.
-ms.assetid: 'f60af77f-ec34-4f3d-9427-cda7ac6083bf'
-keywords: ["DTM_CLOSEMONTHCAL message Windows Controls"]
+ms.assetid: f60af77f-ec34-4f3d-9427-cda7ac6083bf
+keywords:
+- DTM_CLOSEMONTHCAL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_CLOSEMONTHCAL message
 
-Closes a date and time picker (DTP) control. Send this message explicitly or by using the [**DateTime\_CloseMonthCal**](datetime-closemonthcal.md) macro.
+Closes a date and time picker (DTP) control. Send this message explicitly or by using the [**DateTime\_CloseMonthCal**](/windows/win32/Commctrl/nf-commctrl-datetime_closemonthcal?branch=master) macro.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Returns zero.
 
 ## Remarks
 
-Destroys the control and sends a [DTN\_CLOSEUP](dtn-closeup.md) notification that the control is closing—as opposed to the control is opening (dropping-down as in the [DTN\_DROPDOWN](dtn-dropdown.md) notification)—to the control's parent.
+Destroys the control and sends a [DTN\_CLOSEUP](dtn-closeup.md) notification that the control is closing as opposed to the control is opening (dropping-down as in the [DTN\_DROPDOWN](dtn-dropdown.md) notification) to the control's parent.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ Destroys the control and sends a [DTN\_CLOSEUP](dtn-closeup.md) notification tha
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ Destroys the control and sends a [DTN\_CLOSEUP](dtn-closeup.md) notification tha
 [DTN\_CLOSEUP](dtn-closeup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetErrorValue method retrieves an HRESULT value (type VT\_ERROR) specified by a key.'
-ms.assetid: 'af57ddbd-5503-4b9b-bd75-ba9c9c202b73'
-title: 'IPortableDeviceValues::GetErrorValue method'
+Description: The GetErrorValue method retrieves an HRESULT value (type VT\_ERROR) specified by a key.
+ms.assetid: af57ddbd-5503-4b9b-bd75-ba9c9c202b73
+title: IPortableDeviceValuesGetErrorValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::GetErrorValue method
@@ -13,8 +18,8 @@ The **GetErrorValue** method retrieves an **HRESULT** value (type VT\_ERROR) spe
 
 ```C++
 HRESULT GetErrorValue(
-  [in]  REFPROPERTYKEY key,
-  [out] HRESULT        *pValue
+  [in]  REFPROPERTYKEY key,
+  [out] HRESULT        *pValue
 );
 ```
 
@@ -52,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IPortableDeviceValues::SetErrorValue**](iportabledevicevalues-seterrorvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-title: What's New in System Monitor
+title: Whats New in System Monitor
 description: The following table identifies what is new for each release of System Monitor (SYSMON).
-ms.assetid: '9cb0e0db-0933-4993-a995-74a36a24eccb'
+ms.assetid: 9cb0e0db-0933-4993-a995-74a36a24eccb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in System Monitor
@@ -12,11 +17,11 @@ The following table identifies what is new for each release of System Monitor (S
 
 | Version     | Description of features                                                                                                                                                                                                                                                                                                                              |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version 3.7 | This version adds new graph types, the ability to select multiple counters, retrieve counter values from a point on the graph, save graphed counter values to a log file, and the option to have a line graph continuously scroll in the graph window instead of wrap-around on itself.Included in Windows Server 2008 and Windows Vista.<br/> |
+| Version 3.7 | This version adds new graph types, the ability to select multiple counters, retrieve counter values from a point on the graph, save graphed counter values to a log file, and the option to have a line graph continuously scroll in the graph window instead of wrap-around on itself.Included in Windows Server 2008 and Windows Vista.<br/> |
 
 
 
- 
+ 
 
 ## Version 3.7
 
@@ -47,13 +52,13 @@ New properties and methods that were added to [**SystemMonitor**](systemmonitor.
 
 New enumerations that were added.
 
--   [**SysmonDataType**](sysmondatatype.md)
--   [**SysmonFileType**](sysmonfiletype.md)
--   New display type values were added to [**DisplayTypeConstants**](displaytypeconstants.md)
+-   [**SysmonDataType**](/windows/win32/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0002?branch=master)
+-   [**SysmonFileType**](/windows/win32/ISysmon/ne-isysmon-__midl___midl_itf_sysmon_0000_0000_0001?branch=master)
+-   New display type values were added to [**DisplayTypeConstants**](/windows/win32/ISysmon/ne-isysmon-edisplaytypeconstant?branch=master)
 
- 
+ 
 
- 
+ 
 
 
 

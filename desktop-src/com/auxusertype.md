@@ -1,8 +1,14 @@
 ---
 title: AuxUserType
-description: Specifies an application's short display name and application names.
-ms.assetid: '3367eb68-01f4-4cb9-b1d0-27554c28b68d'
-keywords: ["AuxUserType registry key COM"]
+description: Specifies an applications short display name and application names.
+ms.assetid: 3367eb68-01f4-4cb9-b1d0-27554c28b68d
+keywords:
+- AuxUserType registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuxUserType
@@ -29,7 +35,7 @@ The recommended maximum length for *ShortDisplayName* is 15 characters. This nam
 
 <dl> <dt>
 
-[**IOleObject::GetUserType**](ioleobject-getusertype.md)
+[**IOleObject::GetUserType**](/windows/win32/OleIdl/nf-oleidl-ioleobject-getusertype?branch=master)
 </dt> </dl>
 
  

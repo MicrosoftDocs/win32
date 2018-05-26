@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_PRESENCE\_CHANGE Constants
 description: Describes the types of changes that can occur when the Windows Biometric Framework monitors the presence of individuals.
-ms.assetid: '1E0B65D8-A38F-46BA-A99A-18666729FA30'
+ms.assetid: 1E0B65D8-A38F-46BA-A99A-18666729FA30
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_PRESENCE\_CHANGE Constants
@@ -40,15 +45,15 @@ Describes the types of changes that can occur when the Windows Biometric Framewo
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

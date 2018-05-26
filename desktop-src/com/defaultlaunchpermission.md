@@ -1,8 +1,14 @@
 ---
 title: DefaultLaunchPermission
 description: Defines the Access Control List (ACL) of the principals that can launch classes that do not specify their own ACL through the LaunchPermission registry value.
-ms.assetid: '23ca87fc-7829-46a9-9fc3-2cd7f677bbff'
-keywords: ["DefaultLaunchPermission registry value COM"]
+ms.assetid: 23ca87fc-7829-46a9-9fc3-2cd7f677bbff
+keywords:
+- DefaultLaunchPermission registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefaultLaunchPermission

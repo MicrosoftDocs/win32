@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Image Acquisition (WIA) interface is both an API and a device driver interface (DDI).'
-ms.assetid: '725543f8-6e33-4e22-904c-95cbec0388c8'
+Description: The Windows Image Acquisition (WIA) interface is both an API and a device driver interface (DDI).
+ms.assetid: 725543f8-6e33-4e22-904c-95cbec0388c8
 title: About Windows Image Acquisition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Image Acquisition

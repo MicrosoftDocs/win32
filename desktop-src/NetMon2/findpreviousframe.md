@@ -1,7 +1,12 @@
 ---
-Description: 'The FindPreviousFrame function finds the previous frame in the current capture context that matches the filter.'
-ms.assetid: '16c5b981-a9f4-41e5-bb97-2caa3e9d8512'
+Description: The FindPreviousFrame function finds the previous frame in the current capture context that matches the filter.
+ms.assetid: 16c5b981-a9f4-41e5-bb97-2caa3e9d8512
 title: FindPreviousFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FindPreviousFrame function
@@ -13,13 +18,13 @@ The **FindPreviousFrame** function finds the previous frame in the current captu
 
 ```C++
 HFRAME WINAPI FindPreviousFrame(
-   HFRAME    hCurrentFrame,
-   LPSTR     ProtocolName,
-   LPADDRESS DestinationAddress,
-   LPADDRESS SourceAddress,
-   LPWORD    ProtocolOffset,
-   DWORD     OriginalFrameNumber,
-   DWORD     LowestFrame
+   HFRAME    hCurrentFrame,
+   LPSTR     ProtocolName,
+   LPADDRESS DestinationAddress,
+   LPADDRESS SourceAddress,
+   LPWORD    ProtocolOffset,
+   DWORD     OriginalFrameNumber,
+   DWORD     LowestFrame
 );
 ```
 
@@ -98,17 +103,17 @@ The capture filter is defined primarily by *ProtocolName*, which is the only req
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

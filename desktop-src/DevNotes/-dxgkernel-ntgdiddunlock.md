@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases the lock held on the specified surface.'
-ms.assetid: 'd9d3178b-aadd-4c33-8044-8e6362f9fefe'
+---
+Description: Releases the lock held on the specified surface.
+ms.assetid: d9d3178b-aadd-4c33-8044-8e6362f9fefe
 title: NtGdiDdUnlock function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdUnlock function

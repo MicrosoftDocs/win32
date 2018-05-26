@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '69c48e7a-e823-4488-b3c5-b8d3f8f79154'
+Description: .
+ms.assetid: 69c48e7a-e823-4488-b3c5-b8d3f8f79154
 title: Overviews and Tutorials
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Overviews and Tutorials

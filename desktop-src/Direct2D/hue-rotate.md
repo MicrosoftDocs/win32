@@ -1,8 +1,14 @@
 ---
 title: Hue rotatation effect
 description: Use the hue rotate effect to alter the hue of an image by applying a color matrix based on the rotation angle.
-ms.assetid: 'D322DB2C-2B8B-4101-BFB2-97E49CAC7BF6'
-keywords: ["hue rotatation effect"]
+ms.assetid: D322DB2C-2B8B-4101-BFB2-97E49CAC7BF6
+keywords:
+- hue rotatation effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hue rotatation effect
@@ -31,7 +37,7 @@ The example here shows the input and output images of the hue rotate effect with
 
 
 
- 
+ 
 
 
 ```C++
@@ -64,7 +70,7 @@ The matrix created depends only on the rotation angle. You can use the [color ma
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -76,25 +82,25 @@ The output bitmap size is the same as the input bitmap size.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

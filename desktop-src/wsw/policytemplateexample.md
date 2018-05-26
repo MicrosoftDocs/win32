@@ -1,8 +1,16 @@
 ---
 title: PolicyTemplateExample
 description: This example illustrates how to manually create policy description and use it to create service proxy.
-ms.assetid: '1c7ff0fb-06a2-4285-bbc8-ea8f2d82b15b'
-keywords: ["PolicyTemplateExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 1c7ff0fb-06a2-4285-bbc8-ea8f2d82b15b
+keywords:
+- PolicyTemplateExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PolicyTemplateExample

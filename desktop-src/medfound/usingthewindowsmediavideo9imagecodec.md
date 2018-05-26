@@ -1,7 +1,12 @@
 ---
-Description: 'Using the Windows Media Video 9.1 Image Category'
-ms.assetid: 'b77e955b-767b-4b64-9421-bacac9edf09c'
-title: 'Using the Windows Media Video 9.1 Image Category'
+Description: Using the Windows Media Video 9.1 Image Category
+ms.assetid: b77e955b-767b-4b64-9421-bacac9edf09c
+title: Using the Windows Media Video 9.1 Image Category
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Media Video 9.1 Image Category
@@ -12,7 +17,7 @@ The encoded Windows Media Video 9.1 Image content is virtually identical to regu
 
 The encoder output type for video image is set in exactly the same way as standard Windows Media video, except that the subtype and compression values must be set to the video image identifiers. This includes the need to obtain codec private data and append it to the [**VIDEOINFOHEADER**](dshow.videoinfoheader) structure. For more information, see [Configuring Video Encoding](configuringvideoencoding.md).
 
-The input type configuration for video image is also very similar to input configuration for the other video encoders. You can retrieve a partially completed [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) from the encoder by calling [**IMediaObject::GetInputType**](dshow.imediaobject_getinputtype), or if you are using the Media Foundation SDK, by calling [**IMFTransform::GetInputAvailableType**](imftransform-getinputavailabletype.md) and retrieving the **DMO\_MEDIA\_TYPE** by using [**MFCreateAMMediaTypeFromMFMediaType**](mfcreateammediatypefrommfmediatype.md). You then set the frame size and the [**VIDEOINFOHEADER**](dshow.videoinfoheader) format structure, just as you would for standard video. As with the output type, you need to ensure that the subtype and compression values are set appropriately.
+The input type configuration for video image is also very similar to input configuration for the other video encoders. You can retrieve a partially completed [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) from the encoder by calling [**IMediaObject::GetInputType**](dshow.imediaobject_getinputtype), or if you are using the Media Foundation SDK, by calling [**IMFTransform::GetInputAvailableType**](/windows/win32/mftransform/nf-mftransform-imftransform-getinputavailabletype?branch=master) and retrieving the **DMO\_MEDIA\_TYPE** by using [**MFCreateAMMediaTypeFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype?branch=master). You then set the frame size and the [**VIDEOINFOHEADER**](dshow.videoinfoheader) format structure, just as you would for standard video. As with the output type, you need to ensure that the subtype and compression values are set appropriately.
 
 ## Creating Input Samples
 

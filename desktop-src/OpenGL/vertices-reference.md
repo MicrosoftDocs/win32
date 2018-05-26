@@ -1,8 +1,16 @@
 ---
 title: Vertices Reference
 description: Vertices Reference
-ms.assetid: 'bdb885ca-cbe8-4035-af92-9c9c234ec77b'
-keywords: ["OpenGL processing pipeline,vertices reference", "reference for vertices OpenGL", "OpenGL,vertices reference"]
+ms.assetid: bdb885ca-cbe8-4035-af92-9c9c234ec77b
+keywords:
+- OpenGL processing pipeline,vertices reference
+- reference for vertices OpenGL
+- OpenGL,vertices reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vertices Reference

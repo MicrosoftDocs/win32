@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a new CIM\_CollectionOfMSEs object.'
-ms.assetid: 'cd2a0cde-d4c6-4ba8-8140-fcc7546c1006'
-title: 'DefineCollection method of the Msvm\_CollectionManagementService class'
+Description: Creates a new CIM\_CollectionOfMSEs object.
+ms.assetid: cd2a0cde-d4c6-4ba8-8140-fcc7546c1006
+title: DefineCollection method of the Msvm\_CollectionManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DefineCollection method of the Msvm\_CollectionManagementService class
@@ -13,11 +18,11 @@ Creates a new [**CIM\_CollectionOfMSEs**](cim-collectionofmses.md) object.
 
 ```mof
 uint32 DefineCollection(
-  [in]  string                   Name,
-  [in]  string                   Id,
-  [in]  uint16                   Type,
-  [out] CIM_CollectionOfMSEs REF DefinedCollection,
-  [out] CIM_ConcreteJob      REF Job
+  [in]  string                   Name,
+  [in]  string                   Id,
+  [in]  uint16                   Type,
+  [out] CIM_CollectionOfMSEs REF DefinedCollection,
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -130,8 +135,8 @@ If successful, returns a 0 or 4096 (Job Started); otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -145,9 +150,9 @@ If successful, returns a 0 or 4096 (Job Started); otherwise, returns an error.
 [**Msvm\_CollectionManagementService**](msvm-collectionmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

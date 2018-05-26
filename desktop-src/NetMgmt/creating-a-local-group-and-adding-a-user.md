@@ -1,12 +1,17 @@
 ---
 title: Creating a Local Group and Adding a User
 description: To create a new local group, call the NetLocalGroupAdd function. To add a user to that group, call the NetLocalGroupAddMembers function.
-ms.assetid: '28bba4bd-5e6b-4139-8fd0-a00fb6e82902'
+ms.assetid: 28bba4bd-5e6b-4139-8fd0-a00fb6e82902
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Local Group and Adding a User
 
-To create a new local group, call the [**NetLocalGroupAdd**](netlocalgroupadd.md) function. To add a user to that group, call the [**NetLocalGroupAddMembers**](netlocalgroupaddmembers.md) function.
+To create a new local group, call the [**NetLocalGroupAdd**](/windows/win32/Lmaccess/nf-lmaccess-netlocalgroupadd?branch=master) function. To add a user to that group, call the [**NetLocalGroupAddMembers**](/windows/win32/Lmaccess/nf-lmaccess-netlocalgroupaddmembers?branch=master) function.
 
 The following program allows you to create a user and a local group and add the user to the local group.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the stop time of the presentation.'
-ms.assetid: 'c1022538-ea9f-41e9-9075-c106e8b16b7b'
-title: 'MF\_TOPONODE\_MEDIASTOP attribute'
+---
+Description: Specifies the stop time of the presentation.
+ms.assetid: c1022538-ea9f-41e9-9075-c106e8b16b7b
+title: MF\_TOPONODE\_MEDIASTOP attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_MEDIASTOP attribute
@@ -16,17 +21,17 @@ Treat as a **LONGLONG** value.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT64**](imfattributes-getuint64.md).
+To get this attribute, call [**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT64**](imfattributes-setuint64.md).
+To set this attribute, call [**IMFAttributes::SetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint64?branch=master).
 
 ## Applies to
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 
 ## Remarks
 
-This attribute specifies the position in the source where playback stops, in 100-nanosecond units, relative to the start the source. If the attribute is not set, playback stops at the end of the source. For example, to stop playback at the 5-second mark, set this attribute to 50000000. Set the attribute on the source nodes in the topology (nodes with type equal to **MF\_TOPOLOGY\_SOURCESTREAM\_NODE**). Set the attribute before calling [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md).
+This attribute specifies the position in the source where playback stops, in 100-nanosecond units, relative to the start the source. If the attribute is not set, playback stops at the end of the source. For example, to stop playback at the 5-second mark, set this attribute to 50000000. Set the attribute on the source nodes in the topology (nodes with type equal to **MF\_TOPOLOGY\_SOURCESTREAM\_NODE**). Set the attribute before calling [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master).
 
 > [!Note]  
 > If you manually insert a decoder into the topology, you must also set the [MF\_TOPONODE\_MARKIN\_HERE](mf-toponode-markin-here-attribute.md) and [MF\_TOPONODE\_MARKOUT\_HERE](mf-toponode-markout-here-attribute.md) attributes on the decoder node.

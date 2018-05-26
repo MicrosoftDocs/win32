@@ -1,7 +1,12 @@
 ---
 title: Thread Start Functions
 description: Thread Start Functions
-ms.assetid: 'fd3d3bc2-dfa0-425a-bc81-6f077ef575f1'
+ms.assetid: fd3d3bc2-dfa0-425a-bc81-6f077ef575f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thread Start Functions

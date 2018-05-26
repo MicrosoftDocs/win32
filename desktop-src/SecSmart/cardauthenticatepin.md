@@ -1,8 +1,9 @@
 ---
 title: CardAuthenticatePin function
 description: authenticates a user by submitting a PIN to the smart card.
-ms.assetid: '529d7bcc-0113-4983-81e7-0b6af310c000'
-keywords: ["CardAuthenticatePin function Security"]
+ms.assetid: 529d7bcc-0113-4983-81e7-0b6af310c000
+keywords:
+- CardAuthenticatePin function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardAuthenticatePin function
@@ -24,11 +30,11 @@ The **CardAuthenticatePin** function, defined by a smart card module, [*authenti
 
 ```C++
 DWORD WINAPI CardAuthenticatePin(
-  _In_      PCARD_DATA pCardData,
-  _In_      LPWSTR     pwszUserId,
-  _In_      PBYTE      pbPin,
-  _In_      DWORD      cbPin,
-  _Out_opt_ PDWORD     pcAttemptsRemaining
+  _In_      PCARD_DATA pCardData,
+  _In_      LPWSTR     pwszUserId,
+  _In_      PBYTE      pbPin,
+  _In_      DWORD      cbPin,
+  _Out_opt_ PDWORD     pcAttemptsRemaining
 );
 ```
 
@@ -62,7 +68,7 @@ This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -89,7 +95,7 @@ If this function has already returned a zero as the value of this parameter and 
 
 If the value of this parameter is **NULL**, the smart card module ignores it.
 
-Card modules that do not support a count of remaining authentication attempts should return a value of –1 for this parameter if the value of the parameter on input is not **NULL**.
+Card modules that do not support a count of remaining authentication attempts should return a value of  1 for this parameter if the value of the parameter on input is not **NULL**.
 
 </dd> </dl>
 
@@ -109,7 +115,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -117,8 +123,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -136,9 +142,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [Microsoft Base Smart Card Cryptographic Service Provider](microsoft-base-smart-card-cryptographic-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

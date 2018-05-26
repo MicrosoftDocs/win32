@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintSchemaParameterInitializer interface represents a parameter initialization value, as defined in the print schema specification.'
-ms.assetid: 'A4A1C231-3D71-4952-B5FA-0C8275DEF4F1'
+---
+Description: The IPrintSchemaParameterInitializer interface represents a parameter initialization value, as defined in the print schema specification.
+ms.assetid: A4A1C231-3D71-4952-B5FA-0C8275DEF4F1
 title: IPrintSchemaParameterInitializer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterInitializer interface

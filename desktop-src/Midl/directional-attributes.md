@@ -2,7 +2,13 @@
 title: Directional Attributes
 description: Apply directional attributes to parameters to indicate the direction that data is being passed. Both attributes can be applied to a single parameter, but doing so increases the overhead associated with a call.
 ms.assetid: b9b2a0bd-22d1-4420-b54d-4cf4c63beedc
-keywords: ["IDL MIDL , attributes, directional"]
+keywords:
+- IDL MIDL , attributes, directional
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directional Attributes

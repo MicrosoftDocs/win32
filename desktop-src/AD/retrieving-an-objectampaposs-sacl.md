@@ -1,14 +1,19 @@
 ---
-title: Retrieving an Object's SACL
+title: Retrieving an Objects SACL
 description: The security descriptor of an object in Active Directory Domain Services may contain a system access-control list (SACL).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b1da91a2-d9b0-48a3-9de5-1e588209032d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b1da91a2-d9b0-48a3-9de5-1e588209032d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["SACL AD", "SACL AD ,retrieving an object's SACL"]
+keywords:
+- SACL AD
+- SACL AD ,retrieving an objects SACL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrieving an Object's SACL

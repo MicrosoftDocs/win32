@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense GetLicense method
 description: The GetLicense method retrieves the license as XML or XMR data.
-ms.assetid: '63317841-fd13-4e83-8b99-e3cab1405050'
-keywords: ["GetLicense method windows Media Format", "GetLicense method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , GetLicense method"]
+ms.assetid: 63317841-fd13-4e83-8b99-e3cab1405050
+keywords:
+- GetLicense method windows Media Format
+- GetLicense method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , GetLicense method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::GetLicense method
@@ -23,9 +31,9 @@ The **GetLicense** method retrieves the license as XML or XMR data.
 
 ```C++
 HRESULT GetLicense(
-  [out] BYTE  **ppbLicense,
-  [out] DWORD *pcbLicense,
-  [out] DWORD *pdwLicenseType
+  [out] BYTE  **ppbLicense,
+  [out] DWORD *pcbLicense,
+  [out] DWORD *pdwLicenseType
 );
 ```
 
@@ -63,7 +71,7 @@ Receives the type of the license returned. This value is set to one of the const
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -79,7 +87,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -106,9 +114,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

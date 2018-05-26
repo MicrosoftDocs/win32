@@ -1,7 +1,12 @@
 ---
 title: Creating Abstracts
 description: Creating Abstracts
-ms.assetid: 'd77a705a-d897-41ca-b314-f4ebc4e2bc06'
+ms.assetid: d77a705a-d897-41ca-b314-f4ebc4e2bc06
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Abstracts

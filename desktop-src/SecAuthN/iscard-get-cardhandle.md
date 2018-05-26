@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the handle for a connected smart card. This method returns (\*pHandle) == NULL if not connected.'
-ms.assetid: 'f03f8f25-b2e4-4fae-b7d2-bb0f1a7cd987'
-title: 'ISCard::get\_CardHandle method'
+---
+Description: Retrieves the handle for a connected smart card. This method returns (\*pHandle) == NULL if not connected.
+ms.assetid: f03f8f25-b2e4-4fae-b7d2-bb0f1a7cd987
+title: ISCardget\_CardHandle method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCard::get\_CardHandle method

@@ -1,7 +1,12 @@
 ---
-Description: 'The following command wraps an X.509 certificate, MyCert.cer, into a test PKCS \#7 Software Publisher Certificate (SPC), called MyCert.spc.'
-ms.assetid: 'c3287289-d2bf-4d1d-80f0-e7dd41a3cbe3'
+Description: The following command wraps an X.509 certificate, MyCert.cer, into a test PKCS \#7 Software Publisher Certificate (SPC), called MyCert.spc.
+ms.assetid: c3287289-d2bf-4d1d-80f0-e7dd41a3cbe3
 title: Using Cert2SPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Cert2SPC

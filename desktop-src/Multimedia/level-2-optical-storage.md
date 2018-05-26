@@ -1,8 +1,17 @@
 ---
 title: Level 2 Optical Storage
 description: Level 2 Optical Storage
-ms.assetid: 'b96cba24-34f9-407b-a003-59b7ca035917'
-keywords: ["Multimedia PC (MPC),Level 2", "MPC (Multimedia PC),Level 2", "Multimedia PC Marketing Council,Level 2", "MPC Level 2,optical storage"]
+ms.assetid: b96cba24-34f9-407b-a003-59b7ca035917
+keywords:
+- Multimedia PC (MPC),Level 2
+- MPC (Multimedia PC),Level 2
+- Multimedia PC Marketing Council,Level 2
+- MPC Level 2,optical storage
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level 2 Optical Storage

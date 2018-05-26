@@ -1,8 +1,9 @@
 ---
 title: glGetTexImage function
 description: The glGetTexImage function returns a texture image.
-ms.assetid: 'd7235df4-2dd8-4537-aadd-284c130a3f99'
-keywords: ["glGetTexImage function OpenGL"]
+ms.assetid: d7235df4-2dd8-4537-aadd-284c130a3f99
+keywords:
+- glGetTexImage function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetTexImage function
@@ -22,11 +28,11 @@ The **glGetTexImage** function returns a texture image.
 
 ```C++
 void WINAPI glGetTexImage(
-   GLenum target,
-   GLint  level,
-   GLenum format,
-   GLenum type,
-   GLvoid *pixels
+   GLenum target,
+   GLint  level,
+   GLenum format,
+   GLenum type,
+   GLvoid *pixels
 );
 ```
 
@@ -137,8 +143,8 @@ The following functions retrieve information related to **glGetTexImage**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -170,9 +176,9 @@ The following functions retrieve information related to **glGetTexImage**:
 [**glTexImage2D**](glteximage2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

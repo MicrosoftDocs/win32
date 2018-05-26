@@ -4,11 +4,16 @@ description: DSML Services for Windows Session Support
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c9920590-bcba-463f-a62d-a08d4dc355e8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c9920590-bcba-463f-a62d-a08d4dc355e8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSML Services for Windows Session Support DSML", "Windows session support"]
+keywords:
+- DSML Services for Windows Session Support DSML
+- Windows session support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DSML Services for Windows Session Support

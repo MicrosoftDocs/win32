@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference materials related to the Microsoft Fax Service software development kit (SDK).'
-ms.assetid: 'e5a604d6-bd4b-4fdb-951a-fc988af77b39'
+Description: This section contains reference materials related to the Microsoft Fax Service software development kit (SDK).
+ms.assetid: e5a604d6-bd4b-4fdb-951a-fc988af77b39
 title: Fax Service Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Reference

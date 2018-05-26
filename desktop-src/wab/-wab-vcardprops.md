@@ -1,8 +1,23 @@
 ---
 title: Importing and Exporting Named Properties Through vCards
 description: If the predefined MAPI schema is insufficient to meet the needs of a client application, that application typically extends the schema using named properties.
-ms.assetid: '40638b23-e956-4fe8-b132-245c43df6890'
-keywords: ["address books", "Windows Address Book (WAB),vCards", "WAB (Windows Address Book),vCards", "vCards", "Windows Address Book (WAB),importing named properties", "Windows Address Book (WAB),exporting named properties", "WAB (Windows Address Book),importing named properties", "WAB (Windows Address Book),exporting named properties", "importing WAB named properties", "exporting WAB named properties"]
+ms.assetid: 40638b23-e956-4fe8-b132-245c43df6890
+keywords:
+- address books
+- Windows Address Book (WAB),vCards
+- WAB (Windows Address Book),vCards
+- vCards
+- Windows Address Book (WAB),importing named properties
+- Windows Address Book (WAB),exporting named properties
+- WAB (Windows Address Book),importing named properties
+- WAB (Windows Address Book),exporting named properties
+- importing WAB named properties
+- exporting WAB named properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing and Exporting Named Properties Through vCards

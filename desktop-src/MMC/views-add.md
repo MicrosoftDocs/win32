@@ -4,11 +4,16 @@ description: The Add method adds a view at a specified root node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '86c809b4-6533-4e02-a49e-f141fac228b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 86c809b4-6533-4e02-a49e-f141fac228b1
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Add method MMC", "Add method MMC , Views object", "Views object MMC , Add method", "Add method MMC , Views interface", "Views interface MMC , Add method"]
+keywords:
+- Add method MMC
+- Add method MMC , Views object
+- Views object MMC , Add method
+- Add method MMC , Views interface
+- Views interface MMC , Add method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Views::Add method
@@ -121,8 +129,8 @@ objViews.Add objRoot, _
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -143,9 +151,9 @@ objViews.Add objRoot, _
 [**Views.Item**](views-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

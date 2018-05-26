@@ -1,7 +1,12 @@
 ---
 title: Using HTML Help on the Web
 description: You can use the functionality available in HTML Help to create powerful, dynamic websites.
-ms.assetid: '26A04335-4CD9-4ecb-A081-D9D5D4630530'
+ms.assetid: 26A04335-4CD9-4ecb-A081-D9D5D4630530
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using HTML Help on the Web

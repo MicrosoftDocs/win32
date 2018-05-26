@@ -1,34 +1,39 @@
 ---
 title: TraceLogging Wrapper Macros
 description: Lists the wrapper macros for TraceLogging providers.
-ms.assetid: '806F43F3-D376-4DBD-A4C5-B5F01E5D009D'
+ms.assetid: 806F43F3-D376-4DBD-A4C5-B5F01E5D009D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceLogging Wrapper Macros
 
 Lists the wrapper macros for TraceLogging providers.
 
-In order to record events using TraceLogging providers, you need to use the TraceLogging write macros [**TraceLoggingWrite**](traceloggingwrite.md) or [**TraceLoggingWriteActivity**](traceloggingwriteactivity.md). Both of these macros require you to wrap any event data in a wrapper macro. There are several different wrapper macros for different data types. For a complete list of TraceLogging macros, see [TraceLogging Macros](trace-logging-macros.md).
+In order to record events using TraceLogging providers, you need to use the TraceLogging write macros [**TraceLoggingWrite**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingwrite?branch=master) or [**TraceLoggingWriteActivity**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingwriteactivity?branch=master). Both of these macros require you to wrap any event data in a wrapper macro. There are several different wrapper macros for different data types. For a complete list of TraceLogging macros, see [TraceLogging Macros](trace-logging-macros.md).
 
-In addition to the wrapper macros above, several macros are available for individual data types. All of these macros have the same format as the [TraceLoggingValue](traceloggingvalue.md) macro. You can use the TraceLoggingValue macro to automatically detect the appropriate wrapper macro to use, or use the specific macro directly.
+In addition to the wrapper macros above, several macros are available for individual data types. All of these macros have the same format as the [TraceLoggingValue](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingvalue?branch=master) macro. You can use the TraceLoggingValue macro to automatically detect the appropriate wrapper macro to use, or use the specific macro directly.
 
--   [**TraceLoggingBinary**](traceloggingbinary.md)
--   [**TraceLoggingChannel**](traceloggingchannel.md)
--   [**TraceLoggingCustomAttribute**](traceloggingcustomattribute.md)
--   [**TraceLoggingDescription**](traceloggingdescription.md)
--   [**TraceLoggingEventTag**](traceloggingeventtag.md)
--   [**TraceLoggingKeyword**](traceloggingkeyword.md)
--   [**TraceLoggingLevel**](tracelogginglevel.md)
--   [**TraceLoggingOpcode**](traceloggingopcode.md)
--   [**TraceLoggingSocketAddress**](traceloggingsocketaddress.md)
--   [**TraceLoggingStruct**](traceloggingstruct.md)
--   [**TraceLoggingValue**](traceloggingvalue.md)
+-   [**TraceLoggingBinary**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingbinary?branch=master)
+-   [**TraceLoggingChannel**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingchannel?branch=master)
+-   [**TraceLoggingCustomAttribute**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingcustomattribute?branch=master)
+-   [**TraceLoggingDescription**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingdescription?branch=master)
+-   [**TraceLoggingEventTag**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingeventtag?branch=master)
+-   [**TraceLoggingKeyword**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingkeyword?branch=master)
+-   [**TraceLoggingLevel**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-tracelogginglevel?branch=master)
+-   [**TraceLoggingOpcode**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingopcode?branch=master)
+-   [**TraceLoggingSocketAddress**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingsocketaddress?branch=master)
+-   [**TraceLoggingStruct**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingstruct?branch=master)
+-   [**TraceLoggingValue**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingvalue?branch=master)
 
 > [!Note]
 >
 > **TraceLoggingOptionGroup** is specifically for use inside of TRACELOGGING\_DEFINE\_PROVIDER.
 >
-> -   [**TraceLoggingOptionGroup**](traceloggingoptiongroup.md)
+> -   [**TraceLoggingOptionGroup**](/windows/win32/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup?branch=master)
 
  
 

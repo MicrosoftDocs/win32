@@ -1,7 +1,12 @@
 ---
-Description: 'The ModifyFrame function alters an existing frame with new data.'
-ms.assetid: 'ebd248e4-b248-4f4a-8b94-a6d1c331d12a'
+Description: The ModifyFrame function alters an existing frame with new data.
+ms.assetid: ebd248e4-b248-4f4a-8b94-a6d1c331d12a
 title: ModifyFrame function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyFrame function
@@ -13,11 +18,11 @@ The **ModifyFrame** function alters an existing frame with new data.
 
 ```C++
 HFRAME WINAPI ModifyFrame(
-  _In_  HCAPTURE hCapture,
-  _In_  DWORD    FrameNumber,
-  _In_  LPBYTE   FrameData,
-  _In_  DWORD    FrameLength,
-  _Out_ __int64  TimeStamp
+  _In_  HCAPTURE hCapture,
+  _In_  DWORD    FrameNumber,
+  _In_  LPBYTE   FrameData,
+  _In_  DWORD    FrameLength,
+  _Out_ __int64  TimeStamp
 );
 ```
 
@@ -80,17 +85,17 @@ If the call is successful, the **ModifyFrame** function destroys the original fr
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

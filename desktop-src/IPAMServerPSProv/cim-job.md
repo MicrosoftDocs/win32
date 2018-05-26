@@ -1,15 +1,18 @@
 ---
-Description: 'A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.'
+Description: A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '35bfaaa5-619a-441f-b264-d484ce35b540'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 35bfaaa5-619a-441f-b264-d484ce35b540
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Job class'
+title: CIM\_Job class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Job class
@@ -24,41 +27,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.10.0"), AMENDMENT]
 class CIM_Job : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   JobStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
 };
 ```
 
@@ -100,7 +103,7 @@ This method is deprecated. Instead we recommend that you use the <strong>Request
 
 
 
- 
+ 
 
 ### Properties
 
@@ -228,7 +231,7 @@ Access type: Read/write
 > [!Note]  
 > This property will not delete jobs that complete before this property is set to **True**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -554,7 +557,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
- 
+ 
 
 </dd> <dt>
 
@@ -591,7 +594,7 @@ Run the job once. This is the default value.
 
 </dd> <dt>
 
-2–...
+2 ...
 </dt> <dd>
 
 Run the job for the specified number of times.
@@ -1167,7 +1170,7 @@ The percentage of the job that is complete.
 > [!Note]  
 > The value "101" is undefined and will be not be allowed in the next major revision of the specification.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1684,7 +1687,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("CIM\
 > [!Note]  
 > This property is deprecated. Instead we recommend that you use the **RunMonth**, **RunDay**, **RunDayOfWeek**, and **RunStartInterval** properties.
 
- 
+ 
 
 The time when the current job is scheduled to start. This time can be represented by a date and time, or an interval relative to the time when the property is requested. A value of all zeroes indicates that the job is already executing.
 
@@ -1874,7 +1877,7 @@ The time after which the job becomes invalid or should be stopped. The time can 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -1891,9 +1894,9 @@ The time after which the job becomes invalid or should be stopped. The time can 
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

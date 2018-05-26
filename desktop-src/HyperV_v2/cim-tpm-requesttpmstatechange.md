@@ -1,7 +1,12 @@
 ---
-Description: 'Requests that the state of the TPM be changed to the value specified in the RequestedTPMState parameter.'
-ms.assetid: '7ad8bf4e-6263-45d5-8f33-fb842bbf1f1a'
-title: 'RequestTPMStateChange method of the CIM\_TPM class'
+Description: Requests that the state of the TPM be changed to the value specified in the RequestedTPMState parameter.
+ms.assetid: 7ad8bf4e-6263-45d5-8f33-fb842bbf1f1a
+title: RequestTPMStateChange method of the CIM\_TPM class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestTPMStateChange method of the CIM\_TPM class
@@ -13,10 +18,10 @@ Requests that the state of the TPM be changed to the value specified in the *Req
 
 ```mof
 uint32 RequestTPMStateChange(
-  [in]  uint16              RequestedTPMState,
-  [in]  string              AuthorizationToken,
-  [out] CIM_ConcreteJob REF Job,
-  [in]  datetime            TimeoutPeriod
+  [in]  uint16              RequestedTPMState,
+  [in]  string              AuthorizationToken,
+  [out] CIM_ConcreteJob REF Job,
+  [in]  datetime            TimeoutPeriod
 );
 ```
 
@@ -178,8 +183,8 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -193,9 +198,9 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 [**CIM\_TPM**](cim-tpm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

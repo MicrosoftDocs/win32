@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetUserID method retrieves the object''s application-defined identifier.'
-ms.assetid: '68a20dfa-990e-47de-ae02-1d3182b7f13f'
-title: 'IAMTimelineObj::GetUserID method'
+---
+Description: The GetUserID method retrieves the objects application-defined identifier.
+ms.assetid: 68a20dfa-990e-47de-ae02-1d3182b7f13f
+title: IAMTimelineObjGetUserID method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetUserID method

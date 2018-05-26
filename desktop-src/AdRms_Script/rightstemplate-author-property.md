@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the name of the individual who created or last updated the template.'
+Description: Retrieves the name of the individual who created or last updated the template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '723391dc-d2ff-427e-8c61-385deb14ace2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 723391dc-d2ff-427e-8c61-385deb14ace2
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplate.Author property'
+title: RightsTemplate.Author property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplate.Author property
@@ -122,7 +125,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -134,9 +137,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

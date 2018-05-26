@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent when an application changes the enabled state of a window.'
-ms.assetid: 'df2cf953-121f-43bb-a06c-d10e445bfb5e'
-title: 'WM\_ENABLE message'
+---
+Description: Sent when an application changes the enabled state of a window.
+ms.assetid: df2cf953-121f-43bb-a06c-d10e445bfb5e
+title: WM\_ENABLE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_ENABLE message

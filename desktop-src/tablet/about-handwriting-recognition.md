@@ -1,7 +1,12 @@
 ---
-Description: 'Tablet PC includes technology for recognizing ink input that is most commonly in the form of handwriting.'
-ms.assetid: '614971a8-2b56-40d4-abb6-aba5ded01883'
+Description: Tablet PC includes technology for recognizing ink input that is most commonly in the form of handwriting.
+ms.assetid: 614971a8-2b56-40d4-abb6-aba5ded01883
 title: About Handwriting Recognition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Handwriting Recognition
@@ -23,7 +28,7 @@ Steps 2 and 3 may be repeated in a loop, or all of the ink strokes may be added 
 
 ## Samples and Related Topics
 
-[Advanced Recognition Sample](advanced-recognition-sample.md) demonstrates how to use recognizers with [**Ink**](inkdisp-class.md) objects to perform ink recognition.
+[Advanced Recognition Sample](advanced-recognition-sample.md) demonstrates how to use recognizers with [**Ink**](/windows/win32/msinkaut/?branch=master) objects to perform ink recognition.
 
 [Recognizer DLL Sample Template](recognizer-dll-sample-template.md) contains a template for creating a recognizer DLL. The template contains functions for registering and unregistering the server, as well as skeletons for primary recognizer functions.
 

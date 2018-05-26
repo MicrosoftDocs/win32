@@ -1,14 +1,20 @@
 ---
 title: RadioFormat Attribute
 description: The RadioFormat attribute is a description of the type of content provided by the radio station.
-ms.assetid: 'f614ea24-bd82-4efe-8240-400a62e5b5f2'
-keywords: ["RadioFormat Attribute Windows Media Player"]
+ms.assetid: f614ea24-bd82-4efe-8240-400a62e5b5f2
+keywords:
+- RadioFormat Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - RadioFormat
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RadioFormat Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

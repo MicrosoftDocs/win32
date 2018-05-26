@@ -1,7 +1,12 @@
 ---
-Description: 'The PrepareWindow method creates the window.'
-ms.assetid: 'c4c0d177-6351-4ecc-b1eb-399b4a94c463'
-title: 'CBaseWindow.PrepareWindow method'
+Description: The PrepareWindow method creates the window.
+ms.assetid: c4c0d177-6351-4ecc-b1eb-399b4a94c463
+title: CBaseWindow.PrepareWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.PrepareWindow method
@@ -34,7 +39,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ Call this method after creating the object. This method performs some initial bo
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

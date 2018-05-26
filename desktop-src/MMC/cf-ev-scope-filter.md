@@ -4,17 +4,21 @@ description: The CF\_EV\_SCOPE\_FILTER clipboard format returns the filter setti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8ec50ded-331e-4dbe-9397-ee6d650da995'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8ec50ded-331e-4dbe-9397-ee6d650da995
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CF_EV_SCOPE_FILTER clipboard format MMC"]
+keywords:
+- CF_EV_SCOPE_FILTER clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - CF_EV_SCOPE_FILTER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CF\_EV\_SCOPE\_FILTER clipboard format

@@ -1,8 +1,16 @@
 ---
 title: StreamingHttpClientExample
 description: This example shows an HTTP client that does request-reply using the streaming APIs.
-ms.assetid: 'dd391506-6f14-4d3a-bd65-96a338b3f7cd'
-keywords: ["StreamingHttpClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: dd391506-6f14-4d3a-bd65-96a338b3f7cd
+keywords:
+- StreamingHttpClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StreamingHttpClientExample

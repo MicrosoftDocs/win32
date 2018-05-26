@@ -1,14 +1,20 @@
 ---
 title: Image element
 description: A UNC path to an offline image.
-ms.assetid: '993A6E73-F76F-4848-B72A-C7DB3E72A979'
-keywords: ["Image element Access Execution Engine"]
+ms.assetid: 993A6E73-F76F-4848-B72A-C7DB3E72A979
+keywords:
+- Image element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Image
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Using the Sample Desktop Application
 description: Using the Sample Desktop Application
-ms.assetid: '5e3e5283-9e27-4f6a-93a9-84d84f2e875a'
-keywords: ["Windows Media Device Manager,samples", "Device Manager,samples", "desktop applications,samples", "Windows Media Device Manager,desktop application sample", "Device Manager,desktop application sample", "samples,desktop applications"]
+ms.assetid: 5e3e5283-9e27-4f6a-93a9-84d84f2e875a
+keywords:
+- Windows Media Device Manager,samples
+- Device Manager,samples
+- desktop applications,samples
+- Windows Media Device Manager,desktop application sample
+- Device Manager,desktop application sample
+- samples,desktop applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Sample Desktop Application
@@ -11,7 +22,7 @@ The sample desktop application is a basic two-paned window somewhat like Windows
 
 You can delete files on the device by selecting a file in the right pane and selecting **Delete** on the **File** menu. To add media files to the device, you can drag files from the desktop onto the right pane of the program. Note that files must be of a media format supported by the device; files of unacceptable formats (non-media files such as .txt files, or media formats not supported by the device) will not be sent to the device. (Note that this restriction is the program's; Windows Media Device Manager enables you to send any file to a device if the device will accept it.)
 
-To capture callback events sent to the [**IWMDMOperation**](iwmdmoperation.md) interface, you must check the "Use Operation Interface" option in the **Options** menu.
+To capture callback events sent to the [**IWMDMOperation**](/windows/win32/mswmdm/nn-mswmdm-iwmdmoperation?branch=master) interface, you must check the "Use Operation Interface" option in the **Options** menu.
 
 The **Options** menu also enables you to choose whether to use several more advanced interfaces with features supported by advanced devices.
 

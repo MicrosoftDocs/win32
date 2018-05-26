@@ -1,19 +1,25 @@
 ---
 title: AuthorUrl element
-description: This URL refers to the main web site or page for the Assessment’s author.
-ms.assetid: 'E32019F9-9143-41CF-BFDF-F27E52B23D19'
-keywords: ["AuthorUrl element Access Execution Engine"]
+description: This URL refers to the main web site or page for the Assessment s author.
+ms.assetid: E32019F9-9143-41CF-BFDF-F27E52B23D19
+keywords:
+- AuthorUrl element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AuthorUrl
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AuthorUrl element
 
-This URL refers to the main web site or page for the Assessment’s author.
+This URL refers to the main web site or page for the Assessment s author.
 
 ## Usage
 
@@ -29,7 +35,7 @@ There are no attributes.
 
 ## Text value
 
-A URL to the web site for the assessment’s author.
+A URL to the web site for the assessment s author.
 
 ## Child elements
 
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

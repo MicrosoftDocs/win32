@@ -1,7 +1,12 @@
 ---
 title: How to Create a Trackbar
 description: When the trackbar is created, both its range and its selection range are initialized. The page size is also set at this time.
-ms.assetid: 'FA110B4A-D3D7-49D8-A3DC-368099F6DA1E'
+ms.assetid: FA110B4A-D3D7-49D8-A3DC-368099F6DA1E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Trackbar

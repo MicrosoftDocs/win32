@@ -1,8 +1,14 @@
 ---
 title: Windows Deployment Services Reference
-ms.assetid: '12a4ed8b-775c-47f1-9bb6-d82e3c94bf06'
+ms.assetid: 12a4ed8b-775c-47f1-9bb6-d82e3c94bf06
 description: 
-keywords: ["Windows Deployment Services Windows Deployment Services , reference"]
+keywords:
+- Windows Deployment Services Windows Deployment Services , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Deployment Services Reference

@@ -1,8 +1,11 @@
 ---
 title: Controls.fastReverse method
 description: The fastReverse method starts fast scanning of the media item in the reverse direction.
-ms.assetid: '4fc61739-9006-4d62-b2c1-2b8e8830f2d9'
-keywords: ["fastReverse method Windows Media Player", "fastReverse method Windows Media Player , Controls class", "Controls class Windows Media Player , fastReverse method"]
+ms.assetid: 4fc61739-9006-4d62-b2c1-2b8e8830f2d9
+keywords:
+- fastReverse method Windows Media Player
+- fastReverse method Windows Media Player , Controls class
+- Controls class Windows Media Player , fastReverse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.fastReverse method
@@ -36,7 +44,7 @@ This method does not return a value.
 
 ## Remarks
 
-The **fastReverse** method scans the clip in reverse at five times the normal speed, displaying only the key frames if it is a video file. Invoking **fastReverse** changes the *Settings*.**rate** property to –5.0. If **rate** is subsequently changed, or if **play** or **stop** is called, Windows Media Player will cease fast reverse.
+The **fastReverse** method scans the clip in reverse at five times the normal speed, displaying only the key frames if it is a video file. Invoking **fastReverse** changes the *Settings*.**rate** property to  5.0. If **rate** is subsequently changed, or if **play** or **stop** is called, Windows Media Player will cease fast reverse.
 
 If the item is part of a playlist, **fastReverse** stops at the beginning of the current track. For instance, if track 3 is in **fastReverse**, when the beginning of track 3 is reached, Windows Media Player will not go to track 2. The play count is not incremented when calling **fastReverse**.
 
@@ -95,9 +103,9 @@ The following example creates an HTML BUTTON element that uses **fastReverse** t
 [**Settings.rate**](settings-rate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

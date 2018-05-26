@@ -1,7 +1,12 @@
 ---
 title: VML Obscured Attribute
 description: VML Obscured Attribute
-ms.assetid: 'b8cdb066-e4fc-4dd6-a55a-7c2488f89e61'
+ms.assetid: b8cdb066-e4fc-4dd6-a55a-7c2488f89e61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Obscured Attribute

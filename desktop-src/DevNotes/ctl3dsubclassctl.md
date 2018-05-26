@@ -1,7 +1,12 @@
-﻿---
-Description: 'Subclasses an individual control unless the control appears in a dialog box.'
-ms.assetid: '07a2bce1-4c69-4f8d-bb24-b17351f5e771'
+---
+Description: Subclasses an individual control unless the control appears in a dialog box.
+ms.assetid: 07a2bce1-4c69-4f8d-bb24-b17351f5e771
 title: Ctl3dSubclassCtl function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ctl3dSubclassCtl function

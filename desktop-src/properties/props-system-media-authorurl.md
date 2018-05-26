@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'b8891bae-31da-48f6-b4e6-18799a199c9a'
-title: 'System.Media.AuthorUrl'
+Description: .
+ms.assetid: b8891bae-31da-48f6-b4e6-18799a199c9a
+title: System.Media.AuthorUrl
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.AuthorUrl

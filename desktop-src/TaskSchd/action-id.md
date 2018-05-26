@@ -1,8 +1,11 @@
 ---
 title: Action.Id property
 description: For scripting, gets or sets the identifier of the action.
-ms.assetid: '76601f33-9bf5-4263-ae72-6c1bb7af2e5e'
-keywords: ["Id property Task Scheduler", "Id property Task Scheduler , Action object", "Action object Task Scheduler , Id property"]
+ms.assetid: 76601f33-9bf5-4263-ae72-6c1bb7af2e5e
+keywords:
+- Id property Task Scheduler
+- Id property Task Scheduler , Action object
+- Action object Task Scheduler , Id property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Action.Id property
@@ -40,8 +48,8 @@ For information on how actions and tasks work together, see [Task Actions](task-
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ For information on how actions and tasks work together, see [Task Actions](task-
 [**Action**](action.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

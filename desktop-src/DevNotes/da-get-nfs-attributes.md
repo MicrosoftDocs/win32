@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DA\_GET\_NFS\_ATTRIBUTES control code queries additional information about an NFS share.'
-ms.assetid: 'BC9E0E19-7D78-4AE7-A3E6-9FD9212B2B83'
-title: 'DA\_GET\_NFS\_ATTRIBUTES control code'
+---
+Description: The DA\_GET\_NFS\_ATTRIBUTES control code queries additional information about an NFS share.
+ms.assetid: BC9E0E19-7D78-4AE7-A3E6-9FD9212B2B83
+title: DA\_GET\_NFS\_ATTRIBUTES control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DA\_GET\_NFS\_ATTRIBUTES control code

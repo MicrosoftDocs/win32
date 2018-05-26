@@ -1,8 +1,11 @@
 ---
 title: Items.Add method
 description: Adds a new Item.
-ms.assetid: '09599b31-7e7b-495e-bd86-804104908324'
-keywords: ["Add method WIA Automation", "Add method WIA Automation , Items object", "Items object WIA Automation , Add method"]
+ms.assetid: 09599b31-7e7b-495e-bd86-804104908324
+keywords:
+- Add method WIA Automation
+- Add method WIA Automation , Items object
+- Items object WIA Automation , Add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Items.Add method
@@ -67,8 +75,8 @@ As of the release of the Windows Image Acquisition (WIA) Automation Library, the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -105,9 +113,9 @@ As of the release of the Windows Image Acquisition (WIA) Automation Library, the
 [**Name (Property)**](-wiaaut-iproperty-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

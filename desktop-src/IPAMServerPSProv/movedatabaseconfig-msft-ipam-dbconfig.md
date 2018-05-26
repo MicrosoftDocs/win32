@@ -1,15 +1,18 @@
 ---
-Description: 'Migrates an IPAM database.'
+Description: Migrates an IPAM database.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a348ad13-6a29-4b14-a18e-c73e1cdc677b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a348ad13-6a29-4b14-a18e-c73e1cdc677b
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MoveDatabaseConfig method of the MSFT\_IPAM\_DBConfig class'
+title: MoveDatabaseConfig method of the MSFT\_IPAM\_DBConfig class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MoveDatabaseConfig method of the MSFT\_IPAM\_DBConfig class
@@ -21,12 +24,12 @@ Migrates an IPAM database.
 
 ```mof
 uint32 MoveDatabaseConfig(
-  [in]  string             DatabaseServer,
-  [in]  string             DatabaseName,
-  [in]  uint16             DatabasePort,
-  [in]  uint16             DatabaseAuthType,
-  [in]  string             DatabaseCredential,
-  [out] MSFT_IPAM_DBConfig Output
+  [in]  string             DatabaseServer,
+  [in]  string             DatabaseName,
+  [in]  uint16             DatabasePort,
+  [in]  uint16             DatabaseAuthType,
+  [in]  string             DatabaseCredential,
+  [out] MSFT_IPAM_DBConfig Output
 );
 ```
 
@@ -81,7 +84,7 @@ Windows Authentication.
 > [!Note]  
 > If you use Windows authentication, IPAM will use the server machine account to connect to the database.
 
- 
+ 
 
 </dd> <dt>
 
@@ -93,7 +96,7 @@ SQL Authentication.
 > [!Note]  
 > If you use Windows SQL authentication, specify a username and password to connect to the database.
 
- 
+ 
 
 </dd> </dl> </dd> <dt>
 
@@ -122,7 +125,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -136,9 +139,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_DBConfig**](msft-ipam-dbconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

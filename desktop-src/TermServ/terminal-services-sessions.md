@@ -4,10 +4,13 @@ description: Because each logon to a Remote Desktop Connection (RDC) client rece
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09a990cd-7590-4d73-b1f5-8736f0b4f17e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 09a990cd-7590-4d73-b1f5-8736f0b4f17e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Sessions
@@ -16,7 +19,7 @@ When a user logs on to a Remote Desktop Services–enabled computer, a session i
 
 Each remote desktop session is associated with an interactive window station. The only supported window station name for an interactive window station is "WinSta0"; therefore each session is associated with its own "WinSta0" window station. There are three standard desktops for each window station: the Winlogon desktop, the screen saver desktop, and the interactive desktop.
 
-The user associated with the interactive window station for a session is known as the *interactive user*. On a Remote Desktop Connection (RDC) client there can be multiple interactive users in addition to the interactive user on the Remote Desktop Services console. To retrieve the identifier of the session currently attached to the console, use the [**WTSGetActiveConsoleSessionId**](wtsgetactiveconsolesessionid.md) function.
+The user associated with the interactive window station for a session is known as the *interactive user*. On a Remote Desktop Connection (RDC) client there can be multiple interactive users in addition to the interactive user on the Remote Desktop Services console. To retrieve the identifier of the session currently attached to the console, use the [**WTSGetActiveConsoleSessionId**](/windows/win32/Winbase/nf-winbase-wtsgetactiveconsolesessionid?branch=master) function.
 
 When a user logs off from a Remote Desktop Connection (RDC) client, the session that the client has on the Remote Desktop Session Host (RD Session Host) server (formerly known as a terminal server) is deleted and the window stations and desktops associated with that session are removed. However, because the Remote Desktop Services console session is never deleted, the window stations associated with the console session are not deleted. This affects how applications behave in a Remote Desktop Services environment when they are configured to run in the security context of the interactive user, also known as the "RunAs Interactive User" object activation mode.
 

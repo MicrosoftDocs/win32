@@ -1,7 +1,12 @@
 ---
-Description: 'These sections describe patching a Windows Installer installation.'
-ms.assetid: 'c36e7d20-20fb-4b8b-8fa7-dcb7895db7db'
+Description: These sections describe patching a Windows Installer installation.
+ms.assetid: c36e7d20-20fb-4b8b-8fa7-dcb7895db7db
 title: Patching
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patching

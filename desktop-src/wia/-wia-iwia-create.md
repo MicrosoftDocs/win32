@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Create method of the Wia object makes a connection to the specified Windows Image Acquisition (WIA) device, and returns an Item object that represents the device.'
-ms.assetid: 'c33c635a-159c-4ac3-8ad5-6f21a1986702'
-title: 'Wia.Create method'
+---
+Description: The Create method of the Wia object makes a connection to the specified Windows Image Acquisition (WIA) device, and returns an Item object that represents the device.
+ms.assetid: c33c635a-159c-4ac3-8ad5-6f21a1986702
+title: Wia.Create method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wia.Create method

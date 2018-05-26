@@ -1,7 +1,12 @@
 ---
-Description: 'Returns an HRESULT. In this an HRESULT, a value of S\_OK indicates that the method was successfully executed.'
-ms.assetid: '6722a74a-1ec1-4c71-84c6-fb103aca149f'
+Description: Returns an HRESULT. In this an HRESULT, a value of S\_OK indicates that the method was successfully executed.
+ms.assetid: 6722a74a-1ec1-4c71-84c6-fb103aca149f
 title: Certificate Enrollment Control Properties in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Enrollment Control Properties in C++

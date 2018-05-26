@@ -1,14 +1,19 @@
 ---
 title: How to Enable Navigation in a UI Automation Fragment Provider
 description: This topic contains example code that shows how to enable navigation in a Microsoft UI Automation provider for an element in a fragment.
-ms.assetid: '8c390e19-3c17-4e02-ade8-cd5c1ed9E938'
+ms.assetid: 8c390e19-3c17-4e02-ade8-cd5c1ed9E938
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Enable Navigation in a UI Automation Fragment Provider
 
 This topic contains example code that shows how to enable navigation in a Microsoft UI Automation provider for an element in a fragment.
 
-The following example code implements the [**IRawElementProviderFragment::Navigate**](uiauto-irawelementproviderfragment-navigate.md) method for a list item in a custom list control. The parent element is the custom list control, and the sibling elements are other items in the list. The method sets the *pRetVal* parameter to **NULL** if there is no element in the specified direction.
+The following example code implements the [**IRawElementProviderFragment::Navigate**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-navigate?branch=master) method for a list item in a custom list control. The parent element is the custom list control, and the sibling elements are other items in the list. The method sets the *pRetVal* parameter to **NULL** if there is no element in the specified direction.
 
 
 ```C++

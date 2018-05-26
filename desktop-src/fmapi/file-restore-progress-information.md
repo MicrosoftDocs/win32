@@ -1,14 +1,21 @@
 ---
 title: FILE\_RESTORE\_PROGRESS\_INFORMATION structure
 description: Provides information about the progress of the restoration of a file.
-ms.assetid: 'f33fc463-acc7-4b46-b379-fa4edd46152d'
-keywords: ["FILE_RESTORE_PROGRESS_INFORMATION structure Files", "PFILE_RESTORE_PROGRESS_INFORMATION structure pointer Files"]
+ms.assetid: f33fc463-acc7-4b46-b379-fa4edd46152d
+keywords:
+- FILE_RESTORE_PROGRESS_INFORMATION structure Files
+- PFILE_RESTORE_PROGRESS_INFORMATION structure pointer Files
 topic_type:
 - apiref
 api_name:
 - FILE_RESTORE_PROGRESS_INFORMATION
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FILE\_RESTORE\_PROGRESS\_INFORMATION structure
@@ -16,9 +23,9 @@ api_type:
 Provides information about the progress of the restoration of a file. This structure is used in the [**RestoreFile**](restorefile.md) function and defines the format of the callback buffer for the **FileRestoreProgressInfo** message type.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
@@ -29,7 +36,7 @@ typedef struct _FILE_RESTORE_PROGRESS_INFORMATION {
   LONGLONG TotalBytesCompleted;
   LONGLONG StreamSize;
   LONGLONG StreamBytesCompleted;
-  PVOID    ClbkArg;
+  PVOID    ClbkArg;
 } FILE_RESTORE_PROGRESS_INFORMATION, *PFILE_RESTORE_PROGRESS_INFORMATION;
 ```
 
@@ -84,8 +91,8 @@ Note that there is no associated header file for this structure.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -96,9 +103,9 @@ Note that there is no associated header file for this structure.
 [**RestoreFile**](restorefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

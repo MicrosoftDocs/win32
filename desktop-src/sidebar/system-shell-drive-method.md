@@ -1,8 +1,11 @@
 ---
 title: System.Shell.drive method
 description: Retrieves a System.Shell.Drive object that represents the specified drive.
-ms.assetid: '04f60c48-98a6-42ee-9ad8-8fcfe06f7b5b'
-keywords: ["drive method Windows Sidebar", "drive method Windows Sidebar , System.Shell object", "System.Shell object Windows Sidebar , drive method"]
+ms.assetid: 04f60c48-98a6-42ee-9ad8-8fcfe06f7b5b
+keywords:
+- drive method Windows Sidebar
+- drive method Windows Sidebar , System.Shell object
+- System.Shell object Windows Sidebar , drive method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.drive method
@@ -42,7 +50,7 @@ retVal = System.Shell.drive(
 > [!Note]  
 > A valid drive specification is constrained to one of the following formats: **C**, **C:**, or **C:\\**.
 
- 
+ 
 
 </dd> </dl>
 
@@ -71,10 +79,10 @@ function GetADrive()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -90,9 +98,9 @@ function GetADrive()
 [**System.Shell.Drive**](system-shell-drive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork bufferingTime property
 description: The bufferingTime property gets or sets the amount of time in milliseconds allocated for buffering incoming data before playback begins.
-ms.assetid: 'b5936b21-a17b-4801-a5fc-c6d6521e05aa'
-keywords: ["bufferingTime property Windows Media Player", "bufferingTime property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , bufferingTime property"]
+ms.assetid: b5936b21-a17b-4801-a5fc-c6d6521e05aa
+keywords:
+- bufferingTime property Windows Media Player
+- bufferingTime property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , bufferingTime property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::bufferingTime property
@@ -128,9 +136,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

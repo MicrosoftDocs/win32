@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves the date and time at which the Windows Live ID certificate expires.'
+Description: Retrieves the date and time at which the Windows Live ID certificate expires.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '064640a4-6ba7-4b60-a2e2-23624b0e9a0a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 064640a4-6ba7-4b60-a2e2-23624b0e9a0a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'OnlineTrustedServiceUserDomain.CertificateExpirationTime property'
+title: OnlineTrustedServiceUserDomain.CertificateExpirationTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnlineTrustedServiceUserDomain.CertificateExpirationTime property
@@ -131,7 +134,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -143,9 +146,9 @@ END SUB
 [**OnlineTrustedServiceUserDomain**](onlinetrustedserviceuserdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

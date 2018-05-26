@@ -1,7 +1,12 @@
 ---
 title: Title Attribute (Shape)(VML)
 description: Title Attribute (Shape)(VML)
-ms.assetid: '08680706-5274-46d4-9199-4fdbf32f884b'
+ms.assetid: 08680706-5274-46d4-9199-4fdbf32f884b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Title Attribute (Shape)(VML)

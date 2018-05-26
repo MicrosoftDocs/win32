@@ -1,8 +1,9 @@
 ---
 title: EM\_SETIMEOPTIONS message
 description: Sets the Input Method Editor (IME) options.
-ms.assetid: '8a72ee1c-f6b8-44eb-b8df-57cd834db326'
-keywords: ["EM_SETIMEOPTIONS message Windows Controls"]
+ms.assetid: 8a72ee1c-f6b8-44eb-b8df-57cd834db326
+keywords:
+- EM_SETIMEOPTIONS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETIMEOPTIONS message
@@ -18,9 +24,9 @@ api_type:
 Sets the Input Method Editor (IME) options.
 
 > [!Note]  
-> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions.
+> This message is supported only in Asian-language versions of Microsoft Rich Edit 1.0. It is not supported in any later versions.
 
- 
+ 
 
 ## Parameters
 
@@ -42,7 +48,7 @@ Specifies one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,7 +73,7 @@ Specifies one of more of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -83,8 +89,8 @@ If the operation fails, the return value is zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -96,9 +102,9 @@ If the operation fails, the return value is zero.
 [**EM\_GETIMEOPTIONS**](em-getimeoptions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

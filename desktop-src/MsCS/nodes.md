@@ -4,11 +4,16 @@ description: A cluster node is a Microsoft Windows Server system that has a work
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4381e378-7bf2-4dbc-b56e-3fed33193d32'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4381e378-7bf2-4dbc-b56e-3fed33193d32
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,nodes", "nodes Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster ,nodes
+- nodes Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Nodes

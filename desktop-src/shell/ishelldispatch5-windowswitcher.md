@@ -1,6 +1,11 @@
-﻿---
-Description: 'Displays your open windows in a 3D stack that you can flip through.'
-title: 'IShellDispatch5.WindowSwitcher method'
+---
+Description: Displays your open windows in a 3D stack that you can flip through.
+title: IShellDispatch5.WindowSwitcher method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch5.WindowSwitcher method

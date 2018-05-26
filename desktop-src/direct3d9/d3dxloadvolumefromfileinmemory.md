@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a volume from a file in memory.'
-ms.assetid: 'd450b652-3a74-45ea-9506-e05da87821d7'
+---
+Description: Loads a volume from a file in memory.
+ms.assetid: d450b652-3a74-45ea-9506-e05da87821d7
 title: D3DXLoadVolumeFromFileInMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXLoadVolumeFromFileInMemory function
@@ -34,18 +39,18 @@ HRESULT D3DXLoadVolumeFromFileInMemory(
 *pDestVolume* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DVOLUME9**](idirect3dvolume9.md)**
+Type: **[**LPDIRECT3DVOLUME9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolume9?branch=master)**
 
-Pointer to an [**IDirect3DVolume9**](idirect3dvolume9.md) interface. Specifies the destination volume.
+Pointer to an [**IDirect3DVolume9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dvolume9?branch=master) interface. Specifies the destination volume.
 
 </dd> <dt>
 
 *pDestPalette* \[in\]
 </dt> <dd>
 
-Type: **const [**PALETTEENTRY**](paletteentry.md)\***
+Type: **const [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master)\***
 
-Pointer to a [**PALETTEENTRY**](paletteentry.md) structure, the destination palette of 256 colors or **NULL**.
+Pointer to a [**PALETTEENTRY**](/windows/win32/Wingdi/ns-wingdi-tagpaletteentry?branch=master) structure, the destination palette of 256 colors or **NULL**.
 
 </dd> <dt>
 
@@ -122,7 +127,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 This function handles conversion to and from compressed texture formats and supports the following file formats: .bmp, .dds, .dib, .hdr, .jpg, .pfm, .png, .ppm, and .tga. See [**D3DXIMAGE\_FILEFORMAT**](direct3d9.d3dximage_fileformat).
 
-Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromFileInMemory** is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](idirect3dvolumetexture9--adddirtybox.md) on the volume texture.
+Writing to a non-level-zero surface of the volume texture will not cause the dirty rectangle to be updated. If **D3DXLoadVolumeFromFileInMemory** is called and the texture was not already dirty (this is unlikely under normal usage scenarios), the application needs to explicitly call [**IDirect3DVolumeTexture9::AddDirtyBox**](/windows/win32/d3d9helper/nf-d3d9-idirect3dvolumetexture9-adddirtybox?branch=master) on the volume texture.
 
 ## Requirements
 

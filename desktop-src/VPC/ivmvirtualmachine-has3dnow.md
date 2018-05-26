@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Has3DNow property
 description: Determines whether the processor supports the 3DNow instruction set.
-ms.assetid: '525ee7f0-081c-4f87-b2b7-ffec09f632c4'
-keywords: ["Has3DNow property Virtual PC", "Has3DNow property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , Has3DNow property"]
+ms.assetid: 525ee7f0-081c-4f87-b2b7-ffec09f632c4
+keywords:
+- Has3DNow property Virtual PC
+- Has3DNow property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , Has3DNow property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Has3DNow property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Determines whether the processor supports the 3DNow instruction set.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Has3DNow(
-  [out, retval] VARIANT_BOOL *threeDNowEnabled
+  [out, retval] VARIANT_BOOL *threeDNowEnabled
 );
 ```
 
@@ -56,9 +64,9 @@ HRESULT get_Has3DNow(
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -72,9 +80,9 @@ HRESULT get_Has3DNow(
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

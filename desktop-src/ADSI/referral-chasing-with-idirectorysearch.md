@@ -4,11 +4,16 @@ description: A referral is the mechanism that a directory server uses to direct 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef97eafd-5227-4dd7-9f8a-6b4591261f79'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ef97eafd-5227-4dd7-9f8a-6b4591261f79
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Referral Chasing with IDirectorySearch ADSI", "ADSI, Searching, IDirectorySearch, Other Search Options, Referral Chasing"]
+keywords:
+- Referral Chasing with IDirectorySearch ADSI
+- ADSI, Searching, IDirectorySearch, Other Search Options, Referral Chasing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Referral Chasing with IDirectorySearch
@@ -19,7 +24,7 @@ In a one-level or subtree search, referrals are returned for known, immediately 
 
 In a directory, not all data is available on a single server, rather, it is distributed over several different servers across the network. If the servers share the data that other servers can provide, they can provide referrals to a client when a requested query cannot be resolved on the originating server. For example, when a client asks Server A to query a user object (U), then A can suggest that the client continue the search on Server B if U does not reside on A, but is identified to be on B. The client has the choice to pursue the referral or not. Referrals free the client from having to possess previous knowledge of the capability of each server, but the client must specify the type of referrals a server should perform.
 
-To enable or disable referral chasing, set an **ADS\_SEARCHPREF\_CHASE\_REFERRALS** search option with an **ADSTYPE\_INTEGER** value that contains one of the [**ADS\_CHASE\_REFERRALS\_ENUM**](ads-chase-referrals-enum.md) enumeration values in the [**ADS\_SEARCHPREF\_INFO**](ads-searchpref-info.md) array passed to the [**IDirectorySearch::SetSearchPreference**](idirectorysearch-setsearchpreference.md) method.
+To enable or disable referral chasing, set an **ADS\_SEARCHPREF\_CHASE\_REFERRALS** search option with an **ADSTYPE\_INTEGER** value that contains one of the [**ADS\_CHASE\_REFERRALS\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0024?branch=master) enumeration values in the [**ADS\_SEARCHPREF\_INFO**](/windows/win32/Iads/ns-iads-ads_searchpref_info?branch=master) array passed to the [**IDirectorySearch::SetSearchPreference**](/windows/win32/Iads/nf-iads-idirectorysearch-setsearchpreference?branch=master) method.
 
 The following code example shows how to enable chase referrals.
 

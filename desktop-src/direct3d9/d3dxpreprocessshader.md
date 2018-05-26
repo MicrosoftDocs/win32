@@ -1,7 +1,12 @@
-﻿---
-Description: 'Preprocesses a shader without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.'
-ms.assetid: 'd91258ed-6206-487a-aa81-e7c2bcea21ea'
+---
+Description: Preprocesses a shader without performing compilation. This resolves all \#defines and \#includes, providing a self-contained shader for subsequent compilation.
+ms.assetid: d91258ed-6206-487a-aa81-e7c2bcea21ea
 title: D3DXPreprocessShader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPreprocessShader function

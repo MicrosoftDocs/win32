@@ -1,20 +1,25 @@
 ---
-Description: 'The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter). This method implements the IPin::QueryInternalConnections method.'
-ms.assetid: '08344fc5-38b2-4dbe-8ef9-30d2fcd64187'
-title: 'CBasePin.QueryInternalConnections method'
+Description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter). This method implements the IPinQueryInternalConnections method.
+ms.assetid: 08344fc5-38b2-4dbe-8ef9-30d2fcd64187
+title: CBasePin.QueryInternalConnections method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.QueryInternalConnections method
 
-The `QueryInternalConnections` method retrieves the pins that are connected internally to this pin (within the filter). This method implements the [**IPin::QueryInternalConnections**](ipin-queryinternalconnections.md) method.
+The `QueryInternalConnections` method retrieves the pins that are connected internally to this pin (within the filter). This method implements the [**IPin::QueryInternalConnections**](/windows/win32/Strmif/nf-strmif-ipin-queryinternalconnections?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryInternalConnections(
-   IPin  *apPin,
-   ULONG *nPin
+   IPin  *apPin,
+   ULONG *nPin
 );
 ```
 
@@ -27,7 +32,7 @@ HRESULT QueryInternalConnections(
 *apPin* 
 </dt> <dd>
 
-Address of an array of [**IPin**](ipin.md) pointers.
+Address of an array of [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) pointers.
 
 </dd> <dt>
 
@@ -53,7 +58,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ On some filters, input pins correspond to particular output pins. For each pin, 
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

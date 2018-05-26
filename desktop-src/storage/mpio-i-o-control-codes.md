@@ -1,7 +1,12 @@
 ---
 title: MPIO I/O Control Codes
 description: MPIO I/O Control Codes
-ms.assetid: '745aaadf-1334-42f2-8a5e-c8d331913057'
+ms.assetid: 745aaadf-1334-42f2-8a5e-c8d331913057
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPIO I/O Control Codes

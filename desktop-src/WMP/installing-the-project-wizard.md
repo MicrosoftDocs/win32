@@ -1,8 +1,46 @@
 ---
 title: Installing the Project Wizard
 description: Installing the Project Wizard
-ms.assetid: 'bb27e5f0-d49e-46e5-a15f-be1a0a752c1c'
-keywords: ["Windows Media Player online stores,plug-ins", "online stores,plug-ins", "type 2 online stores,plug-ins", "Windows Media Player online stores,plug-in wizard", "online stores,plug-in wizard", "type 2 online stores,plug-in wizard", "Windows Media Player online stores,project wizard", "online stores,project wizard", "type 2 online stores,project wizard", "Windows Media Player online stores,installing plug-in wizard", "online stores,installing plug-in wizard", "type 2 online stores,installing plug-in wizard", "Windows Media Player online stores,installing project wizard", "online stores,installing project wizard", "type 2 online stores,installing project wizard", "plug-ins,Windows Media Player online stores", "plug-ins,online stores", "plug-ins,type 2 online stores", "plug-ins,installing plug-in wizard", "plug-ins,plug-in wizard", "plug-ins,installing project wizard", "plug-ins,project wizard", "Windows Media Player plug-ins,type 2 online stores", "Windows Media Player plug-ins,online stores", "Windows Media Player plug-ins,Windows Media Player online stores", "Windows Media Player plug-ins,installing plug-in wizard", "Windows Media Player plug-ins,plug-in wizard", "Windows Media Player plug-ins,installing project wizard", "Windows Media Player plug-ins,project wizard", "installing plug-in wizard", "plug-in wizard", "installing project wizard", "project wizard"]
+ms.assetid: bb27e5f0-d49e-46e5-a15f-be1a0a752c1c
+keywords:
+- Windows Media Player online stores,plug-ins
+- online stores,plug-ins
+- type 2 online stores,plug-ins
+- Windows Media Player online stores,plug-in wizard
+- online stores,plug-in wizard
+- type 2 online stores,plug-in wizard
+- Windows Media Player online stores,project wizard
+- online stores,project wizard
+- type 2 online stores,project wizard
+- Windows Media Player online stores,installing plug-in wizard
+- online stores,installing plug-in wizard
+- type 2 online stores,installing plug-in wizard
+- Windows Media Player online stores,installing project wizard
+- online stores,installing project wizard
+- type 2 online stores,installing project wizard
+- plug-ins,Windows Media Player online stores
+- plug-ins,online stores
+- plug-ins,type 2 online stores
+- plug-ins,installing plug-in wizard
+- plug-ins,plug-in wizard
+- plug-ins,installing project wizard
+- plug-ins,project wizard
+- Windows Media Player plug-ins,type 2 online stores
+- Windows Media Player plug-ins,online stores
+- Windows Media Player plug-ins,Windows Media Player online stores
+- Windows Media Player plug-ins,installing plug-in wizard
+- Windows Media Player plug-ins,plug-in wizard
+- Windows Media Player plug-ins,installing project wizard
+- Windows Media Player plug-ins,project wizard
+- installing plug-in wizard
+- plug-in wizard
+- installing project wizard
+- project wizard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing the Project Wizard

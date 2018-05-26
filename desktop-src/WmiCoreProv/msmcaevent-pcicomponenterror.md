@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates an Machine Check Architecture (MCA) PCI component error. This class is available only in 64-bit Windows systems.'
-ms.assetid: '2b241333-2ea5-42cb-bdd3-27a10df51f3e'
-title: 'MSMCAEvent\_PCIComponentError class'
+Description: Indicates an Machine Check Architecture (MCA) PCI component error. This class is available only in 64-bit Windows systems.
+ms.assetid: 2b241333-2ea5-42cb-bdd3-27a10df51f3e
+title: MSMCAEvent\_PCIComponentError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_PCIComponentError class
@@ -16,26 +21,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_PCIComponentError : WMIEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint64  PCI_COMP_ERROR_STATUS;
-  uint8   PCI_COMP_INFO_BusNumber;
-  uint8   PCI_COMP_INFO_ClassCodeBaseClass;
-  uint8   PCI_COMP_INFO_ClassCodeInterface;
-  uint8   PCI_COMP_INFO_ClassCodeSubClass;
-  uint16  PCI_COMP_INFO_DeviceId;
-  uint8   PCI_COMP_INFO_DeviceNumber;
-  uint8   PCI_COMP_INFO_FunctionNumber;
-  uint8   PCI_COMP_INFO_SegmentNumber;
-  uint16  PCI_COMP_INFO_VendorId;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint32  Size;
-  uint32  Type;
-  uint64  VALIDATION_BITS;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint64  PCI_COMP_ERROR_STATUS;
+  uint8   PCI_COMP_INFO_BusNumber;
+  uint8   PCI_COMP_INFO_ClassCodeBaseClass;
+  uint8   PCI_COMP_INFO_ClassCodeInterface;
+  uint8   PCI_COMP_INFO_ClassCodeSubClass;
+  uint16  PCI_COMP_INFO_DeviceId;
+  uint8   PCI_COMP_INFO_DeviceNumber;
+  uint8   PCI_COMP_INFO_FunctionNumber;
+  uint8   PCI_COMP_INFO_SegmentNumber;
+  uint16  PCI_COMP_INFO_VendorId;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint32  Size;
+  uint32  Type;
+  uint64  VALIDATION_BITS;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -111,7 +116,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -353,7 +358,7 @@ Validation bits used to indicate the validity of the subsequent fields.
 
 
 
- 
+ 
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -369,8 +374,8 @@ The **MSMCAEvent\_PCIComponentError** class is derived from [**WMIEvent**](wmiev
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -387,9 +392,9 @@ The **MSMCAEvent\_PCIComponentError** class is derived from [**WMIEvent**](wmiev
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

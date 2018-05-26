@@ -1,8 +1,16 @@
 ---
 title: Windows Internet
 description: The Microsoft Windows Internet (WinINet) application programming interface (API) enables applications to access standard Internet protocols, such as FTP and HTTP. For ease of use, WinINet abstracts these protocols into a high-level interface.
-ms.assetid: '9d1856ac-f281-4582-bb70-83a8ec674914'
-keywords: ["Windows Internet WinINet", "WinINet WinINet , portal", "Windows Internet WinINet , start page"]
+ms.assetid: 9d1856ac-f281-4582-bb70-83a8ec674914
+keywords:
+- Windows Internet WinINet
+- WinINet WinINet , portal
+- Windows Internet WinINet , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Internet
@@ -21,7 +29,7 @@ WinINet is designed for use by C/C++ programmers. It requires a basic understand
 
 ## Run-time requirements
 
-Applications that use the WinINet API require Windows NT 4.0 or later, or Windows Me/98/95. For more information about which operating systems or components are required to use a particular programming element, see the Requirements section of the documentation.
+Applications that use the WinINet API require Windows NT 4.0 or later, or Windows Me/98/95. For more information about which operating systems or components are required to use a particular programming element, see the Requirements section of the documentation.
 
 ## In this section
 
@@ -35,7 +43,7 @@ Applications that use the WinINet API require Windows NT 4.0 or later, or Window
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -44,9 +52,9 @@ Applications that use the WinINet API require Windows NT 4.0 or later, or Window
 [Microsoft Windows HTTP Services (WinHTTP)](https://msdn.microsoft.com/library/windows/desktop/aa384273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

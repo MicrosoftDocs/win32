@@ -1,8 +1,11 @@
 ---
 title: AssessmentResults GetToBeAnalyzed method
 description: Returns the indicator of whether the assessment results are to be analyzed.
-ms.assetid: 'D9636B07-8F39-4266-8F8A-1606293B5F87'
-keywords: ["GetToBeAnalyzed method Access Execution Engine", "GetToBeAnalyzed method Access Execution Engine , AssessmentResults interface", "AssessmentResults interface Access Execution Engine , GetToBeAnalyzed method"]
+ms.assetid: D9636B07-8F39-4266-8F8A-1606293B5F87
+keywords:
+- GetToBeAnalyzed method Access Execution Engine
+- GetToBeAnalyzed method Access Execution Engine , AssessmentResults interface
+- AssessmentResults interface Access Execution Engine , GetToBeAnalyzed method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentResults::GetToBeAnalyzed method
@@ -22,7 +30,7 @@ Returns the indicator of whether the assessment results are to be analyzed.
 
 ```C++
 virtual HRESULT GetToBeAnalyzed(
-  [out] BOOL *analyze
+  [out] BOOL *analyze
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ Set this indicator with [**SetToBeAnalyzed**](assessmentresults-settobeanalyzed.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ Set this indicator with [**SetToBeAnalyzed**](assessmentresults-settobeanalyzed.
 [**AssessmentResults**](assessmentresults-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

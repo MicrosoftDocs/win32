@@ -1,21 +1,27 @@
 ---
 title: capability command
 description: The capability command requests information about a particular capability of a device. All MCI devices recognize this command.
-ms.assetid: '1b470473-0de6-41ba-9f6e-41f0b13ceaeb'
-keywords: ["capability command Windows Multimedia"]
+ms.assetid: 1b470473-0de6-41ba-9f6e-41f0b13ceaeb
+keywords:
+- capability command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - capability
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # capability command
 
 The capability command requests information about a particular capability of a device. All MCI devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -210,7 +216,7 @@ Flag that identifies a device capability. The following table lists device types
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the *lpszRequest* parameter and their meanings:
 
@@ -389,7 +395,7 @@ The following table lists the flags that can be specified in the *lpszRequest* p
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -402,7 +408,7 @@ Can be "wait", "notify", or both. For digital-video and VCR devices, "test" can 
 
 ## Return Value
 
-Returns information in the *lpszReturnString* parameter of the [**mciSendString**](mcisendstring.md) function. The information is dependent on the request type.
+Returns information in the *lpszReturnString* parameter of the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function. The information is dependent on the request type.
 
 ## Examples
 
@@ -418,8 +424,8 @@ capability mysound device type
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -436,9 +442,9 @@ capability mysound device type
 [cue](cue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IMessengerGroups Item method
 description: Retrieves a specific MessengerGroup object by numeric index.
-ms.assetid: '1078b9f3-219b-4d57-abed-cbe0e5675275'
-keywords: ["Item method Windows Messenger", "Item method Windows Messenger , IMessengerGroups interface", "IMessengerGroups interface Windows Messenger , Item method"]
+ms.assetid: 1078b9f3-219b-4d57-abed-cbe0e5675275
+keywords:
+- Item method Windows Messenger
+- Item method Windows Messenger , IMessengerGroups interface
+- IMessengerGroups interface Windows Messenger , Item method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerGroups::Item method
 
-\[**Item** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Item** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a specific [**MessengerGroup**](im-messengergroup.md) object by numeric index.
 
@@ -24,8 +32,8 @@ Retrieves a specific [**MessengerGroup**](im-messengergroup.md) object by numeri
 
 ```C++
 HRESULT Item(
-  [in]          long      Index,
-  [out, retval] IDispatch **ppService
+  [in]          long      Index,
+  [out, retval] IDispatch **ppService
 );
 ```
 
@@ -70,14 +78,14 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -85,8 +93,8 @@ Returns one of the following values.
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -100,9 +108,9 @@ Returns one of the following values.
 [**IMessengerGroups**](im-imessengergroups.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The StartStreaming method initiates streaming when the filter switches to a running state.'
-ms.assetid: '198e9c1b-be69-4ba6-aa67-9f24ed080ab6'
-title: 'CBaseRenderer.StartStreaming method'
+Description: The StartStreaming method initiates streaming when the filter switches to a running state.
+ms.assetid: 198e9c1b-be69-4ba6-aa67-9f24ed080ab6
+title: CBaseRenderer.StartStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.StartStreaming method
@@ -49,9 +54,9 @@ This method calls the [**CBaseRenderer::OnStartStreaming**](cbaserenderer-onstar
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

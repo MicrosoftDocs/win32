@@ -1,7 +1,12 @@
 ---
-Description: 'Attributes are included in a PKCS \#10 certificate request by adding them to the CertificationRequestInfo structure shown in the following ASN.1 syntax example.'
-ms.assetid: '5f00f638-9edb-474b-a7e4-f6f7b62c89a4'
-title: 'PKCS \#10 Attributes'
+Description: Attributes are included in a PKCS \#10 certificate request by adding them to the CertificationRequestInfo structure shown in the following ASN.1 syntax example.
+ms.assetid: 5f00f638-9edb-474b-a7e4-f6f7b62c89a4
+title: PKCS \#10 Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKCS \#10 Attributes
@@ -26,7 +31,7 @@ Attribute ::= SEQUENCE
 }
 ```
 
-The attribute most commonly added to a PKCS \#10 request is a collection of version 3 extensions defined by an [**IX509AttributeExtensions**](ix509attributeextensions.md) object. Because a PKCS \#10 request does not contain a field to which the extensions can be directly added, they must be added as an attribute. The **ClientId**, **CspProvider**, **OSVersion**, and **RenewalCertificate** attributes can also be added to a PKCS ) topic.
+The attribute most commonly added to a PKCS \#10 request is a collection of version 3 extensions defined by an [**IX509AttributeExtensions**](/windows/win32/CertEnroll/nn-certenroll-ix509attributeextensions?branch=master) object. Because a PKCS \#10 request does not contain a field to which the extensions can be directly added, they must be added as an attribute. The **ClientId**, **CspProvider**, **OSVersion**, and **RenewalCertificate** attributes can also be added to a PKCS ) topic.
 
 ## Related topics
 

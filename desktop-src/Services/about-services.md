@@ -1,7 +1,12 @@
 ---
-Description: 'The service control manager (SCM) maintains a database of installed services and driver services, and provides a unified and secure means of controlling them.'
-ms.assetid: 'a3af8340-d367-417b-9759-7282edf1d694'
+Description: The service control manager (SCM) maintains a database of installed services and driver services, and provides a unified and secure means of controlling them.
+ms.assetid: a3af8340-d367-417b-9759-7282edf1d694
 title: About Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Services

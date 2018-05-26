@@ -1,7 +1,12 @@
 ---
 title: Text Object Model Reference
 description: .
-ms.assetid: '053718fa-f7eb-4832-8241-e31df67734a7'
+ms.assetid: 053718fa-f7eb-4832-8241-e31df67734a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Object Model Reference

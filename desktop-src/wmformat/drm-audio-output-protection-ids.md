@@ -1,8 +1,10 @@
 ---
 title: DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS structure
 description: The DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS structure contains a list of audio output protection identifiers.
-ms.assetid: '21972b18-334b-4a4d-812d-21cbfaf7cc58'
-keywords: ["DRM_AUDIO_OUTPUT_PROTECTION_IDS structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 21972b18-334b-4a4d-812d-21cbfaf7cc58
+keywords:
+- DRM_AUDIO_OUTPUT_PROTECTION_IDS structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS structure
@@ -22,7 +29,7 @@ The **DRM\_AUDIO\_OUTPUT\_PROTECTION\_IDS** structure contains a list of audio o
 
 ```C++
 typedef struct DRM_AUDIO_OUTPUT_PROTECTION_IDS {
-  WORD                        cEntries;
+  WORD                        cEntries;
   DRM_AUDIO_OUTPUT_PROTECTION *rgAop;
 } ;
 ```
@@ -74,9 +81,9 @@ None.
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

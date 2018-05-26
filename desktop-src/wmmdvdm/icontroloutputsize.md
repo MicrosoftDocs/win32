@@ -1,14 +1,21 @@
 ---
 title: IControlOutputSize interface
 description: The transform can optionally implement the IControlOutputSize interface to enable it to change its output buffer requirements before each call to IMediaTransform Process is processed.
-ms.assetid: '23edf7c3-dffd-4f4b-aad4-07a42f2a3af8'
-keywords: ["IControlOutputSize interface Windows Movie Maker and DVD Maker", "IControlOutputSize interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: 23edf7c3-dffd-4f4b-aad4-07a42f2a3af8
+keywords:
+- IControlOutputSize interface Windows Movie Maker and DVD Maker
+- IControlOutputSize interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - IControlOutputSize
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IControlOutputSize interface
@@ -33,7 +40,7 @@ The **IControlOutputSize** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -42,9 +49,9 @@ The **IControlOutputSize** interface has these methods.
 [**Transform Interfaces**](transform-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

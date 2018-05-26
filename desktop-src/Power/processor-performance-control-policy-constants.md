@@ -1,7 +1,12 @@
 ---
-Description: 'The processor performance control policy constants indicate the processor performance control algorithm applied to a power scheme.'
-ms.assetid: '928ba485-f767-47df-8b57-7630c68068a7'
+Description: The processor performance control policy constants indicate the processor performance control algorithm applied to a power scheme.
+ms.assetid: 928ba485-f767-47df-8b57-7630c68068a7
 title: Processor Performance Control Policy Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processor Performance Control Policy Constants
@@ -25,15 +30,15 @@ The processor performance control policy constants indicate the processor perfor
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>WinNT.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

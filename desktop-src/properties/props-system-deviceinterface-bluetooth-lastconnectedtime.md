@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth device last connected time.'
-ms.assetid: 'b741f3a2-f4e5-4c29-b7b9-b6798e262a7c'
-title: 'System.DeviceInterface.Bluetooth.LastConnectedTime'
+Description: Bluetooth device last connected time.
+ms.assetid: b741f3a2-f4e5-4c29-b7b9-b6798e262a7c
+title: System.DeviceInterface.Bluetooth.LastConnectedTime
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Bluetooth.LastConnectedTime

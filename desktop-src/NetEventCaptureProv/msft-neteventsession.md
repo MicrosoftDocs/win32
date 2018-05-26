@@ -1,8 +1,10 @@
 ---
 title: MSFT\_NetEventSession class
 description: This class encapsulates an ETW capture session on a computer.
-ms.assetid: 'a8b638a8-81b0-4482-880d-95642dd4dd1f'
-keywords: ["MSFT_NetEventSession class", "MSFT_NetEventSession class, described"]
+ms.assetid: a8b638a8-81b0-4482-880d-95642dd4dd1f
+keywords:
+- MSFT_NetEventSession class
+- MSFT_NetEventSession class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,11 @@ api_location:
 - NetEventPacketCapture.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetEventSession class
@@ -46,27 +53,27 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0"), dynamic, provider("NetEventPacketCapture"), AMENDMENT]
 class MSFT_NetEventSession : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name;
-  string   Guid;
-  uint8    CaptureMode;
-  string   LocalFilePath;
-  uint32   MaxFileSize;
-  uint32   TraceBufferSize;
-  uint8    MaxNumberOfBuffers;
-  uint8    SessionStatus;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name;
+  string   Guid;
+  uint8    CaptureMode;
+  string   LocalFilePath;
+  uint32   MaxFileSize;
+  uint32   TraceBufferSize;
+  uint8    MaxNumberOfBuffers;
+  uint8    SessionStatus;
 };
 ```
 
@@ -90,7 +97,7 @@ The **MSFT\_NetEventSession** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -168,7 +175,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -232,7 +239,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -313,7 +320,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -488,7 +495,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -558,7 +565,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -599,7 +606,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -658,7 +665,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -699,8 +706,8 @@ The trace buffer size for the ETW session. The value range is 1KB to 1024KB.
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                                       |
 | MOF<br/>                      | <dl> <dt>NetEventPacketCapture.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetEventPacketCapture.dll</dt> </dl> |
@@ -714,9 +721,9 @@ The trace buffer size for the ETW session. The value range is 1KB to 1024KB.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

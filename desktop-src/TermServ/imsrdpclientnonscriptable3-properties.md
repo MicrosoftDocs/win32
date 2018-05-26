@@ -4,10 +4,13 @@ description: The IMsRdpClientNonScriptable3 interface exposes the following prop
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4E35825D-B247-41C0-917C-D7FCA4A8ABFA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4E35825D-B247-41C0-917C-D7FCA4A8ABFA
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientNonScriptable3 Properties

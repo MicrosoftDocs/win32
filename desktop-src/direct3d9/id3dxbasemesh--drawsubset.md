@@ -1,7 +1,12 @@
-﻿---
-Description: 'Draws a subset of a mesh.'
-ms.assetid: '99eaa185-b681-47f2-aed8-5ca1697ff73c'
-title: 'ID3DXBaseMesh::DrawSubset method'
+---
+Description: Draws a subset of a mesh.
+ms.assetid: 99eaa185-b681-47f2-aed8-5ca1697ff73c
+title: ID3DXBaseMeshDrawSubset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::DrawSubset method
@@ -40,7 +45,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 ## Remarks
 
-The subset that is specified by AttribId will be rendered by the [**IDirect3DDevice9::DrawIndexedPrimitive**](idirect3ddevice9--drawindexedprimitive.md) method, using the D3DPT\_TRIANGLELIST primitive type, so an index buffer must be properly initialized.
+The subset that is specified by AttribId will be rendered by the [**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive?branch=master) method, using the D3DPT\_TRIANGLELIST primitive type, so an index buffer must be properly initialized.
 
 An attribute table is used to identify areas of the mesh that need to be drawn with different textures, render states, materials, and so on. In addition, the application can use the attribute table to hide portions of a mesh by not drawing a given attribute identifier (*AttribId*) when drawing the frame.
 

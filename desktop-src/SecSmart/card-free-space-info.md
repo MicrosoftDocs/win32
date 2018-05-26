@@ -1,8 +1,10 @@
 ---
 title: CARD\_FREE\_SPACE\_INFO structure
 description: Contains information about the amount of available memory on a smart card.
-ms.assetid: '698ba08f-320a-4d12-baef-536ea95fda5b'
-keywords: ["CARD_FREE_SPACE_INFO structure Security", "PCARD_FREE_SPACE_INFO structure pointer Security"]
+ms.assetid: 698ba08f-320a-4d12-baef-536ea95fda5b
+keywords:
+- CARD_FREE_SPACE_INFO structure Security
+- PCARD_FREE_SPACE_INFO structure pointer Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_FREE\_SPACE\_INFO structure
@@ -75,8 +82,8 @@ The [**CardQueryFreeSpace**](cardqueryfreespace.md) function initializes this st
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -91,9 +98,9 @@ The [**CardQueryFreeSpace**](cardqueryfreespace.md) function initializes this st
 [**CardQueryFreeSpace**](cardqueryfreespace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

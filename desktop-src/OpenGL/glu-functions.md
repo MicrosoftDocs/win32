@@ -1,8 +1,17 @@
 ---
 title: GLU Functions
 description: GLU Functions
-ms.assetid: '8304a291-1a26-42bc-8887-386732980722'
-keywords: ["OpenGL,GLU library functions", "OpenGL reference,GLU library functions", "GLU library,functions", "OpenGL Utility (GLU),functions"]
+ms.assetid: 8304a291-1a26-42bc-8887-386732980722
+keywords:
+- OpenGL,GLU library functions
+- OpenGL reference,GLU library functions
+- GLU library,functions
+- OpenGL Utility (GLU),functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GLU Functions

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Save method saves the FaxIncomingQueue object''s data.'
-ms.assetid: 'af304eb2-352b-4eb0-9dd5-6f8d8b37cd45'
-title: 'FaxIncomingQueue.Save method'
+---
+Description: The Save method saves the FaxIncomingQueue objects data.
+ms.assetid: af304eb2-352b-4eb0-9dd5-6f8d8b37cd45
+title: FaxIncomingQueue.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingQueue.Save method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-access-rights-enum.md) and [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access rights.
+To use this method, a user must have the [**farMANAGE\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access rights.
 
 ## Requirements
 
@@ -45,7 +50,7 @@ To use this method, a user must have the [**farMANAGE\_CONFIG**](-mfax-fax-acces
 [**FaxIncomingQueue**](-mfax-faxincomingqueue.md)
 </dt> <dt>
 
-[**IFaxIncomingQueue**](-mfax-faxincomingqueue-cpp.md)
+[**IFaxIncomingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingqueue?branch=master)
 </dt> </dl>
 
  

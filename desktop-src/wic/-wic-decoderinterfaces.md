@@ -1,7 +1,12 @@
 ---
 Description: Decoder Interfaces
-ms.assetid: 'b88517cc-06fe-4d83-a6a9-76e1f34293f4'
+ms.assetid: b88517cc-06fe-4d83-a6a9-76e1f34293f4
 title: Decoder Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoder Interfaces

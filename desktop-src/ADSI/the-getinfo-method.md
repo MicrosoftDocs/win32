@@ -4,18 +4,23 @@ description: The IADs GetInfo method loads all of the attribute values for an AD
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b29f1156-7c38-4f5a-a88c-578ae6167758'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b29f1156-7c38-4f5a-a88c-578ae6167758
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["GetInfo ADSI , using IADs GetInfo", "ADSI ADSI ,using,using the IADs GetInfo method"]
+keywords:
+- GetInfo ADSI , using IADs GetInfo
+- ADSI ADSI ,using,using the IADs GetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # The GetInfo Method
 
-The [**IADs::GetInfo**](iads-getinfo.md) method loads all of the attribute values for an ADSI object into the local cache from the underlying directory service. The [**IADs::GetInfoEx**](iads-getinfoex.md) method is used to load specific attribute values into the local cache. For more information about using the **IADs::GetInfoEx** method, see [Optimization Using GetInfoEx](optimization-using-getinfoex.md).
+The [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master) method loads all of the attribute values for an ADSI object into the local cache from the underlying directory service. The [**IADs::GetInfoEx**](/windows/win32/Iads/nf-iads-iads-getinfoex?branch=master) method is used to load specific attribute values into the local cache. For more information about using the **IADs::GetInfoEx** method, see [Optimization Using GetInfoEx](optimization-using-getinfoex.md).
 
-ADSI will make an implicit [**IADs::GetInfo**](iads-getinfo.md) call when the [**IADs::Get**](iads-get.md) or [**IADs::GetEx**](iads-getex.md) method is called for a specific attribute and no value is found in the local cache. When **IADs::GetInfo** has been called, an implicit call is not repeated. If a value already exists in the property cache, however, calling the **IADs::Get** or **IADs::GetEx** method without first calling **IADs::GetInfo** will retrieve the cached value rather than the most current value from the underlying directory. This can cause updated attribute values to be overwritten if the local cache has been modified but the values have not been committed to the underlying directory service with a call to the [**IADs::SetInfo**](iads-setinfo.md) method. To avoid caching problems, commit attribute value changes by calling **IADs::SetInfo** before calling **IADs::GetInfo**.
+ADSI will make an implicit [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master) call when the [**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master) or [**IADs::GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master) method is called for a specific attribute and no value is found in the local cache. When **IADs::GetInfo** has been called, an implicit call is not repeated. If a value already exists in the property cache, however, calling the **IADs::Get** or **IADs::GetEx** method without first calling **IADs::GetInfo** will retrieve the cached value rather than the most current value from the underlying directory. This can cause updated attribute values to be overwritten if the local cache has been modified but the values have not been committed to the underlying directory service with a call to the [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) method. To avoid caching problems, commit attribute value changes by calling **IADs::SetInfo** before calling **IADs::GetInfo**.
 
 
 ```VB
@@ -41,7 +46,7 @@ Debug.Print "User's title is " + usr.Get("title")
 
 
 
-Some directory services do not return all attribute values for an object in response to a [**IADs::GetInfo**](iads-getinfo.md) call. In these cases, use the [**IADs::GetInfoEx**](iads-getinfoex.md) method to load these values into the local cache.
+Some directory services do not return all attribute values for an object in response to a [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master) call. In these cases, use the [**IADs::GetInfoEx**](/windows/win32/Iads/nf-iads-iads-getinfoex?branch=master) method to load these values into the local cache.
 
  
 

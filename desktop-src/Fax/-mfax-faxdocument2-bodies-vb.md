@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides a collection of one or more documents to the fax document.'
-ms.assetid: 'c5e0fd2b-9d64-4854-954e-a6e7557f6d3d'
-title: 'FaxDocument.Bodies property'
+---
+Description: Provides a collection of one or more documents to the fax document.
+ms.assetid: c5e0fd2b-9d64-4854-954e-a6e7557f6d3d
+title: FaxDocument.Bodies property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.Bodies property
@@ -54,7 +59,7 @@ Either the **Bodies** property or the [**Body**](-mfax-faxdocument-body-vb.md) p
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument2**](-mfax-faxdocument2-cpp.md)
+[**IFaxDocument2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument2?branch=master)
 </dt> </dl>
 
  

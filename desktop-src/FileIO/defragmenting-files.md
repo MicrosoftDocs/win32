@@ -1,7 +1,12 @@
 ---
-Description: 'Defragmentation is the process of moving portions of files around on a disk to defragment files, that is, the process of moving file clusters on a disk to make them contiguous.'
-ms.assetid: '27ccaab7-ec89-489b-80dc-df9beb7969bc'
+Description: Defragmentation is the process of moving portions of files around on a disk to defragment files, that is, the process of moving file clusters on a disk to make them contiguous.
+ms.assetid: 27ccaab7-ec89-489b-80dc-df9beb7969bc
 title: Defragmenting Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defragmenting Files
@@ -30,15 +35,15 @@ These operations can be performed without inhibiting other processes from runnin
 
 **To defragment a file**
 
-1.  Use the [**FSCTL\_GET\_VOLUME\_BITMAP**](fsctl-get-volume-bitmap.md) control code to find a place on the volume that is large enough to accept an entire file.
+1.  Use the [**FSCTL\_GET\_VOLUME\_BITMAP**](/windows/win32/WinIoCtl/?branch=master) control code to find a place on the volume that is large enough to accept an entire file.
     > [!Note]  
     > If necessary, move other files to make a place that is large enough. Ideally, there is enough unallocated clusters after the first extent of the file that you can move subsequent extents into the space after the first extent.
 
      
 
-2.  Use the [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](fsctl-get-retrieval-pointers.md) control code to get a map of the current layout of the file on the disk.
-3.  Walk the [**RETRIEVAL\_POINTERS\_BUFFER**](retrieval-pointers-buffer-str.md) structure returned by [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](fsctl-get-retrieval-pointers.md).
-4.  Use the [**FSCTL\_MOVE\_FILE**](fsctl-move-file.md) control code to move each cluster as you walk the structure.
+2.  Use the [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](/windows/win32/WinIoCtl/?branch=master) control code to get a map of the current layout of the file on the disk.
+3.  Walk the [**RETRIEVAL\_POINTERS\_BUFFER**](/windows/win32/WinIoCtl/ns-winioctl-retrieval_pointers_buffer?branch=master) structure returned by [**FSCTL\_GET\_RETRIEVAL\_POINTERS**](/windows/win32/WinIoCtl/?branch=master).
+4.  Use the [**FSCTL\_MOVE\_FILE**](/windows/win32/WinIoCtl/?branch=master) control code to move each cluster as you walk the structure.
     > [!Note]  
     > You may need to renew either the bitmap or the retrieval structure, or both at various times as other processes write to the disk.
 
@@ -46,7 +51,7 @@ These operations can be performed without inhibiting other processes from runnin
 
 Two of the operations that are used in the defragmentation process require a handle to a volume. Only administrators can obtain a handle to a volume, so only administrators can defragment a volume. An application should check the rights of a user who attempts to run defragmentation software, and it should not allow a user to defragment a volume if the user does not have the appropriate rights.
 
-When using [**CreateFile**](createfile.md) to open a directory during defragmentation of a FAT or FAT32 file system volume, specify the **GENERIC\_READ** access mask value. Do not specify the **MAXIMUM\_ALLOWED** access mask value. Access to the directory is denied if that is done.
+When using [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to open a directory during defragmentation of a FAT or FAT32 file system volume, specify the **GENERIC\_READ** access mask value. Do not specify the **MAXIMUM\_ALLOWED** access mask value. Access to the directory is denied if that is done.
 
 Do not attempt to move allocated clusters in an NTFS file system that extend beyond the cluster rounded file size, because the result is an error.
 
@@ -67,7 +72,7 @@ For more information about shadow copies, see [Volume Shadow Copy Service](https
 
 ## Files, streams, and stream types supported for defragmentation
 
-While most files can be moved using the [**FSCTL\_MOVE\_FILE**](fsctl-move-file.md) control code, not all can be moved. Below is the list of files, streams, and stream types (also called attribute type codes) supported by **FSCTL\_MOVE\_FILE**. Other files, streams, and stream types are not supported by **FSCTL\_MOVE\_FILE**.
+While most files can be moved using the [**FSCTL\_MOVE\_FILE**](/windows/win32/WinIoCtl/?branch=master) control code, not all can be moved. Below is the list of files, streams, and stream types (also called attribute type codes) supported by **FSCTL\_MOVE\_FILE**. Other files, streams, and stream types are not supported by **FSCTL\_MOVE\_FILE**.
 
 Stream types supported for any file or directory.
 
@@ -84,7 +89,7 @@ Stream types supported for any directory.
 -   ::$BITMAP
 -   ::$INDEX\_ALLOCATION
 
-Following are the system file, stream, and stream types supported by [**FSCTL\_MOVE\_FILE**](fsctl-move-file.md) in "*filename*:*streamname*:$*typename*" format.
+Following are the system file, stream, and stream types supported by [**FSCTL\_MOVE\_FILE**](/windows/win32/WinIoCtl/?branch=master) in "*filename*:*streamname*:$*typename*" format.
 
 -   $MFT::$DATA
 -   $MFT::$ATTRIBUTE\_LIST

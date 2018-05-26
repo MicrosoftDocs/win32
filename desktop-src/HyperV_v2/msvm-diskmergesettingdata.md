@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configuration state of the disk merge settings for a virtual machine.'
-ms.assetid: 'b4c0afeb-ce37-4eec-8aba-0d74115c463f'
-title: 'Msvm\_DiskMergeSettingData class'
+Description: Represents the configuration state of the disk merge settings for a virtual machine.
+ms.assetid: b4c0afeb-ce37-4eec-8aba-0d74115c463f
+title: Msvm\_DiskMergeSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_DiskMergeSettingData class
@@ -128,17 +133,17 @@ Uniquely identifies an instance of this class. This property is inherited from [
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

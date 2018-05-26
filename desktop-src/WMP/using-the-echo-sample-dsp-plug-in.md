@@ -1,8 +1,18 @@
 ---
 title: Using the Echo Sample DSP Plug-in
 description: Using the Echo Sample DSP Plug-in
-ms.assetid: '62e393a4-0787-40e2-8693-678971a25fbf'
-keywords: ["Windows Media Player plug-ins,Echo sample testing", "plug-ins,Echo sample testing", "digital signal processing plug-ins,Echo sample testing", "DSP plug-ins,Echo sample testing", "Echo DSP plug-in sample,testing"]
+ms.assetid: 62e393a4-0787-40e2-8693-678971a25fbf
+keywords:
+- Windows Media Player plug-ins,Echo sample testing
+- plug-ins,Echo sample testing
+- digital signal processing plug-ins,Echo sample testing
+- DSP plug-ins,Echo sample testing
+- Echo DSP plug-in sample,testing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Echo Sample DSP Plug-in

@@ -4,11 +4,14 @@ description: The users to whom the rights are granted.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserRights.Users'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserRights.Users
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Users property", "Users property, UserRights class", "UserRights class, Users property"]
+keywords:
+- Users property
+- Users property, UserRights class
+- UserRights class, Users property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRights.Users property
@@ -63,9 +69,9 @@ The users to whom the rights are granted
 [**UserRights**](userrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: About Version Information
 description: This topic discusses the version information functions.
-ms.assetid: '63fb6c0f-11b3-4d70-b1ba-56086cb02847'
-keywords: ["resources,version information", "version information", "adding version information", "file conflicts"]
+ms.assetid: 63fb6c0f-11b3-4d70-b1ba-56086cb02847
+keywords:
+- resources,version information
+- version information
+- adding version information
+- file conflicts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Version Information

@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgDumpObjectRegister function displays information about active objects. Ignored in retail builds.'
-ms.assetid: '362d9912-662c-4a72-95b4-01f3d808e299'
+Description: The DbgDumpObjectRegister function displays information about active objects. Ignored in retail builds.
+ms.assetid: 362d9912-662c-4a72-95b4-01f3d808e299
 title: DbgDumpObjectRegister function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgDumpObjectRegister function
@@ -49,9 +54,9 @@ This function generates several LOG\_MEMORY messages. At logging level 1, the fu
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

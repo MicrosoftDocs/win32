@@ -1,7 +1,12 @@
 ---
 Description: Writing an ASF Header Object for a New File
-ms.assetid: 'f2a76471-3d93-427b-a316-d0967cd20e77'
+ms.assetid: f2a76471-3d93-427b-a316-d0967cd20e77
 title: Writing an ASF Header Object for a New File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing an ASF Header Object for a New File
@@ -23,7 +28,7 @@ This section contains the following topics:
 
 | Topic                                                                                                              | Description                                                                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Initializing the ContentInfo Object of a New ASF File](initializing-the-contentinfo-object-of-a-new-asf-file.md) | Describes the [**IMFASFContentInfo::SetProfile**](imfasfcontentinfo-setprofile.md) method that initializes the ContentInfo object with header information stored in a profile object. |
+| [Initializing the ContentInfo Object of a New ASF File](initializing-the-contentinfo-object-of-a-new-asf-file.md) | Describes the [**IMFASFContentInfo::SetProfile**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile?branch=master) method that initializes the ContentInfo object with header information stored in a profile object. |
 | [Setting Properties in the ContentInfo Object](setting-properties-in-the-contentinfo-object.md)                   | Information about various configuration properties that must be set on the ContentInfo object.                                                                                         |
 | [Generating a New ASF Header Object](generating-a-new-asf-header-object.md)                                       | How to generate a media buffer, which contains the actual ASF Header Object of the new file, from the ContentInfo object.                                                              |
 

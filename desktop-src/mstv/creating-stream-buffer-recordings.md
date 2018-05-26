@@ -1,21 +1,26 @@
 ---
 title: Creating Stream Buffer Recordings
 description: Creating Stream Buffer Recordings
-ms.assetid: '1aee15a3-5bc8-401b-9b37-b9351fd7c91f'
+ms.assetid: 1aee15a3-5bc8-401b-9b37-b9351fd7c91f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Stream Buffer Recordings
 
 This topic applies to Windows XP Service Pack 1 or later.
 
-The Stream Buffer Sink filter writes data to temporary backing files. To create a permanent recording, call the [**IStreamBufferSink::CreateRecorder**](istreambuffersink-createrecorder.md) method on the Stream Buffer Sink filter. This method creates a new [Recording](recording-object.md) object, which the application uses to start and stop the recording.
+The Stream Buffer Sink filter writes data to temporary backing files. To create a permanent recording, call the [**IStreamBufferSink::CreateRecorder**](/windows/previous-versions/Sbe/nf-sbe-istreambuffersink-createrecorder?branch=master) method on the Stream Buffer Sink filter. This method creates a new [Recording](recording-object.md) object, which the application uses to start and stop the recording.
 
 The **CreateRecorder** method specifies the type of recording to make:
 
 -   A *content* recording writes the data to a new permanent file.
 -   A *reference* recording creates a stub file that refers to the existing backing files, which are made permanent. Create a reference recording if you want to save data that has already been captured.
 
-To start the recording, call [**IStreamBufferRecordControl::Start**](istreambufferrecordcontrol-start.md). In a reference recording, you can set a start time in the past, as long as the backing files still contain that portion of the stream. To stop the recording and close the file, call [**IStreamBufferRecordControl::Stop**](istreambufferrecordcontrol-stop.md).
+To start the recording, call [**IStreamBufferRecordControl::Start**](/windows/previous-versions/Sbe/nf-sbe-istreambufferrecordcontrol-start?branch=master). In a reference recording, you can set a start time in the past, as long as the backing files still contain that portion of the stream. To stop the recording and close the file, call [**IStreamBufferRecordControl::Stop**](/windows/previous-versions/Sbe/nf-sbe-istreambufferrecordcontrol-stop?branch=master).
 
 The following code shows how to create a reference recording:
 
@@ -61,7 +66,7 @@ Each data file references an entire backing file, even if the backing file start
 
  
 
-Reference recordings should not be used for long-term storage of content. If you want to save content beyond the current session, you should use the [**IStreamBufferRecComp**](istreambufferreccomp.md) interface to copy the reference recording into a content recording.
+Reference recordings should not be used for long-term storage of content. If you want to save content beyond the current session, you should use the [**IStreamBufferRecComp**](/windows/previous-versions/Sbe/nn-sbe-istreambufferreccomp?branch=master) interface to copy the reference recording into a content recording.
 
  
 

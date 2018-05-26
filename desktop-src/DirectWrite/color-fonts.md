@@ -1,7 +1,12 @@
 ---
 title: Color Fonts
 description: This topic describes color fonts, their support in DirectWrite and Direct2D, and how to use them in your app.
-ms.assetid: '74e096c4-9d1c-8854-e9ee-f8b11ac1c71a'
+ms.assetid: 74e096c4-9d1c-8854-e9ee-f8b11ac1c71a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Fonts
@@ -22,9 +27,9 @@ This document contains the following parts:
 
 ## What are color fonts?
 
-Color fonts, also referred to as “multicolored fonts” or “chromatic fonts,” are a font technology that allows font designers to use multiple colors within each glyph. Color fonts enable multicolored text scenarios in apps and websites with less code and more robust operating system support than ad-hoc techniques implemented above the text rendering system.
+Color fonts, also referred to as  multicolored fonts  or  chromatic fonts,  are a font technology that allows font designers to use multiple colors within each glyph. Color fonts enable multicolored text scenarios in apps and websites with less code and more robust operating system support than ad-hoc techniques implemented above the text rendering system.
 
-Most fonts for reading and writing—the fonts you are probably most familiar with—are not color fonts. These fonts define only the shape of the glyphs they contain, either with vector outlines or monochromatic bitmaps. At draw time, a text renderer fills the glyph shape using a single color (the “font color”) specified by the app or document being rendered. Color fonts, on the other hand, contain color information in addition to shape information. Some approaches allow font designers to offer multiple color palettes, giving the color font artistic flexibility.
+Most fonts for reading and writing the fonts you are probably most familiar with are not color fonts. These fonts define only the shape of the glyphs they contain, either with vector outlines or monochromatic bitmaps. At draw time, a text renderer fills the glyph shape using a single color (the  font color ) specified by the app or document being rendered. Color fonts, on the other hand, contain color information in addition to shape information. Some approaches allow font designers to offer multiple color palettes, giving the color font artistic flexibility.
 
 The following example shows a glyph from the Segoe UI Emoji color font. The glyph is rendered in monochrome on the left, and in color on the right.
 
@@ -53,17 +58,17 @@ The [OpenType specification](https://www.microsoft.com/Typography/OpenTypeSpecif
 
 
 
- 
+ 
 
 ## Using color fonts
 
-From the user’s perspective, color fonts are “just fonts”. For example, they can usually be installed and uninstalled from the system in the same way as monochromatic fonts, and they are rendered as regular, selectable text.
+From the user s perspective, color fonts are  just fonts . For example, they can usually be installed and uninstalled from the system in the same way as monochromatic fonts, and they are rendered as regular, selectable text.
 
-From the developer’s perspective too, color fonts are usually used the same way as monochromatic fonts. In the XAML and Microsoft Edge frameworks, you can style your text with color fonts the same way as regular fonts, and by default your text will be rendered in color. However, if your app directly calls Direct2D APIs (or Win2D APIs) to render text, it must explicitly request color font rendering.
+From the developer s perspective too, color fonts are usually used the same way as monochromatic fonts. In the XAML and Microsoft Edge frameworks, you can style your text with color fonts the same way as regular fonts, and by default your text will be rendered in color. However, if your app directly calls Direct2D APIs (or Win2D APIs) to render text, it must explicitly request color font rendering.
 
 ### Using color fonts in a XAML app
 
-The XAML platform’s text elements (such as [TextBlock](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx), [TextBox](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox.aspx), [RichEditBox](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.richeditbox.aspx), [Glyphs](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.documents.glyphs.aspx?f=255&MSPPError=-2147217396), and [FontIcon](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.fonticon.aspx)) support color fonts by default. Simply style your text with a color font, and any color glyphs will be rendered in color. The following code example shows one way to style a TextBlock with a color font packaged with your app. The same technique applies to regular fonts.
+The XAML platform s text elements (such as [TextBlock](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx), [TextBox](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox.aspx), [RichEditBox](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.richeditbox.aspx), [Glyphs](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.documents.glyphs.aspx?f=255&MSPPError=-2147217396), and [FontIcon](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.fonticon.aspx)) support color fonts by default. Simply style your text with a color font, and any color glyphs will be rendered in color. The following code example shows one way to style a TextBlock with a color font packaged with your app. The same technique applies to regular fonts.
 
 
 ```XML
@@ -80,9 +85,9 @@ Color fonts are rendered by default in websites and web apps running on Microsof
 
 ### Using color fonts with DirectWrite and Direct2D
 
-Your app can use Direct2D’s higher-level text drawing methods ([**DrawText**](https://msdn.microsoft.com/library/windows/desktop/mt761993) and [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/mt750187)) or it can use lower-level techniques to draw glyph runs directly. In either case, your app requires code changes in order to handle color glyphs correctly. If your app uses Direct2D’s **DrawText** and **DrawTextLayout** APIs, note that these do not render color glyphs by default. This is to avoid unexpected behavior changes in text rendering apps that were designed prior to color font support.
+Your app can use Direct2D s higher-level text drawing methods ([**DrawText**](https://msdn.microsoft.com/library/windows/desktop/mt761993) and [**DrawTextLayout**](https://msdn.microsoft.com/library/windows/desktop/mt750187)) or it can use lower-level techniques to draw glyph runs directly. In either case, your app requires code changes in order to handle color glyphs correctly. If your app uses Direct2D s **DrawText** and **DrawTextLayout** APIs, note that these do not render color glyphs by default. This is to avoid unexpected behavior changes in text rendering apps that were designed prior to color font support.
 
-To opt in to color glyph rendering, pass the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](https://msdn.microsoft.com/library/windows/desktop/dd368095) options flag to the drawing method. The following code example shows how to call Direct2D’s DrawText method to render a string in a color font:
+To opt in to color glyph rendering, pass the [**D2D1\_DRAW\_TEXT\_OPTIONS\_ENABLE\_COLOR\_FONT**](https://msdn.microsoft.com/library/windows/desktop/dd368095) options flag to the drawing method. The following code example shows how to call Direct2D s DrawText method to render a string in a color font:
 
 
 ```C++
@@ -106,10 +111,10 @@ If your app uses lower-level APIs to handle glyph runs directly, then it will co
 
 To correctly handle color glyphs, your app should:
 
-1.  Pass the glyph run information to [**TranslateColorGlyphRun**](idwritefactory4-translatecolorglyphrun.md), along with a [**DWRITE\_GLYPH\_IMAGE\_FORMATS**](dwrite-glyph-image-formats.md) parameter that indicates which type(s) of color glyph the app is prepared to handle. If any color glyphs are present (based on the font and the requested **DWRITE\_GLYPH\_IMAGE\_FORMATS**), then DirectWrite will split the primary glyph run into individual “color glyph runs” which can be accessed through the returned [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) object in Step 4.
-2.  Check the HRESULT returned by [**TranslateColorGlyphRun**](idwritefactory4-translatecolorglyphrun.md) to determine whether any color glyph runs were detected. An **HRESULT** of **DWRITE\_E\_NOCOLOR** indicates no applicable color glyph run.
-3.  If [**TranslateColorGlyphRun**](idwritefactory4-translatecolorglyphrun.md) reported no color glyph runs (by returning **DWRITE\_E\_NOCOLOR**), then the whole glyph run is treated as monochromatic, and your app should draw it as desired (for example, using [**ID2D1DeviceContext::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/hh404508)).
-4.  If [**TranslateColorGlyphRun**](idwritefactory4-translatecolorglyphrun.md) does report the presence of color glyph runs, then your app should ignore the primary glyph run and instead use the color glyph run(s) returned by TranslateColorGlyphRun. To do so, iterate through the returned [**IDWriteColorGlyphRunEnumerator1**](idwritecolorglyphrunenumerator1.md) object, retrieving each color glyph run and drawing it as appropriate for its glyph image format (for example, you can use [**DrawColorBitmapGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/mt750184) and [**DrawSvgGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/mt750185) to draw color bitmap glyphs and SVG glyphs, respectively).
+1.  Pass the glyph run information to [**TranslateColorGlyphRun**](/windows/win32/dwrite_3/?branch=master), along with a [**DWRITE\_GLYPH\_IMAGE\_FORMATS**](/windows/win32/dcommon/ne-dcommon-dwrite_glyph_image_formats?branch=master) parameter that indicates which type(s) of color glyph the app is prepared to handle. If any color glyphs are present (based on the font and the requested **DWRITE\_GLYPH\_IMAGE\_FORMATS**), then DirectWrite will split the primary glyph run into individual  color glyph runs  which can be accessed through the returned [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) object in Step 4.
+2.  Check the HRESULT returned by [**TranslateColorGlyphRun**](/windows/win32/dwrite_3/?branch=master) to determine whether any color glyph runs were detected. An **HRESULT** of **DWRITE\_E\_NOCOLOR** indicates no applicable color glyph run.
+3.  If [**TranslateColorGlyphRun**](/windows/win32/dwrite_3/?branch=master) reported no color glyph runs (by returning **DWRITE\_E\_NOCOLOR**), then the whole glyph run is treated as monochromatic, and your app should draw it as desired (for example, using [**ID2D1DeviceContext::DrawGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/hh404508)).
+4.  If [**TranslateColorGlyphRun**](/windows/win32/dwrite_3/?branch=master) does report the presence of color glyph runs, then your app should ignore the primary glyph run and instead use the color glyph run(s) returned by TranslateColorGlyphRun. To do so, iterate through the returned [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/dwrite_3/?branch=master) object, retrieving each color glyph run and drawing it as appropriate for its glyph image format (for example, you can use [**DrawColorBitmapGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/mt750184) and [**DrawSvgGlyphRun**](https://msdn.microsoft.com/library/windows/desktop/mt750185) to draw color bitmap glyphs and SVG glyphs, respectively).
 
 The following code example shows the general structure of this procedure:
 
@@ -194,7 +199,7 @@ HRESULT DrawGlyphRun(
 
 ### Using color fonts with Win2D
 
-Similar to Direct2D, Win2D’s text drawing APIs do not render color glyphs by default. To opt in to color glyph rendering, set the [EnableColorFont](http://microsoft.github.io/Win2D/html/T_Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions.md) options flag in the text format object your app passes to the text drawing method. The following code example shows how to render a string in a color font using Win2D:
+Similar to Direct2D, Win2D s text drawing APIs do not render color glyphs by default. To opt in to color glyph rendering, set the [EnableColorFont](http://microsoft.github.io/Win2D/html/T_Microsoft_Graphics_Canvas_Text_CanvasDrawTextOptions.md) options flag in the text format object your app passes to the text drawing method. The following code example shows how to render a string in a color font using Win2D:
 
 
 ```C++
@@ -227,18 +232,18 @@ args.DrawingSession.DrawText(
 [DirectWrite Color Font Fallback sample](https://code.msdn.microsoft.com/windowsapps/DirectWrite-Color-Font-ef762d88)
 
 
-[**IDWriteFontFace4 interface**](idwritefontface4.md)
+[**IDWriteFontFace4 interface**](/windows/win32/dwrite_3/?branch=master)
 
 
-[**IDWriteFactory4::TranslateColorGlyphRun method**](idwritefactory4-translatecolorglyphrun.md)
+[**IDWriteFactory4::TranslateColorGlyphRun method**](/windows/win32/dwrite_3/?branch=master)
 
 
 [**ID2D1DeviceContext4::DrawText method**](https://msdn.microsoft.com/library/windows/desktop/mt761993)
 
 
- 
+ 
 
- 
+ 
 
 
 

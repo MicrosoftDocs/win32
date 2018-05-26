@@ -1,8 +1,9 @@
 ---
 title: WM\_POINTERROUTEDAWAY message
 description: Occurs on the process receiving input when the pointer input is routed to another process.AddContentWithCrossProcessChaining).
-ms.assetid: '06F8152C-0DA0-4820-835E-07AD35B24310'
-keywords: ["WM_POINTERROUTEDAWAY message Input Messages and Notifications"]
+ms.assetid: 06F8152C-0DA0-4820-835E-07AD35B24310
+keywords:
+- WM_POINTERROUTEDAWAY message Input Messages and Notifications
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_POINTERROUTEDAWAY message
@@ -60,8 +66,8 @@ This message is not sent with either a [**WM\_POINTERUP**](wm-pointerup.md) mess
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ This message is not sent with either a [**WM\_POINTERUP**](wm-pointerup.md) mess
 [**WM\_POINTERROUTEDTO**](wm-pointerroutedto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

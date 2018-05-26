@@ -1,7 +1,12 @@
 ---
-Description: 'Relates an IPsec rule to its Main Mode crypto set.'
-ms.assetid: '0d821c6f-ea2f-4063-9b3e-4d2461ac7884'
-title: 'MSFT\_NetSARuleMMCrypto class'
+Description: Relates an IPsec rule to its Main Mode crypto set.
+ms.assetid: 0d821c6f-ea2f-4063-9b3e-4d2461ac7884
+title: MSFT\_NetSARuleMMCrypto class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetSARuleMMCrypto class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_NetSARuleMMCrypto : MSFT_NetSAActionInSARule
 {
-  CIM_SARule             REF GroupComponent;
+  CIM_SARule             REF GroupComponent;
   MSFT_NetIKEMMCryptoSet REF PartComponent;
-  uint16                     ActionOrder;
+  uint16                     ActionOrder;
 };
 ```
 
@@ -84,17 +89,17 @@ The Main Mode crypto set used in this rule.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Determines if Active Directory Domain Services are online on the sp
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8f46e4d8-6d05-402c-a5b4-291fd2d6609b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8f46e4d8-6d05-402c-a5b4-291fd2d6609b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsIsNTDSOnline function Active Directory"]
+keywords:
+- DsIsNTDSOnline function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsIsNTDSOnline function
 
-\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
+\[This function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Beginning with Windows Vista, use [Volume Shadow Copy Service (VSS)](http://go.microsoft.com/fwlink/p/?linkid=99156) instead.\]
 
 The **DsIsNTDSOnline** function determines if Active Directory Domain Services are online on the specified server.
 
@@ -32,8 +36,8 @@ The **DsIsNTDSOnline** function determines if Active Directory Domain Services a
 
 ```C++
 HRESULT DsIsNTDSOnline(
-  _In_  LPCTSTR szServerName,
-  _Out_ BOOL    *pfNTDSOnline
+  _In_  LPCTSTR szServerName,
+  _Out_ BOOL    *pfNTDSOnline
 );
 ```
 
@@ -96,8 +100,8 @@ This function can only be called from a domain controller that is also the targe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Ntdsbcli.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Ntdsbcli.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
@@ -118,9 +122,9 @@ This function can only be called from a domain controller that is also the targe
 [Backing Up and Restoring an Active Directory Server](backing-up-and-restoring-an-active-directory-server.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ threading models are designed around an object collection called an apartment. An apartment is a collection of contexts contained in a process.'
-ms.assetid: 'c73fb4c5-20ae-4873-afd2-4f40eb47bade'
+Description: COM+ threading models are designed around an object collection called an apartment. An apartment is a collection of contexts contained in a process.
+ms.assetid: c73fb4c5-20ae-4873-afd2-4f40eb47bade
 title: COM+ Threading Models
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Threading Models

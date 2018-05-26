@@ -1,15 +1,18 @@
-﻿---
-Description: 'The parent class from which all success audit event trace classes are derived.'
+---
+Description: The parent class from which all success audit event trace classes are derived.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '05e74876-484f-4d41-bd70-7d700b966bf8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 05e74876-484f-4d41-bd70-7d700b966bf8
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SuccessAuditEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SuccessAuditEvent class

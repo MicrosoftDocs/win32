@@ -4,11 +4,13 @@ description: Used to configure a file screen that blocks groups of files from be
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '86ee74e0-64d5-478a-8150-0f4b37e56694'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 86ee74e0-64d5-478a-8150-0f4b37e56694
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMFileScreen class File Server Resource Manager", "MSFT_FSRMFileScreen class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMFileScreen class File Server Resource Manager
+- MSFT_FSRMFileScreen class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMFileScreen class
@@ -38,13 +43,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMFileScreen
 {
-  string          Path;
-  string          Description;
-  string          IncludeGroup[];
-  boolean         Active;
+  string          Path;
+  string          Description;
+  string          IncludeGroup[];
+  boolean         Active;
   MSFT_FSRMAction Notification[];
-  string          Template;
-  boolean         MatchesTemplate;
+  string          Template;
+  boolean         MatchesTemplate;
 };
 ```
 
@@ -67,7 +72,7 @@ The **MSFT\_FSRMFileScreen** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -174,9 +179,9 @@ The name of the file screen template that will be applied to this file screen. T
 
 ## Remarks
 
-A file screen limits the types of files that the system or any user can store in a directory. When a restricted file is detected, the FSRM server performs the specified actions (see [**IFsrmFileScreenBase::CreateAction**](ifsrmfilescreenbase-createaction.md)).
+A file screen limits the types of files that the system or any user can store in a directory. When a restricted file is detected, the FSRM server performs the specified actions (see [**IFsrmFileScreenBase::CreateAction**](/windows/previous-versions/FsrmScreen/nf-fsrmscreen-ifsrmfilescreenbase-createaction?branch=master)).
 
-The file screen applies to future files—the screen is not applied retroactively. To list the files in the directory that violate the screen, create a report job that lists files by type.
+The file screen applies to future files the screen is not applied retroactively. To list the files in the directory that violate the screen, create a report job that lists files by type.
 
 ## Requirements
 
@@ -185,7 +190,7 @@ The file screen applies to future files—the screen is not applied retroactively.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -199,9 +204,9 @@ The file screen applies to future files—the screen is not applied retroactively.
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'GDI objects support only one handle per object. Handles to GDI objects are private to a process. That is, only the process that created the GDI object can use the object handle.'
-ms.assetid: '699de25c-083d-4be3-a997-67418b7173e1'
+Description: GDI objects support only one handle per object. Handles to GDI objects are private to a process. That is, only the process that created the GDI object can use the object handle.
+ms.assetid: 699de25c-083d-4be3-a997-67418b7173e1
 title: GDI Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GDI Objects

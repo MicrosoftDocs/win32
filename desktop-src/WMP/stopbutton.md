@@ -1,14 +1,20 @@
 ---
 title: STOPBUTTON
 description: This is a predefined BUTTON with the following default values.
-ms.assetid: 'cd79b9d0-6c00-48a4-84f8-9d78b7998c92'
-keywords: ["STOPBUTTON Windows Media Player"]
+ms.assetid: cd79b9d0-6c00-48a4-84f8-9d78b7998c92
+keywords:
+- STOPBUTTON Windows Media Player
 topic_type:
 - apiref
 api_name:
 - STOPBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STOPBUTTON
@@ -43,9 +49,9 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 [**BUTTON Element**](button-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

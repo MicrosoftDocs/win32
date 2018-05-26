@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEM\_DMEXTRAHEADER structure must be used to define the first members of a set of private DEVMODEW structure members.'
-ms.assetid: 'fecefdbc-3036-4991-900c-203ae8be254b'
-title: 'OEM\_DMEXTRAHEADER structure'
+---
+Description: The OEM\_DMEXTRAHEADER structure must be used to define the first members of a set of private DEVMODEW structure members.
+ms.assetid: fecefdbc-3036-4991-900c-203ae8be254b
+title: OEM\_DMEXTRAHEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEM\_DMEXTRAHEADER structure

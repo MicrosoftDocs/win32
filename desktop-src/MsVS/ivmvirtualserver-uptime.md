@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer UpTime property
 description: The UpTime property contains the number of seconds the Virtual Server application has been running.
-ms.assetid: 'a4824b93-02cb-4e3a-8b51-d3e6de942b1e'
-keywords: ["UpTime property Virtual Server", "UpTime property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , UpTime property", "UpTime property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , UpTime property"]
+ms.assetid: a4824b93-02cb-4e3a-8b51-d3e6de942b1e
+keywords:
+- UpTime property Virtual Server
+- UpTime property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , UpTime property
+- UpTime property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , UpTime property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::UpTime property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_UpTime(
-  [out] long *secondsAlive
+  [out] long *secondsAlive
 );
 ```
 
@@ -90,8 +100,8 @@ Wscript.Echo "Uptime: " & objVS.Uptime
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -103,9 +113,9 @@ Wscript.Echo "Uptime: " & objVS.Uptime
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

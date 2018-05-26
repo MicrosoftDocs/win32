@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following audio properties.'
-ms.assetid: '5d6c6a95-abb7-4191-a961-bcb30ca96bb6'
+Description: Windows Portable Devices supports the following audio properties.
+ms.assetid: 5d6c6a95-abb7-4191-a961-bcb30ca96bb6
 title: Audio Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Properties
@@ -20,7 +25,7 @@ Windows Portable Devices supports the following audio properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,9 +44,9 @@ Windows Portable Devices supports the following audio properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

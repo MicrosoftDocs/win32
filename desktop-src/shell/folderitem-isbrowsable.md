@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if the item can be hosted inside a browser or Windows Explorer frame.'
-ms.assetid: '472e0906-9561-4390-a503-c5e490245ea0'
-title: 'FolderItem.IsBrowsable property'
+---
+Description: Indicates if the item can be hosted inside a browser or Windows Explorer frame.
+ms.assetid: 472e0906-9561-4390-a503-c5e490245ea0
+title: FolderItem.IsBrowsable property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.IsBrowsable property

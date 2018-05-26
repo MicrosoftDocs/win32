@@ -1,8 +1,15 @@
 ---
 title: Rasterizing
 description: Rasterizing is the process by which a primitive is converted to a two-dimensional image.
-ms.assetid: '8d4e3033-2afe-4526-8862-799c45ea9a6a'
-keywords: ["OpenGL processing pipeline,rasterizing", "rasterizing OpenGL"]
+ms.assetid: 8d4e3033-2afe-4526-8862-799c45ea9a6a
+keywords:
+- OpenGL processing pipeline,rasterizing
+- rasterizing OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rasterizing

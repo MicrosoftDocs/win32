@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_OPENINTERFACE message
 description: The MCIWNDM\_OPENINTERFACE message attaches the data stream or file associated with the specified interface to an MCIWnd window. You can send this message explicitly or by using the MCIWndOpenInterface macro.
-ms.assetid: '73cbd637-d315-4b39-a978-2b72aed1f303'
-keywords: ["MCIWNDM_OPENINTERFACE message Windows Multimedia"]
+ms.assetid: 73cbd637-d315-4b39-a978-2b72aed1f303
+keywords:
+- MCIWNDM_OPENINTERFACE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_OPENINTERFACE message
 
-The **MCIWNDM\_OPENINTERFACE** message attaches the data stream or file associated with the specified interface to an MCIWnd window. You can send this message explicitly or by using the [**MCIWndOpenInterface**](mciwndopeninterface.md) macro.
+The **MCIWNDM\_OPENINTERFACE** message attaches the data stream or file associated with the specified interface to an MCIWnd window. You can send this message explicitly or by using the [**MCIWndOpenInterface**](/windows/win32/Vfw/nf-vfw-mciwndopeninterface?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndOpenInterface**](mciwndopeninterface.md)
+[**MCIWndOpenInterface**](/windows/win32/Vfw/nf-vfw-mciwndopeninterface?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: The Win32\_ModuleLoadTrace event WMI class indicates that a process
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b11d4786-0d4e-496d-9e4e-52f11dd1b60c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b11d4786-0d4e-496d-9e4e-52f11dd1b60c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ModuleLoadTrace class", "Win32_ModuleLoadTrace class, described"]
+keywords:
+- Win32_ModuleLoadTrace class
+- Win32_ModuleLoadTrace class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - Krnlprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ModuleLoadTrace class
@@ -40,7 +45,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class Win32_ModuleLoadTrace : Win32_ModuleTrace
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   string FileName;
   uint64 DefaultBase;
@@ -195,8 +200,8 @@ The **Win32\_ModuleLoadTrace** class is derived from [**Win32\_ModuleTrace**](wi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Krnlprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Krnlprov.dll</dt> </dl> |
@@ -213,9 +218,9 @@ The **Win32\_ModuleLoadTrace** class is derived from [**Win32\_ModuleTrace**](wi
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a wireless local area network communications device that conforms to the IEEE 802.11 series of specifications.'
-ms.assetid: 'c4e3345f-5c7d-4d1d-9a94-64112d7334ff'
-title: 'CIM\_WiFiPort class'
+Description: Represents a wireless local area network communications device that conforms to the IEEE 802.11 series of specifications.
+ms.assetid: c4e3345f-5c7d-4d1d-9a94-64112d7334ff
+title: CIM\_WiFiPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_WiFiPort class
@@ -178,8 +183,8 @@ The data rate at which the current PPDU (PLCP (Physical Layer Convergence Protoc
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -193,9 +198,9 @@ The data rate at which the current PPDU (PLCP (Physical Layer Convergence Protoc
 [**CIM\_NetworkPort**](cim-networkport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

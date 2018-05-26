@@ -1,14 +1,20 @@
 ---
 title: Connections Element
 description: Collects and contains zero or more Connection elements.
-ms.assetid: '2c199338-892f-4d8c-bf33-4a19f362de3e'
-keywords: ["Connections element EAPHost"]
+ms.assetid: 2c199338-892f-4d8c-bf33-4a19f362de3e
+keywords:
+- Connections element EAPHost
 topic_type:
 - apiref
 api_name:
 - Connections
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connections Element
@@ -62,8 +68,8 @@ The **Connections** element is not used with legacy methods via the EAPHost APIs
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -77,9 +83,9 @@ The **Connections** element is not used with legacy methods via the EAPHost APIs
 [eapconnectionpropertiesv1 Schema](eapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

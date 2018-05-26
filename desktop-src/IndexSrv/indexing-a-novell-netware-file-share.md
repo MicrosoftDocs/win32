@@ -1,7 +1,12 @@
 ---
 title: Indexing a Novell NetWare File Share
 description: Indexing a Novell NetWare File Share
-ms.assetid: 'cc4c42eb-bc3f-4964-98de-8803932f6a28'
+ms.assetid: cc4c42eb-bc3f-4964-98de-8803932f6a28
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing a Novell NetWare File Share

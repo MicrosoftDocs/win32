@@ -1,7 +1,12 @@
 ---
 title: Setting MS.Locale
 description: Setting MS.Locale
-ms.assetid: '6f78509a-5e89-4dc9-95ad-de852fd8bd12'
+ms.assetid: 6f78509a-5e89-4dc9-95ad-de852fd8bd12
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting MS.Locale

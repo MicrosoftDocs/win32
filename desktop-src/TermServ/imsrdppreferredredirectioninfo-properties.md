@@ -4,10 +4,13 @@ description: The IMsRdpPreferredRedirectionInfo interface exposes the following 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B06F7253-DAB6-4731-AB9F-B8388A2EC7B4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: B06F7253-DAB6-4731-AB9F-B8388A2EC7B4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpPreferredRedirectionInfo properties

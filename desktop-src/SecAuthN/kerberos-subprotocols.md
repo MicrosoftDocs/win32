@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Kerberos protocol is composed of three subprotocols.'
-ms.assetid: 'a32aebee-4c08-4838-9d81-c62091ce86e4'
+---
+Description: The Kerberos protocol is composed of three subprotocols.
+ms.assetid: a32aebee-4c08-4838-9d81-c62091ce86e4
 title: Kerberos Subprotocols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Kerberos Subprotocols

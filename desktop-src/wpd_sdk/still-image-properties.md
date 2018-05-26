@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following still-image properties.'
-ms.assetid: '0b5a126c-5064-48e5-a635-00c3e9ab6a2c'
+Description: Windows Portable Devices supports the following still-image properties.
+ms.assetid: 0b5a126c-5064-48e5-a635-00c3e9ab6a2c
 title: Still Image Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Still Image Properties
@@ -43,7 +48,7 @@ Windows Portable Devices supports the following still-image properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,9 +67,9 @@ Windows Portable Devices supports the following still-image properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

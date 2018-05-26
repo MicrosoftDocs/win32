@@ -1,14 +1,19 @@
 ---
-Description: 'The following example creates a timer routine that will be executed by a thread from a timer queue after a 10 second delay.'
-ms.assetid: '779156fe-f825-452b-acbe-e2cb189e24d2'
+Description: The following example creates a timer routine that will be executed by a thread from a timer queue after a 10 second delay.
+ms.assetid: 779156fe-f825-452b-acbe-e2cb189e24d2
 title: Using Timer Queues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Timer Queues
 
-The following example creates a timer routine that will be executed by a thread from a [timer queue](timer-queues.md) after a 10 second delay. First, the code uses the [**CreateEvent**](createevent.md) function to create an event object that is signaled when the timer-queue thread completes. Then it creates a timer queue and a timer-queue timer, using the [**CreateTimerQueue**](createtimerqueue.md) and [**CreateTimerQueueTimer**](createtimerqueuetimer.md) functions, respectively. The code uses the [**WaitForSingleObject**](waitforsingleobject.md) function to determine when the timer routine has completed. Finally, the code calls [**DeleteTimerQueue**](deletetimerqueue.md) to clean up.
+The following example creates a timer routine that will be executed by a thread from a [timer queue](timer-queues.md) after a 10 second delay. First, the code uses the [**CreateEvent**](/windows/win32/WinBase/nf-synchapi-createeventa?branch=master) function to create an event object that is signaled when the timer-queue thread completes. Then it creates a timer queue and a timer-queue timer, using the [**CreateTimerQueue**](/windows/win32/WinBase/?branch=master) and [**CreateTimerQueueTimer**](/windows/win32/WinBase/?branch=master) functions, respectively. The code uses the [**WaitForSingleObject**](/windows/win32/WinBase/nf-synchapi-waitforsingleobject?branch=master) function to determine when the timer routine has completed. Finally, the code calls [**DeleteTimerQueue**](/windows/win32/WinBase/nf-winbase-deletetimerqueue?branch=master) to clean up.
 
-For more information on the timer routine, see [**WaitOrTimerCallback**](waitortimercallback.md).
+For more information on the timer routine, see [**WaitOrTimerCallback**](/windows/win32/WinBase/?branch=master).
 
 
 ```C++

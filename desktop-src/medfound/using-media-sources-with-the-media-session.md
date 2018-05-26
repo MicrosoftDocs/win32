@@ -1,7 +1,12 @@
 ---
 Description: Using Media Sources with the Media Session
-ms.assetid: 'b50d3d6e-728b-4ba5-9b79-413d2108ade1'
+ms.assetid: b50d3d6e-728b-4ba5-9b79-413d2108ade1
 title: Using Media Sources with the Media Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Media Sources with the Media Session
@@ -10,26 +15,26 @@ If you are using the Media Session to control playback, the set of methods that 
 
 Here are the basic steps your application will perform:
 
-1.  Create the media source. To create a media source, use the source resolver. For more information, see [Source Resolver](source-resolver.md). The source resolver returns a pointer to the source's [**IMFMediaSource**](imfmediasource.md) interface. (If you have written a custom media source, you can provide a custom creation method instead.)
+1.  Create the media source. To create a media source, use the source resolver. For more information, see [Source Resolver](source-resolver.md). The source resolver returns a pointer to the source's [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface. (If you have written a custom media source, you can provide a custom creation method instead.)
 
-2.  Configure the presentation. To configure the source's presentation, call [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md). You can modify this copy, but the changes do not become active until the playback starts. Do not modify the presentation descriptor during playback. For more information, see [Presentation Descriptors](presentation-descriptors.md).
+2.  Configure the presentation. To configure the source's presentation, call [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master). You can modify this copy, but the changes do not become active until the playback starts. Do not modify the presentation descriptor during playback. For more information, see [Presentation Descriptors](presentation-descriptors.md).
 
 3.  Create a topology that contains the media source. For more information, see [Topologies](topologies.md).
 
 4.  Use the Media Session to control playback. The Media Session calls methods on the media source. The application should not call any methods on the media source at this time.
 
-5.  Before releasing the media source, call [**IMFMediaSource::Shutdown**](imfmediasource-shutdown.md) to shut down the source.
+5.  Before releasing the media source, call [**IMFMediaSource::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master) to shut down the source.
 
     > [!Note]  
     > If you are using the sequencer source, the sequencer source handles shutting down the segment sources. For more information, see [Sequencer Source](sequencer-source.md).
 
      
 
-If you use the Media Session, the only methods that you should call on the media source are [**CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md), [**GetCharacteristics**](imfmediasource-getcharacteristics.md), and [**Shutdown**](imfmediasource-shutdown.md). In particular:
+If you use the Media Session, the only methods that you should call on the media source are [**CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master), [**GetCharacteristics**](/windows/win32/mfidl/nf-mfidl-imfmediasource-getcharacteristics?branch=master), and [**Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master). In particular:
 
--   Do not call [**Start**](imfmediasource-start.md), [**Pause**](imfmediasource-pause.md), or [**Stop**](imfmediasource-stop.md); these methods should be called only by the Media Session.
+-   Do not call [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasource-start?branch=master), [**Pause**](/windows/win32/mfidl/nf-mfidl-imfmediasource-pause?branch=master), or [**Stop**](/windows/win32/mfidl/nf-mfidl-imfmediasource-stop?branch=master); these methods should be called only by the Media Session.
 
--   Do not call any [**IMFMediaStream**](imfmediastream.md) methods.
+-   Do not call any [**IMFMediaStream**](/windows/win32/mfidl/nn-mfidl-imfmediastream?branch=master) methods.
 
 -   Do not retrieve events directly from the media source or any of the streams. The Media Session must receive these events for the pipeline to function correctly. The Media Session forwards any events that are needed by the application.
 

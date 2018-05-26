@@ -1,7 +1,12 @@
 ---
-Description: 'A VSS backup-and-recovery application that performs disaster recovery (also called bare-metal recovery) can use the Automated System Recovery (ASR) writer together with Windows Preinstallation Environment (Windows PE) to back up and restore critical volumes and other components of the bootable system state. The backup application is implemented as a VSS requester.'
-ms.assetid: '13adfd79-f26a-4385-9b59-129d06fa72eb'
+Description: A VSS backup-and-recovery application that performs disaster recovery (also called bare-metal recovery) can use the Automated System Recovery (ASR) writer together with Windows Preinstallation Environment (Windows PE) to back up and restore critical volumes and other components of the bootable system state. The backup application is implemented as a VSS requester.
+ms.assetid: 13adfd79-f26a-4385-9b59-129d06fa72eb
 title: Using VSS Automated System Recovery for Disaster Recovery
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using VSS Automated System Recovery for Disaster Recovery
@@ -30,30 +35,30 @@ At backup time, the requester performs the following steps.
 
  
 
-1.  Call the [**CreateVssBackupComponents**](createvssbackupcomponents.md) function to create an instance of the [**IVssBackupComponents**](ivssbackupcomponents.md) interface and call the [**IVssBackupComponents::InitializeForBackup**](ivssbackupcomponents-initializeforbackup.md) method to initialize the instance to manage a backup.
-2.  Call [**IVssBackupComponents::SetContext**](ivssbackupcomponents-setcontext.md) to set the context for the shadow copy operation.
-3.  Call [**IVssBackupComponents::SetBackupState**](ivssbackupcomponents-setbackupstate.md) to configure the backup. Set the *bBackupBootableSystemState* parameter to **true** to indicate that the backup will include a bootable system state.
-4.  Choose which critical components in the ASR writer's Writer Metadata Document to back up and call [**IVssBackupComponents::AddComponent**](ivssbackupcomponents-addcomponent.md) for each of them.
-5.  Call [**IVssBackupComponents::StartSnapshotSet**](ivssbackupcomponents-startsnapshotset.md) to create a new, empty shadow copy set.
-6.  Call [**IVssBackupComponents::GatherWriterMetadata**](ivssbackupcomponents-gatherwritermetadata.md) to initiate asynchronous contact with writers.
-7.  Call [**IVssBackupComponents::GetWriterMetadata**](ivssbackupcomponents-getwritermetadata.md) to retrieve the ASR writer's Writer Metadata Document. The writer ID for the ASR writer is BE000CBE-11FE-4426-9C58-531AA6355FC4, and the writer name string is "ASR Writer".
-8.  Call [**IVssExamineWriterMetadata::SaveAsXML**](ivssexaminewritermetadata-saveasxml.md) to save a copy of the ASR writer's Writer Metadata Document.
-9.  Call [**IVssBackupComponents::AddToSnapshotSet**](ivssbackupcomponents-addtosnapshotset.md) for each volume that can participate in shadow copies to add the volume to the shadow copy set.
-10. Call [**IVssBackupComponents::PrepareForBackup**](ivssbackupcomponents-prepareforbackup.md) to notify writers to prepare for a backup operation.
-11. Call [**IVssBackupComponents::GatherWriterStatus**](ivssbackupcomponents-gatherwriterstatus.md) and [**IVssBackupComponents::GetWriterStatus**](ivssbackupcomponents-getwriterstatus.md) (or [**IVssBackupComponentsEx3::GetWriterStatus**](ivssbackupcomponentsex3-getwriterstatusex.md)) to verify the status of the ASR writer.
-12. At this point, you can query for failure messages that were set by the writer in its [**CVssWriter::OnPrepareBackup**](cvsswriter-onpreparebackup.md) method. For example code that shows how to view these messages, see [**IVssComponentEx::GetPrepareForBackupFailureMsg**](ivsscomponentex-getprepareforbackupfailuremsg.md).
-13. Call [**IVssBackupComponents::DoSnapshotSet**](ivssbackupcomponents-dosnapshotset.md) to create a volume shadow copy.
-14. Call [**IVssBackupComponents::GatherWriterStatus**](ivssbackupcomponents-gatherwriterstatus.md) and [**IVssBackupComponents::GetWriterStatus**](ivssbackupcomponents-getwriterstatus.md) to verify the status of the ASR writer.
+1.  Call the [**CreateVssBackupComponents**](/windows/win32/VsBackup/nf-vsbackup-createvssbackupcomponents?branch=master) function to create an instance of the [**IVssBackupComponents**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponents?branch=master) interface and call the [**IVssBackupComponents::InitializeForBackup**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup?branch=master) method to initialize the instance to manage a backup.
+2.  Call [**IVssBackupComponents::SetContext**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setcontext?branch=master) to set the context for the shadow copy operation.
+3.  Call [**IVssBackupComponents::SetBackupState**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupstate?branch=master) to configure the backup. Set the *bBackupBootableSystemState* parameter to **true** to indicate that the backup will include a bootable system state.
+4.  Choose which critical components in the ASR writer's Writer Metadata Document to back up and call [**IVssBackupComponents::AddComponent**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent?branch=master) for each of them.
+5.  Call [**IVssBackupComponents::StartSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset?branch=master) to create a new, empty shadow copy set.
+6.  Call [**IVssBackupComponents::GatherWriterMetadata**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata?branch=master) to initiate asynchronous contact with writers.
+7.  Call [**IVssBackupComponents::GetWriterMetadata**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata?branch=master) to retrieve the ASR writer's Writer Metadata Document. The writer ID for the ASR writer is BE000CBE-11FE-4426-9C58-531AA6355FC4, and the writer name string is "ASR Writer".
+8.  Call [**IVssExamineWriterMetadata::SaveAsXML**](/windows/win32/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml?branch=master) to save a copy of the ASR writer's Writer Metadata Document.
+9.  Call [**IVssBackupComponents::AddToSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset?branch=master) for each volume that can participate in shadow copies to add the volume to the shadow copy set.
+10. Call [**IVssBackupComponents::PrepareForBackup**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup?branch=master) to notify writers to prepare for a backup operation.
+11. Call [**IVssBackupComponents::GatherWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus?branch=master) and [**IVssBackupComponents::GetWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus?branch=master) (or [**IVssBackupComponentsEx3::GetWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponentsex3-getwriterstatusex?branch=master)) to verify the status of the ASR writer.
+12. At this point, you can query for failure messages that were set by the writer in its [**CVssWriter::OnPrepareBackup**](/windows/win32/VsWriter/nf-vswriter-cvsswriter-onpreparebackup?branch=master) method. For example code that shows how to view these messages, see [**IVssComponentEx::GetPrepareForBackupFailureMsg**](/windows/win32/VsWriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg?branch=master).
+13. Call [**IVssBackupComponents::DoSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset?branch=master) to create a volume shadow copy.
+14. Call [**IVssBackupComponents::GatherWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus?branch=master) and [**IVssBackupComponents::GetWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus?branch=master) to verify the status of the ASR writer.
 15. Back up the data.
-16. Indicate whether the backup operation succeeded by calling [**IVssBackupComponents::SetBackupSucceeded**](ivssbackupcomponents-setbackupsucceeded.md).
-17. Call [**IVssBackupComponents::BackupComplete**](ivssbackupcomponents-backupcomplete.md) to indicate that the backup operation has completed.
-18. Call [**IVssBackupComponents::GatherWriterStatus**](ivssbackupcomponents-gatherwriterstatus.md) and [**IVssBackupComponents::GetWriterStatus**](ivssbackupcomponents-getwriterstatus.md). The writer session state memory is a limited resource, and writers must eventually reuse session states. This step marks the writer’s backup session state as completed and notifies VSS that this backup session slot can be reused by a subsequent backup operation.
+16. Indicate whether the backup operation succeeded by calling [**IVssBackupComponents::SetBackupSucceeded**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded?branch=master).
+17. Call [**IVssBackupComponents::BackupComplete**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete?branch=master) to indicate that the backup operation has completed.
+18. Call [**IVssBackupComponents::GatherWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus?branch=master) and [**IVssBackupComponents::GetWriterStatus**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus?branch=master). The writer session state memory is a limited resource, and writers must eventually reuse session states. This step marks the writer’s backup session state as completed and notifies VSS that this backup session slot can be reused by a subsequent backup operation.
     > [!Note]  
     > This is only necessary on Windows Server 2008 with Service Pack 2 (SP2) and earlier.
 
      
 
-19. Call [**IVssBackupComponents::SaveAsXML**](ivssbackupcomponents-saveasxml.md) to save a copy of the requester's Backup Components Document. The information in the Backup Components Document is used at restore time when the requester calls the [**IVssBackupComponents::InitializeForRestore**](ivssbackupcomponents-initializeforrestore.md) method.
+19. Call [**IVssBackupComponents::SaveAsXML**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml?branch=master) to save a copy of the requester's Backup Components Document. The information in the Backup Components Document is used at restore time when the requester calls the [**IVssBackupComponents::InitializeForRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore?branch=master) method.
 
 ## Choosing Which Critical Components to Back Up
 
@@ -65,7 +70,7 @@ In the backup initialization phase, the ASR writer reports the following types o
 
      
 
--   Disks. Every fixed disk on the computer is exposed as a component in ASR. If a disk was not excluded during backup, it will be assigned during restore and can be re-created and reformatted. Note that during restore, the requester can still re-create a disk that was excluded during backup by calling the [**IVssBackupComponents::SetRestoreOptions**](ivssbackupcomponents-setrestoreoptions.md) method. If one disk in a dynamic disk pack is selected, all other disks in that pack must also be selected. If a volume is selected because it is a critical volume (that is, a volume that contains system state information), every disk that contains an extent for that volume must also be selected. To find the extents for a volume, use the [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](fs.ioctl_volume_get_volume_disk_extents) control code.
+-   Disks. Every fixed disk on the computer is exposed as a component in ASR. If a disk was not excluded during backup, it will be assigned during restore and can be re-created and reformatted. Note that during restore, the requester can still re-create a disk that was excluded during backup by calling the [**IVssBackupComponents::SetRestoreOptions**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions?branch=master) method. If one disk in a dynamic disk pack is selected, all other disks in that pack must also be selected. If a volume is selected because it is a critical volume (that is, a volume that contains system state information), every disk that contains an extent for that volume must also be selected. To find the extents for a volume, use the [**IOCTL\_VOLUME\_GET\_VOLUME\_DISK\_EXTENTS**](fs.ioctl_volume_get_volume_disk_extents) control code.
 
     > [!Note]  
     > During backup, the requester should include all fixed disks. If the disk that contains the requester's backup set is a local disk, this disk should be included. During restore, the requester must exclude the disk that contains the requester's backup set to prevent it from being overwritten.
@@ -121,7 +126,7 @@ The component names use the following formats:
 
 On restore, all components that are marked as critical volumes must be restored. If one or more critical volumes cannot be restored, the restore operation fails.
 
-In the [**PreRestore**](ivssbackupcomponents-prerestore.md) phase of the restore sequence, disks that were not excluded during backup are re-created and reformatted by default. However, they are not re-created or reformatted if they meet the following conditions:
+In the [**PreRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore?branch=master) phase of the restore sequence, disks that were not excluded during backup are re-created and reformatted by default. However, they are not re-created or reformatted if they meet the following conditions:
 
 -   A basic disk is not re-created if its disk layout is intact or only additive changes have been made to it. The disk layout is intact if the following conditions are true:
     -   The disk signature, disk style (GPT or MBR), logical sector size, and volume start offset are not changed.
@@ -156,14 +161,14 @@ At restore time, the requester performs the following steps:
 
  
 
-1.  Call the [**CreateVssBackupComponents**](createvssbackupcomponents.md) function to create an instance of the [**IVssBackupComponents**](ivssbackupcomponents.md) interface and call the [**IVssBackupComponents::InitializeForRestore**](ivssbackupcomponents-initializeforrestore.md) method to initialize the instance for restore by loading the requester's Backup Components Document into the instance.
-2.  \[This step is required only if the requester needs to change whether "IncludeDisk" or "ExcludeDisk" is specified for one or more disks.\] Call [**IVssBackupComponents::SetRestoreOptions**](ivssbackupcomponents-setrestoreoptions.md) to set the restore options for the ASR writer components. The ASR writer supports the following options: "IncludeDisk" allows the requester to include a disk on the target system to be considered for restore, even if it was not selected during the backup phase. "ExcludeDisk" allows the requester to prevent a disk on the target system from being re-created. Note that if "ExcludeDisk" is specified for a disk that contains a critical volume, the subsequent call to [**IVssBackupComponents::PreRestore**](ivssbackupcomponents-prerestore.md) will fail.
+1.  Call the [**CreateVssBackupComponents**](/windows/win32/VsBackup/nf-vsbackup-createvssbackupcomponents?branch=master) function to create an instance of the [**IVssBackupComponents**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponents?branch=master) interface and call the [**IVssBackupComponents::InitializeForRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforrestore?branch=master) method to initialize the instance for restore by loading the requester's Backup Components Document into the instance.
+2.  \[This step is required only if the requester needs to change whether "IncludeDisk" or "ExcludeDisk" is specified for one or more disks.\] Call [**IVssBackupComponents::SetRestoreOptions**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions?branch=master) to set the restore options for the ASR writer components. The ASR writer supports the following options: "IncludeDisk" allows the requester to include a disk on the target system to be considered for restore, even if it was not selected during the backup phase. "ExcludeDisk" allows the requester to prevent a disk on the target system from being re-created. Note that if "ExcludeDisk" is specified for a disk that contains a critical volume, the subsequent call to [**IVssBackupComponents::PreRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore?branch=master) will fail.
 
-    The following example shows how to use [**SetRestoreOptions**](ivssbackupcomponents-setrestoreoptions.md) to prevent disk 0 and disk 1 from being re-created and inject third-party drivers into the restored boot volume.
+    The following example shows how to use [**SetRestoreOptions**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions?branch=master) to prevent disk 0 and disk 1 from being re-created and inject third-party drivers into the restored boot volume.
 
     **Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:** Injection of third-party drivers is not supported.
 
-    The example assumes that the [**IVssBackupComponents**](ivssbackupcomponents.md) pointer, m\_pBackupComponents, is valid.
+    The example assumes that the [**IVssBackupComponents**](/windows/win32/VsBackup/nl-vsbackup-ivssbackupcomponents?branch=master) pointer, m\_pBackupComponents, is valid.
 
     ```C++
         m_pBackupComponents->SetRestoreOptions(
@@ -180,7 +185,7 @@ At restore time, the requester performs the following steps:
 
     To exclude all disks for a specified volume, see the following "Excluding All Disks for a Volume."
 
-3.  Call [**IVssBackupComponents::PreRestore**](ivssbackupcomponents-prerestore.md) to notify the ASR writer to prepare for a restore operation. Call [**IVssAsync::QueryStatus**](ivssasync-querystatus.md) as many times as necessary until the status value returned in the *pHrResult* parameter is not VSS\_S\_ASYNC\_PENDING.
+3.  Call [**IVssBackupComponents::PreRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore?branch=master) to notify the ASR writer to prepare for a restore operation. Call [**IVssAsync::QueryStatus**](/windows/win32/Vss/nf-vss-ivssasync-querystatus?branch=master) as many times as necessary until the status value returned in the *pHrResult* parameter is not VSS\_S\_ASYNC\_PENDING.
 4.  Restore the data. In the restore phase, ASR reconfigures the volume GUID path (\\\\?\\Volume{GUID}) for each volume to match the volume GUID path that was used during the backup phase. However, drive letters are not preserved, because this would cause collisions with the drive letters that are automatically assigned in the recovery environment. Thus, when restoring data, the requester must use volume GUID paths, not drive letters, to access the volumes.
 5.  Set the **HKLM**\\**SOFTWARE**\\**Microsoft**\\**Windows NT**\\**CurrentVersion**\\**ASR**\\**RestoreSession** registry key to indicate the set of volumes that have been restored or reformatted.
 
@@ -188,13 +193,13 @@ At restore time, the requester performs the following steps:
 
     You should also create a value named **LastInstance** with the data type REG\_SZ. This key should contain a random cookie that uniquely identifies the current restore operation. Such a cookie can be created by using the [**UuidCreate**](rpc.uuidcreate) and [**UuidToString**](rpc.uuidtostring) functions. Each time a bare-metal recovery is performed, ASR resets this registry value to notify requesters and non-VSS backup applications that the recovery has occurred.
 
-6.  Call [**IVssBackupComponents::PostRestore**](ivssbackupcomponents-postrestore.md) to indicate the end of the restore operation. Call [**IVssAsync::QueryStatus**](ivssasync-querystatus.md) as many times as necessary until the status value returned in the *pHrResult* parameter is not VSS\_S\_ASYNC\_PENDING.
+6.  Call [**IVssBackupComponents::PostRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-postrestore?branch=master) to indicate the end of the restore operation. Call [**IVssAsync::QueryStatus**](/windows/win32/Vss/nf-vss-ivssasync-querystatus?branch=master) as many times as necessary until the status value returned in the *pHrResult* parameter is not VSS\_S\_ASYNC\_PENDING.
 
 In the restore phase, ASR may create or remove partitions to restore the computer to its previous state. Requesters must not attempt to map disk numbers from the backup phase to the restore phase.
 
 On restore, the requester must exclude the disk that contains the requester's backup set. Otherwise, the backup set can be overwritten by the restore operation.
 
-On restore, a disk is excluded if it was not selected as a component during backup, or if it is explicitly excluded by calling [**IVssBackupComponents::SetRestoreOptions**](ivssbackupcomponents-setrestoreoptions.md) with the "ExcludeDisk" option during restore.
+On restore, a disk is excluded if it was not selected as a component during backup, or if it is explicitly excluded by calling [**IVssBackupComponents::SetRestoreOptions**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setrestoreoptions?branch=master) with the "ExcludeDisk" option during restore.
 
 It is important to note that during WinPE disaster recovery, ASR writer functionality is present, but no other writers are available, and the VSS service is not running. After WinPE disaster recovery has completed, the computer has restarted, and the Windows operating system is running normally, the VSS service can be started, and the requester can perform any additional restore operations that require participation of writers other than the ASR writer.
 

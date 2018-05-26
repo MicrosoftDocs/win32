@@ -4,17 +4,22 @@ description: Service Accounts configured to run on this computer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7fc7d4b5-7763-4c80-a539-a52b43edf13c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7fc7d4b5-7763-4c80-a539-a52b43edf13c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Host-Service-Account attribute AD Schema", "msDS-HostServiceAccount attribute AD Schema"]
+keywords:
+- ms-DS-Host-Service-Account attribute AD Schema
+- msDS-HostServiceAccount attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Host-Service-Account
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Host-Service-Account attribute
@@ -38,8 +43,8 @@ Service Accounts configured to run on this computer.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Service Accounts configured to run on this computer.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

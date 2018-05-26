@@ -1,7 +1,12 @@
 ---
-Description: 'The notification area is a portion of the taskbar that provides a temporary source for notifications and status.'
-ms.assetid: 'D37E2BF7-1887-4780-81AD-85B2117321E4'
+Description: The notification area is a portion of the taskbar that provides a temporary source for notifications and status.
+ms.assetid: D37E2BF7-1887-4780-81AD-85B2117321E4
 title: Notifications and the Notification Area
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications and the Notification Area
@@ -44,7 +49,7 @@ The remaining sections in this topic outline the basic procedure to follow to di
 
 ### Add a Notification Icon
 
-To display a notification, you must have an icon in the notification area. In certain cases, such as Microsoft Communicator or battery level, that icon will already be present. In many other cases, however, you will add an icon to the notification area only as long as is needed to show the notification. In either case, this is accomplished using the [**Shell\_NotifyIcon**](shell-notifyicon.md) function. **Shell\_NotifyIcon** allows you to add, modify, or delete an icon in the notification area.
+To display a notification, you must have an icon in the notification area. In certain cases, such as Microsoft Communicator or battery level, that icon will already be present. In many other cases, however, you will add an icon to the notification area only as long as is needed to show the notification. In either case, this is accomplished using the [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) function. **Shell\_NotifyIcon** allows you to add, modify, or delete an icon in the notification area.
 
 ![notification area containing three icons](images/taskbar/notificationareaicons.png)
 
@@ -55,14 +60,14 @@ When an icon is added to the notification area on Windows 7, it is added to the
 
  
 
-The [**NOTIFYICONDATA**](notifyicondata.md) structure sent in the call to [**Shell\_NotifyIcon**](shell-notifyicon.md) contains information that specifies both the notification area icon and the notification itself. The following are those items specific to the notification area icon itself that can be set through **NOTIFYICONDATA**.
+The [**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) structure sent in the call to [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) contains information that specifies both the notification area icon and the notification itself. The following are those items specific to the notification area icon itself that can be set through **NOTIFYICONDATA**.
 
 -   The resource from which the icon is taken.
 -   A unique identifier for the icon.
 -   The style of the icon's tooltip.
 -   The icon's state (hidden, shared, or both) in the notification area.
 -   The handle of an application window associated with the icon.
--   A callback message identifier that allows the icon to communicate events that occur within the icon's bounding rectangle and balloon notification with the associated application window. The icon's bounding rectangle can be retrieved through [**Shell\_NotifyIconGetRect**](shell-notifyicongetrect.md).
+-   A callback message identifier that allows the icon to communicate events that occur within the icon's bounding rectangle and balloon notification with the associated application window. The icon's bounding rectangle can be retrieved through [**Shell\_NotifyIconGetRect**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicongetrect?branch=master).
 
 Each icon in the notification area can be identified in two ways:
 
@@ -77,7 +82,7 @@ The application responsible for the notification area icon should handle a mouse
 
 The placement of a popup window or dialog box that results from the click should be placed near the coordinate of the click in the notification area. Use the [**CalculatePopupWindowPosition**](winmsg.calculatepopupwindowposition) to determine its location.
 
-The icon can be added to the notification area without displaying a notification by defining only the icon-specific members of [**NOTIFYICONDATA**](notifyicondata.md) (discussed above) and calling [**Shell\_NotifyIcon**](shell-notifyicon.md) as shown here:
+The icon can be added to the notification area without displaying a notification by defining only the icon-specific members of [**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) (discussed above) and calling [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) as shown here:
 
 
 ```
@@ -89,11 +94,11 @@ Shell_NotifyIcon(NIM_ADD, &amp;nid);
 
 
 
-You can also add the icon to the notification area and display a notification all in one call to [**Shell\_NotifyIcon**](shell-notifyicon.md). To do so, continue with the instructions in this topic.
+You can also add the icon to the notification area and display a notification all in one call to [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master). To do so, continue with the instructions in this topic.
 
 ### Define the NOTIFYICONDATA Version
 
-As Windows has progressed, the [**NOTIFYICONDATA**](notifyicondata.md) structure has expanded to include more members to define more functionality. Constants are used to declare which version of **NOTIFYICONDATA** to use with your notification area icon, to allow for backward compatibility. Unless there is a compelling reason to do otherwise, it is strongly recommended that you use the NOTIFYICON\_VERSION\_4 version, introduced in Windows Vista. This version provides the full available functionality, including the preferred ability to identify the notification area icon though a registered GUID, a superior callback mechanism, and better accessibility.
+As Windows has progressed, the [**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) structure has expanded to include more members to define more functionality. Constants are used to declare which version of **NOTIFYICONDATA** to use with your notification area icon, to allow for backward compatibility. Unless there is a compelling reason to do otherwise, it is strongly recommended that you use the NOTIFYICON\_VERSION\_4 version, introduced in Windows Vista. This version provides the full available functionality, including the preferred ability to identify the notification area icon though a registered GUID, a superior callback mechanism, and better accessibility.
 
 Set the version through the following calls:
 
@@ -110,7 +115,7 @@ Shell_NotifyIcon(NIM_SETVERSION, &amp;nid);
 
 
 
-Note that this call to [**Shell\_NotifyIcon**](shell-notifyicon.md) does not display a notification.
+Note that this call to [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) does not display a notification.
 
 ### Define the Notification Look and Contents
 
@@ -118,26 +123,26 @@ A notification is a special type of balloon tooltip control. It contains a title
 
 ![screen shot of notification balloon indicating that battery power is low](images/taskbar/notificationballoon.png)
 
-The [**NOTIFYICONDATA**](notifyicondata.md) structure sent in the call to [**Shell\_NotifyIcon**](shell-notifyicon.md) contains information that specifies both the notification area icon and the notification balloon itself. The following are those items specific to the notification that can be set through **NOTIFYICONDATA**.
+The [**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) structure sent in the call to [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) contains information that specifies both the notification area icon and the notification balloon itself. The following are those items specific to the notification that can be set through **NOTIFYICONDATA**.
 
 -   An icon to display in the notification balloon, which is specified by the notification type. The size of the icon can be specified, as well as custom icons.
 -   A notification title. This title should be a maximum of 48 characters long in English (to accommodate localization). The title is the first line of the notification, and set apart through the use of font size, color, and weight.
 -   Text for use in the body of the notification. This text should be a maximum of 200 characters in English (to accommodate localization).
 -   Whether the notification should be discarded if it cannot be displayed immediately.
 -   A timeout for the notification. This setting is ignored in Windows Vista and later systems in favor of a system-wide accessibility timeout setting.
--   Whether the notification should respect quiet time, set through the [**NIIF\_RESPECT\_QUIET\_TIME**](notifyicondata.md) flag.
+-   Whether the notification should respect quiet time, set through the [**NIIF\_RESPECT\_QUIET\_TIME**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) flag.
 
 > [!Note]  
-> The [**IUserNotification**](iusernotification.md) and [**IUserNotification2**](iusernotification2.md) interfaces are Component Object Model (COM) wrappers for [**Shell\_NotifyIcon**](shell-notifyicon.md). However, at this time, they do not provide the full NOTIFYICON\_VERSION\_4 functionality available through **Shell\_NotifyIcon** directly, including the use of a GUID to identify the notification area icon.
+> The [**IUserNotification**](/windows/win32/shobjidl_core/nn-shobjidl_core-iusernotification?branch=master) and [**IUserNotification2**](/windows/win32/Shobjidl/nn-shobjidl-iusernotification2?branch=master) interfaces are Component Object Model (COM) wrappers for [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master). However, at this time, they do not provide the full NOTIFYICON\_VERSION\_4 functionality available through **Shell\_NotifyIcon** directly, including the use of a GUID to identify the notification area icon.
 
  
 
 ### Check the User Status
 
-The system uses the [**SHQueryUserNotificationState**](shqueryusernotificationstate.md) function is used to check whether the user is in quiet time, away from the computer, or in an uninterruptable state such as Presentation mode. Whether the system displays your notification depends on this state.
+The system uses the [**SHQueryUserNotificationState**](/windows/win32/Shellapi/nf-shellapi-shqueryusernotificationstate?branch=master) function is used to check whether the user is in quiet time, away from the computer, or in an uninterruptable state such as Presentation mode. Whether the system displays your notification depends on this state.
 
 > [!Note]  
-> If your application is using a custom notification method that does not use [**Shell\_NotifyIcon**](shell-notifyicon.md), [**IUserNotification**](iusernotification.md), or [**IUserNotification2**](iusernotification2.md), it should always explicitly call [**SHQueryUserNotificationState**](shqueryusernotificationstate.md) to determine whether it should display notification UI at that time.
+> If your application is using a custom notification method that does not use [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master), [**IUserNotification**](/windows/win32/shobjidl_core/nn-shobjidl_core-iusernotification?branch=master), or [**IUserNotification2**](/windows/win32/Shobjidl/nn-shobjidl-iusernotification2?branch=master), it should always explicitly call [**SHQueryUserNotificationState**](/windows/win32/Shellapi/nf-shellapi-shqueryusernotificationstate?branch=master) to determine whether it should display notification UI at that time.
 
  
 
@@ -147,9 +152,9 @@ Notifications sent during quiet time are discarded unshown. Design guidelines as
 
 ### Display the Notification
 
-Once you have set the [**NOTIFYICONDATA**](notifyicondata.md) version and defined the notification in a **NOTIFYICONDATA** structure, call [**Shell\_NotifyIcon**](shell-notifyicon.md) to display the icon.
+Once you have set the [**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) version and defined the notification in a **NOTIFYICONDATA** structure, call [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) to display the icon.
 
--   If the notification area icon is not present, call [**Shell\_NotifyIcon**](shell-notifyicon.md) to add the icon. Do this for both transient and non-transient icons.
+-   If the notification area icon is not present, call [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) to add the icon. Do this for both transient and non-transient icons.
     ```
     NOTIFYICONDATA nid = {};
     ...                    
@@ -158,7 +163,7 @@ Once you have set the [**NOTIFYICONDATA**](notifyicondata.md) version and define
 
     
 
--   If the notification area icon is already present, call [**Shell\_NotifyIcon**](shell-notifyicon.md) to modify the icon.
+-   If the notification area icon is already present, call [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master) to modify the icon.
     ```
     NOTIFYICONDATA nid = {};
     ...                    
@@ -167,7 +172,7 @@ Once you have set the [**NOTIFYICONDATA**](notifyicondata.md) version and define
 
     
 
-The following code shows an example of setting [**NOTIFYICONDATA**](notifyicondata.md) data and sending it through [**Shell\_NotifyIcon**](shell-notifyicon.md). Note that this example identifies the notification icon through a GUID (preferred in Windows 7).
+The following code shows an example of setting [**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) data and sending it through [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master). Note that this example identifies the notification icon through a GUID (preferred in Windows 7).
 
 
 ```
@@ -202,7 +207,7 @@ The following code shows an example of setting [**NOTIFYICONDATA**](notifyiconda
 
 ### Removing an Icon
 
-To remove an icon—for instance, when you have only added the icon temporarily to broadcast a notification—call [**Shell\_NotifyIcon**](shell-notifyicon.md)as shown here. Only a minimal [**NOTIFYICONDATA**](notifyicondata.md) structure that identifies the icon is needed in this call.
+To remove an icon—for instance, when you have only added the icon temporarily to broadcast a notification—call [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master)as shown here. Only a minimal [**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master) structure that identifies the icon is needed in this call.
 
 
 ```
@@ -220,28 +225,28 @@ Shell_NotifyIcon(NIM_DELETE, &amp;nid);
 
 ## SDK Sample
 
-See the [NotificationIcon Sample](samples-notificationicon.md) sample in the Windows Software Development Kit (SDK) for a full example of the use of [**Shell\_NotifyIcon**](shell-notifyicon.md).
+See the [NotificationIcon Sample](samples-notificationicon.md) sample in the Windows Software Development Kit (SDK) for a full example of the use of [**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master).
 
 ## Related topics
 
 <dl> <dt>
 
-[**Shell\_NotifyIcon**](shell-notifyicon.md)
+[**Shell\_NotifyIcon**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicona?branch=master)
 </dt> <dt>
 
-[**Shell\_NotifyIconGetRect**](shell-notifyicongetrect.md)
+[**Shell\_NotifyIconGetRect**](/windows/win32/Shellapi/nf-shellapi-shell_notifyicongetrect?branch=master)
 </dt> <dt>
 
-[**NOTIFYICONDATA**](notifyicondata.md)
+[**NOTIFYICONDATA**](/windows/win32/Shellapi/ns-shellapi-_notifyicondataa?branch=master)
 </dt> <dt>
 
-[**SHQueryUserNotificationState**](shqueryusernotificationstate.md)
+[**SHQueryUserNotificationState**](/windows/win32/Shellapi/nf-shellapi-shqueryusernotificationstate?branch=master)
 </dt> <dt>
 
-[**IUserNotification**](iusernotification.md)
+[**IUserNotification**](/windows/win32/shobjidl_core/nn-shobjidl_core-iusernotification?branch=master)
 </dt> <dt>
 
-[**IUserNotification2**](iusernotification2.md)
+[**IUserNotification2**](/windows/win32/Shobjidl/nn-shobjidl-iusernotification2?branch=master)
 </dt> <dt>
 
 [The Taskbar](taskbar.md)

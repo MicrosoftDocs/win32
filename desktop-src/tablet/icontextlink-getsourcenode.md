@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the IContextNode object that is the source for this IContextLink.'
-ms.assetid: '2f55ae9c-9f63-4d49-9bf0-9e169b819e79'
-title: 'IContextLink::GetSourceNode method'
+Description: Retrieves the IContextNode object that is the source for this IContextLink.
+ms.assetid: 2f55ae9c-9f63-4d49-9bf0-9e169b819e79
+title: IContextLinkGetSourceNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextLink::GetSourceNode method
@@ -13,7 +18,7 @@ Retrieves the [**IContextNode**](icontextnode.md) object that is the source for 
 
 ```C++
 HRESULT GetSourceNode(
-  [out] IContextNode **ppSrcContextNodeId
+  [out] IContextNode **ppSrcContextNodeId
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**ppSrcContextNodeId* when you no longer need to use the source node.
 
- 
+ 
 
 If the [**IContextLink**](icontextlink.md) object links between a node that contains writing and a node that contains drawing, the source node is generally the node that contains drawing.
 
@@ -51,7 +56,7 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -74,9 +79,9 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

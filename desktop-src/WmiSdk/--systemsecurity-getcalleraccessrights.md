@@ -1,13 +1,16 @@
 ---
-Description: 'Sets the rights parameter as a bitmap with each bit corresponding to an access right.'
+Description: Sets the rights parameter as a bitmap with each bit corresponding to an access right.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f28391a8-2b34-4234-bf1a-4688726b0b4b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f28391a8-2b34-4234-bf1a-4688726b0b4b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetCallerAccessRights method of the \_\_SystemSecurity class'
+title: GetCallerAccessRights method of the \_\_SystemSecurity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetCallerAccessRights method of the \_\_SystemSecurity class
@@ -21,7 +24,7 @@ Any enabled client has the right to call **GetCallerAccessRights**, even if that
 
 ```mof
 HRESULT GetCallerAccessRights(
-  [out] sint32 rights
+  [out] sint32 rights
 );
 ```
 
@@ -61,7 +64,7 @@ Allows the execution of methods.
 > [!Note]  
 > Providers may perform additional access checks.
 
- 
+ 
 
 </dd> <dt>
 
@@ -99,7 +102,7 @@ Allows the caller, security context, or user to write classes and instances to p
 > [!Note]  
 > Impersonating providers may do additional access checks.
 
- 
+ 
 
 </dd> <dt>
 
@@ -155,8 +158,8 @@ This method is not supported on supported versions of Windows.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -192,9 +195,9 @@ This method is not supported on supported versions of Windows.
 WMI Security Constants
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

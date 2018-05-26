@@ -1,14 +1,20 @@
 ---
 title: Trace element
 description: This is an optional trace file associated with this iteration.
-ms.assetid: '89B4DF86-7B84-45F6-99E2-863BE70BFCC0'
-keywords: ["Trace element Access Execution Engine"]
+ms.assetid: 89B4DF86-7B84-45F6-99E2-863BE70BFCC0
+keywords:
+- Trace element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Trace
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trace element
@@ -71,9 +77,9 @@ DisplayNameToolTip
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

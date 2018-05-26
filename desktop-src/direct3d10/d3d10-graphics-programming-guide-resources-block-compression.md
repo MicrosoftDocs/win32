@@ -1,7 +1,12 @@
-﻿---
-Description: 'Block compression is a texture compression technique for reducing texture size.'
-ms.assetid: 'add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5'
-title: 'Block Compression (Direct3D 10)'
+---
+Description: Block compression is a texture compression technique for reducing texture size.
+ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
+title: Block Compression (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Block Compression (Direct3D 10)
@@ -66,7 +71,7 @@ D3DX10CreateTextureFromFile(...);
 
 
 
-Next, create a view to bind the texture to the pipeline. Since a block-compressed texture can be used only as an input to a shader-stage, you want to create a shader-resource view by calling [**CreateShaderResourceView**](id3d10device-createshaderresourceview.md).
+Next, create a view to bind the texture to the pipeline. Since a block-compressed texture can be used only as an input to a shader-stage, you want to create a shader-resource view by calling [**CreateShaderResourceView**](/windows/win32/D3D10/nf-d3d10-id3d10device-createshaderresourceview?branch=master).
 
 Use a block compressed texture the same way you would use an uncompressed texture. If your application will get a memory pointer to block-compressed data, you need to account for the memory padding in a mipmap that causes the declared size to differ from the actual size.
 
@@ -427,9 +432,9 @@ The reference colors are assigned 3-bit indices (000–111 since there are 8 val
 
 ## Format Conversion Using Direct3D 10.1
 
-Direct3D 10.1 enables copies between prestructured-typed textures and block-compressed textures of the same bit widths. The functions that can accomplish this are [**CopyResource**](id3d10device-copyresource.md) and [**CopySubresourceRegion**](id3d10device-copysubresourceregion.md).
+Direct3D 10.1 enables copies between prestructured-typed textures and block-compressed textures of the same bit widths. The functions that can accomplish this are [**CopyResource**](/windows/win32/D3D10/nf-d3d10-id3d10device-copyresource?branch=master) and [**CopySubresourceRegion**](/windows/win32/D3D10/nf-d3d10-id3d10device-copysubresourceregion?branch=master).
 
-Beginning with Direct3D 10.1, you can use [**CopyResource**](id3d10device-copyresource.md) and [**CopySubresourceRegion**](id3d10device-copysubresourceregion.md) to copy between a few format types. This type of copy operation performs a type of format conversion that reinterprets resource data as a different format type. Consider this example that shows the difference between reinterpreting data with the way a more typical type of conversion behaves:
+Beginning with Direct3D 10.1, you can use [**CopyResource**](/windows/win32/D3D10/nf-d3d10-id3d10device-copyresource?branch=master) and [**CopySubresourceRegion**](/windows/win32/D3D10/nf-d3d10-id3d10device-copysubresourceregion?branch=master) to copy between a few format types. This type of copy operation performs a type of format conversion that reinterprets resource data as a different format type. Consider this example that shows the difference between reinterpreting data with the way a more typical type of conversion behaves:
 
 
 ```

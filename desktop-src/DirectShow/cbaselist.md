@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseList method implements an abtract list. The CGenericList class template, which derives from CBaseList, provides type checking and a simpler interface than the CBaseList class.'
-ms.assetid: '372ee6f7-be0c-469f-92b3-673970ebd6da'
+Description: The CBaseList method implements an abtract list. The CGenericList class template, which derives from CBaseList, provides type checking and a simpler interface than the CBaseList class.
+ms.assetid: 372ee6f7-be0c-469f-92b3-673970ebd6da
 title: CBaseList class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList class
@@ -53,7 +58,7 @@ Roughly half of the methods in this class act on single objects. These methods h
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +78,9 @@ Roughly half of the methods in this class act on single objects. These methods h
 [DirectShow Base Classes](directshow-base-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

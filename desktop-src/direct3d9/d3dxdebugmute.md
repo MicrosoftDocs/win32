@@ -1,7 +1,12 @@
-﻿---
-Description: 'Turns on or off all D3DX debug output.'
-ms.assetid: 'e35cbfd2-401e-47ec-9f5b-e2ed63ea1fcd'
+---
+Description: Turns on or off all D3DX debug output.
+ms.assetid: e35cbfd2-401e-47ec-9f5b-e2ed63ea1fcd
 title: D3DXDebugMute function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXDebugMute function

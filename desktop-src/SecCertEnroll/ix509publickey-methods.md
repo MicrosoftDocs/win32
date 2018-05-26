@@ -1,18 +1,23 @@
 ---
-Description: 'The IX509PublicKey interface exposes the following methods.'
-ms.assetid: 'C51A79E6-EA69-47B0-B320-573457AD5439'
+Description: The IX509PublicKey interface exposes the following methods.
+ms.assetid: C51A79E6-EA69-47B0-B320-573457AD5439
 title: IX509PublicKey Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IX509PublicKey Methods
 
-The [**IX509PublicKey**](ix509publickey.md) interface exposes the following methods.
+The [**IX509PublicKey**](/windows/win32/CertEnroll/nn-certenroll-ix509publickey?branch=master) interface exposes the following methods.
 
 ## In this section
 
--   [**ComputeKeyIdentifier Method**](ix509publickey-computekeyidentifier-method.md)
--   [**Initialize Method**](ix509publickey-initialize-method.md)
--   [**InitializeFromEncodedPublicKeyInfo Method**](ix509publickey-initializefromencodedpublickeyinfo-method.md)
+-   [**ComputeKeyIdentifier Method**](/windows/win32/CertEnroll/nf-certenroll-ix509publickey-computekeyidentifier?branch=master)
+-   [**Initialize Method**](/windows/win32/CertEnroll/nf-certenroll-ix509publickey-initialize?branch=master)
+-   [**InitializeFromEncodedPublicKeyInfo Method**](/windows/win32/CertEnroll/nf-certenroll-ix509publickey-initializefromencodedpublickeyinfo?branch=master)
 
  
 

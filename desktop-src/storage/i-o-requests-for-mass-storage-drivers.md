@@ -1,7 +1,12 @@
 ---
 title: I/O requests for mass storage drivers
 description: This section describes the basic set of I/O requests that are sent to drivers of storage devices and to intermediate drivers that are layered above them.
-ms.assetid: '31562bc0-1bcc-4218-b82d-7f60f5a453bd'
+ms.assetid: 31562bc0-1bcc-4218-b82d-7f60f5a453bd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # I/O requests for mass storage drivers

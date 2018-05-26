@@ -1,7 +1,7 @@
 ---
 title: UI\_ANIMATION\_ITERATION\_NONE
 description: Indicates that this is the initial entry into a given loop.
-ms.assetid: '9E79AA4A-EC66-45C0-93D0-D916BAFF7F97'
+ms.assetid: 9E79AA4A-EC66-45C0-93D0-D916BAFF7F97
 topic_type:
 - apiref
 api_name:
@@ -10,6 +10,11 @@ api_location:
 - UIAnimation.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_ANIMATION\_ITERATION\_NONE
@@ -37,7 +42,7 @@ UINT32
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
+| Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
 | Minimum supported server<br/> | None supported<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>UIAnimation.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>UIAnimation.idl</dt> </dl> |
@@ -51,12 +56,12 @@ UINT32
 [Constants](constants.md)
 </dt> <dt>
 
-[**OnLoopIterationChanged**](iuianimationloopiterationchangehandler2-onloopiterationchanged.md)
+[**OnLoopIterationChanged**](/windows/win32/UIAnimation/nf-uianimation-iuianimationloopiterationchangehandler2-onloopiterationchanged?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

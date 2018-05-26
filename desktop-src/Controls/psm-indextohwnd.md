@@ -1,8 +1,9 @@
 ---
 title: PSM\_INDEXTOHWND message
 description: Takes the index of a property sheet page and returns its window handle. You can send this message explicitly or use the PropSheet\_IndexToHwnd macro.
-ms.assetid: '93b46b4c-47f9-4ce8-8797-f3d4bd5248e9'
-keywords: ["PSM_INDEXTOHWND message Windows Controls"]
+ms.assetid: 93b46b4c-47f9-4ce8-8797-f3d4bd5248e9
+keywords:
+- PSM_INDEXTOHWND message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_INDEXTOHWND message
 
-Takes the index of a property sheet page and returns its window handle. You can send this message explicitly or use the [**PropSheet\_IndexToHwnd**](propsheet-indextohwnd.md) macro.
+Takes the index of a property sheet page and returns its window handle. You can send this message explicitly or use the [**PropSheet\_IndexToHwnd**](/windows/win32/Prsht/nf-prsht-propsheet_indextohwnd?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns the handle to the window of the property sheet page specified by *wParam
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

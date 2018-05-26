@@ -1,13 +1,16 @@
 ---
-Description: 'In WMI, a class is an object that describes some aspect of an enterprise, such as a special type of disk drive.'
+Description: In WMI, a class is an object that describes some aspect of an enterprise, such as a special type of disk drive.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '06b75910-f126-48b6-8e43-4a9ed4661732'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 06b75910-f126-48b6-8e43-4a9ed4661732
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating a WMI Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a WMI Class

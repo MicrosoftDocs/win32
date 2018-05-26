@@ -1,19 +1,24 @@
 ---
-Description: 'The QueryFilterInfo method retrieves information about the filter. This method implements the IBaseFilter::QueryFilterInfo method.'
-ms.assetid: '0c25aa9e-933c-4c45-a1cc-ffc9253dd561'
-title: 'CBaseFilter.QueryFilterInfo method'
+Description: The QueryFilterInfo method retrieves information about the filter. This method implements the IBaseFilterQueryFilterInfo method.
+ms.assetid: 0c25aa9e-933c-4c45-a1cc-ffc9253dd561
+title: CBaseFilter.QueryFilterInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.QueryFilterInfo method
 
-The `QueryFilterInfo` method retrieves information about the filter. This method implements the [**IBaseFilter::QueryFilterInfo**](ibasefilter-queryfilterinfo.md) method.
+The `QueryFilterInfo` method retrieves information about the filter. This method implements the [**IBaseFilter::QueryFilterInfo**](/windows/win32/Strmif/nf-strmif-ibasefilter-queryfilterinfo?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryFilterInfo(
-   FILTER_INFO *pInfo
+   FILTER_INFO *pInfo
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT QueryFilterInfo(
 *pInfo* 
 </dt> <dd>
 
-Pointer to a [**FILTER\_INFO**](filter-info.md) structure.
+Pointer to a [**FILTER\_INFO**](/windows/win32/strmif/ns-strmif-_filterinfo?branch=master) structure.
 
 </dd> </dl>
 
@@ -58,9 +63,9 @@ The method sets the **pGraph** member of the FILTER\_INFO structure equal to the
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

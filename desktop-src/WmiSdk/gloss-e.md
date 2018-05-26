@@ -1,14 +1,17 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
+Robots: noindex, nofollow
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '40d26ea1-3081-4afd-8b12-bc6521fad390'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 40d26ea1-3081-4afd-8b12-bc6521fad390
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # E
@@ -34,7 +37,7 @@ A recipient of notifications that report an occurrence of an event. An event con
 <span id="wmi.gloss_event_consumer_provider"></span><span id="WMI.GLOSS_EVENT_CONSUMER_PROVIDER"></span>**event consumer provider**
 </dt> <dd>
 
-A provider that determines which permanent event consumer handles a given event. An event consumer provider is registered with WMI by an instance of [**\_\_EventConsumerProviderRegistration**](--eventconsumerproviderregistration.md), which contains a list of the [*logical consumer*](gloss-l.md#wmi-gloss-logical-consumer) classes that the event consumer provider supports. An event consumer provider is a COM server that maps [*physical consumers*](gloss-p.md#wmi-gloss-physical-consumer) to *logical consumers*. An event consumer provider supports the [**IWbemEventConsumerProvider**](iwbemeventconsumerprovider.md) interface and is a component of the permanent consumer architecture.
+A provider that determines which permanent event consumer handles a given event. An event consumer provider is registered with WMI by an instance of [**\_\_EventConsumerProviderRegistration**](--eventconsumerproviderregistration.md), which contains a list of the [*logical consumer*](gloss-l.md#wmi-gloss-logical-consumer) classes that the event consumer provider supports. An event consumer provider is a COM server that maps [*physical consumers*](gloss-p.md#wmi-gloss-physical-consumer) to *logical consumers*. An event consumer provider supports the [**IWbemEventConsumerProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventconsumerprovider?branch=master) interface and is a component of the permanent consumer architecture.
 
 </dd> <dt>
 
@@ -48,7 +51,7 @@ An instance of the [**\_\_EventFilter**](--eventfilter.md) system class that des
 <span id="wmi.gloss_event_provider"></span><span id="WMI.GLOSS_EVENT_PROVIDER"></span>**event provider**
 </dt> <dd>
 
-A WMI provider that monitors a source of events and notifies WMI when events occur. An event provider implements the [**IWbemProviderInit**](iwbemproviderinit.md) and [**IWbemEventProvider**](iwbemeventprovider.md) interfaces, and sometimes [**IWbemEventProviderQuerySink**](iwbemeventproviderquerysink.md).
+A WMI provider that monitors a source of events and notifies WMI when events occur. An event provider implements the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) and [**IWbemEventProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventprovider?branch=master) interfaces, and sometimes [**IWbemEventProviderQuerySink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemeventproviderquerysink?branch=master).
 
 </dd> <dt>
 

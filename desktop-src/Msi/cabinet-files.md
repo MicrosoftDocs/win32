@@ -1,7 +1,12 @@
 ---
-Description: 'A cabinet is a single file, usually with a .cab extension, that stores compressed files in a file library.'
-ms.assetid: 'df240302-b875-49bf-8e62-7a35204c35fb'
+Description: A cabinet is a single file, usually with a .cab extension, that stores compressed files in a file library.
+ms.assetid: df240302-b875-49bf-8e62-7a35204c35fb
 title: Cabinet Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cabinet Files

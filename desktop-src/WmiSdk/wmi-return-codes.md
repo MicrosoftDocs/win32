@@ -1,13 +1,16 @@
 ---
-Description: 'This section provides a list of the WMI return codes, symbolic constants, literal values, and descriptions. These codes may be returned by scripts, C++ applications, or Wmic commands.'
+Description: This section provides a list of the WMI return codes, symbolic constants, literal values, and descriptions. These codes may be returned by scripts, C++ applications, or Wmic commands.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7ae47482-edf4-4aa4-858a-76e55f3cb0a3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7ae47482-edf4-4aa4-858a-76e55f3cb0a3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Return Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Return Codes

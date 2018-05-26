@@ -1,19 +1,24 @@
 ---
-Description: 'Windows sends all top-level windows a set of default WM\_DEVICECHANGE messages when new devices or media (such as a CD or DVD) are added and become available, and when existing devices or media are removed.'
-ms.assetid: '26baa3aa-e54d-42fe-b2b2-a3fcca6dee91'
+Description: Windows sends all top-level windows a set of default WM\_DEVICECHANGE messages when new devices or media (such as a CD or DVD) are added and become available, and when existing devices or media are removed.
+ms.assetid: 26baa3aa-e54d-42fe-b2b2-a3fcca6dee91
 title: Detecting Media Insertion or Removal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting Media Insertion or Removal
 
-Windows sends all top-level windows a set of default [**WM\_DEVICECHANGE**](wm-devicechange.md) messages when new devices or media (such as a CD or DVD) are added and become available, and when existing devices or media are removed. You do not need to register to receive these default messages. See the Remarks section in [**RegisterDeviceNotification**](registerdevicenotification.md) for details on which messages are sent by default. The messages in the code example below are among the default messages.
+Windows sends all top-level windows a set of default [**WM\_DEVICECHANGE**](wm-devicechange.md) messages when new devices or media (such as a CD or DVD) are added and become available, and when existing devices or media are removed. You do not need to register to receive these default messages. See the Remarks section in [**RegisterDeviceNotification**](/windows/win32/Winuser/nf-winuser-registerdevicenotificationa?branch=master) for details on which messages are sent by default. The messages in the code example below are among the default messages.
 
 > [!Note]  
 > Windows only sends [**WM\_DEVICECHANGE**](wm-devicechange.md) messages for CD or DVD media events to top-level windows that are owned by applications that run in the active console session. Top-level windows that are owned by applications that run in a remote desktop session do not receive [**WM\_DEVICECHANGE**](wm-devicechange.md) messages for CD or DVD media events.
 
  
 
-Each [**WM\_DEVICECHANGE**](wm-devicechange.md) message has an associated event that describes the change, and a structure that provides detailed information about the change. The structure consists of an event-independent header, [**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md), followed by event-dependent members. The event-dependent members describe the device to which the event applies. To use this structure, applications must first determine the event type and the device type. Then, they can use the correct structure to take appropriate action.
+Each [**WM\_DEVICECHANGE**](wm-devicechange.md) message has an associated event that describes the change, and a structure that provides detailed information about the change. The structure consists of an event-independent header, [**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master), followed by event-dependent members. The event-dependent members describe the device to which the event applies. To use this structure, applications must first determine the event type and the device type. Then, they can use the correct structure to take appropriate action.
 
 When the user inserts a new CD or DVD into a drive, applications receive a [**WM\_DEVICECHANGE**](wm-devicechange.md) message with a [DBT\_DEVICEARRIVAL](dbt-devicearrival.md) event. The application must check the event to ensure that the type of device arriving is a volume (the **dbch\_devicetype** member is **DBT\_DEVTYP\_VOLUME**) and that the change affects the media (the **dbcv\_flags** member is **DBTF\_MEDIA**).
 

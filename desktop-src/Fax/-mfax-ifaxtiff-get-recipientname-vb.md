@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the RecipientName property for a FaxTiff object. The RecipientName property is a null-terminated string that contains the name of the recipient for the specified fax file.'
-ms.assetid: '778f41ff-f958-45a1-b657-bbb0d49a2789'
-title: 'FaxTiff.RecipientName property'
+---
+Description: Retrieves the RecipientName property for a FaxTiff object. The RecipientName property is a null-terminated string that contains the name of the recipient for the specified fax file.
+ms.assetid: 778f41ff-f958-45a1-b657-bbb0d49a2789
+title: FaxTiff.RecipientName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.RecipientName property
@@ -59,7 +64,7 @@ The **get\_RecipientName** method allocates the memory required for the buffer p
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

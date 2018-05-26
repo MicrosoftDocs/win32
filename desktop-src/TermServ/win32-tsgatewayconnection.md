@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSGatewayConnection class
-description: Represents a connection from a client computer to a Remote Desktop Gateway (RD Gateway) server.
+description: Represents a connection from a client computer to a Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e76ae25-409d-436a-8eef-8f047194c29c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 6e76ae25-409d-436a-8eef-8f047194c29c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSGatewayConnection class Remote Desktop Services", "Win32_TSGatewayConnection class Remote Desktop Services , described"]
+keywords:
+- Win32_TSGatewayConnection class Remote Desktop Services
+- Win32_TSGatewayConnection class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -32,11 +34,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayConnection class
 
-Represents a connection from a client computer to a Remote Desktop Gateway (RD Gateway) server.
+Represents a connection from a client computer to a Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
@@ -77,14 +82,14 @@ The **Win32\_TSGatewayConnection** class has these methods.
 
 | Method                                                                     | Description                                                                                                                      |
 |:---------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------|
-| [**CheckStatus**](checkstatus-win32-tsgatewayconnection.md)               | Checks the status of an RD Gateway server connection, and whether the target server is configured for load balancing.<br/> |
+| [**CheckStatus**](checkstatus-win32-tsgatewayconnection.md)               | Checks the status of an RD Gateway server connection, and whether the target server is configured for load balancing.<br/> |
 | [**Disconnect**](disconnect-win32-tsgatewayconnection.md)                 | Ends the connection.<br/>                                                                                                  |
 | [**DisconnectProtocol**](disconnectprotocol-win32-tsgatewayconnection.md) | Ends all connections that use the specified protocol.<br/>                                                                 |
 | [**DisconnectUser**](disconnectuser-win32-tsgatewayconnection.md)         | Ends all connections of the specified user.<br/>                                                                           |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -221,7 +226,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Number of kilobytes received from the client computer by the RD Gateway server.
+Number of kilobytes received from the client computer by the RD Gateway server.
 
 </dd> <dt>
 
@@ -234,7 +239,7 @@ Data type: **uint64**
 Access type: Read-only
 </dt> </dl>
 
-Number of kilobytes sent to the client computer by the RD Gateway server.
+Number of kilobytes sent to the client computer by the RD Gateway server.
 
 </dd> <dt>
 
@@ -247,14 +252,14 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Protocol that is used to connect to the RD Gateway server.
+Protocol that is used to connect to the RD Gateway server.
 
 <dt>
 
 "RDP"
 </dt> <dd>
 
-The protocol for the RD Gateway server.
+The protocol for the RD Gateway server.
 
 </dd> </dl>
 
@@ -318,7 +323,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-User name connected to the RD Gateway server.
+User name connected to the RD Gateway server.
 
 </dd> </dl>
 
@@ -335,7 +340,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -364,9 +369,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: WM/ParentalRating
 description: The WM/ParentalRating attribute contains the parental rating of the content.
-ms.assetid: 'c2cb5c33-7ca1-4401-99a0-c9528b9b2c25'
-keywords: ["WM/ParentalRating windows Media Format"]
+ms.assetid: c2cb5c33-7ca1-4401-99a0-c9528b9b2c25
+keywords:
+- WM/ParentalRating windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ParentalRating
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ParentalRating

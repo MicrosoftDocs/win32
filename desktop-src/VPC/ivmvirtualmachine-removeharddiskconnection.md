@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine RemoveHardDiskConnection method
 description: Removes the specified hard disk connection from the virtual machine.
-ms.assetid: 'd31f2442-aae4-4987-9188-fd32778604a1'
-keywords: ["RemoveHardDiskConnection method Virtual PC", "RemoveHardDiskConnection method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , RemoveHardDiskConnection method"]
+ms.assetid: d31f2442-aae4-4987-9188-fd32778604a1
+keywords:
+- RemoveHardDiskConnection method Virtual PC
+- RemoveHardDiskConnection method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , RemoveHardDiskConnection method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::RemoveHardDiskConnection method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Removes the specified hard disk connection from the virtual machine.
 
@@ -24,7 +32,7 @@ Removes the specified hard disk connection from the virtual machine.
 
 ```C++
 HRESULT RemoveHardDiskConnection(
-  [in] IVMHardDiskConnection *hardDiskConnection
+  [in] IVMHardDiskConnection *hardDiskConnection
 );
 ```
 
@@ -58,7 +66,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +78,9 @@ You can only remove an existing hard disk connection from a stopped virtual mach
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -86,9 +94,9 @@ You can only remove an existing hard disk connection from a stopped virtual mach
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

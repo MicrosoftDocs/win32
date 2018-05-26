@@ -1,7 +1,12 @@
 ---
 title: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
 description: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
-ms.assetid: '3040262A-85EB-4F26-BE34-D2BBD5886E9E'
+ms.assetid: 3040262A-85EB-4F26-BE34-D2BBD5886E9E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operating system version changes in Windows 8.1 and Windows Server 2012 R2

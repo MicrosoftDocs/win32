@@ -1,8 +1,11 @@
 ---
 title: Matrix4x3F Matrix4x3F() constructor
 description: Instantiates a new instance of an uninitialized Matrix4x3F class.
-ms.assetid: '3F423650-D1CF-44F7-9560-0C35201F6DE7'
-keywords: ["Matrix4x3F constructor Direct2D", "Matrix4x3F constructor Direct2D , Matrix4x3F interface", "Matrix4x3F interface Direct2D , Matrix4x3F constructor"]
+ms.assetid: 3F423650-D1CF-44F7-9560-0C35201F6DE7
+keywords:
+- Matrix4x3F constructor Direct2D
+- Matrix4x3F constructor Direct2D , Matrix4x3F interface
+- Matrix4x3F interface Direct2D , Matrix4x3F constructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D2d1.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Matrix4x3F::Matrix4x3F() constructor
@@ -36,9 +44,9 @@ This constructor has no parameters.
 
 |                                     |                                                                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                           |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                           |
 | Namespace<br/>                | D2D1<br/>                                                                                                                   |
 | Header<br/>                   | <dl> <dt>D2d1\_helper.h</dt> </dl>                                         |
 | Library<br/>                  | <dl> <dt>D2d1.lib</dt> </dl>                                               |
@@ -53,9 +61,9 @@ This constructor has no parameters.
 [**Matrix4x3F**](matrix4x3f.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The GetTcpStatistics function fills a pointer to an MIB\_TCPSTATS structure with information on the TCP protocol statistics for the local computer.'
-ms.assetid: 'cb405d46-cf3e-4f3c-870a-935a0cc8118f'
+Description: The GetTcpStatistics function fills a pointer to an MIB\_TCPSTATS structure with information on the TCP protocol statistics for the local computer.
+ms.assetid: cb405d46-cf3e-4f3c-870a-935a0cc8118f
 title: Retrieving Information Using GetTcpStatistics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Information Using GetTcpStatistics
 
-The [**GetTcpStatistics**](gettcpstatistics.md) function fills a pointer to an [**MIB\_TCPSTATS**](rras.mib_tcpstats) structure with information on the TCP protocol statistics for the local computer.
+The [**GetTcpStatistics**](/windows/win32/Iphlpapi/nf-iphlpapi-gettcpstatistics?branch=master) function fills a pointer to an [**MIB\_TCPSTATS**](rras.mib_tcpstats) structure with information on the TCP protocol statistics for the local computer.
 
 **To use GetTcpStatistics**
 
@@ -26,7 +31,7 @@ The [**GetTcpStatistics**](gettcpstatistics.md) function fills a pointer to an [
 
     
 
-2.  Call the [**GetTcpStatistics**](gettcpstatistics.md) function with the *pTCPStats* parameter to retrieve TCP statistics for IPv4 on the local computer. Check for errors and return the error value in the **DWORD** variable `dwRetVal`. If an error occurs, the `dwRetVal` variable can be used for more extensive error checking and reporting.
+2.  Call the [**GetTcpStatistics**](/windows/win32/Iphlpapi/nf-iphlpapi-gettcpstatistics?branch=master) function with the *pTCPStats* parameter to retrieve TCP statistics for IPv4 on the local computer. Check for errors and return the error value in the **DWORD** variable `dwRetVal`. If an error occurs, the `dwRetVal` variable can be used for more extensive error checking and reporting.
     ```C++
         if ((dwRetVal = GetTcpStatistics(pTCPStats)) != NO_ERROR) {
             printf("GetTcpStatistics failed with error: %ld\n", dwRetVal);

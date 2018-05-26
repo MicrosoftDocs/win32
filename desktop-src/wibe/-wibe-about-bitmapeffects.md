@@ -1,14 +1,19 @@
 ---
 title: WPF Bitmap Effects
 description: Bitmap effects enable designers and developers to apply visual effects to rendered Windows Presentation Foundation (WPF) content.
-ms.assetid: 'cec30833-b3e7-4b6a-88ca-a6fe7d1e7a7b'
+ms.assetid: cec30833-b3e7-4b6a-88ca-a6fe7d1e7a7b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPF Bitmap Effects
 
 Bitmap effects enable designers and developers to apply visual effects to rendered Windows Presentation Foundation (WPF) content. For example, bitmap effects allow you to easily apply a DropShadowBitmapEffect effect or a blur effect to an image or a button. The unmanaged APIs provide an extensible framework for independent hardware vendors (IHVs) to develop custom effects to use in WPF applications.
 
-Bitmap effects ([**IMILBitmapEffect**](-wibe-imilbitmapeffect.md) object) are simple pixel processing operations. A bitmap effect takes a [IWICBitmapSource Interface](http://msdn.microsoft.com/library/ms736175(VS.85).aspx) as an input and produces a new IWICBitmapSource Interface after applying the effect, such as a blur or drop shadow.
+Bitmap effects ([**IMILBitmapEffect**](/windows/previous-versions/Mileffects/nn-mileffects-imilbitmapeffect?branch=master) object) are simple pixel processing operations. A bitmap effect takes a [IWICBitmapSource Interface](http://msdn.microsoft.com/library/ms736175(VS.85).aspx) as an input and produces a new IWICBitmapSource Interface after applying the effect, such as a blur or drop shadow.
 
 -   [Native Bitmap Effects](#native-bitmap-effects)
 -   [Custom BitmapEffects](#custom-bitmapeffects)
@@ -43,7 +48,7 @@ For an example of a custom bitmap effect, see [Custom RGBFilter Effect in WPF](h
 [Custom RGBFilter Effect in WPF](http://go.microsoft.com/fwlink/p/?linkid=181556)
 </dt> <dt>
 
-[**IMILBitmapEffect**](-wibe-imilbitmapeffect.md)
+[**IMILBitmapEffect**](/windows/previous-versions/Mileffects/nn-mileffects-imilbitmapeffect?branch=master)
 </dt> </dl>
 
  

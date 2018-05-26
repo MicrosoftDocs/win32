@@ -1,7 +1,12 @@
-﻿---
-Description: 'Winsock catalog change event for a Winsock catalog reset operation.'
-ms.assetid: 'BE8DC0DB-0F96-4015-87F5-ECF25AE164AA'
-title: 'WINSOCK\_WS2HELP\_LSP\_RESET event'
+---
+Description: Winsock catalog change event for a Winsock catalog reset operation.
+ms.assetid: BE8DC0DB-0F96-4015-87F5-ECF25AE164AA
+title: WINSOCK\_WS2HELP\_LSP\_RESET event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINSOCK\_WS2HELP\_LSP\_RESET event

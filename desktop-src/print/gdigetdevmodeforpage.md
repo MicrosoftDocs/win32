@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GdiGetDevmodeForPage function returns DEVMODEW structures for the specified and previous pages of a print job.'
-ms.assetid: '3410e8b1-820f-4892-8d26-d803e3f943da'
+---
+Description: The GdiGetDevmodeForPage function returns DEVMODEW structures for the specified and previous pages of a print job.
+ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
 title: GdiGetDevmodeForPage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GdiGetDevmodeForPage function

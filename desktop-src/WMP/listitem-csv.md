@@ -1,8 +1,17 @@
 ---
 title: listitem.csv
 description: listitem.csv
-ms.assetid: 'd8f4bdb3-e7a5-4080-9ae7-555bf3695e9c'
-keywords: ["Windows Media Player online stores,listitem.csv", "online stores,listitem.csv", "type 1 online stores,listitem.csv", "listitem.csv"]
+ms.assetid: d8f4bdb3-e7a5-4080-9ae7-555bf3695e9c
+keywords:
+- Windows Media Player online stores,listitem.csv
+- online stores,listitem.csv
+- type 1 online stores,listitem.csv
+- listitem.csv
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # listitem.csv
@@ -23,11 +32,11 @@ The Format column in the table below describes the way each Unicode text field i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

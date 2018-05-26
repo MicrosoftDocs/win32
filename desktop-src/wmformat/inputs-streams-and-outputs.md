@@ -1,8 +1,22 @@
 ---
 title: Inputs, Streams, and Outputs
 description: Inputs, Streams, and Outputs
-ms.assetid: 'f9f979c4-a15c-4f2a-b63c-7fe776394fdd'
-keywords: ["Windows Media Format SDK,inputs", "Windows Media Format SDK,streams", "Windows Media Format SDK,outputs", "Advanced Systems Format (ASF),inputs", "ASF (Advanced Systems Format),inputs", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "Advanced Systems Format (ASF),outputs", "ASF (Advanced Systems Format),outputs"]
+ms.assetid: f9f979c4-a15c-4f2a-b63c-7fe776394fdd
+keywords:
+- Windows Media Format SDK,inputs
+- Windows Media Format SDK,streams
+- Windows Media Format SDK,outputs
+- Advanced Systems Format (ASF),inputs
+- ASF (Advanced Systems Format),inputs
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- Advanced Systems Format (ASF),outputs
+- ASF (Advanced Systems Format),outputs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inputs, Streams, and Outputs

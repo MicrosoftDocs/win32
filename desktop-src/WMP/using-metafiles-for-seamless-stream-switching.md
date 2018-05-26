@@ -1,8 +1,28 @@
 ---
 title: Using Metafiles for Seamless Stream Switching
 description: Using Metafiles for Seamless Stream Switching
-ms.assetid: 'e632f670-54c4-4b5b-8396-1d5368f90e6d'
-keywords: ["Windows Media metafile playlists,live event stream switching", "playlists,live event stream switching", "metafile playlists,live event stream switching", "Windows Media metafile playlists,event stream switching", "playlists,event stream switching", "metafile playlists,event stream switching", "Windows Media metafile playlists,ad insertion", "playlists,ad insertion", "metafile playlists,ad insertion", "Windows Media Player,live event stream switching", "Windows Media Player,event stream switching", "Windows Media Player,ad insertion", "live event stream switching", "event stream switching", "ad insertion"]
+ms.assetid: e632f670-54c4-4b5b-8396-1d5368f90e6d
+keywords:
+- Windows Media metafile playlists,live event stream switching
+- playlists,live event stream switching
+- metafile playlists,live event stream switching
+- Windows Media metafile playlists,event stream switching
+- playlists,event stream switching
+- metafile playlists,event stream switching
+- Windows Media metafile playlists,ad insertion
+- playlists,ad insertion
+- metafile playlists,ad insertion
+- Windows Media Player,live event stream switching
+- Windows Media Player,event stream switching
+- Windows Media Player,ad insertion
+- live event stream switching
+- event stream switching
+- ad insertion
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Metafiles for Seamless Stream Switching

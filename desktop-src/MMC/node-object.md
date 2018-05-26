@@ -4,11 +4,13 @@ description: The Node object is used to manage a scope (tree) or result (list or
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c504cb3f-8ec6-49fe-b0d3-05ea9cad61f4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c504cb3f-8ec6-49fe-b0d3-05ea9cad61f4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Node Object object MMC", "Node Object object MMC , described"]
+keywords:
+- Node Object object MMC
+- Node Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Node Object object
@@ -42,7 +47,7 @@ The **Node Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -59,7 +64,7 @@ The **Node Object** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +72,8 @@ The **Node Object** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -76,9 +81,9 @@ The **Node Object** object has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

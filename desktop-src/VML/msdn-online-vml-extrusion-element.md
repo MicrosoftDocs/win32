@@ -1,7 +1,12 @@
 ---
 title: VML Extrusion Element
 description: VML Extrusion Element
-ms.assetid: 'd26b2451-383a-4ded-a46d-5ecca05ddb7f'
+ms.assetid: d26b2451-383a-4ded-a46d-5ecca05ddb7f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Extrusion Element

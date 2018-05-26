@@ -1,7 +1,12 @@
 ---
 Description: Using the Video Mixing Renderer
-ms.assetid: '3d0fdfac-ec7e-4e02-886b-2039c607dac7'
+ms.assetid: 3d0fdfac-ec7e-4e02-886b-2039c607dac7
 title: Using the Video Mixing Renderer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Video Mixing Renderer
@@ -17,7 +22,7 @@ The VMR-7 is available on Windows XP and later, but is not available for redistr
 
 The VMR-9 has its own CLSID and its own set of interfaces, structures and enumeration types which are not always identical to the corresponding data types for the VMR-7, due to the underlying differences between DirectDraw 7 and Direct3D 9. The VMR-9 interfaces all end with "9", for example **IVMRStreamConfig9**, and the structures and enumeration types all have "VMR9" in their name to distinguish them from the data types used with the VMR-7.
 
-To ensure backward-compatibility, the VMR-9 is not the default renderer on any system. To use the VMR-9, you must explicitly add it to the filter graph using the [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) method, and configure it before connecting it to any upstream filters.
+To ensure backward-compatibility, the VMR-9 is not the default renderer on any system. To use the VMR-9, you must explicitly add it to the filter graph using the [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) method, and configure it before connecting it to any upstream filters.
 
 This article contains the following sections. Except where noted, the information in these sections applies to both the VMR-7 and the VMR-9 filters.
 

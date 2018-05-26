@@ -1,7 +1,12 @@
 ---
 title: Macros
 description: The topics in this section provide the reference specifications for Pointer Input Messages and Notifications macros for retrieving information from pointer input message parameters.
-ms.assetid: '2324DCD0-DAE1-4AC2-AB36-23D114803138'
+ms.assetid: 2324DCD0-DAE1-4AC2-AB36-23D114803138
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Macros
@@ -30,7 +35,7 @@ The topics in this section provide the reference specifications for [Pointer Inp
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -39,9 +44,9 @@ The topics in this section provide the reference specifications for [Pointer Inp
 [Pointer Input Message Reference](wmpointer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

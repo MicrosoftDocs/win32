@@ -1,7 +1,12 @@
-﻿---
-Description: 'Opens the specified registry key in an offline registry hive.'
-ms.assetid: '4a4afbef-5107-4006-bd67-aecb5d3b5112'
+---
+Description: Opens the specified registry key in an offline registry hive.
+ms.assetid: 4a4afbef-5107-4006-bd67-aecb5d3b5112
 title: OROpenKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OROpenKey function

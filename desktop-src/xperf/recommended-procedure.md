@@ -1,8 +1,20 @@
 ---
 title: Recommended Procedure
 description: Recommended Procedure
-ms.assetid: 'b42aae95-ddaf-4da2-963f-b40697bfcb93'
-keywords: ["xbootmgr", "trace", "rebootCycle", "noPrepReboot", "prepSystem", "standby", "numRuns"]
+ms.assetid: b42aae95-ddaf-4da2-963f-b40697bfcb93
+keywords:
+- xbootmgr
+- trace
+- rebootCycle
+- noPrepReboot
+- prepSystem
+- standby
+- numRuns
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recommended Procedure

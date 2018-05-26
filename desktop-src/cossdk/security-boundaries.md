@@ -1,7 +1,12 @@
 ---
-Description: 'Security is checked only at application boundaries.'
-ms.assetid: '32a05150-a68a-4302-9983-b9c1269b368c'
+Description: Security is checked only at application boundaries.
+ms.assetid: 32a05150-a68a-4302-9983-b9c1269b368c
 title: Security Boundaries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Boundaries

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The topics in this section provide the reference specifications for Direct Manipulation.'
-ms.assetid: 'D9AEDA9D-D6EB-4567-8C12-362DA0F17667'
+---
+Description: The topics in this section provide the reference specifications for Direct Manipulation.
+ms.assetid: D9AEDA9D-D6EB-4567-8C12-362DA0F17667
 title: Direct Manipulation Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct Manipulation Reference

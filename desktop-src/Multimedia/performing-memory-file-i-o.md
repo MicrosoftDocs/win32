@@ -1,8 +1,19 @@
 ---
 title: Performing Memory File I/O
 description: Performing Memory File I/O
-ms.assetid: 'c0a5c8a0-978f-47d9-8ef0-ad391b9d1e63'
-keywords: ["multimedia file I/O,memory", "file I/O,memory", "input and output (I/O),memory", "I/O (input and output),memory", "memory I/O", "mmioOpen function"]
+ms.assetid: c0a5c8a0-978f-47d9-8ef0-ad391b9d1e63
+keywords:
+- multimedia file I/O,memory
+- file I/O,memory
+- input and output (I/O),memory
+- I/O (input and output),memory
+- memory I/O
+- mmioOpen function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performing Memory File I/O

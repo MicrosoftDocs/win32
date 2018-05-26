@@ -1,8 +1,10 @@
 ---
 title: CIM\_SCSIProtocolController class
 description: Represents a protocol controller that manages a SCSI interface.
-ms.assetid: '98610003-7019-454e-9e62-d3ac35c7eb66'
-keywords: ["CIM_SCSIProtocolController class Hyper-V", "CIM_SCSIProtocolController class Hyper-V , described"]
+ms.assetid: 98610003-7019-454e-9e62-d3ac35c7eb66
+keywords:
+- CIM_SCSIProtocolController class Hyper-V
+- CIM_SCSIProtocolController class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -46,6 +48,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SCSIProtocolController class
@@ -60,41 +67,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.8.1000"), AMENDMENT]
 class CIM_SCSIProtocolController : CIM_ProtocolController
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator;
-  uint32   MaxUnitsControlled;
-  uint16   NameFormat;
-  string   OtherNameFormat;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator;
+  uint32   MaxUnitsControlled;
+  uint16   NameFormat;
+  string   OtherNameFormat;
 };
 ```
 
@@ -124,7 +131,7 @@ The **CIM\_SCSIProtocolController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -471,14 +478,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -910,7 +917,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("No v
 
 This property is deprecated and should not be used.
 
-**Deprecated description:** The maximum time in milliseconds, that a device can remain in a temporarily disabled state (**Availability** and **AdditionalAvailability** properties set to "21" — quiescent ). A value of "0" indicates that the logical device can remain in a temporarily disabled state indefinitely.
+**Deprecated description:** The maximum time in milliseconds, that a device can remain in a temporarily disabled state (**Availability** and **AdditionalAvailability** properties set to "21"   quiescent ). A value of "0" indicates that the logical device can remain in a temporarily disabled state indefinitely.
 
 This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -1012,7 +1019,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1339,7 +1346,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("CIM\
 
 This property is deprecated. Instead, use the **PowerManagementCapabilities** class.
 
-**Deprecated description:  true** if the logical device can be power managed; otherwise, **false**.
+**Deprecated description:  true** if the logical device can be power managed; otherwise, **false**.
 
 This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -1380,7 +1387,7 @@ Indicates the last requested state for the element. The current state is indicat
 > [!Note]  
 > When the value of the **EnabledState** property is **Not Applicable**, this property has no meaning.
 
- 
+ 
 
 This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogicalelement.md).
 
@@ -1561,7 +1568,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1681,9 +1688,9 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1696,9 +1703,9 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 [**CIM\_ProtocolController**](cim-protocolcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

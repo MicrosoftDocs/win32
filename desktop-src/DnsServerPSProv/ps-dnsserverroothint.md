@@ -2,13 +2,15 @@
 title: PS\_DnsServerRootHint class
 description: DNS Server Root Hint definition.
 audience: developer
-ms.assetid: '799266d0-adbf-4a88-9369-31c683db2bdd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 799266d0-adbf-4a88-9369-31c683db2bdd
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerRootHint class", "PS_DnsServerRootHint class, described"]
+keywords:
+- PS_DnsServerRootHint class
+- PS_DnsServerRootHint class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerRootHint class
@@ -58,7 +63,7 @@ The **PS\_DnsServerRootHint** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +72,7 @@ The **PS\_DnsServerRootHint** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -81,9 +86,9 @@ The **PS\_DnsServerRootHint** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

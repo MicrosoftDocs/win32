@@ -1,7 +1,12 @@
 ---
-Description: 'Application User Model IDs (AppUserModelIDs) are used extensively by the taskbar in Windows 7 and later systems to associate processes, files, and windows with a particular application.'
-ms.assetid: 'ebce2d99-6f20-4545-9f12-d79cd8d0828f'
-title: 'Application User Model IDs (AppUserModelIDs)'
+Description: Application User Model IDs (AppUserModelIDs) are used extensively by the taskbar in Windows 7 and later systems to associate processes, files, and windows with a particular application.
+ms.assetid: ebce2d99-6f20-4545-9f12-d79cd8d0828f
+title: Application User Model IDs (AppUserModelIDs)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application User Model IDs (AppUserModelIDs)
@@ -19,10 +24,10 @@ Application User Model IDs (AppUserModelIDs) are used extensively by the taskbar
 
 Some applications do not declare an explicit AppUserModelID. They are optional. In that case, the system uses a series of heuristics to assign an internal AppUserModelID. However, there is a performance benefit in avoiding those calculations and an explicit AppUserModelID is the only way to guarantee an exact user experience. Therefore, it is strongly recommended that an explicit ID be set. Applications cannot retrieve a system-assigned AppUserModelID.
 
-If an application uses an explicit AppUserModelID, it must also assign the same AppUserModelID to all running windows or processes, shortcuts, and file associations. It must also use that AppUserModelID when customizing its Jump List through [**ICustomDestinationList**](icustomdestinationlist.md), and in any calls to [**SHAddToRecentDocs**](shaddtorecentdocs.md).
+If an application uses an explicit AppUserModelID, it must also assign the same AppUserModelID to all running windows or processes, shortcuts, and file associations. It must also use that AppUserModelID when customizing its Jump List through [**ICustomDestinationList**](/windows/win32/shobjidl_core/nn-shobjidl_core-icustomdestinationlist?branch=master), and in any calls to [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master).
 
 > [!Note]  
-> If applications do not have an explicit AppUserModelID, they must call [**IApplicationDestinations**](iapplicationdestinations.md), [**IApplicationDocumentLists**](iapplicationdocumentlists.md), and [**ICustomDestinationList**](icustomdestinationlist.md) methods as well as [**SHAddToRecentDocs**](shaddtorecentdocs.md) from within the application. If those methods are called from another process, such as an installer or uninstaller, the system cannot generate the correct AppUserModelID and those calls will have no effect.
+> If applications do not have an explicit AppUserModelID, they must call [**IApplicationDestinations**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationdestinations?branch=master), [**IApplicationDocumentLists**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists?branch=master), and [**ICustomDestinationList**](/windows/win32/shobjidl_core/nn-shobjidl_core-icustomdestinationlist?branch=master) methods as well as [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master) from within the application. If those methods are called from another process, such as an installer or uninstaller, the system cannot generate the correct AppUserModelID and those calls will have no effect.
 
  
 
@@ -54,7 +59,7 @@ An application must provide its AppUserModelID in the following form. It can hav
 
 When an application uses one or more explicit AppUserModelIDs, it should apply those AppUserModelIDs in the following locations and situations:
 
--   In the [System.AppUserModel.ID](properties.props_System_AppUserModel_Id) property of the application's shortcut file. A shortcut (as an [**IShellLink**](ishelllink.md), CLSID\_ShellLink, or a .lnk file) supports properties through [**IPropertyStore**](properties.IPropertyStore) and other property-setting mechanisms used throughout the Shell. This allows the taskbar to identify the proper shortcut to pin and ensures that windows belonging to the process are appropriately associated with that taskbar button.
+-   In the [System.AppUserModel.ID](properties.props_System_AppUserModel_Id) property of the application's shortcut file. A shortcut (as an [**IShellLink**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ishelllinka?branch=master), CLSID\_ShellLink, or a .lnk file) supports properties through [**IPropertyStore**](properties.IPropertyStore) and other property-setting mechanisms used throughout the Shell. This allows the taskbar to identify the proper shortcut to pin and ensures that windows belonging to the process are appropriately associated with that taskbar button.
     > [!Note]  
     > The [System.AppUserModel.ID](properties.props_System_AppUserModel_Id) property should be applied to a shortcut when that shortcut is created. When using the Microsoft Windows Installer (MSI) to install the application, the [MsiShortcutProperty](setup.msishortcutproperty_table) table allows the AppUserModelID to be applied to the shortcut when it is created during installation.
 
@@ -63,7 +68,7 @@ When an application uses one or more explicit AppUserModelIDs, it should apply t
 -   As a property of any of the application's running windows. This can be set in one of two ways:
 
     1.  If different windows owned by one process require different AppUserModelIDs to control taskbar grouping, use [**SHGetPropertyStoreForWindow**](properties.SHGetPropertyStoreForWindow)) to retrieve the window's property store and set the AppUserModelID as a window property.
-    2.  If all windows in the process use the same AppUserModelID, set the AppUserModelID on the process though [**SetCurrentProcessExplicitAppUserModelID**](setcurrentprocessexplicitappusermodelid.md). An application must call **SetCurrentProcessExplicitAppUserModelID** to set its AppUserModelID during an application's initial startup routine before the application presents any UI, makes any manipulation of its Jump Lists, or makes (or causes the system to make) any call to [**SHAddToRecentDocs**](shaddtorecentdocs.md).
+    2.  If all windows in the process use the same AppUserModelID, set the AppUserModelID on the process though [**SetCurrentProcessExplicitAppUserModelID**](/windows/win32/shobjidl_core/nf-shobjidl_core-setcurrentprocessexplicitappusermodelid?branch=master). An application must call **SetCurrentProcessExplicitAppUserModelID** to set its AppUserModelID during an application's initial startup routine before the application presents any UI, makes any manipulation of its Jump Lists, or makes (or causes the system to make) any call to [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master).
 
     A window-level AppUserModelID overrides a process-level AppUserModelID.
 
@@ -80,9 +85,9 @@ When an application uses one or more explicit AppUserModelIDs, it should apply t
 
     A window-level explicit AppUserModelID can also use the [System.AppUserModel.PreventPinning](properties.props_System_AppUserModel_PreventPinning) property to specify that it should not be available for pinning or relaunching.
 
--   In a call to customize or update ([**ICustomDestinationList**](icustomdestinationlist.md)), retrieve ([**IApplicationDocumentLists**](iapplicationdocumentlists.md)), or clear ([**IApplicationDestinations**](iapplicationdestinations.md)) the application's Jump List.
--   In file association registration (through its [ProgID](fa-progids.md)) if the application uses the system's automatically generated **Recent** or **Frequent** destination lists. This association information is referenced by [**SHAddToRecentDocs**](shaddtorecentdocs.md). This information is also used when adding [**IShellItem**](ishellitem.md) destinations to custom Jump Lists through [**ICustomDestinationList::AppendCategory**](icustomdestinationlist-appendcategory.md).
--   In any call the application makes directly to [**SHAddToRecentDocs**](shaddtorecentdocs.md). If the application depends on the common file dialog to make calls to **SHAddToRecentDocs** on its behalf, those calls can deduce the explicit AppUserModelID only if the AppUserModelID is set for the entire process. If the application sets AppUserModelIDs on its windows instead of on the process, the application must make all calls to **SHAddToRecentDocs** itself, with its explicit AppUserModelID, as well as preventing the common file dialog from making its own calls. This must be done any time an item is opened, to ensure the **Recent** or **Frequent** sections of the application's Jump List are accurate.
+-   In a call to customize or update ([**ICustomDestinationList**](/windows/win32/shobjidl_core/nn-shobjidl_core-icustomdestinationlist?branch=master)), retrieve ([**IApplicationDocumentLists**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists?branch=master)), or clear ([**IApplicationDestinations**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationdestinations?branch=master)) the application's Jump List.
+-   In file association registration (through its [ProgID](fa-progids.md)) if the application uses the system's automatically generated **Recent** or **Frequent** destination lists. This association information is referenced by [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master). This information is also used when adding [**IShellItem**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellitem?branch=master) destinations to custom Jump Lists through [**ICustomDestinationList::AppendCategory**](/windows/win32/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-appendcategory?branch=master).
+-   In any call the application makes directly to [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master). If the application depends on the common file dialog to make calls to **SHAddToRecentDocs** on its behalf, those calls can deduce the explicit AppUserModelID only if the AppUserModelID is set for the entire process. If the application sets AppUserModelIDs on its windows instead of on the process, the application must make all calls to **SHAddToRecentDocs** itself, with its explicit AppUserModelID, as well as preventing the common file dialog from making its own calls. This must be done any time an item is opened, to ensure the **Recent** or **Frequent** sections of the application's Jump List are accurate.
 
 The following items describe common scenarios and where to apply explicit AppUserModelIDs in those scenarios.
 
@@ -91,7 +96,7 @@ The following items describe common scenarios and where to apply explicit AppUse
 -   To separate certain windows from a set in the same process, use the window's property store to apply a single AppUserModelID to those windows you want to separate, and then apply a different AppUserModelID to the process. Any window in that process that was not explicitly labeled with the window-level AppUserModelID inherits the AppUserModelID of the process.
 -   If a file type is associated with an application, assign the AppUserModelID in the file type's [ProgID](fa-progids.md) registration. If a single executable file is launched in different modes that appear to the user as distinct applications, a separate AppUserModelID is required for each mode. In that case, there must be multiple ProgID registrations for the file type, each with a different AppUserModelID.
 -   When there are multiple shortcut locations from which a user can launch an application (in the **Start** menu, on the desktop, or elsewhere) retrieve the shortcut's property store to apply a single AppUserModelID to all of the shortcuts as shortcut properties.
--   When an explicit call is made to [**SHAddToRecentDocs**](shaddtorecentdocs.md) by an application, use the AppUserModelID in the call. When the common file dialog is used to open or save files, **SHAddToRecentDocs** is called by the dialog on behalf of the application. That call can infer the explicit AppUserModelID from the process. However, if an explicit AppUserModelID is applied as a window property, the common file dialog cannot determine the correct AppUserModelID. In that case, the application itself must explicitly call **SHAddToRecentDocs** and provide it with the correct AppUserModelID. Additionally, the application must prevent the common file dialog from calling **SHAddToRecentDocs** on its behalf by setting the FOS\_DONTADDTORECENT flag in the **GetOptions** method of [**IFileOpenDialog**](ifileopendialog.md) or [**IFileSaveDialog**](ifilesavedialog.md).
+-   When an explicit call is made to [**SHAddToRecentDocs**](/windows/win32/shlobj_core/nf-shlobj_core-shaddtorecentdocs?branch=master) by an application, use the AppUserModelID in the call. When the common file dialog is used to open or save files, **SHAddToRecentDocs** is called by the dialog on behalf of the application. That call can infer the explicit AppUserModelID from the process. However, if an explicit AppUserModelID is applied as a window property, the common file dialog cannot determine the correct AppUserModelID. In that case, the application itself must explicitly call **SHAddToRecentDocs** and provide it with the correct AppUserModelID. Additionally, the application must prevent the common file dialog from calling **SHAddToRecentDocs** on its behalf by setting the FOS\_DONTADDTORECENT flag in the **GetOptions** method of [**IFileOpenDialog**](/windows/win32/Shobjidl/nn-shobjidl_core-ifileopendialog?branch=master) or [**IFileSaveDialog**](/windows/win32/Shobjidl_core/nn-shobjidl_core-ifilesavedialog?branch=master).
 
 ## Registering an Application as a Host Process
 
@@ -216,22 +221,22 @@ HKEY_LOCAL_MACHINE
 
 <dl> <dt>
 
-[**SetCurrentProcessExplicitAppUserModelID**](setcurrentprocessexplicitappusermodelid.md)
+[**SetCurrentProcessExplicitAppUserModelID**](/windows/win32/shobjidl_core/nf-shobjidl_core-setcurrentprocessexplicitappusermodelid?branch=master)
 </dt> <dt>
 
-[**GetCurrentProcessExplicitAppUserModelID**](getcurrentprocessexplicitappusermodelid.md)
+[**GetCurrentProcessExplicitAppUserModelID**](/windows/win32/shobjidl_core/nf-shobjidl_core-getcurrentprocessexplicitappusermodelid?branch=master)
 </dt> <dt>
 
 [Taskbar Extensions](taskbar-extensions.md)
 </dt> <dt>
 
-[**ICustomDestinationList::SetAppID**](icustomdestinationlist-setappid.md)
+[**ICustomDestinationList::SetAppID**](/windows/win32/shobjidl_core/nf-shobjidl_core-icustomdestinationlist-setappid?branch=master)
 </dt> <dt>
 
-[**IApplicationDocumentLists::SetAppID**](iapplicationdocumentlists-setappid.md)
+[**IApplicationDocumentLists::SetAppID**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-setappid?branch=master)
 </dt> <dt>
 
-[**IApplicationDestinations::SetAppID**](iapplicationdestinations-setappid.md)
+[**IApplicationDestinations::SetAppID**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationdestinations-setappid?branch=master)
 </dt> <dt>
 
 [**SHGetPropertyStoreForWindow**](properties.SHGetPropertyStoreForWindow)

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Deletes a user from the volume.'
-ms.assetid: '56a07388-b7d8-41a4-b29a-8a57fe0b9d19'
-title: 'DiskQuotaControl.DeleteUser method'
+---
+Description: Deletes a user from the volume.
+ms.assetid: 56a07388-b7d8-41a4-b29a-8a57fe0b9d19
+title: DiskQuotaControl.DeleteUser method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskQuotaControl.DeleteUser method

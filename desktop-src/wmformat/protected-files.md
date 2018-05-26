@@ -1,8 +1,21 @@
 ---
 title: Protected Files
 description: Protected Files
-ms.assetid: '5237e797-72ec-402e-81ec-ab379747e464'
-keywords: ["Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,DRM licenses", "Windows Media Format SDK,licenses for DRM", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),protected file licensing", "DRM (digital rights management),protected file licensing", "licenses,DRM"]
+ms.assetid: 5237e797-72ec-402e-81ec-ab379747e464
+keywords:
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,DRM licenses
+- Windows Media Format SDK,licenses for DRM
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),protected file licensing
+- DRM (digital rights management),protected file licensing
+- licenses,DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Protected Files

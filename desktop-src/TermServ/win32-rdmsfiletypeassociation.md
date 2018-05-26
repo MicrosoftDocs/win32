@@ -4,11 +4,13 @@ description: Manages a file type association for a published application.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22c945cb-4c47-431a-bc9b-d33ba15c8ab3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 22c945cb-4c47-431a-bc9b-d33ba15c8ab3
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDMSFileTypeAssociation class Remote Desktop Services", "Win32_RDMSFileTypeAssociation class Remote Desktop Services , described"]
+keywords:
+- Win32_RDMSFileTypeAssociation class Remote Desktop Services
+- Win32_RDMSFileTypeAssociation class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - RDMS.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDMSFileTypeAssociation class
@@ -40,13 +45,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_RDManagement_Prov"), AMENDMENT]
 class Win32_RDMSFileTypeAssociation
 {
-  string  AppAlias;
-  string  PoolName;
-  string  ExtName;
-  string  ProgIdHint;
-  string  IconPath;
-  sint32  IconIndex;
-  uint8   IconContents[];
+  string  AppAlias;
+  string  PoolName;
+  string  ExtName;
+  string  ProgIdHint;
+  string  IconPath;
+  sint32  IconIndex;
+  uint8   IconContents[];
   boolean IsPrimaryHandler;
   boolean IsPublished;
 };
@@ -199,7 +204,7 @@ Gets a hint to help users open the file extension.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -213,9 +218,9 @@ Gets a hint to help users open the file extension.
 [Remote Desktop Management Services Provider](rdms-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

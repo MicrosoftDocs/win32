@@ -1,7 +1,12 @@
 ---
-Description: 'Not implemented.'
-ms.assetid: 'd0fc571f-79f5-448a-8082-6e5f7f48118f'
-title: 'IXml2Dex::WriteXMLPart method'
+Description: Not implemented.
+ms.assetid: d0fc571f-79f5-448a-8082-6e5f7f48118f
+title: IXml2DexWriteXMLPart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::WriteXMLPart method

@@ -4,17 +4,22 @@ description: Defines an interval of time, in milliseconds, during which a specif
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b98f3f99-91c6-45e9-9eda-ce3c6e75c771'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b98f3f99-91c6-45e9-9eda-ce3c6e75c771
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RestartPeriod Failover Cluster ,for resources", "RestartPeriod Failover Cluster"]
+keywords:
+- RestartPeriod Failover Cluster ,for resources
+- RestartPeriod Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RestartPeriod
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RestartPeriod
@@ -27,14 +32,14 @@ Defines an interval of time, in milliseconds, during which a specified number of
 |----------------------|-------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                      |
 | Access<br/>    | [Read/write](read-write-properties.md)   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum<br/>   | 0<br/>                              |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                     |
 | Default<br/>   | 900000<br/>                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,7 +74,7 @@ RestartPeriodValue.dw =        RestartPeriodData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -80,7 +85,7 @@ RestartPeriodValue.dw =        RestartPeriodData;
 [Resource Common Properties](resource-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**RestartAction**](resources-restartaction.md)
@@ -89,9 +94,9 @@ RestartPeriodValue.dw =        RestartPeriodData;
 [**RestartThreshold**](resources-restartthreshold.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

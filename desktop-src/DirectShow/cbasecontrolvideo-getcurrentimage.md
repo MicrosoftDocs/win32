@@ -1,7 +1,12 @@
 ---
-Description: 'The GetCurrentImage method retrieves a copy of the current image at the renderer.'
-ms.assetid: 'fa322bd2-18e4-481d-bde1-92deb0f7de61'
-title: 'CBaseControlVideo.GetCurrentImage method'
+Description: The GetCurrentImage method retrieves a copy of the current image at the renderer.
+ms.assetid: fa322bd2-18e4-481d-bde1-92deb0f7de61
+title: CBaseControlVideo.GetCurrentImage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetCurrentImage method
@@ -13,8 +18,8 @@ The `GetCurrentImage` method retrieves a copy of the current image at the render
 
 ```C++
 HRESULT GetCurrentImage(
-   long *pBufferSize,
-   long *pVideoImage
+   long *pBufferSize,
+   long *pVideoImage
 );
 ```
 
@@ -54,11 +59,11 @@ Returns an **HRESULT** value that depends on the implementation; can be one of t
 
 
 
- 
+ 
 
 ## Remarks
 
-This member function retrieves the image from the sample and copies it into the output buffer. The section of video copied into the output buffer reflects the source rectangle set through the [**IBasicVideo**](ibasicvideo.md) interface. It does not reflect the destination rectangle.
+This member function retrieves the image from the sample and copies it into the output buffer. The section of video copied into the output buffer reflects the source rectangle set through the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) interface. It does not reflect the destination rectangle.
 
 ## Requirements
 
@@ -78,9 +83,9 @@ This member function retrieves the image from the sample and copies it into the 
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

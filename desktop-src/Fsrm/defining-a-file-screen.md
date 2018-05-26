@@ -4,11 +4,17 @@ description: A file screen restricts the files that can be written to the direct
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1b5227e7-4272-4e23-ba55-d6161e2987bc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 1b5227e7-4272-4e23-ba55-d6161e2987bc
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , defining a file screen", "file screens File Server Resource Manager", "defining file screens File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , defining a file screen
+- file screens File Server Resource Manager
+- defining file screens File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Defining a File Screen

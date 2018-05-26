@@ -1,19 +1,24 @@
 ---
 title: How to Retrieve Geometry Data by Extending ID2D1SimplifiedGeometrySink
 description: Shows how to retrieve geometry data by extending ID2D1SimplifiedGeometrySink interface.
-ms.assetid: 'c6777b11-6d4e-409e-9c30-da1e060c9aca'
+ms.assetid: c6777b11-6d4e-409e-9c30-da1e060c9aca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Retrieve Geometry Data by Extending ID2D1SimplifiedGeometrySink
 
-While an [**ID2D1Geometry**](id2d1geometry.md) object is immutable, there are cases where you need to manipulate the geometry data in a path geometry object. Direct2D enables you to do so by providing an extendable interface named [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md). For concept illustration, this topic describes how to extend this interface to retrieve the geometry data from a path geometry object.
+While an [**ID2D1Geometry**](/windows/win32/d2d1/?branch=master) object is immutable, there are cases where you need to manipulate the geometry data in a path geometry object. Direct2D enables you to do so by providing an extendable interface named [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master). For concept illustration, this topic describes how to extend this interface to retrieve the geometry data from a path geometry object.
 
 **To Extend the ID2D1SimplifiedGeometrySink interface**
 
-1.  Implement a class that inherits from [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md).
+1.  Implement a class that inherits from [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master).
 2.  Create an instance of that class and pass it to [**ID2D1Geometry::Simplify**](id2d1geometry-simplify.md).
 
-The following code example shows how to implement a class named SpecializedSink that inherits from the [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md) interface. For the simplicity of concept illustration, the extended **AddLines** method retrieves the geometry data and then displays it on the console window; you can customize this method to meet your specific data needs.
+The following code example shows how to implement a class named SpecializedSink that inherits from the [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master) interface. For the simplicity of concept illustration, the extended **AddLines** method retrieves the geometry data and then displays it on the console window; you can customize this method to meet your specific data needs.
 
 
 ```C++
@@ -152,7 +157,7 @@ if(SUCCEEDED(hr))
 
 
 
-Finally, the example creates a SpecializedSink object, and then calls the [**ID2D1Geometry::Simplify**](id2d1geometry-simplify.md) method, passing in the SpecializedSink object and the [**D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION\_LINES**](d2d1-geometry-simplification-option.md) parameter, which causes any curves to be flattened into line segments.
+Finally, the example creates a SpecializedSink object, and then calls the [**ID2D1Geometry::Simplify**](id2d1geometry-simplify.md) method, passing in the SpecializedSink object and the [**D2D1\_GEOMETRY\_SIMPLIFICATION\_OPTION\_LINES**](/windows/win32/d2d1/ne-d2d1-d2d1_geometry_simplification_option?branch=master) parameter, which causes any curves to be flattened into line segments.
 
 
 ```C++

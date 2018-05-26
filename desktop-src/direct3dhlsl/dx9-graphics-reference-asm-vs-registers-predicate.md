@@ -1,7 +1,12 @@
 ---
 title: Predicate Register
 description: This vertex shader output register contains a per-channel Boolean value.
-ms.assetid: '4b06e19a-78c7-4886-a0e2-225d419282e7'
+ms.assetid: 4b06e19a-78c7-4886-a0e2-225d419282e7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predicate Register

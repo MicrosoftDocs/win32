@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived outbound faxes.'
-ms.assetid: '8352f192-a485-4864-a12c-8e7c02263a63'
-title: 'FaxOutgoingArchive.ArchiveFolder property'
+---
+Description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived outbound faxes.
+ms.assetid: 8352f192-a485-4864-a12c-8e7c02263a63
+title: FaxOutgoingArchive.ArchiveFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingArchive.ArchiveFolder property
@@ -30,7 +35,7 @@ A **String** that receives Null-terminated string that specifies the fully quali
 
  
 
-To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -55,7 +60,7 @@ To read or to write to this property, a user must have the [**farQUERY\_CONFIG**
 [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md)
 </dt> <dt>
 
-[**IFaxOutgoingArchive**](-mfax-faxoutgoingarchive-cpp.md)
+[**IFaxOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingarchive?branch=master)
 </dt> <dt>
 
 [**FaxConfiguration**](-mfax-faxconfiguration.md)

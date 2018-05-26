@@ -1,14 +1,20 @@
 ---
 title: Flags element
 description: Contains one or more Flag elements.
-ms.assetid: '86A12457-4093-40CC-8351-BDCBFF5898A2'
-keywords: ["Flags element Access Execution Engine"]
+ms.assetid: 86A12457-4093-40CC-8351-BDCBFF5898A2
+keywords:
+- Flags element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Flags
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flags element
@@ -70,9 +76,9 @@ Flag
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

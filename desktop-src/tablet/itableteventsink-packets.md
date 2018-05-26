@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the stylus is moving on the digitizer.'
-ms.assetid: '67d55dbc-6119-45d9-8016-a2a59f5f04ea'
-title: 'ITabletEventSink::Packets method'
+Description: Occurs when the stylus is moving on the digitizer.
+ms.assetid: 67d55dbc-6119-45d9-8016-a2a59f5f04ea
+title: ITabletEventSinkPackets method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::Packets method
@@ -13,12 +18,12 @@ Occurs when the stylus is moving on the digitizer.
 
 ```C++
 HRESULT Packets(
-  [in] TABLET_CONTEXT_ID tcid,
-  [in] ULONG             cPkts,
-  [in] ULONG             cbPkts,
-  [in] BYTE              *pbPkts,
-  [in] ULONG             *pnSerialNumbers,
-       t                 cid
+  [in] TABLET_CONTEXT_ID tcid,
+  [in] ULONG             cPkts,
+  [in] ULONG             cbPkts,
+  [in] BYTE              *pbPkts,
+  [in] ULONG             *pnSerialNumbers,
+       t                 cid
 );
 ```
 
@@ -83,7 +88,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -91,7 +96,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -104,9 +109,9 @@ This method can return one of these values.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

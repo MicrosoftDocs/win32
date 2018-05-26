@@ -1,7 +1,12 @@
 ---
-Description: 'CRM components can be installed into either a COM+ server application or a COM+ library application.'
-ms.assetid: 'd1ce3a0c-1278-498c-b5dc-4e14b26b4fc2'
+Description: CRM components can be installed into either a COM+ server application or a COM+ library application.
+ms.assetid: d1ce3a0c-1278-498c-b5dc-4e14b26b4fc2
 title: Configuring COM+ CRM Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring COM+ CRM Components

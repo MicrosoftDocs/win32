@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a localized version of the manufacturer name.'
-ms.assetid: 'e87de50f-60ec-4c18-b21c-81f7b6928752'
+Description: Specifies a localized version of the manufacturer name.
+ms.assetid: e87de50f-60ec-4c18-b21c-81f7b6928752
 title: manufacturerLS element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # manufacturerLS element
@@ -47,14 +52,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

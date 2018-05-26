@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Privileged property indicates whether the installation is performed in the context of elevated privileges.'
-ms.assetid: '483ab73a-3ff7-4111-a6b5-eac990d85bd7'
+---
+Description: The Privileged property indicates whether the installation is performed in the context of elevated privileges.
+ms.assetid: 483ab73a-3ff7-4111-a6b5-eac990d85bd7
 title: Privileged property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Privileged property

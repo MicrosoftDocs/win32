@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_SETTING\_SOURCE Constants
 description: Determine whether the Windows Biometric Framework is currently enabled.
-ms.assetid: 'd95aa6cc-ddff-40fb-ab82-eac78dc0cb6b'
+ms.assetid: d95aa6cc-ddff-40fb-ab82-eac78dc0cb6b
 topic_type:
 - apiref
 api_name:
@@ -13,11 +13,16 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_SETTING\_SOURCE Constants
 
-The following constants are used by the [**WinBioGetEnabledSetting**](winbiogetenabledsetting.md) function to determine whether the Windows Biometric Framework is currently enabled. The constants specify where the setting originated.
+The following constants are used by the [**WinBioGetEnabledSetting**](/windows/win32/Winbio/nf-winbio-winbiogetenabledsetting?branch=master) function to determine whether the Windows Biometric Framework is currently enabled. The constants specify where the setting originated.
 
 
 
@@ -36,8 +41,8 @@ The following constants are used by the [**WinBioGetEnabledSetting**](winbiogete
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -49,9 +54,9 @@ The following constants are used by the [**WinBioGetEnabledSetting**](winbiogete
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

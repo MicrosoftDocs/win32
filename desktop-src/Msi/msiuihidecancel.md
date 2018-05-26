@@ -1,12 +1,17 @@
-﻿---
-Description: 'This Windows Installer property indicates when the internal user interface level has been set to hide the cancel button.'
-ms.assetid: '0e842bee-32c2-41ae-97f3-bc8b34960a44'
+---
+Description: This Windows Installer property indicates when the internal user interface level has been set to hide the cancel button.
+ms.assetid: 0e842bee-32c2-41ae-97f3-bc8b34960a44
 title: MsiUIHideCancel property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiUIHideCancel property
 
-The installer sets the **MsiUIHideCancel** property to 1 when the internal user interface level has been set to include INSTALLUILEVEL\_HIDECANCEL with the [**MsiSetInternalUI**](msisetinternalui.md) function or the [UILevel](installer-uilevel.md)property of the [**Installer**](installer-object.md) object or by using [Command Line Options](command-line-options.md).
+The installer sets the **MsiUIHideCancel** property to 1 when the internal user interface level has been set to include INSTALLUILEVEL\_HIDECANCEL with the [**MsiSetInternalUI**](/windows/win32/Msi/nf-msi-msisetinternalui?branch=master) function or the [UILevel](installer-uilevel.md)property of the [**Installer**](installer-object.md) object or by using [Command Line Options](command-line-options.md).
 
 ## Requirements
 

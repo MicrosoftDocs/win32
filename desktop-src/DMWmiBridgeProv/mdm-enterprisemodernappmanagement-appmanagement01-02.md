@@ -1,8 +1,10 @@
 ---
 title: MDM\_EnterpriseModernAppManagement\_AppManagement01\_02 class
 description: The MDM\_EnterpriseModernAppManagement\_AppManagement01\_02 class specifies whether you want to block a specific app from being updated via auto-updates.
-ms.assetid: 'b018f61a-2458-4c1a-b75c-6ca5eebb2977'
-keywords: ["MDM_EnterpriseModernAppManagement_AppManagement01_02 class", "MDM_EnterpriseModernAppManagement_AppManagement01_02 class, described"]
+ms.assetid: b018f61a-2458-4c1a-b75c-6ca5eebb2977
+keywords:
+- MDM_EnterpriseModernAppManagement_AppManagement01_02 class
+- MDM_EnterpriseModernAppManagement_AppManagement01_02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_EnterpriseModernAppManagement\_AppManagement01\_02 class
@@ -96,7 +103,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -111,9 +118,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

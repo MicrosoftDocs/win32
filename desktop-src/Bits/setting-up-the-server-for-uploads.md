@@ -1,7 +1,12 @@
 ---
 title: Setting Up the Server for Uploads
 description: To upload files to a server using BITS, the server must have IIS and the BITS server extension ISAPI installed. For IIS requirements, see IIS Requirements for BITS Uploads.
-ms.assetid: '2f3a2f99-b9de-41da-897f-a4d9c6d5e8c0'
+ms.assetid: 2f3a2f99-b9de-41da-897f-a4d9c6d5e8c0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up the Server for Uploads

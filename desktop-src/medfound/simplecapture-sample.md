@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how to preview video from a video capture device, using the MFPlay API.'
-ms.assetid: '6e2b1636-9d24-40e6-9ed4-e17d1af6a044'
+Description: Shows how to preview video from a video capture device, using the MFPlay API.
+ms.assetid: 6e2b1636-9d24-40e6-9ed4-e17d1af6a044
 title: SimpleCapture Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SimpleCapture Sample
@@ -14,10 +19,10 @@ Shows how to preview video from a video capture device, using the MFPlay API.
 
 This sample demonstrates the following Microsoft Media Foundation interfaces:
 
--   [**IMFMediaSource**](imfmediasource.md)
--   [**IMFPMediaItem**](imfpmediaitem.md)
--   [**IMFPMediaPlayer**](imfpmediaplayer.md)
--   [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md)
+-   [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)
+-   [**IMFPMediaItem**](/windows/win32/mfplay/nn-mfplay-imfpmediaitem?branch=master)
+-   [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master)
+-   [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master)
 
 ## Requirements
 

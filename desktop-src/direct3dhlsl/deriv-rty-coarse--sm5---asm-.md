@@ -1,7 +1,12 @@
 ---
 title: deriv\_rty\_coarse (sm5 - asm)
 description: Computes the rate of change of components.
-ms.assetid: '1EBCC0B9-BD3E-46DD-AC17-F7167F892195'
+ms.assetid: 1EBCC0B9-BD3E-46DD-AC17-F7167F892195
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # deriv\_rty\_coarse (sm5 - asm)
@@ -15,7 +20,7 @@ Computes the rate of change of components.
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Computes the rate of change of components.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -42,7 +47,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -61,7 +66,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -70,9 +75,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

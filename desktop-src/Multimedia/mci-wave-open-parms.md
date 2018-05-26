@@ -1,8 +1,9 @@
 ---
 title: MCI\_WAVE\_OPEN\_PARMS structure
 description: The MCI\_WAVE\_OPEN\_PARMS structure contains information for MCI\_OPEN command for waveform-audio devices.
-ms.assetid: '2fc9383e-4610-4751-acad-b545dc6d8992'
-keywords: ["MCI_WAVE_OPEN_PARMS structure Windows Multimedia"]
+ms.assetid: 2fc9383e-4610-4751-acad-b545dc6d8992
+keywords:
+- MCI_WAVE_OPEN_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_WAVE\_OPEN\_PARMS structure
@@ -22,12 +28,12 @@ The **MCI\_WAVE\_OPEN\_PARMS** structure contains information for [**MCI\_OPEN**
 
 ```C++
 typedef struct {
-  DWORD_PTR   dwCallback;
+  DWORD_PTR   dwCallback;
   MCIDEVICEID wDeviceID;
-  LPCTSTR     lpstrDeviceType;
-  LPCTSTR     lpstrElementName;
-  LPCTSTR     lpstrAlias;
-  DWORD       dwBufferSeconds;
+  LPCTSTR     lpstrDeviceType;
+  LPCTSTR     lpstrElementName;
+  LPCTSTR     lpstrAlias;
+  DWORD       dwBufferSeconds;
 } MCI_WAVE_OPEN_PARMS;
 ```
 
@@ -81,7 +87,7 @@ Buffer length, in seconds.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure instead of **MCI\_WAVE\_OPEN\_PARMS** if you are not using the extended data members.
 
@@ -91,8 +97,8 @@ You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure instead of *
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -110,15 +116,15 @@ You can use the [**MCI\_OPEN\_PARMS**](mci-open-parms.md) structure instead of *
 [**MCI\_OPEN**](mci-open.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> <dt>
 
 [**MCI\_OPEN\_PARMS**](mci-open-parms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

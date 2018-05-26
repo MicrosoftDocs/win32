@@ -1,14 +1,20 @@
 ---
 title: D1109 Draw Failure
-ms.assetid: '76154839-719e-4c73-a80e-f9216f3468e3'
+ms.assetid: 76154839-719e-4c73-a80e-f9216f3468e3
 description: 
-keywords: ["D1109 Draw Failure Direct2D"]
+keywords:
+- D1109 Draw Failure Direct2D
 topic_type:
 - apiref
 api_name:
 - D1109 Draw Failure
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1109: Draw Failure
@@ -29,14 +35,14 @@ The address of the render target.
 <span id="tag1"></span><span id="TAG1"></span>*tag1*
 </dt> <dd>
 
-The first tag value (see [**SetTags**](id2d1rendertarget-settags.md) more for information).
+The first tag value (see [**SetTags**](/windows/win32/d2d1/?branch=master) more for information).
 
 </dd> <dt>
 
 <span id="tag2"></span><span id="TAG2"></span>*tag2*
 </dt> <dd>
 
-The second tag value (see [**SetTags**](id2d1rendertarget-settags.md) more for information).
+The second tag value (see [**SetTags**](/windows/win32/d2d1/?branch=master) more for information).
 
 </dd> </dl> 
 

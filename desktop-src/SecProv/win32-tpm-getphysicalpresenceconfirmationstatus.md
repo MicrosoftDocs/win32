@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates if confirmation from a physically present user is required for a given physical presence operation.'
-ms.assetid: '1CE558B7-EB6F-42CB-B52B-2A0101E90BD5'
-title: 'Win32\_Tpm::GetPhysicalPresenceConfirmationStatus method'
+---
+Description: Indicates if confirmation from a physically present user is required for a given physical presence operation.
+ms.assetid: 1CE558B7-EB6F-42CB-B52B-2A0101E90BD5
+title: Win32\_TpmGetPhysicalPresenceConfirmationStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Tpm::GetPhysicalPresenceConfirmationStatus method

@@ -4,11 +4,13 @@ description: Defines configuration settings for the Win32\_Terminal class relate
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '438baf22-adc2-410e-bf9b-4b17a05c5ce4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 438baf22-adc2-410e-bf9b-4b17a05c5ce4
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSClientSetting class Remote Desktop Services", "Win32_TSClientSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSClientSetting class Remote Desktop Services
+- Win32_TSClientSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -71,6 +73,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSClientSetting class
@@ -85,60 +90,60 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSCLIENTSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSClientSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  uint32   ConnectionPolicy;
-  uint32   ConnectClientDrivesAtLogon;
-  uint32   ConnectPrinterAtLogon;
-  uint32   DefaultToClientPrinter;
-  uint32   PolicySourceDefaultToClientPrinter;
-  uint32   WindowsPrinterMapping;
-  uint32   PolicySourceWindowsPrinterMapping;
-  uint32   LPTPortMapping;
-  uint32   PolicySourceLPTPortMapping;
-  uint32   COMPortMapping;
-  uint32   PolicySourceCOMPortMapping;
-  uint32   DriveMapping;
-  uint32   PolicySourceDriveMapping;
-  uint32   AudioMapping;
-  uint32   PolicySourceAudioMapping;
-  uint32   ClipboardMapping;
-  uint32   PolicySourceClipboardMapping;
-  uint32   ColorDepthPolicy;
-  uint32   PolicySourceColorDepthPolicy;
-  uint32   ColorDepth;
-  uint32   PolicySourceColorDepth;
-  uint32   MaxMonitors;
-  uint32   MaxXResolution;
-  uint32   MaxYResolution;
-  uint32   PolicySourceMaxMonitors;
-  uint32   PolicySourceMaxResolution;
-  uint32   PNPRedirection;
-  uint32   PolicySourcePNPRedirection;
-  uint32   AudioCaptureRedir;
-  uint32   PolicySourceAudioCaptureRedir;
-  uint32   VideoPlaybackRedir;
-  uint32   PolicySourceVideoPlaybackRedir;
-  uint32   AllowDwm;
-  uint32   PolicySourceAllowDwm;
-  uint32   PolicyAdvancedRemoteAppGraphics;
-  uint32   AdvancedRemoteAppGraphics;
-  uint32   RemoteSessionProfile;
-  uint32   PolicySourceRemoteSessionProfile;
-  uint32   AVC444ModePreferred;
-  uint32   PolicySourceAvc444ModePreferred;
-  uint32   EncodeImageQuality;
-  uint32   PolicySourceEncodeImageQuality;
-  uint32   HardwareGraphicsAdapter;
-  uint32   PolicySourceHardwareGraphicsAdapter;
-  uint32   SelectTransport;
-  uint32   PolicySourceSelectTransport;
-  uint32   SelectNetworkDetect;
-  uint32   PolicySourceSelectNetworkDetect;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  uint32   ConnectionPolicy;
+  uint32   ConnectClientDrivesAtLogon;
+  uint32   ConnectPrinterAtLogon;
+  uint32   DefaultToClientPrinter;
+  uint32   PolicySourceDefaultToClientPrinter;
+  uint32   WindowsPrinterMapping;
+  uint32   PolicySourceWindowsPrinterMapping;
+  uint32   LPTPortMapping;
+  uint32   PolicySourceLPTPortMapping;
+  uint32   COMPortMapping;
+  uint32   PolicySourceCOMPortMapping;
+  uint32   DriveMapping;
+  uint32   PolicySourceDriveMapping;
+  uint32   AudioMapping;
+  uint32   PolicySourceAudioMapping;
+  uint32   ClipboardMapping;
+  uint32   PolicySourceClipboardMapping;
+  uint32   ColorDepthPolicy;
+  uint32   PolicySourceColorDepthPolicy;
+  uint32   ColorDepth;
+  uint32   PolicySourceColorDepth;
+  uint32   MaxMonitors;
+  uint32   MaxXResolution;
+  uint32   MaxYResolution;
+  uint32   PolicySourceMaxMonitors;
+  uint32   PolicySourceMaxResolution;
+  uint32   PNPRedirection;
+  uint32   PolicySourcePNPRedirection;
+  uint32   AudioCaptureRedir;
+  uint32   PolicySourceAudioCaptureRedir;
+  uint32   VideoPlaybackRedir;
+  uint32   PolicySourceVideoPlaybackRedir;
+  uint32   AllowDwm;
+  uint32   PolicySourceAllowDwm;
+  uint32   PolicyAdvancedRemoteAppGraphics;
+  uint32   AdvancedRemoteAppGraphics;
+  uint32   RemoteSessionProfile;
+  uint32   PolicySourceRemoteSessionProfile;
+  uint32   AVC444ModePreferred;
+  uint32   PolicySourceAvc444ModePreferred;
+  uint32   EncodeImageQuality;
+  uint32   PolicySourceEncodeImageQuality;
+  uint32   HardwareGraphicsAdapter;
+  uint32   PolicySourceHardwareGraphicsAdapter;
+  uint32   SelectTransport;
+  uint32   PolicySourceSelectTransport;
+  uint32   SelectNetworkDetect;
+  uint32   PolicySourceSelectNetworkDetect;
 };
 ```
 
@@ -158,7 +163,7 @@ The **Win32\_TSClientSetting** class has these methods.
 | Method                                                                   | Description                                                                                                                                                  |
 |:-------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ConnectionSettings**](win32-tsclientsetting-connectionsettings.md)   | Sets the **ConnectClientDrivesAtLogon**, **ConnectPrinterAtLogon**, and **DefaultToClientPrinter** properties of this class.<br/>                      |
-| [**SetAllowDwm**](setallowdwm-win32-tsclientsetting.md)                 | Not supported.<br/> **Windows 7 and Windows Server 2008 R2:** Sets the **AllowDwm** property.<br/>                                               |
+| [**SetAllowDwm**](setallowdwm-win32-tsclientsetting.md)                 | Not supported.<br/> **Windows 7 and Windows Server 2008 R2:** Sets the **AllowDwm** property.<br/>                                               |
 | [**SetClientProperty**](win32-tsclientsetting-setclientproperty.md)     | Sets the **LPTPortMapping**, **COMPortMapping**, **AudioMapping**, **ClipboardMapping**, **DriveMapping**, or **WindowsPrinterMapping** property.<br/> |
 | [**SetColorDepth**](win32-tsclientsetting-setcolordepth.md)             | Sets the **ColorDepth** property.<br/>                                                                                                                 |
 | [**SetColorDepthPolicy**](win32-tsclientsetting-setcolordepthpolicy.md) | Sets the **ColorDepthPolicy** property.<br/>                                                                                                           |
@@ -168,7 +173,7 @@ The **Win32\_TSClientSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -187,7 +192,7 @@ Access type: Read/write
 
 Specifies whether to enable advanced RemoteFX graphics for RemoteApp.
 
-**Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2012 R2 and Windows 8.1.
+**Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2012 R2 and Windows 8.1.
 
 <dt>
 
@@ -226,7 +231,7 @@ Access type: Read-only
 
 This property is not available.
 
-**Windows 7 and Windows Server 2008 R2:  **
+**Windows 7 and Windows Server 2008 R2:  **
 
 Specifies whether to enable or disable remote desktop composition. Zero will disable remote desktop composition and a nonzero value will enable it.
 
@@ -245,7 +250,7 @@ Access type: Read-only
 
 Specifies whether to allow audio capture redirection.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 <dt>
 
@@ -313,7 +318,7 @@ Access type: Read/write
 
 Specifies whether AVC444 mode is preferred.
 
-**Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 10 or Windows Server 2016.
+**Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 10 or Windows Server 2016.
 
 <dt>
 
@@ -723,7 +728,7 @@ Access type: Read/write
 
 Specifies the image quality for RDP experience.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -761,7 +766,7 @@ Access type: Read/write
 
 Specifies whether the RD Session Host server uses the hardware graphics renderer as the default adapter.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -847,7 +852,7 @@ Access type: Read-only
 
 The maximum number of monitors supported by the server. Use the [**SetMaxMonitors**](setmaxmonitors-win32-tsclientsetting.md) method to modify this property.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 </dd> <dt>
 
@@ -862,7 +867,7 @@ Access type: Read-only
 
 The maximum X resolution supported by the server. Use the [**SetMaxXResolution**](setmaxxresolution-win32-tsclientsetting.md) method to modify this property.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 </dd> <dt>
 
@@ -877,7 +882,7 @@ Access type: Read-only
 
 The maximum Y resolution supported by the server. Use the [**SetMaxYResolution**](setmaxyresolution-win32-tsclientsetting.md) method to modify this property.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 </dd> <dt>
 
@@ -944,7 +949,7 @@ Access type: Read-only
 
 Indicates whether the **AdvancedRemoteAppGraphics** property is configured by the server or group policy.
 
-**Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2012 R2 and Windows 8.1.
+**Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2012 R2 and Windows 8.1.
 
 <dt>
 
@@ -975,7 +980,7 @@ Access type: Read-only
 
 This property is not available.
 
-**Windows 7 and Windows Server 2008 R2:  **
+**Windows 7 and Windows Server 2008 R2:  **
 
 Indicates whether the **AllowDwm** property is configured by the server or group policy.
 
@@ -1008,7 +1013,7 @@ Access type: Read-only
 
 Indicates whether the **AudioCaptureRedir** property is configured by the server or group policy.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 <dt>
 
@@ -1075,7 +1080,7 @@ Access type: Read-only
 
 Indicates how the **AVC444ModePreferredis** property is configured.
 
-**Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 10 or Windows Server 2016.
+**Windows 8.1, Windows Server 2012 R2, Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 10 or Windows Server 2016.
 
 <dt>
 
@@ -1322,7 +1327,7 @@ Access type: Read-only
 
 Indicates how the **EncodeImageQualityi** is configured.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1353,7 +1358,7 @@ Access type: Read-only
 
 Indicates how the **HardwareGraphicsAdapter** is configured.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1443,7 +1448,7 @@ Default
 
 </dd> </dl>
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 </dd> <dt>
 
@@ -1458,7 +1463,7 @@ Access type: Read-only
 
 Indicates whether the **MaxXResolution** and **MaxYResolution** properties are configured by the server, group policy, or default.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 <dt>
 
@@ -1525,7 +1530,7 @@ Access type: Read-only
 
 Indicates how the **RemoteSessionProfile** is configured.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is unavailable prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is unavailable prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1556,7 +1561,7 @@ Access type: Read-only
 
 Indicates how the property **SelectNetworkDetect** is configured.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1587,7 +1592,7 @@ Access type: Read-only
 
 Indicates how the property **SelectTransport** is configured.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1618,7 +1623,7 @@ Access type: Read-only
 
 Indicates whether the **VideoPlaybackRedir** property is configured by the server or group policy.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 <dt>
 
@@ -1685,7 +1690,7 @@ Access type: Read/write
 
 Specifies the profile for the RDP experience.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1723,7 +1728,7 @@ Access type: Read/write
 
 Specifies whether network detection is used.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1768,7 +1773,7 @@ Access type: Read/write
 
 Specifies which transport protocols can be used for RDP access to server.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available prior to Windows 8 or Windows Server 2012.
 
 <dt>
 
@@ -1897,7 +1902,7 @@ Access type: Read-only
 
 Specifies whether to allow video playback redirection.
 
-**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
+**Windows Server 2008 and Windows Vista:** This property is not available before Windows Server 2008 R2 and Windows 7.
 
 <dt>
 
@@ -1979,8 +1984,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -2000,9 +2005,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

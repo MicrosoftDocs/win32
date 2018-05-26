@@ -4,13 +4,16 @@ description: Retrieves the supported copy states for a specified replication typ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7c3102d1-b537-421b-baba-124e4d690150'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7c3102d1-b537-421b-baba-124e4d690150
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSupportedFeatures method iSCSI Software Target API", "GetSupportedFeatures method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , GetSupportedFeatures method"]
+keywords:
+- GetSupportedFeatures method iSCSI Software Target API
+- GetSupportedFeatures method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , GetSupportedFeatures method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSupportedFeatures method of the CIM\_ReplicationService class
@@ -30,8 +36,8 @@ Retrieves the supported copy states for a specified replication type and indicat
 
 ```mof
 uint32 GetSupportedFeatures(
-  [in]  uint16 ReplicationType,
-  [out] uint16 Features[]
+  [in]  uint16 ReplicationType,
+  [out] uint16 Features[]
 );
 ```
 
@@ -137,7 +143,7 @@ Specifies the replication type.
 **DMTF Reserved**
 
 
-</dt> <dd>14–0x7FFF</dd> <dt>
+</dt> <dd>14 0x7FFF</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -335,7 +341,7 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>27–32767</dd> <dt>
+</dt> <dd>27 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
@@ -371,7 +377,7 @@ This method returns one of the following values.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
 **Vendor Specific** (32768 = *value* )
@@ -384,7 +390,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -398,9 +404,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_ReplicationServiceCapabilities**](msiscsitarget-replicationservicecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

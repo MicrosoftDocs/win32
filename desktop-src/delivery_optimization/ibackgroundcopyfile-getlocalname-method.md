@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyFile GetLocalName method
 description: Retrieves the local name of the file.
-ms.assetid: '9AA57EB7-5C29-4E5E-972B-DD34B130E6E4'
-keywords: ["GetLocalName method", "GetLocalName method, IBackgroundCopyFile interface", "IBackgroundCopyFile interface, GetLocalName method"]
+ms.assetid: 9AA57EB7-5C29-4E5E-972B-DD34B130E6E4
+keywords:
+- GetLocalName method
+- GetLocalName method, IBackgroundCopyFile interface
+- IBackgroundCopyFile interface, GetLocalName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile::GetLocalName method
@@ -22,7 +30,7 @@ Retrieves the local name of the file.
 
 ```C++
 HRESULT GetLocalName(
-  [out] LPWSTR *ppName
+  [out] LPWSTR *ppName
 );
 ```
 
@@ -49,7 +57,7 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -69,9 +77,9 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 [**IBackgroundCopyFile::GetRemoteName**](ibackgroundcopyfile-getremotename-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

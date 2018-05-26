@@ -1,7 +1,12 @@
 ---
 Description: Endpoint ID Strings
-ms.assetid: '3c955e2d-daaa-4b77-8ca5-890383bb2d39'
+ms.assetid: 3c955e2d-daaa-4b77-8ca5-890383bb2d39
 title: Endpoint ID Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Endpoint ID Strings
@@ -10,9 +15,9 @@ In Windows Vista, the system generates endpoint ID strings to identify the [audi
 
 If a system contains two or more identical audio adapter devices, the corresponding audio endpoint devices will have identical friendly names, but each endpoint device will have a unique endpoint ID string. For more information about obtaining the friendly name of an endpoint device, see [Device Properties](device-properties.md).
 
-After obtaining an [**IMMDevice**](immdevice.md) interface instance for an audio endpoint device, a client can call the [**IMMDevice::GetId**](immdevice-getid.md) method to obtain the endpoint ID string for the device. A client can use the endpoint ID string to create an instance of the audio endpoint device at a later time or in a different process by calling the [**IMMDeviceEnumerator::GetDevice**](immdeviceenumerator-getdevice.md) method.
+After obtaining an [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface instance for an audio endpoint device, a client can call the [**IMMDevice::GetId**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-getid?branch=master) method to obtain the endpoint ID string for the device. A client can use the endpoint ID string to create an instance of the audio endpoint device at a later time or in a different process by calling the [**IMMDeviceEnumerator::GetDevice**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice?branch=master) method.
 
-A client can arrange to receive a notification when the status of any audio endpoint device changes. To receive notifications, the client implements an [**IMMNotificationClient**](immnotificationclient.md) interface and registers that interface with the MMDevice API. When the status of an endpoint device changes, the MMDevice API calls the appropriate method in the client's [**EDataFlow**](edataflow.md) interface. One of the input parameters to the method is the endpoint ID string that identifies the endpoint device whose status has changed. For more information about **EDataFlow**, see [Device Events](device-events.md).
+A client can arrange to receive a notification when the status of any audio endpoint device changes. To receive notifications, the client implements an [**IMMNotificationClient**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master) interface and registers that interface with the MMDevice API. When the status of an endpoint device changes, the MMDevice API calls the appropriate method in the client's [**EDataFlow**](/windows/win32/Mmdeviceapi/ne-mmdeviceapi-__midl___midl_itf_mmdeviceapi_0000_0000_0001?branch=master) interface. One of the input parameters to the method is the endpoint ID string that identifies the endpoint device whose status has changed. For more information about **EDataFlow**, see [Device Events](device-events.md).
 
 Legacy audio APIs such as DirectSound and the Windows multimedia functions have their own interfaces for enumerating and identifying audio devices. In Windows Vista, these interfaces have been extended to supply the endpoint ID strings that identify the endpoint devices that underlie the device abstractions presented by the APIs.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the distance to the destination point.'
-ms.assetid: '69e868bf-72ab-4c5e-8305-bb2b0a6ba088'
-title: 'System.GPS.DestDistance'
+Description: Indicates the distance to the destination point.
+ms.assetid: 69e868bf-72ab-4c5e-8305-bb2b0a6ba088
+title: System.GPS.DestDistance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DestDistance

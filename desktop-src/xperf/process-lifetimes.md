@@ -1,8 +1,14 @@
 ---
 title: Process Lifetimes
 description: Process Lifetimes
-ms.assetid: 'c6305c50-fc92-4fb1-9f13-a8c7997cda6e'
-keywords: ["lifetime graph"]
+ms.assetid: c6305c50-fc92-4fb1-9f13-a8c7997cda6e
+keywords:
+- lifetime graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Lifetimes

@@ -1,7 +1,12 @@
 ---
-Description: 'The ObjectsActive method retrieves a process-wide count of active objects.'
-ms.assetid: 'adbc023a-22b7-44e9-b078-a26831f961cc'
-title: 'CBaseObject.ObjectsActive method'
+Description: The ObjectsActive method retrieves a process-wide count of active objects.
+ms.assetid: adbc023a-22b7-44e9-b078-a26831f961cc
+title: CBaseObject.ObjectsActive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseObject.ObjectsActive method
@@ -43,9 +48,9 @@ Returns the number of active objects.
 [**CBaseObject Class**](cbaseobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

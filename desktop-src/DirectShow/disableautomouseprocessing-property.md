@@ -1,7 +1,12 @@
 ---
-Description: 'The DisableAutoMouseProcessing property enables or disables the MSWebDVD object''s mouse-processing functionality.'
-ms.assetid: 'd438deb8-3c6d-49c1-923b-d4c57e236fc9'
+Description: The DisableAutoMouseProcessing property enables or disables the MSWebDVD objects mouse-processing functionality.
+ms.assetid: d438deb8-3c6d-49c1-923b-d4c57e236fc9
 title: DisableAutoMouseProcessing Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableAutoMouseProcessing Property

@@ -1,12 +1,17 @@
-﻿---
-Description: 'A system store is a collection that consists of one or more physical sibling stores.'
-ms.assetid: '41fe9366-4c17-43bb-91d6-934c7aa87a2d'
+---
+Description: A system store is a collection that consists of one or more physical sibling stores.
+ms.assetid: 41fe9366-4c17-43bb-91d6-934c7aa87a2d
 title: System Store Locations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Store Locations
 
-A system store is a collection that consists of one or more physical sibling stores. For each system store, there are predefined physical sibling stores. After opening a system store such as MY at CERT\_SYSTEM\_STORE\_CURRENT\_USER, the store provider calls [**CertOpenStore**](certopenstore.md) to open each of the physical stores in the system store collection. In the open process, each of these physical stores is added to the system store collection using [**CertAddStoreToCollection**](certaddstoretocollection.md). All certificates in those physical stores are available through the logical system store collection.
+A system store is a collection that consists of one or more physical sibling stores. For each system store, there are predefined physical sibling stores. After opening a system store such as MY at CERT\_SYSTEM\_STORE\_CURRENT\_USER, the store provider calls [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master) to open each of the physical stores in the system store collection. In the open process, each of these physical stores is added to the system store collection using [**CertAddStoreToCollection**](/windows/win32/Wincrypt/nf-wincrypt-certaddstoretocollection?branch=master). All certificates in those physical stores are available through the logical system store collection.
 
 For each system store location, the predefined systems stores are:
 
@@ -212,11 +217,11 @@ The predefined physical stores associated with these system stores are as follow
 
 ### Remarks
 
-Additional physical stores can be associated with a system store by using [**CertRegisterPhysicalStore**](certregisterphysicalstore.md).
+Additional physical stores can be associated with a system store by using [**CertRegisterPhysicalStore**](/windows/win32/Wincrypt/nf-wincrypt-certregisterphysicalstore?branch=master).
 
 CERT\_SYSTEM\_STORE\_SERVICE and CERT\_SYSTEM\_STORE\_USERS stores are opened by prefixing the name of the store in the string passed to *pvPara* with the service or user name such as *ServiceName*\\**Trust** or **.Default**\\**MY**. The CERT\_SYSTEM\_STORE\_SERVICES or CERT\_SYSTEM\_STORE\_USERS location can open the same store in CERT\_SYSTEM\_CURRENT\_SERVICE or CERT\_SYSTEM\_STORE\_CURRENT\_USER by using the textual [*security identifier*](security.s_gly#-security-security-identifier-gly) (SID) of the current service or user.
 
-Stores in CERT\_SYSTEM\_STORE\_USER\_GROUP\_POLICY and CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY in a network setting are downloaded to the client computer from the Group Policy Template (GPT) during computer startup or user logon. These stores can be updated on the client computer after startup or logon when the GPT is changed on the domain server by an administrator. The [**CertControlStore**](certcontrolstore.md) function allows an application to be notified when stores in either of these locations have changed.
+Stores in CERT\_SYSTEM\_STORE\_USER\_GROUP\_POLICY and CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY in a network setting are downloaded to the client computer from the Group Policy Template (GPT) during computer startup or user logon. These stores can be updated on the client computer after startup or logon when the GPT is changed on the domain server by an administrator. The [**CertControlStore**](/windows/win32/Wincrypt/nf-wincrypt-certcontrolstore?branch=master) function allows an application to be notified when stores in either of these locations have changed.
 
 The following system store locations can be opened remotely:
 

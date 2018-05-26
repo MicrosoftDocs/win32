@@ -1,7 +1,12 @@
 ---
-Description: 'An endpoint on a switch or end station that is assigned to a VLAN, or accepts traffic from one or more VLANs.'
-ms.assetid: '20943be3-35c3-4bf5-8f1a-d4095fa6897e'
-title: 'CIM\_VLANEndpoint class'
+Description: An endpoint on a switch or end station that is assigned to a VLAN, or accepts traffic from one or more VLANs.
+ms.assetid: 20943be3-35c3-4bf5-8f1a-d4095fa6897e
+title: CIM\_VLANEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_VLANEndpoint class
@@ -134,7 +139,7 @@ The requested VLAN encapsulation type.
 > [!Note]  
 > This property is only used when the VLAN endpoint is in trunking mode.
 
- 
+ 
 
 <dt>
 
@@ -213,7 +218,7 @@ Indicates whether GARP VLAN Registration Protocol (GVRP) is enabled or disabled 
 > [!Note]  
 > This property is only used when GVRP is supported by the endpoint, and trunking mode is enabled.
 
- 
+ 
 
 <dt>
 
@@ -345,7 +350,7 @@ The current VLAN encapsulation type.
 > [!Note]  
 > This property is only used when the VLAN endpoint is in trunking mode.
 
- 
+ 
 
 <dt>
 
@@ -445,8 +450,8 @@ The type of VLAN encapsulation that is supported by the VLAN endpoint when the v
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -460,9 +465,9 @@ The type of VLAN encapsulation that is supported by the VLAN endpoint when the v
 [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

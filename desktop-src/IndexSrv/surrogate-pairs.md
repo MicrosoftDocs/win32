@@ -1,7 +1,12 @@
 ---
 title: Surrogate Pairs
 description: Surrogate Pairs
-ms.assetid: '2e1077e3-d2f4-4f81-8fc3-320a736d6b62'
+ms.assetid: 2e1077e3-d2f4-4f81-8fc3-320a736d6b62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Surrogate Pairs

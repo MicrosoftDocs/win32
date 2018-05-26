@@ -1,7 +1,12 @@
 ---
 title: Globally Unique Identifier (GUID)
 description: A universally unique identifier (UUID) is a globally unique identifier (GUID).
-ms.assetid: '19bcf815-ac5a-4b65-8c4d-fa1f06ff705a'
+ms.assetid: 19bcf815-ac5a-4b65-8c4d-fa1f06ff705a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Globally Unique Identifier (GUID)

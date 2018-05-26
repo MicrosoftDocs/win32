@@ -1,7 +1,12 @@
 ---
-Description: 'This topic lists the frequency tables used for analog TV tuning for Belgium.'
-ms.assetid: '214debba-4256-4682-b98d-0bbfb2d68a13'
+Description: This topic lists the frequency tables used for analog TV tuning for Belgium.
+ms.assetid: 214debba-4256-4682-b98d-0bbfb2d68a13
 title: Belgium Channel Assignments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Belgium Channel Assignments

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following constants specify the Windows Image Acquisition (WIA) item type.'
-ms.assetid: '7961f692-088a-4f3b-84e9-5fabb0373c3c'
+---
+Description: The following constants specify the Windows Image Acquisition (WIA) item type.
+ms.assetid: 7961f692-088a-4f3b-84e9-5fabb0373c3c
 title: WIA Item Type Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Item Type Flags
@@ -12,7 +17,7 @@ The following constants specify the Windows Image Acquisition (WIA) item type.
 
 | Constant                                                                                                                                                                                                                                                                                     | Description                                                                                                                                                                                                                                                                                       |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="WiaItemTypeAnalyze"></span><span id="wiaitemtypeanalyze"></span><span id="WIAITEMTYPEANALYZE"></span><dl> <dt>**WiaItemTypeAnalyze**</dt> </dl>                                                                             | This item supports the [**IWiaItem::AnalyzeItem**](-wia-iwiaitem-analyzeitem.md) method. *This constant is not supported by* Windows Vista *and later.*<br/>                                                                                                                               |
+| <span id="WiaItemTypeAnalyze"></span><span id="wiaitemtypeanalyze"></span><span id="WIAITEMTYPEANALYZE"></span><dl> <dt>**WiaItemTypeAnalyze**</dt> </dl>                                                                             | This item supports the [**IWiaItem::AnalyzeItem**](/windows/win32/wia_xp/nf-wia_xp-iwiaitem-analyzeitem?branch=master) method. *This constant is not supported by* Windows Vista *and later.*<br/>                                                                                                                               |
 | <span id="WiaItemTypeAudio"></span><span id="wiaitemtypeaudio"></span><span id="WIAITEMTYPEAUDIO"></span><dl> <dt>**WiaItemTypeAudio**</dt> </dl>                                                                                     | The item is an audio file. Only valid for items that also have the **WiaItemTypeFile** attribute. <br/>                                                                                                                                                                                     |
 | <span id="WiaItemTypeBurst"></span><span id="wiaitemtypeburst"></span><span id="WIAITEMTYPEBURST"></span><dl> <dt>**WiaItemTypeBurst**</dt> </dl>                                                                                     | For folders only. Images in this folder were taken in a continuous time sequence. *This constant is not supported by* Windows Vista *and later.*<br/>                                                                                                                                       |
 | <span id="WiaItemTypeDeleted"></span><span id="wiaitemtypedeleted"></span><span id="WIAITEMTYPEDELETED"></span><dl> <dt>**WiaItemTypeDeleted**</dt> </dl>                                                                             | The item is marked as deleted from the tree. <br/>                                                                                                                                                                                                                                          |

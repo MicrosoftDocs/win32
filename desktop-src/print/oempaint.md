@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMPaint function is obsolete, and is no longer called by GDI in Windows 2000 and later. See DrvPaint.'
-ms.assetid: '4054c805-5307-41f4-a7ff-65743ae4be69'
+---
+Description: The OEMPaint function is obsolete, and is no longer called by GDI in Windows 2000 and later. See DrvPaint.
+ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 title: OEMPaint function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMPaint function

@@ -1,7 +1,12 @@
 ---
 title: texm3x2depth - ps
 description: Calculate the depth value to be used in depth testing for this pixel.
-ms.assetid: 'bacdd471-a6ee-4998-badd-93ffd4fd61d4'
+ms.assetid: bacdd471-a6ee-4998-badd-93ffd4fd61d4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texm3x2depth - ps

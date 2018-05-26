@@ -4,11 +4,14 @@ description: Creates a Session object that can then be used for subsequent netwo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '299d9a95-bd30-414c-996d-6633e8b7ce52'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 299d9a95-bd30-414c-996d-6633e8b7ce52
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["CreateSession method Windows Remote Management", "CreateSession method Windows Remote Management , WSMan object", "WSMan object Windows Remote Management , CreateSession method"]
+keywords:
+- CreateSession method Windows Remote Management
+- CreateSession method Windows Remote Management , WSMan object
+- WSMan object Windows Remote Management , CreateSession method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan.CreateSession method
@@ -147,8 +153,8 @@ Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -175,9 +181,9 @@ Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
 [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

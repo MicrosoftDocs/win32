@@ -1,7 +1,12 @@
 ---
 title: Creating Secondary Windows
 description: A secondary window is a custom window that you can create and use to display topics instead of, or in addition to, the Help Viewer or a custom frameset. You can define up to 255 secondary windows, and users can display up to 9 of these windows at a time.
-ms.assetid: '3F07DEEF-6489-4919-BF2B-E5789EF740A3'
+ms.assetid: 3F07DEEF-6489-4919-BF2B-E5789EF740A3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Secondary Windows

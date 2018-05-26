@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_SoftwareFeature class represents a particular function or capability of a product or application system.'
+Description: The CIM\_SoftwareFeature class represents a particular function or capability of a product or application system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7beeb32c-d285-44f7-adeb-3b661d8ab037'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7beeb32c-d285-44f7-adeb-3b661d8ab037
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_SoftwareFeature class'
+title: CIM\_SoftwareFeature class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SoftwareFeature class
@@ -19,7 +22,7 @@ The **CIM\_SoftwareFeature** class represents a particular function or capabilit
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,15 +32,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{E527D7F2-E3D4-11d2-8601-0000F8102E5F}"), abstract, AMENDMENT]
 class CIM_SoftwareFeature : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   IdentifyingNumber;
+  string   Caption;
+  string   Description;
+  string   IdentifyingNumber;
   datetime InstallDate;
-  string   Name;
-  string   ProductName;
-  string   Status;
-  string   Vendor;
-  string   Version;
+  string   Name;
+  string   ProductName;
+  string   Status;
+  string   Vendor;
+  string   Version;
 };
 ```
 
@@ -309,8 +312,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -324,9 +327,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

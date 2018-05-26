@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InitErrorCode property is a value that specifies the last error code that the fax service provider (FSP) returned while the fax service was loading and initializing the FSP DLL. This may be an HRESULT value or a Win32 error code.'
-ms.assetid: 'f8472803-c30a-4128-8678-cf109cae45ca'
-title: 'FaxDeviceProvider.InitErrorCode property'
+---
+Description: The InitErrorCode property is a value that specifies the last error code that the fax service provider (FSP) returned while the fax service was loading and initializing the FSP DLL. This may be an HRESULT value or a Win32 error code.
+ms.assetid: f8472803-c30a-4128-8678-cf109cae45ca
+title: FaxDeviceProvider.InitErrorCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.InitErrorCode property
@@ -46,7 +51,7 @@ A **Long** that receives the last error code the FSP returned during loading and
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

@@ -4,10 +4,13 @@ description: Virtual IP Address have the following private properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '99AF11CC-BF6D-4742-980E-9992AFD12409'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 99AF11CC-BF6D-4742-980E-9992AFD12409
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Virtual IP Address Private Properties

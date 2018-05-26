@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::FilterGraphics method can be used with Unidrv-supported printers to modify scan line data and send it to the spooler.'
-ms.assetid: 'a1651745-08f0-44f2-bb9f-825d6497db42'
-title: 'IPrintOemUni::FilterGraphics method'
+---
+Description: The IPrintOemUniFilterGraphics method can be used with Unidrv-supported printers to modify scan line data and send it to the spooler.
+ms.assetid: a1651745-08f0-44f2-bb9f-825d6497db42
+title: IPrintOemUniFilterGraphics method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::FilterGraphics method

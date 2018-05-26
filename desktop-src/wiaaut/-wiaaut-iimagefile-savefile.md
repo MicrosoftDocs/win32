@@ -1,8 +1,11 @@
 ---
 title: ImageFile.SaveFile method
 description: Saves the ImageFile object to the specified file.
-ms.assetid: '7bf00f6f-7359-4731-82cb-e48b70121e87'
-keywords: ["SaveFile method WIA Automation", "SaveFile method WIA Automation , ImageFile object", "ImageFile object WIA Automation , SaveFile method"]
+ms.assetid: 7bf00f6f-7359-4731-82cb-e48b70121e87
+keywords:
+- SaveFile method WIA Automation
+- SaveFile method WIA Automation , ImageFile object
+- ImageFile object WIA Automation , SaveFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageFile.SaveFile method
@@ -57,8 +65,8 @@ For example code, see [Create an ImageFile Object that Contains a Blank Page](-w
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -77,9 +85,9 @@ For example code, see [Create an ImageFile Object that Contains a Blank Page](-w
 [**LoadFile**](-wiaaut-iimagefile-loadfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

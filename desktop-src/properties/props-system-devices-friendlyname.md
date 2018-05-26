@@ -1,7 +1,12 @@
 ---
-Description: 'Friendly name of the device.'
-ms.assetid: '4d4d309f-edfb-439b-b2cc-3401f1118931'
-title: 'System.Devices.FriendlyName'
+Description: Friendly name of the device.
+ms.assetid: 4d4d309f-edfb-439b-b2cc-3401f1118931
+title: System.Devices.FriendlyName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.FriendlyName

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an auth proposal. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.'
-ms.assetid: 'c2bebf7d-8114-4f14-b214-1ad6af0abd5e'
-title: 'MSFT\_NetIKEBasicAuthProposal class'
+Description: Represents an auth proposal. Instances of this class only exist as embedded instances within a MSFT\_NetIKEP1AuthSet and MSFT\_NetIKEP2AuthSet.
+ms.assetid: c2bebf7d-8114-4f14-b214-1ad6af0abd5e
+title: MSFT\_NetIKEBasicAuthProposal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIKEBasicAuthProposal class
@@ -261,17 +266,17 @@ This field is ignored.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

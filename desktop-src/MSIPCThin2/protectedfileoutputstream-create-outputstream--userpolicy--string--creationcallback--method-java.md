@@ -4,17 +4,21 @@ description: Asynchronously implements a wrapper of the output stream allowing w
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '66E52329-A2C4-41B5-8D0A-BF382EB03C4F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 66E52329-A2C4-41B5-8D0A-BF382EB03C4F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedFileOutputStream.create asynchronous method"]
+keywords:
+- ProtectedFileOutputStream.create asynchronous method
 topic_type:
 - apiref
 api_name:
 - ProtectedFileOutputStream.create asynchronous method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedFileOutputStream.create asynchronous method
@@ -43,7 +47,7 @@ public static IAsyncControl create(final OutputStream outputStream,
 
 
 
- 
+ 
 
 ## Returns
 
@@ -67,11 +71,11 @@ ProtectedFileOutputStream.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

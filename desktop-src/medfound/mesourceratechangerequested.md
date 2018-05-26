@@ -1,16 +1,21 @@
-﻿---
-Description: 'Raised by a media source to request a new playback rate. The application should call IMFRateControl::SetRate with the requested rate. A media source might raise this event if it cannot continue playback at the current rate.'
-ms.assetid: '705e5a79-836b-417b-a7ed-c733572f6905'
+---
+Description: Raised by a media source to request a new playback rate. The application should call IMFRateControlSetRate with the requested rate. A media source might raise this event if it cannot continue playback at the current rate.
+ms.assetid: 705e5a79-836b-417b-a7ed-c733572f6905
 title: MESourceRateChangeRequested event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESourceRateChangeRequested event
 
-Raised by a media source to request a new playback rate. The application should call [**IMFRateControl::SetRate**](imfratecontrol-setrate.md) with the requested rate. A media source might raise this event if it cannot continue playback at the current rate.
+Raised by a media source to request a new playback rate. The application should call [**IMFRateControl::SetRate**](/windows/win32/mfidl/nf-mfidl-imfratecontrol-setrate?branch=master) with the requested rate. A media source might raise this event if it cannot continue playback at the current rate.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

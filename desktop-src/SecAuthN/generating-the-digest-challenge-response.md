@@ -1,14 +1,19 @@
 ---
-Description: 'After receiving a challenge from the server, the client creates the Digest challenge response by calling the InitializeSecurityContext (Digest) function.'
-ms.assetid: 'b26b5676-a614-4017-a4e5-a5395292a667'
+Description: After receiving a challenge from the server, the client creates the Digest challenge response by calling the InitializeSecurityContext (Digest) function.
+ms.assetid: b26b5676-a614-4017-a4e5-a5395292a667
 title: Generating the Digest Challenge Response
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating the Digest Challenge Response
 
-After receiving a challenge from the server, the client creates the Digest challenge response by calling the [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest-.md) function. This function generates an MD5 [*hash*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-gly) fingerprint by using information about the requested resource and data from the challenge, and outputs a security token that represents a partial [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly). To complete the authentication, the client must return the token to the server that issued the challenge.
+After receiving a challenge from the server, the client creates the Digest challenge response by calling the [**InitializeSecurityContext (Digest)**](/windows/win32/Sspi/?branch=master) function. This function generates an MD5 [*hash*](https://msdn.microsoft.com/library/windows/desktop/ms721586#-security-hash-gly) fingerprint by using information about the requested resource and data from the challenge, and outputs a security token that represents a partial [*security context*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-context-gly). To complete the authentication, the client must return the token to the server that issued the challenge.
 
-The following table describes the parameters of the [**InitializeSecurityContext (Digest)**](initializesecuritycontext--digest-.md) [*function*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-function-gly), and the values to supply when constructing a Digest challenge response.
+The following table describes the parameters of the [**InitializeSecurityContext (Digest)**](/windows/win32/Sspi/?branch=master) [*function*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-context-function-gly), and the values to supply when constructing a Digest challenge response.
 
 
 
@@ -22,7 +27,7 @@ The following table describes the parameters of the [**InitializeSecurityContext
 
 
 
- 
+ 
 
 ## Digest Challenge Response Context Requirements
 
@@ -33,7 +38,7 @@ Context requirements are flags that determine:
 
 By default, Microsoft Digest functions as a SASL mechanism.
 
-Context requirements are specified as flags passed to the *fContextReq* parameter of the [**InitializeSecurityContext**](initializesecuritycontext--general-.md) function. The flags affect the security context's quality of protection by controlling the qop directive in the challenge response.
+Context requirements are specified as flags passed to the *fContextReq* parameter of the [**InitializeSecurityContext**](/windows/win32/Sspi/?branch=master) function. The flags affect the security context's quality of protection by controlling the qop directive in the challenge response.
 
 By default, the qop directive is set to "auth". To generate a challenge response that sets qop to "auth-int", the following must occur:
 
@@ -48,7 +53,7 @@ For SASL only: Generate a challenge response with the qop directive set to "auth
 
 ## Verifying the Quality of Protection
 
-The client must examine the security context attributes flags returned in the [**InitializeSecurityContext**](initializesecuritycontext--general-.md) function's *pfContextAttr* parameter. The client should send the challenge response to the server only if the quality of protection indicated by the flags is sufficient for its purposes. The relevant flags can be any combination of the following:
+The client must examine the security context attributes flags returned in the [**InitializeSecurityContext**](/windows/win32/Sspi/?branch=master) function's *pfContextAttr* parameter. The client should send the challenge response to the server only if the quality of protection indicated by the flags is sufficient for its purposes. The relevant flags can be any combination of the following:
 
 -   ISC\_RET\_INTEGRITY
 -   ISC\_RET\_REPLAY\_DETECT
@@ -59,9 +64,9 @@ For more information about the qop directive, see [Quality of Protection and Cip
 
 For more information about challenge response directives, see [Contents of a Digest Challenge Response](contents-of-a-digest-challenge-response.md).
 
- 
+ 
 
- 
+ 
 
 
 

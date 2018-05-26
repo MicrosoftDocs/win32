@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the height of the minimum display aperture, in pixels.'
-ms.assetid: 'dddae10f-3ed2-4444-af5b-f2cf46c52e7c'
-title: 'MFPKEY\_RESIZE\_MINAPHEIGHT Property'
+---
+Description: Specifies the height of the minimum display aperture, in pixels.
+ms.assetid: dddae10f-3ed2-4444-af5b-f2cf46c52e7c
+title: MFPKEY\_RESIZE\_MINAPHEIGHT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_MINAPHEIGHT Property

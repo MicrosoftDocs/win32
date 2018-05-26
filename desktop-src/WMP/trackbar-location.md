@@ -1,8 +1,17 @@
 ---
 title: Trackbar Location
 description: Trackbar Location
-ms.assetid: '2384a87a-a263-4d47-a935-ee1b41851617'
-keywords: ["Windows Media Player Mobile skins,trackbars", "skins,trackbars", "reference for skins,trackbars", "trackbars in skins,location"]
+ms.assetid: 2384a87a-a263-4d47-a935-ee1b41851617
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- skins,trackbars
+- reference for skins,trackbars
+- trackbars in skins,location
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trackbar Location

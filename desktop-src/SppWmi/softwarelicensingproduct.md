@@ -3,8 +3,10 @@ title: SoftwareLicensingProduct class
 description: This class exposes the product-specific properties and methods of the Software Licensing service.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd5f8b2e7-25cf-4a08-a4b0-c4256f85203f'
-keywords: ["SoftwareLicensingProduct class Windows Management Instrumentation", "SoftwareLicensingProduct class Windows Management Instrumentation , described"]
+ms.assetid: d5f8b2e7-25cf-4a08-a4b0-c4256f85203f
+keywords:
+- SoftwareLicensingProduct class Windows Management Instrumentation
+- SoftwareLicensingProduct class Windows Management Instrumentation , described
 topic_type:
 - apiref
 api_name:
@@ -57,6 +59,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SoftwareLicensingProduct class
@@ -70,49 +77,49 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class SoftwareLicensingProduct
 {
-  string   ID;
-  string   Name;
-  string   Description;
-  string   ApplicationID;
-  string   ProcessorURL;
-  string   MachineURL;
-  string   ProductKeyURL;
-  string   UseLicenseURL;
-  uint32   LicenseStatus;
-  uint32   LicenseStatusReason;
-  uint32   GracePeriodRemaining;
+  string   ID;
+  string   Name;
+  string   Description;
+  string   ApplicationID;
+  string   ProcessorURL;
+  string   MachineURL;
+  string   ProductKeyURL;
+  string   UseLicenseURL;
+  uint32   LicenseStatus;
+  uint32   LicenseStatusReason;
+  uint32   GracePeriodRemaining;
   datetime EvaluationEndDate;
-  string   OfflineInstallationId;
-  string   PartialProductKey;
-  string   ProductKeyID;
-  string   LicenseFamily;
-  string   LicenseDependsOn;
-  boolean  LicenseIsAddon;
-  uint32   VLActivationInterval;
-  uint32   VLRenewalInterval;
-  string   KeyManagementServiceProductKeyID;
-  string   KeyManagementServiceMachine;
-  uint32   KeyManagementServicePort;
-  string   DiscoveredKeyManagementServiceMachineName;
-  uint32   DiscoveredKeyManagementServiceMachinePort;
-  uint32   IsKeyManagementServiceMachine;
-  uint32   KeyManagementServiceCurrentCount;
-  uint32   RequiredClientCount;
-  uint32   KeyManagementServiceUnlicensedRequests;
-  uint32   KeyManagementServiceLicensedRequests;
-  uint32   KeyManagementServiceOOBGraceRequests;
-  uint32   KeyManagementServiceOOTGraceRequests;
-  uint32   KeyManagementServiceNonGenuineGraceRequests;
-  uint32   KeyManagementServiceTotalRequests;
-  uint32   KeyManagementServiceFailedRequests;
-  uint32   KeyManagementServiceNotificationRequests;
-  uint32   GenuineStatus;
-  uint32   ExtendedGrace;
-  string   TokenActivationILID;
-  uint32   TokenActivationILVID;
-  uint32   TokenActivationGrantNumber;
-  string   TokenActivationCertificateThumbprint;
-  string   TokenActivationAdditionalInfo;
+  string   OfflineInstallationId;
+  string   PartialProductKey;
+  string   ProductKeyID;
+  string   LicenseFamily;
+  string   LicenseDependsOn;
+  boolean  LicenseIsAddon;
+  uint32   VLActivationInterval;
+  uint32   VLRenewalInterval;
+  string   KeyManagementServiceProductKeyID;
+  string   KeyManagementServiceMachine;
+  uint32   KeyManagementServicePort;
+  string   DiscoveredKeyManagementServiceMachineName;
+  uint32   DiscoveredKeyManagementServiceMachinePort;
+  uint32   IsKeyManagementServiceMachine;
+  uint32   KeyManagementServiceCurrentCount;
+  uint32   RequiredClientCount;
+  uint32   KeyManagementServiceUnlicensedRequests;
+  uint32   KeyManagementServiceLicensedRequests;
+  uint32   KeyManagementServiceOOBGraceRequests;
+  uint32   KeyManagementServiceOOTGraceRequests;
+  uint32   KeyManagementServiceNonGenuineGraceRequests;
+  uint32   KeyManagementServiceTotalRequests;
+  uint32   KeyManagementServiceFailedRequests;
+  uint32   KeyManagementServiceNotificationRequests;
+  uint32   GenuineStatus;
+  uint32   ExtendedGrace;
+  string   TokenActivationILID;
+  uint32   TokenActivationILVID;
+  uint32   TokenActivationGrantNumber;
+  string   TokenActivationCertificateThumbprint;
+  string   TokenActivationAdditionalInfo;
   datetime TrustedTime;
 };
 ```
@@ -147,7 +154,7 @@ The **SoftwareLicensingProduct** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -295,7 +302,7 @@ Indicates whether KMS is enabled on the computer. The following values are possi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -519,7 +526,7 @@ Specifies the license status of this product application. The following values a
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -767,8 +774,8 @@ For a longer discussion of accessing the **SoftwareLicensingProduct** class with
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -782,9 +789,9 @@ For a longer discussion of accessing the **SoftwareLicensingProduct** class with
 [Software Licensing Classes for Windows Vista](https://msdn.microsoft.com/library/ee957720)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

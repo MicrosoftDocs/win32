@@ -1,8 +1,9 @@
 ---
 title: LB\_GETITEMHEIGHT message
 description: Gets the height of items in a list box.
-ms.assetid: 'ee96fce6-babd-4581-ac0e-2eb955fe543b'
-keywords: ["LB_GETITEMHEIGHT message Windows Controls"]
+ms.assetid: ee96fce6-babd-4581-ac0e-2eb955fe543b
+keywords:
+- LB_GETITEMHEIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_GETITEMHEIGHT message
@@ -26,7 +32,7 @@ Gets the height of items in a list box.
 
 The zero-based index of the list box item. This index is used only if the list box has the [**LBS\_OWNERDRAWVARIABLE**](list-box-styles.md#lbs-ownerdrawvariable) style; otherwise, it must be zero.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me): The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -47,8 +53,8 @@ The return value is the height, in pixels, of each item in the list box. The ret
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ The return value is the height, in pixels, of each item in the list box. The ret
 [**LB\_SETITEMHEIGHT**](lb-setitemheight.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

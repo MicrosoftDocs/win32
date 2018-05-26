@@ -1,7 +1,12 @@
 ---
 title: VML Plane Attribute
 description: VML Plane Attribute
-ms.assetid: 'e1de630b-8e25-4052-b316-251046f73e98'
+ms.assetid: e1de630b-8e25-4052-b316-251046f73e98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Plane Attribute

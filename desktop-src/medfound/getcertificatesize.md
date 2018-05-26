@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the size of a certificate for a display driver.'
-ms.assetid: 'fd52e939-127a-4493-8406-31f7767921cd'
+---
+Description: Gets the size of a certificate for a display driver.
+ms.assetid: fd52e939-127a-4493-8406-31f7767921cd
 title: GetCertificateSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCertificateSize function
@@ -57,7 +62,7 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 ## Remarks
 
-Applications should call the [**IOPMVideoOutput::StartInitialization**](iopmvideooutput-iopmvideooutput--startinitialization.md) method instead of this function.
+Applications should call the [**IOPMVideoOutput::StartInitialization**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-startinitialization?branch=master) method instead of this function.
 
 This function has no associated import library. To call this function, you must use the [**LoadLibrary**](base.loadlibrary) and [**GetProcAddress**](base.getprocaddress) functions to dynamically link to Gdi32.dll.
 

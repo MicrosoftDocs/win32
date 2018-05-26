@@ -1,7 +1,12 @@
 ---
-Description: 'HKCU\\Control Panel\\Desktop.'
-ms.assetid: 'e18ea3c8-ddac-4214-83be-106c28c3c327'
-title: 'SCRNSAVE.EXE'
+Description: HKCU\\Control Panel\\Desktop.
+ms.assetid: e18ea3c8-ddac-4214-83be-106c28c3c327
+title: SCRNSAVE.EXE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SCRNSAVE.EXE

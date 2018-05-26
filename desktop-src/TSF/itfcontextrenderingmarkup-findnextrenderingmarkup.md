@@ -1,14 +1,22 @@
 ---
 title: ITfContextRenderingMarkup method
 description: ITfContextRenderingMarkup method
-ms.assetid: '619e30b6-88b3-4bad-ba2a-9a5a2866b1e2'
-keywords: ["method Text Services Framework", "method Text Services Framework , ITfContextRenderingMarkup interface", "ITfContextRenderingMarkup interface Text Services Framework , method"]
+ms.assetid: 619e30b6-88b3-4bad-ba2a-9a5a2866b1e2
+keywords:
+- method Text Services Framework
+- method Text Services Framework , ITfContextRenderingMarkup interface
+- ITfContextRenderingMarkup interface Text Services Framework , method
 topic_type:
 - apiref
 api_name:
 - ITfContextRenderingMarkup.FindNextRenderingMarkup
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITfContextRenderingMarkup:: method

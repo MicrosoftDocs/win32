@@ -1,14 +1,20 @@
 ---
 title: VIEW.backgroundColor
 description: The backgroundColor attribute specifies or retrieves the background color of the VIEW or SUBVIEW.
-ms.assetid: '02804e03-3518-4825-8ad0-bf91f74b5f74'
-keywords: ["VIEW.backgroundColor Windows Media Player"]
+ms.assetid: 02804e03-3518-4825-8ad0-bf91f74b5f74
+keywords:
+- VIEW.backgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.backgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.backgroundColor
@@ -45,9 +51,9 @@ In a Windows Media Download package, if you specify the backgroundImage attribut
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

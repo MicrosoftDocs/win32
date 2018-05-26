@@ -1,7 +1,12 @@
 ---
-Description: 'The Common Log File System (CLFS) saves log records in a sequential order, and can ensure that the flushed log records are preserved&\#8212;even after a system failure.'
-ms.assetid: 'f9804eeb-4da1-44c2-8c21-893f4293eb5b'
+Description: The Common Log File System (CLFS) saves log records in a sequential order, and can ensure that the flushed log records are preserved&\#8212;even after a system failure.
+ms.assetid: f9804eeb-4da1-44c2-8c21-893f4293eb5b
 title: Log Basics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Log Basics

@@ -4,13 +4,18 @@ description: This class provides statistical and operational information for eac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0e675fb7-d6c9-435a-8f77-a7b9cc108c98'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0e675fb7-d6c9-435a-8f77-a7b9cc108c98
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrLocalMemberInfo class Distributed File System Replication", "MSFT_DfsrLocalMemberInfo class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrLocalMemberInfo class Distributed File System Replication
+- MSFT_DfsrLocalMemberInfo class Distributed File System Replication , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrLocalMemberInfo class
@@ -23,14 +28,14 @@ This class provides statistical and operational information for each replication
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrLocalMemberInfo
 {
-  string   MemberGuid;
-  string   MemberName;
-  string   ReplicationGroupGuid;
-  string   ReplicationGroupName;
-  uint8    State;
+  string   MemberGuid;
+  string   MemberName;
+  string   ReplicationGroupGuid;
+  string   ReplicationGroupName;
+  uint8    State;
   datetime LastConfigChangeTime;
-  uint32   LastErrorCode;
-  uint32   LastErrorMessageId;
+  uint32   LastErrorCode;
+  uint32   LastErrorMessageId;
 };
 ```
 
@@ -237,7 +242,7 @@ The current replication group state of this member.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -251,9 +256,9 @@ The current replication group state of this member.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

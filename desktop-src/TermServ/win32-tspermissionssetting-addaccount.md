@@ -4,11 +4,14 @@ description: The AddAccount method prepares to add an account to the terminal wi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'da4d8f5b-7aa2-4b55-bf0f-b3e98b70a06b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: da4d8f5b-7aa2-4b55-bf0f-b3e98b70a06b
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AddAccount method Remote Desktop Services", "AddAccount method Remote Desktop Services , Win32_TSPermissionsSetting class", "Win32_TSPermissionsSetting class Remote Desktop Services , AddAccount method"]
+keywords:
+- AddAccount method Remote Desktop Services
+- AddAccount method Remote Desktop Services , Win32_TSPermissionsSetting class
+- Win32_TSPermissionsSetting class Remote Desktop Services , AddAccount method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddAccount method of the Win32\_TSPermissionsSetting class
@@ -28,8 +34,8 @@ The **AddAccount** method prepares to add an account to the terminal with the sp
 
 ```mof
 uint32 AddAccount(
-  [in] string AccountName,
-  [in] uint32 PermissionPreSet
+  [in] string AccountName,
+  [in] uint32 PermissionPreSet
 );
 ```
 
@@ -100,8 +106,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | Header<br/>                   | <dl> <dt>Faxcomex.h</dt> </dl>   |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
@@ -116,9 +122,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSPermissionsSetting**](win32-tspermissionssetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

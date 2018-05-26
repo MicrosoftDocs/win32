@@ -4,17 +4,21 @@ description: Gets the user to whom the policy was originally issued.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'A294A65F-6472-466C-ADD8-815A5BDE272F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: A294A65F-6472-466C-ADD8-815A5BDE272F
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.getIssuedTo method"]
+keywords:
+- UserPolicy.getIssuedTo method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.getIssuedTo method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.getIssuedTo method
@@ -45,11 +49,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

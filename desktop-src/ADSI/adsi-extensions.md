@@ -4,11 +4,17 @@ description: An ADSI extension is a special COM object that enable a developer t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3e40e702-089a-4d2a-806c-cd5b29d11bfd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3e40e702-089a-4d2a-806c-cd5b29d11bfd
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI extensions", "ADSI ADSI , using extensions", "extensions ADSI"]
+keywords:
+- ADSI extensions
+- ADSI ADSI , using extensions
+- extensions ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ADSI Extensions

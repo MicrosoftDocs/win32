@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer can repair, replace, and verify files contained in an application. A partial or complete application reinstallation might be required if any files or registry entries associated with any feature are missing or corrupt.'
-ms.assetid: 'fab23ab9-f1ab-4743-b883-cffc29b0124b'
+Description: Windows Installer can repair, replace, and verify files contained in an application. A partial or complete application reinstallation might be required if any files or registry entries associated with any feature are missing or corrupt.
+ms.assetid: fab23ab9-f1ab-4743-b883-cffc29b0124b
 title: Reinstalling a Feature or Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reinstalling a Feature or Application
@@ -12,8 +17,8 @@ When a feature or application is reinstalled, all the services, environment vari
 
 The following list contains methods of reinstalling a feature or product. The first two methods have been automated by the installer:
 
--   Repair, replace, or verify files by calling the [**MsiReinstallFeature**](msireinstallfeature.md) function.
--   Reinstall the entire product by calling the [**MsiReinstallProduct**](msireinstallproduct.md) function.
+-   Repair, replace, or verify files by calling the [**MsiReinstallFeature**](/windows/win32/Msi/nf-msi-msireinstallfeaturea?branch=master) function.
+-   Reinstall the entire product by calling the [**MsiReinstallProduct**](/windows/win32/Msi/nf-msi-msireinstallproducta?branch=master) function.
 -   Reinstall, replace, or verify files with an installer UI control button through the [Reinstall ControlEvent](reinstall-controlevent.md).
 -   Reinstall, replace, or verify files from a command line by setting the [**REINSTALL**](reinstall.md) property and the [**REINSTALLMODE**](reinstallmode.md) property.
 
@@ -21,11 +26,11 @@ For more information on reinstalling a feature or application, see [Resiliency](
 
 **To reinstall a product using the installer**
 
--   Call [**MsiReinstallProduct**](msireinstallproduct.md).
+-   Call [**MsiReinstallProduct**](/windows/win32/Msi/nf-msi-msireinstallproducta?branch=master).
 
 **To reinstall a feature using the installer**
 
--   Call [**MsiReinstallFeature**](msireinstallfeature.md).
+-   Call [**MsiReinstallFeature**](/windows/win32/Msi/nf-msi-msireinstallfeaturea?branch=master).
 
 **To reinstall a product or feature with an installer user interface**
 

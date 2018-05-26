@@ -1,12 +1,17 @@
-﻿---
-Description: 'The Image::GetRawFormat method returns a GUID that indicates the file format of an image. The following constants, defined in Gdiplusimaging.h, represent the GUIDs that identify those file formats.'
-ms.assetid: 'ccc450fe-5b93-46f8-bfeb-b7b1aaf53f8e'
+---
+Description: The ImageGetRawFormat method returns a GUID that indicates the file format of an image. The following constants, defined in Gdiplusimaging.h, represent the GUIDs that identify those file formats.
+ms.assetid: ccc450fe-5b93-46f8-bfeb-b7b1aaf53f8e
 title: Image File Format Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image File Format Constants
 
-The [**Image::GetRawFormat**](-gdiplus-class-image-getrawformat-format-.md) method returns a GUID that indicates the file format of an image. The following constants, defined in Gdiplusimaging.h, represent the GUIDs that identify those file formats.
+The [**Image::GetRawFormat**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getrawformat?branch=master) method returns a GUID that indicates the file format of an image. The following constants, defined in Gdiplusimaging.h, represent the GUIDs that identify those file formats.
 
 
 

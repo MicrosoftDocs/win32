@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CAPICOM\_KEY\_SPEC enumeration defines key specifications.'
-ms.assetid: 'e4aaaf69-ab28-4e8c-8a8a-6dc662299865'
-title: 'CAPICOM\_KEY\_SPEC enumeration'
+---
+Description: The CAPICOM\_KEY\_SPEC enumeration defines key specifications.
+ms.assetid: e4aaaf69-ab28-4e8c-8a8a-6dc662299865
+title: CAPICOM\_KEY\_SPEC enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAPICOM\_KEY\_SPEC enumeration

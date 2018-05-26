@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RadioButtonGroup control is a group of radio buttons.'
-ms.assetid: '896a85e9-0ad7-4890-8dfd-1c1e6ba5f31b'
+---
+Description: The RadioButtonGroup control is a group of radio buttons.
+ms.assetid: 896a85e9-0ad7-4890-8dfd-1c1e6ba5f31b
 title: RadioButtonGroup Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RadioButtonGroup Control

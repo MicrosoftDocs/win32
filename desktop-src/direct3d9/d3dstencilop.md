@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines stencil-buffer operations.'
-ms.assetid: '338a3b7f-236a-484f-96b8-1e6bfb014484'
+---
+Description: Defines stencil-buffer operations.
+ms.assetid: 338a3b7f-236a-484f-96b8-1e6bfb014484
 title: D3DSTENCILOP enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSTENCILOP enumeration

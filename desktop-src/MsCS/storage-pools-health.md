@@ -4,17 +4,21 @@ description: Specifies the health of the storage pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CE3DA0D9-FAFE-46CB-B749-9AC6272D979E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CE3DA0D9-FAFE-46CB-B749-9AC6272D979E
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Health Failover Cluster"]
+keywords:
+- Health Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Health
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Health
@@ -30,14 +34,14 @@ The following table summarizes the attributes of the **Health** property.
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 4                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +59,7 @@ This property can be set to one of the following values:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +68,7 @@ This property can be set to one of the following values:
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -75,9 +79,9 @@ This property can be set to one of the following values:
 [Storage Pool Private Properties](storage-pool-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

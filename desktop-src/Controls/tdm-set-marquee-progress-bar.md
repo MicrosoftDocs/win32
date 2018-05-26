@@ -1,8 +1,9 @@
 ---
 title: TDM\_SET\_MARQUEE\_PROGRESS\_BAR message
 description: Indicates whether the hosted progress bar of a task dialog should be displayed in marquee mode.
-ms.assetid: '28b9b519-6b96-4130-936c-b8fe8df86d25'
-keywords: ["TDM_SET_MARQUEE_PROGRESS_BAR message Windows Controls"]
+ms.assetid: 28b9b519-6b96-4130-936c-b8fe8df86d25
+keywords:
+- TDM_SET_MARQUEE_PROGRESS_BAR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_SET\_MARQUEE\_PROGRESS\_BAR message
@@ -49,15 +55,15 @@ For information on marquee mode, see [Progress Bar Control](progress-bar-control
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

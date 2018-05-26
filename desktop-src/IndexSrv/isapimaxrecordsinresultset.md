@@ -1,7 +1,12 @@
 ---
 title: IsapiMaxRecordsInResultSet
 description: IsapiMaxRecordsInResultSet
-ms.assetid: '47049cf7-b965-4823-9b16-010d0594d6f6'
+ms.assetid: 47049cf7-b965-4823-9b16-010d0594d6f6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiMaxRecordsInResultSet

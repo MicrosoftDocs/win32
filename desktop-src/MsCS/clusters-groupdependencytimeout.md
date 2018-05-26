@@ -4,17 +4,23 @@ description: The group dependency timeout, in seconds.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F525AF9F-62BB-43AA-8013-A18DEE48DE70'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F525AF9F-62BB-43AA-8013-A18DEE48DE70
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSREG_NAME_GROUP_DEPENDENCY_TIMEOUT", "CLUSREG_NAME_GROUP_DEPENDENCY_TIMEOUT", "GroupDependencyTimeout Failover Cluster"]
+keywords:
+- CLUSREG_NAME_GROUP_DEPENDENCY_TIMEOUT
+- CLUSREG_NAME_GROUP_DEPENDENCY_TIMEOUT
+- GroupDependencyTimeout Failover Cluster
 topic_type:
 - apiref
 api_name:
 - GroupDependencyTimeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GroupDependencyTimeout
@@ -27,14 +33,14 @@ The group dependency timeout, in seconds.
 |----------------------|-------------------------------------------|
 | Data type<br/> | **DWORD**                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum<br/>   | 0<br/>                              |
 | Maximum<br/>   | 0xFFFFFFFF<br/>                     |
 | Default<br/>   | 600 (10 minutes)<br/>               |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +53,7 @@ The constant for this property is **CLUSREG\_NAME\_GROUP\_DEPENDENCY\_TIMEOUT**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -58,9 +64,9 @@ The constant for this property is **CLUSREG\_NAME\_GROUP\_DEPENDENCY\_TIMEOUT**.
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

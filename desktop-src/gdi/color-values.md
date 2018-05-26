@@ -1,7 +1,12 @@
 ---
-Description: 'Color is defined as a combination of three primary colors red, green, and blue.'
-ms.assetid: '6e44935c-2b3b-4062-8273-f1f3e70300d2'
+Description: Color is defined as a combination of three primary colors red, green, and blue.
+ms.assetid: 6e44935c-2b3b-4062-8273-f1f3e70300d2
 title: Color Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Values
@@ -13,7 +18,7 @@ Color is defined as a combination of three primary colors red, green, and blue. 
 
  
 
-The system and applications use parameters and variables having the [COLORREF](colorref.md) type to pass and store color values. For example, the [**EnumObjects**](enumobjects.md) function identifies the color of each pen by setting the **lopnColor** member in a [**LOGPEN**](logpen.md) structure to a color value. Applications can extract the individual values of the red, green, and blue components from a color value by using the [**GetRValue**](getrvalue.md), [**GetGValue**](getgvalue.md), and [**GetBValue**](getbvalue.md) macros, respectively. Applications can create a color value from individual component values by using the [**RGB**](rgb.md) macro. When creating or examining a logical palette, an application uses the [**RGBQUAD**](rgbquad.md) structure to define color values and to examine individual component values.
+The system and applications use parameters and variables having the [COLORREF](colorref.md) type to pass and store color values. For example, the [**EnumObjects**](/windows/win32/Wingdi/nf-wingdi-enumobjects?branch=master) function identifies the color of each pen by setting the **lopnColor** member in a [**LOGPEN**](/windows/win32/Wingdi/ns-wingdi-taglogpen?branch=master) structure to a color value. Applications can extract the individual values of the red, green, and blue components from a color value by using the [**GetRValue**](/windows/win32/Wingdi/nf-wingdi-getrvalue?branch=master), [**GetGValue**](/windows/win32/Wingdi/nf-wingdi-getgvalue?branch=master), and [**GetBValue**](/windows/win32/Wingdi/nf-wingdi-getbvalue?branch=master) macros, respectively. Applications can create a color value from individual component values by using the [**RGB**](/windows/win32/Wingdi/nf-wingdi-rgb?branch=master) macro. When creating or examining a logical palette, an application uses the [**RGBQUAD**](/windows/win32/Wingdi/ns-wingdi-tagrgbquad?branch=master) structure to define color values and to examine individual component values.
 
  
 

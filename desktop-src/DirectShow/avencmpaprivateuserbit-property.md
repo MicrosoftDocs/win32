@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the value of the private user bit in the MPEG-1 stream. This property applies to MPEG audio encoders.'
-ms.assetid: 'e93a2456-1489-4904-9555-638c94739df5'
+Description: Sets the value of the private user bit in the MPEG-1 stream. This property applies to MPEG audio encoders.
+ms.assetid: e93a2456-1489-4904-9555-638c94739df5
 title: AVEncMPAPrivateUserBit property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncMPAPrivateUserBit property
@@ -28,8 +33,8 @@ This property can have the value 0 or 1.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ This property can have the value 0 or 1.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

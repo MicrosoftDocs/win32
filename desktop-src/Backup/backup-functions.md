@@ -1,7 +1,12 @@
 ---
 title: Backup Functions
 description: The following functions are used with tape backup.
-ms.assetid: '8c5f92f7-4918-475c-bc86-2b02291488d5'
+ms.assetid: 8c5f92f7-4918-475c-bc86-2b02291488d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backup Functions
@@ -12,18 +17,18 @@ The following functions are used with [tape backup](tape-backup.md).
 
 | Function                                           | Description                                                                                            |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [**BackupRead**](backupread.md)                   | Reads data associated with a specified file or directory into a buffer.                                |
-| [**BackupSeek**](backupseek.md)                   | Seeks forward in a data stream.                                                                        |
-| [**BackupWrite**](backupwrite.md)                 | Writes a stream of data from a buffer to a specified file or directory.                                |
-| [**CreateTapePartition**](createtapepartition.md) | Reformats a tape.                                                                                      |
-| [**EraseTape**](erasetape.md)                     | Erases all or part of a tape.                                                                          |
-| [**GetTapeParameters**](gettapeparameters.md)     | Retrieves information that describes the tape or the tape drive.                                       |
-| [**GetTapePosition**](gettapeposition.md)         | Retrieves the current address of the tape.                                                             |
-| [**GetTapeStatus**](gettapestatus.md)             | Determines whether the tape device is ready to process tape commands.                                  |
-| [**PrepareTape**](preparetape.md)                 | Prepares the tape to be accessed or removed.                                                           |
-| [**SetTapeParameters**](settapeparameters.md)     | Specifies the block size of a tape or configures the tape device.                                      |
-| [**SetTapePosition**](settapeposition.md)         | Sets the tape position on the specified device.                                                        |
-| [**WriteTapemark**](writetapemark.md)             | Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device. |
+| [**BackupRead**](/windows/win32/Winbase/nf-winbase-backupread?branch=master)                   | Reads data associated with a specified file or directory into a buffer.                                |
+| [**BackupSeek**](/windows/win32/Winbase/nf-winbase-backupseek?branch=master)                   | Seeks forward in a data stream.                                                                        |
+| [**BackupWrite**](/windows/win32/Winbase/nf-winbase-backupwrite?branch=master)                 | Writes a stream of data from a buffer to a specified file or directory.                                |
+| [**CreateTapePartition**](/windows/win32/Winbase/nf-winbase-createtapepartition?branch=master) | Reformats a tape.                                                                                      |
+| [**EraseTape**](/windows/win32/Winbase/nf-winbase-erasetape?branch=master)                     | Erases all or part of a tape.                                                                          |
+| [**GetTapeParameters**](/windows/win32/Winbase/nf-winbase-gettapeparameters?branch=master)     | Retrieves information that describes the tape or the tape drive.                                       |
+| [**GetTapePosition**](/windows/win32/Winbase/nf-winbase-gettapeposition?branch=master)         | Retrieves the current address of the tape.                                                             |
+| [**GetTapeStatus**](/windows/win32/Winbase/nf-winbase-gettapestatus?branch=master)             | Determines whether the tape device is ready to process tape commands.                                  |
+| [**PrepareTape**](/windows/win32/Winbase/nf-winbase-preparetape?branch=master)                 | Prepares the tape to be accessed or removed.                                                           |
+| [**SetTapeParameters**](/windows/win32/Winbase/nf-winbase-settapeparameters?branch=master)     | Specifies the block size of a tape or configures the tape device.                                      |
+| [**SetTapePosition**](/windows/win32/Winbase/nf-winbase-settapeposition?branch=master)         | Sets the tape position on the specified device.                                                        |
+| [**WriteTapemark**](/windows/win32/Winbase/nf-winbase-writetapemark?branch=master)             | Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device. |
 
 
 

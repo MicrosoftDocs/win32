@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates altitude based on the reference in PKEY\_GPS\_AltitudeRef.'
-ms.assetid: '396f9c9e-4d13-4e0d-9ec5-14a1c49f059e'
-title: 'System.GPS.Altitude'
+Description: Indicates altitude based on the reference in PKEY\_GPS\_AltitudeRef.
+ms.assetid: 396f9c9e-4d13-4e0d-9ec5-14a1c49f059e
+title: System.GPS.Altitude
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.Altitude

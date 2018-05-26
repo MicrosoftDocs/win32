@@ -4,11 +4,16 @@ description: The Item method returns the SnapIn object at a specified index.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f6b1c347-cec4-407a-96fd-71b2d0a070e0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: f6b1c347-cec4-407a-96fd-71b2d0a070e0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Item method MMC", "Item method MMC , SnapIns object", "SnapIns object MMC , Item method", "Item method MMC , SnapIns interface", "SnapIns interface MMC , Item method"]
+keywords:
+- Item method MMC
+- Item method MMC , SnapIns object
+- SnapIns object MMC , Item method
+- Item method MMC , SnapIns interface
+- SnapIns interface MMC , Item method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SnapIns::Item method
@@ -78,8 +86,8 @@ Next i
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Mmcobj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Mmcobj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -94,9 +102,9 @@ Next i
 [**SnapIns.Count**](snapins-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

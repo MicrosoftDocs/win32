@@ -1,7 +1,12 @@
 ---
 title: BDA IP Sink Filter
 description: BDA IP Sink Filter
-ms.assetid: '78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e'
+ms.assetid: 78cd6cba-3bd7-4ad4-b65d-c6b866a18d4e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA IP Sink Filter
@@ -15,7 +20,7 @@ The BDA IP Sink filter is a kernel-mode filter that delivers IP data to Winsock.
 
 In an analog graph, the input pin connects to the [BDA SLIP Deframer](bda-slip-deframer-filter.md). In a digital graph, the input pin connects to the [BDA MPE Filter](bda-mpe-filter.md). The filter has an output pin, but it does not send any IP data through this pin; all IP data goes to Winsock.
 
-The filter exposes the [**IBDA\_IPSinkInfo**](ibda-ipsinkinfo.md) interface.
+The filter exposes the [**IBDA\_IPSinkInfo**](/windows/win32/bdaiface/nn-bdaiface-ibda_ipsinkinfo?branch=master) interface.
 
 BDA IP Sink appears in GraphEdit under the "BDA Rendering Filters" category. Because this is a kernel-mode filter, applications cannot create it directly. Instead, use the [System Device Enumerator](https://msdn.microsoft.com/library/windows/desktop/dd407180), as described in [Enumerating Devices and Filters](https://msdn.microsoft.com/library/windows/desktop/dd375615). Add the filter to the filter graph by calling the [**IFilterGraph::AddFilter**](https://msdn.microsoft.com/library/windows/desktop/dd390016) method.
 

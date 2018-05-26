@@ -1,13 +1,16 @@
 ---
-Description: 'The Security\_ property of the SWbemObjectSet object is used to get or set the security settings for an SWbemObjectSet object. This property is an SWbemSecurity object.'
+Description: The Security\_ property of the SWbemObjectSet object is used to get or set the security settings for an SWbemObjectSet object. This property is an SWbemSecurity object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ee2ad6d5-c0aa-4510-ba1b-4a152d56011f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ee2ad6d5-c0aa-4510-ba1b-4a152d56011f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectSet.Security\_ property'
+title: SWbemObjectSet.Security\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectSet.Security\_ property
@@ -17,7 +20,7 @@ The **Security\_** property of the [**SWbemObjectSet**](swbemobjectset.md) objec
 > [!Note]  
 > Setting the [**Security\_**](swbemobject-security-.md) property of an [**SWbemObjectSet**](swbemobjectset.md) object to **NULL** grants unlimited access to everyone at all times. For more information about the implications of unlimited access, see [**SWbemSecurity**](swbemsecurity.md).
 
- 
+ 
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -40,8 +43,8 @@ SWbemObjectSet.Security_ As Object
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -63,9 +66,9 @@ SWbemObjectSet.Security_ As Object
 [Securing Scripting Clients](securing-scripting-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

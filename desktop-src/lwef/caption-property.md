@@ -1,7 +1,12 @@
 ---
 title: Caption Property
 description: Caption Property
-ms.assetid: '8dcdf3e0-3111-438b-9d39-ba9a36437ad2'
+ms.assetid: 8dcdf3e0-3111-438b-9d39-ba9a36437ad2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Caption Property

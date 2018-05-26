@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.cursor
 description: The cursor attribute specifies or retrieves the type of cursor that appears when the mouse is over a button in the BUTTONGROUP.
-ms.assetid: 'c1b7e3e1-862b-48c1-bd2d-d9abd9ada14c'
-keywords: ["BUTTONGROUP.cursor Windows Media Player"]
+ms.assetid: c1b7e3e1-862b-48c1-bd2d-d9abd9ada14c
+keywords:
+- BUTTONGROUP.cursor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.cursor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.cursor
@@ -40,7 +46,7 @@ This attribute is a read/write **String** containing one of the following values
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +73,9 @@ Cursor file name paths are ignored, so the cursor file must reside in the defaul
 [**BUTTONGROUP Element**](buttongroup-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

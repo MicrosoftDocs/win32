@@ -4,13 +4,15 @@ description: This class provides statistical and operational information for act
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '51e182b2-89fc-4cb3-a510-dba2b7adb3ea'
-ms.prod: 'windows-server-dev'
+ms.assetid: 51e182b2-89fc-4cb3-a510-dba2b7adb3ea
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrSyncInfo class Distributed File System Replication", "MSFT_DfsrSyncInfo class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrSyncInfo class Distributed File System Replication
+- MSFT_DfsrSyncInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrSyncInfo class
@@ -54,29 +59,29 @@ This class provides statistical and operational information for active synchroni
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrSyncInfo
 {
-  string   SyncGuid;
-  string   ConnectionGuid;
-  string   MemberGuid;
-  string   MemberName;
-  string   PartnerGuid;
-  string   PartnerName;
-  string   ReplicationGroupGuid;
-  string   ReplicationGroupName;
-  boolean  Inbound;
-  uint32   State;
-  uint32   InitiationReason;
+  string   SyncGuid;
+  string   ConnectionGuid;
+  string   MemberGuid;
+  string   MemberName;
+  string   PartnerGuid;
+  string   PartnerName;
+  string   ReplicationGroupGuid;
+  string   ReplicationGroupName;
+  boolean  Inbound;
+  uint32   State;
+  uint32   InitiationReason;
   datetime StartTime;
   datetime EndTime;
-  uint32   UpdatesTransferred;
-  uint64   BytesTransferred;
-  uint32   UpdatesNotTransferred;
-  uint32   UpdatesToBeTransferred;
-  uint32   ConflictsGenerated;
-  uint32   TombstonesGenerated;
-  uint32   LastErrorCode;
-  uint32   LastErrorMessageId;
+  uint32   UpdatesTransferred;
+  uint64   BytesTransferred;
+  uint32   UpdatesNotTransferred;
+  uint32   UpdatesToBeTransferred;
+  uint32   ConflictsGenerated;
+  uint32   TombstonesGenerated;
+  uint32   LastErrorCode;
+  uint32   LastErrorMessageId;
   datetime ForceReplicationEndTime;
-  uint32   ForceReplicationBandwidthlevel;
+  uint32   ForceReplicationBandwidthlevel;
 };
 ```
 
@@ -611,7 +616,7 @@ The following state diagram illustrates the transitions between the synchronizat
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -625,9 +630,9 @@ The following state diagram illustrates the transitions between the synchronizat
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

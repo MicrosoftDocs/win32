@@ -1,8 +1,11 @@
 ---
 title: Player.newPlaylist method
 description: The newPlaylist method creates a new Playlist object.
-ms.assetid: 'caee8ee5-6201-474d-a4cb-80e574f84f0b'
-keywords: ["newPlaylist method Windows Media Player", "newPlaylist method Windows Media Player , Player class", "Player class Windows Media Player , newPlaylist method"]
+ms.assetid: caee8ee5-6201-474d-a4cb-80e574f84f0b
+keywords:
+- newPlaylist method Windows Media Player
+- newPlaylist method Windows Media Player , Player class
+- Player class Windows Media Player , newPlaylist method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.newPlaylist method
@@ -86,9 +94,9 @@ Because the library allows multiple playlists with the same name, you may want t
 [**Windows Media Metafiles**](windows-media-metafiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

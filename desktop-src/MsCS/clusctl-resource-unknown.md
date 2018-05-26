@@ -4,11 +4,12 @@ description: Verifies that control codes are being processed on the node where e
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b7de4d4-6da1-4ea5-b745-2c0b5311eeb6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4b7de4d4-6da1-4ea5-b745-2c0b5311eeb6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_UNKNOWN control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_UNKNOWN control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_UNKNOWN control code
 
-This [control code](about-control-codes.md) verifies that [control codes](about-control-codes.md) are being processed on the node where execution of the control is directed. Applications use this control code as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceControl**](resourcecontrol.md) callback function.
+This [control code](about-control-codes.md) verifies that [control codes](about-control-codes.md) are being processed on the node where execution of the control is directed. Applications use this control code as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function, and [resource DLLs](resource-dlls.md) receive the control code as a parameter to the [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) callback function.
 
 
 ```C++
@@ -40,13 +44,13 @@ ClusterResourceControl( hResource,                // resource handle
 
 ## Parameters
 
-For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md) or [**ResourceControl**](resourcecontrol.md). This control code has no parameters associated with it.
+For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) or [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master). This control code has no parameters associated with it.
 
 <dl></dl>
 
 ## Return value
 
-When an application uses CLUSCTL\_RESOURCE\_UNKNOWN as a parameter for [**ClusterResourceControl**](clusterresourcecontrol.md), **ClusterResourceControl**returns one of the following values:
+When an application uses CLUSCTL\_RESOURCE\_UNKNOWN as a parameter for [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master), **ClusterResourceControl**returns one of the following values:
 
 <dl> <dt>
 
@@ -85,23 +89,23 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_UNKNOWN as follows (for more
 
 | Component                 | Bit location     | Value                                       |
 |---------------------------|------------------|---------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/> |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/> |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>      |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_NO\_MODIFY** (0x0)<br/>       |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>   |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                   |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_UNKNOWN** (0x0)<br/>         |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>     |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_UNKNOWN** (0x0)<br/>         |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>     |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
 Required. Your resource DLL should return **ERROR\_SUCCESS** in response to this control code.
 
-For more information on the [**ResourceControl**](resourcecontrol.md) entry point, see [Implementing ResourceControl](implementing-resourcecontrol.md).
+For more information on the [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) entry point, see [Implementing ResourceControl](implementing-resourcecontrol.md).
 
 ## Requirements
 
@@ -110,7 +114,7 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -122,15 +126,15 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 [External Resource Control Codes](external-resource-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

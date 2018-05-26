@@ -1,8 +1,10 @@
 ---
 title: Msvm\_SettingsDefineState class
 description: Associates a virtual system and its devices with instances of CIM\_SettingData representing the current settings that apply to these objects.
-ms.assetid: '86c1dc91-a2b6-4cf5-ac6f-1f3db63a6a11'
-keywords: ["Msvm_SettingsDefineState class Hyper-V", "Msvm_SettingsDefineState class Hyper-V , described"]
+ms.assetid: 86c1dc91-a2b6-4cf5-ac6f-1f3db63a6a11
+keywords:
+- Msvm_SettingsDefineState class Hyper-V
+- Msvm_SettingsDefineState class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SettingsDefineState class
@@ -27,7 +34,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SettingsDefineState : CIM_SettingsDefineState
 {
-  Msvm_ComputerSystem           REF ManagedElement;
+  Msvm_ComputerSystem           REF ManagedElement;
   Msvm_VirtualSystemSettingData REF SettingData;
 };
 ```
@@ -87,9 +94,9 @@ Access to the **Msvm\_SettingsDefineState** class might be restricted by UAC Fil
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -108,9 +115,9 @@ Access to the **Msvm\_SettingsDefineState** class might be restricted by UAC Fil
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

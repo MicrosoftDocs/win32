@@ -1,8 +1,16 @@
 ---
 title: AsyncStreamingTcpClientExample
 description: This example shows a TCP client that sends one-way messages in an asynchronous streaming fashion.
-ms.assetid: 'b0040b3d-d830-421a-bbf1-afb0cac47599'
-keywords: ["AsyncStreamingTcpClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: b0040b3d-d830-421a-bbf1-afb0cac47599
+keywords:
+- AsyncStreamingTcpClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AsyncStreamingTcpClientExample

@@ -1,7 +1,12 @@
 ---
 title: VML Layout-Flow Attribute
 description: VML Layout-Flow Attribute
-ms.assetid: '63b06dcb-5179-4046-9e02-4441d0d7bcd6'
+ms.assetid: 63b06dcb-5179-4046-9e02-4441d0d7bcd6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Layout-Flow Attribute

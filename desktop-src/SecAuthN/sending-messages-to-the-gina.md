@@ -1,7 +1,12 @@
 ---
-Description: 'Winlogon sends messages to the GINA while dialog boxes are displayed. These messages are all encapsulated in the WLX\_WM\_SAS message as follows.'
-ms.assetid: '3da1c3d2-5116-47c3-98e4-f29b33693c69'
+Description: Winlogon sends messages to the GINA while dialog boxes are displayed. These messages are all encapsulated in the WLX\_WM\_SAS message as follows.
+ms.assetid: 3da1c3d2-5116-47c3-98e4-f29b33693c69
 title: Sending Messages to the GINA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sending Messages to the GINA

@@ -2,7 +2,12 @@
 title: C
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: '9f3c58f5-7c04-43e6-b7bc-dc6875a7fefb'
+ms.assetid: 9f3c58f5-7c04-43e6-b7bc-dc6875a7fefb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C

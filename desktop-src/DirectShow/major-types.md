@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following table describes the major media types.'
-ms.assetid: '718a07f6-e2e4-4670-b9cf-982b53abffd2'
+---
+Description: The following table describes the major media types.
+ms.assetid: 718a07f6-e2e4-4670-b9cf-982b53abffd2
 title: Major Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Major Types

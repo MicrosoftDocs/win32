@@ -1,7 +1,12 @@
 ---
 title: HH\_INITIALIZE command
 description: This command initializes the help system for use and must be the first HTML Help command called. It returns a cookie which must be used in the HH\_UNINITIALIZE call.
-ms.assetid: '840072DA-A2F5-4593-A8ED-5D9D39EE0603'
+ms.assetid: 840072DA-A2F5-4593-A8ED-5D9D39EE0603
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HH\_INITIALIZE command
@@ -18,7 +23,7 @@ This command initializes the help system for use and must be the first HTML Help
 
 
 
- 
+ 
 
 ## Example
 
@@ -51,9 +56,9 @@ HtmlHelp(
 [HH\_UNINITIALIZE](hh-uninitialize-command.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

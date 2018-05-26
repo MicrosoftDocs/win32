@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates protected output objects for a display device.'
-ms.assetid: '616ffb38-173b-48d0-9352-422a61e5bb15'
+---
+Description: Creates protected output objects for a display device.
+ms.assetid: 616ffb38-173b-48d0-9352-422a61e5bb15
 title: CreateOPMProtectedOutputs function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateOPMProtectedOutputs function
@@ -75,8 +80,8 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 Instead of using this function, applications should call one of the following functions:
 
--   [**OPMGetVideoOutputsFromIDirect3DDevice9Object**](opmgetvideooutputsfromidirect3ddevice9object.md)
--   [**OPMGetVideoOutputsFromHMONITOR**](opmgetvideooutputsfromhmonitor.md)
+-   [**OPMGetVideoOutputsFromIDirect3DDevice9Object**](/windows/win32/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object?branch=master)
+-   [**OPMGetVideoOutputsFromHMONITOR**](/windows/win32/opmapi/nf-opmapi-opmgetvideooutputsfromhmonitor?branch=master)
 
 This function has no associated import library. To call this function, you must use the [**LoadLibrary**](base.loadlibrary) and [**GetProcAddress**](base.getprocaddress) functions to dynamically link to Gdi32.dll.
 

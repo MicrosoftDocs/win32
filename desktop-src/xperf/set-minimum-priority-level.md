@@ -1,7 +1,12 @@
 ---
 title: Set Minimum Priority Level
 description: Set Minimum Priority Level
-ms.assetid: 'cdb818e5-889a-4d8e-87b1-21024744b6d3'
+ms.assetid: cdb818e5-889a-4d8e-87b1-21024744b6d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set Minimum Priority Level

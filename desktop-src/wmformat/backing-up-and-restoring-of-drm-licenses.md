@@ -1,8 +1,40 @@
 ---
 title: Backing Up and Restoring of DRM Licenses
 description: Backing Up and Restoring of DRM Licenses
-ms.assetid: 'ec2777e9-76af-43fe-8bd5-4d7532d2fb32'
-keywords: ["Windows Media Format SDK,backing up DRM licenses", "Windows Media Format SDK,restoring DRM licenses", "Windows Media Format SDK,DRM licenses", "Windows Media Format SDK,licenses for DRM", "Windows Media Format SDK,Backup Restore feature", "Windows Media Format SDK,License Management Service", "Windows Media Format SDK,fraud detection", "digital rights management (DRM),backing up licenses", "DRM (digital rights management),backing up licenses", "digital rights management (DRM),restoring licenses", "DRM (digital rights management),restoring licenses", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "digital rights management (DRM),Backup Restore feature", "DRM (digital rights management),Backup Restore feature", "digital rights management (DRM),License Management Service", "DRM (digital rights management),License Management Service", "digital rights management (DRM),fraud detection", "DRM (digital rights management),fraud detection", "backing up DRM licenses", "restoring DRM licenses", "licenses,DRM", "licenses,backing up DRM", "licenses,restoring DRM", "Backup Restore feature", "License Management Service", "fraud detection"]
+ms.assetid: ec2777e9-76af-43fe-8bd5-4d7532d2fb32
+keywords:
+- Windows Media Format SDK,backing up DRM licenses
+- Windows Media Format SDK,restoring DRM licenses
+- Windows Media Format SDK,DRM licenses
+- Windows Media Format SDK,licenses for DRM
+- Windows Media Format SDK,Backup Restore feature
+- Windows Media Format SDK,License Management Service
+- Windows Media Format SDK,fraud detection
+- digital rights management (DRM),backing up licenses
+- DRM (digital rights management),backing up licenses
+- digital rights management (DRM),restoring licenses
+- DRM (digital rights management),restoring licenses
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- digital rights management (DRM),Backup Restore feature
+- DRM (digital rights management),Backup Restore feature
+- digital rights management (DRM),License Management Service
+- DRM (digital rights management),License Management Service
+- digital rights management (DRM),fraud detection
+- DRM (digital rights management),fraud detection
+- backing up DRM licenses
+- restoring DRM licenses
+- licenses,DRM
+- licenses,backing up DRM
+- licenses,restoring DRM
+- Backup Restore feature
+- License Management Service
+- fraud detection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backing Up and Restoring of DRM Licenses

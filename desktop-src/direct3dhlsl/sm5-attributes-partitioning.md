@@ -1,7 +1,12 @@
 ---
 title: partitioning
 description: Defines the tesselation scheme to be used in the hull shader.
-ms.assetid: '29dc4abb-4d29-4538-8680-a4fcbfd8235b'
+ms.assetid: 29dc4abb-4d29-4538-8680-a4fcbfd8235b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # partitioning

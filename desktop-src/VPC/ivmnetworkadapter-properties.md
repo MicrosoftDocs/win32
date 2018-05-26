@@ -1,7 +1,12 @@
 ---
 title: IVMNetworkAdapter Properties
 description: The IVMNetworkAdapter interface exposes the following properties.
-ms.assetid: '1EDB5245-8130-4BC1-B66A-0B05E2901770'
+ms.assetid: 1EDB5245-8130-4BC1-B66A-0B05E2901770
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMNetworkAdapter Properties

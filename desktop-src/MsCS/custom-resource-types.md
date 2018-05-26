@@ -4,11 +4,17 @@ description: You may develop or encounter resources that require, or at least be
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60e21949-fbcd-488f-a620-18eb77bf4276'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 60e21949-fbcd-488f-a620-18eb77bf4276
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["custom resource types Failover Cluster", "resource types Failover Cluster ,custom", "application types Failover Cluster ,custom resource types"]
+keywords:
+- custom resource types Failover Cluster
+- resource types Failover Cluster ,custom
+- application types Failover Cluster ,custom resource types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Custom Resource Types

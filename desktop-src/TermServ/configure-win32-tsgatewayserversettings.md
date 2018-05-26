@@ -1,14 +1,17 @@
 ---
 title: Configure method of the Win32\_TSGatewayServerSettings class
-description: Configures the IIS and RPC settings required by the Remote Desktop Gateway (RD Gateway) service.
+description: Configures the IIS and RPC settings required by the Remote Desktop Gateway (RD Gateway) service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12d7264e-46aa-457f-b89d-547231573db8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 12d7264e-46aa-457f-b89d-547231573db8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Configure method Remote Desktop Services", "Configure method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , Configure method"]
+keywords:
+- Configure method Remote Desktop Services
+- Configure method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , Configure method
 topic_type:
 - apiref
 api_name:
@@ -17,11 +20,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configure method of the Win32\_TSGatewayServerSettings class
 
-Configures the IIS and RPC settings required by the Remote Desktop Gateway (RD Gateway) service.
+Configures the IIS and RPC settings required by the Remote Desktop Gateway (RD Gateway) service.
 
 ## Syntax
 
@@ -55,7 +61,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -69,9 +75,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Blocking state.'
-ms.assetid: '55afd314-efd3-47bf-80e3-e17c1332a4cf'
-title: 'CDynamicOutputPin::m\_BlockState member'
+Description: Blocking state.
+ms.assetid: 55afd314-efd3-47bf-80e3-e17c1332a4cf
+title: CDynamicOutputPinm\_BlockState member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin::m\_BlockState member
@@ -45,9 +50,9 @@ Before accessing this variable, hold the [**CDynamicOutputPin::m\_BlockStateLock
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

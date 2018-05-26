@@ -1,7 +1,12 @@
 ---
 title: How to Interact with the Current Selection
 description: The user can select text in a rich edit control by using the mouse or the keyboard.
-ms.assetid: 'A529792C-DFA7-4BE1-8607-5A1556B64626'
+ms.assetid: A529792C-DFA7-4BE1-8607-5A1556B64626
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Interact with the Current Selection
@@ -23,9 +28,9 @@ The user can select text in a rich edit control by using the mouse or the keyboa
 
 ### Interact with the Current Selection
 
-To determine the current selection in a rich edit control, use the [**EM\_EXGETSEL**](em-exgetsel.md) message. To set the current selection, use the [**EM\_EXSETSEL**](em-exsetsel.md) message. The [**CHARRANGE**](charrange.md) structure is used with both messages and specifies a range of characters. To retrieve information about the contents of the current selection, you can use the [**EM\_SELECTIONTYPE**](em-selectiontype.md) message.
+To determine the current selection in a rich edit control, use the [**EM\_EXGETSEL**](em-exgetsel.md) message. To set the current selection, use the [**EM\_EXSETSEL**](em-exsetsel.md) message. The [**CHARRANGE**](/windows/win32/Richedit/ns-richedit-_charrange?branch=master) structure is used with both messages and specifies a range of characters. To retrieve information about the contents of the current selection, you can use the [**EM\_SELECTIONTYPE**](em-selectiontype.md) message.
 
-An application can detect when the current selection changes by processing the [EN\_SELCHANGE](en-selchange.md) notification code. The notification code specifies a [**SELCHANGE**](selchange.md) structure that contains information about the new selection. A rich edit control sends this notification code only if you enable it by using the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+An application can detect when the current selection changes by processing the [EN\_SELCHANGE](en-selchange.md) notification code. The notification code specifies a [**SELCHANGE**](/windows/win32/Richedit/ns-richedit-_selchange?branch=master) structure that contains information about the new selection. A rich edit control sends this notification code only if you enable it by using the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 By default, a rich edit control shows and hides the selection highlight when it gains and loses the focus. You can show or hide the selection highlight at any time by using the [**EM\_HIDESELECTION**](em-hideselection.md) message. For example, an application might provide a Search dialog box to find text in a rich edit control. The application might select matching text without closing the dialog box, in which case it must use the **EM\_HIDESELECTION** message to highlight the selection.
 

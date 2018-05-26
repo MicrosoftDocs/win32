@@ -1,14 +1,17 @@
 ---
 title: ClusResPossibleOwnerNodes.Item property
-description: Returns a node from a resource's list of possible owner nodes.
+description: Returns a node from a resources list of possible owner nodes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a8db9fab-822e-453f-ba5f-b5e75e6be7be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a8db9fab-822e-453f-ba5f-b5e75e6be7be
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Item property Failover Cluster", "Item property Failover Cluster , ClusResPossibleOwnerNodes class", "ClusResPossibleOwnerNodes class Failover Cluster , Item property"]
+keywords:
+- Item property Failover Cluster
+- Item property Failover Cluster , ClusResPossibleOwnerNodes class
+- ClusResPossibleOwnerNodes class Failover Cluster , Item property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResPossibleOwnerNodes.Item property
@@ -49,7 +55,7 @@ A [**ClusNode**](clusnode-object.md) object that receives the specified node.
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                      |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                      |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>            |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>          |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>          |
@@ -71,9 +77,9 @@ A [**ClusNode**](clusnode-object.md) object that receives the specified node.
 [**ClusResPossibleOwnerNodes.Count**](clusrespossibleownernodes-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

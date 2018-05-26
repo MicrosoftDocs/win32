@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides independent software vendors (ISVs) with a quick guide to the steps necessary to register and manage application defaults in Windows Vista and later. Links are provided to more in-depth articles about each section''s topic.'
-ms.assetid: '649eb20d-07d3-4209-abff-45fc50f05631'
+Description: This topic provides independent software vendors (ISVs) with a quick guide to the steps necessary to register and manage application defaults in Windows Vista and later. Links are provided to more in-depth articles about each sections topic.
+ms.assetid: 649eb20d-07d3-4209-abff-45fc50f05631
 title: Managing Default Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Default Applications
@@ -259,7 +264,7 @@ Many applications have the ability to upgrade themselves over time. This upgrade
 ## Application First Run and Defaults
 
 > [!Note]  
-> As of Windows 8, the system handles this procedure on behalf of all applications. Applications themselves can no longer query and change defaults. Only the user can do that. Therefore, applications should not attempt to query for the current default or change that default through any mechanism. However, applications can provide an entry point to Default Programs in the Control Panel by calling the [**LaunchAdvancedAssociationUI**](iapplicationassociationregistrationui-launchadvancedassociationui.md) method of the [**IApplicationAssociationRegistrationUI**](iapplicationassociationregistrationui.md) interface.
+> As of Windows 8, the system handles this procedure on behalf of all applications. Applications themselves can no longer query and change defaults. Only the user can do that. Therefore, applications should not attempt to query for the current default or change that default through any mechanism. However, applications can provide an entry point to Default Programs in the Control Panel by calling the [**LaunchAdvancedAssociationUI**](/windows/win32/Shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui?branch=master) method of the [**IApplicationAssociationRegistrationUI**](/windows/win32/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui?branch=master) interface.
 
  
 
@@ -281,7 +286,7 @@ For more information, see [Default Programs](default-programs.md).
 
  
 
-After an application registers with Default Programs in Windows Vista and later, certain APIs become available to the application. For instance, an application might need to check whether it is the default program. The [**IApplicationAssociationRegistration**](iapplicationassociationregistration.md) interface provides methods to do this.
+After an application registers with Default Programs in Windows Vista and later, certain APIs become available to the application. For instance, an application might need to check whether it is the default program. The [**IApplicationAssociationRegistration**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration?branch=master) interface provides methods to do this.
 
 Any application that wants to claim defaults must first ask the user and never claim defaults without permission. The user should be asked whether they want to make the application the default or leave the current default in place. There should also be an option not to be asked this question again after the user has made their choice.
 

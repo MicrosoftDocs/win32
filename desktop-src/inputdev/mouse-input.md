@@ -1,8 +1,16 @@
 ---
 title: Mouse Input
 description: This section describes how the system provides mouse input to your application and how the application receives and processes that input.
-ms.assetid: '1f945a31-76d5-4e23-a55a-769ca114dbe9'
-keywords: ["user input,mouse input", "capturing user input,mouse input", "mouse input"]
+ms.assetid: 1f945a31-76d5-4e23-a55a-769ca114dbe9
+keywords:
+- user input,mouse input
+- capturing user input,mouse input
+- mouse input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mouse Input
@@ -21,7 +29,7 @@ This section describes how the system provides mouse input to your application a
 
 
 
- 
+ 
 
 ### Functions
 
@@ -43,7 +51,7 @@ This section describes how the system provides mouse input to your application a
 
 
 
- 
+ 
 
 The following function is obsolete.
 
@@ -55,7 +63,7 @@ The following function is obsolete.
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -101,7 +109,7 @@ The following function is obsolete.
 
 
 
- 
+ 
 
 ### Structures
 
@@ -114,11 +122,11 @@ The following function is obsolete.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

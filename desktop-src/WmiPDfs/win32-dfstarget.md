@@ -4,11 +4,13 @@ description: The Win32\_DFSTarget WMI class represents a target of a Distributed
 audience: developer
 author: REDMOND\\martinek
 manager: REDMOND\\martinek
-ms.assetid: '3b215d38-a6fe-4a70-b716-a48eb1bd9403'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 3b215d38-a6fe-4a70-b716-a48eb1bd9403
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_DFSTarget class", "Win32_DFSTarget class, described"]
+keywords:
+- Win32_DFSTarget class
+- Win32_DFSTarget class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - Wmipdfs.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DFSTarget class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, SupportsCreate, CreateBy("PutInstance"), SupportsDelete, DeleteBy("DeleteInstance"), SupportsUpdate, provider("DFSProvider"), AMENDMENT]
 class Win32_DFSTarget : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  string       LinkName;
-  string       ServerName;
-  string       ShareName;
-  uint32       State;
+  string       Name;
+  string       Status;
+  string       LinkName;
+  string       ServerName;
+  string       ShareName;
+  uint32       State;
 };
 ```
 
@@ -331,8 +336,8 @@ The **Win32\_DFSTarget** class is derived from [**CIM\_LogicalElement**](https:/
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Wmipdfs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipdfs.dll</dt> </dl> |
@@ -349,9 +354,9 @@ The **Win32\_DFSTarget** class is derived from [**CIM\_LogicalElement**](https:/
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

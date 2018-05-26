@@ -4,13 +4,15 @@ description: A Job is a LogicalElement that represents an executing unit of work
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '420e9398-59ab-4495-8ffa-42824088898e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 420e9398-59ab-4495-8ffa-42824088898e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Job class iSCSI Software Target API", "CIM_Job class iSCSI Software Target API , described"]
+keywords:
+- CIM_Job class iSCSI Software Target API
+- CIM_Job class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -49,6 +51,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Job class
@@ -63,36 +68,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::CoreElements")]
 class CIM_Job : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   JobStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
 };
 ```
 
@@ -115,7 +120,7 @@ The **CIM\_Job** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -460,7 +465,7 @@ Contains indicators of the current status of the element. The first value of **O
 > [!Note]  
 > **OperationalStatus** replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, Microsoft strongly recommends that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status** (because it is single-valued) should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1125,7 +1130,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1278,16 +1283,16 @@ The time after which the Job is invalid or should be stopped. This time can be r
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

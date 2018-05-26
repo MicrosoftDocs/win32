@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when the certificate returned by the CertStoreProvFindCTL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCTL.'
-ms.assetid: '04e62a4e-4542-4225-8750-fabbda5adf0d'
+---
+Description: Called when the certificate returned by the CertStoreProvFindCTL callback was not used, and thus released, in a subsequent call to CertStoreProvFindCTL.
+ms.assetid: 04e62a4e-4542-4225-8750-fabbda5adf0d
 title: CertStoreProvFreeFindCTL callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvFreeFindCTL callback function
@@ -36,7 +41,7 @@ BOOL CertStoreProvFreeFindCTL(
 *pCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](cert-context.md) structure.
+A pointer to a [**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) structure.
 
 </dd> <dt>
 
@@ -76,7 +81,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 [**CertStoreProvFindCTL**](certstoreprovfindctl.md)
 </dt> <dt>
 
-[**CTL\_CONTEXT**](cert-context.md)
+[**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master)
 </dt> </dl>
 
  

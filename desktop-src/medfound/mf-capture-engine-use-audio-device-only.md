@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the capture engine captures audio but not video.'
-ms.assetid: '0A905D55-CEE5-44FC-97A5-9474872D5724'
-title: 'MF\_CAPTURE\_ENGINE\_USE\_AUDIO\_DEVICE\_ONLY attribute'
+---
+Description: Specifies whether the capture engine captures audio but not video.
+ms.assetid: 0A905D55-CEE5-44FC-97A5-9474872D5724
+title: MF\_CAPTURE\_ENGINE\_USE\_AUDIO\_DEVICE\_ONLY attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_USE\_AUDIO\_DEVICE\_ONLY attribute
@@ -38,7 +43,7 @@ If this attribute is **TRUE**, the capture engine does not select or use a video
 [Capture Engine Attributes](capture-engine-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md)
+[**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master)
 </dt> </dl>
 
  

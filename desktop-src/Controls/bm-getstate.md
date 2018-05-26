@@ -1,8 +1,9 @@
 ---
 title: BM\_GETSTATE message
 description: Retrieves the state of a button or check box. You can send this message explicitly or use the Button\_GetState macro.
-ms.assetid: 'ca4c2f1a-b657-490a-ac8b-5f0cfef64d76'
-keywords: ["BM_GETSTATE message Windows Controls"]
+ms.assetid: ca4c2f1a-b657-490a-ac8b-5f0cfef64d76
+keywords:
+- BM_GETSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BM\_GETSTATE message
 
-Retrieves the state of a button or check box. You can send this message explicitly or use the [**Button\_GetState**](button-getstate.md) macro.
+Retrieves the state of a button or check box. You can send this message explicitly or use the [**Button\_GetState**](/windows/win32/Windowsx/nf-windowsx-button_getstate?branch=master) macro.
 
 ## Parameters
 
@@ -53,7 +59,7 @@ The return value specifies the current state of the button. It is a combination 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,8 +67,8 @@ The return value specifies the current state of the button. It is a combination 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ The return value specifies the current state of the button. It is a combination 
 [**BM\_SETSTATE**](bm-setstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

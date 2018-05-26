@@ -2,13 +2,19 @@
 title: entry attribute
 description: The \ entry\ attribute specifies an exported function or constant in a module by identifying the entry point in the DLL.
 ms.assetid: 1d2d6429-d828-44ec-8b0a-cefb64c6e706
-keywords: ["entry attribute MIDL"]
+keywords:
+- entry attribute MIDL
 topic_type:
 - apiref
 api_name:
 - entry
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # entry attribute

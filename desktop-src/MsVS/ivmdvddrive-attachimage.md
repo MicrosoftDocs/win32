@@ -1,8 +1,13 @@
 ---
 title: IVMDVDDrive AttachImage method
 description: The AttachImage method attaches an ISO image to the DVD drive within the virtual machine.
-ms.assetid: 'b60735ee-c888-4601-afd5-223c5c13281c'
-keywords: ["AttachImage method Virtual Server", "AttachImage method Virtual Server , IVMDVDDrive interface", "IVMDVDDrive interface Virtual Server , AttachImage method", "AttachImage method Virtual Server , VMDVDDrive interface", "VMDVDDrive interface Virtual Server , AttachImage method"]
+ms.assetid: b60735ee-c888-4601-afd5-223c5c13281c
+keywords:
+- AttachImage method Virtual Server
+- AttachImage method Virtual Server , IVMDVDDrive interface
+- IVMDVDDrive interface Virtual Server , AttachImage method
+- AttachImage method Virtual Server , VMDVDDrive interface
+- VMDVDDrive interface Virtual Server , AttachImage method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDrive::AttachImage method
@@ -23,7 +33,7 @@ The **AttachImage** method attaches an ISO image to the DVD drive within the vir
 
 ```C++
 HRESULT AttachImage(
-  [in] BSTR imagePath
+  [in] BSTR imagePath
 );
 ```
 
@@ -57,7 +67,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +75,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -78,9 +88,9 @@ This method can return one of these values.
 [**IVMDVDDrive**](ivmdvddrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

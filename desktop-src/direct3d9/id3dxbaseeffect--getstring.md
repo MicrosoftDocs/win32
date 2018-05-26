@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a string.'
-ms.assetid: '49388582-a110-4aa2-90ab-2282b59da951'
-title: 'ID3DXBaseEffect::GetString method'
+---
+Description: Gets a string.
+ms.assetid: 49388582-a110-4aa2-90ab-2282b59da951
+title: ID3DXBaseEffectGetString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetString method

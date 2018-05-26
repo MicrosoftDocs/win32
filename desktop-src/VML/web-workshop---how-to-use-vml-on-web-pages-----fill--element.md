@@ -1,8 +1,36 @@
 ---
 title: Using the Fill Element
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: 'ed36601d-2e90-412e-ac3f-58324fac300d'
-keywords: ["Web workshop,fill element", "designing Web pages,fill element", "Vector Markup Language (VML),fill element", "VML (Vector Markup Language),fill element", "vector graphics,fill element", "fill element", "VML elements,fill", "VML shapes,fill element", "Vector Markup Language (VML),gradient fill", "VML (Vector Markup Language),gradient fill", "vector graphics,gradient fill", "VML shapes,gradient fill", "gradient-filled shapes", "Vector Markup Language (VML),pattern fill", "VML (Vector Markup Language),pattern fill", "vector graphics,pattern fill", "VML shapes,pattern fill", "pattern-filled shapes", "Vector Markup Language (VML),picture fill", "VML (Vector Markup Language),picture fill", "vector graphics,picture fill", "VML shapes,picture fill", "picture-filled shapes"]
+ms.assetid: ed36601d-2e90-412e-ac3f-58324fac300d
+keywords:
+- Web workshop,fill element
+- designing Web pages,fill element
+- Vector Markup Language (VML),fill element
+- VML (Vector Markup Language),fill element
+- vector graphics,fill element
+- fill element
+- VML elements,fill
+- VML shapes,fill element
+- Vector Markup Language (VML),gradient fill
+- VML (Vector Markup Language),gradient fill
+- vector graphics,gradient fill
+- VML shapes,gradient fill
+- gradient-filled shapes
+- Vector Markup Language (VML),pattern fill
+- VML (Vector Markup Language),pattern fill
+- vector graphics,pattern fill
+- VML shapes,pattern fill
+- pattern-filled shapes
+- Vector Markup Language (VML),picture fill
+- VML (Vector Markup Language),picture fill
+- vector graphics,picture fill
+- VML shapes,picture fill
+- picture-filled shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Fill Element

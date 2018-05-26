@@ -1,7 +1,12 @@
-﻿---
-Description: 'A printer interface DLL''s DrvSplDeviceCaps function queries a printer for its capabilities.'
-ms.assetid: '3d129a30-a892-4f4d-b8e3-f277d97980f4'
+---
+Description: A printer interface DLLs DrvSplDeviceCaps function queries a printer for its capabilities.
+ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 title: DrvSplDeviceCaps function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplDeviceCaps function

@@ -1,12 +1,17 @@
 ---
-Description: 'When an application performs an access check by calling the AuthzAccessCheck function, the results of that access check can be cached.'
-ms.assetid: 'd79a5683-6c67-487f-b9a6-4e80da38b827'
+Description: When an application performs an access check by calling the AuthzAccessCheck function, the results of that access check can be cached.
+ms.assetid: d79a5683-6c67-487f-b9a6-4e80da38b827
 title: Caching Access Checks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Caching Access Checks
 
-When an application performs an access check by calling the [**AuthzAccessCheck**](authzaccesscheck.md) function, the results of that access check can be cached. When the *pAuthzHandle* parameter of the [**AuthzAccessCheck**](authzaccesscheck.md) function is not **NULL**, the function performs a separate access check, with a requested [**ACCESS\_MASK**](access-mask.md) of **MAXIMUM\_ALLOWED**, and caches the results of that check. A handle to the results of that check can then be passed as the *AuthzHandle* parameter to the [**AuthzCachedAccessCheck**](authzcachedaccesscheck.md) function. This allows faster access checking for a given client and [*security descriptors*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly).
+When an application performs an access check by calling the [**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master) function, the results of that access check can be cached. When the *pAuthzHandle* parameter of the [**AuthzAccessCheck**](/windows/win32/Authz/nf-authz-authzaccesscheck?branch=master) function is not **NULL**, the function performs a separate access check, with a requested [**ACCESS\_MASK**](access-mask.md) of **MAXIMUM\_ALLOWED**, and caches the results of that check. A handle to the results of that check can then be passed as the *AuthzHandle* parameter to the [**AuthzCachedAccessCheck**](/windows/win32/Authz/nf-authz-authzcachedaccesscheck?branch=master) function. This allows faster access checking for a given client and [*security descriptors*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly).
 
 Only the static portion of an access check can be cached. Any callback [*access control entries*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-control-entry-gly) (ACEs) or ACEs that contain the **PRINCIPAL\_SELF** SID must be evaluated for each access check.
 

@@ -1,8 +1,15 @@
 ---
 title: The DocumentSummaryInformation and UserDefined Property Sets
 description: A DocumentSummaryInformation and UserDefined property set is an extension to the Summary Information property set. Both property sets can exist simultaneously.
-ms.assetid: 'c6d4e2bc-f7f6-429d-aa91-432d833c69d1'
-keywords: ["DocumentSummaryInformation", "UserDefined Property Sets"]
+ms.assetid: c6d4e2bc-f7f6-429d-aa91-432d833c69d1
+keywords:
+- DocumentSummaryInformation
+- UserDefined Property Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The DocumentSummaryInformation and UserDefined Property Sets
@@ -11,11 +18,11 @@ A **DocumentSummaryInformation** and **UserDefined** property set is an extensio
 
 The name of the stream that contains the **DocumentSummaryInformation** property set is **"\\005DocumentSummaryInformation"**. The format identifier (FMTID) for the **DocumentSummaryInformation** property set is **D5CDD502-2E9C-101B-9397-08002B2CF9AE**.
 
-The declaration for this value is available in the provided header files as **FMTID\_DocSummaryInformation**. For more information, see [Names in IStorage](names-in-istorage.md), [The Summary Information Property Set](the-summary-information-property-set.md), [**IPropertySetStorage::Create**](ipropertysetstorage-create.md) and [Format Identifiers](format-identifiers.md).
+The declaration for this value is available in the provided header files as **FMTID\_DocSummaryInformation**. For more information, see [Names in IStorage](names-in-istorage.md), [The Summary Information Property Set](the-summary-information-property-set.md), [**IPropertySetStorage::Create**](/windows/win32/Propidl/nf-propidl-ipropertysetstorage-create?branch=master) and [Format Identifiers](format-identifiers.md).
 
-This stream also has a separate section for the custom-user-defined properties as in the **DocumentSummaryInformation** and **UserDefined** property sets. This section appears in the [**IPropertySetStorage**](ipropertysetstorage.md) interface as a separate property set, with the following FMTID (available as **FMTID\_UserDefinedProperties**): **D5CDD505-2E9C-101B-9397-08002B2CF9AE**.
+This stream also has a separate section for the custom-user-defined properties as in the **DocumentSummaryInformation** and **UserDefined** property sets. This section appears in the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface as a separate property set, with the following FMTID (available as **FMTID\_UserDefinedProperties**): **D5CDD505-2E9C-101B-9397-08002B2CF9AE**.
 
-These two property sets are the only ones for which a single stream can hold multiple property sets. The fact that these two property sets are in a single stream affects the behavior of the **IPropertySetStorage** interface. For more information, see [**IPropertySetStorage**](ipropertysetstorage.md).
+These two property sets are the only ones for which a single stream can hold multiple property sets. The fact that these two property sets are in a single stream affects the behavior of the **IPropertySetStorage** interface. For more information, see [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master).
 
 The following table lists the added properties to the **DocumentSummaryInformation** and **UserDefined** property set. As in the **SummaryInformation** property set, the names are not typically stored in the property set, but are inferred from the property identifier.
 

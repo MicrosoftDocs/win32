@@ -1,8 +1,11 @@
 ---
 title: Online method of the MSFT\_Partition class
 description: Brings the partition online by mounting the associated volume (if one exists).
-ms.assetid: 'BC790184-88EE-4A45-A9E8-C520E26F991D'
-keywords: ["Online method Windows Storage Management API", "Online method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , Online method"]
+ms.assetid: BC790184-88EE-4A45-A9E8-C520E26F991D
+keywords:
+- Online method Windows Storage Management API
+- Online method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , Online method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Online method of the MSFT\_Partition class
@@ -22,7 +30,7 @@ Brings the partition online by mounting the associated volume (if one exists).
 
 ```mof
 UInt32 Online(
-  [out] String ExtendedStatus
+  [out] String ExtendedStatus
 );
 ```
 
@@ -81,8 +89,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -95,9 +103,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

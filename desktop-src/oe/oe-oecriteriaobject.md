@@ -1,8 +1,10 @@
 ---
 title: OECriteria object
-description: OECriteria is no longer available for use as of Windows Vista.
-ms.assetid: '2476ab71-1023-496e-818c-792330fc58b3'
-keywords: ["OECriteria object Windows Mail (formerly Outlook Express)", "OECriteria object Windows Mail (formerly Outlook Express) , described"]
+description: OECriteria is no longer available for use as of Windows Vista.
+ms.assetid: 2476ab71-1023-496e-818c-792330fc58b3
+keywords:
+- OECriteria object Windows Mail (formerly Outlook Express)
+- OECriteria object Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OECriteria object
 
-\[**OECriteria** is no longer available for use as of Windows Vista.\]
+\[**OECriteria** is no longer available for use as of Windows Vista.\]
 
 The **OECriteria** object implements the [**IOECriteria**](oe-ioecriteria.md) and [IPersistStream](http://msdn.microsoft.com/library/com/htm/cmi_n2p_02b1.asp) interfaces.
 
@@ -31,7 +38,7 @@ The **OECriteria** object implements the [**IOECriteria**](oe-ioecriteria.md) an
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -39,10 +46,10 @@ The **OECriteria** object implements the [**IOECriteria**](oe-ioecriteria.md) an
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Oerules.h</dt> </dl>                       |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
@@ -51,9 +58,9 @@ The **OECriteria** object implements the [**IOECriteria**](oe-ioecriteria.md) an
 
 
 
- 
+ 
 
- 
+ 
 
 
 

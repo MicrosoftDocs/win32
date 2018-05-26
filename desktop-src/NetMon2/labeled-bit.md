@@ -1,7 +1,12 @@
 ---
-Description: 'The LABELED\_BIT structure defines a label BIT pair.'
-ms.assetid: '500b5159-bf9f-49d4-8567-d8e462015eb0'
-title: 'LABELED\_BIT structure'
+Description: The LABELED\_BIT structure defines a label BIT pair.
+ms.assetid: 500b5159-bf9f-49d4-8567-d8e462015eb0
+title: LABELED\_BIT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LABELED\_BIT structure
@@ -13,7 +18,7 @@ The **LABELED\_BIT** structure defines a label BIT pair.
 
 ```C++
 typedef struct _LABELED_BIT {
-  BYTE  BitNumber;
+  BYTE  BitNumber;
   LPSTR LabelOff;
   LPSTR LabelOn;
 } LABELED_BIT, *LPLABELED_BIT;
@@ -58,8 +63,8 @@ When a BIT set is specified, Network Monitor displays only the BITs included in 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -71,9 +76,9 @@ When a BIT set is specified, Network Monitor displays only the BITs included in 
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

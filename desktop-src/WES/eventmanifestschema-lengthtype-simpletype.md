@@ -1,14 +1,20 @@
 ---
 title: LengthType Simple Type
 description: Defines a length type that is used to specify the number of bytes or characters in a variable length data item such as binary data or an ANSI or Unicode string.
-ms.assetid: 'a15e4241-cce3-4f62-bc1c-f70fb1ea5d38'
-keywords: ["LengthType simple type EventLog"]
+ms.assetid: a15e4241-cce3-4f62-bc1c-f70fb1ea5d38
+keywords:
+- LengthType simple type EventLog
 topic_type:
 - apiref
 api_name:
 - LengthType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LengthType Simple Type
@@ -29,14 +35,14 @@ Defines a length type that is used to specify the number of bytes or characters 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

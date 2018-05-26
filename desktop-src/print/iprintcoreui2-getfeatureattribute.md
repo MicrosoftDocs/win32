@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.'
-ms.assetid: '6f3d16a9-bac7-44da-9d16-0f737d12d952'
-title: 'IPrintCoreUI2::GetFeatureAttribute method'
+---
+Description: The IPrintCoreUI2GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
+ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
+title: IPrintCoreUI2GetFeatureAttribute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::GetFeatureAttribute method

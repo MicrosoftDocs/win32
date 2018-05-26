@@ -1,7 +1,12 @@
 ---
 title: To link to an external style sheet
 description: To link to an external style sheet
-ms.assetid: 'BB785AF3-1C06-4adf-BB36-F074A9DF8EFF'
+ms.assetid: BB785AF3-1C06-4adf-BB36-F074A9DF8EFF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To link to an external style sheet

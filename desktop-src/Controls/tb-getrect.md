@@ -1,8 +1,9 @@
 ---
 title: TB\_GETRECT message
 description: Retrieves the bounding rectangle for a specified toolbar button.
-ms.assetid: 'a93885eb-7eb7-4434-ad51-80fb30d3bfa1'
-keywords: ["TB_GETRECT message Windows Controls"]
+ms.assetid: a93885eb-7eb7-4434-ad51-80fb30d3bfa1
+keywords:
+- TB_GETRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETRECT message
@@ -49,15 +55,15 @@ This message does not retrieve the bounding rectangle for buttons whose state is
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.'
-ms.assetid: '1d481417-b640-437d-82ed-d45a9e420d3b'
-title: 'EnableDevice method of the CIM\_LogicalDevice class'
+Description: The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
+ms.assetid: 1d481417-b640-437d-82ed-d45a9e420d3b
+title: EnableDevice method of the CIM\_LogicalDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableDevice method of the CIM\_LogicalDevice class
@@ -17,7 +22,7 @@ The return code should be 0 if the request was successfully executed, 1 if the r
 
 ```mof
 uint32 EnableDevice(
-  [in] boolean Enabled
+  [in] boolean Enabled
 );
 ```
 
@@ -44,8 +49,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -59,9 +64,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

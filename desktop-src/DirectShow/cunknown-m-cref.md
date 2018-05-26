@@ -1,7 +1,12 @@
 ---
-Description: 'Reference count.'
-ms.assetid: 'be619a85-ca73-4cee-9df7-20e7be21853b'
-title: 'CUnknown::m\_cRef member'
+Description: Reference count.
+ms.assetid: be619a85-ca73-4cee-9df7-20e7be21853b
+title: CUnknownm\_cRef member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUnknown::m\_cRef member
@@ -32,9 +37,9 @@ Use this member variable if you override the [**NonDelegatingAddRef**](cunknown-
 
 
 
- 
+ 
 
- 
+ 
 
 
 

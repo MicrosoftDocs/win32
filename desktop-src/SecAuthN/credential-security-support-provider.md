@@ -1,7 +1,12 @@
 ---
-Description: 'The Credential Security Support Provider protocol (CredSSP) is a Security Support Provider that is implemented by using the Security Support Provider Interface (SSPI).'
-ms.assetid: 'b3006b89-d9fc-4444-a3c8-ad2698de501c'
+Description: The Credential Security Support Provider protocol (CredSSP) is a Security Support Provider that is implemented by using the Security Support Provider Interface (SSPI).
+ms.assetid: b3006b89-d9fc-4444-a3c8-ad2698de501c
 title: Credential Security Support Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Credential Security Support Provider
@@ -11,7 +16,7 @@ The Credential Security Support Provider protocol (CredSSP) is a Security Suppor
 > \[!Caution\]  
 > This is not constrained delegation. CredSSP passes the user's full credentials to the server without any constraint.
 
- 
+ 
 
 For information about SPNEGO, see [Microsoft Negotiate](microsoft-negotiate.md).
 
@@ -20,7 +25,7 @@ After the client and server are authenticated, the client passes the user's cred
 > \[!Important\]  
 > CredSSP does not support Wow64 clients.
 
- 
+ 
 
 For more information about CredSSP, see the following topics.
 
@@ -32,11 +37,11 @@ For more information about CredSSP, see the following topics.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

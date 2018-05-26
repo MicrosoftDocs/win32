@@ -1,8 +1,11 @@
 ---
 title: IImnAccount SaveChanges method
 description: Saves all changes to the account object to the registry.
-ms.assetid: '6139d086-4023-4ca5-b352-802aa8adb987'
-keywords: ["SaveChanges method Windows Mail (formerly Outlook Express)", "SaveChanges method Windows Mail (formerly Outlook Express) , IImnAccount interface", "IImnAccount interface Windows Mail (formerly Outlook Express) , SaveChanges method"]
+ms.assetid: 6139d086-4023-4ca5-b352-802aa8adb987
+keywords:
+- SaveChanges method Windows Mail (formerly Outlook Express)
+- SaveChanges method Windows Mail (formerly Outlook Express) , IImnAccount interface
+- IImnAccount interface Windows Mail (formerly Outlook Express) , SaveChanges method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccount::SaveChanges method
@@ -52,7 +60,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +78,8 @@ Passwords are stored in an encrypted format in the registry, using the CryptoAPI
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -79,9 +87,9 @@ Passwords are stored in an encrypted format in the registry, using the CryptoAPI
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Use of Tags
 description: All command arguments should have optional tags. For example, \ 0034;add name string \ 0034; is incorrect. The correct form would be \ 0034;add name \ name \ string \ 0034;. All tags should be shown in lower case.
-ms.assetid: 'dfcada98-fe82-4e4b-8165-662cb920283b'
+ms.assetid: dfcada98-fe82-4e4b-8165-662cb920283b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use of Tags

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a certificate for a display driver.'
-ms.assetid: 'eceaf151-1dae-4ff0-9139-7f1789f6c682'
+---
+Description: Gets a certificate for a display driver.
+ms.assetid: eceaf151-1dae-4ff0-9139-7f1789f6c682
 title: GetCertificate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCertificate function
@@ -65,7 +70,7 @@ If the method succeeds, it returns **STATUS\_SUCCESS**. Otherwise, it returns an
 
 ## Remarks
 
-Applications should call the [**IOPMVideoOutput::StartInitialization**](iopmvideooutput-iopmvideooutput--startinitialization.md) method instead of this function.
+Applications should call the [**IOPMVideoOutput::StartInitialization**](/windows/win32/opmapi/nf-opmapi-iopmvideooutput-startinitialization?branch=master) method instead of this function.
 
 This function has no associated import library. To call this function, you must use the [**LoadLibrary**](base.loadlibrary) and [**GetProcAddress**](base.getprocaddress) functions to dynamically link to Gdi32.dll.
 

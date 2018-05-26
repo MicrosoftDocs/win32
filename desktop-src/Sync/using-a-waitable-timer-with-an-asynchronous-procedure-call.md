@@ -1,14 +1,19 @@
 ---
-Description: 'The following example associates an asynchronous procedure call (APC) function, also known as a completion routine, with a waitable timer when the timer is set.'
-ms.assetid: 'aea3c080-caf2-4c16-adc5-51357a0340b8'
+Description: The following example associates an asynchronous procedure call (APC) function, also known as a completion routine, with a waitable timer when the timer is set.
+ms.assetid: aea3c080-caf2-4c16-adc5-51357a0340b8
 title: Using Waitable Timers with an Asynchronous Procedure Call
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Waitable Timers with an Asynchronous Procedure Call
 
-The following example associates an [asynchronous procedure call](asynchronous-procedure-calls.md) (APC) function, also known as a completion routine, with a [waitable timer](waitable-timer-objects.md) when the timer is set. The address of the completion routine is the fourth parameter to the [**SetWaitableTimer**](setwaitabletimer.md) function. The fifth parameter is a void pointer that you can use to pass arguments to the completion routine.
+The following example associates an [asynchronous procedure call](asynchronous-procedure-calls.md) (APC) function, also known as a completion routine, with a [waitable timer](waitable-timer-objects.md) when the timer is set. The address of the completion routine is the fourth parameter to the [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master) function. The fifth parameter is a void pointer that you can use to pass arguments to the completion routine.
 
-The completion routine will be executed by the same thread that called [**SetWaitableTimer**](setwaitabletimer.md). This thread must be in an alertable state to execute the completion routine. It accomplishes this by calling the [**SleepEx**](base.sleepex) function, which is an alertable function.
+The completion routine will be executed by the same thread that called [**SetWaitableTimer**](/windows/win32/WinBase/nf-synchapi-setwaitabletimer?branch=master). This thread must be in an alertable state to execute the completion routine. It accomplishes this by calling the [**SleepEx**](base.sleepex) function, which is an alertable function.
 
 Each thread has an APC queue. If there is an entry in the thread's APC queue at the time that one of the alertable functions is called, the thread is not put to sleep. Instead, the entry is removed from the APC queue and the completion routine is called.
 

@@ -4,11 +4,15 @@ description: The following code example retrieves the first 750 objects in the f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ffa3b9cf-cd1b-48f5-befd-db9bff228bc0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ffa3b9cf-cd1b-48f5-befd-db9bff228bc0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Sending LDAP Controls DSML"]
+keywords:
+- Sending LDAP Controls DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Sending LDAP Controls

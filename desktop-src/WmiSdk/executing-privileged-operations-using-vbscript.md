@@ -1,20 +1,23 @@
 ---
-Description: 'If you use the scripting API for WMI, you can set specific security privileges.'
+Description: If you use the scripting API for WMI, you can set specific security privileges.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '65b923d5-5244-498d-9644-d4978fb84f85'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 65b923d5-5244-498d-9644-d4978fb84f85
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Executing Privileged Operations Using VBScript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Executing Privileged Operations Using VBScript
 
 If you use the scripting API for WMI, you can set specific security privileges. For example, you can set the security privileges to request an operating system shutdown, or to examine the security event log. For more information, see [Running with Special Privileges](https://msdn.microsoft.com/library/windows/desktop/ms717802).
 
-You only need to set privileges when you are accessing WMI on your computer. When you are accessing a remote host, COM RPC automatically sets the privileges. To determine all the required privileges, consult the documentation for the specific WMI classes that you want to access, such as [**Win32\_OperatingSystem**](https://msdn.microsoft.com/library/aa394239). For more information, see [WbemPrivilegeEnum](wbemprivilegeenum.md)
+You only need to set privileges when you are accessing WMI on your computer. When you are accessing a remote host, COM RPC automatically sets the privileges. To determine all the required privileges, consult the documentation for the specific WMI classes that you want to access, such as [**Win32\_OperatingSystem**](https://msdn.microsoft.com/library/aa394239). For more information, see [WbemPrivilegeEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master)
 
 The following sections are discussed in this topic:
 

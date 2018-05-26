@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMEnableDriver function
-ms.assetid: '9ea2f53c-de27-4803-b09a-444180b796ac'
+ms.assetid: 9ea2f53c-de27-4803-b09a-444180b796ac
 title: OEMEnableDriver function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMEnableDriver function

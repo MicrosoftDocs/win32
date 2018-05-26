@@ -1,13 +1,16 @@
 ---
-Description: 'WMI defines a set of system properties that are associated with all classes and instances of classes in addition to class-specific properties.'
+Description: WMI defines a set of system properties that are associated with all classes and instances of classes in addition to class-specific properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ea8ca4e4-9969-48fc-9b9f-5a5c8442006d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ea8ca4e4-9969-48fc-9b9f-5a5c8442006d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: CIM System Properties for MIB Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM System Properties for MIB Objects
@@ -17,7 +20,7 @@ WMI defines a set of system properties that are associated with all classes and 
 > [!Note]  
 > For more information about installing the provider, see [Setting up the WMI SNMP Environment](setting-up-the-wmi-snmp-environment.md).
 
- 
+ 
 
 The SNMP Provider uses the following CIM system properties when mapping MIB object definitions to CIM class definitions. Mandatory properties must be present for the SNMP Provider to fully resolve a group object. Failure to define a mandatory property returns an error.
 
@@ -74,11 +77,11 @@ The SNMP Provider uses the following CIM system properties when mapping MIB obje
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

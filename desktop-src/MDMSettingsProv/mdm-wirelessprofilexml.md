@@ -1,8 +1,10 @@
 ---
 title: MDM\_WirelessProfileXml class
 description: Represents a wireless profile with wireless LAN XML.
-ms.assetid: '88d87b61-10dc-41d3-8c53-bec846505a8c'
-keywords: ["MDM_WirelessProfileXml class MDM Settings", "MDM_WirelessProfileXml class MDM Settings , described"]
+ms.assetid: 88d87b61-10dc-41d3-8c53-bec846505a8c
+keywords:
+- MDM_WirelessProfileXml class MDM Settings
+- MDM_WirelessProfileXml class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WirelessProfileXml class
@@ -79,7 +86,7 @@ The wireless profile XML for this connection.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -94,9 +101,9 @@ The wireless profile XML for this connection.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

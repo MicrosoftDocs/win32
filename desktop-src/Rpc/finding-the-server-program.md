@@ -1,8 +1,14 @@
 ---
 title: Finding the Server Program
 description: After the client side RPC run time connects to a server host system requested in the binding handle, the client RPC run-time library finds the server process.
-ms.assetid: '0c863018-746a-4793-abe7-1838d988e0f4'
-keywords: ["Remote Procedure Call RPC , tasks, finding the server program"]
+ms.assetid: 0c863018-746a-4793-abe7-1838d988e0f4
+keywords:
+- Remote Procedure Call RPC , tasks, finding the server program
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Finding the Server Program

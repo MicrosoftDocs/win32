@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyFile2 SetRemoteName method
 description: Changes the remote name to a new URL in a download job.
-ms.assetid: '344D4193-C96E-4B94-AA53-F9307FEB2565'
-keywords: ["SetRemoteName method", "SetRemoteName method, IBackgroundCopyFile2 interface", "IBackgroundCopyFile2 interface, SetRemoteName method"]
+ms.assetid: 344D4193-C96E-4B94-AA53-F9307FEB2565
+keywords:
+- SetRemoteName method
+- SetRemoteName method, IBackgroundCopyFile2 interface
+- IBackgroundCopyFile2 interface, SetRemoteName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyFile2::SetRemoteName method
@@ -22,7 +30,7 @@ Changes the remote name to a new URL in a download job.
 
 ```C++
 HRESULT SetRemoteName(
-  [in] LPCWSTR RemoteName
+  [in] LPCWSTR RemoteName
 );
 ```
 
@@ -52,7 +60,7 @@ This method returns the following return values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,7 +76,7 @@ If the time stamp or file size of the new remote name is different from the prev
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -85,9 +93,9 @@ If the time stamp or file size of the new remote name is different from the prev
 [**IBackgroundCopyFile2**](ibackgroundcopyfile2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.replaceItem
 description: The replaceItem method replaces the text at the specified index with the specified text.
-ms.assetid: '8dc05dc6-4f89-4ae6-8a28-cbc418449694'
-keywords: ["LISTBOX.replaceItem Windows Media Player"]
+ms.assetid: 8dc05dc6-4f89-4ae6-8a28-cbc418449694
+keywords:
+- LISTBOX.replaceItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.replaceItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.replaceItem
@@ -58,9 +64,9 @@ This method does not return a value.
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

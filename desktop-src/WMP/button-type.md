@@ -1,8 +1,17 @@
 ---
 title: Button Type
 description: Button Type
-ms.assetid: '0c9e72d5-5cc4-4d6f-b184-2c8c8487e366'
-keywords: ["Windows Media Player Mobile skins,button types", "skins,button types", "reference for skins,buttons", "buttons in skins,types"]
+ms.assetid: 0c9e72d5-5cc4-4d6f-b184-2c8c8487e366
+keywords:
+- Windows Media Player Mobile skins,button types
+- skins,button types
+- reference for skins,buttons
+- buttons in skins,types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Type

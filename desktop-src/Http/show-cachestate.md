@@ -1,14 +1,20 @@
 ---
 title: show cachestate
 description: Lists all resources and their associated properties that are cached in the HTTP response cache or displays a single resource and its associated properties.
-ms.assetid: '9daa445e-dd2f-4b73-8938-58df931c015b'
-keywords: ["show cachestate HTTP"]
+ms.assetid: 9daa445e-dd2f-4b73-8938-58df931c015b
+keywords:
+- show cachestate HTTP
 topic_type:
 - apiref
 api_name:
 - show cachestate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # show cachestate

@@ -1,8 +1,9 @@
 ---
 title: WM\_INITMENU message
 description: Sent when a menu is about to become active.
-ms.assetid: 'd0fcc6d8-f57c-4d04-b9e7-4cfab6add173'
-keywords: ["WM_INITMENU message Menus and Other Resources"]
+ms.assetid: d0fcc6d8-f57c-4d04-b9e7-4cfab6add173
+keywords:
+- WM_INITMENU message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_INITMENU message
@@ -58,8 +64,8 @@ A **WM\_INITMENU** message is sent only when a menu is first accessed; only one 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ A **WM\_INITMENU** message is sent only when a menu is first accessed; only one 
 [Keyboard Accelerators](keyboard-accelerators.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

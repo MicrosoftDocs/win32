@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the IPrinterExtensionRequest object for the current event.'
-ms.assetid: '2F11C510-B649-4DC6-B0BC-89C4159E464C'
-title: 'IPrinterExtensionEventArgs::Request property'
+---
+Description: Gets the IPrinterExtensionRequest object for the current event.
+ms.assetid: 2F11C510-B649-4DC6-B0BC-89C4159E464C
+title: IPrinterExtensionEventArgsRequest property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs::Request property

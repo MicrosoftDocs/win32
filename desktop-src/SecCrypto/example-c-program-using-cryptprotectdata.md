@@ -1,18 +1,23 @@
 ---
-Description: 'The following example encrypts and decrypts a data BLOB using CryptProtectData and CryptUnprotectData.'
-ms.assetid: '51607aad-9fa8-4db6-bd2a-3821dce619e7'
-title: 'Example C Program: Using CryptProtectData'
+Description: The following example encrypts and decrypts a data BLOB using CryptProtectData and CryptUnprotectData.
+ms.assetid: 51607aad-9fa8-4db6-bd2a-3821dce619e7
+title: Example C Program Using CryptProtectData
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Using CryptProtectData
 
-The following example encrypts and decrypts a data [*BLOB*](security.b_gly#-security-blob-gly) using [**CryptProtectData**](cryptprotectdata.md) and [**CryptUnprotectData**](cryptunprotectdata.md).
+The following example encrypts and decrypts a data [*BLOB*](security.b_gly#-security-blob-gly) using [**CryptProtectData**](/windows/win32/Dpapi/nf-dpapi-cryptprotectdata?branch=master) and [**CryptUnprotectData**](/windows/win32/Dpapi/nf-dpapi-cryptunprotectdata?branch=master).
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Initializing a [**CRYPTPROTECT\_PROMPTSTRUCT**](cryptprotect-promptstruct.md) data structure.
--   Using [**CryptProtectData**](cryptprotectdata.md) to encrypt a data BLOB.
--   Using [**CryptUnprotectData**](cryptunprotectdata.md) to decrypt the data.
+-   Initializing a [**CRYPTPROTECT\_PROMPTSTRUCT**](/windows/win32/Dpapi/ns-dpapi-_cryptprotect_promptstruct?branch=master) data structure.
+-   Using [**CryptProtectData**](/windows/win32/Dpapi/nf-dpapi-cryptprotectdata?branch=master) to encrypt a data BLOB.
+-   Using [**CryptUnprotectData**](/windows/win32/Dpapi/nf-dpapi-cryptunprotectdata?branch=master) to decrypt the data.
 -   Using [**LocalFree**](base.localfree) to release allocated memory.
 
 This example uses the [**MyHandleError**](myhandleerror.md) function. The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).

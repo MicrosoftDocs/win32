@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a constraint on the prefix of all recognition results.'
-ms.assetid: '0e804b11-eca0-40c7-bfdf-289ac3aa1e1f'
+---
+Description: Sets a constraint on the prefix of all recognition results.
+ms.assetid: 0e804b11-eca0-40c7-bfdf-289ac3aa1e1f
 title: SetConstraint function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetConstraint function
@@ -59,7 +64,7 @@ This function can return one of these values.
 | <dl> <dt>**E\_FAIL**</dt> </dl>                      | An unspecified error occurred. The *pwcConstraint* parameter must not contain spaces or control characters.<br/>                        |
 | <dl> <dt>**E\_OUTOFMEMORY**</dt> </dl>               | Unable to allocate memory to complete the operation.<br/>                                                                               |
 | <dl> <dt>**E\_POINTER**</dt> </dl>                   | The recognizer context is invalid.<br/>                                                                                                 |
-| <dl> <dt>**TPC\_E\_OUT\_OF\_ORDER\_CALL**</dt> </dl> | You must call the [**SetConstraint**](setconstraint-function.md) function before calling the [**Process**](process.md) function.<br/> |
+| <dl> <dt>**TPC\_E\_OUT\_OF\_ORDER\_CALL**</dt> </dl> | You must call the [**SetConstraint**](setconstraint-function.md) function before calling the [**Process**](/windows/win32/recapis/nf-recapis-process?branch=master) function.<br/> |
 
 
 
@@ -73,7 +78,7 @@ To clear a prefix constraint, set it to an empty string (a zero-length string).
 
 The constraint works with any factoid setting and also applies to any result that is not in the recognizer dictionary. When using a constraint, process context (strings that appear before and after the text to be recognized) as you normally would. Setting or resetting this constraint does not alter a factoid that is already set.
 
-The constraint does not function unless the recognizer is running in word mode (the [**SetFlags**](setflags.md) function is called to set the **RECOFLAG\_WORDMODE** flag); however, the recognizer context maintains any factoid constraint if you set it to other RECOFLAG modes.
+The constraint does not function unless the recognizer is running in word mode (the [**SetFlags**](/windows/win32/recapis/nf-recapis-setflags?branch=master) function is called to set the **RECOFLAG\_WORDMODE** flag); however, the recognizer context maintains any factoid constraint if you set it to other RECOFLAG modes.
 
 The recognizer flag **RECOFLAG\_PREFIXOK** does not pertain to a constraint. For instance, if you set the constraint, *qui*, along with the **RECOFLAG\_PREFIXOK** flag, the recognizer does not consider the string, *qu*, a valid word. However, *qui* or *quie* are considered valid words, because they are prefixes for *quiet* that satisfy the constraint.
 
@@ -81,10 +86,10 @@ The recognizer flag **RECOFLAG\_PREFIXOK** does not pertain to a constraint. For
 
 <dl> <dt>
 
-[**SetFactoid**](setfactoid.md)
+[**SetFactoid**](/windows/win32/recapis/nf-recapis-setfactoid?branch=master)
 </dt> <dt>
 
-[**SetFlags**](setflags.md)
+[**SetFlags**](/windows/win32/recapis/nf-recapis-setflags?branch=master)
 </dt> <dt>
 
 [**SetTextContext**](tablet.SetTextContext)

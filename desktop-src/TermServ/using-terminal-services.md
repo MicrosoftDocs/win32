@@ -4,11 +4,15 @@ description: How to program in the Remote Desktop Services environment and how t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '17a8055c-3fde-4ba0-9ed9-af0ebe0a36b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 17a8055c-3fde-4ba0-9ed9-af0ebe0a36b9
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , using"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Remote Desktop Services
@@ -34,7 +38,7 @@ C# code example that shows a method that returns **True** if the Remote Desktop 
 [Extending Terminal Services Session Broker](extending-ts-session-broker.md)
 </dt> <dd>
 
-You can extend TS Session Broker by using the [**IWTSSBPlugin**](iwtssbplugin.md) COM interface.
+You can extend TS Session Broker by using the [**IWTSSBPlugin**](/windows/win32/Tssbx/nn-tssbx-iwtssbplugin?branch=master) COM interface.
 
 </dd> <dt>
 

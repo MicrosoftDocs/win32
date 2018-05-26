@@ -1,7 +1,12 @@
 ---
 title: Windows Web Services API
 description: .
-ms.assetid: '9357786c-1992-4e28-ac75-c2dfda1df7f1'
+ms.assetid: 9357786c-1992-4e28-ac75-c2dfda1df7f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Web Services API
@@ -21,7 +26,7 @@ Windows Web Services API (WWSAPI) offers C/C++ application programming interface
 
 ## Run-time requirements
 
-Windows Web Services API (WWSAPI) is an operating-system component of Windows 7 and Windows Server 2008 R2 or later versions of Microsoft Windows.
+Windows Web Services API (WWSAPI) is an operating-system component of Windows 7 and Windows Server 2008 R2 or later versions of Microsoft Windows.
 
 ## In this section
 
@@ -35,11 +40,11 @@ Windows Web Services API (WWSAPI) is an operating-system component of Windows 7 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

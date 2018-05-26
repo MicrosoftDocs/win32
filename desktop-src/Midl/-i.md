@@ -2,13 +2,19 @@
 title: /I switch
 description: The /I switch specifies directories to be searched for imported IDL files, included header files, and ACF files.
 ms.assetid: cdb0a1c2-ff99-4060-be72-a54dd20dbf93
-keywords: ["/I switch MIDL"]
+keywords:
+- /I switch MIDL
 topic_type:
 - apiref
 api_name:
 - /I
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /I switch

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which a managed element conforms to the standard of a registered profile.'
-ms.assetid: '9d5704b6-c764-4f68-bce3-384d5a244e28'
-title: 'CIM\_ElementConformsToProfile class'
+Description: Represents an association in which a managed element conforms to the standard of a registered profile.
+ms.assetid: 9d5704b6-c764-4f68-bce3-384d5a244e28
+title: CIM\_ElementConformsToProfile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ElementConformsToProfile class
@@ -15,7 +20,7 @@ Represents an association in which a managed element conforms to the standard of
 class CIM_ElementConformsToProfile
 {
   CIM_RegisteredProfile REF ConformantStandard;
-  CIM_ManagedElement    REF ManagedElement;
+  CIM_ManagedElement    REF ManagedElement;
 };
 ```
 
@@ -69,17 +74,17 @@ The managed element that conforms to the registered profile.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

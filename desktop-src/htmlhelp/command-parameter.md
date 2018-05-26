@@ -1,7 +1,12 @@
 ---
 title: Command Parameter
 description: Use the Command parameter to specify an HTML Help command.
-ms.assetid: 'A9FEE37B-BEAF-46e0-9D96-B16ACACB3C4D'
+ms.assetid: A9FEE37B-BEAF-46e0-9D96-B16ACACB3C4D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Parameter
@@ -32,7 +37,7 @@ Use the **Command** parameter to specify an HTML Help [command](about-commands.m
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -41,9 +46,9 @@ Use the **Command** parameter to specify an HTML Help [command](about-commands.m
 [About Parameters](parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

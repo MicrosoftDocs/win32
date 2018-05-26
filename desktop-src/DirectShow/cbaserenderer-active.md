@@ -1,7 +1,12 @@
 ---
-Description: 'The Active method is called when the state is switched to paused or running.'
-ms.assetid: '2913bc81-572d-4ee1-a1b6-9e1638e04c9d'
-title: 'CBaseRenderer.Active method'
+Description: The Active method is called when the state is switched to paused or running.
+ms.assetid: 2913bc81-572d-4ee1-a1b6-9e1638e04c9d
+title: CBaseRenderer.Active method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.Active method
@@ -47,9 +52,9 @@ The input pin calls this method from its own [**CRendererInputPin::Active**](cre
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

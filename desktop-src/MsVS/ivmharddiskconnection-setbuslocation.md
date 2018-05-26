@@ -1,8 +1,13 @@
 ---
 title: IVMHardDiskConnection SetBusLocation method
 description: The SetBusLocation method sets the bus location to which this hard disk is attached.
-ms.assetid: 'c29099c2-a16d-4f27-9d38-a6f4d54cb864'
-keywords: ["SetBusLocation method Virtual Server", "SetBusLocation method Virtual Server , IVMHardDiskConnection interface", "IVMHardDiskConnection interface Virtual Server , SetBusLocation method", "SetBusLocation method Virtual Server , VMHardDiskConnection interface", "VMHardDiskConnection interface Virtual Server , SetBusLocation method"]
+ms.assetid: c29099c2-a16d-4f27-9d38-a6f4d54cb864
+keywords:
+- SetBusLocation method Virtual Server
+- SetBusLocation method Virtual Server , IVMHardDiskConnection interface
+- IVMHardDiskConnection interface Virtual Server , SetBusLocation method
+- SetBusLocation method Virtual Server , VMHardDiskConnection interface
+- VMHardDiskConnection interface Virtual Server , SetBusLocation method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnection::SetBusLocation method
@@ -23,9 +33,9 @@ The **SetBusLocation** method sets the bus location to which this hard disk is a
 
 ```C++
 HRESULT SetBusLocation(
-  [in] VMDriveBusType busType,
-  [in] long           busNumber,
-  [in] long           deviceNumber
+  [in] VMDriveBusType busType,
+  [in] long           busNumber,
+  [in] long           deviceNumber
 );
 ```
 
@@ -74,7 +84,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -86,8 +96,8 @@ Only one disk device is allowed on a shared SCSI controller.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -102,9 +112,9 @@ Only one disk device is allowed on a shared SCSI controller.
 [**VMDriveBusType**](vmdrivebustype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

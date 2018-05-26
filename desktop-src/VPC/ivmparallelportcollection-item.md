@@ -1,8 +1,11 @@
 ---
 title: IVMParallelPortCollection Item property
 description: Retrieves the parallel port object that corresponds to the specified index.
-ms.assetid: 'f67a4224-ca96-4d68-9f0f-4977ffff859e'
-keywords: ["Item property Virtual PC", "Item property Virtual PC , IVMParallelPortCollection interface", "IVMParallelPortCollection interface Virtual PC , Item property"]
+ms.assetid: f67a4224-ca96-4d68-9f0f-4977ffff859e
+keywords:
+- Item property Virtual PC
+- Item property Virtual PC , IVMParallelPortCollection interface
+- IVMParallelPortCollection interface Virtual PC , Item property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMParallelPortCollection::Item property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the parallel port object that corresponds to the specified index.
 
@@ -27,8 +35,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]          long            index,
-  [out, retval] IVMParallelPort **vmParallelPort
+  [in]          long            index,
+  [out, retval] IVMParallelPort **vmParallelPort
 );
 ```
 
@@ -58,9 +66,9 @@ The [**IVMParallelPort**](ivmparallelport.md) object.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMParallelPortCollection is defined as 27c3e036-198f-430c-8735-6e652f7203fd<br/>  |
@@ -77,9 +85,9 @@ The [**IVMParallelPort**](ivmparallelport.md) object.
 [**IVMParallelPortCollection**](ivmparallelportcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

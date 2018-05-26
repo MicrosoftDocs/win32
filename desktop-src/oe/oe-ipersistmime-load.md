@@ -1,8 +1,11 @@
 ---
 title: IPersistMime Load method
 description: Loads an IMimeMessage object.
-ms.assetid: 'a80adbb0-fa71-4740-864b-b814ad0f48fb'
-keywords: ["Load method Windows Mail (formerly Outlook Express)", "Load method Windows Mail (formerly Outlook Express) , IPersistMime interface", "IPersistMime interface Windows Mail (formerly Outlook Express) , Load method"]
+ms.assetid: a80adbb0-fa71-4740-864b-b814ad0f48fb
+keywords:
+- Load method Windows Mail (formerly Outlook Express)
+- Load method Windows Mail (formerly Outlook Express) , IPersistMime interface
+- IPersistMime interface Windows Mail (formerly Outlook Express) , Load method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPersistMime::Load method
@@ -24,7 +32,7 @@ Loads an [**IMimeMessage**](oe-imimemessage.md) object.
 
 ```C++
 HRESULT Load(
-  [in] IMimeMessage *pMsg
+  [in] IMimeMessage *pMsg
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

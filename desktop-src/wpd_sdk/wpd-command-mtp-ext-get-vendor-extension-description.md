@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION command retrieves the vendor-extension description string. This string is defined by a DeviceInfo dataset.'
-ms.assetid: '3741fc97-bbe6-41f0-9c0f-fb2f22225fa3'
-title: 'WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION Command'
+Description: The WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION command retrieves the vendor-extension description string. This string is defined by a DeviceInfo dataset.
+ms.assetid: 3741fc97-bbe6-41f0-9c0f-fb2f22225fa3
+title: WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_MTP\_EXT\_GET\_VENDOR\_EXTENSION\_DESCRIPTION Command
@@ -28,11 +33,11 @@ The driver returns the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly by using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly by using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -51,9 +56,9 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](iportabl
 [Supporting MTP Extensions](supporting-mtp-extensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

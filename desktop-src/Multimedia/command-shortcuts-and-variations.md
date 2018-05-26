@@ -1,7 +1,12 @@
 ---
 title: Command Shortcuts and Variations
 description: Command Shortcuts and Variations
-ms.assetid: '4f854c78-435c-4a10-8938-645ad605fff3'
+ms.assetid: 4f854c78-435c-4a10-8938-645ad605fff3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Shortcuts and Variations

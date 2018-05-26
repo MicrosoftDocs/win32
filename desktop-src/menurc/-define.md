@@ -1,7 +1,12 @@
 ---
-title: \ define
+title: '\ define'
 description: The \ define directive assigns the given value to the specified name. All subsequent occurrences of the name are replaced by the value.
-ms.assetid: '2699d2dc-caf8-47d6-8b2e-526357962532'
+ms.assetid: 2699d2dc-caf8-47d6-8b2e-526357962532
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#define

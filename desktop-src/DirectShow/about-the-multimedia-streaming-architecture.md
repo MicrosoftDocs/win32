@@ -1,7 +1,12 @@
 ---
 Description: About the Multimedia Streaming Architecture
-ms.assetid: '185c7012-968a-4d9c-9baa-4d20f953068b'
+ms.assetid: 185c7012-968a-4d9c-9baa-4d20f953068b
 title: About the Multimedia Streaming Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Multimedia Streaming Architecture

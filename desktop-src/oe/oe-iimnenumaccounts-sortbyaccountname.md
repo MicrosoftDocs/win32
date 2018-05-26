@@ -1,8 +1,11 @@
 ---
 title: IImnEnumAccounts SortByAccountName method
 description: Sorts the enumeration by account name.
-ms.assetid: '83d7ff9d-ac0a-47b6-bc92-3ed48d77b0cf'
-keywords: ["SortByAccountName method Windows Mail (formerly Outlook Express)", "SortByAccountName method Windows Mail (formerly Outlook Express) , IImnEnumAccounts interface", "IImnEnumAccounts interface Windows Mail (formerly Outlook Express) , SortByAccountName method"]
+ms.assetid: 83d7ff9d-ac0a-47b6-bc92-3ed48d77b0cf
+keywords:
+- SortByAccountName method Windows Mail (formerly Outlook Express)
+- SortByAccountName method Windows Mail (formerly Outlook Express) , IImnEnumAccounts interface
+- IImnEnumAccounts interface Windows Mail (formerly Outlook Express) , SortByAccountName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnEnumAccounts::SortByAccountName method
@@ -44,8 +52,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -53,9 +61,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

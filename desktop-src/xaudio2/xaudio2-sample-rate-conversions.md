@@ -1,7 +1,12 @@
 ---
-Description: 'XAudio2 voices can perform automatic sample rate conversions if their input sample rate is different from the input sample rate of their output voices.'
-ms.assetid: 'be34ce62-6552-45e2-a247-830ab55ea9ec'
+Description: XAudio2 voices can perform automatic sample rate conversions if their input sample rate is different from the input sample rate of their output voices.
+ms.assetid: be34ce62-6552-45e2-a247-830ab55ea9ec
 title: XAudio2 Sample Rate Conversions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAudio2 Sample Rate Conversions
@@ -12,7 +17,7 @@ Sample rate conversions follow these rules:
 
 -   Voice input sample rate is fixed.
 
-    Voices can only handle the input sample rate specified when they were created. For [**mastering voices**](ixaudio2masteringvoice.md) and [**submix voices**](ixaudio2submixvoice.md), the input sample rate is specified with the *InputSampleRate* argument to the [**IXAudio2::CreateMasteringVoice**](ixaudio2-interface-createmasteringvoice.md) and [**IXAudio2::CreateSubmixVoice**](ixaudio2-interface-createsubmixvoice.md) functions. For source voices, the input sample rate of the voice is specified by the pSourceFormat argument to the [**IXAudio2::CreateSourceVoice**](ixaudio2-interface-createsourcevoice.md) function.
+    Voices can only handle the input sample rate specified when they were created. For [**mastering voices**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2masteringvoice?branch=master) and [**submix voices**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2submixvoice?branch=master), the input sample rate is specified with the *InputSampleRate* argument to the [**IXAudio2::CreateMasteringVoice**](ixaudio2-interface-createmasteringvoice.md) and [**IXAudio2::CreateSubmixVoice**](ixaudio2-interface-createsubmixvoice.md) functions. For source voices, the input sample rate of the voice is specified by the pSourceFormat argument to the [**IXAudio2::CreateSourceVoice**](ixaudio2-interface-createsourcevoice.md) function.
 
 -   All of a voice's output voices must have the same input sample rate.
 

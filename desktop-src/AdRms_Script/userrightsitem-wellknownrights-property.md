@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves common rights.'
+Description: Specifies or retrieves common rights.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'a74f8e60-5947-4bb7-8a93-82911f4f8f23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: a74f8e60-5947-4bb7-8a93-82911f4f8f23
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'UserRightsItem.WellKnownRights property'
+title: UserRightsItem.WellKnownRights property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRightsItem.WellKnownRights property
@@ -140,7 +143,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -152,9 +155,9 @@ END SUB
 [**UserRightsItem**](userrightsitem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

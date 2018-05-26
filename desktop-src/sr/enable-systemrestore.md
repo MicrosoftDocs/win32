@@ -1,8 +1,11 @@
 ---
 title: Enable method of the SystemRestore class
 description: Enables monitoring on a particular drive.
-ms.assetid: 'f3140f6d-d190-46a4-8587-c2e928ac8ecf'
-keywords: ["Enable method System Restore", "Enable method System Restore , SystemRestore class", "SystemRestore class System Restore , Enable method"]
+ms.assetid: f3140f6d-d190-46a4-8587-c2e928ac8ecf
+keywords:
+- Enable method System Restore
+- Enable method System Restore , SystemRestore class
+- SystemRestore class System Restore , Enable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Default
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable method of the SystemRestore class
@@ -22,7 +30,7 @@ Enables monitoring on a particular drive.
 
 ```mof
 uint32 Enable(
-  [in] String Drive
+  [in] String Drive
 );
 ```
 
@@ -81,7 +89,7 @@ End If
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
 | Namespace<br/>                | Root\\Default<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr.mof</dt> </dl> |
@@ -95,9 +103,9 @@ End If
 [**SystemRestore**](systemrestore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

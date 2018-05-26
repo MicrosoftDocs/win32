@@ -1,14 +1,20 @@
 ---
 title: PLAYERELEMENT
 description: This is a predefined BUTTONELEMENT with the following default values.
-ms.assetid: '7df93011-5d7a-4e2d-8c52-86274b0bf504'
-keywords: ["PLAYERELEMENT Windows Media Player"]
+ms.assetid: 7df93011-5d7a-4e2d-8c52-86274b0bf504
+keywords:
+- PLAYERELEMENT Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYERELEMENT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYERELEMENT
@@ -43,9 +49,9 @@ All properties of this **BUTTONELEMENT** can be overridden by explicitly specify
 [**BUTTONELEMENT Element**](buttonelement-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

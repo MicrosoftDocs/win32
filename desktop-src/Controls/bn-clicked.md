@@ -1,8 +1,9 @@
 ---
 title: BN\_CLICKED notification code
 description: Sent when the user clicks a button. The parent window of the button receives this notification code through the WM\_COMMAND message.
-ms.assetid: '74847549-b92f-4981-a979-d0b2a8a5539a'
-keywords: ["BN_CLICKED notification code Windows Controls"]
+ms.assetid: 74847549-b92f-4981-a979-d0b2a8a5539a
+keywords:
+- BN_CLICKED notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BN\_CLICKED notification code
@@ -57,8 +63,8 @@ A disabled button does not send a BN\_CLICKED notification code to its parent wi
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ A disabled button does not send a BN\_CLICKED notification code to its parent wi
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

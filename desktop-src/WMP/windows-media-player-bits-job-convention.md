@@ -1,8 +1,22 @@
 ---
 title: Windows Media Player BITS Job Convention
 description: Windows Media Player can automatically download and add digital media items to the library if you use Background Intelligent Transfer Service (BITS).
-ms.assetid: '643faba7-9af2-4292-8d92-e321d7690a5b'
-keywords: ["Windows Media Player online stores,Background Intelligent Transfer Service (BITS)", "online stores,Background Intelligent Transfer Service (BITS)", "type 2 online stores,Background Intelligent Transfer Service (BITS)", "Background Intelligent Transfer Service (BITS)", "BITS (Background Intelligent Transfer Service)", "Windows Media Player online stores,BITS job convention", "online stores,BITS job convention", "type 2 online stores,BITS job convention", "BITS job convention"]
+ms.assetid: 643faba7-9af2-4292-8d92-e321d7690a5b
+keywords:
+- Windows Media Player online stores,Background Intelligent Transfer Service (BITS)
+- online stores,Background Intelligent Transfer Service (BITS)
+- type 2 online stores,Background Intelligent Transfer Service (BITS)
+- Background Intelligent Transfer Service (BITS)
+- BITS (Background Intelligent Transfer Service)
+- Windows Media Player online stores,BITS job convention
+- online stores,BITS job convention
+- type 2 online stores,BITS job convention
+- BITS job convention
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player BITS Job Convention

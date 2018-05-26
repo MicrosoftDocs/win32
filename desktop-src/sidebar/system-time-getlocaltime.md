@@ -1,8 +1,11 @@
 ---
 title: System.Time.getLocalTime method
 description: Gets the system time for a specific time zone.
-ms.assetid: '55083fd2-c215-4836-9679-a5699990d824'
-keywords: ["getLocalTime method Windows Sidebar", "getLocalTime method Windows Sidebar , System.Time object", "System.Time object Windows Sidebar , getLocalTime method"]
+ms.assetid: 55083fd2-c215-4836-9679-a5699990d824
+keywords:
+- getLocalTime method Windows Sidebar
+- getLocalTime method Windows Sidebar , System.Time object
+- System.Time object Windows Sidebar , getLocalTime method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Time.getLocalTime method
@@ -94,10 +102,10 @@ function DisplayTime()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Sysinfoapi.h</dt> </dl>                        |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -150,9 +158,9 @@ function DisplayTime()
 [**standardDisplayName**](system-time-timezone-standarddisplayname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

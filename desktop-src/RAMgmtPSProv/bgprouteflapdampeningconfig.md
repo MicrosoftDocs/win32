@@ -2,13 +2,15 @@
 title: BgpRouteFlapDampeningConfig class
 description: Contains BGP route-flap-dampening configuration information.
 audience: developer
-ms.assetid: '4da0ab53-0667-4279-94a3-5cdb6c6e44a3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4da0ab53-0667-4279-94a3-5cdb6c6e44a3
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BgpRouteFlapDampeningConfig class", "BgpRouteFlapDampeningConfig class, described"]
+keywords:
+- BgpRouteFlapDampeningConfig class
+- BgpRouteFlapDampeningConfig class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BgpRouteFlapDampeningConfig class
@@ -158,16 +163,16 @@ The value above which a route will become unusable. The value is expressed in nu
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

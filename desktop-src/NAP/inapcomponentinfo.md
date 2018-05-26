@@ -1,8 +1,10 @@
 ---
 title: INapComponentInfo interface
 description: Provides methods that plug-in components (such as SHAs and SHVs) must implement for the NAP system to communicate with them.
-ms.assetid: 'eeff4f57-72e0-465f-9a18-ed72dad82bc7'
-keywords: ["INapComponentInfo interface NAP", "INapComponentInfo interface NAP , described"]
+ms.assetid: eeff4f57-72e0-465f-9a18-ed72dad82bc7
+keywords:
+- INapComponentInfo interface NAP
+- INapComponentInfo interface NAP , described
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentInfo interface
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapComponentInfo** interface provides methods that plug-in components (such as SHAs and SHVs) must implement for the NAP system to communicate with them. The NAP system calls your implementation of these methods to retrieve static administrative information (for example, friendly name or localized strings).
 
@@ -46,7 +53,7 @@ The **INapComponentInfo** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,8 +61,8 @@ The **INapComponentInfo** interface has these methods.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -71,9 +78,9 @@ The **INapComponentInfo** interface has these methods.
 [NAP Reference](nap-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

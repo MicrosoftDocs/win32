@@ -1,7 +1,12 @@
 ---
 title: Getting the Query Results for Display
 description: Getting the Query Results for Display
-ms.assetid: 'a3729d4d-acf4-4071-9727-4f51dcca6078'
+ms.assetid: a3729d4d-acf4-4071-9727-4f51dcca6078
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting the Query Results for Display

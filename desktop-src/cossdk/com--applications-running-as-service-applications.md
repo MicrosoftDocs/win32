@@ -1,7 +1,12 @@
 ---
-Description: 'COM+ developers can use the Component Services administrative tool to configure and implement a COM+ server application as a service application.'
-ms.assetid: '12de8b1b-63ed-43d1-9644-44770497c866'
+Description: COM+ developers can use the Component Services administrative tool to configure and implement a COM+ server application as a service application.
+ms.assetid: 12de8b1b-63ed-43d1-9644-44770497c866
 title: COM+ Applications Running as Service Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Applications Running as Service Applications

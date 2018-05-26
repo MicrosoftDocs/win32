@@ -1,14 +1,20 @@
 ---
 title: RESTORE\_CONTEXT\_FLAGS enumeration
 description: Defines values that are used in the CreateFileRestoreContext function to specify the file restore context for the volume or for the physical drive. These enumeration values are used in the Flags argument to the CreateFileRestoreContext function.
-ms.assetid: '9436bed9-c88d-4ad7-8e7a-6673d177901a'
-keywords: ["RESTORE_CONTEXT_FLAGS enumeration"]
+ms.assetid: 9436bed9-c88d-4ad7-8e7a-6673d177901a
+keywords:
+- RESTORE_CONTEXT_FLAGS enumeration
 topic_type:
 - apiref
 api_name:
 - RESTORE_CONTEXT_FLAGS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RESTORE\_CONTEXT\_FLAGS enumeration
@@ -16,20 +22,20 @@ api_type:
 Defines values that are used in the [**CreateFileRestoreContext**](createfilerestorecontext.md) function to specify the file restore context for the volume or for the physical drive. These enumeration values are used in the *Flags* argument to the **CreateFileRestoreContext** function.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef enum  { 
-  ContextFlagVolume                  = 0x00000001,
-  ContextFlagDisk                    = 0x00000002,
-  FlagScanRemovedFiles               = 0x00000004,
-  FlagScanRegularFiles               = 0x00000008,
-  FlagScanIncludeRemovedDirectories  = 0x00000010
+  ContextFlagVolume                  = 0x00000001,
+  ContextFlagDisk                    = 0x00000002,
+  FlagScanRemovedFiles               = 0x00000004,
+  FlagScanRegularFiles               = 0x00000008,
+  FlagScanIncludeRemovedDirectories  = 0x00000010
 } RESTORE_CONTEXT_FLAGS;
 ```
 
@@ -90,8 +96,8 @@ Note that there is no associated header file for this enumeration.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -102,9 +108,9 @@ Note that there is no associated header file for this enumeration.
 [**CreateFileRestoreContext**](createfilerestorecontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

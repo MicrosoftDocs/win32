@@ -1,8 +1,9 @@
 ---
 title: StringCollection.count
 description: The count property retrieves the number of items in the string collection.
-ms.assetid: 'bf02d102-deb2-4c5a-971c-d54f36dd2ad8'
-keywords: ["StringCollection.count Windows Media Player"]
+ms.assetid: bf02d102-deb2-4c5a-971c-d54f36dd2ad8
+keywords:
+- StringCollection.count Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StringCollection.count
@@ -53,9 +59,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**StringCollection Object**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Capturing TV Audio
-ms.assetid: 'c0c62a8e-ab16-4617-936c-b64e6e3865b4'
+ms.assetid: c0c62a8e-ab16-4617-936c-b64e6e3865b4
 title: Capturing TV Audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing TV Audio
@@ -22,7 +27,7 @@ hr = pBuild->RenderStream(
 
 
 
-The input pins do not have to be connected to anything. Each input pin represents a physical input on the audio capture device. Use the [**IAMAudioInputMixer**](iamaudioinputmixer.md) interface to enable the input that receives the audio stream from the tuner. The input pins are identified by name, such as "Line In" or "CD Audio." Unfortunately, the names can change from one device to the next. Also, different TV tuner cards use different inputs to the sound card. Therefore, it is up to the user to identify which input to use.
+The input pins do not have to be connected to anything. Each input pin represents a physical input on the audio capture device. Use the [**IAMAudioInputMixer**](/windows/win32/Strmif/nn-strmif-iamaudioinputmixer?branch=master) interface to enable the input that receives the audio stream from the tuner. The input pins are identified by name, such as "Line In" or "CD Audio." Unfortunately, the names can change from one device to the next. Also, different TV tuner cards use different inputs to the sound card. Therefore, it is up to the user to identify which input to use.
 
 
 ```C++

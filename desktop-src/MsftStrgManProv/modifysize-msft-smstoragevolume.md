@@ -4,11 +4,14 @@ description: Starts a job to modify the size of a storage volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e96e3c1c-f7c7-4f14-b7fa-ad912b9d7e38'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: e96e3c1c-f7c7-4f14-b7fa-ad912b9d7e38
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifySize method", "ModifySize method, MSFT_SMStorageVolume class", "MSFT_SMStorageVolume class, ModifySize method"]
+keywords:
+- ModifySize method
+- ModifySize method, MSFT_SMStorageVolume class
+- MSFT_SMStorageVolume class, ModifySize method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifySize method of the MSFT\_SMStorageVolume class
@@ -28,11 +34,11 @@ Starts a job to modify the size of a storage volume.
 
 ```mof
 uint32 ModifySize(
-  [in, out]       uint64                NewSize,
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in, out]       uint64                NewSize,
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -229,7 +235,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -243,9 +249,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageVolume**](msft-smstoragevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

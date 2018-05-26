@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an empty texture, adjusting the calling parameters as needed.'
-ms.assetid: 'ea028aa9-4f37-4625-9e07-9072ec1a61d0'
+---
+Description: Creates an empty texture, adjusting the calling parameters as needed.
+ms.assetid: ea028aa9-4f37-4625-9e07-9072ec1a61d0
 title: D3DXCreateTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateTexture function
@@ -33,9 +38,9 @@ HRESULT D3DXCreateTexture(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the device to be associated with the texture.
+Pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the device to be associated with the texture.
 
 </dd> <dt>
 
@@ -71,7 +76,7 @@ Number of mip levels requested. If this value is zero or D3DX\_DEFAULT, a comple
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-0, [**D3DUSAGE\_RENDERTARGET**](d3dusage.md), or **D3DUSAGE\_DYNAMIC**. Setting this flag to **D3DUSAGE\_RENDERTARGET** indicates that the surface is to be used as a render target by calling the [**SetRenderTarget**](idirect3ddevice9--setrendertarget.md) method. If either **D3DUSAGE\_RENDERTARGET** or **D3DUSAGE\_DYNAMIC** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](idirect3d9--checkdeviceformat.md). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
+0, [**D3DUSAGE\_RENDERTARGET**](d3dusage.md), or **D3DUSAGE\_DYNAMIC**. Setting this flag to **D3DUSAGE\_RENDERTARGET** indicates that the surface is to be used as a render target by calling the [**SetRenderTarget**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrendertarget?branch=master) method. If either **D3DUSAGE\_RENDERTARGET** or **D3DUSAGE\_DYNAMIC** is specified, the application should check that the device supports this operation by calling [**CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master). For more information about using dynamic textures, see [Using Dynamic Textures](performance-optimizations.md).
 
 </dd> <dt>
 
@@ -96,9 +101,9 @@ Member of the [**D3DPOOL**](direct3d9.d3dpool) enumerated type, describing the m
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DTEXTURE9**](idirect3dtexture9.md)\***
+Type: **[**LPDIRECT3DTEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DTexture9**](idirect3dtexture9.md) interface, representing the created texture object.
+Address of a pointer to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) interface, representing the created texture object.
 
 </dd> </dl>
 
@@ -110,7 +115,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 ## Remarks
 
-Internally, D3DXCreateTexture uses [**D3DXCheckTextureRequirements**](d3dxchecktexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateTexture will often succeed where calls to [**CreateTexture**](idirect3ddevice9--createtexture.md) would fail.
+Internally, D3DXCreateTexture uses [**D3DXCheckTextureRequirements**](d3dxchecktexturerequirements.md) to adjust the calling parameters. Therefore, calls to D3DXCreateTexture will often succeed where calls to [**CreateTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createtexture?branch=master) would fail.
 
 If both Height and Width are set to [D3DX\_DEFAULT](other-d3dx-constants.md), a value of 256 is used for both parameters. If either Height or Width is set to D3DX\_DEFAULT And the other parameter is set to a numeric value, the texture will be square with both the height and width equal to the numeric value.
 

@@ -1,8 +1,11 @@
 ---
 title: CreateInstanceFromTextRepresentation method of the MicrosoftDNS\_ResourceRecord class
 description: The CreateInstanceFromTextRepresentation method instantiates a MicrosoftDNS\_ResourceRecord object.
-ms.assetid: '19600a9a-f75d-40ad-98e5-f81465d10f79'
-keywords: ["CreateInstanceFromTextRepresentation method DNS", "CreateInstanceFromTextRepresentation method DNS , MicrosoftDNS_ResourceRecord class", "MicrosoftDNS_ResourceRecord class DNS , CreateInstanceFromTextRepresentation method"]
+ms.assetid: 19600a9a-f75d-40ad-98e5-f81465d10f79
+keywords:
+- CreateInstanceFromTextRepresentation method DNS
+- CreateInstanceFromTextRepresentation method DNS , MicrosoftDNS_ResourceRecord class
+- MicrosoftDNS_ResourceRecord class DNS , CreateInstanceFromTextRepresentation method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInstanceFromTextRepresentation method of the MicrosoftDNS\_ResourceRecord class
@@ -22,10 +30,10 @@ The **CreateInstanceFromTextRepresentation** method instantiates a [**MicrosoftD
 
 ```mof
 void CreateInstanceFromTextRepresentation(
-  [in]       string                      DnsServerName,
-  [in]       string                      ContainerName,
-  [in]       string                      TextRepresentation,
-  [out, ref] MicrosoftDNS_ResourceRecord &amp;RR
+  [in]       string                      DnsServerName,
+  [in]       string                      ContainerName,
+  [in]       string                      TextRepresentation,
+  [out, ref] MicrosoftDNS_ResourceRecord &amp;RR
 );
 ```
 
@@ -74,7 +82,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -90,9 +98,9 @@ This method does not return a value.
 [**GetObjectByTextRepresentation Method of the MicrosoftDNS\_ResourceRecord Class**](microsoftdns-resourcerecord-getobjectbytextrepresentation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

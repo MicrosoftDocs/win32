@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a reference point for a virtual system.'
-ms.assetid: 'b3ba4fa7-3b77-4a1d-ab8f-d38af12ab5dd'
-title: 'Msvm\_VirtualSystemReferencePoint class'
+Description: Represents a reference point for a virtual system.
+ms.assetid: b3ba4fa7-3b77-4a1d-ab8f-d38af12ab5dd
+title: Msvm\_VirtualSystemReferencePoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemReferencePoint class
@@ -16,13 +21,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemReferencePoint : CIM_ManagedElement
 {
-  string  InstanceID;
-  uint16  ReferencePointType;
-  uint16  ConsistencyLevel;
-  string  VirtualSystemIdentifier;
+  string  InstanceID;
+  uint16  ReferencePointType;
+  uint16  ConsistencyLevel;
+  string  VirtualSystemIdentifier;
   boolean HasAssociatedData;
-  string  VirtualDiskIdentifiers[];
-  string  ResilientChangeTrackingIdentifiers[];
+  string  VirtualDiskIdentifiers[];
+  string  ResilientChangeTrackingIdentifiers[];
 };
 ```
 
@@ -189,8 +194,8 @@ The name of the [**CIM\_ComputerSystem**](cim-computersystem.md) to which this r
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -204,9 +209,9 @@ The name of the [**CIM\_ComputerSystem**](cim-computersystem.md) to which this r
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

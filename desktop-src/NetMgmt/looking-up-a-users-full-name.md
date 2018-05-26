@@ -1,7 +1,12 @@
 ---
-title: Looking Up a User's Full Name
+title: Looking Up a Users Full Name
 description: Computers can be organized into a domain, which is a collection of computers network. The domain administrator maintains centralized user and group account information.
-ms.assetid: '296ecfd0-1b65-482c-bee1-eff2130cc14e'
+ms.assetid: 296ecfd0-1b65-482c-bee1-eff2130cc14e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Looking Up a User's Full Name
@@ -11,8 +16,8 @@ Computers can be organized into a *domain*, which is a collection of computers n
 To find the full name of a user, given the user name and domain name:
 
 -   Convert the user name and domain name to Unicode, if they are not already Unicode strings.
--   Look up the computer name of the domain controller (DC) by calling [**NetGetDCName**](netgetdcname.md).
--   Look up the user name on the DC computer by calling [**NetUserGetInfo**](netusergetinfo.md).
+-   Look up the computer name of the domain controller (DC) by calling [**NetGetDCName**](/windows/win32/Lmaccess/nf-lmaccess-netgetdcname?branch=master).
+-   Look up the user name on the DC computer by calling [**NetUserGetInfo**](/windows/win32/Lmaccess/nf-lmaccess-netusergetinfo?branch=master).
 -   Convert the full user name to ANSI, unless the program is expecting to work with Unicode strings.
 
 The following sample code is a function (GetFullName) that takes a user name and a domain name in the first two arguments and returns the user's full name in the third argument.

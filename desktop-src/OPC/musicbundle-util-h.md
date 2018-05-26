@@ -1,8 +1,25 @@
 ---
 title: util.h
 description: util.h
-ms.assetid: 'e0a8abb0-ef11-4067-9790-a899117a8dbd'
-keywords: ["Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "Packaging APIs,music bundle sample", "packaging,music bundle sample", "packages,music bundle sample", "music bundle sample,util.h", "Packaging APIs,util.h", "packaging,util.h", "packages,util.h", "util.h,music bundle sample", "sample applications,music bundle"]
+ms.assetid: e0a8abb0-ef11-4067-9790-a899117a8dbd
+keywords:
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- Packaging APIs,music bundle sample
+- packaging,music bundle sample
+- packages,music bundle sample
+- music bundle sample,util.h
+- Packaging APIs,util.h
+- packaging,util.h
+- packages,util.h
+- util.h,music bundle sample
+- sample applications,music bundle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # util.h

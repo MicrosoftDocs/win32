@@ -1,7 +1,12 @@
 ---
 title: The Agent Object Model
 description: The Agent Object Model
-ms.assetid: '4ec6ec3f-9772-4e29-9482-b9860092f053'
+ms.assetid: 4ec6ec3f-9772-4e29-9482-b9860092f053
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Agent Object Model

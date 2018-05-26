@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service provides four folders that allow you to manage incoming and outgoing faxes.'
-ms.assetid: '60cc6263-cfd0-431c-8346-22ca3f374916'
+Description: The fax service provides four folders that allow you to manage incoming and outgoing faxes.
+ms.assetid: 60cc6263-cfd0-431c-8346-22ca3f374916
 title: Fax Folders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Folders
@@ -34,7 +39,7 @@ For more information, see the [**FaxIncomingArchive**](-mfax-faxincomingarchive.
 -   [Archived Broadcast Messages](-mfax-archived-broadcast-messages.md)
 -   [Retrieving Messages from the Fax Archives](-mfax-retrieving-messages-from-the-fax-archives.md)
 
-The archiving of fax messages is optional, and can be set using the [**IFaxIncomingArchive::get\_UseArchive**](-mfax-faxincomingarchive-cpp-mfax-faxincomingarchive-usearchive-cpp.md) and [**IFaxOutgoingArchive::get\_UseArchive**](-mfax-faxoutgoingarchive-cpp-mfax-faxoutgoingarchive-usearchive-cpp.md) methods. (In Windows Vista, [**IFaxConfiguration:UseArchive**](-mfax-ifaxconfiguration-usearchive.md) method.)
+The archiving of fax messages is optional, and can be set using the [**IFaxIncomingArchive::get\_UseArchive**](/windows/previous-versions/FaxComex/?branch=master) and [**IFaxOutgoingArchive::get\_UseArchive**](/windows/previous-versions/FaxComex/?branch=master) methods. (In Windows Vista, [**IFaxConfiguration:UseArchive**](/windows/previous-versions/Faxcomex/nf-faxcomex-ifaxconfiguration-get_usearchive?branch=master) method.)
 
 ## Archived Message Iterator
 

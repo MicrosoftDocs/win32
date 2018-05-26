@@ -4,26 +4,31 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60bf04e7-a6f4-4abe-8439-81ac67bbab8c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 60bf04e7-a6f4-4abe-8439-81ac67bbab8c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["MulticastDisabled Failover Cluster ,for networks", "MulticastDisabled Failover Cluster"]
+keywords:
+- MulticastDisabled Failover Cluster ,for networks
+- MulticastDisabled Failover Cluster
 topic_type:
 - apiref
 api_name:
 - MulticastDisabled
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MulticastDisabled
 
-\[The **MulticastDisabled** property is no longer available for use as of Windows Server 2012.\]
+\[The **MulticastDisabled** property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 Enables or disables [*heartbeat*](h-gly.md#-wolf-heartbeat-gly) multicasting for a [network](networks.md). The following table summarizes the attributes of the **MulticastDisabled** property.
 
@@ -34,14 +39,14 @@ Enables or disables [*heartbeat*](h-gly.md#-wolf-heartbeat-gly) multicasting for
 | Data type | **DWORD**                                      |
 | Access    | [Read/write](read-write-properties.md)        |
 | Status    | Optional                                       |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md)      |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)      |
 | Minimum   | 0 (multicast enabled)                          |
 | Maximum   | any nonzero to 0xFFFFFFFF (multicast disabled) |
 | Default   | 0 (multicast enabled)                          |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,8 +75,8 @@ MulticastDisabledValue.dw        = MulticastDisabledData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -91,9 +96,9 @@ MulticastDisabledValue.dw        = MulticastDisabledData;
 [**MulticastConfigType**](networks-multicastconfigtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

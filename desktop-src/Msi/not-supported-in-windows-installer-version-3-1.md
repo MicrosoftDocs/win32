@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.1 and earlier versions.'
-ms.assetid: 'fbf75dbe-3fa1-424b-83bb-cfd0b179107c'
-title: 'Not Supported in Windows Installer 3.1'
+Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.1 and earlier versions.
+ms.assetid: fbf75dbe-3fa1-424b-83bb-cfd0b179107c
+title: Not Supported in Windows Installer 3.1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Not Supported in Windows Installer 3.1
@@ -14,7 +19,7 @@ The following features are not supported in Windows Installer 3.1 and earlier v
 
 [Installer Functions](installer-functions.md)
 
--   [**MsiGetPatchFileList**](msigetpatchfilelist.md)
+-   [**MsiGetPatchFileList**](/windows/win32/Msi/nf-msi-msigetpatchfilelista?branch=master)
 
 [Properties](properties.md)
 
@@ -58,7 +63,7 @@ The following features are not supported in Windows Installer 3.1 and earlier v
 
 -   [RmShutdownAndRestart](rmshutdownandrestart-controlevent.md)
 
-[External UI Message Types](msisetexternalui.md)
+[External UI Message Types](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master)
 
 -   INSTALLLOGMODE\_RMFILESINUSE
 

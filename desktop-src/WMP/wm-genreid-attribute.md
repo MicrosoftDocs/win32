@@ -1,14 +1,20 @@
 ---
 title: WM/GenreID Attribute
 description: The WM/GenreID attribute is a genre identifier compliant with the TCON tag in ID3v2.
-ms.assetid: '9b68f9be-1f02-4b14-b052-90657b8800e3'
-keywords: ["WM/GenreID Attribute Windows Media Player"]
+ms.assetid: 9b68f9be-1f02-4b14-b052-90657b8800e3
+keywords:
+- WM/GenreID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/GenreID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/GenreID Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

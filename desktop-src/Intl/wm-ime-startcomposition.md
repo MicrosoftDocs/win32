@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent immediately before the IME generates the composition string as a result of a keystroke. A window receives this message through its WindowProc function.'
-ms.assetid: '2740d009-8685-4f70-9b01-67b71f4ddcbd'
-title: 'WM\_IME\_STARTCOMPOSITION message'
+---
+Description: Sent immediately before the IME generates the composition string as a result of a keystroke. A window receives this message through its WindowProc function.
+ms.assetid: 2740d009-8685-4f70-9b01-67b71f4ddcbd
+title: WM\_IME\_STARTCOMPOSITION message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_STARTCOMPOSITION message

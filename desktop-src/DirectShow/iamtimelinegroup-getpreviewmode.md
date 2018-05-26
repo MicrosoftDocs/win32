@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPreviewMode method retrieves the preview mode for the group.'
-ms.assetid: '635354e5-5cb2-4045-8a7f-21d31005c5f3'
-title: 'IAMTimelineGroup::GetPreviewMode method'
+---
+Description: The GetPreviewMode method retrieves the preview mode for the group.
+ms.assetid: 635354e5-5cb2-4045-8a7f-21d31005c5f3
+title: IAMTimelineGroupGetPreviewMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::GetPreviewMode method

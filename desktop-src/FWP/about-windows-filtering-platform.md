@@ -1,12 +1,17 @@
 ---
 title: About Windows Filtering Platform
-description: Windows Filtering Platform (WFP) is a network traffic processing platform designed to replace the Windows XP and Windows Server 2003 network traffic filtering interfaces.
-ms.assetid: '6faad008-b2f6-4f45-89c7-ae98c2f58ce1'
+description: Windows Filtering Platform (WFP) is a network traffic processing platform designed to replace the Windows XP and Windows Server 2003 network traffic filtering interfaces.
+ms.assetid: 6faad008-b2f6-4f45-89c7-ae98c2f58ce1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Filtering Platform
 
-Windows Filtering Platform (WFP) is a network traffic processing platform designed to replace the Windows XP and Windows Server 2003 network traffic filtering interfaces. WFP consists of a set of hooks into the network stack and a filtering engine that coordinates network stack interactions.
+Windows Filtering Platform (WFP) is a network traffic processing platform designed to replace the Windows XP and Windows Server 2003 network traffic filtering interfaces. WFP consists of a set of hooks into the network stack and a filtering engine that coordinates network stack interactions.
 
 The WFP components are as follows.
 
@@ -16,7 +21,7 @@ Description
 
 Filter Engine
 
-The core multi-layer filtering infrastructure, hosted in both kernel-mode and user-mode, that replaces the multiple filtering modules in the Windows XP and Windows Server 2003 networking subsystem.
+The core multi-layer filtering infrastructure, hosted in both kernel-mode and user-mode, that replaces the multiple filtering modules in the Windows XP and Windows Server 2003 networking subsystem.
 
 -   Filters network traffic at any layer in the system over any data fields that a shim can provide.
 -   Implements the "Callout" filters by invoking callouts during classification.
@@ -61,7 +66,7 @@ A set of data types and functions available to the developers to build and manag
 
 
 
- 
+ 
 
 ## WFP Features
 
@@ -109,9 +114,9 @@ A set of data types and functions available to the developers to build and manag
 [WFP API](api-sets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

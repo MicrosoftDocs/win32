@@ -1,7 +1,12 @@
 ---
-Description: 'Destructor method.'
-ms.assetid: 'e92c040a-54af-4c6d-b7f0-0700fa44cbd8'
-title: 'CAMSchedule.~CAMSchedule destructor'
+Description: Destructor method.
+ms.assetid: e92c040a-54af-4c6d-b7f0-0700fa44cbd8
+title: CAMSchedule.~CAMSchedule destructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.~CAMSchedule destructor
@@ -35,9 +40,9 @@ Destructor method.
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

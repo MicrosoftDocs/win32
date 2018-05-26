@@ -1,8 +1,15 @@
 ---
 title: Enumerating Tasks and Displaying Task Information
 description: Displaying information about a task, such as the task name, state, or the last time the task was run, is done by enumerating through running tasks or the tasks in a task folder and displaying the desired information.
-ms.assetid: 'a0305089-89ff-42b7-b3f1-99a6484d2e5e'
-keywords: ["enumerating tasks Task Scheduler", "Task Scheduler examples Task Scheduler , enumerating tasks"]
+ms.assetid: a0305089-89ff-42b7-b3f1-99a6484d2e5e
+keywords:
+- enumerating tasks Task Scheduler
+- Task Scheduler examples Task Scheduler , enumerating tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Tasks and Displaying Task Information

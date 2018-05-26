@@ -4,9 +4,9 @@ description: Constants for specifying security mode.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'DF3249F1-AB84-4DF2-BDF5-65C9DD42554E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: DF3249F1-AB84-4DF2-BDF5-65C9DD42554E
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 topic_type:
 - apiref
@@ -18,6 +18,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # API mode values
@@ -65,9 +68,9 @@ Used for more trusted systems, such as those running on a server operating syste
 This value is not supported and should not be used.
 
 > [!Note]  
-> This value may be removed from future versions of the RMS SDK 2.1.
+> This value may be removed from future versions of the RMS SDK 2.1.
 
- 
+ 
 
 The behavior of [**IpcSetGlobalProperty**](ipcsetglobalproperty.md) is undefined when using this value with the **IPC\_EI\_API\_MODE** property.
 
@@ -84,8 +87,8 @@ The security mode is queried or set by calling [**IpcGetGlobalProperty**](ipcget
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -106,9 +109,9 @@ The security mode is queried or set by calling [**IpcGetGlobalProperty**](ipcget
 [**Environment Properties**](environment-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

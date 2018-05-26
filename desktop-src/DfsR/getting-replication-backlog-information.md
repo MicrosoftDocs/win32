@@ -4,13 +4,17 @@ description: VBScript example shows how to use the DfsrReplicatedFolderConfig, D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '37b8c2b9-69f5-431c-bfb4-f7a3d91d4301'
-ms.prod: 'windows-server-dev'
+ms.assetid: 37b8c2b9-69f5-431c-bfb4-f7a3d91d4301
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication examples Files , getting replication backlog information"]
+keywords:
+- Distributed File System Replication examples Files , getting replication backlog information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Replication Backlog Information

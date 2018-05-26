@@ -1,7 +1,12 @@
-﻿---
-Description: 'The data types for Protected Storage methods.'
-ms.assetid: '4d494326-6d0f-4a12-83a2-3c3dd3ca9c1b'
+---
+Description: The data types for Protected Storage methods.
+ms.assetid: 4d494326-6d0f-4a12-83a2-3c3dd3ca9c1b
 title: PStore Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PStore Types

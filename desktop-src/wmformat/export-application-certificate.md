@@ -1,8 +1,22 @@
 ---
 title: Export Application Certificate
 description: Export Application Certificate
-ms.assetid: 'db450028-6753-4f96-9f63-fb34f6f5b90f'
-keywords: ["Windows Media Format SDK,DRM export", "Windows Media Format SDK,export", "digital rights management (DRM),export", "DRM (digital rights management),export", "digital rights management (DRM),Export Application Certificate", "DRM (digital rights management),Export Application Certificate", "DRM Client Extended APIs,Export Application Certificate", "Client Extended APIs,Export Application Certificate", "Export Application Certificate"]
+ms.assetid: db450028-6753-4f96-9f63-fb34f6f5b90f
+keywords:
+- Windows Media Format SDK,DRM export
+- Windows Media Format SDK,export
+- digital rights management (DRM),export
+- DRM (digital rights management),export
+- digital rights management (DRM),Export Application Certificate
+- DRM (digital rights management),Export Application Certificate
+- DRM Client Extended APIs,Export Application Certificate
+- Client Extended APIs,Export Application Certificate
+- Export Application Certificate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Export Application Certificate

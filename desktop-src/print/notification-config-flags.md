@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'B53AB706-D780-4E29-A531-51D3A9041D24'
-title: 'NOTIFICATION\_CONFIG\_FLAGS enumeration'
+---
+Description: .
+ms.assetid: B53AB706-D780-4E29-A531-51D3A9041D24
+title: NOTIFICATION\_CONFIG\_FLAGS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NOTIFICATION\_CONFIG\_FLAGS enumeration

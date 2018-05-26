@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the cross-product in four dimensions.'
-ms.assetid: '10b965c9-7ed7-450c-86a0-114f068c888f'
+---
+Description: Determines the cross-product in four dimensions.
+ms.assetid: 10b965c9-7ed7-450c-86a0-114f068c888f
 title: D3DXVec4Cross function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec4Cross function

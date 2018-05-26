@@ -1,7 +1,12 @@
-﻿---
-Description: 'Releases exclusive access to the smart card.'
-ms.assetid: '12256c91-faf2-4a06-9501-f00d0115a069'
-title: 'ISCard::UnlockSCard method'
+---
+Description: Releases exclusive access to the smart card.
+ms.assetid: 12256c91-faf2-4a06-9501-f00d0115a069
+title: ISCardUnlockSCard method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCard::UnlockSCard method

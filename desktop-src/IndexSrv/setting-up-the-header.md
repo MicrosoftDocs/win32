@@ -1,7 +1,12 @@
 ---
 title: Setting Up the Header
 description: Setting Up the Header
-ms.assetid: '08fbd123-d166-4f6f-b55e-ec81bff5c78e'
+ms.assetid: 08fbd123-d166-4f6f-b55e-ec81bff5c78e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Up the Header

@@ -1,7 +1,12 @@
 ---
 title: Reviewing Accuracy and Style of Help Content
 description: You should test content, images, and other text to make sure that all text is accurate and complete and that it follows editorial guidelines.
-ms.assetid: '34EEB0A2-F4B7-430e-B0A0-455D86185F3D'
+ms.assetid: 34EEB0A2-F4B7-430e-B0A0-455D86185F3D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reviewing Accuracy and Style of Help Content

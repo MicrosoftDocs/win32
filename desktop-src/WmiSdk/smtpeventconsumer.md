@@ -1,13 +1,16 @@
 ---
-Description: 'The SMTPEventConsumer class sends an email message by using Simple Mail Transfer Protocol (SMTP) each time an event is delivered to it.'
+Description: The SMTPEventConsumer class sends an email message by using Simple Mail Transfer Protocol (SMTP) each time an event is delivered to it.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '42178360-9e22-4cd1-9b72-5f6b0d7e6c9c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 42178360-9e22-4cd1-9b72-5f6b0d7e6c9c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SMTPEventConsumer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SMTPEventConsumer class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [AMENDMENT]
 class SMTPEventConsumer : __EventConsumer
 {
-  uint8  CreatorSID[];
+  uint8  CreatorSID[];
   string MachineName;
   uint32 MaximumQueueSize;
   string BccLine;
@@ -248,8 +251,8 @@ For an example of using **SMTPEventConsumer** to create a consumer, see [Sending
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\subscription<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>Smtpcons.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Smtpcons.dll</dt> </dl> |
@@ -275,9 +278,9 @@ For an example of using **SMTPEventConsumer** to create a consumer, see [Sending
 [Receiving Events At All Times](receiving-events-at-all-times.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

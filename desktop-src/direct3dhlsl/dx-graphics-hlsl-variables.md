@@ -1,7 +1,12 @@
 ---
 title: Variables
 description: HLSL variables are similar to variables defined in the C programming language.
-ms.assetid: 'a66612e1-af01-4ddc-9a69-995f61d81f40'
+ms.assetid: a66612e1-af01-4ddc-9a69-995f61d81f40
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variables

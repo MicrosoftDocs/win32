@@ -1,7 +1,12 @@
 ---
-Description: 'Flags for a WP8 camera device.'
-ms.assetid: '82c24d0e-12c4-436b-8a1d-452819412954'
-title: 'System.Devices.WinPhone8CameraFlags'
+Description: Flags for a WP8 camera device.
+ms.assetid: 82c24d0e-12c4-436b-8a1d-452819412954
+title: System.Devices.WinPhone8CameraFlags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.WinPhone8CameraFlags

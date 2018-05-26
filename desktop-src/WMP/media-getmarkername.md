@@ -1,8 +1,11 @@
 ---
 title: Media.getMarkerName method
 description: The getMarkerName method retrieves the name of the marker at the specified index.
-ms.assetid: '86c3931f-5790-43f5-896d-1728c38247a9'
-keywords: ["getMarkerName method Windows Media Player", "getMarkerName method Windows Media Player , Media class", "Media class Windows Media Player , getMarkerName method"]
+ms.assetid: 86c3931f-5790-43f5-896d-1728c38247a9
+keywords:
+- getMarkerName method Windows Media Player
+- getMarkerName method Windows Media Player , Media class
+- Media class Windows Media Player , getMarkerName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.getMarkerName method
@@ -107,9 +115,9 @@ for (var i = 1; i < mcount + 1; i++){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

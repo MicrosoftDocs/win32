@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the effective URL of a byte stream.'
-ms.assetid: '0A83CFC0-7EAA-464B-BA39-50DF220AF683'
-title: 'MF\_BYTESTREAM\_EFFECTIVE\_URL attribute'
+---
+Description: Gets the effective URL of a byte stream.
+ms.assetid: 0A83CFC0-7EAA-464B-BA39-50DF220AF683
+title: MF\_BYTESTREAM\_EFFECTIVE\_URL attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_BYTESTREAM\_EFFECTIVE\_URL attribute
@@ -12,13 +17,13 @@ Gets the effective URL of a byte stream.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetString**](imfattributes-getstring.md).
+To get this attribute, call [**IMFAttributes::GetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getstring?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetString**](imfattributes-setstring.md).
+To set this attribute, call [**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master).
 
 ## Applies to
 
-[**IMFByteStream**](imfbytestream.md)
+[**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master)
 
 ## Remarks
 
@@ -46,7 +51,7 @@ The effective URL can differ from the original URL if the original URL contains 
 [Byte Stream Attributes](byte-stream-attributes.md)
 </dt> <dt>
 
-[**IMFByteStream**](imfbytestream.md)
+[**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master)
 </dt> </dl>
 
  

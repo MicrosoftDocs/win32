@@ -1,14 +1,20 @@
 ---
 title: ContextPopup.ContextMaps property
 description: Represents a container for ContextMap elements.
-ms.assetid: '06dfd4ba-a1d8-48bb-b185-d265e007a820'
-keywords: ["ContextPopup.ContextMaps property Windows Ribbon"]
+ms.assetid: 06dfd4ba-a1d8-48bb-b185-d265e007a820
+keywords:
+- ContextPopup.ContextMaps property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ContextPopup.ContextMaps
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextPopup.ContextMaps property
@@ -150,8 +156,8 @@ This section of code shows a **ContextPopup.ContextMaps** control declaration.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -162,9 +168,9 @@ This section of code shows a **ContextPopup.ContextMaps** control declaration.
 [Context Popup control](windowsribbon-controls-contextpopup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

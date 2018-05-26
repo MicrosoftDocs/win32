@@ -1,7 +1,12 @@
 ---
-Description: 'In Winsock applications, a socket descriptor is not a file descriptor and must be used with the Winsock functions.'
-ms.assetid: 'bc434b35-9231-4b03-bc8f-cf59aaeb821e'
+Description: In Winsock applications, a socket descriptor is not a file descriptor and must be used with the Winsock functions.
+ms.assetid: bc434b35-9231-4b03-bc8f-cf59aaeb821e
 title: Socket Data Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Socket Data Type
@@ -16,7 +21,7 @@ Windows Sockets handles have no restrictions, other than that the value INVALID\
 
 Because the **SOCKET** type is unsigned, compiling existing source code from, for example, a UNIX environment may lead to compiler warnings about signed/unsigned data type mismatches.
 
-This means, for example, that checking for errors when the [**socket**](socket-2.md) and [**accept**](accept-2.md) functions return should not be done by comparing the return value with –1, or seeing if the value is negative (both common and legal approaches in UNIX). Instead, an application should use the manifest constant INVALID\_SOCKET as defined in the *Winsock2.h* header file. For example:
+This means, for example, that checking for errors when the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) and [**accept**](/windows/win32/Winsock2/nf-winsock2-accept?branch=master) functions return should not be done by comparing the return value with –1, or seeing if the value is negative (both common and legal approaches in UNIX). Instead, an application should use the manifest constant INVALID\_SOCKET as defined in the *Winsock2.h* header file. For example:
 
 Typical BSD UNIX Style
 

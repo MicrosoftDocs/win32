@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of EKU objects.'
-ms.assetid: '04b9f0bf-e1d4-4a2c-be5d-bae7c1090bdb'
+---
+Description: Represents a collection of EKU objects.
+ms.assetid: 04b9f0bf-e1d4-4a2c-be5d-bae7c1090bdb
 title: EKUs object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EKUs object

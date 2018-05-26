@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine SCSIControllers property
 description: The SCSIControllers property contains an enumerable collection of SCSI controllers attached to the virtual machine.
-ms.assetid: 'f9830608-8418-4910-8a48-d93dba56235e'
-keywords: ["SCSIControllers property Virtual Server", "SCSIControllers property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , SCSIControllers property", "SCSIControllers property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , SCSIControllers property"]
+ms.assetid: f9830608-8418-4910-8a48-d93dba56235e
+keywords:
+- SCSIControllers property Virtual Server
+- SCSIControllers property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , SCSIControllers property
+- SCSIControllers property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , SCSIControllers property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::SCSIControllers property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SCSIControllers(
-  [out] IVMSCSIControllerCollection **scsiControllerCollection
+  [out] IVMSCSIControllerCollection **scsiControllerCollection
 );
 ```
 
@@ -93,8 +103,8 @@ WScript.Echo "SCSI controllers: " & colSCSIs.Count
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -106,9 +116,9 @@ WScript.Echo "SCSI controllers: " & colSCSIs.Count
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

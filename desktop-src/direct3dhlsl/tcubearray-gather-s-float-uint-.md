@@ -1,14 +1,20 @@
 ---
 title: Gather(S,float,uint) function
 description: Samples a texture and returns all four components along with status about the operation.
-ms.assetid: 'B5C1843C-8DE4-4007-B619-2CC09B8A023B'
-keywords: ["Gather function HLSL"]
+ms.assetid: B5C1843C-8DE4-4007-B619-2CC09B8A023B
+keywords:
+- Gather function HLSL
 topic_type:
 - apiref
 api_name:
 - Gather
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gather(S,float,uint) function

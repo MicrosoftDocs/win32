@@ -1,8 +1,11 @@
 ---
 title: External.addToBasket method
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'c0dc8cd7-b924-47b8-b36c-caff8f1f892f'
-keywords: ["addToBasket method Windows Media Player", "addToBasket method Windows Media Player , External class", "External class Windows Media Player , addToBasket method"]
+ms.assetid: c0dc8cd7-b924-47b8-b36c-caff8f1f892f
+keywords:
+- addToBasket method Windows Media Player
+- addToBasket method Windows Media Player , External class
+- External class Windows Media Player , addToBasket method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.addToBasket method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **addToBasket** method adds media items to the list pane (also called the basket) in Windows Media Player.
 
@@ -91,9 +99,9 @@ This method does not return a value.
 [**External.basketTitle**](external-baskettitle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

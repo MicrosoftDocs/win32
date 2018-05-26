@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining page creation callbacks, which specify property sheet pages for creation.'
-ms.assetid: 'b78d0dd7-1fe9-4b7e-8f51-4b5dc5fa2571'
+---
+Description: The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining page creation callbacks, which specify property sheet pages for creation.
+ms.assetid: b78d0dd7-1fe9-4b7e-8f51-4b5dc5fa2571
 title: PFNPROPSHEETUI callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFNPROPSHEETUI callback function

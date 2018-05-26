@@ -4,11 +4,22 @@ description: Specifies the authentication level to use for the connection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09ff1508-f13d-4bb0-8458-6f5a5e099bae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 09ff1508-f13d-4bb0-8458-6f5a5e099bae
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["AuthenticationLevel property Remote Desktop Services", "AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface", "IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , AuthenticationLevel property", "AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface", "IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , AuthenticationLevel property", "AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , AuthenticationLevel property", "AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AuthenticationLevel property", "AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AuthenticationLevel property"]
+keywords:
+- AuthenticationLevel property Remote Desktop Services
+- AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings4 interface
+- IMsRdpClientAdvancedSettings4 interface Remote Desktop Services , AuthenticationLevel property
+- AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings5 interface
+- IMsRdpClientAdvancedSettings5 interface Remote Desktop Services , AuthenticationLevel property
+- AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , AuthenticationLevel property
+- AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , AuthenticationLevel property
+- AuthenticationLevel property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , AuthenticationLevel property
 topic_type:
 - apiref
 api_name:
@@ -31,6 +42,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings4::AuthenticationLevel property
@@ -44,11 +58,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AuthenticationLevel(
-  [in]  UINT uiAuthLevel
+  [in]  UINT uiAuthLevel
 );
 
 HRESULT get_AuthenticationLevel(
-  [out] UINT *puiAuthLevel
+  [out] UINT *puiAuthLevel
 );
 ```
 
@@ -95,8 +109,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008, Windows Server 2008 with SP1<br/>                                     |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings4 is defined as FBA7F64E-7345-4405-AE50-FA4A763DC0DE<br/> |
@@ -122,9 +136,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [**IMsRdpClientAdvancedSettings4**](imsrdpclientadvancedsettings4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

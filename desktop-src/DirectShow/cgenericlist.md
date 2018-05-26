@@ -1,7 +1,12 @@
 ---
-Description: 'The CGenericList class template that implements a type-specific list. For more information, see CBaseList.'
-ms.assetid: '69067530-3a7d-4731-8ac6-9d02dbba8440'
+Description: The CGenericList class template that implements a type-specific list. For more information, see CBaseList.
+ms.assetid: 69067530-3a7d-4731-8ac6-9d02dbba8440
 title: CGenericList class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList class
@@ -49,7 +54,7 @@ typedef CGenericList<IUnknown> CBaseInterfaceList;
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -62,9 +67,9 @@ typedef CGenericList<IUnknown> CBaseInterfaceList;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

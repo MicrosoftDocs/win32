@@ -1,7 +1,12 @@
 ---
 title: Input Classes
 description: The user input devices are represented by these classes. A virtual system always has one instance of each class associated with it.
-ms.assetid: '36db8257-76a7-4082-987c-01c208c2e499'
+ms.assetid: 36db8257-76a7-4082-987c-01c208c2e499
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Classes
@@ -24,7 +29,7 @@ The following are virtualization WMI classes related to input.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +38,9 @@ The following are virtualization WMI classes related to input.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

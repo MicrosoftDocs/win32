@@ -1,7 +1,12 @@
 ---
-Description: 'The ODBCTranslator table lists the ODBC translators belonging to the installation.'
-ms.assetid: 'fecb7454-29bb-4ddf-b4d5-2e56c20ff2dc'
+Description: The ODBCTranslator table lists the ODBC translators belonging to the installation.
+ms.assetid: fecb7454-29bb-4ddf-b4d5-2e56c20ff2dc
 title: ODBCTranslator Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ODBCTranslator Table

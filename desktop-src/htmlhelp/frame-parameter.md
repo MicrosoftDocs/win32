@@ -1,7 +1,12 @@
 ---
 title: Frame Parameter
 description: Use the Frame parameter to specify the frame in which you want target topics to appear.
-ms.assetid: 'B87C4D51-C273-437e-94E3-085CA5DD0388'
+ms.assetid: B87C4D51-C273-437e-94E3-085CA5DD0388
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frame Parameter

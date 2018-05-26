@@ -1,7 +1,12 @@
 ---
 title: CPU Usage by Thread \ Thread Priority 0\
 description: CPU Usage by Thread \ Thread Priority 0\
-ms.assetid: 'bd75e07e-36bb-467d-ad2e-da626d2075ef'
+ms.assetid: bd75e07e-36bb-467d-ad2e-da626d2075ef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Usage by Thread \[Thread Priority &gt;= 0\]

@@ -1,7 +1,12 @@
 ---
 title: About HTML Help URLs
 description: About HTML Help URLs
-ms.assetid: 'DB3F1302-6933-45e8-9AF7-E3C075549B51'
+ms.assetid: DB3F1302-6933-45e8-9AF7-E3C075549B51
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About HTML Help URLs

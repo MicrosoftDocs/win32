@@ -1,14 +1,20 @@
 ---
 title: asfloat
 description: Interprets the bit pattern of x as a floating-point number.
-ms.assetid: '48e1e0cb-8578-4e6d-8c46-2b8b201906c1'
-keywords: ["asfloat HLSL"]
+ms.assetid: 48e1e0cb-8578-4e6d-8c46-2b8b201906c1
+keywords:
+- asfloat HLSL
 topic_type:
 - apiref
 api_name:
 - asfloat
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # asfloat
@@ -22,7 +28,7 @@ Interprets the bit pattern of *x* as a floating-point number.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Interprets the bit pattern of *x* as a floating-point number.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The input interpreted as a floating-point number.
 
 
 
- 
+ 
 
 ## Function Overloads
 
@@ -75,7 +81,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,9 +94,9 @@ Older compilers incorrectly allowed `asfloat(bool)`, but note that bool inputs a
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

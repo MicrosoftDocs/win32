@@ -4,11 +4,13 @@ description: Represents a classification task.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '79571ae1-726e-491b-b41e-6cd10cdf3936'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 79571ae1-726e-491b-b41e-6cd10cdf3936
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMClassification class File Server Resource Manager", "MSFT_FSRMClassification class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMClassification class File Server Resource Manager
+- MSFT_FSRMClassification class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMClassification class
@@ -39,14 +44,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMClassification
 {
-  string                 Server;
-  string                 LastError;
-  uint32                 Status;
-  string                 ExcludeNamespace[];
+  string                 Server;
+  string                 LastError;
+  uint32                 Status;
+  string                 ExcludeNamespace[];
   MSFT_FSRMScheduledTask Schedule;
-  boolean                Continuous;
-  boolean                ContinuousLog;
-  uint64                 ContinuousLogSize;
+  boolean                Continuous;
+  boolean                ContinuousLog;
+  uint64                 ContinuousLogSize;
 };
 ```
 
@@ -71,7 +76,7 @@ The **MSFT\_FSRMClassification** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -231,7 +236,7 @@ The classification job is running.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -245,9 +250,9 @@ The classification job is running.
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

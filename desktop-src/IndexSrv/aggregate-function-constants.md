@@ -1,7 +1,12 @@
 ---
 title: Aggregate Function Constants
 description: Aggregate Function Constants
-ms.assetid: 'b9b4ea13-9db7-498e-b62f-acbe76c2bb3b'
+ms.assetid: b9b4ea13-9db7-498e-b62f-acbe76c2bb3b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Aggregate Function Constants

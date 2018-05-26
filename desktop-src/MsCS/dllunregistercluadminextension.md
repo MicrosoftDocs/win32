@@ -4,17 +4,21 @@ description: Cancels the registration of a Failover Cluster Administrator \ 32; 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8e139896-f9b3-4b17-a8da-9416f70d2565'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 8e139896-f9b3-4b17-a8da-9416f70d2565
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DllUnregisterCluAdminExtension callback function Failover Cluster"]
+keywords:
+- DllUnregisterCluAdminExtension callback function Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DllUnregisterCluAdminExtension
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DllUnregisterCluAdminExtension callback function
@@ -26,7 +30,7 @@ Cancels the registration of a [Failover Cluster Administrator](cluster-administr
 
 ```C++
 HRESULT STDAPICALLTYPE DllUnregisterCluAdminExtension(
-  _In_ HCLUSTER hCluster
+  _In_ HCLUSTER hCluster
 );
 ```
 
@@ -69,13 +73,13 @@ You must implement this function in your extension DLL. Remove the **CLSID** of 
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

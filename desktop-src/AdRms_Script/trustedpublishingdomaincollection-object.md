@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a collection of TrustedPublishingDomain objects.'
+Description: Contains a collection of TrustedPublishingDomain objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'a1857449-84a0-40a2-8a95-16c586dbb23c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: a1857449-84a0-40a2-8a95-16c586dbb23c
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TrustedPublishingDomainCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TrustedPublishingDomainCollection object
@@ -41,7 +44,7 @@ The **TrustedPublishingDomainCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +59,7 @@ The **TrustedPublishingDomainCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -156,7 +159,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -174,9 +177,9 @@ END SUB
 [**TrustPolicy**](trustpolicy-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

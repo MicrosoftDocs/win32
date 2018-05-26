@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the bone offset matrix.'
-ms.assetid: 'f8ac1117-510d-42af-a6bf-422cbaaf6b74'
-title: 'ID3DXSkinInfo::SetBoneOffsetMatrix method'
+---
+Description: Sets the bone offset matrix.
+ms.assetid: f8ac1117-510d-42af-a6bf-422cbaaf6b74
+title: ID3DXSkinInfoSetBoneOffsetMatrix method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::SetBoneOffsetMatrix method

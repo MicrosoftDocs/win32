@@ -1,8 +1,15 @@
 ---
 title: About Internet Connection Sharing and Internet Connection Firewall
 description: With the Internet Connection Sharing and Internet Connection Firewall (ICS/ICF) API, you can allow applications to enable, disable, and configure these services.
-ms.assetid: '8a376ed0-7c00-4e7a-801a-8b439867ae28'
-keywords: ["Internet Connection Sharing ICS", "described"]
+ms.assetid: 8a376ed0-7c00-4e7a-801a-8b439867ae28
+keywords:
+- Internet Connection Sharing ICS
+- described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Internet Connection Sharing and Internet Connection Firewall

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the application's callback interface for the IMFBufferListNotify.'
-ms.assetid: '9A68B650-97C0-4323-ACBF-5C8E496E8566'
-title: 'MF\_MSE\_BUFFERLIST\_CALLBACK attribute'
+---
+Description: Contains a pointer to the applications callback interface for the IMFBufferListNotify.
+ms.assetid: 9A68B650-97C0-4323-ACBF-5C8E496E8566
+title: MF\_MSE\_BUFFERLIST\_CALLBACK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MSE\_BUFFERLIST\_CALLBACK attribute
 
-Contains a pointer to the application's callback interface for the [**IMFBufferListNotify**](imfbufferlistnotify.md).
+Contains a pointer to the application's callback interface for the [**IMFBufferListNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify?branch=master).
 
 ## Data type
 

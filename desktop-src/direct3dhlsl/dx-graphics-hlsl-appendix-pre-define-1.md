@@ -1,7 +1,12 @@
 ---
-title: \ define Directive
+title: '\ define Directive'
 description: Preprocessor directive that assigns a meaningful name to a constant in your application.
-ms.assetid: 'cc9b34a3-4c83-4999-99ec-e6261ecb2785'
+ms.assetid: cc9b34a3-4c83-4999-99ec-e6261ecb2785
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \#define Directive
@@ -15,7 +20,7 @@ Preprocessor directive that assigns a meaningful name to a constant in your appl
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -28,7 +33,7 @@ Preprocessor directive that assigns a meaningful name to a constant in your appl
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -90,9 +95,9 @@ var = 80 + 10 * 20;
 [\#undef Directive (DirectX HLSL)](dx-graphics-hlsl-appendix-pre-undef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

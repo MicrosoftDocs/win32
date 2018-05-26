@@ -4,17 +4,22 @@ description: DFS link path relative to the DFS root target share (that is, witho
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '98fd6e99-0d7e-4ffa-b8ec-d26ca03ffead'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 98fd6e99-0d7e-4ffa-b8ec-d26ca03ffead
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Link-Path-v2 attribute AD Schema", "msDFS-LinkPathv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Link-Path-v2 attribute AD Schema
+- msDFS-LinkPathv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Link-Path-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Link-Path-v2 attribute
@@ -38,9 +43,9 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Source
-ms.assetid: '8c5d1050-a696-4a5d-be68-806420d0cd78'
+ms.assetid: 8c5d1050-a696-4a5d-be68-806420d0cd78
 title: Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source

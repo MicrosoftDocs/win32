@@ -1,8 +1,14 @@
 ---
 title: RPC\_BINDING\_HANDLE
 description: The RPC\_BINDING HANDLE data type declares a binding handle containing information that the RPC run-time library uses to access binding information.
-ms.assetid: '3e07d9e9-04d8-4f94-8104-cd0ee89a9407'
-keywords: ["RPC_BINDING_HANDLE"]
+ms.assetid: 3e07d9e9-04d8-4f94-8104-cd0ee89a9407
+keywords:
+- RPC_BINDING_HANDLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RPC\_BINDING\_HANDLE
@@ -26,16 +32,16 @@ A client-binding handle cannot be used to make a remote procedure call. The RPC 
 
 The **RpcBinding\*** and **RpcNsBinding\*** functions return the status code RPC\_S\_WRONG\_KIND\_OF\_BINDING when an application provides the incorrect binding-handle type.
 
-An application can share a single binding handle across multiple threads of execution. The RPC run-time library manages concurrent remote procedure calls that use a single binding handle. However, the application is responsible for binding handle–concurrency control for operations that modify a binding handle. These operations include the following routines:
+An application can share a single binding handle across multiple threads of execution. The RPC run-time library manages concurrent remote procedure calls that use a single binding handle. However, the application is responsible for binding handle concurrency control for operations that modify a binding handle. These operations include the following routines:
 
--   [**RpcBindingFree**](rpcbindingfree.md)
--   [**RpcBindingReset**](rpcbindingreset.md)
--   [**RpcBindingSetAuthInfo**](rpcbindingsetauthinfo.md)
--   [**RpcBindingSetObject**](rpcbindingsetobject.md)
+-   [**RpcBindingFree**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfree?branch=master)
+-   [**RpcBindingReset**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingreset?branch=master)
+-   [**RpcBindingSetAuthInfo**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo?branch=master)
+-   [**RpcBindingSetObject**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingsetobject?branch=master)
 
-For example, if an application shares a binding handle across two threads of execution and resets the binding-handle endpoint in one of the threads by calling [**RpcBindingReset**](rpcbindingreset.md), the results are undefined. The binding handle on the other thread may also be reset, or the operation may fail, or the process may crash. A common error is freeing a binding handle while a call on it is in progress; this usually crashes the calling process.
+For example, if an application shares a binding handle across two threads of execution and resets the binding-handle endpoint in one of the threads by calling [**RpcBindingReset**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingreset?branch=master), the results are undefined. The binding handle on the other thread may also be reset, or the operation may fail, or the process may crash. A common error is freeing a binding handle while a call on it is in progress; this usually crashes the calling process.
 
-If you do not want concurrency, you can design an application to create a copy of a binding handle by calling [**RpcBindingCopy**](rpcbindingcopy.md). In this case, an operation to the first binding handle has no effect on the second binding handle.
+If you do not want concurrency, you can design an application to create a copy of a binding handle by calling [**RpcBindingCopy**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingcopy?branch=master). In this case, an operation to the first binding handle has no effect on the second binding handle.
 
 Routines requiring a binding handle as a parameter show a data type of **RPC\_BINDING\_HANDLE**. Binding-handle parameters are passed by value.
 
@@ -45,15 +51,15 @@ Routines requiring a binding handle as a parameter show a data type of **RPC\_BI
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Rpcdce.h (include Rpc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

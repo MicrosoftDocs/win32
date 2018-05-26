@@ -2,7 +2,18 @@
 title: Type Definitions, Construct Declarations, and Imports
 description: Type definitions, construct declarations, and imports can occur outside of the interface body.
 ms.assetid: 5d9011ab-bfc4-41f6-bd69-953660191652
-keywords: ["interfaces MIDL , type definitions", "interfaces MIDL , construct declarations", "interfaces MIDL , imports", "type definitions MIDL", "construct declarations MIDL", "imports MIDL"]
+keywords:
+- interfaces MIDL , type definitions
+- interfaces MIDL , construct declarations
+- interfaces MIDL , imports
+- type definitions MIDL
+- construct declarations MIDL
+- imports MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Definitions, Construct Declarations, and Imports

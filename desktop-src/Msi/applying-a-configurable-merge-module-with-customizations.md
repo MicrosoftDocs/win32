@@ -1,7 +1,12 @@
 ---
-Description: 'Follow the general guidelines for applying merge modules described in Applying Merge Modules.'
-ms.assetid: '6035b1a9-d452-4020-9fe3-c20ba874a2ed'
+Description: Follow the general guidelines for applying merge modules described in Applying Merge Modules.
+ms.assetid: 6035b1a9-d452-4020-9fe3-c20ba874a2ed
 title: Applying a Configurable Merge Module with Customizations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying a Configurable Merge Module with Customizations

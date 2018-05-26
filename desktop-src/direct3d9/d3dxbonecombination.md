@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a subset of the mesh that has the same attribute and bone combination.'
-ms.assetid: 'e6a4b3bb-d28d-44c2-a6df-f60f0412a70e'
+---
+Description: Describes a subset of the mesh that has the same attribute and bone combination.
+ms.assetid: e6a4b3bb-d28d-44c2-a6df-f60f0412a70e
 title: D3DXBONECOMBINATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXBONECOMBINATION structure

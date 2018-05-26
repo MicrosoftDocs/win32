@@ -4,11 +4,12 @@ description: Read and write the properties described in this topic.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ff05ab0c-b4fe-4c67-8894-9ac8427ce5b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ff05ab0c-b4fe-4c67-8894-9ac8427ce5b8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsService Property Methods ADSI"]
+keywords:
+- IADsService Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -53,11 +54,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsService Property Methods
 
-The property methods of the [**IADsService**](iadsservice.md) interface read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsService**](/windows/win32/Iads/nn-iads-iadsservice?branch=master) interface read and write the properties described in this topic. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -526,7 +530,7 @@ HRESULT put_Version(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -560,8 +564,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsService is defined as 68AF66E0-31CA-11CF-A98A-00AA006BC149<br/>          |
@@ -572,15 +576,15 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsService**](iadsservice.md)
+[**IADsService**](/windows/win32/Iads/nn-iads-iadsservice?branch=master)
 </dt> <dt>
 
 [Interface Property Methods](interface-property-methods.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

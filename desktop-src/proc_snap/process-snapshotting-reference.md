@@ -1,7 +1,12 @@
 ---
 title: Process Snapshotting Reference
-ms.assetid: '31BCD52B-ACEB-4A23-B3B6-A096BBBA852F'
+ms.assetid: 31BCD52B-ACEB-4A23-B3B6-A096BBBA852F
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Process Snapshotting Reference

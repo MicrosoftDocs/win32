@@ -1,8 +1,11 @@
 ---
 title: IMimeBody GetData method
 description: Gets an IStream object that can be used to read the data stored in the body. The client can request that the data be converted to the specified encoding type.
-ms.assetid: '0ef80717-2476-4d84-afd5-1130b111097e'
-keywords: ["GetData method Windows Mail (formerly Outlook Express)", "GetData method Windows Mail (formerly Outlook Express) , IMimeBody interface", "IMimeBody interface Windows Mail (formerly Outlook Express) , GetData method"]
+ms.assetid: 0ef80717-2476-4d84-afd5-1130b111097e
+keywords:
+- GetData method Windows Mail (formerly Outlook Express)
+- GetData method Windows Mail (formerly Outlook Express) , IMimeBody interface
+- IMimeBody interface Windows Mail (formerly Outlook Express) , GetData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeBody::GetData method
@@ -22,8 +30,8 @@ Gets an [IStream](http://msdn.microsoft.com/library/stg/stg/istream.asp) object 
 
 ```C++
 HRESULT GetData(
-  [in]  ENCODINGTYPE ietEncoding,
-  [out] IStream      **ppStream
+  [in]  ENCODINGTYPE ietEncoding,
+  [out] IStream      **ppStream
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ This method actually does very little of the work. MimeOLE converts data as the 
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -89,9 +97,9 @@ This method actually does very little of the work. MimeOLE converts data as the 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

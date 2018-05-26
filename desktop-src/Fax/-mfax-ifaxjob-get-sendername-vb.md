@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SenderName property is a null-terminated string that contains the name of the sender who initiated the fax job. The SenderName property applies only to outgoing fax transmissions.'
-ms.assetid: 'c0fc5c5a-8451-4c5b-9b11-b3dcb45e5f80'
-title: 'FaxJob.SenderName property'
+---
+Description: The SenderName property is a null-terminated string that contains the name of the sender who initiated the fax job. The SenderName property applies only to outgoing fax transmissions.
+ms.assetid: c0fc5c5a-8451-4c5b-9b11-b3dcb45e5f80
+title: FaxJob.SenderName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.SenderName property
@@ -57,10 +62,10 @@ You can call the [**UserName**](-mfax-ifaxjob-get-username-vb.md) method to retr
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**UserName**](-mfax-ifaxjob-get-username-vb.md)

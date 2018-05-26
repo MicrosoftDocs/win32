@@ -1,8 +1,9 @@
 ---
 title: EM\_PASTESPECIAL message
 description: Pastes a specific clipboard format in a rich edit control.
-ms.assetid: 'b4b9c1a7-943d-4dc8-bcb9-054c984b82ba'
-keywords: ["EM_PASTESPECIAL message Windows Controls"]
+ms.assetid: b4b9c1a7-943d-4dc8-bcb9-054c984b82ba
+keywords:
+- EM_PASTESPECIAL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_PASTESPECIAL message
@@ -31,7 +37,7 @@ Specifies the [Clipboard Formats](https://msdn.microsoft.com/library/windows/des
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**REPASTESPECIAL**](repastespecial.md) structure or **NULL**. If an object is being pasted, the **REPASTESPECIAL** structure is filled in with the desired display aspect. If *lParam* is **NULL** or the **dwAspect** member is zero, the display aspect used will be the contents of the object descriptor.
+Pointer to a [**REPASTESPECIAL**](/windows/win32/Richedit/ns-richedit-_repastespecial?branch=master) structure or **NULL**. If an object is being pasted, the **REPASTESPECIAL** structure is filled in with the desired display aspect. If *lParam* is **NULL** or the **dwAspect** member is zero, the display aspect used will be the contents of the object descriptor.
 
 </dd> </dl>
 
@@ -45,8 +51,8 @@ This message does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -55,12 +61,12 @@ This message does not return a value.
 
 <dl> <dt>
 
-[**REPASTESPECIAL**](repastespecial.md)
+[**REPASTESPECIAL**](/windows/win32/Richedit/ns-richedit-_repastespecial?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

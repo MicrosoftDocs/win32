@@ -1,7 +1,12 @@
-﻿---
-Description: 'Blends two colors.'
-ms.assetid: 'deff70c7-2359-48b2-ab40-8c418acf5a07'
+---
+Description: Blends two colors.
+ms.assetid: deff70c7-2359-48b2-ab40-8c418acf5a07
 title: D3DXColorModulate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXColorModulate function

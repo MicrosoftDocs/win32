@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EVENT\_INSTANCE\_HEADER structure contains standard event tracing information common to all events.'
-ms.assetid: '2a79d937-2a3b-4426-b31f-a1a3ce86a334'
-title: 'EVENT\_INSTANCE\_HEADER structure'
+---
+Description: The EVENT\_INSTANCE\_HEADER structure contains standard event tracing information common to all events.
+ms.assetid: 2a79d937-2a3b-4426-b31f-a1a3ce86a334
+title: EVENT\_INSTANCE\_HEADER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVENT\_INSTANCE\_HEADER structure

@@ -1,7 +1,12 @@
 ---
-Description: 'KTM defines the following enlistment access masks to be used when opening a resource manager.'
-ms.assetid: '6b901b73-516d-4f27-b258-3b93a8f9675f'
+Description: KTM defines the following enlistment access masks to be used when opening a resource manager.
+ms.assetid: 6b901b73-516d-4f27-b258-3b93a8f9675f
 title: Resource Manager Access Masks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Manager Access Masks
@@ -106,15 +111,15 @@ The caller has the following privilege: STANDARD\_RIGHTS\_REQUIRED.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                     |
 | Header<br/>                   | <dl> <dt>WinNT.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Enumerates a table, data collection, or log resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ed8ad3ad-d033-45cb-b681-995c5f73b12e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: ed8ad3ad-d033-45cb-b681-995c5f73b12e
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Enumerate method Windows Remote Management", "Enumerate method Windows Remote Management , Session object", "Session object Windows Remote Management , Enumerate method"]
+keywords:
+- Enumerate method Windows Remote Management
+- Enumerate method Windows Remote Management , Session object
+- Session object Windows Remote Management , Enumerate method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session.Enumerate method
@@ -99,7 +105,7 @@ Be aware that if the flags include the [**Enumeration Constants**](enumeration-c
 
 If a filter is specified, it must be a valid document with respect to the schema of the resource. The dialect parameter is optional. However, if the filter string begins with &lt;, but is not an XML fragment, then either include the *dialect* parameter or set the **WSManFlagNonXmlText** flag in the *flags* parameter. For more information, see [**Enumeration Constants**](enumeration-constants.md).
 
-The corresponding C++ method is [**IWSManSession::Enumerate**](iwsmansession-enumerate.md).
+The corresponding C++ method is [**IWSManSession::Enumerate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmansession-enumerate?branch=master).
 
 ## Examples
 
@@ -144,8 +150,8 @@ End Sub
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -169,9 +175,9 @@ End Sub
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ActiveBasicDevice SetCachedSinkProtocolInfo method
 description: Gets the cached sink protocol info for the device.
-ms.assetid: 'C4856B97-89F9-43EC-B778-9E0CDAAF2C47'
-keywords: ["SetCachedSinkProtocolInfo method Media Streaming API", "SetCachedSinkProtocolInfo method Media Streaming API , ActiveBasicDevice interface", "ActiveBasicDevice interface Media Streaming API , SetCachedSinkProtocolInfo method"]
+ms.assetid: C4856B97-89F9-43EC-B778-9E0CDAAF2C47
+keywords:
+- SetCachedSinkProtocolInfo method Media Streaming API
+- SetCachedSinkProtocolInfo method Media Streaming API , ActiveBasicDevice interface
+- ActiveBasicDevice interface Media Streaming API , SetCachedSinkProtocolInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - playtodevice.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveBasicDevice::SetCachedSinkProtocolInfo method
@@ -22,8 +30,8 @@ Gets the cached sink protocol info for the device.
 
 ```C++
 HRESULT SetCachedSinkProtocolInfo(
-  [in] GUID   physicalNetworkInterface,
-  [in] UINT64 bitrate
+  [in] GUID   physicalNetworkInterface,
+  [in] UINT64 bitrate
 );
 ```
 
@@ -57,8 +65,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>PlayToDevice.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>PlayToDevice.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |
@@ -72,9 +80,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ActiveBasicDevice**](activebasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

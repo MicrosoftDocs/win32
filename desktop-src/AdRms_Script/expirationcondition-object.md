@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a template condition that can be used to specify when protected content or a use license expires.'
+Description: Represents a template condition that can be used to specify when protected content or a use license expires.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '4481b661-2a21-40c7-8020-64bb737e423b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 4481b661-2a21-40c7-8020-64bb737e423b
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExpirationCondition object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExpirationCondition object
@@ -33,7 +36,7 @@ The **ExpirationCondition** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -127,7 +130,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -142,9 +145,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

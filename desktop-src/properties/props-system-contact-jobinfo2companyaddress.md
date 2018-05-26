@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'd0863304-0f10-47fa-8b86-d552e004f4dd'
-title: 'System.Contact.JobInfo2CompanyAddress'
+Description: .
+ms.assetid: d0863304-0f10-47fa-8b86-d552e004f4dd
+title: System.Contact.JobInfo2CompanyAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.JobInfo2CompanyAddress

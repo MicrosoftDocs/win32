@@ -1,7 +1,12 @@
 ---
-Description: 'Integer values are encoded into a TLV triplet that begins with a Tag value of 0x02.'
-ms.assetid: 'a6fed62f-af59-488c-a690-be8c3413086f'
+Description: Integer values are encoded into a TLV triplet that begins with a Tag value of 0x02.
+ms.assetid: a6fed62f-af59-488c-a690-be8c3413086f
 title: INTEGER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INTEGER

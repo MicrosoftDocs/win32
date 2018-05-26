@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the square of the length of a 2D vector.'
-ms.assetid: '0ecc40bb-7613-463a-a8a0-5e184feb441f'
+---
+Description: Returns the square of the length of a 2D vector.
+ms.assetid: 0ecc40bb-7613-463a-a8a0-5e184feb441f
 title: D3DXVec2LengthSq function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec2LengthSq function

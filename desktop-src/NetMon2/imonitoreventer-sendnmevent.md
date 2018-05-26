@@ -1,7 +1,12 @@
 ---
-Description: 'The SendNMEvent method submits events to Windows Management Instrumentation (WMI).'
-ms.assetid: '85c33a71-72aa-4b0a-8e8b-3a220a080bb2'
-title: 'IMonitorEventer::SendNMEvent method'
+Description: The SendNMEvent method submits events to Windows Management Instrumentation (WMI).
+ms.assetid: 85c33a71-72aa-4b0a-8e8b-3a220a080bb2
+title: IMonitorEventerSendNMEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMonitorEventer::SendNMEvent method
@@ -13,7 +18,7 @@ The **SendNMEvent** method submits events to Windows Management Instrumentation 
 
 ```C++
 HRESULT SendNMEvent(
-  [in] PNMEVENTDATA pNMEventData
+  [in] PNMEVENTDATA pNMEventData
 );
 ```
 
@@ -42,15 +47,15 @@ If the method is unsuccessful, the return value is NMERR\_OUT\_OF\_MEMORY.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

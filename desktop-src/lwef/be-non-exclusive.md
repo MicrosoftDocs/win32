@@ -1,7 +1,12 @@
 ---
 title: Be Non-Exclusive
 description: Be Non-Exclusive
-ms.assetid: '7a44840d-6bf9-4c12-ba14-66d7067a984d'
+ms.assetid: 7a44840d-6bf9-4c12-ba14-66d7067a984d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Be Non-Exclusive

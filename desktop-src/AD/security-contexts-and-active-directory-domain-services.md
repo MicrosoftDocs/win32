@@ -4,11 +4,16 @@ description: When an application binds to an Active Directory Domain Controller 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7ad0acbe-f81b-46d6-be87-3526b0bfbd1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7ad0acbe-f81b-46d6-be87-3526b0bfbd1b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Active Directory ,security contexts", "security contexts Active Directory"]
+keywords:
+- Active Directory Active Directory ,security contexts
+- security contexts Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security Contexts and Active Directory Domain Services

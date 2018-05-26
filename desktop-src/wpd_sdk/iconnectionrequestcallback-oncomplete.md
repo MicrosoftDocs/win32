@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies an application that a previously scheduled Connect or Disconnect request to the MTP/Bluetooth device has completed.'
-ms.assetid: '1588d0ec-0d6a-4379-bfdc-4ba5fdaa4665'
-title: 'IConnectionRequestCallback::OnComplete method'
+Description: Notifies an application that a previously scheduled Connect or Disconnect request to the MTP/Bluetooth device has completed.
+ms.assetid: 1588d0ec-0d6a-4379-bfdc-4ba5fdaa4665
+title: IConnectionRequestCallbackOnComplete method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IConnectionRequestCallback::OnComplete method
@@ -13,7 +18,7 @@ The **OnComplete** method notifies an application that a previously scheduled Co
 
 ```C++
 HRESULT OnComplete(
-  [in] HRESULT hrStatus
+  [in] HRESULT hrStatus
 );
 ```
 
@@ -42,13 +47,13 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
 An application implements the [**IConnectionRequestCallback**](iconnectionrequestcallback.md) interface to receive notifications about completed requests and to cancel pending requests.
 
-Windows Portable Devices (WPD) calls this method to notify an application that a previously scheduled request has completed. Each request can be tracked and canceled by its application-supplied callback. Therefore, if the application needs to send multiple requests at the same time using the same [**IPortableDeviceConnector**](iportabledeviceconnector.md) object, each request should be passed a unique [**IConnectionRequestCallback**](iconnectionrequestcallback.md) object as the input parameter to the [**IPortableDeviceConnector::Connect**](iportabledeviceconnector-connect.md) and [**IPortableDeviceConnector::Disconnect**](iportabledeviceconnector-disconnect.md) methods.
+Windows Portable Devices (WPD) calls this method to notify an application that a previously scheduled request has completed. Each request can be tracked and canceled by its application-supplied callback. Therefore, if the application needs to send multiple requests at the same time using the same [**IPortableDeviceConnector**](/windows/win32/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector?branch=master) object, each request should be passed a unique [**IConnectionRequestCallback**](iconnectionrequestcallback.md) object as the input parameter to the [**IPortableDeviceConnector::Connect**](/windows/win32/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect?branch=master) and [**IPortableDeviceConnector::Disconnect**](/windows/win32/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect?branch=master) methods.
 
 ## Requirements
 
@@ -56,7 +61,7 @@ Windows Portable Devices (WPD) calls this method to notify an application that a
 
 |                                     |                                                                                                                                                                        |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>Devpkey.h; </dt> <dt>Portabledeviceconnectapi.h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Portabledeviceconnectapi.idl</dt> </dl>                                                                |
@@ -71,9 +76,9 @@ Windows Portable Devices (WPD) calls this method to notify an application that a
 [**IConnectionRequestCallback**](iconnectionrequestcallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

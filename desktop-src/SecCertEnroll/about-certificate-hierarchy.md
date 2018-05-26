@@ -1,7 +1,12 @@
 ---
-Description: 'As the number of issued certificates in a public key infrastructure (PKI) increases, it can become difficult for a single certification authority (CA) to effectively track the certificates it has issued.'
-ms.assetid: 'f1642c1c-d2cd-4fa4-8a26-cebf3d6dcf23'
+Description: As the number of issued certificates in a public key infrastructure (PKI) increases, it can become difficult for a single certification authority (CA) to effectively track the certificates it has issued.
+ms.assetid: f1642c1c-d2cd-4fa4-8a26-cebf3d6dcf23
 title: Certificate Hierarchy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Hierarchy

@@ -1,7 +1,12 @@
 ---
 title: How to Create a Directory Listing in a Single-Selection List Box
 description: This topic demonstrates how to use a single-selection list box to display and access the contents of a directory.
-ms.assetid: '11C0DB10-59BA-47C4-8687-101A2A85D660'
+ms.assetid: 11C0DB10-59BA-47C4-8687-101A2A85D660
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Directory Listing in a Single-Selection List Box
@@ -31,7 +36,7 @@ The directory listing application must perform the following list box related ta
 -   Retrieve the user's selection from the list box.
 -   Remove the file name from the list box after the selected file has been deleted.
 
-In the following C++ code example, the dialog box procedure initializes the single-selection list box (IDC\_FILELIST) by using the [**DlgDirList**](dlgdirlist.md) function to fill the list box with the names of all the files in the current directory. When the user selects a file and chooses the **Delete** button, the [**DlgDirSelectEx**](dlgdirselectex.md) function retrieves the name of the selected file. The code deletes the file by using the [**DeleteFile**](https://msdn.microsoft.com/library/windows/desktop/aa363915) function and updates the directory list box by sending the [**LB\_DELETESTRING**](lb-deletestring.md) message.
+In the following C++ code example, the dialog box procedure initializes the single-selection list box (IDC\_FILELIST) by using the [**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master) function to fill the list box with the names of all the files in the current directory. When the user selects a file and chooses the **Delete** button, the [**DlgDirSelectEx**](/windows/win32/Winuser/nf-winuser-dlgdirselectexa?branch=master) function retrieves the name of the selected file. The code deletes the file by using the [**DeleteFile**](https://msdn.microsoft.com/library/windows/desktop/aa363915) function and updates the directory list box by sending the [**LB\_DELETESTRING**](lb-deletestring.md) message.
 
 ## 
 

@@ -1,7 +1,12 @@
 ---
 title: Tape Class Driver Routines
 description: Tape Class Driver Routines
-ms.assetid: 'c2b812d9-5503-4251-afc9-b7e07dc67173'
+ms.assetid: c2b812d9-5503-4251-afc9-b7e07dc67173
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tape Class Driver Routines

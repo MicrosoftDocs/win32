@@ -4,11 +4,14 @@ description: Starts the generation of the provided storage report on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43527922-8bfd-4937-a250-b3a08dea0fa8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 43527922-8bfd-4937-a250-b3a08dea0fa8
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["Start method File Server Resource Manager", "Start method File Server Resource Manager , MSFT_FSRMStorageReport class", "MSFT_FSRMStorageReport class File Server Resource Manager , Start method"]
+keywords:
+- Start method File Server Resource Manager
+- Start method File Server Resource Manager , MSFT_FSRMStorageReport class
+- MSFT_FSRMStorageReport class File Server Resource Manager , Start method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Start method of the MSFT\_FSRMStorageReport class
@@ -28,9 +34,9 @@ Starts the generation of the provided storage report on the server.
 
 ```mof
 uint64 Start(
-  [in]  boolean                Queue,
-  [in]  sint32                 RunDuration,
-  [out] MSFT_FSRMStorageReport StorageReport
+  [in]  boolean                Queue,
+  [in]  sint32                 RunDuration,
+  [out] MSFT_FSRMStorageReport StorageReport
 );
 ```
 
@@ -68,7 +74,7 @@ Returns an instance of the [**MSFT\_FSRMStorageReport**](msft-fsrmstoragereport.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -82,9 +88,9 @@ Returns an instance of the [**MSFT\_FSRMStorageReport**](msft-fsrmstoragereport.
 [**MSFT\_FSRMStorageReport**](msft-fsrmstoragereport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

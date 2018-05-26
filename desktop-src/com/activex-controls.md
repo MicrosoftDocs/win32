@@ -1,7 +1,12 @@
 ---
 title: ActiveX Controls
 description: ActiveX Controls
-ms.assetid: 'e491b66c-d6ba-4476-8413-7a9e41c05e8d'
+ms.assetid: e491b66c-d6ba-4476-8413-7a9e41c05e8d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveX Controls
@@ -13,7 +18,7 @@ ActiveX controls technology rests on a foundation consisting of COM, connectable
 <span id="COM"></span><span id="com"></span>COM
 </dt> <dd>
 
-A control is essentially a COM object that exposes the [**IUnknown**](iunknown.md) interface, through which clients can obtain pointers to its other interfaces. Controls can support licensing through [**IClassFactory2**](iclassfactory2.md) and self-registration. See [The Component Object Model](the-component-object-model.md) for more information on COM, licensing, and self-registration.
+A control is essentially a COM object that exposes the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface, through which clients can obtain pointers to its other interfaces. Controls can support licensing through [**IClassFactory2**](/windows/win32/OCIdl/nn-ocidl-iclassfactory2?branch=master) and self-registration. See [The Component Object Model](the-component-object-model.md) for more information on COM, licensing, and self-registration.
 
 </dd> <dt>
 
@@ -27,7 +32,7 @@ Controls can support outgoing interfaces through connectable objects so that the
 <span id="Uniform_data_transfer"></span><span id="uniform_data_transfer"></span><span id="UNIFORM_DATA_TRANSFER"></span>Uniform data transfer
 </dt> <dd>
 
-Controls can support being dragged and dropped within a container with help from their container. See [**IOleInPlaceObjectWindowless::GetDropTarget**](ioleinplaceobjectwindowless-getdroptarget.md) for more information on drag and drop.
+Controls can support being dragged and dropped within a container with help from their container. See [**IOleInPlaceObjectWindowless::GetDropTarget**](/windows/win32/OCIdl/nf-ocidl-ioleinplaceobjectwindowless-getdroptarget?branch=master) for more information on drag and drop.
 
 </dd> <dt>
 
@@ -62,16 +67,16 @@ A control can implement one or more of several persistence interfaces to support
 <span id="Font_and_picture_objects"></span><span id="font_and_picture_objects"></span><span id="FONT_AND_PICTURE_OBJECTS"></span>Font and picture objects
 </dt> <dd>
 
-Controls can use these system provided objects to provide a visual representation of themselves within the client. The font object implements several interfaces, including [**IFont**](ifont.md) and [**IFontDisp**](ifontdisp.md). A font object can be created with [**OleCreateFontIndirect**](olecreatefontindirect.md). The picture object also implements several interfaces, including [**IPicture**](ipicture.md) and [**IPictureDisp**](ipicturedisp.md). A picture object can be created using [**OleCreatePictureIndirect**](olecreatepictureindirect.md) and can loaded from a stream with [**OleLoadPicture**](oleloadpicture.md).
+Controls can use these system provided objects to provide a visual representation of themselves within the client. The font object implements several interfaces, including [**IFont**](/windows/win32/OCIdl/nn-ocidl-ifont?branch=master) and [**IFontDisp**](/windows/win32/OCIdl/?branch=master). A font object can be created with [**OleCreateFontIndirect**](/windows/win32/OleCtl/nf-olectl-olecreatefontindirect?branch=master). The picture object also implements several interfaces, including [**IPicture**](/windows/win32/OCIdl/nn-ocidl-ipicture?branch=master) and [**IPictureDisp**](/windows/win32/OCIdl/?branch=master). A picture object can be created using [**OleCreatePictureIndirect**](/windows/win32/OleCtl/nf-olectl-olecreatepictureindirect?branch=master) and can loaded from a stream with [**OleLoadPicture**](/windows/win32/OleCtl/nf-olectl-oleloadpicture?branch=master).
 
 </dd> </dl>
 
 It is important to understand that these features can be used in any OLE object. One does not need to implement a control in order to use these features. Also, the only required interface on a control is IUnknown. The control optionally supports other interfaces based on the need to support the related features.
 
-In addition to these features, the following interfaces and functions are specific to controls technology: [**IOleControl**](iolecontrol.md), [**IOleControlSite**](iolecontrolsite.md), [**ISimpleFrameSite**](isimpleframesite.md), and [**OleTranslateColor**](oletranslatecolor.md). Also specific to controls are a set of standards for properties and methods that a control or a control container can support.
+In addition to these features, the following interfaces and functions are specific to controls technology: [**IOleControl**](/windows/win32/OCIdl/nn-ocidl-iolecontrol?branch=master), [**IOleControlSite**](/windows/win32/OCIdl/nn-ocidl-iolecontrolsite?branch=master), [**ISimpleFrameSite**](/windows/win32/OCIdl/nn-ocidl-isimpleframesite?branch=master), and [**OleTranslateColor**](/windows/win32/OleCtl/nf-olectl-oletranslatecolor?branch=master). Also specific to controls are a set of standards for properties and methods that a control or a control container can support.
 
 > [!Note]  
-> The system library OleAut32.dll contains implementations of the functions ([**OleCreatePropertyFrame**](olecreatepropertyframe.md), [**OleCreatePropertyFrameIndirect**](olecreatepropertyframeindirect.md), [**OleCreateFontIndirect**](olecreatefontindirect.md), [**OleCreatePictureIndirect**](olecreatepictureindirect.md), [**OleLoadPicture**](oleloadpicture.md), and [**OleTranslateColor**](oletranslatecolor.md)). In addition, OleAut32.dll contains the implementations of the standard font and picture objects, as well as a type library for all the interfaces used with controls as well as the additional data structures and data types.
+> The system library OleAut32.dll contains implementations of the functions ([**OleCreatePropertyFrame**](/windows/win32/OleCtl/nf-olectl-olecreatepropertyframe?branch=master), [**OleCreatePropertyFrameIndirect**](/windows/win32/OleCtl/nf-olectl-olecreatepropertyframeindirect?branch=master), [**OleCreateFontIndirect**](/windows/win32/OleCtl/nf-olectl-olecreatefontindirect?branch=master), [**OleCreatePictureIndirect**](/windows/win32/OleCtl/nf-olectl-olecreatepictureindirect?branch=master), [**OleLoadPicture**](/windows/win32/OleCtl/nf-olectl-oleloadpicture?branch=master), and [**OleTranslateColor**](/windows/win32/OleCtl/nf-olectl-oletranslatecolor?branch=master)). In addition, OleAut32.dll contains the implementations of the standard font and picture objects, as well as a type library for all the interfaces used with controls as well as the additional data structures and data types.
 
  
 

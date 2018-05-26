@@ -2,13 +2,16 @@
 title: AddByADReverseLookupZone method of the PS\_DnsServerPrimaryZone class
 description: Adds Primary zone on DNS server.
 audience: developer
-ms.assetid: '746a71d3-3b84-41fc-b443-67a977212a94'
-ms.prod: 'windows-server-dev'
+ms.assetid: 746a71d3-3b84-41fc-b443-67a977212a94
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByADReverseLookupZone method", "AddByADReverseLookupZone method, PS_DnsServerPrimaryZone class", "PS_DnsServerPrimaryZone class, AddByADReverseLookupZone method"]
+keywords:
+- AddByADReverseLookupZone method
+- AddByADReverseLookupZone method, PS_DnsServerPrimaryZone class
+- PS_DnsServerPrimaryZone class, AddByADReverseLookupZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByADReverseLookupZone method of the PS\_DnsServerPrimaryZone class
@@ -28,15 +34,15 @@ Adds Primary zone on DNS server.
 
 ```mof
 uint32 AddByADReverseLookupZone(
-  [in]  string               ResponsiblePerson,
-  [in]  string               DynamicUpdate,
-  [in]  boolean              LoadExisting,
-  [in]  string               NetworkID,
-  [in]  string               ComputerName,
-  [in]  string               DirectoryPartitionName,
-  [in]  string               ReplicationScope,
-  [in]  boolean              PassThru,
-  [out] DnsServerPrimaryZone cmdletOutput[]
+  [in]  string               ResponsiblePerson,
+  [in]  string               DynamicUpdate,
+  [in]  boolean              LoadExisting,
+  [in]  string               NetworkID,
+  [in]  string               ComputerName,
+  [in]  string               DirectoryPartitionName,
+  [in]  string               ReplicationScope,
+  [in]  boolean              PassThru,
+  [out] DnsServerPrimaryZone cmdletOutput[]
 );
 ```
 
@@ -169,7 +175,7 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -183,9 +189,9 @@ Receives an embedded instance of the [**DnsServerPrimaryZone**](dnsserverprimary
 [**PS\_DnsServerPrimaryZone**](ps-dnsserverprimaryzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

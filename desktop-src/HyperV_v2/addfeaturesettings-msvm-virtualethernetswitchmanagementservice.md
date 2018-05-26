@@ -1,7 +1,12 @@
 ---
-Description: 'Adds feature settings to the configuration of an Ethernet switch port.'
-ms.assetid: '628a6546-cc78-4fde-be0c-533a2c3f9483'
-title: 'AddFeatureSettings method of the Msvm\_VirtualEthernetSwitchManagementService class'
+Description: Adds feature settings to the configuration of an Ethernet switch port.
+ms.assetid: 628a6546-cc78-4fde-be0c-533a2c3f9483
+title: AddFeatureSettings method of the Msvm\_VirtualEthernetSwitchManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddFeatureSettings method of the Msvm\_VirtualEthernetSwitchManagementService class
@@ -13,10 +18,10 @@ Adds feature settings to the configuration of an Ethernet switch port.
 
 ```mof
 uint32 AddFeatureSettings(
-  [in]  CIM_SettingData         REF AffectedConfiguration,
-  [in]  string                      FeatureSettings[],
-  [out] Msvm_FeatureSettingData REF ResultingFeatureSettings[],
-  [out] CIM_ConcreteJob         REF Job
+  [in]  CIM_SettingData         REF AffectedConfiguration,
+  [in]  string                      FeatureSettings[],
+  [out] Msvm_FeatureSettingData REF ResultingFeatureSettings[],
+  [out] CIM_ConcreteJob         REF Job
 );
 ```
 
@@ -93,8 +98,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -114,9 +119,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualEthernetSwitchManagementService**](msvm-virtualethernetswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_HEAP\_DESC structure
 description: A helper structure to enable easy initialization of a D3D12\_HEAP\_DESC structure.
-ms.assetid: '38E0BA60-2BB0-4AC1-870A-10AB16E4C6E6'
-keywords: ["CD3DX12_HEAP_DESC structure"]
+ms.assetid: 38E0BA60-2BB0-4AC1-870A-10AB16E4C6E6
+keywords:
+- CD3DX12_HEAP_DESC structure
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_HEAP\_DESC structure
 
-A helper structure to enable easy initialization of a [**D3D12\_HEAP\_DESC**](d3d12-heap-desc.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_desc?branch=master) structure.
 
 ## Syntax
 
@@ -50,7 +56,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_HEAP\_DESC.
 **explicit CD3DX12\_HEAP\_DESC(const D3D12\_HEAP\_DESC &o)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_HEAP\_DESC, initialized with the contents of another [**D3D12\_HEAP\_DESC**](d3d12-heap-desc.md) structure.
+Creates a new instance of a CD3DX12\_HEAP\_DESC, initialized with the contents of another [**D3D12\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_desc?branch=master) structure.
 
 </dd> <dt>
 
@@ -61,11 +67,11 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 UINT64 size
 
-[**D3D12\_HEAP\_PROPERTIES**](d3d12-heap-properties.md) properties
+[**D3D12\_HEAP\_PROPERTIES**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_properties?branch=master) properties
 
 (opt) UINT64 alignment = 0
 
-(opt) [**D3D12\_HEAP\_FLAGS**](d3d12-heap-flags.md) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -76,11 +82,11 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 UINT64 size
 
-[**D3D12\_HEAP\_TYPE**](d3d12-heap-type.md) type
+[**D3D12\_HEAP\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master) type
 
 (opt) UINT64 alignment = 0
 
-(opt) [**D3D12\_HEAP\_FLAGS**](d3d12-heap-flags.md) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -91,13 +97,13 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 UINT64 size
 
-[**D3D12\_CPU\_PAGE\_PROPERTY**](d3d12-cpu-page-property.md) cpuPageProperty
+[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/win32/D3D12/ne-d3d12-d3d12_cpu_page_property?branch=master) cpuPageProperty
 
-[**D3D12\_MEMORY\_POOL**](d3d12-memory-pool.md) memoryPoolPreference
+[**D3D12\_MEMORY\_POOL**](/windows/win32/D3D12/ne-d3d12-d3d12_memory_pool?branch=master) memoryPoolPreference
 
 (opt) UINT64 alignment = 0
 
-(opt) [**D3D12\_HEAP\_FLAGS**](d3d12-heap-flags.md) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -106,11 +112,11 @@ UINT64 size
 
 Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](d3d12-resource-allocation-info.md)& resAllocInfo
+[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/win32/D3D12/ns-d3d12-d3d12_resource_allocation_info?branch=master)& resAllocInfo
 
-[**D3D12\_HEAP\_PROPERTIES**](d3d12-heap-properties.md) properties
+[**D3D12\_HEAP\_PROPERTIES**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_properties?branch=master) properties
 
-(opt) [**D3D12\_HEAP\_FLAGS**](d3d12-heap-flags.md) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -119,11 +125,11 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](d3d12-resource-allocation-info.md)& resAllocInfo
+[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/win32/D3D12/ns-d3d12-d3d12_resource_allocation_info?branch=master)& resAllocInfo
 
-[**D3D12\_HEAP\_TYPE**](d3d12-heap-type.md) type
+[**D3D12\_HEAP\_TYPE**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_type?branch=master) type
 
-(opt) [**D3D12\_HEAP\_FLAGS**](d3d12-heap-flags.md) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -132,13 +138,13 @@ Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following para
 
 Creates a new instance of a CD3DX12\_HEAP\_DESC, initializing the following parameters:
 
-[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](d3d12-resource-allocation-info.md)& resAllocInfo
+[**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/win32/D3D12/ns-d3d12-d3d12_resource_allocation_info?branch=master)& resAllocInfo
 
-[**D3D12\_CPU\_PAGE\_PROPERTY**](d3d12-cpu-page-property.md) cpuPageProperty
+[**D3D12\_CPU\_PAGE\_PROPERTY**](/windows/win32/D3D12/ne-d3d12-d3d12_cpu_page_property?branch=master) cpuPageProperty
 
-[**D3D12\_MEMORY\_POOL**](d3d12-memory-pool.md) memoryPoolPreference
+[**D3D12\_MEMORY\_POOL**](/windows/win32/D3D12/ne-d3d12-d3d12_memory_pool?branch=master) memoryPoolPreference
 
-(opt) [**D3D12\_HEAP\_FLAGS**](d3d12-heap-flags.md) flags = D3D12\_HEAP\_FLAG\_NONE
+(opt) [**D3D12\_HEAP\_FLAGS**](/windows/win32/D3D12/ne-d3d12-d3d12_heap_flags?branch=master) flags = D3D12\_HEAP\_FLAG\_NONE
 
 </dd> <dt>
 
@@ -163,15 +169,15 @@ Defines the & pass-by-reference operator for the CD3DX12\_HEAP\_DESC structure t
 
 <dl> <dt>
 
-[**D3D12\_HEAP\_DESC**](d3d12-heap-desc.md)
+[**D3D12\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_heap_desc?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

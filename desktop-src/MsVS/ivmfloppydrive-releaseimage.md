@@ -1,8 +1,13 @@
 ---
 title: IVMFloppyDrive ReleaseImage method
 description: The ReleaseImage method releases the currently attached floppy media image from the floppy drive in the virtual machine.
-ms.assetid: '86e0c9bb-8ef1-4e8f-8cfb-d3b90de4be43'
-keywords: ["ReleaseImage method Virtual Server", "ReleaseImage method Virtual Server , IVMFloppyDrive interface", "IVMFloppyDrive interface Virtual Server , ReleaseImage method", "ReleaseImage method Virtual Server , VMFloppyDrive interface", "VMFloppyDrive interface Virtual Server , ReleaseImage method"]
+ms.assetid: 86e0c9bb-8ef1-4e8f-8cfb-d3b90de4be43
+keywords:
+- ReleaseImage method Virtual Server
+- ReleaseImage method Virtual Server , IVMFloppyDrive interface
+- IVMFloppyDrive interface Virtual Server , ReleaseImage method
+- ReleaseImage method Virtual Server , VMFloppyDrive interface
+- VMFloppyDrive interface Virtual Server , ReleaseImage method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive::ReleaseImage method
@@ -49,7 +59,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,8 +67,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -70,9 +80,9 @@ This method supports standard return values, as well as the following. For infor
 [**IVMFloppyDrive**](ivmfloppydrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

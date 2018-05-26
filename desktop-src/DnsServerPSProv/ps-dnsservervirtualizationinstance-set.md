@@ -2,13 +2,16 @@
 title: Set method of the PS\_DnsServerVirtualizationInstance class
 description: Sets a specified DNS server virtualization instance.
 audience: developer
-ms.assetid: '3d57c663-4f2f-447a-99b7-8a27f09b11d7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3d57c663-4f2f-447a-99b7-8a27f09b11d7
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DnsServerVirtualizationInstance class", "PS_DnsServerVirtualizationInstance class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DnsServerVirtualizationInstance class
+- PS_DnsServerVirtualizationInstance class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DnsServerVirtualizationInstance class
@@ -28,12 +34,12 @@ Sets a specified DNS server virtualization instance.
 
 ```mof
 uint32 Set(
-  [in]  string                          ComputerName,
-  [in]  string                          Name,
-  [in]  boolean                         PassThru,
-  [in]  string                          Description,
-  [in]  string                          FriendlyName,
-  [out] DnsServerVirtualizationInstance cmdletOutput
+  [in]  string                          ComputerName,
+  [in]  string                          Name,
+  [in]  boolean                         PassThru,
+  [in]  string                          Description,
+  [in]  string                          FriendlyName,
+  [out] DnsServerVirtualizationInstance cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ The updated [**DnsServerVirtualizationInstance**](dnsservervirtualizationinstanc
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ The updated [**DnsServerVirtualizationInstance**](dnsservervirtualizationinstanc
 [**PS\_DnsServerVirtualizationInstance**](ps-dnsservervirtualizationinstance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

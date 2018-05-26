@@ -1,15 +1,18 @@
 ---
-title: What's New in DFSR in Windows Server 2008 R2
+title: Whats New in DFSR in Windows Server 2008 R2
 description: Changes to the Distributed File System Replication (DFSR) WMI provider in Windows Server 2008 R2.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6c936db6-e15f-4f10-be90-0d36a4b80115'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6c936db6-e15f-4f10-be90-0d36a4b80115
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in DFSR in Windows Server 2008 R2

@@ -1,19 +1,24 @@
 ---
-Description: 'The SetPreroll method specifies whether this sample is a preroll sample. A preroll sample should not be displayed. This method implements the IMediaSample::SetPreroll method.'
-ms.assetid: '2887e627-5999-407a-88d3-811c803c9a43'
-title: 'CMediaSample.SetPreroll method'
+Description: The SetPreroll method specifies whether this sample is a preroll sample. A preroll sample should not be displayed. This method implements the IMediaSampleSetPreroll method.
+ms.assetid: 2887e627-5999-407a-88d3-811c803c9a43
+title: CMediaSample.SetPreroll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.SetPreroll method
 
-The `SetPreroll` method specifies whether this sample is a preroll sample. A preroll sample should not be displayed. This method implements the [**IMediaSample::SetPreroll**](imediasample-setpreroll.md) method.
+The `SetPreroll` method specifies whether this sample is a preroll sample. A preroll sample should not be displayed. This method implements the [**IMediaSample::SetPreroll**](/windows/win32/Strmif/nf-strmif-imediasample-setpreroll?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetPreroll(
-   BOOL bIsPreroll
+   BOOL bIsPreroll
 );
 ```
 
@@ -56,9 +61,9 @@ This method updates the [**CMediaSample::m\_dwFlags**](cmediasample-m-dwflags.md
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

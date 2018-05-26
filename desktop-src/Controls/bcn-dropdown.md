@@ -1,8 +1,9 @@
 ---
 title: BCN\_DROPDOWN notification code
 description: Sent when the user clicks a drop down arrow on a button. The parent window of the control receives this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '61503b8d-193e-4855-b9eb-35c0dc636c02'
-keywords: ["BCN_DROPDOWN notification code Windows Controls"]
+ms.assetid: 61503b8d-193e-4855-b9eb-35c0dc636c02
+keywords:
+- BCN_DROPDOWN notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCN\_DROPDOWN notification code
@@ -33,7 +39,7 @@ BCN_DROPDOWN
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMBCDROPDOWN**](nmbcdropdown.md) structure. The **rcButton** member is set to describe the drop-down area.
+A pointer to a [**NMBCDROPDOWN**](/windows/win32/Commctrl/ns-commctrl-tagnmbcdropdown?branch=master) structure. The **rcButton** member is set to describe the drop-down area.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts **LPARAM** to retrieve the [**NMBCDROPDOWN**](nmbcdropdown.md) structure. **WPARAM** contains the ID of the control that sends this message. The button control must have a drop-down button style.
+The notification receiver casts **LPARAM** to retrieve the [**NMBCDROPDOWN**](/windows/win32/Commctrl/ns-commctrl-tagnmbcdropdown?branch=master) structure. **WPARAM** contains the ID of the control that sends this message. The button control must have a drop-down button style.
 
 ## Requirements
 
@@ -51,15 +57,15 @@ The notification receiver casts **LPARAM** to retrieve the [**NMBCDROPDOWN**](nm
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

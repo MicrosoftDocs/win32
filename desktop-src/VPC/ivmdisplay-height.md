@@ -1,8 +1,11 @@
 ---
 title: IVMDisplay Height property
-description: Height of the virtual machine's display, in pixels.
-ms.assetid: '4fbb7c2b-6d5f-4af6-b8cc-3a7546b15cbd'
-keywords: ["Height property Virtual PC", "Height property Virtual PC , IVMDisplay interface", "IVMDisplay interface Virtual PC , Height property"]
+description: Height of the virtual machines display, in pixels.
+ms.assetid: 4fbb7c2b-6d5f-4af6-b8cc-3a7546b15cbd
+keywords:
+- Height property Virtual PC
+- Height property Virtual PC , IVMDisplay interface
+- IVMDisplay interface Virtual PC , Height property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::Height property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the height of the virtual machine's display, in pixels.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Height(
-  [out, retval] long *displayPixelHeight
+  [out, retval] long *displayPixelHeight
 );
 ```
 
@@ -58,9 +66,9 @@ The height, in pixels.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMDisplay is defined as 960895e9-f743-4498-96aa-261f867e7fc5<br/>                 |
@@ -74,9 +82,9 @@ The height, in pixels.
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: The Win32\_TSLicenseReport class exposes the following methods.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3D332EBB-00C0-431A-AF87-CF300CB4137F'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3D332EBB-00C0-431A-AF87-CF300CB4137F
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseReport Methods

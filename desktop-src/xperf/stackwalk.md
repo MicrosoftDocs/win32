@@ -1,14 +1,20 @@
 ---
 title: stackwalk
 description: Displays the stakwalking options. Stack walking flags can be specified either directly on the command line or in a file.
-ms.assetid: '43aebeb9-5bb9-475f-a092-e5017f40c0d4'
-keywords: ["stackwalk Windows Performance Analyzer"]
+ms.assetid: 43aebeb9-5bb9-475f-a092-e5017f40c0d4
+keywords:
+- stackwalk Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - stackwalk
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # stackwalk
@@ -73,11 +79,11 @@ The following is a list of recognized stack walking flags:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

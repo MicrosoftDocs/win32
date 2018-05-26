@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the object''s Application object.'
-ms.assetid: '5335f4dd-ca80-49c8-8953-e32a6e6308e0'
-title: 'Shell.Application property'
+---
+Description: Contains the objects Application object.
+ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
+title: Shell.Application property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.Application property

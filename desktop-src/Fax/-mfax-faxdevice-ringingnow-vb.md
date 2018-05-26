@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RingingNow property is a Boolean value that indicates whether the fax device is ringing at the moment the property is retrieved (the status could change immediately thereafter).'
-ms.assetid: 'f92fd69d-7b7b-4130-a16a-02a226ee97e3'
-title: 'FaxDevice.RingingNow property'
+---
+Description: The RingingNow property is a Boolean value that indicates whether the fax device is ringing at the moment the property is retrieved (the status could change immediately thereafter).
+ms.assetid: f92fd69d-7b7b-4130-a16a-02a226ee97e3
+title: FaxDevice.RingingNow property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDevice.RingingNow property
@@ -55,7 +60,7 @@ If this property is equal to **True**, the fax device is currently ringing. If t
 [**FaxDevice**](-mfax-faxdevice.md)
 </dt> <dt>
 
-[**IFaxDevice**](-mfax-faxdevice-cpp.md)
+[**IFaxDevice**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdevice?branch=master)
 </dt> </dl>
 
  

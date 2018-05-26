@@ -1,7 +1,12 @@
 ---
 title: Microsoft Platform Ready Test Tool
 description: Microsoft Platform Ready Test Tool
-ms.assetid: 'C41FBE70-E392-4FD0-954B-6C24168CB93E'
+ms.assetid: C41FBE70-E392-4FD0-954B-6C24168CB93E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Platform Ready Test Tool

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxStatus object permits a fax client Visual Basic application to retrieve status information for a specific port on a connected fax server.'
-ms.assetid: 'ce382d4d-aeaf-4254-9bc7-74b7d1d7f1a4'
+---
+Description: The FaxStatus object permits a fax client Visual Basic application to retrieve status information for a specific port on a connected fax server.
+ms.assetid: ce382d4d-aeaf-4254-9bc7-74b7d1d7f1a4
 title: FaxStatus object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus object
@@ -78,7 +83,7 @@ You should not implement this class. The Microsoft standard implementation provi
 
 1.  Call the Visual Basic [**CreateObject**](ec11fd03-b420-412f-b25a-057f877cefbc) function to create a [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object.
 2.  Call the [**GetPorts**](-mfax-ifaxserver-getports-vb.md) method of the [**FaxServer**](-mfax-faxserver-object-visual-basic-.md) object to create a [**FaxPorts**](-mfax-faxports-object-visual-basic-.md) object for the connected fax server.
-3.  Retrieve the [**Count**](-mfax-ifaxports-get-count.md) property and then the [**Item**](-mfax-ifaxports-get-item.md) property for the [**FaxPorts**](-mfax-faxports-object-visual-basic-.md) collection to create a [**FaxPort**](-mfax-faxport-object-visual-basic-.md) object.
+3.  Retrieve the [**Count**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxports-get_count?branch=master) property and then the [**Item**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxports-get_item?branch=master) property for the [**FaxPorts**](-mfax-faxports-object-visual-basic-.md) collection to create a [**FaxPort**](-mfax-faxport-object-visual-basic-.md) object.
 4.  Call the [**GetStatus**](-mfax-ifaxport-getstatus-vb.md) method of the [**FaxPort**](-mfax-faxport-object-visual-basic-.md) object to create a **FaxStatus** object.
 
 ## Requirements

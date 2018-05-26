@@ -1,8 +1,31 @@
 ---
 title: New Features in TSF
 description: With the release of Microsoft WindowsXP Service Pack1, Text Services Framework (TSF) has several new features.
-ms.assetid: 'd69fec9a-9304-45af-806a-dcc476c95759'
-keywords: ["Text Services Framework (TSF),new features", "TSF (Text Services Framework),new features", "text services,new features", "TSF-enabled applications,new features", "Text Services Framework (TSF),advanced support", "TSF (Text Services Framework),advanced support", "text services,advanced support", "TSF-enabled applications,advanced support", "Text Services Framework (TSF),Rich Edit", "TSF (Text Services Framework),Rich Edit", "text services,Rich Edit", "TSF-enabled applications,Rich Edit", "Rich Edit", "Text Services Framework (TSF),security", "TSF (Text Services Framework),security", "text services,security", "TSF-enabled applications,security", "security for TSF"]
+ms.assetid: d69fec9a-9304-45af-806a-dcc476c95759
+keywords:
+- Text Services Framework (TSF),new features
+- TSF (Text Services Framework),new features
+- text services,new features
+- TSF-enabled applications,new features
+- Text Services Framework (TSF),advanced support
+- TSF (Text Services Framework),advanced support
+- text services,advanced support
+- TSF-enabled applications,advanced support
+- Text Services Framework (TSF),Rich Edit
+- TSF (Text Services Framework),Rich Edit
+- text services,Rich Edit
+- TSF-enabled applications,Rich Edit
+- Rich Edit
+- Text Services Framework (TSF),security
+- TSF (Text Services Framework),security
+- text services,security
+- TSF-enabled applications,security
+- security for TSF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Features in TSF

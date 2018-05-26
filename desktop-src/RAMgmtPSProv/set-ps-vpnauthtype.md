@@ -2,13 +2,16 @@
 title: Set method of the PS\_VpnAuthType class
 description: This cmdlet sets the authentication type to be used for VPN.
 audience: developer
-ms.assetid: '24fd58b2-234e-409d-b262-d09415db128b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 24fd58b2-234e-409d-b262-d09415db128b
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_VpnAuthType class", "PS_VpnAuthType class, Set method"]
+keywords:
+- Set method
+- Set method, PS_VpnAuthType class
+- PS_VpnAuthType class, Set method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_VpnAuthType class
@@ -28,17 +34,17 @@ This cmdlet sets the authentication type to be used for VPN.
 
 ```mof
 uint32 Set(
-  [in]  string  Type,
-  [in]  string  RadiusServer,
-  [in]  string  SharedSecret,
-  [in]  uint32  RadiusTimeout,
-  [in]  uint8   RadiusScore,
-  [in]  uint16  RadiusPort,
-  [in]  string  ComputerName,
-  [in]  string  MsgAuthenticator,
-  [in]  string  EntrypointName,
-  [in]  boolean PassThru,
-  [out] VpnAuth cmdletOutput
+  [in]  string  Type,
+  [in]  string  RadiusServer,
+  [in]  string  SharedSecret,
+  [in]  uint32  RadiusTimeout,
+  [in]  uint8   RadiusScore,
+  [in]  uint16  RadiusPort,
+  [in]  string  ComputerName,
+  [in]  string  MsgAuthenticator,
+  [in]  string  EntrypointName,
+  [in]  boolean PassThru,
+  [out] VpnAuth cmdletOutput
 );
 ```
 
@@ -160,7 +166,7 @@ Returns the VPN Auth policy object. By default this cmdlet does not generate any
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -174,9 +180,9 @@ Returns the VPN Auth policy object. By default this cmdlet does not generate any
 [**PS\_VpnAuthType**](ps-vpnauthtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

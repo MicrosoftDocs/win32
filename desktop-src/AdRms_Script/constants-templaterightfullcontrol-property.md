@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies a right to fully control content.'
+Description: Retrieves a value that specifies a right to fully control content.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '1169bf02-924e-4d63-99d0-5f73d7fce033'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 1169bf02-924e-4d63-99d0-5f73d7fce033
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.TemplateRightFullControl property'
+title: Constants.TemplateRightFullControl property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.TemplateRightFullControl property
@@ -157,7 +160,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -169,9 +172,9 @@ END FUNCTION
 [**Constants**](constants-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

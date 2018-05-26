@@ -1,8 +1,11 @@
 ---
 title: IMimeBody IsType method
 description: Queries the type of a body.
-ms.assetid: '57eb83ca-3bdc-476b-a1ec-aee0e5cfe37c'
-keywords: ["IsType method Windows Mail (formerly Outlook Express)", "IsType method Windows Mail (formerly Outlook Express) , IMimeBody interface", "IMimeBody interface Windows Mail (formerly Outlook Express) , IsType method"]
+ms.assetid: 57eb83ca-3bdc-476b-a1ec-aee0e5cfe37c
+keywords:
+- IsType method Windows Mail (formerly Outlook Express)
+- IsType method Windows Mail (formerly Outlook Express) , IMimeBody interface
+- IMimeBody interface Windows Mail (formerly Outlook Express) , IsType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeBody::IsType method
@@ -22,7 +30,7 @@ Queries the type of a body.
 
 ```C++
 HRESULT IsType(
-  [in] IMSGBODYTYPE bodytype
+  [in] IMSGBODYTYPE bodytype
 );
 ```
 
@@ -57,7 +65,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +73,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -74,9 +82,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

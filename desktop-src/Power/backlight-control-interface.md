@@ -1,7 +1,12 @@
 ---
-Description: 'The backlight control interface is a standardized IOCTL interface for controlling the brightness of the LCD backlight.'
-ms.assetid: 'edf2b7ed-2676-483a-80ba-f148951e0e58'
+Description: The backlight control interface is a standardized IOCTL interface for controlling the brightness of the LCD backlight.
+ms.assetid: edf2b7ed-2676-483a-80ba-f148951e0e58
 title: Backlight Control Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Backlight Control Interface

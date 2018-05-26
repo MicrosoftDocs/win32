@@ -4,10 +4,13 @@ description: Both resource DLLs and cluster-aware applications need to create an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6cafd61f-9506-4417-90bd-a9d2de9cf55b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6cafd61f-9506-4417-90bd-a9d2de9cf55b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Property Lists

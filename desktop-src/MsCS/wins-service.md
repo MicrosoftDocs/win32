@@ -4,11 +4,16 @@ description: The WINS Service resource type supports the Windows Internet Name S
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '78c620be-f198-481e-bd0e-50c57f0ff0a8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 78c620be-f198-481e-bd0e-50c57f0ff0a8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,WINS Service", "WINS Service resource type Failover Cluster"]
+keywords:
+- resource types Failover Cluster ,WINS Service
+- WINS Service resource type Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WINS Service

@@ -4,11 +4,14 @@ description: Returns the script language of the script specified by the Script p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '22c21ba5-86ba-471c-9a0d-6d6ca62475c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 22c21ba5-86ba-471c-9a0d-6d6ca62475c7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ScriptLanguage property MMC", "ScriptLanguage property MMC , MMCTask class", "MMCTask class MMC , ScriptLanguage property"]
+keywords:
+- ScriptLanguage property MMC
+- ScriptLanguage property MMC , MMCTask class
+- MMCTask class MMC , ScriptLanguage property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCTask.ScriptLanguage property
@@ -59,9 +65,9 @@ The ScriptLanguage property can have the following values:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

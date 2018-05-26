@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the normalized version of a 3D vector.'
-ms.assetid: '7bb8302e-8af2-4328-9b46-bc9f5a009f56'
+---
+Description: Returns the normalized version of a 3D vector.
+ms.assetid: 7bb8302e-8af2-4328-9b46-bc9f5a009f56
 title: D3DXVec3Normalize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Normalize function

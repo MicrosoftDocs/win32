@@ -4,17 +4,22 @@ description: Specifies which port is used by the directory service to listen for
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bed80aeb-3fc2-4065-92df-1f387982848e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: bed80aeb-3fc2-4065-92df-1f387982848e
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Port-LDAP attribute AD Schema", "msDS-PortLDAP attribute AD Schema"]
+keywords:
+- ms-DS-Port-LDAP attribute AD Schema
+- msDS-PortLDAP attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Port-LDAP
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Port-LDAP attribute
@@ -61,9 +66,9 @@ Specifies which port is used by the directory service to listen for LDAP request
 
 
 
- 
+ 
 
- 
+ 
 
 
 

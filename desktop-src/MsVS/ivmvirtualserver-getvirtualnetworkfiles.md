@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer GetVirtualNetworkFiles method
 description: The GetVirtualNetworkFiles method returns an array of known virtual network configuration files.
-ms.assetid: '6e87fd0e-fd72-48cd-94fc-95642e39961b'
-keywords: ["GetVirtualNetworkFiles method Virtual Server", "GetVirtualNetworkFiles method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , GetVirtualNetworkFiles method", "GetVirtualNetworkFiles method Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , GetVirtualNetworkFiles method"]
+ms.assetid: 6e87fd0e-fd72-48cd-94fc-95642e39961b
+keywords:
+- GetVirtualNetworkFiles method Virtual Server
+- GetVirtualNetworkFiles method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , GetVirtualNetworkFiles method
+- GetVirtualNetworkFiles method Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , GetVirtualNetworkFiles method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::GetVirtualNetworkFiles method
@@ -23,9 +33,9 @@ The **GetVirtualNetworkFiles** method returns an array of known virtual network 
 
 ```C++
 HRESULT GetVirtualNetworkFiles(
-  [in]  VARIANT      inAdditionalSearchPaths,
-  [in]  VARIANT_BOOL inExcludedRegisteredVNs,
-  [out] VARIANT      *outVirtualNetworkFileList
+  [in]  VARIANT      inAdditionalSearchPaths,
+  [in]  VARIANT_BOOL inExcludedRegisteredVNs,
+  [out] VARIANT      *outVirtualNetworkFileList
 );
 ```
 
@@ -71,7 +81,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -83,8 +93,8 @@ The search paths used to retrieve the array of configuration files will include 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ The search paths used to retrieve the array of configuration files will include 
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

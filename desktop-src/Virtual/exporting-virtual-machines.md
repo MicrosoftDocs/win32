@@ -1,8 +1,14 @@
 ---
 title: Exporting a Snapshot of a Virtual Machine
 description: The following C\ and VBScript samples demonstrate exporting a snapshot of a virtual machine (VM).
-ms.assetid: '45429c07-ab31-487f-863c-994e92d5a626'
-keywords: ["Exporting Virtual Machines Hyper-V"]
+ms.assetid: 45429c07-ab31-487f-863c-994e92d5a626
+keywords:
+- Exporting Virtual Machines Hyper-V
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exporting a Snapshot of a Virtual Machine

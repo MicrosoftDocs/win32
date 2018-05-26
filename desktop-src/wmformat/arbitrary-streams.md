@@ -1,8 +1,20 @@
 ---
 title: Arbitrary Streams
 description: Arbitrary Streams
-ms.assetid: '81fd3b07-7cf2-4013-97ed-9718142ca4c3'
-keywords: ["Windows Media Format SDK,arbitrary streams", "Advanced Systems Format (ASF),arbitrary streams", "ASF (Advanced Systems Format),arbitrary streams", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "arbitrary streams"]
+ms.assetid: 81fd3b07-7cf2-4013-97ed-9718142ca4c3
+keywords:
+- Windows Media Format SDK,arbitrary streams
+- Advanced Systems Format (ASF),arbitrary streams
+- ASF (Advanced Systems Format),arbitrary streams
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- arbitrary streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Arbitrary Streams

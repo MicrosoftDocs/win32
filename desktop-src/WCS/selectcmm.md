@@ -1,8 +1,9 @@
 ---
 title: SelectCMM function
 description: SelectCMM allows an application to select the preferred color management module (CMM) to use.
-ms.assetid: '3aadd3d6-a74e-4de2-855c-d20c520821ff'
-keywords: ["SelectCMM function Windows Color System"]
+ms.assetid: 3aadd3d6-a74e-4de2-855c-d20c520821ff
+keywords:
+- SelectCMM function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SelectCMM function
@@ -22,7 +28,7 @@ api_type:
 
 ```C++
 BOOL WINAPI SelectCMM(
-   DWORD cmmID
+   DWORD cmmID
 );
 ```
 
@@ -57,8 +63,8 @@ For **SelectCMM** to succeed, the specified CMM must be registered with the syst
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -75,9 +81,9 @@ For **SelectCMM** to succeed, the specified CMM must be registered with the syst
 [Functions](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: How Windows 2000 QOS Works
 description: To achieve manageable and predictable quality of service from one end of the network to the other, the collection of components that must communicate and interact results in a fairly complex process.
-ms.assetid: 'a1bf7acb-0d38-4a6e-8358-7467c2541f2a'
+ms.assetid: a1bf7acb-0d38-4a6e-8358-7467c2541f2a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Windows 2000 QOS Works

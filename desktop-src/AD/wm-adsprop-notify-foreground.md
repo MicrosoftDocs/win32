@@ -4,11 +4,12 @@ description: The WM\_ADSPROP\_NOTIFY\_FOREGROUND message is used internally by t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c984edd5-deca-490b-ac46-846a365d20c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c984edd5-deca-490b-ac46-846a365d20c4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WM_ADSPROP_NOTIFY_FOREGROUND message Active Directory"]
+keywords:
+- WM_ADSPROP_NOTIFY_FOREGROUND message Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Adsprop.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WM\_ADSPROP\_NOTIFY\_FOREGROUND message
@@ -69,8 +73,8 @@ This message has no return value.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Adsprop.h</dt> </dl> |
 
 
@@ -82,9 +86,9 @@ This message has no return value.
 [Messages in Active Directory Domain Services](messages-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'DDE shares are a machine resource.'
-ms.assetid: '98d24300-52cc-4f0d-b74f-c58b823ac5f3'
+Description: DDE shares are a machine resource.
+ms.assetid: 98d24300-52cc-4f0d-b74f-c58b823ac5f3
 title: DDE Shares
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDE Shares

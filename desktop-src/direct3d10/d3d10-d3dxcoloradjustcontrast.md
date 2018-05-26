@@ -1,7 +1,12 @@
-﻿---
-Description: 'Adjusts the contrast value of a color.'
-ms.assetid: 'c111d3c7-19c6-4a6b-af0d-a9e1bc0bb7d9'
+---
+Description: Adjusts the contrast value of a color.
+ms.assetid: c111d3c7-19c6-4a6b-af0d-a9e1bc0bb7d9
 title: D3DXColorAdjustContrast function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXColorAdjustContrast function

@@ -4,13 +4,16 @@ description: Gets all IPv4 interfaces in the system to which the DHCP Server is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a17bf561-7a51-4f1a-b6e8-e6b14da7b3e8'
-ms.prod: 'windows-server-dev'
+ms.assetid: a17bf561-7a51-4f1a-b6e8-e6b14da7b3e8
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4Binding class", "PS_DhcpServerv4Binding class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4Binding class
+- PS_DhcpServerv4Binding class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4Binding class
@@ -30,8 +36,8 @@ Gets all IPv4 interfaces in the system to which the DHCP Server is bound to.
 
 ```mof
 uint32 Get(
-  [in]  string              ComputerName,
-  [out] DhcpServerv4Binding cmdletOutput[]
+  [in]  string              ComputerName,
+  [out] DhcpServerv4Binding cmdletOutput[]
 );
 ```
 
@@ -62,7 +68,7 @@ An embedded instance of a [**DhcpServerv4Binding**](dhcpserverv4binding.md) obje
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -76,9 +82,9 @@ An embedded instance of a [**DhcpServerv4Binding**](dhcpserverv4binding.md) obje
 [**PS\_DhcpServerv4Binding**](ps-dhcpserverv4binding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMTextOut function calls for the driver to render a set of glyphs at specified positions.'
-ms.assetid: 'cecce6ae-9b26-4b5f-aad3-69630ea340a4'
+---
+Description: The OEMTextOut function calls for the driver to render a set of glyphs at specified positions.
+ms.assetid: cecce6ae-9b26-4b5f-aad3-69630ea340a4
 title: OEMTextOut function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMTextOut function

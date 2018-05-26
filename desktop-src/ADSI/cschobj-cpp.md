@@ -4,10 +4,13 @@ description: In the example provider component, a code example, that manages the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ed8cc113-2ada-4522-87b9-32c922e89819'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ed8cc113-2ada-4522-87b9-32c922e89819
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CSCHOBJ.CPP
@@ -20,8 +23,8 @@ In the example provider component, a code example, that manages the lifetime of 
 |----------------------------------------------------------|------------------------------------------------|
 | **CSampleDSSchema::CreateSchema**                        | Standard constructor.                          |
 | **CSampleDSSchema::~CSampleDSSchema**                    | Standard destructor.                           |
-| Standard [**IADs**](iads.md) methods.                   |                                                |
-| Standard [**IADsContainer**](iadscontainer.md) methods. |                                                |
+| Standard [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) methods.                   |                                                |
+| Standard [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master) methods. |                                                |
 | **CSampleDSSchema::QueryInterface**                      | Verify the given interface ID on this object.  |
 | **CSampleDSSchema::AllocateSchema**                      | Create a schema object and load its type data. |
 

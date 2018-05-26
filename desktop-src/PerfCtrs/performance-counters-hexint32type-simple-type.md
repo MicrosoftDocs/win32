@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a 4-byte hexadecimal type.'
-ms.assetid: 'd0e538c1-f22e-4905-ba73-b670fa7eb174'
+Description: Defines a 4-byte hexadecimal type.
+ms.assetid: d0e538c1-f22e-4905-ba73-b670fa7eb174
 title: HexInt32Type Simple Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HexInt32Type Simple Type
@@ -34,14 +39,14 @@ The **HexInt32Type** simple type is a **xs:string** that is restricted by the fo
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

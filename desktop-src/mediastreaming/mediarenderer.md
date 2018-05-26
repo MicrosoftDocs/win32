@@ -1,14 +1,21 @@
 ---
 title: MediaRenderer class
 description: Implements the IMediaRenderer interface that represents a DLNA Digital Media Renderer (DMR) device.
-ms.assetid: 'FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB'
-keywords: ["MediaRenderer class Media Streaming API", "MediaRenderer class Media Streaming API , described"]
+ms.assetid: FBA5BF5A-FA5A-4E25-8F2B-9D1C0A9BCACB
+keywords:
+- MediaRenderer class Media Streaming API
+- MediaRenderer class Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - MediaRenderer
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaRenderer class
@@ -52,7 +59,7 @@ The **MediaRenderer** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -69,11 +76,11 @@ The **MediaRenderer** class has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

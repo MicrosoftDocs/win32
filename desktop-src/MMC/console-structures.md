@@ -4,11 +4,15 @@ description: The following structures are available for building MMC snap-in com
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '993db263-63b8-4923-8f71-2cad505ad577'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 993db263-63b8-4923-8f71-2cad505ad577
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["structures MM 2.0C"]
+keywords:
+- structures MM 2.0C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Structures
@@ -53,7 +57,7 @@ The following structures are available for building MMC snap-in components:
 
 [**MMC\_VISIBLE\_COLUMNS**](mmc-visible-columns.md)
 
-[**PROPSHEETPAGE**](propsheetpage.md)
+[**PROPSHEETPAGE**](/windows/win32/Prsht/nc-prsht-lpfnaddpropsheetpage?branch=master)
 
 [**RDCOMPARE**](rdcompare.md)
 

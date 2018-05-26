@@ -4,17 +4,22 @@ description: Contains the size, in megabytes, of the staging directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '80b292f0-5d4f-446b-af6b-69a218f972f7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 80b292f0-5d4f-446b-af6b-69a218f972f7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-StagingSizeInMb attribute AD Schema", "msDFSR-StagingSizeInMb attribute AD Schema"]
+keywords:
+- ms-DFSR-StagingSizeInMb attribute AD Schema
+- msDFSR-StagingSizeInMb attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-StagingSizeInMb
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-StagingSizeInMb attribute
@@ -38,10 +43,10 @@ Contains the size, in megabytes, of the staging directory.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the size, in megabytes, of the staging directory.
 
 The **ms-DFSR-StagingSizeInMb** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

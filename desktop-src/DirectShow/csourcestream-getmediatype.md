@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaType method retrieves a preferred media type.'
-ms.assetid: 'c5c5f498-a9a3-4ce7-8cf5-941397aa649d'
-title: 'CSourceStream.GetMediaType method'
+Description: The GetMediaType method retrieves a preferred media type.
+ms.assetid: c5c5f498-a9a3-4ce7-8cf5-941397aa649d
+title: CSourceStream.GetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.GetMediaType method
@@ -13,8 +18,8 @@ The **GetMediaType** method retrieves a preferred media type.
 
 ```C++
 virtual HRESULT GetMediaType(
-   int        iPosition,
-   CMediaType *pMediaType
+   int        iPosition,
+   CMediaType *pMediaType
 );
 ```
 
@@ -53,7 +58,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,9 +87,9 @@ The single-parameter method returns E\_UNEXPECTED. The two-parameter method veri
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

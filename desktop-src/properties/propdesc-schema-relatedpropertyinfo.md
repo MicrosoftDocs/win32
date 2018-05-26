@@ -1,7 +1,12 @@
 ---
-Description: 'New for Windows 7. Container element for relatedProperty elements.'
-ms.assetid: 'F8BAAE5C-A7EA-487a-B829-91A27E24B58D'
+Description: New for Windows 7. Container element for relatedProperty elements.
+ms.assetid: F8BAAE5C-A7EA-487a-B829-91A27E24B58D
 title: relatedPropertyInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # relatedPropertyInfo

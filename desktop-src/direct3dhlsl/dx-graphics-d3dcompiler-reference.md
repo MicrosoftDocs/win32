@@ -1,7 +1,12 @@
 ---
 title: D3DCompiler Reference
 description: The Direct3D API defines several API elements to compile shader code.
-ms.assetid: 'e07afae0-9f94-4d89-956e-65e3715bcb71'
+ms.assetid: e07afae0-9f94-4d89-956e-65e3715bcb71
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCompiler Reference

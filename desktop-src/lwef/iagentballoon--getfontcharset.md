@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetFontCharSet
 description: IAgentBalloon GetFontCharSet
-ms.assetid: '1ab5767a-31e3-449c-b242-f20b11336ca0'
+ms.assetid: 1ab5767a-31e3-449c-b242-f20b11336ca0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetFontCharSet

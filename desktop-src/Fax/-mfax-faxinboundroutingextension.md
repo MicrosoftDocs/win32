@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxInboundRoutingExtension configuration object is used by a fax client application to retrieve information about a fax routing extension registered with the fax service.'
-ms.assetid: 'cb875610-d6c9-473d-b9c2-0035e67a8949'
+---
+Description: The FaxInboundRoutingExtension configuration object is used by a fax client application to retrieve information about a fax routing extension registered with the fax service.
+ms.assetid: cb875610-d6c9-473d-b9c2-0035e67a8949
 title: FaxInboundRoutingExtension object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension object
@@ -46,7 +51,7 @@ A **FaxInboundRoutingExtension** object is accessed through a [**FaxInboundRouti
 
 To create a **FaxInboundRoutingExtension** object in Microsoft Visual Basic, call the [**Item**](-mfax-faxinboundroutingextensions-item.md) property of the [**FaxInboundRoutingExtensions**](-mfax-faxinboundroutingextensions.md) object.
 
-To create a **FaxInboundRoutingExtension** object in C++, call the [**Item**](-mfax-faxinboundroutingextensions-item-cpp.md) method.
+To create a **FaxInboundRoutingExtension** object in C++, call the [**Item**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxinboundroutingextensions-get_item?branch=master) method.
 
 ## Requirements
 
@@ -69,7 +74,7 @@ To create a **FaxInboundRoutingExtension** object in C++, call the [**Item**](-m
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

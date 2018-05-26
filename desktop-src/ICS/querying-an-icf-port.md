@@ -1,7 +1,12 @@
 ---
 title: Querying an ICF Port
 description: Querying an ICF Port
-ms.assetid: '99d469fb-70cf-422a-a5dc-00a5b59f2955'
+ms.assetid: 99d469fb-70cf-422a-a5dc-00a5b59f2955
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying an ICF Port

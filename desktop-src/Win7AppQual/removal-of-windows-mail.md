@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '356f0d79-12dd-49f0-b756-a46f20177efa'
+Description: .
+ms.assetid: 356f0d79-12dd-49f0-b756-a46f20177efa
 title: Removal of Windows Mail
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removal of Windows Mail

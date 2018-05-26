@@ -4,17 +4,22 @@ description: Contains the NIS domain.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '14a754d3-597c-48e6-9bf6-bb31d97d2198'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 14a754d3-597c-48e6-9bf6-bb31d97d2198
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msSFU-30-Nis-Domain attribute AD Schema", "msSFU30NisDomain attribute AD Schema"]
+keywords:
+- msSFU-30-Nis-Domain attribute AD Schema
+- msSFU30NisDomain attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msSFU-30-Nis-Domain
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msSFU-30-Nis-Domain attribute
@@ -38,10 +43,10 @@ Contains the NIS domain.
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -127,9 +132,9 @@ Contains the NIS domain.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

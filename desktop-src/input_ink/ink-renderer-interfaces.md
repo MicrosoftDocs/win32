@@ -1,7 +1,12 @@
-﻿---
-Description: 'The topics contained in this section provide the reference specifications for Ink renderer interfaces.'
-ms.assetid: '8589130C-AC31-42A1-B248-11AA26EC34D4'
+---
+Description: The topics contained in this section provide the reference specifications for Ink renderer interfaces.
+ms.assetid: 8589130C-AC31-42A1-B248-11AA26EC34D4
 title: Ink renderer interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink renderer interfaces
@@ -14,7 +19,7 @@ The topics contained in this section provide the reference specifications for [I
 
 | Topic                                                 | Description                                                                                                                                                                                                                                            |
 |-------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IInkD2DRenderer**](iinkd2drenderer.md)<br/> | An [**IInkD2DRenderer**](iinkd2drenderer.md) object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default [**InkCanvas**](w_ui_xaml_ctrl.inkcanvas) control.<br/> |
+| [**IInkD2DRenderer**](/windows/win32/inkrenderer/nn-inkrenderer-iinkd2drenderer?branch=master)<br/> | An [**IInkD2DRenderer**](/windows/win32/inkrenderer/nn-inkrenderer-iinkd2drenderer?branch=master) object enables the rendering of ink strokes onto the designated Direct2D device context of a Universal Windows app, instead of the default [**InkCanvas**](w_ui_xaml_ctrl.inkcanvas) control.<br/> |
 
 
 

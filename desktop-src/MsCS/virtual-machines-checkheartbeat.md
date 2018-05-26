@@ -4,17 +4,22 @@ description: Indicates whether the heartbeat of the VM should be used to determi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a9c61a77-668f-407f-a8f5-6b9b22234431'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: a9c61a77-668f-407f-a8f5-6b9b22234431
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CheckHeartbeat Failover Cluster ,for virtual machines", "CheckHeartbeat Failover Cluster"]
+keywords:
+- CheckHeartbeat Failover Cluster ,for virtual machines
+- CheckHeartbeat Failover Cluster
 topic_type:
 - apiref
 api_name:
 - CheckHeartbeat
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CheckHeartbeat
@@ -28,14 +33,14 @@ Indicates whether the heartbeat of the virtual machine (VM) should be used to de
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +55,7 @@ The following table summarizes the values for **CheckHeartbeat**.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -75,7 +80,7 @@ CheckHeartbeatValue.dw        = CheckHeartbeatData;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -86,12 +91,12 @@ CheckHeartbeatValue.dw        = CheckHeartbeatData;
 [Virtual Machine Private Properties](virtual-machine-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

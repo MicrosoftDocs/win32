@@ -1,7 +1,12 @@
 ---
-Description: 'MFPlay is an API for creating media playback applications in C++.'
-ms.assetid: '55612f49-5995-4bdf-aa12-8a853e5a2b24'
+Description: MFPlay is an API for creating media playback applications in C++.
+ms.assetid: 55612f49-5995-4bdf-aa12-8a853e5a2b24
 title: Getting Started with MFPlay
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with MFPlay
@@ -28,13 +33,13 @@ MFPlay requires Windows 7.
 
 ## About MFPlay
 
-MFPlay has a simple programming model, while providing the core set of features that most playback applications need. An application creates a *player* object that controls playback. To play a media file, the player object creates a *media item*, which can be used to get information about the contents of the media file. The application controls playback through methods on the player object's [**IMFPMediaPlayer**](imfpmediaplayer.md) interface. Optionally, the application can get event notifications through a callback interface The following diagram illustrates this process.
+MFPlay has a simple programming model, while providing the core set of features that most playback applications need. An application creates a *player* object that controls playback. To play a media file, the player object creates a *media item*, which can be used to get information about the contents of the media file. The application controls playback through methods on the player object's [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master) interface. Optionally, the application can get event notifications through a callback interface The following diagram illustrates this process.
 
 ![conceptual diagram: application and player point to each other, both point to media item, which points to media file](images/mfplay.png)
 
 ## Playing a Media File
 
-To play a media file, call the [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) function.
+To play a media file, call the [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master) function.
 
 
 ```C++
@@ -60,7 +65,7 @@ HRESULT PlayVideo(HWND hwnd, const WCHAR* sURL)
 
 
 
-The [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) function creates a new instance of the MFPlay player object. The function takes the following parameters:
+The [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master) function creates a new instance of the MFPlay player object. The function takes the following parameters:
 
 -   The first parameter is the URL of the file to open. This can be a local file or a file on a media server.
 -   The second parameter specifies whether playback starts automatically. By setting this paremeter to **TRUE**, the file will play as soon as MFPlay loads it.
@@ -68,9 +73,9 @@ The [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) function creates a new i
 -   The fourth parameter is a pointer to an optional callback interface. This parameter can be **NULL**, as shown. The callback is described in the section [Receiving Events From the Player](#receiving-events-from-the-player).
 -   The fifth parameter is a handle to the application window. If the media file contains a video stream, the video will appear inside the client area of this window. For audio-only playback, this parameter can be **NULL**.
 
-The last parameter receives a pointer to the player object's [**IMFPMediaPlayer**](imfpmediaplayer.md) interface.
+The last parameter receives a pointer to the player object's [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master) interface.
 
-Before the application shuts down, be sure to release the [**IMFPMediaPlayer**](imfpmediaplayer.md) pointer. You can do this in your **WM\_CLOSE** message handler.
+Before the application shuts down, be sure to release the [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master) pointer. You can do this in your **WM\_CLOSE** message handler.
 
 
 ```C++
@@ -93,11 +98,11 @@ For simple video playback, that's all the code you need. The rest of this tutori
 
 ## Controlling Playback
 
-The code shown in the previous section will play the media file until it reaches the end of the file. You can stop and start playback by calling the following methods on the [**IMFPMediaPlayer**](imfpmediaplayer.md) interface:
+The code shown in the previous section will play the media file until it reaches the end of the file. You can stop and start playback by calling the following methods on the [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master) interface:
 
--   [**IMFPMediaPlayer::Pause**](imfpmediaplayer-pause.md) pauses playback. While playback is paused, the most recent video frame is displayed, and audio is silent.
--   [**IMFPMediaPlayer::Stop**](imfpmediaplayer-stop.md) stops playback. No video is displayed, and the playback position resets to the start of the file.
--   [**IMFPMediaPlayer::Play**](imfpmediaplayer-play.md) resumes playback after stopping or pausing.
+-   [**IMFPMediaPlayer::Pause**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-pause?branch=master) pauses playback. While playback is paused, the most recent video frame is displayed, and audio is silent.
+-   [**IMFPMediaPlayer::Stop**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-stop?branch=master) stops playback. No video is displayed, and the playback position resets to the start of the file.
+-   [**IMFPMediaPlayer::Play**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-play?branch=master) resumes playback after stopping or pausing.
 
 The following code pauses or resumes playback when you press the **SPACEBAR**.
 
@@ -141,16 +146,16 @@ void OnKeyDown(HWND hwnd, UINT vk, BOOL fDown, int cRepeat, UINT flags)
 
 
 
-This example calls the [**IMFPMediaPlayer::GetState**](imfpmediaplayer-getstate.md) method to get the current playback state (paused, stopped, or playing) and pauses or resumes accordingly.
+This example calls the [**IMFPMediaPlayer::GetState**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-getstate?branch=master) method to get the current playback state (paused, stopped, or playing) and pauses or resumes accordingly.
 
 ## Receiving Events From the Player
 
 MFPlay uses a callback interface to send events to your application. There are two reasons for this callback:
 
 -   Playback occurs on a separate thread. During playback, certain events might occur, such as reaching the end of the file. MFPlay uses the callback to notify your application of the event.
--   Many of the [**IMFPMediaPlayer**](imfpmediaplayer.md) methods are asynchronous, meaning they return before the operation completes. Asynchronous methods let you start an operation from your UI thread that might take a long time to complete, without it causing your UI to block. After the operation completes, MFPlay signals the callback.
+-   Many of the [**IMFPMediaPlayer**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayer?branch=master) methods are asynchronous, meaning they return before the operation completes. Asynchronous methods let you start an operation from your UI thread that might take a long time to complete, without it causing your UI to block. After the operation completes, MFPlay signals the callback.
 
-To receive callback notifications, implement the [**IMFPMediaPlayerCallback**](imfpmediaplayercallback.md) interface. This interface inherits **IUnknown** and defines a single method, [**OnMediaPlayerEvent**](imfpmediaplayercallback-onmediaplayerevent.md). To set up the callback, pass a pointer to your **IMFPMediaPlayerCallback** implementation in the *pCallback* parameter of the [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) function.
+To receive callback notifications, implement the [**IMFPMediaPlayerCallback**](/windows/win32/mfplay/nn-mfplay-imfpmediaplayercallback?branch=master) interface. This interface inherits **IUnknown** and defines a single method, [**OnMediaPlayerEvent**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent?branch=master). To set up the callback, pass a pointer to your **IMFPMediaPlayerCallback** implementation in the *pCallback* parameter of the [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master) function.
 
 Here is the first example from this tutorial, modified to include the callback.
 
@@ -182,9 +187,9 @@ if (SUCCEEDED(hr))
 
 
 
-The [**OnMediaPlayerEvent**](imfpmediaplayercallback-onmediaplayerevent.md) method has a single parameter, which is a pointer to the [**MFP\_EVENT\_HEADER**](mfp-event-header.md) structure. The **eEventType** member of this structure tells you which event occurred. For example, when playback starts, MFPlay sends the **MFP\_EVENT\_TYPE\_PLAY** event.
+The [**OnMediaPlayerEvent**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayercallback-onmediaplayerevent?branch=master) method has a single parameter, which is a pointer to the [**MFP\_EVENT\_HEADER**](/windows/win32/mfplay/ns-mfplay-mfp_event_header?branch=master) structure. The **eEventType** member of this structure tells you which event occurred. For example, when playback starts, MFPlay sends the **MFP\_EVENT\_TYPE\_PLAY** event.
 
-Each event type has a corresponding data structure that contains information for that event. Each of these structures starts with an [**MFP\_EVENT\_HEADER**](mfp-event-header.md) structure. In your callback, cast the **MFP\_EVENT\_HEADER** pointer to the event-specific data structure. For example, if the event type is **MFP\_PLAY\_EVENT**, the data structure is [**MFP\_PLAY\_EVENT**](mfp-play-event.md). The following code shows how to handle this event in the callback.
+Each event type has a corresponding data structure that contains information for that event. Each of these structures starts with an [**MFP\_EVENT\_HEADER**](/windows/win32/mfplay/ns-mfplay-mfp_event_header?branch=master) structure. In your callback, cast the **MFP\_EVENT\_HEADER** pointer to the event-specific data structure. For example, if the event type is **MFP\_PLAY\_EVENT**, the data structure is [**MFP\_PLAY\_EVENT**](/windows/win32/mfplay/ns-mfplay-mfp_play_event?branch=master). The following code shows how to handle this event in the callback.
 
 
 ```
@@ -215,17 +220,17 @@ void OnPlay(MFP_PLAY_EVENT *pEvent)
 
 
 
-This example uses the [**MFP\_GET\_PLAY\_EVENT**](mfp-get-play-event.md) event to cast the *pEventHeader* pointer to an [**MFP\_PLAY\_EVENT**](mfp-play-event.md) structure. The **HRESULT** from the operation that triggered the event is stored in the **hrEvent** field of the structure.
+This example uses the [**MFP\_GET\_PLAY\_EVENT**](/windows/win32/mfplay/nf-mfplay-mfp_get_play_event?branch=master) event to cast the *pEventHeader* pointer to an [**MFP\_PLAY\_EVENT**](/windows/win32/mfplay/ns-mfplay-mfp_play_event?branch=master) structure. The **HRESULT** from the operation that triggered the event is stored in the **hrEvent** field of the structure.
 
-For a list of all the event types and the corresponding data structures, see [**MFP\_EVENT\_TYPE**](mfp-event-type.md).
+For a list of all the event types and the corresponding data structures, see [**MFP\_EVENT\_TYPE**](/windows/win32/mfplay/ne-mfplay-mfp_event_type?branch=master).
 
-A note about threading: By default, MFPlay invokes the callback from the same thread that called [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md). This thread must have a message loop. Alternatively, you can pass the **MFP\_OPTION\_FREE\_THREADED\_CALLBACK** flag in the *creationOptions* parameter of **MFPCreateMediaPlayer**. This flag causes MFPlay to invoke callbacks from a separate thread. Either option has implications for your application. The default option means your callback cannot do anything that waits on your message loop, such as waiting for a UI action, because that will block your window procedure. The free-threaded option means you need to use critical sections to protect any data that you access in your callback. In most cases, the default option is simplest.
+A note about threading: By default, MFPlay invokes the callback from the same thread that called [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master). This thread must have a message loop. Alternatively, you can pass the **MFP\_OPTION\_FREE\_THREADED\_CALLBACK** flag in the *creationOptions* parameter of **MFPCreateMediaPlayer**. This flag causes MFPlay to invoke callbacks from a separate thread. Either option has implications for your application. The default option means your callback cannot do anything that waits on your message loop, such as waiting for a UI action, because that will block your window procedure. The free-threaded option means you need to use critical sections to protect any data that you access in your callback. In most cases, the default option is simplest.
 
 ## Getting Information About a Media File
 
-When you open a media file in MFPlay, the player creates an object called a *media item* that represents the media file. This object exposes the [**IMFPMediaItem**](imfpmediaitem.md) interface, which you can use to get information about the media file. Many of the MFPlay event structures contain a pointer to the current media item. You can also get the current media item by calling [**IMFPMediaPlayer::GetMediaItem**](imfpmediaplayer-getmediaitem.md) on the player.
+When you open a media file in MFPlay, the player creates an object called a *media item* that represents the media file. This object exposes the [**IMFPMediaItem**](/windows/win32/mfplay/nn-mfplay-imfpmediaitem?branch=master) interface, which you can use to get information about the media file. Many of the MFPlay event structures contain a pointer to the current media item. You can also get the current media item by calling [**IMFPMediaPlayer::GetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-getmediaitem?branch=master) on the player.
 
-Two particularly useful methods are [**IMFPMediaItem::HasVideo**](imfpmediaitem-hasvideo.md) and [**IMFPMediaItem::HasAudio**](imfpmediaitem-hasaudio.md). These methods query whether the media source contains video or audio.
+Two particularly useful methods are [**IMFPMediaItem::HasVideo**](/windows/win32/mfplay/nf-mfplay-imfpmediaitem-hasvideo?branch=master) and [**IMFPMediaItem::HasAudio**](/windows/win32/mfplay/nf-mfplay-imfpmediaitem-hasaudio?branch=master). These methods query whether the media source contains video or audio.
 
 For example, the following code tests whether the current media file contains a video stream.
 
@@ -249,15 +254,15 @@ If the source file contains a video stream that is selected for playback, *bHasV
 
 ## Managing Video Playback
 
-When MFPlay plays a video file, it draws the video in the window that you specified in the [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) function. This occurs on a separate thread owned by the Microsoft Media Foundation playback pipeline. For the most part, your application does not need to manage this process. However, there are two situations where the application must notify MFPlay to update the video.
+When MFPlay plays a video file, it draws the video in the window that you specified in the [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master) function. This occurs on a separate thread owned by the Microsoft Media Foundation playback pipeline. For the most part, your application does not need to manage this process. However, there are two situations where the application must notify MFPlay to update the video.
 
 -   If playback is paused or stopped, MFPlay must be notified whenever the application's video window receives a WM\_PAINT message. This allows MFPlay to repaint the window.
 -   If the window is resized, MFPlay must be notified so that it can scale the video to match the new window size.
 
-The [**IMFPMediaPlayer::UpdateVideo**](imfpmediaplayer-updatevideo.md) method handles both cases. Call this method inside both the WM\_PAINT and WM\_SIZE message handlers for the video window.
+The [**IMFPMediaPlayer::UpdateVideo**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-updatevideo?branch=master) method handles both cases. Call this method inside both the WM\_PAINT and WM\_SIZE message handlers for the video window.
 
 > \[!Important\]  
-> Call the GDI **BeginPaint** function before calling [**UpdateVideo**](imfpmediaplayer-updatevideo.md).
+> Call the GDI **BeginPaint** function before calling [**UpdateVideo**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-updatevideo?branch=master).
 
  
 
@@ -294,14 +299,14 @@ void OnPaint(HWND hwnd)
 
 
 
-Unless you specify otherwise, MFPlay shows the video at the correct aspect ratio, using letterboxing if needed. If you do not want to preserve the aspect ratio, call [**IMFPMediaPlayer::SetAspectRatioMode**](imfpmediaplayer-setaspectratiomode.md) with the **MFVideoARMode\_None** flag. This will cause MFPlay to stretch the video to fill the entire rectangle, with no letterboxing. Typically you should use the default setting and let MFPlay letterbox the video. The default letterbox color is black, but you can change this by calling [**IMFPMediaPlayer::SetBorderColor**](imfpmediaplayer-setbordercolor.md).
+Unless you specify otherwise, MFPlay shows the video at the correct aspect ratio, using letterboxing if needed. If you do not want to preserve the aspect ratio, call [**IMFPMediaPlayer::SetAspectRatioMode**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setaspectratiomode?branch=master) with the **MFVideoARMode\_None** flag. This will cause MFPlay to stretch the video to fill the entire rectangle, with no letterboxing. Typically you should use the default setting and let MFPlay letterbox the video. The default letterbox color is black, but you can change this by calling [**IMFPMediaPlayer::SetBorderColor**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setbordercolor?branch=master).
 
 ## Limitations of MFPlay
 
 The current version of MFPlay has the following limitations:
 
 -   MFPlay does not support DRM-protected content.
--   By default, MFPlay does not support network streaming protocols. For more information, see [**IMFPMediaPlayer::CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md).
+-   By default, MFPlay does not support network streaming protocols. For more information, see [**IMFPMediaPlayer::CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master).
 -   MFPlay does not support server-side playlists (SSPLs) or other types of source that play more than one segment. In technical terms, MFPlay stops playback after the first presentation, and ignores any [MENewPresentation](menewpresentation.md) events from the media source.
 -   MFPlay does not support seamless transitions between media sources.
 -   MFPlay does not support mixing multiple video streams.

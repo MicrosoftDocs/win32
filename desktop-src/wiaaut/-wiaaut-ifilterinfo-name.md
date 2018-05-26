@@ -1,8 +1,11 @@
 ---
 title: FilterInfo.Name property
 description: Retrieves the FilterInfo name.
-ms.assetid: 'ac393ce6-90cd-4211-b420-d135a4b8dbb4'
-keywords: ["Name property WIA Automation", "Name property WIA Automation , FilterInfo object", "FilterInfo object WIA Automation , Name property"]
+ms.assetid: ac393ce6-90cd-4211-b420-d135a4b8dbb4
+keywords:
+- Name property WIA Automation
+- Name property WIA Automation , FilterInfo object
+- FilterInfo object WIA Automation , Name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterInfo.Name property
@@ -43,8 +51,8 @@ For example code, see [Create an ImageProcess Object and Enumerate Filters](-wia
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -81,9 +89,9 @@ For example code, see [Create an ImageProcess Object and Enumerate Filters](-wia
 [**Name (Property)**](-wiaaut-iproperty-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

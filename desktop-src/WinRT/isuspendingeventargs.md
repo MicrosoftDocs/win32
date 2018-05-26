@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides data for an app suspending event.'
-ms.assetid: '2590AFAA-679C-49F1-804F-D429BB971727'
+---
+Description: Provides data for an app suspending event.
+ms.assetid: 2590AFAA-679C-49F1-804F-D429BB971727
 title: ISuspendingEventArgs interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISuspendingEventArgs interface
@@ -10,7 +15,7 @@ Provides data for an app suspending event.
 
 ## Members
 
-The **ISuspendingEventArgs** interface inherits from [**IInspectable**](iinspectable.md). **ISuspendingEventArgs** also has these types of members:
+The **ISuspendingEventArgs** interface inherits from [**IInspectable**](/windows/win32/Inspectable/nn-inspectable-iinspectable?branch=master). **ISuspendingEventArgs** also has these types of members:
 
 -   [Properties](#properties)
 
@@ -49,7 +54,7 @@ This object is accessed when you implement event handlers like [**SuspendingEven
 
 <dl> <dt>
 
-[**IInspectable**](iinspectable.md)
+[**IInspectable**](/windows/win32/Inspectable/nn-inspectable-iinspectable?branch=master)
 </dt> <dt>
 
 [**ISuspendingOperation**](isuspendingoperation.md)

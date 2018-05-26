@@ -1,7 +1,12 @@
 ---
-Description: 'The perceived file type based on its canonical type.'
-ms.assetid: 'dc5122a1-43b3-4c91-a44f-315fec5b4862'
-title: 'System.PerceivedType'
+Description: The perceived file type based on its canonical type.
+ms.assetid: dc5122a1-43b3-4c91-a44f-315fec5b4862
+title: System.PerceivedType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PerceivedType

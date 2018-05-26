@@ -1,8 +1,11 @@
 ---
 title: ComHandlerAction.ClassId property
 description: For scripting, gets or sets the identifier of the handler class.
-ms.assetid: '0b5de9ca-2ce2-4f77-bde9-8b8312753c37'
-keywords: ["ClassId property Task Scheduler", "ClassId property Task Scheduler , ComHandlerAction object", "ComHandlerAction object Task Scheduler , ClassId property"]
+ms.assetid: 0b5de9ca-2ce2-4f77-bde9-8b8312753c37
+keywords:
+- ClassId property Task Scheduler
+- ClassId property Task Scheduler , ComHandlerAction object
+- ComHandlerAction object Task Scheduler , ClassId property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComHandlerAction.ClassId property
@@ -40,8 +48,8 @@ When reading or writing XML, the class of a COM handler is specified in the [**C
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -57,9 +65,9 @@ When reading or writing XML, the class of a COM handler is specified in the [**C
 [**ComHandlerAction**](comhandleraction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

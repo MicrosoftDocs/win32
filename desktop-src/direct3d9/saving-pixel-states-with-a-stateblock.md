@@ -1,7 +1,12 @@
 ---
-Description: 'A state block can be used to capture only pixel state (see State Blocks Save and Restore State (Direct3D 9)).'
-ms.assetid: '30624c0a-e30f-4383-bc0c-b43f42403e72'
-title: 'Saving Pixel State With a StateBlock (Direct3D 9)'
+Description: A state block can be used to capture only pixel state (see State Blocks Save and Restore State (Direct3D 9)).
+ms.assetid: 30624c0a-e30f-4383-bc0c-b43f42403e72
+title: Saving Pixel State With a StateBlock (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving Pixel State With a StateBlock (Direct3D 9)
@@ -13,11 +18,11 @@ A state block can be used to capture only pixel state (see [State Blocks Save an
 -   Pixel sampler state (see [Pixel Pipeline: Sampler State](#pixel-pipeline-sampler-state)).
 -   The current pixel shader and each of the pixel shader constants.
 
-To capture pixel state with a state block, specify D3DSBT\_PIXELSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](idirect3ddevice9--createstateblock.md).
+To capture pixel state with a state block, specify D3DSBT\_PIXELSTATE when calling [**IDirect3DDevice9::CreateStateBlock**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createstateblock?branch=master).
 
 ## Pixel Pipeline: Render State
 
-Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md).
+Device render states affect the behavior of almost every part of the pipeline. Render states are set by calling [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master).
 
 The following table includes all render states that set-up pixel state:
 
@@ -99,7 +104,7 @@ The following table includes all render states that set-up pixel state:
 
 ## Pixel Pipeline: Sampler State
 
-Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](idirect3ddevice9--setsamplerstate.md) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
+Sampler states control sampling related topics such as filtering, tiling, and texture coordinate address modes. Use [**IDirect3DDevice9::SetSamplerState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setsamplerstate?branch=master) to set up the sampler state (including the one used in the tessellator unit to sample displacement maps). The sampler states have been renamed with a "D3DSAMP\_" prefix to enable compile time error detection when porting from DirectX 8.
 
 The following table includes all sampler states that set-up pixel state:
 
@@ -126,7 +131,7 @@ The following table includes all sampler states that set-up pixel state:
 
 ## Pixel Pipeline: Texture State
 
-Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md) to set-up texture stage states. Use [**IDirect3DDevice9::SetTexture**](idirect3ddevice9--settexture.md) to associate a texture with a sampler stage.
+Texture states control texture blending operations of the multi-texture blender. Use [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master) to set-up texture stage states. Use [**IDirect3DDevice9::SetTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexture?branch=master) to associate a texture with a sampler stage.
 
 The following table includes all the texture states that set-up pixel state:
 

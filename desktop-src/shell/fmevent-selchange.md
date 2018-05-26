@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent to an extension DLL when the user selects a file name in the File Manager directory window or Search Results window.'
-title: 'FMEVENT\_SELCHANGE message'
+---
+Description: Sent to an extension DLL when the user selects a file name in the File Manager directory window or Search Results window.
+title: FMEVENT\_SELCHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMEVENT\_SELCHANGE message

@@ -1,8 +1,15 @@
 ---
 title: Choosing and Setting a Best-Match Pixel Format
 description: This topic explains the procedure for matching a device context to a pixel format.
-ms.assetid: '7b974fb5-e34d-4781-858c-572c4e7754bc'
-keywords: ["OpenGL on Windows,pixels", "best-match pixel format OpenGL"]
+ms.assetid: 7b974fb5-e34d-4781-858c-572c4e7754bc
+keywords:
+- OpenGL on Windows,pixels
+- best-match pixel format OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Choosing and Setting a Best-Match Pixel Format
@@ -11,10 +18,10 @@ This topic explains the procedure for matching a device context to a pixel forma
 
 **To obtain a device context's best match to a pixel format**
 
-1.  Specify the desired pixel format in a [**PIXELFORMATDESCRIPTOR**](pixelformatdescriptor.md) structure.
-2.  Call [**ChoosePixelFormat**](choosepixelformat.md).
+1.  Specify the desired pixel format in a [**PIXELFORMATDESCRIPTOR**](/windows/win32/Wingdi/ns-wingdi-tagpixelformatdescriptor?branch=master) structure.
+2.  Call [**ChoosePixelFormat**](/windows/win32/wingdi/nf-wingdi-choosepixelformat?branch=master).
 
-    The **ChoosePixelFormat** function returns a pixel format index, which you can then pass to [**SetPixelFormat**](setpixelformat.md) to set the best pixel format match as the device context's current pixel format.
+    The **ChoosePixelFormat** function returns a pixel format index, which you can then pass to [**SetPixelFormat**](/windows/win32/wingdi/nf-wingdi-setpixelformat?branch=master) to set the best pixel format match as the device context's current pixel format.
 
 The following code sample shows how to carry out the above steps.
 

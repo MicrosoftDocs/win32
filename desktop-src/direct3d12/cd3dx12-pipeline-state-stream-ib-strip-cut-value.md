@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_IB\_STRIP\_CUT\_VALUE structure
 description: A helper structure used to describe the index buffer strip cut value as a single object suitable for a stream description.
-ms.assetid: 'AF8F0919-4601-4A95-832A-5E1DA0304939'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE structure"]
+ms.assetid: AF8F0919-4601-4A95-832A-5E1DA0304939
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_IB\_STRIP\_CUT\_VALUE structure
@@ -22,10 +28,10 @@ A helper structure used to describe the index buffer strip cut value as a single
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE {
-                                                   CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE;
-                                                   CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE(D3D12_INDEX_BUFFER_STRIP_CUT_VALUE const &amp;i);
+                                                   CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE;
+                                                   CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE(D3D12_INDEX_BUFFER_STRIP_CUT_VALUE const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE operator=(D3D12_INDEX_BUFFER_STRIP_CUT_VALUE const&amp; i);
-                                                   operator D3D12_INDEX_BUFFER_STRIP_CUT_VALUE() const;
+                                                   operator D3D12_INDEX_BUFFER_STRIP_CUT_VALUE() const;
 };
 ```
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_IB
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_IB\_STRIP\_CUT\_VALUE(D3D12\_INDEX\_BUFFER\_STRIP\_CUT\_VALUE const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_IB\_STRIP\_CUT\_VALUE, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_IB\_STRIP\_CUT\_VALUE** and subobject data copied from *i*, a [**D3D12\_INDEX\_BUFFER\_STRIP\_CUT\_VALUE**](d3d12-index-buffer-strip-cut-value.md) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_IB\_STRIP\_CUT\_VALUE, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_IB\_STRIP\_CUT\_VALUE** and subobject data copied from *i*, a [**D3D12\_INDEX\_BUFFER\_STRIP\_CUT\_VALUE**](/windows/win32/d3d12/ne-d3d12-d3d12_index_buffer_strip_cut_value?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Copy-assignment operator.
 **operator D3D12\_INDEX\_BUFFER\_STRIP\_CUT\_VALUE() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_INDEX\_BUFFER\_STRIP\_CUT\_VALUE**](d3d12-index-buffer-strip-cut-value.md) structure.
+Implicit conversion to a [**D3D12\_INDEX\_BUFFER\_STRIP\_CUT\_VALUE**](/windows/win32/d3d12/ne-d3d12-d3d12_index_buffer_strip_cut_value?branch=master) structure.
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_INDEX_BUFFER_STRIP_CUT_VAL
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,7 +2,14 @@
 title: C-Preprocessor Requirements for MIDL
 description: This page applies only to developers who have specific reasons to replace the Microsoft C/C++ preprocessor as the preprocessor used by MIDL, or to developers who must specify customized preprocessor switches.
 ms.assetid: 1dd5eef4-5ea4-4958-8f53-9a95c0ccbf3e
-keywords: ["MIDL compiler MIDL , C-preprocessor, requirements", "C-preprocessor MIDL , requirements"]
+keywords:
+- MIDL compiler MIDL , C-preprocessor, requirements
+- C-preprocessor MIDL , requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C-Preprocessor Requirements for MIDL

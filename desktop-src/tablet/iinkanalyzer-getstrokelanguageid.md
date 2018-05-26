@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the locale identifier of the specified stroke.'
-ms.assetid: 'a5fb9b7a-ed3e-4552-9412-39529203bd81'
-title: 'IInkAnalyzer::GetStrokeLanguageId method'
+Description: Returns the locale identifier of the specified stroke.
+ms.assetid: a5fb9b7a-ed3e-4552-9412-39529203bd81
+title: IInkAnalyzerGetStrokeLanguageId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetStrokeLanguageId method
@@ -13,8 +18,8 @@ Returns the locale identifier of the specified stroke.
 
 ```C++
 HRESULT GetStrokeLanguageId(
-  [in]  LONG lStrokeId,
-  [out] LONG *lStrokeLCID
+  [in]  LONG lStrokeId,
+  [out] LONG *lStrokeLCID
 );
 ```
 
@@ -52,7 +57,7 @@ The stroke's locale is set when you add the stroke by calling [**IInkAnalyzer::A
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -75,9 +80,9 @@ The stroke's locale is set when you add the stroke by calling [**IInkAnalyzer::A
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

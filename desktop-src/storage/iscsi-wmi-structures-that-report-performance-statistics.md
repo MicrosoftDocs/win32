@@ -1,7 +1,12 @@
 ---
 title: iSCSI WMI Structures That Report Performance Statistics
 description: iSCSI WMI Structures That Report Performance Statistics
-ms.assetid: 'b997a693-6c2d-498b-807a-2ed21e13e8d5'
+ms.assetid: b997a693-6c2d-498b-807a-2ed21e13e8d5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI WMI Structures That Report Performance Statistics

@@ -1,7 +1,12 @@
 ---
 title: Descriptor Heaps Overview
 description: Descriptor heaps contain many object types that are not part of a Pipeline State Object (PSO), such as Shader Resource Views (SRVs), Unordered Access Views (UAVs), Constant Buffer Views (CBVs), and Samplers.
-ms.assetid: '14561E77-44E0-4A58-8456-F40D59ECA175'
+ms.assetid: 14561E77-44E0-4A58-8456-F40D59ECA175
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Descriptor Heaps Overview
@@ -40,11 +45,11 @@ At most one CBV/SRV/UAV combined heap and one Sampler heap can be bound at any o
 
 ## Switching heaps
 
-It is acceptable for an application to switch heaps within the same command list or in different ones using the [**SetDescriptorHeaps**](id3d12graphicscommandlist-setdescriptorheaps.md) and [**Reset**](id3d12graphicscommandlist-reset.md) APIs. On some hardware, this can be an expensive operation, requiring a GPU stall to flush all work that depends on the currently bound descriptor heap. As a result, if descriptor heaps must be changed, applications should try to do so when the GPU workload is relatively light, perhaps limiting changes to the start of a command list.
+It is acceptable for an application to switch heaps within the same command list or in different ones using the [**SetDescriptorHeaps**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps?branch=master) and [**Reset**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-reset?branch=master) APIs. On some hardware, this can be an expensive operation, requiring a GPU stall to flush all work that depends on the currently bound descriptor heap. As a result, if descriptor heaps must be changed, applications should try to do so when the GPU workload is relatively light, perhaps limiting changes to the start of a command list.
 
 ## Bundles
 
-With bundles there can only be one call to the [**SetDescriptorHeaps**](id3d12graphicscommandlist-setdescriptorheaps.md) method, and the descriptor heaps set must match exactly those of the command list calling the bundle. If the bundle does not change descriptor tables, it does not need to set the descriptor heaps.
+With bundles there can only be one call to the [**SetDescriptorHeaps**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps?branch=master) method, and the descriptor heaps set must match exactly those of the command list calling the bundle. If the bundle does not change descriptor tables, it does not need to set the descriptor heaps.
 
 For a list of API calls that cannot be used with bundles, refer to [Creating and Recording Command Lists and Bundles](recording-command-lists-and-bundles.md#bundle-restrictions).
 

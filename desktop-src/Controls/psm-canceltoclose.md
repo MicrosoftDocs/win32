@@ -1,8 +1,9 @@
 ---
 title: PSM\_CANCELTOCLOSE message
 description: Sent by an application when it has performed changes since the most recent PSN\_APPLY notification that cannot be canceled. You can send this message explicitly or by using the PropSheet\_CancelToClose macro.
-ms.assetid: '0a4b6176-7ddb-469f-8ebf-a31e533a8690'
-keywords: ["PSM_CANCELTOCLOSE message Windows Controls"]
+ms.assetid: 0a4b6176-7ddb-469f-8ebf-a31e533a8690
+keywords:
+- PSM_CANCELTOCLOSE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_CANCELTOCLOSE message
 
-Sent by an application when it has performed changes since the most recent [PSN\_APPLY](psn-apply.md) notification that cannot be canceled. You can send this message explicitly or by using the [**PropSheet\_CancelToClose**](propsheet-canceltoclose.md) macro.
+Sent by an application when it has performed changes since the most recent [PSN\_APPLY](psn-apply.md) notification that cannot be canceled. You can send this message explicitly or by using the [**PropSheet\_CancelToClose**](/windows/win32/Prsht/nf-prsht-propsheet_canceltoclose?branch=master) macro.
 
 ## Parameters
 
@@ -52,9 +58,9 @@ Most property sheets wait to perform irreversible changes until a PSN\_APPLY not
 For the third option, applications should send a **PSM\_CANCELTOCLOSE** message to the property sheet. It indicates to the user that the changes made with the subdialog box cannot be reversed by clicking the **Cancel** button.
 
 > [!Note]  
-> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This message is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -62,15 +68,15 @@ For the third option, applications should send a **PSM\_CANCELTOCLOSE** message 
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,23 @@ description: Called when the task agent is being shut down.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b693a318-1da7-4207-8046-a62b7ccca471'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b693a318-1da7-4207-8046-a62b7ccca471
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Terminate method Remote Desktop Services", "Terminate method Remote Desktop Services , IRDVTaskPlugin interface", "IRDVTaskPlugin interface Remote Desktop Services , Terminate method"]
+keywords:
+- Terminate method Remote Desktop Services
+- Terminate method Remote Desktop Services , IRDVTaskPlugin interface
+- IRDVTaskPlugin interface Remote Desktop Services , Terminate method
 topic_type:
 - apiref
 api_name:
 - IRDVTaskPlugin.Terminate
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRDVTaskPlugin::Terminate method
@@ -26,7 +32,7 @@ Called when the task agent is being shut down.
 
 ```C++
 HRESULT Terminate(
-  [in] HRESULT hr
+  [in] HRESULT hr
 );
 ```
 
@@ -53,8 +59,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
-| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
@@ -65,9 +71,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IRDVTaskPlugin**](irdvtaskplugin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

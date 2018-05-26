@@ -1,7 +1,12 @@
-﻿---
-Description: 'Changes a shared lock to a partial lock.'
-ms.assetid: '82122671-b0bd-47ad-9a25-ee8ebd3779be'
-title: 'CShareLockNH::SharedToPartial method'
+---
+Description: Changes a shared lock to a partial lock.
+ms.assetid: 82122671-b0bd-47ad-9a25-ee8ebd3779be
+title: CShareLockNHSharedToPartial method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CShareLockNH::SharedToPartial method

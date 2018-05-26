@@ -1,8 +1,17 @@
 ---
 title: Reference
 description: Reference
-ms.assetid: '5edd6586-fe6a-44bf-9fd5-ed876af7b007'
-keywords: ["tracing options", "trace flags", "kernel flags", "stackwalk filters"]
+ms.assetid: 5edd6586-fe6a-44bf-9fd5-ed876af7b007
+keywords:
+- tracing options
+- trace flags
+- kernel flags
+- stackwalk filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference
@@ -42,7 +51,7 @@ The following table lists the options that can be used with the On/Off Transitio
 | **-runTag \[***tag***\]**<br/>        | Specifies a text string that is inserted into the trace file name and provides a quick and easy way to differentiate between different traces.<br/> Example: <br/> To quickly create two traces with "before" and "after" as part of the file name, type:<br/> **xbootmgr -trace rebootCycle -runtag before** <br/> Followed by:<br/> **xbootmgr -trace rebootCycle -runtag after**<br/> Default:None.<br/>                                                                                                                                                       |
 | **-prepSystem**<br/>                  | Optimizes the computer before the trace begins to create an idealized set of results. This option applies only to boot/rebootCycle traces.<br/> <dl> <dt> Default: </dt> <dt>Off.</dt> </dl> <br/>                                                                                                                                                                                                                                                                                           |
 | **-postBootDelay \[***sec***\]**<br/> | For boot traces, sets the post-boot delay (in seconds) before stopping the trace.<br/> For shutdown traces, sets the post-boot delay (in seconds) before shutting the system down to begin the trace.<br/> For standby/hibernate traces, sets the post-resume delay (in seconds) before stopping the trace.<br/> For reboot cycle, sets the post-boot delay (in seconds) before stopping the trace.<br/> In general, this value should not be changed because reducing it undermines the post-boot calculations that Xperf.exe performs.<br/> Default:120 seconds.<br/> |
-| **-wakeupDelay   \[***sec***\]**<br/> | During a standby/hibernate trace, sets the delay for waking the machine from a sleep state (in seconds). If the test computer takes more than 60 seconds to achieve the sleep state, this value might need to be increased.<br/> <dl> <dt> Default: </dt> <dt>60 seconds.</dt> </dl> <br/>                                                                                                                                                                                                   |
+| **-wakeupDelay   \[***sec***\]**<br/> | During a standby/hibernate trace, sets the delay for waking the machine from a sleep state (in seconds). If the test computer takes more than 60 seconds to achieve the sleep state, this value might need to be increased.<br/> <dl> <dt> Default: </dt> <dt>60 seconds.</dt> </dl> <br/>                                                                                                                                                                                                   |
 | **-issueFlush**<br/>                  | No longer required.<br/> <dl> <dt> Default: </dt> <dt>Off.</dt> </dl> <br/>                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **-sleeperCmd \[***cmd***\]**<br/>    | No longer required.<br/> <dl> <dt> Default: </dt> <dt>XbootmgrSleep.exe.</dt> </dl> <br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **-preTraceCmd \[***cmd***\]**<br/>   | Specifies the file that is launched via ShellExecute before every trace iteration. This option can be used as part of an automation harness to collect additional pretrace state information during multiple traces.<br/> Default:None.<br/>                                                                                                                                                                                                                                                                                                                                                    |
@@ -55,7 +64,7 @@ The following table lists the options that can be used with the On/Off Transitio
 
 
 
- 
+ 
 
 ### Trace Flags
 
@@ -94,7 +103,7 @@ The following table lists the flags that can be used with the `-traceFlags` opti
 
 
 
- 
+ 
 
 ### Stackwalk Filters
 
@@ -156,7 +165,7 @@ The following table shows the filters that can be added to a trace by using the 
 
 
 
- 
+ 
 
 ### Resources
 
@@ -165,9 +174,9 @@ The following table shows the filters that can be added to a trace by using the 
 [Windows Performance Toolkit (v.4.6)](http://go.microsoft.com/fwlink/p/?linkid=103276)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

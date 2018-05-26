@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OutboundRouting property creates a FaxOutboundRouting configuration object. The object permits users to configure outbound routing groups and rules.'
-ms.assetid: '04bc7832-c205-42e3-bc53-b68bcfb7b430'
-title: 'FaxServer.OutboundRouting property'
+---
+Description: The OutboundRouting property creates a FaxOutboundRouting configuration object. The object permits users to configure outbound routing groups and rules.
+ms.assetid: 04bc7832-c205-42e3-bc53-b68bcfb7b430
+title: FaxServer.OutboundRouting property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.OutboundRouting property
@@ -50,7 +55,7 @@ This property is not supported in Windows XP, and will return the error: [FAX\_
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

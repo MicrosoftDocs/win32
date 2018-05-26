@@ -1,14 +1,20 @@
 ---
 title: CurrentBitrate Attribute
 description: The CurrentBitrate attribute is the current bit rate of the item, in bits per second.
-ms.assetid: '785b362e-ef3b-4a09-adb0-3ab6cdadb4da'
-keywords: ["CurrentBitrate Attribute Windows Media Player"]
+ms.assetid: 785b362e-ef3b-4a09-adb0-3ab6cdadb4da
+keywords:
+- CurrentBitrate Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CurrentBitrate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CurrentBitrate Attribute
@@ -43,9 +49,9 @@ The Windows Media Format SDK constant for this attribute is g\_wszWMCurrentBitra
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

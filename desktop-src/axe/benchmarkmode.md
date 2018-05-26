@@ -1,14 +1,20 @@
 ---
 title: BenchmarkMode element
 description: If this element is present, then the assessment run is in benchmark mode.
-ms.assetid: 'A3B1EAB9-21F9-495E-9688-7A4BEA213D2B'
-keywords: ["BenchmarkMode element Access Execution Engine"]
+ms.assetid: A3B1EAB9-21F9-495E-9688-7A4BEA213D2B
+keywords:
+- BenchmarkMode element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - BenchmarkMode
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BenchmarkMode element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

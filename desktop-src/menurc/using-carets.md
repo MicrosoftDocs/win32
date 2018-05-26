@@ -1,8 +1,30 @@
 ---
 title: Using Carets
 description: This section provides code samples that show how to perform tasks related to carets.
-ms.assetid: '82b0a84c-49a9-4d9d-b4c8-7c4511d863eb'
-keywords: ["resources,carets", "carets,creating", "carets,displaying", "carets,destroying", "carets,hiding", "carets,blink times", "blinking lines", "blinking blocks", "blinking bitmaps", "creating carets", "displaying carets", "hiding carets", "destroying carets", "blink times", "user input,keyboard input", "capturing user input,keyboard input", "keyboard input"]
+ms.assetid: 82b0a84c-49a9-4d9d-b4c8-7c4511d863eb
+keywords:
+- resources,carets
+- carets,creating
+- carets,displaying
+- carets,destroying
+- carets,hiding
+- carets,blink times
+- blinking lines
+- blinking blocks
+- blinking bitmaps
+- creating carets
+- displaying carets
+- hiding carets
+- destroying carets
+- blink times
+- user input,keyboard input
+- capturing user input,keyboard input
+- keyboard input
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Carets
@@ -17,7 +39,7 @@ This section has code samples for the following tasks:
 
 ## Creating and Displaying a Caret
 
-Upon receiving the keyboard focus, the window should create and display the caret. Use the [**CreateCaret**](createcaret.md) function to create a caret in the given window. You can then call [**SetCaretPos**](setcaretpos.md) to set the current position of the caret and [**ShowCaret**](showcaret.md) to make the caret visible.
+Upon receiving the keyboard focus, the window should create and display the caret. Use the [**CreateCaret**](/windows/win32/Winuser/nf-winuser-createcaret?branch=master) function to create a caret in the given window. You can then call [**SetCaretPos**](/windows/win32/Winuser/nf-winuser-setcaretpos?branch=master) to set the current position of the caret and [**ShowCaret**](/windows/win32/Winuser/nf-winuser-showcaret?branch=master) to make the caret visible.
 
 The system sends the [**WM\_SETFOCUS**](https://msdn.microsoft.com/library/windows/desktop/ms646283) message to the window receiving keyboard focus; therefore, an application should create and display the caret while processing this message.
 
@@ -46,7 +68,7 @@ char *lpszChar;  // pointer to character
 
 
 
-To create a caret based on a bitmap, you must specify a bitmap handle when using [**CreateCaret**](createcaret.md). You can use a graphics application to create the bitmap and a resource compiler to add the bitmap to your application's resources. Your application can then use the [**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033) function to load the bitmap handle. For example, you could replace the **CreateCaret** line in the preceding example with the following lines to create a bitmap caret.
+To create a caret based on a bitmap, you must specify a bitmap handle when using [**CreateCaret**](/windows/win32/Winuser/nf-winuser-createcaret?branch=master). You can use a graphics application to create the bitmap and a resource compiler to add the bitmap to your application's resources. Your application can then use the [**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033) function to load the bitmap handle. For example, you could replace the **CreateCaret** line in the preceding example with the following lines to create a bitmap caret.
 
 
 ```
@@ -63,11 +85,11 @@ To create a caret based on a bitmap, you must specify a bitmap handle when using
 
 Alternatively, you can use the [**CreateBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd183485) or [**CreateDIBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd183491) function to retrieve the handle of the caret bitmap. For more information about bitmaps, see [Bitmaps](https://msdn.microsoft.com/library/windows/desktop/dd183377).
 
-If your application specifies a bitmap handle, [**CreateCaret**](createcaret.md) ignores the width and height parameters. The bitmap defines the size of the caret.
+If your application specifies a bitmap handle, [**CreateCaret**](/windows/win32/Winuser/nf-winuser-createcaret?branch=master) ignores the width and height parameters. The bitmap defines the size of the caret.
 
 ## Hiding a Caret
 
-Whenever your application redraws a screen while processing a message other than [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213), it must make the caret invisible by using the [**HideCaret**](hidecaret.md) function. When your application is finished drawing, redisplay the caret by using the [**ShowCaret**](showcaret.md) function. If your application processes the **WM\_PAINT** message, it is not necessary to hide and redisplay the caret, because this function does this automatically.
+Whenever your application redraws a screen while processing a message other than [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213), it must make the caret invisible by using the [**HideCaret**](/windows/win32/Winuser/nf-winuser-hidecaret?branch=master) function. When your application is finished drawing, redisplay the caret by using the [**ShowCaret**](/windows/win32/Winuser/nf-winuser-showcaret?branch=master) function. If your application processes the **WM\_PAINT** message, it is not necessary to hide and redisplay the caret, because this function does this automatically.
 
 The following code sample shows how to have your application hide the caret while drawing a character on the screen and while processing the [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) message.
 
@@ -132,11 +154,11 @@ HDC hdc;     // device context
 
 
 
-If your application calls the [**HideCaret**](hidecaret.md) function several times without calling [**ShowCaret**](showcaret.md), the caret will not be displayed until the application also calls **ShowCaret** the same number of times.
+If your application calls the [**HideCaret**](/windows/win32/Winuser/nf-winuser-hidecaret?branch=master) function several times without calling [**ShowCaret**](/windows/win32/Winuser/nf-winuser-showcaret?branch=master), the caret will not be displayed until the application also calls **ShowCaret** the same number of times.
 
 ## Destroying a Caret
 
-When a window loses the keyboard focus, the system sends the [**WM\_KILLFOCUS**](https://msdn.microsoft.com/library/windows/desktop/ms646282) message to the window. Your application should destroy the caret while processing this message by using the [**DestroyCaret**](destroycaret.md) function. The following code shows how to destroy a caret in a window that no longer has the keyboard focus.
+When a window loses the keyboard focus, the system sends the [**WM\_KILLFOCUS**](https://msdn.microsoft.com/library/windows/desktop/ms646282) message to the window. Your application should destroy the caret while processing this message by using the [**DestroyCaret**](/windows/win32/Winuser/nf-winuser-destroycaret?branch=master) function. The following code shows how to destroy a caret in a window that no longer has the keyboard focus.
 
 
 ```
@@ -153,9 +175,9 @@ case WM_KILLFOCUS:
 
 ## Adjusting the Blink Time
 
-In 16-bit Windows, a Windows-based application could call the [**GetCaretBlinkTime**](getcaretblinktime.md) function to save the current blink time, then call the [**SetCaretBlinkTime**](setcaretblinktime.md) function to adjust the blink time during its processing of the [**WM\_SETFOCUS**](https://msdn.microsoft.com/library/windows/desktop/ms646283) message. The application would restore the saved blink time for the use of other applications by calling **SetCaretBlinkTime** during its processing of the [**WM\_KILLFOCUS**](https://msdn.microsoft.com/library/windows/desktop/ms646282) message. However, this technique does not work in multithreaded environments. Specifically, the deactivation of one application is not synchronized with the activation of another application, so that if one application hangs, another application can still be activated.
+In 16-bit Windows, a Windows-based application could call the [**GetCaretBlinkTime**](/windows/win32/Winuser/nf-winuser-getcaretblinktime?branch=master) function to save the current blink time, then call the [**SetCaretBlinkTime**](/windows/win32/Winuser/nf-winuser-setcaretblinktime?branch=master) function to adjust the blink time during its processing of the [**WM\_SETFOCUS**](https://msdn.microsoft.com/library/windows/desktop/ms646283) message. The application would restore the saved blink time for the use of other applications by calling **SetCaretBlinkTime** during its processing of the [**WM\_KILLFOCUS**](https://msdn.microsoft.com/library/windows/desktop/ms646282) message. However, this technique does not work in multithreaded environments. Specifically, the deactivation of one application is not synchronized with the activation of another application, so that if one application hangs, another application can still be activated.
 
-Applications should respect the blink time chosen by the user. The [**SetCaretBlinkTime**](setcaretblinktime.md) function should only be called by an application that allows the user to set the blink time.
+Applications should respect the blink time chosen by the user. The [**SetCaretBlinkTime**](/windows/win32/Winuser/nf-winuser-setcaretblinktime?branch=master) function should only be called by an application that allows the user to set the blink time.
 
 ## Processing Keyboard Input
 

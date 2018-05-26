@@ -4,13 +4,15 @@ description: The Msft\_MiMerge WMI class represents a merged data stream. A merg
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '108e3516-d394-42ac-80be-b06e43c67c41'
-ms.prod: 'windows-server-dev'
+ms.assetid: 108e3516-d394-42ac-80be-b06e43c67c41
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msft_MiMerge class Software Inventory Logging", "Msft_MiMerge class Software Inventory Logging , described"]
+keywords:
+- Msft_MiMerge class Software Inventory Logging
+- Msft_MiMerge class Software Inventory Logging , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - MiStreamProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_MiMerge class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), AMENDMENT]
 class Msft_MiMerge : Msft_MiStream
 {
-  string        NamespaceName;
+  string        NamespaceName;
   Msft_MiStream Streams[];
   Msft_MiStream Inputs[];
 };
@@ -68,7 +73,7 @@ Qualifiers: [**EmbeddedInstance**](https://msdn.microsoft.com/library/aa393650) 
 
 The list of streams to merge.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -83,7 +88,7 @@ Access type: Read-only
 
 This property has been removed.
 
-**Windows Server 2012 R2:** The namespace of the data provider.
+**Windows Server 2012 R2:** The namespace of the data provider.
 
 This property is inherited from [**Msft\_MiStream**](msft-mistream.md).
 
@@ -100,7 +105,7 @@ Access type: Read-only
 
 This property has been removed.
 
-**Windows Server 2012 R2:  **
+**Windows Server 2012 R2:  **
 
 The list of embedded [**Msft\_MiStream**](msft-mistream.md) instances containing the data streams.
 
@@ -113,7 +118,7 @@ The list of embedded [**Msft\_MiStream**](msft-mistream.md) instances containing
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
 | Namespace<br/>                | Root\\InventoryLogging<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>MiStreamProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MiStreamProv.dll</dt> </dl> |
@@ -130,9 +135,9 @@ The list of embedded [**Msft\_MiStream**](msft-mistream.md) instances containing
 [Software Inventory Logging WMI Stream Provider Classes](software-inventory-logging-wmi-stream-provider-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Configuration for the Group Key Distribution Service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c35dd5d7-fd9c-42a9-a992-c03ce7ac3df9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c35dd5d7-fd9c-42a9-a992-c03ce7ac3df9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-Prov-ServerConfiguration class AD Schema", "msKds-ProvServerConfiguration class AD Schema"]
+keywords:
+- ms-Kds-Prov-ServerConfiguration class AD Schema
+- msKds-ProvServerConfiguration class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-Prov-ServerConfiguration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-Prov-ServerConfiguration class
@@ -35,7 +40,7 @@ Configuration for the Group Key Distribution Service.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ Configuration for the Group Key Distribution Service.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -196,9 +201,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

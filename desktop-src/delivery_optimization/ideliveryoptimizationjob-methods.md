@@ -1,7 +1,12 @@
 ---
 title: IDeliveryOptimizationJob Methods
 description: The IDeliveryOptimizationJob interface exposes the following methods.
-ms.assetid: 'DEFCF117-AECC-4EF5-B935-302081BE7D64'
+ms.assetid: DEFCF117-AECC-4EF5-B935-302081BE7D64
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeliveryOptimizationJob Methods
@@ -18,11 +23,11 @@ The [**IDeliveryOptimizationJob**](ideliveryoptimizationjob.md) interface expose
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

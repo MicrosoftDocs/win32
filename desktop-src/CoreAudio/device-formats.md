@@ -1,7 +1,12 @@
 ---
 Description: Device Formats
-ms.assetid: '591437e4-21ef-42f1-a752-7f50440cbd63'
+ms.assetid: 591437e4-21ef-42f1-a752-7f50440cbd63
 title: Device Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Formats
@@ -31,9 +36,9 @@ Starting with Windows 7, the **WAVEFORMATEXTENSIBLE** has been extended to repr
 
 The following WASAPI methods use the **WAVEFORMATEX** and **WAVEFORMATEXTENSIBLE** structures to describe stream formats:
 
--   [**IAudioClient::GetMixFormat**](iaudioclient-getmixformat.md)
--   [**IAudioClient::IsFormatSupported**](iaudioclient-isformatsupported.md)
--   [**IAudioClient::Initialize**](iaudioclient-initialize.md)
+-   [**IAudioClient::GetMixFormat**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-getmixformat?branch=master)
+-   [**IAudioClient::IsFormatSupported**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-isformatsupported?branch=master)
+-   [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master)
 
 The **GetMixFormat** method retrieves the stream format that the audio engine uses for its internal processing of shared-mode streams. The method always uses a **WAVEFORMATEXTENSIBLE** structure, instead of a stand-alone **WAVEFORMATEX** structure, to specify the format.
 

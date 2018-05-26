@@ -1,8 +1,19 @@
 ---
-title: UI Automation Client Programmer's Guide
+title: UI Automation Client Programmers Guide
 description: This section contains information about creating applications that use Microsoft UI Automation to interact with the UI of other applications and the desktop.
-ms.assetid: 'd3616e1f-7b38-4a3e-ac96-72ec70cc13fc'
-keywords: ["creating UI Automation client applications", "creating client applications", "clients,creating UI Automation applications", "clients,UI Automation application creation", "UI Automation,creating client applications", "UI Automation,client application creation"]
+ms.assetid: d3616e1f-7b38-4a3e-ac96-72ec70cc13fc
+keywords:
+- creating UI Automation client applications
+- creating client applications
+- clients,creating UI Automation applications
+- clients,UI Automation application creation
+- UI Automation,creating client applications
+- UI Automation,client application creation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Client Programmer's Guide

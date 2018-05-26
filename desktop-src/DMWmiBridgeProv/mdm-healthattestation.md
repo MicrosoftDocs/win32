@@ -1,8 +1,15 @@
 ---
 title: MDM\_HealthAttestation class
 description: The MDM\_HealthAttestation class enables enterprise IT managers to assess the health of managed devices and take enterprise policy actions.
-ms.assetid: '64f40ccc-98f6-48d6-bcd4-793375e3dbfb'
-keywords: ["MDM_HealthAttestation class", "MDM_HealthAttestation class, described"]
+ms.assetid: 64f40ccc-98f6-48d6-bcd4-793375e3dbfb
+keywords:
+- MDM_HealthAttestation class
+- MDM_HealthAttestation class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_HealthAttestation class
@@ -26,18 +33,18 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_HealthAttestation
 {
-  string  InstanceID;
-  string  ParentID;
-  sint32  Status;
+  string  InstanceID;
+  string  ParentID;
+  sint32  Status;
   boolean ForceRetrieve;
-  string  Certificate;
-  string  Nonce;
-  string  CorrelationID;
-  sint32  TpmReadyStatus;
-  sint32  MaxSupportedProtocolVersion;
-  sint32  PreferredMaxProtocolVersion;
-  sint32  CurrentProtocolVersion;
-  string  HASEndpoint;
+  string  Certificate;
+  string  Nonce;
+  string  CorrelationID;
+  sint32  TpmReadyStatus;
+  sint32  MaxSupportedProtocolVersion;
+  sint32  PreferredMaxProtocolVersion;
+  sint32  CurrentProtocolVersion;
+  string  HASEndpoint;
 };
 ```
 
@@ -60,7 +67,7 @@ The **MDM\_HealthAttestation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -225,7 +232,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -240,9 +247,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

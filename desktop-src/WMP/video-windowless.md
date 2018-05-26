@@ -1,14 +1,20 @@
 ---
 title: VIDEO.windowless
 description: The windowless attribute specifies or retrieves a value indicating whether the Video control will be windowed or windowless; that is, whether the entire rectangle of the control will be visible at all times or can be clipped.
-ms.assetid: 'd59e6baf-374b-48f6-b99f-35a83af7feb6'
-keywords: ["VIDEO.windowless Windows Media Player"]
+ms.assetid: d59e6baf-374b-48f6-b99f-35a83af7feb6
+keywords:
+- VIDEO.windowless Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.windowless
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.windowless
@@ -32,7 +38,7 @@ This attribute is a **Boolean** specified at design time and read-only thereafte
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,9 +63,9 @@ Video playback is optimized for unclipped playback. In this case, the **windowle
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

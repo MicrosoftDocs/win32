@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics describe in detail the C/C++ programming elements used in the Fax Service Client API programming environment.'
-ms.assetid: 'a2ae4674-72d2-4eda-b132-eac76d6d9ff2'
-title: 'Fax Service Client API C/C++ Reference'
+Description: The following topics describe in detail the C/C++ programming elements used in the Fax Service Client API programming environment.
+ms.assetid: a2ae4674-72d2-4eda-b132-eac76d6d9ff2
+title: Fax Service Client API C/C++ Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API C/C++ Reference

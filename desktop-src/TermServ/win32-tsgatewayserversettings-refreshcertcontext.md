@@ -1,14 +1,17 @@
 ---
 title: RefreshCertContext method of the Win32\_TSGatewayServerSettings class
-description: Refreshes the certificate that is used by the Remote Desktop Gateway (RD Gateway) server.
+description: Refreshes the certificate that is used by the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'caefeb85-1c7a-4868-9ee8-10ab09354595'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: caefeb85-1c7a-4868-9ee8-10ab09354595
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RefreshCertContext method Remote Desktop Services", "RefreshCertContext method Remote Desktop Services , Win32_TSGatewayServerSettings class", "Win32_TSGatewayServerSettings class Remote Desktop Services , RefreshCertContext method"]
+keywords:
+- RefreshCertContext method Remote Desktop Services
+- RefreshCertContext method Remote Desktop Services , Win32_TSGatewayServerSettings class
+- Win32_TSGatewayServerSettings class Remote Desktop Services , RefreshCertContext method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RefreshCertContext method of the Win32\_TSGatewayServerSettings class
 
-Refreshes the certificate that is used by the Remote Desktop Gateway (RD Gateway) server.
+Refreshes the certificate that is used by the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
 
 ```mof
 uint32 RefreshCertContext(
-  [in] uint8 CertHash[]
+  [in] uint8 CertHash[]
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 RefreshCertContext(
 *CertHash* \[in\]
 </dt> <dd>
 
-Hash of the certificate that is used by the RD Gateway server.
+Hash of the certificate that is used by the RD Gateway server.
 
 </dd> </dl>
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Saves properties associated with a file or folder.'
-ms.assetid: '983751BA-BF36-4018-A95A-4BEA1E9BA3BF'
-title: 'IStorageProviderPropertyHandler::SaveProperties method'
+Description: Saves properties associated with a file or folder.
+ms.assetid: 983751BA-BF36-4018-A95A-4BEA1E9BA3BF
+title: IStorageProviderPropertyHandlerSaveProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStorageProviderPropertyHandler::SaveProperties method
@@ -42,7 +47,7 @@ Attempting to save properties that are not managed by the sync engine should res
 
 <dl> <dt>
 
-[**IStorageProviderPropertyHandler**](istorageproviderpropertyhandler.md)
+[**IStorageProviderPropertyHandler**](/windows/win32/storageprovider/nn-storageprovider-istorageproviderpropertyhandler?branch=master)
 </dt> </dl>
 
  

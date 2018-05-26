@@ -1,12 +1,17 @@
 ---
 title: Adding a Network Connection
 description: To make a connection to a network resource described by a NETRESOURCE structure, an application can call the WNetAddConnection2, the WNetAddConnection3, or the WNetUseConnection function.
-ms.assetid: '0dab9eed-9019-4075-833b-324e5caee257'
+ms.assetid: 0dab9eed-9019-4075-833b-324e5caee257
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Network Connection
 
-To make a connection to a network resource described by a [**NETRESOURCE**](netresource-str.md) structure, an application can call the [**WNetAddConnection2**](wnetaddconnection2.md), the [**WNetAddConnection3**](wnetaddconnection3.md), or the [**WNetUseConnection**](wnetuseconnection.md) function. The following example demonstrates use of the **WNetAddConnection2** function.
+To make a connection to a network resource described by a [**NETRESOURCE**](/windows/win32/Winnetwk/ns-winnetwk-_netresourcea?branch=master) structure, an application can call the [**WNetAddConnection2**](wnetaddconnection2.md), the [**WNetAddConnection3**](wnetaddconnection3.md), or the [**WNetUseConnection**](wnetuseconnection.md) function. The following example demonstrates use of the **WNetAddConnection2** function.
 
 The code sample calls the **WNetAddConnection2** function, specifying that the system should update the user's profile with the information, creating a "remembered" or persistent connection. The sample calls an application-defined error handler to process errors, and the [**TextOut**](https://msdn.microsoft.com/library/windows/desktop/dd145133) function for printing.
 

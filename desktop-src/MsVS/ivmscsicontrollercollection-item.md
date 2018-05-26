@@ -1,8 +1,13 @@
 ---
 title: IVMSCSIControllerCollection Item property
 description: The Item property contains the IVMSCSIController object that corresponds to the given index in this collection.
-ms.assetid: '2c9d1ba9-5a3e-48a2-a876-9eb370bdc5bf'
-keywords: ["Item property Virtual Server", "Item property Virtual Server , IVMSCSIControllerCollection interface", "IVMSCSIControllerCollection interface Virtual Server , Item property", "Item property Virtual Server , VMSCSIControllerCollection interface", "VMSCSIControllerCollection interface Virtual Server , Item property"]
+ms.assetid: 2c9d1ba9-5a3e-48a2-a876-9eb370bdc5bf
+keywords:
+- Item property Virtual Server
+- Item property Virtual Server , IVMSCSIControllerCollection interface
+- IVMSCSIControllerCollection interface Virtual Server , Item property
+- Item property Virtual Server , VMSCSIControllerCollection interface
+- VMSCSIControllerCollection interface Virtual Server , Item property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSCSIControllerCollection::Item property
@@ -26,9 +36,9 @@ This property is read-only.
 
 ```C++
 HRESULT get_Item(
-  [in]  long              index,
-        Long              index,
-  [out] IVMSCSIController **scsiController
+  [in]  long              index,
+        Long              index,
+  [out] IVMSCSIController **scsiController
 );
 ```
 
@@ -82,8 +92,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -95,9 +105,9 @@ This property value is read-only.
 [**IVMSCSIControllerCollection**](ivmscsicontrollercollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

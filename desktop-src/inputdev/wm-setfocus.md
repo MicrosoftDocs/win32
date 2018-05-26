@@ -1,8 +1,9 @@
 ---
 title: WM\_SETFOCUS message
 description: Sent to a window after it has gained the keyboard focus.
-ms.assetid: '77180e4c-95a6-41a4-93d9-033381ae7543'
-keywords: ["WM_SETFOCUS message Keyboard and Mouse Input"]
+ms.assetid: 77180e4c-95a6-41a4-93d9-033381ae7543
+keywords:
+- WM_SETFOCUS message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SETFOCUS message
@@ -56,8 +62,8 @@ To display a caret, an application should call the appropriate caret functions w
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -81,9 +87,9 @@ To display a caret, an application should call the appropriate caret functions w
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

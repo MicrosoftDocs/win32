@@ -1,7 +1,12 @@
 ---
 title: Security Considerations Microsoft Windows Controls
 description: This topic provides information about security considerations related to the Windows controls.
-ms.assetid: 'd5396fa1-452e-40e1-beaf-ae04690048f1'
+ms.assetid: d5396fa1-452e-40e1-beaf-ae04690048f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: Microsoft Windows Controls
@@ -57,7 +62,7 @@ The following table lists features that, if used incorrectly, can compromise the
 
 | Feature                                               | Mitigation                                                                                                                                              |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DlgDirListComboBox**](dlgdirlistcombobox.md)      | Make sure the buffer used by the function can be written to and is null-terminated.                                                                     |
+| [**DlgDirListComboBox**](/windows/win32/Winuser/nf-winuser-dlgdirlistcomboboxa?branch=master)      | Make sure the buffer used by the function can be written to and is null-terminated.                                                                     |
 | [**CB\_GETLBTEXT**](cb-getlbtext.md)                 | Call [**CB\_GETLBTEXTLEN**](cb-getlbtextlen.md) to obtain the buffer size, and then call [**CB\_GETLBTEXT**](cb-getlbtext.md) to retrieve the string. |
 | [**LVM\_GETISEARCHSTRING**](lvm-getisearchstring.md) | Call the message with a **NULL** parameter value to obtain the buffer size, and then call the message a second time to retrieve the string.             |
 | [**SB\_GETTEXT**](sb-gettext.md)                     | Call [**SB\_GETTEXTLENGTH**](sb-gettextlength.md) to obtain the buffer size, and then call [**SB\_GETTEXT**](sb-gettext.md) to retrieve the string.   |

@@ -1,8 +1,20 @@
 ---
 title: MIDI Types
 description: MIDI Types
-ms.assetid: '2453ce4b-c4c9-47e1-a5f5-f0aaf28dbb39'
-keywords: ["multimedia audio,MIDI types", "audio,MIDI types", "Musical Instrument Digital Interface (MIDI),types", "MIDI (Musical Instrument Digital Interface),types", "reference for MIDI,types", "MIDI reference,types", "MIDI types"]
+ms.assetid: 2453ce4b-c4c9-47e1-a5f5-f0aaf28dbb39
+keywords:
+- multimedia audio,MIDI types
+- audio,MIDI types
+- Musical Instrument Digital Interface (MIDI),types
+- MIDI (Musical Instrument Digital Interface),types
+- reference for MIDI,types
+- MIDI reference,types
+- MIDI types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Types

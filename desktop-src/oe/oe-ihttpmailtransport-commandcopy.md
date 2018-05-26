@@ -1,8 +1,11 @@
 ---
 title: IHTTPMailTransport CommandCOPY method
 description: Sends the COPY command to the HTTPMail server.
-ms.assetid: '472a95b2-490c-48b6-ad6c-35c56168a9ec'
-keywords: ["CommandCOPY method Windows Mail (formerly Outlook Express)", "CommandCOPY method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface", "IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandCOPY method"]
+ms.assetid: 472a95b2-490c-48b6-ad6c-35c56168a9ec
+keywords:
+- CommandCOPY method Windows Mail (formerly Outlook Express)
+- CommandCOPY method Windows Mail (formerly Outlook Express) , IHTTPMailTransport interface
+- IHTTPMailTransport interface Windows Mail (formerly Outlook Express) , CommandCOPY method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHTTPMailTransport::CommandCOPY method
@@ -24,10 +32,10 @@ Sends the COPY command to the HTTPMail server.
 
 ```C++
 HRESULT CommandCOPY(
-  [in] LPCSTR pszPath,
-  [in] LPCSTR pszDestination,
-  [in] BOOL   fAllowRename,
-  [in] DWORD  dwContext
+  [in] LPCSTR pszPath,
+  [in] LPCSTR pszDestination,
+  [in] BOOL   fAllowRename,
+  [in] DWORD  dwContext
 );
 ```
 
@@ -71,7 +79,7 @@ Specifies a **BOOL** that indicates whether the destination resource already exi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -100,7 +108,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -108,8 +116,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -117,9 +125,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

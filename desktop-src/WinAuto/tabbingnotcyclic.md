@@ -1,7 +1,12 @@
 ---
 title: TabbingNotCyclic
 description: TabbingNotCyclic
-ms.assetid: 'F6BCC613-1EA1-438C-AC09-8A282870E021'
+ms.assetid: F6BCC613-1EA1-438C-AC09-8A282870E021
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TabbingNotCyclic

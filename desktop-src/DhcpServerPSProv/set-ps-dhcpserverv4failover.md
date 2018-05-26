@@ -4,13 +4,16 @@ description: Modifies the properties of an existing failover relationship.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3836f670-f01e-44d0-ba87-2f78412666be'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3836f670-f01e-44d0-ba87-2f78412666be
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv4Failover class", "PS_DhcpServerv4Failover class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv4Failover class
+- PS_DhcpServerv4Failover class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv4Failover class
@@ -30,19 +36,19 @@ Modifies the properties of an existing failover relationship.
 
 ```mof
 uint32 Set(
-  [in]  string               ComputerName,
-  [in]  string               Name,
-  [in]  boolean              AutoStateTransition,
-  [in]  datetime             MaxClientLeadTime,
-  [in]  string               SharedSecret,
-  [in]  datetime             StateSwitchInterval,
-  [in]  boolean              PartnerDown,
-  [in]  boolean              Force,
-  [in]  uint32               LoadBalancePercent,
-  [in]  uint32               ReservePercent,
-  [in]  boolean              PassThru,
-  [in]  string               Mode,
-  [out] DhcpServerv4Failover cmdletOutput
+  [in]  string               ComputerName,
+  [in]  string               Name,
+  [in]  boolean              AutoStateTransition,
+  [in]  datetime             MaxClientLeadTime,
+  [in]  string               SharedSecret,
+  [in]  datetime             StateSwitchInterval,
+  [in]  boolean              PartnerDown,
+  [in]  boolean              Force,
+  [in]  uint32               LoadBalancePercent,
+  [in]  uint32               ReservePercent,
+  [in]  boolean              PassThru,
+  [in]  string               Mode,
+  [out] DhcpServerv4Failover cmdletOutput
 );
 ```
 
@@ -150,7 +156,7 @@ Mode of the failover relationship.
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
+**Windows Server 2012:** This parameter is supported beginning with Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -168,7 +174,7 @@ An embedded instance of a [**DhcpServerv4Failover**](ps-dhcpserverv4failover.md)
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -182,9 +188,9 @@ An embedded instance of a [**DhcpServerv4Failover**](ps-dhcpserverv4failover.md)
 [**PS\_DhcpServerv4Failover**](ps-dhcpserverv4failover.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

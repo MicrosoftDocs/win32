@@ -1,7 +1,12 @@
 ---
-Description: 'Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities.'
-ms.assetid: '116EAD64-7CAE-455C-BA43-9492F78DE873'
+Description: Control Flow Guard (CFG) is a highly-optimized platform security feature that was created to combat memory corruption vulnerabilities.
+ms.assetid: 116EAD64-7CAE-455C-BA43-9492F78DE873
 title: Control Flow Guard
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Flow Guard

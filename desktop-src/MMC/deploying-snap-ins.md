@@ -4,11 +4,16 @@ description: Provides instructions for deploying a snap-in.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cb2a0da4-041a-449c-8dcd-46db54291b25'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: cb2a0da4-041a-449c-8dcd-46db54291b25
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["deploying snap-ins MMC", "snap-in deployment MMC"]
+keywords:
+- deploying snap-ins MMC
+- snap-in deployment MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Deploying Snap-ins

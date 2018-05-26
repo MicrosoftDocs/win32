@@ -1,7 +1,12 @@
 ---
-Description: 'IP multicast falls into the category of nonrooted data plane and nonrooted control plane.'
-ms.assetid: '474a1c7f-0ece-4192-a2d9-6e2f3df2ac02'
+Description: IP multicast falls into the category of nonrooted data plane and nonrooted control plane.
+ms.assetid: 474a1c7f-0ece-4192-a2d9-6e2f3df2ac02
 title: IP Multicast
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP Multicast
@@ -14,11 +19,11 @@ IP multicast falls into the category of nonrooted data plane and nonrooted contr
 -   IP\_DROP\_MEMBERSHIP—Drops out of a multicast session.
 -   IP\_MULTICAST\_LOOP—Controls loopback of multicast traffic.
 
-Setting the time-to-live for an IP-multicast socket maps directly to using the SIO\_MULTICAST\_SCOPE command code for [**WSAIoctl**](wsaioctl-2.md).
+Setting the time-to-live for an IP-multicast socket maps directly to using the SIO\_MULTICAST\_SCOPE command code for [**WSAIoctl**](/windows/win32/Winsock2/nf-winsock2-wsaioctl?branch=master).
 
 The method for determining the IP interface to be used for multicasting is through a TCP/IP-specific socket option as described in the Windows Sockets 2 Protocol-Specific Annex. The remaining three operations are covered well with the Windows Sockets 2 semantics described here.
 
-The application would open sockets with c\_leaf/d\_leaf flags in [**WSASocket**](wsasocket-2.md). It would use [**WSAJoinLeaf**](wsajoinleaf-2.md) to add itself to a multicast group on the default interface designated for multicast operations. If the flag in **WSAJoinLeaf** indicates that this socket is only a sender, then the join operation is essentially a no-op and no IGMP messages need to be sent. Otherwise, an IGMP packet is sent out to the router to indicate interests in receiving packets sent to the specified multicast address. Since the application created special c\_leaf/d\_leaf sockets used only for performing multicast, the standard [**closesocket**](closesocket-2.md) function would be used to drop out of the multicast session. The SIO\_MULTIPOINT\_LOOPBACK command code for [**WSAIoctl**](wsaioctl-2.md) provides a generic control mechanism for determining whether data sent on a d\_leaf socket in a nonrooted multipoint scheme can also be received on the same socket.
+The application would open sockets with c\_leaf/d\_leaf flags in [**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master). It would use [**WSAJoinLeaf**](/windows/win32/Winsock2/nf-winsock2-wsajoinleaf?branch=master) to add itself to a multicast group on the default interface designated for multicast operations. If the flag in **WSAJoinLeaf** indicates that this socket is only a sender, then the join operation is essentially a no-op and no IGMP messages need to be sent. Otherwise, an IGMP packet is sent out to the router to indicate interests in receiving packets sent to the specified multicast address. Since the application created special c\_leaf/d\_leaf sockets used only for performing multicast, the standard [**closesocket**](/windows/win32/winsock/nf-winsock-closesocket?branch=master) function would be used to drop out of the multicast session. The SIO\_MULTIPOINT\_LOOPBACK command code for [**WSAIoctl**](/windows/win32/Winsock2/nf-winsock2-wsaioctl?branch=master) provides a generic control mechanism for determining whether data sent on a d\_leaf socket in a nonrooted multipoint scheme can also be received on the same socket.
 
 > [!Note]  
 > The Winsock version of the IP\_MULTICAST\_LOOP option is semantically different than the UNIX version of the IP\_MULTICAST\_LOOP option:

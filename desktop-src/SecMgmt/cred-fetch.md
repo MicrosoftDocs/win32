@@ -1,7 +1,12 @@
 ---
-Description: 'Defines values that determine how to fetch the credential of a Group Managed Service Account (gMSA).'
-ms.assetid: '90891448-22F6-497A-A612-3DAB8622C325'
-title: 'CRED\_FETCH enumeration'
+Description: Defines values that determine how to fetch the credential of a Group Managed Service Account (gMSA).
+ms.assetid: 90891448-22F6-497A-A612-3DAB8622C325
+title: CRED\_FETCH enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRED\_FETCH enumeration
@@ -13,9 +18,9 @@ Defines values that determine how to fetch the credential of a Group Managed Ser
 
 ```C++
 typedef enum _CRED_FETCH { 
-  CredFetchDefault  = 0,
-  CredFetchDPAPI    = 1,
-  CredFetchForced   = 2
+  CredFetchDefault  = 0,
+  CredFetchDPAPI    = 1,
+  CredFetchForced   = 2
 } CRED_FETCH;
 ```
 
@@ -52,15 +57,15 @@ Forces the operating system to attempt to read the password from the domain cont
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Secpkg.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

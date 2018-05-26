@@ -1,7 +1,12 @@
 ---
-Description: 'The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.'
-ms.assetid: '0a04c43d-8b4b-4780-b02f-04053c405c77'
-title: 'CMediaPosition.GetTypeInfo method'
+Description: The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.
+ms.assetid: 0a04c43d-8b4b-4780-b02f-04053c405c77
+title: CMediaPosition.GetTypeInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaPosition.GetTypeInfo method
@@ -13,9 +18,9 @@ The `GetTypeInfo` method retrieves the type information for the object, which ca
 
 ```C++
 HRESULT GetTypeInfo(
-   UINT      itinfo,
-   LCID      lcid,
-   ITypeInfo **pptinfo
+   UINT      itinfo,
+   LCID      lcid,
+   ITypeInfo **pptinfo
 );
 ```
 
@@ -60,7 +65,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +85,9 @@ Returns an **HRESULT** value. Possible values include the following.
 [**CMediaPosition Class**](cmediaposition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

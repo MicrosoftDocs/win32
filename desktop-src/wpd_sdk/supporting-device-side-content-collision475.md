@@ -1,7 +1,12 @@
 ---
-Description: 'Supporting Device-Side Content'
-ms.assetid: 'ea11f8e6-fb53-46e4-b210-2dae33cdc056'
-title: 'Supporting Device-Side Content'
+Description: Supporting Device-Side Content
+ms.assetid: ea11f8e6-fb53-46e4-b210-2dae33cdc056
+title: Supporting Device-Side Content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supporting Device-Side Content

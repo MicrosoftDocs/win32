@@ -1,8 +1,11 @@
 ---
 title: IVMParallelPort Name property
 description: Name of the parallel port.
-ms.assetid: '254df134-2b48-4a81-8229-0f5fbacf2e1c'
-keywords: ["Name property Virtual PC", "Name property Virtual PC , IVMParallelPort interface", "IVMParallelPort interface Virtual PC , Name property"]
+ms.assetid: 254df134-2b48-4a81-8229-0f5fbacf2e1c
+keywords:
+- Name property Virtual PC
+- Name property Virtual PC , IVMParallelPort interface
+- IVMParallelPort interface Virtual PC , Name property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMParallelPort::Name property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves and sets the name of the parallel port.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Name(
-  [in]          BSTR portName
+  [in]          BSTR portName
 );
 
 HRESULT get_Name(
-  [out, retval] BSTR *portName
+  [out, retval] BSTR *portName
 );
 ```
 
@@ -62,9 +70,9 @@ Sets the name of the parallel port (for example, "LPT1").
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMParallelPort is defined as 097beecb-0a02-474f-abd6-298b22293fc6<br/>            |
@@ -78,9 +86,9 @@ Sets the name of the parallel port (for example, "LPT1").
 [**IVMParallelPort**](ivmparallelport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

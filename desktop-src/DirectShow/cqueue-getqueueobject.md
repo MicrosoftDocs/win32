@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the next item from the queue.'
-ms.assetid: '406ae640-5903-427d-91f9-8b01beb1aaa7'
-title: 'CQueue.GetQueueObject method'
+Description: Retrieves the next item from the queue.
+ms.assetid: 406ae640-5903-427d-91f9-8b01beb1aaa7
+title: CQueue.GetQueueObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CQueue.GetQueueObject method
@@ -47,9 +52,9 @@ This method blocks until an item is available on the queue.
 [**CQueue Class**](cqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Creating the MSVidWebDVD Object
 description: Creating the MSVidWebDVD Object
-ms.assetid: '3ea19c61-c4f0-4f41-9089-db1c8cb22579'
+ms.assetid: 3ea19c61-c4f0-4f41-9089-db1c8cb22579
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the MSVidWebDVD Object

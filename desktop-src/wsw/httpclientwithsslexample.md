@@ -1,8 +1,16 @@
 ---
 title: HttpClientWithSslExample
 description: This example shows a HTTP client that sends request-reply messages, with SSL transport security.
-ms.assetid: '0e73baee-a56d-446e-ae2e-a3aae31d8508'
-keywords: ["HttpClientWithSslExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 0e73baee-a56d-446e-ae2e-a3aae31d8508
+keywords:
+- HttpClientWithSslExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpClientWithSslExample

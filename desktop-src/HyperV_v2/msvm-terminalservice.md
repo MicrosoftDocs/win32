@@ -1,7 +1,12 @@
 ---
-Description: 'Manages all remote terminal connections to a particular host.'
-ms.assetid: '9b81f6d5-20fa-4277-b943-756d85359fd2'
-title: 'Msvm\_TerminalService class'
+Description: Manages all remote terminal connections to a particular host.
+ms.assetid: 9b81f6d5-20fa-4277-b943-756d85359fd2
+title: Msvm\_TerminalService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TerminalService class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TerminalService : CIM_Service
 {
-  string   InstanceID;
-  string   Caption = "Hyper-V Terminal Service";
-  string   Description = "Microsoft Virtual Terminal Service";
-  string   ElementName = "Hyper-V Terminal Service";
+  string   InstanceID;
+  string   Caption = "Hyper-V Terminal Service";
+  string   Description = "Microsoft Virtual Terminal Service";
+  string   ElementName = "Hyper-V Terminal Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "The virtual terminal connection management service is fully operational" };
-  string   Status = "OK";
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "The virtual terminal connection management service is fully operational" };
+  string   Status = "OK";
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   Name = "termsvc";
-  string   CreationClassName = "Msvm_TerminalService";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   Name = "termsvc";
+  string   CreationClassName = "Msvm_TerminalService";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started;
 };
 ```
 
@@ -72,7 +77,7 @@ The **Msvm\_TerminalService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -585,8 +590,8 @@ Access to the **Msvm\_TerminalService** class might be restricted by UAC Filteri
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -600,9 +605,9 @@ Access to the **Msvm\_TerminalService** class might be restricted by UAC Filteri
 [**CIM\_Service**](cim-service.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

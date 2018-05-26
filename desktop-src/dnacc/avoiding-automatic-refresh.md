@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: 'c1a4c1ef-9078-4495-a084-17922c1cfb3c'
+ms.assetid: c1a4c1ef-9078-4495-a084-17922c1cfb3c
 title: Avoiding Automatic Refresh
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Avoiding Automatic Refresh

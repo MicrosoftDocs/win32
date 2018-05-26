@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPartBase interface is a common base for document part interfaces.'
-ms.assetid: '7523990f-04de-4182-99d9-fba100bebb84'
+---
+Description: The IPartBase interface is a common base for document part interfaces.
+ms.assetid: 7523990f-04de-4182-99d9-fba100bebb84
 title: IPartBase interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartBase interface

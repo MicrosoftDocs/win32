@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_FullScreenMode method sets the full-screen mode of the renderer.'
-ms.assetid: '25e2a12e-a327-4aab-b4ab-54db0dfc950a'
-title: 'CBaseControlWindow.put\_FullScreenMode method'
+Description: The put\_FullScreenMode method sets the full-screen mode of the renderer.
+ms.assetid: 25e2a12e-a327-4aab-b4ab-54db0dfc950a
+title: CBaseControlWindow.put\_FullScreenMode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_FullScreenMode method
@@ -13,7 +18,7 @@ The `put_FullScreenMode` method sets the full-screen mode of the renderer.
 
 ```C++
 HRESULT put_FullScreenMode(
-   long FullScreenMode
+   long FullScreenMode
 );
 ```
 
@@ -56,9 +61,9 @@ A video renderer that implements a full-screen mode should override this member 
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

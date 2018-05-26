@@ -1,8 +1,11 @@
 ---
 title: IDWriteLocalFontFileLoader GetFilePathLengthFromKey method
 description: Obtains the length of the absolute file path from the font file reference key.
-ms.assetid: 'bdd84d75-5a7a-448a-a52c-0f5997ab07b9'
-keywords: ["GetFilePathLengthFromKey method Direct Write", "GetFilePathLengthFromKey method Direct Write , IDWriteLocalFontFileLoader interface", "IDWriteLocalFontFileLoader interface Direct Write , GetFilePathLengthFromKey method"]
+ms.assetid: bdd84d75-5a7a-448a-a52c-0f5997ab07b9
+keywords:
+- GetFilePathLengthFromKey method Direct Write
+- GetFilePathLengthFromKey method Direct Write , IDWriteLocalFontFileLoader interface
+- IDWriteLocalFontFileLoader interface Direct Write , GetFilePathLengthFromKey method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteLocalFontFileLoader::GetFilePathLengthFromKey method
@@ -22,9 +30,9 @@ Obtains the length of the absolute file path from the font file reference key.
 
 ```C++
 HRESULT GetFilePathLengthFromKey(
-  [in]  const void   *fontFileReferenceKey,
-              UINT32 fontFileReferenceKeySize,
-  [out]       UINT32 *filePathLength
+  [in]  const void   *fontFileReferenceKey,
+              UINT32 fontFileReferenceKeySize,
+  [out]       UINT32 *filePathLength
 );
 ```
 
@@ -85,9 +93,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteLocalFontFileLoader**](idwritelocalfontfileloader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

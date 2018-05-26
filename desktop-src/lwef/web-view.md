@@ -1,8 +1,18 @@
 ---
-title: Customizing a Folder's Web View
+title: Customizing a Folders Web View
 description: A Web view is a powerful and flexible way to use the Windows Explorer to display information about the contents of a Shell folder.
-ms.assetid: 'a894df21-bcc6-4760-b7d7-9bf95a0dba7f'
-keywords: ["Web views", "Classic style", "Web style", "banners", "FileList region"]
+ms.assetid: a894df21-bcc6-4760-b7d7-9bf95a0dba7f
+keywords:
+- Web views
+- Classic style
+- Web style
+- banners
+- FileList region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing a Folder's Web View

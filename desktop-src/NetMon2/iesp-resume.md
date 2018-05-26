@@ -1,7 +1,12 @@
 ---
-Description: 'The Resume method restarts a paused capture.'
-ms.assetid: '047ea5f8-de3d-40db-ada3-fc0ef4deccef'
-title: 'IESP::Resume method'
+Description: The Resume method restarts a paused capture.
+ms.assetid: 047ea5f8-de3d-40db-ada3-fc0ef4deccef
+title: IESPResume method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IESP::Resume method
@@ -37,7 +42,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -53,8 +58,8 @@ To stop the capture, call [**IESP::Stop**](iesp-stop.md).
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -76,9 +81,9 @@ To stop the capture, call [**IESP::Stop**](iesp-stop.md).
 [**IESP::Stop**](iesp-stop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

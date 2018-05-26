@@ -1,8 +1,9 @@
 ---
 title: WM\_KEYDOWN message
 description: Posted to the window with the keyboard focus when a nonsystem key is pressed. A nonsystem key is a key that is pressed when the ALT key is not pressed.
-ms.assetid: '0e37149f-445c-4b20-ad68-fdf39428ac91'
-keywords: ["WM_KEYDOWN message Keyboard and Mouse Input"]
+ms.assetid: 0e37149f-445c-4b20-ad68-fdf39428ac91
+keywords:
+- WM_KEYDOWN message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_KEYDOWN message
@@ -54,7 +60,7 @@ The repeat count, scan code, extended-key flag, context code, previous key-state
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -78,8 +84,8 @@ Applications must pass *wParam* to [**TranslateMessage**](https://msdn.microsoft
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -112,9 +118,9 @@ Applications must pass *wParam* to [**TranslateMessage**](https://msdn.microsoft
 [Keyboard Input](keyboard-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

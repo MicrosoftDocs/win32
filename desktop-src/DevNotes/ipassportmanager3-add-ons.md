@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is presented because the initial documentation of the IPassportManager3 interface did not include two methods in the vtable. This information is being provided only in the interest of complete documentation.'
-ms.assetid: '04936141-81ac-42e8-afee-2e42c071aab5'
-title: 'IPassportManager3 Add-ons'
+Description: This topic is presented because the initial documentation of the IPassportManager3 interface did not include two methods in the vtable. This information is being provided only in the interest of complete documentation.
+ms.assetid: 04936141-81ac-42e8-afee-2e42c071aab5
+title: IPassportManager3 Add-ons
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPassportManager3 Add-ons

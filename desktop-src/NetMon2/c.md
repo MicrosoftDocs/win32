@@ -1,8 +1,13 @@
 ---
-Description: 'Glossary of Network Monitor terms that begin with the letter C.'
-Robots: 'noindex, nofollow'
-ms.assetid: '36ba6381-3830-4f27-937d-8808129e7d09'
+Description: Glossary of Network Monitor terms that begin with the letter C.
+Robots: noindex, nofollow
+ms.assetid: 36ba6381-3830-4f27-937d-8808129e7d09
 title: C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C

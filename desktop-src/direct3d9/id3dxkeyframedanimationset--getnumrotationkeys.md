@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of rotation keys in the specified key frame animation.'
-ms.assetid: 'b39c6585-461d-48fb-a048-9965f58b0736'
-title: 'ID3DXKeyframedAnimationSet::GetNumRotationKeys method'
+---
+Description: Gets the number of rotation keys in the specified key frame animation.
+ms.assetid: b39c6585-461d-48fb-a048-9965f58b0736
+title: ID3DXKeyframedAnimationSetGetNumRotationKeys method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::GetNumRotationKeys method

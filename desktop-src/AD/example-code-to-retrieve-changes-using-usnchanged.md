@@ -4,11 +4,15 @@ description: The following code example uses the uSNChanged attribute of an obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '519fd20f-9eb4-4702-9338-8cda899604bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 519fd20f-9eb4-4702-9338-8cda899604bd
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , retrieving changes using USNChanged"]
+keywords:
+- Active Directory examples Active Directory , retrieving changes using USNChanged
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code to Retrieve Changes Using USNChanged

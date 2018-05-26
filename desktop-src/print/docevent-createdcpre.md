@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DOCEVENT\_CREATEDCPRE structure contains a set of values used in certain calls to DrvDocumentEvent and IPrintOemUI2::DocumentEvent.'
-ms.assetid: 'ad95d11e-c170-4c21-a498-45e38f41cbbb'
-title: 'DOCEVENT\_CREATEDCPRE structure'
+---
+Description: The DOCEVENT\_CREATEDCPRE structure contains a set of values used in certain calls to DrvDocumentEvent and IPrintOemUI2DocumentEvent.
+ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
+title: DOCEVENT\_CREATEDCPRE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOCEVENT\_CREATEDCPRE structure

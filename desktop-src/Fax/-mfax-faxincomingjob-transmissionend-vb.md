@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TransmissionEnd property indicates the time at which the inbound fax job completed transmission.'
-ms.assetid: '7b4ca28b-6787-4ba6-9ea7-7d0fc5b771dc'
-title: 'FaxIncomingJob.TransmissionEnd property'
+---
+Description: The TransmissionEnd property indicates the time at which the inbound fax job completed transmission.
+ms.assetid: 7b4ca28b-6787-4ba6-9ea7-7d0fc5b771dc
+title: FaxIncomingJob.TransmissionEnd property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.TransmissionEnd property
@@ -50,7 +55,7 @@ The **TransmissionEnd** property is not valid as long as the fax is still being 
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**IFaxIncomingJob**](-mfax-faxincomingjob-cpp.md)
+[**IFaxIncomingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingjob?branch=master)
 </dt> </dl>
 
  

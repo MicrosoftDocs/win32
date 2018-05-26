@@ -1,7 +1,12 @@
 ---
-Description: 'If this per-machine system policy is not set, only administrators can patch existing products that were installed using elevated privileges.'
-ms.assetid: 'cd07dcb0-b9b5-4186-a916-604c40f88b5f'
+Description: If this per-machine system policy is not set, only administrators can patch existing products that were installed using elevated privileges.
+ms.assetid: cd07dcb0-b9b5-4186-a916-604c40f88b5f
 title: AllowLockdownPatch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllowLockdownPatch

@@ -1,8 +1,11 @@
 ---
 title: RemoveCredentials method of the BitsClientJob class
 description: The RemoveCredentials method removes the credentials from the Target parameter.
-ms.assetid: '202f40f7-1663-4a67-b71d-f57b3c181852'
-keywords: ["RemoveCredentials method", "RemoveCredentials method, BitsClientJob class", "BitsClientJob class, RemoveCredentials method"]
+ms.assetid: 202f40f7-1663-4a67-b71d-f57b3c181852
+keywords:
+- RemoveCredentials method
+- RemoveCredentials method, BitsClientJob class
+- BitsClientJob class, RemoveCredentials method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - bits1_5.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveCredentials method of the BitsClientJob class
@@ -22,8 +30,8 @@ The **RemoveCredentials** method removes the credentials from the *Target* param
 
 ```mof
 uint32 RemoveCredentials(
-  [in] Uint16 Target,
-  [in] Uint16 Scheme
+  [in] Uint16 Target,
+  [in] Uint16 Scheme
 );
 ```
 
@@ -47,7 +55,7 @@ Specifies destination where the credentials will be removed. The *Target* parame
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -68,7 +76,7 @@ Specifies the authentication scheme to remove. The *Scheme* parameter can be set
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -79,8 +87,8 @@ Specifies the authentication scheme to remove. The *Scheme* parameter can be set
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Bits1\_5.h</dt> </dl>       |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
@@ -94,9 +102,9 @@ Specifies the authentication scheme to remove. The *Scheme* parameter can be set
 [**BitsClientJob**](bitsclientjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

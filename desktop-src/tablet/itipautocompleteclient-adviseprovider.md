@@ -1,7 +1,12 @@
 ---
-Description: 'Registers the provider with the client to enable the client to call the application''s auto complete provider object.'
-ms.assetid: '7b761b30-66f7-454a-9e0d-f45c8099f19f'
-title: 'ITipAutocompleteClient::AdviseProvider method'
+Description: Registers the provider with the client to enable the client to call the applications auto complete provider object.
+ms.assetid: 7b761b30-66f7-454a-9e0d-f45c8099f19f
+title: ITipAutocompleteClientAdviseProvider method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteClient::AdviseProvider method
@@ -13,8 +18,8 @@ Registers the provider with the client to enable the client to call the applicat
 
 ```C++
 HRESULT AdviseProvider(
-  [in] HWND                     hWndField,
-  [in] ITipAutocompleteProvider *pIACProvider
+  [in] HWND                     hWndField,
+  [in] ITipAutocompleteProvider *pIACProvider
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +64,7 @@ This method can return one of these values.
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -79,9 +84,9 @@ This method can return one of these values.
 [Text Input Panel Reference](text-input-panel-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

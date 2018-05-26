@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckTransform method checks whether an input media type is compatible with an output media type.'
-ms.assetid: '349145e5-c12d-41df-ae37-7846f8aaa423'
-title: 'CTransformFilter.CheckTransform method'
+Description: The CheckTransform method checks whether an input media type is compatible with an output media type.
+ms.assetid: 349145e5-c12d-41df-ae37-7846f8aaa423
+title: CTransformFilter.CheckTransform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.CheckTransform method
@@ -13,8 +18,8 @@ The `CheckTransform` method checks whether an input media type is compatible wit
 
 ```C++
 virtual HRESULT CheckTransform(
-   const CMediaType *mtIn,
-   const CMediaType *mtOut
+   const CMediaType *mtIn,
+   const CMediaType *mtOut
 ) = 0;
 ```
 
@@ -51,7 +56,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +73,9 @@ The derived class must implement this method. Return S\_OK if the filter can acc
 
 
 
- 
+ 
 
- 
+ 
 
 
 

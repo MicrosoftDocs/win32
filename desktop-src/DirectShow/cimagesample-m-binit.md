@@ -1,7 +1,12 @@
 ---
-Description: 'The m\_bInit member variable indicates whether the CImageSample object has been initialized. If so, the value if TRUE. Otherwise, it is FALSE.'
-ms.assetid: 'bd508622-356e-46fe-98aa-c001c7742383'
-title: 'CImageSample::m\_bInit member'
+Description: The m\_bInit member variable indicates whether the CImageSample object has been initialized. If so, the value if TRUE. Otherwise, it is FALSE.
+ms.assetid: bd508622-356e-46fe-98aa-c001c7742383
+title: CImageSamplem\_bInit member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageSample::m\_bInit member
@@ -41,9 +46,9 @@ BOOL m_bInit;
 [**CImageSample::SetDIBData**](cimagesample-setdibdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

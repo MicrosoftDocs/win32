@@ -1,14 +1,20 @@
 ---
 title: BITMAP resource
 description: Defines a bitmap that an application uses in its screen display or as an item in a menu or control.
-ms.assetid: '2db2f7f0-735f-4aac-9813-c04a2f7788b2'
-keywords: ["BITMAP resource Menus and Other Resources"]
+ms.assetid: 2db2f7f0-735f-4aac-9813-c04a2f7788b2
+keywords:
+- BITMAP resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - BITMAP
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITMAP resource
@@ -58,7 +64,7 @@ disk1   BITMAP "disk.bmp"
 [**LoadBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd145033)
 </dt> <dt>
 
-[**LoadImage**](loadimage.md)
+[**LoadImage**](/windows/win32/Winuser/nf-winuser-loadimagea?branch=master)
 </dt> </dl>
 
  

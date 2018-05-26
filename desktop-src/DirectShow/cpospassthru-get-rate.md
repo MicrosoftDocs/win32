@@ -1,19 +1,24 @@
 ---
-Description: 'The get\_Rate method retrieves the playback rate. This method implements the IMediaPosition::get\_Rate method.'
-ms.assetid: '216cbcef-4874-4565-abb0-8c8bf67fe23c'
-title: 'CPosPassThru.get\_Rate method'
+Description: The get\_Rate method retrieves the playback rate. This method implements the IMediaPositionget\_Rate method.
+ms.assetid: 216cbcef-4874-4565-abb0-8c8bf67fe23c
+title: CPosPassThru.get\_Rate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.get\_Rate method
 
-The `get_Rate` method retrieves the playback rate. This method implements the [**IMediaPosition::get\_Rate**](imediaposition-get-rate.md) method.
+The `get_Rate` method retrieves the playback rate. This method implements the [**IMediaPosition::get\_Rate**](/windows/win32/Control/nf-control-imediaposition-get_rate?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT get_Rate(
-   double *pdRate
+   double *pdRate
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the **HRESULT** value from the connected pin.
 [**CPosPassThru Class**](cpospassthru.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

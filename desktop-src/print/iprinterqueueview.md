@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides a way to change the range of print jobs being monitored.'
-ms.assetid: '81B3D4A3-7176-4656-B23D-04F0F84D9000'
+---
+Description: Provides a way to change the range of print jobs being monitored.
+ms.assetid: 81B3D4A3-7176-4656-B23D-04F0F84D9000
 title: IPrinterQueueView interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterQueueView interface

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the SendCoverpage property for a FaxDoc object. The SendCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.'
-ms.assetid: '72c706ea-ad0f-4738-82cb-19ee8b016a6c'
-title: 'FaxDoc.SendCoverpage property'
+---
+Description: Sets or retrieves the SendCoverpage property for a FaxDoc object. The SendCoverpage property is a Boolean value that indicates whether the specified cover page file is stored on the fax server.
+ms.assetid: 72c706ea-ad0f-4738-82cb-19ee8b016a6c
+title: FaxDoc.SendCoverpage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.SendCoverpage property
@@ -64,7 +69,7 @@ For more information, see [Cover Pages](-mfax-cover-pages.md) and [Sending a Cov
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [**FileName**](-mfax-ifaxdoc-get-filename-vb.md)

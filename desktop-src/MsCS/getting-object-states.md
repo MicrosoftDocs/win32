@@ -4,11 +4,15 @@ description: The state of a cluster object indicates the operational status and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'de1d4ad2-3531-467e-a2e6-24d22514ce6e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: de1d4ad2-3531-467e-a2e6-24d22514ce6e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster , retrieving states"]
+keywords:
+- cluster objects Failover Cluster , retrieving states
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting Object States
@@ -23,11 +27,11 @@ The state of a [cluster object](cluster-objects.md) indicates the operational st
 
     | Cluster object                              | Function                                                           |
     |---------------------------------------------|--------------------------------------------------------------------|
-    | [**Cluster**](cluster-object.md)           | [**GetNodeClusterState**](getnodeclusterstate.md)                 |
-    | [Group](groups.md)                         | [**GetClusterGroupState**](getclustergroupstate.md)               |
-    | [Network](networks.md)                     | [**GetClusterNetworkState**](getclusternetworkstate.md)           |
-    | [Network Interface](network-interfaces.md) | [**GetClusterNetInterfaceState**](getclusternetinterfacestate.md) |
-    | [Resource](resources.md)                   | [**GetClusterResourceState**](getclusterresourcestate.md)         |
+    | [**Cluster**](cluster-object.md)           | [**GetNodeClusterState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_node_cluster_state?branch=master)                 |
+    | [Group](groups.md)                         | [**GetClusterGroupState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_group_state?branch=master)               |
+    | [Network](networks.md)                     | [**GetClusterNetworkState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_network_state?branch=master)           |
+    | [Network Interface](network-interfaces.md) | [**GetClusterNetInterfaceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_net_interface_state?branch=master) |
+    | [Resource](resources.md)                   | [**GetClusterResourceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_resource_state?branch=master)         |
 
     
 
@@ -37,7 +41,7 @@ The state of a [cluster object](cluster-objects.md) indicates the operational st
 
 ## Example Code
 
-The following example calls [**GetClusterResourceState**](getclusterresourcestate.md) and returns a string describing the state of a resource.
+The following example calls [**GetClusterResourceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_resource_state?branch=master) and returns a string describing the state of a resource.
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Clears all OID objects from the collection.'
-ms.assetid: '13c9ecf4-c3fc-4dae-a395-04e5247b3b1f'
-title: 'OIDs.Clear method'
+---
+Description: Clears all OID objects from the collection.
+ms.assetid: 13c9ecf4-c3fc-4dae-a395-04e5247b3b1f
+title: OIDs.Clear method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OIDs.Clear method

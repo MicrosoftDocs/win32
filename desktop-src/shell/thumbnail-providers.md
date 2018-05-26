@@ -1,6 +1,11 @@
 ---
-Description: 'Windows Vista makes greater use of file-specific thumbnail images than earlier versions of Windows.'
+Description: Windows Vista makes greater use of file-specific thumbnail images than earlier versions of Windows.
 title: Thumbnail Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thumbnail Handlers
@@ -14,7 +19,7 @@ Windows Vista makes greater use of file-specific thumbnail images than earlier 
 
 Thumbnails of 32-bit resolution and as large as 256x256 pixels are often used in Windows Vista UI. File format owners should be prepared to display their thumbnails at that size. They should also provide non-static images for their thumbnails that reflect the particular file's contents. For example, a text file's thumbnail should show a miniature version of the document, including its text.
 
-The [**IThumbnailProvider**](ithumbnailprovider.md) interface has been introduced to make providing a thumbnail easier and more straightforward than in the past, when [**IExtractImage**](iextractimage.md) would have been used instead. Note, that existing code that uses **IExtractImage** is still valid under Windows Vista. However, **IExtractImage** is not supported in the **Details** pane.
+The [**IThumbnailProvider**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master) interface has been introduced to make providing a thumbnail easier and more straightforward than in the past, when [**IExtractImage**](/windows/win32/shobjidl_core/nn-shobjidl_core-iextractimage?branch=master) would have been used instead. Note, that existing code that uses **IExtractImage** is still valid under Windows Vista. However, **IExtractImage** is not supported in the **Details** pane.
 
 This topic discusses the following:
 
@@ -27,7 +32,7 @@ This topic discusses the following:
 
 ## Thumbnail Processes
 
-Handlers, including thumbnail handlers, run by default in a separate process. You can force the handler to run in-process by passing a **NULL** value as the bind context in a call to [**IShellItem::BindToHandler**](ishellitem-bindtohandler.md) as shown here:
+Handlers, including thumbnail handlers, run by default in a separate process. You can force the handler to run in-process by passing a **NULL** value as the bind context in a call to [**IShellItem::BindToHandler**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler?branch=master) as shown here:
 
 
 ```
@@ -36,7 +41,7 @@ IShellItem::BindToHandler(NULL, BHID_ThumbnailHandler,..)
 
 
 
-You can also opt out of running out of process by default by setting the DisableProcessIsolation entry in the registry as shown in this example. The class identifier (CLSID) {E357FCCD-A995-4576-B01F-234630154E96} is the CLSID for [**IThumbnailProvider**](ithumbnailprovider.md) implementations.
+You can also opt out of running out of process by default by setting the DisableProcessIsolation entry in the registry as shown in this example. The class identifier (CLSID) {E357FCCD-A995-4576-B01F-234630154E96} is the CLSID for [**IThumbnailProvider**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master) implementations.
 
 ```
 HKEY_CLASSES_ROOT
@@ -162,7 +167,7 @@ The GUID for the thumbnail handler Shell extension is `E357FCCD-A995-4576-B01F-2
 
 <dl> <dt>
 
-[**IThumbnailProvider**](ithumbnailprovider.md)
+[**IThumbnailProvider**](/windows/win32/Thumbcache/nn-thumbcache-ithumbnailprovider?branch=master)
 </dt> <dt>
 
 [Building Thumbnail Handlers](building-thumbnail-providers.md)

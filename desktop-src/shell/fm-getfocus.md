@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent by a File Manager extension to retrieve the type of File Manager window that has the input focus.'
-title: 'FM\_GETFOCUS message'
+---
+Description: Sent by a File Manager extension to retrieve the type of File Manager window that has the input focus.
+title: FM\_GETFOCUS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FM\_GETFOCUS message

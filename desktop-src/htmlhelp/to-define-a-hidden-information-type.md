@@ -1,7 +1,12 @@
 ---
 title: To define a Hidden information type
 description: To define a Hidden information type
-ms.assetid: 'D3D9D190-C7AA-4df9-86D0-9F87C33C02F5'
+ms.assetid: D3D9D190-C7AA-4df9-86D0-9F87C33C02F5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To define a Hidden information type

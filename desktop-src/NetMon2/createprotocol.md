@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateProtocol function notifies Network Monitor that a specific protocol parser exists.'
-ms.assetid: '13ae261f-b1c0-4afc-b718-d64b3d4ec5ee'
+Description: The CreateProtocol function notifies Network Monitor that a specific protocol parser exists.
+ms.assetid: 13ae261f-b1c0-4afc-b718-d64b3d4ec5ee
 title: CreateProtocol function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateProtocol function
@@ -13,9 +18,9 @@ The **CreateProtocol** function notifies Network Monitor that a specific protoco
 
 ```C++
 HPROTOCOL WINAPI CreateProtocol(
-  _In_ LPSTR         ProtocolName,
-  _In_ LPENTRYPOINTS lpEntryPoints,
-  _In_ DWORD         cbEntryPoints
+  _In_ LPSTR         ProtocolName,
+  _In_ LPENTRYPOINTS lpEntryPoints,
+  _In_ DWORD         cbEntryPoints
 );
 ```
 
@@ -69,11 +74,11 @@ The entry points referenced in the *lpEntryPoints* parameter include pointers to
 | For information on                                                                                 | See                                                     |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor.                                          | [Parsers](parsers.md)                                  |
-| How to implement **DllMain**—includes an example of calling **CreateProtocol** within **DllMain**. | [Implementing DllMain](implementing-dllmain-parser.md) |
+| How to implement **DllMain** includes an example of calling **CreateProtocol** within **DllMain**. | [Implementing DllMain](implementing-dllmain-parser.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -81,8 +86,8 @@ The entry points referenced in the *lpEntryPoints* parameter include pointers to
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -96,9 +101,9 @@ The entry points referenced in the *lpEntryPoints* parameter include pointers to
 [DllMain](https://msdn.microsoft.com/library/windows/desktop/ms682583)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: The Tree View
 description: The Tree View
-ms.assetid: 'fe6152b8-757e-4bb2-b822-606a5e4e0431'
+ms.assetid: fe6152b8-757e-4bb2-b822-606a5e4e0431
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Tree View

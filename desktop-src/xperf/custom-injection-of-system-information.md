@@ -1,8 +1,9 @@
 ---
 title: Custom Injection of System Information
 description: Kernel Trace Control allows custom injection of System Information when multiple trace files are merged into a single output trace file.
-ms.assetid: '1f618d2a-2d8c-4074-b661-b058b052fb93'
-keywords: ["Custom Injection of System Information Windows Performance Analyzer"]
+ms.assetid: 1f618d2a-2d8c-4074-b661-b058b052fb93
+keywords:
+- Custom Injection of System Information Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
@@ -12,6 +13,11 @@ api_location:
 - KernelTraceControl.dll.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Injection of System Information
@@ -120,9 +126,9 @@ Inject all the extended data information to the output trace file.
 [**CreateMergedTraceFile**](createmergedtracefile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

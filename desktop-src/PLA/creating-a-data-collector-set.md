@@ -1,7 +1,12 @@
 ---
 title: Creating a Data Collector Set
 description: A data collector set contains one or more data collectors. The properties of the set determine when the set runs (if the set is run on a schedule), where the logs are collected, and how the logs are managed.
-ms.assetid: 'eb0ef2c5-55a2-4aaf-85fe-705bbc94d4fc'
+ms.assetid: eb0ef2c5-55a2-4aaf-85fe-705bbc94d4fc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Data Collector Set
@@ -95,7 +100,7 @@ cleanup:
 
 
 
-After specifying the property values for the data collector set, you need to [add one or more data collectors to the set](adding-a-data-collector-to-a-data-collector-set.md) and call the [**IDataCollectorSet::Commit**](idatacollectorset-commit.md) method to save the set. Before calling **Commit**, you can optionally [specify a schedule for running the set](running-a-data-collector-set.md) and [specify how to manage the collected data](managing-the-data-of-a-data-collector-set.md).
+After specifying the property values for the data collector set, you need to [add one or more data collectors to the set](adding-a-data-collector-to-a-data-collector-set.md) and call the [**IDataCollectorSet::Commit**](/windows/previous-versions/Pla/nf-pla-idatacollectorset-commit?branch=master) method to save the set. Before calling **Commit**, you can optionally [specify a schedule for running the set](running-a-data-collector-set.md) and [specify how to manage the collected data](managing-the-data-of-a-data-collector-set.md).
 
  
 

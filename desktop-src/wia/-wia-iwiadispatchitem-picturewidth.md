@@ -1,7 +1,12 @@
-﻿---
-Description: 'The width, in pixels, of images produced by this digital camera. Applies only to digital cameras. Read-only.'
-ms.assetid: '76a05043-1525-4174-98ee-bc5ffc671171'
-title: 'Item.PictureWidth property'
+---
+Description: The width, in pixels, of images produced by this digital camera. Applies only to digital cameras. Read-only.
+ms.assetid: 76a05043-1525-4174-98ee-bc5ffc671171
+title: Item.PictureWidth property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.PictureWidth property

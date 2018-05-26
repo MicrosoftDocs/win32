@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent prior to the WM\_CREATE message when a window is first created.'
-ms.assetid: '5dd0eda3-83a6-4077-a7a3-e371c9413b0f'
-title: 'WM\_NCCREATE message'
+---
+Description: Sent prior to the WM\_CREATE message when a window is first created.
+ms.assetid: 5dd0eda3-83a6-4077-a7a3-e371c9413b0f
+title: WM\_NCCREATE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCCREATE message
@@ -39,7 +44,7 @@ A pointer to the [**CREATESTRUCT**](createstruct.md) structure that contains inf
 
 Type: **LRESULT**
 
-If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](createwindow.md) or [**CreateWindowEx**](createwindowex.md) function will return a **NULL** handle.
+If an application processes this message, it should return **TRUE** to continue creation of the window. If the application returns **FALSE**, the [**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master) or [**CreateWindowEx**](createwindowex.md) function will return a **NULL** handle.
 
 ## Requirements
 
@@ -60,7 +65,7 @@ If an application processes this message, it should return **TRUE** to continue 
 **Reference**
 </dt> <dt>
 
-[**CreateWindow**](createwindow.md)
+[**CreateWindow**](/windows/win32/Winuser/ns-pointofservicedriverinterface-_linedisplaycreatewindowdata?branch=master)
 </dt> <dt>
 
 [**CreateWindowEx**](createwindowex.md)

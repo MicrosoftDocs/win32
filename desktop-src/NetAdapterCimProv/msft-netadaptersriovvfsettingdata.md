@@ -1,7 +1,12 @@
 ---
-Description: 'SRIOV Vport settings for a network adapter.'
-ms.assetid: '99dcebff-a944-48a8-954e-8b6508e5fab9'
-title: 'MSFT\_NetAdapterSriovVfSettingData class'
+Description: SRIOV Vport settings for a network adapter.
+ms.assetid: 99dcebff-a944-48a8-954e-8b6508e5fab9
+title: MSFT\_NetAdapterSriovVfSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterSriovVfSettingData class
@@ -284,16 +289,16 @@ The list of Virtual Port IDs attached to this virtual function.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

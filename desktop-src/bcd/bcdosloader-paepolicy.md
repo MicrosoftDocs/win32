@@ -1,14 +1,20 @@
 ---
 title: BcdOSLoader\_PAEPolicy enumeration
 description: Specifies the Physical Address Extension (PAE) policies.
-ms.assetid: '8eb2b17b-1192-44eb-8277-6c22548a74cb'
-keywords: ["BcdOSLoader_PAEPolicy enumeration Boot Config"]
+ms.assetid: 8eb2b17b-1192-44eb-8277-6c22548a74cb
+keywords:
+- BcdOSLoader_PAEPolicy enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdOSLoader_PAEPolicy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdOSLoader\_PAEPolicy enumeration
@@ -20,9 +26,9 @@ Specifies the Physical Address Extension (PAE) policies.
 
 ```C++
 typedef enum BcdOSLoader_PAEPolicy { 
-  PaePolicyDefault       = 0,
-  PaePolicyForceEnable   = 1,
-  PaePolicyForceDisable  = 2
+  PaePolicyDefault       = 0,
+  PaePolicyForceEnable   = 1,
+  PaePolicyForceDisable  = 2
 } BcdOSLoader_PAEPolicy;
 ```
 
@@ -59,8 +65,8 @@ PAE is disabled.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -74,9 +80,9 @@ PAE is disabled.
 [**BcdOSLoaderElementTypes**](bcdosloaderelementtypes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

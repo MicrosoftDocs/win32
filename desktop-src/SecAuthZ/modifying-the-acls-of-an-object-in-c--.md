@@ -1,7 +1,12 @@
 ---
-Description: 'The following example adds an access control entry (ACE) to the discretionary access control list (DACL) of an object.'
-ms.assetid: '0c168bb7-996f-42a8-96cd-2ba7870a3333'
+Description: The following example adds an access control entry (ACE) to the discretionary access control list (DACL) of an object.
+ms.assetid: 0c168bb7-996f-42a8-96cd-2ba7870a3333
 title: Modifying the ACLs of an Object in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying the ACLs of an Object in C++
@@ -10,11 +15,11 @@ The following example adds an [*access control entry*](https://msdn.microsoft.co
 
 The *AccessMode* parameter determines the type of new ACE and how the new ACE is combined with any existing ACEs for the specified trustee. Use the GRANT\_ACCESS, SET\_ACCESS, DENY\_ACCESS, or REVOKE\_ACCESS flags in the *AccessMode* parameter. For information about these flags, see [**ACCESS\_MODE**](access-mode.md).
 
-Similar code can be used to work with a [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). Specify SACL\_SECURITY\_INFORMATION in the [**GetNamedSecurityInfo**](getnamedsecurityinfo.md) and [**SetNamedSecurityInfo**](setnamedsecurityinfo.md) functions to get and set the SACL for the object. Use the SET\_AUDIT\_SUCCESS, SET\_AUDIT\_FAILURE, and REVOKE\_ACCESS flags in the *AccessMode* parameter. For information about these flags, see [**ACCESS\_MODE**](access-mode.md).
+Similar code can be used to work with a [*system access control list*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-system-access-control-list-gly) (SACL). Specify SACL\_SECURITY\_INFORMATION in the [**GetNamedSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-getnamedsecurityinfoa?branch=master) and [**SetNamedSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-setnamedsecurityinfoa?branch=master) functions to get and set the SACL for the object. Use the SET\_AUDIT\_SUCCESS, SET\_AUDIT\_FAILURE, and REVOKE\_ACCESS flags in the *AccessMode* parameter. For information about these flags, see [**ACCESS\_MODE**](access-mode.md).
 
-Use this code to add an [object-specific ACE](object-specific-aces.md) to the DACL of a directory service object. To specify the GUIDs in an object-specific ACE, set the *TrusteeForm* parameter to TRUSTEE\_IS\_OBJECTS\_AND\_NAME or TRUSTEE\_IS\_OBJECTS\_AND\_SID and set the *pszTrustee* parameter to be a pointer to an [**OBJECTS\_AND\_NAME**](objects-and-name.md) or [**OBJECTS\_AND\_SID**](objects-and-sid.md) structure.
+Use this code to add an [object-specific ACE](object-specific-aces.md) to the DACL of a directory service object. To specify the GUIDs in an object-specific ACE, set the *TrusteeForm* parameter to TRUSTEE\_IS\_OBJECTS\_AND\_NAME or TRUSTEE\_IS\_OBJECTS\_AND\_SID and set the *pszTrustee* parameter to be a pointer to an [**OBJECTS\_AND\_NAME**](/windows/win32/AccCtrl/ns-accctrl-_objects_and_name_a?branch=master) or [**OBJECTS\_AND\_SID**](/windows/win32/AccCtrl/ns-accctrl-_objects_and_sid?branch=master) structure.
 
-This example uses the [**GetNamedSecurityInfo**](getnamedsecurityinfo.md) function to get the existing DACL. Then it fills an [**EXPLICIT\_ACCESS**](explicit-access.md) structure with information about an ACE and uses the [**SetEntriesInAcl**](setentriesinacl.md) function to merge the new ACE with any existing ACEs in the DACL. Finally, the example calls the [**SetNamedSecurityInfo**](setnamedsecurityinfo.md) function to attach the new DACL to the [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) of the object.
+This example uses the [**GetNamedSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-getnamedsecurityinfoa?branch=master) function to get the existing DACL. Then it fills an [**EXPLICIT\_ACCESS**](/windows/win32/AccCtrl/ns-accctrl-_explicit_access_a?branch=master) structure with information about an ACE and uses the [**SetEntriesInAcl**](/windows/win32/Aclapi/nf-aclapi-setentriesinacla?branch=master) function to merge the new ACE with any existing ACEs in the DACL. Finally, the example calls the [**SetNamedSecurityInfo**](/windows/win32/Aclapi/nf-aclapi-setnamedsecurityinfoa?branch=master) function to attach the new DACL to the [*security descriptor*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-security-descriptor-gly) of the object.
 
 
 ```C++

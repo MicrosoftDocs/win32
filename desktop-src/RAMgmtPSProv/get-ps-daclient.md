@@ -2,13 +2,16 @@
 title: Get method of the PS\_DAClient class
 description: This cmdlet displays the list of client security groups that are part of the DA deployment and the client properties.
 audience: developer
-ms.assetid: '0ac855e9-e714-4501-87e5-9da3736c7e50'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0ac855e9-e714-4501-87e5-9da3736c7e50
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DAClient class", "PS_DAClient class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DAClient class
+- PS_DAClient class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DAClient class
@@ -28,9 +34,9 @@ This cmdlet displays the list of client security groups that are part of the DA 
 
 ```mof
 uint32 Get(
-  [in]  string   ComputerName,
-  [in]  string   EntrypointName,
-  [out] DAClient cmdletOutput
+  [in]  string   ComputerName,
+  [in]  string   EntrypointName,
+  [out] DAClient cmdletOutput
 );
 ```
 
@@ -68,7 +74,7 @@ Entrypoint refers to the identity of a site in a multi-site deployment. When spe
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Entrypoint refers to the identity of a site in a multi-site deployment. When spe
 [**PS\_DAClient**](ps-daclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether the core encoder uses the &\#0034;Plus&\#0034; feature.'
-ms.assetid: '1ace09da-7dee-469e-a533-63b40ac747ab'
-title: 'MFPKEY\_ENHANCED\_WMA Property'
+---
+Description: Specifies whether the core encoder uses the &\#0034;Plus&\#0034; feature.
+ms.assetid: 1ace09da-7dee-469e-a533-63b40ac747ab
+title: MFPKEY\_ENHANCED\_WMA Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_ENHANCED\_WMA Property

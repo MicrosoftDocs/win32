@@ -1,8 +1,9 @@
 ---
 title: LB\_SETLOCALE message
 description: Sets the current locale of the list box. You can use the locale to determine the correct sorting order of displayed text (for list boxes with the LBS\_SORT style) and of text added by the LB\_ADDSTRING message.
-ms.assetid: 'e9503124-de9f-4b92-a59e-ec9320864ae7'
-keywords: ["LB_SETLOCALE message Windows Controls"]
+ms.assetid: e9503124-de9f-4b92-a59e-ec9320864ae7
+keywords:
+- LB_SETLOCALE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SETLOCALE message
@@ -49,8 +55,8 @@ Use the [**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd3190
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ Use the [**MAKELCID**](https://msdn.microsoft.com/library/windows/desktop/dd3190
 [**LB\_GETLOCALE**](lb-getlocale.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

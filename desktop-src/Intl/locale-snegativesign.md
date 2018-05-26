@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SNEGATIVESIGN'
-ms.assetid: 'fc685b9a-b65a-491c-8c45-a8021e785910'
-title: 'LOCALE\_SNEGATIVESIGN'
+Description: LOCALE\_SNEGATIVESIGN
+ms.assetid: fc685b9a-b65a-491c-8c45-a8021e785910
+title: LOCALE\_SNEGATIVESIGN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SNEGATIVESIGN

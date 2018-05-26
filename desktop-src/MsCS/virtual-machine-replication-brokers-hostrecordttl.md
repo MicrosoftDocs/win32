@@ -4,17 +4,22 @@ description: Specifies the time to live (TTL), in seconds, to be set for the res
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CB1E95D6-A906-41A2-8514-86DD8BC85032'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: CB1E95D6-A906-41A2-8514-86DD8BC85032
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["HostRecordTTL Failover Cluster , for virtual machine replication brokers", "HostRecordTTL Failover Cluster"]
+keywords:
+- HostRecordTTL Failover Cluster , for virtual machine replication brokers
+- HostRecordTTL Failover Cluster
 topic_type:
 - apiref
 api_name:
 - HostRecordTTL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # HostRecordTTL
@@ -27,14 +32,14 @@ Specifies the time to live (TTL), in seconds, to be set for the resource records
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 1200                                      |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -59,7 +64,7 @@ HostRecordTTLValue.dw        = HostRecordTTLData;
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -70,12 +75,12 @@ HostRecordTTLValue.dw        = HostRecordTTLData;
 [Virtual Machine Replication Broker Private Properties](virtual-machine-replication-broker-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

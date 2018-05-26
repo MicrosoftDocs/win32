@@ -4,13 +4,16 @@ description: This method creates a CIM\_GatewayPathID and the association CIM\_C
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd968616a-0ffa-43c2-b533-2da18fbb1340'
-ms.prod: 'windows-server-dev'
+ms.assetid: d968616a-0ffa-43c2-b533-2da18fbb1340
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateGatewayPathID method iSCSI Software Target API", "CreateGatewayPathID method iSCSI Software Target API , CIM_StorageHardwareIDManagementService class", "CIM_StorageHardwareIDManagementService class iSCSI Software Target API , CreateGatewayPathID method"]
+keywords:
+- CreateGatewayPathID method iSCSI Software Target API
+- CreateGatewayPathID method iSCSI Software Target API , CIM_StorageHardwareIDManagementService class
+- CIM_StorageHardwareIDManagementService class iSCSI Software Target API , CreateGatewayPathID method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateGatewayPathID method of the CIM\_StorageHardwareIDManagementService class
@@ -30,14 +36,14 @@ This method creates a CIM\_GatewayPathID and the association CIM\_ConcreteDepend
 
 ```mof
 uint32 CreateGatewayPathID(
-  [in]  string                ElementName,
-  [in]  string                StorageID,
-  [in]  uint16                IDType,
-  [in]  string                OtherIDType,
-  [in]  string                GatewayID,
-  [in]  uint16                GatewayIDType,
-  [in]  string                OtherGatewayIDType,
-  [out] CIM_GatewayPathID REF NewGatewayPathID
+  [in]  string                ElementName,
+  [in]  string                StorageID,
+  [in]  uint16                IDType,
+  [in]  string                OtherIDType,
+  [in]  string                GatewayID,
+  [in]  uint16                GatewayIDType,
+  [in]  string                OtherGatewayIDType,
+  [out] CIM_GatewayPathID REF NewGatewayPathID
 );
 ```
 
@@ -195,7 +201,7 @@ REF to the new GatewayPathID instance.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **ID already created** (4096)
@@ -210,10 +216,10 @@ REF to the new GatewayPathID instance.
 **Hardware implementation does not support specified GatewayIDType** (4100)
 </dt> <dt>
 
-**Method Reserved** (4101–32767)
+**Method Reserved** (4101 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -223,7 +229,7 @@ REF to the new GatewayPathID instance.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -237,9 +243,9 @@ REF to the new GatewayPathID instance.
 [**CIM\_StorageHardwareIDManagementService**](cim-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

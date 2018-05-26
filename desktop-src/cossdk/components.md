@@ -1,14 +1,19 @@
 ---
-Description: 'Contains an object for each component in the related application.'
-ms.assetid: 'f502ba60-b2b1-4556-8f91-22a474e60e0d'
+Description: Contains an object for each component in the related application.
+ms.assetid: f502ba60-b2b1-4556-8f91-22a474e60e0d
 title: Components collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components collection
 
 Contains an object for each component in the related application. The **Components** collection is always related to an object in the [**Applications**](applications.md) collection. The properties exposed by these objects hold settings made at the component level.
 
-This collection supports the [**Remove**](icatalogcollection-remove.md) method of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object, but not the [**Add**](icatalogcollection-add.md) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](comadmincatalog.md) object.
+This collection supports the [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) method of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object, but not the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -31,7 +36,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [AllowInprocSubscribers](#allowinprocsubscribers)
 -   [ApplicationID](#applicationid)
@@ -98,7 +103,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                                                                                                                                  |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | The GUID for the application containing the component. Must be a valid application's GUID, which is verified before [**SaveChanges**](icatalogcollection-savechanges.md) is called. If this value is changed to be a GUID for a different application, the component moves to that application. |
+| Description    | The GUID for the application containing the component. Must be a valid application's GUID, which is verified before [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master) is called. If this value is changed to be a GUID for a different application, the component moves to that application. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                        |
 | Type           | String                                                                                                                                                                                                                                                                                           |
 | Default        | N/A                                                                                                                                                                                                                                                                                              |
@@ -130,7 +135,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                           |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A GUID for the component. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | A GUID for the component. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
 | Type           | String                                                                                                                                                    |
 | Default        | N/A                                                                                                                                                       |
@@ -562,7 +567,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                                       |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A friendly name used for identifying the component. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | A friendly name used for identifying the component. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                              |
 | Type           | String                                                                                                                                                                                |
 | Default        | N/A                                                                                                                                                                                   |

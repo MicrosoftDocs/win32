@@ -1,7 +1,12 @@
 ---
 title: Pointers and Memory Allocation
 description: The ability to change memory through pointers often requires that the server and the client allocate enough memory for the elements in the array.
-ms.assetid: '8a49582a-9ae4-4f26-a172-bc8fe2aab65a'
+ms.assetid: 8a49582a-9ae4-4f26-a172-bc8fe2aab65a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointers and Memory Allocation

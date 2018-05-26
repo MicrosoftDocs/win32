@@ -1,8 +1,19 @@
 ---
 title: Multimedia Joystick Messages
 description: Multimedia Joystick Messages
-ms.assetid: '43904426-a5db-44cf-b094-cca87131b7c5'
-keywords: ["Windows multimedia,joystick messages", "multimedia,joystick messages", "multimedia input,joystick messages", "joysticks,messages", "reference for joysticks,messages", "joystick reference,messages"]
+ms.assetid: 43904426-a5db-44cf-b094-cca87131b7c5
+keywords:
+- Windows multimedia,joystick messages
+- multimedia,joystick messages
+- multimedia input,joystick messages
+- joysticks,messages
+- reference for joysticks,messages
+- joystick reference,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Joystick Messages

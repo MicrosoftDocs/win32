@@ -1,7 +1,12 @@
 ---
 title: How to Drag an Image
 description: This topic demonstrates how to drag an image on the screen. The dragging functions move an image smoothly, in color, and without any flashing of the cursor. Both masked and unmasked images can be dragged.
-ms.assetid: '84AFA770-F495-4312-9631-3335BA8CC799'
+ms.assetid: 84AFA770-F495-4312-9631-3335BA8CC799
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Drag an Image
@@ -23,9 +28,9 @@ This topic demonstrates how to drag an image on the screen. The dragging functio
 
 ### Step 1: Begin the drag operation.
 
-Use the [**ImageList\_BeginDrag**](imagelist-begindrag.md) function to begin a drag operation.
+Use the [**ImageList\_BeginDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_begindrag?branch=master) function to begin a drag operation.
 
-The user-defined function in the following C++ code example is intended to be called in response to a mouse button-down message, such as [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607). The function determines whether the user has clicked within the bounding rectangle of the image. If the user has clicked, the function captures the mouse input, erases the image from the client area, and calculates the position for the hot spot within the image. The function sets the hot spot to coincide with the hot spot of the mouse cursor. Then the function begins the drag operation by calling [**ImageList\_BeginDrag**](imagelist-begindrag.md).
+The user-defined function in the following C++ code example is intended to be called in response to a mouse button-down message, such as [**WM\_LBUTTONDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms645607). The function determines whether the user has clicked within the bounding rectangle of the image. If the user has clicked, the function captures the mouse input, erases the image from the client area, and calculates the position for the hot spot within the image. The function sets the hot spot to coincide with the hot spot of the mouse cursor. Then the function begins the drag operation by calling [**ImageList\_BeginDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_begindrag?branch=master).
 
 
 ```C++
@@ -87,7 +92,7 @@ BOOL StartDragging(HWND hwnd, POINT ptCur, HIMAGELIST himl)
 
 ### Step 2: Move the image.
 
-The [**ImageList\_DragMove**](imagelist-dragmove.md) function moves the image to a new location.
+The [**ImageList\_DragMove**](/windows/win32/Commctrl/nf-commctrl-imagelist_dragmove?branch=master) function moves the image to a new location.
 
 The user-defined function in the following C++ code example is intended to be called in response to the [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message. It drags the image to a new location.
 
@@ -110,7 +115,7 @@ BOOL MoveTheImage(POINT ptCur)
 
 ### Step 3: End the drag operation.
 
-The user-defined function in the following C++ code example calls the [**ImageList\_EndDrag**](imagelist-enddrag.md) function to end the drag operation. It then calls the [**ImageList\_DragLeave**](imagelist-dragleave.md) function to unlock the window and hide the drag image, allowing the window to be updated.
+The user-defined function in the following C++ code example calls the [**ImageList\_EndDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_enddrag?branch=master) function to end the drag operation. It then calls the [**ImageList\_DragLeave**](/windows/win32/Commctrl/nf-commctrl-imagelist_dragleave?branch=master) function to unlock the window and hide the drag image, allowing the window to be updated.
 
 
 ```C++

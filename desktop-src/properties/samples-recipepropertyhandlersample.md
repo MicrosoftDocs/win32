@@ -1,7 +1,12 @@
 ---
-Description: 'Demonstrates the implementation of a property handler for custom format recipe (.recipe) files.'
-ms.assetid: 'C8DF5077-0C55-4c7b-8F38-090548EB3743'
+Description: Demonstrates the implementation of a property handler for custom format recipe (.recipe) files.
+ms.assetid: C8DF5077-0C55-4c7b-8F38-090548EB3743
 title: Recipe Property Handler Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recipe Property Handler Sample

@@ -1,8 +1,20 @@
 ---
 title: Input Feedback Configuration Reference
 description: The topics in this section provide the reference specifications for Input Feedback Configuration.
-ms.assetid: '0C28CE75-9DD2-403C-A805-88B525765A54'
-keywords: ["user interaction", "input", "pointer", "touch", "mouse", "pen", "stylus"]
+ms.assetid: 0C28CE75-9DD2-403C-A805-88B525765A54
+keywords:
+- user interaction
+- input
+- pointer
+- touch
+- mouse
+- pen
+- stylus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Feedback Configuration Reference
@@ -21,7 +33,7 @@ The topics in this section provide the reference specifications for [Input Feedb
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -33,9 +45,9 @@ The topics in this section provide the reference specifications for [Input Feedb
 [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

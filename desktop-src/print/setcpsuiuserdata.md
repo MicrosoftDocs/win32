@@ -1,7 +1,12 @@
-﻿---
-Description: 'CPSUI''s SetCPSUIUserData function allows CPSUI applications (including printer interface DLLs) to associate nondisplayed data with a property sheet dialog box.'
-ms.assetid: '35119100-adf9-4376-bb1a-7317733fbcc5'
+---
+Description: CPSUIs SetCPSUIUserData function allows CPSUI applications (including printer interface DLLs) to associate nondisplayed data with a property sheet dialog box.
+ms.assetid: 35119100-adf9-4376-bb1a-7317733fbcc5
 title: SetCPSUIUserData function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetCPSUIUserData function

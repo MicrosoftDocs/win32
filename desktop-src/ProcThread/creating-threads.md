@@ -1,12 +1,17 @@
 ---
-Description: 'The CreateThread function creates a new thread for a process.'
-ms.assetid: 'eb0cc3c0-14f2-4913-a592-4ba3eaf67002'
+Description: The CreateThread function creates a new thread for a process.
+ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
 title: Creating Threads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Threads
 
-The [**CreateThread**](createthread.md) function creates a new thread for a process. The creating thread must specify the starting address of the code that the new thread is to execute. Typically, the starting address is the name of a function defined in the program code (for more information, see [*ThreadProc*](threadproc.md)). This function takes a single parameter and returns a **DWORD** value. A process can have multiple threads simultaneously executing the same function.
+The [**CreateThread**](/windows/win32/WinBase/nf-processthreadsapi-createthread?branch=master) function creates a new thread for a process. The creating thread must specify the starting address of the code that the new thread is to execute. Typically, the starting address is the name of a function defined in the program code (for more information, see [*ThreadProc*](/windows/win32/WinBase/?branch=master)). This function takes a single parameter and returns a **DWORD** value. A process can have multiple threads simultaneously executing the same function.
 
 The following is a simple example that demonstrates how to create a new thread that executes the locally defined function, `MyThreadFunction`.
 
@@ -177,13 +182,13 @@ The `MyThreadFunction` function avoids the use of the C run-time library (CRT), 
 
 It is risky to pass the address of a local variable if the creating thread exits before the new thread, because the pointer becomes invalid. Instead, either pass a pointer to dynamically allocated memory or make the creating thread wait for the new thread to terminate. Data can also be passed from the creating thread to the new thread using global variables. With global variables, it is usually necessary to synchronize access by multiple threads. For more information about synchronization, see [Synchronizing Execution of Multiple Threads](synchronizing-execution-of-multiple-threads.md).
 
-The creating thread can use the arguments to [**CreateThread**](createthread.md) to specify the following:
+The creating thread can use the arguments to [**CreateThread**](/windows/win32/WinBase/nf-processthreadsapi-createthread?branch=master) to specify the following:
 
 -   The security attributes for the handle to the new thread. These security attributes include an inheritance flag that determines whether the handle can be inherited by child processes. The security attributes also include a security descriptor, which the system uses to perform access checks on all subsequent uses of the thread's handle before access is granted.
 -   The initial stack size of the new thread. The thread's stack is allocated automatically in the memory space of the process; the system increases the stack as needed and frees it when the thread terminates. For more information, see [Thread Stack Size](thread-stack-size.md).
--   A creation flag that enables you to create the thread in a suspended state. When suspended, the thread does not run until the [**ResumeThread**](resumethread.md) function is called.
+-   A creation flag that enables you to create the thread in a suspended state. When suspended, the thread does not run until the [**ResumeThread**](/windows/win32/WinBase/nf-processthreadsapi-resumethread?branch=master) function is called.
 
-You can also create a thread by calling the [**CreateRemoteThread**](createremotethread.md) function. This function is used by debugger processes to create a thread that runs in the address space of the process being debugged.
+You can also create a thread by calling the [**CreateRemoteThread**](/windows/win32/WinBase/nf-processthreadsapi-createremotethread?branch=master) function. This function is used by debugger processes to create a thread that runs in the address space of the process being debugged.
 
 ## Related topics
 

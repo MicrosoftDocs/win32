@@ -1,8 +1,9 @@
 ---
 title: D3D12DecomposeSubresource function
 description: Outputs the mip slice, array slice, and plane slice that correspond to the specified subresource index.
-ms.assetid: '89FAD7C5-E732-4E74-AC2F-DEECD6ADDA7D'
-keywords: ["D3D12DecomposeSubresource function"]
+ms.assetid: 89FAD7C5-E732-4E74-AC2F-DEECD6ADDA7D
+keywords:
+- D3D12DecomposeSubresource function
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3D12.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D12DecomposeSubresource function
@@ -22,12 +28,12 @@ Outputs the mip slice, array slice, and plane slice that correspond to the speci
 
 ```C++
 void inline D3D12DecomposeSubresource(
-        UINT Subresource,
-        UINT MipLevels,
-        UINT ArraySize,
-  _Out_ T    &amp;MipSlice,
-  _Out_ U    &amp;ArraySlice,
-  _Out_ V    &amp;PlaneSlice
+        UINT Subresource,
+        UINT MipLevels,
+        UINT ArraySize,
+  _Out_ T    &amp;MipSlice,
+  _Out_ U    &amp;ArraySlice,
+  _Out_ V    &amp;PlaneSlice
 );
 ```
 
@@ -136,9 +142,9 @@ inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT Ar
 [Subresources](subresources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

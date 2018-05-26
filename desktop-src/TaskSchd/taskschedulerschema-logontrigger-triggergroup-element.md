@@ -1,14 +1,21 @@
 ---
 title: LogonTrigger (triggerGroup) Element
 description: Specifies a trigger that starts a task when a user logs on.
-ms.assetid: 'c3edee50-e053-4813-a1b2-bf1e7b575ff7'
-keywords: ["logon trigger, XML element", "LogonTrigger element Task Scheduler"]
+ms.assetid: c3edee50-e053-4813-a1b2-bf1e7b575ff7
+keywords:
+- logon trigger, XML element
+- LogonTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - LogonTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonTrigger (triggerGroup) Element
@@ -53,7 +60,7 @@ The **LogonTrigger** element is defined by the [**triggerGroup**](taskschedulers
 
 For scripting development, a logon trigger is specified using the [**LogonTrigger**](logontrigger.md) object.
 
-For C++ development, a logon trigger is specified using the [**ILogonTrigger**](ilogontrigger.md) interface.
+For C++ development, a logon trigger is specified using the [**ILogonTrigger**](/windows/win32/taskschd/nn-taskschd-ilogontrigger?branch=master) interface.
 
 The child elements listed above are defined by the [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) and [**logonTriggerType**](taskschedulerschema-logontriggertype-complextype.md) complex element types. These elements must be added in the sequence shown below.
 
@@ -81,8 +88,8 @@ For a complete example of the XML for a task that uses a logon trigger, see [Log
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +100,9 @@ For a complete example of the XML for a task that uses a logon trigger, see [Log
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: EmailAction.Cc property
 description: For scripting, gets or sets the email address or addresses that you want to Cc in the email message.
-ms.assetid: '4ad67064-3e6b-4666-a3ce-66e4dcc3f873'
-keywords: ["Cc property Task Scheduler", "Cc property Task Scheduler , EmailAction object", "EmailAction object Task Scheduler , Cc property"]
+ms.assetid: 4ad67064-3e6b-4666-a3ce-66e4dcc3f873
+keywords:
+- Cc property Task Scheduler
+- Cc property Task Scheduler , EmailAction object
+- EmailAction object Task Scheduler , Cc property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EmailAction.Cc property
@@ -40,10 +48,10 @@ The email address or addresses that you want to Cc in the email message.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows 7<br/>                                                                    |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows 7<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -59,9 +67,9 @@ The email address or addresses that you want to Cc in the email message.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: The IDL File
 description: The IDL file consists of one or more interface definitions, each of which has a header and a body.
-ms.assetid: '64a30a12-a53e-4c53-b8cf-7af85ffd0a94'
+ms.assetid: 64a30a12-a53e-4c53-b8cf-7af85ffd0a94
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The IDL File

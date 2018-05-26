@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the value of the named property for the specified print job on the specified printer.'
-ms.assetid: 'A9256A7B-B851-498C-94C3-95268D079828'
+---
+Description: Retrieves the value of the named property for the specified print job on the specified printer.
+ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 title: GetJobNamedPropertyValue function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetJobNamedPropertyValue function

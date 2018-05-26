@@ -1,8 +1,14 @@
 ---
 title: Changing an Existing Interface
 description: Whenever possible, implement a new interface for your application, rather than making changes to an existing one.
-ms.assetid: '29845cf5-445c-403d-b298-d4e07c3536b7'
-keywords: ["changing existing interfaces 64-bit Windows Programming"]
+ms.assetid: 29845cf5-445c-403d-b298-d4e07c3536b7
+keywords:
+- changing existing interfaces 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changing an Existing Interface

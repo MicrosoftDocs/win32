@@ -1,12 +1,17 @@
 ---
 title: Copying Descriptors
 description: The ID3D12Device CopyDescriptors and ID3D12Device CopyDescriptorsSimple methods on the device interface use the CPU to immediately copy descriptors.
-ms.assetid: '65AE4D96-6221-46B5-BF55-F86479FCF97C'
+ms.assetid: 65AE4D96-6221-46B5-BF55-F86479FCF97C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Copying Descriptors
 
-The [**ID3D12Device::CopyDescriptors**](id3d12device-copydescriptors.md) and [**ID3D12Device::CopyDescriptorsSimple**](id3d12device-copydescriptorssimple.md) methods on the device interface use the CPU to immediately copy descriptors. They can be called free threaded as long as multiple threads on the CPU or GPU do not perform any potentially conflicting writes.
+The [**ID3D12Device::CopyDescriptors**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptors?branch=master) and [**ID3D12Device::CopyDescriptorsSimple**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptorssimple?branch=master) methods on the device interface use the CPU to immediately copy descriptors. They can be called free threaded as long as multiple threads on the CPU or GPU do not perform any potentially conflicting writes.
 
 ## Copying Descriptors Immediately (CPU Timeline)
 
@@ -16,7 +21,7 @@ Multiple descriptor heaps can be involved in the copy operation, both as source 
 
 The descriptor heap types being copied from and to must match, so the methods take a single descriptor heap type as input. The driver needs to know the heap type of all the descriptors in the given copy operation, so it knows what size of data is involved in the copy operation. The driver might also need to do custom copying work if a given descriptor heap type warrants it – an implementation detail. Note that descriptor handles themselves do not otherwise identify what type they are pointing to; therefore, an additional parameter is required for the copy operation.
 
-An alternative API to [**CopyDescriptors**](id3d12device-copydescriptors.md) is provided for the simple case of copying a single range of descriptors from one location to another – [**CopyDescriptorsSimple**](id3d12device-copydescriptorssimple.md).
+An alternative API to [**CopyDescriptors**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptors?branch=master) is provided for the simple case of copying a single range of descriptors from one location to another – [**CopyDescriptorsSimple**](/windows/win32/D3D12/nf-d3d12-id3d12device-copydescriptorssimple?branch=master).
 
 For these device based (CPU timeline) descriptor copy methods, source descriptors must come from a non-shader visible descriptor heap. The destination descriptors can be in any descriptor heap that is CPU visible (shader visible or not).
 

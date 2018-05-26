@@ -1,7 +1,12 @@
 ---
-Description: 'The provider''s custom data for an identity.'
-ms.assetid: '0372B9BC-A1FF-4856-860B-206E781DAC55'
-title: 'System.Identity.ProviderData'
+Description: The providers custom data for an identity.
+ms.assetid: 0372B9BC-A1FF-4856-860B-206E781DAC55
+title: System.Identity.ProviderData
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Identity.ProviderData

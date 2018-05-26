@@ -1,12 +1,17 @@
 ---
-Description: 'Language resources consist of word breakers and stemmers that extend index building and querying capabilities to new languages and locales.'
-ms.assetid: '7963805e-e279-42cf-ba95-f81a7de8e68e'
+Description: Language resources consist of word breakers and stemmers that extend index building and querying capabilities to new languages and locales.
+ms.assetid: 7963805e-e279-42cf-ba95-f81a7de8e68e
 title: Understanding Language Resource Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Language Resource Components
 
-Language resources consist of word breakers and stemmers that extend index building and querying capabilities to new languages and locales. Word breakers are used during both index creation and querying. Stemmers are used only for querying. Windows Search uses language resource DLLs to bind to [**IWordBreaker**](-search-iwordbreaker.md) and [**IStemmer**](-search-istemmer.md) implementations for a specific language locale.
+Language resources consist of word breakers and stemmers that extend index building and querying capabilities to new languages and locales. Word breakers are used during both index creation and querying. Stemmers are used only for querying. Windows Search uses language resource DLLs to bind to [**IWordBreaker**](/windows/win32/Indexsrv/nn-indexsrv-iwordbreaker?branch=master) and [**IStemmer**](/windows/win32/Indexsrv/nn-indexsrv-istemmer?branch=master) implementations for a specific language locale.
 
 This topic is organized as follows:
 
@@ -19,7 +24,7 @@ This topic is organized as follows:
 
 ## About Language Resources
 
-Windows Search uses a filter (an implementation of the [**IFilter**](-search-ifilter.md) interface) and [**ILoadFilter**](iloadfilter.md) to access a document in its native format. The [**IFilter**](-search-ifilter.md) component extracts text content, properties, and formatting from the document. The [**IFilter**](-search-ifilter.md) identifies the locale of the document that it is filtering. The indexing component invokes the appropriate word breaker for that locale. If none is available, the indexing component invokes the neutral word breaker. The word breaker receives, from an [**IFilter**](-search-ifilter.md), an input stream of Unicode characters that the word breaker parses to produce individual words and phrases. The word breaker also normalizes date and time formats. The indexer normalizes the words produced by the word breaker by converting the words to all uppercase letters. The indexer saves the uppercase words to the full-text index, with the exception of noise words identified for that locale.
+Windows Search uses a filter (an implementation of the [**IFilter**](-search-ifilter.md) interface) and [**ILoadFilter**](/windows/win32/filtereg/nn-filtereg-iloadfilter?branch=master) to access a document in its native format. The [**IFilter**](-search-ifilter.md) component extracts text content, properties, and formatting from the document. The [**IFilter**](-search-ifilter.md) identifies the locale of the document that it is filtering. The indexing component invokes the appropriate word breaker for that locale. If none is available, the indexing component invokes the neutral word breaker. The word breaker receives, from an [**IFilter**](-search-ifilter.md), an input stream of Unicode characters that the word breaker parses to produce individual words and phrases. The word breaker also normalizes date and time formats. The indexer normalizes the words produced by the word breaker by converting the words to all uppercase letters. The indexer saves the uppercase words to the full-text index, with the exception of noise words identified for that locale.
 
 The following table lists the actions and corresponding results for the sentence "Figure 1 illustrates the role of language resources for Windows Search during the index creation process."
 

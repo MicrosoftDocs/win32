@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).'
-ms.assetid: 'a014942a-01e5-49d4-8a25-4604cd40f374'
-title: 'Reading DRM-Protected ASF Files in DirectShow'
+Description: This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
+ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
+title: Reading DRM-Protected ASF Files in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading DRM-Protected ASF Files in DirectShow
@@ -129,23 +134,23 @@ HRESULT Player::CreateFilterGraph()
 
 To play a DRM-protected ASF file, perform the following steps:
 
-1.  Create the [Filter Graph Manager](filter-graph-manager.md) and use the [**IMediaEventEx**](imediaeventex.md) interface to register for graph events.
+1.  Create the [Filter Graph Manager](filter-graph-manager.md) and use the [**IMediaEventEx**](/windows/win32/Control/nn-control-imediaeventex?branch=master) interface to register for graph events.
 2.  Call [**CoCreateInstance**](com.cocreateinstance) to create a new instance of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
-3.  Call [**IFilterGraph::AddFilter**](ifiltergraph-addfilter.md) to add the filter to the filter graph.
-4.  Query the filter for the [**IFileSourceFilter**](ifilesourcefilter.md) interface.
-5.  Call [**IFileSourceFilter::Load**](ifilesourcefilter-load.md) with the URL of the file.
+3.  Call [**IFilterGraph::AddFilter**](/windows/win32/Strmif/nf-strmif-ifiltergraph-addfilter?branch=master) to add the filter to the filter graph.
+4.  Query the filter for the [**IFileSourceFilter**](/windows/win32/Strmif/nn-strmif-ifilesourcefilter?branch=master) interface.
+5.  Call [**IFileSourceFilter::Load**](/windows/win32/Strmif/nf-strmif-ifilesourcefilter-load?branch=master) with the URL of the file.
 6.  Handle [**EC\_WMT\_EVENT**](ec-wmt-event.md) events.
 7.  On the first [**EC\_WMT\_EVENT**](ec-wmt-event.md) event, query the [WM ASF Reader](wm-asf-reader-filter.md) filter for the **IServiceProvider** interface.
 8.  Call **IServiceProvider::QueryService** to get a pointer to the [**IWMDRMReader**](wmformat.iwmdrmreader) interface.
-9.  Call [**IGraphBuilder::Render**](igraphbuilder-render.md) to render the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
+9.  Call [**IGraphBuilder::Render**](/windows/win32/Strmif/nf-strmif-igraphbuilder-render?branch=master) to render the output pins of the [WM ASF Reader](wm-asf-reader-filter.md) filter.
 
 > [!Note]  
-> When opening a DRM-protected file, do not call [**IGraphBuilder::RenderFile**](igraphbuilder-renderfile.md) to create the filter graph. The WM ASF Reader filter cannot connect to any other filters until the DRM license is acquired. This step requires the application to use the [**IWMDRMReader**](wmformat.iwmdrmreader) interface, which must be obtained from the filter, as described in steps 7–8. Therefore, you must create the filter and add it to the graph
+> When opening a DRM-protected file, do not call [**IGraphBuilder::RenderFile**](/windows/win32/Strmif/nf-strmif-igraphbuilder-renderfile?branch=master) to create the filter graph. The WM ASF Reader filter cannot connect to any other filters until the DRM license is acquired. This step requires the application to use the [**IWMDRMReader**](wmformat.iwmdrmreader) interface, which must be obtained from the filter, as described in steps 7–8. Therefore, you must create the filter and add it to the graph
 
  
 
 > [!Note]  
-> It is important to register for graph events (step 1) before adding the [WM ASF Reader](wm-asf-reader-filter.md) filter to the graph (step 3), because the application must handle the [**EC\_WMT\_EVENT**](ec-wmt-event.md) events. The events are sent when [**Load**](ifilesourcefilter-load.md) is called (step 5).
+> It is important to register for graph events (step 1) before adding the [WM ASF Reader](wm-asf-reader-filter.md) filter to the graph (step 3), because the application must handle the [**EC\_WMT\_EVENT**](ec-wmt-event.md) events. The events are sent when [**Load**](/windows/win32/Strmif/nf-strmif-ifilesourcefilter-load?branch=master) is called (step 5).
 
  
 
@@ -251,7 +256,7 @@ done:
 
 
 
-In the previous code, the `RenderOutputPins` function enumerates the output pins on the [WM ASF Reader](wm-asf-reader-filter.md) filter and calls [**IGraphBuilder::Render**](igraphbuilder-render.md) for each pin.
+In the previous code, the `RenderOutputPins` function enumerates the output pins on the [WM ASF Reader](wm-asf-reader-filter.md) filter and calls [**IGraphBuilder::Render**](/windows/win32/Strmif/nf-strmif-igraphbuilder-render?branch=master) for each pin.
 
 
 ```C++

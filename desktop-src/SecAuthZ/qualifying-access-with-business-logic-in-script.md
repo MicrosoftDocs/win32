@@ -1,20 +1,25 @@
 ---
-Description: 'Using business rule scripts in Script to provide run-time logic for checking access.'
-ms.assetid: '10c28ecb-3f36-45a8-b037-7038e8927b6b'
+Description: Using business rule scripts in Script to provide run-time logic for checking access.
+ms.assetid: 10c28ecb-3f36-45a8-b037-7038e8927b6b
 title: Qualifying Access with Business Logic in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifying Access with Business Logic in Script
 
 Use business rule scripts to provide run-time logic for checking access. For more information about business rules, see [Business Rules](business-rules.md).
 
-To assign a business rule to a task, first set the [**BizRuleLanguage**](iaztask-bizrulelanguage.md) property of the [**IAzTask**](iaztask.md) object that represents the task. The script must be written using the Visual Basic Scripting Edition (VBScript) programming language or JScript development software. After you specify the script language, set the [**BizRule**](iaztask-bizrule.md) property of the **IAzTask** object with a string representation of the script.
+To assign a business rule to a task, first set the [**BizRuleLanguage**](/windows/win32/Azroles/nf-azroles-iaztask-get_bizrulelanguage?branch=master) property of the [**IAzTask**](/windows/win32/Azroles/nn-azroles-iaztask?branch=master) object that represents the task. The script must be written using the Visual Basic Scripting Edition (VBScript) programming language or JScript development software. After you specify the script language, set the [**BizRule**](/windows/win32/Azroles/nf-azroles-iaztask-get_bizrule?branch=master) property of the **IAzTask** object with a string representation of the script.
 
-When checking access for an operation contained by a task that has an associated business rule, the application must create two arrays of the same size to be passed as the *varParameterNames* and *varParameterValues* parameters of the [**AccessCheck**](iazclientcontext-accesscheck.md) method of an [**IAzClientContext**](iazclientcontext.md) object. For information about creating a client context, see [Establishing a Client Context in Script](establishing-a-client-context-in-script.md).
+When checking access for an operation contained by a task that has an associated business rule, the application must create two arrays of the same size to be passed as the *varParameterNames* and *varParameterValues* parameters of the [**AccessCheck**](/windows/win32/Azroles/nf-azroles-iazclientcontext-accesscheck?branch=master) method of an [**IAzClientContext**](/windows/win32/Azroles/nn-azroles-iazclientcontext?branch=master) object. For information about creating a client context, see [Establishing a Client Context in Script](establishing-a-client-context-in-script.md).
 
-The [**AccessCheck**](iazclientcontext-accesscheck.md) method creates an [**AzBizRuleContext**](azbizrulecontext.md) object that is passed to the business rule script. The script then sets the [**BusinessRuleResult**](azbizrulecontext-businessruleresult.md) property of the **AzBizRuleContext** object. A value of **True** indicates that access is granted, and a value of **False** indicates that access is denied.
+The [**AccessCheck**](/windows/win32/Azroles/nf-azroles-iazclientcontext-accesscheck?branch=master) method creates an [**AzBizRuleContext**](/windows/win32/Azroles/nn-azroles-iazbizrulecontext?branch=master) object that is passed to the business rule script. The script then sets the [**BusinessRuleResult**](/windows/win32/Azroles/nf-azroles-iazbizrulecontext-put_businessruleresult?branch=master) property of the **AzBizRuleContext** object. A value of **True** indicates that access is granted, and a value of **False** indicates that access is denied.
 
-A business rule script cannot be assigned to an [**IAzTask**](iaztask.md) object contained by a delegated [**IAzScope**](iazscope.md) object.
+A business rule script cannot be assigned to an [**IAzTask**](/windows/win32/Azroles/nn-azroles-iaztask?branch=master) object contained by a delegated [**IAzScope**](/windows/win32/Azroles/nn-azroles-iazscope?branch=master) object.
 
 The following example shows how to use a business rule script to check a client's access to an operation. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C, and that this store contains an application named Expense, a task named Submit Expense, and an operation named UseFormControl.
 

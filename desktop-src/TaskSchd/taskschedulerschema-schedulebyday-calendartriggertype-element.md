@@ -1,14 +1,21 @@
 ---
 title: ScheduleByDay (calendarTriggerType) Element
 description: Specifies a daily schedule.
-ms.assetid: '5a6097ce-a855-4b08-84c5-71f06343805e'
-keywords: ["daily trigger Task Scheduler , XML element", "ScheduleByDay element Task Scheduler"]
+ms.assetid: 5a6097ce-a855-4b08-84c5-71f06343805e
+keywords:
+- daily trigger Task Scheduler , XML element
+- ScheduleByDay element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ScheduleByDay
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScheduleByDay (calendarTriggerType) Element
@@ -51,7 +58,7 @@ The time of day that the task is started is set by the [**StartBoundary**](tasks
 
 For scripting development, a daily trigger is specified using the [**DailyTrigger**](weeklytrigger.md) object.
 
-For C++ development, a daily trigger is specified using the [**IDailyTrigger**](idailytrigger.md) interface.
+For C++ development, a daily trigger is specified using the [**IDailyTrigger**](/windows/win32/taskschd/nn-taskschd-idailytrigger?branch=master) interface.
 
 ## Examples
 
@@ -78,8 +85,8 @@ For a complete example of the XML for a task that specifies a daily schedule, se
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +100,9 @@ For a complete example of the XML for a task that specifies a daily schedule, se
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

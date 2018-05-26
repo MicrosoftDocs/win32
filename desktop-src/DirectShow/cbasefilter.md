@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseFilter class is an abstract class for implementing filters.'
-ms.assetid: '4610c8d6-9d7d-47ca-b1d5-0a867153a5f6'
+Description: The CBaseFilter class is an abstract class for implementing filters.
+ms.assetid: 4610c8d6-9d7d-47ca-b1d5-0a867153a5f6
 title: CBaseFilter class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter class
@@ -29,7 +34,7 @@ Several base classes derive from `CBaseFilter`, including [**CSource**](csource.
 | [**m\_pLock**](cbasefilter-m-plock.md)                        | Pointer to a critical section that is used to serialize state changes.                             |
 | [**m\_pName**](cbasefilter-m-pname.md)                        | Filter name.                                                                                       |
 | [**m\_pGraph**](cbasefilter-m-pgraph.md)                      | Pointer to the filter graph manager.                                                               |
-| [**m\_pSink**](cbasefilter-m-psink.md)                        | Pointer to the [**IMediaEventSink**](imediaeventsink.md) interface on the filter graph manager.   |
+| [**m\_pSink**](cbasefilter-m-psink.md)                        | Pointer to the [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master) interface on the filter graph manager.   |
 | [**m\_PinVersion**](cbasefilter-m-pinversion.md)              | Current version of the set of pins on this filter.                                                 |
 | Public Methods                                                 | Description                                                                                        |
 | [**CBaseFilter**](cbasefilter-cbasefilter.md)                 | Constructor method.                                                                                |
@@ -67,7 +72,7 @@ Several base classes derive from `CBaseFilter`, including [**CSource**](csource.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -80,9 +85,9 @@ Several base classes derive from `CBaseFilter`, including [**CSource**](csource.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

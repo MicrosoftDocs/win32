@@ -1,7 +1,12 @@
 ---
-Description: 'The Register export function must be implemented in all parser DLLs. The implementation of Register creates and fills-in a property database for a protocol. Network Monitor uses the database to determine which properties the protocol supports.'
-ms.assetid: 'b8a2752d-30a6-48f2-90b3-b1430ae983d2'
+Description: The Register export function must be implemented in all parser DLLs. The implementation of Register creates and fills-in a property database for a protocol. Network Monitor uses the database to determine which properties the protocol supports.
+ms.assetid: b8a2752d-30a6-48f2-90b3-b1430ae983d2
 title: Register Parser callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Register Parser callback function
@@ -13,7 +18,7 @@ The **Register** export function must be implemented in all parser DLLs. The imp
 
 ```C++
 VOID Register(
-  _In_ HPROTOCOL hProtocol
+  _In_ HPROTOCOL hProtocol
 );
 ```
 
@@ -40,7 +45,7 @@ Network Monitor starts calling the **Register** function as soon as a capture is
 
 The implementation of **Register** includes calls to the following functions.
 
--   A call to the [CreatePropertyDatabase](createpropertydatabase.md) and [AddProperty](addproperty.md) functions to create a database of all the properties that the protocol supports.
+-   A call to the [CreatePropertyDatabase](createpropertydatabase.md) and [AddProperty](/windows/win32/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty?branch=master) functions to create a database of all the properties that the protocol supports.
 -   A call to the [CreateHandoffTable](createhandofftable.md) function is required if the protocol uses a [*handoff set*](h.md#-netmon-handoff-set-gly).
 
 If the parser DLL contains multiple parsers, and the parser can detect more than one protocol, you must implement a **Register** function for each protocol.
@@ -51,11 +56,11 @@ If the parser DLL contains multiple parsers, and the parser can detect more than
 |-----------------------------------------------------------|--------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor. | [Parsers](parsers.md)                                 |
 | Which entry points are included in the parser DLL.        | [Parser DLL Architecture](parser-dll-architecture.md) |
-| How to implement **Register**— includes an example.       | [Implementing Register](implementing-register.md)     |
+| How to implement **Register**  includes an example.       | [Implementing Register](implementing-register.md)     |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,8 +68,8 @@ If the parser DLL contains multiple parsers, and the parser can detect more than
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -73,7 +78,7 @@ If the parser DLL contains multiple parsers, and the parser can detect more than
 
 <dl> <dt>
 
-[AddProperty](addproperty.md)
+[AddProperty](/windows/win32/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty?branch=master)
 </dt> <dt>
 
 [CreateHandoffTable](createhandofftable.md)
@@ -85,9 +90,9 @@ If the parser DLL contains multiple parsers, and the parser can detect more than
 [CreateProtocol](createprotocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

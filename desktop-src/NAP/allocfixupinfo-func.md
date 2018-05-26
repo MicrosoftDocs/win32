@@ -1,8 +1,9 @@
 ---
 title: AllocFixupInfo function
 description: Allocates memory for a FixupInfo structure of the specified size.
-ms.assetid: 'e0b66a08-9714-4451-a22d-3822153c6a36'
-keywords: ["AllocFixupInfo function NAP"]
+ms.assetid: e0b66a08-9714-4451-a22d-3822153c6a36
+keywords:
+- AllocFixupInfo function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,24 +12,29 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AllocFixupInfo function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **AllocFixupInfo** function allocates memory for a [**FixupInfo**](fixupinfo-struct.md) structure of the specified size.
+The **AllocFixupInfo** function allocates memory for a [**FixupInfo**](/windows/win32/NapTypes/ns-naptypes-tagfixupinfo?branch=master) structure of the specified size.
 
 ## Syntax
 
 
 ```C++
 NAPAPI HRESULT WINAPI AllocFixupInfo(
-  _Inout_ FixupInfo **fixupInfo,
-  _In_    UINT16    countResultCodes
+  _Inout_ FixupInfo **fixupInfo,
+  _In_    UINT16    countResultCodes
 );
 ```
 
@@ -41,7 +47,7 @@ NAPAPI HRESULT WINAPI AllocFixupInfo(
 *fixupInfo* \[in, out\]
 </dt> <dd>
 
-A pointer to the address of a newly allocated [**FixupInfo**](fixupinfo-struct.md) structure.
+A pointer to the address of a newly allocated [**FixupInfo**](/windows/win32/NapTypes/ns-naptypes-tagfixupinfo?branch=master) structure.
 
 </dd> <dt>
 
@@ -64,7 +70,7 @@ The number of result codes to allocate to *fixupInfo*.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +88,8 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
@@ -96,9 +102,9 @@ All NAP functions for freeing memory also free all embedded pointers.
 [**FreeFixupInfo**](freefixupinfo-func.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

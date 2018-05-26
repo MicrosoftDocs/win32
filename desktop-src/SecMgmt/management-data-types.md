@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the data types used by the Security Configuration attachment DLLs and their supporting functions.'
-ms.assetid: '1d3bdf0d-320c-4b25-9e9b-fda134876979'
+Description: Lists the data types used by the Security Configuration attachment DLLs and their supporting functions.
+ms.assetid: 1d3bdf0d-320c-4b25-9e9b-fda134876979
 title: Security Management Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Management Data Types
@@ -19,11 +24,11 @@ The following data types are used by the Security Configuration attachment DLLs 
 
 | Data type                                                    | Description                                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**SCE\_ENUMERATION\_CONTEXT**](sce-enumeration-context.md) | Used by the [**PFSCE\_QUERY\_INFO**](pfsce-query-info.md) function to navigate through the security database.                                                                                                                                              |
-| [**SCE\_HANDLE**](sce-handle.md)                            | Used by [**PFSCE\_QUERY\_INFO**](pfsce-query-info.md) and [**PFSCE\_SET\_INFO**](pfsce-set-info.md) to pass information between the attachment and the security database.                                                                                 |
+| [**SCE\_ENUMERATION\_CONTEXT**](sce-enumeration-context.md) | Used by the [**PFSCE\_QUERY\_INFO**](/windows/win32/Scesvc/nc-scesvc-pfsce_query_info?branch=master) function to navigate through the security database.                                                                                                                                              |
+| [**SCE\_HANDLE**](sce-handle.md)                            | Used by [**PFSCE\_QUERY\_INFO**](/windows/win32/Scesvc/nc-scesvc-pfsce_query_info?branch=master) and [**PFSCE\_SET\_INFO**](/windows/win32/Scesvc/nc-scesvc-pfsce_set_info?branch=master) to pass information between the attachment and the security database.                                                                                 |
 | [**SCESTATUS**](scestatus.md)                               | Data type is used by the Security Configuration tool set API to return information about the results of a function call.                                                                                                                                    |
-| [**SCESVC\_HANDLE**](scesvc-handle.md)                      | Used by methods of the [**ISceSvcAttachmentData**](iscesvcattachmentdata.md) and [**ISceSvcAttachmentPersistInfo**](iscesvcattachmentpersistinfo.md) interfaces to pass information between the Security Configuration snap-in and the snap-in extension. |
-| [**SCESVC\_INFO\_TYPE**](scesvc-info-type.md)               | Enumeration is used by [**PFSCE\_QUERY\_INFO**](pfsce-query-info.md) and [**PFSCE\_SET\_INFO**](pfsce-set-info.md) to indicate the type of information requested from or passed to the security database.                                                 |
+| [**SCESVC\_HANDLE**](scesvc-handle.md)                      | Used by methods of the [**ISceSvcAttachmentData**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentdata?branch=master) and [**ISceSvcAttachmentPersistInfo**](/windows/win32/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo?branch=master) interfaces to pass information between the Security Configuration snap-in and the snap-in extension. |
+| [**SCESVC\_INFO\_TYPE**](/windows/win32/Scesvc/ne-scesvc-_scesvc_info_type?branch=master)               | Enumeration is used by [**PFSCE\_QUERY\_INFO**](/windows/win32/Scesvc/nc-scesvc-pfsce_query_info?branch=master) and [**PFSCE\_SET\_INFO**](/windows/win32/Scesvc/nc-scesvc-pfsce_set_info?branch=master) to indicate the type of information requested from or passed to the security database.                                                 |
 
 
 

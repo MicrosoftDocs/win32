@@ -2,11 +2,14 @@
 title: SetByCustomPolicy method of the PS\_VpnConnectionIPsecConfiguration class
 description: Sets the IPsec custom policy configuration of a VPN profile.
 audience: developer
-ms.assetid: '7806F44D-8084-408D-B8FE-513287544DFC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7806F44D-8084-408D-B8FE-513287544DFC
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByCustomPolicy method", "SetByCustomPolicy method, PS_VpnConnectionIPsecConfiguration class", "PS_VpnConnectionIPsecConfiguration class, SetByCustomPolicy method"]
+keywords:
+- SetByCustomPolicy method
+- SetByCustomPolicy method, PS_VpnConnectionIPsecConfiguration class
+- PS_VpnConnectionIPsecConfiguration class, SetByCustomPolicy method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByCustomPolicy method of the PS\_VpnConnectionIPsecConfiguration class
@@ -26,17 +32,17 @@ Sets the IPsec custom policy configuration of a VPN profile.
 
 ```mof
 uint32 SetByCustomPolicy(
-  [in]  string                          ConnectionName,
-  [in]  uint32                          AuthenticationTransformConstants,
-  [in]  uint32                          CipherTransformConstants,
-  [in]  uint32                          EncryptionMethod,
-  [in]  uint32                          IntegrityCheckMethod,
-  [in]  uint32                          PfsGroup,
-  [in]  uint32                          DHGroup,
-  [in]  boolean                         PassThru,
-  [in]  boolean                         Force,
-  [in]  boolean                         AllUserConnection,
-  [out] VpnConnectionIPsecConfiguration cmdletOutput
+  [in]  string                          ConnectionName,
+  [in]  uint32                          AuthenticationTransformConstants,
+  [in]  uint32                          CipherTransformConstants,
+  [in]  uint32                          EncryptionMethod,
+  [in]  uint32                          IntegrityCheckMethod,
+  [in]  uint32                          PfsGroup,
+  [in]  uint32                          DHGroup,
+  [in]  boolean                         PassThru,
+  [in]  boolean                         Force,
+  [in]  boolean                         AllUserConnection,
+  [out] VpnConnectionIPsecConfiguration cmdletOutput
 );
 ```
 
@@ -129,8 +135,8 @@ When this method returns, contains the [**VpnConnectionIPsecConfiguration**](vpn
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -144,9 +150,9 @@ When this method returns, contains the [**VpnConnectionIPsecConfiguration**](vpn
 [**PS\_VpnConnectionIPsecConfiguration**](ps-vpnconnectionipsecconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

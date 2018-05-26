@@ -4,11 +4,17 @@ description: Active Directory Domain Services contain a hierarchy of objects in 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef17e84c-6c7f-4ebe-a904-fead6c27518d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ef17e84c-6c7f-4ebe-a904-fead6c27518d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["containers and leaves Active Directory", "leaf Active Directory", "container Active Directory"]
+keywords:
+- containers and leaves Active Directory
+- leaf Active Directory
+- container Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Containers and Leaves

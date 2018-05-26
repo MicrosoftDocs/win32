@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the type that contains the binary information for an image in a Journal note.'
-ms.assetid: 'c43715d5-eab4-4ccc-b5be-086bacc4c9da'
+Description: Defines the type that contains the binary information for an image in a Journal note.
+ms.assetid: c43715d5-eab4-4ccc-b5be-086bacc4c9da
 title: ImageType Complex Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ImageType Complex Type
@@ -18,7 +23,7 @@ Defines the type that contains the binary information for an image in a Journal 
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |
 
 
@@ -30,9 +35,9 @@ Defines the type that contains the binary information for an image in a Journal 
 [**BackgroundImageType complexType**](backgroundimagetype-complex-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

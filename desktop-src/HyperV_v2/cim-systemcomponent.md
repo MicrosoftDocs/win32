@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a system and one of the elements that compose it.'
-ms.assetid: '728f25bf-3d52-4b1c-bf72-51e8ed0a4e72'
-title: 'CIM\_SystemComponent class'
+Description: Represents an association between a system and one of the elements that compose it.
+ms.assetid: 728f25bf-3d52-4b1c-bf72-51e8ed0a4e72
+title: CIM\_SystemComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SystemComponent class
@@ -14,7 +19,7 @@ Represents an association between a system and one of the elements that compose 
 [Association, Aggregation, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::CoreElements"), AMENDMENT]
 class CIM_SystemComponent : CIM_Component
 {
-  CIM_System               REF GroupComponent;
+  CIM_System               REF GroupComponent;
   CIM_ManagedSystemElement REF PartComponent;
 };
 ```
@@ -69,8 +74,8 @@ The child [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that is a
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The child [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) that is a
 [**CIM\_Component**](cim-component.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

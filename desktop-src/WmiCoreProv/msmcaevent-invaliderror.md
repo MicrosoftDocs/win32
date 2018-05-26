@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates a Machine Check Architecture (MCA) invalid error. An invalid MCA error identifies an error format that does not conform to Windows specifications. This class is available only in 64-bit Windows systems.'
-ms.assetid: '476ea558-2e0e-480f-b4ba-8d73fdef3308'
-title: 'MSMCAEvent\_InvalidError class'
+Description: Indicates a Machine Check Architecture (MCA) invalid error. An invalid MCA error identifies an error format that does not conform to Windows specifications. This class is available only in 64-bit Windows systems.
+ms.assetid: 476ea558-2e0e-480f-b4ba-8d73fdef3308
+title: MSMCAEvent\_InvalidError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_InvalidError class
@@ -16,15 +21,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_InvalidError : WMIEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint32  Size;
-  uint32  Type;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint32  Size;
+  uint32  Type;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -100,7 +105,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -197,8 +202,8 @@ The **MSMCAEvent\_InvalidError** class is derived from [**WMIEvent**](wmievent.m
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -215,9 +220,9 @@ The **MSMCAEvent\_InvalidError** class is derived from [**WMIEvent**](wmievent.m
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

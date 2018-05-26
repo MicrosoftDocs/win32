@@ -4,17 +4,22 @@ description: Defines the action performed on the VM resource instance when actio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f3acdf7f-a73f-498f-bd25-68d025860e17'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f3acdf7f-a73f-498f-bd25-68d025860e17
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ShutdownAction Failover Cluster ,for virtual machines", "ShutdownAction Failover Cluster"]
+keywords:
+- ShutdownAction Failover Cluster ,for virtual machines
+- ShutdownAction Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ShutdownAction
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ShutdownAction
@@ -28,14 +33,14 @@ Defines the action performed on the virtual machine (VM) resource instance when 
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Required                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 1                                         |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +55,7 @@ The following table summarizes the values for **ShutdownAction**.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -75,7 +80,7 @@ ShutdownActionValue.dw        = ShutdownActionData;
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -86,12 +91,12 @@ ShutdownActionValue.dw        = ShutdownActionData;
 [Virtual Machine Private Properties](virtual-machine-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

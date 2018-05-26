@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a series of characters into video memory to improve the efficiency of rendering to the device.'
-ms.assetid: 'bb49842e-99de-406b-bf4b-139d6499f96e'
-title: 'ID3DXFont::PreloadCharacters method'
+---
+Description: Loads a series of characters into video memory to improve the efficiency of rendering to the device.
+ms.assetid: bb49842e-99de-406b-bf4b-139d6499f96e
+title: ID3DXFontPreloadCharacters method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFont::PreloadCharacters method

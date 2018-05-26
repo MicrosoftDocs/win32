@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains information about the following callback functions.'
-ms.assetid: 'dc930d15-d2c4-4c14-910d-05470a0a3120'
-title: 'Callback Functions (Direct3D 9)'
+Description: This section contains information about the following callback functions.
+ms.assetid: dc930d15-d2c4-4c14-910d-05470a0a3120
+title: Callback Functions (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Callback Functions (Direct3D 9)

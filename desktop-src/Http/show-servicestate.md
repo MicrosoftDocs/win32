@@ -1,14 +1,20 @@
 ---
 title: show servicestate
 description: Shows a snapshot of the HTTP service.
-ms.assetid: 'a50a3ef5-5e62-412e-a443-11d453778f70'
-keywords: ["show servicestate HTTP"]
+ms.assetid: a50a3ef5-5e62-412e-a443-11d453778f70
+keywords:
+- show servicestate HTTP
 topic_type:
 - apiref
 api_name:
 - show servicestate
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # show servicestate

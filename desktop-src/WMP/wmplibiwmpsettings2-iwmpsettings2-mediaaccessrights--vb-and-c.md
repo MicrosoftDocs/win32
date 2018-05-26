@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings2 mediaAccessRights property
 description: The mediaAccessRights property gets a value indicating the permissions currently granted for library access.
-ms.assetid: 'c4289a2c-e343-405d-9bf5-0e97f6617916'
-keywords: ["mediaAccessRights property Windows Media Player", "mediaAccessRights property Windows Media Player , IWMPSettings2 interface", "IWMPSettings2 interface Windows Media Player , mediaAccessRights property"]
+ms.assetid: c4289a2c-e343-405d-9bf5-0e97f6617916
+keywords:
+- mediaAccessRights property Windows Media Player
+- mediaAccessRights property Windows Media Player , IWMPSettings2 interface
+- IWMPSettings2 interface Windows Media Player , mediaAccessRights property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings2::mediaAccessRights property
@@ -61,7 +69,7 @@ A **System.String** that is one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,9 +99,9 @@ Applications running on the user's computer always have full access rights.
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

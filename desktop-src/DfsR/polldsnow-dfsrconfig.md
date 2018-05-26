@@ -4,13 +4,16 @@ description: Polls the Active Directory for configuration changes and applies an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9b463c24-f95a-4753-a1c8-a32b402d2ff4'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9b463c24-f95a-4753-a1c8-a32b402d2ff4
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PollDsNow method Distributed File System Replication", "PollDsNow method Distributed File System Replication , DfsrConfig class", "DfsrConfig class Distributed File System Replication , PollDsNow method"]
+keywords:
+- PollDsNow method Distributed File System Replication
+- PollDsNow method Distributed File System Replication , DfsrConfig class
+- DfsrConfig class Distributed File System Replication , PollDsNow method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PollDsNow method of the DfsrConfig class
@@ -30,7 +36,7 @@ Polls the Active Directory for configuration changes and applies any changes to 
 
 ```mof
 uint32 PollDsNow(
-  [in] string DcDnsName
+  [in] string DcDnsName
 );
 ```
 
@@ -61,9 +67,9 @@ By default, DFSR polls the Active Directory every hour for changes in configurat
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -77,9 +83,9 @@ By default, DFSR polls the Active Directory every hour for changes in configurat
 [**DfsrConfig**](dfsrconfig.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

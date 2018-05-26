@@ -1,8 +1,11 @@
 ---
 title: Attach method of the MSFT\_VirtualDisk class
 description: Attaches a storage spaces-based virtual disk to the system.
-ms.assetid: '1B2768DB-EDDF-406E-B88B-FEA4F471D37C'
-keywords: ["Attach method Windows Storage Management API", "Attach method Windows Storage Management API , MSFT_VirtualDisk class", "MSFT_VirtualDisk class Windows Storage Management API , Attach method"]
+ms.assetid: 1B2768DB-EDDF-406E-B88B-FEA4F471D37C
+keywords:
+- Attach method Windows Storage Management API
+- Attach method Windows Storage Management API , MSFT_VirtualDisk class
+- MSFT_VirtualDisk class Windows Storage Management API , Attach method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attach method of the MSFT\_VirtualDisk class
@@ -22,8 +30,8 @@ Attaches a storage spaces-based virtual disk to the system.
 
 ```mof
 UInt32 Attach(
-  [in]  String StorageNodeName,
-  [out] String ExtendedStatus
+  [in]  String StorageNodeName,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -105,8 +113,8 @@ This operation is similar to [**Show**](msft-virtualdisk-show.md) and [**Hide**]
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -119,9 +127,9 @@ This operation is similar to [**Show**](msft-virtualdisk-show.md) and [**Hide**]
 [**MSFT\_VirtualDisk**](msft-virtualdisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,18 @@
 ---
 title: Activity SetTrace methods
 description: Sets Trace settings of the Activity.
-ms.assetid: 'A8B194B5-5501-4B38-9696-8DCE18629088'
-keywords: ["SetTrace methods Access Execution Engine"]
+ms.assetid: A8B194B5-5501-4B38-9696-8DCE18629088
+keywords:
+- SetTrace methods Access Execution Engine
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetTrace methods
@@ -31,9 +37,9 @@ Sets [**Trace**](trace-struct.md) settings of the **Activity**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

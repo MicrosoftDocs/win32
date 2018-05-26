@@ -1,14 +1,19 @@
-﻿---
-Description: 'Contains input data for a D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT query.'
-ms.assetid: 'cc68b39f-4645-46a6-a752-549b070cf23b'
-title: 'D3DAUTHENTICATEDCHANNEL\_QUERYOUTPUTIDCOUNT\_INPUT structure'
+---
+Description: Contains input data for a D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT query.
+ms.assetid: cc68b39f-4645-46a6-a752-549b070cf23b
+title: D3DAUTHENTICATEDCHANNEL\_QUERYOUTPUTIDCOUNT\_INPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_QUERYOUTPUTIDCOUNT\_INPUT structure
 
 Contains input data for a [**D3DAUTHENTICATEDQUERY\_OUTPUTIDCOUNT**](d3dauthenticatedquery-outputidcount.md) query.
 
-To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md).
+To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master).
 
 ## Syntax
 
@@ -67,7 +72,7 @@ A handle to the cryptographic session.
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

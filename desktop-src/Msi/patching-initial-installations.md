@@ -1,7 +1,12 @@
 ---
-Description: 'A Windows Installer Patch (MSP) can be applied when installing an application for the first time by using the PATCH property.'
-ms.assetid: '2c4b9d5a-34fb-4a0b-b530-30bf238468fd'
+Description: A Windows Installer Patch (MSP) can be applied when installing an application for the first time by using the PATCH property.
+ms.assetid: 2c4b9d5a-34fb-4a0b-b530-30bf238468fd
 title: Patching Initial Installations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patching Initial Installations
@@ -10,9 +15,9 @@ A Windows Installer Patch (MSP) can be applied when installing an application fo
 
 To apply a patch the first time the application is installed, the [**PATCH**](patch.md) property must be set on the command line. Specify the full path to the patch on the command line as the "PATCH={*path to patch*}" property-value pair.
 
-Note that specifying the [**PATCH**](patch.md) property on the command line overrides the patch applicability checks performed when using [**MsiApplyPatch**](msiapplypatch.md) or the /p [Command Line Option](command-line-options.md).
+Note that specifying the [**PATCH**](patch.md) property on the command line overrides the patch applicability checks performed when using [**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master) or the /p [Command Line Option](command-line-options.md).
 
-If a patch is applied using [**MsiApplyPatch**](msiapplypatch.md) or the /p [Command Line Option](command-line-options.md), the installer compares the applications currently installed on the computer to the list of product codes eligible to receive the patch in the [**Template Summary**](template-summary.md) property.
+If a patch is applied using [**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master) or the /p [Command Line Option](command-line-options.md), the installer compares the applications currently installed on the computer to the list of product codes eligible to receive the patch in the [**Template Summary**](template-summary.md) property.
 
 When you set the [**PATCH**](patch.md) property on the command line to install on first installation, the applications eligible to receive the patch is determined by validation conditions on the transforms embedded in the patch package. The recommended method for generating a patch package is to use a patch creation tool such as [Msimsp.exe](msimsp-exe.md) and [PATCHWIZ.DLL](patchwiz-dll.md). The validation conditions on transforms in the patch originate from the ProductValidateFlags column in the [TargetImages](targetimages-table-patchwiz-dll-.md) table of the Patch Creation Properties (.pcp) file.
 

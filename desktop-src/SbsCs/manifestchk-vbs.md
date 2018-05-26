@@ -1,7 +1,12 @@
 ---
-Description: 'The VBScript file Manifestchk.vbs is a validation tool provided in the Microsoft Windows Software Development Kit (SDK) that validates application and assembly manifest files.'
-ms.assetid: '8269cb92-bd3f-411f-8395-fe06ed550cc5'
-title: 'Manifestchk.vbs'
+Description: The VBScript file Manifestchk.vbs is a validation tool provided in the Microsoft Windows Software Development Kit (SDK) that validates application and assembly manifest files.
+ms.assetid: 8269cb92-bd3f-411f-8395-fe06ed550cc5
+title: Manifestchk.vbs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manifestchk.vbs
@@ -23,11 +28,11 @@ The flags defined for Manifestchk.vbs are described in the following table.
 | /s   | Specifies the manifest schema file name to validate manifests against. See the schema at [Manifest File Schema](manifest-file-schema.md).                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | /m   | Specifies the manifest file name to validate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | /q   | Suppresses all output to the console.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| /t   | Specifies the type of manifest file. The valid values are: AM – Validate the [manifest file schema](manifest-file-schema.md) of an [assembly manifest](assembly-manifests.md) or [application manifest](application-manifests.md)<br/> PC – Validate the [publisher configuration file schema](publisher-configuration-file-schema.md) of a [publisher configuration file](publisher-configuration-files.md)<br/> AC – Validate the application configuration file schema of an [application configuration file](application-configuration-files.md).<br/> |
+| /t   | Specifies the type of manifest file. The valid values are: AM   Validate the [manifest file schema](manifest-file-schema.md) of an [assembly manifest](assembly-manifests.md) or [application manifest](application-manifests.md)<br/> PC   Validate the [publisher configuration file schema](publisher-configuration-file-schema.md) of a [publisher configuration file](publisher-configuration-files.md)<br/> AC   Validate the application configuration file schema of an [application configuration file](application-configuration-files.md).<br/> |
 
 
 
- 
+ 
 
 If the /q flag is not specified, Manifestchk.vbs displays detailed information about the first error encountered in the file, and displays a message stating whether the validation process was successful or not.
 
@@ -47,9 +52,9 @@ Cscript.exe returns a value of 0 if the validation process was successful and 1 
 [Side-by-Side Assembly Development Tools](side-by-side-assembly-development-tools.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

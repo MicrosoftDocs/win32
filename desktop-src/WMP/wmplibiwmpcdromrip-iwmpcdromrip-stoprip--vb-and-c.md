@@ -1,8 +1,11 @@
 ---
 title: IWMPCdromRip stopRip method
 description: The stopRip method stops the CD ripping process.
-ms.assetid: 'c2565d0d-1203-4bd3-9d43-58e971e6ec88'
-keywords: ["stopRip method Windows Media Player", "stopRip method Windows Media Player , IWMPCdromRip interface", "IWMPCdromRip interface Windows Media Player , stopRip method"]
+ms.assetid: c2565d0d-1203-4bd3-9d43-58e971e6ec88
+keywords:
+- stopRip method Windows Media Player
+- stopRip method Windows Media Player , IWMPCdromRip interface
+- IWMPCdromRip interface Windows Media Player , stopRip method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPCdromRip::stopRip method
@@ -78,9 +86,9 @@ This method does not return a value.
 [**Ripping a CD**](ripping-a-cd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

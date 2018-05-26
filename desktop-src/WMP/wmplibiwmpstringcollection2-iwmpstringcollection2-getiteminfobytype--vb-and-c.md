@@ -1,8 +1,11 @@
 ---
 title: IWMPStringCollection2 getItemInfobyType method
 description: The getItemInfoByType method returns the value corresponding to the specified string collection item index, name, language, and attribute index.
-ms.assetid: '51035fed-51ce-4cd2-a936-4c99802128f2'
-keywords: ["getItemInfobyType method Windows Media Player", "getItemInfobyType method Windows Media Player , IWMPStringCollection2 interface", "IWMPStringCollection2 interface Windows Media Player , getItemInfobyType method"]
+ms.assetid: 51035fed-51ce-4cd2-a936-4c99802128f2
+keywords:
+- getItemInfobyType method Windows Media Player
+- getItemInfobyType method Windows Media Player , IWMPStringCollection2 interface
+- IWMPStringCollection2 interface Windows Media Player , getItemInfobyType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPStringCollection2::getItemInfobyType method
@@ -132,9 +140,9 @@ To use this method, you must have read access to the library. For more informati
 [**IWMPStringCollection2.getItemInfo (VB and C#)**](wmplibiwmpstringcollection2-iwmpstringcollection2-getiteminfo--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

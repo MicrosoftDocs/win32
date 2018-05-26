@@ -1,7 +1,12 @@
 ---
 title: Device Access API
 description: .
-ms.assetid: '51329746-291e-4ac6-9029-ebe4727d5d7d'
+ms.assetid: 51329746-291e-4ac6-9029-ebe4727d5d7d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Access API
@@ -16,7 +21,7 @@ You can use the Device Access API to write Windows Store device apps for special
 
 | Topic                                                                                                     | Description                                                                                                                                                                                                                                                                                                                     |
 |-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [About the Device Access API](about-the-device-access-api.md)<br/>                                 | The Device Access API is for C++ developers who are creating a Windows Store app to interact with specialized devices in Windows 8. This topic describes the scenarios that the Device Access API applies to. It also explains how the Device Access API applies security rules for Windows Store apps in Windows 8.<br/> |
+| [About the Device Access API](about-the-device-access-api.md)<br/>                                 | The Device Access API is for C++ developers who are creating a Windows Store app to interact with specialized devices in Windows 8. This topic describes the scenarios that the Device Access API applies to. It also explains how the Device Access API applies security rules for Windows Store apps in Windows 8.<br/> |
 | [How to Use the Device Access API](using-the-device-access-api.md)<br/>                            | This topic contains tasks and design considerations for using the Device Access API.<br/>                                                                                                                                                                                                                                 |
 | [Device Access API C++ Programming Reference](device-access-api-c---programming-reference.md)<br/> | Provides reference pages for the functions and interfaces in the Device Access API.<br/>                                                                                                                                                                                                                                  |
 | [Device Access Glossary](deviceaccess-glossary.md)<br/>                                            | The following are terms used throughout the documentation for the Device Access API.<br/>                                                                                                                                                                                                                                 |
@@ -24,7 +29,7 @@ You can use the Device Access API to write Windows Store device apps for special
 
 
 
- 
+ 
 
 ## Developer audience
 
@@ -46,9 +51,9 @@ The Device Access API is designed for independent hardware vendor (IHV) and OEM 
 [Custom Driver Access Sample](http://go.microsoft.com/fwlink/p/?linkid=242014)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

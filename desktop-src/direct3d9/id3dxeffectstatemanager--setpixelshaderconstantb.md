@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback function that must be implemented by a user to set an array of vertex shader Boolean constants.'
-ms.assetid: 'ad4d9beb-fd34-4574-9787-61bd3bfaaaaa'
-title: 'ID3DXEffectStateManager::SetPixelShaderConstantB method'
+---
+Description: A callback function that must be implemented by a user to set an array of vertex shader Boolean constants.
+ms.assetid: ad4d9beb-fd34-4574-9787-61bd3bfaaaaa
+title: ID3DXEffectStateManagerSetPixelShaderConstantB method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectStateManager::SetPixelShaderConstantB method
@@ -59,7 +64,7 @@ Type: **[**HRESULT**](455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetPixelShaderConstantB**](idirect3ddevice9--setpixelshaderconstantb.md)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetPixelShaderConstantB**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setpixelshaderconstantb?branch=master)) will fail.
 
 ## Requirements
 

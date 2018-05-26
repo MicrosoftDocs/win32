@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUI::PrinterEvent method allows a user interface plug-in to process printer events.'
-ms.assetid: '214ea4d8-3bf9-4248-8bfa-7180635769be'
-title: 'IPrintOemUI::PrinterEvent method'
+---
+Description: The IPrintOemUIPrinterEvent method allows a user interface plug-in to process printer events.
+ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
+title: IPrintOemUIPrinterEvent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUI::PrinterEvent method

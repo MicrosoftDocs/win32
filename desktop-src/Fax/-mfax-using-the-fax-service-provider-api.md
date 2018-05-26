@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service provider (FSP) API allows you to integrate a fax device into the fax service.'
-ms.assetid: 'a8788e8a-e97c-4082-8e89-b6f4a7568d3a'
+Description: The fax service provider (FSP) API allows you to integrate a fax device into the fax service.
+ms.assetid: a8788e8a-e97c-4082-8e89-b6f4a7568d3a
 title: Using the Fax Service Provider API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Fax Service Provider API

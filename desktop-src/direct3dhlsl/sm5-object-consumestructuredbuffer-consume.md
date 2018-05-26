@@ -1,14 +1,20 @@
 ---
 title: Consume function
 description: Removes a value from the end of the buffer.
-ms.assetid: 'b4f7b472-9274-463d-99b0-f05b74f54fc1'
-keywords: ["Consume function HLSL"]
+ms.assetid: b4f7b472-9274-463d-99b0-f05b74f54fc1
+keywords:
+- Consume function HLSL
 topic_type:
 - apiref
 api_name:
 - Consume
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Consume function

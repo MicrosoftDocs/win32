@@ -1,7 +1,12 @@
-﻿---
-Description: 'Lists macros provided by DirectXMath.'
-ms.assetid: 'a31ba325-d405-74b9-0c13-d912816334dc'
+---
+Description: Lists macros provided by DirectXMath.
+ms.assetid: a31ba325-d405-74b9-0c13-d912816334dc
 title: DirectXMath Library Macros
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectXMath Library Macros

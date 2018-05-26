@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_DESTROY\_SOCKET.'
-ms.assetid: 'D6479299-F00D-4709-B8D6-3840E285953A'
-title: 'IOCTL\_DOT4\_DESTROY\_SOCKET control code'
+---
+Description: This topic describes IOCTL\_DOT4\_DESTROY\_SOCKET.
+ms.assetid: D6479299-F00D-4709-B8D6-3840E285953A
+title: IOCTL\_DOT4\_DESTROY\_SOCKET control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_DESTROY\_SOCKET control code

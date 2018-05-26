@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveFiles action removes files previously installed by the InstallFiles action.'
-ms.assetid: '1079be89-515c-443e-8927-46ddf7891a59'
+Description: The RemoveFiles action removes files previously installed by the InstallFiles action.
+ms.assetid: 1079be89-515c-443e-8927-46ddf7891a59
 title: RemoveFiles Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveFiles Action

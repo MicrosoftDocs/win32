@@ -4,17 +4,21 @@ description: The CF\_EV\_RESULT\_RECNO clipboard format returns the record numbe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c9fcf354-6c24-4c02-93f3-1b2f1896324e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c9fcf354-6c24-4c02-93f3-1b2f1896324e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CF_EV_RESULT_RECNO clipboard format MMC"]
+keywords:
+- CF_EV_RESULT_RECNO clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - CF_EV_RESULT_RECNO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CF\_EV\_RESULT\_RECNO clipboard format

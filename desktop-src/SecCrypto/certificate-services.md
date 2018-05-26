@@ -1,7 +1,12 @@
 ---
-Description: 'Certificate Services, a service running on a Windows server operating system, receives requests for new digital certificates over transports such as RPC or HTTP.'
-ms.assetid: 'f5c9c9f9-5211-4151-b8e0-3351d462c71b'
+Description: Certificate Services, a service running on a Windows server operating system, receives requests for new digital certificates over transports such as RPC or HTTP.
+ms.assetid: f5c9c9f9-5211-4151-b8e0-3351d462c71b
 title: Certificate Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate Services

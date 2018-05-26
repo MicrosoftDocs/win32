@@ -1,7 +1,12 @@
 ---
-Description: 'Boolean value that specifies whether to trace this lock.'
-ms.assetid: '23417410-cfdc-426e-a662-7d6580b43a28'
-title: 'CCritSec::m\_fTrace member'
+Description: Boolean value that specifies whether to trace this lock.
+ms.assetid: 23417410-cfdc-426e-a662-7d6580b43a28
+title: CCritSecm\_fTrace member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCritSec::m\_fTrace member
@@ -39,9 +44,9 @@ This member variable is defined only in the debug version of the base class. If 
 [**CCritSec Class**](ccritsec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

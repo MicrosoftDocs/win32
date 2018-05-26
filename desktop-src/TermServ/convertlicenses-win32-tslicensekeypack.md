@@ -4,11 +4,14 @@ description: Converts the licenses in the current key pack.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '38600144-8fa2-4f9a-b7a4-7fafc304e7cb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 38600144-8fa2-4f9a-b7a4-7fafc304e7cb
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ConvertLicenses method Remote Desktop Services", "ConvertLicenses method Remote Desktop Services , Win32_TSLicenseKeyPack class", "Win32_TSLicenseKeyPack class Remote Desktop Services , ConvertLicenses method"]
+keywords:
+- ConvertLicenses method Remote Desktop Services
+- ConvertLicenses method Remote Desktop Services , Win32_TSLicenseKeyPack class
+- Win32_TSLicenseKeyPack class Remote Desktop Services , ConvertLicenses method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConvertLicenses method of the Win32\_TSLicenseKeyPack class
@@ -28,8 +34,8 @@ Converts the licenses in the current key pack. If the license is a per-user lice
 
 ```mof
 uint32 ConvertLicenses(
-  [in]  uint32 Count,
-  [out] uint32 KeypackID
+  [in]  uint32 Count,
+  [out] uint32 KeypackID
 );
 ```
 
@@ -64,7 +70,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -78,9 +84,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSLicenseKeyPack**](win32-tslicensekeypack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

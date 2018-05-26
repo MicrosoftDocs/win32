@@ -1,7 +1,12 @@
 ---
-Description: 'The SetMediaType method sets the media type for the connection.'
-ms.assetid: 'db32b33b-df71-4f46-b53f-d7e647f5f559'
-title: 'CBasePin.SetMediaType method'
+Description: The SetMediaType method sets the media type for the connection.
+ms.assetid: db32b33b-df71-4f46-b53f-d7e647f5f559
+title: CBasePin.SetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.SetMediaType method
@@ -13,7 +18,7 @@ The `SetMediaType` method sets the media type for the connection.
 
 ```C++
 virtual HRESULT SetMediaType(
-   const CMediaType *pmt
+   const CMediaType *pmt
 );
 ```
 
@@ -58,9 +63,9 @@ In the base class, this method sets the [**CBasePin::m\_mt**](cbasepin-m-mt.md) 
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

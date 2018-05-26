@@ -1,7 +1,12 @@
 ---
-Description: 'Flags associated with e-mail messages (identifying that a read receipt is pending, for example). The values stored here by Outlook are defined for PR\_MESSAGE\_FLAGS.'
-ms.assetid: '3ef22752-b8f8-4eb2-8696-6c762122c486'
-title: 'System.Message.Flags'
+Description: Flags associated with e-mail messages (identifying that a read receipt is pending, for example). The values stored here by Outlook are defined for PR\_MESSAGE\_FLAGS.
+ms.assetid: 3ef22752-b8f8-4eb2-8696-6c762122c486
+title: System.Message.Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.Flags

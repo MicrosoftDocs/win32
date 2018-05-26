@@ -1,8 +1,13 @@
 ---
 title: IVMAccessRights ChangePermissions property
 description: The ChangePermissions property determines whether this entry controls the ability to change permissions.
-ms.assetid: '9c33ea28-a9ee-4983-aab5-eb634a331ad9'
-keywords: ["ChangePermissions property Virtual Server", "ChangePermissions property Virtual Server , IVMAccessRights interface", "IVMAccessRights interface Virtual Server , ChangePermissions property", "ChangePermissions property Virtual Server , VMAccessRights interface", "VMAccessRights interface Virtual Server , ChangePermissions property"]
+ms.assetid: 9c33ea28-a9ee-4983-aab5-eb634a331ad9
+keywords:
+- ChangePermissions property Virtual Server
+- ChangePermissions property Virtual Server , IVMAccessRights interface
+- IVMAccessRights interface Virtual Server , ChangePermissions property
+- ChangePermissions property Virtual Server , VMAccessRights interface
+- VMAccessRights interface Virtual Server , ChangePermissions property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights::ChangePermissions property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_ChangePermissions(
-  [in]  VARIANT_BOOL changePermissions
+  [in]  VARIANT_BOOL changePermissions
 );
 
 HRESULT get_ChangePermissions(
-  [out] VARIANT_BOOL *changePermissions
+  [out] VARIANT_BOOL *changePermissions
 );
 ```
 
@@ -105,8 +115,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -118,9 +128,9 @@ Next
 [**IVMAccessRights**](ivmaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: StorageExtent describes the capabilities and management of the vari
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fae681fa-57c6-4e92-b998-9f597f60e7fa'
-ms.prod: 'windows-server-dev'
+ms.assetid: fae681fa-57c6-4e92-b998-9f597f60e7fa
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_StorageExtent class iSCSI Software Target API", "CIM_StorageExtent class iSCSI Software Target API , described"]
+keywords:
+- CIM_StorageExtent class iSCSI Software Target API
+- CIM_StorageExtent class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -69,6 +71,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_StorageExtent class
@@ -83,56 +88,56 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.13.0"), UMLPackagePath("CIM::Core::StorageExtent")]
 class CIM_StorageExtent : CIM_LogicalDevice
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   DataOrganization;
-  string   Purpose;
-  uint16   Access;
-  string   ErrorMethodology;
-  uint64   BlockSize;
-  uint64   NumberOfBlocks;
-  uint64   ConsumableBlocks;
-  boolean  IsBasedOnUnderlyingRedundancy;
-  boolean  SequentialAccess;
-  uint16   ExtentStatus[];
-  boolean  NoSinglePointOfFailure;
-  uint16   DataRedundancy;
-  uint16   PackageRedundancy;
-  uint8    DeltaReservation;
-  boolean  Primordial = FALSE;
-  string   Name;
-  uint16   NameFormat;
-  uint16   NameNamespace;
-  string   OtherNameNamespace;
-  string   OtherNameFormat;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   DataOrganization;
+  string   Purpose;
+  uint16   Access;
+  string   ErrorMethodology;
+  uint64   BlockSize;
+  uint64   NumberOfBlocks;
+  uint64   ConsumableBlocks;
+  boolean  IsBasedOnUnderlyingRedundancy;
+  boolean  SequentialAccess;
+  uint16   ExtentStatus[];
+  boolean  NoSinglePointOfFailure;
+  uint16   DataRedundancy;
+  uint16   PackageRedundancy;
+  uint8    DeltaReservation;
+  boolean  Primordial = FALSE;
+  string   Name;
+  uint16   NameFormat;
+  uint16   NameNamespace;
+  string   OtherNameNamespace;
+  string   OtherNameFormat;
 };
 ```
 
@@ -162,7 +167,7 @@ The **CIM\_StorageExtent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -811,14 +816,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -922,14 +927,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1126,14 +1131,14 @@ StorageExtents have additional status information beyond that captured in the Op
 **DMTF Reserved**
 
 
-</dt> <dd>18–32767</dd> <dt>
+</dt> <dd>18 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1584,7 +1589,7 @@ Contains indicators of the current status of the element. The first value of **O
 > [!Note]  
 > **OperationalStatus** replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, Microsoft strongly recommends that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status** (because it is single-valued) should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2150,14 +2155,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2191,7 +2196,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2439,16 +2444,16 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Represents people who are associated with an organization in some w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a00727b5-c8de-4b21-b656-162b5092d625'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a00727b5-c8de-4b21-b656-162b5092d625
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["inetOrgPerson class AD Schema"]
+keywords:
+- inetOrgPerson class AD Schema
 topic_type:
 - apiref
 api_name:
 - inetOrgPerson
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # inetOrgPerson class
@@ -35,11 +39,11 @@ Represents people who are associated with an organization in some way.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -68,7 +72,7 @@ Represents people who are associated with an organization in some way.
 
 ## Windows Server 2003 Attributes
 
-This class contains the following attributes for Windows Server 2003:
+This class contains the following attributes for Windows Server 2003:
 
 
 
@@ -315,7 +319,7 @@ This class contains the following attributes for Windows Server 2003:
 
 ## Windows Server 2003 Extended Rights
 
-This class contains the following extended rights for Windows Server 2003:
+This class contains the following extended rights for Windows Server 2003:
 
 
 
@@ -331,7 +335,7 @@ This class contains the following extended rights for Windows Server 2003:
 
 ## Windows Server 2003 Property Sets
 
-This class contains the following property sets for Windows Server 2003:
+This class contains the following property sets for Windows Server 2003:
 
 
 
@@ -376,7 +380,7 @@ This class contains the following property sets for Windows Server 2003:
 
 ## Windows Server 2003 R2 Attributes
 
-This class contains the following attributes for Windows Server 2003 R2:
+This class contains the following attributes for Windows Server 2003 R2:
 
 
 
@@ -629,7 +633,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 ## Windows Server 2003 R2 Extended Rights
 
-This class contains the following extended rights for Windows Server 2003 R2:
+This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
@@ -645,7 +649,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 ## Windows Server 2003 R2 Property Sets
 
-This class contains the following property sets for Windows Server 2003 R2:
+This class contains the following property sets for Windows Server 2003 R2:
 
 
 
@@ -690,7 +694,7 @@ This class contains the following property sets for Windows Server 2003 R2:
 
 ## Windows Server 2008 Attributes
 
-This class contains the following attributes for Windows Server 2008:
+This class contains the following attributes for Windows Server 2008:
 
 
 
@@ -1009,7 +1013,7 @@ This class contains the following attributes for Windows Server 2008:
 
 ## Windows Server 2008 Extended Rights
 
-This class contains the following extended rights for Windows Server 2008:
+This class contains the following extended rights for Windows Server 2008:
 
 
 
@@ -1025,7 +1029,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 ## Windows Server 2008 Property Sets
 
-This class contains the following property sets for Windows Server 2008:
+This class contains the following property sets for Windows Server 2008:
 
 
 
@@ -1072,7 +1076,7 @@ This class contains the following property sets for Windows Server 2008:
 
 ## Windows Server 2008 R2 Attributes
 
-This class contains the following attributes for Windows Server 2008 R2:
+This class contains the following attributes for Windows Server 2008 R2:
 
 
 
@@ -1401,7 +1405,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 ## Windows Server 2008 R2 Extended Rights
 
-This class contains the following extended rights for Windows Server 2008 R2:
+This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
@@ -1417,7 +1421,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 ## Windows Server 2008 R2 Property Sets
 
-This class contains the following property sets for Windows Server 2008 R2:
+This class contains the following property sets for Windows Server 2008 R2:
 
 
 
@@ -1464,7 +1468,7 @@ This class contains the following property sets for Windows Server 2008 R2:
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -1801,7 +1805,7 @@ This class contains the following attributes for Windows Server 2012:
 
 ## Windows Server 2012 Extended Rights
 
-This class contains the following extended rights for Windows Server 2012:
+This class contains the following extended rights for Windows Server 2012:
 
 
 
@@ -1817,7 +1821,7 @@ This class contains the following extended rights for Windows Server 2012:
 
 ## Windows Server 2012 Property Sets
 
-This class contains the following property sets for Windows Server 2012:
+This class contains the following property sets for Windows Server 2012:
 
 
 
@@ -1837,9 +1841,9 @@ This class contains the following property sets for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

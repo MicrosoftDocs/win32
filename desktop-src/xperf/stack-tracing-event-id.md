@@ -1,8 +1,10 @@
 ---
 title: STACK\_TRACING\_EVENT\_ID structure
 description: The STACK\_TRACING\_EVENT\_ID structure tells the kernel logger to include the call stack for the named events.
-ms.assetid: 'da399d8c-1e8c-48e6-b042-f3c7fa79a80d'
-keywords: ["STACK_TRACING_EVENT_ID structure Windows Performance Analyzer", "PSTACK_TRACING_EVENT_ID structure pointer Windows Performance Analyzer"]
+ms.assetid: da399d8c-1e8c-48e6-b042-f3c7fa79a80d
+keywords:
+- STACK_TRACING_EVENT_ID structure Windows Performance Analyzer
+- PSTACK_TRACING_EVENT_ID structure pointer Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - KernelTraceControl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STACK\_TRACING\_EVENT\_ID structure
@@ -22,7 +29,7 @@ The **STACK\_TRACING\_EVENT\_ID** structure tells the kernel logger to include t
 
 ```C++
 typedef struct {
-  GUID  EventGuid;
+  GUID  EventGuid;
   UCHAR Type;
   UCHAR Reserved[7];
 } STACK_TRACING_EVENT_ID, *PSTACK_TRACING_EVENT_ID;
@@ -102,9 +109,9 @@ typedef struct _CLASSIC_EVENT_ID {
 [**StartKernelTrace**](startkerneltrace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

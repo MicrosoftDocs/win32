@@ -1,8 +1,9 @@
 ---
 title: DM\_GETDEFID message
 description: Retrieves the identifier of the default push button control for a dialog box.
-ms.assetid: '9f00a494-f5a2-4c4e-a9fc-2220d9326eb9'
-keywords: ["DM_GETDEFID message Dialog Boxes"]
+ms.assetid: 9f00a494-f5a2-4c4e-a9fc-2220d9326eb9
+keywords:
+- DM_GETDEFID message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DM\_GETDEFID message
@@ -49,7 +55,7 @@ If a default push button exists, the high-order word of the return value contain
 
 ## Remarks
 
-The [**DefDlgProc**](defdlgproc.md) function processes this message.
+The [**DefDlgProc**](/windows/win32/Winuser/nf-winuser-defdlgprocw?branch=master) function processes this message.
 
 ## Requirements
 
@@ -57,8 +63,8 @@ The [**DefDlgProc**](defdlgproc.md) function processes this message.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -70,7 +76,7 @@ The [**DefDlgProc**](defdlgproc.md) function processes this message.
 **Reference**
 </dt> <dt>
 
-[**DefDlgProc**](defdlgproc.md)
+[**DefDlgProc**](/windows/win32/Winuser/nf-winuser-defdlgprocw?branch=master)
 </dt> <dt>
 
 [**DM\_SETDEFID**](dm-setdefid.md)
@@ -82,9 +88,9 @@ The [**DefDlgProc**](defdlgproc.md) function processes this message.
 [Dialog Boxes](dialog-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

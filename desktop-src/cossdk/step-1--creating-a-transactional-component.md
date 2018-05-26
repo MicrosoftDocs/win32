@@ -1,7 +1,12 @@
 ---
-Description: 'Step 1: Creating a Transactional Component'
-ms.assetid: '9ab9ac2d-bf1d-419c-8f6b-e2ee80a4bf20'
-title: 'Step 1: Creating a Transactional Component'
+Description: Step 1 Creating a Transactional Component
+ms.assetid: 9ab9ac2d-bf1d-419c-8f6b-e2ee80a4bf20
+title: Step 1 Creating a Transactional Component
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 1: Creating a Transactional Component

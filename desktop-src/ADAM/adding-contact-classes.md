@@ -4,11 +4,15 @@ description: To programmatically extend the AD LDS schema, a user must have suff
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd6d2d5cf-cb35-4d9e-af6a-4522a46ce234'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: d6d2d5cf-cb35-4d9e-af6a-4522a46ce234
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , adding contact classes"]
+keywords:
+- AD LDS examples ADAM , adding contact classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Contact Classes

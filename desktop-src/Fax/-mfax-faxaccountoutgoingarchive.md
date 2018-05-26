@@ -1,14 +1,19 @@
-﻿---
-Description: 'Accesses and configures the archive of outbound fax messages, for a particular fax account, sent successfully by the fax service. You can also use the FaxAccountOutgoingArchive object to retrieve a message from the archive by specifying its message ID.'
-ms.assetid: '21ed0cc8-23a3-4ac1-853f-8f7d004cf843'
+---
+Description: Accesses and configures the archive of outbound fax messages, for a particular fax account, sent successfully by the fax service. You can also use the FaxAccountOutgoingArchive object to retrieve a message from the archive by specifying its message ID.
+ms.assetid: 21ed0cc8-23a3-4ac1-853f-8f7d004cf843
 title: FaxAccountOutgoingArchive object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountOutgoingArchive object
 
 Accesses and configures the archive of outbound fax messages, for a particular fax account, sent successfully by the fax service. You can also use the **FaxAccountOutgoingArchive** object to retrieve a message from the archive by specifying its message ID.
 
-A **FaxAccountOutgoingArchive** object is accessed through a [**FaxAccountFolders**](-mfax-faxaccountfolders.md) object. **FaxAccountOutgoingArchive** objects provide access to [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md) objects and [**IFaxOutgoingMessage2**](-mfax-faxoutgoingmessage2-cpp.md) objects.
+A **FaxAccountOutgoingArchive** object is accessed through a [**FaxAccountFolders**](-mfax-faxaccountfolders.md) object. **FaxAccountOutgoingArchive** objects provide access to [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md) objects and [**IFaxOutgoingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage2?branch=master) objects.
 
 ![faxaccountfolders, faxaccountoutgoingarchive, and subordinate objects to faxaccountoutgoingarchive](images/faxaccountoutgoingarchive.png)
 
@@ -71,7 +76,7 @@ The **FaxAccountOutgoingArchive** object has these properties.
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive-cpp.md)
+[**IFaxAccountOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingarchive?branch=master)
 </dt> </dl>
 
  

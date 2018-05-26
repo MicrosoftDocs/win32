@@ -1,8 +1,43 @@
 ---
 title: Getting Started with Samples
 description: All the example code contained in the Windows Image Acquisition (WIA) Automation Layer reference works in multiple languages.
-ms.assetid: '2c9a5c30-de52-4bbb-a293-d58b66c9ba2d'
-keywords: ["Windows Image Acquisition (WIA),examples", "WIA (Windows Image Acquisition),examples", "Windows Image Acquisition Automation Layer,examples", "WIA Automation Layer,examples", "Image Acquisition Automation Layer,examples", "Windows Image Acquisition (WIA),sample code", "WIA (Windows Image Acquisition),sample code", "Windows Image Acquisition Automation Layer,sample code", "WIA Automation Layer,sample code", "Image Acquisition Automation Layer,sample code", "Windows Image Acquisition (WIA),Visual Basic", "WIA (Windows Image Acquisition),Visual Basic", "Windows Image Acquisition Automation Layer,Visual Basic", "WIA Automation Layer,Visual Basic", "Image Acquisition Automation Layer,Visual Basic", "Windows Image Acquisition (WIA),Windows Script Host", "WIA (Windows Image Acquisition),Windows Script Host", "Windows Image Acquisition Automation Layer,Windows Script Host", "WIA Automation Layer,Windows Script Host", "Image Acquisition Automation Layer,Windows Script Host", "Windows Image Acquisition (WIA),HTML Application (HTA)", "WIA (Windows Image Acquisition),HTML Application (HTA)", "Windows Image Acquisition Automation Layer,HTML Application (HTA)", "WIA Automation Layer,HTML Application (HTA)", "Image Acquisition Automation Layer,HTML Application (HTA)", "Windows Image Acquisition (WIA),Active Server Pages (ASP)", "WIA (Windows Image Acquisition),Active Server Pages (ASP)", "Windows Image Acquisition Automation Layer,Active Server Pages (ASP)", "WIA Automation Layer,Active Server Pages (ASP)", "Image Acquisition Automation Layer,Active Server Pages (ASP)"]
+ms.assetid: 2c9a5c30-de52-4bbb-a293-d58b66c9ba2d
+keywords:
+- Windows Image Acquisition (WIA),examples
+- WIA (Windows Image Acquisition),examples
+- Windows Image Acquisition Automation Layer,examples
+- WIA Automation Layer,examples
+- Image Acquisition Automation Layer,examples
+- Windows Image Acquisition (WIA),sample code
+- WIA (Windows Image Acquisition),sample code
+- Windows Image Acquisition Automation Layer,sample code
+- WIA Automation Layer,sample code
+- Image Acquisition Automation Layer,sample code
+- Windows Image Acquisition (WIA),Visual Basic
+- WIA (Windows Image Acquisition),Visual Basic
+- Windows Image Acquisition Automation Layer,Visual Basic
+- WIA Automation Layer,Visual Basic
+- Image Acquisition Automation Layer,Visual Basic
+- Windows Image Acquisition (WIA),Windows Script Host
+- WIA (Windows Image Acquisition),Windows Script Host
+- Windows Image Acquisition Automation Layer,Windows Script Host
+- WIA Automation Layer,Windows Script Host
+- Image Acquisition Automation Layer,Windows Script Host
+- Windows Image Acquisition (WIA),HTML Application (HTA)
+- WIA (Windows Image Acquisition),HTML Application (HTA)
+- Windows Image Acquisition Automation Layer,HTML Application (HTA)
+- WIA Automation Layer,HTML Application (HTA)
+- Image Acquisition Automation Layer,HTML Application (HTA)
+- Windows Image Acquisition (WIA),Active Server Pages (ASP)
+- WIA (Windows Image Acquisition),Active Server Pages (ASP)
+- Windows Image Acquisition Automation Layer,Active Server Pages (ASP)
+- WIA Automation Layer,Active Server Pages (ASP)
+- Image Acquisition Automation Layer,Active Server Pages (ASP)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with Samples

@@ -1,14 +1,19 @@
 ---
-Description: 'This class implements the IAMStreamControl interface for input and output pins.'
-ms.assetid: 'a0ddc2d5-8385-4209-b1c5-9822c30f8a02'
+Description: This class implements the IAMStreamControl interface for input and output pins.
+ms.assetid: a0ddc2d5-8385-4209-b1c5-9822c30f8a02
 title: CBaseStreamControl class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl class
 
 ![cbasestreamcontrol class hierarchy](images/strmctl1.png)
 
-This class implements the [**IAMStreamControl**](iamstreamcontrol.md) interface for input and output pins. It provides control over starting and stopping an individual pin on the filter. A pin that supports **IAMStreamControl** should inherit from this base class. The following is a typical declaration for an input pin:
+This class implements the [**IAMStreamControl**](/windows/win32/Strmif/nn-strmif-iamstreamcontrol?branch=master) interface for input and output pins. It provides control over starting and stopping an individual pin on the filter. A pin that supports **IAMStreamControl** should inherit from this base class. The following is a typical declaration for an input pin:
 
 ``` syntax
 class CMyInputPin : public CBaseInputPin, public CBaseStreamControl
@@ -34,18 +39,18 @@ Be sure to override **NonDelegatingQueryInteface** to expose **IAMStreamControl*
 
 
 
- 
+ 
 
 ## Remarks
 
 This class requires the pin and the owning filter to notify the class when various events occur, such as the filter joining the graph or receiving a new reference clock. You should call the following class methods:
 
--   In the filter's [**IMediaFilter::SetSyncSource**](imediafilter-setsyncsource.md) method, call the [**CBaseStreamControl::SetSyncSource**](cbasestreamcontrol-setsyncsource.md) method. This method notifies the class of the current reference clock.
+-   In the filter's [**IMediaFilter::SetSyncSource**](/windows/win32/Strmif/nf-strmif-imediafilter-setsyncsource?branch=master) method, call the [**CBaseStreamControl::SetSyncSource**](cbasestreamcontrol-setsyncsource.md) method. This method notifies the class of the current reference clock.
 -   In the filter's [**CBaseFilter::JoinFilterGraph**](cbasefilter-joinfiltergraph.md) method, call the [**CBaseStreamControl::SetFilterGraph**](cbasestreamcontrol-setfiltergraph.md) method. This method gives the class a pointer to the Filter Graph Manager, so that the class can send the right stream-control events.
 -   Whenever the filter changes state (to running, paused, or stopped), call the [**CBaseStreamControl::NotifyFilterState**](cbasestreamcontrol-notifyfilterstate.md) method.
--   In the pin's [**IPin::BeginFlush**](ipin-beginflush.md) and [**IPin::EndFlush**](ipin-endflush.md) methods, call the [**CBaseStreamControl::Flushing**](cbasestreamcontrol-flushing.md) method.
+-   In the pin's [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) and [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) methods, call the [**CBaseStreamControl::Flushing**](cbasestreamcontrol-flushing.md) method.
 
-The `CBaseStreamControl` class uses the filter graph's reference clock to determine which samples the filter should be deliver, and which it should discard. In your pin's [**IMemInputPin::Receive**](imeminputpin-receive.md) method, call the [**CBaseStreamControl::CheckStreamState**](cbasestreamcontrol-checkstreamstate.md) method with a pointer to the incoming media sample. If the method returns the value STREAM\_FLOWING, deliver the sample downstream. Otherwise, discard it.
+The `CBaseStreamControl` class uses the filter graph's reference clock to determine which samples the filter should be deliver, and which it should discard. In your pin's [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method, call the [**CBaseStreamControl::CheckStreamState**](cbasestreamcontrol-checkstreamstate.md) method with a pointer to the incoming media sample. If the method returns the value STREAM\_FLOWING, deliver the sample downstream. Otherwise, discard it.
 
 ## Requirements
 
@@ -58,9 +63,9 @@ The `CBaseStreamControl` class uses the filter graph's reference clock to determ
 
 
 
- 
+ 
 
- 
+ 
 
 
 

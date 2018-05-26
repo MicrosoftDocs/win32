@@ -1,7 +1,12 @@
 ---
-Description: 'The FormatProperties export function formats the data that is displayed in the details pane of the Network Monitor UI. If you want to display data in the details pane, you must implement the FormatProperties export function in all parser DLLs.'
-ms.assetid: '78e0b4b9-f19e-41cb-8504-635f3f9ac1ee'
+Description: The FormatProperties export function formats the data that is displayed in the details pane of the Network Monitor UI. If you want to display data in the details pane, you must implement the FormatProperties export function in all parser DLLs.
+ms.assetid: 78e0b4b9-f19e-41cb-8504-635f3f9ac1ee
 title: FormatProperties callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FormatProperties callback function
@@ -13,11 +18,11 @@ The **FormatProperties** export function formats the data that is displayed in t
 
 ```C++
 DWORD FormatProperties(
-  _In_ HFRAME         hFrame,
-  _In_ LPBYTE         lpFrame,
-  _In_ LPBYTE         lpProtocol,
-  _In_ DWORD          nPropertyInsts,
-  _In_ LPPROPERTYINST lpPropInst
+  _In_ HFRAME         hFrame,
+  _In_ LPBYTE         lpFrame,
+  _In_ LPBYTE         lpProtocol,
+  _In_ DWORD          nPropertyInsts,
+  _In_ LPPROPERTYINST lpPropInst
 );
 ```
 
@@ -80,12 +85,12 @@ During the implementation of the **FormatProperties** function, the parser indir
 |-------------------------------------------------------------|--------------------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor.   | [Parsers](parsers.md)                                             |
 | Which entry points are included in the parser DLL.          | [Parser DLL Architecture](parser-dll-architecture.md)             |
-| How to implement **FormatProperties**— includes an example. | [Implementing FormatProperties](implementing-formatproperties.md) |
+| How to implement **FormatProperties**  includes an example. | [Implementing FormatProperties](implementing-formatproperties.md) |
 | How the generic formatter formats different types of data.  | [Generic Formatter Output](generic-formatter-output.md)           |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -93,8 +98,8 @@ During the implementation of the **FormatProperties** function, the parser indir
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -112,9 +117,9 @@ During the implementation of the **FormatProperties** function, the parser indir
 [PROPERTYINST](propertyinst.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

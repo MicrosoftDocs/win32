@@ -1,8 +1,11 @@
 ---
 title: Iteration AddMetricThreshold method
 description: Creates and adds a MetricThreshold to the Iteration.
-ms.assetid: 'D5D1C1D6-4483-4650-95E8-7E619CF6BC9D'
-keywords: ["AddMetricThreshold method Access Execution Engine", "AddMetricThreshold method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , AddMetricThreshold method"]
+ms.assetid: D5D1C1D6-4483-4650-95E8-7E619CF6BC9D
+keywords:
+- AddMetricThreshold method Access Execution Engine
+- AddMetricThreshold method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , AddMetricThreshold method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::AddMetricThreshold method
@@ -22,9 +30,9 @@ Creates and adds a [**MetricThreshold**](metricthreshold-struct.md) to the **Ite
 
 ```C++
 virtual HRESULT AddMetricThreshold(
-  [in]            LPCWSTR         descriptionProgrammaticName,
-  [in]            LPCWSTR         metricDefinitionProgrammaticName,
-  [out, optional] MetricThreshold **metricThreshold
+  [in]            LPCWSTR         descriptionProgrammaticName,
+  [in]            LPCWSTR         metricDefinitionProgrammaticName,
+  [out, optional] MetricThreshold **metricThreshold
 ) = 0;
 ```
 
@@ -73,8 +81,8 @@ The metric definition programmatic name is the value of element **Iteration/Metr
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -87,9 +95,9 @@ The metric definition programmatic name is the value of element **Iteration/Metr
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

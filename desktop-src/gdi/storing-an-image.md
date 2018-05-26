@@ -1,16 +1,21 @@
 ---
-Description: 'Many applications store images permanently as files. For example, drawing applications store pictures, spreadsheet applications store charts, CAD applications store drawings, and so on.'
-ms.assetid: 'fc43ab78-c174-400b-a73a-c346d8bda8d2'
+Description: Many applications store images permanently as files. For example, drawing applications store pictures, spreadsheet applications store charts, CAD applications store drawings, and so on.
+ms.assetid: fc43ab78-c174-400b-a73a-c346d8bda8d2
 title: Storing an Image
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storing an Image
 
 Many applications store images permanently as files. For example, drawing applications store pictures, spreadsheet applications store charts, CAD applications store drawings, and so on.
 
-If you are writing an application that stores a bitmap image in a file, you should use the bitmap file format described in [Bitmap Storage](bitmap-storage.md). To store a bitmap in this format, you must use a [**BITMAPINFOHEADER**](bitmapinfoheader.md), a [**BITMAPV4HEADER**](bitmapv4header.md), or a [**BITMAPV5HEADER**](bitmapv5header.md) structure and an array of [**RGBQUAD**](rgbquad.md) structures, as well as an array of palette indexes.
+If you are writing an application that stores a bitmap image in a file, you should use the bitmap file format described in [Bitmap Storage](bitmap-storage.md). To store a bitmap in this format, you must use a [**BITMAPINFOHEADER**](/windows/win32/Wingdi/?branch=master), a [**BITMAPV4HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv4header?branch=master), or a [**BITMAPV5HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv5header?branch=master) structure and an array of [**RGBQUAD**](/windows/win32/Wingdi/ns-wingdi-tagrgbquad?branch=master) structures, as well as an array of palette indexes.
 
-The following example code defines a function that uses a [**BITMAPINFO**](bitmapinfo.md) structure and allocates memory for and initializes members within a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure. Note that the **BITMAPINFO** structure cannot be used with either a [**BITMAPV4HEADER**](bitmapv4header.md) or a [**BITMAPV5HEADER**](bitmapv5header.md) structure.
+The following example code defines a function that uses a [**BITMAPINFO**](/windows/win32/Wingdi/ns-wingdi-tagbitmapinfo?branch=master) structure and allocates memory for and initializes members within a [**BITMAPINFOHEADER**](/windows/win32/Wingdi/?branch=master) structure. Note that the **BITMAPINFO** structure cannot be used with either a [**BITMAPV4HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv4header?branch=master) or a [**BITMAPV5HEADER**](/windows/win32/Wingdi/ns-wingdi-bitmapv5header?branch=master) structure.
 
 
 ```C++

@@ -1,8 +1,10 @@
 ---
 title: MDM\_RemoteFind\_Location01 class
 description: The MDM\_RemoteFind\_Location01 class retrieves the location information for a particular device.
-ms.assetid: '0c26bb3c-99b4-43ed-99ce-d976d48c4445'
-keywords: ["MDM_RemoteFind_Location01 class", "MDM_RemoteFind_Location01 class, described"]
+ms.assetid: 0c26bb3c-99b4-43ed-99ce-d976d48c4445
+keywords:
+- MDM_RemoteFind_Location01 class
+- MDM_RemoteFind_Location01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_RemoteFind\_Location01 class
@@ -29,13 +36,13 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv1")]
 class MDM_RemoteFind_Location01
 {
-  string   InstanceID;
-  string   ParentID;
-  real32   Latitude;
-  real32   Longitude;
-  real32   Altitude;
-  sint32   Accuracy;
-  sint32   AltitudeAccuracy;
+  string   InstanceID;
+  string   ParentID;
+  real32   Latitude;
+  real32   Longitude;
+  real32   Altitude;
+  sint32   Accuracy;
+  sint32   AltitudeAccuracy;
   datetime Age;
 };
 ```
@@ -156,7 +163,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl> |
@@ -171,9 +178,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

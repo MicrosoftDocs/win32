@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines methods to obtain information about the properties of a search item. This interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.'
-ms.assetid: '0fef34c5-f20f-475a-9223-5cb73079c842'
+---
+Description: Defines methods to obtain information about the properties of a search item. This interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+ms.assetid: 0fef34c5-f20f-475a-9223-5cb73079c842
 title: IItemPropertyBag interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IItemPropertyBag interface
@@ -22,7 +27,7 @@ The **IItemPropertyBag** interface has these methods.
 
 | Method                                                      | Description                                                                                  |
 |:------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
-| [**CountProperties**](iitempropertybag-countproperties.md) | Gets a count of the number of properties in the property bag.<br/>                     |
+| [**CountProperties**](/windows/win32/ocidl/?branch=master) | Gets a count of the number of properties in the property bag.<br/>                     |
 | [**GetPropertyInfo**](iitempropertybag-getpropertyinfo.md) | Gets the information required to read or save the properties in the property bag.<br/> |
 | [**Read**](iitempropertybag-read.md)                       | Causes one or more properties to be read from the property bag.<br/>                   |
 | [**Write**](iitempropertybag-write.md)                     | Causes one or more properties to be saved into the property bag.<br/>                  |
@@ -35,7 +40,7 @@ The **IItemPropertyBag** interface has these methods.
 
 The **IItemPropertyBag** interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 
-To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the **IItemPropertyBag** interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](itemprop.md) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
+To preview attachments with a third-party protocol handler on computers running Windows XP or Windows Server 2003, it may be necessary to use the **IItemPropertyBag** interface and the following APIs: the [**ISearchProtocolUI**](-search-isearchprotocolui.md), [**IItemPreviewerExt**](-search-iitempreviewerext.md) and [**ISearchItem**](-search-isearchitem.md) interfaces, the [**LINKINFO**](-search-linkinfo.md) and [**ITEMPROP**](/windows/win32/subsmgr/ns-subsmgr-_tagitemprop?branch=master) structures, and the [**LINKTYPE**](-search-linktype.md) enumeration.
 
 ## Requirements
 

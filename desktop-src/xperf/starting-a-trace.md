@@ -1,8 +1,20 @@
 ---
 title: Starting a Trace
 description: Starting a Trace
-ms.assetid: 'aab30f1c-7d88-44de-8a53-8f7e8900556d'
-keywords: ["xperf", "start", "providers", "logger name", "REGISTRY flag", "trace", "tracing"]
+ms.assetid: aab30f1c-7d88-44de-8a53-8f7e8900556d
+keywords:
+- xperf
+- start
+- providers
+- logger name
+- REGISTRY flag
+- trace
+- tracing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting a Trace

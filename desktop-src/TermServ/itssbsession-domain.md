@@ -4,11 +4,14 @@ description: Retrieves the domain name of the user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bbb9a805-7270-4555-8fee-130a46bc3903'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: bbb9a805-7270-4555-8fee-130a46bc3903
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Domain property Remote Desktop Services", "Domain property Remote Desktop Services , ITsSbSession interface", "ITsSbSession interface Remote Desktop Services , Domain property"]
+keywords:
+- Domain property Remote Desktop Services
+- Domain property Remote Desktop Services , ITsSbSession interface
+- ITsSbSession interface Remote Desktop Services , Domain property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbSession::Domain property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Domain(
-  [out, retval] BSTR *domain
+  [out, retval] BSTR *domain
 );
 ```
 
@@ -48,7 +54,7 @@ A pointer to a **BSTR** variable that receives the domain name of the user.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ A pointer to a **BSTR** variable that receives the domain name of the user.
 
 <dl> <dt>
 
-[**ITsSbSession**](itssbsession.md)
+[**ITsSbSession**](/windows/win32/sbtsv/nn-sbtsv-itssbsession?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

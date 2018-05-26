@@ -4,17 +4,21 @@ description: Initializes a new instance of the ProtectionException class with th
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b4e1de36-2adc-46cc-90e3-31caa64ef6b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b4e1de36-2adc-46cc-90e3-31caa64ef6b9
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectionException(String, String, Throwable) constructor"]
+keywords:
+- ProtectionException(String, String, Throwable) constructor
 topic_type:
 - apiref
 api_name:
 - ProtectionException(String, String, Throwable) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectionException(String, String, Throwable) constructor
@@ -39,7 +43,7 @@ public ProtectionException(String tag, String message, Throwable e)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -49,9 +53,9 @@ public ProtectionException(String tag, String message, Throwable e)
 
 ProtectionException.java
 
- 
+ 
 
- 
+ 
 
 
 

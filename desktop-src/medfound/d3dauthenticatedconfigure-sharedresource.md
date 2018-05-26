@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables a process to open a shared resource, or disables a process from opening shared resources.'
-ms.assetid: '5fa2b88f-e946-436c-953e-04e0e338146c'
-title: 'D3DAUTHENTICATEDCONFIGURE\_SHAREDRESOURCE'
+---
+Description: Enables a process to open a shared resource, or disables a process from opening shared resources.
+ms.assetid: 5fa2b88f-e946-436c-953e-04e0e338146c
+title: D3DAUTHENTICATEDCONFIGURE\_SHAREDRESOURCE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCONFIGURE\_SHAREDRESOURCE
@@ -48,7 +53,7 @@ The following channel types support this query:
 [GPU-Based Content Protection](gpu-based-content-protection.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md)
+[**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master)
 </dt> </dl>
 
  

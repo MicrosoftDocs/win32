@@ -1,8 +1,11 @@
 ---
 title: Iteration SetDescriptionProgrammaticName method
 description: Sets the description programmatic name of the Iteration.
-ms.assetid: '408BCBBC-0018-4CA3-978E-B23DC3B815E6'
-keywords: ["SetDescriptionProgrammaticName method Access Execution Engine", "SetDescriptionProgrammaticName method Access Execution Engine , Iteration interface", "Iteration interface Access Execution Engine , SetDescriptionProgrammaticName method"]
+ms.assetid: 408BCBBC-0018-4CA3-978E-B23DC3B815E6
+keywords:
+- SetDescriptionProgrammaticName method Access Execution Engine
+- SetDescriptionProgrammaticName method Access Execution Engine , Iteration interface
+- Iteration interface Access Execution Engine , SetDescriptionProgrammaticName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::SetDescriptionProgrammaticName method
@@ -22,7 +30,7 @@ Sets the description programmatic name of the **Iteration**.
 
 ```C++
 virtual HRESULT SetDescriptionProgrammaticName(
-  [in] LPCWSTR descriptionProgrammaticName
+  [in] LPCWSTR descriptionProgrammaticName
 ) = 0;
 ```
 
@@ -53,8 +61,8 @@ The description programmatic name is the value of element **Iteration/Descriptio
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ The description programmatic name is the value of element **Iteration/Descriptio
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

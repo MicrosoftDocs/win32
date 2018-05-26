@@ -1,7 +1,12 @@
 ---
-Description: 'The process of creating a certificate request involves collecting certain information from the requester.'
-ms.assetid: 'b03efa83-e255-4427-a796-63d5841664a9'
+Description: The process of creating a certificate request involves collecting certain information from the requester.
+ms.assetid: b03efa83-e255-4427-a796-63d5841664a9
 title: Creating the Certificate Request
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Certificate Request

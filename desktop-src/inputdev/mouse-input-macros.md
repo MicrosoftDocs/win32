@@ -1,7 +1,12 @@
 ---
 title: Mouse Input Macros
 description: .
-ms.assetid: '0c90dea6-18a9-4d6a-80a4-847d5c4e815b'
+ms.assetid: 0c90dea6-18a9-4d6a-80a4-847d5c4e815b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mouse Input Macros

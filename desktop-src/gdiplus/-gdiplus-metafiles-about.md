@@ -1,12 +1,17 @@
 ---
-Description: 'Windows GDI+ provides the Metafile class so that you can record and display metafiles.'
-ms.assetid: 'a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077'
+Description: Windows GDI+ provides the Metafile class so that you can record and display metafiles.
+ms.assetid: a9f9bac4-f3c7-44a1-9f0f-59ff1a27b077
 title: Metafiles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metafiles
 
-Windows GDI+ provides the [**Metafile**](-gdiplus-class-metafile-class.md) class so that you can record and display metafiles. A metafile, also called a vector image, is an image that is stored as a sequence of drawing commands and settings. The commands and settings recorded in a **Metafile** object can be stored in memory or saved to a file or stream.
+Windows GDI+ provides the [**Metafile**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-metafile?branch=master) class so that you can record and display metafiles. A metafile, also called a vector image, is an image that is stored as a sequence of drawing commands and settings. The commands and settings recorded in a **Metafile** object can be stored in memory or saved to a file or stream.
 
 GDI+ can display metafiles that have been stored in the following formats:
 
@@ -18,7 +23,7 @@ GDI+ can record metafiles in the EMF and EMF+ formats, but not in the WMF format
 
 EMF+ is an extension to EMF that allows GDI+ records to be stored. There are two variations on the EMF+ format: EMF+ Only and EMF+ Dual. EMF+ Only metafiles contain only GDI+ records. Such metafiles can be displayed by GDI+ but not by Windows Graphics Device Interface (GDI). EMF+ Dual metafiles contain GDI+ and GDI records. Each GDI+ record in an EMF+ Dual metafile is paired with an alternate GDI record. Such metafiles can be displayed by GDI+ or by GDI.
 
-The following example records one setting and one drawing command in a disk file. Note that the example creates a [**Graphics**](-gdiplus-class-graphics-class.md) object and that the constructor for the **Graphics** object receives the address of a [**Metafile**](-gdiplus-class-metafile-class.md) object as an argument.
+The following example records one setting and one drawing command in a disk file. Note that the example creates a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object and that the constructor for the **Graphics** object receives the address of a [**Metafile**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-metafile?branch=master) object as an argument.
 
 
 ```
@@ -34,7 +39,7 @@ delete myMetafile;
 
 
 
-As the preceding example shows, the [**Graphics**](-gdiplus-class-graphics-class.md) class is the key to recording instructions and settings in a [**Metafile**](-gdiplus-class-metafile-class.md) object. Any call made to a method of a **Graphics** object can be recorded in a **Metafile** object. Likewise, you can set any property of a **Graphics** object and record that setting in a **Metafile** object. The recording ends when the **Graphics** object is deleted or goes out of scope.
+As the preceding example shows, the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class is the key to recording instructions and settings in a [**Metafile**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-metafile?branch=master) object. Any call made to a method of a **Graphics** object can be recorded in a **Metafile** object. Likewise, you can set any property of a **Graphics** object and record that setting in a **Metafile** object. The recording ends when the **Graphics** object is deleted or goes out of scope.
 
 The following example displays the metafile created in the preceding example. The metafile is displayed with its upper-left corner at (100, 100).
 
@@ -47,7 +52,7 @@ myGraphics.DrawImage(&amp;myImage, 100, 100);
 
 
 
-The following example records several property settings (clipping region, world transformation, and smoothing mode) in a [**Metafile**](-gdiplus-class-metafile-class.md) object. Then the code records several drawing instructions. The instructions and settings are saved in a disk file.
+The following example records several property settings (clipping region, world transformation, and smoothing mode) in a [**Metafile**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-metafile?branch=master) object. Then the code records several drawing instructions. The instructions and settings are saved in a disk file.
 
 
 ```

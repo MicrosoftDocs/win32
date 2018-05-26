@@ -4,11 +4,16 @@ description: Delegation is one of the most important security features of Active
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ab8740c9-f5a2-40cc-abce-0ef80c3fca7a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ab8740c9-f5a2-40cc-abce-0ef80c3fca7a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Delegation AD", "security AD , delegation"]
+keywords:
+- Delegation AD
+- security AD , delegation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delegation

@@ -1,7 +1,12 @@
 ---
-Description: 'The Dnsclientcim provider supports WMI classes that interact with a Domain Name System (DNS) client.'
-ms.assetid: '093A08C5-E697-4404-908E-9366C8C10BF3'
+Description: The Dnsclientcim provider supports WMI classes that interact with a Domain Name System (DNS) client.
+ms.assetid: 093A08C5-E697-4404-908E-9366C8C10BF3
 title: Dnsclientcim Provider Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dnsclientcim Provider Classes
@@ -21,11 +26,11 @@ The Dnsclientcim provider supports WMI classes that interact with a Domain Name 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

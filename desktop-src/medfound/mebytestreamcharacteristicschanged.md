@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by a byte stream when the characteristics of the byte stream have changed.'
-ms.assetid: 'EC34A7A3-BF01-4F9E-BA79-131B76D4C58F'
+---
+Description: Sent by a byte stream when the characteristics of the byte stream have changed.
+ms.assetid: EC34A7A3-BF01-4F9E-BA79-131B76D4C58F
 title: MEByteStreamCharacteristicsChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEByteStreamCharacteristicsChanged event
@@ -10,7 +15,7 @@ Sent by a byte stream when the characteristics of the byte stream have changed.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -24,11 +29,11 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 This event indicates that one or more of the following characteristics has changed:
 
--   Capability flags ([**IMFByteStream::GetCapabilities**](imfbytestream-getcapabilities.md))
--   End-of-stream flag ([**IMFByteStream::IsEndOfStream**](imfbytestream-isendofstream.md))
--   Length ([**IMFByteStream::GetLength**](imfbytestream-getlength.md))
+-   Capability flags ([**IMFByteStream::GetCapabilities**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-getcapabilities?branch=master))
+-   End-of-stream flag ([**IMFByteStream::IsEndOfStream**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-isendofstream?branch=master))
+-   Length ([**IMFByteStream::GetLength**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-getlength?branch=master))
 
-Not all [**IMFByteStream**](imfbytestream.md) implementations support this event. To receive the event, query the byte-stream object for the [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface.
+Not all [**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master) implementations support this event. To receive the event, query the byte-stream object for the [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface.
 
 ## Requirements
 

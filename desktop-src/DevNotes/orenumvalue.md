@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enumerates the values for the specified open registry key in an offline registry hive. The function retrieves information for one value under the specified key each time the function is called.'
-ms.assetid: '592a404f-a35d-4d89-ad1e-d572787bcb12'
+---
+Description: Enumerates the values for the specified open registry key in an offline registry hive. The function retrieves information for one value under the specified key each time the function is called.
+ms.assetid: 592a404f-a35d-4d89-ad1e-d572787bcb12
 title: OREnumValue function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OREnumValue function

@@ -1,7 +1,12 @@
 ---
 title: DDS Bit Flag Values
 description: The content for this page has been moved to the appropriate reference page. If you are using Direct3D 10, the flags are used by DDS\_HEADER.
-ms.assetid: 'f86ececd-1d45-4ac8-bbaa-bcf7ff5dad21'
+ms.assetid: f86ececd-1d45-4ac8-bbaa-bcf7ff5dad21
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDS Bit Flag Values

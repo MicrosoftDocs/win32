@@ -1,7 +1,12 @@
-﻿---
-Description: 'Loads a string resource.'
-ms.assetid: 'b6606f7a-6fc7-4772-9971-7a7e8c145e6c'
+---
+Description: Loads a string resource.
+ms.assetid: b6606f7a-6fc7-4772-9971-7a7e8c145e6c
 title: '\_LoadString function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_LoadString function

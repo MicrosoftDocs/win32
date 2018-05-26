@@ -1,8 +1,11 @@
 ---
 title: Reset method of the Msvm\_KvpExchangeComponent class
 description: Resets the logical device.
-ms.assetid: '060efe4a-c9b3-46e2-ac12-956bcf36c244'
-keywords: ["Reset method Hyper-V", "Reset method Hyper-V , Msvm_KvpExchangeComponent class", "Msvm_KvpExchangeComponent class Hyper-V , Reset method"]
+ms.assetid: 060efe4a-c9b3-46e2-ac12-956bcf36c244
+keywords:
+- Reset method Hyper-V
+- Reset method Hyper-V , Msvm_KvpExchangeComponent class
+- Msvm_KvpExchangeComponent class Hyper-V , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_KvpExchangeComponent class
@@ -91,9 +99,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_KvpExchangeComponent**](msvm-kvpexchangecomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

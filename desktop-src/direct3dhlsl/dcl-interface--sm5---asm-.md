@@ -1,7 +1,12 @@
 ---
 title: dcl\_interface (sm5 - asm)
 description: Declare function table pointers (interfaces).
-ms.assetid: '5A4D911E-7117-409B-8FDC-9CEC2C185C15'
+ms.assetid: 5A4D911E-7117-409B-8FDC-9CEC2C185C15
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_interface (sm5 - asm)
@@ -15,7 +20,7 @@ Declare function table pointers (interfaces).
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare function table pointers (interfaces).
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,7 +77,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -91,7 +96,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 cs\_4\_0 and cs\_4\_1 support this instruction for UAV and SRV.
 
@@ -102,9 +107,9 @@ cs\_4\_0 and cs\_4\_1 support this instruction for UAV and SRV.
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

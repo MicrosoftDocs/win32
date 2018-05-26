@@ -4,11 +4,13 @@ description: Represents a terminal error.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd3f622cd-e4ce-4c7e-999e-940b67fd116c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d3f622cd-e4ce-4c7e-999e-940b67fd116c
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TerminalError class Remote Desktop Services", "Win32_TerminalError class Remote Desktop Services , described"]
+keywords:
+- Win32_TerminalError class Remote Desktop Services
+- Win32_TerminalError class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TerminalError class
@@ -149,8 +154,8 @@ The name of the terminal sin which the error occurred.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -164,9 +169,9 @@ The name of the terminal sin which the error occurred.
 [**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/aa394645)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

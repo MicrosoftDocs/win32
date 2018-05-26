@@ -1,7 +1,12 @@
 ---
-Description: 'The AddHeadI method adds an item to the front of the list.'
-ms.assetid: 'd83b3c5e-2c6d-4369-a74d-18bf19cfd34d'
-title: 'CBaseList.AddHeadI method'
+Description: The AddHeadI method adds an item to the front of the list.
+ms.assetid: d83b3c5e-2c6d-4369-a74d-18bf19cfd34d
+title: CBaseList.AddHeadI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddHeadI method
@@ -13,7 +18,7 @@ The `AddHeadI` method adds an item to the front of the list.
 
 ```C++
 POSITION AddHeadI(
-   void *pObj
+   void *pObj
 );
 ```
 
@@ -56,9 +61,9 @@ If the method fails, the return value is **NULL**.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink BalloonVisibleState
 description: IAgentNotifySink BalloonVisibleState
-ms.assetid: '240e049c-7167-41b7-b092-95ed2a83aad3'
+ms.assetid: 240e049c-7167-41b7-b092-95ed2a83aad3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::BalloonVisibleState

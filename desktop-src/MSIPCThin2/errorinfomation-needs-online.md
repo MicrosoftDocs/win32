@@ -4,11 +4,14 @@ description: The Active Directory Rights Management Services client needs networ
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.NEEDS\_ONLINE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.NEEDS\_ONLINE
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["NEEDS_ONLINE property", "NEEDS_ONLINE property, ErrorInfomation class", "ErrorInfomation class, NEEDS_ONLINE property"]
+keywords:
+- NEEDS_ONLINE property
+- NEEDS_ONLINE property, ErrorInfomation class
+- ErrorInfomation class, NEEDS_ONLINE property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.NEEDS\_ONLINE property
@@ -61,9 +67,9 @@ static property ErrorInfomation NEEDS_ONLINE {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

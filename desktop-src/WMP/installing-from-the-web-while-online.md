@@ -1,8 +1,23 @@
 ---
 title: Installing from the Web While Online
 description: Installing from the Web While Online
-ms.assetid: '891483b0-6ba4-4ed4-b043-c6c109dc696b'
-keywords: ["Windows Media Player online stores,installing from Web while online", "online stores,installing from Web while online", "type 1 online stores,installing from Web while online", "type 2 online stores,installing from Web while online", "Windows Media Player online stores,online installs from Web", "online stores,online installs from Web", "type 1 online stores,online installs from Web", "type 2 online stores,online installs from Web", "installing online stores from Web while online", "online installs of online stores"]
+ms.assetid: 891483b0-6ba4-4ed4-b043-c6c109dc696b
+keywords:
+- Windows Media Player online stores,installing from Web while online
+- online stores,installing from Web while online
+- type 1 online stores,installing from Web while online
+- type 2 online stores,installing from Web while online
+- Windows Media Player online stores,online installs from Web
+- online stores,online installs from Web
+- type 1 online stores,online installs from Web
+- type 2 online stores,online installs from Web
+- installing online stores from Web while online
+- online installs of online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing from the Web While Online

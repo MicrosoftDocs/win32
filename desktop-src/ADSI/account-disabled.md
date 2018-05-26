@@ -4,16 +4,21 @@ description: To disable a user account, set the AccountDisabled property to TRUE
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7911baa4-4178-47a9-80eb-11dc608a0ea3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7911baa4-4178-47a9-80eb-11dc608a0ea3
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Account Disabled ADSI ,LDAP provider", "LDAP provider ADSI ,user management examples,Account Disabled"]
+keywords:
+- Account Disabled ADSI ,LDAP provider
+- LDAP provider ADSI ,user management examples,Account Disabled
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Account Disabled (LDAP Provider)
 
-To disable a user account, set the AccountDisabled property to **TRUE** in the [**IADsUser**](iadsuser.md) interface. This is similar to the WinNT provider. The following code examples show how to disable a user account.
+To disable a user account, set the AccountDisabled property to **TRUE** in the [**IADsUser**](/windows/win32/Iads/nn-iads-iadsuser?branch=master) interface. This is similar to the WinNT provider. The following code examples show how to disable a user account.
 
 ## Example Code
 

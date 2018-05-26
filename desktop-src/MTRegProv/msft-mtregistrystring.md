@@ -4,11 +4,13 @@ description: Represent the string registry data.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65e1bbdd-902c-47b9-a423-722890dfcaa9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 65e1bbdd-902c-47b9-a423-722890dfcaa9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTRegistryString class", "MSFT_MTRegistryString class, described"]
+keywords:
+- MSFT_MTRegistryString class
+- MSFT_MTRegistryString class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - RegProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTRegistryString class
@@ -70,7 +75,7 @@ The **MSFT\_MTRegistryString** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -335,16 +340,16 @@ The possible values are.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                   |
 | MOF<br/>                      | <dl> <dt>RegProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RegProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,22 @@
 ---
 title: Resource.Size property
 description: The Size property gets the size of the Resource, in bytes.
-ms.assetid: '4b32ddf0-0302-4eda-b42f-5aebc2088de6'
-keywords: ["Size property WPD Automation", "Size property WPD Automation , Resource object", "Resource object WPD Automation , Size property"]
+ms.assetid: 4b32ddf0-0302-4eda-b42f-5aebc2088de6
+keywords:
+- Size property WPD Automation
+- Size property WPD Automation , Resource object
+- Resource object WPD Automation , Size property
 topic_type:
 - apiref
 api_name:
 - Resource.Size
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource.Size property
@@ -50,8 +58,8 @@ var totalSizeInBytes = stream.Size;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -62,9 +70,9 @@ var totalSizeInBytes = stream.Size;
 [**Resource Object**](resource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

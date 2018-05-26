@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '900407d6-f01b-44f4-9d60-3e2f785723ca'
-title: 'System.Video.IsStereo'
+Description: .
+ms.assetid: 900407d6-f01b-44f4-9d60-3e2f785723ca
+title: System.Video.IsStereo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.IsStereo

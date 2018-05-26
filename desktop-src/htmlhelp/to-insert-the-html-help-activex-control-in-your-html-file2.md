@@ -1,7 +1,12 @@
 ---
 title: To insert the HTML Help ActiveX control in your HTML file
 description: To insert the HTML Help ActiveX control in your HTML file
-ms.assetid: '9EB03159-FCB8-481E-A7B0-F68FC886AA53'
+ms.assetid: 9EB03159-FCB8-481E-A7B0-F68FC886AA53
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To insert the HTML Help ActiveX control in your HTML file

@@ -1,15 +1,18 @@
 ---
-Description: 'Returns the security descriptor that controls access to the printer.'
+Description: Returns the security descriptor that controls access to the printer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c12ca35c-07b3-41ad-98c4-48ee584059d1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c12ca35c-07b3-41ad-98c4-48ee584059d1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetSecurityDescriptor method of the Win32\_Printer class'
+title: GetSecurityDescriptor method of the Win32\_Printer class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the Win32\_Printer class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [out] Win32_SecurityDescriptor Descriptor
+  [out] Win32_SecurityDescriptor Descriptor
 );
 ```
 
@@ -141,8 +144,8 @@ Next
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>Win32\_Printer.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl>       |
@@ -165,9 +168,9 @@ Next
 [Changing Access Security on Securable Objects](https://msdn.microsoft.com/library/aa384905)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the shader-constant table embedded inside a shader.'
-ms.assetid: 'f7e846e4-9cb4-4634-95e3-4b2a752978a8'
+---
+Description: Gets the shader-constant table embedded inside a shader.
+ms.assetid: f7e846e4-9cb4-4634-95e3-4b2a752978a8
 title: D3DXGetShaderConstantTableEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetShaderConstantTableEx function

@@ -1,7 +1,7 @@
 ---
 title: HTTP\_LOG\_FIELD\_ Constants
 description: Define the fields in the W3C log and the error logs.
-ms.assetid: '44307d5a-f413-4ee9-9f9c-586c824d5493'
+ms.assetid: 44307d5a-f413-4ee9-9f9c-586c824d5493
 topic_type:
 - apiref
 api_name:
@@ -36,13 +36,18 @@ api_location:
 - http.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP\_LOG\_FIELD\_ Constants
 
 The **HTTP\_LOG\_FIELD\_** constants define the fields in the W3C log and the error logs.
 
-These constants are used in the [**HTTP\_LOGGING\_INFO**](http-logging-info.md) structure.
+These constants are used in the [**HTTP\_LOGGING\_INFO**](/windows/win32/Http/ns-http-_http_logging_info?branch=master) structure.
 
 <dl> <dt>
 
@@ -326,8 +331,8 @@ The name of the request queue to which the request is dispatched. This log field
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Http.h</dt> </dl> |
 
 
@@ -339,24 +344,24 @@ The name of the request queue to which the request is dispatched. This log field
 [HTTP Server API Version 2.0 Constants](http-server-api-version-2-0-constants.md)
 </dt> <dt>
 
-[**HTTP\_LOGGING\_INFO**](http-logging-info.md)
+[**HTTP\_LOGGING\_INFO**](/windows/win32/Http/ns-http-_http_logging_info?branch=master)
 </dt> <dt>
 
-[**HttpSetUrlGroupProperty**](httpseturlgroupproperty.md)
+[**HttpSetUrlGroupProperty**](/windows/win32/Http/nf-http-httpseturlgroupproperty?branch=master)
 </dt> <dt>
 
-[**HttpSetServerSessionProperty**](httpsetserversessionproperty.md)
+[**HttpSetServerSessionProperty**](/windows/win32/Http/nf-http-httpsetserversessionproperty?branch=master)
 </dt> <dt>
 
-[**HttpQueryUrlGroupProperty**](httpqueryurlgroupproperty.md)
+[**HttpQueryUrlGroupProperty**](/windows/win32/Http/nf-http-httpqueryurlgroupproperty?branch=master)
 </dt> <dt>
 
-[**HttpQueryServerSessionProperty**](httpqueryserversessionproperty.md)
+[**HttpQueryServerSessionProperty**](/windows/win32/Http/nf-http-httpqueryserversessionproperty?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

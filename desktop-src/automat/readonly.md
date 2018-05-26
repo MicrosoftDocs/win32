@@ -1,7 +1,12 @@
 ---
 title: readonly
 description: Prohibits assignment to a variable.
-ms.assetid: '7517b99b-2305-4d79-9ffe-161917331eee'
+ms.assetid: 7517b99b-2305-4d79-9ffe-161917331eee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # readonly

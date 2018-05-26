@@ -1,7 +1,12 @@
 ---
 title: NTLMSSP
 description: NTLMSSP
-ms.assetid: 'ae434165-4429-4ef0-b083-60abdfc50de0'
+ms.assetid: ae434165-4429-4ef0-b083-60abdfc50de0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NTLMSSP
@@ -10,9 +15,9 @@ NTLMSSP, whose authentication service identifier is RPC\_C\_AUTHN\_WINNT, is a s
 
 NTLM works both locally and across computers. That is, if the client and server are on different computers, NTLM can still make sure the client is who it claims to be.
 
-With NTLM, the client's identity is represented by a domain name, user name, and a password or token. When a server calls [**CoQueryClientBlanket**](coqueryclientblanket.md), the client's domain name and user name are returned. However, when a server calls [**CoImpersonateClient**](coimpersonateclient.md), the client's token is returned. If there is no trust relationship between client and server and if the server has a local account with the same name and password as the client, that account will be used to represent the client.
+With NTLM, the client's identity is represented by a domain name, user name, and a password or token. When a server calls [**CoQueryClientBlanket**](/windows/win32/combaseapi/nf-combaseapi-coqueryclientblanket?branch=master), the client's domain name and user name are returned. However, when a server calls [**CoImpersonateClient**](/windows/win32/combaseapi/nf-combaseapi-coimpersonateclient?branch=master), the client's token is returned. If there is no trust relationship between client and server and if the server has a local account with the same name and password as the client, that account will be used to represent the client.
 
-NTLM supports mutual authentication cross-thread and cross-process (locally only). If the client specifies the principal name of the server in the form domain\\user in a call to [**IClientSecurity::SetBlanket**](iclientsecurity-setblanket.md), the server's identity must match that principal name or the call will fail. If the client specifies **NULL**, the server's identity will not be checked.
+NTLM supports mutual authentication cross-thread and cross-process (locally only). If the client specifies the principal name of the server in the form domain\\user in a call to [**IClientSecurity::SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master), the server's identity must match that principal name or the call will fail. If the client specifies **NULL**, the server's identity will not be checked.
 
 NTLM additionally supports the delegate impersonation level cross-thread and cross-process (locally only).
 

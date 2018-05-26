@@ -1,7 +1,12 @@
-﻿---
-Description: 'Instructs an IME window to get the position of the candidate window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.'
-ms.assetid: 'e582dbc2-8081-424c-a972-1a182a477293'
-title: 'IMC\_GETCANDIDATEPOS command'
+---
+Description: Instructs an IME window to get the position of the candidate window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+ms.assetid: e582dbc2-8081-424c-a972-1a182a477293
+title: IMC\_GETCANDIDATEPOS command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMC\_GETCANDIDATEPOS command
@@ -29,7 +34,7 @@ Set to IMC\_GETCANDIDATEPOS.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a [**CANDIDATEFORM**](candidateform.md) structure that contains the position of the candidate window.
+Pointer to a [**CANDIDATEFORM**](/windows/win32/Imm/ns-imm-tagcandidateform?branch=master) structure that contains the position of the candidate window.
 
 </dd> </dl>
 
@@ -63,7 +68,7 @@ Because the IME might adjust the position of a candidate window, an application 
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**CANDIDATEFORM**](candidateform.md)
+[**CANDIDATEFORM**](/windows/win32/Imm/ns-imm-tagcandidateform?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: About Common Controls
 description: This topic discusses the common controls, a set of windows that are implemented by the common control library, Comctl32.dll, which is a DLL included with the Windows operating system.
-ms.assetid: 'c0d3eff4-c5b5-4b59-b980-96e0e4d6a595'
+ms.assetid: c0d3eff4-c5b5-4b59-b980-96e0e4d6a595
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Common Controls

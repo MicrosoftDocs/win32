@@ -1,14 +1,20 @@
 ---
 title: Texture Type
 description: Use the following syntax to declare a texture variable.
-ms.assetid: '54db5432-dab8-4a4d-a4de-93c6fa640535'
-keywords: ["Texture Type HLSL"]
+ms.assetid: 54db5432-dab8-4a4d-a4de-93c6fa640535
+keywords:
+- Texture Type HLSL
 topic_type:
 - apiref
 api_name:
 - Texture Type
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Type
@@ -23,7 +29,7 @@ Use the following syntax to declare a texture variable.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Use the following syntax to declare a texture variable.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -102,7 +108,7 @@ There are three parts to using a texture.
 
 
 
- 
+ 
 
 ## See also
 
@@ -111,9 +117,9 @@ There are three parts to using a texture.
 [Data Types (DirectX HLSL)](dx-graphics-hlsl-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

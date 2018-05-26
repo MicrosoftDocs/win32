@@ -2,13 +2,19 @@
 title: switch\_type attribute
 description: The \ switch\_type\ attribute identifies the type of the variable used as the union discriminant. The switch type can be an integer, character, Boolean, or enumeration type.
 ms.assetid: e4c6d33b-d4db-42b7-9d18-fd14bf1fb530
-keywords: ["switch_type attribute MIDL"]
+keywords:
+- switch_type attribute MIDL
 topic_type:
 - apiref
 api_name:
 - switch_type
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # switch\_type attribute

@@ -1,8 +1,9 @@
 ---
 title: TDM\_SET\_PROGRESS\_BAR\_RANGE message
 description: Sets the minimum and maximum values for the progress bar in a task dialog.
-ms.assetid: 'ca8b48bc-cf56-4678-bb3d-7c730a96d98c'
-keywords: ["TDM_SET_PROGRESS_BAR_RANGE message Windows Controls"]
+ms.assetid: ca8b48bc-cf56-4678-bb3d-7c730a96d98c
+keywords:
+- TDM_SET_PROGRESS_BAR_RANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_SET\_PROGRESS\_BAR\_RANGE message
@@ -45,15 +51,15 @@ Returns the previous minimum and maximum values, if successful, or zero otherwis
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

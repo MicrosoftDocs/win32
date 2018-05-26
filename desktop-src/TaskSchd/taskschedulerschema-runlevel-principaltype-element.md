@@ -1,14 +1,20 @@
 ---
 title: RunLevel (runLevelType) Element
 description: Contains a value that specifies the security context level for running the task.
-ms.assetid: 'dc113ffa-8ac9-4dcd-a106-45295da42f46'
-keywords: ["RunLevel element Task Scheduler"]
+ms.assetid: dc113ffa-8ac9-4dcd-a106-45295da42f46
+keywords:
+- RunLevel element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - RunLevel
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunLevel (runLevelType) Element
@@ -35,7 +41,7 @@ The **RunLevel** element is defined by the [**runLevelType**](taskschedulerschem
 
 ## Remarks
 
-For C++ development, see [**RunLevel Property of IPrincipal**](iprincipal-runlevel.md).
+For C++ development, see [**RunLevel Property of IPrincipal**](/windows/win32/taskschd/nf-taskschd-iprincipal-get_runlevel?branch=master).
 
 For script development, see [**Principal.RunLevel**](principal-runlevel.md).
 
@@ -49,14 +55,14 @@ If a task is registered using the **Administrators** group for the security cont
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

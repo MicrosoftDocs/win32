@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Description property for the FaxStatus object of a parent FaxPort object. The Description property is a null-terminated string that describes the current status of the specified port.'
-ms.assetid: 'db7ec3df-2663-4ec9-ae7b-466ff1329e07'
-title: 'FaxStatus.Description property'
+---
+Description: Retrieves the Description property for the FaxStatus object of a parent FaxPort object. The Description property is a null-terminated string that describes the current status of the specified port.
+ms.assetid: db7ec3df-2663-4ec9-ae7b-466ff1329e07
+title: FaxStatus.Description property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.Description property
@@ -55,13 +60,13 @@ The **IFaxStatus::get\_Description** method allocates the memory required for th
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

@@ -1,8 +1,9 @@
 ---
 title: CB\_SETEXTENDEDUI message
 description: An application sends a CB\_SETEXTENDEDUI message to select either the default UI or the extended UI for a combo box that has the CBS\_DROPDOWN or CBS\_DROPDOWNLIST style.
-ms.assetid: 'c489e484-777e-4afa-996b-1ec3eb6552ab'
-keywords: ["CB_SETEXTENDEDUI message Windows Controls"]
+ms.assetid: c489e484-777e-4afa-996b-1ec3eb6552ab
+keywords:
+- CB_SETEXTENDEDUI message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_SETEXTENDEDUI message
@@ -49,8 +55,8 @@ By default, the F4 key opens or closes the list and the DOWN ARROW changes the c
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -71,9 +77,9 @@ By default, the F4 key opens or closes the list and the DOWN ARROW changes the c
 [Combo Box Features](combo-box-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

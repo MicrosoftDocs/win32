@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for TCP/IP events. The following syntax is simplified from MOF code.'
-ms.assetid: '1cde7e37-52da-4108-90ce-7647a5653f65'
-title: 'TcpIp\_V1\_TypeGroup1 class'
+---
+Description: This class is the event type class for TCP/IP events. The following syntax is simplified from MOF code.
+ms.assetid: 1cde7e37-52da-4108-90ce-7647a5653f65
+title: TcpIp\_V1\_TypeGroup1 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TcpIp\_V1\_TypeGroup1 class

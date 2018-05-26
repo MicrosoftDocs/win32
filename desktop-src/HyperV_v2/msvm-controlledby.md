@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a storage device with the storage controller that owns the device.'
-ms.assetid: '3DE05EDC-C54A-4C3C-9057-4418246037D5'
-title: 'Msvm\_ControlledBy class'
+Description: Associates a storage device with the storage controller that owns the device.
+ms.assetid: 3DE05EDC-C54A-4C3C-9057-4418246037D5
+title: Msvm\_ControlledBy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ControlledBy class
@@ -16,17 +21,17 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ControlledBy : CIM_ControlledBy
 {
-  uint64                NegotiatedSpeed = 0;
-  uint32                NegotiatedDataWidth = 0;
-  CIM_Controller    REF Antecedent;
+  uint64                NegotiatedSpeed = 0;
+  uint32                NegotiatedDataWidth = 0;
+  CIM_Controller    REF Antecedent;
   CIM_LogicalDevice REF Dependent;
-  uint16                AccessState = 1;
-  datetime              TimeOfDeviceReset;
-  uint32                NumberOfHardResets;
-  uint32                NumberOfSoftResets;
-  string                DeviceNumber;
-  uint16                AccessMode = 2;
-  uint16                AccessPriority = 0;
+  uint16                AccessState = 1;
+  datetime              TimeOfDeviceReset;
+  uint32                NumberOfHardResets;
+  uint32                NumberOfSoftResets;
+  string                DeviceNumber;
+  uint16                AccessMode = 2;
+  uint16                AccessPriority = 0;
 };
 ```
 
@@ -195,8 +200,8 @@ Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -216,9 +221,9 @@ Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering.
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

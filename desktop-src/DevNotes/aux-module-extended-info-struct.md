@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains extended module information.'
-ms.assetid: '705769de-0aeb-4a28-b174-8620efa74baf'
-title: 'AUX\_MODULE\_EXTENDED\_INFO structure'
+---
+Description: Contains extended module information.
+ms.assetid: 705769de-0aeb-4a28-b174-8620efa74baf
+title: AUX\_MODULE\_EXTENDED\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AUX\_MODULE\_EXTENDED\_INFO structure

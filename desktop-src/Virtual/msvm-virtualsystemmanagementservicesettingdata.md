@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSystemManagementServiceSettingData class
 description: Represents the settings for the virtualization service present on a single host system.
-ms.assetid: '52681cf1-1db0-475f-8566-a2501dd456be'
-keywords: ["Msvm_VirtualSystemManagementServiceSettingData class Hyper-V", "Msvm_VirtualSystemManagementServiceSettingData class Hyper-V , described"]
+ms.assetid: 52681cf1-1db0-475f-8566-a2501dd456be
+keywords:
+- Msvm_VirtualSystemManagementServiceSettingData class Hyper-V
+- Msvm_VirtualSystemManagementServiceSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemManagementServiceSettingData class
@@ -38,19 +45,19 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemManagementServiceSettingData : CIM_SettingData
 {
-  string  Caption = "Virtual System Management Service";
-  string  Description = "Settings for the Virtual System Management Service";
-  string  InstanceID = "Microsoft:host";
-  string  ElementName = "Virtual System Management Service";
-  string  PrimaryOwnerName = "Administrators";
-  string  PrimaryOwnerContact = "";
-  string  ScopeOfResidence = "";
-  string  DefaultExternalDataRoot = "root\ProgramData\Microsoft\Windows\Virtualization";
-  string  DefaultVirtualHardDiskPath = "root\Users\Public\Documents\Virtual Hard Disks";
-  string  MinimumMacAddress;
-  string  MaximumMacAddress;
+  string  Caption = "Virtual System Management Service";
+  string  Description = "Settings for the Virtual System Management Service";
+  string  InstanceID = "Microsoft:host";
+  string  ElementName = "Virtual System Management Service";
+  string  PrimaryOwnerName = "Administrators";
+  string  PrimaryOwnerContact = "";
+  string  ScopeOfResidence = "";
+  string  DefaultExternalDataRoot = "root\ProgramData\Microsoft\Windows\Virtualization";
+  string  DefaultVirtualHardDiskPath = "root\Users\Public\Documents\Virtual Hard Disks";
+  string  MinimumMacAddress;
+  string  MaximumMacAddress;
   boolean NumaSpanningEnabled;
-  string  BiosLockString;
+  string  BiosLockString;
 };
 ```
 
@@ -228,13 +235,13 @@ Specifies if memory can be allocated from remote nonuniform memory access (NUMA)
 
 
 
- 
+ 
 
 This is a read-only property, but it can be changed by using the [**ModifyServiceSettings**](modifyservicesettings-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-**Windows Server 2008 R2:** Reserved for future use. Note that this behavior has changed with Windows Server 2008 R2 with SP1.
+**Windows Server 2008 R2:** Reserved for future use. Note that this behavior has changed with Windows Server 2008 R2 with SP1.
 
-**Windows Server 2008:** The **NumaSpanningEnabled** property is not available before Windows Server 2008 R2.
+**Windows Server 2008:** The **NumaSpanningEnabled** property is not available before Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -300,9 +307,9 @@ Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -321,9 +328,9 @@ Access to the **Msvm\_VirtualSystemManagementServiceSettingData** class might be
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Solution GetSessionLogFile method
 description: Retrieve the name of the debugging log files that contain a record of the Axe engine execution.
-ms.assetid: '9C4B5A6E-DC0F-4613-862A-3DD000165615'
-keywords: ["GetSessionLogFile method Access Execution Engine", "GetSessionLogFile method Access Execution Engine , Solution interface", "Solution interface Access Execution Engine , GetSessionLogFile method"]
+ms.assetid: 9C4B5A6E-DC0F-4613-862A-3DD000165615
+keywords:
+- GetSessionLogFile method Access Execution Engine
+- GetSessionLogFile method Access Execution Engine , Solution interface
+- Solution interface Access Execution Engine , GetSessionLogFile method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Solution::GetSessionLogFile method
@@ -22,7 +30,7 @@ Retrieve the name of the debugging log files that contain a record of the Axe en
 
 ```C++
 virtual HRESULT GetSessionLogFile(
-  [out, optional] LPCWSTR *sessionLogFile
+  [out, optional] LPCWSTR *sessionLogFile
 ) const = 0;
 ```
 
@@ -53,8 +61,8 @@ Managed code uses the [**Solution.SessionLogFile \| sessionLogFile**](axe-soluti
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ Managed code uses the [**Solution.SessionLogFile \| sessionLogFile**](axe-soluti
 [**Solution**](solution-inf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

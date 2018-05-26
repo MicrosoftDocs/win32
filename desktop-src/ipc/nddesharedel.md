@@ -1,12 +1,17 @@
 ---
-Description: 'Deletes a DDE share from the DDE share database manager (DSDM).'
-ms.assetid: '3240f4b1-2625-46bc-9bbe-27737c59df81'
+Description: Deletes a DDE share from the DDE share database manager (DSDM).
+ms.assetid: 3240f4b1-2625-46bc-9bbe-27737c59df81
 title: NDdeShareDel function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeShareDel function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Deletes a DDE share from the DDE share database manager (DSDM).
 
@@ -15,9 +20,9 @@ Deletes a DDE share from the DDE share database manager (DSDM).
 
 ```C++
 UINT NDdeShareDel(
-  _In_ LPTSTR lpszServer,
-  _In_ LPTSTR lpszShareName,
-  _In_ UINT   wReserved
+  _In_ LPTSTR lpszServer,
+  _In_ LPTSTR lpszShareName,
+  _In_ UINT   wReserved
 );
 ```
 
@@ -64,8 +69,8 @@ To delete a DDE share from the DSDM, you must have the appropriate privilege. Th
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -83,9 +88,9 @@ To delete a DDE share from the DSDM, you must have the appropriate privilege. Th
 [Network DDE Functions](network-dde-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

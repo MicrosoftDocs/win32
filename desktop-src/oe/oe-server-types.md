@@ -1,7 +1,7 @@
 ---
 title: Server Types
 description: Do not use. Server type values that can be set and their meaning.
-ms.assetid: 'd97e83f4-1843-4921-ba0b-833f91b9c7c1'
+ms.assetid: d97e83f4-1843-4921-ba0b-833f91b9c7c1
 topic_type:
 - apiref
 api_name:
@@ -17,6 +17,11 @@ api_location:
 - Imnact.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Server Types
@@ -44,17 +49,17 @@ Do not use. Server type values that can be set and their meaning.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

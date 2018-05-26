@@ -1,8 +1,20 @@
 ---
 title: Audio Mixer Functions
 description: Audio Mixer Functions
-ms.assetid: '19f53a98-1a01-4954-a5d7-c428aa2bfa38'
-keywords: ["multimedia audio,audio mixer functions", "audio,audio mixer functions", "multimedia audio,mixer functions", "audio,mixer functions", "audio mixers,functions", "mixers,functions", "reference for audio mixers,functions"]
+ms.assetid: 19f53a98-1a01-4954-a5d7-c428aa2bfa38
+keywords:
+- multimedia audio,audio mixer functions
+- audio,audio mixer functions
+- multimedia audio,mixer functions
+- audio,mixer functions
+- audio mixers,functions
+- mixers,functions
+- reference for audio mixers,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Mixer Functions

@@ -1,7 +1,12 @@
 ---
-Description: 'The graph is buffering data, or has stopped buffering data.'
-ms.assetid: '39e8b151-0323-42b3-99f0-3dcd230925c8'
-title: 'EC\_BUFFERING\_DATA'
+Description: The graph is buffering data, or has stopped buffering data.
+ms.assetid: 39e8b151-0323-42b3-99f0-3dcd230925c8
+title: EC\_BUFFERING\_DATA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_BUFFERING\_DATA
@@ -54,9 +59,9 @@ A filter can send this event if it needs to buffer data from an external source.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

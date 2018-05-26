@@ -1,7 +1,12 @@
 ---
-Description: 'The following table identifies the Windows Installer database tables.'
-ms.assetid: '58271b4b-c7c7-454d-b6dd-9c01a51900ce'
+Description: The following table identifies the Windows Installer database tables.
+ms.assetid: 58271b4b-c7c7-454d-b6dd-9c01a51900ce
 title: Database Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Database Tables
@@ -70,16 +75,16 @@ The following table identifies the Windows Installer database tables.
 | [MsiEmbeddedUI](msiembeddedui-table.md)                                   | Defines a user interface embedded in the Windows Installer package. **[Windows Installer 4.0 and earlier](not-supported-in-windows-installer-4-0.md):** Not supported.<br/>                                                                                        |
 | [MsiFileHash](msifilehash-table.md)                                       | Stores a 128-bit hash of source files provided by the Windows Installer package.                                                                                                                                                                                          |
 | [MsiLockPermissionsEx Table](msilockpermissionsex-table.md)               | Secures services, files, registry keys, and created folders. **[Windows Installer 4.5 and earlier](not-supported-in-windows-installer-4-5.md):** Not supported.<br/>                                                                                               |
-| [MsiPackageCertificate](msipackagecertificate-table.md)                   | Lists digital signature certificates being used to verify the identity of installation packages that make this [Multiple-Package Installation](multiple-package-installations.md). Available beginning with Windows Installer 4.5.                                       |
-| [MsiPatchCertificate](msipatchcertificate-table.md)                       | Contains the information needed to enable [User Account Control (UAC) Patching](user-account-control--uac--patching.md). Available beginning with Windows Installer 3.0.                                                                                                 |
+| [MsiPackageCertificate](msipackagecertificate-table.md)                   | Lists digital signature certificates being used to verify the identity of installation packages that make this [Multiple-Package Installation](multiple-package-installations.md). Available beginning with Windows Installer 4.5.                                       |
+| [MsiPatchCertificate](msipatchcertificate-table.md)                       | Contains the information needed to enable [User Account Control (UAC) Patching](user-account-control--uac--patching.md). Available beginning with Windows Installer 3.0.                                                                                                 |
 | [MsiPatchHeaders](msipatchheaders-table.md)                               | Holds the binary patch header streams used for patch validation.                                                                                                                                                                                                          |
-| [MsiPatchMetadata](msipatchmetadata-table.md)                             | Holds information about a Windows Installer patch required to remove the patch and used by Add/Remove Programs. Available beginning with Windows Installer 3.0.                                                                                                           |
+| [MsiPatchMetadata](msipatchmetadata-table.md)                             | Holds information about a Windows Installer patch required to remove the patch and used by Add/Remove Programs. Available beginning with Windows Installer 3.0.                                                                                                           |
 | [MsiPatchOldAssemblyName](msipatcholdassemblyname-table.md)               | Specifies the old name for an assembly.                                                                                                                                                                                                                                   |
 | [MsiPatchOldAssemblyFile](msipatcholdassemblyfile-table.md)               | Relates a file in the [File Table](file-table.md) to an assembly name.                                                                                                                                                                                                   |
-| [MsiPatchSequence](msipatchsequence-table.md)                             | Contains the information required to determine the sequence of application of a small update patch relative to all other patches. Available beginning with Windows Installer 3.0.                                                                                         |
+| [MsiPatchSequence](msipatchsequence-table.md)                             | Contains the information required to determine the sequence of application of a small update patch relative to all other patches. Available beginning with Windows Installer 3.0.                                                                                         |
 | [MsiServiceConfig](msiserviceconfig-table.md)                             | Configures a service that is installed or being installed by the current package. **[Windows Installer 4.5 and earlier](not-supported-in-windows-installer-4-5.md):** Not supported.<br/>                                                                          |
 | [MsiServiceConfigFailureActions](msiserviceconfigfailureactions-table.md) | Lists operations to be run after a service fails. The operations specified in this table run the next time the system is started. **[Windows Installer 4.5 and earlier](not-supported-in-windows-installer-4-5.md):** Not supported.<br/>                          |
-| [MsiSFCBypass](msisfcbypass-table.md)                                     | Lists files that should bypass Windows File Protection on Windows Me.                                                                                                                                                                                                     |
+| [MsiSFCBypass](msisfcbypass-table.md)                                     | Lists files that should bypass Windows File Protection on Windows Me.                                                                                                                                                                                                     |
 | [ODBCAttribute](odbcattribute-table.md)                                   | Lists attributes of ODBC drivers and translators.                                                                                                                                                                                                                         |
 | [ODBCDataSource](odbcdatasource-table.md)                                 | Lists data sources belonging to the installation.                                                                                                                                                                                                                         |
 | [ODBCDriver](odbcdriver-table.md)                                         | Lists ODBC drivers belonging to the installation.                                                                                                                                                                                                                         |
@@ -117,11 +122,11 @@ The following table identifies the Windows Installer database tables.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: ServiceTask1 Element
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ServiceTask1 element represents the first online store task pane.
-ms.assetid: '39b149ae-ea67-4fba-812b-15a97044fcd8'
-keywords: ["ServiceTask1 Element Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ServiceTask1 element represents the first online store task pane.
+ms.assetid: 39b149ae-ea67-4fba-812b-15a97044fcd8
+keywords:
+- ServiceTask1 Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ServiceTask1 Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ServiceTask1 Element
@@ -16,7 +22,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **ServiceTask1** element represents the first online store task pane.
 
@@ -36,7 +42,7 @@ The **ServiceTask1** element represents the first online store task pane.
 
 
 
- 
+ 
 
 ## Parent/Child Elements
 
@@ -49,7 +55,7 @@ The **ServiceTask1** element represents the first online store task pane.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,7 +64,7 @@ The **ServiceTask1** element represents the first online store task pane.
 > [!Note]  
 > Windows Media Player 10 has three task panes where an online store can display its webpages. The online store can choose to use one, two, or all three of the task panes. Windows Media Player 11 has only one task pane, represented by **ServiceTask1**, which the user can view by clicking on the **Online Stores** tab.
 
- 
+ 
 
 Online store task panes share a single browser instance. This means that you should not write script code in your webpage that you expect to continue to run when the user switches away from the current service task.
 
@@ -77,7 +83,7 @@ The following table details the parameters sent with the URL request. Others may
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -102,9 +108,9 @@ The following table details the parameters sent with the URL request. Others may
 [**ServiceInfo Document**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

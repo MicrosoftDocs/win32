@@ -1,8 +1,28 @@
 ---
 title: Using Auto Playlists to Organize Content in the Library
 description: Using Auto Playlists to Organize Content in the Library
-ms.assetid: '118d4357-044f-4986-af51-0c344470e891'
-keywords: ["Windows Media Player online stores,auto playlists", "online stores,auto playlists", "type 1 online stores,auto playlists", "type 2 online stores,auto playlists", "Windows Media Player online stores,organizing library content", "online stores,organizing library content", "type 1 online stores,organizing library content", "type 2 online stores,organizing library content", "Windows Media Player online stores,library content organizing", "online stores,library content organizing", "type 1 online stores,library content organizing", "type 2 online stores,library content organizing", "library,organizing content", "organizing library content", "auto playlists"]
+ms.assetid: 118d4357-044f-4986-af51-0c344470e891
+keywords:
+- Windows Media Player online stores,auto playlists
+- online stores,auto playlists
+- type 1 online stores,auto playlists
+- type 2 online stores,auto playlists
+- Windows Media Player online stores,organizing library content
+- online stores,organizing library content
+- type 1 online stores,organizing library content
+- type 2 online stores,organizing library content
+- Windows Media Player online stores,library content organizing
+- online stores,library content organizing
+- type 1 online stores,library content organizing
+- type 2 online stores,library content organizing
+- library,organizing content
+- organizing library content
+- auto playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Auto Playlists to Organize Content in the Library

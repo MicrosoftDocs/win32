@@ -1,7 +1,12 @@
 ---
 title: ATA Port Routines for Registry Access
 description: ATA Port Routines for Registry Access
-ms.assetid: '36d483b3-66b1-43ac-bc76-31405108f349'
+ms.assetid: 36d483b3-66b1-43ac-bc76-31405108f349
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port Routines for Registry Access

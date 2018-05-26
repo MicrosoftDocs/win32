@@ -1,8 +1,11 @@
 ---
 title: Activity GetReferences method
 description: Returns the ReferenceCollection of the Activity.
-ms.assetid: 'BBB8A867-D1D3-4769-89AB-9524449CD2D5'
-keywords: ["GetReferences method Access Execution Engine", "GetReferences method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , GetReferences method"]
+ms.assetid: BBB8A867-D1D3-4769-89AB-9524449CD2D5
+keywords:
+- GetReferences method Access Execution Engine
+- GetReferences method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , GetReferences method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::GetReferences method
@@ -22,7 +30,7 @@ Returns the [**ReferenceCollection**](referencecollection.md) of the **Activity*
 
 ```C++
 virtual HRESULT GetReferences(
-  [out] ReferenceCollection **references
+  [out] ReferenceCollection **references
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The **ReferenceCollection** holds data from element **Activity/References**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The **ReferenceCollection** holds data from element **Activity/References**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

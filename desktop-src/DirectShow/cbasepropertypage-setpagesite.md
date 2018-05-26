@@ -1,7 +1,12 @@
 ---
-Description: 'The SetPageSite method initializes the property page and provides a pointer to the property frame''s IPropertyPageSite interface. This method implements the IPropertyPage::SetPageSite method.'
-ms.assetid: '16c4633f-2f91-4b1b-a47c-4ef945c3af00'
-title: 'CBasePropertyPage.SetPageSite method'
+Description: The SetPageSite method initializes the property page and provides a pointer to the property frames IPropertyPageSite interface. This method implements the IPropertyPageSetPageSite method.
+ms.assetid: 16c4633f-2f91-4b1b-a47c-4ef945c3af00
+title: CBasePropertyPage.SetPageSite method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.SetPageSite method
@@ -13,7 +18,7 @@ The `SetPageSite` method initializes the property page and provides a pointer to
 
 ```C++
 HRESULT SetPageSite(
-   IPropertyPageSite *pPageSite
+   IPropertyPageSite *pPageSite
 );
 ```
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The method stores the *pPageSite* pointer in the [**CBasePropertyPage::m\_pPageS
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

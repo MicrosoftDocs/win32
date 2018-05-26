@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a cluster shared volume.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb2e5ece-e8c8-4da5-8ddf-0b52fdcad715'
-ms.prod: 'windows-server-dev'
+ms.assetid: bb2e5ece-e8c8-4da5-8ddf-0b52fdcad715
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterSharedVolume class", "MSCluster_ClusterSharedVolume class, described"]
+keywords:
+- MSCluster_ClusterSharedVolume class
+- MSCluster_ClusterSharedVolume class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterSharedVolume class
@@ -44,17 +49,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{15b2185f-3e18-4685-9136-5a3695ef62a6}"), AMENDMENT]
 class MSCluster_ClusterSharedVolume : MSCluster_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   Name;
-  uint32   Flags;
-  uint32   Characteristics;
-  string   VolumeName;
-  uint32   FaultState;
-  uint64   VolumeOffset;
-  uint32   BackupState;
+  string   Status;
+  string   Name;
+  uint32   Flags;
+  uint32   Characteristics;
+  string   VolumeName;
+  uint32   FaultState;
+  uint64   VolumeOffset;
+  uint32   BackupState;
 };
 ```
 
@@ -81,7 +86,7 @@ The **MSCluster\_ClusterSharedVolume** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -116,7 +121,7 @@ Returns the backup state of the cluster shared volume.
 
 </dt> <dd>
 
-**Windows Server 2012 and Windows Server 2008 R2:** This value was **InProgress** before Windows Server 2012 R2.
+**Windows Server 2012 and Windows Server 2008 R2:** This value was **InProgress** before Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -151,9 +156,9 @@ Access type: Read-only
 
 Provides the characteristics of the object. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md)
 
@@ -194,7 +199,7 @@ Returns the fault state of the cluster shared volume.
 
 </dt> <dd>
 
-**Windows Server 2012 and Windows Server 2008 R2:** This value was **NoFaults** before Windows Server 2012 R2.
+**Windows Server 2012 and Windows Server 2008 R2:** This value was **NoFaults** before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -205,7 +210,7 @@ Returns the fault state of the cluster shared volume.
 
 </dt> <dd>
 
-**Windows Server 2012 and Windows Server 2008 R2:** This value was **NoDirectIO** before Windows Server 2012 R2.
+**Windows Server 2012 and Windows Server 2008 R2:** This value was **NoDirectIO** before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -216,7 +221,7 @@ Returns the fault state of the cluster shared volume.
 
 </dt> <dd>
 
-**Windows Server 2012 and Windows Server 2008 R2:** This value was **NoAccess** before Windows Server 2012 R2.
+**Windows Server 2012 and Windows Server 2008 R2:** This value was **NoAccess** before Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -227,7 +232,7 @@ Returns the fault state of the cluster shared volume.
 
 </dt> <dd>
 
-**Windows Server 2012 and Windows Server 2008 R2:** This value was **Maintenence** before Windows Server 2012 R2.
+**Windows Server 2012 and Windows Server 2008 R2:** This value was **Maintenence** before Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -244,9 +249,9 @@ Access type: Read-only
 
 Provides access to the flags set for the object. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md)
 
@@ -409,7 +414,7 @@ Returns the volume offset of the cluster shared volume.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -426,9 +431,9 @@ Returns the volume offset of the cluster shared volume.
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

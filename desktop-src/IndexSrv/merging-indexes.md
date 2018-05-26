@@ -1,7 +1,12 @@
 ---
 title: Merging Indexes
 description: Merging Indexes
-ms.assetid: '51ffdd5e-220e-4bc0-9eb4-b5c26daca612'
+ms.assetid: 51ffdd5e-220e-4bc0-9eb4-b5c26daca612
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merging Indexes

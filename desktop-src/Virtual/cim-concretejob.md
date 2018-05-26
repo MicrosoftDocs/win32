@@ -1,8 +1,10 @@
 ---
 title: CIM\_ConcreteJob class
 description: A concrete version of the CIM\_Job class. This class represent a generic instantiable unit of work to run, such as a batch or a print job.
-ms.assetid: '40a091bd-dbb3-4ef2-99c5-ce5fff6c47f2'
-keywords: ["CIM_ConcreteJob class Hyper-V", "CIM_ConcreteJob class Hyper-V , described"]
+ms.assetid: 40a091bd-dbb3-4ef2-99c5-ce5fff6c47f2
+keywords:
+- CIM_ConcreteJob class Hyper-V
+- CIM_ConcreteJob class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -46,6 +48,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ConcreteJob class
@@ -60,39 +67,39 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Version("2.11.0"), AMENDMENT]
 class CIM_ConcreteJob : CIM_Job
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   JobStatus;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  string   ErrorSummaryDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
-  string   InstanceID;
-  string   Name;
-  uint16   JobState;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  string   ErrorSummaryDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
+  string   InstanceID;
+  string   Name;
+  uint16   JobState;
   datetime TimeOfLastStateChange;
   datetime TimeBeforeRemoval = "00000000000500.000000:000";
 };
@@ -145,7 +152,7 @@ Deprecated description: Shuts down a job.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -185,7 +192,7 @@ Access type: Read/write
 > [!Note]  
 > This property will not delete jobs that complete before this property is set to **True**.
 
- 
+ 
 
 This property is inherited from [**CIM\_Job**](cim-job.md).
 
@@ -442,7 +449,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -732,7 +739,7 @@ The user-friendly name of the instance. In addition, the user-friendly name can 
 > [!Note]  
 > The name does not have to be unique within the namespace.
 
- 
+ 
 
 </dd> <dt>
 
@@ -768,7 +775,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1062,7 +1069,7 @@ The percentage of the job that is complete.
 > [!Note]  
 > The value "101" is undefined and will be not be allowed in the next major revision of the specification.
 
- 
+ 
 
 This property is inherited from [**CIM\_Job**](cim-job.md).
 
@@ -1515,7 +1522,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**C
 > [!Note]  
 > This property is deprecated. Instead we recommend that you use the **RunMonth**, **RunDay**, **RunDayOfWeek**, and **RunStartInterval** properties.
 
- 
+ 
 
 The time when the current job is scheduled to start. This time can be represented by a date and time, or an interval relative to the time when the property is requested. A value of all zeroes indicates that the job is already executing.
 
@@ -1555,7 +1562,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1609,7 +1616,7 @@ The date or time when the state of the job last changed.
 > [!Note]  
 > If the state of the Job has not changed and this property is populated, then it must be set to a zero interval value.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1653,9 +1660,9 @@ This property is inherited from [**CIM\_Job**](cim-job.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1668,9 +1675,9 @@ This property is inherited from [**CIM\_Job**](cim-job.md).
 [**CIM\_Job**](cim-job.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFMediaTypeHandler::GetCurrentMediaType method.'
-ms.assetid: 'f7f69adb-2a4a-47a9-bb92-ad9d005b962f'
+---
+Description: Remotable version of the IMFMediaTypeHandlerGetCurrentMediaType method.
+ms.assetid: f7f69adb-2a4a-47a9-bb92-ad9d005b962f
 title: RemoteGetCurrentMediaType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteGetCurrentMediaType
 
-Remotable version of the [**IMFMediaTypeHandler::GetCurrentMediaType**](imfmediatypehandler-getcurrentmediatype.md) method.
+Remotable version of the [**IMFMediaTypeHandler::GetCurrentMediaType**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype?branch=master) method.
 
 ``` syntax
 [call_as(GetCurrentMediaType)]
@@ -18,7 +23,7 @@ HRESULT RemoteGetCurrentMediaType(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**GetCurrentMediaType**](imfmediatypehandler-getcurrentmediatype.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**GetCurrentMediaType**](/windows/win32/mfidl/nf-mfidl-imfmediatypehandler-getcurrentmediatype?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -42,7 +47,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 <dl> <dt>
 
-[**IMFMediaTypeHandler**](imfmediatypehandler.md)
+[**IMFMediaTypeHandler**](/windows/win32/mfidl/nn-mfidl-imfmediatypehandler?branch=master)
 </dt> </dl>
 
  

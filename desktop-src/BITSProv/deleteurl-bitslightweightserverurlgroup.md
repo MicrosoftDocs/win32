@@ -1,8 +1,11 @@
 ---
 title: DeleteUrl method of the BitsCompactServerUrlGroup class
 description: The DeleteUrl method deletes a URL on the server.
-ms.assetid: 'bc768d44-46dd-483f-8851-0c5286e981ff'
-keywords: ["DeleteUrl method", "DeleteUrl method, BitsCompactServerUrlGroup class", "BitsCompactServerUrlGroup class, DeleteUrl method"]
+ms.assetid: bc768d44-46dd-483f-8851-0c5286e981ff
+keywords:
+- DeleteUrl method
+- DeleteUrl method, BitsCompactServerUrlGroup class
+- BitsCompactServerUrlGroup class, DeleteUrl method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\microsoft\bits
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteUrl method of the BitsCompactServerUrlGroup class
@@ -22,7 +30,7 @@ The [**DeleteUrl**](https://msdn.microsoft.com/library/windows/desktop/aa964276)
 
 ```mof
 uint32 DeleteUrl(
-  [in] string UrlSuffix
+  [in] string UrlSuffix
 );
 ```
 
@@ -46,8 +54,8 @@ Specifies the URL suffix to delete.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
-| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                           |
+| Redistributable<br/>          | Windows Management Framework on Windows Server 2008 with SP2<br/>                     |
 | Namespace<br/>                | Root\\microsoft\\bits<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>BitsProvider.mof</dt> </dl> |
 
@@ -60,9 +68,9 @@ Specifies the URL suffix to delete.
 [**BitsCompactServerUrlGroup**](bitslightweightserverurlgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

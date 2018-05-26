@@ -1,8 +1,20 @@
 ---
 title: MIDI Messages
 description: MIDI Messages
-ms.assetid: '7c352eaf-61a5-4e56-8480-97245c08963f'
-keywords: ["multimedia audio,MIDI messages", "audio,MIDI messages", "Musical Instrument Digital Interface (MIDI),messages", "MIDI (Musical Instrument Digital Interface),messages", "reference for MIDI,messages", "MIDI reference,messages", "MIDI messages"]
+ms.assetid: 7c352eaf-61a5-4e56-8480-97245c08963f
+keywords:
+- multimedia audio,MIDI messages
+- audio,MIDI messages
+- Musical Instrument Digital Interface (MIDI),messages
+- MIDI (Musical Instrument Digital Interface),messages
+- reference for MIDI,messages
+- MIDI reference,messages
+- MIDI messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDI Messages

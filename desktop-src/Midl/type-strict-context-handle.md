@@ -1,14 +1,20 @@
 ---
 title: type\_strict\_context\_handle attribute
 description: Use the \ type\_strict\_context\_handle\ in an ACF file to set restrictions on context handles.
-ms.assetid: 'b67caad2-e87d-4eba-8555-8f347aadd515'
-keywords: ["type_strict_context_handle attribute MIDL"]
+ms.assetid: b67caad2-e87d-4eba-8555-8f347aadd515
+keywords:
+- type_strict_context_handle attribute MIDL
 topic_type:
 - apiref
 api_name:
 - type_strict_context_handle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # type\_strict\_context\_handle attribute

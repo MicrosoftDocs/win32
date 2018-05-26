@@ -2,13 +2,19 @@
 title: pipe attribute
 description: The pipe type constructor makes it possible to transmit an open-ended stream of typed data across a remote procedure call.
 ms.assetid: 85b76a55-8df2-4417-9a39-3e3bf49651fc
-keywords: ["pipe attribute MIDL"]
+keywords:
+- pipe attribute MIDL
 topic_type:
 - apiref
 api_name:
 - pipe
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pipe attribute

@@ -1,7 +1,12 @@
 ---
 Description: Core Audio Structures
-ms.assetid: '92585cd4-baa9-4f75-816e-b83f5badad37'
+ms.assetid: 92585cd4-baa9-4f75-816e-b83f5badad37
 title: Core Audio Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Audio Structures
@@ -12,16 +17,16 @@ This section describes the structures that are used by the Core Audio APIs in Wi
 
 | Structure                                                                     | Description                                                                                                                                                         |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AUDIO\_VOLUME\_NOTIFICATION\_DATA**](audio-volume-notification-data.md)   | Describes a change in the volume level or muting state of an audio endpoint device.                                                                                 |
-| [**DIRECTX\_AUDIO\_ACTIVATION\_PARAMS**](directx-audio-activation-params.md) | Specifies the initialization parameters for a DirectSound stream.                                                                                                   |
-| [**KSJACK\_DESCRIPTION**](ksjack-description.md)                             | Retrieved through [**IKsJackDescription::GetJackDescription**](iksjackdescription-getjackdescription.md); describes an audio jack.                                 |
-| [**KSJACK\_DESCRIPTION2**](ksjack-description2.md)<br/>                | Retrieved through [**IKsJackDescription2::GetJackDescription2**](iksjackdescription2-getjackdescription2.md); describes an audio jack. <br/>                 |
-| [**KSJACK\_SINK\_INFORMATION**](ksjack-sink-information.md)<br/>       | Retrieved through [**IKsJackSinkInformation::GetJackSinkInformation**](iksjacksinkinformation-getjacksinkinformation.md); describes an audio jack sink.<br/> |
-| [**LUID**](luid.md)<br/>                                               | Stores the video port identifier.<br/>                                                                                                                        |
+| [**AUDIO\_VOLUME\_NOTIFICATION\_DATA**](/windows/win32/Endpointvolume/ns-endpointvolume-audio_volume_notification_data?branch=master)   | Describes a change in the volume level or muting state of an audio endpoint device.                                                                                 |
+| [**DIRECTX\_AUDIO\_ACTIVATION\_PARAMS**](/windows/win32/Mmdeviceapi/ns-mmdeviceapi-tagdirectx_audio_activation_params?branch=master) | Specifies the initialization parameters for a DirectSound stream.                                                                                                   |
+| [**KSJACK\_DESCRIPTION**](/windows/win32/Devicetopology/ns-devicetopology-__midl___midl_itf_devicetopology_0000_0000_0009?branch=master)                             | Retrieved through [**IKsJackDescription::GetJackDescription**](/windows/win32/Devicetopology/nf-devicetopology-iksjackdescription-getjackdescription?branch=master); describes an audio jack.                                 |
+| [**KSJACK\_DESCRIPTION2**](/windows/win32/Devicetopology/ns-devicetopology-_tagksjack_description2?branch=master)<br/>                | Retrieved through [**IKsJackDescription2::GetJackDescription2**](/windows/win32/Devicetopology/nf-devicetopology-iksjackdescription2-getjackdescription2?branch=master); describes an audio jack. <br/>                 |
+| [**KSJACK\_SINK\_INFORMATION**](/windows/win32/Devicetopology/ns-devicetopology-_tagksjack_sink_information?branch=master)<br/>       | Retrieved through [**IKsJackSinkInformation::GetJackSinkInformation**](/windows/win32/Devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation?branch=master); describes an audio jack sink.<br/> |
+| [**LUID**](/windows/win32/Devicetopology/ns-devicetopology-_luid?branch=master)<br/>                                               | Stores the video port identifier.<br/>                                                                                                                        |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ This section describes the structures that are used by the Core Audio APIs in Wi
 [Programming Reference](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

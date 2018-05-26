@@ -1,8 +1,9 @@
 ---
 title: Settings.enableErrorDialogs
 description: The enableErrorDialogs property specifies or retrieves a value indicating whether error dialog boxes are shown automatically.
-ms.assetid: '16b10bea-4b3e-469f-a903-02f19ffcdf31'
-keywords: ["Settings.enableErrorDialogs Windows Media Player"]
+ms.assetid: 16b10bea-4b3e-469f-a903-02f19ffcdf31
+keywords:
+- Settings.enableErrorDialogs Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.enableErrorDialogs
@@ -34,7 +40,7 @@ This property is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ This property exhibits specific behavior for remoted instances of the Player con
 [**Settings Object**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

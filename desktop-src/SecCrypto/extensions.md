@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of Extension objects.'
-ms.assetid: '07793061-6f94-4467-bb01-aa65db657658'
+---
+Description: Represents a collection of Extension objects.
+ms.assetid: 07793061-6f94-4467-bb01-aa65db657658
 title: Extensions object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensions object

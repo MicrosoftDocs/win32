@@ -1,8 +1,16 @@
 ---
 title: MetadataExchangeSample
 description: This example shows how to use service host for hosting a PurchaseOrder service over TCP. The service also supports WS-MetadataExchange.
-ms.assetid: '8f14e6a8-ccb9-4556-b04f-df08c6c80adf'
-keywords: ["MetadataExchangeSample Windows Web Services API", "WWSAPI", "WWS"]
+ms.assetid: 8f14e6a8-ccb9-4556-b04f-df08c6c80adf
+keywords:
+- MetadataExchangeSample Windows Web Services API
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataExchangeSample

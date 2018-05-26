@@ -1,7 +1,12 @@
 ---
-Description: 'Lists topics that explain how to encrypt and decrypt messages and files.'
-ms.assetid: '82c75a76-4ebb-4b76-be41-5426f18e9ee2'
+Description: Lists topics that explain how to encrypt and decrypt messages and files.
+ms.assetid: 82c75a76-4ebb-4b76-be41-5426f18e9ee2
 title: Encrypting and Decrypting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encrypting and Decrypting

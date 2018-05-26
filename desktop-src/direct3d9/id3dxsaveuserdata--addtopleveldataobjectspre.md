@@ -1,7 +1,12 @@
-﻿---
-Description: 'Add a top level object before the frame hierarchy.'
-ms.assetid: 'ab4bfc3e-58eb-4de6-b080-8b3392b801bf'
-title: 'ID3DXSaveUserData::AddTopLevelDataObjectsPre method'
+---
+Description: Add a top level object before the frame hierarchy.
+ms.assetid: ab4bfc3e-58eb-4de6-b080-8b3392b801bf
+title: ID3DXSaveUserDataAddTopLevelDataObjectsPre method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSaveUserData::AddTopLevelDataObjectsPre method

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a result of looking up a route for the customer address (CA) space address for a given destination.'
-ms.assetid: '1C91ECC8-ACA0-45E1-8530-9DC779C06FA8'
-title: 'MSFT\_NetVirtualizationNextHopLookup class'
+Description: Represents a result of looking up a route for the customer address (CA) space address for a given destination.
+ms.assetid: 1C91ECC8-ACA0-45E1-8530-9DC779C06FA8
+title: MSFT\_NetVirtualizationNextHopLookup class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetVirtualizationNextHopLookup class
@@ -43,7 +48,7 @@ The **MSFT\_NetVirtualizationNextHopLookup** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -137,8 +142,8 @@ Range: *value* = 16777215
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
+| Minimum supported client<br/> | Windows 8<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                        |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>NetWNV.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetWNV.dll</dt> </dl> |
@@ -152,9 +157,9 @@ Range: *value* = 16777215
 [NetWNV Provider Classes](net-virtualization-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Links
 description: With a link, users can navigate to another page, window, or Help topic; display a definition; initiate a command; or choose an option.
-ms.assetid: 'a23748e4-b2dd-4b9f-9a7c-ff6533922c8c'
+ms.assetid: a23748e4-b2dd-4b9f-9a7c-ff6533922c8c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Links
@@ -15,7 +20,7 @@ A text link is the lightest weight clickable control, and is often used to reduc
 > [!Note]  
 > Guidelines related to [command links](ctrl-command-links.md) and [layout](vis-layout.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -39,7 +44,7 @@ Links lack [affordance](glossary.md#glossary), which means **their visual proper
 
 Surprisingly, this lack of affordance is often a motivation for using links because they appear so lightweight, thereby reducing the visual complexity of a design. Links eliminate the visually heavy frame used by [command buttons](ctrl-command-buttons.md) and border used by other controls. For example, while you might use command buttons to make primary commands obvious, you might choose links for secondary commands to de-emphasize them.
 
-The challenge is then to keep enough visual clues so users can recognize the links. The fundamental guideline is **users must be able to recognize links by visual inspection alone—they shouldn't have to hover over an object or click it to determine if it is a link**.
+The challenge is then to keep enough visual clues so users can recognize the links. The fundamental guideline is **users must be able to recognize links by visual inspection alone they shouldn't have to hover over an object or click it to determine if it is a link**.
 
 Users can recognize a link by visual inspection alone if the link uses the [link system colors](vis-color.md) and at least one of the following visual clues:
 
@@ -52,7 +57,7 @@ Users can also recognize a link by visual inspection with the following visual c
 -   Text that suggests clicking, such as a command starting with an imperative verb like Show, Print, Copy, or Delete.
 -   Placement within a block of normal text.
 
-Of course, users can always determine a link through interaction—either hovering or clicking. If discovery of a link isn't required for any significant tasks, you can de-emphasize such links.
+Of course, users can always determine a link through interaction either hovering or clicking. If discovery of a link isn't required for any significant tasks, you can de-emphasize such links.
 
 ![screen shot of gray labels on black background ](images/ctrl-links-image1.png)
 
@@ -94,7 +99,7 @@ Links have several functional patterns:
 
 
 
- 
+ 
 
 Links also have several presentation patterns:
 
@@ -108,7 +113,7 @@ Links also have several presentation patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -169,7 +174,7 @@ In the incorrect example, the icon doesn't lead into the text.
 
 -   **Make sure navigation links don't require commitment.** Users should always be able to return to the initial state, either by using Back for inplace navigation or Cancel to close a new window.
 -   **Link to specific content rather than general content.** For example, it is better to link to the relevant section of a document than to link to the beginning.
--   **Use a link only if the linked material is relevant, helpful, and not redundant.** Use restraint in navigation links—don't use them just because you can.
+-   **Use a link only if the linked material is relevant, helpful, and not redundant.** Use restraint in navigation links don't use them just because you can.
 -   **If a link navigates to an external site, put the URL in the infotip** so that users can determine the target of the link.
 -   **Link only the first occurrence of the link text.** Redundant links are unnecessary and can make text difficult to read.
 
@@ -326,7 +331,7 @@ In the incorrect example, the icon doesn't lead into the text.
 **Task links**
 
 -   **Start the link with an imperative verb and clearly describe the task that the link performs.** Don't use ending punctuation.
--   **End the link with an ellipsis if the command needs additional information (including a confirmation) for successful completion.** Don't use an ellipsis when the successful completion of the task is to display another window—only when additional information is needed to perform the task.
+-   **End the link with an ellipsis if the command needs additional information (including a confirmation) for successful completion.** Don't use an ellipsis when the successful completion of the task is to display another window only when additional information is needed to perform the task.
 
     Print...
 
@@ -366,9 +371,9 @@ When referring to links:
 
 Example: To start the scan, click **Scan a computer**.
 
- 
+ 
 
- 
+ 
 
 
 

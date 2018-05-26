@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the Media Session when it has finished playing the last presentation in the playback queue.'
-ms.assetid: 'e593e51f-c239-49e9-bba8-c6d8238eff24'
+---
+Description: Raised by the Media Session when it has finished playing the last presentation in the playback queue.
+ms.assetid: e593e51f-c239-49e9-bba8-c6d8238eff24
 title: MESessionEnded event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionEnded event
@@ -10,7 +15,7 @@ Raised by the Media Session when it has finished playing the last presentation i
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -4,11 +4,13 @@ description: Represents a quota threshold and the actions that will be taken whe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e5e98b6b-addc-4b38-8556-fca3423d23fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: e5e98b6b-addc-4b38-8556-fca3423d23fd
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMQuotaThreshold class File Server Resource Manager", "MSFT_FSRMQuotaThreshold class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMQuotaThreshold class File Server Resource Manager
+- MSFT_FSRMQuotaThreshold class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMQuotaThreshold class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMQuotaThreshold
 {
-  uint32          Percentage;
+  uint32          Percentage;
   MSFT_FSRMAction Action[];
 };
 ```
@@ -57,7 +62,7 @@ The **MSFT\_FSRMQuotaThreshold** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -92,7 +97,7 @@ Access type: Read/write
 
 A number that represents of the percentage of used space from the available space that can be reached during a file operation.
 
-Range: 1–250
+Range: 1 250
 
 </dd> </dl>
 
@@ -103,7 +108,7 @@ Range: 1–250
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -117,9 +122,9 @@ Range: 1–250
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

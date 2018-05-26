@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent by the default context menu implementation to request the callback function that handles the menu (LPFNDFMCALLBACK) to invoke a menu command.'
-title: 'DFM\_INVOKECOMMAND message'
+---
+Description: Sent by the default context menu implementation to request the callback function that handles the menu (LPFNDFMCALLBACK) to invoke a menu command.
+title: DFM\_INVOKECOMMAND message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DFM\_INVOKECOMMAND message
@@ -184,9 +189,9 @@ The handler for this message needs to return S\_FALSE if you want the default im
 
 ## Remarks
 
-This message is sent to either the callback function or the callback object depending on how the callback is implemented. There are two APIs for callback construction, [**CDefFolderMenu\_Create2**](cdeffoldermenu-create2.md) that takes a pointer to a callback function, or [**SHCreateDefaultContextMenu**](shcreatedefaultcontextmenu.md) that uses a callback object that supports [**IContextMenuCB**](icontextmenucb.md).
+This message is sent to either the callback function or the callback object depending on how the callback is implemented. There are two APIs for callback construction, [**CDefFolderMenu\_Create2**](/windows/win32/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2?branch=master) that takes a pointer to a callback function, or [**SHCreateDefaultContextMenu**](/windows/win32/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu?branch=master) that uses a callback object that supports [**IContextMenuCB**](/windows/win32/shobjidl_core/nn-shobjidl_core-icontextmenucb?branch=master).
 
-The items on which the command is being invoked are provided in a data object passed to the callback function or to the [**IContextMenuCB::CallBack**](icontextmenucb-callback.md) method. This data object is provided by the data source that implements the callback. To extract the items from the data object, use [**SHCreateShellItemArrayFromDataObject**](shcreateshellitemarrayfromdataobject.md).
+The items on which the command is being invoked are provided in a data object passed to the callback function or to the [**IContextMenuCB::CallBack**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenucb-callback?branch=master) method. This data object is provided by the data source that implements the callback. To extract the items from the data object, use [**SHCreateShellItemArrayFromDataObject**](/windows/win32/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject?branch=master).
 
 [**DFM\_INVOKECOMMANDEX**](dfm-invokecommandex.md) is an extended version of this message and provides more information to the callback. Use **DFM\_INVOKECOMMANDEX** if the additional information provided by that interface is needed in your implementation.
 

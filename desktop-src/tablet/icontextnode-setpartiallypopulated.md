@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the value that indicates whether this IContextNode is partially or fully populated.'
-ms.assetid: '4d8e1ec0-757d-4346-a77e-263bd612972b'
-title: 'IContextNode::SetPartiallyPopulated method'
+Description: Modifies the value that indicates whether this IContextNode is partially or fully populated.
+ms.assetid: 4d8e1ec0-757d-4346-a77e-263bd612972b
+title: IContextNodeSetPartiallyPopulated method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::SetPartiallyPopulated method
@@ -13,7 +18,7 @@ Modifies the value that indicates whether this [**IContextNode**](icontextnode.m
 
 ```C++
 HRESULT SetPartiallyPopulated(
-  [in] VARIANT_BOOL fPartiallyPopulated
+  [in] VARIANT_BOOL fPartiallyPopulated
 );
 ```
 
@@ -46,7 +51,7 @@ When virtualizing your document tree, be sure to set the PropertyGuidsForContext
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -72,9 +77,9 @@ When virtualizing your document tree, be sure to set the PropertyGuidsForContext
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

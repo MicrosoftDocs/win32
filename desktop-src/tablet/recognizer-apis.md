@@ -1,7 +1,12 @@
-﻿---
-Description: 'The recognizer handles:'
-ms.assetid: 'd7c694a2-0da6-4172-b434-2b0f94e1b649'
+---
+Description: The recognizer handles
+ms.assetid: d7c694a2-0da6-4172-b434-2b0f94e1b649
 title: Recognizer Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recognizer Reference

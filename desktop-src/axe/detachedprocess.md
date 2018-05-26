@@ -1,14 +1,20 @@
 ---
 title: DetachedProcess element
 description: The presence of this tag causes AXE to set the DETACHED\_PROCESS flag in the call to CreateProcess.
-ms.assetid: '1F69A450-F065-4FD0-918F-EAD1EF0B9815'
-keywords: ["DetachedProcess element Access Execution Engine"]
+ms.assetid: 1F69A450-F065-4FD0-918F-EAD1EF0B9815
+keywords:
+- DetachedProcess element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - DetachedProcess
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DetachedProcess element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

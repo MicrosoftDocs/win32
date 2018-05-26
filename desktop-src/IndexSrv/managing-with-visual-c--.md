@@ -1,7 +1,12 @@
 ---
 title: Managing with Visual C++
 description: Managing with Visual C++
-ms.assetid: '60e35eef-579c-4931-9b1d-eb8691fd5d61'
+ms.assetid: 60e35eef-579c-4931-9b1d-eb8691fd5d61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing with Visual C++
@@ -13,7 +18,7 @@ ms.assetid: '60e35eef-579c-4931-9b1d-eb8691fd5d61'
 
 With Visual C++ and the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api), you can locate the appropriate computer and catalog for a specified scope, query the state of a selected catalog, and control the state of a selected catalog.
 
-The [ChgState Sample](chgstate-sample.md) illustrates using the OLE DB Helper API to manage Indexing Service. The following code segment uses the [CICAT\_\* constants](cicat-constants.md) and the [SetCatalogState](setcatalogstate.md) function to get or set the catalog state as specified by the input arguments to the application.
+The [ChgState Sample](chgstate-sample.md) illustrates using the OLE DB Helper API to manage Indexing Service. The following code segment uses the [CICAT\_\* constants](cicat-constants.md) and the [SetCatalogState](/windows/win32/Ntquery/nf-ntquery-setcatalogstate?branch=master) function to get or set the catalog state as specified by the input arguments to the application.
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies access control permissions for a directory on a smart card.'
-ms.assetid: '361d9fa0-286e-4d2c-8452-3b5f48e77779'
-title: 'CARD\_DIRECTORY\_ACCESS\_CONDITION enumeration'
+---
+Description: Specifies access control permissions for a directory on a smart card.
+ms.assetid: 361d9fa0-286e-4d2c-8452-3b5f48e77779
+title: CARD\_DIRECTORY\_ACCESS\_CONDITION enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CARD\_DIRECTORY\_ACCESS\_CONDITION enumeration

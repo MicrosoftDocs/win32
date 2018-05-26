@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetId method
 description: Retrieves the identifier used to identify the job in the queue.
-ms.assetid: '05CE5420-22F8-4CFE-BC40-3A29C775854B'
-keywords: ["GetId method", "GetId method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetId method"]
+ms.assetid: 05CE5420-22F8-4CFE-BC40-3A29C775854B
+keywords:
+- GetId method
+- GetId method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetId method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetId method
@@ -22,7 +30,7 @@ Retrieves the identifier used to identify the job in the queue.
 
 ```C++
 HRESULT GetId(
-  [out] GUID *pJobID
+  [out] GUID *pJobID
 );
 ```
 
@@ -53,7 +61,7 @@ The service generates the identifier when you [create](ibackgroundcopymanager-cr
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -76,9 +84,9 @@ The service generates the identifier when you [create](ibackgroundcopymanager-cr
 [**IBackgroundCopyManager::GetJob**](ibackgroundcopymanager-getjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

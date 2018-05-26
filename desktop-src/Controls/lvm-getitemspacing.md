@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETITEMSPACING message
 description: Determines the spacing between items in a list-view control. You can send this message explicitly or by using the ListView\_GetItemSpacing macro.
-ms.assetid: '4e43fb43-468c-4b8a-9e3b-1694e90ffef8'
-keywords: ["LVM_GETITEMSPACING message Windows Controls"]
+ms.assetid: 4e43fb43-468c-4b8a-9e3b-1694e90ffef8
+keywords:
+- LVM_GETITEMSPACING message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETITEMSPACING message
 
-Determines the spacing between items in a list-view control. You can send this message explicitly or by using the [**ListView\_GetItemSpacing**](listview-getitemspacing.md) macro.
+Determines the spacing between items in a list-view control. You can send this message explicitly or by using the [**ListView\_GetItemSpacing**](/windows/win32/Commctrl/nf-commctrl-listview_getitemspacing?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns the amount of spacing between items. The horizontal spacing is contained
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

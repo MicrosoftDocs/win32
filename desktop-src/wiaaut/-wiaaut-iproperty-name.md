@@ -1,8 +1,11 @@
 ---
 title: Property.Name property
 description: Retrieves the Property name.
-ms.assetid: '283f88e8-d16d-4c7a-9b43-f33fa4bfc02b'
-keywords: ["Name property WIA Automation", "Name property WIA Automation , Property object", "Property object WIA Automation , Name property"]
+ms.assetid: 283f88e8-d16d-4c7a-9b43-f33fa4bfc02b
+keywords:
+- Name property WIA Automation
+- Name property WIA Automation , Property object
+- Property object WIA Automation , Name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property.Name property
@@ -43,8 +51,8 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -81,9 +89,9 @@ For example code, see [Display Detailed Property Information](-wiaaut-shared-sam
 [**Add (Items)**](-wiaaut-iitems-add.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

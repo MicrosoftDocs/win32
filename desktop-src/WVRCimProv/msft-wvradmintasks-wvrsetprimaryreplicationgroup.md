@@ -4,13 +4,19 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '24b9bc11-7957-443f-be5a-cdb71d16b546'
-ms.prod: 'windows-server-dev'
+ms.assetid: 24b9bc11-7957-443f-be5a-cdb71d16b546
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrSetPrimaryReplicationGroup method", "WvrSetPrimaryReplicationGroup method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrSetPrimaryReplicationGroup method"]
+keywords:
+- WvrSetPrimaryReplicationGroup method
+- WvrSetPrimaryReplicationGroup method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrSetPrimaryReplicationGroup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrSetPrimaryReplicationGroup method of the MSFT\_WvrAdminTasks class
@@ -22,12 +28,12 @@ TBD
 
 ```mof
 uint32 WvrSetPrimaryReplicationGroup(
-  [in] string  ReplicationGroupName,
-  [in] string  SecondaryReplicationGroupName[],
-  [in] string  SecondaryReplicationGroupId[],
-  [in] string  SecondaryComputerName[],
-  [in] string  PartnershipId[],
-  [in] boolean Force
+  [in] string  ReplicationGroupName,
+  [in] string  SecondaryReplicationGroupName[],
+  [in] string  SecondaryReplicationGroupId[],
+  [in] string  SecondaryComputerName[],
+  [in] string  PartnershipId[],
+  [in] boolean Force
 );
 ```
 
@@ -86,7 +92,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -100,9 +106,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

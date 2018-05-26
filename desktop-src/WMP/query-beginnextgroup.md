@@ -1,8 +1,11 @@
 ---
 title: Query.beginNextGroup method
 description: The beginNextGroup method begins a new condition group.
-ms.assetid: 'c81a8125-2cfa-40e2-afc5-672c2866b880'
-keywords: ["beginNextGroup method Windows Media Player", "beginNextGroup method Windows Media Player , Query class", "Query class Windows Media Player , beginNextGroup method"]
+ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
+keywords:
+- beginNextGroup method Windows Media Player
+- beginNextGroup method Windows Media Player , Query class
+- Query class Windows Media Player , beginNextGroup method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query.beginNextGroup method
@@ -68,9 +76,9 @@ Beginning a new condition group implies that you have completed the current cond
 [**Query.addCondition**](query-addcondition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

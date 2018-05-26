@@ -1,7 +1,12 @@
 ---
 title: General Frequently Asked Questions
 description: Provides answers to commonly-asked questions about the EAPHost APIs.
-ms.assetid: '4025e8da-8cb1-477b-86bb-7756d9636224'
+ms.assetid: 4025e8da-8cb1-477b-86bb-7756d9636224
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Frequently Asked Questions
@@ -42,7 +47,7 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="odd">
 <td>What is the lifetime of an authentication?</td>
-<td>The lifetime of a single authentication session on the client side is everything that occurs between the [<strong>EapHostPeerBeginSession</strong>](eaphostpeerbeginsession.md) and [<strong>EapHostPeerEndSession</strong>](eaphostpeerendsession.md) functions being called. The lifetime on the authenticator side is everything that occurs between the [<strong>EapPeerBeginSession</strong>](eappeerbeginsession.md) and [<strong>EapPeerEndSession</strong>](eappeerendsession.md) functions.</td>
+<td>The lifetime of a single authentication session on the client side is everything that occurs between the [<strong>EapHostPeerBeginSession</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master) and [<strong>EapHostPeerEndSession</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerendsession?branch=master) functions being called. The lifetime on the authenticator side is everything that occurs between the [<strong>EapPeerBeginSession</strong>](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession?branch=master) and [<strong>EapPeerEndSession</strong>](/windows/previous-versions/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession?branch=master) functions.</td>
 </tr>
 <tr class="even">
 <td>What is a BLOB? Why would I convert a configuration (binary) BLOB to XML?</td>
@@ -58,7 +63,7 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="odd">
 <td>What are legacy methods?</td>
-<td>Legacy EAP methods are defined in the [Extensible Authentication Protocol Reference](https://msdn.microsoft.com/library/windows/desktop/aa363504). The legacy EAP methods are available for use in Windows Vista and Windows Server 2008. These methods may not be available for use in subsequent versions of the operating system.</td>
+<td>Legacy EAP methods are defined in the [Extensible Authentication Protocol Reference](https://msdn.microsoft.com/library/windows/desktop/aa363504). The legacy EAP methods are available for use in Windows Vista and Windows Server 2008. These methods may not be available for use in subsequent versions of the operating system.</td>
 </tr>
 <tr class="even">
 <td>What's the difference between legacy and native methods?</td>
@@ -122,7 +127,7 @@ For more information, see [Finish Messages in the TLS 1.0 Protocol](https://msdn
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -137,9 +142,9 @@ For more information, see [Finish Messages in the TLS 1.0 Protocol](https://msdn
 [EAPHost Development FAQs](eaphost-development-frequently-asked-questions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

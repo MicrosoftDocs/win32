@@ -1,8 +1,11 @@
 ---
 title: SystemState SetRegistryValueString method
 description: Sets a string (REG\_SZ) value into the registry.
-ms.assetid: '14BB1967-65A9-45D3-B3FF-877BE11ACC39'
-keywords: ["SetRegistryValueString method Access Execution Engine", "SetRegistryValueString method Access Execution Engine , SystemState interface", "SystemState interface Access Execution Engine , SetRegistryValueString method"]
+ms.assetid: 14BB1967-65A9-45D3-B3FF-877BE11ACC39
+keywords:
+- SetRegistryValueString method Access Execution Engine
+- SetRegistryValueString method Access Execution Engine , SystemState interface
+- SystemState interface Access Execution Engine , SetRegistryValueString method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemState::SetRegistryValueString method
@@ -22,10 +30,10 @@ Sets a string (REG\_SZ) value into the registry.
 
 ```C++
 virtual HRESULT SetRegistryValueString(
-  [in] HKEY    keyRoot,
-  [in] LPCWSTR keyPath,
-  [in] LPCWSTR valueName,
-  [in] LPCWSTR data
+  [in] HKEY    keyRoot,
+  [in] LPCWSTR keyPath,
+  [in] LPCWSTR valueName,
+  [in] LPCWSTR data
 ) = 0;
 ```
 
@@ -73,8 +81,8 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -87,9 +95,9 @@ If the function succeeds, it returns **S\_OK**. If it fails, it returns an error
 [**SystemState**](systemstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

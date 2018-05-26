@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the Base64 encoded binary data of the Ink object for an InkWord or Drawing.'
-ms.assetid: '7ee9ecd3-9dd6-4c6b-80bc-23f9a8e6b352'
+Description: Contains the Base64 encoded binary data of the Ink object for an InkWord or Drawing.
+ms.assetid: 7ee9ecd3-9dd6-4c6b-80bc-23f9a8e6b352
 title: InkObject Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkObject Element

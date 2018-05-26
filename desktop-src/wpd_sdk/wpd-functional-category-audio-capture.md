@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_FUNCTIONAL\_CATEGORY\_AUDIO\_CAPTURE'
-ms.assetid: '326d4423-37f9-4c91-8201-a054ce8439f0'
-title: 'WPD\_FUNCTIONAL\_CATEGORY\_AUDIO\_CAPTURE'
+Description: WPD\_FUNCTIONAL\_CATEGORY\_AUDIO\_CAPTURE
+ms.assetid: 326d4423-37f9-4c91-8201-a054ce8439f0
+title: WPD\_FUNCTIONAL\_CATEGORY\_AUDIO\_CAPTURE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_FUNCTIONAL\_CATEGORY\_AUDIO\_CAPTURE

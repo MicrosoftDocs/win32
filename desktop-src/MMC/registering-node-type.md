@@ -4,10 +4,13 @@ description: It is important to register the node type of the Active Directory U
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fcbd5a9b-90f9-4f8e-940a-90700f33f69e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fcbd5a9b-90f9-4f8e-940a-90700f33f69e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering Node Type

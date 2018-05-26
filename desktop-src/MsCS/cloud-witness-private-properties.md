@@ -4,10 +4,13 @@ description: Cloud Witness resources have the following private properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1638707F-4BF4-4D4E-B38C-5DF23EF098C3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1638707F-4BF4-4D4E-B38C-5DF23EF098C3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cloud Witness Private Properties

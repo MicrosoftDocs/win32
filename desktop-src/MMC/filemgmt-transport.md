@@ -4,17 +4,21 @@ description: The FILEMGMT\_TRANSPORT clipboard format returns the transport prot
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc5d68d7-42cf-4c92-9730-4b1ac4c1ba00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fc5d68d7-42cf-4c92-9730-4b1ac4c1ba00
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["FILEMGMT_TRANSPORT clipboard format MMC"]
+keywords:
+- FILEMGMT_TRANSPORT clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - FILEMGMT_TRANSPORT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FILEMGMT\_TRANSPORT clipboard format

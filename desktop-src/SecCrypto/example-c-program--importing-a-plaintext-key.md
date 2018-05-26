@@ -1,21 +1,26 @@
 ---
-Description: 'Identify a key by using an HCRYPTKEY handle.'
-ms.assetid: '23569104-a302-40de-a31a-a4ee22d5f7f2'
-title: 'Example C Program: Importing a Plaintext Key'
+Description: Identify a key by using an HCRYPTKEY handle.
+ms.assetid: 23569104-a302-40de-a31a-a4ee22d5f7f2
+title: Example C Program Importing a Plaintext Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Importing a Plaintext Key
 
-Many of the functions in this SDK require that you identify a key by using an **HCRYPTKEY** handle. If your key is contained in a byte array, you can create a handle by using the [**CryptImportKey**](cryptimportkey.md) function as shown in the following example.
+Many of the functions in this SDK require that you identify a key by using an **HCRYPTKEY** handle. If your key is contained in a byte array, you can create a handle by using the [**CryptImportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptimportkey?branch=master) function as shown in the following example.
 
 This example demonstrates the following tasks and CryptoAPI functions:
 
--   Acquiring a handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) by calling [**CryptAcquireContext**](cryptacquirecontext.md).
--   Importing a plaintext key into the CSP key container by calling [**CryptImportKey**](cryptimportkey.md).
--   Exporting a key from the key container by calling [**CyptExportKey**](cryptexportkey.md).
+-   Acquiring a handle to a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) by calling [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master).
+-   Importing a plaintext key into the CSP key container by calling [**CryptImportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptimportkey?branch=master).
+-   Exporting a key from the key container by calling [**CyptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master).
 -   Printing the exported key to the console to verify that the plaintext key was indeed imported into the container.
 -   Releasing the memory reserved for the plaintext key.
--   Releasing the CSP by calling [**CryptReleaseContext**](cryptreleasecontext.md).
+-   Releasing the CSP by calling [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master).
 
 
 ```C++

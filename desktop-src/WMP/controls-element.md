@@ -1,8 +1,18 @@
 ---
 title: CONTROLS Element
 description: CONTROLS Element
-ms.assetid: '5f988a85-55dd-4b23-a15c-a55e5ca14429'
-keywords: ["Windows Media Player skins,CONTROLS element", "skins,CONTROLS element", "CONTROLS element", "reference for skins,CONTROLS element", "elements,CONTROLS"]
+ms.assetid: 5f988a85-55dd-4b23-a15c-a55e5ca14429
+keywords:
+- Windows Media Player skins,CONTROLS element
+- skins,CONTROLS element
+- CONTROLS element
+- reference for skins,CONTROLS element
+- elements,CONTROLS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONTROLS Element

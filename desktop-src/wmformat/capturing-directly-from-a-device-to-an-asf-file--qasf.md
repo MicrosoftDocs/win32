@@ -1,8 +1,24 @@
 ---
 title: Capturing Directly from a Device to an ASF File (QASF)
 description: Capturing Directly from a Device to an ASF File (QASF)
-ms.assetid: '684a11e3-d507-4219-bc0b-6dfe5e85dad1'
-keywords: ["Windows Media Format SDK,capturing from devices to ASF files (QASF)", "Windows Media Format SDK,DirectShow", "Advanced Systems Format (ASF),capturing from devices (QASF)", "ASF (Advanced Systems Format),capturing from devices (QASF)", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "DirectShow,capturing from devices to ASF files (QASF)", "Windows Media Format SDK,QASF", "Advanced Systems Format (ASF),QASF", "ASF (Advanced Systems Format),QASF", "DirectShow,QASF"]
+ms.assetid: 684a11e3-d507-4219-bc0b-6dfe5e85dad1
+keywords:
+- Windows Media Format SDK,capturing from devices to ASF files (QASF)
+- Windows Media Format SDK,DirectShow
+- Advanced Systems Format (ASF),capturing from devices (QASF)
+- ASF (Advanced Systems Format),capturing from devices (QASF)
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- DirectShow,capturing from devices to ASF files (QASF)
+- Windows Media Format SDK,QASF
+- Advanced Systems Format (ASF),QASF
+- ASF (Advanced Systems Format),QASF
+- DirectShow,QASF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing Directly from a Device to an ASF File (QASF)

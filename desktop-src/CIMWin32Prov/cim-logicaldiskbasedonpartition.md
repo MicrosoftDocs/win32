@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_LogicalDiskBasedOnPartition class associates a logical disk with the disk partition on which it resides.'
+Description: The CIM\_LogicalDiskBasedOnPartition class associates a logical disk with the disk partition on which it resides.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '264b62ed-2af2-42dc-9cd2-41b26cc85ca4'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 264b62ed-2af2-42dc-9cd2-41b26cc85ca4
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_LogicalDiskBasedOnPartition class'
+title: CIM\_LogicalDiskBasedOnPartition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalDiskBasedOnPartition class
@@ -21,7 +24,7 @@ For example, a computer's drive C can be located on a partition on local physica
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -31,9 +34,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C53F-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_LogicalDiskBasedOnPartition : CIM_BasedOn
 {
-  uint64                EndingAddress;
-  uint64                StartingAddress;
-  CIM_LogicalDisk   REF Dependent;
+  uint64                EndingAddress;
+  uint64                StartingAddress;
+  CIM_LogicalDisk   REF Dependent;
   CIM_DiskPartition REF Antecedent;
 };
 ```
@@ -130,8 +133,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -145,9 +148,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_BasedOn**](cim-basedon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

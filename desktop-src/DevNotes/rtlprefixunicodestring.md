@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compares two Unicode strings to determine whether one string is a prefix of the other.'
-ms.assetid: '7D859C0A-2F72-49A4-8B49-130DCA103F37'
+---
+Description: Compares two Unicode strings to determine whether one string is a prefix of the other.
+ms.assetid: 7D859C0A-2F72-49A4-8B49-130DCA103F37
 title: RtlPrefixUnicodeString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtlPrefixUnicodeString function

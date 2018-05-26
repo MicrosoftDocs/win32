@@ -1,13 +1,22 @@
 ---
 title: To Index an ASF File
 description: To Index an ASF File
-ms.assetid: '33175444-365c-4b94-8b91-07198431062f'
-keywords: ["Windows Media Format SDK,indexing ASF files", "Advanced Systems Format (ASF),indexing files", "ASF (Advanced Systems Format),indexing files", "indexes,indexing ASF files"]
+ms.assetid: 33175444-365c-4b94-8b91-07198431062f
+keywords:
+- Windows Media Format SDK,indexing ASF files
+- Advanced Systems Format (ASF),indexing files
+- ASF (Advanced Systems Format),indexing files
+- indexes,indexing ASF files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Index an ASF File
 
-The process of indexing an ASF file is very simple. Make a call to [**IWMIndexer::StartIndexing**](iwmindexer-startindexing.md) and pass the file name. The indexer does the rest. The call to **StartIndexing** is asynchronous, so status must be monitored using the **OnStatus** callback.
+The process of indexing an ASF file is very simple. Make a call to [**IWMIndexer::StartIndexing**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmindexer-startindexing?branch=master) and pass the file name. The indexer does the rest. The call to **StartIndexing** is asynchronous, so status must be monitored using the **OnStatus** callback.
 
 The following code shows how to index an ASF file. If you want to configure the indexer prior to indexing the file, you will need to include code from the example included in [To Configure the Indexer](to-configure-the-indexer.md).
 
@@ -80,13 +89,13 @@ g_hEvent = NULL;
 
 <dl> <dt>
 
-[**IWMIndexer Interface**](iwmindexer.md)
+[**IWMIndexer Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmindexer?branch=master)
 </dt> <dt>
 
 [**To Configure the Indexer**](to-configure-the-indexer.md)
 </dt> <dt>
 
-[**WMCreateIndexer**](wmcreateindexer.md)
+[**WMCreateIndexer**](/windows/win32/Wmsdkidl/nf-wmsdkidl-wmcreateindexer?branch=master)
 </dt> <dt>
 
 [**Working with Indexes**](working-with-indexes.md)

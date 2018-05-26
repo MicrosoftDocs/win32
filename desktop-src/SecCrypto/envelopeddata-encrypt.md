@@ -1,7 +1,12 @@
-﻿---
-Description: 'Generates a session key and encrypts and envelopes data.'
-ms.assetid: '7ae0c908-207b-4a74-a195-d12e9e7dec76'
-title: 'EnvelopedData.Encrypt method'
+---
+Description: Generates a session key and encrypts and envelopes data.
+ms.assetid: 7ae0c908-207b-4a74-a195-d12e9e7dec76
+title: EnvelopedData.Encrypt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnvelopedData.Encrypt method

@@ -1,7 +1,12 @@
 ---
-Description: 'The user-friendly display name of an item''s parent folder.'
-ms.assetid: '4049b6cb-41a1-4df6-89d1-a2022d3a285d'
-title: 'System.ItemFolderNameDisplay'
+Description: The user-friendly display name of an items parent folder.
+ms.assetid: 4049b6cb-41a1-4df6-89d1-a2022d3a285d
+title: System.ItemFolderNameDisplay
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.ItemFolderNameDisplay

@@ -1,8 +1,14 @@
 ---
 title: Generating the UUID
 description: The first step in defining the interface is to use the uuidgen utility to generate a universally unique identifier (UUID).
-ms.assetid: '870641b7-affc-4de4-bc7f-4c8ca2873fb6'
-keywords: ["Remote Procedure Call RPC , tasks, generating the UUID"]
+ms.assetid: 870641b7-affc-4de4-bc7f-4c8ca2873fb6
+keywords:
+- Remote Procedure Call RPC , tasks, generating the UUID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating the UUID

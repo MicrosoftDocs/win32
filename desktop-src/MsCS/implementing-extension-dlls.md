@@ -4,11 +4,15 @@ description: If you are creating a resource type and want to allow administrator
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cd65361f-034f-4b28-8532-ab427fff5dfe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: cd65361f-034f-4b28-8532-ab427fff5dfe
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster Administrator Failover Cluster ,extension DLLs,implementing"]
+keywords:
+- Failover Cluster Administrator Failover Cluster ,extension DLLs,implementing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing Extension DLLs

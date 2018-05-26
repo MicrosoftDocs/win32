@@ -1,12 +1,17 @@
-﻿---
-Description: 'Indicates whether the protection fails over to this if the best effort fails. This attribute can be used with IMFOutputSchema objects.'
-ms.assetid: '8F541BDB-6801-49BC-A825-03FDE2409099'
-title: 'MFPROTECTIONATTRIBUTE\_FAIL\_OVER attribute'
+---
+Description: Indicates whether the protection fails over to this if the best effort fails. This attribute can be used with IMFOutputSchema objects.
+ms.assetid: 8F541BDB-6801-49BC-A825-03FDE2409099
+title: MFPROTECTIONATTRIBUTE\_FAIL\_OVER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPROTECTIONATTRIBUTE\_FAIL\_OVER attribute
 
-Indicates whether the protection fails over to this if the best effort fails. This attribute can be used with [**IMFOutputSchema**](imfoutputschema.md) objects.
+Indicates whether the protection fails over to this if the best effort fails. This attribute can be used with [**IMFOutputSchema**](/windows/win32/mfidl/nn-mfidl-imfoutputschema?branch=master) objects.
 
 ## Data type
 
@@ -14,7 +19,7 @@ Indicates whether the protection fails over to this if the best effort fails. Th
 
 ## Remarks
 
-This attribute can be used with [**IMFOutputSchema**](imfoutputschema.md) objects.
+This attribute can be used with [**IMFOutputSchema**](/windows/win32/mfidl/nn-mfidl-imfoutputschema?branch=master) objects.
 
 ## Requirements
 

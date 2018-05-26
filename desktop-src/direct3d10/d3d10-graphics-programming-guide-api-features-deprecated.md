@@ -1,7 +1,12 @@
-﻿---
-Description: 'A list of the features available in Direct3D 10 is here. This page lists the Direct3D 9 features that are no longer supported in Direct3D 10.'
-ms.assetid: 'ad3eff8e-a225-47c0-a53f-b1a3c94bcaac'
-title: 'Deprecated Features (Direct3D 10)'
+---
+Description: A list of the features available in Direct3D 10 is here. This page lists the Direct3D 9 features that are no longer supported in Direct3D 10.
+ms.assetid: ad3eff8e-a225-47c0-a53f-b1a3c94bcaac
+title: Deprecated Features (Direct3D 10)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deprecated Features (Direct3D 10)
@@ -22,7 +27,7 @@ Here is a complete list of the features in Direct3D 9 that have been deprecated 
 
 -   **Alpha blend**. Alpha blend is now programmed independent of color blend. Direct3D 10 adds an alpha-blend-enable toggle which is enabled by default. See [State Objects (Direct3D 10)](d3d10-graphics-programming-guide-api-features-state-objects.md) for more information.
 -   **Alpha test**. Alpha test is a fixed-function pixel behavior for Direct3D 9. Alpha test is moved into programmable pixel shaders for Direct3D 10 and higher. For info about emulating the Direct3D 9 alpha test functionality in Direct3D 10 and higher, see the FixedFuncEMU sample in the [DirectX SDK for June 2010](http://go.microsoft.com/fwlink/p/?linkid=226640).
--   **Blend mode options**. BOTHSRCALPHA has been removed from D3D10\_BLEND since it is redundant with BOTHINVSRCALPHA. See [**D3D10\_BLEND**](d3d10-blend.md) for more information.
+-   **Blend mode options**. BOTHSRCALPHA has been removed from D3D10\_BLEND since it is redundant with BOTHINVSRCALPHA. See [**D3D10\_BLEND**](/windows/win32/D3D10/ne-d3d10-d3d10_blend?branch=master) for more information.
 -   **Block compression formats**. There is no distinction between pre-multiplied alpha or non-premultiplied alpha in Direct3D 10. These Direct3D 9 formats map to these Direct3D 10 formats: 
 
     | Direct3D 9 | Direct3D 10 |
@@ -41,7 +46,7 @@ Here is a complete list of the features in Direct3D 9 that have been deprecated 
 -   **Dithering**. Direct3D 10 does not support writing dithered data to a render target.
 -   **Fixed-function transform and lighting pipeline in not available**. Instead, you must use shaders. See [Shader Stages (Direct3D 10)](direct3d10.d3d10_graphics_programming_guide_shader_stages) for additional information.
 -   **Fixed-function texture blender (also called a fixed function pixel shader)**. Instead, you must use shaders. See [Shader Stages (Direct3D 10)](direct3d10.d3d10_graphics_programming_guide_shader_stages) for additional information.
--   **Fill modes** have changed. Direct3D 10 implements solid and wireframe fill modes. D3DFILLMODE point has been removed, use a geometry shader to emulate point mode if necessary. [FixedFuncEMU sample](af769594-3ecd-52b1-337e-8a411e29b8ab) provides an example of emulating D3DFILLMODE point in Direct3D 10. See [**D3D10\_FILL\_MODE**](d3d10-fill-mode.md) and [Shader Stages (Direct3D 10)](direct3d10.d3d10_graphics_programming_guide_shader_stages) for additional information.
+-   **Fill modes** have changed. Direct3D 10 implements solid and wireframe fill modes. D3DFILLMODE point has been removed, use a geometry shader to emulate point mode if necessary. [FixedFuncEMU sample](af769594-3ecd-52b1-337e-8a411e29b8ab) provides an example of emulating D3DFILLMODE point in Direct3D 10. See [**D3D10\_FILL\_MODE**](/windows/win32/D3D10/ne-d3d10-d3d10_fill_mode?branch=master) and [Shader Stages (Direct3D 10)](direct3d10.d3d10_graphics_programming_guide_shader_stages) for additional information.
 -   **Formats**. Hardware can use formats exposed by the API. Luminance formats are no longer implemented.
 -   **Mipmap filtering**. Removed the option for selecting no-filter mode. Instead, use a texture with only a single mipmap or set the MaxLOD sampler state to 0. See [State Objects (Direct3D 10)](d3d10-graphics-programming-guide-api-features-state-objects.md) for additional information.
 -   **Palettes**. Applications should use a dependent texture read instead.
@@ -53,7 +58,7 @@ Here is a complete list of the features in Direct3D 9 that have been deprecated 
 -   **Texture coordinate-index** (TCI) texture-stage state (D3DTSS\_TEXCOORDINDEX) is no longer supported.
 -   **Triangle fans**. An application must convert existing triangle-fans to triangle lists or triangle strips. To emulate some behaviors using DrawPrimitive in older APIs, try using DrawIndexed in Direct3D 10. See [Primitive Topologies (Direct3D 10)](direct3d10.d3d10_graphics_programming_guide_primitive_topologies) for additional information.
 -   **W buffering**. Hardware support is not guaranteed; it is recommended that an application uses high-precision depth buffers instead. See [Configuring Depth-Stencil Functionality (Direct3D 10)](direct3d10.d3d10_graphics_programming_guide_depth_stencil) for additional information.
--   **Wrap modes** (texture coordinate wrapping). Texture address wrapping (such as wrap, mirror, clamp etc.) still exist. See [**D3D10\_SAMPLER\_DESC**](d3d10-sampler-desc.md) and [**D3D10\_TEXTURE\_ADDRESS\_MODE**](d3d10-texture-address-mode.md).
+-   **Wrap modes** (texture coordinate wrapping). Texture address wrapping (such as wrap, mirror, clamp etc.) still exist. See [**D3D10\_SAMPLER\_DESC**](/windows/win32/D3D10/ns-d3d10-d3d10_sampler_desc?branch=master) and [**D3D10\_TEXTURE\_ADDRESS\_MODE**](/windows/win32/D3D10/ne-d3d10-d3d10_texture_address_mode?branch=master).
 
 ## Related topics
 

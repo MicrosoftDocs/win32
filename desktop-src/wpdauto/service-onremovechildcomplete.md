@@ -1,14 +1,22 @@
 ---
 title: Service.onRemoveChildComplete event
 description: The onRemoveChildComplete event occurs, and a callback handler is invoked, when a Service.RemoveChild operation has completed.
-ms.assetid: 'dbfe722f-5b38-417b-8b7e-fdcb9fe53d61'
-keywords: ["onRemoveChildComplete event WPD Automation", "onRemoveChildComplete event WPD Automation , Service object", "Service object WPD Automation , onRemoveChildComplete event"]
+ms.assetid: dbfe722f-5b38-417b-8b7e-fdcb9fe53d61
+keywords:
+- onRemoveChildComplete event WPD Automation
+- onRemoveChildComplete event WPD Automation , Service object
+- Service object WPD Automation , onRemoveChildComplete event
 topic_type:
 - apiref
 api_name:
 - Service.onRemoveChildComplete
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.onRemoveChildComplete event
@@ -78,8 +86,8 @@ Service.onRemoveChildComplete = HandlerFunction;
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -93,9 +101,9 @@ Service.onRemoveChildComplete = HandlerFunction;
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

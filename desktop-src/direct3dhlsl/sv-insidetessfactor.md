@@ -1,14 +1,20 @@
 ---
 title: SV\_InsideTessFactor
 description: Defines the tessellation amount within a patch surface.
-ms.assetid: 'f0762aca-d84d-44c0-a163-9737ef92c1e5'
-keywords: ["SV_InsideTessFactor HLSL"]
+ms.assetid: f0762aca-d84d-44c0-a163-9737ef92c1e5
+keywords:
+- SV_InsideTessFactor HLSL
 topic_type:
 - apiref
 api_name:
 - SV_InsideTessFactor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_InsideTessFactor

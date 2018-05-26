@@ -1,7 +1,12 @@
 ---
-Description: 'These flags specify the behavior of the media locator.'
-ms.assetid: '60afb2e8-cdd1-493e-8fc8-6fa581720b8d'
+Description: These flags specify the behavior of the media locator.
+ms.assetid: 60afb2e8-cdd1-493e-8fc8-6fa581720b8d
 title: File Name Validation Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Name Validation Flags
@@ -44,9 +49,9 @@ These flags specify the behavior of the media locator.
 [**IRenderEngine::SetSourceNameValidation**](irenderengine-setsourcenamevalidation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

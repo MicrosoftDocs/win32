@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: '2d6efa65-79ae-4c31-bd98-ad69baea4da2'
-title: 'IAMTimelineObj::ClearDirty method'
+---
+Description: Not supported.
+ms.assetid: 2d6efa65-79ae-4c31-bd98-ad69baea4da2
+title: IAMTimelineObjClearDirty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::ClearDirty method

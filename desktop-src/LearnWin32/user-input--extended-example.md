@@ -1,7 +1,12 @@
 ---
 title: User Input Extended Example
 description: .
-ms.assetid: 'A408E0EC-E0A7-4F18-BFCA-21D28007FACC'
+ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Input: Extended Example

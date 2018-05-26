@@ -1,7 +1,12 @@
 ---
 title: Admission Control Service
 description: Admission control service (ACS) is a QOS component that regulates subnet usage for QOS-enabled applications.
-ms.assetid: 'd256392d-b1a1-4864-a766-6a9a2d4af183'
+ms.assetid: d256392d-b1a1-4864-a766-6a9a2d4af183
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Admission Control Service

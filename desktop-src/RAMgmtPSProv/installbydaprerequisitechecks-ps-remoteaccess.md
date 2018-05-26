@@ -2,13 +2,16 @@
 title: InstallByDAPrerequisiteChecks method of the PS\_RemoteAccess class
 description: This cmdlet does the following 1.
 audience: developer
-ms.assetid: '43508e20-09f5-448f-8360-094be61f9881'
-ms.prod: 'windows-server-dev'
+ms.assetid: 43508e20-09f5-448f-8360-094be61f9881
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["InstallByDAPrerequisiteChecks method", "InstallByDAPrerequisiteChecks method, PS_RemoteAccess class", "PS_RemoteAccess class, InstallByDAPrerequisiteChecks method"]
+keywords:
+- InstallByDAPrerequisiteChecks method
+- InstallByDAPrerequisiteChecks method, PS_RemoteAccess class
+- PS_RemoteAccess class, InstallByDAPrerequisiteChecks method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallByDAPrerequisiteChecks method of the PS\_RemoteAccess class
@@ -28,9 +34,9 @@ This cmdlet does the following 1. Performs pre-requisite checks for DirectAccess
 
 ```mof
 uint32 InstallByDAPrerequisiteChecks(
-  [in]  string  ComputerName,
-  [in]  boolean Prerequisite,
-  [out] boolean Status
+  [in]  string  ComputerName,
+  [in]  boolean Prerequisite,
+  [out] boolean Status
 );
 ```
 
@@ -68,7 +74,7 @@ Returns True when all the pre-requisites have passed, and False when one or more
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Returns True when all the pre-requisites have passed, and False when one or more
 [**PS\_RemoteAccess**](ps-remoteaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

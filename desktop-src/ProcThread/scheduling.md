@@ -1,7 +1,12 @@
 ---
-Description: 'The system scheduler controls multitasking by determining which of the competing threads receives the next processor time slice. The scheduler determines which thread runs next using scheduling priorities.'
-ms.assetid: '45e53a49-7c9f-4be5-bb97-d49b4283743e'
+Description: The system scheduler controls multitasking by determining which of the competing threads receives the next processor time slice. The scheduler determines which thread runs next using scheduling priorities.
+ms.assetid: 45e53a49-7c9f-4be5-bb97-d49b4283743e
 title: Scheduling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scheduling

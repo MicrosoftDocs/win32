@@ -1,7 +1,12 @@
 ---
-Description: 'The Component table lists components and it has the following columns.'
-ms.assetid: '069d64e9-106a-42b7-8dea-a44fc0c6e0cd'
+Description: The Component table lists components and it has the following columns.
+ms.assetid: 069d64e9-106a-42b7-8dea-a44fc0c6e0cd
 title: Component Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component Table
@@ -21,7 +26,7 @@ The Component table lists components and it has the following columns.
 
 
 
- 
+ 
 
 ## Columns
 
@@ -66,7 +71,7 @@ This column contains a bit flag that specifies options for remote execution. Add
 > [!Note]  
 > In the case of an .msi file that is being downloaded from a web location, the attribute flags should not be set to allow a component to be run-from-source. This is a limitation of the Windows Installer and can return a feature state of INSTALLSTATE\_BADCONFIG.
 
- 
+ 
 
 
 
@@ -111,7 +116,7 @@ This column contains a bit flag that specifies options for remote execution. Add
 <td><dl> <dt><strong>msidbComponentAttributes64bit</strong></dt> <dt>256</dt> <dt>0x0100</dt> </dl> Set this bit to mark this as a 64-bit component. This attribute facilitates the installation of packages that include both 32-bit and 64-bit components. If this bit is not set, the component is registered as a 32-bit component.<br/> If this is a 64-bit component replacing a 32-bit component, set this bit and assign a new GUID in the ComponentId column.<br/></td>
 </tr>
 <tr class="odd">
-<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> Set this bit to disable [Registry Reflection](https://msdn.microsoft.com/library/windows/desktop/aa384235) on all existing and new registry keys affected by this component. If this bit is set, the Windows Installer calls the [<strong>RegDisableReflectionKey</strong>](https://msdn.microsoft.com/library/windows/desktop/ms724858) on each key being accessed by the component. This bit is available with Windows Installer version 4.0. This bit is ignored on 32-bit systems. This bit is ignored on the 64-bit versions of Windows XP.<br/>
+<td><dl> <dt><strong>msidbComponentAttributesDisableRegistryReflection</strong></dt> <dt>512</dt> <dt>0x0200</dt> </dl> Set this bit to disable [Registry Reflection](https://msdn.microsoft.com/library/windows/desktop/aa384235) on all existing and new registry keys affected by this component. If this bit is set, the Windows Installer calls the [<strong>RegDisableReflectionKey</strong>](https://msdn.microsoft.com/library/windows/desktop/ms724858) on each key being accessed by the component. This bit is available with Windows Installer version 4.0. This bit is ignored on 32-bit systems. This bit is ignored on the 64-bit versions of Windows XP.<br/>
 <blockquote>
 [!Note]<br />
 32-bit Windows applications running on the 64-bit Windows emulator (WOW64) refer to a different view of the registry than 64-bit applications. Registry reflection copies some registry values between these two registry views.
@@ -129,7 +134,7 @@ This column contains a bit flag that specifies options for remote execution. Add
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -138,7 +143,7 @@ This column contains a bit flag that specifies options for remote execution. Add
 
 This column contains a conditional statement that can control whether a component is installed. If the condition is null or evaluates to true, then the component is enabled. If the condition evaluates to False, then the component is disabled and is not installed.
 
-The Condition field enables or disables a component only during the [CostFinalize action](costfinalize-action.md). To enable or disable a component after CostFinalize, you must use a custom action or the [DoAction ControlEvent](doaction-controlevent.md) to call [**MsiSetComponentState**](msisetcomponentstate.md).
+The Condition field enables or disables a component only during the [CostFinalize action](costfinalize-action.md). To enable or disable a component after CostFinalize, you must use a custom action or the [DoAction ControlEvent](doaction-controlevent.md) to call [**MsiSetComponentState**](/windows/win32/Msiquery/nf-msiquery-msisetcomponentstatea?branch=master).
 
 Note that unless the Transitive bit in the Attributes column is set for a component, the component remains enabled once installed even if the conditional statement in the Condition column later evaluates to False on a subsequent maintenance installation of the product.
 
@@ -149,7 +154,7 @@ The Condition column in the Component table accepts conditional expressions cont
 <span id="KeyPath"></span><span id="keypath"></span><span id="KEYPATH"></span>KeyPath
 </dt> <dd>
 
-This value points to a file or folder belonging to the component that the installer uses to detect the component. Two components cannot share the same key path value. The value in this column is also the path returned by the [**MsiGetComponentPath**](msigetcomponentpath.md) function.
+This value points to a file or folder belonging to the component that the installer uses to detect the component. Two components cannot share the same key path value. The value in this column is also the path returned by the [**MsiGetComponentPath**](/windows/win32/Msi/nf-msi-msigetcomponentpatha?branch=master) function.
 
 If the value is not null, then KeyPath is either a primary key into the [Registry](registry-table.md), [ODBCDataSource](odbcdatasource-table.md), or [File tables](file-table.md) depending upon the Attribute value. If KeyPath is null, then the folder of the Directory\_ column is used as the key path.
 
@@ -221,9 +226,9 @@ See also, [Controlling Feature Selection States](controlling-feature-selection-s
 [ICE97](ice97.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

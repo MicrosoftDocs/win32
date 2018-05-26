@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for power configuration events. The following syntax is simplified from MOF code.'
-ms.assetid: 'b3391435-dac0-4c48-b788-eb4d4a7aa635'
-title: 'SystemConfig\_V0\_Power class'
+---
+Description: This class is the event type class for power configuration events. The following syntax is simplified from MOF code.
+ms.assetid: b3391435-dac0-4c48-b788-eb4d4a7aa635
+title: SystemConfig\_V0\_Power class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemConfig\_V0\_Power class

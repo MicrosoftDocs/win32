@@ -1,7 +1,12 @@
 ---
-Description: 'This document is intended for developers that are implementing secure clients that interoperate with secure WSD devices and secure Windows-based device hosts.'
-ms.assetid: 'baf0cd85-e309-4377-9414-a48de270d0e0'
+Description: This document is intended for developers that are implementing secure clients that interoperate with secure WSD devices and secure Windows-based device hosts.
+ms.assetid: baf0cd85-e309-4377-9414-a48de270d0e0
 title: Secure WSD Client Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secure WSD Client Development

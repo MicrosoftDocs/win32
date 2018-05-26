@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses the passphrase to obtain the derived key.'
-ms.assetid: '09b4ae7f-7084-42bd-8bbe-da686d6280e9'
-title: 'UnlockWithPassphrase method of the Win32\_EncryptableVolume class'
+---
+Description: Uses the passphrase to obtain the derived key.
+ms.assetid: 09b4ae7f-7084-42bd-8bbe-da686d6280e9
+title: UnlockWithPassphrase method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnlockWithPassphrase method of the Win32\_EncryptableVolume class

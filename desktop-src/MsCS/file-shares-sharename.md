@@ -4,26 +4,31 @@ description: Describes the name of the file share present on the network.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '51a6fbda-8017-4877-bf57-2db6da9abf1a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 51a6fbda-8017-4877-bf57-2db6da9abf1a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ShareName Failover Cluster ,for file shares", "ShareName Failover Cluster"]
+keywords:
+- ShareName Failover Cluster ,for file shares
+- ShareName Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ShareName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ShareName
 
-\[The **ShareName** property is no longer available for use as of Windows Server 2012.\]
+\[The **ShareName** property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 Describes the name of the [file share](file-share.md) present on the [network](networks.md). The following table summarizes the attributes of the **ShareName** property.
 
@@ -34,19 +39,19 @@ Describes the name of the [file share](file-share.md) present on the [network](n
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Required                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
 All **ShareName** values within a given cluster must be unique.
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -72,8 +77,8 @@ StringCbCopy( ShareNameValue.sz, ShareNameValue.cbLength, szShareNameData );
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -84,15 +89,15 @@ StringCbCopy( ShareNameValue.sz, ShareNameValue.cbLength, szShareNameData );
 [File Share Private Properties](file-share-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

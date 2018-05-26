@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the type of patch.'
-ms.assetid: '1e35a6db-7045-451d-a2d8-847d4935ccc8'
-title: 'ID3DXPatchMesh::GetOptions method'
+---
+Description: Gets the type of patch.
+ms.assetid: 1e35a6db-7045-451d-a2d8-847d4935ccc8
+title: ID3DXPatchMeshGetOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetOptions method

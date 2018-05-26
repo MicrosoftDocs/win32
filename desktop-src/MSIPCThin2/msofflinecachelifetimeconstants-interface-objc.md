@@ -4,17 +4,21 @@ description: Constants for caching and off-line behaviors.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'E08D642B-D275-43FD-A0E8-14A7D1892BC8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: E08D642B-D275-43FD-A0E8-14A7D1892BC8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSOfflineCacheLifetimeConstants class"]
+keywords:
+- MSOfflineCacheLifetimeConstants class
 topic_type:
 - apiref
 api_name:
 - MSOfflineCacheLifetimeConstants class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSOfflineCacheLifetimeConstants class
@@ -38,7 +42,7 @@ Constants for caching and off-line behaviors.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -54,15 +58,15 @@ MSOfflineCacheLifetimeConstants.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

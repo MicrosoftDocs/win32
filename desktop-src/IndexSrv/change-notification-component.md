@@ -1,7 +1,12 @@
 ---
 title: Change-Notification Component
 description: Change-Notification Component
-ms.assetid: 'ebc8fa40-5e77-485b-b1cd-4d4ff52f5a7e'
+ms.assetid: ebc8fa40-5e77-485b-b1cd-4d4ff52f5a7e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Change-Notification Component

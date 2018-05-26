@@ -1,7 +1,12 @@
 ---
-Description: 'A number of factoids describe input that is common to all language recognizers and need not have different formats for different languages. The following table lists factoids that are common across all languages.'
-ms.assetid: 'dae4a28d-0332-4bb2-b040-13a959c7945e'
+Description: A number of factoids describe input that is common to all language recognizers and need not have different formats for different languages. The following table lists factoids that are common across all languages.
+ms.assetid: dae4a28d-0332-4bb2-b040-13a959c7945e
 title: Factoids Common Across Languages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Factoids Common Across Languages
@@ -59,11 +64,11 @@ The default settings for the recognizer include the <strong>Web</strong> factoid
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

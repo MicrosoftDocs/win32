@@ -1,7 +1,12 @@
 ---
 title: rcp - vs
 description: Computes the reciprocal of the source scalar.
-ms.assetid: 'be638a42-b693-461d-ab0a-3a6c0fa1acfc'
+ms.assetid: be638a42-b693-461d-ab0a-3a6c0fa1acfc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # rcp - vs

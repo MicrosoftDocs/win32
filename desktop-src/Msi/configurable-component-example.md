@@ -1,7 +1,12 @@
 ---
-Description: 'This example allows the module consumer to independently configure an edit control, the checksum attribute, and the compressed attribute.'
-ms.assetid: 'f0500856-18d0-45e5-992a-57e01fb2cca5'
+Description: This example allows the module consumer to independently configure an edit control, the checksum attribute, and the compressed attribute.
+ms.assetid: f0500856-18d0-45e5-992a-57e01fb2cca5
 title: Configurable Component Example
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configurable Component Example

@@ -1,7 +1,12 @@
 ---
 Description: Operating on Device Content
-ms.assetid: 'c1335aa5-a6c5-44a7-bd5d-a8969467578b'
+ms.assetid: c1335aa5-a6c5-44a7-bd5d-a8969467578b
 title: Operating on Device Content
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operating on Device Content

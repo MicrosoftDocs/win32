@@ -1,8 +1,9 @@
 ---
 title: TVN\_DELETEITEM notification code
-description: Notifies a tree-view control's parent window that an item is being deleted. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '0d8801e0-02ae-40c9-8625-83d98b434d0a'
-keywords: ["TVN_DELETEITEM notification code Windows Controls"]
+description: Notifies a tree-view controls parent window that an item is being deleted. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 0d8801e0-02ae-40c9-8625-83d98b434d0a
+keywords:
+- TVN_DELETEITEM notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVN\_DELETEITEM notification code
@@ -35,7 +41,7 @@ TVN_DELETEITEM
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTREEVIEW**](nmtreeview.md) structure. The **itemOld** member is a [**TVITEM**](tvitem.md) structure whose **hItem** and **lParam** members contain valid information about the item being deleted.
+Pointer to an [**NMTREEVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmtreeviewa?branch=master) structure. The **itemOld** member is a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure whose **hItem** and **lParam** members contain valid information about the item being deleted.
 
 </dd> </dl>
 
@@ -45,7 +51,7 @@ The return value is ignored.
 
 ## Remarks
 
-If the **lParam** member of the [**TVITEM**](tvitem.md) structure points to memory allocated by your application, you can free it when you receive the TVN\_DELETEITEM notification code.
+If the **lParam** member of the [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure points to memory allocated by your application, you can free it when you receive the TVN\_DELETEITEM notification code.
 
 ## Requirements
 
@@ -53,16 +59,16 @@ If the **lParam** member of the [**TVITEM**](tvitem.md) structure points to memo
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TVN\_DELETEITEMW** (Unicode) and **TVN\_DELETEITEMA** (ANSI)<br/>             |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

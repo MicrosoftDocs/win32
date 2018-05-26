@@ -1,8 +1,11 @@
 ---
 title: Media.getItemInfoByType method
 description: The getItemInfoByType method retrieves the value of the attribute corresponding to the specified attribute name, language, and index.
-ms.assetid: '9d3377c2-7ae8-48ce-a42e-9c965f6b79f9'
-keywords: ["getItemInfoByType method Windows Media Player", "getItemInfoByType method Windows Media Player , Media class", "Media class Windows Media Player , getItemInfoByType method"]
+ms.assetid: 9d3377c2-7ae8-48ce-a42e-9c965f6b79f9
+keywords:
+- getItemInfoByType method Windows Media Player
+- getItemInfoByType method Windows Media Player , Media class
+- Media class Windows Media Player , getItemInfoByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.getItemInfoByType method
@@ -71,7 +79,7 @@ This method returns a **Number**, **String**, **MetadataPicture** object, or **M
 
 
 
- 
+ 
 
 For attributes whose underlying value is **Boolean**, this method returns the string "true" or "false".
 
@@ -139,9 +147,9 @@ This method can cause errors. You should include error-handling code when you ca
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

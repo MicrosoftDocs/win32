@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the stylus leaves the physical detection range (proximity) of the tablet.'
-ms.assetid: 'ded01278-126d-415d-9a7b-1e6fe3650a37'
-title: 'ITabletEventSink::CursorOutOfRange method'
+Description: Occurs when the stylus leaves the physical detection range (proximity) of the tablet.
+ms.assetid: ded01278-126d-415d-9a7b-1e6fe3650a37
+title: ITabletEventSinkCursorOutOfRange method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITabletEventSink::CursorOutOfRange method
@@ -13,8 +18,8 @@ Occurs when the stylus leaves the physical detection range (proximity) of the ta
 
 ```C++
 HRESULT CursorOutOfRange(
-  [in] TABLET_CONTEXT_ID tcid,
-       t                 cid
+  [in] TABLET_CONTEXT_ID tcid,
+       t                 cid
 );
 ```
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +64,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -72,9 +77,9 @@ This method can return one of these values.
 [**ITabletEventSink Interface**](itableteventsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Provides an overview of system administration technology.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '103e250d-87a3-406f-b88a-a2510291bd87'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 103e250d-87a3-406f-b88a-a2510291bd87
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Administration Solutions

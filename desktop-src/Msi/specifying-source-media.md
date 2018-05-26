@@ -1,7 +1,12 @@
 ---
-Description: 'The Media table describes the set of disks that make up the source media for the installation. See the File Tables Group. In this section, you add information about the source media for the Notepad sample.'
-ms.assetid: '883b3e8d-0a35-40e7-8bf1-704c5b4f0da1'
+Description: The Media table describes the set of disks that make up the source media for the installation. See the File Tables Group. In this section, you add information about the source media for the Notepad sample.
+ms.assetid: 883b3e8d-0a35-40e7-8bf1-704c5b4f0da1
 title: Specifying Source Media
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Source Media

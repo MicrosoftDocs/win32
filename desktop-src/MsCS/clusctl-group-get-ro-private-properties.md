@@ -4,11 +4,12 @@ description: Retrieves the read-only private properties for a group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b01bd00d-f3c4-4087-befc-3c1f1f75a8ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b01bd00d-f3c4-4087-befc-3c1f1f75a8ab
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES control code Failover Cluster"]
+keywords:
+- CLUSCTL_GROUP_GET_RO_PRIVATE_PROPERTIES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_GROUP\_GET\_RO\_PRIVATE\_PROPERTIES control code
 
-Retrieves the read-only private properties for a group. Applications use this [control code](about-control-codes.md) as a [**ClusterGroupControl**](clustergroupcontrol.md) parameter.
+Retrieves the read-only private properties for a group. Applications use this [control code](about-control-codes.md) as a [**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master) parameter.
 
 
 ```C++
@@ -41,7 +45,7 @@ ClusterGroupControl(
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterGroupControl**](clustergroupcontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master).
 
 <dl> <dt>
 
@@ -54,7 +58,7 @@ On a successful return, points to a [property list](property-lists.md) containin
 
 ## Return value
 
-[**ClusterGroupControl**](clustergroupcontrol.md) returns one of the following values.
+[**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -95,17 +99,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_GROUP\_GET\_RO\_PRIVATE\_PROPERTIES as
 
 | Component      | Bit location | Value                                          |
 |----------------|--------------|------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_GROUP** (0x3)                  |
+| Object code    | 24 31        | **CLUS\_OBJECT\_GROUP** (0x3)                  |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)                    |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)                     |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)                 |
 | Type bit       | 20           | External (0x0)                                 |
-| Operation code | 0–23         | **CLCTL\_GET\_RO\_PRIVATE\_PROPERTIES** (0x7d) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)                   |
+| Operation code | 0 23         | **CLCTL\_GET\_RO\_PRIVATE\_PROPERTIES** (0x7d) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)                   |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -114,7 +118,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_GROUP\_GET\_RO\_PRIVATE\_PROPERTIES as
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -126,12 +130,12 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_GROUP\_GET\_RO\_PRIVATE\_PROPERTIES as
 [Group Control Codes](group-control-codes.md)
 </dt> <dt>
 
-[**ClusterGroupControl**](clustergroupcontrol.md)
+[**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

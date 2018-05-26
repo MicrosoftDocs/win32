@@ -1,7 +1,12 @@
 ---
-Description: 'Rename this set.'
-ms.assetid: '6370510e-1b2d-4c0e-9890-3aeee6391401'
-title: 'Rename method of the MSFT\_NetIKEMMCryptoSet class'
+Description: Rename this set.
+ms.assetid: 6370510e-1b2d-4c0e-9890-3aeee6391401
+title: Rename method of the MSFT\_NetIKEMMCryptoSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rename method of the MSFT\_NetIKEMMCryptoSet class
@@ -13,7 +18,7 @@ Rename this set.
 
 ```mof
 uint32 Rename(
-  [in] string NewName
+  [in] string NewName
 );
 ```
 
@@ -36,8 +41,8 @@ The new name for the set.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ The new name for the set.
 [**MSFT\_NetIKEMMCryptoSet**](msft-netikemmcryptoset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: IBackgroundCopyError interface
 description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.
-ms.assetid: '7DCB63CF-4180-4DC3-9093-07C4F8CF7A8E'
-keywords: ["IBackgroundCopyError interface", "IBackgroundCopyError interface, described"]
+ms.assetid: 7DCB63CF-4180-4DC3-9093-07C4F8CF7A8E
+keywords:
+- IBackgroundCopyError interface
+- IBackgroundCopyError interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyError interface
@@ -40,7 +47,7 @@ The **IBackgroundCopyError** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -48,7 +55,7 @@ The **IBackgroundCopyError** interface has these methods.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -74,9 +81,9 @@ The **IBackgroundCopyError** interface has these methods.
 [**IBackgroundCopyCallback::JobError**](ibackgroundcopycallback-joberror-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

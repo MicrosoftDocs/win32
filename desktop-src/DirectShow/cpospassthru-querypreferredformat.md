@@ -1,19 +1,24 @@
 ---
-Description: 'The QueryPreferredFormat method retrieves the preferred time format for the stream. This method implements the IMediaSeeking::QueryPreferredFormat method.'
-ms.assetid: '8637448f-6b53-4ec9-9671-43bc8b713668'
-title: 'CPosPassThru.QueryPreferredFormat method'
+Description: The QueryPreferredFormat method retrieves the preferred time format for the stream. This method implements the IMediaSeekingQueryPreferredFormat method.
+ms.assetid: 8637448f-6b53-4ec9-9671-43bc8b713668
+title: CPosPassThru.QueryPreferredFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.QueryPreferredFormat method
 
-The `QueryPreferredFormat` method retrieves the preferred time format for the stream. This method implements the [**IMediaSeeking::QueryPreferredFormat**](imediaseeking-querypreferredformat.md) method.
+The `QueryPreferredFormat` method retrieves the preferred time format for the stream. This method implements the [**IMediaSeeking::QueryPreferredFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-querypreferredformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT QueryPreferredFormat(
-   GUID *pFormat
+   GUID *pFormat
 );
 ```
 
@@ -55,9 +60,9 @@ Returns the **HRESULT** value from the connected pin.
 [**Time Format GUIDs**](time-format-guids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
-Description: 'NLS: Internationalized Domain Name (IDN) Conversion Sample'
-ms.assetid: '9739efa5-8b88-4f9c-983d-806968caf9d5'
-title: 'NLS: Internationalized Domain Name (IDN) Conversion Sample'
+Description: NLS Internationalized Domain Name (IDN) Conversion Sample
+ms.assetid: 9739efa5-8b88-4f9c-983d-806968caf9d5
+title: NLS Internationalized Domain Name (IDN) Conversion Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NLS: Internationalized Domain Name (IDN) Conversion Sample
 
 The sample application described in this topic demonstrates how certain NLS functions can be used to convert [internationalized domain names (IDNs)](handling-internationalized-domain-names--idns.md). This application demonstrates the following NLS API functions:
 
--   [**IdnToAscii**](idntoascii.md)
--   [**IdnToNameprepUnicode**](idntonameprepunicode.md)
--   [**IdnToUnicode**](idntounicode.md)
+-   [**IdnToAscii**](/windows/win32/Winnls/nf-winnls-idntoascii?branch=master)
+-   [**IdnToNameprepUnicode**](/windows/win32/Winnls/nf-winnls-idntonameprepunicode?branch=master)
+-   [**IdnToUnicode**](/windows/win32/Winnls/nf-winnls-idntounicode?branch=master)
 
 In the sample output, note that, "ExAmPlE.cOm" is converted to "русский.example.com" for the Cyrillic example.
 

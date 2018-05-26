@@ -4,11 +4,15 @@ description: To create a Contact object, bind to the object that will contain th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2951c0fe-cc02-4ffc-a14a-e660579899fd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: 2951c0fe-cc02-4ffc-a14a-e660579899fd
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , creating contact objects"]
+keywords:
+- AD LDS examples ADAM , creating contact objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Contact Objects

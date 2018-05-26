@@ -1,7 +1,12 @@
 ---
-Description: 'Reset the Teredo configuration.'
-ms.assetid: 'a4b52015-4a78-4b84-b2fd-3b9a22bbc1c2'
-title: 'Reset method of the MSFT\_NetTeredoConfiguration class'
+Description: Reset the Teredo configuration.
+ms.assetid: a4b52015-4a78-4b84-b2fd-3b9a22bbc1c2
+title: Reset method of the MSFT\_NetTeredoConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the MSFT\_NetTeredoConfiguration class
@@ -13,14 +18,14 @@ Reset the Teredo configuration.
 
 ```mof
 uint32 Reset(
-  [in]  boolean                     Type,
-  [in]  boolean                     ServerName,
-  [in]  boolean RefreshInterval     In,
-  [in]  boolean                     ServerVirtualIP,
-  [in]  boolean                     DefaultQualified,
-  [in]  boolean                     ServerShunt,
-  [in]  boolean                     PassThru,
-  [out] MSFT_NetTeredoConfiguration OutputObject
+  [in]  boolean                     Type,
+  [in]  boolean                     ServerName,
+  [in]  boolean RefreshInterval     In,
+  [in]  boolean                     ServerVirtualIP,
+  [in]  boolean                     DefaultQualified,
+  [in]  boolean                     ServerShunt,
+  [in]  boolean                     PassThru,
+  [out] MSFT_NetTeredoConfiguration OutputObject
 );
 ```
 
@@ -92,8 +97,8 @@ Receives the reset [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguratio
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
@@ -107,9 +112,9 @@ Receives the reset [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguratio
 [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

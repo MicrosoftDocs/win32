@@ -1,8 +1,10 @@
 ---
 title: BcdDevicePartitionData class
 description: Represents a partition device element.
-ms.assetid: '90a9fdc0-88ed-442d-a524-a14357d71b26'
-keywords: ["BcdDevicePartitionData class Boot Config", "BcdDevicePartitionData class Boot Config , described"]
+ms.assetid: 90a9fdc0-88ed-442d-a524-a14357d71b26
+keywords:
+- BcdDevicePartitionData class Boot Config
+- BcdDevicePartitionData class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdDevicePartitionData class
@@ -58,8 +65,8 @@ The device path.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -75,9 +82,9 @@ The device path.
 [**SetPartitionDeviceElement**](setpartitiondeviceelement-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

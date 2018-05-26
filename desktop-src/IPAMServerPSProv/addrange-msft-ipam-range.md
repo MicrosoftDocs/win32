@@ -1,15 +1,18 @@
 ---
-Description: 'Adds a new IP address range to IPAM.'
+Description: Adds a new IP address range to IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e1695eb2-0cff-457f-867c-e63b9b978b76'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e1695eb2-0cff-457f-867c-e63b9b978b76
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'AddRange method of the MSFT\_IPAM\_Range class'
+title: AddRange method of the MSFT\_IPAM\_Range class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddRange method of the MSFT\_IPAM\_Range class
@@ -21,29 +24,29 @@ Adds a new IP address range to IPAM.
 
 ```mof
 uint32 AddRange(
-  [in]  string          NetworkID,
-  [in]  uint16          NetworkType,
-  [in]  string          AddressSpace,
-  [in]  string          StartAddress,
-  [in]  string          EndAddress,
-  [in]  string          ManagedByService,
-  [in]  string          ServiceInstance,
-  [in]  uint16          UtilizationCalculation,
-  [in]  real64          UtilizedAddresses,
-  [in]  string          Description,
-  [in]  string          Owner,
-  [in]  uint16          AssignmentType,
-  [in]  datetime        AssignmentDate,
-  [in]  string          ReservedIPAddresses[],
-  [in]  string          DnsServers[],
-  [in]  string          DnsSuffixes[],
-  [in]  string          ConnectionSpecificDnsSuffix,
-  [in]  string          WinsServers[],
-  [in]  string          VIP[],
-  [in]  string          Gateway[],
-  [in]  string          CustomConfiguration,
-  [in]  string          AssociatedReverseLookupZone,
-  [out] MSFT_IPAM_Range OutputRange
+  [in]  string          NetworkID,
+  [in]  uint16          NetworkType,
+  [in]  string          AddressSpace,
+  [in]  string          StartAddress,
+  [in]  string          EndAddress,
+  [in]  string          ManagedByService,
+  [in]  string          ServiceInstance,
+  [in]  uint16          UtilizationCalculation,
+  [in]  real64          UtilizedAddresses,
+  [in]  string          Description,
+  [in]  string          Owner,
+  [in]  uint16          AssignmentType,
+  [in]  datetime        AssignmentDate,
+  [in]  string          ReservedIPAddresses[],
+  [in]  string          DnsServers[],
+  [in]  string          DnsSuffixes[],
+  [in]  string          ConnectionSpecificDnsSuffix,
+  [in]  string          WinsServers[],
+  [in]  string          VIP[],
+  [in]  string          Gateway[],
+  [in]  string          CustomConfiguration,
+  [in]  string          AssociatedReverseLookupZone,
+  [out] MSFT_IPAM_Range OutputRange
 );
 ```
 
@@ -258,7 +261,7 @@ An array that contains the reserved IP addresses in the address range.
 > [!Note]  
 > These IP addresses are excluded from queries, when searching for free IP addresses.
 
- 
+ 
 
 </dd> <dt>
 
@@ -298,7 +301,7 @@ An array that contains the virtual IP addresses in the address range.
 > [!Note]  
 > These IP addresses are excluded from queries, when searching for free IP addresses.
 
- 
+ 
 
 </dd> <dt>
 
@@ -321,7 +324,7 @@ The custom data associated with the address range. This is formatted as semi-col
 
 The associated reverse lookup zone name for this range.
 
-**Windows Server 2012 R2:** This parameter not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -343,7 +346,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -357,9 +360,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Range**](msft-ipam-range.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The PROPERTYINSTEX structure defines a freeform, extended property instance.'
-ms.assetid: 'a2316baf-07e2-4617-bb35-e20cfb11fbcb'
+Description: The PROPERTYINSTEX structure defines a freeform, extended property instance.
+ms.assetid: a2316baf-07e2-4617-bb35-e20cfb11fbcb
 title: PROPERTYINSTEX structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPERTYINSTEX structure
@@ -13,16 +18,16 @@ The **PROPERTYINSTEX** structure defines a freeform, extended property instance.
 
 ```C++
 typedef struct _PROPERTYINSTEX {
-  WORD    Length;
-  WORD    LengthEx;
+  WORD    Length;
+  WORD    LengthEx;
   ULPVOID lpData;
   union {
-    BYTE          Byte[];
-    WORD          Word[];
-    DWORD         Dword[];
+    BYTE          Byte[];
+    WORD          Word[];
+    DWORD         Dword[];
     LARGE_INTEGER LargeInt[];
-    SYSTEMTIME    SysTime[];
-    TYPED_STRING  TypedString;
+    SYSTEMTIME    SysTime[];
+    TYPED_STRING  TypedString;
   };
 } PROPERTYINSTEX;
 ```
@@ -102,15 +107,15 @@ A typed string that may have extended data.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

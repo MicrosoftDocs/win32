@@ -4,11 +4,14 @@ description: Installs an RD connection broker database on a central SQL server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9cc6fa4a-f1eb-49eb-bec4-acaff73190e8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9cc6fa4a-f1eb-49eb-bec4-acaff73190e8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["InstallBrokerDatabase method Remote Desktop Services", "InstallBrokerDatabase method Remote Desktop Services , Win32_SessionBrokerServiceProperties class", "Win32_SessionBrokerServiceProperties class Remote Desktop Services , InstallBrokerDatabase method"]
+keywords:
+- InstallBrokerDatabase method Remote Desktop Services
+- InstallBrokerDatabase method Remote Desktop Services , Win32_SessionBrokerServiceProperties class
+- Win32_SessionBrokerServiceProperties class Remote Desktop Services , InstallBrokerDatabase method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TssdWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # InstallBrokerDatabase method of the Win32\_SessionBrokerServiceProperties class
@@ -28,9 +34,9 @@ Installs an RD connection broker database on a central SQL server.
 
 ```mof
 uint32 InstallBrokerDatabase(
-  [in] string newDbFilePath,
-  [in] string connStringToCentralDBMaster,
-  [in] string centralRdcmsDbName
+  [in] string newDbFilePath,
+  [in] string connStringToCentralDBMaster,
+  [in] string centralRdcmsDbName
 );
 ```
 
@@ -68,7 +74,7 @@ Name of the central database.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                               |
 | MOF<br/>                      | <dl> <dt>TssdWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TssdWmi.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Name of the central database.
 [**Win32\_SessionBrokerServiceProperties**](win32-sessionbrokerserviceproperties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

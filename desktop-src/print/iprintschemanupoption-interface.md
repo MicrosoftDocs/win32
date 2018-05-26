@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes a Print Schema NUp Option element.'
-ms.assetid: '1EC5C0D4-5170-4251-80C0-24CB0D6EF782'
+---
+Description: Exposes a Print Schema NUp Option element.
+ms.assetid: 1EC5C0D4-5170-4251-80C0-24CB0D6EF782
 title: IPrintSchemaNUpOption interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaNUpOption interface

@@ -1,14 +1,19 @@
 ---
-Description: 'The CBaseMediaFilter class implements the IMediaFilter interface.'
-ms.assetid: '45c8973b-d0b3-4aeb-96e7-be47f8d7f4a7'
+Description: The CBaseMediaFilter class implements the IMediaFilter interface.
+ms.assetid: 45c8973b-d0b3-4aeb-96e7-be47f8d7f4a7
 title: CBaseMediaFilter class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter class
 
 ![cbasemediafilter](images/filter05.png)
 
-The `CBaseMediaFilter` class implements the [**IMediaFilter**](imediafilter.md) interface. Use this class for plug-in distributors or other objects that need to support **IMediaFilter** without supporting the [**IBaseFilter**](ibasefilter.md) interface. Do not use this class for filters. Instead, use the [**CBaseFilter**](cbasefilter.md) class, or a base class derived from **CBaseFilter**.
+The `CBaseMediaFilter` class implements the [**IMediaFilter**](/windows/win32/Strmif/nn-strmif-imediafilter?branch=master) interface. Use this class for plug-in distributors or other objects that need to support **IMediaFilter** without supporting the [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface. Do not use this class for filters. Instead, use the [**CBaseFilter**](cbasefilter.md) class, or a base class derived from **CBaseFilter**.
 
 
 
@@ -36,7 +41,7 @@ The `CBaseMediaFilter` class implements the [**IMediaFilter**](imediafilter.md) 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -49,9 +54,9 @@ The `CBaseMediaFilter` class implements the [**IMediaFilter**](imediafilter.md) 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

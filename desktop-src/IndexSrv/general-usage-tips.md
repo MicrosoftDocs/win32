@@ -1,7 +1,12 @@
 ---
 title: General Usage Tips
 description: The following are general tips to help ensure optimal performance for Indexing Service.
-ms.assetid: 'ca14b749-a381-4796-975f-1c6867272ddc'
+ms.assetid: ca14b749-a381-4796-975f-1c6867272ddc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # General Usage Tips

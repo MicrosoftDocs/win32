@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '91290f58-a77b-447f-aa2a-bbee067f5a98'
-title: 'CBaseMediaFilter.CBaseMediaFilter constructor'
+Description: Constructor method.
+ms.assetid: 91290f58-a77b-447f-aa2a-bbee067f5a98
+title: CBaseMediaFilter.CBaseMediaFilter constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter.CBaseMediaFilter constructor
@@ -13,10 +18,10 @@ Constructor method.
 
 ```C++
 CBaseMediaFilter(
-   const TCHAR     *pName,
-         LPUNKNOWN pUnk,
-         CCritSec  *pLock,
-         REFCLSID  clsid
+   const TCHAR     *pName,
+         LPUNKNOWN pUnk,
+         CCritSec  *pLock,
+         REFCLSID  clsid
 );
 ```
 
@@ -81,9 +86,9 @@ Otherwise, you can:
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

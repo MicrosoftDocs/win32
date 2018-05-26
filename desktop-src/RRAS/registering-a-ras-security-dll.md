@@ -1,7 +1,12 @@
 ---
 title: Registering a RAS Security DLL
 description: The setup program for a RAS security DLL must register the DLL with the Windows NT/Windows 2000 RAS server.
-ms.assetid: '90a1f30e-ea68-4859-b436-219c25016677'
+ms.assetid: 90a1f30e-ea68-4859-b436-219c25016677
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a RAS Security DLL
@@ -28,7 +33,7 @@ HKEY_LOCAL_MACHINE
 
 The setup program for a RAS security DLL must also provide remove/uninstall functionality. If a user removes the DLL, the setup program must delete the *DLLPath* value from the registry. The RAS service does not start if the *DLLPath* value specifies a DLL that cannot be found.
 
-A RAS security DLL must export the [**RasSecurityDialogBegin**](rassecuritydialogbegin.md) and [**RasSecurityDialogEnd**](rassecuritydialogend.md) functions.
+A RAS security DLL must export the [**RasSecurityDialogBegin**](/windows/win32/Rasshost/nf-rasshost-rassecuritydialogbegin?branch=master) and [**RasSecurityDialogEnd**](/windows/win32/Rasshost/nf-rasshost-rassecuritydialogend?branch=master) functions.
 
  
 

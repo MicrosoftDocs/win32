@@ -4,13 +4,15 @@ description: A base class for all the components of a System that represent abst
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '47533b81-b999-4e7a-bc75-d107ba4d8e69'
-ms.prod: 'windows-server-dev'
+ms.assetid: 47533b81-b999-4e7a-bc75-d107ba4d8e69
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_LogicalElement class", "CIM_LogicalElement class, described"]
+keywords:
+- CIM_LogicalElement class
+- CIM_LogicalElement class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_LogicalElement class
@@ -42,15 +47,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.6.0"), UUID("{49a2db5a-ca82-4263-a16c-dcae87f43507}"), AMENDMENT]
 class CIM_LogicalElement : CIM_ManagedSystemElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
 };
 ```
 
@@ -535,8 +540,8 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -550,9 +555,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

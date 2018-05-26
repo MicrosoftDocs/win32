@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational SetDefaultCharset method
 description: Sets the default character set for MimeOLE.
-ms.assetid: '3f333c53-25e8-4aca-b11f-48fa26bf51fd'
-keywords: ["SetDefaultCharset method Windows Mail (formerly Outlook Express)", "SetDefaultCharset method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , SetDefaultCharset method"]
+ms.assetid: 3f333c53-25e8-4aca-b11f-48fa26bf51fd
+keywords:
+- SetDefaultCharset method Windows Mail (formerly Outlook Express)
+- SetDefaultCharset method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , SetDefaultCharset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::SetDefaultCharset method
@@ -22,7 +30,7 @@ Sets the default character set for MimeOLE.
 
 ```C++
 HRESULT SetDefaultCharset(
-  [in] HCHARSET hCharset
+  [in] HCHARSET hCharset
 );
 ```
 
@@ -57,7 +65,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,8 +79,8 @@ MimeOLE supports only a single global character set for an instance of MimeOLE.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -80,9 +88,9 @@ MimeOLE supports only a single global character set for an instance of MimeOLE.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

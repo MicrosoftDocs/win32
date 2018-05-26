@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax outbound job.'
-ms.assetid: '51cd3b14-9d72-4e86-bafd-dca874eb74fc'
-title: 'FaxOutgoingJob.TSID property'
+---
+Description: The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax outbound job.
+ms.assetid: 51cd3b14-9d72-4e86-bafd-dca874eb74fc
+title: FaxOutgoingJob.TSID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.TSID property
@@ -46,7 +51,7 @@ A **String** that receives the TSID associated with the outbound fax job.
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

@@ -1,14 +1,20 @@
 ---
 title: CONTROL control
 description: Defines a user-defined control.
-ms.assetid: 'e5e7b7af-e2b0-41ff-b697-b9ea80e7c61f'
-keywords: ["CONTROL control Menus and Other Resources"]
+ms.assetid: e5e7b7af-e2b0-41ff-b697-b9ea80e7c61f
+keywords:
+- CONTROL control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - CONTROL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONTROL control

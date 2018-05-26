@@ -1,14 +1,19 @@
 ---
 title: Set-up Processes
 description: You should add the firewall rules during component installation by using the Windows Firewall public COM APIs.
-ms.assetid: 'cd18bf2e-3027-45ba-ba65-5055a6a446c5'
+ms.assetid: cd18bf2e-3027-45ba-ba65-5055a6a446c5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set-up Processes
 
-You should add the firewall rules during component installation by using the Windows Firewall public COM APIs. This is done by means of the [**INetFwPolicy2**](inetfwpolicy2.md) interface by creating a firewall rule and calling [**INetFwRules::Add**](inetfwrules-add.md). Any firewall rule groups that you need to enable should also be done at this time by using [**INetFwPolicy2::EnableRuleGroup**](inetfwpolicy2-enablerulegroup.md).
+You should add the firewall rules during component installation by using the Windows Firewall public COM APIs. This is done by means of the [**INetFwPolicy2**](/windows/previous-versions/Netfw/nn-netfw-inetfwpolicy2?branch=master) interface by creating a firewall rule and calling [**INetFwRules::Add**](/windows/previous-versions/Netfw/nf-netfw-inetfwrules-add?branch=master). Any firewall rule groups that you need to enable should also be done at this time by using [**INetFwPolicy2::EnableRuleGroup**](/windows/previous-versions/Netfw/nf-netfw-inetfwpolicy2-enablerulegroup?branch=master).
 
-In addition, Windows services should also create Windows Service Hardening (WSH) network rules at this time using the WSH COM APIs. This is done by means of the [**INetFWServiceRestriction**](inetfwservicerestriction.md) interface by calling the [**INetFWServiceRestriction::RestrictService**](inetfwservicerestriction-restrictservice.md) method. Note that there may be a small time lag before the newly-added rule is applied.
+In addition, Windows services should also create Windows Service Hardening (WSH) network rules at this time using the WSH COM APIs. This is done by means of the [**INetFWServiceRestriction**](/windows/previous-versions/Netfw/nn-netfw-inetfwservicerestriction?branch=master) interface by calling the [**INetFWServiceRestriction::RestrictService**](/windows/previous-versions/Netfw/nf-netfw-inetfwservicerestriction-restrictservice?branch=master) method. Note that there may be a small time lag before the newly-added rule is applied.
 
 ## Creating rules for applications
 
@@ -158,7 +163,7 @@ wshRules.Add NewOutboundRule
 
 ## Uninstall
 
-Any firewall rules that were added during component installation should be removed via the [**INetFwPolicy2**](inetfwpolicy2.md) interface by creating a firewall rule and calling [**INetFwRules::Remove()**](inetfwrules-remove.md). During uninstall the state of other firewall rule groups should not be modified or disabled.
+Any firewall rules that were added during component installation should be removed via the [**INetFwPolicy2**](/windows/previous-versions/Netfw/nn-netfw-inetfwpolicy2?branch=master) interface by creating a firewall rule and calling [**INetFwRules::Remove()**](/windows/previous-versions/Netfw/nf-netfw-inetfwrules-remove?branch=master). During uninstall the state of other firewall rule groups should not be modified or disabled.
 
 This VBScript file includes sample code for adding an Application rule using the Microsoft Windows Firewall APIs and then removing it.
 
@@ -207,7 +212,7 @@ In the event that the component installation has failed, the firewall rules that
 
 ## Servicing
 
-Servicing should be performed by removing rules that are no longer required by the new version of the feature and by adding new rules that are now required. Any existing rules that need to be modified should have their parameters modified with the [**INetFwRule**](inetfwrule.md) APIs. The enabled and disabled state of existing rules should not be modified.
+Servicing should be performed by removing rules that are no longer required by the new version of the feature and by adding new rules that are now required. Any existing rules that need to be modified should have their parameters modified with the [**INetFwRule**](/windows/previous-versions/Netfw/nn-netfw-inetfwrule?branch=master) APIs. The enabled and disabled state of existing rules should not be modified.
 
  
 

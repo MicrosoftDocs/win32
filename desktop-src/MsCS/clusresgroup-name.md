@@ -4,11 +4,14 @@ description: Name of a group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '000a3b5e-3b77-47aa-9703-df0d7de48ba2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 000a3b5e-3b77-47aa-9703-df0d7de48ba2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Name property Failover Cluster", "Name property Failover Cluster , ClusResGroup class", "ClusResGroup class Failover Cluster , Name property"]
+keywords:
+- Name property Failover Cluster
+- Name property Failover Cluster , ClusResGroup class
+- ClusResGroup class Failover Cluster , Name property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup.Name property
@@ -47,7 +53,7 @@ ClusResGroup.Name
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -63,9 +69,9 @@ ClusResGroup.Name
 [**ClusResGroup**](clusresgroup-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

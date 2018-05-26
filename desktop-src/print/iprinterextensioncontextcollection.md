@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes a collection of IPrinterExtensionContext objects.'
-ms.assetid: '693DAA13-70B3-48A7-9BC2-6369691539FD'
+---
+Description: Exposes a collection of IPrinterExtensionContext objects.
+ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
 title: IPrinterExtensionContextCollection interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionContextCollection interface

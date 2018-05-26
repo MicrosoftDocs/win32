@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine SavedStateFilePath property
 description: The SavedStateFilePath property contains the path to the saved state file.
-ms.assetid: '72e1e803-f8bb-430b-b9aa-21008cdcd830'
-keywords: ["SavedStateFilePath property Virtual Server", "SavedStateFilePath property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , SavedStateFilePath property", "SavedStateFilePath property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , SavedStateFilePath property"]
+ms.assetid: 72e1e803-f8bb-430b-b9aa-21008cdcd830
+keywords:
+- SavedStateFilePath property Virtual Server
+- SavedStateFilePath property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , SavedStateFilePath property
+- SavedStateFilePath property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , SavedStateFilePath property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::SavedStateFilePath property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SavedStateFilePath(
-  [out] BSTR *savedStateFilePath
+  [out] BSTR *savedStateFilePath
 );
 ```
 
@@ -97,8 +107,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -110,9 +120,9 @@ End If
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

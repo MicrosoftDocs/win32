@@ -1,13 +1,19 @@
 ---
 title: Task Scheduler Schema
 description: The Task Scheduler schema defines valid XML used to register tasks with the Task Scheduler service. Developers can create their own XML, validate it against this schema, and register tasks using the ITaskFolder RegisterTask method.
-ms.assetid: '9b1b8e34-c635-413a-a230-79a58017cf21'
-keywords: ["Task Scheduler Task Scheduler , reference, XML schema"]
+ms.assetid: 9b1b8e34-c635-413a-a230-79a58017cf21
+keywords:
+- Task Scheduler Task Scheduler , reference, XML schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler Schema
 
-The Task Scheduler schema defines valid XML used to register tasks with the Task Scheduler service. Developers can create their own XML, validate it against this schema, and register tasks using the [**ITaskFolder::RegisterTask**](itaskfolder-registertask.md) method.
+The Task Scheduler schema defines valid XML used to register tasks with the Task Scheduler service. Developers can create their own XML, validate it against this schema, and register tasks using the [**ITaskFolder::RegisterTask**](/windows/win32/taskschd/nf-taskschd-itaskfolder-registertask?branch=master) method.
 
 The types and elements of the Task Scheduler schema are individually documented in the following sections.
 

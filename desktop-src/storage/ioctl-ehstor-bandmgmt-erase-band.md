@@ -1,8 +1,9 @@
 ---
 title: IOCTL\_EHSTOR\_BANDMGMT\_ERASE\_BAND control code
 description: The IOCTL\_EHSTOR\_BANDMGMT\_ERASE\_BAND request will cryptographically erase and reset the authentication key of a band. The remaining configuration of the band is left unmodified.
-ms.assetid: 'E7DE8E55-B753-42AF-B25F-F806EE37DCF1'
-keywords: ["IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control code Storage Devices"]
+ms.assetid: E7DE8E55-B753-42AF-B25F-F806EE37DCF1
+keywords:
+- IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control code Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - EhStorBandMgmt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_EHSTOR\_BANDMGMT\_ERASE\_BAND control code
@@ -53,7 +59,7 @@ One of the following values can be returned in the **Status** field.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,7 +79,7 @@ The changes made to the band table by this request are committed to the device a
 
 |                    |                                                                                                                        |
 |--------------------|------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Available starting with Windows 8<br/>                                                                           |
+| Version<br/> | Available starting with Windows 8<br/>                                                                           |
 | Header<br/>  | <dl> <dt>EhStorBandMgmt.h (include EhStorBandMgmt.h)</dt> </dl> |
 
 
@@ -88,9 +94,9 @@ The changes made to the band table by this request are committed to the device a
 [**IOCTL\_EHSTOR\_BANDMGMT\_DELETE\_BAND**](ioctl-ehstor-bandmgmt-delete-band.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20IOCTL_EHSTOR_BANDMGMT_ERASE_BAND%20control%20code%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

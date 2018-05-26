@@ -1,8 +1,10 @@
 ---
 title: Win32\_ApplicationCommandLine class
 description: The Win32\_ApplicationCommandLine association WMI class identifies a connection between an application and its command-line access point.
-ms.assetid: 'f8e10112-d292-4d7b-ac44-e5c08cf2524a'
-keywords: ["Win32_ApplicationCommandLine class", "Win32_ApplicationCommandLine class, described"]
+ms.assetid: f8e10112-d292-4d7b-ac44-e5c08cf2524a
+keywords:
+- Win32_ApplicationCommandLine class
+- Win32_ApplicationCommandLine class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ApplicationCommandLine class
@@ -22,7 +29,7 @@ The **Win32\_ApplicationCommandLine** association [WMI class](https://msdn.micro
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider)
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -33,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ApplicationCommandLine : CIM_ServiceAccessBySAP
 {
   Win32_ApplicationService Antecedent;
-  Win32_CommandLineAccess  Dependent;
+  Win32_CommandLineAccess  Dependent;
 };
 ```
 
@@ -91,8 +98,8 @@ The **Win32\_ApplicationCommandLine** class is derived from [**CIM\_ServiceAcces
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -106,9 +113,9 @@ The **Win32\_ApplicationCommandLine** class is derived from [**CIM\_ServiceAcces
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Retrieves a list of relying parties that are available to Web Application Proxy.'
+Description: Retrieves a list of relying parties that are available to Web Application Proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '86adb6bc-9445-4076-94e2-570ef9aabdce'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 86adb6bc-9445-4076-94e2-570ef9aabdce
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_WebApplicationProxyAvailableADFSRelyingParty class'
+title: CIM\_WebApplicationProxyAvailableADFSRelyingParty class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_WebApplicationProxyAvailableADFSRelyingParty class
@@ -45,7 +48,7 @@ The **CIM\_WebApplicationProxyAvailableADFSRelyingParty** class has these method
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,7 +57,7 @@ The **CIM\_WebApplicationProxyAvailableADFSRelyingParty** class has these method
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -68,9 +71,9 @@ The **CIM\_WebApplicationProxyAvailableADFSRelyingParty** class has these method
 [Application Proxy WMI Provider Reference](application-proxy-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

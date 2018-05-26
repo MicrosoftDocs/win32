@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork getProxyName method
 description: The getProxyName method returns the name of the proxy server being used.
-ms.assetid: '69396b01-1da7-450c-b229-0cc4fb832ae9'
-keywords: ["getProxyName method Windows Media Player", "getProxyName method Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , getProxyName method"]
+ms.assetid: 69396b01-1da7-450c-b229-0cc4fb832ae9
+keywords:
+- getProxyName method Windows Media Player
+- getProxyName method Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , getProxyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::getProxyName method
@@ -164,9 +172,9 @@ proxyNameText.Lines = proxyNames</code></pre></td>
 [**IWMPNetwork.setProxyName (VB and C#)**](wmplibiwmpnetwork-iwmpnetwork-setproxyname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

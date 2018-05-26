@@ -1,7 +1,12 @@
 ---
-Description: 'Device signal strength.'
-ms.assetid: '662d39a6-f2f5-4556-a6de-bbcc655b4adb'
-title: 'System.Devices.SignalStrength'
+Description: Device signal strength.
+ms.assetid: 662d39a6-f2f5-4556-a6de-bbcc655b4adb
+title: System.Devices.SignalStrength
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.SignalStrength

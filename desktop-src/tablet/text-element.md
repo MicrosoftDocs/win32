@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains text information from the Journal note.'
-ms.assetid: '09ec2e8a-bd50-4f82-8ce3-a1c61f48ddb7'
+---
+Description: Contains text information from the Journal note.
+ms.assetid: 09ec2e8a-bd50-4f82-8ce3-a1c61f48ddb7
 title: Text Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Element

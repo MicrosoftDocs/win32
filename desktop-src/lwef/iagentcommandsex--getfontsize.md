@@ -1,7 +1,12 @@
 ---
 title: IAgentCommandsEx GetFontSize
 description: IAgentCommandsEx GetFontSize
-ms.assetid: '8173e026-d28f-43d8-a8b4-96d1d97a8b68'
+ms.assetid: 8173e026-d28f-43d8-a8b4-96d1d97a8b68
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommandsEx::GetFontSize

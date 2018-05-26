@@ -1,8 +1,11 @@
 ---
 title: IixssoQuery CodePage property
 description: Contains the code page to be used for this query.
-ms.assetid: 'd113297e-f77a-4418-9656-52d266421fe2'
-keywords: ["CodePage property Indexing Service", "CodePage property Indexing Service , IixssoQuery interface", "IixssoQuery interface Indexing Service , CodePage property"]
+ms.assetid: d113297e-f77a-4418-9656-52d266421fe2
+keywords:
+- CodePage property Indexing Service
+- CodePage property Indexing Service , IixssoQuery interface
+- IixssoQuery interface Indexing Service , CodePage property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoQuery::CodePage property
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Contains the code page to be used for this query.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_CodePage(
-  [in]          LONG val
+  [in]          LONG val
 );
 
 HRESULT get_CodePage(
-  [out, retval] LONG *val
+  [out, retval] LONG *val
 );
 ```
 
@@ -52,10 +60,10 @@ A code page is a set of typographical characters used to represent text, which c
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -67,9 +75,9 @@ A code page is a set of typographical characters used to represent text, which c
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

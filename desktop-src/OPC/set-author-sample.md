@@ -1,7 +1,12 @@
 ---
 title: Set Author Sample
 description: A sample application that uses the Packaging APIs to read and modify an existing package.
-ms.assetid: '26785d8c-7f18-412b-a5bd-61bcff72c7da'
+ms.assetid: 26785d8c-7f18-412b-a5bd-61bcff72c7da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Set Author Sample
@@ -36,12 +41,12 @@ The sample demonstrates the following features:
 
 | Product                                                                                             | Version        |
 |-----------------------------------------------------------------------------------------------------|----------------|
-| [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7      |
+| [Microsoft Windows Software Development Kit (SDK)](http://go.microsoft.com/fwlink/p/?linkid=129787) | Windows 7      |
 | [ATL](http://go.microsoft.com/fwlink/p/?linkid=142947)                                              | .NET Framework |
 
 
 
- 
+ 
 
 ## Downloading the Sample
 
@@ -56,7 +61,7 @@ This sample is available in the following locations:
 
 
 
- 
+ 
 
 ## Building the Sample
 
@@ -75,7 +80,7 @@ The following procedure describes how to build the sample.
         > [!Note]  
         > If the sample does not build successfully, close Visual Studio 2008 and run the [.NET Framework Configuration Tool](a7106c52-68da-490e-b129-971b2c743764) (Mscorcfg.msc) before attempting to build the sample.
 
-         
+         
 
     Using the command prompt:
 
@@ -134,11 +139,11 @@ The modifications made to the package can also been seen in the package file its
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

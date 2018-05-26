@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WIDTHTABLE structure is used to define the contents of Unidrv font metrics files (.ufm files).'
-ms.assetid: '6c7b35a2-f9fd-41a9-a353-ec8b78259bf0'
+---
+Description: The WIDTHTABLE structure is used to define the contents of Unidrv font metrics files (.ufm files).
+ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 title: WIDTHTABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIDTHTABLE structure

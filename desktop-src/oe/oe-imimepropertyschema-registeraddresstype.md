@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySchema RegisterAddressType method
 description: Registers a new address type in the MimeOLE global property schema.
-ms.assetid: '975c54df-0d60-4d93-b29f-d8d41f4a2361'
-keywords: ["RegisterAddressType method Windows Mail (formerly Outlook Express)", "RegisterAddressType method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface", "IMimePropertySchema interface Windows Mail (formerly Outlook Express) , RegisterAddressType method"]
+ms.assetid: 975c54df-0d60-4d93-b29f-d8d41f4a2361
+keywords:
+- RegisterAddressType method Windows Mail (formerly Outlook Express)
+- RegisterAddressType method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface
+- IMimePropertySchema interface Windows Mail (formerly Outlook Express) , RegisterAddressType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySchema::RegisterAddressType method
@@ -22,8 +30,8 @@ Registers a new address type in the MimeOLE global property schema.
 
 ```C++
 HRESULT RegisterAddressType(
-  [in]  LPCSTR  pszName,
-  [out] LPDWORD pdwAdrType
+  [in]  LPCSTR  pszName,
+  [out] LPDWORD pdwAdrType
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ MimeOLE defines a set of default address types in the IAT\_*xxx* bitmask (see [*
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -89,9 +97,9 @@ MimeOLE defines a set of default address types in the IAT\_*xxx* bitmask (see [*
 
 
 
- 
+ 
 
- 
+ 
 
 
 

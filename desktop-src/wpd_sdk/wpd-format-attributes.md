@@ -1,12 +1,17 @@
 ---
-Description: 'For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetFormatAttributes method.'
-ms.assetid: '53282e01-54da-4adf-8a09-2086d6398275'
+Description: For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the IPortableDeviceServiceCapabilitiesGetFormatAttributes method.
+ms.assetid: 53282e01-54da-4adf-8a09-2086d6398275
 title: Format Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format Attributes
 
-For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the [**IPortableDeviceServiceCapabilities::GetFormatAttributes**](iportabledeviceservicecapabilities-getformatattributes.md) method.
+For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the [**IPortableDeviceServiceCapabilities::GetFormatAttributes**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes?branch=master) method.
 
 ## 
 
@@ -19,7 +24,7 @@ For Windows 7, Windows Portable Devices supports the following attributes for fo
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -38,9 +43,9 @@ For Windows 7, Windows Portable Devices supports the following attributes for fo
 [**Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

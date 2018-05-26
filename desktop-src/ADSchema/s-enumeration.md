@@ -4,17 +4,21 @@ description: Enumeration(delivery-mechanism) syntax.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '26779fc3-de38-42c4-9e8a-21af6f01f123'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 26779fc3-de38-42c4-9e8a-21af6f01f123
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Enumeration syntax AD Schema"]
+keywords:
+- Enumeration syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - Enumeration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumeration syntax

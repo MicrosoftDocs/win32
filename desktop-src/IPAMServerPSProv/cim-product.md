@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Product class represents a set of goods or services produced by a supplier as a single unit for a user. A product can include physical elements, software, or services.'
+Description: The CIM\_Product class represents a set of goods or services produced by a supplier as a single unit for a user. A product can include physical elements, software, or services.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5e4a5948-e6e2-4e3e-9382-39f5483fa52a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5e4a5948-e6e2-4e3e-9382-39f5483fa52a
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Product class'
+title: CIM\_Product class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Product class
@@ -24,17 +27,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::ProductFRU"), Version("2.7.0"), AMENDMENT]
 class CIM_Product : CIM_ManagedElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   Name;
-  string   IdentifyingNumber;
-  string   Vendor;
-  string   Version;
-  string   SKUNumber;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   Name;
+  string   IdentifyingNumber;
+  string   Vendor;
+  string   Version;
+  string   SKUNumber;
   datetime WarrantyStartDate;
-  uint32   WarrantyDuration;
+  uint32   WarrantyDuration;
 };
 ```
 
@@ -242,16 +245,16 @@ If the product is under warranty, the start date of the warranty.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

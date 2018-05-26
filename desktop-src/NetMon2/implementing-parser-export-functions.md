@@ -1,7 +1,12 @@
 ---
-Description: 'The parser export functions provide all the functionality of the parsers in the parser DLL. Each parser DLL must implement ParserAutoInstallInfo and DllMain. The remaining export functions must be implemented for each parser included in the parser DLL.'
-ms.assetid: 'be73623c-7ae7-4ca9-be6c-52f513cd38a4'
+Description: The parser export functions provide all the functionality of the parsers in the parser DLL. Each parser DLL must implement ParserAutoInstallInfo and DllMain. The remaining export functions must be implemented for each parser included in the parser DLL.
+ms.assetid: be73623c-7ae7-4ca9-be6c-52f513cd38a4
 title: Implementing Parser Export Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Parser Export Functions
@@ -24,11 +29,11 @@ The following topics show you how to implement the export functions.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

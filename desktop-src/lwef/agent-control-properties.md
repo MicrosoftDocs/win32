@@ -1,7 +1,12 @@
 ---
 title: Agent Control Properties
 description: Agent Control Properties
-ms.assetid: 'e6a5b2db-9abf-4988-be41-fc7f4530507f'
+ms.assetid: e6a5b2db-9abf-4988-be41-fc7f4530507f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Agent Control Properties

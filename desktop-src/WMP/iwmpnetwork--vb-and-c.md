@@ -1,8 +1,10 @@
 ---
 title: IWMPNetwork (VB and C\ ) interface
 description: Provides properties and methods to access statistics relating to the quality of a network connection, and to specify and retrieve the network proxy settings.The IWMPNetwork interface exposes the following properties.
-ms.assetid: 'd385510f-11cf-4a2a-96be-b416cddc3d80'
-keywords: ["IWMPNetwork (VB and C ) interface Windows Media Player", "IWMPNetwork (VB and C ) interface Windows Media Player , described"]
+ms.assetid: d385510f-11cf-4a2a-96be-b416cddc3d80
+keywords:
+- IWMPNetwork (VB and C ) interface Windows Media Player
+- IWMPNetwork (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork (VB and C#) interface
@@ -47,7 +54,7 @@ The **IWMPNetwork (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -76,7 +83,7 @@ The **IWMPNetwork (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPNetwork** interface by using the following property.
 
@@ -88,7 +95,7 @@ Get an **IWMPNetwork** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -107,9 +114,9 @@ Get an **IWMPNetwork** interface by using the following property.
 [**Interfaces for Visual Basic .NET and C#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

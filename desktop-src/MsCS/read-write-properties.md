@@ -4,11 +4,15 @@ description: Read/write properties are changeable through the usual property man
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4daf586d-75ea-408b-a66d-48692f77a4f2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4daf586d-75ea-408b-a66d-48692f77a4f2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["properties Failover Cluster ,access,read/write"]
+keywords:
+- properties Failover Cluster ,access,read/write
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Read/Write Properties

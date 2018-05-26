@@ -1,7 +1,12 @@
 ---
-Description: 'The Peer Graphing and Peer Grouping Infrastructures allow applications to connect directly to one node (Graphing) or member (Grouping), and then exchange data directly with the node. This connection is called a direct connection.'
-ms.assetid: '65f3d3a5-c015-4724-b9ed-45af7fde7a45'
+Description: The Peer Graphing and Peer Grouping Infrastructures allow applications to connect directly to one node (Graphing) or member (Grouping), and then exchange data directly with the node. This connection is called a direct connection.
+ms.assetid: 65f3d3a5-c015-4724-b9ed-45af7fde7a45
 title: Direct Connections
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct Connections
@@ -12,13 +17,13 @@ The Peer Graphing and Peer Grouping Infrastructures allow applications to connec
 
 Before a direct connection can be established between two nodes in a graph, both nodes must be registered for the **PEER\_GRAPH\_EVENT\_DIRECT\_CONNECTION** event. To receive data over a direct connection, the nodes must also be registered for the **PEER\_GRAPH\_EVENT\_INCOMING\_DATA** event.
 
-**PEER\_GRAPH\_EVENT\_DIRECT\_CONNECTION** is an event that notifies an application whether or not a direct connection attempt succeeds or fails. The actual success or failure status of a call to [**PeerGraphOpenDirectConnection**](peergraphopendirectconnection.md) is returned in the [**PEER\_GRAPH\_EVENT\_DATA**](peer-graph-event-data.md) structure.
+**PEER\_GRAPH\_EVENT\_DIRECT\_CONNECTION** is an event that notifies an application whether or not a direct connection attempt succeeds or fails. The actual success or failure status of a call to [**PeerGraphOpenDirectConnection**](/windows/win32/P2P/nf-p2p-peergraphopendirectconnection?branch=master) is returned in the [**PEER\_GRAPH\_EVENT\_DATA**](/windows/win32/P2P/ns-p2p-peer_graph_event_data_tag?branch=master) structure.
 
-To create a direct connection, an application calls [**PeerGraphOpenDirectConnection**](peergraphopendirectconnection.md), and then passes a handle to the graph, a pointer to the identity of the other node that is participating in the connection, and a pointer to an IPv6 address structure for the participating node. The node identity and IPv6 address that are specified in the call to **PeerGraphOpenDirectConnection** must be registered for the **PEER\_GRAPH\_EVENT\_INCOMING\_DATA** event, or it cannot receive data sent by a calling peer. When successful, **PeerGraphOpenDirectConnection** returns a 64-bit connection ID. However, the peer must wait for the **PEER\_GROUP\_EVENT\_DIRECT\_CONNECTION** event before the direct connection ID can be identified as valid.
+To create a direct connection, an application calls [**PeerGraphOpenDirectConnection**](/windows/win32/P2P/nf-p2p-peergraphopendirectconnection?branch=master), and then passes a handle to the graph, a pointer to the identity of the other node that is participating in the connection, and a pointer to an IPv6 address structure for the participating node. The node identity and IPv6 address that are specified in the call to **PeerGraphOpenDirectConnection** must be registered for the **PEER\_GRAPH\_EVENT\_INCOMING\_DATA** event, or it cannot receive data sent by a calling peer. When successful, **PeerGraphOpenDirectConnection** returns a 64-bit connection ID. However, the peer must wait for the **PEER\_GROUP\_EVENT\_DIRECT\_CONNECTION** event before the direct connection ID can be identified as valid.
 
-After a connection is made and a valid connection ID is confirmed, an application can call [**PeerGraphSendData**](peergraphsenddata.md) to send the data across the connection specified by the valid connection ID to the participating peer—if the participating peer is registered for the **PEER\_GRAPH\_EVENT\_INCOMING\_DATA** event. The opaque data is available as a [**PEER\_DATA**](peer-data.md) structure in the [**PEER\_EVENT\_INCOMING\_DATA**](peer-event-incoming-data.md) returned by the **PEER\_GRAPH\_EVENT\_INCOMING\_DATA** event.
+After a connection is made and a valid connection ID is confirmed, an application can call [**PeerGraphSendData**](/windows/win32/P2P/nf-p2p-peergraphsenddata?branch=master) to send the data across the connection specified by the valid connection ID to the participating peer—if the participating peer is registered for the **PEER\_GRAPH\_EVENT\_INCOMING\_DATA** event. The opaque data is available as a [**PEER\_DATA**](/windows/win32/P2P/ns-p2p-peer_data_tag?branch=master) structure in the [**PEER\_EVENT\_INCOMING\_DATA**](/windows/win32/P2P/ns-p2p-peer_event_incoming_data_tag?branch=master) returned by the **PEER\_GRAPH\_EVENT\_INCOMING\_DATA** event.
 
-When a connection is not needed, an application calls [**PeerGraphCloseDirectConnection**](peergraphclosedirectconnection.md) with the graph handle and the connection ID.
+When a connection is not needed, an application calls [**PeerGraphCloseDirectConnection**](/windows/win32/P2P/nf-p2p-peergraphclosedirectconnection?branch=master) with the graph handle and the connection ID.
 
 ## Direct Connections using the Peer Grouping Infrastructure
 
@@ -26,13 +31,13 @@ Direct connections within the Peer Grouping Infrastructure are handled similar t
 
 Before a direct connection can be established between two members in a group, both members must register for the **PEER\_GROUP\_EVENT\_DIRECT\_CONNECTION** event. If a group member wants to receive data over a direct connection, the group member must also register for the **PEER\_GROUP\_EVENT\_INCOMING\_DATA** event.
 
-**PEER\_GROUP\_EVENT\_DIRECT\_CONNECTION** is an event that is an event that notifies an application whether or not a direct connection attempt succeeds or fails. The actual success or failure status of a call to [**PeerGroupOpenDirectConnection**](peergroupopendirectconnection.md) is returned in the [**PEER\_GROUP\_EVENT\_DATA**](peer-group-event-data.md) structure.
+**PEER\_GROUP\_EVENT\_DIRECT\_CONNECTION** is an event that is an event that notifies an application whether or not a direct connection attempt succeeds or fails. The actual success or failure status of a call to [**PeerGroupOpenDirectConnection**](/windows/win32/P2P/nf-p2p-peergroupopendirectconnection?branch=master) is returned in the [**PEER\_GROUP\_EVENT\_DATA**](/windows/win32/P2P/ns-p2p-peer_group_event_data_tag?branch=master) structure.
 
-To create a direct connection, an application calls [**PeerGroupOpenDirectConnection**](peergroupopendirectconnection.md), and then passes a handle to the group, a pointer to the identity of the other member that will participate in this connection, and a pointer to an IPv6 address structure for the participating member. The member whose identity and IPv6 address are specified in the call to **PeerGroupOpenDirectConnection** must be registered for the **PEER\_GROUP\_EVENT\_INCOMING\_DATA** event, or the member cannot receive data sent by a calling peer. **PeerGroupOpenDirectConnection** returns a 64-bit connection ID when successful. However, a peer must wait for the **PEER\_GRAPH\_EVENT\_DIRECT\_CONNECTION** event to be raised before the direct connection ID can be identified as valid.
+To create a direct connection, an application calls [**PeerGroupOpenDirectConnection**](/windows/win32/P2P/nf-p2p-peergroupopendirectconnection?branch=master), and then passes a handle to the group, a pointer to the identity of the other member that will participate in this connection, and a pointer to an IPv6 address structure for the participating member. The member whose identity and IPv6 address are specified in the call to **PeerGroupOpenDirectConnection** must be registered for the **PEER\_GROUP\_EVENT\_INCOMING\_DATA** event, or the member cannot receive data sent by a calling peer. **PeerGroupOpenDirectConnection** returns a 64-bit connection ID when successful. However, a peer must wait for the **PEER\_GRAPH\_EVENT\_DIRECT\_CONNECTION** event to be raised before the direct connection ID can be identified as valid.
 
-After a connection is made and a valid connection ID is confirmed, then an application can call [**PeerGroupSendData**](peergroupsenddata.md) to send data across a connection specified by the valid connection ID to the participating peer—if the participating peer is registered for the **PEER\_GROUP\_EVENT\_INCOMING\_DATA** event. The opaque data is available as a [**PEER\_DATA**](peer-data.md) structure in the [**PEER\_EVENT\_INCOMING\_DATA**](peer-event-incoming-data.md) returned by the **PEER\_GROUP\_EVENT\_INCOMING\_DATA** event.
+After a connection is made and a valid connection ID is confirmed, then an application can call [**PeerGroupSendData**](/windows/win32/P2P/nf-p2p-peergroupsenddata?branch=master) to send data across a connection specified by the valid connection ID to the participating peer—if the participating peer is registered for the **PEER\_GROUP\_EVENT\_INCOMING\_DATA** event. The opaque data is available as a [**PEER\_DATA**](/windows/win32/P2P/ns-p2p-peer_data_tag?branch=master) structure in the [**PEER\_EVENT\_INCOMING\_DATA**](/windows/win32/P2P/ns-p2p-peer_event_incoming_data_tag?branch=master) returned by the **PEER\_GROUP\_EVENT\_INCOMING\_DATA** event.
 
-When the connection is not needed, the application calls [**PeerGroupCloseDirectConnection**](peergroupclosedirectconnection.md) with the group handle and the connection ID.
+When the connection is not needed, the application calls [**PeerGroupCloseDirectConnection**](/windows/win32/P2P/nf-p2p-peergroupclosedirectconnection?branch=master) with the group handle and the connection ID.
 
 ## Example of a Direct Connection for Graphing
 

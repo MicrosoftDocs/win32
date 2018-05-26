@@ -1,12 +1,18 @@
 ---
 title: Texture1D SampleBias methods
 description: Samples a Texture1D, after applying the bias value to the mipmap level.
-ms.assetid: '1F70D58D-1286-480E-A60E-324FDABBC4A0'
-keywords: ["SampleBias methods HLSL"]
+ms.assetid: 1F70D58D-1286-480E-A60E-324FDABBC4A0
+keywords:
+- SampleBias methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1D::SampleBias methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture1D](sm5-object-texture1d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

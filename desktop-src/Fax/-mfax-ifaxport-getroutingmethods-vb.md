@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetRoutingMethods interface method creates a FaxRoutingMethods object for the parent FaxPort object.'
-ms.assetid: 'c919fc6f-227d-428a-8d73-ae5ac600a851'
-title: 'FaxPort.GetRoutingMethods method'
+---
+Description: The GetRoutingMethods interface method creates a FaxRoutingMethods object for the parent FaxPort object.
+ms.assetid: c919fc6f-227d-428a-8d73-ae5ac600a851
+title: FaxPort.GetRoutingMethods method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.GetRoutingMethods method
@@ -34,9 +39,9 @@ Retrieves a [FaxRoutingMethods](-mfax-faxroutingmethods.md) object.
 
 ## Remarks
 
-The **GetRoutingMethods** interface method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxRoutingMethods](-mfax-faxroutingmethods.md) object. This object is derived from the [FaxPort](-mfax-faxport.md) object specified by the [**IFaxPorts**](-mfax-ifaxports.md) interface.
+The **GetRoutingMethods** interface method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxRoutingMethods](-mfax-faxroutingmethods.md) object. This object is derived from the [FaxPort](-mfax-faxport.md) object specified by the [**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master) interface.
 
-A fax client application can access the [**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
+A fax client application can access the [**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an interface pointer.
 
 ## Requirements
 
@@ -64,13 +69,13 @@ A fax client application can access the [**IFaxRoutingMethods**](-mfax-ifaxrouti
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> </dl>
 
  

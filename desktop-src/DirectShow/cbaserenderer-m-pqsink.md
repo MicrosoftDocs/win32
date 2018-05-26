@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to the object that receives quality-control messages.'
-ms.assetid: 'bf4fd84c-9522-4686-9fb1-17a2ce3e5a16'
-title: 'CBaseRenderer::m\_pQSink member'
+Description: Pointer to the object that receives quality-control messages.
+ms.assetid: bf4fd84c-9522-4686-9fb1-17a2ce3e5a16
+title: CBaseRendererm\_pQSink member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_pQSink member
@@ -39,9 +44,9 @@ The base class does not implement quality control. This member variable defaults
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IsapiRequestQueueSize
 description: IsapiRequestQueueSize
-ms.assetid: '64b575a1-eb6a-4836-94c7-4699d7b325fa'
+ms.assetid: 64b575a1-eb6a-4836-94c7-4699d7b325fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsapiRequestQueueSize

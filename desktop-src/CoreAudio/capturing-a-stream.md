@@ -1,21 +1,26 @@
 ---
 Description: Capturing a Stream
-ms.assetid: '1d9072dc-4f9b-4111-a747-5eb33ad3ae5b'
+ms.assetid: 1d9072dc-4f9b-4111-a747-5eb33ad3ae5b
 title: Capturing a Stream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing a Stream
 
-The client calls the methods in the [**IAudioCaptureClient**](iaudiocaptureclient.md) interface to read captured data from an endpoint buffer. The client shares the endpoint buffer with the audio engine in shared mode and with the audio device in exclusive mode. To request an endpoint buffer of a particular size, the client calls the [**IAudioClient::Initialize**](iaudioclient-initialize.md) method. To get the size of the allocated buffer, which might be different from the requested size, the client calls the [**IAudioClient::GetBufferSize**](iaudioclient-getbuffersize.md) method.
+The client calls the methods in the [**IAudioCaptureClient**](/windows/win32/Audioclient/nn-audioclient-iaudiocaptureclient?branch=master) interface to read captured data from an endpoint buffer. The client shares the endpoint buffer with the audio engine in shared mode and with the audio device in exclusive mode. To request an endpoint buffer of a particular size, the client calls the [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master) method. To get the size of the allocated buffer, which might be different from the requested size, the client calls the [**IAudioClient::GetBufferSize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-getbuffersize?branch=master) method.
 
-To move a stream of captured data through the endpoint buffer, the client alternately calls the [**IAudioCaptureClient::GetBuffer**](iaudiocaptureclient-getbuffer.md) method and the [**IAudioCaptureClient::ReleaseBuffer**](iaudiocaptureclient-releasebuffer.md) method. The client accesses the data in the endpoint buffer as a series of data packets. The **GetBuffer** call retrieves the next packet of captured data from the buffer. After reading the data from the packet, the client calls **ReleaseBuffer** to release the packet and make it available for more captured data.
+To move a stream of captured data through the endpoint buffer, the client alternately calls the [**IAudioCaptureClient::GetBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer?branch=master) method and the [**IAudioCaptureClient::ReleaseBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer?branch=master) method. The client accesses the data in the endpoint buffer as a series of data packets. The **GetBuffer** call retrieves the next packet of captured data from the buffer. After reading the data from the packet, the client calls **ReleaseBuffer** to release the packet and make it available for more captured data.
 
-The packet size can vary from one [**GetBuffer**](iaudiocaptureclient-getbuffer.md) call to the next. Before calling **GetBuffer**, the client has the option of calling the [**IAudioCaptureClient::GetNextPacketSize**](iaudiocaptureclient-getnextpacketsize.md) method to get the size of the next packet in advance. In addition, the client can call the [**IAudioClient::GetCurrentPadding**](iaudioclient-getcurrentpadding.md) method to get the total amount of captured data that is available in the buffer. At any instant, the packet size is always less than or equal to the total amount of captured data in the buffer.
+The packet size can vary from one [**GetBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer?branch=master) call to the next. Before calling **GetBuffer**, the client has the option of calling the [**IAudioCaptureClient::GetNextPacketSize**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getnextpacketsize?branch=master) method to get the size of the next packet in advance. In addition, the client can call the [**IAudioClient::GetCurrentPadding**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-getcurrentpadding?branch=master) method to get the total amount of captured data that is available in the buffer. At any instant, the packet size is always less than or equal to the total amount of captured data in the buffer.
 
 During each processing pass, the client has the option of processing the captured data in one of the following ways:
 
--   The client alternately calls [**GetBuffer**](iaudiocaptureclient-getbuffer.md) and [**ReleaseBuffer**](iaudiocaptureclient-releasebuffer.md), reading one packet with each pair of calls, until **GetBuffer** returns AUDCNT\_S\_BUFFEREMPTY, indicating that the buffer is empty.
--   The client calls [**GetNextPacketSize**](iaudiocaptureclient-getnextpacketsize.md) before each pair of calls to [**GetBuffer**](iaudiocaptureclient-getbuffer.md) and [**ReleaseBuffer**](iaudiocaptureclient-releasebuffer.md) until **GetNextPacketSize** reports a packet size of 0, indicating that the buffer is empty.
+-   The client alternately calls [**GetBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer?branch=master) and [**ReleaseBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer?branch=master), reading one packet with each pair of calls, until **GetBuffer** returns AUDCNT\_S\_BUFFEREMPTY, indicating that the buffer is empty.
+-   The client calls [**GetNextPacketSize**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getnextpacketsize?branch=master) before each pair of calls to [**GetBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-getbuffer?branch=master) and [**ReleaseBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiocaptureclient-releasebuffer?branch=master) until **GetNextPacketSize** reports a packet size of 0, indicating that the buffer is empty.
 
 The two techniques yield equivalent results.
 
@@ -175,7 +180,7 @@ As long as the MyAudioSink object requires additional data, the CopyData functio
 
 The RecordAudioStream function allocates a shared buffer that has a duration of one second. (The allocated buffer might have a slightly longer duration.) Within the main loop, the call to the Windows [**Sleep**](https://msdn.microsoft.com/library/windows/desktop/ms686298) function causes the program to wait for a half second. At the start of each **Sleep** call, the shared buffer is empty or nearly empty. By the time the **Sleep** call returns, the shared buffer is about half filled with capture data.
 
-Following the call to the [**IAudioClient::Initialize**](iaudioclient-initialize.md) method, the stream remains open until the client releases all of its references to the [**IAudioClient**](iaudioclient.md) interface and to all references to service interfaces that the client obtained through the [**IAudioClient::GetService**](iaudioclient-getservice.md) method. The final [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) call closes the stream.
+Following the call to the [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master) method, the stream remains open until the client releases all of its references to the [**IAudioClient**](/windows/win32/Audioclient/nn-audioclient-iaudioclient?branch=master) interface and to all references to service interfaces that the client obtained through the [**IAudioClient::GetService**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-getservice?branch=master) method. The final [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) call closes the stream.
 
 ## Related topics
 

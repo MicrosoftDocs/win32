@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW\_QUERY message
 description: The ICM\_DRAW\_QUERY message queries a rendering driver to determine if it can render data in a specific format. You can send this message explicitly or by using the ICDrawQuery macro.
-ms.assetid: 'b829a04b-c1be-47c6-96e9-a6dc6f802811'
-keywords: ["ICM_DRAW_QUERY message Windows Multimedia"]
+ms.assetid: b829a04b-c1be-47c6-96e9-a6dc6f802811
+keywords:
+- ICM_DRAW_QUERY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW\_QUERY message
 
-The **ICM\_DRAW\_QUERY** message queries a rendering driver to determine if it can render data in a specific format. You can send this message explicitly or by using the [**ICDrawQuery**](icdrawquery.md) macro.
+The **ICM\_DRAW\_QUERY** message queries a rendering driver to determine if it can render data in a specific format. You can send this message explicitly or by using the [**ICDrawQuery**](/windows/win32/Vfw/nf-vfw-icdrawquery?branch=master) macro.
 
 
 ```C++
@@ -51,8 +57,8 @@ This message differs from the [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) message 
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ This message differs from the [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) message 
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

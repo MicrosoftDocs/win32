@@ -1,8 +1,10 @@
 ---
 title: Msvm\_HostedSwitchService class
 description: An association that connects a virtual switch service to transparent bridging service.
-ms.assetid: '7fdcf259-2fea-491c-b1da-8cf50949fa37'
-keywords: ["Msvm_HostedSwitchService class Hyper-V", "Msvm_HostedSwitchService class Hyper-V , described"]
+ms.assetid: 7fdcf259-2fea-491c-b1da-8cf50949fa37
+keywords:
+- Msvm_HostedSwitchService class Hyper-V
+- Msvm_HostedSwitchService class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedSwitchService class
@@ -28,7 +35,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_HostedSwitchService : CIM_HostedService
 {
   Msvm_VirtualSwitch REF Antecedent;
-  CIM_Service        REF Dependent;
+  CIM_Service        REF Dependent;
 };
 ```
 
@@ -87,9 +94,9 @@ Access to the **Msvm\_HostedSwitchService** class might be restricted by UAC Fil
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -108,9 +115,9 @@ Access to the **Msvm\_HostedSwitchService** class might be restricted by UAC Fil
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

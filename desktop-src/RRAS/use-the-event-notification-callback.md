@@ -1,7 +1,12 @@
 ---
 title: Use the Event Notification Callback
 description: The following procedure outlines the steps the client should use to receive change notification messages from the RTM\_EVENT\_CALLBACK. The sample code that follows shows how to implement the procedure.
-ms.assetid: 'e079c585-6457-4c2c-82bd-e95d233c4aa6'
+ms.assetid: e079c585-6457-4c2c-82bd-e95d233c4aa6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use the Event Notification Callback
@@ -10,12 +15,12 @@ The following procedure outlines the steps the client should use to receive chan
 
 **How to retrieve the change notification messages**
 
-1.  Call [**RtmGetChangedDests**](rtmgetchangeddests.md) to retrieve a set of changes.
+1.  Call [**RtmGetChangedDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetchangeddests?branch=master) to retrieve a set of changes.
 2.  Process the changes.
-3.  Release the destinations using [**RtmReleaseChangedDests**](rtmreleasechangeddests.md).
-4.  Repeat steps 1, 2, and 3 until [**RtmGetChangedDests**](rtmgetchangeddests.md) returns ERROR\_NO\_MORE\_ITEMS.
+3.  Release the destinations using [**RtmReleaseChangedDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleasechangeddests?branch=master).
+4.  Repeat steps 1, 2, and 3 until [**RtmGetChangedDests**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetchangeddests?branch=master) returns ERROR\_NO\_MORE\_ITEMS.
 
-The following sample code shows how to process an [**RTM\_EVENT\_CALLBACK**](rtm-event-callback.md) callback received from the routing table manager.
+The following sample code shows how to process an [**RTM\_EVENT\_CALLBACK**](/windows/win32/Rtmv2/nc-rtmv2-_event_callback?branch=master) callback received from the routing table manager.
 
 
 ```C++

@@ -4,20 +4,25 @@ description: Implementation Issues for ADSI Providers
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0be772aa-e7d8-4d34-b55a-162abfb0bfd4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0be772aa-e7d8-4d34-b55a-162abfb0bfd4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Implementation Issues for ADSI Providers ADSI", "providers ADSI , implementing"]
+keywords:
+- Implementation Issues for ADSI Providers ADSI
+- providers ADSI , implementing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementation Issues for ADSI Providers
 
-To implement ADSI interfaces, first implement the COM interface [**IDirectoryObject**](idirectoryobject.md). By providing this interface as a minimal overhead layer, you supply client applications the control required to access directory objects directly from the directory rather than through the ADSI cache, which optimizes network performance. Using this interface will also supply your own implementation with the most flexibility.
+To implement ADSI interfaces, first implement the COM interface [**IDirectoryObject**](/windows/win32/Iads/nn-iads-idirectoryobject?branch=master). By providing this interface as a minimal overhead layer, you supply client applications the control required to access directory objects directly from the directory rather than through the ADSI cache, which optimizes network performance. Using this interface will also supply your own implementation with the most flexibility.
 
-Second, implement the fundamental ADSI interfaces, [**IADs**](iads.md), [**IADsContainer**](iadscontainer.md), [**IADsCollection**](iadscollection.md), and the [**IADsPropertyValue**](iadspropertyvalue.md), [**IADsPropertyEntry**](iadspropertyentry.md), [**IADsPropertyList**](iadspropertylist.md) property cache interfaces. [**IADsGroup**](iadsgroup.md) and [**IADsMembers**](iadsmembers.md) are also interfaces in frequent demand by system administration software.
+Second, implement the fundamental ADSI interfaces, [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master), [**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master), [**IADsCollection**](/windows/win32/Iads/nn-iads-iadscollection?branch=master), and the [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master), [**IADsPropertyEntry**](/windows/win32/Iads/nn-iads-iadspropertyentry?branch=master), [**IADsPropertyList**](/windows/win32/Iads/nn-iads-iadspropertylist?branch=master) property cache interfaces. [**IADsGroup**](/windows/win32/Iads/nn-iads-iadsgroup?branch=master) and [**IADsMembers**](/windows/win32/Iads/nn-iads-iadsmembers?branch=master) are also interfaces in frequent demand by system administration software.
 
-Third, implement the schema management interfaces if your directory service has an underlying schema: [**IADsClass**](iadsclass.md), [**IADsProperty**](iadsproperty.md), [**IADsSyntax**](iadssyntax.md). If there is no underlying schema, use these interfaces to abstract the classes and properties used by the directory service. Schemas can be used to publish the features of your directory service to ADSI clients.
+Third, implement the schema management interfaces if your directory service has an underlying schema: [**IADsClass**](/windows/win32/Iads/nn-iads-iadsclass?branch=master), [**IADsProperty**](/windows/win32/Iads/nn-iads-iadsproperty?branch=master), [**IADsSyntax**](/windows/win32/Iads/nn-iads-iadssyntax?branch=master). If there is no underlying schema, use these interfaces to abstract the classes and properties used by the directory service. Schemas can be used to publish the features of your directory service to ADSI clients.
 
 ## Collections
 
@@ -25,9 +30,9 @@ ADSI provider components can follow one of three models for caching collections 
 
 The caching models include:
 
--   Collections cached in advance. The collection of object instances is retrieved from the underlying directory service in its entirety when [**IADsCollection::get\_\_NewEnum**](iadscollection-get--newenum.md) is called to create a new enumerator object. If the source object for an Active Directory object instance in the retrieved collection is deleted from the underlying directory service, the client does not recognize the deletion until a [**IADs::GetInfo**](iads-getinfo.md) or [**IADs::SetInfo**](iads-setinfo.md) attempts to access the collection.
--   Collections incrementally cached. The collection is retrieved from the underlying directory service one object at a time when [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59) is called. [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd) will return to the beginning of the collection in the cache and **IEnumVARIANT::Next** will return cached objects until the end of the cache is reached, at which point new objects will be added from the underlying store. When an Active Directory object instance is in the cache the client will not become aware of its deletion from the underlying directory service until an [**IADs::GetInfo**](iads-getinfo.md) or [**IADs::SetInfo**](iads-setinfo.md) attempts to access the object.
--   Collections not cached. The collection is retrieved from the underlying directory service one object at a time when [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59) is called. [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd) will return to the beginning of the collection in the underlying store. **IEnumVARIANT::Next** and **IEnumVARIANT::Reset** operations cannot retrieve deleted objects, because the objects are retrieved on-demand from the underlying directory service. Only the current object is cached; if the current object is deleted, the client will not become aware of its deletion from the underlying directory service until a [**IADs::GetInfo**](iads-getinfo.md) or [**IADs::SetInfo**](iads-setinfo.md) attempts to access the object.
+-   Collections cached in advance. The collection of object instances is retrieved from the underlying directory service in its entirety when [**IADsCollection::get\_\_NewEnum**](/windows/win32/Iads/nf-iads-iadscollection-get__newenum?branch=master) is called to create a new enumerator object. If the source object for an Active Directory object instance in the retrieved collection is deleted from the underlying directory service, the client does not recognize the deletion until a [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master) or [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) attempts to access the collection.
+-   Collections incrementally cached. The collection is retrieved from the underlying directory service one object at a time when [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59) is called. [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd) will return to the beginning of the collection in the cache and **IEnumVARIANT::Next** will return cached objects until the end of the cache is reached, at which point new objects will be added from the underlying store. When an Active Directory object instance is in the cache the client will not become aware of its deletion from the underlying directory service until an [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master) or [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) attempts to access the object.
+-   Collections not cached. The collection is retrieved from the underlying directory service one object at a time when [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59) is called. [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd) will return to the beginning of the collection in the underlying store. **IEnumVARIANT::Next** and **IEnumVARIANT::Reset** operations cannot retrieve deleted objects, because the objects are retrieved on-demand from the underlying directory service. Only the current object is cached; if the current object is deleted, the client will not become aware of its deletion from the underlying directory service until a [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master) or [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) attempts to access the object.
 
 Regardless of the caching model, be aware that ADSI enumeration returns Active Directory service interfaces to the caller. To avoid the overhead of obtaining a new interface pointer, ADSI applications should cache the returned interface pointers for objects that they intend to manipulate. For example, a Visual Basic application that enumerates a container and populates a list box with names can cache the interface pointers associated with the names for later use. This approach will provide greater performance than populating the list box during enumeration and obtaining a new interface pointer when the user makes a selection.
 
@@ -83,7 +88,7 @@ ADSI represents properties as property objects within the ADSI schema container.
 
 ## Primary Interface
 
-When a provider cannot identify which interface should be returned as the primary interface, **IID\_IADs** should be returned. This provides name-bound access to all properties of an object through [**IDispatch**](0e171f7f-0022-4e9b-ac8e-98192828e945) and the [**IADs::Get**](iads-get.md), [**IADs::GetEx**](iads-getex.md), [**IADs::Put**](iads-put.md), and [**IADs::PutEx**](iads-putex.md) methods.
+When a provider cannot identify which interface should be returned as the primary interface, **IID\_IADs** should be returned. This provides name-bound access to all properties of an object through [**IDispatch**](0e171f7f-0022-4e9b-ac8e-98192828e945) and the [**IADs::Get**](/windows/win32/Iads/nf-iads-iads-get?branch=master), [**IADs::GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master), [**IADs::Put**](/windows/win32/Iads/nf-iads-iads-put?branch=master), and [**IADs::PutEx**](/windows/win32/Iads/nf-iads-iads-putex?branch=master) methods.
 
  
 

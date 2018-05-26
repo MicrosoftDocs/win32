@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the number of bidirectional predictive frames (B-frames).'
-ms.assetid: '8bd95baa-c130-4616-8ab7-7d902162e4ed'
-title: 'MFPKEY\_NUMBFRAMES Property'
+---
+Description: Specifies the number of bidirectional predictive frames (B-frames).
+ms.assetid: 8bd95baa-c130-4616-8ab7-7d902162e4ed
+title: MFPKEY\_NUMBFRAMES Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_NUMBFRAMES Property

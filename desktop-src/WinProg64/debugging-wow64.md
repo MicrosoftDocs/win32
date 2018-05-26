@@ -1,8 +1,15 @@
 ---
 title: Debugging WOW64
 description: Applications running under WOW64 can be debugged with either an x86-hosted debugger or a native debugger.
-ms.assetid: 'e0945bdd-998d-4531-869f-21c505cb2135'
-keywords: ["WOW64 64-bit Windows Programming , debugging", "debugging WOW64 64-bit Windows Programming"]
+ms.assetid: e0945bdd-998d-4531-869f-21c505cb2135
+keywords:
+- WOW64 64-bit Windows Programming , debugging
+- debugging WOW64 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debugging WOW64

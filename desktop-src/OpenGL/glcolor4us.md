@@ -1,8 +1,9 @@
 ---
 title: glColor4us function
 description: Sets the current color.
-ms.assetid: '800ab5f7-bf42-4df6-8f3f-64df651240bd'
-keywords: ["glColor4us function OpenGL"]
+ms.assetid: 800ab5f7-bf42-4df6-8f3f-64df651240bd
+keywords:
+- glColor4us function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColor4us function
@@ -22,10 +28,10 @@ Sets the current color.
 
 ```C++
 void WINAPI glColor4us(
-   GLushort red,
-   GLushort green,
-   GLushort blue,
-   GLushort alpha
+   GLushort red,
+   GLushort green,
+   GLushort blue,
+   GLushort alpha
 );
 ```
 
@@ -83,8 +89,8 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -107,9 +113,9 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 [**glIndex**](glindexd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

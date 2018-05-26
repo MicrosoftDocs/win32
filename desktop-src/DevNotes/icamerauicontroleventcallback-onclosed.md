@@ -1,7 +1,12 @@
-﻿---
-Description: 'Occurs when the camera UI control is closed.'
-ms.assetid: '5d9237bc-38bb-4c14-8485-edec7c739150'
-title: 'ICameraUIControlEventCallback::OnClosed method'
+---
+Description: Occurs when the camera UI control is closed.
+ms.assetid: 5d9237bc-38bb-4c14-8485-edec7c739150
+title: ICameraUIControlEventCallbackOnClosed method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICameraUIControlEventCallback::OnClosed method
@@ -41,7 +46,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**ICameraUIControlEventCallback**](icamerauicontroleventcallback.md)
+[**ICameraUIControlEventCallback**](/windows/win32/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback?branch=master)
 </dt> </dl>
 
  

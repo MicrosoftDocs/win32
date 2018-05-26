@@ -1,7 +1,12 @@
 ---
-Description: 'HLSL compile options.'
-ms.assetid: 'b493a9e9-6fd6-4383-aa0b-3b3ac287116d'
-title: 'D3D10\_SHADER Constants'
+Description: HLSL compile options.
+ms.assetid: b493a9e9-6fd6-4383-aa0b-3b3ac287116d
+title: D3D10\_SHADER Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3D10\_SHADER Constants

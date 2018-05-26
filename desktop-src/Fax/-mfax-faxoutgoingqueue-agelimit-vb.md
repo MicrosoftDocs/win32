@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AgeLimit property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue.'
-ms.assetid: 'eea0fd7f-c1db-4b63-8f63-143080aed7dc'
-title: 'FaxOutgoingQueue.AgeLimit property'
+---
+Description: The AgeLimit property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue.
+ms.assetid: eea0fd7f-c1db-4b63-8f63-143080aed7dc
+title: FaxOutgoingQueue.AgeLimit property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingQueue.AgeLimit property
@@ -27,7 +32,7 @@ A **Long** that specifies or receives the number of days that the fax service re
 
 If the fax job remains in the outbound job queue longer than the value specified, the fax service deletes the job. If the value of this property is zero, the fax service does not enforce an age limit.
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -49,7 +54,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxOutgoingQueue**](-mfax-faxoutgoingqueue.md)
 </dt> <dt>
 
-[**IFaxOutgoingQueue**](-mfax-faxoutgoingqueue-cpp.md)
+[**IFaxOutgoingQueue**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingqueue?branch=master)
 </dt> <dt>
 
 [Setting the Outgoing Queue Properties](-mfax-setting-the-outgoing-queue-properties.md)

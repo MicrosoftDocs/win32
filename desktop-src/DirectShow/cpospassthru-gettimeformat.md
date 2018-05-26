@@ -1,19 +1,24 @@
 ---
-Description: 'The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeeking::GetTimeFormat method.'
-ms.assetid: '445c1873-da6f-42be-a4cf-0c475c5f0723'
-title: 'CPosPassThru.GetTimeFormat method'
+Description: The GetTimeFormat method retrieves the current time format. This method implements the IMediaSeekingGetTimeFormat method.
+ms.assetid: 445c1873-da6f-42be-a4cf-0c475c5f0723
+title: CPosPassThru.GetTimeFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.GetTimeFormat method
 
-The `GetTimeFormat` method retrieves the current time format. This method implements the [**IMediaSeeking::GetTimeFormat**](imediaseeking-gettimeformat.md) method.
+The `GetTimeFormat` method retrieves the current time format. This method implements the [**IMediaSeeking::GetTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-gettimeformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetTimeFormat(
-   const GUID *pFormat
+   const GUID *pFormat
 );
 ```
 
@@ -55,9 +60,9 @@ Returns the **HRESULT** value from the connected pin.
 [**Time Format GUIDs**](time-format-guids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

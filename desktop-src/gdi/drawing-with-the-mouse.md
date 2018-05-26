@@ -1,14 +1,19 @@
 ---
-Description: 'You can permit the user to draw lines with the mouse by having your window procedure draw while processing the WM\_MOUSEMOVE message.'
-ms.assetid: '5e8a54b6-05cc-4446-b82e-2b3e550d780a'
+Description: You can permit the user to draw lines with the mouse by having your window procedure draw while processing the WM\_MOUSEMOVE message.
+ms.assetid: 5e8a54b6-05cc-4446-b82e-2b3e550d780a
 title: Drawing with the Mouse
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing with the Mouse
 
 You can permit the user to draw lines with the mouse by having your window procedure draw while processing the [**WM\_MOUSEMOVE**](_win32_wm_mousemove_cpp) message. The system sends the **WM\_MOUSEMOVE** message to the window procedure whenever the user moves the cursor within the window. To draw lines, the window procedure can retrieve a display device context and draw a line in the window between the current and previous cursor positions.
 
-In the following example, the window procedure prepares for drawing when the user presses and holds the left mouse button (sending the [**WM\_LBUTTONDOWN**](_win32_wm_lbuttondown_cpp) message). As the user moves the cursor within the window, the window procedure receives a series of [**WM\_MOUSEMOVE**](_win32_wm_mousemove_cpp) messages. For each message, the window procedure draws a line connecting the previous position and the current position. To draw the line, the procedure uses [**GetDC**](getdc.md) to retrieve a display device context; then, as soon as drawing is complete and before returning from the message, the procedure uses the [**ReleaseDC**](releasedc.md) function to release the display device context. As soon as the user releases the mouse button, the window procedure clears the flag, and the drawing stops (which sends the [**WM\_LBUTTONUP**](_win32_wm_lbuttonup_cpp) message).
+In the following example, the window procedure prepares for drawing when the user presses and holds the left mouse button (sending the [**WM\_LBUTTONDOWN**](_win32_wm_lbuttondown_cpp) message). As the user moves the cursor within the window, the window procedure receives a series of [**WM\_MOUSEMOVE**](_win32_wm_mousemove_cpp) messages. For each message, the window procedure draws a line connecting the previous position and the current position. To draw the line, the procedure uses [**GetDC**](/windows/win32/Winuser/nf-winuser-getdc?branch=master) to retrieve a display device context; then, as soon as drawing is complete and before returning from the message, the procedure uses the [**ReleaseDC**](/windows/win32/Winuser/nf-winuser-releasedc?branch=master) function to release the display device context. As soon as the user releases the mouse button, the window procedure clears the flag, and the drawing stops (which sends the [**WM\_LBUTTONUP**](_win32_wm_lbuttonup_cpp) message).
 
 
 ```C++

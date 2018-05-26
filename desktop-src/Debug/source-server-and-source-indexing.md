@@ -1,7 +1,12 @@
-﻿---
-Description: 'Source server enables a client to retrieve the exact version of the source files that were used to build an application.'
-ms.assetid: 'c7bf51ce-7fb4-49aa-ad33-e551b2c8362b'
+---
+Description: Source server enables a client to retrieve the exact version of the source files that were used to build an application.
+ms.assetid: c7bf51ce-7fb4-49aa-ad33-e551b2c8362b
 title: Source Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source Server
@@ -43,7 +48,7 @@ The following table lists the source server tools.
 
 ## Retrieving the Source File
 
-The DbgHelp API provides access to source server functionality through the [**SymGetSourceFile**](symgetsourcefile.md) function. To retrieve the name of the source file to be retrieved, call the [**SymEnumSourceFiles**](symenumsourcefiles.md) or [**SymGetLineFromAddr64**](symgetlinefromaddr64.md) function.
+The DbgHelp API provides access to source server functionality through the [**SymGetSourceFile**](/windows/win32/Dbghelp/nf-dbghelp-symgetsourcefile?branch=master) function. To retrieve the name of the source file to be retrieved, call the [**SymEnumSourceFiles**](/windows/win32/DbgHelp/nf-dbghelp-symenumsourcefiles?branch=master) or [**SymGetLineFromAddr64**](/windows/win32/Dbghelp/nf-dbghelp-symgetlinefromaddr?branch=master) function.
 
 ## Using Source Server with a Debugger
 
@@ -187,7 +192,7 @@ Then, presuming the source control system uses the at sign (@) to indicate a lab
 
 ## How Source Server Works
 
-The source server client is implemented in Symsrv.dll. The client does not extract information directly from the PDB file; it uses a symbol handler such as the one implemented in Dbghelp.dll. It is essentially a recursive variable substitution engine that creates a command line that can be used to extract the proper source file from the source control system. Your code should not call Symsrv.dll directly. To integrate its functionality into your application, use the [**SymGetSourceFile**](symgetsourcefile.md) function.
+The source server client is implemented in Symsrv.dll. The client does not extract information directly from the PDB file; it uses a symbol handler such as the one implemented in Dbghelp.dll. It is essentially a recursive variable substitution engine that creates a command line that can be used to extract the proper source file from the source control system. Your code should not call Symsrv.dll directly. To integrate its functionality into your application, use the [**SymGetSourceFile**](/windows/win32/Dbghelp/nf-dbghelp-symgetsourcefile?branch=master) function.
 
 The first version of source server works as follows. This behavior may change in future versions.
 

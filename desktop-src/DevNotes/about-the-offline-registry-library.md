@@ -1,7 +1,12 @@
 ---
-Description: 'The offline registry library is used to modify a registry hive outside of the active system registry.'
-ms.assetid: '61db2804-1b67-473f-8dd7-6be6c6a7184e'
+Description: The offline registry library is used to modify a registry hive outside of the active system registry.
+ms.assetid: 61db2804-1b67-473f-8dd7-6be6c6a7184e
 title: About the Offline Registry Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Offline Registry Library

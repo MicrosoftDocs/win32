@@ -4,11 +4,12 @@ description: Used to modify the behavior of an extended LDAP modify request such
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '42a7da45-d479-4ca2-8a7a-e5331c5b3ee7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 42a7da45-d479-4ca2-8a7a-e5331c5b3ee7
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_PERMISSIVE_MODIFY_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_PERMISSIVE_MODIFY_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,13 +18,16 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_PERMISSIVE\_MODIFY\_OID control code
 
-The LDAP\_SERVER\_PERMISSIVE\_MODIFY\_OID control is used to modify the behavior of an extended LDAP modify request such as [**ldap\_modify\_ext**](ldap-modify-ext.md). An LDAP modify request will normally fail if it attempts to add an attribute that already exists, or if it attempts to delete an attribute that does not exist. With this control, as long as the attribute to be added has the same value as the existing attribute, then the modify will succeed. With this control, deletion of an attribute that does not exist will also succeed.
+The LDAP\_SERVER\_PERMISSIVE\_MODIFY\_OID control is used to modify the behavior of an extended LDAP modify request such as [**ldap\_modify\_ext**](/windows/previous-versions/Winldap/nf-winldap-ldap_modify_ext?branch=master). An LDAP modify request will normally fail if it attempts to add an attribute that already exists, or if it attempts to delete an attribute that does not exist. With this control, as long as the attribute to be added has the same value as the existing attribute, then the modify will succeed. With this control, deletion of an attribute that does not exist will also succeed.
 
-To use this control, set the members of the [**LDAPControl**](ldapcontrol.md) structure as follows.
+To use this control, set the members of the [**LDAPControl**](/windows/previous-versions/Winldap/ns-winldap-ldapcontrola?branch=master) structure as follows.
 
 ``` syntax
 PWCHAR ldctl_oid = LDAP_SERVER_PERMISSIVE_MODIFY_OID;
@@ -45,7 +49,7 @@ LDAP\_SERVER\_PERMISSIVE\_MODIFY\_OID, defined as "1.2.840.113556.1.4.1413".
 **ldctl\_value**
 </dt> <dd>
 
-No data for this control. In the [**berval**](berval.md) structure, set **bv\_len** to zero and **bv\_val** to **NULL**.
+No data for this control. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_len** to zero and **bv\_val** to **NULL**.
 
 </dd> <dt>
 
@@ -62,15 +66,15 @@ Can be **TRUE** or **FALSE** depending on whether permissive modify is critical 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: GUID Property
 description: GUID Property
-ms.assetid: 'd57e1d7c-df65-40ff-9068-64b3506835c6'
+ms.assetid: d57e1d7c-df65-40ff-9068-64b3506835c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUID Property

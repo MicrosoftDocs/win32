@@ -1,8 +1,26 @@
 ---
 title: Waveform-Audio Errors
 description: Waveform-Audio Errors
-ms.assetid: 'c898552a-a60a-4deb-ab4a-ed74b08a7d05'
-keywords: ["MCIERR return values,waveform-audio errors", "multimedia reference,waveform-audio errors", "reference for multimedia,waveform-audio errors", "Media Control Interface (MCI),waveform-audio errors", "MCI (Media Control Interface),waveform-audio errors", "reference for MCI,waveform-audio errors", "MCI reference,waveform-audio errors", "Media Control Interface (MCI),errors", "MCI (Media Control Interface),errors", "reference for MCI,errors", "MCI reference,errors", "waveform-audio errors", "MCI waveform-audio errors"]
+ms.assetid: c898552a-a60a-4deb-ab4a-ed74b08a7d05
+keywords:
+- MCIERR return values,waveform-audio errors
+- multimedia reference,waveform-audio errors
+- reference for multimedia,waveform-audio errors
+- Media Control Interface (MCI),waveform-audio errors
+- MCI (Media Control Interface),waveform-audio errors
+- reference for MCI,waveform-audio errors
+- MCI reference,waveform-audio errors
+- Media Control Interface (MCI),errors
+- MCI (Media Control Interface),errors
+- reference for MCI,errors
+- MCI reference,errors
+- waveform-audio errors
+- MCI waveform-audio errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waveform-Audio Errors

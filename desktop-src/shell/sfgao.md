@@ -1,7 +1,12 @@
-﻿---
-Description: 'Attributes that can be retrieved on an item (file or folder) or set of items.'
-ms.assetid: '4cb85995-cdc8-4474-8c4d-c783ac91c759'
+---
+Description: Attributes that can be retrieved on an item (file or folder) or set of items.
+ms.assetid: 4cb85995-cdc8-4474-8c4d-c783ac91c759
 title: SFGAO
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFGAO
@@ -32,11 +37,11 @@ Attributes that can be retrieved on an item (file or folder) or set of items.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_CANLINK"></span><span id="sfgao_canlink"></span><dl> <dt><strong>SFGAO_CANLINK</strong></dt> <dt>0x00000004</dt> </dl></td>
-<td style="text-align: left;">Shortcuts can be created for the specified items. This attribute has the same value as [<strong>DROPEFFECT_LINK</strong>](com.dropeffect_constants#dropeffect-link). <br/> If a namespace extension returns this attribute, a <strong>Create Shortcut</strong> entry with a default handler is added to the shortcut menu that is displayed during drag-and-drop operations. The extension can also implement its own handler for the <em>link</em> verb in place of the default. If the extension does so, it is responsible for creating the shortcut.<br/> A <strong>Create Shortcut</strong> item is also added to the Windows Explorer <strong>File</strong> menu and to normal shortcut menus.<br/> If the item is selected, your application's [<strong>IContextMenu::InvokeCommand</strong>](icontextmenu-invokecommand.md) method is invoked with the <strong>lpVerb</strong> member of the [<strong>CMINVOKECOMMANDINFO</strong>](cminvokecommandinfo.md) structure set to <em>link</em>. Your application is responsible for creating the link.<br/></td>
+<td style="text-align: left;">Shortcuts can be created for the specified items. This attribute has the same value as [<strong>DROPEFFECT_LINK</strong>](com.dropeffect_constants#dropeffect-link). <br/> If a namespace extension returns this attribute, a <strong>Create Shortcut</strong> entry with a default handler is added to the shortcut menu that is displayed during drag-and-drop operations. The extension can also implement its own handler for the <em>link</em> verb in place of the default. If the extension does so, it is responsible for creating the shortcut.<br/> A <strong>Create Shortcut</strong> item is also added to the Windows Explorer <strong>File</strong> menu and to normal shortcut menus.<br/> If the item is selected, your application's [<strong>IContextMenu::InvokeCommand</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand?branch=master) method is invoked with the <strong>lpVerb</strong> member of the [<strong>CMINVOKECOMMANDINFO</strong>](/windows/win32/Shobjidl_core/ns-shobjidl_core-_cminvokecommandinfo?branch=master) structure set to <em>link</em>. Your application is responsible for creating the link.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_STORAGE"></span><span id="sfgao_storage"></span><dl> <dt><strong>SFGAO_STORAGE</strong></dt> <dt>0x00000008</dt> </dl></td>
-<td style="text-align: left;">The specified items can be bound to an [<strong>IStorage</strong>](stg.istorage) object through [<strong>IShellFolder::BindToObject</strong>](ishellfolder-bindtoobject.md). For more information about namespace manipulation capabilities, see <strong>IStorage</strong>.<br/></td>
+<td style="text-align: left;">The specified items can be bound to an [<strong>IStorage</strong>](stg.istorage) object through [<strong>IShellFolder::BindToObject</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject?branch=master). For more information about namespace manipulation capabilities, see <strong>IStorage</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_CANRENAME"></span><span id="sfgao_canrename"></span><dl> <dt><strong>SFGAO_CANRENAME</strong></dt> <dt>0x00000010</dt> </dl></td>
@@ -89,7 +94,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_READONLY"></span><span id="sfgao_readonly"></span><dl> <dt><strong>SFGAO_READONLY</strong></dt> <dt>0x00040000</dt> </dl></td>
-<td style="text-align: left;">The specified items are read-only. In the case of folders, this means that new items cannot be created in those folders. This should not be confused with the behavior specified by the FILE_ATTRIBUTE_READONLY flag retrieved by [<strong>IColumnProvider::GetItemData</strong>](icolumnprovider-getitemdata.md) in a [<strong>SHCOLUMNDATA</strong>](shcolumndata-str.md) structure. FILE_ATTRIBUTE_READONLY has no meaning for Win32 file system folders.<br/></td>
+<td style="text-align: left;">The specified items are read-only. In the case of folders, this means that new items cannot be created in those folders. This should not be confused with the behavior specified by the FILE_ATTRIBUTE_READONLY flag retrieved by [<strong>IColumnProvider::GetItemData</strong>](/windows/win32/Shlobj/?branch=master) in a [<strong>SHCOLUMNDATA</strong>](/windows/win32/Shlobj/ns-shlobj-shcolumndata?branch=master) structure. FILE_ATTRIBUTE_READONLY has no meaning for Win32 file system folders.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_HIDDEN"></span><span id="sfgao_hidden"></span><dl> <dt><strong>SFGAO_HIDDEN</strong></dt> <dt>0x00080000</dt> </dl></td>
@@ -101,7 +106,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_NONENUMERATED"></span><span id="sfgao_nonenumerated"></span><dl> <dt><strong>SFGAO_NONENUMERATED</strong></dt> <dt>0x00100000</dt> </dl></td>
-<td style="text-align: left;">The items are nonenumerated items and should be hidden. They are not returned through an enumerator such as that created by the [<strong>IShellFolder::EnumObjects</strong>](ishellfolder-enumobjects.md) method.<br/></td>
+<td style="text-align: left;">The items are nonenumerated items and should be hidden. They are not returned through an enumerator such as that created by the [<strong>IShellFolder::EnumObjects</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects?branch=master) method.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_NEWCONTENT"></span><span id="sfgao_newcontent"></span><dl> <dt><strong>SFGAO_NEWCONTENT</strong></dt> <dt>0x00200000</dt> </dl></td>
@@ -117,7 +122,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_STREAM"></span><span id="sfgao_stream"></span><dl> <dt><strong>SFGAO_STREAM</strong></dt> <dt>0x00400000</dt> </dl></td>
-<td style="text-align: left;">Indicates that the item has a stream associated with it. That stream can be accessed through a call to [<strong>IShellFolder::BindToObject</strong>](ishellfolder-bindtoobject.md) or [<strong>IShellItem::BindToHandler</strong>](ishellitem-bindtohandler.md) with IID_IStream in the <em>riid</em> parameter.<br/></td>
+<td style="text-align: left;">Indicates that the item has a stream associated with it. That stream can be accessed through a call to [<strong>IShellFolder::BindToObject</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject?branch=master) or [<strong>IShellItem::BindToHandler</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler?branch=master) with IID_IStream in the <em>riid</em> parameter.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_STORAGEANCESTOR"></span><span id="sfgao_storageancestor"></span><dl> <dt><strong>SFGAO_STORAGEANCESTOR</strong></dt> <dt>0x00800000</dt> </dl></td>
@@ -125,7 +130,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="SFGAO_VALIDATE"></span><span id="sfgao_validate"></span><dl> <dt><strong>SFGAO_VALIDATE</strong></dt> <dt>0x01000000</dt> </dl></td>
-<td style="text-align: left;">When specified as input, SFGAO_VALIDATE instructs the folder to validate that the items contained in a folder or Shell item array exist. If one or more of those items do not exist, [<strong>IShellFolder::GetAttributesOf</strong>](ishellfolder-getattributesof.md) and [<strong>IShellItemArray::GetAttributes</strong>](ishellitemarray-getattributes.md) return a failure code. This flag is never returned as an [out] value.<br/> When used with the file system folder, SFGAO_VALIDATE instructs the folder to discard cached properties retrieved by clients of [<strong>IShellFolder2::GetDetailsEx</strong>](ishellfolder2-getdetailsex.md) that might have accumulated for the specified items.<br/></td>
+<td style="text-align: left;">When specified as input, SFGAO_VALIDATE instructs the folder to validate that the items contained in a folder or Shell item array exist. If one or more of those items do not exist, [<strong>IShellFolder::GetAttributesOf</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof?branch=master) and [<strong>IShellItemArray::GetAttributes</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellitemarray-getattributes?branch=master) return a failure code. This flag is never returned as an [out] value.<br/> When used with the file system folder, SFGAO_VALIDATE instructs the folder to discard cached properties retrieved by clients of [<strong>IShellFolder2::GetDetailsEx</strong>](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsex?branch=master) that might have accumulated for the specified items.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SFGAO_REMOVABLE"></span><span id="sfgao_removable"></span><dl> <dt><strong>SFGAO_REMOVABLE</strong></dt> <dt>0x02000000</dt> </dl></td>
@@ -189,13 +194,13 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 
 <dl> <dt>
 
-[**IShellFolder::GetAttributesOf**](ishellfolder-getattributesof.md)
+[**IShellFolder::GetAttributesOf**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof?branch=master)
 </dt> <dt>
 
-[**IShellFolder::ParseDisplayName**](ishellfolder-parsedisplayname.md)
+[**IShellFolder::ParseDisplayName**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname?branch=master)
 </dt> <dt>
 
-[**IShellItemArray::GetAttributes**](ishellitemarray-getattributes.md)
+[**IShellItemArray::GetAttributes**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellitemarray-getattributes?branch=master)
 </dt> </dl>
 
  

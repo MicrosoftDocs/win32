@@ -1,13 +1,19 @@
 ---
 title: Setting Task Property Examples
 description: To set the properties of a task, call ITaskScheduler Activate to retrieve the interface of the task object, then call the appropriate ITask method to set the task property you are interested in.
-ms.assetid: 'df438bff-1ce1-4336-93ee-1e6cab1f1ddd'
-keywords: ["setting task properties Task Scheduler"]
+ms.assetid: df438bff-1ce1-4336-93ee-1e6cab1f1ddd
+keywords:
+- setting task properties Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Task Property Examples
 
-To set the properties of a task, call [**ITaskScheduler::Activate**](itaskscheduler-activate.md) to retrieve the interface of the task object, then call the appropriate [**ITask**](itask.md) method to set the task property you are interested in.
+To set the properties of a task, call [**ITaskScheduler::Activate**](/windows/win32/Mstask/nf-mstask-itaskscheduler-activate?branch=master) to retrieve the interface of the task object, then call the appropriate [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) method to set the task property you are interested in.
 
 The code examples listed at the bottom of the page show how to set the properties that are unique to task objects. For other [*work item*](w.md#-msb-work-items-gly) properties that also apply to tasks, see [Setting Work Item Property Examples](setting-work-item-property-examples.md).
 
@@ -23,8 +29,8 @@ The following procedure describes how to set a task property.
 **To set a task property**
 
 1.  Call [**CoInitialize**](_com_coinitialize) to initialize the COM library and [**CoCreateInstance**](_com_cocreateinstance) to get a Task Scheduler object. (These examples assume that the Task Scheduler service is running.)
-2.  Call [**ITaskScheduler::Activate**](itaskscheduler-activate.md) to get the [**ITask**](itask.md) interface of the task object. (Note that this example gets the "Test Task" task.)
-3.  Call the appropriate [**ITask**](itask.md) method to set the property you are interested in.
+2.  Call [**ITaskScheduler::Activate**](/windows/win32/Mstask/nf-mstask-itaskscheduler-activate?branch=master) to get the [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) interface of the task object. (Note that this example gets the "Test Task" task.)
+3.  Call the appropriate [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) method to set the property you are interested in.
 4.  Call [**IPersistFile::Save**](_com_ipersistfile_save) to store the modified task object to disk.
 
 

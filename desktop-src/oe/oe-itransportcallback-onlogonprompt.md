@@ -1,8 +1,11 @@
 ---
 title: ITransportCallback OnLogonPrompt method
 description: Called when the transport requires logon information.
-ms.assetid: '03179c32-497b-4b3d-b463-a932bf896211'
-keywords: ["OnLogonPrompt method Windows Mail (formerly Outlook Express)", "OnLogonPrompt method Windows Mail (formerly Outlook Express) , ITransportCallback interface", "ITransportCallback interface Windows Mail (formerly Outlook Express) , OnLogonPrompt method"]
+ms.assetid: 03179c32-497b-4b3d-b463-a932bf896211
+keywords:
+- OnLogonPrompt method Windows Mail (formerly Outlook Express)
+- OnLogonPrompt method Windows Mail (formerly Outlook Express) , ITransportCallback interface
+- ITransportCallback interface Windows Mail (formerly Outlook Express) , OnLogonPrompt method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransportCallback::OnLogonPrompt method
@@ -24,8 +32,8 @@ Called when the transport requires logon information.
 
 ```C++
 HRESULT OnLogonPrompt(
-  [in, out] LPINETSERVER       pInetServer,
-  [in]      IInternetTransport *pTransport
+  [in, out] LPINETSERVER       pInetServer,
+  [in]      IInternetTransport *pTransport
 );
 ```
 
@@ -68,7 +76,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ The client should prompt the user and fill the **szUserName** and **szPassword**
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                      |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                    |
@@ -89,9 +97,9 @@ The client should prompt the user and fill the **szUserName** and **szPassword**
 
 
 
- 
+ 
 
- 
+ 
 
 
 

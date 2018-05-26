@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a port or connection point and a device.'
-ms.assetid: 'b35e741a-7110-4e48-a132-d436f4fbf038'
-title: 'CIM\_PortOnDevice class'
+Description: Represents an association between a port or connection point and a device.
+ms.assetid: b35e741a-7110-4e48-a132-d436f4fbf038
+title: CIM\_PortOnDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_PortOnDevice class
@@ -15,7 +20,7 @@ Represents an association between a port or connection point and a device.
 class CIM_PortOnDevice : CIM_HostedDependency
 {
   CIM_LogicalDevice REF Antecedent;
-  CIM_LogicalPort   REF Dependent;
+  CIM_LogicalPort   REF Dependent;
 };
 ```
 
@@ -69,8 +74,8 @@ The port on the device.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The port on the device.
 [**CIM\_HostedDependency**](cim-hosteddependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

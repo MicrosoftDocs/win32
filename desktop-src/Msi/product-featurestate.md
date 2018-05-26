@@ -1,14 +1,19 @@
-﻿---
-Description: 'The FeatureState property is the installation state of the feature for the instance of this product.This property calls MsiQueryFeatureStateEx, with the ProductCode, UserSid and Context of the object. The feature Id is provided as a parameter.'
-ms.assetid: '6821be80-4065-465e-b4c9-4cf17856bc5f'
-title: 'Product.FeatureState method'
+---
+Description: The FeatureState property is the installation state of the feature for the instance of this product.This property calls MsiQueryFeatureStateEx, with the ProductCode, UserSid and Context of the object. The feature Id is provided as a parameter.
+ms.assetid: 6821be80-4065-465e-b4c9-4cf17856bc5f
+title: Product.FeatureState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.FeatureState method
 
 The **FeatureState** property is the installation state of the feature for the instance of this product.
 
-This property calls [**MsiQueryFeatureStateEx**](msiqueryfeaturestateex.md), with the *ProductCode*, *UserSid* and *Context* of the object. The feature Id is provided as a parameter.
+This property calls [**MsiQueryFeatureStateEx**](/windows/win32/Msi/nf-msi-msiqueryfeaturestateexa?branch=master), with the *ProductCode*, *UserSid* and *Context* of the object. The feature Id is provided as a parameter.
 
 ## Syntax
 
@@ -52,7 +57,7 @@ If the call succeeds, the property contains the value as a **DWORD**.
 
  
 
-If the call fails, the property contains an error code from [**MsiQueryFeatureStateEx**](msiqueryfeaturestateex.md).
+If the call fails, the property contains an error code from [**MsiQueryFeatureStateEx**](/windows/win32/Msi/nf-msi-msiqueryfeaturestateexa?branch=master).
 
 
 
@@ -89,7 +94,7 @@ If the call fails, the property contains an error code from [**MsiQueryFeatureSt
 [**Product**](product-object.md)
 </dt> <dt>
 
-[**MsiQueryFeatureStateEx**](msiqueryfeaturestateex.md)
+[**MsiQueryFeatureStateEx**](/windows/win32/Msi/nf-msi-msiqueryfeaturestateexa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

@@ -1,7 +1,12 @@
 ---
 title: Array Definitions
 description: MIDL accepts both fixed-size arrays and arrays declared as SAFEARRAY.
-ms.assetid: 'fe66fdbc-0de2-4b0d-9723-2f6d07e534cd'
+ms.assetid: fe66fdbc-0de2-4b0d-9723-2f6d07e534cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Array Definitions

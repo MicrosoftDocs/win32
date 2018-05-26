@@ -1,13 +1,16 @@
 ---
-Description: 'The ExecMethod\_ method of the SWbemObject object executes a method exported by a method provider.'
+Description: The ExecMethod\_ method of the SWbemObject object executes a method exported by a method provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '39a8a6e7-b499-410a-8c27-d4a05d1a61b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 39a8a6e7-b499-410a-8c27-d4a05d1a61b9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.ExecMethod\_ method'
+title: SWbemObject.ExecMethod\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.ExecMethod\_ method
@@ -191,8 +194,8 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -214,9 +217,9 @@ End If
 [**SWbemServices.ExecMethod**](swbemservices-execmethod.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

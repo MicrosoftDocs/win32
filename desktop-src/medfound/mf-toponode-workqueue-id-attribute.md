@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a work queue for a topology branch.'
-ms.assetid: '5bc7e2db-cfd2-4b94-b4d6-fe2b9ea9daf8'
-title: 'MF\_TOPONODE\_WORKQUEUE\_ID attribute'
+---
+Description: Specifies a work queue for a topology branch.
+ms.assetid: 5bc7e2db-cfd2-4b94-b4d6-fe2b9ea9daf8
+title: MF\_TOPONODE\_WORKQUEUE\_ID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_WORKQUEUE\_ID attribute
@@ -20,10 +25,10 @@ The value of the attribute is an application-defined identifier for the work que
 
 Applications can use this attribute to assign work queues to branches of the topology. Each source node in the topology defines one branch. The branch includes every topology node that receives data from that node.
 
-If you set this attribute, call the [**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginregistertopologyworkqueueswithmmcss.md) method on the resolved topology. Multiple branches in the topology can share the same work queue, and work queues can be re-used across topologies.
+If you set this attribute, call the [**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss?branch=master) method on the resolved topology. Multiple branches in the topology can share the same work queue, and work queues can be re-used across topologies.
 
 > [!Note]  
-> The value of this attribute is not the same as the identifier that is returned by the [**MFAllocateWorkQueue**](mfallocateworkqueue.md) function. The value of the attribute is an application-defined identifier, and is used to associate topology branches with work queues. When the Media Session allocates a new work queue, it stores the actual work-queue identifier internally.
+> The value of this attribute is not the same as the identifier that is returned by the [**MFAllocateWorkQueue**](/windows/win32/mfapi/nf-mfapi-mfallocateworkqueue?branch=master) function. The value of the attribute is an application-defined identifier, and is used to associate topology branches with work queues. When the Media Session allocates a new work queue, it stores the actual work-queue identifier internally.
 
  
 
@@ -50,16 +55,16 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
-[**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](imfworkqueueservices-beginregistertopologyworkqueueswithmmcss.md)
+[**IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS**](/windows/win32/mfidl/nf-mfidl-imfworkqueueservices-beginregistertopologyworkqueueswithmmcss?branch=master)
 </dt> <dt>
 
 [**MF\_TOPONODE\_WORKQUEUE\_MMCSS\_CLASS**](mf-toponode-workqueue-mmcss-class-attribute.md)

@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the minimum version number.'
+Description: Specifies or retrieves the minimum version number.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '96ad6c72-8411-4f5f-aff6-7cbbe1eef7e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 96ad6c72-8411-4f5f-aff6-7cbbe1eef7e7
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedApplication.MinimumVersion property'
+title: ExcludedApplication.MinimumVersion property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedApplication.MinimumVersion property
@@ -139,7 +142,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -154,9 +157,9 @@ END SUB
 [**Version**](version-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

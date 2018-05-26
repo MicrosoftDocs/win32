@@ -4,17 +4,22 @@ description: The printable display name for an object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e8e5ff25-66dd-4c74-9571-9ec765d6d1af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e8e5ff25-66dd-4c74-9571-9ec765d6d1af
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Display-Name-Printable attribute AD Schema", "displayNamePrintable attribute AD Schema"]
+keywords:
+- Display-Name-Printable attribute AD Schema
+- displayNamePrintable attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Display-Name-Printable
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Display-Name-Printable attribute
@@ -38,12 +43,12 @@ The printable display name for an object. The printable display name is usually 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The printable display name for an object. The printable display name is usually 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

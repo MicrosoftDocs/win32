@@ -4,17 +4,22 @@ description: security descriptor of a Distributed File System resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13f6cceb-54b8-4134-8e34-467bc1a4c4be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 13f6cceb-54b8-4134-8e34-467bc1a4c4be
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Security Descriptor Failover Cluster ,for file system", "Security Descriptor Failover Cluster"]
+keywords:
+- Security Descriptor Failover Cluster ,for file system
+- Security Descriptor Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Security Descriptor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Security Descriptor
@@ -28,13 +33,13 @@ Stores the [security descriptor](https://msdn.microsoft.com/library/windows/desk
 | Data type | Byte array                                                       |
 | Access    | [Read/write](read-write-properties.md) (see Remarks)            |
 | Status    | Optional                                                         |
-| Structure | [**CLUSPROP\_BINARY**](clusprop-binary.md)                      |
+| Structure | [**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)                      |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | 0                                                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +55,7 @@ Although the property value is read/write, the underlying security descriptor ca
 
 -   Take the Distributed File System resource offline and bring it back online to activate the new security settings.
 
-**Note**  
+**Note**  
 
 When you use the Failover Cluster API to create the File Share resource, permissions for the "Everyone" group for that file share are set to full control by default. You can modify this property as previously described to change the default permissions.
 
@@ -61,7 +66,7 @@ When you use the Failover Cluster API to create the File Share resource, permiss
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -75,7 +80,7 @@ When you use the Failover Cluster API to create the File Share resource, permiss
 [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860)
 </dt> <dt>
 
-[**CLUSPROP\_BINARY**](clusprop-binary.md)
+[**CLUSPROP\_BINARY**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_binary?branch=master)
 </dt> <dt>
 
 [Network Management](https://msdn.microsoft.com/library/windows/desktop/aa370672)
@@ -93,9 +98,9 @@ When you use the Failover Cluster API to create the File Share resource, permiss
 [**SetSecurityDescriptorDacl**](https://msdn.microsoft.com/library/windows/desktop/aa379583)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

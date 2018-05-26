@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyEndOfStream method posts an EC\_COMPLETE event to the filter graph manager.'
-ms.assetid: '9eec5b65-654d-4b2e-be39-93225a7674a5'
-title: 'CBaseRenderer.NotifyEndOfStream method'
+Description: The NotifyEndOfStream method posts an EC\_COMPLETE event to the filter graph manager.
+ms.assetid: 9eec5b65-654d-4b2e-be39-93225a7674a5
+title: CBaseRenderer.NotifyEndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.NotifyEndOfStream method
@@ -49,9 +54,9 @@ This method does not return a value.
 [**CBaseRenderer::SendEndOfStream**](cbaserenderer-sendendofstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

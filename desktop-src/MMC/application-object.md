@@ -4,11 +4,13 @@ description: The Application object is used to initiate and control a Microsoft 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '11785084-2eda-4d7b-8b7f-d1944e8bf555'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 11785084-2eda-4d7b-8b7f-d1944e8bf555
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Application Object object MMC", "Application Object object MMC , described"]
+keywords:
+- Application Object object MMC
+- Application Object object MMC , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - mmcobj.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Application Object object
@@ -54,7 +59,7 @@ The **Application Object** object has these events.
 
 
 
- 
+ 
 
 ### Methods
 
@@ -72,7 +77,7 @@ The **Application Object** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -91,7 +96,7 @@ The **Application Object** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -103,8 +108,8 @@ When your application starts MMC using the MMC 2.0 automation object model, a do
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Mmcobj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mmcobj.idl</dt> </dl> |
 | CLSID<br/>                    | CLSID\_Application is defined as 49B2791A-B1AE-4C90-9B8E-E860BA07F889<br/>      |
@@ -118,9 +123,9 @@ When your application starts MMC using the MMC 2.0 automation object model, a do
 [Controlling the Lifetime of an MMC Instance](controlling-the-lifetime-of-an-mmc-instance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

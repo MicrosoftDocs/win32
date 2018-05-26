@@ -1,14 +1,20 @@
 ---
 title: TEXT.disabledFontStyle
 description: The disabledFontStyle attribute specifies or retrieves the font style used for the Text control when it is disabled.
-ms.assetid: 'd0593fe0-f80d-44a3-b989-e85887465d8a'
-keywords: ["TEXT.disabledFontStyle Windows Media Player"]
+ms.assetid: d0593fe0-f80d-44a3-b989-e85887465d8a
+keywords:
+- TEXT.disabledFontStyle Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.disabledFontStyle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.disabledFontStyle
@@ -35,7 +41,7 @@ This attribute is a read/write **String** containing one or more of the followin
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,9 +71,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.fontStyle**](text-fontstyle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

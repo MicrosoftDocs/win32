@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_FILE\_SAVEDIB message
 description: The WM\_CAP\_FILE\_SAVEDIB message copies the current frame to a DIB file. You can send this message explicitly or by using the capFileSaveDIB macro.
-ms.assetid: 'bf6d343b-9236-4e68-bbda-2ed6e197a5cb'
-keywords: ["WM_CAP_FILE_SAVEDIB message Windows Multimedia"]
+ms.assetid: bf6d343b-9236-4e68-bbda-2ed6e197a5cb
+keywords:
+- WM_CAP_FILE_SAVEDIB message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_FILE\_SAVEDIB message
 
-The **WM\_CAP\_FILE\_SAVEDIB** message copies the current frame to a DIB file. You can send this message explicitly or by using the [**capFileSaveDIB**](capfilesavedib.md) macro.
+The **WM\_CAP\_FILE\_SAVEDIB** message copies the current frame to a DIB file. You can send this message explicitly or by using the [**capFileSaveDIB**](/windows/win32/Vfw/nf-vfw-capfilesavedib?branch=master) macro.
 
 
 ```C++
@@ -53,8 +59,8 @@ If the capture driver supplies frames in a compressed format, this call attempts
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ If the capture driver supplies frames in a compressed format, this call attempts
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

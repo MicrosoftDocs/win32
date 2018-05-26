@@ -1,7 +1,12 @@
 ---
 title: Hide Event
 description: Hide Event
-ms.assetid: 'dd1f3e83-f3d9-496e-9a54-b3a23b2403da'
+ms.assetid: dd1f3e83-f3d9-496e-9a54-b3a23b2403da
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hide Event
@@ -31,7 +36,7 @@ Occurs when a character is hidden.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -44,9 +49,9 @@ The server sends this event to all clients of the character. To query the curren
 [**Show event**](show-event.md), [**VisibilityCause**](visibilitycause-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

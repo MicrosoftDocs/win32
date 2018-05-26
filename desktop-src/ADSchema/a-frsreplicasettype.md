@@ -4,17 +4,22 @@ description: This is a code that indicates whether this is a sysvol replica set,
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '687a854f-ffa1-41f4-a515-5224759696ab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 687a854f-ffa1-41f4-a515-5224759696ab
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["FRS-Replica-Set-Type attribute AD Schema", "fRSReplicaSetType attribute AD Schema"]
+keywords:
+- FRS-Replica-Set-Type attribute AD Schema
+- fRSReplicaSetType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - FRS-Replica-Set-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FRS-Replica-Set-Type attribute
@@ -38,12 +43,12 @@ This is a code that indicates whether this is a sysvol replica set, a DFS replic
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ This is a code that indicates whether this is a sysvol replica set, a DFS replic
 
 
 
- 
+ 
 
- 
+ 
 
 
 

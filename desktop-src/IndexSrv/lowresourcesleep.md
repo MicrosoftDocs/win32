@@ -1,7 +1,12 @@
 ---
 title: LowResourceSleep
 description: LowResourceSleep
-ms.assetid: '0cf42902-9be7-4b33-96cc-498d70fbd359'
+ms.assetid: 0cf42902-9be7-4b33-96cc-498d70fbd359
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LowResourceSleep

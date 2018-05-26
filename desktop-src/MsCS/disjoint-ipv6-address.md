@@ -4,10 +4,13 @@ description: Manages a disjoint IPv6 network address.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5E7A9D9F-6DB7-4379-A954-10B462B73606'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5E7A9D9F-6DB7-4379-A954-10B462B73606
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Disjoint IPv6 Address
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +38,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Resource Types](resource-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

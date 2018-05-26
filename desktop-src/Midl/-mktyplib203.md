@@ -2,13 +2,19 @@
 title: /mktyplib203 switch
 description: The /mktyplib203 switch forces the MIDL compiler to parse the input file.
 ms.assetid: e1eddf03-db42-426e-bdf1-b7122b862756
-keywords: ["/mktyplib203 switch MIDL"]
+keywords:
+- /mktyplib203 switch MIDL
 topic_type:
 - apiref
 api_name:
 - /mktyplib203
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /mktyplib203 switch

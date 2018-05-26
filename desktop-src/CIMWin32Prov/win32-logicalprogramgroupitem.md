@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_LogicalProgramGroupItem&\#8194;WMI class represents an element contained by a Win32\_LogicalProgramGroup that is not also another Win32\_LogicalProgramGroup instance.'
+Description: The Win32\_LogicalProgramGroupItem&\#8194;WMI class represents an element contained by a Win32\_LogicalProgramGroup that is not also another Win32\_LogicalProgramGroup instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '70b127bf-4e94-4c1a-98ff-909bdfe0f009'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 70b127bf-4e94-4c1a-98ff-909bdfe0f009
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_LogicalProgramGroupItem class'
+title: Win32\_LogicalProgramGroupItem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_LogicalProgramGroupItem class
@@ -24,11 +27,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), Privileges("SeRestorePrivilege"), UUID("{86E30E82-7DB2-11d2-90CB-0060081A46FD}"), AMENDMENT]
 class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   Name;
+  string   Status;
+  string   Name;
 };
 ```
 
@@ -236,8 +239,8 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -254,9 +257,9 @@ The calling process that uses this class must have the **SE\_RESTORE\_NAME** pri
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

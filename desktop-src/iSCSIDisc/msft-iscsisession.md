@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents an iSCSI session.'
-ms.assetid: 'DF4AC54D-B5C1-4DA3-9890-42AD8BF739E4'
-title: 'MSFT\_iSCSISession class'
+---
+Description: Represents an iSCSI session.
+ms.assetid: DF4AC54D-B5C1-4DA3-9890-42AD8BF739E4
+title: MSFT\_iSCSISession class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSISession class

@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used in device management:'
-ms.assetid: '0acfbf59-1a7f-4a90-a961-559d27a0ee57'
+Description: The following elements are used in device management
+ms.assetid: 0acfbf59-1a7f-4a90-a961-559d27a0ee57
 title: Device Management Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Management Reference

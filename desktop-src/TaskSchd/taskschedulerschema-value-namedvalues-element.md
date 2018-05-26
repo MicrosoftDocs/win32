@@ -1,14 +1,20 @@
 ---
 title: Value (namedValues) Element
 description: Contains the value that is associated with a name in a name-value pair.
-ms.assetid: 'd5582b55-0b9b-4fed-a425-9d15a1a62fb7'
-keywords: ["Value element Task Scheduler"]
+ms.assetid: d5582b55-0b9b-4fed-a425-9d15a1a62fb7
+keywords:
+- Value element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Value
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Value (namedValues) Element
@@ -37,7 +43,7 @@ The **Value** element is defined by the [**namedValues**](taskschedulerschema-na
 
 ## Remarks
 
-For C++ development, see [**Value Property of ITaskNamedValuePair**](itasknamedvaluepair-value.md).
+For C++ development, see [**Value Property of ITaskNamedValuePair**](/windows/win32/taskschd/nf-taskschd-itasknamedvaluepair-get_value?branch=master).
 
 For script development, see [**TaskNamedValuePair.Value**](tasknamedvaluepair-value.md).
 
@@ -47,14 +53,14 @@ For script development, see [**TaskNamedValuePair.Value**](tasknamedvaluepair-va
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

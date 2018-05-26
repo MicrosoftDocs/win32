@@ -4,13 +4,15 @@ description: Describes a set of groups.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '585cc1b8-07a1-47e5-bce4-d2e57e20fa18'
-ms.prod: 'windows-server-dev'
+ms.assetid: 585cc1b8-07a1-47e5-bce4-d2e57e20fa18
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_GroupSet class", "MSCluster_GroupSet class, described"]
+keywords:
+- MSCluster_GroupSet class
+- MSCluster_GroupSet class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_GroupSet class
@@ -42,15 +47,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("MSCLUSTEREXT"), AMENDMENT]
 class MSCluster_GroupSet
 {
-  string  Name;
-  string  ClusterNodeObjectReturnedFrom;
-  string  GroupNames[];
-  string  ProviderNames[];
-  uint32  StartupCount;
-  uint64  StatusInformation;
+  string  Name;
+  string  ClusterNodeObjectReturnedFrom;
+  string  GroupNames[];
+  string  ProviderNames[];
+  uint32  StartupCount;
+  uint64  StatusInformation;
   boolean IsGlobal;
-  uint32  StartupDelayTrigger;
-  uint32  StartupDelay;
+  uint32  StartupDelayTrigger;
+  uint32  StartupDelay;
 };
 ```
 
@@ -83,7 +88,7 @@ The **MSCluster\_GroupSet** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -218,16 +223,16 @@ The status information.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

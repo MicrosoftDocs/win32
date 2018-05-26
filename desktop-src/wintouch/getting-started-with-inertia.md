@@ -1,8 +1,15 @@
 ---
 title: Inertia
 description: This section explains inertia for Windows Touch.
-ms.assetid: 'c33dda89-c715-4da0-a7af-aa0010dfd88b'
-keywords: ["Windows Touch,inertia", "inertia,about"]
+ms.assetid: c33dda89-c715-4da0-a7af-aa0010dfd88b
+keywords:
+- Windows Touch,inertia
+- inertia,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inertia
@@ -16,7 +23,7 @@ The inertia API included in Windows 7 enables consistent object behavior in Wind
 | Section                                                                      | Description                                                                                                              |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | [Inertia Mechanics](inertia-mechanics.md)                                   | Explains the basics of inertia calculations.                                                                             |
-| [Handling Inertia in Unmanaged Code](handling-inertia-in-unmanaged-code.md) | Explains how to use the [**IInertiaProcessor**](iinertiaprocessor.md) interface for handling inertia in unmanaged code. |
+| [Handling Inertia in Unmanaged Code](handling-inertia-in-unmanaged-code.md) | Explains how to use the [**IInertiaProcessor**](/windows/win32/manipulations/nn-manipulations-iinertiaprocessor?branch=master) interface for handling inertia in unmanaged code. |
 
 
 

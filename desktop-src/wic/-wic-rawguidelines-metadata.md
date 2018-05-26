@@ -1,17 +1,22 @@
 ---
 Description: Metadata Support
-ms.assetid: 'f3b4a3d9-a353-4af8-9998-cb7da7a062b7'
+ms.assetid: f3b4a3d9-a353-4af8-9998-cb7da7a062b7
 title: Metadata Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Support
 
 RAW formats should also support the common metadata read and write scenarios for images in Windows. Microsoft has developed a set of native metadata providers for exchangeable image file (EXIF), International Press Telecommunications Council (IPTC), and Extensible Metadata Platform (XMP) metadata that are currently invoked only for TIFF and JPEG containers. If the RAW image is stored in one of these container formats, it is recommended to use the Windows built-in metadata providers. However, the codec author is responsible for configuring this properly. For RAW files that are not based on a TIFF container, it might be necessary to implement EXIF, IPTC, or XMP writers because the built-in readers and writers expect the data to conform to EXIF, IPTC, and XMP on-disk layout specifications. Codec authors can also implement their own providers for any custom metadata.
 
-Because of the architecture of Windows Imaging Component (WIC), metadata writers can be invoked only through an instance of an image encoder. Therefore, RAW format owners should create at least a "stub" [**WICRawParameterSet.WICAutoAdjustedParameterSet**](-wic-codec-wicrawparameterset.md) encoder, even if the actual encoding of pixels into a RAW format is not implemented. The codec author must invoke the proper metadata handlers:
+Because of the architecture of Windows Imaging Component (WIC), metadata writers can be invoked only through an instance of an image encoder. Therefore, RAW format owners should create at least a "stub" [**WICRawParameterSet.WICAutoAdjustedParameterSet**](/windows/win32/Wincodec/ne-wincodec-wicrawparameterset?branch=master) encoder, even if the actual encoding of pixels into a RAW format is not implemented. The codec author must invoke the proper metadata handlers:
 
--   [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) on both the decoder and frame decoder as appropriate.
--   [**IWICMetadataBlockWriter**](-wic-codec-iwicmetadatablockwriter.md) on both the encoder and frame encoder as appropriate.
+-   [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) on both the decoder and frame decoder as appropriate.
+-   [**IWICMetadataBlockWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter?branch=master) on both the encoder and frame encoder as appropriate.
 
 To support all of the anticipated scenarios in imaging applications in Windows Vista, it is recommended that codec vendors support the following at a minimum:
 
@@ -20,7 +25,7 @@ To support all of the anticipated scenarios in imaging applications in Windows 
 -   XMP read and write (including optionally IPTC Core for XMP)
 -   IPTC IIMv4 read and write
 
-Most of the metadata access (both read and write) in Windows Vista occurs through the [**IWICMetadataQueryReader**](-wic-codec-iwicmetadataqueryreader.md) or [**IWICMetadataQueryWriter**](-wic-codec-iwicmetadataquerywriter.md) interface. Therefore, to participate in the Windows Vista metadata experiences, RAW codec authors must implement the [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md)::[**GetMetadataQueryReader**](-wic-codec-iwicbitmapframedecode-getmetadataqueryreader.md) and [**IWICBitmapFrameEncode**](-wic-codec-iwicbitmapframeencode.md)::[**GetMetadataQueryWriter**](-wic-codec-iwicbitmapframeencode-getmetadataquerywriter.md) methods.
+Most of the metadata access (both read and write) in Windows Vista occurs through the [**IWICMetadataQueryReader**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataqueryreader?branch=master) or [**IWICMetadataQueryWriter**](/windows/win32/Wincodec/nn-wincodec-iwicmetadataquerywriter?branch=master) interface. Therefore, to participate in the Windows Vista metadata experiences, RAW codec authors must implement the [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master)::[**GetMetadataQueryReader**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader?branch=master) and [**IWICBitmapFrameEncode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframeencode?branch=master)::[**GetMetadataQueryWriter**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapframeencode-getmetadataquerywriter?branch=master) methods.
 
 ## Related topics
 

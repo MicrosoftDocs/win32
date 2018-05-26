@@ -1,7 +1,12 @@
-﻿---
-Description: 'Time stamps the specified subject and optionally returns a pointer to a SIGNER\_CONTEXT structure that contains a pointer to a BLOB.'
-ms.assetid: 'f3a910f6-64f8-4cf5-b008-2a16872f9a98'
+---
+Description: Time stamps the specified subject and optionally returns a pointer to a SIGNER\_CONTEXT structure that contains a pointer to a BLOB.
+ms.assetid: f3a910f6-64f8-4cf5-b008-2a16872f9a98
 title: SignerTimeStampEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignerTimeStampEx function
@@ -57,7 +62,7 @@ The address of a null-terminated Unicode string that contains the URL of a time 
 *psRequest* \[in\]
 </dt> <dd>
 
-Optional. The address of a [**CRYPT\_ATTRIBUTES**](crypt-attributes.md) structure that contains additional attributes that are added to the time stamp request.
+Optional. The address of a [**CRYPT\_ATTRIBUTES**](/windows/win32/Wincrypt/ns-wincrypt-_crypt_attributes?branch=master) structure that contains additional attributes that are added to the time stamp request.
 
 This parameter is optional and can be **NULL** if it is not included.
 

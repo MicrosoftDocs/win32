@@ -4,13 +4,16 @@ description: Establishes a connection to an SMB server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a7cde6bf-262b-405e-ae95-c98e9a6250f3'
-ms.prod: 'windows-server-dev'
+ms.assetid: a7cde6bf-262b-405e-ae95-c98e9a6250f3
+ms.prod: windows-server-dev
 ms.technology:
-- 'server-message-block-(smb)'
-- 'windows-management-instrumentation'
+- server-message-block-(smb)
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Create method SMB", "Create method SMB , MSFT_SmbConnection class", "MSFT_SmbConnection class SMB , Create method"]
+keywords:
+- Create method SMB
+- Create method SMB , MSFT_SmbConnection class
+- MSFT_SmbConnection class SMB , Create method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmbWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Create method of the MSFT\_SmbConnection class
@@ -30,14 +36,14 @@ Establishes a connection to an SMB server.
 
 ```mof
 uint32 Create(
-  [in]  string             LocalPath,
-  [in]  string             RemotePath,
-  [in]  string             UserName,
-  [in]  string             Password,
-  [in]  boolean            Persistent,
-  [in]  boolean            SaveCredentials,
-  [in]  boolean            HomeFolder,
-  [out] MSFT_SmbConnection CreatedConnection
+  [in]  string             LocalPath,
+  [in]  string             RemotePath,
+  [in]  string             UserName,
+  [in]  string             Password,
+  [in]  boolean            Persistent,
+  [in]  boolean            SaveCredentials,
+  [in]  boolean            HomeFolder,
+  [out] MSFT_SmbConnection CreatedConnection
 );
 ```
 
@@ -92,7 +98,7 @@ Determines whether or not credentials are saved and used when a mapping is creat
 *HomeFolder* \[in\]
 </dt> <dd>
 
-Controls whether the connection will be made to the user’s home folder.
+Controls whether the connection will be made to the user s home folder.
 
 </dd> <dt>
 
@@ -109,8 +115,8 @@ This parameter returns the [**MSFT\_SmbConnection**](msft-smbconnection.md) obje
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Smb<br/>                                                |
 | MOF<br/>                      | <dl> <dt>SmbWmiV2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SmbWmiV2.dll</dt> </dl> |
@@ -124,9 +130,9 @@ This parameter returns the [**MSFT\_SmbConnection**](msft-smbconnection.md) obje
 [**MSFT\_SmbConnection**](msft-smbconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

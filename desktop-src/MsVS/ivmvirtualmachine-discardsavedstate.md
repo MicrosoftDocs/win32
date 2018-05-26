@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine DiscardSavedState method
 description: The DiscardSavedState method discards any saved state information for a saved virtual machine.
-ms.assetid: 'cb359580-aed7-46dd-89de-583e99b5b48c'
-keywords: ["DiscardSavedState method Virtual Server", "DiscardSavedState method Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , DiscardSavedState method"]
+ms.assetid: cb359580-aed7-46dd-89de-583e99b5b48c
+keywords:
+- DiscardSavedState method Virtual Server
+- DiscardSavedState method Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , DiscardSavedState method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::DiscardSavedState method
@@ -46,7 +54,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -54,8 +62,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -67,9 +75,9 @@ This method can return one of these values.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetNumCharsPerLine
 description: IAgentBalloon GetNumCharsPerLine
-ms.assetid: 'ae0c7fff-8c58-465e-9b4f-3260f7574b57'
+ms.assetid: ae0c7fff-8c58-465e-9b4f-3260f7574b57
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetNumCharsPerLine

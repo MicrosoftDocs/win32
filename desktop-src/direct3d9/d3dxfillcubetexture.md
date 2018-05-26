@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a user-provided function to fill each texel of each mip level of a given cube texture.'
-ms.assetid: '0390a1b6-6675-42e1-bc45-65dd7b2d83c5'
+---
+Description: Uses a user-provided function to fill each texel of each mip level of a given cube texture.
+ms.assetid: 0390a1b6-6675-42e1-bc45-65dd7b2d83c5
 title: D3DXFillCubeTexture function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFillCubeTexture function
@@ -28,9 +33,9 @@ HRESULT D3DXFillCubeTexture(
 *pTexture* \[out\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DCUBETEXTURE9**](idirect3dcubetexture9.md)**
+Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master)**
 
-Pointer to an [**IDirect3DCubeTexture9**](idirect3dcubetexture9.md) interface, representing the filled texture.
+Pointer to an [**IDirect3DCubeTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dcubetexture9?branch=master) interface, representing the filled texture.
 
 </dd> <dt>
 

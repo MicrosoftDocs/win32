@@ -1,12 +1,17 @@
 ---
-Description: 'Msidb.exe uses MsiDatabaseImport and MsiDatabaseExport to import and export database tables and streams.'
-ms.assetid: '2eee535f-e7f6-4e1a-9667-df4b8067b132'
-title: 'Msidb.exe'
+Description: Msidb.exe uses MsiDatabaseImport and MsiDatabaseExport to import and export database tables and streams.
+ms.assetid: 2eee535f-e7f6-4e1a-9667-df4b8067b132
+title: Msidb.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msidb.exe
 
-Msidb.exe uses [**MsiDatabaseImport**](msidatabaseimport.md) and [**MsiDatabaseExport**](msidatabaseexport.md) to import and export [database tables](database-tables.md) and streams.
+Msidb.exe uses [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master) and [**MsiDatabaseExport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseexporta?branch=master) to import and export [database tables](database-tables.md) and streams.
 
 If the mode, folder, database and table list are specified on the command line, Msidb.exe does not bring up any user interface and operates as a silent command-line utility suitable for build script.
 

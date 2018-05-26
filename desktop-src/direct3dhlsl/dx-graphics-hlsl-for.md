@@ -1,14 +1,20 @@
 ---
 title: for Statement
 description: Iteratively executes a series of statements, based on the evaluation of the conditional expression.
-ms.assetid: 'd795c89e-7088-4bf3-93a8-798ed9c1a353'
-keywords: ["for Statement HLSL"]
+ms.assetid: d795c89e-7088-4bf3-93a8-798ed9c1a353
+keywords:
+- for Statement HLSL
 topic_type:
 - apiref
 api_name:
 - for Statement
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # for Statement
@@ -19,11 +25,11 @@ Iteratively executes a series of statements, based on the evaluation of the cond
 
 |                                                                                       |
 |---------------------------------------------------------------------------------------|
-| \[*Attribute*\] for ( *Initializer; Conditional; Iterator* ) {   *Statement Block*; } |
+| \[*Attribute*\] for ( *Initializer; Conditional; Iterator* ) {   *Statement Block*; } |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -45,7 +51,7 @@ An optional parameter that controls how the statement is compiled. When no attri
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,9 +96,9 @@ The **\[fastopt\]** and **\[allow\_uav\_condition\]** attributes are ignored if 
 [Flow Control](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

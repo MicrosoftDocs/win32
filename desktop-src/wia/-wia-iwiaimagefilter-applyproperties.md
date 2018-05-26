@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables the image processing filter to write properties back to the driver (and device).'
-ms.assetid: 'b9bb8d81-2945-46ba-a0a2-7009000574aa'
-title: 'IWiaImageFilter::ApplyProperties method'
+---
+Description: Enables the image processing filter to write properties back to the driver (and device).
+ms.assetid: b9bb8d81-2945-46ba-a0a2-7009000574aa
+title: IWiaImageFilterApplyProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaImageFilter::ApplyProperties method
@@ -26,9 +31,9 @@ HRESULT ApplyProperties(
 *pWiaPropertyStorage* \[in\]
 </dt> <dd>
 
-Type: **[**IWiaPropertyStorage**](-wia-iwiapropertystorage.md)\***
+Type: **[**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master)\***
 
-Specifies a pointer to the [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) for the properties to be applied.
+Specifies a pointer to the [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) for the properties to be applied.
 
 </dd> </dl>
 
@@ -42,7 +47,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 Do not call this method directly from your application. It is called by Windows Image Acquisition (WIA) 2.0 after the image processing filter has processed the raw data.
 
-*pWiaPropertyStorage* is the [**IWiaPropertyStorage**](-wia-iwiapropertystorage.md) interface into which the image processing filter should write properties. An image processing filter should use only the [IPropertyStorage::WriteMultiple](stg.ipropertystorage_writemultiple) method to write properties.
+*pWiaPropertyStorage* is the [**IWiaPropertyStorage**](/windows/win32/wia_xp/nn-wia_xp-iwiapropertystorage?branch=master) interface into which the image processing filter should write properties. An image processing filter should use only the [IPropertyStorage::WriteMultiple](stg.ipropertystorage_writemultiple) method to write properties.
 
 This method allows the image processing filter to write properties back to the driver (and device). This may be necessary for filters that implement features such as auto-exposure during film scanning.
 

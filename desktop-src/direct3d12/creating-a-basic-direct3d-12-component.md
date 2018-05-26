@@ -1,7 +1,12 @@
 ---
 title: Creating a basic Direct3D 12 component
 description: This topic describes the call flow to create a basic Direct3D 12 component.
-ms.assetid: 'A0FB108B-15C1-42AD-9277-D5CB63FA8329'
+ms.assetid: A0FB108B-15C1-42AD-9277-D5CB63FA8329
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a basic Direct3D 12 component
@@ -168,9 +173,9 @@ The following expands the code flow above to include the code required for a bas
 
 First define the class in a header file, including a viewport, scissor rectangle and vertex buffer using the structures:
 
--   [**D3D12\_VIEWPORT**](d3d12-viewport.md)
+-   [**D3D12\_VIEWPORT**](/windows/win32/D3D12/ns-d3d12-d3d12_viewport?branch=master)
 -   [**D3D12\_RECT**](d3d12-rect.md)
--   [**D3D12\_VERTEX\_BUFFER\_VIEW**](d3d12-vertex-buffer-view.md)
+-   [**D3D12\_VERTEX\_BUFFER\_VIEW**](/windows/win32/d3d12/ns-d3d12-d3d12_vertex_buffer_view?branch=master)
 
 
 ```C++
@@ -252,18 +257,18 @@ The following code creates the basics for a graphics pipeline. The process of cr
 
 -   Enable the debug layer, with calls to:<dl>
 
-[**D3D12GetDebugInterface**](d3d12getdebuginterface.md)  
-    [**ID3D12Debug::EnableDebugLayer**](id3d12debug-enabledebuglayer.md)  
+[**D3D12GetDebugInterface**](/windows/win32/D3D12/nf-d3d12-d3d12getdebuginterface?branch=master)  
+    [**ID3D12Debug::EnableDebugLayer**](/windows/win32/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug-enabledebuglayer?branch=master)  
     </dl>
 -   Create the device:<dl>
 
 [**CreateDXGIFactory1**](https://msdn.microsoft.com/library/windows/desktop/ff471318)  
-    [**D3D12CreateDevice**](d3d12createdevice.md)  
+    [**D3D12CreateDevice**](/windows/win32/D3D12/nf-d3d12-d3d12createdevice?branch=master)  
     </dl>
 -   Fill out a command queue description, then create the command queue:<dl>
 
-[**D3D12\_COMMAND\_QUEUE\_DESC**](d3d12-command-queue-desc.md)  
-    [**ID3D12Device::CreateCommandQueue**](id3d12device-createcommandqueue.md)  
+[**D3D12\_COMMAND\_QUEUE\_DESC**](/windows/win32/d3d12/ns-d3d12-d3d12_command_queue_desc?branch=master)  
+    [**ID3D12Device::CreateCommandQueue**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandqueue?branch=master)  
     </dl>
 -   Fill out a swapchain description, then create the swap chain: <dl>
 
@@ -273,18 +278,18 @@ The following code creates the basics for a graphics pipeline. The process of cr
     </dl>
 -   Fill out a heap description. then create a descriptor heap: <dl>
 
-[**D3D12\_DESCRIPTOR\_HEAP\_DESC**](d3d12-descriptor-heap-desc.md)  
-    [**ID3D12Device::CreateDescriptorHeap**](id3d12device-createdescriptorheap.md)  
-    [**ID3D12Device::GetDescriptorHandleIncrementSize**](id3d12device-getdescriptorhandleincrementsize.md)  
+[**D3D12\_DESCRIPTOR\_HEAP\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_descriptor_heap_desc?branch=master)  
+    [**ID3D12Device::CreateDescriptorHeap**](/windows/win32/D3D12/nf-d3d12-id3d12device-createdescriptorheap?branch=master)  
+    [**ID3D12Device::GetDescriptorHandleIncrementSize**](/windows/win32/D3D12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize?branch=master)  
     </dl>
 -   Create the render target view: <dl>
 
 [**CD3DX12\_CPU\_DESCRIPTOR\_HANDLE**](cd3dx12-cpu-descriptor-handle.md)  
-    [**GetCPUDescriptorHandleForHeapStart**](id3d12descriptorheap-getcpudescriptorhandleforheapstart.md)  
+    [**GetCPUDescriptorHandleForHeapStart**](/windows/win32/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart?branch=master)  
     [**IDXGISwapChain::GetBuffer**](https://msdn.microsoft.com/library/windows/desktop/bb174570)  
-    [**ID3D12Device::CreateRenderTargetView**](id3d12device-createrendertargetview.md)  
+    [**ID3D12Device::CreateRenderTargetView**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrendertargetview?branch=master)  
     </dl>
--   Create the command allocator: [**ID3D12Device::CreateCommandAllocator**](id3d12device-createcommandallocator.md).
+-   Create the command allocator: [**ID3D12Device::CreateCommandAllocator**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandallocator?branch=master).
 
 In later steps, command lists are obtained from the command allocator and submitted to the command queue.
 
@@ -411,31 +416,31 @@ The following APIs and processes are called in succession.
 -   Create an empty root signature, using the available helper structure: <dl>
 
 [**CD3DX12\_ROOT\_SIGNATURE\_DESC**](cd3dx12-root-signature-desc.md)  
-    [**D3D12SerializeRootSignature**](d3d12serializerootsignature.md)  
-    [**ID3D12Device::CreateRootSignature**](id3d12device-createrootsignature.md)  
+    [**D3D12SerializeRootSignature**](/windows/win32/D3D12/nf-d3d12-d3d12serializerootsignature?branch=master)  
+    [**ID3D12Device::CreateRootSignature**](/windows/win32/D3D12/nf-d3d12-id3d12device-createrootsignature?branch=master)  
     </dl>
 -   Load and compile the shaders: [**D3DCompileFromFile**](https://msdn.microsoft.com/library/windows/desktop/hh446872).
--   Create the vertex input layout: [**D3D12\_INPUT\_ELEMENT\_DESC**](d3d12-input-element-desc.md).
+-   Create the vertex input layout: [**D3D12\_INPUT\_ELEMENT\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_input_element_desc?branch=master).
 -   Fill out a pipeline state description, using the helper structures available, then create the graphics pipeline state: <dl>
 
-[**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](d3d12-graphics-pipeline-state-desc.md)  
+[**D3D12\_GRAPHICS\_PIPELINE\_STATE\_DESC**](/windows/win32/D3D12/ns-d3d12-d3d12_graphics_pipeline_state_desc?branch=master)  
     [**CD3DX12\_RASTERIZER\_DESC**](cd3dx12-rasterizer-desc.md)  
     [**CD3DX12\_BLEND\_DESC**](cd3dx12-blend-desc.md)  
-    [**ID3D12Device::CreateGraphicsPipelineState**](id3d12device-creategraphicspipelinestate.md)  
+    [**ID3D12Device::CreateGraphicsPipelineState**](/windows/win32/D3D12/nf-d3d12-id3d12device-creategraphicspipelinestate?branch=master)  
     </dl>
 -   Create, then close, a command list: <dl>
 
-[**ID3D12Device::CreateCommandList**](id3d12device-createcommandlist.md)  
-    [**ID3D12GraphicsCommandList::Close**](id3d12graphicscommandlist-close.md)  
+[**ID3D12Device::CreateCommandList**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommandlist?branch=master)  
+    [**ID3D12GraphicsCommandList::Close**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-close?branch=master)  
     </dl>
--   Create the vertex buffer: [**ID3D12Device::CreateCommittedResource**](id3d12device-createcommittedresource.md).
+-   Create the vertex buffer: [**ID3D12Device::CreateCommittedResource**](/windows/win32/D3D12/nf-d3d12-id3d12device-createcommittedresource?branch=master).
 -   Copy the vertex data to the vertex buffer:<dl>
 
-[**ID3D12Resource::Map**](id3d12resource-map.md)  
-    [**ID3D12Resource::Unmap**](id3d12resource-unmap.md)  
+[**ID3D12Resource::Map**](/windows/win32/D3D12/nf-d3d12-id3d12resource-map?branch=master)  
+    [**ID3D12Resource::Unmap**](/windows/win32/D3D12/nf-d3d12-id3d12resource-unmap?branch=master)  
     </dl>
--   Initialize the vertex buffer view: [**GetGPUVirtualAddress**](id3d12resource-getgpuvirtualaddress.md).
--   Create and initialize the fence: [**ID3D12Device::CreateFence**](id3d12device-createfence.md).
+-   Initialize the vertex buffer view: [**GetGPUVirtualAddress**](/windows/win32/d3d12/nf-d3d12-id3d12resource-getgpuvirtualaddress?branch=master).
+-   Create and initialize the fence: [**ID3D12Device::CreateFence**](/windows/win32/D3D12/nf-d3d12-id3d12device-createfence?branch=master).
 -   Create an event handle for use with frame synchronization.
 -   Wait for the GPU to finish.
 
@@ -581,7 +586,7 @@ During set up, the member variable **m\_commandList** was used to record and exe
 Rendering involves a call to populate the command list, then the command list can be executed and the next buffer in the swap chain presented:
 
 -   Populate the command list.
--   Execute the command list: [**ID3D12CommandQueue::ExecuteCommandLists**](id3d12commandqueue-executecommandlists.md).
+-   Execute the command list: [**ID3D12CommandQueue::ExecuteCommandLists**](/windows/win32/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists?branch=master).
 -   [**IDXGISwapChain1::Present1**](https://msdn.microsoft.com/library/windows/desktop/hh446797) the frame.
 -   Wait on the GPU to finish.
 
@@ -615,30 +620,30 @@ Populating command lists calls the following methods and processes in turn:
 
 -   Reset the command allocator, and command list: <dl>
 
-[**ID3D12CommandAllocator::Reset**](id3d12commandallocator-reset.md)  
-    [**ID3D12GraphicsCommandList::Reset**](id3d12graphicscommandlist-reset.md)  
+[**ID3D12CommandAllocator::Reset**](/windows/win32/D3D12/nf-d3d12-id3d12commandallocator-reset?branch=master)  
+    [**ID3D12GraphicsCommandList::Reset**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-reset?branch=master)  
     </dl>
 -   Set the root signature, viewport and scissors rectangles: <dl>
 
-[**ID3D12GraphicsCommandList::SetGraphicsRootSignature**](id3d12graphicscommandlist-setgraphicsrootsignature.md)  
-    [**ID3D12GraphicsCommandList::RSSetViewports**](id3d12graphicscommandlist-rssetviewports.md)  
-    [**ID3D12GraphicsCommandList::RSSetScissorRects**](id3d12graphicscommandlist-rssetscissorrects.md)  
+[**ID3D12GraphicsCommandList::SetGraphicsRootSignature**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-setgraphicsrootsignature?branch=master)  
+    [**ID3D12GraphicsCommandList::RSSetViewports**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports?branch=master)  
+    [**ID3D12GraphicsCommandList::RSSetScissorRects**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects?branch=master)  
     </dl>
 -   Indicate that the back buffer is to be used as a render target: <dl>
 
-[**ID3D12GraphicsCommandList::ResourceBarrier**](id3d12graphicscommandlist-resourcebarrier.md)  
-    [**ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart**](id3d12descriptorheap-getcpudescriptorhandleforheapstart.md)  
-    [**ID3D12GraphicsCommandList::OMSetRenderTargets**](id3d12graphicscommandlist-omsetrendertargets.md)  
+[**ID3D12GraphicsCommandList::ResourceBarrier**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master)  
+    [**ID3D12DescriptorHeap::GetCPUDescriptorHandleForHeapStart**](/windows/win32/D3D12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart?branch=master)  
+    [**ID3D12GraphicsCommandList::OMSetRenderTargets**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets?branch=master)  
     </dl>
 -   Record the commands:<dl>
 
-[**ID3D12GraphicsCommandList::ClearRenderTargetView**](id3d12graphicscommandlist-clearrendertargetview.md)  
-    [**ID3D12GraphicsCommandList::IASetPrimitiveTopology**](id3d12graphicscommandlist-iasetprimitivetopology.md)  
-    [**ID3D12GraphicsCommandList::IASetVertexBuffers**](id3d12graphicscommandlist-iasetvertexbuffers.md)  
-    [**ID3D12GraphicsCommandList::DrawInstanced**](id3d12graphicscommandlist-drawinstanced.md)  
+[**ID3D12GraphicsCommandList::ClearRenderTargetView**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-clearrendertargetview?branch=master)  
+    [**ID3D12GraphicsCommandList::IASetPrimitiveTopology**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetprimitivetopology?branch=master)  
+    [**ID3D12GraphicsCommandList::IASetVertexBuffers**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers?branch=master)  
+    [**ID3D12GraphicsCommandList::DrawInstanced**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced?branch=master)  
     </dl>
--   Indicate the back buffer will now be used to present: [**ID3D12GraphicsCommandList::ResourceBarrier**](id3d12graphicscommandlist-resourcebarrier.md).
--   Close the command list: [**ID3D12GraphicsCommandList::Close**](id3d12graphicscommandlist-close.md).
+-   Indicate the back buffer will now be used to present: [**ID3D12GraphicsCommandList::ResourceBarrier**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier?branch=master).
+-   Close the command list: [**ID3D12GraphicsCommandList::Close**](/windows/win32/d3d12/nf-d3d12-id3d12graphicscommandlist-close?branch=master).
 
 
 ```C++
@@ -692,9 +697,9 @@ The following code shows an over-simplified use of fences.
 
 The following APIs and processes are called in order:
 
--   [**ID3D12CommandQueue::Signal**](id3d12commandqueue-signal.md)
--   [**ID3D12Fence::GetCompletedValue**](id3d12fence-getcompletedvalue.md)
--   [**ID3D12Fence::SetEventOnCompletion**](id3d12fence-seteventoncompletion.md)
+-   [**ID3D12CommandQueue::Signal**](/windows/win32/D3D12/nf-d3d12-id3d12commandqueue-signal?branch=master)
+-   [**ID3D12Fence::GetCompletedValue**](/windows/win32/D3D12/nf-d3d12-id3d12fence-getcompletedvalue?branch=master)
+-   [**ID3D12Fence::SetEventOnCompletion**](/windows/win32/D3D12/nf-d3d12-id3d12fence-seteventoncompletion?branch=master)
 -   Wait for the event.
 -   Update the frame index: [**IDXGISwapChain3::GetCurrentBackBufferIndex**](https://msdn.microsoft.com/library/windows/desktop/dn903675).
 

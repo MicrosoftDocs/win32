@@ -1,12 +1,17 @@
-﻿---
-Description: 'XMXDECN4 define a 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and unsigned, normalized values as a 2 bit unsigned w-component.'
-ms.assetid: '0bf3ea27-1f50-47c3-b210-e8624e29ec36'
+---
+Description: XMXDECN4 define a 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and unsigned, normalized values as a 2 bit unsigned w-component.
+ms.assetid: 0bf3ea27-1f50-47c3-b210-e8624e29ec36
 title: XMXDECN4 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMXDECN4 Extensions
 
-[**XMXDECN4**](xmxdecn4.md) define a 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and unsigned, normalized values as a 2 bit unsigned w-component.
+[**XMXDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master) define a 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and unsigned, normalized values as a 2 bit unsigned w-component.
 
 > [!Note]  
 > The features listed here are only available when developing with C++.
@@ -33,7 +38,7 @@ title: XMXDECN4 Extensions
 **Reference**
 </dt> <dt>
 
-[**XMXDECN4**](xmxdecn4.md)
+[**XMXDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmxdecn4?branch=master)
 </dt> </dl>
 
  

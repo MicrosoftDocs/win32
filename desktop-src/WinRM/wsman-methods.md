@@ -4,10 +4,13 @@ description: The WSMan object exposes the following methods.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'DD26E1DB-40D8-460C-9635-EDD009844AB2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: DD26E1DB-40D8-460C-9635-EDD009844AB2
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WSMan Methods

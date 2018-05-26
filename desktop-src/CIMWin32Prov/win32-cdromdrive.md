@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a CD-ROM drive on a computer system running Windows.'
+Description: Represents a CD-ROM drive on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '08087976-ca88-4ac8-9456-0d8bd799e66c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 08087976-ca88-4ac8-9456-0d8bd799e66c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_CDROMDrive class'
+title: Win32\_CDROMDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CDROMDrive class
@@ -19,7 +22,7 @@ The **Win32\_CDROMDrive** [WMI class](https://msdn.microsoft.com/library/aa39324
 > [!Note]  
 > Be aware that the name of the drive does not correspond to the logical drive letter assigned to the device.
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,55 +32,55 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4B3-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_CDROMDrive : CIM_CDROMDrive
 {
-  uint16   Availability;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   Caption;
-  string   CompressionMethod;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint64   DefaultBlockSize;
-  string   Description;
-  string   DeviceID;
-  string   Drive;
-  boolean  DriveIntegrity;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
-  uint16   FileSystemFlags;
-  uint32   FileSystemFlagsEx;
-  string   Id;
+  uint16   Availability;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   Caption;
+  string   CompressionMethod;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint64   DefaultBlockSize;
+  string   Description;
+  string   DeviceID;
+  string   Drive;
+  boolean  DriveIntegrity;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
+  uint16   FileSystemFlags;
+  uint32   FileSystemFlagsEx;
+  string   Id;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Manufacturer;
-  uint64   MaxBlockSize;
-  uint32   MaximumComponentLength;
-  uint64   MaxMediaSize;
-  boolean  MediaLoaded;
-  string   MediaType;
-  string   MfrAssignedRevisionLevel;
-  uint64   MinBlockSize;
-  string   Name;
-  boolean  NeedsCleaning;
-  uint32   NumberOfMediaSupported;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   RevisionLevel;
-  uint32   SCSIBus;
-  uint16   SCSILogicalUnit;
-  uint16   SCSIPort;
-  uint16   SCSITargetId;
-  string   SerialNumber;
-  uint64   Size;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  real64   TransferRate;
-  string   VolumeName;
-  string   VolumeSerialNumber;
+  uint32   LastErrorCode;
+  string   Manufacturer;
+  uint64   MaxBlockSize;
+  uint32   MaximumComponentLength;
+  uint64   MaxMediaSize;
+  boolean  MediaLoaded;
+  string   MediaType;
+  string   MfrAssignedRevisionLevel;
+  uint64   MinBlockSize;
+  string   Name;
+  boolean  NeedsCleaning;
+  uint32   NumberOfMediaSupported;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   RevisionLevel;
+  uint32   SCSIBus;
+  uint16   SCSILogicalUnit;
+  uint16   SCSIPort;
+  uint16   SCSITargetId;
+  string   SerialNumber;
+  uint64   Size;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  real64   TransferRate;
+  string   VolumeName;
+  string   VolumeSerialNumber;
 };
 ```
 
@@ -101,7 +104,7 @@ The **Win32\_CDROMDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -461,7 +464,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2056,8 +2059,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -2080,9 +2083,9 @@ Next
 [WMI Tasks: Disks and File Systems](https://msdn.microsoft.com/library/aa394592)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

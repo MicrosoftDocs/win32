@@ -1,8 +1,9 @@
 ---
 title: D3DGetBlobPart function
 description: Retrieves a specific part from a compilation result.
-ms.assetid: 'cf9cea53-e7a3-4473-bfdf-0cdeb8370974'
-keywords: ["D3DGetBlobPart function HLSL"]
+ms.assetid: cf9cea53-e7a3-4473-bfdf-0cdeb8370974
+keywords:
+- D3DGetBlobPart function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DGetBlobPart function
@@ -21,11 +27,11 @@ Retrieves a specific part from a compilation result.
 
 ``` syntax
 HRESULT WINAPI D3DGetBlobPart(
-  in  LPCVOID pSrcData,
-  in  SIZE_T SrcDataSize,
-  in  D3D_BLOB_PART Part,
-  in  UINT Flags,
-  out ID3DBlob ppPart
+  in  LPCVOID pSrcData,
+  in  SIZE_T SrcDataSize,
+  in  D3D_BLOB_PART Part,
+  in  UINT Flags,
+  out ID3DBlob ppPart
 );
 ```
 
@@ -107,9 +113,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

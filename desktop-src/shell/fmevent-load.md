@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to an extension DLL when File Manager is loading the DLL.'
-ms.assetid: '9d673ab8-c468-4b46-b96e-1adfaa9f85fb'
-title: 'FMEVENT\_LOAD message'
+---
+Description: Sent to an extension DLL when File Manager is loading the DLL.
+ms.assetid: 9d673ab8-c468-4b46-b96e-1adfaa9f85fb
+title: FMEVENT\_LOAD message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FMEVENT\_LOAD message

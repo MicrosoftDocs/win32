@@ -1,8 +1,10 @@
 ---
 title: DMessengerAppEvents interface
 description: Do not use. The DMessengerAppEvents dispinterface handles events that are generated or received by a MessengerApp object.
-ms.assetid: '5cbe8b44-4334-4861-b4c9-e7b04c2b0208'
-keywords: ["DMessengerAppEvents interface Windows Messenger", "DMessengerAppEvents interface Windows Messenger , described"]
+ms.assetid: 5cbe8b44-4334-4861-b4c9-e7b04c2b0208
+keywords:
+- DMessengerAppEvents interface Windows Messenger
+- DMessengerAppEvents interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerAppEvents interface
 
-\[**DMessengerAppEvents** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**DMessengerAppEvents** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The **DMessengerAppEvents** dispinterface handles events that are generated or received by a [**MessengerApp**](im-messengerapp.md) object.
 
@@ -47,7 +54,7 @@ The **DMessengerAppEvents** interface has these events.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,10 +62,10 @@ The **DMessengerAppEvents** interface has these events.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows XP<br/>                                                                |
-| End of server support<br/>    | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows XP<br/>                                                                |
+| End of server support<br/>    | Windows Server 2003<br/>                                                       |
 | Product<br/>                  | Messenger 4.0<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Mdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mdisp.idl</dt> </dl> |
@@ -66,9 +73,9 @@ The **DMessengerAppEvents** interface has these events.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

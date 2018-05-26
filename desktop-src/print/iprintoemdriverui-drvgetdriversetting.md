@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverUI::DrvGetDriverSetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can obtain the current status of printer features and other internal information.'
-ms.assetid: '25e8aec7-86af-4753-83d7-e7df5435f602'
-title: 'IPrintOemDriverUI::DrvGetDriverSetting method'
+---
+Description: The IPrintOemDriverUIDrvGetDriverSetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can obtain the current status of printer features and other internal information.
+ms.assetid: 25e8aec7-86af-4753-83d7-e7df5435f602
+title: IPrintOemDriverUIDrvGetDriverSetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUI::DrvGetDriverSetting method

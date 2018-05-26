@@ -4,13 +4,16 @@ description: Retrieves replication statistics associated with virtual system col
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6e48e956-405e-4487-b200-880756def146'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6e48e956-405e-4487-b200-880756def146
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetReplicationStatistics method", "GetReplicationStatistics method, Msvm_CollectionReplicationService class", "Msvm_CollectionReplicationService class, GetReplicationStatistics method"]
+keywords:
+- GetReplicationStatistics method
+- GetReplicationStatistics method, Msvm_CollectionReplicationService class
+- Msvm_CollectionReplicationService class, GetReplicationStatistics method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - clushyperv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetReplicationStatistics method of the Msvm\_CollectionReplicationService class
@@ -30,10 +36,10 @@ Retrieves replication statistics associated with virtual system collection.
 
 ```mof
 uint32 GetReplicationStatistics(
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [out] string                   ReplicationStatistics,
-  [out] string                   ReplicationHealthIssues[1],
-  [out] CIM_ConcreteJob      REF Job
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [out] string                   ReplicationStatistics,
+  [out] string                   ReplicationHealthIssues[1],
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -124,7 +130,7 @@ A [**CIM\_ConcreteJob**](cim-concretejob.md) reference to the job (can be null i
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Clushyperv.dll</dt> </dl>              |
@@ -138,9 +144,9 @@ A [**CIM\_ConcreteJob**](cim-concretejob.md) reference to the job (can be null i
 [**Msvm\_CollectionReplicationService**](msvm-collectionreplicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Using WPD Automation
 description: WPD Automation is available in Windows 7. The starting point for using WPD Automation is to instantiate the Device object. There are two ways to instantiate the Device object from a scripting host and from C++/COM.
-ms.assetid: '356f2b98-fe90-41d1-983b-cc1690600884'
+ms.assetid: 356f2b98-fe90-41d1-983b-cc1690600884
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WPD Automation

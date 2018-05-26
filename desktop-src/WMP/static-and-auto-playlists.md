@@ -1,8 +1,28 @@
 ---
 title: Static and Auto Playlists
 description: Static and Auto Playlists
-ms.assetid: '708c236e-8f3c-4188-aefb-eda7da598944'
-keywords: ["Windows Media Player,playlists", "Windows Media Player object model,playlists", "object model,playlists", "Windows Media Player Mobile,playlists", "Windows Media Player ActiveX control,playlists", "Windows Media Player Mobile ActiveX control,playlists", "ActiveX control,playlists", "playlists,static", "metafile playlists,static", "Windows Media metafile playlists,static", "static playlists", "auto playlists", "playlists,auto", "metafile playlists,auto", "Windows Media metafile playlists,auto"]
+ms.assetid: 708c236e-8f3c-4188-aefb-eda7da598944
+keywords:
+- Windows Media Player,playlists
+- Windows Media Player object model,playlists
+- object model,playlists
+- Windows Media Player Mobile,playlists
+- Windows Media Player ActiveX control,playlists
+- Windows Media Player Mobile ActiveX control,playlists
+- ActiveX control,playlists
+- playlists,static
+- metafile playlists,static
+- Windows Media metafile playlists,static
+- static playlists
+- auto playlists
+- playlists,auto
+- metafile playlists,auto
+- Windows Media metafile playlists,auto
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Static and Auto Playlists

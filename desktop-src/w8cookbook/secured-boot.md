@@ -1,7 +1,12 @@
 ---
 title: Early launch antimalware
 description: Early launch antimalware
-ms.assetid: '4064CD44-FC50-48DE-8490-F592ED21CB7E'
+ms.assetid: 4064CD44-FC50-48DE-8490-F592ED21CB7E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Early launch antimalware

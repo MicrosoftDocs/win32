@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may notice their .msi files getting larger than expected after repeated edits and saves.'
-ms.assetid: 'd5229ef5-0cb5-4daf-8468-0cb653029c1c'
-title: 'Reducing the Size of an .msi File'
+Description: Developers of Windows Installer packages may notice their .msi files getting larger than expected after repeated edits and saves.
+ms.assetid: d5229ef5-0cb5-4daf-8468-0cb653029c1c
+title: Reducing the Size of an .msi File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reducing the Size of an .msi File

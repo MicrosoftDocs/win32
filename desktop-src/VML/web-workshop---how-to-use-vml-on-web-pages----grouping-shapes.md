@@ -1,8 +1,29 @@
 ---
 title: Grouping Shapes
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: '469c9e4d-d1ae-4285-b2cb-ac833ebe59ff'
-keywords: ["Web workshop,grouping shapes", "designing Web pages,grouping shapes", "Vector Markup Language (VML),grouping shapes", "VML (Vector Markup Language),grouping shapes", "vector graphics,grouping shapes", "VML shapes,grouping", "grouping shapes", "Vector Markup Language (VML),group element", "VML (Vector Markup Language),group element", "vector graphics,group element", "group element", "VML elements,group", "Vector Markup Language (VML),local coordinate space", "VML (Vector Markup Language),local coordinate space", "vector graphics,local coordinate space", "local coordinate space"]
+ms.assetid: 469c9e4d-d1ae-4285-b2cb-ac833ebe59ff
+keywords:
+- Web workshop,grouping shapes
+- designing Web pages,grouping shapes
+- Vector Markup Language (VML),grouping shapes
+- VML (Vector Markup Language),grouping shapes
+- vector graphics,grouping shapes
+- VML shapes,grouping
+- grouping shapes
+- Vector Markup Language (VML),group element
+- VML (Vector Markup Language),group element
+- vector graphics,group element
+- group element
+- VML elements,group
+- Vector Markup Language (VML),local coordinate space
+- VML (Vector Markup Language),local coordinate space
+- vector graphics,local coordinate space
+- local coordinate space
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Grouping Shapes

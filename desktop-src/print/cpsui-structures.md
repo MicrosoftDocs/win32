@@ -1,7 +1,12 @@
 ---
 Description: CPSUI Structures
-ms.assetid: '8a613e2d-9667-43c5-9abf-f2682a54e815'
+ms.assetid: 8a613e2d-9667-43c5-9abf-f2682a54e815
 title: CPSUI Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPSUI Structures

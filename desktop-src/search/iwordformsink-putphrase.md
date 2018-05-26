@@ -1,12 +1,17 @@
-﻿---
-Description: 'Puts an alternative form of a word in the IWordFormSink object.'
-ms.assetid: '4F6A3E88-A17C-4CA3-849D-FF0DC06D5DC3'
-title: 'IWordFormSink::PutAltWord method'
+---
+Description: Puts an alternative form of a word in the IWordFormSink object.
+ms.assetid: 4F6A3E88-A17C-4CA3-849D-FF0DC06D5DC3
+title: IWordFormSinkPutAltWord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWordFormSink::PutAltWord method
 
-Puts an alternative form of a word in the [**IWordFormSink**](iwordformsink.md) object.
+Puts an alternative form of a word in the [**IWordFormSink**](/windows/win32/Indexsrv/nn-indexsrv-iwordformsink?branch=master) object.
 
 ## Syntax
 
@@ -55,7 +60,7 @@ This method can return one of these values.
 
 ## Remarks
 
-This method is called from the [**GenerateWordForms**](search._search_istemmer_generatewordforms) method of the [**IStemmer**](search._search_istemmer) implementation. All alternative forms for a word, except the last, are put in the [**IWordFormSink**](iwordformsink.md) object by calling **IWordFormSink::PutAltWord**. The final alternative form of a word, which is always the original form of the word, is handled by calling [**IWordFormSink::PutWord**](iwordformsink-putword.md).
+This method is called from the [**GenerateWordForms**](search._search_istemmer_generatewordforms) method of the [**IStemmer**](search._search_istemmer) implementation. All alternative forms for a word, except the last, are put in the [**IWordFormSink**](/windows/win32/Indexsrv/nn-indexsrv-iwordformsink?branch=master) object by calling **IWordFormSink::PutAltWord**. The final alternative form of a word, which is always the original form of the word, is handled by calling [**IWordFormSink::PutWord**](iwordformsink-putword.md).
 
 ## Requirements
 
@@ -73,7 +78,7 @@ This method is called from the [**GenerateWordForms**](search._search_istemmer_g
 
 <dl> <dt>
 
-[**IWordFormSink**](iwordformsink.md)
+[**IWordFormSink**](/windows/win32/Indexsrv/nn-indexsrv-iwordformsink?branch=master)
 </dt> </dl>
 
  

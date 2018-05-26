@@ -1,7 +1,12 @@
 ---
 title: To Attribute (Line)(VML)
 description: To Attribute (Line)(VML)
-ms.assetid: 'e4d2afb9-0cad-469d-a388-c1b824d14c04'
+ms.assetid: e4d2afb9-0cad-469d-a388-c1b824d14c04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Attribute (Line)(VML)

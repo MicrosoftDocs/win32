@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when a selected IME needs information about the font used by the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters as shown below.'
-ms.assetid: '46bb71ee-8dc9-4ef0-bc4e-59866c122bf7'
-title: 'IMR\_COMPOSITIONFONT notification code'
+---
+Description: Notifies an application when a selected IME needs information about the font used by the composition window. The application receives this command through the WM\_IME\_REQUEST message with parameters as shown below.
+ms.assetid: 46bb71ee-8dc9-4ef0-bc4e-59866c122bf7
+title: IMR\_COMPOSITIONFONT notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMR\_COMPOSITIONFONT notification code

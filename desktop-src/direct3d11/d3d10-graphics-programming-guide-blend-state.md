@@ -1,7 +1,12 @@
 ---
 title: Configuring Blending Functionality
 description: Blending operations are performed on every pixel shader output (RGBA value) before the output value is written to a render target. If multisampling is enabled, blending is done on each multisample; otherwise, blending is performed on each pixel.
-ms.assetid: 'f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3'
+ms.assetid: f5c79baf-7bd3-4f58-abe7-8e96cd6be9d3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Blending Functionality
@@ -17,7 +22,7 @@ Blending operations are performed on every pixel shader output (RGBA value) befo
 
 ## Create the Blend State
 
-The blend state is a collection of states used to control blending. These states (defined in [**D3D11\_BLEND\_DESC1**](d3d11-blend-desc1.md)) are used to create the blend state object by calling [**ID3D11Device1::CreateBlendState1**](id3d11device1-createblendstate1.md).
+The blend state is a collection of states used to control blending. These states (defined in [**D3D11\_BLEND\_DESC1**](/windows/win32/D3D11_1/ns-d3d11_1-cd3d11_blend_desc1?branch=master)) are used to create the blend state object by calling [**ID3D11Device1::CreateBlendState1**](/windows/win32/D3D11_1/nf-d3d11_1-id3d11device1-createblendstate1?branch=master).
 
 For instance, here is a very simple example of blend-state creation that disables alpha blending and uses no per-component pixel masking.
 
@@ -38,7 +43,7 @@ This example is similar to the [HLSLWithoutFX10 Sample](61f892cf-4760-177b-5048-
 
 ## Bind the Blend State
 
-After you create the blend-state object, bind the blend-state object to the output-merger stage by calling [**ID3D11DeviceContext::OMSetBlendState**](id3d11devicecontext-omsetblendstate.md).
+After you create the blend-state object, bind the blend-state object to the output-merger stage by calling [**ID3D11DeviceContext::OMSetBlendState**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omsetblendstate?branch=master).
 
 
 ```
@@ -50,9 +55,9 @@ pd3dDevice->OMSetBlendState(g_pBlendStateNoBlend, blendFactor, sampleMask);
 
 
 
-This API takes three parameters: the blend-state object, a four-component blend factor, and a sample mask. You can pass in **NULL** for the blend-state object to specify the default blend state or pass in a blend-state object. If you created the blend-state object with [**D3D11\_BLEND\_BLEND\_FACTOR**](d3d11-blend.md#d3d11-blend-blend-factor) or [**D3D11\_BLEND\_INV\_BLEND\_FACTOR**](d3d11-blend.md#d3d11-blend-inv-blend-factor), you can pass a blend factor to modulate values for the pixel shader, render target, or both. If you didn't create the blend-state object with **D3D11\_BLEND\_BLEND\_FACTOR** or **D3D11\_BLEND\_INV\_BLEND\_FACTOR**, you can still pass a non-NULL blend factor, but the blending stage does not use the blend factor; the runtime stores the blend factor, and you can later call [**ID3D11DeviceContext::OMGetBlendState**](id3d11devicecontext-omgetblendstate.md) to retrieve the blend factor. If you pass **NULL**, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }. The sample mask is a user-defined mask that determines how to sample the existing render target before updating it. The default sampling mask is 0xffffffff which designates point sampling.
+This API takes three parameters: the blend-state object, a four-component blend factor, and a sample mask. You can pass in **NULL** for the blend-state object to specify the default blend state or pass in a blend-state object. If you created the blend-state object with [**D3D11\_BLEND\_BLEND\_FACTOR**](d3d11-blend.md#d3d11-blend-blend-factor) or [**D3D11\_BLEND\_INV\_BLEND\_FACTOR**](d3d11-blend.md#d3d11-blend-inv-blend-factor), you can pass a blend factor to modulate values for the pixel shader, render target, or both. If you didn't create the blend-state object with **D3D11\_BLEND\_BLEND\_FACTOR** or **D3D11\_BLEND\_INV\_BLEND\_FACTOR**, you can still pass a non-NULL blend factor, but the blending stage does not use the blend factor; the runtime stores the blend factor, and you can later call [**ID3D11DeviceContext::OMGetBlendState**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omgetblendstate?branch=master) to retrieve the blend factor. If you pass **NULL**, the runtime uses or stores a blend factor equal to { 1, 1, 1, 1 }. The sample mask is a user-defined mask that determines how to sample the existing render target before updating it. The default sampling mask is 0xffffffff which designates point sampling.
 
-In most depth buffering schemes, the pixel closest to the camera is the one that gets drawn. When [setting up the depth stencil state](d3d10-graphics-programming-guide-depth-stencil.md), the **DepthFunc** member of [**D3D11\_DEPTH\_STENCIL\_DESC**](d3d11-depth-stencil-desc.md) can be any [**D3D11\_COMPARISON\_FUNC**](d3d11-comparison-func.md). Normally, you would want **DepthFunc** to be **D3D11\_COMPARISON\_LESS**, so that the pixels closest to the camera will overwrite the pixels behind them. However, depending on the needs of your application, any of the other comparison functions may be used to do the depth test.
+In most depth buffering schemes, the pixel closest to the camera is the one that gets drawn. When [setting up the depth stencil state](d3d10-graphics-programming-guide-depth-stencil.md), the **DepthFunc** member of [**D3D11\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_depth_stencil_desc?branch=master) can be any [**D3D11\_COMPARISON\_FUNC**](/windows/win32/D3D11/ne-d3d11-d3d11_comparison_func?branch=master). Normally, you would want **DepthFunc** to be **D3D11\_COMPARISON\_LESS**, so that the pixels closest to the camera will overwrite the pixels behind them. However, depending on the needs of your application, any of the other comparison functions may be used to do the depth test.
 
 ## Advanced Blending Topics
 
@@ -63,7 +68,7 @@ In most depth buffering schemes, the pixel closest to the camera is the one that
 
 Alpha-to-coverage is a multisampling technique that is most useful for situations such as dense foliage where there are several overlapping polygons that use alpha transparency to define edges within the surface.
 
-You can use the **AlphaToCoverageEnable** member of [**D3D11\_BLEND\_DESC1**](d3d11-blend-desc1.md) or [**D3D11\_BLEND\_DESC**](d3d11-blend-desc.md) to toggle whether the runtime converts the .a component (alpha) of output register [SV\_Target](https://msdn.microsoft.com/library/windows/desktop/bb509647#system-value)0 from the pixel shader to an n-step coverage mask (given an n-sample **RenderTarget**). The runtime performs an **AND** operation of this mask with the typical sample coverage for the pixel in the primitive (in addition to the sample mask) to determine which samples to update in all the active **RenderTarget**s.
+You can use the **AlphaToCoverageEnable** member of [**D3D11\_BLEND\_DESC1**](/windows/win32/D3D11_1/ns-d3d11_1-cd3d11_blend_desc1?branch=master) or [**D3D11\_BLEND\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_blend_desc?branch=master) to toggle whether the runtime converts the .a component (alpha) of output register [SV\_Target](https://msdn.microsoft.com/library/windows/desktop/bb509647#system-value)0 from the pixel shader to an n-step coverage mask (given an n-sample **RenderTarget**). The runtime performs an **AND** operation of this mask with the typical sample coverage for the pixel in the primitive (in addition to the sample mask) to determine which samples to update in all the active **RenderTarget**s.
 
 If the pixel shader outputs [SV\_Coverage](https://msdn.microsoft.com/library/windows/desktop/bb509647#system-value), the runtime disables alpha-to-coverage.
 

@@ -1,13 +1,16 @@
 ---
-Description: 'The MOF compiler accepts a floating-point value specified for a nonfloating-point property. The value is rounded up or down and stored as a nonfloating-point number. This situation can cause some unexpected results.'
+Description: The MOF compiler accepts a floating-point value specified for a nonfloating-point property. The value is rounded up or down and stored as a nonfloating-point number. This situation can cause some unexpected results.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5cf7d8e1-c29d-4b9f-8557-e656c5e83370'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5cf7d8e1-c29d-4b9f-8557-e656c5e83370
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Compiling MOF Code with Floating-Point Values'
+title: Compiling MOF Code with Floating-Point Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Compiling MOF Code with Floating-Point Values

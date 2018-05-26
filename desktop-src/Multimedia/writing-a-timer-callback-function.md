@@ -1,8 +1,18 @@
 ---
 title: Writing a Timer Callback Function
 description: Writing a Timer Callback Function
-ms.assetid: '85260b6b-42de-43f4-83b7-94edbf660006'
-keywords: ["multimedia timers,callback functions", "timers,callback functions", "writing timer callback functions", "multimedia timers,writing callback functions", "timers,writing callback functions"]
+ms.assetid: 85260b6b-42de-43f4-83b7-94edbf660006
+keywords:
+- multimedia timers,callback functions
+- timers,callback functions
+- writing timer callback functions
+- multimedia timers,writing callback functions
+- timers,writing callback functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing a Timer Callback Function
@@ -12,7 +22,7 @@ keywords: ["multimedia timers,callback functions", "timers,callback functions", 
 
  
 
-The following callback function, OneShotTimer, invalidates the identifier for the single timer event and calls a timer routine to handle the application-specific tasks. For more information, see [**TimeProc**](timeproc.md).
+The following callback function, OneShotTimer, invalidates the identifier for the single timer event and calls a timer routine to handle the application-specific tasks. For more information, see [**TimeProc**](/windows/win32/Mmsystem/?branch=master).
 
 
 ```C++

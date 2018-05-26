@@ -1,14 +1,20 @@
 ---
 title: GatherBlue(S,float,int2,int2,int2,int2,uint) function
 description: Samples a texture and returns the blue component along with status about the operation.
-ms.assetid: '82CDD092-D1C9-4FA9-BD85-65098BA457CD'
-keywords: ["GatherBlue function HLSL"]
+ms.assetid: 82CDD092-D1C9-4FA9-BD85-65098BA457CD
+keywords:
+- GatherBlue function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherBlue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherBlue(S,float,int2,int2,int2,int2,uint) function

@@ -1,8 +1,14 @@
 ---
 title: ps\_2\_x Registers
 description: Pixel shaders depend on registers to get vertex data, to output pixel data, to hold temporary results during calculations, and to identify texture sampling stages.
-ms.assetid: '52bb6290-46e2-4d7d-9b96-b4c3e2abfe43'
-keywords: ["Registers - ps_2_x"]
+ms.assetid: 52bb6290-46e2-4d7d-9b96-b4c3e2abfe43
+keywords:
+- Registers - ps_2_x
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ps\_2\_x Registers

@@ -1,7 +1,12 @@
 ---
 title: How to Implement Event Handlers
 description: This topic contains example code that shows how to implement interfaces that enable clients to receive and handle Microsoft UI Automation events.
-ms.assetid: '6b6549b8-795b-45a8-8fef-59842cc990e4'
+ms.assetid: 6b6549b8-795b-45a8-8fef-59842cc990e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Implement Event Handlers

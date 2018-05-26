@@ -4,10 +4,13 @@ description: This section includes several examples that illustrate how to build
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5B28C227-3AFC-4649-B3F4-6548645A91C5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5B28C227-3AFC-4649-B3F4-6548645A91C5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MI Providers and Clients

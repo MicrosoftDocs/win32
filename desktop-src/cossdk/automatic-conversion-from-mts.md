@@ -1,7 +1,12 @@
 ---
 Description: Automatic Conversion from MTS
-ms.assetid: '0848639a-26ce-47ad-8384-8969a7c3bcde'
+ms.assetid: 0848639a-26ce-47ad-8384-8969a7c3bcde
 title: Automatic Conversion from MTS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Automatic Conversion from MTS

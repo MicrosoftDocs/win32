@@ -4,13 +4,15 @@ description: Represents settings for the allocation of the ethernet port, in add
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1653b3ec-eff5-480b-9449-3d9627e48cf3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 1653b3ec-eff5-480b-9449-3d9627e48cf3
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_EthernetPortAllocationSettingData class", "CIM_EthernetPortAllocationSettingData class, described"]
+keywords:
+- CIM_EthernetPortAllocationSettingData class
+- CIM_EthernetPortAllocationSettingData class, described
 topic_type:
 - apiref
 api_name:
@@ -44,6 +46,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_EthernetPortAllocationSettingData class
@@ -58,31 +63,31 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.26.0"), UMLPackagePath("CIM::Core::Resource")]
 class CIM_EthernetPortAllocationSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint16  ResourceType;
-  string  OtherResourceType;
-  string  ResourceSubType;
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits;
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint16  ResourceType;
+  string  OtherResourceType;
+  string  ResourceSubType;
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits;
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation;
   boolean AutomaticDeallocation;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
-  string  AddressOnParent;
-  string  VirtualQuantityUnits = "count";
-  uint16  DesiredVLANEndpointMode;
-  string  OtherEndpointMode;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
+  string  AddressOnParent;
+  string  VirtualQuantityUnits = "count";
+  uint16  DesiredVLANEndpointMode;
+  string  OtherEndpointMode;
 };
 ```
 
@@ -257,14 +262,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF reserved**
 
 
-</dt> <dd>5–32766</dd> <dt>
+</dt> <dd>5 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -428,7 +433,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -507,14 +512,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF Reserved**
 
 
-</dt> <dd>6–32766</dd> <dt>
+</dt> <dd>6 32766</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32767–65535</dd> </dl>
+</dt> <dd>32767 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -877,14 +882,14 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 **DMTF reserved**
 
 
-</dt> <dd>34–32767</dd> <dt>
+</dt> <dd>34 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–35535</dd> </dl>
+</dt> <dd>32768 35535</dd> </dl>
 
 </dd> <dt>
 
@@ -946,7 +951,7 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -963,9 +968,9 @@ This property is inherited from [**CIM\_ResourceAllocationSettingData**](cim-res
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

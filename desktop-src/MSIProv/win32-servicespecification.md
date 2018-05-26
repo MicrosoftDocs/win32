@@ -1,8 +1,10 @@
 ---
 title: Win32\_ServiceSpecification class
 description: The Win32\_ServiceSpecification WMI class represents a service that is to be installed with an associated package.
-ms.assetid: '597dc119-bb58-4606-9fd2-b4f804c78175'
-keywords: ["Win32_ServiceSpecification class", "Win32_ServiceSpecification class, described"]
+ms.assetid: 597dc119-bb58-4606-9fd2-b4f804c78175
+keywords:
+- Win32_ServiceSpecification class
+- Win32_ServiceSpecification class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ServiceSpecification class
@@ -38,7 +45,7 @@ The **Win32\_ServiceSpecification** [WMI class](https://msdn.microsoft.com/libra
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -48,24 +55,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_ServiceSpecification : CIM_Check
 {
-  string  Caption;
-  string  CheckID;
+  string  Caption;
+  string  CheckID;
   Boolean CheckMode;
-  string  Dependencies;
-  string  Description;
-  string  DisplayName;
-  sint32  ErrorControl;
-  string  ID;
-  string  LoadOrderGroup;
-  string  Name;
-  string  Password;
-  sint32  ServiceType;
-  string  SoftwareElementID;
-  uint16  SoftwareElementState;
-  string  StartName;
-  sint32  StartType;
-  uint16  TargetOperatingSystem;
-  string  Version;
+  string  Dependencies;
+  string  Description;
+  string  DisplayName;
+  sint32  ErrorControl;
+  string  ID;
+  string  LoadOrderGroup;
+  string  Name;
+  string  Password;
+  sint32  ServiceType;
+  string  SoftwareElementID;
+  uint16  SoftwareElementState;
+  string  StartName;
+  sint32  StartType;
+  uint16  TargetOperatingSystem;
+  string  Version;
 };
 ```
 
@@ -88,7 +95,7 @@ The **Win32\_ServiceSpecification** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -105,7 +112,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Short textual description of the object—a one-line string.
+Short textual description of the object a one-line string.
 
 </dd> <dt>
 
@@ -195,7 +202,7 @@ Action that the startup program takes if the service does not start during start
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -272,7 +279,7 @@ Bit flags that specify the type of service. One of the following service types m
 
 
 
- 
+ 
 
 The following types of service are unsupported.
 
@@ -285,7 +292,7 @@ The following types of service are unsupported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -324,7 +331,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -362,7 +369,7 @@ Bit flags that specify when to start a service. One of the following types of se
 
 
 
- 
+ 
 
 The following types of service starts are valid only for driver services.
 
@@ -375,7 +382,7 @@ The following types of service starts are valid only for driver services.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -455,7 +462,7 @@ Target operating system of the software element. The possible values for this pr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -482,8 +489,8 @@ The **Win32\_ServiceSpecification** class is derived from [**CIM\_Check**](https
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -497,9 +504,9 @@ The **Win32\_ServiceSpecification** class is derived from [**CIM\_Check**](https
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

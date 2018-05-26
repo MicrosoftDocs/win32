@@ -1,12 +1,17 @@
-﻿---
-Description: 'The slope of the left side of the BoundingFrustum.'
-ms.assetid: 'c83a022a-4213-41a8-8dbe-5e4ec80069b3'
-title: 'BoundingFrustum.LeftSlope'
+---
+Description: The slope of the left side of the BoundingFrustum.
+ms.assetid: c83a022a-4213-41a8-8dbe-5e4ec80069b3
+title: BoundingFrustum.LeftSlope
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingFrustum.LeftSlope
 
-The slope of the left side of the [**BoundingFrustum**](boundingfrustum.md).
+The slope of the left side of the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](boundingfrustum.md)
+[**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master)
 </dt> </dl>
 
  

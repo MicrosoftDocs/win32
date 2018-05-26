@@ -1,7 +1,12 @@
 ---
 title: Language Resources Sample
 description: Language Resources Sample
-ms.assetid: '9d1afe92-f366-4713-8e09-2190f3136bb2'
+ms.assetid: 9d1afe92-f366-4713-8e09-2190f3136bb2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Language Resources Sample

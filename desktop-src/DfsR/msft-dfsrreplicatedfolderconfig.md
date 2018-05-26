@@ -4,13 +4,15 @@ description: An instance of this class is available for each replicated folder t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9ff53a9a-dd1d-4b86-ba8d-9c849dba003e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9ff53a9a-dd1d-4b86-ba8d-9c849dba003e
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsrReplicatedFolderConfig class Distributed File System Replication", "MSFT_DfsrReplicatedFolderConfig class Distributed File System Replication , described"]
+keywords:
+- MSFT_DfsrReplicatedFolderConfig class Distributed File System Replication
+- MSFT_DfsrReplicatedFolderConfig class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -50,6 +52,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsrReplicatedFolderConfig class
@@ -62,37 +67,37 @@ An instance of this class is available for each replicated folder that is hosted
 [ClassVersion("1.0.0"), dynamic, provider("DfsrWMIV2"), AMENDMENT]
 class MSFT_DfsrReplicatedFolderConfig
 {
-  string  ReplicatedFolderGuid;
-  string  ReplicatedFolderName;
-  string  ReplicatedFolderDn;
-  string  ReplicationGroupGuid;
-  string  MemberGuid;
-  string  VolumeGuid;
-  string  RootPath;
-  uint32  RootSizeInMb;
-  string  StagingPath;
-  uint32  StagingSizeInMb;
-  uint64  StagingFileSizeThreshold;
-  string  ConflictPath;
-  uint32  ConflictSizeInMb;
-  string  FileFilter;
-  string  DirectoryFilter;
+  string  ReplicatedFolderGuid;
+  string  ReplicatedFolderName;
+  string  ReplicatedFolderDn;
+  string  ReplicationGroupGuid;
+  string  MemberGuid;
+  string  VolumeGuid;
+  string  RootPath;
+  uint32  RootSizeInMb;
+  string  StagingPath;
+  uint32  StagingSizeInMb;
+  uint64  StagingFileSizeThreshold;
+  string  ConflictPath;
+  uint32  ConflictSizeInMb;
+  string  FileFilter;
+  string  DirectoryFilter;
   boolean Ghosted;
   boolean CacheObeyConnectionSchedule;
-  uint32  MinAgeInCacheInMin;
-  uint32  MaxAgeInCacheInMin;
+  uint32  MinAgeInCacheInMin;
+  uint32  MaxAgeInCacheInMin;
   boolean Enabled;
   boolean IsPrimary;
   boolean ReadOnly;
   boolean DisableSaveDeletes;
   boolean DisableReanimateDeletes;
   boolean SharedStaging;
-  string  CompressedExtensions;
-  string  Description;
-  uint64  UsnCreated;
-  string  ContainerComputerName;
+  string  CompressedExtensions;
+  string  Description;
+  uint64  UsnCreated;
+  string  ContainerComputerName;
   boolean IsClustered;
-  string  VcoResourceName;
+  string  VcoResourceName;
 };
 ```
 
@@ -116,7 +121,7 @@ The **MSFT\_DfsrReplicatedFolderConfig** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -627,7 +632,7 @@ The **GUID** of the volume that contains the replicated folder.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                        |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dfsr<br/>                                                |
 | MOF<br/>                      | <dl> <dt>Dfsrwmiv2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -641,9 +646,9 @@ The **GUID** of the volume that contains the replicated folder.
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

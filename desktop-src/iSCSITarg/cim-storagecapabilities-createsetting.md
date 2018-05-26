@@ -4,13 +4,16 @@ description: Method to create and populate a StorageSetting instance from a Stor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60d7877a-4a3e-48e8-89a7-7f4793a07619'
-ms.prod: 'windows-server-dev'
+ms.assetid: 60d7877a-4a3e-48e8-89a7-7f4793a07619
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateSetting method iSCSI Software Target API", "CreateSetting method iSCSI Software Target API , CIM_StorageCapabilities class", "CIM_StorageCapabilities class iSCSI Software Target API , CreateSetting method"]
+keywords:
+- CreateSetting method iSCSI Software Target API
+- CreateSetting method iSCSI Software Target API , CIM_StorageCapabilities class
+- CIM_StorageCapabilities class iSCSI Software Target API , CreateSetting method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateSetting method of the CIM\_StorageCapabilities class
@@ -30,8 +36,8 @@ Method to create and populate a StorageSetting instance from a StorageCapability
 
 ```mof
 uint32 CreateSetting(
-  [in]  uint16                 SettingType,
-  [out] CIM_StorageSetting REF NewSetting
+  [in]  uint16                 SettingType,
+  [out] CIM_StorageSetting REF NewSetting
 );
 ```
 
@@ -95,10 +101,10 @@ Reference to the created StorageSetting instance.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–32767)
+**DMTF Reserved** (6 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -108,7 +114,7 @@ Reference to the created StorageSetting instance.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -122,9 +128,9 @@ Reference to the created StorageSetting instance.
 [**CIM\_StorageCapabilities**](cim-storagecapabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: TrackingID Attribute
 description: The TrackingID attribute is 128-bit Globally Unique Identifier (GUID) that Windows Media Player uses to identify a media item.
-ms.assetid: '77afa1a5-d532-4b54-9308-a274c5c7bdde'
-keywords: ["TrackingID Attribute Windows Media Player"]
+ms.assetid: 77afa1a5-d532-4b54-9308-a274c5c7bdde
+keywords:
+- TrackingID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TrackingID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TrackingID Attribute
@@ -43,9 +49,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMDRMEncryptScatter EncryptScatter method
 description: The EncryptScatter method unscrambles and encrypts data.
-ms.assetid: 'e7f87aac-387b-4483-956e-bfbca0cec0f2'
-keywords: ["EncryptScatter method windows Media Format", "EncryptScatter method windows Media Format , IWMDRMEncryptScatter interface", "IWMDRMEncryptScatter interface windows Media Format , EncryptScatter method"]
+ms.assetid: e7f87aac-387b-4483-956e-bfbca0cec0f2
+keywords:
+- EncryptScatter method windows Media Format
+- EncryptScatter method windows Media Format , IWMDRMEncryptScatter interface
+- IWMDRMEncryptScatter interface windows Media Format , EncryptScatter method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMEncryptScatter::EncryptScatter method
@@ -22,11 +30,11 @@ The **EncryptScatter** method unscrambles and encrypts data.
 
 ```C++
 HRESULT EncryptScatter(
-  [in]  DWORD                       cBlocks,
-  [in]  WMDRM_ENCRYPT_SCATTER_BLOCK *rgBlocks,
-  [in]  WMDRMCryptoData             *pWMCryptoData,
-  [in]  DWORD                       cbOutput,
-  [out] BYTE                        *pbOutput
+  [in]  DWORD                       cBlocks,
+  [in]  WMDRM_ENCRYPT_SCATTER_BLOCK *rgBlocks,
+  [in]  WMDRMCryptoData             *pWMCryptoData,
+  [in]  DWORD                       cbOutput,
+  [out] BYTE                        *pbOutput
 );
 ```
 
@@ -83,7 +91,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -109,9 +117,9 @@ None.
 [**IWMDRMEncryptScatter Interface**](iwmdrmencryptscatter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

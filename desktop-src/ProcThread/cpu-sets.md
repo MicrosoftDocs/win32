@@ -1,7 +1,12 @@
 ---
-Description: 'CPU Sets provide APIs to declare application affinity in a ''soft'' manner that is compatible with OS power management.'
-ms.assetid: 'FF8BE790-19D9-473F-B184-C54FB392D61A'
+Description: CPU Sets provide APIs to declare application affinity in a soft manner that is compatible with OS power management.
+ms.assetid: FF8BE790-19D9-473F-B184-C54FB392D61A
 title: CPU Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPU Sets
@@ -20,7 +25,7 @@ CPU Sets that are reserved can be determined by inspecting the **Allocated** fla
 -   [**SetProcessDefaultCpuSets**](setprocessdefaultcpusets.md) function
 -   [**SetThreadSelectedCpuSets**](setthreadselectedcpusets.md) function
 -   [**CPU\_SET\_INFORMATION\_TYPE**](cpu-set-information-type.md) enumeration
--   [**SYSTEM\_CPU\_SET\_INFORMATION**](system-cpu-set-information.md) structure
+-   [**SYSTEM\_CPU\_SET\_INFORMATION**](/windows/win32/winnt/ns-winnt-_system_cpu_set_information?branch=master) structure
 
  
 

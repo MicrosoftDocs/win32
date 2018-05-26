@@ -1,7 +1,12 @@
 ---
 Description: Handling COM+ Administration Errors
-ms.assetid: '03f00c19-ff81-478b-b545-048f3dbe5eda'
+ms.assetid: 03f00c19-ff81-478b-b545-048f3dbe5eda
 title: Handling COM+ Administration Errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling COM+ Administration Errors
@@ -19,9 +24,9 @@ You handle administration error codes as you would any COM error message. In Mic
 
 When an error occurs, signaled by some kind of failure code, more detailed information may be available, depending on the nature of the error. The COMAdmin objects provide extended information in circumstances where the precise cause of the failure is difficult to determine without a detailed report, such as with multiple read and write operations.
 
-For example, when you use methods such as [**Populate**](icatalogcollection-populate.md) and [**SaveChanges**](icatalogcollection-savechanges.md) on a [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object, you can be reading or writing data for every item in the collection. Complicated errors can occur, and they can be difficult to diagnose based on a single numeric error code. Therefore, the COMAdmin Library makes extended error information through a special collection.
+For example, when you use methods such as [**Populate**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-populate?branch=master) and [**SaveChanges**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-savechanges?branch=master) on a [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object, you can be reading or writing data for every item in the collection. Complicated errors can occur, and they can be difficult to diagnose based on a single numeric error code. Therefore, the COMAdmin Library makes extended error information through a special collection.
 
-When extended error information is available, it is placed in the [**ErrorInfo**](errorinfo.md) collection that is related to the original collection that had the error. To retrieve the error report, get the **ErrorInfo** collection that is related to the original collection and examine the items it contains. You can retrieve the **ErrorInfo** collection by using [**GetCollection**](icatalogcollection-getcollection.md) on [**COMAdminCatalogCollection**](comadmincatalogcollection.md), leaving the second parameter blank where you would normally specify a parent item's Key property.
+When extended error information is available, it is placed in the [**ErrorInfo**](errorinfo.md) collection that is related to the original collection that had the error. To retrieve the error report, get the **ErrorInfo** collection that is related to the original collection and examine the items it contains. You can retrieve the **ErrorInfo** collection by using [**GetCollection**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-getcollection?branch=master) on [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master), leaving the second parameter blank where you would normally specify a parent item's Key property.
 
 When you get an error, you must immediately get and populate the [**ErrorInfo**](errorinfo.md) collection for the collection that failed, without performing any other operations on that collection. Otherwise, the **ErrorInfo** collection is reset and does not detail that failure.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.'
-ms.assetid: '19ef96a8-3d5b-4da1-8cff-d6a271ad4915'
-title: 'IMpeg2PsiParser::GetCountOfElementaryStreams method'
+---
+Description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
+ms.assetid: 19ef96a8-3d5b-4da1-8cff-d6a271ad4915
+title: IMpeg2PsiParserGetCountOfElementaryStreams method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMpeg2PsiParser::GetCountOfElementaryStreams method

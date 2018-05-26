@@ -1,14 +1,20 @@
 ---
 title: PLAYLIST.dropDownList
 description: The dropDownList attribute specifies or retrieves a value indicating which elements show up in the drop-down list box for a given instance of the PLAYLIST element.
-ms.assetid: '583041b0-25dc-4015-a3b2-37f3cfdcd496'
-keywords: ["PLAYLIST.dropDownList Windows Media Player"]
+ms.assetid: 583041b0-25dc-4015-a3b2-37f3cfdcd496
+keywords:
+- PLAYLIST.dropDownList Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PLAYLIST.dropDownList
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PLAYLIST.dropDownList
@@ -38,7 +44,7 @@ This attribute is a read/write **String** containing one of the following values
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,9 +63,9 @@ This attribute is a read/write **String** containing one of the following values
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

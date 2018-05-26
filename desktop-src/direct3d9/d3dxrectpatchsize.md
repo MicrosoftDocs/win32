@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the size of the rectangle patch.'
-ms.assetid: 'd25373ef-789d-4515-83da-7049f040c9a4'
+---
+Description: Gets the size of the rectangle patch.
+ms.assetid: d25373ef-789d-4515-83da-7049f040c9a4
 title: D3DXRectPatchSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXRectPatchSize function

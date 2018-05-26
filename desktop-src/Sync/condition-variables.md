@@ -1,7 +1,12 @@
 ---
-Description: 'Condition variables are synchronization primitives that enable threads to wait until a particular condition occurs. Condition variables are user-mode objects that cannot be shared across processes.'
-ms.assetid: 'fef9bab0-cd69-4812-869a-b43a10772d86'
+Description: Condition variables are synchronization primitives that enable threads to wait until a particular condition occurs. Condition variables are user-mode objects that cannot be shared across processes.
+ms.assetid: fef9bab0-cd69-4812-869a-b43a10772d86
 title: Condition Variables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Condition Variables
@@ -10,7 +15,7 @@ Condition variables are synchronization primitives that enable threads to wait u
 
 Condition variables enable threads to atomically release a lock and enter the sleeping state. They can be used with critical sections or slim reader/writer (SRW) locks. Condition variables support operations that "wake one" or "wake all" waiting threads. After a thread is woken, it re-acquires the lock it released when the thread entered the sleeping state.
 
-Note that the caller must allocate a **CONDITION\_VARIABLE** structure and initialize it by either calling [**InitializeConditionVariable**](initializeconditionvariable.md) (to initialize the structure dynamically) or assign the constant **CONDITION\_VARIABLE\_INIT** to the structure variable (to initialize the structure statically).
+Note that the caller must allocate a **CONDITION\_VARIABLE** structure and initialize it by either calling [**InitializeConditionVariable**](/windows/win32/WinBase/nf-synchapi-initializeconditionvariable?branch=master) (to initialize the structure dynamically) or assign the constant **CONDITION\_VARIABLE\_INIT** to the structure variable (to initialize the structure statically).
 
 **Windows Server 2003 and Windows XP:** Condition variables are not supported.
 
@@ -20,11 +25,11 @@ The following are the condition variable functions.
 
 | Condition variable function                                        | Description                                                                                                    |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**InitializeConditionVariable**](initializeconditionvariable.md) | Initializes a condition variable.                                                                              |
-| [**SleepConditionVariableCS**](sleepconditionvariablecs.md)       | Sleeps on the specified condition variable and releases the specified critical section as an atomic operation. |
-| [**SleepConditionVariableSRW**](sleepconditionvariablesrw.md)     | Sleeps on the specified condition variable and releases the specified SRW lock as an atomic operation.         |
-| [**WakeAllConditionVariable**](wakeallconditionvariable.md)       | Wakes all threads waiting on the specified condition variable.                                                 |
-| [**WakeConditionVariable**](wakeconditionvariable.md)             | Wakes a single thread waiting on the specified condition variable.                                             |
+| [**InitializeConditionVariable**](/windows/win32/WinBase/nf-synchapi-initializeconditionvariable?branch=master) | Initializes a condition variable.                                                                              |
+| [**SleepConditionVariableCS**](/windows/win32/WinBase/nf-synchapi-sleepconditionvariablecs?branch=master)       | Sleeps on the specified condition variable and releases the specified critical section as an atomic operation. |
+| [**SleepConditionVariableSRW**](/windows/win32/WinBase/nf-synchapi-sleepconditionvariablesrw?branch=master)     | Sleeps on the specified condition variable and releases the specified SRW lock as an atomic operation.         |
+| [**WakeAllConditionVariable**](/windows/win32/WinBase/nf-synchapi-wakeallconditionvariable?branch=master)       | Wakes all threads waiting on the specified condition variable.                                                 |
+| [**WakeConditionVariable**](/windows/win32/WinBase/nf-synchapi-wakeconditionvariable?branch=master)             | Wakes a single thread waiting on the specified condition variable.                                             |
 
 
 
@@ -64,7 +69,7 @@ For example, in an implementation of a reader/writer lock, the `TestPredicate` f
 
 Condition variables are subject to spurious wakeups (those not associated with an explicit wake) and stolen wakeups (another thread manages to run before the woken thread). Therefore, you should recheck a predicate (typically in a **while** loop) after a sleep operation returns.
 
-You can wake other threads using [**WakeConditionVariable**](wakeconditionvariable.md) or [**WakeAllConditionVariable**](wakeallconditionvariable.md) either inside or outside the lock associated with the condition variable. It is usually better to release the lock before waking other threads to reduce the number of context switches.
+You can wake other threads using [**WakeConditionVariable**](/windows/win32/WinBase/nf-synchapi-wakeconditionvariable?branch=master) or [**WakeAllConditionVariable**](/windows/win32/WinBase/nf-synchapi-wakeallconditionvariable?branch=master) either inside or outside the lock associated with the condition variable. It is usually better to release the lock before waking other threads to reduce the number of context switches.
 
 It is often convenient to use more than one condition variable with the same lock. For example, an implementation of a reader/writer lock might use a single critical section but separate condition variables for readers and writers.
 

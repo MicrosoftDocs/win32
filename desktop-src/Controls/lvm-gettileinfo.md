@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETTILEINFO message
 description: Retrieves information about a tile in a list-view control.
-ms.assetid: 'e89a3eae-0970-488c-ba95-1072aa85bbf4'
-keywords: ["LVM_GETTILEINFO message Windows Controls"]
+ms.assetid: e89a3eae-0970-488c-ba95-1072aa85bbf4
+keywords:
+- LVM_GETTILEINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETTILEINFO message
@@ -25,7 +31,7 @@ Retrieves information about a tile in a list-view control.
 </dt> <dd>Must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an [**LVTILEINFO**](lvtileinfo.md) structure that receives the retrieved information.</dd> </dl>
+</dt> <dd>Pointer to an [**LVTILEINFO**](/windows/win32/Commctrl/ns-commctrl-taglvtileinfo?branch=master) structure that receives the retrieved information.</dd> </dl>
 
 ## Return value
 
@@ -38,7 +44,7 @@ Tile view is a new way of arranging and displaying items in a list-view control.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -46,15 +52,15 @@ Tile view is a new way of arranging and displaying items in a list-view control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

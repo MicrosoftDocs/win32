@@ -1,7 +1,12 @@
-﻿---
-Description: 'Maps indices in the range 0 through 255 to the corresponding transform states.'
-ms.assetid: 'b0a1548c-de5d-4eff-baf9-4aecb5e13443'
-title: 'D3DTS\_WORLDMATRIX macro'
+---
+Description: Maps indices in the range 0 through 255 to the corresponding transform states.
+ms.assetid: b0a1548c-de5d-4eff-baf9-4aecb5e13443
+title: D3DTS\_WORLDMATRIX macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DTS\_WORLDMATRIX macro
@@ -55,7 +60,7 @@ Transform states in the range 256 through 511 are reserved to store up to 256 ma
 [Macros](dx9-graphics-reference-d3d-macros.md)
 </dt> <dt>
 
-[**SetTransform**](idirect3ddevice9--settransform.md)
+[**SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master)
 </dt> </dl>
 
  

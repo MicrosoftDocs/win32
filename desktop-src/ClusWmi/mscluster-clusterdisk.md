@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents a disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8EFE9D7A-1990-4B89-B703-00B6AB5E5F1A'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8EFE9D7A-1990-4B89-B703-00B6AB5E5F1A
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterDisk class", "MSCluster_ClusterDisk class, described"]
+keywords:
+- MSCluster_ClusterDisk class
+- MSCluster_ClusterDisk class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterDisk class
@@ -51,24 +56,24 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, Provider("MS_CLUSTER_PROVIDER"), UUID("{53C7E15E-E185-4A74-929A-568F5FAF8103}"), AMENDMENT]
 class MSCluster_ClusterDisk : MSCluster_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint32   Flags;
-  uint32   Characteristics;
-  string   Id;
-  uint32   Signature;
-  string   GptGuid;
-  uint32   ScsiPort;
-  uint32   ScsiBus;
-  uint32   ScsiTargetID;
-  uint32   ScsiLUN;
-  uint64   Size;
-  uint32   Number;
-  string   VirtualDiskId;
-  string   StoragePoolId;
+  string   Name;
+  string   Status;
+  uint32   Flags;
+  uint32   Characteristics;
+  string   Id;
+  uint32   Signature;
+  string   GptGuid;
+  uint32   ScsiPort;
+  uint32   ScsiBus;
+  uint32   ScsiTargetID;
+  uint32   ScsiLUN;
+  uint64   Size;
+  uint32   Number;
+  string   VirtualDiskId;
+  string   StoragePoolId;
 };
 ```
 
@@ -113,9 +118,9 @@ Access type: Read-only
 
 Provides the characteristics of the disk. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -147,9 +152,9 @@ Access type: Read-only
 
 Provides access to the flags set for the disk. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -434,7 +439,7 @@ The id of the virtual disk.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -457,9 +462,9 @@ The id of the virtual disk.
 [**MSCluster\_AvailableDisk**](mscluster-availabledisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

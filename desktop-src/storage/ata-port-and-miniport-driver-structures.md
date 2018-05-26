@@ -1,7 +1,12 @@
 ---
 title: ATA Port and Miniport Driver Structures
 description: ATA Port and Miniport Driver Structures
-ms.assetid: 'e062d9d7-ad76-4ee8-be7e-8beff6953799'
+ms.assetid: e062d9d7-ad76-4ee8-be7e-8beff6953799
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Port and Miniport Driver Structures

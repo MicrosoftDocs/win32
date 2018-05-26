@@ -1,7 +1,12 @@
 ---
-Description: 'The ShowMenu method displays the specified menu on the screen.'
-ms.assetid: '971c5bc3-a327-4840-8f3c-9a6573204ffb'
+Description: The ShowMenu method displays the specified menu on the screen.
+ms.assetid: 971c5bc3-a327-4840-8f3c-9a6573204ffb
 title: ShowMenu Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowMenu Method

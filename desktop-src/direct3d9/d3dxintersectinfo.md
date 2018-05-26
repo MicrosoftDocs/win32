@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes a ray-triangle intersection.'
-ms.assetid: 'b6f50fc0-2c8a-4efa-a144-bd0851f8b0ca'
+---
+Description: Describes a ray-triangle intersection.
+ms.assetid: b6f50fc0-2c8a-4efa-a144-bd0851f8b0ca
 title: D3DXINTERSECTINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXINTERSECTINFO structure

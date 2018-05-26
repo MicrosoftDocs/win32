@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_ADD\_ACTIVITY\_BROADCAST.'
-ms.assetid: '5B4E96FB-3214-4303-B8EB-9AB5CB42D8C7'
-title: 'IOCTL\_DOT4\_ADD\_ACTIVITY\_BROADCAST control code'
+---
+Description: This topic describes IOCTL\_DOT4\_ADD\_ACTIVITY\_BROADCAST.
+ms.assetid: 5B4E96FB-3214-4303-B8EB-9AB5CB42D8C7
+title: IOCTL\_DOT4\_ADD\_ACTIVITY\_BROADCAST control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_ADD\_ACTIVITY\_BROADCAST control code

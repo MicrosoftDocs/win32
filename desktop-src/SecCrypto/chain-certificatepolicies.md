@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an OIDs collection that represents the certificate policy OIDs valid for the chain.'
-ms.assetid: '18200003-f4f1-4cf3-af9a-bc223151ff68'
-title: 'IChain2::CertificatePolicies method'
+---
+Description: Returns an OIDs collection that represents the certificate policy OIDs valid for the chain.
+ms.assetid: 18200003-f4f1-4cf3-af9a-bc223151ff68
+title: IChain2CertificatePolicies method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IChain2::CertificatePolicies method

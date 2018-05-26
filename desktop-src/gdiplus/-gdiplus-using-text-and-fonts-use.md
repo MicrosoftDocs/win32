@@ -1,12 +1,17 @@
 ---
-Description: 'Windows GDI+ provides several classes that form the foundation for drawing text.'
-ms.assetid: '12bc38c3-5fbc-4d7b-902c-92a5f5057473'
+Description: Windows GDI+ provides several classes that form the foundation for drawing text.
+ms.assetid: 12bc38c3-5fbc-4d7b-902c-92a5f5057473
 title: Using Text and Fonts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Text and Fonts
 
-Windows GDI+ provides several classes that form the foundation for drawing text. The [**Graphics**](-gdiplus-class-graphics-class.md) class has several [DrawString](-gdiplus-class-graphics-drawstring-methods.md) methods that allow you to specify various features of text, such as location, bounding rectangle, font, and format. Other classes that contribute to text rendering include [**FontFamily**](-gdiplus-class-fontfamily-class.md), [**Font**](-gdiplus-class-font-class.md), [**StringFormat**](-gdiplus-class-stringformat-class.md), [**InstalledFontCollection**](-gdiplus-class-installedfontcollection-class.md), and [**PrivateFontCollection**](-gdiplus-class-privatefontcollection-class.md).
+Windows GDI+ provides several classes that form the foundation for drawing text. The [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class has several [DrawString](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) methods that allow you to specify various features of text, such as location, bounding rectangle, font, and format. Other classes that contribute to text rendering include [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master), [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master), [**StringFormat**](/windows/win32/gdiplusstringformat/nl-gdiplusstringformat-stringformat?branch=master), [**InstalledFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-installedfontcollection?branch=master), and [**PrivateFontCollection**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-privatefontcollection?branch=master).
 
 The following topics cover text and fonts in more detail:
 

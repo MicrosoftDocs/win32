@@ -1,8 +1,11 @@
 ---
 title: ITransportCallbackService GetAccount method
 description: Gets the mail account and server type.
-ms.assetid: '0e993ac9-eb4f-4a9d-92da-239fe9b20254'
-keywords: ["GetAccount method Windows Mail (formerly Outlook Express)", "GetAccount method Windows Mail (formerly Outlook Express) , ITransportCallbackService interface", "ITransportCallbackService interface Windows Mail (formerly Outlook Express) , GetAccount method"]
+ms.assetid: 0e993ac9-eb4f-4a9d-92da-239fe9b20254
+keywords:
+- GetAccount method Windows Mail (formerly Outlook Express)
+- GetAccount method Windows Mail (formerly Outlook Express) , ITransportCallbackService interface
+- ITransportCallbackService interface Windows Mail (formerly Outlook Express) , GetAccount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransportCallbackService::GetAccount method
@@ -24,8 +32,8 @@ Gets the mail account and server type.
 
 ```C++
 HRESULT GetAccount(
-  [out] LPDWORD     pdwServerType,
-  [out] IImnAccount **ppAccount
+  [out] LPDWORD     pdwServerType,
+  [out] IImnAccount **ppAccount
 );
 ```
 
@@ -55,7 +63,7 @@ Receives a pointer to a **DWORD** that indicates the server type.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,8 +88,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                      |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                    |
@@ -89,9 +97,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

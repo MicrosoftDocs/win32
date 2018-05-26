@@ -1,8 +1,16 @@
 ---
 title: UnTypedServiceExample
 description: This sample shows how implement an untyped service with Service Model. Service Model in this case provides the boiler plate infrastructure.
-ms.assetid: '4235554e-19a8-4df7-97a5-2f7544a3c830'
-keywords: ["UnTypedServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 4235554e-19a8-4df7-97a5-2f7544a3c830
+keywords:
+- UnTypedServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnTypedServiceExample

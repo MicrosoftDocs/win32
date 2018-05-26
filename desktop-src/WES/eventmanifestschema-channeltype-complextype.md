@@ -1,14 +1,20 @@
 ---
 title: ChannelType Complex Type
 description: Defines a channel to which providers can log events.
-ms.assetid: '882506e5-222b-45c8-af4b-59db8baa1dae'
-keywords: ["ChannelType complex type EventLog"]
+ms.assetid: 882506e5-222b-45c8-af4b-59db8baa1dae
+keywords:
+- ChannelType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ChannelType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChannelType Complex Type
@@ -232,16 +238,16 @@ If the channel's name follows the channel naming convention, the Windows Event V
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
-
-
+ 
 
 
 
+
+`

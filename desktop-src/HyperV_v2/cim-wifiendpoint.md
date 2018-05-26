@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a wireless communication endpoint, which can send and receive data frames when its associated interface device is connected with an IEEE 802.11 wireless LAN.'
-ms.assetid: '61743402-f333-4501-ba17-e676d85f72f3'
-title: 'CIM\_WiFiEndpoint class'
+Description: Represents a wireless communication endpoint, which can send and receive data frames when its associated interface device is connected with an IEEE 802.11 wireless LAN.
+ms.assetid: 61743402-f333-4501-ba17-e676d85f72f3
+title: CIM\_WiFiEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_WiFiEndpoint class
@@ -14,15 +19,15 @@ Represents a wireless communication endpoint, which can send and receive data fr
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Network::Wireless"), AMENDMENT]
 class CIM_WiFiEndpoint : CIM_LANEndpoint
 {
-  string  LANID;
-  uint16  ProtocolIFType = 71;
-  uint16  EncryptionMethod;
-  string  OtherEncryptionMethod;
-  uint16  AuthenticationMethod;
-  string  OtherAuthenticationMethod;
-  uint16  IEEE8021xAuthenticationProtocol;
-  string  AccessPointAddress;
-  uint16  BSSType;
+  string  LANID;
+  uint16  ProtocolIFType = 71;
+  uint16  EncryptionMethod;
+  string  OtherEncryptionMethod;
+  uint16  AuthenticationMethod;
+  string  OtherAuthenticationMethod;
+  uint16  IEEE8021xAuthenticationProtocol;
+  string  AccessPointAddress;
+  uint16  BSSType;
   boolean Associated;
 };
 ```
@@ -477,8 +482,8 @@ If the **ProtocolIFType** is set to "1" (Other), then the type information shoul
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -492,9 +497,9 @@ If the **ProtocolIFType** is set to "1" (Other), then the type information shoul
 [**CIM\_LANEndpoint**](cim-lanendpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

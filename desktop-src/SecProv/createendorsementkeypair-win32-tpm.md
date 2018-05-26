@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an 2048-bit endorsement key pair on the TPM.'
-ms.assetid: '393f0264-d1e9-4a08-bdaa-475b32d93e05'
-title: 'CreateEndorsementKeyPair method of the Win32\_Tpm class'
+---
+Description: Creates an 2048-bit endorsement key pair on the TPM.
+ms.assetid: 393f0264-d1e9-4a08-bdaa-475b32d93e05
+title: CreateEndorsementKeyPair method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateEndorsementKeyPair method of the Win32\_Tpm class

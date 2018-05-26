@@ -1,7 +1,12 @@
 ---
 title: dcl\_output oDepth (sm4 - asm)
 description: dcl\_output oDepth (sm4 - asm)
-ms.assetid: '7ee3026d-507f-4aa8-8335-d92c5f649f46'
+ms.assetid: 7ee3026d-507f-4aa8-8335-d92c5f649f46
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_output oDepth (sm4 - asm)

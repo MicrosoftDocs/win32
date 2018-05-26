@@ -1,8 +1,9 @@
 ---
 title: PlaylistCollectionPlaylistAdded Event of the AxWindowsMediaPlayer Object
 description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.
-ms.assetid: '13d3bc86-6655-4536-a58f-327eabb2b8f9'
-keywords: ["PlaylistCollectionPlaylistAdded Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 13d3bc86-6655-4536-a58f-327eabb2b8f9
+keywords:
+- PlaylistCollectionPlaylistAdded Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollectionPlaylistAdded Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Pla
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,9 +77,9 @@ The name of the playlist that was added can be used to retrieve the correspondin
 [**IWMPPlaylistCollection.getByName (VB and C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getbyname--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Manages the global server configuration for Web Application Proxy.'
+Description: Manages the global server configuration for Web Application Proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e600811d-9ab0-44a1-9025-a53448a41770'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e600811d-9ab0-44a1-9025-a53448a41770
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AppProxyGlobalConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AppProxyGlobalConfiguration class
@@ -61,7 +64,7 @@ Access type: Read-only
 
 Gets the AD FS signout url.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -76,7 +79,7 @@ Access type: Read-only
 
 Gets the ADFS token acceptance duration, in seconds.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -143,7 +146,7 @@ Access type: Read-only
 
 Gets the configuration version.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -184,7 +187,7 @@ Access type: Read-only
 
 Gets the user idle timeout action.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 <dt>
 
@@ -215,7 +218,7 @@ Access type: Read-only
 
 Gets the user idle timeout, in seconds.
 
-**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not available before Windows Server 2016.
 
 </dd> </dl>
 
@@ -226,7 +229,7 @@ Gets the user idle timeout, in seconds.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -240,9 +243,9 @@ Gets the user idle timeout, in seconds.
 [Application Proxy WMI Provider Reference](application-proxy-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

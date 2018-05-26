@@ -1,14 +1,19 @@
 ---
 title: What Happens During a Query
 description: This section describes how the network handles the query when a 32-bit client searches for a name in its own domain.
-ms.assetid: 'a8a88743-a245-4258-af05-9261c214ab50'
+ms.assetid: a8a88743-a245-4258-af05-9261c214ab50
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What Happens During a Query
 
 This section describes how the network handles the query when a 32-bit client searches for a name in its own domain.
 
-When your client application calls [**RpcNsBindingImportBegin**](rpcnsbindingimportbegin.md), the locator residing on your client computer will try to satisfy this request. If there is nothing in the cache, it will forward the request by RPC to a master locator. If the master locator finds nothing in its cache, it sends the request to all the computers in the domain using a mail-slot broadcast. If there is a match, the locator on each computer will respond by a directed mail slot. (For example, if a process on that computer has exported the interface.) The responses are collated and the RPC is completed from the client's process locator, which will reply to the client process itself.
+When your client application calls [**RpcNsBindingImportBegin**](/windows/win32/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina?branch=master), the locator residing on your client computer will try to satisfy this request. If there is nothing in the cache, it will forward the request by RPC to a master locator. If the master locator finds nothing in its cache, it sends the request to all the computers in the domain using a mail-slot broadcast. If there is a match, the locator on each computer will respond by a directed mail slot. (For example, if a process on that computer has exported the interface.) The responses are collated and the RPC is completed from the client's process locator, which will reply to the client process itself.
 
 In a domain, the client locator searches for a master locator in the following places:
 

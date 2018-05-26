@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WriteXML method translates a timeline to an XML string.'
-ms.assetid: '1039c6fc-b2ba-4052-90b6-b7468b94c071'
-title: 'IXml2Dex::WriteXML method'
+---
+Description: The WriteXML method translates a timeline to an XML string.
+ms.assetid: 1039c6fc-b2ba-4052-90b6-b7468b94c071
+title: IXml2DexWriteXML method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXml2Dex::WriteXML method

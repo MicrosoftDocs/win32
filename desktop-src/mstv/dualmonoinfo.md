@@ -1,8 +1,9 @@
 ---
 title: DualMonoInfo structure
 description: Specifies the languages for an MPEG-2 dual-mono audio stream.
-ms.assetid: 'dd3b702b-1017-4963-91ba-516a3bbb3b60'
-keywords: ["DualMonoInfo structure Microsoft TV Technologies"]
+ms.assetid: dd3b702b-1017-4963-91ba-516a3bbb3b60
+keywords:
+- DualMonoInfo structure Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DualMonoInfo structure
@@ -24,8 +30,8 @@ Specifies the languages for an MPEG-2 dual-mono audio stream.
 typedef struct _DualMonoInfo {
   LANGID LangID1;
   LANGID LangID2;
-  LONG   lISOLangCode1;
-  LONG   lISOLangCode2;
+  LONG   lISOLangCode1;
+  LONG   lISOLangCode2;
 } DualMonoInfo;
 ```
 
@@ -69,15 +75,15 @@ The ISO 639 language code for the second language.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Exclusive Element
 description: Indicates whether the Task scheduler must start the task during the Automatic maintenance in exclusive mode.
-ms.assetid: 'F690FD8F-BCCB-456D-92E3-25A262D6DCF1'
-keywords: ["Exclusive element Task Scheduler"]
+ms.assetid: F690FD8F-BCCB-456D-92E3-25A262D6DCF1
+keywords:
+- Exclusive element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Exclusive
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exclusive Element
@@ -39,7 +45,7 @@ The **Exclusive** element is defined by the [**maintenanceSettingsType**](tasksc
 
 ## Remarks
 
-For C++ programming, this idle setting is specified using the [**IMaintenanceSettings::Exclusive**](imaintenancesettings-exclusive.md) property.
+For C++ programming, this idle setting is specified using the [**IMaintenanceSettings::Exclusive**](/windows/win32/Taskschd/nf-taskschd-imaintenancesettings-get_exclusive?branch=master) property.
 
 ## Examples
 
@@ -62,8 +68,8 @@ The following XML defines maintenance task with deadline requirement set to 15 d
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/> |
 
 
 
@@ -77,9 +83,9 @@ The following XML defines maintenance task with deadline requirement set to 15 d
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
-﻿---
-Description: 'Contains input data for a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.'
-ms.assetid: '3a4dead8-fe23-41b4-a167-e0430d09248a'
-title: 'D3DAUTHENTICATEDCHANNEL\_QUERYCRYPTOSESSION\_INPUT structure'
+---
+Description: Contains input data for a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
+ms.assetid: 3a4dead8-fe23-41b4-a167-e0430d09248a
+title: D3DAUTHENTICATEDCHANNEL\_QUERYCRYPTOSESSION\_INPUT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCHANNEL\_QUERYCRYPTOSESSION\_INPUT structure
 
 Contains input data for a [**D3DAUTHENTICATEDQUERY\_CRYPTOSESSION**](d3dauthenticatedquery-cryptosession.md) query.
 
-To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md).
+To send this query, call [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master).
 
 ## Syntax
 
@@ -59,7 +64,7 @@ A handle to a DirectX Video Acceleration 2 (DXVA-2) decoder device.
 [Direct3D Video Structures](direct3d-video-structures.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md)
+[**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master)
 </dt> </dl>
 
  

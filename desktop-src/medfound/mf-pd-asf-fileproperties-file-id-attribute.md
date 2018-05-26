@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the file identifier of an Advanced Systems Format (ASF) file.'
-ms.assetid: '096c2e1a-7fd7-49ab-aa24-7d7c779d9e79'
-title: 'MF\_PD\_ASF\_FILEPROPERTIES\_FILE\_ID attribute'
+---
+Description: Specifies the file identifier of an Advanced Systems Format (ASF) file.
+ms.assetid: 096c2e1a-7fd7-49ab-aa24-7d7c779d9e79
+title: MF\_PD\_ASF\_FILEPROPERTIES\_FILE\_ID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_PD\_ASF\_FILEPROPERTIES\_FILE\_ID attribute
@@ -16,7 +21,7 @@ Specifies the file identifier of an Advanced Systems Format (ASF) file.
 
 This attribute applies to presentation descriptors for ASF content.
 
-The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-generatepresentationdescriptor.md) method generates this attribute from the ASF metadata.
+The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor?branch=master) method generates this attribute from the ASF metadata.
 
 ## Requirements
 
@@ -37,13 +42,13 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](imfasfcontentinfo-ge
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetGUID**](imfattributes-getguid.md)
+[**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetGUID**](imfattributes-setguid.md)
+[**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master)
 </dt> <dt>
 
-[**IMFPresentationDescriptor**](imfpresentationdescriptor.md)
+[**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master)
 </dt> <dt>
 
 [Presentation Descriptor Attributes](presentation-descriptor-attributes.md)

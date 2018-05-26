@@ -1,7 +1,12 @@
 ---
 title: Provide Appropriate Feedback
 description: Provide Appropriate Feedback
-ms.assetid: 'e89b5f08-645e-4048-a153-4f01de8e82f0'
+ms.assetid: e89b5f08-645e-4048-a153-4f01de8e82f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Provide Appropriate Feedback

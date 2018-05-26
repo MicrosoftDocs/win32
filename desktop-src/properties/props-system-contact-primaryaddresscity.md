@@ -1,7 +1,12 @@
 ---
-Description: 'Primary address city name of the contact.'
-ms.assetid: '366e05d3-1d74-4ba2-a2b6-e3779320f4b0'
-title: 'System.Contact.PrimaryAddressCity'
+Description: Primary address city name of the contact.
+ms.assetid: 366e05d3-1d74-4ba2-a2b6-e3779320f4b0
+title: System.Contact.PrimaryAddressCity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.PrimaryAddressCity

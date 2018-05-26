@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the EndHandler event.'
+---
+Description: The event type class for the EndHandler event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8e01c6a3-997d-4195-9df0-c072c333c257'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8e01c6a3-997d-4195-9df0-c072c333c257
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetEndHandler class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetEndHandler class

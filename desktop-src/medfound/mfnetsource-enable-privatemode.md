@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables private download mode in the network source.'
-ms.assetid: '679661A7-1D31-43F3-A64E-16ADCB5414B0'
-title: 'MFNETSOURCE\_ENABLE\_PRIVATEMODE property'
+---
+Description: Enables private download mode in the network source.
+ms.assetid: 679661A7-1D31-43F3-A64E-16ADCB5414B0
+title: MFNETSOURCE\_ENABLE\_PRIVATEMODE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_ENABLE\_PRIVATEMODE property

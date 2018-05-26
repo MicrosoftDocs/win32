@@ -1,8 +1,10 @@
 ---
 title: IVMParallelPort interface
 description: The IVMParallelPort interface defines a parallel port inside a virtual machine.
-ms.assetid: '01eab5ea-f537-44e7-9242-fa2c6ec8f959'
-keywords: ["IVMParallelPort interface Virtual Server", "IVMParallelPort interface Virtual Server , described"]
+ms.assetid: 01eab5ea-f537-44e7-9242-fa2c6ec8f959
+keywords:
+- IVMParallelPort interface Virtual Server
+- IVMParallelPort interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMParallelPort interface
@@ -36,7 +43,7 @@ The **IVMParallelPort** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,8 +51,8 @@ The **IVMParallelPort** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -57,9 +64,9 @@ The **IVMParallelPort** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

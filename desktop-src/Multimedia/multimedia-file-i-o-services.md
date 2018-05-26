@@ -1,8 +1,18 @@
 ---
 title: Multimedia File I/O Services
 description: Multimedia File I/O Services
-ms.assetid: '0d19cc6b-0c02-453a-95af-214eae4f8745'
-keywords: ["multimedia input,file I/O services", "multimedia file I/O,services", "file I/O,services", "input and output (I/O),services", "I/O (input and output),services"]
+ms.assetid: 0d19cc6b-0c02-453a-95af-214eae4f8745
+keywords:
+- multimedia input,file I/O services
+- multimedia file I/O,services
+- file I/O,services
+- input and output (I/O),services
+- I/O (input and output),services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia File I/O Services

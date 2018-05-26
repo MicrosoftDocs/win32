@@ -1,7 +1,12 @@
 ---
 title: Command Properties
 description: Command Properties
-ms.assetid: '05f20d75-283f-47c0-a780-c5f1eba6c324'
+ms.assetid: 05f20d75-283f-47c0-a780-c5f1eba6c324
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Properties
@@ -31,7 +36,7 @@ Force use of content (and not property) index only.
 
 For other properties, see [Extended OLE DB Properties](extended-ole-db-properties.md).
 
-Helper functions [**CICreateCommand**](cicreatecommand.md) and [**CIMakeICommand**](cimakeicommand.md) create [**Command**](c72d0308-7e30-4250-b85e-557b8c399a3c) objects and set their properties. The [Simple sample](simple-sample.md) (QSample) has additional examples of command property use.
+Helper functions [**CICreateCommand**](/windows/win32/Ntquery/nf-ntquery-cicreatecommand?branch=master) and [**CIMakeICommand**](/windows/win32/Ntquery/nf-ntquery-cimakeicommand?branch=master) create [**Command**](c72d0308-7e30-4250-b85e-557b8c399a3c) objects and set their properties. The [Simple sample](simple-sample.md) (QSample) has additional examples of command property use.
 
  
 

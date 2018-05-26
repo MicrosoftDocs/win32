@@ -1,8 +1,11 @@
 ---
 title: SetPartitionDeviceElement method of the BcdObject class
 description: Sets the specified partition device element.
-ms.assetid: '472e18d0-f521-4ca7-a70f-79aea3ffa06c'
-keywords: ["SetPartitionDeviceElement method Boot Config", "SetPartitionDeviceElement method Boot Config , BcdObject class", "BcdObject class Boot Config , SetPartitionDeviceElement method"]
+ms.assetid: 472e18d0-f521-4ca7-a70f-79aea3ffa06c
+keywords:
+- SetPartitionDeviceElement method Boot Config
+- SetPartitionDeviceElement method Boot Config , BcdObject class
+- BcdObject class Boot Config , SetPartitionDeviceElement method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetPartitionDeviceElement method of the BcdObject class
@@ -22,10 +30,10 @@ Sets the specified partition device element. To specify additional flags, use th
 
 ```mof
 boolean SetPartitionDeviceElement(
-  [in] uint32 Type,
-  [in] uint32 DeviceType,
-  [in] string AdditionalOptions,
-  [in] string Path
+  [in] uint32 Type,
+  [in] uint32 DeviceType,
+  [in] string AdditionalOptions,
+  [in] string Path
 );
 ```
 
@@ -67,7 +75,7 @@ The device type. This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -91,8 +99,8 @@ The partition path.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -108,9 +116,9 @@ The partition path.
 [**SetPartitionDeviceElementWithFlags**](setpartitiondeviceelementwithflags-bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

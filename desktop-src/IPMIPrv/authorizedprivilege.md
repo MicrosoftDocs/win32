@@ -4,13 +4,15 @@ description: Represents authorization information for an Account instance, which
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '285CAA6B-95E3-4DD9-BC68-1C6DCDE28B7A'
-ms.prod: 'windows-server-dev'
+ms.assetid: 285CAA6B-95E3-4DD9-BC68-1C6DCDE28B7A
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AuthorizedPrivilege class", "AuthorizedPrivilege class, described"]
+keywords:
+- AuthorizedPrivilege class
+- AuthorizedPrivilege class, described
 topic_type:
 - apiref
 api_name:
@@ -27,6 +29,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AuthorizedPrivilege class
@@ -41,14 +46,14 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("IPMIPrv"), AMENDMENT]
 class AuthorizedPrivilege : CIM_AuthorizedPrivilege
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean PrivilegeGranted = TRUE;
-  uint16  Activities[];
-  string  ActivityQualifiers[];
-  uint16  QualifierFormats[];
+  uint16  Activities[];
+  string  ActivityQualifiers[];
+  uint16  QualifierFormats[];
 };
 ```
 
@@ -138,14 +143,14 @@ This property is inherited from [**CIM\_Privilege**](cim-privilege.md).
 **DMTF Reserved**
 
 
-</dt> <dd>8–15999</dd> <dt>
+</dt> <dd>8 15999</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -394,8 +399,8 @@ If the authorization target is a compute system or service, then the **ActivityQ
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -412,9 +417,9 @@ If the authorization target is a compute system or service, then the **ActivityQ
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

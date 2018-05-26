@@ -1,7 +1,12 @@
 ---
 title: Shape Element (VML)
 description: Shape Element (VML)
-ms.assetid: 'bc0db691-f0f0-4a99-adbb-8a5f5cfd9c00'
+ms.assetid: bc0db691-f0f0-4a99-adbb-8a5f5cfd9c00
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shape Element (VML)

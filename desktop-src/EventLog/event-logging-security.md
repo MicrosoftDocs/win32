@@ -1,7 +1,12 @@
 ---
-Description: 'The Security log is designed for use by the system. However, users can read and clear the Security log if they have been granted the SE\_SECURITY\_NAME privilege (the &\#0034;manage auditing and security log&\#0034; user right). For more information, see Privileges.'
-ms.assetid: '861be39a-012e-473b-a2d3-2a8c7ba3adaa'
+Description: The Security log is designed for use by the system. However, users can read and clear the Security log if they have been granted the SE\_SECURITY\_NAME privilege (the &\#0034;manage auditing and security log&\#0034; user right). For more information, see Privileges.
+ms.assetid: 861be39a-012e-473b-a2d3-2a8c7ba3adaa
 title: Event Logging Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Logging Security
@@ -16,9 +21,9 @@ Access to the **Application** log, the **System** log, and custom logs is restri
 
 | Access right                 | Description                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
-| ELF\_LOGFILE\_CLEAR (0x0004) | Required by [**ClearEventLog**](cleareventlog.md).                                                    |
-| ELF\_LOGFILE\_READ (0x0001)  | Required by [**OpenBackupEventLog**](openbackupeventlog.md) and [**OpenEventLog**](openeventlog.md). |
-| ELF\_LOGFILE\_WRITE (0x0002) | Required by [**RegisterEventSource**](registereventsource.md).                                        |
+| ELF\_LOGFILE\_CLEAR (0x0004) | Required by [**ClearEventLog**](/windows/win32/Winbase/nf-winbase-cleareventloga?branch=master).                                                    |
+| ELF\_LOGFILE\_READ (0x0001)  | Required by [**OpenBackupEventLog**](/windows/win32/Winbase/nf-winbase-openbackupeventloga?branch=master) and [**OpenEventLog**](/windows/win32/Winbase/nf-winbase-openeventloga?branch=master). |
+| ELF\_LOGFILE\_WRITE (0x0002) | Required by [**RegisterEventSource**](/windows/win32/Winbase/nf-winbase-registereventsourcea?branch=master).                                        |
 
 
 

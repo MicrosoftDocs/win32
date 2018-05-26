@@ -1,7 +1,12 @@
 ---
 title: Predefined Shapes
 description: Predefined Shapes
-ms.assetid: '271D1ABB-DA0A-469E-BBC0-6DDA0DE9459D'
+ms.assetid: 271D1ABB-DA0A-469E-BBC0-6DDA0DE9459D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Predefined Shapes

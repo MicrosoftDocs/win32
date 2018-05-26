@@ -1,13 +1,19 @@
 ---
 title: Multimedia Playback
 description: Multimedia Playback
-ms.assetid: 'a06a11a0-5d4d-4b87-9c91-0fe687b08f8d'
-keywords: ["MCIWndCreate function"]
+ms.assetid: a06a11a0-5d4d-4b87-9c91-0fe687b08f8d
+keywords:
+- MCIWndCreate function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Playback
 
-The [**MCIWndCreate**](mciwndcreate.md) function provides the means for controlling an MCIWnd window and the device associated with it. In general, this function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. This section describes how to use **MCIWndCreate** to perform the following tasks:
+The [**MCIWndCreate**](/windows/win32/Vfw/nf-vfw-mciwndcreatea?branch=master) function provides the means for controlling an MCIWnd window and the device associated with it. In general, this function registers the MCIWnd window class and creates an MCIWnd window for using MCI services. This section describes how to use **MCIWndCreate** to perform the following tasks:
 
 -   [Adding User-Controlled Playback](adding-user-controlled-playback.md)
 -   [Automating Playback](automating-playback.md)

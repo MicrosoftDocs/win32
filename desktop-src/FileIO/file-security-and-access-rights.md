@@ -1,14 +1,19 @@
 ---
-Description: 'Because files are securable objects, access to them is regulated by the access-control model that governs access to all other securable objects in Windows.'
-ms.assetid: '991d7d94-fae7-406f-b2e3-dee811279366'
+Description: Because files are securable objects, access to them is regulated by the access-control model that governs access to all other securable objects in Windows.
+ms.assetid: 991d7d94-fae7-406f-b2e3-dee811279366
 title: File Security and Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Security and Access Rights
 
 Because files are [securable objects](https://msdn.microsoft.com/library/windows/desktop/aa379557), access to them is regulated by the access-control model that governs access to all other securable objects in Windows. For a detailed explanation of this model, see [Access Control](https://msdn.microsoft.com/library/windows/desktop/aa374860).
 
-You can specify a [security descriptor](https://msdn.microsoft.com/library/windows/desktop/aa379561) for a file or directory when you call the [**CreateFile**](createfile.md), [**CreateDirectory**](createdirectory.md), or [**CreateDirectoryEx**](createdirectoryex.md) function. If you specify **NULL** for the *lpSecurityAttributes* parameter, the file or directory gets a default security descriptor. The access control lists (ACL) in the default security descriptor for a file or directory are inherited from its parent directory. Note that a default security descriptor is assigned only when a file or directory is newly created, and not when it is renamed or moved.
+You can specify a [security descriptor](https://msdn.microsoft.com/library/windows/desktop/aa379561) for a file or directory when you call the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master), [**CreateDirectory**](/windows/win32/FileAPI/nf-fileapi-createdirectorya?branch=master), or [**CreateDirectoryEx**](/windows/win32/WinBase/nf-winbase-createdirectoryexa?branch=master) function. If you specify **NULL** for the *lpSecurityAttributes* parameter, the file or directory gets a default security descriptor. The access control lists (ACL) in the default security descriptor for a file or directory are inherited from its parent directory. Note that a default security descriptor is assigned only when a file or directory is newly created, and not when it is renamed or moved.
 
 To retrieve the security descriptor of a file or directory object, call the [**GetNamedSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa446645) or [**GetSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa446654) function. To change the security descriptor of a file or directory object, call the [**SetNamedSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa379579) or [**SetSecurityInfo**](https://msdn.microsoft.com/library/windows/desktop/aa379588) function.
 
@@ -76,7 +81,7 @@ Another means of managing access to storage objects is encryption. The implement
 
 In most cases, the ability to read and write the security settings of a file or directory object is restricted to kernel-mode processes. Clearly, you would not want any user process to be able to change the ownership or access restriction on your private file or directory. However, a backup application would not be able to complete its job of backing up your file if the access restrictions you have placed on your file or directory does not allow the application's user-mode process to read it. Backup applications must be able to override the security settings of file and directory objects to ensure a complete backup. Similarly, if a backup application attempts to write a backup copy of your file over the disk-resident copy, and you explicitly deny write privileges to the backup application process, the restore operation cannot complete. In this case also, the backup application must be able to override the access control settings of your file.
 
-The **SE\_BACKUP\_NAME** and **SE\_RESTORE\_NAME** access privileges were specifically created to provide this ability to backup applications. If these privileges have been granted and enabled in the access token of the backup application process, it can then call [**CreateFile**](createfile.md) to open your file or directory for backup, specifying the standard **READ\_CONTROL** access right as the value of the *dwDesiredAccess* parameter. However, to identify the calling process as a backup process, the call to **CreateFile** must include the **FILE\_FLAG\_BACKUP\_SEMANTICS** flag in the *dwFlagsAndAttributes* parameter. The full syntax of the function call is the following:
+The **SE\_BACKUP\_NAME** and **SE\_RESTORE\_NAME** access privileges were specifically created to provide this ability to backup applications. If these privileges have been granted and enabled in the access token of the backup application process, it can then call [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to open your file or directory for backup, specifying the standard **READ\_CONTROL** access right as the value of the *dwDesiredAccess* parameter. However, to identify the calling process as a backup process, the call to **CreateFile** must include the **FILE\_FLAG\_BACKUP\_SEMANTICS** flag in the *dwFlagsAndAttributes* parameter. The full syntax of the function call is the following:
 
 
 ```C++
@@ -91,7 +96,7 @@ HANDLE hFile = CreateFile( fileName,                   // lpFileName
 
 
 
-This will allow the backup application process to open your file and override the standard security checking. To restore your file, the backup application would use the following [**CreateFile**](createfile.md) call syntax when opening your file to be written.
+This will allow the backup application process to open your file and override the standard security checking. To restore your file, the backup application would use the following [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) call syntax when opening your file to be written.
 
 
 ```C++
@@ -108,9 +113,9 @@ HANDLE hFile = CreateFile( fileName,                   // lpFileName
 
 There are situations when a backup application must be able to change the access control settings of a file or directory. An example is when the access control settings of the disk-resident copy of a file or directory is different from the backup copy. This would happen if these settings were changed after the file or directory was backed up, or if it was corrupted.
 
-The **FILE\_FLAG\_BACKUP\_SEMANTICS** flag specified in the call to [**CreateFile**](createfile.md) gives the backup application process permission to read the access-control settings of the file or directory. With this permission, the backup application process can then call [**GetKernelObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa446641) and [**SetKernelObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379578) to read and than reset the access-control settings.
+The **FILE\_FLAG\_BACKUP\_SEMANTICS** flag specified in the call to [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) gives the backup application process permission to read the access-control settings of the file or directory. With this permission, the backup application process can then call [**GetKernelObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa446641) and [**SetKernelObjectSecurity**](https://msdn.microsoft.com/library/windows/desktop/aa379578) to read and than reset the access-control settings.
 
-If a backup application must have access to the system-level [access control settings](https://msdn.microsoft.com/library/windows/desktop/aa374872), the **ACCESS\_SYSTEM\_SECURITY** flag must be specified in the *dwDesiredAccess* parameter value passed to [**CreateFile**](createfile.md).
+If a backup application must have access to the system-level [access control settings](https://msdn.microsoft.com/library/windows/desktop/aa374872), the **ACCESS\_SYSTEM\_SECURITY** flag must be specified in the *dwDesiredAccess* parameter value passed to [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master).
 
 Backup applications call [**BackupRead**](https://msdn.microsoft.com/library/windows/desktop/aa362509) to read the files and directories specified for the restore operation, and [**BackupWrite**](https://msdn.microsoft.com/library/windows/desktop/aa362511) to write them.
 

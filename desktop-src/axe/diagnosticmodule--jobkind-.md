@@ -1,14 +1,20 @@
 ---
 title: DiagnosticModule (JobKind) element
 description: Indicates that the job is a diagnostic module.
-ms.assetid: 'D9D3C7CB-1941-47D0-AB74-7ED2321E9F55'
-keywords: ["DiagnosticModule (JobKind) element Access Execution Engine"]
+ms.assetid: D9D3C7CB-1941-47D0-AB74-7ED2321E9F55
+keywords:
+- DiagnosticModule (JobKind) element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - DiagnosticModule (JobKind)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiagnosticModule (JobKind) element

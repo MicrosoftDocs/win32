@@ -1,7 +1,12 @@
 ---
 Description: DMO Wrapper Filter
-ms.assetid: 'ffa6234d-9040-4838-8f51-0cf87df40a5c'
+ms.assetid: ffa6234d-9040-4838-8f51-0cf87df40a5c
 title: DMO Wrapper Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMO Wrapper Filter
@@ -12,11 +17,11 @@ The DMO Wrapper filter enables a DirectShow application to use a [DirectX Media 
 
 |                                          |                                                                                                                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter Interfaces                        | [**IBaseFilter**](ibasefilter.md), [**IDMOWrapperFilter**](idmowrapperfilter.md), [**IPersistStream**](https://msdn.microsoft.com/library/windows/desktop/ms690091)                                                                                                                       |
+| Filter Interfaces                        | [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), [**IDMOWrapperFilter**](/windows/win32/Dmodshow/nn-dmodshow-idmowrapperfilter?branch=master), [**IPersistStream**](https://msdn.microsoft.com/library/windows/desktop/ms690091)                                                                                                                       |
 | Input Pin Media Types                    | See Remarks                                                                                                                                                                                                                                        |
-| Input Pin Interfaces                     | [**IMemInputPin**](imeminputpin.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md)                                                                                                                                             |
+| Input Pin Interfaces                     | [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)                                                                                                                                             |
 | Output Pin Media Types                   | See Remarks                                                                                                                                                                                                                                        |
-| Output Pin Interfaces                    | [**IAMStreamConfig**](iamstreamconfig.md), [**IAMVideoCompression**](iamvideocompression.md), [**IMediaPosition**](imediaposition.md), [**IMediaSeeking**](imediaseeking.md), [**IPin**](ipin.md), [**IQualityControl**](iqualitycontrol.md) |
+| Output Pin Interfaces                    | [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master), [**IAMVideoCompression**](/windows/win32/Strmif/nn-strmif-iamvideocompression?branch=master), [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master), [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [**IQualityControl**](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master) |
 | Filter CLSID                             | CLSID\_DMOWrapperFilter                                                                                                                                                                                                                            |
 | Property Page CLSID                      | No property page                                                                                                                                                                                                                                   |
 | Executable                               | Qasf.dll                                                                                                                                                                                                                                           |
@@ -34,8 +39,8 @@ The DMO Wrapper filter enables a DirectShow application to use a [DirectX Media 
 The DMO Wrapper has the following limitations:
 
 -   It does not support DMOs with zero inputs, multiple inputs, or zero outputs. (It does support DMOs with one input and multiple outputs.)
--   It does not support custom transports. All data transport is done through the [**IMemInputPin**](imeminputpin.md) interface.
--   It does not use the **IMediaObjectInPlace** interface; all processing is done using [**IMediaObject**](imediaobject.md) methods.
+-   It does not support custom transports. All data transport is done through the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface.
+-   It does not use the **IMediaObjectInPlace** interface; all processing is done using [**IMediaObject**](/windows/win32/Mediaobj/nn-mediaobj-imediaobject?branch=master) methods.
 
 ### Pins
 
@@ -43,11 +48,11 @@ For each input stream on the DMO, the filter creates a corresponding input pin. 
 
 ### Encoder Interfaces
 
-If the DMO is a video encoder or an audio encoder, the output pin exposes the [**IAMStreamConfig**](iamstreamconfig.md) interface. If the DMO is a video encoder, the output pin also exposes the [**IAMVideoCompression**](iamvideocompression.md) interface. In both cases, if the DMO supports the interface, the pin delegates to the DMO. Otherwise, the pin provides its own implementation.
+If the DMO is a video encoder or an audio encoder, the output pin exposes the [**IAMStreamConfig**](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master) interface. If the DMO is a video encoder, the output pin also exposes the [**IAMVideoCompression**](/windows/win32/Strmif/nn-strmif-iamvideocompression?branch=master) interface. In both cases, if the DMO supports the interface, the pin delegates to the DMO. Otherwise, the pin provides its own implementation.
 
 ### Streaming
 
-The filter uses the [**IMemInputPin**](imeminputpin.md) interface to handle all streaming. It does not support [**IAsyncReader**](iasyncreader.md) connections. The filter calls [**IMediaObject::ProcessOutput**](imediaobject-processoutput.md) on the DMO only when it receives data from upstream (including end-of-stream notifications). Therefore, it does not support DMOs with zero input streams.
+The filter uses the [**IMemInputPin**](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master) interface to handle all streaming. It does not support [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) connections. The filter calls [**IMediaObject::ProcessOutput**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-processoutput?branch=master) on the DMO only when it receives data from upstream (including end-of-stream notifications). Therefore, it does not support DMOs with zero input streams.
 
 ### Seeking
 
@@ -63,9 +68,9 @@ The DMO Wrapper filter does not appear by itself in any category. When it wraps 
 
 ### Buffers
 
-The DMO Wrapper filter passes media buffers to the DMO which expose the [**IMediaBuffer**](imediabuffer.md) interface.
+The DMO Wrapper filter passes media buffers to the DMO which expose the [**IMediaBuffer**](/windows/win32/Mediaobj/nn-mediaobj-imediabuffer?branch=master) interface.
 
-In Windows Vista or later, the media buffers also expose the IServiceProvider interface. The DMO can use this interface to get a pointer to the media sample that is associated with the buffer. Use the service identifier **IID\_IMediaSample**. A video DMO can use the media sample's [**IMediaSample2**](imediasample2.md) interface to set interlace flags on the sample. The following code shows how to get the pointer to the media sample:
+In Windows Vista or later, the media buffers also expose the IServiceProvider interface. The DMO can use this interface to get a pointer to the media sample that is associated with the buffer. Use the service identifier **IID\_IMediaSample**. A video DMO can use the media sample's [**IMediaSample2**](/windows/win32/Strmif/nn-strmif-imediasample2?branch=master) interface to set interlace flags on the sample. The following code shows how to get the pointer to the media sample:
 
 
 ```C++
@@ -92,11 +97,11 @@ if (SUCCEEDED(hr))
 
 
 
-For more information about per-sample interlace flags, see [**AM\_SAMPLE2\_PROPERTIES Structure**](am-sample2-properties.md).
+For more information about per-sample interlace flags, see [**AM\_SAMPLE2\_PROPERTIES Structure**](/windows/win32/strmif/ns-strmif-tagam_sample2_properties?branch=master).
 
 ### Quality Control
 
-If the DMO exposes the [**IDMOQualityControl**](idmoqualitycontrol.md) interface, the filter translates [**IQualityControl::Notify**](iqualitycontrol-notify.md) calls on its output pin into [**IDMOQualityControl::SetNow**](idmoqualitycontrol-setnow.md) calls on the DMO. The *rtNow* parameter of **SetNow** is calculated as the sum of the **TimeStamp** and **Late** members of the [**Quality**](quality.md) structure.
+If the DMO exposes the [**IDMOQualityControl**](/windows/win32/Mediaobj/nn-mediaobj-idmoqualitycontrol?branch=master) interface, the filter translates [**IQualityControl::Notify**](/windows/win32/Strmif/nf-strmif-iqualitycontrol-notify?branch=master) calls on its output pin into [**IDMOQualityControl::SetNow**](/windows/win32/Mediaobj/nf-mediaobj-idmoqualitycontrol-setnow?branch=master) calls on the DMO. The *rtNow* parameter of **SetNow** is calculated as the sum of the **TimeStamp** and **Late** members of the [**Quality**](/windows/win32/strmif/ns-strmif-tagquality?branch=master) structure.
 
 ### Using the Fiter in GraphEdit
 

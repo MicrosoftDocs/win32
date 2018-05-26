@@ -1,7 +1,12 @@
 ---
-Description: 'This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user.'
-ms.assetid: '92e644be-df8b-415d-ac8e-c0c30c85f844'
+Description: This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user.
+ms.assetid: 92e644be-df8b-415d-ac8e-c0c30c85f844
 title: RenderSharedEventDriven
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RenderSharedEventDriven
@@ -88,8 +93,8 @@ If the application is run without arguments, it enumerates the available devices
 
 RenderSharedEventDriven demonstrates event-driven buffering. The sample shows how to:
 
--   Instantiate an audio client, configure it to run in exclusive mode, and enable event-driven buffering by setting the **AUDCLNT\_STREAMFLAGS\_EVENTCALLBACK** flag in the call to [**IAudioClient::Initialize**](iaudioclient-initialize.md).
--   Associate the client with the samples that are ready to be rendered by providing an event handle to the system by calling the [**IAudioClient::SetEventHandle**](iaudioclient-seteventhandle.md) method.
+-   Instantiate an audio client, configure it to run in exclusive mode, and enable event-driven buffering by setting the **AUDCLNT\_STREAMFLAGS\_EVENTCALLBACK** flag in the call to [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master).
+-   Associate the client with the samples that are ready to be rendered by providing an event handle to the system by calling the [**IAudioClient::SetEventHandle**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-seteventhandle?branch=master) method.
 -   Create a render thread to proces samples from the audio engine.
 -   Check the mix format of the device endpoint to determine whether the samples can be rendered. If the device does not support the mix format, the data is converted to PCM.
 -   Handle stream switching.

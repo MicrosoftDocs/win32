@@ -4,11 +4,14 @@ description: State of a network.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'abf1f90f-8044-40cf-b360-f80accb9cc58'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: abf1f90f-8044-40cf-b360-f80accb9cc58
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["State property Failover Cluster", "State property Failover Cluster , ClusNetwork object", "ClusNetwork object Failover Cluster , State property"]
+keywords:
+- State property Failover Cluster
+- State property Failover Cluster , ClusNetwork object
+- ClusNetwork object Failover Cluster , State property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNetwork.State property
@@ -38,7 +44,7 @@ ClusNetwork.State
 
 ## Property value
 
-**Long**that receives a constant representing the network's current state enumerated by the [**CLUSTER\_NETWORK\_STATE**](cluster-network-state.md) enumeration.
+**Long**that receives a constant representing the network's current state enumerated by the [**CLUSTER\_NETWORK\_STATE**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_network_state?branch=master) enumeration.
 
 <dt>
 
@@ -108,7 +114,7 @@ For information on making constants defined by the Cluster Automation Server typ
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -121,15 +127,15 @@ For information on making constants defined by the Cluster Automation Server typ
 
 <dl> <dt>
 
-[**GetClusterNetworkState**](getclusternetworkstate.md)
+[**GetClusterNetworkState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_network_state?branch=master)
 </dt> <dt>
 
 [**ClusNetwork**](clusnetwork-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

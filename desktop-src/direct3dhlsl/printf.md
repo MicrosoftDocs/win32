@@ -1,14 +1,20 @@
 ---
 title: printf function
 description: Submits a custom shader message to the information queue.
-ms.assetid: '0c6c15fc-1da5-4a26-ade0-5a0489e4f564'
-keywords: ["printf function HLSL"]
+ms.assetid: 0c6c15fc-1da5-4a26-ade0-5a0489e4f564
+keywords:
+- printf function HLSL
 topic_type:
 - apiref
 api_name:
 - printf
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # printf function

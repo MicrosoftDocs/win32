@@ -1,7 +1,12 @@
 ---
 title: Structured Storage Server Sample (StoServe)
 description: The Structured Storage Server Tutorial for StoServe provides complete information and code samples to build a model server process.
-ms.assetid: '0607c77a-32c0-4b5a-b58d-f5fe56a3f614'
+ms.assetid: 0607c77a-32c0-4b5a-b58d-f5fe56a3f614
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structured Storage Server Sample (StoServe)

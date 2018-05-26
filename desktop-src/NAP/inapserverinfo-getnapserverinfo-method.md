@@ -1,8 +1,11 @@
 ---
 title: INapServerInfo GetNapServerInfo method
 description: Retrieves information about the NAP server.
-ms.assetid: '02f7ce40-3443-4263-86b2-4276cbc7b694'
-keywords: ["GetNapServerInfo method NAP", "GetNapServerInfo method NAP , INapServerInfo interface", "INapServerInfo interface NAP , GetNapServerInfo method"]
+ms.assetid: 02f7ce40-3443-4263-86b2-4276cbc7b694
+keywords:
+- GetNapServerInfo method NAP
+- GetNapServerInfo method NAP , INapServerInfo interface
+- INapServerInfo interface NAP , GetNapServerInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qsvrmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapServerInfo::GetNapServerInfo method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapServerInfo::GetNapServerInfo** method retrieves information about the NAP server.
 
@@ -27,9 +35,9 @@ The **INapServerInfo::GetNapServerInfo** method retrieves information about the 
 
 ```C++
 HRESULT GetNapServerInfo(
-  [out] CountedString **serverName,
-  [out] CountedString **serverDescription,
-  [out] CountedString **protocolVersion
+  [out] CountedString **serverName,
+  [out] CountedString **serverDescription,
+  [out] CountedString **protocolVersion
 );
 ```
 
@@ -42,21 +50,21 @@ HRESULT GetNapServerInfo(
 *serverName* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) structure that contains the server name.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure that contains the server name.
 
 </dd> <dt>
 
 *serverDescription* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) structure that contains the server description.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure that contains the server description.
 
 </dd> <dt>
 
 *protocolVersion* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) structure that contains the protocol version.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure that contains the protocol version.
 
 </dd> </dl>
 
@@ -74,7 +82,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,7 +91,7 @@ Other COM-specific error codes also may be returned.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |
 | Header<br/>                   | <dl> <dt>NapServerManagement.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapServerManagement.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
@@ -97,12 +105,12 @@ Other COM-specific error codes also may be returned.
 [**INapServerInfo**](inapserverinfo.md)
 </dt> <dt>
 
-[**CountedString**](countedstring-struct.md)
+[**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

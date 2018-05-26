@@ -1,12 +1,17 @@
 ---
-Description: 'The CreateProcess function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.'
-ms.assetid: '4c3f76a3-e9f5-4d73-b5ef-eabfa9d6e4d4'
+Description: The CreateProcess function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.
+ms.assetid: 4c3f76a3-e9f5-4d73-b5ef-eabfa9d6e4d4
 title: Creating Processes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Processes
 
-The [**CreateProcess**](createprocess.md) function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.
+The [**CreateProcess**](/windows/win32/WinBase/nf-processthreadsapi-createprocessa?branch=master) function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.
 
 The following code demonstrates how to create a process.
 
@@ -59,9 +64,9 @@ void _tmain( int argc, TCHAR *argv[] )
 
 
 
-If [**CreateProcess**](createprocess.md) succeeds, it returns a [**PROCESS\_INFORMATION**](process-information-str.md) structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, although access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.
+If [**CreateProcess**](/windows/win32/WinBase/nf-processthreadsapi-createprocessa?branch=master) succeeds, it returns a [**PROCESS\_INFORMATION**](/windows/win32/WinBase/ns-processthreadsapi-_process_information?branch=master) structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, although access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using the [**CloseHandle**](https://msdn.microsoft.com/library/windows/desktop/ms724211) function.
 
-You can also create a process using the [**CreateProcessAsUser**](createprocessasuser.md) or [**CreateProcessWithLogonW**](createprocesswithlogonw.md) function. This allows you to specify the security context of the user account in which the process will execute.
+You can also create a process using the [**CreateProcessAsUser**](createprocessasuser.md) or [**CreateProcessWithLogonW**](/windows/win32/WinBase/nf-winbase-createprocesswithlogonw?branch=master) function. This allows you to specify the security context of the user account in which the process will execute.
 
  
 

@@ -2,13 +2,19 @@
 title: /no\_robust switch
 description: The /no\_robust switch directs the MIDL compiler to explicitly disable the /robust command line feature. The /robust command line switch and its associated features is the default compiler setting for MIDL version 6.0.359 and later.
 ms.assetid: 17ece05a-d39d-4465-8553-199a45c8c073
-keywords: ["/no_robust switch MIDL"]
+keywords:
+- /no_robust switch MIDL
 topic_type:
 - apiref
 api_name:
 - /no_robust
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /no\_robust switch

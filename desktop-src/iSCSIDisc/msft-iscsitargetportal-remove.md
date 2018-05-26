@@ -1,7 +1,12 @@
-﻿---
-Description: 'Removes an iSCSI target portal.'
-ms.assetid: '88E00681-6621-4411-BC43-080646DAAB01'
-title: 'Remove method of the MSFT\_iSCSITargetPortal class'
+---
+Description: Removes an iSCSI target portal.
+ms.assetid: 88E00681-6621-4411-BC43-080646DAAB01
+title: Remove method of the MSFT\_iSCSITargetPortal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remove method of the MSFT\_iSCSITargetPortal class

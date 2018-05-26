@@ -1,8 +1,37 @@
 ---
 title: DRM Import
 description: DRM Import
-ms.assetid: '5e67a721-830b-4d99-9f90-4cb2d7c61104'
-keywords: ["Windows Media Format SDK,DRM Client Extended APIs", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,Extended APIs", "Windows Media Format SDK,APIs", "Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,DRM import", "Windows Media Format SDK,import", "Windows Media Format SDK,content protection system (CPS)", "digital rights management (DRM),Client Extended APIs", "DRM (digital rights management),Client Extended APIs", "digital rights management (DRM),Extended APIs", "DRM (digital rights management),Extended APIs", "digital rights management (DRM),APIs", "DRM (digital rights management),APIs", "digital rights management (DRM),import", "DRM (digital rights management),import", "digital rights management (DRM),content protection system (CPS)", "DRM (digital rights management),content protection system (CPS)", "DRM Client Extended APIs,import", "Client Extended APIs,import", "DRM Client Extended APIs,content protection system (CPS)", "Client Extended APIs,content protection system (CPS)", "content protection system (CPS)", "CPS (content protection system)"]
+ms.assetid: 5e67a721-830b-4d99-9f90-4cb2d7c61104
+keywords:
+- Windows Media Format SDK,DRM Client Extended APIs
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,Extended APIs
+- Windows Media Format SDK,APIs
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,DRM import
+- Windows Media Format SDK,import
+- Windows Media Format SDK,content protection system (CPS)
+- digital rights management (DRM),Client Extended APIs
+- DRM (digital rights management),Client Extended APIs
+- digital rights management (DRM),Extended APIs
+- DRM (digital rights management),Extended APIs
+- digital rights management (DRM),APIs
+- DRM (digital rights management),APIs
+- digital rights management (DRM),import
+- DRM (digital rights management),import
+- digital rights management (DRM),content protection system (CPS)
+- DRM (digital rights management),content protection system (CPS)
+- DRM Client Extended APIs,import
+- Client Extended APIs,import
+- DRM Client Extended APIs,content protection system (CPS)
+- Client Extended APIs,content protection system (CPS)
+- content protection system (CPS)
+- CPS (content protection system)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM Import

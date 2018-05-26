@@ -1,6 +1,11 @@
-﻿---
-Description: 'Gets the user''s logon account name.'
-title: 'DIDiskQuotaUser.LogonName property'
+---
+Description: Gets the users logon account name.
+title: DIDiskQuotaUser.LogonName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.LogonName property

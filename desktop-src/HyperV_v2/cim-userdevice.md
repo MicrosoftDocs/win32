@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a logical device that allows a user to input, view or hear data on the computer system.'
-ms.assetid: '95f88a63-3a2a-4b8c-9849-564dac254933'
-title: 'CIM\_UserDevice class'
+Description: Represents a logical device that allows a user to input, view or hear data on the computer system.
+ms.assetid: 95f88a63-3a2a-4b8c-9849-564dac254933
+title: CIM\_UserDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_UserDevice class
@@ -49,8 +54,8 @@ Access type: Read-only
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -64,9 +69,9 @@ Access type: Read-only
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

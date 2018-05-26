@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service provides fax services to clients on a local area network. The Fax Service Client API allows developers to incorporate these services and enable basic fax functionality in their applications.'
-ms.assetid: '1d002a32-11d3-4c51-b08b-af481fb2e4a3'
+Description: The fax service provides fax services to clients on a local area network. The Fax Service Client API allows developers to incorporate these services and enable basic fax functionality in their applications.
+ms.assetid: 1d002a32-11d3-4c51-b08b-af481fb2e4a3
 title: About the Fax Service Client API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Fax Service Client API

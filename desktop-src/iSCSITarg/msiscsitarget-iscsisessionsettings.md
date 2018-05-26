@@ -4,13 +4,15 @@ description: Contains the default settings for an iSCSI Session. These propertie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60e787f5-e202-460e-ad5a-31cdf78ba6ea'
-ms.prod: 'windows-server-dev'
+ms.assetid: 60e787f5-e202-460e-ad5a-31cdf78ba6ea
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_iSCSISessionSettings class iSCSI Software Target API", "MSISCSITARGET_iSCSISessionSettings class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_iSCSISessionSettings class iSCSI Software Target API
+- MSISCSITARGET_iSCSISessionSettings class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_iSCSISessionSettings class
@@ -51,22 +56,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Version("1.0.0")]
 class MSISCSITARGET_iSCSISessionSettings : CIM_iSCSISessionSettings
 {
-  string  Caption;
-  string  Description;
-  string  InstanceID;
-  string  ElementName;
-  uint32  MaxConnectionsPerSession = 1;
+  string  Caption;
+  string  Description;
+  string  InstanceID;
+  string  ElementName;
+  uint32  MaxConnectionsPerSession = 1;
   boolean InitialR2TPreference = TRUE;
   boolean ImmediateDataPreference = TRUE;
-  uint32  MaxOutstandingR2T = 1;
-  uint32  MaxUnsolicitedFirstDataBurstLength = 65536;
-  uint32  MaxDataBurstLength = 262144;
+  uint32  MaxOutstandingR2T = 1;
+  uint32  MaxUnsolicitedFirstDataBurstLength = 65536;
+  uint32  MaxDataBurstLength = 262144;
   boolean DataSequenceInOrderPreference = TRUE;
   boolean DataPDUInOrderPreference = TRUE;
-  uint32  DefaultTimeToWaitPreference = 2;
-  uint32  DefaultTimeToRetainPreference = 20;
-  uint32  ErrorRecoveryLevelPreference = 0;
-  string  SystemName;
+  uint32  DefaultTimeToWaitPreference = 2;
+  uint32  DefaultTimeToRetainPreference = 20;
+  uint32  ErrorRecoveryLevelPreference = 0;
+  string  SystemName;
 };
 ```
 
@@ -379,7 +384,7 @@ Indicates the computer system name.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -402,9 +407,9 @@ Indicates the computer system name.
 [**CIM\_SettingData**](https://msdn.microsoft.com/library/cc136911)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

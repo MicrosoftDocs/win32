@@ -1,13 +1,16 @@
 ---
-Description: 'The following lists the qualifiers use to define View Provider classes.'
+Description: The following lists the qualifiers use to define View Provider classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '31a6af2d-33da-44f2-86d7-c467dd2f3e00'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 31a6af2d-33da-44f2-86d7-c467dd2f3e00
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Qualifiers Specific to the View Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Qualifiers Specific to the View Provider
@@ -17,7 +20,7 @@ The following lists the qualifiers use to define View Provider classes.
 > [!Note]  
 > The View provider class only supports NetBIOS names when using remote references. If you use an IP address or a DNS name in a remote reference, then the connection fails with a 0x800706ba error.
 
- 
+ 
 
 <dt>
 
@@ -166,14 +169,14 @@ Namespaces where the source instances are located.
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

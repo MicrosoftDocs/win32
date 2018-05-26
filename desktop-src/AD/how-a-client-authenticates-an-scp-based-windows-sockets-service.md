@@ -4,10 +4,13 @@ description: This topic shows the code that a client application uses to compose
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b5ef79c6-e321-435c-b3de-817fdea8836a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b5ef79c6-e321-435c-b3de-817fdea8836a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How a Client Authenticates an SCP-based Windows Sockets Service
@@ -56,7 +59,7 @@ if (!DoAuthentication (sockServer, szSpn)) {
 
 ## Client Code to Authenticate the Service
 
-This code example consists of two routines: **DoAuthentication** and **GenClientContext**. After calling [**DsMakeSpn**](dsmakespn.md) to compose an SPN for the service, the client passes the SPN to the **DoAuthentication** routine, which calls the **GenClientContext** to generate the initial buffer to send to the service. **DoAuthentication** uses the socket handle to send the buffer and receive the service's response passed to the SSPI package by another call to **GenClientContext**. This loop is repeated until the authentication fails or **GenClientContext** sets a flag that indicates the authentication succeeded.
+This code example consists of two routines: **DoAuthentication** and **GenClientContext**. After calling [**DsMakeSpn**](/windows/win32/Dsparse/nf-dsparse-dsmakespna?branch=master) to compose an SPN for the service, the client passes the SPN to the **DoAuthentication** routine, which calls the **GenClientContext** to generate the initial buffer to send to the service. **DoAuthentication** uses the socket handle to send the buffer and receive the service's response passed to the SSPI package by another call to **GenClientContext**. This loop is repeated until the authentication fails or **GenClientContext** sets a flag that indicates the authentication succeeded.
 
 The **GenClientContext** routine interacts with the SSPI package to generate the authentication data to send to the service and process the data received from the service. The key components of the authentication data provided by the client include:
 

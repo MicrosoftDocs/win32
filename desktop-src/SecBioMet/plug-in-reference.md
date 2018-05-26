@@ -1,8 +1,14 @@
 ---
 title: Plug-in Reference
 description: Adapter functions, wrapper functions, and structures for creating custom plug-in adapters of three types engine, sensor, and storage.
-ms.assetid: '1886c389-b914-4b2d-ab7e-3e163782673d'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , plug-in reference"]
+ms.assetid: 1886c389-b914-4b2d-ab7e-3e163782673d
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , plug-in reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Plug-in Reference
@@ -21,11 +27,11 @@ Biometric devices are manufactured in a wide variety of types and configurations
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Ready method signals that a state transition is complete.'
-ms.assetid: '01328281-cf25-43fd-9f9c-e55fccbac217'
-title: 'CBaseRenderer.Ready method'
+Description: The Ready method signals that a state transition is complete.
+ms.assetid: 01328281-cf25-43fd-9f9c-e55fccbac217
+title: CBaseRenderer.Ready method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.Ready method
@@ -53,9 +58,9 @@ This method causes the [**CBaseRenderer::GetState**](cbaserenderer-getstate.md) 
 [**CBaseRenderer::NotReady**](cbaserenderer-notready.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

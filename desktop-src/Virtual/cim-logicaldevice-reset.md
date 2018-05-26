@@ -1,8 +1,11 @@
 ---
 title: Reset method of the CIM\_LogicalDevice class
 description: Resets the logical device.
-ms.assetid: 'e2088474-a791-4dd5-9728-548c5be34c75'
-keywords: ["Reset method Hyper-V", "Reset method Hyper-V , CIM_LogicalDevice class", "CIM_LogicalDevice class Hyper-V , Reset method"]
+ms.assetid: e2088474-a791-4dd5-9728-548c5be34c75
+keywords:
+- Reset method Hyper-V
+- Reset method Hyper-V , CIM_LogicalDevice class
+- CIM_LogicalDevice class Hyper-V , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the CIM\_LogicalDevice class
@@ -88,9 +96,9 @@ The operation was not completed because an error occurred.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,18 @@ description: To access a network application or resource in a non-clustered envi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05994583-4847-4557-92e5-e748e2680b74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 05994583-4847-4557-92e5-e748e2680b74
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster objects Failover Cluster ,groups,virtual servers", "cluster objects Failover Cluster ,groups,failover cluster instances", "virtual servers Failover Cluster", "failover cluster instances Failover Cluster"]
+keywords:
+- cluster objects Failover Cluster ,groups,virtual servers
+- cluster objects Failover Cluster ,groups,failover cluster instances
+- virtual servers Failover Cluster
+- failover cluster instances Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Instances

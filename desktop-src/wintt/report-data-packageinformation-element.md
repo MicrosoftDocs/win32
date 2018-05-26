@@ -1,14 +1,20 @@
 ---
 title: Data (PackageInformation) Element
 description: Identifies a property of a troubleshooter in the package.
-ms.assetid: '3e7b9a98-01b9-4854-bae8-ef89fa52126d'
-keywords: ["Data element Windows Troubleshooting Toolkit"]
+ms.assetid: 3e7b9a98-01b9-4854-bae8-ef89fa52126d
+keywords:
+- Data element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Data
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data (PackageInformation) Element
@@ -33,8 +39,8 @@ The [**PackageInformation (Header)**](report-packageinformation-header-element.m
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -48,9 +54,9 @@ The [**PackageInformation (Header)**](report-packageinformation-header-element.m
 [**PackageInformation (Header)**](report-packageinformation-header-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

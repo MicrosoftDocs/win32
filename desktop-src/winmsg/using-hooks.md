@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'f0ca9e41-a9f7-435f-a601-f0959adcb514'
+ms.assetid: f0ca9e41-a9f7-435f-a601-f0959adcb514
 title: Using Hooks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Hooks

@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSGatewayResourceAuthorizationPolicy class
-description: Describes a Remote Desktop resource authorization policy (RD \ 160;RAP). An RD \ 160;RAP is used to decide whether a user is authorized to connect to a specified resource through Remote Desktop Gateway (RD Gateway).
+description: Describes a Remote Desktop resource authorization policy (RD \ 160;RAP). An RD \ 160;RAP is used to decide whether a user is authorized to connect to a specified resource through Remote Desktop Gateway (RD Gateway).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '284a868d-7856-4a25-ba7b-b4beba8ffffc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 284a868d-7856-4a25-ba7b-b4beba8ffffc
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services", "Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services , described"]
+keywords:
+- Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services
+- Win32_TSGatewayResourceAuthorizationPolicy class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -25,11 +27,14 @@ api_location:
 - AagWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSGatewayResourceAuthorizationPolicy class
 
-Describes a Remote Desktop resource authorization policy (RD RAP). An RD RAP is used to decide whether a user is authorized to connect to a specified resource through Remote Desktop Gateway (RD Gateway).
+Describes a Remote Desktop resource authorization policy (RD RAP). An RD RAP is used to decide whether a user is authorized to connect to a specified resource through Remote Desktop Gateway (RD Gateway).
 
 ## Syntax
 
@@ -37,14 +42,14 @@ Describes a Remote Desktop resource authorization policy (RD RAP). An RD RAP is 
 [dynamic, provider("AAGProvider"), AMENDMENT]
 class Win32_TSGatewayResourceAuthorizationPolicy
 {
-  string  Name;
-  string  Description;
+  string  Name;
+  string  Description;
   boolean Enabled;
-  string  ResourceGroupType;
-  string  ResourceGroupName;
-  string  UserGroupNames;
-  string  ProtocolNames;
-  string  PortNumbers;
+  string  ResourceGroupType;
+  string  ResourceGroupName;
+  string  UserGroupNames;
+  string  ProtocolNames;
+  string  PortNumbers;
 };
 ```
 
@@ -64,20 +69,20 @@ The **Win32\_TSGatewayResourceAuthorizationPolicy** class has these methods.
 | Method                                                                                          | Description                                                                                                         |
 |:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
 | [**AddUserGroupNames**](addusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md)       | Adds the specified user group names to the existing user groups in the **UserGroupNames** property.<br/>      |
-| [**Create**](create-win32-tsgatewayresourceauthorizationpolicy.md)                             | Creates an RD RAP.<br/>                                                                                       |
-| [**Delete**](delete-win32-tsgatewayresourceauthorizationpolicy.md)                             | Deletes the current RD RAP.<br/>                                                                              |
+| [**Create**](create-win32-tsgatewayresourceauthorizationpolicy.md)                             | Creates an RD RAP.<br/>                                                                                       |
+| [**Delete**](delete-win32-tsgatewayresourceauthorizationpolicy.md)                             | Deletes the current RD RAP.<br/>                                                                              |
 | [**RemoveUserGroupNames**](removeusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md) | Removes the specified user group names from the existing user groups in the **UserGroupNames** property.<br/> |
-| [**SetDescription**](setdescription-win32-tsgatewayresourceauthorizationpolicy.md)             | Sets the **Description** property for the RD RAP.<br/>                                                        |
-| [**SetEnabled**](setenabled-win32-tsgatewayresourceauthorizationpolicy.md)                     | Enables or disables the RD RAP by setting the **Enabled** property.<br/>                                      |
-| [**SetName**](setname-win32-tsgatewayresourceauthorizationpolicy.md)                           | Sets the **Name** property for the RD RAP.<br/>                                                               |
-| [**SetPortNumbers**](setportnumbers-win32-tsgatewayresourceauthorizationpolicy.md)             | Sets the **PortNumbers** property for the RD RAP.<br/>                                                        |
+| [**SetDescription**](setdescription-win32-tsgatewayresourceauthorizationpolicy.md)             | Sets the **Description** property for the RD RAP.<br/>                                                        |
+| [**SetEnabled**](setenabled-win32-tsgatewayresourceauthorizationpolicy.md)                     | Enables or disables the RD RAP by setting the **Enabled** property.<br/>                                      |
+| [**SetName**](setname-win32-tsgatewayresourceauthorizationpolicy.md)                           | Sets the **Name** property for the RD RAP.<br/>                                                               |
+| [**SetPortNumbers**](setportnumbers-win32-tsgatewayresourceauthorizationpolicy.md)             | Sets the **PortNumbers** property for the RD RAP.<br/>                                                        |
 | [**SetResourceGroup**](setresourcegroup-win32-tsgatewayresourceauthorizationpolicy.md)         | Sets the **ResourceGroupType** and **ResourceGroupName** properties.<br/>                                     |
-| [**SetUserGroupNames**](setusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md)       | Sets the **UserGroupNames** property for the RD RAP.<br/>                                                     |
-| [**Update**](update-win32-tsgatewayresourceauthorizationpolicy.md)                             | Updates the current RD RAP.<br/>                                                                              |
+| [**SetUserGroupNames**](setusergroupnames-win32-tsgatewayresourceauthorizationpolicy.md)       | Sets the **UserGroupNames** property for the RD RAP.<br/>                                                     |
+| [**Update**](update-win32-tsgatewayresourceauthorizationpolicy.md)                             | Updates the current RD RAP.<br/>                                                                              |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +99,7 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-Description of the RD RAP. This property is changed with the [**SetDescription**](setdescription-win32-tsgatewayresourceauthorizationpolicy.md) method.
+Description of the RD RAP. This property is changed with the [**SetDescription**](setdescription-win32-tsgatewayresourceauthorizationpolicy.md) method.
 
 </dd> <dt>
 
@@ -107,7 +112,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether this RD RAP is enabled. This property is changed with the [**SetEnabled**](setenabled-win32-tsgatewayresourceauthorizationpolicy.md) method.
+Indicates whether this RD RAP is enabled. This property is changed with the [**SetEnabled**](setenabled-win32-tsgatewayresourceauthorizationpolicy.md) method.
 
 </dd> <dt>
 
@@ -123,7 +128,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Name of the RD RAP. This property is changed with the [**SetName**](setname-win32-tsgatewayresourceauthorizationpolicy.md) method.
+Name of the RD RAP. This property is changed with the [**SetName**](setname-win32-tsgatewayresourceauthorizationpolicy.md) method.
 
 </dd> <dt>
 
@@ -228,7 +233,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -257,9 +262,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayServerSettings**](win32-tsgatewayserversettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

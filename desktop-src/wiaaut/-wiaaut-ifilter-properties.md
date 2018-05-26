@@ -1,8 +1,11 @@
 ---
 title: Filter.Properties property
 description: Retrieves a collection of all properties for this filter.
-ms.assetid: '8de2d88a-2bbc-4c8c-b1d0-0c0ea213637c'
-keywords: ["Properties property WIA Automation", "Properties property WIA Automation , Filter object", "Filter object WIA Automation , Properties property"]
+ms.assetid: 8de2d88a-2bbc-4c8c-b1d0-0c0ea213637c
+keywords:
+- Properties property WIA Automation
+- Properties property WIA Automation , Filter object
+- Filter object WIA Automation , Properties property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter.Properties property
@@ -43,8 +51,8 @@ For example code, see [Create an ImageProcess Object and Create one of Each Avai
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -75,9 +83,9 @@ For example code, see [Create an ImageProcess Object and Create one of Each Avai
 [**Properties**](-wiaaut-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

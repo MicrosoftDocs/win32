@@ -1,15 +1,18 @@
 ---
-Description: 'Adds a new provider address space to IPAM.'
+Description: Adds a new provider address space to IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e3f384fb-c852-4433-b52f-40ab4cde60b7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e3f384fb-c852-4433-b52f-40ab4cde60b7
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'AddProviderAddressSpace method of the MSFT\_IPAM\_AddressSpace class'
+title: AddProviderAddressSpace method of the MSFT\_IPAM\_AddressSpace class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddProviderAddressSpace method of the MSFT\_IPAM\_AddressSpace class
@@ -21,11 +24,11 @@ Adds a new provider address space to IPAM.
 
 ```mof
 uint32 AddProviderAddressSpace(
-  [in]  string                 Name,
-  [in]  string                 Owner,
-  [in]  string                 Description,
-  [in]  string                 CustomConfiguration,
-  [out] MSFT_IPAM_AddressSpace output
+  [in]  string                 Name,
+  [in]  string                 Owner,
+  [in]  string                 Description,
+  [in]  string                 CustomConfiguration,
+  [out] MSFT_IPAM_AddressSpace output
 );
 ```
 
@@ -81,7 +84,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -95,9 +98,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_AddressSpace**](msft-ipam-addressspace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: Using MCI Command Messages
 description: Using MCI Command Messages
-ms.assetid: '216af1d5-39e7-49ba-8673-41d78f89169e'
-keywords: ["MCI command messages,about", "MCI command messages,examples"]
+ms.assetid: 216af1d5-39e7-49ba-8673-41d78f89169e
+keywords:
+- MCI command messages,about
+- MCI command messages,examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using MCI Command Messages

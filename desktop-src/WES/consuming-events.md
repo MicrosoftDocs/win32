@@ -1,7 +1,12 @@
 ---
 title: Consuming Events
 description: You can consume events from channels or from log files.
-ms.assetid: '17204d3f-0875-42c5-9af4-caca6349a67d'
+ms.assetid: 17204d3f-0875-42c5-9af4-caca6349a67d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Consuming Events
@@ -34,7 +39,7 @@ XPath Query: *[System[(Level &amp;lt;= 3) and TimeCreated[timediff(@SystemTime) 
 
 
 
-You can use the XPath expressions directly when calling the [**EvtQuery**](evtquery.md) or [**EvtSubscribe**](evtsubscribe.md) functions or you can use a structured XML query that contains the XPath expression. For simple queries that query events from a single source, using an XPath expression is fine. If the XPath expression is a compound expression that contains more than 20 expressions or you are querying for events from multiple sources, then you must use a structured XML query. For details on the elements of a structured XML query, see [Query Schema](queryschema-schema.md).
+You can use the XPath expressions directly when calling the [**EvtQuery**](/windows/win32/WinEvt/nf-winevt-evtquery?branch=master) or [**EvtSubscribe**](/windows/win32/WinEvt/nf-winevt-evtsubscribe?branch=master) functions or you can use a structured XML query that contains the XPath expression. For simple queries that query events from a single source, using an XPath expression is fine. If the XPath expression is a compound expression that contains more than 20 expressions or you are querying for events from multiple sources, then you must use a structured XML query. For details on the elements of a structured XML query, see [Query Schema](queryschema-schema.md).
 
 A structured query identifies the source of the events and one or more selectors or suppressors. A selector contains an XPath expressions that selects events from the source and a suppressor contains an XPath expression that prevents events from being selected. You can select events from more than one source. If a selector and suppressor identify the same event, the event is not included in the result.
 

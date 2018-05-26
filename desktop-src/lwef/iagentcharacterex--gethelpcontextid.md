@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacterEx GetHelpContextID
 description: IAgentCharacterEx GetHelpContextID
-ms.assetid: '9dec5b0c-4758-4859-9aa6-6db3ef0d6b56'
+ms.assetid: 9dec5b0c-4758-4859-9aa6-6db3ef0d6b56
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacterEx::GetHelpContextID

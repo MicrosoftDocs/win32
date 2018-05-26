@@ -1,7 +1,12 @@
 ---
 title: Fragment Declaration Syntax (Direct3D 9 HLSL)
 description: Each Microsoft High Level Shader Language (HLSL) function can be converted into a shader fragment with the addition of a fragment declaration.
-ms.assetid: '34ceef8c-8fb9-4c73-86cc-014b7a2ee4d7'
+ms.assetid: 34ceef8c-8fb9-4c73-86cc-014b7a2ee4d7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fragment Declaration Syntax (Direct3D 9 HLSL)

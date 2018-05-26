@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_MFType class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents a Mail Forwarding Agent for Domain (MF) record.
-ms.assetid: '0ba0fddd-c316-4a5b-ad65-6344dbe949c1'
-keywords: ["MicrosoftDNS_MFType class DNS", "MicrosoftDNS_MFType class DNS , described"]
+ms.assetid: 0ba0fddd-c316-4a5b-ad65-6344dbe949c1
+keywords:
+- MicrosoftDNS_MFType class DNS
+- MicrosoftDNS_MFType class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_MFType class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_MFType** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ FQDN specifying a host with a mail agent that will accept mail for forwarding to
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ FQDN specifying a host with a mail agent that will accept mail for forwarding to
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

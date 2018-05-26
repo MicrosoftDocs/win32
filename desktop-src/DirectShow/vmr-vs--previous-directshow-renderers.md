@@ -1,7 +1,12 @@
 ---
-Description: 'VMR vs.'
-ms.assetid: '45b3f964-6ec7-48b8-a66e-3c9883e6d780'
-title: 'VMR vs. Previous DirectShow Renderers'
+Description: VMR vs.
+ms.assetid: 45b3f964-6ec7-48b8-a66e-3c9883e6d780
+title: VMR vs. Previous DirectShow Renderers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMR vs. Previous DirectShow Renderers

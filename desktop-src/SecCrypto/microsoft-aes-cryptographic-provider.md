@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Microsoft Enhanced RSA and AES Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, called the Base Provider.'
-ms.assetid: 'a01bc5db-17b9-44fe-adf8-0c2954fcd369'
+---
+Description: The Microsoft Enhanced RSA and AES Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, called the Base Provider.
+ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Microsoft AES Cryptographic Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft AES Cryptographic Provider
@@ -10,7 +15,7 @@ The Microsoft Enhanced RSA and AES Cryptographic Provider supports the same capa
 
 **Windows XP:** The Microsoft AES Cryptographic Provider was named Microsoft Enhanced RSA and AES Cryptographic Provider (Prototype).
 
-To maintain backward compatibility with earlier provider versions, the provider name, as defined in the Wincrypt.h header file, retains the version 1.0 designation even though newer versions of this provider have been shipped. To determine the version of the provider in use, call [**CryptGetProvParam**](cryptgetprovparam.md) with the *dwParam* parameter set to PP\_VERSION. Version 2.0 is in use if 0x0200 is returned.
+To maintain backward compatibility with earlier provider versions, the provider name, as defined in the Wincrypt.h header file, retains the version 1.0 designation even though newer versions of this provider have been shipped. To determine the version of the provider in use, call [**CryptGetProvParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptgetprovparam?branch=master) with the *dwParam* parameter set to PP\_VERSION. Version 2.0 is in use if 0x0200 is returned.
 
 |                |                             |
 |----------------|-----------------------------|

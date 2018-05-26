@@ -1,8 +1,9 @@
 ---
 title: MCI\_BREAK\_PARMS structure
 description: The MCI\_BREAK\_PARMS structure contains virtual-key code and window information for the MCI\_BREAK command.
-ms.assetid: 'c8df8c55-cc6b-4dd7-b275-784d3eb9dce1'
-keywords: ["MCI_BREAK_PARMS structure Windows Multimedia"]
+ms.assetid: c8df8c55-cc6b-4dd7-b275-784d3eb9dce1
+keywords:
+- MCI_BREAK_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_BREAK\_PARMS structure
@@ -23,8 +29,8 @@ The **MCI\_BREAK\_PARMS** structure contains virtual-key code and window informa
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  int       nVirtKey;
-  HWND      hwndBreak;
+  int       nVirtKey;
+  HWND      hwndBreak;
 } MCI_BREAK_PARMS;
 ```
 
@@ -57,7 +63,7 @@ Handle to the window that must be the current window for break detection.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members. The following flags are defined:
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members. The following flags are defined:
 
 MCI\_BREAK\_HWND
 
@@ -77,8 +83,8 @@ Disables any existing break key.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -96,12 +102,12 @@ Disables any existing break key.
 [**MCI\_BREAK**](mci-break.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

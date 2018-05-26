@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InboundRouting property creates a FaxInboundRouting configuration object. The object permits access to an inbound fax routing extension and its methods.'
-ms.assetid: 'd76849a0-4452-496d-b3cb-1bd63628c4be'
-title: 'FaxServer.InboundRouting property'
+---
+Description: The InboundRouting property creates a FaxInboundRouting configuration object. The object permits access to an inbound fax routing extension and its methods.
+ms.assetid: d76849a0-4452-496d-b3cb-1bd63628c4be
+title: FaxServer.InboundRouting property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.InboundRouting property
@@ -46,7 +51,7 @@ A [**FaxInboundRouting**](-mfax-faxinboundrouting.md) object.
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

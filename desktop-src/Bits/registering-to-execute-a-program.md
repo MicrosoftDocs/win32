@@ -1,8 +1,15 @@
 ---
 title: Registering to Execute a Program
-description: You can register to have BITS execute a program based on job transferred and error events, but not job modified events. BITS executes the program in the user's context.
-ms.assetid: 'f1996d08-0e35-403b-9cdb-dae9e1c42e05'
-keywords: ["event notification BITS , command line", "registering for command line notification BITS"]
+description: You can register to have BITS execute a program based on job transferred and error events, but not job modified events. BITS executes the program in the users context.
+ms.assetid: f1996d08-0e35-403b-9cdb-dae9e1c42e05
+keywords:
+- event notification BITS , command line
+- registering for command line notification BITS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering to Execute a Program
@@ -11,10 +18,10 @@ You can register to have BITS execute a program based on job transferred and err
 
 **To register to execute a program**
 
-1.  Call the **IBackgroundCopyJob::QueryInterface** method to retrieve an [**IBackgroundCopyJob2**](ibackgroundcopyjob2.md) interface pointer. Specify \_\_uuidof(IBackgroundCopyJob2) as the interface identifier.
-2.  Call the [**IBackgroundCopyJob2::SetNotifyCmdLine**](ibackgroundcopyjob2-setnotifycmdline.md) method to specify the program to execute and any arguments required by the program, such as the job identifier.
+1.  Call the **IBackgroundCopyJob::QueryInterface** method to retrieve an [**IBackgroundCopyJob2**](/windows/win32/Bits1_5/nn-bits1_5-ibackgroundcopyjob2?branch=master) interface pointer. Specify \_\_uuidof(IBackgroundCopyJob2) as the interface identifier.
+2.  Call the [**IBackgroundCopyJob2::SetNotifyCmdLine**](/windows/win32/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline?branch=master) method to specify the program to execute and any arguments required by the program, such as the job identifier.
 
-3.  Call the [**IBackgroundCopyJob::SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md) method to specify when the command line executes.
+3.  Call the [**IBackgroundCopyJob::SetNotifyFlags**](/windows/win32/Bits/nf-bits-ibackgroundcopyjob-setnotifyflags?branch=master) method to specify when the command line executes.
 
     You can only specify the BG\_NOTIFY\_JOB\_TRANSFERRED and BG\_NOTIFY\_JOB\_ERROR event flags. The BG\_NOTIFY\_JOB\_MODIFICATION flag is ignored.
 
@@ -22,7 +29,7 @@ Note that BITS will not execute the program if you also [registered to receive C
 
 BITS calls the [**CreateProcessAsUser**](https://msdn.microsoft.com/library/windows/desktop/ms682429) function to launch the program. If you specify a parameter string, the first parameter must be the program name.
 
-The following example shows how to register to execute a program when the job-transferred event occurs. The example assumes the [**IBackgroundCopyJob**](ibackgroundcopyjob.md) interface pointer is valid.
+The following example shows how to register to execute a program when the job-transferred event occurs. The example assumes the [**IBackgroundCopyJob**](/windows/win32/Bits/nn-bits-ibackgroundcopyjob?branch=master) interface pointer is valid.
 
 
 ```C++

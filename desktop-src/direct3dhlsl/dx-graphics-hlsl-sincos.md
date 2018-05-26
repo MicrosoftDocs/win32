@@ -1,14 +1,20 @@
 ---
 title: sincos
 description: Returns the sine and cosine of x.
-ms.assetid: '2ef9e84e-4539-47f5-9966-d8e02ca15d36'
-keywords: ["sincos HLSL"]
+ms.assetid: 2ef9e84e-4539-47f5-9966-d8e02ca15d36
+keywords:
+- sincos HLSL
 topic_type:
 - apiref
 api_name:
 - sincos
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sincos
@@ -22,7 +28,7 @@ Returns the sine and cosine of x.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -36,7 +42,7 @@ Returns the sine and cosine of x.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -54,7 +60,7 @@ None.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -69,7 +75,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -78,9 +84,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

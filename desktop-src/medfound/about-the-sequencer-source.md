@@ -1,7 +1,12 @@
 ---
 Description: About the Sequencer Source
-ms.assetid: '0d7ce9ca-9f34-4842-bd49-9211ae4454de'
+ms.assetid: 0d7ce9ca-9f34-4842-bd49-9211ae4454de
 title: About the Sequencer Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Sequencer Source

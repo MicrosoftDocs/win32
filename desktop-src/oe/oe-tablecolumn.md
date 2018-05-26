@@ -1,14 +1,21 @@
 ---
 title: TABLECOLUMN structure
 description: Do not use. This structure describes a database table column.
-ms.assetid: '0f8c07df-0f08-49ec-bb11-aa47e9e85c8a'
-keywords: ["TABLECOLUMN structure Windows Mail (formerly Outlook Express)", "LPTABLECOLUMN structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 0f8c07df-0f08-49ec-bb11-aa47e9e85c8a
+keywords:
+- TABLECOLUMN structure Windows Mail (formerly Outlook Express)
+- LPTABLECOLUMN structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
 - TABLECOLUMN
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TABLECOLUMN structure
@@ -20,10 +27,10 @@ Do not use. This structure describes a database table column.
 
 ```C++
 typedef struct tagTABLECOLUMN {
-  COLUMNORDINAL  iOrdinal;
+  COLUMNORDINAL  iOrdinal;
   COLUMNDATATYPE type;
-  DWORD          ofBinding;
-  DWORD          cbSize;
+  DWORD          ofBinding;
+  DWORD          cbSize;
 } TABLECOLUMN, *LPTABLECOLUMN;
 ```
 
@@ -83,15 +90,15 @@ Size of data storage for types CDT\_FIXSTRA, CDT\_FIXSTRW, and CDT\_FIXBLOB.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 | Product<br/>                  | Outlook Express 6.0<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

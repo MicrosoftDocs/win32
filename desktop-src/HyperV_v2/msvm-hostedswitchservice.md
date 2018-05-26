@@ -1,7 +1,12 @@
 ---
-Description: 'An association that connects a virtual switch service to a transparent bridging service.'
-ms.assetid: '4DFD73CA-38F0-4C06-BEBE-C684590E50E8'
-title: 'Msvm\_HostedSwitchService class'
+Description: An association that connects a virtual switch service to a transparent bridging service.
+ms.assetid: 4DFD73CA-38F0-4C06-BEBE-C684590E50E8
+title: Msvm\_HostedSwitchService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedSwitchService class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_HostedSwitchService : CIM_HostedService
 {
   Msvm_VirtualEthernetSwitch REF Antecedent;
-  CIM_Service                REF Dependent;
+  CIM_Service                REF Dependent;
 };
 ```
 
@@ -75,8 +80,8 @@ Access to the **Msvm\_HostedSwitchService** class might be restricted by UAC Fil
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ Access to the **Msvm\_HostedSwitchService** class might be restricted by UAC Fil
 [**CIM\_HostedService**](https://msdn.microsoft.com/library/aa387865)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

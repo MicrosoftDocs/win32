@@ -1,8 +1,11 @@
 ---
 title: IMessenger MyStatus property
-description: IMessenger MyStatus is no longer available for use as of Windows Vista.
-ms.assetid: 'fec2d899-1780-4bf8-9852-88fbab2ccf32'
-keywords: ["MyStatus property Windows Messenger", "MyStatus property Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , MyStatus property"]
+description: IMessenger MyStatus is no longer available for use as of Windows Vista.
+ms.assetid: fec2d899-1780-4bf8-9852-88fbab2ccf32
+keywords:
+- MyStatus property Windows Messenger
+- MyStatus property Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , MyStatus property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::MyStatus property
 
-\[**IMessenger::MyStatus** is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
+\[**IMessenger::MyStatus** is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
 
 Service status. Use [**MyStatus**](im-imessengerservice-mystatus.md) instead. To return a list of [**MessengerService**](im-messengerservice.md) objects, use the [**Services**](im-imessenger-services.md) property.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_MyStatus(
-  [in]          MISTATUS pmiStatus
+  [in]          MISTATUS pmiStatus
 );
 
 HRESULT get_MyStatus(
-  [out, retval] MISTATUS *pmiStatus
+  [out, retval] MISTATUS *pmiStatus
 );
 ```
 
@@ -62,7 +70,7 @@ When multiple clients are registered, **get\_MyStatus** returns the status of th
 > [!Note]  
 > The **get\_MyStatus** property is available for scripting languages; **put\_MyStatus** is not.
 
- 
+ 
 
 ## Requirements
 
@@ -70,10 +78,10 @@ When multiple clients are registered, **get\_MyStatus** returns the status of th
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -90,9 +98,9 @@ When multiple clients are registered, **get\_MyStatus** returns the status of th
 [**MyStatus**](im-imessengerservice-mystatus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following class extension properties.'
-ms.assetid: '9b8983ba-5824-495d-868f-fd22b98e1954'
+Description: Windows Portable Devices supports the following class extension properties.
+ms.assetid: 9b8983ba-5824-495d-868f-fd22b98e1954
 title: Class Extension Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Class Extension Properties
@@ -21,7 +26,7 @@ Windows Portable Devices supports the following class extension properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -40,9 +45,9 @@ Windows Portable Devices supports the following class extension properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

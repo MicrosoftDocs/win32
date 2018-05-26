@@ -1,8 +1,9 @@
 ---
 title: JobExecutionFlags enumeration
 description: Specifies whether jobs are executed synchronously or asynchronously.
-ms.assetid: '7793F06A-713B-4580-B72D-71A0A4582AE8'
-keywords: ["JobExecutionFlags enumeration Access Execution Engine"]
+ms.assetid: 7793F06A-713B-4580-B72D-71A0A4582AE8
+keywords:
+- JobExecutionFlags enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobExecutionFlags enumeration
@@ -22,8 +28,8 @@ Specifies whether jobs are executed synchronously or asynchronously.
 
 ```C++
 enum JobExecutionFlags {
-  None          = 0, 
-  ExecuteAsync  = 1 
+  None          = 0, 
+  ExecuteAsync  = 1 
 
 };
 ```
@@ -60,15 +66,15 @@ Managed code uses the [**JobExecutionFlags**](axe-jobexecutionflags_om) enum.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

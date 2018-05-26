@@ -4,11 +4,15 @@ description: This topic contains system error return values in functions of Acti
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '31dd29a0-b71e-4990-bdcf-dfd0ec0f09f7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 31dd29a0-b71e-4990-bdcf-dfd0ec0f09f7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Domain Services, System Errors"]
+keywords:
+- Active Directory Domain Services, System Errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # System Errors in Active Directory Domain Services
@@ -28,7 +32,7 @@ This topic contains system error return values in functions of Active Directory 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -49,9 +53,9 @@ This topic contains system error return values in functions of Active Directory 
 [Return Values for Functions in Active Directory Domain Services](return-values-for-functions-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

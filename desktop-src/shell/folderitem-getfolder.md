@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the item''s Folder object, if the item is a folder.'
-ms.assetid: '87afd0b6-245b-4550-9f21-aa0426ba8470'
-title: 'FolderItem.GetFolder property'
+---
+Description: Contains the items Folder object, if the item is a folder.
+ms.assetid: 87afd0b6-245b-4550-9f21-aa0426ba8470
+title: FolderItem.GetFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItem.GetFolder property

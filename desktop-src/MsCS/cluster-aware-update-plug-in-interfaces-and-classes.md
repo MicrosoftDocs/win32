@@ -4,10 +4,13 @@ description: Describes the WMI provider and APIs that you can use to create plug
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E79B3D64-CDBA-40C0-9BDA-F07FF2EC40A4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: E79B3D64-CDBA-40C0-9BDA-F07FF2EC40A4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster-Aware Updating Plug-in Reference

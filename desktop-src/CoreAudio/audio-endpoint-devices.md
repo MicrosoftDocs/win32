@@ -1,7 +1,12 @@
 ---
 Description: Audio Endpoint Devices
-ms.assetid: '773714fb-3b00-4f03-988f-05c5835f87cf'
+ms.assetid: 773714fb-3b00-4f03-988f-05c5835f87cf
 title: Audio Endpoint Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Endpoint Devices

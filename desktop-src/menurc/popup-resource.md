@@ -1,14 +1,20 @@
 ---
 title: POPUP resource
 description: Defines a menu item that can contain menu items and submenus.
-ms.assetid: 'afca21c7-605e-4354-b6ec-576b81389b69'
-keywords: ["POPUP resource Menus and Other Resources"]
+ms.assetid: afca21c7-605e-4354-b6ec-576b81389b69
+keywords:
+- POPUP resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - POPUP
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # POPUP resource

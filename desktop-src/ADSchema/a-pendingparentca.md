@@ -4,17 +4,22 @@ description: Reference to the certification authorities that issued the pending 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9cdac673-aecd-4a42-93f5-c869fa136186'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9cdac673-aecd-4a42-93f5-c869fa136186
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Pending-Parent-CA attribute AD Schema", "pendingParentCA attribute AD Schema"]
+keywords:
+- Pending-Parent-CA attribute AD Schema
+- pendingParentCA attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Pending-Parent-CA
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Pending-Parent-CA attribute
@@ -38,12 +43,12 @@ Reference to the certification authorities that issued the pending certificates 
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Reference to the certification authorities that issued the pending certificates 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

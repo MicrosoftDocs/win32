@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a specified operation on a specified file.'
-ms.assetid: '62E59A1C-51BD-4864-AF09-35FFD49FAB9D'
-title: 'Shell.ShellExecute method'
+---
+Description: Performs a specified operation on a specified file.
+ms.assetid: 62E59A1C-51BD-4864-AF09-35FFD49FAB9D
+title: Shell.ShellExecute method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.ShellExecute method

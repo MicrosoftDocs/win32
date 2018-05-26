@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMRCAdminPortNumber property
 description: The VMRCAdminPortNumber property contains the VMRC administration port number.
-ms.assetid: '00dcdd1c-13e8-4427-a180-be62037e2d4d'
-keywords: ["VMRCAdminPortNumber property Virtual Server", "VMRCAdminPortNumber property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMRCAdminPortNumber property", "VMRCAdminPortNumber property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VMRCAdminPortNumber property"]
+ms.assetid: 00dcdd1c-13e8-4427-a180-be62037e2d4d
+keywords:
+- VMRCAdminPortNumber property Virtual Server
+- VMRCAdminPortNumber property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMRCAdminPortNumber property
+- VMRCAdminPortNumber property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VMRCAdminPortNumber property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMRCAdminPortNumber property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VMRCAdminPortNumber(
-  [in]  long vmrcAdminPortNumber
+  [in]  long vmrcAdminPortNumber
 );
 
 HRESULT get_VMRCAdminPortNumber(
-  [out] long *vmrcAdminPortNumber
+  [out] long *vmrcAdminPortNumber
 );
 ```
 
@@ -97,8 +107,8 @@ Wscript.Echo "VMRC admin port number: " & objVS.VMRCAdminPortNumber
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -110,9 +120,9 @@ Wscript.Echo "VMRC admin port number: " & objVS.VMRCAdminPortNumber
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

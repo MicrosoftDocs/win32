@@ -4,16 +4,22 @@ description: Parses and modifies various elements of an ADsPath.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1f820488-2e75-4257-90c7-9ec67aac4fe4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1f820488-2e75-4257-90c7-9ec67aac4fe4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPathname Interface ADSI", "IADsPathname ADSI , using", "ADSI ADSI , example code C/C++ , using IADsPathname"]
+keywords:
+- IADsPathname Interface ADSI
+- IADsPathname ADSI , using
+- ADSI ADSI , example code C/C++ , using IADsPathname
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPathname Interface
 
-The [**IADsPathname**](iadspathname.md) interface parses and modifies various elements of an ADsPath. It also converts ADsPaths between various display formats.
+The [**IADsPathname**](/windows/win32/Iads/nn-iads-iadspathname?branch=master) interface parses and modifies various elements of an ADsPath. It also converts ADsPaths between various display formats.
 
 The following code example extracts and returns the server name from a valid ADsPath for display to the user in a maintenance utility.
 

@@ -1,8 +1,9 @@
 ---
 title: ChannelChangeInfo structure
 description: Contains information about a channel-change event in an MPEG-2 stream.
-ms.assetid: '61130e8e-7000-4f5a-b4c1-7ae22cfad473'
-keywords: ["ChannelChangeInfo structure Microsoft TV Technologies"]
+ms.assetid: 61130e8e-7000-4f5a-b4c1-7ae22cfad473
+keywords:
+- ChannelChangeInfo structure Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdamedia.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChannelChangeInfo structure
@@ -23,7 +29,7 @@ Contains information about a channel-change event in an MPEG-2 stream.
 ```C++
 typedef struct _ChannelChangeInfo {
   ChannelChangeSpanningEvent_State state;
-  ULONGLONG                        TimeStamp;
+  ULONGLONG                        TimeStamp;
 } ChannelChangeInfo;
 ```
 
@@ -53,15 +59,15 @@ The tick count from the system timer when the event occurred.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdamedia.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

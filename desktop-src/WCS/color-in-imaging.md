@@ -1,8 +1,18 @@
 ---
 title: Color In Imaging
 description: Color management is not a new topic.
-ms.assetid: '9559d1be-3452-4dda-a576-e80dfad21778'
-keywords: ["Windows Color System (WCS),color management concepts", "WCS (Windows Color System),color management concepts", "image color management,about", "color management,about", "colors,color management concepts"]
+ms.assetid: 9559d1be-3452-4dda-a576-e80dfad21778
+keywords:
+- Windows Color System (WCS),color management concepts
+- WCS (Windows Color System),color management concepts
+- image color management,about
+- color management,about
+- colors,color management concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color In Imaging

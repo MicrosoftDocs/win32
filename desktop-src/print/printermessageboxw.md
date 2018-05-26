@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07'
+---
+Description: .
+ms.assetid: F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07
 title: PrinterMessageBoxW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrinterMessageBoxW function

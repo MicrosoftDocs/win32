@@ -4,11 +4,13 @@ description: ODBC PerfMon Counters Configuration.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '34733618-5f7f-4eb2-b927-4f87a64cd270'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 34733618-5f7f-4eb2-b927-4f87a64cd270
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_OdbcPerfCounter class", "MSFT_OdbcPerfCounter class, described"]
+keywords:
+- MSFT_OdbcPerfCounter class
+- MSFT_OdbcPerfCounter class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_OdbcPerfCounter class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("1.0"), AMENDMENT]
 class MSFT_OdbcPerfCounter
 {
-  string  Platform;
+  string  Platform;
   boolean IsEnabled;
 };
 ```
@@ -85,8 +90,8 @@ The platform architecture of the ODBC Connection Pooling PerfMon counters. Eithe
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -100,9 +105,9 @@ The platform architecture of the ODBC Connection Pooling PerfMon counters. Eithe
 [WDAC WMI Provider Reference](wdac-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

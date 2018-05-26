@@ -1,8 +1,9 @@
 ---
 title: IWMPPlaylist.Item (VB and C\ )
 description: The Item property (the get\_Item method in C\ ) gets an interface to the media item at the specified index.
-ms.assetid: '874663e2-0b89-4ef7-9d4a-3a334482b352'
-keywords: ["IWMPPlaylist.Item (VB and C ) Windows Media Player"]
+ms.assetid: 874663e2-0b89-4ef7-9d4a-3a334482b352
+keywords:
+- IWMPPlaylist.Item (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist.Item (VB and C#)
@@ -136,9 +142,9 @@ End Sub</code></pre></td>
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

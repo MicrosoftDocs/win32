@@ -1,8 +1,9 @@
 ---
 title: HDM\_GETITEM message
 description: Gets information about an item in a header control. You can send this message explicitly or use the Header\_GetItem macro.
-ms.assetid: 'fb1330d3-fd28-490c-9caa-4b2b5ff86ba0'
-keywords: ["HDM_GETITEM message Windows Controls"]
+ms.assetid: fb1330d3-fd28-490c-9caa-4b2b5ff86ba0
+keywords:
+- HDM_GETITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_GETITEM message
 
-Gets information about an item in a header control. You can send this message explicitly or use the [**Header\_GetItem**](header-getitem.md) macro.
+Gets information about an item in a header control. You can send this message explicitly or use the [**Header\_GetItem**](/windows/win32/Commctrl/nf-commctrl-header_getitem?branch=master) macro.
 
 ## Parameters
 
@@ -33,7 +39,7 @@ The index of the item for which information is to be retrieved.
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**HDITEM**](hditem.md) structure. When the message is sent, the **mask** member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the **mask** member specifies zero, the message returns **TRUE** but copies no information to the structure.
+A pointer to an [**HDITEM**](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master) structure. When the message is sent, the **mask** member indicates the type of information being requested. When the message returns, the other members receive the requested information. If the **mask** member specifies zero, the message returns **TRUE** but copies no information to the structure.
 
 </dd> </dl>
 
@@ -43,7 +49,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Remarks
 
-If the HDI\_TEXT flag is set in the **mask** member of the [**HDITEM**](hditem.md) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
+If the HDI\_TEXT flag is set in the **mask** member of the [**HDITEM**](/windows/win32/Commctrl/ns-commctrl-_hd_itema?branch=master) structure, the control may change the **pszText** member of the structure to point to the new text instead of filling the buffer with the requested text. Applications should not assume that the text will always be placed in the requested buffer.
 
 ## Requirements
 
@@ -51,16 +57,16 @@ If the HDI\_TEXT flag is set in the **mask** member of the [**HDITEM**](hditem.m
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **HDM\_GETITEMW** (Unicode) and **HDM\_GETITEMA** (ANSI)<br/>                   |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

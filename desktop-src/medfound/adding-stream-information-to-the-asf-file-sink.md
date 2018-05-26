@@ -1,12 +1,17 @@
 ---
-Description: 'The ASF file sink is an implementation of IMFMediaSink provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see ASF Media Sinks.'
-ms.assetid: '21cbde27-a2ca-4298-9197-43bcaf05588d'
+Description: The ASF file sink is an implementation of IMFMediaSink provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks object model and general usage, see ASF Media Sinks.
+ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: Adding Stream Information to the ASF File Sink
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Stream Information to the ASF File Sink
 
-The ASF file sink is an implementation of [**IMFMediaSink**](imfmediasink.md) provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see [ASF Media Sinks](asf-media-sinks.md).
+The ASF file sink is an implementation of [**IMFMediaSink**](/windows/win32/mfidl/nn-mfidl-imfmediasink?branch=master) provided by Media Foundation that an application can use to archive ASF media data to a file. For information about ASF Media Sinks' object model and general usage, see [ASF Media Sinks](asf-media-sinks.md).
 
 After instantiating the file sink, it must be configured before building the topology. The file sink needs to know about the streams in the output file, the encoding mode information, and the metadata. This topic describes the process of adding stream in the file sink.
 
@@ -24,24 +29,24 @@ The following procedure summarizes the general steps for configuring stream by u
 
 **To configure stream information in the ASF file sink**
 
-1.  Create an ASF profile object by calling [**MFCreateASFProfile**](mfcreateasfprofile.md).
+1.  Create an ASF profile object by calling [**MFCreateASFProfile**](/windows/win32/wmcontainer/nf-wmcontainer-mfcreateasfprofile?branch=master).
 2.  For each stream in the output file, create a media type for the target stream to be added in the file sink. The media type must be compatible with the output types supported by the Windows Media encoders.
 
     For information about adding audio streams to the profile, see Creating Audio Streams for ASF Encoding.
 
     For information about adding video streams to the profile, see Creating Video Streams for ASF Encoding.
 
-3.  Create streams based on the media types created in step 2 by calling [**IMFASFProfile::CreateStream**](imfasfprofile-createstream.md).
-4.  Assign a stream number for the newly created stream by calling [**IMFASFStreamConfig**](imfasfstreamconfig.md) interface pointer received in step 3.
+3.  Create streams based on the media types created in step 2 by calling [**IMFASFProfile::CreateStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-createstream?branch=master).
+4.  Assign a stream number for the newly created stream by calling [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) interface pointer received in step 3.
 5.  Optionally configure the stream with the following information:
     -   Leaky bucket parameters by setting the attributes: [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET1**](mf-asfstreamconfig-leakybucket1-attribute.md) or [**MF\_ASFSTREAMCONFIG\_LEAKYBUCKET2**](mf-asfstreamconfig-leakybucket2-attribute.md)
-    -   Payload extension, mutual exclusion by calling [**IMFASFStreamConfig**](imfasfstreamconfig.md) methods.
-6.  Optionally set data packet size for the profile by setting [**MF\_ASFPROFILE\_MINPACKETSIZE**](mf-asfprofile-minpacketsize-attribute.md) and [**MF\_ASFPROFILE\_MAXPACKETSIZE**](mf-asfprofile-maxpacketsize-attribute.md) attributes. The ASF profile exposes the [**IMFAttributes**](imfattributes.md) interface, which an application can get reference to by calling **IMFASFProfile::QueryInterface**.
+    -   Payload extension, mutual exclusion by calling [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) methods.
+6.  Optionally set data packet size for the profile by setting [**MF\_ASFPROFILE\_MINPACKETSIZE**](mf-asfprofile-minpacketsize-attribute.md) and [**MF\_ASFPROFILE\_MAXPACKETSIZE**](mf-asfprofile-maxpacketsize-attribute.md) attributes. The ASF profile exposes the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface, which an application can get reference to by calling **IMFASFProfile::QueryInterface**.
 7.  Set encoding information for the stream in the file sink. Discussed in [Setting Properties in the File Sink](setting-properties-in-the-file-sink.md).
-8.  Add the stream to the profile by calling [**IMFASFProfile::SetStream**](imfasfprofile-setstream.md).
-9.  Associate the profile with the ContentInfo object by calling [**IMFASFContentInfo::SetProfile**](imfasfcontentinfo-setprofile.md).
+8.  Add the stream to the profile by calling [**IMFASFProfile::SetStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-setstream?branch=master).
+9.  Associate the profile with the ContentInfo object by calling [**IMFASFContentInfo::SetProfile**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfcontentinfo-setprofile?branch=master).
 
-To modify an existing stream, the application can get a reference to the stream's [**IMFASFStreamConfig**](imfasfstreamconfig.md) interface and reconfigure it according to the requirements. To add or remove streams, the application must call [**IMFASFProfile::RemoveStream**](imfasfprofile-removestream.md). To apply these changes, stream modifications or removal, you must set the profile again in the ContentInfo object. This overwrites the existing profile that is already associated with the ContentInfo object.
+To modify an existing stream, the application can get a reference to the stream's [**IMFASFStreamConfig**](/windows/win32/wmcontainer/nn-wmcontainer-imfasfstreamconfig?branch=master) interface and reconfigure it according to the requirements. To add or remove streams, the application must call [**IMFASFProfile::RemoveStream**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfprofile-removestream?branch=master). To apply these changes, stream modifications or removal, you must set the profile again in the ContentInfo object. This overwrites the existing profile that is already associated with the ContentInfo object.
 
 
 ```C++
@@ -117,18 +122,18 @@ done:
 
 ## Enumerating Stream Sinks
 
-For each stream in the profile that the ContentInfo object is aware of, the ASF file sink creates and adds a stream sink that contains all the properties of the encoded stream. The ASF file sink is designed to contain fixed streams. This means that you cannot add or remove streams by calling [**IMFMediaSink::AddStreamSink**](imfmediasink-addstreamsink.md) or [**IMFMediaSink::RemoveStreamSink**](imfmediasink-removestreamsink.md). These calls on the file sink fail with the MF\_E\_STREAMSINKS\_FIXED error code. Adding or removing streams in the profile does not automatically add or remove the stream sinks in the file sink. You must discard the existing instance of the file and recreate it with new stream information if your streams in the profile have changed.
+For each stream in the profile that the ContentInfo object is aware of, the ASF file sink creates and adds a stream sink that contains all the properties of the encoded stream. The ASF file sink is designed to contain fixed streams. This means that you cannot add or remove streams by calling [**IMFMediaSink::AddStreamSink**](/windows/win32/mfidl/nf-mfidl-imfmediasink-addstreamsink?branch=master) or [**IMFMediaSink::RemoveStreamSink**](/windows/win32/mfidl/nf-mfidl-imfmediasink-removestreamsink?branch=master). These calls on the file sink fail with the MF\_E\_STREAMSINKS\_FIXED error code. Adding or removing streams in the profile does not automatically add or remove the stream sinks in the file sink. You must discard the existing instance of the file and recreate it with new stream information if your streams in the profile have changed.
 
 The following procedure summarizes the general steps for enumerating stream sinks in the ASF file sink.
 
 **To enumerate stream sinks**
 
-1.  Call [**IMFMediaSink::GetStreamSinkCount**](imfmediasink-getstreamsinkcount.md) to get the total number of stream sinks in the ASF file sink.
-2.  Loop through the stream sinks ang get a reference to the stream sink's [**GetStreamSinkByIndex**](imfmediasink-getstreamsinkbyindex.md) interface.
+1.  Call [**IMFMediaSink::GetStreamSinkCount**](/windows/win32/mfidl/nf-mfidl-imfmediasink-getstreamsinkcount?branch=master) to get the total number of stream sinks in the ASF file sink.
+2.  Loop through the stream sinks ang get a reference to the stream sink's [**GetStreamSinkByIndex**](/windows/win32/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyindex?branch=master) interface.
 
     -or-
 
-    Call [**IMFMediaSink::GetStreamSinkById**](imfmediasink-getstreamsinkbyid.md) to get the stream sink by specifying the stream number. Each stream sink is identified with the stream number you set while creating the stream in the profile.
+    Call [**IMFMediaSink::GetStreamSinkById**](/windows/win32/mfidl/nf-mfidl-imfmediasink-getstreamsinkbyid?branch=master) to get the stream sink by specifying the stream number. Each stream sink is identified with the stream number you set while creating the stream in the profile.
 
 If you are building a partial topology for encoding a media file, you must add the file sink to the topology as an output topology node. You can do so either by specifying each steam sink in the file sink or by setting the file sink activation object and the stream sink identifiers. For more information and code example, see [Creating Output Nodes](creating-output-nodes.md).
 

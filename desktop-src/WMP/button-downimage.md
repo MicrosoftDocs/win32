@@ -1,14 +1,20 @@
 ---
 title: BUTTON.downImage
 description: The downImage attribute specifies or retrieves the image representing the down state of the BUTTON.
-ms.assetid: '18149668-5be6-4b64-8adf-8904585ff0be'
-keywords: ["BUTTON.downImage Windows Media Player"]
+ms.assetid: 18149668-5be6-4b64-8adf-8904585ff0be
+keywords:
+- BUTTON.downImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTON.downImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON.downImage
@@ -56,9 +62,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTON.image**](button-image.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

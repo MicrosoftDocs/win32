@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an ID3DXEffectCompiler from an ASCII effect description.'
-ms.assetid: '041e0a3f-3dc6-4cc3-8380-d4a79a3f647a'
+---
+Description: Creates an ID3DXEffectCompiler from an ASCII effect description.
+ms.assetid: 041e0a3f-3dc6-4cc3-8380-d4a79a3f647a
 title: D3DXCreateEffectCompilerFromResource function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateEffectCompilerFromResource function

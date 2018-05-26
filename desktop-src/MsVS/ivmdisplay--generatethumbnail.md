@@ -1,8 +1,11 @@
 ---
 title: IVMDisplay \_GenerateThumbnail method
-description: The \_GenerateThumbnail method returns an array of pixels representing a thumbnail image of the virtual machine's screen.
-ms.assetid: 'fc7a0c55-933c-4c14-92bf-dd1b600b526f'
-keywords: ["_GenerateThumbnail method Virtual Server", "_GenerateThumbnail method Virtual Server , IVMDisplay interface", "IVMDisplay interface Virtual Server , _GenerateThumbnail method"]
+description: The \_GenerateThumbnail method returns an array of pixels representing a thumbnail image of the virtual machines screen.
+ms.assetid: fc7a0c55-933c-4c14-92bf-dd1b600b526f
+keywords:
+- _GenerateThumbnail method Virtual Server
+- _GenerateThumbnail method Virtual Server , IVMDisplay interface
+- IVMDisplay interface Virtual Server , _GenerateThumbnail method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::\_GenerateThumbnail method
@@ -22,7 +30,7 @@ The **\_GenerateThumbnail** method returns an array of pixels representing a thu
 
 ```C++
 HRESULT _GenerateThumbnail(
-  [out] unsigned long thumbnailImage[3072]
+  [out] unsigned long thumbnailImage[3072]
 );
 ```
 
@@ -55,7 +63,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +75,8 @@ This interface returns the thumbnail more efficiently than the [**Thumbnail**](i
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -80,9 +88,9 @@ This interface returns the thumbnail more efficiently than the [**Thumbnail**](i
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

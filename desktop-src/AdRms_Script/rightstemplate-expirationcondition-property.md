@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves an ExpirationCondition object that can be used to specify when protected content expires and the interval at which use licenses must be renewed.'
+Description: Retrieves an ExpirationCondition object that can be used to specify when protected content expires and the interval at which use licenses must be renewed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'bec02d00-72b3-4646-afce-90995d1fdcf5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: bec02d00-72b3-4646-afce-90995d1fdcf5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplate.ExpirationCondition property'
+title: RightsTemplate.ExpirationCondition property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplate.ExpirationCondition property
@@ -121,7 +124,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -136,9 +139,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

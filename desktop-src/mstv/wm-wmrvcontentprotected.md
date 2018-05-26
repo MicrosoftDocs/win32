@@ -1,14 +1,20 @@
 ---
 title: WM/WMRVContentProtected
 description: Specifies whether a significant portion of a DVR-MS file is protected.
-ms.assetid: '184db355-9b8f-43d8-a586-30d4ebf23819'
-keywords: ["WM/WMRVContentProtected Microsoft TV Technologies"]
+ms.assetid: 184db355-9b8f-43d8-a586-30d4ebf23819
+keywords:
+- WM/WMRVContentProtected Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
 - WM/WMRVContentProtected
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMRVContentProtected

@@ -4,17 +4,22 @@ description: Contains the seniority index as applied by the organization where t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd2fae29b-fab0-48b4-a4df-9259e99eb952'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d2fae29b-fab0-48b4-a4df-9259e99eb952
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Seniority-Index attribute AD Schema", "msDS-SeniorityIndex attribute AD Schema"]
+keywords:
+- ms-DS-Seniority-Index attribute AD Schema
+- msDS-SeniorityIndex attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Seniority-Index
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Seniority-Index attribute
@@ -38,7 +43,7 @@ Contains the seniority index as applied by the organization where the person wor
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 
 ## Windows Server 2008
 
@@ -61,9 +66,9 @@ Contains the seniority index as applied by the organization where the person wor
 
 
 
- 
+ 
 
- 
+ 
 
 
 

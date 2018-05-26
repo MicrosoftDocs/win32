@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the number of elements in the vertex declaration.'
-ms.assetid: '3ce24e59-0ec3-4d53-8bc8-8a5a7cdf53b2'
+---
+Description: Returns the number of elements in the vertex declaration.
+ms.assetid: 3ce24e59-0ec3-4d53-8bc8-8a5a7cdf53b2
 title: D3DXGetDeclLength function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetDeclLength function

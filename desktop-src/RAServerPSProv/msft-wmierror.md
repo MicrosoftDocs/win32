@@ -2,13 +2,15 @@
 title: MSFT\_WmiError class
 description: A Windows error object that encapsulates what is in CIM\_Error as well as includes error code, errorCategory, errorMessage and errorType.
 audience: developer
-ms.assetid: '0e865679-bfd2-475c-a849-7e82500d8ec3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0e865679-bfd2-475c-a849-7e82500d8ec3
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiError class", "MSFT_WmiError class, described"]
+keywords:
+- MSFT_WmiError class
+- MSFT_WmiError class, described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiError class
@@ -372,7 +377,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>30–4294967295</dd> </dl>
+</dt> <dd>30 4294967295</dd> </dl>
 
 </dd> <dt>
 
@@ -515,7 +520,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>3–65535</dd> </dl>
+</dt> <dd>3 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -637,7 +642,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>11–65535</dd> </dl>
+</dt> <dd>11 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -840,7 +845,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>8–65535</dd> </dl>
+</dt> <dd>8 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1784,7 +1789,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 **DMTF Reserved**
 
 
-</dt> <dd>131–65535</dd> </dl>
+</dt> <dd>131 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1828,7 +1833,7 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
@@ -1842,9 +1847,9 @@ This property is inherited from [**CIM\_Error**](cim-error.md).
 [**CIM\_Error**](cim-error.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

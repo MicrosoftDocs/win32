@@ -2,13 +2,15 @@
 title: DnsServerCache class
 description: Represents the settings of a DNS server cache.
 audience: developer
-ms.assetid: 'cbe476ad-dfbc-4863-8808-3526a53d4540'
-ms.prod: 'windows-server-dev'
+ms.assetid: cbe476ad-dfbc-4863-8808-3526a53d4540
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerCache class", "DnsServerCache class, described"]
+keywords:
+- DnsServerCache class
+- DnsServerCache class, described
 topic_type:
 - apiref
 api_name:
@@ -33,6 +35,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerCache class
@@ -47,22 +52,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerCache : DnsServerZone
 {
-  string   DistinguishedName;
-  string   ZoneName;
-  string   ZoneType;
-  boolean  IsPaused;
-  boolean  IsDsIntegrated;
-  boolean  IsAutoCreated;
-  boolean  IsReverseLookupZone;
-  boolean  IsReadOnly;
-  boolean  IsShutdown;
+  string   DistinguishedName;
+  string   ZoneName;
+  string   ZoneType;
+  boolean  IsPaused;
+  boolean  IsDsIntegrated;
+  boolean  IsAutoCreated;
+  boolean  IsReverseLookupZone;
+  boolean  IsReadOnly;
+  boolean  IsShutdown;
   datetime MaxTtl;
   datetime MaxNegativeTtl;
-  uint32   MaxKBSize;
-  boolean  EnablePollutionProtection;
-  boolean  StoreEmptyAuthenticationResponse;
-  uint32   LockingPercent;
-  boolean  IgnorePolicies;
+  uint32   MaxKBSize;
+  boolean  EnablePollutionProtection;
+  boolean  StoreEmptyAuthenticationResponse;
+  uint32   LockingPercent;
+  boolean  IgnorePolicies;
 };
 ```
 
@@ -117,7 +122,7 @@ Access type: Read-only
 
 **True** to ignore the policies of the cache; otherwise, **false**.
 
-**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
+**Windows Server 2012 R2 and Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -350,7 +355,7 @@ This property is inherited from [**DnsServerZone**](dnsserverzone.md).
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -367,9 +372,9 @@ This property is inherited from [**DnsServerZone**](dnsserverzone.md).
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

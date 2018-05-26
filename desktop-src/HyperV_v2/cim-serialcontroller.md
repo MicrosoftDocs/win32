@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities and management of a serial controller.'
-ms.assetid: 'ce3e0424-4ab8-435d-a155-1164535b3b0d'
-title: 'CIM\_SerialController class'
+Description: Describes the capabilities and management of a serial controller.
+ms.assetid: ce3e0424-4ab8-435d-a155-1164535b3b0d
+title: CIM\_SerialController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SerialController class
@@ -205,8 +210,8 @@ The operational security for the controller.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -220,9 +225,9 @@ The operational security for the controller.
 [**CIM\_Controller**](cim-controller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

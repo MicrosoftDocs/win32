@@ -1,14 +1,20 @@
 ---
 title: ExecutionTimeLimit (triggerBaseType) Element
 description: Specifies the maximum amount of time in which the task can be started by the trigger.
-ms.assetid: 'f78e7c7b-d069-4920-9435-020f6e081eff'
-keywords: ["ExecutionTimeLimit element Task Scheduler"]
+ms.assetid: f78e7c7b-d069-4920-9435-020f6e081eff
+keywords:
+- ExecutionTimeLimit element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ExecutionTimeLimit
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExecutionTimeLimit (triggerBaseType) Element
@@ -43,7 +49,7 @@ The **ExecutionTimeLimit** element is defined by the [**triggerBaseType**](tasks
 
 For scripting development, the execution time limit is specified using the [**Trigger.ExecutionTimeLimit**](trigger-executiontimelimit.md) property that is inherited by the all trigger objects.
 
-For C++ development, the execution time limit is specified using the [**ITrigger::ExecutionTimeLimit**](itrigger-executiontimelimit.md) property that is inherited by the all trigger interfaces.
+For C++ development, the execution time limit is specified using the [**ITrigger::ExecutionTimeLimit**](/windows/win32/taskschd/nf-taskschd-itrigger-get_executiontimelimit?branch=master) property that is inherited by the all trigger interfaces.
 
 ## Requirements
 
@@ -51,8 +57,8 @@ For C++ development, the execution time limit is specified using the [**ITrigger
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ For C++ development, the execution time limit is specified using the [**ITrigger
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Selects a register NIC.'
-ms.assetid: '27814a40-6933-498b-a0d2-535698b1e402'
+Description: Selects a register NIC.
+ms.assetid: 27814a40-6933-498b-a0d2-535698b1e402
 title: GetNPPBlobFromUI function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNPPBlobFromUI function
@@ -13,9 +18,9 @@ The **GetNPPBlobFromUI** function selects a register NIC.
 
 ```C++
 DWORD GetNPPBlobFromUI(
-  _In_  HWND  hwnd,
-  _In_  HBLOB hFilterBlob,
-  _Out_ HBLOB *phBlob
+  _In_  HWND  hwnd,
+  _In_  HBLOB hFilterBlob,
+  _Out_ HBLOB *phBlob
 );
 ```
 
@@ -71,7 +76,7 @@ The caller must call the [DestroyBlob](destroyblob.md) function, which destroys 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -79,8 +84,8 @@ The caller must call the [DestroyBlob](destroyblob.md) function, which destroys 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -97,9 +102,9 @@ The caller must call the [DestroyBlob](destroyblob.md) function, which destroys 
 [SelectNPPBlobFromTable](selectnppblobfromtable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

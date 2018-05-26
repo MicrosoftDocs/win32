@@ -1,8 +1,10 @@
 ---
 title: Msvm\_TransparentBridgingService class
 description: Serves as a placeholder for the service inside the switch that learns MAC addresses and serves as a bridge between the Msvm\_VirtualSwitch and Msvm\_DynamicForwardingEntry classes.
-ms.assetid: '2b875b62-6b73-42a2-8b80-2a460a979458'
-keywords: ["Msvm_TransparentBridgingService class Hyper-V", "Msvm_TransparentBridgingService class Hyper-V , described"]
+ms.assetid: 2b875b62-6b73-42a2-8b80-2a460a979458
+keywords:
+- Msvm_TransparentBridgingService class Hyper-V
+- Msvm_TransparentBridgingService class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -43,6 +45,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_TransparentBridgingService class
@@ -57,35 +64,35 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_TransparentBridgingService : CIM_TransparentBridgingService
 {
-  string   Caption = "Microsoft Virtual Switch Transparent Bridging Service";
-  string   Description = "Microsoft Virtual Switch Transparent Bridging Service";
-  string   ElementName;
+  string   Caption = "Microsoft Virtual Switch Transparent Bridging Service";
+  string   Description = "Microsoft Virtual Switch Transparent Bridging Service";
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_TransparentBridgingService";
-  string   Name;
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode = "Automatic";
-  boolean  Started = True;
-  string   Keywords[];
-  string   ServiceURL;
-  string   StartupConditions[];
-  string   StartupParameters[];
-  uint16   ProtocolType = 15;
-  string   OtherProtocolType;
-  uint32   AgingTime = 300;
-  uint32   FID = 0;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_TransparentBridgingService";
+  string   Name;
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode = "Automatic";
+  boolean  Started = True;
+  string   Keywords[];
+  string   ServiceURL;
+  string   StartupConditions[];
+  string   StartupParameters[];
+  uint16   ProtocolType = 15;
+  string   OtherProtocolType;
+  uint32   AgingTime = 300;
+  uint32   FID = 0;
 };
 ```
 
@@ -110,7 +117,7 @@ The **Msvm\_TransparentBridgingService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -624,9 +631,9 @@ Access to the **Msvm\_TransparentBridgingService** class might be restricted by 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -645,9 +652,9 @@ Access to the **Msvm\_TransparentBridgingService** class might be restricted by 
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: INapEnforcementClientBinding ProcessSoHResponse method
 description: Is used by enforcement clients to process an SoHResponse whenever they receive an SoHResponse data blob from the enforcement server.
-ms.assetid: '6ff6d2c5-9ebe-4d8c-aa27-03147e2e1122'
-keywords: ["ProcessSoHResponse method NAP", "ProcessSoHResponse method NAP , INapEnforcementClientBinding interface", "INapEnforcementClientBinding interface NAP , ProcessSoHResponse method"]
+ms.assetid: 6ff6d2c5-9ebe-4d8c-aa27-03147e2e1122
+keywords:
+- ProcessSoHResponse method NAP
+- ProcessSoHResponse method NAP , INapEnforcementClientBinding interface
+- INapEnforcementClientBinding interface NAP , ProcessSoHResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapEnforcementClientBinding::ProcessSoHResponse method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapEnforcementClientBinding::ProcessSoHResponse** method is used by enforcement clients to process an SoHResponse whenever they receive an SoHResponse data blob from the enforcement server.
 
@@ -27,7 +35,7 @@ The **INapEnforcementClientBinding::ProcessSoHResponse** method is used by enfor
 
 ```C++
 HRESULT ProcessSoHResponse(
-  [in] INapEnforcementClientConnection *connection
+  [in] INapEnforcementClientConnection *connection
 );
 ```
 
@@ -64,7 +72,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +86,8 @@ The enforcement client must call the [**INapEnforcementClientBinding::Initialize
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapEnforcementClient.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapEnforcementClient.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -99,9 +107,9 @@ The enforcement client must call the [**INapEnforcementClientBinding::Initialize
 [**INapEnforcementClientConnection**](inapenforcementclientconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

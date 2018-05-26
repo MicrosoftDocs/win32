@@ -1,7 +1,12 @@
 ---
-Description: 'The following example implements the procedure described in Procedure for Signing Data.'
-ms.assetid: 'beaf3d67-de2b-4b30-812f-1659386a1bfc'
-title: 'Example C Program: Signing a Message and Verifying a Message Signature'
+Description: The following example implements the procedure described in Procedure for Signing Data.
+ms.assetid: beaf3d67-de2b-4b30-812f-1659386a1bfc
+title: Example C Program Signing a Message and Verifying a Message Signature
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Signing a Message and Verifying a Message Signature
@@ -12,15 +17,15 @@ This example also includes code to verify the message signature created. This co
 
 This example illustrates the following CryptoAPI functions:
 
--   [**CertOpenStore**](certopenstore.md)
--   [**CryptSignMessage**](cryptsignmessage.md)
--   [**CryptVerifyMessageSignature**](cryptverifymessagesignature.md)
--   [**CertFreeCertificateContext**](certfreecertificatecontext.md)
--   [**CertCloseStore**](certclosestore.md)
+-   [**CertOpenStore**](/windows/win32/Wincrypt/nf-wincrypt-certopenstore?branch=master)
+-   [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master)
+-   [**CryptVerifyMessageSignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptverifymessagesignature?branch=master)
+-   [**CertFreeCertificateContext**](/windows/win32/Wincrypt/nf-wincrypt-certfreecertificatecontext?branch=master)
+-   [**CertCloseStore**](/windows/win32/Wincrypt/nf-wincrypt-certclosestore?branch=master)
 
 Signing the message can only be done with access to a certificate that has an available [*private key*](security.p_gly#-security-private-key-gly). Verification of the message can only be done with access to the public key related to the private key used to sign the certificate. The user can change the **\#define** statement to the subject name from one of the user's personal certificates.
 
-This example also demonstrates the initialization of the CRYPT\_SIGN\_MESSAGE\_PARA and CRYPT\_VERIFY\_MESSAGE\_PARA structures needed for calls to [**CryptSignMessage**](cryptsignmessage.md) and [**CryptVerifyMessageSignature**](cryptverifymessagesignature.md).
+This example also demonstrates the initialization of the CRYPT\_SIGN\_MESSAGE\_PARA and CRYPT\_VERIFY\_MESSAGE\_PARA structures needed for calls to [**CryptSignMessage**](/windows/win32/Wincrypt/nf-wincrypt-cryptsignmessage?branch=master) and [**CryptVerifyMessageSignature**](/windows/win32/Wincrypt/nf-wincrypt-cryptverifymessagesignature?branch=master).
 
 This example also uses the function [**MyHandleError**](myhandleerror.md). Code for this function is included with the example program and also can be seen in [General Purpose Functions](general-purpose-functions.md).
 

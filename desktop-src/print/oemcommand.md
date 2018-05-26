@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMCommand function
-ms.assetid: '67f75696-dee4-43ec-90fd-96fd1a91ec16'
+ms.assetid: 67f75696-dee4-43ec-90fd-96fd1a91ec16
 title: OEMCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMCommand function

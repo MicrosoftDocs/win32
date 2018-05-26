@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylist moveItem method
 description: The moveItem method changes the location of a media item in the playlist.
-ms.assetid: 'e82c820f-4640-4289-88c1-79a92e520f00'
-keywords: ["moveItem method Windows Media Player", "moveItem method Windows Media Player , IWMPPlaylist interface", "IWMPPlaylist interface Windows Media Player , moveItem method"]
+ms.assetid: e82c820f-4640-4289-88c1-79a92e520f00
+keywords:
+- moveItem method Windows Media Player
+- moveItem method Windows Media Player , IWMPPlaylist interface
+- IWMPPlaylist interface Windows Media Player , moveItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylist::moveItem method
@@ -104,9 +112,9 @@ Before calling this method, you must have full access to the library. For more i
 [**IWMPSettings2.requestMediaAccessRights (VB and C#)**](wmplibiwmpsettings2-iwmpsettings2-requestmediaaccessrights--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

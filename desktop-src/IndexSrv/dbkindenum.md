@@ -1,19 +1,25 @@
 ---
 title: DBKINDENUM enumeration
 description: The DBKINDENUM enumerated type specifies the combination of GUID, property number, or property name to use to identify a database object.
-ms.assetid: '05e99f09-fa67-4ad2-9ce1-ace886710616'
-keywords: ["DBKINDENUM enumeration Indexing Service"]
+ms.assetid: 05e99f09-fa67-4ad2-9ce1-ace886710616
+keywords:
+- DBKINDENUM enumeration Indexing Service
 topic_type:
 - apiref
 api_name:
 - DBKINDENUM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBKINDENUM enumeration
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 The **DBKINDENUM** enumerated type specifies the combination of GUID, property number, or property name to use to identify a database object.
 
@@ -86,16 +92,16 @@ The OLE DB Provider for Indexing Service accepts only the DBKIND\_GUID\_NAME, DB
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
-| End of client support<br/>    | Windows 7<br/>                                       |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| End of client support<br/>    | Windows 7<br/>                                       |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                          |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

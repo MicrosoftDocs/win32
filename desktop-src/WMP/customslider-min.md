@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.min
 description: The min attribute specifies or retrieves the minimum value of the range defined by the custom slider.
-ms.assetid: 'a152cf9f-7383-47da-a9b2-dedd13749964'
-keywords: ["CUSTOMSLIDER.min Windows Media Player"]
+ms.assetid: a152cf9f-7383-47da-a9b2-dedd13749964
+keywords:
+- CUSTOMSLIDER.min Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.min
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.min
@@ -51,9 +57,9 @@ See the [positionImage](customslider-positionimage.md) attribute for a sample il
 [**CUSTOMSLIDER.max**](customslider-max.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

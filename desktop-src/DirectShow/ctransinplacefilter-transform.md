@@ -1,7 +1,12 @@
 ---
-Description: 'The Transform method transforms a sample in place.'
-ms.assetid: '2268041b-70d4-48a9-9bb8-4ab921cce649'
-title: 'CTransInPlaceFilter.Transform method'
+Description: The Transform method transforms a sample in place.
+ms.assetid: 2268041b-70d4-48a9-9bb8-4ab921cce649
+title: CTransInPlaceFilter.Transform method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.Transform method
@@ -13,7 +18,7 @@ The `Transform` method transforms a sample in place.
 
 ```C++
 virtual HRESULT Transform(
-   IMediaSample *pSample
+   IMediaSample *pSample
 ) = 0;
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT Transform(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -43,7 +48,7 @@ Returns an **HRESULT** value. Possible values include those shown in the followi
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +74,9 @@ If the filter should not deliver this sample (for example, to support quality co
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

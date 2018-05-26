@@ -1,12 +1,17 @@
 ---
-Description: 'You can determine how many colors a device supports and what those colors are by retrieving the count of colors for the device and enumerating the colors of the solid pens.'
-ms.assetid: 'cbaa3732-e55e-42af-93de-390450d38fc9'
+Description: You can determine how many colors a device supports and what those colors are by retrieving the count of colors for the device and enumerating the colors of the solid pens.
+ms.assetid: cbaa3732-e55e-42af-93de-390450d38fc9
 title: Enumerating Colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Colors
 
-You can determine how many colors a device supports and what those colors are by retrieving the count of colors for the device and enumerating the colors of the solid pens. To retrieve the number of colors, use the [**GetDeviceCaps**](getdevicecaps.md) function with the NUMCOLORS value. To enumerate solid pens, use the [**EnumObjects**](enumobjects.md) function and a corresponding callback function that receives information about each pen.
+You can determine how many colors a device supports and what those colors are by retrieving the count of colors for the device and enumerating the colors of the solid pens. To retrieve the number of colors, use the [**GetDeviceCaps**](/windows/win32/Wingdi/nf-wingdi-getdevicecaps?branch=master) function with the NUMCOLORS value. To enumerate solid pens, use the [**EnumObjects**](/windows/win32/Wingdi/nf-wingdi-enumobjects?branch=master) function and a corresponding callback function that receives information about each pen.
 
 
 ```C++

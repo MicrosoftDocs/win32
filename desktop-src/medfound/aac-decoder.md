@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Media Foundation AAC decoder is a Media Foundation Transform that decodes the following Advanced Audio Coding (AAC) and High Efficiency AAC (HE-AAC) profiles:'
-ms.assetid: '036fb0ee-8165-41a3-b41a-2e9bf035a6a6'
+Description: The Microsoft Media Foundation AAC decoder is a Media Foundation Transform that decodes the following Advanced Audio Coding (AAC) and High Efficiency AAC (HE-AAC) profiles
+ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: AAC Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AAC Decoder
@@ -14,7 +19,7 @@ The Microsoft Media Foundation AAC decoder is a [Media Foundation Transform](med
 
 The AAC decoder supports both raw AAC streams with no headers and AAC in an audio data transport stream (ADTS).
 
-Starting in Windows 8, the AAC decoder also supports decoding MPEG-4 audio transport streams with a multiplex layer (LATM) and synchronization layer (LOAS). It can also convert an LATM/LOAS stream to ADTS.
+Starting in Windows 8, the AAC decoder also supports decoding MPEG-4 audio transport streams with a multiplex layer (LATM) and synchronization layer (LOAS). It can also convert an LATM/LOAS stream to ADTS.
 
 ## Media Types
 
@@ -33,7 +38,7 @@ The AAC decoder supports the following audio subtypes:
 
 
 
- 
+ 
 
 To configure the AAC decoder, set the following attributes on the input media type.
 
@@ -114,7 +119,7 @@ The length of the AudioSpecificConfig() data is 2 bytes for AAC-LC or HE-AAC wit
 
 
 
- 
+ 
 
 ### Output Types
 
@@ -144,10 +149,10 @@ The decoder supports the following output types:
 </tr>
 <tr class="odd">
 <td><strong>MFAudioFormat_AAC</strong></td>
-<td>Requires Windows 8. <br/> This output type can be used to convert an AAC stream in the LOAS/LATM format to ADTS format. <br/> To convert an LOAS/LATM stream to an ADTS stream, set the input type to <strong>MFAudioFormat_AAC</strong> with payload type 3 (LOAS). Then set the output type to <strong>MFAudioFormat_AAC</strong> with payload type 1 (ADTS). The decoder will reformat the conainter without decoding the bitstream. <br/>
+<td>Requires Windows 8. <br/> This output type can be used to convert an AAC stream in the LOAS/LATM format to ADTS format. <br/> To convert an LOAS/LATM stream to an ADTS stream, set the input type to <strong>MFAudioFormat_AAC</strong> with payload type 3 (LOAS). Then set the output type to <strong>MFAudioFormat_AAC</strong> with payload type 1 (ADTS). The decoder will reformat the conainter without decoding the bitstream. <br/>
 <blockquote>
 [!Note]<br />
-The decoder does not register <strong>MFAudioFormat_AAC</strong> as an output type. However, if the application sets the input type as described, the [<strong>IMFTransform::GetOutputAvailableType</strong>](imftransform-getoutputavailabletype.md) method returns <strong>MFAudioFormat_AAC</strong> in the list of available output types.
+The decoder does not register <strong>MFAudioFormat_AAC</strong> as an output type. However, if the application sets the input type as described, the [<strong>IMFTransform::GetOutputAvailableType</strong>](/windows/win32/mftransform/nf-mftransform-imftransform-getoutputavailabletype?branch=master) method returns <strong>MFAudioFormat_AAC</strong> in the list of available output types.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -156,7 +161,7 @@ The decoder does not register <strong>MFAudioFormat_AAC</strong> as an output ty
 
 
 
- 
+ 
 
 If the input stream contains more than two channels, the AAC decoder provides two options for the output format:
 
@@ -204,11 +209,11 @@ For more information about these syntactic elements, refer to ISO/IEC 13818-7.
 
 
 
- 
+ 
 
 For raw AAC, each input sample must contain exactly one full AAC compressed frame.
 
-For ADTS, each input sample can contain multiple audio frames, as well as partial frames — that is, frames can span sample boundaries. Each ADTS header must be followed by one AAC frame.
+For ADTS, each input sample can contain multiple audio frames, as well as partial frames   that is, frames can span sample boundaries. Each ADTS header must be followed by one AAC frame.
 
 The AAC decoder does not support any of the following:
 
@@ -220,7 +225,7 @@ The AAC decoder does not support any of the following:
 
 ## Transform Attributes
 
-The AAC decoder implements the [**IMFTransform::GetAttributes**](imftransform-getattributes.md) method. Applications can use this method to get or set the following attributes.
+The AAC decoder implements the [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master) method. Applications can use this method to get or set the following attributes.
 
 
 
@@ -251,14 +256,14 @@ The AAC decoder implements the [**IMFTransform::GetAttributes**](imftransform-ge
 [!Note]<br />
 The AAC decoder incorrectly reports a value of <strong>TRUE</strong> for this attribute.
 </blockquote>
-<br/> <br/> In Windows 7, the decoder incorrectly reports a value of <strong>TRUE</strong> for this attribute. In Windows 8, the decoder reports <strong>FALSE</strong>, which is the correct value<br/></td>
+<br/> <br/> In Windows 7, the decoder incorrectly reports a value of <strong>TRUE</strong> for this attribute. In Windows 8, the decoder reports <strong>FALSE</strong>, which is the correct value<br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Example Media Types
 
@@ -278,7 +283,7 @@ Here is an example of the input media type needed for a 6-channel, 48-kHz AAC-LC
 
 
 
- 
+ 
 
 The first 12 bytes of [**MF\_MT\_USER\_DATA**](mf-mt-user-data-attribute.md) correspond to the following [**HEAACWAVEINFO**](https://msdn.microsoft.com/library/windows/desktop/dd757806) structure members:
 
@@ -312,9 +317,9 @@ Given this input type, use the following output media type to get 6-channel, 32-
 
 
 
- 
+ 
 
-If Platform Update Supplement for Windows Vista is installed, the AAC audio decoder is available on Windows Vista, but is accessible on Windows Vista only by using the [Source Reader](source-reader.md).
+If Platform Update Supplement for Windows Vista is installed, the AAC audio decoder is available on Windows Vista, but is accessible on Windows Vista only by using the [Source Reader](source-reader.md).
 
 ## Requirements
 
@@ -322,9 +327,9 @@ If Platform Update Supplement for Windows Vista is installed, the AAC audio deco
 
 |                                     |                                                                                                                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                                                                                                     |
-| DLL<br/>                      | <dl> <dt>Msmpeg2adec.dll on Windows 7; </dt> <dt>MSAudDecMFT.dll on Windows 8</dt> </dl> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                                                                                                     |
+| DLL<br/>                      | <dl> <dt>Msmpeg2adec.dll on Windows 7; </dt> <dt>MSAudDecMFT.dll on Windows 8</dt> </dl> |
 
 
 
@@ -350,9 +355,9 @@ If Platform Update Supplement for Windows Vista is installed, the AAC audio deco
 [Supported Media Formats in Media Foundation](supported-media-formats-in-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

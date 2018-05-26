@@ -1,7 +1,12 @@
 ---
 title: BDA MPEG-2 Transport Information Filter
 description: BDA MPEG-2 Transport Information Filter
-ms.assetid: '22044a4c-480f-4c98-a78e-52c66a5eac99'
+ms.assetid: 22044a4c-480f-4c98-a78e-52c66a5eac99
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA MPEG-2 Transport Information Filter
@@ -20,7 +25,7 @@ This filter also provides COM interfaces that enable a Guide Store loader applic
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IBaseFilter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd389526), <strong>IConnectionPointContainer</strong>, [<strong>IGuideData</strong>](iguidedata.md), [<strong>IPSITables</strong>](ipsitables.md), [<strong>ITuneRequestInfo</strong>](itunerequestinfo.md)</td>
+<td>[<strong>IBaseFilter</strong>](https://msdn.microsoft.com/library/windows/desktop/dd389526), <strong>IConnectionPointContainer</strong>, [<strong>IGuideData</strong>](/windows/previous-versions/Bdatif/nn-bdatif-iguidedata?branch=master), [<strong>IPSITables</strong>](/windows/win32/mpeg2psiparser/nn-mpeg2psiparser-ipsitables?branch=master), [<strong>ITuneRequestInfo</strong>](/windows/previous-versions/Bdatif/nn-bdatif-itunerequestinfo?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -61,13 +66,13 @@ Format type: None<br/></td>
 
 
 
- 
+ 
 
 ## Remarks
 
-Currently, the [**IGuideData**](iguidedata.md) interface is available only for DVB broadcasts. For other types, the filter returns E\_NOINTERFACE when queried for the interface.
+Currently, the [**IGuideData**](/windows/previous-versions/Bdatif/nn-bdatif-iguidedata?branch=master) interface is available only for DVB broadcasts. For other types, the filter returns E\_NOINTERFACE when queried for the interface.
 
-This filter supports event notifications through the [**IGuideDataEvent**](iguidedataevent.md) connection point interface. To set up the event sink, use the **IConnectionPointContainer** interface on the filter.
+This filter supports event notifications through the [**IGuideDataEvent**](/windows/previous-versions/Bdatif/nn-bdatif-iguidedataevent?branch=master) connection point interface. To set up the event sink, use the **IConnectionPointContainer** interface on the filter.
 
 ## Related topics
 
@@ -79,9 +84,9 @@ This filter supports event notifications through the [**IGuideDataEvent**](iguid
 [Microsoft TV Technologies](microsoft-tv-technologies-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

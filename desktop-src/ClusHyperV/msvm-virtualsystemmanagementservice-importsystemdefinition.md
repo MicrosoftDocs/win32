@@ -4,13 +4,16 @@ description: Creates a new planned virtual system based on a virtual system defi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9eeb3fc5-767e-4d02-9e23-cf5bdc658fba'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9eeb3fc5-767e-4d02-9e23-cf5bdc658fba
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ImportSystemDefinition method", "ImportSystemDefinition method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, ImportSystemDefinition method"]
+keywords:
+- ImportSystemDefinition method
+- ImportSystemDefinition method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, ImportSystemDefinition method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ImportSystemDefinition method of the Msvm\_VirtualSystemManagementService class
@@ -32,11 +38,11 @@ When this method is run, the files of the virtual system definition must not be 
 
 ```mof
 uint32 ImportSystemDefinition(
-  [in]  string                         SystemDefinitionFile,
-  [in]  string                         SnapshotFolder,
-  [in]  boolean                        GenerateNewSystemIdentifier,
-  [out] Msvm_PlannedComputerSystem REF ImportedSystem,
-  [out] CIM_ConcreteJob            REF Job
+  [in]  string                         SystemDefinitionFile,
+  [in]  string                         SnapshotFolder,
+  [in]  boolean                        GenerateNewSystemIdentifier,
+  [out] Msvm_PlannedComputerSystem REF ImportedSystem,
+  [out] CIM_ConcreteJob            REF Job
 );
 ```
 
@@ -136,7 +142,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -150,9 +156,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

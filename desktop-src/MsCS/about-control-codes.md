@@ -4,11 +4,15 @@ description: The Failover Cluster API uses control codes to define cluster opera
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b8ab57bd-f83e-46c2-9c9c-02107c3881bf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b8ab57bd-f83e-46c2-9c9c-02107c3881bf
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster"]
+keywords:
+- control codes Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Control Codes

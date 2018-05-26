@@ -1,8 +1,10 @@
 ---
 title: IDWriteNumberSubstitution interface
 description: Holds the appropriate digits and numeric punctuation for a specified locale.
-ms.assetid: 'bf8caeea-6ede-4cd3-84f7-2e8314af50db'
-keywords: ["IDWriteNumberSubstitution interface Direct Write", "IDWriteNumberSubstitution interface Direct Write , described"]
+ms.assetid: bf8caeea-6ede-4cd3-84f7-2e8314af50db
+keywords:
+- IDWriteNumberSubstitution interface Direct Write
+- IDWriteNumberSubstitution interface Direct Write , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteNumberSubstitution interface
@@ -32,9 +39,9 @@ The **IDWriteNumberSubstitution** interface inherits from the [**IUnknown**](htt
 
 
 
- 
+ 
 
- 
+ 
 
 
 

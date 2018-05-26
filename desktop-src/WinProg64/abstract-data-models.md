@@ -1,8 +1,14 @@
 ---
 title: Abstract Data Models
 description: Every application and every operating system has an abstract data model.
-ms.assetid: 'c670d92b-e64d-4d4c-a30c-cd4fb4f2d0b9'
-keywords: ["abstract data models 64-bit Windows Programming"]
+ms.assetid: c670d92b-e64d-4d4c-a30c-cd4fb4f2d0b9
+keywords:
+- abstract data models 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Abstract Data Models

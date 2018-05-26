@@ -1,14 +1,20 @@
 ---
 title: TabGroup element
 description: Represents a contextual set of Tab controls.
-ms.assetid: 'f131efe1-b8c4-416e-997a-5e2d3bcc03ea'
-keywords: ["TabGroup element Windows Ribbon"]
+ms.assetid: f131efe1-b8c4-416e-997a-5e2d3bcc03ea
+keywords:
+- TabGroup element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - TabGroup
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TabGroup element
@@ -152,7 +158,7 @@ This section of code shows corresponding **TabGroup** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -167,9 +173,9 @@ This section of code shows corresponding **TabGroup** control declarations.
 [Tab control](windowsribbon-controls-tab.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

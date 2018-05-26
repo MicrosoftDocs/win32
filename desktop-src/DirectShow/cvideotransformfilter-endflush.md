@@ -1,7 +1,12 @@
 ---
-Description: 'The EndFlush method ends a flush operation. This method overrides the CTransformFilter::EndFlush method.'
-ms.assetid: 'e7dfc6f9-1630-426b-95b2-9814331b5e61'
-title: 'CVideoTransformFilter.EndFlush method'
+Description: The EndFlush method ends a flush operation. This method overrides the CTransformFilterEndFlush method.
+ms.assetid: e7dfc6f9-1630-426b-95b2-9814331b5e61
+title: CVideoTransformFilter.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter.EndFlush method
@@ -47,9 +52,9 @@ This method resets all of the filter's internal performance measurements.
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

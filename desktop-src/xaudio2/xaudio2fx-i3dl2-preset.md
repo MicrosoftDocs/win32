@@ -1,12 +1,17 @@
-﻿---
-Description: 'I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) preset identifiers for initializing the XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS structure for use in the ReverbConvertI3DL2ToNative function.'
-ms.assetid: '6dcf4fe8-1189-8b79-b94b-29af835e4bcd'
-title: 'XAUDIO2FX\_I3DL2\_PRESET'
+---
+Description: I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) preset identifiers for initializing the XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS structure for use in the ReverbConvertI3DL2ToNative function.
+ms.assetid: 6dcf4fe8-1189-8b79-b94b-29af835e4bcd
+title: XAUDIO2FX\_I3DL2\_PRESET
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAUDIO2FX\_I3DL2\_PRESET
 
-I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) preset identifiers for initializing the [**XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS**](xaudio2fx-reverb-i3dl2-parameters.md) structure for use in the [**ReverbConvertI3DL2ToNative**](reverbconverti3dl2tonative.md) function.
+I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) preset identifiers for initializing the [**XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS**](/windows/win32/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters?branch=master) structure for use in the [**ReverbConvertI3DL2ToNative**](/windows/win32/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative?branch=master) function.
 
 <dl> <span id="XAUDIO2FX_I3DL2_PRESET_DEFAULT"></span><span id="xaudio2fx_i3dl2_preset_default"></span>**XAUDIO2FX\_I3DL2\_PRESET\_DEFAULT**  
 <span id="XAUDIO2FX_I3DL2_PRESET_GENERIC"></span><span id="xaudio2fx_i3dl2_preset_generic"></span>**XAUDIO2FX\_I3DL2\_PRESET\_GENERIC**  
@@ -63,10 +68,10 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 [XAudio2::Constants](constants.md)
 </dt> <dt>
 
-[**XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS**](xaudio2fx-reverb-i3dl2-parameters.md)
+[**XAUDIO2FX\_REVERB\_I3DL2\_PARAMETERS**](/windows/win32/xaudio2fx/ns-xaudio2fx-xaudio2fx_reverb_i3dl2_parameters?branch=master)
 </dt> <dt>
 
-[**ReverbConvertI3DL2ToNative**](reverbconverti3dl2tonative.md)
+[**ReverbConvertI3DL2ToNative**](/windows/win32/xaudio2fx/nf-xaudio2fx-reverbconverti3dl2tonative?branch=master)
 </dt> </dl>
 
  

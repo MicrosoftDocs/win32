@@ -1,14 +1,20 @@
 ---
 title: Body (showMessageType) Element
 description: Contains the text to display in the body of the message box.
-ms.assetid: '69ea872a-7ca1-4464-9380-b35f74c9cb8e'
-keywords: ["Body element Task Scheduler"]
+ms.assetid: 69ea872a-7ca1-4464-9380-b35f74c9cb8e
+keywords:
+- Body element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Body
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Body (showMessageType) Element
@@ -35,7 +41,7 @@ The **Body** element is defined by the [**showMessageType**](taskschedulerschema
 
 ## Remarks
 
-For C++ development, see [**MessageBody Property of IShowMessageAction**](ishowmessageaction-messagebody.md).
+For C++ development, see [**MessageBody Property of IShowMessageAction**](/windows/win32/taskschd/nf-taskschd-ishowmessageaction-get_messagebody?branch=master).
 
 For script development, see [**ShowMessageAction.MessageBody**](showmessageaction-messagebody.md).
 
@@ -45,14 +51,14 @@ For script development, see [**ShowMessageAction.MessageBody**](showmessageactio
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,17 @@ description: Unlike Windows NT 4.0 domains, Windows 2000 users can be placed 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4a35af7a-f43b-4cf9-a030-77f6c2518ae7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4a35af7a-f43b-4cf9-a030-77f6c2518ae7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Enumerating Users AD", "users AD , enumerating a user", "Active Directory, using,users, enumerating a user"]
+keywords:
+- Enumerating Users AD
+- users AD , enumerating a user
+- Active Directory, using,users, enumerating a user
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Users

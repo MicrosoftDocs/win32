@@ -1,7 +1,12 @@
 ---
 Description: Digital Signal Processors
-ms.assetid: 'cd3952ca-3958-4944-8fde-f0163a47bff9'
+ms.assetid: cd3952ca-3958-4944-8fde-f0163a47bff9
 title: Digital Signal Processors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Digital Signal Processors
@@ -16,7 +21,7 @@ The DSPs can be used by themselves, or in combination with audio and video codec
 
 | Interface                              | Description                                 |
 |----------------------------------------|---------------------------------------------|
-| [**IMFTransform**](imftransform.md)   | Compatible with Microsoft Media Foundation. |
+| [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)   | Compatible with Microsoft Media Foundation. |
 | [**IMediaObject**](dshow.imediaobject) | Compatible with DirectShow.                 |
 
 

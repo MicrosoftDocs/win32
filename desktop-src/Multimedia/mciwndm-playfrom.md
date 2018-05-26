@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_PLAYFROM message
 description: The MCIWNDM\_PLAYFROM message plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can send this message explicitly or by using the MCIWndPlayFrom macro.
-ms.assetid: '1c47f8eb-2a1b-4671-a9f8-fd6d59a5c7c6'
-keywords: ["MCIWNDM_PLAYFROM message Windows Multimedia"]
+ms.assetid: 1c47f8eb-2a1b-4671-a9f8-fd6d59a5c7c6
+keywords:
+- MCIWNDM_PLAYFROM message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_PLAYFROM message
 
-The **MCIWNDM\_PLAYFROM** message plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can send this message explicitly or by using the [**MCIWndPlayFrom**](mciwndplayfrom.md) macro.
+The **MCIWNDM\_PLAYFROM** message plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can send this message explicitly or by using the [**MCIWndPlayFrom**](/windows/win32/Vfw/nf-vfw-mciwndplayfrom?branch=master) macro.
 
 
 ```C++
@@ -43,7 +49,7 @@ Returns zero if successful or an error otherwise.
 
 ## Remarks
 
-You can also specify both a starting and ending location for playback by using the [**MCIWndPlayFromTo**](mciwndplayfromto.md) macro.
+You can also specify both a starting and ending location for playback by using the [**MCIWndPlayFromTo**](/windows/win32/Vfw/nf-vfw-mciwndplayfromto?branch=master) macro.
 
 ## Requirements
 
@@ -51,8 +57,8 @@ You can also specify both a starting and ending location for playback by using t
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -61,15 +67,15 @@ You can also specify both a starting and ending location for playback by using t
 
 <dl> <dt>
 
-[**MCIWndPlayFrom**](mciwndplayfrom.md)
+[**MCIWndPlayFrom**](/windows/win32/Vfw/nf-vfw-mciwndplayfrom?branch=master)
 </dt> <dt>
 
-[**MCIWndPlayFromTo**](mciwndplayfromto.md)
+[**MCIWndPlayFromTo**](/windows/win32/Vfw/nf-vfw-mciwndplayfromto?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

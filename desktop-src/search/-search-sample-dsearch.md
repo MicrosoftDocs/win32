@@ -1,12 +1,17 @@
 ---
-Description: 'The DSearch code sample demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for ISearchQueryHelper.'
-ms.assetid: '9c09b1fe-c63e-4c6e-9c8b-f5e29cf0fe9e'
+Description: The DSearch code sample demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for ISearchQueryHelper.
+ms.assetid: 9c09b1fe-c63e-4c6e-9c8b-f5e29cf0fe9e
 title: DSearch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSearch
 
-The DSearch code sample demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for [**ISearchQueryHelper**](-search-isearchqueryhelper.md).
+The DSearch code sample demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for [**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master).
 
 This topic contains the following sections.
 
@@ -81,13 +86,13 @@ To build the sample using Microsoft Visual Studio (preferred):
 **Reference**
 </dt> <dt>
 
-[**ISearchQueryHelper**](-search-isearchqueryhelper.md)
+[**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master)
 </dt> <dt>
 
-[**ISearchCatalogManager**](-search-isearchcatalogmanager.md)
+[**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master)
 </dt> <dt>
 
-[**ISearchCatalogManager2**](-search-isearchcatalogmanager2.md)
+[**ISearchCatalogManager2**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager2?branch=master)
 </dt> <dt>
 
 **Conceptual**

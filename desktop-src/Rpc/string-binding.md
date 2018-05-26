@@ -1,7 +1,12 @@
 ---
 title: String Binding
 description: The string binding is an unsigned character string composed of strings that represent the binding object UUID, the RPC protocol sequence, the network address, and the endpoint and endpoint options.
-ms.assetid: '5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305'
+ms.assetid: 5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # String Binding
@@ -34,9 +39,9 @@ Character string that represents a valid combination of an RPC protocol (such as
 Network address of the system to receive remote procedure calls.
 
 > [!Note]  
-> The following protocol sequences are not supported as of Windows XP:
+> The following protocol sequences are not supported as of Windows XP:
 
- 
+ 
 
 -   [ncacn\_nb\_tcp](https://msdn.microsoft.com/library/windows/desktop/aa367107)
 -   [ncacn\_nb\_nb](https://msdn.microsoft.com/library/windows/desktop/aa367106)
@@ -69,7 +74,7 @@ The format and content of the network address depend on the specified protocol s
 
 
 
- 
+ 
 
 The network-address field is optional. When you do not specify a network address, the string binding refers to your local host. It is possible to specify the name of the local computer when you use the **ncalrpc** protocol sequence, however doing so is completely unnecessary.
 
@@ -78,7 +83,7 @@ The network-address field is optional. When you do not specify a network address
 <span id="Endpoint"></span><span id="endpoint"></span><span id="ENDPOINT"></span>*Endpoint*
 </dt> <dd>
 
-Endpoint, or address, of the process to receive remote procedure calls. An endpoint can be preceded by the keyword **endpoint=**. Specifying the endpoint is optional if the server has registered its bindings with the endpoint mapper. See [**RpcEpRegister**](rpcepregister.md).
+Endpoint, or address, of the process to receive remote procedure calls. An endpoint can be preceded by the keyword **endpoint=**. Specifying the endpoint is optional if the server has registered its bindings with the endpoint mapper. See [**RpcEpRegister**](/windows/win32/Rpcdce/nf-rpcdce-rpcepregister?branch=master).
 
 The format and content of an endpoint depend on the specified protocol sequence as shown in the following Endpoint/Option Table.
 
@@ -110,7 +115,7 @@ Protocol-specific options. The option field is not required. Each option is spec
 
 
 
- 
+ 
 
 The **HttpConnectionOption** option name, supported for the ncacn\_http protocol sequence, takes the following value.
 
@@ -122,9 +127,9 @@ The **HttpConnectionOption** option name, supported for the ncacn\_http protocol
 
 
 
- 
+ 
 
-The **HttpConnectionOption** allows you to direct RPC’s behavior when making HTTP connections. The **UseHttpProxy** value instructs RPC to route its traffic through the Http proxy at all times, including when the client has the Internet Options set in Internet Explorer to “Bypass proxy server for local addresses.” This option directs the client to forcefully connect to the RPC proxy through the Http proxy. This speeds up the time to establish a connection since it bypasses any delay searching for the RPC server directly prior to using the HTTP proxy.
+The **HttpConnectionOption** allows you to direct RPC s behavior when making HTTP connections. The **UseHttpProxy** value instructs RPC to route its traffic through the Http proxy at all times, including when the client has the Internet Options set in Internet Explorer to  Bypass proxy server for local addresses.  This option directs the client to forcefully connect to the RPC proxy through the Http proxy. This speeds up the time to establish a connection since it bypasses any delay searching for the RPC server directly prior to using the HTTP proxy.
 
 If this **HttpConnectionOption** option is used and Internet Explorer on the client is not configured to use that Http proxy, connections may fail with **RPC\_S\_INVALID\_NETWORK\_OPTIONS**.
 
@@ -140,11 +145,11 @@ The **Security** option name, supported for the ncalrpc, ncacn\_np, ncadg\_ip\_u
 
 | Option name  | Option value                                                                               |
 |--------------|--------------------------------------------------------------------------------------------|
-| **Security** | {identification \| anonymous \| impersonation} {dynamic \| static} {**true** \| **false**} |
+| **Security** | {identification \| anonymous \| impersonation} {dynamic \| static} {**true** \| **false**} |
 
 
 
- 
+ 
 
 If the security option name is specified, one entry from each of the sets of security option values must also be supplied. The option values must be separated by a single-space character. For example, the following *Option* fields are valid:
 
@@ -169,7 +174,7 @@ The security option values have the following meanings.
 
 
 
- 
+ 
 
 For more information about security options, [Security](security.md).
 
@@ -181,11 +186,11 @@ White space is not allowed in string bindings except where required by the *Opti
 
 For all string-binding fields, a single backslash character (\) is interpreted as an escape character. To specify a single literal backslash character, you must supply two backslash characters (\\\).
 
-A string binding contains the character representation of a binding handle and occasionally portions of a binding handle. String bindings are convenient for representing portions of a binding handle, but they can't be used for making remote procedure calls. They must first be converted to a binding handle by calling [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md).
+A string binding contains the character representation of a binding handle and occasionally portions of a binding handle. String bindings are convenient for representing portions of a binding handle, but they can't be used for making remote procedure calls. They must first be converted to a binding handle by calling [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master).
 
-Additionally, a string binding does not contain all of the information from a binding handle. For example, the authentication information, if any, associated with a binding handle is not translated into the string binding returned by calling the [**RpcBindingToStringBinding**](rpcbindingtostringbinding.md).
+Additionally, a string binding does not contain all of the information from a binding handle. For example, the authentication information, if any, associated with a binding handle is not translated into the string binding returned by calling the [**RpcBindingToStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingtostringbinding?branch=master).
 
-During the development of a distributed application, servers can communicate their binding information to clients using string bindings to establish a client-server relationship without using the endpoint-map database or name-service database. To establish such a relationship, use the function [**RpcBindingToStringBinding**](rpcbindingtostringbinding.md) to convert one or more binding handles from a binding-handle vector to a string binding, and provide the string binding to the client.
+During the development of a distributed application, servers can communicate their binding information to clients using string bindings to establish a client-server relationship without using the endpoint-map database or name-service database. To establish such a relationship, use the function [**RpcBindingToStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingtostringbinding?branch=master) to convert one or more binding handles from a binding-handle vector to a string binding, and provide the string binding to the client.
 
 ## Examples
 
@@ -226,21 +231,21 @@ obj-uuid@ncacn_spx:~0000000108002B30612C
 
 <dl> <dt>
 
-[**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md)
+[**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master)
 </dt> <dt>
 
-[**RpcBindingToStringBinding**](rpcbindingtostringbinding.md)
+[**RpcBindingToStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingtostringbinding?branch=master)
 </dt> <dt>
 
-[**RpcEpRegister**](rpcepregister.md)
+[**RpcEpRegister**](/windows/win32/Rpcdce/nf-rpcdce-rpcepregister?branch=master)
 </dt> <dt>
 
 [Using HTTP as an RPC Transport](using-http-as-an-rpc-transport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

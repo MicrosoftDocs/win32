@@ -1,7 +1,12 @@
 ---
 title: About Windows Firewall with Advanced Security
 description: About Windows Firewall with Advanced Security
-ms.assetid: 'DDB0A31E-64AF-4169-A21D-1958D84EA41D'
+ms.assetid: DDB0A31E-64AF-4169-A21D-1958D84EA41D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Windows Firewall with Advanced Security

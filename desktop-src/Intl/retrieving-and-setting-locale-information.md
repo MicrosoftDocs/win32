@@ -1,7 +1,12 @@
 ---
 Description: Retrieving and Setting Locale Information
-ms.assetid: '7675f826-76be-4361-a82c-9573040a7e72'
+ms.assetid: 7675f826-76be-4361-a82c-9573040a7e72
 title: Retrieving and Setting Locale Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving and Setting Locale Information
@@ -10,7 +15,7 @@ The application must be able to retrieve and set specific information about avai
 
 Your application always stores and manipulates locale information as a null-terminated string. No binary data is allowed, and any numeric values must be specified as text. Each type of information has a particular format. Also, several types are linked together so that changing one type changes the value of the other type as well.
 
-To retrieve locale information, the application calls [**GetLocaleInfo**](getlocaleinfo.md) or [**GetLocaleInfoEx**](getlocaleinfoex.md) with the constant that corresponds to the required information. The application can call [**SetLocaleInfo**](setlocaleinfo.md) to set an item of locale information.
+To retrieve locale information, the application calls [**GetLocaleInfo**](/windows/win32/Winnls/nf-winnls-getlocaleinfoa?branch=master) or [**GetLocaleInfoEx**](/windows/win32/Winnls/nf-winnls-getlocaleinfoex?branch=master) with the constant that corresponds to the required information. The application can call [**SetLocaleInfo**](/windows/win32/Winnls/nf-winnls-setlocaleinfoa?branch=master) to set an item of locale information.
 
 > [!Note]  
 > Although a [locale identifier](locale-identifiers.md) might be supported, it is not available for use by an application unless the corresponding locale is also installed.

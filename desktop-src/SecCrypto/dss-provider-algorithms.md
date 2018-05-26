@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following table lists the algorithms supported by the Microsoft DSS Cryptographic Provider.'
-ms.assetid: '2a7aecf8-e242-4087-83ee-aaa637a9ec71'
+---
+Description: The following table lists the algorithms supported by the Microsoft DSS Cryptographic Provider.
+ms.assetid: 2a7aecf8-e242-4087-83ee-aaa637a9ec71
 title: DSS Provider Algorithms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSS Provider Algorithms

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information that should uniquely identify the individual making the request.'
-ms.assetid: 'f0cc0e1b-370e-4548-97fe-8f6a4005540b'
+---
+Description: Contains information that should uniquely identify the individual making the request.
+ms.assetid: f0cc0e1b-370e-4548-97fe-8f6a4005540b
 title: Distinguished Name Fields
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distinguished Name Fields

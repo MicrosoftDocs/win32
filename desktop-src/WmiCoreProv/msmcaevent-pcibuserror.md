@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a Machine Check Architecture (MCA) PCI bus error. This class is available only for computers running on a 64-bit Windows operating system.'
-ms.assetid: 'd8995909-a91b-4fcc-a37f-011d8df95ce8'
-title: 'MSMCAEvent\_PCIBusError class'
+Description: Represents a Machine Check Architecture (MCA) PCI bus error. This class is available only for computers running on a 64-bit Windows operating system.
+ms.assetid: d8995909-a91b-4fcc-a37f-011d8df95ce8
+title: MSMCAEvent\_PCIBusError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAEvent\_PCIBusError class
@@ -16,25 +21,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSMCAEvent_PCIBusError : WMIEvent
 {
   boolean Active;
-  uint32  AdditionalErrors;
-  uint32  Cpu;
-  uint8   ErrorSeverity;
-  string  InstanceName;
-  uint64  PCI_BUS_ADDRESS;
-  uint64  PCI_BUS_CMD;
-  uint64  PCI_BUS_DATA;
-  uint64  PCI_BUS_ERROR_STATUS;
-  uint16  PCI_BUS_ERROR_TYPE;
-  uint8   PCI_BUS_ID_BusNumber;
-  uint8   PCI_BUS_ID_SegmentNumber;
-  uint64  PCI_BUS_REQUESTOR_ID;
-  uint64  PCI_BUS_RESPONDER_ID;
-  uint8   RawRecord[];
-  uint64  RecordId;
-  uint32  Size;
-  uint32  Type;
-  uint64  VALIDATION_BITS;
-  uint32  LogToEventlog;
+  uint32  AdditionalErrors;
+  uint32  Cpu;
+  uint8   ErrorSeverity;
+  string  InstanceName;
+  uint64  PCI_BUS_ADDRESS;
+  uint64  PCI_BUS_CMD;
+  uint64  PCI_BUS_DATA;
+  uint64  PCI_BUS_ERROR_STATUS;
+  uint16  PCI_BUS_ERROR_TYPE;
+  uint8   PCI_BUS_ID_BusNumber;
+  uint8   PCI_BUS_ID_SegmentNumber;
+  uint64  PCI_BUS_REQUESTOR_ID;
+  uint64  PCI_BUS_RESPONDER_ID;
+  uint8   RawRecord[];
+  uint64  RecordId;
+  uint32  Size;
+  uint32  Type;
+  uint64  VALIDATION_BITS;
+  uint32  LogToEventlog;
 };
 ```
 
@@ -110,7 +115,7 @@ Severity level of the error reported.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -229,7 +234,7 @@ Type of PCI bus error.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -372,7 +377,7 @@ Validation bits used to indicate the validity of the subsequent fields.
 
 
 
- 
+ 
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -388,8 +393,8 @@ The **MSMCAEvent\_PCIBusError** class is derived from [**WMIEvent**](wmievent.md
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -406,9 +411,9 @@ The **MSMCAEvent\_PCIBusError** class is derived from [**WMIEvent**](wmievent.md
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: VIEW.returnToMediaCenter
 description: The returnToMediaCenter method returns the user to the full mode of Windows Media Player.
-ms.assetid: 'eebf0679-5704-498c-8eb3-f7710e0cb1fe'
-keywords: ["VIEW.returnToMediaCenter Windows Media Player"]
+ms.assetid: eebf0679-5704-498c-8eb3-f7710e0cb1fe
+keywords:
+- VIEW.returnToMediaCenter Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.returnToMediaCenter
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.returnToMediaCenter
@@ -59,9 +65,9 @@ This method does not return a value.
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

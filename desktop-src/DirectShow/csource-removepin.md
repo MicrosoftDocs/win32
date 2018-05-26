@@ -1,7 +1,12 @@
 ---
-Description: 'The RemovePin method removes a specified pin from the filter. The method does not delete the pin.'
-ms.assetid: '104eccfa-3fff-4f47-ba1b-3206eab9eef8'
-title: 'CSource.RemovePin method'
+Description: The RemovePin method removes a specified pin from the filter. The method does not delete the pin.
+ms.assetid: 104eccfa-3fff-4f47-ba1b-3206eab9eef8
+title: CSource.RemovePin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource.RemovePin method
@@ -13,7 +18,7 @@ The `RemovePin` method removes a specified pin from the filter. The method does 
 
 ```C++
 HRESULT RemovePin(
-   CSourceStream *pStream
+   CSourceStream *pStream
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The destructor method calls this method, to remove the output pin from the filte
 [**CSource Class**](csource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

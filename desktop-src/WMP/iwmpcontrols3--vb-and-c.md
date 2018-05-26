@@ -1,8 +1,10 @@
 ---
 title: IWMPControls3 (VB and C\ ) interface
 description: Provides properties and methods for audio language selection and support that supplement the IWMPControls2 interface.In addition to the properties and methods inherited from IWMPControls2, the IWMPControls3 interface exposes the following properties.
-ms.assetid: '1f42a352-da97-4382-9b59-a9b074aa2a5a'
-keywords: ["IWMPControls3 (VB and C ) interface Windows Media Player", "IWMPControls3 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: 1f42a352-da97-4382-9b59-a9b074aa2a5a
+keywords:
+- IWMPControls3 (VB and C ) interface Windows Media Player
+- IWMPControls3 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPControls3 (VB and C#) interface
@@ -40,7 +47,7 @@ The **IWMPControls3 (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +64,7 @@ The **IWMPControls3 (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPControls3** interface by casting the value returned by the [**AxWindowsMediaPlayer.Ctlcontrols**](axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md) property.
 
@@ -84,9 +91,9 @@ Get an **IWMPControls3** interface by casting the value returned by the [**AxWin
 [**IWMPControls2 Interface (VB and C#)**](iwmpcontrols2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

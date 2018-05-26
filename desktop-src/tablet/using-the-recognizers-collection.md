@@ -1,15 +1,20 @@
-﻿---
-Description: 'If you use multiple recognizers, you can use the Recognizers collection to list available recognizers and enable a user to select from among them.'
-ms.assetid: '1b89def0-3491-42da-9138-5280002e447a'
+---
+Description: If you use multiple recognizers, you can use the Recognizers collection to list available recognizers and enable a user to select from among them.
+ms.assetid: 1b89def0-3491-42da-9138-5280002e447a
 title: Using the Recognizers Collection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Recognizers Collection
 
-If you use multiple recognizers, you can use the [**Recognizers**](inkrecognizers-collection.md) collection to list available recognizers and enable a user to select from among them. A **Recognizers** collection checks for installed recognizers, queries the attributes of the [**Recognizer**](iinkrecognizer.md) objects, and stores the results. Applications can use the **Recognizers** collection to display a list of available recognizers without loading each recognizer DLL.
+If you use multiple recognizers, you can use the [**Recognizers**](/windows/win32/msinkaut/?branch=master) collection to list available recognizers and enable a user to select from among them. A **Recognizers** collection checks for installed recognizers, queries the attributes of the [**Recognizer**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognizer?branch=master) objects, and stores the results. Applications can use the **Recognizers** collection to display a list of available recognizers without loading each recognizer DLL.
 
 > [!Note]  
-> The [**Recognizers**](inkrecognizers-collection.md) collection uses the system registry to check for both Microsoft recognizers and third-party recognizers.
+> The [**Recognizers**](/windows/win32/msinkaut/?branch=master) collection uses the system registry to check for both Microsoft recognizers and third-party recognizers.
 
  
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '67a70bbc-3f4f-43ac-b886-88fc312b1aa1'
-title: 'System.Document.ClientID'
+Description: .
+ms.assetid: 67a70bbc-3f4f-43ac-b886-88fc312b1aa1
+title: System.Document.ClientID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.ClientID

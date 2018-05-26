@@ -1,14 +1,20 @@
 ---
 title: WM/RadioStationOwner
 description: The WM/RadioStationOwner attribute contains the name of the owner of the radio station associated with the content.
-ms.assetid: '18ff6f02-05db-4414-925b-729e3f99e494'
-keywords: ["WM/RadioStationOwner windows Media Format"]
+ms.assetid: 18ff6f02-05db-4414-925b-729e3f99e494
+keywords:
+- WM/RadioStationOwner windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/RadioStationOwner
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/RadioStationOwner

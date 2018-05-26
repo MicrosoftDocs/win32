@@ -1,7 +1,12 @@
 ---
-Description: 'Determines whether the specified IAnalysisRegion contains the same value as the current IAnalysisRegion object.'
-ms.assetid: '44c09cfe-65fc-4175-ad05-01c605218c58'
-title: 'IAnalysisRegion::EqualsRegion method'
+Description: Determines whether the specified IAnalysisRegion contains the same value as the current IAnalysisRegion object.
+ms.assetid: 44c09cfe-65fc-4175-ad05-01c605218c58
+title: IAnalysisRegionEqualsRegion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::EqualsRegion method
@@ -13,8 +18,8 @@ Determines whether the specified [**IAnalysisRegion**](ianalysisregion.md) conta
 
 ```C++
 HRESULT EqualsRegion(
-  [in]  IAnalysisRegion *pOtherRegion,
-  [out] VARIANT_BOOL    *pfRegionsEqual
+  [in]  IAnalysisRegion *pOtherRegion,
+  [out] VARIANT_BOOL    *pfRegionsEqual
 );
 ```
 
@@ -48,7 +53,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -62,9 +67,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [**IAnalysisRegion**](ianalysisregion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

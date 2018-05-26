@@ -4,17 +4,22 @@ description: List of bridge head servers used by KCC in the previous run.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f99e9ef2-1a64-49ab-b6b7-7613f3246e61'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f99e9ef2-1a64-49ab-b6b7-7613f3246e61
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-BridgeHead-Servers-Used attribute AD Schema", "msDS-BridgeHeadServersUsed attribute AD Schema"]
+keywords:
+- ms-DS-BridgeHead-Servers-Used attribute AD Schema
+- msDS-BridgeHeadServersUsed attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-BridgeHead-Servers-Used
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-BridgeHead-Servers-Used attribute
@@ -38,9 +43,9 @@ List of bridge head servers used by KCC in the previous run.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ List of bridge head servers used by KCC in the previous run.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

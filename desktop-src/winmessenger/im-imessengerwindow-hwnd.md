@@ -1,8 +1,11 @@
 ---
 title: IMessengerWindow HWND property
 description: Retrieves a window handle to a Messenger window.
-ms.assetid: '74b8af5b-7e17-4202-a21a-3595e3e6c2fe'
-keywords: ["HWND property Windows Messenger", "HWND property Windows Messenger , IMessengerWindow interface", "IMessengerWindow interface Windows Messenger , HWND property"]
+ms.assetid: 74b8af5b-7e17-4202-a21a-3595e3e6c2fe
+keywords:
+- HWND property Windows Messenger
+- HWND property Windows Messenger , IMessengerWindow interface
+- IMessengerWindow interface Windows Messenger , HWND property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerWindow::HWND property
 
-\[**HWND** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**HWND** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a window handle to a Messenger window.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_HWND(
-  [out, retval] long *phWnd
+  [out, retval] long *phWnd
 );
 ```
 
@@ -65,7 +73,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 Unlike the Messenger application, there can be more than one conversation window and therefore multiple HWNDs.
 
@@ -74,7 +82,7 @@ If called on the IMessengerWindow interface of the application's Messenger windo
 > [!Note]  
 > This property is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -82,8 +90,8 @@ If called on the IMessengerWindow interface of the application's Messenger windo
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -100,9 +108,9 @@ If called on the IMessengerWindow interface of the application's Messenger windo
 [**IMessenger**](im-imessenger.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

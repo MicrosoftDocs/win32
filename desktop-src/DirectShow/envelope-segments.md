@@ -1,19 +1,24 @@
 ---
 Description: Envelope Segments
-ms.assetid: '1b59cd1c-7c37-4c70-a36c-2ee1f42b42c5'
+ms.assetid: 1b59cd1c-7c37-4c70-a36c-2ee1f42b42c5
 title: Envelope Segments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Envelope Segments
 
-A parameter curve consists of one or more envelope segments, defined using the [**MP\_ENVELOPE\_SEGMENT**](mp-envelope-segment.md) structure. This structure contains the following information:
+A parameter curve consists of one or more envelope segments, defined using the [**MP\_ENVELOPE\_SEGMENT**](/windows/win32/Medparam/ns-medparam-_mp_envelope_segment?branch=master) structure. This structure contains the following information:
 
 -   The start and end times.
 -   The starting and ending values.
 -   The curve type (linear, square, and so forth).
 -   Optional flags, described shortly.
 
-The client adds envelope segments to a parameter by calling the [**IMediaParams::AddEnvelope**](imediaparams-addenvelope.md) method and passing in an array of **MP\_ENVELOPE\_SEGMENT** structures. The client should sort the segments into ascending time order before calling the method. As the DMO processes data, you can imagine the parameter traveling over each envelope segment, like a car driving over a series of hills. The [**IMediaParams::GetParam**](imediaparams-getparam.md) method returns the most recent value.
+The client adds envelope segments to a parameter by calling the [**IMediaParams::AddEnvelope**](/windows/win32/Medparam/nf-medparam-imediaparams-addenvelope?branch=master) method and passing in an array of **MP\_ENVELOPE\_SEGMENT** structures. The client should sort the segments into ascending time order before calling the method. As the DMO processes data, you can imagine the parameter traveling over each envelope segment, like a car driving over a series of hills. The [**IMediaParams::GetParam**](/windows/win32/Medparam/nf-medparam-imediaparams-getparam?branch=master) method returns the most recent value.
 
 Two adjacent segments can have a gap between them. During gaps, the parameter retains its previous value, as follows:
 

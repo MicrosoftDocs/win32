@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Features property is a read-only property that returns a StringList object enumerating the set of published features for the specified product.'
-ms.assetid: 'feb8f09a-fa97-4fee-9082-8f04288af22f'
-title: 'Installer.Features property'
+---
+Description: The Features property is a read-only property that returns a StringList object enumerating the set of published features for the specified product.
+ms.assetid: feb8f09a-fa97-4fee-9082-8f04288af22f
+title: Installer.Features property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.Features property
@@ -43,7 +48,7 @@ To enumerate the features, an application iterates through the [**StringList**](
 
 <dl> <dt>
 
-[**MsiEnumFeatures**](msienumfeatures.md)
+[**MsiEnumFeatures**](/windows/win32/Msi/nf-msi-msienumfeaturesa?branch=master)
 </dt> <dt>
 
 [System Status Functions](installer-function-reference.md)

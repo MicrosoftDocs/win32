@@ -1,7 +1,12 @@
 ---
-Description: 'Removable Storage Manager manages two classes of physical locations: libraries and the offline library.'
-ms.assetid: '57616e99-f625-4e53-980c-e6e83e72412e'
+Description: Removable Storage Manager manages two classes of physical locations libraries and the offline library.
+ms.assetid: 57616e99-f625-4e53-980c-e6e83e72412e
 title: Libraries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Libraries

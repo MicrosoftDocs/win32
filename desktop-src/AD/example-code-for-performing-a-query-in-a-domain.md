@@ -4,11 +4,15 @@ description: This topic includes a code example that searches the subtree of the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '07b27324-4f59-42c2-a42f-8c2cef138928'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 07b27324-4f59-42c2-a42f-8c2cef138928
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , searching for groups in a domain"]
+keywords:
+- Active Directory examples Active Directory , searching for groups in a domain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Searching for Groups in a Domain

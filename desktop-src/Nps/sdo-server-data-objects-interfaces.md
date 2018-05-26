@@ -4,10 +4,13 @@ description: The Server Data Objects (SDO) API exposes the following interfaces.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c7b8c59d-91a2-4dfd-a119-ecfd08dcd7aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: c7b8c59d-91a2-4dfd-a119-ecfd08dcd7aa
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Server Data Objects Interfaces
@@ -49,7 +52,7 @@ The Server Data Objects (SDO) API exposes the following interfaces.
 <td>Manage the service being administered through SDO, that is, either Internet Authentication Service (IAS) or Remote Access Server (RAS).<br/>
 <blockquote>
 [!Note]<br />
-Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.
+Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008.
 </blockquote>
 <br/></td>
 </tr>
@@ -58,11 +61,11 @@ Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) st
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Closes the specified offline registry hive and frees memory allocated for the hive.'
-ms.assetid: 'e30a92dd-8533-406f-ad63-96306f125d78'
+---
+Description: Closes the specified offline registry hive and frees memory allocated for the hive.
+ms.assetid: e30a92dd-8533-406f-ad63-96306f125d78
 title: ORCloseHive function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORCloseHive function

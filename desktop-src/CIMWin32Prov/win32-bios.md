@@ -1,15 +1,18 @@
 ---
-Description: 'Represents the attributes of the computer system''s basic input/output services (BIOS) that are installed on a computer.'
+Description: Represents the attributes of the computer systems basic input/output services (BIOS) that are installed on a computer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e4a5aaf0-0432-4517-97b7-ac05ffd10b5b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e4a5aaf0-0432-4517-97b7-ac05ffd10b5b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_BIOS class'
+title: Win32\_BIOS class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_BIOS class
@@ -24,37 +27,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4E1-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_BIOS : CIM_BIOSElement
 {
-  uint16   BiosCharacteristics[];
-  string   BIOSVersion[];
-  string   BuildNumber;
-  string   Caption;
-  string   CodeSet;
-  string   CurrentLanguage;
-  string   Description;
-  uint8    EmbeddedControllerMajorVersion;
-  uint8    EmbeddedControllerMinorVersion;
-  string   IdentificationCode;
-  uint16   InstallableLanguages;
+  uint16   BiosCharacteristics[];
+  string   BIOSVersion[];
+  string   BuildNumber;
+  string   Caption;
+  string   CodeSet;
+  string   CurrentLanguage;
+  string   Description;
+  uint8    EmbeddedControllerMajorVersion;
+  uint8    EmbeddedControllerMinorVersion;
+  string   IdentificationCode;
+  uint16   InstallableLanguages;
   datetime InstallDate;
-  string   LanguageEdition;
-  String   ListOfLanguages[];
-  string   Manufacturer;
-  string   Name;
-  string   OtherTargetOS;
-  boolean  PrimaryBIOS;
+  string   LanguageEdition;
+  String   ListOfLanguages[];
+  string   Manufacturer;
+  string   Name;
+  string   OtherTargetOS;
+  boolean  PrimaryBIOS;
   datetime ReleaseDate;
-  string   SerialNumber;
-  string   SMBIOSBIOSVersion;
-  uint16   SMBIOSMajorVersion;
-  uint16   SMBIOSMinorVersion;
-  boolean  SMBIOSPresent;
-  string   SoftwareElementID;
-  uint16   SoftwareElementState;
-  string   Status;
-  uint8    SystemBiosMajorVersion;
-  uint8    SystemBiosMinorVersion;
-  uint16   TargetOperatingSystem;
-  string   Version;
+  string   SerialNumber;
+  string   SMBIOSBIOSVersion;
+  uint16   SMBIOSMajorVersion;
+  uint16   SMBIOSMinorVersion;
+  boolean  SMBIOSPresent;
+  string   SoftwareElementID;
+  uint16   SoftwareElementState;
+  string   Status;
+  uint8    SystemBiosMajorVersion;
+  uint8    SystemBiosMinorVersion;
+  uint16   TargetOperatingSystem;
+  string   Version;
 };
 ```
 
@@ -406,14 +409,14 @@ Smart Battery is supported
 
 </dd> <dt>
 
-40–47
+40 47
 </dt> <dd>
 
 Reserved for BIOS vendor
 
 </dd> <dt>
 
-48–63
+48 63
 </dt> <dd>
 
 Reserved for system vendor
@@ -465,7 +468,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -539,7 +542,7 @@ The major release of the embedded controller firmware.
 
 This value comes from the **Embedded Controller Firmware Major Release** member of the **BIOS Information** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -559,7 +562,7 @@ The minor release of the embedded controller firmware.
 
 This value comes from the **Embedded Controller Firmware Minor Release** member of the **BIOS Information** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1012,7 +1015,7 @@ The major release of the System BIOS.
 
 This value comes from the **System BIOS Major Release** member of the **BIOS Information** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1032,7 +1035,7 @@ The minor release of the System BIOS.
 
 This value comes from the **System BIOS Minor Release** member of the **BIOS Information** structure in the SMBIOS information.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -1688,8 +1691,8 @@ Version               :  DELL   - 27d60a0d
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1706,9 +1709,9 @@ Version               :  DELL   - 27d60a0d
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

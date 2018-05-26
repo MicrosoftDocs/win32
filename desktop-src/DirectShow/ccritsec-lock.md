@@ -1,7 +1,12 @@
 ---
-Description: 'The Lock method locks the critical section object.'
-ms.assetid: 'b08be5ec-3f02-4ed8-8791-20e4d2a0c55f'
-title: 'CCritSec.Lock method'
+Description: The Lock method locks the critical section object.
+ms.assetid: b08be5ec-3f02-4ed8-8791-20e4d2a0c55f
+title: CCritSec.Lock method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCritSec.Lock method
@@ -51,9 +56,9 @@ If the object is already locked by another thread, the **CCritSec::Lock** method
 [**CCritSec Class**](ccritsec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

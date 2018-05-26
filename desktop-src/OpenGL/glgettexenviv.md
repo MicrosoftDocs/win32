@@ -1,8 +1,9 @@
 ---
 title: glGetTexEnviv function
 description: The glGetTexEnvfv and glGetTexEnviv functions return texture environment parameters.
-ms.assetid: 'c1429cb9-4392-41ef-a978-a51db66445f2'
-keywords: ["glGetTexEnviv function OpenGL"]
+ms.assetid: c1429cb9-4392-41ef-a978-a51db66445f2
+keywords:
+- glGetTexEnviv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetTexEnviv function
@@ -22,9 +28,9 @@ The [**glGetTexEnvfv**](glgettexenvfv.md) and **glGetTexEnviv** functions return
 
 ```C++
 void WINAPI glGetTexEnviv(
-   GLenum target,
-   GLenum pname,
-   GLint  *params
+   GLenum target,
+   GLenum pname,
+   GLint  *params
 );
 ```
 
@@ -55,7 +61,7 @@ The symbolic name of a texture environment parameter. The following values are a
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -110,8 +116,8 @@ If an error is generated, no change is made to the contents of *params*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -131,9 +137,9 @@ If an error is generated, no change is made to the contents of *params*.
 [**glTexEnv**](gltexenv-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

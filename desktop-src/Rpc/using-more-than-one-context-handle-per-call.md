@@ -1,7 +1,12 @@
 ---
 title: Using More than One Context Handle per Call
 description: The ability to use arrays of context handles as parameters is made available in Windows Vista and later operating systems.
-ms.assetid: '84f3036b-ff4d-485d-bf23-ad10a03076a6'
+ms.assetid: 84f3036b-ff4d-485d-bf23-ad10a03076a6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using More than One Context Handle per Call

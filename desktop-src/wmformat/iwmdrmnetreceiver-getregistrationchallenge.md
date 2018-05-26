@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNetReceiver GetRegistrationChallenge method
 description: The GetRegistrationChallenge method generates a Windows Media DRM for Network Devices registration challenge message.
-ms.assetid: '7b3641a1-ccc5-4e29-b0e9-808b111f8841'
-keywords: ["GetRegistrationChallenge method windows Media Format", "GetRegistrationChallenge method windows Media Format , IWMDRMNetReceiver interface", "IWMDRMNetReceiver interface windows Media Format , GetRegistrationChallenge method"]
+ms.assetid: 7b3641a1-ccc5-4e29-b0e9-808b111f8841
+keywords:
+- GetRegistrationChallenge method windows Media Format
+- GetRegistrationChallenge method windows Media Format , IWMDRMNetReceiver interface
+- IWMDRMNetReceiver interface windows Media Format , GetRegistrationChallenge method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetReceiver::GetRegistrationChallenge method
@@ -22,8 +30,8 @@ The **GetRegistrationChallenge** method generates a Windows Media DRM for Networ
 
 ```C++
 HRESULT GetRegistrationChallenge(
-  [out] BYTE  **ppbRegistrationChallenge,
-  [out] DWORD *pcbRegistrationChallenge
+  [out] BYTE  **ppbRegistrationChallenge,
+  [out] DWORD *pcbRegistrationChallenge
 );
 ```
 
@@ -59,7 +67,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,9 +93,9 @@ None.
 [**IWMDRMNetReceiver::ProcessRegistrationResponse**](iwmdrmnetreceiver-processregistrationresponse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

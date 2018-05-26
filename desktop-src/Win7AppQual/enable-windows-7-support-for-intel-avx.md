@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'fe19e337-3109-42d6-a704-70662ac7c684'
+Description: .
+ms.assetid: fe19e337-3109-42d6-a704-70662ac7c684
 title: Enable Windows 7 Support for Intel AVX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enable Windows 7 Support for Intel AVX

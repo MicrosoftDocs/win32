@@ -1,14 +1,19 @@
 ---
 Description: Using Video Codec Private Data
-ms.assetid: '0cc24fe4-a5b6-4805-8c8e-3066d12ec4bd'
+ms.assetid: 0cc24fe4-a5b6-4805-8c8e-3066d12ec4bd
 title: Using Video Codec Private Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Video Codec Private Data
 
-The compressed output produced by the Windows Media Video 9 codecs cannot be properly decompressed without some data provided by the encoder. This data, called codec private data, must be appended to the output media type. You can get the codec private data by calling the methods of the [IWMCodecPrivateData](iwmcodecprivatedatainterface.md) interface. Pass the otherwise complete [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) structure to [IWMCodecPrivateData::SetPartialOutputType](iwmcodecprivatedatasetpartialoutputtype.md). Then call [IWMCodecPrivateData::GetPrivateData](iwmcodecprivatedatagetprivatedata.md) twice, once to get the size of the data, and then again to copy the data to a buffer of that size. Create a new buffer to hold the [**VIDEOINFOHEADER**](dshow.videoinfoheader) structure with the private data appended, and copy the structure and the data to that buffer. Finally, set the **pbFormat** member of the **DMO\_MEDIA\_TYPE** structure to the address of the newly created buffer and set the **cbFormat** member to the combined size, in bytes, of the **VIDEOINFOHEADER** and the private data.
+The compressed output produced by the Windows Media Video 9 codecs cannot be properly decompressed without some data provided by the encoder. This data, called codec private data, must be appended to the output media type. You can get the codec private data by calling the methods of the [IWMCodecPrivateData](/windows/win32/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata?branch=master) interface. Pass the otherwise complete [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) structure to [IWMCodecPrivateData::SetPartialOutputType](/windows/win32/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-setpartialoutputtype?branch=master). Then call [IWMCodecPrivateData::GetPrivateData](/windows/win32/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-getprivatedata?branch=master) twice, once to get the size of the data, and then again to copy the data to a buffer of that size. Create a new buffer to hold the [**VIDEOINFOHEADER**](dshow.videoinfoheader) structure with the private data appended, and copy the structure and the data to that buffer. Finally, set the **pbFormat** member of the **DMO\_MEDIA\_TYPE** structure to the address of the newly created buffer and set the **cbFormat** member to the combined size, in bytes, of the **VIDEOINFOHEADER** and the private data.
 
-If you are using MediaFoundation you can construct a [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) structure from an [**IMFMediaType**](imfmediatype.md) interface by calling [**MFCreateAMMediaTypeFromMFMediaType**](mfcreateammediatypefrommfmediatype.md).
+If you are using MediaFoundation you can construct a [**DMO\_MEDIA\_TYPE**](dshow.dmo_media_type) structure from an [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface by calling [**MFCreateAMMediaTypeFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype?branch=master).
 
 You must use the codec private data obtained after first setting the properties on the encoder. If any properties are changed, you must get new private data. If you do not use the private data obtained after all the properties are set for the encoding session, the decoder may not be able to decompress the data.
 

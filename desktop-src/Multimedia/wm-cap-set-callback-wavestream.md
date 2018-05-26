@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_SET\_CALLBACK\_WAVESTREAM message
 description: The WM\_CAP\_SET\_CALLBACK\_WAVESTREAM message sets a callback function in the application.
-ms.assetid: 'f2554cbb-73de-4f76-b785-6c18c82c2992'
-keywords: ["WM_CAP_SET_CALLBACK_WAVESTREAM message Windows Multimedia"]
+ms.assetid: f2554cbb-73de-4f76-b785-6c18c82c2992
+keywords:
+- WM_CAP_SET_CALLBACK_WAVESTREAM message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_SET\_CALLBACK\_WAVESTREAM message
 
-The **WM\_CAP\_SET\_CALLBACK\_WAVESTREAM** message sets a callback function in the application. AVICap calls this procedure during streaming capture when a new audio buffer becomes available. You can send this message explicitly or by using the [**capSetCallbackOnWaveStream**](capsetcallbackonwavestream.md) macro.
+The **WM\_CAP\_SET\_CALLBACK\_WAVESTREAM** message sets a callback function in the application. AVICap calls this procedure during streaming capture when a new audio buffer becomes available. You can send this message explicitly or by using the [**capSetCallbackOnWaveStream**](/windows/win32/Vfw/nf-vfw-capsetcallbackonwavestream?branch=master) macro.
 
 
 ```C++
@@ -33,7 +39,7 @@ lParam = (LPARAM) (LPVOID) (fpProc);
 <span id="fpProc"></span><span id="fpproc"></span><span id="FPPROC"></span>*fpProc*
 </dt> <dd>
 
-Pointer to the wave stream callback function, of type [**capWaveStreamCallback**](capwavestreamcallback.md). Specify **NULL** for this parameter to disable a previously installed wave stream callback function.
+Pointer to the wave stream callback function, of type [**capWaveStreamCallback**](/windows/win32/Vfw/nc-vfw-capwavecallback?branch=master). Specify **NULL** for this parameter to disable a previously installed wave stream callback function.
 
 </dd> </dl>
 
@@ -53,8 +59,8 @@ If a wave stream callback function is used, it must be installed before starting
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -69,9 +75,9 @@ If a wave stream callback function is used, it must be installed before starting
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

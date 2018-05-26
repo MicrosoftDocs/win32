@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceName property is a null-terminated string that contains the user-friendly display name for a fax port.'
-ms.assetid: '0768dd6f-bb55-45b4-bb87-b79d5c250a18'
-title: 'FaxRoutingMethod.get\_DeviceName property'
+---
+Description: The DeviceName property is a null-terminated string that contains the user-friendly display name for a fax port.
+ms.assetid: 0768dd6f-bb55-45b4-bb87-b79d5c250a18
+title: FaxRoutingMethod.get\_DeviceName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethod.get\_DeviceName property
@@ -55,19 +60,19 @@ Note that it is possible for multiple fax ports to have the same user-friendly n
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxRoutingMethod**](-mfax-ifaxroutingmethod.md)
+[**IFaxRoutingMethod**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethod?branch=master)
 </dt> <dt>
 
-[**IFaxRoutingMethods**](-mfax-ifaxroutingmethods.md)
+[**IFaxRoutingMethods**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxroutingmethods?branch=master)
 </dt> <dt>
 
 [**DeviceId**](-mfax-ifaxroutingmethod-get-deviceid-vb.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> </dl>
 
  

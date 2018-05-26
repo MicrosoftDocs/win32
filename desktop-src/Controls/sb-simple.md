@@ -1,8 +1,9 @@
 ---
 title: SB\_SIMPLE message
 description: Specifies whether a status window displays simple text or displays all window parts set by a previous SB\_SETPARTS message.
-ms.assetid: '457209cb-67d4-4a9f-8d18-75aa5eb9ca1d'
-keywords: ["SB_SIMPLE message Windows Controls"]
+ms.assetid: 457209cb-67d4-4a9f-8d18-75aa5eb9ca1d
+keywords:
+- SB_SIMPLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SB\_SIMPLE message
@@ -45,15 +51,15 @@ If the status window is being changed from nonsimple to simple, or vice versa, t
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

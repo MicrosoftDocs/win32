@@ -1,19 +1,24 @@
 ---
-Description: 'The Shell API provides functions that you can use to manage networked printers. If a file has the print verb associated with it, you can use the ShellExecuteEx command to print it.'
-ms.assetid: 'b94fca60-237a-43b1-a75a-faccf9dc63fb'
+Description: The Shell API provides functions that you can use to manage networked printers. If a file has the print verb associated with it, you can use the ShellExecuteEx command to print it.
+ms.assetid: b94fca60-237a-43b1-a75a-faccf9dc63fb
 title: Managing Printers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Printers
 
-The Shell API provides functions that you can use to manage networked printers. If a file has the **print** verb associated with it, you can use the [**ShellExecuteEx**](shellexecuteex.md) command to print it.
+The Shell API provides functions that you can use to manage networked printers. If a file has the **print** verb associated with it, you can use the [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) command to print it.
 
 -   [Printer Management](#printer-management)
 -   [Printing Files with ShellExecuteEx](#printing-files-with-shellexecuteex)
 
 ## Printer Management
 
-You can manage printers on a system with the [**SHInvokePrinterCommand**](shinvokeprintercommand.md) function. This function allows you to:
+You can manage printers on a system with the [**SHInvokePrinterCommand**](/windows/win32/Shellapi/nf-shellapi-shinvokeprintercommanda?branch=master) function. This function allows you to:
 
 -   Install printers.
 -   Open printers.
@@ -23,7 +28,7 @@ You can manage printers on a system with the [**SHInvokePrinterCommand**](shinvo
 
 ## Printing Files with ShellExecuteEx
 
-If a file type has a print command associated with it, you can print the file by calling [**ShellExecuteEx**](shellexecuteex.md) with **print** as the verb. This command is often the same as that used for the **open** verb, with the addition of a flag to tell the application to print the file. For instance, .txt files can be printed by Microsoft WordPad. The **open** verb for a .txt file would thus correspond to something like the following command:
+If a file type has a print command associated with it, you can print the file by calling [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) with **print** as the verb. This command is often the same as that used for the **open** verb, with the addition of a flag to tell the application to print the file. For instance, .txt files can be printed by Microsoft WordPad. The **open** verb for a .txt file would thus correspond to something like the following command:
 
 
 ```C++
@@ -32,7 +37,7 @@ If a file type has a print command associated with it, you can print the file by
 
 
 
-When you use [**ShellExecuteEx**](shellexecuteex.md) to print a .txt file, WordPad opens the file, prints it, and then closes, returning control to the application. The following sample function takes a fully qualified path, and uses **ShellExecuteEx** to print it, using the print command associated with its file name extension.
+When you use [**ShellExecuteEx**](/windows/win32/Shellapi/nf-shellapi-shellexecuteexa?branch=master) to print a .txt file, WordPad opens the file, prints it, and then closes, returning control to the application. The following sample function takes a fully qualified path, and uses **ShellExecuteEx** to print it, using the print command associated with its file name extension.
 
 
 ```C++

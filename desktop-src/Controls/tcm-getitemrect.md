@@ -1,8 +1,9 @@
 ---
 title: TCM\_GETITEMRECT message
 description: Retrieves the bounding rectangle for a tab in a tab control. You can send this message explicitly or by using the TabCtrl\_GetItemRect macro.
-ms.assetid: '6abd8cdf-5f19-4b7e-800e-970097bc891b'
-keywords: ["TCM_GETITEMRECT message Windows Controls"]
+ms.assetid: 6abd8cdf-5f19-4b7e-800e-970097bc891b
+keywords:
+- TCM_GETITEMRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_GETITEMRECT message
 
-Retrieves the bounding rectangle for a tab in a tab control. You can send this message explicitly or by using the [**TabCtrl\_GetItemRect**](tabctrl-getitemrect.md) macro.
+Retrieves the bounding rectangle for a tab in a tab control. You can send this message explicitly or by using the [**TabCtrl\_GetItemRect**](/windows/win32/Commctrl/nf-commctrl-tabctrl_getitemrect?branch=master) macro.
 
 ## Parameters
 
@@ -45,15 +51,15 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

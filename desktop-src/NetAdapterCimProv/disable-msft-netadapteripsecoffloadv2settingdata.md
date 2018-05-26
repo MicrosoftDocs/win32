@@ -1,7 +1,12 @@
 ---
-Description: 'Disable IPsec Task Offload v2 on the network adapter.'
-ms.assetid: '195f4ab2-6dc0-4d14-9194-a76ba0f2b163'
-title: 'Disable method of the MSFT\_NetAdapterIPsecOffloadV2SettingData class'
+Description: Disable IPsec Task Offload v2 on the network adapter.
+ms.assetid: 195f4ab2-6dc0-4d14-9194-a76ba0f2b163
+title: Disable method of the MSFT\_NetAdapterIPsecOffloadV2SettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the MSFT\_NetAdapterIPsecOffloadV2SettingData class
@@ -13,9 +18,9 @@ Disable IPsec Task Offload v2 on the network adapter.
 
 ```mof
 uint32 Disable(
-  [in]  boolean NoRestart,
-  [in]  boolean PassThru,
-  [out] string  cmdletOutput
+  [in]  boolean NoRestart,
+  [in]  boolean PassThru,
+  [out] string  cmdletOutput
 );
 ```
 
@@ -53,7 +58,7 @@ if **PssThru** is **true**, returns an embedded [**MSFT\_NetAdapterIPsecOffloadV
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ if **PssThru** is **true**, returns an embedded [**MSFT\_NetAdapterIPsecOffloadV
 [**MSFT\_NetAdapterIPsecOffloadV2SettingData**](msft-netadapteripsecoffloadv2settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

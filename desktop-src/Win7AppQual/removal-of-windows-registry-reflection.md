@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '4b42d44d-cde8-4d96-96c5-24b7ab7e4cec'
+Description: .
+ms.assetid: 4b42d44d-cde8-4d96-96c5-24b7ab7e4cec
 title: Removal of Windows Registry Reflection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removal of Windows Registry Reflection

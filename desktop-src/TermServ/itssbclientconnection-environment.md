@@ -4,11 +4,14 @@ description: Retrieves an object that contains information about the environment
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '97fe4851-96a9-4b23-8ad7-f42b87c655d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 97fe4851-96a9-4b23-8ad7-f42b87c655d0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Environment property Remote Desktop Services", "Environment property Remote Desktop Services , ITsSbClientConnection interface", "ITsSbClientConnection interface Remote Desktop Services , Environment property"]
+keywords:
+- Environment property Remote Desktop Services
+- Environment property Remote Desktop Services , ITsSbClientConnection interface
+- ITsSbClientConnection interface Remote Desktop Services , Environment property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbClientConnection::Environment property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Environment(
-  [out, retval] ITsSbEnvironment **ppEnvironment
+  [out, retval] ITsSbEnvironment **ppEnvironment
 );
 ```
 
@@ -39,7 +45,7 @@ HRESULT get_Environment(
 
 ## Property value
 
-A pointer to a pointer to an [**ITsSbEnvironment**](itssbenvironment.md) environment object.
+A pointer to a pointer to an [**ITsSbEnvironment**](/windows/win32/sbtsv/nn-sbtsv-itssbenvironment?branch=master) environment object.
 
 ## Error codes
 
@@ -65,7 +71,7 @@ An orchestration plug-in can call this method to retrieve environment informatio
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                       |
 | IDL<br/>                      | <dl> <dt>Sbtsv.idl</dt> </dl> |
 
 
@@ -74,12 +80,12 @@ An orchestration plug-in can call this method to retrieve environment informatio
 
 <dl> <dt>
 
-[**ITsSbClientConnection**](itssbclientconnection.md)
+[**ITsSbClientConnection**](/windows/win32/sbtsv/nn-sbtsv-itssbclientconnection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

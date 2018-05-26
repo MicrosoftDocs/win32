@@ -1,8 +1,14 @@
 ---
 title: SERVICETYPE\_NOCHANGE
 description: The SERVICETYPE\_NOCHANGE service type is useful when making changes to QOS parameters for one direction of a given flow.
-ms.assetid: '729f3b74-a1b0-4665-8251-87bb113ca0a5'
-keywords: ["SERVICETYPE_NOCHANGE service type"]
+ms.assetid: 729f3b74-a1b0-4665-8251-87bb113ca0a5
+keywords:
+- SERVICETYPE_NOCHANGE service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SERVICETYPE\_NOCHANGE

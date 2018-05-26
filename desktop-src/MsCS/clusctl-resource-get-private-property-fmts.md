@@ -4,11 +4,12 @@ description: Retrieves a property list describing the format of each resource pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '755e1222-fd4c-40da-9ce4-d03192170c8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 755e1222-fd4c-40da-9ce4-d03192170c8d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_GET_PRIVATE_PROPERTY_FMTS control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_GET_PRIVATE_PROPERTY_FMTS control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_GET\_PRIVATE\_PROPERTY\_FMTS control code
 
-Retrieves a [property list](property-lists.md) describing the format of each resource [private property](private-properties.md). Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](clusterresourcecontrol.md) function.
+Retrieves a [property list](property-lists.md) describing the format of each resource [private property](private-properties.md). Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) function.
 
 
 ```C++
@@ -39,7 +43,7 @@ ClusterResourceControl( hResource,                                  // cluster h
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](clusterresourcecontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master).
 
 <dl> <dt>
 
@@ -52,7 +56,7 @@ On a successful return, points to a [property list](property-lists.md) describin
 
 ## Return value
 
-[**ClusterResourceControl**](clusterresourcecontrol.md) returns one of the following values.
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -81,7 +85,7 @@ If any other value is returned, then the operation failed. The value of *lpcbByt
 
 </dd> </dl>
 
-Implementations of [**ResourceControl**](resourcecontrol.md) can return the above values or the following value.
+Implementations of [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) can return the above values or the following value.
 
 <dl> <dt>
 
@@ -98,10 +102,10 @@ Incorrect function. Requests that the [Resource Monitor](resource-monitor.md) pe
 
 The property list returned by CLUSCTL\_RESOURCE\_GET\_PRIVATE\_PROPERTY\_FMTS contains one entry for each resource private property, formatted as follows:
 
--   A [**CLUSPROP\_PROPERTY\_NAME**](clusprop-property-name.md) structure describing the property name.
--   Alignment padding (see [**ALIGN\_CLUSPROP**](align-clusprop.md)).
--   A [**CLUSPROP\_WORD**](clusprop-word.md) structure describing the format of the property value.
--   A [**CLUSPROP\_SYNTAX**](clusprop-syntax.md) structure set to **CLUSPROP\_SYNTAX\_ENDMARK**, an enumerator from the [**CLUSTER\_PROPERTY\_SYNTAX**](cluster-property-syntax.md) enumeration.
+-   A [**CLUSPROP\_PROPERTY\_NAME**](/windows/previous-versions/ClusAPI/?branch=master) structure describing the property name.
+-   Alignment padding (see [**ALIGN\_CLUSPROP**](/windows/previous-versions/ClusAPI/nf-clusapi-align_clusprop?branch=master)).
+-   A [**CLUSPROP\_WORD**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_word?branch=master) structure describing the format of the property value.
+-   A [**CLUSPROP\_SYNTAX**](/windows/previous-versions/ClusAPI/ns-clusapi-clusprop_syntax?branch=master) structure set to **CLUSPROP\_SYNTAX\_ENDMARK**, an enumerator from the [**CLUSTER\_PROPERTY\_SYNTAX**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_property_syntax?branch=master) enumeration.
 
 For information on working with property lists, see [Using Property Lists](using-property-lists.md).
 
@@ -111,17 +115,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_GET\_PRIVATE\_PROPERTY\_FMTS
 
 | Component                 | Bit location     | Value                                                     |
 |---------------------------|------------------|-----------------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>               |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_RESOURCE** (0x1)<br/>               |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                    |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_NO\_MODIFY** (0x0)<br/>                     |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>                 |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                                 |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_GET\_PRIVATE\_PROPERTY\_FMTS** (0x8d)<br/> |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>                   |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_GET\_PRIVATE\_PROPERTY\_FMTS** (0x8d)<br/> |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>                   |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
@@ -129,7 +133,7 @@ Required. Return a [property list](property-lists.md) that describes the formats
 
 As a general guideline, the Resource Monitor should handle all of the control codes for [common properties](common-properties.md), while your DLL should handle all control codes for [private properties](private-properties.md).
 
-For more information on the [**ResourceControl**](resourcecontrol.md) entry point function, see [Implementing ResourceControl](implementing-resourcecontrol.md).
+For more information on the [**ResourceControl**](/windows/previous-versions/ResApi/nc-resapi-presource_control_routine?branch=master) entry point function, see [Implementing ResourceControl](implementing-resourcecontrol.md).
 
 ## Requirements
 
@@ -138,7 +142,7 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -150,12 +154,12 @@ For more information on the [**ResourceControl**](resourcecontrol.md) entry poin
 [External Resource Control Codes](external-resource-control-codes.md)
 </dt> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_REMOVE\_ACTIVITY\_BROADCAST.'
-ms.assetid: 'F2CD1373-CDBD-4D14-8C63-7A08A5EBCED6'
-title: 'IOCTL\_DOT4\_REMOVE\_ACTIVITY\_BROADCAST control code'
+---
+Description: This topic describes IOCTL\_DOT4\_REMOVE\_ACTIVITY\_BROADCAST.
+ms.assetid: F2CD1373-CDBD-4D14-8C63-7A08A5EBCED6
+title: IOCTL\_DOT4\_REMOVE\_ACTIVITY\_BROADCAST control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_REMOVE\_ACTIVITY\_BROADCAST control code

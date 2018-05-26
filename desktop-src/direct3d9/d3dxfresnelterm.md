@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calculate the Fresnel term.'
-ms.assetid: 'd3d281db-91a1-4100-8a82-028554b5a91d'
+---
+Description: Calculate the Fresnel term.
+ms.assetid: d3d281db-91a1-4100-8a82-028554b5a91d
 title: D3DXFresnelTerm function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFresnelTerm function

@@ -1,8 +1,11 @@
 ---
 title: PauseZone method of the MicrosoftDNS\_Zone class
 description: The PauseZone method pauses the DNS Zone.
-ms.assetid: 'dcca318d-b6fc-4efa-a33f-f9dea1831395'
-keywords: ["PauseZone method DNS", "PauseZone method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , PauseZone method"]
+ms.assetid: dcca318d-b6fc-4efa-a33f-f9dea1831395
+keywords:
+- PauseZone method DNS
+- PauseZone method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , PauseZone method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PauseZone method of the MicrosoftDNS\_Zone class
@@ -41,7 +49,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -84,9 +92,9 @@ This method does not return a value.
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

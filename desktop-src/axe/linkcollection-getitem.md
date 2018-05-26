@@ -1,8 +1,11 @@
 ---
 title: LinkCollection GetItem method
 description: Returns a Link from the LinkCollection.
-ms.assetid: 'BB5F4BE4-D6EA-4685-9FF8-DC6B8542DD91'
-keywords: ["GetItem method Access Execution Engine", "GetItem method Access Execution Engine , LinkCollection interface", "LinkCollection interface Access Execution Engine , GetItem method"]
+ms.assetid: BB5F4BE4-D6EA-4685-9FF8-DC6B8542DD91
+keywords:
+- GetItem method Access Execution Engine
+- GetItem method Access Execution Engine , LinkCollection interface
+- LinkCollection interface Access Execution Engine , GetItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LinkCollection::GetItem method
@@ -22,8 +30,8 @@ Returns a [**Link**](link-struct.md) from the **LinkCollection**.
 
 ```C++
 virtual HRESULT GetItem(
-  [in]  INT  index,
-  [out] Link **link
+  [in]  INT  index,
+  [out] Link **link
 ) = 0;
 ```
 
@@ -65,8 +73,8 @@ A **Link** holds data from a **Links/Link** or **AnalysisLinks/Link** element.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -79,9 +87,9 @@ A **Link** holds data from a **Links/Link** or **AnalysisLinks/Link** element.
 [**LinkCollection**](linkcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

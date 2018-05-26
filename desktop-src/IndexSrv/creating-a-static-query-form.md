@@ -1,7 +1,12 @@
 ---
 title: Creating a Static Query Form
 description: Creating a Static Query Form
-ms.assetid: '2babe437-f8c5-4ca9-b55c-575e3a05432e'
+ms.assetid: 2babe437-f8c5-4ca9-b55c-575e3a05432e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Static Query Form

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates how late the samples are arriving at the renderer, in reference time units. Syntax.'
-ms.assetid: '7b30fbe1-5e57-4aa4-8e87-ddd584f186e4'
-title: 'CVideoTransformFilter::m\_itrLate member'
+Description: Indicates how late the samples are arriving at the renderer, in reference time units. Syntax.
+ms.assetid: 7b30fbe1-5e57-4aa4-8e87-ddd584f186e4
+title: CVideoTransformFilterm\_itrLate member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter::m\_itrLate member
@@ -39,9 +44,9 @@ When the filter receives a quality message from downstream, it stores the latene
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

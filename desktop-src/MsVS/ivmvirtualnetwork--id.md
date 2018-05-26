@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualNetwork \_ID property
 description: The \_ID property contains an internal ID for this virtual network.
-ms.assetid: '8bd27cab-f492-49b4-9d63-ad5c4cd866c9'
-keywords: ["_ID property Virtual Server", "_ID property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , _ID property"]
+ms.assetid: 8bd27cab-f492-49b4-9d63-ad5c4cd866c9
+keywords:
+- _ID property Virtual Server
+- _ID property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , _ID property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::\_ID property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get__ID(
-  [out] VARIANT *identifier
+  [out] VARIANT *identifier
 );
 ```
 
@@ -57,8 +65,8 @@ Not usable by scripting languages.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -70,9 +78,9 @@ Not usable by scripting languages.
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

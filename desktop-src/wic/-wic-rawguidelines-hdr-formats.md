@@ -1,7 +1,12 @@
 ---
 Description: High Dynamic Range Pixel Formats
-ms.assetid: '037b6bde-a3e0-401d-9be7-b58c5f74c30a'
+ms.assetid: 037b6bde-a3e0-401d-9be7-b58c5f74c30a
 title: High Dynamic Range Pixel Formats
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # High Dynamic Range Pixel Formats

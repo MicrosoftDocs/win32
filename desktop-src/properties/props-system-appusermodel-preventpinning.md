@@ -1,7 +1,12 @@
 ---
-Description: 'Disables the ability of a shortcut or window to be pinned to the taskbar or the Start menu. This property also makes the item ineligible for inclusion in the Start menu''s Most Frequently Used (MFU) list.'
-ms.assetid: '86239BF8-BCFC-4e76-BF94-5ABA4639562C'
-title: 'System.AppUserModel.PreventPinning'
+Description: Disables the ability of a shortcut or window to be pinned to the taskbar or the Start menu. This property also makes the item ineligible for inclusion in the Start menus Most Frequently Used (MFU) list.
+ms.assetid: 86239BF8-BCFC-4e76-BF94-5ABA4639562C
+title: System.AppUserModel.PreventPinning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.AppUserModel.PreventPinning
@@ -12,7 +17,7 @@ This property must be set on a window before the [PKEY\_AppUserModel\_ID](shell.
 
 For more information about Application User Model IDs (AppUserModelIDs) and other methods of excluding an item from being pinned to the taskbar and from MFU inclusion, see [Application User Model IDs (AppUserModelIDs)](shell.AppIDs).
 
-To set this property on a window, use [**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.PreventPinning](shell.props_System_AppUserModel_PreventPinning) property of that window.
+To set this property on a window, use [**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master) to retrieve the window's property store, and use the methods of that retrieved [**IPropertyStore**](shell.IPropertyStore) object to set the [System.AppUserModel.PreventPinning](shell.props_System_AppUserModel_PreventPinning) property of that window.
 
 Setting this property causes the following properties to be ignored:
 
@@ -50,7 +55,7 @@ PKEY values are defined in Propkey.h.
 [System.AppUserModel.ID](shell.props_System_AppUserModel_Id)
 </dt> <dt>
 
-[**SHGetPropertyStoreForWindow**](shgetpropertystoreforwindow.md)
+[**SHGetPropertyStoreForWindow**](/windows/win32/Shellapi/nf-shellapi-shgetpropertystoreforwindow?branch=master)
 </dt> <dt>
 
 [propertyDescriptionList](shell.propdesc_schema_propertyDescriptionList)

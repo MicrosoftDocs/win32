@@ -1,14 +1,20 @@
 ---
 title: Source (registrationInfoType) Element
 description: Specifies where the task originated from. For example, from a component, a service, an application, or a user.
-ms.assetid: '174e2aac-7cd0-4c19-9441-2c93a3260c6f'
-keywords: ["Source element Task Scheduler"]
+ms.assetid: 174e2aac-7cd0-4c19-9441-2c93a3260c6f
+keywords:
+- Source element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Source
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Source (registrationInfoType) Element
@@ -38,7 +44,7 @@ The **Source** element is defined by the [**registrationInfoType**](taskschedule
 
 For scripting development, the source of a task is specified using the [**RegistrationInfo.Source**](registrationinfo-source.md) property.
 
-For C++ development, the source of a task is specified using the [**IRegistrationInfo::Source**](iregistrationinfo-source.md) property.
+For C++ development, the source of a task is specified using the [**IRegistrationInfo::Source**](/windows/win32/taskschd/nf-taskschd-iregistrationinfo-get_source?branch=master) property.
 
 ## Requirements
 
@@ -46,8 +52,8 @@ For C++ development, the source of a task is specified using the [**IRegistratio
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ For C++ development, the source of a task is specified using the [**IRegistratio
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Object Handlers
 description: Object Handlers
-ms.assetid: 'a5b51e07-246d-42a2-b33f-2bd0c608f41a'
+ms.assetid: a5b51e07-246d-42a2-b33f-2bd0c608f41a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Handlers

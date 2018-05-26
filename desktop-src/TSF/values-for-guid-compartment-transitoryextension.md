@@ -1,8 +1,9 @@
 ---
 title: Values for GUID\_COMPARTMENT\_TRANSITORYEXTENSION
 description: The following values of the GUID\_COMPARTMENT\_TRANSITORYEXTENSION compartment are used to control the behavior of transitory extension.
-ms.assetid: 'a81a18be-fb71-4414-a552-3ae2582349f9'
-keywords: ["Values for GUID_COMPARTMENT_TRANSITORYEXTENSION Text Services Framework"]
+ms.assetid: a81a18be-fb71-4414-a552-3ae2582349f9
+keywords:
+- Values for GUID_COMPARTMENT_TRANSITORYEXTENSION Text Services Framework
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ctffunc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Values for GUID\_COMPARTMENT\_TRANSITORYEXTENSION
@@ -46,9 +52,9 @@ This value starts the transitory extension with the popup UI at the IP or the se
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Ctffunc.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Ctffunc.idl</dt> </dl> |
 
@@ -61,9 +67,9 @@ This value starts the transitory extension with the popup UI at the IP or the se
 [Predefined Compartments](predefined-compartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Builds a matrix that rotates around the y-axis.'
-ms.assetid: 'b58def9b-29dc-4c7d-89a3-188ef9b9f94f'
+---
+Description: Builds a matrix that rotates around the y-axis.
+ms.assetid: b58def9b-29dc-4c7d-89a3-188ef9b9f94f
 title: D3DXMatrixRotationY function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixRotationY function

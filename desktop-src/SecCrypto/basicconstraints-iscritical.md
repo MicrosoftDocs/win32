@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the basic constraint extension is marked critical.'
-ms.assetid: '4e84ea58-397b-491c-bdab-b5b4d46e070e'
-title: 'BasicConstraints.IsCritical property'
+---
+Description: Retrieves a Boolean value that indicates whether the basic constraint extension is marked critical.
+ms.assetid: 4e84ea58-397b-491c-bdab-b5b4d46e070e
+title: BasicConstraints.IsCritical property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicConstraints.IsCritical property

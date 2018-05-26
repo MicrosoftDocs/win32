@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a specified property of a certificate trust list (CTL).'
-ms.assetid: '65309715-65b4-4608-960d-3404e68800a2'
+---
+Description: Retrieves a specified property of a certificate trust list (CTL).
+ms.assetid: 65309715-65b4-4608-960d-3404e68800a2
 title: CertStoreProvGetCTLProperty callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvGetCTLProperty callback function
@@ -38,7 +43,7 @@ A **HCERTSTOREPROV** handle to a [*certificate store*](security.c_gly#-security-
 *pCtlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CTL\_CONTEXT**](ctl-context.md) structure.
+A pointer to a [**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_ctl_context?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +64,7 @@ Any needed flag values.
 *pvData* \[out\]
 </dt> <dd>
 
-A pointer to a buffer to contain the pointer to a [**CTL\_CONTEXT**](ctl-context.md) structure to be returned by the function. To get the value of *pcbData* before allocating memory for the buffer, this parameter can be set to **NULL** on a first call to the function.
+A pointer to a buffer to contain the pointer to a [**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_ctl_context?branch=master) structure to be returned by the function. To get the value of *pcbData* before allocating memory for the buffer, this parameter can be set to **NULL** on a first call to the function.
 
 </dd> <dt>
 
@@ -91,7 +96,7 @@ If the function fails, it returns zero.
 
 <dl> <dt>
 
-[**CTL\_CONTEXT**](ctl-context.md)
+[**CTL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_ctl_context?branch=master)
 </dt> </dl>
 
  

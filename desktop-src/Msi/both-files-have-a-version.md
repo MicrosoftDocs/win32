@@ -1,7 +1,12 @@
 ---
-Description: 'If both files have a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.'
-ms.assetid: 'c4c8a23b-e1c2-4c96-b708-7cbcbcab4cd4'
+Description: If both files have a version number, the Windows Installer uses the logic illustrated by the following flow diagram to determine whether to replace all of the installed files belonging to the component.
+ms.assetid: c4c8a23b-e1c2-4c96-b708-7cbcbcab4cd4
 title: Both Files Have a Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Both Files Have a Version

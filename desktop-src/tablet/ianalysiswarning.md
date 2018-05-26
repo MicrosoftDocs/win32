@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a warning or error that occurs during an ink analysis operation.'
-ms.assetid: 'a9b0564b-8a49-44bc-9dbc-60a2fd5b60f2'
+Description: Represents a warning or error that occurs during an ink analysis operation.
+ms.assetid: a9b0564b-8a49-44bc-9dbc-60a2fd5b60f2
 title: IAnalysisWarning interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisWarning interface
@@ -29,7 +34,7 @@ The **IAnalysisWarning** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -126,7 +131,7 @@ STDMETHODIMP CMyClass::Results(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -146,9 +151,9 @@ STDMETHODIMP CMyClass::Results(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,21 +1,27 @@
 ---
 title: cut command
 description: The cut command removes data from the workspace and copies it to the clipboard. Digital-video devices recognize this command.
-ms.assetid: 'f42c7364-49cb-41be-b601-bda6e97d1e76'
-keywords: ["cut command Windows Multimedia"]
+ms.assetid: f42c7364-49cb-41be-b601-bda6e97d1e76
+keywords:
+- cut command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - cut
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cut command
 
 The cut command removes data from the workspace and copies it to the clipboard. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -55,7 +61,7 @@ One of the following flags identifying the item to cut.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -80,8 +86,8 @@ The change becomes permanent only when the data is explicitly saved; however, pl
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -95,9 +101,9 @@ The change becomes permanent only when the data is explicitly saved; however, pl
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

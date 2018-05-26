@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the amount of time that a component is taking to process each sample.'
-ms.assetid: '84f81ee1-76d8-46fb-86ef-2500f8f4ef36'
-title: 'EC\_PROCESSING\_LATENCY'
+Description: Indicates the amount of time that a component is taking to process each sample.
+ms.assetid: 84f81ee1-76d8-46fb-86ef-2500f8f4ef36
+title: EC\_PROCESSING\_LATENCY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_PROCESSING\_LATENCY
@@ -54,9 +59,9 @@ A presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer-filter
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

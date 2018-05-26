@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a variety of information for the battery.'
-ms.assetid: '4cc89b89-ab33-47c2-8327-9627cbd1595e'
-title: 'IOCTL\_BATTERY\_QUERY\_INFORMATION control code'
+Description: Retrieves a variety of information for the battery.
+ms.assetid: 4cc89b89-ab33-47c2-8327-9627cbd1595e
+title: IOCTL\_BATTERY\_QUERY\_INFORMATION control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_BATTERY\_QUERY\_INFORMATION control code
@@ -71,7 +76,7 @@ The following table shows the data returned by a given information level.
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **BatteryDeviceName**             | **Null**-terminated Unicode string that specifies the battery's name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **BatteryEstimatedTime**          | A **ULONG** that specifies estimated battery run time, in seconds. If the rate of drain provided in the **AtRate** member of the [**BATTERY\_QUERY\_INFORMATION**](battery-query-information-str.md) structure is zero, this calculation is based on the present rate of drain. If **AtRate** is nonzero, the time returned is the expected run time for the given rate. If the estimated time is unknown (for example, the battery is not discharging and **AtRate** is zero), **BATTERY\_UNKNOWN\_TIME** is returned. Note that this value is not very accurate on some battery systems. The value may vary widely depending on present power usage, which could be affected by disk activity and other factors. There is no notification mechanism for changes in this value. |
-| **BatteryGranularityInformation** | A variable-length array of [**BATTERY\_REPORTING\_SCALE**](battery-reporting-scale-str.md) structures that contains the reporting granularity for the battery capacity that is returned from [**IOCTL\_BATTERY\_QUERY\_STATUS**](ioctl-battery-query-status.md). Multiple entries are returned when the granularity depends on the present capacity of the battery. See **BATTERY\_REPORTING\_SCALE** for the interpretation of the array of entries. The number of entries is indicated by the size of the buffer returned, and can be calculated as (*lpBytesReturned* / sizeof (**BATTERY\_REPORTING\_SCALE**)). The maximum number of entries that will be returned is four.                                                                                                |
+| **BatteryGranularityInformation** | A variable-length array of [**BATTERY\_REPORTING\_SCALE**](/windows/win32/WinNT/ns-winnt-battery_reporting_scale?branch=master) structures that contains the reporting granularity for the battery capacity that is returned from [**IOCTL\_BATTERY\_QUERY\_STATUS**](ioctl-battery-query-status.md). Multiple entries are returned when the granularity depends on the present capacity of the battery. See **BATTERY\_REPORTING\_SCALE** for the interpretation of the array of entries. The number of entries is indicated by the size of the buffer returned, and can be calculated as (*lpBytesReturned* / sizeof (**BATTERY\_REPORTING\_SCALE**)). The maximum number of entries that will be returned is four.                                                                                                |
 | **BatteryInformation**            | A [**BATTERY\_INFORMATION**](battery-information-str.md) structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **BatteryManufactureDate**        | A [**BATTERY\_MANUFACTURE\_DATE**](battery-manufacture-date-str.md) structure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **BatteryManufactureName**        | **Null**-terminated Unicode string that contains the name of the manufacturer of the battery.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -81,7 +86,7 @@ The following table shows the data returned by a given information level.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -142,9 +147,9 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>BatClass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>BatClass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -164,7 +169,7 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 [**BATTERY\_QUERY\_INFORMATION**](battery-query-information-str.md)
 </dt> <dt>
 
-[**BATTERY\_REPORTING\_SCALE**](battery-reporting-scale-str.md)
+[**BATTERY\_REPORTING\_SCALE**](/windows/win32/WinNT/ns-winnt-battery_reporting_scale?branch=master)
 </dt> <dt>
 
 [**IOCTL\_BATTERY\_QUERY\_STATUS**](ioctl-battery-query-status.md)
@@ -176,9 +181,9 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 [**IOCTL\_BATTERY\_SET\_INFORMATION**](ioctl-battery-set-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

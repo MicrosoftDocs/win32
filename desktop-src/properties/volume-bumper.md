@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '7ac47142-67f2-4cca-a8d2-006293c48876'
+---
+Description: .
+ms.assetid: 7ac47142-67f2-4cca-a8d2-006293c48876
 title: Volume
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume

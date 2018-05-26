@@ -1,7 +1,12 @@
 ---
-Description: 'A qualified component is a method of single-level indirection, similar to a pointer.'
-ms.assetid: 'b483fa7d-d31d-4855-89e5-f733541cd92d'
+Description: A qualified component is a method of single-level indirection, similar to a pointer.
+ms.assetid: b483fa7d-d31d-4855-89e5-f733541cd92d
 title: Qualified Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualified Components
@@ -12,8 +17,8 @@ Qualified components are entered in the Component table in the same way as ordin
 
 For example, a qualified component ID GUID can point to different language versions of a resource DLL. In this case, the group of localized resource DLLs comprises the category and the numeric locale identifiers (LCID) strings are commonly used as the qualifiers. A developer could author an installation package that uses these qualified components to do the following:
 
--   Find the path to a particular language version of the resource DLL using [**MsiProvideQualifiedComponent**](msiprovidequalifiedcomponent.md) or [**MsiProvideQualifiedComponentEx**](msiprovidequalifiedcomponentex.md) and install the resource.
--   Determine all of the language versions of the resource DLL that are present by calling [**MsiEnumComponentQualifiers**](msienumcomponentqualifiers.md).
+-   Find the path to a particular language version of the resource DLL using [**MsiProvideQualifiedComponent**](/windows/win32/Msi/nf-msi-msiprovidequalifiedcomponenta?branch=master) or [**MsiProvideQualifiedComponentEx**](/windows/win32/Msi/nf-msi-msiprovidequalifiedcomponentexa?branch=master) and install the resource.
+-   Determine all of the language versions of the resource DLL that are present by calling [**MsiEnumComponentQualifiers**](/windows/win32/Msi/nf-msi-msienumcomponentqualifiersa?branch=master).
 -   Prepare the application to support additional languages. A future language pack for the application can use the qualified component to add more language versions of the resource DLL.
 
 For more information, see [Using Qualified Components](using-qualified-components.md).

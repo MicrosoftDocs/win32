@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the template extension is present.'
-ms.assetid: 'cc7f9853-8212-470d-b372-43a4bbd517f7'
-title: 'Template.IsPresent property'
+---
+Description: Retrieves a Boolean value that indicates whether the template extension is present.
+ms.assetid: cc7f9853-8212-470d-b372-43a4bbd517f7
+title: Template.IsPresent property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Template.IsPresent property

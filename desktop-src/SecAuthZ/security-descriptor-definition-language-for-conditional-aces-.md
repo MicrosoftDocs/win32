@@ -1,7 +1,12 @@
 ---
-Description: 'A conditional access control entry (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.'
-ms.assetid: 'cdc3629d-c4d8-4910-8838-3bdb601f7064'
+Description: A conditional access control entry (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.
+ms.assetid: cdc3629d-c4d8-4910-8838-3bdb601f7064
 title: Security Descriptor Definition Language for Conditional ACEs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Descriptor Definition Language for Conditional ACEs
@@ -39,7 +44,7 @@ The fields are as described in [ACE Strings](ace-strings.md), with the following
 
     
 
-     
+     
 
 -   The ACE string includes one or more conditional expressions, enclosed in parentheses at the end of the string.
 
@@ -53,19 +58,19 @@ A conditional expression can include any of the following elements.
 |-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *AttributeName*<br/>                                        | Tests whether the specified attribute has a nonzero value.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **exists** *AttributeName*<br/>                             | Tests whether the specified attribute exists in the client context.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| *AttributeName* *Operator* *Value*<br/>                     | Returns the result of the specified operation.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| *AttributeName* *Operator* *Value*<br/>                     | Returns the result of the specified operation.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | *ConditionalExpression***\|\|***ConditionalExpression*<br/> | Tests whether either of the specified conditional expressions is true.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | *ConditionalExpression* **&&** *ConditionalExpression*<br/> | Tests whether both of the specified conditional expressions are true.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **!(***ConditionalExpression***)**<br/>                     | The inverse of a conditional expression.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Member\_of{***SidArray***}**<br/>                         | Tests whether the [**SID\_AND\_ATTRIBUTES**](sid-and-attributes.md) array of the client context contains all of the [Security Identifiers](security-identifiers.md) (SIDs) in the comma-separated list specified by *SidArray*.<br/> For Allow ACEs, a client context SID must have the **SE\_GROUP\_ENABLED** attribute set to be considered a match.<br/> For Deny ACEs, a client context SID must have either the **SE\_GROUP\_ENABLED** or the **SE\_GROUP\_USE\_FOR\_DENY\_ONLY** attribute set to be considered a match.<br/> The *SidArray* array can contain either SID strings (for example, "S-1-5-6") or SID aliases (for example, "BA"<br/> |
+| **Member\_of{***SidArray***}**<br/>                         | Tests whether the [**SID\_AND\_ATTRIBUTES**](/windows/win32/Winnt/ns-winnt-_sid_and_attributes?branch=master) array of the client context contains all of the [Security Identifiers](security-identifiers.md) (SIDs) in the comma-separated list specified by *SidArray*.<br/> For Allow ACEs, a client context SID must have the **SE\_GROUP\_ENABLED** attribute set to be considered a match.<br/> For Deny ACEs, a client context SID must have either the **SE\_GROUP\_ENABLED** or the **SE\_GROUP\_USE\_FOR\_DENY\_ONLY** attribute set to be considered a match.<br/> The *SidArray* array can contain either SID strings (for example, "S-1-5-6") or SID aliases (for example, "BA"<br/> |
 
 
 
- 
+ 
 
 ## Attributes
 
-An attribute represents an element in the [**AUTHZ\_SECURITY\_ATTRIBUTES\_INFORMATION**](authz-security-attributes-information.md) array in the client context. An attribute name can contain any alphanumeric characters and any of the characters ":", "/", ".", and "\_".
+An attribute represents an element in the [**AUTHZ\_SECURITY\_ATTRIBUTES\_INFORMATION**](/windows/win32/Authz/ns-authz-_authz_security_attributes_information?branch=master) array in the client context. An attribute name can contain any alphanumeric characters and any of the characters ":", "/", ".", and "\_".
 
 An attribute value can be any of the following types.
 
@@ -80,11 +85,11 @@ An attribute value can be any of the following types.
 
 
 
- 
+ 
 
 ## Operators
 
-The following operators are defined for use in conditional expressions to test the values of attributes. All of these are binary operators and used in the form *AttributeName* *Operator* *Value*.
+The following operators are defined for use in conditional expressions to test the values of attributes. All of these are binary operators and used in the form *AttributeName* *Operator* *Value*.
 
 
 
@@ -101,7 +106,7 @@ The following operators are defined for use in conditional expressions to test t
 
 
 
- 
+ 
 
 In addition, the unary operators Exists, Member\_of, and negation (!) are defined as described in the Conditional Expressions table.
 
@@ -142,7 +147,7 @@ The following table describes the results for a logical **AND** operation betwee
 
 
 
- 
+ 
 
 The following table describes the results for a logical **OR** operation between two conditional expressions, *ConditionalExpression1* and *ConditionalExpression2*.
 
@@ -162,7 +167,7 @@ The following table describes the results for a logical **OR** operation between
 
 
 
- 
+ 
 
 The negation of a conditional expression with a value of **UNKNOWN** is also **UNKNOWN**.
 
@@ -177,7 +182,7 @@ The following table describes the access check result of a conditional ACE depen
 
 
 
- 
+ 
 
 ## Examples
 
@@ -212,7 +217,7 @@ D:(XA; ;FX;;;S-1-1-0; (@User.Title=="PM" && (@User.Division=="Finance" \|\| @Use
 <span id="Policy"></span><span id="policy"></span><span id="POLICY"></span>Policy
 </dt> <dd>
 
-Allow execute if any of the user’s projects intersect with the file’s projects.
+Allow execute if any of the user s projects intersect with the file s projects.
 
 </dd> <dt>
 
@@ -258,9 +263,9 @@ D:(XA; ;FR;;;S-1-1-0; (Member\_of {SID(Smartcard\_SID), SID(BO)} && @Device.Bitl
 [\[MS-DTYP\]: Security Descriptor Description Language](http://msdn.microsoft.com/library/cc230368(PROT.10).aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

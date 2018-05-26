@@ -1,7 +1,12 @@
 ---
 title: About the Control Point API
 description: UPnP technology enables dynamic networking of intelligent appliances, PCs, and other control points.
-ms.assetid: 'd81a654f-e92b-41dc-a5ff-27923c1313e0'
+ms.assetid: d81a654f-e92b-41dc-a5ff-27923c1313e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Control Point API

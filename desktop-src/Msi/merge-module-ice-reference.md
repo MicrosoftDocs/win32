@@ -1,7 +1,12 @@
 ---
-Description: 'The following list provides links to each Merge Module ICE.'
-ms.assetid: '3b106a81-99b6-4ac6-95be-537fc14e0510'
+Description: The following list provides links to each Merge Module ICE.
+ms.assetid: 3b106a81-99b6-4ac6-95be-537fc14e0510
 title: Merge Module ICE Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge Module ICE Reference

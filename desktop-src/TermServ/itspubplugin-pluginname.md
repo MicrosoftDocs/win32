@@ -4,11 +4,14 @@ description: Retrieves the name of the plug-in.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c1ea46b6-fac6-4140-a278-cb04ee9af739'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c1ea46b6-fac6-4140-a278-cb04ee9af739
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["pluginName property Remote Desktop Services", "pluginName property Remote Desktop Services , ItsPubPlugin interface", "ItsPubPlugin interface Remote Desktop Services , pluginName property"]
+keywords:
+- pluginName property Remote Desktop Services
+- pluginName property Remote Desktop Services , ItsPubPlugin interface
+- ItsPubPlugin interface Remote Desktop Services , pluginName property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Cpubplugin.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ItsPubPlugin::pluginName property
@@ -31,7 +37,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_pluginName(
-  [out, retval] BSTR *pVal
+  [out, retval] BSTR *pVal
 );
 ```
 
@@ -48,7 +54,7 @@ A pointer to a **BSTR** variable to receive the name of the plug-in.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
 | IDL<br/>                      | <dl> <dt>Cpubplugin.idl</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ A pointer to a **BSTR** variable to receive the name of the plug-in.
 
 <dl> <dt>
 
-[**ItsPubPlugin**](itspubplugin.md)
+[**ItsPubPlugin**](/windows/win32/tspubplugincom/nn-tspubplugincom-itspubplugin?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

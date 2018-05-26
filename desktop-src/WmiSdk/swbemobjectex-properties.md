@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemObjectEx object exposes the following properties.'
+Description: The SWbemObjectEx object exposes the following properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '55E68C6F-DC92-404E-B0A7-7CBC571F6EE3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 55E68C6F-DC92-404E-B0A7-7CBC571F6EE3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectEx Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectEx Properties

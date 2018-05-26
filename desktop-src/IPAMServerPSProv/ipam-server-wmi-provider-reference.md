@@ -1,15 +1,18 @@
 ---
-Description: 'This section contains the classes of the IPAM Server WMI provider.'
+Description: This section contains the classes of the IPAM Server WMI provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e7d30088-6196-47d7-abd8-36baac0f2095'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e7d30088-6196-47d7-abd8-36baac0f2095
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: IPAM Server WMI Provider Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPAM Server WMI Provider Reference

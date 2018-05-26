@@ -1,7 +1,12 @@
 ---
 Description: Requirements for Resources
-ms.assetid: '6b654cd6-7e9f-4e12-a687-4110e600ba7b'
+ms.assetid: 6b654cd6-7e9f-4e12-a687-4110e600ba7b
 title: Requirements for Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Requirements for Resources

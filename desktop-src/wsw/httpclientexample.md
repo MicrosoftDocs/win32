@@ -1,8 +1,16 @@
 ---
 title: HttpClientExample
 description: This example shows a HTTP client that sends request-reply messages.
-ms.assetid: 'e32a35f7-df01-4d6d-966c-6cf079b1b3a7'
-keywords: ["HttpClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: e32a35f7-df01-4d6d-966c-6cf079b1b3a7
+keywords:
+- HttpClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpClientExample

@@ -1,12 +1,17 @@
 ---
-Description: 'Synchronous pipe I/O and asynchronous pipe I/O. The ReadFile, WriteFile, TransactNamedPipe, and ConnectNamedPipe functions can perform input and output operations on a pipe either synchronously or asynchronously.'
-ms.assetid: '5ab9bb7f-1f99-4041-bba8-2863f34dbcaf'
-title: 'Synchronous and Overlapped Pipe I/O'
+Description: Synchronous pipe I/O and asynchronous pipe I/O. The ReadFile, WriteFile, TransactNamedPipe, and ConnectNamedPipe functions can perform input and output operations on a pipe either synchronously or asynchronously.
+ms.assetid: 5ab9bb7f-1f99-4041-bba8-2863f34dbcaf
+title: Synchronous and Overlapped Pipe I/O
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Synchronous and Overlapped Pipe I/O
 
-The [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), [**TransactNamedPipe**](transactnamedpipe.md), and [**ConnectNamedPipe**](connectnamedpipe.md) functions can perform input and output operations on a pipe either synchronously or asynchronously. When a function runs synchronously, it does not return until the operation it is performing is completed. This means that the execution of the calling thread can be blocked for an indefinite period while it waits for a time-consuming operation to be completed. When a function runs asynchronously, it returns immediately, even if the operation has not been completed. This enables a time-consuming operation to be executed in the background while the calling thread is free to perform other tasks.
+The [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), [**TransactNamedPipe**](/windows/win32/Winbase/?branch=master), and [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master) functions can perform input and output operations on a pipe either synchronously or asynchronously. When a function runs synchronously, it does not return until the operation it is performing is completed. This means that the execution of the calling thread can be blocked for an indefinite period while it waits for a time-consuming operation to be completed. When a function runs asynchronously, it returns immediately, even if the operation has not been completed. This enables a time-consuming operation to be executed in the background while the calling thread is free to perform other tasks.
 
 Using asynchronous I/O enables a pipe server to use a loop that performs the following steps:
 
@@ -20,13 +25,13 @@ For a pipe server to use synchronous operations to communicate with more than on
 
 ## Enabling Asynchronous Operation
 
-The [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), [**TransactNamedPipe**](transactnamedpipe.md), and [**ConnectNamedPipe**](connectnamedpipe.md) functions can be performed asynchronously only if you enable overlapped mode for the specified pipe handle and specify a valid pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure. If the **OVERLAPPED** pointer is **NULL**, the function return value can incorrectly indicate that the operation has been completed. Therefore, it is strongly recommended that if you create a handle with FILE\_FLAG\_OVERLAPPED and want asynchronous behavior, you should always specify a valid **OVERLAPPED** structure.
+The [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), [**TransactNamedPipe**](/windows/win32/Winbase/?branch=master), and [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master) functions can be performed asynchronously only if you enable overlapped mode for the specified pipe handle and specify a valid pointer to an [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure. If the **OVERLAPPED** pointer is **NULL**, the function return value can incorrectly indicate that the operation has been completed. Therefore, it is strongly recommended that if you create a handle with FILE\_FLAG\_OVERLAPPED and want asynchronous behavior, you should always specify a valid **OVERLAPPED** structure.
 
 The **hEvent** member of the specified [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure must contain a handle to a manual-reset event object. This is a synchronization object created by the [**CreateEvent**](https://msdn.microsoft.com/library/windows/desktop/ms682396) function. The thread that initiates the overlapped operation uses the event object to determine when the operation has finished. You should not use the pipe handle for synchronization when performing simultaneous operations on the same handle because there is no way of knowing which operation's completion caused the pipe handle to be signaled. The only reliable technique for performing simultaneous operations on the same pipe handle is to use a separate **OVERLAPPED** structure with its own event object for each operation. For more information about event objects, see [Synchronization](https://msdn.microsoft.com/library/windows/desktop/ms686353).
 
 Also, you can be notified when an overlapped operation completes by using the [**GetQueuedCompletionStatus**](https://msdn.microsoft.com/library/windows/desktop/aa364986) or [**GetQueuedCompletionStatusEx**](https://msdn.microsoft.com/library/windows/desktop/aa364988) functions. In this case, you do not need to assign the manual-reset event in the [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure, and the completion happens against the pipe handle in the same way as an asynchronous read or write operation. For more information, see [I/O Completion Ports](https://msdn.microsoft.com/library/windows/desktop/aa365198).
 
-When [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), [**TransactNamedPipe**](transactnamedpipe.md), and [**ConnectNamedPipe**](connectnamedpipe.md) operations are performed asynchronously, one of the following occurs:
+When [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), [**TransactNamedPipe**](/windows/win32/Winbase/?branch=master), and [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master) operations are performed asynchronously, one of the following occurs:
 
 -   If the operation is complete when the function returns, the return value indicates the success or failure of the operation. If an error occurs, the return value is zero and the [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) function returns something other than ERROR\_IO\_PENDING.
 -   If the operation has not finished when the function returns, the return value is zero and [**GetLastError**](https://msdn.microsoft.com/library/windows/desktop/ms679360) returns ERROR\_IO\_PENDING. In this case, the calling thread must wait until the operation has finished. The calling thread must then call the [**GetOverlappedResult**](https://msdn.microsoft.com/library/windows/desktop/ms683209) function to determine the results.

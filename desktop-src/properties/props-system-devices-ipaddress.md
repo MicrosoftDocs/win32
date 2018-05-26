@@ -1,7 +1,12 @@
 ---
-Description: 'IP address of the device.'
-ms.assetid: 'bf06dd91-b0e8-434e-8551-6a2a659b8093'
-title: 'System.Devices.IpAddress'
+Description: IP address of the device.
+ms.assetid: bf06dd91-b0e8-434e-8551-6a2a659b8093
+title: System.Devices.IpAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.IpAddress

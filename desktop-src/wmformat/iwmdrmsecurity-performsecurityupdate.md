@@ -1,8 +1,11 @@
 ---
 title: IWMDRMSecurity PerformSecurityUpdate method
 description: The PerformSecurityUpdate method initiates a security update to the DRM subsystem on the local computer.
-ms.assetid: 'e450a1e3-6024-4c00-9978-fbc88fde2101'
-keywords: ["PerformSecurityUpdate method windows Media Format", "PerformSecurityUpdate method windows Media Format , IWMDRMSecurity interface", "IWMDRMSecurity interface windows Media Format , PerformSecurityUpdate method"]
+ms.assetid: e450a1e3-6024-4c00-9978-fbc88fde2101
+keywords:
+- PerformSecurityUpdate method windows Media Format
+- PerformSecurityUpdate method windows Media Format , IWMDRMSecurity interface
+- IWMDRMSecurity interface windows Media Format , PerformSecurityUpdate method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMSecurity::PerformSecurityUpdate method
@@ -23,8 +31,8 @@ The **PerformSecurityUpdate** method initiates a security update to the DRM subs
 
 ```C++
 HRESULT PerformSecurityUpdate(
-  [in]  DWORD    dwFlags,
-  [out] IUnknown **ppunkCancelationCookie
+  [in]  DWORD    dwFlags,
+  [out] IUnknown **ppunkCancelationCookie
 );
 ```
 
@@ -49,7 +57,7 @@ Update option expressed as one of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,7 +80,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,7 +93,7 @@ For refreshing the revocation lists (flag set to WMDRM\_SECURITY\_PERFORM\_REVOC
 > [!Note]  
 > When **PerformSecurityUpdate** completes individualization, the only existing objects that will reflect the new individualized state are those that inherit from **IWMDRMSecurity**. All other existing objects will not be updated. You must release and re-create any other objects so that they will reflect the new individualized state.
 
- 
+ 
 
 For more information about using the asynchronous methods of the Windows Media DRM Client Extended APIs, see [Using the Media Foundation Event Model](using-the-media-foundation-model.md).
 
@@ -116,9 +124,9 @@ For more information about using the asynchronous methods of the Windows Media D
 [**Performing DRM Individualization**](performing-drm-individualization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

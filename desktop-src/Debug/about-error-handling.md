@@ -1,7 +1,12 @@
 ---
-Description: 'The error handling functions enable you to receive and display error information for your application.'
-ms.assetid: 'faff149b-254e-44da-a59c-1b738acb6941'
+Description: The error handling functions enable you to receive and display error information for your application.
+ms.assetid: faff149b-254e-44da-a59c-1b738acb6941
 title: About Error Handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Error Handling

@@ -1,8 +1,24 @@
 ---
 title: About the Creation Container Object
 description: New WPDObjects are created only when either the Service.CreateNewObject method or the Storage.CreateNewObject method is called.
-ms.assetid: '6fe901a2-0702-4622-9350-d5bfd0dcc5cb'
-keywords: ["WPD Automation,WPDObject", "WPD Automation,Service object", "WPD Automation,Storage object", "WPD Automation,CreateNewObject", "WPD Automation,Creation Container object", "WPDObject,WPD Automation", "WPDObject,childrenCollection object", "Creation Container object", "CreateNewObject", "Service object,Creation Container object", "Storage object,Creation Container object"]
+ms.assetid: 6fe901a2-0702-4622-9350-d5bfd0dcc5cb
+keywords:
+- WPD Automation,WPDObject
+- WPD Automation,Service object
+- WPD Automation,Storage object
+- WPD Automation,CreateNewObject
+- WPD Automation,Creation Container object
+- WPDObject,WPD Automation
+- WPDObject,childrenCollection object
+- Creation Container object
+- CreateNewObject
+- Service object,Creation Container object
+- Storage object,Creation Container object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Creation Container Object

@@ -4,11 +4,14 @@ description: The Help property returns the description of the task.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8b1ae7e3-fec3-4c5f-a117-257bec0f464b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8b1ae7e3-fec3-4c5f-a117-257bec0f464b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Help property MMC", "Help property MMC , MMCTask class", "MMCTask class MMC , Help property"]
+keywords:
+- Help property MMC
+- Help property MMC , MMCTask class
+- MMCTask class MMC , Help property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCTask.Help property
@@ -53,9 +59,9 @@ The **Help** property specifies the descriptive text that should be displayed wh
 
 
 
- 
+ 
 
- 
+ 
 
 
 

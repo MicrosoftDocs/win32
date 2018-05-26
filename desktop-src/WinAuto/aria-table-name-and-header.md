@@ -1,8 +1,14 @@
 ---
 title: ARIA Data Table Error
 description: ARIA Data Table Error
-ms.assetid: '3D0448BB-50DC-4C85-93BD-D8E626475AB0'
-keywords: ["AriaDataTableErrorId"]
+ms.assetid: 3D0448BB-50DC-4C85-93BD-D8E626475AB0
+keywords:
+- AriaDataTableErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Data Table Error

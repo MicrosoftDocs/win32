@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetIscsiGroupPresharedKey method sets the iSCSI group Preshared Key for the Initiator.'
-ms.assetid: 'a7bb20a6-3e4b-4b3e-973c-f23f584f7d24'
-title: 'SetIscsiGroupPresharedKey method of the MSiSCSIInitiator\_MethodClass class'
+---
+Description: The SetIscsiGroupPresharedKey method sets the iSCSI group Preshared Key for the Initiator.
+ms.assetid: a7bb20a6-3e4b-4b3e-973c-f23f584f7d24
+title: SetIscsiGroupPresharedKey method of the MSiSCSIInitiator\_MethodClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetIscsiGroupPresharedKey method of the MSiSCSIInitiator\_MethodClass class

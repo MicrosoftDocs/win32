@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the value for a specified Windows Internet Explorer policy.'
-ms.assetid: '490c3e18-b606-456a-9016-dc4f7bad2bc3'
-title: 'IShellDispatch4.ExplorerPolicy method'
+---
+Description: Gets the value for a specified Windows Internet Explorer policy.
+ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
+title: IShellDispatch4.ExplorerPolicy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch4.ExplorerPolicy method

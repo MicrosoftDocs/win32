@@ -2,11 +2,13 @@
 title: PS\_VpnConnection class
 description: The PS\_VpnConnection class contains the profile management functionality of the Get Connected wizard (GCW).
 audience: developer
-ms.assetid: '2ac4741d-87bc-4a81-a8c8-f6e0806ebafc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2ac4741d-87bc-4a81-a8c8-f6e0806ebafc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_VpnConnection class", "PS_VpnConnection class, described"]
+keywords:
+- PS_VpnConnection class
+- PS_VpnConnection class, described
 topic_type:
 - apiref
 api_name:
@@ -47,6 +49,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_VpnConnection class
@@ -61,38 +66,38 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), InPartition("local-system", "local-user"), dynamic, provider("VpnClientPSProvider"), AMENDMENT]
 class PS_VpnConnection
 {
-  string                                  Name;
-  boolean                                 AllUserConnection;
-  string                                  ServerAddress;
-  string                                  ProfileType;
-  string                                  ProvisioningAuthority;
-  boolean                                 RememberCredential;
-  boolean                                 SplitTunneling;
-  string                                  Guid;
-  string                                  ConnectionStatus;
-  uint32                                  IdleDisconnectSeconds;
-  string                                  DnsSuffix;
-  string                                  TunnelType;
-  boolean                                 UseWinlogonCredential;
-  string                                  AuthenticationMethod[];
-  string                                  EncryptionLevel;
-  string                                  L2tpPsk;
-  string                                  L2tpIPsecAuth;
-  string                                  EapConfigXmlStream;
-  string                                  NapState;
-  string                                  VpnConfigurationXml;
-  string                                  MachineCertificateEKUFilter[];
-  string                                  MachineCertificateIssuerFilter;
-  string                                  ApplicationID[];
-  PS_VpnServerAddress                     ServerList[];
-  PS_VpnConnectionRoute                   Routes[];
+  string                                  Name;
+  boolean                                 AllUserConnection;
+  string                                  ServerAddress;
+  string                                  ProfileType;
+  string                                  ProvisioningAuthority;
+  boolean                                 RememberCredential;
+  boolean                                 SplitTunneling;
+  string                                  Guid;
+  string                                  ConnectionStatus;
+  uint32                                  IdleDisconnectSeconds;
+  string                                  DnsSuffix;
+  string                                  TunnelType;
+  boolean                                 UseWinlogonCredential;
+  string                                  AuthenticationMethod[];
+  string                                  EncryptionLevel;
+  string                                  L2tpPsk;
+  string                                  L2tpIPsecAuth;
+  string                                  EapConfigXmlStream;
+  string                                  NapState;
+  string                                  VpnConfigurationXml;
+  string                                  MachineCertificateEKUFilter[];
+  string                                  MachineCertificateIssuerFilter;
+  string                                  ApplicationID[];
+  PS_VpnServerAddress                     ServerList[];
+  PS_VpnConnectionRoute                   Routes[];
   PS_VpnConnectionTriggerDnsConfiguration DnsConfig[];
-  string                                  DnsSuffixSearchList[];
-  string                                  TrustedNetwork[];
-  PS_VpnConnectionProxy                   Proxy;
-  string                                  PlugInApplicationID;
-  string                                  CustomConfiguration;
-  boolean                                 IsAutoTriggerEnabled;
+  string                                  DnsSuffixSearchList[];
+  string                                  TrustedNetwork[];
+  PS_VpnConnectionProxy                   Proxy;
+  string                                  PlugInApplicationID;
+  string                                  CustomConfiguration;
+  boolean                                 IsAutoTriggerEnabled;
 };
 ```
 
@@ -120,7 +125,7 @@ The **PS\_VpnConnection** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -431,7 +436,7 @@ Maximum encryption.
 
 Custom encryption.
 
-**Windows 8 and Windows Server 2012:** This value is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** This value is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -474,7 +479,7 @@ Access type: Read-only
 
 **true** if the VPN connection is enabled for auto-trigger; **false** if it is not.
 
-**Windows 8 and Windows Server 2012:** This property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** This property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -690,7 +695,7 @@ Access type: Read/write
 
 The provisioning authority of the VPN connection profile.
 
-**Windows 8 and Windows Server 2012:** This property is not available before Windows 8.1 and Windows Server 2012 R2.
+**Windows 8 and Windows Server 2012:** This property is not available before Windows 8.1 and Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -896,17 +901,17 @@ An XML representation of this instance, which can be used as input for [**Set**]
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

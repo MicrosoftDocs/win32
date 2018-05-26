@@ -1,8 +1,14 @@
 ---
 title: Extensible Authentication Protocol Reference
 description: This section describes the reference elements that are used to implement the Extensible Authentication Protocol (EAP).
-ms.assetid: 'd3cb25ce-6fb9-4fca-8662-3efef14238a5'
-keywords: ["Extensible Authentication Protocol,reference"]
+ms.assetid: d3cb25ce-6fb9-4fca-8662-3efef14238a5
+keywords:
+- Extensible Authentication Protocol,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensible Authentication Protocol Reference

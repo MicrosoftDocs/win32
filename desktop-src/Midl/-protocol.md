@@ -2,13 +2,19 @@
 title: /protocol switch
 description: The /protocol switch specifies which wire protocol is supported by the generated stub.
 ms.assetid: b565b30c-72e5-442b-9588-324b9041524b
-keywords: ["/protocol switch MIDL"]
+keywords:
+- /protocol switch MIDL
 topic_type:
 - apiref
 api_name:
 - /protocol
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /protocol switch

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes the format of an exported DSS version 3 private key.'
-ms.assetid: '650532fd-919b-495a-9fb9-981790447d3d'
+---
+Description: Describes the format of an exported DSS version 3 private key.
+ms.assetid: 650532fd-919b-495a-9fb9-981790447d3d
 title: DSS Version 3 Private Key BLOBs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DSS Version 3 Private Key BLOBs
@@ -28,7 +33,7 @@ BYTE x[dssprivkeyver3.bitlenX/8];
 
 
 
-This [*BLOB*](security.b_gly#-security-blob-gly) format is exported when the CRYPT\_BLOB\_VER3 flag is used with [**CryptExportKey**](cryptexportkey.md). Because the version is in the BLOB, there is no need to specify a flag when using this BLOB with [**CryptImportKey**](cryptimportkey.md).
+This [*BLOB*](security.b_gly#-security-blob-gly) format is exported when the CRYPT\_BLOB\_VER3 flag is used with [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master). Because the version is in the BLOB, there is no need to specify a flag when using this BLOB with [**CryptImportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptimportkey?branch=master).
 
 The following table describes each component of the [*key BLOB*](security.k_gly#-security-key-blob-gly).
 
@@ -36,7 +41,7 @@ The following table describes each component of the [*key BLOB*](security.k_gly#
 
 | Field          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Blobheader     | A [**BLOBHEADER**](publickeystruc.md) structure. The **bType** member must have a value of PUBLICKEYBLOB.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Blobheader     | A [**BLOBHEADER**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) structure. The **bType** member must have a value of PUBLICKEYBLOB.                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Dssprivkeyver3 | A **DSSPRIVKEY\_VER3** structure. The **magic** member should be set to "DSS4" (0x34535344) for private keys. Notice that the hexadecimal value is just an [*ASCII*](security.a_gly#-security-ascii-gly) encoding of "DSS4."<br/>                                                                                                                                                                                                                                                                     |
 | P              | The P value is located directly after the **DSSPRIVKEY\_VER3** structure, and should always be the length, in bytes, of the **DSSPRIVKEY\_VER3 bitlenP** field (bit length of P) divided by eight ([*little-endian*](security.l_gly#-security-little-endian-gly) format).                                                                                                                                                                                                                           |
 | Q              | The Q value is located directly after the P value and should always be the length, in bytes, of the **DSSPRIVKEY\_VER3 bitlenQ** field divided by eight ([*little-endian*](security.l_gly#-security-little-endian-gly) format).                                                                                                                                                                                                                                                                     |
@@ -49,7 +54,7 @@ The following table describes each component of the [*key BLOB*](security.k_gly#
 
  
 
-When calling [**CryptExportKey**](cryptexportkey.md), the developer can choose whether to encrypt the key. The key is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**BLOBHEADER**](publickeystruc.md) portion of the BLOB is encrypted. Note that the encryption algorithm and encryption key parameters are not stored along with the [*private key BLOB*](security.p_gly#-security-private-key-blob-gly). The application must manage and store this information. If zero is passed for *hExpKey*, the private key will be exported without encryption.
+When calling [**CryptExportKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptexportkey?branch=master), the developer can choose whether to encrypt the key. The key is encrypted if the *hExpKey* parameter contains a valid handle to a session key. Everything but the [**BLOBHEADER**](/windows/win32/Wincrypt/ns-wincrypt-_publickeystruc?branch=master) portion of the BLOB is encrypted. Note that the encryption algorithm and encryption key parameters are not stored along with the [*private key BLOB*](security.p_gly#-security-private-key-blob-gly). The application must manage and store this information. If zero is passed for *hExpKey*, the private key will be exported without encryption.
 
 > \[!Important\]  
 > It is dangerous to export private keys without encryption because they are then vulnerable to interception and use by unauthorized entities.

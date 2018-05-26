@@ -1,13 +1,20 @@
 ---
 title: The ProviderSpecific Buffer
 description: The ProviderSpecific buffer provides applications that have special QOS needs with a mechanism that enables fine-grained tuning of required QOS parameters.
-ms.assetid: '98907187-ad29-4b2c-804c-594fa5ef7401'
-keywords: ["ProviderSpecific buffer QOS", "Quality of Service QOS , described, ProviderSpecific buffer"]
+ms.assetid: 98907187-ad29-4b2c-804c-594fa5ef7401
+keywords:
+- ProviderSpecific buffer QOS
+- Quality of Service QOS , described, ProviderSpecific buffer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The ProviderSpecific Buffer
 
-The ProviderSpecific buffer provides applications that have special QOS needs with a mechanism that enables fine-grained tuning of required QOS parameters. The ProviderSpecific buffer is of type [**WSABUF**](https://msdn.microsoft.com/library/windows/desktop/ms741542) as defined by Windows Sockets 2 and is a member of the [**QOS**](qos.md) structure.
+The ProviderSpecific buffer provides applications that have special QOS needs with a mechanism that enables fine-grained tuning of required QOS parameters. The ProviderSpecific buffer is of type [**WSABUF**](https://msdn.microsoft.com/library/windows/desktop/ms741542) as defined by Windows Sockets 2 and is a member of the [**QOS**](/windows/win32/Winsock2/ns-winsock2-_qualityofservice?branch=master) structure.
 
 The standard mechanisms by which Windows 2000 QOS enables service quality provisioning fulfills QOS requirements for the majority of applications. In some cases, however, service quality parameters not available with standard QOS mechanisms may need to be implemented. The ProviderSpecific buffer interface is provided for those situations.
 

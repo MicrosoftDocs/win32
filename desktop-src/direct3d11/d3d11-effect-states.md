@@ -1,8 +1,14 @@
 ---
 title: Effect State Groups (Direct3D 11)
 description: Effect states are name value pairs in the form of an expression.
-ms.assetid: '87883483-4fa6-4362-807e-53b79b7d1370'
-keywords: ["effect, state groups (Direct3D 11)"]
+ms.assetid: 87883483-4fa6-4362-807e-53b79b7d1370
+keywords:
+- effect, state groups (Direct3D 11)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect State Groups (Direct3D 11)
@@ -23,7 +29,7 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                                       |                                                           |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| ALPHATOCOVERAGEENABLEBLENDENABLESRCBLENDDESTBLENDBLENDOP SRCBLENDALPHADESTBLENDALPHABLENDOPALPHARENDERTARGETWRITEMASK | Members of [**D3D11\_BLEND\_DESC**](d3d11-blend-desc.md) |
+| ALPHATOCOVERAGEENABLEBLENDENABLESRCBLENDDESTBLENDBLENDOP SRCBLENDALPHADESTBLENDALPHABLENDOPALPHARENDERTARGETWRITEMASK | Members of [**D3D11\_BLEND\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_blend_desc?branch=master) |
 
 
 
@@ -35,8 +41,8 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                                                                                |                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| DEPTHENABLEDEPTHWRITEMASKDEPTHFUNCSTENCILENABLESTENCILREADMASKSTENCILWRITEMASK                                                                                 | Members of [**D3D11\_DEPTH\_STENCIL\_DESC**](d3d11-depth-stencil-desc.md)    |
-| FRONTFACESTENCILFAILFRONTFACESTENCILZFAILFRONTFACESTENCILPASSFRONTFACESTENCILFUNCBACKFACESTENCILFAILBACKFACESTENCILZFAILBACKFACESTENCILPASSBACKFACESTENCILFUNC | Member of [**D3D11\_DEPTH\_STENCILOP\_DESC**](d3d11-depth-stencilop-desc.md) |
+| DEPTHENABLEDEPTHWRITEMASKDEPTHFUNCSTENCILENABLESTENCILREADMASKSTENCILWRITEMASK                                                                                 | Members of [**D3D11\_DEPTH\_STENCIL\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_depth_stencil_desc?branch=master)    |
+| FRONTFACESTENCILFAILFRONTFACESTENCILZFAILFRONTFACESTENCILPASSFRONTFACESTENCILFUNCBACKFACESTENCILFAILBACKFACESTENCILZFAILBACKFACESTENCILPASSBACKFACESTENCILFUNC | Member of [**D3D11\_DEPTH\_STENCILOP\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_depth_stencilop_desc?branch=master) |
 
 
 
@@ -48,9 +54,9 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                                                 |                                                                     |
 |---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| FILLMODE                                                                                                                        | [**D3D11\_FILL\_MODE**](d3d11-fill-mode.md)                        |
-| CULLMODE                                                                                                                        | [**D3D11\_CULL\_MODE**](d3d11-cull-mode.md)                        |
-| FRONTCOUNTERCLOCKWISEDEPTHBIASDEPTHBIASCLAMPSLOPESCALEDDEPTHBIAS ZCLIPENABLESCISSORENABLEMULTISAMPLEENABLEANTIALIASEDLINEENABLE | Members of [**D3D11\_RASTERIZER\_DESC**](d3d11-rasterizer-desc.md) |
+| FILLMODE                                                                                                                        | [**D3D11\_FILL\_MODE**](/windows/win32/D3D11/ne-d3d11-d3d11_fill_mode?branch=master)                        |
+| CULLMODE                                                                                                                        | [**D3D11\_CULL\_MODE**](/windows/win32/D3D11/ne-d3d11-d3d11_cull_mode?branch=master)                        |
+| FRONTCOUNTERCLOCKWISEDEPTHBIASDEPTHBIASCLAMPSLOPESCALEDDEPTHBIAS ZCLIPENABLESCISSORENABLEMULTISAMPLEENABLEANTIALIASEDLINEENABLE | Members of [**D3D11\_RASTERIZER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_rasterizer_desc?branch=master) |
 
 
 
@@ -62,7 +68,7 @@ Effect states are name value pairs in the form of an expression.
 
 |                                                                                                     |                                                               |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| Filter AddressU AddressV AddressW MipLODBias MaxAnisotropy ComparisonFunc BorderColor MinLOD MaxLOD | Members of [**D3D11\_SAMPLER\_DESC**](d3d11-sampler-desc.md) |
+| Filter AddressU AddressV AddressW MipLODBias MaxAnisotropy ComparisonFunc BorderColor MinLOD MaxLOD | Members of [**D3D11\_SAMPLER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_sampler_desc?branch=master) |
 
 
 

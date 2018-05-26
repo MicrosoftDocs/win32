@@ -1,7 +1,12 @@
 ---
 title: Introduction to QoS2 and qWAVE
 description: QoS2 is a suite of Quality of Service APIs introduced with Windows Vista and Windows Server 2008. It provides differentiated services for \ 0034;on-link \ 0034; (single IP subnet) and \ 0034;off-link \ 0034; (multiple IP subnet) scenarios on a per-socket basis.
-ms.assetid: '5dea8889-2595-4f74-8ad6-db71896eb27c'
+ms.assetid: 5dea8889-2595-4f74-8ad6-db71896eb27c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to QoS2 and qWAVE

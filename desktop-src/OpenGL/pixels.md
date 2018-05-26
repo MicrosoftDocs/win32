@@ -1,8 +1,17 @@
 ---
 title: Pixels
 description: Fragments are converted to pixels in the framebuffer.
-ms.assetid: 'c4055928-7b8b-4d0f-94f3-e3b9c0503308'
-keywords: ["OpenGL,pixels", "OpenGL processing pipeline,pixels", "pixels OpenGL", "framebuffers,converting fragments to pixels"]
+ms.assetid: c4055928-7b8b-4d0f-94f3-e3b9c0503308
+keywords:
+- OpenGL,pixels
+- OpenGL processing pipeline,pixels
+- pixels OpenGL
+- framebuffers,converting fragments to pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pixels

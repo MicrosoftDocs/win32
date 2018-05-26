@@ -1,8 +1,11 @@
 ---
 title: RegistrationInfo.Source property
 description: For scripting, gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
-ms.assetid: '538d48f9-671d-452b-8e78-86954342a28f'
-keywords: ["Source property Task Scheduler", "Source property Task Scheduler , RegistrationInfo object", "RegistrationInfo object Task Scheduler , Source property"]
+ms.assetid: 538d48f9-671d-452b-8e78-86954342a28f
+keywords:
+- Source property Task Scheduler
+- Source property Task Scheduler , RegistrationInfo object
+- RegistrationInfo object Task Scheduler , Source property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegistrationInfo.Source property
@@ -42,8 +50,8 @@ When setting this property value, the value can be text that is retrieved from a
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When setting this property value, the value can be text that is retrieved from a
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

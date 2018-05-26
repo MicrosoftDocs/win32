@@ -1,14 +1,19 @@
-﻿---
-Description: 'Retrieves the name of the certificate resulting from an earlier successful call to ISCrdEnr::enroll.'
-ms.assetid: 'e33b217a-b717-49bd-b0f3-3ba9229a0696'
-title: 'ISCrdEnr::getEnrolledCertificateName method'
+---
+Description: Retrieves the name of the certificate resulting from an earlier successful call to ISCrdEnrenroll.
+ms.assetid: e33b217a-b717-49bd-b0f3-3ba9229a0696
+title: ISCrdEnrgetEnrolledCertificateName method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCrdEnr::getEnrolledCertificateName method
 
-The **getEnrolledCertificateName** method retrieves the name of the certificate resulting from an earlier successful call to [**ISCrdEnr::enroll**](iscrdenr-enroll.md).
+The **getEnrolledCertificateName** method retrieves the name of the certificate resulting from an earlier successful call to [**ISCrdEnr::enroll**](/windows/win32/certenroll/?branch=master).
 
-This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) function [**CertGetNameString**](certgetnamestring.md).
+This method can also be used to display the certificate in a dialog box. This method calls the [*CryptoAPI*](security.c_gly#-security-cryptoapi-gly) function [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master).
 
 ## Syntax
 
@@ -75,9 +80,9 @@ A string that represents the retrieved certificate name.
 
 ## Remarks
 
-Because this method operates on an existing certificate, you must have successfully called [**IScrdEnr::enroll**](iscrdenr-enroll.md) before you can call **getEnrolledCertificateName**.
+Because this method operates on an existing certificate, you must have successfully called [**IScrdEnr::enroll**](/windows/win32/certenroll/?branch=master) before you can call **getEnrolledCertificateName**.
 
-The **getEnrolledCertificateName** method calls the [**CertGetNameString**](certgetnamestring.md) function to retrieve the certificate name according to the sequence described for the CERT\_NAME\_SIMPLE\_DISPLAY\_TYPE value of **CertGetNameString**'s *dwType* parameter.
+The **getEnrolledCertificateName** method calls the [**CertGetNameString**](/windows/win32/Wincrypt/nf-wincrypt-certgetnamestringa?branch=master) function to retrieve the certificate name according to the sequence described for the CERT\_NAME\_SIMPLE\_DISPLAY\_TYPE value of **CertGetNameString**'s *dwType* parameter.
 
 ## Requirements
 
@@ -99,7 +104,7 @@ The **getEnrolledCertificateName** method calls the [**CertGetNameString**](cert
 [**ISCrdEnr**](iscrdenr.md)
 </dt> <dt>
 
-[**ISCrdEnr::enroll**](iscrdenr-enroll.md)
+[**ISCrdEnr::enroll**](/windows/win32/certenroll/?branch=master)
 </dt> </dl>
 
  

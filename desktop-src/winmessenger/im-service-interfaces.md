@@ -1,7 +1,12 @@
 ---
 title: Service Interfaces
 description: Service Interfaces
-ms.assetid: 'DB72B594-20E8-4138-89DA-52B409B8346C'
+ms.assetid: DB72B594-20E8-4138-89DA-52B409B8346C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service Interfaces

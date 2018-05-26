@@ -1,8 +1,23 @@
 ---
 title: Advantages of Using HTMLView
 description: Advantages of Using HTMLView
-ms.assetid: 'bbec9471-87f1-4c41-a322-f11e9e1dec37'
-keywords: ["Windows Media metafile playlists,HTMLView advantages", "playlists,HTMLView advantages", "metafile playlists,HTMLView advantages", "Windows Media metafile playlists,advantages of HTMLView", "playlists,advantages of HTMLView", "metafile playlists,advantages of HTMLView", "advantages of HTMLView", "Windows Media Player,advantages of HTMLView", "Windows Media Player,HTMLView advantages", "HTMLView,advantages"]
+ms.assetid: bbec9471-87f1-4c41-a322-f11e9e1dec37
+keywords:
+- Windows Media metafile playlists,HTMLView advantages
+- playlists,HTMLView advantages
+- metafile playlists,HTMLView advantages
+- Windows Media metafile playlists,advantages of HTMLView
+- playlists,advantages of HTMLView
+- metafile playlists,advantages of HTMLView
+- advantages of HTMLView
+- Windows Media Player,advantages of HTMLView
+- Windows Media Player,HTMLView advantages
+- HTMLView,advantages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advantages of Using HTMLView

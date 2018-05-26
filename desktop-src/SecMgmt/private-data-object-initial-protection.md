@@ -1,7 +1,12 @@
 ---
-Description: 'When a Private Data object is created, it is assigned a standard protection.'
-ms.assetid: '7aed8c42-ffa8-43ea-b36e-d894c2ed6bf9'
+Description: When a Private Data object is created, it is assigned a standard protection.
+ms.assetid: 7aed8c42-ffa8-43ea-b36e-d894c2ed6bf9
 title: Private Data Object Initial Protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Private Data Object Initial Protection

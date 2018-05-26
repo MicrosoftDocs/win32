@@ -1,15 +1,28 @@
 ---
 title: Monitoring Applications
 description: This topic discusses how elements of the Dynamic Data Exchange Management Library can be used to create an application that monitors dynamic data exchange activity in the system.
-ms.assetid: '6705dc8e-d1e9-4057-9fa2-42cd5cf818af'
-keywords: ["Windows User Interface,Dynamic Data Exchange (DDE)", "Dynamic Data Exchange (DDE),monitoring applications", "DDE (Dynamic Data Exchange),monitoring applications", "data exchange,Dynamic Data Exchange (DDE)", "Windows User Interface,Dynamic Data Exchange Management Library (DDEML)", "Dynamic Data Exchange Management Library (DDEML),monitoring applications", "DDEML (Dynamic Data Exchange Management Library),monitoring applications", "data exchange,Dynamic Data Exchange Management Library (DDEML)"]
+ms.assetid: 6705dc8e-d1e9-4057-9fa2-42cd5cf818af
+keywords:
+- Windows User Interface,Dynamic Data Exchange (DDE)
+- Dynamic Data Exchange (DDE),monitoring applications
+- DDE (Dynamic Data Exchange),monitoring applications
+- data exchange,Dynamic Data Exchange (DDE)
+- Windows User Interface,Dynamic Data Exchange Management Library (DDEML)
+- Dynamic Data Exchange Management Library (DDEML),monitoring applications
+- DDEML (Dynamic Data Exchange Management Library),monitoring applications
+- data exchange,Dynamic Data Exchange Management Library (DDEML)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitoring Applications
 
 The API elements of the Dynamic Data Exchange Management Library (DDEML) can be used to create an application that monitors Dynamic Data Exchange (DDE) activity in the system. Like any DDEML application, a DDE monitoring application contains a DDE callback function. The DDEML notifies a monitoring application's DDE callback function whenever a DDE event occurs, passing information about the event to the callback function. The application typically displays the information in a window or writes it to a file.
 
-To receive notifications from the DDEML, an application must have registered as a DDE monitor by specifying the APPCLASS\_MONITOR flag in a call to the [**DdeInitialize**](ddeinitialize.md) function. In this same call, the application can specify one or more monitor flags to indicate the types of events for which the DDEML is to notify the application's callback function. The following monitor flags can be specified by an application:
+To receive notifications from the DDEML, an application must have registered as a DDE monitor by specifying the APPCLASS\_MONITOR flag in a call to the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function. In this same call, the application can specify one or more monitor flags to indicate the types of events for which the DDEML is to notify the application's callback function. The following monitor flags can be specified by an application:
 
 
 
@@ -18,7 +31,7 @@ To receive notifications from the DDEML, an application must have registered as 
 | MF\_CALLBACKS | Notifies the callback function whenever a transaction is sent to any DDE callback function in the system.                                                                                                                                           |
 | MF\_CONV      | Notifies the callback function whenever a conversation is established or terminated.                                                                                                                                                                |
 | MF\_ERRORS    | Notifies the callback function whenever a DDEML error occurs.                                                                                                                                                                                       |
-| MF\_HSZ\_INFO | Notifies the callback function whenever a DDEML application creates, frees, or increments the usage count of a string handle or whenever a string handle is freed as a result of a call to the [**DdeUninitialize**](ddeuninitialize.md) function. |
+| MF\_HSZ\_INFO | Notifies the callback function whenever a DDEML application creates, frees, or increments the usage count of a string handle or whenever a string handle is freed as a result of a call to the [**DdeUninitialize**](/windows/win32/Ddeml/nf-ddeml-ddeuninitialize?branch=master) function. |
 | MF\_LINKS     | Notifies the callback function whenever an advise loop is started or ended.                                                                                                                                                                         |
 | MF\_POSTMSGS  | Notifies the callback function whenever the system or an application posts a DDE message.                                                                                                                                                           |
 | MF\_SENDMSGS  | Notifies the callback function whenever the system or an application sends a DDE message.                                                                                                                                                           |
@@ -60,18 +73,18 @@ The DDEML informs a monitoring application of a DDE event by sending an [**XTYP\
 
 | Structure                                  | Description                                                       |
 |--------------------------------------------|-------------------------------------------------------------------|
-| [**MONCBSTRUCT**](moncbstruct-str.md)     | Contains information about a transaction.                         |
-| [**MONCONVSTRUCT**](monconvstruct-str.md) | Contains information about a conversation.                        |
-| [**MONERRSTRUCT**](monerrstruct-str.md)   | Contains information about the latest DDE error.                  |
-| [**MONLINKSTRUCT**](monlinkstruct-str.md) | Contains information about an advise loop.                        |
-| [**MONHSZSTRUCT**](monhszstruct-str.md)   | Contains information about a string handle.                       |
-| [**MONMSGSTRUCT**](monmsgstruct-str.md)   | Contains information about a DDE message that was sent or posted. |
+| [**MONCBSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmoncbstruct?branch=master)     | Contains information about a transaction.                         |
+| [**MONCONVSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonconvstruct?branch=master) | Contains information about a conversation.                        |
+| [**MONERRSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonerrstruct?branch=master)   | Contains information about the latest DDE error.                  |
+| [**MONLINKSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonlinkstruct?branch=master) | Contains information about an advise loop.                        |
+| [**MONHSZSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonhszstructa?branch=master)   | Contains information about a string handle.                       |
+| [**MONMSGSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonmsgstruct?branch=master)   | Contains information about a DDE message that was sent or posted. |
 
 
 
  
 
-The following example shows the DDE callback function of a DDE monitoring application that formats information about each string handle event and then displays the information in a window. The function uses the [**MONHSZSTRUCT**](monhszstruct-str.md) structure to extract the information from the DDE object.
+The following example shows the DDE callback function of a DDE monitoring application that formats information about each string handle event and then displays the information in a window. The function uses the [**MONHSZSTRUCT**](/windows/win32/Ddeml/ns-ddeml-tagmonhszstructa?branch=master) structure to extract the information from the DDE object.
 
 
 ```

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a value that indicates whether the profile is the default scan profile of an associated IWiaItem2 device.'
-ms.assetid: '32ca3b9f-6235-4eec-aa94-bf20f15a9a16'
-title: 'IScanProfile::IsDefault method'
+---
+Description: Gets a value that indicates whether the profile is the default scan profile of an associated IWiaItem2 device.
+ms.assetid: 32ca3b9f-6235-4eec-aa94-bf20f15a9a16
+title: IScanProfileIsDefault method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile::IsDefault method

@@ -1,15 +1,26 @@
 ---
 title: Configuring VBR Streams
 description: Configuring VBR Streams
-ms.assetid: '83caabb7-b7fa-4b0a-a608-d5a86e4101b8'
-keywords: ["streams,configuring VBR streams", "streams,variable bit rate (VBR)", "variable bit rate (VBR),streams", "VBR (variable bit rate),streams", "streams,IWMPropertyVault interface", "IWMPropertyVault"]
+ms.assetid: 83caabb7-b7fa-4b0a-a608-d5a86e4101b8
+keywords:
+- streams,configuring VBR streams
+- streams,variable bit rate (VBR)
+- variable bit rate (VBR),streams
+- VBR (variable bit rate),streams
+- streams,IWMPropertyVault interface
+- IWMPropertyVault
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring VBR Streams
 
 You can use variable bit rate (VBR) encoding to produce high quality streams for local files or for downloading and playing. There are three options for VBR: quality-based (one-pass), unconstrained (two-pass), and constrained (two-pass). For more information about the types of VBR encoding, see [Variable Bit Rate (VBR) Encoding](variable-bit-rate--vbr--encoding.md).
 
-You can configure VBR encoding in a profile by setting properties with the [**IWMPropertyVault**](iwmpropertyvault.md) interface. The following table describes the properties used to configure VBR encoding.
+You can configure VBR encoding in a profile by setting properties with the [**IWMPropertyVault**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmpropertyvault?branch=master) interface. The following table describes the properties used to configure VBR encoding.
 
 
 

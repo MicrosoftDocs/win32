@@ -1,8 +1,9 @@
 ---
 title: Comments
 description: Add comments to metafiles by following Extensible Markup Language (XML) syntax. Comments begin with \ 0034; -- \ 0034; and end with \ 0034;-- \ 0034;.
-ms.assetid: '3d8dbf13-bd48-4405-804f-57e0f5eff642'
-keywords: ["Comments Windows Media Player"]
+ms.assetid: 3d8dbf13-bd48-4405-804f-57e0f5eff642
+keywords:
+- Comments Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - msfeeds.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Comments
@@ -65,9 +71,9 @@ Comments can appear anywhere except within element content (between element open
 [**Windows Media Metafile Elements Reference**](windows-media-metafile-elements-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

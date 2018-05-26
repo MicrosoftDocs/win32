@@ -1,8 +1,18 @@
 ---
 title: Command-line Options for Windows Movie Maker
 description: Command-line Options for Windows Movie Maker
-ms.assetid: 'a5345bae-9201-4771-b9c1-461e70fcb213'
-keywords: ["Windows Movie Maker,command-line options", "Movie Maker,command-line options", "programming reference,Windows Movie Maker command-line options", "reference for Windows Movie Maker,command-line options", "command-line options for Windows Movie Maker,about"]
+ms.assetid: a5345bae-9201-4771-b9c1-461e70fcb213
+keywords:
+- Windows Movie Maker,command-line options
+- Movie Maker,command-line options
+- programming reference,Windows Movie Maker command-line options
+- reference for Windows Movie Maker,command-line options
+- command-line options for Windows Movie Maker,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command-line Options for Windows Movie Maker

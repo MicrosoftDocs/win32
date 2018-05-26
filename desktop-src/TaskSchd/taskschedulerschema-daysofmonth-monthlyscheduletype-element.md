@@ -1,14 +1,20 @@
 ---
 title: DaysOfMonth (monthlyScheduleType) Element
 description: Specifies the days of the month during which the task runs.
-ms.assetid: '62f28f44-b3d8-414e-80d4-f4d8bd3c4527'
-keywords: ["DaysOfMonth element Task Scheduler"]
+ms.assetid: 62f28f44-b3d8-414e-80d4-f4d8bd3c4527
+keywords:
+- DaysOfMonth element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DaysOfMonth
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DaysOfMonth (monthlyScheduleType) Element
@@ -47,7 +53,7 @@ The **DaysOfMonth** element is defined by the [**monthlyScheduleType**](tasksche
 
 For script development, the days of the month for the schedule are specified using the [**MonthlyTrigger.DaysOfMonth**](monthlytrigger-daysofmonth.md) property.
 
-For C++ development, the days of the month for the schedule are specified using the [**IMonthlyTrigger::DaysOfMonth**](imonthlytrigger-daysofmonth.md) property.
+For C++ development, the days of the month for the schedule are specified using the [**IMonthlyTrigger::DaysOfMonth**](/windows/win32/taskschd/nf-taskschd-imonthlytrigger-get_daysofmonth?branch=master) property.
 
 The child element must be repeated for each day of the month the task is to run.
 
@@ -90,8 +96,8 @@ The following XML defines a monthly calendar trigger that starts a task (at 8:30
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -105,9 +111,9 @@ The following XML defines a monthly calendar trigger that starts a task (at 8:30
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

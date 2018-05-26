@@ -1,14 +1,20 @@
 ---
 title: TEXT.scrollingDirection
 description: The scrollingDirection attribute specifies or retrieves the direction of the scrolling text.
-ms.assetid: 'b7f6daf3-3180-4937-93e6-266d875dbbfd'
-keywords: ["TEXT.scrollingDirection Windows Media Player"]
+ms.assetid: b7f6daf3-3180-4937-93e6-266d875dbbfd
+keywords:
+- TEXT.scrollingDirection Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.scrollingDirection
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.scrollingDirection
@@ -32,7 +38,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -60,9 +66,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.scrolling**](text-scrolling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

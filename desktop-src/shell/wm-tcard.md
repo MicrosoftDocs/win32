@@ -1,11 +1,16 @@
-﻿---
-Description: 'Sent to an application that has initiated a training card with Windows Help.'
-title: 'WM\_TCARD message'
+---
+Description: Sent to an application that has initiated a training card with Windows Help.
+title: WM\_TCARD message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TCARD message
 
-Sent to an application that has initiated a training card with Windows Help. The message informs the application when the user clicks an authorable button. An application initiates a training card by specifying the HELP\_TCARD command in a call to the [**WinHelp**](winhelp.md) function.
+Sent to an application that has initiated a training card with Windows Help. The message informs the application when the user clicks an authorable button. An application initiates a training card by specifying the HELP\_TCARD command in a call to the [**WinHelp**](/windows/win32/Winuser/nf-winuser-winhelpa?branch=master) function.
 
 ## Parameters
 

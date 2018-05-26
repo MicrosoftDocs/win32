@@ -1,14 +1,20 @@
 ---
 title: onendmove
 description: The onendmove event handler handles an event that occurs when an element completes a moveTo operation.
-ms.assetid: 'd0891e3d-6342-4d19-903e-c14e05ae3ba8'
-keywords: ["onendmove Windows Media Player"]
+ms.assetid: d0891e3d-6342-4d19-903e-c14e05ae3ba8
+keywords:
+- onendmove Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onendmove
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onendmove
@@ -39,9 +45,9 @@ onendmove
 [**AmbientAttributes.moveTo**](ambientattributes-moveto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

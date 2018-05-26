@@ -2,7 +2,12 @@
 title: Direct3D 12 Glossary
 description: These terms are distinctive of Direct3D 12.
 Robots: noindex, nofollow
-ms.assetid: '46B0F055-7E4F-4F8D-9915-3D195FD695B7'
+ms.assetid: 46B0F055-7E4F-4F8D-9915-3D195FD695B7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 12 Glossary

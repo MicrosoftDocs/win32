@@ -1,7 +1,12 @@
 ---
-Description: 'The IsStopped method determines whether the filter containing this pin is stopped.'
-ms.assetid: 'ffeac352-2f9b-44be-a8e8-7e9238d0b18e'
-title: 'CBasePin.IsStopped method'
+Description: The IsStopped method determines whether the filter containing this pin is stopped.
+ms.assetid: ffeac352-2f9b-44be-a8e8-7e9238d0b18e
+title: CBasePin.IsStopped method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.IsStopped method
@@ -47,9 +52,9 @@ Do not call this method from within in the **CBasePin** constructor method, beca
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

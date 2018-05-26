@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns an image that represents the object described by handle, or returns an error if the object does not have or cannot provide such an image.'
-ms.assetid: 'BE5DA08C-46F9-44E1-89CD-85613DD3BDE4'
-title: 'IVisualTreeService2::RenderTargetBitmap method'
+---
+Description: Returns an image that represents the object described by handle, or returns an error if the object does not have or cannot provide such an image.
+ms.assetid: BE5DA08C-46F9-44E1-89CD-85613DD3BDE4
+title: IVisualTreeService2RenderTargetBitmap method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVisualTreeService2::RenderTargetBitmap method
@@ -70,7 +75,7 @@ The possible return codes include, but are not limited to, the values shown in t
 
 | Return code                                                                                  | Description                                                                                                                               |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**S\_OK**</dt> </dl>         | The method succeeded. *ppBitmapData* will be set to an [**IBitmapData**](ibitmapdata.md) containing an image. <br/>                |
+| <dl> <dt>**S\_OK**</dt> </dl>         | The method succeeded. *ppBitmapData* will be set to an [**IBitmapData**](/windows/previous-versions/xamlom/nn-xamlom-ibitmapdata?branch=master) containing an image. <br/>                |
 | <dl> <dt>**E\_FAIL**</dt> </dl>       | The image could not be acquired or converted. *ppBitmapData* will be set to **NULL**. <br/>                                         |
 | <dl> <dt>**E\_INVALIDARG**</dt> </dl> | *handle* does not refer to an object that can return an image, the *options* value is invalid, or *ppBitmapData* is **NULL**. <br/> |
 
@@ -91,7 +96,7 @@ If the requested bitmap falls within the max pixel width and max pixel height sp
 
 <dl> <dt>
 
-[**IVisualTreeService2**](ivisualtreeservice2.md)
+[**IVisualTreeService2**](/windows/previous-versions/xamlom/nn-xamlom-ivisualtreeservice2?branch=master)
 </dt> </dl>
 
  

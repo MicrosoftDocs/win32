@@ -1,7 +1,12 @@
 ---
-Description: 'Manages the virtual media (.vhd, .vhdx, .iso, or .vfd files) for a virtual machine.'
-ms.assetid: '54bd8e67-e309-4bf3-94bd-e29bc3300a3d'
-title: 'Msvm\_ImageManagementService class'
+Description: Manages the virtual media (.vhd, .vhdx, .iso, or .vfd files) for a virtual machine.
+ms.assetid: 54bd8e67-e309-4bf3-94bd-e29bc3300a3d
+title: Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ImageManagementService class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ImageManagementService : CIM_Service
 {
-  string   InstanceID;
-  string   Caption = "Hyper-V Image Management Service";
-  string   Description = "Provides Image Management servicing for Hyper-V";
-  string   ElementName = "Hyper-V Image Management Service";
+  string   InstanceID;
+  string   Caption = "Hyper-V Image Management Service";
+  string   Description = "Provides Image Management servicing for Hyper-V";
+  string   ElementName = "Hyper-V Image Management Service";
   datetime InstallDate;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_ImageManagementService";
-  string   Name = "vhdsvc";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started = True;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_ImageManagementService";
+  string   Name = "vhdsvc";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started = True;
 };
 ```
 
@@ -89,7 +94,7 @@ The **Msvm\_ImageManagementService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -605,8 +610,8 @@ Access to the **Msvm\_ImageManagementService** class might be restricted by UAC 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -626,9 +631,9 @@ Access to the **Msvm\_ImageManagementService** class might be restricted by UAC 
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

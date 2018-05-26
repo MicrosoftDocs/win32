@@ -4,13 +4,16 @@ description: Moves the fault domain hierarchy to a new parent.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '24fc785e-2c18-4824-897a-666b139e3d39'
-ms.prod: 'windows-server-dev'
+ms.assetid: 24fc785e-2c18-4824-897a-666b139e3d39
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MoveFaultDomain method", "MoveFaultDomain method, MSCluster_FaultDomain class", "MSCluster_FaultDomain class, MoveFaultDomain method"]
+keywords:
+- MoveFaultDomain method
+- MoveFaultDomain method, MSCluster_FaultDomain class
+- MSCluster_FaultDomain class, MoveFaultDomain method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MoveFaultDomain method of the MSCluster\_FaultDomain class
@@ -30,8 +36,8 @@ Moves the fault domain hierarchy to a new parent.
 
 ```mof
 uint32 MoveFaultDomain(
-  [in] string FaultDomain,
-  [in] uint32 Flags
+  [in] string FaultDomain,
+  [in] uint32 Flags
 );
 ```
 
@@ -62,7 +68,7 @@ Flags
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Flags
 [**MSCluster\_FaultDomain**](mscluster-faultdomain.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

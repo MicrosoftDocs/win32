@@ -4,12 +4,15 @@ description: The following scripting example uses XML, Windows Script Host, and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb0ec401-dc84-4d49-a611-678237e5999a'
-ms.prod: 'windows-server-dev'
+ms.assetid: bb0ec401-dc84-4d49-a611-678237e5999a
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting Example
@@ -26,11 +29,11 @@ The following scripting example uses XML, Windows Script Host, and Microsoft Vis
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

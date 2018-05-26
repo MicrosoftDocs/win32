@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EVENT\_TRACE\_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.'
-ms.assetid: '179451e9-7e3c-4d3a-bcc6-3ad9d382229a'
-title: 'EVENT\_TRACE\_LOGFILE structure'
+---
+Description: The EVENT\_TRACE\_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.
+ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
+title: EVENT\_TRACE\_LOGFILE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EVENT\_TRACE\_LOGFILE structure
@@ -64,7 +69,7 @@ Name of the event tracing session. Specify a value for this member if you want t
 
 You can only consume events in real time if the controller set the **LogFileMode** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md) to **EVENT\_TRACE\_REAL\_TIME\_MODE**.
 
-Only users with administrative privileges, users in the Performance Log Users group, and applications running as LocalSystem, LocalService, NetworkService can consume events in real time. To grant a restricted user the ability to consume events in real time, add them to the Performance Log Users group or call [**EventAccessControl**](eventaccesscontrol-func.md).
+Only users with administrative privileges, users in the Performance Log Users group, and applications running as LocalSystem, LocalService, NetworkService can consume events in real time. To grant a restricted user the ability to consume events in real time, add them to the Performance Log Users group or call [**EventAccessControl**](/windows/win32/Evntcons/nf-evntcons-eventaccesscontrol?branch=master).
 
 **Windows XP and Windows 2000:** Anyone can consume real time events.
 
@@ -100,8 +105,8 @@ Modes for processing events. The modes are defined in the Evntcons.h header file
 
 | Value                                                                                                                                                                                                                     | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="PROCESS_TRACE_MODE_EVENT_RECORD"></span><span id="process_trace_mode_event_record"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_EVENT\_RECORD**</dt> </dl>    | Specify this mode if you want to receive events in the new [**EVENT\_RECORD**](event-record.md) format. To receive events in the new format you must specify a callback in the **EventRecordCallback** member. If you do not specify this mode, you receive events in the old format through the callback specified in the **EventCallback** member.<br/> **Prior to Windows Vista:** Not supported.<br/>                                             |
-| <span id="PROCESS_TRACE_MODE_RAW_TIMESTAMP"></span><span id="process_trace_mode_raw_timestamp"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_RAW\_TIMESTAMP**</dt> </dl> | Specify this mode if you do not want the time stamp value in the **TimeStamp** member of [**EVENT\_HEADER**](event-header.md) and [**EVENT\_TRACE\_HEADER**](event-trace-header.md) converted to system time (leaves the time stamp value in the resolution that the controller specified in the **Wnode.ClientContext** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)).<br/> **Prior to Windows Vista:** Not supported.<br/> |
+| <span id="PROCESS_TRACE_MODE_EVENT_RECORD"></span><span id="process_trace_mode_event_record"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_EVENT\_RECORD**</dt> </dl>    | Specify this mode if you want to receive events in the new [**EVENT\_RECORD**](/windows/win32/relogger/ns-evntcons-_event_record?branch=master) format. To receive events in the new format you must specify a callback in the **EventRecordCallback** member. If you do not specify this mode, you receive events in the old format through the callback specified in the **EventCallback** member.<br/> **Prior to Windows Vista:** Not supported.<br/>                                             |
+| <span id="PROCESS_TRACE_MODE_RAW_TIMESTAMP"></span><span id="process_trace_mode_raw_timestamp"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_RAW\_TIMESTAMP**</dt> </dl> | Specify this mode if you do not want the time stamp value in the **TimeStamp** member of [**EVENT\_HEADER**](/windows/win32/relogger/ns-evntcons-_event_header?branch=master) and [**EVENT\_TRACE\_HEADER**](event-trace-header.md) converted to system time (leaves the time stamp value in the resolution that the controller specified in the **Wnode.ClientContext** member of [**EVENT\_TRACE\_PROPERTIES**](event-trace-properties.md)).<br/> **Prior to Windows Vista:** Not supported.<br/> |
 | <span id="PROCESS_TRACE_MODE_REAL_TIME"></span><span id="process_trace_mode_real_time"></span><dl> <dt>**PROCESS\_TRACE\_MODE\_REAL\_TIME**</dt> </dl>             | Specify this mode to receive events in real time (you must specify this mode if **LoggerName** is not **NULL**).<br/>                                                                                                                                                                                                                                                                                                                                        |
 
 
@@ -166,7 +171,7 @@ Specify this callback if you are consuming events from a provider that used one 
 
 Pointer to the [**EventRecordCallback**](eventrecordcallback.md) function that ETW calls for each event in the buffer.
 
-Specify this callback if you are consuming events from a provider that used one of the [**EventWrite**](eventwrite-func.md) functions to log events.
+Specify this callback if you are consuming events from a provider that used one of the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) functions to log events.
 
 **Prior to Windows Vista:** Not supported.
 
@@ -182,7 +187,7 @@ On output, if this member is **TRUE**, the event tracing session is the NT Kerne
 **Context**
 </dt> <dd>
 
-Context data that a consumer can specify when calling [**OpenTrace**](opentrace.md). If the consumer uses [**EventRecordCallback**](eventrecordcallback.md) to consume events, ETW sets the **UserContext** member of the [**EVENT\_RECORD**](event-record.md) structure to this value.
+Context data that a consumer can specify when calling [**OpenTrace**](opentrace.md). If the consumer uses [**EventRecordCallback**](eventrecordcallback.md) to consume events, ETW sets the **UserContext** member of the [**EVENT\_RECORD**](/windows/win32/relogger/ns-evntcons-_event_record?branch=master) structure to this value.
 
 **Prior to Windows Vista:** Not supported.
 

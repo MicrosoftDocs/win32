@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the type of warning that occurred by using the AnalysisWarningCode enumeration.'
-ms.assetid: 'ec67a5ac-a7a2-4805-b9b5-915ea956d228'
-title: 'IAnalysisWarning::GetWarningCode method'
+Description: Returns the type of warning that occurred by using the AnalysisWarningCode enumeration.
+ms.assetid: ec67a5ac-a7a2-4805-b9b5-915ea956d228
+title: IAnalysisWarningGetWarningCode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisWarning::GetWarningCode method
@@ -13,7 +18,7 @@ Returns the type of warning that occurred by using the [**AnalysisWarningCode**]
 
 ```C++
 HRESULT GetWarningCode(
-  [out] AnalysisWarningCode *pWarningCode
+  [out] AnalysisWarningCode *pWarningCode
 );
 ```
 
@@ -123,7 +128,7 @@ STDMETHODIMP CMyClass::Results(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -143,9 +148,9 @@ STDMETHODIMP CMyClass::Results(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

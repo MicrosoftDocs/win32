@@ -1,7 +1,12 @@
 ---
 title: To change a table of contents entry level from a folder or book to a page
 description: To change a table of contents entry level from a folder or book to a page
-ms.assetid: 'DDC0E9BC-CD67-4e55-BD3F-027A4CDDF3E1'
+ms.assetid: DDC0E9BC-CD67-4e55-BD3F-027A4CDDF3E1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To change a table of contents entry level from a folder or book to a page
@@ -15,7 +20,7 @@ ms.assetid: 'DDC0E9BC-CD67-4e55-BD3F-027A4CDDF3E1'
 
     
 
-     
+     
 
 3.  Select the **Change entry to a heading** check box.
 
@@ -30,9 +35,9 @@ You can also use this procedure to change a page to a folder or book.
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

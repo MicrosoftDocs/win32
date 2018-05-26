@@ -1,7 +1,12 @@
 ---
 title: Interoperability
 description: Describes how Direct2D interoperates with other systems.
-ms.assetid: '538e0ff7-50a8-40e2-ab34-d3eb6b7d0c6a'
+ms.assetid: 538e0ff7-50a8-40e2-ab34-d3eb6b7d0c6a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interoperability
@@ -9,9 +14,9 @@ ms.assetid: '538e0ff7-50a8-40e2-ab34-d3eb6b7d0c6a'
 The topics in this section describe how Direct2D interoperates with other systems, such as GDI, Direct3D, and WIC.
 
 > [!Note]  
-> Starting with Windows 8, Direct2D provides the [**ID2D1DeviceContext**](id2d1devicecontext.md) interface which provides a simple way to interoperate. See the [Devices and Device Contexts](devices-and-device-contexts.md) topic for more info.
+> Starting with Windows 8, Direct2D provides the [**ID2D1DeviceContext**](/windows/win32/D2d1_1/?branch=master) interface which provides a simple way to interoperate. See the [Devices and Device Contexts](devices-and-device-contexts.md) topic for more info.
 
- 
+ 
 
 
 
@@ -24,11 +29,11 @@ The topics in this section describe how Direct2D interoperates with other system
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

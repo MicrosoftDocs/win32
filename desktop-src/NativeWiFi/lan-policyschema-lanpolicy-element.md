@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a wired LAN policy.'
-ms.assetid: 'c06bdbc4-4199-4eec-a22f-684745912970'
+---
+Description: Contains a wired LAN policy.
+ms.assetid: c06bdbc4-4199-4eec-a22f-684745912970
 title: LANPolicy Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LANPolicy Element

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetSubObjectLoaded method determines whether the subobject pointer has been set.'
-ms.assetid: '05b58435-eeca-4b52-9a53-ad7f81b5b35d'
-title: 'IAMTimelineObj::GetSubObjectLoaded method'
+---
+Description: The GetSubObjectLoaded method determines whether the subobject pointer has been set.
+ms.assetid: 05b58435-eeca-4b52-9a53-ad7f81b5b35d
+title: IAMTimelineObjGetSubObjectLoaded method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetSubObjectLoaded method

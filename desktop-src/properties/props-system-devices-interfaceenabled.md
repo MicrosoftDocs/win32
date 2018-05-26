@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates if the interface is enabled or not.'
-ms.assetid: '5596ddcb-2361-49fa-98e0-684c0f7f0bd4'
-title: 'System.Devices.InterfaceEnabled'
+Description: Indicates if the interface is enabled or not.
+ms.assetid: 5596ddcb-2361-49fa-98e0-684c0f7f0bd4
+title: System.Devices.InterfaceEnabled
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.InterfaceEnabled

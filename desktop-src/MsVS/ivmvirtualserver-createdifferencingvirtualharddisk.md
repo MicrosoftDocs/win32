@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer CreateDifferencingVirtualHardDisk method
 description: The CreateDifferencingVirtualHardDisk method creates a differencing virtual hard disk.
-ms.assetid: 'a91f1315-06c0-4276-b618-4c75589e299b'
-keywords: ["CreateDifferencingVirtualHardDisk method Virtual Server", "CreateDifferencingVirtualHardDisk method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , CreateDifferencingVirtualHardDisk method"]
+ms.assetid: a91f1315-06c0-4276-b618-4c75589e299b
+keywords:
+- CreateDifferencingVirtualHardDisk method Virtual Server
+- CreateDifferencingVirtualHardDisk method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , CreateDifferencingVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::CreateDifferencingVirtualHardDisk method
@@ -22,9 +30,9 @@ The **CreateDifferencingVirtualHardDisk** method creates a differencing virtual 
 
 ```C++
 HRESULT CreateDifferencingVirtualHardDisk(
-  [in]  BSTR    imagePath,
-  [in]  BSTR    parentPath,
-  [out] IVMTask **diskTask
+  [in]  BSTR    imagePath,
+  [in]  BSTR    parentPath,
+  [out] IVMTask **diskTask
 );
 ```
 
@@ -79,7 +87,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,8 +99,8 @@ Although either *imagePath* or *parentPath* can be a relative path, at least one
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -104,9 +112,9 @@ Although either *imagePath* or *parentPath* can be a relative path, at least one
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

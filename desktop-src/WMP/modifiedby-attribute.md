@@ -1,14 +1,20 @@
 ---
 title: ModifiedBy Attribute
 description: A string that indicates whether the attributes of the item have been modified by the user.
-ms.assetid: '6967e82e-a2db-4c2a-8572-35a4f52bc451'
-keywords: ["ModifiedBy Attribute Windows Media Player"]
+ms.assetid: 6967e82e-a2db-4c2a-8572-35a4f52bc451
+keywords:
+- ModifiedBy Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ModifiedBy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifiedBy Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [**Medi
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

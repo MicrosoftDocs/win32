@@ -4,11 +4,12 @@ description: Returns a handle to a key object created from a serialized license.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '79140dba-d469-4500-a559-0d6e5ece7071'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 79140dba-d469-4500-a559-0d6e5ece7071
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcGetKey function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcGetKey function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcGetKey function
@@ -28,11 +32,11 @@ Returns a handle to a key object created from a serialized license.
 
 ```C++
 HRESULT WINAPI IpcGetKey(
-  _In_       PCIPC_BUFFER     pvLicense,
-             DWORD            dwFlags,
-  _In_opt_   PCIPC_PROMPT_CTX pContext,
-  _Reserved_ LPVOID           pvReserved,
-  _Out_      PIPC_KEY_HANDLE  phKey
+  _In_       PCIPC_BUFFER     pvLicense,
+             DWORD            dwFlags,
+  _In_opt_   PCIPC_PROMPT_CTX pContext,
+  _Reserved_ LPVOID           pvReserved,
+  _Out_      PIPC_KEY_HANDLE  phKey
 );
 ```
 
@@ -78,7 +82,7 @@ A pointer to a variable that receives a handle to the key object created by this
 > [!Note]  
 > This key handle should be closed with [**IpcCloseHandle**](ipcclosehandle.md) when no longer needed.
 
- 
+ 
 
 </dd> </dl>
 
@@ -86,7 +90,7 @@ A pointer to a variable that receives a handle to the key object created by this
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -95,7 +99,7 @@ Possible values include, but are not limited to, those in the following list.
 **IPCERROR\_NEEDS\_ONLINE**
 </dt> <dd>
 
-RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
+RMS SDK 2.1 needs network access to complete the operation, but the application requested offline mode.
 
 Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFFLINE** flag. Typically, this flag is used in situations in which failure is acceptable and preferred to performing a network access. The system is already optimized to use the network only when absolutely necessary, so we do not recommend that developers use the **IPC\_PROMPT\_FLAG\_OFFLINE** flag as an optimization.
 
@@ -104,7 +108,7 @@ Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_OFFLINE** f
 **IPCERROR\_NEEDS\_UI**
 </dt> <dd>
 
-RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
+RMS SDK 2.1 needs to display a window to complete the operation, but the application requested silent mode.
 
 Call the function again, without specifying the **IPC\_PROMPT\_FLAG\_SILENT** flag.
 
@@ -131,8 +135,8 @@ A key object is required for decryption, encryption, and checking granted rights
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -161,9 +165,9 @@ A key object is required for decryption, encryption, and checking granted rights
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

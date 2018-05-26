@@ -1,7 +1,12 @@
 ---
-Description: 'The IsUsingDefaultDestination method determines if the renderer is using the default destination window.'
-ms.assetid: '0b956575-4cf0-4f1f-9223-bb1ec3ae8b10'
-title: 'CBaseControlVideo.IsUsingDefaultDestination method'
+Description: The IsUsingDefaultDestination method determines if the renderer is using the default destination window.
+ms.assetid: 0b956575-4cf0-4f1f-9223-bb1ec3ae8b10
+title: CBaseControlVideo.IsUsingDefaultDestination method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.IsUsingDefaultDestination method
@@ -43,9 +48,9 @@ Returns S\_OK if using the default destination; otherwise, returns S\_FALSE.
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: DownloadItem.pause method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The pause method pauses the download.
-ms.assetid: '763d85da-1044-4a8c-98e7-8889bee6c2c7'
-keywords: ["pause method Windows Media Player", "pause method Windows Media Player , DownloadItem class", "DownloadItem class Windows Media Player , pause method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The pause method pauses the download.
+ms.assetid: 763d85da-1044-4a8c-98e7-8889bee6c2c7
+keywords:
+- pause method Windows Media Player
+- pause method Windows Media Player , DownloadItem class
+- DownloadItem class Windows Media Player , pause method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadItem.pause method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **pause** method pauses the download.
 
@@ -64,9 +72,9 @@ The **pause** method has no effect on real-time downloads.
 [**DownloadItem.resume**](downloaditem-resume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

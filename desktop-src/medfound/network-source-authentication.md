@@ -1,18 +1,23 @@
 ---
 Description: Network Source Authentication
-ms.assetid: 'bffc33ec-0fb0-4bbe-9bac-583b9d4e1153'
+ms.assetid: bffc33ec-0fb0-4bbe-9bac-583b9d4e1153
 title: Network Source Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Source Authentication
 
 Certain media hosts may require user credentials from client applications before allowing access to the media. User credentials include identification and proof of identification, such as user name and password, which are used by the media server to grant access to the network source it hosts. The network source can provide NTLM, Digest, or Basic authentication.
 
-Applications based on Media Foundation can store user credentials for a specific URL in a *credential* object that exposes the [**IMFNetCredential**](imfnetcredential.md) interface. The credential object stores encrypted credentials and provides methods to return information such as user name, password, and domain.
+Applications based on Media Foundation can store user credentials for a specific URL in a *credential* object that exposes the [**IMFNetCredential**](/windows/win32/mfidl/nn-mfidl-imfnetcredential?branch=master) interface. The credential object stores encrypted credentials and provides methods to return information such as user name, password, and domain.
 
-The credential objects are created and maintained in a cache. The *credential cache* object, exposed by the [**IMFNetCredentialCache**](imfnetcredentialcache.md) interface provides methods for retrieving the credential objects from the credential cache.
+The credential objects are created and maintained in a cache. The *credential cache* object, exposed by the [**IMFNetCredentialCache**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialcache?branch=master) interface provides methods for retrieving the credential objects from the credential cache.
 
-An application that supports authentication must implement the [**IMFNetCredentialManager**](imfnetcredentialmanager.md) interface. Media Foundation does not provide a default implementation of this interface. The credential manager is responsible for gathering the required credentials for a URL from user input or reading from persisted storage.
+An application that supports authentication must implement the [**IMFNetCredentialManager**](/windows/win32/mfidl/nn-mfidl-imfnetcredentialmanager?branch=master) interface. Media Foundation does not provide a default implementation of this interface. The credential manager is responsible for gathering the required credentials for a URL from user input or reading from persisted storage.
 
 This section contains the following topics:
 

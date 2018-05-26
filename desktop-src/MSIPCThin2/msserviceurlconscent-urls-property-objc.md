@@ -4,17 +4,21 @@ description: Gets the consent service URLs.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '082DF301-BB97-406F-80D3-87FF179AAA6E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 082DF301-BB97-406F-80D3-87FF179AAA6E
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSServiceURLConsent urls property"]
+keywords:
+- MSServiceURLConsent urls property
 topic_type:
 - apiref
 api_name:
 - MSServiceURLConsent urls property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSServiceURLConsent urls property
@@ -37,7 +41,7 @@ Gets the consent service URLs.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSConsent.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

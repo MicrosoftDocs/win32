@@ -1,7 +1,12 @@
 ---
-Description: 'The OnRenderStart method is called when rendering is about to start.'
-ms.assetid: '46af24cf-9075-4ebc-a49b-85f8f0c3da6f'
-title: 'CBaseRenderer.OnRenderStart method'
+Description: The OnRenderStart method is called when rendering is about to start.
+ms.assetid: 46af24cf-9075-4ebc-a49b-85f8f0c3da6f
+title: CBaseRenderer.OnRenderStart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.OnRenderStart method
@@ -13,7 +18,7 @@ The `OnRenderStart` method is called when rendering is about to start.
 
 ```C++
 virtual void OnRenderStart(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ virtual void OnRenderStart(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -56,9 +61,9 @@ The [**CBaseRenderer::Render**](cbaserenderer-render.md) method calls this metho
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Contains a collection of ExcludedUserAccount objects that represent users for which new end-user licenses and client licensor certificates cannot be issued.'
+Description: Contains a collection of ExcludedUserAccount objects that represent users for which new end-user licenses and client licensor certificates cannot be issued.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'a6464ff6-c1bd-42e5-bf52-1af65e491fff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: a6464ff6-c1bd-42e5-bf52-1af65e491fff
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: ExcludedUserAccountCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ExcludedUserAccountCollection object
@@ -41,7 +44,7 @@ The **ExcludedUserAccountCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,7 +60,7 @@ The **ExcludedUserAccountCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -150,7 +153,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -162,9 +165,9 @@ END FUNCTION
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

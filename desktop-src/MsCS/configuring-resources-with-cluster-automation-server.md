@@ -4,10 +4,13 @@ description: The following example creates resources of different types, satisfy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '91780f2d-6a7a-4c65-a8ff-7d0c507a185f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 91780f2d-6a7a-4c65-a8ff-7d0c507a185f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configuring Resources With the Failover Cluster Automation Server

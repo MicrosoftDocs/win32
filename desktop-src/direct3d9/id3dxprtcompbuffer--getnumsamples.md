@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of vertices (or texels) sampled.'
-ms.assetid: 'aed87618-03b8-4130-86bb-68eee66b287c'
-title: 'ID3DXPRTCompBuffer::GetNumSamples method'
+---
+Description: Retrieves the number of vertices (or texels) sampled.
+ms.assetid: aed87618-03b8-4130-86bb-68eee66b287c
+title: ID3DXPRTCompBufferGetNumSamples method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTCompBuffer::GetNumSamples method

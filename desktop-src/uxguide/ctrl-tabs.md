@@ -1,7 +1,12 @@
 ---
 title: Tabs
 description: Tabs provide a way to present related information on separate labeled pages.
-ms.assetid: 'd90228ce-aa95-4359-be8e-ea2014d71ae6'
+ms.assetid: d90228ce-aa95-4359-be8e-ea2014d71ae6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tabs
@@ -19,7 +24,7 @@ Tab controls represent the tabbed manila folders used to organize information in
 > [!Note]  
 > Guidelines related to [layout](vis-layout.md), [tab menus](cmd-menus.md#usage-patterns), [dialog boxes](win-dialog-box.md), and [property windows](win-property-win.md) are presented in separate articles.
 
- 
+ 
 
 ## Is this the right control?
 
@@ -48,7 +53,7 @@ Tabs have several usage patterns:
 
 
 
- 
+ 
 
 **If you do only one thing...**
 
@@ -97,7 +102,7 @@ Make sure the information on the tabs is related, yet settings on different page
 -   **When controls apply only to a page, place them within the border of the tabbed page.**
 -   **When controls apply to the entire window, place them outside the tabbed page.**
 -   **Don't assign effects to changing tabs.** Tabs must be accessible in any order. Changing the current tab should never have side effects, apply settings, or result in an error message.
--   **Don't assign a special meaning to the last tab selected.** Tab selection is for navigation—the user's last tab selection isn't a setting.
+-   **Don't assign a special meaning to the last tab selected.** Tab selection is for navigation the user's last tab selection isn't a setting.
 -   **Don't make the settings on a page dependent on settings on other pages.** Put any dependent settings on the same page instead.
 -   **If users are likely to start with the last tab displayed, make the tab persist and select it by default.** Make the settings persist on a per-window, per-user basis. Otherwise, select the first page by default.
 
@@ -123,7 +128,7 @@ Make sure the information on the tabs is related, yet settings on different page
 
 ### Dynamic window surface pattern
 
--   **Don't use scroll bars on tab pages.** Tabs function similarly to scroll bars—to increase the effective area of a window. One mechanism should be sufficient.
+-   **Don't use scroll bars on tab pages.** Tabs function similarly to scroll bars to increase the effective area of a window. One mechanism should be sufficient.
 -   **Use concise tab labels.** Use one or two words that clearly describe the content of the page. Longer labels consume screen space, especially when the labels are localized.
 -   **Use specific, meaningful tab labels.** Avoid generic tab labels that could apply to any tab, such as General, Advanced, or Settings.
 -   **If a tab doesn't apply to the current context and users don't expect it to, remove it.** Doing so simplifies the UI and users won't miss it.
@@ -185,9 +190,9 @@ When referring to tabs:
 
 Example: On the **Tools** menu, click **Options**, and then click the **View** tab.
 
- 
+ 
 
- 
+ 
 
 
 

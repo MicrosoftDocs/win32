@@ -4,11 +4,16 @@ description: The failover cluster utility functions support a wide range of func
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '867044a6-b3ad-45b9-8dc4-48529a3e6e94'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 867044a6-b3ad-45b9-8dc4-48529a3e6e94
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["failover cluster utility functions Failover Cluster", "utility functions Failover Cluster"]
+keywords:
+- failover cluster utility functions Failover Cluster
+- utility functions Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Utility Functions

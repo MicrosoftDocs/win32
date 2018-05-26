@@ -1,7 +1,12 @@
 ---
 title: NULL Predicate
 description: NULL Predicate
-ms.assetid: '66ffc75f-05d6-437d-9a8c-008e9b0b691f'
+ms.assetid: 66ffc75f-05d6-437d-9a8c-008e9b0b691f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NULL Predicate

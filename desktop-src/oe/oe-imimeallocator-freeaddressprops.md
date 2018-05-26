@@ -1,8 +1,11 @@
 ---
 title: IMimeAllocator FreeAddressProps method
 description: Frees the contents of an ADDRESSPROPS structure.
-ms.assetid: '3d1f3218-5d5e-49f8-9101-6cc885a6df4d'
-keywords: ["FreeAddressProps method Windows Mail (formerly Outlook Express)", "FreeAddressProps method Windows Mail (formerly Outlook Express) , IMimeAllocator interface", "IMimeAllocator interface Windows Mail (formerly Outlook Express) , FreeAddressProps method"]
+ms.assetid: 3d1f3218-5d5e-49f8-9101-6cc885a6df4d
+keywords:
+- FreeAddressProps method Windows Mail (formerly Outlook Express)
+- FreeAddressProps method Windows Mail (formerly Outlook Express) , IMimeAllocator interface
+- IMimeAllocator interface Windows Mail (formerly Outlook Express) , FreeAddressProps method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeAllocator::FreeAddressProps method
@@ -22,7 +30,7 @@ Frees the contents of an [**ADDRESSPROPS**](oe-addressprops.md) structure.
 
 ```C++
 HRESULT FreeAddressProps(
-  [in, out] LPADDRESSPROPS pAddress
+  [in, out] LPADDRESSPROPS pAddress
 );
 ```
 
@@ -56,7 +64,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +72,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -73,9 +81,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

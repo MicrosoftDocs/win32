@@ -4,17 +4,22 @@ description: The time that an incorrect password was presented during a Ctrl+Alt
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ea52341b-4979-452d-b0d8-236acacb9875'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ea52341b-4979-452d-b0d8-236acacb9875
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Last-Failed-Interactive-Logon-Time attribute AD Schema", "msDS-LastFailedInteractiveLogonTime attribute AD Schema"]
+keywords:
+- ms-DS-Last-Failed-Interactive-Logon-Time attribute AD Schema
+- msDS-LastFailedInteractiveLogonTime attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Last-Failed-Interactive-Logon-Time
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Last-Failed-Interactive-Logon-Time attribute
@@ -38,9 +43,9 @@ The time that an incorrect password was presented during a Ctrl+Alt+Delete logon
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ The time that an incorrect password was presented during a Ctrl+Alt+Delete logon
 
 
 
- 
+ 
 
- 
+ 
 
 
 

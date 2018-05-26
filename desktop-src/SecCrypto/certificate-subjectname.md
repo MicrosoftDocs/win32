@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a string that contains the name of the certificate subject.'
-ms.assetid: '95dc7e8b-6670-4dfc-9fe1-d37635fb92d6'
-title: 'Certificate.SubjectName property'
+---
+Description: Retrieves a string that contains the name of the certificate subject.
+ms.assetid: 95dc7e8b-6670-4dfc-9fe1-d37635fb92d6
+title: Certificate.SubjectName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate.SubjectName property

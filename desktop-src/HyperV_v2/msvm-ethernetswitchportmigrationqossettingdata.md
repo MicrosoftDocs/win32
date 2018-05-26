@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the VFP QOS settings.'
-ms.assetid: 'e58a7a8d-0301-43ea-9338-18bc8c458e2d'
-title: 'Msvm\_EthernetSwitchPortMigrationQosSettingData class'
+Description: Represents the VFP QOS settings.
+ms.assetid: e58a7a8d-0301-43ea-9338-18bc8c458e2d
+title: Msvm\_EthernetSwitchPortMigrationQosSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortMigrationQosSettingData class
@@ -16,16 +21,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, UUID("FD2A5DE3-DC6C-4320-82A5-234D3AF55297"), Provider("VmmsWmiInstanceAndMethodProvider"), ExtensionId("E9B59CFA-2BE1-4B21-828F-B6FBDBDDC017"), InterfaceVersion("1"), InterfaceRevision("0"), DisplayName("Ethernet Switch Port VFP QOS Settings"), AMENDMENT]
 class Msvm_EthernetSwitchPortMigrationQosSettingData : Msvm_EthernetSwitchPortFeatureSettingData
 {
-  string  QueueId = "";
-  uint8   Switch_ReservationMode = 0;
-  uint8   Switch_LinkSpeedPercentage = 0;
-  uint64  Switch_DefaultReservation = 0;
+  string  QueueId = "";
+  uint8   Switch_ReservationMode = 0;
+  uint8   Switch_LinkSpeedPercentage = 0;
+  uint64  Switch_DefaultReservation = 0;
   boolean Switch_EnableHardwareLimits = FALSE;
   boolean Switch_EnableHardwareReservations = FALSE;
   boolean Switch_EnableSoftwareReservations = TRUE;
-  uint64  OutboundReservedValue = 0;
-  uint64  OutboundMaximumMbps = 0;
-  uint64  InboundMaximumMbps = 0;
+  uint64  OutboundReservedValue = 0;
+  uint64  OutboundMaximumMbps = 0;
+  uint64  InboundMaximumMbps = 0;
 };
 ```
 
@@ -223,8 +228,8 @@ The QOS reservation mode on the switch.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -238,9 +243,9 @@ The QOS reservation mode on the switch.
 [**Msvm\_EthernetSwitchPortFeatureSettingData**](msvm-ethernetswitchportfeaturesettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

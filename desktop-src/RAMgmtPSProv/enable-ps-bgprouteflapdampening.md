@@ -2,13 +2,16 @@
 title: Enable method of the PS\_BgpRouteFlapDampening class
 description: Starts performing route dampening for the flapping BGP routes.
 audience: developer
-ms.assetid: '30cf64cd-6ddf-44c1-a79a-6c4cfd008948'
-ms.prod: 'windows-server-dev'
+ms.assetid: 30cf64cd-6ddf-44c1-a79a-6c4cfd008948
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Enable method", "Enable method, PS_BgpRouteFlapDampening class", "PS_BgpRouteFlapDampening class, Enable method"]
+keywords:
+- Enable method
+- Enable method, PS_BgpRouteFlapDampening class
+- PS_BgpRouteFlapDampening class, Enable method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enable method of the PS\_BgpRouteFlapDampening class
@@ -28,10 +34,10 @@ Starts performing route dampening for the flapping BGP routes.
 
 ```mof
 uint32 Enable(
-  [in]  string                      RoutingDomain,
-  [in]  boolean                     PassThru,
-  [in]  boolean                     Force,
-  [out] BgpRouteFlapDampeningConfig cmdletOutput
+  [in]  string                      RoutingDomain,
+  [in]  boolean                     PassThru,
+  [in]  boolean                     Force,
+  [out] BgpRouteFlapDampeningConfig cmdletOutput
 );
 ```
 
@@ -76,7 +82,7 @@ If *PassThru* is **true**, returns an embedded instance of the current object.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>Ramgmtpsprovider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -90,9 +96,9 @@ If *PassThru* is **true**, returns an embedded instance of the current object.
 [**PS\_BgpRouteFlapDampening**](ps-bgprouteflapdampening.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

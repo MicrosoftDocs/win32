@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a font object.Note  Instead of using this function, we recommend that you use DirectWrite and the DirectXTK library, SpriteFont class.'
-ms.assetid: '057ee033-37d8-4fc1-9f35-776393fff008'
+---
+Description: Creates a font object.Note  Instead of using this function, we recommend that you use DirectWrite and the DirectXTK library, SpriteFont class.
+ms.assetid: 057ee033-37d8-4fc1-9f35-776393fff008
 title: D3DX10CreateFontIndirect function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CreateFontIndirect function
@@ -33,9 +38,9 @@ HRESULT D3DX10CreateFontIndirect(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D10Device**](id3d10device.md)\***
+Type: **[**ID3D10Device**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master)\***
 
-Pointer to an [**ID3D10Device Interface**](id3d10device.md) interface.
+Pointer to an [**ID3D10Device Interface**](/windows/win32/D3D10/nn-d3d10-id3d10device?branch=master) interface.
 
 </dd> <dt>
 

@@ -1,15 +1,18 @@
 ---
-Description: 'TBD.'
+Description: TBD.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1dbc6c78-bb09-4a8f-96eb-9a453d5f57f6'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1dbc6c78-bb09-4a8f-96eb-9a453d5f57f6
+ms.prod: windows-server-dev
 ms.technology:
-- 'group-policy'
-- 'windows-management-instrumentation'
+- group-policy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SomFilterPutStatus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SomFilterPutStatus class
@@ -136,8 +139,8 @@ Contains an error or information code for an operation. This can be any value de
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\Policy<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>PolicMan.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PolicMan.dll</dt> </dl> |
@@ -151,9 +154,9 @@ Contains an error or information code for an operation. This can be any value de
 [**\_\_ExtendedStatus**](https://msdn.microsoft.com/library/aa394645)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

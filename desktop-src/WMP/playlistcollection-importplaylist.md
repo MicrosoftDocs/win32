@@ -1,8 +1,11 @@
 ---
 title: PlaylistCollection.importPlaylist method
 description: The importPlaylist method adds a static playlist to the library.
-ms.assetid: '421a1bd3-65c1-4d8f-be75-918b1cfa06d2'
-keywords: ["importPlaylist method Windows Media Player", "importPlaylist method Windows Media Player , PlaylistCollection class", "PlaylistCollection class Windows Media Player , importPlaylist method"]
+ms.assetid: 421a1bd3-65c1-4d8f-be75-918b1cfa06d2
+keywords:
+- importPlaylist method Windows Media Player
+- importPlaylist method Windows Media Player , PlaylistCollection class
+- PlaylistCollection class Windows Media Player , importPlaylist method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollection.importPlaylist method
@@ -96,9 +104,9 @@ To use this method, full access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

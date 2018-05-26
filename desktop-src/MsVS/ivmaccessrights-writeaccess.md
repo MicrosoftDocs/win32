@@ -1,8 +1,13 @@
 ---
 title: IVMAccessRights WriteAccess property
 description: The WriteAccess property determines whether this entry controls write access.
-ms.assetid: 'd06f5902-9a5e-40bc-80e7-c579ec5edb08'
-keywords: ["WriteAccess property Virtual Server", "WriteAccess property Virtual Server , IVMAccessRights interface", "IVMAccessRights interface Virtual Server , WriteAccess property", "WriteAccess property Virtual Server , VMAccessRights interface", "VMAccessRights interface Virtual Server , WriteAccess property"]
+ms.assetid: d06f5902-9a5e-40bc-80e7-c579ec5edb08
+keywords:
+- WriteAccess property Virtual Server
+- WriteAccess property Virtual Server , IVMAccessRights interface
+- IVMAccessRights interface Virtual Server , WriteAccess property
+- WriteAccess property Virtual Server , VMAccessRights interface
+- VMAccessRights interface Virtual Server , WriteAccess property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMAccessRights::WriteAccess property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_WriteAccess(
-  [in]  VARIANT_BOOL writeAccess
+  [in]  VARIANT_BOOL writeAccess
 );
 
 HRESULT get_WriteAccess(
-  [out] VARIANT_BOOL *writeAccess
+  [out] VARIANT_BOOL *writeAccess
 );
 ```
 
@@ -105,8 +115,8 @@ Next
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -118,9 +128,9 @@ Next
 [**IVMAccessRights**](ivmaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

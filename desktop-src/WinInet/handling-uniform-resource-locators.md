@@ -1,14 +1,19 @@
 ---
 title: Handling Uniform Resource Locators
 description: A Uniform Resource Locator (URL) is a compact representation of the location and access method for a resource located on the Internet.
-ms.assetid: 'bb59ada6-f49f-412c-a32c-4fb9495b1222'
+ms.assetid: bb59ada6-f49f-412c-a32c-4fb9495b1222
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Uniform Resource Locators
 
 A Uniform Resource Locator (URL) is a compact representation of the location and access method for a resource located on the Internet. Each URL consists of a scheme (HTTP, HTTPS, or FTP) and a scheme-specific string. This string can also include a combination of a directory path, search string, or name of the resource. The WinINet functions provide the ability to create, combine, break down, and canonicalize URLs. For more information on URLs, see [RFC-1738](Http://go.microsoft.com/fwlink/p/?linkid=84554) on Uniform Resource Locators (URL).
 
-The URL functions operate in a task-oriented manner. The content and format of the URL that is given to the function is not verified. The calling application should track the use of these functions to ensure that the data is in the intended format. For example, the [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) function would convert the character "%" into the escape sequence "%25" when using no flags. If [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) is used on the canonicalized URL, the escape sequence "%25" would be converted into the escape sequence "%2525", which would not work properly.
+The URL functions operate in a task-oriented manner. The content and format of the URL that is given to the function is not verified. The calling application should track the use of these functions to ensure that the data is in the intended format. For example, the [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) function would convert the character "%" into the escape sequence "%25" when using no flags. If [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) is used on the canonicalized URL, the escape sequence "%25" would be converted into the escape sequence "%2525", which would not work properly.
 
 -   [What Is a Canonicalized URL?](#what-is-a-canonicalized-url)
 -   [Using the WinINet Functions to Handle URLs](#using-the-wininet-functions-to-handle-urls)
@@ -32,11 +37,11 @@ The following table summarizes the URL functions.
 
 | Function                                                   | Description                                        |
 |------------------------------------------------------------|----------------------------------------------------|
-| [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) | Canonicalizes the URL.                             |
-| [**InternetCombineUrl**](internetcombineurl.md)           | Combines base and relative URLs.                   |
-| [**InternetCrackUrl**](internetcrackurl.md)               | Parses a URL string into components.               |
-| [**InternetCreateUrl**](internetcreateurl.md)             | Creates a URL string from components.              |
-| [**InternetOpenUrl**](internetopenurl.md)                 | Begins retrieving an FTP, HTTP, or HTTPS resource. |
+| [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) | Canonicalizes the URL.                             |
+| [**InternetCombineUrl**](/windows/win32/Wininet/nf-wininet-internetcombineurla?branch=master)           | Combines base and relative URLs.                   |
+| [**InternetCrackUrl**](/windows/win32/Wininet/nf-wininet-internetcrackurla?branch=master)               | Parses a URL string into components.               |
+| [**InternetCreateUrl**](/windows/win32/Wininet/nf-wininet-internetcreateurla?branch=master)             | Creates a URL string from components.              |
+| [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master)                 | Begins retrieving an FTP, HTTP, or HTTPS resource. |
 
 
 
@@ -46,9 +51,9 @@ The following table summarizes the URL functions.
 
 Canonicalizing a URL is the process that converts a URL, which might contain unsafe characters such as blank spaces, reserved characters, and so on, into an accepted format.
 
-The [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) function can be used to canonicalize URLs. This function is very task-oriented, so the application should track its use carefully. [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) does not verify that the URL passed to it is already canonicalized and that the URL that it returns is valid.
+The [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) function can be used to canonicalize URLs. This function is very task-oriented, so the application should track its use carefully. [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) does not verify that the URL passed to it is already canonicalized and that the URL that it returns is valid.
 
-The following five flags control how [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) handles a particular URL. The flags can be used in combination. If no flags are used, the function encodes the URL by default.
+The following five flags control how [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) handles a particular URL. The flags can be used in combination. If no flags are used, the function encodes the URL by default.
 
 
 
@@ -64,29 +69,29 @@ The following five flags control how [**InternetCanonicalizeUrl**](internetcanon
 
  
 
-The ICU\_DECODE flag should be used only on canonicalized URLs, because it assumes that all %XX sequences are escape codes and converts them into the characters indicated by the code. If the URL has a "%" symbol in it that is not part of an escape code, ICU\_DECODE still treats it as one. This characteristic might cause [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) to create an invalid URL.
+The ICU\_DECODE flag should be used only on canonicalized URLs, because it assumes that all %XX sequences are escape codes and converts them into the characters indicated by the code. If the URL has a "%" symbol in it that is not part of an escape code, ICU\_DECODE still treats it as one. This characteristic might cause [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) to create an invalid URL.
 
-To use [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) to return a completely decoded URL, the ICU\_DECODE and ICU\_NO\_ENCODE flags must be specified. This setup assumes that the URL being passed to [**InternetCanonicalizeUrl**](internetcanonicalizeurl.md) has been previously canonicalized.
+To use [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) to return a completely decoded URL, the ICU\_DECODE and ICU\_NO\_ENCODE flags must be specified. This setup assumes that the URL being passed to [**InternetCanonicalizeUrl**](/windows/win32/Wininet/nf-wininet-internetcanonicalizeurla?branch=master) has been previously canonicalized.
 
 ## Combining Base and Relative URLs
 
-A relative URL is a compact representation of the location of a resource relative to an absolute base URL. The base URL must be known to the parser and usually includes the scheme, network location, and parts of the URL path. An application can call [**InternetCombineUrl**](internetcombineurl.md) to combine the relative URL with its base URL. [**InternetCombineUrl**](internetcombineurl.md) also canonicalizes the resultant URL.
+A relative URL is a compact representation of the location of a resource relative to an absolute base URL. The base URL must be known to the parser and usually includes the scheme, network location, and parts of the URL path. An application can call [**InternetCombineUrl**](/windows/win32/Wininet/nf-wininet-internetcombineurla?branch=master) to combine the relative URL with its base URL. [**InternetCombineUrl**](/windows/win32/Wininet/nf-wininet-internetcombineurla?branch=master) also canonicalizes the resultant URL.
 
 ## Cracking URLs
 
-The [**InternetCrackUrl**](internetcrackurl.md) function separates a URL into its component parts and returns the components indicated by the [**URL\_COMPONENTS**](url-components.md) structure that is passed to the function.
+The [**InternetCrackUrl**](/windows/win32/Wininet/nf-wininet-internetcrackurla?branch=master) function separates a URL into its component parts and returns the components indicated by the [**URL\_COMPONENTS**](/windows/win32/Wininet/ns-wininet-url_componentsa?branch=master) structure that is passed to the function.
 
-The components that make up the [**URL\_COMPONENTS**](url-components.md) structure are the scheme number, host name, port number, user name, password, URL path, and additional information (such as search parameters). Each component, except the scheme and port numbers, has a string member that holds the information, and a member that holds the length of the string member. The scheme and port numbers have only a member that stores the corresponding value; they are both returned on all successful calls to [**InternetCrackUrl**](internetcrackurl.md).
+The components that make up the [**URL\_COMPONENTS**](/windows/win32/Wininet/ns-wininet-url_componentsa?branch=master) structure are the scheme number, host name, port number, user name, password, URL path, and additional information (such as search parameters). Each component, except the scheme and port numbers, has a string member that holds the information, and a member that holds the length of the string member. The scheme and port numbers have only a member that stores the corresponding value; they are both returned on all successful calls to [**InternetCrackUrl**](/windows/win32/Wininet/nf-wininet-internetcrackurla?branch=master).
 
-To get the value of a particular component in the [**URL\_COMPONENTS**](url-components.md) structure, the member that stores the string length of that component must be set to a nonzero value. The string member can be either the address of a buffer or **NULL**.
+To get the value of a particular component in the [**URL\_COMPONENTS**](/windows/win32/Wininet/ns-wininet-url_componentsa?branch=master) structure, the member that stores the string length of that component must be set to a nonzero value. The string member can be either the address of a buffer or **NULL**.
 
-If the pointer member contains the address of a buffer, the string length member must contain the size of that buffer. [**InternetCrackUrl**](internetcrackurl.md) returns the component information as a string in the buffer and stores the string length in the string length member.
+If the pointer member contains the address of a buffer, the string length member must contain the size of that buffer. [**InternetCrackUrl**](/windows/win32/Wininet/nf-wininet-internetcrackurla?branch=master) returns the component information as a string in the buffer and stores the string length in the string length member.
 
-If the pointer member is **NULL**, the string length member can be set to any nonzero value. [**InternetCrackUrl**](internetcrackurl.md) stores the address of the first character of the URL string that contains the component information and sets the string length to the number of characters in the remaining part of the URL string that pertains to the component.
+If the pointer member is **NULL**, the string length member can be set to any nonzero value. [**InternetCrackUrl**](/windows/win32/Wininet/nf-wininet-internetcrackurla?branch=master) stores the address of the first character of the URL string that contains the component information and sets the string length to the number of characters in the remaining part of the URL string that pertains to the component.
 
 All pointer members set to **NULL** with a nonzero length member point to the appropriate starting point in the URL string. The length stored in the length member must be used to determine the end of the individual component's information.
 
-To finish initializing the [**URL\_COMPONENTS**](url-components.md) structure properly, the **dwStructSize** member must be set to the size of the [**URL\_COMPONENTS**](url-components.md) structure, in bytes.
+To finish initializing the [**URL\_COMPONENTS**](/windows/win32/Wininet/ns-wininet-url_componentsa?branch=master) structure properly, the **dwStructSize** member must be set to the size of the [**URL\_COMPONENTS**](/windows/win32/Wininet/ns-wininet-url_componentsa?branch=master) structure, in bytes.
 
 The following example returns the components of the URL in the edit box, IDC\_PreOpen1, and returns the components to the list box, IDC\_PreOpenList. To display only the information for an individual component, this function copies the character immediately after the component's information in the string and temporarily replaces it with a **NULL**.
 
@@ -278,27 +283,27 @@ BOOL listURLpart( HWND hDlg, int nListBoxId,
 
 ## Creating URLs
 
-The [**InternetCreateUrl**](internetcreateurl.md) function uses the information in the [**URL\_COMPONENTS**](url-components.md) structure to create a Uniform Resource Locator.
+The [**InternetCreateUrl**](/windows/win32/Wininet/nf-wininet-internetcreateurla?branch=master) function uses the information in the [**URL\_COMPONENTS**](/windows/win32/Wininet/ns-wininet-url_componentsa?branch=master) structure to create a Uniform Resource Locator.
 
-The components that make up the [**URL\_COMPONENTS**](url-components.md) structure are the scheme, host name, port number, user name, password, URL path, and additional information (such as search parameters). Each component, except the port number, has a string member that holds the information, and a member that holds the length of the string member.
+The components that make up the [**URL\_COMPONENTS**](/windows/win32/Wininet/ns-wininet-url_componentsa?branch=master) structure are the scheme, host name, port number, user name, password, URL path, and additional information (such as search parameters). Each component, except the port number, has a string member that holds the information, and a member that holds the length of the string member.
 
 For each required component, the pointer member should contain the address of the buffer holding the information. The length member should be set to zero if the pointer member contains the address of a zero-terminated string; the length member should be set to the string length if the pointer member contains the address of a string that is not zero-terminated. The pointer member of any components that are not required must be **NULL**.
 
 ## Accessing URLs Directly
 
-FTP, and HTTP resources on the Internet can be accessed directly by using the [**InternetOpenUrl**](internetopenurl.md), [**InternetReadFile**](internetreadfile.md), and [**InternetFindNextFile**](internetfindnextfile.md) functions. [**InternetOpenUrl**](internetopenurl.md) opens a connection to the resource at the URL passed to the function. When this connection is made, there are two possible steps. First, if the resource is a file, [**InternetReadFile**](internetreadfile.md) can download it; second, if the resource is a directory, [**InternetFindNextFile**](internetfindnextfile.md) can enumerate the files within the directory (except when using CERN proxies). For more information on [**InternetReadFile**](internetreadfile.md), see [Reading Files](common-functions.md#reading-files). For more information on [**InternetFindNextFile**](internetfindnextfile.md), see [Finding the Next File](common-functions.md#finding-the-next-file).
+FTP, and HTTP resources on the Internet can be accessed directly by using the [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master), [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master), and [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master) functions. [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) opens a connection to the resource at the URL passed to the function. When this connection is made, there are two possible steps. First, if the resource is a file, [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master) can download it; second, if the resource is a directory, [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master) can enumerate the files within the directory (except when using CERN proxies). For more information on [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master), see [Reading Files](common-functions.md#reading-files). For more information on [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master), see [Finding the Next File](common-functions.md#finding-the-next-file).
 
-For applications that need to operate through a CERN proxy, [**InternetOpenUrl**](internetopenurl.md) can be used to access FTP directories and files. The FTP requests are packaged to appear like an HTTP request, which the CERN proxy would accept.
+For applications that need to operate through a CERN proxy, [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) can be used to access FTP directories and files. The FTP requests are packaged to appear like an HTTP request, which the CERN proxy would accept.
 
-[**InternetOpenUrl**](internetopenurl.md) uses the [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by the [**InternetOpen**](internetopen.md) function and the URL of the resource. The URL must include the scheme (http:, ftp:, file: \[for a local file\], or https: \[for hypertext protocol secure\]) and network location (such as www.microsoft.com). The URL can also include a path (for example, /isapi/gomscom.asp?TARGET=/windows/feature/) and resource name (for example, default.htm). For HTTP or HTTPS requests, additional headers can be included.
+[**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) uses the [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by the [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master) function and the URL of the resource. The URL must include the scheme (http:, ftp:, file: \[for a local file\], or https: \[for hypertext protocol secure\]) and network location (such as www.microsoft.com). The URL can also include a path (for example, /isapi/gomscom.asp?TARGET=/windows/feature/) and resource name (for example, default.htm). For HTTP or HTTPS requests, additional headers can be included.
 
-[**InternetQueryDataAvailable**](internetquerydataavailable.md), [**InternetFindNextFile**](internetfindnextfile.md), [**InternetReadFile**](internetreadfile.md), and [**InternetSetFilePointer**](internetsetfilepointer.md) (HTTP or HTTPS URLs only) can use the handle that is created by [**InternetOpenUrl**](internetopenurl.md) to download the resource.
+[**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master), [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master), [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master), and [**InternetSetFilePointer**](/windows/win32/Wininet/nf-wininet-internetsetfilepointer?branch=master) (HTTP or HTTPS URLs only) can use the handle that is created by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) to download the resource.
 
 The following diagram illustrates which handles to use with each function.
 
 ![handles to use with functions](images/ax-wnt02.png)
 
-The root [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpen**](internetopen.md) is used by [**InternetOpenUrl**](internetopenurl.md). The **HINTERNET** handle created by [**InternetOpenUrl**](internetopenurl.md) can be used by [**InternetQueryDataAvailable**](internetquerydataavailable.md), [**InternetReadFile**](internetreadfile.md), [**InternetFindNextFile**](internetfindnextfile.md) (not shown here), and [**InternetSetFilePointer**](internetsetfilepointer.md) (HTTP or HTTPS URLs only).
+The root [**HINTERNET**](appendix-a-hinternet-handles.md) handle created by [**InternetOpen**](/windows/win32/Wininet/nf-wininet-internetopena?branch=master) is used by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master). The **HINTERNET** handle created by [**InternetOpenUrl**](/windows/win32/Wininet/nf-wininet-internetopenurla?branch=master) can be used by [**InternetQueryDataAvailable**](/windows/win32/Wininet/nf-wininet-internetquerydataavailable?branch=master), [**InternetReadFile**](/windows/win32/Wininet/nf-wininet-internetreadfile?branch=master), [**InternetFindNextFile**](/windows/win32/Wininet/nf-wininet-internetfindnextfilea?branch=master) (not shown here), and [**InternetSetFilePointer**](/windows/win32/Wininet/nf-wininet-internetsetfilepointer?branch=master) (HTTP or HTTPS URLs only).
 
 For more information, see [**HINTERNET Handles**](appendix-a-hinternet-handles.md).
 

@@ -1,14 +1,20 @@
 ---
 title: Subpicture element
 description: Describes the pipeline graph that Windows DVD Maker will use when rendering the subpicture.
-ms.assetid: '69213f3e-9f91-4b9d-b327-f878db4d3d07'
-keywords: ["Subpicture element Windows Movie Maker and DVD Maker"]
+ms.assetid: 69213f3e-9f91-4b9d-b327-f878db4d3d07
+keywords:
+- Subpicture element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Subpicture
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Subpicture element
@@ -53,7 +59,7 @@ The "subpicture" refers to the "highlighting" of menu buttons you see during men
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -65,9 +71,9 @@ The "subpicture" refers to the "highlighting" of menu buttons you see during men
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

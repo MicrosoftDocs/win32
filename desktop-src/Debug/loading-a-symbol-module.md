@@ -1,12 +1,17 @@
 ---
-Description: 'If an application does not call the SymInitialize function with the fInvadeProcess parameter set to TRUE, it must load symbols for a module when they are required.'
-ms.assetid: '01cee812-d1f2-4459-acee-bce8719a85b2'
+Description: If an application does not call the SymInitialize function with the fInvadeProcess parameter set to TRUE, it must load symbols for a module when they are required.
+ms.assetid: 01cee812-d1f2-4459-acee-bce8719a85b2
 title: Loading a Symbol Module
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loading a Symbol Module
 
-If an application does not call the [**SymInitialize**](syminitialize.md) function with the *fInvadeProcess* parameter set to **TRUE**, it must load symbols for a module when they are required. To load a symbol module on demand, the application can call the [**SymLoadModuleEx**](symloadmoduleex.md) function with a full path to a module name. When the module is loaded, the symbol handler will either load the symbols immediately or defer the load, depending on the options set using the [**SymSetOptions**](symsetoptions.md) function.
+If an application does not call the [**SymInitialize**](/windows/win32/Dbghelp/nf-dbghelp-syminitialize?branch=master) function with the *fInvadeProcess* parameter set to **TRUE**, it must load symbols for a module when they are required. To load a symbol module on demand, the application can call the [**SymLoadModuleEx**](/windows/win32/Dbghelp/nf-dbghelp-symloadmoduleex?branch=master) function with a full path to a module name. When the module is loaded, the symbol handler will either load the symbols immediately or defer the load, depending on the options set using the [**SymSetOptions**](/windows/win32/Dbghelp/nf-dbghelp-symsetoptions?branch=master) function.
 
 The following code loads a symbol module. Note that it assumes you have initialized the symbol handler using the code in [Initializing the Symbol Handler](initializing-the-symbol-handler.md).
 

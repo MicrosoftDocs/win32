@@ -4,13 +4,16 @@ description: Sets the resource dependency expression.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '49e431f0-d2fb-4c85-b52f-ffa3565299fe'
-ms.prod: 'windows-server-dev'
+ms.assetid: 49e431f0-d2fb-4c85-b52f-ffa3565299fe
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetDependencies method", "SetDependencies method, MSCluster_Resource class", "MSCluster_Resource class, SetDependencies method"]
+keywords:
+- SetDependencies method
+- SetDependencies method, MSCluster_Resource class
+- MSCluster_Resource class, SetDependencies method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDependencies method of the MSCluster\_Resource class
@@ -30,7 +36,7 @@ Sets the resource dependency expression.
 
 ```mof
 void SetDependencies(
-  [in] string Expression
+  [in] string Expression
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -72,9 +78,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

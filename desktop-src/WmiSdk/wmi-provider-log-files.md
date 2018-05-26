@@ -1,13 +1,16 @@
 ---
-Description: 'WMI providers also may maintain logs. Which log files appear on a system depends on which providers are installed.'
+Description: WMI providers also may maintain logs. Which log files appear on a system depends on which providers are installed.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '04f041e5-4f2c-4c94-9aba-b040d941b46d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 04f041e5-4f2c-4c94-9aba-b040d941b46d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Provider Log Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Provider Log Files
@@ -48,12 +51,12 @@ The following table lists some common problems that can occur and offers possibl
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CLDAPClassProvider::InitializeLDAPProvider ADsGetObject on RootDSE FAILED : &lt;hresult&gt;                                                                                                                                                                                                                    | The ADSI call failed while trying to get the root of your directory services. Verify that your computer is a member of a domain.                                                                                                                                                                                                                                                                             |
 | CDSClassProvider::GetObjectAsync() GetClassFromCacheOrADSI FAILED for &lt;class name&gt; with &lt;hresult&gt;                                                                                                                                                                                                  | The class you are trying to get is not a valid class in the directory. Verify that the class name is correct.                                                                                                                                                                                                                                                                                                |
-| CLDAPInstanceProvider::PutInstanceAsync() ModifyExistingInstance FAILED for LDAP://CN=foo1, CN=Users, DC=dsprovider,DC=nttest, DC=Microsoft, DC=com with &lt;hresult&gt;                                                                                                                                       | The provider was unable to write a modified instance to directory services. Ensure that you are using the [**IWbemContext**](iwbemcontext.md) interface to specify the set of properties that you are modifying. For more information about how to use the **IWbemContext** interface with [**PutInstance**](provider-putinstance.md), see [Updating an Entire Instance](updating-an-entire-instance.md). |
+| CLDAPInstanceProvider::PutInstanceAsync() ModifyExistingInstance FAILED for LDAP://CN=foo1, CN=Users, DC=dsprovider,DC=nttest, DC=Microsoft, DC=com with &lt;hresult&gt;                                                                                                                                       | The provider was unable to write a modified instance to directory services. Ensure that you are using the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) interface to specify the set of properties that you are modifying. For more information about how to use the **IWbemContext** interface with [**PutInstance**](/windows/win32/Provider/nf-provider-provider-putinstance(const cinstance &,long)?branch=master), see [Updating an Entire Instance](updating-an-entire-instance.md). |
 | CLDAPHelper::GetADSIInstance ADsOpenObject() FAILED on &lt;class name&gt; with &lt;hresult&gt;<br/> CLDAPInstanceProvider::GetObjectAsync : GetADSIInstance() FAILED with &lt;hresult&gt;<br/> CLDAPInstanceProvider::GetObjectAsync() FAILED for ds\_user.ADSIPath="&lt;class name&gt;<br/> | These three messages indicate that the instance you are trying to get does not exist in the directory service. Verify that the **ADSIPath** value and class name are correct.                                                                                                                                                                                                                                |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -62,9 +65,9 @@ The following table lists some common problems that can occur and offers possibl
 [WMI Log Files](wmi-log-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

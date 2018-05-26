@@ -1,8 +1,9 @@
 ---
 title: ErrorItem.errorContext
 description: The errorContext property retrieves a value indicating the context of the error.
-ms.assetid: '700d2bf0-dd3b-4211-99ea-58f952cf24b0'
-keywords: ["ErrorItem.errorContext Windows Media Player"]
+ms.assetid: 700d2bf0-dd3b-4211-99ea-58f952cf24b0
+keywords:
+- ErrorItem.errorContext Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ErrorItem.errorContext
@@ -51,9 +57,9 @@ The error context is information that is used by Microsoft to provide additional
 [**ErrorItem Object**](erroritem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

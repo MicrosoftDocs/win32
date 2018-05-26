@@ -1,14 +1,20 @@
 ---
 title: WM/Picture
 description: The WM/Picture attribute contains a picture related to the content.
-ms.assetid: 'ec82dfdf-7755-4758-9771-096aac114f78'
-keywords: ["WM/Picture windows Media Format"]
+ms.assetid: ec82dfdf-7755-4758-9771-096aac114f78
+keywords:
+- WM/Picture windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Picture
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Picture
@@ -21,7 +27,7 @@ g\_wszWMPicture
 
 ## Data Type
 
-[**WM\_PICTURE**](wm-picture.md) (**WMT\_TYPE\_BINARY**)
+[**WM\_PICTURE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmpicture?branch=master) (**WMT\_TYPE\_BINARY**)
 
 ## Remarks
 
@@ -36,7 +42,7 @@ WM/Picture attributes added with the objects of the Windows Media Format SDK are
 [**Attribute List**](attribute-list.md)
 </dt> <dt>
 
-[**WM\_PICTURE**](wm-picture.md)
+[**WM\_PICTURE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmpicture?branch=master)
 </dt> </dl>
 
  

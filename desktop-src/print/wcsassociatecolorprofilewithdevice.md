@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WcsAssociateColorProfileWithDevice function associates a specified WCS color profile with a specified device.'
-ms.assetid: 'b1863604-e8a2-4dc7-9f2f-e0eea9baab1a'
+---
+Description: The WcsAssociateColorProfileWithDevice function associates a specified WCS color profile with a specified device.
+ms.assetid: b1863604-e8a2-4dc7-9f2f-e0eea9baab1a
 title: WcsAssociateColorProfileWithDevice function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WcsAssociateColorProfileWithDevice function

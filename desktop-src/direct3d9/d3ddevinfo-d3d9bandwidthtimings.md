@@ -1,7 +1,12 @@
-﻿---
-Description: 'Throughput metrics for help in understanding the performance of an application.'
-ms.assetid: 'c0bcf060-a0ed-4c85-9554-398ffe4b4235'
-title: 'D3DDEVINFO\_D3D9BANDWIDTHTIMINGS structure'
+---
+Description: Throughput metrics for help in understanding the performance of an application.
+ms.assetid: c0bcf060-a0ed-4c85-9554-398ffe4b4235
+title: D3DDEVINFO\_D3D9BANDWIDTHTIMINGS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDEVINFO\_D3D9BANDWIDTHTIMINGS structure
@@ -99,7 +104,7 @@ Pixel fill throughput percentage. This is the number of pixels that are filled c
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**GetData**](idirect3dquery9--getdata.md)
+[**GetData**](/windows/win32/d3d9helper/nf-d3d9-idirect3dquery9-getdata?branch=master)
 </dt> </dl>
 
  

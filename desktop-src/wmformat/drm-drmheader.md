@@ -1,14 +1,20 @@
 ---
 title: DRM\_DRMHeader
 description: DRM\_DRMHeader is the base string for the DRMHeader attributes such as DRM\_HeaderKeyID.
-ms.assetid: 'e6d53760-aeb6-4704-82dd-945390776c5c'
-keywords: ["DRM_DRMHeader windows Media Format"]
+ms.assetid: e6d53760-aeb6-4704-82dd-945390776c5c
+keywords:
+- DRM_DRMHeader windows Media Format
 topic_type:
 - apiref
 api_name:
 - DRM_DRMHeader
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_DRMHeader

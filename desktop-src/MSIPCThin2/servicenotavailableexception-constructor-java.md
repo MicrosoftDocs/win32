@@ -4,17 +4,21 @@ description: Initializes a new instance of the ServiceNotAvailableException clas
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c5736ecc-2e56-4873-8aa1-39d8713e3c9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: c5736ecc-2e56-4873-8aa1-39d8713e3c9f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ServiceNotAvailableException(String) constructor"]
+keywords:
+- ServiceNotAvailableException(String) constructor
 topic_type:
 - apiref
 api_name:
 - ServiceNotAvailableException(String) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServiceNotAvailableException(String) constructor
@@ -37,7 +41,7 @@ public ServiceNotAvailableException(String applicationName)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -47,9 +51,9 @@ public ServiceNotAvailableException(String applicationName)
 
 ServiceNotAvailableException.java
 
- 
+ 
 
- 
+ 
 
 
 

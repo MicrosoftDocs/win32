@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport CommandMODE method
 description: Issues a MODE command to the server.
-ms.assetid: '59560881-367d-4677-9427-92c2bb9ada95'
-keywords: ["CommandMODE method Windows Mail (formerly Outlook Express)", "CommandMODE method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandMODE method"]
+ms.assetid: 59560881-367d-4677-9427-92c2bb9ada95
+keywords:
+- CommandMODE method Windows Mail (formerly Outlook Express)
+- CommandMODE method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandMODE method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::CommandMODE method
@@ -24,7 +32,7 @@ Issues a `MODE` command to the server.*pszMode* is a required argument, an examp
 
 ```C++
 HRESULT CommandMODE(
-  [in] LPSTR pszMode
+  [in] LPSTR pszMode
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -66,8 +74,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -75,9 +83,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: PARAM Element
 description: The PARAM element defines a custom parameter associated with a playlist or an element of a playlist.
-ms.assetid: 'd905a42a-ac89-4c99-94ca-b3b7060ebbdc'
-keywords: ["PARAM Element Windows Media Player"]
+ms.assetid: d905a42a-ac89-4c99-94ca-b3b7060ebbdc
+keywords:
+- PARAM Element Windows Media Player
 topic_type:
 - apiref
 api_name:
 - PARAM Element
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PARAM Element
@@ -29,7 +35,7 @@ A parameter can also be associated with the show rather than an individual clip,
 > [!Note]  
 > This **ASX** element is only available for Windows Media Player version 6.01 and later. The standard installation of Microsoft Internet Explorer 5 includes a compatible version of Windows Media Player.
 
- 
+ 
 
 ## Attributes
 
@@ -48,7 +54,7 @@ Name used to access the parameter value. The name can be any valid string. The f
 | CanSkipForward                  | The **VALUE** attribute specifies whether the user can skip forward to the next playlist item by clicking **Next**. The **VALUE** attribute can be set to "Yes" or "No". The default value is "Yes".                                                                                                                                                                                                                                                                                                                                                                                                  |
 | CPRadioID                       | The **VALUE** attribute specifies the ID of a radio feed provided by a type 1 online store. That is, the **VALUE** attribute must be equal to the RadioID field of one of the radio feeds in the online store's catalog. The parent element is the **ASX** element.                                                                                                                                                                                                                                                                                                                                   |
 | Encoding                        | The **VALUE** attribute is set to "utf-8" to indicate that the metafile is a Unicode (UTF-8) encoded file.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| HtmlFlink                       | The **VALUE** attribute is a string provided by a type 1 online store. Windows Media Player passes the string to the [IWMPContentPartner::GetItemInfo](iwmpcontentpartner-getiteminfo.md) method, which is implemented by the online store's plug-in. The **GetItemInfo** method returns the URL of the webpage to display in the **Now Playing** pane of the Player. The webpage has access to all of the methods that the **External** object exposes to type 1 stores. For a list of those methods, see [External Object for Type 1 Online Stores](external-object-for-type-1-online-stores.md). |
+| HtmlFlink                       | The **VALUE** attribute is a string provided by a type 1 online store. Windows Media Player passes the string to the [IWMPContentPartner::GetItemInfo](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo?branch=master) method, which is implemented by the online store's plug-in. The **GetItemInfo** method returns the URL of the webpage to display in the **Now Playing** pane of the Player. The webpage has access to all of the methods that the **External** object exposes to type 1 stores. For a list of those methods, see [External Object for Type 1 Online Stores](external-object-for-type-1-online-stores.md). |
 | HTMLView                        | The **VALUE** attribute specifies a URL that displays in the **Now Playing** pane of the full mode Player for the duration of the playlist or the current entry depending on whether the parent element is the **ASX** element or an **ENTRY** element. HTMLView is not supported for the Windows Media Player control.                                                                                                                                                                                                                                                                               |
 | Log:*FieldName*\[:*NameSpace*\] | The **VALUE** attribute specifies the value that the indicated log field will be set to. The :*NameSpace* portion of the **NAME** attribute is optional.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Prebuffer                       | The **VALUE** attribute specifies whether the next playlist entry begins buffering before the end of the current entry, which enables a seamless transition. The **VALUE** attribute can be set to "true" or "false".                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -56,7 +62,7 @@ Name used to access the parameter value. The name can be any valid string. The f
 
 
 
- 
+ 
 
 **VALUE**
 
@@ -73,7 +79,7 @@ Value associated with this parameter. It can be either a numeric or string value
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -138,9 +144,9 @@ This **ASX** element is only available for Windows Media Player version 6.01 and
 [**Windows Media Metafile Reference**](windows-media-metafile-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

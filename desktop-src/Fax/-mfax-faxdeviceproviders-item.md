@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxDeviceProvider object from the FaxDeviceProviders collection.'
-ms.assetid: 'aafe3cf4-43d9-4ae8-87a8-4ee7e0af5cc3'
-title: 'FaxDeviceProviders.Item property'
+---
+Description: The Item property returns a FaxDeviceProvider object from the FaxDeviceProviders collection.
+ms.assetid: aafe3cf4-43d9-4ae8-87a8-4ee7e0af5cc3
+title: FaxDeviceProviders.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProviders.Item property
@@ -23,7 +28,7 @@ Property Item( _
 
 ## Property value
 
-A variable of type [**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md) that specifies or receives a [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md) object.
+A variable of type [**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master) that specifies or receives a [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md) object.
 
 ## Requirements
 
@@ -51,7 +56,7 @@ A variable of type [**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md) that
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

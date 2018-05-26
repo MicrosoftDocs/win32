@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ConnectFrontEnd method builds the front end of the filter graph from the current timeline.'
-ms.assetid: 'ac484fd6-b88d-4c3a-bc4d-f118083d706d'
-title: 'IRenderEngine::ConnectFrontEnd method'
+---
+Description: The ConnectFrontEnd method builds the front end of the filter graph from the current timeline.
+ms.assetid: ac484fd6-b88d-4c3a-bc4d-f118083d706d
+title: IRenderEngineConnectFrontEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::ConnectFrontEnd method

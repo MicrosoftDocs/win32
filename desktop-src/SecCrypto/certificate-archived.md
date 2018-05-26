@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a Boolean value that indicates whether the certificate is archived.'
-ms.assetid: 'a6526b0e-e76b-4f03-a6ba-9e380e362364'
-title: 'Certificate.Archived property'
+---
+Description: Sets or retrieves a Boolean value that indicates whether the certificate is archived.
+ms.assetid: a6526b0e-e76b-4f03-a6ba-9e380e362364
+title: Certificate.Archived property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate.Archived property

@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMUBYTEN2 structure exposes the following operators.'
-ms.assetid: '287521e0-ade4-4abd-aec6-dde9a734cdf2'
+---
+Description: The XMUBYTEN2 structure exposes the following operators.
+ms.assetid: 287521e0-ade4-4abd-aec6-dde9a734cdf2
 title: XMUBYTEN2 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUBYTEN2 Operators
 
-The [**XMUBYTEN2**](xmubyten2.md) structure exposes the following operators.
+The [**XMUBYTEN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available with C++.
@@ -35,7 +40,7 @@ The [**XMUBYTEN2**](xmubyten2.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMUBYTEN2**](xmubyten2.md)
+[**XMUBYTEN2**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmubyten2?branch=master)
 </dt> </dl>
 
  

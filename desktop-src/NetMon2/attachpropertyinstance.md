@@ -1,7 +1,12 @@
 ---
-Description: 'The AttachPropertyInstance function maps an existing property to a specific location in the recognized data.'
-ms.assetid: 'b44cf8d1-939b-45da-8a9a-b4bdcf9faf43'
+Description: The AttachPropertyInstance function maps an existing property to a specific location in the recognized data.
+ms.assetid: b44cf8d1-939b-45da-8a9a-b4bdcf9faf43
 title: AttachPropertyInstance function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AttachPropertyInstance function
@@ -13,13 +18,13 @@ The **AttachPropertyInstance** function maps an existing property to a specific 
 
 ```C++
 BOOL WINAPI AttachPropertyInstance(
-  _In_ HFRAME    hFrame,
-  _In_ HPROPERTY hProperty,
-  _In_ DWORD     Length,
-  _In_ ULPVOID   lpData,
-  _In_ DWORD     HelpID,
-  _In_ DWORD     IndentLevel,
-  _In_ DWORD     IFlags
+  _In_ HFRAME    hFrame,
+  _In_ HPROPERTY hProperty,
+  _In_ DWORD     Length,
+  _In_ ULPVOID   lpData,
+  _In_ DWORD     HelpID,
+  _In_ DWORD     IndentLevel,
+  _In_ DWORD     IFlags
 );
 ```
 
@@ -90,7 +95,7 @@ A BIT field value that indicates the order of the BITs within a property. Previo
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -115,7 +120,7 @@ During the implementation of [**AttachProperties**](attachproperties.md), call *
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -123,8 +128,8 @@ During the implementation of [**AttachProperties**](attachproperties.md), call *
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -144,9 +149,9 @@ During the implementation of [**AttachProperties**](attachproperties.md), call *
 [**PROPERTYINST**](propertyinst.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

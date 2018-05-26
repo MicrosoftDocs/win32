@@ -1,7 +1,12 @@
 ---
-Description: 'This class represents the advanced properties of a network adapter stored in the registry.'
-ms.assetid: '5d459abe-beb1-42e9-b1fc-9d1538d997ed'
-title: 'MSFT\_NetAdapterAdvancedPropertySettingData class'
+Description: This class represents the advanced properties of a network adapter stored in the registry.
+ms.assetid: 5d459abe-beb1-42e9-b1fc-9d1538d997ed
+title: MSFT\_NetAdapterAdvancedPropertySettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterAdvancedPropertySettingData class
@@ -16,29 +21,29 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterAdvancedPropertySettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
-  string  DisplayName;
-  string  DisplayValue;
-  string  DefaultDisplayValue;
-  uint32  DisplayParameterType;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
+  string  DisplayName;
+  string  DisplayValue;
+  string  DefaultDisplayValue;
+  uint32  DisplayParameterType;
   boolean Optional;
-  string  ValidRegistryValues[];
-  string  ValidDisplayValues[];
-  string  NumericParameterBaseValue;
-  string  NumericParameterMinValue;
-  string  NumericParameterMaxValue;
-  string  NumericParameterStepValue;
-  string  RegistryKeyword;
-  uint32  RegistryDataType;
-  string  RegistryValue[];
-  string  DefaultRegistryValue;
+  string  ValidRegistryValues[];
+  string  ValidDisplayValues[];
+  string  NumericParameterBaseValue;
+  string  NumericParameterMinValue;
+  string  NumericParameterMaxValue;
+  string  NumericParameterStepValue;
+  string  RegistryKeyword;
+  uint32  RegistryDataType;
+  string  RegistryValue[];
+  string  DefaultRegistryValue;
 };
 ```
 
@@ -61,7 +66,7 @@ The **MSFT\_NetAdapterAdvancedPropertySettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -430,17 +435,17 @@ An array of integers specifying the registry keyword values used to represent a 
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

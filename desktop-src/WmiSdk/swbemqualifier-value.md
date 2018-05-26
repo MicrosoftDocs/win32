@@ -1,13 +1,16 @@
 ---
-Description: 'The Value property of the SWbemQualifier object contains the variant value of this qualifier. This is the default property of this object.'
+Description: The Value property of the SWbemQualifier object contains the variant value of this qualifier. This is the default property of this object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a2f481fc-8231-4bc0-a9fc-9e622f11c925'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a2f481fc-8231-4bc0-a9fc-9e622f11c925
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifier.Value property'
+title: SWbemQualifier.Value property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifier.Value property
@@ -35,8 +38,8 @@ SWbemQualifier.Value As Variant
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemQualifier.Value As Variant
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: Groups can be placed in any container or organizational unit (OU) i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7f9d3c90-b6f4-4bfa-960f-58f380aa487c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7f9d3c90-b6f4-4bfa-960f-58f380aa487c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Enumerating Groups in a Domain AD"]
+keywords:
+- Enumerating Groups in a Domain AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Groups in a Domain

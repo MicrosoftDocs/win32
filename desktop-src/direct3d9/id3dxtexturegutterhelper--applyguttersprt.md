@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applies gutters to an ID3DXPRTBuffer buffer object.'
-ms.assetid: 'db09aa50-3175-4588-8433-dad6bd37cf0c'
-title: 'ID3DXTextureGutterHelper::ApplyGuttersPRT method'
+---
+Description: Applies gutters to an ID3DXPRTBuffer buffer object.
+ms.assetid: db09aa50-3175-4588-8433-dad6bd37cf0c
+title: ID3DXTextureGutterHelperApplyGuttersPRT method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureGutterHelper::ApplyGuttersPRT method

@@ -1,8 +1,18 @@
 ---
 title: Writing the Code
 description: Writing the Code
-ms.assetid: 'dd760de6-1779-4526-ad3e-9e814da8d62e'
-keywords: ["Windows Media Player Mobile skins,writing code", "skins,writing code", "creating skins,writing code", "writing code for skins,Windows Media Player Mobile", "writing code for skins,about"]
+ms.assetid: dd760de6-1779-4526-ad3e-9e814da8d62e
+keywords:
+- Windows Media Player Mobile skins,writing code
+- skins,writing code
+- creating skins,writing code
+- writing code for skins,Windows Media Player Mobile
+- writing code for skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Writing the Code

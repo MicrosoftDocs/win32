@@ -1,7 +1,12 @@
 ---
 title: MinDiskFreeForceMerge
 description: MinDiskFreeForceMerge
-ms.assetid: '3579e82a-d493-4e6a-a024-8f32171acfca'
+ms.assetid: 3579e82a-d493-4e6a-a024-8f32171acfca
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinDiskFreeForceMerge

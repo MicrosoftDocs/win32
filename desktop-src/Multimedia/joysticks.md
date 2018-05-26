@@ -1,8 +1,22 @@
 ---
 title: Joysticks
 description: Joysticks
-ms.assetid: '0cfff45b-48d4-4e0c-addf-e131d3a31187'
-keywords: ["Windows multimedia,joysticks", "multimedia,joysticks", "multimedia input,joysticks", "joysticks,about", "touch screens", "digitizing tablets", "light pens", "rudder pedals", "flight yokes"]
+ms.assetid: 0cfff45b-48d4-4e0c-addf-e131d3a31187
+keywords:
+- Windows multimedia,joysticks
+- multimedia,joysticks
+- multimedia input,joysticks
+- joysticks,about
+- touch screens
+- digitizing tablets
+- light pens
+- rudder pedals
+- flight yokes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Joysticks

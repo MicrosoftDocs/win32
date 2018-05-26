@@ -1,8 +1,9 @@
 ---
 title: gluBeginSurface function
 description: The gluBeginSurface and gluEndSurface functions delimit a Non-Uniform Rational B-Spline (NURBS) surface definition.
-ms.assetid: '7189f05e-0c4d-4f82-8a82-a51fcc51b202'
-keywords: ["gluBeginSurface function OpenGL"]
+ms.assetid: 7189f05e-0c4d-4f82-8a82-a51fcc51b202
+keywords:
+- gluBeginSurface function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluBeginSurface function
@@ -22,7 +28,7 @@ The **gluBeginSurface** and [**gluEndSurface**](gluendsurface.md) functions deli
 
 ```C++
 void WINAPI gluBeginSurface(
-   GLUnurbs *nobj
+   GLUnurbs *nobj
 );
 ```
 
@@ -76,8 +82,8 @@ gluEndSurface(nobj);
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -106,9 +112,9 @@ gluEndSurface(nobj);
 [**gluPwlCurve**](glupwlcurve.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

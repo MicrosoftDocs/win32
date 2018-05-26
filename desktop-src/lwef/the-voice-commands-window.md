@@ -1,7 +1,12 @@
 ---
 title: The Voice Commands Window
 description: The Voice Commands Window
-ms.assetid: '4cbf1eeb-be35-46e5-87c0-08e022db621c'
+ms.assetid: 4cbf1eeb-be35-46e5-87c0-08e022db621c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Voice Commands Window

@@ -1,19 +1,24 @@
 ---
-Description: 'The IsFormatSupported method determines whether a specified time format is supported. This method implements the IMediaSeeking::IsFormatSupported method.'
-ms.assetid: 'dd8751d6-8439-4155-bdaf-b152a7c6cad4'
-title: 'CPosPassThru.IsFormatSupported method'
+Description: The IsFormatSupported method determines whether a specified time format is supported. This method implements the IMediaSeekingIsFormatSupported method.
+ms.assetid: dd8751d6-8439-4155-bdaf-b152a7c6cad4
+title: CPosPassThru.IsFormatSupported method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.IsFormatSupported method
 
-The `IsFormatSupported` method determines whether a specified time format is supported. This method implements the [**IMediaSeeking::IsFormatSupported**](imediaseeking-isformatsupported.md) method.
+The `IsFormatSupported` method determines whether a specified time format is supported. This method implements the [**IMediaSeeking::IsFormatSupported**](/windows/win32/Strmif/nf-strmif-imediaseeking-isformatsupported?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IsFormatSupported(
-   const GUID *pFormat
+   const GUID *pFormat
 );
 ```
 
@@ -55,9 +60,9 @@ Returns the **HRESULT** value from the connected pin.
 [**Time Format GUIDs**](time-format-guids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Tree-View Control Item States
 description: This section lists the item state flags used to indicate the state of an item in a tree-view control.
-ms.assetid: '5b11d575-6dfd-47a8-b959-b19aaeeca70e'
+ms.assetid: 5b11d575-6dfd-47a8-b959-b19aaeeca70e
 topic_type:
 - apiref
 api_name:
@@ -19,6 +19,11 @@ api_location:
 - CommCtrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tree-View Control Item States
@@ -44,7 +49,7 @@ This section lists the item state flags used to indicate the state of an item in
 
 ## Remarks
 
-When you set or retrieve an item's overlay image index or state image index, you must specify the following masks in the **stateMask** member of the [**TVITEM**](tvitem.md) structure:
+When you set or retrieve an item's overlay image index or state image index, you must specify the following masks in the **stateMask** member of the [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure:
 
 -   **TVIS\_OVERLAYMASK**
 -   **TVIS\_STATEIMAGEMASK**
@@ -62,9 +67,9 @@ These values can also be used to mask off the state bits that are not of interes
 
 
 
- 
+ 
 
- 
+ 
 
 
 

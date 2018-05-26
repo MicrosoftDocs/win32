@@ -1,8 +1,14 @@
 ---
 title: LocalServer32
 description: Specifies the full path to a 32-bit local server application.
-ms.assetid: '5d922230-f53d-4bf9-be50-c8c00f45b7a8'
-keywords: ["LocalServer32 registry key COM"]
+ms.assetid: 5d922230-f53d-4bf9-be50-c8c00f45b7a8
+keywords:
+- LocalServer32 registry key COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalServer32

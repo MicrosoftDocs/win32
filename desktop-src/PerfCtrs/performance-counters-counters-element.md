@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies the root node of the counters section of an instrumentation manifest.'
-ms.assetid: 'f16f432b-466f-4a3c-bc1b-e80b876a2511'
+Description: Identifies the root node of the counters section of an instrumentation manifest.
+ms.assetid: f16f432b-466f-4a3c-bc1b-e80b876a2511
 title: counters Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # counters Element
@@ -81,14 +86,14 @@ This element's parent node is the [**instrumentation**](https://msdn.microsoft.c
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

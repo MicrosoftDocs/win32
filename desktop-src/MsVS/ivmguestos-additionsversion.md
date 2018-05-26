@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS AdditionsVersion property
 description: The AdditionsVersion property contains the version of the Additions installed in the guest operating system.
-ms.assetid: '942c9ac3-c226-492f-b58b-4d6f05f5f392'
-keywords: ["AdditionsVersion property Virtual Server", "AdditionsVersion property Virtual Server , IVMGuestOS interface", "IVMGuestOS interface Virtual Server , AdditionsVersion property", "AdditionsVersion property Virtual Server , VMGuestOS interface", "VMGuestOS interface Virtual Server , AdditionsVersion property"]
+ms.assetid: 942c9ac3-c226-492f-b58b-4d6f05f5f392
+keywords:
+- AdditionsVersion property Virtual Server
+- AdditionsVersion property Virtual Server , IVMGuestOS interface
+- IVMGuestOS interface Virtual Server , AdditionsVersion property
+- AdditionsVersion property Virtual Server , VMGuestOS interface
+- VMGuestOS interface Virtual Server , AdditionsVersion property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::AdditionsVersion property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AdditionsVersion(
-  [out] BSTR *additionsVersion
+  [out] BSTR *additionsVersion
 );
 ```
 
@@ -82,8 +92,8 @@ If the virtual machine is not running when this method is invoked, the method wi
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -95,9 +105,9 @@ If the virtual machine is not running when this method is invoked, the method wi
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

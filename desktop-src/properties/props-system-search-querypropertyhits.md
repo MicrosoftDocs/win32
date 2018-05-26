@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the list of matched properties from a query.'
-ms.assetid: '4cd21925-d563-42ad-96bb-9a28d0a758a4'
-title: 'System.Search.QueryPropertyHits'
+Description: Contains the list of matched properties from a query.
+ms.assetid: 4cd21925-d563-42ad-96bb-9a28d0a758a4
+title: System.Search.QueryPropertyHits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Search.QueryPropertyHits

@@ -4,10 +4,13 @@ description: The Event Viewer snap-in is used to display and manage event logs.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bb126dd2-7311-40eb-858e-a0993279f2ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bb126dd2-7311-40eb-858e-a0993279f2ca
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the Event Viewer Snap-in

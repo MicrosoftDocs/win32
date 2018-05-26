@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the SessionDataBegin event.'
+---
+Description: The event type class for the SessionDataBegin event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0eea36d0-6d02-45a5-87a4-d9e8865103a1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0eea36d0-6d02-45a5-87a4-d9e8865103a1
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetAcquireSessionBegin class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetAcquireSessionBegin class

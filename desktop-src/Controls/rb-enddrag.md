@@ -1,8 +1,9 @@
 ---
 title: RB\_ENDDRAG message
-description: Terminates the rebar control's drag-and-drop operation. This message does not cause an RBN\_ENDDRAG notification to be sent.
-ms.assetid: '4991dda6-32ea-4d3e-9d39-17c2b6995f09'
-keywords: ["RB_ENDDRAG message Windows Controls"]
+description: Terminates the rebar controls drag-and-drop operation. This message does not cause an RBN\_ENDDRAG notification to be sent.
+ms.assetid: 4991dda6-32ea-4d3e-9d39-17c2b6995f09
+keywords:
+- RB_ENDDRAG message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RB\_ENDDRAG message
@@ -37,8 +43,8 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -56,9 +62,9 @@ The return value for this message is not used.
 [**RB\_DRAGMOVE**](rb-dragmove.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

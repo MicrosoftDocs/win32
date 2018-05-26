@@ -1,13 +1,16 @@
 ---
 title: File API configuration
-description: The File API's behavior can be configured through settings in the registry.
+description: The File APIs behavior can be configured through settings in the registry.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '930878C2-D2B4-45F1-885F-64927CEBAC1D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 930878C2-D2B4-45F1-885F-64927CEBAC1D
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # File API configuration
@@ -60,7 +63,7 @@ This setting has no bearing on decryption. Any encrypted file, whether encrypted
 <li><p><strong>Pfile</strong> PFile encryption is used. The encrypted file will have .pfile appended to the original extension. For example, after encryption, a .txt file, will have an extension of .txt.pfile.</p>
 <blockquote>
 [!Note]<br />
-This setting has no bearing on Office file formats. For example, if the <strong>HKEY_LOCAL_MACHINE</strong>\<strong>Software</strong>\<strong>Microsoft</strong>\<strong>MSIPC</strong>\<strong>FileProtection</strong>\<strong>DOCX</strong>\<strong>Encryption</strong><br/> value is set to &quot;Pfile”, .docx files will still be encrypted using native protection, and the encrypted file will still have a file extension of .docx.
+This setting has no bearing on Office file formats. For example, if the <strong>HKEY_LOCAL_MACHINE</strong>\<strong>Software</strong>\<strong>Microsoft</strong>\<strong>MSIPC</strong>\<strong>FileProtection</strong>\<strong>DOCX</strong>\<strong>Encryption</strong><br/> value is set to &quot;Pfile , .docx files will still be encrypted using native protection, and the encrypted file will still have a file extension of .docx.
 </blockquote>
 <p><br/></p></li>
 </ul>
@@ -71,7 +74,7 @@ Setting any other value or setting no value results in default behavior.<br/></t
 
 
 
- 
+ 
 
 **Default behavior for different file formats**
 
@@ -109,38 +112,38 @@ The following settings enable PFile encryption for txt files. Office files will 
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         MSIPC
-            FileProtection
-               txt
-                  Encryption = Pfile
+   Software
+      Microsoft
+         MSIPC
+            FileProtection
+               txt
+                  Encryption = Pfile
 ```
 
 The following settings enable PFile encryption for all non-Office files except txt files. Office files will have native protection applied (by default), txt files will have protection blocked, and all other files will have PFile protection applied.
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         MSIPC
-            FileProtection
-               *
-                  Encryption = Pfile
-               txt
-                  Encryption = Off
+   Software
+      Microsoft
+         MSIPC
+            FileProtection
+               *
+                  Encryption = Pfile
+               txt
+                  Encryption = Off
 ```
 
 The following settings disable native encryption for docx files. Office files, except for docx files, will have native protection applied (by default) and all other files will have protection blocked (by default).
 
 ```
 HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         MSIPC
-            FileProtection
-               docx
-                  Encryption = Off
+   Software
+      Microsoft
+         MSIPC
+            FileProtection
+               docx
+                  Encryption = Off
 ```
 
 ## Related topics
@@ -153,9 +156,9 @@ HKEY_LOCAL_MACHINE
 [**IPCERROR\_FILE\_ENCRYPT\_BLOCKED**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

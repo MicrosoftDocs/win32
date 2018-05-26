@@ -1,7 +1,12 @@
 ---
-Description: 'Lists tasks necessary for creating a network provider.'
-ms.assetid: '2383ee2a-182b-4190-989d-be923fcf812b'
+Description: Lists tasks necessary for creating a network provider.
+ms.assetid: 2383ee2a-182b-4190-989d-be923fcf812b
 title: Using Network Provider API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Network Provider API

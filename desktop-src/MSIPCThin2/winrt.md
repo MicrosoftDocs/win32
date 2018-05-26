@@ -4,10 +4,13 @@ description: API reference for the Windows Phone and Windows Store Applications 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'efa6ac83-15e5-4b59-9d6b-40f52df2b95a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: efa6ac83-15e5-4b59-9d6b-40f52df2b95a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows API Reference

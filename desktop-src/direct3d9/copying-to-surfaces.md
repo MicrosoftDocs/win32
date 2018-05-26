@@ -1,14 +1,19 @@
 ---
-Description: 'When using IDirect3DDevice9::UpdateSurface, pass a rectangle on the source surface, or use NULL to specify the entire surface.'
-ms.assetid: '2219d037-8480-4c36-b04e-0c23406a2e7e'
-title: 'Copying to Surfaces (Direct3D 9)'
+Description: When using IDirect3DDevice9UpdateSurface, pass a rectangle on the source surface, or use NULL to specify the entire surface.
+ms.assetid: 2219d037-8480-4c36-b04e-0c23406a2e7e
+title: Copying to Surfaces (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Copying to Surfaces (Direct3D 9)
 
-When using [**IDirect3DDevice9::UpdateSurface**](idirect3ddevice9--updatesurface.md), pass a rectangle on the source surface, or use **NULL** to specify the entire surface. You also pass a point on the destination surface to which the upper left position of the rectangle on the source image is copied. This method does not support clipping. The operation will fail unless the source rectangle and the corresponding destination rectangle are completely contained within the source and destination surfaces respectively. This method does not support alpha blending, color keys, or format conversion. Note that the destination and source surfaces must be distinct.
+When using [**IDirect3DDevice9::UpdateSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface?branch=master), pass a rectangle on the source surface, or use **NULL** to specify the entire surface. You also pass a point on the destination surface to which the upper left position of the rectangle on the source image is copied. This method does not support clipping. The operation will fail unless the source rectangle and the corresponding destination rectangle are completely contained within the source and destination surfaces respectively. This method does not support alpha blending, color keys, or format conversion. Note that the destination and source surfaces must be distinct.
 
-For other restrictions when using UpdateSurface, see [**IDirect3DDevice9::UpdateSurface**](idirect3ddevice9--updatesurface.md).
+For other restrictions when using UpdateSurface, see [**IDirect3DDevice9::UpdateSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface?branch=master).
 
 The following methods are also available in C++/C for copying images to a Direct3D surface.
 
@@ -17,7 +22,7 @@ The following methods are also available in C++/C for copying images to a Direct
 -   [**D3DXLoadSurfaceFromMemory**](d3dxloadsurfacefrommemory.md)
 -   [**D3DXLoadSurfaceFromResource**](d3dxloadsurfacefromresource.md)
 -   [**D3DXLoadSurfaceFromSurface**](d3dxloadsurfacefromsurface.md)
--   [**IDirect3DDevice9::UpdateSurface**](idirect3ddevice9--updatesurface.md)
+-   [**IDirect3DDevice9::UpdateSurface**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-updatesurface?branch=master)
 
 ## UpdateSurface Example
 
@@ -45,7 +50,7 @@ d3dDevice->UpdateSurface( pSource, rcSource, 2, pDest, ptDest);
 [Direct3D Surfaces](direct3d-surfaces.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::StretchRect**](idirect3ddevice9--stretchrect.md)
+[**IDirect3DDevice9::StretchRect**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-stretchrect?branch=master)
 </dt> </dl>
 
  

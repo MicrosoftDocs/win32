@@ -1,8 +1,9 @@
 ---
 title: CB\_GETITEMHEIGHT message
 description: Determines the height of list items or the selection field in a combo box.
-ms.assetid: '72fba6ca-0a51-4801-bd45-5f5a7d5ebee2'
-keywords: ["CB_GETITEMHEIGHT message Windows Controls"]
+ms.assetid: 72fba6ca-0a51-4801-bd45-5f5a7d5ebee2
+keywords:
+- CB_GETITEMHEIGHT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETITEMHEIGHT message
@@ -24,7 +30,7 @@ Determines the height of list items or the selection field in a combo box.
 *wParam* 
 </dt> <dd>
 
-The combo box component whose height is to be retrieved. This parameter must be –1 to retrieve the height of the selection field. It must be zero to retrieve the height of list items, unless the combo box has the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style. In that case, the *wParam* parameter is the zero-based index of a specific list item.
+The combo box component whose height is to be retrieved. This parameter must be  1 to retrieve the height of the selection field. It must be zero to retrieve the height of list items, unless the combo box has the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style. In that case, the *wParam* parameter is the zero-based index of a specific list item.
 
 </dd> <dt>
 
@@ -37,7 +43,7 @@ This parameter is not used.
 
 ## Return value
 
-The return value is the height, in pixels, of the list items in a combo box. If the combo box has the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style, it is the height of the item specified by the *wParam* parameter. If *wParam* is –1, the return value is the height of the edit control (or static-text) portion of the combo box. If an error occurs, the return value is CB\_ERR.
+The return value is the height, in pixels, of the list items in a combo box. If the combo box has the [**CBS\_OWNERDRAWVARIABLE**](combo-box-styles.md#cbs-ownerdrawvariable) style, it is the height of the item specified by the *wParam* parameter. If *wParam* is  1, the return value is the height of the edit control (or static-text) portion of the combo box. If an error occurs, the return value is CB\_ERR.
 
 ## Requirements
 
@@ -45,8 +51,8 @@ The return value is the height, in pixels, of the list items in a combo box. If 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ The return value is the height, in pixels, of the list items in a combo box. If 
 [**WM\_MEASUREITEM**](wm-measureitem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

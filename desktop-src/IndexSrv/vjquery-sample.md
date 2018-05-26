@@ -1,7 +1,12 @@
 ---
 title: VJQuery Sample
 description: VJQuery Sample
-ms.assetid: '4eb99de1-1c3a-4ce5-a230-8b73a5c8ba24'
+ms.assetid: 4eb99de1-1c3a-4ce5-a230-8b73a5c8ba24
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VJQuery Sample

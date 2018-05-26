@@ -1,12 +1,17 @@
-﻿---
-Description: 'Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by IShellFolderViewCB::MessageSFVCB.'
-ms.assetid: '6b9e4a4d-ec45-489c-bbff-d123d5756b75'
-title: 'SFVM\_INVOKECOMMAND message'
+---
+Description: Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by IShellFolderViewCBMessageSFVCB.
+ms.assetid: 6b9e4a4d-ec45-489c-bbff-d123d5756b75
+title: SFVM\_INVOKECOMMAND message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_INVOKECOMMAND message
 
-Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

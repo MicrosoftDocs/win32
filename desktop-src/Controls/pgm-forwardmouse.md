@@ -1,8 +1,9 @@
 ---
 title: PGM\_FORWARDMOUSE message
 description: Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards WM\_MOUSEMOVE messages to the contained window. You can send this message explicitly or use the Pager\_ForwardMouse macro.
-ms.assetid: '269972fe-50b3-4c9f-b5ac-65e768b30684'
-keywords: ["PGM_FORWARDMOUSE message Windows Controls"]
+ms.assetid: 269972fe-50b3-4c9f-b5ac-65e768b30684
+keywords:
+- PGM_FORWARDMOUSE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM\_FORWARDMOUSE message
 
-Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) messages to the contained window. You can send this message explicitly or use the [**Pager\_ForwardMouse**](pager-forwardmouse.md) macro.
+Enables or disables mouse forwarding for the pager control. When mouse forwarding is enabled, the pager control forwards [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) messages to the contained window. You can send this message explicitly or use the [**Pager\_ForwardMouse**](/windows/win32/Commctrl/nf-commctrl-pager_forwardmouse?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ The return value is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

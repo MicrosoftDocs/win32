@@ -1,7 +1,12 @@
-﻿---
-Description: 'Predefined sets of pipeline state used by state blocks (see State Blocks Save and Restore State (Direct3D 9)).'
-ms.assetid: '60b94d45-aab6-4dbe-ab48-65dfe9861d82'
+---
+Description: Predefined sets of pipeline state used by state blocks (see State Blocks Save and Restore State (Direct3D 9)).
+ms.assetid: 60b94d45-aab6-4dbe-ab48-65dfe9861d82
 title: D3DSTATEBLOCKTYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DSTATEBLOCKTYPE enumeration
@@ -85,7 +90,7 @@ There are only a few states that are considered both vertex and pixel state. The
 [Direct3D Enumerations](dx9-graphics-reference-d3d-enums.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::CreateStateBlock**](idirect3ddevice9--createstateblock.md)
+[**IDirect3DDevice9::CreateStateBlock**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createstateblock?branch=master)
 </dt> <dt>
 
 **IDirect3DDevice9::CreateStateBlock**

@@ -1,7 +1,12 @@
 ---
 title: IAgent
 description: IAgent
-ms.assetid: '35b12006-a938-450c-969a-7b73a3768a4d'
+ms.assetid: 35b12006-a938-450c-969a-7b73a3768a4d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgent

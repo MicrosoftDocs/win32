@@ -1,8 +1,9 @@
 ---
 title: MimeOleObjectFromMoniker function
 description: Do not use. Creates a new message object and loads its state from the supplied moniker.
-ms.assetid: 'b084ab3a-84d4-4bd5-a3bd-38ee145d6ca9'
-keywords: ["MimeOleObjectFromMoniker function Windows Mail (formerly Outlook Express)"]
+ms.assetid: b084ab3a-84d4-4bd5-a3bd-38ee145d6ca9
+keywords:
+- MimeOleObjectFromMoniker function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleObjectFromMoniker function
@@ -22,12 +28,12 @@ Do not use. Creates a new message object and loads its state from the supplied m
 
 ```C++
 HRESULT MimeOleObjectFromMoniker(
-  _In_  BINDF    bindf,
-  _In_  IMoniker *pmkOriginal,
-  _In_  IBindCtx *pBindCtx,
-  _In_  REFIID   riid,
-  _Out_ LPVOID   *ppvObject,
-  _Out_ IMoniker **ppmkNew
+  _In_  BINDF    bindf,
+  _In_  IMoniker *pmkOriginal,
+  _In_  IBindCtx *pBindCtx,
+  _In_  REFIID   riid,
+  _Out_ LPVOID   *ppvObject,
+  _Out_ IMoniker **ppmkNew
 );
 ```
 
@@ -102,7 +108,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 > [!Note]  
 > Not applicable to Macintosh.
 
- 
+ 
 
 ## Requirements
 
@@ -110,8 +116,8 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -119,9 +125,9 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
- 
+ 
 
- 
+ 
 
 
 

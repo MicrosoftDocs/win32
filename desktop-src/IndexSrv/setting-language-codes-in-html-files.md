@@ -1,7 +1,12 @@
 ---
 title: Setting Language Codes in HTML Files
 description: Setting Language Codes in HTML Files
-ms.assetid: 'e3c2c5ae-088c-4032-b549-49ad92176a8e'
+ms.assetid: e3c2c5ae-088c-4032-b549-49ad92176a8e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Language Codes in HTML Files

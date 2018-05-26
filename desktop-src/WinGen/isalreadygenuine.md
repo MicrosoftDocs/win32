@@ -1,8 +1,9 @@
 ---
 title: IsAlreadyGenuine function
 description: Specifies whether the copy of Windows running on the current system is genuine.
-ms.assetid: '72139fdd-b6ac-4951-a151-9b6cc7044570'
-keywords: ["IsAlreadyGenuine function Windows Genuine"]
+ms.assetid: 72139fdd-b6ac-4951-a151-9b6cc7044570
+keywords:
+- IsAlreadyGenuine function Windows Genuine
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - LegitLib.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsAlreadyGenuine function
 
-\[This function is no longer available for use as of Windows 7.\]
+\[This function is no longer available for use as of Windows 7.\]
 
 Specifies whether the copy of Windows running on the current system is genuine.
 
@@ -42,7 +48,7 @@ This function has no parameters.
 
 ## Remarks
 
-The Windows Genuine Advantage (WGA) functions are available only on Windows Vista and Windows XP installations that have been validated by clicking **Validate Windows** on [http://www.microsoft.com/genuine](http://go.microsoft.com/fwlink/p/?linkid=157937).
+The Windows Genuine Advantage (WGA) functions are available only on Windows Vista and Windows XP installations that have been validated by clicking **Validate Windows** on [http://www.microsoft.com/genuine](http://go.microsoft.com/fwlink/p/?linkid=157937).
 
 ## Requirements
 
@@ -50,9 +56,9 @@ The Windows Genuine Advantage (WGA) functions are available only on Windows Vist
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | None supported<br/>                                                               |
-| End of client support<br/>    | Windows Vista<br/>                                                                |
+| End of client support<br/>    | Windows Vista<br/>                                                                |
 | End of server support<br/>    | None supported<br/>                                                               |
 | DLL<br/>                      | <dl> <dt>LegitLib.dll</dt> </dl> |
 
@@ -65,9 +71,9 @@ The Windows Genuine Advantage (WGA) functions are available only on Windows Vist
 [Windows Genuine Advantage API Functions](windows-genuine-advantage-api-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

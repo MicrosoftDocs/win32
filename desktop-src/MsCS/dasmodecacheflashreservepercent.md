@@ -4,17 +4,21 @@ description: The percent of disk space, to reserve for the cache of a flash driv
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5D6DB59E-5375-49A6-84E0-241C3B157E3E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5D6DB59E-5375-49A6-84E0-241C3B157E3E
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["S2DCacheFlashReservePercent Failover Cluster"]
+keywords:
+- S2DCacheFlashReservePercent Failover Cluster
 topic_type:
 - apiref
 api_name:
 - S2DCacheFlashReservePercent
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # S2DCacheFlashReservePercent
@@ -27,14 +31,14 @@ The percent of disk space, to reserve for the cache of a flash drive when using 
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | 0<br/>                                         |
 | Maximum<br/>   | 100<br/>                                       |
 | Default<br/>   | 0<br/>                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSTER\_S2D\_CACHE\_FLASH\_RESERVE\_PERCENT
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2016<br/> |
+| Minimum supported server<br/> | Windows Server 2016<br/> |
 
 
 
@@ -61,9 +65,9 @@ The constant for this property is **CLUSTER\_S2D\_CACHE\_FLASH\_RESERVE\_PERCENT
 [CLUSCTL\_CLUSTER\_SET\_CLUSTER\_S2D\_ENABLED](clusctl-cluster-set-cluster-das-mode-enabled.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

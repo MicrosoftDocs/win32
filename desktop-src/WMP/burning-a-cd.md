@@ -1,13 +1,27 @@
 ---
 title: Burning a CD
 description: Burning a CD
-ms.assetid: 'df55479e-d8a7-443d-bf2c-c988bfd0b1be'
-keywords: ["Windows Media Player,CD burning", "Windows Media Player object model,CD burning", "object model,CD burning", "Windows Media Player ActiveX control,CD burning", "ActiveX control,CD burning", "Windows Media Player Mobile ActiveX control,CD burning", "Windows Media Player Mobile,CD burning", "CD burning,about", "burning CDs,about"]
+ms.assetid: df55479e-d8a7-443d-bf2c-c988bfd0b1be
+keywords:
+- Windows Media Player,CD burning
+- Windows Media Player object model,CD burning
+- object model,CD burning
+- Windows Media Player ActiveX control,CD burning
+- ActiveX control,CD burning
+- Windows Media Player Mobile ActiveX control,CD burning
+- Windows Media Player Mobile,CD burning
+- CD burning,about
+- burning CDs,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Burning a CD
 
-This section describes how to use the [IWMPCdromBurn](iwmpcdromburn.md) interface to burn music to a CD. The **IWMPCdromBurn** interface provides functionality for burning playlists to CDs as either data or audio tracks, as well as erasing CD-RWs.
+This section describes how to use the [IWMPCdromBurn](/windows/win32/wmp/nn-wmp-iwmpcdromburn?branch=master) interface to burn music to a CD. The **IWMPCdromBurn** interface provides functionality for burning playlists to CDs as either data or audio tracks, as well as erasing CD-RWs.
 
 Code Usage
 

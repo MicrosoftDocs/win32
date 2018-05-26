@@ -1,14 +1,20 @@
 ---
 title: transpose
 description: Transposes the specified input matrix.
-ms.assetid: '2a2ff2fb-73f0-4bb8-af83-38fe0567d122'
-keywords: ["transpose HLSL"]
+ms.assetid: 2a2ff2fb-73f0-4bb8-af83-38fe0567d122
+keywords:
+- transpose HLSL
 topic_type:
 - apiref
 api_name:
 - transpose
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # transpose
@@ -22,7 +28,7 @@ Transposes the specified input matrix.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Transposes the specified input matrix.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -42,7 +48,7 @@ The transposed value of the *x* parameter.
 
 ## Remarks
 
-If the dimensions of the source matrix are *rows*×*columns*, the resulting matrix is *columns*×*rows*.
+If the dimensions of the source matrix are *rows* *columns*, the resulting matrix is *columns* *rows*.
 
 ## Type Description
 
@@ -55,7 +61,7 @@ If the dimensions of the source matrix are *rows*×*columns*, the resulting matri
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -69,7 +75,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -78,9 +84,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

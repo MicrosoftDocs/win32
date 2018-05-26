@@ -1,13 +1,16 @@
 ---
-Description: 'What's New in WMI'
+Description: Whats New in WMI
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '430f6af6-3406-4cbd-aad7-70172bbe48aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 430f6af6-3406-4cbd-aad7-70172bbe48aa
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'What's New in WMI'
+title: Whats New in WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in WMI

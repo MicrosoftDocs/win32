@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '88acc4b8-4532-4d49-9dd1-8d6c248f2b3d'
-title: 'System.RecordedTV.IsDTVContent'
+Description: .
+ms.assetid: 88acc4b8-4532-4d49-9dd1-8d6c248f2b3d
+title: System.RecordedTV.IsDTVContent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.IsDTVContent

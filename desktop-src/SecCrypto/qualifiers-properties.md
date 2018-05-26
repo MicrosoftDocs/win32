@@ -1,7 +1,12 @@
 ---
-Description: 'The Qualifiers object exposes the following properties.'
-ms.assetid: '065E8FE7-DD22-414B-A473-908E434F785C'
+Description: The Qualifiers object exposes the following properties.
+ms.assetid: 065E8FE7-DD22-414B-A473-908E434F785C
 title: Qualifiers Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Qualifiers Properties

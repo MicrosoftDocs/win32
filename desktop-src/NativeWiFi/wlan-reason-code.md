@@ -1,14 +1,19 @@
-﻿---
-Description: 'Indicates the reason a WLAN operation has failed.'
-ms.assetid: '7b267f0b-b3f7-4729-bab4-de3bdd0a35a2'
-title: 'WLAN\_REASON\_CODE'
+---
+Description: Indicates the reason a WLAN operation has failed.
+ms.assetid: 7b267f0b-b3f7-4729-bab4-de3bdd0a35a2
+title: WLAN\_REASON\_CODE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLAN\_REASON\_CODE
 
 The **WLAN\_REASON\_CODE** type indicates the reason a WLAN operation has failed.
 
-You can use the [**WlanReasonCodeToString**](wlanreasoncodetostring.md) function to map a numeric reason code (for example, 0x00050007) to its text meaning. You can also use the lookup table to help interpret the numeric value of the reason code. To view the lookup table, see Appendix E: Mapping of reason codes to event messages in the document [Troubleshooting Windows Vista 802.11 Wireless Connections](http://go.microsoft.com/fwlink/p/?linkid=93832).
+You can use the [**WlanReasonCodeToString**](/windows/win32/wlanapi/nf-wlanapi-wlanreasoncodetostring?branch=master) function to map a numeric reason code (for example, 0x00050007) to its text meaning. You can also use the lookup table to help interpret the numeric value of the reason code. To view the lookup table, see Appendix E: Mapping of reason codes to event messages in the document [Troubleshooting Windows Vista 802.11 Wireless Connections](http://go.microsoft.com/fwlink/p/?linkid=93832).
 
 
 ```C++
@@ -63,8 +68,8 @@ The following table lists automatic connection error codes.
 | WLAN\_REASON\_CODE\_PROFILE\_CHANGED\_OR\_DELETED          | The profile was changed or deleted before the connection was established.                                                                                                                                                                                                                                                                                                                                                                               |
 | WLAN\_REASON\_CODE\_KEY\_MISMATCH                          | The profile key does not match the network key.                                                                                                                                                                                                                                                                                                                                                                                                         |
 | WLAN\_REASON\_CODE\_USER\_NOT\_RESPOND                     | The user is not responding.                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| WLAN\_REASON\_CODE\_AP\_PROFILE\_NOT\_ALLOWED\_FOR\_CLIENT | An application tried to apply a wireless Hosted Network profile to a physical wireless network adapter using the [**WlanSetProfile**](wlansetprofile.md) function, rather than to a virtual device.                                                                                                                                                                                                                                                    |
-| WLAN\_REASON\_CODE\_AP\_PROFILE\_NOT\_ALLOWED              | An application tried to apply a wireless Hosted Network profile to a physical wireless network adapter using the [**WlanSetProfile**](wlansetprofile.md) function, rather than to a virtual device.                                                                                                                                                                                                                                                    |
+| WLAN\_REASON\_CODE\_AP\_PROFILE\_NOT\_ALLOWED\_FOR\_CLIENT | An application tried to apply a wireless Hosted Network profile to a physical wireless network adapter using the [**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master) function, rather than to a virtual device.                                                                                                                                                                                                                                                    |
+| WLAN\_REASON\_CODE\_AP\_PROFILE\_NOT\_ALLOWED              | An application tried to apply a wireless Hosted Network profile to a physical wireless network adapter using the [**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master) function, rather than to a virtual device.                                                                                                                                                                                                                                                    |
 
 
 
@@ -98,7 +103,7 @@ The following table lists profile validation error codes.
 | WLAN\_REASON\_CODE\_PROFILE\_SSID\_INVALID                     | The SSID in the profile is invalid or missing.                                                                                                                                                                                                |
 | WLAN\_REASON\_CODE\_TOO\_MANY\_SSID                            | Too many SSIDs were specified in the profile.                                                                                                                                                                                                 |
 | WLAN\_REASON\_CODE\_IHV\_CONNECTIVITY\_NOT\_SUPPORTED          |                                                                                                                                                                                                                                               |
-| WLAN\_REASON\_CODE\_BAD\_MAX\_NUMBER\_OF\_CLIENTS\_FOR\_AP     | An application tried to apply a wireless Hosted Network profile to a physical network adapter NIC using the [**WlanSetProfile**](wlansetprofile.md) function, and specified an unacceptable value for the maximum number of clients allowed. |
+| WLAN\_REASON\_CODE\_BAD\_MAX\_NUMBER\_OF\_CLIENTS\_FOR\_AP     | An application tried to apply a wireless Hosted Network profile to a physical network adapter NIC using the [**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master) function, and specified an unacceptable value for the maximum number of clients allowed. |
 | WLAN\_REASON\_CODE\_INVALID\_CHANNEL                           | The channel specified is invalid.                                                                                                                                                                                                             |
 | WLAN\_REASON\_CODE\_OPERATION\_MODE\_NOT\_SUPPORTED            |                                                                                                                                                                                                                                               |
 | WLAN\_REASON\_CODE\_AUTO\_AP\_PROFILE\_NOT\_ALLOWED            | An internal operating system error occurred with the wireless Hosted Network.                                                                                                                                                                 |
@@ -311,10 +316,10 @@ The 802.1x error codes supported on Windows XP with SP3 and on the Wireless LAN
 
 <dl> <dt>
 
-[**WlanReasonCodeToString**](wlanreasoncodetostring.md)
+[**WlanReasonCodeToString**](/windows/win32/wlanapi/nf-wlanapi-wlanreasoncodetostring?branch=master)
 </dt> <dt>
 
-[**WlanSetProfile**](wlansetprofile.md)
+[**WlanSetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlansetprofile?branch=master)
 </dt> </dl>
 
  

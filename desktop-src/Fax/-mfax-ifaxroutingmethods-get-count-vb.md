@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count returns the number of fax routing methods associated with a FaxPort object.'
-ms.assetid: 'f0368c01-0b25-4cb0-a1c4-8150e8a7d199'
-title: 'FaxRoutingMethods.Count property'
+---
+Description: The Count returns the number of fax routing methods associated with a FaxPort object.
+ms.assetid: f0368c01-0b25-4cb0-a1c4-8150e8a7d199
+title: FaxRoutingMethods.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethods.Count property

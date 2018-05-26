@@ -4,11 +4,14 @@ description: Returns the command ID returned to the snap-in when the user clicks
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '20712926-a2cc-4d07-9afc-aa65664d41ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 20712926-a2cc-4d07-9afc-aa65664d41ed
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["CommandID property MMC", "CommandID property MMC , MMCTask class", "MMCTask class MMC , CommandID property"]
+keywords:
+- CommandID property MMC
+- CommandID property MMC , MMCTask class
+- MMCTask class MMC , CommandID property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCTask.CommandID property
@@ -53,9 +59,9 @@ When the user clicks the task, the taskpad calls the TaskNotify method of the MM
 
 
 
- 
+ 
 
- 
+ 
 
 
 

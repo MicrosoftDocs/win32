@@ -1,7 +1,12 @@
 ---
-Description: 'Some objects support only one handle at a time.'
-ms.assetid: '3eafd0e0-3923-4489-8a0a-63007dd3183a'
+Description: Some objects support only one handle at a time.
+ms.assetid: 3eafd0e0-3923-4489-8a0a-63007dd3183a
 title: Handle Limitations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handle Limitations

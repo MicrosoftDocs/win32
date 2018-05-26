@@ -2,13 +2,15 @@
 title: RemoteAccessUserActivity class
 description: Remote Access User Activity object.
 audience: developer
-ms.assetid: '80711289-4b13-4acd-b2c1-e3de92650c08'
-ms.prod: 'windows-server-dev'
+ms.assetid: 80711289-4b13-4acd-b2c1-e3de92650c08
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessUserActivity class", "RemoteAccessUserActivity class, described"]
+keywords:
+- RemoteAccessUserActivity class
+- RemoteAccessUserActivity class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessUserActivity class
@@ -98,16 +103,16 @@ Port number being used to access the server
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

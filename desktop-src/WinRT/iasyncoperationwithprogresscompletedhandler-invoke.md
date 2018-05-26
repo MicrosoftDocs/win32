@@ -1,7 +1,12 @@
-﻿---
-Description: 'Invokes the method that is called when the specified asynchronous operation reports progress.'
-ms.assetid: 'FB60DDC0-7521-4999-8DD8-175556004198'
-title: 'IAsyncOperationWithProgressCompletedHandler&lt;TResult,TProgress&gt;::Invoke method'
+---
+Description: Invokes the method that is called when the specified asynchronous operation reports progress.
+ms.assetid: FB60DDC0-7521-4999-8DD8-175556004198
+title: IAsyncOperationWithProgressCompletedHandler&lt;TResult,TProgress&gt;Invoke method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAsyncOperationWithProgressCompletedHandler&lt;TResult,TProgress&gt;::Invoke method
@@ -26,7 +31,7 @@ HRESULT Invoke(
 *asyncInfo* \[in\]
 </dt> <dd>
 
-Type: **[**IAsyncOperationWithProgress&lt;TResult,TProgress&gt;**](iasyncoperationwithprogress.md)\***
+Type: **[**IAsyncOperationWithProgress&lt;TResult,TProgress&gt;**](/windows/win32/Windows.Foundation.Collections/ns-windows-foundation-collections-iasyncoperationwithprogress?branch=master)\***
 
 The asynchronous action that reports completion.
 
@@ -53,7 +58,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IAsyncOperationWithProgressCompletedHandler&lt;TResult,TProgress&gt;**](iasyncoperationwithprogresscompletedhandler.md)
+[**IAsyncOperationWithProgressCompletedHandler&lt;TResult,TProgress&gt;**](/windows/win32/Windows.Foundation.Collections/?branch=master)
 </dt> </dl>
 
  

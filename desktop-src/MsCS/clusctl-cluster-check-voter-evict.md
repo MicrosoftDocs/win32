@@ -4,11 +4,12 @@ description: Queries the server for whether evicting the designated configured n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e87d5598-01f5-4d33-aa8c-e9c059cb9716'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: e87d5598-01f5-4d33-aa8c-e9c059cb9716
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control code Failover Cluster"]
+keywords:
+- CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_CLUSTER\_CHECK\_VOTER\_EVICT control code
 
-Queries the server for whether evicting the designated configured node from the cluster or changing the cluster quorum configuration will cause the loss of quorum. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterControl**](clustercontrol.md) function.
+Queries the server for whether evicting the designated configured node from the cluster or changing the cluster quorum configuration will cause the loss of quorum. Applications use this [control code](about-control-codes.md) as a parameter to the [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) function.
 
 
 ```C++
@@ -39,7 +43,7 @@ ClusterControl( hCluster,                          // cluster handle
 
 ## Parameters
 
-The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterControl**](clustercontrol.md).
+The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master).
 
 <dl> <dt>
 
@@ -53,7 +57,7 @@ Points to a **NULL**-terminated Unicode string containing either a resource ID f
 *lpOutBuffer* 
 </dt> <dd>
 
-On a successful return, points to a 32-bit integer containing an enumerator from the [**CLUSTER\_QUORUM\_VALUE**](cluster-quorum-value.md) enumeration indicating whether or not quorum will be lost. lpOutBuffer points to one of the following enumeration values.
+On a successful return, points to a 32-bit integer containing an enumerator from the [**CLUSTER\_QUORUM\_VALUE**](/windows/previous-versions/msclus/ne-clusapi-cluster_quorum_value?branch=master) enumeration indicating whether or not quorum will be lost. lpOutBuffer points to one of the following enumeration values.
 
 <dt>
 
@@ -81,7 +85,7 @@ The quorum will be lost.
 
 ## Return value
 
-[**ClusterControl**](clustercontrol.md) returns one of the following values.
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -118,17 +122,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_CLUSTER\_CHECK\_VOTER\_EVICT (0x070000
 
 | Component                 | Bit location     | Value                                            |
 |---------------------------|------------------|--------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>       |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>       |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>           |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_NO\_MODIFY** (0x0)<br/>            |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>        |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                        |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_CHECK\_VOTER\_EVICT** (0x45)<br/> |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>          |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_CHECK\_VOTER\_EVICT** (0x45)<br/> |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_READ** (0x1)<br/>          |
 
 
 
- 
+ 
 
 For more information, see [Control Code Architecture](control-code-architecture.md).
 
@@ -139,7 +143,7 @@ For more information, see [Control Code Architecture](control-code-architecture.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -151,12 +155,12 @@ For more information, see [Control Code Architecture](control-code-architecture.
 [Cluster Control Codes](cluster-control-codes.md)
 </dt> <dt>
 
-[**ClusterControl**](clustercontrol.md)
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

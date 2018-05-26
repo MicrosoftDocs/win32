@@ -1,8 +1,9 @@
 ---
 title: glLighti function
 description: The glLighti function returns light source parameter values.
-ms.assetid: '4fa5e604-d45d-412e-a08c-c38e0836596f'
-keywords: ["glLighti function OpenGL"]
+ms.assetid: 4fa5e604-d45d-412e-a08c-c38e0836596f
+keywords:
+- glLighti function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLighti function
@@ -22,9 +28,9 @@ The **glLighti** function returns light source parameter values.
 
 ```C++
 void WINAPI glLighti(
-   GLenum light,
-   GLenum pname,
-   GLint  param
+   GLenum light,
+   GLenum pname,
+   GLint  param
 );
 ```
 
@@ -37,7 +43,7 @@ void WINAPI glLighti(
 *light* 
 </dt> <dd>
 
-The identifier of a light. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT*i* where *i* is a value: 0 to GL\_MAX\_LIGHTS - 1.
+The identifier of a light. The number of possible lights depends on the implementation, but at least eight lights are supported. They are identified by symbolic names of the form GL\_LIGHT*i* where *i* is a value: 0 to GL\_MAX\_LIGHTS - 1.
 
 </dd> <dt>
 
@@ -56,7 +62,7 @@ A single-valued light source parameter for *light*. The following symbolic names
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -107,7 +113,7 @@ The *pname* parameter specifies one of the light source parameters, again by sym
 
 Lighting calculation is enabled and disabled using [**glEnable**](glenable.md) and [**glDisable**](gldisable.md) with argument GL\_LIGHTING. When lighting is enabled, light sources that are enabled contribute to the lighting calculation. Light source *i* is enabled and disabled using **glEnable** and **glDisable** with argument GL\_LIGHT*i*.
 
-It is always the case that GL\_LIGHT*i* = GL\_LIGHT0 + *i*.
+It is always the case that GL\_LIGHT*i* = GL\_LIGHT0 + *i*.
 
 The following functions retrieve information related to the **glLighti** function:
 
@@ -121,8 +127,8 @@ The following functions retrieve information related to the **glLighti** functio
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -148,9 +154,9 @@ The following functions retrieve information related to the **glLighti** functio
 [**glMaterial**](glmaterial-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

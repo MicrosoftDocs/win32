@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_WindowStyleEx method sets the extended window styles.'
-ms.assetid: '3c5928fe-7cd3-4e1c-9a3f-fa6d7a73dbc3'
-title: 'CBaseControlWindow.put\_WindowStyleEx method'
+Description: The put\_WindowStyleEx method sets the extended window styles.
+ms.assetid: 3c5928fe-7cd3-4e1c-9a3f-fa6d7a73dbc3
+title: CBaseControlWindow.put\_WindowStyleEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_WindowStyleEx method
@@ -13,7 +18,7 @@ The `put_WindowStyleEx` method sets the extended window styles.
 
 ```C++
 HRESULT put_WindowStyleEx(
-  [in] long WindowStyleEx
+  [in] long WindowStyleEx
 );
 ```
 
@@ -67,9 +72,9 @@ With some exceptions (noted here), the acceptable flags are the same as those al
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

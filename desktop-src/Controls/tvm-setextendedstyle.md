@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETEXTENDEDSTYLE message
 description: Informs the tree-view control to set extended styles. Send this message or use the macro TreeView\_SetExtendedStyle.
-ms.assetid: '35cb6ac8-1c1e-4ecd-88b2-878d3f6ccaa5'
-keywords: ["TVM_SETEXTENDEDSTYLE message Windows Controls"]
+ms.assetid: 35cb6ac8-1c1e-4ecd-88b2-878d3f6ccaa5
+keywords:
+- TVM_SETEXTENDEDSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETEXTENDEDSTYLE message
 
-Informs the tree-view control to set extended styles. Send this message or use the macro [**TreeView\_SetExtendedStyle**](treeview-setextendedstyle.md).
+Informs the tree-view control to set extended styles. Send this message or use the macro [**TreeView\_SetExtendedStyle**](/windows/win32/Commctrl/nf-commctrl-treeview_setextendedstyle?branch=master).
 
 ## Parameters
 
@@ -49,15 +55,15 @@ The extended styles for a tree-view control have nothing to do with the extended
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

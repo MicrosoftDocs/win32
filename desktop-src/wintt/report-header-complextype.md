@@ -1,14 +1,20 @@
 ---
 title: Header Complex Type
 description: Defines the section of the report that contains general information about the computer and troubleshooting package that ran.
-ms.assetid: 'fce0c3b2-35f2-48b9-b30e-692a7d26f6cf'
-keywords: ["Header complex type Windows Troubleshooting Toolkit"]
+ms.assetid: fce0c3b2-35f2-48b9-b30e-692a7d26f6cf
+keywords:
+- Header complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Header
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Header Complex Type
@@ -96,14 +102,14 @@ The text body of the <strong>Data</strong> element contains the property's value
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

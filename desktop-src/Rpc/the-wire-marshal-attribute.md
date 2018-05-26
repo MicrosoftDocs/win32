@@ -1,8 +1,15 @@
 ---
 title: The wire\_marshal Attribute
 description: The \ wire\_marshal\ attribute is an IDL-type attribute similar in syntax to \ transmit\_as\ , but providing a more efficient way to marshal data across a network.
-ms.assetid: 'b764ca2b-7bbc-4266-836c-0d70033e9c62'
-keywords: ["Remote Procedure Call RPC , attributes, wire_marshal", "wire_marshal"]
+ms.assetid: b764ca2b-7bbc-4266-836c-0d70033e9c62
+keywords:
+- Remote Procedure Call RPC , attributes, wire_marshal
+- wire_marshal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The wire\_marshal Attribute
@@ -50,7 +57,7 @@ For an \[ [out](https://msdn.microsoft.com/library/windows/desktop/aa367136)\]-o
 [user\_marshal](https://msdn.microsoft.com/library/windows/desktop/aa367296)
 </dt> <dt>
 
-[**NdrGetUserMarshalInfo**](ndrgetusermarshalinfo.md)
+[**NdrGetUserMarshalInfo**](/windows/win32/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo?branch=master)
 </dt> </dl>
 
  

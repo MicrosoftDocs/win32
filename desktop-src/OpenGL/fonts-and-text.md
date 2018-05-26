@@ -1,8 +1,15 @@
 ---
 title: Fonts and Text
-description: Microsoft's implementation of OpenGL in Windows supports GDI graphics in a single-buffered OpenGL window.
-ms.assetid: '25a45e1a-6c1e-416b-8993-daeefc1100f3'
-keywords: ["OpenGL on Windows,fonts", "OpenGL on Windows,text"]
+description: Microsofts implementation of OpenGL in Windows supports GDI graphics in a single-buffered OpenGL window.
+ms.assetid: 25a45e1a-6c1e-416b-8993-daeefc1100f3
+keywords:
+- OpenGL on Windows,fonts
+- OpenGL on Windows,text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fonts and Text
@@ -15,7 +22,7 @@ There is a workaround for this restriction on text in double-buffered windows: b
 2.  Create a set of bitmap display lists based on the glyphs in the device context's font, one display list for each glyph that the application will draw.
 3.  Draw each glyph in a string, using those bitmap display lists.
 
-To create the display lists, call the [**wglUseFontBitmaps**](wglusefontbitmaps.md) and [**wglUseFontOutlines**](wglusefontoutlines.md) functions. To draw characters in a string using those display lists, call [**glCallLists**](glcalllists.md).
+To create the display lists, call the [**wglUseFontBitmaps**](/windows/win32/wingdi/nf-wingdi-wglusefontbitmapsa?branch=master) and [**wglUseFontOutlines**](/windows/win32/wingdi/nf-wingdi-wglusefontoutlinesa?branch=master) functions. To draw characters in a string using those display lists, call [**glCallLists**](glcalllists.md).
 
 To create applications that are easy to localize and that use resources sparingly, the creation and storage of these glyph image display lists must be managed carefully. Many languages, unlike English, have alphabets whose character codes range over a relatively large set of values.
 

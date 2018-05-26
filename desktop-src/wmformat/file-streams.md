@@ -1,8 +1,20 @@
 ---
 title: File Streams
 description: File Streams
-ms.assetid: '6a4ad6ef-dc53-4d31-8de5-ce35c343244b'
-keywords: ["Windows Media Format SDK,file streams", "Advanced Systems Format (ASF),file streams", "ASF (Advanced Systems Format),file streams", "Windows Media Format SDK,streams", "Advanced Systems Format (ASF),streams", "ASF (Advanced Systems Format),streams", "file streams"]
+ms.assetid: 6a4ad6ef-dc53-4d31-8de5-ce35c343244b
+keywords:
+- Windows Media Format SDK,file streams
+- Advanced Systems Format (ASF),file streams
+- ASF (Advanced Systems Format),file streams
+- Windows Media Format SDK,streams
+- Advanced Systems Format (ASF),streams
+- ASF (Advanced Systems Format),streams
+- file streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Streams

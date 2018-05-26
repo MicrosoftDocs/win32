@@ -1,14 +1,18 @@
 ---
-title: What's New in Remote Desktop Services
+title: Whats New in Remote Desktop Services
 description: Topics that describe the changes in each release of the Remote Desktop Services API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '10c5d9e3-d2b5-4372-95ba-ab5edcacdade'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 10c5d9e3-d2b5-4372-95ba-ab5edcacdade
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , what's new"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , whats new
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What's New in Remote Desktop Services

@@ -1,8 +1,11 @@
 ---
 title: IPropertyFilter UID property
 description: UID for the property to filter by.
-ms.assetid: 'a9dfb34c-a161-4d5f-8d01-695b2f9346e6'
-keywords: ["UID property Legacy Windows Environment Features", "UID property Legacy Windows Environment Features , IPropertyFilter interface", "IPropertyFilter interface Legacy Windows Environment Features , UID property"]
+ms.assetid: a9dfb34c-a161-4d5f-8d01-695b2f9346e6
+keywords:
+- UID property Legacy Windows Environment Features
+- UID property Legacy Windows Environment Features , IPropertyFilter interface
+- IPropertyFilter interface Legacy Windows Environment Features , UID property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyFilter::UID property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_UID(
-  [in]          long uid
+  [in]          long uid
 );
 
 HRESULT get_UID(
-  [out, retval] long *uid
+  [out, retval] long *uid
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the UID property.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

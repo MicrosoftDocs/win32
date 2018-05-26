@@ -1,8 +1,10 @@
 ---
 title: D3DX11\_ERR enumeration
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Errors are represented by negative values and cannot be combined.
-ms.assetid: 'd042621d-a20b-4945-b6aa-714a451aa88a'
-keywords: ["D3DX11_ERR enumeration Direct3D 11", "LPD3DX11_ERR enumeration pointer Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Errors are represented by negative values and cannot be combined.
+ms.assetid: d042621d-a20b-4945-b6aa-714a451aa88a
+keywords:
+- D3DX11_ERR enumeration Direct3D 11
+- LPD3DX11_ERR enumeration pointer Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - D3DX11.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_ERR enumeration
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Errors are represented by negative values and cannot be combined. The following is a list of values that can be returned by methods included with the D3DX utility library. See the individual method descriptions for lists of the values that each can return. These lists are not necessarily comprehensive.
 
@@ -27,15 +34,15 @@ Errors are represented by negative values and cannot be combined. The following 
 
 ```C++
 typedef enum D3DX11_ERR { 
-  D3DX11_ERR_CANNOT_MODIFY_INDEX_BUFFER  = MAKE_DDHRESULT(2900),
-  D3DX11_ERR_INVALID_MESH                = MAKE_DDHRESULT(2901),
-  D3DX11_ERR_CANNOT_ATTR_SORT            = MAKE_DDHRESULT(2902),
-  D3DX11_ERR_SKINNING_NOT_SUPPORTED      = MAKE_DDHRESULT(2903),
-  D3DX11_ERR_TOO_MANY_INFLUENCES         = MAKE_DDHRESULT(2904),
-  D3DX11_ERR_INVALID_DATA                = MAKE_DDHRESULT(2905),
-  D3DX11_ERR_LOADED_MESH_HAS_NO_DATA     = MAKE_DDHRESULT(2906),
-  D3DX11_ERR_DUPLICATE_NAMED_FRAGMENT    = MAKE_DDHRESULT(2907),
-  D3DX11_ERR_CANNOT_REMOVE_LAST_ITEM     = MAKE_DDHRESULT(2908)
+  D3DX11_ERR_CANNOT_MODIFY_INDEX_BUFFER  = MAKE_DDHRESULT(2900),
+  D3DX11_ERR_INVALID_MESH                = MAKE_DDHRESULT(2901),
+  D3DX11_ERR_CANNOT_ATTR_SORT            = MAKE_DDHRESULT(2902),
+  D3DX11_ERR_SKINNING_NOT_SUPPORTED      = MAKE_DDHRESULT(2903),
+  D3DX11_ERR_TOO_MANY_INFLUENCES         = MAKE_DDHRESULT(2904),
+  D3DX11_ERR_INVALID_DATA                = MAKE_DDHRESULT(2905),
+  D3DX11_ERR_LOADED_MESH_HAS_NO_DATA     = MAKE_DDHRESULT(2906),
+  D3DX11_ERR_DUPLICATE_NAMED_FRAGMENT    = MAKE_DDHRESULT(2907),
+  D3DX11_ERR_CANNOT_REMOVE_LAST_ITEM     = MAKE_DDHRESULT(2908)
 } D3DX11_ERR, *LPD3DX11_ERR;
 ```
 
@@ -142,9 +149,9 @@ enum _D3DXERR {
 [D3DX Enumerations](d3d11-graphics-reference-d3dx11-enums.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

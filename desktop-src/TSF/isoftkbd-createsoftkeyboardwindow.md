@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd CreateSoftKeyboardWindow method
 description: The ISoftKbd CreateSoftKeyboardWindow method creates a soft keyboard window.
-ms.assetid: 'e9aa9d88-d0bb-407f-9b53-98c8747be5d3'
-keywords: ["CreateSoftKeyboardWindow method Text Services Framework", "CreateSoftKeyboardWindow method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , CreateSoftKeyboardWindow method"]
+ms.assetid: e9aa9d88-d0bb-407f-9b53-98c8747be5d3
+keywords:
+- CreateSoftKeyboardWindow method Text Services Framework
+- CreateSoftKeyboardWindow method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , CreateSoftKeyboardWindow method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::CreateSoftKeyboardWindow method
@@ -22,12 +30,12 @@ The **ISoftKbd::CreateSoftKeyboardWindow** method creates a soft keyboard window
 
 ```C++
 HRESULT CreateSoftKeyboardWindow(
-  [in] HWND          hOwner,
-  [in] TITLEBAR_TYPE Titlebar_type,
-  [in] INT           xPos,
-  [in] INT           yPos,
-  [in] INT           width,
-  [in] INT           height
+  [in] HWND          hOwner,
+  [in] TITLEBAR_TYPE Titlebar_type,
+  [in] INT           xPos,
+  [in] INT           yPos,
+  [in] INT           width,
+  [in] INT           height
 );
 ```
 
@@ -92,7 +100,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -100,9 +108,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -128,9 +136,9 @@ This method can return one of these values.
 [**TITLEBAR\_TYPE**](titlebar-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

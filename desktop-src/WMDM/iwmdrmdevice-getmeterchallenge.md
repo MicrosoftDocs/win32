@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice GetMeterChallenge method
 description: The GetMeterChallenge method retrieves the metering challenge.
-ms.assetid: '4c122886-46bd-4e63-8e7d-5e6132363662'
-keywords: ["GetMeterChallenge method windows Media Device Manager", "GetMeterChallenge method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , GetMeterChallenge method"]
+ms.assetid: 4c122886-46bd-4e63-8e7d-5e6132363662
+keywords:
+- GetMeterChallenge method windows Media Device Manager
+- GetMeterChallenge method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , GetMeterChallenge method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::GetMeterChallenge method
@@ -23,9 +31,9 @@ The **GetMeterChallenge** method retrieves the metering challenge.
 
 ```C++
 HRESULT GetMeterChallenge(
-  [in]  BSTR  bstrMeterCert,
-  [out] BYTE  **ppbMeterChallenge,
-  [out] DWORD *pcbMeterChallenge
+  [in]  BSTR  bstrMeterCert,
+  [out] BYTE  **ppbMeterChallenge,
+  [out] DWORD *pcbMeterChallenge
 );
 ```
 
@@ -68,7 +76,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -94,9 +102,9 @@ When the host computer receives the metering data, it sends the data over the In
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

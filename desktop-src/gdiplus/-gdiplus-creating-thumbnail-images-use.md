@@ -1,14 +1,19 @@
 ---
-Description: 'A thumbnail image is a small version of an image. You can create a thumbnail image by calling the GetThumbnailImage method of an Image object.'
-ms.assetid: '96f95d00-6f96-4b8a-b84b-010203433d74'
+Description: A thumbnail image is a small version of an image. You can create a thumbnail image by calling the GetThumbnailImage method of an Image object.
+ms.assetid: 96f95d00-6f96-4b8a-b84b-010203433d74
 title: Creating Thumbnail Images
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Thumbnail Images
 
-A thumbnail image is a small version of an image. You can create a thumbnail image by calling the **GetThumbnailImage** method of an [**Image**](-gdiplus-class-image-class.md) object.
+A thumbnail image is a small version of an image. You can create a thumbnail image by calling the **GetThumbnailImage** method of an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object.
 
-The following example constructs an [**Image**](-gdiplus-class-image-class.md) object from the file Compass.bmp. The original image has a width of 640 pixels and a height of 479 pixels. The code creates a thumbnail image that has a width of 100 pixels and a height of 100 pixels.
+The following example constructs an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object from the file Compass.bmp. The original image has a width of 640 pixels and a height of 479 pixels. The code creates a thumbnail image that has a width of 100 pixels and a height of 100 pixels.
 
 
 ```

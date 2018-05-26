@@ -1,8 +1,11 @@
 ---
 title: IDatabase HeapFree method
 description: Free the memory allocated using HeapAllocated.
-ms.assetid: '77ea422a-df9d-4d6c-896a-30f20715b6e4'
-keywords: ["HeapFree method Windows Mail (formerly Outlook Express)", "HeapFree method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , HeapFree method"]
+ms.assetid: 77ea422a-df9d-4d6c-896a-30f20715b6e4
+keywords:
+- HeapFree method Windows Mail (formerly Outlook Express)
+- HeapFree method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , HeapFree method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::HeapFree method
@@ -24,7 +32,7 @@ Free the memory allocated using HeapAllocated.
 
 ```C++
 HRESULT HeapFree(
-  [out] LPVOID pBuffer
+  [out] LPVOID pBuffer
 );
 ```
 
@@ -57,7 +65,7 @@ Returns the following value.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +73,8 @@ Returns the following value.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Heapapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
@@ -74,9 +82,9 @@ Returns the following value.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

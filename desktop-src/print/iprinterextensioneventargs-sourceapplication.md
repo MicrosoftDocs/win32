@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the name of the application that invoked the printer extension.'
-ms.assetid: '98A8427B-24F7-43D2-A0AD-76E3BC085BCA'
-title: 'IPrinterExtensionEventArgs::SourceApplication property'
+---
+Description: Gets the name of the application that invoked the printer extension.
+ms.assetid: 98A8427B-24F7-43D2-A0AD-76E3BC085BCA
+title: IPrinterExtensionEventArgsSourceApplication property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterExtensionEventArgs::SourceApplication property

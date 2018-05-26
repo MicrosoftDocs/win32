@@ -4,11 +4,16 @@ description: The IsScopeNode method returns whether the node is a scope node.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1c01c520-b4c8-4109-92b4-2e1595259f3c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 1c01c520-b4c8-4109-92b4-2e1595259f3c
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["IsScopeNode method MMC", "IsScopeNode method MMC , Node object", "Node object MMC , IsScopeNode method", "IsScopeNode method MMC , Node interface", "Node interface MMC , IsScopeNode method"]
+keywords:
+- IsScopeNode method MMC
+- IsScopeNode method MMC , Node object
+- Node object MMC , IsScopeNode method
+- IsScopeNode method MMC , Node interface
+- Node interface MMC , IsScopeNode method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Node::IsScopeNode method
@@ -63,8 +71,8 @@ End If
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -72,9 +80,9 @@ End If
 
 
 
- 
+ 
 
- 
+ 
 
 
 

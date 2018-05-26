@@ -1,7 +1,12 @@
 ---
 title: User Interface Text
 description: User interface text appears on UI surfaces.
-ms.assetid: 'db42fe22-9baf-453a-9b89-9bbb251b0b6f'
+ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Text
@@ -29,7 +34,7 @@ UI text has several usage patterns:
 
 
 
- 
+ 
 
 ## Design concepts
 
@@ -42,7 +47,7 @@ Software developers often think of text as relegated to product documentation an
 As you think about UI text and its placement on your UI surfaces, consider these facts:
 
 -   During focused, immersive reading, people read in a left-to-right, top-to-bottom order (in Western cultures).
--   When using software, users aren't immersed in the UI itself but in their work. Consequently, users don't read UI text—they scan it.
+-   When using software, users aren't immersed in the UI itself but in their work. Consequently, users don't read UI text they scan it.
 -   When scanning a window, users may appear to be reading text when in reality they are filtering it. They often don't truly comprehend the UI text unless they perceive the need to.
 -   Within a window, different UI elements receive different levels of attention. Users tend to read control labels first, especially those that appear relevant to completing the task at hand. By contrast, users tend to read static text only when they think they need to.
 
@@ -61,13 +66,13 @@ You should also assume that once users have decided what to do, they will immedi
 
 ### Eliminate redundancy
 
-Redundant text not only takes valuable screen space, but weakens the effectiveness of the important ideas or actions that you are trying to convey. It is also a waste of the reader's time, and all the more so in a context where scanning is the norm. **Windows strives to explain what users need to do once—well and concisely.**
+Redundant text not only takes valuable screen space, but weakens the effectiveness of the important ideas or actions that you are trying to convey. It is also a waste of the reader's time, and all the more so in a context where scanning is the norm. **Windows strives to explain what users need to do once well and concisely.**
 
-Review each window and eliminate duplicate words and statements, both within and across controls. Don't avoid important text—be explicit wherever necessary—but don't be redundant and don't explain the obvious.
+Review each window and eliminate duplicate words and statements, both within and across controls. Don't avoid important text be explicit wherever necessary but don't be redundant and don't explain the obvious.
 
 ### Avoid over-communication
 
-Even if text isn't redundant, it can simply be too wordy in an effort to explain every detail. **Too much text discourages reading—the eye tends to skip right over it—ironically resulting in less communication rather than more.** In UI text, concisely communicate the essential information. If more information is necessary for some users or some scenarios, provide a link to more detailed [Help content](winenv-help.md), or perhaps to a glossary entry for clarification of a term.
+Even if text isn't redundant, it can simply be too wordy in an effort to explain every detail. **Too much text discourages reading the eye tends to skip right over it ironically resulting in less communication rather than more.** In UI text, concisely communicate the essential information. If more information is necessary for some users or some scenarios, provide a link to more detailed [Help content](winenv-help.md), or perhaps to a glossary entry for clarification of a term.
 
 **Incorrect:**
 
@@ -79,7 +84,7 @@ To avoid text that discourages reading, craft your text to make every word count
 
 ### Use the inverted pyramid
 
-Academic writing typically uses a "pyramid" structural style that lays down a foundation of facts, works with those facts, and builds up to a conclusion—forming a pyramid-like structure. By contrast, journalists use an "inverted pyramid" style that starts with the conclusion—the fundamental "takeaway" that readers must have. It then fills in progressively more detail that readers may be interested in—perhaps just to scan. The advantage of this style is that it gets right to the point, and allows readers to stop reading at any point they choose and still understand the essential information.
+Academic writing typically uses a "pyramid" structural style that lays down a foundation of facts, works with those facts, and builds up to a conclusion forming a pyramid-like structure. By contrast, journalists use an "inverted pyramid" style that starts with the conclusion the fundamental "takeaway" that readers must have. It then fills in progressively more detail that readers may be interested in perhaps just to scan. The advantage of this style is that it gets right to the point, and allows readers to stop reading at any point they choose and still understand the essential information.
 
 You should apply the inverted pyramid structure to UI text. Get right to the point with the essential information, let users stop reading at any time they choose, and use a Help link to present the remainder of the pyramid.
 
@@ -145,14 +150,14 @@ The following fonts and colors are defaults for Windows.
 | ![first column: disabled text ](images/text-ui-image18.png)<br/>               | Disabled<br/>         | 9 pt. dark gray (\#323232) Segoe UI<br/>             |
 | ![first column: link ](images/text-ui-image19.png)<br/>                        | HyperLinkText<br/>    | 9 pt. blue (\#0066CC) Segoe UI<br/>                  |
 | ![first column: links (hover) ](images/text-ui-image20.png)<br/>               | Hot<br/>              | 9 pt. light blue (\#3399FF) Segoe UI<br/>            |
-| ![first column: group header ](images/text-ui-image21.png)<br/>                |  <br/>                | 11 pt. blue (\#003399) Segoe UI<br/>                 |
-| ![first column: file name (in content view) ](images/text-ui-image22.png)<br/> |  <br/>                | 11 pt. black (\#000000) Segoe UI<br/>                |
+| ![first column: group header ](images/text-ui-image21.png)<br/>                |  <br/>                | 11 pt. blue (\#003399) Segoe UI<br/>                 |
+| ![first column: file name (in content view) ](images/text-ui-image22.png)<br/> |  <br/>                | 11 pt. black (\#000000) Segoe UI<br/>                |
 | ![first column: document text ](images/text-ui-image23.png)<br/>               | (none)<br/>           | 9 pt. black (\#000000) Calibri<br/>                  |
 | ![first column: document headings ](images/text-ui-image24.png)<br/>           | (none)<br/>           | 17 pt. black (\#000000) Calibri<br/>                 |
 
 
 
- 
+ 
 
 For more information and examples, see [Fonts](vis-fonts.md) and [Color](vis-color.md).
 
@@ -226,7 +231,7 @@ For more information and examples, see [Fonts](vis-fonts.md) and [Color](vis-col
 **Ellipses**
 
 -   **Ellipses mean incompleteness.** Use ellipses in UI text as follows:
-    -   **Commands:** Indicate that a command needs additional information. Don't use an ellipsis whenever an action displays another window—only when additional information is required. For more information, see [Command Buttons](ctrl-command-buttons.md).
+    -   **Commands:** Indicate that a command needs additional information. Don't use an ellipsis whenever an action displays another window only when additional information is required. For more information, see [Command Buttons](ctrl-command-buttons.md).
     -   **Data:** Indicate that text is truncated.
     -   **Labels:** Indicate that a task is in progress (for example, "Searching...").
 
@@ -328,9 +333,9 @@ For more information, see the [Go Global Developer Center](http://msdn.microsoft
 ### Title bar text
 
 -   Choose the title bar text based on the type of window:
-    -   **Top-level, document-centric program windows:** Use a "document name — program name" format. Document names are displayed first to give a document-centric feel.
+    -   **Top-level, document-centric program windows:** Use a "document name   program name" format. Document names are displayed first to give a document-centric feel.
     -   **Top-level program windows that are not document-centric:** Display the program name only.
-    -   **Dialog boxes:** Display the command, feature, or program from which the dialog box came. Don't use the title to explain the dialog box's purpose—that's the purpose of the main instructions. For more guidelines, see [Dialog Boxes](win-dialog-box.md).
+    -   **Dialog boxes:** Display the command, feature, or program from which the dialog box came. Don't use the title to explain the dialog box's purpose that's the purpose of the main instructions. For more guidelines, see [Dialog Boxes](win-dialog-box.md).
     -   **Wizards:** Display the wizard name. Note that the word "wizard" should not be included in wizard names. For more guidelines, see [Wizards](win-wizards.md).
 -   **For top-level program windows, if the title bar caption and icon are displayed prominently near the top of the window, you can hide the title bar caption and icon to avoid redundancy.** However, you still have to set a suitable title internally for use by Windows.
 -   **For dialog boxes, don't include the words "dialog" or "progress" in the titles.** These concepts are implied and leaving these words off makes the titles easier for users to scan.
@@ -367,7 +372,7 @@ For more information, see the [Go Global Developer Center](http://msdn.microsoft
 
     In this example, the context of the UI is already very clear; there is no need to add main instruction text.
 
--   **Be concise—use only a single, complete sentence.** Pare the main instruction down to the essential information. If you must explain anything more, consider using a supplemental instruction.
+-   **Be concise use only a single, complete sentence.** Pare the main instruction down to the essential information. If you must explain anything more, consider using a supplemental instruction.
 -   Use sentence-style capitalization.
 -   **Don't include final periods if the instruction is a statement.** If the instruction is a question, include a final question mark.
 -   **For progress dialogs, use a gerund phrase briefly explaining the operation in progress,** ending with an ellipsis. Example: "Printing your pictures..."
@@ -464,7 +469,7 @@ For more information, see the "Text" or "Labels" section in the specific UI comp
 
 ### Supplemental explanations
 
--   **Use supplemental explanations when controls require more information than can be conveyed by their label.** But don't use a supplemental explanation if one isn't necessary—prefer to communicate everything with the control label if you can do so concisely. Typically, supplemental explanations are used with command links, radio buttons, and check boxes.
+-   **Use supplemental explanations when controls require more information than can be conveyed by their label.** But don't use a supplemental explanation if one isn't necessary prefer to communicate everything with the control label if you can do so concisely. Typically, supplemental explanations are used with command links, radio buttons, and check boxes.
 -   When necessary, **use bold in the control labels to make the text easier to scan** when there are supplemental explanations.
 
     ![screen shot of security-settings dialog box ](images/text-ui-image45.png)
@@ -609,11 +614,11 @@ The following table shows the most common commit button labels and their usage.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

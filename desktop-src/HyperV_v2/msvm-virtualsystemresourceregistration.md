@@ -1,7 +1,12 @@
 ---
-Description: 'Registers a service that provides virtual machine-specific resource-related objects.'
-ms.assetid: '85782C4D-E0A3-4EED-9A26-7928862C559B'
-title: 'Msvm\_VirtualSystemResourceRegistration class'
+Description: Registers a service that provides virtual machine-specific resource-related objects.
+ms.assetid: 85782C4D-E0A3-4EED-9A26-7928862C559B
+title: Msvm\_VirtualSystemResourceRegistration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemResourceRegistration class
@@ -15,9 +20,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 ``` syntax
 class Msvm_VirtualSystemResourceRegistration : Msvm_VirtualizationComponentRegistration
 {
-  Msvm_ResourceTypeDefinition         REF ResourceType;
+  Msvm_ResourceTypeDefinition         REF ResourceType;
   Msvm_VirtualSystemResourceComponent REF Component;
-  boolean                                 IsRootDevice = False;
+  boolean                                 IsRootDevice = False;
 };
 ```
 
@@ -82,10 +87,10 @@ Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restric
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
-| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -102,9 +107,9 @@ Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restric
 [**Msvm\_VirtualizationComponentRegistration**](msvm-virtualizationcomponentregistration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

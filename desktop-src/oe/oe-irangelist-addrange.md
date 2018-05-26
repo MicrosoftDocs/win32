@@ -1,8 +1,11 @@
 ---
 title: IRangeList AddRange method
 description: Adds a range of values to the message range list.
-ms.assetid: 'ae82c78a-cab3-4944-94d0-5d1a28ca600a'
-keywords: ["AddRange method Windows Mail (formerly Outlook Express)", "AddRange method Windows Mail (formerly Outlook Express) , IRangeList interface", "IRangeList interface Windows Mail (formerly Outlook Express) , AddRange method"]
+ms.assetid: ae82c78a-cab3-4944-94d0-5d1a28ca600a
+keywords:
+- AddRange method Windows Mail (formerly Outlook Express)
+- AddRange method Windows Mail (formerly Outlook Express) , IRangeList interface
+- IRangeList interface Windows Mail (formerly Outlook Express) , AddRange method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRangeList::AddRange method
@@ -24,8 +32,8 @@ Adds a range of values to the message range list.
 
 ```C++
 HRESULT AddRange(
-  [in] const ULONG low,
-  [in] const ULONG high
+  [in] const ULONG low,
+  [in] const ULONG high
 );
 ```
 
@@ -59,7 +67,7 @@ Specifies a **ULONG** that contains the high number of the range to add to the r
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -79,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,8 +99,8 @@ For example, **AddRange**(19,99) adds the values 19 through 99 to the range list
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -100,9 +108,9 @@ For example, **AddRange**(19,99) adds the values 19 through 99 to the range list
 
 
 
- 
+ 
 
- 
+ 
 
 
 

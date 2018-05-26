@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SABBREV\* Constants'
-ms.assetid: 'f4986fdd-996f-4791-aa41-375decf1524f'
-title: 'LOCALE\_SABBREV\* Constants'
+Description: LOCALE\_SABBREV\* Constants
+ms.assetid: f4986fdd-996f-4791-aa41-375decf1524f
+title: LOCALE\_SABBREV\* Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SABBREV\* Constants

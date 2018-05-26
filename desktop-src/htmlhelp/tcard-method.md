@@ -1,7 +1,12 @@
 ---
 title: TCard Method
 description: Use the TCard method to send a WM\_TCARD message from a help window to a program. This method provides the same functionality as the TCard command with the exception that the method accepts only numeric arguments.
-ms.assetid: '108A0299-7828-4cb7-BEFE-DA97E8BE0D92'
+ms.assetid: 108A0299-7828-4cb7-BEFE-DA97E8BE0D92
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCard Method

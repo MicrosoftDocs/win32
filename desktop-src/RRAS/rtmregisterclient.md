@@ -1,8 +1,9 @@
 ---
 title: RtmRegisterClient function
 description: The RtmRegisterClient function registers a client as a handler of the specified protocol. It establishes a route change notification mechanism for the client, and sets protocol options.
-ms.assetid: '70426601-695d-47ed-b71a-1df3fb8ddf10'
-keywords: ["RtmRegisterClient function RAS"]
+ms.assetid: 70426601-695d-47ed-b71a-1df3fb8ddf10
+keywords:
+- RtmRegisterClient function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmRegisterClient function
@@ -24,10 +30,10 @@ The **RtmRegisterClient** function registers a client as a handler of the specif
 
 ```C++
 HANDLE RtmRegisterClient(
-  _In_ DWORD  ProtocolFamily,
-  _In_ DWORD  RoutingProtocol,
-  _In_ HANDLE ChangeEvent,
-  _In_ DWORD  Flags
+  _In_ DWORD  ProtocolFamily,
+  _In_ DWORD  RoutingProtocol,
+  _In_ HANDLE ChangeEvent,
+  _In_ DWORD  Flags
 );
 ```
 
@@ -47,7 +53,7 @@ Specifies the protocol family of the routing protocol to register.
 *RoutingProtocol* \[in\]
 </dt> <dd>
 
-Specifies the routing protocol identifier, the same as that used when registering with the router manager. See [**RegisterProtocol**](registerprotocol.md).
+Specifies the routing protocol identifier, the same as that used when registering with the router manager. See [**RegisterProtocol**](/windows/win32/Routprot/nc-routprot-pregister_protocol?branch=master).
 
 </dd> <dt>
 
@@ -73,7 +79,7 @@ Specifies miscellaneous options for special handling of the routing protocol. Th
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -94,7 +100,7 @@ A **NULL** handle indicates that the routing table manager was unable to registe
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -103,8 +109,8 @@ A **NULL** handle indicates that the routing table manager was unable to registe
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -124,7 +130,7 @@ A **NULL** handle indicates that the routing table manager was unable to registe
 [**GetLastError**](_win32_getlasterror)
 </dt> <dt>
 
-[**RegisterProtocol**](registerprotocol.md)
+[**RegisterProtocol**](/windows/win32/Routprot/nc-routprot-pregister_protocol?branch=master)
 </dt> <dt>
 
 [RTMv1 Protocol Family Identifiers](routing-table-manager-version-1-protocol-family-identifiers.md)
@@ -136,9 +142,9 @@ A **NULL** handle indicates that the routing table manager was unable to registe
 [**RtmDeregisterClient**](rtmderegisterclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

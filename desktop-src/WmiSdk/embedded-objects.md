@@ -1,13 +1,16 @@
 ---
-Description: 'An embedded object is an object of a class that exists within a class or instance declaration of another class.'
+Description: An embedded object is an object of a class that exists within a class or instance declaration of another class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '11a4556b-f682-4850-aedc-793602c5745b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 11a4556b-f682-4850-aedc-793602c5745b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Embedding Objects in a Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Embedding Objects in a Class

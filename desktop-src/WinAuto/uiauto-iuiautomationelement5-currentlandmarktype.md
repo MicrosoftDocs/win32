@@ -1,8 +1,11 @@
 ---
 title: IUIAutomationElement5 CurrentLandmarkType property
 description: Gets the current landmark type ID for the automation element.
-ms.assetid: '85A5612D-7BCB-4E0C-B6DC-EAC0D3F6789D'
-keywords: ["CurrentLandmarkType property Windows Accessibility", "CurrentLandmarkType property Windows Accessibility , IUIAutomationElement5 interface", "IUIAutomationElement5 interface Windows Accessibility , CurrentLandmarkType property"]
+ms.assetid: 85A5612D-7BCB-4E0C-B6DC-EAC0D3F6789D
+keywords:
+- CurrentLandmarkType property Windows Accessibility
+- CurrentLandmarkType property Windows Accessibility , IUIAutomationElement5 interface
+- IUIAutomationElement5 interface Windows Accessibility , CurrentLandmarkType property
 topic_type:
 - apiref
 api_name:
@@ -10,6 +13,11 @@ api_name:
 - IUIAutomationElement5.get_CurrentLandmarkType
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUIAutomationElement5::CurrentLandmarkType property
@@ -37,7 +45,7 @@ The current landmark type ID for the automation element.
 
 <dl> <dt>
 
-[**IUIAutomationElement5**](uiauto-iuiautomationelement5.md)
+[**IUIAutomationElement5**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement5?branch=master)
 </dt> <dt>
 
 [**IUIAutomationElement5**](winauto-iuiautomationelement5)

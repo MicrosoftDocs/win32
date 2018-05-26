@@ -1,8 +1,9 @@
 ---
 title: Player.openState
 description: The openState property retrieves a value indicating the state of the content source.
-ms.assetid: 'd38eadad-d0f0-40a9-92c6-1c745a0d4f1b'
-keywords: ["Player.openState Windows Media Player"]
+ms.assetid: d38eadad-d0f0-40a9-92c6-1c745a0d4f1b
+keywords:
+- Player.openState Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.openState
@@ -54,7 +60,7 @@ This property is a read only **Number** (**long**). The C-style enumeration cons
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,9 +87,9 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 [**Player.OpenStateChange Event**](player-player-openstatechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

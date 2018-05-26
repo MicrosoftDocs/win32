@@ -4,17 +4,21 @@ description: Initializes a new instance of the CommunicationException class with
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '19ae9865-f80a-406b-b02b-2e7ab313222e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 19ae9865-f80a-406b-b02b-2e7ab313222e
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CommunicationException(String, Throwable) constructor"]
+keywords:
+- CommunicationException(String, Throwable) constructor
 topic_type:
 - apiref
 api_name:
 - CommunicationException(String, Throwable) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CommunicationException(String, Throwable) constructor
@@ -38,7 +42,7 @@ public CommunicationException(String applicationName, Throwable e)
 
 
 
- 
+ 
 
 ## Returns
 
@@ -48,9 +52,9 @@ public CommunicationException(String applicationName, Throwable e)
 
 CommunicationException.java
 
- 
+ 
 
- 
+ 
 
 
 

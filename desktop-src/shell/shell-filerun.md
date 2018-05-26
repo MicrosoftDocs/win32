@@ -1,7 +1,12 @@
-﻿---
-Description: 'Displays the Run dialog to the user. This method has the same effect as clicking the Start menu and selecting Run.'
-ms.assetid: 'bb984777-e09f-41e6-8359-51c5291654f7'
-title: 'Shell.FileRun method'
+---
+Description: Displays the Run dialog to the user. This method has the same effect as clicking the Start menu and selecting Run.
+ms.assetid: bb984777-e09f-41e6-8359-51c5291654f7
+title: Shell.FileRun method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell.FileRun method

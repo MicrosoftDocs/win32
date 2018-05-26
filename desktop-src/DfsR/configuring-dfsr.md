@@ -4,13 +4,18 @@ description: The Distributed File System Replication (DFSR) service supports two
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ed4f9d8e-a643-4026-a3ac-1f7c3d1995c0'
-ms.prod: 'windows-server-dev'
+ms.assetid: ed4f9d8e-a643-4026-a3ac-1f7c3d1995c0
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication Files , configuring", "configuring Distributed File System Replication Files"]
+keywords:
+- Distributed File System Replication Files , configuring
+- configuring Distributed File System Replication Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DFSR Configuration Modes

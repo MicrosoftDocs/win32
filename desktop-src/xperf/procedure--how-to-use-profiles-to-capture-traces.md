@@ -1,7 +1,12 @@
 ---
 title: Procedure How to Use Profiles to Capture Traces
 description: Procedure How to Use Profiles to Capture Traces
-ms.assetid: '9b82b670-6a95-45bb-aca2-e2cc0831b509'
+ms.assetid: 9b82b670-6a95-45bb-aca2-e2cc0831b509
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Procedure: How to Use Profiles to Capture Traces

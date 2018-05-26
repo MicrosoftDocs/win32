@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageEnclosureToPhysicalDisk class
 description: Association between StorageEnclosure and PhysicalDisk.
-ms.assetid: 'B2FDB260-CD0D-4481-B002-572D58D0CF84'
-keywords: ["MSFT_StorageEnclosureToPhysicalDisk class Windows Storage Management API", "MSFT_StorageEnclosureToPhysicalDisk class Windows Storage Management API , described"]
+ms.assetid: B2FDB260-CD0D-4481-B002-572D58D0CF84
+keywords:
+- MSFT_StorageEnclosureToPhysicalDisk class Windows Storage Management API
+- MSFT_StorageEnclosureToPhysicalDisk class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageEnclosureToPhysicalDisk class
@@ -28,7 +35,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MSFT_StorageEnclosureToPhysicalDisk
 {
   MSFT_StorageEnclosure REF StorageEnclosure;
-  MSFT_PhysicalDisk     REF PhysicalDisk;
+  MSFT_PhysicalDisk     REF PhysicalDisk;
 };
 ```
 
@@ -78,8 +85,8 @@ Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa393650)
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -95,9 +102,9 @@ Qualifiers: [**Key**](https://msdn.microsoft.com/library/aa393650)
 [**MSFT\_PhysicalDisk**](msft-physicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

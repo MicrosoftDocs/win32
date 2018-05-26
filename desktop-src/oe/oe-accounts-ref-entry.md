@@ -1,7 +1,12 @@
 ---
 title: Windows Mail Accounts Reference
 description: This documentation provides accounts-related information about the set of interfaces for objects related to Windows Mail (formerly Outlook Express).
-ms.assetid: '3a7d010a-0771-4234-a2fd-ea248bac71a8'
+ms.assetid: 3a7d010a-0771-4234-a2fd-ea248bac71a8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mail Accounts Reference
@@ -26,7 +31,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Enums
 
@@ -40,7 +45,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Structures
 
@@ -53,7 +58,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Constants
 
@@ -74,11 +79,11 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

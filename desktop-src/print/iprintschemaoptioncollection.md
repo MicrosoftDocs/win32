@@ -1,7 +1,12 @@
-﻿---
-Description: 'Exposes a collection of IPrintSchemaOption objects.'
-ms.assetid: 'ED0FD042-EB42-4F4B-AF9C-B8F56909ED66'
+---
+Description: Exposes a collection of IPrintSchemaOption objects.
+ms.assetid: ED0FD042-EB42-4F4B-AF9C-B8F56909ED66
 title: IPrintSchemaOptionCollection interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaOptionCollection interface

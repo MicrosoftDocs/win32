@@ -1,8 +1,10 @@
 ---
 title: CHANGER\_EXCHANGE\_MEDIUM structure
 description: The CHANGER\_EXCHANGE\_MEDIUM structure is used with the IOCTL\_CHANGER\_EXCHANGE\_MEDIUM request to exchange locations of two pieces of media.
-ms.assetid: 'b0f03d83-61d3-4aa1-ae4e-a8bdc9f13a9f'
-keywords: ["CHANGER_EXCHANGE_MEDIUM structure Storage Devices", "PCHANGER_EXCHANGE_MEDIUM structure pointer Storage Devices"]
+ms.assetid: b0f03d83-61d3-4aa1-ae4e-a8bdc9f13a9f
+keywords:
+- CHANGER_EXCHANGE_MEDIUM structure Storage Devices
+- PCHANGER_EXCHANGE_MEDIUM structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - ntddchgr.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CHANGER\_EXCHANGE\_MEDIUM structure
@@ -26,8 +33,8 @@ typedef struct _CHANGER_EXCHANGE_MEDIUM {
   CHANGER_ELEMENT Source;
   CHANGER_ELEMENT Destination1;
   CHANGER_ELEMENT Destination2;
-  BOOLEAN         Flip1;
-  BOOLEAN         Flip2;
+  BOOLEAN         Flip1;
+  BOOLEAN         Flip2;
 } CHANGER_EXCHANGE_MEDIUM, *PCHANGER_EXCHANGE_MEDIUM;
 ```
 
@@ -102,9 +109,9 @@ Indicates, when **TRUE**, that the medium moved to **Destination2** should be fl
 [**GET\_CHANGER\_PARAMETERS**](get-changer-parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20CHANGER_EXCHANGE_MEDIUM%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

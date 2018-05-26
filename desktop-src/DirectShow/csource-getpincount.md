@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPinCount method retrieves the number of pins on the filter. This method implements the pure virtual CBaseFilter::GetPinCount method.'
-ms.assetid: '42000814-daee-4f7b-96d2-e09a21fde8cd'
-title: 'CSource.GetPinCount method'
+Description: The GetPinCount method retrieves the number of pins on the filter. This method implements the pure virtual CBaseFilterGetPinCount method.
+ms.assetid: 42000814-daee-4f7b-96d2-e09a21fde8cd
+title: CSource.GetPinCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource.GetPinCount method
@@ -43,9 +48,9 @@ Returns the number of pins on this filter.
 [**CSource Class**](csource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

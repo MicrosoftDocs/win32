@@ -1,14 +1,20 @@
 ---
 title: THEME.loadPreference
 description: The loadPreference method loads a preference from the registry.
-ms.assetid: '51d6b0f8-f1fd-4999-a575-0b7c177b2bc8'
-keywords: ["THEME.loadPreference Windows Media Player"]
+ms.assetid: 51d6b0f8-f1fd-4999-a575-0b7c177b2bc8
+keywords:
+- THEME.loadPreference Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.loadPreference
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.loadPreference
@@ -60,9 +66,9 @@ Preferences are not encrypted and therefore are not a secure method for persisti
 [**THEME.savePreference**](theme-savepreference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

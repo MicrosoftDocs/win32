@@ -1,8 +1,9 @@
 ---
 title: ICMProgressProcCallback callback function
 description: The ICMProgressProcCallback function is an application-supplied callback function that reports progress and permits the application to cancel color processing.
-ms.assetid: '4e0bfa4c-f0eb-4776-98d6-90d9adf71bee'
-keywords: ["ICMProgressProcCallback callback function Windows Color System"]
+ms.assetid: 4e0bfa4c-f0eb-4776-98d6-90d9adf71bee
+keywords:
+- ICMProgressProcCallback callback function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Icm.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICMProgressProcCallback callback function
@@ -22,9 +28,9 @@ The **ICMProgressProcCallback** function is an application-supplied callback fun
 
 ```C++
 BOOL WINAPI ICMProgressProcCallback(
-   ULONG  ulMax,
-   ULONG  ulCurrent,
-   LPARAM ulCallbackData
+   ULONG  ulMax,
+   ULONG  ulCurrent,
+   LPARAM ulCallbackData
 );
 ```
 
@@ -69,8 +75,8 @@ The name of this callback function is supplied by the application. A number of W
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -91,9 +97,9 @@ The name of this callback function is supplied by the application. A number of W
 [**CheckBitmapBits**](checkbitmapbits.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

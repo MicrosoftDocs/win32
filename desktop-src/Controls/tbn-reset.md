@@ -1,8 +1,9 @@
 ---
 title: TBN\_RESET notification code
-description: Notifies the toolbar's parent window that the user has reset the content of the Customize Toolbar dialog box. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '55efba85-b453-48b9-83df-76820249e7a8'
-keywords: ["TBN_RESET notification code Windows Controls"]
+description: Notifies the toolbars parent window that the user has reset the content of the Customize Toolbar dialog box. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 55efba85-b453-48b9-83df-76820249e7a8
+keywords:
+- TBN_RESET notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_RESET notification code
@@ -33,7 +39,7 @@ TBN_RESET
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMHDR**](nmhdr.md) structure that contains information about the notification code.
+Pointer to an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure that contains information about the notification code.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Return TBNRF\_ENDCUSTOMIZE to close the Customize Toolbar dialog box. All other 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

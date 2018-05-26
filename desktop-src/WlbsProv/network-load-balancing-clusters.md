@@ -4,13 +4,18 @@ description: This section presents a brief overview of Network Load Balancing co
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd988aae0-e4c8-4126-b301-09d52cb24457'
-ms.prod: 'windows-server-dev'
+ms.assetid: d988aae0-e4c8-4126-b301-09d52cb24457
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["network load balancing clusters Failover Cluster", "clusters Failover Cluster ,network load balancing clusters"]
+keywords:
+- network load balancing clusters Failover Cluster
+- clusters Failover Cluster ,network load balancing clusters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Load Balancing Clusters
@@ -49,13 +54,13 @@ The cluster nodes exchange periodic messages and, in the event of a node failure
 
 
 
- 
+ 
 
 A port rule applies the filtering mode to all traffic of the specified protocol flowing into all ports in the specified range.
 
- 
+ 
 
- 
+ 
 
 
 

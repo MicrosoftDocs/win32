@@ -1,14 +1,20 @@
 ---
 title: InnerEapOptional (EapType) Element
 description: Indicates whether to perform GUEST access.
-ms.assetid: '2d314c89-5415-407f-84c3-c4c5c8957b39'
-keywords: ["InnerEapOptional element EAPHost"]
+ms.assetid: 2d314c89-5415-407f-84c3-c4c5c8957b39
+keywords:
+- InnerEapOptional element EAPHost
 topic_type:
 - apiref
 api_name:
 - InnerEapOptional
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InnerEapOptional (EapType) Element
@@ -33,8 +39,8 @@ If the **InnerEapOptional** element is TRUE, then the [**Eap**](baseeapconnectio
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -66,9 +72,9 @@ If the **InnerEapOptional** element is TRUE, then the [**Eap**](baseeapconnectio
 [mspeapconnectionpropertiesv1 Schema Elements](mspeapconnectionpropertiesv1schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

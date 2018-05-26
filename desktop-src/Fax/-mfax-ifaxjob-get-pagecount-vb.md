@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PageCount property is a number that represents the total number of pages in a fax transmission. The PageCount property applies only to outgoing fax transmissions.'
-ms.assetid: '705b8555-fde5-4e11-b580-6ec84c3d1bc9'
-title: 'FaxJob.PageCount property'
+---
+Description: The PageCount property is a number that represents the total number of pages in a fax transmission. The PageCount property applies only to outgoing fax transmissions.
+ms.assetid: 705b8555-fde5-4e11-b580-6ec84c3d1bc9
+title: FaxJob.PageCount property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.PageCount property
@@ -55,10 +60,10 @@ The total page count is only available for faxes that have a [**Type**](-mfax-if
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> <dt>
 
 [**Type**](-mfax-ifaxjob-get-type-vb.md)

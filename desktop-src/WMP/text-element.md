@@ -1,8 +1,18 @@
 ---
 title: TEXT Element
 description: TEXT Element
-ms.assetid: '1afe1626-769a-40c8-883a-968ebd995a93'
-keywords: ["Windows Media Player skins,TEXT element", "skins,TEXT element", "TEXT element", "reference for skins,TEXT element", "elements,TEXT"]
+ms.assetid: 1afe1626-769a-40c8-883a-968ebd995a93
+keywords:
+- Windows Media Player skins,TEXT element
+- skins,TEXT element
+- TEXT element
+- reference for skins,TEXT element
+- elements,TEXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT Element

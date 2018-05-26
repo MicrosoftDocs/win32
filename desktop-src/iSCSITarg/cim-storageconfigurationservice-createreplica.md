@@ -4,13 +4,16 @@ description: Start a job to create a new storage object which is a replica of th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4632aba9-dd3f-4bbf-a2ac-99fcdec018f0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4632aba9-dd3f-4bbf-a2ac-99fcdec018f0
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateReplica method iSCSI Software Target API", "CreateReplica method iSCSI Software Target API , CIM_StorageConfigurationService class", "CIM_StorageConfigurationService class iSCSI Software Target API , CreateReplica method"]
+keywords:
+- CreateReplica method iSCSI Software Target API
+- CreateReplica method iSCSI Software Target API , CIM_StorageConfigurationService class
+- CIM_StorageConfigurationService class iSCSI Software Target API , CreateReplica method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateReplica method of the CIM\_StorageConfigurationService class
@@ -30,13 +36,13 @@ Start a job to create a new storage object which is a replica of the specified s
 
 ```mof
 uint32 CreateReplica(
-  [in]  string                 ElementName,
-  [out] CIM_ConcreteJob    REF Job,
-  [in]  CIM_LogicalElement REF SourceElement,
-  [out] CIM_LogicalElement REF TargetElement,
-  [in]  CIM_StorageSetting REF TargetSettingGoal,
-  [in]  CIM_StoragePool    REF TargetPool,
-  [in]  uint16                 CopyType
+  [in]  string                 ElementName,
+  [out] CIM_ConcreteJob    REF Job,
+  [in]  CIM_LogicalElement REF SourceElement,
+  [out] CIM_LogicalElement REF TargetElement,
+  [in]  CIM_StorageSetting REF TargetSettingGoal,
+  [in]  CIM_StoragePool    REF TargetPool,
+  [in]  uint16                 CopyType
 );
 ```
 
@@ -136,14 +142,14 @@ UnSyncUnAssoc: Create unassociated copy of the source element.
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> </dl>
+</dt> <dd>32768 65535</dd> </dl> </dd> </dl>
 
 ## Return value
 
@@ -170,16 +176,16 @@ UnSyncUnAssoc: Create unassociated copy of the source element.
 **In Use** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -189,7 +195,7 @@ UnSyncUnAssoc: Create unassociated copy of the source element.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Adojet.h</dt> </dl>              |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
@@ -204,9 +210,9 @@ UnSyncUnAssoc: Create unassociated copy of the source element.
 [**CIM\_StorageConfigurationService**](cim-storageconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: When using the WinNT provider, the account expiration date can be s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1d887a33-a3ae-4c61-88fa-2764a6bbf6bf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1d887a33-a3ae-4c61-88fa-2764a6bbf6bf
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Account Expiration ADSI , WinNT provider", "WinNT provider ADSI , user management examples, Account Expiration"]
+keywords:
+- Account Expiration ADSI , WinNT provider
+- WinNT provider ADSI , user management examples, Account Expiration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Account Expiration (WinNT Provider)

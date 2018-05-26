@@ -1,8 +1,11 @@
 ---
 title: IMessengerContact FriendlyName property
 description: Retrieves the friendly name of the contact associated with this MessengerContact object.
-ms.assetid: '74ca5edc-27ca-441e-b9ca-223c06a85cb9'
-keywords: ["FriendlyName property Windows Messenger", "FriendlyName property Windows Messenger , IMessengerContact interface", "IMessengerContact interface Windows Messenger , FriendlyName property"]
+ms.assetid: 74ca5edc-27ca-441e-b9ca-223c06a85cb9
+keywords:
+- FriendlyName property Windows Messenger
+- FriendlyName property Windows Messenger , IMessengerContact interface
+- IMessengerContact interface Windows Messenger , FriendlyName property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContact::FriendlyName property
 
-\[**FriendlyName** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**FriendlyName** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the friendly name of the contact associated with this [**MessengerContact**](im-messengercontact.md) object.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_FriendlyName(
-  [out, retval] BSTR *pbstrFriendlyName
+  [out, retval] BSTR *pbstrFriendlyName
 );
 ```
 
@@ -65,14 +73,14 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 The friendly name is used in conjunction with the sign-in name primarily for UI display. Because a friendly name is not guaranteed to be unique, it is good practice to display both the sign-in and friendly names for any contact viewed within a client.
 
 > [!Note]  
 > This property is available for scripting languages only in a trusted zone.
 
- 
+ 
 
 ## Examples
 
@@ -107,8 +115,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -128,9 +136,9 @@ End Sub
 [**OnContactFriendlyNameChange**](im-dmessengerevents-oncontactfriendlynamechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: Represents a collection of device objects. This is an enhancement t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'df4d704c-e031-4df1-aed1-11aacf8a6992'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: df4d704c-e031-4df1-aed1-11aacf8a6992
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpDeviceCollection2 interface Remote Desktop Services", "IMsRdpDeviceCollection2 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpDeviceCollection2 interface Remote Desktop Services
+- IMsRdpDeviceCollection2 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpDeviceCollection2 interface
@@ -42,7 +47,7 @@ The **IMsRdpDeviceCollection2** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,17 +55,17 @@ The **IMsRdpDeviceCollection2** interface has these methods.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>     |
 | IID<br/>                      | IID\_IMsRdpDeviceCollection2 is defined as e0e5d68a-f2e7-4350-adfe-ac0e08d74de0<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

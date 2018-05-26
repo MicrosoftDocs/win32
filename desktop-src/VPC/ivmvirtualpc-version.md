@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC Version property
 description: Retrieves the version of this instance of Windows Virtual PC.
-ms.assetid: 'efcd5e71-8752-45a2-8138-4bc214762f39'
-keywords: ["Version property Virtual PC", "Version property Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , Version property"]
+ms.assetid: efcd5e71-8752-45a2-8138-4bc214762f39
+keywords:
+- Version property Virtual PC
+- Version property Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , Version property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::Version property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the version of this instance of Windows Virtual PC.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Version(
-  [out, retval] BSTR *version
+  [out, retval] BSTR *version
 );
 ```
 
@@ -60,9 +68,9 @@ The Windows Virtual PC version information is returned as a string value with th
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -76,9 +84,9 @@ The Windows Virtual PC version information is returned as a string value with th
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

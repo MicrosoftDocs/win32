@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the RoleManagerIsUserInRole event.'
+---
+Description: The event type class for the RoleManagerIsUserInRole event.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ed919cc4-011e-4db9-9e58-383fac3177df'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ed919cc4-011e-4db9-9e58-383fac3177df
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetRoleManagerIsUserInRole class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetRoleManagerIsUserInRole class

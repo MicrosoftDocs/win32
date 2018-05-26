@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the starting frame number in the group of pictures (GOP) header.'
-ms.assetid: '77b04001-f524-49c0-b2cf-be32ad16564b'
+Description: Specifies the starting frame number in the group of pictures (GOP) header.
+ms.assetid: 77b04001-f524-49c0-b2cf-be32ad16564b
 title: AVEncVideoHeaderFrames property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoHeaderFrames property
@@ -28,8 +33,8 @@ The valid range of this property depends on the frame rate.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The valid range of this property depends on the frame rate.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

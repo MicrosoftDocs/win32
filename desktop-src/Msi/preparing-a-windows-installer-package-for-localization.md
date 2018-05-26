@@ -1,7 +1,12 @@
 ---
-Description: 'Adhere to these guidelines to facilitate the localization of Windows Installer packages.'
-ms.assetid: 'f00b44b4-e8ec-46d2-b329-00728a83275b'
+Description: Adhere to these guidelines to facilitate the localization of Windows Installer packages.
+ms.assetid: f00b44b4-e8ec-46d2-b329-00728a83275b
 title: Preparing a Windows Installer Package for Localization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preparing a Windows Installer Package for Localization

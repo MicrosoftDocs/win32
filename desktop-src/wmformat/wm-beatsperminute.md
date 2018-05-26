@@ -1,14 +1,20 @@
 ---
 title: WM/BeatsPerMinute
 description: The WM/BeatsPerMinute attribute contains the beats per minute of the content.
-ms.assetid: '08ea6f9c-e21b-4d68-b325-633b8c6ccf04'
-keywords: ["WM/BeatsPerMinute windows Media Format"]
+ms.assetid: 08ea6f9c-e21b-4d68-b325-633b8c6ccf04
+keywords:
+- WM/BeatsPerMinute windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/BeatsPerMinute
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/BeatsPerMinute

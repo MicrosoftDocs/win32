@@ -1,8 +1,9 @@
 ---
 title: CB\_GETCURSEL message
 description: An application sends a CB\_GETCURSEL message to retrieve the index of the currently selected item, if any, in the list box of a combo box.
-ms.assetid: '47bf87f6-637f-48e9-849e-b2acbe5a6a7b'
-keywords: ["CB_GETCURSEL message Windows Controls"]
+ms.assetid: 47bf87f6-637f-48e9-849e-b2acbe5a6a7b
+keywords:
+- CB_GETCURSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETCURSEL message
@@ -45,8 +51,8 @@ The return value is the zero-based index of the currently selected item. If no i
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ The return value is the zero-based index of the currently selected item. If no i
 [**CB\_SETCURSEL**](cb-setcursel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

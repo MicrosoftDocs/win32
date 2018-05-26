@@ -4,11 +4,13 @@ description: Represents a stream of results returned from operations, such as a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8d8b461d-06a7-4600-8b68-2faf741a394b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 8d8b461d-06a7-4600-8b68-2faf741a394b
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["Enumerator object Windows Remote Management", "Enumerator object Windows Remote Management , described"]
+keywords:
+- Enumerator object Windows Remote Management
+- Enumerator object Windows Remote Management , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # Enumerator object
@@ -42,7 +47,7 @@ The **Enumerator** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -57,13 +62,13 @@ The **Enumerator** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
 To start an enumeration, use [**Session.Enumerate**](session-enumerate.md). To do a [*WS-Enumeration:*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration)[*Pull*](windows-remote-management-glossary.md#winrm-gloss-pull) operation that continues reading items in the enumeration, use [**Enumerator.ReadItem**](enumerator-readitem.md).
 
-The **Enumerator** object corresponds to the [**IWSManEnumerator**](iwsmanenumerator.md) interface.
+The **Enumerator** object corresponds to the [**IWSManEnumerator**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanenumerator?branch=master) interface.
 
 ## Examples
 
@@ -114,8 +119,8 @@ End Sub
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -136,9 +141,9 @@ End Sub
 [Scripting in Windows Remote Management](scripting-in-windows-remote-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

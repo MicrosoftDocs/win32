@@ -1,7 +1,12 @@
 ---
 title: EAPHost Supplicant API Reference
 description: EAPHost Supplicant API Reference
-ms.assetid: '127d8f2e-ede5-4667-8272-6a6a38dcd5a6'
+ms.assetid: 127d8f2e-ede5-4667-8272-6a6a38dcd5a6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost Supplicant API Reference

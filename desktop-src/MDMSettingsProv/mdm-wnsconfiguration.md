@@ -1,8 +1,10 @@
 ---
 title: MDM\_WNSConfiguration class
 description: Enables configuration of the Windows Notification Service (WNS) notifications for the MDM agent.
-ms.assetid: 'b4dd7b93-2460-4501-9117-3ad66c5af69e'
-keywords: ["MDM_WNSConfiguration class MDM Settings", "MDM_WNSConfiguration class MDM Settings , described"]
+ms.assetid: b4dd7b93-2460-4501-9117-3ad66c5af69e
+keywords:
+- MDM_WNSConfiguration class MDM Settings
+- MDM_WNSConfiguration class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WNSConfiguration class
@@ -51,7 +58,7 @@ The **MDM\_WNSConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -112,7 +119,7 @@ Configured.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -127,9 +134,9 @@ Configured.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

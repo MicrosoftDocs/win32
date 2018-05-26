@@ -1,8 +1,10 @@
 ---
 title: IMessenger interface
-description: Do not use. The primary interface for Windows Messenger APIs calls. Includes methods for displaying Messenger client UI, getting or setting selected properties of the local client user, and utility methods.
-ms.assetid: '7bbec80f-02ea-4f3f-b535-3a20d490e095'
-keywords: ["IMessenger interface Windows Messenger", "IMessenger interface Windows Messenger , described"]
+description: Do not use. The primary interface for Windows Messenger APIs calls. Includes methods for displaying Messenger client UI, getting or setting selected properties of the local client user, and utility methods.
+ms.assetid: 7bbec80f-02ea-4f3f-b535-3a20d490e095
+keywords:
+- IMessenger interface Windows Messenger
+- IMessenger interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,13 +13,18 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger interface
 
-\[**IMessenger** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**IMessenger** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
-Do not use. The primary interface for Windows Messenger APIs calls. Includes methods for displaying Messenger client UI, getting or setting selected properties of the local client user, and utility methods.
+Do not use. The primary interface for Windows Messenger APIs calls. Includes methods for displaying Messenger client UI, getting or setting selected properties of the local client user, and utility methods.
 
 ## Members
 
@@ -47,14 +54,14 @@ The **IMessenger** interface has these methods.
 | [**Phone**](im-imessenger-phone.md)                   | Launches the **Phone Call** dialog box.<br/>                                                                                                                                                                                                                                                                            |
 | [**SendFile**](im-imessenger-sendfile.md)             | Launches the **Send File** mode of a conversation window to a specified contact.<br/>                                                                                                                                                                                                                                   |
 | [**SendMail**](im-imessenger-sendmail.md)             | Launches a new message in the client's default e-mail application with the To: line prepopulated with the sign-in name of the specified contact.<br/>                                                                                                                                                                   |
-| [**Signin**](im-imessenger-signin.md)                 | Launches the Messenger client **Sign In** dialog box and populates the sign-in name field. The behavior of this method will vary, depending on the Messenger client version, the host operating system, and the primary service for the client. For more information, see the Remarks section later in this topic.<br/> |
+| [**Signin**](im-imessenger-signin.md)                 | Launches the Messenger client **Sign In** dialog box and populates the sign-in name field. The behavior of this method will vary, depending on the Messenger client version, the host operating system, and the primary service for the client. For more information, see the Remarks section later in this topic.<br/> |
 | [**Signout**](im-imessenger-signout.md)               | Signs the current client user out of all Mesenger services.<br/>                                                                                                                                                                                                                                                        |
 | [**StartVoice**](im-imessenger-startvoice.md)         | Launches a Messenger conversation window to initiate a voice message session with a particular contact, pending acceptance of the invitation.<br/>                                                                                                                                                                      |
 | [**ViewProfile**](im-imessenger-viewprofile.md)       | Launches a new browser instance, allowing the client user to view properties of the specified contact through the **Public Profiles** feature.<br/>                                                                                                                                                                     |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ The **IMessenger** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,10 +94,10 @@ The **IMessenger** interface has these properties.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -98,9 +105,9 @@ The **IMessenger** interface has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

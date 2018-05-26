@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.'
-ms.assetid: '3a1094b1-7420-4650-872c-76e8796b2cf3'
-title: 'FaxConfiguration.Branding property'
+---
+Description: Sets or retrieves a value that indicates whether the fax server generates a branding mark on outgoing faxes.
+ms.assetid: 3a1094b1-7420-4650-872c-76e8796b2cf3
+title: FaxConfiguration.Branding property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxConfiguration.Branding property

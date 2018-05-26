@@ -1,7 +1,7 @@
 ---
 title: TS\_IE\_\ Constants
 description: The TS\_IE\_\ constants describe how to insert text that can contain embedded objects used by text services.
-ms.assetid: 'a455d712-42d5-472e-862d-85ae3ba9149f'
+ms.assetid: a455d712-42d5-472e-862d-85ae3ba9149f
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Textstor.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TS\_IE\_\* Constants
@@ -28,7 +33,7 @@ The TS\_IE\_\* constants describe how to insert text that can contain embedded o
 
 ## Remarks
 
-These constants are used in the *dwFlags* parameter of [ITextStoreACP::InsertEmbedded](itextstoreacp-insertembedded.md) and [ITextStoreAnchor::InsertEmbedded](itextstoreanchor-insertembedded.md).
+These constants are used in the *dwFlags* parameter of [ITextStoreACP::InsertEmbedded](/windows/win32/Textstor/nf-textstor-itextstoreacp-insertembedded?branch=master) and [ITextStoreAnchor::InsertEmbedded](/windows/win32/Textstor/nf-textstor-itextstoreanchor-insertembedded?branch=master).
 
 ## Requirements
 
@@ -36,9 +41,9 @@ These constants are used in the *dwFlags* parameter of [ITextStoreACP::InsertEmb
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                         |
 | Header<br/>                   | <dl> <dt>Textstor.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Textstor.idl</dt> </dl> |
 
@@ -48,15 +53,15 @@ These constants are used in the *dwFlags* parameter of [ITextStoreACP::InsertEmb
 
 <dl> <dt>
 
-[ITextStoreACP::InsertEmbedded](itextstoreacp-insertembedded.md)
+[ITextStoreACP::InsertEmbedded](/windows/win32/Textstor/nf-textstor-itextstoreacp-insertembedded?branch=master)
 </dt> <dt>
 
-[ITextStoreAnchor::InsertEmbedded](itextstoreanchor-insertembedded.md)
+[ITextStoreAnchor::InsertEmbedded](/windows/win32/Textstor/nf-textstor-itextstoreanchor-insertembedded?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Root Signatures Overview
 description: A root signature is configured by the app and links command lists to the resources the shaders require.
-ms.assetid: '2E649DA2-6CAC-4C2A-A420-D4EC0DD6EA73'
+ms.assetid: 2E649DA2-6CAC-4C2A-A420-D4EC0DD6EA73
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Root Signatures Overview
@@ -24,7 +29,7 @@ The root constants are inline 32-bit values that show up in the shader as a cons
 
 The inlined root descriptors should contain descriptors that are accessed most often, though is limited to CBVs, and raw or structured UAV or SRV buffers. A more complex type, such as a 2D texture SRV, cannot be used as a root descriptor. Root descriptors do not include a size limit, so there can be no out-of-bounds checking, unlike descriptors in descriptor heaps, which do include a size.
 
-Descriptor table entries within root signatures contain the descriptor, HLSL shader bind name and visibility flag. Refer to [Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277) for details of shader names. On some hardware, there can be a performance gain from only making descriptors visible to the shader stages that require them (refer to [**D3D12\_SHADER\_VISIBILITY**](d3d12-shader-visibility.md)).
+Descriptor table entries within root signatures contain the descriptor, HLSL shader bind name and visibility flag. Refer to [Shader Model 5.1](https://msdn.microsoft.com/library/windows/desktop/dn933277) for details of shader names. On some hardware, there can be a performance gain from only making descriptors visible to the shader stages that require them (refer to [**D3D12\_SHADER\_VISIBILITY**](/windows/win32/D3D12/ne-d3d12-d3d12_shader_visibility?branch=master)).
 
 ![root descriptor table entry](images/root-descriptor-table.png)
 

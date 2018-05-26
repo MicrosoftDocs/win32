@@ -1,7 +1,7 @@
 ---
 title: Rich Edit Control Event Mask Flags
 description: The event mask specifies which notification codes a rich edit control sends to its parent window. The event mask can be none or a combination of these values.
-ms.assetid: 'ae0d2cbe-5cbc-42bb-aeb1-7e6be846a4ba'
+ms.assetid: ae0d2cbe-5cbc-42bb-aeb1-7e6be846a4ba
 topic_type:
 - apiref
 api_name:
@@ -27,6 +27,11 @@ api_location:
 - RichEdit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rich Edit Control Event Mask Flags
@@ -42,7 +47,7 @@ The event mask specifies which notification codes a rich edit control sends to i
 | <span id="ENM_CORRECTTEXT"></span><span id="enm_correcttext"></span><dl> <dt>**ENM\_CORRECTTEXT**</dt> </dl>                   | Sends [EN\_CORRECTTEXT](en-correcttext.md) notifications.<br/>                                                                                                                                                                                                                                             |
 | <span id="ENM_DRAGDROPDONE"></span><span id="enm_dragdropdone"></span><dl> <dt>**ENM\_DRAGDROPDONE**</dt> </dl>                | Sends [EN\_DRAGDROPDONE](en-dragdropdone.md) notifications.<br/>                                                                                                                                                                                                                                           |
 | <span id="ENM_DROPFILES"></span><span id="enm_dropfiles"></span><dl> <dt>**ENM\_DROPFILES**</dt> </dl>                         | Sends [EN\_DROPFILES](en-dropfiles.md) notifications.<br/>                                                                                                                                                                                                                                                 |
-| <span id="ENM_IMECHANGE"></span><span id="enm_imechange"></span><dl> <dt>**ENM\_IMECHANGE**</dt> </dl>                         | Microsoft Rich Edit 1.0 only: Sends [EN\_IMECHANGE](en-imechange.md) notifications when the IME conversion status has changed. Only for Asian-language versions of the operating system.<br/>                                                                                                              |
+| <span id="ENM_IMECHANGE"></span><span id="enm_imechange"></span><dl> <dt>**ENM\_IMECHANGE**</dt> </dl>                         | Microsoft Rich Edit 1.0 only: Sends [EN\_IMECHANGE](en-imechange.md) notifications when the IME conversion status has changed. Only for Asian-language versions of the operating system.<br/>                                                                                                              |
 | <span id="ENM_KEYEVENTS"></span><span id="enm_keyevents"></span><dl> <dt>**ENM\_KEYEVENTS**</dt> </dl>                         | Sends [EN\_MSGFILTER](en-msgfilter.md) notifications for keyboard events.<br/>                                                                                                                                                                                                                             |
 | <span id="ENM_LINK"></span><span id="enm_link"></span><dl> <dt>**ENM\_LINK**</dt> </dl>                                        | **Rich Edit 2.0 and later:** Sends [EN\_LINK](en-link.md) notifications when the mouse pointer is over text that has the CFE\_LINK and one of several mouse actions is performed.<br/>                                                                                                                     |
 | <span id="ENM_LOWFIRTF"></span><span id="enm_lowfirtf"></span><dl> <dt>**ENM\_LOWFIRTF**</dt> </dl>                            | Sends [EN\_LOWFIRTF](en-lowfirtf.md) notifications.<br/>                                                                                                                                                                                                                                                   |
@@ -54,7 +59,7 @@ The event mask specifies which notification codes a rich edit control sends to i
 | <span id="ENM_SCROLL"></span><span id="enm_scroll"></span><dl> <dt>**ENM\_SCROLL**</dt> </dl>                                  | Sends [EN\_HSCROLL](en-hscroll.md) and [EN\_VSCROLL](en-vscroll.md) notifications.<br/>                                                                                                                                                                                                                   |
 | <span id="ENM_SCROLLEVENTS"></span><span id="enm_scrollevents"></span><dl> <dt>**ENM\_SCROLLEVENTS**</dt> </dl>                | Sends [EN\_MSGFILTER](en-msgfilter.md) notifications for mouse wheel events.<br/>                                                                                                                                                                                                                          |
 | <span id="ENM_SELCHANGE"></span><span id="enm_selchange"></span><dl> <dt>**ENM\_SELCHANGE**</dt> </dl>                         | Sends [EN\_SELCHANGE](en-selchange.md) notifications.<br/>                                                                                                                                                                                                                                                 |
-| <span id="ENM_UPDATE"></span><span id="enm_update"></span><dl> <dt>**ENM\_UPDATE**</dt> </dl>                                  | Sends [EN\_UPDATE](en-update.md) notifications. <br/> **Rich Edit 2.0 and later:** this flag is ignored and the [EN\_UPDATE](en-update.md) notifications are always sent. However, if Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, you must use this flag to send EN\_UPDATE notifications.<br/> |
+| <span id="ENM_UPDATE"></span><span id="enm_update"></span><dl> <dt>**ENM\_UPDATE**</dt> </dl>                                  | Sends [EN\_UPDATE](en-update.md) notifications. <br/> **Rich Edit 2.0 and later:** this flag is ignored and the [EN\_UPDATE](en-update.md) notifications are always sent. However, if Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, you must use this flag to send EN\_UPDATE notifications.<br/> |
 
 
 
@@ -72,9 +77,9 @@ The default event mask is ENM\_NONE in which case no notifications are sent to t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Updated each time the entry that contains this attribute is modifie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9c343c31-ecce-4ba3-a03f-e61e24b287d0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9c343c31-ecce-4ba3-a03f-e61e24b287d0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFS-Generation-GUID-v2 attribute AD Schema", "msDFS-GenerationGUIDv2 attribute AD Schema"]
+keywords:
+- ms-DFS-Generation-GUID-v2 attribute AD Schema
+- msDFS-GenerationGUIDv2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFS-Generation-GUID-v2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFS-Generation-GUID-v2 attribute
@@ -38,9 +43,9 @@ Updated each time the entry that contains this attribute is modified.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Updated each time the entry that contains this attribute is modified.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

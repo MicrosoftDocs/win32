@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the data object that has the specified GUID.'
-ms.assetid: 'c3d598bd-0646-4f99-8517-4475ef7cd8c9'
-title: 'ID3DXFileEnumObject::GetDataObjectById method'
+---
+Description: Retrieves the data object that has the specified GUID.
+ms.assetid: c3d598bd-0646-4f99-8517-4475ef7cd8c9
+title: ID3DXFileEnumObjectGetDataObjectById method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileEnumObject::GetDataObjectById method

@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckRequest method checks if there is a thread request, without blocking.'
-ms.assetid: 'b4691dde-abec-4671-bea6-0f22cc4e7c61'
-title: 'CSourceStream.CheckRequest method'
+Description: The CheckRequest method checks if there is a thread request, without blocking.
+ms.assetid: b4691dde-abec-4671-bea6-0f22cc4e7c61
+title: CSourceStream.CheckRequest method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.CheckRequest method
@@ -13,7 +18,7 @@ The `CheckRequest` method checks if there is a thread request, without blocking.
 
 ```C++
 BOOL CheckRequest(
-   Command *pCom
+   Command *pCom
 );
 ```
 
@@ -63,9 +68,9 @@ enum Command {CMD_INIT, CMD_PAUSE, CMD_RUN, CMD_STOP, CMD_EXIT};
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

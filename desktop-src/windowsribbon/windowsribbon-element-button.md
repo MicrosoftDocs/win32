@@ -1,14 +1,20 @@
 ---
 title: Button element
 description: Represents a Button control.
-ms.assetid: 'a17d4dd8-9b0d-4b4a-93f4-f2a8c008fc58'
-keywords: ["Button element Windows Ribbon"]
+ms.assetid: a17d4dd8-9b0d-4b4a-93f4-f2a8c008fc58
+keywords:
+- Button element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Button
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button element
@@ -199,7 +205,7 @@ This section of code shows the **Button** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -214,9 +220,9 @@ This section of code shows the **Button** control declarations.
 [**SetModes**](https://msdn.microsoft.com/library/windows/desktop/dd371476)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

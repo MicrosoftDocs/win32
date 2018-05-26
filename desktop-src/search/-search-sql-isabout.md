@@ -1,7 +1,12 @@
 ---
-Description: 'The ISABOUT term matches columns against a group of one or more search terms.'
-ms.assetid: 'e2629c4c-4b44-4427-ac1d-17f55fd969e3'
+Description: The ISABOUT term matches columns against a group of one or more search terms.
+ms.assetid: e2629c4c-4b44-4427-ac1d-17f55fd969e3
 title: ISABOUT Term
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISABOUT Term

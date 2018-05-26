@@ -1,8 +1,17 @@
 ---
 title: Reference for Type 2 Online Stores
 description: Reference for Type 2 Online Stores
-ms.assetid: 'b3f580cc-b02d-4312-a7a1-a35778a222bc'
-keywords: ["Windows Media Player online stores,reference", "online stores,reference", "type 2 online stores,reference", "reference for type 2 online stores"]
+ms.assetid: b3f580cc-b02d-4312-a7a1-a35778a222bc
+keywords:
+- Windows Media Player online stores,reference
+- online stores,reference
+- type 2 online stores,reference
+- reference for type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference for Type 2 Online Stores
@@ -18,10 +27,10 @@ Windows Media Player 10 or later provides objects, interfaces, properties, and m
 
 | Section                                                                                                        | Description                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [IWMPSubscriptionService Interface](iwmpsubscriptionservice.md)                                               | Provides methods to augment digital rights management (DRM) and initiate background processes.                                                                              |
-| [IWMPSubscriptionService2 Interface](iwmpsubscriptionservice2.md)                                             | Provides methods to initiate background processes, to provide information about online store activity, and to provide a pointer to the Windows Media Player core interface. |
-| [IWMPSubscriptionServiceCallback Interface](iwmpsubscriptionservicecallback.md)                               | Defines a method that online stores use to notify Windows Media Player when a background process is completed.                                                              |
-| [WMPNotifySubscriptionPluginAddRemove](wmpnotifysubscriptionpluginaddremove.md)                               | A function used to notify Windows Media Player that a plug-in has been installed or uninstalled.                                                                            |
+| [IWMPSubscriptionService Interface](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice?branch=master)                                               | Provides methods to augment digital rights management (DRM) and initiate background processes.                                                                              |
+| [IWMPSubscriptionService2 Interface](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2?branch=master)                                             | Provides methods to initiate background processes, to provide information about online store activity, and to provide a pointer to the Windows Media Player core interface. |
+| [IWMPSubscriptionServiceCallback Interface](/windows/win32/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback?branch=master)                               | Defines a method that online stores use to notify Windows Media Player when a background process is completed.                                                              |
+| [WMPNotifySubscriptionPluginAddRemove](/windows/win32/contentpartner/nf-contentpartner-wmpnotifysubscriptionpluginaddremove?branch=master)                               | A function used to notify Windows Media Player that a plug-in has been installed or uninstalled.                                                                            |
 | [DownloadCollection Object](downloadcollection-object.md)                                                     | Provides methods and properties to manage collections of download items.                                                                                                    |
 | [DownloadItem Object](downloaditem-object.md)                                                                 | Provides methods and properties relating to download requests.                                                                                                              |
 | [DownloadManager Object](downloadmanager-object.md)                                                           | Provides methods to manage download collections.                                                                                                                            |

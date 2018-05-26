@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item method creates a FaxPort object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.'
-ms.assetid: '57b3edfb-e925-461e-a606-a2ce45f33e93'
-title: 'FaxPorts.Item property'
+---
+Description: The Item method creates a FaxPort object for a specified fax port. The object allows enumeration of port configuration information for a specific connection to a fax server.
+ms.assetid: 57b3edfb-e925-461e-a606-a2ce45f33e93
+title: FaxPorts.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPorts.Item property

@@ -1,7 +1,12 @@
 ---
 title: idAction Member
 description: idAction Member
-ms.assetid: 'E09BFFD7-8E44-47ba-BAFD-4582FF9430A7'
+ms.assetid: E09BFFD7-8E44-47ba-BAFD-4582FF9430A7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # idAction Member
@@ -38,7 +43,7 @@ The *idAction* member can be one of the following values.
 
 <dl> <dt>
 
-[**Back to HHNTRACK**](hhntrack-structure.md)
+[**Back to HHNTRACK**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghhntrack?branch=master)
 </dt> </dl>
 
  

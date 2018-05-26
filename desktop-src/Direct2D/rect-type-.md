@@ -1,8 +1,9 @@
 ---
 title: Rect Type Function
 description: Creates a rectangle structure that stores its coordinates using the specified data type.
-ms.assetid: 'b152efaf-0779-4024-b998-82a347abba71'
-keywords: ["Rect Type Function Direct2D"]
+ms.assetid: b152efaf-0779-4024-b998-82a347abba71
+keywords:
+- Rect Type Function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rect&lt;Type&gt; Function
@@ -37,7 +43,7 @@ typename TypeTraits<Type>::Rect Rect(
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -52,7 +58,7 @@ typename TypeTraits<Type>::Rect Rect(
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -64,18 +70,18 @@ A rectangle structure that contains the specified coordinates.
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2d1helper.h</dt> </dl>                                                  |
 | Library<br/>                  | <dl> <dt>D2d1.lib</dt> </dl>                                                      |
 | DLL<br/>                      | <dl> <dt>D2d1.dll</dt> </dl>                                                      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

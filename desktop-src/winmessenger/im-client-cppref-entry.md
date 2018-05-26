@@ -1,14 +1,19 @@
 ---
 title: Windows Messenger Client Reference
 description: Client reference information for Windows Messenger.
-ms.assetid: 'f5aad38c-25d1-4890-92dc-643a31be8d30'
+ms.assetid: f5aad38c-25d1-4890-92dc-643a31be8d30
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Messenger Client Reference
 
-\[Windows Messenger is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
+\[Windows Messenger is no longer available for use as of Windows Vista. For more information, see [Windows Messenger](im-messenger-entry.md).\]
 
-This documentation provides information about the Windows Messenger API which is a set of interfaces for objects related to the Messenger client. These APIs expose standard automation, messaging, and window management functionality.
+This documentation provides information about the Windows Messenger API which is a set of interfaces for objects related to the Messenger client. These APIs expose standard automation, messaging, and window management functionality.
 
 New applications should not use this set of interfaces. These interfaces exist for backward compatibility with legacy applications. These interfaces will be unavailable in the future.
 
@@ -88,7 +93,7 @@ The [<strong>MLIST</strong>](im-mlist.md) enumerated type is available for use i
 <td>[<strong>MMSGTYPE</strong>](im-mmsgtype.md)Not currently supported.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MOPTDLGPAGE</strong>](im-moptdlgpage.md)Do not use. Specifies which page of the Messenger client <strong>Options</strong> dialog box to display to the user.
+<td>[<strong>MOPTDLGPAGE</strong>](im-moptdlgpage.md)Do not use. Specifies which page of the Messenger client <strong>Options</strong> dialog box to display to the user.
 <blockquote>
 [!Note]<br />
 The [<strong>MOPTDLGPAGE</strong>](im-moptdlgpage.md) enumerated type is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [<strong>MOPTIONPAGE</strong>](im-moptionpage.md) instead.
@@ -96,7 +101,7 @@ The [<strong>MOPTDLGPAGE</strong>](im-moptdlgpage.md) enumerated type is availab
 <br/> <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MOPTIONPAGE</strong>](im-moptionpage.md)Do not use. Specifies which page of the Messenger client <strong>Options</strong> dialog box to display to the user through the user interface (UI) and several related tracking constants. <br/></td>
+<td>[<strong>MOPTIONPAGE</strong>](im-moptionpage.md)Do not use. Specifies which page of the Messenger client <strong>Options</strong> dialog box to display to the user through the user interface (UI) and several related tracking constants. <br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>MPFLFIELD</strong>](im-mpflfield.md)Not currently supported.<br/></td>
@@ -117,10 +122,10 @@ The [<strong>MOPTDLGPAGE</strong>](im-moptdlgpage.md) enumerated type is availab
 <td>[<strong>MSERVICE_FLAGS</strong>](im-mservice-flags.md)Not currently supported.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MSGRConstants</strong>](im-msgrconstants.md)Do not use. The following are constants used for error and success returns of methods and properties of the Windows Messenger APIs. <br/></td>
+<td>[<strong>MSGRConstants</strong>](im-msgrconstants.md)Do not use. The following are constants used for error and success returns of methods and properties of the Windows Messenger APIs. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MSGRConstants</strong>](im-msgrobject-msgrconstants.md)Do not use. The following are constants used for error or success returns of methods and properties of the Windows Messenger APIs.
+<td>[<strong>MSGRConstants</strong>](im-msgrobject-msgrconstants.md)Do not use. The following are constants used for error or success returns of methods and properties of the Windows Messenger APIs.
 <blockquote>
 [!Note]<br />
 The [<strong>MSGRConstants</strong>](im-msgrobject-msgrconstants.md) enumerated type is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [<strong>MSGRConstants</strong>](im-msgrconstants.md) instead.
@@ -167,7 +172,7 @@ The [<strong>MSTATE</strong>](im-mstate.md) enumerated type is available for use
 
 
 
- 
+ 
 
 ## Events
 
@@ -480,7 +485,7 @@ The [<strong>OnUserFriendlyNameChangeResult</strong>](im-dmsgrobjectevents-onuse
 
 
 
- 
+ 
 
 ## DispInterfaces
 
@@ -518,7 +523,7 @@ The [<strong>DMsgrObjectEvents</strong>](im-dmsgrobjectevents.md) dispinterface 
 
 
 
- 
+ 
 
 ## Interfaces
 
@@ -555,13 +560,13 @@ The [<strong>IBasicIMUser</strong>](im-ibasicimuser.md) interface is available f
 <td>[<strong>IBasicIMUsers</strong>](im-ibasicimusers.md)Not currently supported.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IMessenger</strong>](im-imessenger.md)Do not use. The primary interface for Windows Messenger APIs calls. Includes methods for displaying Messenger client UI, getting or setting selected properties of the local client user, and utility methods.<br/></td>
+<td>[<strong>IMessenger</strong>](im-imessenger.md)Do not use. The primary interface for Windows Messenger APIs calls. Includes methods for displaying Messenger client UI, getting or setting selected properties of the local client user, and utility methods.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IMessenger2</strong>](im-imessenger2.md)Do not use. The secondary interface for the Windows Messenger API calls.<br/></td>
+<td>[<strong>IMessenger2</strong>](im-imessenger2.md)Do not use. The secondary interface for the Windows Messenger API calls.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>IMessenger3</strong>](im-imessenger3.md)Do not use. The third interface for the Windows Messenger API calls.<br/></td>
+<td>[<strong>IMessenger3</strong>](im-imessenger3.md)Do not use. The third interface for the Windows Messenger API calls.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>IMessengerApp</strong>](im-imessengerapp.md)Do not use. The [<strong>IMessengerApp</strong>](im-imessengerapp.md) interface provides methods and properties to handle Messenger applications.
@@ -670,7 +675,7 @@ The [<strong>IMsgrUsers</strong>](im-imsgrusers.md) interface is available for u
 
 
 
- 
+ 
 
 ## Objects
 
@@ -735,7 +740,7 @@ The [<strong>MsgrObject</strong>](im-msgrobject.md) object is available for use 
 
 
 
- 
+ 
 
 ## Structures
 
@@ -747,11 +752,11 @@ The [<strong>MsgrObject</strong>](im-msgrobject.md) object is available for use 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

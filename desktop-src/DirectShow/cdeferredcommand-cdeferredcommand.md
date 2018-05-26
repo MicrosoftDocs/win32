@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '0b372fa2-78a9-4e38-813c-f18123716c6d'
-title: 'CDeferredCommand.CDeferredCommand constructor'
+Description: Constructor method.
+ms.assetid: 0b372fa2-78a9-4e38-813c-f18123716c6d
+title: CDeferredCommand.CDeferredCommand constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDeferredCommand.CDeferredCommand constructor
@@ -13,19 +18,19 @@ Constructor method.
 
 ```C++
 CDeferredCommand(
-   CCmdQueue *pQ,
-   LPUNKNOWN pUnk,
-   HRESULT   *phr,
-   LPUNKNOWN pUnkExecutor,
-   REFTIME   time,
-   GUID      *iid,
-   long      dispidMethod,
-   short     wFlags,
-   long      cArgs,
-   VARIANT   *pDispParams,
-   VARIANT   *pvarResult,
-   short     *puArgErr,
-   BOOL      bStream
+   CCmdQueue *pQ,
+   LPUNKNOWN pUnk,
+   HRESULT   *phr,
+   LPUNKNOWN pUnkExecutor,
+   REFTIME   time,
+   GUID      *iid,
+   long      dispidMethod,
+   short     wFlags,
+   long      cArgs,
+   VARIANT   *pDispParams,
+   VARIANT   *pvarResult,
+   short     *puArgErr,
+   BOOL      bStream
 );
 ```
 
@@ -38,7 +43,7 @@ CDeferredCommand(
 *pQ* 
 </dt> <dd>
 
-Pointer to an object that exposes the [**IQueueCommand**](iqueuecommand.md) interface.
+Pointer to an object that exposes the [**IQueueCommand**](/windows/win32/Control/nn-control-iqueuecommand?branch=master) interface.
 
 </dd> <dt>
 
@@ -144,9 +149,9 @@ Value indicating whether the deferred command time is in stream time (**TRUE**) 
 [**CDeferredCommand Class**](cdeferredcommand.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: The NetBIOS Interface
 description: .
-ms.assetid: '9144e283-0e5f-43d7-8cd2-e746f94c6f14'
+ms.assetid: 9144e283-0e5f-43d7-8cd2-e746f94c6f14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The NetBIOS Interface

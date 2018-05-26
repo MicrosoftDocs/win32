@@ -1,7 +1,12 @@
 ---
-Description: 'An association that describes how storage extents can be assembled from lower level extents.'
-ms.assetid: '8be9bb2c-ef46-454b-bfc3-0398c64d17b7'
-title: 'Msvm\_BasedOn class'
+Description: An association that describes how storage extents can be assembled from lower level extents.
+ms.assetid: 8be9bb2c-ef46-454b-bfc3-0398c64d17b7
+title: Msvm\_BasedOn class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BasedOn class
@@ -18,9 +23,9 @@ class Msvm_BasedOn : CIM_BasedOn
 {
   CIM_StorageExtent REF Antecedent;
   CIM_StorageExtent REF Dependent;
-  uint64                StartingAddress;
-  uint64                EndingAddress;
-  uint16                OrderIndex;
+  uint64                StartingAddress;
+  uint64                EndingAddress;
+  uint16                OrderIndex;
 };
 ```
 
@@ -107,17 +112,17 @@ The starting address where, in lower level storage, the higher level extent begi
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

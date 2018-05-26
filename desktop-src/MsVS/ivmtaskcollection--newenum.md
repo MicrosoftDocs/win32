@@ -1,8 +1,11 @@
 ---
 title: IVMTaskCollection \_NewEnum property
 description: The \_NewEnum property contains an IEnumVariant enumerator for the collection.
-ms.assetid: 'aef2a597-8cf6-4251-9786-ab533f5a6c6a'
-keywords: ["_NewEnum property Virtual Server", "_NewEnum property Virtual Server , IVMTaskCollection interface", "IVMTaskCollection interface Virtual Server , _NewEnum property"]
+ms.assetid: aef2a597-8cf6-4251-9786-ab533f5a6c6a
+keywords:
+- _NewEnum property Virtual Server
+- _NewEnum property Virtual Server , IVMTaskCollection interface
+- IVMTaskCollection interface Virtual Server , _NewEnum property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTaskCollection::\_NewEnum property
@@ -25,7 +33,7 @@ This property is read-only.
 
 ```C++
 HRESULT get__NewEnum(
-  [out] IUnknown **enumerator
+  [out] IUnknown **enumerator
 );
 ```
 
@@ -53,8 +61,8 @@ The **IEnumVariant** enumerator for this collection.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -66,9 +74,9 @@ The **IEnumVariant** enumerator for this collection.
 [**IVMTaskCollection**](ivmtaskcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

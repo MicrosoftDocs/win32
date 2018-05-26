@@ -1,8 +1,11 @@
 ---
 title: Dismount method of the Win32\_Volume class
 description: The Dismount method dismounts a file system from a volume.This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see Calling a Method.
-ms.assetid: 'f1a3cd65-97e5-406f-9df4-44752af6b868'
-keywords: ["Dismount method", "Dismount method, Win32_Volume class", "Win32_Volume class, Dismount method"]
+ms.assetid: f1a3cd65-97e5-406f-9df4-44752af6b868
+keywords:
+- Dismount method
+- Dismount method, Win32_Volume class
+- Win32_Volume class, Dismount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Vdswmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dismount method of the Win32\_Volume class
@@ -24,8 +32,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Dismount(
-  [in] boolean Force = FALSE,
-  [in] boolean Permanent = FALSE
+  [in] boolean Force = FALSE,
+  [in] boolean Permanent = FALSE
 );
 ```
 
@@ -63,7 +71,7 @@ If **true**, the volume is dismounted to a no-automount, offline state. The volu
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,7 +80,7 @@ If **true**, the volume is dismounted to a no-automount, offline state. The volu
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Vds.h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
@@ -87,9 +95,9 @@ If **true**, the volume is dismounted to a no-automount, offline state. The volu
 [**Win32\_Volume**](win32-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

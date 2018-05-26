@@ -1,7 +1,12 @@
 ---
 Description: Group Policy
-ms.assetid: '08a56e20-56cf-4ce1-a501-52f923f2bef2'
+ms.assetid: 08a56e20-56cf-4ce1-a501-52f923f2bef2
 title: Group Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Group Policy

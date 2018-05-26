@@ -1,8 +1,9 @@
 ---
 title: glColorPointer function
 description: The glColorPointer function defines an array of colors.
-ms.assetid: '4d9d05fb-691d-4b71-b079-c42dc7103055'
-keywords: ["glColorPointer function OpenGL"]
+ms.assetid: 4d9d05fb-691d-4b71-b079-c42dc7103055
+keywords:
+- glColorPointer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColorPointer function
@@ -22,10 +28,10 @@ The **glColorPointer** function defines an array of colors.
 
 ```C++
 void WINAPI glColorPointer(
-         GLint   size,
-         GLenum  type,
-         GLsizei stride,
-   const GLvoid  *pointer
+         GLint   size,
+         GLenum  type,
+         GLsizei stride,
+   const GLvoid  *pointer
 );
 ```
 
@@ -125,8 +131,8 @@ The following functions retrieve information related to the **glColorPointer** f
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -185,9 +191,9 @@ The following functions retrieve information related to the **glColorPointer** f
 [**glVertexPointer**](glvertexpointer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

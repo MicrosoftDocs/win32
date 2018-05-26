@@ -1,8 +1,10 @@
 ---
 title: MPEXPIRATION\_DATA structure
 description: Product expiration status notification.
-ms.assetid: 'BF464FFD-16AE-4F46-83CD-E0355478180C'
-keywords: ["MPEXPIRATION_DATA structure Legacy Windows Environment Features", "PMPEXPIRATION_DATA structure pointer Legacy Windows Environment Features"]
+ms.assetid: BF464FFD-16AE-4F46-83CD-E0355478180C
+keywords:
+- MPEXPIRATION_DATA structure Legacy Windows Environment Features
+- PMPEXPIRATION_DATA structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEXPIRATION\_DATA structure
@@ -22,7 +29,7 @@ Product expiration status notification.
 
 ```C++
 typedef struct tagMPEXPIRATION_DATA {
-  MP_EXPIRE_REASON       Reason;
+  MP_EXPIRE_REASON       Reason;
   MP_EXPIRE_STATE_REPORT State;
 } MPEXPIRATION_DATA, *PMPEXPIRATION_DATA;
 ```
@@ -52,7 +59,7 @@ Expiration reason. This is one of the following possible values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,7 +83,7 @@ Expiration state. This is one of the following possible values:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -86,15 +93,15 @@ Expiration state. This is one of the following possible values:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

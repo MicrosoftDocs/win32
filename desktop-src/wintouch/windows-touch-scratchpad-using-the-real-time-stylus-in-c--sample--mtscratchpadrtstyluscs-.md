@@ -1,8 +1,18 @@
 ---
 title: Windows Touch Scratchpad using the Real-Time Stylus in C\ Sample (MTScratchpadRTStylusCS)
 description: This section describes the Windows Touch Scratchpad sample when using the real-time stylus in C\ .
-ms.assetid: '8e80672f-0780-4dec-a9b4-afec0f7782ad'
-keywords: ["Windows Touch,code samples", "Windows Touch,sample code", "Windows Touch,Scratchpad samples", "Scratchpad samples", "Windows Touch,Real-time Stylus (RTS) object"]
+ms.assetid: 8e80672f-0780-4dec-a9b4-afec0f7782ad
+keywords:
+- Windows Touch,code samples
+- Windows Touch,sample code
+- Windows Touch,Scratchpad samples
+- Scratchpad samples
+- Windows Touch,Real-time Stylus (RTS) object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Touch Scratchpad using the Real-Time Stylus in C# Sample (MTScratchpadRTStylusCS)

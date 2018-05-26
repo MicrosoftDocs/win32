@@ -1,8 +1,16 @@
 ---
 title: Special IRIS GL Porting Issues
 description: Special IRIS GL Porting Issues
-ms.assetid: 'dcf7967a-2867-4443-a1c8-8335c6fe016a'
-keywords: ["OpenGL on Windows,IRIS GL porting", "porting to OpenGL,IRIS GL", "OpenGL porting,IRIS GL"]
+ms.assetid: dcf7967a-2867-4443-a1c8-8335c6fe016a
+keywords:
+- OpenGL on Windows,IRIS GL porting
+- porting to OpenGL,IRIS GL
+- OpenGL porting,IRIS GL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Special IRIS GL Porting Issues

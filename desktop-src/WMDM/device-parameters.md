@@ -1,8 +1,19 @@
 ---
 title: Device Parameters
 description: Device Parameters
-ms.assetid: 'd8774c85-b5c0-4d9e-8a8e-d60ffdf59549'
-keywords: ["Windows Media Device Manager,device parameters", "Device Manager,device parameters", "programming guide,device parameters", "service providers,device parameters", "creating service providers,device parameters", "device parameters"]
+ms.assetid: d8774c85-b5c0-4d9e-8a8e-d60ffdf59549
+keywords:
+- Windows Media Device Manager,device parameters
+- Device Manager,device parameters
+- programming guide,device parameters
+- service providers,device parameters
+- creating service providers,device parameters
+- device parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Parameters
@@ -21,7 +32,7 @@ Windows Media Device Manager uses device parameters to control the behavior of a
 
 
 
- 
+ 
 
 **Coding the INF file**
 
@@ -54,18 +65,18 @@ HKR,,UseMetadataViews,0x10001,0x1
 [**Creating a Service Provider**](creating-a-service-provider.md)
 </dt> <dt>
 
-[**IMDServiceProvider2 Interface**](imdserviceprovider2.md)
+[**IMDServiceProvider2 Interface**](/windows/win32/mswmdm/nn-mswmdm-imdserviceprovider2?branch=master)
 </dt> <dt>
 
-[**IMDServiceProvider2::CreateDevice**](imdserviceprovider2-createdevice.md)
+[**IMDServiceProvider2::CreateDevice**](/windows/win32/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice?branch=master)
 </dt> <dt>
 
-[**IWMDMDevice Interface**](iwmdmdevice.md)
+[**IWMDMDevice Interface**](/windows/win32/mswmdm/nn-mswmdm-iwmdmdevice?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

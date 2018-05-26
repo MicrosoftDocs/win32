@@ -4,17 +4,22 @@ description: This attribute identifies if ms-DS-Claim-Possible-Values on linked 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a63d7937-5045-4d38-a436-b47acde6399d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a63d7937-5045-4d38-a436-b47acde6399d
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Is-Possible-Values-Present attribute AD Schema", "msDS-IsPossibleValuesPresent attribute AD Schema"]
+keywords:
+- ms-DS-Is-Possible-Values-Present attribute AD Schema
+- msDS-IsPossibleValuesPresent attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Is-Possible-Values-Present
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Is-Possible-Values-Present attribute
@@ -38,7 +43,7 @@ This attribute identifies if ms-DS-Claim-Possible-Values on linked resource prop
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ This attribute identifies if ms-DS-Claim-Possible-Values on linked resource prop
 
 
 
- 
+ 
 
- 
+ 
 
 
 

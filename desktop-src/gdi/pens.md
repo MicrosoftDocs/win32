@@ -1,7 +1,12 @@
 ---
-Description: 'A pen is a graphics tool that an application can use to draw lines and curves.'
-ms.assetid: 'e1e49ee8-07f1-4f1a-95bb-f6757a72da99'
+Description: A pen is a graphics tool that an application can use to draw lines and curves.
+ms.assetid: e1e49ee8-07f1-4f1a-95bb-f6757a72da99
 title: Pens
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pens

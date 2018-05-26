@@ -1,8 +1,9 @@
 ---
 title: gluNewNurbsRenderer function
 description: The gluNewNurbsRenderer function creates a Non-Uniform Rational B-Spline (NURBS) object.
-ms.assetid: 'f47badb0-6b75-4bfd-9771-516668d9e255'
-keywords: ["gluNewNurbsRenderer function OpenGL"]
+ms.assetid: f47badb0-6b75-4bfd-9771-516668d9e255
+keywords:
+- gluNewNurbsRenderer function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluNewNurbsRenderer function
@@ -40,8 +46,8 @@ The **gluNewNurbsRenderer** function creates and returns a pointer to a new NURB
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -70,9 +76,9 @@ The **gluNewNurbsRenderer** function creates and returns a pointer to a new NURB
 [**gluNurbsProperty**](glunurbsproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

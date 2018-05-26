@@ -1,8 +1,9 @@
 ---
 title: D3DCompile function
 description: Compile HLSL code or an effect file into bytecode for a given target.
-ms.assetid: 'feb3d4d1-06ce-4141-9267-c6c771659aa7'
-keywords: ["D3DCompile function HLSL"]
+ms.assetid: feb3d4d1-06ce-4141-9267-c6c771659aa7
+keywords:
+- D3DCompile function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCompile function
@@ -21,17 +27,17 @@ Compile HLSL code or an effect file into bytecode for a given target.
 
 ``` syntax
 HRESULT WINAPI D3DCompile(
-  in      LPCVOID pSrcData,
-  in      SIZE_T SrcDataSize,
-  in_opt  LPCSTR pSourceName,
-  in_opt  const D3D_SHADER_MACRO pDefines,
-  in_opt  ID3DInclude pInclude,
-  in_opt  LPCSTR pEntrypoint,
-  in      LPCSTR pTarget,
-  in      UINT Flags1,
-  in      UINT Flags2,
-  out     ID3DBlob ppCode,
-  out_opt ID3DBlob ppErrorMsgs
+  in      LPCVOID pSrcData,
+  in      SIZE_T SrcDataSize,
+  in_opt  LPCSTR pSourceName,
+  in_opt  const D3D_SHADER_MACRO pDefines,
+  in_opt  ID3DInclude pInclude,
+  in_opt  LPCSTR pEntrypoint,
+  in      LPCSTR pTarget,
+  in      UINT Flags1,
+  in      UINT Flags2,
+  out     ID3DBlob ppCode,
+  out_opt ID3DBlob ppErrorMsgs
 );
 ```
 
@@ -174,9 +180,9 @@ The difference between **D3DCompile** and [**D3DCompile2**](d3dcompile2.md) is t
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

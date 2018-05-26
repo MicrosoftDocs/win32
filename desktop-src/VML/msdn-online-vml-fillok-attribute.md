@@ -1,7 +1,12 @@
 ---
 title: VML FillOK Attribute
 description: VML FillOK Attribute
-ms.assetid: '6855544d-0f12-4e21-8101-1bbf45795777'
+ms.assetid: 6855544d-0f12-4e21-8101-1bbf45795777
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML FillOK Attribute

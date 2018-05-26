@@ -2,7 +2,13 @@
 title: Invoking the MIDL Compiler
 description: The MIDL compiler can generate code for different platforms and system releases. Consult the /target switch to learn more about suggested switches and how to generate code optimized for a particular release.
 ms.assetid: 57730efa-71c3-4746-83f4-c7e327888efc
-keywords: ["MIDL compiler MIDL , invoking"]
+keywords:
+- MIDL compiler MIDL , invoking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Invoking the MIDL Compiler

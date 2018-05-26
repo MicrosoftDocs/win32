@@ -1,14 +1,21 @@
 ---
 title: PlaybackOperation class
 description: Registers an event handler that is invoked when an asynchronous operation started by one of the MediaRenderer playback methods completes, and provides a method that returns the results of the operation.
-ms.assetid: '4899254A-C393-4D03-970F-CF272F4761B6'
-keywords: ["PlaybackOperation class Media Streaming API", "PlaybackOperation class Media Streaming API , described"]
+ms.assetid: 4899254A-C393-4D03-970F-CF272F4761B6
+keywords:
+- PlaybackOperation class Media Streaming API
+- PlaybackOperation class Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - PlaybackOperation
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaybackOperation class
@@ -32,7 +39,7 @@ The **PlaybackOperation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -46,11 +53,11 @@ The **PlaybackOperation** class has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

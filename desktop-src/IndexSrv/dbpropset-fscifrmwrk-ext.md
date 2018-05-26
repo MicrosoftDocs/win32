@@ -1,8 +1,14 @@
 ---
 title: DBPROPSET\_FSCIFRMWRK\_EXT
 description: DBPROPSET\_FSCIFRMWRK\_EXT
-ms.assetid: 'b53486be-b9c0-435b-b002-16c815b1b5f2'
-keywords: ["DBPROPSET_FSCIFRMWRK_EXT"]
+ms.assetid: b53486be-b9c0-435b-b002-16c815b1b5f2
+keywords:
+- DBPROPSET_FSCIFRMWRK_EXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROPSET\_FSCIFRMWRK\_EXT

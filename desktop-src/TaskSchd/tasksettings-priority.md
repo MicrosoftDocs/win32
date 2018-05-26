@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.Priority property
 description: For scripting, gets or sets the priority level of the task.
-ms.assetid: 'ce6ad1bc-0d19-4a5d-b29f-8df8400f8819'
-keywords: ["Priority property Task Scheduler", "Priority property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , Priority property"]
+ms.assetid: ce6ad1bc-0d19-4a5d-b29f-8df8400f8819
+keywords:
+- Priority property Task Scheduler
+- Priority property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , Priority property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.Priority property
@@ -56,7 +64,7 @@ The task's action is started in a process with a priority that is based on a Pri
 
 
 
- 
+ 
 
 When reading or writing XML for a task, this setting is specified in the [**Priority (settingsType)**](taskschedulerschema-priority-settingstype-element.md) element of the Task Scheduler schema.
 
@@ -66,8 +74,8 @@ When reading or writing XML for a task, this setting is specified in the [**Prio
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -80,9 +88,9 @@ When reading or writing XML for a task, this setting is specified in the [**Prio
 [**TaskSettings**](tasksettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

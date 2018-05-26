@@ -1,8 +1,17 @@
 ---
 title: Designing 64-bit-Compatible Interfaces
 description: Backward compatibility issues arise when you add new data types or methods to an interface, change old data types, or use data types inappropriately.
-ms.assetid: '676affd8-a155-4ac2-9647-0c7352c87a31'
-keywords: ["backward compatibility 64-bit Windows Programming", "64-bit-compatible interfaces 64-bit Windows Programming", "64-bit Windows programming guide 64-bit Windows Programming , compatibility", "compatibility 64-bit Windows Programming"]
+ms.assetid: 676affd8-a155-4ac2-9647-0c7352c87a31
+keywords:
+- backward compatibility 64-bit Windows Programming
+- 64-bit-compatible interfaces 64-bit Windows Programming
+- 64-bit Windows programming guide 64-bit Windows Programming , compatibility
+- compatibility 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing 64-bit-Compatible Interfaces

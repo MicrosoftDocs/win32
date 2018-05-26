@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFTopologyNode::GetInputPrefType method.'
-ms.assetid: 'b02cf739-97a9-4bb0-abb1-0da491857c50'
+---
+Description: Remotable version of the IMFTopologyNodeGetInputPrefType method.
+ms.assetid: b02cf739-97a9-4bb0-abb1-0da491857c50
 title: RemoteGetInputPrefType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteGetInputPrefType
 
-Remotable version of the [**IMFTopologyNode::GetInputPrefType**](imftopologynode-getinputpreftype.md) method.
+Remotable version of the [**IMFTopologyNode::GetInputPrefType**](/windows/win32/mfidl/nf-mfidl-imftopologynode-getinputpreftype?branch=master) method.
 
 ``` syntax
 [call_as(GetInputPrefType)] 
@@ -19,7 +24,7 @@ HRESULT RemoteGetInputPrefType(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**GetInputPrefType**](imftopologynode-getinputpreftype.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**GetInputPrefType**](/windows/win32/mfidl/nf-mfidl-imftopologynode-getinputpreftype?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -38,7 +43,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> </dl>
 
  

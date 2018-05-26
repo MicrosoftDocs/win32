@@ -1,14 +1,19 @@
 ---
-Description: 'Network Monitor loads a capture from the capture file, and then starts calling the Register function for all the protocols that it can identify. Each parser DLL must implement a Register function for each protocol that the parser DLL supports.'
-ms.assetid: 'a53c64cb-569f-454b-ae85-7b850228c954'
+Description: Network Monitor loads a capture from the capture file, and then starts calling the Register function for all the protocols that it can identify. Each parser DLL must implement a Register function for each protocol that the parser DLL supports.
+ms.assetid: a53c64cb-569f-454b-ae85-7b850228c954
 title: Implementing Register
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Register
 
 Network Monitor loads a capture from the capture file, and then starts calling the [**Register**](register-parser.md) function for all the protocols that it can identify. Each parser DLL must implement a **Register** function for each protocol that the parser DLL supports.
 
-Each implementation of the [**Register**](register-parser.md) function must call the [**CreatePropertyDatabase**](createpropertydatabase.md) and [**AddProperty**](addproperty.md) functions to create and fill-in the [*property database*](p.md#-netmon-property-database-gly) for the protocol, and then the [**CreateHandoffTable**](createhandofftable.md) to create the [*handoff table*](h.md#-netmon-handoff-table-gly) for the protocol — if needed.
+Each implementation of the [**Register**](register-parser.md) function must call the [**CreatePropertyDatabase**](createpropertydatabase.md) and [**AddProperty**](/windows/win32/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty?branch=master) functions to create and fill-in the [*property database*](p.md#-netmon-property-database-gly) for the protocol, and then the [**CreateHandoffTable**](createhandofftable.md) to create the [*handoff table*](h.md#-netmon-handoff-table-gly) for the protocol — if needed.
 
 > [!Note]  
 > Protocol properties are defined for Network Monitor. Properties are not mapped to a location in a capture data until the [**AttachProperties**](attachproperties.md) export function is called.
@@ -21,7 +26,7 @@ The following procedure identifies the steps necessary to implement the [**Regis
 
 1.  Define an array of [**PROPERTYINFO**](propertyinfo.md) structures to describe each property that the protocol supports.
 2.  Call [**CreatePropertyDatabase**](createpropertydatabase.md) to provide a protocol handle, and the number of properties that the protocol supports.
-3.  Call [**AddProperty**](addproperty.md) in a loop to add each property defined in the [**PROPERTYINFO**](propertyinfo.md) structure array.
+3.  Call [**AddProperty**](/windows/win32/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty?branch=master) in a loop to add each property defined in the [**PROPERTYINFO**](propertyinfo.md) structure array.
 4.  If the protocol uses a handoff table, call [**CreateHandoffTable**](createhandofftable.md)— after all the properties of the protocol are added to the property database.
 
 The following is a basic implementation of [**Register**](register-parser.md). Note that a property database is created for a protocol that supports only two properties. This code example is taken from the generic parser that Network Monitor provides.

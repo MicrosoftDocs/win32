@@ -1,26 +1,31 @@
 ---
-Description: 'The Fax Service Client API includes the following structures.'
-ms.assetid: 'be81e221-4aba-4c63-9640-337bee49fdb4'
+Description: The Fax Service Client API includes the following structures.
+ms.assetid: be81e221-4aba-4c63-9640-337bee49fdb4
 title: Fax Service Client API Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Client API Structures
 
 The Fax Service Client API includes the following structures.
 
--   [**FAX\_CONFIGURATION**](-mfax-fax-configuration-str.md)
--   [**FAX\_CONTEXT\_INFO**](-mfax-fax-context-info-str.md)
--   [**FAX\_COVERPAGE\_INFO**](-mfax-fax-coverpage-info-str.md)
--   [**FAX\_DEVICE\_STATUS**](-mfax-fax-device-status-str.md)
--   [**FAX\_EVENT**](-mfax-fax-event-str.md)
--   [**FAX\_GLOBAL\_ROUTING\_INFO**](-mfax-fax-global-routing-info-str.md)
--   [**FAX\_JOB\_ENTRY**](-mfax-fax-job-entry-str.md)
--   [**FAX\_JOB\_PARAM**](-mfax-fax-job-param-str.md)
--   [**FAX\_LOG\_CATEGORY**](-mfax-fax-log-category-str.md)
--   [**FAX\_PORT\_INFO**](-mfax-fax-port-info-str.md)
--   [**FAX\_PRINT\_INFO**](-mfax-fax-print-info-str.md)
--   [**FAX\_ROUTING\_METHOD**](-mfax-fax-routing-method-str.md)
--   [**FAX\_TIME**](-mfax-fax-time-str.md)
+-   [**FAX\_CONFIGURATION**](/windows/previous-versions/Winfax/ns-winfax-_fax_configurationa?branch=master)
+-   [**FAX\_CONTEXT\_INFO**](/windows/previous-versions/Winfax/ns-winfax-_fax_context_infoa?branch=master)
+-   [**FAX\_COVERPAGE\_INFO**](/windows/previous-versions/Winfax/ns-winfax-_fax_coverpage_infoa?branch=master)
+-   [**FAX\_DEVICE\_STATUS**](/windows/previous-versions/Winfax/ns-winfax-_fax_device_statusa?branch=master)
+-   [**FAX\_EVENT**](/windows/previous-versions/Winfax/ns-winfax-_fax_eventa?branch=master)
+-   [**FAX\_GLOBAL\_ROUTING\_INFO**](/windows/previous-versions/Winfax/ns-winfax-_fax_global_routing_infoa?branch=master)
+-   [**FAX\_JOB\_ENTRY**](/windows/previous-versions/Winfax/ns-winfax-_fax_job_entrya?branch=master)
+-   [**FAX\_JOB\_PARAM**](/windows/previous-versions/Winfax/ns-winfax-_fax_job_parama?branch=master)
+-   [**FAX\_LOG\_CATEGORY**](/windows/previous-versions/Winfax/ns-winfax-_fax_log_categorya?branch=master)
+-   [**FAX\_PORT\_INFO**](/windows/previous-versions/Winfax/ns-winfax-_fax_port_infoa?branch=master)
+-   [**FAX\_PRINT\_INFO**](/windows/previous-versions/Winfax/ns-winfax-_fax_print_infoa?branch=master)
+-   [**FAX\_ROUTING\_METHOD**](/windows/previous-versions/Winfax/ns-winfax-_fax_routing_methoda?branch=master)
+-   [**FAX\_TIME**](/windows/previous-versions/Winfax/ns-winfax-_fax_time?branch=master)
 
  
 

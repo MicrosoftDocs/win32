@@ -1,12 +1,17 @@
 ---
-Description: 'An application configuration file is an XML file used to control assembly binding.'
-ms.assetid: 'b7453f2b-52a4-4af9-8410-ebbb430ada67'
+Description: An application configuration file is an XML file used to control assembly binding.
+ms.assetid: b7453f2b-52a4-4af9-8410-ebbb430ada67
 title: Application Configuration Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Configuration Files
 
-An application configuration file is an XML file used to control assembly binding. It can redirect an application from using one version of a side-by-side assembly to another version of the same assembly. This is called [per-application configuration](per-application-configuration.md). An application configuration file applies only to a specific application manifest and dependent assemblies. Isolated components compiled with an embedded ISOLATIONAWARE\_MANIFEST\_RESOURCE\_ID manifest require a separate application configuration file. Manifests managed with [**CreateActCtx**](createactctx.md) require a separate application configuration file.
+An application configuration file is an XML file used to control assembly binding. It can redirect an application from using one version of a side-by-side assembly to another version of the same assembly. This is called [per-application configuration](per-application-configuration.md). An application configuration file applies only to a specific application manifest and dependent assemblies. Isolated components compiled with an embedded ISOLATIONAWARE\_MANIFEST\_RESOURCE\_ID manifest require a separate application configuration file. Manifests managed with [**CreateActCtx**](/windows/win32/Winbase/nf-winbase-createactctxa?branch=master) require a separate application configuration file.
 
 The redirection specified by an application configuration file can override the assembly versions specified by [application manifests](application-manifests.md) and [publisher configuration files](publisher-configuration-files.md). For example, if a publisher configuration file specifies that all references to an assembly be redirected from version 1.0.0.0 to 1.1.0.0, an application configuration file can be used to redirect a particular application to use version 1.0.0.0. An application configuration file applies only to the specified application manifest and dependent assemblies.
 
@@ -18,30 +23,30 @@ Application configuration files have the elements and attributes shown in the fo
 
 | Element               | Attributes                | Required |
 |-----------------------|---------------------------|----------|
-| **configuration**     |                           | Yes      |
+| **configuration**     |                           | Yes      |
 | **windows**           |                           | Yes      |
 | **publisherPolicy**   |                           | Yes      |
 |                       | **apply**                 | Yes      |
 | **runtime**           |                           | No       |
 | **assemblyBinding**   |                           | Yes      |
 | **probing**           |                           | No       |
-|                       | **privatePath**           | Yes      |
+|                       | **privatePath**           | Yes      |
 | **dependency**        |                           | No       |
 | **dependentAssembly** |                           | Yes      |
 | **assemblyIdentity**  |                           | Yes      |
-|                       | **type**                  | Yes      |
-|                       | **name**                  | Yes      |
-|                       | **language**              | No       |
-|                       | **processorArchitecture** | Yes      |
-|                       | **version**               | Yes      |
-|                       | **publicKeyToken**        | No       |
+|                       | **type**                  | Yes      |
+|                       | **name**                  | Yes      |
+|                       | **language**              | No       |
+|                       | **processorArchitecture** | Yes      |
+|                       | **version**               | Yes      |
+|                       | **publicKeyToken**        | No       |
 | **bindingRedirect**   |                           | Yes      |
-|                       | **oldVersion**            | Yes      |
-|                       | **newVersion**            | Yes      |
+|                       | **oldVersion**            | Yes      |
+|                       | **newVersion**            | Yes      |
 
 
 
- 
+ 
 
 ## File Location
 
@@ -76,9 +81,9 @@ A container element for the **windows** and **runtime** elements of an applicati
 Includes the parts of the application configuration file that apply to the redirection of Win32 assemblies.
 
 > [!Note]  
-> The author of an application should not include a configuration file with a **windows** subelement as part of their application. This may be permitted if the configuration file's only purpose is to enable the **privatePath** functionality of a **probing** element. The **probing** element is unavailable on systems earlier than Windows Server 2008 R2 and Windows 7.
+> The author of an application should not include a configuration file with a **windows** subelement as part of their application. This may be permitted if the configuration file's only purpose is to enable the **privatePath** functionality of a **probing** element. The **probing** element is unavailable on systems earlier than Windows Server 2008 R2 and Windows 7.
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +102,7 @@ This element has the attributes shown in the following table.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -113,7 +118,7 @@ Includes the parts of the application configuration file that apply to redirecti
 
 Includes the redirection information for the application and the assembly affected by this application configuration file. The first subelement of **assemblyBinding** must be an **assemblyIdentity** that identifies the application.
 
-Starting with Windows Server 2008 R2 and Windows 7 an **assemblyBinding** element can include a **probing** subelement.
+Starting with Windows Server 2008 R2 and Windows 7 an **assemblyBinding** element can include a **probing** subelement.
 
 </dd> <dt>
 
@@ -123,9 +128,9 @@ Starting with Windows Server 2008 R2 and Windows 7 an **assemblyBinding** elemen
 An optional subelement of an **assemblyBinding** element that extends the search for assemblies into additional directories. The additional directories are not required to be subdirectories of the directory of the assembly.
 
 > [!Note]  
-> This element is unavailable on systems earlier than Windows Server 2008 R2 and Windows 7 and can only be used within a **windows** element.
+> This element is unavailable on systems earlier than Windows Server 2008 R2 and Windows 7 and can only be used within a **windows** element.
 
- 
+ 
 
 This element has the attributes shown in the following table.
 
@@ -137,7 +142,7 @@ This element has the attributes shown in the following table.
 
 
 
- 
+ 
 
 You can use the double-dots special specifier in a path to denote the parent directory of the current directory. No more than two levels above the current directory can be specified using double-dots. Do not use triple-dots. For example, an application using the following **probing** element checks additional directories for an assembly.
 
@@ -201,7 +206,7 @@ The **assemblyIdentity** element has the following attributes. It has no subelem
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -216,12 +221,12 @@ This element has the attributes shown in the following table.
 
 | Attribute      | Description                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **oldVersion** | Specifies the assembly version being overridden and redirected. Use the four-part version syntax nnnnn.nnnnn.nnnnn.nnnnn. Specify a range of versions by a dash without spaces. For example, 2.14.3.0 or 2.14.3.0–2.16.0.0. Required. |
+| **oldVersion** | Specifies the assembly version being overridden and redirected. Use the four-part version syntax nnnnn.nnnnn.nnnnn.nnnnn. Specify a range of versions by a dash without spaces. For example, 2.14.3.0 or 2.14.3.0 2.16.0.0. Required. |
 | **newVersion** | Specifies the replacement assembly version. Use four-part version syntax nnnnn.nnnnn.nnnnn.nnnnn.                                                                                                                                     |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -236,9 +241,9 @@ Application configuration files do not specify files.
 <bindingRedirect oldVersion="1.0.50.2011-1.0.60.65535" newVersion="1.0.70.0"/>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

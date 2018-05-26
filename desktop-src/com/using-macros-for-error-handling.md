@@ -1,7 +1,12 @@
 ---
 title: Using Macros for Error Handling
 description: COM defines a number of macros that make it easier to work with HRESULT values.
-ms.assetid: 'ad28eb80-cab9-4bec-9601-34660f6dcad4'
+ms.assetid: ad28eb80-cab9-4bec-9601-34660f6dcad4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Macros for Error Handling
@@ -25,60 +30,60 @@ The error handling macros are described in the following table.
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>MAKE_HRESULT</strong>](make-hresult-macro.md)<br/></td>
+<td>[<strong>MAKE_HRESULT</strong>](/windows/win32/dmerror/nf-dmerror-make_hresult?branch=master)<br/></td>
 <td>Returns an <strong>HRESULT</strong> given the severity bit, facility code, and error code that comprise the <strong>HRESULT</strong>.<br/>
 <blockquote>
 [!Note]<br />
-Calling [<strong>MAKE_HRESULT</strong>](make-hresult-macro.md) for S_OK verification carries a performance penalty. You should not routinely use <strong>MAKE_HRESULT</strong> for successful results.
+Calling [<strong>MAKE_HRESULT</strong>](/windows/win32/dmerror/nf-dmerror-make_hresult?branch=master) for S_OK verification carries a performance penalty. You should not routinely use <strong>MAKE_HRESULT</strong> for successful results.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MAKE_SCODE</strong>](make-scode-macro.md)<br/></td>
+<td>[<strong>MAKE_SCODE</strong>](/windows/win32/Winerror/nf-winerror-make_scode?branch=master)<br/></td>
 <td>Returns an <strong>SCODE</strong> given the severity bit, facility code, and error code that comprise the <strong>SCODE</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>HRESULT_CODE</strong>](hresult-code-macro.md)<br/></td>
+<td>[<strong>HRESULT_CODE</strong>](/windows/win32/Winerror/nf-winerror-hresult_code?branch=master)<br/></td>
 <td>Extracts the error code portion of the <strong>HRESULT</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>HRESULT_FACILITY</strong>](hresult-facility-macro.md)<br/></td>
+<td>[<strong>HRESULT_FACILITY</strong>](/windows/win32/Winerror/nf-winerror-hresult_facility?branch=master)<br/></td>
 <td>Extracts the facility code of the <strong>HRESULT</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>HRESULT_SEVERITY</strong>](hresult-severity-macro.md)<br/></td>
+<td>[<strong>HRESULT_SEVERITY</strong>](/windows/win32/Winerror/nf-winerror-hresult_severity?branch=master)<br/></td>
 <td>Extracts the severity bit of the <strong>HRESULT</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SCODE_CODE</strong>](scode-code-macro.md)<br/></td>
+<td>[<strong>SCODE_CODE</strong>](/windows/win32/Winerror/nf-winerror-scode_code?branch=master)<br/></td>
 <td>Extracts the error code portion of the <strong>SCODE</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SCODE_FACILITY</strong>](scode-facility-macro.md)<br/></td>
+<td>[<strong>SCODE_FACILITY</strong>](/windows/win32/Winerror/nf-winerror-scode_facility?branch=master)<br/></td>
 <td>Extracts the facility code of the <strong>SCODE</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SCODE_SEVERITY</strong>](scode-severity-macro.md)<br/></td>
+<td>[<strong>SCODE_SEVERITY</strong>](/windows/win32/Winerror/nf-winerror-scode_severity?branch=master)<br/></td>
 <td>Extracts the severity field of the <strong>SCODE</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SUCCEEDED</strong>](succeeded-macro.md)<br/></td>
+<td>[<strong>SUCCEEDED</strong>](/windows/win32/Winerror/nf-winerror-succeeded?branch=master)<br/></td>
 <td>Tests the severity bit of the <strong>SCODE</strong> or <strong>HRESULT</strong>; returns <strong>TRUE</strong> if the severity is zero and <strong>FALSE</strong> if it is one.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>FAILED</strong>](failed-macro.md)<br/></td>
+<td>[<strong>FAILED</strong>](/windows/win32/Winerror/nf-winerror-failed?branch=master)<br/></td>
 <td>Tests the severity bit of the <strong>SCODE</strong> or <strong>HRESULT</strong>; returns <strong>TRUE</strong> if the severity is one and <strong>FALSE</strong> if it is zero.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>IS_ERROR</strong>](is-error-macro.md)<br/></td>
+<td>[<strong>IS_ERROR</strong>](/windows/win32/Winerror/nf-winerror-is_error?branch=master)<br/></td>
 <td>Provides a generic test for errors on any status value. <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>HRESULT_FROM_WIN32</strong>](hresult-from-win32-macro.md)<br/></td>
+<td>[<strong>HRESULT_FROM_WIN32</strong>](/windows/win32/Winerror/nf-winerror-hresult_from_win32?branch=master)<br/></td>
 <td>Maps a [system error code](https://msdn.microsoft.com/library/windows/desktop/ms681381) to an <strong>HRESULT</strong> value. <br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>HRESULT_FROM_NT</strong>](hresult-from-nt-macro.md)<br/></td>
+<td>[<strong>HRESULT_FROM_NT</strong>](/windows/win32/Winerror/nf-winerror-hresult_from_nt?branch=master)<br/></td>
 <td>Maps an NT status value to an <strong>HRESULT</strong> value.<br/></td>
 </tr>
 </tbody>
@@ -86,7 +91,7 @@ Calling [<strong>MAKE_HRESULT</strong>](make-hresult-macro.md) for S_OK verifica
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -95,9 +100,9 @@ Calling [<strong>MAKE_HRESULT</strong>](make-hresult-macro.md) for S_OK verifica
 [Error Handling in COM](error-handling-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

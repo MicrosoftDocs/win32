@@ -1,8 +1,11 @@
 ---
 title: IResultsViewer HeaderStyle property
 description: The style of header displayed in the view.
-ms.assetid: '092a2ff2-eb88-4347-a81c-6a8005971ca9'
-keywords: ["HeaderStyle property Legacy Windows Environment Features", "HeaderStyle property Legacy Windows Environment Features , IResultsViewer interface", "IResultsViewer interface Legacy Windows Environment Features , HeaderStyle property"]
+ms.assetid: 092a2ff2-eb88-4347-a81c-6a8005971ca9
+keywords:
+- HeaderStyle property Legacy Windows Environment Features
+- HeaderStyle property Legacy Windows Environment Features , IResultsViewer interface
+- IResultsViewer interface Legacy Windows Environment Features , HeaderStyle property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsView.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultsViewer::HeaderStyle property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HeaderStyle(
-  [in]          HeaderDisplayStyle style
+  [in]          HeaderDisplayStyle style
 );
 
 HRESULT get_HeaderStyle(
-  [out, retval] HeaderDisplayStyle *style
+  [out, retval] HeaderDisplayStyle *style
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the style of the header displayed.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | Header<br/>                   | <dl> <dt>WdsView.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

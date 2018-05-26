@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the dot product of two 3D vectors.'
-ms.assetid: '61aa7751-cc06-4673-929b-d7c1e691e395'
+---
+Description: Determines the dot product of two 3D vectors.
+ms.assetid: 61aa7751-cc06-4673-929b-d7c1e691e395
 title: D3DXVec3Dot function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Dot function

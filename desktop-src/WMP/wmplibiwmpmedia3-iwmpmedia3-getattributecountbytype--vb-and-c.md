@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia3 getAttributeCountByType method
 description: The getAttributeCountByType method returns the number of attributes associated with the specified attribute type.
-ms.assetid: 'd692635f-f9f1-4d8e-a9c5-9d7fa84f41bd'
-keywords: ["getAttributeCountByType method Windows Media Player", "getAttributeCountByType method Windows Media Player , IWMPMedia3 interface", "IWMPMedia3 interface Windows Media Player , getAttributeCountByType method"]
+ms.assetid: d692635f-f9f1-4d8e-a9c5-9d7fa84f41bd
+keywords:
+- getAttributeCountByType method Windows Media Player
+- getAttributeCountByType method Windows Media Player , IWMPMedia3 interface
+- IWMPMedia3 interface Windows Media Player , getAttributeCountByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia3::getAttributeCountByType method
@@ -101,9 +109,9 @@ Before calling this method, you must have read access to the library. For more i
 [**IWMPMedia3.getItemInfoByType (VB and C#)**](wmplibiwmpmedia3-iwmpmedia3-getiteminfobytype--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

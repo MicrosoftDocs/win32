@@ -1,8 +1,11 @@
 ---
 title: System.MessageStore.Folder.name property
 description: Gets the Windows Mail (formerly Outlook Express) folder name.
-ms.assetid: 'ff1dcee7-bc88-49d5-93e8-ed016017661d'
-keywords: ["name property Windows Sidebar", "name property Windows Sidebar , System.MessageStore.Folder object", "System.MessageStore.Folder object Windows Sidebar , name property"]
+ms.assetid: ff1dcee7-bc88-49d5-93e8-ed016017661d
+keywords:
+- name property Windows Sidebar
+- name property Windows Sidebar , System.MessageStore.Folder object
+- System.MessageStore.Folder object Windows Sidebar , name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Folder.name property
@@ -36,7 +44,7 @@ A **String** that receives the folder name.
 
 ## Remarks
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Sub-folders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Sub-folders and their content (such as messages) are not exposed.
 
 ## Examples
 
@@ -62,10 +70,10 @@ var strFolderName = oFolder.name;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -90,9 +98,9 @@ var strFolderName = oFolder.name;
 [**Folders**](system-messagestore-folders.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

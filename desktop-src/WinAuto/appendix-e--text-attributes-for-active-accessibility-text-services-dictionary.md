@@ -1,17 +1,22 @@
 ---
 title: Appendix E Text Attributes for Active Accessibility Text Services Dictionary
 description: This appendix provides information about text attributes that are defined in IAccDictionary.
-ms.assetid: '9e405140-c151-4f00-91c5-777c84c41806'
+ms.assetid: 9e405140-c151-4f00-91c5-777c84c41806
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appendix E: Text Attributes for Active Accessibility Text Services Dictionary
 
-This appendix provides information about text attributes that are defined in [**IAccDictionary**](iaccdictionary.md). It is organized as a series of tables. Each table includes information about a specific category of attributes. These categories are actually nested, but are separated below so that you can see the attributes.
+This appendix provides information about text attributes that are defined in [**IAccDictionary**](/windows/win32/msaatext/nn-msaatext-iaccdictionary?branch=master). It is organized as a series of tables. Each table includes information about a specific category of attributes. These categories are actually nested, but are separated below so that you can see the attributes.
 
 > [!Note]  
 > Active Accessibility Text Services is deprecated. Please see [Microsoft Windows Text Services Framework](http://go.microsoft.com/fwlink/p/?linkid=131573) for more information on advanced text input and natural language technologies.
 
- 
+ 
 
 Each entry in a table provides an attribute name and friendly name, type, Cascading Style Sheets (CSS) equivalent, Text Object Model (TOM) equivalent, and any additional comments where appropriate. The TOM equivalent column provides information about the TOM method used with the attribute (part of the [**ITextFont**](https://msdn.microsoft.com/library/windows/desktop/bb774054), [**ITextRange**](https://msdn.microsoft.com/library/windows/desktop/bb774058), or [**ITextPara**](https://msdn.microsoft.com/library/windows/desktop/bb774056) interfaces). The information prior to each table indicates which interface supports the attributes; the information in the TOM equivalent table indicates the name of the method. Each entry in the TOM equivalent column is associated with two methods. For example, the Name entry is associated with the **GetName** and **SetName** methods.
 
@@ -30,7 +35,7 @@ The attributes in the following table are associated with general font attribute
 
 
 
- 
+ 
 
 ## Font\_Style
 
@@ -65,7 +70,7 @@ The attributes in the following table address font style attributes (for example
 
 
 
- 
+ 
 
 ## Font\_Style\_Animation
 
@@ -86,7 +91,7 @@ The attributes in the following table address font animation. The TOM equivalent
 
 
 
- 
+ 
 
 ## Font\_Style\_Underline
 
@@ -101,7 +106,7 @@ The attributes in the following table address underline styles for fonts. The TO
 
 
 
- 
+ 
 
 ## Font\_Style\_Strikethrough
 
@@ -116,7 +121,7 @@ The attributes in the following table address strikethrough styles for fonts.
 
 
 
- 
+ 
 
 ## Font\_Style\_Overline
 
@@ -131,7 +136,7 @@ The attributes in the following table address overline styles for fonts.
 
 
 
- 
+ 
 
 ## Text
 
@@ -152,7 +157,7 @@ The attributes in the following table address general text formatting attributes
 
 
 
- 
+ 
 
 ## Text\_Alignment
 
@@ -169,7 +174,7 @@ The attributes in the following table address text alignment. The TOM equivalent
 
 
 
- 
+ 
 
 ## Text\_Para
 
@@ -187,7 +192,7 @@ The attributes in the following table address formatting for paragraphs. The TOM
 
 
 
- 
+ 
 
 ## Text\_Para\_lineSpacing
 
@@ -206,7 +211,7 @@ The attributes in the following table address line spacing in paragraphs. The TO
 
 
 
- 
+ 
 
 ## Text\_List
 
@@ -220,7 +225,7 @@ The attributes in the following table address lists and levels of text lists. Th
 
 
 
- 
+ 
 
 ## Text\_List\_Type
 
@@ -239,7 +244,7 @@ The attributes in the following table address list styles for text. The TOM equi
 
 
 
- 
+ 
 
 ## App
 
@@ -252,11 +257,11 @@ The attributes in the following table address list styles for text. The TOM equi
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The network DDE agent starts network DDE if it detects local network DDE activity.'
-ms.assetid: 'bc1e6a06-be07-4ae8-94da-9603a885b3a5'
+Description: The network DDE agent starts network DDE if it detects local network DDE activity.
+ms.assetid: bc1e6a06-be07-4ae8-94da-9603a885b3a5
 title: Network DDE Agent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network DDE Agent

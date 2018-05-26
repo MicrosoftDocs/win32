@@ -1,7 +1,12 @@
 ---
 title: How SNMP Works
 description: How a third-party SNMP management console application returns information from the SNMP service.
-ms.assetid: '2edbf9ff-b9e3-4103-affc-a5c0f22b80a1'
+ms.assetid: 2edbf9ff-b9e3-4103-affc-a5c0f22b80a1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How SNMP Works

@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting Schemas
-ms.assetid: '2c049897-9a9f-4013-bee2-ecbf89a20cfc'
+ms.assetid: 2c049897-9a9f-4013-bee2-ecbf89a20cfc
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Schemas

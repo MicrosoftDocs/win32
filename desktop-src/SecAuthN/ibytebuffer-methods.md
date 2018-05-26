@@ -1,7 +1,12 @@
 ---
-Description: 'The IByteBuffer interface exposes the following methods.'
-ms.assetid: '1FB8CBD5-973D-466E-B44D-D1E2B97E3B93'
+Description: The IByteBuffer interface exposes the following methods.
+ms.assetid: 1FB8CBD5-973D-466E-B44D-D1E2B97E3B93
 title: IByteBuffer Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IByteBuffer Methods

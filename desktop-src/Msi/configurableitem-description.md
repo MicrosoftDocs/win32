@@ -1,7 +1,12 @@
 ---
-Description: 'The Description property returns the value from the Description column of the ModuleConfiguration table.'
-ms.assetid: 'a43e3392-0539-4904-a0d9-827b69e1ce07'
-title: 'ConfigurableItem.Description property'
+Description: The Description property returns the value from the Description column of the ModuleConfiguration table.
+ms.assetid: a43e3392-0539-4904-a0d9-827b69e1ce07
+title: ConfigurableItem.Description property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigurableItem.Description property
@@ -23,7 +28,7 @@ propVal = ConfigurableItem.Description
 
 ## C++
 
-See [**get\_Description**](imsmconfigurableitem-get-description.md) function
+See [**get\_Description**](/windows/win32/Mergemod/nf-mergemod-imsmconfigurableitem-get_description?branch=master) function
 
 ## Requirements
 
@@ -37,9 +42,9 @@ See [**get\_Description**](imsmconfigurableitem-get-description.md) function
 
 
 
- 
+ 
 
- 
+ 
 
 
 

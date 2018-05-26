@@ -1,8 +1,11 @@
 ---
 title: Activity SetAttributeParentID method
 description: Sets the parent ID of the Activity.
-ms.assetid: 'E304EE50-2FBE-4617-8E45-808CD0E9F168'
-keywords: ["SetAttributeParentID method Access Execution Engine", "SetAttributeParentID method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , SetAttributeParentID method"]
+ms.assetid: E304EE50-2FBE-4617-8E45-808CD0E9F168
+keywords:
+- SetAttributeParentID method Access Execution Engine
+- SetAttributeParentID method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , SetAttributeParentID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::SetAttributeParentID method
@@ -22,7 +30,7 @@ Sets the parent ID of the **Activity**.
 
 ```C++
 virtual HRESULT SetAttributeParentID(
-  [in] LPCWSTR attributeParentID
+  [in] LPCWSTR attributeParentID
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The parent ID is the value of attribute **parentID** of element **Activity**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The parent ID is the value of attribute **parentID** of element **Activity**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'An instance provider supplies instances of one or more given classes.'
+Description: An instance provider supplies instances of one or more given classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd53c3399-cba8-4b5d-8da0-b5a23f94c0ae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d53c3399-cba8-4b5d-8da0-b5a23f94c0ae
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing an Instance Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Writing an Instance Provider
@@ -26,7 +29,7 @@ The following procedure describes how to write an instance provider.
 
 2.  [Initialize your provider](initializing-a-provider.md).
 
-    WMI uses [**IWbemProviderInit**](iwbemproviderinit.md) to load and initialize a provider. This is a task common to all providers.
+    WMI uses [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) to load and initialize a provider. This is a task common to all providers.
 
     > [!Note]  
     > Instance providers are strongly encouraged to use the multithreading model "Both".
@@ -35,7 +38,7 @@ The following procedure describes how to write an instance provider.
 
 3.  [Implement the IWbemServices interface for your provider](implementing-the-primary-interface-for-an-instance-provider.md).
 
-    The [**IWbemServices**](iwbemservices.md) interface is the primary interface for an instance provider.
+    The [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface is the primary interface for an instance provider.
 
 4.  Add any additional code necessary for your provider.
 

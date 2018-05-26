@@ -4,17 +4,22 @@ description: Contains forest trust information (a binary BLOB) that is used by t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '60944ff6-d2b1-4f53-8557-7d79a7d9df51'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 60944ff6-d2b1-4f53-8557-7d79a7d9df51
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Trust-Forest-Trust-Info attribute AD Schema", "msDS-TrustForestTrustInfo attribute AD Schema"]
+keywords:
+- ms-DS-Trust-Forest-Trust-Info attribute AD Schema
+- msDS-TrustForestTrustInfo attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Trust-Forest-Trust-Info
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Trust-Forest-Trust-Info attribute
@@ -38,11 +43,11 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Contains forest trust information (a binary BLOB) that is used by the system for
 
 
 
- 
+ 
 
- 
+ 
 
 
 

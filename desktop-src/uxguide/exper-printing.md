@@ -1,7 +1,12 @@
 ---
 title: Printing
-description: Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
-ms.assetid: '26f5a8dc-27b2-4c2d-a05a-f942784c3cf9'
+description: Printing is the user experience on paper. Its easy to overlook, but it is an important part of the overall user experience.
+ms.assetid: 26f5a8dc-27b2-4c2d-a05a-f942784c3cf9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printing
@@ -25,7 +30,7 @@ To decide if your program needs to support printing, consider these questions:
 
 ### Design your program to eliminate unnecessary printing
 
-There are many reasons why users need to print—some which are good, some which are less so. Users should print because they want to, not because they must. Requiring users to print can be a sign of missing features. For example, in the past users had to print documents in order to make comments and suggest revisions, but now users can do these tasks directly within Microsoft Word documents. **Review your program's scenarios that involve printing, and to the best extent possible, make sure that the need to print is optional and not the result of missing features.**
+There are many reasons why users need to print some which are good, some which are less so. Users should print because they want to, not because they must. Requiring users to print can be a sign of missing features. For example, in the past users had to print documents in order to make comments and suggest revisions, but now users can do these tasks directly within Microsoft Word documents. **Review your program's scenarios that involve printing, and to the best extent possible, make sure that the need to print is optional and not the result of missing features.**
 
 It's also worth remembering that conserving resources like paper and ink is helpful environmentally and saves organizations money in the long run.
 
@@ -103,7 +108,7 @@ The Print options common dialog provides options to:
 
 Your program may require additional options, such as document content options (which content to print), format options (how to print, including print quality, picture sizes, fitting to frame), and color options. If you need to provide additional options, do so by extending the Print options common dialog. Don't create a custom Print dialog box.
 
-When designing the Print options, consider the experience when printing multiple documents. Chances are the next print job will be very similar to the last print job. Optimize the default settings for reprints and similar print jobs—don't make users start over completely each time.
+When designing the Print options, consider the experience when printing multiple documents. Chances are the next print job will be very similar to the last print job. Optimize the default settings for reprints and similar print jobs don't make users start over completely each time.
 
 ### Design print preview for performance and usability
 
@@ -113,7 +118,7 @@ When designing the Print options, consider the experience when printing multiple
 -   Browse through all the pages.
 -   Print directly from the print preview.
 
-Some complex documents (such as computer-aided design \[CAD\] drawings) can take a long time to render. The performance of the preview is important—a print preview can become quite tedious if it takes awhile to render each page. **Consequently, it's better to have a print preview that renders quickly and is accurate enough to allow users to evaluate the print results than to have a completely accurate preview that renders slowly.**
+Some complex documents (such as computer-aided design \[CAD\] drawings) can take a long time to render. The performance of the preview is important a print preview can become quite tedious if it takes awhile to render each page. **Consequently, it's better to have a print preview that renders quickly and is accurate enough to allow users to evaluate the print results than to have a completely accurate preview that renders slowly.**
 
 When designing the print preview, consider the whole task of preparing to print. What are users going to be looking for? What are they going to change? Document creation programs should provide an interactive print preview so that users can adjust frequently changed settings like margins and line breaks within the preview.
 
@@ -141,7 +146,7 @@ The type of program is the primary indicator of the appropriate printing experie
 <tbody>
 <tr class="odd">
 <td><strong>Advanced document creation</strong><br/> Used to create, view, and print high-end documents. The ability to create high-quality printouts is one of the main reasons why the program exists. Targeted at expert users. <br/></td>
-<td><strong>User goals:</strong> Perfect results—detailed control over the print output.<br/> <strong>Example:</strong> Microsoft Word<br/> <strong>Recommended printing experience:</strong><br/>
+<td><strong>User goals:</strong> Perfect results detailed control over the print output.<br/> <strong>Example:</strong> Microsoft Word<br/> <strong>Recommended printing experience:</strong><br/>
 <ul>
 <li>Output optimized for print (WYSIWYG).</li>
 <li>Advanced document formatting features, with options to print large objects.</li>
@@ -195,7 +200,7 @@ The type of program is the primary indicator of the appropriate printing experie
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -361,9 +366,9 @@ The Print Preview mode in Word has an obvious close preview command.
 -   It's acceptable to use printout to refer to the result of a print job.
 -   Use print queue, not printer queue.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: monthlyScheduleType Complex Type
 description: Defines the child elements and sequencing information for the ScheduleByMonth (calendarTriggerType) element.
-ms.assetid: '3ade775c-ca44-403e-9602-80095c7dba1a'
-keywords: ["monthlyScheduleType complex type Task Scheduler"]
+ms.assetid: 3ade775c-ca44-403e-9602-80095c7dba1a
+keywords:
+- monthlyScheduleType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - monthlyScheduleType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # monthlyScheduleType Complex Type
@@ -47,8 +53,8 @@ Defines the child elements and sequencing information for the [**ScheduleByMonth
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -62,9 +68,9 @@ Defines the child elements and sequencing information for the [**ScheduleByMonth
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

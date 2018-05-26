@@ -1,8 +1,23 @@
 ---
 title: UI Automation Properties Overview
 description: Microsoft UI Automation providers expose properties on UI Automation elements. Properties enable client applications to retrieve information about controls.
-ms.assetid: '35f017cb-f50a-4680-9f01-5079aa59da73'
-keywords: ["UI Automation,properties overview", "UI Automation,properties vs. events", "UI Automation,events vs. properties", "properties,about", "properties,identifiers", "properties,values", "properties,events", "events,properties", "properties,dynamic", "dynamic properties"]
+ms.assetid: 35f017cb-f50a-4680-9f01-5079aa59da73
+keywords:
+- UI Automation,properties overview
+- UI Automation,properties vs. events
+- UI Automation,events vs. properties
+- properties,about
+- properties,identifiers
+- properties,values
+- properties,events
+- events,properties
+- properties,dynamic
+- dynamic properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Properties Overview
@@ -22,11 +37,11 @@ This topic contains the following sections.
 
 ## Property Identifiers
 
-Every property is identified by a **PROPERTYID** numeric value called a *property identifier* (ID). Providers and clients use the numeric IDs in method calls such as [**IRawElementProviderAdviseEvents::AdviseEventAdded**](uiauto-irawelementprovideradviseevents-adviseeventadded.md) and [**IUIAutomationElement::GetCachedPropertyValue**](uiauto-iuiautomationelement-getcachedpropertyvalue.md) to identify property requests. For a detailed description of each UI Automation property identifier, including the data type and default value of each property, see [Property Identifiers](uiauto-entry-propids.md).
+Every property is identified by a **PROPERTYID** numeric value called a *property identifier* (ID). Providers and clients use the numeric IDs in method calls such as [**IRawElementProviderAdviseEvents::AdviseEventAdded**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded?branch=master) and [**IUIAutomationElement::GetCachedPropertyValue**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue?branch=master) to identify property requests. For a detailed description of each UI Automation property identifier, including the data type and default value of each property, see [Property Identifiers](uiauto-entry-propids.md).
 
 ## Property Values
 
-All properties are read-only, although some can be changed by using methods that act on the control, such as [**IDockProvider::SetDockPosition**](uiauto-idockprovider-setdockposition.md) (provider) or [**IUIAutomationDockPattern::SetDockPosition**](uiauto-iuiautomationdockpattern-setdockposition.md) (client).
+All properties are read-only, although some can be changed by using methods that act on the control, such as [**IDockProvider::SetDockPosition**](/windows/win32/UIAutomationCore/nf-uiautomationcore-idockprovider-setdockposition?branch=master) (provider) or [**IUIAutomationDockPattern::SetDockPosition**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationdockpattern-setdockposition?branch=master) (client).
 
 For information about retrieving property values, see [Retrieving Properties from UI Automation Elements](uiauto-propertiesforclients.md).
 
@@ -38,7 +53,7 @@ Providers raise events when something in the UI changes. For example, if a check
 
 Not all property changes raise events; that is entirely up to the implementation of the UI Automation provider for the element. For example, the standard proxy providers for list boxes do not raise a property-changed event when the Selection property changes. In this case, the application must listen for the event raised when the selection changes ([**UIA\_SelectionItem\_ElementSelectedEventId**](uiauto-event-ids.md#uia-selectionitem-elementselectedeventid)).
 
-Clients listen for events by subscribing to them, as described at [Subscribing to UI Automation Events](uiauto-eventsforclients.md). For property-changed events in particular, clients must implement [**IUIAutomationPropertyChangedEventHandler**](uiauto-iuiautomationpropertychangedeventhandler.md) and pass the interface to [**IUIAutomation::AddPropertyChangedEventHandler**](uiauto-iuiautomation-addpropertychangedeventhandler.md) or [**IUIAutomation::AddPropertyChangedEventHandlerNativeArray**](uiauto-iuiautomation-addpropertychangedeventhandlernativearray.md).
+Clients listen for events by subscribing to them, as described at [Subscribing to UI Automation Events](uiauto-eventsforclients.md). For property-changed events in particular, clients must implement [**IUIAutomationPropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationpropertychangedeventhandler?branch=master) and pass the interface to [**IUIAutomation::AddPropertyChangedEventHandler**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandler?branch=master) or [**IUIAutomation::AddPropertyChangedEventHandlerNativeArray**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomation-addpropertychangedeventhandlernativearray?branch=master).
 
 ## Related topics
 
@@ -47,16 +62,16 @@ Clients listen for events by subscribing to them, as described at [Subscribing t
 **Reference**
 </dt> <dt>
 
-[**GetCurrentPropertyValue**](uiauto-iuiautomationelement-getcurrentpropertyvalue.md)
+[**GetCurrentPropertyValue**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue?branch=master)
 </dt> <dt>
 
-[**GetCurrentPropertyValueEx**](uiauto-iuiautomationelement-getcurrentpropertyvalueex.md)
+[**GetCurrentPropertyValueEx**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalueex?branch=master)
 </dt> <dt>
 
-[**GetCachedPropertyValue**](uiauto-iuiautomationelement-getcachedpropertyvalue.md)
+[**GetCachedPropertyValue**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalue?branch=master)
 </dt> <dt>
 
-[**GetCachedPropertyValueEx**](uiauto-iuiautomationelement-getcachedpropertyvalueex.md)
+[**GetCachedPropertyValueEx**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-getcachedpropertyvalueex?branch=master)
 </dt> <dt>
 
 **Conceptual**

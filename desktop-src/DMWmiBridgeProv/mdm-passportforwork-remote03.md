@@ -1,8 +1,10 @@
 ---
 title: MDM\_PassportForWork\_Remote03 class
 description: The MDM\_PassportForWork\_Remote03 class defines the Windows Hello for Business remote policy settings.
-ms.assetid: '221701be-944f-42cd-847e-553d41281749'
-keywords: ["MDM_PassportForWork_Remote03 class", "MDM_PassportForWork_Remote03 class, described"]
+ms.assetid: 221701be-944f-42cd-847e-553d41281749
+keywords:
+- MDM_PassportForWork_Remote03 class
+- MDM_PassportForWork_Remote03 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_PassportForWork\_Remote03 class
@@ -29,8 +36,8 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_PassportForWork_Remote03
 {
-  string  InstanceID;
-  string  ParentID;
+  string  InstanceID;
+  string  ParentID;
   boolean UseRemotePassport;
 };
 ```
@@ -59,7 +66,7 @@ Access type: Read-only
 Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 </dt> </dl>
 
-Interior node for defining remote Windows Hello for Business policies. This node was added in Windows 10, version 1511.
+Interior node for defining remote Windows Hello for Business policies. This node was added in Windows 10, version 1511.
 
 </dd> <dt>
 
@@ -96,7 +103,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -111,9 +118,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

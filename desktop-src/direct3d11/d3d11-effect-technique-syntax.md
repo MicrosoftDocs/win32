@@ -1,8 +1,23 @@
 ---
 title: Effect Technique Syntax (Direct3D 11)
 description: An effect technique is declared with the syntax described in this section.
-ms.assetid: '54a6ebd1-a6b4-473b-bf53-a3323445de71'
-keywords: ["technique11, Direct3D 11 Effect", "pass, Direct3D 11 Effect", "CompileShader, Direct3D 11 Effect", "SetStateGroup, Direct3D 11 Effect", "SetBlendState, Direct3D 11 Effect", "SetDepthStencilState, Direct3D 11 Effect", "SetRasterizerState, Direct3D 11 Effect", "SetVertexShader, Direct3D 11 Effect", "SetGeometryShader, Direct3D 11 Effect", "SetPixelShader, Direct3D 11 Effect"]
+ms.assetid: 54a6ebd1-a6b4-473b-bf53-a3323445de71
+keywords:
+- technique11, Direct3D 11 Effect
+- pass, Direct3D 11 Effect
+- CompileShader, Direct3D 11 Effect
+- SetStateGroup, Direct3D 11 Effect
+- SetBlendState, Direct3D 11 Effect
+- SetDepthStencilState, Direct3D 11 Effect
+- SetRasterizerState, Direct3D 11 Effect
+- SetVertexShader, Direct3D 11 Effect
+- SetGeometryShader, Direct3D 11 Effect
+- SetPixelShader, Direct3D 11 Effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Technique Syntax (Direct3D 11)
@@ -88,7 +103,7 @@ TechniqueVersion *TechniqueName* \[ &lt;*Annotations* &gt; \]
 </tbody>
 </table>
 
-<p>See [<strong>ID3D11DeviceContext::OMSetBlendState</strong>](id3d11devicecontext-omsetblendstate.md) for the argument list.</p></td>
+<p>See [<strong>ID3D11DeviceContext::OMSetBlendState</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omsetblendstate?branch=master) for the argument list.</p></td>
 </tr>
 <tr class="even">
 <td>Depth-stencil State</td>
@@ -106,7 +121,7 @@ TechniqueVersion *TechniqueName* \[ &lt;*Annotations* &gt; \]
 </table>
 
 </div>
-<p>See [<strong>ID3D11DeviceContext::OMSetDepthStencilState</strong>](id3d11devicecontext-omsetdepthstencilstate.md) for the argument list.</p></td>
+<p>See [<strong>ID3D11DeviceContext::OMSetDepthStencilState</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omsetdepthstencilstate?branch=master) for the argument list.</p></td>
 </tr>
 <tr class="odd">
 <td>Rasterizer State</td>
@@ -124,7 +139,7 @@ TechniqueVersion *TechniqueName* \[ &lt;*Annotations* &gt; \]
 </table>
 
 </div>
-<p>See [<strong>ID3D11DeviceContext::RSSetState</strong>](id3d11devicecontext-rssetstate.md) for the argument list.</p></td>
+<p>See [<strong>ID3D11DeviceContext::RSSetState</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rssetstate?branch=master) for the argument list.</p></td>
 </tr>
 <tr class="even">
 <td>Shader State</td>
@@ -142,7 +157,7 @@ TechniqueVersion *TechniqueName* \[ &lt;*Annotations* &gt; \]
 </table>
 
 </div>
-<p>SetXXXShader is one of SetVertexShader, SetDomainShader, SetHullShader, SetGeometryShader, SetPixelShader or SetComputeShader (which are similar to the API methods [<strong>ID3D11DeviceContext::VSSetShader</strong>](id3d11devicecontext-vssetshader.md), [<strong>ID3D11DeviceContext::DSSetShader</strong>](id3d11devicecontext-dssetshader.md), [<strong>ID3D11DeviceContext::HSSetShader</strong>](id3d11devicecontext-hssetshader.md), [<strong>ID3D11DeviceContext::GSSetShader</strong>](id3d11devicecontext-gssetshader.md), [<strong>ID3D11DeviceContext::PSSetShader</strong>](id3d11devicecontext-pssetshader.md) and [<strong>ID3D11DeviceContext::CSSetShader</strong>](id3d11devicecontext-cssetshader.md)).</p>
+<p>SetXXXShader is one of SetVertexShader, SetDomainShader, SetHullShader, SetGeometryShader, SetPixelShader or SetComputeShader (which are similar to the API methods [<strong>ID3D11DeviceContext::VSSetShader</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-vssetshader?branch=master), [<strong>ID3D11DeviceContext::DSSetShader</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dssetshader?branch=master), [<strong>ID3D11DeviceContext::HSSetShader</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-hssetshader?branch=master), [<strong>ID3D11DeviceContext::GSSetShader</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-gssetshader?branch=master), [<strong>ID3D11DeviceContext::PSSetShader</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-pssetshader?branch=master) and [<strong>ID3D11DeviceContext::CSSetShader</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-cssetshader?branch=master)).</p>
 <p>Shader is a shader variable, which can be obtained in many ways:</p>
 <div class="code">
 <span data-codelanguage=""></span>
@@ -186,19 +201,19 @@ SetRenderTargets( RTV0, RTV1, RTV2, RTV3, RTV4, RTV5, RTV6, RTV7, DSV );</code><
 </table>
 
 </div>
-<p>Similar to [<strong>ID3D11DeviceContext::OMSetRenderTargets</strong>](id3d11devicecontext-omsetrendertargets.md).</p></td>
+<p>Similar to [<strong>ID3D11DeviceContext::OMSetRenderTargets</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets?branch=master).</p></td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Examples
 
@@ -275,9 +290,9 @@ technique10 RenderSceneWithTexture1Light
 [Effect State Groups](d3d11-effect-states.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

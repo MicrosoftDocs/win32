@@ -1,7 +1,12 @@
 ---
-Description: 'Reads a group policy object (GPO) and caches the results locally.'
-ms.assetid: 'e2f3b0d1-7294-4fec-ad4f-d757eb64f5c3'
-title: 'Open method of the MSFT\_NetGPO class'
+Description: Reads a group policy object (GPO) and caches the results locally.
+ms.assetid: e2f3b0d1-7294-4fec-ad4f-d757eb64f5c3
+title: Open method of the MSFT\_NetGPO class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Open method of the MSFT\_NetGPO class
@@ -13,9 +18,9 @@ Reads a group policy object (GPO) and caches the results locally.
 
 ```mof
 uint32 Open(
-  [in]  string PolicyStore,
-  [in]  string DomainController,
-  [out] String GPOSession
+  [in]  string PolicyStore,
+  [in]  string DomainController,
+  [out] String GPOSession
 );
 ```
 
@@ -52,8 +57,8 @@ When this method returns, contains the GPO session identifier.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -67,9 +72,9 @@ When this method returns, contains the GPO session identifier.
 [**MSFT\_NetGPO**](msft-netgpo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

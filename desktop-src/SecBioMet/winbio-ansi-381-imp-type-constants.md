@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ANSI\_381\_IMP\_TYPE Constants
 description: Specify finger and palm impression types.
-ms.assetid: '838FC1E2-4FEB-4162-B689-4FACAF8F79F5'
+ms.assetid: 838FC1E2-4FEB-4162-B689-4FACAF8F79F5
 topic_type:
 - apiref
 api_name:
@@ -16,6 +16,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ANSI\_381\_IMP\_TYPE Constants
@@ -37,8 +42,8 @@ The following constants can be used to specify finger and palm impression types:
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -50,9 +55,9 @@ The following constants can be used to specify finger and palm impression types:
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

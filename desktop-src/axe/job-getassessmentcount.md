@@ -1,8 +1,11 @@
 ---
 title: Job GetAssessmentCount method
 description: Retrieve the number of assessments in the job.
-ms.assetid: 'B0769BC5-47CB-4E18-99B7-6B23463D6747'
-keywords: ["GetAssessmentCount method Access Execution Engine", "GetAssessmentCount method Access Execution Engine , Job interface", "Job interface Access Execution Engine , GetAssessmentCount method"]
+ms.assetid: B0769BC5-47CB-4E18-99B7-6B23463D6747
+keywords:
+- GetAssessmentCount method Access Execution Engine
+- GetAssessmentCount method Access Execution Engine , Job interface
+- Job interface Access Execution Engine , GetAssessmentCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::GetAssessmentCount method
@@ -22,7 +30,7 @@ Retrieve the number of assessments in the job.
 
 ```C++
 virtual HRESULT GetAssessmentCount(
-  [out] INT *count
+  [out] INT *count
 ) const = 0;
 ```
 
@@ -53,8 +61,8 @@ Managed code uses the [**Job.AssessmentCount \| assessmentCount**](axe-job_asses
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -67,9 +75,9 @@ Managed code uses the [**Job.AssessmentCount \| assessmentCount**](axe-job_asses
 [**Job**](job-if.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

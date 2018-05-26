@@ -4,17 +4,22 @@ description: The Distinguished Name of a domain policy object that a policy obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '914920de-6dc2-4dda-bf10-a34f5315eb74'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 914920de-6dc2-4dda-bf10-a34f5315eb74
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Domain-Policy-Reference attribute AD Schema", "domainPolicyReference attribute AD Schema"]
+keywords:
+- Domain-Policy-Reference attribute AD Schema
+- domainPolicyReference attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Domain-Policy-Reference
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Domain-Policy-Reference attribute
@@ -38,12 +43,12 @@ The Distinguished Name of a domain policy object that a policy object copies fro
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The Distinguished Name of a domain policy object that a policy object copies fro
 
 
 
- 
+ 
 
- 
+ 
 
 
 

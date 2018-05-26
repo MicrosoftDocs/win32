@@ -1,8 +1,9 @@
 ---
 title: XMUINT2 structure
 description: Describes an 2D unsigned integer vector.
-ms.assetid: '8622eca1-fc8f-4129-a375-142b4f4018b0'
-keywords: ["XMUINT2 structure HLSL"]
+ms.assetid: 8622eca1-fc8f-4129-a375-142b4f4018b0
+keywords:
+- XMUINT2 structure HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMUINT2 structure
@@ -67,9 +73,9 @@ y-component of the vector.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

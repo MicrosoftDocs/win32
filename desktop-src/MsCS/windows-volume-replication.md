@@ -4,10 +4,13 @@ description: Manages a volume replication resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'DC7433BE-DE20-4115-9790-D4F4536FD111'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: DC7433BE-DE20-4115-9790-D4F4536FD111
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Volume Replication
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,12 +38,12 @@ The following table summarizes the characteristics of the this [resource type](r
 [Resource Types](resource-types.md)
 </dt> <dt>
 
-[**ResUtilEnumResourcesEx**](resutilenumresourcesex.md)
+[**ResUtilEnumResourcesEx**](/windows/previous-versions/ResApi/nc-resapi-presutil_enum_resources_ex?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

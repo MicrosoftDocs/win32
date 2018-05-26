@@ -4,10 +4,13 @@ description: This topic shows how to create a new instance using the CreateInsta
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'CFB678FE-7E14-483B-960D-0EB48C8F929D'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: CFB678FE-7E14-483B-960D-0EB48C8F929D
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to create a new instance

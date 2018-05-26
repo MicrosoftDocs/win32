@@ -3,8 +3,11 @@ title: DisableKeyManagementServiceHostCaching method of the SoftwareLicensingSer
 description: Disables the caching of the KMS hostname and port value on a volume activation client.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3db3185e-da8d-4135-91a2-8eec1cf0494f'
-keywords: ["DisableKeyManagementServiceHostCaching method Windows Management Instrumentation", "DisableKeyManagementServiceHostCaching method Windows Management Instrumentation , SoftwareLicensingService class", "SoftwareLicensingService class Windows Management Instrumentation , DisableKeyManagementServiceHostCaching method"]
+ms.assetid: 3db3185e-da8d-4135-91a2-8eec1cf0494f
+keywords:
+- DisableKeyManagementServiceHostCaching method Windows Management Instrumentation
+- DisableKeyManagementServiceHostCaching method Windows Management Instrumentation , SoftwareLicensingService class
+- SoftwareLicensingService class Windows Management Instrumentation , DisableKeyManagementServiceHostCaching method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DisableKeyManagementServiceHostCaching method of the SoftwareLicensingService class
@@ -24,7 +32,7 @@ Disables the caching of the KMS hostname and port value on a volume activation c
 
 ```mof
 uint32 DisableKeyManagementServiceHostCaching(
-  [in] boolean DisableCaching
+  [in] boolean DisableCaching
 );
 ```
 
@@ -47,8 +55,8 @@ Determines whether KMS hostname and port values are cached. If this parameter is
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Determines whether KMS hostname and port values are cached. If this parameter is
 [**SoftwareLicensingService**](softwarelicensingservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

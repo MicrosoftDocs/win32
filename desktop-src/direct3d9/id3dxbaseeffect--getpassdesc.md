@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pass description.'
-ms.assetid: '44c65a82-bcf4-49f5-9312-8320e133bb2f'
-title: 'ID3DXBaseEffect::GetPassDesc method'
+---
+Description: Gets a pass description.
+ms.assetid: 44c65a82-bcf4-49f5-9312-8320e133bb2f
+title: ID3DXBaseEffectGetPassDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseEffect::GetPassDesc method

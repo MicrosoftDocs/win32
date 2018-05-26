@@ -1,8 +1,29 @@
 ---
 title: Supported Protocols and File Types
 description: Supported Protocols and File Types
-ms.assetid: '2672372c-0b42-437e-8b96-83b6e5200fd3'
-keywords: ["Windows Media Player,protocols", "Windows Media Player,file types", "Windows Media Player object model,protocols", "Windows Media Player object model,file types", "object model,protocols", "object model,file types", "Windows Media Player ActiveX control,protocols for object model", "ActiveX control,protocols for object model", "Windows Media Player Mobile ActiveX control,protocols for object model", "Windows Media Player Mobile,protocols for object model", "Windows Media Player ActiveX control,file types for object model", "ActiveX control,file types for object model", "Windows Media Player Mobile ActiveX control,file types for object model", "Windows Media Player Mobile,file types for object model", "protocols,Windows Media Player object model", "file types for Windows Media Player object model"]
+ms.assetid: 2672372c-0b42-437e-8b96-83b6e5200fd3
+keywords:
+- Windows Media Player,protocols
+- Windows Media Player,file types
+- Windows Media Player object model,protocols
+- Windows Media Player object model,file types
+- object model,protocols
+- object model,file types
+- Windows Media Player ActiveX control,protocols for object model
+- ActiveX control,protocols for object model
+- Windows Media Player Mobile ActiveX control,protocols for object model
+- Windows Media Player Mobile,protocols for object model
+- Windows Media Player ActiveX control,file types for object model
+- ActiveX control,file types for object model
+- Windows Media Player Mobile ActiveX control,file types for object model
+- Windows Media Player Mobile,file types for object model
+- protocols,Windows Media Player object model
+- file types for Windows Media Player object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Protocols and File Types

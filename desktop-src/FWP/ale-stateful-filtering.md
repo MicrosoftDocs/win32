@@ -1,7 +1,12 @@
 ---
 title: ALE Stateful Filtering
 description: Filters installed at the Application Layer Enforcement (ALE) layers of the Windows Filtering Platform (WFP) perform stateful network filtering.
-ms.assetid: 'd5a3fcad-d55e-4a07-af21-cb40e5e9a9ee'
+ms.assetid: d5a3fcad-d55e-4a07-af21-cb40e5e9a9ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALE Stateful Filtering

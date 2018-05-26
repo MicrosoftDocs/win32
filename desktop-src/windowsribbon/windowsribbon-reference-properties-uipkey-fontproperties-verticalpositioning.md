@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_FontProperties\_VerticalPositioning
 description: Identifies the UI\_PKEY\_FontProperties\_VerticalPositioning property.
-ms.assetid: 'a92f845e-b0fc-4e23-9d06-ca16d2becf0b'
+ms.assetid: a92f845e-b0fc-4e23-9d06-ca16d2becf0b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_FontProperties\_VerticalPositioning

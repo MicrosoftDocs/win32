@@ -4,11 +4,12 @@ description: Provide access to the following properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '73b0f6d4-55db-46cf-a781-e10bc4fcf2db'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 73b0f6d4-55db-46cf-a781-e10bc4fcf2db
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPropertyEntry Property Methods ADSI"]
+keywords:
+- IADsPropertyEntry Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -29,11 +30,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPropertyEntry Property Methods
 
-The property methods of the [**IADsPropertyEntry**](iadspropertyentry.md) interface provide access to the following properties. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsPropertyEntry**](/windows/win32/Iads/nn-iads-iadspropertyentry?branch=master) interface provide access to the following properties. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -42,7 +46,7 @@ The property methods of the [**IADsPropertyEntry**](iadspropertyentry.md) interf
 **ADsType**
 </dt> <dd> <dl>
 
-The data type of the **Name** property. The values of the data type is defined in the [**ADSTYPEENUM**](adstypeenum.md) enumeration.
+The data type of the **Name** property. The values of the data type is defined in the [**ADSTYPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001?branch=master) enumeration.
 
 <dt>
 
@@ -70,7 +74,7 @@ HRESULT put_ADsType(
 **ControlCode**
 </dt> <dd> <dl>
 
-A constant that specifies the operation to be performed on the named property. The value is defined in the [**ADS\_PROPERTY\_OPERATION\_ENUM**](ads-property-operation-enum.md) enumeration.
+A constant that specifies the operation to be performed on the named property. The value is defined in the [**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027?branch=master) enumeration.
 
 <dt>
 
@@ -126,7 +130,7 @@ HRESULT put_Name(
 **Values**
 </dt> <dd> <dl>
 
-A **VARIANT** array. Each element in this array represents a value of the named property. Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](iadspropertyvalue.md) and [**IADsPropertyValue2**](iadspropertyvalue2.md) interfaces. Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.
+A **VARIANT** array. Each element in this array represents a value of the named property. Such property values are represented by ADSI objects implementing the [**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master) and [**IADsPropertyValue2**](/windows/win32/Iads/nn-iads-iadspropertyvalue2?branch=master) interfaces. Therefore, the **VARIANT** array holds an array of pointers to the [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface on the ADSI objects implementing the **IADsPropertyValue** and **IADsPropertyValue2** interfaces.
 
 <dt>
 
@@ -151,7 +155,7 @@ HRESULT put_Values(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -288,8 +292,8 @@ Cleanup:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsPropertyEntry is defined as 05792C8E-941F-11D0-8529-00C04FD8D503<br/>    |
@@ -300,30 +304,30 @@ Cleanup:
 
 <dl> <dt>
 
-[**ADS\_PROPERTY\_OPERATION\_ENUM**](ads-property-operation-enum.md)
+[**ADS\_PROPERTY\_OPERATION\_ENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0027?branch=master)
 </dt> <dt>
 
 [ADSI Error Codes](adsi-error-codes.md)
 </dt> <dt>
 
-[**ADSTYPEENUM**](adstypeenum.md)
+[**ADSTYPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001?branch=master)
 </dt> <dt>
 
-[**IADsPropertyEntry**](iadspropertyentry.md)
+[**IADsPropertyEntry**](/windows/win32/Iads/nn-iads-iadspropertyentry?branch=master)
 </dt> <dt>
 
-[**IADsPropertyValue**](iadspropertyvalue.md)
+[**IADsPropertyValue**](/windows/win32/Iads/nn-iads-iadspropertyvalue?branch=master)
 </dt> <dt>
 
-[**IADsPropertyValue2**](iadspropertyvalue2.md)
+[**IADsPropertyValue2**](/windows/win32/Iads/nn-iads-iadspropertyvalue2?branch=master)
 </dt> <dt>
 
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

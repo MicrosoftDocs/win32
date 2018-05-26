@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetNewEmptyPart method creates a new XPS part.'
-ms.assetid: 'cc0911da-46ca-4cf7-a59e-da0d53e1d10c'
-title: 'IXpsDocumentConsumer::GetNewEmptyPart method'
+---
+Description: The GetNewEmptyPart method creates a new XPS part.
+ms.assetid: cc0911da-46ca-4cf7-a59e-da0d53e1d10c
+title: IXpsDocumentConsumerGetNewEmptyPart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer::GetNewEmptyPart method

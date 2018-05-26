@@ -1,8 +1,17 @@
 ---
 title: Determining Whether Windows DVD Maker is Running on Your Computer
 description: Determining Whether Windows DVD Maker is Running on Your Computer
-ms.assetid: '0a64e774-f3dd-401d-843e-644a1713e821'
-keywords: ["Windows DVD Maker,verifying whether program is running", "DVD Maker,verifying whether program is running", "programming guide,verifying whether Windows DVD Maker is running", "CreateMutex function"]
+ms.assetid: 0a64e774-f3dd-401d-843e-644a1713e821
+keywords:
+- Windows DVD Maker,verifying whether program is running
+- DVD Maker,verifying whether program is running
+- programming guide,verifying whether Windows DVD Maker is running
+- CreateMutex function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Determining Whether Windows DVD Maker is Running on Your Computer

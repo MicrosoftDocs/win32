@@ -1,14 +1,20 @@
 ---
 title: ITEMSPLAYLIST
 description: This is a predefined PLAYLIST element with the following default values.
-ms.assetid: '0621885c-04e3-4de7-a4cc-2eb4e94de53c'
-keywords: ["ITEMSPLAYLIST Windows Media Player"]
+ms.assetid: 0621885c-04e3-4de7-a4cc-2eb4e94de53c
+keywords:
+- ITEMSPLAYLIST Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ITEMSPLAYLIST
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITEMSPLAYLIST
@@ -44,9 +50,9 @@ This will create a simple **PLAYLIST** that displays the items in a playlist wit
 [**PLAYLIST Element**](playlist-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

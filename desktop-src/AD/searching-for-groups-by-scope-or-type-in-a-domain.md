@@ -4,11 +4,15 @@ description: In Windows 2000 domains, there is single class called group for al
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e32629d9-aa62-4953-aa49-43af726b7deb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e32629d9-aa62-4953-aa49-43af726b7deb
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Searching for Groups by Scope or Type in a Domain AD"]
+keywords:
+- Searching for Groups by Scope or Type in a Domain AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching for Groups by Scope or Type in a Domain

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an asynchronous Media Foundation transform (MFT) in response to an MFT\_MESSAGE\_COMMAND\_MARKER message.'
-ms.assetid: 'd0c0d62d-9133-4d4b-8606-c2ae1d4c9f0a'
+---
+Description: Sent by an asynchronous Media Foundation transform (MFT) in response to an MFT\_MESSAGE\_COMMAND\_MARKER message.
+ms.assetid: d0c0d62d-9133-4d4b-8606-c2ae1d4c9f0a
 title: METransformMarker event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # METransformMarker event
@@ -10,7 +15,7 @@ Sent by an asynchronous Media Foundation transform (MFT) in response to an **MFT
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -34,11 +39,11 @@ The following attributes are defined for this event.
 
 ## Remarks
 
-Asynchronous MFTs send this event through the [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface. Synchronous MFTs never send this event.
+Asynchronous MFTs send this event through the [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface. Synchronous MFTs never send this event.
 
-The client of an asynchronous MFT can place a marker in the stream by calling [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) with the **MFT\_MESSAGE\_COMMAND\_MARKER** message. The *ulParam* parameter contains application-defined data.
+The client of an asynchronous MFT can place a marker in the stream by calling [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the **MFT\_MESSAGE\_COMMAND\_MARKER** message. The *ulParam* parameter contains application-defined data.
 
-When the MFT finishes processing all of the input data that was available at the time of the [**ProcessMessage**](imftransform-processmessage.md) call, the MFT queues an METransformMarker event. The [MF\_EVENT\_MFT\_CONTEXT](mf-event-mft-context.md) attribute of the event contains the value of the *ulParam* parameter. For more information, see [Asynchronous MFTs](asynchronous-mfts.md).
+When the MFT finishes processing all of the input data that was available at the time of the [**ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) call, the MFT queues an METransformMarker event. The [MF\_EVENT\_MFT\_CONTEXT](mf-event-mft-context.md) attribute of the event contains the value of the *ulParam* parameter. For more information, see [Asynchronous MFTs](asynchronous-mfts.md).
 
 ## Requirements
 

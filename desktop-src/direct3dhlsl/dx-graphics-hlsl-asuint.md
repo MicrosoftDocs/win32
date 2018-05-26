@@ -1,14 +1,20 @@
 ---
 title: asuint
 description: Interprets the bit pattern of x as an unsigned integer.
-ms.assetid: '8401001d-f9ee-43da-9756-f311e9f2bb20'
-keywords: ["asuint HLSL"]
+ms.assetid: 8401001d-f9ee-43da-9756-f311e9f2bb20
+keywords:
+- asuint HLSL
 topic_type:
 - apiref
 api_name:
 - asuint
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # asuint
@@ -22,7 +28,7 @@ Interprets the bit pattern of *x* as an unsigned integer.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Interprets the bit pattern of *x* as an unsigned integer.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The input interpreted as an unsigned integer.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +74,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -77,9 +83,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

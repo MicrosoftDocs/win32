@@ -1,7 +1,12 @@
 ---
 title: deriv\_rtx (sm4 - asm)
 description: Rate of change of contents of each float32 component of src0 (post-swizzle), with regard to RenderTarget x direction (rtx) or RenderTarget y direction.
-ms.assetid: '2438DB36-C348-4854-AE1B-EC3C890B0B42'
+ms.assetid: 2438DB36-C348-4854-AE1B-EC3C890B0B42
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # deriv\_rtx (sm4 - asm)
@@ -15,7 +20,7 @@ Rate of change of contents of each float32 component of *src0* (post-swizzle), w
 
 
 
- 
+ 
 
 
 
@@ -26,7 +31,7 @@ Rate of change of contents of each float32 component of *src0* (post-swizzle), w
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +57,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -80,9 +85,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

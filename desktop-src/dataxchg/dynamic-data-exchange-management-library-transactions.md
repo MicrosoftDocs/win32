@@ -1,7 +1,12 @@
 ---
 title: DDEML Transactions
 description: .
-ms.assetid: '14e93d6b-166c-42e0-8b4d-4446a8672d48'
+ms.assetid: 14e93d6b-166c-42e0-8b4d-4446a8672d48
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DDEML Transactions

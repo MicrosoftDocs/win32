@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemObjectPath object exposes the following properties.'
+Description: The SWbemObjectPath object exposes the following properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7EE0A09D-F8C5-40B8-B32A-AADFB1BD9C27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7EE0A09D-F8C5-40B8-B32A-AADFB1BD9C27
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemObjectPath Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectPath Properties

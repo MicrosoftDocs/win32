@@ -1,8 +1,9 @@
 ---
 title: EN\_CHANGE notification code
 description: Sent when the user has taken an action that may have altered text in an edit control.
-ms.assetid: '8a04e6fb-ae9d-4d94-8047-6de96df899f5'
-keywords: ["EN_CHANGE notification code Windows Controls"]
+ms.assetid: 8a04e6fb-ae9d-4d94-8047-6de96df899f5
+keywords:
+- EN_CHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_CHANGE notification code
@@ -47,7 +53,7 @@ A handle to the edit control.
 
 ## Remarks
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-control-event-mask-flags.md#enm-change) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. To receive EN\_CHANGE notification codes, specify [**ENM\_CHANGE**](rich-edit-control-event-mask-flags.md#enm-change) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](edit-control-styles.md#es-multiline) style is used and the text is sent through [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644).
 
@@ -57,8 +63,8 @@ The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](edit-c
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ The EN\_CHANGE notification code is not sent when the [**ES\_MULTILINE**](edit-c
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: Associates an instance of the CIM\_ComputerSystem class that repres
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '81206621-e2de-49dd-b9c0-f5cc5d51504a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 81206621-e2de-49dd-b9c0-f5cc5d51504a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_SnapshotOfVirtualSystem class", "Msvm_SnapshotOfVirtualSystem class, described"]
+keywords:
+- Msvm_SnapshotOfVirtualSystem class
+- Msvm_SnapshotOfVirtualSystem class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_SnapshotOfVirtualSystem class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SnapshotOfVirtualSystem : CIM_SnapshotOfVirtualSystem
 {
-  CIM_ComputerSystem           REF Antecedent;
+  CIM_ComputerSystem           REF Antecedent;
   CIM_VirtualSystemSettingData REF Dependent;
 };
 ```
@@ -92,7 +97,7 @@ This property is inherited from [**CIM\_SnapshotOfVirtualSystem**](cim-snapshoto
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -109,9 +114,9 @@ This property is inherited from [**CIM\_SnapshotOfVirtualSystem**](cim-snapshoto
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

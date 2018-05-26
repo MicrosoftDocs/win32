@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.AllowDemandStart property
 description: For scripting, gets or sets a Boolean value that indicates that the task can be started by using either the Run command or the Context menu.
-ms.assetid: '267cf3c3-0e18-4a4f-bb32-d6766ceb6241'
-keywords: ["AllowDemandStart property Task Scheduler", "AllowDemandStart property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , AllowDemandStart property"]
+ms.assetid: 267cf3c3-0e18-4a4f-bb32-d6766ceb6241
+keywords:
+- AllowDemandStart property Task Scheduler
+- AllowDemandStart property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , AllowDemandStart property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.AllowDemandStart property
@@ -44,8 +52,8 @@ When reading or writing XML for a task, this setting is specified in the [AllowS
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -58,9 +66,9 @@ When reading or writing XML for a task, this setting is specified in the [AllowS
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

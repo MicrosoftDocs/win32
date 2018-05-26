@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '87331C1D-F468-4CA4-92BD-D4E5D4E930BC'
+Description: .
+ms.assetid: 87331C1D-F468-4CA4-92BD-D4E5D4E930BC
 title: Security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security

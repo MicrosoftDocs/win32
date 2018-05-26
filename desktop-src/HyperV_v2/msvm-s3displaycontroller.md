@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the state of the emulated S3 controller that is present in each virtual machine configuration.'
-ms.assetid: '194E0195-1AFF-4298-8000-2249495818C2'
-title: 'Msvm\_S3DisplayController class'
+Description: Represents the state of the emulated S3 controller that is present in each virtual machine configuration.
+ms.assetid: 194E0195-1AFF-4298-8000-2249495818C2
+title: Msvm\_S3DisplayController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_S3DisplayController class
@@ -11,7 +16,7 @@ Represents the state of the emulated S3 controller that is present in each virtu
 > [!Note]  
 > This class only applies to generation 1 virtual machines.
 
- 
+ 
 
 The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.
 
@@ -21,57 +26,57 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_S3DisplayController : CIM_DisplayController
 {
-  string   InstanceID;
-  string   Caption = "Display Controller";
-  string   Description = "Microsoft Emulated Display Controller";
-  string   ElementName = "Display Controller";
+  string   InstanceID;
+  string   Caption = "Display Controller";
+  string   Description = "Microsoft Emulated Display Controller";
+  string   ElementName = "Display Controller";
   datetime InstallDate;
-  string   Name = "Display Controller";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   EnabledState = 3;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "Display Controller";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   EnabledState = 3;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  uint16   CreationClassName = "Msvm_S3DisplayController";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability = 6;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = {6};
-  uint64   MaxQuiesceTime;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  uint16   CreationClassName = "Msvm_S3DisplayController";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = {6};
+  uint64   MaxQuiesceTime;
   datetime TimeOfLastReset;
-  uint16   ProtocolSupported = 1;
-  uint32   MaxNumberControlled = 1;
-  string   ProtocolDescription = "Video";
-  string   VideoProcessor = "Virtual S3 Video Processor";
-  uint16   VideoMemoryType = 2;
-  string   OtherVideoMemoryType;
-  uint32   NumberOfVideoPages = 32768;
-  uint32   MaxMemorySupported = 134217728;
-  uint16   AcceleratorCapabilities[] = { 2 };
-  string   CapabilityDescriptions[] = { "Graphics Accelerator" };
-  string   OtherVideoArchitecture;
-  uint16   VideoArchitecture;
+  uint16   ProtocolSupported = 1;
+  uint32   MaxNumberControlled = 1;
+  string   ProtocolDescription = "Video";
+  string   VideoProcessor = "Virtual S3 Video Processor";
+  uint16   VideoMemoryType = 2;
+  string   OtherVideoMemoryType;
+  uint32   NumberOfVideoPages = 32768;
+  uint32   MaxMemorySupported = 134217728;
+  uint16   AcceleratorCapabilities[] = { 2 };
+  string   CapabilityDescriptions[] = { "Graphics Accelerator" };
+  string   OtherVideoArchitecture;
+  uint16   VideoArchitecture;
 };
 ```
 
@@ -101,7 +106,7 @@ The **Msvm\_S3DisplayController** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -154,7 +159,7 @@ The primary availability and status of the device. This property is inherited fr
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -344,7 +349,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -368,7 +373,7 @@ The enabled and disabled states of an element. It can also indicate the transiti
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -417,7 +422,7 @@ The current health of the element. This attribute expresses the health of this e
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -795,7 +800,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1012,8 +1017,8 @@ Access to the **Msvm\_S3DisplayController** class might be restricted by UAC Fil
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1033,9 +1038,9 @@ Access to the **Msvm\_S3DisplayController** class might be restricted by UAC Fil
 [Video Classes](video-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

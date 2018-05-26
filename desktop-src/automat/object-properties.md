@@ -1,7 +1,12 @@
 ---
 title: Object Properties
 description: Describes the properties that must be provided by all objects and collections.
-ms.assetid: '592dd7dc-c45f-4827-8e08-039756d0efd5'
+ms.assetid: 592dd7dc-c45f-4827-8e08-039756d0efd5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Properties

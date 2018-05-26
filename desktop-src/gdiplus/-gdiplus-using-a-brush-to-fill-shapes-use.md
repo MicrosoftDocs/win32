@@ -1,12 +1,17 @@
 ---
-Description: 'A Windows GDI+Brush object is used to fill the interior of a closed shape. GDI+ defines several fill styles: solid color, hatch pattern, image texture, and color gradient.'
-ms.assetid: '8ccf2c4a-6f99-465f-8adf-0f7fcd002f79'
+Description: A Windows GDI+Brush object is used to fill the interior of a closed shape. GDI+ defines several fill styles solid color, hatch pattern, image texture, and color gradient.
+ms.assetid: 8ccf2c4a-6f99-465f-8adf-0f7fcd002f79
 title: Using a Brush to Fill Shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Brush to Fill Shapes
 
-A Windows GDI+[**Brush**](-gdiplus-class-brush-class.md) object is used to fill the interior of a closed shape. GDI+ defines several fill styles: solid color, hatch pattern, image texture, and color gradient.
+A Windows GDI+[**Brush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-brush?branch=master) object is used to fill the interior of a closed shape. GDI+ defines several fill styles: solid color, hatch pattern, image texture, and color gradient.
 
 The following topics cover the use of brushes in more detail:
 

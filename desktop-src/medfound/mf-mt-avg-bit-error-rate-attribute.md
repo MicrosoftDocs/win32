@@ -1,7 +1,12 @@
-﻿---
-Description: 'Data error rate, in bit errors per second, for a video media type.'
-ms.assetid: '90433ff4-a563-4751-86d9-caac0cc58194'
-title: 'MF\_MT\_AVG\_BIT\_ERROR\_RATE attribute'
+---
+Description: Data error rate, in bit errors per second, for a video media type.
+ms.assetid: 90433ff4-a563-4751-86d9-caac0cc58194
+title: MF\_MT\_AVG\_BIT\_ERROR\_RATE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_AVG\_BIT\_ERROR\_RATE attribute
@@ -37,13 +42,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

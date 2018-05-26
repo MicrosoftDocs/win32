@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the CLSID of a post-processing plug-in for a video capture device.'
-ms.assetid: '8F626FAA-C7B8-4DBA-BD65-7CE97CBF3A86'
-title: 'MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CLSID attribute'
+---
+Description: Specifies the CLSID of a post-processing plug-in for a video capture device.
+ms.assetid: 8F626FAA-C7B8-4DBA-BD65-7CE97CBF3A86
+title: MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CLSID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CLSID attribute
@@ -18,9 +23,9 @@ A post-processing plug-in is an MFT that processes the video image after it is c
 
 To get this attribute, do the following:
 
-1.  Query the media source for the [**IMFMediaSourceEx**](imfmediasourceex.md) interface.
-2.  Call [**IMFMediaSourceEx::GetStreamAttributes**](imfmediasourceex-getstreamattributes.md) to get an [**IMFAttributes**](imfattributes.md) pointer for the stream.
-3.  Call [**IMFAttributes::GetGUID**](imfattributes-getguid.md) to get the attribute.
+1.  Query the media source for the [**IMFMediaSourceEx**](/windows/win32/mfidl/nn-mfidl-imfmediasourceex?branch=master) interface.
+2.  Call [**IMFMediaSourceEx::GetStreamAttributes**](/windows/win32/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes?branch=master) to get an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer for the stream.
+3.  Call [**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master) to get the attribute.
 
 To create the plug-in, call [**CoCreateInstance**](com.cocreateinstance).
 

@@ -4,13 +4,16 @@ description: Updates the ElementName property of a CIM\_CollectionOfMSEs object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2c3bf767-c97b-4eec-8321-8265159b493c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2c3bf767-c97b-4eec-8321-8265159b493c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RenameCollection method", "RenameCollection method, Msvm_CollectionManagementService class", "Msvm_CollectionManagementService class, RenameCollection method"]
+keywords:
+- RenameCollection method
+- RenameCollection method, Msvm_CollectionManagementService class
+- Msvm_CollectionManagementService class, RenameCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RenameCollection method of the Msvm\_CollectionManagementService class
@@ -30,9 +36,9 @@ Updates the **ElementName** property of a [**CIM\_CollectionOfMSEs**](cim-collec
 
 ```mof
 uint32 RenameCollection(
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [in]  string                   NewName,
-  [out] CIM_ConcreteJob      REF Job
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [in]  string                   NewName,
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -118,7 +124,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -132,9 +138,9 @@ The possible return values are:
 [**Msvm\_CollectionManagementService**](msvm-collectionmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

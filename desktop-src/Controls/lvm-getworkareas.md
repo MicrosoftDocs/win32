@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETWORKAREAS message
 description: Retrieves the working areas from a list-view control. You can send this message explicitly or use the ListView\_GetWorkAreas macro.
-ms.assetid: '956368d9-bbb4-414a-ba17-0e8e4f0f1a45'
-keywords: ["LVM_GETWORKAREAS message Windows Controls"]
+ms.assetid: 956368d9-bbb4-414a-ba17-0e8e4f0f1a45
+keywords:
+- LVM_GETWORKAREAS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETWORKAREAS message
 
-Retrieves the working areas from a list-view control. You can send this message explicitly or use the [**ListView\_GetWorkAreas**](listview-getworkareas.md) macro.
+Retrieves the working areas from a list-view control. You can send this message explicitly or use the [**ListView\_GetWorkAreas**](/windows/win32/Commctrl/nf-commctrl-listview_getworkareas?branch=master) macro.
 
 ## Parameters
 
@@ -45,8 +51,8 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The return value for this message is not used.
 [Using List-View Controls](using-list-view-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

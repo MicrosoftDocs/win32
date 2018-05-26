@@ -1,7 +1,12 @@
 ---
-Description: 'The ADDRESSTABLE structure contains a table of address pairs.'
-ms.assetid: '84577b6c-9d43-4e53-9f8d-33685329b11d'
+Description: The ADDRESSTABLE structure contains a table of address pairs.
+ms.assetid: 84577b6c-9d43-4e53-9f8d-33685329b11d
 title: ADDRESSTABLE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADDRESSTABLE structure
@@ -13,8 +18,8 @@ The **ADDRESSTABLE** structure contains a table of address pairs.
 
 ```C++
 typedef struct _ADDRESSTABLE {
-  DWORD       nAddressPairs;
-  DWORD       nNonMacAddressPairs;
+  DWORD       nAddressPairs;
+  DWORD       nNonMacAddressPairs;
   ADDRESSPAIR AddressPair[MAX_ADDRESS_PAIRS];
 } ADDRESSTABLE, *LPADDRESSTABLE;
 ```
@@ -56,8 +61,8 @@ Use this structure as part of the capture filter construction process. For more 
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -72,9 +77,9 @@ Use this structure as part of the capture filter construction process. For more 
 [CAPTUREFILTER](capturefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

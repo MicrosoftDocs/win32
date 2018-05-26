@@ -1,14 +1,20 @@
 ---
 title: LOCALHEADER structure
 description: Contains the x- and y-coordinates of a hotspot associated with the cursor identified by a RESDIR structure. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '8cf74040-8b8f-447e-a881-1bcf05b151e2'
-keywords: ["LOCALHEADER structure Menus and Other Resources"]
+ms.assetid: 8cf74040-8b8f-447e-a881-1bcf05b151e2
+keywords:
+- LOCALHEADER structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - LOCALHEADER
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALHEADER structure
@@ -63,8 +69,8 @@ The **LOCALHEADER** structure is the first data written to the [RT\_CURSOR](http
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -87,9 +93,9 @@ The **LOCALHEADER** structure is the first data written to the [RT\_CURSOR](http
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

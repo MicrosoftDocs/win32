@@ -4,10 +4,13 @@ description: The following topics provide a glossary of technical terms used in 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b94025e5-d74e-496d-923f-b649911e23b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: b94025e5-d74e-496d-923f-b649911e23b1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Glossary

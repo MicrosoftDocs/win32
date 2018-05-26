@@ -1,12 +1,17 @@
 ---
 title: Device Collections Returned By Synchronous Searches
 description: Device collections are objects that contain one or more Device objects. A Device collection exposes the IUPnPDevices interface that provides methods and properties for traversing the collection and extracting individual device objects.
-ms.assetid: '45455c3f-7281-4f96-a609-2efd2cf36aa2'
+ms.assetid: 45455c3f-7281-4f96-a609-2efd2cf36aa2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Collections Returned By Synchronous Searches
 
-Device collections are objects that contain one or more Device objects. A Device collection exposes the [**IUPnPDevices**](iupnpdevices.md) interface that provides methods and properties for traversing the collection and extracting individual device objects.
+Device collections are objects that contain one or more Device objects. A Device collection exposes the [**IUPnPDevices**](/windows/win32/Upnp/nn-upnp-iupnpdevices?branch=master) interface that provides methods and properties for traversing the collection and extracting individual device objects.
 
 ## VBScript Example
 
@@ -25,7 +30,7 @@ In this example, the devices variable is assumed to have been initialized with t
 
 ## C++ Example
 
-The following example shows the C++ code required to access the objects in a collection of device objects. The function shown, **TraverseCollection**, receives a pointer to the [**IUPnPDevices**](iupnpdevices.md) interface as an input parameter. This interface pointer could be returned by the [**FindByType**](iupnpdevicefinder-findbytype.md) method, or other **Find** methods, of the Device Finder object.
+The following example shows the C++ code required to access the objects in a collection of device objects. The function shown, **TraverseCollection**, receives a pointer to the [**IUPnPDevices**](/windows/win32/Upnp/nn-upnp-iupnpdevices?branch=master) interface as an input parameter. This interface pointer could be returned by the [**FindByType**](/windows/win32/Upnp/nf-upnp-iupnpdevicefinder-findbytype?branch=master) method, or other **Find** methods, of the Device Finder object.
 
 
 ```C++
@@ -75,7 +80,7 @@ HRESULT TraverseCollection(IUPnPDevices * pDevices)
 
 
 
-The first step is to request a new enumerator for the collection using the [**\_NewEnum**](iupnpdevices--newenum.md) property. This returns an enumerator as the [**IUnknown**](_com_iunknown) interface. The sample code invokes [**IUnknown::QueryInterface**](_com_iunknown_queryinterface) to obtain the [**IEnumVARIANT**](139e3c93-faef-4003-9079-e0e94494db3e) interface. The sample code then sets the enumerator to the beginning of the collection by invoking the [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd) method. Finally, the sample code invokes the [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59) method to traverse the collection. The device objects in the collection are contained within **VARIANT** structures. These structures contain pointers to [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interfaces on the device objects. To obtain the [**IUPnPDevice**](iupnpdevice.md) interface, the sample code invokes **QueryInterface** on the **IDispatch** interface.
+The first step is to request a new enumerator for the collection using the [**\_NewEnum**](/windows/win32/Upnp/?branch=master) property. This returns an enumerator as the [**IUnknown**](_com_iunknown) interface. The sample code invokes [**IUnknown::QueryInterface**](_com_iunknown_queryinterface) to obtain the [**IEnumVARIANT**](139e3c93-faef-4003-9079-e0e94494db3e) interface. The sample code then sets the enumerator to the beginning of the collection by invoking the [**IEnumVARIANT::Reset**](0c3f0cd7-6bad-4cb7-8b84-d8a212dbadbd) method. Finally, the sample code invokes the [**IEnumVARIANT::Next**](691c1624-8d01-41e0-890e-a4782eba1f59) method to traverse the collection. The device objects in the collection are contained within **VARIANT** structures. These structures contain pointers to [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interfaces on the device objects. To obtain the [**IUPnPDevice**](/windows/win32/Upnp/nn-upnp-iupnpdevice?branch=master) interface, the sample code invokes **QueryInterface** on the **IDispatch** interface.
 
  
 

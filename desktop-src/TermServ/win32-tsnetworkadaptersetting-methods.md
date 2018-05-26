@@ -4,10 +4,13 @@ description: The Win32\_TSNetworkAdapterSetting class exposes the following meth
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2BA281FC-3FAA-4FCE-B0F5-AAF744082651'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 2BA281FC-3FAA-4FCE-B0F5-AAF744082651
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSNetworkAdapterSetting Methods

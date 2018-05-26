@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '33af6310-3915-4d59-a0e7-676c6720451c'
-title: 'System.Contact.ConnectedServiceName'
+Description: .
+ms.assetid: 33af6310-3915-4d59-a0e7-676c6720451c
+title: System.Contact.ConnectedServiceName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.ConnectedServiceName

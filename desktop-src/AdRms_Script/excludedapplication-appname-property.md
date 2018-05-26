@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the name of the excluded application.'
+Description: Specifies or retrieves the name of the excluded application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'c54e8d7d-d710-495d-9948-5dcc068b7579'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: c54e8d7d-d710-495d-9948-5dcc068b7579
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExcludedApplication.AppName property'
+title: ExcludedApplication.AppName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExcludedApplication.AppName property
@@ -135,7 +138,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -147,9 +150,9 @@ END SUB
 [**ExcludedApplication**](excludedapplication-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

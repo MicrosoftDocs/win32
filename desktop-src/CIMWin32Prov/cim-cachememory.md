@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_CacheMemory class defines the capabilities and management of cache memory.'
+Description: The CIM\_CacheMemory class defines the capabilities and management of cache memory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cdf35122-2057-45fa-818b-ce542d8e82b0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cdf35122-2057-45fa-818b-ce542d8e82b0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_CacheMemory class'
+title: CIM\_CacheMemory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_CacheMemory class
@@ -21,12 +24,12 @@ Cache memory is the dedicated or allocated RAM where a processor first searches 
 > [!Note]  
 > Cache memory is not an operating-system or application-level buffer; it is RAM that has been allocated for caching processor data.
 
- 
+ 
 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -36,52 +39,52 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B65-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_CacheMemory : CIM_Memory
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint16   Availability;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   DeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint32   LastErrorCode;
-  string   PNPDeviceID;
-  boolean  PowerManagementSupported;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   Access;
-  uint64   BlockSize;
-  uint64   NumberOfBlocks;
-  string   Purpose;
-  string   ErrorMethodology;
-  uint8    AdditionalErrorData[];
-  boolean  CorrectableError;
-  uint64   EndingAddress;
-  uint16   ErrorAccess;
-  uint64   ErrorAddress;
-  uint8    ErrorData[];
-  uint16   ErrorDataOrder;
-  uint16   ErrorInfo;
-  uint64   ErrorResolution;
+  string   Name;
+  string   Status;
+  uint16   Availability;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   DeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint32   LastErrorCode;
+  string   PNPDeviceID;
+  boolean  PowerManagementSupported;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   Access;
+  uint64   BlockSize;
+  uint64   NumberOfBlocks;
+  string   Purpose;
+  string   ErrorMethodology;
+  uint8    AdditionalErrorData[];
+  boolean  CorrectableError;
+  uint64   EndingAddress;
+  uint16   ErrorAccess;
+  uint64   ErrorAddress;
+  uint8    ErrorData[];
+  uint16   ErrorDataOrder;
+  uint16   ErrorInfo;
+  uint64   ErrorResolution;
   datetime ErrorTime;
-  uint32   ErrorTransferSize;
-  string   OtherErrorDescription;
-  uint64   StartingAddress;
-  boolean  SystemLevelAddress;
-  uint16   Associativity;
-  uint16   CacheType;
-  uint32   FlushTimer;
-  uint16   Level;
-  uint32   LineSize;
-  uint16   ReadPolicy;
-  uint16   ReplacementPolicy;
-  uint16   WritePolicy;
+  uint32   ErrorTransferSize;
+  string   OtherErrorDescription;
+  uint64   StartingAddress;
+  boolean  SystemLevelAddress;
+  uint16   Associativity;
+  uint16   CacheType;
+  uint32   FlushTimer;
+  uint16   Level;
+  uint32   LineSize;
+  uint16   ReadPolicy;
+  uint16   ReplacementPolicy;
+  uint16   WritePolicy;
 };
 ```
 
@@ -105,7 +108,7 @@ The **CIM\_CacheMemory** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -2203,8 +2206,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -2218,9 +2221,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Memory**](cim-memory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

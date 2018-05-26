@@ -1,8 +1,17 @@
 ---
 title: Marquee
 description: Marquee
-ms.assetid: '2715732a-25cc-4ba9-9aa6-181ebb9e1d1c'
-keywords: ["Windows Media Player Mobile skins,marquees", "skins,marquees", "reference for skins,marquees", "marquees in skins,about"]
+ms.assetid: 2715732a-25cc-4ba9-9aa6-181ebb9e1d1c
+keywords:
+- Windows Media Player Mobile skins,marquees
+- skins,marquees
+- reference for skins,marquees
+- marquees in skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marquee

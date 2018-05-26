@@ -1,7 +1,12 @@
 ---
 title: Callback Connections
 description: RAS supports connections in which the remote server hangs up and then calls back to the client to establish the connection.
-ms.assetid: '25f0e84d-8900-4efe-b07d-59f25186c976'
+ms.assetid: 25f0e84d-8900-4efe-b07d-59f25186c976
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Callback Connections
@@ -14,18 +19,18 @@ For a user assigned the Preset restriction, the administrator specifies a phone 
 
 A Preset callback operation is handled automatically by the Remote Access Connection Manager and the remote server. The RAS client application does not need to do anything other than provide feedback to the user when the notification handler is called during the various states of the callback operation.
 
-A user assigned the Set By Caller privilege can choose to connect either with or without a callback. The [**RasDial**](rasdial.md) call uses the **szCallbackNumber** member of the [**RASDIALPARAMS**](rasdialparams-str.md) structure to indicate the choice.
+A user assigned the Set By Caller privilege can choose to connect either with or without a callback. The [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) call uses the **szCallbackNumber** member of the [**RASDIALPARAMS**](/windows/win32/Ras/?branch=master) structure to indicate the choice.
 
 The **szCallbackNumber** member can simply specify the callback number; or, to establish the connection without a callback, **szCallbackNumber** can point to an empty string, "". In either of these cases, the Remote Access Connection Manager handles the connection operation automatically. As with a Preset callback operation, the RAS client does not need to perform any action other than to provide feedback to the user.
 
-If the [**RasDial**](rasdial.md) call enables [paused states](paused-states.md), **szCallbackNumber** can point to an asterisk string, "\*", to indicate that the connection operation should enter a paused state to allow the user to type in the callback number. In this case, the connection operation for a Set By Caller user enters a paused state after the remote server has authenticated the user. During the paused state, the RAS client gets the callback number input from the user. The client then resumes the connection operation by making a second **RasDial** call in which **szCallbackNumber** specifies the number supplied by the user.
+If the [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) call enables [paused states](paused-states.md), **szCallbackNumber** can point to an asterisk string, "\*", to indicate that the connection operation should enter a paused state to allow the user to type in the callback number. In this case, the connection operation for a Set By Caller user enters a paused state after the remote server has authenticated the user. During the paused state, the RAS client gets the callback number input from the user. The client then resumes the connection operation by making a second **RasDial** call in which **szCallbackNumber** specifies the number supplied by the user.
 
 > [!Note]  
-> If paused states are not enabled there is a different meaning when **szCallbackNumber** points to an asterisk string, "\*". In this case, the asterisk indicates that the callback number is stored in the phone-book file specified by the [**RasDial**](rasdial.md) call.
+> If paused states are not enabled there is a different meaning when **szCallbackNumber** points to an asterisk string, "\*". In this case, the asterisk indicates that the callback number is stored in the phone-book file specified by the [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) call.
 
  
 
-In the event of a callback, the call to [**RasDial**](rasdial.md) does not return until after the server has called back the client.
+In the event of a callback, the call to [**RasDial**](/windows/win32/Ras/nf-ras-rasdiala?branch=master) does not return until after the server has called back the client.
 
  
 

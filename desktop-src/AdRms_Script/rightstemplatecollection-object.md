@@ -1,13 +1,16 @@
 ---
-Description: 'Can be used to manage a collection of RightsTemplate objects that represent individual rights policy templates.'
+Description: Can be used to manage a collection of RightsTemplate objects that represent individual rights policy templates.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '207ad6a5-7cd6-49e0-845d-2caddf20de0f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 207ad6a5-7cd6-49e0-845d-2caddf20de0f
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: RightsTemplateCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # RightsTemplateCollection object
@@ -44,7 +47,7 @@ The **RightsTemplateCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -59,7 +62,7 @@ The **RightsTemplateCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -228,7 +231,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -240,9 +243,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

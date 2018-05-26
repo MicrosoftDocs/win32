@@ -4,11 +4,16 @@ description: The OnSelectionChange event occurs when the result item selection f
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4086476b-d53a-40e9-bb5d-585555cd27d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4086476b-d53a-40e9-bb5d-585555cd27d1
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["OnSelectionChange event MMC", "OnSelectionChange event MMC , Application object", "Application object MMC , OnSelectionChange event", "OnSelectionChange event MMC , AppEvents interface", "AppEvents interface MMC , OnSelectionChange event"]
+keywords:
+- OnSelectionChange event MMC
+- OnSelectionChange event MMC , Application object
+- Application object MMC , OnSelectionChange event
+- OnSelectionChange event MMC , AppEvents interface
+- AppEvents interface MMC , OnSelectionChange event
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - MmcNdMgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AppEvents::OnSelectionChange event
@@ -78,8 +86,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MmcNdMgr.dll</dt> </dl> |
@@ -88,9 +96,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthValidationRequest GetSoHResponse method
 description: Retrieves the SoHResponse.
-ms.assetid: '7db9d134-5cd4-4a6c-8576-843b9a920864'
-keywords: ["GetSoHResponse method NAP", "GetSoHResponse method NAP , INapSystemHealthValidationRequest interface", "INapSystemHealthValidationRequest interface NAP , GetSoHResponse method"]
+ms.assetid: 7db9d134-5cd4-4a6c-8576-843b9a920864
+keywords:
+- GetSoHResponse method NAP
+- GetSoHResponse method NAP , INapSystemHealthValidationRequest interface
+- INapSystemHealthValidationRequest interface NAP , GetSoHResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,23 +14,28 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthValidationRequest::GetSoHResponse method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **INapSystemHealthValidationRequest::GetSoHResponse** method retrieves the [**SoHResponse**](soh-struct.md).
+The **INapSystemHealthValidationRequest::GetSoHResponse** method retrieves the [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master).
 
 ## Syntax
 
 
 ```C++
 HRESULT GetSoHResponse(
-  [out] SoHResponse **sohResponse
+  [out] SoHResponse **sohResponse
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetSoHResponse(
 *sohResponse* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to the received [**SoHResponse**](soh-struct.md).
+A pointer to a pointer to the received [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master).
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +75,7 @@ Other COM-specific error codes also may be returned.
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>NapSystemHealthValidator.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthValidator.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapSystemHealthValidationRequest**](inapsystemhealthvalidationrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

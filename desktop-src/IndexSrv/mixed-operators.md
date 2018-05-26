@@ -1,7 +1,12 @@
 ---
 title: Mixed Operators
 description: Mixed Operators
-ms.assetid: 'b47a1d61-d941-4956-8d20-f3e420cd0e8f'
+ms.assetid: b47a1d61-d941-4956-8d20-f3e420cd0e8f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mixed Operators

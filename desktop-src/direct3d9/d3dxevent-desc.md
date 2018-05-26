@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes an animation event.'
-ms.assetid: 'ddcdd143-bcbd-450c-a4df-914797a562e6'
-title: 'D3DXEVENT\_DESC structure'
+---
+Description: Describes an animation event.
+ms.assetid: ddcdd143-bcbd-450c-a4df-914797a562e6
+title: D3DXEVENT\_DESC structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXEVENT\_DESC structure

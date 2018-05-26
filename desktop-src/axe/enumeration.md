@@ -1,14 +1,20 @@
 ---
 title: Enumeration element
 description: Describes an enumeration.
-ms.assetid: '29235302-74F9-47D9-A465-090921948BB1'
-keywords: ["Enumeration element Access Execution Engine"]
+ms.assetid: 29235302-74F9-47D9-A465-090921948BB1
+keywords:
+- Enumeration element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Enumeration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumeration element
@@ -88,9 +94,9 @@ This node describes an enumeration as follows.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

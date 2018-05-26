@@ -1,7 +1,12 @@
 ---
-Description: 'After initialization, a SOCKET object must be instantiated for use by the client.'
-ms.assetid: '088a79ef-b430-4860-8edc-902a1a03ed0d'
+Description: After initialization, a SOCKET object must be instantiated for use by the client.
+ms.assetid: 088a79ef-b430-4860-8edc-902a1a03ed0d
 title: Creating a Socket for the Client
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Socket for the Client
@@ -10,7 +15,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
 
 **To create a socket**
 
-1.  Declare an [**addrinfo**](addrinfo-2.md) object that contains a [**sockaddr**](sockaddr-2.md) structure and initialize these values. For this application, the Internet address family is unspecified so that either an IPv6 or IPv4 address can be returned. The application requests the socket type to be a stream socket for the TCP protocol.
+1.  Declare an [**addrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-freeaddrinfo?branch=master) object that contains a [**sockaddr**](sockaddr-2.md) structure and initialize these values. For this application, the Internet address family is unspecified so that either an IPv6 or IPv4 address can be returned. The application requests the socket type to be a stream socket for the TCP protocol.
     ```C++
     struct addrinfo *result = NULL,
                     *ptr = NULL,
@@ -24,7 +29,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
 
     
 
-2.  Call the [**getaddrinfo**](getaddrinfo-2.md) function requesting the IP address for the server name passed on the command line. The TCP port on the server that the client will connect to is defined by DEFAULT\_PORT as 27015 in this sample. The **getaddrinfo** function returns its value as an integer that is checked for errors.
+2.  Call the [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) function requesting the IP address for the server name passed on the command line. The TCP port on the server that the client will connect to is defined by DEFAULT\_PORT as 27015 in this sample. The **getaddrinfo** function returns its value as an integer that is checked for errors.
     ```C++
     #define DEFAULT_PORT "27015"
 
@@ -46,7 +51,7 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
 
     
 
-4.  Call the [**socket**](socket-2.md) function and return its value to the ConnectSocket variable. For this application, use the first IP address returned by the call to [**getaddrinfo**](getaddrinfo-2.md) that matched the address family, socket type, and protocol specified in the *hints* parameter. In this example, a TCP stream socket was specified with a socket type of SOCK\_STREAM and a protocol of IPPROTO\_TCP. The address family was left unspecified (AF\_UNSPEC), so the returned IP address could be either an IPv6 or IPv4 address for the server.
+4.  Call the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) function and return its value to the ConnectSocket variable. For this application, use the first IP address returned by the call to [**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) that matched the address family, socket type, and protocol specified in the *hints* parameter. In this example, a TCP stream socket was specified with a socket type of SOCK\_STREAM and a protocol of IPPROTO\_TCP. The address family was left unspecified (AF\_UNSPEC), so the returned IP address could be either an IPv6 or IPv4 address for the server.
 
     If the client application wants to connect using only IPv6 or IPv4, then the address family needs to be set to AF\_INET6 for IPv6 or AF\_INET for IPv4 in the *hints* parameter.
 
@@ -74,16 +79,16 @@ After initialization, a **SOCKET** object must be instantiated for use by the cl
 
     
 
-The parameters passed to the [**socket**](socket-2.md) function can be changed for different implementations.
+The parameters passed to the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) function can be changed for different implementations.
 
-Error detection is a key part of successful networking code. If the [**socket**](socket-2.md) call fails, it returns INVALID\_SOCKET. The **if** statement in the previous code is used to catch any errors that may have occurred while creating the socket. [**WSAGetLastError**](wsagetlasterror-2.md) returns an error number associated with the last error that occurred.
+Error detection is a key part of successful networking code. If the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) call fails, it returns INVALID\_SOCKET. The **if** statement in the previous code is used to catch any errors that may have occurred while creating the socket. [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master) returns an error number associated with the last error that occurred.
 
 > [!Note]  
 > More extensive error checking may be necessary depending on the application.
 
  
 
-[**WSACleanup**](wsacleanup-2.md) is used to terminate the use of the WS2\_32 DLL.
+[**WSACleanup**](/windows/win32/winsock/nf-winsock-wsacleanup?branch=master) is used to terminate the use of the WS2\_32 DLL.
 
 Next Step: [Connecting to a Socket](connecting-to-a-socket.md)
 

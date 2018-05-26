@@ -1,7 +1,12 @@
 ---
 title: RecComp Object
 description: RecComp Object
-ms.assetid: '4f7fcdee-f6e2-4288-a11c-f0076858be67'
+ms.assetid: 4f7fcdee-f6e2-4288-a11c-f0076858be67
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecComp Object
@@ -15,7 +20,7 @@ The **RecComp** object creates new content recordings by concatenating existing 
 |           |                                                      |
 |-----------|------------------------------------------------------|
 | CLSID     | CLSID\_StreamBufferComposeRecording                  |
-| Interface | [**IStreamBufferRecComp**](istreambufferreccomp.md) |
+| Interface | [**IStreamBufferRecComp**](/windows/previous-versions/Sbe/nn-sbe-istreambufferreccomp?branch=master) |
 
 
 

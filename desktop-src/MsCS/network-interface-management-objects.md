@@ -4,11 +4,16 @@ description: Support operations on individual network interfaces.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '285511f8-5827-4c66-9696-eca44a058ab4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 285511f8-5827-4c66-9696-eca44a058ab4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["network interface management objects Failover Cluster", "network interfaces Failover Cluster ,management objects"]
+keywords:
+- network interface management objects Failover Cluster
+- network interfaces Failover Cluster ,management objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Interface Management Objects

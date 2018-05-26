@@ -1,7 +1,12 @@
 ---
 title: Distribute Help over a Extranet
 description: Help topics distributed over an extranet are usually accessed by users who first visit a World Wide Web site, and then gain access to an extranet so they can use the consumer services being offered.
-ms.assetid: 'CE6D1662-55A8-4eb8-A1D7-330E4162F327'
+ms.assetid: CE6D1662-55A8-4eb8-A1D7-330E4162F327
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distribute Help over a Extranet

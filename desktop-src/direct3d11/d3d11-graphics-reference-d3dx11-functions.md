@@ -1,8 +1,14 @@
 ---
 title: D3DX Functions
 description: This section contains information about the D3DX 11 functions.
-ms.assetid: '7548c02e-c8c2-4629-95ac-d21ca7a39f0a'
-keywords: ["functions, DirectX 11 D3DX"]
+ms.assetid: 7548c02e-c8c2-4629-95ac-d21ca7a39f0a
+keywords:
+- functions, DirectX 11 D3DX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX Functions
@@ -10,9 +16,9 @@ keywords: ["functions, DirectX 11 D3DX"]
 This section contains information about the D3DX 11 functions.
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 ## 
 
@@ -36,7 +42,7 @@ This section contains information about the D3DX 11 functions.
 <td>[<strong>D3DX11CompileFromFile</strong>](d3dx11compilefromfile.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -49,7 +55,7 @@ Instead of using this function, we recommend that you compile offline by using t
 <td>[<strong>D3DX11CompileFromMemory</strong>](d3dx11compilefrommemory.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -62,7 +68,7 @@ Instead of using this function, we recommend that you compile offline by using t
 <td>[<strong>D3DX11CompileFromResource</strong>](d3dx11compilefromresource.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -75,7 +81,7 @@ Instead of using this function, we recommend that you use [resource functions](h
 <td>[<strong>D3DX11ComputeNormalMap</strong>](d3dx11computenormalmap.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -88,7 +94,7 @@ Instead of using this function, we recommend that you use the [DirectXTex](http:
 <td>[<strong>D3DX11CreateAsyncCompilerProcessor</strong>](d3dx11createasynccompilerprocessor.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create an asynchronous-data processor for a shader.<br/></td>
 </tr>
@@ -96,7 +102,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateAsyncFileLoader</strong>](d3dx11createasyncfileloader.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create an asynchronous-file loader.<br/></td>
 </tr>
@@ -104,7 +110,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateAsyncMemoryLoader</strong>](d3dx11createasyncmemoryloader.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create an asynchronous-memory loader.<br/></td>
 </tr>
@@ -112,7 +118,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateAsyncResourceLoader</strong>](d3dx11createasyncresourceloader.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create an asynchronous-resource loader.<br/></td>
 </tr>
@@ -120,7 +126,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateAsyncShaderPreprocessProcessor</strong>](d3dx11createasyncshaderpreprocessprocessor.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create a data processor for a shader asynchronously.<br/></td>
 </tr>
@@ -128,7 +134,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateAsyncTextureInfoProcessor</strong>](d3dx11createasynctextureinfoprocessor.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create a data processor to be used with a [<strong>thread pump</strong>](id3dx11threadpump.md).<br/></td>
 </tr>
@@ -136,7 +142,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateAsyncTextureProcessor</strong>](d3dx11createasynctextureprocessor.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create a data processor to be used with a [<strong>thread pump</strong>](id3dx11threadpump.md).<br/></td>
 </tr>
@@ -144,7 +150,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateAsyncShaderResourceViewProcessor</strong>](d3dx11createasyncshaderresourceviewprocessor.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX11 that uses [<strong>thread pumps</strong>](id3dx11threadpump.md).<br/></td>
 </tr>
@@ -152,7 +158,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11CreateShaderResourceViewFromFile</strong>](d3dx11createshaderresourceviewfromfile.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -169,7 +175,7 @@ Instead of using this function, we recommend that you use these:</p>
 <td>[<strong>D3DX11CreateShaderResourceViewFromMemory</strong>](d3dx11createshaderresourceviewfrommemory.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -186,7 +192,7 @@ Instead of using this function, we recommend that you use these:</p>
 <td>[<strong>D3DX11CreateShaderResourceViewFromResource</strong>](d3dx11createshaderresourceviewfromresource.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -203,7 +209,7 @@ Instead of using this function, we recommend that you use [resource functions](h
 <td>[<strong>D3DX11CreateTextureFromFile</strong>](d3dx11createtexturefromfile.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -220,7 +226,7 @@ Instead of using this function, we recommend that you use these:</p>
 <td>[<strong>D3DX11CreateTextureFromMemory</strong>](d3dx11createtexturefrommemory.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -237,7 +243,7 @@ Instead of using this function, we recommend that you use these:</p>
 <td>[<strong>D3DX11CreateTextureFromResource</strong>](d3dx11createtexturefromresource.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -254,7 +260,7 @@ Instead of using this function, we recommend that you use [resource functions](h
 <td>[<strong>D3DX11CreateThreadPump</strong>](d3dx11createthreadpump.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 </blockquote>
 <br/> Create a thread pump.<br/></td>
 </tr>
@@ -262,7 +268,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td>[<strong>D3DX11FilterTexture</strong>](d3dx11filtertexture.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -275,7 +281,7 @@ Instead of using this function, we recommend that you use the [DirectXTex](http:
 <td>[<strong>D3DX11GetImageInfoFromFile</strong>](d3dx11getimageinfofromfile.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -288,7 +294,7 @@ Instead of using this function, we recommend that you use the [DirectXTex](http:
 <td>[<strong>D3DX11GetImageInfoFromMemory</strong>](d3dx11getimageinfofrommemory.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -301,7 +307,7 @@ Instead of using this function, we recommend that you use the [DirectXTex](http:
 <td>[<strong>D3DX11GetImageInfoFromResource</strong>](d3dx11getimageinfofromresource.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -314,7 +320,7 @@ Instead of using this function, we recommend that you use [resource functions](h
 <td>[<strong>D3DX11LoadTextureFromTexture</strong>](d3dx11loadtexturefromtexture.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -327,7 +333,7 @@ Instead of using this function, we recommend that you use the [DirectXTex](http:
 <td>[<strong>D3DX11PreprocessShaderFromFile</strong>](d3dx11preprocessshaderfromfile.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -340,7 +346,7 @@ Instead of using this function, we recommend that you use the [<strong>D3DPrepro
 <td>[<strong>D3DX11PreprocessShaderFromMemory</strong>](d3dx11preprocessshaderfrommemory.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -353,7 +359,7 @@ Instead of using this function, we recommend that you use the [<strong>D3DPrepro
 <td>[<strong>D3DX11PreprocessShaderFromResource</strong>](d3dx11preprocessshaderfromresource.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -366,7 +372,7 @@ Instead of using this function, we recommend that you use the [<strong>D3DPrepro
 <td>[<strong>D3DX11SaveTextureToFile</strong>](d3dx11savetexturetofile.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -379,7 +385,7 @@ Instead of using this function, we recommend that you use the [DirectXTex](http:
 <td>[<strong>D3DX11SaveTextureToMemory</strong>](d3dx11savetexturetomemory.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -392,7 +398,7 @@ Instead of using this function, we recommend that you use the [DirectXTex](http:
 <td>[<strong>D3DX11SHProjectCubeMap</strong>](d3dx11shprojectcubemap.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
@@ -405,12 +411,12 @@ Instead of using this function, we recommend that you use the [Spherical Harmoni
 <td>[<strong>D3DX11UnsetAllDeviceObjects</strong>](d3dx11unsetalldeviceobjects.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/>
 <blockquote>
 [!Note]<br />
-Instead of using this function, we recommend that you use the [<strong>ID3D11DeviceContext::ClearState</strong>](id3d11devicecontext-clearstate.md) method.
+Instead of using this function, we recommend that you use the [<strong>ID3D11DeviceContext::ClearState</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-clearstate?branch=master) method.
 </blockquote>
 <br/> Removes all resources from the device by setting their pointers to <strong>NULL</strong>. This should be called during shutdown of your application. It helps ensure that when one is releasing all of their resources that none of them are bound to the device.<br/></td>
 </tr>
@@ -419,7 +425,7 @@ Instead of using this function, we recommend that you use the [<strong>ID3D11Dev
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -428,9 +434,9 @@ Instead of using this function, we recommend that you use the [<strong>ID3D11Dev
 [D3DX 11 Reference](d3d11-graphics-reference-d3dx11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

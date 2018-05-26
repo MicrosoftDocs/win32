@@ -1,7 +1,12 @@
 ---
-Description: 'The GetKaraokeChannelContent method retrieves a value that indicates the type of content in the specified karaoke channel in the specified stream.'
-ms.assetid: 'e36a88b8-7184-44a4-8e02-204440f651bc'
+Description: The GetKaraokeChannelContent method retrieves a value that indicates the type of content in the specified karaoke channel in the specified stream.
+ms.assetid: e36a88b8-7184-44a4-8e02-204440f651bc
 title: GetKaraokeChannelContent Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetKaraokeChannelContent Method

@@ -1,7 +1,12 @@
 ---
-Description: 'The following describes how to create a Windows Installer package to install a Win32 assembly.'
-ms.assetid: '1234e904-fc7f-4eb7-8c50-0c959bbf5261'
-title: 'Installing Win32 Assemblies for Side-by-Side Sharing on Windows XP'
+Description: The following describes how to create a Windows Installer package to install a Win32 assembly.
+ms.assetid: 1234e904-fc7f-4eb7-8c50-0c959bbf5261
+title: Installing Win32 Assemblies for Side-by-Side Sharing on Windows XP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Win32 Assemblies for Side-by-Side Sharing on Windows XP

@@ -1,7 +1,12 @@
 ---
-Description: 'The URL for the printer.'
-ms.assetid: 'F8C27A2B-A138-4efd-A843-78668643D1DB'
-title: 'System.Device.PrinterURL'
+Description: The URL for the printer.
+ms.assetid: F8C27A2B-A138-4efd-A843-78668643D1DB
+title: System.Device.PrinterURL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Device.PrinterURL

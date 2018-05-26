@@ -1,14 +1,20 @@
 ---
 title: Support UnregisterEventManifest methods
 description: Unregisters an event manifest.
-ms.assetid: '4A7173F1-2747-413D-91F2-C694B9C02046'
-keywords: ["UnregisterEventManifest methods Access Execution Engine"]
+ms.assetid: 4A7173F1-2747-413D-91F2-C694B9C02046
+keywords:
+- UnregisterEventManifest methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Support::UnregisterEventManifest methods
@@ -32,8 +38,8 @@ Unregisters an event manifest.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -46,9 +52,9 @@ Unregisters an event manifest.
 [**Support**](support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

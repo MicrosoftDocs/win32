@@ -4,11 +4,17 @@ description: Specifies if bandwidth changes are automatically detected.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '30b2b7b3-9050-4a11-9929-2ad1dbf5ed2d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 30b2b7b3-9050-4a11-9929-2ad1dbf5ed2d
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["BandwidthDetection property Remote Desktop Services", "BandwidthDetection property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , BandwidthDetection property"]
+keywords:
+- BandwidthDetection property Remote Desktop Services
+- BandwidthDetection property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , BandwidthDetection property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings8::BandwidthDetection property
@@ -22,11 +28,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_BandwidthDetection(
-  [in]          VARIANT_BOOL fAutodetect
+  [in]          VARIANT_BOOL fAutodetect
 );
 
 HRESULT get_BandwidthDetection(
-  [out, retval] VARIANT_BOOL *pfAutodetect
+  [out, retval] VARIANT_BOOL *pfAutodetect
 );
 ```
 
@@ -42,8 +48,8 @@ HRESULT get_BandwidthDetection(
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -56,9 +62,9 @@ HRESULT get_BandwidthDetection(
 [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'In a client/server application protocol, a server binds to a communication port such as a socket or an RPC interface.'
-ms.assetid: '176d4ca5-83dd-42ef-b116-227d4badc0dd'
+Description: In a client/server application protocol, a server binds to a communication port such as a socket or an RPC interface.
+ms.assetid: 176d4ca5-83dd-42ef-b116-227d4badc0dd
 title: Establishing a Secure Connection with Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Establishing a Secure Connection with Authentication

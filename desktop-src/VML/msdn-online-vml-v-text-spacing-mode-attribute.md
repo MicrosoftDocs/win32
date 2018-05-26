@@ -1,7 +1,12 @@
 ---
 title: VML V-Text-Spacing-Mode Attribute
 description: VML V-Text-Spacing-Mode Attribute
-ms.assetid: '2c20e9d7-cb6a-4da7-af7a-9a7b1baa8e1f'
+ms.assetid: 2c20e9d7-cb6a-4da7-af7a-9a7b1baa8e1f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML V-Text-Spacing-Mode Attribute

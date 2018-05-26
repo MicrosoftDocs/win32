@@ -1,7 +1,12 @@
 ---
 title: Win32\_Volume Methods
 description: The Win32\_Volume class exposes the following methods.
-ms.assetid: 'F365EFF2-D47E-4FE6-A43B-274D70A7ABC3'
+ms.assetid: F365EFF2-D47E-4FE6-A43B-274D70A7ABC3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Volume Methods

@@ -1,14 +1,20 @@
 ---
 title: ValueMapType Complex Type
 description: Defines a list of name/value mappings between integer values and string values.
-ms.assetid: '754578bf-d3c6-4467-af39-af56d5a11dce'
-keywords: ["ValueMapType complex type EventLog"]
+ms.assetid: 754578bf-d3c6-4467-af39-af56d5a11dce
+keywords:
+- ValueMapType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ValueMapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValueMapType Complex Type
@@ -61,14 +67,14 @@ Defines a list of name/value mappings between integer values and string values.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

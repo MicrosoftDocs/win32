@@ -2,13 +2,19 @@
 title: control attribute
 description: The \ control\ attribute identifies a coclass or library as a COM control, from which a container site will derive additional type libraries or component object classes.
 ms.assetid: c39dd4b6-743f-4888-8954-8b83584bdea5
-keywords: ["control attribute MIDL"]
+keywords:
+- control attribute MIDL
 topic_type:
 - apiref
 api_name:
 - control
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # control attribute

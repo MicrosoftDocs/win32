@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemuNI::DisableDriver method allows a rendering plug-in for Unidrv to free resources that were allocated by the plug-in''s IPrintOemUni::EnableDriver method.'
-ms.assetid: 'a92d8c2e-52b5-4941-b49e-42e067e56e91'
-title: 'IPrintOemUni::DisableDriver method'
+---
+Description: The IPrintOemuNIDisableDriver method allows a rendering plug-in for Unidrv to free resources that were allocated by the plug-ins IPrintOemUniEnableDriver method.
+ms.assetid: a92d8c2e-52b5-4941-b49e-42e067e56e91
+title: IPrintOemUniDisableDriver method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::DisableDriver method

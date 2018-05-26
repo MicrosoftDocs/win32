@@ -1,7 +1,12 @@
 ---
 title: Reference
 description: This section contains reference information for the Magnification API.
-ms.assetid: 'd966f2fb-2c67-4dc7-903b-4fe845058eb9'
+ms.assetid: d966f2fb-2c67-4dc7-903b-4fe845058eb9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference
@@ -20,7 +25,7 @@ This section contains reference information for the Magnification API.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section contains reference information for the Magnification API.
 [Magnification API](entry-magapi-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

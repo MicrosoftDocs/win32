@@ -1,8 +1,11 @@
 ---
 title: SetAttributes method of the MSFT\_Partition class
 description: Sets various attributes and properties of the partition.
-ms.assetid: '203396F7-2F2B-4121-B415-21BFE036074F'
-keywords: ["SetAttributes method Windows Storage Management API", "SetAttributes method Windows Storage Management API , MSFT_Partition class", "MSFT_Partition class Windows Storage Management API , SetAttributes method"]
+ms.assetid: 203396F7-2F2B-4121-B415-21BFE036074F
+keywords:
+- SetAttributes method Windows Storage Management API
+- SetAttributes method Windows Storage Management API , MSFT_Partition class
+- MSFT_Partition class Windows Storage Management API , SetAttributes method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetAttributes method of the MSFT\_Partition class
@@ -22,11 +30,11 @@ Sets various attributes and properties of the partition.
 
 ```mof
 UInt32 SetAttributes(
-  [in]  Boolean IsReadOnly,
-  [in]  Boolean NoDefaultDriveLetter,
-  [in]  Boolean IsActive,
-  [in]  Boolean IsHidden,
-  [out] String  ExtendedStatus
+  [in]  Boolean IsReadOnly,
+  [in]  Boolean NoDefaultDriveLetter,
+  [in]  Boolean IsActive,
+  [in]  Boolean IsHidden,
+  [out] String  ExtendedStatus
 );
 ```
 
@@ -125,8 +133,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -139,9 +147,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Partition**](msft-partition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

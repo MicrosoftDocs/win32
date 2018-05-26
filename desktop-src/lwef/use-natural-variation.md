@@ -1,7 +1,12 @@
 ---
 title: Use Natural Variation
 description: Use Natural Variation
-ms.assetid: '5d5750e4-cf30-43dc-9419-7e6bbdb9aa5a'
+ms.assetid: 5d5750e4-cf30-43dc-9419-7e6bbdb9aa5a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use Natural Variation

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains information about programming with Microsoft Direct3D 10.'
-ms.assetid: '5b1424d9-7724-46a7-9526-c44253b3b532'
+---
+Description: This section contains information about programming with Microsoft Direct3D 10.
+ms.assetid: 5b1424d9-7724-46a7-9526-c44253b3b532
 title: Direct3D 10 Graphics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 10 Graphics

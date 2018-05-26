@@ -1,13 +1,16 @@
 ---
-Description: 'By default, an application or script receives data from the corresponding provider when two versions of providers exist.'
+Description: By default, an application or script receives data from the corresponding provider when two versions of providers exist.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '379d934e-e010-4a03-8dc1-121be43e4c6f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 379d934e-e010-4a03-8dc1-121be43e4c6f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Requesting WMI Data on a 64-bit Platform'
+title: Requesting WMI Data on a 64-bit Platform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Requesting WMI Data on a 64-bit Platform
@@ -40,7 +43,7 @@ On a 64-bit system that has side-by-side versions of a provider, a 32-bit applic
 
 ## Using the Context Flags
 
-C++ applications can use the [**IWbemContext**](iwbemcontext.md) interface with [**IWbemServices::ExecMethod**](iwbemservices-execmethod.md) to communicate the use of a nondefault provider to WMI.
+C++ applications can use the [**IWbemContext**](/windows/win32/WbemCli/nn-wbemcli-iwbemcontext?branch=master) interface with [**IWbemServices::ExecMethod**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethod?branch=master) to communicate the use of a nondefault provider to WMI.
 
 In scripting and Visual Basic, you must create a [**SWbemNamedValueSet**](swbemnamedvalueset.md) object containing the flags for the *objWbemNamedValueSet* parameter of [**SWbemServices.ExecMethod**](swbemservices-execmethod.md). For more information about setting up the parameters objects for this call, see [Constructing InParameters Objects and Parsing OutParameters Objects](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 

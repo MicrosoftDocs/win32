@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or gets the user''s warning threshold, in bytes.'
-ms.assetid: '5289d472-d591-4604-91f9-252dd4a1b62b'
-title: 'DIDiskQuotaUser.QuotaThreshold property'
+---
+Description: Sets or gets the users warning threshold, in bytes.
+ms.assetid: 5289d472-d591-4604-91f9-252dd4a1b62b
+title: DIDiskQuotaUser.QuotaThreshold property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIDiskQuotaUser.QuotaThreshold property

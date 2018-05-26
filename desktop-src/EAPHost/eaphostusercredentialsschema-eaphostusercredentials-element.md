@@ -1,14 +1,20 @@
 ---
 title: EapHostUserCredentials Element
 description: Contains the EapMethod element, and Credentials or CredentialsBlob element.
-ms.assetid: '6d0d41c8-560c-4d42-83c9-865053aef47a'
-keywords: ["EapHostUserCredentials element EAPHost"]
+ms.assetid: 6d0d41c8-560c-4d42-83c9-865053aef47a
+keywords:
+- EapHostUserCredentials element EAPHost
 topic_type:
 - apiref
 api_name:
 - EapHostUserCredentials
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapHostUserCredentials Element
@@ -67,8 +73,8 @@ The **processContents** element enables future enhancements to the schema. The *
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -82,9 +88,9 @@ The **processContents** element enables future enhancements to the schema. The *
 [eaphostusercredentials Schema](eaphostusercredentialsschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

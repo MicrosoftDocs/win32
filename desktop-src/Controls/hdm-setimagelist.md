@@ -1,8 +1,9 @@
 ---
 title: HDM\_SETIMAGELIST message
 description: Assigns an image list to an existing header control. You can send this message explicitly or use the Header\_SetImageList or Header\_SetStateImageList macro.
-ms.assetid: '1d7f07fa-f6f4-422a-949c-97d0388343e3'
-keywords: ["HDM_SETIMAGELIST message Windows Controls"]
+ms.assetid: 1d7f07fa-f6f4-422a-949c-97d0388343e3
+keywords:
+- HDM_SETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_SETIMAGELIST message
 
-Assigns an image list to an existing header control. You can send this message explicitly or use the [**Header\_SetImageList**](header-setimagelist.md) or [**Header\_SetStateImageList**](header-setstateimagelist.md) macro.
+Assigns an image list to an existing header control. You can send this message explicitly or use the [**Header\_SetImageList**](/windows/win32/Commctrl/nf-commctrl-header_setimagelist?branch=master) or [**Header\_SetStateImageList**](/windows/win32/Commctrl/nf-commctrl-header_setstateimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -28,7 +34,7 @@ Assigns an image list to an existing header control. You can send this message e
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -49,15 +55,15 @@ Returns the handle to the image list previously associated with the control. Ret
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

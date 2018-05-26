@@ -2,13 +2,15 @@
 title: DnsServerSecurityStatistics class
 description: Represents DNS server statistics for security context processing.
 audience: developer
-ms.assetid: '3b3f607a-946b-417c-8a2b-483a3c408778'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3b3f607a-946b-417c-8a2b-483a3c408778
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerSecurityStatistics class", "DnsServerSecurityStatistics class, described"]
+keywords:
+- DnsServerSecurityStatistics class
+- DnsServerSecurityStatistics class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerSecurityStatistics class
@@ -308,7 +313,7 @@ The number of TSIG records received for which the signature was successfully ver
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -322,9 +327,9 @@ The number of TSIG records received for which the signature was successfully ver
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

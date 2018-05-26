@@ -1,7 +1,12 @@
 ---
 title: ALE Layers
 description: Application Layer Enforcement (ALE) consists of several filtering layers and many matching discard layers.
-ms.assetid: '3ac71787-2350-4a60-b0bf-b00b52d30b83'
+ms.assetid: 3ac71787-2350-4a60-b0bf-b00b52d30b83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALE Layers
@@ -23,7 +28,7 @@ If a filter at this layer is matched to authorize promiscuous mode receiving, th
 
 If no port is specified during **bind()**, that is, port is set to 0 (zero), then the TCP/IP stack will select a port from the dynamic port range (19152–65535). The selected port will be classified at this layer along with the [**FWP\_CONDITION\_FLAG\_IS\_WILDCARD\_BIND**](filtering-condition-flags-.md) flag.
 
-If the local address is not specified in the [**bind()**](https://msdn.microsoft.com/library/windows/desktop/ms737550) call, the local address field is set to [**FWP\_EMPTY**](fwp-data-type-enum.md).
+If the local address is not specified in the [**bind()**](https://msdn.microsoft.com/library/windows/desktop/ms737550) call, the local address field is set to [**FWP\_EMPTY**](/windows/win32/Fwptypes/ne-fwptypes-fwp_data_type_?branch=master).
 
 ## AUTH\_LISTEN
 

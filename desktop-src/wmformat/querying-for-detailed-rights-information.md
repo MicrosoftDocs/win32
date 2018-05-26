@@ -1,8 +1,23 @@
 ---
 title: Querying for Detailed Rights Information
 description: Querying for Detailed Rights Information
-ms.assetid: 'd9d5c299-1f61-41df-ab2c-7f4d196e9290'
-keywords: ["Windows Media Format SDK,querying for detailed rights", "Windows Media Format SDK,detailed rights queries", "digital rights management (DRM),querying for detailed rights", "DRM (digital rights management),querying for detailed rights", "digital rights management (DRM),detailed rights queries", "DRM (digital rights management),detailed rights queries", "DRM Client Extended APIs,querying for detailed rights", "Client Extended APIs,querying for detailed rights", "DRM Client Extended APIs,detailed rights queries", "Client Extended APIs,detailed rights queries"]
+ms.assetid: d9d5c299-1f61-41df-ab2c-7f4d196e9290
+keywords:
+- Windows Media Format SDK,querying for detailed rights
+- Windows Media Format SDK,detailed rights queries
+- digital rights management (DRM),querying for detailed rights
+- DRM (digital rights management),querying for detailed rights
+- digital rights management (DRM),detailed rights queries
+- DRM (digital rights management),detailed rights queries
+- DRM Client Extended APIs,querying for detailed rights
+- Client Extended APIs,querying for detailed rights
+- DRM Client Extended APIs,detailed rights queries
+- Client Extended APIs,detailed rights queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying for Detailed Rights Information

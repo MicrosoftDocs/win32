@@ -4,17 +4,21 @@ description: Gets the content ID.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '2FDE76BB-B835-4A0C-AC5E-E64BC5A1F11C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 2FDE76BB-B835-4A0C-AC5E-E64BC5A1F11C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy.getContentId method"]
+keywords:
+- UserPolicy.getContentId method
 topic_type:
 - apiref
 api_name:
 - UserPolicy.getContentId method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.getContentId method
@@ -45,11 +49,11 @@ UserPolicy.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

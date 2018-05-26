@@ -1,13 +1,16 @@
 ---
-Description: 'The Name property of an SWbemPrivilege object is a string that uniquely describes a privilege.'
+Description: The Name property of an SWbemPrivilege object is a string that uniquely describes a privilege.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cc1cdde7-20ad-4ff7-ad49-43eb46c15df9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cc1cdde7-20ad-4ff7-ad49-43eb46c15df9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPrivilege.Name property'
+title: SWbemPrivilege.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilege.Name property
@@ -35,8 +38,8 @@ SWbemPrivilege.Name As
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemPrivilege.Name As
 
 
 
- 
+ 
 
- 
+ 
 
 
 

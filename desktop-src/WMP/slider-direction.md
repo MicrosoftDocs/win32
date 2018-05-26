@@ -1,14 +1,20 @@
 ---
 title: SLIDER.direction
 description: The direction attribute specifies or retrieves the direction that slider images are laid out.
-ms.assetid: 'a6add56b-3fc6-4c78-90e4-6daafd701eda'
-keywords: ["SLIDER.direction Windows Media Player"]
+ms.assetid: a6add56b-3fc6-4c78-90e4-6daafd701eda
+keywords:
+- SLIDER.direction Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.direction
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.direction
@@ -32,7 +38,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,9 +67,9 @@ The fill or movement of the **foregroundColor** or **foregroundImage** is along 
 [**SLIDER.foregroundImage**](slider-foregroundimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

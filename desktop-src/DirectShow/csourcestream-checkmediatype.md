@@ -1,7 +1,12 @@
 ---
-Description: 'The CheckMediaType method determines if the pin accepts a specific media type. This method implements the pure virtual CBasePin::CheckMediaType method.'
-ms.assetid: '3db7c74c-a6aa-4b49-b2a5-9bf8db35fd7e'
-title: 'CSourceStream.CheckMediaType method'
+Description: The CheckMediaType method determines if the pin accepts a specific media type. This method implements the pure virtual CBasePinCheckMediaType method.
+ms.assetid: 3db7c74c-a6aa-4b49-b2a5-9bf8db35fd7e
+title: CSourceStream.CheckMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.CheckMediaType method
@@ -13,7 +18,7 @@ The `CheckMediaType` method determines if the pin accepts a specific media type.
 
 ```C++
 virtual HRESULT CheckMediaType(
-   const CMediaType *pMediaType
+   const CMediaType *pMediaType
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ By default, the pin supports a single media type. This method retrieves the supp
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

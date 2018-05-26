@@ -4,11 +4,15 @@ description: The following figure is a conceptual representation of the blocks o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b353c2d9-ef86-4e4c-ac00-4756fc9ec57d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: b353c2d9-ef86-4e4c-ac00-4756fc9ec57d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Code Overview AD"]
+keywords:
+- Code Overview AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Code Overview
@@ -28,7 +32,7 @@ The following numbered items correspond to block elements in the figure.
 7.  Filtering and enumerating VARIANTs (Cenumvar.cpp, Object.cpp). When a collection of VARIANT elements of a single type are managed in within ADSI, this code is used.
 8.  Globals (Globals.cpp). Namespace keywords, syntax mapping structures from native data formats to the ADs Automation VARIANT type are all defined here.
 9.  Marshaling/unmarshaling data (Pack.cpp, Property.cpp, Smpoper.cpp). Conversion from native data formats to the supported set of Automation VARIANT types occurs when properties of an object are loaded into the property cache. Other special handling for data must be performed when structures with pointers are copied, deleted, or moved in memory.
-10. Property cache (Cprops.cpp). Caching properties is a feature of the ADSI environment. The [**IADs::GetInfo**](iads-getinfo.md), [**IADs::GetInfoEx**](iads-getinfoex.md), and [**IADs::SetInfo**](iads-setinfo.md) methods act on the property cache.
+10. Property cache (Cprops.cpp). Caching properties is a feature of the ADSI environment. The [**IADs::GetInfo**](/windows/win32/Iads/nf-iads-iads-getinfo?branch=master), [**IADs::GetInfoEx**](/windows/win32/Iads/nf-iads-iads-getinfoex?branch=master), and [**IADs::SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) methods act on the property cache.
 11. Memory management (Memory.cpp). Using one set of memory functions to allocate and free memory allows the example provider component to track memory use and stop memory leaks.
 12. Schema objects and management (Cschobj.cpp, Cprpobj.cpp, Cclsobj.cpp, Cenumsch.cpp). This includes routines to create, manage, and enumerate the schema objects. This includes schema class objects, property objects, and syntax objects, in addition to being able to enumerate the schema class container object.
 13. Operating-system specific calls (RegDSAPI.cpp). This includes all calls that reference the native operating system. Among other functions, they include functions opening, closing, reading, and modifying objects as well as those accessing the schema and property data. The example provider component happened to simulate a directory hierarchy by using the registry. Only function names should be of much interest to a provider writer.

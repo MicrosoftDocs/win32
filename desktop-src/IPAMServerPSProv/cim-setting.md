@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Setting class represents a configuration or an operational parameter for one or more managed system elements.'
+Description: The CIM\_Setting class represents a configuration or an operational parameter for one or more managed system elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8ce18a4c-7886-4d1a-990b-f604b9aa6e58'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8ce18a4c-7886-4d1a-990b-f604b9aa6e58
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Setting class'
+title: CIM\_Setting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Setting class
@@ -58,7 +61,7 @@ The **CIM\_Setting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -162,16 +165,16 @@ The ID of the setting.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

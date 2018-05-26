@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the current resource manager context handle. This method returns (\*pContext) == NULL if no context has been established.'
-ms.assetid: 'c031f53d-4670-4d48-934c-a1550f21c23a'
-title: 'ISCard::get\_Context method'
+---
+Description: Retrieves the current resource manager context handle. This method returns (\*pContext) == NULL if no context has been established.
+ms.assetid: c031f53d-4670-4d48-934c-a1550f21c23a
+title: ISCardget\_Context method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCard::get\_Context method
@@ -50,7 +55,7 @@ The method returns one of the following possible values.
 
 ## Remarks
 
-The resource manager context is set by calling the [*smart card*](security.s_gly#-security-smart-card-gly) function [**SCardEstablishContext**](scardestablishcontext.md).
+The resource manager context is set by calling the [*smart card*](security.s_gly#-security-smart-card-gly) function [**SCardEstablishContext**](/windows/win32/Winscard/nf-winscard-scardestablishcontext?branch=master).
 
 In addition to the COM error codes listed above, this interface may return a smart card error code if a smart card function was called to complete the request. For more information, see [Smart Card Return Values](authentication-return-values.md#smart-card-return-values).
 
@@ -111,7 +116,7 @@ if (FAILED(hr))
 [**ISCard**](iscard.md)
 </dt> <dt>
 
-[**SCardEstablishContext**](scardestablishcontext.md)
+[**SCardEstablishContext**](/windows/win32/Winscard/nf-winscard-scardestablishcontext?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 Description: Accessing the COM+ Catalog
-ms.assetid: '1322a3fe-faee-4971-949f-5e0d2dfe469b'
+ms.assetid: 1322a3fe-faee-4971-949f-5e0d2dfe469b
 title: Accessing the COM+ Catalog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing the COM+ Catalog
@@ -10,7 +15,7 @@ The COM+ catalog is the underlying data store that holds all COM+ configuration 
 
 The COM+ catalog provides a layer of abstraction over the actual details of where and how COM+ configuration data is stored. Much of the data is stored in the COM+ registration database (or RegDB), which holds data for all configured components installed in COM+ applications. This database is used at application run time to provide configuration data to COM+ to properly activate objects in an appropriate context, enabling services to be provided for objects per their configuration. The RegDB itself is a transacted resource manager that uses DTC transactions through the [compensating resource manager](com--compensating-resource-manager.md); when you make persisted configuration changes, they are committed transactionally. The only way that you can access the RegDB is through the COM+ catalog, using the COMAdmin objects or the Component Services administrative tool.
 
-On each computer, there is a COM+ catalog server running as a component in the system application. The catalog server controls access to the catalog data stored on its machine; in effect, the catalog server is a query engine that allows you to read and write data in the catalog on that machine. When you initiate programmatic administration by instantiating a [**COMAdminCatalog**](comadmincatalog.md) object, this object opens a session with the local catalog server. Requests for collections or collection items on the local catalog are handled by the local catalog server. When you connect to a remote machine, you are communicating with the catalog server on that machine.
+On each computer, there is a COM+ catalog server running as a component in the system application. The catalog server controls access to the catalog data stored on its machine; in effect, the catalog server is a query engine that allows you to read and write data in the catalog on that machine. When you initiate programmatic administration by instantiating a [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) object, this object opens a session with the local catalog server. Requests for collections or collection items on the local catalog are handled by the local catalog server. When you connect to a remote machine, you are communicating with the catalog server on that machine.
 
 ## Security Considerations in Administration
 

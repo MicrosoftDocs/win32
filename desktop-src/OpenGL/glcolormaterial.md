@@ -1,8 +1,9 @@
 ---
 title: glColorMaterial function
 description: The glColorMaterial function causes a material color to track the current color.
-ms.assetid: '6dbef2c2-f902-4f25-8a87-9e3d710dd807'
-keywords: ["glColorMaterial function OpenGL"]
+ms.assetid: 6dbef2c2-f902-4f25-8a87-9e3d710dd807
+keywords:
+- glColorMaterial function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glColorMaterial function
@@ -22,8 +28,8 @@ The **glColorMaterial** function causes a material color to track the current co
 
 ```C++
 void WINAPI glColorMaterial(
-   GLenum face,
-   GLenum mode
+   GLenum face,
+   GLenum mode
 );
 ```
 
@@ -97,8 +103,8 @@ The following functions retrieve information related to **glColorMaterial**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -139,9 +145,9 @@ The following functions retrieve information related to **glColorMaterial**:
 [**glMaterial**](glmaterial-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

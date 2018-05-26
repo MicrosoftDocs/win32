@@ -1,7 +1,12 @@
 ---
 title: Distributing Topics over the Internet
 description: Distributing Topics over the Internet
-ms.assetid: '1AA9D2DF-99F5-47dd-B1C4-F254D4A99743'
+ms.assetid: 1AA9D2DF-99F5-47dd-B1C4-F254D4A99743
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Distributing Topics over the Internet

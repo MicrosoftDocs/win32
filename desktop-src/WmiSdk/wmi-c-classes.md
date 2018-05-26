@@ -1,13 +1,16 @@
 ---
-Description: 'WMI C++ classes that are part of the WMI Provider Framework are now considered in final state.'
+Description: WMI C++ classes that are part of the WMI Provider Framework are now considered in final state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '72b1241b-163b-474f-be8d-3fd8923aaa27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 72b1241b-163b-474f-be8d-3fd8923aaa27
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Provider Framework C++ Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Provider Framework C++ Classes

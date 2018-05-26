@@ -1,8 +1,11 @@
 ---
 title: ICatalogRead GetTableOfContents method
 description: method GetTableOfContents - returns an ITopicCollection of ToC data.
-ms.assetid: 'd8aacf9a-4577-4926-8aff-b1ca2da6a57d'
-keywords: ["GetTableOfContents method HelpAPI", "GetTableOfContents method HelpAPI , ICatalogRead interface", "ICatalogRead interface HelpAPI , GetTableOfContents method"]
+ms.assetid: d8aacf9a-4577-4926-8aff-b1ca2da6a57d
+keywords:
+- GetTableOfContents method HelpAPI
+- GetTableOfContents method HelpAPI , ICatalogRead interface
+- ICatalogRead interface HelpAPI , GetTableOfContents method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalogRead::GetTableOfContents method
@@ -22,11 +30,11 @@ method GetTableOfContents - returns an ITopicCollection of ToC data. ToC is from
 
 ```C++
 HRESULT GetTableOfContents(
-  [in]          ICatalog         *Catalog,
-  [in]          BSTR             topicId,
-  [in]          IHelpFilter      *filter,
-  [in]          TocReturnDetail  returnDetail,
-  [out, retval] ITopicCollection **pRetVal
+  [in]          ICatalog         *Catalog,
+  [in]          BSTR             topicId,
+  [in]          IHelpFilter      *filter,
+  [in]          TocReturnDetail  returnDetail,
+  [out, retval] ITopicCollection **pRetVal
 );
 ```
 
@@ -61,8 +69,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -74,9 +82,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**ICatalogRead**](icatalogread.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

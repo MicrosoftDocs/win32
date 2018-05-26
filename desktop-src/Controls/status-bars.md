@@ -1,7 +1,12 @@
 ---
 title: Status Bars
 description: A status bar is a horizontal window at the bottom of a parent window in which an application can display various kinds of status information.
-ms.assetid: '4ED4BFD3-904D-4198-8152-5DD13CA7C189'
+ms.assetid: 4ED4BFD3-904D-4198-8152-5DD13CA7C189
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Status Bars
@@ -57,7 +62,7 @@ To retrieve text from a status bar, use the [**SB\_GETTEXTLENGTH**](sb-gettextle
 
 If your application uses a status bar that has only one part, you can use the [**WM\_SETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632644), [**WM\_GETTEXT**](https://msdn.microsoft.com/library/windows/desktop/ms632627), and [**WM\_GETTEXTLENGTH**](https://msdn.microsoft.com/library/windows/desktop/ms632628) messages to perform text operations. These messages deal only with the part that has an index of zero, allowing you to treat the status bar much like a static text control.
 
-To display a line of status without creating a status bar, use the [**DrawStatusText**](drawstatustext.md) function. The function uses the same techniques to draw the status as the window procedure for the status bar, but it does not automatically set the size and position of the status information. When calling the function, you must specify the size and position of the status information as well as the device context of the window in which to draw it.
+To display a line of status without creating a status bar, use the [**DrawStatusText**](/windows/win32/Commctrl/nf-commctrl-drawstatustexta?branch=master) function. The function uses the same techniques to draw the status as the window procedure for the status bar, but it does not automatically set the size and position of the status information. When calling the function, you must specify the size and position of the status information as well as the device context of the window in which to draw it.
 
 ## Owner-Drawn Status Bars
 
@@ -65,7 +70,7 @@ You can define individual parts of a status bar to be owner-drawn parts. Using t
 
 To define a window part as owner-drawn, send the [**SB\_SETTEXT**](sb-settext.md) message to the status bar, specifying the part and the SBT\_OWNERDRAW drawing technique. When SBT\_OWNERDRAW is specified, the *lParam* parameter is a 32-bit application-defined value that the application can use when drawing the part. For example, you can specify a font handle, a bitmap handle, an address of a string, and so on.
 
-When a status bar needs to draw an owner-drawn part, it sends the [**WM\_DRAWITEM**](wm-drawitem.md) message to the parent window. The *wParam* parameter of the message is the child window identifier of the status bar, and the *lParam* parameter is the address of a [**DRAWITEMSTRUCT**](drawitemstruct.md) structure. The parent window uses the information in the structure to draw the part. For an owner-drawn part of a status bar, **DRAWITEMSTRUCT** contains the following information.
+When a status bar needs to draw an owner-drawn part, it sends the [**WM\_DRAWITEM**](wm-drawitem.md) message to the parent window. The *wParam* parameter of the message is the child window identifier of the status bar, and the *lParam* parameter is the address of a [**DRAWITEMSTRUCT**](/windows/win32/Winuser/ns-winuser-tagdrawitemstruct?branch=master) structure. The parent window uses the information in the structure to draw the part. For an owner-drawn part of a status bar, **DRAWITEMSTRUCT** contains the following information.
 
 
 

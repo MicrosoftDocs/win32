@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer DefaultLocale property
 description: The DefaultLocale property retrieves the default user interface locale of the Virtual Server service.
-ms.assetid: 'ff63d164-d078-48fd-9054-47f4bcc6fe1f'
-keywords: ["DefaultLocale property Virtual Server", "DefaultLocale property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , DefaultLocale property", "DefaultLocale property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , DefaultLocale property"]
+ms.assetid: ff63d164-d078-48fd-9054-47f4bcc6fe1f
+keywords:
+- DefaultLocale property Virtual Server
+- DefaultLocale property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , DefaultLocale property
+- DefaultLocale property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , DefaultLocale property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::DefaultLocale property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_DefaultLocale(
-  [out] ULONG *outLocale
+  [out] ULONG *outLocale
 );
 ```
 
@@ -90,8 +100,8 @@ Wscript.Echo "Default Locale: " & CInt(objVS.DefaultLocale)
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -109,9 +119,9 @@ Wscript.Echo "Default Locale: " & CInt(objVS.DefaultLocale)
 [**QueryLocale**](ivmvirtualserver-querylocale.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

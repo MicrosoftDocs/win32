@@ -1,8 +1,11 @@
 ---
 title: IMessenger UnreadEmailCount property
 description: Retrieves the current number of unread e-mail messages in the Inbox assigned to the currently signed-in client user.
-ms.assetid: '106fb15c-0276-4ad8-8fed-c83eea733bda'
-keywords: ["UnreadEmailCount property Windows Messenger", "UnreadEmailCount property Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , UnreadEmailCount property"]
+ms.assetid: 106fb15c-0276-4ad8-8fed-c83eea733bda
+keywords:
+- UnreadEmailCount property Windows Messenger
+- UnreadEmailCount property Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , UnreadEmailCount property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::UnreadEmailCount property
 
-\[**UnreadEmailCount** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**UnreadEmailCount** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves the current number of unread e-mail messages in the Inbox assigned to the currently signed-in client user.
 
@@ -27,8 +35,8 @@ This property is read-only.
 
 ```C++
 HRESULT get_UnreadEmailCount(
-  [in]          MUAFOLDER mFolder,
-  [out, retval] LONG      *plCount
+  [in]          MUAFOLDER mFolder,
+  [out, retval] LONG      *plCount
 );
 ```
 
@@ -58,7 +66,7 @@ Returns one of the following values.
 
 ## Remarks
 
-When this method is invoked on a Microsoft Exchange Instant Messaging Service (IM) client, Exchange through Microsoft Outlook will always be invoked as the mail client. Calling this method will not determine the unread e-mail count in that client or account. If a Microsoft .NET Messenger Service is signed in as a primary or secondary service to the Exchange IM service, this method will return the number of unread e-mail messages from the Outlook.com Inbox.
+When this method is invoked on a Microsoft Exchange Instant Messaging Service (IM) client, Exchange through Microsoft Outlook will always be invoked as the mail client. Calling this method will not determine the unread e-mail count in that client or account. If a Microsoft .NET Messenger Service is signed in as a primary or secondary service to the Exchange IM service, this method will return the number of unread e-mail messages from the Outlook.com Inbox.
 
 At sign-in, the Messenger client internally flags whether the Microsoft .NET Messenger Service user has an Outlook.com Inbox. If so, the count is determined from the Outlook.com Inbox.
 
@@ -75,7 +83,7 @@ For users who are not signed in, calling this method will not return a *plCount*
 > -   You should not return MSGR\_E\_NOT\_LOGGED\_ON to avoid an exception.
 > -   Clear the value returned to the user.
 
- 
+ 
 
 ## Requirements
 
@@ -83,17 +91,17 @@ For users who are not signed in, calling this method will not return a *plCount*
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

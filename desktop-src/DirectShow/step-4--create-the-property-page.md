@@ -1,7 +1,12 @@
 ---
-Description: 'Step 4.'
-ms.assetid: 'ed71f26b-0812-4be8-96a4-b9f5dde45540'
-title: 'Step 4. Create the Property Page'
+Description: Step 4.
+ms.assetid: ed71f26b-0812-4be8-96a4-b9f5dde45540
+title: Step 4. Create the Property Page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 4. Create the Property Page

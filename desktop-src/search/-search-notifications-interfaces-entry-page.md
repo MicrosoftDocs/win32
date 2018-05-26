@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '32638e85-7c24-4756-99f2-478316b5a326'
+Description: .
+ms.assetid: 32638e85-7c24-4756-99f2-478316b5a326
 title: Notifications Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications Interfaces
@@ -10,19 +15,19 @@ title: Notifications Interfaces
 
 This Windows Search reference section consists of the following notifications interfaces:
 
-[**IGatherInlineStatus**](-search-igatherinlinestatus.md)
+[**IGatherInlineStatus**](/windows/win32/Searchapi/?branch=master)
 
-[**IGatherNotifyInline**](-search-igathernotifyinline.md)
+[**IGatherNotifyInline**](/windows/win32/Searchapi/?branch=master)
 
-[**IGatherNotifyInlineInternal**](-search-igathernotifyinlineinternal.md)
+[**IGatherNotifyInlineInternal**](/windows/win32/Searchapi/?branch=master)
 
-[**ISearchItemsChangedSink**](-search-isearchitemschangedsink.md)
+[**ISearchItemsChangedSink**](/windows/win32/Searchapi/nn-searchapi-isearchitemschangedsink?branch=master)
 
-[**ISearchNotifyInlineSite**](-search-isearchnotifyinlinesite.md)
+[**ISearchNotifyInlineSite**](/windows/win32/Searchapi/nn-searchapi-isearchnotifyinlinesite?branch=master)
 
-[**ISearchPersistentItemsChangedSink**](-search-isearchpersistentitemschangedsink.md)
+[**ISearchPersistentItemsChangedSink**](/windows/win32/Searchapi/nn-searchapi-isearchpersistentitemschangedsink?branch=master)
 
-[**ISearchViewChangedSink**](-search-isearchviewchangedsink.md)
+[**ISearchViewChangedSink**](/windows/win32/searchapi/nn-searchapi-isearchviewchangedsink?branch=master)
 
  
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the target format for an encoder.'
-ms.assetid: '3d316561-352f-44f9-9978-01301a68e7b6'
+Description: Specifies the target format for an encoder.
+ms.assetid: 3d316561-352f-44f9-9978-01301a68e7b6
 title: AVEncCommonFormatConstraint property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncCommonFormatConstraint property
@@ -40,7 +45,7 @@ The value of this property is a **BSTR** that contains the string representation
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,8 +57,8 @@ Applications can set this property to specify the target format. Encoders can al
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -65,12 +70,12 @@ Applications can set this property to specify the target format. Encoders can al
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

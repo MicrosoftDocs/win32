@@ -1,8 +1,9 @@
 ---
 title: TB\_GETBITMAPFLAGS message
 description: Retrieves the flags that describe the type of bitmap to be used.
-ms.assetid: '64a66fe6-1446-424c-a0c6-388da6a7b081'
-keywords: ["TB_GETBITMAPFLAGS message Windows Controls"]
+ms.assetid: 64a66fe6-1446-424c-a0c6-388da6a7b081
+keywords:
+- TB_GETBITMAPFLAGS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETBITMAPFLAGS message
@@ -41,15 +47,15 @@ The value returned by **TB\_GETBITMAPFLAGS** is only advisory. The toolbar contr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

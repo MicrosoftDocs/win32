@@ -1,13 +1,16 @@
 ---
-Description: 'Supplies calculated (&\#0034;cooked&\#0034;) performance counter data. Supplies dynamic data to the WMI classes derived from Win32\_PerfFormattedData. Also known as the Cooked Counter Provider.'
+Description: Supplies calculated (&\#0034;cooked&\#0034;) performance counter data. Supplies dynamic data to the WMI classes derived from Win32\_PerfFormattedData. Also known as the Cooked Counter Provider.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '59823f7c-3046-4608-99df-1f43e2934e7e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 59823f7c-3046-4608-99df-1f43e2934e7e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Formatted Performance Data Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Formatted Performance Data Provider
@@ -22,14 +25,14 @@ Because performance data classes are added and modified dynamically on a given s
 
 The [**Win32\_PerfFormattedData**](https://msdn.microsoft.com/library/aa394253) classes use the **CookingType** qualifier in [WMI Performance Counter Types](wmi-performance-counter-types.md) to specify the formula for calculating performance data. This qualifier is the same as the **CounterType** qualifier in the [**Win32\_PerfRawData**](https://msdn.microsoft.com/library/aa394299) classes.
 
-As a high-performance provider, the Cooked Counter provider implements the standard [**IWbemProviderInit**](iwbemproviderinit.md) interface, as well as the [**IWbemRefresher::Refresh**](iwbemrefresher-refresh.md) method and the following [**IWbemHiPerfProvider**](iwbemhiperfprovider.md) methods:
+As a high-performance provider, the Cooked Counter provider implements the standard [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface, as well as the [**IWbemRefresher::Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) method and the following [**IWbemHiPerfProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemhiperfprovider?branch=master) methods:
 
--   [**CreateRefreshableEnum**](iwbemhiperfprovider-createrefreshableenum.md)
--   [**CreateRefreshableObject**](iwbemhiperfprovider-createrefreshableobject.md)
--   [**CreateRefresher**](iwbemhiperfprovider-createrefresher.md)
--   [**GetObjects**](iwbemhiperfprovider-getobjects.md)
--   [**QueryInstances**](iwbemhiperfprovider-queryinstances.md)
--   [**StopRefreshing**](iwbemhiperfprovider-stoprefreshing.md)
+-   [**CreateRefreshableEnum**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum?branch=master)
+-   [**CreateRefreshableObject**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject?branch=master)
+-   [**CreateRefresher**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher?branch=master)
+-   [**GetObjects**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-getobjects?branch=master)
+-   [**QueryInstances**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-queryinstances?branch=master)
+-   [**StopRefreshing**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing?branch=master)
 
 ## Related topics
 

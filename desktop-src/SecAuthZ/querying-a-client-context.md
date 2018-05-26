@@ -1,20 +1,25 @@
 ---
-Description: 'Applications can call the AuthzGetInformationFromContext function to query information about an existing client context.'
-ms.assetid: '32655e54-499e-439e-8d4f-f2b4eaa0b184'
+Description: Applications can call the AuthzGetInformationFromContext function to query information about an existing client context.
+ms.assetid: 32655e54-499e-439e-8d4f-f2b4eaa0b184
 title: Querying a Client Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying a Client Context
 
-Applications can call the [**AuthzGetInformationFromContext**](authzgetinformationfromcontext.md) function to query information about an existing client context.
+Applications can call the [**AuthzGetInformationFromContext**](/windows/win32/Authz/nf-authz-authzgetinformationfromcontext?branch=master) function to query information about an existing client context.
 
-The *InfoClass* parameter of the [**AuthzGetInformationFromContext**](authzgetinformationfromcontext.md) function takes a value from the [**AUTHZ\_CONTEXT\_INFORMATION\_CLASS**](authz-context-information-class.md) enumeration that specifies what type of information the function queries.
+The *InfoClass* parameter of the [**AuthzGetInformationFromContext**](/windows/win32/Authz/nf-authz-authzgetinformationfromcontext?branch=master) function takes a value from the [**AUTHZ\_CONTEXT\_INFORMATION\_CLASS**](/windows/win32/Authz/ne-authz-_authz_context_information_class?branch=master) enumeration that specifies what type of information the function queries.
 
 Security attribute variables must be present in the client context if referred to in a conditional expression; otherwise, the conditional expression term referencing them will be evaluated as unknown. For more information on conditional expressions, see the [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md) topic.
 
 ## Example
 
-The following example queries the client context created in the example from [Initializing a Client Context](initializing-a-client-context.md) to retrieve the list of [**SIDs**](sid.md) of groups associated with that client context.
+The following example queries the client context created in the example from [Initializing a Client Context](initializing-a-client-context.md) to retrieve the list of [**SIDs**](/windows/win32/Winnt/ns-winnt-_sid?branch=master) of groups associated with that client context.
 
 
 ```C++

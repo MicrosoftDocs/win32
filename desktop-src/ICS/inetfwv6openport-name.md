@@ -1,8 +1,11 @@
 ---
 title: INetFwV6OpenPort Name property
 description: Returns the display name for this port and protocol pair. The name is for informational purposes only and has no bearing on the operation of the system.
-ms.assetid: '4f61bf9e-62ac-42b6-9ea5-fbf9b4ee4a8e'
-keywords: ["Name property ICS/ICF", "Name property ICS/ICF , INetFwV6OpenPort interface", "INetFwV6OpenPort interface ICS/ICF , Name property"]
+ms.assetid: 4f61bf9e-62ac-42b6-9ea5-fbf9b4ee4a8e
+keywords:
+- Name property ICS/ICF
+- Name property ICS/ICF , INetFwV6OpenPort interface
+- INetFwV6OpenPort interface ICS/ICF , Name property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INetFwV6OpenPort::Name property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Name(
-  [out] PORT_PROTOCOL *pbstrName
+  [out] PORT_PROTOCOL *pbstrName
 );
 ```
 
@@ -64,10 +72,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -83,9 +91,9 @@ If the method fails, the return value is one of the following error codes.
 [**INetFwV6OpenPort**](inetfwv6openport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

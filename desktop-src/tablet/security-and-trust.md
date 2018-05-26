@@ -1,7 +1,12 @@
-﻿---
-Description: 'The .NET Framework has a security model that treats applications differently depending on their origin.'
-ms.assetid: '37fa870a-6f38-44ae-943e-27697f6b9fba'
+---
+Description: The .NET Framework has a security model that treats applications differently depending on their origin.
+ms.assetid: 37fa870a-6f38-44ae-943e-27697f6b9fba
 title: Security and Trust
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security and Trust
@@ -24,9 +29,9 @@ The following table lists the classes and members that require additional permis
 | Class or Method                                                                       | Permissions                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CanPaste**](inkdisp-canpaste.md)                                                  | [UIPermissionClipboard.AllClipboard](T:System.Security.Permissions.UIPermissionClipboard)<br/>                                                                                                           |
-| [**Ink.ClipboardCopy**](inkdisp-clipboardcopy.md)                                    | [UIPermissionClipboard.OwnClipboard](T:System.Security.Permissions.UIPermissionClipboard)<br/>                                                                                                           |
+| [**Ink.ClipboardCopy**](/windows/win32/msinkaut/?branch=master)                                    | [UIPermissionClipboard.OwnClipboard](T:System.Security.Permissions.UIPermissionClipboard)<br/>                                                                                                           |
 | [**Ink.ClipboardPaste**](inkdisp-clipboardpaste.md)                                  | [UIPermissionClipboard.AllClipboard](T:System.Security.Permissions.UIPermissionClipboard)<br/>                                                                                                           |
-| [**InkCollector**](inkcollector-class.md)                                            | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
+| [**InkCollector**](/windows/win32/msinkaut/?branch=master)                                            | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
 | InkCollector(IntPtr)                                                                  | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag)<br/>         |
 | InkCollector.Handle                                                                   | [UIPermissionWindow.AllWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag) (see note below)<br/> |
 | InkEdit                                                                               | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
@@ -35,13 +40,13 @@ The following table lists the classes and members that require additional permis
 | [InkOverlay.Handle](frlrfMicrosoftInkInkOverlayClassHandleTopic)                      | [UIPermissionWindow.AllWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag) (see note below)<br/> |
 | [InkPicture](frlrfMicrosoftInkInkPictureClassTopic)                                   | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
 | [PenInputPanel](frlrfMicrosoftInkPenInputPanelClassTopic)                             | See note below.<br/>                                                                                                                                                                                     |
-| [**InkRenderer**](inkrenderer-class.md)                                              | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
-| [**Draw**](inkrenderer-draw.md), [**DrawStroke**](inkrenderer-drawstroke.md)        | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag)<br/>         |
+| [**InkRenderer**](/windows/win32/msinkaut/?branch=master)                                              | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
+| [**Draw**](inkrenderer-draw.md), [**DrawStroke**](/windows/win32/msinkaut/?branch=master)        | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag)<br/>         |
 | Renderer.InkSpaceToPixel(IntPtr,Point), Renderer.InkSpaceToPixel(IntPtr,Point\[\])    | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag)<br/>         |
 | Renderer.PixelToInkSpace(IntPtr,Point), Renderer.PixelToInkSpace(IntPtr,Point\[\])    | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag)<br/>         |
-| [**DynamicRenderer**](dynamicrenderer-class.md)                                      | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
+| [**DynamicRenderer**](/windows/win32/RTSCom/?branch=master)                                      | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
 | DynamicRenderer(IntPtr)                                                               | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag)<br/>         |
-| [**RealTimeStylus**](realtimestylus-class.md)                                        | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
+| [**RealTimeStylus**](/windows/win32/RTSCom/?branch=master)                                        | [UIPermissionWindow.SafeTopLevelWindows](T:System.Security.Permissions.UIPermissionWindow)<br/>                                                                                                          |
 | RealTimeStylus(IntPtr), RealTimeStylus(IntPtr,Boolean), RealTimeStylus(IntPtr,Tablet) | [UIPermissionWindow.AllWindows](T:System.Security.Permissions.UIPermissionWindow) and [SecurityPermissionFlag.UnmanagedCode](T:System.Security.Permissions.SecurityPermissionFlag)<br/>                  |
 
 

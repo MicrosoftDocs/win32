@@ -1,7 +1,12 @@
 ---
 title: Using IMAPI
 description: The following topics demonstrate the use of the image mastering API.
-ms.assetid: 'c42043db-612f-488f-a6ae-a8caea8ac42b'
+ms.assetid: c42043db-612f-488f-a6ae-a8caea8ac42b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using IMAPI
@@ -23,11 +28,11 @@ The following documentation provides detailed guidance for common IMAPI scenario
 | [Creating a Multisession Disc](creating-a-multisession-disc.md)                                                 | Demonstrates the creation of a multisession disc using IMAPI.<br/>                                                                                              |
 | [Monitoring Progress With Events](monitoring-progress-with-events.md)                                           | Demonstrates the use of specific interfaces in order to allow the implementation of an event handler so that progress information may be received. <br/>        |
 | [Preventing Logoff or Suspend During a Burn](preventing-logoff-or-suspend-during-a-burn.md)                     | Contains information detailing application development considerations to be made in regards to scenarios involving user 'Logoff' and 'Suspend' in Windows.<br/> |
-| [Providing User Permissions for Media Burning Devices](providing-user-permissions-for-media-burning-devices.md) | Details the process required to ensure a user has adequate permissions to utilize media burning devices on Windows XP and Windows Server 2003.<br/>             |
+| [Providing User Permissions for Media Burning Devices](providing-user-permissions-for-media-burning-devices.md) | Details the process required to ensure a user has adequate permissions to utilize media burning devices on Windows XP and Windows Server 2003.<br/>             |
 
 
 
- 
+ 
 
 ## Application Compatibility
 
@@ -41,11 +46,11 @@ The following documentation contains important information to take consideration
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

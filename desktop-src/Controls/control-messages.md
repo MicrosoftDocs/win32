@@ -1,7 +1,12 @@
 ---
 title: Control Messages
 description: This section contains information about how Windows messages are used to communicate with controls.
-ms.assetid: '94d34132-25c2-4a1a-bd0e-35e5a666bbfa'
+ms.assetid: 94d34132-25c2-4a1a-bd0e-35e5a666bbfa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control Messages
@@ -46,7 +51,7 @@ When a change is made to the system color settings, Windows sends a [**WM\_SYSCO
 
 Controls are child windows that send notification messages to the parent window when events, usually triggered by input from the user, occur in the control. The application relies on these notification messages to determine what action the user wants it to take. Except for trackbars, which use the [**WM\_HSCROLL**](wm-hscroll.md) and [**WM\_VSCROLL**](wm-vscroll.md) messages to notify their parent of changes, common controls send notifications as either [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) or [**WM\_NOTIFY**](wm-notify.md) messages, as specified in the reference topic for the notification. Typically, older notifications (those that have been in the API for a long time) use **WM\_COMMAND**.
 
-The *lParam* parameter of [**WM\_NOTIFY**](wm-notify.md) is either the address of an [**NMHDR**](nmhdr.md) structure or the address of a larger structure that includes **NMHDR** as its first member. The structure contains the notification code and identifies the common control that sent the notification message. The meaning of the remaining structure members, if any, varies depending on the notification code.
+The *lParam* parameter of [**WM\_NOTIFY**](wm-notify.md) is either the address of an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure or the address of a larger structure that includes **NMHDR** as its first member. The structure contains the notification code and identifies the common control that sent the notification message. The meaning of the remaining structure members, if any, varies depending on the notification code.
 
 Each type of common control has a corresponding set of notification codes. The common control library also provides notification codes that can be sent by more than one type of common control. See the documentation for the control of interest to determine which notification codes it will send and what format they take.
 

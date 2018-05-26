@@ -1,8 +1,11 @@
 ---
 title: ActivityCollection DeleteItem method
 description: Deletes an Activity from the ActivityCollection.
-ms.assetid: '1F195F02-C069-4B9B-967B-9C36F0B156B0'
-keywords: ["DeleteItem method Access Execution Engine", "DeleteItem method Access Execution Engine , ActivityCollection interface", "ActivityCollection interface Access Execution Engine , DeleteItem method"]
+ms.assetid: 1F195F02-C069-4B9B-967B-9C36F0B156B0
+keywords:
+- DeleteItem method Access Execution Engine
+- DeleteItem method Access Execution Engine , ActivityCollection interface
+- ActivityCollection interface Access Execution Engine , DeleteItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActivityCollection::DeleteItem method
@@ -22,7 +30,7 @@ Deletes an [**Activity**](activity-struct.md) from the **ActivityCollection**.
 
 ```C++
 virtual HRESULT DeleteItem(
-  [in] INT index
+  [in] INT index
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The **Activity** objects hold data from **Activities/Activity** elements.
 [**ActivityCollection**](activitycollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

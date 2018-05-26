@@ -1,7 +1,12 @@
 ---
-Description: 'A custom action can call functions that are written in VBScript or JScript.'
-ms.assetid: 'd859713f-b8b8-4eb0-b678-52b5d880bd20'
+Description: A custom action can call functions that are written in VBScript or JScript.
+ms.assetid: d859713f-b8b8-4eb0-b678-52b5d880bd20
 title: Scripts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scripts

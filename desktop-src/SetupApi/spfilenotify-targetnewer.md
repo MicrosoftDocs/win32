@@ -1,7 +1,12 @@
 ---
-Description: 'The SPFILENOTIFY\_TARGETNEWER notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NEWER or SP\_COPY\_FORCE\_NEWER flags specified and a newer version of the file already exists in the target directory.'
-ms.assetid: '93bcd610-f75d-4900-841c-f67946af5c4a'
-title: 'SPFILENOTIFY\_TARGETNEWER message'
+Description: The SPFILENOTIFY\_TARGETNEWER notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NEWER or SP\_COPY\_FORCE\_NEWER flags specified and a newer version of the file already exists in the target directory.
+ms.assetid: 93bcd610-f75d-4900-841c-f67946af5c4a
+title: SPFILENOTIFY\_TARGETNEWER message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SPFILENOTIFY\_TARGETNEWER message
@@ -25,7 +30,7 @@ SPFILENOTIFY_TARGETNEWER
 *Param1* 
 </dt> <dd>
 
-Pointer to a [**FILEPATHS**](filepaths-str.md) structure that contains information about the paths for source and target files.
+Pointer to a [**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master) structure that contains information about the paths for source and target files.
 
 </dd> <dt>
 
@@ -49,7 +54,7 @@ The callback routine should return one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -57,8 +62,8 @@ The callback routine should return one of the following values.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Setupapi.h</dt> </dl> |
 
 
@@ -73,27 +78,27 @@ The callback routine should return one of the following values.
 [Notifications](notifications.md)
 </dt> <dt>
 
-[**FILEPATHS**](filepaths-str.md)
+[**FILEPATHS**](/windows/win32/Setupapi/ns-setupapi-_filepaths_a?branch=master)
 </dt> <dt>
 
-[**SetupCommitFileQueue**](setupcommitfilequeue.md)
+[**SetupCommitFileQueue**](/windows/win32/Setupapi/nf-setupapi-setupcommitfilequeuea?branch=master)
 </dt> <dt>
 
-[**SetupDefaultQueueCallback**](setupdefaultqueuecallback.md)
+[**SetupDefaultQueueCallback**](/windows/win32/Setupapi/nf-setupapi-setupdefaultqueuecallbacka?branch=master)
 </dt> <dt>
 
-[**SetupInstallFile**](setupinstallfile.md)
+[**SetupInstallFile**](/windows/win32/Setupapi/nf-setupapi-setupinstallfilea?branch=master)
 </dt> <dt>
 
-[**SetupInstallFileEx**](setupinstallfileex.md)
+[**SetupInstallFileEx**](/windows/win32/Setupapi/nf-setupapi-setupinstallfileexa?branch=master)
 </dt> <dt>
 
-[**SetupInstallFromInfSection**](setupinstallfrominfsection.md)
+[**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

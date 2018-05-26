@@ -1,14 +1,20 @@
 ---
 title: WM/Period Attribute
 description: The WM/Period attribute is the period of the content.
-ms.assetid: 'fb154ef7-c8bc-4468-8f3f-4b716291fd0a'
-keywords: ["WM/Period Attribute Windows Media Player"]
+ms.assetid: fb154ef7-c8bc-4468-8f3f-4b716291fd0a
+keywords:
+- WM/Period Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/Period
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Period Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the length of time, in minutes, since the user''s last activity.'
-ms.assetid: '2d1e68ad-6f65-4e64-afbf-505b2c9d3423'
+---
+Description: Gets the length of time, in minutes, since the users last activity.
+ms.assetid: 2d1e68ad-6f65-4e64-afbf-505b2c9d3423
 title: GetIdleMinutes function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetIdleMinutes function

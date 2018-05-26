@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetFileInfo function
 description: Do not use. Returns file information for a supplied file path string.
-ms.assetid: 'e3e6ad6e-101b-4adf-aa23-76e6352e42b5'
-keywords: ["MimeOleGetFileInfo function Windows Mail (formerly Outlook Express)"]
+ms.assetid: e3e6ad6e-101b-4adf-aa23-76e6352e42b5
+keywords:
+- MimeOleGetFileInfo function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetFileInfo function
@@ -22,12 +28,12 @@ Do not use. Returns file information for a supplied file path string.
 
 ```C++
 HRESULT MimeOleGetFileInfo(
-  _In_  LPSTR pszFilePath,
-  _Out_ LPSTR *ppszCntType,
-  _Out_ LPSTR *ppszSubType,
-  _Out_ LPSTR *ppszCntDesc,
-  _Out_ LPSTR *ppszFileName,
-  _Out_ LPSTR *ppszExtension
+  _In_  LPSTR pszFilePath,
+  _Out_ LPSTR *ppszCntType,
+  _Out_ LPSTR *ppszSubType,
+  _Out_ LPSTR *ppszCntDesc,
+  _Out_ LPSTR *ppszFileName,
+  _Out_ LPSTR *ppszExtension
 );
 ```
 
@@ -107,7 +113,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -116,7 +122,7 @@ Enter **NULL** for any parameter you do not wish to obtain info for. However, an
 > [!Note]  
 > Both *ppszCntType* and *ppszSubType* must be present and valid to receive info for either one.
 
- 
+ 
 
 ## Requirements
 
@@ -124,8 +130,8 @@ Enter **NULL** for any parameter you do not wish to obtain info for. However, an
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -140,9 +146,9 @@ Enter **NULL** for any parameter you do not wish to obtain info for. However, an
 [**MimeOleGetFileInfoW**](oe-mimeolegetfileinfow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

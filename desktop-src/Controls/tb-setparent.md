@@ -1,8 +1,9 @@
 ---
 title: TB\_SETPARENT message
 description: Sets the window to which the toolbar control sends notification messages.
-ms.assetid: '4863bd9f-021b-4295-9483-459fc19325d9'
-keywords: ["TB_SETPARENT message Windows Controls"]
+ms.assetid: 4863bd9f-021b-4295-9483-459fc19325d9
+keywords:
+- TB_SETPARENT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETPARENT message
@@ -45,15 +51,15 @@ The **TB\_SETPARENT** message does not change the parent window that was specifi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

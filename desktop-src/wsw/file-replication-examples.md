@@ -1,7 +1,12 @@
 ---
 title: File Replication Examples
-ms.assetid: 'cc15c17a-796f-4273-a534-e005d07cf05f'
+ms.assetid: cc15c17a-796f-4273-a534-e005d07cf05f
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Replication Examples

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the class id of the manufacturer-provided user interface for this Windows Image Acquisition (WIA) hardware device. The value is a string representation of a GUID.'
-ms.assetid: '7a513399-c880-4485-ac62-876ba726aab4'
-title: 'DeviceInfo.UIClsid property'
+---
+Description: Retrieves the class id of the manufacturer-provided user interface for this Windows Image Acquisition (WIA) hardware device. The value is a string representation of a GUID.
+ms.assetid: 7a513399-c880-4485-ac62-876ba726aab4
+title: DeviceInfo.UIClsid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceInfo.UIClsid property

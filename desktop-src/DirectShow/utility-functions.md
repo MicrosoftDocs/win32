@@ -1,7 +1,12 @@
 ---
 Description: Utility Functions
-ms.assetid: '632cecc6-6e34-43e5-992d-5fb3b066c8c7'
+ms.assetid: 632cecc6-6e34-43e5-992d-5fb3b066c8c7
 title: Utility Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Utility Functions

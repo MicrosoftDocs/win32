@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the default context settings for the tablet.'
-ms.assetid: '59d1bab0-a8b8-4e23-9311-2921f9035dc4'
-title: 'ITablet::GetDefaultContextSettings method'
+Description: Retrieves the default context settings for the tablet.
+ms.assetid: 59d1bab0-a8b8-4e23-9311-2921f9035dc4
+title: ITabletGetDefaultContextSettings method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet::GetDefaultContextSettings method
@@ -13,7 +18,7 @@ Retrieves the default context settings for the tablet.
 
 ```C++
 HRESULT GetDefaultContextSettings(
-  [out] TABLET_CONTEXT_SETTINGS **ppTCS
+  [out] TABLET_CONTEXT_SETTINGS **ppTCS
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,7 +60,7 @@ It is the caller's responsibility to free the memory returned from this method b
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -68,9 +73,9 @@ It is the caller's responsibility to free the memory returned from this method b
 [**ITablet Interface**](itablet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

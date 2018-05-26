@@ -1,14 +1,20 @@
 ---
 title: TEXT.disabledBackgroundColor
 description: The disabledBackgroundColor attribute specifies or retrieves the background color used for the Text control when it is disabled.
-ms.assetid: 'bc902778-ef3c-4181-9c3b-a8c9d3ef2306'
-keywords: ["TEXT.disabledBackgroundColor Windows Media Player"]
+ms.assetid: bc902778-ef3c-4181-9c3b-a8c9d3ef2306
+keywords:
+- TEXT.disabledBackgroundColor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.disabledBackgroundColor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.disabledBackgroundColor
@@ -52,9 +58,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.backgroundColor**](text-backgroundcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

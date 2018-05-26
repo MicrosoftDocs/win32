@@ -1,7 +1,12 @@
 ---
 title: Using List Boxes
 description: This section explains how to perform tasks associated with list boxes.
-ms.assetid: '641f5dcf-b0c7-42cf-921c-d55795b8573a'
+ms.assetid: 641f5dcf-b0c7-42cf-921c-d55795b8573a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using List Boxes
@@ -21,11 +26,11 @@ This section explains how to perform tasks associated with list boxes.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

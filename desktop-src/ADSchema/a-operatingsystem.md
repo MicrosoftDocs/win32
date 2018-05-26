@@ -1,25 +1,30 @@
 ---
 title: Operating-System attribute
-description: The Operating System name, for example, Windows Vista Enterprise.
+description: The Operating System name, for example, Windows Vista Enterprise.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '15dbcc3b-3381-4a7d-930f-d96d933e6563'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 15dbcc3b-3381-4a7d-930f-d96d933e6563
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Operating-System attribute AD Schema", "operatingSystem attribute AD Schema"]
+keywords:
+- Operating-System attribute AD Schema
+- operatingSystem attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Operating-System
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Operating-System attribute
 
-The Operating System name, for example, Windows Vista Enterprise.
+The Operating System name, for example, Windows Vista Enterprise.
 
 
 
@@ -38,12 +43,12 @@ The Operating System name, for example, Windows Vista Enterprise.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The Operating System name, for example, Windows Vista Enterprise.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

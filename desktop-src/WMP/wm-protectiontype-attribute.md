@@ -1,14 +1,20 @@
 ---
 title: WM/ProtectionType Attribute
 description: The WM/ProtectionType attribute is the type of protection used on the content.
-ms.assetid: 'aab36b57-5b4e-4a3f-80cf-872ec8369c49'
-keywords: ["WM/ProtectionType Attribute Windows Media Player"]
+ms.assetid: aab36b57-5b4e-4a3f-80cf-872ec8369c49
+keywords:
+- WM/ProtectionType Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/ProtectionType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ProtectionType Attribute
@@ -48,9 +54,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

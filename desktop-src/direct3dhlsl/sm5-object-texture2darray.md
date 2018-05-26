@@ -1,14 +1,20 @@
 ---
 title: Texture2DArray
 description: Texture2DArray
-ms.assetid: '78ab2feb-4d67-4f6f-bffe-48d55183ce28'
-keywords: ["Texture2DArray HLSL"]
+ms.assetid: 78ab2feb-4d67-4f6f-bffe-48d55183ce28
+keywords:
+- Texture2DArray HLSL
 topic_type:
 - apiref
 api_name:
 - Texture2DArray
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray

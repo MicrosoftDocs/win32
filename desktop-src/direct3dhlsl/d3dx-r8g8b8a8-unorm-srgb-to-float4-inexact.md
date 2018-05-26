@@ -1,8 +1,9 @@
 ---
 title: D3DX\_R8G8B8A8\_UNORM\_SRGB\_to\_FLOAT4\_inexact function
 description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB shader data to an XMFLOAT4.
-ms.assetid: 'ca7c2bf8-30fd-48fa-b4d9-e69c28c7f603'
-keywords: ["D3DX_R8G8B8A8_UNORM_SRGB_to_FLOAT4_inexact function HLSL"]
+ms.assetid: ca7c2bf8-30fd-48fa-b4d9-e69c28c7f603
+keywords:
+- D3DX_R8G8B8A8_UNORM_SRGB_to_FLOAT4_inexact function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_R8G8B8A8\_UNORM\_SRGB\_to\_FLOAT4\_inexact function
@@ -21,7 +27,7 @@ Unpacks DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB shader data to an XMFLOAT4.
 
 ``` syntax
 XMFLOAT4 D3DX_R8G8B8A8_UNORM_SRGB_to_FLOAT4_inexact(
-   UINT packedInput
+   UINT packedInput
 );
 ```
 
@@ -64,9 +70,9 @@ This function uses shader instructions that don't have high enough precision to 
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: The following code example composes an SPN for a service that uses 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cbaa11ba-d32b-46cf-86a4-9050bb1be3a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cbaa11ba-d32b-46cf-86a4-9050bb1be3a6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Composing the SPNs for a Service with an SCP AD", "Service Principal Name AD , Composing SPNs for a Service with an SCP"]
+keywords:
+- Composing the SPNs for a Service with an SCP AD
+- Service Principal Name AD , Composing SPNs for a Service with an SCP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Composing the SPNs for a Service with an SCP

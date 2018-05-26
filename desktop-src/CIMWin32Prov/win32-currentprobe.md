@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_CurrentProbe WMI class represents the properties of a current monitoring sensor (ammeter).'
+Description: The Win32\_CurrentProbe WMI class represents the properties of a current monitoring sensor (ammeter).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2e1da856-b787-404b-ac4b-080c4950bad8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2e1da856-b787-404b-ac4b-080c4950bad8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_CurrentProbe class'
+title: Win32\_CurrentProbe class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CurrentProbe class
@@ -24,41 +27,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{464FFABA-946F-11d2-AAE2-006008C78BC7}"), AMENDMENT]
 class Win32_CurrentProbe : CIM_CurrentSensor
 {
-  sint32   Accuracy;
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  sint32   CurrentReading;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  sint32   Accuracy;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  sint32   CurrentReading;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  boolean  IsLinear;
-  uint32   LastErrorCode;
-  sint32   LowerThresholdCritical;
-  sint32   LowerThresholdFatal;
-  sint32   LowerThresholdNonCritical;
-  sint32   MaxReadable;
-  sint32   MinReadable;
-  string   Name;
-  sint32   NominalReading;
-  sint32   NormalMax;
-  sint32   NormalMin;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint32   Resolution;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  sint32   Tolerance;
-  sint32   UpperThresholdCritical;
-  sint32   UpperThresholdFatal;
-  sint32   UpperThresholdNonCritical;
+  boolean  IsLinear;
+  uint32   LastErrorCode;
+  sint32   LowerThresholdCritical;
+  sint32   LowerThresholdFatal;
+  sint32   LowerThresholdNonCritical;
+  sint32   MaxReadable;
+  sint32   MinReadable;
+  string   Name;
+  sint32   NominalReading;
+  sint32   NormalMax;
+  sint32   NormalMin;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint32   Resolution;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  sint32   Tolerance;
+  sint32   UpperThresholdCritical;
+  sint32   UpperThresholdFatal;
+  sint32   UpperThresholdNonCritical;
 };
 ```
 
@@ -82,7 +85,7 @@ The **Win32\_CurrentProbe** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -323,7 +326,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1446,8 +1449,8 @@ The **Win32\_CurrentProbe** class is derived from [**CIM\_CurrentSensor**](cim-c
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1464,9 +1467,9 @@ The **Win32\_CurrentProbe** class is derived from [**CIM\_CurrentSensor**](cim-c
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

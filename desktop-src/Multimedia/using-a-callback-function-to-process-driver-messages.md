@@ -1,8 +1,20 @@
 ---
 title: Using a Callback Function to Process Driver Messages
 description: Using a Callback Function to Process Driver Messages
-ms.assetid: '7fef400f-5040-4d33-9a2f-bb12aa9369e0'
-keywords: ["waveform audio,callback functions", "audio data blocks,callback functions", "waveform audio,processing driver messages", "audio data blocks,processing driver messages", "processing driver messages", "waveInOpen function", "waveOutOpen function"]
+ms.assetid: 7fef400f-5040-4d33-9a2f-bb12aa9369e0
+keywords:
+- waveform audio,callback functions
+- audio data blocks,callback functions
+- waveform audio,processing driver messages
+- audio data blocks,processing driver messages
+- processing driver messages
+- waveInOpen function
+- waveOutOpen function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Callback Function to Process Driver Messages

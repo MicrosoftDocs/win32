@@ -1,7 +1,12 @@
 ---
 title: iSCSI WMI Class Structures
 description: iSCSI WMI Class Structures
-ms.assetid: 'e60f5fd9-bc27-4e1d-a5bb-930bf39b10ed'
+ms.assetid: e60f5fd9-bc27-4e1d-a5bb-930bf39b10ed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # iSCSI WMI Class Structures

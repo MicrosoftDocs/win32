@@ -1,12 +1,17 @@
 ---
-Description: 'Specify the protection levels for Copy Generation Management System&\#8212;Analog (CGMS-A).'
-ms.assetid: '739e2f9e-b8f1-4ee1-8706-9a069773a3de'
-title: 'CGMS-A Protection Flags'
+Description: Specify the protection levels for Copy Generation Management System&\#8212;Analog (CGMS-A).
+ms.assetid: 739e2f9e-b8f1-4ee1-8706-9a069773a3de
+title: CGMS-A Protection Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGMS-A Protection Flags
 
-The constants in the following table specify the protection levels for Copy Generation Management System—Analog (CGMS-A).
+The constants in the following table specify the protection levels for Copy Generation Management System Analog (CGMS-A).
 
 
 
@@ -31,8 +36,8 @@ These flags are equivalent to the **COPP\_CGMSA\_Protection\_Level** enumeration
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Opmapi.h</dt> </dl> |
 
 
@@ -44,9 +49,9 @@ These flags are equivalent to the **COPP\_CGMSA\_Protection\_Level** enumeration
 [Media Foundation Constants](media-foundation-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

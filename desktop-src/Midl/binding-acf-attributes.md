@@ -2,7 +2,13 @@
 title: Binding ACF Attributes
 description: Specify how the client connects to the server for remote procedure calls with the attributes listed in the following table.
 ms.assetid: 2a9fdd2f-c646-4ccd-bfa8-66fe973ef911
-keywords: ["ACF MIDL , attributes, binding"]
+keywords:
+- ACF MIDL , attributes, binding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Binding ACF Attributes

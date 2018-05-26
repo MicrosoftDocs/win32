@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'e91f72c8-3ad6-49e8-88cc-aa99c13cd4c2'
+ms.assetid: e91f72c8-3ad6-49e8-88cc-aa99c13cd4c2
 title: Navigating a Tree of Item Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Navigating a Tree of Item Objects

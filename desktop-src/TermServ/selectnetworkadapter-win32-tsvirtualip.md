@@ -4,11 +4,14 @@ description: Sets the MAC address of the network adapter to use for IP virtualiz
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ad67445c-6a8b-4980-997a-56aceb70965f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ad67445c-6a8b-4980-997a-56aceb70965f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SelectNetworkAdapter method Remote Desktop Services", "SelectNetworkAdapter method Remote Desktop Services , Win32_TSVirtualIP class", "Win32_TSVirtualIP class Remote Desktop Services , SelectNetworkAdapter method"]
+keywords:
+- SelectNetworkAdapter method Remote Desktop Services
+- SelectNetworkAdapter method Remote Desktop Services , Win32_TSVirtualIP class
+- Win32_TSVirtualIP class Remote Desktop Services , SelectNetworkAdapter method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SelectNetworkAdapter method of the Win32\_TSVirtualIP class
@@ -28,7 +34,7 @@ Sets the MAC address of the network adapter to use for IP virtualization.
 
 ```mof
 uint32 SelectNetworkAdapter(
-  [in] string NetworkAdapterMacAddress
+  [in] string NetworkAdapterMacAddress
 );
 ```
 
@@ -64,7 +70,7 @@ The method returns an error if the setting is under group policy control.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -78,9 +84,9 @@ The method returns an error if the setting is under group policy control.
 [**Win32\_TSVirtualIP**](win32-tsvirtualip.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

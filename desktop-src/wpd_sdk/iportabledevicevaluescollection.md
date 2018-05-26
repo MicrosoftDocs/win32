@@ -1,7 +1,12 @@
 ---
-Description: 'The IPortableDeviceValuesCollection interface holds a collection of zero-based indexed IPortableDeviceValues interfaces.'
-ms.assetid: '8bce9d27-f240-41ec-acf4-fefccdd95e9f'
+Description: The IPortableDeviceValuesCollection interface holds a collection of zero-based indexed IPortableDeviceValues interfaces.
+ms.assetid: 8bce9d27-f240-41ec-acf4-fefccdd95e9f
 title: IPortableDeviceValuesCollection interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValuesCollection interface
@@ -30,7 +35,7 @@ The **IPortableDeviceValuesCollection** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,9 +55,9 @@ The **IPortableDeviceValuesCollection** interface has these methods.
 [**Collection Interfaces**](collection-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

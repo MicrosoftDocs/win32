@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for driver major function call events. The following syntax is simplified from MOF code.'
-ms.assetid: '8c913145-ac50-4d40-8519-5fed79d977ba'
+---
+Description: This class is the event type class for driver major function call events. The following syntax is simplified from MOF code.
+ms.assetid: 8c913145-ac50-4d40-8519-5fed79d977ba
 title: DriverMajorFunctionCall class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DriverMajorFunctionCall class

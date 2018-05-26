@@ -1,7 +1,12 @@
 ---
 title: sample\_c\_lz (sm4 - asm)
 description: Performs a comparison filter. This instruction behaves like sample\_c, except LOD is 0, and derivatives are ignored.
-ms.assetid: '5F11F091-AF2F-4293-88C7-824F11FE01E4'
+ms.assetid: 5F11F091-AF2F-4293-88C7-824F11FE01E4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sample\_c\_lz (sm4 - asm)
@@ -15,7 +20,7 @@ Performs a comparison filter. This instruction behaves like [sample\_c](sample-c
 
 
 
- 
+ 
 
 
 
@@ -29,7 +34,7 @@ Performs a comparison filter. This instruction behaves like [sample\_c](sample-c
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -51,7 +56,7 @@ This instruction is available in all shaders, not just the Pixel Shader, for con
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +75,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -79,9 +84,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

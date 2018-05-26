@@ -1,8 +1,9 @@
 ---
 title: WMDM\_TAG\_DATATYPE enumeration
 description: The WMDM\_TAG\_DATATYPE enumeration type defines a data type.
-ms.assetid: '9c300814-5610-4e46-b441-e7f2fc78a47b'
-keywords: ["WMDM_TAG_DATATYPE enumeration windows Media Device Manager"]
+ms.assetid: 9c300814-5610-4e46-b441-e7f2fc78a47b
+keywords:
+- WMDM_TAG_DATATYPE enumeration windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_TAG\_DATATYPE enumeration
@@ -112,9 +118,9 @@ Specifies a date.
 [**Enumeration Types**](enumeration-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: MenuStartTime element
 description: Specifies the time index at which to start a source.
-ms.assetid: '3b0a6a2a-cd40-49d8-a36d-ec2cf4572af5'
-keywords: ["MenuStartTime element Windows Movie Maker and DVD Maker"]
+ms.assetid: 3b0a6a2a-cd40-49d8-a36d-ec2cf4572af5
+keywords:
+- MenuStartTime element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - MenuStartTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MenuStartTime element
@@ -50,7 +56,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -62,9 +68,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

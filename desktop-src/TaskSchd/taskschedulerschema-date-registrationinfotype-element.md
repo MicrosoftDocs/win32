@@ -1,14 +1,20 @@
 ---
 title: Date (registrationInfoType) Element
 description: Specifies the date and time when the task is registered.
-ms.assetid: '0b226786-152d-4231-afa6-db5a630525f3'
-keywords: ["Date element Task Scheduler"]
+ms.assetid: 0b226786-152d-4231-afa6-db5a630525f3
+keywords:
+- Date element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Date
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Date (registrationInfoType) Element
@@ -38,7 +44,7 @@ The **Date** element is defined by the [**registrationInfoType**](taskschedulers
 
 For scripting development, the registration date of a task is specified using the [**RegistrationInfo.Date**](registrationinfo-date.md) property.
 
-For C++ development, the registration date of a task is specified using the [**IRegistrationInfo::Date**](iregistrationinfo-date.md) property.
+For C++ development, the registration date of a task is specified using the [**IRegistrationInfo::Date**](/windows/win32/taskschd/nf-taskschd-iregistrationinfo-get_date?branch=master) property.
 
 ## Requirements
 
@@ -46,8 +52,8 @@ For C++ development, the registration date of a task is specified using the [**I
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ For C++ development, the registration date of a task is specified using the [**I
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

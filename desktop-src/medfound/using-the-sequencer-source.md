@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to use the Sequencer Source.'
-ms.assetid: '7ce8dc67-02b1-4fd4-9e4d-6614fdb40620'
+Description: This topic describes how to use the Sequencer Source.
+ms.assetid: 7ce8dc67-02b1-4fd4-9e4d-6614fdb40620
 title: Using the Sequencer Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Sequencer Source
@@ -24,11 +29,11 @@ The sequencer source exposes the following interfaces.
 
 | Interface                                                                        | Description                                                                        |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [**IMFMediaSource**](imfmediasource.md)                                         | Exposes generic media source functionality.                                        |
-| [**IMFSequencerSource**](imfsequencersource.md)                                 | Enables the application to add or remove topologies.                               |
-| [**IMFMediaSourceTopologyProvider**](imfmediasourcetopologyprovider.md)         | Retrieves the next topology to queue on the Media Session.                         |
-| [**IMFMediaSourcePresentationProvider**](imfmediasourcepresentationprovider.md) | Used by the Media Session to end segments. Applications do not use this interface. |
-| [**IMFGetService**](imfgetservice.md)                                           | Queries the sequencer source for [Service Interfaces](service-interfaces.md).     |
+| [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)                                         | Exposes generic media source functionality.                                        |
+| [**IMFSequencerSource**](/windows/win32/mfidl/nn-mfidl-imfsequencersource?branch=master)                                 | Enables the application to add or remove topologies.                               |
+| [**IMFMediaSourceTopologyProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcetopologyprovider?branch=master)         | Retrieves the next topology to queue on the Media Session.                         |
+| [**IMFMediaSourcePresentationProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcepresentationprovider?branch=master) | Used by the Media Session to end segments. Applications do not use this interface. |
+| [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master)                                           | Queries the sequencer source for [Service Interfaces](service-interfaces.md).     |
 
 
 
@@ -36,13 +41,13 @@ The sequencer source exposes the following interfaces.
 
 To play a sequence of media sources, perform the following steps:
 
-1.  To create the sequencer source, call the [**MFCreateSequencerSource**](mfcreatesequencersource.md) function.
-2.  For each segment, create a playback topology, as described in [Creating Playback Topologies](creating-playback-topologies.md). To add the topology to the presentation, call [**IMFSequencerSource::AppendTopology**](imfsequencersource-appendtopology.md).
-3.  Before starting playback, call [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md) on the sequencer source. This method returns a pointer to a presentation descriptor for the first segment. To get the topology associated with this segment, call **QueryInterface** on the sequencer source for the [**IMFMediaSourceTopologyProvider**](imfmediasourcetopologyprovider.md) interface. Pass the presentation descriptor to the [**IMFMediaSourceTopologyProvider::GetMediaSourceTopology**](imfmediasourcetopologyprovider-getmediasourcetopology.md) method. This method returns a pointer to the topology.
-4.  Pass the topology for the first segment to the Media Session, by calling the Media Session's [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) method.
-5.  Start playback by calling [**IMFMediaSession::Start**](imfmediasession-start.md).
-6.  When the sequencer source is ready to preroll the next segment, it sends an [MENewPresentation](menewpresentation.md) event whose event data is an [**IMFPresentationDescriptor**](imfpresentationdescriptor.md) interface pointer. Again, get the topology for the segment by calling [**GetMediaSourceTopology**](imfmediasourcetopologyprovider-getmediasourcetopology.md) on the sequencer source, and set the topology on the Media Session by calling [**SetTopology**](imfmediasession-settopology.md). It is not necessary to re-start the media source; it will automatically play through to the next segment.
-7.  Before the application quits, shut down the sequencer source by calling [**IMFMediaSource::Shutdown**](imfmediasource-shutdown.md).
+1.  To create the sequencer source, call the [**MFCreateSequencerSource**](/windows/win32/mfidl/nf-mfidl-mfcreatesequencersource?branch=master) function.
+2.  For each segment, create a playback topology, as described in [Creating Playback Topologies](creating-playback-topologies.md). To add the topology to the presentation, call [**IMFSequencerSource::AppendTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-appendtopology?branch=master).
+3.  Before starting playback, call [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master) on the sequencer source. This method returns a pointer to a presentation descriptor for the first segment. To get the topology associated with this segment, call **QueryInterface** on the sequencer source for the [**IMFMediaSourceTopologyProvider**](/windows/win32/mfidl/nn-mfidl-imfmediasourcetopologyprovider?branch=master) interface. Pass the presentation descriptor to the [**IMFMediaSourceTopologyProvider::GetMediaSourceTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasourcetopologyprovider-getmediasourcetopology?branch=master) method. This method returns a pointer to the topology.
+4.  Pass the topology for the first segment to the Media Session, by calling the Media Session's [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) method.
+5.  Start playback by calling [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master).
+6.  When the sequencer source is ready to preroll the next segment, it sends an [MENewPresentation](menewpresentation.md) event whose event data is an [**IMFPresentationDescriptor**](/windows/win32/mfidl/nn-mfidl-imfpresentationdescriptor?branch=master) interface pointer. Again, get the topology for the segment by calling [**GetMediaSourceTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasourcetopologyprovider-getmediasourcetopology?branch=master) on the sequencer source, and set the topology on the Media Session by calling [**SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master). It is not necessary to re-start the media source; it will automatically play through to the next segment.
+7.  Before the application quits, shut down the sequencer source by calling [**IMFMediaSource::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master).
 
 The following code shows how to get the topology and set it on the Media Session:
 
@@ -86,9 +91,9 @@ For a complete code example, see [Sequencer Source Example Code](sequencer-sourc
 
 The sequencer source maintains two lists of topologies: the *input list* and the *preroll list*.
 
-The input list is a collection of topologies corresponding to playlist segments, in the order that they were added by the application by calling [**IMFSequencerSource::AppendTopology**](imfsequencersource-appendtopology.md). This method assigns each topology a unique *segment identifier* of the type **MFSequencerElementId**. The segment identifier is set as an attribute for all source topology nodes. An application can get the segment identifier from a source node by using the [MF\_TOPONODE\_SEQUENCE\_ELEMENTID](mf-toponode-sequence-elementid-attribute.md) attribute. The input list can have duplicate topologies if the application called **AppendTopology** on the same topology more than once; however, they are identified by their unique segment identifiers.
+The input list is a collection of topologies corresponding to playlist segments, in the order that they were added by the application by calling [**IMFSequencerSource::AppendTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-appendtopology?branch=master). This method assigns each topology a unique *segment identifier* of the type **MFSequencerElementId**. The segment identifier is set as an attribute for all source topology nodes. An application can get the segment identifier from a source node by using the [MF\_TOPONODE\_SEQUENCE\_ELEMENTID](mf-toponode-sequence-elementid-attribute.md) attribute. The input list can have duplicate topologies if the application called **AppendTopology** on the same topology more than once; however, they are identified by their unique segment identifiers.
 
-The preroll list is a collection of input list topologies that have been initialized in preparation for playback. This enables the Media Session to transition to the next topology seamlessly when the active topology ends. The application cannot directly add or remove topologies from the preroll list; it is generated by the sequencer source when a topology from the input list is selected for playback. This causes the sequencer source to add the next topology from the input list to the preroll list. After doing so, the sequencer source asynchronously raises the [MENewPresentation](menewpresentation.md) event and passes the presentation descriptor for the preroll topology as event data. The application must listen for this event by using the Media Session's [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface and queue the preroll topology on the Media Session by calling [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md). This must be done before the Media Session completes playback of the active topology. **SetTopology** informs the Media Session about the next topology that it must play after playback of the active topology has ended. To ensure a seamless treansition, the application must call **SetTopology** before the Media Session completes playing the previous topology. Otherwise, there will be a gap between the segments.
+The preroll list is a collection of input list topologies that have been initialized in preparation for playback. This enables the Media Session to transition to the next topology seamlessly when the active topology ends. The application cannot directly add or remove topologies from the preroll list; it is generated by the sequencer source when a topology from the input list is selected for playback. This causes the sequencer source to add the next topology from the input list to the preroll list. After doing so, the sequencer source asynchronously raises the [MENewPresentation](menewpresentation.md) event and passes the presentation descriptor for the preroll topology as event data. The application must listen for this event by using the Media Session's [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface and queue the preroll topology on the Media Session by calling [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master). This must be done before the Media Session completes playback of the active topology. **SetTopology** informs the Media Session about the next topology that it must play after playback of the active topology has ended. To ensure a seamless treansition, the application must call **SetTopology** before the Media Session completes playing the previous topology. Otherwise, there will be a gap between the segments.
 
 The [MENewPresentation](menewpresentation.md) event is raised as long as there is a topology following the active topology. Consequently, if the input list contains only one topology, or if the active topology is the last one in the input list, this event is not raised.
 
@@ -96,9 +101,9 @@ The preroll list is synchronized with the input list and is refreshed each time 
 
 ## Deleting Topologies
 
-To remove a topology from the sequencer source, an application must call the [**IMFSequencerSource::DeleteTopology**](imfsequencersource-deletetopology.md) method and specify the segment identifier.
+To remove a topology from the sequencer source, an application must call the [**IMFSequencerSource::DeleteTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-deletetopology?branch=master) method and specify the segment identifier.
 
-Before calling [**DeleteTopology**](imfsequencersource-deletetopology.md), the application must make sure that Media Session is not using the topology that the application wants to delete. To do this, both of the following must occur before the application calls **DeleteTopology**:
+Before calling [**DeleteTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-deletetopology?branch=master), the application must make sure that Media Session is not using the topology that the application wants to delete. To do this, both of the following must occur before the application calls **DeleteTopology**:
 
 -   [MESessionTopologyStatus](mesessiontopologystatus.md) event with MF\_TOPOSTATUS\_ENDED is received for the topology to ensure that Media Session has completed playback.
 
@@ -110,9 +115,9 @@ If the segment being deleted is the active topology, playback is stopped and the
 
 An application can skip to a particular segment in the sequence by starting the [Media Session](media-session.md) with a segment offset, as follows:
 
-1.  Call the [**MFCreateSequencerSegmentOffset**](mfcreatesequencersegmentoffset.md) function to create the segment offset. Specify the identifier of the segment in the *dwId* parameter. (The identifier was returned by the [**IMFSequencerSource::AppendTopology**](imfsequencersource-appendtopology.md) method when you first added the topology to the sequencer source.) The *hnsOffset* parameter specifies a time offset, relative to the start of the segment. Playback will start at this time. For the *pvarSegmentOffset* parameter, pass in the address of an empty **PROPVARIANT**. When the function returns, this **PROPVARIANT** contains the segment offset.
+1.  Call the [**MFCreateSequencerSegmentOffset**](/windows/win32/mfidl/nf-mfidl-mfcreatesequencersegmentoffset?branch=master) function to create the segment offset. Specify the identifier of the segment in the *dwId* parameter. (The identifier was returned by the [**IMFSequencerSource::AppendTopology**](/windows/win32/mfidl/nf-mfidl-imfsequencersource-appendtopology?branch=master) method when you first added the topology to the sequencer source.) The *hnsOffset* parameter specifies a time offset, relative to the start of the segment. Playback will start at this time. For the *pvarSegmentOffset* parameter, pass in the address of an empty **PROPVARIANT**. When the function returns, this **PROPVARIANT** contains the segment offset.
 
-2.  Call the [**IMFMediaSession::Start**](imfmediasession-start.md) method on the Media Session. For the *pguidTimeFormat* parameter, use the GUID value MF\_TIME\_FORMAT\_SEGMENT\_OFFSET. This value indicates seeking by segment offset. For the *pvarStartPosition* parameter, pass the address of the **PROPVARIANT** created in the previous step.
+2.  Call the [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) method on the Media Session. For the *pguidTimeFormat* parameter, use the GUID value MF\_TIME\_FORMAT\_SEGMENT\_OFFSET. This value indicates seeking by segment offset. For the *pvarStartPosition* parameter, pass the address of the **PROPVARIANT** created in the previous step.
 
 The following code example shows how to skip to the start of a specified segment in a sequence.
 

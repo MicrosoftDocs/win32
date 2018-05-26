@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GroupName property specifies the group name if the outbound routing rule points to a group of fax devices.'
-ms.assetid: '2326cea7-3f33-4557-9ced-7ca2277f9216'
-title: 'FaxOutboundRoutingRule.GroupName property'
+---
+Description: The GroupName property specifies the group name if the outbound routing rule points to a group of fax devices.
+ms.assetid: 2326cea7-3f33-4557-9ced-7ca2277f9216
+title: FaxOutboundRoutingRule.GroupName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRule.GroupName property
@@ -27,7 +32,7 @@ A **String** that specifies or receives the group name for the group of fax devi
 
 This property is valid only if the [**UseDevice**](-mfax-faxoutboundroutingrule-usedevice-vb.md) property is equal to **False**.
 
-To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -52,7 +57,7 @@ To read or to write to this property, a user must have the [**farQUERY\_CONFIG**
 [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule-cpp.md)
+[**IFaxOutboundRoutingRule**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrule?branch=master)
 </dt> </dl>
 
  

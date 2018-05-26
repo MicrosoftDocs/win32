@@ -1,13 +1,16 @@
 ---
-Description: 'The Properties\_ property of the SWbemLastError object returns an SWbemPropertySet object that is a collection of the WMI properties for the current class or instance. This property is read-only.'
+Description: The Properties\_ property of the SWbemLastError object returns an SWbemPropertySet object that is a collection of the WMI properties for the current class or instance. This property is read-only.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '46ffadd0-82e3-4ace-85a6-a7cb4bc2f982'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 46ffadd0-82e3-4ace-85a6-a7cb4bc2f982
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemLastError.Properties\_ property'
+title: SWbemLastError.Properties\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemLastError.Properties\_ property
@@ -35,8 +38,8 @@ SWbemLastError.Properties_ As Object
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemLastError.Properties_ As Object
 
 
 
- 
+ 
 
- 
+ 
 
 
 

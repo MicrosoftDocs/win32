@@ -1,8 +1,14 @@
 ---
 title: Changer Miniclass Driver Routines
 description: Changer Miniclass Driver Routines
-ms.assetid: '28a91bf2-f01a-4fb7-b881-8ae30af4e24d'
-keywords: ["changer drivers WDK storage , miniclass drivers"]
+ms.assetid: 28a91bf2-f01a-4fb7-b881-8ae30af4e24d
+keywords:
+- changer drivers WDK storage , miniclass drivers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Changer Miniclass Driver Routines

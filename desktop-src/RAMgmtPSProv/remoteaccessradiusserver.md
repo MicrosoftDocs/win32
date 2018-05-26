@@ -2,13 +2,15 @@
 title: RemoteAccessRadiusServer class
 description: Represents a Remote Authentication Dial-In User Service (RADIUS) server.
 audience: developer
-ms.assetid: '3add55a9-9cd6-4ed4-8f5d-3ad668a69e19'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3add55a9-9cd6-4ed4-8f5d-3ad668a69e19
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessRadiusServer class", "RemoteAccessRadiusServer class, described"]
+keywords:
+- RemoteAccessRadiusServer class
+- RemoteAccessRadiusServer class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessRadiusServer class
@@ -39,12 +44,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class RemoteAccessRadiusServer
 {
   RemoteAccessRadiusServerPurpose ServerPurpose;
-  uint32                          Score;
-  uint32                          Timeout;
-  uint32                          Port;
-  string                          SharedSecret;
-  string                          AccountingOnOffMsg;
-  string                          MsgAuthenticator;
+  uint32                          Score;
+  uint32                          Timeout;
+  uint32                          Port;
+  string                          SharedSecret;
+  string                          AccountingOnOffMsg;
+  string                          MsgAuthenticator;
 };
 ```
 
@@ -197,16 +202,16 @@ Time out in seconds
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

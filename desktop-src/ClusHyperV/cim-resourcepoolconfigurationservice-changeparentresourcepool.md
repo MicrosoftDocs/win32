@@ -4,13 +4,16 @@ description: Starts a job to change the parent resource pool of a resource pool.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8e3af19d-33f3-4424-9775-e78dc184f4fd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8e3af19d-33f3-4424-9775-e78dc184f4fd
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ChangeParentResourcePool method", "ChangeParentResourcePool method, CIM_ResourcePoolConfigurationService class", "CIM_ResourcePoolConfigurationService class, ChangeParentResourcePool method"]
+keywords:
+- ChangeParentResourcePool method
+- ChangeParentResourcePool method, CIM_ResourcePoolConfigurationService class
+- CIM_ResourcePoolConfigurationService class, ChangeParentResourcePool method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeParentResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -30,10 +36,10 @@ Starts a job to change the parent resource pool of a resource pool.
 
 ```mof
 uint32 ChangeParentResourcePool(
-  [in]  CIM_ResourcePool REF ChildPool,
-  [in]  CIM_ResourcePool REF ParentPool[],
-  [in]  string               Settings[],
-  [out] CIM_ConcreteJob  REF Job
+  [in]  CIM_ResourcePool REF ChildPool,
+  [in]  CIM_ResourcePool REF ParentPool[],
+  [in]  string               Settings[],
+  [out] CIM_ConcreteJob  REF Job
 );
 ```
 
@@ -104,7 +110,7 @@ The possible values are:
 **Insufficient Resources** (8)
 </dt> <dt>
 
-**DMTF Reserved** (9–4095)
+**DMTF Reserved** (9 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
@@ -113,10 +119,10 @@ The possible values are:
 **Size Not Supported** (4097)
 </dt> <dt>
 
-**Method Reserved** (4098–32767)
+**Method Reserved** (4098 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -126,7 +132,7 @@ The possible values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -140,9 +146,9 @@ The possible values are:
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

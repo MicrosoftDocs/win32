@@ -1,7 +1,12 @@
 ---
 title: To specify a location for the help log file
 description: To specify a location for the help log file
-ms.assetid: '0956EE08-AED5-4555-9ECF-DC0266E9DFA5'
+ms.assetid: 0956EE08-AED5-4555-9ECF-DC0266E9DFA5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify a location for the help log file
@@ -16,14 +21,14 @@ ms.assetid: '0956EE08-AED5-4555-9ECF-DC0266E9DFA5'
 
     
 
-     
+     
 
 2.  In the **Log file** box, type the name of the file. If you want to save the file in a folder other than the one that contains the project file, type a path.
 
 > [!Note]  
 > The log file contains all the compiler messages. You can display all messages or [hide the ones you don't want to appear](to-hide-compiler-messages.md).
 
- 
+ 
 
 ## Related topics
 
@@ -32,9 +37,9 @@ ms.assetid: '0956EE08-AED5-4555-9ECF-DC0266E9DFA5'
 [About Help Projects Files](create-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

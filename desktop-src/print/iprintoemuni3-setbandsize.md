@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni3::SetBandSize method can be used with Unidrv-supported printers to specify the desired band size on the printed output.'
-ms.assetid: 'e75fdfa5-2b25-4d89-b3ef-40cb445f874f'
-title: 'IPrintOemUni3::SetBandSize method'
+---
+Description: The IPrintOemUni3SetBandSize method can be used with Unidrv-supported printers to specify the desired band size on the printed output.
+ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
+title: IPrintOemUni3SetBandSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni3::SetBandSize method

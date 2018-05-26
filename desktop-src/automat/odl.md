@@ -1,7 +1,12 @@
 ---
 title: odl
 description: Identifies an interface as an Object Description Language (ODL) interface.
-ms.assetid: '7741a631-f786-450e-9d48-486261048f81'
+ms.assetid: 7741a631-f786-450e-9d48-486261048f81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # odl

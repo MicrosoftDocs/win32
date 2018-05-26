@@ -1,8 +1,9 @@
 ---
 title: MCN\_SELECT notification code
 description: Sent by a month calendar control when the user makes an explicit date selection within a month calendar control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '3cabb4b2-9422-4190-85d3-ab6593891e3d'
-keywords: ["MCN_SELECT notification code Windows Controls"]
+ms.assetid: 3cabb4b2-9422-4190-85d3-ab6593891e3d
+keywords:
+- MCN_SELECT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCN\_SELECT notification code
@@ -33,7 +39,7 @@ MCN_SELECT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMSELCHANGE**](nmselchange.md) structure that contains information about the currently selected date range.
+Pointer to an [**NMSELCHANGE**](/windows/win32/Commctrl/ns-commctrl-tagnmselchange?branch=master) structure that contains information about the currently selected date range.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ The **MCN\_SELECT** notification code is similar to [**MCN\_SELCHANGE**](mcn-sel
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

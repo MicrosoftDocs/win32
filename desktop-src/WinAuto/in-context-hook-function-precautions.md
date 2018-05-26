@@ -1,7 +1,12 @@
 ---
 title: In-Context Hook Function Precautions
 description: For performance reasons, client developers register in-context hook functions.
-ms.assetid: '14b48920-a291-4519-b005-e559263a0e83'
+ms.assetid: 14b48920-a291-4519-b005-e559263a0e83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # In-Context Hook Function Precautions
@@ -19,15 +24,15 @@ Client developers should be aware of the following issues:
 
 ## Precautions for Server Developers
 
-Server developers need to be aware that client applications might register in-context hook functions. When a server calls [**NotifyWinEvent**](notifywinevent.md), it must be prepared to handle [**WM\_GETOBJECT**](wm-getobject.md) and other [**IAccessible**](iaccessible.md) methods.
+Server developers need to be aware that client applications might register in-context hook functions. When a server calls [**NotifyWinEvent**](/windows/win32/Winuser/nf-winuser-notifywinevent?branch=master), it must be prepared to handle [**WM\_GETOBJECT**](wm-getobject.md) and other [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods.
 
 ## Invalid Interface Pointers
 
-When a client calls [**AccessibleObjectFromEvent**](accessibleobjectfromevent.md) within an in-context hook function, the [**IAccessible**](iaccessible.md) interface pointer that is returned points directly to code in the server's address space. If the client calls an interface property using this pointer, the Component Object Model (COM) library is not involved with marshaling (packaging and sending interface parameters across process boundaries) or unmarshaling (unpackaging parameters that have been sent across process boundaries) and does not detect if an object is destroyed.
+When a client calls [**AccessibleObjectFromEvent**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromevent?branch=master) within an in-context hook function, the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer that is returned points directly to code in the server's address space. If the client calls an interface property using this pointer, the Component Object Model (COM) library is not involved with marshaling (packaging and sending interface parameters across process boundaries) or unmarshaling (unpackaging parameters that have been sent across process boundaries) and does not detect if an object is destroyed.
 
 If the client calls an interface property to an object that is destroyed, the invalid interface pointer causes a General Protection fault in the server's address space unless the server detects this situation.
 
-To protect against invalid interface pointers, servers [create proxy objects](creating-proxy-objects.md) that wrap accessible objects and monitor the life span of accessible objects. For instance, when a client calls an [**IAccessible**](iaccessible.md) property to get information about an object, the proxy checks whether the accessible object is still available, and if so, forwards the client's request to the accessible object. If the accessible object is destroyed, the proxy returns an error to the client.
+To protect against invalid interface pointers, servers [create proxy objects](creating-proxy-objects.md) that wrap accessible objects and monitor the life span of accessible objects. For instance, when a client calls an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) property to get information about an object, the proxy checks whether the accessible object is still available, and if so, forwards the client's request to the accessible object. If the accessible object is destroyed, the proxy returns an error to the client.
 
  
 

@@ -1,8 +1,11 @@
 ---
 title: Issue GetClassProgrammaticName method
 description: Returns the programmatic name of the class of the Issue.
-ms.assetid: 'FDF72E13-4D2D-4858-9586-012D4CD009CC'
-keywords: ["GetClassProgrammaticName method Access Execution Engine", "GetClassProgrammaticName method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetClassProgrammaticName method"]
+ms.assetid: FDF72E13-4D2D-4858-9586-012D4CD009CC
+keywords:
+- GetClassProgrammaticName method Access Execution Engine
+- GetClassProgrammaticName method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetClassProgrammaticName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetClassProgrammaticName method
@@ -22,7 +30,7 @@ Returns the programmatic name of the class of the **Issue**.
 
 ```C++
 virtual HRESULT GetClassProgrammaticName(
-  [out] LPCWSTR *classProgrammaticName
+  [out] LPCWSTR *classProgrammaticName
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The programmatic name of the class is the value of element **Issue/Class/Program
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The programmatic name of the class is the value of element **Issue/Class/Program
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

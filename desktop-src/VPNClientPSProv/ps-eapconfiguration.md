@@ -2,11 +2,13 @@
 title: PS\_EapConfiguration class
 description: The PS\_EapConfiguration class provides methods to create new Extensible Authentication Protocol (EAP) configuration objects that use certain authentication protocols.
 audience: developer
-ms.assetid: '510e9719-9a52-4a9b-aa80-216e8df2eede'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 510e9719-9a52-4a9b-aa80-216e8df2eede
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_EapConfiguration class", "PS_EapConfiguration class, described"]
+keywords:
+- PS_EapConfiguration class
+- PS_EapConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_EapConfiguration class
@@ -53,7 +58,7 @@ The **PS\_EapConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,8 +66,8 @@ The **PS\_EapConfiguration** class has these methods.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -76,9 +81,9 @@ The **PS\_EapConfiguration** class has these methods.
 [**EapConfiguration**](eapconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

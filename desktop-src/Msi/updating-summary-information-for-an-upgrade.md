@@ -1,7 +1,12 @@
-﻿---
-Description: 'The package code of the upgrade package must be changed from that of the original product.'
-ms.assetid: '786e864a-93e0-4ea6-adab-e87afbdd6ac2'
+---
+Description: The package code of the upgrade package must be changed from that of the original product.
+ms.assetid: 786e864a-93e0-4ea6-adab-e87afbdd6ac2
 title: Updating Summary Information for an Upgrade
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Updating Summary Information for an Upgrade

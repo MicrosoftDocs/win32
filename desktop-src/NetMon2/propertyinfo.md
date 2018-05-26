@@ -1,7 +1,12 @@
 ---
-Description: 'The PROPERTYINFO data structure defines one property of the protocol.'
-ms.assetid: 'f65166ba-1d94-4d65-b9d7-edb84ada0826'
+Description: The PROPERTYINFO data structure defines one property of the protocol.
+ms.assetid: f65166ba-1d94-4d65-b9d7-edb84ada0826
 title: PROPERTYINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PROPERTYINFO structure
@@ -14,20 +19,20 @@ The **PROPERTYINFO** data structure defines one property of the protocol.
 ```C++
 typedef struct _PROPERTYINFO {
   HPROPERTY hProperty;
-  DWORD     Version;
-  LPSTR     Label;
-  LPSTR     Comment;
-  BYTE      DataType;
-  BYTE      DataQualifier;
+  DWORD     Version;
+  LPSTR     Label;
+  LPSTR     Comment;
+  BYTE      DataType;
+  BYTE      DataQualifier;
   union {
-    LPVOID  lpExtendedInfo;
+    LPVOID  lpExtendedInfo;
     LPRANGE lpRange;
-    LPSET   lpSet;
-    DWORD   Bitmask;
-    DWORD   Value;
+    LPSET   lpSet;
+    DWORD   Bitmask;
+    DWORD   Value;
   };
-  WORD      FormatStringSize;
-  LPVOID    InstanceData;
+  WORD      FormatStringSize;
+  LPVOID    InstanceData;
 } PROPERTYINFO, *LPPROPERTYINFO;
 ```
 
@@ -101,7 +106,7 @@ Data type of the property. This member can have one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -128,7 +133,7 @@ The data qualifier of a property. This member provides precise information about
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -183,7 +188,7 @@ Specify the format function that is called to format the displayed data for the 
 
 ## Remarks
 
-The **PROPERTYINFO** structure is used in calls to the [AddProperty](addproperty.md) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md#-netmon-property-database-gly).
+The **PROPERTYINFO** structure is used in calls to the [AddProperty](/windows/win32/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty?branch=master) function. The **AddProperty** function adds a single property definition to the parser [*property database*](p.md#-netmon-property-database-gly).
 
 ## Requirements
 
@@ -191,8 +196,8 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](addproperty
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
@@ -201,7 +206,7 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](addproperty
 
 <dl> <dt>
 
-[AddProperty](addproperty.md)
+[AddProperty](/windows/win32/sql_1/nf-sql_1-sql_level_1_rpn_expression-addproperty?branch=master)
 </dt> <dt>
 
 [RANGE](range.md)
@@ -210,9 +215,9 @@ The **PROPERTYINFO** structure is used in calls to the [AddProperty](addproperty
 [SET](set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

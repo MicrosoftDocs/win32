@@ -1,7 +1,12 @@
 ---
 title: Button Control Reference
 description: .
-ms.assetid: 'fab77471-ca1b-480a-b956-a872bf8b129a'
+ms.assetid: fab77471-ca1b-480a-b956-a872bf8b129a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Control Reference

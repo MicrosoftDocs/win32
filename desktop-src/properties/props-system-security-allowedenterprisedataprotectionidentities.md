@@ -1,7 +1,12 @@
 ---
-Description: 'Encryption options.'
-ms.assetid: '0a117f9f-91c8-414e-b07b-68a95af22f28'
-title: 'System.Security.AllowedEnterpriseDataProtectionIdentities'
+Description: Encryption options.
+ms.assetid: 0a117f9f-91c8-414e-b07b-68a95af22f28
+title: System.Security.AllowedEnterpriseDataProtectionIdentities
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Security.AllowedEnterpriseDataProtectionIdentities

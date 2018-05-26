@@ -1,8 +1,9 @@
 ---
 title: TB\_GETIMAGELISTCOUNT message
 description: Gets the number of image lists associated with the toolbar.
-ms.assetid: 'ecabbecf-dfd1-4a34-b03b-d6137e852021'
-keywords: ["TB_GETIMAGELISTCOUNT message Windows Controls"]
+ms.assetid: ecabbecf-dfd1-4a34-b03b-d6137e852021
+keywords:
+- TB_GETIMAGELISTCOUNT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETIMAGELISTCOUNT message
@@ -37,15 +43,15 @@ Returns the number of image lists.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the brightness parameters of a computer monitor.'
-ms.assetid: '01fa3efc-2a1d-4405-989f-2c180842c6b9'
+Description: Represents the brightness parameters of a computer monitor.
+ms.assetid: 01fa3efc-2a1d-4405-989f-2c180842c6b9
 title: WmiMonitorBrightness class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorBrightness class
@@ -14,10 +19,10 @@ The **WmiMonitorBrightness** WMI class represents the brightness parameters of a
 class WmiMonitorBrightness : MSMonitorClass
 {
   boolean Active;
-  uint8   CurrentBrightness;
-          InstanceName;
-  uint8   Level[];
-  uint32  Levels;
+  uint8   CurrentBrightness;
+          InstanceName;
+  uint8   Level[];
+  uint32  Levels;
 };
 ```
 
@@ -114,8 +119,8 @@ For more information and code samples on using this class in PowerShell, see [Us
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -129,9 +134,9 @@ For more information and code samples on using this class in PowerShell, see [Us
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

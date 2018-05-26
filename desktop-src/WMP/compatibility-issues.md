@@ -1,8 +1,26 @@
 ---
 title: Compatibility Issues
 description: Compatibility Issues
-ms.assetid: '2a912f95-4edd-48b8-80c9-c226b06077f8'
-keywords: ["Windows Media metafile playlists,compatibility issues", "playlists,compatibility issues", "metafile playlists,compatibility issues", "Windows Media metafile playlists,Netscape", "playlists,Netscape", "metafile playlists,Netscape", "compatibility,HTMLView", "compatibility,Netscape", "Windows Media Player,Netscape", "Windows Media Player,compatibility issues", "HTMLView,Netscape", "HTMLView,compatibility issues", "Netscape compatibility issues"]
+ms.assetid: 2a912f95-4edd-48b8-80c9-c226b06077f8
+keywords:
+- Windows Media metafile playlists,compatibility issues
+- playlists,compatibility issues
+- metafile playlists,compatibility issues
+- Windows Media metafile playlists,Netscape
+- playlists,Netscape
+- metafile playlists,Netscape
+- compatibility,HTMLView
+- compatibility,Netscape
+- Windows Media Player,Netscape
+- Windows Media Player,compatibility issues
+- HTMLView,Netscape
+- HTMLView,compatibility issues
+- Netscape compatibility issues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compatibility Issues

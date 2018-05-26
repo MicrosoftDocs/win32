@@ -1,7 +1,12 @@
 ---
 title: HTML Help ActiveX Control Overview
 description: HTML Help ActiveX Control Overview
-ms.assetid: '4C72A536-09CB-4445-BD39-D981F970548C'
+ms.assetid: 4C72A536-09CB-4445-BD39-D981F970548C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Help ActiveX Control Overview

@@ -1,8 +1,30 @@
 ---
 title: Rich Media Streaming
 description: Rich Media Streaming
-ms.assetid: '3a48ee9a-5bf8-4cd0-9eed-07ec6da0f578'
-keywords: ["Windows Media Player,Web-based presentations", "Windows Media Player object model,Web-based presentations", "object model,Web-based presentations", "Windows Media Player Mobile,Web-based presentations", "Windows Media Player ActiveX control,Web-based presentations", "Windows Media Player Mobile ActiveX control,Web-based presentations", "ActiveX control,Web-based presentations", "Windows Media Player,rich media streaming", "Windows Media Player object model,rich media streaming", "object model,rich media streaming", "Windows Media Player Mobile,rich media streaming", "Windows Media Player ActiveX control,rich media streaming", "Windows Media Player Mobile ActiveX control,rich media streaming", "ActiveX control,rich media streaming", "Web-based presentations,rich media streaming", "creating Web-based presentations,rich media streaming", "rich media streaming"]
+ms.assetid: 3a48ee9a-5bf8-4cd0-9eed-07ec6da0f578
+keywords:
+- Windows Media Player,Web-based presentations
+- Windows Media Player object model,Web-based presentations
+- object model,Web-based presentations
+- Windows Media Player Mobile,Web-based presentations
+- Windows Media Player ActiveX control,Web-based presentations
+- Windows Media Player Mobile ActiveX control,Web-based presentations
+- ActiveX control,Web-based presentations
+- Windows Media Player,rich media streaming
+- Windows Media Player object model,rich media streaming
+- object model,rich media streaming
+- Windows Media Player Mobile,rich media streaming
+- Windows Media Player ActiveX control,rich media streaming
+- Windows Media Player Mobile ActiveX control,rich media streaming
+- ActiveX control,rich media streaming
+- Web-based presentations,rich media streaming
+- creating Web-based presentations,rich media streaming
+- rich media streaming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rich Media Streaming

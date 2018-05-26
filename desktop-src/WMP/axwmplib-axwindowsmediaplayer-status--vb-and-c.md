@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.status property
 description: The status property gets a value indicating the status of Windows Media Player.
-ms.assetid: 'fefed54d-1fae-4599-8efc-eb2efdbd8ebd'
-keywords: ["status property Windows Media Player", "status property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , status property"]
+ms.assetid: fefed54d-1fae-4599-8efc-eb2efdbd8ebd
+keywords:
+- status property Windows Media Player
+- status property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , status property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.status property
@@ -78,9 +86,9 @@ The AxWindowsMediaPlayer.**StatusChange** event is fired whenever this property 
 [**AxWindowsMediaPlayer.StatusChange Event (VB and C#)**](axwmplib-axwindowsmediaplayer-statuschange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Windows Mail Miscellaneous Reference
 description: This documentation provides miscellaneous-related information about the set of interfaces for objects related to Windows Mail (formerly Outlook Express).
-ms.assetid: '1d524739-c26f-4fd9-92c3-3085112bf57f'
+ms.assetid: 1d524739-c26f-4fd9-92c3-3085112bf57f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mail Miscellaneous Reference
@@ -28,7 +33,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Objects
 
@@ -45,7 +50,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Enums
 
@@ -63,7 +68,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Structures
 
@@ -81,7 +86,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Constants
 
@@ -93,11 +98,11 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

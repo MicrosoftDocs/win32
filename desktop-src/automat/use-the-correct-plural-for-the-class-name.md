@@ -1,7 +1,12 @@
 ---
 title: Use the Correct Plural for the Class Name
 description: Collection classes should use the correct plural for the class name.
-ms.assetid: 'e2f9284f-56b1-4af6-8dfe-9f059e78e5f5'
+ms.assetid: e2f9284f-56b1-4af6-8dfe-9f059e78e5f5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use the Correct Plural for the Class Name

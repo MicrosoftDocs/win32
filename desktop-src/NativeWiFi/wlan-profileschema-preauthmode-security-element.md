@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether pre-authentication will be used by the client.'
-ms.assetid: '305d77b6-fe2d-45c6-ac91-5769f91de152'
-title: 'preAuthMode (security) Element'
+---
+Description: Indicates whether pre-authentication will be used by the client.
+ms.assetid: 305d77b6-fe2d-45c6-ac91-5769f91de152
+title: preAuthMode (security) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # preAuthMode (security) Element

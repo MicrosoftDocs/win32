@@ -1,13 +1,16 @@
 ---
-Description: 'WMI provides a standardized system management infrastructure that can be leveraged by a number of different clients.'
+Description: WMI provides a standardized system management infrastructure that can be leveraged by a number of different clients.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7aa0ead7-010c-4ad2-b6ba-0ef84263d5c6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7aa0ead7-010c-4ad2-b6ba-0ef84263d5c6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating WMI Clients
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating WMI Clients
@@ -153,7 +156,7 @@ foreach (CimInstance cimObj in queryInstance)
 
 
 
- 
+ 
 
 The following table lists the topics covered in this section.
 
@@ -168,7 +171,7 @@ The following table lists the topics covered in this section.
 | [Receiving a WMI Event](receiving-a-wmi-event.md)                                                           | Describes how to view WMI events.                                                                                                                                                              |
 | [Monitoring Events](monitoring-events.md)                                                                   | Describes how to monitor WMI events.                                                                                                                                                           |
 | [Querying with WQL](querying-with-wql.md)                                                                   | Introduces the WMI Query Language (WQL).                                                                                                                                                       |
-| [Querying the Status of Optional Features](querying-the-status-of-optional-features.md)                     | In Windows 7, WMI implemented the [**Win32\_OptionalFeature**](https://msdn.microsoft.com/library/ee309383) class. This class retrieves the status of the optional features that are present on a computer. |
+| [Querying the Status of Optional Features](querying-the-status-of-optional-features.md)                     | In Windows 7, WMI implemented the [**Win32\_OptionalFeature**](https://msdn.microsoft.com/library/ee309383) class. This class retrieves the status of the optional features that are present on a computer. |
 | [Describing the Location of a WMI Object](describing-the-location-of-a-wmi-object.md)                       | Focuses on the syntax for describing the location of a WMI managed entity.                                                                                                                     |
 | [Accessing Other Operating System Features with WMI](accessing-other-operating-system-features-with-wmi.md) | Describes how to write WMI clients that access device drivers, Active Directory, and SNMP devices.                                                                                             |
 | [Accessing Data in the Interop Namespace](accessing-data-in-the-interop-namespace.md)                       | Association providers enable Windows Management Instrumentation (WMI) clients to traverse and retrieve profiles and associated class instances from different namespaces.                      |
@@ -178,11 +181,11 @@ The following table lists the topics covered in this section.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

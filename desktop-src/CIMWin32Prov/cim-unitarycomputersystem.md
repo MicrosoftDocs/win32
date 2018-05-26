@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_UnitaryComputerSystem class represents a desktop, mobile, network computer, server, or other type of single-node computer system.'
+Description: The CIM\_UnitaryComputerSystem class represents a desktop, mobile, network computer, server, or other type of single-node computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c696050d-c921-4056-adc7-e4a2e9f4e119'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c696050d-c921-4056-adc7-e4a2e9f4e119
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_UnitaryComputerSystem class'
+title: CIM\_UnitaryComputerSystem class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_UnitaryComputerSystem class
@@ -19,7 +22,7 @@ The **CIM\_UnitaryComputerSystem** class represents a desktop, mobile, network c
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,22 +32,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{8502C526-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class CIM_UnitaryComputerSystem : CIM_ComputerSystem
 {
-  string   Caption;
-  string   CreationClassName;
-  string   Description;
-  string   InitialLoadInfo[];
+  string   Caption;
+  string   CreationClassName;
+  string   Description;
+  string   InitialLoadInfo[];
   datetime InstallDate;
-  string   LastLoadInfo;
-  string   Name;
-  string   NameFormat;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   PowerState;
-  string   PrimaryOwnerContact;
-  string   PrimaryOwnerName;
-  uint16   ResetCapability;
-  string   Roles[];
-  string   Status;
+  string   LastLoadInfo;
+  string   Name;
+  string   NameFormat;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   PowerState;
+  string   PrimaryOwnerContact;
+  string   PrimaryOwnerName;
+  uint16   ResetCapability;
+  string   Roles[];
+  string   Status;
 };
 ```
 
@@ -67,7 +70,7 @@ The **CIM\_UnitaryComputerSystem** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -527,7 +530,7 @@ System is in a warning state and also in a power-save mode.
 
 </dt> <dd>
 
-Power save — hibernate.
+Power save   hibernate.
 
 </dd> <dt>
 
@@ -538,7 +541,7 @@ Power save — hibernate.
 
 </dt> <dd>
 
-Power save — soft off.
+Power save   soft off.
 
 </dd> </dl>
 
@@ -763,8 +766,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -778,9 +781,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_ComputerSystem**](cim-computersystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

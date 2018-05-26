@@ -1,12 +1,17 @@
 ---
-Description: 'Pointer to the IGraphConfig interface for performing dynamic reconnections.'
-ms.assetid: '44098541-e58e-4a42-974e-592e9a41814f'
-title: 'CDynamicOutputPin::m\_pGraphConfig member'
+Description: Pointer to the IGraphConfig interface for performing dynamic reconnections.
+ms.assetid: 44098541-e58e-4a42-974e-592e9a41814f
+title: CDynamicOutputPinm\_pGraphConfig member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin::m\_pGraphConfig member
 
-Pointer to the [**IGraphConfig**](igraphconfig.md) interface for performing dynamic reconnections.
+Pointer to the [**IGraphConfig**](/windows/win32/Strmif/nn-strmif-igraphconfig?branch=master) interface for performing dynamic reconnections.
 
 ## Syntax
 
@@ -35,9 +40,9 @@ IGraphConfig *m_pGraphConfig;
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

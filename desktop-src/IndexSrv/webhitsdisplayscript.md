@@ -1,7 +1,12 @@
 ---
 title: WebhitsDisplayScript
 description: WebhitsDisplayScript
-ms.assetid: '2416b593-94f8-47dc-bd7c-912cf641ca84'
+ms.assetid: 2416b593-94f8-47dc-bd7c-912cf641ca84
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WebhitsDisplayScript

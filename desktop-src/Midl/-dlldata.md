@@ -2,13 +2,19 @@
 title: /dlldata switch
 description: The /dlldata switch is used to specify the file name for the generated dlldata file for a proxy DLL. The default file name Dlldata.c is used if the /dlldata switch is not specified.
 ms.assetid: 5211498b-c641-447f-9514-a98766e26ea9
-keywords: ["/dlldata switch MIDL"]
+keywords:
+- /dlldata switch MIDL
 topic_type:
 - apiref
 api_name:
 - /dlldata
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /dlldata switch

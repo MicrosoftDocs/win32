@@ -1,7 +1,12 @@
 ---
 title: Arrays and RPC
 description: The C and C++ programming languages provide essentially two types of arrays single-dimensional and multidimensional.
-ms.assetid: '2aa042d6-6fd9-4164-a8bd-b73b9dceb0bf'
+ms.assetid: 2aa042d6-6fd9-4164-a8bd-b73b9dceb0bf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Arrays and RPC

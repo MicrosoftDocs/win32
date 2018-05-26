@@ -4,11 +4,14 @@ description: The GetBlueFromRGB method gets the blue value from an RGB value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0090e673-52f8-4343-ba97-59b359fe555b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 0090e673-52f8-4343-ba97-59b359fe555b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetBlueFromRGB method MMC", "GetBlueFromRGB method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetBlueFromRGB method"]
+keywords:
+- GetBlueFromRGB method MMC
+- GetBlueFromRGB method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetBlueFromRGB method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetBlueFromRGB method
@@ -60,9 +66,9 @@ An integer that contains the blue value (between 0 and 255) in the RGB value spe
 
 
 
- 
+ 
 
- 
+ 
 
 
 

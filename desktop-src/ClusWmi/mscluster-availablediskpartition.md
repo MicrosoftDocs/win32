@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents an available disk partition.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4F8C2FD7-0426-41D3-BC8C-E1829D6E46DB'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4F8C2FD7-0426-41D3-BC8C-E1829D6E46DB
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_AvailableDiskPartition class", "MSCluster_AvailableDiskPartition class, described"]
+keywords:
+- MSCluster_AvailableDiskPartition class
+- MSCluster_AvailableDiskPartition class, described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_AvailableDiskPartition class
@@ -51,24 +56,24 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{56F929D9-1593-49FB-8D5C-0599B582C44B}")]
 class MSCluster_AvailableDiskPartition : MSCluster_ClusterDiskPartition
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint32   Flags;
-  uint32   Characteristics;
-  string   Path;
-  string   VolumeLabel;
-  uint32   SerialNumber;
-  uint32   MaximumComponentLength;
-  uint32   FileSystemFlags;
-  string   FileSystem;
-  uint32   TotalSize;
-  uint32   FreeSpace;
-  uint32   PartitionNumber;
-  string   VolumeGuid;
-  string   MountPoints[];
+  string   Name;
+  string   Status;
+  uint32   Flags;
+  uint32   Characteristics;
+  string   Path;
+  string   VolumeLabel;
+  uint32   SerialNumber;
+  uint32   MaximumComponentLength;
+  uint32   FileSystemFlags;
+  string   FileSystem;
+  uint32   TotalSize;
+  uint32   FreeSpace;
+  uint32   PartitionNumber;
+  string   VolumeGuid;
+  string   MountPoints[];
 };
 ```
 
@@ -113,9 +118,9 @@ Access type: Read-only
 
 Provides the characteristics of the object. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -209,9 +214,9 @@ Access type: Read-only
 
 Provides access to the flags set for the object. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -488,7 +493,7 @@ This property is inherited from [**MSCluster\_ClusterDiskPartition**](mscluster-
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -505,9 +510,9 @@ This property is inherited from [**MSCluster\_ClusterDiskPartition**](mscluster-
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

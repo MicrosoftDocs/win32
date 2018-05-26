@@ -1,7 +1,12 @@
 ---
-Description: 'An operation was aborted because of an error.'
-ms.assetid: 'de7b5222-3a29-40cc-af1a-2672bd68b7c9'
-title: 'EC\_ERRORABORTEX'
+Description: An operation was aborted because of an error.
+ms.assetid: de7b5222-3a29-40cc-af1a-2672bd68b7c9
+title: EC\_ERRORABORTEX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_ERRORABORTEX
@@ -54,9 +59,9 @@ The legacy [Windows Media Source](windows-media-source-filter.md) filter sends t
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

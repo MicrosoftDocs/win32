@@ -1,7 +1,12 @@
 ---
-Description: 'Opens a handle to the specified Secure Sockets Layer protocol (SSL) protocol provider.'
-ms.assetid: '0d5c4da3-12d6-4a53-a4d0-f0f174a4c8d8'
+Description: Opens a handle to the specified Secure Sockets Layer protocol (SSL) protocol provider.
+ms.assetid: 0d5c4da3-12d6-4a53-a4d0-f0f174a4c8d8
 title: SslOpenProvider function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslOpenProvider function
@@ -13,9 +18,9 @@ The **SslOpenProvider** function opens a handle to the specified [*Secure Socket
 
 ```C++
 SECURITY_STATUS WINAPI SslOpenProvider(
-  _Out_ NCRYPT_PROV_HANDLE *phSslProvider,
-  _In_  LPCWSTR            pszProviderName,
-  _In_  DWORD              dwFlags
+  _Out_ NCRYPT_PROV_HANDLE *phSslProvider,
+  _In_  LPCWSTR            pszProviderName,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -66,7 +71,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,16 +79,16 @@ Possible return codes include, but are not limited to, the following.
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,22 @@
 ---
 title: Windows Movie Maker XML Extensibility
 description: Windows Movie Maker XML Extensibility
-ms.assetid: '84dcdc8e-b056-40fd-adb1-d5e48adaceb9'
-keywords: ["Windows Movie Maker,XML extensibility", "Movie Maker,XML extensibility", "programming reference,Windows Movie Maker XML extensibility", "reference for Windows Movie Maker,XML extensibility", "transitions,XML extensibility", "effects,XML extensibility", "Windows Movie Maker,case-sensitive XML file parsing", "Movie Maker,case-sensitive XML file parsing", "XML,Windows Movie Maker extensibility"]
+ms.assetid: 84dcdc8e-b056-40fd-adb1-d5e48adaceb9
+keywords:
+- Windows Movie Maker,XML extensibility
+- Movie Maker,XML extensibility
+- programming reference,Windows Movie Maker XML extensibility
+- reference for Windows Movie Maker,XML extensibility
+- transitions,XML extensibility
+- effects,XML extensibility
+- Windows Movie Maker,case-sensitive XML file parsing
+- Movie Maker,case-sensitive XML file parsing
+- XML,Windows Movie Maker extensibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Movie Maker XML Extensibility

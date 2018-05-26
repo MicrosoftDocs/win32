@@ -4,10 +4,13 @@ description: The following clipboard formats are supported by the IIS snap-in. T
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '999d5a3f-866e-4f32-b36c-ac7ff0b7613e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 999d5a3f-866e-4f32-b36c-ac7ff0b7613e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IIS Clipboard Formats

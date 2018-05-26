@@ -1,14 +1,20 @@
 ---
 title: ThumbnailTime element
 description: Specifies the time offset into the menu in the Windows DVD Maker user interface (UI) that renders a static preview of the menu style.
-ms.assetid: '9a7adebd-9543-4c4f-9a16-36db6e21e076'
-keywords: ["ThumbnailTime element Windows Movie Maker and DVD Maker"]
+ms.assetid: 9a7adebd-9543-4c4f-9a16-36db6e21e076
+keywords:
+- ThumbnailTime element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - ThumbnailTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ThumbnailTime element
@@ -49,7 +55,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -61,9 +67,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

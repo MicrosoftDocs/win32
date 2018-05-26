@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a unique session id created for this session.'
-ms.assetid: '779ebea9-69ff-469a-8ee0-06d570ede6cb'
-title: 'IMFMediaKeySession::get\_SessionId method'
+---
+Description: Gets a unique session id created for this session.
+ms.assetid: 779ebea9-69ff-469a-8ee0-06d570ede6cb
+title: IMFMediaKeySessionget\_SessionId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaKeySession::get\_SessionId method
@@ -50,7 +55,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaKeySession**](imfmediakeysession.md)
+[**IMFMediaKeySession**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediakeysession?branch=master)
 </dt> </dl>
 
  

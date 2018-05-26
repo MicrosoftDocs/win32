@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_EXECUTE message
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_EXECUTE message to a DDE server application to send a string to the server to be processed as a series of commands.
-ms.assetid: '23c18a57-83ee-4fd3-a5bc-71645bda34eb'
-keywords: ["WM_DDE_EXECUTE message Data Exchange"]
+ms.assetid: 23c18a57-83ee-4fd3-a5bc-71645bda34eb
+keywords:
+- WM_DDE_EXECUTE message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_EXECUTE message
@@ -98,8 +104,8 @@ Unless specified otherwise by a sub-protocol, the server should not post the [**
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -114,19 +120,19 @@ Unless specified otherwise by a sub-protocol, the server should not post the [**
 [**IsWindowUnicode**](https://msdn.microsoft.com/library/windows/desktop/ms633529)
 </dt> <dt>
 
-[**PackDDElParam**](packddelparam.md)
+[**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master)
 </dt> <dt>
 
 [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
 </dt> <dt>
 
-[**ReuseDDElParam**](reuseddelparam.md)
+[**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master)
 </dt> <dt>
 
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**UnpackDDElParam**](unpackddelparam.md)
+[**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master)
 </dt> <dt>
 
 [**WM\_DDE\_ACK**](wm-dde-ack.md)
@@ -138,9 +144,9 @@ Unless specified otherwise by a sub-protocol, the server should not post the [**
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

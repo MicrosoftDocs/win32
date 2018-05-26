@@ -1,14 +1,18 @@
 ---
-title: Setting up a Service's User Account
+title: Setting up a Services User Account
 description: Your service installer can suggest a default logon account for a service instance and allow the administrator to select the default account or specify a different one.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '37285c23-8922-4da5-9f0b-922ea5e5794e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 37285c23-8922-4da5-9f0b-922ea5e5794e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Setting up a Service's User Account AD"]
+keywords:
+- Setting up a Services User Account AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting up a Service's User Account

@@ -1,7 +1,12 @@
 ---
-Description: 'Recommended 8-Bit YUV Formats for Video Rendering'
-ms.assetid: '675d4c60-4c58-4f15-9bae-ffb0c389c608'
-title: 'Recommended 8-Bit YUV Formats for Video Rendering'
+Description: Recommended 8-Bit YUV Formats for Video Rendering
+ms.assetid: 675d4c60-4c58-4f15-9bae-ffb0c389c608
+title: Recommended 8-Bit YUV Formats for Video Rendering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recommended 8-Bit YUV Formats for Video Rendering

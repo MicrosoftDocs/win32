@@ -1,7 +1,12 @@
 ---
 title: IVMUSBDevice Properties
 description: The IVMUSBDevice interface exposes the following properties.
-ms.assetid: 'D542A0BA-0AC0-40E4-B06E-682952DB9DF4'
+ms.assetid: D542A0BA-0AC0-40E4-B06E-682952DB9DF4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMUSBDevice Properties

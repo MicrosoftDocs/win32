@@ -1,14 +1,20 @@
 ---
 title: WavePrefixProduct function
 description: Returns the product of all of the values in the active lanes in this wave with indices less than this lane.
-ms.assetid: '3A5B271D-EF45-4511-9086-A9AD0D215D9A'
-keywords: ["WavePrefixProduct function HLSL"]
+ms.assetid: 3A5B271D-EF45-4511-9086-A9AD0D215D9A
+keywords:
+- WavePrefixProduct function HLSL
 topic_type:
 - apiref
 api_name:
 - WavePrefixProduct
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WavePrefixProduct function

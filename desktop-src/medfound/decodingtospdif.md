@@ -1,7 +1,12 @@
 ---
-Description: 'Decoding to S/PDIF'
-ms.assetid: '1d0be7f5-66d6-415f-8eee-abccc6d33a09'
-title: 'Decoding to S/PDIF'
+Description: Decoding to S/PDIF
+ms.assetid: 1d0be7f5-66d6-415f-8eee-abccc6d33a09
+title: Decoding to S/PDIF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoding to S/PDIF

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Cancels the current transfer operation.'
-ms.assetid: '42c6b2c3-7b6a-45d2-a7ce-844e95fe277b'
-title: 'IWiaTransfer::Cancel method'
+---
+Description: Cancels the current transfer operation.
+ms.assetid: 42c6b2c3-7b6a-45d2-a7ce-844e95fe277b
+title: IWiaTransferCancel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaTransfer::Cancel method

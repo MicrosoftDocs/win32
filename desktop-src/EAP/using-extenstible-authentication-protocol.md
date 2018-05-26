@@ -1,7 +1,12 @@
 ---
 title: Using the Extensible Authentication Protocol
 description: Using the Extensible Authentication Protocol
-ms.assetid: '739fcb95-5d92-42c2-a28c-0f718ee45f17'
+ms.assetid: 739fcb95-5d92-42c2-a28c-0f718ee45f17
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Extensible Authentication Protocol

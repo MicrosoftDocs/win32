@@ -1,14 +1,19 @@
-﻿---
-Description: 'The LogonUserExExW function attempts to log a user on to the local computer.'
-ms.assetid: 'd90db4c6-a711-4519-8b91-5069cee07738'
+---
+Description: The LogonUserExExW function attempts to log a user on to the local computer.
+ms.assetid: d90db4c6-a711-4519-8b91-5069cee07738
 title: LogonUserExExW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogonUserExExW function
 
 The **LogonUserExExW** function attempts to log a user on to the local computer. The local computer is the computer from which **LogonUserExExW** was called. You cannot use **LogonUserExExW** to log on to a remote computer. Specify the user by using a user name and domain and [*authenticate*](security.a_gly#-security-authentication-gly) the user by using a plaintext password. If the function succeeds, it receives a handle to a token that represents the logged-on user. You can then use this token handle to impersonate the specified user or, in most cases, to create a [*process*](security.p_gly#-security-process-gly) that runs in the context of the specified user.
 
-This function is similar to the [**LogonUserEx**](logonuserex.md) function, except that it takes the additional parameter, *pTokenGroups*, which is a set of one or more [*security identifiers*](security.s_gly#-security-security-identifier-gly) (SIDs) that are added to the token returned to the caller when the logon is successful.
+This function is similar to the [**LogonUserEx**](/windows/win32/Winbase/nf-winbase-logonuserexa?branch=master) function, except that it takes the additional parameter, *pTokenGroups*, which is a set of one or more [*security identifiers*](security.s_gly#-security-security-identifier-gly) (SIDs) that are added to the token returned to the caller when the logon is successful.
 
 This function is not declared in a public header and has no associated import library. You must use the [**LoadLibrary**](base.loadlibrary) and [**GetProcAddress**](base.getprocaddress) functions to dynamically link to Advapi32.dll.
 
@@ -148,7 +153,7 @@ A pointer to a **DWORD** that receives the length of the profile buffer.
 *pQuotaLimits* \[out, optional\]
 </dt> <dd>
 
-A pointer to a [**QUOTA\_LIMITS**](quota-limits.md) structure that receives information about the quotas for the logged on user.
+A pointer to a [**QUOTA\_LIMITS**](/windows/win32/Winnt/ns-winnt-_quota_limits?branch=master) structure that receives information about the quotas for the logged on user.
 
 </dd> </dl>
 
@@ -207,10 +212,10 @@ If the optional *pTokenGroups* parameter is supplied, LSA will not add either th
 [**ImpersonateLoggedOnUser**](security.impersonateloggedonuser)
 </dt> <dt>
 
-[**LogonUserEx**](logonuserex.md)
+[**LogonUserEx**](/windows/win32/Winbase/nf-winbase-logonuserexa?branch=master)
 </dt> <dt>
 
-[**QUOTA\_LIMITS**](quota-limits.md)
+[**QUOTA\_LIMITS**](/windows/win32/Winnt/ns-winnt-_quota_limits?branch=master)
 </dt> </dl>
 
  

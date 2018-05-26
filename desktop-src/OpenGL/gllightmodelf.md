@@ -1,8 +1,9 @@
 ---
 title: glLightModelf function
 description: The glLightModelf function sets lighting model parameters.
-ms.assetid: '7002c157-514e-4102-93f7-21a0df97a5c2'
-keywords: ["glLightModelf function OpenGL"]
+ms.assetid: 7002c157-514e-4102-93f7-21a0df97a5c2
+keywords:
+- glLightModelf function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glLightModelf function
@@ -22,8 +28,8 @@ The **glLightModelf** function sets lighting model parameters.
 
 ```C++
 void WINAPI glLightModelf(
-   GLenum  pname,
-   GLfloat *param
+   GLenum  pname,
+   GLfloat *param
 );
 ```
 
@@ -47,7 +53,7 @@ A single-valued lighting model parameter. The following values are accepted.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -118,8 +124,8 @@ The following functions retrieve information related to the **glLightModelf** fu
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -142,9 +148,9 @@ The following functions retrieve information related to the **glLightModelf** fu
 [**glMaterial**](glmaterial-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

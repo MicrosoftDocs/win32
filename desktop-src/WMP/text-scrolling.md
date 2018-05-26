@@ -1,14 +1,20 @@
 ---
 title: TEXT.scrolling
 description: The scrolling attribute specifies or retrieves a value indicating whether the text scrolls.
-ms.assetid: '1cd5cb4e-673f-4273-91ff-50165c2b08fa'
-keywords: ["TEXT.scrolling Windows Media Player"]
+ms.assetid: 1cd5cb4e-673f-4273-91ff-50165c2b08fa
+keywords:
+- TEXT.scrolling Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TEXT.scrolling
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TEXT.scrolling
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,9 +77,9 @@ See the [value](text-value.md) attribute for a sample illustrating how the attri
 [**TEXT.scrollingDirection**](text-scrollingdirection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

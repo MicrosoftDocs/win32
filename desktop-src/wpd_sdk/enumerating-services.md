@@ -1,7 +1,12 @@
 ---
 Description: Enumerating Services
-ms.assetid: '6ee6eecb-3812-45c6-8b27-7dfd6fa82758'
+ms.assetid: 6ee6eecb-3812-45c6-8b27-7dfd6fa82758
 title: Enumerating Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Services
@@ -14,8 +19,8 @@ For example, if the WpdServiceSampleDriver is the only installed device, the app
 
 The **EnumerateContactsServices** method accomplishes the following tasks:
 
--   Creates an [**IPortableDeviceManager**](iportabledevicemanager.md) interface to handle enumeration of installed devices.
--   Creates an [**IPortableDeviceServiceManager**](iportabledeviceservicemanager.md) interface to handle enumeration of the services on each device.
+-   Creates an [**IPortableDeviceManager**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager?branch=master) interface to handle enumeration of installed devices.
+-   Creates an [**IPortableDeviceServiceManager**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager?branch=master) interface to handle enumeration of the services on each device.
 -   Iterates through the installed devices, searching for the Contacts service, and displays the device information for any device that supports this service.
 
 The following code illustrates the **EnumerateContactsServices** method.
@@ -140,10 +145,10 @@ void EumerateContactsServices(CAtlArray<PWSTR>&amp; ContactsServicePnpIDs)
 
 <dl> <dt>
 
-[**IPortableDeviceManager Interface**](iportabledevicemanager.md)
+[**IPortableDeviceManager Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceServiceManager Interface**](iportabledeviceservicemanager.md)
+[**IPortableDeviceServiceManager Interface**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager?branch=master)
 </dt> <dt>
 
 [WpdServicesApiSample](wpdapisample-sample-service-application.md)

@@ -4,17 +4,22 @@ description: Provides the GUID that is used to uniquely identify the network int
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '252197fb-f91b-42f6-b64a-f09d336704d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 252197fb-f91b-42f6-b64a-f09d336704d1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AdapterId Failover Cluster , for Network Interface common properties", "AdapterId Failover Cluster"]
+keywords:
+- AdapterId Failover Cluster , for Network Interface common properties
+- AdapterId Failover Cluster
 topic_type:
 - apiref
 api_name:
 - AdapterId
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AdapterId
@@ -27,13 +32,13 @@ Provides the **GUID** that is used to uniquely identify the network interface in
 |-----------|------------------------------------------------------------------|
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read-only](read-only-properties.md)                            |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -58,7 +63,7 @@ StringCbCopy( AdapterIdValue.sz, AdapterIdValue.cbLength, szAdapterIdData );
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -69,15 +74,15 @@ StringCbCopy( AdapterIdValue.sz, AdapterIdValue.cbLength, szAdapterIdData );
 [Network Interface Common Properties](network-interface-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks CachedPSOCb method
 description: Calls the cached PSO (Pipeline State Object) subobject callback of an object that implements this interface.
-ms.assetid: '9EF8C468-1D86-4F49-9091-36B6125F1B68'
-keywords: ["CachedPSOCb method", "CachedPSOCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, CachedPSOCb method"]
+ms.assetid: 9EF8C468-1D86-4F49-9091-36B6125F1B68
+keywords:
+- CachedPSOCb method
+- CachedPSOCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, CachedPSOCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::CachedPSOCb method
@@ -22,7 +30,7 @@ Calls the cached PSO (Pipeline State Object) subobject callback of an object tha
 
 ```C++
 void CachedPSOCb(
-  [ref] const D3D12_CACHED_PIPELINE_STATE &amp;CachedPSO
+  [ref] const D3D12_CACHED_PIPELINE_STATE &amp;CachedPSO
 );
 ```
 
@@ -35,7 +43,7 @@ void CachedPSOCb(
 *CachedPSO* \[ref\]
 </dt> <dd>
 
-Type: **const [**D3D12\_CACHED\_PIPELINE\_STATE**](d3d12-cached-pipeline-state.md)**
+Type: **const [**D3D12\_CACHED\_PIPELINE\_STATE**](/windows/win32/d3d12/ns-d3d12-d3d12_cached_pipeline_state?branch=master)**
 
 Details of the cached PSO (Pipeline State Object) subobject parsed from a pipeline state stream.
 
@@ -67,12 +75,12 @@ Returns nothing.
 [**ID3DX12PipelineParserCallbacks**](id3dx12pipelineparsercallbacks.md)
 </dt> <dt>
 
-[**D3D12\_CACHED\_PIPELINE\_STATE**](d3d12-cached-pipeline-state.md)
+[**D3D12\_CACHED\_PIPELINE\_STATE**](/windows/win32/d3d12/ns-d3d12-d3d12_cached_pipeline_state?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

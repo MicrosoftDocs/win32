@@ -1,7 +1,12 @@
 ---
 title: To add Related Topics links to a file
 description: To add Related Topics links to a file
-ms.assetid: '7767B074-540D-4746-B47C-CD45BCDBB619'
+ms.assetid: 7767B074-540D-4746-B47C-CD45BCDBB619
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To add Related Topics links to a file

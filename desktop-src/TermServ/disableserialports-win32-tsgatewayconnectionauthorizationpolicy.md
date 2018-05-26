@@ -4,11 +4,14 @@ description: Sets the SerialPortsDisabled property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '95c027e3-f76d-4335-84ac-93a1c3718e66'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 95c027e3-f76d-4335-84ac-93a1c3718e66
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DisableSerialPorts method Remote Desktop Services", "DisableSerialPorts method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , DisableSerialPorts method"]
+keywords:
+- DisableSerialPorts method Remote Desktop Services
+- DisableSerialPorts method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , DisableSerialPorts method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DisableSerialPorts method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
 
-Sets the **SerialPortsDisabled** property. If the **DeviceRedirectionType** property has a value of "2", the **SerialPortsDisabled** property controls redirection of the serial ports for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
+Sets the **SerialPortsDisabled** property. If the **DeviceRedirectionType** property has a value of "2", the **SerialPortsDisabled** property controls redirection of the serial ports for sessions that are established through the Remote Desktop Gateway (RD Gateway) server.
 
 ## Syntax
 
 
 ```mof
 uint32 DisableSerialPorts(
-  [in] boolean Disabled
+  [in] boolean Disabled
 );
 ```
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TSGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSGatewayConnectionAuthorizationPolicy**](win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

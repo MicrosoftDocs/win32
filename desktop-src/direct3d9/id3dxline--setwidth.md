@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the thickness of the line.'
-ms.assetid: 'cedf9217-2b47-40c3-a64c-9872c1083d71'
-title: 'ID3DXLine::SetWidth method'
+---
+Description: Specifies the thickness of the line.
+ms.assetid: cedf9217-2b47-40c3-a64c-9872c1083d71
+title: ID3DXLineSetWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXLine::SetWidth method

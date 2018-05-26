@@ -1,7 +1,12 @@
 ---
-Description: 'The GetEnabledProtocols function returns a table of all protocols that are marked Enabled.'
-ms.assetid: '11feac64-c770-47b2-a740-fc372e97b8ed'
+Description: The GetEnabledProtocols function returns a table of all protocols that are marked Enabled.
+ms.assetid: 11feac64-c770-47b2-a740-fc372e97b8ed
 title: GetEnabledProtocols function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetEnabledProtocols function
@@ -13,7 +18,7 @@ The **GetEnabledProtocols** function returns a table of all protocols that are m
 
 ```C++
 LPPROTOCOLTABLE WINAPI GetEnabledProtocols(
-  _In_ HCAPTURE hCapture
+  _In_ HCAPTURE hCapture
 );
 ```
 
@@ -46,8 +51,8 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -61,9 +66,9 @@ If the function is unsuccessful, the return value is **NULL**.
 [PROTOCOLTABLE](protocoltable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

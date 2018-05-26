@@ -1,7 +1,12 @@
 ---
 Description: Configuring the Demux Output Pins
-ms.assetid: 'c53f3fe6-5588-4faf-ba5c-6a6cf7e16f3a'
+ms.assetid: c53f3fe6-5588-4faf-ba5c-6a6cf7e16f3a
 title: Configuring the Demux Output Pins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Demux Output Pins
@@ -12,9 +17,9 @@ In pull mode, the demux automatically creates output pins for the audio and vide
 
 In push mode, the output pins must be configured by the application or by another filter. For digital television sources using the Broadcast Driver Architecture (BDA), the network provider filter works with the TIF filter to configure the demux. The application does not have to do anything. In other scenarios, the application must configure the output pins.
 
-The demux starts with no output pins. To create an output pin, call the [**IMpeg2Demultiplexer::CreateOutputPin**](impeg2demultiplexer-createoutputpin.md) method on the filter. This method takes a media type and a pin name, and returns an **IPin** pointer. The media type is used when the pin connects to another filter, typically a decoder—an example is given the section [Using the Demux with Elementary Streams](using-the-demux-with-elementary-streams.md). The pin name can be anything you like, except that duplicate pin names are not allowed.
+The demux starts with no output pins. To create an output pin, call the [**IMpeg2Demultiplexer::CreateOutputPin**](/windows/win32/Strmif/nf-strmif-impeg2demultiplexer-createoutputpin?branch=master) method on the filter. This method takes a media type and a pin name, and returns an **IPin** pointer. The media type is used when the pin connects to another filter, typically a decoder—an example is given the section [Using the Demux with Elementary Streams](using-the-demux-with-elementary-streams.md). The pin name can be anything you like, except that duplicate pin names are not allowed.
 
-Next, assign one or more stream IDs or PIDs to the new output pin. For program streams, query the pin for **IMPEG2StreamIdMap** and call [**IMPEG2StreamIdMap::MapStreamId**](impeg2streamidmap-mapstreamid.md). For transport streams, query the pin for **IMPEG2PIDMap** and call [**IMPEG2PIDMap::MapPID**](impeg2pidmap-mappid.md).
+Next, assign one or more stream IDs or PIDs to the new output pin. For program streams, query the pin for **IMPEG2StreamIdMap** and call [**IMPEG2StreamIdMap::MapStreamId**](/windows/win32/Strmif/nf-strmif-impeg2streamidmap-mapstreamid?branch=master). For transport streams, query the pin for **IMPEG2PIDMap** and call [**IMPEG2PIDMap::MapPID**](/windows/win32/Bdaiface/nf-bdaiface-impeg2pidmap-mappid?branch=master).
 
 There are several ways that the demux can parse TS packets. For each output pin, the parsing method is determined by the *MediaSampleContent* parameter to the **MapPID** method.
 

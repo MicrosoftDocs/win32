@@ -1,7 +1,12 @@
 ---
 title: HTML Filter
 description: HTML Filter
-ms.assetid: 'dd328ddc-6b3b-406c-bf72-e0dd08a6c8fb'
+ms.assetid: dd328ddc-6b3b-406c-bf72-e0dd08a6c8fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Filter
@@ -11,7 +16,7 @@ ms.assetid: 'dd328ddc-6b3b-406c-bf72-e0dd08a6c8fb'
 
  
 
-The HTML implementation for the [**IFilter**](ifilter.md) interface (in nlhtml.dll) extracts text and property information from the class "htmlfiles" so that it can be indexed by Indexing Service. Indexing Service calls the methods on this **IFilter** interface implementation when indexing HTML files. For a description of the association between filter and file type, see [Finding the Filter DLL for a File](finding-the-filter-dll-for-a-file.md).
+The HTML implementation for the [**IFilter**](/windows/win32/Filter/nn-filter-ifilter?branch=master) interface (in nlhtml.dll) extracts text and property information from the class "htmlfiles" so that it can be indexed by Indexing Service. Indexing Service calls the methods on this **IFilter** interface implementation when indexing HTML files. For a description of the association between filter and file type, see [Finding the Filter DLL for a File](finding-the-filter-dll-for-a-file.md).
 
 You can use the &lt;META&gt; tag feature of HTML documents to convey special handling requests to the HTML filter. &lt;META&gt; tags occur near the beginning of an html file within the &lt;HEAD&gt; ... &lt;/HEAD&gt; tags, as shown in the following example.
 

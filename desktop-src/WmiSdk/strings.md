@@ -1,13 +1,16 @@
 ---
-Description: 'A string is a data type that contains a string of characters usually intended as human-readable text.'
+Description: A string is a data type that contains a string of characters usually intended as human-readable text.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '08a07184-6d23-4988-a3de-e5bfc3e177f8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 08a07184-6d23-4988-a3de-e5bfc3e177f8
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Strings
@@ -20,12 +23,12 @@ The following table lists the string data types for MOF.
 
 | Data type  | Automation type | Description                                                                            |
 |------------|-----------------|----------------------------------------------------------------------------------------|
-| **char16** | **VT\_I2**      | Single 16-bit Unicode character in Universal Character Set–2 (UCS-2) format<br/> |
+| **char16** | **VT\_I2**      | Single 16-bit Unicode character in Universal Character Set 2 (UCS-2) format<br/> |
 | **string** | **VT\_BSTR**    | Unicode character string<br/>                                                    |
 
 
 
- 
+ 
 
 Use the following guidelines when writing strings for MOF:
 
@@ -82,9 +85,9 @@ instance of StringDataClass
 };
 ```
 
- 
+ 
 
- 
+ 
 
 
 

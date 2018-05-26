@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OfficeLocation property is a null-terminated string that contains the office location of the sender.'
-ms.assetid: '314f8581-fc1b-4d34-b149-627ec95491cd'
-title: 'FaxSender.OfficeLocation property'
+---
+Description: The OfficeLocation property is a null-terminated string that contains the office location of the sender.
+ms.assetid: 314f8581-fc1b-4d34-b149-627ec95491cd
+title: FaxSender.OfficeLocation property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.OfficeLocation property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the office location of the sender.
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

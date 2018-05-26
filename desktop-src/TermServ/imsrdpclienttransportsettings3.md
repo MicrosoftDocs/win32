@@ -1,14 +1,16 @@
 ---
 title: IMsRdpClientTransportSettings3 interface
-description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
+description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c0bdfe23-9a26-4feb-b9b7-e52f04f23aa1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c0bdfe23-9a26-4feb-b9b7-e52f04f23aa1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsRdpClientTransportSettings3 interface Remote Desktop Services", "IMsRdpClientTransportSettings3 interface Remote Desktop Services , described"]
+keywords:
+- IMsRdpClientTransportSettings3 interface Remote Desktop Services
+- IMsRdpClientTransportSettings3 interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,11 +19,14 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings3 interface
 
-Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
+Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
 
 ## Members
 
@@ -45,7 +50,7 @@ The **IMsRdpClientTransportSettings3** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,8 +58,8 @@ The **IMsRdpClientTransportSettings3** interface has these properties.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
+| Minimum supported client<br/> | Windows 7<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings3 is defined as 3D5B21AC-748D-41DE-8F30-E15169586BD4<br/> |
@@ -68,9 +73,9 @@ The **IMsRdpClientTransportSettings3** interface has these properties.
 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

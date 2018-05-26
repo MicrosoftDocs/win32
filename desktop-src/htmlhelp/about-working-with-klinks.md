@@ -1,7 +1,12 @@
 ---
 title: About Working with KLinks
 description: About Working with KLinks
-ms.assetid: 'A9923007-5A33-4353-8B15-3502F6956EA2'
+ms.assetid: A9923007-5A33-4353-8B15-3502F6956EA2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Working with KLinks

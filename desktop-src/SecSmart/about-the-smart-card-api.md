@@ -1,8 +1,14 @@
 ---
 title: About the Smart Card API
 description: This topic is not current. For the most current information about the Smart Card API, see Smart Card Minidriver Specification.
-ms.assetid: '339eea2f-c115-4800-9612-5ae0e61d1673'
-keywords: ["Smart Card API Smart Card , about"]
+ms.assetid: 339eea2f-c115-4800-9612-5ae0e61d1673
+keywords:
+- Smart Card API Smart Card , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Smart Card API
@@ -19,11 +25,11 @@ The Smart Card API architecture includes the [Microsoft Base Smart Card Cryptogr
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

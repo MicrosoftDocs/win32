@@ -1,14 +1,20 @@
 ---
 title: Day (daysOfMonthType) Element
 description: Specifies a day of the month during which the task runs.
-ms.assetid: 'b213df09-9301-4a51-b000-edfdafbe861e'
-keywords: ["Day element Task Scheduler"]
+ms.assetid: b213df09-9301-4a51-b000-edfdafbe861e
+keywords:
+- Day element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Day
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Day (daysOfMonthType) Element
@@ -53,8 +59,8 @@ The following XML defines the days portion of a monthly calendar that runs the t
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -65,9 +71,9 @@ The following XML defines the days portion of a monthly calendar that runs the t
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

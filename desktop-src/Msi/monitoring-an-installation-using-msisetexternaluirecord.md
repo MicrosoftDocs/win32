@@ -1,14 +1,19 @@
 ---
-Description: 'Package authors can monitor internal Windows Installer messages through the creation of an executable application that contains both a record-based callback handler to receive the messages and functionality to initiate an installation.'
-ms.assetid: '5d9e51dd-7918-491f-aea9-01a6e0317c57'
+Description: Package authors can monitor internal Windows Installer messages through the creation of an executable application that contains both a record-based callback handler to receive the messages and functionality to initiate an installation.
+ms.assetid: 5d9e51dd-7918-491f-aea9-01a6e0317c57
 title: Monitoring an Installation Using MsiSetExternalUIRecord
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitoring an Installation Using MsiSetExternalUIRecord
 
 Package authors can monitor internal Windows Installer messages through the creation of an executable application that contains both a record-based callback handler to receive the messages and functionality to initiate an installation.
 
-The record-based handler in the following example conforms to the [**INSTALLUI\_HANDLER\_RECORD**](installui-handler-record.md) prototype, and a pointer to this callback handler is passed to [**MsiSetExternalUIRecord**](msisetexternaluirecord.md) function.
+The record-based handler in the following example conforms to the [**INSTALLUI\_HANDLER\_RECORD**](/windows/win32/Msi/nc-msi-installui_handler_record?branch=master) prototype, and a pointer to this callback handler is passed to [**MsiSetExternalUIRecord**](/windows/win32/Msi/nf-msi-msisetexternaluirecord?branch=master) function.
 
 
 ```C++

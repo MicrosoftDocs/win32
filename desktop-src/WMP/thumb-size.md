@@ -1,8 +1,18 @@
 ---
 title: Thumb Size
 description: Thumb Size
-ms.assetid: '002cf66c-6960-4e1c-a19a-faf3215811b3'
-keywords: ["Windows Media Player Mobile skins,trackbars", "skins,trackbars", "reference for skins,trackbars", "trackbars in skins,thumb size", "thumb,size"]
+ms.assetid: 002cf66c-6960-4e1c-a19a-faf3215811b3
+keywords:
+- Windows Media Player Mobile skins,trackbars
+- skins,trackbars
+- reference for skins,trackbars
+- trackbars in skins,thumb size
+- thumb,size
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Thumb Size

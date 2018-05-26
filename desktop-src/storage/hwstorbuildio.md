@@ -1,8 +1,10 @@
 ---
 title: HW\_BUILDIO routine
 description: The HwStorBuildIo routine processes the SRB with unsynchronized access to shared system data structures before passing it to HwStorStartIo.
-ms.assetid: 'ebbb8289-5996-4d99-98b6-e95fd9dc7ec9'
-keywords: ["HwStorBuildIo routine Storage Devices", "HW_BUILDIO"]
+ms.assetid: ebbb8289-5996-4d99-98b6-e95fd9dc7ec9
+keywords:
+- HwStorBuildIo routine Storage Devices
+- HW_BUILDIO
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Storport.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HW\_BUILDIO routine
@@ -24,8 +31,8 @@ The **HwStorBuildIo** routine processes the SRB with unsynchronized access to sh
 HW_BUILDIO HwStorBuildIo;
 
 BOOLEAN HwStorBuildIo(
-   IN PVOID               DeviceExtension,
-   IN PSCSI_REQUEST_BLOCK Srb 
+   IN PVOID               DeviceExtension,
+   IN PSCSI_REQUEST_BLOCK Srb 
 )
 { ... }
 ```
@@ -85,20 +92,20 @@ By completed time-consuming I/O setup activities in **HwStorBuildIo** instead of
 | SRB\_FUNCTION\_RESET\_BUS <br/>          | Reset all of the targets on the specified SCSI bus.<br/>                                                                                                                                                                                                                                                                                     | Only Srb-&gt;PathId is valid.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | SRB\_FUNCTION\_FLUSH <br/>               | Only performed by the miniport driver if it sets **CachesData** == **TRUE** in the [**PORT\_CONFIGURATION\_INFORMATION**](port-configuration-information--storport-.md). Instructs the miniport driver to flush all cached data.<br/>                                                                                                       | Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | SRB\_FUNCTION\_SHUTDOWN<br/>             | Only performed by the miniport driver if it sets **CachesData** == **TRUE** in the [**PORT\_CONFIGURATION\_INFORMATION**](port-configuration-information--storport-.md). Instructs the miniport driver to flush all cached data preparatory to shut down.<br/>                                                                              | Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| SRB\_FUNCTION\_DUMP\_POINTERS<br/>       | This request is sent to a Storport virtual miniport driver that is used to control the disk that holds the crash dump data. The request supplies information needed for the miniport driver to support crash dump and hibernation.<br/> Starting with Windows 8, non-virtual miniport drivers can optionally receive this request<br/> | Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| SRB\_FUNCTION\_FREE\_DUMP\_POINTERS<br/> | Starting with Windows 8, this request is sent to the miniport to free and resources allocated during the SRB\_FUNCTION\_DUMP\_POINTERS request.<br/>                                                                                                                                                                                         | Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| SRB\_FUNCTION\_DUMP\_POINTERS<br/>       | This request is sent to a Storport virtual miniport driver that is used to control the disk that holds the crash dump data. The request supplies information needed for the miniport driver to support crash dump and hibernation.<br/> Starting with Windows 8, non-virtual miniport drivers can optionally receive this request<br/> | Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| SRB\_FUNCTION\_FREE\_DUMP\_POINTERS<br/> | Starting with Windows 8, this request is sent to the miniport to free and resources allocated during the SRB\_FUNCTION\_DUMP\_POINTERS request.<br/>                                                                                                                                                                                         | Srb-&gt;PathId, Srb-&gt;TargetId, and Srb-&gt;Lun are all valid.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 
 
- 
+ 
 
-Starting in Windows 8, the *Srb* parameter may point to either [**SCSI\_REQUEST\_BLOCK**](scsi-request-block.md) or [**STORAGE\_REQUEST\_BLOCK**](storage-request-block.md). If the function identifier in the **Function** field of *Srb* is **SRB\_FUNCTION\_STORAGE\_REQUEST\_BLOCK**, the SRB is a **STORAGE\_REQUEST\_BLOCK** request structure.
+Starting in Windows 8, the *Srb* parameter may point to either [**SCSI\_REQUEST\_BLOCK**](scsi-request-block.md) or [**STORAGE\_REQUEST\_BLOCK**](storage-request-block.md). If the function identifier in the **Function** field of *Srb* is **SRB\_FUNCTION\_STORAGE\_REQUEST\_BLOCK**, the SRB is a **STORAGE\_REQUEST\_BLOCK** request structure.
 
 For more information about what you can and cannot do safely in this miniport driver routine, see [Unsynchronized HwStorBuildIo Routine](https://msdn.microsoft.com/library/windows/hardware/ff567985).
 
 ## Examples
 
-To define an **HwStorBuildIo** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](https://msdn.microsoft.com/library/windows/hardware/hh454182), [Static Driver Verifier](https://msdn.microsoft.com/library/windows/hardware/ff552808) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define an **HwStorBuildIo** callback function, you must first provide a function declaration that identifies the type of callback function you re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](https://msdn.microsoft.com/library/windows/hardware/hh454182), [Static Driver Verifier](https://msdn.microsoft.com/library/windows/hardware/ff552808) (SDV), and other verification tools find errors, and it s a requirement for writing drivers for the Windows operating system.
 
 For example, to define a **HwStorBuildIo** callback routine that is named *MyHwBuildIo*, use the **HW\_BUILDIO** type as shown in this code example:
 
@@ -165,9 +172,9 @@ The **HW\_BUILDIO** function type is defined in the Storport.h header file. To m
 [**StorPortAcquireSpinLock**](storportacquirespinlock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20HW_BUILDIO%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

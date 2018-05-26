@@ -1,8 +1,17 @@
 ---
 title: Processing Joystick Messages
 description: Processing Joystick Messages
-ms.assetid: 'd21a9d49-1fc0-4899-9083-87c3cf4e0e62'
-keywords: ["joysticks,messages", "MM_JOY1MOVE message", "MM_JOY1BUTTONDOWN message", "MM_JOY1BUTTONUP message"]
+ms.assetid: d21a9d49-1fc0-4899-9083-87c3cf4e0e62
+keywords:
+- joysticks,messages
+- MM_JOY1MOVE message
+- MM_JOY1BUTTONDOWN message
+- MM_JOY1BUTTONUP message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing Joystick Messages

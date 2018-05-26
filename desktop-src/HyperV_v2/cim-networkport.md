@@ -1,7 +1,12 @@
 ---
-Description: 'A logical representation of a network port on a network device.'
-ms.assetid: 'afcfc93d-174e-43b5-a16f-28937b4bf81a'
-title: 'CIM\_NetworkPort class'
+Description: A logical representation of a network port on a network device.
+ms.assetid: afcfc93d-174e-43b5-a16f-28937b4bf81a
+title: CIM\_NetworkPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_NetworkPort class
@@ -14,17 +19,17 @@ A logical representation of a network port on a network device.
 [Abstract, Version("2.10.0"), UMLPackagePath("CIM::Device::Ports"), AMENDMENT]
 class CIM_NetworkPort : CIM_LogicalPort
 {
-  uint64  Speed;
-  string  OtherNetworkPortType;
-  uint16  PortNumber;
-  uint16  LinkTechnology;
-  string  OtherLinkTechnology;
-  string  PermanentAddress;
-  string  NetworkAddresses[];
+  uint64  Speed;
+  string  OtherNetworkPortType;
+  uint16  PortNumber;
+  uint16  LinkTechnology;
+  string  OtherLinkTechnology;
+  string  PermanentAddress;
+  string  NetworkAddresses[];
   boolean FullDuplex;
   boolean AutoSense;
-  uint64  SupportedMaximumTransmissionUnit;
-  uint64  ActiveMaximumTransmissionUnit;
+  uint64  SupportedMaximumTransmissionUnit;
+  uint64  ActiveMaximumTransmissionUnit;
 };
 ```
 
@@ -231,7 +236,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("**CI
 > [!Note]  
 > Deprecated description: The module type of the port, when the **PortType** property contains 1 (other).
 
- 
+ 
 
 This property is deprecated. Instead, we recommend the **PortType** property in the [**CIM\_LogicalPort**](cim-logicalport.md) class.
 
@@ -304,8 +309,8 @@ The maximum transmission unit (MTU) that is supported by the port.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -319,9 +324,9 @@ The maximum transmission unit (MTU) that is supported by the port.
 [**CIM\_LogicalPort**](cim-logicalport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

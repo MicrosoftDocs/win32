@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PIDTemplate property contains the string used as a template for the PIDKEY property. For the syntax used in the template, see the MaskedEdit control type. ValidateProductID Action uses this value to validate the Product ID.'
-ms.assetid: '17790b20-bee7-43ac-acc9-9fce8249b81a'
+---
+Description: The PIDTemplate property contains the string used as a template for the PIDKEY property. For the syntax used in the template, see the MaskedEdit control type. ValidateProductID Action uses this value to validate the Product ID.
+ms.assetid: 17790b20-bee7-43ac-acc9-9fce8249b81a
 title: PIDTemplate property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PIDTemplate property

@@ -1,8 +1,11 @@
 ---
 title: Engine RemovePendingRebootJob method
 description: Removes an abandoned task that restarts job execution upon a system restart so that other jobs can be executed.
-ms.assetid: 'b91ad602-1e5c-4469-9ee4-29bee2d7ba03'
-keywords: ["RemovePendingRebootJob method Access Execution Engine", "RemovePendingRebootJob method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , RemovePendingRebootJob method"]
+ms.assetid: b91ad602-1e5c-4469-9ee4-29bee2d7ba03
+keywords:
+- RemovePendingRebootJob method Access Execution Engine
+- RemovePendingRebootJob method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , RemovePendingRebootJob method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::RemovePendingRebootJob method
@@ -50,8 +58,8 @@ Managed code uses the [**Engine.RemovePendingRebootJob \| removePendingRebootJob
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -70,9 +78,9 @@ Managed code uses the [**Engine.RemovePendingRebootJob \| removePendingRebootJob
 [**JobExecutionInfo**](jobexecutioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

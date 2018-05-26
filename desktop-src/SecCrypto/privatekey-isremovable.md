@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a Boolean value that indicates whether the private key is in removable storage.'
-ms.assetid: '9371d7cf-65b2-4c0f-a387-195a058d6a8b'
-title: 'PrivateKey.IsRemovable method'
+---
+Description: Returns a Boolean value that indicates whether the private key is in removable storage.
+ms.assetid: 9371d7cf-65b2-4c0f-a387-195a058d6a8b
+title: PrivateKey.IsRemovable method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PrivateKey.IsRemovable method

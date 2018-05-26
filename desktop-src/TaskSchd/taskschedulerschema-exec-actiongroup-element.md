@@ -1,14 +1,20 @@
 ---
 title: Exec (actionGroup) Element
 description: Specifies an action that executes a command-line operation.
-ms.assetid: '84bdd1ec-4279-4282-b44a-4b5ad30503eb'
-keywords: ["Exec element Task Scheduler"]
+ms.assetid: 84bdd1ec-4279-4282-b44a-4b5ad30503eb
+keywords:
+- Exec element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Exec
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exec (actionGroup) Element
@@ -61,7 +67,7 @@ The child elements listed above are defined by the [**execType**](taskschedulers
 
 For script development, an execution action is defined by the [**ExecAction**](execaction.md) object.
 
-For C++ development, an execution action is defined by the [**IExecAction**](iexecaction.md) interface.
+For C++ development, an execution action is defined by the [**IExecAction**](/windows/win32/taskschd/nn-taskschd-iexecaction?branch=master) interface.
 
 If environment variables are used in the [**Command**](taskschedulerschema-command-exectype-element.md), [**Arguments**](taskschedulerschema-arguments-exectype-element.md), or [**WorkingDirectory**](taskschedulerschema-workingdirectory-exectype-element.md) elements, then the values of the environment variables are cached and used when the Taskeng.exe (the task engine) is launched. Changes to the environment variables that occur after the task engine is launched will not be used by the task engine.
 
@@ -75,8 +81,8 @@ For a complete example of the XML for a task that uses an event trigger, see [Ti
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -87,9 +93,9 @@ For a complete example of the XML for a task that uses an event trigger, see [Ti
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

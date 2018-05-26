@@ -1,13 +1,16 @@
 ---
-Description: 'WMI has security constants used for namespace access checking by \_\_SystemSecurity::GetCallerAccessRights.'
+Description: WMI has security constants used for namespace access checking by \_\_SystemSecurityGetCallerAccessRights.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2e905078-d510-4417-8acb-a6ff535d9d0b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2e905078-d510-4417-8acb-a6ff535d9d0b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Namespace Access Rights Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Namespace Access Rights Constants
@@ -100,8 +103,8 @@ Allows a user account to remotely perform any operations allowed by the permissi
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Wbemcli.h</dt> </dl> |
 
 
@@ -125,9 +128,9 @@ Allows a user account to remotely perform any operations allowed by the permissi
 [Changing Access Security on Securable Objects](changing-access-security-on-securable-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

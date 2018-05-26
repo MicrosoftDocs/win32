@@ -1,14 +1,15 @@
 ---
 title: MMCN\_SNAPINHELP message
-description: Sent to the snap-in's IComponent implementation when the user requests help about the snap-in.
+description: Sent to the snap-ins IComponent implementation when the user requests help about the snap-in.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6d2f8870-7f06-48f3-aa76-09e99d2c6858'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 6d2f8870-7f06-48f3-aa76-09e99d2c6858
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_SNAPINHELP message MMC"]
+keywords:
+- MMCN_SNAPINHELP message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_SNAPINHELP message
 
-The **MMCN\_SNAPINHELP** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation when the user requests help about the snap-in.
+The **MMCN\_SNAPINHELP** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation when the user requests help about the snap-in.
 
 **MMCN\_SNAPINHELP** is only sent to snap-ins that do not support HTML Help by implementing the [**ISnapinHelp2**](isnapinhelp2.md) interface.
 
@@ -78,15 +82,15 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

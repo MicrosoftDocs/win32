@@ -1,7 +1,12 @@
 ---
-Description: 'The following overviews describe the types of system information available.'
-ms.assetid: 'cb7b50fc-6591-48a9-b3a7-327de9a6dc06'
+Description: The following overviews describe the types of system information available.
+ms.assetid: cb7b50fc-6591-48a9-b3a7-327de9a6dc06
 title: Windows System Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows System Information
@@ -21,7 +26,7 @@ The following overviews describe the types of system information available.
 
 
 
- 
+ 
 
 ## Additional Resources
 
@@ -33,11 +38,11 @@ The following overviews describe the types of system information available.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

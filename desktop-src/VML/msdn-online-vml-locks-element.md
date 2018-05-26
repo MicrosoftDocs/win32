@@ -1,7 +1,12 @@
 ---
 title: VML Locks Element
 description: VML Locks Element
-ms.assetid: '1dfdc23a-0ad1-468f-a850-2068f3cc1803'
+ms.assetid: 1dfdc23a-0ad1-468f-a850-2068f3cc1803
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Locks Element

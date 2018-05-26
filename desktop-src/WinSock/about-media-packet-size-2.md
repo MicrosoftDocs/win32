@@ -1,7 +1,12 @@
 ---
-Description: 'Media packet size affects the ability of IPX protocols to transfer data across networks and can prove challenging to deal with in a transport-independent manner.'
-ms.assetid: 'cce31a6a-c187-4ec4-976c-5f9984211ccb'
+Description: Media packet size affects the ability of IPX protocols to transfer data across networks and can prove challenging to deal with in a transport-independent manner.
+ms.assetid: cce31a6a-c187-4ec4-976c-5f9984211ccb
 title: About Media Packet Size
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Media Packet Size

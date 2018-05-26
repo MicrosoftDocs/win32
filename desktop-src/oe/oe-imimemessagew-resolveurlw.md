@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageW ResolveURLW method
 description: Maps a MIME Encapsulation of Aggregate HTML Documents (MHTML) URL to a body in the message.
-ms.assetid: '91251f66-318a-449f-938e-448b878dbac1'
-keywords: ["ResolveURLW method Windows Mail (formerly Outlook Express)", "ResolveURLW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface", "IMimeMessageW interface Windows Mail (formerly Outlook Express) , ResolveURLW method"]
+ms.assetid: 91251f66-318a-449f-938e-448b878dbac1
+keywords:
+- ResolveURLW method Windows Mail (formerly Outlook Express)
+- ResolveURLW method Windows Mail (formerly Outlook Express) , IMimeMessageW interface
+- IMimeMessageW interface Windows Mail (formerly Outlook Express) , ResolveURLW method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageW::ResolveURLW method
@@ -24,11 +32,11 @@ Maps a MIME Encapsulation of Aggregate HTML Documents (MHTML) URL to a body in t
 
 ```C++
 HRESULT ResolveURLW(
-  [in]  HBODY   hRelated,
-  [in]  LPCWSTR pwszBase,
-  [in]  LPCWSTR pwszURL,
-  [in]  DWORD   dwFlags,
-  [out] LPHBODY phBody
+  [in]  HBODY   hRelated,
+  [in]  LPCWSTR pwszBase,
+  [in]  LPCWSTR pwszURL,
+  [in]  DWORD   dwFlags,
+  [out] LPHBODY phBody
 );
 ```
 
@@ -81,7 +89,7 @@ Specifies the resolution behavior.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -111,7 +119,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -119,8 +127,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -138,9 +146,9 @@ Returns one of the following values.
 [MIME Encapsulation of Aggregate HTML Documents (MHTML)](http://msdn.microsoft.com/library/cdosys/html/e0df4075-c8a3-4844-8b81-74abdf5d5565.asp)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

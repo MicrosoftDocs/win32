@@ -1,11 +1,16 @@
-﻿---
-Description: 'Allows the callback to modify the CFM\_XXX values passed to IContextMenu::QueryContextMenu.'
-title: 'DFM\_MODIFYQCMFLAGS message'
+---
+Description: Allows the callback to modify the CFM\_XXX values passed to IContextMenuQueryContextMenu.
+title: DFM\_MODIFYQCMFLAGS message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DFM\_MODIFYQCMFLAGS message
 
-Allows the callback to modify the CFM\_XXX values passed to [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md).
+Allows the callback to modify the CFM\_XXX values passed to [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master).
 
 
 ```C++
@@ -34,7 +39,7 @@ A pointer to the new flag values.
 *uFlags* \[in\]
 </dt> <dd>
 
-Flags that specify how the context menu can be changed. This parameter uses the CMF\_XXX values described in [**IContextMenu::QueryContextMenu**](icontextmenu-querycontextmenu.md).
+Flags that specify how the context menu can be changed. This parameter uses the CMF\_XXX values described in [**IContextMenu::QueryContextMenu**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu?branch=master).
 
 </dd> </dl>
 

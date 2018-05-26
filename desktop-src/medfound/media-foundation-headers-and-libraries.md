@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic lists the headers and libraries that define all of the Media Foundation APIs.'
-ms.assetid: '69877842-fafe-408f-b55b-d2ff2277c756'
+---
+Description: This topic lists the headers and libraries that define all of the Media Foundation APIs.
+ms.assetid: 69877842-fafe-408f-b55b-d2ff2277c756
 title: Media Foundation Headers and Libraries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Foundation Headers and Libraries
@@ -113,7 +118,7 @@ MFPlat implements helper functionality for low level memory allocation, operatio
 -   implementing a win32 file wrapper
 -   allocating and initializing arrays of memory buffers for CPUs and GPUs
 
-If the [**MFStartup**](mfstartup.md) method succeeds, MFPlat provides the following work queue functionality:
+If the [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master) method succeeds, MFPlat provides the following work queue functionality:
 
 -   internally supporting I/O items (as used by the win32 file wrapper and socket libraries)
 -   providing an array of multithreaded work queues with thread priority support

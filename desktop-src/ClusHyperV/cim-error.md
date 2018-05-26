@@ -4,13 +4,15 @@ description: The CIM\_Error class contains information about the failure of a CI
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a0a99371-7b49-4ba1-89fb-d7034d162e01'
-ms.prod: 'windows-server-dev'
+ms.assetid: a0a99371-7b49-4ba1-89fb-d7034d162e01
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Error class", "CIM_Error class, described"]
+keywords:
+- CIM_Error class
+- CIM_Error class, described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Error class
@@ -445,7 +450,7 @@ A free-form string that contains a human-readable description of the **CIMStatus
 > [!Note]  
 > This description may extend, but must be consistent with the definition of **CIMStatusCode**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -515,7 +520,7 @@ A CIM object path, which is defined in the *CIM Infrastructure* specification.
 > [!Note]  
 > Note: CIM 2.5 and earlier used the term object names instead of object path.
 
- 
+ 
 
 </dd> <dt>
 
@@ -701,7 +706,7 @@ The formatted message.
 > [!Note]  
 > This message is created by combining dynamic elements of the **MessageArguments** property with the static elements of the **MessageID** property, and then adding them to a message registry or catalog associated with the **OwningEntity**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -783,7 +788,7 @@ The unique ID of the entity that owns the format of the message described by thi
 > [!Note]  
 > This property must include a copyrighted, trademarked, or unique name that is owned by the business entity or standards body that defined the message format.
 
- 
+ 
 
 </dd> <dt>
 
@@ -1890,7 +1895,7 @@ An array of free-form strings that describe the recommended actions to take to r
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -1904,9 +1909,9 @@ An array of free-form strings that describe the recommended actions to take to r
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

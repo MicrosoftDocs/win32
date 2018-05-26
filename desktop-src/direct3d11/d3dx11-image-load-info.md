@@ -1,8 +1,10 @@
 ---
 title: D3DX11\_IMAGE\_LOAD\_INFO structure
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Optionally provide information to texture loader APIs to control how textures get loaded.
-ms.assetid: '6cd2f590-4e15-41e6-9f04-cd91eeb082db'
-keywords: ["D3DX11_IMAGE_LOAD_INFO structure Direct3D 11", "LPD3DX11_IMAGE_LOAD_INFO structure pointer Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Optionally provide information to texture loader APIs to control how textures get loaded.
+ms.assetid: 6cd2f590-4e15-41e6-9f04-cd91eeb082db
+keywords:
+- D3DX11_IMAGE_LOAD_INFO structure Direct3D 11
+- LPD3DX11_IMAGE_LOAD_INFO structure pointer Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_IMAGE\_LOAD\_INFO structure
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Optionally provide information to texture loader APIs to control how textures get loaded. A value of D3DX11\_DEFAULT for any of these parameters will cause D3DX to automatically use the value from the source file.
 
@@ -27,18 +34,18 @@ Optionally provide information to texture loader APIs to control how textures ge
 
 ```C++
 typedef struct D3DX11_IMAGE_LOAD_INFO {
-  UINT              Width;
-  UINT              Height;
-  UINT              Depth;
-  UINT              FirstMipLevel;
-  UINT              MipLevels;
-  D3D11_USAGE       Usage;
-  UINT              BindFlags;
-  UINT              CpuAccessFlags;
-  UINT              MiscFlags;
-  DXGI_FORMAT       Format;
-  UINT              Filter;
-  UINT              MipFilter;
+  UINT              Width;
+  UINT              Height;
+  UINT              Depth;
+  UINT              FirstMipLevel;
+  UINT              MipLevels;
+  D3D11_USAGE       Usage;
+  UINT              BindFlags;
+  UINT              CpuAccessFlags;
+  UINT              MiscFlags;
+  DXGI_FORMAT       Format;
+  UINT              Filter;
+  UINT              MipFilter;
   D3DX11_IMAGE_INFO *pSrcInfo;
 } D3DX11_IMAGE_LOAD_INFO, *LPD3DX11_IMAGE_LOAD_INFO;
 ```
@@ -100,18 +107,18 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)*
 
 </dd> <dd>
 
-The maximum number of mipmap levels in the texture. See the remarks in [**D3D11\_TEX1D\_SRV**](d3d11-tex1d-srv.md). Using 0 or D3DX11\_DEFAULT will cause a full mipmap chain to be created.
+The maximum number of mipmap levels in the texture. See the remarks in [**D3D11\_TEX1D\_SRV**](/windows/win32/D3D11/ns-d3d11-d3d11_tex1d_srv?branch=master). Using 0 or D3DX11\_DEFAULT will cause a full mipmap chain to be created.
 
 </dd> <dt>
 
 **Usage**
 </dt> <dd>
 
-Type: **[**D3D11\_USAGE**](d3d11-usage.md)**
+Type: **[**D3D11\_USAGE**](/windows/win32/D3D11/ne-d3d11-d3d11_usage?branch=master)**
 
 </dd> <dd>
 
-The way the texture resource is intended to be used. See [**D3D11\_USAGE**](d3d11-usage.md).
+The way the texture resource is intended to be used. See [**D3D11\_USAGE**](/windows/win32/D3D11/ne-d3d11-d3d11_usage?branch=master).
 
 </dd> <dt>
 
@@ -122,7 +129,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)*
 
 </dd> <dd>
 
-The pipeline stages that the texture will be allowed to bind to. See [**D3D11\_BIND\_FLAG**](d3d11-bind-flag.md).
+The pipeline stages that the texture will be allowed to bind to. See [**D3D11\_BIND\_FLAG**](/windows/win32/D3D11/ne-d3d11-d3d11_bind_flag?branch=master).
 
 </dd> <dt>
 
@@ -133,7 +140,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)*
 
 </dd> <dd>
 
-The access permissions the cpu will have for the texture resource. See [**D3D11\_CPU\_ACCESS\_FLAG**](d3d11-cpu-access-flag.md).
+The access permissions the cpu will have for the texture resource. See [**D3D11\_CPU\_ACCESS\_FLAG**](/windows/win32/D3D11/ne-d3d11-d3d11_cpu_access_flag?branch=master).
 
 </dd> <dt>
 
@@ -144,7 +151,7 @@ Type: **[**UINT**](https://msdn.microsoft.com/library/windows/desktop/aa383751)*
 
 </dd> <dd>
 
-Miscellaneous resource properties (see [**D3D11\_RESOURCE\_MISC\_FLAG**](d3d11-resource-misc-flag.md)).
+Miscellaneous resource properties (see [**D3D11\_RESOURCE\_MISC\_FLAG**](/windows/win32/D3D11/ne-d3d11-d3d11_resource_misc_flag?branch=master)).
 
 </dd> <dt>
 
@@ -258,9 +265,9 @@ D3DX11_IMAGE_LOAD_INFO LoadInfo;
 [D3DX Structures](d3d11-graphics-reference-d3dx11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

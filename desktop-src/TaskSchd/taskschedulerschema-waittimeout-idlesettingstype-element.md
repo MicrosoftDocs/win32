@@ -1,14 +1,20 @@
 ---
 title: WaitTimeout (idleSettingsType) Element
 description: Specifies the amount of time that the Task Scheduler will wait for an idle condition to occur.
-ms.assetid: '6a4cc80d-adc2-47a7-946f-a9f12eeb35a4'
-keywords: ["WaitTimeout element Task Scheduler"]
+ms.assetid: 6a4cc80d-adc2-47a7-946f-a9f12eeb35a4
+keywords:
+- WaitTimeout element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - WaitTimeout
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaitTimeout (idleSettingsType) Element
@@ -48,7 +54,7 @@ The element is defined by the [**idleSettingsType**](taskschedulerschema-idleset
 
 For script development, this idle setting is specified using the [**IdleSettings.WaitTimeout**](idlesettings-waittimeout.md) property.
 
-For C++ development, this idle setting is specified using the [**IIdleSettings::WaitTimeout**](iidlesettings-waittimeout.md) property.
+For C++ development, this idle setting is specified using the [**IIdleSettings::WaitTimeout**](/windows/win32/taskschd/nf-taskschd-iidlesettings-get_waittimeout?branch=master) property.
 
 ## Examples
 
@@ -69,8 +75,8 @@ The following XML defines an idle setting that waits 24 hours for an idle condit
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -84,9 +90,9 @@ The following XML defines an idle setting that waits 24 hours for an idle condit
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

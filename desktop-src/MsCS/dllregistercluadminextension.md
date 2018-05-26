@@ -4,17 +4,21 @@ description: Registers a Failover Cluster Administrator extension DLL for resour
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '17e390a2-5a9d-4763-9c8b-0eb9af78cd26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 17e390a2-5a9d-4763-9c8b-0eb9af78cd26
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DllRegisterCluAdminExtension callback function Failover Cluster"]
+keywords:
+- DllRegisterCluAdminExtension callback function Failover Cluster
 topic_type:
 - apiref
 api_name:
 - DllRegisterCluAdminExtension
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DllRegisterCluAdminExtension callback function
@@ -26,7 +30,7 @@ Registers a [Failover Cluster Administrator](cluster-administrator.md) extension
 
 ```C++
 HRESULT STDAPICALLTYPE DllRegisterCluAdminExtension(
-  _In_ HCLUSTER hCluster
+  _In_ HCLUSTER hCluster
 );
 ```
 
@@ -71,13 +75,13 @@ Note that the [**AdminExtensions**](groups-adminextensions.md) property is a **R
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TTM\_SETMAXTIPWIDTH message
 description: Sets the maximum width for a tooltip window.
-ms.assetid: '3cfb6011-d0c3-4a57-aead-d4ec09a057cc'
-keywords: ["TTM_SETMAXTIPWIDTH message Windows Controls"]
+ms.assetid: 3cfb6011-d0c3-4a57-aead-d4ec09a057cc
+keywords:
+- TTM_SETMAXTIPWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_SETMAXTIPWIDTH message
@@ -45,8 +51,8 @@ The maximum width value does not indicate a tooltip window's actual width. Rathe
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The maximum width value does not indicate a tooltip window's actual width. Rathe
 [**TTM\_GETMAXTIPWIDTH**](ttm-getmaxtipwidth.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

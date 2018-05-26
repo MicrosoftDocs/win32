@@ -4,11 +4,14 @@ description: A structure that is used to specify rights per user.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4da8b5f9-68e9-44b6-a341-b10c350fbebb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4da8b5f9-68e9-44b6-a341-b10c350fbebb
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_USER_RIGHTS structure Active Directory Rights Management Services SDK 2.0", "PIPC_USER_RIGHTS structure pointer Active Directory Rights Management Services SDK 2.0", "PCIPC_USER_RIGHTS structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_USER_RIGHTS structure Active Directory Rights Management Services SDK 2.0
+- PIPC_USER_RIGHTS structure pointer Active Directory Rights Management Services SDK 2.0
+- PCIPC_USER_RIGHTS structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcprot.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_USER\_RIGHTS structure
@@ -29,8 +35,8 @@ A structure that is used to specify rights per user.
 ```C++
 typedef struct _IPC_USER_RIGHTS {
   IPC_USER User;
-  DWORD    cRights;
-  LPCWSTR  *rgwszRights;
+  DWORD    cRights;
+  LPCWSTR  *rgwszRights;
 } IPC_USER_RIGHTS, *PIPC_USER_RIGHTS;typedef const IPC_USER_RIGHTS *PCIPC_USER_RIGHTS;
 ```
 
@@ -66,7 +72,7 @@ Valid characters for a rights string are as follows:
 > [!Note]  
 > The name cannot contain special characters used for XML markup and cannot exceed 256 characters in length.
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,8 +82,8 @@ Valid characters for a rights string are as follows:
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 
 
@@ -89,9 +95,9 @@ Valid characters for a rights string are as follows:
 [**Rights**](rights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

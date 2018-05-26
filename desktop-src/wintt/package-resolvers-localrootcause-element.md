@@ -1,14 +1,20 @@
 ---
 title: Resolvers (LocalRootcause) Element
 description: Contains a collection of resolver scripts to run.
-ms.assetid: '7a354706-3f6f-4cf5-936e-a84bc35fd068'
-keywords: ["Resolvers element Windows Troubleshooting Toolkit"]
+ms.assetid: 7a354706-3f6f-4cf5-936e-a84bc35fd068
+keywords:
+- Resolvers element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Resolvers
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resolvers (LocalRootcause) Element
@@ -36,14 +42,14 @@ The **Resolvers** element is defined by the [**LocalRootcause**](package-localro
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

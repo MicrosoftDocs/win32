@@ -1,8 +1,9 @@
 ---
 title: CCM\_GETVERSION message
 description: Gets the version number for a control set by the most recent CCM\_SETVERSION message.
-ms.assetid: 'c4b401d7-bba0-430c-b368-c363d49b3411'
-keywords: ["CCM_GETVERSION message Windows Controls"]
+ms.assetid: c4b401d7-bba0-430c-b368-c363d49b3411
+keywords:
+- CCM_GETVERSION message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CCM\_GETVERSION message
@@ -38,7 +44,7 @@ This message does not return the DLL version. See [Shell Versions](common-contro
 > [!Note]  
 > The version number is set on a control by control basis, and may not be the same for all controls.
 
- 
+ 
 
 ## Requirements
 
@@ -46,15 +52,15 @@ This message does not return the DLL version. See [Shell Versions](common-contro
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: DS\_LDAP\_Instance\_Containment is an instance class that models th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '41b8d033-a987-4b3a-a6e2-1cc620c0a015'
-ms.prod: 'windows-server-dev'
+ms.assetid: 41b8d033-a987-4b3a-a6e2-1cc620c0a015
+ms.prod: windows-server-dev
 ms.technology:
-- 'active-directory-domain-services'
-- 'windows-management-instrumentation'
+- active-directory-domain-services
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DS_LDAP_Instance_Containment class", "DS_LDAP_Instance_Containment class, described"]
+keywords:
+- DS_LDAP_Instance_Containment class
+- DS_LDAP_Instance_Containment class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Dsprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DS\_LDAP\_Instance\_Containment class
@@ -122,17 +127,17 @@ The **DS\_LDAP\_Instance\_Containment** class supports only the following forms 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Namespace<br/>                | Root\\directory\\ldap<br/>                                                      |
 | MOF<br/>                      | <dl> <dt>Dsprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dsprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

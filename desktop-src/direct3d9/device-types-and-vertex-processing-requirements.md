@@ -1,21 +1,26 @@
 ---
-Description: 'The performance of vertex processing operations, including transformation and lighting, depends heavily on where the vertex buffer exists in memory and what type of rendering device is being used.'
-ms.assetid: '4f9ca83d-c9d6-4749-944d-78f831b0f44e'
-title: 'Device Types and Vertex Processing Requirements (Direct3D 9)'
+Description: The performance of vertex processing operations, including transformation and lighting, depends heavily on where the vertex buffer exists in memory and what type of rendering device is being used.
+ms.assetid: 4f9ca83d-c9d6-4749-944d-78f831b0f44e
+title: Device Types and Vertex Processing Requirements (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Types and Vertex Processing Requirements (Direct3D 9)
 
 The performance of vertex processing operations, including transformation and lighting, depends heavily on where the vertex buffer exists in memory and what type of rendering device is being used. Applications control the memory allocation for vertex buffers when they are created. When the D3DPOOL\_SYSTEMMEM memory flag is set, the vertex buffer is created in system memory. When the D3DPOOL\_DEFAULT memory flag is used, the device driver determines where the memory for the vertex buffer is best allocated, often referred to as driver-optimal memory. Driver-optimal memory can be local video memory, nonlocal video memory, or system memory.
 
-Setting the D3DUSAGE\_SOFTWAREPROCESSING constant with [**IDirect3DDevice9::CreateVertexBuffer**](idirect3ddevice9--createvertexbuffer.md) enables software vertex processing on the vertex buffer data. This flag is required for software vertex processing while in mixed mode. The flag may not be used for hardware vertex processing mode. Vertex buffers used with software vertex processing include the following:
+Setting the D3DUSAGE\_SOFTWAREPROCESSING constant with [**IDirect3DDevice9::CreateVertexBuffer**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createvertexbuffer?branch=master) enables software vertex processing on the vertex buffer data. This flag is required for software vertex processing while in mixed mode. The flag may not be used for hardware vertex processing mode. Vertex buffers used with software vertex processing include the following:
 
--   All input streams for [**IDirect3DDevice9::ProcessVertices**](idirect3ddevice9--processvertices.md).
--   All input streams for [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md) and [**IDirect3DDevice9::DrawIndexedPrimitive**](idirect3ddevice9--drawindexedprimitive.md).
+-   All input streams for [**IDirect3DDevice9::ProcessVertices**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-processvertices?branch=master).
+-   All input streams for [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master) and [**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive?branch=master).
 
 The reasoning you use to determine the memory location - system or driver optimal - for vertex buffers is the same as that for textures. Vertex processing, including transformation and lighting, in hardware works best when the vertex buffers are allocated in driver-optimal memory, while software vertex processing works best with vertex buffers allocated in system memory. For textures, hardware rasterization works best when textures are allocated in driver-optimal memory, while software rasterization works best with system-memory textures.
 
-Microsoft Direct3D 9 supports standalone processing of vertices, without rendering any primitive with the [**IDirect3DDevice9::ProcessVertices**](idirect3ddevice9--processvertices.md) method. This standalone vertex processing is always performed in software on the host processor. Because of this, vertex buffers used as sources set with [**IDirect3DDevice9::SetStreamSource**](idirect3ddevice9--setstreamsource.md) must be created with the D3DUSAGE\_SOFTWAREPROCESSING flag. The functionality provided by **IDirect3DDevice9::ProcessVertices** is identical to that of the [**IDirect3DDevice9::DrawPrimitive**](idirect3ddevice9--drawprimitive.md) and [**IDirect3DDevice9::DrawIndexedPrimitive**](idirect3ddevice9--drawindexedprimitive.md) methods while using software vertex processing.
+Microsoft Direct3D 9 supports standalone processing of vertices, without rendering any primitive with the [**IDirect3DDevice9::ProcessVertices**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-processvertices?branch=master) method. This standalone vertex processing is always performed in software on the host processor. Because of this, vertex buffers used as sources set with [**IDirect3DDevice9::SetStreamSource**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setstreamsource?branch=master) must be created with the D3DUSAGE\_SOFTWAREPROCESSING flag. The functionality provided by **IDirect3DDevice9::ProcessVertices** is identical to that of the [**IDirect3DDevice9::DrawPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawprimitive?branch=master) and [**IDirect3DDevice9::DrawIndexedPrimitive**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawindexedprimitive?branch=master) methods while using software vertex processing.
 
 If your application performs its own vertex processing and passes transformed, lit, and clipped vertices to rendering methods, then the application can directly write vertices to a vertex buffer allocated in driver-optimal memory. This technique prevents a redundant copy operation later. Note that this technique will not work well if your application reads data back from a vertex buffer, because read operations done by the host from driver-optimal memory can be very slow. Therefore, if your application needs to read during processing or writes data to the buffer erratically, a system-memory vertex buffer is a better choice.
 

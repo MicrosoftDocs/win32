@@ -1,7 +1,12 @@
 ---
-Description: 'The GetRestorePosition method retrieves the position to which the window will be restored when it is not maximized or minimized.'
-ms.assetid: '5f129be3-c4d8-4583-bbc8-870e0bcafd80'
-title: 'CBaseControlWindow.GetRestorePosition method'
+Description: The GetRestorePosition method retrieves the position to which the window will be restored when it is not maximized or minimized.
+ms.assetid: 5f129be3-c4d8-4583-bbc8-870e0bcafd80
+title: CBaseControlWindow.GetRestorePosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.GetRestorePosition method
@@ -13,10 +18,10 @@ The `GetRestorePosition` method retrieves the position to which the window will 
 
 ```C++
 HRESULT GetRestorePosition(
-   long *pLeft,
-   long *pTop,
-   long *pWidth,
-   long *pHeight
+   long *pLeft,
+   long *pTop,
+   long *pWidth,
+   long *pHeight
 );
 ```
 
@@ -80,9 +85,9 @@ This is the same as the values returned by the [**CBaseControlWindow::GetWindowP
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

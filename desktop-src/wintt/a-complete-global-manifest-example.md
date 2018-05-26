@@ -1,7 +1,12 @@
 ---
 title: A Complete Manifest Example Using a Global Troubleshooter
 description: The following shows a complete manifest example that uses a global troubleshooter.
-ms.assetid: '64680bcb-a237-44fc-abbb-7d253b2095db'
+ms.assetid: 64680bcb-a237-44fc-abbb-7d253b2095db
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # A Complete Manifest Example Using a Global Troubleshooter

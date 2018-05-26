@@ -4,11 +4,14 @@ description: Creates a user disk template.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4036a418-b082-4376-a400-16f48b98f071'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4036a418-b082-4376-a400-16f48b98f071
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["CreateUserDiskTemplate method Remote Desktop Services", "CreateUserDiskTemplate method Remote Desktop Services , Win32_TSSessionDirectory class", "Win32_TSSessionDirectory class Remote Desktop Services , CreateUserDiskTemplate method"]
+keywords:
+- CreateUserDiskTemplate method Remote Desktop Services
+- CreateUserDiskTemplate method Remote Desktop Services , Win32_TSSessionDirectory class
+- Win32_TSSessionDirectory class Remote Desktop Services , CreateUserDiskTemplate method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateUserDiskTemplate method of the Win32\_TSSessionDirectory class
@@ -28,8 +34,8 @@ Creates a user disk template.
 
 ```mof
 uint32 CreateUserDiskTemplate(
-  [in] string UserDisksStorageUrl,
-  [in] uint32 UserDiskMaxSizeInGB
+  [in] string UserDisksStorageUrl,
+  [in] uint32 UserDiskMaxSizeInGB
 );
 ```
 
@@ -60,7 +66,7 @@ The maximum size in gigabytes, for all user disks.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -74,9 +80,9 @@ The maximum size in gigabytes, for all user disks.
 [**Win32\_TSSessionDirectory**](win32-tssessiondirectory.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

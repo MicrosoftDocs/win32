@@ -1,7 +1,12 @@
 ---
 title: Resource Management
 description: The Resource Virtualization Profile provides the means by which a client can discover the virtual resources supported by the virtualization system.
-ms.assetid: 'faa43516-7ddd-4de8-b713-e749f827d444'
+ms.assetid: faa43516-7ddd-4de8-b713-e749f827d444
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Management

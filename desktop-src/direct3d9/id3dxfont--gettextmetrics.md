@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves font characteristics that are identified in a TEXTMETRIC structure. This method supports ANSI and Unicode compiler settings.'
-ms.assetid: '37788281-5bb0-45bb-b6d4-bdc4d811e3af'
-title: 'ID3DXFont::GetTextMetrics method'
+---
+Description: Retrieves font characteristics that are identified in a TEXTMETRIC structure. This method supports ANSI and Unicode compiler settings.
+ms.assetid: 37788281-5bb0-45bb-b6d4-bdc4d811e3af
+title: ID3DXFontGetTextMetrics method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFont::GetTextMetrics method

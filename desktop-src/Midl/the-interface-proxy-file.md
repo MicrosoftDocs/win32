@@ -2,7 +2,13 @@
 title: The Interface Proxy File
 description: The interface proxy file (U\_p.c) is a C file that contains routines equivalent to those in the client stub and server stub files of an object (COM) interface.
 ms.assetid: f85f7384-a590-4146-9705-2e87f1a0a87a
-keywords: ["MIDL and COM MIDL , interfaces, proxy files"]
+keywords:
+- MIDL and COM MIDL , interfaces, proxy files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Interface Proxy File

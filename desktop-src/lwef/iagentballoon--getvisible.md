@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetVisible
 description: IAgentBalloon GetVisible
-ms.assetid: '328af211-4ea4-482c-8487-42c8e4cd66b0'
+ms.assetid: 328af211-4ea4-482c-8487-42c8e4cd66b0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetVisible

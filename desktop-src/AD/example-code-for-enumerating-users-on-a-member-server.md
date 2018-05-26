@@ -4,11 +4,15 @@ description: This topic includes code examples that enumerate users on a member 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a856281a-7f84-44d0-9123-b27fda56e0ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a856281a-7f84-44d0-9123-b27fda56e0ea
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , enumerating users on a member server"]
+keywords:
+- Active Directory examples Active Directory , enumerating users on a member server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Enumerating Users on a Member Server

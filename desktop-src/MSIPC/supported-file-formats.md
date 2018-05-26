@@ -4,10 +4,13 @@ description: The File API supports native and Pfile formats.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EC831494-7F2C-4C70-9063-B02CDDEA14EE'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: EC831494-7F2C-4C70-9063-B02CDDEA14EE
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Supported file formats

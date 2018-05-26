@@ -1,12 +1,18 @@
 ---
 title: Texture2D SampleLevel methods
 description: Samples a Texture2D on the specified mipmap level.
-ms.assetid: 'EA5CFA70-1B0E-490D-A31F-001F63FD9530'
-keywords: ["SampleLevel methods HLSL"]
+ms.assetid: EA5CFA70-1B0E-490D-A31F-001F63FD9530
+keywords:
+- SampleLevel methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::SampleLevel methods
@@ -35,9 +41,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

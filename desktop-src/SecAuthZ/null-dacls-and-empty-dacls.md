@@ -1,7 +1,12 @@
 ---
-Description: 'A null DACL grants full access to any user that requests it. An empty DACL is a properly allocated and initialized DACL that contains no access control entries. An empty DACL grants no access to the object it is assigned to.'
-ms.assetid: '26e5c98d-bbdc-4f9f-96e0-18d1c429f1e6'
+Description: A null DACL grants full access to any user that requests it. An empty DACL is a properly allocated and initialized DACL that contains no access control entries. An empty DACL grants no access to the object it is assigned to.
+ms.assetid: 26e5c98d-bbdc-4f9f-96e0-18d1c429f1e6
 title: Null DACLs and Empty DACLs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Null DACLs and Empty DACLs

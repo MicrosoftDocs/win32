@@ -1,8 +1,9 @@
 ---
 title: Player.enabled
 description: The enabled property specifies or retrieves a value indicating whether the Windows Media Player control is enabled.
-ms.assetid: '65fea4d2-3330-4cce-bdaf-fae00304271a'
-keywords: ["Player.enabled Windows Media Player"]
+ms.assetid: 65fea4d2-3330-4cce-bdaf-fae00304271a
+keywords:
+- Player.enabled Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.enabled
@@ -34,7 +40,7 @@ This property is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ If **enabled** equals false then during full-screen playback Windows Media Playe
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

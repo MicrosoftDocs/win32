@@ -1,7 +1,12 @@
 ---
 Description: MTP Extension Events
-ms.assetid: 'c04554cd-d68d-455e-afa3-29d4186dad65'
+ms.assetid: c04554cd-d68d-455e-afa3-29d4186dad65
 title: MTP Extension Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MTP Extension Events

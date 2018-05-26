@@ -1,8 +1,9 @@
 ---
 title: EM\_SETTEXTEX message
 description: Combines the functionality of the WM\_SETTEXT and EM\_REPLACESEL messages, and adds the ability to set text using a code page and to use either rich text or plain text.
-ms.assetid: '1ba9e4c0-7870-4057-8a8b-d0e6577349ac'
-keywords: ["EM_SETTEXTEX message Windows Controls"]
+ms.assetid: 1ba9e4c0-7870-4057-8a8b-d0e6577349ac
+keywords:
+- EM_SETTEXTEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETTEXTEX message
@@ -24,14 +30,14 @@ Combines the functionality of the [**WM\_SETTEXT**](https://msdn.microsoft.com/l
 *wParam* 
 </dt> <dd>
 
-Pointer to a [**SETTEXTEX**](settextex.md) structure that specifies flags and an optional code page to use in translating to Unicode.
+Pointer to a [**SETTEXTEX**](/windows/win32/Richedit/ns-richedit-_settextex?branch=master) structure that specifies flags and an optional code page to use in translating to Unicode.
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to the null-terminated text to insert. This text is an ANSI string, unless the code page is 1200 (Unicode). If *lParam* starts with a valid RTF ASCII sequence—for example, "{\\rtf" or "{urtf"—the text is read in using the RTF reader.
+Pointer to the null-terminated text to insert. This text is an ANSI string, unless the code page is 1200 (Unicode). If *lParam* starts with a valid RTF ASCII sequence for example, "{\\rtf" or "{urtf" the text is read in using the RTF reader.
 
 </dd> </dl>
 
@@ -49,8 +55,8 @@ If the operation fails, the return value is zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -66,12 +72,12 @@ If the operation fails, the return value is zero.
 [**EM\_GETTEXTEX**](em-gettextex.md)
 </dt> <dt>
 
-[**SETTEXTEX**](settextex.md)
+[**SETTEXTEX**](/windows/win32/Richedit/ns-richedit-_settextex?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

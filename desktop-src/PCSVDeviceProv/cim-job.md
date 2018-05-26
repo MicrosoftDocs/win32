@@ -1,13 +1,16 @@
 ---
-Description: 'A Job is a LogicalElement that represents an executing unit of work, such as a script or a print job. A Job is distinct from a Process in that a Job can be scheduled or queued, and its execution is not limited to a single system.'
+Description: A Job is a LogicalElement that represents an executing unit of work, such as a script or a print job. A Job is distinct from a Process in that a Job can be scheduled or queued, and its execution is not limited to a single system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9f03a291-65f7-416f-8a54-5ea624fbf9ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9f03a291-65f7-416f-8a54-5ea624fbf9ff
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Job class'
+title: CIM\_Job class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Job class
@@ -22,41 +25,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), Abstract, Version("2.10.0"), AMENDMENT]
 class CIM_Job : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   JobStatus;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
 };
 ```
 
@@ -79,7 +82,7 @@ The **CIM\_Job** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -155,14 +158,14 @@ No Contact
 
 </dd> <dt>
 
-5–32767
+5 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -259,14 +262,14 @@ Supporting Entity in Error
 
 </dd> <dt>
 
-6–32767
+6 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -399,7 +402,7 @@ Non-recoverable error
 
 </dd> <dt>
 
-31–32767
+31 32767
 </dt> <dd>
 
 DMTF Reserved
@@ -664,14 +667,14 @@ In Service
 
 </dd> <dt>
 
-13–32767
+13 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -831,14 +834,14 @@ Power Mode
 
 </dd> <dt>
 
-19–32767
+19 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -941,14 +944,14 @@ Error
 
 </dd> <dt>
 
-4–32767
+4 32767
 </dt> <dd>
 
 DMTF Reserved
 
 </dd> <dt>
 
-32768–65535
+32768 65535
 </dt> <dd>
 
 Vendor Reserved
@@ -1428,17 +1431,17 @@ The time after which the Job is invalid or should be stopped. This time can be r
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The example programs in this section except where noted include all of the code necessary to compile and link the programs. The necessary \#include and \#define statements are included as is the code for any general-purpose example functions used.'
-ms.assetid: '53822643-b03e-41e9-8cb2-dfa14b8e9d3d'
+Description: The example programs in this section except where noted include all of the code necessary to compile and link the programs. The necessary \#include and \#define statements are included as is the code for any general-purpose example functions used.
+ms.assetid: 53822643-b03e-41e9-8cb2-dfa14b8e9d3d
 title: Sample Program Conventions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Program Conventions

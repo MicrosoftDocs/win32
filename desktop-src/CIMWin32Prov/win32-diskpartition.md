@@ -1,15 +1,18 @@
 ---
-Description: 'Represents the capabilities and management capacity of a partitioned area of a physical disk on a computer system running Windows.'
+Description: Represents the capabilities and management capacity of a partitioned area of a physical disk on a computer system running Windows.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7e78be3f-bae4-4374-abbf-7c4e63ba7593'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7e78be3f-bae4-4374-abbf-7c4e63ba7593
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DiskPartition class'
+title: Win32\_DiskPartition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DiskPartition class
@@ -24,46 +27,46 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4B8-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_DiskPartition : CIM_DiskPartition
 {
-  unit16   AdditionalAvailability;
-  uint16   Availability;
-  uint16   PowerManagementCapabilities[];
-  string   IdentifyingDescriptions[1];
-  uint64   MaxQuiesceTime;
-  uint64   OtherIdentifyingInfo;
-  uint16   StatusInfo;
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  uint16   Access;
-  uint64   BlockSize;
-  boolean  Bootable;
-  boolean  BootPartition;
-  string.  Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string.  CreationClassName;
-  string   Description;
-  string   DeviceID;
-  uint32   DiskIndex;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
-  uint32   HiddenSectors;
-  uint32   Index;
+  unit16   AdditionalAvailability;
+  uint16   Availability;
+  uint16   PowerManagementCapabilities[];
+  string   IdentifyingDescriptions[1];
+  uint64   MaxQuiesceTime;
+  uint64   OtherIdentifyingInfo;
+  uint16   StatusInfo;
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  uint16   Access;
+  uint64   BlockSize;
+  boolean  Bootable;
+  boolean  BootPartition;
+  string.  Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string.  CreationClassName;
+  string   Description;
+  string   DeviceID;
+  uint32   DiskIndex;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
+  uint32   HiddenSectors;
+  uint32   Index;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   PNPDeviceID;
-  boolean  PowerManagementSupported;
-  boolean  PrimaryPartition;
-  string   Purpose;
-  boolean  RewritePartition;
-  uint64   Size;
-  uint64   StartingOffset;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   Type;
+  uint32   LastErrorCode;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   PNPDeviceID;
+  boolean  PowerManagementSupported;
+  boolean  PrimaryPartition;
+  string   Purpose;
+  boolean  RewritePartition;
+  uint64   Size;
+  uint64   StartingOffset;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   Type;
 };
 ```
 
@@ -87,7 +90,7 @@ The **Win32\_DiskPartition** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1070,7 +1073,7 @@ Maximum time in milliseconds, that a Device can run in a Quiesced state. A Devic
 >
 > "The MaxQuiesceTime property has been deprecated. When evaluating the use of Quiesce, it was determine that this single property is not adequate for describing when a device will automatically exit a quiescent state. In fact, the most likely scenario for a device to exit a quiescent state was determined to be based on the number of outstanding requests queued rather than on a maximum time. This will be re-evaluated and repositioned later. \\n
 
- 
+ 
 
 This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -1715,8 +1718,8 @@ Get-WmiObject -Query $wql -ComputerName '.' | Select-Object DiskIndex,Index,@{Na
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1736,9 +1739,9 @@ Get-WmiObject -Query $wql -ComputerName '.' | Select-Object DiskIndex,Index,@{Na
 [WMI Tasks: Disks and File Systems](https://msdn.microsoft.com/library/aa394592)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

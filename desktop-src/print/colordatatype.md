@@ -1,7 +1,12 @@
-﻿---
-Description: 'The values of the COLORDATATYPE enumeration are used by WCS functions to indicate the data type of vector content.'
-ms.assetid: 'ff7c9a81-3445-4a9e-aee3-2c63aafb0c82'
+---
+Description: The values of the COLORDATATYPE enumeration are used by WCS functions to indicate the data type of vector content.
+ms.assetid: ff7c9a81-3445-4a9e-aee3-2c63aafb0c82
 title: COLORDATATYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLORDATATYPE enumeration

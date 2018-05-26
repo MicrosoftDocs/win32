@@ -1,13 +1,16 @@
 ---
-Description: 'This example uses DSDE to import employee data to the fabrikam.com Active Directory.'
+Description: This example uses DSDE to import employee data to the fabrikam.com Active Directory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '4b6a1646-3943-4da9-8ab7-5e8eab57086a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 4b6a1646-3943-4da9-8ab7-5e8eab57086a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: Importing Directory Objects to Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Importing Directory Objects to Active Directory

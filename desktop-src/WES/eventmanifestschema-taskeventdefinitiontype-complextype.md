@@ -1,19 +1,25 @@
 ---
 title: TaskEventDefinitionType Complex Type
 description: Defines a task-specific event that your provider can log.
-ms.assetid: 'f0329728-e7b5-4161-a30f-78b81a7b6812'
-keywords: ["TaskEventDefinitionType complex type EventLog"]
+ms.assetid: f0329728-e7b5-4161-a30f-78b81a7b6812
+keywords:
+- TaskEventDefinitionType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - TaskEventDefinitionType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskEventDefinitionType Complex Type
 
-\[Beginning with the message compiler that ships with the Windows 7 version of the Windows SDK, the TaskEventDefinitionType complex type is no longer available. Instead use task-specific opcodes to provide the same functionality.\]
+\[Beginning with the message compiler that ships with the Windows 7 version of the Windows SDK, the TaskEventDefinitionType complex type is no longer available. Instead use task-specific opcodes to provide the same functionality.\]
 
 Defines a task-specific event that your provider can log.
 
@@ -76,14 +82,14 @@ Defines a task-specific event that your provider can log.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

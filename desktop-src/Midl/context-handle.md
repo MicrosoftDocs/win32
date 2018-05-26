@@ -2,13 +2,19 @@
 title: context\_handle attribute
 description: The \ context\_handle\ attribute identifies a binding handle that maintains context, or state information, on the server between remote procedure calls.
 ms.assetid: ab1aee44-4add-4816-a7ef-38bbf7b38918
-keywords: ["context_handle attribute MIDL"]
+keywords:
+- context_handle attribute MIDL
 topic_type:
 - apiref
 api_name:
 - context_handle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # context\_handle attribute

@@ -1,8 +1,9 @@
 ---
 title: MCI\_VCR\_STATUS\_PARMS structure
 description: The MCI\_VCR\_STATUS\_PARMS structure contains parameters for the MCI\_STATUS command for video-cassette recorders.
-ms.assetid: '5d7cbb64-a81d-4bdd-8f07-8c20dd7b9ef5'
-keywords: ["MCI_VCR_STATUS_PARMS structure Windows Multimedia"]
+ms.assetid: 5d7cbb64-a81d-4bdd-8f07-8c20dd7b9ef5
+keywords:
+- MCI_VCR_STATUS_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Vcr.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_VCR\_STATUS\_PARMS structure
@@ -23,10 +29,10 @@ The **MCI\_VCR\_STATUS\_PARMS** structure contains parameters for the [**MCI\_ST
 ```C++
 typedef struct tagMCI_VCR_STATUS_PARMS {
   DWORD_PTR dwCallback;
-  DWORD     dwReturn;
-  DWORD     dwItem;
-  DWORD     dwTrack;
-  DWORD     dwNumber;
+  DWORD     dwReturn;
+  DWORD     dwItem;
+  DWORD     dwTrack;
+  DWORD     dwNumber;
 } MCI_VCR_STATUS_PARMS;
 ```
 
@@ -73,7 +79,7 @@ Logical tuner that the current channel is associated with. This member is used t
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -81,8 +87,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vcr.h</dt> </dl> |
 
 
@@ -100,12 +106,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_STATUS**](mci-status.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

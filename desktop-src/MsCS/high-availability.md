@@ -4,11 +4,15 @@ description: Failover clusters are designed to keep resources (such as applicati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'daec0128-5ae1-4eea-ad6a-77b633523dd6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: daec0128-5ae1-4eea-ad6a-77b633523dd6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["high availability Failover Cluster"]
+keywords:
+- high availability Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # High Availability

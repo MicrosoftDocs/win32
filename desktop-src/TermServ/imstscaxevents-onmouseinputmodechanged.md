@@ -4,11 +4,14 @@ description: Called when the mouse input mode has changed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd0554c59-967d-4181-98cd-9e88dde32752'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d0554c59-967d-4181-98cd-9e88dde32752
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnMouseInputModeChanged method Remote Desktop Services", "OnMouseInputModeChanged method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnMouseInputModeChanged method"]
+keywords:
+- OnMouseInputModeChanged method Remote Desktop Services
+- OnMouseInputModeChanged method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnMouseInputModeChanged method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnMouseInputModeChanged method
@@ -28,7 +34,7 @@ Called when the mouse input mode has changed.
 
 ```C++
 void OnMouseInputModeChanged(
-  [in] VARIANT_BOOL fMouseModeRelative
+  [in] VARIANT_BOOL fMouseModeRelative
 );
 ```
 
@@ -59,8 +65,8 @@ Implement this method in your event sink to receive notification that the mouse 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents is defined as 336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |
@@ -74,9 +80,9 @@ Implement this method in your event sink to receive notification that the mouse 
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

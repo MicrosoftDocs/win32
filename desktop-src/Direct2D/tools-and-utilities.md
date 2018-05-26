@@ -1,7 +1,12 @@
 ---
 title: Tools and Utilities
 description: Tools and utilities provided for Direct2D.
-ms.assetid: '1133ed23-22f3-453b-9b1a-df2b20a8bedc'
+ms.assetid: 1133ed23-22f3-453b-9b1a-df2b20a8bedc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tools and Utilities
@@ -18,11 +23,11 @@ This section lists the tools and utilities provided for Direct2D.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

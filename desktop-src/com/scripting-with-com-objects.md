@@ -1,7 +1,12 @@
 ---
 title: Scripting with COM Objects
 description: Scripting with COM Objects
-ms.assetid: 'd99a561b-67dc-4fc9-adfa-cd7350eb16ba'
+ms.assetid: d99a561b-67dc-4fc9-adfa-cd7350eb16ba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Scripting with COM Objects

@@ -1,8 +1,10 @@
 ---
 title: WiaPropertyType enumeration
 description: Specifies the type of the value of an item property. Item properties can be found in the Properties collection of a Device or Item object.
-ms.assetid: '68123772-78cc-4954-8a04-79f49b12e973'
-keywords: ["WiaPropertyType enumeration WIA Automation", "WiaDeviceType enumeration WIA Automation"]
+ms.assetid: 68123772-78cc-4954-8a04-79f49b12e973
+keywords:
+- WiaPropertyType enumeration WIA Automation
+- WiaDeviceType enumeration WIA Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WiaPropertyType enumeration
@@ -75,16 +82,16 @@ For example code, see [Display all the Properties for the Selected Device](-wiaa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

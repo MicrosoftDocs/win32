@@ -1,7 +1,12 @@
 ---
 title: VBQuery Sample
 description: VBQuery Sample
-ms.assetid: 'a4666588-3ab2-4ed3-9a5b-bd536a63c051'
+ms.assetid: a4666588-3ab2-4ed3-9a5b-bd536a63c051
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VBQuery Sample
@@ -40,7 +45,7 @@ The VBQuery sample illustrates how you can use the [Query](iixssoquery.md) and [
 
 In addition, the sample uses ADO objects to handle the recordsets returned by the Query Helper Automation objects.
 
-This sample also demonstrates making a dynamic-link library (DLL) call to the [LocateCatalogs](locatecatalogs.md) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api). The application uses this function to locate catalogs suitable for the scope specified by the user.
+This sample also demonstrates making a dynamic-link library (DLL) call to the [LocateCatalogs](/windows/win32/Ntquery/nf-ntquery-locatecatalogsa?branch=master) function of the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api). The application uses this function to locate catalogs suitable for the scope specified by the user.
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Reads a string property.'
-ms.assetid: 'AFC51731-2F30-4214-90EE-A05D48F68530'
-title: 'IPrinterPropertyBag::GetString method'
+---
+Description: Reads a string property.
+ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
+title: IPrinterPropertyBagGetString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag::GetString method

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the URL provided as an import hint for a WSDL or XSD referenced inside another WSDL.'
-ms.assetid: 'ba489fd7-2304-426e-83a0-d174bb394065'
+Description: Specifies the URL provided as an import hint for a WSDL or XSD referenced inside another WSDL.
+ms.assetid: ba489fd7-2304-426e-83a0-d174bb394065
 title: location element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # location element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

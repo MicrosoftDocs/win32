@@ -1,12 +1,17 @@
 ---
-Description: 'Notifies applications that the system has resumed operation.'
-ms.assetid: 'f2997905-26c9-4884-ae79-64df5ce6bc55'
-title: 'PBT\_APMRESUMECRITICAL event'
+Description: Notifies applications that the system has resumed operation.
+ms.assetid: f2997905-26c9-4884-ae79-64df5ce6bc55
+title: PBT\_APMRESUMECRITICAL event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBT\_APMRESUMECRITICAL event
 
-\[PBT\_APMRESUMECRITICAL is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [PBT\_APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) instead.\]
+\[PBT\_APMRESUMECRITICAL is available for use in the operating systems specified in the Requirements section. Support for this event was removed in Windows Vista. Use [PBT\_APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) instead.\]
 
 Notifies applications that the system has resumed operation. This event can indicate that some or all applications did not receive a [PBT\_APMSUSPEND](pbt-apmsuspend.md) event. For example, this event can be broadcast after a critical suspension caused by a failing battery.
 
@@ -41,7 +46,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>*wParam* </dt> <dd> 
 
@@ -51,7 +56,7 @@ A handle to window.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,10 +81,10 @@ Because a critical suspension occurs without prior notification, resources and d
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
-| End of client support<br/>    | Windows XP<br/>                                                                                    |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| End of client support<br/>    | Windows XP<br/>                                                                                    |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                           |
 | Header<br/>                   | <dl> <dt>WinUser.h (include Windows.h)</dt> </dl> |
 
 
@@ -97,9 +102,9 @@ Because a critical suspension occurs without prior notification, resources and d
 [**WM\_POWERBROADCAST**](wm-powerbroadcast.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Sessions and Buffers
 description: Sessions and Buffers
-ms.assetid: 'dcb5e58b-ab5a-4867-90be-c6b66864adb5'
+ms.assetid: dcb5e58b-ab5a-4867-90be-c6b66864adb5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sessions and Buffers

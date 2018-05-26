@@ -1,7 +1,12 @@
 ---
-Description: 'Adhere to the following guidelines when authoring a 64-bit Windows Installer package.'
-ms.assetid: 'e7dfd188-fd4d-49d6-8cf5-c17182b697ca'
-title: 'Using 64-Bit Windows Installer Packages'
+Description: Adhere to the following guidelines when authoring a 64-bit Windows Installer package.
+ms.assetid: e7dfd188-fd4d-49d6-8cf5-c17182b697ca
+title: Using 64-Bit Windows Installer Packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using 64-Bit Windows Installer Packages
@@ -26,7 +31,7 @@ When you create [64-bit Windows Installer Packages](64-bit-windows-installer-pac
 -   To disable [Registry Reflection](winprog64.registry_reflection) for registry keys that are affected by a particular component, set the **msidbComponentAttributesDisableRegistryReflection** bit in the Attributes field of the [Component](component-table.md) table. This may be necessary to have 32-bit and 64-bit copies of the same application coexist. If this bit is set, the Windows Installer calls the [**RegDisableReflectionKey**](base.regdisablereflectionkey) function on each key that is being accessed by the component. This bit is available with Windows Installer version 4.0. This bit is ignored on 32-bit systems. This bit is ignored on the 64-bit versions of Windows XP and Windows 2000.
 
 > [!Note]  
-> The value of the numeric registry root returned by the *lpPathBuf* parameter of the [**MsiGetComponentPath**](msigetcomponentpath.md) function distinguishes between components on 32-bit and 64-bit operating systems. For more information, see **MsiGetComponentPath** function.
+> The value of the numeric registry root returned by the *lpPathBuf* parameter of the [**MsiGetComponentPath**](/windows/win32/Msi/nf-msi-msigetcomponentpatha?branch=master) function distinguishes between components on 32-bit and 64-bit operating systems. For more information, see **MsiGetComponentPath** function.
 
  
 

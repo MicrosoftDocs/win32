@@ -1,14 +1,21 @@
 ---
 title: ITransformPropertyPoint interface
 description: The ITransformPropertyPoint interface specifies a property value at a specific point. To create a property point programmatically, call ITransformProperty AddPoint.
-ms.assetid: 'a99673c2-61cf-4cf7-bfb6-4b9ce8ea5431'
-keywords: ["ITransformPropertyPoint interface Windows Movie Maker and DVD Maker", "ITransformPropertyPoint interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: a99673c2-61cf-4cf7-bfb6-4b9ce8ea5431
+keywords:
+- ITransformPropertyPoint interface Windows Movie Maker and DVD Maker
+- ITransformPropertyPoint interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - ITransformPropertyPoint
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformPropertyPoint interface
@@ -36,7 +43,7 @@ The **ITransformPropertyPoint** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -45,9 +52,9 @@ The **ITransformPropertyPoint** interface has these methods.
 [**Property Management Interfaces**](property-management-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

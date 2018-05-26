@@ -1,7 +1,12 @@
 ---
 title: DirectInput and XUSB Devices
 description: The driver for the Xbox 360 Common Controller class (XUSB) on Windows implements the kernel-mode interface for the XINPUT DLL.
-ms.assetid: '8bf47b07-a1b6-7721-2136-3853e72c71ad'
+ms.assetid: 8bf47b07-a1b6-7721-2136-3853e72c71ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectInput and XUSB Devices

@@ -1,14 +1,20 @@
 ---
 title: coclass macro
 description: This statement describes the globally unique ID (GUID) and the supported interfaces for a Component Object Model (COM).
-ms.assetid: '333d0904-ffa2-4d25-878d-7422bcd40582'
-keywords: ["coclass macro Automation"]
+ms.assetid: 333d0904-ffa2-4d25-878d-7422bcd40582
+keywords:
+- coclass macro Automation
 topic_type:
 - apiref
 api_name:
 - coclass
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # coclass macro

@@ -1,14 +1,20 @@
 ---
 title: event.button
 description: The button attribute retrieves a value indicating which mouse buttons were down when the event occurred.
-ms.assetid: '58fb1522-9946-4942-b4bf-4cff37f7dbaf'
-keywords: ["event.button Windows Media Player"]
+ms.assetid: 58fb1522-9946-4942-b4bf-4cff37f7dbaf
+keywords:
+- event.button Windows Media Player
 topic_type:
 - apiref
 api_name:
 - event.button
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # event.button
@@ -34,7 +40,7 @@ This attribute is a read-only **Number** (**long**).
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,9 +59,9 @@ This attribute is a read-only **Number** (**long**).
 [**Ambient Event Attributes**](ambient-event-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

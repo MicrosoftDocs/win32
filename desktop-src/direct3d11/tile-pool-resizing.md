@@ -1,12 +1,17 @@
 ---
 title: Tile pool resizing
 description: Use the ID3D11DeviceContext2 ResizeTilePool API to grow a tile pool if the application needs more working set for the tiled resources mapping into it or to shrink if less space is needed.
-ms.assetid: '529E874E-650B-4BFD-97F6-E66E743564A9'
+ms.assetid: 529E874E-650B-4BFD-97F6-E66E743564A9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tile pool resizing
 
-Use the [**ID3D11DeviceContext2::ResizeTilePool**](id3d11devicecontext2-resizetilepool.md) API to grow a tile pool if the application needs more working set for the tiled resources mapping into it or to shrink if less space is needed. Another option for applications is to allocate additional tile pools for new tiled resources. But if any single tiled resource needs more space than initially available in its tile pool, growing the tile pool is a good option. A tiled resource can't have mappings into multiple tile pools at the same time.
+Use the [**ID3D11DeviceContext2::ResizeTilePool**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-resizetilepool?branch=master) API to grow a tile pool if the application needs more working set for the tiled resources mapping into it or to shrink if less space is needed. Another option for applications is to allocate additional tile pools for new tiled resources. But if any single tiled resource needs more space than initially available in its tile pool, growing the tile pool is a good option. A tiled resource can't have mappings into multiple tile pools at the same time.
 
 When a tile pool is grown, additional tiles are added to the end via one or more new allocations by the display driver. This breakdown into allocations isn't visible to the application. Existing memory in the tile pool is left untouched, and existing tiled resource mappings into that memory remain intact.
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax job during the submission process.'
-ms.assetid: 'a8849369-88a6-451a-8d2a-91f8c7a8673b'
-title: 'FaxOutgoingJob.SubmissionId property'
+---
+Description: The SubmissionId property is a null-terminated string that contains the unique identifier assigned to the fax job during the submission process.
+ms.assetid: a8849369-88a6-451a-8d2a-91f8c7a8673b
+title: FaxOutgoingJob.SubmissionId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.SubmissionId property
@@ -50,7 +55,7 @@ All fax jobs created by the same submission process share the same unique submis
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

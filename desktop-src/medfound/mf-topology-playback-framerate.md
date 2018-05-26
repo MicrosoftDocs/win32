@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the monitor refresh rate.'
-ms.assetid: 'deeb780c-2dc2-4a9a-926a-23b9ae3bedd5'
-title: 'MF\_TOPOLOGY\_PLAYBACK\_FRAMERATE attribute'
+---
+Description: Specifies the monitor refresh rate.
+ms.assetid: deeb780c-2dc2-4a9a-926a-23b9ae3bedd5
+title: MF\_TOPOLOGY\_PLAYBACK\_FRAMERATE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPOLOGY\_PLAYBACK\_FRAMERATE attribute
@@ -14,13 +19,13 @@ Specifies the monitor refresh rate.
 
 ## Get/set
 
-To get this attribute, call [**MFGetAttributeRatio**](mfgetattributeratio.md).
+To get this attribute, call [**MFGetAttributeRatio**](/windows/win32/mfapi/nf-mfapi-mfgetattributeratio?branch=master).
 
-To set this attribute, call [**MFSetAttributeRatio**](mfsetattributeratio.md).
+To set this attribute, call [**MFSetAttributeRatio**](/windows/win32/mfapi/nf-mfapi-mfsetattributeratio?branch=master).
 
 ## Applies to
 
-[**IMFTopology**](imftopology.md)
+[**IMFTopology**](/windows/win32/mfidl/nn-mfidl-imftopology?branch=master)
 
 ## Remarks
 

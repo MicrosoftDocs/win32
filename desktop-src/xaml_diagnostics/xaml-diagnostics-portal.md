@@ -1,7 +1,12 @@
-﻿---
-Description: 'The XAML Diagnostics APIs provide support for the live visual tree feature for Windows Runtime XAML in Microsoft Visual Studio.'
-ms.assetid: 'db74df8c-d22a-4afb-903e-9296eb586974'
+---
+Description: The XAML Diagnostics APIs provide support for the live visual tree feature for Windows Runtime XAML in Microsoft Visual Studio.
+ms.assetid: db74df8c-d22a-4afb-903e-9296eb586974
 title: XAML Diagnostics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XAML Diagnostics

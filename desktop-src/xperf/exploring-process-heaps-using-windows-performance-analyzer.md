@@ -1,7 +1,12 @@
 ---
 title: Exploring Process Heaps Using Windows Performance Analyzer
 description: Exploring Process Heaps Using Windows Performance Analyzer
-ms.assetid: '55d2f0dd-3fec-4135-8ec4-0f0e1f21946c'
+ms.assetid: 55d2f0dd-3fec-4135-8ec4-0f0e1f21946c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Exploring Process Heaps Using Windows Performance Analyzer

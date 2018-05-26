@@ -1,8 +1,10 @@
 ---
 title: Win32\_RoamingProfileMachineConfiguration class
 description: Represents the roaming profile configuration for a computer.
-ms.assetid: '59ff72c2-976f-46b2-ab73-a2b616088847'
-keywords: ["Win32_RoamingProfileMachineConfiguration class User State Manageability API", "Win32_RoamingProfileMachineConfiguration class User State Manageability API , described"]
+ms.assetid: 59ff72c2-976f-46b2-ab73-a2b616088847
+keywords:
+- Win32_RoamingProfileMachineConfiguration class User State Manageability API
+- Win32_RoamingProfileMachineConfiguration class User State Manageability API , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_RoamingProfileMachineConfiguration class
@@ -42,24 +49,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_RoamingProfileMachineConfiguration
 {
-  boolean                                    IsEffective;
-  boolean                                    PrimaryComputerEnabled;
-  boolean                                    AddAdminGroupToRUPEnabled;
+  boolean                                    IsEffective;
+  boolean                                    PrimaryComputerEnabled;
+  boolean                                    AddAdminGroupToRUPEnabled;
   Win32_RoamingProfileBackgroundUploadParams BackgroundUploadParams;
-  boolean                                    DeleteRoamingCacheEnabled;
-  uint16                                     DeleteProfilesOlderDays;
-  boolean                                    DetectSlowLinkDisabled;
-  boolean                                    ForceUnloadDisabled;
-  boolean                                    TempProfileLogonBlocked;
-  boolean                                    OnlyAllowLocalProfiles;
-  boolean                                    ProfileUploadDisabled;
-  boolean                                    SlowLinkUIEnabled;
-  uint16                                     WaitForNetworkInSec;
-  string                                     MachineProfilePath;
-  Win32_RoamingProfileSlowLinkParams         SlowLinkTimeOutParams;
-  boolean                                    WaitForRemoteProfile;
-  boolean                                    AllowCrossForestUserPolicy;
-  boolean                                    OwnerCheckDisabled;
+  boolean                                    DeleteRoamingCacheEnabled;
+  uint16                                     DeleteProfilesOlderDays;
+  boolean                                    DetectSlowLinkDisabled;
+  boolean                                    ForceUnloadDisabled;
+  boolean                                    TempProfileLogonBlocked;
+  boolean                                    OnlyAllowLocalProfiles;
+  boolean                                    ProfileUploadDisabled;
+  boolean                                    SlowLinkUIEnabled;
+  uint16                                     WaitForNetworkInSec;
+  string                                     MachineProfilePath;
+  Win32_RoamingProfileSlowLinkParams         SlowLinkTimeOutParams;
+  boolean                                    WaitForRemoteProfile;
+  boolean                                    AllowCrossForestUserPolicy;
+  boolean                                    OwnerCheckDisabled;
 };
 ```
 
@@ -330,7 +337,7 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -338,16 +345,16 @@ This class requires a context object to be passed as the *pCtx* parameter to the
 
 |                                     |                                                                                                                    |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                               |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                             |
 | MOF<br/>                      | <dl> <dt>UserProfileConfigurationWmiProvider.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

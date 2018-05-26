@@ -1,7 +1,12 @@
-﻿---
-Description: 'Skips over the next specified number of items in the given enumeration sequence.'
-ms.assetid: '1459c18a-ccff-451f-8904-32858cc72b78'
-title: 'IEnumPStoreItems::Skip method'
+---
+Description: Skips over the next specified number of items in the given enumeration sequence.
+ms.assetid: 1459c18a-ccff-451f-8904-32858cc72b78
+title: IEnumPStoreItemsSkip method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPStoreItems::Skip method

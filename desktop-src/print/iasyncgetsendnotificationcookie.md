@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'A9FF489E-458D-4E37-85F0-AA61249CE4B8'
+---
+Description: .
+ms.assetid: A9FF489E-458D-4E37-85F0-AA61249CE4B8
 title: IAsyncGetSendNotificationCookie interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAsyncGetSendNotificationCookie interface

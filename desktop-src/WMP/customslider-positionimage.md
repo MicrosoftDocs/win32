@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.positionImage
 description: The positionImage attribute specifies or retrieves the image map used to determine which position image from the image file to display.
-ms.assetid: '7e99dc21-ebba-438a-a983-190dbe429578'
-keywords: ["CUSTOMSLIDER.positionImage Windows Media Player"]
+ms.assetid: 7e99dc21-ebba-438a-a983-190dbe429578
+keywords:
+- CUSTOMSLIDER.positionImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.positionImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.positionImage
@@ -145,9 +151,9 @@ The following code illustrates the use of **CUSTOMSLIDER** attributes.
 [**CUSTOMSLIDER.image**](customslider-image.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

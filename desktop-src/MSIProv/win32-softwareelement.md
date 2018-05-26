@@ -1,8 +1,10 @@
 ---
 title: Win32\_SoftwareElement class
 description: The Win32\_SoftwareElement WMI class represents a software element, part of a software feature (a distinct subset of a product which may contain one or more elements).
-ms.assetid: '93f6168f-5198-47c3-be5c-002b14c31986'
-keywords: ["Win32_SoftwareElement class", "Win32_SoftwareElement class, described"]
+ms.assetid: 93f6168f-5198-47c3-be5c-002b14c31986
+keywords:
+- Win32_SoftwareElement class
+- Win32_SoftwareElement class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_SoftwareElement class
@@ -39,7 +46,7 @@ The **Win32\_SoftwareElement** [WMI class](https://msdn.microsoft.com/library/aa
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -49,25 +56,25 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Provider("MSIProv"), Dynamic]
 class Win32_SoftwareElement : CIM_SoftwareElement
 {
-  uint16   Attributes;
-  string   BuildNumber;
-  string   Caption;
-  string   CodeSet;
-  string   Description;
-  string   IdentificationCode;
+  uint16   Attributes;
+  string   BuildNumber;
+  string   Caption;
+  string   CodeSet;
+  string   Description;
+  string   IdentificationCode;
   datetime InstallDate;
-  sint16   InstallState;
-  string   LanguageEdition;
-  string   Manufacturer;
-  string   Name;
-  string   OtherTargetOS;
-  string   Path;
-  string   SerialNumber;
-  string   SoftwareElementID;
-  uint16   SoftwareElementState;
-  string   Status;
-  uint16   TargetOperatingSystem;
-  string   Version;
+  sint16   InstallState;
+  string   LanguageEdition;
+  string   Manufacturer;
+  string   Name;
+  string   OtherTargetOS;
+  string   Path;
+  string   SerialNumber;
+  string   SoftwareElementID;
+  uint16   SoftwareElementState;
+  string   Status;
+  uint16   TargetOperatingSystem;
+  string   Version;
 };
 ```
 
@@ -199,7 +206,7 @@ Current installed state for the software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -268,8 +275,8 @@ Path to the installed software element. If the component is a registry key, the 
 
 ```
 HKEY_CURRENT_USER
-   SOFTWARE
-      Microsoft
+   SOFTWARE
+      Microsoft
 ```
 
 would be returned as **01:\\SOFTWARE\\Microsoft**. The registry roots returned are defined as follows:
@@ -285,7 +292,7 @@ would be returned as **01:\\SOFTWARE\\Microsoft**. The registry roots returned a
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -337,7 +344,7 @@ Various states of a software element's life cycle. A software element in the dep
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -458,7 +465,7 @@ Provider's choice of operating system environment. The value of this property do
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -487,8 +494,8 @@ The **Win32\_SoftwareElement** class is derived from [**CIM\_SoftwareElement**](
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -502,9 +509,9 @@ The **Win32\_SoftwareElement** class is derived from [**CIM\_SoftwareElement**](
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

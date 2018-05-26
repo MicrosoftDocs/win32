@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_CS structure
 description: A helper structure used to describe a compute shader as a single object suitable for a stream description.
-ms.assetid: 'B76B0CB4-FC76-4C5B-84FC-DCFF907BE2F8'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_CS structure"]
+ms.assetid: B76B0CB4-FC76-4C5B-84FC-DCFF907BE2F8
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_CS structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_CS structure
@@ -22,10 +28,10 @@ A helper structure used to describe a compute shader as a single object suitable
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_CS {
-                                   CD3DX12_PIPELINE_STATE_STREAM_CS;
-                                   CD3DX12_PIPELINE_STATE_STREAM_CS(D3D12_SHADER_BYTECODE const &amp;i);
+                                   CD3DX12_PIPELINE_STATE_STREAM_CS;
+                                   CD3DX12_PIPELINE_STATE_STREAM_CS(D3D12_SHADER_BYTECODE const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_CS operator=(D3D12_SHADER_BYTECODE const&amp; i);
-                                   operator D3D12_SHADER_BYTECODE() const;
+                                   operator D3D12_SHADER_BYTECODE() const;
 };
 ```
 
@@ -45,7 +51,7 @@ Creates a new, uninitialized, instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CS
 **CD3DX12\_PIPELINE\_STATE\_STREAM\_CS(D3D12\_SHADER\_BYTECODE const &i)**
 </dt> <dd>
 
-Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_CS** and subobject data copied from *i*, a [**D3D12\_SHADER\_BYTECODE**](d3d12-shader-bytecode.md) structure.
+Creates a new instance of a CD3DX12\_PIPELINE\_STATE\_STREAM\_CS, initialized with a subobject type of **D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE\_CS** and subobject data copied from *i*, a [**D3D12\_SHADER\_BYTECODE**](/windows/win32/D3D12/ns-d3d12-d3d12_shader_bytecode?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +65,7 @@ Copy-assignment operator.
 **operator D3D12\_SHADER\_BYTECODE() const**
 </dt> <dd>
 
-Implicit conversion to a [**D3D12\_SHADER\_BYTECODE**](d3d12-shader-bytecode.md) structure.
+Implicit conversion to a [**D3D12\_SHADER\_BYTECODE**](/windows/win32/D3D12/ns-d3d12-d3d12_shader_bytecode?branch=master) structure.
 
 </dd> </dl>
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<D3D12_SHADER_BYTECODE, D3D12_PIP
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

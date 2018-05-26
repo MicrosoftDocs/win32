@@ -1,7 +1,12 @@
 ---
-Description: 'The CBaseRenderer class is a base class for implementing renderer filters.'
-ms.assetid: '8d39d3bd-6162-402e-a4b3-0f35d3e29b96'
+Description: The CBaseRenderer class is a base class for implementing renderer filters.
+ms.assetid: 8d39d3bd-6162-402e-a4b3-0f35d3e29b96
 title: CBaseRenderer class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer class
@@ -21,13 +26,13 @@ The `CBaseRenderer` class exposes the **IMediaSeeking** and **IMediaPosition** i
 
 ## Scheduling
 
-When the upstream filter calls the input pin's [**IMemInputPin::Receive**](imeminputpin-receive.md) method to deliver a sample, the pin passes this call to the filter's [**CBaseRenderer::Receive**](cbaserenderer-receive.md) method. The filter either drops the sample, renders it immediately, or schedules it for rendering.
+When the upstream filter calls the input pin's [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method to deliver a sample, the pin passes this call to the filter's [**CBaseRenderer::Receive**](cbaserenderer-receive.md) method. The filter either drops the sample, renders it immediately, or schedules it for rendering.
 
 If the sample has no time stamps, or if no reference clock is available, the filter renders the sample immediately. Otherwise, the filter calls the [**CBaseRenderer::ShouldDrawSampleNow**](cbaserenderer-shoulddrawsamplenow.md) method to determine what to do. By default, the sample is scheduled based on its time stamps. The derived class can override **ShouldDrawSampleNow** to support quality control.
 
-To schedule a sample, the filter calls the [**IReferenceClock::AdviseTime**](ireferenceclock-advisetime.md) method, which creates an advise request. The [**Receive**](imeminputpin-receive.md) method then blocks until the scheduled time, or until the filter changes state. Blocking prevents the upstream filter from delivering more samples until the current sample is rendered.
+To schedule a sample, the filter calls the [**IReferenceClock::AdviseTime**](/windows/win32/Strmif/nf-strmif-ireferenceclock-advisetime?branch=master) method, which creates an advise request. The [**Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) method then blocks until the scheduled time, or until the filter changes state. Blocking prevents the upstream filter from delivering more samples until the current sample is rendered.
 
-When the upstream filter calls the [**IPin::EndOfStream**](ipin-endofstream.md) method to signal the end of the stream, the filter sends an [**EC\_COMPLETE**](ec-complete.md) event to the filter graph manager. The filter waits for the current sample's stop time before sending the event.
+When the upstream filter calls the [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) method to signal the end of the stream, the filter sends an [**EC\_COMPLETE**](ec-complete.md) event to the filter graph manager. The filter waits for the current sample's stop time before sending the event.
 
 
 
@@ -56,7 +61,7 @@ When the upstream filter calls the [**IPin::EndOfStream**](ipin-endofstream.md) 
 | [**CancelNotification**](cbaserenderer-cancelnotification.md)               | Cancels the timer event that schedules rendering. Virtual.                                                                              |
 | [**CBaseRenderer**](cbaserenderer-cbaserenderer.md)                         | Constructor method.                                                                                                                     |
 | [**~CBaseRenderer**](cbaserenderer--cbaserenderer.md)                       | Destructor method.                                                                                                                      |
-| [**GetMediaPositionInterface**](cbaserenderer-getmediapositioninterface.md) | Retrieves the filter's [**IMediaPosition**](imediaposition.md) and [**IMediaSeeking**](imediaseeking.md) interface pointers. Virtual. |
+| [**GetMediaPositionInterface**](cbaserenderer-getmediapositioninterface.md) | Retrieves the filter's [**IMediaPosition**](/windows/win32/Control/nn-control-imediaposition?branch=master) and [**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master) interface pointers. Virtual. |
 | [**GetPin**](cbaserenderer-getpin.md)                                       | Retrieves a pin. Virtual.                                                                                                               |
 | [**GetPinCount**](cbaserenderer-getpincount.md)                             | Retrieves the number of pins. Virtual.                                                                                                  |
 | [**GetSampleTimes**](cbaserenderer-getsampletimes.md)                       | Retrieves the time stamps from a sample. Virtual.                                                                                       |
@@ -126,7 +131,7 @@ When the upstream filter calls the [**IPin::EndOfStream**](ipin-endofstream.md) 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -139,9 +144,9 @@ When the upstream filter calls the [**IPin::EndOfStream**](ipin-endofstream.md) 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 title: 10Level9 ID3D11DeviceContext Methods
 description: This section lists the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the ID3D11DeviceContext methods.
-ms.assetid: '84478b56-0306-491a-9545-0849b06d8342'
+ms.assetid: 84478b56-0306-491a-9545-0849b06d8342
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 10Level9 ID3D11DeviceContext Methods
 
-This section lists the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the [**ID3D11DeviceContext**](id3d11devicecontext.md) methods.
+This section lists the differences between each 10Level9 feature level and the D3D\_FEATURE\_LEVEL\_11\_0 and higher feature level for the [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) methods.
 
 -   [ID3D11DeviceContext::CopySubresourceRegion](#id3d11devicecontextcopysubresourceregion)
 -   [ID3D11DeviceContext::CopyResource](#id3d11devicecontextcopyresource)
@@ -89,7 +94,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::CopyResource
 
@@ -121,7 +126,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::CopyStructureCount
 
@@ -153,7 +158,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::ClearUnorderedAccessViewFloat
 
@@ -185,7 +190,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::ClearUnorderedAccessViewUint
 
@@ -217,7 +222,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::ClearRenderTargetView
 
@@ -249,7 +254,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::CSSetConstantBuffers
 
@@ -281,7 +286,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::CSSetSamplers
 
@@ -313,7 +318,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::CSSetShader
 
@@ -345,7 +350,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::CSSetShaderResources
 
@@ -377,7 +382,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::CSSetUnorderedAccessViews
 
@@ -409,7 +414,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::Dispatch
 
@@ -441,7 +446,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DispatchIndirect
 
@@ -473,7 +478,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::Draw
 
@@ -487,7 +492,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DrawAuto
 
@@ -519,7 +524,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DrawIndexed
 
@@ -533,7 +538,7 @@ This section lists the differences between each 10Level9 feature level and the D
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DrawIndexedInstanced
 
@@ -565,7 +570,7 @@ This section lists the differences between each 10Level9 feature level and the D
 <td>Number of primitives may not exceed 1048575.<br/> Textures cannot repeat over one primitive more than 8192 times.<br/> Index values cannot exceed 1048575.<br/>
 <blockquote>
 [!Note]<br />
-When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-drawindexedinstanced.md) method with a vertex shader that is bound to the pipeline and that doesn't import any per-instance data, some Direct3D 9 graphics hardware might not draw anything. In particular, if the vertex shader does not use any per-instance data, calling <strong>DrawIndexedInstanced</strong> with 1 instance is not equivalent to calling [<strong>Draw</strong>](id3d11devicecontext-draw.md).
+When you call the [<strong>DrawIndexedInstanced</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced?branch=master) method with a vertex shader that is bound to the pipeline and that doesn't import any per-instance data, some Direct3D 9 graphics hardware might not draw anything. In particular, if the vertex shader does not use any per-instance data, calling <strong>DrawIndexedInstanced</strong> with 1 instance is not equivalent to calling [<strong>Draw</strong>](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-draw?branch=master).
 </blockquote>
 <br/></td>
 </tr>
@@ -574,7 +579,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DrawIndexedInstancedIndirect
 
@@ -614,7 +619,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DrawInstanced
 
@@ -646,7 +651,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DrawInstancedIndirect
 
@@ -686,7 +691,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DSSetConstantBuffers
 
@@ -726,7 +731,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DSSetSamplers
 
@@ -766,7 +771,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DSSetShader
 
@@ -806,7 +811,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::DSSetShaderResources
 
@@ -846,7 +851,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::GSSetConstantBuffers
 
@@ -878,7 +883,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::GSSetSamplers
 
@@ -910,7 +915,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::GSSetShader
 
@@ -942,7 +947,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::GSSetShaderResources
 
@@ -974,7 +979,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::HSSetConstantBuffers
 
@@ -1014,7 +1019,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::HSSetSamplers
 
@@ -1054,7 +1059,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::HSSetShader
 
@@ -1094,7 +1099,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::HSSetShaderResources
 
@@ -1134,7 +1139,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::IASetIndexBuffer
 
@@ -1166,7 +1171,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::IASetPrimitiveTopology
 
@@ -1198,7 +1203,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::OMSetBlendState
 
@@ -1230,7 +1235,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::OMSetRenderTargets
 
@@ -1262,7 +1267,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews
 
@@ -1294,7 +1299,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::PSSetConstantBuffers
 
@@ -1326,7 +1331,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::PSSetSamplers
 
@@ -1358,7 +1363,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::PSSetShader
 
@@ -1390,7 +1395,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::PSSetShaderResources
 
@@ -1422,7 +1427,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::RSSetScissorRects
 
@@ -1454,7 +1459,7 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::RSSetViewports
 
@@ -1486,11 +1491,11 @@ When you call the [<strong>DrawIndexedInstanced</strong>](id3d11devicecontext-dr
 
 
 
- 
+ 
 
-Even though you specify float values to the members of the [**D3D11\_VIEWPORT**](d3d11-viewport.md) structure for the *pViewports* array in a call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetviewports.md) for [feature levels](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_x, **RSSetViewports** uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to **RSSetViewports** for feature levels 9\_x fails. This failure occurs because **RSSetViewports** for 9\_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
+Even though you specify float values to the members of the [**D3D11\_VIEWPORT**](/windows/win32/D3D11/ns-d3d11-d3d11_viewport?branch=master) structure for the *pViewports* array in a call to [**ID3D11DeviceContext::RSSetViewports**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports?branch=master) for [feature levels](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 9\_x, **RSSetViewports** uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to **RSSetViewports** for feature levels 9\_x fails. This failure occurs because **RSSetViewports** for 9\_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
 
-The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetviewports.md) for [feature levels](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 10\_x and 11\_x works as you expect even when you use a negative top left corner for the viewport.
+The call to [**ID3D11DeviceContext::RSSetViewports**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports?branch=master) for [feature levels](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 10\_x and 11\_x works as you expect even when you use a negative top left corner for the viewport.
 
 ## ID3D11DeviceContext::SetPredication
 
@@ -1522,7 +1527,7 @@ The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetv
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::SOSetTargets
 
@@ -1554,7 +1559,7 @@ The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetv
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::VSSetConstantBuffers
 
@@ -1586,7 +1591,7 @@ The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetv
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::VSSetSamplers
 
@@ -1618,7 +1623,7 @@ The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetv
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::VSSetShader
 
@@ -1650,7 +1655,7 @@ The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetv
 
 
 
- 
+ 
 
 ## ID3D11DeviceContext::VSSetShaderResources
 
@@ -1682,7 +1687,7 @@ The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetv
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -1691,9 +1696,9 @@ The call to [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetv
 [10Level9 Reference](d3d11-graphics-reference-10level9.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

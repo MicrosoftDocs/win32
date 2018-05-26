@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the maximum luminance of the display on which the content was authored, in Nits. This attribute has the same semantics as max\_display\_mastering\_luminance as defined in the CEA-861.3 standard.'
-ms.assetid: '8536B31D-F753-4183-8C17-CD2A0DDE873C'
-title: 'MF\_MT\_MAX\_MASTERING\_LUMINANCE attribute'
+---
+Description: Specifies the maximum luminance of the display on which the content was authored, in Nits. This attribute has the same semantics as max\_display\_mastering\_luminance as defined in the CEA-861.3 standard.
+ms.assetid: 8536B31D-F753-4183-8C17-CD2A0DDE873C
+title: MF\_MT\_MAX\_MASTERING\_LUMINANCE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_MAX\_MASTERING\_LUMINANCE attribute

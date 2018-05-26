@@ -4,11 +4,16 @@ description: The EnableAllExtensions method determines whether or not all extens
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eeb4a400-da1e-47b7-bbbf-a601e92ef55b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: eeb4a400-da1e-47b7-bbbf-a601e92ef55b
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["EnableAllExtensions method MMC", "EnableAllExtensions method MMC , Extension object", "Extension object MMC , EnableAllExtensions method", "EnableAllExtensions method MMC , Extension interface", "Extension interface MMC , EnableAllExtensions method"]
+keywords:
+- EnableAllExtensions method MMC
+- EnableAllExtensions method MMC , Extension object
+- Extension object MMC , EnableAllExtensions method
+- EnableAllExtensions method MMC , Extension interface
+- Extension interface MMC , EnableAllExtensions method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extension::EnableAllExtensions method
@@ -71,8 +79,8 @@ objExt.EnableAllExtensions (0)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -90,9 +98,9 @@ objExt.EnableAllExtensions (0)
 [**Extension.Extensions**](extension-extensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

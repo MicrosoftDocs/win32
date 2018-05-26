@@ -2,13 +2,19 @@
 title: transmit\_as attribute
 description: The \ transmit\_as\ attribute instructs the compiler to associate type-id, which is a presented type that client and server applications manipulate, with a transmitted type xmit-type.
 ms.assetid: 3dd1a242-03ec-49b4-ac96-87ef186e41d2
-keywords: ["transmit_as attribute MIDL"]
+keywords:
+- transmit_as attribute MIDL
 topic_type:
 - apiref
 api_name:
 - transmit_as
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # transmit\_as attribute

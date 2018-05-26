@@ -1,8 +1,20 @@
 ---
 title: Using the Task Scheduler
 description: This section contains code examples that illustrate how the Task Scheduler API is used and XML examples that show how tasks are defined in the Task Scheduler schema.
-ms.assetid: '6346cbd3-b584-47b4-8313-7830f7fd77b3'
-keywords: ["triggers Task Scheduler , examples", "starting a task Task Scheduler", "creating tasks Task Scheduler", "Task Scheduler Task Scheduler , using", "Task Scheduler examples Task Scheduler", "Task Scheduler Task Scheduler , examples See Task Scheduler examples Task Scheduler", "samples Task Scheduler See Task Scheduler examples Task Scheduler"]
+ms.assetid: 6346cbd3-b584-47b4-8313-7830f7fd77b3
+keywords:
+- triggers Task Scheduler , examples
+- starting a task Task Scheduler
+- creating tasks Task Scheduler
+- Task Scheduler Task Scheduler , using
+- Task Scheduler examples Task Scheduler
+- Task Scheduler Task Scheduler , examples See Task Scheduler examples Task Scheduler
+- samples Task Scheduler See Task Scheduler examples Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Task Scheduler

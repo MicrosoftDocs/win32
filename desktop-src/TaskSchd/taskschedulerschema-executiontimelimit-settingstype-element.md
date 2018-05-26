@@ -1,14 +1,20 @@
 ---
 title: ExecutionTimeLimit (settingsType) Element
 description: Amount of time allowed to complete the task.
-ms.assetid: 'c42d0f42-4571-44ab-90b1-948fd7ea991b'
-keywords: ["ExecutionTimeLimit element Task Scheduler"]
+ms.assetid: c42d0f42-4571-44ab-90b1-948fd7ea991b
+keywords:
+- ExecutionTimeLimit element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ExecutionTimeLimit
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExecutionTimeLimit (settingsType) Element
@@ -36,7 +42,7 @@ The **ExecutionTimeLimit** element is defined by the [**settingsType**](tasksche
 
 ## Remarks
 
-For C++ development, see [**ExecutionTimeLimit Property of ITaskSettings**](itasksettings-executiontimelimit.md).
+For C++ development, see [**ExecutionTimeLimit Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_executiontimelimit?branch=master).
 
 For script development, see [**TaskSettings.ExecutionTimeLimit**](tasksettings-executiontimelimit.md).
 
@@ -46,8 +52,8 @@ For script development, see [**TaskSettings.ExecutionTimeLimit**](tasksettings-e
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -58,9 +64,9 @@ For script development, see [**TaskSettings.ExecutionTimeLimit**](tasksettings-e
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

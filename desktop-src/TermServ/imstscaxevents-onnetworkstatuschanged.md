@@ -4,11 +4,14 @@ description: Called when the network status has changed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '177A410E-2449-4FC7-8DE5-21F83A6DD028'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 177A410E-2449-4FC7-8DE5-21F83A6DD028
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnNetworkStatusChanged method Remote Desktop Services", "OnNetworkStatusChanged method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnNetworkStatusChanged method"]
+keywords:
+- OnNetworkStatusChanged method Remote Desktop Services
+- OnNetworkStatusChanged method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnNetworkStatusChanged method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnNetworkStatusChanged method
@@ -28,9 +34,9 @@ Called when the network status has changed.
 
 ```C++
 void OnNetworkStatusChanged(
-  [in] ULONG qualityLevel,
-  [in] LONG  bandwidth,
-  [in] LONG  rtt
+  [in] ULONG qualityLevel,
+  [in] LONG  bandwidth,
+  [in] LONG  rtt
 );
 ```
 
@@ -99,8 +105,8 @@ This method does not return a value.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | IID<br/>                      | IMsTscAxEvents is defined as 336d5562-efa8-482e-8cb3-c5c0fc7a7db6<br/>           |
@@ -114,9 +120,9 @@ This method does not return a value.
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

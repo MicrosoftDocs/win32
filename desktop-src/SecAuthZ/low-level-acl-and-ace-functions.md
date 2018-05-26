@@ -1,7 +1,12 @@
 ---
-Description: 'Create an access control list (ACL) by using the low-level functions, allocate a buffer for the ACL and then initialize it by calling the InitializeAcl function.'
-ms.assetid: '9dcbbd4c-b3b3-43fd-b3a6-0637a53a455a'
-title: 'Low-level ACL and ACE Functions'
+Description: Create an access control list (ACL) by using the low-level functions, allocate a buffer for the ACL and then initialize it by calling the InitializeAcl function.
+ms.assetid: 9dcbbd4c-b3b3-43fd-b3a6-0637a53a455a
+title: Low-level ACL and ACE Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Low-level ACL and ACE Functions

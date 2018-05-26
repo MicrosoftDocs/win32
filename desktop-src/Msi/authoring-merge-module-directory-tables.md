@@ -1,7 +1,12 @@
 ---
-Description: 'A merge module can be applied to an .msi file to add directories to the installation but it cannot replace or remove any existing directories.'
-ms.assetid: '5b808aa2-b2b2-4703-bd57-0b5e1e73b306'
+Description: A merge module can be applied to an .msi file to add directories to the installation but it cannot replace or remove any existing directories.
+ms.assetid: 5b808aa2-b2b2-4703-bd57-0b5e1e73b306
 title: Authoring Merge Module Directory Tables
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Merge Module Directory Tables

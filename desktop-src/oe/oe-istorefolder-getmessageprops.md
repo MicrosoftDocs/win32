@@ -1,8 +1,11 @@
 ---
 title: IStoreFolder GetMessageProps method
 description: Gets properties of a specified message.
-ms.assetid: '6a63da65-6fd5-4571-ac92-4d33b80cae82'
-keywords: ["GetMessageProps method Windows Mail (formerly Outlook Express)", "GetMessageProps method Windows Mail (formerly Outlook Express) , IStoreFolder interface", "IStoreFolder interface Windows Mail (formerly Outlook Express) , GetMessageProps method"]
+ms.assetid: 6a63da65-6fd5-4571-ac92-4d33b80cae82
+keywords:
+- GetMessageProps method Windows Mail (formerly Outlook Express)
+- GetMessageProps method Windows Mail (formerly Outlook Express) , IStoreFolder interface
+- IStoreFolder interface Windows Mail (formerly Outlook Express) , GetMessageProps method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreFolder::GetMessageProps method
@@ -22,9 +30,9 @@ Gets properties of a specified message.
 
 ```C++
 HRESULT GetMessageProps(
-  [in]      MESSAGEID      dwMessageId,
-  [in]      DWORD          dwFlags,
-  [in, out] LPMESSAGEPROPS pProps
+  [in]      MESSAGEID      dwMessageId,
+  [in]      DWORD          dwFlags,
+  [in, out] LPMESSAGEPROPS pProps
 );
 ```
 
@@ -76,7 +84,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -96,8 +104,8 @@ The [**MESSAGEPROPS**](oe-messageprops.md) structure that is received by the *pP
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -105,9 +113,9 @@ The [**MESSAGEPROPS**](oe-messageprops.md) structure that is received by the *pP
 
 
 
- 
+ 
 
- 
+ 
 
 
 

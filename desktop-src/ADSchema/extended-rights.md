@@ -4,10 +4,13 @@ description: The following extended rights are defined by Active Directory.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4834f0c6-4cda-4ef2-96d1-e3f66e09af92'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4834f0c6-4cda-4ef2-96d1-e3f66e09af92
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extended Rights

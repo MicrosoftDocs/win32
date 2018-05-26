@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section describes the methods defined for the IPrintCoreUI2 COM Interface.'
-ms.assetid: 'e2d2e486-d69d-4a6d-aaab-a7b8806665b4'
+---
+Description: This section describes the methods defined for the IPrintCoreUI2 COM Interface.
+ms.assetid: e2d2e486-d69d-4a6d-aaab-a7b8806665b4
 title: IPrintCoreUI2 interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2 interface

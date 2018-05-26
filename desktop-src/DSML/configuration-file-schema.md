@@ -4,11 +4,15 @@ description: The dsmlv2.config configuration file uses the following schema for 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '77da5110-1a24-41bf-9ee1-ce6b5ca30143'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 77da5110-1a24-41bf-9ee1-ce6b5ca30143
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Configuration File Schema DSML"]
+keywords:
+- Configuration File Schema DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Configuration File Schema

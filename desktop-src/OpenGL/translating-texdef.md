@@ -1,8 +1,23 @@
 ---
 title: Translating texdef
 description: The following code example is an IRIS GL texture definition
-ms.assetid: 'bb2d257d-ee74-4a65-b364-c7a97bccaa78'
-keywords: ["IRIS GL porting,texture", "porting from IRIS GL,texture", "porting to OpenGL from IRIS GL,texture", "OpenGL porting from IRIS GL,texture", "texture", "IRIS GL porting,texdef", "porting from IRIS GL,texdef", "porting to OpenGL from IRIS GL,texdef", "OpenGL porting from IRIS GL,texdef", "texdef"]
+ms.assetid: bb2d257d-ee74-4a65-b364-c7a97bccaa78
+keywords:
+- IRIS GL porting,texture
+- porting from IRIS GL,texture
+- porting to OpenGL from IRIS GL,texture
+- OpenGL porting from IRIS GL,texture
+- texture
+- IRIS GL porting,texdef
+- porting from IRIS GL,texdef
+- porting to OpenGL from IRIS GL,texdef
+- OpenGL porting from IRIS GL,texdef
+- texdef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating texdef
@@ -54,7 +69,7 @@ The following table lists the IRIS GL texture parameters and their equivalent Op
 
 
 
- 
+ 
 
 The following table lists the possible values of the IRIS GL texture parameters and their equivalent OpenGL parameters.
 
@@ -71,11 +86,11 @@ The following table lists the possible values of the IRIS GL texture parameters 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectSamplerVariable GetBackingStore method
 description: Get a pointer to a variable that contains sampler state.
-ms.assetid: 'b188fb86-f54b-481e-9110-7b8af70ff303'
-keywords: ["GetBackingStore method Direct3D 11", "GetBackingStore method Direct3D 11 , ID3DX11EffectSamplerVariable interface", "ID3DX11EffectSamplerVariable interface Direct3D 11 , GetBackingStore method"]
+ms.assetid: b188fb86-f54b-481e-9110-7b8af70ff303
+keywords:
+- GetBackingStore method Direct3D 11
+- GetBackingStore method Direct3D 11 , ID3DX11EffectSamplerVariable interface
+- ID3DX11EffectSamplerVariable interface Direct3D 11 , GetBackingStore method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectSamplerVariable::GetBackingStore method
@@ -23,8 +31,8 @@ Get a pointer to a variable that contains sampler state.
 
 ```C++
 HRESULT GetBackingStore(
-   UINT               Index,
-   D3D11_SAMPLER_DESC *pSamplerDesc
+   UINT               Index,
+   D3D11_SAMPLER_DESC *pSamplerDesc
 );
 ```
 
@@ -46,9 +54,9 @@ Index into an array of sampler descriptions. If there is only one sampler variab
 *pSamplerDesc* 
 </dt> <dd>
 
-Type: **[**D3D11\_SAMPLER\_DESC**](d3d11-sampler-desc.md)\***
+Type: **[**D3D11\_SAMPLER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_sampler_desc?branch=master)\***
 
-A pointer to a sampler description (see [**D3D11\_SAMPLER\_DESC**](d3d11-sampler-desc.md)).
+A pointer to a sampler description (see [**D3D11\_SAMPLER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_sampler_desc?branch=master)).
 
 </dd> </dl>
 
@@ -63,7 +71,7 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -83,9 +91,9 @@ Returns one of the following [Direct3D 11 Return Codes](d3d11-graphics-reference
 [ID3DX11EffectSamplerVariable](id3dx11effectsamplervariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

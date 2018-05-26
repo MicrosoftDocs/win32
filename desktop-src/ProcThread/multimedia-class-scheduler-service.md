@@ -1,14 +1,19 @@
-﻿---
-Description: 'The Multimedia Class Scheduler service (MMCSS) enables multimedia applications to ensure that their time-sensitive processing receives prioritized access to CPU resources.'
-ms.assetid: 'a7169938-1c72-4c4c-881a-cb08ad6182c7'
+---
+Description: The Multimedia Class Scheduler service (MMCSS) enables multimedia applications to ensure that their time-sensitive processing receives prioritized access to CPU resources.
+ms.assetid: a7169938-1c72-4c4c-881a-cb08ad6182c7
 title: Multimedia Class Scheduler Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Class Scheduler Service
 
 The Multimedia Class Scheduler service (MMCSS) enables multimedia applications to ensure that their time-sensitive processing receives prioritized access to CPU resources. This service enables multimedia applications to utilize as much of the CPU as possible without denying CPU resources to lower-priority applications.
 
-MMCSS uses information stored in the registry to identify supported tasks and determine the relative priority of threads performing these tasks. Each thread that is performing work related to a particular task calls the [**AvSetMmMaxThreadCharacteristics**](avsetmmmaxthreadcharacteristics.md) or [**AvSetMmThreadCharacteristics**](avsetmmthreadcharacteristics.md) function to inform MMCSS that it is working on that task.
+MMCSS uses information stored in the registry to identify supported tasks and determine the relative priority of threads performing these tasks. Each thread that is performing work related to a particular task calls the [**AvSetMmMaxThreadCharacteristics**](/windows/win32/Avrt/nf-avrt-avsetmmmaxthreadcharacteristicsa?branch=master) or [**AvSetMmThreadCharacteristics**](/windows/win32/Avrt/nf-avrt-avsetmmthreadcharacteristicsa?branch=master) function to inform MMCSS that it is working on that task.
 
 For an example of a program that uses MMCSS, see [Exclusive-Mode Streams](http://go.microsoft.com/fwlink/p/?linkid=99111).
 
@@ -63,7 +68,7 @@ The MMCSS boosts the priority of threads that are working on high-priority multi
 MMCSS determines the priority of a thread using the following factors:
 
 -   The base priority of the task.
--   The *Priority* parameter of the [**AvSetMmThreadPriority**](avsetmmthreadpriority.md) function.
+-   The *Priority* parameter of the [**AvSetMmThreadPriority**](/windows/win32/Avrt/nf-avrt-avsetmmthreadpriority?branch=master) function.
 -   Whether the application is in the foreground.
 -   How much CPU time is being consumed by the threads in each category.
 

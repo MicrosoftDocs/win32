@@ -2,13 +2,15 @@
 title: DnsServerDsSetting class
 description: Represents DNS Server Active Directory settings.
 audience: developer
-ms.assetid: '36cbfec6-54aa-4ec1-9e6e-673e07e233e1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 36cbfec6-54aa-4ec1-9e6e-673e07e233e1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerDsSetting class", "DnsServerDsSetting class, described"]
+keywords:
+- DnsServerDsSetting class
+- DnsServerDsSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerDsSetting class
@@ -37,11 +42,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("DnsServerPSProvider"), AMENDMENT]
 class DnsServerDsSetting
 {
-  uint32   PollingInterval;
+  uint32   PollingInterval;
   datetime TombstoneInterval;
-  uint32   LazyUpdateInterval;
-  uint32   MinimumBackgroundLoadThreads;
-  uint32   RemoteReplicationDelay;
+  uint32   LazyUpdateInterval;
+  uint32   MinimumBackgroundLoadThreads;
+  uint32   RemoteReplicationDelay;
   datetime DirectoryPartitionAutoEnlistInterval;
 };
 ```
@@ -143,7 +148,7 @@ The tombstone interval for Active Directory.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -157,9 +162,9 @@ The tombstone interval for Active Directory.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

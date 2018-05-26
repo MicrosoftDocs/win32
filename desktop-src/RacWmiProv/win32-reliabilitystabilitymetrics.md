@@ -1,8 +1,10 @@
 ---
 title: Win32\_ReliabilityStabilityMetrics class
 description: The Win32\_ReliabilityStabilityMetrics WMI class contains metrics related to system reliability. .
-ms.assetid: '3422ab03-1c6c-4712-b6c1-e6aebe2b2fb9'
-keywords: ["Win32_ReliabilityStabilityMetrics class", "Win32_ReliabilityStabilityMetrics class, described"]
+ms.assetid: 3422ab03-1c6c-4712-b6c1-e6aebe2b2fb9
+keywords:
+- Win32_ReliabilityStabilityMetrics class
+- Win32_ReliabilityStabilityMetrics class, described
 topic_type:
 - apiref
 api_name:
@@ -16,6 +18,11 @@ api_location:
 - RacWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ReliabilityStabilityMetrics class
@@ -31,9 +38,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ReliabilityStabilityMetrics : Win32_Reliability
 {
   datetime EndMeasurementDate;
-  string   RelID;
+  string   RelID;
   datetime StartMeasurementDate;
-  real64   SystemStabilityIndex;
+  real64   SystemStabilityIndex;
   datetime TimeGenerated;
 };
 ```
@@ -57,7 +64,7 @@ The **Win32\_ReliabilityStabilityMetrics** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -184,8 +191,8 @@ get-wmiobject Win32_ReliabilityStabilityMetrics -property @("SystemStabilityInde
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>RacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RacWmiProv.dll</dt> </dl> |
@@ -205,9 +212,9 @@ get-wmiobject Win32_ReliabilityStabilityMetrics -property @("SystemStabilityInde
 [**Win32\_NTLogEvent**](https://msdn.microsoft.com/library/aa394226)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

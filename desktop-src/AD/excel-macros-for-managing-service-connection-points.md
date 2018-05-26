@@ -4,10 +4,13 @@ description: Service Connection Points can be managed using simple Excel Macros.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'da8a7363-6814-4c26-b259-53e6f6ba98cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: da8a7363-6814-4c26-b259-53e6f6ba98cd
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Excel Macros for Managing Service Connection Points

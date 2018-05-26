@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of faces in the mesh.'
-ms.assetid: 'a36b758b-4805-4b01-98ce-a8ee7bc1f3b5'
-title: 'ID3DX10Mesh::GetFaceCount method'
+---
+Description: Retrieves the number of faces in the mesh.
+ms.assetid: a36b758b-4805-4b01-98ce-a8ee7bc1f3b5
+title: ID3DX10MeshGetFaceCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::GetFaceCount method

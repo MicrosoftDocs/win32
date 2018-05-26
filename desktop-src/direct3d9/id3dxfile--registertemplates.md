@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers custom templates.'
-ms.assetid: 'e142a0f2-d0ef-4479-82cd-ba8d5059d1d2'
-title: 'ID3DXFile::RegisterTemplates method'
+---
+Description: Registers custom templates.
+ms.assetid: e142a0f2-d0ef-4479-82cd-ba8d5059d1d2
+title: ID3DXFileRegisterTemplates method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFile::RegisterTemplates method

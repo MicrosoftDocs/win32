@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a PnP device property consisting of an array of datetime elements.'
+---
+Description: Represents a PnP device property consisting of an array of datetime elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1036D49E-7F73-43C6-8F6E-BB909E74519E'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1036D49E-7F73-43C6-8F6E-BB909E74519E
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PnPDevicePropertyDateTimeArray class'
+title: Win32\_PnPDevicePropertyDateTimeArray class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PnPDevicePropertyDateTimeArray class

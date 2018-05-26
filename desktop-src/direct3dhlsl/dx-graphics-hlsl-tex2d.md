@@ -1,14 +1,20 @@
 ---
 title: tex2D
 description: Samples a 2D texture.
-ms.assetid: '9f4cbca8-c3de-42ed-89d9-5e86e47d12e5'
-keywords: ["tex2D HLSL"]
+ms.assetid: 9f4cbca8-c3de-42ed-89d9-5e86e47d12e5
+keywords:
+- tex2D HLSL
 topic_type:
 - apiref
 api_name:
 - tex2D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tex2D
@@ -22,7 +28,7 @@ Samples a 2D texture.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Samples a 2D texture.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -53,7 +59,7 @@ The value of the texture data.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -70,7 +76,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -79,9 +85,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

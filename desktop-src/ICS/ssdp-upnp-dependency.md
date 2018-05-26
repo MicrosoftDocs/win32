@@ -1,7 +1,12 @@
 ---
 title: SSDP/UPnP Dependency
-ms.assetid: 'e239cdab-aab5-4a9f-883b-e77a3d54b53d'
+ms.assetid: e239cdab-aab5-4a9f-883b-e77a3d54b53d
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSDP/UPnP Dependency

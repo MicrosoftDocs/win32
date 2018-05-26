@@ -1,7 +1,12 @@
 ---
-Description: 'Methods for User Interface Plug-Ins'
-ms.assetid: 'ae453b37-16c1-4910-ab8a-b9fa6ba6d7eb'
-title: 'Methods for User Interface Plug-Ins'
+Description: Methods for User Interface Plug-Ins
+ms.assetid: ae453b37-16c1-4910-ab8a-b9fa6ba6d7eb
+title: Methods for User Interface Plug-Ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Methods for User Interface Plug-Ins

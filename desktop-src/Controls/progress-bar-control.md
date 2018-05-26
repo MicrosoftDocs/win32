@@ -1,7 +1,12 @@
 ---
 title: About Progress Bar Controls
 description: A progress bar is a window that an application can use to indicate the progress of a lengthy operation. It consists of a rectangle that is animated as an operation progresses.
-ms.assetid: '1db7a5c9-71cd-4ebc-86b8-8159f30348fa'
+ms.assetid: 1db7a5c9-71cd-4ebc-86b8-8159f30348fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Progress Bar Controls

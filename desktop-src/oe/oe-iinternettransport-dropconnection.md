@@ -1,8 +1,11 @@
 ---
 title: IInternetTransport DropConnection method
 description: This method disconnects the transport.
-ms.assetid: '39c5f7d5-2c13-43e6-8e32-0a158004936d'
-keywords: ["DropConnection method Windows Mail (formerly Outlook Express)", "DropConnection method Windows Mail (formerly Outlook Express) , IInternetTransport interface", "IInternetTransport interface Windows Mail (formerly Outlook Express) , DropConnection method"]
+ms.assetid: 39c5f7d5-2c13-43e6-8e32-0a158004936d
+keywords:
+- DropConnection method Windows Mail (formerly Outlook Express)
+- DropConnection method Windows Mail (formerly Outlook Express) , IInternetTransport interface
+- IInternetTransport interface Windows Mail (formerly Outlook Express) , DropConnection method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInternetTransport::DropConnection method
@@ -47,7 +55,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -59,8 +67,8 @@ The [**IInternetTransport::Disconnect**](oe-iinternettransport-disconnect.md) me
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -68,9 +76,9 @@ The [**IInternetTransport::Disconnect**](oe-iinternettransport-disconnect.md) me
 
 
 
- 
+ 
 
- 
+ 
 
 
 

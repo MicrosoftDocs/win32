@@ -1,7 +1,12 @@
 ---
-Description: 'The WaitForResponse method waits for an asynchronous Send method to complete, with optional time-out value, in seconds.'
-ms.assetid: '33265710-ecdc-4eae-8822-161dffbd03fc'
-title: 'IWinHttpRequest::WaitForResponse method'
+Description: The WaitForResponse method waits for an asynchronous Send method to complete, with optional time-out value, in seconds.
+ms.assetid: 33265710-ecdc-4eae-8822-161dffbd03fc
+title: IWinHttpRequestWaitForResponse method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::WaitForResponse method
@@ -13,8 +18,8 @@ The **WaitForResponse** method waits for an asynchronous [**Send**](iwinhttprequ
 
 ```C++
 HRESULT WaitForResponse(
-  [in, optional] VARIANT      Timeout,
-  [out, retval]  VARIANT_BOOL *Succeeded
+  [in, optional] VARIANT      Timeout,
+  [out, retval]  VARIANT_BOOL *Succeeded
 );
 ```
 
@@ -45,7 +50,7 @@ Receives one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -60,9 +65,9 @@ This method suspends execution while waiting for a response to an asynchronous r
 Calling this property after a synchronous [**Send**](iwinhttprequest-send.md) method returns immediately and has no effect.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 ## Examples
 
@@ -188,9 +193,9 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -213,9 +218,9 @@ WScript.Echo( WinHttpReq.ResponseText);
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

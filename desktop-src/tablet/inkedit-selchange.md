@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the current selection of text in the InkEdit control has changed or the insertion point has moved.'
-ms.assetid: '14ddffe7-bdfe-4a35-82c7-b3401b5b720c'
-title: 'InkEdit.SelChange event'
+Description: Occurs when the current selection of text in the InkEdit control has changed or the insertion point has moved.
+ms.assetid: 14ddffe7-bdfe-4a35-82c7-b3401b5b720c
+title: InkEdit.SelChange event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit.SelChange event
@@ -27,7 +32,7 @@ This event does not return a value.
 
 ## Remarks
 
-You can use the **SelChange** event to check the various properties that give information about the current selection (such as [**SelBold**](inkedit-selbold.md)) so you can update buttons in a toolbar, for example.
+You can use the **SelChange** event to check the various properties that give information about the current selection (such as [**SelBold**](/windows/win32/inked/?branch=master)) so you can update buttons in a toolbar, for example.
 
 ## Requirements
 
@@ -35,7 +40,7 @@ You can use the **SelChange** event to check the various properties that give in
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Inked.h (also requires inked\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
@@ -49,9 +54,9 @@ You can use the **SelChange** event to check the various properties that give in
 [InkEdit](inkedit-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

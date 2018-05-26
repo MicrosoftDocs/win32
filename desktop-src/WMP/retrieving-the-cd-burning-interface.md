@@ -1,17 +1,32 @@
 ---
 title: Retrieving the CD Burning Interface
 description: Retrieving the CD Burning Interface
-ms.assetid: 'd52f7b27-a327-4656-8dc2-0b075264d295'
-keywords: ["Windows Media Player,CD burning", "Windows Media Player object model,CD burning", "object model,CD burning", "Windows Media Player ActiveX control,CD burning", "ActiveX control,CD burning", "Windows Media Player Mobile ActiveX control,CD burning", "Windows Media Player Mobile,CD burning", "CD burning,retrieving IWMPCdromCollection interface", "burning CDs,retrieving IWMPCdromCollection interface", "IWMPCdromCollection interface"]
+ms.assetid: d52f7b27-a327-4656-8dc2-0b075264d295
+keywords:
+- Windows Media Player,CD burning
+- Windows Media Player object model,CD burning
+- object model,CD burning
+- Windows Media Player ActiveX control,CD burning
+- ActiveX control,CD burning
+- Windows Media Player Mobile ActiveX control,CD burning
+- Windows Media Player Mobile,CD burning
+- CD burning,retrieving IWMPCdromCollection interface
+- burning CDs,retrieving IWMPCdromCollection interface
+- IWMPCdromCollection interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the CD Burning Interface
 
-To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface. You retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](iwmpcore-get-cdromcollection.md).
+To enumerate the CD drives on the user's computer, use the **IWMPCdromCollection** interface. You retrieve a pointer to this interface by calling [IWMPCore::get\_cdromCollection](/windows/win32/wmp/nf-wmp-iwmpcore-get_cdromcollection?branch=master).
 
-By using the **get\_count** and **item** methods, you can iterate the collection to retrieve an [IWMPCdrom](iwmpcdrom.md) interface pointer for each CD drive on the user's computer.
+By using the **get\_count** and **item** methods, you can iterate the collection to retrieve an [IWMPCdrom](/windows/win32/wmp/nn-wmp-iwmpcdrom?branch=master) interface pointer for each CD drive on the user's computer.
 
-The **IWMPCdrom** interface represents an individual CD drive. Before you begin burning a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve a pointer to the [IWMPCdromBurn](iwmpcdromburn.md) interface.
+The **IWMPCdrom** interface represents an individual CD drive. Before you begin burning a CD, you must first call **QueryInterface** through an **IWMPCdrom** pointer to retrieve a pointer to the [IWMPCdromBurn](/windows/win32/wmp/nn-wmp-iwmpcdromburn?branch=master) interface.
 
 The following code example demonstrates how to retrieve an interface for burning a CD to a specific drive:
 
@@ -71,7 +86,7 @@ HRESULT CMainDlg::GetCdromBurnInterface (long lIndex)
 [**Retrieving the Burn Status**](retrieving-the-burn-status.md)
 </dt> <dt>
 
-[**IWMPCdromCollection Interface**](iwmpcdromcollection.md)
+[**IWMPCdromCollection Interface**](/windows/win32/wmp/nn-wmp-iwmpcdromcollection?branch=master)
 </dt> </dl>
 
  

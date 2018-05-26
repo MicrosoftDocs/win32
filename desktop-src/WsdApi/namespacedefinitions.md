@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C definitions for namespace tables.'
-ms.assetid: '0de06ee1-1291-4f18-9514-cca443a3e300'
+Description: Generates C definitions for namespace tables.
+ms.assetid: 0de06ee1-1291-4f18-9514-cca443a3e300
 title: namespaceDefinitions element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # namespaceDefinitions element
@@ -42,14 +47,14 @@ This element is generally used in C source files to provide the namespace tables
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

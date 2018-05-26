@@ -1,7 +1,12 @@
 ---
 Description: Creating COM+ Applications
-ms.assetid: '32828d4d-aa98-4e6a-b7de-2ec832024517'
+ms.assetid: 32828d4d-aa98-4e6a-b7de-2ec832024517
 title: Creating COM+ Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating COM+ Applications
@@ -22,7 +27,7 @@ This section describes how to create a new (empty) COM+ application and then add
 
 
 
- 
+ 
 
 For conceptual information on the procedures described in this section, see [COM+ Application Overview](com--application-overview.md) and [Deploying COM+ Applications](deploying-com--applications.md).
 
@@ -41,9 +46,9 @@ For procedural information on the administrative tasks involved in exporting and
 [Conversion of MTS Packages to COM+ Applications](conversion-of-mts-packages-to-com--applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

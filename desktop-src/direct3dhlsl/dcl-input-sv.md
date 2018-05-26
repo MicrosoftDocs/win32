@@ -1,7 +1,12 @@
 ---
 title: dcl\_input\_sv (sm4 - asm)
 description: dcl\_input\_sv (sm4 - asm)
-ms.assetid: '59270148-e2eb-4525-a888-ad7e843d62a5'
+ms.assetid: 59270148-e2eb-4525-a888-ad7e843d62a5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_input\_sv (sm4 - asm)
@@ -15,7 +20,7 @@ Declares a shader-input register that expects a [system-value](dx-graphics-hlsl-
 
 
 
- 
+ 
 
 
 
@@ -59,7 +64,7 @@ Declares a shader-input register that expects a [system-value](dx-graphics-hlsl-
 
 
 
- 
+ 
 
 A component mask for a system-value declaration can be any appropriate subset of \[xyzw\]; declarations may not overlap (each declaration must follow the sequence xyzw). When declaring scalar system values (clip distance and cull distance for example), you can declare multiple system values in a single register. If you do so, make sure other modifiers like the interpolation modes match.
 
@@ -73,7 +78,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 This instruction is included to aid in debugging a shader in assembly; you cannot author a shader in assembly language using Shader Model 4.
 
@@ -122,7 +127,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -131,9 +136,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

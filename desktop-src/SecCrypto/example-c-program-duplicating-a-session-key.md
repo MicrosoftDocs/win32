@@ -1,22 +1,27 @@
 ---
-Description: 'The following example creates a random session key, duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys.'
-ms.assetid: 'e57274cf-42d3-445b-97f1-dd574010290f'
-title: 'Example C Program: Duplicating a Session Key'
+Description: The following example creates a random session key, duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys.
+ms.assetid: e57274cf-42d3-445b-97f1-dd574010290f
+title: Example C Program Duplicating a Session Key
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example C Program: Duplicating a Session Key
 
-The following example creates a random [*session key*](security.s_gly#-security-session-key-gly), duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys. This example illustrates the use of [**CryptDuplicateKey**](cryptduplicatekey.md) and related functions.
+The following example creates a random [*session key*](security.s_gly#-security-session-key-gly), duplicates the key, sets some additional parameters on the original key, and destroys both the original and the duplicate keys. This example illustrates the use of [**CryptDuplicateKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptduplicatekey?branch=master) and related functions.
 
 This example illustrates the following tasks and CryptoAPI functions:
 
--   Accessing a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) using [**CryptAcquireContext**](cryptacquirecontext.md).
--   Creating a session key using [**CryptGenKey**](cryptgenkey.md).
--   Duplicating the key created using [**CryptDuplicateKey**](cryptduplicatekey.md).
--   Using [**CryptSetKeyParam**](cryptsetkeyparam.md) to alter the key generation process in two different ways.
--   Filling a buffer with random bytes using [**CryptGenRandom**](cryptgenrandom.md).
--   Destroying the keys using [**CryptDestroyKey**](cryptdestroykey.md).
--   Releasing the CSP with [**CryptReleaseContext**](cryptreleasecontext.md).
+-   Accessing a [*cryptographic service provider*](security.c_gly#-security-cryptographic-service-provider-gly) (CSP) using [**CryptAcquireContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptacquirecontexta?branch=master).
+-   Creating a session key using [**CryptGenKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptgenkey?branch=master).
+-   Duplicating the key created using [**CryptDuplicateKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptduplicatekey?branch=master).
+-   Using [**CryptSetKeyParam**](/windows/win32/Wincrypt/nf-wincrypt-cryptsetkeyparam?branch=master) to alter the key generation process in two different ways.
+-   Filling a buffer with random bytes using [**CryptGenRandom**](/windows/win32/Wincrypt/nf-wincrypt-cryptgenrandom?branch=master).
+-   Destroying the keys using [**CryptDestroyKey**](/windows/win32/Wincrypt/nf-wincrypt-cryptdestroykey?branch=master).
+-   Releasing the CSP with [**CryptReleaseContext**](/windows/win32/Wincrypt/nf-wincrypt-cryptreleasecontext?branch=master).
 
 This example uses the function [**MyHandleError**](myhandleerror.md). The code for this function is included with the sample. Code for this and other auxiliary functions is also listed under [General Purpose Functions](general-purpose-functions.md).
 

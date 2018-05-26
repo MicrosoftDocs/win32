@@ -1,7 +1,12 @@
-﻿---
-Description: 'This DrvGetStandardVariable function is obsolete.'
-ms.assetid: '743d8e3c-3115-4c2d-b7f3-6f99ba684693'
-title: 'PFN\_DrvGetStandardVariable callback function'
+---
+Description: This DrvGetStandardVariable function is obsolete.
+ms.assetid: 743d8e3c-3115-4c2d-b7f3-6f99ba684693
+title: PFN\_DrvGetStandardVariable callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFN\_DrvGetStandardVariable callback function

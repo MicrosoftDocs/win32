@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMPDriverEvent function
-ms.assetid: '761967c9-c31f-4b7b-837a-bd48285c54fc'
+ms.assetid: 761967c9-c31f-4b7b-837a-bd48285c54fc
 title: OEMPDriverEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMPDriverEvent function

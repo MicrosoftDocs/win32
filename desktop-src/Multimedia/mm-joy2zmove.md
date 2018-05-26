@@ -1,8 +1,9 @@
 ---
 title: MM\_JOY2ZMOVE message
 description: The MM\_JOY2ZMOVE message notifies the window that has captured joystick JOYSTICKID2 that the joystick position on the z-axis has changed.
-ms.assetid: 'f09a1a11-8c97-4a03-a388-8bf9ab89a3db'
-keywords: ["MM_JOY2ZMOVE message Windows Multimedia"]
+ms.assetid: f09a1a11-8c97-4a03-a388-8bf9ab89a3db
+keywords:
+- MM_JOY2ZMOVE message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MM\_JOY2ZMOVE message
@@ -46,7 +52,7 @@ Identifies the buttons that are pressed. It can be one or more of the following 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -63,8 +69,8 @@ The z-coordinate of the joystick.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -79,9 +85,9 @@ The z-coordinate of the joystick.
 [Multimedia Joystick Messages](multimedia-joystick-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Returns the IPv4 option Values for one or more IPv4 options at the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '735a3ae1-5771-405c-9be5-88298a22616e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 735a3ae1-5771-405c-9be5-88298a22616e
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv4OptionValue class", "PS_DhcpServerv4OptionValue class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv4OptionValue class
+- PS_DhcpServerv4OptionValue class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv4OptionValue class
@@ -30,16 +36,16 @@ Returns the IPv4 option Values for one or more IPv4 options at the server, scope
 
 ```mof
 uint32 Get(
-  [in]  string                  VendorClass,
-  [in]  string                  ComputerName,
-  [in]  string                  ScopeId,
-  [in]  string                  ReservedIP,
-  [in]  uint32                  OptionId[],
-  [in]  string                  UserClass,
-  [in]  boolean                 All,
-  [in]  boolean                 Brief,
-  [in]  string                  PolicyName,
-  [out] DhcpServerv4OptionValue cmdletOutput[]
+  [in]  string                  VendorClass,
+  [in]  string                  ComputerName,
+  [in]  string                  ScopeId,
+  [in]  string                  ReservedIP,
+  [in]  uint32                  OptionId[],
+  [in]  string                  UserClass,
+  [in]  boolean                 All,
+  [in]  boolean                 Brief,
+  [in]  string                  PolicyName,
+  [out] DhcpServerv4OptionValue cmdletOutput[]
 );
 ```
 
@@ -126,7 +132,7 @@ An embedded instance of the [**DhcpServerv4OptionValue**](dhcpserverv4optionvalu
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -140,9 +146,9 @@ An embedded instance of the [**DhcpServerv4OptionValue**](dhcpserverv4optionvalu
 [**PS\_DhcpServerv4OptionValue**](ps-dhcpserverv4optionvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

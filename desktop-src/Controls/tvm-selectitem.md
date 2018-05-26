@@ -1,8 +1,9 @@
 ---
 title: TVM\_SELECTITEM message
 description: Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation.
-ms.assetid: '8b943958-7b93-4e54-99de-200121cf0752'
-keywords: ["TVM_SELECTITEM message Windows Controls"]
+ms.assetid: 8b943958-7b93-4e54-99de-200121cf0752
+keywords:
+- TVM_SELECTITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SELECTITEM message
 
-Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation. You can send this message explicitly or by using the [**TreeView\_Select**](treeview-select.md), [**TreeView\_SelectItem**](treeview-selectitem.md), or [**TreeView\_SelectDropTarget**](treeview-selectdroptarget.md) macro.
+Selects the specified tree-view item, scrolls the item into view, or redraws the item in the style used to indicate the target of a drag-and-drop operation. You can send this message explicitly or by using the [**TreeView\_Select**](/windows/win32/Commctrl/nf-commctrl-treeview_select?branch=master), [**TreeView\_SelectItem**](/windows/win32/Commctrl/nf-commctrl-treeview_selectitem?branch=master), or [**TreeView\_SelectDropTarget**](/windows/win32/Commctrl/nf-commctrl-treeview_selectdroptarget?branch=master) macro.
 
 ## Parameters
 
@@ -66,7 +72,7 @@ To use this flag, you must provide a manifest specifying Comclt32.dll version 6.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,7 +91,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 If the specified item is the child of a collapsed parent item, the parent's list of child items is expanded to reveal the specified item. In this case, the control's parent window receives the [TVN\_ITEMEXPANDING](tvn-itemexpanding.md) and [TVN\_ITEMEXPANDED](tvn-itemexpanded.md) notification codes.
 
-Using the [**TreeView\_SelectItem**](treeview-selectitem.md) macro is equivalent to sending the **TVM\_SELECTITEM** message with *wParam* set to the TVGN\_CARET value. Using the [**TreeView\_SelectDropTarget**](treeview-selectdroptarget.md) macro is equivalent to sending the **TVM\_SELECTITEM** message with *wParam* set to the TVGN\_DROPHILITE value. Using [**TreeView\_SelectSetFirstVisible**](treeview-selectsetfirstvisible.md) is equivalent to sending the **TVM\_SELECTITEM** message with *wParam* set to the TVGN\_FIRSTVISIBLE value.
+Using the [**TreeView\_SelectItem**](/windows/win32/Commctrl/nf-commctrl-treeview_selectitem?branch=master) macro is equivalent to sending the **TVM\_SELECTITEM** message with *wParam* set to the TVGN\_CARET value. Using the [**TreeView\_SelectDropTarget**](/windows/win32/Commctrl/nf-commctrl-treeview_selectdroptarget?branch=master) macro is equivalent to sending the **TVM\_SELECTITEM** message with *wParam* set to the TVGN\_DROPHILITE value. Using [**TreeView\_SelectSetFirstVisible**](/windows/win32/Commctrl/nf-commctrl-treeview_selectsetfirstvisible?branch=master) is equivalent to sending the **TVM\_SELECTITEM** message with *wParam* set to the TVGN\_FIRSTVISIBLE value.
 
 ## Requirements
 
@@ -93,15 +99,15 @@ Using the [**TreeView\_SelectItem**](treeview-selectitem.md) macro is equivalent
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

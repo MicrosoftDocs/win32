@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_STORAGE\_EJECT command ejects a storage medium that can be ejected remotely by the computer.'
-ms.assetid: '38d4dd56-e898-4890-8328-eb2b03cdbd12'
-title: 'WPD\_COMMAND\_STORAGE\_EJECT Command'
+Description: The WPD\_COMMAND\_STORAGE\_EJECT command ejects a storage medium that can be ejected remotely by the computer.
+ms.assetid: 38d4dd56-e898-4890-8328-eb2b03cdbd12
+title: WPD\_COMMAND\_STORAGE\_EJECT Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_STORAGE\_EJECT Command
@@ -24,7 +29,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -39,11 +44,11 @@ The driver should return the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -62,9 +67,9 @@ Can only be called directly using [**IPortableDevice::SendCommand**](iportablede
 [**Commands**](commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

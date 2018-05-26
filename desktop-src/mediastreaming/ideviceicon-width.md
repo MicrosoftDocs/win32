@@ -1,14 +1,22 @@
 ---
 title: IDeviceIcon Width method
 description: Retrieves the width of the icon in pixels.
-ms.assetid: '28ADA921-6808-43B8-966E-BA42B1B52931'
-keywords: ["Width method Media Streaming API", "Width method Media Streaming API , IDeviceIcon interface", "IDeviceIcon interface Media Streaming API , Width method"]
+ms.assetid: 28ADA921-6808-43B8-966E-BA42B1B52931
+keywords:
+- Width method Media Streaming API
+- Width method Media Streaming API , IDeviceIcon interface
+- IDeviceIcon interface Media Streaming API , Width method
 topic_type:
 - apiref
 api_name:
 - IDeviceIcon.Width
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDeviceIcon::Width method
@@ -20,7 +28,7 @@ Retrieves the width of the icon in pixels.
 
 ```C++
 HRESULT Width(
-  [out] UINT32 *value
+  [out] UINT32 *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IDeviceIcon**](ideviceicon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

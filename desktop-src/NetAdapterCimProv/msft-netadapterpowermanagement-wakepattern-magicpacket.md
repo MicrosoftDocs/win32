@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket defines settings for 'Wake on Magic Packet'.'
-ms.assetid: '77d76532-7345-48ca-9aa3-4ff387d8d444'
-title: 'MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket class'
+Description: MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket defines settings for Wake on Magic Packet.
+ms.assetid: 77d76532-7345-48ca-9aa3-4ff387d8d444
+title: MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket class
@@ -30,16 +35,16 @@ The **MSFT\_NetAdapterPowerManagement\_WakePattern\_MagicPacket** class does not
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

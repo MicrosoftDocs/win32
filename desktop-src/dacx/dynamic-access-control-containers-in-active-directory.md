@@ -4,11 +4,15 @@ description: All the objects mentioned in this scenario live in configuration na
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '40001833-2131-406A-AE86-49B9C55AAD38'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: 40001833-2131-406A-AE86-49B9C55AAD38
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , containers"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , containers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamic Access Control objects in Active Directory

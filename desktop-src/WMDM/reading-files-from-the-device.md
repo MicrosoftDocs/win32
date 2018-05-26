@@ -1,8 +1,19 @@
 ---
 title: Reading Files from the Device
 description: Reading Files from the Device
-ms.assetid: 'adb87b53-39e2-4f83-ab6d-7e2f7c0bd5d3'
-keywords: ["Windows Media Device Manager,reading files from devices", "Device Manager,reading files from devices", "programming guide,reading files from devices", "desktop applications,reading files from devices", "creating Windows Media Device Manager applications,reading files from devices", "reading files from devices"]
+ms.assetid: adb87b53-39e2-4f83-ab6d-7e2f7c0bd5d3
+keywords:
+- Windows Media Device Manager,reading files from devices
+- Device Manager,reading files from devices
+- programming guide,reading files from devices
+- desktop applications,reading files from devices
+- creating Windows Media Device Manager applications,reading files from devices
+- reading files from devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading Files from the Device
@@ -11,11 +22,11 @@ When you have found a file you would like to copy from the device, you can then 
 
 The following steps show the basic way to copy a file from a device in a single call:
 
-1.  Get a handle to the file on the device. You might obtain the handle by using a recursive file search or, if you know the persistent ID of the storage, by calling [**IWMDMDevice3::FindStorage**](iwmdmdevice3-findstorage.md). In either case, you need the [**IWMDMStorage**](iwmdmstorage.md) interface of the object.
-2.  Determine whether the storage is a file or a folder. Only files can be copied from the device. Call [**IWMDMStorage::GetAttributes**](iwmdmstorage-getattributes.md) to get storage attributes, which will tell you whether the storage is a file or a folder.
-3.  Query **IWMDMStorage** for [**IWMDMStorageControl**](iwmdmstoragecontrol.md), and call [**IWMDMStorageControl::Read**](iwmdmstoragecontrol-read.md) to read the file from the device and save it to a specified location.
+1.  Get a handle to the file on the device. You might obtain the handle by using a recursive file search or, if you know the persistent ID of the storage, by calling [**IWMDMDevice3::FindStorage**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-findstorage?branch=master). In either case, you need the [**IWMDMStorage**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstorage?branch=master) interface of the object.
+2.  Determine whether the storage is a file or a folder. Only files can be copied from the device. Call [**IWMDMStorage::GetAttributes**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-getattributes?branch=master) to get storage attributes, which will tell you whether the storage is a file or a folder.
+3.  Query **IWMDMStorage** for [**IWMDMStorageControl**](/windows/win32/mswmdm/nn-mswmdm-iwmdmstoragecontrol?branch=master), and call [**IWMDMStorageControl::Read**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol-read?branch=master) to read the file from the device and save it to a specified location.
 
-If, instead, you want to read the file block by block from the device, you must implement the [**IWMDMOperation**](iwmdmoperation.md) callback interface. Pass this interface into the **IWMDMStorageControl::Read** call, and Windows Media Device Manager will send chunks of file data sequentially to your callback. The following steps show how to read a device file block by block:
+If, instead, you want to read the file block by block from the device, you must implement the [**IWMDMOperation**](/windows/win32/mswmdm/nn-mswmdm-iwmdmoperation?branch=master) callback interface. Pass this interface into the **IWMDMStorageControl::Read** call, and Windows Media Device Manager will send chunks of file data sequentially to your callback. The following steps show how to read a device file block by block:
 
 1.  Get the **IWMDMStorage** interface for the storage and determine whether it is a file, as described previously.
 2.  Prepare any file handles or other handles you need to hold the received data.

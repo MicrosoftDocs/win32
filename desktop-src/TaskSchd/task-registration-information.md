@@ -1,8 +1,14 @@
 ---
 title: Task Registration Information
 description: Registration information provides a way to identify a task in several different ways. For example, a task can be identified by the author, how it was authored (referred to as the task source), and date of registration.
-ms.assetid: '45c9fa99-2718-4202-8987-4b506bd677e9'
-keywords: ["registration information Task Scheduler"]
+ms.assetid: 45c9fa99-2718-4202-8987-4b506bd677e9
+keywords:
+- registration information Task Scheduler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Registration Information
@@ -19,7 +25,7 @@ Registration information is typically specified when the task is created and the
 
 ## Types of Registration Information
 
-Task registration information is defined by the properties of the [**RegistrationInfo**](registrationinfo.md) object for scripting applications, the properties of the [**IRegistrationInfo**](iregistrationinfo.md) interface for C++ applications, and the child elements of the [**RegistrationInfo (taskType) element**](taskschedulerschema-registrationinfo-tasktype-element.md) for reading or writing XML.
+Task registration information is defined by the properties of the [**RegistrationInfo**](registrationinfo.md) object for scripting applications, the properties of the [**IRegistrationInfo**](/windows/win32/taskschd/nn-taskschd-iregistrationinfo?branch=master) interface for C++ applications, and the child elements of the [**RegistrationInfo (taskType) element**](taskschedulerschema-registrationinfo-tasktype-element.md) for reading or writing XML.
 
 These properties allow access to the following types of registration information:
 
@@ -61,7 +67,7 @@ These properties allow access to the following types of registration information
 
 ## Registering Tasks
 
-A task can be registered after the task definitions are created and registration information and setting values are supplied by the user. A task is registered using the [**TaskFolder.RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) method for scripting applications or the [**ITaskFolder::RegisterTaskDefinition**](itaskfolder-registertaskdefinition.md) method for C++ applications. If you want to register a task using XML to define the task, you use the [**TaskFolder.RegisterTask**](taskfolder-registertask.md) method for scripting applications and the [**ITaskFolder::RegisterTask**](itaskfolder-registertask.md) method for C++ applications.
+A task can be registered after the task definitions are created and registration information and setting values are supplied by the user. A task is registered using the [**TaskFolder.RegisterTaskDefinition**](taskfolder-registertaskdefinition.md) method for scripting applications or the [**ITaskFolder::RegisterTaskDefinition**](/windows/win32/taskschd/nf-taskschd-itaskfolder-registertaskdefinition?branch=master) method for C++ applications. If you want to register a task using XML to define the task, you use the [**TaskFolder.RegisterTask**](taskfolder-registertask.md) method for scripting applications and the [**ITaskFolder::RegisterTask**](/windows/win32/taskschd/nf-taskschd-itaskfolder-registertask?branch=master) method for C++ applications.
 
 In the methods mentioned above, you can specify the security context to run the task. You have to be an administrator on the system to schedule jobs to run under contexts other than your own. For more information on the security contexts to run tasks, see [Security Contexts for Running Tasks](security-contexts-for-running-tasks.md).
 

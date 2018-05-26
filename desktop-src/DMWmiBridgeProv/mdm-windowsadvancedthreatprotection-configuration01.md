@@ -1,8 +1,15 @@
 ---
 title: MDM\_WindowsAdvancedThreatProtection\_Configuration01 class
 description: The MDM\_WindowsAdvancedThreatProtection\_Configuration01 class is used to determine the configuration of Windows Defender Advanced Threat Protection (WDATP) endpoints.
-ms.assetid: 'b4b2ff02-3836-4044-b8fa-d3405f433d8c'
-keywords: ["MDM_WindowsAdvancedThreatProtection_Configuration01 class", "MDM_WindowsAdvancedThreatProtection_Configuration01 class, described"]
+ms.assetid: b4b2ff02-3836-4044-b8fa-d3405f433d8c
+keywords:
+- MDM_WindowsAdvancedThreatProtection_Configuration01 class
+- MDM_WindowsAdvancedThreatProtection_Configuration01 class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WindowsAdvancedThreatProtection\_Configuration01 class
@@ -112,7 +119,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -127,9 +134,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

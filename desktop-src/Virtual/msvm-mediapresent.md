@@ -1,8 +1,10 @@
 ---
 title: Msvm\_MediaPresent class
 description: Associates a storage drive with the media inserted into the drive.
-ms.assetid: '8060c15f-ff9c-47f7-85ba-8d5362eabba9'
-keywords: ["Msvm_MediaPresent class Hyper-V", "Msvm_MediaPresent class Hyper-V , described"]
+ms.assetid: 8060c15f-ff9c-47f7-85ba-8d5362eabba9
+keywords:
+- Msvm_MediaPresent class Hyper-V
+- Msvm_MediaPresent class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MediaPresent class
@@ -29,8 +36,8 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_MediaPresent : CIM_MediaPresent
 {
   CIM_MediaAccessDevice REF Antecedent;
-  CIM_StorageExtent     REF Dependent;
-  boolean                   FixedMedia;
+  CIM_StorageExtent     REF Dependent;
+  boolean                   FixedMedia;
 };
 ```
 
@@ -102,9 +109,9 @@ Access to the **Msvm\_MediaPresent** class might be restricted by UAC Filtering.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -123,9 +130,9 @@ Access to the **Msvm\_MediaPresent** class might be restricted by UAC Filtering.
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

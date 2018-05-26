@@ -1,7 +1,12 @@
-﻿---
-Description: 'Consumers implement this callback to receive events from a session. The PEVENT\_RECORD\_CALLBACK type defines a pointer to this callback function. EventRecordCallback is a placeholder for the application-defined function name.'
-ms.assetid: '80a30faf-af1f-4440-8a17-9df44bdb2291'
-title: 'PEVENT\_RECORD\_CALLBACK callback function'
+---
+Description: Consumers implement this callback to receive events from a session. The PEVENT\_RECORD\_CALLBACK type defines a pointer to this callback function. EventRecordCallback is a placeholder for the application-defined function name.
+ms.assetid: 80a30faf-af1f-4440-8a17-9df44bdb2291
+title: PEVENT\_RECORD\_CALLBACK callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PEVENT\_RECORD\_CALLBACK callback function
@@ -28,7 +33,7 @@ VOID WINAPI EventRecordCallback(
 *EventRecord* \[in\]
 </dt> <dd>
 
-Pointer to an [**EVENT\_RECORD**](event-record.md) structure that contains the event information.
+Pointer to an [**EVENT\_RECORD**](/windows/win32/relogger/ns-evntcons-_event_record?branch=master) structure that contains the event information.
 
 </dd> </dl>
 

@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdValueCollection ~MetricThresholdValueCollection destructor
 description: Destructor method.
-ms.assetid: '28667693-893E-4508-9906-3410A17D5968'
-keywords: ["~MetricThresholdValueCollection destructor Access Execution Engine", "~MetricThresholdValueCollection destructor Access Execution Engine , MetricThresholdValueCollection interface", "MetricThresholdValueCollection interface Access Execution Engine , ~MetricThresholdValueCollection destructor"]
+ms.assetid: 28667693-893E-4508-9906-3410A17D5968
+keywords:
+- ~MetricThresholdValueCollection destructor Access Execution Engine
+- ~MetricThresholdValueCollection destructor Access Execution Engine , MetricThresholdValueCollection interface
+- MetricThresholdValueCollection interface Access Execution Engine , ~MetricThresholdValueCollection destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValueCollection::~MetricThresholdValueCollection destructor
@@ -36,8 +44,8 @@ The **MetricThresholdValueCollection** holds data from element **MetricThreshold
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ The **MetricThresholdValueCollection** holds data from element **MetricThreshold
 [**MetricThresholdValueCollection**](metricthresholdvaluecollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

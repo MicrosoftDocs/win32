@@ -1,7 +1,12 @@
 ---
-Description: 'Finds an Msvm\_MountedStorageImage object for a given disk image path.'
-ms.assetid: '498ed285-2b5b-472b-b0ee-649c97b61274'
-title: 'FindMountedStorageImageInstance method of the Msvm\_ImageManagementService class'
+Description: Finds an Msvm\_MountedStorageImage object for a given disk image path.
+ms.assetid: 498ed285-2b5b-472b-b0ee-649c97b61274
+title: FindMountedStorageImageInstance method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FindMountedStorageImageInstance method of the Msvm\_ImageManagementService class
@@ -13,9 +18,9 @@ Finds an [**Msvm\_MountedStorageImage**](msvm-mountedstorageimage.md) object for
 
 ```mof
 uint32 FindMountedStorageImageInstance(
-  [in]  string                       SelectionCriterion,
-  [in]  uint16                       CriterionType,
-  [out] Msvm_MountedStorageImage REF Image
+  [in]  string                       SelectionCriterion,
+  [in]  uint16                       CriterionType,
+  [out] Msvm_MountedStorageImage REF Image
 );
 ```
 
@@ -114,8 +119,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -129,9 +134,9 @@ This method returns one of the following values:
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

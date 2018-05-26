@@ -1,8 +1,9 @@
 ---
 title: WM\_LBUTTONDBLCLK message
 description: Posted when the user double-clicks the left mouse button while the cursor is in the client area of a window.
-ms.assetid: '370aa19e-4939-4ac3-9c0b-137a9792e52a'
-keywords: ["WM_LBUTTONDBLCLK message Keyboard and Mouse Input"]
+ms.assetid: 370aa19e-4939-4ac3-9c0b-137a9792e52a
+keywords:
+- WM_LBUTTONDBLCLK message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_LBUTTONDBLCLK message
@@ -49,7 +55,7 @@ Indicates whether various virtual keys are down. This parameter can be one or mo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -83,7 +89,7 @@ As noted above, the x-coordinate is in the low-order **short** of the return val
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 Only windows that have the **CS\_DBLCLKS** style can receive **WM\_LBUTTONDBLCLK** messages, which the system generates whenever the user presses, releases, and again presses the left mouse button within the system's double-click time limit. Double-clicking the left mouse button actually generates a sequence of four messages: [**WM\_LBUTTONDOWN**](wm-lbuttondown.md), [**WM\_LBUTTONUP**](wm-lbuttonup.md), **WM\_LBUTTONDBLCLK**, and **WM\_LBUTTONUP**.
 
@@ -93,8 +99,8 @@ Only windows that have the **CS\_DBLCLKS** style can receive **WM\_LBUTTONDBLCLK
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -145,9 +151,9 @@ Only windows that have the **CS\_DBLCLKS** style can receive **WM\_LBUTTONDBLCLK
 [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a video capture source is a hardware device or a software device.'
-ms.assetid: '4a886124-54f1-4cd1-a22b-552e8c8d556f'
-title: 'MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_HW\_SOURCE attribute'
+---
+Description: Specifies whether a video capture source is a hardware device or a software device.
+ms.assetid: 4a886124-54f1-4cd1-a22b-552e8c8d556f
+title: MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_HW\_SOURCE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_HW\_SOURCE attribute
@@ -14,9 +19,9 @@ Specifies whether a video capture source is a hardware device or a software devi
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Remarks
 
@@ -24,8 +29,8 @@ If the value is **TRUE**, the capture source is a hardware device. If the value 
 
 This attribute is set on the activation objects returned by the following functions:
 
--   [**MFCreateDeviceSourceActivate**](mfcreatedevicesourceactivate.md)
--   [**MFEnumDeviceSources**](mfenumdevicesources.md)
+-   [**MFCreateDeviceSourceActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesourceactivate?branch=master)
+-   [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master)
 
 The attribute applies only to video capture devices.
 

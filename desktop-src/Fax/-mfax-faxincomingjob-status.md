@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Status property is a number that indicates the current status of an inbound fax job in the job queue.'
-ms.assetid: 'fd84a3b4-a7ce-400c-a8a9-8134d7308bef'
-title: 'FaxIncomingJob.Status property'
+---
+Description: The Status property is a number that indicates the current status of an inbound fax job in the job queue.
+ms.assetid: fd84a3b4-a7ce-400c-a8a9-8134d7308bef
+title: FaxIncomingJob.Status property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingJob.Status property
@@ -21,7 +26,7 @@ Property Status As Long
 
 ## Property value
 
-A **Long** that receives the current status of an inbound fax job in the job queue. For more information, see [**FAX\_JOB\_STATUS\_ENUM**](-mfax-fax-job-status-enum.md).
+A **Long** that receives the current status of an inbound fax job in the job queue. For more information, see [**FAX\_JOB\_STATUS\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_job_status_enum?branch=master).
 
 ## Requirements
 
@@ -46,7 +51,7 @@ A **Long** that receives the current status of an inbound fax job in the job que
 [**FaxIncomingJob**](-mfax-faxincomingjob.md)
 </dt> <dt>
 
-[**get\_Status**](-mfax-faxincomingjob-status-cpp.md)
+[**get\_Status**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxincomingjob-get_status?branch=master)
 </dt> </dl>
 
  

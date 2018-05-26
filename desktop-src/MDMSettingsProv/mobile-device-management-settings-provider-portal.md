@@ -1,7 +1,12 @@
 ---
 title: Mobile Device Management Settings Provider
 description: Mobile Device Management Settings Provider enables management of settings on devices enrolled with a Mobile Device Management (MDM) service.
-ms.assetid: '613d23a5-3a09-44c8-b621-a6aa42cd68b9'
+ms.assetid: 613d23a5-3a09-44c8-b621-a6aa42cd68b9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mobile Device Management Settings Provider

@@ -1,7 +1,12 @@
 ---
 title: hidden
 description: Indicates that the item exists, but should not be displayed in a user-oriented browser.
-ms.assetid: '23141a6d-8e38-4f90-940c-93f74fde0e61'
+ms.assetid: 23141a6d-8e38-4f90-940c-93f74fde0e61
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hidden

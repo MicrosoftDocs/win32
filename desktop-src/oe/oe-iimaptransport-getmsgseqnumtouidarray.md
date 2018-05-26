@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport GetMsgSeqNumToUIDArray method
 description: Returns a copy of the MsgSeqNumToUID table in an array.
-ms.assetid: 'eb989090-bca5-48df-8d88-d064b313fc49'
-keywords: ["GetMsgSeqNumToUIDArray method Windows Mail (formerly Outlook Express)", "GetMsgSeqNumToUIDArray method Windows Mail (formerly Outlook Express) , IIMAPTransport interface", "IIMAPTransport interface Windows Mail (formerly Outlook Express) , GetMsgSeqNumToUIDArray method"]
+ms.assetid: eb989090-bca5-48df-8d88-d064b313fc49
+keywords:
+- GetMsgSeqNumToUIDArray method Windows Mail (formerly Outlook Express)
+- GetMsgSeqNumToUIDArray method Windows Mail (formerly Outlook Express) , IIMAPTransport interface
+- IIMAPTransport interface Windows Mail (formerly Outlook Express) , GetMsgSeqNumToUIDArray method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport::GetMsgSeqNumToUIDArray method
@@ -24,8 +32,8 @@ Returns a copy of the MsgSeqNumToUID table in an array.
 
 ```C++
 HRESULT GetMsgSeqNumToUIDArray(
-  [out] DWORD **ppdwMsgSeqNumToUIDArray,
-  [out] DWORD *pdwNumberOfElements
+  [out] DWORD **ppdwMsgSeqNumToUIDArray,
+  [out] DWORD *pdwNumberOfElements
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +90,8 @@ The client may want to call this method when deleting messages from the cache th
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -91,9 +99,9 @@ The client may want to call this method when deleting messages from the cache th
 
 
 
- 
+ 
 
- 
+ 
 
 
 

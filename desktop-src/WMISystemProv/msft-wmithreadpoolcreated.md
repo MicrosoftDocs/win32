@@ -4,11 +4,13 @@ description: Provides notification when a thread is created in the WMI Event Sub
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c92bb7b0-0c53-4ef8-be11-d7fb526f9a02'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c92bb7b0-0c53-4ef8-be11-d7fb526f9a02
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_WmiThreadPoolCreated class", "MSFT_WmiThreadPoolCreated class, described"]
+keywords:
+- MSFT_WmiThreadPoolCreated class
+- MSFT_WmiThreadPoolCreated class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - WmiPrvSD.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_WmiThreadPoolCreated class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_WmiThreadPoolCreated : MSFT_WmiThreadPoolEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint32 ThreadID;
   uint64 TIME_CREATED;
 };
@@ -108,8 +113,8 @@ For an example, see [**MSFT\_WmiThreadPoolEvent**](msft-wmithreadpoolevent.md).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>System.mof</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>WmiPrvSD.dll</dt> </dl> |
@@ -138,9 +143,9 @@ WMI Troubleshooting
 [Receiving a WMI Event](https://msdn.microsoft.com/library/aa393013)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,17 @@ description: VBScript example shows how to use the DfsrIdRecordInfo, DfsrReplica
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a983c749-828c-4eae-938d-29469ebae0bf'
-ms.prod: 'windows-server-dev'
+ms.assetid: a983c749-828c-4eae-938d-29469ebae0bf
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Distributed File System Replication examples Files , getting the ID record for a file or folder"]
+keywords:
+- Distributed File System Replication examples Files , getting the ID record for a file or folder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Getting the ID Record for a File or Folder

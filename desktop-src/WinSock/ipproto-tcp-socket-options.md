@@ -1,14 +1,19 @@
-﻿---
-Description: 'The following table describes IPPROTO\_TCP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as TCP (IPPROTO\_TCP).'
-ms.assetid: '2a10498d-0a0b-4a2d-941e-9aa45a1a4428'
-title: 'IPPROTO\_TCP Socket Options'
+---
+Description: The following table describes IPPROTO\_TCP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as TCP (IPPROTO\_TCP).
+ms.assetid: 2a10498d-0a0b-4a2d-941e-9aa45a1a4428
+title: IPPROTO\_TCP Socket Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPPROTO\_TCP Socket Options
 
-The following table describes **IPPROTO\_TCP** socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the *protocol* parameter to the [**socket**](socket-2.md) function specified as TCP (IPPROTO\_TCP). See the [**getsockopt**](getsockopt-2.md) and [**setsockopt**](setsockopt-2.md) function reference pages for more information on getting and setting socket options.
+The following table describes **IPPROTO\_TCP** socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the *protocol* parameter to the [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) function specified as TCP (IPPROTO\_TCP). See the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) and [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function reference pages for more information on getting and setting socket options.
 
-To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](wsaenumprotocols-2.md), [**WSCEnumProtocols**](wscenumprotocols-2.md), or [**WSCEnumProtocols32**](wscenumprotocols32.md) function.
+To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/win32/Winsock2/nf-winsock2-wsaenumprotocolsa?branch=master), [**WSCEnumProtocols**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols?branch=master), or [**WSCEnumProtocols32**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols32?branch=master) function.
 
 <dl> <dt><span id="IPPROTO_TCP_Socket_Options"></span><span id="ipproto_tcp_socket_options"></span><span id="IPPROTO_TCP_SOCKET_OPTIONS"></span>**IPPROTO\_TCP Socket Options**</dt> <dd> <dl> <dt> 
 
@@ -77,7 +82,7 @@ To enumerate protocols and discover supported properties for each installed prot
 <td>yes</td>
 <td>yes</td>
 <td>DWORD (boolean)</td>
-<td>Enables or disables [RFC 7413](https://tools.ietf.org/html/rfc7413) TCP Fast Open, which enables you to start sending data during the three-way handshake phase of opening a connection. Note that to make use of fast opens, you should use [<strong>ConnectEx</strong>](connectex-2.md) to make the initial connection, and specify data in that function's <em>lpSendBuffer</em> parameter to be transferred during the handshake process. Some of the data in <em>lpSendBuffer</em> will be transferred under the Fast Open protocol.</td>
+<td>Enables or disables [RFC 7413](https://tools.ietf.org/html/rfc7413) TCP Fast Open, which enables you to start sending data during the three-way handshake phase of opening a connection. Note that to make use of fast opens, you should use [<strong>ConnectEx</strong>](/windows/win32/Mswsock/nc-mswsock-lpfn_connectex?branch=master) to make the initial connection, and specify data in that function's <em>lpSendBuffer</em> parameter to be transferred during the handshake process. Some of the data in <em>lpSendBuffer</em> will be transferred under the Fast Open protocol.</td>
 </tr>
 <tr class="even">
 <td>TCP_KEEPIDLE</td>

@@ -1,15 +1,23 @@
 ---
 title: Configuring Script Streams
 description: Configuring Script Streams
-ms.assetid: 'f8f1656e-69c6-47f7-a8eb-c1039a84ebf3'
-keywords: ["streams,configuring script streams", "codecs,configuring script streams", "script streams,configuring"]
+ms.assetid: f8f1656e-69c6-47f7-a8eb-c1039a84ebf3
+keywords:
+- streams,configuring script streams
+- codecs,configuring script streams
+- script streams,configuring
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Script Streams
 
-Like all arbitrary stream types, script streams need to have a bit rate and buffer window defined for them. The major media type in the [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure must be set to WMMEDIATYPE\_Script.
+Like all arbitrary stream types, script streams need to have a bit rate and buffer window defined for them. The major media type in the [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure must be set to WMMEDIATYPE\_Script.
 
-Script streams need to have the **formattype** member of **WM\_MEDIA\_TYPE** set to WMFORMAT\_Script, which indicates that the **pbFormat** member points to a [**WMSCRIPTFORMAT**](wmscriptformat.md) structure.
+Script streams need to have the **formattype** member of **WM\_MEDIA\_TYPE** set to WMFORMAT\_Script, which indicates that the **pbFormat** member points to a [**WMSCRIPTFORMAT**](/windows/win32/Wmsdkidl/ns-wmsdkidl-tagwmscriptformat?branch=master) structure.
 
 There is only one supported script type, WMSCRIPTTYPE\_TwoStrings.
 

@@ -1,7 +1,12 @@
 ---
 title: Teredo Addresses
-ms.assetid: 'e2e185c2-e53d-471d-aedb-54d75f9db0bb'
+ms.assetid: e2e185c2-e53d-471d-aedb-54d75f9db0bb
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Teredo Addresses

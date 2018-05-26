@@ -2,13 +2,16 @@
 title: SetByChangeDAInstallationType method of the PS\_DAServer class
 description: This cmdlet sets the properties specific to the DA server.
 audience: developer
-ms.assetid: 'b9de7626-ac5a-4b2d-8a9f-49163e75b2ab'
-ms.prod: 'windows-server-dev'
+ms.assetid: b9de7626-ac5a-4b2d-8a9f-49163e75b2ab
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByChangeDAInstallationType method", "SetByChangeDAInstallationType method, PS_DAServer class", "PS_DAServer class, SetByChangeDAInstallationType method"]
+keywords:
+- SetByChangeDAInstallationType method
+- SetByChangeDAInstallationType method, PS_DAServer class
+- PS_DAServer class, SetByChangeDAInstallationType method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByChangeDAInstallationType method of the PS\_DAServer class
@@ -28,11 +34,11 @@ This cmdlet sets the properties specific to the DA server.
 
 ```mof
 uint32 SetByChangeDAInstallationType(
-  [in]  string   ComputerName,
-  [in]  string   DAInstallType,
-  [in]  boolean  Force,
-  [in]  boolean  PassThru,
-  [out] DAServer cmdletOutput
+  [in]  string   ComputerName,
+  [in]  string   DAInstallType,
+  [in]  boolean  Force,
+  [in]  boolean  PassThru,
+  [out] DAServer cmdletOutput
 );
 ```
 
@@ -98,7 +104,7 @@ DA server properties. 1. Authentication type 2. Internal IPv6 prefix 3. Client I
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -112,9 +118,9 @@ DA server properties. 1. Authentication type 2. Internal IPv6 prefix 3. Client I
 [**PS\_DAServer**](ps-daserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

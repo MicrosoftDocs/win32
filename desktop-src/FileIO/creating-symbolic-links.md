@@ -1,12 +1,17 @@
 ---
-Description: 'Create symbolic links that use either an absolute or relative path by using the CreateSymbolicLink function.'
-ms.assetid: '3821478d-87bb-4e47-8263-d977cf665503'
+Description: Create symbolic links that use either an absolute or relative path by using the CreateSymbolicLink function.
+ms.assetid: 3821478d-87bb-4e47-8263-d977cf665503
 title: Creating Symbolic Links
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Symbolic Links
 
-The function [**CreateSymbolicLink**](createsymboliclink.md) allows you to create symbolic links using either an absolute or relative path.
+The function [**CreateSymbolicLink**](/windows/win32/WinBase/nf-winbase-createsymboliclinka?branch=master) allows you to create symbolic links using either an absolute or relative path.
 
 Symbolic links can either be absolute or relative links. Absolute links are links that specify each portion of the path name; relative links are determined relative to where relative–link specifiers are in a specified path. Relative links are specified using the following conventions:
 

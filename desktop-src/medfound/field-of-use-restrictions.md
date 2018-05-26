@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Field of Use Restrictions
-ms.assetid: '36f28e4c-2baf-4618-9935-5d4615f6bc77'
+ms.assetid: 36f28e4c-2baf-4618-9935-5d4615f6bc77
 title: Field of Use Restrictions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Field of Use Restrictions
@@ -19,27 +24,27 @@ Media Foundation provides a mechanism for enforcing field-of-use restrictions on
 
 If an MFT has field-of-use restrictions, set the **MFT\_ENUM\_FLAG\_FIELDOFUSE** flag when you register the MFT. This flag applies to the following MFT registration APIs:
 
--   [**MFTRegister**](mftregister.md)
--   [**MFTRegisterLocal**](mftregisterlocal.md)
--   [**MFTRegisterLocalByCLSID**](mftregisterlocalbyclsid.md)
--   [**IMFLocalMFTRegistration::RegisterMFTs**](imflocalmftregistration-registermfts.md)
+-   [**MFTRegister**](/windows/win32/mfapi/nf-mfapi-mftregister?branch=master)
+-   [**MFTRegisterLocal**](/windows/win32/mfapi/nf-mfapi-mftregisterlocal?branch=master)
+-   [**MFTRegisterLocalByCLSID**](/windows/win32/mfapi/nf-mfapi-mftregisterlocalbyclsid?branch=master)
+-   [**IMFLocalMFTRegistration::RegisterMFTs**](/windows/win32/mfidl/nf-mfidl-imflocalmftregistration-registermfts?branch=master)
 
-By default, MFTs registered with this flag are excluded from enumeration results. To enumerate MFTs with field-of-use restrictions, call [**MFTEnumEx**](mftenumex.md) and specify the **MFT\_ENUM\_FLAG\_FIELDOFUSE** flag in the *Flags* parameter. The following diagram illustrates this process.
+By default, MFTs registered with this flag are excluded from enumeration results. To enumerate MFTs with field-of-use restrictions, call [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) and specify the **MFT\_ENUM\_FLAG\_FIELDOFUSE** flag in the *Flags* parameter. The following diagram illustrates this process.
 
 ![diagram showing mft and an application sending data to the registry](images/mft-fou01.gif)
 
-The [**MFTEnum**](mftenum.md) function always excludes any MFTs that have field-of-use restrictions.
+The [**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master) function always excludes any MFTs that have field-of-use restrictions.
 
 ### Unlocking the MFT
 
 To use an MFT with field-of-use restrictions, perform the following steps:
 
-1.  The application implements the [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) interface.
-2.  The [**IMFFieldOfUseMFTUnlock::Unlock**](imffieldofusemftunlock-unlock.md) method takes a pointer to the **IUnknown** interface of the MFT.
-3.  In the [**Unlock**](imffieldofusemftunlock-unlock.md) method, the application performs the required handshake, using whatever mechanism is defined by the MFT. This step is not defined by Media Foundation API.
-4.  If the [**Unlock**](imffieldofusemftunlock-unlock.md) method succeeds, the MFT unlocks itself.
+1.  The application implements the [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) interface.
+2.  The [**IMFFieldOfUseMFTUnlock::Unlock**](/windows/win32/mfidl/nf-mfidl-imffieldofusemftunlock-unlock?branch=master) method takes a pointer to the **IUnknown** interface of the MFT.
+3.  In the [**Unlock**](/windows/win32/mfidl/nf-mfidl-imffieldofusemftunlock-unlock?branch=master) method, the application performs the required handshake, using whatever mechanism is defined by the MFT. This step is not defined by Media Foundation API.
+4.  If the [**Unlock**](/windows/win32/mfidl/nf-mfidl-imffieldofusemftunlock-unlock?branch=master) method succeeds, the MFT unlocks itself.
 
-The application specifies the [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) pointer by setting the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) attribute. There are several different ways to set this attribute, depending on how your application creates the decoder or encoding pipeline:
+The application specifies the [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) pointer by setting the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) attribute. There are several different ways to set this attribute, depending on how your application creates the decoder or encoding pipeline:
 
 
 
@@ -47,15 +52,15 @@ The application specifies the [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunloc
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Source Reader         | If your application uses the [Source Reader](source-reader.md) to decode a media file, set the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) attribute in the configuration parameters. See [Source Reader Attributes](source-reader-attributes.md).                                                                                                                                                                                                                                                                         |
 | Sink Writer           | If your application uses the sink writer to encode a media file, set the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) attribute in the configuration parameters. See [Sink Writer Attributes](sink-writer-attributes.md).                                                                                                                                                                                                                                                                                                    |
-| Fast Transcode        | If your application uses the Fast Transcode feature to create an encoding topology, set the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) when you call [**IMFTranscodeProfile::SetContainerAttributes**](imftranscodeprofile-setcontainerattributes.md). For more information about the Fast Transcode feature, see [Transcode API](transcode-api.md).                                                                                                                                                                      |
+| Fast Transcode        | If your application uses the Fast Transcode feature to create an encoding topology, set the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) when you call [**IMFTranscodeProfile::SetContainerAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes?branch=master). For more information about the Fast Transcode feature, see [Transcode API](transcode-api.md).                                                                                                                                                                      |
 | Topology              | If you create a topology directly, set the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) as an attribute on the topology. See [Topology Attributes](topology-attributes.md).                                                                                                                                                                                                                                                                                                                                                  |
-| MFT Activation Object | If your application directly enumerates the decoders or encoders that it will use, set the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) on the [**IMFActivate**](imfactivate.md) pointers returned by the [**MFTEnumEx**](mftenumex.md) function. <br/> Set the attribute before calling [**IMFActivate::ActivateObject**](imfactivate-activateobject.md) to create the MFT. The activation object calls [**IMFFieldOfUseMFTUnlock::Unlock**](imffieldofusemftunlock-unlock.md) when it creates the MFT.<br/> |
+| MFT Activation Object | If your application directly enumerates the decoders or encoders that it will use, set the [MFT\_FIELDOFUSE\_UNLOCK\_Attribute](mft-fieldofuse-unlock-attribute.md) on the [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointers returned by the [**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master) function. <br/> Set the attribute before calling [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master) to create the MFT. The activation object calls [**IMFFieldOfUseMFTUnlock::Unlock**](/windows/win32/mfidl/nf-mfidl-imffieldofusemftunlock-unlock?branch=master) when it creates the MFT.<br/> |
 
 
 
  
 
-The following diagram shows the relation between MFT activation objects and the [**IMFFieldOfUseMFTUnlock**](imffieldofusemftunlock.md) interface.
+The following diagram shows the relation between MFT activation objects and the [**IMFFieldOfUseMFTUnlock**](/windows/win32/mfidl/nn-mfidl-imffieldofusemftunlock?branch=master) interface.
 
 ![diagram showing an application, activation object and mft with arrows to an fou object, which has an arrow back to mft](images/mft-fou02.gif)
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or resumes all disabled or suspended key protectors.'
-ms.assetid: '6f5a17a3-84f2-43a0-a85f-1037cd52439a'
-title: 'EnableKeyProtectors method of the Win32\_EncryptableVolume class'
+---
+Description: Enables or resumes all disabled or suspended key protectors.
+ms.assetid: 6f5a17a3-84f2-43a0-a85f-1037cd52439a
+title: EnableKeyProtectors method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableKeyProtectors method of the Win32\_EncryptableVolume class

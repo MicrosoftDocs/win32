@@ -1,8 +1,18 @@
 ---
 title: Using Device Contexts
 description: Using Device Contexts
-ms.assetid: '2e8de313-6218-4401-a578-73140e7fdae1'
-keywords: ["visualizations,device context", "custom visualizations,device context", "visualizations,Render function", "custom visualizations,Render function", "Render function,device context"]
+ms.assetid: 2e8de313-6218-4401-a578-73140e7fdae1
+keywords:
+- visualizations,device context
+- custom visualizations,device context
+- visualizations,Render function
+- custom visualizations,Render function
+- Render function,device context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Device Contexts

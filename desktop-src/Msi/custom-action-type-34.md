@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may choose to use a custom action type 34 when the standard actions are insufficient to execute the installation.'
-ms.assetid: '4d0e4f01-0530-4202-bc78-b6e52670b8e5'
+Description: Developers of Windows Installer packages may choose to use a custom action type 34 when the standard actions are insufficient to execute the installation.
+ms.assetid: 4d0e4f01-0530-4202-bc78-b6e52670b8e5
 title: Custom Action Type 34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Type 34

@@ -1,8 +1,17 @@
 ---
 title: Querying Waveform-Audio Input Devices
 description: Querying Waveform-Audio Input Devices
-ms.assetid: '573b33bc-f445-496e-a0e6-0194d30bb668'
-keywords: ["waveform audio,querying input devices", "waveform-audio interface,querying input devices", "recording waveform audio,querying input devices", "querying waveform-audio input devices"]
+ms.assetid: 573b33bc-f445-496e-a0e6-0194d30bb668
+keywords:
+- waveform audio,querying input devices
+- waveform-audio interface,querying input devices
+- recording waveform audio,querying input devices
+- querying waveform-audio input devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying Waveform-Audio Input Devices

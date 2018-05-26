@@ -1,14 +1,22 @@
 ---
 title: IGatherNotify OnDataMove (Deprecated) method
 description: This Windows Desktop Search interface topic is deprecated and is superseded by the Windows Search ISearchPersistentItemsChangedSink API in the Windows SDK.
-ms.assetid: 'cc223d0f-6508-4e38-b365-c60660db5324'
-keywords: ["OnDataMove (Deprecated) method Legacy Windows Environment Features", "OnDataMove (Deprecated) method Legacy Windows Environment Features , IGatherNotify interface", "IGatherNotify interface Legacy Windows Environment Features , OnDataMove (Deprecated) method"]
+ms.assetid: cc223d0f-6508-4e38-b365-c60660db5324
+keywords:
+- OnDataMove (Deprecated) method Legacy Windows Environment Features
+- OnDataMove (Deprecated) method Legacy Windows Environment Features , IGatherNotify interface
+- IGatherNotify interface Legacy Windows Environment Features , OnDataMove (Deprecated) method
 topic_type:
 - apiref
 api_name:
 - IGatherNotify.OnDataMove (Deprecated)
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IGatherNotify::OnDataMove (Deprecated) method

@@ -1,8 +1,19 @@
 ---
 title: Creating a Skin Definition File
 description: Creating a Skin Definition File
-ms.assetid: 'ea7f8e7c-a505-478d-80c3-cb3a3f67859d'
-keywords: ["Windows Media Player Mobile skins,skin definition files", "skins,skin definition files", "files for skins,skin definition", "skin definition files,creating", "creating skins,about", "creating skins,Windows Media Player Mobile"]
+ms.assetid: ea7f8e7c-a505-478d-80c3-cb3a3f67859d
+keywords:
+- Windows Media Player Mobile skins,skin definition files
+- skins,skin definition files
+- files for skins,skin definition
+- skin definition files,creating
+- creating skins,about
+- creating skins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Skin Definition File
@@ -25,7 +36,7 @@ Every skin definition file must start with the following line, which specifies t
 
 
 
- 
+ 
 
 The version number 9.0.1 is for skins created specifically for Windows Media Player 9 Series or later. Skins having an earlier version number are opened by Windows Media Player 9 Series or later as portrait mode, 96 dots per inch (DPI) skins.
 
@@ -53,7 +64,7 @@ Each section starts with the name of the section in square brackets, for example
 > [!Note]  
 > Your skin definition file will not be parsed correctly unless you include spaces between the brackets and the name of the section.
 
- 
+ 
 
 Then, one or more lines define individual images, buttons, and so on. For example, a Bitmaps section might include the following:
 
@@ -74,7 +85,7 @@ It is not necessary to line up the values in columns, but it will help your code
 > [!Note]  
 > Do not use tabs anywhere in the file; use extra spaces instead. This is very important, because pressing the TAB key while writing or editing your skin definition file will cause the entire skin to fail. Each line must be complete and cannot continue onto a second line. Also, the Region and Super values are deprecated for skins used with Windows Media Player 10 Mobile or later.
 
- 
+ 
 
 ## Related topics
 
@@ -83,9 +94,9 @@ It is not necessary to line up the values in columns, but it will help your code
 [**Skin Definition File**](skin-definition-file-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

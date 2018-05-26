@@ -1,7 +1,12 @@
 ---
 title: Origin Attribute (VMLFrame)(VML)
 description: Origin Attribute (VMLFrame)(VML)
-ms.assetid: '317c027e-5054-4543-ad98-2c21d1cf7154'
+ms.assetid: 317c027e-5054-4543-ad98-2c21d1cf7154
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Origin Attribute (VMLFrame)(VML)

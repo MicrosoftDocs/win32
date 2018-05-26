@@ -1,7 +1,12 @@
 ---
 title: Sessions
 description: Sessions
-ms.assetid: '692d51d8-d3ea-46fe-bb85-4810cab765aa'
+ms.assetid: 692d51d8-d3ea-46fe-bb85-4810cab765aa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sessions

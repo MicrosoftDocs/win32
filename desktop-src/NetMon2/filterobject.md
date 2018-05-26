@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a single object of a display filter.'
-ms.assetid: '865b55f3-9294-43c5-b4dc-eb5128ce3a38'
+Description: Defines a single object of a display filter.
+ms.assetid: 865b55f3-9294-43c5-b4dc-eb5128ce3a38
 title: FILTEROBJECT structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FILTEROBJECT structure
@@ -13,23 +18,23 @@ The **FILTEROBJECT** structure defines a single object of a display filter. The 
 
 ```C++
 typedef struct _FILTEROBJECT {
-  FILTERACTIONTYPE     Action;
-  HPROPERTY            hProperty;
+  FILTERACTIONTYPE     Action;
+  HPROPERTY            hProperty;
   union {
-    VALUETYPE           Value;
-    HPROTOCOL           hProtocol;
-    LPVOID              lpArray;
+    VALUETYPE           Value;
+    HPROTOCOL           hProtocol;
+    LPVOID              lpArray;
     LPPROTOCOLTABLETYPE lpProtocolTable;
-    LPADDRESS           lpAddress;
-    ULPLARGEINT         lpLargeInt;
-    ULPTIME             lpTime;
+    LPADDRESS           lpAddress;
+    ULPLARGEINT         lpLargeInt;
+    ULPTIME             lpTime;
     LPOBJECT_IDENTIFIER lpOID;
   };
   union {
     WORD ByteCount;
     WORD ByteOffset;
   };
-  struct _FILTEROBJECT  *pNext;
+  struct _FILTEROBJECT  *pNext;
 } FILTEROBJECT, *LPFILTEROBJECT;
 ```
 
@@ -55,7 +60,7 @@ The following table lists Action member property flags.
 
 
 
- 
+ 
 
 The following table lists Action member value flags.
 
@@ -84,7 +89,7 @@ The following table lists Action member value flags.
 
 
 
- 
+ 
 
 The following table lists Action member operator flags.
 
@@ -128,7 +133,7 @@ The following table lists Action member operator flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -177,7 +182,7 @@ Pointer to the kernel type address. For example, MAC or IP.
 **lpLargeInt**
 </dt> <dd>
 
-Double **DWORD** used in a Windows NT or Windows 2000 application.
+Double **DWORD** used in a Windows NT or Windows 2000 application.
 
 </dd> <dt>
 
@@ -222,15 +227,15 @@ Reserved.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

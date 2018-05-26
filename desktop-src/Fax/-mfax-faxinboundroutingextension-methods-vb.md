@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Methods property is an array of GUIDs that uniquely identify the inbound routing methods exposed by the fax routing extension.'
-ms.assetid: '2db89dd2-c22a-435b-98a1-ce4b130bfd53'
-title: 'FaxInboundRoutingExtension.Methods property'
+---
+Description: The Methods property is an array of GUIDs that uniquely identify the inbound routing methods exposed by the fax routing extension.
+ms.assetid: 2db89dd2-c22a-435b-98a1-ce4b130bfd53
+title: FaxInboundRoutingExtension.Methods property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.Methods property
@@ -46,7 +51,7 @@ A **Variant** that receives an array of GUIDs. Each GUID represents an inbound r
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

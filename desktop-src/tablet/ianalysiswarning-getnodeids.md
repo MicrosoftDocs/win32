@@ -1,7 +1,12 @@
 ---
-Description: 'Returns the identifiers of any relevant context nodes that are associated with this warning.'
-ms.assetid: '8c418f48-3903-47c1-82e2-085de39574d4'
-title: 'IAnalysisWarning::GetNodeIds method'
+Description: Returns the identifiers of any relevant context nodes that are associated with this warning.
+ms.assetid: 8c418f48-3903-47c1-82e2-085de39574d4
+title: IAnalysisWarningGetNodeIds method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisWarning::GetNodeIds method
@@ -13,8 +18,8 @@ Returns the identifiers of any relevant context nodes that are associated with t
 
 ```C++
 HRESULT GetNodeIds(
-  [in, out] ULONG *pulCount,
-  [out]     GUID  **ppNodeIds
+  [in, out] ULONG *pulCount,
+  [out]     GUID  **ppNodeIds
 );
 ```
 
@@ -49,7 +54,7 @@ If *ppNodeIds* is passed as **NULL**, the **GetNodeIds** method returns **S\_OK*
 > \[!Caution\]  
 > To avoid a memory leak, use [**CoTaskMemFree**](https://msdn.microsoft.com/library/windows/desktop/ms680722) to release the memory from \**ppNodeIds* when you no longer need the information.
 
- 
+ 
 
 ## Examples
 
@@ -79,7 +84,7 @@ warning->GetNodeIds(&amp;number, NULL);
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -102,9 +107,9 @@ warning->GetNodeIds(&amp;number, NULL);
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

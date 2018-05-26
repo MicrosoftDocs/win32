@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.'
-ms.assetid: '66300b24-2d10-4831-a2e9-b7db240da32b'
-title: 'FaxRecipients.Count property'
+---
+Description: The Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.
+ms.assetid: 66300b24-2d10-4831-a2e9-b7db240da32b
+title: FaxRecipients.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRecipients.Count property
@@ -43,7 +48,7 @@ A **Long** that receives the number of recipients in the collection.
 [**FaxRecipients**](-mfax-faxrecipients.md)
 </dt> <dt>
 
-[**IFaxRecipients**](-mfax-faxrecipients-cpp.md)
+[**IFaxRecipients**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxrecipients?branch=master)
 </dt> <dt>
 
 [Broadcasting a Fax](-mfax-broadcasting-a-fax.md)

@@ -1,8 +1,14 @@
 ---
 title: The named\_type\_free\_inst Function
 description: The stubs call the named\_type\_free\_inst function to free memory associated with the transmitted type.
-ms.assetid: '4b9e10cb-25bb-4f00-86a0-5436e5ac71d9'
-keywords: ["named_type_free_inst"]
+ms.assetid: 4b9e10cb-25bb-4f00-86a0-5436e5ac71d9
+keywords:
+- named_type_free_inst
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The named\_type\_free\_inst Function

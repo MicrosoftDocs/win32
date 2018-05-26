@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IINTLCURRDIGITS'
-ms.assetid: '37d2a352-fe8a-4705-8af9-2d0927b43afe'
-title: 'LOCALE\_IINTLCURRDIGITS'
+Description: LOCALE\_IINTLCURRDIGITS
+ms.assetid: 37d2a352-fe8a-4705-8af9-2d0927b43afe
+title: LOCALE\_IINTLCURRDIGITS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IINTLCURRDIGITS

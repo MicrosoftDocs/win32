@@ -1,8 +1,14 @@
 ---
 title: IPaper Load
 description: The following C++ sample code shows how to open the existing stream in the storage, read new paper properties in and then set them as the current values for COPaper.
-ms.assetid: 'a1559d97-387f-4d1a-8a9d-fa5c27abd545'
-keywords: ["IPaper Load"]
+ms.assetid: a1559d97-387f-4d1a-8a9d-fa5c27abd545
+keywords:
+- IPaper Load
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPaper::Load
@@ -118,11 +124,11 @@ STDMETHODIMP COPaper::CImpIPaper::Load(
 
 
 
-Now, the [**IStorage::OpenStream**](istorage-openstream.md) method is called to open the existing stream in the storage called "PAPERDATA". Access mode flags are for read-only, direct, and non-shared exclusive access. When the stream is open, the [**IStream::Read**](istream.md) method is called to read the PAPER\_PROPERTIES structure. If the amount actually read does not equal the amount requested, the load operation is aborted, and E\_FAIL is returned. If the format version in the newly read PAPER\_PROPERTIES is not recognized, then the load operation is aborted and **Load** returns E\_FAIL.
+Now, the [**IStorage::OpenStream**](/windows/win32/Objidl/nf-objidl-istorage-openstream?branch=master) method is called to open the existing stream in the storage called "PAPERDATA". Access mode flags are for read-only, direct, and non-shared exclusive access. When the stream is open, the [**IStream::Read**](/windows/win32/Objidl/nn-objidl-istream?branch=master) method is called to read the PAPER\_PROPERTIES structure. If the amount actually read does not equal the amount requested, the load operation is aborted, and E\_FAIL is returned. If the format version in the newly read PAPER\_PROPERTIES is not recognized, then the load operation is aborted and **Load** returns E\_FAIL.
 
-With a valid ink data format version, the size of the new ink data array from the PAPER\_PROPERTIES that was read in is used to allocate a new ink data array of the required size. The existing ink data is deleted, and its data is lost. If this data was valuable, it should have been saved before **Load** was called. After the new array is allocated, [**IStream::Read**](istream.md) is called again to read the data into the array from the stream. If this call succeeds, the values in the newly read paper properties are adopted as the current values for COPaper.
+With a valid ink data format version, the size of the new ink data array from the PAPER\_PROPERTIES that was read in is used to allocate a new ink data array of the required size. The existing ink data is deleted, and its data is lost. If this data was valuable, it should have been saved before **Load** was called. After the new array is allocated, [**IStream::Read**](/windows/win32/Objidl/nn-objidl-istream?branch=master) is called again to read the data into the array from the stream. If this call succeeds, the values in the newly read paper properties are adopted as the current values for COPaper.
 
-During this load operation, a temporary PAPER\_PROPERTIES structure, NewProps, was used to hold the new properties read in. If all succeeds with the load, NewProps is copied into the PAPER\_PROPERTIES structure, m\_PaperProperties. As before, after Load is done and the [**IStream**](istream.md) is no longer required, the **IStream** pointer is released.
+During this load operation, a temporary PAPER\_PROPERTIES structure, NewProps, was used to hold the new properties read in. If all succeeds with the load, NewProps is copied into the PAPER\_PROPERTIES structure, m\_PaperProperties. As before, after Load is done and the [**IStream**](/windows/win32/Objidl/nn-objidl-istream?branch=master) is no longer required, the **IStream** pointer is released.
 
 If there is an error at the end of **Load**, the ink data array is erased, because it may contain damaged data.
 

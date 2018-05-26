@@ -1,7 +1,12 @@
-﻿---
-Description: 'Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.'
-ms.assetid: '3581b397-cbd8-4aed-80dd-1841f331a367'
+---
+Description: Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
+ms.assetid: 3581b397-cbd8-4aed-80dd-1841f331a367
 title: D3DXPlaneTransform function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXPlaneTransform function

@@ -1,7 +1,12 @@
 ---
 title: Combinations of Tasks, Languages, and APIs
 description: Many combinations of languages, APIs, and tools are available for programming Indexing Service to achieve your desired tasks.
-ms.assetid: '4f538188-00ba-4084-beba-eaf963d84ece'
+ms.assetid: 4f538188-00ba-4084-beba-eaf963d84ece
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Combinations of Tasks, Languages, and APIs

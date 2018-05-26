@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a stream and uses it to write to a stream property.'
-ms.assetid: 'EFF55B5C-55E2-4E03-9D96-FDB1BC550A53'
-title: 'IPrinterScriptablePropertyBag::GetWriteStream method'
+---
+Description: Gets a stream and uses it to write to a stream property.
+ms.assetid: EFF55B5C-55E2-4E03-9D96-FDB1BC550A53
+title: IPrinterScriptablePropertyBagGetWriteStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptablePropertyBag::GetWriteStream method

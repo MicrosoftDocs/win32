@@ -1,15 +1,18 @@
 ---
-Description: 'The Reset method of the CIM\_SerialController class requests a reset of the logical device.'
+Description: The Reset method of the CIM\_SerialController class requests a reset of the logical device.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b4d99f49-52ac-4f62-9573-c712d0cafdd0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b4d99f49-52ac-4f62-9573-c712d0cafdd0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Reset method of the CIM\_SerialController class'
+title: Reset method of the CIM\_SerialController class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Reset method of the CIM\_SerialController class
@@ -19,7 +22,7 @@ The **Reset** method of the CIM\_SerialController class requests a reset of the 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 ## Syntax
 
@@ -50,8 +53,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -68,9 +71,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_SerialController**](cim-serialcontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

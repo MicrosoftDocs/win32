@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySink Click
 description: IAgentNotifySink Click
-ms.assetid: '6587fed8-4651-4c5c-b257-6e3f991cd3a0'
+ms.assetid: 6587fed8-4651-4c5c-b257-6e3f991cd3a0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySink::Click

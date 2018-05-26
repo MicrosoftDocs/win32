@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace GetFirstSubFolder method
 description: Begins enumeration of the child folders of a specified parent folder and retrieves information about the first result.
-ms.assetid: '865f0caf-5146-4ce2-bca0-ce8c4cec0022'
-keywords: ["GetFirstSubFolder method Windows Mail (formerly Outlook Express)", "GetFirstSubFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , GetFirstSubFolder method"]
+ms.assetid: 865f0caf-5146-4ce2-bca0-ce8c4cec0022
+keywords:
+- GetFirstSubFolder method Windows Mail (formerly Outlook Express)
+- GetFirstSubFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , GetFirstSubFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::GetFirstSubFolder method
@@ -22,9 +30,9 @@ Begins enumeration of the child folders of a specified parent folder and retriev
 
 ```C++
 HRESULT GetFirstSubFolder(
-  [in]      STOREFOLDERID dwFolderId,
-  [in, out] LPFOLDERPROPS pProps,
-  [out]     LPHENUMSTORE  phEnum
+  [in]      STOREFOLDERID dwFolderId,
+  [in, out] LPFOLDERPROPS pProps,
+  [out]     LPHENUMSTORE  phEnum
 );
 ```
 
@@ -76,7 +84,7 @@ The function will return S\_OK if there are more folders to enumerate. If there 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -92,8 +100,8 @@ The enumeration is not recursive.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -117,9 +125,9 @@ The enumeration is not recursive.
 [**GetSubFolderClose**](oe-istorenamespace-getsubfolderclose.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

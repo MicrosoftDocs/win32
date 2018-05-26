@@ -1,14 +1,20 @@
 ---
 title: RequestState Attribute
 description: The RequestState attribute is the media information request state.
-ms.assetid: '32bea5f2-4af5-466a-8afe-9e29f5df59e7'
-keywords: ["RequestState Attribute Windows Media Player"]
+ms.assetid: 32bea5f2-4af5-466a-8afe-9e29f5df59e7
+keywords:
+- RequestState Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - RequestState
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestState Attribute
@@ -42,9 +48,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

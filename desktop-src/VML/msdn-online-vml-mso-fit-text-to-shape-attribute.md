@@ -1,7 +1,12 @@
 ---
 title: VML MSO-Fit-Text-To-Shape Attribute
 description: VML MSO-Fit-Text-To-Shape Attribute
-ms.assetid: 'efe08106-e72b-48c1-865b-79843c11c15f'
+ms.assetid: efe08106-e72b-48c1-865b-79843c11c15f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML MSO-Fit-Text-To-Shape Attribute

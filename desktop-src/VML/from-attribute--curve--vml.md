@@ -1,7 +1,12 @@
 ---
 title: From Attribute (Curve)(VML)
 description: From Attribute (Curve)(VML)
-ms.assetid: '70e940c1-3fa8-4a30-9ca8-584483cea485'
+ms.assetid: 70e940c1-3fa8-4a30-9ca8-584483cea485
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # From Attribute (Curve)(VML)

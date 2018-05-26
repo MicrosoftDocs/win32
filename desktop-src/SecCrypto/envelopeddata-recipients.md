@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the collection of recipients of the enveloped message.'
-ms.assetid: 'de9cbf8e-f34c-4e08-89aa-b5ac842aa599'
-title: 'EnvelopedData.Recipients property'
+---
+Description: Retrieves the collection of recipients of the enveloped message.
+ms.assetid: de9cbf8e-f34c-4e08-89aa-b5ac842aa599
+title: EnvelopedData.Recipients property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnvelopedData.Recipients property

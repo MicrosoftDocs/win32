@@ -1,15 +1,20 @@
 ---
-Description: 'For Windows 7, Windows Portable Devices supports the following parameter attributes for methods and events of a device service.'
-ms.assetid: 'a7708c60-758a-4fb6-8ef9-074ecdc9cf60'
+Description: For Windows 7, Windows Portable Devices supports the following parameter attributes for methods and events of a device service.
+ms.assetid: a7708c60-758a-4fb6-8ef9-074ecdc9cf60
 title: Parameter Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter Attributes
 
 For Windows 7, Windows Portable Devices supports the following parameter attributes for methods and events of a device service. These attributes are returned by the these methods:
 
--   [**IPortableDeviceServiceCapabilities::GetMethodParameterAttributes**](iportabledeviceservicecapabilities-getmethodparameterattributes.md)
--   [**IPortableDeviceServiceCapabilities::GetEventParameterAttributes**](iportabledeviceservicecapabilities-geteventparameterattributes.md)
+-   [**IPortableDeviceServiceCapabilities::GetMethodParameterAttributes**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodparameterattributes?branch=master)
+-   [**IPortableDeviceServiceCapabilities::GetEventParameterAttributes**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventparameterattributes?branch=master)
 
 ## 
 
@@ -32,7 +37,7 @@ For Windows 7, Windows Portable Devices supports the following parameter attribu
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,9 +56,9 @@ For Windows 7, Windows Portable Devices supports the following parameter attribu
 [**Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

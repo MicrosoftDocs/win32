@@ -1,7 +1,12 @@
-﻿---
-Description: 'An application sends the WM\_FONTCHANGE message to all top-level windows in the system after changing the pool of font resources.'
-ms.assetid: '4774308e-2f18-4a35-a769-56871f3c29a2'
-title: 'WM\_FONTCHANGE message'
+---
+Description: An application sends the WM\_FONTCHANGE message to all top-level windows in the system after changing the pool of font resources.
+ms.assetid: 4774308e-2f18-4a35-a769-56871f3c29a2
+title: WM\_FONTCHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_FONTCHANGE message
@@ -42,7 +47,7 @@ This parameter is not used.
 
 ## Remarks
 
-An application that adds or removes fonts from the system (for example, by using the [**AddFontResource**](addfontresource.md) or [**RemoveFontResource**](removefontresource.md) function) should send this message to all top-level windows.
+An application that adds or removes fonts from the system (for example, by using the [**AddFontResource**](/windows/win32/Wingdi/nf-wingdi-addfontresourcea?branch=master) or [**RemoveFontResource**](/windows/win32/Wingdi/nf-wingdi-removefontresourcea?branch=master) function) should send this message to all top-level windows.
 
 To send the **WM\_FONTCHANGE** message to all top-level windows, an application can call the **SendMessage** function with the *hwnd* parameter set to HWND\_BROADCAST.
 
@@ -68,10 +73,10 @@ To send the **WM\_FONTCHANGE** message to all top-level windows, an application 
 [Font and Text Messages](font-and-text-messages.md)
 </dt> <dt>
 
-[**AddFontResource**](addfontresource.md)
+[**AddFontResource**](/windows/win32/Wingdi/nf-wingdi-addfontresourcea?branch=master)
 </dt> <dt>
 
-[**RemoveFontResource**](removefontresource.md)
+[**RemoveFontResource**](/windows/win32/Wingdi/nf-wingdi-removefontresourcea?branch=master)
 </dt> </dl>
 
  

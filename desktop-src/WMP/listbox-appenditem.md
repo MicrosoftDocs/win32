@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.appendItem
 description: The appendItem method inserts new text at the end of the list box control.
-ms.assetid: '899b9806-7135-4e87-bd1c-82b703a3ed20'
-keywords: ["LISTBOX.appendItem Windows Media Player"]
+ms.assetid: 899b9806-7135-4e87-bd1c-82b703a3ed20
+keywords:
+- LISTBOX.appendItem Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.appendItem
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.appendItem
@@ -51,9 +57,9 @@ This method does not return a value.
 [**LISTBOX Element**](listbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetImageProperties method gets an image property that is based on the content type.'
-ms.assetid: '7ce333a3-86a2-47e5-b755-fd84469c8785'
-title: 'IPartImage::GetImageProperties method'
+---
+Description: The GetImageProperties method gets an image property that is based on the content type.
+ms.assetid: 7ce333a3-86a2-47e5-b755-fd84469c8785
+title: IPartImageGetImageProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartImage::GetImageProperties method

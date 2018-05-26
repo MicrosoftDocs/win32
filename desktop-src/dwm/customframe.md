@@ -1,8 +1,28 @@
 ---
 title: Custom Window Frame Using DWM
 description: This topic demonstrates how to use the Desktop Window Manager (DWM) APIs to create custom window frames for your application.
-ms.assetid: '7f7dc902-40d3-44e9-adc2-05a39c634eb3'
-keywords: ["Desktop Window Manager (DWM),custom window frames", "DWM (Desktop Window Manager),custom window frames", "custom window frames", "removing standard frames", "extending client frames", "Desktop Window Manager (DWM),extending client frames", "DWM (Desktop Window Manager),extending client frames", "Desktop Window Manager (DWM),removing standard frames", "DWM (Desktop Window Manager),removing standard frames", "Desktop Window Manager (DWM),drawing in extended frames", "DWM (Desktop Window Manager),drawing in extended frames", "drawing in extended frames", "hit testing", "Desktop Window Manager (DWM),hit testing", "DWM (Desktop Window Manager),hit testing"]
+ms.assetid: 7f7dc902-40d3-44e9-adc2-05a39c634eb3
+keywords:
+- Desktop Window Manager (DWM),custom window frames
+- DWM (Desktop Window Manager),custom window frames
+- custom window frames
+- removing standard frames
+- extending client frames
+- Desktop Window Manager (DWM),extending client frames
+- DWM (Desktop Window Manager),extending client frames
+- Desktop Window Manager (DWM),removing standard frames
+- DWM (Desktop Window Manager),removing standard frames
+- Desktop Window Manager (DWM),drawing in extended frames
+- DWM (Desktop Window Manager),drawing in extended frames
+- drawing in extended frames
+- hit testing
+- Desktop Window Manager (DWM),hit testing
+- DWM (Desktop Window Manager),hit testing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Window Frame Using DWM
@@ -33,9 +53,9 @@ The ability to extend the window frame also enables you to create custom frames 
 
 ## Extending the Client Frame
 
-The functionality to extend the frame into the client area is exposed by the [**DwmExtendFrameIntoClientArea**](dwmextendframeintoclientarea.md) function. To extend the frame, pass the handle of the target window together with the margin inset values to **DwmExtendFrameIntoClientArea**. The margin inset values determine how far to extend the frame on the four sides of the window.
+The functionality to extend the frame into the client area is exposed by the [**DwmExtendFrameIntoClientArea**](/windows/win32/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea?branch=master) function. To extend the frame, pass the handle of the target window together with the margin inset values to **DwmExtendFrameIntoClientArea**. The margin inset values determine how far to extend the frame on the four sides of the window.
 
-The following code demonstrates the use of [**DwmExtendFrameIntoClientArea**](dwmextendframeintoclientarea.md) to extend the frame.
+The following code demonstrates the use of [**DwmExtendFrameIntoClientArea**](/windows/win32/Dwmapi/nf-dwmapi-dwmextendframeintoclientarea?branch=master) to extend the frame.
 
 
 ```
@@ -131,9 +151,9 @@ Because the entire window is your client area, you can simply draw what you want
 
 A side effect of removing the standard frame is the loss of the default resizing and moving behavior. For your application to properly emulate standard window behavior, you will need to implement logic to handle caption button hit testing and frame resizing/moving.
 
-For caption button hit testing, DWM provides the [**DwmDefWindowProc**](dwmdefwindowproc.md) function. To properly hit test the caption buttons in custom frame scenarios, messages should first be passed to **DwmDefWindowProc** for handling. **DwmDefWindowProc** returns **TRUE** if a message is handled and **FALSE** if it is not. If the message is not handled by **DwmDefWindowProc**, your application should handle the message itself or pass the message onto [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
+For caption button hit testing, DWM provides the [**DwmDefWindowProc**](/windows/win32/Dwmapi/nf-dwmapi-dwmdefwindowproc?branch=master) function. To properly hit test the caption buttons in custom frame scenarios, messages should first be passed to **DwmDefWindowProc** for handling. **DwmDefWindowProc** returns **TRUE** if a message is handled and **FALSE** if it is not. If the message is not handled by **DwmDefWindowProc**, your application should handle the message itself or pass the message onto [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572).
 
-For frame resizing and moving, your application must provide the hit testing logic and handle frame hit test messages. Frame hit test messages are sent to you through the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) message, even if your application creates a custom frame without the standard frame. The following code demonstrates handling the **WM\_NCHITTEST** message when [**DwmDefWindowProc**](dwmdefwindowproc.md) does not handle it. To see the code of the called `HitTestNCA` function, see [Appendix C: HitTestNCA Function](#appendix-c-hittestnca-function).
+For frame resizing and moving, your application must provide the hit testing logic and handle frame hit test messages. Frame hit test messages are sent to you through the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) message, even if your application creates a custom frame without the standard frame. The following code demonstrates handling the **WM\_NCHITTEST** message when [**DwmDefWindowProc**](/windows/win32/Dwmapi/nf-dwmapi-dwmdefwindowproc?branch=master) does not handle it. To see the code of the called `HitTestNCA` function, see [Appendix C: HitTestNCA Function](#appendix-c-hittestnca-function).
 
 
 ```
@@ -415,7 +435,7 @@ void PaintCustomCaption(HWND hWnd, HDC hdc)
 
 ## Appendix C: HitTestNCA Function
 
-The following code shows the `HitTestNCA` function used in [Enabling Hit Testing for the Custom Frame](#enabling-hit-testing-for-the-custom-frame). This function handles the hit testing logic for the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) when [**DwmDefWindowProc**](dwmdefwindowproc.md) does not handle the message.
+The following code shows the `HitTestNCA` function used in [Enabling Hit Testing for the Custom Frame](#enabling-hit-testing-for-the-custom-frame). This function handles the hit testing logic for the [**WM\_NCHITTEST**](https://msdn.microsoft.com/library/windows/desktop/ms645618) when [**DwmDefWindowProc**](/windows/win32/Dwmapi/nf-dwmapi-dwmdefwindowproc?branch=master) does not handle the message.
 
 
 ```

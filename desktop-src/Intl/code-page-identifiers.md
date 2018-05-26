@@ -1,7 +1,12 @@
 ---
-Description: 'The following table defines the available code page identifiers.'
-ms.assetid: '5d6fc86a-f205-4d14-bb7c-ecd71682e0fe'
+Description: The following table defines the available code page identifiers.
+ms.assetid: 5d6fc86a-f205-4d14-bb7c-ecd71682e0fe
 title: Code Page Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Code Page Identifiers

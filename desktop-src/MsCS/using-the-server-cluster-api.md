@@ -4,11 +4,17 @@ description: This section contains tasks that describe how to use the Failover C
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0dbc097d-a507-47e2-95cb-289cbf3ddf18'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0dbc097d-a507-47e2-95cb-289cbf3ddf18
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Failover Cluster APIs Failover Cluster ,using the Failover Cluster API", "Windows Clustering Failover Cluster ,Failover Cluster APIs,using the Failover Cluster API", "Failover Cluster API Failover Cluster ,using"]
+keywords:
+- Failover Cluster APIs Failover Cluster ,using the Failover Cluster API
+- Windows Clustering Failover Cluster ,Failover Cluster APIs,using the Failover Cluster API
+- Failover Cluster API Failover Cluster ,using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the Failover Cluster APIs

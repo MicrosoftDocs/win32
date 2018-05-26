@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMUIPROCS structure is obsolete.The OEMUIPROCS structure contains the address of the DrvGetDriverSetting and DrvUpdateUISetting functions that are exported by Microsoft printer drivers.'
-ms.assetid: '67dfb4bd-c43c-4da3-833d-34050d49dea3'
+---
+Description: The OEMUIPROCS structure is obsolete.The OEMUIPROCS structure contains the address of the DrvGetDriverSetting and DrvUpdateUISetting functions that are exported by Microsoft printer drivers.
+ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 title: OEMUIPROCS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMUIPROCS structure

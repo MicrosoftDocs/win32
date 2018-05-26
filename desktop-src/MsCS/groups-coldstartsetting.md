@@ -4,17 +4,21 @@ description: Specifies the cold start settings for a group cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '511DB0A7-B17F-40D2-B672-B027B57142A0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 511DB0A7-B17F-40D2-B672-B027B57142A0
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ColdStartSetting Failover Cluster"]
+keywords:
+- ColdStartSetting Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ColdStartSetting
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ColdStartSetting
@@ -27,18 +31,18 @@ Specifies the cold start settings for a group cluster.
 |----------------------|------------------------------------------------------|
 | Data type<br/> | **DWORD**                                            |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>   |
-| Structure<br/> | [**CLUSPROP\_DWORD**](clusprop-dword.md)<br/> |
+| Structure<br/> | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)<br/> |
 | Minimum<br/>   | **CLUS\_GROUP\_START\_ALWAYS** (0)<br/>        |
 | Maximum<br/>   | **CLUS\_GROUP\_START\_ALLOWED** (2)<br/>       |
 | Default<br/>   | **CLUS\_GROUP\_START\_ALWAYS** (0)<br/>        |
 
 
 
- 
+ 
 
 ## Remarks
 
-The data for the **ColdStartSetting** property can be set to one of the following values of the [**CLUS\_GROUP\_START\_SETTING**](clus-group-start-setting.md) enumeration.
+The data for the **ColdStartSetting** property can be set to one of the following values of the [**CLUS\_GROUP\_START\_SETTING**](/windows/previous-versions/ClusAPI/ne-clusapi-clus_group_start_setting?branch=master) enumeration.
 
 
 
@@ -50,7 +54,7 @@ The data for the **ColdStartSetting** property can be set to one of the followin
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,7 +63,7 @@ The data for the **ColdStartSetting** property can be set to one of the followin
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                            |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/> |
 
 
 
@@ -70,9 +74,9 @@ The data for the **ColdStartSetting** property can be set to one of the followin
 [Group Common Properties](group-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

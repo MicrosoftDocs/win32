@@ -1,7 +1,12 @@
 ---
 title: Windowless ActiveX Control Accessibility
 description: This section describes how to use the Windows Accessibility API to ensure that windowless Microsoft ActiveX controls are accessible.
-ms.assetid: '93CBCF20-DADF-4A63-BE60-F2A0D8810C62'
+ms.assetid: 93CBCF20-DADF-4A63-BE60-F2A0D8810C62
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windowless ActiveX Control Accessibility
@@ -21,9 +26,9 @@ The following table lists the interfaces that support windowless ActiveX control
 
 | Object              | MSAA                                                                             | UI automation                                                                                     |
 |---------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| Control object      | [**IAccessibleHandler**](iaccessiblehandler.md)                                 |                                                                                                   |
+| Control object      | [**IAccessibleHandler**](/windows/win32/oleacc/nn-oleacc-iaccessiblehandler?branch=master)                                 |                                                                                                   |
 | Control site        | [**IAccessibleWindowlessSite**](https://msdn.microsoft.com/library/windows/desktop/hh448752)        | [**IRawElementProviderWindowlessSite**](https://msdn.microsoft.com/library/windows/desktop/hh448787)         |
-| Root of host window | [**IAccessibleHostingElementProviders**](iaccessiblehostingelementproviders.md) | [**IRawElementProviderHostingAccessibles**](https://msdn.microsoft.com/library/windows/desktop/hh448785) |
+| Root of host window | [**IAccessibleHostingElementProviders**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessiblehostingelementproviders?branch=master) | [**IRawElementProviderHostingAccessibles**](https://msdn.microsoft.com/library/windows/desktop/hh448785) |
 
 
 

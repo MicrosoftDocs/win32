@@ -4,17 +4,21 @@ description: Name associated with this policy.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4B5A1CD4-C6CF-4585-B9E4-7DB2951036BC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4B5A1CD4-C6CF-4585-B9E4-7DB2951036BC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor policyName property"]
+keywords:
+- MSPolicyDescriptor policyName property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor policyName property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor policyName property
@@ -37,7 +41,7 @@ Name associated with this policy
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

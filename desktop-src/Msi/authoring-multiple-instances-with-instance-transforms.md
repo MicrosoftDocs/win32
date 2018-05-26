@@ -1,7 +1,12 @@
 ---
-Description: 'To install multiple instances of a product from one Windows Installer package, you need to author a base installation package for the product and an instance transform for each instance to be installed in addition to the base instance.'
-ms.assetid: 'fef49dda-503f-4b13-8763-70cb2ee0df5d'
+Description: To install multiple instances of a product from one Windows Installer package, you need to author a base installation package for the product and an instance transform for each instance to be installed in addition to the base instance.
+ms.assetid: fef49dda-503f-4b13-8763-70cb2ee0df5d
 title: Authoring Multiple Instances with Instance Transforms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring Multiple Instances with Instance Transforms

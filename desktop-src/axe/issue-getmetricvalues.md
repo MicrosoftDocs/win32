@@ -1,8 +1,11 @@
 ---
 title: Issue GetMetricValues method
 description: Returns the MetricValueCollection of the Issue.
-ms.assetid: 'BCF85EDB-2F76-4C39-B39B-18EEC1FE7D72'
-keywords: ["GetMetricValues method Access Execution Engine", "GetMetricValues method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetMetricValues method"]
+ms.assetid: BCF85EDB-2F76-4C39-B39B-18EEC1FE7D72
+keywords:
+- GetMetricValues method Access Execution Engine
+- GetMetricValues method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetMetricValues method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetMetricValues method
@@ -22,7 +30,7 @@ Returns the [**MetricValueCollection**](metricvaluecollection.md) of the **Issue
 
 ```C++
 virtual HRESULT GetMetricValues(
-  [out] MetricValueCollection **metricValues
+  [out] MetricValueCollection **metricValues
 ) = 0;
 ```
 
@@ -55,8 +63,8 @@ The **MetricValueCollection** holds data from element **Issue/MetricValues**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The **MetricValueCollection** holds data from element **Issue/MetricValues**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

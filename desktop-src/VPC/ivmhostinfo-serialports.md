@@ -1,8 +1,11 @@
 ---
 title: IVMHostInfo SerialPorts property
 description: Retrieves the serial port names associated with host serial ports.
-ms.assetid: 'ef3bc474-19c9-4d91-8aa0-7619c89fec2d'
-keywords: ["SerialPorts property Virtual PC", "SerialPorts property Virtual PC , IVMHostInfo interface", "IVMHostInfo interface Virtual PC , SerialPorts property"]
+ms.assetid: ef3bc474-19c9-4d91-8aa0-7619c89fec2d
+keywords:
+- SerialPorts property Virtual PC
+- SerialPorts property Virtual PC , IVMHostInfo interface
+- IVMHostInfo interface Virtual PC , SerialPorts property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::SerialPorts property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the serial port names associated with host serial ports.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_SerialPorts(
-  [out, retval] BSTR *serialPorts
+  [out, retval] BSTR *serialPorts
 );
 ```
 
@@ -55,9 +63,9 @@ A semicolon-delimited list of serial port names.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
@@ -71,9 +79,9 @@ A semicolon-delimited list of serial port names.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

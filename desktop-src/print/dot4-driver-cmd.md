@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes the DOT4\_DRIVER\_CMD structure.'
-ms.assetid: '7F099F7E-6E1F-499A-AF09-80B20429B892'
-title: 'DOT4\_DRIVER\_CMD structure'
+---
+Description: This topic describes the DOT4\_DRIVER\_CMD structure.
+ms.assetid: 7F099F7E-6E1F-499A-AF09-80B20429B892
+title: DOT4\_DRIVER\_CMD structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DOT4\_DRIVER\_CMD structure

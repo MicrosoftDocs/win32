@@ -1,7 +1,12 @@
 ---
-Description: 'An association between an instance of the Msvm\_EthernetSwitchPort class and an instance of the Msvm\_EthernetPortData class that represents data gathered about the port by a switch extension.'
-ms.assetid: '08677914-af09-47b7-9d4d-406696e1f504'
-title: 'Msvm\_EthernetPortInfo class'
+Description: An association between an instance of the Msvm\_EthernetSwitchPort class and an instance of the Msvm\_EthernetPortData class that represents data gathered about the port by a switch extension.
+ms.assetid: 08677914-af09-47b7-9d4d-406696e1f504
+title: Msvm\_EthernetPortInfo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetPortInfo class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_EthernetPortInfo : CIM_Dependency
 {
   Msvm_EthernetSwitchPort REF Antecedent;
-  Msvm_EthernetPortData   REF Dependent;
+  Msvm_EthernetPortData   REF Dependent;
 };
 ```
 
@@ -71,17 +76,17 @@ An instance of the [**Msvm\_EthernetPortData**](msvm-ethernetportdata.md) class 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

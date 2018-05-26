@@ -1,7 +1,12 @@
 ---
-Description: 'The property group separator used in property lists to separate descriptions from other types. Do not use this property for getting or setting values. This property is intended only as a marker.'
-ms.assetid: '992c5a47-67bd-412e-ad51-40ac77c7897e'
-title: 'System.PropGroup.Description'
+Description: The property group separator used in property lists to separate descriptions from other types. Do not use this property for getting or setting values. This property is intended only as a marker.
+ms.assetid: 992c5a47-67bd-412e-ad51-40ac77c7897e
+title: System.PropGroup.Description
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.PropGroup.Description

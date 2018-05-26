@@ -1,14 +1,21 @@
 ---
 title: storagesCollection object
 description: The storagesCollection object represents a collection of Storage objects.
-ms.assetid: 'bb418975-0473-401c-93fd-d0479e940431'
-keywords: ["storagesCollection object WPD Automation", "storagesCollection object WPD Automation , described"]
+ms.assetid: bb418975-0473-401c-93fd-d0479e940431
+keywords:
+- storagesCollection object WPD Automation
+- storagesCollection object WPD Automation , described
 topic_type:
 - apiref
 api_name:
 - storagesCollection
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # storagesCollection object
@@ -33,7 +40,7 @@ The **storagesCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,8 +73,8 @@ var aStorageByPUID = storages[somePUID];
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -87,9 +94,9 @@ var aStorageByPUID = storages[somePUID];
 [WPD Automation Reference](wpd-automation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

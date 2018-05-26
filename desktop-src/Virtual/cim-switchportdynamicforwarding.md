@@ -1,8 +1,10 @@
 ---
 title: CIM\_SwitchPortDynamicForwarding class
 description: Represents an association in which an entry of a forwarding database applies to a switch port.
-ms.assetid: 'acb7b0ce-98ba-404a-a9fd-664c82075acb'
-keywords: ["CIM_SwitchPortDynamicForwarding class Hyper-V", "CIM_SwitchPortDynamicForwarding class Hyper-V , described"]
+ms.assetid: acb7b0ce-98ba-404a-a9fd-664c82075acb
+keywords:
+- CIM_SwitchPortDynamicForwarding class Hyper-V
+- CIM_SwitchPortDynamicForwarding class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SwitchPortDynamicForwarding class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, Version("2.7.0"), AMENDMENT]
 class CIM_SwitchPortDynamicForwarding : CIM_Dependency
 {
-  CIM_SwitchPort             REF Antecedent;
+  CIM_SwitchPort             REF Antecedent;
   CIM_DynamicForwardingEntry REF Dependent;
 };
 ```
@@ -83,9 +90,9 @@ A reference to the entry of the forwarding database.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ A reference to the entry of the forwarding database.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

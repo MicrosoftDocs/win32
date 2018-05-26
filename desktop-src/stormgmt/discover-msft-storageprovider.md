@@ -1,8 +1,11 @@
 ---
 title: Discover method of the MSFT\_StorageProvider class
 description: Discovers the objects that are owned by the storage provider.
-ms.assetid: 'afafd4d5-c0c1-4461-814d-bf00de403b3f'
-keywords: ["Discover method Windows Storage Management API", "Discover method Windows Storage Management API , MSFT_StorageProvider class", "MSFT_StorageProvider class Windows Storage Management API , Discover method"]
+ms.assetid: afafd4d5-c0c1-4461-814d-bf00de403b3f
+keywords:
+- Discover method Windows Storage Management API
+- Discover method Windows Storage Management API , MSFT_StorageProvider class
+- MSFT_StorageProvider class Windows Storage Management API , Discover method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Discover method of the MSFT\_StorageProvider class
@@ -26,11 +34,11 @@ The scope of the discovery operation is controlled by the *DiscoveryLevel* and *
 
 ```mof
 UInt32 Discover(
-  [in]  UInt16                 DiscoveryLevel,
-  [in]  MSFT_StorageObject REF RootObject,
-  [in]  Boolean                RunAsJob,
-  [out] MSFT_StorageJob    REF CreatedStorageJob,
-  [out] String                 ExtendedStatus
+  [in]  UInt16                 DiscoveryLevel,
+  [in]  MSFT_StorageObject REF RootObject,
+  [in]  Boolean                RunAsJob,
+  [out] MSFT_StorageJob    REF CreatedStorageJob,
+  [out] String                 ExtendedStatus
 );
 ```
 
@@ -64,7 +72,7 @@ The level (or depth) of discovery that should be performed. This parameter can o
 <td>The storage provider, storage subsystem, and fileserver objects will be discovered.<br/>
 <blockquote>
 [!Note]<br />
-<strong>Starting in Windows 10:</strong> Discovery of fileserver objects has been added.
+<strong>Starting in Windows 10:</strong> Discovery of fileserver objects has been added.
 </blockquote>
 <br/></td>
 </tr>
@@ -73,7 +81,7 @@ The level (or depth) of discovery that should be performed. This parameter can o
 <td>Storage pools, file shares, resiliency settings, target ports, target portals, and initiator identifiers will be discovered.<br/>
 <blockquote>
 [!Note]<br />
-<strong>Starting in Windows 10:</strong> Discovery of file shares has been added.
+<strong>Starting in Windows 10:</strong> Discovery of file shares has been added.
 </blockquote>
 <br/></td>
 </tr>
@@ -82,7 +90,7 @@ The level (or depth) of discovery that should be performed. This parameter can o
 <td>Virtual disks, volumes, partitions, disks, and masking sets will be discovered.<br/>
 <blockquote>
 [!Note]<br />
-<strong>Starting in Windows 10:</strong> Discovery of volumes, partitions, and disks has been added.
+<strong>Starting in Windows 10:</strong> Discovery of volumes, partitions, and disks has been added.
 </blockquote>
 <br/></td>
 </tr>
@@ -95,7 +103,7 @@ The level (or depth) of discovery that should be performed. This parameter can o
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -119,7 +127,7 @@ If **TRUE**, this method uses the *CreatedStorageJob* parameter when the request
 > [!Note]  
 > Even if *RunAsJob* is **TRUE**, this method can still return a result if it has finished in sufficient time.
 
- 
+ 
 
 If **FALSE** or **NULL**, this method will follow default WMI asynchronous behavior as determined by the client's method for invocation. In other words, it is synchronous unless requested otherwise.
 
@@ -202,8 +210,8 @@ For better performance, storage subsystems that have the **iSCSITargetCreationSc
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -219,9 +227,9 @@ For better performance, storage subsystems that have the **iSCSITargetCreationSc
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

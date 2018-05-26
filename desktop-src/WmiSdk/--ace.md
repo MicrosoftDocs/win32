@@ -1,13 +1,16 @@
 ---
-Description: 'Represents an access control entry (ACE).'
+Description: Represents an access control entry (ACE).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '47daffd0-b9db-4367-b0b8-654a2da30fed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 47daffd0-b9db-4367-b0b8-654a2da30fed
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ACE class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ACE class
@@ -21,12 +24,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class  __ACE : __SecurityRelatedClass
 {
-            AceFlags;
-            AccessMask;
-            AceType;
-            GuidInheritedObjectType;
-            GuidObjectType;
-  uint64    TIME_CREATED;
+            AceFlags;
+            AccessMask;
+            AceType;
+            GuidInheritedObjectType;
+            GuidObjectType;
+  uint64    TIME_CREATED;
   __Trustee Trustee;
 };
 ```
@@ -144,8 +147,8 @@ This class provides the properties that are inherited by the [**Win32\_ACE**](ht
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -166,9 +169,9 @@ This class provides the properties that are inherited by the [**Win32\_ACE**](ht
 [Maintaining WMI Security](maintaining-wmi-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

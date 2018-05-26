@@ -1,8 +1,10 @@
 ---
 title: ID3DX11DataLoader interface
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Data loading object used by ID3DX11ThreadPump Interface for loading data asynchronously.
-ms.assetid: '878929ea-0228-4650-9ca0-f83d60d9f915'
-keywords: ["ID3DX11DataLoader interface Direct3D 11", "ID3DX11DataLoader interface Direct3D 11 , described"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Data loading object used by ID3DX11ThreadPump Interface for loading data asynchronously.
+ms.assetid: 878929ea-0228-4650-9ca0-f83d60d9f915
+keywords:
+- ID3DX11DataLoader interface Direct3D 11
+- ID3DX11DataLoader interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,14 +14,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11DataLoader interface
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Data loading object used by [**ID3DX11ThreadPump Interface**](id3dx11threadpump.md) for loading data asynchronously.
 
@@ -51,7 +58,7 @@ The **ID3DX11DataLoader** interface has these methods.
 <td style="text-align: left;">[<strong>Decompress</strong>](id3dx11dataloader-decompress.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Decompresses encoded data.<br/></td>
 </tr>
@@ -59,7 +66,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td style="text-align: left;">[<strong>Destroy</strong>](id3dx11dataloader-destroy.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Destroys the loader after a work item completes.<br/></td>
 </tr>
@@ -67,7 +74,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 <td style="text-align: left;">[<strong>Load</strong>](id3dx11dataloader-load.md)</td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 </blockquote>
 <br/> Loads data from a disk.<br/></td>
 </tr>
@@ -76,7 +83,7 @@ The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Window
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,8 +95,8 @@ This object can be inherited and its members redefined. Doing so would enable yo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>D3DX11core.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>D3DX11.lib</dt> </dl>   |
 
@@ -102,9 +109,9 @@ This object can be inherited and its members redefined. Doing so would enable yo
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

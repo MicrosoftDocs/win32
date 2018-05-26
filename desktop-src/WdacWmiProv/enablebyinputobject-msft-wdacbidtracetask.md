@@ -4,11 +4,14 @@ description: Enables Built-in Diagnostics Tracing (BidTrace) for troubleshooting
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fc76e5e5-d066-4627-8a62-ea85d6a5f743'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: fc76e5e5-d066-4627-8a62-ea85d6a5f743
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["EnableByInputObject method", "EnableByInputObject method, MSFT_WdacBidTraceTask class", "MSFT_WdacBidTraceTask class, EnableByInputObject method"]
+keywords:
+- EnableByInputObject method
+- EnableByInputObject method, MSFT_WdacBidTraceTask class
+- MSFT_WdacBidTraceTask class, EnableByInputObject method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WdacWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableByInputObject method of the MSFT\_WdacBidTraceTask class
@@ -28,9 +34,9 @@ Enables Built-in Diagnostics Tracing (BidTrace) for troubleshooting WDAC compone
 
 ```mof
 uint32 EnableByInputObject(
-  [in]  boolean           PassThru,
-  [in]  MSFT_WdacBidTrace InputObject[],
-  [out] MSFT_WdacBidTrace cmdletOutput[]
+  [in]  boolean           PassThru,
+  [in]  MSFT_WdacBidTrace InputObject[],
+  [out] MSFT_WdacBidTrace cmdletOutput[]
 );
 ```
 
@@ -67,8 +73,8 @@ The output is an array of CIM objects of type [**MSFT\_WdacBidTrace**](msft-wdac
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported client<br/> | Windows 8<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WDAC<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>WdacWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WdacWmiProv.dll</dt> </dl> |
@@ -85,9 +91,9 @@ The output is an array of CIM objects of type [**MSFT\_WdacBidTrace**](msft-wdac
 [**MSFT\_WdacBidTrace**](msft-wdacbidtrace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

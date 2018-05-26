@@ -1,8 +1,11 @@
 ---
 title: IOERulesManager GetRule method
-description: IOERulesManager GetRule is no longer available for use as of Windows Vista.
-ms.assetid: 'a493ec0c-2ff3-47c2-ad01-ae8cc280e827'
-keywords: ["GetRule method Windows Mail (formerly Outlook Express)", "GetRule method Windows Mail (formerly Outlook Express) , IOERulesManager interface", "IOERulesManager interface Windows Mail (formerly Outlook Express) , GetRule method"]
+description: IOERulesManager GetRule is no longer available for use as of Windows Vista.
+ms.assetid: a493ec0c-2ff3-47c2-ad01-ae8cc280e827
+keywords:
+- GetRule method Windows Mail (formerly Outlook Express)
+- GetRule method Windows Mail (formerly Outlook Express) , IOERulesManager interface
+- IOERulesManager interface Windows Mail (formerly Outlook Express) , GetRule method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msoe.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOERulesManager::GetRule method
 
-\[**IOERulesManager::GetRule** is no longer available for use as of Windows Vista.\]
+\[**IOERulesManager::GetRule** is no longer available for use as of Windows Vista.\]
 
 Gets the first rule of the specified type.
 
@@ -24,10 +32,10 @@ Gets the first rule of the specified type.
 
 ```C++
 HRESULT GetRule(
-  [in]  RULEID    ridRule,
-  [in]  RULE_TYPE type,
-  [in]  DWORD     dwFlags,
-  [out] IOERule   **ppIRule
+  [in]  RULEID    ridRule,
+  [in]  RULE_TYPE type,
+  [in]  DWORD     dwFlags,
+  [out] IOERule   **ppIRule
 );
 ```
 
@@ -59,7 +67,7 @@ Specifies one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -105,7 +113,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -113,19 +121,19 @@ Returns one of the following values.
 
 |                                     |                                                                                                            |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
-| End of client support<br/>    | Windows XP<br/>                                                                                      |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |
+| End of client support<br/>    | Windows XP<br/>                                                                                      |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                             |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                             |
 | IDL<br/>                      | <dl> <dt>Oerules.idl</dt> </dl>                     |
 | DLL<br/>                      | <dl> <dt>Msoe.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: External.authenticate method
 description: The authenticate method initiates an attempt to authenticate the user.
-ms.assetid: 'db4cd2c6-b735-40b1-af96-82a40bda9d97'
-keywords: ["authenticate method Windows Media Player", "authenticate method Windows Media Player , External class", "External class Windows Media Player , authenticate method"]
+ms.assetid: db4cd2c6-b735-40b1-af96-82a40bda9d97
+keywords:
+- authenticate method Windows Media Player
+- authenticate method Windows Media Player , External class
+- External class Windows Media Player , authenticate method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.authenticate method
@@ -49,9 +57,9 @@ Certain links on a discovery page have targets that should be displayed only aft
 
 1.  Script on a discovery page calls the *External*.**authenticate** method.
 2.  Windows Media Player displays a dialog box to obtain a user name and password.
-3.  Windows Media Player calls [IWMPContentPartner::Authenticate](iwmpcontentpartner-authenticate.md), which initiates the authentication attempt and returns immediately.
-4.  When the authentication attempt is complete, the online store's plug-in calls [IWMPContentPartnerCallback::Notify](iwmpcontentpartnercallback-notify.md), passing wmpcnAuthResult and a Boolean value that indicates whether the attempt was successful.
-5.  If the authentication attempt was successful, Windows Media Player calls [IWMPContentPartner::GetItemInfo](iwmpcontentpartner-getiteminfo.md), passing g\_szItemInfo\_AuthenticationSuccessURL, to obtain the URL of an authentication-success webpage. In this call, Windows Media Player passes the same index that the discovery page passed to the *External*.**authenticate** method.
+3.  Windows Media Player calls [IWMPContentPartner::Authenticate](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-authenticate?branch=master), which initiates the authentication attempt and returns immediately.
+4.  When the authentication attempt is complete, the online store's plug-in calls [IWMPContentPartnerCallback::Notify](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify?branch=master), passing wmpcnAuthResult and a Boolean value that indicates whether the attempt was successful.
+5.  If the authentication attempt was successful, Windows Media Player calls [IWMPContentPartner::GetItemInfo](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo?branch=master), passing g\_szItemInfo\_AuthenticationSuccessURL, to obtain the URL of an authentication-success webpage. In this call, Windows Media Player passes the same index that the discovery page passed to the *External*.**authenticate** method.
 6.  Windows Media Player displays the authentication-success webpage.
 
 ## Requirements
@@ -78,9 +86,9 @@ Certain links on a discovery page have targets that should be displayed only aft
 [**External.userLoggedIn**](external-userloggedin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

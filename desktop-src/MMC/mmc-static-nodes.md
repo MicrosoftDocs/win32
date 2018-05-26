@@ -4,11 +4,15 @@ description: A static node is a node in the MMC namespace that is present as lon
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '58c982b6-0a52-4b4c-bd06-6757772c720d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 58c982b6-0a52-4b4c-bd06-6757772c720d
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC static nodes"]
+keywords:
+- MMC static nodes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC Static Nodes

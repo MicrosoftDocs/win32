@@ -1,7 +1,12 @@
-﻿---
-Description: 'When a media source requests a new playback rate, this attribute specifies whether the source also requests thinning. For a definition of thinning, see About Rate Control.'
-ms.assetid: '42b6d0b3-e5af-4a48-969c-53628d1b7c31'
-title: 'MF\_EVENT\_DO\_THINNING attribute'
+---
+Description: When a media source requests a new playback rate, this attribute specifies whether the source also requests thinning. For a definition of thinning, see About Rate Control.
+ms.assetid: 42b6d0b3-e5af-4a48-969c-53628d1b7c31
+title: MF\_EVENT\_DO\_THINNING attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_EVENT\_DO\_THINNING attribute
@@ -44,10 +49,10 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Event Attributes](event-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> </dl>
 
  

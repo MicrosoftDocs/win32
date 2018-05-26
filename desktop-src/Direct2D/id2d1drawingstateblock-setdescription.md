@@ -1,14 +1,20 @@
 ---
 title: ID2D1DrawingStateBlock SetDescription methods
 description: Specifies the antialiasing mode, transform, and tags portion of the drawing state.
-ms.assetid: 'e967eb49-0cfd-4e8b-955c-83a6b3a1859b'
-keywords: ["SetDescription methods Direct2D"]
+ms.assetid: e967eb49-0cfd-4e8b-955c-83a6b3a1859b
+keywords:
+- SetDescription methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1DrawingStateBlock::SetDescription methods
@@ -21,8 +27,8 @@ Specifies the antialiasing mode, transform, and tags portion of the drawing stat
 
 | Method                                                                                                                                  | Description                                                                                    |
 |:----------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**SetDescription(D2D1\_DRAWING\_STATE\_DESCRIPTION\*)**](id2d1drawingstateblock-setdescription-ptr-d2d1-drawing-state-description.md) | Specifies the antialiasing mode, transform, and tags portion of the drawing state.<br/>  |
-| [**SetDescription(D2D1\_DRAWING\_STATE\_DESCRIPTION&)**](id2d1drawingstateblock-setdescription-ref-d2d1-drawing-state-description.md)  | Specifies the antialiasing mode, transform, and tags portion of the drawing state. <br/> |
+| [**SetDescription(D2D1\_DRAWING\_STATE\_DESCRIPTION\*)**](/windows/win32/d2d1/?branch=master) | Specifies the antialiasing mode, transform, and tags portion of the drawing state.<br/>  |
+| [**SetDescription(D2D1\_DRAWING\_STATE\_DESCRIPTION&)**](/windows/win32/d2d1/?branch=master)  | Specifies the antialiasing mode, transform, and tags portion of the drawing state. <br/> |
 
 
 
@@ -41,12 +47,12 @@ Specifies the antialiasing mode, transform, and tags portion of the drawing stat
 
 <dl> <dt>
 
-[**ID2D1DrawingStateBlock**](id2d1drawingstateblock.md)
+[**ID2D1DrawingStateBlock**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

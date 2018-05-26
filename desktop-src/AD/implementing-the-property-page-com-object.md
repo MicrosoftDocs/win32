@@ -4,11 +4,16 @@ description: A property sheet extension is a COM object implemented as an in-pro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '77a71086-1949-4828-801e-073ea5a6838b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 77a71086-1949-4828-801e-073ea5a6838b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Implementing the Property Page COM Object", "Property Page COM Object, Implementing"]
+keywords:
+- Implementing the Property Page COM Object
+- Property Page COM Object, Implementing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing the Property Page COM Object
@@ -28,9 +33,9 @@ A property sheet extension is a COM object implemented as an in-proc server. The
 
 After the property sheet extension COM object is instantiated, the [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) method is called. **IShellExtInit::Initialize** supplies the property sheet extension with an [**IDataObject**](_ole_idataobject) object that contains data that pertains to the directory object that the property sheet applies.
 
-The [**IDataObject**](_ole_idataobject) contains data in the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) format. The **CFSTR\_DSOBJECTNAMES** data format is an **HGLOBAL** that contains a [**DSOBJECTNAMES**](dsobjectnames.md) structure. The **DSOBJECTNAMES** structure contains directory object data that the property sheet extension applies.
+The [**IDataObject**](_ole_idataobject) contains data in the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) format. The **CFSTR\_DSOBJECTNAMES** data format is an **HGLOBAL** that contains a [**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master) structure. The **DSOBJECTNAMES** structure contains directory object data that the property sheet extension applies.
 
-The [**IDataObject**](_ole_idataobject) also contains data in the [**CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS**](cfstr-ds-display-spec-options.md) format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** data format is an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](dsdisplayspecoptions.md) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
+The [**IDataObject**](_ole_idataobject) also contains data in the [**CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS**](cfstr-ds-display-spec-options.md) format. The **CFSTR\_DS\_DISPLAY\_SPEC\_OPTIONS** data format is an **HGLOBAL** that contains a [**DSDISPLAYSPECOPTIONS**](/windows/win32/Dsclient/ns-dsclient-_dsdisplayspecoptions?branch=master) structure. The **DSDISPLAYSPECOPTIONS** contains configuration data for use by the extension.
 
 If any value other than **S\_OK** is returned from [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp), the property sheet is not displayed.
 
@@ -118,18 +123,18 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 
 Because the property sheet extension pages are displayed within a property sheet created by a component unknown to the extension, it is necessary to use a "manager" to handle the data transfer between the extension pages and the property sheet. This "manager" is called the notification object. The notification object operates as a moderator between the individual pages and the property sheet.
 
-When the property sheet extension object is initialized, the extension must create a notification object by calling [**ADsPropCreateNotifyObj**](adspropcreatenotifyobj.md), passing the [**IDataObject**](_ole_idataobject) obtained from [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) and the directory object name. It is not necessary to increment the reference count of the **IDataObject** interface, because the notification object created by **ADsPropCreateNotifyObj** function will do this. The notification object handle provided by **ADsPropCreateNotifyObj** should be saved for later use. **ADsPropCreateNotifyObj** can be either called during **IShellExtInit::Initialize** or [**IShellPropSheetExt::AddPages**](_win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp). When the property sheet extension is shut down, it must send a [**WM\_ADSPROP\_NOTIFY\_EXIT**](wm-adsprop-notify-exit.md) message to the notification object. This causes the notification object to destroy itself. This is best done when the [**PropSheetPageProc**](_win32_propsheetpageproc_cpp) function receives the **PSPCB\_RELEASE** notification.
+When the property sheet extension object is initialized, the extension must create a notification object by calling [**ADsPropCreateNotifyObj**](/windows/win32/Adsprop/nf-adsprop-adspropcreatenotifyobj?branch=master), passing the [**IDataObject**](_ole_idataobject) obtained from [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) and the directory object name. It is not necessary to increment the reference count of the **IDataObject** interface, because the notification object created by **ADsPropCreateNotifyObj** function will do this. The notification object handle provided by **ADsPropCreateNotifyObj** should be saved for later use. **ADsPropCreateNotifyObj** can be either called during **IShellExtInit::Initialize** or [**IShellPropSheetExt::AddPages**](_win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp). When the property sheet extension is shut down, it must send a [**WM\_ADSPROP\_NOTIFY\_EXIT**](wm-adsprop-notify-exit.md) message to the notification object. This causes the notification object to destroy itself. This is best done when the [**PropSheetPageProc**](_win32_propsheetpageproc_cpp) function receives the **PSPCB\_RELEASE** notification.
 
-The property sheet extension can obtain data in addition to that provided by the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) clipboard format by calling [**ADsPropGetInitInfo**](adspropgetinitinfo.md). One of the advantages of using **ADsPropGetInitInfo** is that it provides an [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) object used to programmatically work with the directory object.
+The property sheet extension can obtain data in addition to that provided by the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) clipboard format by calling [**ADsPropGetInitInfo**](/windows/win32/Adsprop/nf-adsprop-adspropgetinitinfo?branch=master). One of the advantages of using **ADsPropGetInitInfo** is that it provides an [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) object used to programmatically work with the directory object.
 
 > [!Note]  
-> Unlike most COM methods and functions, [**ADsPropGetInitInfo**](adspropgetinitinfo.md) does not increment the reference count for the [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) object. The **IDirectoryObject** must not be released unless the reference count is manually incremented first.
+> Unlike most COM methods and functions, [**ADsPropGetInitInfo**](/windows/win32/Adsprop/nf-adsprop-adspropgetinitinfo?branch=master) does not increment the reference count for the [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) object. The **IDirectoryObject** must not be released unless the reference count is manually incremented first.
 
  
 
-When the property page is first created, the extension should register the page with the notification object by calling [**ADsPropSetHwnd**](adspropsethwnd.md) with the window handle of the page.
+When the property page is first created, the extension should register the page with the notification object by calling [**ADsPropSetHwnd**](/windows/win32/Adsprop/nf-adsprop-adspropsethwnd?branch=master) with the window handle of the page.
 
-[**ADsPropCheckIfWritable**](adspropcheckifwritable.md) is a utility function that the property sheet extension can use to determine if a property can be written.
+[**ADsPropCheckIfWritable**](/windows/win32/Adsprop/nf-adsprop-adspropcheckifwritable?branch=master) is a utility function that the property sheet extension can use to determine if a property can be written.
 
 ## Miscellaneous
 
@@ -139,11 +144,11 @@ When the contents of the extension page changes, the extension should use the [*
 
 ## Multiple-Selection Property Sheets
 
-With Windows Server 2003 and later operating systems, the Active Directory administrative MMC snap-ins support property sheet extensions for multiple directory objects. These property sheets are displayed when the properties are viewed for more than one item at a time. The primary difference between a single-selection property sheet extension and a multiple-selection property sheet extension is that the [**DSOBJECTNAMES**](dsobjectnames.md) structure supplied by the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) clipboard format in [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) will contain more than one [**DSOBJECT**](dsobject.md) structure.
+With Windows Server 2003 and later operating systems, the Active Directory administrative MMC snap-ins support property sheet extensions for multiple directory objects. These property sheets are displayed when the properties are viewed for more than one item at a time. The primary difference between a single-selection property sheet extension and a multiple-selection property sheet extension is that the [**DSOBJECTNAMES**](/windows/win32/Dsclient/ns-dsclient-dsobjectnames?branch=master) structure supplied by the [**CFSTR\_DSOBJECTNAMES**](https://msdn.microsoft.com/library/aa814586) clipboard format in [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) will contain more than one [**DSOBJECT**](/windows/win32/Dsclient/ns-dsclient-dsobject?branch=master) structure.
 
-When the notification object is created, a multi-selection property sheet extension must pass a unique name that is provided by the snap-in rather than a name created by the extension. To obtain the unique name, request the [**CFSTR\_DS\_MULTISELECTPROPPAGE**](cfstr-ds-multiselectproppage.md) clipboard format from the [**IDataObject**](_ole_idataobject) obtained from [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp). This data is an **HGLOBAL** that contains a null-terminated Unicode string that is the unique name. This unique name is then passed to the [**ADsPropCreateNotifyObj**](adspropcreatenotifyobj.md) function to create the notification object. The **CreateADsNotificationObject** example function in [Example Code for Implementation of the Property Sheet COM Object](example-code-for-implementation-of-the-property-sheet-com-object.md) demonstrates how to do this correctly, as well as being compatible with earlier versions of the snap-in that do not support multi-selection property sheets.
+When the notification object is created, a multi-selection property sheet extension must pass a unique name that is provided by the snap-in rather than a name created by the extension. To obtain the unique name, request the [**CFSTR\_DS\_MULTISELECTPROPPAGE**](cfstr-ds-multiselectproppage.md) clipboard format from the [**IDataObject**](_ole_idataobject) obtained from [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp). This data is an **HGLOBAL** that contains a null-terminated Unicode string that is the unique name. This unique name is then passed to the [**ADsPropCreateNotifyObj**](/windows/win32/Adsprop/nf-adsprop-adspropcreatenotifyobj?branch=master) function to create the notification object. The **CreateADsNotificationObject** example function in [Example Code for Implementation of the Property Sheet COM Object](example-code-for-implementation-of-the-property-sheet-com-object.md) demonstrates how to do this correctly, as well as being compatible with earlier versions of the snap-in that do not support multi-selection property sheets.
 
-For multiple-selection property sheets, the system only binds to the first object in the [**DSOBJECT**](dsobject.md) array. Because of this, [**ADsPropGetInitInfo**](adspropgetinitinfo.md) only supplies the [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) and write-able attributes for the first object in the array. The other objects in the array are not bound to.
+For multiple-selection property sheets, the system only binds to the first object in the [**DSOBJECT**](/windows/win32/Dsclient/ns-dsclient-dsobject?branch=master) array. Because of this, [**ADsPropGetInitInfo**](/windows/win32/Adsprop/nf-adsprop-adspropgetinitinfo?branch=master) only supplies the [**IDirectoryObject**](https://msdn.microsoft.com/library/aa746355) and write-able attributes for the first object in the array. The other objects in the array are not bound to.
 
 A multiple-selection property sheet extension is registered under the [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215) attribute.
 
@@ -151,9 +156,9 @@ A multiple-selection property sheet extension is registered under the [**adminMu
 
 The following features are new with Windows Server 2003.
 
-If the property page encounters an error, [**ADsPropSendErrorMessage**](adspropsenderrormessage.md) can be called with the appropriate error data. **ADsPropSendErrorMessage** will store all error messages in a queue. These messages will be displayed the next time [**ADsPropShowErrorDialog**](adspropshowerrordialog.md) is called. When **ADsPropShowErrorDialog** returns, the queued messages are deleted.
+If the property page encounters an error, [**ADsPropSendErrorMessage**](/windows/win32/Adsprop/nf-adsprop-adspropsenderrormessage?branch=master) can be called with the appropriate error data. **ADsPropSendErrorMessage** will store all error messages in a queue. These messages will be displayed the next time [**ADsPropShowErrorDialog**](/windows/win32/Adsprop/nf-adsprop-adspropshowerrordialog?branch=master) is called. When **ADsPropShowErrorDialog** returns, the queued messages are deleted.
 
-Windows Server 2003 introduces the [**ADsPropSetHwndWithTitle**](adspropsethwndwithtitle.md) function. This function is similar to [**ADsPropSetHwnd**](adspropsethwnd.md), but includes the page title. This enables the error dialog box displayed by [**ADsPropShowErrorDialog**](adspropshowerrordialog.md) to provide more useful data to the user. If the property sheet extension uses the **ADsPropShowErrorDialog** function, the extension should use **ADsPropSetHwndWithTitle** rather than **ADsPropSetHwnd**.
+Windows Server 2003 introduces the [**ADsPropSetHwndWithTitle**](/windows/win32/Adsprop/nf-adsprop-adspropsethwndwithtitle?branch=master) function. This function is similar to [**ADsPropSetHwnd**](/windows/win32/Adsprop/nf-adsprop-adspropsethwnd?branch=master), but includes the page title. This enables the error dialog box displayed by [**ADsPropShowErrorDialog**](/windows/win32/Adsprop/nf-adsprop-adspropshowerrordialog?branch=master) to provide more useful data to the user. If the property sheet extension uses the **ADsPropShowErrorDialog** function, the extension should use **ADsPropSetHwndWithTitle** rather than **ADsPropSetHwnd**.
 
 ## Related topics
 

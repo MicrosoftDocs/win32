@@ -1,15 +1,18 @@
 ---
-Description: 'Retrieves unassigned IP subnets from IPAM.'
+Description: Retrieves unassigned IP subnets from IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1B893A84-6C50-4C61-8F10-F0A60E94E6B6'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1B893A84-6C50-4C61-8F10-F0A60E94E6B6
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'FindIpamFreeSubnet method of the MSFT\_IPAM\_Subnet class'
+title: FindIpamFreeSubnet method of the MSFT\_IPAM\_Subnet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FindIpamFreeSubnet method of the MSFT\_IPAM\_Subnet class
@@ -21,10 +24,10 @@ Retrieves unassigned IP subnets from IPAM.
 
 ```mof
 uint32 FindIpamFreeSubnet(
-  [in]  MSFT_IPAM_Block      Block,
-  [in]  uint32               SubnetPrefix,
-  [in]  uint32               NumberOfSubnets,
-  [out] MSFT_IPAM_FreeSubnet FreeIPSubnets[]
+  [in]  MSFT_IPAM_Block      Block,
+  [in]  uint32               SubnetPrefix,
+  [in]  uint32               NumberOfSubnets,
+  [out] MSFT_IPAM_FreeSubnet FreeIPSubnets[]
 );
 ```
 
@@ -73,7 +76,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -87,9 +90,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Subnet**](msft-ipam-subnet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Implementation of roles for protecting documents.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.Roles'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.Roles
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Roles class"]
+keywords:
+- Roles class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Roles class
@@ -53,7 +57,7 @@ The **Roles** class has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,9 +80,9 @@ The **Roles** class has these properties.
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

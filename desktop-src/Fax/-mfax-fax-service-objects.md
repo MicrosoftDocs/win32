@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service extended Component Object Model (COM) implementation includes the following objects.'
-ms.assetid: '260b4d56-c4d5-4812-9b39-e5b4b4581d3e'
+Description: The fax service extended Component Object Model (COM) implementation includes the following objects.
+ms.assetid: 260b4d56-c4d5-4812-9b39-e5b4b4581d3e
 title: Fax Service Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Service Objects

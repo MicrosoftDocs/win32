@@ -1,7 +1,12 @@
 ---
 title: Using Pager Controls
 description: This section provides example code and information about how to create and use pager controls.
-ms.assetid: '5FC02831-24D8-44EB-803B-63D5680CBB26'
+ms.assetid: 5FC02831-24D8-44EB-803B-63D5680CBB26
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Pager Controls
@@ -18,11 +23,11 @@ This section provides example code and information about how to create and use p
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

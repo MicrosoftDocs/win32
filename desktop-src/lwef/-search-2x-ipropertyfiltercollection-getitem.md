@@ -1,8 +1,11 @@
 ---
 title: IPropertyFilterCollection GetITem property
 description: Returns a specific filter within the collection.
-ms.assetid: '72a35d98-b2d8-4dfb-84a7-365a3778fc85'
-keywords: ["GetITem property Legacy Windows Environment Features", "GetITem property Legacy Windows Environment Features , IPropertyFilterCollection interface", "IPropertyFilterCollection interface Legacy Windows Environment Features , GetITem property"]
+ms.assetid: 72a35d98-b2d8-4dfb-84a7-365a3778fc85
+keywords:
+- GetITem property Legacy Windows Environment Features
+- GetITem property Legacy Windows Environment Features , IPropertyFilterCollection interface
+- IPropertyFilterCollection interface Legacy Windows Environment Features , GetITem property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyFilterCollection::GetITem property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GetITem(
-  [in]          long            index
+  [in]          long            index
 );
 
 HRESULT get_GetITem(
-  [out, retval] IPropertyFilter **filter
+  [out, retval] IPropertyFilter **filter
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the address of the filter.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

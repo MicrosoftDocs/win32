@@ -1,7 +1,12 @@
 ---
-Description: 'List of interfaces that are available for this service.'
-ms.assetid: '9f8268e8-4144-4dcc-adef-82c6dea2e10e'
-title: 'System.Devices.AepService.IoT.ServiceInterfaces'
+Description: List of interfaces that are available for this service.
+ms.assetid: 9f8268e8-4144-4dcc-adef-82c6dea2e10e
+title: System.Devices.AepService.IoT.ServiceInterfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.IoT.ServiceInterfaces

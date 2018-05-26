@@ -1,7 +1,12 @@
 ---
-Description: 'Sets whether to use software dynamic format change for internal resizing.'
-ms.assetid: '09C8FB13-D08E-480A-AD77-B281553E3CAF'
-title: 'CODECAPI\_AVDecSoftwareDynamicFormatChange property'
+Description: Sets whether to use software dynamic format change for internal resizing.
+ms.assetid: 09C8FB13-D08E-480A-AD77-B281553E3CAF
+title: CODECAPI\_AVDecSoftwareDynamicFormatChange property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVDecSoftwareDynamicFormatChange property
@@ -26,8 +31,8 @@ If set to **TRUE**, software dynamic format change is used for internal resizing
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -39,9 +44,9 @@ If set to **TRUE**, software dynamic format change is used for internal resizing
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

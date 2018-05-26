@@ -1,7 +1,12 @@
 ---
-Description: 'The NotifyStartDraw method is not supported.'
-ms.assetid: '4f09ad65-5dc2-484b-8f15-af8e17b04b92'
-title: 'CDrawImage.NotifyStartDraw method'
+Description: The NotifyStartDraw method is not supported.
+ms.assetid: 4f09ad65-5dc2-484b-8f15-af8e17b04b92
+title: CDrawImage.NotifyStartDraw method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.NotifyStartDraw method
@@ -47,9 +52,9 @@ In earlier versions of the base-class library, this method supported performance
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: WaveActiveCountBits function
 description: Counts the number of boolean variables which evaluate to true across all active lanes in the current wave, and replicates the result to all lanes in the wave.
-ms.assetid: '053E100C-7E09-4F9D-9F38-9D5E208A38CE'
-keywords: ["WaveAllBitAnd function HLSL"]
+ms.assetid: 053E100C-7E09-4F9D-9F38-9D5E208A38CE
+keywords:
+- WaveAllBitAnd function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveAllBitAnd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveActiveCountBits function

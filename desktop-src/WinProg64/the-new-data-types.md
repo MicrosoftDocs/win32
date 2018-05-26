@@ -1,8 +1,15 @@
 ---
 title: The New Data Types
 description: Three classes of data types were introduced for 64-bit Windows fixed-precision data types, pointer-precision types, and specific-pointer-precision types.
-ms.assetid: '016977d4-e7bf-463e-9755-7ef13f16e9e5'
-keywords: ["64-bit Windows programming guide 64-bit Windows Programming , data types", "data types 64-bit Windows Programming"]
+ms.assetid: 016977d4-e7bf-463e-9755-7ef13f16e9e5
+keywords:
+- 64-bit Windows programming guide 64-bit Windows Programming , data types
+- data types 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The New Data Types
@@ -34,7 +41,7 @@ Fixed-precision data types are the same length in both 32- and 64-bit Windows. T
 
 
 
- 
+ 
 
 ## Pointer Precision
 
@@ -56,7 +63,7 @@ As the pointer precision changes (that is, as it becomes 32 bits on 32-bit Windo
 
 
 
- 
+ 
 
 ## Specific Pointer-Precision Types
 
@@ -71,11 +78,11 @@ The following new pointer types explicitly size the pointer. Be cautious when us
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

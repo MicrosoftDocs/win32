@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '1bb9a0b7-b62c-403b-923d-59869ef2bf1c'
-title: 'System.Message.ConversationIndex'
+Description: .
+ms.assetid: 1bb9a0b7-b62c-403b-923d-59869ef2bf1c
+title: System.Message.ConversationIndex
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.ConversationIndex

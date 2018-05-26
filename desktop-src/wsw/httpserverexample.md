@@ -1,8 +1,16 @@
 ---
 title: HttpServerExample
 description: This example shows a TCP server that accepts a channel and receives and replies to messages.
-ms.assetid: 'b8cf29af-f13f-47ae-9954-7845515135f9'
-keywords: ["HttpServerExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: b8cf29af-f13f-47ae-9954-7845515135f9
+keywords:
+- HttpServerExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpServerExample

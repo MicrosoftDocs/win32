@@ -1,7 +1,12 @@
 ---
-Description: 'Used by the Mesh template to define a mesh''s faces. Each element of the nFaceVertexIndices array references a mesh vertex used to build the face.'
-ms.assetid: '38c40ebe-eca2-4dd9-95b8-b396225e3050'
+Description: Used by the Mesh template to define a meshs faces. Each element of the nFaceVertexIndices array references a mesh vertex used to build the face.
+ms.assetid: 38c40ebe-eca2-4dd9-95b8-b396225e3050
 title: MeshFace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MeshFace

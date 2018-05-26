@@ -4,17 +4,22 @@ description: The description of the SQL Server database.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '30daa51a-078f-44ae-8c67-19c26a8a2e85'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 30daa51a-078f-44ae-8c67-19c26a8a2e85
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-SQL-Description attribute AD Schema", "mS-SQL-Description attribute AD Schema"]
+keywords:
+- MS-SQL-Description attribute AD Schema
+- mS-SQL-Description attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-SQL-Description
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-SQL-Description attribute
@@ -38,12 +43,12 @@ The description of the SQL Server database.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The description of the SQL Server database.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

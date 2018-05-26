@@ -1,7 +1,12 @@
-﻿---
-Description: 'Use this function to retrieve information about trace providers that are registered on the computer.'
-ms.assetid: '9d70fe21-1750-4d60-a825-2004f7d666c7'
+---
+Description: Use this function to retrieve information about trace providers that are registered on the computer.
+ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7
 title: EnumerateTraceGuidsEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnumerateTraceGuidsEx function
@@ -93,7 +98,7 @@ Event trace controllers call this function.
 
 If *TraceQueryInfoClass* is **TraceGuidQueryInfo**, ETW returns the data in a [**TRACE\_GUID\_INFO**](trace-guid-info.md) block that is a header to the information. The info block contains a [**TRACE\_PROVIDER\_INSTANCE\_INFO**](trace-provider-instance-info.md) block for each provider that uses the same GUID. Each instance info block contains a [**TRACE\_ENABLE\_INFO**](trace-enable-info.md) structure for each session that enabled the provider.
 
-For information on registering event trace providers, see [**EventRegister**](eventregister-func.md) and [**RegisterTraceGuids**](registertraceguids.md).
+For information on registering event trace providers, see [**EventRegister**](/windows/win32/Evntprov/nf-evntprov-eventregister?branch=master) and [**RegisterTraceGuids**](registertraceguids.md).
 
 ## Examples
 

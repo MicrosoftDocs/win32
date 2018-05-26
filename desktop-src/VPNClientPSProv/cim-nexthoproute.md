@@ -1,12 +1,14 @@
 ---
 title: CIM\_NextHopRoute class
-description: NextHopRoute represents one of a series of \\'hops\\' to reach a network destination.
+description: NextHopRoute represents one of a series of \\hops\\ to reach a network destination.
 audience: developer
-ms.assetid: 'c1d8e36d-4279-4fcc-90c6-58f91eb96abe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c1d8e36d-4279-4fcc-90c6-58f91eb96abe
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_NextHopRoute class", "CIM_NextHopRoute class, described"]
+keywords:
+- CIM_NextHopRoute class
+- CIM_NextHopRoute class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_NextHopRoute class
@@ -38,15 +43,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::Routes"), Version("2.19.0"), AMENDMENT]
 class CIM_NextHopRoute : CIM_ManagedElement
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  DestinationAddress;
-  uint16  AdminDistance;
-  uint16  RouteMetric;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  DestinationAddress;
+  uint16  AdminDistance;
+  uint16  RouteMetric;
   boolean IsStatic;
-  uint16  TypeOfRoute = 3;
+  uint16  TypeOfRoute = 3;
 };
 ```
 
@@ -230,8 +235,8 @@ An enumerated integer indicating whether the route is administrator-defined (val
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -245,9 +250,9 @@ An enumerated integer indicating whether the route is administrator-defined (val
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

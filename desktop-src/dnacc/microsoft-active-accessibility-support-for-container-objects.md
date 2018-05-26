@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '737d574d-ffbe-483c-a659-21e7091d9f59'
+ms.assetid: 737d574d-ffbe-483c-a659-21e7091d9f59
 title: Microsoft Active Accessibility Support for Container Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Active Accessibility Support for Container Objects

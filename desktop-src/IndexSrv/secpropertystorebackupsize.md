@@ -1,15 +1,20 @@
 ---
 title: SecPropertyStoreBackupSize
 description: SecPropertyStoreBackupSize
-ms.assetid: 'a5438f45-e141-4f42-8d49-098396511279'
+ms.assetid: a5438f45-e141-4f42-8d49-098396511279
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SecPropertyStoreBackupSize
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The **SecPropertyStoreBackupSize** entry determines the number of system pages held in memory to back up the secondary property cache.
 
@@ -26,7 +31,7 @@ The **SecPropertyStoreBackupSize** entry determines the number of system pages h
 
 
 
- 
+ 
 
 ### Remarks
 
@@ -45,9 +50,9 @@ For more details, see the [**PropertyStoreBackupSize**](propertystorebackupsize.
 [**PropertyStoreBackupSize**](propertystorebackupsize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

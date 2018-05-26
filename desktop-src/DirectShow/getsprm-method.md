@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSPRM method retrieves the specified system parameter register.'
-ms.assetid: 'c6177f43-2809-4ef2-bc94-ac9a28f94621'
+Description: The GetSPRM method retrieves the specified system parameter register.
+ms.assetid: c6177f43-2809-4ef2-bc94-ac9a28f94621
 title: GetSPRM Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSPRM Method
@@ -34,7 +39,7 @@ Returns an integer value representing the contents of the specified register.
 
 ## Remarks
 
-The disc controls system parameter registers (SPRMs). A player application doesn't need to access these registers for any standard navigation functionality. SPRMs represent the status of the player. Each one has a meaning, set by user preferences, disc commands, and other occurrences that an application has no direct control over. An application can read these registers but cannot write to them. To use these registers effectively, you will probably need a more detailed knowledge of the DVD navigation commands than is provided in this documentation. The following table shows the contents of each register. For more detailed information on the register contents, see [**IDvdInfo2::GetAllSPRMs**](idvdinfo2-getallsprms.md)
+The disc controls system parameter registers (SPRMs). A player application doesn't need to access these registers for any standard navigation functionality. SPRMs represent the status of the player. Each one has a meaning, set by user preferences, disc commands, and other occurrences that an application has no direct control over. An application can read these registers but cannot write to them. To use these registers effectively, you will probably need a more detailed knowledge of the DVD navigation commands than is provided in this documentation. The following table shows the contents of each register. For more detailed information on the register contents, see [**IDvdInfo2::GetAllSPRMs**](/windows/win32/Strmif/nf-strmif-idvdinfo2-getallsprms?branch=master)
 
 
 

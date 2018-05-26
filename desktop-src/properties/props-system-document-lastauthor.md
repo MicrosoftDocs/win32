@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a040a5cc-17eb-4a43-aeee-3e7ebbeac034'
-title: 'System.Document.LastAuthor'
+Description: .
+ms.assetid: a040a5cc-17eb-4a43-aeee-3e7ebbeac034
+title: System.Document.LastAuthor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Document.LastAuthor

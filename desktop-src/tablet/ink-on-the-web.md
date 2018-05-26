@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Vista Software Development Kit and Windows XP Tablet PC Edition Development Kit allow you to create ink-enabled web applications for Tablet PC users who must access remote applications.'
-ms.assetid: '4ba1ab4b-57d2-40da-a7c7-2402f8845ff5'
+Description: The Windows Vista Software Development Kit and Windows XP Tablet PC Edition Development Kit allow you to create ink-enabled web applications for Tablet PC users who must access remote applications.
+ms.assetid: 4ba1ab4b-57d2-40da-a7c7-2402f8845ff5
 title: Ink on the Web
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ink on the Web

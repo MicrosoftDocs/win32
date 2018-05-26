@@ -4,17 +4,21 @@ description: Gets the time a user policy can be cached offline.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '463297E2-FE67-4CF9-A016-D5544D45A2C6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 463297E2-FE67-4CF9-A016-D5544D45A2C6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["PolicyDescriptor.getOfflineCacheLifetimeInDays method"]
+keywords:
+- PolicyDescriptor.getOfflineCacheLifetimeInDays method
 topic_type:
 - apiref
 api_name:
 - PolicyDescriptor.getOfflineCacheLifetimeInDays method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PolicyDescriptor.getOfflineCacheLifetimeInDays method
@@ -45,11 +49,11 @@ PolicyDescriptor.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

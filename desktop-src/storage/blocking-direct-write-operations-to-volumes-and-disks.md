@@ -1,7 +1,12 @@
 ---
 title: Blocking Direct Write Operations to Volumes and Disks
 description: Blocking Direct Write Operations to Volumes and Disks
-ms.assetid: '155d6bd5-9082-4f0c-bfb0-c17e45d4faf6'
+ms.assetid: 155d6bd5-9082-4f0c-bfb0-c17e45d4faf6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Blocking Direct Write Operations to Volumes and Disks

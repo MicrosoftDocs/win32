@@ -1,8 +1,14 @@
 ---
 title: The type\_UserMarshal Function
 description: The type \_UserMarshal function is a helper function for the \ wire\_marshal\ and \ user\_marshal\ attributes.
-ms.assetid: '3cbd78d1-a036-4d0d-bb1d-4c968acfdb36'
-keywords: ["type_UserMarshal"]
+ms.assetid: 3cbd78d1-a036-4d0d-bb1d-4c968acfdb36
+keywords:
+- type_UserMarshal
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The type\_UserMarshal Function

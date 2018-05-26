@@ -1,7 +1,12 @@
 ---
-Description: 'The following structures enable software developers to use the functionality provided by the Wireless Zero Configuration module.'
-ms.assetid: 'd9b8042e-5e06-43d1-9738-34d31f36f6db'
+Description: The following structures enable software developers to use the functionality provided by the Wireless Zero Configuration module.
+ms.assetid: d9b8042e-5e06-43d1-9738-34d31f36f6db
 title: Wireless Zero Configuration Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wireless Zero Configuration Structures

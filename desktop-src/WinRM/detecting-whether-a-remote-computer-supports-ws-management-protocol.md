@@ -4,15 +4,18 @@ description: You can use the Session.Identify or IWSManSession.Identify methods 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4d11ac02-fa8b-45d7-bceb-a18f561bc928'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 4d11ac02-fa8b-45d7-bceb-a18f561bc928
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Detecting Whether a Remote Computer Supports WS-Management Protocol
 
-You can use the [**Session.Identify**](session-identify.md) or [**IWSManSession.Identify**](iwsmansession-identify.md) methods to determine if the remote computer has a service that supports the WS-Management protocol.
+You can use the [**Session.Identify**](session-identify.md) or [**IWSManSession.Identify**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmansession-identify?branch=master) methods to determine if the remote computer has a service that supports the WS-Management protocol.
 
 If a WS-Management protocol service is configured on the remote computer and is listening for requests, the service can detect an Identify request by the following XML in the header.
 

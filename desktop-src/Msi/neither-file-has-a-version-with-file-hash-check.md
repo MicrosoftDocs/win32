@@ -1,12 +1,17 @@
 ---
-Description: 'File hashing is available with Windows Installer. For more information, see MsiGetFileHash and the MsiFileHash table. The MsiFileHash table can only be used with unversioned files.'
-ms.assetid: '608859ac-6640-4c28-b4f0-34ab36d804d7'
+Description: File hashing is available with Windows Installer. For more information, see MsiGetFileHash and the MsiFileHash table. The MsiFileHash table can only be used with unversioned files.
+ms.assetid: 608859ac-6640-4c28-b4f0-34ab36d804d7
 title: Neither File Has a Version with File Hash Check
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Neither File Has a Version with File Hash Check
 
-File hashing is available with Windows Installer. For more information, see [**MsiGetFileHash**](msigetfilehash.md) and the [MsiFileHash table](msifilehash-table.md). The MsiFileHash table can only be used with unversioned files.
+File hashing is available with Windows Installer. For more information, see [**MsiGetFileHash**](/windows/win32/Msi/nf-msi-msigetfilehasha?branch=master) and the [MsiFileHash table](msifilehash-table.md). The MsiFileHash table can only be used with unversioned files.
 
 If the key file of a component being installed (copy-A) has the same name as a file already installed in the target location (copy-B), the installer compares the version number, date, and language of the two files.
 

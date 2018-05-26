@@ -1,7 +1,12 @@
 ---
-Description: 'Critical section that protects the filter state. For more information, see Data Flow for Filter Developers.'
-ms.assetid: '75b9c8b0-e911-41fd-8d07-b854dbe25551'
-title: 'CTransformFilter::m\_csFilter member'
+Description: Critical section that protects the filter state. For more information, see Data Flow for Filter Developers.
+ms.assetid: 75b9c8b0-e911-41fd-8d07-b854dbe25551
+title: CTransformFilterm\_csFilter member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter::m\_csFilter member
@@ -35,9 +40,9 @@ CCritSec m_csFilter;
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

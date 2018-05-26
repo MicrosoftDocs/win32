@@ -1,7 +1,12 @@
 ---
-Description: 'Puts an item onto the queue.'
-ms.assetid: '8ac41d80-e7d5-4b3f-9f09-c3d39c94c490'
-title: 'CQueue.PutQueueObject method'
+Description: Puts an item onto the queue.
+ms.assetid: 8ac41d80-e7d5-4b3f-9f09-c3d39c94c490
+title: CQueue.PutQueueObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CQueue.PutQueueObject method
@@ -13,7 +18,7 @@ Puts an item onto the queue.
 
 ```C++
 void PutQueueObject(
-   T object
+   T object
 );
 ```
 
@@ -56,9 +61,9 @@ This method blocks until there is space in the queue for the item.
 [**CQueue Class**](cqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

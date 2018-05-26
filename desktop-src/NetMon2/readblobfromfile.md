@@ -1,7 +1,12 @@
 ---
-Description: 'The ReadBlobFromFile function reads a BLOB in a file.'
-ms.assetid: 'c3d4a892-160b-48e9-8881-0ada3ebd49b0'
+Description: The ReadBlobFromFile function reads a BLOB in a file.
+ms.assetid: c3d4a892-160b-48e9-8881-0ada3ebd49b0
 title: ReadBlobFromFile function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReadBlobFromFile function
@@ -13,8 +18,8 @@ The **ReadBlobFromFile** function reads a BLOB in a file.
 
 ```C++
 DWORD ReadBlobFromFile(
-  _In_       HBLOB hBlob,
-  _In_ const char  *pFileName
+  _In_       HBLOB hBlob,
+  _In_ const char  *pFileName
 );
 ```
 
@@ -50,17 +55,17 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

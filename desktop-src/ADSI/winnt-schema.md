@@ -4,11 +4,15 @@ description: The WinNT schema defines the set of ADSI objects and their class hi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cf96c95e-a43e-43c1-8fcd-387ecbe07dcc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: cf96c95e-a43e-43c1-8fcd-387ecbe07dcc
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["WinNT service provider ADSI ,schema"]
+keywords:
+- WinNT service provider ADSI ,schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WinNT Schema

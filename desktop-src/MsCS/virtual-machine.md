@@ -4,16 +4,22 @@ description: The Virtual Machine resource type is used to control the state of a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9f1dcda8-f34b-4801-a35a-970c04ddd6b8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 9f1dcda8-f34b-4801-a35a-970c04ddd6b8
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Virtual Machine", "Virtual Machine resource type Failover Cluster", "Virtual Machine resource type Failover Cluster ,resources"]
+keywords:
+- resource types Failover Cluster ,Virtual Machine
+- Virtual Machine resource type Failover Cluster
+- Virtual Machine resource type Failover Cluster ,resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Virtual Machine
 
-The Virtual Machine [resource type](resource-types.md) is used to control the state of a virtual machine (VM). The following table shows the mapping between the state of the VM (indicated by the **EnabledState** property of the [**Msvm\_ComputerSystem**](https://msdn.microsoft.com/library/cc136822) instance representing the VM) and the state of the Virtual Machine resource (indicated by the **State** property of the [**MSCluster\_Resource**](https://msdn.microsoft.com/library/aa371464) class or the return of [**GetClusterResourceState**](getclusterresourcestate.md) function).
+The Virtual Machine [resource type](resource-types.md) is used to control the state of a virtual machine (VM). The following table shows the mapping between the state of the VM (indicated by the **EnabledState** property of the [**Msvm\_ComputerSystem**](https://msdn.microsoft.com/library/cc136822) instance representing the VM) and the state of the Virtual Machine resource (indicated by the **State** property of the [**MSCluster\_Resource**](https://msdn.microsoft.com/library/aa371464) class or the return of [**GetClusterResourceState**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_resource_state?branch=master) function).
 
 
 
@@ -69,7 +75,7 @@ The Virtual Machine [resource type](resource-types.md) is used to control the st
 
 
 
- 
+ 
 
 The following table summarizes the characteristics of the Virtual Machine resource type.
 
@@ -83,11 +89,11 @@ The following table summarizes the characteristics of the Virtual Machine resour
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

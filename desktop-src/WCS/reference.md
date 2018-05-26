@@ -1,8 +1,20 @@
 ---
 title: Reference
 description: Reference
-ms.assetid: 'fa40bf5a-6d07-43e7-b882-24e2244462fc'
-keywords: ["Windows Color System (WCS),reference", "WCS (Windows Color System),reference", "image color management,reference", "color management,reference", "colors,reference", "WCS reference,about", "reference for WCS,about"]
+ms.assetid: fa40bf5a-6d07-43e7-b882-24e2244462fc
+keywords:
+- Windows Color System (WCS),reference
+- WCS (Windows Color System),reference
+- image color management,reference
+- color management,reference
+- colors,reference
+- WCS reference,about
+- reference for WCS,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reference

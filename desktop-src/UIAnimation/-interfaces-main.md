@@ -1,7 +1,12 @@
 ---
 title: Interfaces
 description: Reference documentation for interfaces defined by the Windows Animation Manager.
-ms.assetid: 'b54e319c-e140-4fd9-8045-5eb6f4a31326'
+ms.assetid: b54e319c-e140-4fd9-8045-5eb6f4a31326
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces
@@ -21,7 +26,7 @@ Reference documentation for interfaces defined by the Windows Animation Manager.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ Reference documentation for interfaces defined by the Windows Animation Manager.
 [Windows Animation Reference](windows-animation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

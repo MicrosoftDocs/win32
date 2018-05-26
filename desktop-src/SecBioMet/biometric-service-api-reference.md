@@ -1,8 +1,14 @@
 ---
 title: Windows Biometric Framework API Reference
 description: Detailed descriptions of functions, structures, and capabilities that can be used to create a client applications and plug-ins.
-ms.assetid: 'e495f3a5-64f5-4181-bf3a-c0c2bbe09016'
-keywords: ["Windows Biometric Framework API Windows Biometric Framework API , reference"]
+ms.assetid: e495f3a5-64f5-4181-bf3a-c0c2bbe09016
+keywords:
+- Windows Biometric Framework API Windows Biometric Framework API , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Biometric Framework API Reference
@@ -20,7 +26,7 @@ Windows Biometric Framework API reference pages contain detailed descriptions of
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +35,9 @@ Windows Biometric Framework API reference pages contain detailed descriptions of
 [Windows Biometric Framework API](biometric-service-api-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IDWriteFactory2 CreateCustomRenderingParams method
 description: Creates a rendering parameters object with the specified properties.
-ms.assetid: '947d50fd-888c-2f0b-25c2-b19b0e6fad58'
-keywords: ["CreateCustomRenderingParams method Direct Write", "CreateCustomRenderingParams method Direct Write , IDWriteFactory2 interface", "IDWriteFactory2 interface Direct Write , CreateCustomRenderingParams method"]
+ms.assetid: 947d50fd-888c-2f0b-25c2-b19b0e6fad58
+keywords:
+- CreateCustomRenderingParams method Direct Write
+- CreateCustomRenderingParams method Direct Write , IDWriteFactory2 interface
+- IDWriteFactory2 interface Direct Write , CreateCustomRenderingParams method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteFactory2::CreateCustomRenderingParams method
@@ -22,14 +30,14 @@ Creates a rendering parameters object with the specified properties.
 
 ```C++
 virtual HRESULT CreateCustomRenderingParams(
-        FLOAT                   gamma,
-        FLOAT                   enhancedContrast,
-        FLOAT                   grayscaleEnhancedContrast,
-        FLOAT                   clearTypeLevel,
-        DWRITE_PIXEL_GEOMETRY   pixelGeometry,
-        DWRITE_RENDERING_MODE   renderingMode,
-        DWRITE_GRID_FIT_MODE    gridFitMode,
-  [out] IDWriteRenderingParams2 **renderingParams
+        FLOAT                   gamma,
+        FLOAT                   enhancedContrast,
+        FLOAT                   grayscaleEnhancedContrast,
+        FLOAT                   clearTypeLevel,
+        DWRITE_PIXEL_GEOMETRY   pixelGeometry,
+        DWRITE_RENDERING_MODE   renderingMode,
+        DWRITE_GRID_FIT_MODE    gridFitMode,
+  [out] IDWriteRenderingParams2 **renderingParams
 ) = 0;
 ```
 
@@ -78,7 +86,7 @@ The degree of ClearType level, from 0.0f (no ClearType) to 1.0f (full ClearType)
 *pixelGeometry* 
 </dt> <dd>
 
-Type: **[**DWRITE\_PIXEL\_GEOMETRY**](dwrite-pixel-geometry.md)**
+Type: **[**DWRITE\_PIXEL\_GEOMETRY**](/windows/win32/dwrite/ne-dwrite-dwrite_pixel_geometry?branch=master)**
 
 The geometry of a device pixel.
 
@@ -87,7 +95,7 @@ The geometry of a device pixel.
 *renderingMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_RENDERING\_MODE**](dwrite-rendering-mode.md)**
+Type: **[**DWRITE\_RENDERING\_MODE**](/windows/win32/dwrite/ne-dwrite-dwrite_rendering_mode?branch=master)**
 
 Method of rendering glyphs. In most cases, this should be DWRITE\_RENDERING\_MODE\_DEFAULT to automatically use an appropriate mode.
 
@@ -96,7 +104,7 @@ Method of rendering glyphs. In most cases, this should be DWRITE\_RENDERING\_MOD
 *gridFitMode* 
 </dt> <dd>
 
-Type: **[**DWRITE\_GRID\_FIT\_MODE**](dwrite-grid-fit-mode.md)**
+Type: **[**DWRITE\_GRID\_FIT\_MODE**](/windows/win32/dwrite_2/ne-dwrite_2-dwrite_grid_fit_mode?branch=master)**
 
 How to grid fit glyph outlines. In most cases, this should be DWRITE\_GRID\_FIT\_DEFAULT to automatically choose an appropriate mode.
 
@@ -105,7 +113,7 @@ How to grid fit glyph outlines. In most cases, this should be DWRITE\_GRID\_FIT\
 *renderingParams* \[out\]
 </dt> <dd>
 
-Type: **[**IDWriteRenderingParams2**](idwriterenderingparams2.md)\*\***
+Type: **[**IDWriteRenderingParams2**](/windows/win32/dwrite_2/?branch=master)\*\***
 
 Holds the newly created rendering parameters object, or NULL in case of failure.
 
@@ -123,9 +131,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | Library<br/>                  | <dl> <dt>Dwrite.lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
@@ -138,9 +146,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteFactory2**](idwritefactory2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

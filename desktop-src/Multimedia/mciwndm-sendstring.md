@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_SENDSTRING message
 description: The MCIWNDM\_SENDSTRING message sends an MCI command in string form to the device associated with the MCIWnd window. You can send this message explicitly or by using the MCIWndSendString macro.
-ms.assetid: '0e999a0e-588d-4f06-a1bc-fd3f245d8980'
-keywords: ["MCIWNDM_SENDSTRING message Windows Multimedia"]
+ms.assetid: 0e999a0e-588d-4f06-a1bc-fd3f245d8980
+keywords:
+- MCIWNDM_SENDSTRING message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_SENDSTRING message
 
-The **MCIWNDM\_SENDSTRING** message sends an MCI command in string form to the device associated with the MCIWnd window. You can send this message explicitly or by using the [**MCIWndSendString**](mciwndsendstring.md) macro.
+The **MCIWNDM\_SENDSTRING** message sends an MCI command in string form to the device associated with the MCIWnd window. You can send this message explicitly or by using the [**MCIWndSendString**](/windows/win32/Vfw/nf-vfw-mciwndsendstring?branch=master) macro.
 
 
 ```C++
@@ -53,8 +59,8 @@ To get the return string, which contains the result of the command, send the [**
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -63,15 +69,15 @@ To get the return string, which contains the result of the command, send the [**
 
 <dl> <dt>
 
-[**MCIWndSendString**](mciwndsendstring.md)
+[**MCIWndSendString**](/windows/win32/Vfw/nf-vfw-mciwndsendstring?branch=master)
 </dt> <dt>
 
 [Multimedia Command Strings](multimedia-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

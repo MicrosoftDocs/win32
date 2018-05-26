@@ -1,7 +1,12 @@
 ---
-Description: 'Each Windows Installer Feature uses one or more Windows Installer Components, and features may share components.'
-ms.assetid: '7ab4b359-e729-4ca5-8ef3-fa8e988be6da'
-title: 'Specifying Feature-Component Relationships'
+Description: Each Windows Installer Feature uses one or more Windows Installer Components, and features may share components.
+ms.assetid: 7ab4b359-e729-4ca5-8ef3-fa8e988be6da
+title: Specifying Feature-Component Relationships
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specifying Feature-Component Relationships

@@ -1,7 +1,12 @@
 ---
-Description: 'The OnConnect method provides an IUnknown pointer to the object associated with the property page.'
-ms.assetid: '74cae8e1-5347-4e3d-ba5f-6a4efec2ddae'
-title: 'CBasePropertyPage.OnConnect method'
+Description: The OnConnect method provides an IUnknown pointer to the object associated with the property page.
+ms.assetid: 74cae8e1-5347-4e3d-ba5f-6a4efec2ddae
+title: CBasePropertyPage.OnConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.OnConnect method
@@ -13,7 +18,7 @@ The `OnConnect` method provides an **IUnknown** pointer to the object associated
 
 ```C++
 virtual HRESULT OnConnect(
-   IUnknown *pUnknown
+   IUnknown *pUnknown
 );
 ```
 
@@ -75,9 +80,9 @@ HRESULT CMyProp::OnConnect(IUnknown *pUnk)
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

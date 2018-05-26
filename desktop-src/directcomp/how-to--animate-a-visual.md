@@ -1,8 +1,16 @@
 ---
 title: How to apply animations
 description: This topic demonstrates how to animate the properties of a visual by using Microsoft DirectComposition.
-ms.assetid: '932A3BCD-C290-47AE-80FB-94EE3E34837F'
-keywords: ["animating a DirectComposition visual", "how to apply DirectComposition animations", "applying DirectComposition animations"]
+ms.assetid: 932A3BCD-C290-47AE-80FB-94EE3E34837F
+keywords:
+- animating a DirectComposition visual
+- how to apply DirectComposition animations
+- applying DirectComposition animations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to apply animations
@@ -34,7 +42,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create an animation object
 
-Use the [**CreateAnimation**](idcompositiondevice-createanimation.md) method to create an animation object.
+Use the [**CreateAnimation**](/windows/win32/Dcomp/?branch=master) method to create an animation object.
 
 
 ```C++
@@ -70,7 +78,7 @@ hr = m_pDevice->CreateAnimation(&amp;m_pFadeInAnimation);
 
 ### Step 3: Define the animation function
 
-Use the methods of the [**IDCompositionAnimation**](idcompositionanimation.md) object to define the animation function. The following code defines a simple animation function. When applied to an object property, the animation function incrementally changes the property value from 0 to 1 over the course of 2 seconds.
+Use the methods of the [**IDCompositionAnimation**](/windows/win32/DcompAnimation/nn-dcompanimation-idcompositionanimation?branch=master) object to define the animation function. The following code defines a simple animation function. When applied to an object property, the animation function incrementally changes the property value from 0 to 1 over the course of 2 seconds.
 
 
 ```C++
@@ -150,7 +158,7 @@ IDCompositionEffectGroup *m_pEffectGroup;
 
 ### Step 5: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) method to commit the visual to DirectComposition for rendering to the target window. As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) method to commit the visual to DirectComposition for rendering to the target window. As the visual is rendered, the animation causes the visual's opacity to change from transparent to fully opaque over a period of two seconds.
 
 
 ```C++

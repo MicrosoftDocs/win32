@@ -1,8 +1,9 @@
 ---
 title: External.selectedItemID
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '150aaa38-d4fe-493e-bda1-e5b0a27fccf7'
-keywords: ["External.selectedItemID Windows Media Player"]
+ms.assetid: 150aaa38-d4fe-493e-bda1-e5b0a27fccf7
+keywords:
+- External.selectedItemID Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.selectedItemID
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **selectedItemID** property retrieves the identifier of the media item that is currently selected in Windows Media Player.
 
@@ -62,9 +68,9 @@ Certain views in Windows Media Player have a particular media item that is selec
 [**Location and Selected Item**](location-and-selected-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

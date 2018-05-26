@@ -1,12 +1,17 @@
-﻿---
-Description: 'Specifies the type, NALU or SEI, of a unit attached to an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.'
-ms.assetid: '640CD70D-4424-407F-B801-6796199D260B'
-title: 'MFSampleExtension\_ForwardedDecodeUnitType attribute'
+---
+Description: Specifies the type, NALU or SEI, of a unit attached to an IMFSample in a MFSampleExtension\_ForwardedDecodeUnits collection.
+ms.assetid: 640CD70D-4424-407F-B801-6796199D260B
+title: MFSampleExtension\_ForwardedDecodeUnitType attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_ForwardedDecodeUnitType attribute
 
-Specifies the type, NALU or SEI, of a unit attached to an [**IMFSample**](imfsample.md) in a [MFSampleExtension\_ForwardedDecodeUnits](mfsampleextension-forwardeddecodeunits.md) collection.
+Specifies the type, NALU or SEI, of a unit attached to an [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) in a [MFSampleExtension\_ForwardedDecodeUnits](mfsampleextension-forwardeddecodeunits.md) collection.
 
 ## Data type
 

@@ -1,8 +1,9 @@
 ---
 title: NM\_CHAR (toolbar) notification code
 description: Sent by a toolbar when it receives a WM\_CHAR message. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '7bf0b046-da8e-448f-94e1-62ba0989f7ba'
-keywords: ["NM_CHAR (toolbar) notification code Windows Controls"]
+ms.assetid: 7bf0b046-da8e-448f-94e1-62ba0989f7ba
+keywords:
+- NM_CHAR (toolbar) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_CHAR (toolbar) notification code
@@ -33,7 +39,7 @@ NM_CHAR
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMCHAR**](nmchar.md) structure that contains additional information about the character that caused the notification code. The **dwItemPrev** member of this structure contains the command identifier of the item that is currently hot or -1 if no item is currently hot. The **dwItemNext** member of this structure contains the command identifier of the item that will become hot or -1 if the key does not match any item's accelerator.
+Pointer to an [**NMCHAR**](/windows/win32/Commctrl/ns-commctrl-tagnmchar?branch=master) structure that contains additional information about the character that caused the notification code. The **dwItemPrev** member of this structure contains the command identifier of the item that is currently hot or -1 if no item is currently hot. The **dwItemNext** member of this structure contains the command identifier of the item that will become hot or -1 if the key does not match any item's accelerator.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Returns **TRUE** to indicate that the toolbar should not process the character a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

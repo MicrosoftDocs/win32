@@ -1,8 +1,10 @@
 ---
 title: HTTPMAILBCOPYMOVELIST structure
 description: Contains a list of HTTPMAILBCOPYMOVE structures.
-ms.assetid: '2ba931e8-4a29-42d6-8e36-9d1f0d9f6721'
-keywords: ["HTTPMAILBCOPYMOVELIST structure Windows Mail (formerly Outlook Express)", "LPHTTPMAILBCOPYMOVELIST structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 2ba931e8-4a29-42d6-8e36-9d1f0d9f6721
+keywords:
+- HTTPMAILBCOPYMOVELIST structure Windows Mail (formerly Outlook Express)
+- LPHTTPMAILBCOPYMOVELIST structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMAILBCOPYMOVELIST structure
@@ -24,7 +31,7 @@ Contains a list of [**HTTPMAILBCOPYMOVE**](oe-httpmailbcopymove.md) structures.
 
 ```C++
 typedef struct tagHTTPMAILBCOPYMOVELIST {
-  ULONG               cBCopyMove;
+  ULONG               cBCopyMove;
   LPHTTPMAILBCOPYMOVE prgBCopyMove;
 } HTTPMAILBCOPYMOVELIST, *LPHTTPMAILBCOPYMOVELIST;
 ```
@@ -63,17 +70,17 @@ Contains a pointer to an array of [**HTTPMAILBCOPYMOVE**](oe-httpmailbcopymove.m
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

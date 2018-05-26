@@ -4,11 +4,17 @@ description: This topic shows how to register an extension DLL that contains an 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e2d6142b-c2fe-4435-b4af-83f7cd45218b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e2d6142b-c2fe-4435-b4af-83f7cd45218b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Registering the Property Page COM Object in a Display Specifier Active Directory", "property page COM object Active Directory , registering in a display specifier", "display specifiers Active Directory , registering the property page COM object in"]
+keywords:
+- Registering the Property Page COM Object in a Display Specifier Active Directory
+- property page COM object Active Directory , registering in a display specifier
+- display specifiers Active Directory , registering the property page COM object in
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering the Property Page COM Object in a Display Specifier
@@ -63,7 +69,7 @@ The "&lt;order number&gt;" is an unsigned number that represents the page positi
 
 The "&lt;clsid&gt;" is the string representation of the CLSID as produced by the [**StringFromCLSID**](_com_stringfromclsid) function.
 
-The "&lt;optional data&gt;" is a string value that is not required. This value can be retrieved by the property page COM object using the [**IDataObject**](_ole_idataobject) pointer passed to its [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) method. The property page COM object obtains this data by calling [**IDataObject::GetData**](_ole_idataobject_getdata) with the [**CFSTR\_DSPROPERTYPAGEINFO**](cfstr-dspropertypageinfo.md) clipboard format. This provides an **HGLOBAL** that contains a [**DSPROPERTYPAGEINFO**](dspropertypageinfo.md) structure The **DSPROPERTYPAGEINFO** structure contains a Unicode string that contains the "&lt;optional data&gt;". The "&lt;optional data&gt;" is not allowed with the [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215) attribute. The following C/C++ code example shows how to retrieve the "&lt;optional data&gt;".
+The "&lt;optional data&gt;" is a string value that is not required. This value can be retrieved by the property page COM object using the [**IDataObject**](_ole_idataobject) pointer passed to its [**IShellExtInit::Initialize**](_win32_ishellextinit_win32_ishellextinit_initialize_cpp) method. The property page COM object obtains this data by calling [**IDataObject::GetData**](_ole_idataobject_getdata) with the [**CFSTR\_DSPROPERTYPAGEINFO**](cfstr-dspropertypageinfo.md) clipboard format. This provides an **HGLOBAL** that contains a [**DSPROPERTYPAGEINFO**](/windows/win32/Dsclient/ns-dsclient-dspropertypageinfo?branch=master) structure The **DSPROPERTYPAGEINFO** structure contains a Unicode string that contains the "&lt;optional data&gt;". The "&lt;optional data&gt;" is not allowed with the [**adminMultiselectPropertyPages**](https://msdn.microsoft.com/library/ms675215) attribute. The following C/C++ code example shows how to retrieve the "&lt;optional data&gt;".
 
 
 ```C++

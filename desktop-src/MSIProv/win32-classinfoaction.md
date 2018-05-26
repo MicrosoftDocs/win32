@@ -1,8 +1,10 @@
 ---
 title: Win32\_ClassInfoAction class
 description: The Win32\_ClassInfoAction WMI class manages the registration of COM class information with the system.
-ms.assetid: '04286e6b-6b0f-4737-99bc-929232788f89'
-keywords: ["Win32_ClassInfoAction class", "Win32_ClassInfoAction class, described"]
+ms.assetid: 04286e6b-6b0f-4737-99bc-929232788f89
+keywords:
+- Win32_ClassInfoAction class
+- Win32_ClassInfoAction class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ClassInfoAction class
@@ -39,7 +46,7 @@ The **Win32\_ClassInfoAction** [WMI class](https://msdn.microsoft.com/library/aa
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -90,7 +97,7 @@ The **Win32\_ClassInfoAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -205,7 +212,7 @@ Default in-process handler. May be optionally provided only when the **Context**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -242,7 +249,7 @@ Whether a particular [**CIM\_Action**](https://msdn.microsoft.com/library/aa3865
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -279,7 +286,7 @@ Object is insertable.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -357,7 +364,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -437,7 +444,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -477,8 +484,8 @@ The **Win32\_ClassInfoAction** class is derived from [**CIM\_Action**](https://m
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -492,9 +499,9 @@ The **Win32\_ClassInfoAction** class is derived from [**CIM\_Action**](https://m
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

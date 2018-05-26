@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSyncSource method notifies the base class of the current reference clock.'
-ms.assetid: '056385ac-682c-456e-9a5f-86490bd6e05f'
-title: 'CBaseStreamControl.SetSyncSource method'
+Description: The SetSyncSource method notifies the base class of the current reference clock.
+ms.assetid: 056385ac-682c-456e-9a5f-86490bd6e05f
+title: CBaseStreamControl.SetSyncSource method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseStreamControl.SetSyncSource method
@@ -13,7 +18,7 @@ The `SetSyncSource` method notifies the base class of the current reference cloc
 
 ```C++
 void SetSyncSource(
-   IReferenceClock *pRefClock
+   IReferenceClock *pRefClock
 );
 ```
 
@@ -26,7 +31,7 @@ void SetSyncSource(
 *pRefClock* 
 </dt> <dd>
 
-Pointer to the [**IReferenceClock**](ireferenceclock.md) interface of the reference clock.
+Pointer to the [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master) interface of the reference clock.
 
 </dd> </dl>
 
@@ -36,7 +41,7 @@ This method does not return a value.
 
 ## Remarks
 
-Call this method from inside the filter's [**IMediaFilter::SetSyncSource**](imediafilter-setsyncsource.md) method. The **CBaseStreamControl** class uses the **IReferenceClock** interface to ensure that it does not discard samples too quickly.
+Call this method from inside the filter's [**IMediaFilter::SetSyncSource**](/windows/win32/Strmif/nf-strmif-imediafilter-setsyncsource?branch=master) method. The **CBaseStreamControl** class uses the **IReferenceClock** interface to ensure that it does not discard samples too quickly.
 
 ## Examples
 
@@ -71,9 +76,9 @@ STDMETHODIMP CMyFilter::SetSyncSource(IReferenceClock *pClock)
 [**CBaseStreamControl Class**](cbasestreamcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

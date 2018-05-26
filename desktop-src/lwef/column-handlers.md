@@ -1,8 +1,17 @@
 ---
 title: Creating Column Handlers
 description: The Details view in the Windows Windows Explorer normally displays several standard columns.
-ms.assetid: '805e0e13-d09e-40f8-955b-c585f388e07e'
-keywords: ["column handlers", "register,column handlers", "GetColumnInfo", "GetItemData"]
+ms.assetid: 805e0e13-d09e-40f8-955b-c585f388e07e
+keywords:
+- column handlers
+- register,column handlers
+- GetColumnInfo
+- GetItemData
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Column Handlers

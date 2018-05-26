@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetSmartRecompressFormat method specifies a video compression format to use for smart recompression.'
-ms.assetid: '80c02215-6da2-4b3e-ab0d-004e49480fb9'
-title: 'IAMTimelineGroup::SetSmartRecompressFormat method'
+---
+Description: The SetSmartRecompressFormat method specifies a video compression format to use for smart recompression.
+ms.assetid: 80c02215-6da2-4b3e-ab0d-004e49480fb9
+title: IAMTimelineGroupSetSmartRecompressFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineGroup::SetSmartRecompressFormat method

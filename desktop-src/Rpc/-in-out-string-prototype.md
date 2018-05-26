@@ -1,7 +1,12 @@
 ---
-title: \ in, out, string\ Prototype
+title: '\ in, out, string\ Prototype'
 description: The following function prototype uses a single \ in, out, string\ parameter for both the input and output strings.
-ms.assetid: '5a652b79-11ca-4780-aac1-60a22f96b4af'
+ms.assetid: 5a652b79-11ca-4780-aac1-60a22f96b4af
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \[in, out, string\] Prototype

@@ -1,14 +1,20 @@
 ---
 title: WM/WMADRCPeakReference
 description: The WM/WMADRCPeakReference attribute contains the maximum volume level of the file as encoded. This value is used by Windows Media Player for dynamic range control. This value is set by the codec and is read-only.
-ms.assetid: 'c732ee88-437b-4970-8f17-61aed2d91022'
-keywords: ["WM/WMADRCPeakReference windows Media Format"]
+ms.assetid: c732ee88-437b-4970-8f17-61aed2d91022
+keywords:
+- WM/WMADRCPeakReference windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/WMADRCPeakReference
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/WMADRCPeakReference

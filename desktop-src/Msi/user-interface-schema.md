@@ -1,7 +1,12 @@
 ---
-Description: 'This diagram shows the relationship of Windows Installer tables in the user interface group.'
-ms.assetid: '5226ba77-4551-45e7-bf62-a9918e21db14'
+Description: This diagram shows the relationship of Windows Installer tables in the user interface group.
+ms.assetid: 5226ba77-4551-45e7-bf62-a9918e21db14
 title: User Interface Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface Schema

@@ -1,19 +1,25 @@
 ---
 title: ID2D1Factory CreateDrawingStateBlock methods
 description: Creates an ID2D1DrawingStateBlock that can be used with the SaveDrawingState and RestoreDrawingState methods of a render target.
-ms.assetid: 'c2b5875f-9f14-4752-a426-2745fdaa543a'
-keywords: ["CreateDrawingStateBlock methods Direct2D"]
+ms.assetid: c2b5875f-9f14-4752-a426-2745fdaa543a
+keywords:
+- CreateDrawingStateBlock methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Factory::CreateDrawingStateBlock methods
 
-Creates an [**ID2D1DrawingStateBlock**](id2d1drawingstateblock.md) that can be used with the [**SaveDrawingState**](id2d1rendertarget-savedrawingstate.md) and [**RestoreDrawingState**](id2d1rendertarget-restoredrawingstate.md) methods of a render target.
+Creates an [**ID2D1DrawingStateBlock**](/windows/win32/d2d1/?branch=master) that can be used with the [**SaveDrawingState**](/windows/win32/d2d1/?branch=master) and [**RestoreDrawingState**](/windows/win32/d2d1/?branch=master) methods of a render target.
 
 ### Overload list
 
@@ -21,9 +27,9 @@ Creates an [**ID2D1DrawingStateBlock**](id2d1drawingstateblock.md) that can be u
 
 | Method                                                                                                                                                                                                                                                        | Description                                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION\*,IDWriteRenderingParams\*,ID2D1DrawingStateBlock\*\*)**](id2d1factory-createdrawingstateblock-ptr-d2d1-drawing-state-description-ptr-idwriterenderingparams-ptr-ptr-id2d1drawingstateblock.md) | Creates an [**ID2D1DrawingStateBlock**](id2d1drawingstateblock.md) that can be used with the [**SaveDrawingState**](id2d1rendertarget-savedrawingstate.md) and [**RestoreDrawingState**](id2d1rendertarget-restoredrawingstate.md) methods of a render target.<br/>  |
-| [**CreateDrawingStateBlock(ID2D1DrawingStateBlock\*\*)**](id2d1factory-createdrawingstateblock-ptr-ptr-id2d1drawingstateblock.md)                                                                                                                            | Creates an [**ID2D1DrawingStateBlock**](id2d1drawingstateblock.md) that can be used with the [**SaveDrawingState**](id2d1rendertarget-savedrawingstate.md) and [**RestoreDrawingState**](id2d1rendertarget-restoredrawingstate.md) methods of a render target. <br/> |
-| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION&,ID2D1DrawingStateBlock\*\*)**](id2d1factory-createdrawingstateblock-ref-d2d1-drawing-state-description-ptr-ptr-id2d1drawingstateblock.md)                                                      | Creates an [**ID2D1DrawingStateBlock**](id2d1drawingstateblock.md) that can be used with the [**SaveDrawingState**](id2d1rendertarget-savedrawingstate.md) and [**RestoreDrawingState**](id2d1rendertarget-restoredrawingstate.md) methods of a render target.<br/>  |
+| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION\*,IDWriteRenderingParams\*,ID2D1DrawingStateBlock\*\*)**](/windows/win32/d2d1/?branch=master) | Creates an [**ID2D1DrawingStateBlock**](/windows/win32/d2d1/?branch=master) that can be used with the [**SaveDrawingState**](/windows/win32/d2d1/?branch=master) and [**RestoreDrawingState**](/windows/win32/d2d1/?branch=master) methods of a render target.<br/>  |
+| [**CreateDrawingStateBlock(ID2D1DrawingStateBlock\*\*)**](/windows/win32/d2d1/?branch=master)                                                                                                                            | Creates an [**ID2D1DrawingStateBlock**](/windows/win32/d2d1/?branch=master) that can be used with the [**SaveDrawingState**](/windows/win32/d2d1/?branch=master) and [**RestoreDrawingState**](/windows/win32/d2d1/?branch=master) methods of a render target. <br/> |
+| [**CreateDrawingStateBlock(D2D1\_DRAWING\_STATE\_DESCRIPTION&,ID2D1DrawingStateBlock\*\*)**](/windows/win32/d2d1/?branch=master)                                                      | Creates an [**ID2D1DrawingStateBlock**](/windows/win32/d2d1/?branch=master) that can be used with the [**SaveDrawingState**](/windows/win32/d2d1/?branch=master) and [**RestoreDrawingState**](/windows/win32/d2d1/?branch=master) methods of a render target.<br/>  |
 
 
 
@@ -42,12 +48,12 @@ Creates an [**ID2D1DrawingStateBlock**](id2d1drawingstateblock.md) that can be u
 
 <dl> <dt>
 
-[**ID2D1Factory**](id2d1factory.md)
+[**ID2D1Factory**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

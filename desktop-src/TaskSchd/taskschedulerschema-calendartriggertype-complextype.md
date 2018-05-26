@@ -1,14 +1,20 @@
 ---
 title: calendarTriggerType Complex Type
 description: Defines the child elements and sequencing information for calendar elements.
-ms.assetid: 'bf0d964e-aff2-4807-b086-c504f8963663'
-keywords: ["calendarTriggerType complex type Task Scheduler"]
+ms.assetid: bf0d964e-aff2-4807-b086-c504f8963663
+keywords:
+- calendarTriggerType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - calendarTriggerType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # calendarTriggerType Complex Type
@@ -71,8 +77,8 @@ In addition to the child element defined here, the [**CalendarTrigger**](tasksch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -86,9 +92,9 @@ In addition to the child element defined here, the [**CalendarTrigger**](tasksch
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

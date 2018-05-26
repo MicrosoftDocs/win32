@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC CreateDynamicVirtualHardDisk method
 description: Creates a dynamically resizing virtual hard disk.
-ms.assetid: '2373ac41-c4c4-44c6-93e1-92814cd40b81'
-keywords: ["CreateDynamicVirtualHardDisk method Virtual PC", "CreateDynamicVirtualHardDisk method Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , CreateDynamicVirtualHardDisk method"]
+ms.assetid: 2373ac41-c4c4-44c6-93e1-92814cd40b81
+keywords:
+- CreateDynamicVirtualHardDisk method Virtual PC
+- CreateDynamicVirtualHardDisk method Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , CreateDynamicVirtualHardDisk method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::CreateDynamicVirtualHardDisk method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Creates a dynamically resizing virtual hard disk.
 
@@ -24,9 +32,9 @@ Creates a dynamically resizing virtual hard disk.
 
 ```C++
 HRESULT CreateDynamicVirtualHardDisk(
-  [in]          BSTR    imagePath,
-  [in]          long    size,
-  [out, retval] IVMTask **diskTask
+  [in]          BSTR    imagePath,
+  [in]          long    size,
+  [out, retval] IVMTask **diskTask
 );
 ```
 
@@ -84,7 +92,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -92,9 +100,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -108,9 +116,9 @@ This method can return one of these values.
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

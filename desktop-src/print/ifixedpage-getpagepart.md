@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetPagePart method gets the images, thumbnails, fonts, and so on in a page by using the URI.'
-ms.assetid: '6ec8d282-eedb-419e-84cb-8f4776ea7650'
-title: 'IFixedPage::GetPagePart method'
+---
+Description: The GetPagePart method gets the images, thumbnails, fonts, and so on in a page by using the URI.
+ms.assetid: 6ec8d282-eedb-419e-84cb-8f4776ea7650
+title: IFixedPageGetPagePart method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage::GetPagePart method

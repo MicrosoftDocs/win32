@@ -1,8 +1,11 @@
 ---
 title: DownloadManager.getDownloadCollection method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The getDownloadCollection method retrieves the specified download collection.
-ms.assetid: '743d6bcf-2d5b-4a30-a4ef-4538cf7c901e'
-keywords: ["getDownloadCollection method Windows Media Player", "getDownloadCollection method Windows Media Player , DownloadManager class", "DownloadManager class Windows Media Player , getDownloadCollection method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The getDownloadCollection method retrieves the specified download collection.
+ms.assetid: 743d6bcf-2d5b-4a30-a4ef-4538cf7c901e
+keywords:
+- getDownloadCollection method Windows Media Player
+- getDownloadCollection method Windows Media Player , DownloadManager class
+- DownloadManager class Windows Media Player , getDownloadCollection method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadManager.getDownloadCollection method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **getDownloadCollection** method retrieves the specified download collection.
 
@@ -80,9 +88,9 @@ Real-time download items not completed in a prior session are not retrieved as p
 [**DownloadCollection Object**](downloadcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

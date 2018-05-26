@@ -1,8 +1,9 @@
 ---
 title: MCI\_RECORD\_PARMS structure
 description: The MCI\_RECORD\_PARMS structure contains positioning information for the MCI\_RECORD command.
-ms.assetid: '5d502cf8-3963-49d6-b515-d26e19195322'
-keywords: ["MCI_RECORD_PARMS structure Windows Multimedia"]
+ms.assetid: 5d502cf8-3963-49d6-b515-d26e19195322
+keywords:
+- MCI_RECORD_PARMS structure Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mciapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_RECORD\_PARMS structure
@@ -23,8 +29,8 @@ The **MCI\_RECORD\_PARMS** structure contains positioning information for the [*
 ```C++
 typedef struct {
   DWORD_PTR dwCallback;
-  DWORD     dwFrom;
-  DWORD     dwTo;
+  DWORD     dwFrom;
+  DWORD     dwTo;
 } MCI_RECORD_PARMS;
 ```
 
@@ -57,7 +63,7 @@ Position to play to.
 
 ## Remarks
 
-When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](mcisendcommand.md) function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the *fdwCommand* parameter of the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to validate the members.
 
 ## Requirements
 
@@ -65,8 +71,8 @@ When assigning data to the members of this structure, set the corresponding flag
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Mciapi.h</dt> </dl> |
 
 
@@ -84,12 +90,12 @@ When assigning data to the members of this structure, set the corresponding flag
 [**MCI\_RECORD**](mci-record.md)
 </dt> <dt>
 
-[**mciSendCommand**](mcisendcommand.md)
+[**mciSendCommand**](/windows/win32/Mmsystem/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

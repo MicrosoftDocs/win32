@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates and adds a data reference object as a child object. Deprecated.'
-ms.assetid: '71a770a2-1502-4b93-b368-990c3318bd33'
-title: 'IDirectXFileData::AddDataReference method'
+---
+Description: Creates and adds a data reference object as a child object. Deprecated.
+ms.assetid: 71a770a2-1502-4b93-b368-990c3318bd33
+title: IDirectXFileDataAddDataReference method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileData::AddDataReference method

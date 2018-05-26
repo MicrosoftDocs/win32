@@ -1,7 +1,12 @@
 ---
 title: Edit Control Messages
 description: .
-ms.assetid: 'b5c12b71-b7c3-4331-a656-15718121ddf4'
+ms.assetid: b5c12b71-b7c3-4331-a656-15718121ddf4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Edit Control Messages

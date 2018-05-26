@@ -1,7 +1,12 @@
 ---
 title: Packaging API Reference
 description: The topics in this section provide information about the Packaging APIs.
-ms.assetid: '7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd'
+ms.assetid: 7ab1cc09-ce81-4f56-8adf-d8c95bf2c4cd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging API Reference
@@ -20,7 +25,7 @@ The topics in this section provide information about the Packaging APIs.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -47,9 +52,9 @@ The topics in this section provide information about the Packaging APIs.
 [Packaging API Samples](packaging-programming-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

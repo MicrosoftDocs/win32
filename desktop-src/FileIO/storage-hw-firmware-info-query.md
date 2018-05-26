@@ -1,7 +1,12 @@
 ---
-Description: 'This structure contains information about the device firmware.'
-ms.assetid: '1A2D30F3-F2DE-40CB-BFFC-8BAD19793AE1'
-title: 'STORAGE\_HW\_FIRMWARE\_INFO\_QUERY structure'
+Description: This structure contains information about the device firmware.
+ms.assetid: 1A2D30F3-F2DE-40CB-BFFC-8BAD19793AE1
+title: STORAGE\_HW\_FIRMWARE\_INFO\_QUERY structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # STORAGE\_HW\_FIRMWARE\_INFO\_QUERY structure
@@ -53,7 +58,7 @@ The flags associated with the query. The following are flags that can be set in 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,8 +75,8 @@ Reserved for future use.
 
 |                                     |                                                                                                             |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Winioctl.h.h (include Windows.h)</dt> </dl> |
 
 
@@ -80,19 +85,19 @@ Reserved for future use.
 
 <dl> <dt>
 
-[**IOCTL\_STORAGE\_FIRMWARE\_ACTIVATE**](ioctl-storage-firmware-activate.md)
+[**IOCTL\_STORAGE\_FIRMWARE\_ACTIVATE**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_activate?branch=master)
 </dt> <dt>
 
-[**STORAGE\_HW\_FIRMWARE\_ACTIVATE**](storage-hw-firmware-activate.md)
+[**STORAGE\_HW\_FIRMWARE\_ACTIVATE**](/windows/win32/winioctl/ns-winioctl-_storage_hw_firmware_activate?branch=master)
 </dt> <dt>
 
-[**IOCTL\_STORAGE\_FIRMWARE\_DOWNLOAD**](ioctl-storage-firmware-download.md)
+[**IOCTL\_STORAGE\_FIRMWARE\_DOWNLOAD**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_download?branch=master)
 </dt> <dt>
 
-[**STORAGE\_HW\_FIRMWARE\_DOWNLOAD**](storage-hw-firmware-download.md)
+[**STORAGE\_HW\_FIRMWARE\_DOWNLOAD**](/windows/win32/winioctl/ns-winioctl-_storage_hw_firmware_download?branch=master)
 </dt> <dt>
 
-[**IOCTL\_STORAGE\_FIRMWARE\_GET\_INFO**](ioctl-storage-firmware-get-info.md)
+[**IOCTL\_STORAGE\_FIRMWARE\_GET\_INFO**](/windows/win32/WinIoctl/ni-winioctl-ioctl_storage_firmware_get_info?branch=master)
 </dt> <dt>
 
 [**STORAGE\_HW\_FIRMWARE\_INFO**](storage-hw-firmware-info.md)
@@ -101,9 +106,9 @@ Reserved for future use.
 [**STORAGE\_HW\_FIRMWARE\_SLOT\_INFO**](storage-hw-firmware-slot-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

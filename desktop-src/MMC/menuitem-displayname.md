@@ -4,11 +4,16 @@ description: The DisplayName property returns the display name of the menu item.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '67e0ace5-6fe9-47eb-a4e7-75b748361733'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 67e0ace5-6fe9-47eb-a4e7-75b748361733
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["DisplayName property MMC", "DisplayName property MMC , MenuItem object", "MenuItem object MMC , DisplayName property", "DisplayName property MMC , MenuItem interface", "MenuItem interface MMC , DisplayName property"]
+keywords:
+- DisplayName property MMC
+- DisplayName property MMC , MenuItem object
+- MenuItem object MMC , DisplayName property
+- DisplayName property MMC , MenuItem interface
+- MenuItem interface MMC , DisplayName property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MenuItem::DisplayName property
@@ -65,8 +73,8 @@ Set objMenuItem = Nothing
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -90,9 +98,9 @@ Set objMenuItem = Nothing
 [**ContextMenu object**](contextmenu-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '3bd25a77-bce6-4cd3-808c-6df3b3033dd2'
+---
+Description: .
+ms.assetid: 3bd25a77-bce6-4cd3-808c-6df3b3033dd2
 title: DrvSplStartDoc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvSplStartDoc function

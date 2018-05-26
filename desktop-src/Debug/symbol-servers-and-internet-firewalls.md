@@ -1,7 +1,12 @@
 ---
-Description: 'Some systems use Internet firewalls or proxy servers that require authentication for all Internet traffic.'
-ms.assetid: 'b79e9a6f-2ffb-4ec0-ac2d-63e79ecfc26c'
+Description: Some systems use Internet firewalls or proxy servers that require authentication for all Internet traffic.
+ms.assetid: b79e9a6f-2ffb-4ec0-ac2d-63e79ecfc26c
 title: Symbol Server and Internet Firewalls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Symbol Server and Internet Firewalls
@@ -23,7 +28,7 @@ When using the latest versions of cdb.exe or ntsd.exe, this functionality is tur
 
 If you turn on prompting, you will need to reload symbols with the .reload command.
 
-The DbgHelp API has been expanded to support these changes. The [**SymbolServerSetOptions**](base.symbolserversetoptions) function supports the SSRVOPT\_PROXY option. If the data parameter is **NULL**, the default proxy defined in **Internet Options** is used. Otherwise a zero-terminated string is passed specifying the name and port number of the proxy server. The name and port are separated by a colon as follows: *myproxyserver*:80. The [**SymSetOptions**](symsetoptions.md) function supports the SYMOPT\_NO\_PROMPTS option. This turns off all prompting for validation from the symbol server.
+The DbgHelp API has been expanded to support these changes. The [**SymbolServerSetOptions**](base.symbolserversetoptions) function supports the SSRVOPT\_PROXY option. If the data parameter is **NULL**, the default proxy defined in **Internet Options** is used. Otherwise a zero-terminated string is passed specifying the name and port number of the proxy server. The name and port are separated by a colon as follows: *myproxyserver*:80. The [**SymSetOptions**](/windows/win32/Dbghelp/nf-dbghelp-symsetoptions?branch=master) function supports the SYMOPT\_NO\_PROMPTS option. This turns off all prompting for validation from the symbol server.
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IBidiRequestContainer interface allows an application or other objects to compose and retrieve a list of bidi requests.'
-ms.assetid: '21dfcbe8-2fc1-4495-af54-5d4c83b8bb79'
+---
+Description: The IBidiRequestContainer interface allows an application or other objects to compose and retrieve a list of bidi requests.
+ms.assetid: 21dfcbe8-2fc1-4495-af54-5d4c83b8bb79
 title: IBidiRequestContainer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiRequestContainer interface

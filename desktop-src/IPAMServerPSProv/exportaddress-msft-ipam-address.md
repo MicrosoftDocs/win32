@@ -1,15 +1,18 @@
 ---
-Description: 'Exports a set of IP addresses from IPAM to a CSV file.'
+Description: Exports a set of IP addresses from IPAM to a CSV file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c20ea491-fdd4-4af8-8ce5-b19a358678d9'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c20ea491-fdd4-4af8-8ce5-b19a358678d9
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ExportAddress method of the MSFT\_IPAM\_Address class'
+title: ExportAddress method of the MSFT\_IPAM\_Address class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExportAddress method of the MSFT\_IPAM\_Address class
@@ -21,11 +24,11 @@ Exports a set of IP addresses from IPAM to a CSV file.
 
 ```mof
 uint32 ExportAddress(
-  [in]  string            Path,
-  [in]  uint16            AddressType = 1,
-  [in]  uint16            NetworkType,
-  [in]  string            AddressSpace,
-  [out] MSFT_IPAM_Address Output[]
+  [in]  string            Path,
+  [in]  uint16            AddressType = 1,
+  [in]  uint16            NetworkType,
+  [in]  string            AddressSpace,
+  [out] MSFT_IPAM_Address Output[]
 );
 ```
 
@@ -127,7 +130,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -141,9 +144,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Address**](msft-ipam-address.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

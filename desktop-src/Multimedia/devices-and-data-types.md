@@ -1,8 +1,36 @@
 ---
 title: Devices and Data Types
 description: Devices and Data Types
-ms.assetid: '46247983-19c3-4c7a-a615-ba6cd8bd3289'
-keywords: ["waveform audio,opening output devices", "waveform-audio interface,opening output devices", "opening waveform-audio output devices", "waveform audio,querying output devices", "waveform-audio interface,querying output devices", "querying waveform-audio output devices", "waveform audio,device handles", "waveform-audio interface,device handles", "waveform audio,device identifiers", "waveform-audio interface,device identifiers", "waveform audio,output data types", "waveform-audio interface,output data types", "waveform audio,data formats", "waveform-audio interface,data formats", "writing waveform-audio data", "waveform audio,writing data", "waveform-audio interface,writing data", "PCM waveform-audio data", "waveform audio,PCM data", "waveform-audio interface,PCM data", "waveform audio,closing output devices", "waveform-audio interface,closing output devices", "closing waveform-audio output devices"]
+ms.assetid: 46247983-19c3-4c7a-a615-ba6cd8bd3289
+keywords:
+- waveform audio,opening output devices
+- waveform-audio interface,opening output devices
+- opening waveform-audio output devices
+- waveform audio,querying output devices
+- waveform-audio interface,querying output devices
+- querying waveform-audio output devices
+- waveform audio,device handles
+- waveform-audio interface,device handles
+- waveform audio,device identifiers
+- waveform-audio interface,device identifiers
+- waveform audio,output data types
+- waveform-audio interface,output data types
+- waveform audio,data formats
+- waveform-audio interface,data formats
+- writing waveform-audio data
+- waveform audio,writing data
+- waveform-audio interface,writing data
+- PCM waveform-audio data
+- waveform audio,PCM data
+- waveform-audio interface,PCM data
+- waveform audio,closing output devices
+- waveform-audio interface,closing output devices
+- closing waveform-audio output devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Devices and Data Types
@@ -62,7 +90,7 @@ Each of these functions fills a structure with information about the capabilitie
 
  
 
-Standard formats are listed in the **dwFormats** member of the **WAVEOUTCAPS** structure. Waveform-audio devices can support nonstandard formats. To determine whether a particular format (standard or nonstandard) is supported by a device, you can call the [**waveOutOpen**](waveoutopen.md) function with the WAVE\_FORMAT\_QUERY flag. This flag does not open the device. You specify the format in question in the [**WAVEFORMATEX**](waveformatex.md) structure pointed to by the *pwfx* parameter passed to **waveOutOpen**.
+Standard formats are listed in the **dwFormats** member of the **WAVEOUTCAPS** structure. Waveform-audio devices can support nonstandard formats. To determine whether a particular format (standard or nonstandard) is supported by a device, you can call the [**waveOutOpen**](waveoutopen.md) function with the WAVE\_FORMAT\_QUERY flag. This flag does not open the device. You specify the format in question in the [**WAVEFORMATEX**](/windows/win32/Mmreg/?branch=master) structure pointed to by the *pwfx* parameter passed to **waveOutOpen**.
 
 Waveform-audio output devices vary in the capabilities they support. The **dwSupport** member of the [**WAVEOUTCAPS**](waveoutcaps.md) structure indicates whether a device supports such capabilities as volume and pitch changes.
 
@@ -86,7 +114,7 @@ The following data types are defined for waveform-audio output functions.
 | Type                                 | Description                                                                                                                                                   |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **HWAVEOUT**                         | Handle to an open waveform-audio output device.                                                                                                               |
-| [**WAVEFORMATEX**](waveformatex.md) | Structure that specifies the data formats supported by a particular waveform-audio input device. This structure is also usedfor waveform-audio input devices. |
+| [**WAVEFORMATEX**](/windows/win32/Mmreg/?branch=master) | Structure that specifies the data formats supported by a particular waveform-audio input device. This structure is also usedfor waveform-audio input devices. |
 | [**WAVEHDR**](wavehdr.md)           | Structure used as a header for a block of waveform-audio input data. This structure is also used for waveform-audio input devices.                            |
 | [**WAVEOUTCAPS**](waveoutcaps.md)   | Structure used to query the capabilities of a particular waveform-audio output device.                                                                        |
 
@@ -96,9 +124,9 @@ The following data types are defined for waveform-audio output functions.
 
 ## Specifying Waveform-Audio Data Formats
 
-When you call the [**waveOutOpen**](waveoutopen.md) function to open a device driver for playback or to query whether the driver supports a particular data format, use the *pwfx* parameter to specify a pointer to a [**WAVEFORMATEX**](waveformatex.md) structure containing the requested waveform-audio data format. **WAVEFORMATEX** supersedes the [**WAVEFORMAT**](waveformat.md) and [**PCMWAVEFORMAT**](pcmwaveformat.md) structures.
+When you call the [**waveOutOpen**](waveoutopen.md) function to open a device driver for playback or to query whether the driver supports a particular data format, use the *pwfx* parameter to specify a pointer to a [**WAVEFORMATEX**](/windows/win32/Mmreg/?branch=master) structure containing the requested waveform-audio data format. **WAVEFORMATEX** supersedes the [**WAVEFORMAT**](/windows/win32/mmeapi/ns-mmeapi-twaveformatex?branch=master) and [**PCMWAVEFORMAT**](pcmwaveformat.md) structures.
 
-For audio data that is separated into more than two channels or has a sample size that is not a multiple of 8, you should use [**WAVEFORMATEXTENSIBLE**](waveformatextensible.md). This structure simply configures the extra bytes pointed to by the **cbSize** member of **WAVEFORMATEX** to give extra information about the format. **WAVEFORMATEXTENSIBLE** can be cast as **WAVEFORMATEX**.
+For audio data that is separated into more than two channels or has a sample size that is not a multiple of 8, you should use [**WAVEFORMATEXTENSIBLE**](/windows/win32/Mmreg/?branch=master). This structure simply configures the extra bytes pointed to by the **cbSize** member of **WAVEFORMATEX** to give extra information about the format. **WAVEFORMATEXTENSIBLE** can be cast as **WAVEFORMATEX**.
 
 There are also two clipboard formats you can use to represent audio data: CF\_WAVE and CF\_RIFF. Use the CF\_WAVE format to represent data in one of the standard formats, such as 11 kHz or 22 kHz PCM. Use the CF\_RIFF format to represent more complex data formats that cannot be represented as standard waveform-audio files.
 
@@ -138,7 +166,7 @@ The order of the data bytes varies between 8-bit and 16-bit formats and between 
 | 8-bit stereo              | Each sample is 2 bytes. Sample 1 is followed by samples 2, 3, 4, and so on. For each sample, the first byte is channel 0 (the left channel) and the second byte is channel 1 (the right channel).                                                                                                                                               |
 | 16-bit mono               | Each sample is 2 bytes. Sample 1 is followed by samples 2, 3, 4, and so on. For each sample, the first byte is the low-order byte of channel 0 and the second byte is the high-order byte of channel 0.                                                                                                                                         |
 | 16-bit stereo             | Each sample is 4 bytes. Sample 1 is followed by samples 2, 3, 4, and so on. For each sample, the first byte is the low-order byte of channel 0 (left channel); the second byte is the high-order byte of channel 0; the third byte is the low-order byte of channel 1 (right channel); and the fourth byte is the high-order byte of channel 1. |
-| Others                    | Each sample is contained in a block that is a multiple of 4 bytes, but the samples may be non-byte-aligned. The arrangement of channels is specified by a mask. For more information, see [**WAVEFORMATEXTENSIBLE**](waveformatextensible.md).                                                                                                 |
+| Others                    | Each sample is contained in a block that is a multiple of 4 bytes, but the samples may be non-byte-aligned. The arrangement of channels is specified by a mask. For more information, see [**WAVEFORMATEXTENSIBLE**](/windows/win32/Mmreg/?branch=master).                                                                                                 |
 
 
 

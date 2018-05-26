@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a string that contains the name of the certificate issuer.'
-ms.assetid: '6cf528e3-061a-44dc-b320-0e4b48a6c6ab'
-title: 'Certificate.IssuerName property'
+---
+Description: Retrieves a string that contains the name of the certificate issuer.
+ms.assetid: 6cf528e3-061a-44dc-b320-0e4b48a6c6ab
+title: Certificate.IssuerName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificate.IssuerName property

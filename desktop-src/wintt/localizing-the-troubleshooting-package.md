@@ -1,7 +1,12 @@
 ---
 title: Localizing the Troubleshooting Pack
 description: To specify that the package is localized, set the Localized attribute of GlobalDiagnosticPackage or LocalDiagnosticPackage to \ 0034;true \ 0034;.
-ms.assetid: '085e99b1-13d8-4b77-846d-dfda4c576a35'
+ms.assetid: 085e99b1-13d8-4b77-846d-dfda4c576a35
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Localizing the Troubleshooting Pack

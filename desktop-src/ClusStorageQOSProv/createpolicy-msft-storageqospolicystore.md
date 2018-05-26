@@ -4,13 +4,16 @@ description: Creates a storage QoS policy.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3a07834c-90f3-415a-a9bf-0b8fabe8e03f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3a07834c-90f3-415a-a9bf-0b8fabe8e03f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-storage-qos'
-- 'windows-management-instrumentation'
+- failover-cluster-storage-qos
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreatePolicy method", "CreatePolicy method, MSFT_StorageQoSPolicyStore class", "MSFT_StorageQoSPolicyStore class, CreatePolicy method"]
+keywords:
+- CreatePolicy method
+- CreatePolicy method, MSFT_StorageQoSPolicyStore class
+- MSFT_StorageQoSPolicyStore class, CreatePolicy method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - StorageQOS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreatePolicy method of the MSFT\_StorageQoSPolicyStore class
@@ -30,7 +36,7 @@ Creates a storage QoS policy.
 
 ```mof
 sint32 CreatePolicy(
-  [in, out] MSFT_StorageQoSPolicy Policy
+  [in, out] MSFT_StorageQoSPolicy Policy
 );
 ```
 
@@ -155,7 +161,7 @@ Reserved.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>StorageQOS.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StorageQOS.dll</dt> </dl> |
@@ -169,9 +175,9 @@ Reserved.
 [**MSFT\_StorageQoSPolicyStore**](msft-storageqospolicystore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

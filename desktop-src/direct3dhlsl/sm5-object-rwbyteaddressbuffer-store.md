@@ -1,14 +1,20 @@
 ---
 title: Store function
 description: Sets one value.
-ms.assetid: 'edfda955-602c-44f4-adc3-77b61c9dcd05'
-keywords: ["Store function HLSL"]
+ms.assetid: edfda955-602c-44f4-adc3-77b61c9dcd05
+keywords:
+- Store function HLSL
 topic_type:
 - apiref
 api_name:
 - Store
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Store function

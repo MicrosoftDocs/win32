@@ -1,7 +1,12 @@
 ---
 title: MIDL Compilation
 description: MIDL Compilation
-ms.assetid: '2797ee3b-82fd-4cb5-9e95-23b2f2a8f011'
+ms.assetid: 2797ee3b-82fd-4cb5-9e95-23b2f2a8f011
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MIDL Compilation
@@ -20,7 +25,7 @@ Given an IDL file, such as [Example2.idl](anatomy-of-an-idl-file.md), that defin
 
 
 
- 
+ 
 
 You use the header file and all of the .c files to [create a proxy DLL](building-and-registering-a-proxy-dll.md) that can support the interface when used both by client applications and by object servers. You use the interface header file (Example2.h) and the interface ID (Example2\_i.c) file when creating the executable file for a client application that uses the interface. You can choose to include the type library file as a resource in your EXE or DLL, or you can ship it as a separate file.
 
@@ -34,9 +39,9 @@ You use the header file and all of the .c files to [create a proxy DLL](building
 [MIDL Compiler Options](midl-compiler-options.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

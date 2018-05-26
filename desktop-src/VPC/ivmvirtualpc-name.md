@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC Name property
 description: Retrieves the name of the Windows Virtual PC application.
-ms.assetid: 'd33af684-ecba-4177-9ef3-cf6dff5bee4d'
-keywords: ["Name property Virtual PC", "Name property Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , Name property"]
+ms.assetid: d33af684-ecba-4177-9ef3-cf6dff5bee4d
+keywords:
+- Name property Virtual PC
+- Name property Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , Name property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::Name property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the name of the Windows Virtual PC application.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Name(
-  [out, retval] BSTR *virtualPCName
+  [out, retval] BSTR *virtualPCName
 );
 ```
 
@@ -56,9 +64,9 @@ The name of the Windows Virtual PC application.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -72,9 +80,9 @@ The name of the Windows Virtual PC application.
 [**IVMVirtualPC**](ivmvirtualpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

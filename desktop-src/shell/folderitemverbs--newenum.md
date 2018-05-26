@@ -1,6 +1,11 @@
-﻿---
-Description: 'Creates and returns a new FolderItemVerbs object that is a copy of this FolderItemVerbs object.'
-title: 'FolderItemVerbs.\_NewEnum method'
+---
+Description: Creates and returns a new FolderItemVerbs object that is a copy of this FolderItemVerbs object.
+title: FolderItemVerbs.\_NewEnum method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItemVerbs.\_NewEnum method

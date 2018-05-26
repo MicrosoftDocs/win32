@@ -1,7 +1,12 @@
 ---
 title: Operation Recorder
 description: .
-ms.assetid: 'c1051b62-0e67-4480-81c6-cb138d3296d6'
+ms.assetid: c1051b62-0e67-4480-81c6-cb138d3296d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operation Recorder

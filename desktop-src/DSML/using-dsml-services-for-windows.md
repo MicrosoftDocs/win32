@@ -4,11 +4,16 @@ description: DSML Services for Windows is the Microsoft implementation of DSML V
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2c0006fd-da3a-4862-9ee4-5b33073c5b1b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2c0006fd-da3a-4862-9ee4-5b33073c5b1b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Using DSML Services for Windows DSML", "DSML Services for Windows, using"]
+keywords:
+- Using DSML Services for Windows DSML
+- DSML Services for Windows, using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using DSML Services for Windows

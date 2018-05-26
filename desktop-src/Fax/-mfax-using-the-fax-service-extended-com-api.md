@@ -1,7 +1,12 @@
 ---
-Description: 'The fax service extended Component Object Model (COM) API provides COM dual interfaces that you can use to manage the fax service programmatically. For more information about using the extended COM API, see the following topics.'
-ms.assetid: 'a46ed900-7af0-49fb-b7f7-68592ec728f6'
+Description: The fax service extended Component Object Model (COM) API provides COM dual interfaces that you can use to manage the fax service programmatically. For more information about using the extended COM API, see the following topics.
+ms.assetid: a46ed900-7af0-49fb-b7f7-68592ec728f6
 title: Using the Fax Service Extended COM API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Fax Service Extended COM API

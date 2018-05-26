@@ -1,8 +1,10 @@
 ---
 title: ACTX structure
 description: Do not use. Contains account information.
-ms.assetid: 'ee983cdc-f5d6-4a81-8d48-3fc0ccd27899'
-keywords: ["ACTX structure Windows Mail (formerly Outlook Express)", "ACCESSTYPE structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: ee983cdc-f5d6-4a81-8d48-3fc0ccd27899
+keywords:
+- ACTX structure Windows Mail (formerly Outlook Express)
+- ACCESSTYPE structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnact.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACTX structure
@@ -23,9 +30,9 @@ Do not use. Contains account information.
 ```C++
 typedef struct tagAccountContext {
   ACCTTYPE AcctType;
-  LPSTR    pszAccountID;
-  LPSTR    pszOldName;
-  DWORD    dwServerType;
+  LPSTR    pszAccountID;
+  LPSTR    pszOldName;
+  DWORD    dwServerType;
 } ACCESSTYPE;
 ```
 
@@ -90,7 +97,7 @@ Contains a **DWORD** that indicates the server type.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -100,17 +107,17 @@ Contains a **DWORD** that indicates the server type.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

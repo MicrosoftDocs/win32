@@ -1,7 +1,12 @@
 ---
-Description: 'Contains battery information to be set.'
-ms.assetid: '535e56cb-2bab-458a-84a8-2d9a4d96412b'
-title: 'BATTERY\_SET\_INFORMATION structure'
+Description: Contains battery information to be set.
+ms.assetid: 535e56cb-2bab-458a-84a8-2d9a4d96412b
+title: BATTERY\_SET\_INFORMATION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BATTERY\_SET\_INFORMATION structure
@@ -13,9 +18,9 @@ Contains battery information to be set. This structure is used with the [**IOCTL
 
 ```C++
 typedef struct _BATTERY_SET_INFORMATION {
-  ULONG                         BatteryTag;
+  ULONG                         BatteryTag;
   BATTERY_SET_INFORMATION_LEVEL InformationLevel;
-  UCHAR                         Buffer[1];
+  UCHAR                         Buffer[1];
 } BATTERY_SET_INFORMATION, *PBATTERY_SET_INFORMATION;
 ```
 
@@ -49,7 +54,7 @@ The battery information to be set. The type of data in the **Buffer** member dep
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,9 +75,9 @@ The **BATTERY\_SET\_INFORMATION** structure is a variable-length structure, and 
 
 |                                     |                                                                                                                                                                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |
+| Header<br/>                   | <dl> <dt>Poclass.h; </dt> <dt>Batclass.h on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP</dt> </dl> |
 
 
 
@@ -83,9 +88,9 @@ The **BATTERY\_SET\_INFORMATION** structure is a variable-length structure, and 
 [**IOCTL\_BATTERY\_SET\_INFORMATION**](ioctl-battery-set-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving the Task Creator
 description: This example retrieves the name of the creator of the task and displays it on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '02554ce1-2d52-48e9-95f1-d5d480519035'
-keywords: ["retrieving task creator Task Scheduler", "retrieving work item properties Task Scheduler , task creator"]
+ms.assetid: 02554ce1-2d52-48e9-95f1-d5d480519035
+keywords:
+- retrieving task creator Task Scheduler
+- retrieving work item properties Task Scheduler , task creator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving the Task Creator

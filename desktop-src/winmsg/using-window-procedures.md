@@ -1,7 +1,12 @@
 ---
-Description: 'This section explains how to perform the following tasks associated with window procedures.'
-ms.assetid: 'acc68991-4689-44dc-8547-a7b6153b0f62'
+Description: This section explains how to perform the following tasks associated with window procedures.
+ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: Using Window Procedures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Window Procedures
@@ -68,7 +73,7 @@ A dialog box procedure receives a [**WM\_INITDIALOG**](dlgbox.wm_initdialog) mes
 
 ## Associating a Window Procedure with a Window Class
 
-You associate a window procedure with a window class when registering the class. You must fill a [**WNDCLASS**](wndclass.md) structure with information about the class, and the **lpfnWndProc** member must specify the address of the window procedure. To register the class, pass the address of **WNDCLASS** structure to the [**RegisterClass**](registerclass.md) function. After the window class has been registered, the window procedure is automatically associated with each new window created with that class.
+You associate a window procedure with a window class when registering the class. You must fill a [**WNDCLASS**](wndclass.md) structure with information about the class, and the **lpfnWndProc** member must specify the address of the window procedure. To register the class, pass the address of **WNDCLASS** structure to the [**RegisterClass**](/windows/win32/Winuser/nf-kusbfnclasslib-usbfnkmclasslibregisterclassdevice?branch=master) function. After the window class has been registered, the window procedure is automatically associated with each new window created with that class.
 
 The following example shows how to associate the window procedure in the previous example with a window class.
 

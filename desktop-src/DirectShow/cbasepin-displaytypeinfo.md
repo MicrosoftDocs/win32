@@ -1,7 +1,12 @@
 ---
-Description: 'The DisplayTypeInfo method displays media type information during debugging.'
-ms.assetid: 'fd10d37b-57f5-4246-8ca3-f4bc59911445'
-title: 'CBasePin.DisplayTypeInfo method'
+Description: The DisplayTypeInfo method displays media type information during debugging.
+ms.assetid: fd10d37b-57f5-4246-8ca3-f4bc59911445
+title: CBasePin.DisplayTypeInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.DisplayTypeInfo method
@@ -13,8 +18,8 @@ The `DisplayTypeInfo` method displays media type information during debugging.
 
 ```C++
 void DisplayTypeInfo(
-         IPin       *pPin,
-   const CMediaType *pmt
+         IPin       *pPin,
+   const CMediaType *pmt
 );
 ```
 
@@ -64,9 +69,9 @@ In debug builds, this method calls the [**DbgLog**](dbglog.md) function to displ
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

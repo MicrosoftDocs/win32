@@ -4,17 +4,21 @@ description: Implements a device rejected exception passed from the server.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '3a59301a-6e09-4a1b-8739-9266db52b28a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 3a59301a-6e09-4a1b-8739-9266db52b28a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["DeviceRejectedException class"]
+keywords:
+- DeviceRejectedException class
 topic_type:
 - apiref
 api_name:
 - DeviceRejectedException class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeviceRejectedException class
@@ -32,7 +36,7 @@ public class DeviceRejectedException extends ProtectionException
 > [!Note]  
 > The constructors are documented here for your information and are not intended to be called by you, the application developer.
 
- 
+ 
 
 
 
@@ -43,7 +47,7 @@ public class DeviceRejectedException extends ProtectionException
 
 
 
- 
+ 
 
 ## Methods
 
@@ -56,7 +60,7 @@ public class DeviceRejectedException extends ProtectionException
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -74,9 +78,9 @@ The **DeviceRejectedException** class extends the [**ProtectionException**](prot
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

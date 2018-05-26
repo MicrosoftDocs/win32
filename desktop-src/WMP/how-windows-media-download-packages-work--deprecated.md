@@ -1,8 +1,19 @@
 ---
 title: How Windows Media Download Packages Work (deprecated)
 description: How Windows Media Download Packages Work (deprecated)
-ms.assetid: '8bab1764-93da-4abc-a8b7-17bc44b381ce'
-keywords: ["Windows Media metafiles,Windows Media Download packages", "Windows Media Player,Windows Media Download packages", "metafiles,Windows Media Download packages", "Windows Media,Windows Media Download packages", "Windows Media Download packages,about", "Windows Media Download packages,how packages work"]
+ms.assetid: 8bab1764-93da-4abc-a8b7-17bc44b381ce
+keywords:
+- Windows Media metafiles,Windows Media Download packages
+- Windows Media Player,Windows Media Download packages
+- metafiles,Windows Media Download packages
+- Windows Media,Windows Media Download packages
+- Windows Media Download packages,about
+- Windows Media Download packages,how packages work
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Windows Media Download Packages Work (deprecated)

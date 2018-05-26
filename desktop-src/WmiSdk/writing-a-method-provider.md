@@ -1,13 +1,16 @@
 ---
-Description: 'A method provider allows WMI access to the methods of a class. For example, a class that represents an application may have a method that terminates the application.'
+Description: A method provider allows WMI access to the methods of a class. For example, a class that represents an application may have a method that terminates the application.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bce87e65-5cba-4eef-91da-a3e13c80b8a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bce87e65-5cba-4eef-91da-a3e13c80b8a6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing a Method Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Writing a Method Provider
@@ -24,16 +27,16 @@ The following procedure describes how to implement a method provider.
 
     Class providers register with WMI by creating a [**\_\_Win32Provider**](--win32provider.md) instance and a [**\_\_MethodProviderRegistration**](--methodproviderregistration.md) class. For more information, see [Registering a Method Provider](registering-a-method-provider.md).
 
-2.  Implement the [**IWbemProviderInit**](iwbemproviderinit.md) interface for your provider.
+2.  Implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface for your provider.
 
     > [!Note]  
     > Method providers are strongly encouraged to use the multithreading model "Both".
 
      
 
-3.  Implement the [**IWbemServices::ExecMethodAsync**](iwbemservices-execmethodasync.md) method for your provider.
+3.  Implement the [**IWbemServices::ExecMethodAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethodasync?branch=master) method for your provider.
 
-    The [**IWbemServices**](iwbemservices.md) interface is the primary interface for a method provider. For more information, see [Implementing the Primary Interface for a Method Provider](implementing-the-primary-interface-for-a-method-provider.md).
+    The [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interface is the primary interface for a method provider. For more information, see [Implementing the Primary Interface for a Method Provider](implementing-the-primary-interface-for-a-method-provider.md).
 
 4.  Add any additional code necessary for your provider.
 

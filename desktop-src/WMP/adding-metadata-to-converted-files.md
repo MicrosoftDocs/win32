@@ -1,8 +1,19 @@
 ---
 title: Adding Metadata to Converted Files
 description: Adding Metadata to Converted Files
-ms.assetid: '97588651-23de-43ab-b884-76d8af95ab93'
-keywords: ["Windows Media Player,conversion process", "Windows Media Player plug-ins,conversion", "plug-ins,conversion", "conversion plug-ins,adding metadata to converted files", "adding metadata to converted files", "metadata,adding to converted files"]
+ms.assetid: 97588651-23de-43ab-b884-76d8af95ab93
+keywords:
+- Windows Media Player,conversion process
+- Windows Media Player plug-ins,conversion
+- plug-ins,conversion
+- conversion plug-ins,adding metadata to converted files
+- adding metadata to converted files
+- metadata,adding to converted files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Metadata to Converted Files

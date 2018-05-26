@@ -1,8 +1,11 @@
 ---
 title: ID3DX12PipelineParserCallbacks SampleDescCb method
 description: Calls the sample description subobject callback of an object that implements this interface.
-ms.assetid: '32F112D3-97B1-45C2-8744-9F27DC95C249'
-keywords: ["SampleDescCb method", "SampleDescCb method, ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, SampleDescCb method"]
+ms.assetid: 32F112D3-97B1-45C2-8744-9F27DC95C249
+keywords:
+- SampleDescCb method
+- SampleDescCb method, ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, SampleDescCb method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks::SampleDescCb method
@@ -22,7 +30,7 @@ Calls the sample description subobject callback of an object that implements thi
 
 ```C++
 void SampleDescCb(
-  [ref] const DXGI_SAMPLE_DESC &amp;SampleDesc
+  [ref] const DXGI_SAMPLE_DESC &amp;SampleDesc
 );
 ```
 
@@ -70,9 +78,9 @@ Returns nothing.
 [**DXGI\_SAMPLE\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173072)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

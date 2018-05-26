@@ -4,10 +4,13 @@ description: In the example provider component, the enumeration of a container o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7166230d-0bf8-4f7d-9781-72f125a3dd21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7166230d-0bf8-4f7d-9781-72f125a3dd21
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CENUMOBJ.CPP

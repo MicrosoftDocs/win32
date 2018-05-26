@@ -4,11 +4,15 @@ description: The systemFlags attribute of an attributeSchema object contains a s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '58f44ea4-ecbd-4650-b366-37b05a975c68'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 58f44ea4-ecbd-4650-b366-37b05a975c68
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Determining an Attribute Type AD"]
+keywords:
+- Determining an Attribute Type AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Determining an Attribute Type

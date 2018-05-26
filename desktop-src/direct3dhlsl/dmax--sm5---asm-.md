@@ -1,7 +1,12 @@
 ---
 title: dmax (sm5 - asm)
 description: Component-wise double-precision maximum.
-ms.assetid: '34ED8B34-2592-4BBB-BCF0-F2222E4D51D9'
+ms.assetid: 34ED8B34-2592-4BBB-BCF0-F2222E4D51D9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dmax (sm5 - asm)
@@ -15,7 +20,7 @@ Component-wise double-precision maximum.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise double-precision maximum.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -49,7 +54,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -68,7 +73,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -77,9 +82,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

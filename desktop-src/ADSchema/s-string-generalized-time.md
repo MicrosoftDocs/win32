@@ -4,17 +4,21 @@ description: A time string format defined by ASN.1 standards.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c69ab29b-5877-47d4-b58d-4f103758dfac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c69ab29b-5877-47d4-b58d-4f103758dfac
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(Generalized-Time) syntax AD Schema"]
+keywords:
+- String(Generalized-Time) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(Generalized-Time)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(Generalized-Time) syntax

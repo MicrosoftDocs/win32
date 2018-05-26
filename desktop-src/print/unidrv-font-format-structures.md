@@ -1,7 +1,12 @@
 ---
 Description: Unidrv Font Format Structures
-ms.assetid: 'c5f3d92c-f13a-4c8a-a272-9ca8447a5b2e'
+ms.assetid: c5f3d92c-f13a-4c8a-a272-9ca8447a5b2e
 title: Unidrv Font Format Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unidrv Font Format Structures

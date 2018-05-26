@@ -4,11 +4,14 @@ description: Writes data asynchronously to the backing file.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'M:Microsoft.RightsManagement.CustomProtection.CustomProtectedStream.WriteAsync(Windows.Storage.Streams.IBuffer)'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: MMicrosoft.RightsManagement.CustomProtection.CustomProtectedStream.WriteAsync(Windows.Storage.Streams.IBuffer)
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["WriteAsync method", "WriteAsync method, CustomProtectedStream class", "CustomProtectedStream class, WriteAsync method"]
+keywords:
+- WriteAsync method
+- WriteAsync method, CustomProtectedStream class
+- CustomProtectedStream class, WriteAsync method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomProtectedStream.WriteAsync method
@@ -65,7 +71,7 @@ Data written to the stream must be 16-byte aligned.
 > \[!Warning\]  
 > To avoid data loss and/or corruption, [**FlushAsync**](customprotectedstream-flushasync.md) must be called if you modify the created stream or before object disposal.
 
- 
+ 
 
 ## Requirements
 
@@ -88,9 +94,9 @@ Data written to the stream must be 16-byte aligned.
 [**CustomProtectedStream**](customprotectedstream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

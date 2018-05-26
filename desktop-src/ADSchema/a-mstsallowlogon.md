@@ -4,17 +4,22 @@ description: Specifies whether the user is allowed to log on to the Terminal Ser
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9cd6edbc-f8e7-4933-9f62-1e34e3d31fb7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9cd6edbc-f8e7-4933-9f62-1e34e3d31fb7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Allow-Logon attribute AD Schema", "msTSAllowLogon attribute AD Schema"]
+keywords:
+- ms-TS-Allow-Logon attribute AD Schema
+- msTSAllowLogon attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Allow-Logon
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Allow-Logon attribute
@@ -38,9 +43,9 @@ Specifies whether the user is allowed to log on to the Terminal Server. The valu
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Specifies whether the user is allowed to log on to the Terminal Server. The valu
 
 
 
- 
+ 
 
- 
+ 
 
 
 

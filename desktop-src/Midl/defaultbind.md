@@ -2,13 +2,19 @@
 title: defaultbind attribute
 description: The \ defaultbind\ attribute indicates the single, bindable property that best represents the object.
 ms.assetid: 8cf0922a-3d7c-404d-b4fd-edbd772987bf
-keywords: ["defaultbind attribute MIDL"]
+keywords:
+- defaultbind attribute MIDL
 topic_type:
 - apiref
 api_name:
 - defaultbind
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultbind attribute

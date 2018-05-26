@@ -1,7 +1,12 @@
 ---
 title: Custom Font Sets
 description: This topic describes various ways in which you can use custom fonts in your app.
-ms.assetid: '50842838-d150-df9a-f1b7-67ce5ea2bc80'
+ms.assetid: 50842838-d150-df9a-f1b7-67ce5ea2bc80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Font Sets
@@ -26,7 +31,7 @@ This topic describes various ways in which you can use custom fonts in your app.
 
 ## Introduction
 
-Most of the time, apps use the fonts that are installed locally on the system. DirectWrite provides access to these fonts using the [**IDWriteFactory3::GetSystemFontSet**](idwritefactory3-getsystemfontset.md) or [**IDWriteFactory::GetSystemFontCollection**](idwritefactory-getsystemfontcollection.md) methods. In some cases, apps may also want to use fonts that are included as part of Windows 10 but that are not currently installed on the current system. Such fonts can be accessed from the Windows font service by using the **GetSystemFontSet** method, or by calling [**IDWriteFactory3::GetSystemFontCollection**](idwritefactory3-getsystemfontcollection.md) with includeDownloadableFonts set to TRUE. 
+Most of the time, apps use the fonts that are installed locally on the system. DirectWrite provides access to these fonts using the [**IDWriteFactory3::GetSystemFontSet**](/windows/win32/dwrite_3/?branch=master) or [**IDWriteFactory::GetSystemFontCollection**](/windows/win32/dwrite/?branch=master) methods. In some cases, apps may also want to use fonts that are included as part of Windows 10 but that are not currently installed on the current system. Such fonts can be accessed from the Windows font service by using the **GetSystemFontSet** method, or by calling [**IDWriteFactory3::GetSystemFontCollection**](/windows/win32/dwrite_3/?branch=master) with includeDownloadableFonts set to TRUE. 
 
 In some application scenarios, however, apps need to use fonts that are not installed in the system and are not provided by the Windows Font Service. The following are examples of such scenarios:
 
@@ -48,30 +53,30 @@ DirectWrite provides APIs for working with custom fonts in these and other simil
 
 This topic focuses on functionality provided by the following APIs: 
 
--   [**IDWriteFontSet**](idwritefontset.md) interface
--   [**IDWriteFontSetBuilder**](idwritefontsetbuilder.md) interface
--   [**IDWriteFontSetBuilder1**](idwritefontsetbuilder1.md) interface 
--   [**IDWriteFontFaceReference**](idwritefontfacereference.md) interface
--   [**IDWriteFontFile**](idwritefontfile.md) interface
--   [**IDWriteFactory::CreateFontFileReference**](idwritefactory-createfontfilereference.md) method 
--   [**IDWriteFactory::CreateCustomFontFileReference**](idwritefactory-createcustomfontfilereference.md) method 
--   [**IDWriteFactory3::CreateFontFaceReference**](idwritefactory3-createfontfacereference-overload.md) methods 
--   [**DWRITE\_FONT\_PROPERTY**](dwrite-font-property.md) structure 
--   [**DWRITE\_FONT\_PROPERTY\_ID**](dwrite-font-property-id.md) enumeration 
--   [**IDWriteFontFileLoader**](idwritefontfileloader.md) interface 
--   [**IDWriteFactory::RegisterFontFileLoader**](idwritefactory-registerfontfileloader.md) method 
--   [**IDWriteFactory::UnregisterFontFileLoader**](idwritefactory-unregisterfontfileloader.md) method 
--   [**IDWriteFactory5::CreateInMemoryFontFileLoader**](idwritefactory5-createinmemoryfontfileloader.md) method 
--   [**IDWriteInMemoryFontFileLoader**](idwriteinmemoryfontfileloader.md) interface 
--   [**IDWriteFactory5::CreateHttpFontFileLoader**](idwritefactory5-createhttpfontfileloader.md) method 
--   [**IDWriteRemoteFontFileLoader**](idwriteremotefontfileloader.md) interface 
--   [**IDWriteFontDownloadQueue**](idwritefontdownloadqueue.md) interface 
--   [**IDWriteFontDownloadListener**](idwritefontdownloadlistener.md) interface 
--   [**IDWriteFontFileStream**](idwritefontfilestream.md) interface 
--   [**IDWriteRemoteFontFileStream**](idwriteremotefontfilestream.md) interface 
--   [**IDWriteAsyncResult**](idwriteasyncresult.md) interface 
--   [**IDWriteFactory5::AnalyzeContainerType**](idwritefactory5-analyzecontainertype.md) method 
--   [**IDWriteFactory5::UnpackFontFile**](idwritefactory5-unpackfontfile.md) method 
+-   [**IDWriteFontSet**](/windows/win32/dwrite_3/?branch=master) interface
+-   [**IDWriteFontSetBuilder**](/windows/win32/dwrite_3/?branch=master) interface
+-   [**IDWriteFontSetBuilder1**](/windows/win32/dwrite_3/?branch=master) interface 
+-   [**IDWriteFontFaceReference**](/windows/win32/dwrite_3/?branch=master) interface
+-   [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master) interface
+-   [**IDWriteFactory::CreateFontFileReference**](/windows/win32/dwrite/?branch=master) method 
+-   [**IDWriteFactory::CreateCustomFontFileReference**](/windows/win32/dwrite/?branch=master) method 
+-   [**IDWriteFactory3::CreateFontFaceReference**](/windows/win32/dwrite_3/nf-dwrite_3-createfontfacereference?branch=master) methods 
+-   [**DWRITE\_FONT\_PROPERTY**](/windows/win32/dwrite_3/ns-dwrite_3-dwrite_font_property?branch=master) structure 
+-   [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/win32/dwrite_3/ne-dwrite_3-dwrite_font_property_id?branch=master) enumeration 
+-   [**IDWriteFontFileLoader**](/windows/win32/dwrite/?branch=master) interface 
+-   [**IDWriteFactory::RegisterFontFileLoader**](/windows/win32/dwrite/?branch=master) method 
+-   [**IDWriteFactory::UnregisterFontFileLoader**](/windows/win32/dwrite/?branch=master) method 
+-   [**IDWriteFactory5::CreateInMemoryFontFileLoader**](/windows/win32/dwrite_3/?branch=master) method 
+-   [**IDWriteInMemoryFontFileLoader**](/windows/win32/dwrite_3/?branch=master) interface 
+-   [**IDWriteFactory5::CreateHttpFontFileLoader**](/windows/win32/dwrite_3/?branch=master) method 
+-   [**IDWriteRemoteFontFileLoader**](/windows/win32/dwrite_3/?branch=master) interface 
+-   [**IDWriteFontDownloadQueue**](/windows/win32/dwrite_3/?branch=master) interface 
+-   [**IDWriteFontDownloadListener**](/windows/win32/dwrite_3/?branch=master) interface 
+-   [**IDWriteFontFileStream**](/windows/win32/dwrite/?branch=master) interface 
+-   [**IDWriteRemoteFontFileStream**](/windows/win32/dwrite_3/?branch=master) interface 
+-   [**IDWriteAsyncResult**](/windows/win32/dwrite_3/?branch=master) interface 
+-   [**IDWriteFactory5::AnalyzeContainerType**](/windows/win32/dwrite_3/?branch=master) method 
+-   [**IDWriteFactory5::UnpackFontFile**](/windows/win32/dwrite_3/?branch=master) method 
 
  
 
@@ -85,15 +90,15 @@ A font set is a set of font face references, along with certain basic, informati
 
 A font set can be used to obtain a corresponding font collection object. See Font sets and font collections below for more details. 
 
-The IDWriteFontSet interface provides methods that allow querying for property values such as family name or font-weight, or for font face references that match particular property values. After filtering down to a particular selection, an instance of the [**IDWriteFontFaceReference**](idwritefontfacereference.md) interface can be obtained, with methods for downloading (if the actual font data is currently remote), for obtaining the corresponding [**IDWriteFontFace3**](idwritefontface3.md) object that can be used for layout and rendering. 
+The IDWriteFontSet interface provides methods that allow querying for property values such as family name or font-weight, or for font face references that match particular property values. After filtering down to a particular selection, an instance of the [**IDWriteFontFaceReference**](/windows/win32/dwrite_3/?branch=master) interface can be obtained, with methods for downloading (if the actual font data is currently remote), for obtaining the corresponding [**IDWriteFontFace3**](/windows/win32/dwrite_3/?branch=master) object that can be used for layout and rendering. 
 
-The IDWriteFontFile interface underlies each font face or font face reference. This represents the location of a font file, and has two components: a font file loader, and a font file key. The font file loader ([**IDWriteFontFileLoader**](idwritefontfileloader.md)) is used to open a file if needed, and returns a stream with the data ([**IDWriteFontFileStream**](idwritefontfilestream.md)). Depending on the loader, the data may be located at a local file path, a remote URL, or in a memory buffer. The key is a loader-defined value that uniquely identifies the file within the loader context, allowing the loader to locate the data and create a stream for it. 
+The IDWriteFontFile interface underlies each font face or font face reference. This represents the location of a font file, and has two components: a font file loader, and a font file key. The font file loader ([**IDWriteFontFileLoader**](/windows/win32/dwrite/?branch=master)) is used to open a file if needed, and returns a stream with the data ([**IDWriteFontFileStream**](/windows/win32/dwrite/?branch=master)). Depending on the loader, the data may be located at a local file path, a remote URL, or in a memory buffer. The key is a loader-defined value that uniquely identifies the file within the loader context, allowing the loader to locate the data and create a stream for it. 
 
-Custom fonts can easily be added to a custom font set, which in turn can be used for filtering or organizing font information for purposes such as creating a font-picker user interface. The font set can also be used to create a font collection for use in higher-level APIs like [**IDWriteTextFormat**](idwritetextformat.md) and [**IDWriteTextLayout**](idwritetextlayout.md). The [**IDWriteFontSetBuilder**](idwritefontsetbuilder.md) interface can be used to create a custom font set that includes several custom fonts. It can also be used to create a custom font set that mixes custom fonts and system-provided fonts; or that mixes fonts with different sources for the actual data — local storage, remote URLs, and memory. 
+Custom fonts can easily be added to a custom font set, which in turn can be used for filtering or organizing font information for purposes such as creating a font-picker user interface. The font set can also be used to create a font collection for use in higher-level APIs like [**IDWriteTextFormat**](/windows/win32/dwrite/?branch=master) and [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master). The [**IDWriteFontSetBuilder**](/windows/win32/dwrite_3/?branch=master) interface can be used to create a custom font set that includes several custom fonts. It can also be used to create a custom font set that mixes custom fonts and system-provided fonts; or that mixes fonts with different sources for the actual data — local storage, remote URLs, and memory. 
 
-As mentioned, a font face reference may refer to font data at a remote source, but the data must be local in order to obtain a font face object that can be used for layout and rendering. Downloading of remote data is handled by a font download queue. Apps can use the [**IDWriteFontDownloadQueue**](idwritefontdownloadqueue.md) interface to enqueue requests to download remote fonts to initiate the download process, and to register an [**IDWriteFontDownloadListener**](idwritefontdownloadlistener.md) object to take action when the download process has completed. 
+As mentioned, a font face reference may refer to font data at a remote source, but the data must be local in order to obtain a font face object that can be used for layout and rendering. Downloading of remote data is handled by a font download queue. Apps can use the [**IDWriteFontDownloadQueue**](/windows/win32/dwrite_3/?branch=master) interface to enqueue requests to download remote fonts to initiate the download process, and to register an [**IDWriteFontDownloadListener**](/windows/win32/dwrite_3/?branch=master) object to take action when the download process has completed. 
 
-For most of the interfaces described here, DirectWrite provides system implementations. The one exception is the [**IDWriteFontDownloadListener**](idwritefontdownloadlistener.md) interface, which an app implements to take app-specific actions when remote fonts have been downloaded locally. Apps may have reason to provide their own custom implementations for certain other interfaces, though that would only be needed in specific, more advanced scenarios. For example, an app would need to provide a custom implementation of the [**IDWriteFontFileLoader**](idwritefontfileloader.md) interface to handle font files in local storage that use the WOFF2 container format. Additional details will be provided below. 
+For most of the interfaces described here, DirectWrite provides system implementations. The one exception is the [**IDWriteFontDownloadListener**](/windows/win32/dwrite_3/?branch=master) interface, which an app implements to take app-specific actions when remote fonts have been downloaded locally. Apps may have reason to provide their own custom implementations for certain other interfaces, though that would only be needed in specific, more advanced scenarios. For example, an app would need to provide a custom implementation of the [**IDWriteFontFileLoader**](/windows/win32/dwrite/?branch=master) interface to handle font files in local storage that use the WOFF2 container format. Additional details will be provided below. 
 
 ## Fonts and font file formats
 
@@ -105,11 +110,11 @@ Certain DirectWrite APIs may deal with individual font faces, while other APIs c
 
 ## Font sets and font collections
 
-Some applications may be implemented to work with fonts using the [**IDWriteFontCollection**](idwritefontcollection.md) interface. There is a direct correspondence between a font collection and a font set. Each can hold the same fonts, but they present them with a different organization. From any font collection, a corresponding font set can be obtained, and vice versa.
+Some applications may be implemented to work with fonts using the [**IDWriteFontCollection**](/windows/win32/dwrite/?branch=master) interface. There is a direct correspondence between a font collection and a font set. Each can hold the same fonts, but they present them with a different organization. From any font collection, a corresponding font set can be obtained, and vice versa.
 
-When working with a number of custom fonts, it is easiest to use a font set builder interface to create a custom font set, and then obtain a font collection after the font set is created. The process for creating a custom font set will be described in detail below. To obtain an [**IDWriteFontCollection1**](idwritefontcollection1.md) interface from a font set, the [**IDWriteFactory3::CreateFontCollectionFromFontSet**](idwritefactory3-createfontcollectionfromfontset.md) method is used.
+When working with a number of custom fonts, it is easiest to use a font set builder interface to create a custom font set, and then obtain a font collection after the font set is created. The process for creating a custom font set will be described in detail below. To obtain an [**IDWriteFontCollection1**](/windows/win32/dwrite_3/?branch=master) interface from a font set, the [**IDWriteFactory3::CreateFontCollectionFromFontSet**](/windows/win32/dwrite_3/?branch=master) method is used.
 
-If the app has a collection object and needs to obtain a corresponding font set, this can be done using the [**IDWriteFontCollection1::GetFontSet**](idwritefontcollection1-getfontset.md) method. 
+If the app has a collection object and needs to obtain a corresponding font set, this can be done using the [**IDWriteFontCollection1::GetFontSet**](/windows/win32/dwrite_3/?branch=master) method. 
 
 ## Common scenarios
 
@@ -124,11 +129,11 @@ Complete implementations for these scenarios are provided in the [DirectWrite Cu
 
 ### Creating a font set using arbitrary fonts in the local file system
 
-When dealing with an arbitrary set of font files in local storage, the [**IDWriteFontSetBuilder1::AddFontFile**](idwritefontsetbuilder1-addfontfile.md) method is convenient since, in a single call, it can handle all of the font faces within an OpenType Font Collection file, as well as all instances for an OpenType variable font. This is available in the Windows 10 Creators Update (preview build 15021 or later), and is recommended whenever available. 
+When dealing with an arbitrary set of font files in local storage, the [**IDWriteFontSetBuilder1::AddFontFile**](/windows/win32/dwrite_3/?branch=master) method is convenient since, in a single call, it can handle all of the font faces within an OpenType Font Collection file, as well as all instances for an OpenType variable font. This is available in the Windows 10 Creators Update (preview build 15021 or later), and is recommended whenever available. 
 
 To use this method, use the following process.
 
-<dl> 1. Start by creating the [**IDWriteFactory5**](idwritefactory5.md) interface: 
+<dl> 1. Start by creating the [**IDWriteFactory5**](/windows/win32/dwrite_3/?branch=master) interface: 
 
 
 ```C++
@@ -143,7 +148,7 @@ HRESULT hr = DWriteCreateFactory( 
 
 
    
-2. Use the factory to obtain the [**IDWriteFontSetBuilder1**](idwritefontsetbuilder1.md) interface: 
+2. Use the factory to obtain the [**IDWriteFontSetBuilder1**](/windows/win32/dwrite_3/?branch=master) interface: 
 
 
 ```C++
@@ -158,7 +163,7 @@ if (SUCCEEDED(hr)) 
 
 
   
-3. For each font file in the local file system, create an [**IDWriteFontFile**](idwritefontfile.md) that refers to it: 
+3. For each font file in the local file system, create an [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master) that refers to it: 
 
 
 ```C++
@@ -172,7 +177,7 @@ if (SUCCEEDED(hr)) 
 
 
    
-4. Add the [**IDWriteFontFile**](idwritefontfile.md) object to the font set builder using the [**AddFontFile**](idwritefontsetbuilder1-addfontfile.md) method: 
+4. Add the [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master) object to the font set builder using the [**AddFontFile**](/windows/win32/dwrite_3/?branch=master) method: 
 
 
 ```C++
@@ -181,7 +186,7 @@ hr = pFontSetBuilder->AddFontFile(pFontFile); 
 
 
 
-   If the file path specified in the call to [**CreateFontFileReference**](idwritefactory-createfontfilereference.md) referred to something other than a supported OpenType file, then the call to [**AddFontFile**](idwritefontsetbuilder1-addfontfile.md) will return an error, DWRITE\_E\_FILEFORMAT.  
+   If the file path specified in the call to [**CreateFontFileReference**](/windows/win32/dwrite/?branch=master) referred to something other than a supported OpenType file, then the call to [**AddFontFile**](/windows/win32/dwrite_3/?branch=master) will return an error, DWRITE\_E\_FILEFORMAT.  
 5. After all of the files have been added to the font set builder, the custom font set can be created: 
 
 
@@ -195,11 +200,11 @@ hr = pFontSetBuilder->CreateFontSet(&amp;pFontSet); 
    
 </dl>
 
-If the app needs to run on Windows 10 versions earlier than the Windows 10 Creators Update, then the AddFontFile method will not be available. Availability can be detected by creating an [**IDWriteFactory3**](idwritefactory3.md) interface and then using QueryInterface to try to obtain an [**IDWriteFactory5**](idwritefactory5.md) interface: if this succeeds, then the [**IDWriteFontSetBuilder1**](idwritefontsetbuilder1.md) interface and [**AddFontFile**](idwritefontsetbuilder1-addfontfile.md) method will also be available.
+If the app needs to run on Windows 10 versions earlier than the Windows 10 Creators Update, then the AddFontFile method will not be available. Availability can be detected by creating an [**IDWriteFactory3**](/windows/win32/dwrite_3/?branch=master) interface and then using QueryInterface to try to obtain an [**IDWriteFactory5**](/windows/win32/dwrite_3/?branch=master) interface: if this succeeds, then the [**IDWriteFontSetBuilder1**](/windows/win32/dwrite_3/?branch=master) interface and [**AddFontFile**](/windows/win32/dwrite_3/?branch=master) method will also be available.
 
-If the AddFontFile method is not available, then the [**IDWriteFontSetBuilder::AddFontFaceReference**](idwritefontsetbuilder-addfontfacereference-overload.md) method must be used to add individual font faces. To allow for OpenType Font Collection files that contain multiple faces, the [**IDWriteFontFile::Analyze**](idwritefontfile-analyze.md) method can be used to determine the number of faces contained within the file. The process is as follows.
+If the AddFontFile method is not available, then the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/win32/dwrite_3/nf-dwrite_3-addfontfacereference?branch=master) method must be used to add individual font faces. To allow for OpenType Font Collection files that contain multiple faces, the [**IDWriteFontFile::Analyze**](/windows/win32/dwrite/?branch=master) method can be used to determine the number of faces contained within the file. The process is as follows.
 
-<dl> 1. Start by creating the [**IDWriteFactory3**](idwritefactory3.md) interface: 
+<dl> 1. Start by creating the [**IDWriteFactory3**](/windows/win32/dwrite_3/?branch=master) interface: 
 
 
 ```C++
@@ -214,7 +219,7 @@ DWRITE_FACTORY_TYPE_SHARED, 
 
 
   
-2. Use the factory to obtain the [**IDWriteFontSetBuilder**](idwritefontsetbuilder.md) interface: 
+2. Use the factory to obtain the [**IDWriteFontSetBuilder**](/windows/win32/dwrite_3/?branch=master) interface: 
 
 
 ```C++
@@ -228,7 +233,7 @@ if (SUCCEEDED(hr)) 
 
 
   
-3. For each font file, create an [**IDWriteFontFile**](idwritefontfile.md), as above: 
+3. For each font file, create an [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master), as above: 
 
 
 ```C++
@@ -241,8 +246,8 @@ if (SUCCEEDED(hr)) 
 
 
 
-Instead of adding the file directly to the font set builder, we need to determine the number of faces and create individual [**IDWriteFontFaceReference**](idwritefontfacereference.md) objects.   
-4. Use the [**Analyze**](idwritefontfile-analyze.md) method to get the number of faces in the file. 
+Instead of adding the file directly to the font set builder, we need to determine the number of faces and create individual [**IDWriteFontFaceReference**](/windows/win32/dwrite_3/?branch=master) objects.   
+4. Use the [**Analyze**](/windows/win32/dwrite/?branch=master) method to get the number of faces in the file. 
 
 
 ```C++
@@ -254,8 +259,8 @@ hr = pFontFile->Analyze(&amp;isSupported, &amp;fileType, /* face type */ nullptr
 
 
 
-The [**Analyze**](idwritefontfile-analyze.md) method will also set values for the isSupported and fileType parameters. If the file is not a supported format, then isSupported will be FALSE, and appropriate action, such as ignoring the file, can be taken.   
-5. Loop over the number of fonts set in the numberOfFonts parameter. Within the loop, create an [**IDWriteFontFaceReference**](idwritefontfacereference.md) for each file/index pair, and add that to the font set builder. 
+The [**Analyze**](/windows/win32/dwrite/?branch=master) method will also set values for the isSupported and fileType parameters. If the file is not a supported format, then isSupported will be FALSE, and appropriate action, such as ignoring the file, can be taken.   
+5. Loop over the number of fonts set in the numberOfFonts parameter. Within the loop, create an [**IDWriteFontFaceReference**](/windows/win32/dwrite_3/?branch=master) for each file/index pair, and add that to the font set builder. 
 
 
 ```C++
@@ -277,7 +282,7 @@ for (uint32_t fontIndex = 0; fontIndex < numberOfFonts; fontIndex++) 
 6. After all the faces have been added to the font set builder, create the custom font set, as shown above.  
 </dl>
 
-An app can be designed so that it will use the preferred [**AddFontFile**](idwritefontsetbuilder1-addfontfile.md) method when running on the Windows 10 Creators Update, but fall back to use the [**AddFontFaceReference**](idwritefontsetbuilder-addfontfacereference-overload.md) method when running on earlier Windows 10 versions. Test for availability of the [**IDWriteFactory5**](idwritefactory5.md) interface, as described above, and then branch accordingly. This approach is illustrated in the [DirectWrite Custom Font Sets sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/). 
+An app can be designed so that it will use the preferred [**AddFontFile**](/windows/win32/dwrite_3/?branch=master) method when running on the Windows 10 Creators Update, but fall back to use the [**AddFontFaceReference**](/windows/win32/dwrite_3/nf-dwrite_3-addfontfacereference?branch=master) method when running on earlier Windows 10 versions. Test for availability of the [**IDWriteFactory5**](/windows/win32/dwrite_3/?branch=master) interface, as described above, and then branch accordingly. This approach is illustrated in the [DirectWrite Custom Font Sets sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/). 
 
 ### Creating a font set using known fonts in the local file system
 
@@ -285,11 +290,11 @@ As mentioned above, each font face reference in a font set is associated with ce
 
 As an example of how this might be useful, suppose an app bundles some fonts that are used for presenting particular user-interface elements within the app. At times, such as with a new app version, the specific fonts that the app uses for these elements may need to change. If the app has encoded references to the specific fonts, then replacement of one font with another will require changing every one of those references. Instead, if the app uses custom properties to assign functional aliases based on the type of element or text being rendered, maps each alias to a specific font in one place and then uses the aliases in all the contexts where fonts are created and manipulated, then replacing one font with another requires only changing the one place where the alias is mapped to a specific font. 
 
-Custom values for informational properties can be assigned when the [**IDWriteFontSetBuilder::AddFontFaceReference**](idwritefontsetbuilder-addfontfacereference-overload.md) method is called. The method for doing this is as follows; this can be used on any Windows 10 version. 
+Custom values for informational properties can be assigned when the [**IDWriteFontSetBuilder::AddFontFaceReference**](/windows/win32/dwrite_3/nf-dwrite_3-addfontfacereference?branch=master) method is called. The method for doing this is as follows; this can be used on any Windows 10 version. 
 
-As shown above, start by obtaining the [**IDWriteFactory3**](idwritefactory3.md) and [**IDWriteFontSet**](idwritefontset.md) interfaces. For each custom font face to be added, create an [**IDWriteFontFaceReference**](idwritefontfacereference.md), as shown above. Before this is added to the font set builder (within the loop in step 5, shown above), however, the app defines the custom property values to be used. 
+As shown above, start by obtaining the [**IDWriteFactory3**](/windows/win32/dwrite_3/?branch=master) and [**IDWriteFontSet**](/windows/win32/dwrite_3/?branch=master) interfaces. For each custom font face to be added, create an [**IDWriteFontFaceReference**](/windows/win32/dwrite_3/?branch=master), as shown above. Before this is added to the font set builder (within the loop in step 5, shown above), however, the app defines the custom property values to be used. 
 
-A set of custom property values is defined using an array of [**DWRITE\_FONT\_PROPERTY**](dwrite-font-property.md) structures. Each of these identifies a particular property from the [**DWRITE\_FONT\_PROPERTY\_ID**](dwrite-font-property-id.md) enum, and the corresponding property value that is to be used.  
+A set of custom property values is defined using an array of [**DWRITE\_FONT\_PROPERTY**](/windows/win32/dwrite_3/ns-dwrite_3-dwrite_font_property?branch=master) structures. Each of these identifies a particular property from the [**DWRITE\_FONT\_PROPERTY\_ID**](/windows/win32/dwrite_3/ne-dwrite_3-dwrite_font_property_id?branch=master) enum, and the corresponding property value that is to be used.  
 
 Note that all property values are assigned as strings. If these may later be displayed to users, then alternate values for a given property for different languages may be set, but this is not required. Also note that if any custom property values are set by the app, then only those values that are specified will be used within the Font set; DirectWrite will not derive any values directly from the font for informational properties used in a font set. 
 
@@ -326,15 +331,15 @@ Once all custom font faces have been added to the font set builder, along with t
 
 Custom properties are important for working with remote fonts. Each font face reference must have some informational properties to characterize the font and distinguish it from other fonts. Since the font data for remote fonts is not local, DirectWrite cannot derive properties directly from the font data. Hence, properties must be provided explicitly when adding a remote font to the font set builder.
 
-The sequence of API calls for adding remote fonts to a font set is similar to the sequence described for the previous scenario. Since the font data is remote, however, the operations involved for reading the actual font data will be different than when working with files in local storage. For this situation, a new lower-level interface, [**IDWriteRemoteFontFileLoader**](idwriteremotefontfileloader.md), has been added in the Windows 10 Creators Update. 
+The sequence of API calls for adding remote fonts to a font set is similar to the sequence described for the previous scenario. Since the font data is remote, however, the operations involved for reading the actual font data will be different than when working with files in local storage. For this situation, a new lower-level interface, [**IDWriteRemoteFontFileLoader**](/windows/win32/dwrite_3/?branch=master), has been added in the Windows 10 Creators Update. 
 
 To use the remote font file loader, it must first be registered with a DirectWrite factory. The loader will need to be held by the app for as long as the fonts associated with it are being used. Once the fonts are no longer in use, and at some point before the factory is destroyed, the loader must be unregistered. This can be done in the destructor for the class that owns the loader object. These steps will be shown below. 
 
 The method for creating a custom font set using remote fonts is as follows; this requires the Windows 10 Creators Update.  
 
 <dl> 1. Create an IDWriteFactory5 interface, as shown above.   
-2. Create an [**IDWriteFontSetBuilder**](idwritefontsetbuilder.md) interface, as shown above.   
-3. Use the factory to obtain an [**IDWriteRemoteFontFileLoader**](idwriteremotefontfileloader.md). 
+2. Create an [**IDWriteFontSetBuilder**](/windows/win32/dwrite_3/?branch=master) interface, as shown above.   
+3. Use the factory to obtain an [**IDWriteRemoteFontFileLoader**](/windows/win32/dwrite_3/?branch=master). 
 
 
 ```C++
@@ -371,8 +376,8 @@ A single remote font file loader can be used for multiple fonts, though differen
 
 
 
-From this point, the steps for creating the custom font set are similar to those described for known, local font files, with two important exceptions. First, the [**IDWriteFontFile**](idwritefontfile.md) object is created using the remote font file loader interface rather than using the factory. Second, the Analyze method cannot be used since the font data is not local. Instead, the app must know whether the remote font file is an OpenType Font Collection file, and if so, then it must know which of the fonts within the collection it will use, and the index for each. Hence, the remaining steps are as follows.   
-5. For each remote font file, use the remote font file loader interface to create an [**IDWriteFontFile**](idwritefontfile.md), specifying the URL required to access the font file. 
+From this point, the steps for creating the custom font set are similar to those described for known, local font files, with two important exceptions. First, the [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master) object is created using the remote font file loader interface rather than using the factory. Second, the Analyze method cannot be used since the font data is not local. Instead, the app must know whether the remote font file is an OpenType Font Collection file, and if so, then it must know which of the fonts within the collection it will use, and the index for each. Hence, the remaining steps are as follows.   
+5. For each remote font file, use the remote font file loader interface to create an [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master), specifying the URL required to access the font file. 
 
 
 ```C++
@@ -395,7 +400,7 @@ Note that the complete URL can be specified in the fontFileUrl parameter, or it 
  
 
 Also note that the URL can point to a raw OpenType font file (.ttf, .otf, .ttc, .otc), but it can also point to fonts in a WOFF or WOFF2 container file. If a WOFF or WOFF2 file is referenced, then the DirectWrite implementation of the remote font file loader will automatically unpack the font data from the container file.   
-6. For each font face index within the remote font file that is to be used, create an [**IDWriteFontFaceReference**](idwritefontfacereference.md). 
+6. For each font face index within the remote font file that is to be used, create an [**IDWriteFontFaceReference**](/windows/win32/dwrite_3/?branch=master). 
 
 
 ```C++
@@ -425,41 +430,41 @@ Once a custom font set with custom remote fonts is created, the font set contain
 
 An app can take an up-front approach by requesting that DirectWrite download the font data and then waiting for confirmation of a successful download before any processing with the font is begun. But a network download implies some latency of unpredictable duration, and success is also uncertain. For this reason, it will usually be better to take a different approach, allowing layout and rendering to be done initially using alternate or fallback fonts that are already local, while requesting download of the desired, remote font in parallel, and then updating the results once the desired font has been downloaded. 
 
-To request that the entire font be downloaded before it gets used, the [**IDWriteFontFaceReference::EnqueueFontDownloadRequest**](idwritefontfacereference-enqueuefontdownloadrequest.md) method can be used. If the font is very large, only a portion of the data may be needed for processing particular strings. DirectWrite provides additional methods that can be used to request portions of the font data needed for particular content, [**EnqueueCharacterDownloadRequest**](idwritefontfacereference-enqueuecharacterdownloadrequest.md) and [**EnqueueGlyphDownloadRequest**](idwritefontfacereference-enqueueglyphdownloadrequest.md).  
+To request that the entire font be downloaded before it gets used, the [**IDWriteFontFaceReference::EnqueueFontDownloadRequest**](/windows/win32/dwrite_3/?branch=master) method can be used. If the font is very large, only a portion of the data may be needed for processing particular strings. DirectWrite provides additional methods that can be used to request portions of the font data needed for particular content, [**EnqueueCharacterDownloadRequest**](/windows/win32/dwrite_3/?branch=master) and [**EnqueueGlyphDownloadRequest**](/windows/win32/dwrite_3/?branch=master).  
 
-Suppose the approach to be taken in the app is to allow processing to be done initially using local, alternate or fallback fonts. The IDWriteFontFallback::[**MapCharacters**](idwritefontfallback-mapcharacters.md) method can be used to identify local fallback fonts, and it will also automatically enqueue a request to download the preferred font. Also, if [**IDWriteTextLayout**](idwritetextlayout.md) is used and some or all of the text in the layout is formatted using a remote font reference, then DirectWrite will automatically use the **MapCharacters** method to get local fallback fonts and to enqueue a request to download the remote font data. 
+Suppose the approach to be taken in the app is to allow processing to be done initially using local, alternate or fallback fonts. The IDWriteFontFallback::[**MapCharacters**](idwritefontfallback-mapcharacters.md) method can be used to identify local fallback fonts, and it will also automatically enqueue a request to download the preferred font. Also, if [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master) is used and some or all of the text in the layout is formatted using a remote font reference, then DirectWrite will automatically use the **MapCharacters** method to get local fallback fonts and to enqueue a request to download the remote font data. 
 
-DirectWrite maintains a font download queue for each factory, and the requests made using the methods mentioned above get added to that queue. The font download queue can be obtained using the [**IDWriteFactory3::GetFontDownloadQueue**](idwritefactory3-getfontdownloadqueue.md) method. 
+DirectWrite maintains a font download queue for each factory, and the requests made using the methods mentioned above get added to that queue. The font download queue can be obtained using the [**IDWriteFactory3::GetFontDownloadQueue**](/windows/win32/dwrite_3/?branch=master) method. 
 
-If a download request is made but the font data is already local, this will result in a no-op: Nothing will be added to the download queue. An app can check whether the queue is empty or there are pending download requests by calling the [**IDWriteFontDownloadQueue::IsEmpty**](idwritefontdownloadqueue-isempty.md) method. 
+If a download request is made but the font data is already local, this will result in a no-op: Nothing will be added to the download queue. An app can check whether the queue is empty or there are pending download requests by calling the [**IDWriteFontDownloadQueue::IsEmpty**](/windows/win32/dwrite_3/?branch=master) method. 
 
-After remote font requests have been added to the queue, the download process must be initiated. When remote fonts are used in [**IDWriteTextLayout**](idwritetextlayout.md), the download will be initiated automatically when the app calls **IDWriteTextLayout** methods that force layout or rendering operations, such as the GetLineMetrics or Draw methods. In other scenarios, the app must initiate the download directly by calling [**IDWriteFontDownloadQueue::BeginDownload**](idwritefontdownloadqueue-begindownload.md).  
+After remote font requests have been added to the queue, the download process must be initiated. When remote fonts are used in [**IDWriteTextLayout**](/windows/win32/dwrite/?branch=master), the download will be initiated automatically when the app calls **IDWriteTextLayout** methods that force layout or rendering operations, such as the GetLineMetrics or Draw methods. In other scenarios, the app must initiate the download directly by calling [**IDWriteFontDownloadQueue::BeginDownload**](/windows/win32/dwrite_3/?branch=master).  
 
-When a download is completed, it will be up to the app to take appropriate actions — proceeding with pending operations, or repeating operations that were done initially with fallback fonts. (If DirectWrite’s text layout is being used, then [**IDWriteTextLayout3::InvalidateLayout**](idwritetextlayout3-invalidatelayout.md) can be used to clear the temporary results computed using fallback fonts.) In order for the app to be notified when the download process has completed and to take appropriate actions, the app must provide an implementation of the [**IDWriteFontDownloadListener**](idwritefontdownloadlistener.md) interface, and pass this into the BeginDownload call. 
+When a download is completed, it will be up to the app to take appropriate actions — proceeding with pending operations, or repeating operations that were done initially with fallback fonts. (If DirectWrite’s text layout is being used, then [**IDWriteTextLayout3::InvalidateLayout**](idwritetextlayout3-invalidatelayout.md) can be used to clear the temporary results computed using fallback fonts.) In order for the app to be notified when the download process has completed and to take appropriate actions, the app must provide an implementation of the [**IDWriteFontDownloadListener**](/windows/win32/dwrite_3/?branch=master) interface, and pass this into the BeginDownload call. 
 
 > \[!Important\]  
-> Security / performance note: When an attempt is made to fetch a remote font, there is no guarantee that Windows will receive a response from the server. If the server does not respond, Windows will eventually time out, though this may take several minutes if multiple remote fonts are being fetched but failing. The BeginDownload call will return immediately. Apps should not block UI while waiting for [**IDWriteFontDownloadListener::DownloadCompleted**](idwritefontdownloadlistener-downloadcompleted.md) to be called. 
+> Security / performance note: When an attempt is made to fetch a remote font, there is no guarantee that Windows will receive a response from the server. If the server does not respond, Windows will eventually time out, though this may take several minutes if multiple remote fonts are being fetched but failing. The BeginDownload call will return immediately. Apps should not block UI while waiting for [**IDWriteFontDownloadListener::DownloadCompleted**](/windows/win32/dwrite_3/?branch=master) to be called. 
 
  
 
-Sample implementations of these interactions with DirectWrite’s font download queue and of the [**IDWriteFontDownloadListener**](idwritefontdownloadlistener.md) interface can be seen in the [DirectWrite Custom Font Sets sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/), and also in the [DirectWrite Downloadable Fonts sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteTextLayoutCloudFont). 
+Sample implementations of these interactions with DirectWrite’s font download queue and of the [**IDWriteFontDownloadListener**](/windows/win32/dwrite_3/?branch=master) interface can be seen in the [DirectWrite Custom Font Sets sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/), and also in the [DirectWrite Downloadable Fonts sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteTextLayoutCloudFont). 
 
 ### Creating a custom font set using font data loaded into memory
 
-Just as the low-level operations for reading data from a font file are different for files on a local disk versus remote files on the Web, the same is also true for font data loaded into a memory buffer. A new low-level interface for handling in-memory font data has been added in the Windows 10 Creators Update, [**IDWriteInMemoryFontFileLoader**](idwriteinmemoryfontfileloader.md). 
+Just as the low-level operations for reading data from a font file are different for files on a local disk versus remote files on the Web, the same is also true for font data loaded into a memory buffer. A new low-level interface for handling in-memory font data has been added in the Windows 10 Creators Update, [**IDWriteInMemoryFontFileLoader**](/windows/win32/dwrite_3/?branch=master). 
 
 As with a remote font file loader, an in-memory font file loader must first be registered with a DirectWrite factory. The loader will need to be held by the app for as long as the fonts associated with it are being used. Once the fonts are no longer in use, and at some point before the factory is destroyed, the loader must be unregistered. This can be done in the destructor for the class that owns the loader object. These steps will be shown below. 
 
 If the app has separate information about the font faces represented by the data, it can add individual font face references to a font set builder with custom properties specified. Since the font data is in local memory, however, this is not required; DirectWrite will be able to read the data directly to derive the property values. 
 
-DirectWrite assumes the font data is in raw, OpenType format, equivalent to an OpenType file (.ttf, .otf, .ttc, .otc), but in memory rather than on disk. The data cannot be in a WOFF or WOFF2 container format. The data can represent an OpenType Font Collection. If custom properties are not being used, then the [**IDWriteFontSetBuilder1::AddFontFile**](idwritefontsetbuilder1-addfontfile.md) method can be used to add all font faces in the data in a single call. 
+DirectWrite assumes the font data is in raw, OpenType format, equivalent to an OpenType file (.ttf, .otf, .ttc, .otc), but in memory rather than on disk. The data cannot be in a WOFF or WOFF2 container format. The data can represent an OpenType Font Collection. If custom properties are not being used, then the [**IDWriteFontSetBuilder1::AddFontFile**](/windows/win32/dwrite_3/?branch=master) method can be used to add all font faces in the data in a single call. 
 
 An important consideration for the in-memory scenario is the lifetime of the data. If a pointer to the buffer is provided to DirectWrite without a clear indication that there is an owner, then DirectWrite will make a copy of the data into a new memory buffer that it will own. To avoid copying of data and additional memory allocation, the app can pass a data-owner object that implements IUnknown, and that owns the memory buffer containing the font data. By implementing this interface, DirectWrite can add to the ref count of the object, thereby ensuring the lifetime of the owned data. 
 
 The method for creating a custom font set using in-memory font data is as follows; this requires the Windows 10 Creators Update. This will assume an app-implemented data-owner object, that implements IUnknown and also has methods that return a pointer to the memory buffer and the size of the buffer. 
 
 <dl> 1. Create an IDWriteFactory5 interface, as shown above.  
-2. Create an [**IDWriteFontSetBuilder1**](idwritefontsetbuilder1.md) interface, as shown above.  
+2. Create an [**IDWriteFontSetBuilder1**](/windows/win32/dwrite_3/?branch=master) interface, as shown above.  
 3. Use the factory to obtain an IDWriteInMemoryFontFileLoader. 
 
 
@@ -487,7 +492,7 @@ if (SUCCEEDED(hr)) 
 
 
    
-5. For each in-memory font file, use the in-memory font file loader to create an [**IDWriteFontFile**](idwritefontfile.md). 
+5. For each in-memory font file, use the in-memory font file loader to create an [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master). 
 
 
 ```C++
@@ -504,7 +509,7 @@ hr = pInMemoryFontFileLoader->CreateInMemoryFontFileReference( 
 
 
    
-6. Add the [**IDWriteFontFile**](idwritefontfile.md) object to the font set builder using the [**AddFontFile**](idwritefontsetbuilder1-addfontfile.md) method, as shown above.  If there is a need, the app can instead create individual [**IDWriteFontFaceReference**](idwritefontfacereference.md) objects based on the **IDWriteFontFile**, optionally define custom properties for each font face reference, and then add the font face reference with custom properties to the font set using the [**AddFontFaceReference**](idwritefontsetbuilder-addfontfacereference-overload.md) method, as shown above.   
+6. Add the [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master) object to the font set builder using the [**AddFontFile**](/windows/win32/dwrite_3/?branch=master) method, as shown above.  If there is a need, the app can instead create individual [**IDWriteFontFaceReference**](/windows/win32/dwrite_3/?branch=master) objects based on the **IDWriteFontFile**, optionally define custom properties for each font face reference, and then add the font face reference with custom properties to the font set using the [**AddFontFaceReference**](/windows/win32/dwrite_3/nf-dwrite_3-addfontfacereference?branch=master) method, as shown above.   
 7. After all fonts have been added to the font set builder, create the custom font set, as shown above.   
 8. At some point when the in-memory fonts will no longer be used, unregister the in-memory font file loader. 
 
@@ -528,19 +533,19 @@ Some apps may have special requirements that require more advanced processing th
 
 Some apps may need to create a font set that comprises some combination of items from other font sets. For example, an app may want to create a font set that combines all the fonts installed on the system with a selection of custom fonts, or that combines installed fonts matching certain criteria with other fonts. DirectWrite has APIs to support manipulation and combining of font sets. 
 
-To combine two or more font sets, the [**IDWriteFontSetBuilder::AddFontSet**](idwritefontsetbuilder-addfontset.md) method adds all of the fonts in given font set to be added to a font set builder in a single call. If only certain fonts from an existing font set are wanted in the new font set, the [**IDWriteFontSet::GetMatchingFonts**](idwritefontset-getmatchingfonts-overload.md) method can be used to derive a new font set object that has been filtered to include only fonts matching specified properties. These methods provide an easy way to create a custom font set combining fonts from two or more existing font sets 
+To combine two or more font sets, the [**IDWriteFontSetBuilder::AddFontSet**](/windows/win32/dwrite_3/?branch=master) method adds all of the fonts in given font set to be added to a font set builder in a single call. If only certain fonts from an existing font set are wanted in the new font set, the [**IDWriteFontSet::GetMatchingFonts**](idwritefontset-getmatchingfonts-overload.md) method can be used to derive a new font set object that has been filtered to include only fonts matching specified properties. These methods provide an easy way to create a custom font set combining fonts from two or more existing font sets 
 
 ### Using local WOFF or WOFF2 font data
 
-If an app has font files in the local file system or in a memory buffer, but they use the WOFF or WOFF2 container formats, DirectWrite (Windows 10 Creator Update or later) provides a method for unpacking the container format, [**IDWriteFactory5::UnpackFontFile**](idwritefactory5-unpackfontfile.md), which returns an [**IDWriteFontFileStream**](idwritefontfilestream.md). 
+If an app has font files in the local file system or in a memory buffer, but they use the WOFF or WOFF2 container formats, DirectWrite (Windows 10 Creator Update or later) provides a method for unpacking the container format, [**IDWriteFactory5::UnpackFontFile**](/windows/win32/dwrite_3/?branch=master), which returns an [**IDWriteFontFileStream**](/windows/win32/dwrite/?branch=master). 
 
-However, the app will need a way to get the [**IDWriteFontFileStream**](idwritefontfilestream.md) into a font file loader object. One way to do this is to create a custom [**IDWriteFontFileLoader**](idwritefontfileloader.md) implementation that wraps the stream. As with other font file loaders, this must be registered before use, and unregistered before the factory goes out of scope.  
+However, the app will need a way to get the [**IDWriteFontFileStream**](/windows/win32/dwrite/?branch=master) into a font file loader object. One way to do this is to create a custom [**IDWriteFontFileLoader**](/windows/win32/dwrite/?branch=master) implementation that wraps the stream. As with other font file loaders, this must be registered before use, and unregistered before the factory goes out of scope.  
 
-If the custom loader will also be used with raw (not packed) font files, then the app would also need to provide a custom implementation of the [**IDWriteFontFileStream**](idwritefontfilestream.md) interface for handling those files. There are easier ways that use APIs discussed above for handling raw font files, however. The need for a custom stream implementation could be avoided by using separate code paths for packed font files versus raw font files. 
+If the custom loader will also be used with raw (not packed) font files, then the app would also need to provide a custom implementation of the [**IDWriteFontFileStream**](/windows/win32/dwrite/?branch=master) interface for handling those files. There are easier ways that use APIs discussed above for handling raw font files, however. The need for a custom stream implementation could be avoided by using separate code paths for packed font files versus raw font files. 
 
-After a custom font file loader object is created, the packed font file data is added to the loader by app-specific means. The loader can handle multiple font files, each of which is identified using an app-defined key that is opaque to DirectWrite. After a packed font file has been added to the loader, the [**IDWriteFactory::CreateCustomFontFileReference**](idwritefactory-createcustomfontfilereference.md) method is used to obtain an [**IDWriteFontFile**](idwritefontfile.md) based on that loader for the font data identified by a given key.  
+After a custom font file loader object is created, the packed font file data is added to the loader by app-specific means. The loader can handle multiple font files, each of which is identified using an app-defined key that is opaque to DirectWrite. After a packed font file has been added to the loader, the [**IDWriteFactory::CreateCustomFontFileReference**](/windows/win32/dwrite/?branch=master) method is used to obtain an [**IDWriteFontFile**](/windows/win32/dwrite/?branch=master) based on that loader for the font data identified by a given key.  
 
-The actual unpacking of the font data can be done as fonts are added to the loader, but can also be handled in the [**IDWriteFontFileLoader::CreateStreamFromKey**](idwritefontfileloader-createstreamfromkey.md) method, which DirectWrite will call when it first needs to read the font data. 
+The actual unpacking of the font data can be done as fonts are added to the loader, but can also be handled in the [**IDWriteFontFileLoader::CreateStreamFromKey**](/windows/win32/dwrite/?branch=master) method, which DirectWrite will call when it first needs to read the font data. 
 
 After an IDWriteFontFile object has been created, remaining steps for adding the fonts to a custom font set will be as described above. 
 
@@ -550,9 +555,9 @@ An implementation using this approach is illustrated in the [DirectWrite Custom 
 
 The DirectWrite mechanisms for handling remote fonts can be divided into higher-level mechanisms — having font sets that include font face references for remote fonts, checking locality of the font data, and managing the queue for font download requests — and the lower-level mechanisms that handle actual download. Some apps may want to utilize the higher-level remote font mechanisms, but also require custom network interactions, such as communicating with servers using protocols other than HTTP. 
 
-For this situation, an app will need to create a custom implementation of the [**IDWriteRemoteFontFileLoader**](idwriteremotefontfileloader.md) interface that interacts with other lower-level interfaces in the required ways. The app will also need to provide custom implementations of these lower-level interfaces: [**IDWriteRemoteFontFileStream**](idwriteremotefontfilestream.md), and [**IDWriteAsyncResult**](idwriteasyncresult.md). These three interfaces have callback methods that DirectWrite will call during download operations. 
+For this situation, an app will need to create a custom implementation of the [**IDWriteRemoteFontFileLoader**](/windows/win32/dwrite_3/?branch=master) interface that interacts with other lower-level interfaces in the required ways. The app will also need to provide custom implementations of these lower-level interfaces: [**IDWriteRemoteFontFileStream**](/windows/win32/dwrite_3/?branch=master), and [**IDWriteAsyncResult**](/windows/win32/dwrite_3/?branch=master). These three interfaces have callback methods that DirectWrite will call during download operations. 
 
-When [**IDWriteFontDownloadQueue::BeginDownload**](idwritefontdownloadqueue-begindownload.md) is called, DirectWrite will make queries to the remote font file loader about locality of the data, and will request the remote stream. If data is not local, then it will call the stream’s BeginDownload method. The stream implementation should not block on that call, but should immediately return, passing back an [**IDWriteAsyncResult**](idwriteasyncresult.md) object that provides the wait handle DirectWrite will use to wait on the asynchronous download operation. The custom stream implementation is responsible for handling the remote communication. When the completion event has occurred, then DirectWrite will call [**IDWriteAsyncResult::GetResult**](idwriteasyncresult-getresult.md) to determine the result of the operation. If the result is successful, then it’s expected that subsequent ReadFragment calls to the stream for the downloaded ranges will succeed. 
+When [**IDWriteFontDownloadQueue::BeginDownload**](/windows/win32/dwrite_3/?branch=master) is called, DirectWrite will make queries to the remote font file loader about locality of the data, and will request the remote stream. If data is not local, then it will call the stream’s BeginDownload method. The stream implementation should not block on that call, but should immediately return, passing back an [**IDWriteAsyncResult**](/windows/win32/dwrite_3/?branch=master) object that provides the wait handle DirectWrite will use to wait on the asynchronous download operation. The custom stream implementation is responsible for handling the remote communication. When the completion event has occurred, then DirectWrite will call [**IDWriteAsyncResult::GetResult**](/windows/win32/dwrite_3/?branch=master) to determine the result of the operation. If the result is successful, then it’s expected that subsequent ReadFragment calls to the stream for the downloaded ranges will succeed. 
 
 > \[!Important\]  
 > Security / performance note: When an attempt is made to fetch a remote font, the potential exists in general for an attacker to spoof the intended server being called, or that the server may not respond. If you are implementing custom network interactions, you may have greater control over mitigations than when dealing with third-party servers. However, it is up to you to consider appropriate mitigations to avoid information disclosure or denial of service. Secure protocols such as HTTPS are recommended. Also, you should build in some timeout so that the event handle returned to DirectWrite does eventually get set. 

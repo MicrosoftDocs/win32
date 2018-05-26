@@ -4,11 +4,15 @@ description: The Cluster service is a system component used to control failover 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '90717d6e-f2a4-49a0-86b6-17de1c4bcfe4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 90717d6e-f2a4-49a0-86b6-17de1c4bcfe4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Cluster service Failover Cluster"]
+keywords:
+- Cluster service Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Service

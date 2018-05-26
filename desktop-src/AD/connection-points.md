@@ -4,11 +4,15 @@ description: A connection point object contains data about one or more instances
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eb810e6d-c220-4a24-ae12-b12ace237413'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eb810e6d-c220-4a24-ae12-b12ace237413
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["connection points AD"]
+keywords:
+- connection points AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connection Points

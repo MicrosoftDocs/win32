@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command completes a data transfer and read response from the device.'
-ms.assetid: 'df2da2e6-ed5a-41a1-be30-844c0d6b409b'
-title: 'WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER Command'
+Description: The WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER command completes a data transfer and read response from the device.
+ms.assetid: df2da2e6-ed5a-41a1-be30-844c0d6b409b
+title: WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_MTP\_EXT\_END\_DATA\_TRANSFER Command
@@ -24,7 +29,7 @@ The driver expects the following parameters.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -39,11 +44,11 @@ The driver returns the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly by using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly by using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -62,9 +67,9 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](iportabl
 [Supporting MTP Extensions](supporting-mtp-extensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

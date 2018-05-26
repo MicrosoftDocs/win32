@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetPrintTicket method associates a print ticket with the page.'
-ms.assetid: 'd899211a-e98d-45f6-9574-8b5f51658edf'
-title: 'IFixedPage::SetPrintTicket method'
+---
+Description: The SetPrintTicket method associates a print ticket with the page.
+ms.assetid: d899211a-e98d-45f6-9574-8b5f51658edf
+title: IFixedPageSetPrintTicket method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedPage::SetPrintTicket method

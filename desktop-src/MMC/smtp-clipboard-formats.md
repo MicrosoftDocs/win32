@@ -4,10 +4,13 @@ description: The following clipboard formats are supported by the SMTP snap-in. 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fe3d3548-1edb-46ae-80be-317f238c6cb2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: fe3d3548-1edb-46ae-80be-317f238c6cb2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SMTP Clipboard Formats

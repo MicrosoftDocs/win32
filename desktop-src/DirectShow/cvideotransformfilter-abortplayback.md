@@ -1,7 +1,12 @@
 ---
-Description: 'The AbortPlayback method is used to signal a streaming error. It sends an EC\_ERRORABORT event to the Filter Graph Manager, and sends an end-of-stream notification downstream.'
-ms.assetid: 'b48ec72f-d220-4b27-98fc-88eaa4f663eb'
-title: 'CVideoTransformFilter.AbortPlayback method'
+Description: The AbortPlayback method is used to signal a streaming error. It sends an EC\_ERRORABORT event to the Filter Graph Manager, and sends an end-of-stream notification downstream.
+ms.assetid: b48ec72f-d220-4b27-98fc-88eaa4f663eb
+title: CVideoTransformFilter.AbortPlayback method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter.AbortPlayback method
@@ -13,7 +18,7 @@ The `AbortPlayback` method is used to signal a streaming error. It sends an [**E
 
 ```C++
 HRESULT AbortPlayback(
-   HRESULT hr
+   HRESULT hr
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the value of the *hr* parameter.
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

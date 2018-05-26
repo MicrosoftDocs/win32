@@ -1,8 +1,19 @@
 ---
 title: Windows Media Player User Interface Plug-ins
 description: Windows Media Player User Interface Plug-ins
-ms.assetid: '71f53abe-310f-429a-bb23-5291bebdc432'
-keywords: ["Windows Media Player,plug-ins", "Windows Media Player,user interface plug-ins", "Windows Media Player plug-ins,user interface", "plug-ins,user interface", "user interface plug-ins,about", "UI plug-ins,about"]
+ms.assetid: 71f53abe-310f-429a-bb23-5291bebdc432
+keywords:
+- Windows Media Player,plug-ins
+- Windows Media Player,user interface plug-ins
+- Windows Media Player plug-ins,user interface
+- plug-ins,user interface
+- user interface plug-ins,about
+- UI plug-ins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Player User Interface Plug-ins

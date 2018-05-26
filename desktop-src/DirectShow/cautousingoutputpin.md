@@ -1,7 +1,12 @@
 ---
-Description: 'The CAutoUsingOutputPin class obtains and releases access to a CDynamicOutputPin object.'
-ms.assetid: '4ded5d18-4b14-4574-ad1f-73b886a51fac'
+Description: The CAutoUsingOutputPin class obtains and releases access to a CDynamicOutputPin object.
+ms.assetid: 4ded5d18-4b14-4574-ad1f-73b886a51fac
 title: CAutoUsingOutputPin class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAutoUsingOutputPin class
@@ -19,7 +24,7 @@ The **CAutoUsingOutputPin** class obtains and releases access to a [**CDynamicOu
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +75,9 @@ HRESULT hr = S_OK;  // Important! Initialize to S_OK.
 [Base Class Reference](base-class-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

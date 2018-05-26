@@ -1,7 +1,12 @@
 ---
-Description: 'A superclass for classes that represent display devices.'
-ms.assetid: '6e3b4b40-dacb-4b89-b636-0c1b18872a51'
-title: 'CIM\_Display class'
+Description: A superclass for classes that represent display devices.
+ms.assetid: 6e3b4b40-dacb-4b89-b636-0c1b18872a51
+title: CIM\_Display class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_Display class
@@ -27,8 +32,8 @@ The **CIM\_Display** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -42,9 +47,9 @@ The **CIM\_Display** class does not define any members.
 [**CIM\_UserDevice**](cim-userdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

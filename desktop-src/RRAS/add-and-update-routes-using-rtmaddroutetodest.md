@@ -1,24 +1,29 @@
 ---
 title: Add and Update Routes Using RtmAddRouteToDest
 description: The function RtmAddRouteToDest is used to add new routes and update existing routes for a destination. The following procedures explain both cases. The sample code that follows shows how to implement the first procedure.
-ms.assetid: '17a04511-69f8-4e50-993c-0e558ee72184'
+ms.assetid: 17a04511-69f8-4e50-993c-0e558ee72184
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Add and Update Routes Using RtmAddRouteToDest
 
-The function [**RtmAddRouteToDest**](rtmaddroutetodest.md) is used to add new routes and update existing routes for a destination. The following procedures explain both cases. The sample code that follows shows how to implement the first procedure.
+The function [**RtmAddRouteToDest**](/windows/win32/Rtmv2/nf-rtmv2-rtmaddroutetodest?branch=master) is used to add new routes and update existing routes for a destination. The following procedures explain both cases. The sample code that follows shows how to implement the first procedure.
 
 **To add a route, the client should take the following steps**
 
 1.  If the client has already cached the next-hop handle, go to step 4.
-2.  Create an [**RTM\_NEXTHOP\_INFO**](rtm-nexthop-info.md) structure and fill it with the appropriate information.
-3.  Add the next hop to the routing table by calling [**RtmAddNextHop**](rtmaddnexthop.md). The routing table manager returns a handle to the next hop. If the next hop already exists, the routing table does not add the next hop; instead it returns the handle to the next hop.
-4.  Create an [**RTM\_ROUTE\_INFO**](rtm-route-info.md) structure and fill it with the appropriate information, including the next-hop handle returned by the routing table manager.
-5.  Add the route to the routing table by calling [**RtmAddRouteToDest**](rtmaddroutetodest.md). The routing table manager compares the new route to the routes that are already in the routing table. Two routes are equal if all of the following conditions are true:
+2.  Create an [**RTM\_NEXTHOP\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_nexthop_info?branch=master) structure and fill it with the appropriate information.
+3.  Add the next hop to the routing table by calling [**RtmAddNextHop**](/windows/win32/Rtmv2/nf-rtmv2-rtmaddnexthop?branch=master). The routing table manager returns a handle to the next hop. If the next hop already exists, the routing table does not add the next hop; instead it returns the handle to the next hop.
+4.  Create an [**RTM\_ROUTE\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_route_info?branch=master) structure and fill it with the appropriate information, including the next-hop handle returned by the routing table manager.
+5.  Add the route to the routing table by calling [**RtmAddRouteToDest**](/windows/win32/Rtmv2/nf-rtmv2-rtmaddroutetodest?branch=master). The routing table manager compares the new route to the routes that are already in the routing table. Two routes are equal if all of the following conditions are true:
 
     -   The route is being added to the same destination.
-    -   The route is being added by the same client as specified by the **Owner** member of the [**RTM\_ROUTE\_INFO**](rtm-route-info.md) structure.
-    -   The route is advertised by the same neighbor as specified by the **Neighbor** member of the [**RTM\_ROUTE\_INFO**](rtm-route-info.md) structure.
+    -   The route is being added by the same client as specified by the **Owner** member of the [**RTM\_ROUTE\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_route_info?branch=master) structure.
+    -   The route is advertised by the same neighbor as specified by the **Neighbor** member of the [**RTM\_ROUTE\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_route_info?branch=master) structure.
 
     If the route exists, the routing table manager returns the handle to the existing route. Otherwise, the routing table manager adds the route and returns the handle to the new route.
 
@@ -28,9 +33,9 @@ The function [**RtmAddRouteToDest**](rtmaddroutetodest.md) is used to add new ro
 
 **To update a route, the client should take the following steps**
 
-1.  Call [**RtmGetRouteInfo**](rtmgetrouteinfo.md) with the handle to the route. The handle is either one previously cached by the client, or returned by the routing table manager from a call that returns a route handle such as **RtmGetRouteInfo**.
-2.  Make the changes to the [**RTM\_ROUTE\_INFO**](rtm-route-info.md) structure that is returned by the routing table manager.
-3.  Call [**RtmAddRouteToDest**](rtmaddroutetodest.md) with the handle to the route and the changed [**RTM\_ROUTE\_INFO**](rtm-route-info.md) structure.
+1.  Call [**RtmGetRouteInfo**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetrouteinfo?branch=master) with the handle to the route. The handle is either one previously cached by the client, or returned by the routing table manager from a call that returns a route handle such as **RtmGetRouteInfo**.
+2.  Make the changes to the [**RTM\_ROUTE\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_route_info?branch=master) structure that is returned by the routing table manager.
+3.  Call [**RtmAddRouteToDest**](/windows/win32/Rtmv2/nf-rtmv2-rtmaddroutetodest?branch=master) with the handle to the route and the changed [**RTM\_ROUTE\_INFO**](/windows/win32/Rtmv2/ns-rtmv2-_rtm_route_info?branch=master) structure.
 
 The following sample code shows how to add a route to a destination using the routing table manager as an intermediary.
 

@@ -1,8 +1,10 @@
 ---
 title: ACCTLISTINFO structure
 description: Contains information about an account list for display in a dialog box.
-ms.assetid: 'dd86931f-57cb-474c-9076-cfe4c707ffa9'
-keywords: ["ACCTLISTINFO structure Windows Mail (formerly Outlook Express)", "ACCESSTYPE structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: dd86931f-57cb-474c-9076-cfe4c707ffa9
+keywords:
+- ACCTLISTINFO structure Windows Mail (formerly Outlook Express)
+- ACCESSTYPE structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnact.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACCTLISTINFO structure
@@ -24,10 +31,10 @@ Contains information about an account list for display in a dialog box.
 
 ```C++
 typedef struct tagACCTLISTINFO {
-  DWORD    cbSize;
+  DWORD    cbSize;
   ACCTTYPE AcctTypeInit;
-  DWORD    dwAcctFlags;
-  DWORD    dwFlags;
+  DWORD    dwAcctFlags;
+  DWORD    dwFlags;
 } ACCESSTYPE;
 ```
 
@@ -141,17 +148,17 @@ Contains dialog initialization information.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

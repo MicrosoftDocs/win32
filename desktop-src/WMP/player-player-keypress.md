@@ -1,8 +1,11 @@
 ---
 title: Player.KeyPress event
 description: The KeyPress event occurs when a key is pressed and released.
-ms.assetid: 'fc51dfd3-7968-464a-a4e2-669ffcb52a59'
-keywords: ["KeyPress event Windows Media Player", "KeyPress event Windows Media Player , Player class", "Player class Windows Media Player , KeyPress event"]
+ms.assetid: fc51dfd3-7968-464a-a4e2-669ffcb52a59
+keywords:
+- KeyPress event Windows Media Player
+- KeyPress event Windows Media Player , Player class
+- Player class Windows Media Player , KeyPress event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.KeyPress event
@@ -69,9 +77,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

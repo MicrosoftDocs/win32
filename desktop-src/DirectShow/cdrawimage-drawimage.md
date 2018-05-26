@@ -1,7 +1,12 @@
 ---
-Description: 'The DrawImage method draws a video frame on the video window.'
-ms.assetid: '22e7f59c-90f7-4e0c-8993-eea1eaf58fba'
-title: 'CDrawImage.DrawImage method'
+Description: The DrawImage method draws a video frame on the video window.
+ms.assetid: 22e7f59c-90f7-4e0c-8993-eea1eaf58fba
+title: CDrawImage.DrawImage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.DrawImage method
@@ -13,7 +18,7 @@ The `DrawImage` method draws a video frame on the video window.
 
 ```C++
 BOOL DrawImage(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ BOOL DrawImage(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample that contains the image.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample that contains the image.
 
 </dd> </dl>
 
@@ -61,9 +66,9 @@ In debug builds, this method calls **DisplaySampleTimes** to draw the sample's t
 [**CDrawImage::UsingImageAllocator**](cdrawimage-usingimageallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

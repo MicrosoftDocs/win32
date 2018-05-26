@@ -1,8 +1,16 @@
 ---
 title: Bluetooth and WSALookupServiceEnd
 description: Bluetooth uses the WSALookupServiceEnd function to terminate a query initiated in a previous call to WSALookupServiceBegin, and perhaps extended in subsequent calls to WSALookupServiceNext.
-ms.assetid: '3f901176-2433-4d51-ae52-648abbd2e318'
-keywords: ["Bluetooth", "WSALookupServiceEnd", "Bluetooth and WSALookupServiceEnd"]
+ms.assetid: 3f901176-2433-4d51-ae52-648abbd2e318
+keywords:
+- Bluetooth
+- WSALookupServiceEnd
+- Bluetooth and WSALookupServiceEnd
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and WSALookupServiceEnd
@@ -27,13 +35,13 @@ The steps for device inquiry and service discovery in Bluetooth are sufficiently
 [Bluetooth and WSALookupServiceNext](bluetooth-and-wsalookupservicenext.md)
 </dt> <dt>
 
-[**BTH\_QUERY\_SERVICE**](bth-query-service.md)
+[**BTH\_QUERY\_SERVICE**](/windows/win32/Ws2bth/ns-ws2bth-_bth_query_service?branch=master)
 </dt> <dt>
 
 [**connect**](https://msdn.microsoft.com/library/windows/desktop/ms737625)
 </dt> <dt>
 
-[**SOCKADDR\_BTH**](sockaddr-bth.md)
+[**SOCKADDR\_BTH**](/windows/win32/Ws2bth/ns-ws2bth-_sockaddr_bth?branch=master)
 </dt> <dt>
 
 [**WSALookupServiceBegin**](https://msdn.microsoft.com/library/windows/desktop/ms741633)

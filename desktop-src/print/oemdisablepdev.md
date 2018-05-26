@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDisablePDEV function
-ms.assetid: 'a58d333f-f092-4f7a-b6ae-ebba4f894678'
+ms.assetid: a58d333f-f092-4f7a-b6ae-ebba4f894678
 title: OEMDisablePDEV function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDisablePDEV function

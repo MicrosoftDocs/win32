@@ -1,7 +1,12 @@
 ---
-Description: 'The CIM\_View class is an superclass for classes that provide de-normalized, aggregate representations of managed resources.'
-ms.assetid: '1e8e3c5f-3c27-4bfb-9f9b-b02936e0b4cf'
-title: 'CIM\_View class'
+Description: The CIM\_View class is an superclass for classes that provide de-normalized, aggregate representations of managed resources.
+ms.assetid: 1e8e3c5f-3c27-4bfb-9f9b-b02936e0b4cf
+title: CIM\_View class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_View class
@@ -27,8 +32,8 @@ The **CIM\_View** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -42,9 +47,9 @@ The **CIM\_View** class does not define any members.
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

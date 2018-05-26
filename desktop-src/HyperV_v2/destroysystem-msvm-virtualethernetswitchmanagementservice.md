@@ -1,7 +1,12 @@
 ---
-Description: 'Destroys a virtual switch.'
-ms.assetid: 'f0b6b4cc-e9b7-4255-a9e1-a2a826b8f119'
-title: 'DestroySystem method of the Msvm\_VirtualEthernetSwitchManagementService class'
+Description: Destroys a virtual switch.
+ms.assetid: f0b6b4cc-e9b7-4255-a9e1-a2a826b8f119
+title: DestroySystem method of the Msvm\_VirtualEthernetSwitchManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroySystem method of the Msvm\_VirtualEthernetSwitchManagementService class
@@ -13,8 +18,8 @@ Destroys a virtual switch.
 
 ```mof
 uint32 DestroySystem(
-  [in]  CIM_ComputerSystem REF AffectedSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF AffectedSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -80,8 +85,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -95,9 +100,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualEthernetSwitchManagementService**](msvm-virtualethernetswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

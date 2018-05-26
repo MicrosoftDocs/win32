@@ -1,14 +1,20 @@
 ---
 title: ResultsLocation element
 description: This is the relative path from the directory containing the job results file to the directory containing the assessment results file that contains the results in this AssessmentResult.
-ms.assetid: '532EE61B-C794-43D8-96ED-C577C7F3BED0'
-keywords: ["ResultsLocation element Access Execution Engine"]
+ms.assetid: 532EE61B-C794-43D8-96ED-C577C7F3BED0
+keywords:
+- ResultsLocation element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ResultsLocation
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResultsLocation element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This class is the event type class for ALPC wait for new message events. The following syntax is simplified from MOF code.'
-ms.assetid: '7f7fa4b8-ed12-49a0-a84e-37f66af4f5f1'
-title: 'ALPC\_Wait\_For\_New\_Message class'
+Description: This class is the event type class for ALPC wait for new message events. The following syntax is simplified from MOF code.
+ms.assetid: 7f7fa4b8-ed12-49a0-a84e-37f66af4f5f1
+title: ALPC\_Wait\_For\_New\_Message class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALPC\_Wait\_For\_New\_Message class
@@ -65,14 +70,14 @@ String that contains the name of the port on which ALPC is waiting.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

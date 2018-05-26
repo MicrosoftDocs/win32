@@ -1,7 +1,12 @@
 ---
-Description: 'Enables or disables debug logging of a given critical section.'
-ms.assetid: '6e6e3de4-8bea-4e28-b04e-54a52226b59a'
+Description: Enables or disables debug logging of a given critical section.
+ms.assetid: 6e6e3de4-8bea-4e28-b04e-54a52226b59a
 title: DbgLockTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgLockTrace function
@@ -13,8 +18,8 @@ Enables or disables debug logging of a given critical section.
 
 ```C++
 void WINAPI DbgLockTrace(
-   CCritSec *pcCrit,
-   BOOL     fTrace
+   CCritSec *pcCrit,
+   BOOL     fTrace
 );
 ```
 
@@ -97,9 +102,9 @@ DbgTerminate();
 [Critical Section Debugging Functions](critical-section-debugging-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

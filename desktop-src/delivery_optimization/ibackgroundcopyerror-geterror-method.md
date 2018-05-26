@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyError GetError method
 description: Retrieves the error code and identify the context in which the error occurred.
-ms.assetid: 'C87897CD-9648-4CEF-B963-68EE35356929'
-keywords: ["GetError method", "GetError method, IBackgroundCopyError interface", "IBackgroundCopyError interface, GetError method"]
+ms.assetid: C87897CD-9648-4CEF-B963-68EE35356929
+keywords:
+- GetError method
+- GetError method, IBackgroundCopyError interface
+- IBackgroundCopyError interface, GetError method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyError::GetError method
@@ -22,8 +30,8 @@ Retrieves the error code and identify the context in which the error occurred.
 
 ```C++
 HRESULT GetError(
-  [out] BG_ERROR_CONTEXT *pContext,
-  [out] HRESULT          *pErrorCode
+  [out] BG_ERROR_CONTEXT *pContext,
+  [out] HRESULT          *pErrorCode
 );
 ```
 
@@ -57,7 +65,7 @@ This method returns **S\_OK** on success or one of the standard COM HRESULT valu
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -77,9 +85,9 @@ This method returns **S\_OK** on success or one of the standard COM HRESULT valu
 [**IBackgroundCopyError::GetFile**](ibackgroundcopyerror-getfile-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

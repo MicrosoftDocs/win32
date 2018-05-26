@@ -1,7 +1,12 @@
-﻿---
-Description: 'Remove a bone.'
-ms.assetid: 'efb88108-5c76-47c8-b8ce-1ba29cb18ba4'
-title: 'ID3DX10SkinInfo::RemoveBone method'
+---
+Description: Remove a bone.
+ms.assetid: efb88108-5c76-47c8-b8ce-1ba29cb18ba4
+title: ID3DX10SkinInfoRemoveBone method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::RemoveBone method

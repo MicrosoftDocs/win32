@@ -1,7 +1,12 @@
 ---
 title: Functions
 description: .
-ms.assetid: 'a07c804e-4312-4dd1-ba15-955763bb8ce1'
+ms.assetid: a07c804e-4312-4dd1-ba15-955763bb8ce1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions

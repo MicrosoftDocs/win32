@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine AutoStartAtLaunchDelay property
 description: The AutoStartAtLaunchDelay property contains the delay in seconds to use when this virtual machine is started up automatically when Virtual Server is launched.
-ms.assetid: '37a9e66f-dbf1-43c4-9010-7f7699b159dc'
-keywords: ["AutoStartAtLaunchDelay property Virtual Server", "AutoStartAtLaunchDelay property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , AutoStartAtLaunchDelay property", "AutoStartAtLaunchDelay property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , AutoStartAtLaunchDelay property"]
+ms.assetid: 37a9e66f-dbf1-43c4-9010-7f7699b159dc
+keywords:
+- AutoStartAtLaunchDelay property Virtual Server
+- AutoStartAtLaunchDelay property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , AutoStartAtLaunchDelay property
+- AutoStartAtLaunchDelay property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , AutoStartAtLaunchDelay property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AutoStartAtLaunchDelay property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AutoStartAtLaunchDelay(
-  [in]  long autoStartAtLaunchDelay
+  [in]  long autoStartAtLaunchDelay
 );
 
 HRESULT get_AutoStartAtLaunchDelay(
-  [out] long *autoStartAtLaunchDelay
+  [out] long *autoStartAtLaunchDelay
 );
 ```
 
@@ -102,8 +112,8 @@ WScript.Echo "Autostart at launch delay: " & objVM.AutoStartAtLaunchDelay
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -115,9 +125,9 @@ WScript.Echo "Autostart at launch delay: " & objVM.AutoStartAtLaunchDelay
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

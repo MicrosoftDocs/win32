@@ -1,20 +1,25 @@
 ---
-Description: 'Example code that shows how to use the GetFileAttributesEx function to retrieve file attributes.'
-ms.assetid: 'f6eaea8a-0cc2-4fb6-bec5-7fb12b20c075'
+Description: Example code that shows how to use the GetFileAttributesEx function to retrieve file attributes.
+ms.assetid: f6eaea8a-0cc2-4fb6-bec5-7fb12b20c075
 title: Retrieving and Changing File Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving and Changing File Attributes
 
-An application can retrieve the file attributes by using the [**GetFileAttributes**](getfileattributes.md) or [**GetFileAttributesEx**](getfileattributesex.md) function. The [**CreateFile**](createfile.md) and [**SetFileAttributes**](setfileattributes.md) functions can set many of the attributes. However, applications cannot set all attributes.
+An application can retrieve the file attributes by using the [**GetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-getfileattributesa?branch=master) or [**GetFileAttributesEx**](/windows/win32/FileAPI/nf-fileapi-getfileattributesexa?branch=master) function. The [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) and [**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master) functions can set many of the attributes. However, applications cannot set all attributes.
 
-The code example in this topic uses the [**CopyFile**](copyfile.md) function to copy all text files (.txt) in the current directory to a new directory of read-only files. Files in the new directory are changed to read only, if necessary.
+The code example in this topic uses the [**CopyFile**](/windows/win32/WinBase/nf-winbase-copyfile?branch=master) function to copy all text files (.txt) in the current directory to a new directory of read-only files. Files in the new directory are changed to read only, if necessary.
 
-The application creates the directory specified as a parameter by using the [**CreateDirectory**](createdirectory.md) function. The directory must not exist already.
+The application creates the directory specified as a parameter by using the [**CreateDirectory**](/windows/win32/FileAPI/nf-fileapi-createdirectorya?branch=master) function. The directory must not exist already.
 
-The application searches the current directory for all text files by using the [**FindFirstFile**](findfirstfile.md) and [**FindNextFile**](findnextfile.md) functions. Each text file is copied to the \\TextRO directory. After a file is copied, the [**GetFileAttributes**](getfileattributes.md) function determines whether or not a file is read only. If the file is not read only, the application changes directories to \\TextRO and converts the copied file to read only by using the [**SetFileAttributes**](setfileattributes.md) function.
+The application searches the current directory for all text files by using the [**FindFirstFile**](/windows/win32/FileAPI/nf-fileapi-findfirstfilea?branch=master) and [**FindNextFile**](/windows/win32/FileAPI/nf-fileapi-findnextfilea?branch=master) functions. Each text file is copied to the \\TextRO directory. After a file is copied, the [**GetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-getfileattributesa?branch=master) function determines whether or not a file is read only. If the file is not read only, the application changes directories to \\TextRO and converts the copied file to read only by using the [**SetFileAttributes**](/windows/win32/FileAPI/nf-fileapi-setfileattributesa?branch=master) function.
 
-After all text files in the current directory are copied, the application closes the search handle by using the [**FindClose**](findclose.md) function.
+After all text files in the current directory are copied, the application closes the search handle by using the [**FindClose**](/windows/win32/FileAPI/nf-fileapi-findclose?branch=master) function.
 
 
 ```C++

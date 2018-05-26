@@ -1,7 +1,12 @@
-﻿---
-Description: 'Associates a new large or small icon with a window. The system displays the large icon in the ALT+TAB dialog box, and the small icon in the window caption.'
-ms.assetid: 'c86620f2-893b-46f8-8254-1d7c4c142f37'
-title: 'WM\_SETICON message'
+---
+Description: Associates a new large or small icon with a window. The system displays the large icon in the ALT+TAB dialog box, and the small icon in the window caption.
+ms.assetid: c86620f2-893b-46f8-8254-1d7c4c142f37
+title: WM\_SETICON message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SETICON message

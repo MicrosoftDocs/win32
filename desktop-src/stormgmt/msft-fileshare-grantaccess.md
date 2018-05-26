@@ -1,8 +1,11 @@
 ---
 title: GrantAccess method of the MSFT\_FileShare class
 description: Grants to the specified user accounts the specified access to the file share.
-ms.assetid: '9303326E-062D-452A-9E3C-AD9F394A49D4'
-keywords: ["GrantAccess method Windows Storage Management API", "GrantAccess method Windows Storage Management API , MSFT_FileShare class", "MSFT_FileShare class Windows Storage Management API , GrantAccess method"]
+ms.assetid: 9303326E-062D-452A-9E3C-AD9F394A49D4
+keywords:
+- GrantAccess method Windows Storage Management API
+- GrantAccess method Windows Storage Management API , MSFT_FileShare class
+- MSFT_FileShare class Windows Storage Management API , GrantAccess method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GrantAccess method of the MSFT\_FileShare class
@@ -22,9 +30,9 @@ Grants to the specified user accounts the specified access to the file share.
 
 ```mof
 UInt32 GrantAccess(
-  [in]  String AccountNames[],
-  [in]  UInt32 AccessRight,
-  [out] String ExtendedStatus
+  [in]  String AccountNames[],
+  [in]  UInt32 AccessRight,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -118,8 +126,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -132,9 +140,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileShare**](msft-fileshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

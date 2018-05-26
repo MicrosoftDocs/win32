@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a pointer to the array of constants in the constant table.'
-ms.assetid: '2476344b-8433-46bb-9242-dff84e3168e7'
-title: 'ID3DXTextureShader::GetConstantDesc method'
+---
+Description: Gets a pointer to the array of constants in the constant table.
+ms.assetid: 2476344b-8433-46bb-9242-dff84e3168e7
+title: ID3DXTextureShaderGetConstantDesc method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::GetConstantDesc method

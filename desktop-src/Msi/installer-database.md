@@ -1,7 +1,12 @@
 ---
-Description: 'This material is primarily for developers who want to write tools that create new installer packages and who need detailed information about the installer''s relational database.'
-ms.assetid: '3352dd8f-c082-4c4b-98be-5823c8b28f07'
+Description: This material is primarily for developers who want to write tools that create new installer packages and who need detailed information about the installers relational database.
+ms.assetid: 3352dd8f-c082-4c4b-98be-5823c8b28f07
 title: Installer Database
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer Database

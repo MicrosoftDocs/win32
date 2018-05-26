@@ -4,13 +4,16 @@ description: Adds an IPv6 scope to the DHCP server with the specified parameters
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '958c0021-5b1c-49b1-9128-2453d4888a8c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 958c0021-5b1c-49b1-9128-2453d4888a8c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DhcpServerv6Scope class", "PS_DhcpServerv6Scope class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DhcpServerv6Scope class
+- PS_DhcpServerv6Scope class, Add method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DhcpServerv6Scope class
@@ -30,18 +36,18 @@ Adds an IPv6 scope to the DHCP server with the specified parameters.
 
 ```mof
 uint32 Add(
-  [in]  datetime          ValidLifeTime,
-  [in]  string            ComputerName,
-  [in]  string            Prefix,
-  [in]  string            Name,
-  [in]  string            Description,
-  [in]  string            State,
-  [in]  uint16            Preference = 0,
-  [in]  datetime          PreferredLifetime,
-  [in]  datetime          T1,
-  [in]  datetime          T2,
-  [in]  boolean           PassThru,
-  [out] DhcpServerv6Scope cmdletOutput
+  [in]  datetime          ValidLifeTime,
+  [in]  string            ComputerName,
+  [in]  string            Prefix,
+  [in]  string            Name,
+  [in]  string            Description,
+  [in]  string            State,
+  [in]  uint16            Preference = 0,
+  [in]  datetime          PreferredLifetime,
+  [in]  datetime          T1,
+  [in]  datetime          T2,
+  [in]  boolean           PassThru,
+  [out] DhcpServerv6Scope cmdletOutput
 );
 ```
 
@@ -112,7 +118,7 @@ The state of the scope. Possible values are Enabled and Disabled
 
 The value for the preference field to be used by the DHCP server while responding to clients in this subnet.
 
-Range: 0–255
+Range: 0 255
 
 </dd> <dt>
 
@@ -158,7 +164,7 @@ An embedded instance of the [**DhcpServerv6Scope**](dhcpserverv6scope.md) class.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -172,9 +178,9 @@ An embedded instance of the [**DhcpServerv6Scope**](dhcpserverv6scope.md) class.
 [**PS\_DhcpServerv6Scope**](ps-dhcpserverv6scope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

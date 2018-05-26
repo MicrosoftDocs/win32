@@ -1,7 +1,12 @@
 ---
 Description: Activating Component Queues
-ms.assetid: 'cfbf7c73-2521-40cf-8c6e-436f64c07e31'
+ms.assetid: cfbf7c73-2521-40cf-8c6e-436f64c07e31
 title: Activating Component Queues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activating Component Queues
@@ -31,7 +36,7 @@ See the COMAdminCatalog.StartApplication example.
 
 ## C/C++
 
-See the [**ICOMAdminCatalog::StartApplication**](icomadmincatalog-startapplication.md) example.
+See the [**ICOMAdminCatalog::StartApplication**](/windows/win32/ComAdmin/nf-comadmin-icomadmincatalog-startapplication?branch=master) example.
 
 ## Related topics
 

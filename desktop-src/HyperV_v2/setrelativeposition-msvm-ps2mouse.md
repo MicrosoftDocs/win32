@@ -1,7 +1,12 @@
 ---
-Description: 'Offsets the position of the mouse pointer by the specified horizontal and vertical deltas.'
-ms.assetid: 'C74E4BEA-C7E1-44C7-B4FC-8926F23DF1FE'
-title: 'SetRelativePosition method of the Msvm\_Ps2Mouse class'
+Description: Offsets the position of the mouse pointer by the specified horizontal and vertical deltas.
+ms.assetid: C74E4BEA-C7E1-44C7-B4FC-8926F23DF1FE
+title: SetRelativePosition method of the Msvm\_Ps2Mouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetRelativePosition method of the Msvm\_Ps2Mouse class
@@ -13,8 +18,8 @@ Offsets the position of the mouse pointer by the specified horizontal and vertic
 
 ```mof
 uint32 SetRelativePosition(
-  [in] sint8 horizontalDelta,
-  [in] sint8 verticalDelta
+  [in] sint8 horizontalDelta,
+  [in] sint8 verticalDelta
 );
 ```
 
@@ -99,8 +104,8 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -114,9 +119,9 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Creating a Service
 description: Creating a Web service is greatly simplified in WWSAPI by the Service Model API and the WsUtil.exe tool.
-ms.assetid: '3536d1c6-6179-4f69-9cc8-27fe6ae30826'
+ms.assetid: 3536d1c6-6179-4f69-9cc8-27fe6ae30826
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Service
@@ -42,7 +47,7 @@ HRESULT CALLBACK Subtract (const WS_OPERATION_CONTEXT* context,
 }
 ```
 
-Define the service contract by setting the fields of a [**WS\_SERVICE\_CONTRACT**](ws-service-contract.md) structure.
+Define the service contract by setting the fields of a [**WS\_SERVICE\_CONTRACT**](/windows/win32/WebServices/ns-webservices-_ws_service_contract?branch=master) structure.
 
 ``` syntax
 static const DefaultBinding_ICalculatorFunctionTable calculatorFunctions = {Add, Subtract};

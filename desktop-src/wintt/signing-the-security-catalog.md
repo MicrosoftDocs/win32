@@ -1,7 +1,12 @@
 ---
 title: Signing the Security Catalog
 description: WTP executes only trusted troubleshooting packs that are signed using a security catalog. The security catalog must be code signed by a certificate that chains up to a trusted root authority on the computer.
-ms.assetid: '258864d3-4ed2-41b6-8a8e-e02de461c245'
+ms.assetid: 258864d3-4ed2-41b6-8a8e-e02de461c245
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signing the Security Catalog

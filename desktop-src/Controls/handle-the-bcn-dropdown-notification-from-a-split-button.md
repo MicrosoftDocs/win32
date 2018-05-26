@@ -1,7 +1,12 @@
 ---
 title: How to Handle the BCN\_DROPDOWN Notification from a Split Button
 description: This topic describes one possible way of responding to the BCN\_DROPDOWN notification in a dialog procedure.
-ms.assetid: '847DD645-AE29-4F62-BC32-F235BA409E1E'
+ms.assetid: 847DD645-AE29-4F62-BC32-F235BA409E1E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Handle the BCN\_DROPDOWN Notification from a Split Button

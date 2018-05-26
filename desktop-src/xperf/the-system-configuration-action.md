@@ -1,7 +1,12 @@
 ---
 title: The System Configuration Action
 description: The System Configuration Action
-ms.assetid: 'ee747210-6592-44de-bfb9-2b4253b058e6'
+ms.assetid: ee747210-6592-44de-bfb9-2b4253b058e6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The System Configuration Action
@@ -46,13 +51,13 @@ The system configuration action produces a text file that has detailed informati
 
 
 
- 
+ 
 
 If no activity is selected, all activities are selected by default.
 
- 
+ 
 
- 
+ 
 
 
 

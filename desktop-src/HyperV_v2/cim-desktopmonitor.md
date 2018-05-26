@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a CRT desktop monitor.'
-ms.assetid: '26a06320-9fd9-434e-87c8-486e9ca4945c'
-title: 'CIM\_DesktopMonitor class'
+Description: Represents a CRT desktop monitor.
+ms.assetid: 26a06320-9fd9-434e-87c8-486e9ca4945c
+title: CIM\_DesktopMonitor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DesktopMonitor class
@@ -138,8 +143,8 @@ The logical width of the display, in screen coordinates.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -153,9 +158,9 @@ The logical width of the display, in screen coordinates.
 [**CIM\_Display**](cim-display.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

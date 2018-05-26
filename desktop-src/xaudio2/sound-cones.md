@@ -1,7 +1,12 @@
 ---
-Description: 'A model that describes the loudness of oriented sound.'
-ms.assetid: '15252358-d932-22f4-f13a-8e4b8487dd86'
+Description: A model that describes the loudness of oriented sound.
+ms.assetid: 15252358-d932-22f4-f13a-8e4b8487dd86
 title: Sound Cones
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sound Cones
@@ -34,7 +39,7 @@ Designing sound cones properly can add dramatic effects to your application. For
 [X3DAudio](x3daudio-overview.md)
 </dt> <dt>
 
-[**X3DAUDIO\_CONE**](x3daudio-cone.md)
+[**X3DAUDIO\_CONE**](/windows/win32/x3daudio/ns-x3daudio-x3daudio_cone?branch=master)
 </dt> </dl>
 
  

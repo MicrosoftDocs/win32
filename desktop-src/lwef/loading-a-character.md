@@ -1,7 +1,12 @@
 ---
 title: Loading a Character
 description: Loading a Character
-ms.assetid: '973de75b-b530-40c6-896d-e2ab0755ae2c'
+ms.assetid: 973de75b-b530-40c6-896d-e2ab0755ae2c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loading a Character

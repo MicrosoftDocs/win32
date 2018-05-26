@@ -4,17 +4,22 @@ description: A single WQL query.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3fb594fc-d160-4807-a019-3dec56d2262b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3fb594fc-d160-4807-a019-3dec56d2262b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-Query attribute AD Schema", "msWMI-Query attribute AD Schema"]
+keywords:
+- ms-WMI-Query attribute AD Schema
+- msWMI-Query attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-Query
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-Query attribute
@@ -38,11 +43,11 @@ A single WQL query.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ A single WQL query.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

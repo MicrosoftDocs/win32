@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemQualifier object exposes the following properties.'
+Description: The SWbemQualifier object exposes the following properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0677B63F-930A-4C3D-9C29-CF02708105A2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0677B63F-930A-4C3D-9C29-CF02708105A2
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemQualifier Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifier Properties

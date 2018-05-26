@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxServer object is used by a fax client Microsoft Visual Basic application to manage a connection to the fax service.'
-ms.assetid: '8991a9b4-b4bc-4c7c-92ec-c1e7ecb6c33a'
+---
+Description: The FaxServer object is used by a fax client Microsoft Visual Basic application to manage a connection to the fax service.
+ms.assetid: 8991a9b4-b4bc-4c7c-92ec-c1e7ecb6c33a
 title: FaxServer object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer object
@@ -50,7 +55,7 @@ The **FaxServer** object has these methods.
 
 | Method                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                        |
 |:-------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Connect**](-mfax-ifaxserver-connect-client-vb.md)        | The [**Connect**](-mfax-ifaxserver-connect-client-vb.md) method connects a fax client application to the specified fax server. Before accessing most interfaces that begin with **IFax**, the application must call this method to initiate a connection with an active fax server. A fax server connection is not required to access an [**IFaxTiff**](-mfax-ifaxtiff.md) interface.<br/> |
+| [**Connect**](-mfax-ifaxserver-connect-client-vb.md)        | The [**Connect**](-mfax-ifaxserver-connect-client-vb.md) method connects a fax client application to the specified fax server. Before accessing most interfaces that begin with **IFax**, the application must call this method to initiate a connection with an active fax server. A fax server connection is not required to access an [**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master) interface.<br/> |
 | [**CreateDocument**](-mfax-ifaxserver-createdocument-vb.md) | The [**CreateDocument**](-mfax-ifaxserver-createdocument-vb.md) method creates a [FaxDoc](-mfax-faxdoc.md) object for a specified [FaxServer](-mfax-faxserver-client.md) object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.<br/>                                                                                                    |
 | [**Disconnect**](-mfax-ifaxserver-disconnect-client-vb.md)  | The [**Disconnect**](-mfax-ifaxserver-disconnect-client-vb.md) method terminates a fax client application's connection to a fax server.<br/>                                                                                                                                                                                                                                                |
 | [**GetJobs**](-mfax-ifaxserver-getjobs-vb.md)               | The [**GetJobs**](-mfax-ifaxserver-getjobs-vb.md) method creates and initializes a [**FaxJobs**](-mfax-faxjobs-object-visual-basic-.md) object for a specified [FaxServer](-mfax-faxserver-client.md) object. The [FaxJobs](-mfax-faxjobs.md) object allows enumeration of the current queued jobs for the connected fax server.<br/>                                                    |

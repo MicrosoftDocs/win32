@@ -1,7 +1,12 @@
 ---
 title: Develop Guidelines for Testing
 description: Develop Guidelines for Testing
-ms.assetid: '489C4F43-99BE-4fe8-9506-638080391AA6'
+ms.assetid: 489C4F43-99BE-4fe8-9506-638080391AA6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Develop Guidelines for Testing

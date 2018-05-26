@@ -1,8 +1,9 @@
 ---
 title: RtmIsRoute function
 description: The RtmIsRoute function determines if one or more routes to a specified destination network exist. If so, the function returns information for the best route to that network.
-ms.assetid: 'f9939790-d0a6-487e-9674-a01d436dc962'
-keywords: ["RtmIsRoute function RAS"]
+ms.assetid: f9939790-d0a6-487e-9674-a01d436dc962
+keywords:
+- RtmIsRoute function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmIsRoute function
@@ -24,9 +30,9 @@ The **RtmIsRoute** function determines if one or more routes to a specified dest
 
 ```C++
 BOOL RtmIsRoute(
-  _In_  DWORD ProtocolFamily,
-  _In_  PVOID Network,
-  _Out_ PVOID BestRoute
+  _In_  DWORD ProtocolFamily,
+  _In_  PVOID Network,
+  _Out_ PVOID BestRoute
 );
 ```
 
@@ -73,7 +79,7 @@ The return value is one of the following codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -82,8 +88,8 @@ The return value is one of the following codes.
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -112,9 +118,9 @@ The return value is one of the following codes.
 [RTMv1 Protocol Family Identifiers](routing-table-manager-version-1-protocol-family-identifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

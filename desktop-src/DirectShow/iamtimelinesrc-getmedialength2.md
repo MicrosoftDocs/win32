@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMediaLength2 method retrieves the media length of this source object. This method is equivalent to IAMTimelineSrc::GetMediaLength, but takes REFTIME values.'
-ms.assetid: '96685e00-4e16-4205-a6ad-8b83cf2f8c29'
-title: 'IAMTimelineSrc::GetMediaLength2 method'
+---
+Description: The GetMediaLength2 method retrieves the media length of this source object. This method is equivalent to IAMTimelineSrcGetMediaLength, but takes REFTIME values.
+ms.assetid: 96685e00-4e16-4205-a6ad-8b83cf2f8c29
+title: IAMTimelineSrcGetMediaLength2 method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::GetMediaLength2 method

@@ -1,7 +1,12 @@
 ---
 Description: COM+ Object Constructor Strings Tasks
-ms.assetid: 'b8518f3f-dfaa-4a7d-9b1b-978a62cba4b5'
+ms.assetid: b8518f3f-dfaa-4a7d-9b1b-978a62cba4b5
 title: COM+ Object Constructor Strings Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Object Constructor Strings Tasks
@@ -17,7 +22,7 @@ The following topics provide step-by-step instructions for using COM+ object con
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -26,9 +31,9 @@ The following topics provide step-by-step instructions for using COM+ object con
 [COM+ Object Constructor Strings Concepts](com--object-constructor-strings-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

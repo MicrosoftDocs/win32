@@ -2,13 +2,16 @@
 title: SetByOnDAServer method of the PS\_DANetworkLocationServer class
 description: This cmdlet is used to configure the Network Location Server. It can be present on the DirectAccess server or on some other highly available server.
 audience: developer
-ms.assetid: '8502a26a-dba7-4259-acad-d7b3a94cb5a7'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8502a26a-dba7-4259-acad-d7b3a94cb5a7
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByOnDAServer method", "SetByOnDAServer method, PS_DANetworkLocationServer class", "PS_DANetworkLocationServer class, SetByOnDAServer method"]
+keywords:
+- SetByOnDAServer method
+- SetByOnDAServer method, PS_DANetworkLocationServer class
+- PS_DANetworkLocationServer class, SetByOnDAServer method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByOnDAServer method of the PS\_DANetworkLocationServer class
@@ -28,12 +34,12 @@ This cmdlet is used to configure the Network Location Server. It can be present 
 
 ```mof
 uint32 SetByOnDAServer(
-  [in]  uint8                   Certificate[],
-  [in]  string                  ComputerName,
-  [in]  boolean                 NlsOnDAServer,
-  [in]  boolean                 Force,
-  [in]  boolean                 PassThru,
-  [out] DANetworkLocationServer cmdletOutput
+  [in]  uint8                   Certificate[],
+  [in]  string                  ComputerName,
+  [in]  boolean                 NlsOnDAServer,
+  [in]  boolean                 Force,
+  [in]  boolean                 PassThru,
+  [out] DANetworkLocationServer cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ Returns the network location server policy object. By default this cmdlet does n
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ Returns the network location server policy object. By default this cmdlet does n
 [**PS\_DANetworkLocationServer**](ps-danetworklocationserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The package family name registered as the app for this device.'
-ms.assetid: '7fac1acb-2e9d-4d74-b5ed-7ea98e209637'
-title: 'System.Devices.AppPackageFamilyName'
+Description: The package family name registered as the app for this device.
+ms.assetid: 7fac1acb-2e9d-4d74-b5ed-7ea98e209637
+title: System.Devices.AppPackageFamilyName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AppPackageFamilyName

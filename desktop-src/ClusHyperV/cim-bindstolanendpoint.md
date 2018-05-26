@@ -4,13 +4,15 @@ description: Represents an association where a CIM\_ServiceAccessPoint or CIM\_P
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '83ac67a8-bbd3-4344-b069-c80aa9b3e678'
-ms.prod: 'windows-server-dev'
+ms.assetid: 83ac67a8-bbd3-4344-b069-c80aa9b3e678
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_BindsToLANEndpoint class", "CIM_BindsToLANEndpoint class, described"]
+keywords:
+- CIM_BindsToLANEndpoint class
+- CIM_BindsToLANEndpoint class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BindsToLANEndpoint class
@@ -36,9 +41,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Network::ProtocolEndpoints")]
 class CIM_BindsToLANEndpoint : CIM_BindsTo
 {
-  CIM_LANEndpoint        REF Antecedent;
+  CIM_LANEndpoint        REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
-  uint16                     FrameType;
+  uint16                     FrameType;
 };
 ```
 
@@ -100,7 +105,7 @@ The framing method for the upper layer service access point or protocol endpoint
 > [!Note]  
 > Raw802.3 is only known to be used with the IPX protocol.
 
- 
+ 
 
 <dt>
 
@@ -148,7 +153,7 @@ The framing method for the upper layer service access point or protocol endpoint
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -165,9 +170,9 @@ The framing method for the upper layer service access point or protocol endpoint
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

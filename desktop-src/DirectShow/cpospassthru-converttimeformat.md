@@ -1,22 +1,27 @@
 ---
-Description: 'The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeeking::ConvertTimeFormat method.'
-ms.assetid: 'e766d112-ee41-4c64-a735-b6317093518a'
-title: 'CPosPassThru.ConvertTimeFormat method'
+Description: The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeekingConvertTimeFormat method.
+ms.assetid: e766d112-ee41-4c64-a735-b6317093518a
+title: CPosPassThru.ConvertTimeFormat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPosPassThru.ConvertTimeFormat method
 
-The `ConvertTimeFormat` method converts from one time format to another. This method implements the [**IMediaSeeking::ConvertTimeFormat**](imediaseeking-converttimeformat.md) method.
+The `ConvertTimeFormat` method converts from one time format to another. This method implements the [**IMediaSeeking::ConvertTimeFormat**](/windows/win32/Strmif/nf-strmif-imediaseeking-converttimeformat?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT ConvertTimeFormat(
-         LONGLONG *pTarget,
-   const GUID     *pTargetFormat,
-         LONGLONG Source,
-   const GUID     *pSourceFormat
+         LONGLONG *pTarget,
+   const GUID     *pTargetFormat,
+         LONGLONG Source,
+   const GUID     *pSourceFormat
 );
 ```
 
@@ -79,9 +84,9 @@ Returns the **HRESULT** value from the connected pin.
 [**Time Format GUIDs**](time-format-guids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

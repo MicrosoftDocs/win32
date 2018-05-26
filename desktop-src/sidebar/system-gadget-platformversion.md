@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.platformVersion property
 description: Gets the Windows Sidebar version.
-ms.assetid: 'fd391b6f-7bb6-4502-9b3c-a94a2bb56627'
-keywords: ["platformVersion property Windows Sidebar", "platformVersion property Windows Sidebar , System.Gadget object", "System.Gadget object Windows Sidebar , platformVersion property"]
+ms.assetid: fd391b6f-7bb6-4502-9b3c-a94a2bb56627
+keywords:
+- platformVersion property Windows Sidebar
+- platformVersion property Windows Sidebar , System.Gadget object
+- System.Gadget object Windows Sidebar , platformVersion property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.platformVersion property
@@ -55,10 +63,10 @@ var mytext = "platform version: " + System.Gadget.platformVersion;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -71,9 +79,9 @@ var mytext = "platform version: " + System.Gadget.platformVersion;
 [**System.Gadget**](system-gadget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

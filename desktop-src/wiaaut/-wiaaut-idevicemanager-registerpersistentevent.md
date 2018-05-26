@@ -1,8 +1,11 @@
 ---
 title: DeviceManager.RegisterPersistentEvent method
 description: Registers the specified Command to launch when the specified EventID for the specified DeviceID occurs. Command can be either a class identifier (CLSID) or the full path name and the appropriate command-line arguments needed to invoke the application.
-ms.assetid: '36f03e68-1724-4375-9331-c2749c31db93'
-keywords: ["RegisterPersistentEvent method WIA Automation", "RegisterPersistentEvent method WIA Automation , DeviceManager object", "DeviceManager object WIA Automation , RegisterPersistentEvent method"]
+ms.assetid: 36f03e68-1724-4375-9331-c2749c31db93
+keywords:
+- RegisterPersistentEvent method WIA Automation
+- RegisterPersistentEvent method WIA Automation , DeviceManager object
+- DeviceManager object WIA Automation , RegisterPersistentEvent method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeviceManager.RegisterPersistentEvent method
@@ -97,7 +105,7 @@ Type: **BSTR**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -119,8 +127,8 @@ The **RegisterPersistentEvent** method requires Administrator permission to func
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -190,9 +198,9 @@ The **RegisterPersistentEvent** method requires Administrator permission to func
 [**Name (Property)**](-wiaaut-iproperty-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

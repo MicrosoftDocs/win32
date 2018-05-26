@@ -1,14 +1,20 @@
 ---
 title: GatherCmp(S,float,float,int) function
 description: Samples a texture, tests the samples against a compare value, and returns all four components.
-ms.assetid: '7bb86448-cc73-4423-9ef4-149427cffc95'
-keywords: ["GatherCmp function HLSL"]
+ms.assetid: 7bb86448-cc73-4423-9ef4-149427cffc95
+keywords:
+- GatherCmp function HLSL
 topic_type:
 - apiref
 api_name:
 - GatherCmp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GatherCmp(S,float,float,int) function

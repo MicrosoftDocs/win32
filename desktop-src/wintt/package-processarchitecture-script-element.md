@@ -1,14 +1,20 @@
 ---
 title: ProcessArchitecture (Script) Element
 description: The architecture on which the script can run.
-ms.assetid: 'b078c6c5-87f1-4633-8cb8-2e256529996a'
-keywords: ["ProcessArchitecture element Windows Troubleshooting Toolkit"]
+ms.assetid: b078c6c5-87f1-4633-8cb8-2e256529996a
+keywords:
+- ProcessArchitecture element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - ProcessArchitecture
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessArchitecture (Script) Element
@@ -27,14 +33,14 @@ The **ProcessArchitecture** element is defined by the [**Script**](package-scrip
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: Windows Rendering Context Code Sample
 description: The following code sample shows how the GLX rendering context code in the previous section looks when it has been ported to Windows.
-ms.assetid: '12992faa-eb64-4a21-8015-3c73c2914189'
-keywords: ["rendering contexts", "porting to OpenGL,rendering contexts", "OpenGL porting,rendering contexts"]
+ms.assetid: 12992faa-eb64-4a21-8015-3c73c2914189
+keywords:
+- rendering contexts
+- porting to OpenGL,rendering contexts
+- OpenGL porting,rendering contexts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Rendering Context Code Sample

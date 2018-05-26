@@ -1,7 +1,12 @@
 ---
 title: Shader Model 4
-description: Shader Model 4 is a superset of the capabilities in Shader Model 3, except that Shader Model 4 doesn't support the features in Shader Model 1.
-ms.assetid: '76155749-11e9-41ff-881d-8f77f2729364'
+description: Shader Model 4 is a superset of the capabilities in Shader Model 3, except that Shader Model 4 doesnt support the features in Shader Model 1.
+ms.assetid: 76155749-11e9-41ff-881d-8f77f2729364
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Model 4

@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a feature of a deployed software installation.'
+Description: Represents a feature of a deployed software installation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '08559bcb-b964-4eff-91ae-6c58e92ce1d7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 08559bcb-b964-4eff-91ae-6c58e92ce1d7
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_SoftwareFeature class'
+title: CIM\_SoftwareFeature class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SoftwareFeature class
@@ -19,7 +22,7 @@ Represents a feature of a deployed software installation.
 > [!Note]  
 > This class does not represent a feature of software installation package or software product. It represents a unit of installed software functionality.
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -29,24 +32,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Application::DeploymentModel"), Version("2.6.0"), AMENDMENT]
 class CIM_SoftwareFeature : CIM_LogicalElement
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   Name;
-  string   IdentifyingNumber;
-  string   ProductName;
-  string   Vendor;
-  string   Version;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   Name;
+  string   IdentifyingNumber;
+  string   ProductName;
+  string   Vendor;
+  string   Version;
 };
 ```
 
@@ -461,7 +464,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
- 
+ 
 
 </dd> <dt>
 
@@ -1181,16 +1184,16 @@ The product version of the feature.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

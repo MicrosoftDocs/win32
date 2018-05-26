@@ -4,11 +4,13 @@ description: Indicates that a process is terminated.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b33efdfa-3e91-4983-abea-c262e8ce3ecb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: b33efdfa-3e91-4983-abea-c262e8ce3ecb
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_ProcessStopTrace class", "Win32_ProcessStopTrace class, described"]
+keywords:
+- Win32_ProcessStopTrace class
+- Win32_ProcessStopTrace class, described
 topic_type:
 - apiref
 api_name:
@@ -25,6 +27,9 @@ api_location:
 - Krnlprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ProcessStopTrace class
@@ -39,11 +44,11 @@ The following syntax is simplified from Managed Object Format (MOF) code, and in
 [AMENDMENT]
 class Win32_ProcessStopTrace : Win32_ProcessTrace
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 ProcessID;
   uint32 ParentProcessID;
-  uint8  Sid[];
+  uint8  Sid[];
   uint32 ExitStatus;
   string ProcessName;
   uint32 SessionID;
@@ -229,8 +234,8 @@ End If
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Krnlprov.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Krnlprov.dll</dt> </dl> |
@@ -250,9 +255,9 @@ End If
 [**Win32\_Process**](https://msdn.microsoft.com/library/aa394372)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

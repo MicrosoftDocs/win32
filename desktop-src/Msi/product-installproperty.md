@@ -1,14 +1,19 @@
-﻿---
-Description: 'The InstallProperty property is the value of the property for the instance of this product. This property calls the MsiGetProductInfoEx function, with the ProductCode, UserSid and Context of the Product object and the requested property as a parameter.'
-ms.assetid: '945c11fe-39da-43b7-a19f-e6364d5e715c'
-title: 'Product.InstallProperty method'
+---
+Description: The InstallProperty property is the value of the property for the instance of this product. This property calls the MsiGetProductInfoEx function, with the ProductCode, UserSid and Context of the Product object and the requested property as a parameter.
+ms.assetid: 945c11fe-39da-43b7-a19f-e6364d5e715c
+title: Product.InstallProperty method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.InstallProperty method
 
 The **InstallProperty** property is the value of the property for the instance of this product.
 
-This property calls the [**MsiGetProductInfoEx**](msigetproductinfoex.md) function, with the *ProductCode*, *UserSid* and *Context* of the [**Product**](product-object.md) object and the requested property as a parameter.
+This property calls the [**MsiGetProductInfoEx**](/windows/win32/Msi/nf-msi-msigetproductinfoexa?branch=master) function, with the *ProductCode*, *UserSid* and *Context* of the [**Product**](product-object.md) object and the requested property as a parameter.
 
 ## Syntax
 

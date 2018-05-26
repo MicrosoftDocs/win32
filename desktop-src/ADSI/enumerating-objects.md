@@ -4,18 +4,22 @@ description: To view the child object of a container, such as an organizational 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '06995281-d269-42ce-839f-2938a2f6af22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 06995281-d269-42ce-839f-2938a2f6af22
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Enumerating Objects"]
+keywords:
+- Enumerating Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enumerating Objects
 
 To view the child object of a container, such as an organizational unit (OU), enumerate the container object. To make an analogy to a file system, the child object would correspond to files in the directory, while the container, which is the parent object, would correspond to the directory itself. You may also use the enumerate operation when you want to get the parent object of an object.
 
-When you enumerate an object, you actually bind to an object in the directory, and an [**IADs**](iads.md) interface is returned on each object.
+When you enumerate an object, you actually bind to an object in the directory, and an [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface is returned on each object.
 
 The following code example shows how to enumerate the children of a container.
 
@@ -49,7 +53,7 @@ Ou.Filter = Array("user", "group")
 
 
 
-If you have an object reference, you can get the object's parent using the [**IADs**](iads.md) [**Parent**](iads-property-methods.md) property. The following code example shows how to bind to the parent object.
+If you have an object reference, you can get the object's parent using the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) [**Parent**](iads-property-methods.md) property. The following code example shows how to bind to the parent object.
 
 
 ```VB

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Registers custom templates. Deprecated.'
-ms.assetid: 'f9b24800-83a5-45bf-b19f-b247c88a2c2c'
-title: 'IDirectXFile::RegisterTemplates method'
+---
+Description: Registers custom templates. Deprecated.
+ms.assetid: f9b24800-83a5-45bf-b19f-b247c88a2c2c
+title: IDirectXFileRegisterTemplates method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFile::RegisterTemplates method

@@ -2,13 +2,19 @@
 title: pointer\_default attribute
 description: The \ pointer\_default\ attribute specifies the default pointer attribute for all pointers except top-level pointers that appear in parameter lists.
 ms.assetid: a6e83034-8adb-483d-8d1e-432a1aed22c6
-keywords: ["pointer_default attribute MIDL"]
+keywords:
+- pointer_default attribute MIDL
 topic_type:
 - apiref
 api_name:
 - pointer_default
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # pointer\_default attribute

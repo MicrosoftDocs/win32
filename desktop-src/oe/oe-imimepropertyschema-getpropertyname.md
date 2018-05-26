@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySchema GetPropertyName method
 description: Looks up the property name for the specified property ID.
-ms.assetid: '3794abde-0181-4f86-acb0-175675ced730'
-keywords: ["GetPropertyName method Windows Mail (formerly Outlook Express)", "GetPropertyName method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface", "IMimePropertySchema interface Windows Mail (formerly Outlook Express) , GetPropertyName method"]
+ms.assetid: 3794abde-0181-4f86-acb0-175675ced730
+keywords:
+- GetPropertyName method Windows Mail (formerly Outlook Express)
+- GetPropertyName method Windows Mail (formerly Outlook Express) , IMimePropertySchema interface
+- IMimePropertySchema interface Windows Mail (formerly Outlook Express) , GetPropertyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySchema::GetPropertyName method
@@ -22,8 +30,8 @@ Looks up the property name for the specified property ID.
 
 ```C++
 HRESULT GetPropertyName(
-  [in]  DWORD dwPropId,
-  [out] LPSTR *ppszName
+  [in]  DWORD dwPropId,
+  [out] LPSTR *ppszName
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +84,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -85,9 +93,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

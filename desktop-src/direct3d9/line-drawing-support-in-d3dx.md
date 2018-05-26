@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.'
-ms.assetid: '34ad82f2-542c-4342-af02-a767d6d4c96c'
-title: 'Line Drawing Support in D3DX (Direct3D 9)'
+Description: D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
+ms.assetid: 34ad82f2-542c-4342-af02-a767d6d4c96c
+title: Line Drawing Support in D3DX (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Line Drawing Support in D3DX (Direct3D 9)
@@ -44,7 +49,7 @@ The library uses native hardware line drawing support (if available in the devic
 -   Line width is 1.
 -   No line pattern is enabled.
 
-Single-pixel-wide antialiased lines are supported by some hardware, so the library uses that, if available. The LineCaps member of the [**D3DCAPS9**](d3dcaps9.md) structure enumerates hardware capabilities for line-drawing primitives.
+Single-pixel-wide antialiased lines are supported by some hardware, so the library uses that, if available. The LineCaps member of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure enumerates hardware capabilities for line-drawing primitives.
 
 When the software line drawing is used, each line is expanded into a rectangle and four vertices are sent down to the driver.
 

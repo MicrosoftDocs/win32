@@ -1,8 +1,11 @@
 ---
 title: CreateInstanceFromPropertyData method of the MicrosoftDNS\_X25Type class
 description: The CreateInstanceFromPropertyData method instantiates an X.25 (X25) Resource Record.
-ms.assetid: 'fe89f829-79b9-457e-b455-899b2706ef04'
-keywords: ["CreateInstanceFromPropertyData method DNS", "CreateInstanceFromPropertyData method DNS , MicrosoftDNS_X25Type class", "MicrosoftDNS_X25Type class DNS , CreateInstanceFromPropertyData method"]
+ms.assetid: fe89f829-79b9-457e-b455-899b2706ef04
+keywords:
+- CreateInstanceFromPropertyData method DNS
+- CreateInstanceFromPropertyData method DNS , MicrosoftDNS_X25Type class
+- MicrosoftDNS_X25Type class DNS , CreateInstanceFromPropertyData method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateInstanceFromPropertyData method of the MicrosoftDNS\_X25Type class
@@ -22,13 +30,13 @@ The **CreateInstanceFromPropertyData** method instantiates an X.25 (X25) Resourc
 
 ```mof
 void CreateInstanceFromPropertyData(
-  [in]           string               DnsServerName,
-  [in]           string               ContainerName,
-  [in]           string               OwnerName,
-  [in, optional] uint32               RecordClass = 1,
-  [in, optional] uint32               TTL,
-  [in]           string               PSDNAddress,
-  [out, ref]     MicrosoftDNS_X25Type &amp;RR
+  [in]           string               DnsServerName,
+  [in]           string               ContainerName,
+  [in]           string               OwnerName,
+  [in, optional] uint32               RecordClass = 1,
+  [in, optional] uint32               TTL,
+  [in]           string               PSDNAddress,
+  [out, ref]     MicrosoftDNS_X25Type &amp;RR
 );
 ```
 
@@ -75,7 +83,7 @@ Class of the RR. Default value is 1. The following values are valid.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -111,7 +119,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -130,9 +138,9 @@ This method does not return a value.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

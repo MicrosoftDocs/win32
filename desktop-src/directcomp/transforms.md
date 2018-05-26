@@ -1,7 +1,12 @@
 ---
 title: Transforms
 description: This topic discusses Microsoft DirectComposition support for two-dimensional (2D) affine (linear) transforms, and describes the types of transforms that DirectComposition supports.
-ms.assetid: 'DED74416-C85A-4220-89BD-3F9BEF786B7D'
+ms.assetid: DED74416-C85A-4220-89BD-3F9BEF786B7D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transforms
@@ -73,10 +78,10 @@ The following table describes the types of affine 2D transforms supported by Dir
 
 | Transform/interface                                                                               | Description                                                                                              | Illustration                                                                                                                      |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Rotate 2D[**idcompositionrotatetransform**](idcompositionrotatetransform.md)\[newline\]          | rotate a visual by the specified angle about the specified center point.                                 | ![illustration of a square rotated 45 degrees clockwise about the center of the original square](images/rotate.png)               |
-| Scale 2D[**idcompositionscaletransform**](idcompositionscaletransform.md)\[newline\]             | scale a visual by the specified factor about the specified center point.                                 | ![illustration of a square scaled 130 percent](images/scale.png)                                                                  |
-| Skew 2D[**idcompositionskewtransform**](idcompositionskewtransform.md)\[newline\]                | skew a visual by the specified angle along the x-axis and y-axis, and around the specified center point. | ![illustration of a square skewed 30 degrees counterclockwise from the y-axis](images/skew.png)                                   |
-| Translate 2D[**idcompositiontranslatetransform**](idcompositiontranslatetransform.md)\[newline\] | change the position of a visual in the direction of the x-axis and y-axis.                               | ![illustration of a square moved 20 units along the positive x-axis and 10 units along the positive y-axis](images/translate.png) |
+| Rotate 2D[**idcompositionrotatetransform**](/windows/win32/Dcomp/?branch=master)\[newline\]          | rotate a visual by the specified angle about the specified center point.                                 | ![illustration of a square rotated 45 degrees clockwise about the center of the original square](images/rotate.png)               |
+| Scale 2D[**idcompositionscaletransform**](/windows/win32/Dcomp/?branch=master)\[newline\]             | scale a visual by the specified factor about the specified center point.                                 | ![illustration of a square scaled 130 percent](images/scale.png)                                                                  |
+| Skew 2D[**idcompositionskewtransform**](/windows/win32/Dcomp/?branch=master)\[newline\]                | skew a visual by the specified angle along the x-axis and y-axis, and around the specified center point. | ![illustration of a square skewed 30 degrees counterclockwise from the y-axis](images/skew.png)                                   |
+| Translate 2D[**idcompositiontranslatetransform**](/windows/win32/Dcomp/?branch=master)\[newline\] | change the position of a visual in the direction of the x-axis and y-axis.                               | ![illustration of a square moved 20 units along the positive x-axis and 10 units along the positive y-axis](images/translate.png) |
 
 
 
@@ -84,7 +89,7 @@ The following table describes the types of affine 2D transforms supported by Dir
 
 ## Matrix 2D transforms
 
-The [**IDCompositionMatrixTransform**](idcompositionmatrixtransform.md) interface enables you to define your own 3-by-2 affine 2D transform matrix and apply it to a visual. This interface is useful if you need to apply a type of affine 2D transform that is not available through the other DirectComposition transform interfaces. You define the matrix by filling a [**D2D\_MATRIX\_3X2\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368178) structure and passing it to the [**IDCompositionMatrixTransform::SetMatrix**](idcompositionmatrixtransform-setmatrix.md) method.
+The [**IDCompositionMatrixTransform**](/windows/win32/Dcomp/?branch=master) interface enables you to define your own 3-by-2 affine 2D transform matrix and apply it to a visual. This interface is useful if you need to apply a type of affine 2D transform that is not available through the other DirectComposition transform interfaces. You define the matrix by filling a [**D2D\_MATRIX\_3X2\_F**](https://msdn.microsoft.com/library/windows/desktop/dd368178) structure and passing it to the [**IDCompositionMatrixTransform::SetMatrix**](/windows/win32/Dcomp/?branch=master) method.
 
 ## Transform Groups
 
@@ -92,7 +97,7 @@ You can use transform groups to combine multiple transforms into one. A transfor
 
 Keep in mind that the order of the transform objects in a transform group is important. For example, if a visual is first rotated, then scaled, and then translated, the result is different than if the visual is first translated, then rotated, and then scaled. DirectComposition always applies the transforms to a visual in the order in which they are specified in the collection.
 
-To create a transform group, first create the transform objects that you want to include in the group, and then pass an array of transform object pointers to the [**IDCompositionDevice::CreateTransformGroup**](idcompositiondevice-createtransformgroup.md) method. After you create a transform group, you cannot add or remove any transform objects. However, you can modify the properties of the individual transform objects in the collection, and the changes will be reflected in the resulting transform matrix.
+To create a transform group, first create the transform objects that you want to include in the group, and then pass an array of transform object pointers to the [**IDCompositionDevice::CreateTransformGroup**](/windows/win32/Dcomp/?branch=master) method. After you create a transform group, you cannot add or remove any transform objects. However, you can modify the properties of the individual transform objects in the collection, and the changes will be reflected in the resulting transform matrix.
 
 ## Transform animation
 

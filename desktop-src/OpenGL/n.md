@@ -2,8 +2,20 @@
 title: N
 description: Definitions of OpenGL terms that begin with the letter N.
 Robots: noindex, nofollow
-ms.assetid: 'ad4c9321-a9e3-40c5-af80-0ad6a8b9f380'
-keywords: ["networks", "nonconvex", "normal", "normalize", "normal vector", "NURBS (Non-Uniform Rational B-Spline)", "Non-Uniform Rational B-Spline (NURBS)"]
+ms.assetid: ad4c9321-a9e3-40c5-af80-0ad6a8b9f380
+keywords:
+- networks
+- nonconvex
+- normal
+- normalize
+- normal vector
+- NURBS (Non-Uniform Rational B-Spline)
+- Non-Uniform Rational B-Spline (NURBS)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # N

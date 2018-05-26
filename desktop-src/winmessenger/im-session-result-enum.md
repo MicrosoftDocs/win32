@@ -1,8 +1,10 @@
 ---
 title: SESSION\_RESULT enumeration
 description: Do not use. Provides the list of possible result codes of the session invitation.
-ms.assetid: '99e41f1c-f4ce-494f-a264-83157392e243'
-keywords: ["SESSION_RESULT enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: 99e41f1c-f4ce-494f-a264-83157392e243
+keywords:
+- SESSION_RESULT enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msgrpriv.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SESSION\_RESULT enumeration
 
-\[[**LockStatus**](im-lockstatus-enum.md) is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[[**LockStatus**](im-lockstatus-enum.md) is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Provides the list of possible result codes of the session invitation.
 
@@ -24,36 +31,36 @@ Do not use. Provides the list of possible result codes of the session invitation
 
 ```C++
 typedef enum  { 
-  SR_APPLICATION_LAUNCH_FAILED  = 0x81000601,
-  SR_INVITATION_DECLINED        = 0x81000602,
-  SR_CONNECTION_FAILURE         = 0x81000603,
-  SR_AUTHENTICATION_FAILED      = 0x81000604,
-  SR_SESSION_NOT_READY          = 0x81000605,
-  SR_SESSION_CANCELLED_LOCAL    = 0x81000606,
-  SR_SESSION_CANCELLED_REMOTE   = 0x81000607,
-  SR_SESSION_PROTOCOL_ERROR     = 0x81000608,
-  SR_SESSION_TIMEOUT            = 0x81000609,
-  SR_CANCEL_BEFORE_CONNECT      = 0x8100060a,
-  SR_NOT_INVITEE                = 0x8100060b,
-  SR_NOT_INVITER                = 0x8100060c,
-  SR_APP_ALREADY_REGISTERED     = 0x8100060d,
-  SR_APP_NOT_REGISTERED         = 0x8100060e,
-  SR_NOT_VALID_FOR_APP_INVITE   = 0x8100060f,
-  SR_APP_NOT_SPECIFIED          = 0x81000610,
-  SR_CONTEXT_DATA_OVER_LIMIT    = 0x81000611,
-  SR_NO_USER_INVITED            = 0x81000612,
-  SR_INVITED_SELF               = 0x81000613,
-  SR_SESSION_STATE_INVALID      = 0x81000614,
-  SR_INVITATION_SEND_FAILURE    = 0x81000615,
-  SR_CANCEL_SEND_FAILURE        = 0x81000616,
-  SR_DECLINE_SEND_FAILURE       = 0x81000617,
-  SR_ACCEPT_SEND_FAILURE        = 0x81000618,
-  SR_CONTEXT_DATA_SEND_FAILURE  = 0x81000619,
-  SR_NETWORK_CONFIG_FAILURE     = 0x81000620,
-  SR_NET_NOT_SUPPORTED          = 0x81000621,
-  SR_REMOTE_NET_NOT_SUPPORTED   = 0x81000622,
-  SR_FIREWALL_NOT_SUPPORTED     = 0x81000623,
-  SR_OLD_SIP_STACK              = 0x81000624
+  SR_APPLICATION_LAUNCH_FAILED  = 0x81000601,
+  SR_INVITATION_DECLINED        = 0x81000602,
+  SR_CONNECTION_FAILURE         = 0x81000603,
+  SR_AUTHENTICATION_FAILED      = 0x81000604,
+  SR_SESSION_NOT_READY          = 0x81000605,
+  SR_SESSION_CANCELLED_LOCAL    = 0x81000606,
+  SR_SESSION_CANCELLED_REMOTE   = 0x81000607,
+  SR_SESSION_PROTOCOL_ERROR     = 0x81000608,
+  SR_SESSION_TIMEOUT            = 0x81000609,
+  SR_CANCEL_BEFORE_CONNECT      = 0x8100060a,
+  SR_NOT_INVITEE                = 0x8100060b,
+  SR_NOT_INVITER                = 0x8100060c,
+  SR_APP_ALREADY_REGISTERED     = 0x8100060d,
+  SR_APP_NOT_REGISTERED         = 0x8100060e,
+  SR_NOT_VALID_FOR_APP_INVITE   = 0x8100060f,
+  SR_APP_NOT_SPECIFIED          = 0x81000610,
+  SR_CONTEXT_DATA_OVER_LIMIT    = 0x81000611,
+  SR_NO_USER_INVITED            = 0x81000612,
+  SR_INVITED_SELF               = 0x81000613,
+  SR_SESSION_STATE_INVALID      = 0x81000614,
+  SR_INVITATION_SEND_FAILURE    = 0x81000615,
+  SR_CANCEL_SEND_FAILURE        = 0x81000616,
+  SR_DECLINE_SEND_FAILURE       = 0x81000617,
+  SR_ACCEPT_SEND_FAILURE        = 0x81000618,
+  SR_CONTEXT_DATA_SEND_FAILURE  = 0x81000619,
+  SR_NETWORK_CONFIG_FAILURE     = 0x81000620,
+  SR_NET_NOT_SUPPORTED          = 0x81000621,
+  SR_REMOTE_NET_NOT_SUPPORTED   = 0x81000622,
+  SR_FIREWALL_NOT_SUPPORTED     = 0x81000623,
+  SR_OLD_SIP_STACK              = 0x81000624
 } LockError;
 ```
 
@@ -279,10 +286,10 @@ The SIP stack is out of date.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
-| End of client support<br/>    | Windows XP<br/>                                                                   |
-| End of server support<br/>    | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| End of client support<br/>    | Windows XP<br/>                                                                   |
+| End of server support<br/>    | Windows Server 2003<br/>                                                          |
 | Product<br/>                  | Messenger 4.5<br/>                                                                |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl> |
@@ -299,9 +306,9 @@ The SIP stack is out of date.
 [Messenger Lock and Key API](im-lock-and-key-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

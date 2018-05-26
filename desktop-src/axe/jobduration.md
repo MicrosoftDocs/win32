@@ -1,14 +1,20 @@
 ---
 title: JobDuration element
 description: The duration of the job in milliseconds.
-ms.assetid: '77105213-B9F1-4ABF-BC83-A20F684E30FA'
-keywords: ["JobDuration element Access Execution Engine"]
+ms.assetid: 77105213-B9F1-4ABF-BC83-A20F684E30FA
+keywords:
+- JobDuration element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - JobDuration
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JobDuration element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Results Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449335)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

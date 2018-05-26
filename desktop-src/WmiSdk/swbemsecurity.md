@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemSecurity object gets or sets security settings, such as privileges, COM impersonations, and authentication levels assigned to an object.'
+Description: The SWbemSecurity object gets or sets security settings, such as privileges, COM impersonations, and authentication levels assigned to an object.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '794587fa-5feb-455b-be28-ecfaa25625ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 794587fa-5feb-455b-be28-ecfaa25625ad
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemSecurity object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemSecurity object
@@ -36,7 +39,7 @@ The **SWbemSecurity** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -44,8 +47,8 @@ The **SWbemSecurity** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -67,18 +70,18 @@ The **SWbemSecurity** object has these properties.
 [Setting Client\_Application\_Process Security](setting-client-application-process-security.md)
 </dt> <dt>
 
-[**WbemAuthenticationLevelEnum**](wbemauthenticationlevelenum.md)
+[**WbemAuthenticationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master)
 </dt> <dt>
 
-[**WbemImpersonationLevelEnum**](wbemimpersonationlevelenum.md)
+[**WbemImpersonationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum?branch=master)
 </dt> <dt>
 
-[**WbemPrivilegeEnum**](wbemprivilegeenum.md)
+[**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

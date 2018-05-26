@@ -1,8 +1,33 @@
 ---
 title: Presets
 description: Presets
-ms.assetid: 'f8a5565d-676b-4679-a4cb-4bd7551cf41c'
-keywords: ["visualizations,presets", "custom visualizations,presets", "visualizations,Bar preset", "custom visualizations,Bar preset", "visualizations,Wave preset", "custom visualizations,Wave preset", "visualizations,Render function", "custom visualizations,Render function", "Render function,presets", "visualizations,GetPresetTitle function", "custom visualizations,GetPresetTitle function", "GetPresetTitle function", "enumerations,visualization presets", "visualizations,enumerations", "custom visualizations,enumerations", "visualizations,resource header and strings", "custom visualizations,resource header and strings", "presets in visualizations,Bar preset", "presets in visualizations,Wave preset", "presets in visualizations,about"]
+ms.assetid: f8a5565d-676b-4679-a4cb-4bd7551cf41c
+keywords:
+- visualizations,presets
+- custom visualizations,presets
+- visualizations,Bar preset
+- custom visualizations,Bar preset
+- visualizations,Wave preset
+- custom visualizations,Wave preset
+- visualizations,Render function
+- custom visualizations,Render function
+- Render function,presets
+- visualizations,GetPresetTitle function
+- custom visualizations,GetPresetTitle function
+- GetPresetTitle function
+- enumerations,visualization presets
+- visualizations,enumerations
+- custom visualizations,enumerations
+- visualizations,resource header and strings
+- custom visualizations,resource header and strings
+- presets in visualizations,Bar preset
+- presets in visualizations,Wave preset
+- presets in visualizations,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Presets

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IScanProfile interface represents a single scan profile and enables applications to set and get the properties of the profile.'
-ms.assetid: '5cd76256-d64e-4934-8cc2-0a467c7e34a9'
+---
+Description: The IScanProfile interface represents a single scan profile and enables applications to set and get the properties of the profile.
+ms.assetid: 5cd76256-d64e-4934-8cc2-0a467c7e34a9
 title: IScanProfile interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IScanProfile interface

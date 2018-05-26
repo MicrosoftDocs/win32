@@ -1,7 +1,12 @@
 ---
 title: Drop-Down Color Picker
 description: The Windows Ribbon framework provides a specialized Drop-Down Color Picker control that exposes a variety of color settings through a split button and customizable drop-down color selector.
-ms.assetid: '65e1fc23-7ac0-4bb3-9359-28ce88acf356'
+ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drop-Down Color Picker
@@ -88,7 +93,7 @@ Like all Ribbon controls, the Drop-Down Color Picker is easily implemented and c
 
 
 
- 
+ 
 
 The following screen shots illustrate the default Drop-Down Color Picker layouts for the three color templates.
 
@@ -100,14 +105,14 @@ The following screen shots illustrate the default Drop-Down Color Picker layouts
 
 
 
- 
+ 
 
 The basic markup required for each Drop-Down Color Picker type is demonstrated in the following examples:
 
 > [!Note]  
 > The Drop-Down Color Picker is a valid [Button](windowsribbon-controls-button.md) control in a [**SizeDefinition**](windowsribbon-element-sizedefinition.md) template.
 
- 
+ 
 
 
 ```XML
@@ -181,7 +186,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Drop-Down Color Picker control.
 
@@ -268,7 +273,7 @@ The following table lists the property keys that are associated with the Drop-Do
 </tr>
 <tr class="even">
 <td>[UI_PKEY_StandardColors](windowsribbon-reference-properties-uipkey-standardcolors.md)</td>
-<td>Defines an array of [COLORREF](http://go.microsoft.com/fwlink/p/?linkid=133391) values for the swatches of a Drop-Down Color Picker.<br/> Each Drop-Down Color Picker <em>ColorTemplate</em> contains a <code>StandardColors</code> grid. <br/>
+<td>Defines an array of [COLORREF](http://go.microsoft.com/fwlink/p/?linkid=133391) values for the swatches of a Drop-Down Color Picker.<br/> Each Drop-Down Color Picker <em>ColorTemplate</em> contains a <code>StandardColors</code> grid. <br/>
 <blockquote>
 [!Note]<br />
 The [COLORREF](http://go.microsoft.com/fwlink/p/?linkid=133391) values from the initial <em>StandardColorGridRows</em> x <em>Columns</em> of the array are displayed. If the array defines fewer colors than the number of <code>StandardColors</code> swatches declared in markup, empty spaces are displayed for the missing chips.
@@ -331,7 +336,7 @@ Only those tool tips required to label the color swatches displayed in the <code
 
 
 
- 
+ 
 
 ### Command handlers
 
@@ -461,9 +466,9 @@ STDMETHODIMP DropDownColorPickerHandler::Execute(
 [DropDownColorPicker Sample](windowsribbon-dropdowncolorpickersample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

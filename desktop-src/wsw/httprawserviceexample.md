@@ -1,8 +1,16 @@
 ---
 title: HttpRawServiceExample
 description: This example shows how to use service host to handle raw (non-SOAP) HTTP requests.
-ms.assetid: 'fbe5ad9c-f3f4-40c2-86e0-03b945aab89f'
-keywords: ["HttpRawServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: fbe5ad9c-f3f4-40c2-86e0-03b945aab89f
+keywords:
+- HttpRawServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpRawServiceExample

@@ -3,7 +3,15 @@ title: L
 description: Definitions of OpenGL terms that begin with the letter L.
 Robots: noindex, nofollow
 ms.assetid: c516732e-8b2e-4809-aadf-428b2a2112f4
-keywords: ["lighting", "lines", "luminance"]
+keywords:
+- lighting
+- lines
+- luminance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # L

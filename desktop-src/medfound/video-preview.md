@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to use MFPlay to preview video from a video camera.'
-ms.assetid: 'ecf6113f-1d8e-4680-87ab-bfd45a9663e4'
+Description: This topic describes how to use MFPlay to preview video from a video camera.
+ms.assetid: ecf6113f-1d8e-4680-87ab-bfd45a9663e4
 title: Video Preview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Preview
@@ -21,10 +26,10 @@ Otherwise, the [Source Reader](source-reader.md) may be a better option.
 To use MFPlay with a video capture device, perform the following steps:
 
 1.  Create a media source for the capture device. See [Enumerating Video Capture Devices](enumerating-video-capture-devices.md).
-2.  Call [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) to create an instance of the player object.
-3.  Call the [**IMFPMediaPlayer::CreateMediaItemFromObject**](imfpmediaplayer-createmediaitemfromobject.md) method. Pass in a pointer to the IMFMediaSource interface of the media source. The method receives a pointer to the [**IMFPMediaItem**](imfpmediaitem.md) interface.
-4.  Call [**IMFPMediaPlayer::SetMediaItem**](imfpmediaplayer-setmediaitem.md).
-5.  Call [**IMFPMediaPlayer::Play**](imfpmediaplayer-play.md) to begin previewing.
+2.  Call [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master) to create an instance of the player object.
+3.  Call the [**IMFPMediaPlayer::CreateMediaItemFromObject**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject?branch=master) method. Pass in a pointer to the IMFMediaSource interface of the media source. The method receives a pointer to the [**IMFPMediaItem**](/windows/win32/mfplay/nn-mfplay-imfpmediaitem?branch=master) interface.
+4.  Call [**IMFPMediaPlayer::SetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem?branch=master).
+5.  Call [**IMFPMediaPlayer::Play**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-play?branch=master) to begin previewing.
 
 The following code shows these steps:
 
@@ -69,14 +74,14 @@ The following code shows these steps:
 
 
 
-In a typical application, you would provide a pointer to a callback interface in the [**MFPCreateMediaPlayer**](mfpcreatemediaplayer.md) function, and use the callback interface to get events from the player. For simplicity, the code shown here skips these steps. For more information, see [Getting Started with MFPlay](getting-started-with-mfplay.md).
+In a typical application, you would provide a pointer to a callback interface in the [**MFPCreateMediaPlayer**](/windows/win32/mfplay/nf-mfplay-mfpcreatemediaplayer?branch=master) function, and use the callback interface to get events from the player. For simplicity, the code shown here skips these steps. For more information, see [Getting Started with MFPlay](getting-started-with-mfplay.md).
 
 ### Shutting Down
 
 Before the application exits, shut down the media source and the player object as follows:
 
-1.  Call [**IMFMediaSource::Shutdown**](imfmediasource-shutdown.md) on the media source.
-2.  Call [**IMFPMediaPlayer::Shutdown**](imfpmediaplayer-shutdown.md) on the player object.
+1.  Call [**IMFMediaSource::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master) on the media source.
+2.  Call [**IMFPMediaPlayer::Shutdown**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-shutdown?branch=master) on the player object.
 
 
 ```C++

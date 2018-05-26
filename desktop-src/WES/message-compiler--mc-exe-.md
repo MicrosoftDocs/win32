@@ -1,14 +1,20 @@
 ---
 title: Message Compiler (MC.exe)
 description: Used to compile instrumentation manifests and message text files.
-ms.assetid: 'f9de35f1-6d31-4f4b-b2c4-8474d6fce9e0'
-keywords: ["Message Compiler (MC.exe) EventLog"]
+ms.assetid: f9de35f1-6d31-4f4b-b2c4-8474d6fce9e0
+keywords:
+- Message Compiler (MC.exe) EventLog
 topic_type:
 - apiref
 api_name:
 - Message Compiler (MC.exe)
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Compiler (MC.exe)
@@ -129,7 +135,7 @@ The compiler ignores this argument.
 
 ### Arguments specific to generating code that your provider would use to log events
 
-You can use the following compiler arguments to generate kernel-mode or user-mode code that you can use to log events. You can also request that the compiler generate code to support writing events on computers prior to Windows Vista. If your application is written C#, the compiler can generate a C# class that you can use to log events. These arguments are available beginning with MC version 1.12.7051 that ships with the Windows 7 version of the Window SDK.
+You can use the following compiler arguments to generate kernel-mode or user-mode code that you can use to log events. You can also request that the compiler generate code to support writing events on computers prior to Windows Vista. If your application is written C#, the compiler can generate a C# class that you can use to log events. These arguments are available beginning with MC version 1.12.7051 that ships with the Windows 7 version of the Window SDK.
 
 <dl> <dt>
 
@@ -185,7 +191,7 @@ Use this argument to have the compiler generate the kernel-mode code that you wo
 <span id="-mof"></span><span id="-MOF"></span>**-mof**
 </dt> <dd>
 
-Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](https://msdn.microsoft.com/library/aa823192).
+Use this argument to have the compiler generate code that you can use to log events on computers prior to Windows Vista. This option also creates a MOF file that contains the MOF classes for each event defined in the manifest. To register the classes in the MOF file so that consumers can decode the events, use the MOF compiler (Mofcomp.exe). For details on using the MOF compiler, see [Managed Object Format](https://msdn.microsoft.com/library/aa823192).
 
 To use this switch, you must adhere to the following restrictions:
 
@@ -362,14 +368,14 @@ mc -um -mof spooler.man
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

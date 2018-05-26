@@ -1,7 +1,12 @@
 ---
 title: HTTP.sys Manageability in Windows Vista and Windows Server 2008
 description: With Windows Vista and Windows Server 2008, IT professionals will find improved manageability functionality for the HTTP Server API component, in addition to the HTTP logging support introduced in Windows Server 2003.
-ms.assetid: 'c5fc006c-e50d-49e8-8835-faa0732b7d88'
+ms.assetid: c5fc006c-e50d-49e8-8835-faa0732b7d88
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP.sys Manageability in Windows Vista and Windows Server 2008

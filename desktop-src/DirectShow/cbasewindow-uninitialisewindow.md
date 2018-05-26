@@ -1,7 +1,12 @@
 ---
-Description: 'The UninitialiseWindow method releases the window''s resources.'
-ms.assetid: '8c5bb0c1-1d92-4025-bbbd-1e57ddde4456'
-title: 'CBaseWindow.UninitialiseWindow method'
+Description: The UninitialiseWindow method releases the windows resources.
+ms.assetid: 8c5bb0c1-1d92-4025-bbbd-1e57ddde4456
+title: CBaseWindow.UninitialiseWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.UninitialiseWindow method
@@ -47,9 +52,9 @@ This method frees resources that were acquired by the [**CBaseWindow::Initialise
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

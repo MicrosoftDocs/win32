@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the channel matrix, which is used to convert the source channels into the destination channels (for example, to convert 5.1 to stereo).'
-ms.assetid: '2f2a82bd-f051-4b05-a9c8-37aa4403fab4'
-title: 'MFPKEY\_WMRESAMP\_CHANNELMTX Property'
+---
+Description: Specifies the channel matrix, which is used to convert the source channels into the destination channels (for example, to convert 5.1 to stereo).
+ms.assetid: 2f2a82bd-f051-4b05-a9c8-37aa4403fab4
+title: MFPKEY\_WMRESAMP\_CHANNELMTX Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMRESAMP\_CHANNELMTX Property

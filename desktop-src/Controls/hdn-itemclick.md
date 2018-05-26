@@ -1,8 +1,9 @@
 ---
 title: HDN\_ITEMCLICK notification code
-description: Notifies a header control's parent window that the user clicked the control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '25ed0070-5891-4f36-9ae0-fc04e064401f'
-keywords: ["HDN_ITEMCLICK notification code Windows Controls"]
+description: Notifies a header controls parent window that the user clicked the control. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 25ed0070-5891-4f36-9ae0-fc04e064401f
+keywords:
+- HDN_ITEMCLICK notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_ITEMCLICK notification code
@@ -35,7 +41,7 @@ HDN_ITEMCLICK
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](nmheader.md) structure that identifies the header control and specifies the index of the header item that was clicked and the mouse button used to click the item. The **pItem** member is set to **NULL**.
+A pointer to an [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure that identifies the header control and specifies the index of the header item that was clicked and the mouse button used to click the item. The **pItem** member is set to **NULL**.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ A header control sends this notification code after the user releases the left m
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **HDN\_ITEMCLICKW** (Unicode) and **HDN\_ITEMCLICKA** (ANSI)<br/>               |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

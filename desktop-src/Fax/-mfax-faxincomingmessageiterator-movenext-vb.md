@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MoveNext method moves the archive cursor to the next message in the archive of inbound faxes.'
-ms.assetid: 'ab40c195-2c2b-41e7-b7d1-02ee2c7b5015'
-title: 'FaxIncomingMessageIterator.MoveNext method'
+---
+Description: The MoveNext method moves the archive cursor to the next message in the archive of inbound faxes.
+ms.assetid: ab40c195-2c2b-41e7-b7d1-02ee2c7b5015
+title: FaxIncomingMessageIterator.MoveNext method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessageIterator.MoveNext method
@@ -25,7 +30,7 @@ This method has no parameters.
 
 You can make the iteration process more efficient by using a prefetch buffer. A prefetch buffer contains messages and allows you to iterate through the buffer rather than through a folder. Set the size of the buffer (the number of messages to be held in the buffer) using the [**PrefetchSize**](-mfax-faxincomingmessageiterator-prefetchsize.md) property.
 
-To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To use this method, a user must have the [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-a
 [**FaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator-cpp.md)
+[**IFaxIncomingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessageiterator?branch=master)
 </dt> </dl>
 
  

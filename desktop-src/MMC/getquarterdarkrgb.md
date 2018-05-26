@@ -4,11 +4,14 @@ description: The GetQuarterDarkRGB method derives a \ 0034;darker \ 0034; color 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '074ff30f-eca6-4602-a75a-5ff1b7d7093a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 074ff30f-eca6-4602-a75a-5ff1b7d7093a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["GetQuarterDarkRGB method MMC", "GetQuarterDarkRGB method MMC , SysColorCtrl class", "SysColorCtrl class MMC , GetQuarterDarkRGB method"]
+keywords:
+- GetQuarterDarkRGB method MMC
+- GetQuarterDarkRGB method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , GetQuarterDarkRGB method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.GetQuarterDarkRGB method
@@ -101,9 +107,9 @@ An integer that is the RGB value for the derived color specified by the method's
 
 
 
- 
+ 
 
- 
+ 
 
 
 

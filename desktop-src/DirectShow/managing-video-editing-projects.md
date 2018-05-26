@@ -1,7 +1,12 @@
 ---
 Description: Managing Video Editing Projects
-ms.assetid: 'f8d74807-562f-429b-93a1-e65d0f15163b'
+ms.assetid: f8d74807-562f-429b-93a1-e65d0f15163b
 title: Managing Video Editing Projects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Video Editing Projects

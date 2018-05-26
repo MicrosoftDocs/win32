@@ -1,7 +1,12 @@
 ---
 title: Use Entire Words or Syllables
 description: Use entire words or syllables so that your names are easier to remember.
-ms.assetid: '6e488fbe-ee5a-4042-9ff2-0677e78f5216'
+ms.assetid: 6e488fbe-ee5a-4042-9ff2-0677e78f5216
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use Entire Words or Syllables

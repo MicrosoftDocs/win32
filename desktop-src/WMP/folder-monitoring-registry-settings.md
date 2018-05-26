@@ -1,8 +1,21 @@
 ---
 title: Folder Monitoring Registry Settings
 description: Folder Monitoring Registry Settings
-ms.assetid: '563aeaec-0759-4b0c-a8e9-a9a2b3092515'
-keywords: ["Windows Media Player,folder monitoring registry settings", "Windows Media Player,file folder monitoring registry settings", "Windows Media Player,registry", "registry,folder monitoring settings", "registry,file folder monitoring settings", "registry,settings for Windows Media Player", "folder monitoring registry settings", "file folder monitoring registry settings"]
+ms.assetid: 563aeaec-0759-4b0c-a8e9-a9a2b3092515
+keywords:
+- Windows Media Player,folder monitoring registry settings
+- Windows Media Player,file folder monitoring registry settings
+- Windows Media Player,registry
+- registry,folder monitoring settings
+- registry,file folder monitoring settings
+- registry,settings for Windows Media Player
+- folder monitoring registry settings
+- file folder monitoring registry settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder Monitoring Registry Settings

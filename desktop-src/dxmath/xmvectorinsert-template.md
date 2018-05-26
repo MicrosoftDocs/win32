@@ -1,7 +1,12 @@
-﻿---
-Description: 'Rotates a vector left by a given number of 32-bit components and insert selected elements of that result into another vector.'
-ms.assetid: 'd96248a6-35ef-4d37-a929-ac7ea00a6d08'
+---
+Description: Rotates a vector left by a given number of 32-bit components and insert selected elements of that result into another vector.
+ms.assetid: d96248a6-35ef-4d37-a929-ac7ea00a6d08
 title: XMVectorInsert template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVectorInsert template

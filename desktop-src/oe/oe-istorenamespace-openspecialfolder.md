@@ -1,8 +1,11 @@
 ---
 title: IStoreNamespace OpenSpecialFolder method
 description: Opens one of the special message folders in the namespace inbox, outbox, sent items, deleted items, and draft items. Special folders are preassigned to each namespace, and cannot be renamed, moved, or deleted.
-ms.assetid: 'a1ae35fc-aa95-4dbf-bd60-eff9141ac38b'
-keywords: ["OpenSpecialFolder method Windows Mail (formerly Outlook Express)", "OpenSpecialFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface", "IStoreNamespace interface Windows Mail (formerly Outlook Express) , OpenSpecialFolder method"]
+ms.assetid: a1ae35fc-aa95-4dbf-bd60-eff9141ac38b
+keywords:
+- OpenSpecialFolder method Windows Mail (formerly Outlook Express)
+- OpenSpecialFolder method Windows Mail (formerly Outlook Express) , IStoreNamespace interface
+- IStoreNamespace interface Windows Mail (formerly Outlook Express) , OpenSpecialFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStoreNamespace::OpenSpecialFolder method
@@ -22,9 +30,9 @@ Opens one of the special message folders in the namespace: inbox, outbox, sent i
 
 ```C++
 HRESULT OpenSpecialFolder(
-  [in]  SPECIALFOLDER sfType,
-  [in]  DWORD         dwReserved,
-  [out] IStoreFolder  **ppFolder
+  [in]  SPECIALFOLDER sfType,
+  [in]  DWORD         dwReserved,
+  [out] IStoreFolder  **ppFolder
 );
 ```
 
@@ -53,7 +61,7 @@ Identifies the special folder to open. Must be one of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -90,7 +98,7 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -98,8 +106,8 @@ Returns S\_OK if successful, or one of the following error values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Msoeapi.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Msoeapi.idl</dt> </dl>                         |
@@ -107,9 +115,9 @@ Returns S\_OK if successful, or one of the following error values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: GetDistinguishedName method of the MicrosoftDNS\_Zone class
 description: The GetDistinguishedName method retrieves the distinguished name for the zone.
-ms.assetid: '234dbb43-913e-43e2-b09d-d0c3e449af82'
-keywords: ["GetDistinguishedName method DNS", "GetDistinguishedName method DNS , MicrosoftDNS_Zone class", "MicrosoftDNS_Zone class DNS , GetDistinguishedName method"]
+ms.assetid: 234dbb43-913e-43e2-b09d-d0c3e449af82
+keywords:
+- GetDistinguishedName method DNS
+- GetDistinguishedName method DNS , MicrosoftDNS_Zone class
+- MicrosoftDNS_Zone class DNS , GetDistinguishedName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDistinguishedName method of the MicrosoftDNS\_Zone class
@@ -41,7 +49,7 @@ Returns the name of the zone.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -84,9 +92,9 @@ Returns the name of the zone.
 [**WriteBackZone Method of the MicrosoftDNS\_Zone Class**](microsoftdns-zone-writebackzone.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

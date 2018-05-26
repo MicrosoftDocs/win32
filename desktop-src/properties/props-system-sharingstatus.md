@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the sharing status of an item: Not Shared, Shared, Everyone (homegroup or everyone), or Private.'
-ms.assetid: '61d8a4fc-d9ad-467f-aa79-b0c208d0e905'
-title: 'System.SharingStatus'
+Description: Indicates the sharing status of an item Not Shared, Shared, Everyone (homegroup or everyone), or Private.
+ms.assetid: 61d8a4fc-d9ad-467f-aa79-b0c208d0e905
+title: System.SharingStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.SharingStatus

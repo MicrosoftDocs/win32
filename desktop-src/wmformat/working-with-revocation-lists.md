@@ -1,8 +1,19 @@
 ---
 title: Working with Revocation Lists
 description: Working with Revocation Lists
-ms.assetid: '4463abb5-f48f-484f-b837-512313572c0a'
-keywords: ["Windows Media Format SDK,revocation lists", "Advanced Systems Format (ASF),revocation lists", "ASF (Advanced Systems Format),revocation lists", "revocation lists", "digital rights management (DRM),revocation lists", "DRM (digital rights management),revocation lists"]
+ms.assetid: 4463abb5-f48f-484f-b837-512313572c0a
+keywords:
+- Windows Media Format SDK,revocation lists
+- Advanced Systems Format (ASF),revocation lists
+- ASF (Advanced Systems Format),revocation lists
+- revocation lists
+- digital rights management (DRM),revocation lists
+- DRM (digital rights management),revocation lists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Revocation Lists
@@ -11,8 +22,8 @@ To respond to security breaches and to ensure that player applications known to 
 
 Player applications can receive a revocation error message in the following scenarios:
 
--   The error message is received after the application calls the [**IWMDRMReader::AcquireLicense**](iwmdrmreader-acquirelicense.md) method for a protected file. The call fails with the **HRESULT** code NS\_E\_DRM\_APPCERT\_REVOKED, which is supplied to the **OnStatus** callback function with WMT\_ACQUIRE\_LICENSE status. If this **HRESULT** code is ignored, errors will continue to occur.
--   The error message is received when the application creates the DRM-enabled reader and calls the [**IWMReader::Open**](iwmreader-open.md) method for a protected file. The call fails with the **HRESULT** code NS\_E\_DRM\_APPCERT\_REVOKED, which is supplied to the [**IWMStatusCallback::OnStatus**](iwmstatuscallback-onstatus.md) callback method with WMT\_OPENED status. When a player application receives this error message, the application should notify end users and provide a way for them to restore functionality to their player. For example, the application can open a URL where end users can download an upgrade for the compromised application.
+-   The error message is received after the application calls the [**IWMDRMReader::AcquireLicense**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense?branch=master) method for a protected file. The call fails with the **HRESULT** code NS\_E\_DRM\_APPCERT\_REVOKED, which is supplied to the **OnStatus** callback function with WMT\_ACQUIRE\_LICENSE status. If this **HRESULT** code is ignored, errors will continue to occur.
+-   The error message is received when the application creates the DRM-enabled reader and calls the [**IWMReader::Open**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-open?branch=master) method for a protected file. The call fails with the **HRESULT** code NS\_E\_DRM\_APPCERT\_REVOKED, which is supplied to the [**IWMStatusCallback::OnStatus**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus?branch=master) callback method with WMT\_OPENED status. When a player application receives this error message, the application should notify end users and provide a way for them to restore functionality to their player. For example, the application can open a URL where end users can download an upgrade for the compromised application.
 
 **Note** DRM is not supported by the x64-based version of this SDK.
 

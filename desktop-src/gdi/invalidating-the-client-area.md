@@ -1,12 +1,17 @@
 ---
-Description: 'The system is not the only source of WM\_PAINT messages. The InvalidateRect or InvalidateRgn function can indirectly generate WM\_PAINT messages for your windows. These functions mark all or part of a client area as invalid (that must be redrawn).'
-ms.assetid: '41c2bc07-768b-4d27-a869-69b072f3e033'
+Description: The system is not the only source of WM\_PAINT messages. The InvalidateRect or InvalidateRgn function can indirectly generate WM\_PAINT messages for your windows. These functions mark all or part of a client area as invalid (that must be redrawn).
+ms.assetid: 41c2bc07-768b-4d27-a869-69b072f3e033
 title: Invalidating the Client Area
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Invalidating the Client Area
 
-The system is not the only source of [**WM\_PAINT**](wm-paint.md) messages. The [**InvalidateRect**](invalidaterect.md) or [**InvalidateRgn**](invalidatergn.md) function can indirectly generate **WM\_PAINT** messages for your windows. These functions mark all or part of a client area as invalid (that must be redrawn).
+The system is not the only source of [**WM\_PAINT**](wm-paint.md) messages. The [**InvalidateRect**](/windows/win32/Winuser/nf-winuser-invalidaterect?branch=master) or [**InvalidateRgn**](/windows/win32/Winuser/nf-winuser-invalidatergn?branch=master) function can indirectly generate **WM\_PAINT** messages for your windows. These functions mark all or part of a client area as invalid (that must be redrawn).
 
 In the following example, the window procedure invalidates the entire client area when processing [**WM\_CHAR**](_win32_wm_char_cpp) messages. This allows the user to change the figure by typing a number and view the results; these results are drawn as soon as there are no other messages in the application's message queue.
 
@@ -50,7 +55,7 @@ case WM_PAINT:
 
 
 
-In this example, the **NULL** argument used by [**InvalidateRect**](invalidaterect.md) specifies the entire client area; the **TRUE** argument causes the background to be erased. If you do not want the application to wait until the application's message queue has no other messages, use the [**UpdateWindow**](updatewindow.md) function to force the [**WM\_PAINT**](wm-paint.md) message to be sent immediately. If there is any invalid part of the client area, **UpdateWindow** sends the **WM\_PAINT** message for the specified window directly to the window procedure.
+In this example, the **NULL** argument used by [**InvalidateRect**](/windows/win32/Winuser/nf-winuser-invalidaterect?branch=master) specifies the entire client area; the **TRUE** argument causes the background to be erased. If you do not want the application to wait until the application's message queue has no other messages, use the [**UpdateWindow**](/windows/win32/Winuser/nf-winuser-updatewindow?branch=master) function to force the [**WM\_PAINT**](wm-paint.md) message to be sent immediately. If there is any invalid part of the client area, **UpdateWindow** sends the **WM\_PAINT** message for the specified window directly to the window procedure.
 
  
 

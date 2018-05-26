@@ -1,8 +1,20 @@
 ---
 title: Getting Started
 description: Getting Started
-ms.assetid: '47c333dc-dad3-4430-a053-016d2c931f74'
-keywords: ["Windows Media Player Mobile,plug-ins", "Windows Media Player Mobile,user interface plug-ins", "Windows Media Player Mobile plug-ins", "plug-ins,user interface", "plug-ins,Windows Media Player Mobile", "user interface plug-ins,Windows Media Player Mobile", "UI plug-ins,Windows Media Player Mobile"]
+ms.assetid: 47c333dc-dad3-4430-a053-016d2c931f74
+keywords:
+- Windows Media Player Mobile,plug-ins
+- Windows Media Player Mobile,user interface plug-ins
+- Windows Media Player Mobile plug-ins
+- plug-ins,user interface
+- plug-ins,Windows Media Player Mobile
+- user interface plug-ins,Windows Media Player Mobile
+- UI plug-ins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started
@@ -38,7 +50,7 @@ To create an empty project
 [**Creating a User Interface Plug-in for Windows Media Player 10 Mobile**](creating-a-user-interface-plug-in-for-windows-media-player-10-mobile.md)
 </dt> <dt>
 
-[**IWMPEvents Interface**](iwmpevents-interface.md)
+[**IWMPEvents Interface**](/windows/win32/wmp/nn-wmp-iwmpevents?branch=master)
 </dt> </dl>
 
  

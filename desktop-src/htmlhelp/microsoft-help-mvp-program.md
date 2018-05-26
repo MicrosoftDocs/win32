@@ -1,7 +1,12 @@
 ---
 title: Microsoft Help MVP Program
 description: Microsoft Help MVP Program
-ms.assetid: 'ADC2666F-2DDB-4793-9892-50A2A81218B3'
+ms.assetid: ADC2666F-2DDB-4793-9892-50A2A81218B3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Help MVP Program

@@ -1,7 +1,12 @@
 ---
-Description: 'You must install or provide instructions for installing your media label library in the installation program for your application.'
-ms.assetid: 'd51ba281-89c7-4c8a-8dae-b5805813d5fd'
+Description: You must install or provide instructions for installing your media label library in the installation program for your application.
+ms.assetid: d51ba281-89c7-4c8a-8dae-b5805813d5fd
 title: Installing a Media Label Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing a Media Label Library

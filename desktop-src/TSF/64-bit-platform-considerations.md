@@ -1,8 +1,26 @@
 ---
 title: 64-Bit Considerations
 description: With the increasing availability of 64-bit Windows, users expect input methods, such as international keyboards in various languages or Input Method Editors (IMEs) in East Asian languages, to work properly with both 32-bit and 64-bit applications.
-ms.assetid: '6a99ad45-202c-4fbb-9707-341bc9fde21e'
-keywords: ["Text Services Framework (TSF),64-bit Windows", "TSF (Text Services Framework),64-bit Windows", "text services,64-bit Windows", "64-bit Windows", "Text Services Framework (TSF),Input Method Editor (IME)", "TSF (Text Services Framework),Input Method Editor (IME)", "text services,Input Method Editor (IME)", "Input Method Editor (IME)", "IME (Input Method Editor)", "Text Services Framework (TSF),international keyboards", "TSF (Text Services Framework),international keyboards", "text services,international keyboards", "international keyboards"]
+ms.assetid: 6a99ad45-202c-4fbb-9707-341bc9fde21e
+keywords:
+- Text Services Framework (TSF),64-bit Windows
+- TSF (Text Services Framework),64-bit Windows
+- text services,64-bit Windows
+- 64-bit Windows
+- Text Services Framework (TSF),Input Method Editor (IME)
+- TSF (Text Services Framework),Input Method Editor (IME)
+- text services,Input Method Editor (IME)
+- Input Method Editor (IME)
+- IME (Input Method Editor)
+- Text Services Framework (TSF),international keyboards
+- TSF (Text Services Framework),international keyboards
+- text services,international keyboards
+- international keyboards
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 64-Bit Considerations
@@ -90,7 +108,7 @@ HKEY_LOCAL_MACHINE\Software\Microsoft\CTF\TIP
 
 
 
-[ITfInputProcessorProfiles](itfinputprocessorprofiles.md)[Text Service Registration](text-service-registration.md)
+[ITfInputProcessorProfiles](/windows/win32/Msctf/nn-msctf-itfinputprocessorprofiles?branch=master)[Text Service Registration](text-service-registration.md)
 
 The 64-bit version and the 32-bit version of a text service might be in use simultaneously. In cases where both versions of a text service need to manipulate any shared objects, coordination for access shared objects should be designed into the text service. Each text service is responsible for managing any shared objects that are used or needed.
 

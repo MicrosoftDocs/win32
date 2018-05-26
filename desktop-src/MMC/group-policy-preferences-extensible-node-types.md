@@ -4,10 +4,13 @@ description: The Group Policy preferences extension snap-in allows extensions fo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '58c8bbe7-e5dc-4781-bf89-3cce1a81afc0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 58c8bbe7-e5dc-4781-bf89-3cce1a81afc0
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Policy Preferences Extensible Node Type

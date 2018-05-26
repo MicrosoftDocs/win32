@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETSELRANGE message
 description: Sets the selection for a month calendar control to a given date range. You can send this message explicitly or by using the MonthCal\_SetSelRange macro.
-ms.assetid: '750b0c83-6baa-4caa-a738-feae8751a70e'
-keywords: ["MCM_SETSELRANGE message Windows Controls"]
+ms.assetid: 750b0c83-6baa-4caa-a738-feae8751a70e
+keywords:
+- MCM_SETSELRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETSELRANGE message
 
-Sets the selection for a month calendar control to a given date range. You can send this message explicitly or by using the [**MonthCal\_SetSelRange**](monthcal-setselrange.md) macro.
+Sets the selection for a month calendar control to a given date range. You can send this message explicitly or by using the [**MonthCal\_SetSelRange**](/windows/win32/Commctrl/nf-commctrl-monthcal_setselrange?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ Returns nonzero if successful, or zero otherwise. This message will fail if appl
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns nonzero if successful, or zero otherwise. This message will fail if appl
 [Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

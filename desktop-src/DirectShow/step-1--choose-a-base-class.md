@@ -1,7 +1,12 @@
 ---
-Description: 'Step 1.'
-ms.assetid: '4b2d3add-0430-480b-ad5f-bb1aa19fef21'
-title: 'Step 1. Choose a Base Class'
+Description: Step 1.
+ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
+title: Step 1. Choose a Base Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 1. Choose a Base Class

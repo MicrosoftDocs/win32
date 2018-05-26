@@ -1,7 +1,12 @@
 ---
 Description: XPS Rasterization Service Interfaces
-ms.assetid: '86c98c94-0324-403c-9fc4-b0411d84abc8'
+ms.assetid: 86c98c94-0324-403c-9fc4-b0411d84abc8
 title: XPS Rasterization Service Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPS Rasterization Service Interfaces

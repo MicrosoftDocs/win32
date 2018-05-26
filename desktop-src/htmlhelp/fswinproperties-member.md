@@ -1,7 +1,12 @@
 ---
 title: fsWinProperties Member
 description: fsWinProperties Member
-ms.assetid: 'F76EE396-E147-4795-BB6A-78DBC4201118'
+ms.assetid: F76EE396-E147-4795-BB6A-78DBC4201118
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fsWinProperties Member
@@ -32,18 +37,18 @@ This member can be a combination of one or more of the following values.
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**Back to HH\_WINTYPE**](hh-wintype-structure.md)
+[**Back to HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

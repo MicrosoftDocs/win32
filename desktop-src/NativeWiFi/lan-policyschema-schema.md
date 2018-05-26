@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a wired (LAN) policy profile.'
-ms.assetid: '89331bd1-d447-482c-90de-e3a74c86bf4c'
-title: 'LAN\_policy Schema'
+Description: Defines a wired (LAN) policy profile.
+ms.assetid: 89331bd1-d447-482c-90de-e3a74c86bf4c
+title: LAN\_policy Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LAN\_policy Schema

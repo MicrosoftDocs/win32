@@ -1,8 +1,9 @@
 ---
 title: DM\_SETDEFID message
 description: Changes the identifier of the default push button for a dialog box.
-ms.assetid: '30720fa1-48cb-42d4-8370-87bdbaa34600'
-keywords: ["DM_SETDEFID message Dialog Boxes"]
+ms.assetid: 30720fa1-48cb-42d4-8370-87bdbaa34600
+keywords:
+- DM_SETDEFID message Dialog Boxes
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DM\_SETDEFID message
@@ -49,7 +55,7 @@ The return value is always **TRUE**.
 
 ## Remarks
 
-This message is processed by the [**DefDlgProc**](defdlgproc.md) function. To set the default push button, the function can send [**WM\_GETDLGCODE**](wm-getdlgcode.md) and [**BM\_SETSTYLE**](_win32_BM_SETSTYLE) messages to the specified control and the current default push button.
+This message is processed by the [**DefDlgProc**](/windows/win32/Winuser/nf-winuser-defdlgprocw?branch=master) function. To set the default push button, the function can send [**WM\_GETDLGCODE**](wm-getdlgcode.md) and [**BM\_SETSTYLE**](_win32_BM_SETSTYLE) messages to the specified control and the current default push button.
 
 Using the **DM\_SETDEFID** message can result in more than one button appearing to have the default push button state. When the system brings up a dialog, it draws the first push button in the dialog template with the default state border. Sending a **DM\_SETDEFID** message to change the default button will not always remove the default state border from the first push button. In these cases, the application should send a [**BM\_SETSTYLE**](_win32_BM_SETSTYLE) message to change the first push button border style.
 
@@ -59,8 +65,8 @@ Using the **DM\_SETDEFID** message can result in more than one button appearing 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -72,7 +78,7 @@ Using the **DM\_SETDEFID** message can result in more than one button appearing 
 **Reference**
 </dt> <dt>
 
-[**DefDlgProc**](defdlgproc.md)
+[**DefDlgProc**](/windows/win32/Winuser/nf-winuser-defdlgprocw?branch=master)
 </dt> <dt>
 
 [**DM\_GETDEFID**](dm-getdefid.md)
@@ -96,9 +102,9 @@ Using the **DM\_SETDEFID** message can result in more than one button appearing 
 [**EM\_SETLIMITTEXT**](_win32_EM_SETLIMITTEXT)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

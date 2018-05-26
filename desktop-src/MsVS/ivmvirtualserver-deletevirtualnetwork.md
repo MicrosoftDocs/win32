@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer DeleteVirtualNetwork method
 description: The DeleteVirtualNetwork method deletes a virtual network.
-ms.assetid: '647075fb-4edb-4f2d-832a-039fb145cd2e'
-keywords: ["DeleteVirtualNetwork method Virtual Server", "DeleteVirtualNetwork method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , DeleteVirtualNetwork method"]
+ms.assetid: 647075fb-4edb-4f2d-832a-039fb145cd2e
+keywords:
+- DeleteVirtualNetwork method Virtual Server
+- DeleteVirtualNetwork method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , DeleteVirtualNetwork method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::DeleteVirtualNetwork method
@@ -22,7 +30,7 @@ The **DeleteVirtualNetwork** method deletes a virtual network.
 
 ```C++
 HRESULT DeleteVirtualNetwork(
-  [in] IVMVirtualNetwork *virtualNetworkName
+  [in] IVMVirtualNetwork *virtualNetworkName
 );
 ```
 
@@ -56,7 +64,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,8 +76,8 @@ The virtual network's configuration file is deleted by this method.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -81,9 +89,9 @@ The virtual network's configuration file is deleted by this method.
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

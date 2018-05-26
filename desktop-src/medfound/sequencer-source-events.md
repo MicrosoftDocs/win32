@@ -1,12 +1,17 @@
-﻿---
+---
 Description: Sequencer Source Events
-ms.assetid: '28654bae-9ce2-467b-b769-63279d69b173'
+ms.assetid: 28654bae-9ce2-467b-b769-63279d69b173
 title: Sequencer Source Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sequencer Source Events
 
-When the [Sequencer Source](sequencer-source.md) plays a sequence of files, the Media Session generally sends all of the same events that are sent during normal playback, and which are listed in [Media Session Events](media-session-events.md). The application gets these events using the Media Session's [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface.
+When the [Sequencer Source](sequencer-source.md) plays a sequence of files, the Media Session generally sends all of the same events that are sent during normal playback, and which are listed in [Media Session Events](media-session-events.md). The application gets these events using the Media Session's [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface.
 
 In addition, there are some events which are specific to playlist segments.
 
@@ -26,13 +31,13 @@ In addition, there are some events which are specific to playlist segments.
 
 When the sequencer source is involved, the number of events that you get from the Media Session can be confusing, especially because events associated with one segment are often interleaved with events for the next segment.
 
-In the first example, the application queues three segments, S1, S2, and S3. The third segment has the **SequencerTopologyFlags\_Last** flag, to signal it is the last segment in the sequence. The segment to which each event corresponds is given in parentheses. The application's [**SetTopology**](imfmediasession-settopology.md) calls are also listed, to make the order of operations clearer.
+In the first example, the application queues three segments, S1, S2, and S3. The third segment has the **SequencerTopologyFlags\_Last** flag, to signal it is the last segment in the sequence. The segment to which each event corresponds is given in parentheses. The application's [**SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) calls are also listed, to make the order of operations clearer.
 
--   Application calls [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) (S1)
+-   Application calls [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) (S1)
 -   [MESessionTopologySet](mesessiontopologyset.md) (S1)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_READY** (S1)
 -   [MENewPresentation](menewpresentation.md) (S2 preroll)
--   Application calls [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) (S2)
+-   Application calls [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) (S2)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_STARTED\_SOURCE** (start of S1)
 -   [MESessionTopologySet](mesessiontopologyset.md) (S2)
 -   [MEEndOfPresentationSegment](meendofpresentationsegment.md) (end of S1)
@@ -41,7 +46,7 @@ In the first example, the application queues three segments, S1, S2, and S3. The
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_READY** (S2)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_STARTED\_SOURCE** (start of S2)
 -   [MENewPresentation](menewpresentation.md) (S3 preroll)
--   Application calls [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) (S2)
+-   Application calls [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) (S2)
 -   [MESessionTopologySet](mesessiontopologyset.md) (S3)
 -   [MEEndOfPresentationSegment](meendofpresentationsegment.md) (end of S2)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_ENDED** (S2)
@@ -54,7 +59,7 @@ In the first example, the application queues three segments, S1, S2, and S3. The
 
 This list does not include every event that you might receive. (For example, it omits the [MESessionCapabilitiesChanged](mesessioncapabilitieschanged.md) event, which is sent whenever the session capabilities change. An application typically receives multiple MESessionCapabilitiesChanged events throughout a presentation.) The events listed here are the ones that show the transition from one segment to the next. The most important events are [MENewPresentation](menewpresentation.md), which signals the application to preroll the next topology, and [MEEndOfPresentationSegment](meendofpresentationsegment.md), which signals the end of a segment (except for the last segment).
 
-Because events in Media Foundation are asynchronous, and are not serialized with method calls, the exact order could vary. For example, you could receive **MF\_TOPOSTATUS\_STARTED\_SOURCE** for S1 before the application calls [**SetTopology**](imfmediasession-settopology.md) for S2.
+Because events in Media Foundation are asynchronous, and are not serialized with method calls, the exact order could vary. For example, you could receive **MF\_TOPOSTATUS\_STARTED\_SOURCE** for S1 before the application calls [**SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) for S2.
 
 Also, you might not get every event listed here. The [MEEndOfPresentation](meendofpresentation.md) and [MESessionEnded](mesessionended.md) events, for example, are not sent unless the last segment has the **SequencerTopologyFlags\_Last** flag.
 
@@ -64,16 +69,16 @@ Finally, this list does not indicate the passage of time. The time from "start o
 
 In this example, the application queues the same segments, but skips to segment 3 while segment 1 is playing. In this case, the following events are sent:
 
--   Application calls [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) (S1)
+-   Application calls [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) (S1)
 -   [MESessionTopologySet](mesessiontopologyset.md) (S1)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_READY** (S1)
 -   [MENewPresentation](menewpresentation.md) (S2 preroll)
--   Application calls [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) (S2)
+-   Application calls [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) (S2)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_STARTED\_SOURCE** (start of S1)
 -   [MESessionTopologySet](mesessiontopologyset.md) (S2)
--   Application calls [**IMFMediaSession::Start**](imfmediasession-start.md) (skip to S3)
+-   Application calls [**IMFMediaSession::Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) (skip to S3)
 -   [MENewPresentation](menewpresentation.md) (S3 preroll)
--   Application calls [**IMFMediaSession::SetTopology**](imfmediasession-settopology.md) (S3)
+-   Application calls [**IMFMediaSession::SetTopology**](/windows/win32/mfidl/nf-mfidl-imfmediasession-settopology?branch=master) (S3)
 -   [MESessionStarted](mesessionstarted.md)
 -   [MEEndOfPresentationSegment](meendofpresentationsegment.md) (S1 canceled)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_ENDED** (S1)
@@ -87,7 +92,7 @@ In this example, the application queues the same segments, but skips to segment 
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **TOPOSTATUS\_READY** (S3)
 -   [MESessionTopologyStatus](mesessiontopologystatus.md): **MF\_TOPOSTATUS\_STARTED\_SOURCE** (S3)
 
-When the application calls [**Start**](imfmediasession-start.md) to skip to segment 3, the sequencer source cancels segment 1, which is still playing. The [MEEndOfPresentationSegment](meendofpresentationsegment.md) event for this segment contains the [**MF\_EVENT\_SOURCE\_TOPOLOGY\_CANCELED**](mf-event-source-topology-canceled-attribute.md) attribute, indicating that the segment ended because it was canceled. Then, because segment 2 is already pre-rolled, that segment is started but then immediately canceled. The MEEndOfPresentationSegment event for segment 2 also contains the **MF\_EVENT\_SOURCE\_TOPOLOGY\_CANCELED** attribute. The session can then switch to segment 3 and play it normally.
+When the application calls [**Start**](/windows/win32/mfidl/nf-mfidl-imfmediasession-start?branch=master) to skip to segment 3, the sequencer source cancels segment 1, which is still playing. The [MEEndOfPresentationSegment](meendofpresentationsegment.md) event for this segment contains the [**MF\_EVENT\_SOURCE\_TOPOLOGY\_CANCELED**](mf-event-source-topology-canceled-attribute.md) attribute, indicating that the segment ended because it was canceled. Then, because segment 2 is already pre-rolled, that segment is started but then immediately canceled. The MEEndOfPresentationSegment event for segment 2 also contains the **MF\_EVENT\_SOURCE\_TOPOLOGY\_CANCELED** attribute. The session can then switch to segment 3 and play it normally.
 
 ## Related topics
 

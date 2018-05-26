@@ -1,7 +1,12 @@
 ---
 title: imm\_atomic\_cmp\_exch (sm5 - asm)
 description: Immediate compare and exchange to memory.
-ms.assetid: '317A69E1-0E0A-45C8-8E0A-B88659ADBECC'
+ms.assetid: 317A69E1-0E0A-45C8-8E0A-B88659ADBECC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # imm\_atomic\_cmp\_exch (sm5 - asm)
@@ -15,7 +20,7 @@ Immediate compare and exchange to memory.
 
 
 
- 
+ 
 
 
 
@@ -29,7 +34,7 @@ Immediate compare and exchange to memory.
 
 
 
- 
+ 
 
 This instruction performs a single component 32-bit value compare of operand *src0* with *dst1* at 32-bit per component address *dstAddress*.
 
@@ -59,9 +64,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -71,7 +76,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -90,7 +95,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -99,9 +104,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

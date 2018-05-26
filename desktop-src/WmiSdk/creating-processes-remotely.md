@@ -1,13 +1,16 @@
 ---
-Description: 'You can use Win32\_Process.Create to execute a script or application on a remote computer. However, for security reasons, the process cannot be interactive. When Win32\_Process.Create is called on the local computer, the process can be interactive.'
+Description: You can use Win32\_Process.Create to execute a script or application on a remote computer. However, for security reasons, the process cannot be interactive. When Win32\_Process.Create is called on the local computer, the process can be interactive.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '11fea8b1-7d05-4f44-9103-ea804a1d4b38'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 11fea8b1-7d05-4f44-9103-ea804a1d4b38
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Creating Processes Remotely using WMI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Processes Remotely using WMI

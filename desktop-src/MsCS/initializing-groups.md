@@ -4,11 +4,15 @@ description: Your resources may have a number of dependencies, required private 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ff3e3e1e-d632-463d-9005-c327451d43bb'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ff3e3e1e-d632-463d-9005-c327451d43bb
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["groups Failover Cluster ,initializing"]
+keywords:
+- groups Failover Cluster ,initializing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Initializing Groups

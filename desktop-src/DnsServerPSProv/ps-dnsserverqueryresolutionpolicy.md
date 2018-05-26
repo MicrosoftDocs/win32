@@ -2,13 +2,15 @@
 title: PS\_DnsServerQueryResolutionPolicy class
 description: Describes a DNS server query resolution policy.
 audience: developer
-ms.assetid: '29fae9d8-ff1e-4894-81b1-406730f49a46'
-ms.prod: 'windows-server-dev'
+ms.assetid: 29fae9d8-ff1e-4894-81b1-406730f49a46
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerQueryResolutionPolicy class", "PS_DnsServerQueryResolutionPolicy class, described"]
+keywords:
+- PS_DnsServerQueryResolutionPolicy class
+- PS_DnsServerQueryResolutionPolicy class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerQueryResolutionPolicy class
@@ -61,7 +66,7 @@ The **PS\_DnsServerQueryResolutionPolicy** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,7 +75,7 @@ The **PS\_DnsServerQueryResolutionPolicy** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -84,9 +89,9 @@ The **PS\_DnsServerQueryResolutionPolicy** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

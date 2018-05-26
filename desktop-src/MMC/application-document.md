@@ -1,14 +1,19 @@
 ---
-title: \_Application Document property
+title: '\_Application Document property'
 description: The Document property returns a Document object that represents the application document. This property is read-only.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4334f7b4-89fa-4b2d-98cc-85818c54e658'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4334f7b4-89fa-4b2d-98cc-85818c54e658
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Document property MMC", "Document property MMC , Application object", "Application object MMC , Document property", "Document property MMC , _Application interface", "_Application interface MMC , Document property"]
+keywords:
+- Document property MMC
+- Document property MMC , Application object
+- Application object MMC , Document property
+- Document property MMC , _Application interface
+- _Application interface MMC , Document property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::Document property
@@ -54,8 +62,8 @@ Set objDoc = objMMC.Document
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -71,9 +79,9 @@ Set objDoc = objMMC.Document
 [**Document object**](document-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control.
-ms.assetid: 'e4b58ae5-6217-4a2e-80e5-3ba9e578859a'
-keywords: ["TVM_SETUNICODEFORMAT message Windows Controls"]
+ms.assetid: e4b58ae5-6217-4a2e-80e5-3ba9e578859a
+keywords:
+- TVM_SETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETUNICODEFORMAT message
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can send this message explicitly or use the [**TreeView\_SetUnicodeFormat**](treeview-setunicodeformat.md) macro.
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can send this message explicitly or use the [**TreeView\_SetUnicodeFormat**](/windows/win32/Commctrl/nf-commctrl-treeview_setunicodeformat?branch=master) macro.
 
 ## Parameters
 
@@ -45,8 +51,8 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 [**TVM\_GETUNICODEFORMAT**](tvm-getunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

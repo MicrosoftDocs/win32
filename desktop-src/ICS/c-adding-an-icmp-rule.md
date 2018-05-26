@@ -1,7 +1,12 @@
 ---
 title: Adding an ICMP Rule
 description: This example adds an ICMP rule using the Windows Firewall with Advanced Security APIs.C++/\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++ Copyright (C) Microsoft.
-ms.assetid: '4f4fd723-a618-47a4-b2bb-f3d8fa9f3bed'
+ms.assetid: 4f4fd723-a618-47a4-b2bb-f3d8fa9f3bed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding an ICMP Rule

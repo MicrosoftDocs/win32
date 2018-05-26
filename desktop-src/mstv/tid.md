@@ -1,8 +1,14 @@
 ---
 title: TID
 description: The TID type defines a table identifier (TID).
-ms.assetid: '4fb908cf-4ee9-433b-b686-330a32f855af'
-keywords: ["TID"]
+ms.assetid: 4fb908cf-4ee9-433b-b686-330a32f855af
+keywords:
+- TID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TID
@@ -33,9 +39,9 @@ typedef BYTE TID;
 [BDA Data Types](bda-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

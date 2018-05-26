@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_DirectoryAction class exposes the following methods.'
+Description: The CIM\_DirectoryAction class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'DF0990C4-495D-4860-9DF3-C736579078B5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: DF0990C4-495D-4860-9DF3-C736579078B5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DirectoryAction Methods'
+title: CIM\_DirectoryAction Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DirectoryAction Methods

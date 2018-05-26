@@ -1,7 +1,12 @@
 ---
 title: ld\_raw (sm5 - asm)
 description: Random-access read of 1-4 32bit components from a raw buffer.
-ms.assetid: 'F7DBA80D-4DD5-4271-B571-24FB6188ABFE'
+ms.assetid: F7DBA80D-4DD5-4271-B571-24FB6188ABFE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ld\_raw (sm5 - asm)
@@ -15,7 +20,7 @@ Random-access read of 1-4 32bit components from a raw buffer.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Random-access read of 1-4 32bit components from a raw buffer.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -73,9 +78,9 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
-Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for UAVs for the Direct3D 11.1 runtime, which is available starting with Windows 8.
+Because UAVs are available at all shader stages for Direct3D 11.1, this instruction applies to all shader stages for UAVs for the Direct3D 11.1 runtime, which is available starting with Windows 8.
 
 
 
@@ -85,7 +90,7 @@ Because UAVs are available at all shader stages for Direct3D 11.1, this instruct
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -104,7 +109,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 cs\_4\_0 and cs\_4\_1 support this instruction for UAV and SRV.
 
@@ -115,9 +120,9 @@ cs\_4\_0 and cs\_4\_1 support this instruction for UAV and SRV.
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

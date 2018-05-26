@@ -4,10 +4,13 @@ description: This topic lists the structure of a CDXML document.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BB7232E1-1C2F-4308-9B3A-E2E41C2CD4F6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: BB7232E1-1C2F-4308-9B3A-E2E41C2CD4F6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # High-level CDXML structure

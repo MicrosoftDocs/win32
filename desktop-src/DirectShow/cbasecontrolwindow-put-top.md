@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_Top method sets the top window coordinate.'
-ms.assetid: 'cd39807f-363d-4b5b-8279-9dfb992dca10'
-title: 'CBaseControlWindow.put\_Top method'
+Description: The put\_Top method sets the top window coordinate.
+ms.assetid: cd39807f-363d-4b5b-8279-9dfb992dca10
+title: CBaseControlWindow.put\_Top method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_Top method
@@ -13,7 +18,7 @@ The `put_Top` method sets the top window coordinate.
 
 ```C++
 HRESULT put_Top(
-   long Top
+   long Top
 );
 ```
 
@@ -58,9 +63,9 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

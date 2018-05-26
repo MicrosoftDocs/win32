@@ -1,7 +1,12 @@
 ---
 title: About Network Address Translation Traversal
 description: The Network Address Translation (NAT) Traversal API makes it possible for applications to configure a remote Internet Gateway Device (IGD) on the local network.
-ms.assetid: '12bcc195-d10e-4b6d-82d6-eb191c5b712e'
+ms.assetid: 12bcc195-d10e-4b6d-82d6-eb191c5b712e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Network Address Translation Traversal

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the name for the video stream. &\#0034;StreamName&\#0034;.'
-ms.assetid: '8c1ba002-df19-4007-abbb-977b1f51e832'
-title: 'System.Video.StreamName'
+Description: Indicates the name for the video stream. &\#0034;StreamName&\#0034;.
+ms.assetid: 8c1ba002-df19-4007-abbb-977b1f51e832
+title: System.Video.StreamName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.StreamName

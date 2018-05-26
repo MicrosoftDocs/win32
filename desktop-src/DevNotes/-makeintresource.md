@@ -1,7 +1,12 @@
-﻿---
-Description: 'Converts an integer value.'
-ms.assetid: '2c1e4af8-c2d5-4d83-bf9c-ae28ef1a9ad3'
+---
+Description: Converts an integer value.
+ms.assetid: 2c1e4af8-c2d5-4d83-bf9c-ae28ef1a9ad3
 title: '\_MAKEINTRESOURCE function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_MAKEINTRESOURCE function

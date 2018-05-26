@@ -1,7 +1,12 @@
 ---
-Description: 'A 32-bit package consists of only 32-bit Windows Installer components and must have the value &\#0034;Intel&\#0034; entered in the platform field of the Template Summary Property.'
-ms.assetid: 'd457a330-b166-40a4-816d-85fc93941022'
-title: '32-bit Windows Installer Packages'
+Description: A 32-bit package consists of only 32-bit Windows Installer components and must have the value &\#0034;Intel&\#0034; entered in the platform field of the Template Summary Property.
+ms.assetid: d457a330-b166-40a4-816d-85fc93941022
+title: 32-bit Windows Installer Packages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 32-bit Windows Installer Packages

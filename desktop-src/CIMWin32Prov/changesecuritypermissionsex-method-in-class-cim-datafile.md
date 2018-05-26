@@ -1,15 +1,18 @@
 ---
-Description: 'Changes the security permissions for the logical data file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).'
+Description: Changes the security permissions for the logical data file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'baf50a6e-f624-464e-946d-975aeba88ac2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: baf50a6e-f624-464e-946d-975aeba88ac2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ChangeSecurityPermissionsEx method of the CIM\_DataFile class'
+title: ChangeSecurityPermissionsEx method of the CIM\_DataFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeSecurityPermissionsEx method of the CIM\_DataFile class
@@ -19,7 +22,7 @@ The **ChangeSecurityPermissionsEx** method changes the security permissions for 
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 This topic uses Managed Object Format (MOF) syntax. For more information about using this method, see [Calling a Method](https://msdn.microsoft.com/library/aa384832).
 
@@ -28,11 +31,11 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ChangeSecurityPermissionsEx(
-  [in]           Win32_SecurityDescriptor SecurityDescriptor,
-  [in]           uint32                   Option,
-  [out]          string                   StopFileName,
-  [in, optional] string                   StartFileName,
-  [in, optional] boolean                  Recursive
+  [in]           Win32_SecurityDescriptor SecurityDescriptor,
+  [in]           uint32                   Option,
+  [out]          string                   StopFileName,
+  [in, optional] string                   StartFileName,
+  [in, optional] boolean                  Recursive
 );
 ```
 
@@ -50,7 +53,7 @@ Specifies security information.
 > [!Note]  
 > A **NULL** ACL in the [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561) structure grants unlimited access. For more information about the implications of unlimited access, see [Creating a Security Descriptor for a New Object](https://msdn.microsoft.com/library/windows/desktop/aa446595).
 
- 
+ 
 
 </dd> <dt>
 
@@ -265,8 +268,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -289,9 +292,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**File and Directory Access Rights Constants**](https://msdn.microsoft.com/library/aa822867)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

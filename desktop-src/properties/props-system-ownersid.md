@@ -1,7 +1,12 @@
 ---
-Description: 'SID of the user that owns the library.'
-ms.assetid: '7b04d55a-6606-4e69-9c89-0575165328c7'
-title: 'System.OwnerSID'
+Description: SID of the user that owns the library.
+ms.assetid: 7b04d55a-6606-4e69-9c89-0575165328c7
+title: System.OwnerSID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.OwnerSID

@@ -2,11 +2,14 @@
 title: New method of the PS\_VpnServerAddress class
 description: Creates a VPN server object.
 audience: developer
-ms.assetid: '360571EC-7178-4544-9E6C-346D6F073996'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 360571EC-7178-4544-9E6C-346D6F073996
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["New method", "New method, PS_VpnServerAddress class", "PS_VpnServerAddress class, New method"]
+keywords:
+- New method
+- New method, PS_VpnServerAddress class
+- PS_VpnServerAddress class, New method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # New method of the PS\_VpnServerAddress class
@@ -26,10 +32,10 @@ Creates a VPN server object.
 
 ```mof
 uint32 New(
-  [in]  string           ServerAddress,
-  [in]  string           FriendlyName,
-  [in]  boolean          PassThru,
-  [out] VpnServerAddress cmdletOutput
+  [in]  string           ServerAddress,
+  [in]  string           FriendlyName,
+  [in]  boolean          PassThru,
+  [out] VpnServerAddress cmdletOutput
 );
 ```
 
@@ -73,8 +79,8 @@ When this method returns, contains the [**VpnServerAddress**](vpnserveraddress.m
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -88,9 +94,9 @@ When this method returns, contains the [**VpnServerAddress**](vpnserveraddress.m
 [**PS\_VpnServerAddress**](ps-vpnserveraddress.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

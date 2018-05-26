@@ -1,7 +1,12 @@
 ---
 title: WFP Constants
 description: WFP Constants
-ms.assetid: 'a9a343a1-1c7a-4441-b300-9b714d234453'
+ms.assetid: a9a343a1-1c7a-4441-b300-9b714d234453
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP Constants

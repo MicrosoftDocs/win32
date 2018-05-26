@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayChapterInTitle method plays the specified chapter in the specified title.'
-ms.assetid: '784b0612-133b-465c-b1da-d9dac26e1b20'
+Description: The PlayChapterInTitle method plays the specified chapter in the specified title.
+ms.assetid: 784b0612-133b-465c-b1da-d9dac26e1b20
 title: PlayChapterInTitle Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayChapterInTitle Method

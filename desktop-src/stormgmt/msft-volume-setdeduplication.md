@@ -1,8 +1,11 @@
 ---
 title: SetDedupMode method of the MSFT\_Volume class
 description: Enables or disables deduplication on the volume.
-ms.assetid: 'A37E60BA-914A-4876-B411-138B8D9335B3'
-keywords: ["SetDedupMode method Windows Storage Management API", "SetDedupMode method Windows Storage Management API , MSFT_Volume class", "MSFT_Volume class Windows Storage Management API , SetDedupMode method"]
+ms.assetid: A37E60BA-914A-4876-B411-138B8D9335B3
+keywords:
+- SetDedupMode method Windows Storage Management API
+- SetDedupMode method Windows Storage Management API , MSFT_Volume class
+- MSFT_Volume class Windows Storage Management API , SetDedupMode method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetDedupMode method of the MSFT\_Volume class
@@ -22,8 +30,8 @@ Enables or disables deduplication on the volume.
 
 ```mof
 UInt32 SetDedupMode(
-  [in]  UInt32 SetDedupMode,
-  [out] String ExtendedStatus
+  [in]  UInt32 SetDedupMode,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -101,8 +109,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -115,9 +123,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_Volume**](msft-volume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

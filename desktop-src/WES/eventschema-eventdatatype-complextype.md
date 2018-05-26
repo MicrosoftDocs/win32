@@ -1,14 +1,20 @@
 ---
 title: EventDataType Complex Type
 description: Defines the event data items and structures that contains the event data.
-ms.assetid: '9531163f-34ce-4673-b2d8-636042915c73'
-keywords: ["EventDataType complex type EventLog"]
+ms.assetid: 9531163f-34ce-4673-b2d8-636042915c73
+keywords:
+- EventDataType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - EventDataType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventDataType Complex Type
@@ -65,7 +71,7 @@ Defines the event data items and structures that contains the event data.
 
 ## Remarks
 
-The [**EvtRender**](evtrender.md) function renders arrays and structures as binary blobs.
+The [**EvtRender**](/windows/win32/WinEvt/nf-winevt-evtrender?branch=master) function renders arrays and structures as binary blobs.
 
 ## Requirements
 
@@ -73,14 +79,14 @@ The [**EvtRender**](evtrender.md) function renders arrays and structures as bina
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,16 +1,21 @@
 ---
-Description: 'Intel Advanced Vector Extensions (AVX) is a 256-bit SIMD floating point vector extension of Intel architecture. It includes extensions to both instruction and register sets.'
-ms.assetid: '76357e08-a53c-4490-b08d-1c26900a3826'
+Description: Intel Advanced Vector Extensions (AVX) is a 256-bit SIMD floating point vector extension of Intel architecture. It includes extensions to both instruction and register sets.
+ms.assetid: 76357e08-a53c-4490-b08d-1c26900a3826
 title: Intel AVX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Intel AVX
 
 ## Purpose
 
-Intel Advanced Vector Extensions (AVX) is a 256-bit SIMD floating point vector extension of Intel architecture. It includes extensions to both instruction and register sets.
+Intel Advanced Vector Extensions (AVX) is a 256-bit SIMD floating point vector extension of Intel architecture. It includes extensions to both instruction and register sets.
 
-Microsoft has developed some API enhancements, such as XState functions, that enable applications to access and manipulate extended processor feature information and state, including Intel AVX.
+Microsoft has developed some API enhancements, such as XState functions, that enable applications to access and manipulate extended processor feature information and state, including Intel AVX.
 
 ## In this section
 
@@ -23,15 +28,15 @@ Microsoft has developed some API enhancements, such as XState functions, that en
 
 
 
- 
+ 
 
 ## Developer audience
 
-Intel AVX is designed for use by applications that are strongly floating point compute intensive and can be vectorized. Example applications include audio processing and audio codecs, image and video editing applications, financial services analysis and modeling software, and manufacturing and engineering software.
+Intel AVX is designed for use by applications that are strongly floating point compute intensive and can be vectorized. Example applications include audio processing and audio codecs, image and video editing applications, financial services analysis and modeling software, and manufacturing and engineering software.
 
- 
+ 
 
- 
+ 
 
 
 

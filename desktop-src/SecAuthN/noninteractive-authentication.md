@@ -1,7 +1,12 @@
 ---
-Description: 'Noninteractive authentication can only be used after an interactive authentication has taken place. During noninteractive authentication, the user does not input logon data, instead, previously established credentials are used.'
-ms.assetid: '1539cbfa-d84f-4989-8380-6cfc7c496310'
+Description: Noninteractive authentication can only be used after an interactive authentication has taken place. During noninteractive authentication, the user does not input logon data, instead, previously established credentials are used.
+ms.assetid: 1539cbfa-d84f-4989-8380-6cfc7c496310
 title: Noninteractive Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Noninteractive Authentication

@@ -1,7 +1,12 @@
 ---
-Description: 'Intermediaries communicate with client applications to allow them to submit certificate requests, and (assuming that the request results in an issued certificate) to download the issued certificate to the client.'
-ms.assetid: 'c696f09e-98d3-4cea-8ea1-cd8f40b74f12'
+Description: Intermediaries communicate with client applications to allow them to submit certificate requests, and (assuming that the request results in an issued certificate) to download the issued certificate to the client.
+ms.assetid: c696f09e-98d3-4cea-8ea1-cd8f40b74f12
 title: Intermediaries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Intermediaries
@@ -10,7 +15,7 @@ Intermediaries communicate with client applications to allow them to submit [*ce
 
 Microsoft Certificate Services ships with an intermediary (the web enrollment pages) for HTTP. Another example of an intermediary is the Microsoft Windows Certificates MMC snap-in (which allows the Certificate Request Wizard to be invoked). If other transport layer protocols are to be used with Certificate Services, a developer can create an intermediary for each desired transport layer protocol.
 
-Intermediaries communicate with Certificate Services using the [**ICertRequest**](icertrequest.md) and [**ICertConfig**](icertconfig.md) interfaces provided by the server engine. The [**ICertRequest::Submit**](icertrequest2-submit.md) method is used to submit a [*certificate request*](security.c_gly#-security-certificate-request-gly), and [**ICertRequest::GetCertificate**](icertrequest2-getcertificate.md) is used to get the resulting issued certificate. Similarly, [**ICertConfig::GetConfig**](icertconfig2-getconfig.md) is used to determine which certification authority can be used to issue the certificate.
+Intermediaries communicate with Certificate Services using the [**ICertRequest**](/windows/win32/Certcli/nn-certcli-icertrequest?branch=master) and [**ICertConfig**](/windows/win32/Certcli/nn-certcli-icertconfig?branch=master) interfaces provided by the server engine. The [**ICertRequest::Submit**](/windows/win32/Certcli/nf-certcli-icertrequest-submit?branch=master) method is used to submit a [*certificate request*](security.c_gly#-security-certificate-request-gly), and [**ICertRequest::GetCertificate**](/windows/win32/Certcli/nf-certcli-icertrequest-getcertificate?branch=master) is used to get the resulting issued certificate. Similarly, [**ICertConfig::GetConfig**](/windows/win32/Certcli/nf-certcli-icertconfig-getconfig?branch=master) is used to determine which certification authority can be used to issue the certificate.
 
 An intermediary is not language-dependent. It may be a program written in C++, Visual Basic, Java, script, or another language.
 
@@ -22,7 +27,7 @@ The Certificate Services web enrollment pages use the [Certificate Enrollment In
 
 The Certificates MMC snap-in also uses the Certificate Enrollment Control (Xenroll.dll). However, where the Certificate Services web enrollment pages cause the Certificate Enrollment Control resource (Xenroll.dll) to be downloaded to the client if needed, the Certificates MMC snap-in runs in an environment where Xenroll.dll is already an available resource.
 
-In addition to [**ICertRequest**](icertrequest.md) and [**ICertConfig**](icertconfig.md), developers of intermediaries may find the [Certificate Enrollment Interfaces](cryptography-interfaces.md#certificate-enrollment-interfaces) and the [Smart Card Enrollment Control](certificate-enrollment-control.md) to be useful.
+In addition to [**ICertRequest**](/windows/win32/Certcli/nn-certcli-icertrequest?branch=master) and [**ICertConfig**](/windows/win32/Certcli/nn-certcli-icertconfig?branch=master), developers of intermediaries may find the [Certificate Enrollment Interfaces](cryptography-interfaces.md#certificate-enrollment-interfaces) and the [Smart Card Enrollment Control](certificate-enrollment-control.md) to be useful.
 
  
 

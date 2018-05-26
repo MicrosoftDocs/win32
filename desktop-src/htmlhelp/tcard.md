@@ -1,7 +1,12 @@
 ---
 title: TCard
 description: Sends a Windows WM\_TCARD message to the calling program to invoke a training card topic or to perform some other action.
-ms.assetid: 'B9A09DBA-7200-4b12-810F-EE171D0C7236'
+ms.assetid: B9A09DBA-7200-4b12-810F-EE171D0C7236
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCard

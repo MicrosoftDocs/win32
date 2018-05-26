@@ -1,14 +1,20 @@
 ---
 title: while Statement
 description: Executes a statement block until the conditional expression fails.
-ms.assetid: '0fe420db-3c09-40bd-b689-f85c02e2f817'
-keywords: ["while Statement HLSL"]
+ms.assetid: 0fe420db-3c09-40bd-b689-f85c02e2f817
+keywords:
+- while Statement HLSL
 topic_type:
 - apiref
 api_name:
 - while Statement
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # while Statement
@@ -19,11 +25,11 @@ Executes a statement block until the conditional expression fails.
 
 |                                                                  |
 |------------------------------------------------------------------|
-| \[*Attribute*\] while ( *Conditional* ) {   *Statement Block*; } |
+| \[*Attribute*\] while ( *Conditional* ) {   *Statement Block*; } |
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -45,7 +51,7 @@ An optional parameter that controls how the statement is compiled.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -70,9 +76,9 @@ One or more [statements](dx-graphics-hlsl-statement-blocks.md).
 [Flow Control](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

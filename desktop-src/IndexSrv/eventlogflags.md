@@ -1,7 +1,12 @@
 ---
 title: EventLogFlags
 description: EventLogFlags
-ms.assetid: 'aa1be4ef-ef40-4149-817a-6cfc61dd0ff0'
+ms.assetid: aa1be4ef-ef40-4149-817a-6cfc61dd0ff0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventLogFlags

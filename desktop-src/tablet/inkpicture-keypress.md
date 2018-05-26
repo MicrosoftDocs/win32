@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a key is pressed while the InkPicture control has focus.'
-ms.assetid: 'adb61eff-a92c-40b0-940c-02e14cd34e5f'
-title: 'InkPicture.KeyPress event'
+Description: Occurs when a key is pressed while the InkPicture control has focus.
+ms.assetid: adb61eff-a92c-40b0-940c-02e14cd34e5f
+title: InkPicture.KeyPress event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture.KeyPress event
@@ -13,7 +18,7 @@ Occurs when a key is pressed while the [InkPicture](inkpicture-control-reference
 
 ```C++
 void KeyPress(
-  [in, out] short *KeyAscii
+  [in, out] short *KeyAscii
 );
 ```
 
@@ -44,7 +49,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -58,9 +63,9 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 [InkPicture](inkpicture-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

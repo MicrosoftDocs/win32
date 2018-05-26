@@ -4,11 +4,12 @@ description: The property method of the IADsAcl interface sets the property desc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eb4786d7-d366-4924-8255-dc28ea47a246'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eb4786d7-d366-4924-8255-dc28ea47a246
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsAcl Property Methods ADSI"]
+keywords:
+- IADsAcl Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -26,11 +27,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsAcl Property Methods
 
-The property method of the [**IADsAcl**](iadsacl.md) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property method of the [**IADsAcl**](/windows/win32/Iads/nn-iads-iadsacl?branch=master) interface sets the property described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -120,7 +124,7 @@ HRESULT put_SubjectName(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -128,8 +132,8 @@ HRESULT put_SubjectName(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsAcl is defined as 8452D3AB-0869-11D1-A377-00C04FB950DC<br/>              |
@@ -140,12 +144,12 @@ HRESULT put_SubjectName(
 
 <dl> <dt>
 
-[**IADsAcl**](iadsacl.md)
+[**IADsAcl**](/windows/win32/Iads/nn-iads-iadsacl?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

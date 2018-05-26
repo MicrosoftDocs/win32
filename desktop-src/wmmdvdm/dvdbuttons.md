@@ -1,14 +1,20 @@
 ---
 title: DVDButtons element
 description: The boundary tag for the custom DVD buttons section of the XML file.
-ms.assetid: 'ce5b38b6-5276-4cc9-bbcc-7f25d221a160'
-keywords: ["DVDButtons element Windows Movie Maker and DVD Maker"]
+ms.assetid: ce5b38b6-5276-4cc9-bbcc-7f25d221a160
+keywords:
+- DVDButtons element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - DVDButtons
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVDButtons element
@@ -45,7 +51,7 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -57,9 +63,9 @@ There are no child elements.
 [**Elements**](elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.verticalAlignment
 description: The verticalAlignment attribute specifies or retrieves a value indicating the vertical placement of the control when the VIEW or parent SUBVIEW is stretched.
-ms.assetid: '08ef483a-58ee-4a35-9973-2567076d07f7'
-keywords: ["AmbientAttributes.verticalAlignment Windows Media Player"]
+ms.assetid: 08ef483a-58ee-4a35-9973-2567076d07f7
+keywords:
+- AmbientAttributes.verticalAlignment Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.verticalAlignment
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.verticalAlignment
@@ -34,7 +40,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +68,9 @@ You can set any combination of the **horizontalAlignment** and **verticalAlignme
 [**AmbientAttributes.horizontalAlignment**](ambientattributes-horizontalalignment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

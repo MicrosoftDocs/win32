@@ -1,8 +1,14 @@
 ---
 title: Strong Typing
 description: C is a weakly typed language, that is, the compiler allows operations such as assignment and comparison among variables of different types.
-ms.assetid: '5f52adcc-22b9-4b4f-b921-5996d278b10e'
-keywords: ["Remote Procedure Call RPC , described, data typing"]
+ms.assetid: 5f52adcc-22b9-4b4f-b921-5996d278b10e
+keywords:
+- Remote Procedure Call RPC , described, data typing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Strong Typing

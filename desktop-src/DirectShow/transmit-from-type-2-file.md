@@ -1,7 +1,12 @@
 ---
-Description: 'Transmit from Type-2 File'
-ms.assetid: 'c14c1798-aeff-44d8-a2e4-2fe4c146dfb9'
-title: 'Transmit from Type-2 File'
+Description: Transmit from Type-2 File
+ms.assetid: c14c1798-aeff-44d8-a2e4-2fe4c146dfb9
+title: Transmit from Type-2 File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transmit from Type-2 File

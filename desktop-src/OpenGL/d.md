@@ -2,8 +2,18 @@
 title: D
 description: Definitions of OpenGL terms that begin with the letter D.
 Robots: noindex, nofollow
-ms.assetid: '8cda0919-5884-4ebe-92a1-0b3e694989be'
-keywords: ["depth", "depth cueing", "display lists", "dithering", "double buffering"]
+ms.assetid: 8cda0919-5884-4ebe-92a1-0b3e694989be
+keywords:
+- depth
+- depth cueing
+- display lists
+- dithering
+- double buffering
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D

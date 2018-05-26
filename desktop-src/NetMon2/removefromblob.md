@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveFromBlob function deletes any level of BLOB entry (Owner, Category, or Tag).'
-ms.assetid: 'b8bb01e0-8b97-4c95-96f5-f2a30c8700e9'
+Description: The RemoveFromBlob function deletes any level of BLOB entry (Owner, Category, or Tag).
+ms.assetid: b8bb01e0-8b97-4c95-96f5-f2a30c8700e9
 title: RemoveFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveFromBlob function
@@ -13,10 +18,10 @@ The **RemoveFromBlob** function deletes any level of BLOB entry (**Owner**, **Ca
 
 ```C++
 DWORD RemoveFromBlob(
-  _In_       HBLOB hBlob,
-  _In_ const char  *pOwnerName,
-  _In_ const char  *pCategoryName,
-  _In_ const char  *pTagName
+  _In_       HBLOB hBlob,
+  _In_ const char  *pOwnerName,
+  _In_ const char  *pCategoryName,
+  _In_ const char  *pTagName
 );
 ```
 
@@ -66,17 +71,17 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

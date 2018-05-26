@@ -1,13 +1,16 @@
 ---
-Description: 'WMI contains a set of classes for troubleshooting client applications that use WMI providers.'
+Description: WMI contains a set of classes for troubleshooting client applications that use WMI providers.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f69b360a-2c24-4776-bcda-b51edde0dcde'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f69b360a-2c24-4776-bcda-b51edde0dcde
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Troubleshooting WMI Client Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Troubleshooting WMI Client Applications
@@ -18,11 +21,11 @@ The following list contains examples of troubleshooting event classes:
 
 -   [**Msft\_WmiProvider\_ExecMethodAsyncEvent\_Pre**](https://msdn.microsoft.com/library/aa392562)
 
-    Raised before WMI calls [**IWbemServices::ExecMethodAsync()**](iwbemservices-execmethodasync.md) on the provider.
+    Raised before WMI calls [**IWbemServices::ExecMethodAsync()**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethodasync?branch=master) on the provider.
 
 -   [**Msft\_WmiProvider\_ExecMethodAsyncEvent\_Post**](https://msdn.microsoft.com/library/aa392561)
 
-    Raised after WMI calls [**IWbemServices::ExecMethodAsync()**](iwbemservices-execmethodasync.md) on the provider.
+    Raised after WMI calls [**IWbemServices::ExecMethodAsync()**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execmethodasync?branch=master) on the provider.
 
 The following procedure shows how to troubleshoot application execution.
 

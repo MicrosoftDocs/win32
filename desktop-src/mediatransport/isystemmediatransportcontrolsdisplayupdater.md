@@ -1,8 +1,10 @@
 ---
 title: ISystemMediaTransportControlsDisplayUpdater interface
 description: Provides functionality to update the media metadata that is displayed on the ISystemMediaTransportControls.
-ms.assetid: '17BB2465-D9FA-4508-B7F9-94FA0D72FFCC'
-keywords: ["ISystemMediaTransportControlsDisplayUpdater interface", "ISystemMediaTransportControlsDisplayUpdater interface, described"]
+ms.assetid: 17BB2465-D9FA-4508-B7F9-94FA0D72FFCC
+keywords:
+- ISystemMediaTransportControlsDisplayUpdater interface
+- ISystemMediaTransportControlsDisplayUpdater interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - windows.media.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISystemMediaTransportControlsDisplayUpdater interface
@@ -46,7 +53,7 @@ The **ISystemMediaTransportControlsDisplayUpdater** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,9 +72,9 @@ The **ISystemMediaTransportControlsDisplayUpdater** interface has these methods.
 [**IInspectable**](https://msdn.microsoft.com/library/windows/desktop/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

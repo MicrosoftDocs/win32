@@ -4,16 +4,20 @@ description: TBD. Applications use this control code as a parameter to the Clust
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B00D4725-AD1B-415D-A774-1216F0017FFF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: B00D4725-AD1B-415D-A774-1216F0017FFF
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO control code Failover Cluster"]
+keywords:
+- CLUSCTL_CLUSTER_CLEAR_NODE_CONNECTION_INFO control code Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_CLUSTER\_CLEAR\_NODE\_CONNECTION\_INFO control code
 
-TBD. Applications use this control code as a parameter to the [**ClusterControl**](clustercontrol.md) function.
+TBD. Applications use this control code as a parameter to the [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) function.
 
 
 ```C++
@@ -31,7 +35,7 @@ ClusterControl( hCluster,                                   // cluster handle
 
 ## Parameters
 
-The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterControl**](clustercontrol.md) .
+The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) .
 
 <dl> <dt>
 
@@ -65,7 +69,7 @@ TBD.
 
 ## Return value
 
-[**ClusterControl**](clustercontrol.md) returns one of the following values.
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -93,17 +97,17 @@ The 32 bits of **CLUSCTL\_CLUSTER\_CLEAR\_NODE\_CONNECTION\_INFO** (0x07400307) 
 
 | Component                 | Bit location     | Value                                                          |
 |---------------------------|------------------|----------------------------------------------------------------|
-| Object code<br/>    | 24–31<br/> | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>                     |
+| Object code<br/>    | 24 31<br/> | **CLUS\_OBJECT\_CLUSTER** (0x7)<br/>                     |
 | Global bit<br/>     | 23<br/>    | **CLUS\_NOT\_GLOBAL** (0x0)<br/>                         |
 | Modify bit<br/>     | 22<br/>    | **CLUS\_MODIFY** (0x1)<br/>                              |
 | User bit<br/>       | 21<br/>    | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>                      |
 | Type bit<br/>       | 20<br/>    | External (0x0)<br/>                                      |
-| Operation code<br/> | 0–23<br/>  | **CLCTL\_CLEAR\_NODE\_CONNECTION\_INFO** (0x400307)<br/> |
-| Access code<br/>    | 0–1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>                       |
+| Operation code<br/> | 0 23<br/>  | **CLCTL\_CLEAR\_NODE\_CONNECTION\_INFO** (0x400307)<br/> |
+| Access code<br/>    | 0 1<br/>   | **CLUS\_ACCESS\_WRITE** (0x2)<br/>                       |
 
 
 
- 
+ 
 
 For more information, see [Control Code Architecture](control-code-architecture.md).
 
@@ -114,7 +118,7 @@ For more information, see [Control Code Architecture](control-code-architecture.
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -126,12 +130,12 @@ For more information, see [Control Code Architecture](control-code-architecture.
 [Cluster Control Codes](cluster-control-codes.md)
 </dt> <dt>
 
-[**ClusterControl**](clustercontrol.md)
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

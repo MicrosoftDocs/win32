@@ -1,14 +1,20 @@
 ---
 title: /winmd switch
 description: The /winmd switch specifies the name of the output metadata (.winmd) file.
-ms.assetid: 'AC4CE044-17FA-4D37-A800-EDD2A247AB7E'
-keywords: ["/winmd switch MIDL"]
+ms.assetid: AC4CE044-17FA-4D37-A800-EDD2A247AB7E
+keywords:
+- /winmd switch MIDL
 topic_type:
 - apiref
 api_name:
 - /winmd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /winmd switch
@@ -42,8 +48,8 @@ Specifies the name of the metadata file.
 
 |                   |                                |
 |-------------------|--------------------------------|
-| Client<br/> | Windows 8<br/>           |
-| Server<br/> | Windows Server 2012<br/> |
+| Client<br/> | Windows 8<br/>           |
+| Server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -54,9 +60,9 @@ Specifies the name of the metadata file.
 [General MIDL Command-line Syntax](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

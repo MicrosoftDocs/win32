@@ -1,7 +1,12 @@
 ---
-Description: 'The bitdepth attribute specifies the bit depth of the output video, in bits per pixel.'
-ms.assetid: '91a79d4e-a374-4dbc-9ec9-69cf3e1087e1'
+Description: The bitdepth attribute specifies the bit depth of the output video, in bits per pixel.
+ms.assetid: 91a79d4e-a374-4dbc-9ec9-69cf3e1087e1
 title: bitdepth Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # bitdepth Attribute

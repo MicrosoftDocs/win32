@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '07af228c-c1d6-48f0-929c-9adc67829ace'
-title: 'System.Contact.HomeAddress3Region'
+Description: .
+ms.assetid: 07af228c-c1d6-48f0-929c-9adc67829ace
+title: System.Contact.HomeAddress3Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress3Region

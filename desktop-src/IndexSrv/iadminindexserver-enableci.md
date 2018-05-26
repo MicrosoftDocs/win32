@@ -1,8 +1,11 @@
 ---
 title: IAdminIndexServer EnableCI method
 description: Enables Indexing Service to start automatically.
-ms.assetid: 'c2fdbaa4-216f-4c5c-8e4c-27b46e8ea7e0'
-keywords: ["EnableCI method Indexing Service", "EnableCI method Indexing Service , IAdminIndexServer interface", "IAdminIndexServer interface Indexing Service , EnableCI method"]
+ms.assetid: c2fdbaa4-216f-4c5c-8e4c-27b46e8ea7e0
+keywords:
+- EnableCI method Indexing Service
+- EnableCI method Indexing Service , IAdminIndexServer interface
+- IAdminIndexServer interface Indexing Service , EnableCI method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ciodm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAdminIndexServer::EnableCI method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Enables Indexing Service to start automatically.
 
@@ -24,7 +32,7 @@ Enables Indexing Service to start automatically.
 
 ```C++
 HRESULT EnableCI(
-  [in] VARIANT_BOOL fAutoStart
+  [in] VARIANT_BOOL fAutoStart
 );
 ```
 
@@ -55,10 +63,10 @@ The default setting for the Indexing Service for it to be started manually. When
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ciodm.dll</dt> </dl> |
 
 
@@ -70,9 +78,9 @@ The default setting for the Indexing Service for it to be started manually. When
 [**IAdminIndexServer**](iadminindexserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

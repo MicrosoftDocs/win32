@@ -1,7 +1,12 @@
 ---
 Description: Directories
-ms.assetid: '012e8f51-755c-4f5a-a3a9-45c6d77e0a09'
+ms.assetid: 012e8f51-755c-4f5a-a3a9-45c6d77e0a09
 title: Directories
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Directories

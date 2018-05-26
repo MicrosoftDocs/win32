@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets all the options of a feature.'
-ms.assetid: '0A8271AC-389F-4E04-8691-CBED1391B453'
-title: 'IPrintSchemaCapabilities::GetOptions method'
+---
+Description: Gets all the options of a feature.
+ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
+title: IPrintSchemaCapabilitiesGetOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaCapabilities::GetOptions method

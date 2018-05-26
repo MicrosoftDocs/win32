@@ -1,8 +1,11 @@
 ---
 title: SetNodeAddress method of the MSFT\_InitiatorPort class
 description: Sets the node address for an iSCSI initiator port by passing an IQN as the node address string.
-ms.assetid: '0F1A5F3C-3064-44EE-A8D2-0A6E735CDE5A'
-keywords: ["SetNodeAddress method Windows Storage Management API", "SetNodeAddress method Windows Storage Management API , MSFT_InitiatorPort class", "MSFT_InitiatorPort class Windows Storage Management API , SetNodeAddress method"]
+ms.assetid: 0F1A5F3C-3064-44EE-A8D2-0A6E735CDE5A
+keywords:
+- SetNodeAddress method Windows Storage Management API
+- SetNodeAddress method Windows Storage Management API , MSFT_InitiatorPort class
+- MSFT_InitiatorPort class Windows Storage Management API , SetNodeAddress method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetNodeAddress method of the MSFT\_InitiatorPort class
@@ -22,8 +30,8 @@ Sets the node address for an iSCSI initiator port by passing an IQN as the node 
 
 ```mof
 UInt32 SetNodeAddress(
-  [in]  String NodeAddress,
-  [out] String ExtendedStatus
+  [in]  String NodeAddress,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -77,8 +85,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -91,9 +99,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_InitiatorPort**](msft-initiatorport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

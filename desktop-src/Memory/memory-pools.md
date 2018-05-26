@@ -1,7 +1,12 @@
 ---
-Description: 'The memory manager creates the following memory pools that the system uses to allocate memory: nonpaged pool and paged pool.'
-ms.assetid: '68ee9c72-f3a3-4f1f-a827-ed4210a665e4'
+Description: The memory manager creates the following memory pools that the system uses to allocate memory nonpaged pool and paged pool.
+ms.assetid: 68ee9c72-f3a3-4f1f-a827-ed4210a665e4
 title: Memory Pools
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Pools

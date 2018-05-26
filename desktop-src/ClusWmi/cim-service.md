@@ -4,13 +4,15 @@ description: A CIM\_Service is a Logical Element that contains the information n
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '79e40521-9715-4f9b-b805-3e9d8848e57e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 79e40521-9715-4f9b-b805-3e9d8848e57e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Service class", "CIM_Service class, described"]
+keywords:
+- CIM_Service class
+- CIM_Service class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Service class
@@ -43,16 +48,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FCFE8148-E035-4bf9-88ED-494793B152BC}"), AMENDMENT]
 class CIM_Service : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CreationClassName;
-  string   Name;
-  string   StartMode;
-  boolean  Started;
-  string   SystemCreationClassName;
-  string   SystemName;
+  string   Status;
+  string   CreationClassName;
+  string   Name;
+  string   StartMode;
+  boolean  Started;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -325,7 +330,7 @@ The scoping System's Name.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -339,9 +344,9 @@ The scoping System's Name.
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

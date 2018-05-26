@@ -4,13 +4,19 @@ description: Creates a new replication partnership between existing replication 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '82dd9d01-7113-4dd2-865d-5c5a59a997fb'
-ms.prod: 'windows-server-dev'
+ms.assetid: 82dd9d01-7113-4dd2-865d-5c5a59a997fb
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WvrCreateReplicationPartnership method", "WvrCreateReplicationPartnership method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, WvrCreateReplicationPartnership method"]
+keywords:
+- WvrCreateReplicationPartnership method
+- WvrCreateReplicationPartnership method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, WvrCreateReplicationPartnership method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WvrCreateReplicationPartnership method of the MSFT\_WvrAdminTasks class
@@ -22,10 +28,10 @@ Creates a new replication partnership between existing replication groups.
 
 ```mof
 uint32 WvrCreateReplicationPartnership(
-  [in] string SourceReplicationGroupName,
-  [in] string TargetReplicationGroupName,
-  [in] string TargetComputerName,
-  [in] string PartnershipId
+  [in] string SourceReplicationGroupName,
+  [in] string TargetReplicationGroupName,
+  [in] string TargetComputerName,
+  [in] string PartnershipId
 );
 ```
 
@@ -70,7 +76,7 @@ TBD
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -84,9 +90,9 @@ TBD
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Disabling Shortcut Keys in Games
 description: This articles describes how to temporarily disable keyboard shortcuts in Microsoft Windows to prevent disruption of game play for full screen games.
-ms.assetid: '732523f9-ecff-c6c2-646d-1bc3443232ab'
+ms.assetid: 732523f9-ecff-c6c2-646d-1bc3443232ab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disabling Shortcut Keys in Games

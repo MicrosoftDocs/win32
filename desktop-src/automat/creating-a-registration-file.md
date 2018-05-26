@@ -1,7 +1,12 @@
 ---
 title: Creating a Registration File
-description: Before an application can use OLE and Automation, the OLE objects must be registered with the user's system registration database.
-ms.assetid: '84024523-d8a1-480b-a2cb-6f4e0681ea0e'
+description: Before an application can use OLE and Automation, the OLE objects must be registered with the users system registration database.
+ms.assetid: 84024523-d8a1-480b-a2cb-6f4e0681ea0e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Registration File
@@ -27,11 +32,11 @@ You can use the **DLLRegisterServer** function to register all objects implement
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

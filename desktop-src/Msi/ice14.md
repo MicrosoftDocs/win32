@@ -1,7 +1,12 @@
 ---
-Description: 'ICE14 validates the Feature table of a Windows Installer database.'
-ms.assetid: 'fb1970f8-1dba-4b06-aa03-5b33d213fc79'
+Description: ICE14 validates the Feature table of a Windows Installer database.
+ms.assetid: fb1970f8-1dba-4b06-aa03-5b33d213fc79
 title: ICE14
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE14

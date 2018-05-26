@@ -1,8 +1,11 @@
 ---
 title: IWMDRMNetReceiver ProcessRegistrationResponse method
 description: The ProcessRegistrationResponse method processes a registration response sent by the transmitter in reply to a registration challenge.
-ms.assetid: 'd0260e93-0a5e-494b-a723-bb62206ed55b'
-keywords: ["ProcessRegistrationResponse method windows Media Format", "ProcessRegistrationResponse method windows Media Format , IWMDRMNetReceiver interface", "IWMDRMNetReceiver interface windows Media Format , ProcessRegistrationResponse method"]
+ms.assetid: d0260e93-0a5e-494b-a723-bb62206ed55b
+keywords:
+- ProcessRegistrationResponse method windows Media Format
+- ProcessRegistrationResponse method windows Media Format , IWMDRMNetReceiver interface
+- IWMDRMNetReceiver interface windows Media Format , ProcessRegistrationResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMNetReceiver::ProcessRegistrationResponse method
@@ -22,9 +30,9 @@ The **ProcessRegistrationResponse** method processes a registration response sen
 
 ```C++
 HRESULT ProcessRegistrationResponse(
-  [in]  BYTE     *pbRegistrationResponse,
-  [in]  DWORD    cbRegistrationResponse,
-  [out] IUnknown **ppunkCancellationCookie
+  [in]  BYTE     *pbRegistrationResponse,
+  [in]  DWORD    cbRegistrationResponse,
+  [out] IUnknown **ppunkCancellationCookie
 );
 ```
 
@@ -67,7 +75,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -93,9 +101,9 @@ This method executes asynchronously; when processing is complete, the MEProximit
 [**IWMDRMNetReceiver::GetRegistrationChallenge**](iwmdrmnetreceiver-getregistrationchallenge.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

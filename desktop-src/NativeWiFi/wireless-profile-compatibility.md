@@ -1,7 +1,12 @@
 ---
-Description: 'Because of underlying architectural differences in the operating system, Windows XP with Service Pack 3 (SP3) and Wireless LAN API for Windows XP with Service Pack 2 (SP2) support only a subset of the elements described in the WLAN\_profile Schema and OneX Schema reference material.'
-ms.assetid: '28c956c0-a0e2-4843-956d-abeab418604e'
+Description: Because of underlying architectural differences in the operating system, Windows XP with Service Pack 3 (SP3) and Wireless LAN API for Windows XP with Service Pack 2 (SP2) support only a subset of the elements described in the WLAN\_profile Schema and OneX Schema reference material.
+ms.assetid: 28c956c0-a0e2-4843-956d-abeab418604e
 title: Wireless Profile Compatibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wireless Profile Compatibility

@@ -1,7 +1,12 @@
 ---
-Description: 'The Fax Service Client API supports changing fax server configuration data.'
-ms.assetid: '49416909-d475-4c76-ae2a-bd3c39611b32'
+Description: The Fax Service Client API supports changing fax server configuration data.
+ms.assetid: 49416909-d475-4c76-ae2a-bd3c39611b32
 title: Fax Server Configuration Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Server Configuration Management

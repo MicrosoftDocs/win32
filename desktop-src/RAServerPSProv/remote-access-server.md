@@ -2,12 +2,15 @@
 title: RAServerPSProvider Provider
 description: The RAServerPSProvider provider defines classes to manage a remote access server in a Remote Access Services (RAS) environment.
 audience: developer
-ms.assetid: '91B6D182-9D30-48CE-9A65-B2EA5990971C'
-ms.prod: 'windows-server-dev'
+ms.assetid: 91B6D182-9D30-48CE-9A65-B2EA5990971C
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RAServerPSProvider Provider

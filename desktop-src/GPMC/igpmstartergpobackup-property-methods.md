@@ -4,11 +4,12 @@ description: The property methods of the IGPMStarterGPOBackup interface get the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd12b7893-00d2-42cb-8fa4-b200a2d4b340'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: d12b7893-00d2-42cb-8fa4-b200a2d4b340
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMStarterGPOBackup Property Methods GPMC"]
+keywords:
+- IGPMStarterGPOBackup Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -33,11 +34,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMStarterGPOBackup Property Methods
 
-The property methods of the [**IGPMStarterGPOBackup**](igpmstartergpobackup.md) interface get the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
+The property methods of the [**IGPMStarterGPOBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpobackup?branch=master) interface get the properties described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the ADSI documentation.
 
 ## Properties
 
@@ -46,7 +50,7 @@ The property methods of the [**IGPMStarterGPOBackup**](igpmstartergpobackup.md) 
 **BackupDir**
 </dt> <dd> <dl>
 
-The directory in which the [**GPMBackup**](igpmbackup.md) object exists.
+The directory in which the [**GPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master) object exists.
 
 <dt>
 
@@ -71,7 +75,7 @@ HRESULT get_BackupDir(
 **Comment**
 </dt> <dd> <dl>
 
-Comment associated with the [**GPMBackup**](igpmbackup.md) object.
+Comment associated with the [**GPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master) object.
 
 <dt>
 
@@ -146,7 +150,7 @@ HRESULT get_Domain(
 **ID**
 </dt> <dd> <dl>
 
-GUID that uniquely identifies the [**GPMStarterGPOBackup**](igpmstartergpobackup.md) object within its backup directory.
+GUID that uniquely identifies the [**GPMStarterGPOBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpobackup?branch=master) object within its backup directory.
 
 <dt>
 
@@ -196,7 +200,7 @@ HRESULT get_StarterGPOID(
 **Timestamp**
 </dt> <dd> <dl>
 
-Date and time when the [**GPMStarterGPOBackup**](igpmstartergpobackup.md) object was created, in local time.
+Date and time when the [**GPMStarterGPOBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpobackup?branch=master) object was created, in local time.
 
 <dt>
 
@@ -221,7 +225,7 @@ HRESULT get_Timestamp(
 **Type**
 </dt> <dd> <dl>
 
-Type of backed-up [**GPMStarterGPO**](igpmstartergpobackup.md) object. The type of backed-up **GPMStarterGPO** is a system or custom Starter Group Policy object.
+Type of backed-up [**GPMStarterGPO**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpobackup?branch=master) object. The type of backed-up **GPMStarterGPO** is a system or custom Starter Group Policy object.
 
 <dt>
 
@@ -243,7 +247,7 @@ HRESULT get_Type(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -251,8 +255,8 @@ HRESULT get_Type(
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl>   |
@@ -264,18 +268,18 @@ HRESULT get_Type(
 
 <dl> <dt>
 
-[**IGPMStarterGPOBackup**](igpmstartergpobackup.md)
+[**IGPMStarterGPOBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpobackup?branch=master)
 </dt> <dt>
 
-[**IGPMBackupDirEx**](igpmbackupdirex.md)
+[**IGPMBackupDirEx**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackupdirex?branch=master)
 </dt> <dt>
 
-[**IGPMStarterGPOBackupCollection**](igpmstartergpobackupcollection.md)
+[**IGPMStarterGPOBackupCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmstartergpobackupcollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

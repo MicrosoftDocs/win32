@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for file read and write events. The following syntax is simplified from MOF code.'
-ms.assetid: '88c380fb-e043-40ab-aa74-550bce43c52b'
-title: 'FileIo\_ReadWrite class'
+---
+Description: This class is the event type class for file read and write events. The following syntax is simplified from MOF code.
+ms.assetid: 88c380fb-e043-40ab-aa74-550bce43c52b
+title: FileIo\_ReadWrite class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileIo\_ReadWrite class

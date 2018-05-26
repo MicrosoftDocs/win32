@@ -1,14 +1,20 @@
 ---
 title: AlbumIDAlbumArtist Attribute
 description: The AlbumIDAlbumArtist attribute is a unique identifier for the album.
-ms.assetid: 'beaa8d01-1722-4545-8705-6b3d130113b1'
-keywords: ["AlbumIDAlbumArtist Attribute Windows Media Player"]
+ms.assetid: beaa8d01-1722-4545-8705-6b3d130113b1
+keywords:
+- AlbumIDAlbumArtist Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AlbumIDAlbumArtist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AlbumIDAlbumArtist Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

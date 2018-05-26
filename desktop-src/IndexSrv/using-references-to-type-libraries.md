@@ -1,7 +1,12 @@
 ---
 title: Using References to Type Libraries
 description: Using References to Type Libraries
-ms.assetid: '3f4d6bd9-e977-4fc8-8346-65a421525b7e'
+ms.assetid: 3f4d6bd9-e977-4fc8-8346-65a421525b7e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using References to Type Libraries

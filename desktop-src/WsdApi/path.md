@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the location and filename of a WSDL file. The path may be an absolute or relative path to the file, but must not be an URL.'
-ms.assetid: '5bf666d3-6f13-4607-a83a-ec71f40f00e6'
+Description: Specifies the location and filename of a WSDL file. The path may be an absolute or relative path to the file, but must not be an URL.
+ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6
 title: path element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # path element
@@ -46,14 +51,14 @@ The following XML shows a valid **path** element.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

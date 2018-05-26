@@ -1,8 +1,15 @@
 ---
 title: Performance Logs and Alerts
 description: Use PLA to create performance monitoring software that reports application performance measurement alerts based on performance counter thresholds. Use PLA for computer performance software.
-ms.assetid: '915f95bd-a04b-40ed-b736-67a8dd4ed001'
-keywords: ["Performance Logs and Alerts PLA", "Performance Logs and Alerts PLA , home page"]
+ms.assetid: 915f95bd-a04b-40ed-b736-67a8dd4ed001
+keywords:
+- Performance Logs and Alerts PLA
+- Performance Logs and Alerts PLA , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Logs and Alerts
@@ -17,7 +24,7 @@ PLA is designed for C and C++ developers and those writing scripts.
 
 ## Run-time requirements
 
-PLA is available starting with Windows Vista.
+PLA is available starting with Windows Vista.
 
 For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
 
@@ -32,11 +39,11 @@ For information about run-time requirements for a particular programming element
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

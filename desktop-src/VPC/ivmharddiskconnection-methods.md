@@ -1,7 +1,12 @@
 ---
 title: IVMHardDiskConnection Methods
 description: The IVMHardDiskConnection interface exposes the following methods.
-ms.assetid: 'CFC91E7E-0701-4AC7-B491-0204B1C3C326'
+ms.assetid: CFC91E7E-0701-4AC7-B491-0204B1C3C326
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnection Methods

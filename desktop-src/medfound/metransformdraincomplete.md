@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by an asynchronous Media Foundation transform (MFT) when a drain operation is complete.'
-ms.assetid: '923055e5-a09a-402e-983b-6fa3cebb1b3a'
+---
+Description: Sent by an asynchronous Media Foundation transform (MFT) when a drain operation is complete.
+ms.assetid: 923055e5-a09a-402e-983b-6fa3cebb1b3a
 title: METransformDrainComplete event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # METransformDrainComplete event
@@ -10,7 +15,7 @@ Sent by an asynchronous Media Foundation transform (MFT) when a drain operation 
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -34,9 +39,9 @@ The following attributes are defined for this event.
 
 ## Remarks
 
-Asynchronous MFTs send this event through the [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface. Synchronous MFTs never send this event.
+Asynchronous MFTs send this event through the [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface. Synchronous MFTs never send this event.
 
-To drain an MFT, call [**IMFTransform::ProcessMessage**](imftransform-processmessage.md) with the **MFT\_MESSAGE\_COMMAND\_DRAIN** message. Specify the input stream to drain in the *ulParam* parameter. When the drain operation is completed, an asynchronous MFT sends the METransformDrainComplete event. The [MF\_EVENT\_MFT\_INPUT\_STREAM\_ID](mf-event-mft-input-stream-id.md) attribute of the event contains the stream identifier given in the *ulParam* parameter.
+To drain an MFT, call [**IMFTransform::ProcessMessage**](/windows/win32/mftransform/nf-mftransform-imftransform-processmessage?branch=master) with the **MFT\_MESSAGE\_COMMAND\_DRAIN** message. Specify the input stream to drain in the *ulParam* parameter. When the drain operation is completed, an asynchronous MFT sends the METransformDrainComplete event. The [MF\_EVENT\_MFT\_INPUT\_STREAM\_ID](mf-event-mft-input-stream-id.md) attribute of the event contains the stream identifier given in the *ulParam* parameter.
 
 ## Requirements
 

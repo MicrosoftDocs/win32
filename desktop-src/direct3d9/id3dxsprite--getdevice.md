@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the device associated with the sprite object.'
-ms.assetid: '9ce18623-893e-4395-bdf7-8d16a641a557'
-title: 'ID3DXSprite::GetDevice method'
+---
+Description: Retrieves the device associated with the sprite object.
+ms.assetid: 9ce18623-893e-4395-bdf7-8d16a641a557
+title: ID3DXSpriteGetDevice method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSprite::GetDevice method
@@ -26,9 +31,9 @@ HRESULT GetDevice(
 *ppDevice* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)\***
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)\***
 
-Address of a pointer to an [**IDirect3DDevice9**](idirect3ddevice9.md) interface, representing the Direct3D device object associated with the sprite object.
+Address of a pointer to an [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface, representing the Direct3D device object associated with the sprite object.
 
 </dd> </dl>
 
@@ -40,7 +45,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 ## Remarks
 
-Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](idirect3ddevice9.md) interface.
+Calling this method will increase the internal reference count on the [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master) interface.
 
 ## Requirements
 

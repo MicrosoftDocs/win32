@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_DISPLAYCHANGE message is sent to all windows when the display resolution has changed.'
-ms.assetid: '5a6111fd-648e-41a9-aaf8-e5d93f5d54cd'
-title: 'WM\_DISPLAYCHANGE message'
+---
+Description: The WM\_DISPLAYCHANGE message is sent to all windows when the display resolution has changed.
+ms.assetid: 5a6111fd-648e-41a9-aaf8-e5d93f5d54cd
+title: WM\_DISPLAYCHANGE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DISPLAYCHANGE message

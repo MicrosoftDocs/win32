@@ -1,7 +1,12 @@
 ---
-Description: 'The UpgradedFile\_OptionalData table contains information about specific files in an upgraded image. This table is optional in the patch creation database (.pcp file) and is used by the UiCreatePatchPackageEx function.'
-ms.assetid: '8b96a83a-2bfa-47b7-bde0-896bdcc97d29'
-title: 'UpgradedFiles\_OptionalData Table (Patchwiz.dll)'
+Description: The UpgradedFile\_OptionalData table contains information about specific files in an upgraded image. This table is optional in the patch creation database (.pcp file) and is used by the UiCreatePatchPackageEx function.
+ms.assetid: 8b96a83a-2bfa-47b7-bde0-896bdcc97d29
+title: UpgradedFiles\_OptionalData Table (Patchwiz.dll)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpgradedFiles\_OptionalData Table (Patchwiz.dll)

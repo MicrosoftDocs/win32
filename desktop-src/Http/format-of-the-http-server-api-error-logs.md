@@ -1,8 +1,14 @@
 ---
 title: Format of the HTTP Server API Error Logs
 description: In general, HTTP Server API error log files have the same format as W3C error logs except that HTTP Server API error log files do not contain column headings.
-ms.assetid: '436f898c-9063-4aee-b276-e6ab935e3606'
-keywords: ["HTTP Server API, error log format"]
+ms.assetid: 436f898c-9063-4aee-b276-e6ab935e3606
+keywords:
+- HTTP Server API, error log format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Format of the HTTP Server API Error Logs
@@ -92,7 +98,7 @@ The following table identifies the fields and the order of the fields in an erro
 
 
 
- 
+ 
 
 The following sample lines are from an HTTP Server API error log:
 
@@ -107,9 +113,9 @@ The following sample lines are from an HTTP Server API error log:
                     - - - - - Timer_MinBytesPerSecond
 ```
 
- 
+ 
 
- 
+ 
 
 
 

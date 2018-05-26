@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ChangeDir method changes the current smart card directory to the new specified directory.'
-ms.assetid: '1eb53236-c88f-4b43-ac91-de67d4029433'
-title: 'ISCardFileAccess::ChangeDir method'
+---
+Description: The ChangeDir method changes the current smart card directory to the new specified directory.
+ms.assetid: 1eb53236-c88f-4b43-ac91-de67d4029433
+title: ISCardFileAccessChangeDir method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardFileAccess::ChangeDir method

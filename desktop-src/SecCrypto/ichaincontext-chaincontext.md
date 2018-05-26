@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the PCCERT\_CHAIN\_CONTEXT of a certificate.'
-ms.assetid: '1b33ecd5-88c9-4654-9d2d-95a0be4283c6'
-title: 'IChainContext::ChainContext property'
+---
+Description: Sets or retrieves the PCCERT\_CHAIN\_CONTEXT of a certificate.
+ms.assetid: 1b33ecd5-88c9-4654-9d2d-95a0be4283c6
+title: IChainContextChainContext property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IChainContext::ChainContext property
@@ -35,7 +40,7 @@ Any other **HRESULT** value indicates that the call failed.
 
 ## Remarks
 
-You must call either the [**FreeContext**](ichaincontext-freecontext.md) method or the [**CertFreeCertificateChain**](certfreecertificatechain.md) function to free the context.
+You must call either the [**FreeContext**](ichaincontext-freecontext.md) method or the [**CertFreeCertificateChain**](/windows/win32/Wincrypt/nf-wincrypt-certfreecertificatechain?branch=master) function to free the context.
 
 If you set the **ChainContext** property, the state of the entire [**Chain**](chain.md) object is reset.
 

@@ -1,8 +1,14 @@
 ---
 title: RunAs
 description: Configures a class to run under a specific user account when activated by a remote client without being written as a service application.
-ms.assetid: '2325a7da-8acd-41f4-a658-36a02532505a'
-keywords: ["RunAs registry value COM"]
+ms.assetid: 2325a7da-8acd-41f4-a658-36a02532505a
+keywords:
+- RunAs registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RunAs
@@ -26,7 +32,7 @@ The value specifies the user name and must be either of the form *UserName*, *Do
 
  
 
-Classes configured to run as a particular user may not be registered under any other identity, so calls to [**CoRegisterClassObject**](coregisterclassobject.md) with this CLSID fail unless the process was launched by COM on behalf of an actual activation request.
+Classes configured to run as a particular user may not be registered under any other identity, so calls to [**CoRegisterClassObject**](/windows/win32/combaseapi/nf-combaseapi-coregisterclassobject?branch=master) with this CLSID fail unless the process was launched by COM on behalf of an actual activation request.
 
 The user-name is taken from the **RunAs** value under the class's **AppID** key. If the user name is "Interactive User", the server is run in the identity of the user currently logged on and is connected to the interactive desktop.
 

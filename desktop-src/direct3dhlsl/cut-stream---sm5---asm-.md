@@ -1,7 +1,12 @@
 ---
 title: cut\_stream (sm5 - asm)
 description: The geometry shader instruction that completes the current primitive topology at the specified stream, if any vertices have been emitted to it, and starts a new topology of the type declared by the geometry shader at that stream.
-ms.assetid: 'CEFDD13B-34FD-4E9C-94A0-CB8879A7DBDE'
+ms.assetid: CEFDD13B-34FD-4E9C-94A0-CB8879A7DBDE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # cut\_stream (sm5 - asm)
@@ -15,7 +20,7 @@ The geometry shader instruction that completes the current primitive topology at
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ The geometry shader instruction that completes the current primitive topology at
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +57,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -71,7 +76,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -80,9 +85,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

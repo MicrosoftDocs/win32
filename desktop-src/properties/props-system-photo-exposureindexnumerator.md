@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_ExposureIndex.'
-ms.assetid: 'c4ab8067-198b-4aa1-bb71-99eb0947cc74'
-title: 'System.Photo.ExposureIndexNumerator'
+Description: The numerator of PKEY\_Photo\_ExposureIndex.
+ms.assetid: c4ab8067-198b-4aa1-bb71-99eb0947cc74
+title: System.Photo.ExposureIndexNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureIndexNumerator

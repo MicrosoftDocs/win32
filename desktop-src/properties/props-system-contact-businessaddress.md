@@ -1,7 +1,12 @@
 ---
-Description: 'Business address of the contact.'
-ms.assetid: '11d4a6b2-e61a-494a-84c3-33ad04cbee30'
-title: 'System.Contact.BusinessAddress'
+Description: Business address of the contact.
+ms.assetid: 11d4a6b2-e61a-494a-84c3-33ad04cbee30
+title: System.Contact.BusinessAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessAddress

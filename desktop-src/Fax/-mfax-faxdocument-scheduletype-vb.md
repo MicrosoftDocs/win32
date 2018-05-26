@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ScheduleType property indicates when to schedule the fax job; for example, you can specify that the fax service send the fax immediately, at a specified time, or during a predefined discount period.'
-ms.assetid: 'e65030e2-850a-40e2-9a5f-f205c896e86d'
-title: 'FaxDocument.ScheduleType property'
+---
+Description: The ScheduleType property indicates when to schedule the fax job; for example, you can specify that the fax service send the fax immediately, at a specified time, or during a predefined discount period.
+ms.assetid: e65030e2-850a-40e2-9a5f-f205c896e86d
+title: FaxDocument.ScheduleType property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.ScheduleType property
@@ -21,7 +26,7 @@ Property ScheduleType As Integer
 
 ## Property value
 
-A variable of type [**FAX\_SCHEDULE\_TYPE\_ENUM**](-mfax-fax-schedule-type-enum.md) that specifies or receives the schedule type. For possible values, see **FAX\_SCHEDULE\_TYPE\_ENUM**.
+A variable of type [**FAX\_SCHEDULE\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_schedule_type_enum?branch=master) that specifies or receives the schedule type. For possible values, see **FAX\_SCHEDULE\_TYPE\_ENUM**.
 
 ## Remarks
 
@@ -50,7 +55,7 @@ By default, **ScheduleType** is set to 0, indicating that the fax will be sent a
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

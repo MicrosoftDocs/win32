@@ -1,7 +1,12 @@
 ---
 title: DirectComposition concepts
 description: This section provides a conceptual overview of DirectComposition.
-ms.assetid: '7839C264-C15F-4E89-82B6-2963A5C61CEC'
+ms.assetid: 7839C264-C15F-4E89-82B6-2963A5C61CEC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectComposition concepts
@@ -25,7 +30,7 @@ This section provides a conceptual overview of DirectComposition.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -34,9 +39,9 @@ This section provides a conceptual overview of DirectComposition.
 [DirectComposition](directcomposition-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

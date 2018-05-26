@@ -1,18 +1,21 @@
 ---
-Description: 'The WMI Query Language (WQL) is a subset of the American National Standards Institute Structured Query Language (ANSI SQL)&\#8212;with minor semantic changes. The following table lists the WQL keywords.'
+Description: The WMI Query Language (WQL) is a subset of the American National Standards Institute Structured Query Language (ANSI SQL)&\#8212;with minor semantic changes. The following table lists the WQL keywords.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '72a7ec04-9af3-41ae-9189-6e1d46803fa9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 72a7ec04-9af3-41ae-9189-6e1d46803fa9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WQL (SQL for WMI)'
+title: WQL (SQL for WMI)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WQL (SQL for WMI)
 
-The WMI Query Language (WQL) is a subset of the American National Standards Institute Structured Query Language (ANSI SQL)—with minor semantic changes. The following table lists the WQL keywords.
+The WMI Query Language (WQL) is a subset of the American National Standards Institute Structured Query Language (ANSI SQL) with minor semantic changes. The following table lists the WQL keywords.
 
 
 
@@ -110,12 +113,12 @@ The WMI Query Language (WQL) is a subset of the American National Standards Inst
 
 
 
- 
+ 
 
 > [!Note]  
-> Using a WQL key word as an object name can result in a query that cannot be parsed—even when the query compiles without error.
+> Using a WQL key word as an object name can result in a query that cannot be parsed even when the query compiles without error.
 
- 
+ 
 
 ## Related topics
 
@@ -130,9 +133,9 @@ The WMI Query Language (WQL) is a subset of the American National Standards Inst
 [WQL-Supported Time Formats](wql-supported-time-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

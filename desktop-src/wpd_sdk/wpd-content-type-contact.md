@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_CONTACT'
-ms.assetid: '3ff6191f-d3c0-4bd3-946e-c3fbf68f368c'
-title: 'WPD\_CONTENT\_TYPE\_CONTACT'
+Description: WPD\_CONTENT\_TYPE\_CONTACT
+ms.assetid: 3ff6191f-d3c0-4bd3-946e-c3fbf68f368c
+title: WPD\_CONTENT\_TYPE\_CONTACT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_CONTACT

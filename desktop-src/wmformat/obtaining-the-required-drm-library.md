@@ -1,8 +1,23 @@
 ---
 title: Obtaining the Required DRM Library
 description: Obtaining the Required DRM Library
-ms.assetid: '7bd13b77-439e-40cf-99e8-b359247da74d'
-keywords: ["Windows Media Format SDK,obtaining required DRM libraries", "Advanced Systems Format (ASF),obtaining required DRM libraries", "ASF (Advanced Systems Format),obtaining required DRM libraries", "digital rights management (DRM),obtaining required libraries", "DRM (digital rights management),obtaining required libraries", "digital rights management (DRM),build information", "DRM (digital rights management),build information", "digital rights management (DRM),debugging information", "DRM (digital rights management),debugging information", "debugging DRM"]
+ms.assetid: 7bd13b77-439e-40cf-99e8-b359247da74d
+keywords:
+- Windows Media Format SDK,obtaining required DRM libraries
+- Advanced Systems Format (ASF),obtaining required DRM libraries
+- ASF (Advanced Systems Format),obtaining required DRM libraries
+- digital rights management (DRM),obtaining required libraries
+- DRM (digital rights management),obtaining required libraries
+- digital rights management (DRM),build information
+- DRM (digital rights management),build information
+- digital rights management (DRM),debugging information
+- DRM (digital rights management),debugging information
+- debugging DRM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining the Required DRM Library
@@ -23,7 +38,7 @@ The library that you receive has a DRM security level that depends on the type o
 
 
 
- 
+ 
 
 ## Build and Debugging Information
 
@@ -35,7 +50,7 @@ If you attempt to run a release version of an application on a system with a deb
 
 **Notes** DRM is not supported by the x64-based version of this SDK.
 
-The WMStubDRM.lib files that are associated with the Windows Media Format 9.5 SDK can be used only with the components of Microsoft Visual Studio® .NET 2003. If you are using an older version of the stub library, there are no new restrictions for its use.
+The WMStubDRM.lib files that are associated with the Windows Media Format 9.5 SDK can be used only with the components of Microsoft Visual Studio  .NET 2003. If you are using an older version of the stub library, there are no new restrictions for its use.
 
 ## Related topics
 
@@ -44,9 +59,9 @@ The WMStubDRM.lib files that are associated with the Windows Media Format 9.5 SD
 [**Enabling DRM Support**](enabling-drm-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

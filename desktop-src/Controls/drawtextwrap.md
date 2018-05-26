@@ -1,8 +1,9 @@
 ---
 title: DrawTextWrap function
 description: Draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so on). This function wraps a call to DrawText.
-ms.assetid: '28ab4c5e-3b8f-49e8-b072-500ba1916caf'
-keywords: ["DrawTextWrap function Windows Controls"]
+ms.assetid: 28ab4c5e-3b8f-49e8-b072-500ba1916caf
+keywords:
+- DrawTextWrap function Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Comctl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrawTextWrap function
 
-\[**DrawTextWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd162498) directly instead.\]
+\[**DrawTextWrap** is available through Windows XP with Service Pack 2 (SP2). It might be altered or unavailable in subsequent versions. It is recommended to use [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd162498) directly instead.\]
 
 Draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so on). This function wraps a call to [**DrawText**](https://msdn.microsoft.com/library/windows/desktop/dd162498).
 
@@ -24,12 +30,12 @@ Draws formatted text in the specified rectangle. It formats the text according t
 
 ```C++
 int WINAPI DrawTextWrap(
-  _In_    HDC              hdc,
-  _Inout_ LPCTSTR          lpString,
-  _In_    int              nCount,
-  _Inout_ LPRECT           lpRect,
-  _In_    UINT             uFormat,
-  _In_    LPDRAWTEXTPARAMS lpDTParams
+  _In_    HDC              hdc,
+  _Inout_ LPCTSTR          lpString,
+  _In_    int              nCount,
+  _Inout_ LPRECT           lpRect,
+  _In_    UINT             uFormat,
+  _In_    LPDRAWTEXTPARAMS lpDTParams
 );
 ```
 
@@ -117,15 +123,15 @@ For additional remarks, please see [**DrawText**](https://msdn.microsoft.com/lib
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: HDN\_BEGINDRAG notification code
 description: Sent by a header control when a drag operation has begun on one of its items. This notification code is sent only by header controls that are set to the HDS\_DRAGDROP style. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '3dfb7a7c-d783-48e0-ba92-8144104f163a'
-keywords: ["HDN_BEGINDRAG notification code Windows Controls"]
+ms.assetid: 3dfb7a7c-d783-48e0-ba92-8144104f163a
+keywords:
+- HDN_BEGINDRAG notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_BEGINDRAG notification code
@@ -33,7 +39,7 @@ HDN_BEGINDRAG
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](nmheader.md) structure containing information about the header item that is being dragged.
+A pointer to an [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure containing information about the header item that is being dragged.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ A header control defaults to automatically managing drag-and-drop reordering. Re
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

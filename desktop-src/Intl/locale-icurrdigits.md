@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_ICURRDIGITS'
-ms.assetid: '8c2b0bb7-296e-40cb-90a5-da131b365c1b'
-title: 'LOCALE\_ICURRDIGITS'
+Description: LOCALE\_ICURRDIGITS
+ms.assetid: 8c2b0bb7-296e-40cb-90a5-da131b365c1b
+title: LOCALE\_ICURRDIGITS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_ICURRDIGITS

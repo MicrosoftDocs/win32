@@ -1,7 +1,12 @@
 ---
-Description: 'Is an abstract WMI base class. The classes that describe video display monitors inherit from this MSMonitorClass.'
-ms.assetid: 'd9a0ce80-0323-4d84-a7d2-aefa99355f9e'
+Description: Is an abstract WMI base class. The classes that describe video display monitors inherit from this MSMonitorClass.
+ms.assetid: d9a0ce80-0323-4d84-a7d2-aefa99355f9e
 title: MSMonitorClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMonitorClass class
@@ -42,17 +47,17 @@ The **MSMonitorClass** class does not define any members.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: messageTable (MetadataType) Element
 description: Contains references to strings that are used in the event instrumentation manifest metadata section. The strings are stored in a group of message elements and IDs paired together.
-ms.assetid: '868af191-0f9c-435b-878f-ef0584e097d1'
-keywords: ["messageTable element EventLog"]
+ms.assetid: 868af191-0f9c-435b-878f-ef0584e097d1
+keywords:
+- messageTable element EventLog
 topic_type:
 - apiref
 api_name:
 - messageTable
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # messageTable (MetadataType) Element
@@ -78,8 +84,8 @@ The **messageTable** element is defined by the [**MetadataType**](eventmanifests
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -99,9 +105,9 @@ The **messageTable** element is defined by the [**MetadataType**](eventmanifests
 [**metadata (instrumentationManifest)**](eventmanifestschema-metadata-instrumentationmanifest-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

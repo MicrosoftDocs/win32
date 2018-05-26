@@ -1,7 +1,12 @@
 ---
 title: User State Management API
 description: The User State Management provider exposes a management and reporting API for enterprise scenarios.
-ms.assetid: '4905f093-419c-4efb-ac3b-b97753c9eea0'
+ms.assetid: 4905f093-419c-4efb-ac3b-b97753c9eea0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User State Management API

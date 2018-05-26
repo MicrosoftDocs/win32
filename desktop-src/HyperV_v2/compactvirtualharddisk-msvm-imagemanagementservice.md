@@ -1,7 +1,12 @@
 ---
-Description: 'Compacts a virtual hard disk file.'
-ms.assetid: '1E64BD91-6FE6-4658-9EBF-615FC705B920'
-title: 'CompactVirtualHardDisk method of the Msvm\_ImageManagementService class'
+Description: Compacts a virtual hard disk file.
+ms.assetid: 1E64BD91-6FE6-4658-9EBF-615FC705B920
+title: CompactVirtualHardDisk method of the Msvm\_ImageManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CompactVirtualHardDisk method of the Msvm\_ImageManagementService class
@@ -13,9 +18,9 @@ Compacts a virtual hard disk file. Compacting is the process of freeing unused p
 
 ```mof
 uint32 CompactVirtualHardDisk(
-  [in]  string              Path,
-  [in]  uint16              Mode,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              Path,
+  [in]  uint16              Mode,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -203,8 +208,8 @@ public static void CompactVirtualHardDisk(string vhdPath, VirtualHardDiskCompact
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -221,9 +226,9 @@ public static void CompactVirtualHardDisk(string vhdPath, VirtualHardDiskCompact
 [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

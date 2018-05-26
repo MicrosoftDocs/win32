@@ -1,7 +1,12 @@
 ---
-Description: 'The Set method signals the event.'
-ms.assetid: 'dfcb1601-aa65-47f5-ae3c-f13fcd7b1398'
-title: 'CAMEvent.Set method'
+Description: The Set method signals the event.
+ms.assetid: dfcb1601-aa65-47f5-ae3c-f13fcd7b1398
+title: CAMEvent.Set method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMEvent.Set method
@@ -50,9 +55,9 @@ The behavior depends on whether the object is an auto-reset event or a manual-re
 [**CAMEvent Class**](camevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

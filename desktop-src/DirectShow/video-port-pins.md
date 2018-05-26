@@ -1,7 +1,12 @@
 ---
 Description: Video Port Pins
-ms.assetid: 'a6be24e5-7937-48f1-abeb-3f29c3deeafd'
+ms.assetid: a6be24e5-7937-48f1-abeb-3f29c3deeafd
 title: Video Port Pins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Port Pins
@@ -18,11 +23,11 @@ The different DirectShow video renderers provide varying support for VP pins:
 
 For video port scenarios, the Overlay Mixer and Video Renderer are recommended over the Video Port Manager and VMR-7, because not all drivers support the Video Port Manager. In general, the Overlay Mixer is the most reliable option for video ports.
 
-The [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method automatically inserts the Overlay Mixer if there is a VP pin. If you are building the graph without using this method, you should check for a video port pin on the capture filter, and if one is present, connect it to the Overlay Mixer filter, as shown in the following diagram.
+The [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method automatically inserts the Overlay Mixer if there is a VP pin. If you are building the graph without using this method, you should check for a video port pin on the capture filter, and if one is present, connect it to the Overlay Mixer filter, as shown in the following diagram.
 
 ![connecting a video port pin to the overlay mixer filter.](images/vidcap11.png)
 
-You can use the [**ICaptureGraphBuilder2::FindPin**](icapturegraphbuilder2-findpin.md) method to search for a VP pin on the capture filter:
+You can use the [**ICaptureGraphBuilder2::FindPin**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-findpin?branch=master) method to search for a VP pin on the capture filter:
 
 
 ```C++
@@ -48,7 +53,7 @@ pBuild->FindPin(pOvMix, PINDIR_INPUT, NULL, NULL, TRUE, 0, &amp;pOVPin);
 
 
 
-Connect the two pins by calling [**IGraphBuilder::Connect**](igraphbuilder-connect.md).
+Connect the two pins by calling [**IGraphBuilder::Connect**](/windows/win32/Strmif/nf-strmif-igraphbuilder-connect?branch=master).
 
 
 ```C++
@@ -57,7 +62,7 @@ pGraph->Connect(pVPPin, pOvPin);
 
 
 
-Then connect the Overlay Mixer's output pin to the Video Renderer filter. You can hide the video by calling the [**IVideoWindow::put\_AutoShow**](ivideowindow-put-autoshow.md) and [**IVideoWindow::put\_Visible**](ivideowindow-put-visible.md) methods on the Filter Graph Manager.
+Then connect the Overlay Mixer's output pin to the Video Renderer filter. You can hide the video by calling the [**IVideoWindow::put\_AutoShow**](/windows/win32/Control/nf-control-ivideowindow-put_autoshow?branch=master) and [**IVideoWindow::put\_Visible**](/windows/win32/Control/nf-control-ivideowindow-put_visible?branch=master) methods on the Filter Graph Manager.
 
 For TV tuners, the capture filter might also have a video port VBI pin (PIN\_CATEGORY\_VIDEOPORT\_VBI). If so, connect that pin to the [VBI Surface Allocator](vbi-surface-allocator.md) filter. For more information, see [Viewing Closed Captions](viewing-closed-captions.md).
 

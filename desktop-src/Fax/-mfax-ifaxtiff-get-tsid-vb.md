@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Tsid property for a FaxTiff object. The Tsid property is a null-terminated string that contains transmitting station identifier (TSID) information, which is typically the fax number of the device that sent the specified fax file.'
-ms.assetid: 'e44d9004-e409-4e2b-b356-d6e0413a1881'
-title: 'FaxTiff.Tsid property'
+---
+Description: Retrieves the Tsid property for a FaxTiff object. The Tsid property is a null-terminated string that contains transmitting station identifier (TSID) information, which is typically the fax number of the device that sent the specified fax file.
+ms.assetid: e44d9004-e409-4e2b-b356-d6e0413a1881
+title: FaxTiff.Tsid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.Tsid property
@@ -59,7 +64,7 @@ The **get\_Tsid** method allocates the memory required for the buffer pointed to
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.'
-title: 'DFM\_WM\_INITMENUPOPUP message'
+---
+Description: Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
+title: DFM\_WM\_INITMENUPOPUP message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DFM\_WM\_INITMENUPOPUP message

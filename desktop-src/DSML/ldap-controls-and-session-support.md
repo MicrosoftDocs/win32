@@ -4,11 +4,15 @@ description: A DSML session is typically used to support LDAP controls and exten
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e36fadda-879b-45bc-afc5-1b8b1878726e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e36fadda-879b-45bc-afc5-1b8b1878726e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["LDAP Controls and Session Support DSML"]
+keywords:
+- LDAP Controls and Session Support DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP Controls and Session Support

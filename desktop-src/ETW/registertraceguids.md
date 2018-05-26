@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.'
-ms.assetid: 'c9158292-281b-4a02-b280-956e340d225c'
+---
+Description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.
+ms.assetid: c9158292-281b-4a02-b280-956e340d225c
 title: RegisterTraceGuids function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegisterTraceGuids function
@@ -144,7 +149,7 @@ Providers call this function.
 
 If the provider's *ControlGuid* has been previously registered and enabled, subsequent registrations that reference the same *ControlGuid* are automatically enabled.
 
-A process can register up to 1,024 provider GUIDs; however, you should limit the number of providers that your process registers to one or two. This limit includes those registered using this function and the [**EventRegister**](eventregister-func.md) function.
+A process can register up to 1,024 provider GUIDs; however, you should limit the number of providers that your process registers to one or two. This limit includes those registered using this function and the [**EventRegister**](/windows/win32/Evntprov/nf-evntprov-eventregister?branch=master) function.
 
 **Prior to Windows Vista:** There is no limit to the number of providers that a process can register.
 

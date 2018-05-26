@@ -1,7 +1,12 @@
 ---
 title: MaxPendingDocuments
 description: MaxPendingDocuments
-ms.assetid: '59a2388f-3850-4962-9305-97f3f371b79e'
+ms.assetid: 59a2388f-3850-4962-9305-97f3f371b79e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxPendingDocuments

@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_LOCALIZED\_INFO structure
 description: Localized information for a threat.
-ms.assetid: '99DC9737-9A61-4407-B544-A7A979C5B556'
-keywords: ["MPTHREAT_LOCALIZED_INFO structure Legacy Windows Environment Features", "PMPTHREAT_LOCALIZED_INFO structure pointer Legacy Windows Environment Features"]
+ms.assetid: 99DC9737-9A61-4407-B544-A7A979C5B556
+keywords:
+- MPTHREAT_LOCALIZED_INFO structure Legacy Windows Environment Features
+- PMPTHREAT_LOCALIZED_INFO structure pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_LOCALIZED\_INFO structure
@@ -22,7 +29,7 @@ Localized information for a threat.
 
 ```C++
 typedef struct tagMPTHREAT_LOCALIZED_INFO {
-  MPTHREAT_ID           ThreatID;
+  MPTHREAT_ID           ThreatID;
   MP_MIDL_STRING LPWSTR CategoryName;
   MP_MIDL_STRING LPWSTR CategoryDescription;
   MP_MIDL_STRING LPWSTR SeverityName;
@@ -145,15 +152,15 @@ A URL to a webpage containing information about the threat.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

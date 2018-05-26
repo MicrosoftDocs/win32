@@ -1,7 +1,12 @@
 ---
-Description: 'Enforcing Activation in the Caller's Context'
-ms.assetid: 'bb228f39-0e04-497a-8404-18f7bc027bea'
-title: 'Enforcing Activation in the Caller's Context'
+Description: Enforcing Activation in the Callers Context
+ms.assetid: bb228f39-0e04-497a-8404-18f7bc027bea
+title: Enforcing Activation in the Callers Context
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enforcing Activation in the Caller's Context

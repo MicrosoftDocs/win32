@@ -1,7 +1,12 @@
 ---
-Description: 'Contains data that describes an expert when it starts.'
-ms.assetid: '9ecd5395-d10c-411b-a6bd-fbac724d8603'
+Description: Contains data that describes an expert when it starts.
+ms.assetid: 9ecd5395-d10c-411b-a6bd-fbac724d8603
 title: EXPERTSTARTUPINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXPERTSTARTUPINFO structure
@@ -13,16 +18,16 @@ The **EXPERTSTARTUPINFO** structure contains data that describes an expert when 
 
 ```C++
 typedef struct _EXPERTSTARTUPINFO {
-  DWORD          Flags;
-  HCAPTURE       hCapture;
-  char           szCaptureFile[MAX_PATH];
-  DWORD          dwFrameNumber;
-  HPROTOCOL      hProtocol;
+  DWORD          Flags;
+  HCAPTURE       hCapture;
+  char           szCaptureFile[MAX_PATH];
+  DWORD          dwFrameNumber;
+  HPROTOCOL      hProtocol;
   LPPROPERTYINST lpPropertyInst;
   struct {
     BYTE BitNumber;
     BOOL bOn;
-  } sBitfield;
+  } sBitfield;
 } EXPERTSTARTUPINFO, *PEXPERTSTARTUPINFO;
 ```
 
@@ -97,15 +102,15 @@ Used only if the **DataQualifier** member of the [**PROPERTYINST**](propertyinst
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Searches for the specified executable.'
-ms.assetid: '32c6b054-7e47-4427-bdfe-6b5066db4ac3'
+---
+Description: Searches for the specified executable.
+ms.assetid: 32c6b054-7e47-4427-bdfe-6b5066db4ac3
 title: SdbGetMatchingExe function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbGetMatchingExe function

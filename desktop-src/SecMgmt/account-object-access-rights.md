@@ -1,7 +1,12 @@
 ---
-Description: 'The Account Object Access Rights type has the following access types.'
-ms.assetid: '42fb22bb-8135-4a8f-bce6-e767d6c5aaea'
+Description: The Account Object Access Rights type has the following access types.
+ms.assetid: 42fb22bb-8135-4a8f-bce6-e767d6c5aaea
 title: Account Object Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Account Object Access Rights

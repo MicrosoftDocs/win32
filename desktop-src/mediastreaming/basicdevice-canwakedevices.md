@@ -1,14 +1,22 @@
 ---
 title: BasicDevice.CanWakeDevices property
 description: Gets a value that indicates if the device can wake.
-ms.assetid: '0BF0B2CD-E09E-4A0B-9D48-A980CBFE4233'
-keywords: ["CanWakeDevices property Media Streaming API", "CanWakeDevices property Media Streaming API , BasicDevice interface", "BasicDevice interface Media Streaming API , CanWakeDevices property"]
+ms.assetid: 0BF0B2CD-E09E-4A0B-9D48-A980CBFE4233
+keywords:
+- CanWakeDevices property Media Streaming API
+- CanWakeDevices property Media Streaming API , BasicDevice interface
+- BasicDevice interface Media Streaming API , CanWakeDevices property
 topic_type:
 - apiref
 api_name:
 - BasicDevice.CanWakeDevices
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BasicDevice.CanWakeDevices property

@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a PnP device property of type boolean.'
+---
+Description: Represents a PnP device property of type boolean.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '19681413-712C-4A09-9BEF-8CFEC5D81801'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 19681413-712C-4A09-9BEF-8CFEC5D81801
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PnPDevicePropertyBoolean class'
+title: Win32\_PnPDevicePropertyBoolean class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PnPDevicePropertyBoolean class

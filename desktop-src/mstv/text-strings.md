@@ -1,7 +1,12 @@
 ---
 title: Text Strings
 description: Text Strings
-ms.assetid: 'fe5e972b-7a82-4131-ab22-840272be1dba'
+ms.assetid: fe5e972b-7a82-4131-ab22-840272be1dba
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Strings

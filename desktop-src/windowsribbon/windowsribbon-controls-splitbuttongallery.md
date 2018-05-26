@@ -1,7 +1,12 @@
 ---
 title: Split Button Gallery
 description: The Split Button Gallery is a composite control that contains a primary button which exposes a single default item or Command, and a secondary button which when clicked displays the rest of the item or Command collection in a mutually exclusive drop-down list.
-ms.assetid: 'c0fcfe72-d2e9-465d-941a-b3832b36b8c2'
+ms.assetid: c0fcfe72-d2e9-465d-941a-b3832b36b8c2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Split Button Gallery
@@ -31,7 +36,7 @@ The [**IUICommandHandler::UpdateProperty**](https://msdn.microsoft.com/library/w
 > [!Note]  
 > In some cases, a property can be retrieved through the [**IUIFramework::GetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371370) method and set with the [**IUIFramework::SetUICommandProperty**](https://msdn.microsoft.com/library/windows/desktop/dd371478) method.
 
- 
+ 
 
 The following table lists the property keys that are associated with the Split Button Gallery control.
 
@@ -111,7 +116,7 @@ If the Command associated with the control is invalidated through a call to [<st
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -126,9 +131,9 @@ If the Command associated with the control is invalidated through a call to [<st
 [Gallery Sample](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

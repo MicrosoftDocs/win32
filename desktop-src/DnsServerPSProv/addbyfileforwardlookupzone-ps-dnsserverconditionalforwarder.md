@@ -2,13 +2,16 @@
 title: AddByFileForwardLookupZone method of the PS\_DnsServerConditionalForwarder class
 description: Adds a DNS conditional forwarder zone.
 audience: developer
-ms.assetid: 'd1c70915-3f4e-43a1-ba86-7609b2615a4d'
-ms.prod: 'windows-server-dev'
+ms.assetid: d1c70915-3f4e-43a1-ba86-7609b2615a4d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByFileForwardLookupZone method", "AddByFileForwardLookupZone method, PS_DnsServerConditionalForwarder class", "PS_DnsServerConditionalForwarder class, AddByFileForwardLookupZone method"]
+keywords:
+- AddByFileForwardLookupZone method
+- AddByFileForwardLookupZone method, PS_DnsServerConditionalForwarder class
+- PS_DnsServerConditionalForwarder class, AddByFileForwardLookupZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByFileForwardLookupZone method of the PS\_DnsServerConditionalForwarder class
@@ -28,14 +34,14 @@ Adds a DNS conditional forwarder zone.
 
 ```mof
 uint32 AddByFileForwardLookupZone(
-  [in]  boolean                           LoadExisting,
-  [in]  string                            MasterServers[],
-  [in]  string                            ComputerName,
-  [in]  boolean                           UseRecursion,
-  [in]  string                            Name,
-  [in]  uint32                            ForwarderTimeout,
-  [in]  boolean                           PassThru,
-  [out] DnsServerConditionalForwarderZone cmdletOutput
+  [in]  boolean                           LoadExisting,
+  [in]  string                            MasterServers[],
+  [in]  string                            ComputerName,
+  [in]  boolean                           UseRecursion,
+  [in]  string                            Name,
+  [in]  uint32                            ForwarderTimeout,
+  [in]  boolean                           PassThru,
+  [out] DnsServerConditionalForwarderZone cmdletOutput
 );
 ```
 
@@ -108,7 +114,7 @@ Receives an embedded instance of the [**DnsServerConditionalForwarder**](dnsserv
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -122,9 +128,9 @@ Receives an embedded instance of the [**DnsServerConditionalForwarder**](dnsserv
 [**PS\_DnsServerConditionalForwarder**](ps-dnsserverconditionalforwarder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

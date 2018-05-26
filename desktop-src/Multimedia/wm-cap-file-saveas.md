@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_FILE\_SAVEAS message
 description: The WM\_CAP\_FILE\_SAVEAS message copies the contents of the capture file to another file. You can send this message explicitly or by using the capFileSaveAs macro.
-ms.assetid: 'fab37bee-3160-4ebc-b58f-46021ed49b55'
-keywords: ["WM_CAP_FILE_SAVEAS message Windows Multimedia"]
+ms.assetid: fab37bee-3160-4ebc-b58f-46021ed49b55
+keywords:
+- WM_CAP_FILE_SAVEAS message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_FILE\_SAVEAS message
 
-The **WM\_CAP\_FILE\_SAVEAS** message copies the contents of the capture file to another file. You can send this message explicitly or by using the [**capFileSaveAs**](capfilesaveas.md) macro.
+The **WM\_CAP\_FILE\_SAVEAS** message copies the contents of the capture file to another file. You can send this message explicitly or by using the [**capFileSaveAs**](/windows/win32/Vfw/nf-vfw-capfilesaveas?branch=master) macro.
 
 
 ```C++
@@ -57,8 +63,8 @@ Typically, a capture file is preallocated for the largest capture segment antici
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -73,9 +79,9 @@ Typically, a capture file is preallocated for the largest capture segment antici
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

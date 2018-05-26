@@ -1,8 +1,11 @@
 ---
 title: IVMHostInfo NetworkAddresses property
 description: Retrieves an enumerable collection of TCP/IP addresses in the host machine.
-ms.assetid: '94716b82-8f35-4702-873d-64507d879dc3'
-keywords: ["NetworkAddresses property Virtual PC", "NetworkAddresses property Virtual PC , IVMHostInfo interface", "IVMHostInfo interface Virtual PC , NetworkAddresses property"]
+ms.assetid: 94716b82-8f35-4702-873d-64507d879dc3
+keywords:
+- NetworkAddresses property Virtual PC
+- NetworkAddresses property Virtual PC , IVMHostInfo interface
+- IVMHostInfo interface Virtual PC , NetworkAddresses property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::NetworkAddresses property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves an enumerable collection of TCP/IP addresses in the host machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_NetworkAddresses(
-  [out, retval] VARIANT *hostAddresses
+  [out, retval] VARIANT *hostAddresses
 );
 ```
 
@@ -55,9 +63,9 @@ An array of TCP/IP addresses, in dotted-decimal notation.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHostInfo is defined as 5b5cf343-05ad-453b-be99-adf4e27b2ebc<br/>                |
@@ -71,9 +79,9 @@ An array of TCP/IP addresses, in dotted-decimal notation.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

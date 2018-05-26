@@ -1,7 +1,12 @@
 ---
 title: MS-CHAP Password Management API
 description: The MS-CHAP Password Management API makes it possible to use MS-CHAP to change user passwords. Windows programmers can use this API to create applications to change the passwords of networked users on remote workstations.
-ms.assetid: '9b518c87-ca54-483f-a2ed-2a5aad9d5586'
+ms.assetid: 9b518c87-ca54-483f-a2ed-2a5aad9d5586
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MS-CHAP Password Management API
@@ -20,7 +25,7 @@ The MS-CHAP Password Management API was created for use by C/C++ programmers. Fa
 
 ## Run-time requirements
 
-The MS-CHAP Password Management API requires a server running Windows Server 2003 or Windows Server 2008. For more specific information about which operating systems support a particular programming element, refer to the Requirements sections in the documentation.
+The MS-CHAP Password Management API requires a server running Windows Server 2003 or Windows Server 2008. For more specific information about which operating systems support a particular programming element, refer to the Requirements sections in the documentation.
 
 ## In this section
 
@@ -33,7 +38,7 @@ The MS-CHAP Password Management API requires a server running Windows Server 200
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +50,9 @@ The MS-CHAP Password Management API requires a server running Windows Server 200
 [Microsoft Challenge Handshake Authentication Protocol (MS-CHAP v1, v2)](Http://go.microsoft.com/fwlink/p/?linkid=83916)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

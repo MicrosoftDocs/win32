@@ -4,11 +4,15 @@ description: This topic includes a code example used to set and remove SACL and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1982ee9a-022a-4e5d-be9c-fab8894afa9e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1982ee9a-022a-4e5d-be9c-fab8894afa9e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , setting and removing SACL protection"]
+keywords:
+- Active Directory examples Active Directory , setting and removing SACL protection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Setting and Removing SACL and DACL Protection

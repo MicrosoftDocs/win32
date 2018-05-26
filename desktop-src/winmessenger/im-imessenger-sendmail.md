@@ -1,8 +1,11 @@
 ---
 title: IMessenger SendMail method
-description: Launches a new message in the client's default e-mail application with the To line prepopulated with the sign-in name of the specified contact.
-ms.assetid: 'd18427a6-152d-4eb6-81f8-ef5c7e36fc4a'
-keywords: ["SendMail method Windows Messenger", "SendMail method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , SendMail method"]
+description: Launches a new message in the clients default e-mail application with the To line prepopulated with the sign-in name of the specified contact.
+ms.assetid: d18427a6-152d-4eb6-81f8-ef5c7e36fc4a
+keywords:
+- SendMail method Windows Messenger
+- SendMail method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , SendMail method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::SendMail method
 
-\[**SendMail** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**SendMail** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches a new message in the client's default e-mail application with the To: line prepopulated with the sign-in name of the specified contact.
 
@@ -24,7 +32,7 @@ Launches a new message in the client's default e-mail application with the To: l
 
 ```C++
 HRESULT SendMail(
-  [in] VARIANT vContact
+  [in] VARIANT vContact
 );
 ```
 
@@ -61,15 +69,15 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
-When this method is invoked on a Microsoft Exchange Instant Messaging Service (IM) client, Exchange through Microsoft Outlook will always be invoked as the mail client. Calling this method will launch or focus the 32-bit Outlook application with a new message to the specified contact.
+When this method is invoked on a Microsoft Exchange Instant Messaging Service (IM) client, Exchange through Microsoft Outlook will always be invoked as the mail client. Calling this method will launch or focus the 32-bit Outlook application with a new message to the specified contact.
 
 At sign-in, the Messenger client internally flags whether the Microsoft .NET Messenger Service user has an Outlook.com Inbox. If so, a browser instance will be opened to the Outlook.com compose page, prefilled with the e-mail or sign-in name of the desired contact. If the user does not have an Outlook.com Inbox, then a default mailto: is thrown to the operating system, which opens the mail client registered to handle this protocol in the Windows Internet Explorer browser. In this case, most clients will allow the target e-mail name to be passed as part of a mailto: call and the To: line to be prefilled per the *vContact* parameter. This behavior is identical to the **Send Mail** menu option in the client UI.
 
-In addition to dependencies on the service used by the local client user, there are also issues with the service of the contact to whom the mail is sent (for example, if *vContact* is a [**MessengerContact**](im-messengercontact.md) object in a service other than Microsoft .NET Messenger Service and Exchange IM). Not all services will always have an e-mail address accessible. Services might produce **MessengerContact** objects where there is no available e-mail address or no Messenger implementation for storing the e-mail address as a separate property from the sign-in name.
+In addition to dependencies on the service used by the local client user, there are also issues with the service of the contact to whom the mail is sent (for example, if *vContact* is a [**MessengerContact**](im-messengercontact.md) object in a service other than Microsoft .NET Messenger Service and Exchange IM). Not all services will always have an e-mail address accessible. Services might produce **MessengerContact** objects where there is no available e-mail address or no Messenger implementation for storing the e-mail address as a separate property from the sign-in name.
 
 To use this method with Windows Messenger, you must install an add-in component that supports e-mail integration.
 
@@ -82,7 +90,7 @@ Users of Microsoft Outlook.com always have an e-mail account associated with the
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -90,8 +98,8 @@ Users of Microsoft Outlook.com always have an e-mail account associated with the
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -105,9 +113,9 @@ Users of Microsoft Outlook.com always have an e-mail account associated with the
 [**IMessenger**](im-imessenger.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

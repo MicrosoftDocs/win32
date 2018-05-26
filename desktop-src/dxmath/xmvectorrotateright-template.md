@@ -1,7 +1,12 @@
-﻿---
-Description: 'Rotates the vector right by a given number of 32-bit elements.'
-ms.assetid: '7493c1fe-2c3d-4eb6-bec1-02c066a70b9f'
+---
+Description: Rotates the vector right by a given number of 32-bit elements.
+ms.assetid: 7493c1fe-2c3d-4eb6-bec1-02c066a70b9f
 title: XMVectorRotateRight template
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMVectorRotateRight template

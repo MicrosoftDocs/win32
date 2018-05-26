@@ -1,8 +1,20 @@
 ---
 title: Primary Images
 description: Primary Images
-ms.assetid: '6f8e4b33-c84f-4404-82a5-2f1eabe323d4'
-keywords: ["Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,primary images", "Windows Media Player skins,primary images", "skins,primary images", "primary images in skins"]
+ms.assetid: 6f8e4b33-c84f-4404-82a5-2f1eabe323d4
+keywords:
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,primary images
+- Windows Media Player skins,primary images
+- skins,primary images
+- primary images in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Primary Images

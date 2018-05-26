@@ -1,14 +1,20 @@
 ---
 title: FlagName (DebugDataType) Element
 description: The flag value passed to the provider when it was enabled.
-ms.assetid: 'c47962e4-3aa4-42e6-ad62-47f94a89cf26'
-keywords: ["FlagName element EventLog"]
+ms.assetid: c47962e4-3aa4-42e6-ad62-47f94a89cf26
+keywords:
+- FlagName element EventLog
 topic_type:
 - apiref
 api_name:
 - FlagName
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FlagName (DebugDataType) Element
@@ -29,8 +35,8 @@ The **FlagName** element is defined by the [**DebugDataType**](eventschema-debug
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **FlagName** element is defined by the [**DebugDataType**](eventschema-debug
 [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

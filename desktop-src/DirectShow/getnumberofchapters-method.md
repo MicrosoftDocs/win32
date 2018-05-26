@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNumberOfChapters method retrieves the number of chapters in the specified title.'
-ms.assetid: 'd1291f6d-9296-486f-adad-d8819a4e54d6'
+Description: The GetNumberOfChapters method retrieves the number of chapters in the specified title.
+ms.assetid: d1291f6d-9296-486f-adad-d8819a4e54d6
 title: GetNumberOfChapters Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNumberOfChapters Method

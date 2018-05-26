@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when an IME is about to close the candidates window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.'
-ms.assetid: 'd96cea0a-1fc4-4ba7-bb96-7e9c0b67ce5b'
-title: 'IMN\_CLOSECANDIDATE notification code'
+---
+Description: Notifies an application when an IME is about to close the candidates window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+ms.assetid: d96cea0a-1fc4-4ba7-bb96-7e9c0b67ce5b
+title: IMN\_CLOSECANDIDATE notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMN\_CLOSECANDIDATE notification code

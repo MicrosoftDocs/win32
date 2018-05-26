@@ -1,8 +1,9 @@
 ---
 title: AnalyzeResultsFlags enumeration
 description: Flags that affect the execution of Engine AnalyzeResults.
-ms.assetid: '86A12457-4093-40CC-8351-BDCBFF5898A2'
-keywords: ["AnalyzeResultsFlags enumeration Access Execution Engine"]
+ms.assetid: 86A12457-4093-40CC-8351-BDCBFF5898A2
+keywords:
+- AnalyzeResultsFlags enumeration Access Execution Engine
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxeHosting.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AnalyzeResultsFlags enumeration
@@ -22,9 +28,9 @@ Flags that affect the execution of [**Engine::AnalyzeResults**](engine-analyzere
 
 ```C++
 enum AnalyzeResultsFlags {
-  None             = 0, 
-  ExecuteAsync     = 0x1 << 0 , 
-  PublishToSource  = 0x1 << 1  
+  None             = 0, 
+  ExecuteAsync     = 0x1 << 0 , 
+  PublishToSource  = 0x1 << 1  
 
 };
 ```
@@ -62,15 +68,15 @@ No flag set.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: CommonDialog.ShowTransfer method
 description: Displays a Progress dialog box while transferring the specified Item to the local computer.
-ms.assetid: 'cbc4d669-bb36-439b-9071-85cf112bb11d'
-keywords: ["ShowTransfer method WIA Automation", "ShowTransfer method WIA Automation , CommonDialog object", "CommonDialog object WIA Automation , ShowTransfer method"]
+ms.assetid: cbc4d669-bb36-439b-9071-85cf112bb11d
+keywords:
+- ShowTransfer method WIA Automation
+- ShowTransfer method WIA Automation , CommonDialog object
+- CommonDialog object WIA Automation , ShowTransfer method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommonDialog.ShowTransfer method
@@ -58,7 +66,7 @@ Type: **BSTR**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -78,7 +86,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -100,8 +108,8 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -147,9 +155,9 @@ For example code, see [Download New Items as They are Created](-wiaaut-shared-sa
 [**Item (Items)**](-wiaaut-iitems-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

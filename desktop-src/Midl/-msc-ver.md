@@ -2,13 +2,19 @@
 title: /msc\_ver switch
 description: The /msc\_ver switch is used to allow MIDL to generate code that includes optimizations for different versions of Microsoft C/C++ compilers.
 ms.assetid: cdcb8f3e-e791-44c2-8bea-e77f94cc1682
-keywords: ["/msc_ver switch MIDL"]
+keywords:
+- /msc_ver switch MIDL
 topic_type:
 - apiref
 api_name:
 - /msc_ver
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /msc\_ver switch

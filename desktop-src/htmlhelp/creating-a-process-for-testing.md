@@ -1,7 +1,12 @@
 ---
 title: Creating a Process for Testing
 description: This is the process used by the HTML Help team to test and debug help files.
-ms.assetid: '94DA1C55-DD68-44da-A6EE-E6749F6C84D8'
+ms.assetid: 94DA1C55-DD68-44da-A6EE-E6749F6C84D8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Process for Testing

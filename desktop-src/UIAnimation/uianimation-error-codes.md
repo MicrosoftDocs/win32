@@ -1,7 +1,7 @@
 ---
 title: Windows Animation Error Codes
 description: If an error occurs, Windows Animation returns a code as an HRESULT value. This section provides a list of error codes specific to Windows Animation. For a list of general COM error codes, see COM Error Codes.
-ms.assetid: '38f15d61-d415-4c7d-b454-5144fc7c9b1e'
+ms.assetid: 38f15d61-d415-4c7d-b454-5144fc7c9b1e
 topic_type:
 - apiref
 api_name:
@@ -31,6 +31,11 @@ api_location:
 - winerror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Animation Error Codes
@@ -60,12 +65,12 @@ The object could not be created.
 
 
 
-The [**Shutdown**](iuianimationmanager-shutdown.md) method has been called on the animation manager, causing the animation manager to shut down and all the animation variables and storyboards it created to be released.
+The [**Shutdown**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-shutdown?branch=master) method has been called on the animation manager, causing the animation manager to shut down and all the animation variables and storyboards it created to be released.
 
 > [!Note]  
-> No methods can be called on any animation object after [**Shutdown**](iuianimationmanager-shutdown.md).
+> No methods can be called on any animation object after [**Shutdown**](/windows/win32/UIAnimation/nf-uianimation-iuianimationmanager-shutdown?branch=master).
 
- 
+ 
 
 
 </dt> </dl> </dd> <dt>
@@ -336,7 +341,7 @@ This client is already connected to a timer.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista and Platform Update for Windows Vista \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7, Windows Vista and Platform Update for Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                       |
 | Header<br/>                   | <dl> <dt>Winerror.h</dt> </dl>           |
 
@@ -349,9 +354,9 @@ This client is already connected to a timer.
 [Windows Animation Reference](windows-animation-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

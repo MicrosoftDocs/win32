@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information from the certificate.'
-ms.assetid: '57f1c6f9-f06d-4ac7-9070-2a2e6afe93d2'
-title: 'ICertificate2::GetInfo method'
+---
+Description: Retrieves information from the certificate.
+ms.assetid: 57f1c6f9-f06d-4ac7-9070-2a2e6afe93d2
+title: ICertificate2GetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICertificate2::GetInfo method

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The event type class for the TraceContextWrite event.TraceContext Write Trace.'
+---
+Description: The event type class for the TraceContextWrite event.TraceContext Write Trace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2766a937-110e-477e-b4b4-ddfebcbf0ea5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2766a937-110e-477e-b4b4-ddfebcbf0ea5
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: AspNetPageTraceWriteEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AspNetPageTraceWriteEvent class

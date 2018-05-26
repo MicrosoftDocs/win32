@@ -1,8 +1,14 @@
 ---
 title: Structured Storage Reference
 description: This section provides reference material for the programming elements of Structured Storage.
-ms.assetid: 'ecdc8e7c-8d7e-484b-bec8-200fec49fb2d'
-keywords: ["Structured Storage Strctd Stg , reference"]
+ms.assetid: ecdc8e7c-8d7e-484b-bec8-200fec49fb2d
+keywords:
+- Structured Storage Strctd Stg , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Structured Storage Reference

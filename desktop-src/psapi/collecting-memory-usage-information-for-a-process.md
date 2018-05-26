@@ -1,12 +1,17 @@
 ---
 title: Collecting Memory Usage Information For a Process
 description: To determine the efficiency of your application, you may want to examine its memory usage. The following sample code uses the GetProcessMemoryInfo function to obtain information about the memory usage of a process.
-ms.assetid: '23641bf8-3653-4cb9-8008-cd99137ca268'
+ms.assetid: 23641bf8-3653-4cb9-8008-cd99137ca268
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collecting Memory Usage Information For a Process
 
-To determine the efficiency of your application, you may want to examine its memory usage. The following sample code uses the [**GetProcessMemoryInfo**](getprocessmemoryinfo.md) function to obtain information about the memory usage of a process.
+To determine the efficiency of your application, you may want to examine its memory usage. The following sample code uses the [**GetProcessMemoryInfo**](/windows/win32/Psapi/nf-psapi-getprocessmemoryinfo?branch=master) function to obtain information about the memory usage of a process.
 
 
 ```C++
@@ -85,7 +90,7 @@ int main( void )
 
 
 
-The main function obtains a list of processes by using the [**EnumProcesses**](enumprocesses.md) function. For each process, main calls the PrintMemoryInfo function, passing the process identifier. PrintMemoryInfo in turn calls the [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) function to obtain the process handle. If **OpenProcess** fails, the output shows only the process identifier. For example, **OpenProcess** fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them. Finally, PrintMemoryInfo calls the [**GetProcessMemoryInfo**](getprocessmemoryinfo.md) function to obtain the memory usage information.
+The main function obtains a list of processes by using the [**EnumProcesses**](/windows/win32/Psapi/nf-psapi-enumprocesses?branch=master) function. For each process, main calls the PrintMemoryInfo function, passing the process identifier. PrintMemoryInfo in turn calls the [**OpenProcess**](https://msdn.microsoft.com/library/windows/desktop/ms684320) function to obtain the process handle. If **OpenProcess** fails, the output shows only the process identifier. For example, **OpenProcess** fails for the Idle and CSRSS processes because their access restrictions prevent user-level code from opening them. Finally, PrintMemoryInfo calls the [**GetProcessMemoryInfo**](/windows/win32/Psapi/nf-psapi-getprocessmemoryinfo?branch=master) function to obtain the memory usage information.
 
  
 

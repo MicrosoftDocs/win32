@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a main mode rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.'
-ms.assetid: '1bfef69c-2a5c-46f0-955a-8243fd61bbe4'
-title: 'MSFT\_NetMainModeRuleFilters class'
+Description: Associates a main mode rule with its filters. Instances of this class can be traversed and the values in the associated filters can be modified, but instances of this class may not be created or deleted.
+ms.assetid: 1bfef69c-2a5c-46f0-955a-8243fd61bbe4
+title: MSFT\_NetMainModeRuleFilters class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetMainModeRuleFilters class
@@ -53,17 +58,17 @@ The main mode rule being filtered.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

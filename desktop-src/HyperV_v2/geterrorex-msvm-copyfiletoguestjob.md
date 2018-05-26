@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the error objects for the job, if any exist.'
-ms.assetid: '817AF83B-B601-4AE4-AB5B-CFEACB9A7F41'
-title: 'Msvm\_CopyFileToGuestJob::GetErrorEx method'
+Description: Retrieves the error objects for the job, if any exist.
+ms.assetid: 817AF83B-B601-4AE4-AB5B-CFEACB9A7F41
+title: Msvm\_CopyFileToGuestJobGetErrorEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CopyFileToGuestJob::GetErrorEx method
@@ -13,7 +18,7 @@ Retrieves the error objects for the job, if any exist. When the job is executing
 
 ```C++
 uint32 GetErrorEx(
-  [out] string Errors[]
+  [out] string Errors[]
 );
 ```
 
@@ -78,8 +83,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | \\\\Root\\Virtualization\\V2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ This method returns one of the following values.
 [**Msvm\_CopyFileToGuestJob**](msvm-copyfiletoguestjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

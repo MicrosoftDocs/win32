@@ -4,17 +4,22 @@ description: Contains the backward link for the ms-DFSR-ComputerReference attrib
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '586b5d6a-86ff-4dac-905d-59928674a505'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 586b5d6a-86ff-4dac-905d-59928674a505
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-ComputerReferenceBL attribute AD Schema", "msDFSR-ComputerReferenceBL attribute AD Schema"]
+keywords:
+- ms-DFSR-ComputerReferenceBL attribute AD Schema
+- msDFSR-ComputerReferenceBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-ComputerReferenceBL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-ComputerReferenceBL attribute
@@ -38,10 +43,10 @@ Contains the backward link for the [**ms-DFSR-ComputerReference**](a-msdfsr-comp
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the backward link for the [**ms-DFSR-ComputerReference**](a-msdfsr-comp
 
 The **ms-DFSR-ComputerReferenceBL** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

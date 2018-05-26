@@ -4,10 +4,13 @@ description: All ADSI-specific errors have a hexadecimal form of 80005xxx. The m
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fdee4f0a-b39e-4011-af4f-9fe408f6ca6c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: fdee4f0a-b39e-4011-af4f-9fe408f6ca6c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Common Errors
@@ -24,7 +27,7 @@ All ADSI-specific errors have a hexadecimal form of 80005xxx. The most common er
 
 
 
- 
+ 
 
 For a complete list of ADSI error codes, see [Generic ADSI Error Codes](generic-adsi-error-codes.md).
 
@@ -41,21 +44,21 @@ Since ADSI is composed of COM objects, it will return standard COM error codes. 
 
 
 
- 
+ 
 
 See [Generic COM Error Codes](generic-com-error-codes.md) for a few more examples of COM errors that may occur in ADSI programming.
 
 ## Win32 Errors
 
-Any error code of the hexadecimal form 8007xxxx is a standard Win32 error code. If you convert the last four digits from hexadecimal to decimal, you can access the error from the Windows 2000 command line:
+Any error code of the hexadecimal form 8007xxxx is a standard Win32 error code. If you convert the last four digits from hexadecimal to decimal, you can access the error from the Windows 2000 command line:
 
 **net helpmsg &lt;number&gt;**
 
 In the command line above, "&lt;number&gt;" is the decimal number obtained by converting the last four digits of the error code from hexadecimal. This command line will provide a more useful description of the Win32 error, which can be of great help in debugging your script.
 
- 
+ 
 
- 
+ 
 
 
 

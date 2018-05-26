@@ -1,8 +1,11 @@
 ---
 title: DMessengerEvents OnMyStatusChange event
 description: Indicates that the status of the local client has changed or that a status change was attempted, and returns the current status of the local client.
-ms.assetid: 'f6137eae-7a80-4c6d-a312-934e77cf0628'
-keywords: ["OnMyStatusChange event Windows Messenger", "OnMyStatusChange event Windows Messenger , DMessengerEvents interface", "DMessengerEvents interface Windows Messenger , OnMyStatusChange event"]
+ms.assetid: f6137eae-7a80-4c6d-a312-934e77cf0628
+keywords:
+- OnMyStatusChange event Windows Messenger
+- OnMyStatusChange event Windows Messenger , DMessengerEvents interface
+- DMessengerEvents interface Windows Messenger , OnMyStatusChange event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerEvents::OnMyStatusChange event
 
-\[**OnMyStatusChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnMyStatusChange** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that the status of the local client has changed or that a status change was attempted, and returns the current status of the local client.
 
@@ -24,8 +32,8 @@ Indicates that the status of the local client has changed or that a status chang
 
 ```C++
 void OnMyStatusChange(
-  [in] LONG     hr,
-  [in] MISTATUS mMYStatusOE
+  [in] LONG     hr,
+  [in] MISTATUS mMYStatusOE
 );
 ```
 
@@ -56,7 +64,7 @@ Possible values are as follows:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,7 +93,7 @@ The new local state as a member of the [**MISTATUS**](im-mistatus.md) enumerated
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -114,7 +122,7 @@ if (MISTATUS_ONLINE  &amp;uStatus) { // pContact is online }
 > [!Note]  
 > This event is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -122,10 +130,10 @@ if (MISTATUS_ONLINE  &amp;uStatus) { // pContact is online }
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003<br/>                                                        |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003<br/>                                                        |
 | Product<br/>                  | Messenger 4.5<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msgrua.idl</dt> </dl> |
@@ -133,9 +141,9 @@ if (MISTATUS_ONLINE  &amp;uStatus) { // pContact is online }
 
 
 
- 
+ 
 
- 
+ 
 
 
 

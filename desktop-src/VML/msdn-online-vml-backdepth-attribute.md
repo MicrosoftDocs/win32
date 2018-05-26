@@ -1,7 +1,12 @@
 ---
 title: VML BackDepth Attribute
 description: VML BackDepth Attribute
-ms.assetid: 'afac0e39-1006-4d73-a4d9-7ed2484019a1'
+ms.assetid: afac0e39-1006-4d73-a4d9-7ed2484019a1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML BackDepth Attribute

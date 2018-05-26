@@ -1,20 +1,25 @@
 ---
-Description: 'This contains examples that use the VerifyVersionInfo function to determine whether the application is running on a specific operating system.'
-ms.assetid: 'f39c35ae-9be5-4a03-9079-6fcc63387f6b'
+Description: This contains examples that use the VerifyVersionInfo function to determine whether the application is running on a specific operating system.
+ms.assetid: f39c35ae-9be5-4a03-9079-6fcc63387f6b
 title: Verifying the System Version
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Verifying the System Version
 
-\[ Use of the [**VerifyVersionInfo**](verifyversioninfo.md) function to verify the currently running operating system is not recommended. Instead, use the [**Version Helper APIs**](version-helper-apis.md)\]
+\[ Use of the [**VerifyVersionInfo**](/windows/win32/Winbase/nf-winbase-verifyversioninfoa?branch=master) function to verify the currently running operating system is not recommended. Instead, use the [**Version Helper APIs**](version-helper-apis.md)\]
 
-This contains examples that use the [**VerifyVersionInfo**](verifyversioninfo.md) function to determine whether the application is running on a specific operating system.
+This contains examples that use the [**VerifyVersionInfo**](/windows/win32/Winbase/nf-winbase-verifyversioninfoa?branch=master) function to determine whether the application is running on a specific operating system.
 
 The main steps in each example are as follows:
 
-1.  Set the appropriate values in the [**OSVERSIONINFOEX**](osversioninfoex-str.md) structure.
-2.  Set the appropriate condition mask using the [**VER\_SET\_CONDITION**](ver-set-condition.md) macro.
-3.  Call [**VerifyVersionInfo**](verifyversioninfo.md) to perform the test.
+1.  Set the appropriate values in the [**OSVERSIONINFOEX**](/windows/win32/Winnt/ns-winnt-_osversioninfoexa?branch=master) structure.
+2.  Set the appropriate condition mask using the [**VER\_SET\_CONDITION**](/windows/win32/Winnt/nf-winnt-ver_set_condition?branch=master) macro.
+3.  Call [**VerifyVersionInfo**](/windows/win32/Winbase/nf-winbase-verifyversioninfoa?branch=master) to perform the test.
 
 ## Example 1
 

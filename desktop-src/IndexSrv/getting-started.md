@@ -1,15 +1,20 @@
 ---
 title: Getting Started
 description: Getting Started
-ms.assetid: '92c5bb27-f853-488d-8325-739a3403e37f'
+ms.assetid: 92c5bb27-f853-488d-8325-739a3403e37f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 To get started quickly, you can select the most appropriate category and follow the suggestions in the corresponding reference. There is considerable overlap of applicable information in these sections, and eventually you might want to look through more than one.
 
@@ -35,7 +40,7 @@ The following sections describe how Indexing Service works and how to manage it 
 
 
 
- 
+ 
 
 ### File System-Oriented Programmer or Script Writer
 
@@ -52,7 +57,7 @@ The following sections describe how Indexing Service interacts with file systems
 
 
 
- 
+ 
 
 ### Web Server-Oriented Programmer or Script Writer
 
@@ -69,7 +74,7 @@ The following sections describe how Indexing Service interacts with web servers 
 
 
 
- 
+ 
 
 ### Custom Filter-Component Programmer
 
@@ -87,7 +92,7 @@ The following sections describe how standard Indexing Service filters work and h
 
 
 
- 
+ 
 
 ### Custom Language Resources Programmer
 
@@ -104,18 +109,18 @@ The following table lists topics that contain information for programmers who wa
 
 
 
- 
+ 
 
 > [!Note]  
 > You must install files for East Asian languages in order for Japanese and Korean text in the SDK to appear correctly.
 
- 
+ 
 
 You can configure language settings in Windows XP by clicking the Regional and Language Options icon in Control Panel. You can configure language settings in Windows 2000 by clicking the Regional Options icon in Control Panel.
 
- 
+ 
 
- 
+ 
 
 
 

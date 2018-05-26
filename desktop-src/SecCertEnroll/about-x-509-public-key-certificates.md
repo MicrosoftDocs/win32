@@ -1,7 +1,12 @@
 ---
-Description: 'Public key cryptography relies on a public and private key pair to encrypt and decrypt content.'
-ms.assetid: 'a85ec2bc-a413-41a6-b3d2-5fa81a9e7bb6'
-title: 'X.509 Public Key Certificates'
+Description: Public key cryptography relies on a public and private key pair to encrypt and decrypt content.
+ms.assetid: a85ec2bc-a413-41a6-b3d2-5fa81a9e7bb6
+title: X.509 Public Key Certificates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # X.509 Public Key Certificates

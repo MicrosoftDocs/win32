@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Installer provides a complete user interface (UI) for installing an application or product.'
-ms.assetid: '58ef0043-fb30-4f64-9291-e703d7a28bb5'
+Description: Windows Installer provides a complete user interface (UI) for installing an application or product.
+ms.assetid: 58ef0043-fb30-4f64-9291-e703d7a28bb5
 title: User Interface
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Interface

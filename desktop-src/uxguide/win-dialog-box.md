@@ -1,7 +1,12 @@
 ---
 title: Dialog Boxes
 description: A dialog box is a secondary window that allows users to perform a command, asks users a question, or provides users with information or progress feedback.
-ms.assetid: '2ded9f30-d45f-4027-a85d-4e7d0e412793'
+ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dialog Boxes
@@ -246,7 +251,7 @@ For more information and examples, see [Window Management](win-window-mgt.md).
     -   **Unlabeled controls,** such as spin controls, graphic command buttons, and unlabeled progressive disclosure controls.
     -   **Non-label static text or labels for controls that aren't interactive,** such as progress bars.
 
--   **Whenever possible, assign access keys for commonly used commands according to the Standard Access Key Assignments**. While consistent access key assignments aren't always possible, they are certainly preferred—especially for frequently used dialog boxes.
+-   **Whenever possible, assign access keys for commonly used commands according to the Standard Access Key Assignments**. While consistent access key assignments aren't always possible, they are certainly preferred especially for frequently used dialog boxes.
 -   **Assign commit button access keys first to ensure that they have the standard key assignments.** If there isn't a standard key assignment, use the first letter of the first word. For example, the access key for Yes and No commit buttons should always be "Y" and "N", regardless of the other controls in the dialog box.
 -   **To make access keys easy to find, assign the access keys to a character that appears early in the label,** ideally the first character, even if there is a keyword that appears later in the label.
 -   **Prefer characters with wide widths,** such as w, m, and capital letters.
@@ -392,7 +397,7 @@ In this example, the large graphic serves no purpose.
 
 
 
- 
+ 
 
 -   **Incorrect:**
 -   ![screen shot of dialog box with warning icon ](images/win-dialog-box-image19.png)
@@ -484,7 +489,7 @@ For more information and examples, see [Icons](vis-icons.md).
 
     
 
-     
+     
 
 -   **All commit buttons except Apply result in closing the dialog box window.**
 -   **Don't confirm commit buttons.** Doing so unnecessarily can be very annoying. **Exceptions:**
@@ -695,9 +700,9 @@ For more information and examples, see [Command Links](ctrl-command-links.md).
 ### Don't show this &lt;item&gt; again
 
 -   **Consider using a Don't show this &lt;item&gt; again option to allow users to suppress a recurring dialog box, only if there isn't a better alternative.** It is better always to show the dialog if users really need it, or simply eliminate it if they don't.
--   **Use this specific phrasing—replace &lt;item&gt; with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
+-   **Use this specific phrasing replace &lt;item&gt; with the specific item.** For example, Don't show this reminder again. When referring to a dialog box in general, use Don't show this message again.
 -   **Clearly indicate when user input will be used for future default values** by adding the following sentence under the option: Your selections will be used by default in the future.
--   **Don't select the option by default. If the dialog box really should be displayed only once, do so without asking.** Don't use this option as an excuse to annoy users—make sure the default behavior isn't annoying.
+-   **Don't select the option by default. If the dialog box really should be displayed only once, do so without asking.** Don't use this option as an excuse to annoy users make sure the default behavior isn't annoying.
 
 **Incorrect:**
 
@@ -874,7 +879,7 @@ Choose an account
         -   If a dialog box is displayed by many different commands, consider using the program name instead.
         -   If that title would be redundant with the main instruction, use the program name instead.
     -   If it is program or system initiated (and therefore out of context), identify it using the program or feature name to give context.
-    -   Don't use the title to explain what to do in the dialog—that's the purpose of the main instruction.
+    -   Don't use the title to explain what to do in the dialog that's the purpose of the main instruction.
 -   Use the exact command name for command-based names, but don't include the ellipsis if there is one. You can include the command's menu title if necessary to compose a good title. Example: for an Object... command in an Insert menu, use the title Insert Object.
 -   **If a modeless dialog box appears on the taskbar, optimize the title for display on the taskbar** by concisely placing the distinguishing information first. Examples: "66% Complete," and "3 Reminders."
 -   **Don't include the words "dialog" or "progress" in the title.** This is implied, and leaving it off makes it easier for users to scan.
@@ -898,7 +903,7 @@ In this example, the text box label is just a restatement of the main instructio
 
 In this example, the redundant label is removed, so the main instruction takes the access key.
 
--   **Be concise—use only a single, complete sentence.** Pare the main instruction down to the essential information. If you must explain anything more, use supplemental instruction.
+-   **Be concise use only a single, complete sentence.** Pare the main instruction down to the essential information. If you must explain anything more, use supplemental instruction.
 -   **Use specific verbs whenever possible.** Specific verbs (examples: connect, save, install) are more meaningful to users than generic ones (examples: configure, manage, set).
 -   Use [sentence-style capitalization](glossary.md#s).
 -   **Don't include final periods if the instruction is a statement.** If the instruction is a question, include a final question mark.
@@ -918,7 +923,7 @@ In this example, the redundant label is removed, so the main instruction takes t
 -   **Always start command links with a verb.**
 -   Use sentence-style capitalization.
 -   Don't use ending punctuation.
--   **If necessary, provide any further explanation using complete sentences and ending punctuation.** However, add such explanations only when needed—don't add explanations to all command links just because one command link needs one.
+-   **If necessary, provide any further explanation using complete sentences and ending punctuation.** However, add such explanations only when needed don't add explanations to all command links just because one command link needs one.
 
 For more information and examples, see [Command Link](ctrl-command-links.md) guidelines.
 
@@ -942,9 +947,9 @@ When referring to dialog boxes:
 
 Example: In **Windows Security**, click **More Options**.
 
- 
+ 
 
- 
+ 
 
 
 

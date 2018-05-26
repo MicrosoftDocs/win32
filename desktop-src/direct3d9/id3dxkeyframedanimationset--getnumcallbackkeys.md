@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the number of callback keys in the animation set.'
-ms.assetid: 'e1292be8-4ca2-4c01-a8bf-236346dbd16d'
-title: 'ID3DXKeyframedAnimationSet::GetNumCallbackKeys method'
+---
+Description: Gets the number of callback keys in the animation set.
+ms.assetid: e1292be8-4ca2-4c01-a8bf-236346dbd16d
+title: ID3DXKeyframedAnimationSetGetNumCallbackKeys method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXKeyframedAnimationSet::GetNumCallbackKeys method

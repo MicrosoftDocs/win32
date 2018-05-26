@@ -1,7 +1,12 @@
 ---
-Description: 'This topic contains the definition of the Journal Reader schema.'
-ms.assetid: '2fa6a5d9-64d6-447f-bf2a-d3bf6ca7c093'
+Description: This topic contains the definition of the Journal Reader schema.
+ms.assetid: 2fa6a5d9-64d6-447f-bf2a-d3bf6ca7c093
 title: Journal Reader Schema Definition
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Journal Reader Schema Definition

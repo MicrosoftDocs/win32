@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.LogFiles property
 description: Collection of one or more log files to use as the source of counter values displayed in the System Monitor.
-ms.assetid: '6e9e7205-3516-404d-b67d-777e484900da'
-keywords: ["LogFiles property SysMon", "LogFiles property SysMon , SystemMonitor object", "SystemMonitor object SysMon , LogFiles property"]
+ms.assetid: 6e9e7205-3516-404d-b67d-777e484900da
+keywords:
+- LogFiles property SysMon
+- LogFiles property SysMon , SystemMonitor object
+- SystemMonitor object SysMon , LogFiles property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.LogFiles property
@@ -40,8 +48,8 @@ To add or remove a log file from the log file collection, the value of [**System
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -65,9 +73,9 @@ To add or remove a log file from the log file collection, the value of [**System
 [**SystemMonitor.SqlLogSetName**](systemmonitor-sqllogsetname.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

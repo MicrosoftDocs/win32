@@ -4,18 +4,23 @@ description: A list of the Remote Desktop Services shortcut keys.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '03a94323-2616-4f35-a5c0-3c238acb7693'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 03a94323-2616-4f35-a5c0-3c238acb7693
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Remote Desktop Services Remote Desktop Services , shortcut keys", "Remote Desktop Services Remote Desktop Services , keyboard shortcuts"]
+keywords:
+- Remote Desktop Services Remote Desktop Services , shortcut keys
+- Remote Desktop Services Remote Desktop Services , keyboard shortcuts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services Shortcut Keys
 
 The following is a list of the Remote Desktop Services shortcut keys.
 
-**Missing keys:  **
+**Missing keys:  **
 
 Many compact keyboards do not contain some of these keys. For example, many laptops do not have a dedicated BREAK key. However, they usually have keyboard shortcuts that replace dedicated keys. These key replacements are specified by the manufacturer of the keyboard, so you may need to look up key replacements in the documentation provided by your keyboard or laptop manufacturer.
 
@@ -78,14 +83,14 @@ For more user information about Remote Desktop connection, See [Remote Desktop C
 </tr>
 <tr class="odd">
 <td>CTRL+ALT+END<br/></td>
-<td>Brings up the <strong>Windows Security</strong> dialog box for the Remote Desktop Session Host (RD Session Host) (provides the same functionality as pressing CTRL+ALT+DEL on the local computer).<br/></td>
+<td>Brings up the <strong>Windows Security</strong> dialog box for the Remote Desktop Session Host (RD Session Host) (provides the same functionality as pressing CTRL+ALT+DEL on the local computer).<br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 The following table describes the standard Windows shortcut keys and their equivalent Remote Desktop shortcuts that are different. (For example, Ctrl+Z is generally the 'Undo' shortcut on both standard Windows and Remote Desktop.)
 
@@ -103,7 +108,7 @@ The following table describes the standard Windows shortcut keys and their equiv
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -112,9 +117,9 @@ The following table describes the standard Windows shortcut keys and their equiv
 [Remote Desktop Services](terminal-services-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

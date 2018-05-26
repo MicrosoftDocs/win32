@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.DeleteExpiredTaskAfter property
 description: For scripting, gets or sets the amount of time that the Task Scheduler will wait before deleting the task after it expires.
-ms.assetid: 'c6a2a12d-a41a-4fd8-a328-bce0fe19deba'
-keywords: ["DeleteExpiredTaskAfter property Task Scheduler", "DeleteExpiredTaskAfter property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , DeleteExpiredTaskAfter property"]
+ms.assetid: c6a2a12d-a41a-4fd8-a328-bce0fe19deba
+keywords:
+- DeleteExpiredTaskAfter property Task Scheduler
+- DeleteExpiredTaskAfter property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , DeleteExpiredTaskAfter property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.DeleteExpiredTaskAfter property
@@ -44,8 +52,8 @@ When reading or writing XML for a task, this setting is specified in the [**Dele
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -58,9 +66,9 @@ When reading or writing XML for a task, this setting is specified in the [**Dele
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Advanced Expansion
 description: Advanced Expansion
-ms.assetid: '29db15a1-fa56-441a-af99-9e858d143804'
-keywords: ["Windows Touch,expansion", "Windows Touch,advanced expansion", "Windows Touch,manipulations", "manipulations,expansion", "manipulations,advanced expansion", "expansion,advanced"]
+ms.assetid: 29db15a1-fa56-441a-af99-9e858d143804
+keywords:
+- Windows Touch,expansion
+- Windows Touch,advanced expansion
+- Windows Touch,manipulations
+- manipulations,expansion
+- manipulations,advanced expansion
+- expansion,advanced
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advanced Expansion

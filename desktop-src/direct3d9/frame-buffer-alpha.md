@@ -1,7 +1,12 @@
 ---
-Description: 'Frame buffer alpha-blending is a bit different than vertex alpha, material alpha, and texture alpha.'
-ms.assetid: '3664215d-ad03-400e-beab-b0421cf6b693'
-title: 'Frame Buffer Alpha (Direct3D 9)'
+Description: Frame buffer alpha-blending is a bit different than vertex alpha, material alpha, and texture alpha.
+ms.assetid: 3664215d-ad03-400e-beab-b0421cf6b693
+title: Frame Buffer Alpha (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Frame Buffer Alpha (Direct3D 9)

@@ -1,8 +1,17 @@
 ---
 title: Level 2 Specification
 description: Level 2 Specification
-ms.assetid: '2dd1b5b1-f9a2-441f-95f6-5b02bf00949e'
-keywords: ["Multimedia PC (MPC),Level 2", "MPC (Multimedia PC),Level 2", "Multimedia PC Marketing Council,Level 2", "MPC Level 2,about"]
+ms.assetid: 2dd1b5b1-f9a2-441f-95f6-5b02bf00949e
+keywords:
+- Multimedia PC (MPC),Level 2
+- MPC (Multimedia PC),Level 2
+- Multimedia PC Marketing Council,Level 2
+- MPC Level 2,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Level 2 Specification

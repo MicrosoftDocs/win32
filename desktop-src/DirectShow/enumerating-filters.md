@@ -1,14 +1,19 @@
 ---
 Description: Enumerating Filters
-ms.assetid: '57bcaa4d-37bf-457d-937e-f9d24fb5784f'
+ms.assetid: 57bcaa4d-37bf-457d-937e-f9d24fb5784f
 title: Enumerating Filters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Filters
 
-The Filter Graph Manager supports the [**IFilterGraph::EnumFilters**](ifiltergraph-enumfilters.md) method, which enumerates all the filters in the filter graph. It returns a pointer to the [**IEnumFilters**](ienumfilters.md) interface. The [**IEnumFilters::Next**](ienumfilters-next.md) method retrieves [**IBaseFilter**](ibasefilter.md) interface pointers.
+The Filter Graph Manager supports the [**IFilterGraph::EnumFilters**](/windows/win32/Strmif/nf-strmif-ifiltergraph-enumfilters?branch=master) method, which enumerates all the filters in the filter graph. It returns a pointer to the [**IEnumFilters**](/windows/win32/Strmif/nn-strmif-ienumfilters?branch=master) interface. The [**IEnumFilters::Next**](/windows/win32/Strmif/nf-strmif-ienumfilters-next?branch=master) method retrieves [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface pointers.
 
-The following example shows a function that enumerates the filters in a graph and displays a message box with each filter's name. It uses the [**IBaseFilter::QueryFilterInfo**](ibasefilter-queryfilterinfo.md) method to retrieve the name of the filter. Note the places where the function calls **Release** on an interface to decrement the reference count.
+The following example shows a function that enumerates the filters in a graph and displays a message box with each filter's name. It uses the [**IBaseFilter::QueryFilterInfo**](/windows/win32/Strmif/nf-strmif-ibasefilter-queryfilterinfo?branch=master) method to retrieve the name of the filter. Note the places where the function calls **Release** on an interface to decrement the reference count.
 
 
 ```C++

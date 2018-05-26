@@ -1,7 +1,12 @@
 ---
-Description: 'In a simple protocol using secret key authentication, a client presents an authenticator message in the form of a piece of information encrypted in the session key.'
-ms.assetid: '984c84db-96d5-479e-8917-25a0270b3b59'
+Description: In a simple protocol using secret key authentication, a client presents an authenticator message in the form of a piece of information encrypted in the session key.
+ms.assetid: 984c84db-96d5-479e-8917-25a0270b3b59
 title: Authenticator Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authenticator Messages

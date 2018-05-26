@@ -1,8 +1,11 @@
 ---
 title: TestCase ~TestCase destructor
 description: Destructor method.
-ms.assetid: '7254FE0A-8AC5-4D55-96F9-D06767F3BB81'
-keywords: ["~TestCase destructor Access Execution Engine", "~TestCase destructor Access Execution Engine , TestCase interface", "TestCase interface Access Execution Engine , ~TestCase destructor"]
+ms.assetid: 7254FE0A-8AC5-4D55-96F9-D06767F3BB81
+keywords:
+- ~TestCase destructor Access Execution Engine
+- ~TestCase destructor Access Execution Engine , TestCase interface
+- TestCase interface Access Execution Engine , ~TestCase destructor
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCase::~TestCase destructor
@@ -36,8 +44,8 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +58,9 @@ The **TestCase** objects hold information from the **Iteration/TestCases/TestCas
 [**TestCase**](testcase-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

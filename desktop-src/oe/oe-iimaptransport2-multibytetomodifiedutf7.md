@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport2 MultiByteToModifiedUTF7 method
-description: Converts a multibyte character set (MBCS) string to modified Internet Message Access Protocol (IMAP) 7-bit Unicode Transformation Format (UTF-7) (defined in RFC 2060).
-ms.assetid: '95316f8d-8614-4241-b069-8ccbb11897d4'
-keywords: ["MultiByteToModifiedUTF7 method Windows Mail (formerly Outlook Express)", "MultiByteToModifiedUTF7 method Windows Mail (formerly Outlook Express) , IIMAPTransport2 interface", "IIMAPTransport2 interface Windows Mail (formerly Outlook Express) , MultiByteToModifiedUTF7 method"]
+description: Converts a multibyte character set (MBCS) string to modified Internet Message Access Protocol (IMAP) 7-bit Unicode Transformation Format (UTF-7) (defined in RFC 2060).
+ms.assetid: 95316f8d-8614-4241-b069-8ccbb11897d4
+keywords:
+- MultiByteToModifiedUTF7 method Windows Mail (formerly Outlook Express)
+- MultiByteToModifiedUTF7 method Windows Mail (formerly Outlook Express) , IIMAPTransport2 interface
+- IIMAPTransport2 interface Windows Mail (formerly Outlook Express) , MultiByteToModifiedUTF7 method
 topic_type:
 - apiref
 api_name:
@@ -11,23 +14,28 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport2::MultiByteToModifiedUTF7 method
 
 \[**IIMAPTransport2::MultiByteToModifiedUTF7** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Converts a multibyte character set (MBCS) string to modified Internet Message Access Protocol (IMAP) 7-bit Unicode Transformation Format (UTF-7) (defined in [RFC 2060](http://www.ietf.org/rfc/rfc2060.txt)).
+Converts a multibyte character set (MBCS) string to modified Internet Message Access Protocol (IMAP) 7-bit Unicode Transformation Format (UTF-7) (defined in [RFC 2060](http://www.ietf.org/rfc/rfc2060.txt)).
 
 ## Syntax
 
 
 ```C++
 HRESULT MultiByteToModifiedUTF7(
-  [in]  LPCSTR pszSource,
-  [out] LPSTR  *ppszDestination,
-  [in]  UINT   uiSourceCP,
-  [in]  DWORD  dwFlags
+  [in]  LPCSTR pszSource,
+  [out] LPSTR  *ppszDestination,
+  [in]  UINT   uiSourceCP,
+  [in]  DWORD  dwFlags
 );
 ```
 
@@ -51,7 +59,7 @@ Specifies an **LPCSTR** that contains the multibyte string to convert.
 
 Type: **LPSTR\***
 
-Receives a pointer to an **LPSTR** that contains the modified IMAP UTF-7 equivalent of *pszSource*. The client is responsible for freeing this pointer.
+Receives a pointer to an **LPSTR** that contains the modified IMAP UTF-7 equivalent of *pszSource*. The client is responsible for freeing this pointer.
 
 </dd> <dt>
 
@@ -89,7 +97,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -101,8 +109,8 @@ IIMAPTransport usually handles the conversion automatically. This method must be
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -110,9 +118,9 @@ IIMAPTransport usually handles the conversion automatically. This method must be
 
 
 
- 
+ 
 
- 
+ 
 
 
 

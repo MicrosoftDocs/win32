@@ -1,8 +1,11 @@
 ---
 title: PlaylistArray.item method
 description: The item method retrieves the playlist at the given index.
-ms.assetid: '2ba85800-12b9-4f14-8d68-ff6a01167308'
-keywords: ["item method Windows Media Player", "item method Windows Media Player , PlaylistArray class", "PlaylistArray class Windows Media Player , item method"]
+ms.assetid: 2ba85800-12b9-4f14-8d68-ff6a01167308
+keywords:
+- item method Windows Media Player
+- item method Windows Media Player , PlaylistArray class
+- PlaylistArray class Windows Media Player , item method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistArray.item method
@@ -71,9 +79,9 @@ To use this method, read access to the library is required. For more information
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

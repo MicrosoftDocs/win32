@@ -1,14 +1,20 @@
 ---
 title: Image element
 description: Represents an image.
-ms.assetid: '2c71bb16-93ac-484f-b81b-1b95842472b3'
-keywords: ["Image element Windows Ribbon"]
+ms.assetid: 2c71bb16-93ac-484f-b81b-1b95842472b3
+keywords:
+- Image element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Image
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Image element
@@ -138,7 +144,7 @@ The following code example shows the markup required to declare, through a set o
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -150,9 +156,9 @@ The following code example shows the markup required to declare, through a set o
 [Specifying Ribbon Image Resources](windowsribbon-imageformats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

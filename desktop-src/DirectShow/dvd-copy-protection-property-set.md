@@ -1,7 +1,12 @@
 ---
-Description: 'The DVD Copy Protection property set provides authentication of copy protection information from hardware or software decrypters. Use this property set to prevent unauthorized copying from prerecorded DVD-Video.'
-ms.assetid: 'da3abefd-8f25-449d-8787-84d2cef928da'
+Description: The DVD Copy Protection property set provides authentication of copy protection information from hardware or software decrypters. Use this property set to prevent unauthorized copying from prerecorded DVD-Video.
+ms.assetid: da3abefd-8f25-449d-8787-84d2cef928da
 title: DVD Copy Protection Property Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Copy Protection Property Set
@@ -24,7 +29,7 @@ The following information presents the necessary constants and data types to use
 
 
 
- 
+ 
 
 
 
@@ -46,51 +51,51 @@ The following information presents the necessary constants and data types to use
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_COPY_MACROVISION</td>
-<td>This is a set-only property. This property sets the analog copy protection level for the NTSC encoder on the output end of the receiving pin. Uses [<strong>AM_COPY_MACROVISION</strong>](am-copy-macrovision.md).</td>
+<td>This is a set-only property. This property sets the analog copy protection level for the NTSC encoder on the output end of the receiving pin. Uses [<strong>AM_COPY_MACROVISION</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-_am_copy_macrovision?branch=master).</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_CHLG_KEY</td>
-<td>Both get and set operations are supported on this property. A get operation requests the decoder to provide its bus challenge key. A set operation provides the decoder with the bus challenge key from the DVD drive. The data passed in this property will be a structure of type [<strong>AM_DVDCOPY_CHLGKEY</strong>](am-dvdcopy-chlgkey.md).</td>
+<td>Both get and set operations are supported on this property. A get operation requests the decoder to provide its bus challenge key. A set operation provides the decoder with the bus challenge key from the DVD drive. The data passed in this property will be a structure of type [<strong>AM_DVDCOPY_CHLGKEY</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-_am_dvdcopy_chlgkey?branch=master).</td>
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_DEC_KEY2</td>
-<td>This is a get-only property. This property requests that the decoder's bus key 2 be transferred to the DVD drive. The data passed will be a structure of type [<strong>AM_DVDCOPY_BUSKEY</strong>](am-dvdcopy-buskey.md).</td>
+<td>This is a get-only property. This property requests that the decoder's bus key 2 be transferred to the DVD drive. The data passed will be a structure of type [<strong>AM_DVDCOPY_BUSKEY</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-_am_dvdcopy_buskey?branch=master).</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_DISC_KEY</td>
-<td>Set-only property. This provides disc key. The key is a structure of type [<strong>AM_DVDCOPY_DISCKEY</strong>](am-dvdcopy-disckey.md).</td>
+<td>Set-only property. This provides disc key. The key is a structure of type [<strong>AM_DVDCOPY_DISCKEY</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-_am_dvdcopy_disckey?branch=master).</td>
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_DVD_KEY1</td>
-<td>This is a set-only property. This property provides the DVD drive bus key 1 to the decoder. The data passed will be a structure of type [<strong>AM_DVDCOPY_BUSKEY</strong>](am-dvdcopy-buskey.md).</td>
+<td>This is a set-only property. This property provides the DVD drive bus key 1 to the decoder. The data passed will be a structure of type [<strong>AM_DVDCOPY_BUSKEY</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-_am_dvdcopy_buskey?branch=master).</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_REGION</td>
-<td>Region code requests the region definition that the decoder is allowed to play in as defined by the DVD consortium. This region is defined as a [<strong>DVD_REGION</strong>](dvd-region.md) structure.</td>
+<td>Region code requests the region definition that the decoder is allowed to play in as defined by the DVD consortium. This region is defined as a [<strong>DVD_REGION</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-_dvd_region?branch=master) structure.</td>
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_SET_COPY_STATE</td>
-<td>Both get and set are supported on this property. Get is called first to determine if authentication is required. The set properties are indications as to which phase of copy protection negotiation the filter is entering. The data passed will be a structure of type [<strong>AM_DVDCOPY_SET_COPY_STATE</strong>](am-dvdcopy-set-copy-state.md).</td>
+<td>Both get and set are supported on this property. Get is called first to determine if authentication is required. The set properties are indications as to which phase of copy protection negotiation the filter is entering. The data passed will be a structure of type [<strong>AM_DVDCOPY_SET_COPY_STATE</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state?branch=master).</td>
 </tr>
 <tr class="odd">
 <td>AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT</td>
-<td>If this property is <strong>TRUE</strong>, the DVD Navigator does not send <strong>AM_UseNewCSSKey</strong> samples before negotiating the disc key. See [<strong>AM_SAMPLE2_PROPERTIES</strong>](am-sample2-properties.md).<br/> Read-only. The property data is a <strong>BOOL</strong> value.<br/>
+<td>If this property is <strong>TRUE</strong>, the DVD Navigator does not send <strong>AM_UseNewCSSKey</strong> samples before negotiating the disc key. See [<strong>AM_SAMPLE2_PROPERTIES</strong>](/windows/win32/strmif/ns-strmif-tagam_sample2_properties?branch=master).<br/> Read-only. The property data is a <strong>BOOL</strong> value.<br/>
 <blockquote>
 [!Note]<br />
-Applies to Windows 7.
+Applies to Windows 7.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td>AM_PROPERTY_DVDCOPY_TITLE_KEY</td>
-<td>This is a set-only property. This provides title key from current content. The key is a structure of type [<strong>AM_DVDCOPY_TITLEKEY</strong>](am-dvdcopy-titlekey.md).</td>
+<td>This is a set-only property. This provides title key from current content. The key is a structure of type [<strong>AM_DVDCOPY_TITLEKEY</strong>](/windows/win32/Dvdmedia/ns-dvdmedia-am_dvdcopy_titlekey?branch=master).</td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -109,9 +114,9 @@ Applies to Windows 7.
 [Property Sets](property-sets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

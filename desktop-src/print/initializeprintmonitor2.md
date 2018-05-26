@@ -1,7 +1,12 @@
-﻿---
-Description: 'A print monitor''s InitializePrintMonitor2 function initializes a print monitor for use with clustered print servers.'
-ms.assetid: '73348405-0cc1-412a-b9b1-cfcc300190d7'
+---
+Description: A print monitors InitializePrintMonitor2 function initializes a print monitor for use with clustered print servers.
+ms.assetid: 73348405-0cc1-412a-b9b1-cfcc300190d7
 title: InitializePrintMonitor2 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitializePrintMonitor2 function

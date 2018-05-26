@@ -1,8 +1,9 @@
 ---
 title: MCI\_COPY command
 description: The MCI\_COPY command copies data to the clipboard. Digital-video devices recognize this command.
-ms.assetid: '41807920-3312-4cdb-82e6-6ab4b9b35162'
-keywords: ["MCI_COPY command Windows Multimedia"]
+ms.assetid: 41807920-3312-4cdb-82e6-6ab4b9b35162
+keywords:
+- MCI_COPY command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_COPY command
 
 The MCI\_COPY command copies data to the clipboard. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -52,7 +58,7 @@ MCI\_NOTIFY, MCI\_WAIT, or MCI\_TEST. For information about these flags, see [Th
 <span id="lpCopy"></span><span id="lpcopy"></span><span id="LPCOPY"></span>*lpCopy*
 </dt> <dd>
 
-Pointer to an [**MCI\_DGV\_COPY\_PARMS**](mci-dgv-copy-parms.md) structure.
+Pointer to an [**MCI\_DGV\_COPY\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_copy_parms?branch=master) structure.
 
 </dd> </dl>
 
@@ -107,8 +113,8 @@ An ending location is included in the **dwTo** member of the structure identifie
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -123,9 +129,9 @@ An ending location is included in the **dwTo** member of the structure identifie
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

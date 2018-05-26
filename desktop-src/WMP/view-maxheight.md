@@ -1,14 +1,20 @@
 ---
 title: VIEW.maxHeight
 description: The maxHeight attribute specifies or retrieves the maximum height in pixels of the VIEW when resizing.
-ms.assetid: '81e919f6-4333-424c-bd65-1155e308a493'
-keywords: ["VIEW.maxHeight Windows Media Player"]
+ms.assetid: 81e919f6-4333-424c-bd65-1155e308a493
+keywords:
+- VIEW.maxHeight Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.maxHeight
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.maxHeight
@@ -43,9 +49,9 @@ This attribute is a read/write **Number** (**long**) with a value of zero or gre
 [**VIEW.minHeight**](view-minheight.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

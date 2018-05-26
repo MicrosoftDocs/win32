@@ -1,7 +1,12 @@
 ---
-Description: 'This topic provides information about security considerations related to programming with Windows GDI+.'
-ms.assetid: '411e16e4-ad8f-4567-8964-564f08283ba5'
-title: 'Security Considerations: GDI+'
+Description: This topic provides information about security considerations related to programming with Windows GDI+.
+ms.assetid: 411e16e4-ad8f-4567-8964-564f08283ba5
+title: Security Considerations GDI+
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Considerations: GDI+
@@ -16,9 +21,9 @@ This topic provides information about security considerations related to program
 
 ## Verifying the Success of Constructors
 
-Many of the GDI+ classes provide a [**Image::GetLastStatus**](-gdiplus-class-image-getlaststatus-.md) method that you can call to determine whether methods invoked on an object are successful. You can also call **Image::GetLastStatus** to determine whether a constructor is successful.
+Many of the GDI+ classes provide a [**Image::GetLastStatus**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getlaststatus?branch=master) method that you can call to determine whether methods invoked on an object are successful. You can also call **Image::GetLastStatus** to determine whether a constructor is successful.
 
-The following example shows how to construct an [**Image**](-gdiplus-class-image-class.md) object and call the [**Image::GetLastStatus**](-gdiplus-class-image-getlaststatus-.md) method to determine whether the constructor was successful. The values **Ok** and **InvalidParameter** are elements of the [**Status**](-gdiplus-enum-status.md) enumeration.
+The following example shows how to construct an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object and call the [**Image::GetLastStatus**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getlaststatus?branch=master) method to determine whether the constructor was successful. The values **Ok** and **InvalidParameter** are elements of the [**Status**](/windows/win32/Gdiplustypes/ne-gdiplustypes-status?branch=master) enumeration.
 
 
 ```C++
@@ -38,9 +43,9 @@ else
 
 ## Allocating Buffers
 
-Several GDI+ methods return numeric or character data in a buffer that is allocated by the caller. For each of those methods, there is a companion method that gives the size of the required buffer. For example, the [**GraphicsPath::GetPathPoints**](-gdiplus-class-graphicspath-getpathpoints-point-points-int-count-.md) method returns an array of [**Point**](-gdiplus-class-point-class.md) objects. Before you call **GraphicsPath::GetPathPoints**, you must allocate a buffer large enough to hold that array. You can determine the size of the required buffer by calling the [**GraphicsPath::GetPointCount**](-gdiplus-class-graphicspath-getpointcount-.md) method of a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object.
+Several GDI+ methods return numeric or character data in a buffer that is allocated by the caller. For each of those methods, there is a companion method that gives the size of the required buffer. For example, the [**GraphicsPath::GetPathPoints**](/windows/win32/Gdipluspath/?branch=master) method returns an array of [**Point**](/windows/win32/gdiplustypes/nl-gdiplustypes-point?branch=master) objects. Before you call **GraphicsPath::GetPathPoints**, you must allocate a buffer large enough to hold that array. You can determine the size of the required buffer by calling the [**GraphicsPath::GetPointCount**](/windows/win32/Gdipluspath/nf-gdipluspath-graphicspath-getpointcount?branch=master) method of a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object.
 
-The following example shows how to determine the number of points in a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object, allocate a buffer large enough to hold that many points, and then call [**GraphicsPath::GetPathPoints**](-gdiplus-class-graphicspath-getpathpoints-point-points-int-count-.md) to fill the buffer. Before the code calls **GraphicsPath::GetPathPoints**, it verifies that the buffer allocation was successful by making sure that the buffer pointer is not **NULL**.
+The following example shows how to determine the number of points in a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object, allocate a buffer large enough to hold that many points, and then call [**GraphicsPath::GetPathPoints**](/windows/win32/Gdipluspath/?branch=master) to fill the buffer. Before the code calls **GraphicsPath::GetPathPoints**, it verifies that the buffer allocation was successful by making sure that the buffer pointer is not **NULL**.
 
 
 ```C++
@@ -61,11 +66,11 @@ if(pointArray)  // Check for successful allocation.
 
 
 
-The previous example uses the new operator to allocate a buffer. The new operator was convenient because the buffer was filled with a known number of [**Point**](-gdiplus-class-point-class.md) objects. In some cases, GDI+ writes more into buffer than an array of GDI+ objects. Sometimes a buffer is filled with an array of GDI+ objects along with additional data that is pointed to by members of those objects. For example, the [**Image::GetAllPropertyItems**](-gdiplus-class-image-getallpropertyitems-totalbuffersize-numproperties-allitems-.md) method returns an array of [**PropertyItem**](-gdiplus-class-propertyitem-class.md) objects, one for each property item (piece of metadata) stored in the image. But **Image::GetAllPropertyItems** returns more than just the array of **PropertyItem** objects; it appends the array with additional data.
+The previous example uses the new operator to allocate a buffer. The new operator was convenient because the buffer was filled with a known number of [**Point**](/windows/win32/gdiplustypes/nl-gdiplustypes-point?branch=master) objects. In some cases, GDI+ writes more into buffer than an array of GDI+ objects. Sometimes a buffer is filled with an array of GDI+ objects along with additional data that is pointed to by members of those objects. For example, the [**Image::GetAllPropertyItems**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getallpropertyitems?branch=master) method returns an array of [**PropertyItem**](/windows/win32/Gdiplusimaging/?branch=master) objects, one for each property item (piece of metadata) stored in the image. But **Image::GetAllPropertyItems** returns more than just the array of **PropertyItem** objects; it appends the array with additional data.
 
-Before you call [**Image::GetAllPropertyItems**](-gdiplus-class-image-getallpropertyitems-totalbuffersize-numproperties-allitems-.md), you must allocate a buffer large enough to hold the array of [**PropertyItem**](-gdiplus-class-propertyitem-class.md) objects along with the additional data. You can call the [**Image::GetPropertySize**](-gdiplus-class-image-getpropertysize-totalbuffersize-numproperties-.md) method of an Image object to determine the total size of the required buffer.
+Before you call [**Image::GetAllPropertyItems**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getallpropertyitems?branch=master), you must allocate a buffer large enough to hold the array of [**PropertyItem**](/windows/win32/Gdiplusimaging/?branch=master) objects along with the additional data. You can call the [**Image::GetPropertySize**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getpropertysize?branch=master) method of an Image object to determine the total size of the required buffer.
 
-The following example shows how to create an [**Image**](-gdiplus-class-image-class.md) object and later call the [**Image::GetAllPropertyItems**](-gdiplus-class-image-getallpropertyitems-totalbuffersize-numproperties-allitems-.md) method of that **Image** object to retrieve all the property items (metadata) stored in the image. The code allocates a buffer based on a size value returned by the [**Image::GetPropertySize**](-gdiplus-class-image-getpropertysize-totalbuffersize-numproperties-.md) method. **Image::GetPropertySize** also returns a count value that gives the number of property items in the image. Notice that the code does not calculate the buffer size as `count*sizeof(PropertyItem)`. A buffer calculated that way would be too small.
+The following example shows how to create an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object and later call the [**Image::GetAllPropertyItems**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getallpropertyitems?branch=master) method of that **Image** object to retrieve all the property items (metadata) stored in the image. The code allocates a buffer based on a size value returned by the [**Image::GetPropertySize**](/windows/win32/Gdiplusheaders/nf-gdiplusheaders-image-getpropertysize?branch=master) method. **Image::GetPropertySize** also returns a count value that gives the number of property items in the image. Notice that the code does not calculate the buffer size as `count*sizeof(PropertyItem)`. A buffer calculated that way would be too small.
 
 
 ```C++
@@ -94,7 +99,7 @@ if(propBuffer)
 
 Most of the code examples in the GDI+ documentation do not show error checking. Complete error checking makes a code example much longer and can obscure the point being illustrated by the example. You should not paste examples from the documentation directly into production code; rather, you should enhance the examples by adding your own error checking.
 
-The following example shows one way of implementing error checking with GDI+. Each time a GDI+ object is constructed, the code checks to see whether the constructor was successful. That check is especially important for the [**Image**](-gdiplus-class-image-class.md) constructor, which relies on reading a file. If all four of the GDI+ objects ([**Graphics**](-gdiplus-class-graphics-class.md), [**GraphicsPath**](-gdiplus-class-graphicspath-class.md), **Image**, and [**TextureBrush**](-gdiplus-class-texturebrush-class.md)) are constructed successfully, the code calls methods on those objects. Each method call is checked for success, and in the event of failure, the remaining method calls are skipped.
+The following example shows one way of implementing error checking with GDI+. Each time a GDI+ object is constructed, the code checks to see whether the constructor was successful. That check is especially important for the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) constructor, which relies on reading a file. If all four of the GDI+ objects ([**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master), [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master), **Image**, and [**TextureBrush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-texturebrush?branch=master)) are constructed successfully, the code calls methods on those objects. Each method call is checked for success, and in the event of failure, the remaining method calls are skipped.
 
 
 ```C++

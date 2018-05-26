@@ -1,7 +1,12 @@
 ---
 Description: Fault Isolation and Failfast Policy
-ms.assetid: '219c417c-a8a1-49eb-bc5a-702a16994d66'
+ms.assetid: 219c417c-a8a1-49eb-bc5a-702a16994d66
 title: Fault Isolation and Failfast Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fault Isolation and Failfast Policy

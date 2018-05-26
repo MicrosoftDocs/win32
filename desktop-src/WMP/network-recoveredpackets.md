@@ -1,8 +1,9 @@
 ---
 title: Network.recoveredPackets
 description: The recoveredPackets property retrieves the number of recovered packets.
-ms.assetid: 'ce10b906-2e8b-4b9f-83d0-56ba67cacd3f'
-keywords: ["Network.recoveredPackets Windows Media Player"]
+ms.assetid: ce10b906-2e8b-4b9f-83d0-56ba67cacd3f
+keywords:
+- Network.recoveredPackets Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.recoveredPackets
@@ -85,9 +91,9 @@ function UpdatePR(){
 [**Player.URL**](player-url.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

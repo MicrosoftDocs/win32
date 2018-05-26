@@ -1,7 +1,12 @@
-﻿---
-Description: 'Executes a write and read operation on the smart card command (application protocol data unit) object.'
-ms.assetid: '4dc8ed56-97e0-4c05-a70a-ea2ffd976d47'
-title: 'ISCard::Transaction method'
+---
+Description: Executes a write and read operation on the smart card command (application protocol data unit) object.
+ms.assetid: 4dc8ed56-97e0-4c05-a70a-ea2ffd976d47
+title: ISCardTransaction method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCard::Transaction method

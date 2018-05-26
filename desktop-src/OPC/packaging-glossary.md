@@ -2,7 +2,12 @@
 title: Packaging API Glossary
 description: This topic provides definitions for Packaging API terms.
 Robots: noindex, nofollow
-ms.assetid: '751e39e2-01a8-4a34-a102-71046f4f8631'
+ms.assetid: 751e39e2-01a8-4a34-a102-71046f4f8631
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging API Glossary

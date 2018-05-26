@@ -1,7 +1,12 @@
 ---
 Description: Windowless Sample
-ms.assetid: '2141e465-996c-44e8-a081-38c3e1e0b01b'
+ms.assetid: 2141e465-996c-44e8-a081-38c3e1e0b01b
 title: Windowless Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windowless Sample

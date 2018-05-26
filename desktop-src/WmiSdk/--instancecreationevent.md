@@ -1,13 +1,16 @@
 ---
-Description: 'Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.'
+Description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '41976479-70e3-4914-a56a-fa94a1fd31c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_InstanceCreationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_InstanceCreationEvent class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __InstanceCreationEvent : __InstanceOperationEvent
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   object TargetInstance;
   uint64 TIME_CREATED;
 };
@@ -108,8 +111,8 @@ The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -124,9 +127,9 @@ The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

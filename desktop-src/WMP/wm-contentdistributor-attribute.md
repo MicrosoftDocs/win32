@@ -1,14 +1,20 @@
 ---
 title: WM/ContentDistributor Attribute
 description: The WM/ContentDistributor attribute is the name of the distributor of the item.
-ms.assetid: '45f548a4-4059-464c-af93-1ba09e6b8d1e'
-keywords: ["WM/ContentDistributor Attribute Windows Media Player"]
+ms.assetid: 45f548a4-4059-464c-af93-1ba09e6b8d1e
+keywords:
+- WM/ContentDistributor Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/ContentDistributor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ContentDistributor Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

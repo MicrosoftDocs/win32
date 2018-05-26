@@ -4,13 +4,15 @@ description: Defines the settings for virtual system migration that is managed b
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '387ea4f9-44a4-4f7f-8311-7d342a1ff970'
-ms.prod: 'windows-server-dev'
+ms.assetid: 387ea4f9-44a4-4f7f-8311-7d342a1ff970
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_VirtualSystemMigrationSettingData class", "CIM_VirtualSystemMigrationSettingData class, described"]
+keywords:
+- CIM_VirtualSystemMigrationSettingData class
+- CIM_VirtualSystemMigrationSettingData class, described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VirtualSystemMigrationSettingData class
@@ -111,7 +116,7 @@ The unit used by the **Bandwidth** property. The value of this property should b
 > [!Note]  
 > Profiles such as DMTF DSP1081 define how clients can discover the set of units supported by an implementation, and ranges and increments for values of the **Bandwidth** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -190,7 +195,7 @@ Uniquely identifies an instance of this class within the scope of the containing
 > -   If the above pattern is not used, the defining entity must assure that the resultant **InstanceID** value is not re-used across any **InstanceID** properties that are produced by this provider or other providers for this namespace.
 > -   For DMTF defined instances, the pattern must be used with the *OrgID* set to "CIM".
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -345,14 +350,14 @@ The type of transport to apply to a virtual system migration operation.
 **DMTF Reserved**
 
 
-</dt> <dd>7–32767</dd> <dt>
+</dt> <dd>7 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -363,7 +368,7 @@ The type of transport to apply to a virtual system migration operation.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -380,9 +385,9 @@ The type of transport to apply to a virtual system migration operation.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

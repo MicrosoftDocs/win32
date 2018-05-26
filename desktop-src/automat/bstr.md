@@ -1,8 +1,16 @@
 ---
 title: BSTR
 description: A BSTR (Basic string or binary string) is a string data type that is used by COM, Automation, and Interop functions.
-ms.assetid: '1b2d7d2c-47af-4389-a6b6-b01b7e915228'
-keywords: ["OLECHAR", "BSTR", "LPBSTR"]
+ms.assetid: 1b2d7d2c-47af-4389-a6b6-b01b7e915228
+keywords:
+- OLECHAR
+- BSTR
+- LPBSTR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BSTR
@@ -32,7 +40,7 @@ A BSTR is a composite data type that consists of a length prefix, a data string,
 
 
 
- 
+ 
 
 Previously, some versions of Mac operating systems defined this data type in a different way, and some Microsoft code running on Mac computers used this data type. This documentation no longer describes these obsolete details.
 
@@ -64,9 +72,9 @@ If you pass a wide-string literal as an argument to a COM function that is expec
 
 
 
- 
+ 
 
- 
+ 
 
 
 

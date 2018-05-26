@@ -1,7 +1,12 @@
 ---
 title: Differences in the Binding Model from Direct3D 11
 description: One of the main design decisions behind DirectX12 binding is to separate it from other management tasks. This places some requirements on the app to manage certain potential hazards.
-ms.assetid: '3EE7E9AE-203D-40D4-9F12-4313ED179035'
+ms.assetid: 3EE7E9AE-203D-40D4-9F12-4313ED179035
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Differences in the Binding Model from Direct3D 11

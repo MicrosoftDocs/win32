@@ -1,7 +1,12 @@
 ---
-Description: 'This document is intended for developers that are implementing secure devices that interoperate with Windows-based WSD clients and device hosts.'
-ms.assetid: '96564726-ef48-4b21-9fc3-9c1d4df5074e'
+Description: This document is intended for developers that are implementing secure devices that interoperate with Windows-based WSD clients and device hosts.
+ms.assetid: 96564726-ef48-4b21-9fc3-9c1d4df5074e
 title: Secure WSD Device Development
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secure WSD Device Development

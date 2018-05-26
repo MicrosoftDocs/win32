@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an internal Ethernet port (network adapter).'
-ms.assetid: '43277FA7-E040-49F2-A086-AF19B29D4F75'
-title: 'Msvm\_InternalEthernetPort class'
+Description: Represents an internal Ethernet port (network adapter).
+ms.assetid: 43277FA7-E040-49F2-A086-AF19B29D4F75
+title: Msvm\_InternalEthernetPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_InternalEthernetPort class
@@ -16,65 +21,65 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_InternalEthernetPort : CIM_EthernetPort
 {
-  string   InstanceID;
-  string   Caption = "Ethernet Port";
-  string   Description = "Microsoft Internal Ethernet Port";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "Ethernet Port";
+  string   Description = "Microsoft Internal Ethernet Port";
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_InternalEthernetPort";
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint16   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint64   MaxSpeed = 1000000000;
-  uint64   RequestedSpeed = 1000000000;
-  uint16   UsageRestriction = 4;
-  string   OtherPortType;
-  uint64   Speed;
-  string   OtherNetworkPortType;
-  uint16   PortNumber;
-  uint16   LinkTechnology = 2;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  boolean  FullDuplex = True;
-  boolean  AutoSense = True;
-  uint64   SupportedMaximumTransmissionUnit = 1500;
-  uint64   ActiveMaximumTransmissionUnit = 1500;
-  uint16   PortType;
-  string   NetworkAddresses[];
-  uint32   MaxDataSize = 1500;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  uint16   EnabledCapabilities[];
-  string   OtherEnabledCapabilities[];
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_InternalEthernetPort";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint16   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint64   MaxSpeed = 1000000000;
+  uint64   RequestedSpeed = 1000000000;
+  uint16   UsageRestriction = 4;
+  string   OtherPortType;
+  uint64   Speed;
+  string   OtherNetworkPortType;
+  uint16   PortNumber;
+  uint16   LinkTechnology = 2;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  boolean  FullDuplex = True;
+  boolean  AutoSense = True;
+  uint64   SupportedMaximumTransmissionUnit = 1500;
+  uint64   ActiveMaximumTransmissionUnit = 1500;
+  uint16   PortType;
+  string   NetworkAddresses[];
+  uint32   MaxDataSize = 1500;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  uint16   EnabledCapabilities[];
+  string   OtherEnabledCapabilities[];
 };
 ```
 
@@ -104,7 +109,7 @@ The **Msvm\_InternalEthernetPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -501,7 +506,7 @@ The types of links. When set to 1 (Other), the related property **OtherLinkTechn
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -778,7 +783,7 @@ The specific mode that is currently enabled for the port. When set to 1 (Other),
 <span id="10GBase-EW"></span><span id="10gbase-ew"></span><span id="10GBASE-EW"></span>**10GBase-EW** (111)
 </dt> <dt>
 
-<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (16000–65535)
+<span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>**Vendor Reserved** (16000 65535)
 </dt> </dl>
 
 </dd> <dt>
@@ -1013,7 +1018,7 @@ In some circumstances, a logical port might be identifiable as a front end or ba
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -1031,8 +1036,8 @@ See [Querying networking objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1049,9 +1054,9 @@ See [Querying networking objects](querying-networking-objects.md).
 [**CIM\_EthernetPort**](https://msdn.microsoft.com/library/mt446068)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

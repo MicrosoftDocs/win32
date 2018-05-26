@@ -1,7 +1,12 @@
 ---
 title: Creating a Cabinet File
 description: Creating a cabinet file is optional; however, it is useful for deploying your troubleshooting pack because they are self-contained and require no installation. They can be deployed onto Web sites, network shares, or copied on USB keys.
-ms.assetid: '401da37b-8616-4e2f-9668-a46667ee9bf3'
+ms.assetid: 401da37b-8616-4e2f-9668-a46667ee9bf3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Cabinet File

@@ -1,14 +1,19 @@
 ---
-Description: 'A service configuration program uses the OpenService function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object.'
-ms.assetid: 'e6633dc9-c9b6-457d-8adc-e751ec9cf71d'
-title: 'Querying a Service's Configuration'
+Description: A service configuration program uses the OpenService function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object.
+ms.assetid: e6633dc9-c9b6-457d-8adc-e751ec9cf71d
+title: Querying a Services Configuration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying a Service's Configuration
 
-A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](openservice.md) function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object. The program can then use the service object handle in the [**QueryServiceConfig**](queryserviceconfig.md) and [**QueryServiceConfig2**](queryserviceconfig2.md) functions to retrieve the current configuration of the service.
+A [service configuration program](service-configuration-programs.md) uses the [**OpenService**](/windows/win32/Winsvc/nf-winsvc-openservicea?branch=master) function to get a handle with SERVICE\_QUERY\_CONFIG access to an installed service object. The program can then use the service object handle in the [**QueryServiceConfig**](/windows/win32/Winsvc/nf-winsvc-queryserviceconfiga?branch=master) and [**QueryServiceConfig2**](/windows/win32/Winsvc/nf-winsvc-queryserviceconfig2a?branch=master) functions to retrieve the current configuration of the service.
 
-In the following example, the DoQuerySvc function uses [**QueryServiceConfig**](queryserviceconfig.md) and [**QueryServiceConfig2**](queryserviceconfig2.md) to retrieve configuration information, then writes selected information to the console. The szSvcName variable is a global variable that contains the name of the service. For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).
+In the following example, the DoQuerySvc function uses [**QueryServiceConfig**](/windows/win32/Winsvc/nf-winsvc-queryserviceconfiga?branch=master) and [**QueryServiceConfig2**](/windows/win32/Winsvc/nf-winsvc-queryserviceconfig2a?branch=master) to retrieve configuration information, then writes selected information to the console. The szSvcName variable is a global variable that contains the name of the service. For the complete example that sets this variable, see [SvcConfig.cpp](svcconfig-cpp.md).
 
 
 ```C++

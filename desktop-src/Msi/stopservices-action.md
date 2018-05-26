@@ -1,7 +1,12 @@
 ---
-Description: 'The StopServices action stops system services. This action queries the ServiceControl table.'
-ms.assetid: '1ad01205-f8b6-400f-be1d-c00a5b71ccfd'
+Description: The StopServices action stops system services. This action queries the ServiceControl table.
+ms.assetid: 1ad01205-f8b6-400f-be1d-c00a5b71ccfd
 title: StopServices Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StopServices Action

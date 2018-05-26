@@ -4,11 +4,15 @@ description: Auditing reports can be enriched through parsing event records and 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'DEE3B669-2BF2-407C-A52C-3E996602D8B0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: DEE3B669-2BF2-407C-A52C-3E996602D8B0
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx , audit reporting"]
+keywords:
+- Dynamic Access Control developer extensibility DACx , audit reporting
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to enrich audit reporting

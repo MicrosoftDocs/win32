@@ -1,8 +1,28 @@
 ---
 title: Building the Plug-in for a Type 2 Online Store
 description: Building the Plug-in for a Type 2 Online Store
-ms.assetid: 'a61ada7a-85ef-4ccf-bf1a-903561d41818'
-keywords: ["Windows Media Player online stores,plug-ins", "online stores,plug-ins", "type 2 online stores,plug-ins", "Windows Media Player online stores,building plug-ins", "online stores,building plug-ins", "type 2 online stores,building plug-ins", "plug-ins,Windows Media Player online stores", "plug-ins,online stores", "plug-ins,type 2 online stores", "plug-ins,building", "Windows Media Player plug-ins,type 2 online stores", "Windows Media Player plug-ins,online stores", "Windows Media Player plug-ins,Windows Media Player online stores", "Windows Media Player plug-ins,building", "building plug-ins,type 2 online stores"]
+ms.assetid: a61ada7a-85ef-4ccf-bf1a-903561d41818
+keywords:
+- Windows Media Player online stores,plug-ins
+- online stores,plug-ins
+- type 2 online stores,plug-ins
+- Windows Media Player online stores,building plug-ins
+- online stores,building plug-ins
+- type 2 online stores,building plug-ins
+- plug-ins,Windows Media Player online stores
+- plug-ins,online stores
+- plug-ins,type 2 online stores
+- plug-ins,building
+- Windows Media Player plug-ins,type 2 online stores
+- Windows Media Player plug-ins,online stores
+- Windows Media Player plug-ins,Windows Media Player online stores
+- Windows Media Player plug-ins,building
+- building plug-ins,type 2 online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building the Plug-in for a Type 2 Online Store

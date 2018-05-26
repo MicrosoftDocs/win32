@@ -1,7 +1,12 @@
 ---
-Description: 'Adds generic settings to a virtual system configuration.'
-ms.assetid: 'ae04be39-0401-43e9-b19b-3539ca1786ec'
-title: 'AddSystemComponentSettings method of the Msvm\_VirtualSystemManagementService class'
+Description: Adds generic settings to a virtual system configuration.
+ms.assetid: ae04be39-0401-43e9-b19b-3539ca1786ec
+title: AddSystemComponentSettings method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddSystemComponentSettings method of the Msvm\_VirtualSystemManagementService class
@@ -13,10 +18,10 @@ Adds generic settings to a virtual system configuration.
 
 ```mof
 uint32 AddSystemComponentSettings(
-  [in]  Msvm_VirtualSystemSettingData   REF AffectedConfiguration,
-  [in]  string                              ComponentSettings[],
-  [out] Msvm_SystemComponentSettingData REF ResultingComponentSettings[],
-  [out] CIM_ConcreteJob                 REF Job
+  [in]  Msvm_VirtualSystemSettingData   REF AffectedConfiguration,
+  [in]  string                              ComponentSettings[],
+  [out] Msvm_SystemComponentSettingData REF ResultingComponentSettings[],
+  [out] CIM_ConcreteJob                 REF Job
 );
 ```
 
@@ -89,8 +94,8 @@ On success, returns 0 or 4096; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ On success, returns 0 or 4096; otherwise, returns an error.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

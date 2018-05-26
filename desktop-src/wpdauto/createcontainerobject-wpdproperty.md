@@ -1,14 +1,22 @@
 ---
 title: createContainer.WpdProperty property
 description: The WpdProperty sets the value of a predefined WPD property on this Creation Container object.
-ms.assetid: '0cf19f3f-882c-4ec8-80f6-1f31bb0ed3fa'
-keywords: ["WpdProperty property WPD Automation", "WpdProperty property WPD Automation , createContainer object", "createContainer object WPD Automation , WpdProperty property"]
+ms.assetid: 0cf19f3f-882c-4ec8-80f6-1f31bb0ed3fa
+keywords:
+- WpdProperty property WPD Automation
+- WpdProperty property WPD Automation , createContainer object
+- createContainer object WPD Automation , WpdProperty property
 topic_type:
 - apiref
 api_name:
 - createContainer.WpdProperty
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # createContainer.WpdProperty property
@@ -53,8 +61,8 @@ createContainer.ObjectName = "My Object Name";
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -71,9 +79,9 @@ createContainer.ObjectName = "My Object Name";
 [**Storage Object**](storage-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

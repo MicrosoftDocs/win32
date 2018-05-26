@@ -1,7 +1,12 @@
 ---
-Description: 'The following is a complete service sample. When using this code as a template, simply add code to the sections that are prefaced by TO\_DO.'
-ms.assetid: 'dc968bd2-0397-4cec-a825-f807037b4c14'
-title: 'Svc.cpp'
+Description: The following is a complete service sample. When using this code as a template, simply add code to the sections that are prefaced by TO\_DO.
+ms.assetid: dc968bd2-0397-4cec-a825-f807037b4c14
+title: Svc.cpp
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Svc.cpp

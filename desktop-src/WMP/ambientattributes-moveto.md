@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.moveTo
 description: The moveTo method moves the control to a new location at a linear speed.
-ms.assetid: '8670aa7b-a5c1-4d93-9f48-452bc53e65e6'
-keywords: ["AmbientAttributes.moveTo Windows Media Player"]
+ms.assetid: 8670aa7b-a5c1-4d93-9f48-452bc53e65e6
+keywords:
+- AmbientAttributes.moveTo Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.moveTo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.moveTo
@@ -80,9 +86,9 @@ This method creates a linear motion when moving the control. This differs from *
 [**AmbientAttributes.top**](ambientattributes-top.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: About YUV Video
-ms.assetid: '089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1'
+ms.assetid: 089f42f2-1e5b-4d4b-98a4-9ef0ca2823c1
 title: About YUV Video
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About YUV Video

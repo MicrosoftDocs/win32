@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a suite of crypto algorithms to propose.'
-ms.assetid: '782c9a8b-6b8b-4e4e-b510-5cfe378fba53'
-title: 'MSFT\_NetIKECryptoProposal class'
+Description: Represents a suite of crypto algorithms to propose.
+ms.assetid: 782c9a8b-6b8b-4e4e-b510-5cfe378fba53
+title: MSFT\_NetIKECryptoProposal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIKECryptoProposal class
@@ -28,17 +33,17 @@ The **MSFT\_NetIKECryptoProposal** class does not define any members.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

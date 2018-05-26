@@ -1,7 +1,12 @@
 ---
-Description: 'The CompleteConnect method completes a connection to another pin.'
-ms.assetid: '10cbf29c-2e1a-419c-b0c0-c99f9a285810'
-title: 'CBasePin.CompleteConnect method'
+Description: The CompleteConnect method completes a connection to another pin.
+ms.assetid: 10cbf29c-2e1a-419c-b0c0-c99f9a285810
+title: CBasePin.CompleteConnect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.CompleteConnect method
@@ -13,7 +18,7 @@ The `CompleteConnect` method completes a connection to another pin.
 
 ```C++
 virtual HRESULT CompleteConnect(
-   IPin *pReceivePin
+   IPin *pReceivePin
 );
 ```
 
@@ -26,7 +31,7 @@ virtual HRESULT CompleteConnect(
 *pReceivePin* 
 </dt> <dd>
 
-Pointer to the other pin's [**IPin**](ipin.md) interface.
+Pointer to the other pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> </dl>
 
@@ -60,9 +65,9 @@ If this method fails, the overall connection attempt also fails, and the pin dis
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

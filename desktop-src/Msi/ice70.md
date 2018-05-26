@@ -1,7 +1,12 @@
 ---
-Description: 'ICE70 verifies that integer values for registry entries are specified correctly.'
-ms.assetid: 'f8493622-867b-42e1-9fda-a7c3229bbb4e'
+Description: ICE70 verifies that integer values for registry entries are specified correctly.
+ms.assetid: f8493622-867b-42e1-9fda-a7c3229bbb4e
 title: ICE70
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE70

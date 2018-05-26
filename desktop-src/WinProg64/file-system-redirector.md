@@ -1,8 +1,16 @@
 ---
 title: File System Redirector
 description: The windir \\System32 directory is reserved for 64-bit applications on 64-bit Windows.
-ms.assetid: 'b4d36fe8-8bbb-469b-8ad1-650d559a4c75'
-keywords: ["file system redirector 64-bit Windows Programming", "64-bit Windows programming guide 64-bit Windows Programming , file system redirector", "WOW64 64-bit Windows Programming , file system redirector"]
+ms.assetid: b4d36fe8-8bbb-469b-8ad1-650d559a4c75
+keywords:
+- file system redirector 64-bit Windows Programming
+- 64-bit Windows programming guide 64-bit Windows Programming , file system redirector
+- WOW64 64-bit Windows Programming , file system redirector
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File System Redirector

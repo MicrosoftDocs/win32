@@ -1,8 +1,10 @@
 ---
 title: MDM\_Policy\_Config01\_DeviceLock02 class
 description: The MDM\_Policy\_Config01\_DeviceLock02 class represents the device lock policies available.
-ms.assetid: '222081ec-c38f-481d-ae38-941fd1317197'
-keywords: ["MDM_Policy_Config01_DeviceLock02 class", "MDM_Policy_Config01_DeviceLock02 class, described"]
+ms.assetid: 222081ec-c38f-481d-ae38-941fd1317197
+keywords:
+- MDM_Policy_Config01_DeviceLock02 class
+- MDM_Policy_Config01_DeviceLock02 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Policy\_Config01\_DeviceLock02 class
@@ -103,13 +110,13 @@ Data type: **sint32**
 Access type: Read/write
 </dt> </dl>
 
-DevicePasswordEnabled should not be set to Enabled (0) when WMI is used to set the EAS DeviceLock policies given that it is Enabled by default in Policy CSP for back compat with Windows 8.x. If DevicePasswordEnabled is set to Enabled(0) then Policy CSP will return an error stating that DevicePasswordEnabled already exists. Windows 8.x did not support DevicePassword policy. When disabling DevicePasswordEnabled  (1) then this should be the only policy set from the DeviceLock group of policies below. The policies are listed below: &gt; - DevicePasswordEnabled is the parent policy of the following:
+DevicePasswordEnabled should not be set to Enabled (0) when WMI is used to set the EAS DeviceLock policies given that it is Enabled by default in Policy CSP for back compat with Windows 8.x. If DevicePasswordEnabled is set to Enabled(0) then Policy CSP will return an error stating that DevicePasswordEnabled already exists. Windows 8.x did not support DevicePassword policy. When disabling DevicePasswordEnabled  (1) then this should be the only policy set from the DeviceLock group of policies below. The policies are listed below: &gt; - DevicePasswordEnabled is the parent policy of the following:
 
 -   DevicePasswordEnabled is the parent policy of the following:
     -   AllowSimpleDevicePassword
     -   MinDevicePasswordLength
     -   AlphanumericDevicePasswordRequired is the parent policy of:
-        -   MinDevicePasswordComplexCharacters 
+        -   MinDevicePasswordComplexCharacters 
     -   MaxDevicePasswordFailedAttempts
     -   MaxInactivityTimeDeviceLock
 
@@ -274,7 +281,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -289,9 +296,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

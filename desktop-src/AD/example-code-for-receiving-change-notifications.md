@@ -4,11 +4,15 @@ description: The following code example shows how to use the LDAP change notific
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e1d36d1c-ee50-4c2f-92f6-eee1dae1c5af'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e1d36d1c-ee50-4c2f-92f6-eee1dae1c5af
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory ,receiving change notifications"]
+keywords:
+- Active Directory examples Active Directory ,receiving change notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Receiving Change Notifications

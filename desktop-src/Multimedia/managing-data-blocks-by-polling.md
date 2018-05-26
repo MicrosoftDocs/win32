@@ -1,8 +1,17 @@
 ---
 title: Managing Data Blocks by Polling
 description: Managing Data Blocks by Polling
-ms.assetid: '0a517f1d-4993-49b8-be86-bc63e5687cba'
-keywords: ["waveform audio,polling data blocks", "audio data blocks,polling", "polling audio data blocks", "WAVEHDR structure"]
+ms.assetid: 0a517f1d-4993-49b8-be86-bc63e5687cba
+keywords:
+- waveform audio,polling data blocks
+- audio data blocks,polling
+- polling audio data blocks
+- WAVEHDR structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Data Blocks by Polling

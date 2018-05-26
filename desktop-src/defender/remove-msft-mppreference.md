@@ -1,8 +1,11 @@
 ---
 title: Remove method of the MSFT\_MpPreference class
 description: TBD.
-ms.assetid: 'aeaf1637-5023-47ce-a17c-782c0a7c0b2e'
-keywords: ["Remove method", "Remove method, MSFT_MpPreference class", "MSFT_MpPreference class, Remove method"]
+ms.assetid: aeaf1637-5023-47ce-a17c-782c0a7c0b2e
+keywords:
+- Remove method
+- Remove method, MSFT_MpPreference class
+- MSFT_MpPreference class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - ProtectionManagement.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remove method of the MSFT\_MpPreference class
@@ -22,16 +30,16 @@ TBD
 
 ```mof
 uint32 Remove(
-  [in] string  ExclusionPath[],
-  [in] string  ExclusionExtension[],
-  [in] string  ExclusionProcess[],
-  [in] sint64  ThreatIDDefaultAction_Ids[],
-  [in] boolean UnknownThreatDefaultAction,
-  [in] boolean LowThreatDefaultAction,
-  [in] boolean ModerateThreatDefaultAction,
-  [in] boolean HighThreatDefaultAction,
-  [in] boolean SevereThreatDefaultAction,
-  [in] boolean Force
+  [in] string  ExclusionPath[],
+  [in] string  ExclusionExtension[],
+  [in] string  ExclusionProcess[],
+  [in] sint64  ThreatIDDefaultAction_Ids[],
+  [in] boolean UnknownThreatDefaultAction,
+  [in] boolean LowThreatDefaultAction,
+  [in] boolean ModerateThreatDefaultAction,
+  [in] boolean HighThreatDefaultAction,
+  [in] boolean SevereThreatDefaultAction,
+  [in] boolean Force
 );
 ```
 
@@ -222,8 +230,8 @@ A user confirmation is sought by default by this cmdlet. If -Force is specified,
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
@@ -237,9 +245,9 @@ A user confirmation is sought by default by this cmdlet. If -Force is specified,
 [**MSFT\_MpPreference**](msft-mppreference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

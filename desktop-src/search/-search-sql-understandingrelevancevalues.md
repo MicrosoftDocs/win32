@@ -1,7 +1,12 @@
 ---
-Description: 'In a relational database, rows that are returned by a search query must meet all the conditions called for by the query. In contrast, a Windows Search query can return documents that meet the search conditions to varying degrees.'
-ms.assetid: '9f37b494-9b7a-45a6-9ee4-6d582742cbd7'
+Description: In a relational database, rows that are returned by a search query must meet all the conditions called for by the query. In contrast, a Windows Search query can return documents that meet the search conditions to varying degrees.
+ms.assetid: 9f37b494-9b7a-45a6-9ee4-6d582742cbd7
 title: Understanding Relevance Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding Relevance Values

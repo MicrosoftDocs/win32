@@ -1,7 +1,12 @@
 ---
-Description: 'Provides information about the network connectivity for a virtual machine.'
-ms.assetid: '59503c1b-203b-46ec-8a65-f21a746f170f'
-title: 'Msvm\_NetworkConnectionDiagnosticInformation class'
+Description: Provides information about the network connectivity for a virtual machine.
+ms.assetid: 59503c1b-203b-46ec-8a65-f21a746f170f
+title: Msvm\_NetworkConnectionDiagnosticInformation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_NetworkConnectionDiagnosticInformation class
@@ -51,17 +56,17 @@ The round trip time for the ping request.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

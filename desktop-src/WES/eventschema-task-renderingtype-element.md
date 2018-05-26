@@ -1,14 +1,20 @@
 ---
 title: Task (RenderingInfoType) Element
 description: The rendered message string of the task specified in the event.
-ms.assetid: 'c485eeee-e809-4f84-b3fd-cc7e3349433b'
-keywords: ["Task element EventLog"]
+ms.assetid: c485eeee-e809-4f84-b3fd-cc7e3349433b
+keywords:
+- Task element EventLog
 topic_type:
 - apiref
 api_name:
 - Task
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task (RenderingInfoType) Element
@@ -29,8 +35,8 @@ The **Task** element is defined by the [**RenderingInfoType**](eventschema-rende
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Task** element is defined by the [**RenderingInfoType**](eventschema-rende
 [**RenderingInfo (EventType)**](eventschema-renderinginfo-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

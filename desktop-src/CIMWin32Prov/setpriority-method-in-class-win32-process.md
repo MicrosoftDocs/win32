@@ -1,15 +1,18 @@
 ---
-Description: 'The SetPriority&\#32;WMI class method attempts to change the execution priority of the process.'
+Description: The SetPriority&\#32;WMI class method attempts to change the execution priority of the process.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ef012e9e-ff65-4881-835e-ddab23af9333'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ef012e9e-ff65-4881-835e-ddab23af9333
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetPriority method of the Win32\_Process class'
+title: SetPriority method of the Win32\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetPriority method of the Win32\_Process class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetPriority(
-  [in] sint32 Priority
+  [in] sint32 Priority
 );
 ```
 
@@ -130,7 +133,7 @@ Returns one of the values listed in the following list, or a different value to 
 **Invalid parameter** (21)
 </dt> <dt>
 
-**Other** (22–4294967295)
+**Other** (22 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -147,8 +150,8 @@ The [Modify the Priority Of a Running Process](https://Gallery.TechNet.Microsoft
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -165,9 +168,9 @@ The [Modify the Priority Of a Running Process](https://Gallery.TechNet.Microsoft
 [**Win32\_Process**](win32-process.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: D2D\_PS\_ENTRY function
 description: A macro that defines a pixel shader entry point with the given function name.
-ms.assetid: '4C87369A-EF51-46BA-9CA4-386630A7F866'
-keywords: ["D2D_PS_ENTRY function Direct2D"]
+ms.assetid: 4C87369A-EF51-46BA-9CA4-386630A7F866
+keywords:
+- D2D_PS_ENTRY function Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D2D\_PS\_ENTRY function
@@ -21,7 +27,7 @@ A macro that defines a pixel shader entry point with the given function name.
 
 ``` syntax
 void WINAPI D2D_PS_ENTRY(
-  in string Entryname
+  in string Entryname
 );
 ```
 
@@ -42,12 +48,12 @@ This function does not return a value.
 
 ## Remarks
 
-Use this macro instead of specifying the entry point’s input signature in the normal manner: all parameters are implicit and added by Direct2D during compilation depending on the compilation target type (full shader or export function).
+Use this macro instead of specifying the entry point s input signature in the normal manner: all parameters are implicit and added by Direct2D during compilation depending on the compilation target type (full shader or export function).
 
 ``` syntax
 #define D2D_INPUT_COUNT 1 
 #define D2D_INPUT0_SIMPLE 
-#include “d2d1effectauthor.hlsli” 
+#include  d2d1effectauthor.hlsli  
 
 D2D_PS_ENTRY(LinkingCompatiblePixelShader) 
 { 
@@ -120,9 +126,9 @@ Note that the texture input, normally retrieved by sampling a Texture2D, has bee
 [HLSL Helpers](hlsl-helpers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

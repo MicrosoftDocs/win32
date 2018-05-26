@@ -4,11 +4,15 @@ description: The following sections provide an overview of the Server Data Objec
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e90a11aa-ed47-4ed3-9736-ca23c85232a1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: e90a11aa-ed47-4ed3-9736-ca23c85232a1
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
-keywords: ["Server Data Objects SDO ,about"]
+keywords:
+- Server Data Objects SDO ,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Server Data Objects

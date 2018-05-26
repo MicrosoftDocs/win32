@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a Work Folders sync share, which is a file share that is managed by Work Folders.'
+Description: Represents a Work Folders sync share, which is a file share that is managed by Work Folders.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7ad4d727-ab5e-43d1-9797-354256d5a867'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7ad4d727-ab5e-43d1-9797-354256d5a867
+ms.prod: windows-server-dev
 ms.technology:
-- 'work-folders'
-- 'windows-management-instrumentation'
+- work-folders
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Msft\_SyncShare class'
+title: Msft\_SyncShare class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_SyncShare class
@@ -24,20 +27,20 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("SyncShareServerWmiProvider")]
 class Msft_SyncShare
 {
-  string  Name;
-  string  Description;
-  string  Type;
-  string  Path;
-  string  UserFolderName;
-  string  User[];
+  string  Name;
+  string  Description;
+  string  Type;
+  string  Path;
+  string  UserFolderName;
+  string  User[];
   boolean InheritParentFolderPermission;
   boolean Enabled;
-  string  StagingFolder;
-  uint64  MaxUploadFile;
+  string  StagingFolder;
+  uint64  MaxUploadFile;
   boolean RequireEncryption;
   boolean RequirePasswordAutoLock;
-  string  FallbackEnterpriseID;
-  string  PasswordAutolockExcludeDomain[];
+  string  FallbackEnterpriseID;
+  string  PasswordAutolockExcludeDomain[];
 };
 ```
 
@@ -62,7 +65,7 @@ The **Msft\_SyncShare** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -169,7 +172,7 @@ Access type: Read/write
 
 Specifies a list of domain names in fully qualified domain name (FQDN) format whose clients are to be exempted from the password policy. If the **RequirePasswordAutoLock** property on the sync share is **False**, then this property has no effect. If the **RequirePasswordAutoLock** property is **True**, then clients that are members of the specified domains are not requested by Work Folders to enforce password length and lock policies on the device. It is assumed that their security is managed by the Group Policy of their domain.
 
-**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 8.1 Update and Windows Server 2012 R2 Update.
+**Windows 8.1 and Windows Server 2012 R2:** This property is not supported before Windows 8.1 Update and Windows Server 2012 R2 Update.
 
 </dd> <dt>
 
@@ -264,7 +267,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Specifies a folder-naming format for the user folder on the sync share. To maintain compatibility with existing user folders that use aliases for their names, specify *user*, which is required, or omit this property. To eliminate conflicts between identical user aliases in different domains, specify *user*@*domain*. You can also specify a relative path under the sync share root; for example, UserData\\*user*. Sync share creates each user folder during the first sync operation, if it doesn’t already exist. If the user folder exists, confirm that the user has Read/Write or Full Control permissions and is the owner of their folder, unless the folder is owned by an Administrators group.
+Specifies a folder-naming format for the user folder on the sync share. To maintain compatibility with existing user folders that use aliases for their names, specify *user*, which is required, or omit this property. To eliminate conflicts between identical user aliases in different domains, specify *user*@*domain*. You can also specify a relative path under the sync share root; for example, UserData\\*user*. Sync share creates each user folder during the first sync operation, if it doesn t already exist. If the user folder exists, confirm that the user has Read/Write or Full Control permissions and is the owner of their folder, unless the folder is owned by an Administrators group.
 
 </dd> </dl>
 
@@ -274,8 +277,8 @@ Specifies a folder-naming format for the user folder on the sync share. To maint
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\SyncShareServer<br/>                                        |
 | MOF<br/>                      | <dl> <dt>ECSServer.Mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>SyncShareSvc.dll</dt> </dl> |
@@ -289,9 +292,9 @@ Specifies a folder-naming format for the user folder on the sync share. To maint
 [Work Folders Management Classes](sync-share-server-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

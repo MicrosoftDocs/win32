@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies how to configure the Windows search engine with respect to a given property definition.'
-ms.assetid: '1cb0b630-323c-41cf-8aaf-db3028b2e369'
+---
+Description: Specifies how to configure the Windows search engine with respect to a given property definition.
+ms.assetid: 1cb0b630-323c-41cf-8aaf-db3028b2e369
 title: searchInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # searchInfo

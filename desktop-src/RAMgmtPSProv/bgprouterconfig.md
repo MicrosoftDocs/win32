@@ -2,13 +2,15 @@
 title: BgpRouterConfig class
 description: Retrieves the routing domain configuration of a Border Gateway Protocol (BGP) router.
 audience: developer
-ms.assetid: '2bc56cd9-96b1-42a1-8a3d-c3c756f1b9e2'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2bc56cd9-96b1-42a1-8a3d-c3c756f1b9e2
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["BgpRouterConfig class", "BgpRouterConfig class, described"]
+keywords:
+- BgpRouterConfig class
+- BgpRouterConfig class, described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BgpRouterConfig class
@@ -44,19 +49,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class BgpRouterConfig
 {
-  string  RoutingDomain;
-  string  BgpIdentifier;
-  uint32  LocalASN;
-  uint32  IPv6Routing;
-  string  LocalIPv6Address;
+  string  RoutingDomain;
+  string  BgpIdentifier;
+  uint32  LocalASN;
+  uint32  IPv6Routing;
+  string  LocalIPv6Address;
   boolean CompareMEDAcrossASN;
   boolean DefaultGatewayRouting;
-  string  PeerName[];
-  string  PolicyName[];
-  uint32  TransitRouting;
-  uint32  RouteReflector;
-  uint32  ClusterId;
-  uint32  ClientToClientReflection;
+  string  PeerName[];
+  string  PolicyName[];
+  uint32  TransitRouting;
+  uint32  RouteReflector;
+  uint32  ClusterId;
+  uint32  ClientToClientReflection;
 };
 ```
 
@@ -96,7 +101,7 @@ Access type: Read-only
 
 Whether client to client reflection is enabled.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -111,7 +116,7 @@ Access type: Read-only
 
 The cluster id of the route reflector.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -217,7 +222,7 @@ Access type: Read-only
 
 Whether the Bgp router will act as a route reflector.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -235,7 +240,7 @@ The user defined alphanumeric ID of the routing domain.
 > [!Note]  
 > This property is only used with multi-tenant deployments.
 
- 
+ 
 
 </dd> <dt>
 
@@ -250,7 +255,7 @@ Access type: Read-only
 
 Whether transit routing is enabled.
 
-**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This property is not supported before Windows Server 2016.
 
 </dd> </dl>
 
@@ -261,7 +266,7 @@ Whether transit routing is enabled.
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                               |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -275,9 +280,9 @@ Whether transit routing is enabled.
 [RAMgmtPSProvider Provider Classes](remote-access-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

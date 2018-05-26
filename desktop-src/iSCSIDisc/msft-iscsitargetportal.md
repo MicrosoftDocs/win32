@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents an iSCSI target portal.'
-ms.assetid: '13125658-2FA4-4A3D-93BC-CBB804F4F0A6'
-title: 'MSFT\_iSCSITargetPortal class'
+---
+Description: Represents an iSCSI target portal.
+ms.assetid: 13125658-2FA4-4A3D-93BC-CBB804F4F0A6
+title: MSFT\_iSCSITargetPortal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSITargetPortal class

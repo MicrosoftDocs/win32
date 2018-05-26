@@ -1,7 +1,12 @@
 ---
-Description: 'Describes overall configuration and state for BranchCache.'
-ms.assetid: 'a1255139-3178-466f-8e26-82094e664380'
-title: 'MSFT\_NetBranchCacheStatus class'
+Description: Describes overall configuration and state for BranchCache.
+ms.assetid: a1255139-3178-466f-8e26-82094e664380
+title: MSFT\_NetBranchCacheStatus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetBranchCacheStatus class
@@ -16,16 +21,16 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetPeerDist")]
 class MSFT_NetBranchCacheStatus : CIM_LogicalElement
 {
-  string  InstanceID;
+  string  InstanceID;
   boolean BranchCacheIsEnabled;
-  uint32  BranchCacheServiceStatus;
-  uint32  BranchCacheServiceStartType;
-  string  ClientConfiguration;
-  string  ContentServerConfiguration;
-  string  HostedCacheServerConfiguration;
-  string  NetworkConfiguration;
-  string  HashCache;
-  string  DataCache;
+  uint32  BranchCacheServiceStatus;
+  uint32  BranchCacheServiceStartType;
+  string  ClientConfiguration;
+  string  ContentServerConfiguration;
+  string  HostedCacheServerConfiguration;
+  string  NetworkConfiguration;
+  string  HashCache;
+  string  DataCache;
 };
 ```
 
@@ -180,17 +185,17 @@ BranchCache networking configuration
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported client<br/> | Windows 8<br/>                                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>NetPeerDistCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetPeerDistCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

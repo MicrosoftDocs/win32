@@ -1,8 +1,16 @@
 ---
 title: HttpCalculatorWithKerberosOverSslClientExample
 description: This example shows a HTTP client that uses service proxy to talk to a calculator service, with kerberos over SSL mixed-mode security.
-ms.assetid: 'eb3ae71f-0bbb-42d7-af81-20c5dbb03c3f'
-keywords: ["HttpCalculatorWithKerberosOverSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: eb3ae71f-0bbb-42d7-af81-20c5dbb03c3f
+keywords:
+- HttpCalculatorWithKerberosOverSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpCalculatorWithKerberosOverSslClientExample

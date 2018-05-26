@@ -1,7 +1,12 @@
 ---
-Description: 'The MigrateFeatureStates action is used during upgrading and when installing a new application over a related application.'
-ms.assetid: '3f53c555-02a9-4249-9f1a-98cd655fc79f'
+Description: The MigrateFeatureStates action is used during upgrading and when installing a new application over a related application.
+ms.assetid: 3f53c555-02a9-4249-9f1a-98cd655fc79f
 title: MigrateFeatureStates Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MigrateFeatureStates Action

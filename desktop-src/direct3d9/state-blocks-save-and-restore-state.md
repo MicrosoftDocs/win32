@@ -1,7 +1,12 @@
 ---
-Description: 'A state block is a group of device states.'
-ms.assetid: '6b1917a8-8685-40c3-983d-6bd2fed95642'
-title: 'State Blocks Save and Restore State (Direct3D 9)'
+Description: A state block is a group of device states.
+ms.assetid: 6b1917a8-8685-40c3-983d-6bd2fed95642
+title: State Blocks Save and Restore State (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # State Blocks Save and Restore State (Direct3D 9)
@@ -20,13 +25,13 @@ pd3dDevice->CreateStateBlock( D3DSBT_ALL, &amp;pStateBlock );
 
 
 
-[**IDirect3DDevice9::CreateStateBlock**](idirect3ddevice9--createstateblock.md) creates a state block, and automatically captures the device state. The device state is specified by the state block type in the first argument. This state can be one of the following: all device state (see [Saving All Device States with a StateBlock (Direct3D 9)](saving-all-device-states-with-a-stateblock.md)), all pixel state (see [Saving Pixel State With a StateBlock (Direct3D 9)](saving-pixel-states-with-a-stateblock.md)), or all vertex state (see [Saving Vertex States With a StateBlock (Direct3D 9)](saving-vertex-states-with-a-stateblock.md)).
+[**IDirect3DDevice9::CreateStateBlock**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-createstateblock?branch=master) creates a state block, and automatically captures the device state. The device state is specified by the state block type in the first argument. This state can be one of the following: all device state (see [Saving All Device States with a StateBlock (Direct3D 9)](saving-all-device-states-with-a-stateblock.md)), all pixel state (see [Saving Pixel State With a StateBlock (Direct3D 9)](saving-pixel-states-with-a-stateblock.md)), or all vertex state (see [Saving Vertex States With a StateBlock (Direct3D 9)](saving-vertex-states-with-a-stateblock.md)).
 
 The effect system uses a state block to save state. After [**ID3DXEffect::Begin**](id3dxeffect--begin.md) is called, a state block is created and state is captured. When [**ID3DXEffect::End**](id3dxeffect--end.md) is called, the state block state is reapplied to the device.
 
 ## Capture Individual States
 
-To save a custom state sequence, wrap the state that you want to save in a [**IDirect3DDevice9::BeginStateBlock**](idirect3ddevice9--beginstateblock.md) and [**IDirect3DDevice9::EndStateBlock**](idirect3ddevice9--endstateblock.md) pair. BeginStateBlock tells the current device to set up a state block and add to it every state change that occurs until EndStateBlock is called. Here's an example:
+To save a custom state sequence, wrap the state that you want to save in a [**IDirect3DDevice9::BeginStateBlock**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-beginstateblock?branch=master) and [**IDirect3DDevice9::EndStateBlock**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-endstateblock?branch=master) pair. BeginStateBlock tells the current device to set up a state block and add to it every state change that occurs until EndStateBlock is called. Here's an example:
 
 
 ```
@@ -38,7 +43,7 @@ pd3dDevice->EndStateBlock( &amp;pStateBlock );
 
 
 
-This will save any number of state changes in any sequence to a custom stateblock. Later, when you want to use the stateblock to reset the device state, call [**IDirect3DStateBlock9::Apply**](idirect3dstateblock9--apply.md). This will overwrite only the device state that has been captured in the state block. Any other device state that was not captured with the custom stateblock will not be changed. Once again, since the stateblock object is an interface, you will need to release it when you are done with it.
+This will save any number of state changes in any sequence to a custom stateblock. Later, when you want to use the stateblock to reset the device state, call [**IDirect3DStateBlock9::Apply**](/windows/win32/d3d9helper/nf-d3d9-idirect3dstateblock9-apply?branch=master). This will overwrite only the device state that has been captured in the state block. Any other device state that was not captured with the custom stateblock will not be changed. Once again, since the stateblock object is an interface, you will need to release it when you are done with it.
 
 ## Related topics
 

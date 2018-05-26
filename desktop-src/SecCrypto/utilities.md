@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides functionality for random number generation, conversions, and encoding and decoding from base64.'
-ms.assetid: 'c0073361-5d0d-4915-8110-02f6e1e0714e'
+---
+Description: Provides functionality for random number generation, conversions, and encoding and decoding from base64.
+ms.assetid: c0073361-5d0d-4915-8110-02f6e1e0714e
 title: Utilities object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Utilities object

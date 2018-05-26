@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_BDB\_ANSI\_381\_HEADER structure
 description: Specifies information about a series of fingerprint or palm samples.
-ms.assetid: '8b0caa50-9bba-45c4-b4bf-514540894793'
-keywords: ["WINBIO_BDB_ANSI_381_HEADER structure Windows Biometric Framework API"]
+ms.assetid: 8b0caa50-9bba-45c4-b4bf-514540894793
+keywords:
+- WINBIO_BDB_ANSI_381_HEADER structure Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BDB\_ANSI\_381\_HEADER structure
@@ -22,21 +28,21 @@ The **WINBIO\_BDB\_ANSI\_381\_HEADER** structure specifies information about a s
 
 ```C++
 typedef struct _WINBIO_BDB_ANSI_381_HEADER {
-  ULONG64                  RecordLength;
-  ULONG                    FormatIdentifier;
-  ULONG                    VersionNumber;
+  ULONG64                  RecordLength;
+  ULONG                    FormatIdentifier;
+  ULONG                    VersionNumber;
   WINBIO_REGISTERED_FORMAT ProductId;
-  USHORT                   CaptureDeviceId;
-  USHORT                   ImageAcquisitionLevel;
-  USHORT                   HorizontalScanResolution;
-  USHORT                   VerticalScanResolution;
-  USHORT                   HorizontalImageResolution;
-  USHORT                   VerticalImageResolution;
-  UCHAR                    ElementCount;
-  UCHAR                    ScaleUnits;
-  UCHAR                    PixelDepth;
-  UCHAR                    ImageCompressionAlg;
-  USHORT                   Reserved;
+  USHORT                   CaptureDeviceId;
+  USHORT                   ImageAcquisitionLevel;
+  USHORT                   HorizontalScanResolution;
+  USHORT                   VerticalScanResolution;
+  USHORT                   HorizontalImageResolution;
+  USHORT                   VerticalImageResolution;
+  UCHAR                    ElementCount;
+  UCHAR                    ScaleUnits;
+  UCHAR                    PixelDepth;
+  UCHAR                    ImageCompressionAlg;
+  USHORT                   Reserved;
 } WINBIO_BDB_ANSI_381_HEADER;
 ```
 
@@ -153,8 +159,8 @@ Specifies the algorithm used to compress the finger or palm image.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -166,9 +172,9 @@ Specifies the algorithm used to compress the finger or palm image.
 [Client Application Structures](client-application-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

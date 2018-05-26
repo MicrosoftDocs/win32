@@ -1,8 +1,10 @@
 ---
 title: Properties object
 description: Contains a collection of all the Property objects associated with a given Device, DeviceInfo, Filter, ImageFile, or Item object. See the Properties property on any of these objects for details about accessing the Properties object.
-ms.assetid: '961252bd-cf93-4f7a-9a46-816bfe7d9afd'
-keywords: ["Properties object WIA Automation", "Properties object WIA Automation , described"]
+ms.assetid: 961252bd-cf93-4f7a-9a46-816bfe7d9afd
+keywords:
+- Properties object WIA Automation
+- Properties object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties object
@@ -36,7 +43,7 @@ The **Properties** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -51,7 +58,7 @@ The **Properties** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,7 +82,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Examples
 
@@ -103,8 +110,8 @@ Next
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -132,9 +139,9 @@ Next
 [**Properties (Item)**](-wiaaut-iitem-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

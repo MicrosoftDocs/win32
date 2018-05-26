@@ -1,8 +1,9 @@
 ---
 title: glRasterPos2s function
 description: Specifies the raster position for pixel operations.
-ms.assetid: 'e8055d0e-10b7-4878-92b1-a8019aaa89d1'
-keywords: ["glRasterPos2s function OpenGL"]
+ms.assetid: e8055d0e-10b7-4878-92b1-a8019aaa89d1
+keywords:
+- glRasterPos2s function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glRasterPos2s function
@@ -22,8 +28,8 @@ Specifies the raster position for pixel operations.
 
 ```C++
 void WINAPI glRasterPos2s(
-   GLshort x,
-   GLshort y
+   GLshort x,
+   GLshort y
 );
 ```
 
@@ -68,12 +74,12 @@ Initially, the current raster position is (0,0,0,1), the current raster distance
 > [!Note]  
 > The raster position is modified both by [glRasterPos](glrasterpos-functions.md) and by [**glBitmap**](glbitmap.md).
 
- 
+ 
 
 > [!Note]  
 > When the raster position coordinates are invalid, drawing commands that are based on the raster position are ignored (that is, they do not result in changes to the OpenGL state).
 
- 
+ 
 
 The following functions retrieve information related to [glRasterPos](glrasterpos-functions.md):
 
@@ -93,8 +99,8 @@ The following functions retrieve information related to [glRasterPos](glrasterpo
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -138,9 +144,9 @@ The following functions retrieve information related to [glRasterPos](glrasterpo
 [glVertex](glvertex-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

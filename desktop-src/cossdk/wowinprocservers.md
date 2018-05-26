@@ -1,14 +1,19 @@
 ---
-Description: 'Contains a list of the in-process servers registered with the system for 32-bit components on 64-bit computers. It contains an object for each component.'
-ms.assetid: '4dbcf059-b09b-4a65-95c9-3a4735c252c3'
+Description: Contains a list of the in-process servers registered with the system for 32-bit components on 64-bit computers. It contains an object for each component.
+ms.assetid: 4dbcf059-b09b-4a65-95c9-3a4735c252c3
 title: WOWInprocServers collection
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WOWInprocServers collection
 
 Contains a list of the in-process servers registered with the system for 32-bit components on 64-bit computers. It contains an object for each component.
 
-This collection supports the [**Remove**](icatalogcollection-remove.md) method of the [**COMAdminCatalogCollection**](comadmincatalogcollection.md) object, but not the [**Add**](icatalogcollection-add.md) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](comadmincatalog.md) object.
+This collection supports the [**Remove**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-remove?branch=master) method of the [**COMAdminCatalogCollection**](/windows/win32/ComAdmin/?branch=master) object, but not the [**Add**](/windows/win32/ComAdmin/nf-comadmin-icatalogcollection-add?branch=master) method. To install or import components into an application, use methods on the [**COMAdminCatalog**](/windows/win32/ComAdmin/?branch=master) object.
 
 ## Members
 
@@ -27,7 +32,7 @@ You can navigate to this collection from the following collections:
 
 ## Properties
 
-The following properties are supported by the [**COMAdminCatalogObject**](comadmincatalogobject.md) object within the collection:
+The following properties are supported by the [**COMAdminCatalogObject**](/windows/win32/ComAdmin/?branch=master) object within the collection:
 
 -   [CLSID](#clsid)
 -   [InprocServer32](#inprocserver32)
@@ -39,7 +44,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                           |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A GUID for the component. This property is returned when the [**Key**](icatalogobject-key.md) property method is called on an object of this collection. |
+| Description    | A GUID for the component. This property is returned when the [**Key**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_key?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
 | Type           | String                                                                                                                                                    |
 | Default        | N/A                                                                                                                                                       |
@@ -71,7 +76,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 |                |                                                                                                                                                                     |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | A name identifying the component. This property is returned when the [**Name**](icatalogobject-name.md) property method is called on an object of this collection. |
+| Description    | A name identifying the component. This property is returned when the [**Name**](/windows/win32/ComAdmin/nf-comadmin-icatalogobject-get_name?branch=master) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                            |
 | Type           | String                                                                                                                                                              |
 | Default        | N/A                                                                                                                                                                 |

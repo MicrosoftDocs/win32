@@ -1,14 +1,21 @@
 ---
 title: EventTrigger (triggerGroup) Element
 description: Specifies a trigger that starts a task when a system event occurs.
-ms.assetid: '8faffc04-1ad2-499d-bcdf-bc28f64b8aa8'
-keywords: ["event trigger Task Scheduler , element", "EventTrigger element Task Scheduler"]
+ms.assetid: 8faffc04-1ad2-499d-bcdf-bc28f64b8aa8
+keywords:
+- event trigger Task Scheduler , element
+- EventTrigger element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - EventTrigger
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EventTrigger (triggerGroup) Element
@@ -64,7 +71,7 @@ A maximum of 500 tasks with event subscriptions can be created. An event subscri
 
 For script development, an event trigger is defined by the [**EventTrigger**](eventtrigger.md) object.
 
-For C++ development, an event trigger is defined by the [**IEventTrigger**](ieventtrigger.md) interface.
+For C++ development, an event trigger is defined by the [**IEventTrigger**](/windows/win32/taskschd/nn-taskschd-ieventtrigger?branch=master) interface.
 
 ## Examples
 
@@ -76,8 +83,8 @@ For a complete example of the XML for a task that uses an event trigger, see [Ev
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -88,9 +95,9 @@ For a complete example of the XML for a task that uses an event trigger, see [Ev
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

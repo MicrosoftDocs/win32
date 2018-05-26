@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Shell uses a programmatic identifier (ProgID) registry subkey to associate a file type with an application, and to control the behavior of the association.'
-ms.assetid: 'f2b666d6-bf22-47b5-87e1-8de5ff51c152'
+---
+Description: The Shell uses a programmatic identifier (ProgID) registry subkey to associate a file type with an application, and to control the behavior of the association.
+ms.assetid: f2b666d6-bf22-47b5-87e1-8de5ff51c152
 title: Programmatic Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programmatic Identifiers
@@ -50,7 +55,7 @@ A ProgID subkey should include the following elements. Note that some string dat
 </tr>
 <tr class="even">
 <td><strong>EditFlags</strong></td>
-<td>Set this optional entry using flags from the [<strong>FILETYPEATTRIBUTEFLAGS</strong>](filetypeattributeflags.md) enumeration. The EditFlags entry controls some aspects of the Shell's handling of the file types linked to this ProgID. You can also use the EditFlags entry to limit how much the user can modify certain aspects of these file types using a file's property sheet. The <strong>FILETYPEATTRIBUTEFLAGS</strong> values used for EditFlags are binary values designed so that you can combine multiple attributes into a single value in a bitwise OR operation. This is a REG_DWORD or REG_BINARY value.<br/></td>
+<td>Set this optional entry using flags from the [<strong>FILETYPEATTRIBUTEFLAGS</strong>](/windows/win32/Shlwapi/ne-shlwapi-filetypeattributeflags?branch=master) enumeration. The EditFlags entry controls some aspects of the Shell's handling of the file types linked to this ProgID. You can also use the EditFlags entry to limit how much the user can modify certain aspects of these file types using a file's property sheet. The <strong>FILETYPEATTRIBUTEFLAGS</strong> values used for EditFlags are binary values designed so that you can combine multiple attributes into a single value in a bitwise OR operation. This is a REG_DWORD or REG_BINARY value.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FriendlyTypeName</strong></td>

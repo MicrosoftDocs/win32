@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSubpictureLanguage method retrieves the language for the specified subpicture stream.'
-ms.assetid: '2a2e6961-99c3-4200-b462-b381f9e37066'
+Description: The GetSubpictureLanguage method retrieves the language for the specified subpicture stream.
+ms.assetid: 2a2e6961-99c3-4200-b462-b381f9e37066
 title: GetSubpictureLanguage Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSubpictureLanguage Method

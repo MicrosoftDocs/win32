@@ -1,7 +1,12 @@
 ---
 title: Packaging, deployment, and query of Windows Store apps
 description: Programmatically create app packages for Windows Store apps, and install, update, query, and uninstall app packages.
-ms.assetid: '4ea65e62-4878-41fd-9ad8-424b1546f02a'
+ms.assetid: 4ea65e62-4878-41fd-9ad8-424b1546f02a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packaging, deployment, and query of Windows Store apps

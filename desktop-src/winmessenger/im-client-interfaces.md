@@ -1,7 +1,12 @@
 ---
 title: Client Interfaces
 description: Client Interfaces
-ms.assetid: '5DDD5963-A5E9-46C1-A95C-C31F0ADC7F7D'
+ms.assetid: 5DDD5963-A5E9-46C1-A95C-C31F0ADC7F7D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Interfaces

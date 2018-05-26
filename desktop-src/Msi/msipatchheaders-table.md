@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiPatchHeaders table holds the binary patch header streams used for patch validation.'
-ms.assetid: 'aefdd365-1681-43e4-8470-04a5d6efd993'
+Description: The MsiPatchHeaders table holds the binary patch header streams used for patch validation.
+ms.assetid: aefdd365-1681-43e4-8470-04a5d6efd993
 title: MsiPatchHeaders Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiPatchHeaders Table

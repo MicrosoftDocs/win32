@@ -1,8 +1,9 @@
 ---
 title: Network.receivedPackets
 description: The receivedPackets property retrieves the number of packets received.
-ms.assetid: 'db4f6f08-c248-4db8-ab19-fdd5d2794085'
-keywords: ["Network.receivedPackets Windows Media Player"]
+ms.assetid: db4f6f08-c248-4db8-ab19-fdd5d2794085
+keywords:
+- Network.receivedPackets Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network.receivedPackets
@@ -80,9 +86,9 @@ function UpdateRP(){
 [**Network Object**](network-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 Description: Device Properties
-ms.assetid: 'ad8753ba-ad20-4122-b0f2-eb165f98db67'
+ms.assetid: ad8753ba-ad20-4122-b0f2-eb165f98db67
 title: Device Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Properties
 
-During the process of enumerating [audio endpoint devices](audio-endpoint-devices.md), a client application can interrogate the endpoint objects for their device properties. The device properties are exposed in MMDevice API's implementation of the **IPropertyStore** interface. Given a reference to the [**IMMDevice**](immdevice.md) interface of an endpoint object, a client can obtain a reference to the endpoint object's property store by calling the [**IMMDevice::OpenPropertyStore**](immdevice-openpropertystore.md) method.
+During the process of enumerating [audio endpoint devices](audio-endpoint-devices.md), a client application can interrogate the endpoint objects for their device properties. The device properties are exposed in MMDevice API's implementation of the **IPropertyStore** interface. Given a reference to the [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface of an endpoint object, a client can obtain a reference to the endpoint object's property store by calling the [**IMMDevice::OpenPropertyStore**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore?branch=master) method.
 
 The property-store object exposes an **IPropertyStore** interface. The two primary methods in this interface are **IPropertyStore::GetValue**, which gets a device property value, and **IPropertyStore::SetValue**, which sets a device property value. For more information about **IPropertyStore**, see the Windows SDK documentation.
 
@@ -129,7 +134,7 @@ Exit:
 
 The FAILED macro in the preceding code example is defined in header file Winerror.h.
 
-In the preceding code example, the **for**-loop body in the PrintEndpointNames function calls the [**IMMDevice::GetId**](immdevice-getid.md) method to obtain the [endpoint ID string](endpoint-id-strings.md) for the audio endpoint device that is represented by the **IMMDevice** interface instance. The string uniquely identifies the device with respect to all of the other audio endpoint devices in the system. A client can use the endpoint ID string to create an instance of the audio endpoint device at a later time or in a different process by calling the [**IMMDeviceEnumerator::GetDevice**](immdeviceenumerator-getdevice.md) method. Clients should treat the contents of the endpoint ID string as opaque. That is, clients should not attempt to parse the contents of the string to obtain information about the device. The reason is that the string format is undefined and might change from one implementation of the MMDevice API to the next.
+In the preceding code example, the **for**-loop body in the PrintEndpointNames function calls the [**IMMDevice::GetId**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-getid?branch=master) method to obtain the [endpoint ID string](endpoint-id-strings.md) for the audio endpoint device that is represented by the **IMMDevice** interface instance. The string uniquely identifies the device with respect to all of the other audio endpoint devices in the system. A client can use the endpoint ID string to create an instance of the audio endpoint device at a later time or in a different process by calling the [**IMMDeviceEnumerator::GetDevice**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice?branch=master) method. Clients should treat the contents of the endpoint ID string as opaque. That is, clients should not attempt to parse the contents of the string to obtain information about the device. The reason is that the string format is undefined and might change from one implementation of the MMDevice API to the next.
 
 The friendly device names and endpoint ID strings that are obtained by the PrintEndpointNames function in the preceding code example are identical to the friendly device names and endpoint ID strings that are provided by DirectSound during device enumeration. For more information, see [Audio Events for Legacy Audio Applications](audio-events-for-legacy-audio-applications.md).
 

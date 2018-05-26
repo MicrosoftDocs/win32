@@ -1,13 +1,16 @@
 ---
-Description: 'Controls the cache when a property provider is unloaded.'
+Description: Controls the cache when a property provider is unloaded.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '8fc7de7a-889c-4d53-97ea-a676879de1d3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 8fc7de7a-889c-4d53-97ea-a676879de1d3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_PropertyProviderCacheControl class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_PropertyProviderCacheControl class
@@ -60,8 +63,8 @@ The **\_\_PropertyProviderCacheControl** class is derived from [**\_\_CacheContr
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -73,9 +76,9 @@ The **\_\_PropertyProviderCacheControl** class is derived from [**\_\_CacheContr
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

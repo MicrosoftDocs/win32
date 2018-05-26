@@ -4,11 +4,15 @@ description: How to build a property table using the Failover Cluster API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0b1306d1-b1b4-49c3-8163-73078f5bf9cf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0b1306d1-b1b4-49c3-8163-73078f5bf9cf
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["property tables Failover Cluster ,building"]
+keywords:
+- property tables Failover Cluster ,building
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Building Property Tables
@@ -18,7 +22,7 @@ The following procedure describes how to build a [property table](property-table
 **To build a property table for an object**
 
 1.  Construct a [parameter block](parameter-blocks.md) (see [Using Parameter Blocks](using-parameter-blocks.md)).
-2.  Construct an array of [**RESUTIL\_PROPERTY\_ITEM**](resutil-property-item.md) structures (one structure for each object property). Each **RESUTIL\_PROPERTY\_ITEM** structure includes:
+2.  Construct an array of [**RESUTIL\_PROPERTY\_ITEM**](/windows/previous-versions/ResApi/ns-resapi-resutil_property_item?branch=master) structures (one structure for each object property). Each **RESUTIL\_PROPERTY\_ITEM** structure includes:
 
     -   Property name.
     -   Name of the [cluster database](cluster-database.md) subkey storing the property.
@@ -27,9 +31,9 @@ The following procedure describes how to build a [property table](property-table
     -   Flags to define the property as [read-only](read-only-properties.md) and/or required.
     -   An offset to the appropriate property member of the parameter block.
 
-3.  As the final array element, add a [**RESUTIL\_PROPERTY\_ITEM**](resutil-property-item.md) structure with a **NULL** property name.
+3.  As the final array element, add a [**RESUTIL\_PROPERTY\_ITEM**](/windows/previous-versions/ResApi/ns-resapi-resutil_property_item?branch=master) structure with a **NULL** property name.
 
-The entire array of [**RESUTIL\_PROPERTY\_ITEM**](resutil-property-item.md) structures is what is referred to as a property table.
+The entire array of [**RESUTIL\_PROPERTY\_ITEM**](/windows/previous-versions/ResApi/ns-resapi-resutil_property_item?branch=master) structures is what is referred to as a property table.
 
 ## Example
 

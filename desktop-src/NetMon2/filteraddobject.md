@@ -1,7 +1,12 @@
 ---
-Description: 'The FilterAddObject function adds a single object to a display filter.'
-ms.assetid: '796216f4-a407-4a8c-98b3-8c3761d91913'
+Description: The FilterAddObject function adds a single object to a display filter.
+ms.assetid: 796216f4-a407-4a8c-98b3-8c3761d91913
 title: FilterAddObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterAddObject function
@@ -13,8 +18,8 @@ The **FilterAddObject** function adds a single object to a [*display filter*](d.
 
 ```C++
 DWORD WINAPI FilterAddObject(
-  _In_  HFILTER        hFilter,
-  _Out_ LPFILTEROBJECT lpFilterObject
+  _In_  HFILTER        hFilter,
+  _Out_ LPFILTEROBJECT lpFilterObject
 );
 ```
 
@@ -53,7 +58,7 @@ If the function is unsuccessful, the return value is an error code.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +72,8 @@ The **FilterAddObject** function is called each time a filter object is added to
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -82,9 +87,9 @@ The **FilterAddObject** function is called each time a filter object is added to
 [FILTEROBJECT](filterobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

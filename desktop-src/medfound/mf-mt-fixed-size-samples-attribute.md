@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies for a media type whether the samples have a fixed size.'
-ms.assetid: '2d67864a-fd2f-400d-8a1e-e71dc1920593'
-title: 'MF\_MT\_FIXED\_SIZE\_SAMPLES attribute'
+---
+Description: Specifies for a media type whether the samples have a fixed size.
+ms.assetid: 2d67864a-fd2f-400d-8a1e-e71dc1920593
+title: MF\_MT\_FIXED\_SIZE\_SAMPLES attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_FIXED\_SIZE\_SAMPLES attribute
@@ -39,13 +44,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetUINT32**](imfattributes-getuint32.md)
+[**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetUINT32**](imfattributes-setuint32.md)
+[**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

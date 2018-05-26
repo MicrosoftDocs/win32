@@ -4,11 +4,13 @@ description: Provides access to the resources of a particular type in a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3164f2ee-7230-4d77-8c7c-cfba3aaee9d4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3164f2ee-7230-4d77-8c7c-cfba3aaee9d4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusResTypeResources collection Failover Cluster", "ClusResTypeResources collection Failover Cluster , described"]
+keywords:
+- ClusResTypeResources collection Failover Cluster
+- ClusResTypeResources collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusResTypeResources collection
@@ -47,7 +52,7 @@ The **ClusResTypeResources** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -62,7 +67,7 @@ The **ClusResTypeResources** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,7 +83,7 @@ A [**ClusResPossibleOwnerNodes**](clusrespossibleownernodes-collection.md) colle
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                 |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                 |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>       |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>     |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>     |
@@ -94,9 +99,9 @@ A [**ClusResPossibleOwnerNodes**](clusrespossibleownernodes-collection.md) colle
 [Resource Type Management Objects](resource-type-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

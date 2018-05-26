@@ -1,12 +1,17 @@
 ---
-Description: 'This topic provides best practices and suggestions for validating and troubleshooting your IWordBreaker and IStemmer implementations.'
-ms.assetid: 'b0e199b9-8d81-4445-92f7-de9b8a00a9cb'
+Description: This topic provides best practices and suggestions for validating and troubleshooting your IWordBreaker and IStemmer implementations.
+ms.assetid: b0e199b9-8d81-4445-92f7-de9b8a00a9cb
 title: Troubleshooting Language Resources and Best Practices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Language Resources and Best Practices
 
-This topic provides best practices and suggestions for validating and troubleshooting your [**IWordBreaker**](-search-iwordbreaker.md) and [**IStemmer**](-search-istemmer.md) implementations.
+This topic provides best practices and suggestions for validating and troubleshooting your [**IWordBreaker**](/windows/win32/Indexsrv/nn-indexsrv-iwordbreaker?branch=master) and [**IStemmer**](/windows/win32/Indexsrv/nn-indexsrv-istemmer?branch=master) implementations.
 
 This topic is organized as follows:
 
@@ -22,44 +27,44 @@ This topic is organized as follows:
 -   Where possible, put language data in a resource in your DLL rather than in a separate file. This makes the DLL easier to install and more secure. Additionally, putting language data in a resource will result in improved performance for that language resource component.
 -   Minimize the system resources that language resource components use. For example, if each instance of a language resource object needs read-only access to a lexicon, consider sharing the lexicon across all instances.
 -   Consider using the neutral word breaker to handle text that is not in the language or locale for your word breaker implementation. This will help ensure that text is processed consistently across all languages.
--   Check all return codes and return them from functions like [**IStemmer::GenerateWordForms**](-search-istemmer-generatewordforms.md) and [**IWordBreaker::BreakText**](-search-iwordbreaker-breaktext.md). If indexing fails, it is important to pass the error so that the user is notified which documents were indexed.
+-   Check all return codes and return them from functions like [**IStemmer::GenerateWordForms**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-generatewordforms?branch=master) and [**IWordBreaker::BreakText**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-breaktext?branch=master). If indexing fails, it is important to pass the error so that the user is notified which documents were indexed.
 
 ### Testing Stemmer Consistency
 
-We recommend that you monitor the performance of an [**IStemmer**](-search-istemmer.md) implementation for consistency under the following conditions:
+We recommend that you monitor the performance of an [**IStemmer**](/windows/win32/Indexsrv/nn-indexsrv-istemmer?branch=master) implementation for consistency under the following conditions:
 
--   The stemmer performs consistently across multiple calls to [**IStemmer::Init**](-search-istemmer-init.md). The stemmer reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
--   Given the same test corpus, and repetitions of the same query, [**IStemmer::GenerateWordForms**](-search-istemmer-generatewordforms.md) produces the identical output and makes identical calls to the methods of the [**IWordFormSink**](iwordformsink.md) object.
+-   The stemmer performs consistently across multiple calls to [**IStemmer::Init**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-init?branch=master). The stemmer reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
+-   Given the same test corpus, and repetitions of the same query, [**IStemmer::GenerateWordForms**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-generatewordforms?branch=master) produces the identical output and makes identical calls to the methods of the [**IWordFormSink**](/windows/win32/Indexsrv/nn-indexsrv-iwordformsink?branch=master) object.
 
 ### Testing for Invalid Input in the Stemmer
 
-We recommend that you monitor how the [**IStemmer**](-search-istemmer.md) methods handle all errors related to invalid parameters. In addition, we recommend that you ensure that the stemmer methods do not raise unhandled exceptions. The stemmer should handle the following errors:
+We recommend that you monitor how the [**IStemmer**](/windows/win32/Indexsrv/nn-indexsrv-istemmer?branch=master) methods handle all errors related to invalid parameters. In addition, we recommend that you ensure that the stemmer methods do not raise unhandled exceptions. The stemmer should handle the following errors:
 
--   Call to [**IStemmer::Init**](-search-istemmer-init.md) with *pfLicense* set to **NULL**. Init fails and does not result in an access violation.
--   Call to [**IStemmer::GetLicenseToUse**](-search-istemmer-getlicensetouse.md) with the *ppwcsLicense* parameter set to **NULL**. **IStemmer::GetLicenseToUse** does not result in an access violation.
--   Call to [**IStemmer::GenerateWordForms**](-search-istemmer-generatewordforms.md) with the *pwcInBuf* parameter set to **NULL**. **IStemmer::GenerateWordForms** fails (returns E\_FAIL) and does not result in an access violation.
--   Call to [**IStemmer::GenerateWordForms**](-search-istemmer-generatewordforms.md) with the *cwc* parameter equal to 0. **IStemmer::GenerateWordForms** returns successfully (returns S\_OK) and does not result in an access violation.
--   Call to [**IStemmer::GenerateWordForms**](-search-istemmer-generatewordforms.md) with the *pwcInBuf* parameter set to **NULL** and the *cwc* parameter equal to 0. **IStemmer::GenerateWordForms** fails (returns E\_FAIL) and does not result in an access violation.
+-   Call to [**IStemmer::Init**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-init?branch=master) with *pfLicense* set to **NULL**. Init fails and does not result in an access violation.
+-   Call to [**IStemmer::GetLicenseToUse**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-getlicensetouse?branch=master) with the *ppwcsLicense* parameter set to **NULL**. **IStemmer::GetLicenseToUse** does not result in an access violation.
+-   Call to [**IStemmer::GenerateWordForms**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-generatewordforms?branch=master) with the *pwcInBuf* parameter set to **NULL**. **IStemmer::GenerateWordForms** fails (returns E\_FAIL) and does not result in an access violation.
+-   Call to [**IStemmer::GenerateWordForms**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-generatewordforms?branch=master) with the *cwc* parameter equal to 0. **IStemmer::GenerateWordForms** returns successfully (returns S\_OK) and does not result in an access violation.
+-   Call to [**IStemmer::GenerateWordForms**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-generatewordforms?branch=master) with the *pwcInBuf* parameter set to **NULL** and the *cwc* parameter equal to 0. **IStemmer::GenerateWordForms** fails (returns E\_FAIL) and does not result in an access violation.
 
 ### Testing Word Breaker Consistency
 
-We recommend that you ensure that the [**IWordBreaker**](-search-iwordbreaker.md) implementation performs consistently under the following conditions:
+We recommend that you ensure that the [**IWordBreaker**](/windows/win32/Indexsrv/nn-indexsrv-iwordbreaker?branch=master) implementation performs consistently under the following conditions:
 
--   Word breaker performs consistently across multiple calls to its [**IWordBreaker::Init**](-search-iwordbreaker-init.md) method. The word breaker reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
--   Given the same test corpus, and repetitions of the same query, the [**IWordBreaker::BreakText**](-search-iwordbreaker-breaktext.md) method produces the identical output and makes identical calls to the methods of the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](iphrasesink.md) objects.
+-   Word breaker performs consistently across multiple calls to its [**IWordBreaker::Init**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-init?branch=master) method. The word breaker reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
+-   Given the same test corpus, and repetitions of the same query, the [**IWordBreaker::BreakText**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-breaktext?branch=master) method produces the identical output and makes identical calls to the methods of the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](/windows/win32/Indexsrv/?branch=master) objects.
 
 ### Testing for Invalid Input in the Word Breaker
 
-We recommend that you ensure that the [**IWordBreaker**](-search-iwordbreaker.md) methods handle all errors related to invalid parameters. In addition, we recommend that you ensure that the word breaker methods do not raise unhandled exceptions. The word breaker should perform the following functions and handle the following errors:
+We recommend that you ensure that the [**IWordBreaker**](/windows/win32/Indexsrv/nn-indexsrv-iwordbreaker?branch=master) methods handle all errors related to invalid parameters. In addition, we recommend that you ensure that the word breaker methods do not raise unhandled exceptions. The word breaker should perform the following functions and handle the following errors:
 
--   Call to [**IWordBreaker::Init**](-search-iwordbreaker-init.md) must return either LANGUAGE\_E\_DATABASE\_NOT\_FOUND or S\_OK.
--   Call to [**IWordBreaker::Init**](-search-iwordbreaker-init.md) successfully initializes the *pfLicense* parameter to **FALSE** and calls [**IStemmer::GetLicenseToUse**](-search-istemmer-getlicensetouse.md) and does not result in an access violation.
--   Word breaker does not read past the end of the *awcBuffer* parameter in the [**IWordBreaker::BreakText**](-search-iwordbreaker-breaktext.md) method.
--   Call to [**IWordBreaker::BreakText**](-search-iwordbreaker-breaktext.md) with the *pwcInBuf* set to **NULL**. **IWordBreaker::BreakText** fails (returns E\_FAIL) and does not result in an access violation.
--   Call to [**IWordBreaker::BreakText**](-search-iwordbreaker-breaktext.md) with the *cwc* parameter equal to 0. **IWordBreaker::BreakText** returns successfully (returns S\_OK) and does not result in an access violation.
--   Call to the [**IWordBreaker::BreakText**](-search-iwordbreaker-breaktext.md) method with the *pwcInBuf* parameter set to **NULL** and the *cwc* parameter equal to 0. **IWordBreaker::BreakText** fails (returns E\_FAIL) and does not result in an access violation.
+-   Call to [**IWordBreaker::Init**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-init?branch=master) must return either LANGUAGE\_E\_DATABASE\_NOT\_FOUND or S\_OK.
+-   Call to [**IWordBreaker::Init**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-init?branch=master) successfully initializes the *pfLicense* parameter to **FALSE** and calls [**IStemmer::GetLicenseToUse**](/windows/win32/Indexsrv/nf-indexsrv-istemmer-getlicensetouse?branch=master) and does not result in an access violation.
+-   Word breaker does not read past the end of the *awcBuffer* parameter in the [**IWordBreaker::BreakText**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-breaktext?branch=master) method.
+-   Call to [**IWordBreaker::BreakText**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-breaktext?branch=master) with the *pwcInBuf* set to **NULL**. **IWordBreaker::BreakText** fails (returns E\_FAIL) and does not result in an access violation.
+-   Call to [**IWordBreaker::BreakText**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-breaktext?branch=master) with the *cwc* parameter equal to 0. **IWordBreaker::BreakText** returns successfully (returns S\_OK) and does not result in an access violation.
+-   Call to the [**IWordBreaker::BreakText**](/windows/win32/Indexsrv/nf-indexsrv-iwordbreaker-breaktext?branch=master) method with the *pwcInBuf* parameter set to **NULL** and the *cwc* parameter equal to 0. **IWordBreaker::BreakText** fails (returns E\_FAIL) and does not result in an access violation.
 -   Phrases generated during index creation contain the same number of words.
--   Phrases are generated during index creation through successive calls to the [**IWordFormSink::PutWord**](iwordsink-putword.md) and [**IWordFormSink::PutAltWord**](iwordsink-putaltword.md) methods. The word breaker uses only the [**IPhraseSink**](iphrasesink.md) object during query time.
+-   Phrases are generated during index creation through successive calls to the [**IWordFormSink::PutWord**](iwordsink-putword.md) and [**IWordFormSink::PutAltWord**](iwordsink-putaltword.md) methods. The word breaker uses only the [**IPhraseSink**](/windows/win32/Indexsrv/?branch=master) object during query time.
 
 ## Related topics
 

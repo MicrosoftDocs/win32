@@ -1,8 +1,9 @@
 ---
 title: TCM\_SETUNICODEFORMAT message
 description: Sets the Unicode character format flag for the control.
-ms.assetid: '4a9bacfc-d1b7-432a-9b61-b0fe18576679'
-keywords: ["TCM_SETUNICODEFORMAT message Windows Controls"]
+ms.assetid: 4a9bacfc-d1b7-432a-9b61-b0fe18576679
+keywords:
+- TCM_SETUNICODEFORMAT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TCM\_SETUNICODEFORMAT message
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can send this message explicitly or use the [**TabCtrl\_SetUnicodeFormat**](tabctrl-setunicodeformat.md) macro.
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can send this message explicitly or use the [**TabCtrl\_SetUnicodeFormat**](/windows/win32/Commctrl/nf-commctrl-tabctrl_setunicodeformat?branch=master) macro.
 
 ## Parameters
 
@@ -45,8 +51,8 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ See the remarks for [**CCM\_SETUNICODEFORMAT**](ccm-setunicodeformat.md) for a d
 [**TCM\_GETUNICODEFORMAT**](tcm-getunicodeformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

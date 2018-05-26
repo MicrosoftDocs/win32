@@ -1,7 +1,12 @@
 ---
-Description: 'Writes the local cached group policy object (GPO) information back to Active Directory Domain Services (AD DS).'
-ms.assetid: '7616de2f-cc19-425f-8c0c-90e5a018d909'
-title: 'Save method of the MSFT\_NetGPO class'
+Description: Writes the local cached group policy object (GPO) information back to Active Directory Domain Services (AD DS).
+ms.assetid: 7616de2f-cc19-425f-8c0c-90e5a018d909
+title: Save method of the MSFT\_NetGPO class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Save method of the MSFT\_NetGPO class
@@ -13,7 +18,7 @@ Writes the local cached group policy object (GPO) information back to Active Dir
 
 ```mof
 uint32 Save(
-  [in] String GPOSession
+  [in] String GPOSession
 );
 ```
 
@@ -36,8 +41,8 @@ The GPO session identifier.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ The GPO session identifier.
 [**MSFT\_NetGPO**](msft-netgpo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

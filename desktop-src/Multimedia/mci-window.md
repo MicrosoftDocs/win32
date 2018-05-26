@@ -1,8 +1,9 @@
 ---
 title: MCI\_WINDOW command
 description: The MCI\_WINDOW command specifies the window and the window characteristics for graphic devices. Digital-video, and video-overlay devices recognize this command.
-ms.assetid: '8b6c4d9a-ee72-4c64-aebe-6c8153167496'
-keywords: ["MCI_WINDOW command Windows Multimedia"]
+ms.assetid: 8b6c4d9a-ee72-4c64-aebe-6c8153167496
+keywords:
+- MCI_WINDOW command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_WINDOW command
 
 The MCI\_WINDOW command specifies the window and the window characteristics for graphic devices. Digital-video, and video-overlay devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -89,7 +95,7 @@ The **lpstrText** member of the structure identified by *lpWindow* contains an a
 
 </dd> </dl>
 
-For digital-video devices, the *lpWindow* parameter points to an [**MCI\_DGV\_WINDOW\_PARMS**](mci-dgv-window-parms.md) structure.
+For digital-video devices, the *lpWindow* parameter points to an [**MCI\_DGV\_WINDOW\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_window_parmsa?branch=master) structure.
 
 The following additional flags are used with the **overlay** device type:
 
@@ -138,8 +144,8 @@ For video-overlay devices, the *lpWindow* parameter points to an [**MCI\_OVLY\_W
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -154,9 +160,9 @@ For video-overlay devices, the *lpWindow* parameter points to an [**MCI\_OVLY\_W
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

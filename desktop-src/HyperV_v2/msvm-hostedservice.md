@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a service with its hosting computer system.'
-ms.assetid: '888ABA71-6D67-4933-89E6-40F731AA7153'
-title: 'Msvm\_HostedService class'
+Description: Associates a service with its hosting computer system.
+ms.assetid: 888ABA71-6D67-4933-89E6-40F731AA7153
+title: Msvm\_HostedService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_HostedService class
@@ -17,7 +22,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_HostedService : CIM_HostedService
 {
   CIM_ManagedElement REF Antecedent;
-  CIM_Service        REF Dependent;
+  CIM_Service        REF Dependent;
 };
 ```
 
@@ -73,8 +78,8 @@ See [Querying Networking Objects](querying-networking-objects.md).
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -94,9 +99,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

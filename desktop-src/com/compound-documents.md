@@ -1,7 +1,12 @@
 ---
 title: Compound Documents
 description: OLE compound documents enable users working within a single application to manipulate data written in various formats and derived from multiple sources.
-ms.assetid: 'd17dc0dd-3115-4830-8c6b-694a8d1accaa'
+ms.assetid: d17dc0dd-3115-4830-8c6b-694a8d1accaa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Compound Documents
@@ -15,21 +20,21 @@ OLE compound document technology rests on a foundation consisting of COM, struct
 <span id="COM"></span><span id="com"></span>COM
 </dt> <dd>
 
-A compound document object is essentially a COM object that can be embedded in, or linked to, an existing document. As a COM object, a compound document object exposes the [**IUnknown**](iunknown.md) interface, through which clients can obtain pointers to its other interfaces, including several, such as [**IOleObject**](ioleobject.md), [**IOleLink**](iolelink.md), and [**IViewObject2**](iviewobject2.md), that provide special features unique to compound document objects.
+A compound document object is essentially a COM object that can be embedded in, or linked to, an existing document. As a COM object, a compound document object exposes the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface, through which clients can obtain pointers to its other interfaces, including several, such as [**IOleObject**](/windows/win32/OleIdl/nn-oleidl-ioleobject?branch=master), [**IOleLink**](/windows/win32/OleIdl/nn-oleidl-iolelink?branch=master), and [**IViewObject2**](/windows/win32/OleIdl/nn-oleidl-iviewobject2?branch=master), that provide special features unique to compound document objects.
 
 </dd> <dt>
 
 <span id="Structured_Storage"></span><span id="structured_storage"></span><span id="STRUCTURED_STORAGE"></span>Structured Storage
 </dt> <dd>
 
-A compound document object must implement the [**IPersistStorage**](ipersiststorage.md) or, optionally, [**IPersistStream**](ipersiststream.md) interfaces to manage its own storage. A container used to create compound documents must supply the [**IStorage**](https://msdn.microsoft.com/library/windows/desktop/aa380015) interface, through which objects store and retrieve data. Containers almost always provide instances of **IStorage** obtained from OLE's Compound Files implementation. Containers must also use an object's **IPersistStorage** and/or **IPersistStream** interfaces.
+A compound document object must implement the [**IPersistStorage**](/windows/win32/ObjIdl/nn-objidl-ipersiststorage?branch=master) or, optionally, [**IPersistStream**](/windows/win32/ObjIdl/nn-objidl-ipersiststream?branch=master) interfaces to manage its own storage. A container used to create compound documents must supply the [**IStorage**](https://msdn.microsoft.com/library/windows/desktop/aa380015) interface, through which objects store and retrieve data. Containers almost always provide instances of **IStorage** obtained from OLE's Compound Files implementation. Containers must also use an object's **IPersistStorage** and/or **IPersistStream** interfaces.
 
 </dd> <dt>
 
 <span id="Uniform_Data_Transfer"></span><span id="uniform_data_transfer"></span><span id="UNIFORM_DATA_TRANSFER"></span>Uniform Data Transfer
 </dt> <dd>
 
-Applications that support compound documents must implement [**IDataObject**](idataobject.md) because embedded objects and linked objects begin as data that has been transferred using special OLE clipboard formats, rather than standard Microsoft Windows clipboard formats. In other words, formatting data as an embedded or linked object is simply one more option provided by OLE's uniform data transfer model.
+Applications that support compound documents must implement [**IDataObject**](/windows/win32/ObjIdl/nn-objidl-idataobject?branch=master) because embedded objects and linked objects begin as data that has been transferred using special OLE clipboard formats, rather than standard Microsoft Windows clipboard formats. In other words, formatting data as an embedded or linked object is simply one more option provided by OLE's uniform data transfer model.
 
 </dd> </dl>
 

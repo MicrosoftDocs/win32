@@ -1,8 +1,10 @@
 ---
 title: BcdObject class
 description: Represents a BCD object that contains a collection of BCD elements. Each BCD object is identified by a GUID.
-ms.assetid: 'd24c1a74-16e2-48db-aa07-70d2c15a2061'
-keywords: ["BcdObject class Boot Config", "BcdObject class Boot Config , described"]
+ms.assetid: d24c1a74-16e2-48db-aa07-70d2c15a2061
+keywords:
+- BcdObject class Boot Config
+- BcdObject class Boot Config , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\WMI
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdObject class
@@ -66,7 +73,7 @@ The **BcdObject** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -132,16 +139,16 @@ To retrieve an object instance, use one of the following static methods of the [
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

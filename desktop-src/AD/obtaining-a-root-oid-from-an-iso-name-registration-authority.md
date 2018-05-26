@@ -4,10 +4,13 @@ description: The preferred way to obtain a root object identifier (OID) is to re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ced5f475-bcfc-4546-9ec4-089e92414a4e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ced5f475-bcfc-4546-9ec4-089e92414a4e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obtaining a Root OID from an ISO Name Registration Authority

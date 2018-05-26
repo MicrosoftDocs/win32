@@ -4,11 +4,15 @@ description: Control code functions use control codes as parameters in order to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '89ae667e-6ad9-453e-b370-b3d6a67172a2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 89ae667e-6ad9-453e-b370-b3d6a67172a2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,functions"]
+keywords:
+- control codes Failover Cluster ,functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Control Code Functions
@@ -19,70 +23,70 @@ Control code functions use [control codes](control-codes.md) as parameters in or
 
 <dl> <dt>
 
-[**ClusterControl**](clustercontrol.md)
+[**ClusterControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustercontrol?branch=master)
 </dt> <dd>
 
 Initiates an operation that affects a [cluster](c-gly.md#-wolf-cluster-gly).
 
 </dd> <dt>
 
-[**ClusterGroupControl**](clustergroupcontrol.md)
+[**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master)
 </dt> <dd>
 
 Initiates an operation that affects a [group](groups.md). The operation performed depends on the [control code](control-codes.md) passed to the *dwControlCode* parameter.
 
 </dd> <dt>
 
-[*ClusterGroupSetControl*](clustergroupcollectioncontrol.md)
+[*ClusterGroupSetControl*](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_cluster_group_groupset_control?branch=master)
 </dt> <dd>
 
 Initiates an operation affecting a groupset.
 
 </dd> <dt>
 
-[**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md)
+[**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master)
 </dt> <dd>
 
 Initiates an operation that affects a [network interface](network-interfaces.md). The operation performed depends on the [control code](control-codes.md) passed to the *dwControlCode* parameter.
 
 </dd> <dt>
 
-[**ClusterNetworkControl**](clusternetworkcontrol.md)
+[**ClusterNetworkControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetworkcontrol?branch=master)
 </dt> <dd>
 
 Initiates an operation on a [network](networks.md). The operation performed depends on the [control code](control-codes.md) passed to the *dwControlCode* parameter.
 
 </dd> <dt>
 
-[**ClusterNodeControl**](clusternodecontrol.md)
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master)
 </dt> <dd>
 
 Initiates an operation that affects a [node](nodes.md). The operation performed depends on the [control code](control-codes.md) passed to the *dwControlCode* parameter.
 
 </dd> <dt>
 
-[**ClusterResourceControl**](clusterresourcecontrol.md)
+[**ClusterResourceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrol?branch=master)
 </dt> <dd>
 
 Initiates an operation affecting a [resource](resources.md). The operation performed depends on the [control code](control-codes.md) passed to the *dwControlCode* parameter.
 
 </dd> <dt>
 
-[**ClusterResourceControlAsUser**](clusterresourcecontrolasuser.md)
+[**ClusterResourceControlAsUser**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcecontrolasuser?branch=master)
 </dt> <dd>
 
 Initiates an operation affecting a [resource](resources.md).
 
 </dd> <dt>
 
-[**ClusterResourceTypeControl**](clusterresourcetypecontrol.md)
+[**ClusterResourceTypeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrol?branch=master)
 </dt> <dd>
 
 Initiates an operation affecting a [resource type](resource-types.md). The operation performed depends on the [control code](control-codes.md) passed to the *dwControlCode* parameter.
 
 </dd> <dt>
 
-[**ClusterResourceTypeControlAsUser**](clusterresourcetypecontrolasuser.md)
+[**ClusterResourceTypeControlAsUser**](/windows/previous-versions/ClusAPI/nf-clusapi-clusterresourcetypecontrolasuser?branch=master)
 </dt> <dd>
 
 Initiates an operation affecting a [resource type](resource-types.md).

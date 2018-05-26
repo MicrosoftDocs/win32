@@ -1,12 +1,18 @@
 ---
 title: TextureCube SampleGrad methods
 description: Samples a texture using a gradient to influence the way the sample location is calculated.
-ms.assetid: '710A3049-53EF-4166-ABE3-CFA1DA90FB71'
-keywords: ["SampleGrad methods HLSL"]
+ms.assetid: 710A3049-53EF-4166-ABE3-CFA1DA90FB71
+keywords:
+- SampleGrad methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::SampleGrad methods
@@ -35,9 +41,9 @@ Samples a texture using a gradient to influence the way the sample location is c
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

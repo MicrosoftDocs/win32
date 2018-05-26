@@ -4,17 +4,22 @@ description: The algorithm name of the key derivation function used to compute k
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4dfb3ded-b968-414b-9453-f24813042cab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4dfb3ded-b968-414b-9453-f24813042cab
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Kds-KDF-AlgorithmID attribute AD Schema", "msKds-KDFAlgorithmID attribute AD Schema"]
+keywords:
+- ms-Kds-KDF-AlgorithmID attribute AD Schema
+- msKds-KDFAlgorithmID attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Kds-KDF-AlgorithmID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Kds-KDF-AlgorithmID attribute
@@ -38,7 +43,7 @@ The algorithm name of the key derivation function used to compute keys.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ The algorithm name of the key derivation function used to compute keys.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

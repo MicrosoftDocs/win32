@@ -1,7 +1,12 @@
 ---
 title: ATA Channel Interface Routines
 description: ATA Channel Interface Routines
-ms.assetid: '09fdfbeb-87ba-46ce-81bb-37e4987f531d'
+ms.assetid: 09fdfbeb-87ba-46ce-81bb-37e4987f531d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ATA Channel Interface Routines

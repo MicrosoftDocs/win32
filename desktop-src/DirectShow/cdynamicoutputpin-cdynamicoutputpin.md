@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '996adc69-8727-431e-a7f5-8fbcc0e305ae'
-title: 'CDynamicOutputPin.CDynamicOutputPin constructor'
+Description: Constructor method.
+ms.assetid: 996adc69-8727-431e-a7f5-8fbcc0e305ae
+title: CDynamicOutputPin.CDynamicOutputPin constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDynamicOutputPin.CDynamicOutputPin constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CDynamicOutputPin(
-   TCHAR       *pObjectName,
-   CBaseFilter *pFilter,
-   CCritSec    *pLock,
-   HRESULT     *phr,
-   LPCWSTR     pName
+   TCHAR       *pObjectName,
+   CBaseFilter *pFilter,
+   CCritSec    *pLock,
+   HRESULT     *phr,
+   LPCWSTR     pName
 );
 ```
 
@@ -58,7 +63,7 @@ Pointer to a variable that receives an **HRESULT** value indicating the success 
 *pName* 
 </dt> <dd>
 
-Pointer to a wide-character string containing the pin identifier. For more information, see [**IPin::QueryId**](ipin-queryid.md).
+Pointer to a wide-character string containing the pin identifier. For more information, see [**IPin::QueryId**](/windows/win32/Strmif/nf-strmif-ipin-queryid?branch=master).
 
 </dd> </dl>
 
@@ -80,9 +85,9 @@ Pointer to a wide-character string containing the pin identifier. For more infor
 [**CDynamicOutputPin Class**](cdynamicoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

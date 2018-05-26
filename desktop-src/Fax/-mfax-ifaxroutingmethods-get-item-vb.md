@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item method creates a FaxRoutingMethod object for a specified fax routing method. The object allows enumeration of fax routing information for a specified FaxPort object.'
-ms.assetid: '77df7911-91c2-4c85-91c0-462551b2c99c'
-title: 'FaxRoutingMethods.Item property'
+---
+Description: The Item method creates a FaxRoutingMethod object for a specified fax routing method. The object allows enumeration of fax routing information for a specified FaxPort object.
+ms.assetid: 77df7911-91c2-4c85-91c0-462551b2c99c
+title: FaxRoutingMethods.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxRoutingMethods.Item property

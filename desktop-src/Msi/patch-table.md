@@ -1,7 +1,12 @@
 ---
-Description: 'The Patch table specifies the file that is to receive a particular patch and the physical location of the patch files on the media images.'
-ms.assetid: '1b624702-de25-4b1a-9dac-21f359ee97f7'
+Description: The Patch table specifies the file that is to receive a particular patch and the physical location of the patch files on the media images.
+ms.assetid: 1b624702-de25-4b1a-9dac-21f359ee97f7
 title: Patch Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch Table

@@ -1,7 +1,12 @@
 ---
-Description: 'The properties introduced by ISCrdEnr are listed in the following table.PropertyDescriptionCSPCountSpecifies the number of cryptographic service providers (CSP).'
-ms.assetid: 'ec70fb0f-f23b-4934-9f1f-ef6f2d9a3bd9'
+Description: The properties introduced by ISCrdEnr are listed in the following table.PropertyDescriptionCSPCountSpecifies the number of cryptographic service providers (CSP).
+ms.assetid: ec70fb0f-f23b-4934-9f1f-ef6f2d9a3bd9
 title: Properties of ISCrdEnr
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties of ISCrdEnr

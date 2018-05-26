@@ -1,7 +1,12 @@
 ---
 title: To specify the default HTML topic file for a compiled help file
 description: To specify the default HTML topic file for a compiled help file
-ms.assetid: '8A766968-DC11-4f9d-A99C-920EC8CC896E'
+ms.assetid: 8A766968-DC11-4f9d-A99C-920EC8CC896E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To specify the default HTML topic file for a compiled help file
@@ -16,7 +21,7 @@ ms.assetid: '8A766968-DC11-4f9d-A99C-920EC8CC896E'
 
     
 
-     
+     
 
 2.  Click the **General** tab, and then in the **Default file** box, enter the name of the HTML file you want to appear when a user opens the compiled help file.
 
@@ -27,9 +32,9 @@ ms.assetid: '8A766968-DC11-4f9d-A99C-920EC8CC896E'
 [About Creating Help Project Files](create-a-help-project.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

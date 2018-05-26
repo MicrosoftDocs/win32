@@ -1,8 +1,21 @@
 ---
 title: glRect Functions
 description: These functions draw a rectangle.
-ms.assetid: 'f68ab938-49f8-42ea-afa7-691227b6f877'
-keywords: ["OpenGL,glRect functions", "OpenGL reference,glRect functions", "reference for OpenGL,glRect functions", "OpenGL,rectangle functions", "OpenGL reference,rectangle functions", "reference for OpenGL,rectangle functions", "glRect functions", "rectangle functions"]
+ms.assetid: f68ab938-49f8-42ea-afa7-691227b6f877
+keywords:
+- OpenGL,glRect functions
+- OpenGL reference,glRect functions
+- reference for OpenGL,glRect functions
+- OpenGL,rectangle functions
+- OpenGL reference,rectangle functions
+- reference for OpenGL,rectangle functions
+- glRect functions
+- rectangle functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glRect Functions

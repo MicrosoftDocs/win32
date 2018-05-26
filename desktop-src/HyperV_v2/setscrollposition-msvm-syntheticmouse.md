@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the z-coordinate of the wheel control of the pointing device.'
-ms.assetid: '02349957-6BAA-42E7-B3D4-F39E748615E6'
-title: 'SetScrollPosition method of the Msvm\_SyntheticMouse class'
+Description: Sets the z-coordinate of the wheel control of the pointing device.
+ms.assetid: 02349957-6BAA-42E7-B3D4-F39E748615E6
+title: SetScrollPosition method of the Msvm\_SyntheticMouse class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetScrollPosition method of the Msvm\_SyntheticMouse class
@@ -13,7 +18,7 @@ Sets the z-coordinate of the wheel control of the pointing device. Values writte
 
 ```mof
 uint32 SetScrollPosition(
-  [in] sint32 scrollPositionDelta
+  [in] sint32 scrollPositionDelta
 );
 ```
 
@@ -89,8 +94,8 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ Access to the [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md) class might be 
 [**Msvm\_SyntheticMouse**](msvm-syntheticmouse.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

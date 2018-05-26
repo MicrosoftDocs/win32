@@ -1,8 +1,9 @@
 ---
 title: CardChangeAuthenticator function
 description: Changes the authentication data associated with a smart card and a specified user type.
-ms.assetid: '401daea7-35d7-46e4-a9b3-8efd379e5923'
-keywords: ["CardChangeAuthenticator function Security"]
+ms.assetid: 401daea7-35d7-46e4-a9b3-8efd379e5923
+keywords:
+- CardChangeAuthenticator function Security
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Cardmod.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardChangeAuthenticator function
@@ -24,15 +30,15 @@ The **CardChangeAuthenticator** function, defined by a smart card module, change
 
 ```C++
 DWORD WINAPI CardChangeAuthenticator(
-  _In_      PCARD_DATA pCardData,
-  _In_      LPWSTR     pwszUserId,
-  _In_      PBYTE      pbCurrentAuthenticator,
-  _In_      DWORD      cbCurrentAuthenticator,
-  _In_      PBYTE      pbNewAuthenticator,
-  _In_      DWORD      cbNewAuthenticator,
-  _In_      DWORD      cRetryCount,
-  _In_      DWORD      dwFlags,
-  _Out_opt_ PDWORD     pcAttemptsRemaining
+  _In_      PCARD_DATA pCardData,
+  _In_      LPWSTR     pwszUserId,
+  _In_      PBYTE      pbCurrentAuthenticator,
+  _In_      DWORD      cbCurrentAuthenticator,
+  _In_      PBYTE      pbNewAuthenticator,
+  _In_      DWORD      cbNewAuthenticator,
+  _In_      DWORD      cRetryCount,
+  _In_      DWORD      dwFlags,
+  _Out_opt_ PDWORD     pcAttemptsRemaining
 );
 ```
 
@@ -66,7 +72,7 @@ This parameter can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -123,7 +129,7 @@ The type of authentication that this function performs. This parameter can be on
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -136,7 +142,7 @@ If this function has already returned a zero as the value of this parameter and 
 
 If the value of this parameter is **NULL**, the smart card module ignores it.
 
-Card modules that do not support a count of remaining authentication attempts should return a value of –1 for this parameter if the value of the parameter on input is not **NULL**.
+Card modules that do not support a count of remaining authentication attempts should return a value of  1 for this parameter if the value of the parameter on input is not **NULL**.
 
 </dd> </dl>
 
@@ -156,7 +162,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -164,8 +170,8 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Cardmod.h</dt> </dl> |
 
 
@@ -189,9 +195,9 @@ If the function fails, it returns a nonzero error value or one of the following 
 [**CardGetChallenge**](cardgetchallenge.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

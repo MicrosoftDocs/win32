@@ -1,7 +1,12 @@
 ---
 title: Property Sheets Overviews
 description: .
-ms.assetid: 'fc04c187-13f2-4587-a05d-18e994555531'
+ms.assetid: fc04c187-13f2-4587-a05d-18e994555531
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Sheets Overviews

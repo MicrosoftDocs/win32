@@ -1,12 +1,17 @@
-﻿---
-Description: 'The MediaDisks property enumerates all the media disks for this product instance. This property calls the MsiSourceListEnumMediaDisks. Returns the disk information as array of Record objects.'
-ms.assetid: '02faf211-16c8-4d2f-b192-c2ce8f3f2c66'
-title: 'Patch.MediaDisks property'
+---
+Description: The MediaDisks property enumerates all the media disks for this product instance. This property calls the MsiSourceListEnumMediaDisks. Returns the disk information as array of Record objects.
+ms.assetid: 02faf211-16c8-4d2f-b192-c2ce8f3f2c66
+title: Patch.MediaDisks property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.MediaDisks property
 
-The **MediaDisks** property enumerates all the media disks for this product instance. This property calls the [**MsiSourceListEnumMediaDisks**](msisourcelistenummediadisks.md). Returns the disk information as array of [**Record**](record-object.md) objects.
+The **MediaDisks** property enumerates all the media disks for this product instance. This property calls the [**MsiSourceListEnumMediaDisks**](/windows/win32/Msi/nf-msi-msisourcelistenummediadisksa?branch=master). Returns the disk information as array of [**Record**](record-object.md) objects.
 
 This property is read-only.
 
@@ -44,7 +49,7 @@ In each record the first field contains the disk Id, the second field contains t
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiSourceListEnumMediaDisks**](msisourcelistenummediadisks.md)
+[**MsiSourceListEnumMediaDisks**](/windows/win32/Msi/nf-msi-msisourcelistenummediadisksa?branch=master)
 </dt> <dt>
 
 [**Record**](record-object.md)

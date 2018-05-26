@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline.'
-ms.assetid: '5e2880c6-0f5a-4098-a97e-809ad75ddfd0'
-title: 'IXpsDocumentConsumer::SendXpsUnknown method'
+---
+Description: The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline.
+ms.assetid: 5e2880c6-0f5a-4098-a97e-809ad75ddfd0
+title: IXpsDocumentConsumerSendXpsUnknown method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer::SendXpsUnknown method

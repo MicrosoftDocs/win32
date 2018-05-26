@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the value associated with the content expiration period.'
+Description: Specifies or retrieves the value associated with the content expiration period.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '1b073238-c856-4ffc-9ff3-b022704de8f6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 1b073238-c856-4ffc-9ff3-b022704de8f6
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ExpirationData.Value property'
+title: ExpirationData.Value property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ExpirationData.Value property
@@ -159,7 +162,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -171,9 +174,9 @@ END SUB
 [**ExpirationData**](expirationdata-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'To the user, the advantage of multitasking is the ability to have several applications open and working at the same time. For example, a user can edit a file with one application while another application is recalculating a spreadsheet.'
-ms.assetid: '163291ce-78bd-43ee-98ca-564ce91c520c'
+Description: To the user, the advantage of multitasking is the ability to have several applications open and working at the same time. For example, a user can edit a file with one application while another application is recalculating a spreadsheet.
+ms.assetid: 163291ce-78bd-43ee-98ca-564ce91c520c
 title: Advantages of Multitasking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advantages of Multitasking

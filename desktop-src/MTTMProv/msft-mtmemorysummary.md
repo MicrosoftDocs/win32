@@ -4,11 +4,13 @@ description: The memory data object. Statistic data is calculated based on curre
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '65951f9c-81b1-4b39-acfd-04cc926db184'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 65951f9c-81b1-4b39-acfd-04cc926db184
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTMemorySummary class", "MSFT_MTMemorySummary class, described"]
+keywords:
+- MSFT_MTMemorySummary class
+- MSFT_MTMemorySummary class, described
 topic_type:
 - apiref
 api_name:
@@ -47,6 +49,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTMemorySummary class
@@ -61,36 +66,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), dynamic, provider("mttmprov"), AMENDMENT]
 class MSFT_MTMemorySummary : CIM_ManagedElement
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  Name;
-  uint64  Total;
-  uint64  InUse;
-  uint64  Modified;
-  uint64  Standby;
-  uint64  Free;
-  uint64  Installed;
-  uint32  PageSize;
-  uint64  DynamicMemoryMax;
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  Name;
+  uint64  Total;
+  uint64  InUse;
+  uint64  Modified;
+  uint64  Standby;
+  uint64  Free;
+  uint64  Installed;
+  uint32  PageSize;
+  uint64  DynamicMemoryMax;
   boolean DynamicMemoryEnabled;
-  uint64  PagedPool;
-  uint64  NonPagedPool;
-  uint64  Committed;
-  uint64  CommitLimit;
-  uint64  Available;
-  uint64  Cached;
-  uint32  Speed;
-  uint16  Type;
-  uint16  FormFactor;
-  uint64  HardwareReserved;
-  uint64  Capacity;
-  uint16  UsedSlots;
-  uint16  TotalSlots;
-  uint16  IntervalSeconds;
-  uint16  CurrentIndex;
-  real32  Utilization[];
+  uint64  PagedPool;
+  uint64  NonPagedPool;
+  uint64  Committed;
+  uint64  CommitLimit;
+  uint64  Available;
+  uint64  Cached;
+  uint32  Speed;
+  uint16  Type;
+  uint16  FormFactor;
+  uint64  HardwareReserved;
+  uint64  Capacity;
+  uint16  UsedSlots;
+  uint16  TotalSlots;
+  uint16  IntervalSeconds;
+  uint16  CurrentIndex;
+  real32  Utilization[];
 };
 ```
 
@@ -801,7 +806,7 @@ Gets a list of historical statistics of percentage of memory utilization on the 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -818,9 +823,9 @@ Gets a list of historical statistics of percentage of memory utilization on the 
 [Management Tools Task Manager WMI Provider](management-tools-task-manager-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

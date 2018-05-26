@@ -1,7 +1,12 @@
 ---
-Description: 'The SetRealize method specifies whether the window realizes palettes.'
-ms.assetid: 'ab4a6069-c11f-4126-93bf-6de5277970a1'
-title: 'CBaseWindow.SetRealize method'
+Description: The SetRealize method specifies whether the window realizes palettes.
+ms.assetid: ab4a6069-c11f-4126-93bf-6de5277970a1
+title: CBaseWindow.SetRealize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.SetRealize method
@@ -13,7 +18,7 @@ The `SetRealize` method specifies whether the window realizes palettes.
 
 ```C++
 void SetRealize(
-   BOOL bRealize
+   BOOL bRealize
 );
 ```
 
@@ -56,9 +61,9 @@ By default, the **SetPalette** method realizes the specified palette. Call this 
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

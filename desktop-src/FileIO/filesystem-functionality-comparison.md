@@ -1,7 +1,12 @@
 ---
-Description: 'Tables that list functionality and feature support comparisons for the four main Windows file systems, NTFS, exFAT, UDF, and FAT32.'
-ms.assetid: '28cf2805-f1ce-46b4-bf08-a329f67f4d99'
+Description: Tables that list functionality and feature support comparisons for the four main Windows file systems, NTFS, exFAT, UDF, and FAT32.
+ms.assetid: 28cf2805-f1ce-46b4-bf08-a329f67f4d99
 title: File System Functionality Comparison
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File System Functionality Comparison
@@ -41,9 +46,9 @@ The following tables list functionality and feature support comparisons for the 
 
 
 
- 
+ 
 
-**Windows Server 2003 and Windows XP:** The NTFS last access time stamp field is updated.
+**Windows Server 2003 and Windows XP:** The NTFS last access time stamp field is updated.
 
 ## Limits
 
@@ -53,12 +58,12 @@ The following tables list functionality and feature support comparisons for the 
 |-------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | Maximum file name length<br/> | 255 Unicode characters<br/>                                                         | 255 Unicode characters<br/>                                                         | 127 Unicode or 254 ASCII characters<br/>                                            | 255 Unicode characters<br/>                                                         |
 | Maximum path name length<br/> | 32,760 Unicode characters with each path component no more than 255 characters<br/> | 32,760 Unicode characters with each path component no more than 255 characters<br/> | 32,760 Unicode characters with each path component no more than 255 characters<br/> | 32,760 Unicode characters with each path component no more than 255 characters<br/> |
-| Maximum file size<br/>        | 2^64–1 bytes<br/>                                                                   | 2^64–1 bytes<br/>                                                                   | 2^64–1 bytes<br/>                                                                   | 4 GiB<br/>                                                                          |
-| Maximum volume size<br/>      | 16 TB (4 KB Cluster Size) or 256TB (64 KB Cluster Size)<br/>                        | 2^32–1 clusters (Maximum cluster size = 2^25 –1)<br/>                               | 2^32 blocks<br/>                                                                    | 2^32 blocks<br/>                                                                    |
+| Maximum file size<br/>        | 2^64 1 bytes<br/>                                                                   | 2^64 1 bytes<br/>                                                                   | 2^64 1 bytes<br/>                                                                   | 4 GiB<br/>                                                                          |
+| Maximum volume size<br/>      | 16 TB (4 KB Cluster Size) or 256TB (64 KB Cluster Size)<br/>                        | 2^32 1 clusters (Maximum cluster size = 2^25  1)<br/>                               | 2^32 blocks<br/>                                                                    | 2^32 blocks<br/>                                                                    |
 
 
 
- 
+ 
 
 ## Journaling and Change Log
 
@@ -71,7 +76,7 @@ The following tables list functionality and feature support comparisons for the 
 
 
 
- 
+ 
 
 ## Block Allocation Features
 
@@ -85,7 +90,7 @@ The following tables list functionality and feature support comparisons for the 
 
 
 
- 
+ 
 
 ## Security
 
@@ -96,12 +101,12 @@ The following tables list functionality and feature support comparisons for the 
 | Track file owner<br/>              | Yes<br/>                                       | No<br/>       | No<br/>       | No<br/> |
 | POSIX file permissions<br/>        | No (available in POSIX subsystem feature)<br/> | No<br/>       | Yes<br/>      | No<br/> |
 | Access control lists<br/>          | Yes<br/>                                       | No<br/>       | No<br/>       | No<br/> |
-| File system –level encryption<br/> | Yes<br/>                                       | No<br/>       | No<br/>       | No<br/> |
+| File system  level encryption<br/> | Yes<br/>                                       | No<br/>       | No<br/>       | No<br/> |
 | Checksum/ECC<br/>                  | No<br/>                                        | Metadata<br/> | Metadata<br/> | No<br/> |
 
 
 
- 
+ 
 
 ## Compression
 
@@ -113,7 +118,7 @@ The following tables list functionality and feature support comparisons for the 
 
 
 
- 
+ 
 
 ## Quotas
 
@@ -126,9 +131,9 @@ The following tables list functionality and feature support comparisons for the 
 
 
 
- 
+ 
 
-**Note**  The directory-level disk space quotas feature on NTFS is available through the File Server Resource Manager.
+**Note**  The directory-level disk space quotas feature on NTFS is available through the File Server Resource Manager.
 
 ## Single-Instance Store
 
@@ -140,9 +145,9 @@ The following tables list functionality and feature support comparisons for the 
 
 
 
- 
+ 
 
-**Note**  Single-instance store for NTFS is available as part of the Single Instance Storage feature in Windows Server.
+**Note**  Single-instance store for NTFS is available as part of the Single Instance Storage feature in Windows Server.
 
 ## Related topics
 
@@ -154,9 +159,9 @@ The following tables list functionality and feature support comparisons for the 
 [Single-Instance Store and SIS Backup](https://msdn.microsoft.com/library/windows/desktop/aa362538)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

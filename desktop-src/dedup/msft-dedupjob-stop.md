@@ -4,13 +4,16 @@ description: Cancels the data deduplication job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5DECE113-62F2-4D8C-BB88-2575205CE95B'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5DECE113-62F2-4D8C-BB88-2575205CE95B
+ms.prod: windows-server-dev
 ms.technology:
-- 'data-deduplication'
-- 'windows-management-instrumentation'
+- data-deduplication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Stop method Data Deduplication API", "Stop method Data Deduplication API , MSFT_DedupJob interface", "MSFT_DedupJob interface Data Deduplication API , Stop method"]
+keywords:
+- Stop method Data Deduplication API
+- Stop method Data Deduplication API , MSFT_DedupJob interface
+- MSFT_DedupJob interface Data Deduplication API , Stop method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DdpWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Stop method of the MSFT\_DedupJob class
@@ -53,7 +59,7 @@ For an example that uses the **Stop** method, please see [Data deduplication bac
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Deduplication<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>DeduplicationProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DdpWmi.dll</dt> </dl>                |
@@ -70,9 +76,9 @@ For an example that uses the **Stop** method, please see [Data deduplication bac
 [**MSFT\_DedupJob::Start**](msft-dedupjob-start.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

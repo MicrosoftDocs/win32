@@ -1,7 +1,12 @@
 ---
-Description: 'The extended fax client Component Object Model (COM) implementation eases the routing of outbound faxes.'
-ms.assetid: '8da75129-a19e-4c14-8940-a706b68ce860'
+Description: The extended fax client Component Object Model (COM) implementation eases the routing of outbound faxes.
+ms.assetid: 8da75129-a19e-4c14-8940-a706b68ce860
 title: Outbound Routing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Outbound Routing

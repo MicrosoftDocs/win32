@@ -1,7 +1,12 @@
 ---
-Description: 'The following example demonstrates aspects of working with the Store object. It shows opening stores in the CAPICOM\_MEMORY\_STORE, CAPICOM\_CURRENT\_USER\_STORE, and CAPICOM\_LOCAL\_MACHINE\_STORE locations.'
-ms.assetid: 'bfb7ff48-1d6b-404f-9dd4-6de1898354b7'
+Description: The following example demonstrates aspects of working with the Store object. It shows opening stores in the CAPICOM\_MEMORY\_STORE, CAPICOM\_CURRENT\_USER\_STORE, and CAPICOM\_LOCAL\_MACHINE\_STORE locations.
+ms.assetid: bfb7ff48-1d6b-404f-9dd4-6de1898354b7
 title: Using Stores in Different Locations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Stores in Different Locations

@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ComputerSystemProcessor association WMI class relates a computer system and a processor running on that system.'
+Description: The Win32\_ComputerSystemProcessor association WMI class relates a computer system and a processor running on that system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e630ebea-19bf-43c7-a8a0-7acfda3a752b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e630ebea-19bf-43c7-a8a0-7acfda3a752b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ComputerSystemProcessor class'
+title: Win32\_ComputerSystemProcessor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ComputerSystemProcessor class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{719A6839-C124-11d2-85E8-0000F8102E5F}"), AMENDMENT]
 class Win32_ComputerSystemProcessor : Win32_SystemDevices
 {
-  Win32_Processor      REF PartComponent;
+  Win32_Processor      REF PartComponent;
   Win32_ComputerSystem REF GroupComponent;
 };
 ```
@@ -83,8 +86,8 @@ The **Win32\_ComputerSystemProcessor** class is derived from [**Win32\_SystemDev
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_ComputerSystemProcessor** class is derived from [**Win32\_SystemDev
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

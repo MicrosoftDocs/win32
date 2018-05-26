@@ -4,13 +4,15 @@ description: Represents a TCP/IP address and port pair that are used for iSCSI t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3a61696f-c53a-44b9-b324-39fc838d43be'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3a61696f-c53a-44b9-b324-39fc838d43be
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_Portal class iSCSI Software Target API", "WT_Portal class iSCSI Software Target API , described"]
+keywords:
+- WT_Portal class iSCSI Software Target API
+- WT_Portal class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_Portal class
@@ -35,8 +40,8 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class WT_Portal
 {
-  string  Address;
-  uint32  Port;
+  string  Address;
+  uint32  Port;
   boolean Listen;
 };
 ```
@@ -102,16 +107,16 @@ The TCP port.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

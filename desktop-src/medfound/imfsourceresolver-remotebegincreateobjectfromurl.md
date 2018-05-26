@@ -1,12 +1,17 @@
-﻿---
-Description: 'Remotable version of the IMFSourceResolver::BeginCreateObjectFromURL method.'
-ms.assetid: '3c0b0aaf-832b-4708-bed9-6f448770ee77'
+---
+Description: Remotable version of the IMFSourceResolverBeginCreateObjectFromURL method.
+ms.assetid: 3c0b0aaf-832b-4708-bed9-6f448770ee77
 title: RemoteBeginCreateObjectFromURL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteBeginCreateObjectFromURL
 
-Remotable version of the [**IMFSourceResolver::BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md) method.
+Remotable version of the [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master) method.
 
 ``` syntax
 [call_as(BeginCreateObjectFromURL)]
@@ -20,7 +25,7 @@ HRESULT RemoteBeginCreateObjectFromURL(
 
 ## Remarks
 
-Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
+Applications cannot call this method directly, and objects do not implement this method. The method does not appear in the vtable for the interface. If [**BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master) is called across process boundaries, the Media Foundation proxy/stub DLL translates the call into a call to the remote method and then translates it back.
 
 ## Requirements
 
@@ -39,7 +44,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 <dl> <dt>
 
-[**IMFSourceResolver**](imfsourceresolver.md)
+[**IMFSourceResolver**](/windows/win32/mfidl/nn-mfidl-imfsourceresolver?branch=master)
 </dt> </dl>
 
  

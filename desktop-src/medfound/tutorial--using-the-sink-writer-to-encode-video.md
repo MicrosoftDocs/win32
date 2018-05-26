@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial uses the Sink Writer to encode a video file.'
-ms.assetid: '3E297366-0863-4E89-A0D5-438CD1FC5AF9'
-title: 'Tutorial: Using the Sink Writer to Encode Video'
+Description: This tutorial uses the Sink Writer to encode a video file.
+ms.assetid: 3E297366-0863-4E89-A0D5-438CD1FC5AF9
+title: Tutorial Using the Sink Writer to Encode Video
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tutorial: Using the Sink Writer to Encode Video
@@ -68,12 +73,12 @@ The following code sets every pixel in the frame to green:
 
 To initialize the sink writer, perform the following steps.
 
-1.  Call [**MFCreateSinkWriterFromURL**](mfcreatesinkwriterfromurl.md) to create a new instance of the sink writer.
+1.  Call [**MFCreateSinkWriterFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesinkwriterfromurl?branch=master) to create a new instance of the sink writer.
 2.  Create a media type that describes the encoded video.
-3.  Pass this media type to the [**IMFSinkWriter::AddStream**](imfsinkwriter-addstream.md) method.
+3.  Pass this media type to the [**IMFSinkWriter::AddStream**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsinkwriter-addstream?branch=master) method.
 4.  Create a second media type that describes the uncompressed input.
-5.  Pass the uncompressed media type to the [**IMFSinkWriter::SetInputMediaType**](imfsinkwriter-setinputmediatype.md) method.
-6.  Call the [**IMFSinkWriter::BeginWriting**](imfsinkwriter-beginwriting.md) method.
+5.  Pass the uncompressed media type to the [**IMFSinkWriter::SetInputMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsinkwriter-setinputmediatype?branch=master) method.
+6.  Call the [**IMFSinkWriter::BeginWriting**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsinkwriter-beginwriting?branch=master) method.
 7.  The sink writer is now ready to accept input samples.
 
 The following code shows these steps.
@@ -191,7 +196,7 @@ Most of the steps in previous code example are setting the media type attributes
 
 ## Send Video Frames to the Sink Writer
 
-To send a video frame to the sink writer, call the [**IMFSinkWriter::WriteSample**](imfsinkwriter-writesample.md) method. The **WriteSample** method takes a pointer to the [**IMFSample**](imfsample.md) interface, which represents a *media sample* object. The media sample contains a *media buffer* object, which in turn contains a pointer to the video frame. For more information about media samples and buffer, see the following topics.
+To send a video frame to the sink writer, call the [**IMFSinkWriter::WriteSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample?branch=master) method. The **WriteSample** method takes a pointer to the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface, which represents a *media sample* object. The media sample contains a *media buffer* object, which in turn contains a pointer to the video frame. For more information about media samples and buffer, see the following topics.
 
 -   [Media Samples](media-samples.md)
 -   [Media Buffers](media-buffers.md)
@@ -280,33 +285,33 @@ HRESULT WriteFrame(
 
 This code performs the following steps.
 
-1.  Call [**MFCreateMemoryBuffer**](mfcreatememorybuffer.md) to create a media buffer object. This function allocates the memory for the buffer.
-2.  Call [**IMFMediaBuffer::Lock**](imfmediabuffer-lock.md) to lock the buffer and get a pointer to the memory.
-3.  Call [**MFCopyImage**](mfcopyimage.md) to copy the video frame into the buffer.
+1.  Call [**MFCreateMemoryBuffer**](/windows/win32/mfapi/nf-mfapi-mfcreatememorybuffer?branch=master) to create a media buffer object. This function allocates the memory for the buffer.
+2.  Call [**IMFMediaBuffer::Lock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-lock?branch=master) to lock the buffer and get a pointer to the memory.
+3.  Call [**MFCopyImage**](/windows/win32/mfapi/nf-mfapi-mfcopyimage?branch=master) to copy the video frame into the buffer.
     > [!Note]  
-    > In this particular example, using **memcpy** would work just as well. However, the [**MFCopyImage**](mfcopyimage.md) function correctly handles the case where the stride of the source image does not match the target buffer. For more information, see [Image Stride](image-stride.md).
+    > In this particular example, using **memcpy** would work just as well. However, the [**MFCopyImage**](/windows/win32/mfapi/nf-mfapi-mfcopyimage?branch=master) function correctly handles the case where the stride of the source image does not match the target buffer. For more information, see [Image Stride](image-stride.md).
 
      
 
-4.  Call [**IMFMediaBuffer::Unlock**](imfmediabuffer-unlock.md) to unlock the buffer.
-5.  Call [**IMFMediaBuffer::SetCurrentLength**](imfmediabuffer-setcurrentlength.md) to update the length of the valid data in the buffer. (Otherwise, this value defaults to zero.)
-6.  Call [**MFCreateSample**](mfcreatesample.md) to create a media sample object.
-7.  Call [**IMFSample::AddBuffer**](imfsample-addbuffer.md) to add the media buffer to the media sample.
-8.  Call [**IMFSample::SetSampleTime**](imfsample-setsampletime.md) to set the time stamp for the video frame.
-9.  Call [**IMFSample::SetSampleDuration**](imfsample-setsampleduration.md) to set the duration of the video frame.
-10. Call [**IMFSinkWriter::WriteSample**](imfsinkwriter-writesample.md) to send the media sample to the sink writer.
+4.  Call [**IMFMediaBuffer::Unlock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-unlock?branch=master) to unlock the buffer.
+5.  Call [**IMFMediaBuffer::SetCurrentLength**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength?branch=master) to update the length of the valid data in the buffer. (Otherwise, this value defaults to zero.)
+6.  Call [**MFCreateSample**](/windows/win32/mfapi/nf-mfapi-mfcreatesample?branch=master) to create a media sample object.
+7.  Call [**IMFSample::AddBuffer**](/windows/win32/mfobjects/nf-mfobjects-imfsample-addbuffer?branch=master) to add the media buffer to the media sample.
+8.  Call [**IMFSample::SetSampleTime**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampletime?branch=master) to set the time stamp for the video frame.
+9.  Call [**IMFSample::SetSampleDuration**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampleduration?branch=master) to set the duration of the video frame.
+10. Call [**IMFSinkWriter::WriteSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample?branch=master) to send the media sample to the sink writer.
 
 ## Write the main Function
 
 Inside the `main` function, perform the following steps.
 
 1.  Call [**CoInitializeEx**](com.coinitializeex) to initialize the COM library.
-2.  Call [**MFStartup**](mfstartup.md) to initialize Microsoft Media Foundation.
+2.  Call [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master) to initialize Microsoft Media Foundation.
 3.  Create the sink writer.
 4.  Send video frames to the sink writer.
-5.  Call [**IMFSinkWriter::Finalize**](imfsinkwriter-finalize.md) to finalize the output file.
+5.  Call [**IMFSinkWriter::Finalize**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsinkwriter-finalize?branch=master) to finalize the output file.
 6.  Release the pointer to the sink writer.
-7.  Call [**MFShutdown**](mfshutdown.md).
+7.  Call [**MFShutdown**](/windows/win32/mfapi/nf-mfapi-mfshutdown?branch=master).
 8.  Call [**CoUninitialize**](com.couninitialize).
 
 

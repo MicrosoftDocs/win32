@@ -1,7 +1,12 @@
 ---
 title: Quick Start Opening the Trace
 description: Quick Start Opening the Trace
-ms.assetid: '068fdd11-d84c-40ba-ac10-4416275bbd46'
+ms.assetid: 068fdd11-d84c-40ba-ac10-4416275bbd46
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start: Opening the Trace

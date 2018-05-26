@@ -1,7 +1,12 @@
 ---
 title: EAPHost Supplicant Frequently Asked Questions
 description: This topic provides answers to commonly-asked questions about the EAPHost Supplicant API.
-ms.assetid: 'bf8db711-386e-47c2-be47-4cfd6c4d8d9e'
+ms.assetid: bf8db711-386e-47c2-be47-4cfd6c4d8d9e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPHost Supplicant Frequently Asked Questions
@@ -25,12 +30,12 @@ This topic provides answers to commonly-asked questions about the EAPHost Suppli
 </thead>
 <tbody>
 <tr class="odd">
-<td>Why do I need to call [<strong>EapHostPeerInitialize</strong>](eaphostpeerinitialize.md) and [<strong>EapHostPeerUninitialize</strong>](eaphostpeeruninitialize.md)?</td>
-<td>[<strong>EapHostPeerInitialize</strong>](eaphostpeerinitialize.md) and [<strong>EapHostPeerUninitialize</strong>](eaphostpeeruninitialize.md) initialize and uninitialize the COM environment used for interprocess communication (IPC) between a supplicant and EAPHost.</td>
+<td>Why do I need to call [<strong>EapHostPeerInitialize</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerinitialize?branch=master) and [<strong>EapHostPeerUninitialize</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeeruninitialize?branch=master)?</td>
+<td>[<strong>EapHostPeerInitialize</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerinitialize?branch=master) and [<strong>EapHostPeerUninitialize</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeeruninitialize?branch=master) initialize and uninitialize the COM environment used for interprocess communication (IPC) between a supplicant and EAPHost.</td>
 </tr>
 <tr class="even">
 <td>Which functions must be invoked on threads that have COM initialized for [Single Threaded Apartment](Http://go.microsoft.com/fwlink/p/?linkid=83881) (STA)?</td>
-<td>[<strong>EapHostPeerInvokeConfigUI</strong>](eaphostpeerinvokeconfigui.md), [<strong>EapHostPeerInvokeInteractiveUI</strong>](eaphostpeerinvokeinteractiveui.md), and [<strong>EapHostAuthenticatorInvokeConfigUI</strong>](eapmethodauthenticatorinvokeconfigui.md) must be called on threads that have COM initialized for STA. This can be achieved by calling COM API [<strong>CoInitialize</strong>](_com_CoInitialize); when the supplicant has finished with the STA thread [<strong>CoUninitialize</strong>](_com_CoUninitialize) must be called before exiting.</td>
+<td>[<strong>EapHostPeerInvokeConfigUI</strong>](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeconfigui?branch=master), [<strong>EapHostPeerInvokeInteractiveUI</strong>](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui?branch=master), and [<strong>EapHostAuthenticatorInvokeConfigUI</strong>](/windows/previous-versions/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorinvokeconfigui?branch=master) must be called on threads that have COM initialized for STA. This can be achieved by calling COM API [<strong>CoInitialize</strong>](_com_CoInitialize); when the supplicant has finished with the STA thread [<strong>CoUninitialize</strong>](_com_CoUninitialize) must be called before exiting.</td>
 </tr>
 <tr class="odd">
 <td>How does EAPHost export keying material?</td>
@@ -42,7 +47,7 @@ This topic provides answers to commonly-asked questions about the EAPHost Suppli
 </tr>
 <tr class="odd">
 <td>When does a method consume or generate an attribute?</td>
-<td>If an EAP method generates attributes or EMSK, then the supplicant will consume attributes. Typically, attributes that are consumed by supplicants are keys. The attributes consumed are <strong>eatPeerId</strong>, <strong>eatServerId</strong>, <strong>eatMethodId</strong>, <strong>eatEMSK</strong>, and <strong>eatCredentialsChanged</strong>. For more information, see [<strong>EAP_ATTRIBUTE_TYPE</strong>](eap-attribute-type.md). An EAP method can export additional application-specific EMSK material such as:
+<td>If an EAP method generates attributes or EMSK, then the supplicant will consume attributes. Typically, attributes that are consumed by supplicants are keys. The attributes consumed are <strong>eatPeerId</strong>, <strong>eatServerId</strong>, <strong>eatMethodId</strong>, <strong>eatEMSK</strong>, and <strong>eatCredentialsChanged</strong>. For more information, see [<strong>EAP_ATTRIBUTE_TYPE</strong>](/windows/previous-versions/eaptypes/ne-eaptypes-_eap_attribute_type?branch=master). An EAP method can export additional application-specific EMSK material such as:
 <ul>
 <li>Session ID</li>
 <li>[Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP)</li>
@@ -60,31 +65,31 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </tr>
 <tr class="odd">
 <td>What's the purpose of the EAP_PEER_FLAG_GUEST_ACCESS flag in EAPHost?</td>
-<td>When this flag is set in [<strong>EAPHostPeerBeginSession</strong>](eaphostpeerbeginsession.md), EAPHost interprets this as a request for guest authorization and returns a <strong>NULL</strong> identity response that is then passed to the supplicant and returned to the EAP Server.</td>
+<td>When this flag is set in [<strong>EAPHostPeerBeginSession</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master), EAPHost interprets this as a request for guest authorization and returns a <strong>NULL</strong> identity response that is then passed to the supplicant and returned to the EAP Server.</td>
 </tr>
 <tr class="even">
 <td>How does the supplicant request machine authentication?</td>
-<td>Machine authentication is requested by setting the [<strong>EAP_FLAG_MACHINE_AUTH</strong>](eaphostpeerbeginsession.md) flag.</td>
+<td>Machine authentication is requested by setting the [<strong>EAP_FLAG_MACHINE_AUTH</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master) flag.</td>
 </tr>
 <tr class="odd">
 <td>How does the supplicant request user authentication?</td>
-<td>User authentication is requested by not setting the [<strong>EAP_FLAG_MACHINE_AUTH</strong>](eaphostpeerbeginsession.md) flag.</td>
+<td>User authentication is requested by not setting the [<strong>EAP_FLAG_MACHINE_AUTH</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master) flag.</td>
 </tr>
 <tr class="even">
-<td>When do I use [<strong>EapHostPeerFreeErrorMemory</strong>](eaphostpeerfreeerrormemory.md) instead of the [<strong>EapHostFreeEapError</strong>](eaphostpeerfreeeaperror.md) function?</td>
-<td>The [<strong>EapHostPeerFreeErrorMemory</strong>](eaphostpeerfreeerrormemory.md) function is used only for freeing [<strong>EAP_ERROR</strong>](eap-error.md) structures returned by EAPHost configuration APIs. EAPHost configuration APIs are defined in EapHostPeerConfigApis.h. In contrast, the [<strong>EapHostPeerFreeEapError</strong>](eaphostpeerfreeeaperror.md) function is used for freeing <strong>EAP_ERROR</strong> structures returned by EAPHost run-time APIs. EAPHost run-time APIs are defined in EapPApis.h. Never use the run-time version of the API with the configuration version of the APIs; to do so could produce unexpected results.<br/></td>
+<td>When do I use [<strong>EapHostPeerFreeErrorMemory</strong>](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory?branch=master) instead of the [<strong>EapHostFreeEapError</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerfreeeaperror?branch=master) function?</td>
+<td>The [<strong>EapHostPeerFreeErrorMemory</strong>](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreeerrormemory?branch=master) function is used only for freeing [<strong>EAP_ERROR</strong>](/windows/previous-versions/eaptypes/ns-eaptypes-_eap_error?branch=master) structures returned by EAPHost configuration APIs. EAPHost configuration APIs are defined in EapHostPeerConfigApis.h. In contrast, the [<strong>EapHostPeerFreeEapError</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerfreeeaperror?branch=master) function is used for freeing <strong>EAP_ERROR</strong> structures returned by EAPHost run-time APIs. EAPHost run-time APIs are defined in EapPApis.h. Never use the run-time version of the API with the configuration version of the APIs; to do so could produce unexpected results.<br/></td>
 </tr>
 <tr class="odd">
 <td>I have implemented my UI in the same thread that I use to process an EAP authentication session on the supplicant. After I have raised an interactive user interface dialog box to obtain credentials or other user input data, the next call by the EAPHost to an EAP peer method fails with <strong>ERROR_OBJECT_DISCONNECTED</strong>. Why has this occurred, and how do I address it?</td>
 <td>While the EAPHost client-side APIs are all C style APIs, these C APIs are just wrappers of corresponding COM APIs. The C style APIs run in a multithreaded COM environment. UI code usually runs in the apartment thread model. Because the two thread models conflict with one another, do not run the UI code in the same thread that processes EAP authentications.</td>
 </tr>
 <tr class="even">
-<td>Why does the [<strong>EapHostPeerBeginSession</strong>](eaphostpeerbeginsession.md) API take a [<em>NotificationHandler</em>](notificationhandler.md) callback function pointer as a parameter?</td>
-<td>[<em>NotificationHandler</em>](notificationhandler.md) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP).</td>
+<td>Why does the [<strong>EapHostPeerBeginSession</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master) API take a [<em>NotificationHandler</em>](/windows/previous-versions/eappapis/nc-eappapis-notificationhandler?branch=master) callback function pointer as a parameter?</td>
+<td>[<em>NotificationHandler</em>](/windows/previous-versions/eappapis/nc-eappapis-notificationhandler?branch=master) is the mechanism by which a supplicant is notified that it must re-authenticate. There are various scenarios where the supplicant is required to re-authenticate, including authentication with [Network Access Protection](https://msdn.microsoft.com/library/windows/desktop/aa369712) (NAP).</td>
 </tr>
 <tr class="odd">
-<td>What is the purpose of the <em>pConnectionId</em> parameter in the [<strong>EapHostPeerBeginSession</strong>](eaphostpeerbeginsession.md) API?</td>
-<td><em>pConnectionId</em> is a pointer to a supplicant-defined GUID value used to identify a network connection that belongs to the supplicant. When the [<em>NotificationHandler</em>](notificationhandler.md) callback function is called, this GUID is passed to identify the network connection that the supplicant will use for re-authentication requests.</td>
+<td>What is the purpose of the <em>pConnectionId</em> parameter in the [<strong>EapHostPeerBeginSession</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeerbeginsession?branch=master) API?</td>
+<td><em>pConnectionId</em> is a pointer to a supplicant-defined GUID value used to identify a network connection that belongs to the supplicant. When the [<em>NotificationHandler</em>](/windows/previous-versions/eappapis/nc-eappapis-notificationhandler?branch=master) callback function is called, this GUID is passed to identify the network connection that the supplicant will use for re-authentication requests.</td>
 </tr>
 <tr class="even">
 <td>How do I know if there is a change in quarantine state?</td>
@@ -100,7 +105,7 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 </tr>
 <tr class="odd">
 <td>There is only one EAPHost supplicant method available to display user interface (UI) dialog boxes, but EAP methods have several types of UI-specific calls. What method should the supplicant call when it obtains the <strong>EapHostPeerResponseInvokeUI</strong> action code, indicating that the supplicant must display a UI dialog box?</td>
-<td>No action is required by the user because EAPHost knows which method function to call. For instance, when action code <strong>EapHostPeerResponseInvokeUI</strong> is returned, the supplicant calls these three functions in the following order: [<strong>EapHostPeerGetUIContext</strong>](eaphostpeergetuicontext.md), [<strong>EapHostPeerInvokeInteractiveUI</strong>](eaphostpeerinvokeinteractiveui.md), and [<strong>EapHostPeerSetUIContext</strong>](eaphostpeersetuicontext.md).</td>
+<td>No action is required by the user because EAPHost knows which method function to call. For instance, when action code <strong>EapHostPeerResponseInvokeUI</strong> is returned, the supplicant calls these three functions in the following order: [<strong>EapHostPeerGetUIContext</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeergetuicontext?branch=master), [<strong>EapHostPeerInvokeInteractiveUI</strong>](/windows/previous-versions/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerinvokeinteractiveui?branch=master), and [<strong>EapHostPeerSetUIContext</strong>](/windows/previous-versions/eappapis/nf-eappapis-eaphostpeersetuicontext?branch=master).</td>
 </tr>
 <tr class="even">
 <td>What is the difference between a credentials BLOB and a configuration BLOB?</td>
@@ -115,7 +120,7 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -133,9 +138,9 @@ MPPE keys are keys generated at the end of successful authentication, by both pe
 [EAPHost Development FAQs](eaphost-development-frequently-asked-questions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,32 @@
 ---
 title: How UI Automation Exposes Embedded Objects
 description: This topic describes how Microsoft UI Automation exposes embedded objects, or child elements, in a text document or container.
-ms.assetid: '5ecf5e94-5329-4abb-aedb-4e303688e5f7'
-keywords: ["UI Automation,text pattern overview", "UI Automation,text controls overview", "UI Automation,Text control pattern", "UI Automation,embedded objects overview", "UI Automation,exposing embedded objects", "UI Automation,scenarios for embedded objects", "text patterns,about", "text controls,about", "Text control pattern", "control patterns,Text", "embedded objects", "exposing embedded objects"]
+ms.assetid: 5ecf5e94-5329-4abb-aedb-4e303688e5f7
+keywords:
+- UI Automation,text pattern overview
+- UI Automation,text controls overview
+- UI Automation,Text control pattern
+- UI Automation,embedded objects overview
+- UI Automation,exposing embedded objects
+- UI Automation,scenarios for embedded objects
+- text patterns,about
+- text controls,about
+- Text control pattern
+- control patterns,Text
+- embedded objects
+- exposing embedded objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How UI Automation Exposes Embedded Objects
 
 This topic describes how Microsoft UI Automation exposes embedded objects, or child elements, in a text document or container.
 
-In UI Automation, an embedded object is any element that has nontextual boundaries; for example, an image, hyperlink, table, or document type such as a Microsoft Excel spreadsheet or Microsoft Windows Media file (WMF). This differs from the standard definition, where an element is created in one application and embedded or linked in another application. Whether the object can be edited in its original application is irrelevant in the context of UI Automation.
+In UI Automation, an embedded object is any element that has nontextual boundaries; for example, an image, hyperlink, table, or document type such as a Microsoft Excel spreadsheet or Microsoft Windows Media file (WMF). This differs from the standard definition, where an element is created in one application and embedded or linked in another application. Whether the object can be edited in its original application is irrelevant in the context of UI Automation.
 
 This topic contains the following sections:
 
@@ -42,7 +59,7 @@ The UI Automation content view of the preceding document is shown in the followi
 
 The [Text and TextRange](uiauto-implementingtextandtextrange.md) control patterns expose properties and methods that facilitate navigation and querying of embedded objects.
 
-The textual content (or inner text) of a text container and an embedded object, such as a hyperlink or table cell, is exposed as a single, continuous text stream in both the control view and the content view of the UI Automation tree; object boundaries are ignored. If a UI Automation client is retrieving the text to recite, interpret, or analyze in some manner, the text range should be checked for special cases, such as a table with textual content or other embedded objects. Call [**IUIAutomationTextRange::GetChildren**](uiauto-iuiautomationtextrange-getchildren.md) to obtain a [**IUIAutomationElement**](uiauto-iuiautomationelement.md) interface for each embedded object, and then call [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md) to obtain a text range for each element. This is done recursively until all textual content has been retrieved.
+The textual content (or inner text) of a text container and an embedded object, such as a hyperlink or table cell, is exposed as a single, continuous text stream in both the control view and the content view of the UI Automation tree; object boundaries are ignored. If a UI Automation client is retrieving the text to recite, interpret, or analyze in some manner, the text range should be checked for special cases, such as a table with textual content or other embedded objects. Call [**IUIAutomationTextRange::GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master) to obtain a [**IUIAutomationElement**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomationelement?branch=master) interface for each embedded object, and then call [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master) to obtain a text range for each element. This is done recursively until all textual content has been retrieved.
 
 The following diagram shows a text stream with embedded objects and their range spans.
 
@@ -58,20 +75,20 @@ The following text range contains an embedded text hyperlink.
 
   {The URL http://www.microsoft.com is embedded in text}.
 
-Calling the [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md), [**GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md), [**GetChildren**](uiauto-iuiautomationtextrange-getchildren.md), and [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md) methods results in the behaviors described in the following table.
+Calling the [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master), [**GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master), [**GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master), and [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master) methods results in the behaviors described in the following table.
 
 
 
 | Method called                                                                                                                                                                                                                                                     | Result                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md)                                                                                                                                                                                  | Returns the string "The URL http://www.microsoft.com is embedded in text".                                                                               |
-| [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md)                                                                                                                                                          | Returns the innermost UI Automation element that encloses the text range, in this case, the automation element that represents the text provider itself. |
-| [**IUIAutomationTextRange::GetChildren**](uiauto-iuiautomationtextrange-getchildren.md)                                                                                                                                                                          | Returns a UI Automation element representing the hyperlink control.                                                                                      |
-| [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md), where the UI Automation element was returned by the previous [**IUIAutomationTextRange::GetChildren**](uiauto-iuiautomationtextrange-getchildren.md) method. | Returns the range that represents "http://www.microsoft.com".                                                                                            |
+| [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master)                                                                                                                                                                                  | Returns the string "The URL http://www.microsoft.com is embedded in text".                                                                               |
+| [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master)                                                                                                                                                          | Returns the innermost UI Automation element that encloses the text range, in this case, the automation element that represents the text provider itself. |
+| [**IUIAutomationTextRange::GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master)                                                                                                                                                                          | Returns a UI Automation element representing the hyperlink control.                                                                                      |
+| [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master), where the UI Automation element was returned by the previous [**IUIAutomationTextRange::GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master) method. | Returns the range that represents "http://www.microsoft.com".                                                                                            |
 
 
 
- 
+ 
 
 ### HyperLink Example 2: A text range that partially spans an embedded text hyperlink
 
@@ -79,19 +96,19 @@ The following text range partially spans an embedded text hyperlink.
 
   The URL http://{www} is embedded in text.
 
-Calling the [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md), [**GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md), and [**GetChildren**](uiauto-iuiautomationtextrange-getchildren.md) methods results in the behaviors described in the following table.
+Calling the [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master), [**GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master), and [**GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master) methods results in the behaviors described in the following table.
 
 
 
 | Method called                                                                                            | Result                                                                                                         |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md)                         | Returns the string "www".                                                                                      |
-| [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md) | Returns the innermost UI Automation element that encloses the text range; in this case, the hyperlink control. |
-| [**IUIAutomationTextRange::GetChildren**](uiauto-iuiautomationtextrange-getchildren.md)                 | Returns **NULL** because the text range does not span the entire URL string.                                   |
+| [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master)                         | Returns the string "www".                                                                                      |
+| [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master) | Returns the innermost UI Automation element that encloses the text range; in this case, the hyperlink control. |
+| [**IUIAutomationTextRange::GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master)                 | Returns **NULL** because the text range does not span the entire URL string.                                   |
 
 
 
- 
+ 
 
 ### HyperLink Example 3: A text range that partially spans the content of a text container
 
@@ -99,19 +116,19 @@ The following text range partially spans the content of a text container. The te
 
   {The URL} http://www.microsoft.com is embedded in text.
 
-Calling the [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md), [**GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md), and [**Move**](uiauto-iuiautomationtextrange-move.md) methods results in the behaviors described in the following table.
+Calling the [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master), [**GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master), and [**Move**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move?branch=master) methods results in the behaviors described in the following table.
 
 
 
 | Method called                                                                                            | Result                                                                                                                                                                                                                            |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md)                         | Returns the string "The URL".                                                                                                                                                                                                     |
-| [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md) | Returns the innermost UI Automation element that encloses the text range, in this case, the element that represents the text provider itself.                                                                                     |
-| [**IUIAutomationTextRange::Move**](uiauto-iuiautomationtextrange-move.md)                               | Moves the text range span to "http://" because the text of the hyperlink is made up of individual words. In this case, the hyperlink is not treated as a single object.<br/> The URL {http} is embedded in text.<br/> |
+| [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master)                         | Returns the string "The URL".                                                                                                                                                                                                     |
+| [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master) | Returns the innermost UI Automation element that encloses the text range, in this case, the element that represents the text provider itself.                                                                                     |
+| [**IUIAutomationTextRange::Move**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move?branch=master)                               | Moves the text range span to "http://" because the text of the hyperlink is made up of individual words. In this case, the hyperlink is not treated as a single object.<br/> The URL {http} is embedded in text.<br/> |
 
 
 
- 
+ 
 
 ### Image Example 1: A text range that contains an embedded image
 
@@ -119,20 +136,20 @@ The following text range contains an embedded image of a shuttle.
 
  {The image ![illustration of a shuttle](images/shuttle.jpg) is embedded in text}.
 
-Calling the [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md), [**GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md), [**GetChildren**](uiauto-iuiautomationtextrange-getchildren.md), and [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md) methods results in the behaviors described in the following table.
+Calling the [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master), [**GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master), [**GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master), and [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master) methods results in the behaviors described in the following table.
 
 
 
 | Method called                                                                                                                                                                                                                                                    | Result                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md)                                                                                                                                                                                 | Returns the string "The image is embedded in text". Any ALT text associated with the image is not included in the text stream.                |
-| [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md)                                                                                                                                                         | Returns the innermost UI Automation element that encloses the text range, in this case, the element that represents the text provider itself. |
-| [**IUIAutomationTextRange::GetChildren**](uiauto-iuiautomationtextrange-getchildren.md)                                                                                                                                                                         | Returns a UI Automation element representing the image control.                                                                               |
-| [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md) where the UI Automation element was returned by the previous [**IUIAutomationTextRange::GetChildren**](uiauto-iuiautomationtextrange-getchildren.md) method. | Returns the degenerate range.                                                                                                                 |
+| [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master)                                                                                                                                                                                 | Returns the string "The image is embedded in text". Any ALT text associated with the image is not included in the text stream.                |
+| [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master)                                                                                                                                                         | Returns the innermost UI Automation element that encloses the text range, in this case, the element that represents the text provider itself. |
+| [**IUIAutomationTextRange::GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master)                                                                                                                                                                         | Returns a UI Automation element representing the image control.                                                                               |
+| [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master) where the UI Automation element was returned by the previous [**IUIAutomationTextRange::GetChildren**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getchildren?branch=master) method. | Returns the degenerate range.                                                                                                                 |
 
 
 
- 
+ 
 
 ### Image Example 2: A text range that partially spans the content of a text container
 
@@ -140,19 +157,19 @@ The following text range partially spans the content of a text container. The te
 
  {The image} ![illustration of a shuttle](images/shuttle.jpg) is embedded in text.
 
-Calling the [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md), [**GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md), and [**Move**](uiauto-iuiautomationtextrange-move.md) methods results in the behaviors described in the following table.
+Calling the [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master), [**GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master), and [**Move**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move?branch=master) methods results in the behaviors described in the following table.
 
 
 
 | Method called                                                                                                          | Result                                                                                                                                                                                                                                                                          |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationTextRange::GetText**](uiauto-iuiautomationtextrange-gettext.md)                                       | Returns the string "The image".                                                                                                                                                                                                                                                 |
-| [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md)               | Returns the innermost UI Automation element that encloses the text range, in this case, the element that represents the text provider itself.                                                                                                                                   |
-| [**IUIAutomationTextRange::Move**](uiauto-iuiautomationtextrange-move.md) with parameters of (**TextUnit\_Word**, 2). | Moves the text range span to "is ". Because only text-based embedded objects are considered part of the text stream, the image in this example does not affect [**IUIAutomationTextRange::Move**](uiauto-iuiautomationtextrange-move.md) or its return value, in this case, 2. |
+| [**IUIAutomationTextRange::GetText**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-gettext?branch=master)                                       | Returns the string "The image".                                                                                                                                                                                                                                                 |
+| [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master)               | Returns the innermost UI Automation element that encloses the text range, in this case, the element that represents the text provider itself.                                                                                                                                   |
+| [**IUIAutomationTextRange::Move**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move?branch=master) with parameters of (**TextUnit\_Word**, 2). | Moves the text range span to "is ". Because only text-based embedded objects are considered part of the text stream, the image in this example does not affect [**IUIAutomationTextRange::Move**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-move?branch=master) or its return value, in this case, 2. |
 
 
 
- 
+ 
 
 ### Table
 
@@ -170,40 +187,40 @@ The following table gets the text container from the content of a cell.
 
 
 
- 
+ 
 
-Calling the [**IUIAutomationGridPattern::GetItem**](uiauto-iuiautomationgridpattern-getitem.md), [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md), and [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md) methods results in the behaviors described in the following table.
+Calling the [**IUIAutomationGridPattern::GetItem**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem?branch=master), [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master), and [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master) methods results in the behaviors described in the following table.
 
 
 
 | Method called                                                                                                                                                                                                                       | Result                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationGridPattern::GetItem**](uiauto-iuiautomationgridpattern-getitem.md) with parameters (0, 0).                                                                                                                        | Returns the UI Automation element that represents the content of the table cell, in this case, the element is a text control.                                                               |
-| [**iuiautomationtextpattern::rangefromchild**](uiauto-iuiautomationtextpattern-rangefromchild.md)                                                                                                                                  | returns the range of the image ![illustration of a shuttle](images/shuttle.jpg).                                                                                                            |
-| [**GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md) for the object returned by the previous [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md) method. | Returns the UI Automation element representing the table cell. In this case, the element is a text control that supports the [TableItem](uiauto-implementingtableitem.md) control pattern. |
-| [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md) for the object returned by the previous **GetEnclosingElement** method.                                                    | Returns the UI Automation element representing the table.                                                                                                                                   |
-| [**IUIAutomationTextRange::GetEnclosingElement**](uiauto-iuiautomationtextrange-getenclosingelement.md) for the object returned by the previous **GetEnclosingElement** method.                                                    | Returns the UI Automation element that represents the text provider itself.                                                                                                                 |
+| [**IUIAutomationGridPattern::GetItem**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem?branch=master) with parameters (0, 0).                                                                                                                        | Returns the UI Automation element that represents the content of the table cell, in this case, the element is a text control.                                                               |
+| [**iuiautomationtextpattern::rangefromchild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master)                                                                                                                                  | returns the range of the image ![illustration of a shuttle](images/shuttle.jpg).                                                                                                            |
+| [**GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master) for the object returned by the previous [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master) method. | Returns the UI Automation element representing the table cell. In this case, the element is a text control that supports the [TableItem](uiauto-implementingtableitem.md) control pattern. |
+| [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master) for the object returned by the previous **GetEnclosingElement** method.                                                    | Returns the UI Automation element representing the table.                                                                                                                                   |
+| [**IUIAutomationTextRange::GetEnclosingElement**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement?branch=master) for the object returned by the previous **GetEnclosingElement** method.                                                    | Returns the UI Automation element that represents the text provider itself.                                                                                                                 |
 
 
 
- 
+ 
 
 ### Table Example 2: Gets the text content of a cell
 
 The table in the preceding example gets the text content of a cell.
 
-Calling the [**IUIAutomationGridPattern::GetItem**](uiauto-iuiautomationgridpattern-getitem.md) and [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md) methods results in the behaviors described in the following table.
+Calling the [**IUIAutomationGridPattern::GetItem**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem?branch=master) and [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master) methods results in the behaviors described in the following table.
 
 
 
 | Method called                                                                                                                                                                                                                                                          | Result                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [**IUIAutomationGridPattern::GetItem**](uiauto-iuiautomationgridpattern-getitem.md) with parameters (1,1).                                                                                                                                                            | Returns the UI Automation element representing the content of the table cell. In this case, the element is a text control. |
-| [**IUIAutomationTextPattern::RangeFromChild**](uiauto-iuiautomationtextpattern-rangefromchild.md) where the UI Automation element is the object returned by the previous [**IUIAutomationGridPattern::GetItem**](uiauto-iuiautomationgridpattern-getitem.md) method. | Returns "Y".                                                                                                               |
+| [**IUIAutomationGridPattern::GetItem**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem?branch=master) with parameters (1,1).                                                                                                                                                            | Returns the UI Automation element representing the content of the table cell. In this case, the element is a text control. |
+| [**IUIAutomationTextPattern::RangeFromChild**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild?branch=master) where the UI Automation element is the object returned by the previous [**IUIAutomationGridPattern::GetItem**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem?branch=master) method. | Returns "Y".                                                                                                               |
 
 
 
- 
+ 
 
 When moving through a document by [**TextUnit\_Line**](uiauto-textunitenum.md#textunit-line), if the text range enters an embedded table, each line of text in a cell should be treated as a line.
 
@@ -226,9 +243,9 @@ When moving through a document by [**TextUnit\_Line**](uiauto-textunitenum.md#te
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

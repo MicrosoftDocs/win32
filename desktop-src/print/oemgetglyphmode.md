@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMGetGlyphMode function informs the GDI how to cache glyph information.'
-ms.assetid: '350fe500-997b-48bb-90e2-04f39a7de3d2'
+---
+Description: The OEMGetGlyphMode function informs the GDI how to cache glyph information.
+ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
 title: OEMGetGlyphMode function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMGetGlyphMode function

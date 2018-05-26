@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxDevices object represents the global collection of all the fax devices that are exposed by all the fax service providers (FSPs) currently registered with the fax service.'
-ms.assetid: '88598e24-6339-49d9-8887-7370aa402135'
+Description: The FaxDevices object represents the global collection of all the fax devices that are exposed by all the fax service providers (FSPs) currently registered with the fax service.
+ms.assetid: 88598e24-6339-49d9-8887-7370aa402135
 title: Fax Device Groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Device Groups

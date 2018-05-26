@@ -1,7 +1,12 @@
 ---
 title: Active Property
 description: Active Property
-ms.assetid: '76ada073-782a-4355-b4e8-42dd84d0139b'
+ms.assetid: 76ada073-782a-4355-b4e8-42dd84d0139b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Active Property
@@ -30,7 +35,7 @@ Returns whether your application is the active client of the character and wheth
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -45,9 +50,9 @@ You can use the [**Activate**](activate-method.md)method to set whether your app
 [****Activate** method**](activate-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: PBM\_GETRANGE message
 description: Retrieves information about the current high and low limits of a given progress bar control.
-ms.assetid: '676b7a37-bdde-4307-9888-9a0cf40db2db'
-keywords: ["PBM_GETRANGE message Windows Controls"]
+ms.assetid: 676b7a37-bdde-4307-9888-9a0cf40db2db
+keywords:
+- PBM_GETRANGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_GETRANGE message
@@ -35,20 +41,20 @@ Flag value specifying which limit value is to be used as the message's return va
 
 
 
- 
+ 
 
 </dd> <dt>
 
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PBRANGE**](pbrange.md) structure that is to be filled with the high and low limits of the progress bar control. If this parameter is set to **NULL**, the control will return only the limit specified by *wParam*.
+Pointer to a [**PBRANGE**](/windows/win32/Commctrl/ns-commctrl-pbrange?branch=master) structure that is to be filled with the high and low limits of the progress bar control. If this parameter is set to **NULL**, the control will return only the limit specified by *wParam*.
 
 </dd> </dl>
 
 ## Return value
 
-Returns an INT that represents the limit value specified by *wParam*. If *lParam* is not **NULL**, *lParam* must point to a [**PBRANGE**](pbrange.md) structure that is to be filled with both limit values.
+Returns an INT that represents the limit value specified by *wParam*. If *lParam* is not **NULL**, *lParam* must point to a [**PBRANGE**](/windows/win32/Commctrl/ns-commctrl-pbrange?branch=master) structure that is to be filled with both limit values.
 
 ## Requirements
 
@@ -56,15 +62,15 @@ Returns an INT that represents the limit value specified by *wParam*. If *lParam
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

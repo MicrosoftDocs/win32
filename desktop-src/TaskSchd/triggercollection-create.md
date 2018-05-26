@@ -1,8 +1,12 @@
 ---
 title: TriggerCollection.Create method
 description: For scripting, creates a new trigger for the task.
-ms.assetid: '70780fca-ba97-42b8-bc00-867c2761953c'
-keywords: ["triggers Task Scheduler , creating", "Create method Task Scheduler", "Create method Task Scheduler , TriggerCollection object", "TriggerCollection object Task Scheduler , Create method"]
+ms.assetid: 70780fca-ba97-42b8-bc00-867c2761953c
+keywords:
+- triggers Task Scheduler , creating
+- Create method Task Scheduler
+- Create method Task Scheduler , TriggerCollection object
+- TriggerCollection object Task Scheduler , Create method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +15,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TriggerCollection.Create method
@@ -35,7 +44,7 @@ TriggerCollection.Create( _
 *type* \[in\]
 </dt> <dd>
 
-This parameter is set to one of the following [**TASK\_TRIGGER\_TYPE2**](triggertype.md) enumeration constants.
+This parameter is set to one of the following [**TASK\_TRIGGER\_TYPE2**](/windows/win32/taskschd/ne-taskschd-_task_trigger_type2?branch=master) enumeration constants.
 
 
 
@@ -55,7 +64,7 @@ This parameter is set to one of the following [**TASK\_TRIGGER\_TYPE2**](trigger
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -73,8 +82,8 @@ For information about each trigger type see [Trigger Types](trigger-types.md).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -90,9 +99,9 @@ For information about each trigger type see [Trigger Types](trigger-types.md).
 [**Trigger**](trigger.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,15 @@ description: The following code example shows how to create and use a VLV contro
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd4c4f5ca-13a2-45f6-8b4f-2ff0cb67eb8d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: d4c4f5ca-13a2-45f6-8b4f-2ff0cb67eb8d
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Using LDAP VLV"]
+keywords:
+- Example Code for Using LDAP VLV
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Using LDAP VLV

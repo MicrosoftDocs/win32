@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs uniform tessellation based on the tessellation level.'
-ms.assetid: '0fc701b4-0636-450e-b8e0-e7a490871316'
-title: 'ID3DXPatchMesh::Tessellate method'
+---
+Description: Performs uniform tessellation based on the tessellation level.
+ms.assetid: 0fc701b4-0636-450e-b8e0-e7a490871316
+title: ID3DXPatchMeshTessellate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::Tessellate method

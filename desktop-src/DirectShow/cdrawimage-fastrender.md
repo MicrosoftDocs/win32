@@ -1,7 +1,12 @@
 ---
-Description: 'The FastRender method draws the video image using the BitBlt or StretchBlt functions.'
-ms.assetid: '8bbc96ce-393f-46fb-bf90-61d3ce0ef0d6'
-title: 'CDrawImage.FastRender method'
+Description: The FastRender method draws the video image using the BitBlt or StretchBlt functions.
+ms.assetid: 8bbc96ce-393f-46fb-bf90-61d3ce0ef0d6
+title: CDrawImage.FastRender method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDrawImage.FastRender method
@@ -13,7 +18,7 @@ The `FastRender` method draws the video image using the **BitBlt** or **StretchB
 
 ```C++
 void FastRender(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ void FastRender(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface of the sample that contains the image.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface of the sample that contains the image.
 
 </dd> </dl>
 
@@ -60,9 +65,9 @@ If the filter does not own the allocator, the **DrawImage** method uses [**CDraw
 [**CDrawImage Class**](cdrawimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

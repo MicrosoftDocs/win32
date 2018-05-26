@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies an extranet URL for the certification cluster.'
+Description: Specifies an extranet URL for the certification cluster.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '89b52c8a-474f-4f52-a6d9-1c8d5dd7eeac'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 89b52c8a-474f-4f52-a6d9-1c8d5dd7eeac
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Enterprise.UpdateExtranetCertificationClusterUrl method'
+title: Enterprise.UpdateExtranetCertificationClusterUrl method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Enterprise.UpdateExtranetCertificationClusterUrl method
@@ -108,7 +111,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -120,9 +123,9 @@ END FUNCTION
 [**Enterprise**](enterprise-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

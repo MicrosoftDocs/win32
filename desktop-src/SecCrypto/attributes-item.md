@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the Attribute object that represents the indexed attribute.'
-ms.assetid: '35c54c5f-f83f-40eb-b341-129c1aac6181'
-title: 'Attributes.Item property'
+---
+Description: Retrieves the Attribute object that represents the indexed attribute.
+ms.assetid: 35c54c5f-f83f-40eb-b341-129c1aac6181
+title: Attributes.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attributes.Item property

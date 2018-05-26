@@ -4,13 +4,15 @@ description: Represents the capabilities of a CIM\_VirtualSystemMigrationService
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '96bcb8b9-3716-4cc7-9eb1-54dd13d235fa'
-ms.prod: 'windows-server-dev'
+ms.assetid: 96bcb8b9-3716-4cc7-9eb1-54dd13d235fa
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_VirtualSystemMigrationCapabilities class", "CIM_VirtualSystemMigrationCapabilities class, described"]
+keywords:
+- CIM_VirtualSystemMigrationCapabilities class
+- CIM_VirtualSystemMigrationCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VirtualSystemMigrationCapabilities class
@@ -162,7 +167,7 @@ An array that contains the supported formats for the *DestinationHost* parameter
 
 </dt> <dd>
 
-*RFC 1035n3* — domain name text format.
+*RFC 1035n3*   domain name text format.
 
 </dd> <dt>
 
@@ -173,7 +178,7 @@ An array that contains the supported formats for the *DestinationHost* parameter
 
 </dt> <dd>
 
-*RFC 1208n4* — IPv4 dotted decimal format.
+*RFC 1208n4*   IPv4 dotted decimal format.
 
 </dd> <dt>
 
@@ -184,7 +189,7 @@ An array that contains the supported formats for the *DestinationHost* parameter
 
 </dt> <dd>
 
-*RFC 4291* — IPv6 text format.
+*RFC 4291*   IPv6 text format.
 
 </dd> <dt>
 
@@ -241,7 +246,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_Capabilities**](cim-capabilities.md).
 
@@ -322,7 +327,7 @@ Enumeration of method identifiers whose implementation may be synchronous; that 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -339,9 +344,9 @@ Enumeration of method identifiers whose implementation may be synchronous; that 
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

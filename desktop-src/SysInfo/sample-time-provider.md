@@ -1,7 +1,12 @@
 ---
-Description: 'The following example demonstrates how to structure a time provider. In this example, the DLL supports two hardware time providers.'
-ms.assetid: '6be08c49-be68-4b75-b740-fc1d5a2ff592'
+Description: The following example demonstrates how to structure a time provider. In this example, the DLL supports two hardware time providers.
+ms.assetid: 6be08c49-be68-4b75-b740-fc1d5a2ff592
 title: Sample Time Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Time Provider

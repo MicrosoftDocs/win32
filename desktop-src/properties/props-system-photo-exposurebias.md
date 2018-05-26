@@ -1,7 +1,12 @@
 ---
-Description: 'The amount of exposure bias used in the photo, as read from the camera.'
-ms.assetid: '0b819984-c048-4512-962a-e2320e1585b2'
-title: 'System.Photo.ExposureBias'
+Description: The amount of exposure bias used in the photo, as read from the camera.
+ms.assetid: 0b819984-c048-4512-962a-e2320e1585b2
+title: System.Photo.ExposureBias
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureBias

@@ -1,8 +1,11 @@
 ---
 title: IResultType GetProperty property
 description: This property contains specified property information.
-ms.assetid: '04c810f2-c781-4384-93ae-1060466e2bc4'
-keywords: ["GetProperty property Legacy Windows Environment Features", "GetProperty property Legacy Windows Environment Features , IResultType interface", "IResultType interface Legacy Windows Environment Features , GetProperty property"]
+ms.assetid: 04c810f2-c781-4384-93ae-1060466e2bc4
+keywords:
+- GetProperty property Legacy Windows Environment Features
+- GetProperty property Legacy Windows Environment Features , IResultType interface
+- IResultType interface Legacy Windows Environment Features , GetProperty property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultType::GetProperty property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GetProperty(
-  [in]          VARIANT        index
+  [in]          VARIANT        index
 );
 
 HRESULT get_GetProperty(
-  [out, retval] ISrsultPropery **prop
+  [out, retval] ISrsultPropery **prop
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the address of the specified property information.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

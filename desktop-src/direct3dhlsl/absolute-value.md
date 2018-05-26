@@ -1,7 +1,12 @@
 ---
 title: Absolute Value
 description: Take the absolute value of a source operand used in an arithmetic operation.
-ms.assetid: 'FD2ACE91-0AF6-43E8-80C5-849488E39BEF'
+ms.assetid: FD2ACE91-0AF6-43E8-80C5-849488E39BEF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Absolute Value

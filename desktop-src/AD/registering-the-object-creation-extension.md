@@ -4,10 +4,13 @@ description: When an object creation extension DLL in Active Directory Domain Se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6e950c6c-1a4f-4de0-9be1-004c31d4734c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6e950c6c-1a4f-4de0-9be1-004c31d4734c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering the Object Creation Extension

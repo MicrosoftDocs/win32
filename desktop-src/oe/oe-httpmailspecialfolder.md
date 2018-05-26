@@ -1,8 +1,10 @@
 ---
 title: HTTPMAILSPECIALFOLDER enumeration
 description: The HTTP special folder types.
-ms.assetid: '975a0315-9583-4811-9dc3-65ade73e11ee'
-keywords: ["HTTPMAILSPECIALFOLDER enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 975a0315-9583-4811-9dc3-65ade73e11ee
+keywords:
+- HTTPMAILSPECIALFOLDER enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMAILSPECIALFOLDER enumeration
@@ -24,18 +31,18 @@ The HTTP special folder types.
 
 ```C++
 typedef enum tagHTTPMAILSPECIALFOLDER { 
-  HTTPMAIL_SF_NONE          = 0,
-  HTTPMAIL_SF_UNRECOGNIZED  = 1,
-  HTTPMAIL_SF_INBOX         = 2,
-  HTTPMAIL_SF_DELETEDITEMS  = 3,
-  HTTPMAIL_SF_DRAFTS        = 4,
-  HTTPMAIL_SF_OUTBOX        = 5,
-  HTTPMAIL_SF_SENTITEMS     = 6,
-  HTTPMAIL_SF_CONTACTS      = 7,
-  HTTPMAIL_SF_CALENDAR      = 8,
-  HTTPMAIL_SF_MSNPROMO      = 9,
-  HTTPMAIL_SF_BULKMAIL      = 10,
-  HTTPMAIL_SF_LAST          = 11
+  HTTPMAIL_SF_NONE          = 0,
+  HTTPMAIL_SF_UNRECOGNIZED  = 1,
+  HTTPMAIL_SF_INBOX         = 2,
+  HTTPMAIL_SF_DELETEDITEMS  = 3,
+  HTTPMAIL_SF_DRAFTS        = 4,
+  HTTPMAIL_SF_OUTBOX        = 5,
+  HTTPMAIL_SF_SENTITEMS     = 6,
+  HTTPMAIL_SF_CONTACTS      = 7,
+  HTTPMAIL_SF_CALENDAR      = 8,
+  HTTPMAIL_SF_MSNPROMO      = 9,
+  HTTPMAIL_SF_BULKMAIL      = 10,
+  HTTPMAIL_SF_LAST          = 11
 } ACCESSTYPE;
 ```
 
@@ -135,17 +142,17 @@ Last member of this enumeration.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

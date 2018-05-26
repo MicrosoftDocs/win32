@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageNodeToDisk class
 description: Association between MSFT\_StorageNode and MSFT\_Disk.
-ms.assetid: 'B892198B-F423-4F6A-8A43-99917D98B78F'
-keywords: ["MSFT_StorageNodeToDisk class Windows Storage Management API", "MSFT_StorageNodeToDisk class Windows Storage Management API , described"]
+ms.assetid: B892198B-F423-4F6A-8A43-99917D98B78F
+keywords:
+- MSFT_StorageNodeToDisk class Windows Storage Management API
+- MSFT_StorageNodeToDisk class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageNodeToDisk class
@@ -31,11 +38,11 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association]
 class MSFT_StorageNodeToDisk
 {
-  UInt32  DiskNumber;
-  UInt16  OperationalStatus;
-  UInt16  HealthStatus;
+  UInt32  DiskNumber;
+  UInt16  OperationalStatus;
+  UInt16  HealthStatus;
   Boolean IsOffline;
-  UInt16  OfflineReason;
+  UInt16  OfflineReason;
   Boolean IsReadOnly;
 };
 ```
@@ -149,7 +156,7 @@ If *IsOffline* is **TRUE**, this property denotes the specific reason for the di
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -198,8 +205,8 @@ Denotes the operational status of the disk:
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -215,9 +222,9 @@ Denotes the operational status of the disk:
 [**MSFT\_StorageNode**](msft-storagenode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

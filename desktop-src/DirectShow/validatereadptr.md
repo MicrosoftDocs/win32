@@ -1,7 +1,12 @@
-﻿---
-Description: 'Verifies that the calling process has read access to a memory block. If not, the macro calls the DbgBreak macro.'
-ms.assetid: '1a70e4e5-e144-4cfe-b6be-c0a70aac9ada'
+---
+Description: Verifies that the calling process has read access to a memory block. If not, the macro calls the DbgBreak macro.
+ms.assetid: 1a70e4e5-e144-4cfe-b6be-c0a70aac9ada
 title: ValidateReadPtr macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValidateReadPtr macro

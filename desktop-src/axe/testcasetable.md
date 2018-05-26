@@ -1,14 +1,20 @@
 ---
 title: TestCaseTable element
 description: The test case table node defines a table of test cases on a page.
-ms.assetid: '8BFEAECB-6A42-4C27-B480-C633376EC1DC'
-keywords: ["TestCaseTable element Access Execution Engine"]
+ms.assetid: 8BFEAECB-6A42-4C27-B480-C633376EC1DC
+keywords:
+- TestCaseTable element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - TestCaseTable
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TestCaseTable element
@@ -77,9 +83,9 @@ DescriptionPageLinkColumnsSortSortAscendingGroupByTestCaseKeyFilter
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

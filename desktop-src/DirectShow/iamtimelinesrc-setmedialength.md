@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMediaLength method specifies the duration of the source file.'
-ms.assetid: '0a68ad50-91d5-4cb3-95ef-35b9460ac3e4'
-title: 'IAMTimelineSrc::SetMediaLength method'
+---
+Description: The SetMediaLength method specifies the duration of the source file.
+ms.assetid: 0a68ad50-91d5-4cb3-95ef-35b9460ac3e4
+title: IAMTimelineSrcSetMediaLength method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineSrc::SetMediaLength method

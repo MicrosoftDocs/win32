@@ -1,14 +1,20 @@
 ---
 title: CardGetChallengeEx function
 description: Authenticates a user in a with a specified role with a challenge and response.
-ms.assetid: '7ca346cf-4408-4398-9790-0eb9aeca9749'
-keywords: ["CardGetChallengeEx function Smart Card"]
+ms.assetid: 7ca346cf-4408-4398-9790-0eb9aeca9749
+keywords:
+- CardGetChallengeEx function Smart Card
 topic_type:
 - apiref
 api_name:
 - CardGetChallengeEx
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CardGetChallengeEx function
@@ -22,11 +28,11 @@ The **CardGetChallengeEx** function, defined by a smart card module, authenticat
 
 ```C++
 DWORD WINAPI CardGetChallengeEx(
-  _In_  PCARD_DATA pCardData,
-  _In_  PIN_ID     PinId,
-  _Out_ PBYTE      *ppbChallengeData,
-  _In_  PDWORD     pcbChallengeData,
-  _In_  DWORD      dwFlags
+  _In_  PCARD_DATA pCardData,
+  _In_  PIN_ID     PinId,
+  _Out_ PBYTE      *ppbChallengeData,
+  _In_  PDWORD     pcbChallengeData,
+  _In_  DWORD      dwFlags
 );
 ```
 
@@ -58,7 +64,7 @@ The PIN identifier of the role to be authenticated.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +103,7 @@ If the function fails, it returns a nonzero error value or one of the following 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -113,14 +119,14 @@ The challenge buffer is allocated by the card minidriver and freed by the caller
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

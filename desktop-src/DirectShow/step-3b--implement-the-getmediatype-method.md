@@ -1,7 +1,12 @@
 ---
-Description: 'Step 3B.'
-ms.assetid: '0ec57083-b192-404a-938f-bc6bb1cf0ddb'
-title: 'Step 3B. Implement the GetMediaType Method'
+Description: Step 3B.
+ms.assetid: 0ec57083-b192-404a-938f-bc6bb1cf0ddb
+title: Step 3B. Implement the GetMediaType Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 3B. Implement the GetMediaType Method
@@ -54,7 +59,7 @@ HRESULT CRleFilter::GetMediaType(int iPosition, CMediaType *pMediaType)
 
 
 
-In this example, the method calls [**IPin::ConnectionMediaType**](ipin-connectionmediatype.md) to get the input type from the input pin. Then it changes some of the fields to indicate the compression format, as follows:
+In this example, the method calls [**IPin::ConnectionMediaType**](/windows/win32/Strmif/nf-strmif-ipin-connectionmediatype?branch=master) to get the input type from the input pin. Then it changes some of the fields to indicate the compression format, as follows:
 
 -   It assigns a new subtype GUID, which is constructed from the FOURCC code 'MRLE', using the [**FOURCCMap**](fourccmap.md) class.
 -   It calls the [**CMediaType::SetVariableSize**](cmediatype-setvariablesize.md) method, which sets the **bFixedSizeSamples** flag to **FALSE** and the **lSampleSize** member to zero, indicating variable-sized samples.

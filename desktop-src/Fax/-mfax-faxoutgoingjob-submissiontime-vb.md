@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SubmissionTime property indicates the time that the outbound fax job was submitted for processing.'
-ms.assetid: '575d78da-176b-4aaf-a1db-9c1f555b1ee6'
-title: 'FaxOutgoingJob.SubmissionTime property'
+---
+Description: The SubmissionTime property indicates the time that the outbound fax job was submitted for processing.
+ms.assetid: 575d78da-176b-4aaf-a1db-9c1f555b1ee6
+title: FaxOutgoingJob.SubmissionTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob.SubmissionTime property
@@ -48,7 +53,7 @@ For more information about the **Date** data type, see the *Microsoft Visual C++
 [**FaxOutgoingJob**](-mfax-faxoutgoingjob.md)
 </dt> <dt>
 
-[**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md)
+[**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master)
 </dt> </dl>
 
  

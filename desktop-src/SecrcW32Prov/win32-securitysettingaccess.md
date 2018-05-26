@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SecuritySettingAccess abstract association WMI class specifies the rights granted and denied to a trustee for a given object. This class is modeled after EXPLICIT\_ACCESS.'
+Description: The Win32\_SecuritySettingAccess abstract association WMI class specifies the rights granted and denied to a trustee for a given object. This class is modeled after EXPLICIT\_ACCESS.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'abb46e99-66e2-47c3-8824-34b0f553e2ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: abb46e99-66e2-47c3-8824-34b0f553e2ca
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SecuritySettingAccess class'
+title: Win32\_SecuritySettingAccess class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SecuritySettingAccess class
@@ -22,13 +25,13 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, Association, UUID("{8502C587-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_SecuritySettingAccess
 {
-  uint32                    AccessMask;
-  string                    GuidInheritedObjectType;
-  string                    GuidObjectType;
-  uint32                    Inheritance;
+  uint32                    AccessMask;
+  string                    GuidInheritedObjectType;
+  string                    GuidObjectType;
+  uint32                    Inheritance;
   Win32_SecuritySetting REF SecuritySetting;
-  Win32_SID             REF Trustee;
-  uint32                    Type;
+  Win32_SID             REF Trustee;
+  uint32                    Type;
 };
 ```
 
@@ -114,7 +117,7 @@ Grants the right to write extended attributes.
 
 <span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>
 
-<span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))
+<span id="FILE_EXECUTE__file__FILE_TRAVERSE_directory_"></span><span id="file_execute__file__file_traverse_directory_"></span><span id="FILE_EXECUTE__FILE__FILE_TRAVERSE_DIRECTORY_"></span>**FILE\_EXECUTE (file) FILE\_TRAVERSE (directory)** (32 (0x20))
 
 
 </dt> <dd>
@@ -319,8 +322,8 @@ Type of access specified for the trustee.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Secrcw32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -334,9 +337,9 @@ Type of access specified for the trustee.
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'These flags specify which envelope curves are supported by a media parameter.'
-ms.assetid: '6f3b7666-d245-41fc-b6e4-9e1ed264dfdc'
+---
+Description: These flags specify which envelope curves are supported by a media parameter.
+ms.assetid: 6f3b7666-d245-41fc-b6e4-9e1ed264dfdc
 title: Parameter Capabilities Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameter Capabilities Flags

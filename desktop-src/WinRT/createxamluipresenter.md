@@ -1,7 +1,12 @@
-﻿---
-Description: 'A static creator function that can create a XamlUIPresenter for a render surface in a desktop app.'
-ms.assetid: '3160E4C2-39D3-8FF5-ED37-78E645D1AC2E'
+---
+Description: A static creator function that can create a XamlUIPresenter for a render surface in a desktop app.
+ms.assetid: 3160E4C2-39D3-8FF5-ED37-78E645D1AC2E
 title: CreateXamlUIPresenter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateXamlUIPresenter function

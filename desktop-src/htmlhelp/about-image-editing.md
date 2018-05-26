@@ -1,7 +1,12 @@
 ---
 title: About Image Editing
 description: About Image Editing
-ms.assetid: '04C7AB16-54BD-4320-B68C-CF3165B2FF7D'
+ms.assetid: 04C7AB16-54BD-4320-B68C-CF3165B2FF7D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Image Editing

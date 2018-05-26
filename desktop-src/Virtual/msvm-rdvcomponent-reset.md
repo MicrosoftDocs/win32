@@ -1,8 +1,11 @@
 ---
 title: Reset method of the Msvm\_RdvComponent class
 description: Resets the logical device.
-ms.assetid: 'ff8d9e38-807e-42be-8b9e-edfbf36c6fbd'
-keywords: ["Reset method Hyper-V", "Reset method Hyper-V , Msvm_RdvComponent class", "Msvm_RdvComponent class Hyper-V , Reset method"]
+ms.assetid: ff8d9e38-807e-42be-8b9e-edfbf36c6fbd
+keywords:
+- Reset method Hyper-V
+- Reset method Hyper-V , Msvm_RdvComponent class
+- Msvm_RdvComponent class Hyper-V , Reset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reset method of the Msvm\_RdvComponent class
@@ -91,9 +99,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_RdvComponent**](msvm-rdvcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: VIDEO.stretchToFit
 description: The stretchToFit attribute specifies a value indicating whether the video will stretch to the width and height defined for the Video control.
-ms.assetid: '257f5f01-a447-4637-aa73-e5800b263ba5'
-keywords: ["VIDEO.stretchToFit Windows Media Player"]
+ms.assetid: 257f5f01-a447-4637-aa73-e5800b263ba5
+keywords:
+- VIDEO.stretchToFit Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.stretchToFit
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.stretchToFit
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -55,9 +61,9 @@ If no width or height is specified, this attribute is ignored.
 [**VIDEO Element**](video-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

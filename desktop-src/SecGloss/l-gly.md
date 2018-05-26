@@ -1,8 +1,13 @@
 ---
-Description: 'Contains definitions of security terms that begin with the letter L.'
-Robots: 'noindex, nofollow'
-ms.assetid: '65dd9a04-fc7c-4179-95ff-dac7dad4668f'
+Description: Contains definitions of security terms that begin with the letter L.
+Robots: noindex, nofollow
+ms.assetid: 65dd9a04-fc7c-4179-95ff-dac7dad4668f
 title: L
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # L

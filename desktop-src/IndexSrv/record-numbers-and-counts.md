@@ -1,7 +1,12 @@
 ---
 title: Record Numbers and Counts
 description: Record Numbers and Counts
-ms.assetid: '98c933a3-dba3-4451-9f88-2c8e1ed3a332'
+ms.assetid: 98c933a3-dba3-4451-9f88-2c8e1ed3a332
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record Numbers and Counts

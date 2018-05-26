@@ -1,8 +1,9 @@
 ---
 title: External.selectedItemType
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'f566e41e-127b-4596-99e6-bb07fc97249e'
-keywords: ["External.selectedItemType Windows Media Player"]
+ms.assetid: f566e41e-127b-4596-99e6-bb07fc97249e
+keywords:
+- External.selectedItemType Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.selectedItemType
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **selectedItemType** property retrieves the type of the media item that is currently selected in Windows Media Player.
 
@@ -60,9 +66,9 @@ Certain views in Windows Media Player have a particular media item that is selec
 [**Location and Selected Item**](location-and-selected-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

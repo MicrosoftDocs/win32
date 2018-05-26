@@ -1,8 +1,14 @@
 ---
 title: DBPROP\_USECONTENTINDEX
 description: DBPROP\_USECONTENTINDEX
-ms.assetid: 'f9ce6ed6-1943-4cf7-ac10-887985b0dd1e'
-keywords: ["DBPROP_USECONTENTINDEX"]
+ms.assetid: f9ce6ed6-1943-4cf7-ac10-887985b0dd1e
+keywords:
+- DBPROP_USECONTENTINDEX
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROP\_USECONTENTINDEX

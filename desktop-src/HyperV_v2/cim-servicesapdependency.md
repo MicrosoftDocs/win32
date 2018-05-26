@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a service and a service access point (SAP) that provides the service with functionality.'
-ms.assetid: '9b82fad2-9731-4e0d-bdb0-d1be13ea20fc'
-title: 'CIM\_ServiceSAPDependency class'
+Description: Represents an association between a service and a service access point (SAP) that provides the service with functionality.
+ms.assetid: 9b82fad2-9731-4e0d-bdb0-d1be13ea20fc
+title: CIM\_ServiceSAPDependency class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_ServiceSAPDependency class
@@ -15,7 +20,7 @@ Represents an association between a service and a service access point (SAP) tha
 class CIM_ServiceSAPDependency : CIM_Dependency
 {
   CIM_ServiceAccessPoint REF Antecedent;
-  CIM_Service            REF Dependent;
+  CIM_Service            REF Dependent;
 };
 ```
 
@@ -69,8 +74,8 @@ The service that is dependent on the SAP.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The service that is dependent on the SAP.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

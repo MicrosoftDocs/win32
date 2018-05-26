@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the current top alternate to the specified IAnalysisAlternate.'
-ms.assetid: '0867a662-d172-4ca2-a41f-49c0ea454768'
-title: 'IInkAnalyzer::ModifyTopAlternateWithConfirmation method'
+Description: Changes the current top alternate to the specified IAnalysisAlternate.
+ms.assetid: 0867a662-d172-4ca2-a41f-49c0ea454768
+title: IInkAnalyzerModifyTopAlternateWithConfirmation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::ModifyTopAlternateWithConfirmation method
@@ -13,8 +18,8 @@ Changes the current top alternate to the specified [**IAnalysisAlternate**](iana
 
 ```C++
 HRESULT ModifyTopAlternateWithConfirmation(
-  [in] IAnalysisAlternate *alternate,
-  [in] VARIANT_BOOL       fconfirmAutomatically
+  [in] IAnalysisAlternate *alternate,
+  [in] VARIANT_BOOL       fconfirmAutomatically
 );
 ```
 
@@ -54,7 +59,7 @@ To change the confirmation type for a context node, use [**IContextNode::Confirm
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -80,9 +85,9 @@ To change the confirmation type for a context node, use [**IContextNode::Confirm
 [Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

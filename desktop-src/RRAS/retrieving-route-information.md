@@ -1,7 +1,12 @@
 ---
 title: Retrieving Route Information
 description: There are three methods used to obtain route information from the routing table manager.
-ms.assetid: '8c943b4e-5c1a-4db5-babf-5f7ef9e9fa6a'
+ms.assetid: 8c943b4e-5c1a-4db5-babf-5f7ef9e9fa6a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Route Information

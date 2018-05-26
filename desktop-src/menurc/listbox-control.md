@@ -1,14 +1,20 @@
 ---
 title: LISTBOX control
 description: Defines commonly used controls for a dialog box or window. The control is a rectangle containing a list of strings (such as filenames) from which the user can select.
-ms.assetid: '78f6d36e-5079-4f04-87e4-ca55a1161a51'
-keywords: ["LISTBOX control Menus and Other Resources"]
+ms.assetid: 78f6d36e-5079-4f04-87e4-ca55a1161a51
+keywords:
+- LISTBOX control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - LISTBOX
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX control

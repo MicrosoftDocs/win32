@@ -1,7 +1,12 @@
 ---
 title: Querying with Visual C++
 description: Querying with Visual C++
-ms.assetid: '98ec7a2a-b868-42c9-93c6-26701feecccf'
+ms.assetid: 98ec7a2a-b868-42c9-93c6-26701feecccf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying with Visual C++
@@ -13,7 +18,7 @@ ms.assetid: '98ec7a2a-b868-42c9-93c6-26701feecccf'
 
 With Visual C++, the [OLE DB Helper API](programming-apis.md#-idxs-ole-db-helper-api), and optionally the [OLE DB Provider API](programming-apis.md#-idxs-ole-db-provider-api), you can construct, execute, and retrieve the results of queries.
 
-The [Simple Sample](simple-sample.md) (QSample) illustrates use of the OLE DB Helper API and the OLE DB Provider API to construct and execute a query with Indexing Service. Using the OLE DB Helper API simplifies construction of a command tree for a query. The Simple Sample uses the [CIMakeICommand](cimakeicommand.md), [CITextToFullTreeEx](citexttofulltreeex.md), [LocateCatalogs](locatecatalogs.md), and [CIState](cistate.md) functions in addition to the [ICommandTree](icommandtree.md), [ICommand](089427ad-5ba3-4613-b89e-8e86420ccc30), [IAccessor](a39058b6-ecfa-418b-80a3-66eea4a7bf89), and [IRowset](b14147c4-8b03-49c6-ab5d-00186643a6b4) interfaces. For more complex examples that use the OLE DB Provider exclusively and that require using a data source object and a session object to construct a command tree, see the [AdvQuery Sample](advquery-sample.md).
+The [Simple Sample](simple-sample.md) (QSample) illustrates use of the OLE DB Helper API and the OLE DB Provider API to construct and execute a query with Indexing Service. Using the OLE DB Helper API simplifies construction of a command tree for a query. The Simple Sample uses the [CIMakeICommand](/windows/win32/Ntquery/nf-ntquery-cimakeicommand?branch=master), [CITextToFullTreeEx](/windows/win32/Ntquery/nf-ntquery-citexttofulltreeex?branch=master), [LocateCatalogs](/windows/win32/Ntquery/nf-ntquery-locatecatalogsa?branch=master), and [CIState](/windows/win32/Ntquery/nf-ntquery-cistate?branch=master) functions in addition to the [ICommandTree](/windows/previous-versions/cmdtree/nn-cmdtree-icommandtree?branch=master), [ICommand](089427ad-5ba3-4613-b89e-8e86420ccc30), [IAccessor](a39058b6-ecfa-418b-80a3-66eea4a7bf89), and [IRowset](b14147c4-8b03-49c6-ab5d-00186643a6b4) interfaces. For more complex examples that use the OLE DB Provider exclusively and that require using a data source object and a session object to construct a command tree, see the [AdvQuery Sample](advquery-sample.md).
 
 The following topics discuss selected code segments for the Simple Sample (from the QSample.cxx file) that perform actions specific to Indexing Service. For instructions about how to install the complete code of the Simple Sample, refer to [Installing the Samples](installing-the-samples.md).
 

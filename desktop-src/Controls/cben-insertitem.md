@@ -1,8 +1,9 @@
 ---
 title: CBEN\_INSERTITEM notification code
 description: Sent when a new item has been inserted in the control. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'caf60156-10d2-4cfb-91c4-def6ee99c471'
-keywords: ["CBEN_INSERTITEM notification code Windows Controls"]
+ms.assetid: caf60156-10d2-4cfb-91c4-def6ee99c471
+keywords:
+- CBEN_INSERTITEM notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBEN\_INSERTITEM notification code
@@ -33,7 +39,7 @@ CBEN_INSERTITEM
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMCOMBOBOXEX**](nmcomboboxex.md) structure containing information about the notification code and the item that was inserted.
+A pointer to an [**NMCOMBOBOXEX**](/windows/win32/Commctrl/ns-commctrl-nmcomboboxexa?branch=master) structure containing information about the notification code and the item that was inserted.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The application processing this notification code must return zero.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TBN\_DRAGOUT notification code
 description: Sent by a toolbar control when the user clicks a button and then moves the cursor off the button. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '3566ad60-9744-494f-bb02-d30b41d06351'
-keywords: ["TBN_DRAGOUT notification code Windows Controls"]
+ms.assetid: 3566ad60-9744-494f-bb02-d30b41d06351
+keywords:
+- TBN_DRAGOUT notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_DRAGOUT notification code
@@ -33,7 +39,7 @@ TBN_DRAGOUT
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](nmtoolbar.md) structure that contains information about this notification code. For this notification code, only the **hdr** and **iItem** members of this structure are valid. The **iItem** member of this structure contains the command identifier of the button being dragged.
+Pointer to an [**NMTOOLBAR**](/windows/win32/Commctrl/ns-commctrl-tagnmtoolbara?branch=master) structure that contains information about this notification code. For this notification code, only the **hdr** and **iItem** members of this structure are valid. The **iItem** member of this structure contains the command identifier of the button being dragged.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ This notification code allows an application to implement drag-and-drop function
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

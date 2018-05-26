@@ -1,8 +1,11 @@
 ---
 title: Issue GetTypeID method
 description: Returns the type ID of the Issue.
-ms.assetid: '8D478EF1-8FDA-4A9F-9FB9-75DBEB87E91A'
-keywords: ["GetTypeID method Access Execution Engine", "GetTypeID method Access Execution Engine , Issue interface", "Issue interface Access Execution Engine , GetTypeID method"]
+ms.assetid: 8D478EF1-8FDA-4A9F-9FB9-75DBEB87E91A
+keywords:
+- GetTypeID method Access Execution Engine
+- GetTypeID method Access Execution Engine , Issue interface
+- Issue interface Access Execution Engine , GetTypeID method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Issue::GetTypeID method
@@ -22,7 +30,7 @@ Returns the type ID of the **Issue**.
 
 ```C++
 virtual HRESULT GetTypeID(
-  [out] LPCWSTR *typeID
+  [out] LPCWSTR *typeID
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The type ID is the value of element **Issue/TypeID**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The type ID is the value of element **Issue/TypeID**.
 [**Issue**](issue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

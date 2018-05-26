@@ -4,11 +4,14 @@ description: Retrieves the details of events generated in an event log by a part
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13aecf45-9ea0-4583-9824-738d64fb9fb0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 13aecf45-9ea0-4583-9824-738d64fb9fb0
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServerEventDetail method", "GetServerEventDetail method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, GetServerEventDetail method"]
+keywords:
+- GetServerEventDetail method
+- GetServerEventDetail method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, GetServerEventDetail method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServerEventDetail method of the MSFT\_ServerManagerTasks class
@@ -28,15 +34,15 @@ Retrieves the details of events generated in an event log by a particular source
 
 ```mof
 uint32 GetServerEventDetail(
-  [in]  string                 Logs[],
-  [in]  uint8                  Levels[],
-  [in]  uint64                 StartTimes[],
-  [in]  uint64                 EndTimes[],
-  [in]  uint32                 BatchSize,
-  [in]  string                 QueryFiles[],
-  [in]  sint32                 QueryFileIds[],
-  [out] uint64                 LatestEventTimestamp,
-  [out] MSFT_ServerEventDetail cmdletOutput[]
+  [in]  string                 Logs[],
+  [in]  uint8                  Levels[],
+  [in]  uint64                 StartTimes[],
+  [in]  uint64                 EndTimes[],
+  [in]  uint32                 BatchSize,
+  [in]  string                 QueryFiles[],
+  [in]  sint32                 QueryFileIds[],
+  [out] uint64                 LatestEventTimestamp,
+  [out] MSFT_ServerEventDetail cmdletOutput[]
 );
 ```
 
@@ -116,7 +122,7 @@ An array of embedded instances of the [**MSFT\_ServerEventDetail**](msft-servere
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -133,9 +139,9 @@ An array of embedded instances of the [**MSFT\_ServerEventDetail**](msft-servere
 [**MSFT\_ServerEventDetail**](msft-servereventdetail.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

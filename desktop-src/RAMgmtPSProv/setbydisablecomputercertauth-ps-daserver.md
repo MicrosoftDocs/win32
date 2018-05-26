@@ -2,13 +2,16 @@
 title: SetByDisableComputerCertAuth method of the PS\_DAServer class
 description: This cmdlet sets the properties specific to the DA server.
 audience: developer
-ms.assetid: '51a8420f-604d-4afd-a025-ecaee8598958'
-ms.prod: 'windows-server-dev'
+ms.assetid: 51a8420f-604d-4afd-a025-ecaee8598958
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByDisableComputerCertAuth method", "SetByDisableComputerCertAuth method, PS_DAServer class", "PS_DAServer class, SetByDisableComputerCertAuth method"]
+keywords:
+- SetByDisableComputerCertAuth method
+- SetByDisableComputerCertAuth method, PS_DAServer class
+- PS_DAServer class, SetByDisableComputerCertAuth method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByDisableComputerCertAuth method of the PS\_DAServer class
@@ -28,15 +34,15 @@ This cmdlet sets the properties specific to the DA server.
 
 ```mof
 uint32 SetByDisableComputerCertAuth(
-  [in]  string   InternalIPv6Prefix[],
-  [in]  string   ClientIPv6Prefix,
-  [in]  string   ComputerName,
-  [in]  string   TeredoState,
-  [in]  string   ConnectToAddress,
-  [in]  boolean  DisableComputerCertAuthentication,
-  [in]  boolean  Force,
-  [in]  boolean  PassThru,
-  [out] DAServer cmdletOutput
+  [in]  string   InternalIPv6Prefix[],
+  [in]  string   ClientIPv6Prefix,
+  [in]  string   ComputerName,
+  [in]  string   TeredoState,
+  [in]  string   ConnectToAddress,
+  [in]  boolean  DisableComputerCertAuthentication,
+  [in]  boolean  Force,
+  [in]  boolean  PassThru,
+  [out] DAServer cmdletOutput
 );
 ```
 
@@ -132,7 +138,7 @@ DA server properties 1. Authentication type 2. Internal IPv6 prefix 3. Client IP
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -146,9 +152,9 @@ DA server properties 1. Authentication type 2. Internal IPv6 prefix 3. Client IP
 [**PS\_DAServer**](ps-daserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

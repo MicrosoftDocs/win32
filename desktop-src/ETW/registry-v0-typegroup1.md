@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for registry events. The following syntax is simplified from MOF code.'
-ms.assetid: '93031f3e-963f-46a6-9355-988eefd94836'
-title: 'Registry\_V0\_TypeGroup1 class'
+---
+Description: This class is the event type class for registry events. The following syntax is simplified from MOF code.
+ms.assetid: 93031f3e-963f-46a6-9355-988eefd94836
+title: Registry\_V0\_TypeGroup1 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry\_V0\_TypeGroup1 class

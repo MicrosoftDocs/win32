@@ -1,19 +1,24 @@
 ---
-Description: 'The SetRate method sets the playback rate. This method implements the IMediaSeeking::SetRate method.'
-ms.assetid: '954e2381-207a-47d9-a0a5-87dc325f52b4'
-title: 'CSourceSeeking.SetRate method'
+Description: The SetRate method sets the playback rate. This method implements the IMediaSeekingSetRate method.
+ms.assetid: 954e2381-207a-47d9-a0a5-87dc325f52b4
+title: CSourceSeeking.SetRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.SetRate method
 
-The `SetRate` method sets the playback rate. This method implements the [**IMediaSeeking::SetRate**](imediaseeking-setrate.md) method.
+The `SetRate` method sets the playback rate. This method implements the [**IMediaSeeking::SetRate**](/windows/win32/Strmif/nf-strmif-imediaseeking-setrate?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetRate(
-   double dRate
+   double dRate
 );
 ```
 
@@ -56,9 +61,9 @@ This method updates the value of the [**CSourceSeeking::m\_dRateSeeking**](csour
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

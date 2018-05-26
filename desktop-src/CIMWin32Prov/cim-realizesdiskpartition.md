@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_RealizesDiskPartition class represents a disk partition on a physical media that models the creation of partitions on a raw SCSI or IDE drive.'
+Description: The CIM\_RealizesDiskPartition class represents a disk partition on a physical media that models the creation of partitions on a raw SCSI or IDE drive.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cc317f7d-06cd-4126-8123-6a3eb32f792e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cc317f7d-06cd-4126-8123-6a3eb32f792e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_RealizesDiskPartition class'
+title: CIM\_RealizesDiskPartition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_RealizesDiskPartition class
@@ -19,7 +22,7 @@ The **CIM\_RealizesDiskPartition** class represents a disk partition on a physic
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -31,7 +34,7 @@ class CIM_RealizesDiskPartition : CIM_Realizes
 {
   CIM_DiskPartition REF Dependent;
   CIM_PhysicalMedia REF Antecedent;
-  uint64                StartingAddress;
+  uint64                StartingAddress;
 };
 ```
 
@@ -108,8 +111,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -123,9 +126,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_Realizes**](cim-realizes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

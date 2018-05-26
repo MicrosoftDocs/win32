@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the value of the MsiRestartManagerSessionKey property to the session key for the Restart Manager session.'
-ms.assetid: 'efbf11f2-38ab-4509-aa01-23fa8cfdaa60'
+---
+Description: The installer sets the value of the MsiRestartManagerSessionKey property to the session key for the Restart Manager session.
+ms.assetid: efbf11f2-38ab-4509-aa01-23fa8cfdaa60
 title: MsiRestartManagerSessionKey property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiRestartManagerSessionKey property

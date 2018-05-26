@@ -1,7 +1,12 @@
 ---
 title: Methods
 description: .
-ms.assetid: 'd40f23b6-a684-4f55-8532-8d90c0de4da1'
+ms.assetid: d40f23b6-a684-4f55-8532-8d90c0de4da1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Methods

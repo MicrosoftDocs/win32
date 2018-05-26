@@ -1,13 +1,28 @@
 ---
 title: Transform Control Pattern
 description: Describes guidelines and conventions for implementing ITransformProvider and ITransformProvider2, including information about properties and methods.
-ms.assetid: 'e1d862a0-8085-42b4-9710-cf11e1a467cf'
-keywords: ["UI Automation,implementing Transform control pattern", "UI Automation,Transform control pattern", "UI Automation,ITransformProvider", "ITransformProvider", "implementing UI Automation Transform control patterns", "Transform control patterns", "control patterns,ITransformProvider", "control patterns,implementing UI Automation Transform", "control patterns,Transform", "interfaces,ITransformProvider"]
+ms.assetid: e1d862a0-8085-42b4-9710-cf11e1a467cf
+keywords:
+- UI Automation,implementing Transform control pattern
+- UI Automation,Transform control pattern
+- UI Automation,ITransformProvider
+- ITransformProvider
+- implementing UI Automation Transform control patterns
+- Transform control patterns
+- control patterns,ITransformProvider
+- control patterns,implementing UI Automation Transform
+- control patterns,Transform
+- interfaces,ITransformProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transform Control Pattern
 
-Describes guidelines and conventions for implementing [**ITransformProvider**](uiauto-itransformprovider.md) and [**ITransformProvider2**](https://msdn.microsoft.com/library/windows/desktop/hh448824), including information about properties and methods. The Transform control pattern is used to support controls that can be moved, resized, or rotated within a two-dimensional space.
+Describes guidelines and conventions for implementing [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) and [**ITransformProvider2**](https://msdn.microsoft.com/library/windows/desktop/hh448824), including information about properties and methods. The Transform control pattern is used to support controls that can be moved, resized, or rotated within a two-dimensional space.
 
 For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
 
@@ -28,24 +43,24 @@ When implementing the **Transform** control pattern, note the following guidelin
 
 ## Required Members for **ITransformProvider**
 
-The following properties and methods are required for implementing the [**ITransformProvider**](uiauto-itransformprovider.md) interface.
+The following properties and methods are required for implementing the [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) interface.
 
 
 
 | Required members                                         | Member type | Notes |
 |----------------------------------------------------------|-------------|-------|
-| [**CanMove**](uiauto-itransformprovider-canmove.md)     | Property    | None  |
-| [**CanResize**](uiauto-itransformprovider-canresize.md) | Property    | None  |
-| [**CanRotate**](uiauto-itransformprovider-canrotate.md) | Property    | None  |
-| [**Move**](uiauto-itransformprovider-move.md)           | Method      | None  |
-| [**Resize**](uiauto-itransformprovider-resize.md)       | Method      | None  |
-| [**Rotate**](uiauto-itransformprovider-rotate.md)       | Method      | None  |
+| [**CanMove**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canmove?branch=master)     | Property    | None  |
+| [**CanResize**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canresize?branch=master) | Property    | None  |
+| [**CanRotate**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider-get_canrotate?branch=master) | Property    | None  |
+| [**Move**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider-move?branch=master)           | Method      | None  |
+| [**Resize**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider-resize?branch=master)       | Method      | None  |
+| [**Rotate**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider-rotate?branch=master)       | Method      | None  |
 
 
 
  
 
-The following additional properties and methods are required for implementing the [**ITransformProvider2**](uiauto-itransformprovider.md) interface.
+The following additional properties and methods are required for implementing the [**ITransformProvider2**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) interface.
 
 
 
@@ -53,10 +68,10 @@ The following additional properties and methods are required for implementing th
 |---------------------------------------------------------------|-------------|-------|
 | [**CanZoom**](https://msdn.microsoft.com/library/windows/desktop/hh448826)     | Property    | None  |
 | [**Zoom**](https://msdn.microsoft.com/library/windows/desktop/hh448828)           | Method      | None  |
-| [**ZoomByUnit**](uiauto-itransformprovider2-zoombyunit.md)   | Method      | None  |
-| [**ZoomLevel**](uiauto-itransformprovider2-zoomlevel.md)     | Property    | None  |
-| [**ZoomMaximum**](uiauto-itransformprovider2-zoommaximum.md) | Property    | None  |
-| [**ZoomMinimum**](uiauto-itransformprovider2-zoomminimum.md) | Property    | None  |
+| [**ZoomByUnit**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider2-zoombyunit?branch=master)   | Method      | None  |
+| [**ZoomLevel**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomlevel?branch=master)     | Property    | None  |
+| [**ZoomMaximum**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoommaximum?branch=master) | Property    | None  |
+| [**ZoomMinimum**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itransformprovider2-get_zoomminimum?branch=master) | Property    | None  |
 
 
 

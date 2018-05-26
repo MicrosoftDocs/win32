@@ -4,11 +4,12 @@ description: Used to pass the SID of a security principal, whose quota is being 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1840a9c9-5f62-4104-ac41-64451421e7c0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 1840a9c9-5f62-4104-ac41-64451421e7c0
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_QUOTA_CONTROL_OID control code LDAP"]
+keywords:
+- LDAP_SERVER_QUOTA_CONTROL_OID control code LDAP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Ntldap.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_QUOTA\_CONTROL\_OID control code
@@ -43,7 +47,7 @@ LDAP\_SERVER\_QUOTA\_CONTROL\_OID, which is defined as "1.2.840.113556.1.4.1852"
 **ldctl\_value**
 </dt> <dd>
 
-Specifies a **querySID** OCTET string whose value is a BER-encoded sequence of parameters that specify the SID of the security principal whose quota is to be queried. In the [**berval**](berval.md) structure, set **bv\_val** to a pointer to the sequence that contains the SID of a security principal, and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
+Specifies a **querySID** OCTET string whose value is a BER-encoded sequence of parameters that specify the SID of the security principal whose quota is to be queried. In the [**berval**](/windows/previous-versions/Winldap/ns-winldap-berval?branch=master) structure, set **bv\_val** to a pointer to the sequence that contains the SID of a security principal, and set **bv\_len** to the length of the sequence. For more information, see the Remarks section.
 
 </dd> <dt>
 
@@ -74,7 +78,7 @@ The following table lists the sequence fields.
 
 
 
- 
+ 
 
 The following code example shows how to manually format the sequence data for the first call to an extended LDAP search function.
 
@@ -123,8 +127,8 @@ ber_bvfree(pldctrl_value);
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
+| Minimum supported client<br/> | Windows Vista<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Ntldap.h</dt> </dl> |
 
 
@@ -136,15 +140,15 @@ ber_bvfree(pldctrl_value);
 [Data Structures](data-structures.md)
 </dt> <dt>
 
-[**LDAPSearch**](ldapsearch.md)
+[**LDAPSearch**](/windows/previous-versions/Winldap/?branch=master)
 </dt> <dt>
 
 [Using Controls](using-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

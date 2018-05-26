@@ -1,7 +1,12 @@
 ---
 title: Windows Mail Networking Reference
 description: This documentation provides networking-related information about the set of interfaces for objects related to Windows Mail (formerly Outlook Express).
-ms.assetid: 'd52ab91b-5cb2-4725-a6fa-44db16ff7d6c'
+ms.assetid: d52ab91b-5cb2-4725-a6fa-44db16ff7d6c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mail Networking Reference
@@ -27,7 +32,7 @@ New applications should not use this set of interfaces and schemas. These interf
 | [**INNTPCallback**](oe-inntpcallback.md)                         | Do not use. Supplies the callback mechanism.<br/>                                                                          |
 | [**INNTPTransport**](oe-inntptransport.md)                       | Do not use. Wraps the details of Network News Transport Protocol (NNTP) in a Component Object Model (COM) interface. <br/> |
 | [**INNTPTransport2**](oe-inntptransport2.md)                     | Do not use. Extends [**INNTPTransport**](oe-inntptransport.md) to control timeouts and refine asynchronous behavior.<br/> |
-| [**IPOP3Callback**](oe-ipop3callback.md)                         | Do not use. Callback interface for the Post Office Protocol version 3 (POP3) transport.<br/>                               |
+| [**IPOP3Callback**](oe-ipop3callback.md)                         | Do not use. Callback interface for the Post Office Protocol version 3 (POP3) transport.<br/>                               |
 | [**IPOP3Transport**](oe-ipop3transport.md)                       | Do not use. Transport for POP3 clients. <br/>                                                                              |
 | [**IPropFindMultiResponse**](oe-ipropfindmultiresponse.md)       | Do not use. No longer available.<br/>                                                                                      |
 | [**IPropFindRequest**](oe-ipropfindrequest.md)                   | Do not use. No longer available.<br/>                                                                                      |
@@ -44,7 +49,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Enums
 
@@ -75,7 +80,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Structures
 
@@ -142,7 +147,7 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
 ### Constants
 
@@ -156,11 +161,11 @@ New applications should not use this set of interfaces and schemas. These interf
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

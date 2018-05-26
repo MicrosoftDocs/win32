@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMUpgradeRegistry function
-ms.assetid: '780ae330-907e-4e77-a5f9-cb44811f289f'
+ms.assetid: 780ae330-907e-4e77-a5f9-cb44811f289f
 title: OEMUpgradeRegistry function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMUpgradeRegistry function

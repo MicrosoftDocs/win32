@@ -1,7 +1,12 @@
 ---
 title: Building a Type Library
 description: Demonstrates how to build a type library.
-ms.assetid: '089eb146-9f24-4b15-a768-1706614667a9'
+ms.assetid: 089eb146-9f24-4b15-a768-1706614667a9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building a Type Library

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes generic fax access rights.'
-ms.assetid: 'e762ddce-237a-4b30-a52c-269fed36dcac'
+Description: This topic describes generic fax access rights.
+ms.assetid: e762ddce-237a-4b30-a52c-269fed36dcac
 title: Generic Fax Access Rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generic Fax Access Rights

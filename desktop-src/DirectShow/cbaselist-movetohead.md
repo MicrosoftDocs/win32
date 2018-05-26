@@ -1,7 +1,12 @@
 ---
-Description: 'The MoveToHead method splits the list and inserts the tail portion at the head of another list.'
-ms.assetid: '46e4f8fe-6707-44c6-9d49-0168b35d2364'
-title: 'CBaseList.MoveToHead method'
+Description: The MoveToHead method splits the list and inserts the tail portion at the head of another list.
+ms.assetid: 46e4f8fe-6707-44c6-9d49-0168b35d2364
+title: CBaseList.MoveToHead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.MoveToHead method
@@ -13,8 +18,8 @@ The `MoveToHead` method splits the list and inserts the tail portion at the head
 
 ```C++
 BOOL MoveToHead(
-   POSITION  pos,
-   CBaseList *pList
+   POSITION  pos,
+   CBaseList *pList
 );
 ```
 
@@ -64,9 +69,9 @@ This method splits the list before the position specified by the *pos* parameter
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

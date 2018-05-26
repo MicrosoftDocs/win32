@@ -1,7 +1,12 @@
 ---
 title: Rich Edit Notifications
 description: .
-ms.assetid: '00c01680-e6f3-4f67-97dd-8b4919c426f4'
+ms.assetid: 00c01680-e6f3-4f67-97dd-8b4919c426f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rich Edit Notifications

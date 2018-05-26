@@ -4,17 +4,22 @@ description: Placeholder terminal server property 02.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b16e38d0-b21c-4293-b3c2-f4d3bc17d9d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: b16e38d0-b21c-4293-b3c2-f4d3bc17d9d8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["MS-TSLS-Property02 attribute AD Schema", "msTSLSProperty02 attribute AD Schema"]
+keywords:
+- MS-TSLS-Property02 attribute AD Schema
+- msTSLSProperty02 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - MS-TSLS-Property02
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MS-TSLS-Property02 attribute
@@ -38,9 +43,9 @@ Placeholder terminal server property 02.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Placeholder terminal server property 02.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

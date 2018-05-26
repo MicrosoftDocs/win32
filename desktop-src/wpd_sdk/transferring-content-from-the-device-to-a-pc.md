@@ -1,7 +1,12 @@
 ---
 Description: Transferring Content from the Device to a PC
-ms.assetid: '76069097-a513-42f7-bdcc-a65714e95f0a'
+ms.assetid: 76069097-a513-42f7-bdcc-a65714e95f0a
 title: Transferring Content from the Device to a PC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transferring Content from the Device to a PC
@@ -14,9 +19,9 @@ Content transfers are accomplished using the interfaces described in the followi
 
 | Interface                                                                | Description                                                     |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)       | Provides access to the **IPortableDeviceProperties** interface. |
-| [**IPortableDeviceProperties Interface**](iportabledeviceproperties.md) | Provides access to property-specific methods.                   |
-| [**IPortableDeviceResources Interface**](iportabledeviceresources.md)   | Used to store the property keys for the given profile.          |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)       | Provides access to the **IPortableDeviceProperties** interface. |
+| [**IPortableDeviceProperties Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties?branch=master) | Provides access to property-specific methods.                   |
+| [**IPortableDeviceResources Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources?branch=master)   | Used to store the property keys for the given profile.          |
 | IStream Interface                                                        | Used to read and write the data.                                |
 
 
@@ -188,10 +193,10 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceValues Interface**](iportabledevicevalues.md)

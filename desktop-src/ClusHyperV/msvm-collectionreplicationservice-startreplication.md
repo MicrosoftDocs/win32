@@ -4,13 +4,16 @@ description: Starts the replication service for a collection of virtual machines
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '568684ba-0df8-41e9-b25c-84ce1f74906e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 568684ba-0df8-41e9-b25c-84ce1f74906e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StartReplication method", "StartReplication method, Msvm_CollectionReplicationService class", "Msvm_CollectionReplicationService class, StartReplication method"]
+keywords:
+- StartReplication method
+- StartReplication method, Msvm_CollectionReplicationService class
+- Msvm_CollectionReplicationService class, StartReplication method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartReplication method of the Msvm\_CollectionReplicationService class
@@ -30,11 +36,11 @@ Starts the replication service for a collection of virtual machines.
 
 ```mof
 uint32 StartReplication(
-  [in]  CIM_CollectionOfMSEs REF Collection,
-  [in]  uint16                   InitialReplicationType,
-  [in]  string                   InitialReplicationExportLocation,
-  [in]  datetime                 StartTime,
-  [out] CIM_ConcreteJob      REF Job
+  [in]  CIM_CollectionOfMSEs REF Collection,
+  [in]  uint16                   InitialReplicationType,
+  [in]  string                   InitialReplicationExportLocation,
+  [in]  datetime                 StartTime,
+  [out] CIM_ConcreteJob      REF Job
 );
 ```
 
@@ -155,7 +161,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -169,9 +175,9 @@ The possible return values are:
 [**Msvm\_CollectionReplicationService**](msvm-collectionreplicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

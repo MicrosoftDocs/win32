@@ -1,13 +1,16 @@
 ---
-Description: 'Describes WMI SNMP provider errors 1091 through 1100.'
+Description: Describes WMI SNMP provider errors 1091 through 1100.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9b7db4fc-8ae8-46f7-a40f-e4401a335c5d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9b7db4fc-8ae8-46f7-a40f-e4401a335c5d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Errors 1091 through 1100
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors 1091 through 1100

@@ -1,8 +1,15 @@
 ---
 title: Basic concepts
 description: This topic provides an overview of the basic concepts of Microsoft DirectComposition.
-ms.assetid: 'F442BDCA-C913-4438-BFFA-D3F28B68EE85'
-keywords: ["DirectComposition concepts", "DirectComposition basic concepts"]
+ms.assetid: F442BDCA-C913-4438-BFFA-D3F28B68EE85
+keywords:
+- DirectComposition concepts
+- DirectComposition basic concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic concepts
@@ -67,7 +74,7 @@ A visual object exposes a set of properties that enable you to set the bitmap co
 
 A visual's Content property specifies the bitmap content that is associated with the visual. This is the bitmap that DirectComposition uses when you include the visual in a composition.
 
-You set the Content property of a visual by calling the [**IDCompositionVisual::SetContent**](idcompositionvisual-setcontent.md) method.
+You set the Content property of a visual by calling the [**IDCompositionVisual::SetContent**](/windows/win32/Dcomp/?branch=master) method.
 
 For more information about the types of bitmap content supported by DirectComposition, see [Bitmap objects](bitmap-surfaces.md).
 
@@ -75,7 +82,7 @@ For more information about the types of bitmap content supported by DirectCompos
 
 The Clip property of a visual specifies a rectangular area called the *clipping region* (or *clip rectangle*). When a visual is rendered, only the portion of the visual that falls inside the clipping region is displayed, while any content that extends outside the clipping region is clipped (that is, not displayed). DirectComposition supports clipping regions that have rounded or squared corners.
 
-You set the Clip property of a visual by calling the [**IDCompositionVisual::SetClip**](idcompositionvisual-setclip-overloaded.md) method.
+You set the Clip property of a visual by calling the [**IDCompositionVisual::SetClip**](/windows/win32/Dcomp/nf-dcomp-setclip?branch=master) method.
 
 For more information, see [Clipping](clipping.md).
 
@@ -85,19 +92,19 @@ The BorderMode property specifies how to compose the edges of bitmaps and clips 
 
 The border mode affects how the edges of a bitmap are composed when the bitmap is transformed such that the edges are not axis-aligned with integer coordinates. It also affects how content is clipped at the corners of a clip that has rounded corners, and at the edge of a clip that is transformed such that the edges are not axis-aligned with integer coordinates.
 
-For more information, see [**IDCompositionVisual::SetBorderMode**](idcompositionvisual-setbordermode.md).
+For more information, see [**IDCompositionVisual::SetBorderMode**](/windows/win32/Dcomp/?branch=master).
 
 ### BitmapInterpolationMode property
 
 The BitmapInterpolationMode property tells DirectComposition how to compose a bitmap when it is transformed such that there is no one-to-one correspondence between pixels in the bitmap and pixels on the screen.
 
-You set the BitmapInterpolationMode property of a visual by calling the [**IDCompositionVisual::SetBitmapInterpolationMode**](idcompositionvisual-setbitmapinterpolationmode.md) method.
+You set the BitmapInterpolationMode property of a visual by calling the [**IDCompositionVisual::SetBitmapInterpolationMode**](/windows/win32/Dcomp/?branch=master) method.
 
 ### CompositeMode property
 
-The CompositeMode property tells DirectComposition how to blend the bitmap content of a visual with the render target. For a description of the supported composite modes, see [**DCOMPOSITION\_COMPOSITE\_MODE**](dcomposition-composite-mode.md).
+The CompositeMode property tells DirectComposition how to blend the bitmap content of a visual with the render target. For a description of the supported composite modes, see [**DCOMPOSITION\_COMPOSITE\_MODE**](/windows/win32/DcompTypes/ne-dcomptypes-dcomposition_composite_mode?branch=master).
 
-You set the CompositeMode property of a visual by calling the [**IDCompositionVisual::SetCompositeMode**](idcompositionvisual-setcompositemode.md) method.
+You set the CompositeMode property of a visual by calling the [**IDCompositionVisual::SetCompositeMode**](/windows/win32/Dcomp/?branch=master) method.
 
 ### OffsetX and OffsetY properties
 
@@ -105,13 +112,13 @@ The OffsetX and OffsetY properties tell DirectComposition where to position a vi
 
 For a root visual, the OffsetX and OffsetY properties define the x-coordinate and y-coordinate of a point relative to the upper-left corner of the window that hosts the visual. For a child visual, the coordinates are relative to the upper-left corner of the parent or, if the [TransformParent property](#transformparent-property) is specified, the upper-left corner of the specified visual. When a visual is rendered, it is positioned such that the visual's upper-left corner coincides with the specified coordinates.
 
-You set the OffsetX and OffsetY properties of a visual by calling the [**IDCompositionVisual::SetOffsetX**](idcompositiontranslatetransform-setoffsetx-overloaded.md) and [**SetOffsetY**](idcompositiontranslatetransform-setoffsety-overloaded.md) methods.
+You set the OffsetX and OffsetY properties of a visual by calling the [**IDCompositionVisual::SetOffsetX**](/windows/win32/Dcomp/?branch=master) and [**SetOffsetY**](/windows/win32/Dcomp/?branch=master) methods.
 
 ### Effect property
 
 The Effect property lets you specify an effect, or group of effects, that will modify how a visual and its subtree is composed. For example, you can specify effects that control the opacity of a visual, blend the visual with another bitmap in various ways, and apply perspective transforms to the visual.
 
-You set the Effect property of a visual by calling the [**IDCompositionVisual::SetEffect**](idcompositionvisual-seteffect.md) method.
+You set the Effect property of a visual by calling the [**IDCompositionVisual::SetEffect**](/windows/win32/Dcomp/?branch=master) method.
 
 For more information, see [Effects](effects.md).
 
@@ -119,7 +126,7 @@ For more information, see [Effects](effects.md).
 
 The Transform property specifies a two-dimensional (2D) transformation, or group of 2D transformations, for DirectComposition to perform on the visual. A transformation (or transform) is an operation that modifies the coordinate system of a visual relative to its parent, or relative to the visual specified by the [TransformParent property](#transformparent-property). You can use transforms to alter the position, size, or nature of a visual by moving it to another location (translation), making it larger or smaller (scaling), turning it (rotation), distorting its shape (skewing), and so on.
 
-You set the Transform property of a visual by calling the [**IDCompositionVisual::SetTransform**](idcompositionvisual-settransform-overloaded.md) method.
+You set the Transform property of a visual by calling the [**IDCompositionVisual::SetTransform**](/windows/win32/Dcomp/?branch=master) method.
 
 For more information, see [Transforms](transforms.md).
 
@@ -127,17 +134,17 @@ For more information, see [Transforms](transforms.md).
 
 The coordinate system of a visual is modified by the OffsetX, OffsetY, and Transform properties. Normally, these properties define the coordinate system of a visual relative to its immediate parent. To use some visual other than the parent as the basis for the coordinate system of a child visual, use the TransformParent property to specify a different visual as the "parent" for transform purposes.
 
-You set the TransformParent property of a visual by calling the [**IDCompositionVisual::SetTransformParent**](idcompositionvisual-settransformparent.md) method.
+You set the TransformParent property of a visual by calling the [**IDCompositionVisual::SetTransformParent**](/windows/win32/Dcomp/?branch=master) method.
 
 ## Device object
 
 To use DirectComposition, you must create and manipulate a variety of Component Object Model (COM) objects. The first object that you need to create is the DirectComposition *device object* because it serves as the factory for creating all other objects used in a composition.
 
-You create a device object by calling the [**DCompositionCreateDevice**](dcompositioncreatedevice.md) function, which returns an [**IDCompositionDevice**](idcompositiondevice.md) interface pointer. This interface exposes a set of methods that you use to create visual objects, clip objects, animation objects, transform objects, effect objects, and so on.
+You create a device object by calling the [**DCompositionCreateDevice**](/windows/win32/Dcomp/nf-dcomp-dcompositioncreatedevice?branch=master) function, which returns an [**IDCompositionDevice**](/windows/win32/Dcomp/?branch=master) interface pointer. This interface exposes a set of methods that you use to create visual objects, clip objects, animation objects, transform objects, effect objects, and so on.
 
-The device object serves one other purpose besides being a factory for creating other objects. It exposes a method called [**Commit**](idcompositiondevice-commit.md) that passes a visual tree to DirectComposition for processing. For more information, see [Transactional Composition](#transactional-composition).
+The device object serves one other purpose besides being a factory for creating other objects. It exposes a method called [**Commit**](/windows/win32/Dcomp/?branch=master) that passes a visual tree to DirectComposition for processing. For more information, see [Transactional Composition](#transactional-composition).
 
-Remember that, while you can create multiple instances of the device object in your application, all of the objects that you use in a particular composition must be created by the same device object—with one exception: You can combine visual objects from different device objects in the same visual tree. When you do so, DirectComposition treats the visual tree as it normally would, except that changes to a particular visual object in the tree take effect only when the [**Commit**](idcompositiondevice-commit.md) method is called on the device object that created the visual object.
+Remember that, while you can create multiple instances of the device object in your application, all of the objects that you use in a particular composition must be created by the same device object—with one exception: You can combine visual objects from different device objects in the same visual tree. When you do so, DirectComposition treats the visual tree as it normally would, except that changes to a particular visual object in the tree take effect only when the [**Commit**](/windows/win32/Dcomp/?branch=master) method is called on the device object that created the visual object.
 
 The ability to use visuals from different devices in the same visual tree enables multiple threads to create and manipulate a single visual tree while maintaining two independent devices that can be used to commit changes asynchronously. For more information, see [Cross-Device Visual Trees](#cross-device-visual-trees).
 
@@ -155,7 +162,7 @@ DirectComposition uses a transactional model where you create a batched set of c
 
 All changes within a single commit are guaranteed to be applied to a single frame. Because DWM collects batches once per frame, you can modify any particular object only once per frame. Subsequent commits that modify different objects might also be applied to the current frame, but DirectComposition does not guarantee that the changes will occur in the same frame.
 
-The [**IDCompositionSurface::BeginDraw**](idcompositionsurface-begindraw.md) and [**IDCompositionSurface::EndDraw**](idcompositionsurface-enddraw.md) methods let you synchronize rendering updates with visual updates. For example, you can call **IDCompositionSurface::BeginDraw**, update the OffsetX and Clip properties of a visual, call [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md), draw content with Microsoft DirectX, and then call **IDCompositionSurface::EndDraw**. In this case, Microsoft DirectComposition ensures that bitmap content and the visual properties are updated at the same time.
+The [**IDCompositionSurface::BeginDraw**](/windows/win32/Dcomp/?branch=master) and [**IDCompositionSurface::EndDraw**](/windows/win32/Dcomp/?branch=master) methods let you synchronize rendering updates with visual updates. For example, you can call **IDCompositionSurface::BeginDraw**, update the OffsetX and Clip properties of a visual, call [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master), draw content with Microsoft DirectX, and then call **IDCompositionSurface::EndDraw**. In this case, Microsoft DirectComposition ensures that bitmap content and the visual properties are updated at the same time.
 
 ### Batching
 
@@ -175,8 +182,8 @@ You can commit multiple changes to the same visual, or multiple changes to diffe
 
     Remember that all changes are applied to the visual at once within the context of the same frame. This means that, from the user's perspective, the changes to the visual occur instantaneously.
 
--   For the Transform property, you can use [**IDCompositionDevice::CreateTransformGroup**](idcompositiondevice-createtransformgroup.md) to create a group of transforms to apply to a visual all at once. DirectComposition applies the transforms in the order that you specify.
--   For the Effect property, you can use [**IDCompositionEffectGroup**](idcompositioneffectgroup.md) to apply a group of effects. DirectComposition applies the effects in the order that you specify. In addition, 3D perspective transformations result in flattening of the visual tree after all 3D transformations in the current visual have been applied. This helps ensure that the resulting visual looks as close to 3D as possible.
+-   For the Transform property, you can use [**IDCompositionDevice::CreateTransformGroup**](/windows/win32/Dcomp/?branch=master) to create a group of transforms to apply to a visual all at once. DirectComposition applies the transforms in the order that you specify.
+-   For the Effect property, you can use [**IDCompositionEffectGroup**](/windows/win32/Dcomp/?branch=master) to apply a group of effects. DirectComposition applies the effects in the order that you specify. In addition, 3D perspective transformations result in flattening of the visual tree after all 3D transformations in the current visual have been applied. This helps ensure that the resulting visual looks as close to 3D as possible.
 
 ### Synchronization
 
@@ -186,8 +193,8 @@ Your application can call DirectComposition from multiple threads at the same ti
 
 DirectComposition objects are not thread bound; you can use multiple threads to modify the same set of objects. However, be aware of the following issues when sharing the same device object.
 
--   Both threads need to be able to call [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md). If only one of the threads calls **IDCompositionDevice::Commit**, the other thread cannot commit any of its changes to DirectComposition.
--   Transactional behavior might be lost if one thread calls [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) while the other thread is still making changes that are intended to be part of the same transaction.
+-   Both threads need to be able to call [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master). If only one of the threads calls **IDCompositionDevice::Commit**, the other thread cannot commit any of its changes to DirectComposition.
+-   Transactional behavior might be lost if one thread calls [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) while the other thread is still making changes that are intended to be part of the same transaction.
 
 If you need to commit multiple simultaneous transactions to DirectComposition, you must use multiple device objects, possibly from multiple threads. In this scenario, the same visual tree is shared by both device objects, and each device object commits its own transactions.
 
@@ -205,13 +212,13 @@ Typically, the UI thread modifies only the visuals that it owns exclusively, and
 
 <dl> <dt>
 
-[**IDCompositionSurface::BeginDraw**](idcompositionsurface-begindraw.md)
+[**IDCompositionSurface::BeginDraw**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositionSurface::EndDraw**](idcompositionsurface-enddraw.md)
+[**IDCompositionSurface::EndDraw**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
-[**IDCompositonDevice::Commit**](idcompositiondevice-commit.md)
+[**IDCompositonDevice::Commit**](/windows/win32/Dcomp/?branch=master)
 </dt> <dt>
 
 [DirectComposition Concepts](directcomposition-concepts.md)

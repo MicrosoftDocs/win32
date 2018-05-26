@@ -1,7 +1,12 @@
 ---
 title: Notification Protocol for Server Applications
 description: BITS uses the BITSServerNotificationType property to determine how BITS sends the contents of the upload file to the server application.
-ms.assetid: 'd5193d0c-3ab4-47ab-a570-fea2904a4371'
+ms.assetid: d5193d0c-3ab4-47ab-a570-fea2904a4371
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notification Protocol for Server Applications
@@ -24,7 +29,7 @@ BITS passes the location of the upload and reply files to the server application
 
 
 
- 
+ 
 
 The following table shows the response headers.
 
@@ -37,7 +42,7 @@ The following table shows the response headers.
 
 
 
- 
+ 
 
 The following request shows BITS sending the location of the upload file to the server application.
 
@@ -71,7 +76,7 @@ BITS sends the upload file in the body of the request if the [BITSServerNotifica
 
 
 
- 
+ 
 
 The following table shows the response headers.
 
@@ -84,7 +89,7 @@ The following table shows the response headers.
 
 
 
- 
+ 
 
 The following request shows BITS passing the uploaded file to the server application in the body of the request.
 
@@ -110,9 +115,9 @@ Content-Length: 100
 
 See [Handling Server Application Errors](handling-server-application-errors.md).
 
- 
+ 
 
- 
+ 
 
 
 

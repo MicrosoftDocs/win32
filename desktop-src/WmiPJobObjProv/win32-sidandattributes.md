@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_SIDandAttributes abstract WMI class represents a security identifier (SID) and its attributes.'
+Description: The Win32\_SIDandAttributes abstract WMI class represents a security identifier (SID) and its attributes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2876468b-7d31-4661-b663-6734a8e211a7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2876468b-7d31-4661-b663-6734a8e211a7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_SIDandAttributes class'
+title: Win32\_SIDandAttributes class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_SIDandAttributes class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{DE1B36A6-4157-43ed-937F-D90606C09216}"), AMENDMENT]
 class Win32_SIDandAttributes
 {
-  uint32    Attributes;
+  uint32    Attributes;
   Win32_SID SID;
 };
 ```
@@ -71,8 +74,8 @@ Reference to an instance representing a SID.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipjobj.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipjobj.dll</dt> </dl> |
@@ -86,9 +89,9 @@ Reference to an instance representing a SID.
 [Operating System Classes](https://msdn.microsoft.com/library/dn792258)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

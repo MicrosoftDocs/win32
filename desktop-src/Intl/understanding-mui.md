@@ -1,7 +1,12 @@
 ---
-Description: 'This section provides an initial look at the Multilingual User Interface (MUI) technology, some of its history, and its benefits.'
-ms.assetid: '7e435787-afdc-42cc-bdbc-9b8b81d23ebd'
+Description: This section provides an initial look at the Multilingual User Interface (MUI) technology, some of its history, and its benefits.
+ms.assetid: 7e435787-afdc-42cc-bdbc-9b8b81d23ebd
 title: Understanding MUI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Understanding MUI

@@ -1,8 +1,17 @@
 ---
 title: Remote Access
 description: Use Remote Access Service (RAS) to create client applications.
-ms.assetid: '4e6c04d4-f989-4248-901f-ec15f61582da'
-keywords: ["Remote Access Service RAS", "RAS RAS", "Remote Access Service RAS , start page", "RAS RAS , see Remote Access"]
+ms.assetid: 4e6c04d4-f989-4248-901f-ec15f61582da
+keywords:
+- Remote Access Service RAS
+- RAS RAS
+- Remote Access Service RAS , start page
+- RAS RAS , see Remote Access
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Access
@@ -23,7 +32,7 @@ The RAS API is designed for use by C/C++ programmers. Microsoft Visual Basic pro
 
 Some of the functions in the RAS API are supported only on network servers and other functions are supported only on network clients. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
 
-The [enhanced RAS functionality](function-comparison-windows-2000-versus-rras-redistributable.md) of RRAS is available for Windows NT Server 4.0 by installing the [RRAS redistributable](Http://go.microsoft.com/fwlink/p/?linkid=84569). All the functionality of RRAS is incorporated into Windows 2000 Server, Windows Server 2003, and Windows Server 2008. RRAS applications cannot run on Windows NT Workstation 4.0 or on client operating systems, such as Windows 95. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
+The [enhanced RAS functionality](function-comparison-windows-2000-versus-rras-redistributable.md) of RRAS is available for Windows NT Server 4.0 by installing the [RRAS redistributable](Http://go.microsoft.com/fwlink/p/?linkid=84569). All the functionality of RRAS is incorporated into Windows 2000 Server, Windows Server 2003, and Windows Server 2008. RRAS applications cannot run on Windows NT Workstation 4.0 or on client operating systems, such as Windows 95. For more specific information about which operating systems support a particular function, refer to the Requirements sections in the documentation.
 
 ## In this section
 
@@ -36,7 +45,7 @@ The [enhanced RAS functionality](function-comparison-windows-2000-versus-rras-re
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -48,9 +57,9 @@ The [enhanced RAS functionality](function-comparison-windows-2000-versus-rras-re
 [Routing Protocols](routing-protocols-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

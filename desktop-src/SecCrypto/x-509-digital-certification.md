@@ -1,7 +1,12 @@
 ---
-Description: 'Digital certification involves a process for signing the certificate. This process is described.'
-ms.assetid: 'bb0382fd-2924-429f-933b-84ab61debf20'
-title: 'X.509 Digital Certification'
+Description: Digital certification involves a process for signing the certificate. This process is described.
+ms.assetid: bb0382fd-2924-429f-933b-84ab61debf20
+title: X.509 Digital Certification
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # X.509 Digital Certification

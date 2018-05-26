@@ -4,11 +4,15 @@ description: To perform control code operations you need to call a control code 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4d15ac9c-6fee-40b7-9481-185cd010f2df'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4d15ac9c-6fee-40b7-9481-185cd010f2df
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["control codes Failover Cluster ,using in control code functions"]
+keywords:
+- control codes Failover Cluster ,using in control code functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Control Codes in Control Code Functions

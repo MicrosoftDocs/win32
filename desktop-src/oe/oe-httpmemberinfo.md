@@ -1,8 +1,10 @@
 ---
 title: HTTPMEMBERINFO structure
 description: Contains resource properties returned in a server response for the MemberInfo method.
-ms.assetid: 'de511ac9-2ab8-42eb-a7e0-4b69c05d09dd'
-keywords: ["HTTPMEMBERINFO structure Windows Mail (formerly Outlook Express)", "LPHTTPMEMBERINFO structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: de511ac9-2ab8-42eb-a7e0-4b69c05d09dd
+keywords:
+- HTTPMEMBERINFO structure Windows Mail (formerly Outlook Express)
+- LPHTTPMEMBERINFO structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMEMBERINFO structure
@@ -24,21 +31,21 @@ Contains resource properties returned in a server response for the [**MemberInfo
 
 ```C++
 typedef struct tagHTTPMEMBERINFO {
-  LPSTR                 pszHref;
-  BOOL                  fIsFolder;
-  LPSTR                 pszDisplayName;
-  BOOL                  fHasSubs;
-  BOOL                  fNoSubs;
-  DWORD                 dwUnreadCount;
-  DWORD                 dwVisibleCount;
+  LPSTR                 pszHref;
+  BOOL                  fIsFolder;
+  LPSTR                 pszDisplayName;
+  BOOL                  fHasSubs;
+  BOOL                  fNoSubs;
+  DWORD                 dwUnreadCount;
+  DWORD                 dwVisibleCount;
   HTTPMAILSPECIALFOLDER tySpecial;
-  BOOL                  fRead;
-  BOOL                  fHasAttachment;
-  LPSTR                 pszTo;
-  LPSTR                 pszFrom;
-  LPSTR                 pszSubject;
-  LPSTR                 pszDate;
-  DWORD                 dwContentLength;
+  BOOL                  fRead;
+  BOOL                  fHasAttachment;
+  LPSTR                 pszTo;
+  LPSTR                 pszFrom;
+  LPSTR                 pszSubject;
+  LPSTR                 pszDate;
+  DWORD                 dwContentLength;
 } HTTPMEMBERINFO, *LPHTTPMEMBERINFO;
 ```
 
@@ -219,17 +226,17 @@ Contains a **DWORD** that contains the size of the content of the resource. This
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

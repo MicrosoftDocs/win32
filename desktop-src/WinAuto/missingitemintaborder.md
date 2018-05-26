@@ -1,7 +1,12 @@
 ---
 title: MissingItemInTabOrder
 description: MissingItemInTabOrder
-ms.assetid: '49DE892E-1B15-4F46-B316-217CC76AA1A9'
+ms.assetid: 49DE892E-1B15-4F46-B316-217CC76AA1A9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MissingItemInTabOrder

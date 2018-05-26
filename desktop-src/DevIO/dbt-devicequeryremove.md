@@ -1,7 +1,12 @@
 ---
-Description: 'The system broadcasts the DBT\_DEVICEQUERYREMOVE device event to request permission to remove a device or piece of media.'
-ms.assetid: 'a0e9aa57-da0e-4e9c-99d0-5502040d2664'
-title: 'DBT\_DEVICEQUERYREMOVE event'
+Description: The system broadcasts the DBT\_DEVICEQUERYREMOVE device event to request permission to remove a device or piece of media.
+ms.assetid: a0e9aa57-da0e-4e9c-99d0-5502040d2664
+title: DBT\_DEVICEQUERYREMOVE event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBT\_DEVICEQUERYREMOVE event
@@ -50,7 +55,7 @@ Set to DBT\_DEVICEQUERYREMOVE.
 *lParam* 
 </dt> <dd>
 
-A pointer to a structure identifying the device to remove. The structure consists of an event-independent header, followed by event-dependent members that describe the device. To use this structure, treat the structure as a [**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md) structure, then check its **dbch\_devicetype** member to determine the device type.
+A pointer to a structure identifying the device to remove. The structure consists of an event-independent header, followed by event-dependent members that describe the device. To use this structure, treat the structure as a [**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master) structure, then check its **dbch\_devicetype** member to determine the device type.
 
 </dd> </dl>
 
@@ -74,8 +79,8 @@ For an example, see [Processing a Request to Remove a Device](processing-a-reque
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
+| Minimum supported client<br/> | Windows XP<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Dbt.h</dt> </dl> |
 
 
@@ -90,15 +95,15 @@ For an example, see [Processing a Request to Remove a Device](processing-a-reque
 [Device Management Events](device-management-events.md)
 </dt> <dt>
 
-[**DEV\_BROADCAST\_HDR**](dev-broadcast-hdr-str.md)
+[**DEV\_BROADCAST\_HDR**](/windows/win32/Dbt/ns-dbt-_dev_broadcast_hdr?branch=master)
 </dt> <dt>
 
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

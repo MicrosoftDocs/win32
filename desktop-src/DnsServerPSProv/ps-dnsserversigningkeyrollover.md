@@ -2,13 +2,15 @@
 title: PS\_DnsServerSigningKeyRollover class
 description: DNS Server Signing Key Rollover Task Definition.
 audience: developer
-ms.assetid: 'a1d86b01-2a5e-4a5d-b1a9-2ca45d5d45e6'
-ms.prod: 'windows-server-dev'
+ms.assetid: a1d86b01-2a5e-4a5d-b1a9-2ca45d5d45e6
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerSigningKeyRollover class", "PS_DnsServerSigningKeyRollover class, described"]
+keywords:
+- PS_DnsServerSigningKeyRollover class
+- PS_DnsServerSigningKeyRollover class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerSigningKeyRollover class
@@ -55,7 +60,7 @@ The **PS\_DnsServerSigningKeyRollover** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,7 +69,7 @@ The **PS\_DnsServerSigningKeyRollover** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -78,9 +83,9 @@ The **PS\_DnsServerSigningKeyRollover** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

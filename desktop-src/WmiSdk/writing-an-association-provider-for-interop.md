@@ -1,13 +1,16 @@
 ---
-Description: 'An association provider provides a mechanism to register profiles and associate them with profiles that are implemented in different namespaces.'
+Description: An association provider provides a mechanism to register profiles and associate them with profiles that are implemented in different namespaces.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e6aab944-4ed8-4678-ad35-426f7b4f9a35'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e6aab944-4ed8-4678-ad35-426f7b4f9a35
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Writing an Association Provider for Interop
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Writing an Association Provider for Interop
@@ -85,7 +88,7 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
 
     2.  Write a provider that returns instances of the created derived class. For more information, see [Writing an Instance Provider](writing-an-instance-provider.md). When you access cross-namespace instances, you might have to access the security levels for the client. For more information, see [Impersonating a Client](impersonating-a-client.md).
 
-        The association provider should implement both the [**IWbemServices.CreateInstanceEnumAsync**](iwbemservices-createinstanceenumasync.md) and [**IWbemServices.GetObjectAsync**](iwbemservices-getobjectasync.md) methods. Implementing the [**IWbemServices.ExecQueryAsync**](iwbemservices-execqueryasync.md) method is optional. Because this provider can be accessed from both the root\\interop and the root\\&lt;implemented&gt; namespaces, there should not be an explicit dependency on a namespace inside the provider.
+        The association provider should implement both the [**IWbemServices.CreateInstanceEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync?branch=master) and [**IWbemServices.GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master) methods. Implementing the [**IWbemServices.ExecQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execqueryasync?branch=master) method is optional. Because this provider can be accessed from both the root\\interop and the root\\&lt;implemented&gt; namespaces, there should not be an explicit dependency on a namespace inside the provider.
 
 3.  Register the association provider in both the root\\interop and the root\\&lt;implemented&gt; namespaces. For more information, see [Registering an Instance Provider](registering-an-instance-provider.md).
 
@@ -130,9 +133,9 @@ Windows Management Instrumentation (WMI) loads the association provider whenever
     ```
 
 4.  Place the schema for the [**CIM\_ElementConformsToProfile**](https://msdn.microsoft.com/library/mt446049) into the implemented namespace. For Windows clients this is the interop.mof file that is located in the %systemroot%\\system32\\wbem folder.
-5.  Implement the [**IWbemProviderInit**](iwbemproviderinit.md) interface for your provider.
+5.  Implement the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface for your provider.
 
-    WMI uses [**IWbemProviderInit**](iwbemproviderinit.md) to load and initialize a provider. The [**IWbemProviderInit.Initialize**](iwbemproviderinit-initialize.md) method should be implemented in a way that allows it to be called for two different namespaces. For more information, see [Initializing a Provider](initializing-a-provider.md).
+    WMI uses [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) to load and initialize a provider. The [**IWbemProviderInit.Initialize**](/windows/win32/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize?branch=master) method should be implemented in a way that allows it to be called for two different namespaces. For more information, see [Initializing a Provider](initializing-a-provider.md).
 
 ## Related topics
 

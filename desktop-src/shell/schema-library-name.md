@@ -1,7 +1,12 @@
 ---
-Description: 'The &lt;name&gt; element specifies the name of this library. This element is required and has no attributes or child elements.'
-ms.assetid: '1F433405-5943-4579-BDAD-423C4E1A6E76'
-title: 'name Element (Library Schema)'
+Description: The &lt;name&gt; element specifies the name of this library. This element is required and has no attributes or child elements.
+ms.assetid: 1F433405-5943-4579-BDAD-423C4E1A6E76
+title: name Element (Library Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # name Element (Library Schema)

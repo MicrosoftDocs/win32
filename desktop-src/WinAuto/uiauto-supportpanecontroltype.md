@@ -1,8 +1,29 @@
 ---
 title: Pane Control Type
 description: This topic provides information about Microsoft UI Automation support for the Pane control type.
-ms.assetid: '2a5d69dc-6880-4610-b481-4371637472ed'
-keywords: ["UI Automation,support for Pane control type", "UI Automation,Pane control type", "UI Automation,tree structure for Pane control type", "UI Automation,properties for Pane control type", "UI Automation,control patterns for Pane control type", "UI Automation,events for Pane control type", "tree structures,Pane control type", "properties,Pane control type", "control patterns,Pane control type", "events,Pane control type", "support for Pane control type", "Pane control type", "control types,tree structure for Pane control type", "control types,control patterns for Pane control type", "control types,support for Pane", "control types,Pane"]
+ms.assetid: 2a5d69dc-6880-4610-b481-4371637472ed
+keywords:
+- UI Automation,support for Pane control type
+- UI Automation,Pane control type
+- UI Automation,tree structure for Pane control type
+- UI Automation,properties for Pane control type
+- UI Automation,control patterns for Pane control type
+- UI Automation,events for Pane control type
+- tree structures,Pane control type
+- properties,Pane control type
+- control patterns,Pane control type
+- events,Pane control type
+- support for Pane control type
+- Pane control type
+- control types,tree structure for Pane control type
+- control types,control patterns for Pane control type
+- control types,support for Pane
+- control types,Pane
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pane Control Type
@@ -90,10 +111,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                         | Support | Notes                                                                                                                                                                                         |
 |---------------------------------------------------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IDockProvider**](uiauto-idockprovider.md)           | Depends | Implement the [Dock](uiauto-implementingdock.md) control pattern if the pane control can be docked.                                                                                          |
-| [**IScrollProvider**](uiauto-iscrollprovider.md)       | Depends | Implement the [Scroll](uiauto-implementingscroll.md) control pattern if the pane control can be scrolled.                                                                                    |
-| [**ITransformProvider**](uiauto-itransformprovider.md) | Depends | Implement the [Transform](uiauto-implementingtransform.md) control pattern if the pane control can be moved, resized, or rotated on the screen.                                              |
-| [**IWindowProvider**](uiauto-iwindowprovider.md)       | Never   | If the element needs to implement the [Window](uiauto-implementingwindow.md) control pattern, the control should be based on the [Window](uiauto-supportwindowcontroltype.md) control type. |
+| [**IDockProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-idockprovider?branch=master)           | Depends | Implement the [Dock](uiauto-implementingdock.md) control pattern if the pane control can be docked.                                                                                          |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)       | Depends | Implement the [Scroll](uiauto-implementingscroll.md) control pattern if the pane control can be scrolled.                                                                                    |
+| [**ITransformProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itransformprovider?branch=master) | Depends | Implement the [Transform](uiauto-implementingtransform.md) control pattern if the pane control can be moved, resized, or rotated on the screen.                                              |
+| [**IWindowProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iwindowprovider?branch=master)       | Never   | If the element needs to implement the [Window](uiauto-implementingwindow.md) control pattern, the control should be based on the [Window](uiauto-supportwindowcontroltype.md) control type. |
 
 
 

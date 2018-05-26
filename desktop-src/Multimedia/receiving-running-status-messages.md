@@ -1,8 +1,16 @@
 ---
 title: Receiving Running-Status Messages
 description: Receiving Running-Status Messages
-ms.assetid: '4f2e8e41-89f6-45e3-ae16-47b856f0e63e'
-keywords: ["Musical Instrument Digital Interface (MIDI),running status", "MIDI (Musical Instrument Digital Interface),running status", "recording MIDI audio,running status"]
+ms.assetid: 4f2e8e41-89f6-45e3-ae16-47b856f0e63e
+keywords:
+- Musical Instrument Digital Interface (MIDI),running status
+- MIDI (Musical Instrument Digital Interface),running status
+- recording MIDI audio,running status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Running-Status Messages

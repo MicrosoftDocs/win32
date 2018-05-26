@@ -1,13 +1,16 @@
 ---
-Description: 'KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. CIM\_ConcreteJob.RequestStateChange() provides 'Terminate' and 'Kill' options to allow this distinction.'
+Description: KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. CIM\_ConcreteJob.RequestStateChange() provides Terminate and Kill options to allow this distinction.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1d1b2789-283c-48ae-b071-e697770bef17'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1d1b2789-283c-48ae-b071-e697770bef17
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'KillJob method of the CIM\_ConcreteJob class'
+title: KillJob method of the CIM\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # KillJob method of the CIM\_ConcreteJob class
@@ -21,7 +24,7 @@ A method to kill this job and any underlying processes, and to remove any 'dangl
 
 ```mof
 uint32 KillJob(
-  [in] boolean DeleteOnKill
+  [in] boolean DeleteOnKill
 );
 ```
 
@@ -63,10 +66,10 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 **Not Found** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -75,8 +78,8 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>PCSVDevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
@@ -93,9 +96,9 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 [**RequestStateChange**](requeststatechange-cim-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

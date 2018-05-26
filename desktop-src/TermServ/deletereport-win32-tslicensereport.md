@@ -4,11 +4,14 @@ description: Deletes a report object on the Remote Desktop license server. This 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'cc70526c-7ce5-4d55-b72e-8a5e8799b1d8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: cc70526c-7ce5-4d55-b72e-8a5e8799b1d8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["DeleteReport method Remote Desktop Services", "DeleteReport method Remote Desktop Services , Win32_TSLicenseReport class", "Win32_TSLicenseReport class Remote Desktop Services , DeleteReport method"]
+keywords:
+- DeleteReport method Remote Desktop Services
+- DeleteReport method Remote Desktop Services , Win32_TSLicenseReport class
+- Win32_TSLicenseReport class Remote Desktop Services , DeleteReport method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteReport method of the Win32\_TSLicenseReport class
@@ -55,7 +61,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -69,9 +75,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseReport**](win32-tslicensereport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

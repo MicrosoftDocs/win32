@@ -1,14 +1,20 @@
 ---
 title: WM/MediaClassPrimaryID Attribute
 description: The WM/MediaClassPrimaryID attribute is a GUID specifying one of the primary media classes music, non-music audio, video, or other.
-ms.assetid: 'eb78f4a9-7c18-4cad-bb34-fd1ff15bad4f'
-keywords: ["WM/MediaClassPrimaryID Attribute Windows Media Player"]
+ms.assetid: eb78f4a9-7c18-4cad-bb34-fd1ff15bad4f
+keywords:
+- WM/MediaClassPrimaryID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/MediaClassPrimaryID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaClassPrimaryID Attribute
@@ -52,9 +58,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

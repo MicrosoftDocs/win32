@@ -1,8 +1,11 @@
 ---
 title: Job CheckPrerequisites method
 description: Retrieves a collection of unmet assessment prerequisites.
-ms.assetid: '7de9bb18-5d1d-4384-91d7-40c8e7c84533'
-keywords: ["CheckPrerequisites method Access Execution Engine", "CheckPrerequisites method Access Execution Engine , Job interface", "Job interface Access Execution Engine , CheckPrerequisites method"]
+ms.assetid: 7de9bb18-5d1d-4384-91d7-40c8e7c84533
+keywords:
+- CheckPrerequisites method Access Execution Engine
+- CheckPrerequisites method Access Execution Engine , Job interface
+- Job interface Access Execution Engine , CheckPrerequisites method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Job::CheckPrerequisites method
@@ -22,7 +30,7 @@ Retrieves a collection of unmet assessment prerequisites.
 
 ```C++
 virtual HRESULT CheckPrerequisites(
-  [out] PrerequisiteCollection **issues
+  [out] PrerequisiteCollection **issues
 ) = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed code uses the [**Job.CheckPrerequisites \| checkPrerequisites**](axe-job
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -81,9 +89,9 @@ Managed code uses the [**Job.CheckPrerequisites \| checkPrerequisites**](axe-job
 [**PrerequisiteIssue**](prerequisiteissue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

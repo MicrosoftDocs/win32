@@ -1,7 +1,12 @@
 ---
-Description: 'A property with multiple device categories.'
-ms.assetid: 'b8cbdb96-b4dd-44c2-b1fe-08b22c0380c2'
-title: 'System.Devices.CategoryPlural'
+Description: A property with multiple device categories.
+ms.assetid: b8cbdb96-b4dd-44c2-b1fe-08b22c0380c2
+title: System.Devices.CategoryPlural
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.CategoryPlural

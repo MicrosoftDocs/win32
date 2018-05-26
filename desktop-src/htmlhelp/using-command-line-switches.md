@@ -1,7 +1,12 @@
 ---
 title: Using Command Line Switches
 description: Using Command Line Switches
-ms.assetid: '939F6C8E-5C2E-411d-8CEE-A505F935E8DC'
+ms.assetid: 939F6C8E-5C2E-411d-8CEE-A505F935E8DC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Command Line Switches

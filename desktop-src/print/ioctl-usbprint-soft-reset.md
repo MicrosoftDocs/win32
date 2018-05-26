@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IOCTL\_USBPRINT\_SOFT\_RESET request allows upper-layer software (such as a language monitor), to issue a class-specific soft reset command to the printer.'
-ms.assetid: '84e9197a-a096-42ff-af0d-3f4dab9fe0c6'
-title: 'IOCTL\_USBPRINT\_SOFT\_RESET control code'
+---
+Description: The IOCTL\_USBPRINT\_SOFT\_RESET request allows upper-layer software (such as a language monitor), to issue a class-specific soft reset command to the printer.
+ms.assetid: 84e9197a-a096-42ff-af0d-3f4dab9fe0c6
+title: IOCTL\_USBPRINT\_SOFT\_RESET control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_USBPRINT\_SOFT\_RESET control code

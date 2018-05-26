@@ -1,8 +1,9 @@
 ---
 title: EM\_REDO message
-description: Sends an EM\_REDO message to a rich edit control to redo the next action in the control's redo queue.
-ms.assetid: '28ec1ec2-a56d-442f-b3cb-9feeb92edaeb'
-keywords: ["EM_REDO message Windows Controls"]
+description: Sends an EM\_REDO message to a rich edit control to redo the next action in the controls redo queue.
+ms.assetid: 28ec1ec2-a56d-442f-b3cb-9feeb92edaeb
+keywords:
+- EM_REDO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_REDO message
@@ -51,8 +57,8 @@ To determine whether there are any actions in the control's redo queue, send the
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ To determine whether there are any actions in the control's redo queue, send the
 [**EM\_UNDO**](em-undo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

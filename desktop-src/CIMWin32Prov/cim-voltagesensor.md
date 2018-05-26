@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_VoltageSensor class exists for backward compatibility to earlier CIM schema definitions. With additions to the CIM\_Sensor and CIM\_NumericSensor classes in version 2.2, it is no longer necessary.'
+Description: The CIM\_VoltageSensor class exists for backward compatibility to earlier CIM schema definitions. With additions to the CIM\_Sensor and CIM\_NumericSensor classes in version 2.2, it is no longer necessary.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a578c7a2-27d5-4bd8-86d7-3962d5091f14'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a578c7a2-27d5-4bd8-86d7-3962d5091f14
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_VoltageSensor class'
+title: CIM\_VoltageSensor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_VoltageSensor class
@@ -19,7 +22,7 @@ The **CIM\_VoltageSensor** class exists for backward compatibility to earlier CI
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,41 +32,41 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{A998F9B4-E3D4-11d2-8601-0000F8102E5F}"), Abstract, AMENDMENT]
 class CIM_VoltageSensor : CIM_NumericSensor
 {
-  sint32   Accuracy;
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  sint32   CurrentReading;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  sint32   Accuracy;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  sint32   CurrentReading;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  boolean  IsLinear;
-  uint32   LastErrorCode;
-  sint32   LowerThresholdCritical;
-  sint32   LowerThresholdFatal;
-  sint32   LowerThresholdNonCritical;
-  sint32   MaxReadable;
-  sint32   MinReadable;
-  string   Name;
-  sint32   NominalReading;
-  sint32   NormalMax;
-  sint32   NormalMin;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint32   Resolution;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  sint32   Tolerance;
-  sint32   UpperThresholdCritical;
-  sint32   UpperThresholdFatal;
-  sint32   UpperThresholdNonCritical;
+  boolean  IsLinear;
+  uint32   LastErrorCode;
+  sint32   LowerThresholdCritical;
+  sint32   LowerThresholdFatal;
+  sint32   LowerThresholdNonCritical;
+  sint32   MaxReadable;
+  sint32   MinReadable;
+  string   Name;
+  sint32   NominalReading;
+  sint32   NormalMax;
+  sint32   NormalMin;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint32   Resolution;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  sint32   Tolerance;
+  sint32   UpperThresholdCritical;
+  sint32   UpperThresholdFatal;
+  sint32   UpperThresholdNonCritical;
 };
 ```
 
@@ -87,7 +90,7 @@ The **CIM\_VoltageSensor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1451,8 +1454,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1466,9 +1469,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_NumericSensor**](cim-numericsensor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

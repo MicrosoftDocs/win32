@@ -1,7 +1,12 @@
 ---
-Description: 'Includes possible settings for the Automatic Logon Policy.'
-ms.assetid: 'dad4f6a7-8e84-4f4f-b962-4189e3dc01f7'
+Description: Includes possible settings for the Automatic Logon Policy.
+ms.assetid: dad4f6a7-8e84-4f4f-b962-4189e3dc01f7
 title: WinHttpRequestAutoLogonPolicy enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinHttpRequestAutoLogonPolicy enumeration
@@ -13,9 +18,9 @@ The **WinHttpRequestAutoLogonPolicy** enumeration includes possible settings for
 
 ```C++
 typedef enum WinHttpRequestAutoLogonPolicy { 
-  AutoLogonPolicy_Always             = 0,
-  AutoLogonPolicy_OnlyIfBypassProxy  = 1,
-  AutoLogonPolicy_Never              = 2
+  AutoLogonPolicy_Always             = 0,
+  AutoLogonPolicy_OnlyIfBypassProxy  = 1,
+  AutoLogonPolicy_Never              = 2
 } WinHttpRequestAutoLogonPolicy;
 ```
 
@@ -51,9 +56,9 @@ Authentication is not used automatically.
 To set the automatic logon policy, call the [**SetAutoLogonPolicy**](iwinhttprequest-setautologonpolicy.md) method and specify one of the preceding constants.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP start page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP start page.
 
- 
+ 
 
 ## Requirements
 
@@ -61,9 +66,9 @@ To set the automatic logon policy, call the [**SetAutoLogonPolicy**](iwinhttpreq
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 
 
@@ -75,9 +80,9 @@ To set the automatic logon policy, call the [**SetAutoLogonPolicy**](iwinhttpreq
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

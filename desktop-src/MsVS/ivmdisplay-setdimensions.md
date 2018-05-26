@@ -1,8 +1,13 @@
 ---
 title: IVMDisplay SetDimensions method
-description: The SetDimensions method sets the height and width, in pixels, of the virtual machine's display.
-ms.assetid: '06c01c4e-47b3-4119-81de-325e7628c16e'
-keywords: ["SetDimensions method Virtual Server", "SetDimensions method Virtual Server , IVMDisplay interface", "IVMDisplay interface Virtual Server , SetDimensions method", "SetDimensions method Virtual Server , VMDisplay interface", "VMDisplay interface Virtual Server , SetDimensions method"]
+description: The SetDimensions method sets the height and width, in pixels, of the virtual machines display.
+ms.assetid: 06c01c4e-47b3-4119-81de-325e7628c16e
+keywords:
+- SetDimensions method Virtual Server
+- SetDimensions method Virtual Server , IVMDisplay interface
+- IVMDisplay interface Virtual Server , SetDimensions method
+- SetDimensions method Virtual Server , VMDisplay interface
+- VMDisplay interface Virtual Server , SetDimensions method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::SetDimensions method
@@ -23,8 +33,8 @@ The **SetDimensions** method sets the height and width, in pixels, of the virtua
 
 ```C++
 HRESULT SetDimensions(
-  [in] long displayPixelWidth,
-  [in] long displayPixelHeight
+  [in] long displayPixelWidth,
+  [in] long displayPixelHeight
 );
 ```
 
@@ -67,7 +77,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,8 +89,8 @@ The minimum size of the virtual machine's display is 640 x 480 pixels. The maxim
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -92,9 +102,9 @@ The minimum size of the virtual machine's display is 640 x 480 pixels. The maxim
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

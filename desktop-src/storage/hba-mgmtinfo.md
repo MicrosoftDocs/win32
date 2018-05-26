@@ -1,8 +1,11 @@
 ---
 title: HBA\_MgmtInfo structure
 description: The HBA\_MgmtInfo structure is used in conjunction with the HBA\_SetRNIDMgmtInfo routine to program the HBA to return the indicated request node identification information data (RNID).
-ms.assetid: 'a4ccb122-ae90-4b06-a40d-21f131add99b'
-keywords: ["HBA_MgmtInfo structure Storage Devices", "HBA_MGMTINFO structure Storage Devices", "PHBA_MGMTINFO structure pointer Storage Devices"]
+ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
+keywords:
+- HBA_MgmtInfo structure Storage Devices
+- HBA_MGMTINFO structure Storage Devices
+- PHBA_MGMTINFO structure pointer Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - hbaapi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HBA\_MgmtInfo structure
@@ -22,13 +30,13 @@ The HBA\_MgmtInfo structure is used in conjunction with the [**HBA\_SetRNIDMgmtI
 
 ```C++
 typedef struct HBA_MgmtInfo {
-  HBA_WWN    wwn;
+  HBA_WWN    wwn;
   HBA_UINT32 unittype;
   HBA_UINT32 PortId;
   HBA_UINT32 NumberOfAttachedNodes;
   HBA_UINT16 IPVersion;
   HBA_UINT16 UDPPort;
-  HBA_UINT8  IPAddress[16];
+  HBA_UINT8  IPAddress[16];
   HBA_UINT16 reserved;
   HBA_UINT16 TopologyDiscoveryFlags;
 } HBA_MGMTINFO, *PHBA_MGMTINFO;
@@ -123,9 +131,9 @@ Contains the topology discovery flags. For an explanation of this member, see th
 [**HBA\_SetRNIDMgmtInfo**](hba-setrnidmgmtinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20HBA_MgmtInfo%20structure%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

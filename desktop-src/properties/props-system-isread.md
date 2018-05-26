@@ -1,7 +1,12 @@
 ---
-Description: 'Identifies whether the item has been read.'
-ms.assetid: '2efa6dd9-8521-48c9-9aff-e2e8f0e2296d'
-title: 'System.IsRead'
+Description: Identifies whether the item has been read.
+ms.assetid: 2efa6dd9-8521-48c9-9aff-e2e8f0e2296d
+title: System.IsRead
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsRead

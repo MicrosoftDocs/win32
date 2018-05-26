@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Sockets 2 incorporates the concept of a layered protocol: one that implements only higher-level communications functions while relying on an underlying transport stack for the actual exchange of data with a remote endpoint.'
-ms.assetid: '80e0b229-ebdc-4ac1-8e8e-9e5b7cfc3ab5'
+Description: Windows Sockets 2 incorporates the concept of a layered protocol one that implements only higher-level communications functions while relying on an underlying transport stack for the actual exchange of data with a remote endpoint.
+ms.assetid: 80e0b229-ebdc-4ac1-8e8e-9e5b7cfc3ab5
 title: Layered Protocols and Protocol Chains
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Layered Protocols and Protocol Chains
@@ -10,7 +15,7 @@ Windows Sockets 2 incorporates the concept of a layered protocol: one that imple
 
 The term *base protocol* refers to a protocol, such as TCP or SPX, that is fully capable of performing data communications with a remote endpoint. A *layered protocol* is a protocol that cannot stand alone, while a *protocol chain* is one or more layered protocols strung together and anchored by a base protocol.
 
-You can create a protocol chain if you design the layered protocols to support the Windows Sockets 2 SPI at both their upper and lower edges. A special [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md) structure refers to the protocol chain as a whole and describes the explicit order in which the layered protocols are joined. This is illustrated in the figure below. Since only base protocols and protocol chains are directly usable by applications, they are the only ones listed when the installed protocols are enumerated with the [**WSAEnumProtocols**](wsaenumprotocols-2.md) function.
+You can create a protocol chain if you design the layered protocols to support the Windows Sockets 2 SPI at both their upper and lower edges. A special [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master) structure refers to the protocol chain as a whole and describes the explicit order in which the layered protocols are joined. This is illustrated in the figure below. Since only base protocols and protocol chains are directly usable by applications, they are the only ones listed when the installed protocols are enumerated with the [**WSAEnumProtocols**](/windows/win32/Winsock2/nf-winsock2-wsaenumprotocolsa?branch=master) function.
 
 ![layered protocol architecture](images/ovrvw2-3.png)
 

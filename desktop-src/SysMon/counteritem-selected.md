@@ -1,8 +1,11 @@
 ---
 title: CounterItem.Selected property
 description: Retrieves or sets a value that indicates if the counter is selected.
-ms.assetid: '293cc2ea-728c-4364-be2b-080bd188fe1c'
-keywords: ["Selected property SysMon", "Selected property SysMon , CounterItem object", "CounterItem object SysMon , Selected property"]
+ms.assetid: 293cc2ea-728c-4364-be2b-080bd188fe1c
+keywords:
+- Selected property SysMon
+- Selected property SysMon , CounterItem object
+- CounterItem object SysMon , Selected property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem.Selected property
@@ -42,8 +50,8 @@ You can select one or more counters from the collection of counters. Selecting a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -55,9 +63,9 @@ You can select one or more counters from the collection of counters. Selecting a
 [**CounterItem**](counteritem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

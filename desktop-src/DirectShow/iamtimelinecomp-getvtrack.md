@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetVTrack method retrieves the virtual track at the specified priority.'
-ms.assetid: 'e866064b-a511-4f0c-8cb1-62e4f1c42347'
-title: 'IAMTimelineComp::GetVTrack method'
+---
+Description: The GetVTrack method retrieves the virtual track at the specified priority.
+ms.assetid: e866064b-a511-4f0c-8cb1-62e4f1c42347
+title: IAMTimelineCompGetVTrack method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineComp::GetVTrack method

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreUI2::DrvUpgradeRegistrySetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can update device settings stored in the registry.'
-ms.assetid: 'c9fa1506-ffef-44a8-9b25-9033280e0c33'
-title: 'IPrintCoreUI2::DrvUpgradeRegistrySetting method'
+---
+Description: The IPrintCoreUI2DrvUpgradeRegistrySetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can update device settings stored in the registry.
+ms.assetid: c9fa1506-ffef-44a8-9b25-9033280e0c33
+title: IPrintCoreUI2DrvUpgradeRegistrySetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreUI2::DrvUpgradeRegistrySetting method

@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob GetError method
 description: Retrieves the error interface after an error occurs.
-ms.assetid: '66891557-C118-4C66-AEFC-D8FD70976B9A'
-keywords: ["GetError method", "GetError method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, GetError method"]
+ms.assetid: 66891557-C118-4C66-AEFC-D8FD70976B9A
+keywords:
+- GetError method
+- GetError method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, GetError method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::GetError method
@@ -24,7 +32,7 @@ Delivery Optimization (DO) generates an error object when the state of the job i
 
 ```C++
 HRESULT GetError(
-  [out] IBackgroundCopyError **ppError
+  [out] IBackgroundCopyError **ppError
 );
 ```
 
@@ -54,7 +62,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -75,7 +83,7 @@ The [**IBackgroundCopyError**](ibackgroundcopyerror.md) interface contains infor
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -101,9 +109,9 @@ The [**IBackgroundCopyError**](ibackgroundcopyerror.md) interface contains infor
 [**IBackgroundCopyJob::GetState**](ibackgroundcopyjob-getstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

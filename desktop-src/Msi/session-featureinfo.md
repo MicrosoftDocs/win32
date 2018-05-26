@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FeatureInfo method of the Session object returns a FeatureInfo object containing descriptive information for the specified feature.'
-ms.assetid: 'f5391fd4-984e-44cc-8b6c-fd97834e0674'
-title: 'Session.FeatureInfo method'
+---
+Description: The FeatureInfo method of the Session object returns a FeatureInfo object containing descriptive information for the specified feature.
+ms.assetid: f5391fd4-984e-44cc-8b6c-fd97834e0674
+title: Session.FeatureInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.FeatureInfo method
@@ -50,7 +55,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**MsiGetFeatureInfo**](msigetfeatureinfo.md)
+[**MsiGetFeatureInfo**](/windows/win32/Msi/nf-msi-msigetfeatureinfoa?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: IsInternetConnected function
 description: Determines whether the current user is connected to the Internet.
-ms.assetid: 'a83556bc-09a3-4671-9d97-3b86da6d8ccf'
-keywords: ["IsInternetConnected function Get Connected Wizard API"]
+ms.assetid: a83556bc-09a3-4671-9d97-3b86da6d8ccf
+keywords:
+- IsInternetConnected function Get Connected Wizard API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - connect.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsInternetConnected function
@@ -48,15 +54,15 @@ An import library containing the **IsInternetConnected** function is not include
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Connect.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

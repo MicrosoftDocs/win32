@@ -1,13 +1,16 @@
 ---
-Description: 'The Performance Counter provider is a high-performance provider that provides raw performance counter data to the WMI Performance Counter Classes derived from Win32\_PerfRawData. The \_\_Win32Provider instance name is &\#0034;NT5\_GenericPerfProvider\_V1&\#0034;.'
+Description: The Performance Counter provider is a high-performance provider that provides raw performance counter data to the WMI Performance Counter Classes derived from Win32\_PerfRawData. The \_\_Win32Provider instance name is &\#0034;NT5\_GenericPerfProvider\_V1&\#0034;.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2c7206e7-f5f8-4d40-b993-56122e48069b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2c7206e7-f5f8-4d40-b993-56122e48069b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Performance Counter Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performance Counter Provider
@@ -22,14 +25,14 @@ You can use the corresponding [**Win32\_PerfFormattedData**](https://msdn.micros
 
 For more information about how to write a client that can access raw performance data, see [Accessing Performance Data in C++](accessing-performance-data-in-c--.md).
 
-As a high-performance provider, the Performance Counter provider implements the standard [**IWbemProviderInit**](iwbemproviderinit.md) interface, as well as the [**IWbemRefresher::Refresh**](iwbemrefresher-refresh.md) method and the following [**IWbemHiPerfProvider**](iwbemhiperfprovider.md) methods:
+As a high-performance provider, the Performance Counter provider implements the standard [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface, as well as the [**IWbemRefresher::Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) method and the following [**IWbemHiPerfProvider**](/windows/win32/Wbemprov/nn-wbemprov-iwbemhiperfprovider?branch=master) methods:
 
--   [**CreateRefreshableEnum**](iwbemhiperfprovider-createrefreshableenum.md)
--   [**CreateRefreshableObject**](iwbemhiperfprovider-createrefreshableobject.md)
--   [**CreateRefresher**](iwbemhiperfprovider-createrefresher.md)
--   [**GetObjects**](iwbemhiperfprovider-getobjects.md)
--   [**QueryInstances**](iwbemhiperfprovider-queryinstances.md)
--   [**StopRefreshing**](iwbemhiperfprovider-stoprefreshing.md)
+-   [**CreateRefreshableEnum**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableenum?branch=master)
+-   [**CreateRefreshableObject**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefreshableobject?branch=master)
+-   [**CreateRefresher**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-createrefresher?branch=master)
+-   [**GetObjects**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-getobjects?branch=master)
+-   [**QueryInstances**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-queryinstances?branch=master)
+-   [**StopRefreshing**](/windows/win32/Wbemprov/nf-wbemprov-iwbemhiperfprovider-stoprefreshing?branch=master)
 
 ## Related topics
 

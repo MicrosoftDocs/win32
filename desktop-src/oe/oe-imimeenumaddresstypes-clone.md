@@ -1,8 +1,11 @@
 ---
 title: IMimeEnumAddressTypes Clone method
 description: Creates another enumerator that contains the same enumeration state as the current one.
-ms.assetid: 'a20144b9-c0f6-49dd-9dee-e203ffb9afb0'
-keywords: ["Clone method Windows Mail (formerly Outlook Express)", "Clone method Windows Mail (formerly Outlook Express) , IMimeEnumAddressTypes interface", "IMimeEnumAddressTypes interface Windows Mail (formerly Outlook Express) , Clone method"]
+ms.assetid: a20144b9-c0f6-49dd-9dee-e203ffb9afb0
+keywords:
+- Clone method Windows Mail (formerly Outlook Express)
+- Clone method Windows Mail (formerly Outlook Express) , IMimeEnumAddressTypes interface
+- IMimeEnumAddressTypes interface Windows Mail (formerly Outlook Express) , Clone method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeEnumAddressTypes::Clone method
@@ -22,7 +30,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 
 ```C++
 HRESULT Clone(
-  [out] IMimeEnumAddressTypes **ppEnum
+  [out] IMimeEnumAddressTypes **ppEnum
 );
 ```
 
@@ -57,7 +65,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,8 +77,8 @@ Using this method, a client can record a particular point in the enumeration seq
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -78,9 +86,9 @@ Using this method, a client can record a particular point in the enumeration seq
 
 
 
- 
+ 
 
- 
+ 
 
 
 

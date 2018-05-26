@@ -1,8 +1,9 @@
 ---
 title: WM\_MENURBUTTONUP message
 description: Sent when the user releases the right mouse button while the cursor is on a menu item.
-ms.assetid: 'e061cba0-6aea-4df4-a39a-7e55f0db45c0'
-keywords: ["WM_MENURBUTTONUP message Menus and Other Resources"]
+ms.assetid: e061cba0-6aea-4df4-a39a-7e55f0db45c0
+keywords:
+- WM_MENURBUTTONUP message Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MENURBUTTONUP message
@@ -44,7 +50,7 @@ A handle to the menu containing the item.
 
 ## Remarks
 
-The **WM\_MENURBUTTONUP** message allows applications to provide a context-sensitive menu—also known as a shortcut menu—for the menu item specified in this message. To display a context-sensitive menu for a menu item, call the [**TrackPopupMenuEx**](trackpopupmenuex.md) function with **TPM\_RECURSE**.
+The **WM\_MENURBUTTONUP** message allows applications to provide a context-sensitive menu also known as a shortcut menu for the menu item specified in this message. To display a context-sensitive menu for a menu item, call the [**TrackPopupMenuEx**](/windows/win32/Winuser/nf-winuser-trackpopupmenuex?branch=master) function with **TPM\_RECURSE**.
 
 ## Requirements
 
@@ -52,8 +58,8 @@ The **WM\_MENURBUTTONUP** message allows applications to provide a context-sensi
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -65,9 +71,9 @@ The **WM\_MENURBUTTONUP** message allows applications to provide a context-sensi
 [Menus Overview](menus.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

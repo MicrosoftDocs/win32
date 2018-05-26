@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a routing compartment for the TCP/IP (Internet Protocol Suite) provider.'
-ms.assetid: '5a6cc84c-a879-4c3a-bf1c-a9e6ff35c350'
-title: 'MSFT\_NetCompartment class'
+Description: Represents a routing compartment for the TCP/IP (Internet Protocol Suite) provider.
+ms.assetid: 5a6cc84c-a879-4c3a-bf1c-a9e6ff35c350
+title: MSFT\_NetCompartment class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetCompartment class
@@ -68,9 +73,9 @@ Access type: Read-only
 
 Gets the user-friendly description of the routing compartment.
 
-**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
+**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
 
-This property is not supported before Windows 10 and Windows Server 2016.
+This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -85,9 +90,9 @@ Access type: Read-only
 
 Get the Globally Unique Identifier (GUID) of the routing compartment.
 
-**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
+**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
 
-This property is not supported before Windows 10 and Windows Server 2016.
+This property is not supported before Windows 10 and Windows Server 2016.
 
 </dd> <dt>
 
@@ -115,9 +120,9 @@ Access type: Read-only
 
 Gets the type of the routing compartment.
 
-**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
+**Windows 8.1, Windows Server 2012 R2, Windows 8 and Windows Server 2012:  **
 
-This property is not supported before Windows 10 and Windows Server 2016.
+This property is not supported before Windows 10 and Windows Server 2016.
 
 <dl> <dt>
 
@@ -191,7 +196,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
@@ -203,8 +208,8 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -221,9 +226,9 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 [NetTCPIP Provider Classes](net-tcpip-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

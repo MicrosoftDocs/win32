@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the cryptographic service provider (CSP) and private key information used to create a digital signature.'
-ms.assetid: '85dc6a06-365a-4591-9d1d-117556a4417d'
-title: 'SIGNER\_PROVIDER\_INFO structure'
+---
+Description: Specifies the cryptographic service provider (CSP) and private key information used to create a digital signature.
+ms.assetid: 85dc6a06-365a-4591-9d1d-117556a4417d
+title: SIGNER\_PROVIDER\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SIGNER\_PROVIDER\_INFO structure

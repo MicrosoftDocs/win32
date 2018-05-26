@@ -1,7 +1,12 @@
 ---
-Description: 'The SetIPortableDeviceValuesValue method adds a new IPortableDeviceValues value (type VT\_UNKNOWN) or overwrites an existing one.'
-ms.assetid: '3e51964e-6ee0-4885-94ca-cc8000b456b4'
-title: 'IPortableDeviceValues::SetIPortableDeviceValuesValue method'
+Description: The SetIPortableDeviceValuesValue method adds a new IPortableDeviceValues value (type VT\_UNKNOWN) or overwrites an existing one.
+ms.assetid: 3e51964e-6ee0-4885-94ca-cc8000b456b4
+title: IPortableDeviceValuesSetIPortableDeviceValuesValue method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValues::SetIPortableDeviceValuesValue method
@@ -13,8 +18,8 @@ The **SetIPortableDeviceValuesValue** method adds a new **IPortableDeviceValues*
 
 ```C++
 HRESULT SetIPortableDeviceValuesValue(
-  [in] REFPROPERTYKEY        key,
-  [in] IPortableDeviceValues *pValue
+  [in] REFPROPERTYKEY        key,
+  [in] IPortableDeviceValues *pValue
 );
 ```
 
@@ -50,7 +55,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,9 +82,9 @@ If an existing value has the same key that is specified by the *key* parameter, 
 [**IPortableDeviceValues::GetIPortableDeviceValuesValue**](iportabledevicevalues-getiportabledevicevaluesvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

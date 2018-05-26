@@ -1,7 +1,12 @@
 ---
 title: Query Status Properties
 description: Query Status Properties
-ms.assetid: 'b57534e0-f267-409d-9ac2-6f88a85fb82c'
+ms.assetid: b57534e0-f267-409d-9ac2-6f88a85fb82c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Query Status Properties

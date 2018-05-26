@@ -1,14 +1,20 @@
 ---
 title: April (monthsType) Element
 description: Specifies that the task runs in April.
-ms.assetid: 'b642e142-0acc-4b88-a86a-5d539613ead6'
-keywords: ["April element Task Scheduler"]
+ms.assetid: b642e142-0acc-4b88-a86a-5d539613ead6
+keywords:
+- April element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - April
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # April (monthsType) Element
@@ -53,8 +59,8 @@ The following XML defines a months calendar that runs the task in April.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -68,9 +74,9 @@ The following XML defines a months calendar that runs the task in April.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The optional Boolean &lt;isDefaultSaveLocation&gt; element specifies whether the location described in the search connector should be used as the default save location. This element has no child elements and no attributes.'
-ms.assetid: '4a33f411-d71e-41d3-b5fd-018a92dceeac'
-title: 'isDefaultSaveLocation Element (Search Connector Schema)'
+Description: The optional Boolean &lt;isDefaultSaveLocation&gt; element specifies whether the location described in the search connector should be used as the default save location. This element has no child elements and no attributes.
+ms.assetid: 4a33f411-d71e-41d3-b5fd-018a92dceeac
+title: isDefaultSaveLocation Element (Search Connector Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # isDefaultSaveLocation Element (Search Connector Schema)

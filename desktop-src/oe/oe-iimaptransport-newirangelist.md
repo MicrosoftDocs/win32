@@ -1,8 +1,11 @@
 ---
 title: IIMAPTransport NewIRangeList method
 description: Creates a new IRangeList object.
-ms.assetid: '3b2cbb23-aa92-4180-ac8c-7e933acf8644'
-keywords: ["NewIRangeList method Windows Mail (formerly Outlook Express)", "NewIRangeList method Windows Mail (formerly Outlook Express) , IIMAPTransport interface", "IIMAPTransport interface Windows Mail (formerly Outlook Express) , NewIRangeList method"]
+ms.assetid: 3b2cbb23-aa92-4180-ac8c-7e933acf8644
+keywords:
+- NewIRangeList method Windows Mail (formerly Outlook Express)
+- NewIRangeList method Windows Mail (formerly Outlook Express) , IIMAPTransport interface
+- IIMAPTransport interface Windows Mail (formerly Outlook Express) , NewIRangeList method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IIMAPTransport::NewIRangeList method
@@ -24,7 +32,7 @@ Creates a new [**IRangeList**](oe-irangelist.md) object.
 
 ```C++
 HRESULT NewIRangeList(
-  [out] IRangeList **pprlNewRangeList
+  [out] IRangeList **pprlNewRangeList
 );
 ```
 
@@ -59,7 +67,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,8 +75,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -76,9 +84,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

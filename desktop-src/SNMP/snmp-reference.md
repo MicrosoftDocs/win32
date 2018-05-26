@@ -1,8 +1,15 @@
 ---
 title: SNMP Reference
 description: This section provides reference information for elements defined in the SNMP API. These elements support the development of SNMP agent applications and SNMP manager applications for Windows XP/Windows 2000/Windows NT.
-ms.assetid: 'f7bc8c17-57f6-45b5-8191-4cb2152ef782'
-keywords: ["SNMP Reference SNMP", "Reference SNMP , SNMP"]
+ms.assetid: f7bc8c17-57f6-45b5-8191-4cb2152ef782
+keywords:
+- SNMP Reference SNMP
+- Reference SNMP , SNMP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMP Reference

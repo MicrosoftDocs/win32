@@ -1,8 +1,14 @@
 ---
 title: DBPROPSET\_CIFRMWRKCORE\_EXT
 description: DBPROPSET\_CIFRMWRKCORE\_EXT
-ms.assetid: 'b5c0f263-bd76-4659-8159-978639b4666f'
-keywords: ["DBPROPSET_CIFRMWRKCORE_EXT"]
+ms.assetid: b5c0f263-bd76-4659-8159-978639b4666f
+keywords:
+- DBPROPSET_CIFRMWRKCORE_EXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROPSET\_CIFRMWRKCORE\_EXT

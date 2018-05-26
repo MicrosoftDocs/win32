@@ -1,8 +1,9 @@
 ---
 title: TB\_GETBUTTONINFO message
 description: Retrieves extended information for a button in a toolbar.
-ms.assetid: '87430dd2-43d1-4e33-96ac-d33f89a654b6'
-keywords: ["TB_GETBUTTONINFO message Windows Controls"]
+ms.assetid: 87430dd2-43d1-4e33-96ac-d33f89a654b6
+keywords:
+- TB_GETBUTTONINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETBUTTONINFO message
@@ -33,7 +39,7 @@ Command identifier of the button.
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**TBBUTTONINFO**](tbbuttoninfo.md) structure that receives the button information. The **cbSize** and **dwMask** members of this structure must be filled in prior to sending this message.
+Pointer to a [**TBBUTTONINFO**](/windows/win32/Commctrl/ns-commctrl-tbbuttoninfoa?branch=master) structure that receives the button information. The **cbSize** and **dwMask** members of this structure must be filled in prior to sending this message.
 
 </dd> </dl>
 
@@ -51,8 +57,8 @@ When you use [**TB\_ADDBUTTONS**](tb-addbuttons.md) or [**TB\_INSERTBUTTON**](tb
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TB\_GETBUTTONINFOW** (Unicode) and **TB\_GETBUTTONINFOA** (ANSI)<br/>         |
 
@@ -71,9 +77,9 @@ When you use [**TB\_ADDBUTTONS**](tb-addbuttons.md) or [**TB\_INSERTBUTTON**](tb
 [**TB\_GETBUTTONTEXT**](tb-getbuttontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

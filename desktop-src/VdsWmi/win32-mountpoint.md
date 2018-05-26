@@ -1,8 +1,10 @@
 ---
 title: Win32\_MountPoint class
 description: The Win32\_MountPoint class associates a volume to the directory where it is mounted.
-ms.assetid: '7961d062-d3d1-47a0-8d85-68da4080ed7a'
-keywords: ["Win32_MountPoint class", "Win32_MountPoint class, described"]
+ms.assetid: 7961d062-d3d1-47a0-8d85-68da4080ed7a
+keywords:
+- Win32_MountPoint class
+- Win32_MountPoint class, described
 topic_type:
 - apiref
 api_name:
@@ -13,13 +15,18 @@ api_location:
 - Vdswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_MountPoint class
 
 The **Win32\_MountPoint** class associates a volume to the directory where it is mounted.
 
-**Windows XP and earlier:** This class is not available.
+**Windows XP and earlier:** This class is not available.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,7 +36,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_MountPoint
 {
   Win32_Directory REF Directory;
-  Win32_Volume    REF Volume;
+  Win32_Volume    REF Volume;
 };
 ```
 
@@ -82,7 +89,7 @@ There may not be any way to search from Win32\_MountPoint to get to the associat
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -108,9 +115,9 @@ There may not be any way to search from Win32\_MountPoint to get to the associat
 [**Win32\_DefragAnalysis**](win32-defraganalysis.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

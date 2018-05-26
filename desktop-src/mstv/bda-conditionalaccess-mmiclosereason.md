@@ -1,8 +1,9 @@
 ---
 title: BDA\_CONDITIONALACCESS\_MMICLOSEREASON enumeration
 description: Specifies why a media sink device (MSD) has closed a user interface (MMI) dialog box.
-ms.assetid: 'd35067b3-a50b-4bc8-9139-429fe4fa25bb'
-keywords: ["BDA_CONDITIONALACCESS_MMICLOSEREASON enumeration Microsoft TV Technologies"]
+ms.assetid: d35067b3-a50b-4bc8-9139-429fe4fa25bb
+keywords:
+- BDA_CONDITIONALACCESS_MMICLOSEREASON enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BDA\_CONDITIONALACCESS\_MMICLOSEREASON enumeration
@@ -22,7 +28,7 @@ Specifies why a media sink device (MSD) has closed a user interface (MMI) dialog
 
 ```C++
 typedef enum  { 
-  CONDITIONALACCESS_UNSPECIFIED                = 0,
+  CONDITIONALACCESS_UNSPECIFIED                = 0,
   CONDITIONALACCESS_CLOSED_ITSELF,
   CONDITIONALACCESS_TUNER_REQUESTED_CLOSE,
   CONDITIONALACCESS_DIALOG_TIMEOUT,
@@ -93,8 +99,8 @@ The destination was not reachable.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
 
@@ -103,12 +109,12 @@ The destination was not reachable.
 
 <dl> <dt>
 
-[**IBDA\_ConditionalAccessEx::CloseMmiDialog**](ibda-conditionalaccessex-closemmidialog.md)
+[**IBDA\_ConditionalAccessEx::CloseMmiDialog**](/windows/win32/bdaiface/nf-bdaiface-ibda_conditionalaccessex-closemmidialog?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

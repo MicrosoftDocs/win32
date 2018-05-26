@@ -4,17 +4,23 @@ description: Returns the name of the resource instance. Note that you cannot use
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c88352ef-563e-4e85-a455-c541bf09557f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: c88352ef-563e-4e85-a455-c541bf09557f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Name method Failover Cluster", "Name method Failover Cluster , Resource interface", "Resource interface Failover Cluster , Name method"]
+keywords:
+- Name method Failover Cluster
+- Name method Failover Cluster , Resource interface
+- Resource interface Failover Cluster , Name method
 topic_type:
 - apiref
 api_name:
 - Resource.Name
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource::Name method
@@ -40,7 +46,7 @@ The name of the resource.
 
 ## Remarks
 
-Resource names are not case sensitive. A resource name must be unique within the cluster. The name is set when the resource is created and can be changed using the [**SetClusterResourceName**](setclusterresourcename.md) function.
+Resource names are not case sensitive. A resource name must be unique within the cluster. The name is set when the resource is created and can be changed using the [**SetClusterResourceName**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_set_cluster_resource_name?branch=master) function.
 
 ## Examples
 
@@ -53,7 +59,7 @@ See the [Scripted Resource Example](scripted-resource-example.md).
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -64,9 +70,9 @@ See the [Scripted Resource Example](scripted-resource-example.md).
 [**Resource**](resource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

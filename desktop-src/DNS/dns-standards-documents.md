@@ -1,8 +1,14 @@
 ---
 title: DNS Standards Documents
 description: The Domain Name System (DNS) is an open protocol.
-ms.assetid: 'ab344ba0-68af-4546-aba8-1bb2eb48e7b2'
-keywords: ["Domain Name System, standards"]
+ms.assetid: ab344ba0-68af-4546-aba8-1bb2eb48e7b2
+keywords:
+- Domain Name System, standards
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DNS Standards Documents

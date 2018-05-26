@@ -1,7 +1,12 @@
 ---
 title: Resource Handle Objects
 description: The structure of a resource object is restricted to the Microsoft WinSNMP implementation. A WinSNMP application can access a resource object with a handle.
-ms.assetid: 'c70a03b1-afac-4f1a-81e7-7f31430f5655'
+ms.assetid: c70a03b1-afac-4f1a-81e7-7f31430f5655
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Handle Objects
@@ -22,7 +27,7 @@ The implementation can allocate one of the following types of resource handles f
 
  
 
-A WinSNMP application can request that the implementation create or delete resource handles, but the implementation performs the operation. For additional information about freeing individual resources, see the [**SnmpFreeDescriptor**](snmpfreedescriptor.md), [**SnmpFreeVbl**](snmpfreevbl.md), [**SnmpFreePdu**](snmpfreepdu.md), [**SnmpFreeEntity**](snmpfreeentity.md), and [**SnmpFreeContext**](snmpfreecontext.md) functions.
+A WinSNMP application can request that the implementation create or delete resource handles, but the implementation performs the operation. For additional information about freeing individual resources, see the [**SnmpFreeDescriptor**](/windows/win32/Winsnmp/nf-winsnmp-snmpfreedescriptor?branch=master), [**SnmpFreeVbl**](/windows/win32/Winsnmp/nf-winsnmp-snmpfreevbl?branch=master), [**SnmpFreePdu**](/windows/win32/Winsnmp/nf-winsnmp-snmpfreepdu?branch=master), [**SnmpFreeEntity**](/windows/win32/Winsnmp/nf-winsnmp-snmpfreeentity?branch=master), and [**SnmpFreeContext**](/windows/win32/Winsnmp/nf-winsnmp-snmpfreecontext?branch=master) functions.
 
  
 

@@ -1,14 +1,20 @@
 ---
 title: AverageLevel Attribute
 description: The AverageLevel attribute is a 16-bit amplitude value indicating the average volume level.
-ms.assetid: '04ff19f1-a9a5-4e47-86a6-50c6f08b0d7d'
-keywords: ["AverageLevel Attribute Windows Media Player"]
+ms.assetid: 04ff19f1-a9a5-4e47-86a6-50c6f08b0d7d
+keywords:
+- AverageLevel Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AverageLevel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AverageLevel Attribute
@@ -50,9 +56,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

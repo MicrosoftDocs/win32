@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to enable the user mode to gain a valid understanding of the clipping region for windows on the desktop. This clipping can change asynchronously from the point of view of user-mode threads.'
-ms.assetid: '286f1c06-c27b-42bd-aecc-3a6923e3df29'
+---
+Description: Used to enable the user mode to gain a valid understanding of the clipping region for windows on the desktop. This clipping can change asynchronously from the point of view of user-mode threads.
+ms.assetid: 286f1c06-c27b-42bd-aecc-3a6923e3df29
 title: NtGdiDdResetVisrgn function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdResetVisrgn function
@@ -71,7 +76,7 @@ Applications are advised to use the [IDirectDrawClipper](http://msdn.microsoft.c
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdResetVisrgn**](-dxgkernel-ddresetvisrgn.md)
+[**DdResetVisrgn**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddresetvisrgn?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'The EndFlush method ends a flush operation. This method overrides the CBaseInputPin::EndFlush method.'
-ms.assetid: '1955a923-e912-44bd-b032-3689e5810d6f'
-title: 'CRendererInputPin.EndFlush method'
+Description: The EndFlush method ends a flush operation. This method overrides the CBaseInputPinEndFlush method.
+ms.assetid: 1955a923-e912-44bd-b032-3689e5810d6f
+title: CRendererInputPin.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRendererInputPin.EndFlush method
@@ -43,9 +48,9 @@ Returns an **HRESULT** value.
 [**CRendererInputPin Class**](crendererinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

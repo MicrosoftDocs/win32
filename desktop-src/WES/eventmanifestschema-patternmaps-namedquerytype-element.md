@@ -1,14 +1,20 @@
 ---
 title: patternMaps (NamedQueryType) Element
 description: Defines a list of regular expression pairs that are used to alter the message string.
-ms.assetid: 'd471d61f-3f01-44eb-a61e-e1f5de67a31d'
-keywords: ["patternMaps element EventLog"]
+ms.assetid: d471d61f-3f01-44eb-a61e-e1f5de67a31d
+keywords:
+- patternMaps element EventLog
 topic_type:
 - apiref
 api_name:
 - patternMaps
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # patternMaps (NamedQueryType) Element
@@ -29,8 +35,8 @@ The **patternMaps** element is defined by the [**NamedQueryType**](eventmanifest
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -47,9 +53,9 @@ The **patternMaps** element is defined by the [**NamedQueryType**](eventmanifest
 [**namedQueries (MetadataType)**](eventmanifestschema-namedqueries-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

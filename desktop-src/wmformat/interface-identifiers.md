@@ -1,8 +1,18 @@
 ---
 title: Interface Identifiers
 description: Interface Identifiers
-ms.assetid: '009edcc0-34db-40a1-ae76-17492b11604a'
-keywords: ["Windows Media Format SDK,interface identifiers (IID)", "Advanced Systems Format (ASF),interface identifiers (IID)", "ASF (Advanced Systems Format),interface identifiers (IID)", "interface identifiers (IID)", "IID (interface identifiers)"]
+ms.assetid: 009edcc0-34db-40a1-ae76-17492b11604a
+keywords:
+- Windows Media Format SDK,interface identifiers (IID)
+- Advanced Systems Format (ASF),interface identifiers (IID)
+- ASF (Advanced Systems Format),interface identifiers (IID)
+- interface identifiers (IID)
+- IID (interface identifiers)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface Identifiers

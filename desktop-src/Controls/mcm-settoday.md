@@ -1,8 +1,9 @@
 ---
 title: MCM\_SETTODAY message
 description: Sets the \ 0034;today \ 0034; selection for a month calendar control. You can send this message explicitly or by using the MonthCal\_SetToday macro.
-ms.assetid: 'fcd4d33d-e661-4e02-8d19-666d80e1a070'
-keywords: ["MCM_SETTODAY message Windows Controls"]
+ms.assetid: fcd4d33d-e661-4e02-8d19-666d80e1a070
+keywords:
+- MCM_SETTODAY message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCM\_SETTODAY message
 
-Sets the "today" selection for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetToday**](monthcal-settoday.md) macro.
+Sets the "today" selection for a month calendar control. You can send this message explicitly or by using the [**MonthCal\_SetToday**](/windows/win32/Commctrl/nf-commctrl-monthcal_settoday?branch=master) macro.
 
 ## Parameters
 
@@ -48,8 +54,8 @@ If the "today" selection is set to any date other than the default, the followin
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -61,9 +67,9 @@ If the "today" selection is set to any date other than the default, the followin
 [Times in the Month Calendar Control](month-calendar-controls.md#times-in-the-month-calendar-control)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

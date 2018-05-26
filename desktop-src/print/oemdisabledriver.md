@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMDisableDriver function
-ms.assetid: '9b48e2c0-bd44-49ed-83e8-1e4895858e9b'
+ms.assetid: 9b48e2c0-bd44-49ed-83e8-1e4895858e9b
 title: OEMDisableDriver function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDisableDriver function

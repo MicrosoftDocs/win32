@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the state of the guest service interface component, which provides a mechanism to interact with the virtual machine from the management interfaces on the host system.'
-ms.assetid: '9A158B42-052B-42B3-8539-00927056306D'
-title: 'Msvm\_GuestServiceInterfaceComponent class'
+Description: Represents the state of the guest service interface component, which provides a mechanism to interact with the virtual machine from the management interfaces on the host system.
+ms.assetid: 9A158B42-052B-42B3-8539-00927056306D
+title: Msvm\_GuestServiceInterfaceComponent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_GuestServiceInterfaceComponent class
@@ -16,25 +21,25 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_GuestServiceInterfaceComponent : CIM_LogicalDevice
 {
-  uint16   Availability;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
+  uint16   Availability;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Name;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  string   Name;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -59,7 +64,7 @@ The **Msvm\_GuestServiceInterfaceComponent** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -102,7 +107,7 @@ Availability and status of the device.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -169,7 +174,7 @@ Win32 Configuration Manager error code.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -331,7 +336,7 @@ Array of the specific power-related capabilities of a logical device. This prope
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -465,8 +470,8 @@ Scoping system's name.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -483,9 +488,9 @@ Scoping system's name.
 [**CIM\_LogicalDevice**](https://msdn.microsoft.com/library/aa387884)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

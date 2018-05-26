@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_IGEOID'
-ms.assetid: '418f1fb4-a88f-4a13-ad75-b4cbba9b04d5'
-title: 'LOCALE\_IGEOID'
+Description: LOCALE\_IGEOID
+ms.assetid: 418f1fb4-a88f-4a13-ad75-b4cbba9b04d5
+title: LOCALE\_IGEOID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_IGEOID

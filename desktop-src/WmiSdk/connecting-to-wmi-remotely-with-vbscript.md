@@ -1,13 +1,16 @@
 ---
-Description: 'You can create a remote connection to WMI with VBScript by creating a connection object. This object contains the name of the computer, the WMI namespace you want to connect to, as well as any relevant credentials and authentication levels.'
+Description: You can create a remote connection to WMI with VBScript by creating a connection object. This object contains the name of the computer, the WMI namespace you want to connect to, as well as any relevant credentials and authentication levels.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b2ad262b-148d-47cc-8be7-6df99245aa7f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b2ad262b-148d-47cc-8be7-6df99245aa7f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with VBScript
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Connecting to WMI Remotely with VBScript
@@ -18,7 +21,7 @@ You can create a remote connection to WMI with VBScript by creating a connection
 
 1.  Specify the connection information such as the remote computer name, credentials, and the authentication level for the connection.
 
-    If you are connecting to a remote computer using the same credentials (domain and user name) you are logged on with, then you can specify the connection information in a [**GetObject**](iwbemservices-getobject.md)[moniker](constructing-a-moniker-string.md), as described in the following code sample.
+    If you are connecting to a remote computer using the same credentials (domain and user name) you are logged on with, then you can specify the connection information in a [**GetObject**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobject?branch=master)[moniker](constructing-a-moniker-string.md), as described in the following code sample.
 
     ```VB
     strComputer = "Computer_B"
@@ -46,7 +49,7 @@ You can create a remote connection to WMI with VBScript by creating a connection
 
     
 
-3.  When using the [**ConnectServer**](swbemlocator-connectserver.md) function for remote connections, set impersonation and authentication on the security object obtained by a call to [**SWbemServices.Security**](swbemservices-security-.md). You can use the enumeration [WbemImpersonationLevelEnum](wbemimpersonationlevelenum.md) to specify impersonation level.
+3.  When using the [**ConnectServer**](swbemlocator-connectserver.md) function for remote connections, set impersonation and authentication on the security object obtained by a call to [**SWbemServices.Security**](swbemservices-security-.md). You can use the enumeration [WbemImpersonationLevelEnum](/windows/win32/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum?branch=master) to specify impersonation level.
 
     The following code sample sets the impersonation level for the previous VBScript code sample.
 

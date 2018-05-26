@@ -1,14 +1,19 @@
 ---
-Description: 'The composition string is the current text in the composition window.'
-ms.assetid: 'ab226567-f68d-4fa4-9ead-e9bfabde927e'
+Description: The composition string is the current text in the composition window.
+ms.assetid: ab226567-f68d-4fa4-9ead-e9bfabde927e
 title: Composition String
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Composition String
 
-The composition string is the current text in the composition window. This is the text that the IME converts to final characters. Each composition string consists of one or more "clauses". A clause is the smallest combination of characters that the IME can convert to a final character. To get and set the composition string, the application calls the [**ImmGetCompositionString**](immgetcompositionstring.md) and [**ImmSetCompositionString**](immsetcompositionstring.md) functions, respectively.
+The composition string is the current text in the composition window. This is the text that the IME converts to final characters. Each composition string consists of one or more "clauses". A clause is the smallest combination of characters that the IME can convert to a final character. To get and set the composition string, the application calls the [**ImmGetCompositionString**](/windows/win32/Imm/nf-imm-immgetcompositionstringa?branch=master) and [**ImmSetCompositionString**](/windows/win32/Imm/nf-imm-immsetcompositionstringa?branch=master) functions, respectively.
 
-As the user enters text in the composition window, the IME tracks the status of the composition string. This status includes attribute information, clause information, typing information, and cursor position. The application can retrieve the composition status by using the [**ImmGetCompositionString**](immgetcompositionstring.md) function.
+As the user enters text in the composition window, the IME tracks the status of the composition string. This status includes attribute information, clause information, typing information, and cursor position. The application can retrieve the composition status by using the [**ImmGetCompositionString**](/windows/win32/Imm/nf-imm-immgetcompositionstringa?branch=master) function.
 
 Attribute information is rendered in an array of 8-bit values that specifies the status of characters in the composition string. All characters of one clause must have the same attribute. The array includes one value for each byte in the string, including one byte each for the lead and second bytes of any double-byte characters in the string. For each value in the array, bits 0 through 3 can be one combination of the following values.
 
@@ -35,7 +40,7 @@ The typing information included in the composition string status is a null-termi
 
 The cursor position included in the composition string status is a value indicating the position of the cursor relative to the characters in the composition string. The value is the offset, in bytes, from the beginning of the string. If this value is 0, the cursor is immediately before the first character in the string. If the value is equal to the length of the string, the cursor is immediately after the last character. If the value is 1, the cursor is not present. For Unicode, both position and length are measured in Unicode characters.
 
-Your application can set the composition string or elements of the composition status by using the [**ImmSetCompositionString**](immsetcompositionstring.md) function. To ensure that the composition window updates its appearance based on these changes, the function allows the application to send a notification message to the window. Applications that set a combination of composition status elements typically disable notifications for all but the last call to this function so that only one notification message is generated for the composition window.
+Your application can set the composition string or elements of the composition status by using the [**ImmSetCompositionString**](/windows/win32/Imm/nf-imm-immsetcompositionstringa?branch=master) function. To ensure that the composition window updates its appearance based on these changes, the function allows the application to send a notification message to the window. Applications that set a combination of composition status elements typically disable notifications for all but the last call to this function so that only one notification message is generated for the composition window.
 
 Finally, the edit control supports two messages for changing the handling of composition strings by the IME. For more information, see [**EM\_GETIMESTATUS**](_win32_em_getimestatus_cpp) and [**EM\_SETIMESTATUS**](_win32_em_setimestatus_cpp). For more information on the edit control, see [Edit Control](_win32_edit_controls_cpp).
 

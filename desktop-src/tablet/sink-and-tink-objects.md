@@ -1,7 +1,12 @@
 ---
-Description: 'To aid the support of ink in applications, there are two objects, both of which can be embedded and are supported by any OLE container.'
-ms.assetid: 'fbd7bdf0-63b4-48d1-be91-eabbbb3f1618'
+Description: To aid the support of ink in applications, there are two objects, both of which can be embedded and are supported by any OLE container.
+ms.assetid: fbd7bdf0-63b4-48d1-be91-eabbbb3f1618
 title: sInk and tInk Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sInk and tInk Objects
@@ -32,7 +37,7 @@ In order to successfully contain tInk objects, an application must implement OLE
 
 -   Modifications to the code for Find and Replace. Instead of skipping embedded objects in the search, these objects must be interrogated for type. If they are a tInk object, they must be instantiated and queried for their corresponding text.
 -   Modifications to selection behavior. Selection of tInk objects should never appear with sizing handles. They should be selected in the same way that text is selected in the document. Selection code for objects must detect if the type is tInk and display the selection appropriately.
--   Use of ambient properties. Ambient properties such as font size, color, and bold formatting need to be transmitted to the tInk object. Application of these properties changes the width of the handwritten ink, so a size update is required by calling the [**GetInkExtent Method**](iinklineinfo-getinkextent.md) or [IOleObject::GetExtent](_ole_IOleObject_GetExtent) method.
+-   Use of ambient properties. Ambient properties such as font size, color, and bold formatting need to be transmitted to the tInk object. Application of these properties changes the width of the handwritten ink, so a size update is required by calling the [**GetInkExtent Method**](/windows/win32/msinkaut/nf-msinkaut-iinklineinfo-getinkextent?branch=master) or [IOleObject::GetExtent](_ole_IOleObject_GetExtent) method.
 -   Override the default [IOleObject::DoVerb](_ole_IOleObject_DoVerb) method processing. This allows conversion to text to pass a batch of tInk objects to the recognizer, which can then break the words into recognition segments.
 
 For more information about breaking words into recognition segments, see [Recognition Segments](recognition-segments.md).

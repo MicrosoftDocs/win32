@@ -1,7 +1,12 @@
 ---
 title: Appendix B Standard Dialog Manager Support
 description: Microsoft Active Accessibility provides complete support for Standard Dialog Manager (SDM) dialog box controls.
-ms.assetid: 'cdec2dbd-943b-4160-ae22-c16198cc192a'
+ms.assetid: cdec2dbd-943b-4160-ae22-c16198cc192a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appendix B: Standard Dialog Manager Support

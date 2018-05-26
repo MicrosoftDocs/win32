@@ -1,7 +1,12 @@
 ---
-Description: 'This operator retrieves the reference time as a REFERENCE\_TIME value.'
-ms.assetid: 'ac77ca0d-f3d1-4258-bf2e-d7e8a33eb68e'
-title: 'COARefTime.operator REFERENCE\_TIME method'
+Description: This operator retrieves the reference time as a REFERENCE\_TIME value.
+ms.assetid: ac77ca0d-f3d1-4258-bf2e-d7e8a33eb68e
+title: COARefTime.operator REFERENCE\_TIME method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.operator REFERENCE\_TIME method
@@ -43,9 +48,9 @@ Returns the reference time in 100-nanosecond units.
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

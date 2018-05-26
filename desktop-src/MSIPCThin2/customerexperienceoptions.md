@@ -4,11 +4,12 @@ description: Used to specify a logging option.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.CustomerExperienceOptions'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.CustomerExperienceOptions
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["CustomerExperienceOptions enumeration"]
+keywords:
+- CustomerExperienceOptions enumeration
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CustomerExperienceOptions enumeration
@@ -64,9 +68,9 @@ The **CustomerExperienceOptions** enumeration has these members.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: Represents the policy associated with protected content.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.UserPolicy'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.UserPolicy
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserPolicy class"]
+keywords:
+- UserPolicy class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy class
@@ -54,7 +58,7 @@ The **UserPolicy** class has these methods. It also inherits methods from the **
 
 
 
- 
+ 
 
 ### Properties
 
@@ -82,7 +86,7 @@ The **UserPolicy** class has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -106,9 +110,9 @@ Members of this class are not guaranteed to be thread safe.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

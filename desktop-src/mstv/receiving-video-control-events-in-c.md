@@ -1,7 +1,12 @@
 ---
 title: Receiving Video Control Events in C++
 description: Receiving Video Control Events in C++
-ms.assetid: 'aa9eacc7-a629-440e-a99a-a1f91a755609'
+ms.assetid: aa9eacc7-a629-440e-a99a-a1f91a755609
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Receiving Video Control Events in C++
@@ -10,7 +15,7 @@ This topic applies to Windows XP or later.
 
 In a television application, various objects send events, including the Video Control. The application can listen for these events and respond to them. For example, the Video Control sends an event when the video window is clicked or receives a keystroke.
 
-Objects send events using COM connection points. To catch an event, the client implements an event interface. The object fires events by calling methods on that interface. For example, the Video Control sends events through the [**\_IMSVidCtlEvents**](-imsvidctlevents.md) interface. The mouse-click event is [**\_IMSVidCtlEvents::Click**](-imsvidctlevents-click.md). The following image illustrates this process.
+Objects send events using COM connection points. To catch an event, the client implements an event interface. The object fires events by calling methods on that interface. For example, the Video Control sends events through the [**\_IMSVidCtlEvents**](/windows/previous-versions/msvidctl/?branch=master) interface. The mouse-click event is [**\_IMSVidCtlEvents::Click**](/windows/previous-versions/msvidctl/?branch=master). The following image illustrates this process.
 
 ![\-imsvidctlevents connection point](images/connection-point.gif)
 

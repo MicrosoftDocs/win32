@@ -4,11 +4,15 @@ description: The following functions were exposed in the earlier versions of ADS
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6146fcfa-6869-40c2-97bc-22a382cdad8a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 6146fcfa-6869-40c2-97bc-22a382cdad8a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["ADSI ADSI ,reference,obsolete functions"]
+keywords:
+- ADSI ADSI ,reference,obsolete functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obsolete ADSI Functions

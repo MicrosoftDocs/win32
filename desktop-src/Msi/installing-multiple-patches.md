@@ -1,7 +1,12 @@
 ---
-Description: 'Beginning with Windows Installer 3.0, multiple patches can be applied to a product in a constant order, regardless of the order that the patches are provided to the system.'
-ms.assetid: '10af1857-d59f-490d-9b50-49619b1e892c'
+Description: Beginning with Windows Installer 3.0, multiple patches can be applied to a product in a constant order, regardless of the order that the patches are provided to the system.
+ms.assetid: 10af1857-d59f-490d-9b50-49619b1e892c
 title: Installing Multiple Patches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing Multiple Patches
@@ -10,11 +15,11 @@ Beginning with Windows Installer 3.0, multiple patches can be applied to a produ
 
 **Windows Installer 2.0:** Not supported. Windows Installer versions earlier than version 3.0 always install patches in the order that they are provided to the system.
 
-**Windows Installer 3.0 and later:** The installer can use the information provided in the [MsiPatchSequence](msipatchsequence-table.md) table to determine which patches are applicable to the Windows Installer package and in which order the patches should be applied. Applications can use the [**MsiDetermineApplicablePatches**](msidetermineapplicablepatches.md) and [**MsiDeterminePatchSequence**](msideterminepatchsequence.md) functions.
+**Windows Installer 3.0 and later:** The installer can use the information provided in the [MsiPatchSequence](msipatchsequence-table.md) table to determine which patches are applicable to the Windows Installer package and in which order the patches should be applied. Applications can use the [**MsiDetermineApplicablePatches**](/windows/win32/Msi/nf-msi-msidetermineapplicablepatchesa?branch=master) and [**MsiDeterminePatchSequence**](/windows/win32/Msi/nf-msi-msideterminepatchsequencea?branch=master) functions.
 
-The [**MsiDetermineApplicablePatches**](msidetermineapplicablepatches.md) function determines which patches apply to the Windows Installer package and in what sequence. The function can account for superseded or obsolete patches. This function does not account for products or patches that are installed on the system that are not specified in the set.
+The [**MsiDetermineApplicablePatches**](/windows/win32/Msi/nf-msi-msidetermineapplicablepatchesa?branch=master) function determines which patches apply to the Windows Installer package and in what sequence. The function can account for superseded or obsolete patches. This function does not account for products or patches that are installed on the system that are not specified in the set.
 
-The [**MsiDeterminePatchSequence**](msideterminepatchsequence.md) Sequence function can determine the best sequence of application for the patches to a specified installed product. This function accounts for patches that have already been applied to the product, and accounts for obsolete and superseded patches.
+The [**MsiDeterminePatchSequence**](/windows/win32/Msi/nf-msi-msideterminepatchsequencea?branch=master) Sequence function can determine the best sequence of application for the patches to a specified installed product. This function accounts for patches that have already been applied to the product, and accounts for obsolete and superseded patches.
 
 When the patch package does not have a [MsiPatchSequence](msipatchsequence-table.md) table, the installer always applies the patches in the order that they are provide to the system.
 

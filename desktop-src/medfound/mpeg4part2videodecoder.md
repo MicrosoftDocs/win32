@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MPEG4 Part 2 Video decoder decodes video streams that were encoded according to the MPEG4 Part 2 standard.'
-ms.assetid: '56e32d3c-9bd0-41fe-bb22-e4ff37b7cc5c'
-title: 'MPEG-4 Part 2 Video Decoder'
+---
+Description: The MPEG4 Part 2 Video decoder decodes video streams that were encoded according to the MPEG4 Part 2 standard.
+ms.assetid: 56e32d3c-9bd0-41fe-bb22-e4ff37b7cc5c
+title: MPEG-4 Part 2 Video Decoder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPEG-4 Part 2 Video Decoder
@@ -48,7 +53,7 @@ The MPEG4 Part 2 Video decoder accepts the following formats.
 
 -   [**VIDEOINFOHEADER**](dshow.videoinfoheader)
 -   [**VIDEOINFOHEADER2**](dshow.videoinfoheader2) (VIH2)
--   [**MFVideoInfo**](mfvideoinfo.md)
+-   [**MFVideoInfo**](/windows/win32/mfobjects/ns-mfobjects-_mfvideoinfo?branch=master)
 -   [**MPEG2VIDEOINFO**](dshow.mpeg2videoinfo) (Only the VIH2 portion of the header is used.)
 
 ## Interfaces for the DMO
@@ -64,14 +69,14 @@ You can obtain an [**IMediaObject**](dshow.imediaobject) interface by calling **
 
 If you create an instance of the MPEG2 Part 2 Video decoder as an MFT, the decoder exposes the following interfaces.
 
--   [**IMFTransform**](imftransform.md)
--   [**IMFAttributes**](imfattributes.md)
--   [**IMFQualityAdvise**](imfqualityadvise.md)
--   [**IMFQualityAdvise2**](imfqualityadvise2.md)
--   [**IMFRateControl**](imfratecontrol.md)
--   [**IMFRateSupport**](imfratesupport.md)
+-   [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)
+-   [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master)
+-   [**IMFQualityAdvise**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise?branch=master)
+-   [**IMFQualityAdvise2**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise2?branch=master)
+-   [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master)
+-   [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)
 
-You can obtain a pointer to the [**IMFTransform**](imftransform.md) interface by calling **CoCreateInstance**, and you can obtain a pointer to the [**IMFAttributes**](imfattributes.md) interface by calling [**IMFTransform::GetAttributes**](imftransform-getattributes.md). You can obtain a pointer to the [**IMFQualityAdvise**](imfqualityadvise.md) or [**IMFQualityAdvise2**](imfqualityadvise2.md) interface by calling **QueryInterface** on the MFT. You can obtain a pointer to the [**IMFRateControl**](imfratecontrol.md) or [**IMFRateSupport**](imfratesupport.md) interface by calling [**MFGetService**](mfgetservice.md) and passing the service identifier **MF\_RATE\_CONTROL\_SERVICE**.
+You can obtain a pointer to the [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master) interface by calling **CoCreateInstance**, and you can obtain a pointer to the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface by calling [**IMFTransform::GetAttributes**](/windows/win32/mftransform/nf-mftransform-imftransform-getattributes?branch=master). You can obtain a pointer to the [**IMFQualityAdvise**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise?branch=master) or [**IMFQualityAdvise2**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise2?branch=master) interface by calling **QueryInterface** on the MFT. You can obtain a pointer to the [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master) or [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master) interface by calling [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) and passing the service identifier **MF\_RATE\_CONTROL\_SERVICE**.
 
 ## Profiles and Levels
 
@@ -111,7 +116,7 @@ For more information about profiles and levels, see the MPEG4 Part 2 specificati
 
 ## Decoder Properties
 
-To set properties on the MPEG4 Part 2 Video decoder, use the [**ICodecAPI**](dshow.icodecapi) interface or the [**IMFAttributes**](imfattributes.md) interface.
+To set properties on the MPEG4 Part 2 Video decoder, use the [**ICodecAPI**](dshow.icodecapi) interface or the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface.
 
 The MPEG4 Part 2 Video decoder supports the following properties.
 

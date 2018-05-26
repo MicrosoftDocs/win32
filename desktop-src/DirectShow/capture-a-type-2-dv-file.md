@@ -1,7 +1,12 @@
 ---
-Description: 'Capture a Type-2 DV File'
-ms.assetid: 'c7d49c86-1b5d-43bf-98a5-78b297682375'
-title: 'Capture a Type-2 DV File'
+Description: Capture a Type-2 DV File
+ms.assetid: c7d49c86-1b5d-43bf-98a5-78b297682375
+title: Capture a Type-2 DV File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capture a Type-2 DV File
@@ -51,8 +56,8 @@ hr = pBuilder->RenderStream(&amp;PIN_CATEGORY_PREVIEW, &amp;MEDIATYPE_Interleave
 
 
 1.  Create the DV Splitter and add it to the filter graph.
-2.  Call [**ICaptureGraphBuilder2::SetOutputFileName**](icapturegraphbuilder2-setoutputfilename.md) to connect the AVI Mux filter to the File Writer filter.
-3.  Call [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) to connect the MSDV capture filter to the DV Splitter. This call also connects one of the DV Splitter's output pins to the AVI Mux.
+2.  Call [**ICaptureGraphBuilder2::SetOutputFileName**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename?branch=master) to connect the AVI Mux filter to the File Writer filter.
+3.  Call [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) to connect the MSDV capture filter to the DV Splitter. This call also connects one of the DV Splitter's output pins to the AVI Mux.
 4.  Call RenderStream again to connect the DV Splitter's other pin to the AVI Mux.
 5.  Call RenderStream a third time to render the preview stream. Skip this step if do not want to preview the video.
 

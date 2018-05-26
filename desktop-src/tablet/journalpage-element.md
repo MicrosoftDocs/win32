@@ -1,7 +1,12 @@
 ---
-Description: 'Contains the details about an individual page in a Journal note.'
-ms.assetid: '8cada667-188b-42f9-8602-34e23d512b82'
+Description: Contains the details about an individual page in a Journal note.
+ms.assetid: 8cada667-188b-42f9-8602-34e23d512b82
 title: JournalPage Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # JournalPage Element

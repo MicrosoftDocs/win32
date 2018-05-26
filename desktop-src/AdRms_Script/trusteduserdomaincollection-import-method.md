@@ -1,13 +1,16 @@
 ---
-Description: 'Imports external trusted user domains into the collection.'
+Description: Imports external trusted user domains into the collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '94c57d88-8248-4c7a-9cae-aefed02137ad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 94c57d88-8248-4c7a-9cae-aefed02137ad
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedUserDomainCollection.Import method'
+title: TrustedUserDomainCollection.Import method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedUserDomainCollection.Import method
@@ -150,7 +153,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -165,9 +168,9 @@ END SUB
 [**TrustedUserDomainCollection**](trusteduserdomaincollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Gets or sets the language dialect for a resource fragment dialect w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60b08084-f4b9-4049-b0cd-a7420fcffd7c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 60b08084-f4b9-4049-b0cd-a7420fcffd7c
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["FragmentDialect property Windows Remote Management", "FragmentDialect property Windows Remote Management , ResourceLocator object", "ResourceLocator object Windows Remote Management , FragmentDialect property"]
+keywords:
+- FragmentDialect property Windows Remote Management
+- FragmentDialect property Windows Remote Management , ResourceLocator object
+- ResourceLocator object Windows Remote Management , FragmentDialect property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - WSMAuto.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ResourceLocator.FragmentDialect property
@@ -40,7 +46,7 @@ An XML string that identifies the language used in the [**FragmentPath**](resour
 
 ## Remarks
 
-[**IWSManResourceLocator::FragmentDialect**](iwsmanresourcelocator-fragmentdialect.md) is the corresponding C++ property.
+[**IWSManResourceLocator::FragmentDialect**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentdialect?branch=master) is the corresponding C++ property.
 
 ## Requirements
 
@@ -48,8 +54,8 @@ An XML string that identifies the language used in the [**FragmentPath**](resour
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>WSManDisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WSManDisp.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>WSManDisp.tlb</dt> </dl> |
@@ -64,9 +70,9 @@ An XML string that identifies the language used in the [**FragmentPath**](resour
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

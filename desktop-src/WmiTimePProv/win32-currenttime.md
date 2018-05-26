@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_CurrentTime abstract is a singleton WMI class that describes a point in time by using the component items, such as milliseconds, seconds, minutes, hours, days, days of the week, week in the month, months, quarters, and years.'
+Description: The Win32\_CurrentTime abstract is a singleton WMI class that describes a point in time by using the component items, such as milliseconds, seconds, minutes, hours, days, days of the week, week in the month, months, quarters, and years.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dbf9e183-e45d-41ba-b872-5435562cace1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dbf9e183-e45d-41ba-b872-5435562cace1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_CurrentTime class'
+title: Win32\_CurrentTime class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CurrentTime class
@@ -58,7 +61,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current day that matches the query (1–31).
+Current day that matches the query (1 31).
 
 </dd> <dt>
 
@@ -71,7 +74,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current day of the current week that match the query (0–6). By convention, the value 0 (zero) is always Sunday, regardless of the culture or the locale set on the machine.
+Current day of the current week that match the query (0 6). By convention, the value 0 (zero) is always Sunday, regardless of the culture or the locale set on the machine.
 
 </dd> <dt>
 
@@ -84,7 +87,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current hour of the current day (0–23).
+Current hour of the current day (0 23).
 
 </dd> <dt>
 
@@ -112,7 +115,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current minute (0–59).
+Current minute (0 59).
 
 </dd> <dt>
 
@@ -125,7 +128,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current month that matches the query (1–12).
+Current month that matches the query (1 12).
 
 </dd> <dt>
 
@@ -138,7 +141,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current quarter of the current year (1–4).
+Current quarter of the current year (1 4).
 
 </dd> <dt>
 
@@ -151,7 +154,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current second of the current minute (0–59).
+Current second of the current minute (0 59).
 
 </dd> <dt>
 
@@ -164,7 +167,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Current week (1–6) in the current month (1–12).
+Current week (1 6) in the current month (1 12).
 
 </dd> <dt>
 
@@ -259,8 +262,8 @@ UTC Time:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmitimep.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmitimep.dll</dt> </dl> |
@@ -283,9 +286,9 @@ UTC Time:
 [Creating a Timer Event with Win32\_LocalTime or Win32\_UTCTime](https://msdn.microsoft.com/library/aa389758)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: Concepts
 description: Concepts
-ms.assetid: '02beae02-ee8e-40e0-b7c9-b17894c9627e'
-keywords: ["Windows Media Format SDK,concepts", "Windows Media Format SDK,key concepts"]
+ms.assetid: 02beae02-ee8e-40e0-b7c9-b17894c9627e
+keywords:
+- Windows Media Format SDK,concepts
+- Windows Media Format SDK,key concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Concepts

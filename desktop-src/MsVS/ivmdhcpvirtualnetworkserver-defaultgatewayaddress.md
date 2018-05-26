@@ -1,8 +1,13 @@
 ---
 title: IVMDHCPVirtualNetworkServer DefaultGatewayAddress property
 description: The DefaultGatewayAddress property specifies the TCP/IP address of the default gateway.
-ms.assetid: '59f3d580-cd5a-4573-a3f5-42ac0261f9b6'
-keywords: ["DefaultGatewayAddress property Virtual Server", "DefaultGatewayAddress property Virtual Server , IVMDHCPVirtualNetworkServer interface", "IVMDHCPVirtualNetworkServer interface Virtual Server , DefaultGatewayAddress property", "DefaultGatewayAddress property Virtual Server , VMDHCPVirtualNetworkServer interface", "VMDHCPVirtualNetworkServer interface Virtual Server , DefaultGatewayAddress property"]
+ms.assetid: 59f3d580-cd5a-4573-a3f5-42ac0261f9b6
+keywords:
+- DefaultGatewayAddress property Virtual Server
+- DefaultGatewayAddress property Virtual Server , IVMDHCPVirtualNetworkServer interface
+- IVMDHCPVirtualNetworkServer interface Virtual Server , DefaultGatewayAddress property
+- DefaultGatewayAddress property Virtual Server , VMDHCPVirtualNetworkServer interface
+- VMDHCPVirtualNetworkServer interface Virtual Server , DefaultGatewayAddress property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDHCPVirtualNetworkServer::DefaultGatewayAddress property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_DefaultGatewayAddress(
-  [in]  BSTR defaultGatewayAddress
+  [in]  BSTR defaultGatewayAddress
 );
 
 HRESULT get_DefaultGatewayAddress(
-  [out] BSTR *defaultGatewayAddress
+  [out] BSTR *defaultGatewayAddress
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write. If an empty value is written then the current
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -96,9 +106,9 @@ This property value is read/write. If an empty value is written then the current
 [**IVMDHCPVirtualNetworkServer**](ivmdhcpvirtualnetworkserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

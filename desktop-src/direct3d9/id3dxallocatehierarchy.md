@@ -1,7 +1,12 @@
-﻿---
-Description: 'This interface is implemented by the application to allocate or free frame and mesh container objects. Methods on this are called during loading and destroying frame hierarchies.'
-ms.assetid: 'b2c4ecb7-3655-4120-b957-724a754e948a'
+---
+Description: This interface is implemented by the application to allocate or free frame and mesh container objects. Methods on this are called during loading and destroying frame hierarchies.
+ms.assetid: b2c4ecb7-3655-4120-b957-724a754e948a
 title: ID3DXAllocateHierarchy interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAllocateHierarchy interface

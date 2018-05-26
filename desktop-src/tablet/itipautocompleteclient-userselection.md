@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies the Input Panel that the user has selected something in the auto complete list and to discard all remaining text that has not yet been inserted.'
-ms.assetid: '2e6fabe1-7984-4908-bf90-0603d0dad268'
-title: 'ITipAutocompleteClient::UserSelection method'
+Description: Notifies the Input Panel that the user has selected something in the auto complete list and to discard all remaining text that has not yet been inserted.
+ms.assetid: 2e6fabe1-7984-4908-bf90-0603d0dad268
+title: ITipAutocompleteClientUserSelection method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteClient::UserSelection method
@@ -34,7 +39,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -46,7 +51,7 @@ This method is called from the provider to notify the client that a selection ha
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -63,9 +68,9 @@ This method is called from the provider to notify the client that a selection ha
 [Text Input Panel Reference](text-input-panel-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

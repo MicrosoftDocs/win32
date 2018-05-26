@@ -1,7 +1,12 @@
 ---
 title: Processing Reservations
 description: Reservations for portions of the URL namespace are made by the system administrator and placed in the persistent reservation store.
-ms.assetid: 'deab6323-d114-463b-a0e7-acd173149b63'
+ms.assetid: deab6323-d114-463b-a0e7-acd173149b63
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processing Reservations

@@ -1,7 +1,12 @@
 ---
-Description: 'The TRIGGER structure indicates an action to be taken by the driver at a specified time.'
-ms.assetid: '63541796-b0d8-456c-8544-697fedbe05f7'
+Description: The TRIGGER structure indicates an action to be taken by the driver at a specified time.
+ms.assetid: 63541796-b0d8-456c-8544-697fedbe05f7
 title: TRIGGER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TRIGGER structure
@@ -13,13 +18,13 @@ The **TRIGGER** structure indicates an action to be taken by the driver at a spe
 
 ```C++
 typedef struct _TRIGGER {
-  BOOL         TriggerActive;
-  BYTE         TriggerType;
-  BYTE         TriggerAction;
-  DWORD        TriggerFlags;
+  BOOL         TriggerActive;
+  BYTE         TriggerType;
+  BYTE         TriggerAction;
+  DWORD        TriggerFlags;
   PATTERNMATCH TriggerPatternMatch;
-  DWORD        TriggerBufferSize;
-  DWORD        Reserved;
+  DWORD        TriggerBufferSize;
+  DWORD        Reserved;
 } TRIGGER, *LPTRIGGER;
 ```
 
@@ -84,15 +89,15 @@ Reserved.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

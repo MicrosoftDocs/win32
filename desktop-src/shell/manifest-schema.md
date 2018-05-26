@@ -1,6 +1,11 @@
 ---
-Description: 'These elements make up the XML schema used in the Web Publishing and Online Print Ordering wizards'' transfer manifest.'
+Description: These elements make up the XML schema used in the Web Publishing and Online Print Ordering wizards transfer manifest.
 title: Transfer Manifest Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transfer Manifest Schema
@@ -542,7 +547,7 @@ None.
 
 ## netplace
 
-Defines the target for a network place that is created in **My Network Places** when the upload is complete. Creation of a network place can be prevented through the [**IPublishingWizard::Initialize**](ipublishingwizard-initialize.md) method.
+Defines the target for a network place that is created in **My Network Places** when the upload is complete. Creation of a network place can be prevented through the [**IPublishingWizard::Initialize**](/windows/win32/Shobjidl/nf-shobjidl-ipublishingwizard-initialize?branch=master) method.
 
 ### Syntax
 
@@ -634,7 +639,7 @@ URL to which the file should be posted. This element is added by the service whe
 
 ## resize
 
-Defines the scaling and recompression of an image file into JPEG format. If the source file is already in JPEG format and is less than or equal to the specified width and height, it is not sized. If the source file is not a JPEG file, it is converted. Scaling, recompression, and conversion of the file can be prevented through the [**IPublishingWizard::Initialize**](ipublishingwizard-initialize.md) method. Multiple [resize](#syntax) elements may be contained under a single [file](#syntax) node.
+Defines the scaling and recompression of an image file into JPEG format. If the source file is already in JPEG format and is less than or equal to the specified width and height, it is not sized. If the source file is not a JPEG file, it is converted. Scaling, recompression, and conversion of the file can be prevented through the [**IPublishingWizard::Initialize**](/windows/win32/Shobjidl/nf-shobjidl-ipublishingwizard-initialize?branch=master) method. Multiple [resize](#syntax) elements may be contained under a single [file](#syntax) node.
 
 ### Syntax
 

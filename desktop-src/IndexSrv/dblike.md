@@ -1,8 +1,14 @@
 ---
 title: DBLIKE
 description: DBLIKE
-ms.assetid: 'cd015e0a-ecd3-4aa5-82c0-007fd293ebb9'
-keywords: ["DBLIKE"]
+ms.assetid: cd015e0a-ecd3-4aa5-82c0-007fd293ebb9
+keywords:
+- DBLIKE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBLIKE

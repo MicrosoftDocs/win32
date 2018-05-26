@@ -1,8 +1,24 @@
 ---
 title: Using Custom Parameters and Commands
 description: Using Custom Parameters and Commands
-ms.assetid: '6b0bfd19-1672-41e3-9b7f-c8d541168c0e'
-keywords: ["Windows Media metafile playlists,custom parameters", "playlists,custom parameters", "metafile playlists,custom parameters", "Windows Media metafile playlists,custom commands", "playlists,custom commands", "metafile playlists,custom commands", "Windows Media metafile playlists,parameters", "playlists,parameters", "metafile playlists,parameters", "custom parameters", "custom commands"]
+ms.assetid: 6b0bfd19-1672-41e3-9b7f-c8d541168c0e
+keywords:
+- Windows Media metafile playlists,custom parameters
+- playlists,custom parameters
+- metafile playlists,custom parameters
+- Windows Media metafile playlists,custom commands
+- playlists,custom commands
+- metafile playlists,custom commands
+- Windows Media metafile playlists,parameters
+- playlists,parameters
+- metafile playlists,parameters
+- custom parameters
+- custom commands
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Custom Parameters and Commands

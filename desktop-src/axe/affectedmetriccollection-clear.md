@@ -1,8 +1,11 @@
 ---
 title: AffectedMetricCollection Clear method
 description: Deletes all metric references from the AffectedMetricCollection.
-ms.assetid: '8A615655-91D1-4BFB-9086-D29556814BCA'
-keywords: ["Clear method Access Execution Engine", "Clear method Access Execution Engine , AffectedMetricCollection interface", "AffectedMetricCollection interface Access Execution Engine , Clear method"]
+ms.assetid: 8A615655-91D1-4BFB-9086-D29556814BCA
+keywords:
+- Clear method Access Execution Engine
+- Clear method Access Execution Engine , AffectedMetricCollection interface
+- AffectedMetricCollection interface Access Execution Engine , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AffectedMetricCollection::Clear method
@@ -46,8 +54,8 @@ A metric reference is the value of an **Issue/AffectedMetrics/MetricReference** 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -60,9 +68,9 @@ A metric reference is the value of an **Issue/AffectedMetrics/MetricReference** 
 [**AffectedMetricCollection**](affectedmetriccollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

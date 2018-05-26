@@ -1,7 +1,12 @@
 ---
-Description: 'Frequently asked questions about using the Windows Media Audio and Video codec objects.'
-ms.assetid: '9c784dac-f32a-458c-9aa6-58012276b8bf'
+Description: Frequently asked questions about using the Windows Media Audio and Video codec objects.
+ms.assetid: 9c784dac-f32a-458c-9aa6-58012276b8bf
 title: Windows Media Codec FAQ
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Media Codec FAQ

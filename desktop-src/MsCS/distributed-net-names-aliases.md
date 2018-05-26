@@ -4,17 +4,21 @@ description: TBD.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7F8E6E3C-1E5D-4069-B1E2-45D6EE96E4AD'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 7F8E6E3C-1E5D-4069-B1E2-45D6EE96E4AD
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Aliases Failover Cluster"]
+keywords:
+- Aliases Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Aliases
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Aliases
@@ -28,13 +32,13 @@ TBD. The following table summarizes the attributes of the **Aliases** property.
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read/write](read-write-properties.md)                          |
 | Status    | Required                                                         |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +51,7 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_ALIASES**.
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -58,9 +62,9 @@ The constant for this property is **CLUSREG\_NAME\_NETNAME\_ALIASES**.
 [Distributed Network Name Private Properties](distributed-net-name-private-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

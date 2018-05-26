@@ -4,10 +4,13 @@ description: This topic covers some of the design considerations regarding worki
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '90296AAE-E454-4DE4-B59D-51CB79257A45'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 90296AAE-E454-4DE4-B59D-51CB79257A45
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with computers that are not running on Windows Server

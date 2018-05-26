@@ -4,11 +4,13 @@ description: Retrieves mouse cursor updates from a MultiPoint station.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5e5b8e50-257e-41a2-80ab-866e40a7547e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 5e5b8e50-257e-41a2-80ab-866e40a7547e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IWmsStationMousePresenter interface", "IWmsStationMousePresenter interface, described"]
+keywords:
+- IWmsStationMousePresenter interface
+- IWmsStationMousePresenter interface, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - WmsStationPresenter.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IWmsStationMousePresenter interface
@@ -46,7 +51,7 @@ The **IWmsStationMousePresenter** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,7 +60,7 @@ The **IWmsStationMousePresenter** interface has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | IDL<br/>                      | <dl> <dt>WmsStationPresenter.idl</dt> </dl> |
 | IID<br/>                      | IID\_IWmsStationMousePresenter is defined as a391f331-00f0-4204-9d09-f926917233b0<br/>       |
 
@@ -71,9 +76,9 @@ The **IWmsStationMousePresenter** interface has these methods.
 [MultiPoint Services Interfaces](multipoint-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

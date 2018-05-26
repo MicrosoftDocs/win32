@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c558c038-83e3-4b37-b5df-610f9afea7ac'
-title: 'System.CachedFileUpdaterContentIdForStream'
+Description: .
+ms.assetid: c558c038-83e3-4b37-b5df-610f9afea7ac
+title: System.CachedFileUpdaterContentIdForStream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.CachedFileUpdaterContentIdForStream

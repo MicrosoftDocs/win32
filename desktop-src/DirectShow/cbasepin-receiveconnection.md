@@ -1,20 +1,25 @@
 ---
-Description: 'The ReceiveConnection method accepts a connection from another pin. This method implements the IPin::ReceiveConnection method.'
-ms.assetid: 'f17e7d93-ac45-4b8a-98c6-0c76ec7117c9'
-title: 'CBasePin.ReceiveConnection method'
+Description: The ReceiveConnection method accepts a connection from another pin. This method implements the IPinReceiveConnection method.
+ms.assetid: f17e7d93-ac45-4b8a-98c6-0c76ec7117c9
+title: CBasePin.ReceiveConnection method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.ReceiveConnection method
 
-The `ReceiveConnection` method accepts a connection from another pin. This method implements the [**IPin::ReceiveConnection**](ipin-receiveconnection.md) method.
+The `ReceiveConnection` method accepts a connection from another pin. This method implements the [**IPin::ReceiveConnection**](/windows/win32/Strmif/nf-strmif-ipin-receiveconnection?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT ReceiveConnection(
-   IPin          *pConnector,
-   AM_MEDIA_TYPE *pmt
+   IPin          *pConnector,
+   AM_MEDIA_TYPE *pmt
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT ReceiveConnection(
 *pConnector* 
 </dt> <dd>
 
-Pointer to the connecting pin's [**IPin**](ipin.md) interface.
+Pointer to the connecting pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 </dd> <dt>
 
 *pmt* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that specifies the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that specifies the media type.
 
 </dd> </dl>
 
@@ -54,7 +59,7 @@ Returns an **HRESULT** value. Possible values include those in the following tab
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -89,9 +94,9 @@ If **CheckConnect** or **CheckMediaType** fail, the base class calls the [**CBas
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

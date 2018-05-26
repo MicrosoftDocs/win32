@@ -1,14 +1,20 @@
 ---
 title: VIDEOSETTINGS.hue
 description: The hue attribute specifies or retrieves the hue setting of the video.
-ms.assetid: 'b965b05c-6ffc-44bd-8761-366350ff14e3'
-keywords: ["VIDEOSETTINGS.hue Windows Media Player"]
+ms.assetid: b965b05c-6ffc-44bd-8761-366350ff14e3
+keywords:
+- VIDEOSETTINGS.hue Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEOSETTINGS.hue
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEOSETTINGS.hue
@@ -40,9 +46,9 @@ This attribute is a read/write **Number** (**long**) with a value ranging from -
 [**VIDEOSETTINGS Element**](videosettings-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

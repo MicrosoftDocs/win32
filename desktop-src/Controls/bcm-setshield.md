@@ -1,8 +1,9 @@
 ---
 title: BCM\_SETSHIELD message
 description: Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the Button\_SetElevationRequiredState macro.
-ms.assetid: '2ce2a006-7136-415b-824b-46b282b100f4'
-keywords: ["BCM_SETSHIELD message Windows Controls"]
+ms.assetid: 2ce2a006-7136-415b-824b-46b282b100f4
+keywords:
+- BCM_SETSHIELD message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCM\_SETSHIELD message
 
-Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the [**Button\_SetElevationRequiredState**](button-setelevationrequiredstate.md) macro.
+Sets the elevation required state for a specified button or command link to display an elevated icon. Send this message explicitly or by using the [**Button\_SetElevationRequiredState**](/windows/win32/Commctrl/nf-commctrl-button_setelevationrequiredstate?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ An application must be manifested to use comctl32.dll version 6 to gain this fun
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

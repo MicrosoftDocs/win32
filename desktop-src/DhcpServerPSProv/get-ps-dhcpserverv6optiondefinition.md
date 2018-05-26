@@ -4,13 +4,16 @@ description: Get the option definition for the option identified by the option i
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8247bec3-6907-4b7e-8c58-2e3dc5b0923d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 8247bec3-6907-4b7e-8c58-2e3dc5b0923d
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv6OptionDefinition class", "PS_DhcpServerv6OptionDefinition class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv6OptionDefinition class
+- PS_DhcpServerv6OptionDefinition class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv6OptionDefinition class
@@ -30,11 +36,11 @@ Get the option definition for the option identified by the option id. If no opti
 
 ```mof
 uint32 Get(
-  [in]  string                       ComputerName,
-  [in]  uint32                       OptionId[],
-  [in]  string                       VendorClass,
-  [in]  boolean                      All,
-  [out] DhcpServerv6OptionDefinition cmdletOutput[]
+  [in]  string                       ComputerName,
+  [in]  uint32                       OptionId[],
+  [in]  string                       VendorClass,
+  [in]  boolean                      All,
+  [out] DhcpServerv6OptionDefinition cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv6OptionDefinition**](dhcpserverv6optio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv6OptionDefinition**](dhcpserverv6optio
 [**PS\_DhcpServerv6OptionDefinition**](ps-dhcpserverv6optiondefinition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for interrupt service routine (ISR) events. The following syntax is simplified from MOF code.'
-ms.assetid: '2c7ccace-3384-43f4-905e-e7eeeee6f87b'
+---
+Description: This class is the event type class for interrupt service routine (ISR) events. The following syntax is simplified from MOF code.
+ms.assetid: 2c7ccace-3384-43f4-905e-e7eeeee6f87b
 title: ISR class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISR class

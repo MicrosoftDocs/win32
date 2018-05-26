@@ -1,8 +1,24 @@
 ---
 title: Transition and Effect Objects Provided by Windows Movie Maker
 description: Transition and Effect Objects Provided by Windows Movie Maker
-ms.assetid: 'b1237594-a189-4b49-a99d-28f30071c2a9'
-keywords: ["Windows Movie Maker,transitions", "Movie Maker,transitions", "programming guide,Windows Movie Maker transitions", "programming guide,Windows Movie Maker effects", "transitions,built-in", "built-in transitions", "Windows Movie Maker,effects", "Movie Maker,effects", "effects,built-in", "built-in effects", "private XML file in Windows Movie Maker"]
+ms.assetid: b1237594-a189-4b49-a99d-28f30071c2a9
+keywords:
+- Windows Movie Maker,transitions
+- Movie Maker,transitions
+- programming guide,Windows Movie Maker transitions
+- programming guide,Windows Movie Maker effects
+- transitions,built-in
+- built-in transitions
+- Windows Movie Maker,effects
+- Movie Maker,effects
+- effects,built-in
+- built-in effects
+- private XML file in Windows Movie Maker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transition and Effect Objects Provided by Windows Movie Maker

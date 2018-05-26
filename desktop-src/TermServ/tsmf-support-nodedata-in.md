@@ -4,17 +4,22 @@ description: Used inside the TSMF\_SUPPORT\_DATA\_IN structure to contain inform
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9aee9d6d-2182-44ec-ba8b-d2747d3edf71'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9aee9d6d-2182-44ec-ba8b-d2747d3edf71
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TSMF_SUPPORT_NODEDATA_IN structure Remote Desktop Services", "PTSMF_SUPPORT_NODEDATA_IN structure pointer Remote Desktop Services"]
+keywords:
+- TSMF_SUPPORT_NODEDATA_IN structure Remote Desktop Services
+- PTSMF_SUPPORT_NODEDATA_IN structure pointer Remote Desktop Services
 topic_type:
 - apiref
 api_name:
 - TSMF_SUPPORT_NODEDATA_IN
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # TSMF\_SUPPORT\_NODEDATA\_IN structure
@@ -26,9 +31,9 @@ Used inside the [**TSMF\_SUPPORT\_DATA\_IN**](tsmf-support-data-in.md) structure
 
 ```C++
 typedef struct tagTSMF_SUPPORT_NODEDATA_IN {
-  UINT32           byteCount;
-  INT64            nodeId;
-  UINT32           numMediaTypes;
+  UINT32           byteCount;
+  INT64            nodeId;
+  UINT32           numMediaTypes;
   TS_AM_MEDIA_TYPE ...;
 } TSMF_SUPPORT_NODEDATA_IN, *PTSMF_SUPPORT_NODEDATA_IN;
 ```
@@ -76,7 +81,7 @@ For details of this structure, see [TS\_AM\_MEDIA\_TYPE Structure](https://msdn.
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
@@ -84,15 +89,15 @@ For details of this structure, see [TS\_AM\_MEDIA\_TYPE Structure](https://msdn.
 
 <dl> <dt>
 
-[**QueryProperty**](iwrdsprotocolconnection-queryproperty.md)
+[**QueryProperty**](/windows/win32/Wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-queryproperty?branch=master)
 </dt> <dt>
 
 [**TSMF\_SUPPORT\_DATA\_IN**](tsmf-support-data-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

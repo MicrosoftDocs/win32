@@ -1,7 +1,12 @@
 ---
 title: Help API
 description: .
-ms.assetid: '418105b4-fb68-40c9-9b77-80fe29cf2a49'
+ms.assetid: 418105b4-fb68-40c9-9b77-80fe29cf2a49
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Help API

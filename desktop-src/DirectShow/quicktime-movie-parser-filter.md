@@ -1,7 +1,12 @@
 ---
 Description: QuickTime Movie Parser Filter
-ms.assetid: '9537dd7b-9aeb-4e73-a31d-86053874ef13'
+ms.assetid: 9537dd7b-9aeb-4e73-a31d-86053874ef13
 title: QuickTime Movie Parser Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuickTime Movie Parser Filter
@@ -20,7 +25,7 @@ The QuickTime Movie Parser filter splits Apple® QuickTime® data into audio and
 <tbody>
 <tr class="odd">
 <td>Filter Interfaces</td>
-<td>[<strong>IAMMediaContent</strong>](iammediacontent.md), [<strong>IBaseFilter</strong>](ibasefilter.md)</td>
+<td>[<strong>IAMMediaContent</strong>](/windows/win32/Qnetwork/nn-qnetwork-iammediacontent?branch=master), [<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Input Pin Media Types</td>
@@ -28,7 +33,7 @@ The QuickTime Movie Parser filter splits Apple® QuickTime® data into audio and
 </tr>
 <tr class="odd">
 <td>Input Pin Interfaces</td>
-<td>[<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output Pin Media Types</td>
@@ -39,7 +44,7 @@ The QuickTime Movie Parser filter splits Apple® QuickTime® data into audio and
 </tr>
 <tr class="odd">
 <td>Output Pin Interfaces</td>
-<td>[<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetWindowWidth method retrieves the current width of the window.'
-ms.assetid: '0975f480-3ad8-41bd-96ec-ec088940ec3e'
-title: 'CBaseWindow.GetWindowWidth method'
+Description: The GetWindowWidth method retrieves the current width of the window.
+ms.assetid: 0975f480-3ad8-41bd-96ec-ec088940ec3e
+title: CBaseWindow.GetWindowWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.GetWindowWidth method
@@ -43,9 +48,9 @@ Returns the width of the window, in pixels.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork receivedPackets property
 description: The receivedPackets property gets the number of packets received.
-ms.assetid: '2a79dc81-4c7a-45d6-bc2b-b19ff5704c3b'
-keywords: ["receivedPackets property Windows Media Player", "receivedPackets property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , receivedPackets property"]
+ms.assetid: 2a79dc81-4c7a-45d6-bc2b-b19ff5704c3b
+keywords:
+- receivedPackets property Windows Media Player
+- receivedPackets property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , receivedPackets property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::receivedPackets property
@@ -162,9 +170,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

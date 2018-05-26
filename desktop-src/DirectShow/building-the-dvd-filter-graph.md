@@ -1,14 +1,19 @@
 ---
 Description: Building the DVD Filter Graph
-ms.assetid: '1d2f8284-2deb-4207-b067-24a54d6b286c'
+ms.assetid: 1d2f8284-2deb-4207-b067-24a54d6b286c
 title: Building the DVD Filter Graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building the DVD Filter Graph
 
 As with any DirectShow application, a DVD playback application starts by building a filter graph. DirectShow provides the following components for DVD playback:
 
--   [DVD Graph Builder](dvd-graph-builder.md). A helper object that constructs the filter graph. It exposes the [**IDvdGraphBuilder**](idvdgraphbuilder.md) interface.
+-   [DVD Graph Builder](dvd-graph-builder.md). A helper object that constructs the filter graph. It exposes the [**IDvdGraphBuilder**](/windows/win32/Strmif/nn-strmif-idvdgraphbuilder?branch=master) interface.
 -   [DVD Navigator](dvd-navigator-filter.md) filter. A DirectShow filter that handles DVD playback, navigation, and other commands.
 
 DVD playback also requires an MPEG-2 decoder. Hardware and software MPEG-2 decoders are available from third parties. First, create an instance of the DVD Graph Builder object.
@@ -22,7 +27,7 @@ hr = CoCreateInstance(CLSID_DvdGraphBuilder, NULL,
 
 
 
-At this point, you can select and configure the video renderer before you build the rest of the graph. This step, which is optional, is described in more detail in the next section. If you omit this step, the DVD Graph Builder selects a default renderer. Next, build the graph by calling the [**IDvdGraphBuilder::RenderDvdVideoVolume**](idvdgraphbuilder-renderdvdvideovolume.md) method.
+At this point, you can select and configure the video renderer before you build the rest of the graph. This step, which is optional, is described in more detail in the next section. If you omit this step, the DVD Graph Builder selects a default renderer. Next, build the graph by calling the [**IDvdGraphBuilder::RenderDvdVideoVolume**](/windows/win32/Strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume?branch=master) method.
 
 
 ```C++
@@ -36,9 +41,9 @@ The first parameter is the name of a directory that contains the DVD files. On a
 
 The second parameter contains various optional flags for choosing the type of decoder (hardware or software) and other options.
 
-The third parameter is an [**AM\_DVD\_RENDERSTATUS**](am-dvd-renderstatus.md) structure that receives status information. If the [**RenderDvdVideoVolume**](idvdgraphbuilder-renderdvdvideovolume.md) method returns S\_FALSE, it means the call partially succeeded (or partially failed, if you're a pessimist). For example, the method might fail to render the subpicture stream, even though the other streams rendered successfully. If the **RenderDvdVideoVolume** method returns an error code or the value S\_FALSE, you can examine the **AM\_DVD\_RENDERSTATUS** structure for details about the error.
+The third parameter is an [**AM\_DVD\_RENDERSTATUS**](/windows/win32/strmif/ns-strmif-__midl___midl_itf_strmif_0000_0138_0001?branch=master) structure that receives status information. If the [**RenderDvdVideoVolume**](/windows/win32/Strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume?branch=master) method returns S\_FALSE, it means the call partially succeeded (or partially failed, if you're a pessimist). For example, the method might fail to render the subpicture stream, even though the other streams rendered successfully. If the **RenderDvdVideoVolume** method returns an error code or the value S\_FALSE, you can examine the **AM\_DVD\_RENDERSTATUS** structure for details about the error.
 
-Next, get a pointer to the Filter Graph Manager by calling [**IDvdGraphBuilder::GetFiltergraph**](idvdgraphbuilder-getfiltergraph.md). This method returns a pointer to the Filter Graph Manager's [**IGraphBuilder**](igraphbuilder.md) interface.
+Next, get a pointer to the Filter Graph Manager by calling [**IDvdGraphBuilder::GetFiltergraph**](/windows/win32/Strmif/nf-strmif-idvdgraphbuilder-getfiltergraph?branch=master). This method returns a pointer to the Filter Graph Manager's [**IGraphBuilder**](/windows/win32/Strmif/nn-strmif-igraphbuilder?branch=master) interface.
 
 
 ```C++
@@ -48,14 +53,14 @@ hr =  pBuild->GetFiltergraph(&amp;m_pGraph);
 
 
 
-Use the [**IDvdGraphBuilder::GetDvdInterface**](idvdgraphbuilder-getdvdinterface.md) method to retrieve DVD-related interfaces, including the following:
+Use the [**IDvdGraphBuilder::GetDvdInterface**](/windows/win32/Strmif/nf-strmif-idvdgraphbuilder-getdvdinterface?branch=master) method to retrieve DVD-related interfaces, including the following:
 
--   [**IDvdControl2**](idvdcontrol2.md). Controls playback and DVD commands
--   [**IDvdInfo2**](idvdinfo2.md). Returns information about the DVD Navigator's current state.
--   [**IAMLine21Decoder**](iamline21decoder.md). Controls closed caption display. Closed caption display is enabled by default. To disable it, call [**IAMLine21Decoder::SetServiceState**](iamline21decoder-setservicestate.md) with the AM\_L21\_CCSTATE\_Off flag.
--   [**IBasicAudio**](ibasicaudio.md). Controls audio volume and balance.
+-   [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master). Controls playback and DVD commands
+-   [**IDvdInfo2**](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master). Returns information about the DVD Navigator's current state.
+-   [**IAMLine21Decoder**](/windows/win32/il21dec/nn-il21dec-iamline21decoder?branch=master). Controls closed caption display. Closed caption display is enabled by default. To disable it, call [**IAMLine21Decoder::SetServiceState**](/windows/win32/il21dec/nf-il21dec-iamline21decoder-setservicestate?branch=master) with the AM\_L21\_CCSTATE\_Off flag.
+-   [**IBasicAudio**](/windows/win32/Control/nn-control-ibasicaudio?branch=master). Controls audio volume and balance.
 
-For example, the following code returns the [**IDvdControl2**](idvdcontrol2.md) interface.
+For example, the following code returns the [**IDvdControl2**](/windows/win32/Strmif/nn-strmif-idvdcontrol2?branch=master) interface.
 
 
 ```C++
@@ -69,11 +74,11 @@ The recommended way to build the DVD playback filter graph is to have a [DVD Gra
 
 Configuring the Video Renderer
 
-DirectShow provides several video renderer filters. Before you build the graph, you can chose which video renderer you prefer. Select the renderer by calling [**IDvdGraphBuilder::GetDvdInterface**](idvdgraphbuilder-getdvdinterface.md) and requesting an interface that is specific to that renderer:
+DirectShow provides several video renderer filters. Before you build the graph, you can chose which video renderer you prefer. Select the renderer by calling [**IDvdGraphBuilder::GetDvdInterface**](/windows/win32/Strmif/nf-strmif-idvdgraphbuilder-getdvdinterface?branch=master) and requesting an interface that is specific to that renderer:
 
--   Overlay Mixer Filter: [**IDDrawExclModeVideo**](iddrawexclmodevideo.md).
--   Video Mixing Renderer 7 (VMR-7): [**IVMRFilterConfig**](ivmrfilterconfig.md).
--   Video Mixing Renderer 9 (VMR-9): [**IVMRFilterConfig9**](ivmrfilterconfig9.md).
+-   Overlay Mixer Filter: [**IDDrawExclModeVideo**](/windows/win32/Strmif/nn-strmif-iddrawexclmodevideo?branch=master).
+-   Video Mixing Renderer 7 (VMR-7): [**IVMRFilterConfig**](/windows/win32/Strmif/nn-strmif-ivmrfilterconfig?branch=master).
+-   Video Mixing Renderer 9 (VMR-9): [**IVMRFilterConfig9**](/windows/win32/Vmr9/nn-vmr9-ivmrfilterconfig9?branch=master).
 -   Enhanced Video Renderer (EVR): [**IEVRFilterConfig**](https://msdn.microsoft.com/library/windows/desktop/ms694298).
 
 If you request any of these interfaces before building the filter graph, the DVD Graph Builder creates the corresponding video renderer. Later, when you build the graph, the DVD Graph Builder will try to use that renderer. But if it cannot build the graph using the renderer you selected, it may switch to another renderer. For example, your MPEG-2 decoder might not be compatible with the VMR filter, in which case the DVD Graph Builder would default to the Overlay Mixer.
@@ -82,15 +87,15 @@ These interfaces also give you a chance to configure the renderer before it is c
 
 On Windows XP and later, the DVD Graph Builder always uses the [Video Mixing Renderer 7](video-mixing-renderer-filter-7.md) (VMR-7), unless:
 
--   The caller queries interfaces found only the [Overlay Mixer](overlay-mixer-filter.md), such as [**IMixerPinConfig2**](imixerpinconfig2.md). This sends a hint to the DVD Graph Builder that the application wants to use the Overlay Mixer and not the VMR. Windows Media Player also has a dialog box option to force the use of the Overlay Mixer.
--   The installed decoder is not VMR-compatible. During graph building, the new [**IAMDecoderCaps**](iamdecodercaps.md) interface is used to check for the decoder's VMR support. If that is not present, the DVD Graph Builder will use the Overlay Mixer.
+-   The caller queries interfaces found only the [Overlay Mixer](overlay-mixer-filter.md), such as [**IMixerPinConfig2**](/windows/win32/Mpconfig/nn-mpconfig-imixerpinconfig2?branch=master). This sends a hint to the DVD Graph Builder that the application wants to use the Overlay Mixer and not the VMR. Windows Media Player also has a dialog box option to force the use of the Overlay Mixer.
+-   The installed decoder is not VMR-compatible. During graph building, the new [**IAMDecoderCaps**](/windows/win32/Strmif/nn-strmif-iamdecodercaps?branch=master) interface is used to check for the decoder's VMR support. If that is not present, the DVD Graph Builder will use the Overlay Mixer.
 -   While using a hardware decoder, the decoder cannot connect to the [Video Port Manager](video-port-manager.md) (VPM). If a hardware decoder cannot use the VPM, then it cannot use the VMR, and so the DVD Graph Builder then tries to build a graph using the Overlay Mixer.
 -   The display card is known to have insufficient resources and/or capabilities to support the VMR but does not correctly report this in the driver. (Some known cases are specifically excluded by the DVD Graph Builder.)
 -   The connection between the decoder and the VMR fails for any reason, usually due to a lack of VRAM to create the necessary surfaces. In these cases, the DVD Graph Builder switches off VMR use and tries to use the Overlay Mixer to build a graph.
 
 Windowed Mode
 
-In windowed mode (Overlay Mixer or VMR), the renderer creates its own video window. To make this window a child of the application window, call [**IVideoWindow::put\_Owner**](ivideowindow-put-owner.md) with a handle to the application. Also call [**IVideoWindow::put\_WindowStyle**](ivideowindow-put-windowstyle.md) to set the WS\_CHILD and WS\_CLIPSIBLINGS styles on the renderer's video window. To get mouse messages from the renderer's video window, call [**IVideoWindow::put\_MessageDrain**](ivideowindow-put-messagedrain.md) with a handle to the application window. This method sets up a "message drain" — the video window forwards any mouse messages it receives to the message drain window.
+In windowed mode (Overlay Mixer or VMR), the renderer creates its own video window. To make this window a child of the application window, call [**IVideoWindow::put\_Owner**](/windows/win32/Control/nf-control-ivideowindow-put_owner?branch=master) with a handle to the application. Also call [**IVideoWindow::put\_WindowStyle**](/windows/win32/Control/nf-control-ivideowindow-put_windowstyle?branch=master) to set the WS\_CHILD and WS\_CLIPSIBLINGS styles on the renderer's video window. To get mouse messages from the renderer's video window, call [**IVideoWindow::put\_MessageDrain**](/windows/win32/Control/nf-control-ivideowindow-put_messagedrain?branch=master) with a handle to the application window. This method sets up a "message drain" — the video window forwards any mouse messages it receives to the message drain window.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a legacy effect DWORD. This template has been replaced by the EffectParamDWord template.'
-ms.assetid: 'ef174f2d-0dc3-4c40-a3ae-6d1b2cc03f64'
+Description: Defines a legacy effect DWORD. This template has been replaced by the EffectParamDWord template.
+ms.assetid: ef174f2d-0dc3-4c40-a3ae-6d1b2cc03f64
 title: EffectDWord
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EffectDWord

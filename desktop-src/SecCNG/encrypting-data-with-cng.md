@@ -1,7 +1,12 @@
 ---
-Description: 'CNG allows you to encrypt data by using a minimum number of function calls and allows you to perform all of the memory management.'
-ms.assetid: '40622282-e190-40d0-80d4-cab9eddc2091'
+Description: CNG allows you to encrypt data by using a minimum number of function calls and allows you to perform all of the memory management.
+ms.assetid: 40622282-e190-40d0-80d4-cab9eddc2091
 title: Encrypting Data with CNG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encrypting Data with CNG
@@ -18,22 +23,22 @@ To encrypt data, perform the following steps:
 
 1.  Open an algorithm provider that supports encryption, such as **BCRYPT\_DES\_ALGORITHM**.
 2.  Create a key to encrypt the data with. A key can be created by using any of the following functions:
-    -   [**BCryptGenerateKeyPair**](bcryptgeneratekeypair-func.md) or [**BCryptImportKeyPair**](bcryptimportkeypair.md) for asymmetric providers.
-    -   [**BCryptGenerateSymmetricKey**](bcryptgeneratesymmetrickey-func.md) or [**BCryptImportKey**](bcryptimportkey-func.md) for symmetric providers.
+    -   [**BCryptGenerateKeyPair**](/windows/win32/Bcrypt/nf-bcrypt-bcryptgeneratekeypair?branch=master) or [**BCryptImportKeyPair**](/windows/win32/Bcrypt/nf-bcrypt-bcryptimportkeypair?branch=master) for asymmetric providers.
+    -   [**BCryptGenerateSymmetricKey**](/windows/win32/Bcrypt/nf-bcrypt-bcryptgeneratesymmetrickey?branch=master) or [**BCryptImportKey**](/windows/win32/Bcrypt/nf-bcrypt-bcryptimportkey?branch=master) for symmetric providers.
 
     > [!Note]  
     > Data encryption and decryption with an asymmetric key is computationally intensive compared to symmetric key encryption. If you need to encrypt data with an asymmetric key, you should encrypt the data with a symmetric key, encrypt the symmetric key with an asymmetric key, and include the encrypted symmetric key with the message. The recipient can then decrypt the symmetric key and use the symmetric key to decrypt the data.
 
      
 
-3.  Obtain the size of the encrypted data. This is based on the encryption algorithm, the padding scheme (if any), and the size of the data to be encrypted. You can obtain the encrypted data size by using the [**BCryptEncrypt**](bcryptencrypt-func.md) function, passing **NULL** for the *pbOutput* parameter. All other parameters must be the same as when the data is actually encrypted except for the *pbInput* parameter, which is not used in this case.
+3.  Obtain the size of the encrypted data. This is based on the encryption algorithm, the padding scheme (if any), and the size of the data to be encrypted. You can obtain the encrypted data size by using the [**BCryptEncrypt**](/windows/win32/Bcrypt/nf-bcrypt-bcryptencrypt?branch=master) function, passing **NULL** for the *pbOutput* parameter. All other parameters must be the same as when the data is actually encrypted except for the *pbInput* parameter, which is not used in this case.
 4.  You can either encrypt the data in place with the same buffer or encrypt the data into a separate buffer.
 
-    If you want to encrypt the data in place, pass the plaintext buffer pointer for both the *pbInput* and *pbOutput* parameters in the [**BCryptEncrypt**](bcryptencrypt-func.md) function. It is possible that the encrypted data size will be larger than the unencrypted data size, so the plaintext buffer must be large enough to hold the encrypted data, not just the plaintext. You can use the size obtained in step 3 to allocate the plaintext buffer.
+    If you want to encrypt the data in place, pass the plaintext buffer pointer for both the *pbInput* and *pbOutput* parameters in the [**BCryptEncrypt**](/windows/win32/Bcrypt/nf-bcrypt-bcryptencrypt?branch=master) function. It is possible that the encrypted data size will be larger than the unencrypted data size, so the plaintext buffer must be large enough to hold the encrypted data, not just the plaintext. You can use the size obtained in step 3 to allocate the plaintext buffer.
 
     If you want to encrypt the data into a separate buffer, allocate a memory buffer for the encrypted data by using the size obtained in step 3.
 
-5.  Call the [**BCryptEncrypt**](bcryptencrypt-func.md) function to encrypt the data. This function will write the encrypted data to the location provided in the *pbOutput* parameter.
+5.  Call the [**BCryptEncrypt**](/windows/win32/Bcrypt/nf-bcrypt-bcryptencrypt?branch=master) function to encrypt the data. This function will write the encrypted data to the location provided in the *pbOutput* parameter.
 6.  Persist the encrypted data as needed.
 7.  Repeat steps 5 and 6 until all of the data has been encrypted.
 
@@ -440,15 +445,15 @@ To decrypt data, perform the following steps:
 
 1.  Open an algorithm provider that supports encryption, such as **BCRYPT\_DES\_ALGORITHM**.
 2.  Obtain the key that the data was encrypted with, and use that key to obtain a handle for the key.
-3.  Obtain the size of the decrypted data. This is based on the encryption algorithm, the padding scheme (if any), and the size of the data to be decrypted. You can obtain the encrypted data size by using the [**BCryptDecrypt**](bcryptdecrypt-func.md) function, passing **NULL** for the *pbOutput* parameter. The parameters that specify the padding scheme and [*initialization vector*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-initialization-vector-gly) (IV) must be the same as when the data was encrypted except for the *pbInput* parameter, which is not used in this case.
+3.  Obtain the size of the decrypted data. This is based on the encryption algorithm, the padding scheme (if any), and the size of the data to be decrypted. You can obtain the encrypted data size by using the [**BCryptDecrypt**](/windows/win32/Bcrypt/nf-bcrypt-bcryptdecrypt?branch=master) function, passing **NULL** for the *pbOutput* parameter. The parameters that specify the padding scheme and [*initialization vector*](https://msdn.microsoft.com/library/windows/desktop/ms721588#-security-initialization-vector-gly) (IV) must be the same as when the data was encrypted except for the *pbInput* parameter, which is not used in this case.
 4.  Allocate a memory buffer for the decrypted data.
 5.  You can either decrypt the data in place by using the same buffer, or decrypt the data into a separate buffer.
 
-    If you want to decrypt the data in place, pass the ciphertext buffer pointer for both the *pbInput* and *pbOutput* parameters in the [**BCryptDecrypt**](bcryptdecrypt-func.md) function.
+    If you want to decrypt the data in place, pass the ciphertext buffer pointer for both the *pbInput* and *pbOutput* parameters in the [**BCryptDecrypt**](/windows/win32/Bcrypt/nf-bcrypt-bcryptdecrypt?branch=master) function.
 
     If you want to decrypt the data into a separate buffer, allocate a memory buffer for the decrypted data by using the size obtained in step 3.
 
-6.  Call the [**BCryptDecrypt**](bcryptdecrypt-func.md) function to decrypt the data. The parameters that specify the padding scheme and IV must be the same as when the data was encrypted. This function will write the decrypted data to the location provided in the *pbOutput* parameter.
+6.  Call the [**BCryptDecrypt**](/windows/win32/Bcrypt/nf-bcrypt-bcryptdecrypt?branch=master) function to decrypt the data. The parameters that specify the padding scheme and IV must be the same as when the data was encrypted. This function will write the decrypted data to the location provided in the *pbOutput* parameter.
 7.  Persist the decrypted data as needed.
 8.  Repeat steps 5 and 6 until all of the data has been decrypted.
 

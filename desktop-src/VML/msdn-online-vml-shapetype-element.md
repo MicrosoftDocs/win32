@@ -1,7 +1,12 @@
 ---
 title: VML ShapeType Element
 description: VML ShapeType Element
-ms.assetid: '4e0288c9-ab0f-4399-982a-97dcf16f4ec4'
+ms.assetid: 4e0288c9-ab0f-4399-982a-97dcf16f4ec4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML ShapeType Element

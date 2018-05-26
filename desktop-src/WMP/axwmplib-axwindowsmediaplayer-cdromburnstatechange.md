@@ -1,8 +1,9 @@
 ---
 title: CdromBurnStateChange Event of the AxWindowsMediaPlayer Object
 description: The CdromBurnStateChange event occurs when a CD burning operation changes state.
-ms.assetid: 'fec8a8e5-e282-454e-9713-fd9bb131df6a'
-keywords: ["CdromBurnStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: fec8a8e5-e282-454e-9713-fd9bb131df6a
+keywords:
+- CdromBurnStateChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CdromBurnStateChange Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,12 +74,12 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Cdr
 [**IWMPCdromBurn Interface (VB and C#)**](iwmpcdromburn--vb-and-c.md)
 </dt> <dt>
 
-[**WMPBurnState**](wmpburnstate.md)
+[**WMPBurnState**](/windows/win32/wmp/ne-wmp-wmpburnstate?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

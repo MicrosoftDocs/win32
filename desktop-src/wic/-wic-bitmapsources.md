@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces bitmap sources, a core Windows Imaging Component (WIC) component that represents the bitmap pixels of an image.'
-ms.assetid: 'cff0c088-ca22-4d55-9cf0-9cbe9803923e'
+Description: This topic introduces bitmap sources, a core Windows Imaging Component (WIC) component that represents the bitmap pixels of an image.
+ms.assetid: cff0c088-ca22-4d55-9cf0-9cbe9803923e
 title: Bitmap Sources Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bitmap Sources Overview
@@ -20,7 +25,7 @@ This topic contains the following sections.
 
 ## Bitmap Sources
 
-The [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) component is the basic building block of WIC and represents a single set of pixels. A bitmap source can be an individual frame of a multiframe image, or it can be the result of a transform performed on a bitmap source. The **IWICBitmapSource** interface is the base of many of the primary WIC interfaces such as the decoder frame [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) and transform bitmap sources such as the [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md).
+The [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) component is the basic building block of WIC and represents a single set of pixels. A bitmap source can be an individual frame of a multiframe image, or it can be the result of a transform performed on a bitmap source. The **IWICBitmapSource** interface is the base of many of the primary WIC interfaces such as the decoder frame [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) and transform bitmap sources such as the [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master).
 
 The following table describes the different bitmap source components provided by WIC.
 
@@ -28,13 +33,13 @@ The following table describes the different bitmap source components provided by
 
 | Bitmap Sources                                                    | Description                                                          |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|
-| [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) | Represents a decoder image frame.                                    |
-| [**IWICBitmap**](-wic-codec-iwicbitmap.md)                       | Provides writability and in-memory representation to bitmap sources. |
-| [**IWICBitmapClipper**](-wic-codec-iwicbitmapclipper.md)         | Clips a bitmap source to a desired rectangle.                        |
-| [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md) | Flips and/or rotates a bitmap source to a desired orientation.       |
-| [**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md)           | Scales a bitmap source to a desired size.                            |
-| [**IWICColorTransform**](-wic-codec-iwiccolortransform.md)       | Transforms the color context of a bitmap source.                     |
-| [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md)     | Converts the pixel format of a bitmap source.                        |
+| [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) | Represents a decoder image frame.                                    |
+| [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master)                       | Provides writability and in-memory representation to bitmap sources. |
+| [**IWICBitmapClipper**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapclipper?branch=master)         | Clips a bitmap source to a desired rectangle.                        |
+| [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master) | Flips and/or rotates a bitmap source to a desired orientation.       |
+| [**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master)           | Scales a bitmap source to a desired size.                            |
+| [**IWICColorTransform**](/windows/win32/Wincodec/nn-wincodec-iwiccolortransform?branch=master)       | Transforms the color context of a bitmap source.                     |
+| [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master)     | Converts the pixel format of a bitmap source.                        |
 
 
 
@@ -42,19 +47,19 @@ The following table describes the different bitmap source components provided by
 
 ## Bitmap Frames
 
-The most common [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) is the [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md). This interface is used to access the actual bitmap data of an image format. Many image formats only support a single bitmap frame, while other formats such as GIF and TIFF support multiple frames per image.
+The most common [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) is the [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master). This interface is used to access the actual bitmap data of an image format. Many image formats only support a single bitmap frame, while other formats such as GIF and TIFF support multiple frames per image.
 
 For an example on obtaining bitmap frames from an image, see the [How to Retrieve the Frames of an Image](wic-_wic_decoder_howto_retrieveimageframes) topic.
 
 ## Bitmaps
 
-An [**IWICBitmap**](-wic-codec-iwicbitmap.md) adds the concepts of writability and static in-memory to bitmap sources. WIC bitmaps enables users to directly access the pixels of a bitmap source. This direct access is provided by the [**Lock**](-wic-codec-iwicbitmap-lock.md) method and supports any combination of read and/or write access to the bitmap pixels. **Lock** method locks the specified bitmap rectangle and provides an [**IWICBitmapLock**](-wic-codec-iwicbitmaplock.md) object to access the pixels.
+An [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master) adds the concepts of writability and static in-memory to bitmap sources. WIC bitmaps enables users to directly access the pixels of a bitmap source. This direct access is provided by the [**Lock**](/windows/win32/Wincodec/nf-wincodec-iwicbitmap-lock?branch=master) method and supports any combination of read and/or write access to the bitmap pixels. **Lock** method locks the specified bitmap rectangle and provides an [**IWICBitmapLock**](/windows/win32/Wincodec/nn-wincodec-iwicbitmaplock?branch=master) object to access the pixels.
 
-For an example using [**IWICBitmap**](-wic-codec-iwicbitmap.md) and [**IWICBitmapLock**](-wic-codec-iwicbitmaplock.md) objects, see the [How to Modify the Pixels of a Bitmap Source](-wic-bitmapsources-howto-modifypixels.md) topic.
+For an example using [**IWICBitmap**](/windows/win32/Wincodec/nn-wincodec-iwicbitmap?branch=master) and [**IWICBitmapLock**](/windows/win32/Wincodec/nn-wincodec-iwicbitmaplock?branch=master) objects, see the [How to Modify the Pixels of a Bitmap Source](-wic-bitmapsources-howto-modifypixels.md) topic.
 
 ## Transform Bitmap Sources
 
-WIC provides several [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) interfaces that transform the pixel data. Specifically, WIC provides bitmap source transforms for scaling, clipping, rotating, and flipping pixel data. These bitmap source transforms are [**IWICBitmapClipper**](-wic-codec-iwicbitmapclipper.md), [**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md), and [**IWICBitmapFlipRotator**](-wic-codec-iwicbitmapfliprotator.md). Each of these bitmap sources have a method to initialize and create a new transformed bitmap source. For example, the **IWICBitmapClipper** includes the [**Initialize**](-wic-codec-iwicbitmapclipper-initialize.md) method. This method initializes the clipper bitmap source with the clipped pixel data of the input bitmap source at the given [**WICRect**](-wic-codec-wicrect.md).
+WIC provides several [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) interfaces that transform the pixel data. Specifically, WIC provides bitmap source transforms for scaling, clipping, rotating, and flipping pixel data. These bitmap source transforms are [**IWICBitmapClipper**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapclipper?branch=master), [**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master), and [**IWICBitmapFlipRotator**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapfliprotator?branch=master). Each of these bitmap sources have a method to initialize and create a new transformed bitmap source. For example, the **IWICBitmapClipper** includes the [**Initialize**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapclipper-initialize?branch=master) method. This method initializes the clipper bitmap source with the clipped pixel data of the input bitmap source at the given [**WICRect**](/windows/win32/Wincodec/ns-wincodec-wicrect?branch=master).
 
 The following how-to topics demonstrate different uses of the transform bitmap sources.
 
@@ -64,11 +69,11 @@ The following how-to topics demonstrate different uses of the transform bitmap s
 
 ## Pixel Format and Color Context Converters
 
-WIC also provides bitmap sources converting the pixel format and color context of a bitmap source. WIC provides the [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md) and [**IWICColorTransform**](-wic-codec-iwiccolortransform.md) for these operations.
+WIC also provides bitmap sources converting the pixel format and color context of a bitmap source. WIC provides the [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master) and [**IWICColorTransform**](/windows/win32/Wincodec/nn-wincodec-iwiccolortransform?branch=master) for these operations.
 
-[**IWICFormatConverter**](-wic-codec-iwicformatconverter.md) converts a given bitmap source from one pixel format to another.
+[**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master) converts a given bitmap source from one pixel format to another.
 
-For an example using the [**IWICFormatConverter**](-wic-codec-iwicformatconverter.md), see the [How to Draw a Bitmap Source Using Direct2D](-wic-bitmapsources-howto-drawusingd2d.md) topic.
+For an example using the [**IWICFormatConverter**](/windows/win32/Wincodec/nn-wincodec-iwicformatconverter?branch=master), see the [How to Draw a Bitmap Source Using Direct2D](-wic-bitmapsources-howto-drawusingd2d.md) topic.
 
 ## Drawing Bitmap Sources
 

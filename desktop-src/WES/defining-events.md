@@ -1,7 +1,12 @@
 ---
 title: Defining Events
 description: Providers must define all the events that they write. To define an event, use the event element.
-ms.assetid: 'f282612c-cfa5-42fe-af8a-5b35c033abe2'
+ms.assetid: f282612c-cfa5-42fe-af8a-5b35c033abe2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining Events

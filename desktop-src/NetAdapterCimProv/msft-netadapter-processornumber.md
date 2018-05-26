@@ -1,7 +1,12 @@
 ---
-Description: 'MSFT\_NetAdapter\_ProcessorNumber.'
-ms.assetid: '7b053e2a-8e26-4798-818d-b3868ed21fae'
-title: 'MSFT\_NetAdapter\_ProcessorNumber class'
+Description: MSFT\_NetAdapter\_ProcessorNumber.
+ms.assetid: 7b053e2a-8e26-4798-818d-b3868ed21fae
+title: MSFT\_NetAdapter\_ProcessorNumber class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_ProcessorNumber class
@@ -17,7 +22,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_NetAdapter_ProcessorNumber
 {
   uint16 ProcessorGroup;
-  uint8  ProcessorNumber;
+  uint8  ProcessorNumber;
 };
 ```
 
@@ -65,17 +70,17 @@ The processor number.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

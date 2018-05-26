@@ -2,7 +2,13 @@
 title: Generating a Proxy DLL and a Type Library from a Single IDL File
 description: You can use a single IDL file to generate both the proxy stubs and header files for marshaling code, and a type library.
 ms.assetid: faa647ac-765a-45bd-8193-b6ea90d064ff
-keywords: ["Microsoft Interface Definition Language MIDL , tasks, generating a proxy DLL and a type library"]
+keywords:
+- Microsoft Interface Definition Language MIDL , tasks, generating a proxy DLL and a type library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating a Proxy DLL and a Type Library from a Single IDL File

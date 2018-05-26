@@ -1,7 +1,12 @@
 ---
-Description: 'Used to connect to a network that uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) certificates stored on a smart card for 802.1X authentication.'
-ms.assetid: 'cb6758fc-1cce-4e62-adf7-0976957a49b0'
+Description: Used to connect to a network that uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) certificates stored on a smart card for 802.1X authentication.
+ms.assetid: cb6758fc-1cce-4e62-adf7-0976957a49b0
 title: Smart Card Certificate Profile Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card Certificate Profile Sample

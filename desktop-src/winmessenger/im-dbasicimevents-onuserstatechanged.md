@@ -1,34 +1,42 @@
 ---
 title: DBasicIMEvents OnUserStateChanged event
-description: Indicates that the user's state has changed.
-ms.assetid: '3ebc53aa-38f0-4214-b417-e994f13509d3'
-keywords: ["OnUserStateChanged event Windows Messenger", "OnUserStateChanged event Windows Messenger , DBasicIMEvents interface", "DBasicIMEvents interface Windows Messenger , OnUserStateChanged event"]
+description: Indicates that the users state has changed.
+ms.assetid: 3ebc53aa-38f0-4214-b417-e994f13509d3
+keywords:
+- OnUserStateChanged event Windows Messenger
+- OnUserStateChanged event Windows Messenger , DBasicIMEvents interface
+- DBasicIMEvents interface Windows Messenger , OnUserStateChanged event
 topic_type:
 - apiref
 api_name:
 - DBasicIMEvents.OnUserStateChanged
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBasicIMEvents::OnUserStateChanged event
 
-\[**OnUserStateChanged** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnUserStateChanged** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Indicates that the user's state has changed.
 
 > [!Note]  
 > The **OnUserStateChanged** event is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [**OnContactStatusChange**](im-dmessengerevents-oncontactstatuschange.md) instead.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 void OnUserStateChanged(
-  [in] IBasicIMUser *pBIMUser,
-  [in] BIMSTATE     mPrevStateOE
+  [in] IBasicIMUser *pBIMUser,
+  [in] BIMSTATE     mPrevStateOE
 );
 ```
 
@@ -62,14 +70,14 @@ This event does not return a value.
 
 |                                  |                                |
 |----------------------------------|--------------------------------|
-| End of client support<br/> | Windows XP<br/>          |
-| End of server support<br/> | Windows Server 2003<br/> |
+| End of client support<br/> | Windows XP<br/>          |
+| End of server support<br/> | Windows Server 2003<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

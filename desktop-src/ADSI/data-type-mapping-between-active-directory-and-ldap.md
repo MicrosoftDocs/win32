@@ -4,16 +4,21 @@ description: The following table maps the friendly syntax name to the correspond
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '07952de0-0389-473a-84ca-b5f35fdc5b1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 07952de0-0389-473a-84ca-b5f35fdc5b1f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["data type mapping between Active Directory and LDAP ADSI", "LDAP service provider ADSI , data type mapping between Active Directory and LDAP"]
+keywords:
+- data type mapping between Active Directory and LDAP ADSI
+- LDAP service provider ADSI , data type mapping between Active Directory and LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Data Type Mapping between Active Directory and LDAP
 
-The following table maps the friendly syntax name to the corresponding LDAP syntax OID and [**ADSTYPEENUM**](adstypeenum.md) value.
+The following table maps the friendly syntax name to the corresponding LDAP syntax OID and [**ADSTYPEENUM**](/windows/win32/Iads/ne-iads-__midl___midl_itf_ads_0000_0000_0001?branch=master) value.
 
 
 

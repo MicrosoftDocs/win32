@@ -1,8 +1,20 @@
 ---
 title: Stopping a Trace
 description: Stopping a Trace
-ms.assetid: 'ae9a1139-262a-47bc-9ec4-dc67104b200d'
-keywords: ["xperf", "stop", "trace", "tracing", "NT Kernel Logger", "stop-and-merge", "merging traces"]
+ms.assetid: ae9a1139-262a-47bc-9ec4-dc67104b200d
+keywords:
+- xperf
+- stop
+- trace
+- tracing
+- NT Kernel Logger
+- stop-and-merge
+- merging traces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stopping a Trace

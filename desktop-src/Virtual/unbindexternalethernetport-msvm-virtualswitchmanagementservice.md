@@ -1,8 +1,11 @@
 ---
 title: UnbindExternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
 description: Unbinds an external Ethernet port to the Microsoft Windows Virtualization network subsystem.
-ms.assetid: 'fa81e80e-060b-41a8-bc0c-95e165b44cef'
-keywords: ["UnbindExternalEthernetPort method Hyper-V", "UnbindExternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class", "Msvm_VirtualSwitchManagementService class Hyper-V , UnbindExternalEthernetPort method"]
+ms.assetid: fa81e80e-060b-41a8-bc0c-95e165b44cef
+keywords:
+- UnbindExternalEthernetPort method Hyper-V
+- UnbindExternalEthernetPort method Hyper-V , Msvm_VirtualSwitchManagementService class
+- Msvm_VirtualSwitchManagementService class Hyper-V , UnbindExternalEthernetPort method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnbindExternalEthernetPort method of the Msvm\_VirtualSwitchManagementService class
@@ -22,7 +30,7 @@ Unbinds an external Ethernet port to the Microsoft Windows Virtualization networ
 
 ```mof
 uint32 UnbindExternalEthernetPort(
-  [in] Msvm_ExternalEthernetPort REF ExternalEthernetPort
+  [in] Msvm_ExternalEthernetPort REF ExternalEthernetPort
 );
 ```
 
@@ -291,9 +299,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -306,9 +314,9 @@ End Function
 [**Msvm\_VirtualSwitchManagementService**](msvm-virtualswitchmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

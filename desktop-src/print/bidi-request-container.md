@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BIDI\_REQUEST\_CONTAINER structure is a container for a list of bidi requests.'
-ms.assetid: '9892cf0e-23ee-496f-9078-4a2a1fdb19d9'
-title: 'BIDI\_REQUEST\_CONTAINER structure'
+---
+Description: The BIDI\_REQUEST\_CONTAINER structure is a container for a list of bidi requests.
+ms.assetid: 9892cf0e-23ee-496f-9078-4a2a1fdb19d9
+title: BIDI\_REQUEST\_CONTAINER structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIDI\_REQUEST\_CONTAINER structure

@@ -1,12 +1,17 @@
 ---
-Description: 'Example code that shows how to browse performance counters.'
-ms.assetid: '44c5cfa8-6449-45d8-ac30-979b99c086de'
+Description: Example code that shows how to browse performance counters.
+ms.assetid: 44c5cfa8-6449-45d8-ac30-979b99c086de
 title: Browsing Performance Counters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Browsing Performance Counters
 
-The following example shows how to call [**PdhBrowseCounters**](pdhbrowsecounters.md) to browse performance counters. The example also shows how to collect and format raw counter data for display.
+The following example shows how to call [**PdhBrowseCounters**](/windows/win32/Pdh/nf-pdh-pdhbrowsecountersa?branch=master) to browse performance counters. The example also shows how to collect and format raw counter data for display.
 
 
 ```C++

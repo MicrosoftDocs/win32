@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowDiffVolumeSupport class
 description: The Win32\_ShadowDiffVolumeSupport class associates a shadow copy provider and a volume supported for differential storage area.
-ms.assetid: '5845f8d2-4ce2-4ddf-a212-d05ec9ca2998'
-keywords: ["Win32_ShadowDiffVolumeSupport class", "Win32_ShadowDiffVolumeSupport class, described"]
+ms.assetid: 5845f8d2-4ce2-4ddf-a212-d05ec9ca2998
+keywords:
+- Win32_ShadowDiffVolumeSupport class
+- Win32_ShadowDiffVolumeSupport class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowDiffVolumeSupport class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ShadowDiffVolumeSupport : CIM_Dependency
 {
   Win32_ShadowProvider REF Antecedent;
-  Win32_Volume         REF Dependent;
+  Win32_Volume         REF Dependent;
 };
 ```
 
@@ -82,7 +89,7 @@ Reference to the volume supported by the provider.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -117,9 +124,9 @@ Reference to the volume supported by the provider.
 [**Win32\_ShadowVolumeSupport**](win32-shadowvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

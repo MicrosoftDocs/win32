@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS TerminalServicesInitialized property
 description: Status of Remote Desktop Services in the guest operating system.
-ms.assetid: '104d9256-6b2e-45ec-a290-21e0732c65ac'
-keywords: ["TerminalServicesInitialized property Virtual PC", "TerminalServicesInitialized property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , TerminalServicesInitialized property"]
+ms.assetid: 104d9256-6b2e-45ec-a290-21e0732c65ac
+keywords:
+- TerminalServicesInitialized property Virtual PC
+- TerminalServicesInitialized property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , TerminalServicesInitialized property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::TerminalServicesInitialized property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the status of Remote Desktop Services (formerly known as Terminal Services) in the guest operating system.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_TerminalServicesInitialized(
-  [out, retval] VARIANT_BOOL *termServStatus
+  [out, retval] VARIANT_BOOL *termServStatus
 );
 ```
 
@@ -58,9 +66,9 @@ The initialization status.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -74,9 +82,9 @@ The initialization status.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

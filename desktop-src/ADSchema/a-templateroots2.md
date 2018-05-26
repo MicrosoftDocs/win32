@@ -4,17 +4,22 @@ description: This attribute is used on the Exchange config container to indicate
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ad9607c7-fd7b-48b3-abdb-1340ef357bd0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ad9607c7-fd7b-48b3-abdb-1340ef357bd0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Template-Roots2 attribute AD Schema", "templateRoots2 attribute AD Schema"]
+keywords:
+- Template-Roots2 attribute AD Schema
+- templateRoots2 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Template-Roots2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Template-Roots2 attribute
@@ -38,9 +43,9 @@ This attribute is used on the Exchange config container to indicate where the te
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ This attribute is used on the Exchange config container to indicate where the te
 
 
 
- 
+ 
 
- 
+ 
 
 
 

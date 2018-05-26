@@ -1,8 +1,10 @@
 ---
 title: ORPC\_DBG\_ALL structure
 description: The ORPC\_DBG\_ALL structure is used to pass parameters to the methods of the IOrpcDebugNotify interface.
-ms.assetid: '05371beb-9202-40a6-96d2-4b91497e2ee9'
-keywords: ["ORPC_DBG_ALL structure COM", "LPORPC_DBG_ALL structure pointer COM"]
+ms.assetid: 05371beb-9202-40a6-96d2-4b91497e2ee9
+keywords:
+- ORPC_DBG_ALL structure COM
+- LPORPC_DBG_ALL structure pointer COM
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - N/A
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ORPC\_DBG\_ALL structure
@@ -20,25 +27,25 @@ The **ORPC\_DBG\_ALL** structure is used to pass parameters to the methods of th
 > [!Note]  
 > Each method of the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interface uses a different combination of the members below. If a member is not indicated as used by a method, it is undefined when passed to that method.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef struct ORPC_DBG_ALL {
-  BYTE              *pSignature;
-  RPCOLEMESSAGE     *pMessage;
-  const IID         *refiid;
+  BYTE              *pSignature;
+  RPCOLEMESSAGE     *pMessage;
+  const IID         *refiid;
   IRpcChannelBuffer *pChannel;
-  IUnknown          *pUnkProxyMgr;
-  void              *pInterface;
-  IUnknown          *pUnkObject;
-  HRESULT           hresult;
-  void              *pvBuffer;
-  ULONG             *cbBuffer;
-  ULONG             *lpcbBuffer;
-  void              *reserved;
+  IUnknown          *pUnkProxyMgr;
+  void              *pInterface;
+  IUnknown          *pUnkObject;
+  HRESULT           hresult;
+  void              *pvBuffer;
+  ULONG             *cbBuffer;
+  ULONG             *lpcbBuffer;
+  void              *reserved;
 } ORPC_DBG_ALL, *LPORPC_DBG_ALL;
 ```
 
@@ -67,20 +74,20 @@ A pointer to a **BYTE** buffer that contains:
 >
 > Used by all methods of the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interface.
 
- 
+ 
 
 </dd> <dt>
 
 **pMessage**
 </dt> <dd>
 
-A pointer to an [**RPCOLEMESSAGE**](rpcolemessage.md) structure that contains RPC data marshalling information.
+A pointer to an [**RPCOLEMESSAGE**](/windows/win32/objidlbase/ns-objidl-tagrpcolemessage?branch=master) structure that contains RPC data marshalling information.
 
 > [!Note]
 >
 > Used by the [**ClientFillBuffer**](iorpcdebugnotify-clientfillbuffer.md), [**ClientGetBufferSize**](iorpcdebugnotify-clientgetbuffersize.md), [**ClientNotify**](iorpcdebugnotify-clientnotify.md), [**ServerFillBuffer**](iorpcdebugnotify-serverfillbuffer.md), [**ServerGetBufferSize**](iorpcdebugnotify-servergetbuffersize.md), and [**ServerNotify**](iorpcdebugnotify-servernotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -93,33 +100,33 @@ A pointer to the IID of the [**IOrpcDebugNotify**](iorpcdebugnotify.md) interfac
 >
 > Used by the [**ClientFillBuffer**](iorpcdebugnotify-clientfillbuffer.md), [**ClientGetBufferSize**](iorpcdebugnotify-clientgetbuffersize.md), [**ClientNotify**](iorpcdebugnotify-clientnotify.md), [**ServerFillBuffer**](iorpcdebugnotify-serverfillbuffer.md), [**ServerGetBufferSize**](iorpcdebugnotify-servergetbuffersize.md), and [**ServerNotify**](iorpcdebugnotify-servernotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
 **pChannel**
 </dt> <dd>
 
-A pointer to the [**IRpcChannelBuffer**](irpcchannelbuffer.md) interface of the COM RPC channel implementation on the server.
+A pointer to the [**IRpcChannelBuffer**](/windows/win32/objidlbase/nn-objidl-irpcchannelbuffer?branch=master) interface of the COM RPC channel implementation on the server.
 
 > [!Note]
 >
 > Used by the [**ServerFillBuffer**](iorpcdebugnotify-serverfillbuffer.md), [**ServerGetBufferSize**](iorpcdebugnotify-servergetbuffersize.md), and [**ServerNotify**](iorpcdebugnotify-servernotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
 **pUnkProxyMgr**
 </dt> <dd>
 
-A pointer to the [**IUnknown**](iunknown.md) interface of the object involved in this debugger invocation. May be **NULL**, however, this reduces debugger functionality.
+A pointer to the [**IUnknown**](/windows/win32/Unknwn/nn-unknwn-iunknown?branch=master) interface of the object involved in this debugger invocation. May be **NULL**, however, this reduces debugger functionality.
 
 > [!Note]
 >
 > Used by the [**ClientFillBuffer**](iorpcdebugnotify-clientfillbuffer.md), [**ClientGetBufferSize**](iorpcdebugnotify-clientgetbuffersize.md), and [**ClientNotify**](iorpcdebugnotify-clientnotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,7 +139,7 @@ A pointer to the COM interface of the method that will be invoked by this RPC. M
 >
 > Used by the [**ServerFillBuffer**](iorpcdebugnotify-serverfillbuffer.md), [**ServerGetBufferSize**](iorpcdebugnotify-servergetbuffersize.md), and [**ServerNotify**](iorpcdebugnotify-servernotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -145,7 +152,7 @@ Must be **NULL**.
 >
 > Used by the [**ServerFillBuffer**](iorpcdebugnotify-serverfillbuffer.md), [**ServerGetBufferSize**](iorpcdebugnotify-servergetbuffersize.md), and [**ServerNotify**](iorpcdebugnotify-servernotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -164,7 +171,7 @@ This member's purpose changes for each of the notifications below:
 >
 > Used by the [**ClientGetBufferSize**](iorpcdebugnotify-clientgetbuffersize.md), [**ClientNotify**](iorpcdebugnotify-clientnotify.md), and [**ServerGetBufferSize**](iorpcdebugnotify-servergetbuffersize.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -177,7 +184,7 @@ A pointer to an [**ORPC\_DBG\_BUFFER**](orpc-dbg-buffer.md) structure that conta
 >
 > Used by the [**ClientFillBuffer**](iorpcdebugnotify-clientfillbuffer.md), [**ClientNotify**](iorpcdebugnotify-clientnotify.md), [**ServerFillBuffer**](iorpcdebugnotify-serverfillbuffer.md), and [**ServerNotify**](iorpcdebugnotify-servernotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -190,7 +197,7 @@ The length, in bytes, of the data pointed to by **pvBuffer**.
 >
 > Used by the [**ClientFillBuffer**](iorpcdebugnotify-clientfillbuffer.md), [**ClientNotify**](iorpcdebugnotify-clientnotify.md), [**ServerFillBuffer**](iorpcdebugnotify-serverfillbuffer.md), and [**ServerNotify**](iorpcdebugnotify-servernotify.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -203,7 +210,7 @@ The number of bytes the client debugger will transmit to the server debugger. If
 >
 > Used by the [**ClientFillBuffer**](iorpcdebugnotify-clientfillbuffer.md), [**ClientGetBufferSize**](iorpcdebugnotify-clientgetbuffersize.md) methods.
 
- 
+ 
 
 </dd> <dt>
 
@@ -220,8 +227,8 @@ Reserved. Do not use.
 
 |                                     |                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                           |
 | Header<br/>                   | <dl> <dt>N/A</dt> </dl> |
 
 
@@ -242,9 +249,9 @@ Reserved. Do not use.
 [**IOrpcDebugNotify**](iorpcdebugnotify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

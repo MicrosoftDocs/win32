@@ -4,11 +4,13 @@ description: Contains all of the property values associated with a multi-value p
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '18ae71ee-5582-4ac9-bb0f-f1c077c0352a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 18ae71ee-5582-4ac9-bb0f-f1c077c0352a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ClusPropertyValues collection Failover Cluster", "ClusPropertyValues collection Failover Cluster , described"]
+keywords:
+- ClusPropertyValues collection Failover Cluster
+- ClusPropertyValues collection Failover Cluster , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # ClusPropertyValues collection
@@ -46,7 +51,7 @@ The **ClusPropertyValues** collection has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -61,7 +66,7 @@ The **ClusPropertyValues** collection has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,7 +82,7 @@ A **ClusPropertyValues** collection:
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>               |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>               |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>   |
@@ -93,9 +98,9 @@ A **ClusPropertyValues** collection:
 [Property Management Objects](property-management-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

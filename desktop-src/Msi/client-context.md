@@ -1,12 +1,17 @@
 ---
-Description: 'The context of the product.'
-ms.assetid: 'e8848e99-452d-4ea7-830b-7af7f32f8390'
-title: 'Client.Context property'
+Description: The context of the product.
+ms.assetid: e8848e99-452d-4ea7-830b-7af7f32f8390
+title: Client.Context property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client.Context property
 
-The context of the product. This property calls the [**MsiEnumClientsEx**](msienumclientsex.md) function.
+The context of the product. This property calls the [**MsiEnumClientsEx**](/windows/win32/Msi/nf-msi-msienumclientsexa?branch=master) function.
 
 **[Windows Installer 4.5 or earlier](not-supported-in-windows-installer-4-5.md):** Not supported. This property is available beginning with Windows Installer 5.0.
 
@@ -26,9 +31,9 @@ The context of the product. This property calls the [**MsiEnumClientsEx**](msien
 
 
 
- 
+ 
 
- 
+ 
 
 
 

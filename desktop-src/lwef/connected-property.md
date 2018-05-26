@@ -1,7 +1,12 @@
 ---
 title: Connected Property
 description: Connected Property
-ms.assetid: '61b7f550-d8d6-4719-a0d4-0bf3a8cf096c'
+ms.assetid: 61b7f550-d8d6-4719-a0d4-0bf3a8cf096c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connected Property
@@ -30,7 +35,7 @@ Returns or sets whether the current control is connected to the Microsoft Agent 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -115,11 +120,11 @@ You can close your connection to the server by releasing all references you crea
 > [!Note]  
 > You cannot close your connection to the server by releasing references where the component has been added. For example, you cannot close your connection to the server on webpages where you use the &lt;OBJECT&gt; tag to declare the control or in a Visual Basic application where you drop the control on a form. While releasing all Agent references will reduce Agent's working set, the connection remains until you navigate to the next page or exit the application.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

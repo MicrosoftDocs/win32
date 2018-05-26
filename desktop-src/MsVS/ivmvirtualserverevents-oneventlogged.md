@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServerEvents OnEventLogged method
 description: Called when Virtual Server logs an event.
-ms.assetid: 'ef8e6d01-8f6c-4feb-84f3-7c89c13c76fd'
-keywords: ["OnEventLogged method Virtual Server", "OnEventLogged method Virtual Server , IVMVirtualServerEvents interface", "IVMVirtualServerEvents interface Virtual Server , OnEventLogged method"]
+ms.assetid: ef8e6d01-8f6c-4feb-84f3-7c89c13c76fd
+keywords:
+- OnEventLogged method Virtual Server
+- OnEventLogged method Virtual Server , IVMVirtualServerEvents interface
+- IVMVirtualServerEvents interface Virtual Server , OnEventLogged method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServerEvents::OnEventLogged method
@@ -22,7 +30,7 @@ The **OnEventLogged** method is called when Virtual Server logs an event.
 
 ```C++
 HRESULT OnEventLogged(
-  [in] long logMessageID
+  [in] long logMessageID
 );
 ```
 
@@ -53,8 +61,8 @@ This method is called when Virtual Server logs a message to the Windows event lo
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -66,9 +74,9 @@ This method is called when Virtual Server logs a message to the Windows event lo
 [**IVMVirtualServerEvents**](ivmvirtualserverevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

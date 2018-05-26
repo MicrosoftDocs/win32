@@ -1,8 +1,9 @@
 ---
 title: EM\_GETLIMITTEXT message
 description: Gets the current text limit for an edit control. You can send this message to either an edit control or a rich edit control.
-ms.assetid: '778967f0-c090-46a2-9f27-194b17bbb1be'
-keywords: ["EM_GETLIMITTEXT message Windows Controls"]
+ms.assetid: 778967f0-c090-46a2-9f27-194b17bbb1be
+keywords:
+- EM_GETLIMITTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETLIMITTEXT message
@@ -45,7 +51,7 @@ The return value is the text limit.
 
 **Rich Edit 1.0:** The text limit is the maximum amount of text, in bytes, that the rich edit control can contain.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -53,8 +59,8 @@ The return value is the text limit.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -66,9 +72,9 @@ The return value is the text limit.
 [**EM\_SETLIMITTEXT**](em-setlimittext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

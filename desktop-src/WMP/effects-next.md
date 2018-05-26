@@ -1,14 +1,20 @@
 ---
 title: EFFECTS.next
 description: The next method displays the next visualization preset, moving to the next visualization if necessary.
-ms.assetid: 'c03c8697-7729-41fe-b8eb-83c33ca32043'
-keywords: ["EFFECTS.next Windows Media Player"]
+ms.assetid: c03c8697-7729-41fe-b8eb-83c33ca32043
+keywords:
+- EFFECTS.next Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EFFECTS.next
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EFFECTS.next
@@ -54,9 +60,9 @@ If the current preset is the last one in the series of all available visualizati
 [**EFFECTS.previous**](effects-previous.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

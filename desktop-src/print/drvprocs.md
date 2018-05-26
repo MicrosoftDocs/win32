@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.'
-ms.assetid: 'fcdfb7ba-cbb4-454b-b366-82d0c95b4afd'
+---
+Description: The DRVPROCS structure is obsolete and is not used with the COM interfaces for Microsoft printer drivers.
+ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 title: DRVPROCS structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRVPROCS structure

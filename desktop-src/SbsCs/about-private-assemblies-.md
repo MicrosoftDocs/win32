@@ -1,7 +1,12 @@
 ---
-Description: 'A private assembly is an assembly that is deployed with an application and is available for the exclusive use of that application.'
-ms.assetid: '5E0E7423-85BD-4ED0-9149-9541F4D2371F'
+Description: A private assembly is an assembly that is deployed with an application and is available for the exclusive use of that application.
+ms.assetid: 5E0E7423-85BD-4ED0-9149-9541F4D2371F
 title: About Private Assemblies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Private Assemblies

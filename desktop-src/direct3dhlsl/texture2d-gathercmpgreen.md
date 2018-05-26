@@ -1,12 +1,18 @@
 ---
 title: Texture2D GatherCmpGreen methods
 description: Samples and compares a Texture2D and returns the green component.
-ms.assetid: '5a11ce0c-56b2-460a-95d7-15688dd158ff'
-keywords: ["GatherCmpGreen methods HLSL"]
+ms.assetid: 5a11ce0c-56b2-460a-95d7-15688dd158ff
+keywords:
+- GatherCmpGreen methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::GatherCmpGreen methods
@@ -33,9 +39,9 @@ Samples and compares a [**Texture2D**](sm5-object-texture2d.md) and returns the 
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

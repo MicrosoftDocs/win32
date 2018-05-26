@@ -1,8 +1,11 @@
 ---
 title: Filter.Name property
 description: Retrieves the Filter name.
-ms.assetid: '5b45f96c-2881-4e1e-8dab-52bc10780b04'
-keywords: ["Name property WIA Automation", "Name property WIA Automation , Filter object", "Filter object WIA Automation , Name property"]
+ms.assetid: 5b45f96c-2881-4e1e-8dab-52bc10780b04
+keywords:
+- Name property WIA Automation
+- Name property WIA Automation , Filter object
+- Filter object WIA Automation , Name property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter.Name property
@@ -43,8 +51,8 @@ For example code, see [Create an ImageProcess Object and Create one of Each Avai
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -81,9 +89,9 @@ For example code, see [Create an ImageProcess Object and Create one of Each Avai
 [**Name (Property)**](-wiaaut-iproperty-name.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

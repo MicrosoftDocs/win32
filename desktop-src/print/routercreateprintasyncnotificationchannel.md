@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RouterCreatePrintAsyncNotificationChannel function creates an asynchronous notification channel that is associated with a printer or print server.'
-ms.assetid: '11f9a438-861f-42ef-b4f5-f64b0b9d658a'
+---
+Description: The RouterCreatePrintAsyncNotificationChannel function creates an asynchronous notification channel that is associated with a printer or print server.
+ms.assetid: 11f9a438-861f-42ef-b4f5-f64b0b9d658a
 title: RouterCreatePrintAsyncNotificationChannel function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterCreatePrintAsyncNotificationChannel function

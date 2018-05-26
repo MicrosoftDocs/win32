@@ -4,11 +4,12 @@ description: Sets license properties for the platform.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4af11fe6-d67a-41a4-a2da-50294193f56a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4af11fe6-d67a-41a4-a2da-50294193f56a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcSetLicenseProperty function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcSetLicenseProperty function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcSetLicenseProperty function
@@ -28,10 +32,10 @@ Sets license properties for the platform.
 
 ```C++
 HRESULT WINAPI IpcSetLicenseProperty(
-  _In_     IPC_LICENSE_HANDLE hLicense,
-           BOOL               fDelete,
-           DWORD              dwPropID,
-  _In_opt_ LPCVOID            pvProperty
+  _In_     IPC_LICENSE_HANDLE hLicense,
+           BOOL               fDelete,
+           DWORD              dwPropID,
+  _In_opt_ LPCVOID            pvProperty
 );
 ```
 
@@ -75,7 +79,7 @@ A pointer to the license information data to be written. If *fDelete* is false, 
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 Possible values include, but are not limited to, those in the following list.
 
@@ -96,8 +100,8 @@ Action: Do not try to delete the specified property with this function.
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcprot.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -120,9 +124,9 @@ Action: Do not try to delete the specified property with this function.
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

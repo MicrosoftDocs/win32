@@ -4,13 +4,15 @@ description: Represents an add object event. An add object event is generated wh
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f54e1cb0-c51d-456b-bcdb-607dd232dfdb'
-ms.prod: 'windows-server-dev'
+ms.assetid: f54e1cb0-c51d-456b-bcdb-607dd232dfdb
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_EventObjectAdd class", "MSCluster_EventObjectAdd class, described"]
+keywords:
+- MSCluster_EventObjectAdd class
+- MSCluster_EventObjectAdd class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_EventObjectAdd class
@@ -40,7 +45,7 @@ The following syntax is simplified from MOF code, and includes all inherited pro
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{EDECEF0B-A3C7-4edd-BD75-1CF37F5547B8}")]
 class MSCluster_EventObjectAdd : MSCluster_Event
 {
-  uint8  SECURITY_DESCRIPTOR[];
+  uint8  SECURITY_DESCRIPTOR[];
   uint64 TIME_CREATED;
   uint32 EventTypeMajor;
   uint32 EventTypeMinor;
@@ -248,16 +253,16 @@ The **MSCluster\_EventObjectAdd** class is derived from the [**MSCluster\_Event*
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

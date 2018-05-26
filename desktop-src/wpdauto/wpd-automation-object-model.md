@@ -1,8 +1,20 @@
 ---
 title: WPD Automation Object Model
 description: The WPD Automation object model consists of objects that enable developers to work with a subset of the Windows Portable Devices (WPD) API.
-ms.assetid: '0d8cc8ec-197b-4439-814a-0a39c0eb5f94'
-keywords: ["WPD Automation,object model", "WPD Automation,JScript", "WPD Automation,COM Automation", "Windows Portable Devices (WPD),WPD Automation object model", "WPD (Windows Portable Devices),WPD Automation object model", "Windows Portable Devices (WPD),WPD Automation", "WPD (Windows Portable Devices),WPD Automation"]
+ms.assetid: 0d8cc8ec-197b-4439-814a-0a39c0eb5f94
+keywords:
+- WPD Automation,object model
+- WPD Automation,JScript
+- WPD Automation,COM Automation
+- Windows Portable Devices (WPD),WPD Automation object model
+- WPD (Windows Portable Devices),WPD Automation object model
+- Windows Portable Devices (WPD),WPD Automation
+- WPD (Windows Portable Devices),WPD Automation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD Automation Object Model

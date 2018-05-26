@@ -1,8 +1,23 @@
 ---
 title: Querying for Simple Rights Information
 description: Querying for Simple Rights Information
-ms.assetid: '21ed3fb2-35b8-478a-a17e-f6b4da08d50d'
-keywords: ["Windows Media Format SDK,querying for simple rights", "Windows Media Format SDK,simple rights queries", "digital rights management (DRM),querying for simple rights", "DRM (digital rights management),querying for simple rights", "digital rights management (DRM),simple rights queries", "DRM (digital rights management),simple rights queries", "DRM Client Extended APIs,querying for simple rights", "Client Extended APIs,querying for simple rights", "DRM Client Extended APIs,simple rights queries", "Client Extended APIs,simple rights queries"]
+ms.assetid: 21ed3fb2-35b8-478a-a17e-f6b4da08d50d
+keywords:
+- Windows Media Format SDK,querying for simple rights
+- Windows Media Format SDK,simple rights queries
+- digital rights management (DRM),querying for simple rights
+- DRM (digital rights management),querying for simple rights
+- digital rights management (DRM),simple rights queries
+- DRM (digital rights management),simple rights queries
+- DRM Client Extended APIs,querying for simple rights
+- Client Extended APIs,querying for simple rights
+- DRM Client Extended APIs,simple rights queries
+- Client Extended APIs,simple rights queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying for Simple Rights Information

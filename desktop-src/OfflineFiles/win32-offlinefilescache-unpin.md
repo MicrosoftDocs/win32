@@ -1,13 +1,16 @@
 ---
-Description: 'Unpins files, directories, and network shared folders from the Offline Files cache.'
+Description: Unpins files, directories, and network shared folders from the Offline Files cache.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ffc91765-1f11-4679-a532-7bb65c042598'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ffc91765-1f11-4679-a532-7bb65c042598
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Unpin method of the Win32\_OfflineFilesCache class'
+title: Unpin method of the Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Unpin method of the Win32\_OfflineFilesCache class
@@ -21,9 +24,9 @@ When a file is unpinned, it is no longer guaranteed to be available offline. If 
 
 ```mof
 uint32 Unpin(
-  [in] string  Paths[],
-  [in] uint32  Flags,
-  [in] boolean Deep
+  [in] string  Paths[],
+  [in] uint32  Flags,
+  [in] boolean Deep
 );
 ```
 
@@ -190,8 +193,8 @@ If an unpin operation is canceled while in progress, files that have been unpinn
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Cscobj.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
@@ -206,9 +209,9 @@ If an unpin operation is canceled while in progress, files that have been unpinn
 [**Win32\_OfflineFilesCache**](win32-offlinefilescache.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

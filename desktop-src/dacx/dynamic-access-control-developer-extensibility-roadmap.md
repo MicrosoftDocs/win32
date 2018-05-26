@@ -1,19 +1,24 @@
 ---
 title: Dynamic Access Control developer extensibility
-description: The Dynamic Access Control (DAC) scenario, as delivered in Windows Server 2012, has a variety of developer extensibility points that add customization potential for your applications development.
+description: The Dynamic Access Control (DAC) scenario, as delivered in Windows Server 2012, has a variety of developer extensibility points that add customization potential for your applications development.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EDE95808-D6E0-4F03-9BBC-4CD76F159481'
-ms.prod: 'windows-server-dev'
-ms.technology: 'dynamic-access-control'
+ms.assetid: EDE95808-D6E0-4F03-9BBC-4CD76F159481
+ms.prod: windows-server-dev
+ms.technology: dynamic-access-control
 ms.tgt_platform: multiple
-keywords: ["Dynamic Access Control developer extensibility DACx", "Dynamic Access Control developer extensibility DACx , home page"]
+keywords:
+- Dynamic Access Control developer extensibility DACx
+- Dynamic Access Control developer extensibility DACx , home page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Dynamic Access Control developer extensibility
 
-[The Dynamic Access Control (DAC) scenario](https://technet.microsoft.com/library/hh831717.aspx), as delivered in Windows Server 2012, has a variety of developer extensibility points that add customization potential for your applications development. Many of these extensibility points are outlined in this topic, some with additional information and others to be further developed.
+[The Dynamic Access Control (DAC) scenario](https://technet.microsoft.com/library/hh831717.aspx), as delivered in Windows Server 2012, has a variety of developer extensibility points that add customization potential for your applications development. Many of these extensibility points are outlined in this topic, some with additional information and others to be further developed.
 
 -   [Introduction](#introduction)
 -   [Managing Central Access Policies](#managing-central-access-policies)
@@ -48,11 +53,11 @@ For more information on CAPs, see [Dynamic Access Control Scenario: Central Acce
 
 
 
- 
+ 
 
 ## User claim provisioning to Active Directory
 
-In Windows Server 2012, the AD Domain Server maintains a *claims dictionary* in each forest and all claim types in use within the forest are defined at the AD forest level.
+In Windows Server 2012, the AD Domain Server maintains a *claims dictionary* in each forest and all claim types in use within the forest are defined at the AD forest level.
 
 Custom user claims provisioning can be effected programmatically.
 
@@ -64,11 +69,11 @@ Custom user claims provisioning can be effected programmatically.
 
 
 
- 
+ 
 
 ## Creating DAC compatible file classification properties
 
-By creating file classification properties on files in a manner compatible with DAC, Central Access Policies are correctly applied to files that are stored or move to a Windows Server 2012 share.
+By creating file classification properties on files in a manner compatible with DAC, Central Access Policies are correctly applied to files that are stored or move to a Windows Server 2012 share.
 
 
 
@@ -78,7 +83,7 @@ By creating file classification properties on files in a manner compatible with 
 
 
 
- 
+ 
 
 ## Classification-aware applications
 
@@ -95,11 +100,11 @@ Classification-aware applications are applications that create or consume file c
 
 
 
- 
+ 
 
 ## Audit event analysis for compliance reporting and forensic analysis
 
-Security auditing is not new to Windows, it has been around since Windows NT. In Windows Server 2012 and Windows 8 we have made significant improvements to auditing by:
+Security auditing is not new to Windows, it has been around since Windows NT. In Windows Server 2012 and Windows 8 we have made significant improvements to auditing by:
 
 -   Reducing audit volume by introducing expression-based audit policies that help target relevant data
 -   Improving consumption of audit events by adding more metadata to the events which in turn can be consumed by audit analysis tools to enable users get to the most relevant events quickly
@@ -115,11 +120,11 @@ Developers of audit event reporting and analysis tools can leverage these improv
 
 
 
- 
+ 
 
 ## Integrating DAC access and audit policies into applications
 
-Integrating DAC access and audit policies into applications enables those applications to use the new authorization capabilities in Windows Server 2012 so that they can implement scenarios such as centrally managed access control that spans across the application and other data repositories or access control based on conditional expressions and user/device claims.
+Integrating DAC access and audit policies into applications enables those applications to use the new authorization capabilities in Windows Server 2012 so that they can implement scenarios such as centrally managed access control that spans across the application and other data repositories or access control based on conditional expressions and user/device claims.
 
 
 
@@ -130,7 +135,7 @@ Integrating DAC access and audit policies into applications enables those applic
 
 
 
- 
+ 
 
 ## Constructing a plug-in for the File Classification Infrastructure
 
@@ -144,7 +149,7 @@ Constructing a plug-in for the File Classification Infrastructure (FCI) is enabl
 
 
 
- 
+ 
 
 ## Data management for file servers
 
@@ -158,7 +163,7 @@ Data management for file servers provides solutions to manage the vast amount of
 
 
 
- 
+ 
 
 ## DAC How-to topics
 
@@ -210,7 +215,7 @@ Data management for file servers provides solutions to manage the vast amount of
 [FSRM Interfaces](https://msdn.microsoft.com/library/bb625488)
 
 
-[What's New in FSRM in Windows Server 2012](https://msdn.microsoft.com/library/dd392499)
+[What's New in FSRM in Windows Server 2012](https://msdn.microsoft.com/library/dd392499)
 
 
 [Authorization](https://msdn.microsoft.com/library/windows/desktop/aa375769)
@@ -222,9 +227,9 @@ Data management for file servers provides solutions to manage the vast amount of
 [How AccessCheck Works](https://msdn.microsoft.com/library/windows/desktop/aa446683)
 
 
- 
+ 
 
- 
+ 
 
 
 

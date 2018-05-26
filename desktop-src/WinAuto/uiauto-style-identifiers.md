@@ -1,7 +1,7 @@
 ---
 title: Style Identifiers
 description: This set of constants describes the named constants used to identify the visual style of text in a document.
-ms.assetid: 'BC06F8B6-3A2B-46BF-A8A6-6BA69A72738A'
+ms.assetid: BC06F8B6-3A2B-46BF-A8A6-6BA69A72738A
 topic_type:
 - apiref
 api_name:
@@ -26,6 +26,11 @@ api_location:
 - UIAutomationClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Style Identifiers
@@ -42,7 +47,7 @@ This set of constants describes the named constants used to identify the visual 
 
 
 
-A list with bulleted items. Supported starting with Windows 8.1.
+A list with bulleted items. Supported starting with Windows 8.1.
 
 
 </dt> </dl> </dd> <dt>
@@ -211,7 +216,7 @@ Normal style.
 
 
 
-A list with numbered items. Supported starting with Windows 8.1.
+A list with numbered items. Supported starting with Windows 8.1.
 
 
 </dt> </dl> </dd> <dt>
@@ -261,8 +266,8 @@ A title.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>UIAutomationClient.h</dt> </dl> |
 
 
@@ -271,7 +276,7 @@ A title.
 
 <dl> <dt>
 
-[**IStylesProvider::StyleId**](uiauto-istylesprovider-styleid.md)
+[**IStylesProvider::StyleId**](/windows/win32/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_styleid?branch=master)
 </dt> <dt>
 
 [**IUIAutomationStylesPattern::CachedStyleId**](https://msdn.microsoft.com/library/windows/desktop/hh437287)
@@ -283,9 +288,9 @@ A title.
 [UI Automation Support for Textual Content](uiauto-ui-automation-textpattern-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

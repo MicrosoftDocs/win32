@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_Categories
 description: Identifies the UI\_PKEY\_Categories property.
-ms.assetid: '15f97307-ea3d-407a-a276-46b82f81bdbc'
+ms.assetid: 15f97307-ea3d-407a-a276-46b82f81bdbc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_Categories

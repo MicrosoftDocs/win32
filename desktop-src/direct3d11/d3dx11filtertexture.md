@@ -1,8 +1,9 @@
 ---
 title: D3DX11FilterTexture function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, GenerateMipMaps and GenerateMipMaps3D. Generates mipmap chain using a particular texture filter.
-ms.assetid: '52ae3228-f9d7-4944-b49c-55df1816f1f7'
-keywords: ["D3DX11FilterTexture function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Note Instead of using this function, we recommend that you use the DirectXTex library, GenerateMipMaps and GenerateMipMaps3D. Generates mipmap chain using a particular texture filter.
+ms.assetid: 52ae3228-f9d7-4944-b49c-55df1816f1f7
+keywords:
+- D3DX11FilterTexture function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,19 +13,24 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11FilterTexture function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 > [!Note]  
 > Instead of using this function, we recommend that you use the [DirectXTex](http://go.microsoft.com/fwlink/p/?linkid=248926) library, **GenerateMipMaps** and **GenerateMipMaps3D**.
 
- 
+ 
 
 Generates mipmap chain using a particular texture filter.
 
@@ -33,10 +39,10 @@ Generates mipmap chain using a particular texture filter.
 
 ```C++
 HRESULT D3DX11FilterTexture(
-   ID3D11DeviceContext *pContext,
-   ID3D11Resource      *pTexture,
-   UINT                SrcLevel,
-   UINT                MipFilter
+   ID3D11DeviceContext *pContext,
+   ID3D11Resource      *pTexture,
+   UINT                SrcLevel,
+   UINT                MipFilter
 );
 ```
 
@@ -49,18 +55,18 @@ HRESULT D3DX11FilterTexture(
 *pContext* 
 </dt> <dd>
 
-Type: **[**ID3D11DeviceContext**](id3d11devicecontext.md)\***
+Type: **[**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master)\***
 
-A pointer to an [**ID3D11DeviceContext**](id3d11devicecontext.md) object.
+A pointer to an [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) object.
 
 </dd> <dt>
 
 *pTexture* 
 </dt> <dd>
 
-Type: **[**ID3D11Resource**](id3d11resource.md)\***
+Type: **[**ID3D11Resource**](/windows/win32/D3D11/nn-d3d11-id3d11resource?branch=master)\***
 
-The texture object to be filtered. See [**ID3D11Resource**](id3d11resource.md).
+The texture object to be filtered. See [**ID3D11Resource**](/windows/win32/D3D11/nn-d3d11-id3d11resource?branch=master).
 
 </dd> <dt>
 
@@ -106,9 +112,9 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,14 @@
 ---
 title: SERVICE\_NO\_QOS\_SIGNALING
 description: The SERVICE\_NO\_QOS\_SIGNALING service type may be set by the sending or receiving application.
-ms.assetid: '664c586a-dacd-42d7-a43a-b49c2dc1ac31'
-keywords: ["SERVICETYPE_NO_QOS_SIGNALING service type"]
+ms.assetid: 664c586a-dacd-42d7-a43a-b49c2dc1ac31
+keywords:
+- SERVICETYPE_NO_QOS_SIGNALING service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SERVICE\_NO\_QOS\_SIGNALING

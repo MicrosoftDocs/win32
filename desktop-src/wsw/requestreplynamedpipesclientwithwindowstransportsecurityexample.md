@@ -1,7 +1,12 @@
 ---
 title: RequestReplyNamedPipesClientWithWindowsTransportSecurityExample
 description: This example shows a named pipes client that sends request-reply messages with security provided by Windows SSPI transport security. It illustrates the client using security token properties to modify the allowed impersonation level from the default.
-ms.assetid: '50BA8F67-95F4-414A-952C-8AF91C511753'
+ms.assetid: 50BA8F67-95F4-414A-952C-8AF91C511753
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestReplyNamedPipesClientWithWindowsTransportSecurityExample

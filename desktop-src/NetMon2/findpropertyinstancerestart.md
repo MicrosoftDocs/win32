@@ -1,7 +1,12 @@
 ---
-Description: 'Finds the next instance of the property specified by the hProperty parameter.'
-ms.assetid: 'f77cb92b-5936-4349-bf66-643c16e9e0df'
+Description: Finds the next instance of the property specified by the hProperty parameter.
+ms.assetid: f77cb92b-5936-4349-bf66-643c16e9e0df
 title: FindPropertyInstanceRestart function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FindPropertyInstanceRestart function
@@ -13,10 +18,10 @@ The **FindPropertyInstanceRestart** function finds the next instance of the prop
 
 ```C++
 LPPROPERTYINST WINAPI FindPropertyInstanceRestart(
-  _In_ HFRAME         hFrame,
-  _In_ HPROPERTY      hProperty,
-  _In_ LPPROPERTYINST *lpRestartKey,
-  _In_ BOOL           DirForward
+  _In_ HFRAME         hFrame,
+  _In_ HPROPERTY      hProperty,
+  _In_ LPPROPERTYINST *lpRestartKey,
+  _In_ BOOL           DirForward
 );
 ```
 
@@ -72,8 +77,8 @@ If the function is unsuccessful, the return value is **NULL**.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -90,9 +95,9 @@ If the function is unsuccessful, the return value is **NULL**.
 [GetProperty](getproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

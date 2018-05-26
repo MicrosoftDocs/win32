@@ -1,7 +1,12 @@
 ---
-Description: 'The PerformanceAlignWindow method aligns the window position to DWORD boundaries, for maximum performance.'
-ms.assetid: 'e28950bc-2510-45b9-9c9c-c2a9dbc3dc02'
-title: 'CBaseWindow.PerformanceAlignWindow method'
+Description: The PerformanceAlignWindow method aligns the window position to DWORD boundaries, for maximum performance.
+ms.assetid: e28950bc-2510-45b9-9c9c-c2a9dbc3dc02
+title: CBaseWindow.PerformanceAlignWindow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.PerformanceAlignWindow method
@@ -47,9 +52,9 @@ This method aligns the left and top edges of the window to DWORD boundaries, whi
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

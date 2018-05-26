@@ -1,8 +1,11 @@
 ---
 title: IEnumBackgroundCopyFiles GetCount method
 description: Retrieves a count of the number of files in the enumeration.
-ms.assetid: 'EE27679D-3AC0-49DA-992F-8DEA10C21646'
-keywords: ["GetCount method", "GetCount method, IEnumBackgroundCopyFiles interface", "IEnumBackgroundCopyFiles interface, GetCount method"]
+ms.assetid: EE27679D-3AC0-49DA-992F-8DEA10C21646
+keywords:
+- GetCount method
+- GetCount method, IEnumBackgroundCopyFiles interface
+- IEnumBackgroundCopyFiles interface, GetCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumBackgroundCopyFiles::GetCount method
@@ -22,7 +30,7 @@ Retrieves a count of the number of files in the enumeration.
 
 ```C++
 HRESULT GetCount(
-  [out] ULONG *pCount
+  [out] ULONG *pCount
 );
 ```
 
@@ -49,7 +57,7 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -66,9 +74,9 @@ This method returns **S\_OK** on success or one of the standard COM **HRESULT** 
 [**IEnumBackgroundCopyFiles**](ienumbackgroundcopyfiles-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

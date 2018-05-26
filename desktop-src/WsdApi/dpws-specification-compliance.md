@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how WSDAPI implements the elective functionality in the Devices Profile for Web Services (DPWS) specification. It also describes which DPWS functionality was omitted from the WSDAPI implementation.'
-ms.assetid: '54d51e56-8022-4696-b488-4b3a226224d8'
+Description: This topic describes how WSDAPI implements the elective functionality in the Devices Profile for Web Services (DPWS) specification. It also describes which DPWS functionality was omitted from the WSDAPI implementation.
+ms.assetid: 54d51e56-8022-4696-b488-4b3a226224d8
 title: DPWS Specification Compliance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DPWS Specification Compliance

@@ -1,8 +1,16 @@
 ---
 title: Retrieving Information About a Device
 description: Retrieving Information About a Device
-ms.assetid: 'd038d3fb-43d0-4d9d-836c-205f6d8c98e3'
-keywords: ["MCI_GETDEVCAPS command", "MCI_STATUS command", "MCI_INFO command"]
+ms.assetid: d038d3fb-43d0-4d9d-836c-205f6d8c98e3
+keywords:
+- MCI_GETDEVCAPS command
+- MCI_STATUS command
+- MCI_INFO command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Information About a Device

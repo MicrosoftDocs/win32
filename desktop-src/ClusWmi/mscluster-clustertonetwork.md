@@ -4,13 +4,15 @@ description: A dynamic association WMI class that represents the networks the cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3be2c36b-cd10-43ae-aba3-951d1229f36a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3be2c36b-cd10-43ae-aba3-951d1229f36a
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_ClusterToNetwork class", "MSCluster_ClusterToNetwork class, described"]
+keywords:
+- MSCluster_ClusterToNetwork class
+- MSCluster_ClusterToNetwork class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_ClusterToNetwork class
@@ -95,7 +100,7 @@ The **MSCluster\_ClusterToNetwork** class is derived from the [**CIM\_Component*
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -118,9 +123,9 @@ The **MSCluster\_ClusterToNetwork** class is derived from the [**CIM\_Component*
 [**MSCluster\_Network**](mscluster-network.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'These flags identify a surface to reset when calling Clear.'
-ms.assetid: '5d76e9a3-7afc-4db7-bffe-64bc7b9f83ac'
+Description: These flags identify a surface to reset when calling Clear.
+ms.assetid: 5d76e9a3-7afc-4db7-bffe-64bc7b9f83ac
 title: D3DCLEAR
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCLEAR
 
-These flags identify a surface to reset when calling [**Clear**](idirect3ddevice9--clear.md).
+These flags identify a surface to reset when calling [**Clear**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-clear?branch=master).
 
 
 

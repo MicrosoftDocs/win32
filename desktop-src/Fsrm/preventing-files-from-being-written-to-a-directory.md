@@ -4,11 +4,16 @@ description: A file screen restricts the types of files that the system or any u
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f5c4fe49-5cea-4f4a-ba12-e1b8f2361534'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: f5c4fe49-5cea-4f4a-ba12-e1b8f2361534
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , preventing files from being written to a directory", "file screens File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , preventing files from being written to a directory
+- file screens File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Preventing Files From Being Written to a Directory

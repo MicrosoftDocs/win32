@@ -1,7 +1,12 @@
 ---
-Description: 'Expands the IAnalysisRegion to represent an infinite area.'
-ms.assetid: '562f5de5-4a35-404e-a73c-4043d093da98'
-title: 'IAnalysisRegion::MakeInfinite method'
+Description: Expands the IAnalysisRegion to represent an infinite area.
+ms.assetid: 562f5de5-4a35-404e-a73c-4043d093da98
+title: IAnalysisRegionMakeInfinite method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisRegion::MakeInfinite method
@@ -31,7 +36,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -57,9 +62,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

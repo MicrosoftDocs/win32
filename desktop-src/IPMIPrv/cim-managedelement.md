@@ -4,13 +4,15 @@ description: ManagedElement is an abstract class that provides a common supercla
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bd711f5d-1d07-48d5-bc73-d1642887cff9'
-ms.prod: 'windows-server-dev'
+ms.assetid: bd711f5d-1d07-48d5-bc73-d1642887cff9
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ManagedElement class", "CIM_ManagedElement class, described"]
+keywords:
+- CIM_ManagedElement class
+- CIM_ManagedElement class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ManagedElement class
@@ -104,17 +109,17 @@ Note that ManagedSystemElement's Name property is also defined as a user-friendl
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

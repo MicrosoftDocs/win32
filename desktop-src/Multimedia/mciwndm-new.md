@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_NEW message
 description: The MCIWNDM\_NEW message creates a new file for the current MCI device. You can send this message explicitly or by using the MCIWndNew macro.
-ms.assetid: '18b2340d-8303-415a-867f-bd346034db2a'
-keywords: ["MCIWNDM_NEW message Windows Multimedia"]
+ms.assetid: 18b2340d-8303-415a-867f-bd346034db2a
+keywords:
+- MCIWNDM_NEW message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_NEW message
 
-The **MCIWNDM\_NEW** message creates a new file for the current MCI device. You can send this message explicitly or by using the [**MCIWndNew**](mciwndnew.md) macro.
+The **MCIWNDM\_NEW** message creates a new file for the current MCI device. You can send this message explicitly or by using the [**MCIWndNew**](/windows/win32/Vfw/nf-vfw-mciwndnew?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ Returns zero if successful or an error otherwise.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ Returns zero if successful or an error otherwise.
 
 <dl> <dt>
 
-[**MCIWndNew**](mciwndnew.md)
+[**MCIWndNew**](/windows/win32/Vfw/nf-vfw-mciwndnew?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

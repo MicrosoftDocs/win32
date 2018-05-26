@@ -1,7 +1,12 @@
-﻿---
-Description: 'Intersects the specified ray with the given mesh subset. This provides similar functionality to D3DXIntersect.'
-ms.assetid: '4a757b9e-18eb-424e-9f3e-cdf917c23787'
+---
+Description: Intersects the specified ray with the given mesh subset. This provides similar functionality to D3DXIntersect.
+ms.assetid: 4a757b9e-18eb-424e-9f3e-cdf917c23787
 title: D3DXIntersectSubset function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXIntersectSubset function

@@ -1,14 +1,20 @@
 ---
 title: actionsType Complex Type
 description: Defines the child elements and attribute for the Actions element.
-ms.assetid: '01577b65-4bfa-4b9f-b9b9-6b2b0dbd582a'
-keywords: ["actionsType complex type Task Scheduler"]
+ms.assetid: 01577b65-4bfa-4b9f-b9b9-6b2b0dbd582a
+keywords:
+- actionsType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - actionsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # actionsType Complex Type
@@ -46,8 +52,8 @@ Defines the child elements and attribute for the [**Actions**](taskschedulersche
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -61,9 +67,9 @@ Defines the child elements and attribute for the [**Actions**](taskschedulersche
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_NTLogEventLog association WMI class relates a Windows event with a Windows event log file.'
-ms.assetid: 'e746895e-3927-427a-838c-4bdf8d9038fa'
-title: 'Win32\_NTLogEventLog class'
+Description: The Win32\_NTLogEventLog association WMI class relates a Windows event with a Windows event log file.
+ms.assetid: e746895e-3927-427a-838c-4bdf8d9038fa
+title: Win32\_NTLogEventLog class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_NTLogEventLog class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_NTLogEventLog
 {
   Win32_NTEventLogFile REF Log;
-  Win32_NTLogEvent     REF Record;
+  Win32_NTLogEvent     REF Record;
 };
 ```
 
@@ -70,8 +75,8 @@ Reference to the instance representing the event being logged.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -85,9 +90,9 @@ Reference to the instance representing the event being logged.
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

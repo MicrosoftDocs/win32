@@ -1,7 +1,12 @@
 ---
 title: Creating a Troubleshooting Pack
 description: A troubleshooting pack contains the following components.
-ms.assetid: '4d86e628-0d8a-409a-8920-68c5ed9d892b'
+ms.assetid: 4d86e628-0d8a-409a-8920-68c5ed9d892b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Troubleshooting Pack

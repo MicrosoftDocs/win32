@@ -1,7 +1,12 @@
 ---
 title: To split topics in an HTML file
 description: To split topics in an HTML file
-ms.assetid: '6C2CD495-3868-4eb9-BE34-5AB402BECDF6'
+ms.assetid: 6C2CD495-3868-4eb9-BE34-5AB402BECDF6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To split topics in an HTML file

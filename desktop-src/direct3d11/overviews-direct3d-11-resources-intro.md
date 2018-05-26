@@ -1,7 +1,12 @@
 ---
 title: Introduction to a Resource in Direct3D 11
 description: This topic introduces Direct3D resources such as buffers and textures.
-ms.assetid: '9e991ab0-9648-484a-9a2c-5391ee5abf20'
+ms.assetid: 9e991ab0-9648-484a-9a2c-5391ee5abf20
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to a Resource in Direct3D 11
@@ -14,8 +19,8 @@ Direct3D guarantees to return zero for any resource that is accessed out of boun
 
 The lifecycle of a Direct3D resource is:
 
--   Create a resource using one of the create methods of the [**ID3D11Device**](id3d11device.md) interface.
--   Bind a resource to the pipeline using a context and one of the set methods of the [**ID3D11DeviceContext**](id3d11devicecontext.md) interface.
+-   Create a resource using one of the create methods of the [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) interface.
+-   Bind a resource to the pipeline using a context and one of the set methods of the [**ID3D11DeviceContext**](/windows/win32/D3D11/nn-d3d11-id3d11devicecontext?branch=master) interface.
 -   Deallocate a resource by calling the [**Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) method of the resource interface.
 
 This section contains the following topics:
@@ -50,10 +55,10 @@ A view also exposes other capabilities such as the ability to read back depth/st
 
 | Resource Interface                                             | Description                                                                                   |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| [**ID3D11DepthStencilView**](id3d11depthstencilview.md)       | Access a texture resource during depth-stencil testing.                                       |
-| [**ID3D11RenderTargetView**](id3d11rendertargetview.md)       | Access a texture resource that is used as a render-target.                                    |
-| [**ID3D11ShaderResourceView**](id3d11shaderresourceview.md)   | Access a shader resource such as a constant buffer, a texture buffer, a texture or a sampler. |
-| [**ID3D11UnorderedAccessView**](id3d11unorderedaccessview.md) | Access an unordered resource using a pixel shader or a compute shader.                        |
+| [**ID3D11DepthStencilView**](/windows/win32/D3D11/nn-d3d11-id3d11depthstencilview?branch=master)       | Access a texture resource during depth-stencil testing.                                       |
+| [**ID3D11RenderTargetView**](/windows/win32/D3D11/nn-d3d11-id3d11rendertargetview?branch=master)       | Access a texture resource that is used as a render-target.                                    |
+| [**ID3D11ShaderResourceView**](/windows/win32/D3D11/nn-d3d11-id3d11shaderresourceview?branch=master)   | Access a shader resource such as a constant buffer, a texture buffer, a texture or a sampler. |
+| [**ID3D11UnorderedAccessView**](/windows/win32/D3D11/nn-d3d11-id3d11unorderedaccessview?branch=master) | Access an unordered resource using a pixel shader or a compute shader.                        |
 
 
 
@@ -63,12 +68,12 @@ A view also exposes other capabilities such as the ability to read back depth/st
 
 You can think of a raw buffer, which can also be called a [byte address buffer](direct3d-11-advanced-stages-cs-resources.md#byte-address-buffer), as a bag of bits to which you want raw access, that is, a buffer that you can conveniently access through chunks of one to four 32-bit typeless address values. You indicate that you want raw access to a buffer (or, a raw view of a buffer) when you call one of the following methods to create a view to the buffer:
 
--   To create a shader resource view (SRV) to the buffer, call [**ID3D11Device::CreateShaderResourceView**](id3d11device-createshaderresourceview.md) with the flag [**D3D11\_BUFFEREX\_SRV\_FLAG\_RAW**](d3d11-bufferex-srv-flag.md#d3d11-bufferex-srv-flag-raw). You specify this flag in the **Flags** member of the [**D3D11\_BUFFEREX\_SRV**](d3d11-bufferex-srv.md) structure. You set **D3D11\_BUFFEREX\_SRV** in the **BufferEx** member of the [**D3D11\_SHADER\_RESOURCE\_VIEW\_DESC**](d3d11-shader-resource-view-desc.md) structure to which the *pDesc* parameter of **ID3D11Device::CreateShaderResourceView** points. You also set the [**D3D11\_SRV\_DIMENSION\_BUFFEREX**](d3d11-srv-dimension.md#d3d11-srv-dimension-bufferex) value in the **ViewDimension** member of **D3D11\_SHADER\_RESOURCE\_VIEW\_DESC** to indicate that the SRV is a raw view.
--   To create an unordered access view (UAV) to the buffer, call [**ID3D11Device::CreateUnorderedAccessView**](id3d11device-createunorderedaccessview.md) with the flag [**D3D11\_BUFFER\_UAV\_FLAG\_RAW**](d3d11-buffer-uav-flag.md#d3d11-buffer-uav-flag-raw). You specify this flag in the **Flags** member of the [**D3D11\_BUFFER\_UAV**](d3d11-buffer-uav.md) structure. You set **D3D11\_BUFFER\_UAV** in the **Buffer** member of the [**D3D11\_UNORDERED\_ACCESS\_VIEW\_DESC**](d3d11-unordered-access-view-desc.md) structure to which the *pDesc* parameter of **ID3D11Device::CreateUnorderedAccessView** points. You also set the [**D3D11\_UAV\_DIMENSION\_BUFFER**](d3d11-uav-dimension.md#d3d11-uav-dimension-buffer) value in the **ViewDimension** member of **D3D11\_UNORDERED\_ACCESS\_VIEW\_DESC** to indicate that the UAV is a raw view.
+-   To create a shader resource view (SRV) to the buffer, call [**ID3D11Device::CreateShaderResourceView**](/windows/win32/D3D11/nf-d3d11-id3d11device-createshaderresourceview?branch=master) with the flag [**D3D11\_BUFFEREX\_SRV\_FLAG\_RAW**](d3d11-bufferex-srv-flag.md#d3d11-bufferex-srv-flag-raw). You specify this flag in the **Flags** member of the [**D3D11\_BUFFEREX\_SRV**](/windows/win32/D3D11/ns-d3d11-d3d11_bufferex_srv?branch=master) structure. You set **D3D11\_BUFFEREX\_SRV** in the **BufferEx** member of the [**D3D11\_SHADER\_RESOURCE\_VIEW\_DESC**](/windows/win32/d3d11/ns-d3d11-d3d11_shader_resource_view_desc?branch=master) structure to which the *pDesc* parameter of **ID3D11Device::CreateShaderResourceView** points. You also set the [**D3D11\_SRV\_DIMENSION\_BUFFEREX**](d3d11-srv-dimension.md#d3d11-srv-dimension-bufferex) value in the **ViewDimension** member of **D3D11\_SHADER\_RESOURCE\_VIEW\_DESC** to indicate that the SRV is a raw view.
+-   To create an unordered access view (UAV) to the buffer, call [**ID3D11Device::CreateUnorderedAccessView**](/windows/win32/D3D11/nf-d3d11-id3d11device-createunorderedaccessview?branch=master) with the flag [**D3D11\_BUFFER\_UAV\_FLAG\_RAW**](d3d11-buffer-uav-flag.md#d3d11-buffer-uav-flag-raw). You specify this flag in the **Flags** member of the [**D3D11\_BUFFER\_UAV**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_uav?branch=master) structure. You set **D3D11\_BUFFER\_UAV** in the **Buffer** member of the [**D3D11\_UNORDERED\_ACCESS\_VIEW\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_unordered_access_view_desc?branch=master) structure to which the *pDesc* parameter of **ID3D11Device::CreateUnorderedAccessView** points. You also set the [**D3D11\_UAV\_DIMENSION\_BUFFER**](d3d11-uav-dimension.md#d3d11-uav-dimension-buffer) value in the **ViewDimension** member of **D3D11\_UNORDERED\_ACCESS\_VIEW\_DESC** to indicate that the UAV is a raw view.
 
 You can use the HLSL [**ByteAddressBuffer**](https://msdn.microsoft.com/library/windows/desktop/ff471453) and [**RWByteAddressBuffer**](https://msdn.microsoft.com/library/windows/desktop/ff471475) object types when you work with raw buffers.
 
-To create a raw view to a buffer, you must first call [**ID3D11Device::CreateBuffer**](id3d11device-createbuffer.md) with the [**D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS**](d3d11-resource-misc-flag.md#d3d11-resource-misc-buffer-allow-raw-views) flag to create the underlying buffer resource. You specify this flag in the **MiscFlags** member of the [**D3D11\_BUFFER\_DESC**](d3d11-buffer-desc.md) structure to which the *pDesc* parameter of **ID3D11Device::CreateBuffer** points. You can't combine the **D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS** flag with [**D3D11\_RESOURCE\_MISC\_BUFFER\_STRUCTURED**](d3d11-resource-misc-flag.md#d3d11-resource-misc-buffer-structured). Also, if you specify [**D3D11\_BIND\_CONSTANT\_BUFFER**](d3d11-bind-flag.md#d3d11-bind-constant-buffer) in **BindFlags** of **D3D11\_BUFFER\_DESC**, you can't also specify **D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS** in **MiscFlags**. This is not a limitation of just raw views because constant buffers already have a constraint that they can't be combined with any other view.
+To create a raw view to a buffer, you must first call [**ID3D11Device::CreateBuffer**](/windows/win32/D3D11/nf-d3d11-id3d11device-createbuffer?branch=master) with the [**D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS**](d3d11-resource-misc-flag.md#d3d11-resource-misc-buffer-allow-raw-views) flag to create the underlying buffer resource. You specify this flag in the **MiscFlags** member of the [**D3D11\_BUFFER\_DESC**](/windows/win32/D3D11/ns-d3d11-d3d11_buffer_desc?branch=master) structure to which the *pDesc* parameter of **ID3D11Device::CreateBuffer** points. You can't combine the **D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS** flag with [**D3D11\_RESOURCE\_MISC\_BUFFER\_STRUCTURED**](d3d11-resource-misc-flag.md#d3d11-resource-misc-buffer-structured). Also, if you specify [**D3D11\_BIND\_CONSTANT\_BUFFER**](d3d11-bind-flag.md#d3d11-bind-constant-buffer) in **BindFlags** of **D3D11\_BUFFER\_DESC**, you can't also specify **D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS** in **MiscFlags**. This is not a limitation of just raw views because constant buffers already have a constraint that they can't be combined with any other view.
 
 Other than the preceding invalid cases, when you create a buffer with [**D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS**](d3d11-resource-misc-flag.md#d3d11-resource-misc-buffer-allow-raw-views), you aren't limited in functionality versus not setting **D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS**. That is, you can use such a buffer for non-raw access in any number of ways that are possible with Direct3D. If you specify the **D3D11\_RESOURCE\_MISC\_BUFFER\_ALLOW\_RAW\_VIEWS** flag, you only increase the available functionality.
 

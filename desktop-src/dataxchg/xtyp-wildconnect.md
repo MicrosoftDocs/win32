@@ -1,8 +1,9 @@
 ---
 title: XTYP\_WILDCONNECT transaction
-description: Enables a client to establish a conversation on each of the server's service name and topic name pairs that match the specified service name and topic name.
-ms.assetid: '4651e14f-ca13-412e-853d-326a13db78e4'
-keywords: ["XTYP_WILDCONNECT transaction Data Exchange"]
+description: Enables a client to establish a conversation on each of the servers service name and topic name pairs that match the specified service name and topic name.
+ms.assetid: 4651e14f-ca13-412e-853d-326a13db78e4
+keywords:
+- XTYP_WILDCONNECT transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_WILDCONNECT transaction
 
-Enables a client to establish a conversation on each of the server's service name and topic name pairs that match the specified service name and topic name. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies a **NULL** service name, a **NULL** topic name, or both in a call to the [**DdeConnect**](ddeconnect.md) or [**DdeConnectList**](ddeconnectlist.md) function.
+Enables a client to establish a conversation on each of the server's service name and topic name pairs that match the specified service name and topic name. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies a **NULL** service name, a **NULL** topic name, or both in a call to the [**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master) or [**DdeConnectList**](/windows/win32/Ddeml/nf-ddeml-ddeconnectlist?branch=master) function.
 
 
 ```C++
@@ -75,7 +81,7 @@ Not used.
 *dwData1* 
 </dt> <dd>
 
-A pointer to a [**CONVCONTEXT**](convcontext-str.md) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is set to 0.
+A pointer to a [**CONVCONTEXT**](/windows/win32/Ddeml/ns-ddeml-tagconvcontext?branch=master) structure that contains context information for the conversation. If the client is not a DDEML application, this parameter is set to 0.
 
 </dd> <dt>
 
@@ -88,13 +94,13 @@ Specifies whether the client is the same application instance as the server. If 
 
 ## Return value
 
-The server should return a data handle that identifies an array of [**HSZPAIR**](hszpair.md) structures. The array should contain one structure for each service-name and topic-name pair that matches the service-name and topic-name pair requested by the client. The array must be terminated by a **NULL** string handle. The system sends the [**XTYP\_CONNECT\_CONFIRM**](xtyp-connect-confirm.md) transaction to the server to confirm each conversation and to pass the conversation handles to the server. The server will not receive these confirmations if it specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+The server should return a data handle that identifies an array of [**HSZPAIR**](/windows/win32/Ddeml/ns-ddeml-taghszpair?branch=master) structures. The array should contain one structure for each service-name and topic-name pair that matches the service-name and topic-name pair requested by the client. The array must be terminated by a **NULL** string handle. The system sends the [**XTYP\_CONNECT\_CONFIRM**](xtyp-connect-confirm.md) transaction to the server to confirm each conversation and to pass the conversation handles to the server. The server will not receive these confirmations if it specified the **CBF\_SKIP\_CONNECT\_CONFIRMS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 The server should return **NULL** to refuse the **XTYP\_WILDCONNECT** transaction.
 
 ## Remarks
 
-This transaction is filtered if the server application specified the **CBF\_FAIL\_CONNECTIONS** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the server application specified the **CBF\_FAIL\_CONNECTIONS** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 A server cannot block this transaction type; the CBR\_BLOCK return code is ignored.
 
@@ -104,8 +110,8 @@ A server cannot block this transaction type; the CBR\_BLOCK return code is ignor
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -117,16 +123,16 @@ A server cannot block this transaction type; the CBR\_BLOCK return code is ignor
 **Reference**
 </dt> <dt>
 
-[**CONVCONTEXT**](convcontext-str.md)
+[**CONVCONTEXT**](/windows/win32/Ddeml/ns-ddeml-tagconvcontext?branch=master)
 </dt> <dt>
 
-[**DdeConnect**](ddeconnect.md)
+[**DdeConnect**](/windows/win32/Ddeml/nf-ddeml-ddeconnect?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
-[**HSZPAIR**](hszpair.md)
+[**HSZPAIR**](/windows/win32/Ddeml/ns-ddeml-taghszpair?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -135,9 +141,9 @@ A server cannot block this transaction type; the CBR\_BLOCK return code is ignor
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

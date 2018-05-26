@@ -1,7 +1,12 @@
 ---
-Description: 'This class is the event type class for ALPC send message events. The following syntax is simplified from MOF code.'
-ms.assetid: '7f12259b-f737-4bef-9dea-2ffe3517e0da'
-title: 'ALPC\_Send\_Message class'
+Description: This class is the event type class for ALPC send message events. The following syntax is simplified from MOF code.
+ms.assetid: 7f12259b-f737-4bef-9dea-2ffe3517e0da
+title: ALPC\_Send\_Message class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ALPC\_Send\_Message class
@@ -51,14 +56,14 @@ Message identifier.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

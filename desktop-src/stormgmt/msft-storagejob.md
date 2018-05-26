@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StorageJob class
 description: Represents a storage job.
-ms.assetid: '71DC2B71-3F39-488F-B9D0-01E65354BF7C'
-keywords: ["MSFT_StorageJob class Windows Storage Management API", "MSFT_StorageJob class Windows Storage Management API , described"]
+ms.assetid: 71DC2B71-3F39-488F-B9D0-01E65354BF7C
+keywords:
+- MSFT_StorageJob class Windows Storage Management API
+- MSFT_StorageJob class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StorageJob class
@@ -48,25 +55,25 @@ Storage jobs represent long running operations on a storage subsystem. These ope
 ``` syntax
 class MSFT_StorageJob : MSFT_StorageObject
 {
-  String   Name;
-  String   Description;
+  String   Name;
+  String   Description;
   Datetime ElapsedTime;
-  UInt16   ErrorCode;
-  String   ErrorDescription;
-  UInt16   JobState;
-  String   JobStatus;
-  UInt16   LocalOrUtcTime;
-  UInt16   OperationalStatus[];
-  String   StatusDescriptions[];
-  UInt16   PercentComplete;
+  UInt16   ErrorCode;
+  String   ErrorDescription;
+  UInt16   JobState;
+  String   JobStatus;
+  UInt16   LocalOrUtcTime;
+  UInt16   OperationalStatus[];
+  String   StatusDescriptions[];
+  UInt16   PercentComplete;
   Datetime StartTime;
   Datetime TimeBeforeRemoval;
   Datetime TimeOfLastStateChange;
   Datetime TimeSubmitted;
-  Boolean  DeleteOnCompletion;
-  Boolean  IsBackgroundTask;
-  UInt16   RecoveryAction;
-  String   OtherRecoveryAction;
+  Boolean  DeleteOnCompletion;
+  Boolean  IsBackgroundTask;
+  UInt16   RecoveryAction;
+  String   OtherRecoveryAction;
 };
 ```
 
@@ -90,7 +97,7 @@ The **MSFT\_StorageJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -323,7 +330,7 @@ Indicates the current status of each storage subsystem that is participating in 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -379,7 +386,7 @@ Describes the recovery action to be taken for an unsuccessfully run job. One of 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -454,8 +461,8 @@ The time when the job was submitted for execution. A value of all zeros indicate
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -468,9 +475,9 @@ The time when the job was submitted for execution. A value of all zeros indicate
 [**MSFT\_StorageObject**](msft-storageobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

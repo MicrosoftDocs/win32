@@ -1,8 +1,9 @@
 ---
 title: XTYP\_ADVSTART transaction
 description: A client uses the XTYP\_ADVSTART transaction to establish an advise loop with a server.
-ms.assetid: '8911e722-5656-4ca6-8b0a-6bdf8281611a'
-keywords: ["XTYP_ADVSTART transaction Data Exchange"]
+ms.assetid: 8911e722-5656-4ca6-8b0a-6bdf8281611a
+keywords:
+- XTYP_ADVSTART transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_ADVSTART transaction
 
-A client uses the **XTYP\_ADVSTART** transaction to establish an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_ADVSTART** as the *wType* parameter of the [**DdeClientTransaction**](ddeclienttransaction.md) function.
+A client uses the **XTYP\_ADVSTART** transaction to establish an advise loop with a server. A Dynamic Data Exchange (DDE) server callback function, [*DdeCallback*](ddecallback.md), receives this transaction when a client specifies **XTYP\_ADVSTART** as the *wType* parameter of the [**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master) function.
 
 
 ```C++
@@ -87,13 +93,13 @@ Not used.
 
 ## Return value
 
-A server callback function should return **TRUE** to allow an advise loop on the specified topic name and item name pair, or **FALSE** to deny the advise loop. If the callback function returns **TRUE**, any subsequent calls to the [**DdePostAdvise**](ddepostadvise.md) function by the server on the same topic name and item name pair causes the system to send [**XTYP\_ADVREQ**](xtyp-advreq.md) transactions to the server.
+A server callback function should return **TRUE** to allow an advise loop on the specified topic name and item name pair, or **FALSE** to deny the advise loop. If the callback function returns **TRUE**, any subsequent calls to the [**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master) function by the server on the same topic name and item name pair causes the system to send [**XTYP\_ADVREQ**](xtyp-advreq.md) transactions to the server.
 
 ## Remarks
 
 If a client requests an advise loop on a topic name, item name, and data format for an advise loop that is already established, the Dynamic Data Exchange Management Library (DDEML) does not create a duplicate advise loop but instead alters the advise loop flags (**XTYPF\_ACKREQ** and **XTYPF\_NODATA**) to match the latest request.
 
-This transaction is filtered if the server application specified the **CBF\_FAIL\_ADVISES** flag in the [**DdeInitialize**](ddeinitialize.md) function.
+This transaction is filtered if the server application specified the **CBF\_FAIL\_ADVISES** flag in the [**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master) function.
 
 ## Requirements
 
@@ -101,8 +107,8 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -114,13 +120,13 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 **Reference**
 </dt> <dt>
 
-[**DdeClientTransaction**](ddeclienttransaction.md)
+[**DdeClientTransaction**](/windows/win32/Ddeml/nf-ddeml-ddeclienttransaction?branch=master)
 </dt> <dt>
 
-[**DdeInitialize**](ddeinitialize.md)
+[**DdeInitialize**](/windows/win32/Ddeml/nf-ddeml-ddeinitializea?branch=master)
 </dt> <dt>
 
-[**DdePostAdvise**](ddepostadvise.md)
+[**DdePostAdvise**](/windows/win32/Ddeml/nf-ddeml-ddepostadvise?branch=master)
 </dt> <dt>
 
 **Conceptual**
@@ -129,9 +135,9 @@ This transaction is filtered if the server application specified the **CBF\_FAIL
 [Dynamic Data Exchange Management Library](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

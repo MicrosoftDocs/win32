@@ -1,14 +1,21 @@
 ---
 title: TABLESCHEMA structure
 description: Do not use. Describes the schema of a database table.
-ms.assetid: '6b2b0a9b-ee64-48fe-93ee-522668149a5d'
-keywords: ["TABLESCHEMA structure Windows Mail (formerly Outlook Express)", "LPTABLESCHEMA structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 6b2b0a9b-ee64-48fe-93ee-522668149a5d
+keywords:
+- TABLESCHEMA structure Windows Mail (formerly Outlook Express)
+- LPTABLESCHEMA structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
 - TABLESCHEMA
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TABLESCHEMA structure
@@ -20,18 +27,18 @@ Do not use. Describes the schema of a database table.
 
 ```C++
 typedef struct tagTABLESCHEMA {
-  LPVOID           pReserved;
-  DWORD            cbBinding;
-  DWORD            ofMemory;
-  DWORD            ofVersion;
-  DWORD            dwReserved;
+  LPVOID           pReserved;
+  DWORD            cbBinding;
+  DWORD            ofMemory;
+  DWORD            ofVersion;
+  DWORD            dwReserved;
   TABLESCHEMAFLAGS dwFlags;
-  DWORD            cbUserData;
-  DWORD            ofUniqueId;
-  BYTE             cColumns;
-  LPCTABLECOLUMN   prgColumn;
-  LPCTABLEINDEX    pPrimaryIndex;
-  LPCSYMBOLTABLE   pSymbols;
+  DWORD            cbUserData;
+  DWORD            ofUniqueId;
+  BYTE             cColumns;
+  LPCTABLECOLUMN   prgColumn;
+  LPCTABLEINDEX    pPrimaryIndex;
+  LPCSYMBOLTABLE   pSymbols;
 } TABLESCHEMA, *LPTABLESCHEMA;
 ```
 
@@ -179,15 +186,15 @@ The array of symbols for this table.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 | Product<br/>                  | Outlook Express 6.0<br/>                       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

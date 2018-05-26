@@ -1,8 +1,9 @@
 ---
 title: D3DDisassemble11Trace function
 description: Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.
-ms.assetid: '983D5530-E220-42BE-9210-16E5A789CEE1'
-keywords: ["D3DDisassemble11Trace function HLSL"]
+ms.assetid: 983D5530-E220-42BE-9210-16E5A789CEE1
+keywords:
+- D3DDisassemble11Trace function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DCompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DDisassemble11Trace function
@@ -21,13 +27,13 @@ Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) c
 
 ``` syntax
 HRESULT WINAPI D3DDisassemble11Trace(
-  in  LPCVOID pSrcData,
-  in  SIZE_T SrcDataSize,
-  in  ID3D11ShaderTrace pTrace,
-  in  UINT StartStep,
-  in  UINT NumSteps,
-  in  UINT Flags,
-  out ID3DBlob ppDisassembly
+  in  LPCVOID pSrcData,
+  in  SIZE_T SrcDataSize,
+  in  ID3D11ShaderTrace pTrace,
+  in  UINT StartStep,
+  in  UINT NumSteps,
+  in  UINT Flags,
+  out ID3DBlob ppDisassembly
 );
 ```
 
@@ -101,7 +107,7 @@ A combination of zero or more of the following flags that are combined by using 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,7 +133,7 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 > [!Note]  
 > The D3dcompiler\_44.dll or later version of the file contains the **D3DDisassemble11Trace** compiler function.
 
- 
+ 
 
 ## Requirements
 
@@ -148,9 +154,9 @@ Returns one of the [Direct3D 11 return codes](https://msdn.microsoft.com/library
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

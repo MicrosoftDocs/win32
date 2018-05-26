@@ -1,8 +1,11 @@
 ---
 title: IRASTransport EditConnectoid method
 description: Displays a dialog box for editing the specified remote access phonebook entry.
-ms.assetid: '32d99bcb-d36a-4da2-addb-baffe9a382f7'
-keywords: ["EditConnectoid method Windows Mail (formerly Outlook Express)", "EditConnectoid method Windows Mail (formerly Outlook Express) , IRASTransport interface", "IRASTransport interface Windows Mail (formerly Outlook Express) , EditConnectoid method"]
+ms.assetid: 32d99bcb-d36a-4da2-addb-baffe9a382f7
+keywords:
+- EditConnectoid method Windows Mail (formerly Outlook Express)
+- EditConnectoid method Windows Mail (formerly Outlook Express) , IRASTransport interface
+- IRASTransport interface Windows Mail (formerly Outlook Express) , EditConnectoid method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRASTransport::EditConnectoid method
@@ -24,9 +32,9 @@ Displays a dialog box for editing the specified remote access phonebook entry.
 
 ```C++
 HRESULT EditConnectoid(
-  [in]  HWND  hwndParent,
-  [in]  LPSTR pszConnectoid,
-  [out] DWORD *pdwRASResult
+  [in]  HWND  hwndParent,
+  [in]  LPSTR pszConnectoid,
+  [out] DWORD *pdwRASResult
 );
 ```
 
@@ -79,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,8 +95,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -96,9 +104,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

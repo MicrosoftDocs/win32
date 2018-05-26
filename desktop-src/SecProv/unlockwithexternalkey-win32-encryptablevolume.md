@@ -1,7 +1,12 @@
-﻿---
-Description: 'Uses a provided external key to access the contents of a data volume.'
-ms.assetid: 'e383767e-8557-469c-bc44-f67591c46f23'
-title: 'UnlockWithExternalKey method of the Win32\_EncryptableVolume class'
+---
+Description: Uses a provided external key to access the contents of a data volume.
+ms.assetid: e383767e-8557-469c-bc44-f67591c46f23
+title: UnlockWithExternalKey method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnlockWithExternalKey method of the Win32\_EncryptableVolume class

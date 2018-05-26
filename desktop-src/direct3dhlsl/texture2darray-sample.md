@@ -1,12 +1,18 @@
 ---
 title: Texture2DArray Sample methods
 description: Samples a Texture2DArray.
-ms.assetid: '30798438-3599-49DD-8E84-40CEB4AA9BEB'
-keywords: ["Sample methods HLSL"]
+ms.assetid: 30798438-3599-49DD-8E84-40CEB4AA9BEB
+keywords:
+- Sample methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2DArray::Sample methods
@@ -32,9 +38,9 @@ Samples a [**Texture2DArray**](sm5-object-texture2darray.md).
 [Texture2DArray](sm5-object-texture2darray.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

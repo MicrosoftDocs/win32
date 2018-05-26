@@ -1,8 +1,11 @@
 ---
 title: IMimePropertySet GetParameters method
 description: Gets the parameters that are associated with a property. Not all properties support parameters.
-ms.assetid: 'a8409186-3ead-482d-8d20-f888574f4b49'
-keywords: ["GetParameters method Windows Mail (formerly Outlook Express)", "GetParameters method Windows Mail (formerly Outlook Express) , IMimePropertySet interface", "IMimePropertySet interface Windows Mail (formerly Outlook Express) , GetParameters method"]
+ms.assetid: a8409186-3ead-482d-8d20-f888574f4b49
+keywords:
+- GetParameters method Windows Mail (formerly Outlook Express)
+- GetParameters method Windows Mail (formerly Outlook Express) , IMimePropertySet interface
+- IMimePropertySet interface Windows Mail (formerly Outlook Express) , GetParameters method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimePropertySet::GetParameters method
@@ -22,9 +30,9 @@ Gets the parameters that are associated with a property. Not all properties supp
 
 ```C++
 HRESULT GetParameters(
-  [in]  LPCSTR          pszName,
-  [out] ULONG           *pcParams,
-  [out] LPMIMEPARAMINFO *pprgParam
+  [in]  LPCSTR          pszName,
+  [out] ULONG           *pcParams,
+  [out] LPMIMEPARAMINFO *pprgParam
 );
 ```
 
@@ -79,7 +87,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,8 +99,8 @@ A property ID can also be passed into this method through the *pszName* paramete
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -100,9 +108,9 @@ A property ID can also be passed into this method through the *pszName* paramete
 
 
 
- 
+ 
 
- 
+ 
 
 
 

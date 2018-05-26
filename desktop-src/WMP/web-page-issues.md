@@ -1,8 +1,28 @@
 ---
 title: Web Page Issues
 description: Web Page Issues
-ms.assetid: 'fd97540e-21e9-443e-99ec-ed29f4a2570a'
-keywords: ["Windows Media metafile playlists,Web pages", "playlists,Web pages", "metafile playlists,Web pages", "Windows Media metafile playlists,customizing HTMLView", "playlists,customizing HTMLView", "metafile playlists,customizing HTMLView", "Windows Media metafile playlists,HTMLView customizing", "playlists,HTMLView customizing", "metafile playlists,HTMLView customizing", "customizing HTMLView", "Windows Media Player,Web pages", "Windows Media Player,customizing HTMLView", "Windows Media Player,HTMLView customizing", "HTMLView,customizing", "HTMLView,Web pages"]
+ms.assetid: fd97540e-21e9-443e-99ec-ed29f4a2570a
+keywords:
+- Windows Media metafile playlists,Web pages
+- playlists,Web pages
+- metafile playlists,Web pages
+- Windows Media metafile playlists,customizing HTMLView
+- playlists,customizing HTMLView
+- metafile playlists,customizing HTMLView
+- Windows Media metafile playlists,HTMLView customizing
+- playlists,HTMLView customizing
+- metafile playlists,HTMLView customizing
+- customizing HTMLView
+- Windows Media Player,Web pages
+- Windows Media Player,customizing HTMLView
+- Windows Media Player,HTMLView customizing
+- HTMLView,customizing
+- HTMLView,Web pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Page Issues

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '2a159e29-c501-4721-9478-aa201454a415'
-title: 'System.Importance'
+Description: .
+ms.assetid: 2a159e29-c501-4721-9478-aa201454a415
+title: System.Importance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Importance

@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a MSFT\_NetNeighbor object for a new TCP/IP neighbor.'
-ms.assetid: '31e7a7bd-83b0-4da0-809d-a5ba8940a9fc'
-title: 'Create method of the MSFT\_NetNeighbor class'
+Description: Creates a MSFT\_NetNeighbor object for a new TCP/IP neighbor.
+ms.assetid: 31e7a7bd-83b0-4da0-809d-a5ba8940a9fc
+title: Create method of the MSFT\_NetNeighbor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create method of the MSFT\_NetNeighbor class
@@ -13,15 +18,15 @@ Creates a [**MSFT\_NetNeighbor**](msft-netneighbor.md) object for a new TCP/IP n
 
 ```mof
 uint32 Create(
-  [in]  uint32           InterfaceIndex,
-  [in]  string           InterfaceAlias,
-  [in]  string           IPAddress,
-  [in]  string           PolicyStore,
-  [in]  string           LinkLayerAddress,
-  [in]  uint8            State,
-  [in]  uint16           AddressFamily,
-  [in]  boolean          PassThru,
-  [out] MSFT_NetNeighbor CmdletOutput[]
+  [in]  uint32           InterfaceIndex,
+  [in]  string           InterfaceAlias,
+  [in]  string           IPAddress,
+  [in]  string           PolicyStore,
+  [in]  string           LinkLayerAddress,
+  [in]  uint8            State,
+  [in]  uint16           AddressFamily,
+  [in]  boolean          PassThru,
+  [out] MSFT_NetNeighbor CmdletOutput[]
 );
 ```
 
@@ -85,7 +90,7 @@ Specifies the discovery state of the neighbor. You can specify one of the follow
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,7 +108,7 @@ Specifies the address family of the neighbor. You can specify one of the followi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,8 +132,8 @@ Receives the new [**MSFT\_NetNeighbor**](msft-netneighbor.md) object.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -142,9 +147,9 @@ Receives the new [**MSFT\_NetNeighbor**](msft-netneighbor.md) object.
 [**MSFT\_NetNeighbor**](msft-netneighbor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Specifies the highest possible version of the Cluster service with 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '915ad936-1bd1-4402-8acc-32a58b8d41d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 915ad936-1bd1-4402-8acc-32a58b8d41d2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["NodeHighestVersion Failover Cluster ,for nodes", "NodeHighestVersion Failover Cluster"]
+keywords:
+- NodeHighestVersion Failover Cluster ,for nodes
+- NodeHighestVersion Failover Cluster
 topic_type:
 - apiref
 api_name:
 - NodeHighestVersion
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NodeHighestVersion
@@ -27,14 +32,14 @@ Specifies the highest possible version of the [Cluster service](cluster-service.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0x000100E0                                |
 | Maximum   | 0xFFFFFFF                                 |
 | Default   | Varies                                    |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ The value of **NodeHighestVersion** is set when the Cluster service is installed
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -58,18 +63,18 @@ The value of **NodeHighestVersion** is set when the Cluster service is installed
 [**NodeLowestVersion**](nodes-nodelowestversion.md)
 </dt> <dt>
 
-[**CLUSTERVERSIONINFO**](clusterversioninfo.md)
+[**CLUSTERVERSIONINFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clusterversioninfo?branch=master)
 </dt> <dt>
 
-[**GetClusterInformation**](getclusterinformation.md)
+[**GetClusterInformation**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_information?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: About New Documentation for this Release
 description: The Microsoft HTML Help 1.3 release contains the following new and updated documentation components.
-ms.assetid: 'EB5066C9-ABC9-4750-BC11-99F493F19570'
+ms.assetid: EB5066C9-ABC9-4750-BC11-99F493F19570
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About New Documentation for this Release

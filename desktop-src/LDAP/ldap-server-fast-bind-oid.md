@@ -4,11 +4,15 @@ description: Used internally by the LDAP\_OPT\_FAST\_CONCURRENT\_BIND session op
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8b69d0b4-77cb-442d-9865-fcea41e8ff9d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 8b69d0b4-77cb-442d-9865-fcea41e8ff9d
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["LDAP_SERVER_FAST_BIND_OID LDAP"]
+keywords:
+- LDAP_SERVER_FAST_BIND_OID LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # LDAP\_SERVER\_FAST\_BIND\_OID

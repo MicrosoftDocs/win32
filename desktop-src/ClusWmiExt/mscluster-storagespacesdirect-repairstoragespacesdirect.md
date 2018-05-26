@@ -4,13 +4,16 @@ description: Repairs Storage Spaces Direct.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6c89c7ee-8eb7-495c-bedd-a466f27bc1f0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6c89c7ee-8eb7-495c-bedd-a466f27bc1f0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RepairStorageSpacesDirect method", "RepairStorageSpacesDirect method, MSCluster_StorageSpacesDirect class", "MSCluster_StorageSpacesDirect class, RepairStorageSpacesDirect method"]
+keywords:
+- RepairStorageSpacesDirect method
+- RepairStorageSpacesDirect method, MSCluster_StorageSpacesDirect class
+- MSCluster_StorageSpacesDirect class, RepairStorageSpacesDirect method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RepairStorageSpacesDirect method of the MSCluster\_StorageSpacesDirect class
@@ -30,8 +36,8 @@ Repairs Storage Spaces Direct
 
 ```mof
 uint32 RepairStorageSpacesDirect(
-  [in] boolean SkipDiskRecovery,
-  [in] boolean DisableStorageMaintenanceMode
+  [in] boolean SkipDiskRecovery,
+  [in] boolean DisableStorageMaintenanceMode
 );
 ```
 
@@ -62,7 +68,7 @@ True to disable storage maintenance mode on all storage devices. False to skip t
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -76,9 +82,9 @@ True to disable storage maintenance mode on all storage devices. False to skip t
 [**MSCluster\_StorageSpacesDirect**](mscluster-storagespacesdirect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

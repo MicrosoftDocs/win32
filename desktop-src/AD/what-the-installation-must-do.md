@@ -4,11 +4,15 @@ description: New attributes referenced in Step 3 must be referred to by its OID 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '57da8740-7646-4ca9-ba8d-832e4f520b13'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 57da8740-7646-4ca9-ba8d-832e4f520b13
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["What the Installation Must Do AD"]
+keywords:
+- What the Installation Must Do AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What the Installation Must Do

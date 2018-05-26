@@ -1,14 +1,19 @@
-﻿---
-Description: 'SFVM\_GETPANE may be altered or unavailable.'
-ms.assetid: '9621b921-e97f-4219-953a-7c961a81c379'
-title: 'SFVM\_GETPANE message'
+---
+Description: SFVM\_GETPANE may be altered or unavailable.
+ms.assetid: 9621b921-e97f-4219-953a-7c961a81c379
+title: SFVM\_GETPANE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_GETPANE message
 
 \[**SFVM\_GETPANE** is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.\]
 
-Allows the callback object to provide the status bar pane in which to display the Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Allows the callback object to provide the status bar pane in which to display the Internet zone information. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

@@ -4,11 +4,12 @@ description: Supplies properties for users and their granted rights.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.UserRights'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.UserRights
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserRights class"]
+keywords:
+- UserRights class
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserRights class
@@ -51,7 +55,7 @@ The **UserRights** class has these constructors.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -66,7 +70,7 @@ The **UserRights** class has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,9 +93,9 @@ The **UserRights** class has these properties.
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics contain documentation for the Simple MAPI functions.'
-ms.assetid: '68dd1ec1-d02c-4b42-8939-80e878fc3b21'
+Description: The following topics contain documentation for the Simple MAPI functions.
+ms.assetid: 68dd1ec1-d02c-4b42-8939-80e878fc3b21
 title: Simple MAPI Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Simple MAPI Functions
@@ -10,20 +15,20 @@ title: Simple MAPI Functions
 
 The following topics contain documentation for the Simple MAPI functions.
 
--   [**MAPIAddress**](mapiaddress.md)
--   [**MAPIDeleteMail**](mapideletemail.md)
--   [**MAPIDetails**](mapidetails.md)
--   [**MAPIFindNext**](mapifindnext.md)
--   [**MAPIFreeBuffer**](mapifreebuffer.md)
--   [**MAPILogoff**](mapilogoff.md)
--   [**MAPILogon**](mapilogon.md)
--   [**MAPIReadMail**](mapireadmail.md)
--   [**MAPIResolveName**](mapiresolvename.md)
--   [**MAPISaveMail**](mapisavemail.md)
--   [**MAPISendDocuments**](mapisenddocuments.md)
--   [**MAPISendMail**](mapisendmail.md)
--   [**MAPISendMailHelper**](mapisendmailhelper.md)
--   [**MAPISendMailW**](mapisendmailw.md)
+-   [**MAPIAddress**](/windows/win32/Mapi/nc-mapi-mapiaddress?branch=master)
+-   [**MAPIDeleteMail**](/windows/win32/Mapi/nc-mapi-mapideletemail?branch=master)
+-   [**MAPIDetails**](/windows/win32/Mapi/nc-mapi-mapidetails?branch=master)
+-   [**MAPIFindNext**](/windows/win32/Mapi/nc-mapi-mapifindnext?branch=master)
+-   [**MAPIFreeBuffer**](/windows/win32/wabmem/nf-mapi-mapifreebuffer?branch=master)
+-   [**MAPILogoff**](/windows/win32/Mapi/nc-mapi-mapilogoff?branch=master)
+-   [**MAPILogon**](/windows/win32/Mapi/nc-mapi-mapilogon?branch=master)
+-   [**MAPIReadMail**](/windows/win32/Mapi/nc-mapi-mapireadmail?branch=master)
+-   [**MAPIResolveName**](/windows/win32/Mapi/nc-mapi-mapiresolvename?branch=master)
+-   [**MAPISaveMail**](/windows/win32/Mapi/nc-mapi-mapisavemail?branch=master)
+-   [**MAPISendDocuments**](/windows/win32/Mapi/nc-mapi-mapisenddocuments?branch=master)
+-   [**MAPISendMail**](/windows/win32/Mapi/nc-mapi-mapisendmail?branch=master)
+-   [**MAPISendMailHelper**](/windows/win32/mapiUnicodeHelp/nf-mapiunicodehelp-mapisendmailhelper?branch=master)
+-   [**MAPISendMailW**](/windows/win32/Mapi/nc-mapi-mapisendmailw?branch=master)
 
 ## Related topics
 

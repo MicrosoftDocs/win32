@@ -1,7 +1,12 @@
 ---
-Description: 'An Error dialog box is a modal dialog box box that displays an error message. More than one Error dialog box can exist in each installation.'
-ms.assetid: '11d4fe8b-ec5f-4576-95e5-c86344f0195c'
+Description: An Error dialog box is a modal dialog box box that displays an error message. More than one Error dialog box can exist in each installation.
+ms.assetid: 11d4fe8b-ec5f-4576-95e5-c86344f0195c
 title: Error Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Dialog

@@ -1,12 +1,17 @@
 ---
 title: Names in IStorage
 description: A property set is identified with a format identifier (FMTID) in the IPropertySetStorage interface.
-ms.assetid: '5f8eba37-c589-413e-9971-7ecb01dc6734'
+ms.assetid: 5f8eba37-c589-413e-9971-7ecb01dc6734
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Names in IStorage
 
-A property set is identified with a format identifier (FMTID) in the [**IPropertySetStorage**](ipropertysetstorage.md) interface. In the [**IStorage**](istorage.md) interface, a property set is named with a null-terminated Unicode string with a maximum length of 32 characters. To enable interoperability, a mapping between an FMTID and a corresponding null-terminated Unicode string must be established.
+A property set is identified with a format identifier (FMTID) in the [**IPropertySetStorage**](/windows/win32/Propidl/nn-propidl-ipropertysetstorage?branch=master) interface. In the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) interface, a property set is named with a null-terminated Unicode string with a maximum length of 32 characters. To enable interoperability, a mapping between an FMTID and a corresponding null-terminated Unicode string must be established.
 
 ## Converting a property set from a FMTID to a string name
 
@@ -19,12 +24,12 @@ When converting from an FMTID to a corresponding Unicode string name, first veri
 
 
 
- 
+ 
 
 > [!Note]  
 > The **DocumentSummaryInformation** and **UserDefined** property set is unique in that it contains two sections. Multiple sections are not permitted in any other property set. For more information, see [Structured Storage Serialized Property Set Format](structured-storage-serialized-property-set-format.md), and [The DocumentSummaryInformation and UserDefined Property Sets](the-documentsummaryinformation-and-userdefined-property-sets.md). The first section was defined as part of COM; the second was defined by Microsoft Office.
 
- 
+ 
 
 If the FMTID is not a well-known value, then use the following procedure to algorithmically form a string name.
 
@@ -211,13 +216,13 @@ fail:
 
 
 
-When attempting to open an existing property set, in [IPropertySetStorage::Open](ipropertysetstorage-open.md), the (root) FMTID is converted to a string as described above. If an element of the [**IStorage**](istorage.md) of that name exists, it is used. Otherwise, the open fails.
+When attempting to open an existing property set, in [IPropertySetStorage::Open](/windows/win32/Propidl/nf-propidl-ipropertysetstorage-open?branch=master), the (root) FMTID is converted to a string as described above. If an element of the [**IStorage**](/windows/win32/Objidl/nn-objidl-istorage?branch=master) of that name exists, it is used. Otherwise, the open fails.
 
 When creating a new property set, the above mapping determines the string name used.
 
- 
+ 
 
- 
+ 
 
 
 

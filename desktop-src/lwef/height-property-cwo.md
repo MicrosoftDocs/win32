@@ -1,7 +1,12 @@
 ---
 title: Height Property
 description: Height Property
-ms.assetid: 'ca273dcd-2973-4813-b98b-b7dab3fb842c'
+ms.assetid: ca273dcd-2973-4813-b98b-b7dab3fb842c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Height Property

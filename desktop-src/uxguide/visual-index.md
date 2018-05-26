@@ -1,7 +1,12 @@
 ---
 title: Visual Index
 description: Visual examples of many user interface elements discussed in UX Guide.
-ms.assetid: 'be99bf83-dcd7-44df-be0d-b1b17305a2d6'
+ms.assetid: be99bf83-dcd7-44df-be0d-b1b17305a2d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual Index
@@ -48,7 +53,7 @@ This index is divided into the following sections:
 
 
 
- 
+ 
 
 ## Commands
 
@@ -62,7 +67,7 @@ This index is divided into the following sections:
 
 
 
- 
+ 
 
 ## Pointers
 
@@ -76,7 +81,7 @@ This index is divided into the following sections:
 
 
 
- 
+ 
 
 ## Windows
 
@@ -91,7 +96,7 @@ This index is divided into the following sections:
 
 
 
- 
+ 
 
 ## Windows Environment
 
@@ -107,7 +112,7 @@ This index is divided into the following sections:
 
 
 
- 
+ 
 
 ## Visuals
 
@@ -121,11 +126,11 @@ This index is divided into the following sections:
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

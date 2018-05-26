@@ -4,11 +4,12 @@ description: The property method of the IGPMBackupDir interface gets the propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '303bdd12-9c45-4722-a737-da318e84a735'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 303bdd12-9c45-4722-a737-da318e84a735
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMBackupDir Property Methods GPMC"]
+keywords:
+- IGPMBackupDir Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMBackupDir Property Methods
 
-The property method of the [**IGPMBackupDir**](igpmbackupdir.md) interface gets the property that is described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the Active Directory Service Interfaces (ADSI) documentation.
+The property method of the [**IGPMBackupDir**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackupdir?branch=master) interface gets the property that is described in the following table. For a general discussion of property methods, see [**Interface Property Methods**](https://msdn.microsoft.com/library/aa746378) in the Active Directory Service Interfaces (ADSI) documentation.
 
 ## Properties
 
@@ -54,7 +58,7 @@ HRESULT get_BackupDirectory(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Requirements
 
@@ -62,8 +66,8 @@ HRESULT get_BackupDirectory(
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -75,18 +79,18 @@ HRESULT get_BackupDirectory(
 
 <dl> <dt>
 
-[**IGPMBackupDir**](igpmbackupdir.md)
+[**IGPMBackupDir**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackupdir?branch=master)
 </dt> <dt>
 
-[**IGPMBackup**](igpmbackup.md)
+[**IGPMBackup**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackup?branch=master)
 </dt> <dt>
 
-[**IGPMBackupCollection**](igpmbackupcollection.md)
+[**IGPMBackupCollection**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmbackupcollection?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Lock to protect the creation of objects inside the filter.'
-ms.assetid: 'ad1d2584-0d9e-42a8-83ea-0c1907ddcf33'
-title: 'CBaseRenderer::m\_ObjectCreationLock member'
+Description: Lock to protect the creation of objects inside the filter.
+ms.assetid: ad1d2584-0d9e-42a8-83ea-0c1907ddcf33
+title: CBaseRendererm\_ObjectCreationLock member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer::m\_ObjectCreationLock member
@@ -35,9 +40,9 @@ CCritSec m_ObjectCreationLock;
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

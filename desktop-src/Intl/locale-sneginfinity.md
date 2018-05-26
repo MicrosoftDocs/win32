@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_SNEGINFINITY'
-ms.assetid: '06e4b7dc-fc31-45e5-908a-50d693b20351'
-title: 'LOCALE\_SNEGINFINITY'
+Description: LOCALE\_SNEGINFINITY
+ms.assetid: 06e4b7dc-fc31-45e5-908a-50d693b20351
+title: LOCALE\_SNEGINFINITY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_SNEGINFINITY

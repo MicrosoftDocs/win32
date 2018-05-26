@@ -1,6 +1,11 @@
 ---
-Description: 'This section describes how to determine which version of the Shell DLLs your application is running on and how to target your application for a specific version.'
+Description: This section describes how to determine which version of the Shell DLLs your application is running on and how to target your application for a specific version.
 title: Shell and Shlwapi DLL Versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shell and Shlwapi DLL Versions
@@ -106,18 +111,18 @@ Windows XP and Windows Vista
 
 ## Using DllGetVersion to Determine the Version Number
 
-Starting with version 4.71, the Shell DLLs, among others, began exporting [**DllGetVersion**](dllgetversion.md). This function can be called by an application to determine which DLL version is present on the system.
+Starting with version 4.71, the Shell DLLs, among others, began exporting [**DllGetVersion**](/windows/win32/Shlwapi/nc-shlwapi-dllgetversionproc?branch=master). This function can be called by an application to determine which DLL version is present on the system.
 
 > [!Note]  
-> DLLs do not necessarily export [**DllGetVersion**](dllgetversion.md). Always test for it before attempting to use it.
+> DLLs do not necessarily export [**DllGetVersion**](/windows/win32/Shlwapi/nc-shlwapi-dllgetversionproc?branch=master). Always test for it before attempting to use it.
 
  
 
-For Windows versions earlier than Windows 2000, [**DllGetVersion**](dllgetversion.md) returns a [**DLLVERSIONINFO**](dllversioninfo-0rjh.md) structure that contains the major and minor version numbers, the build number, and a platform ID. For Windows 2000 and later systems, **DllGetVersion** might instead return a [**DLLVERSIONINFO2**](dllversioninfo2-0rjh.md) structure. In addition to the information provided through **DLLVERSIONINFO**, **DLLVERSIONINFO2**also provides the hotfix number that identifies the latest installed service pack, which provides a more robust way to compare version numbers. Because the first member of **DLLVERSIONINFO2** is a **DLLVERSIONINFO** structure, the later structure is backward-compatible.
+For Windows versions earlier than Windows 2000, [**DllGetVersion**](/windows/win32/Shlwapi/nc-shlwapi-dllgetversionproc?branch=master) returns a [**DLLVERSIONINFO**](/windows/win32/Shlwapi/ns-shlwapi-_dllversioninfo?branch=master) structure that contains the major and minor version numbers, the build number, and a platform ID. For Windows 2000 and later systems, **DllGetVersion** might instead return a [**DLLVERSIONINFO2**](/windows/win32/Shlwapi/ns-shlwapi-_dllversioninfo2?branch=master) structure. In addition to the information provided through **DLLVERSIONINFO**, **DLLVERSIONINFO2**also provides the hotfix number that identifies the latest installed service pack, which provides a more robust way to compare version numbers. Because the first member of **DLLVERSIONINFO2** is a **DLLVERSIONINFO** structure, the later structure is backward-compatible.
 
 ### Using DllGetVersion
 
-The following sample function `GetVersion` loads a specified DLL and attempts to call its [**DllGetVersion**](dllgetversion.md) function. If successful, it uses a macro to pack the major and minor version numbers from the [**DLLVERSIONINFO**](dllversioninfo-0rjh.md) structure into a **DWORD** that is returned to the calling application. If the DLL does not export **DllGetVersion**, the function returns zero. With Windows 2000 and later systems, you can modify the function to handle the possibility that **DllGetVersion** returns a [**DLLVERSIONINFO2**](dllversioninfo2-0rjh.md) structure. If so, use the information in that **DLLVERSIONINFO2** structure's **ullVersion** member to compare versions, build numbers, and service pack releases. The [**MAKEDLLVERULL**](makedllverull.md) macro simplifies the task of comparing these values to those in **ullVersion**.
+The following sample function `GetVersion` loads a specified DLL and attempts to call its [**DllGetVersion**](/windows/win32/Shlwapi/nc-shlwapi-dllgetversionproc?branch=master) function. If successful, it uses a macro to pack the major and minor version numbers from the [**DLLVERSIONINFO**](/windows/win32/Shlwapi/ns-shlwapi-_dllversioninfo?branch=master) structure into a **DWORD** that is returned to the calling application. If the DLL does not export **DllGetVersion**, the function returns zero. With Windows 2000 and later systems, you can modify the function to handle the possibility that **DllGetVersion** returns a [**DLLVERSIONINFO2**](/windows/win32/Shlwapi/ns-shlwapi-_dllversioninfo2?branch=master) structure. If so, use the information in that **DLLVERSIONINFO2** structure's **ullVersion** member to compare versions, build numbers, and service pack releases. The [**MAKEDLLVERULL**](/windows/win32/Shlwapi/nf-shlwapi-makedllverull?branch=master) macro simplifies the task of comparing these values to those in **ullVersion**.
 
 > [!Note]  
 > Using [**LoadLibrary**](base.loadlibrary) incorrectly can pose security risks. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.

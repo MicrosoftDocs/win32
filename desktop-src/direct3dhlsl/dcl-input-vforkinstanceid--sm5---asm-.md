@@ -1,7 +1,12 @@
 ---
 title: dcl\_input vForkInstanceID (sm5 - asm)
 description: Declare the instance ID in a hull shader fork phase.
-ms.assetid: 'AA73E8B6-C6D7-4483-B46E-C733341F552C'
+ms.assetid: AA73E8B6-C6D7-4483-B46E-C733341F552C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dcl\_input vForkInstanceID (sm5 - asm)
@@ -15,7 +20,7 @@ Declare the instance ID in a hull shader fork phase.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Declare the instance ID in a hull shader fork phase.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -39,7 +44,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -58,7 +63,7 @@ This instruction is supported in the following shader models:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -67,9 +72,9 @@ This instruction is supported in the following shader models:
 [Shader Model 5 Assembly (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

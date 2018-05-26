@@ -1,7 +1,12 @@
 ---
-Description: 'The Concert feature file of the original product, MNP2000, contains an error in the Concert.txt file.'
-ms.assetid: '4289bd0c-bdf3-4747-9287-94f737ce4f5c'
+Description: The Concert feature file of the original product, MNP2000, contains an error in the Concert.txt file.
+ms.assetid: 4289bd0c-bdf3-4747-9287-94f737ce4f5c
 title: Planning a Small Update Patch
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Planning a Small Update Patch

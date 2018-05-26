@@ -1,8 +1,9 @@
 ---
 title: PBM\_SETMARQUEE message
 description: Sets the progress bar to marquee mode. This causes the progress bar to move like a marquee.
-ms.assetid: '6501bcb9-a711-470f-874f-f3484d3613b6'
-keywords: ["PBM_SETMARQUEE message Windows Controls"]
+ms.assetid: 6501bcb9-a711-470f-874f-f3484d3613b6
+keywords:
+- PBM_SETMARQUEE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_SETMARQUEE message
@@ -44,12 +50,12 @@ Send the **PBM\_SETMARQUEE** message to start or stop the animation.
 > [!Note]  
 > You must set the control style to [**PBS\_MARQUEE**](progress-bar-control-styles.md#pbs-marquee) before attempting to start the animation.
 
- 
+ 
 
 > [!Note]  
 > This message requires ComCtl32.dll version 6.00 or later.
 
- 
+ 
 
 ## Requirements
 
@@ -57,15 +63,15 @@ Send the **PBM\_SETMARQUEE** message to start or stop the animation.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Teletype or telecommunication device number of the contact.'
-ms.assetid: '75df5341-9297-4c4c-bab3-2d1fcbf66f82'
-title: 'System.Contact.TTYTDDTelephone'
+Description: Teletype or telecommunication device number of the contact.
+ms.assetid: 75df5341-9297-4c4c-bab3-2d1fcbf66f82
+title: System.Contact.TTYTDDTelephone
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.TTYTDDTelephone

@@ -1,8 +1,10 @@
 ---
 title: TaskSettings object
 description: A scripting object that provides the settings that the Task Scheduler service uses to perform the task.
-ms.assetid: '203264d1-f67c-45ba-931b-206d7f57a2a6'
-keywords: ["TaskSettings object Task Scheduler", "TaskSettings object Task Scheduler , described"]
+ms.assetid: 203264d1-f67c-45ba-931b-206d7f57a2a6
+keywords:
+- TaskSettings object Task Scheduler
+- TaskSettings object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings object
@@ -54,7 +61,7 @@ The **TaskSettings** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -72,8 +79,8 @@ For more information and a code example for this scripting object, see [Time Tri
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -95,9 +102,9 @@ For more information and a code example for this scripting object, see [Time Tri
 [**IdleSettings**](idlesettings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

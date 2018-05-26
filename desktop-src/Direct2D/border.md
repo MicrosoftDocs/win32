@@ -1,8 +1,14 @@
 ---
 title: Border effect
 description: Use the border effect to extend an image from the edges.
-ms.assetid: 'D3D569F5-9496-4633-93E2-26665FFC3B37'
-keywords: ["border effect"]
+ms.assetid: D3D569F5-9496-4633-93E2-26665FFC3B37
+keywords:
+- border effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Border effect
@@ -27,7 +33,7 @@ The examples here show the output of the border effect using each mode. The outp
 
 
 
- 
+ 
 
 ### Clamp
 
@@ -41,7 +47,7 @@ The examples here show the output of the border effect using each mode. The outp
 
 
 
- 
+ 
 
 ### Wrap
 
@@ -55,7 +61,7 @@ The examples here show the output of the border effect using each mode. The outp
 
 
 
- 
+ 
 
 
 ```C++
@@ -84,7 +90,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Edge modes
 
@@ -98,7 +104,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -110,25 +116,25 @@ The output bitmap size is infinite for all inputs, except a 0 sized input image.
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

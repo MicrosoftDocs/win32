@@ -1,7 +1,12 @@
 ---
-Description: 'The property proxy for the System.GPS.ImgDirection photo metadata policy.'
-ms.assetid: '735e7a00-78f9-4384-aec7-8caa1fdb3ac3'
-title: 'System.GPS.ImgDirection Proxy'
+Description: The property proxy for the System.GPS.ImgDirection photo metadata policy.
+ms.assetid: 735e7a00-78f9-4384-aec7-8caa1fdb3ac3
+title: System.GPS.ImgDirection Proxy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.ImgDirection Proxy

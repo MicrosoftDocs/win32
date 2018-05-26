@@ -1,6 +1,11 @@
-﻿---
-Description: 'Notifies you that a menu band has been created.'
-title: 'SMC\_CREATE message'
+---
+Description: Notifies you that a menu band has been created.
+title: SMC\_CREATE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_CREATE message
@@ -23,7 +28,7 @@ SMC_CREATE
 *psmd* 
 </dt> <dd>
 
-A pointer to the **pvUserData** member of an [**SMDATA**](smdata.md) structure.
+A pointer to the **pvUserData** member of an [**SMDATA**](/windows/win32/Shobjidl_core/ns-shobjidl_core-tagsmdata?branch=master) structure.
 
 </dd> </dl>
 
@@ -33,7 +38,7 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method.
 
 ## Requirements
 

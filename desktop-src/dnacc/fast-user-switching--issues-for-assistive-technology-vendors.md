@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '42aaf4ab-2727-42a9-ad37-ed898b03415d'
-title: 'Fast User Switching: Issues for Assistive Technology Vendors'
+ms.assetid: 42aaf4ab-2727-42a9-ad37-ed898b03415d
+title: Fast User Switching Issues for Assistive Technology Vendors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fast User Switching: Issues for Assistive Technology Vendors

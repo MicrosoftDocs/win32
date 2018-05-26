@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the BLOB pattern match filter.'
-ms.assetid: '44e7c67a-f430-4d68-bc7f-f6bbd5b9e5a9'
+Description: Sets the BLOB pattern match filter.
+ms.assetid: 44e7c67a-f430-4d68-bc7f-f6bbd5b9e5a9
 title: SetNPPPatternFilterInBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetNPPPatternFilterInBlob function
@@ -13,9 +18,9 @@ The **SetNPPPatternFilterInBlob** function sets the BLOB pattern match filter.
 
 ```C++
 DWORD SetNPPPatternFilterInBlob(
-  _In_  HBLOB        hBlob,
-  _In_  LPEXPRESSION pExpression,
-  _Out_ HBLOB        hErrorBlob
+  _In_  HBLOB        hBlob,
+  _In_  LPEXPRESSION pExpression,
+  _Out_ HBLOB        hErrorBlob
 );
 ```
 
@@ -62,8 +67,8 @@ The pattern match filter data stored in the **Config** category of the BLOB.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -101,9 +106,9 @@ The pattern match filter data stored in the **Config** category of the BLOB.
 [SetStringInBlob](setstringinblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

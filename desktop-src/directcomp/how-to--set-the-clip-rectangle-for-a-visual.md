@@ -1,7 +1,12 @@
 ---
 title: How to clip with a rectangle clip object
 description: This topic demonstrates how to use a rectangle clip object to clip a visual or visual tree.
-ms.assetid: '377EF49A-F9F2-4A72-9D22-DEC33803AD0D'
+ms.assetid: 377EF49A-F9F2-4A72-9D22-DEC33803AD0D
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to clip with a rectangle clip object
@@ -37,7 +42,7 @@ For more information, see [How to initialize DirectComposition](initialize-direc
 
 ### Step 2: Create the rectangle clip object
 
-Use the [**IDCompositionDevice::CreateRectangleClip**](idcompositiondevice-createrectangleclip.md) method to create an instance of the rectangle clip object.
+Use the [**IDCompositionDevice::CreateRectangleClip**](/windows/win32/Dcomp/?branch=master) method to create an instance of the rectangle clip object.
 
 
 ```C++
@@ -54,7 +59,7 @@ Use the [**IDCompositionDevice::CreateRectangleClip**](idcompositiondevice-creat
 
 ### Step 3: Set the properties of the rectangle clip object
 
-Call the methods of the rectangle clip object's [**IDCompositionRectangleClip**](idcompositionrectangleclip.md) interface to set the properties of the clip rectangle.
+Call the methods of the rectangle clip object's [**IDCompositionRectangleClip**](/windows/win32/Dcomp/?branch=master) interface to set the properties of the clip rectangle.
 
 The following example defines a clip rectangle that is centered around the current mouse location. The `m_offsetX` and `m_offsetY` member variables contain the values of the OffsetX and OffsetY properties of the visual.
 
@@ -79,16 +84,16 @@ The following example defines a clip rectangle that is centered around the curre
 
 
 
-Note that the [**IDCompositionRectangleClip**](idcompositionrectangleclip.md) interface includes the following methods for defining a clip rectangle that has rounded corners:
+Note that the [**IDCompositionRectangleClip**](/windows/win32/Dcomp/?branch=master) interface includes the following methods for defining a clip rectangle that has rounded corners:
 
--   [**SetTopLeftRadiusX**](idcompositionrectangleclip-settopleftradiusx.md)
--   [**SetTopLeftRadiusY**](idcompositionrectangleclip-settopleftradiusy.md)
--   [**SetTopRightRadiusX**](idcompositionrectangleclip-settoprightradiusx.md)
--   [**SetTopRightRadiusY**](idcompositionrectangleclip-settoprightradiusy.md)
+-   [**SetTopLeftRadiusX**](/windows/win32/Dcomp/nf-dcomp-settopleftradiusx?branch=master)
+-   [**SetTopLeftRadiusY**](/windows/win32/Dcomp/nf-dcomp-settopleftradiusy?branch=master)
+-   [**SetTopRightRadiusX**](/windows/win32/Dcomp/nf-dcomp-settoprightradiusx?branch=master)
+-   [**SetTopRightRadiusY**](/windows/win32/Dcomp/nf-dcomp-settoprightradiusy?branch=master)
 
 ### Step 4: Set the Clip property of the visual
 
-Use the [**IDCompositionVisual::SetClip**](idcompositionvisual-setclip-idcompositionclip.md) method to associate the Clip property of the visual with the rectangle clip object.
+Use the [**IDCompositionVisual::SetClip**](/windows/win32/Dcomp/?branch=master) method to associate the Clip property of the visual with the rectangle clip object.
 
 
 ```C++
@@ -104,7 +109,7 @@ Use the [**IDCompositionVisual::SetClip**](idcompositionvisual-setclip-idcomposi
 
 ### Step 5: Commit the composition
 
-Call the [**IDCompositionDevice::Commit**](idcompositiondevice-commit.md) method to commit the batch of commands to Microsoft DirectComposition for processing. The result of applying the clip rectangle appears in the target window.
+Call the [**IDCompositionDevice::Commit**](/windows/win32/Dcomp/?branch=master) method to commit the batch of commands to Microsoft DirectComposition for processing. The result of applying the clip rectangle appears in the target window.
 
 
 ```C++

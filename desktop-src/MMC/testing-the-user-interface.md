@@ -4,11 +4,15 @@ description: Provides test guidelines for the GUI.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8a8f802a-36de-4a09-926b-24ea504d3dfa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 8a8f802a-36de-4a09-926b-24ea504d3dfa
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["snap-in testing MMC , testing the UI"]
+keywords:
+- snap-in testing MMC , testing the UI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Testing the User Interface

@@ -1,7 +1,12 @@
 ---
 title: Handles
 description: As many as two parts in the format string description of a procedure address handles.
-ms.assetid: 'ba049369-6c8b-4313-a266-e0364a30056e'
+ms.assetid: ba049369-6c8b-4313-a266-e0364a30056e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handles

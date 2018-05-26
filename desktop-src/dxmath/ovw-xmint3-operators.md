@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMINT3 structure exposes the following operators.'
-ms.assetid: '4c78cb57-52e7-4a06-91d9-2fb3f73a0f0e'
+---
+Description: The XMINT3 structure exposes the following operators.
+ms.assetid: 4c78cb57-52e7-4a06-91d9-2fb3f73a0f0e
 title: XMINT3 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMINT3 Operators
 
-The [**XMINT3**](xmint3.md) structure exposes the following operators.
+The [**XMINT3**](/windows/win32/DirectXMath/?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -35,7 +40,7 @@ The [**XMINT3**](xmint3.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMINT3**](xmint3.md)
+[**XMINT3**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

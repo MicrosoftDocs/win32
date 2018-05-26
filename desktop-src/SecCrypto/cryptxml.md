@@ -1,7 +1,12 @@
 ---
-Description: 'CryptXML provides a low level set of native APIs that implement XML digital signature creation and verification based on the XML Signature Syntax and Processing (Second Edition) W3C recommendation.'
-ms.assetid: 'f0662a35-0c8c-4d9b-8a40-832df78c753f'
+Description: CryptXML provides a low level set of native APIs that implement XML digital signature creation and verification based on the XML Signature Syntax and Processing (Second Edition) W3C recommendation.
+ms.assetid: f0662a35-0c8c-4d9b-8a40-832df78c753f
 title: CryptXML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CryptXML

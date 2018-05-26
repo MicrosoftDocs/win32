@@ -1,7 +1,12 @@
-﻿---
-Description: 'Pointer to the common UI callback function to add, delete, or set user data.'
-ms.assetid: 'EFA26AD2-39F6-44B9-9D40-732D22858339'
+---
+Description: Pointer to the common UI callback function to add, delete, or set user data.
+ms.assetid: EFA26AD2-39F6-44B9-9D40-732D22858339
 title: PFNCOMPROPSHEET callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PFNCOMPROPSHEET callback function

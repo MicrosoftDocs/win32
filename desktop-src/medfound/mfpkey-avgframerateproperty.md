@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the average frame rate of video content, in frames per second.'
-ms.assetid: '59a7cb76-77f2-4698-831a-8777aa982d3f'
-title: 'MFPKEY\_AVGFRAMERATE Property'
+---
+Description: Specifies the average frame rate of video content, in frames per second.
+ms.assetid: 59a7cb76-77f2-4698-831a-8777aa982d3f
+title: MFPKEY\_AVGFRAMERATE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_AVGFRAMERATE Property

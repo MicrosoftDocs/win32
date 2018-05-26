@@ -1,7 +1,12 @@
 ---
-Description: 'The CABINETDLLVERSIONINFO contains the version information for Cabinet.dll.'
-ms.assetid: '1dc6962c-3087-4f56-8b65-fbf55e17eeb6'
+Description: The CABINETDLLVERSIONINFO contains the version information for Cabinet.dll.
+ms.assetid: 1dc6962c-3087-4f56-8b65-fbf55e17eeb6
 title: CABINETDLLVERSIONINFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CABINETDLLVERSIONINFO structure

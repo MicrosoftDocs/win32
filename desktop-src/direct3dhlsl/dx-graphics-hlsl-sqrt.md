@@ -1,14 +1,20 @@
 ---
 title: sqrt
 description: Returns the square root of the specified floating-point value, per component.
-ms.assetid: 'e8debc60-1441-4974-9ab3-6d1c2217caaf'
-keywords: ["sqrt HLSL"]
+ms.assetid: e8debc60-1441-4974-9ab3-6d1c2217caaf
+keywords:
+- sqrt HLSL
 topic_type:
 - apiref
 api_name:
 - sqrt
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # sqrt
@@ -22,7 +28,7 @@ Returns the square root of the specified floating-point value, per component.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Returns the square root of the specified floating-point value, per component.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -51,7 +57,7 @@ The square root of the *x* parameter, per component.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -66,7 +72,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -75,9 +81,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

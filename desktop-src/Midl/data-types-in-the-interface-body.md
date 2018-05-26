@@ -2,7 +2,13 @@
 title: Data Types in the Interface Body
 description: The interface body, which is enclosed in braces ( ), contains the data types that will be used in remote procedure calls and prototypes for the functions that will be executed remotely.
 ms.assetid: a5130744-6b14-48a4-b439-16f0ecaf08c2
-keywords: ["interfaces MIDL , data types"]
+keywords:
+- interfaces MIDL , data types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Types in the Interface Body

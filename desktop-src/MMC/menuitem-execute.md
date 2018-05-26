@@ -4,11 +4,16 @@ description: The Execute method executes the context menu item command.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5ae3957a-c4d6-4f1e-b0df-f4ed6bd60ca5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 5ae3957a-c4d6-4f1e-b0df-f4ed6bd60ca5
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Execute method MMC", "Execute method MMC , MenuItem object", "MenuItem object MMC , Execute method", "Execute method MMC , MenuItem interface", "MenuItem interface MMC , Execute method"]
+keywords:
+- Execute method MMC
+- Execute method MMC , MenuItem object
+- MenuItem object MMC , Execute method
+- Execute method MMC , MenuItem interface
+- MenuItem interface MMC , Execute method
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MenuItem::Execute method
@@ -57,8 +65,8 @@ objMenuItem.Execute
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -73,9 +81,9 @@ objMenuItem.Execute
 [**Application.OnContextMenuExecuted**](application-oncontextmenuexecuted.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

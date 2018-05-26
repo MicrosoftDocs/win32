@@ -4,10 +4,13 @@ description: This section contains best practices for accomplishing various basi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '59EEAC92-64A7-40F2-A25D-E2271FB18314'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 59EEAC92-64A7-40F2-A25D-E2271FB18314
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to use CDXML

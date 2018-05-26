@@ -2,7 +2,13 @@
 title: The Header Files
 description: The interface header file (Name.h) contains type definitions and function declarations based on the interface definition in the current IDL file, as well as all the data types and operations declared in the files included with the \ include directive.
 ms.assetid: 81fac1fa-6bd7-4a3e-8aa6-5104d4b25b55
-keywords: ["header files MIDL"]
+keywords:
+- header files MIDL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Header Files

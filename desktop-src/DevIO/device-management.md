@@ -1,7 +1,12 @@
 ---
-Description: 'Device management notifies all applications and system features of changes that may affect their operation or access to resources.'
-ms.assetid: '07cfde25-6e46-47fa-a810-0f6b482981fd'
+Description: Device management notifies all applications and system features of changes that may affect their operation or access to resources.
+ms.assetid: 07cfde25-6e46-47fa-a810-0f6b482981fd
 title: Device Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Management

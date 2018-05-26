@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the height of the source rectangle, in pixels.'
-ms.assetid: '418bcd69-9dde-4bc3-9897-f465d12536a1'
-title: 'MFPKEY\_RESIZE\_SRC\_HEIGHT Property'
+---
+Description: Specifies the height of the source rectangle, in pixels.
+ms.assetid: 418bcd69-9dde-4bc3-9897-f465d12536a1
+title: MFPKEY\_RESIZE\_SRC\_HEIGHT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_SRC\_HEIGHT Property

@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VMScriptsEnabled property
 description: The VMScriptsEnabled property contains VARIANT\_TRUE if scripts attached to any virtual machine are allowed to run.
-ms.assetid: 'bde32601-3a02-4d79-911b-d54ee8a08e9f'
-keywords: ["VMScriptsEnabled property Virtual Server", "VMScriptsEnabled property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VMScriptsEnabled property", "VMScriptsEnabled property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VMScriptsEnabled property"]
+ms.assetid: bde32601-3a02-4d79-911b-d54ee8a08e9f
+keywords:
+- VMScriptsEnabled property Virtual Server
+- VMScriptsEnabled property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VMScriptsEnabled property
+- VMScriptsEnabled property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VMScriptsEnabled property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VMScriptsEnabled property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_VMScriptsEnabled(
-  [in]  VARIANT_BOOL shouldEnable
+  [in]  VARIANT_BOOL shouldEnable
 );
 
 HRESULT get_VMScriptsEnabled(
-  [out] VARIANT_BOOL *isEnabled
+  [out] VARIANT_BOOL *isEnabled
 );
 ```
 
@@ -96,8 +106,8 @@ Wscript.Echo "Virtual machine scripts enabled: " & objVS.VMScriptsEnabled
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -109,9 +119,9 @@ Wscript.Echo "Virtual machine scripts enabled: " & objVS.VMScriptsEnabled
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

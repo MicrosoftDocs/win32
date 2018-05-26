@@ -1,7 +1,12 @@
 ---
-Description: 'The Database object accesses an installer database.'
-ms.assetid: '97765884-3e1c-486a-932c-6430b113fac8'
+Description: The Database object accesses an installer database.
+ms.assetid: 97765884-3e1c-486a-932c-6430b113fac8
 title: Database object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Database object
@@ -49,7 +54,7 @@ The **Database** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -66,7 +71,7 @@ The **Database** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -74,7 +79,7 @@ The **Database** object has these properties.
 
 |                    |                                                                                                                                                                                                                                                         |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
+| Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID\_IDatabase is defined as 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 
@@ -87,9 +92,9 @@ The **Database** object has these properties.
 [Windows Installer Scripting Examples](windows-installer-scripting-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

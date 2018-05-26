@@ -1,7 +1,12 @@
 ---
 title: Example Topic Templates
 description: Example Topic Templates
-ms.assetid: '1FF07C0B-D654-4f49-B2E2-A03E70E276E1'
+ms.assetid: 1FF07C0B-D654-4f49-B2E2-A03E70E276E1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example: Topic Templates

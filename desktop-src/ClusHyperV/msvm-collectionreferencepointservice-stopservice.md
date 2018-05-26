@@ -4,13 +4,16 @@ description: Stops the service.CIM\_Service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '990f2094-83f7-47a8-b1c7-4e397a17212f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 990f2094-83f7-47a8-b1c7-4e397a17212f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StopService method", "StopService method, Msvm_CollectionReferencePointService class", "Msvm_CollectionReferencePointService class, StopService method"]
+keywords:
+- StopService method
+- StopService method, Msvm_CollectionReferencePointService class
+- Msvm_CollectionReferencePointService class, StopService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the Msvm\_CollectionReferencePointService class
@@ -51,7 +57,7 @@ Returns "0" on success, otherwise returns a WMI error code.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>                    |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
@@ -66,9 +72,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**Msvm\_CollectionReferencePointService**](msvm-collectionreferencepointservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

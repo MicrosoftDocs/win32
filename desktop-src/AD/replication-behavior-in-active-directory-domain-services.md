@@ -4,11 +4,15 @@ description: Replication behavior is consistent and predictable; given a set of 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4e9f2e43-6375-4663-93ca-55112fd00abe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4e9f2e43-6375-4663-93ca-55112fd00abe
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Domain Services Active Directory , Replication"]
+keywords:
+- Active Directory Domain Services Active Directory , Replication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Replication Behavior in Active Directory Domain Services

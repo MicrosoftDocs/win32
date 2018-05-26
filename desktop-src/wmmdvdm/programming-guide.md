@@ -1,8 +1,19 @@
 ---
 title: Programming Guide
 description: Programming Guide
-ms.assetid: 'abd43867-6e67-473c-b2f7-38cd9aaf4332'
-keywords: ["Windows Movie Maker,programming guide", "Movie Maker,programming guide", "Windows DVD Maker,programming guide", "DVD Maker,programming guide", "programming guide,Windows Movie Maker", "programming guide,Windows DVD Maker"]
+ms.assetid: abd43867-6e67-473c-b2f7-38cd9aaf4332
+keywords:
+- Windows Movie Maker,programming guide
+- Movie Maker,programming guide
+- Windows DVD Maker,programming guide
+- DVD Maker,programming guide
+- programming guide,Windows Movie Maker
+- programming guide,Windows DVD Maker
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Guide

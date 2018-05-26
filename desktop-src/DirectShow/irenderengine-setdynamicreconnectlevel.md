@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetDynamicReconnectLevel method sets the level of dynamic reconnection during rendering.'
-ms.assetid: '092f3464-84a2-48b0-9647-66fe27e9706d'
-title: 'IRenderEngine::SetDynamicReconnectLevel method'
+---
+Description: The SetDynamicReconnectLevel method sets the level of dynamic reconnection during rendering.
+ms.assetid: 092f3464-84a2-48b0-9647-66fe27e9706d
+title: IRenderEngineSetDynamicReconnectLevel method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRenderEngine::SetDynamicReconnectLevel method

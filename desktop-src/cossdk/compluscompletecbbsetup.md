@@ -1,7 +1,12 @@
 ---
-Description: 'Completes a catalog migration on the destination computer.'
-ms.assetid: '868634ee-98b4-4f08-90b9-9af26fef44bc'
+Description: Completes a catalog migration on the destination computer.
+ms.assetid: 868634ee-98b4-4f08-90b9-9af26fef44bc
 title: ComPlusCompleteCbbSetup function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComPlusCompleteCbbSetup function
@@ -13,8 +18,8 @@ Completes a catalog migration on the destination computer.
 
 ```C++
 HRESULT CALLBACK ComPlusCompleteCbbSetup(
-  _In_ IUnknown *pUnk,
-  _In_ HANDLE   hSetupLogFile
+  _In_ IUnknown *pUnk,
+  _In_ HANDLE   hSetupLogFile
 );
 ```
 
@@ -48,14 +53,14 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

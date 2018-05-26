@@ -4,11 +4,15 @@ description: Running DSML Services for Windows in a Production Environment
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '11e8ba64-be08-488b-9ca2-9e67aac8cc7e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 11e8ba64-be08-488b-9ca2-9e67aac8cc7e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Running DSML Services for Windows in a production environment DSML"]
+keywords:
+- Running DSML Services for Windows in a production environment DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Running DSML Services for Windows in a Production Environment

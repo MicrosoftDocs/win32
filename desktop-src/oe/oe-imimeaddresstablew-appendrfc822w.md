@@ -1,8 +1,11 @@
 ---
 title: IMimeAddressTableW AppendRfc822W method
 description: Appends an RFC 822 formatted address string to the address table. The RFC 822 address string must be formatted according to RFC 822 and may contain one or more friendly-name/email address pairs.
-ms.assetid: '16ee01a7-8a0b-4f37-a4f0-494e372dee3a'
-keywords: ["AppendRfc822W method Windows Mail (formerly Outlook Express)", "AppendRfc822W method Windows Mail (formerly Outlook Express) , IMimeAddressTableW interface", "IMimeAddressTableW interface Windows Mail (formerly Outlook Express) , AppendRfc822W method"]
+ms.assetid: 16ee01a7-8a0b-4f37-a4f0-494e372dee3a
+keywords:
+- AppendRfc822W method Windows Mail (formerly Outlook Express)
+- AppendRfc822W method Windows Mail (formerly Outlook Express) , IMimeAddressTableW interface
+- IMimeAddressTableW interface Windows Mail (formerly Outlook Express) , AppendRfc822W method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeAddressTableW::AppendRfc822W method
@@ -22,9 +30,9 @@ Appends an [RFC 822](http://www.ietf.org/rfc/rfc822.txt) formatted address strin
 
 ```C++
 HRESULT AppendRfc822W(
-  [in] DWORD        dwAdrType,
-  [in] ENCODINGTYPE ietEncoding,
-  [in] LPCWSTR      pwszRfc822Adr
+  [in] DWORD        dwAdrType,
+  [in] ENCODINGTYPE ietEncoding,
+  [in] LPCWSTR      pwszRfc822Adr
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +94,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -95,9 +103,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

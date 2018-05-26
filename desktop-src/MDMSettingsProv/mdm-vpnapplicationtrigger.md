@@ -1,8 +1,10 @@
 ---
 title: MDM\_VpnApplicationTrigger class
 description: Enables adding an application trigger to MDM-installed Virtual Private Network (VPN) profiles.
-ms.assetid: 'b953a277-5b5b-45f9-9181-1bf653b4c0f1'
-keywords: ["MDM_VpnApplicationTrigger class MDM Settings", "MDM_VpnApplicationTrigger class MDM Settings , described"]
+ms.assetid: b953a277-5b5b-45f9-9181-1bf653b4c0f1
+keywords:
+- MDM_VpnApplicationTrigger class MDM Settings
+- MDM_VpnApplicationTrigger class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VpnApplicationTrigger class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_VpnApplicationTrigger
 {
-  string  ApplicationID;
+  string  ApplicationID;
   boolean TriggerEnabledInAllMDMProfiles;
 };
 ```
@@ -79,7 +86,7 @@ True if an application trigger is added to all MDM-installed VPN profiles.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -94,9 +101,9 @@ True if an application trigger is added to all MDM-installed VPN profiles.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

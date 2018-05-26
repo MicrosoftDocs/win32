@@ -4,11 +4,14 @@ description: Used to toggle the AllowOnlySDRServers property.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ec7f22bc-4e80-4ece-9567-5f405207480e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ec7f22bc-4e80-4ece-9567-5f405207480e
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["EnableAllowOnlySDRServers method Remote Desktop Services", "EnableAllowOnlySDRServers method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class", "Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , EnableAllowOnlySDRServers method"]
+keywords:
+- EnableAllowOnlySDRServers method Remote Desktop Services
+- EnableAllowOnlySDRServers method Remote Desktop Services , Win32_TSGatewayConnectionAuthorizationPolicy class
+- Win32_TSGatewayConnectionAuthorizationPolicy class Remote Desktop Services , EnableAllowOnlySDRServers method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - AagWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableAllowOnlySDRServers method of the Win32\_TSGatewayConnectionAuthorizationPolicy class
@@ -28,7 +34,7 @@ Used to toggle the **AllowOnlySDRServers** property.
 
 ```mof
 uint32 EnableAllowOnlySDRServers(
-  [in] boolean AllowOnlySDRServers
+  [in] boolean AllowOnlySDRServers
 );
 ```
 
@@ -56,7 +62,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | ROOT\\cimv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TsGateway.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AagWmi.dll</dt> </dl>    |
@@ -70,9 +76,9 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 [**Win32\_TSGatewayConnectionAuthorizationPolicy**](win32-tsgatewayconnectionauthorizationpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

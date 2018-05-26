@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies the setting data for the synthetic 3-D service.'
-ms.assetid: '951ba829-2821-4621-800f-4e1a967b41f5'
-title: 'ModifyServiceSettings method of the Msvm\_Synthetic3DService class'
+Description: Modifies the setting data for the synthetic 3-D service.
+ms.assetid: 951ba829-2821-4621-800f-4e1a967b41f5
+title: ModifyServiceSettings method of the Msvm\_Synthetic3DService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyServiceSettings method of the Msvm\_Synthetic3DService class
@@ -13,8 +18,8 @@ Modifies the setting data for the synthetic 3-D service.
 
 ```mof
 uint32 ModifyServiceSettings(
-  [in]  string              SettingData,
-  [out] CIM_ConcreteJob REF Job
+  [in]  string              SettingData,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -89,8 +94,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -104,9 +109,9 @@ This method returns one of the following values.
 [**Msvm\_Synthetic3DService**](msvm-synthetic3dservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

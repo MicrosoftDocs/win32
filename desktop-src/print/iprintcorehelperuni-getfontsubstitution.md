@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintCoreHelperUni::GetFontSubstitution method indicates which device font, if any, is used as a substitution font for a specified TrueType font.'
-ms.assetid: 'f11b3b85-d01b-4133-9279-bff0001e04f9'
-title: 'IPrintCoreHelperUni::GetFontSubstitution method'
+---
+Description: The IPrintCoreHelperUniGetFontSubstitution method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
+ms.assetid: f11b3b85-d01b-4133-9279-bff0001e04f9
+title: IPrintCoreHelperUniGetFontSubstitution method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintCoreHelperUni::GetFontSubstitution method

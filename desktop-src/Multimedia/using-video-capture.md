@@ -1,8 +1,15 @@
 ---
 title: Using Video Capture
 description: Using Video Capture
-ms.assetid: 'fe8adb8f-b8e5-4af9-9faf-96a9cd375521'
-keywords: ["Video for Windows (VFW),video capture", "VFW (Video for Windows),video capture"]
+ms.assetid: fe8adb8f-b8e5-4af9-9faf-96a9cd375521
+keywords:
+- Video for Windows (VFW),video capture
+- VFW (Video for Windows),video capture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Video Capture

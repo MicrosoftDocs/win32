@@ -1,7 +1,12 @@
 ---
 title: loop (sm4 - asm)
 description: Specifies a loop which iterates until a break instruction is encountered.
-ms.assetid: '0BEFADF4-036E-4FDA-9681-10965D6BA9FC'
+ms.assetid: 0BEFADF4-036E-4FDA-9681-10965D6BA9FC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # loop (sm4 - asm)

@@ -1,12 +1,17 @@
 ---
 title: Ensuring that UI Elements are Correctly Named
 description: This topic describes the correct way to specify the names of the UI elements in your Microsoft Win32 applications so that Microsoft Active Accessibility can accurately expose the names to client applications through the IAccessible \ 32;Name property.
-ms.assetid: '5b8f23cb-9906-4cc4-83d4-73fdf96ed681'
+ms.assetid: 5b8f23cb-9906-4cc4-83d4-73fdf96ed681
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ensuring that UI Elements are Correctly Named
 
-This topic describes the correct way to specify the names of the UI elements in your Microsoft Win32 applications so that Microsoft Active Accessibility can accurately expose the names to client applications through the [**IAccessible**](iaccessible.md) [Name property](name-property.md).
+This topic describes the correct way to specify the names of the UI elements in your Microsoft Win32 applications so that Microsoft Active Accessibility can accurately expose the names to client applications through the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) [Name property](name-property.md).
 
 The information in this section applies to Microsoft Active Accessibility only. It does not apply to applications that use Microsoft UI Automation or those based on markup languages such as HTML, Dynamic HTML (DHTML), or XML.
 
@@ -23,7 +28,7 @@ The information in this section applies to Microsoft Active Accessibility only. 
 
 ## Overview
 
-In Microsoft Active Accessibility, each UI element in an application is represented by an object that exposes the [**IAccessible**](iaccessible.md) interface. Client applications use the properties and methods of the **IAccessible** interface to interact with the UI element and to retrieve information about it. One of the most important properties exposed by the **IAccessible** interface is the [Name property](name-property.md). Client applications rely on the Name property to find, identify, or announce a UI element to the user. If Microsoft Active Accessibility cannot properly expose the Name property of a particular UI element, client applications will be unable to present that UI element to the user, and the UI element will be inaccessible to users with disabilities.
+In Microsoft Active Accessibility, each UI element in an application is represented by an object that exposes the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface. Client applications use the properties and methods of the **IAccessible** interface to interact with the UI element and to retrieve information about it. One of the most important properties exposed by the **IAccessible** interface is the [Name property](name-property.md). Client applications rely on the Name property to find, identify, or announce a UI element to the user. If Microsoft Active Accessibility cannot properly expose the Name property of a particular UI element, client applications will be unable to present that UI element to the user, and the UI element will be inaccessible to users with disabilities.
 
 ## How Incorrect Naming Causes Problems
 
@@ -146,11 +151,11 @@ As with visible labels, an invisible label must immediately precede the control 
 
 ## How to Use Direct Annotation to Specify the Name Property
 
-The default proxies included in the Microsoft Active Accessibility runtime component, Oleacc.dll, automatically provide an [**IAccessible**](iaccessible.md) object for all of the standard Windows controls. If you customize a standard Windows control, the default proxies do their best to accurately provide all of the **IAccessible** properties for your customized control. You should thoroughly test a customized control to ensure that the default proxies are providing accurate and complete property values. If testing reveals inaccurate or incomplete property values, you may be able to use the Dynamic Annotation technique called direct annotation to provide correct property values and add those that are missing.
+The default proxies included in the Microsoft Active Accessibility runtime component, Oleacc.dll, automatically provide an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object for all of the standard Windows controls. If you customize a standard Windows control, the default proxies do their best to accurately provide all of the **IAccessible** properties for your customized control. You should thoroughly test a customized control to ensure that the default proxies are providing accurate and complete property values. If testing reveals inaccurate or incomplete property values, you may be able to use the Dynamic Annotation technique called direct annotation to provide correct property values and add those that are missing.
 
-Note that Dynamic Annotation is not just for controls supported by the Microsoft Active Accessibility proxies. You can also use it to modify or provide properties for any control that provides its own [**IAccessible**](iaccessible.md) implementation.
+Note that Dynamic Annotation is not just for controls supported by the Microsoft Active Accessibility proxies. You can also use it to modify or provide properties for any control that provides its own [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) implementation.
 
-This section focuses on using direct annotation to provide a correct value for the [Name property](name-property.md) of the [**IAccessible**](iaccessible.md) object for a control. You can use direct annotation to provide other properties values as well. Also, other Dynamic Annotation techniques beside direct annotation are available, and the features and capabilities of the Dynamic Annotation API extend far beyond what is described in this section. For more information about Dynamic Annotation, see [Dynamic Annotation API](dynamic-annotation-api.md).
+This section focuses on using direct annotation to provide a correct value for the [Name property](name-property.md) of the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object for a control. You can use direct annotation to provide other properties values as well. Also, other Dynamic Annotation techniques beside direct annotation are available, and the features and capabilities of the Dynamic Annotation API extend far beyond what is described in this section. For more information about Dynamic Annotation, see [Dynamic Annotation API](dynamic-annotation-api.md).
 
 ### Steps for Annotating the Name Property
 
@@ -166,20 +171,20 @@ Using direct annotation to change the [Name Property](name-property.md) of a con
      
 
 2.  Initialize the Component Object Model (COM) library by calling the [CoInitializeEx](http://go.microsoft.com/fwlink/p/?linkid=151432) function, typically during the application initialization process.
-3.  Soon after the target control is created (typically during the [WM\_INITDIALOG](http://go.microsoft.com/fwlink/p/?linkid=184532) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](iaccpropservices.md) pointer.
-4.  Annotate the [Name Property](name-property.md) of the target control by using the [**IAccPropServices::SetHwndPropStr**](iaccpropservices-iaccpropservices--sethwndpropstr.md) method.
+3.  Soon after the target control is created (typically during the [WM\_INITDIALOG](http://go.microsoft.com/fwlink/p/?linkid=184532) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master) pointer.
+4.  Annotate the [Name Property](name-property.md) of the target control by using the [**IAccPropServices::SetHwndPropStr**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-sethwndpropstr?branch=master) method.
 
-5.  Release the [**IAccPropServices**](iaccpropservices.md) pointer.
-6.  Before the target control is destroyed (typically when handling the [WM\_DESTROY](http://go.microsoft.com/fwlink/p/?linkid=178241) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](iaccpropservices.md) interface.
-7.  Use the [**IAccPropServices::ClearHwndProps**](iaccpropservices-iaccpropservices--clearhwndprops.md) method to clear the [Name property](name-property.md) annotations from the target control.
-8.  Release the [**IAccPropServices**](iaccpropservices.md) pointer.
+5.  Release the [**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master) pointer.
+6.  Before the target control is destroyed (typically when handling the [WM\_DESTROY](http://go.microsoft.com/fwlink/p/?linkid=178241) message), create an instance of the annotation manager and obtain a pointer to its [**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master) interface.
+7.  Use the [**IAccPropServices::ClearHwndProps**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-clearhwndprops?branch=master) method to clear the [Name property](name-property.md) annotations from the target control.
+8.  Release the [**IAccPropServices**](/windows/win32/oleacc/nn-oleacc-iaccpropservices?branch=master) pointer.
 9.  Before your application exits (typically while processing the [WM\_DESTROY](http://go.microsoft.com/fwlink/p/?linkid=178241) message), release the COM library by calling the [CoUninitialize](http://go.microsoft.com/fwlink/p/?linkid=184591) function.
 
-The [**IAccPropServices::SetHwndPropStr**](iaccpropservices-iaccpropservices--sethwndpropstr.md) function takes five parameters. The first three—*hwnd*, *idObject*, and *idChild*—combine to identify the control. The fourth parameter, *idProp*, specifies the identifier of the property to be changed. To change the [Name property](name-property.md), set *idProp* to **PROPID\_ACC\_NAME**. (For a list of other properties that you can set through direct annotation, see [Using Direct Annotation](using-direct-annotation.md).) The last parameter of **SetHwndPropStr**, *str*, is the new string to use as the Name property.
+The [**IAccPropServices::SetHwndPropStr**](/windows/win32/Oleacc/nf-oleacc-iaccpropservices-sethwndpropstr?branch=master) function takes five parameters. The first three—*hwnd*, *idObject*, and *idChild*—combine to identify the control. The fourth parameter, *idProp*, specifies the identifier of the property to be changed. To change the [Name property](name-property.md), set *idProp* to **PROPID\_ACC\_NAME**. (For a list of other properties that you can set through direct annotation, see [Using Direct Annotation](using-direct-annotation.md).) The last parameter of **SetHwndPropStr**, *str*, is the new string to use as the Name property.
 
 ### Example of Annotating the Name Property
 
-The following example code shows how to use direct annotation to change the [Name property](name-property.md) of the [**IAccessible**](iaccessible.md) object for a control. To keep things simple, the example uses a hard-coded string ("New Control Name") to set the Name property. Hard-coded strings should not be used in the final version of your application because they cannot be localized. Instead, always load strings from your resource file. Also, the example does not show the calls to the [CoInitializeEx](http://go.microsoft.com/fwlink/p/?linkid=151432) and [CoUninitialize](http://go.microsoft.com/fwlink/p/?linkid=184591) functions.
+The following example code shows how to use direct annotation to change the [Name property](name-property.md) of the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object for a control. To keep things simple, the example uses a hard-coded string ("New Control Name") to set the Name property. Hard-coded strings should not be used in the final version of your application because they cannot be localized. Instead, always load strings from your resource file. Also, the example does not show the calls to the [CoInitializeEx](http://go.microsoft.com/fwlink/p/?linkid=151432) and [CoUninitialize](http://go.microsoft.com/fwlink/p/?linkid=184591) functions.
 
 
 ```C++

@@ -1,8 +1,14 @@
 ---
 title: RAS AutoDial
 description: A feature called \ 0034;default connection \ 0034; was added to the system in Windows XP.
-ms.assetid: '8ef832ed-97e4-4941-adb2-b35ce3a75fd1'
-keywords: ["AutoDial, RAS"]
+ms.assetid: 8ef832ed-97e4-4941-adb2-b35ce3a75fd1
+keywords:
+- AutoDial, RAS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RAS AutoDial

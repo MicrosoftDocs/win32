@@ -4,17 +4,22 @@ description: Contains the list of required policy OIDs from registration authori
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ebbdf95e-05c8-4b54-b7a5-4bb81d425225'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ebbdf95e-05c8-4b54-b7a5-4bb81d425225
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-PKI-RA-Policies attribute AD Schema", "msPKI-RA-Policies attribute AD Schema"]
+keywords:
+- ms-PKI-RA-Policies attribute AD Schema
+- msPKI-RA-Policies attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-PKI-RA-Policies
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-PKI-RA-Policies attribute
@@ -38,11 +43,11 @@ Contains the list of required policy OIDs from registration authorities who sign
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +154,9 @@ Contains the list of required policy OIDs from registration authorities who sign
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: HLSL errors and warnings
 description: Error and warning codes that a shader can return.
-ms.assetid: 'ABAB9E0E-E4DA-4A77-83C3-8D92C8522647'
+ms.assetid: ABAB9E0E-E4DA-4A77-83C3-8D92C8522647
 topic_type:
 - apiref
 api_name:
@@ -486,6 +486,11 @@ api_location:
 - CompErrors.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HLSL errors and warnings
@@ -986,9 +991,9 @@ Error and warning codes that a shader can return.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

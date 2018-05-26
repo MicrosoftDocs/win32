@@ -1,7 +1,12 @@
 ---
-Description: 'DVD Subpicture properties control the color, contrast, and output of the subpicture display.'
-ms.assetid: 'ddbfb65c-7630-4e9f-8013-c5d65c62c628'
+Description: DVD Subpicture properties control the color, contrast, and output of the subpicture display.
+ms.assetid: ddbfb65c-7630-4e9f-8013-c5d65c62c628
 title: DVD Subpicture Property Set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Subpicture Property Set
@@ -18,19 +23,19 @@ The following information presents the necessary constants and data types to use
 
 
 
- 
+ 
 
 
 
 | Property ID                           | Description                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AM\_PROPERTY\_DVDSUBPIC\_COMPOSIT\_ON | Set-only property that enables or disables subpicture display. DirectShow defines the **AM\_PROPERTY\_COMPOSIT\_ON** Boolean data type for this property, as well as PAM\_PROPERTY\_COMPOSIT\_ON as a pointer to this data type. **TRUE** indicates display the subpicture, **FALSE** indicates disable it. See the WDM portion of the Windows DDK for more information. |
-| AM\_PROPERTY\_DVDSUBPIC\_HLI          | Set-only property that specifies a rectangle of subpicture or screen whose color or contrast will be changed. Data type is [**AM\_PROPERTY\_SPHLI**](am-property-sphli.md). See Remarks.                                                                                                                                                                                |
-| AM\_PROPERTY\_DVDSUBPIC\_PALETTE      | Sets the palette for a subpicture. Data type is [**AM\_PROPERTY\_SPPAL**](am-property-sppal.md).                                                                                                                                                                                                                                                                        |
+| AM\_PROPERTY\_DVDSUBPIC\_HLI          | Set-only property that specifies a rectangle of subpicture or screen whose color or contrast will be changed. Data type is [**AM\_PROPERTY\_SPHLI**](/windows/win32/Dvdmedia/ns-dvdmedia-_am_property_sphli?branch=master). See Remarks.                                                                                                                                                                                |
+| AM\_PROPERTY\_DVDSUBPIC\_PALETTE      | Sets the palette for a subpicture. Data type is [**AM\_PROPERTY\_SPPAL**](/windows/win32/Dvdmedia/ns-dvdmedia-_am_property_sppal?branch=master).                                                                                                                                                                                                                                                                        |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -38,7 +43,7 @@ The **AM\_PROPERTY\_DVDSUBPIC\_HLI** property is set-only. It specifies a rectan
 
 The highlight information arrives asynchronously to the data stream. The decoder uses the highlight Start and End time stamps to correlate the highlight information to the relevant subpicture information, if any. If the decoder has not received any subpicture stream information for the requested time stamps, the decoder assumes that the highlight information is stand-alone and does not apply to a subpicture. In this case, the decoder assumes the color and contrast information is all the same color.
 
-The data is not entirely in DVD disc format. Microsoft provides an additional structure of type [**AM\_PROPERTY\_SPHLI**](am-property-sphli.md) that is passed as the parameter to this property. This structure describes the currently selected button from the DVD highlight information.
+The data is not entirely in DVD disc format. Microsoft provides an additional structure of type [**AM\_PROPERTY\_SPHLI**](/windows/win32/Dvdmedia/ns-dvdmedia-_am_property_sphli?branch=master) that is passed as the parameter to this property. This structure describes the currently selected button from the DVD highlight information.
 
 The DVD navigator processes all keystroke information and sends new highlight information each time a button state changes. The information describes only one mode of one button at a time. It includes a display rectangle in pixel coordinates of the screen, or a display of the subpicture, if present. The structure also contains color and contrast information, but only for the present state of the currently selected button. The format is defined in the DVD specification.
 
@@ -63,9 +68,9 @@ The HLISS field is as defined in the DVD specification. A value of zero indicate
 [Property Sets](property-sets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

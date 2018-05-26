@@ -1,20 +1,24 @@
 ---
 title: MSUserRoles class
-description: Represents a user's roles.
+description: Represents a users roles.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '50360807-3089-4D84-87E7-93E7533C45CA'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 50360807-3089-4D84-87E7-93E7533C45CA
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserRoles class"]
+keywords:
+- MSUserRoles class
 topic_type:
 - apiref
 api_name:
 - MSUserRoles class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserRoles class
@@ -37,7 +41,7 @@ Represents a user's roles.
 
 
 
- 
+ 
 
 ## Properties
 
@@ -50,7 +54,7 @@ Represents a user's roles.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -66,15 +70,15 @@ MSUserRoles.h
 
 
 
- 
+ 
 
 ## Thread Safety
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

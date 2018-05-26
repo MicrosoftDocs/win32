@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a link''s arguments.'
-ms.assetid: '938db958-4b59-4dd6-ac56-f21db05ec989'
-title: 'ShellLinkObject.Arguments property'
+---
+Description: Contains a links arguments.
+ms.assetid: 938db958-4b59-4dd6-ac56-f21db05ec989
+title: ShellLinkObject.Arguments property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject.Arguments property

@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_CacheMemory&\#32;WMI class represents internal and external cache memory on a computer system.'
+Description: The Win32\_CacheMemory&\#32;WMI class represents internal and external cache memory on a computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9cfb992d-fbac-4e56-b4f3-61c0c93f5852'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9cfb992d-fbac-4e56-b4f3-61c0c93f5852
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_CacheMemory class'
+title: Win32\_CacheMemory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CacheMemory class
@@ -24,59 +27,59 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{FAF76B97-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class Win32_CacheMemory : CIM_CacheMemory
 {
-  uint16   Access;
-  uint8    AdditionalErrorData[];
-  uint16   Associativity;
-  uint16   Availability;
-  uint64   BlockSize;
-  uint32   CacheSpeed;
-  uint16   CacheType;
-  string   Caption;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  boolean  CorrectableError;
-  string   CreationClassName;
-  uint16   CurrentSRAM[];
-  string   Description;
-  string   DeviceID;
-  uint64   EndingAddress;
-  uint16   ErrorAccess;
-  uint64   ErrorAddress;
-  boolean  ErrorCleared;
-  uint16   ErrorCorrectType;
-  uint8    ErrorData[];
-  uint16   ErrorDataOrder;
-  string   ErrorDescription;
-  uint16   ErrorInfo;
-  string   ErrorMethodology;
-  uint64   ErrorResolution;
+  uint16   Access;
+  uint8    AdditionalErrorData[];
+  uint16   Associativity;
+  uint16   Availability;
+  uint64   BlockSize;
+  uint32   CacheSpeed;
+  uint16   CacheType;
+  string   Caption;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  boolean  CorrectableError;
+  string   CreationClassName;
+  uint16   CurrentSRAM[];
+  string   Description;
+  string   DeviceID;
+  uint64   EndingAddress;
+  uint16   ErrorAccess;
+  uint64   ErrorAddress;
+  boolean  ErrorCleared;
+  uint16   ErrorCorrectType;
+  uint8    ErrorData[];
+  uint16   ErrorDataOrder;
+  string   ErrorDescription;
+  uint16   ErrorInfo;
+  string   ErrorMethodology;
+  uint64   ErrorResolution;
   datetime ErrorTime;
-  uint32   ErrorTransferSize;
-  uint32   FlushTimer;
+  uint32   ErrorTransferSize;
+  uint32   FlushTimer;
   datetime InstallDate;
-  uint32   InstalledSize;
-  uint32   LastErrorCode;
-  uint16   Level;
-  uint32   LineSize;
-  uint16   Location;
-  uint32   MaxCacheSize;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   OtherErrorDescription;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Purpose;
-  uint16   ReadPolicy;
-  uint16   ReplacementPolicy;
-  uint64   StartingAddress;
-  string   Status;
-  uint16   StatusInfo;
-  uint16   SupportedSRAM[];
-  string   SystemCreationClassName;
-  boolean  SystemLevelAddress;
-  string   SystemName;
-  uint16   WritePolicy;
+  uint32   InstalledSize;
+  uint32   LastErrorCode;
+  uint16   Level;
+  uint32   LineSize;
+  uint16   Location;
+  uint32   MaxCacheSize;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   OtherErrorDescription;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Purpose;
+  uint16   ReadPolicy;
+  uint16   ReplacementPolicy;
+  uint64   StartingAddress;
+  string   Status;
+  uint16   StatusInfo;
+  uint16   SupportedSRAM[];
+  string   SystemCreationClassName;
+  boolean  SystemLevelAddress;
+  string   SystemName;
+  uint16   WritePolicy;
 };
 ```
 
@@ -100,7 +103,7 @@ The **Win32\_CacheMemory** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -572,7 +575,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -2473,8 +2476,8 @@ The **Win32\_CacheMemory** class is derived from [**CIM\_CacheMemory**](cim-cach
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -2491,9 +2494,9 @@ The **Win32\_CacheMemory** class is derived from [**CIM\_CacheMemory**](cim-cach
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

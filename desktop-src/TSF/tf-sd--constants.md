@@ -1,7 +1,7 @@
 ---
 title: TF\_SD\_\ Constants
 description: The TF\_SD\_\ constants describe the document status.
-ms.assetid: '953d39cd-8af1-4c86-8fb8-8b8ec917c631'
+ms.assetid: 953d39cd-8af1-4c86-8fb8-8b8ec917c631
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_SD\_\* Constants
@@ -28,7 +33,7 @@ The TF\_SD\_\* constants describe the document status.
 
 ## Remarks
 
-The **dwDynamicFlags** member of the [TF\_STATUS](tf-status.md) structure uses these constants.
+The **dwDynamicFlags** member of the [TF\_STATUS](/windows/win32/Msctf/?branch=master) structure uses these constants.
 
 ## Requirements
 
@@ -36,9 +41,9 @@ The **dwDynamicFlags** member of the [TF\_STATUS](tf-status.md) structure uses t
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | Header<br/>                   | <dl> <dt>Msctf.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msctf.idl</dt> </dl> |
 
@@ -48,27 +53,27 @@ The **dwDynamicFlags** member of the [TF\_STATUS](tf-status.md) structure uses t
 
 <dl> <dt>
 
-[TF\_STATUS](tf-status.md)
+[TF\_STATUS](/windows/win32/Msctf/?branch=master)
 </dt> <dt>
 
 [TS\_SD\_\* Constants](ts-sd--constants.md)
 </dt> <dt>
 
-[ITfContextOwner::GetStatus](itfcontextowner-getstatus.md)
+[ITfContextOwner::GetStatus](/windows/win32/Msctf/nf-msctf-itfcontextowner-getstatus?branch=master)
 </dt> <dt>
 
-[ITfContextOwnerServices::OnStatusChange](itfcontextownerservices-onstatuschange.md)
+[ITfContextOwnerServices::OnStatusChange](/windows/win32/Msctf/nf-msctf-itfcontextownerservices-onstatuschange?branch=master)
 </dt> <dt>
 
-[ITextStoreACP::GetStatus](itextstoreacp-getstatus.md)
+[ITextStoreACP::GetStatus](/windows/win32/Textstor/nf-textstor-itextstoreacp-getstatus?branch=master)
 </dt> <dt>
 
-[ITfStatusSunk::OnStatusChange](itfstatussink-onstatuschange.md)
+[ITfStatusSunk::OnStatusChange](/windows/win32/Msctf/nf-msctf-itfstatussink-onstatuschange?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

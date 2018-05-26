@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a metric value defined by an instance of the Msvm\_BaseMetricDefinition class.'
-ms.assetid: 'bd872f21-ab71-4ab7-88d3-b26dd2fbdbe5'
-title: 'Msvm\_BaseMetricValue class'
+Description: Represents a metric value defined by an instance of the Msvm\_BaseMetricDefinition class.
+ms.assetid: bd872f21-ab71-4ab7-88d3-b26dd2fbdbe5
+title: Msvm\_BaseMetricValue class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BaseMetricValue class
@@ -16,18 +21,18 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_BaseMetricValue : CIM_BaseMetricValue
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   MetricDefinitionId;
-  string   MeasuredElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   MetricDefinitionId;
+  string   MeasuredElementName;
   datetime TimeStamp;
   datetime Duration;
-  string   MetricValue;
-  string   BreakdownDimension;
-  string   BreakdownValue;
-  boolean  Volatile;
+  string   MetricValue;
+  string   BreakdownDimension;
+  string   BreakdownValue;
+  boolean  Volatile;
 };
 ```
 
@@ -208,17 +213,17 @@ Access type: Read-only
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

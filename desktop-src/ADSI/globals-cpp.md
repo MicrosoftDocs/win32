@@ -4,10 +4,13 @@ description: In the example provider component, the globals used can be found in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7362bc31-2c07-45ff-baf0-a76e68748d93'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7362bc31-2c07-45ff-baf0-a76e68748d93
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GLOBALS.CPP

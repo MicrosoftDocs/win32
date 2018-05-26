@@ -1,7 +1,12 @@
 ---
 title: MaxRunningWebhits
 description: MaxRunningWebhits
-ms.assetid: 'd7099da6-1b5b-4157-a113-4e94486a978a'
+ms.assetid: d7099da6-1b5b-4157-a113-4e94486a978a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxRunningWebhits

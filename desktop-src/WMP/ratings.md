@@ -1,8 +1,17 @@
 ---
 title: Ratings
 description: Ratings
-ms.assetid: 'babc9db5-2782-4261-a571-acb7be4ea770'
-keywords: ["Windows Media Player Mobile skins,ratings", "skins,ratings", "reference for skins,ratings", "ratings in skins"]
+ms.assetid: babc9db5-2782-4261-a571-acb7be4ea770
+keywords:
+- Windows Media Player Mobile skins,ratings
+- skins,ratings
+- reference for skins,ratings
+- ratings in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ratings

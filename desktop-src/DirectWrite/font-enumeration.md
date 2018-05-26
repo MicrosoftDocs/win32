@@ -1,7 +1,12 @@
 ---
 title: How to Enumerate Fonts
 description: This overview will show how to enumerate the fonts in the system font collection, by family name.
-ms.assetid: 'c1ec7721-2a30-4de3-b986-932f098228a6'
+ms.assetid: c1ec7721-2a30-4de3-b986-932f098228a6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Enumerate Fonts
@@ -22,7 +27,7 @@ This overview consists of the following parts:
 
 ## Step 1: Get the System Font Collection.
 
-Use the [**GetSystemFontCollection**](idwritefactory-getsystemfontcollection.md) method provided by the DirectWrite Factory to return an [**IDWriteFontCollection**](idwritefontcollection.md) with all of the system fonts in it.
+Use the [**GetSystemFontCollection**](/windows/win32/dwrite/?branch=master) method provided by the DirectWrite Factory to return an [**IDWriteFontCollection**](/windows/win32/dwrite/?branch=master) with all of the system fonts in it.
 
 
 ```C++
@@ -39,7 +44,7 @@ if (SUCCEEDED(hr))
 
 ## Step 2: Get the Font Family Count.
 
-Next, get the font family count from the font collection by using [**IDWriteFontCollection::GetFontFamilyCount**](idwritefontcollection-getfontfamilycount.md). We'll use this to loop over each font family in the collection.
+Next, get the font family count from the font collection by using [**IDWriteFontCollection::GetFontFamilyCount**](/windows/win32/dwrite/?branch=master). We'll use this to loop over each font family in the collection.
 
 
 ```C++
@@ -63,11 +68,11 @@ for (UINT32 i = 0; i < familyCount; ++i)
 
 
 
-Now that you have the font collection and the font count, the remaining steps loop over each font family, retrieving the [**IDWriteFontFamily**](idwritefontfamily.md) object and querying it.
+Now that you have the font collection and the font count, the remaining steps loop over each font family, retrieving the [**IDWriteFontFamily**](/windows/win32/dwrite/?branch=master) object and querying it.
 
 ### Step 3: Get the Font Family.
 
-Get a [**IDWriteFontFamily**](idwritefontfamily.md) object by using [**IDWriteFontCollection::GetFontFamily**](idwritefontcollection-getfontfamily.md) and passing it the current index, *i*.
+Get a [**IDWriteFontFamily**](/windows/win32/dwrite/?branch=master) object by using [**IDWriteFontCollection::GetFontFamily**](/windows/win32/dwrite/?branch=master) and passing it the current index, *i*.
 
 
 ```C++
@@ -84,7 +89,7 @@ if (SUCCEEDED(hr))
 
 ### Step 4: Get the Family Names.
 
-Get the font family names by using the [**IDWriteFontFamily::GetFamilyNames**](idwritefontfamily-getfamilynames.md). This is an [**IDWriteLocalizedStrings**](idwritelocalizedstrings.md) object. It can have multiple localized versions of the family name for the font family.
+Get the font family names by using the [**IDWriteFontFamily::GetFamilyNames**](/windows/win32/dwrite/?branch=master). This is an [**IDWriteLocalizedStrings**](/windows/win32/dwrite/?branch=master) object. It can have multiple localized versions of the family name for the font family.
 
 
 ```C++
@@ -101,7 +106,7 @@ if (SUCCEEDED(hr))
 
 ### Step 5: Find the Locale Name.
 
-Get the font famliy name in the locale you want by using the [**IDWriteLocalizedStrings::FindLocaleName**](idwritelocalizedstrings-findlocalename.md) method. In this case, first the default locale is retrieved and requested. If that does not work, the "en-us" locale is requested. If either of the specified locales are not found, this example simply falls back to index 0, the first available locale.
+Get the font famliy name in the locale you want by using the [**IDWriteLocalizedStrings::FindLocaleName**](/windows/win32/dwrite/?branch=master) method. In this case, first the default locale is retrieved and requested. If that does not work, the "en-us" locale is requested. If either of the specified locales are not found, this example simply falls back to index 0, the first available locale.
 
 
 ```C++
@@ -135,7 +140,7 @@ if (!exists)
 
 ### Step 6: Get the Length of the Family Name String Length and the String.
 
-Finally, get the length of the family name string by using [**IDWriteLocalizedStrings::GetStringLength**](idwritelocalizedstrings-getstringlength.md). Use this length to allocate a string large enough to hold the name and then get the font family name by using [**IDWriteLocalizedStrings::GetString**](idwritelocalizedstrings-getstring.md).
+Finally, get the length of the family name string by using [**IDWriteLocalizedStrings::GetStringLength**](/windows/win32/dwrite/?branch=master). Use this length to allocate a string large enough to hold the name and then get the font family name by using [**IDWriteLocalizedStrings::GetString**](/windows/win32/dwrite/?branch=master).
 
 
 ```C++

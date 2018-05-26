@@ -1,7 +1,12 @@
 ---
 title: Batched Statements
 description: Batched Statements
-ms.assetid: '0e4c61e3-8a0d-465c-8e2b-fc7c84c8635e'
+ms.assetid: 0e4c61e3-8a0d-465c-8e2b-fc7c84c8635e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Batched Statements

@@ -1,7 +1,12 @@
 ---
-Description: 'String indicating the model of the flash used to take the picture. Can be blank or not present.'
-ms.assetid: 'adecb337-02a3-449c-b797-560f9241d133'
-title: 'System.Photo.FlashModel'
+Description: String indicating the model of the flash used to take the picture. Can be blank or not present.
+ms.assetid: adecb337-02a3-449c-b797-560f9241d133
+title: System.Photo.FlashModel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.FlashModel

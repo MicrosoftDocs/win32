@@ -1,8 +1,18 @@
 ---
 title: Sample Status Section
 description: Sample Status Section
-ms.assetid: 'b19c8b74-f474-47ee-a8be-68b855bc7486'
-keywords: ["Windows Media Player Mobile skins,status display", "skins,status display", "reference for skins,status display", "status display in skins,Status section", "skin definition files,Status section"]
+ms.assetid: b19c8b74-f474-47ee-a8be-68b855bc7486
+keywords:
+- Windows Media Player Mobile skins,status display
+- skins,status display
+- reference for skins,status display
+- status display in skins,Status section
+- skin definition files,Status section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Status Section

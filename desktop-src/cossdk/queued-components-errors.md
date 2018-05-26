@@ -1,7 +1,12 @@
 ---
 Description: Queued Components Errors
-ms.assetid: '29a1bf52-7252-4f8a-bdb7-61b152fb907e'
+ms.assetid: 29a1bf52-7252-4f8a-bdb7-61b152fb907e
 title: Queued Components Errors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Queued Components Errors
@@ -22,11 +27,11 @@ Detailed descriptions of the sequence of events that occurs for various sorts of
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

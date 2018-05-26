@@ -1,15 +1,18 @@
 ---
-Description: 'Represents an IP address range in IPAM. An IP address range contains the IP addresses that are between the start and end address of the range.'
+Description: Represents an IP address range in IPAM. An IP address range contains the IP addresses that are between the start and end address of the range.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0b58acca-5452-4506-a8a1-4c9ae3558304'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0b58acca-5452-4506-a8a1-4c9ae3558304
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_Range class'
+title: MSFT\_IPAM\_Range class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_Range class
@@ -24,50 +27,50 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::Collections"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_Range : CIM_RangeOfIPAddresses
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   StartAddress;
-  string   EndAddress;
-  uint16   AddressType;
-  string   InstanceID;
-  uint16   NetworkType;
-  uint16   AddressCategory;
-  boolean  Overlapping;
-  string   NetworkID;
-  string   ManagedByService;
-  string   ServiceInstance;
-  string   AddressSpace;
-  uint64   AddressSpaceId;
-  string   ProviderAddressSpace;
-  string   CustomerAddressSpace;
-  string   Owner;
-  real64   PercentageUtilized;
-  string   SubnetMask;
-  uint16   AssignmentType;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   StartAddress;
+  string   EndAddress;
+  uint16   AddressType;
+  string   InstanceID;
+  uint16   NetworkType;
+  uint16   AddressCategory;
+  boolean  Overlapping;
+  string   NetworkID;
+  string   ManagedByService;
+  string   ServiceInstance;
+  string   AddressSpace;
+  uint64   AddressSpaceId;
+  string   ProviderAddressSpace;
+  string   CustomerAddressSpace;
+  string   Owner;
+  real64   PercentageUtilized;
+  string   SubnetMask;
+  uint16   AssignmentType;
   datetime AssignmentDate;
   datetime LastModifiedTime;
-  string   NetworkSite;
-  string   VmmLogicalNetwork;
-  string   DhcpServerName;
-  string   DhcpScopeName;
-  uint16   Utilization;
-  uint16   UtilizationCalculation;
-  real64   UtilizedAddresses;
-  uint64   AssignedAddresses;
-  string   ExclusionRanges[];
+  string   NetworkSite;
+  string   VmmLogicalNetwork;
+  string   DhcpServerName;
+  string   DhcpScopeName;
+  uint16   Utilization;
+  uint16   UtilizationCalculation;
+  real64   UtilizedAddresses;
+  uint64   AssignedAddresses;
+  string   ExclusionRanges[];
   datetime LastReclaimRunTime;
-  string   DnsServers[];
-  string   WinsServers[];
-  string   VIP[];
-  string   ReservedIPAddresses[];
-  string   DnsSuffixes[];
-  string   ConnectionSpecificDnsSuffix;
-  string   CustomConfiguration;
-  string   AssociatedReverseLookupZone;
-  string   AccessScopePath;
-  boolean  IsInheritedAccessScope;
-  string   Gateway[];
+  string   DnsServers[];
+  string   WinsServers[];
+  string   VIP[];
+  string   ReservedIPAddresses[];
+  string   DnsSuffixes[];
+  string   ConnectionSpecificDnsSuffix;
+  string   CustomConfiguration;
+  string   AssociatedReverseLookupZone;
+  string   AccessScopePath;
+  boolean  IsInheritedAccessScope;
+  string   Gateway[];
 };
 ```
 
@@ -90,12 +93,12 @@ The **MSFT\_IPAM\_Range** class has these methods.
 | [**BulkAddOrUpdateRange**](bulkaddorupdaterange-msft-ipam-range.md) | Adds or updates a set of IP address ranges in IPAM.<br/>                                                                                              |
 | [**BulkDeleteRange**](bulkdeleterange-msft-ipam-range.md)           | Deletes a set of IP address range from IPAM.<br/>                                                                                                     |
 | [**ExportRange**](exportrange-msft-ipam-range.md)                   | Exports a set of IP address ranges from IPAM to a CSV file.<br/>                                                                                      |
-| [**FindIpamFreeRange**](msft-ipam-range-findipamfreerange.md)       | Retrieves unassigned IP address ranges from IPAM.<br/> **Windows Server 2012 R2:** This method is not available until Windows Server 2016.<br/> |
+| [**FindIpamFreeRange**](msft-ipam-range-findipamfreerange.md)       | Retrieves unassigned IP address ranges from IPAM.<br/> **Windows Server 2012 R2:** This method is not available until Windows Server 2016.<br/> |
 | [**ImportRange**](importrange-msft-ipam-range.md)                   | Imports a set of IP address ranges into IPAM from a CSV file.<br/>                                                                                    |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -114,7 +117,7 @@ Access type: Read-only
 
 Access scope path for this range.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -326,7 +329,7 @@ Access type: Read-only
 
 The associated reverse lookup zone name for this range.
 
-**Windows Server 2012 R2:** This parameter not supported before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter not supported before Windows Server 2016.
 
 </dd> <dt>
 
@@ -388,7 +391,7 @@ The customer address space that contains the address range.
 > [!Note]  
 > This property is only populated when the **NetworkType** property is set to "3" (Customer).
 
- 
+ 
 
 </dd> <dt>
 
@@ -544,7 +547,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -559,7 +562,7 @@ Access type: Read-only
 
 Whether the access scope for this range is inherited from parent.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -719,7 +722,7 @@ The provider address space that contains the address range.
 > [!Note]  
 > This property is only populated when the **NetworkType** property is set to "2" (Provider).
 
- 
+ 
 
 </dd> <dt>
 
@@ -737,7 +740,7 @@ An array that contains the reserved IP addresses in the address range.
 > [!Note]  
 > These IP addresses are excluded from queries, when searching for free IP addresses.
 
- 
+ 
 
 </dd> <dt>
 
@@ -888,7 +891,7 @@ An array that contains the virtual IP addresses in the address range.
 > [!Note]  
 > These IP addresses are excluded from queries, when searching for free IP addresses.
 
- 
+ 
 
 </dd> <dt>
 
@@ -925,7 +928,7 @@ An array that contains the WINS servers associated with the address range.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | RootMicrosoftIPAM<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -942,9 +945,9 @@ An array that contains the WINS servers associated with the address range.
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

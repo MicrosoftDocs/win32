@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns time position in the local timeframe of an animation set.'
-ms.assetid: 'd822e1d8-f371-43a1-bbcf-2223e28a200a'
-title: 'ID3DXAnimationSet::GetPeriodicPosition method'
+---
+Description: Returns time position in the local timeframe of an animation set.
+ms.assetid: d822e1d8-f371-43a1-bbcf-2223e28a200a
+title: ID3DXAnimationSetGetPeriodicPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationSet::GetPeriodicPosition method

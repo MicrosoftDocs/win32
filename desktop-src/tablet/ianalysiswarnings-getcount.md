@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the number of IAnalysisWarning objects contained in the IAnalysisWarnings collection.'
-ms.assetid: 'a0ad46d5-fb1b-40f6-bfc1-28ea1bf4eb44'
-title: 'IAnalysisWarnings::GetCount method'
+Description: Gets the number of IAnalysisWarning objects contained in the IAnalysisWarnings collection.
+ms.assetid: a0ad46d5-fb1b-40f6-bfc1-28ea1bf4eb44
+title: IAnalysisWarningsGetCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisWarnings::GetCount method
@@ -13,7 +18,7 @@ Gets the number of [**IAnalysisWarning**](ianalysiswarning.md) objects contained
 
 ```C++
 HRESULT GetCount(
-  [out, retval] ULONG *pulCount
+  [out, retval] ULONG *pulCount
 );
 ```
 
@@ -123,7 +128,7 @@ STDMETHODIMP CMyClass::Results(
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -140,9 +145,9 @@ STDMETHODIMP CMyClass::Results(
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

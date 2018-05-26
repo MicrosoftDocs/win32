@@ -1,7 +1,12 @@
 ---
-Description: 'An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.'
-ms.assetid: 'c5016251-db7a-4edc-9be9-3acb03d495f8'
+Description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
+ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application Manifests
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Manifests
@@ -17,24 +22,24 @@ Application manifests have the following elements and attributes.
 | Element                               | Attributes                | Required |
 |---------------------------------------|---------------------------|----------|
 | **assembly**                          |                           | Yes      |
-|                                       | **manifestVersion**       | Yes      |
+|                                       | **manifestVersion**       | Yes      |
 | **noInherit**                         |                           | No       |
 | **assemblyIdentity**                  |                           | Yes      |
-|                                       | **type**                  | Yes      |
-|                                       | **name**                  | Yes      |
-|                                       | **language**              | No       |
-|                                       | **processorArchitecture** | No       |
-|                                       | **version**               | Yes      |
-|                                       | **publicKeyToken**        | No       |
+|                                       | **type**                  | Yes      |
+|                                       | **name**                  | Yes      |
+|                                       | **language**              | No       |
+|                                       | **processorArchitecture** | No       |
+|                                       | **version**               | Yes      |
+|                                       | **publicKeyToken**        | No       |
 | **compatibility**                     |                           | No       |
 | **application**                       |                           | No       |
 | **supportedOS**                       | **Id**                    | No       |
 | **dependency**                        |                           | No       |
 | **dependentAssembly**                 |                           | No       |
 | **file**                              |                           | No       |
-|                                       | **name**                  | No       |
-|                                       | **hashalg**               | No       |
-|                                       | **hash**                  | No       |
+|                                       | **name**                  | No       |
+|                                       | **hashalg**               | No       |
+|                                       | **hash**                  | No       |
 | **autoElevate**                       |                           | No       |
 | **disableTheming**                    |                           | No       |
 | **disableWindowFiltering**            |                           | No       |
@@ -48,7 +53,7 @@ Application manifests have the following elements and attributes.
 
 
 
- 
+ 
 
 ## File Location
 
@@ -89,7 +94,7 @@ The **assembly** element has the following attributes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -124,14 +129,14 @@ The **assemblyIdentity** element has the following attributes. It has no subelem
 
 
 
- 
+ 
 
 </dd> <dt>
 
 <span id="compatibility"></span><span id="COMPATIBILITY"></span>**compatibility**
 </dt> <dd>
 
-Contains at least one **application**. It has no attributes. Optional. Application manifests without a compatibility element default to Windows Vista compatibility on Windows 7.
+Contains at least one **application**. It has no attributes. Optional. Application manifests without a compatibility element default to Windows Vista compatibility on Windows 7.
 
 </dd> <dt>
 
@@ -151,11 +156,11 @@ The **supportedOS** element has the following attribute. It has no subelements.
 
 | Attribute | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](http://www.microsoft.com/download/details.aspx?id=27416).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -&gt; Windows 10 and Windows Server 2016<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -&gt; Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -&gt; Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -&gt; Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -&gt; Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
+| **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](http://www.microsoft.com/download/details.aspx?id=27416).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -&gt; Windows 10 and Windows Server 2016<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -&gt; Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -&gt; Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -&gt; Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -&gt; Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -190,7 +195,7 @@ The **file** element has the attributes shown in the following table.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -211,7 +216,7 @@ Specifies whether giving UI elements a theme is disabled. **TRUE** indicates dis
 <span id="disableWindowFiltering"></span><span id="disablewindowfiltering"></span><span id="DISABLEWINDOWFILTERING"></span>**disableWindowFiltering**
 </dt> <dd>
 
-Specifies whether to disable window filtering. **TRUE** disables window filtering so you can enumerate immersive windows from the desktop. **disableWindowFiltering** was added in Windows 8 and has no attributes.
+Specifies whether to disable window filtering. **TRUE** disables window filtering so you can enumerate immersive windows from the desktop. **disableWindowFiltering** was added in Windows 8 and has no attributes.
 
 
 ```XML
@@ -235,7 +240,7 @@ Specifies whether to disable window filtering. **TRUE** disables window filterin
 
 Specifies whether the current process is dots per inch (dpi) aware.
 
-**Windows 10, version 1607:** The **dpiAware** element is ignored if the **dpiAwareness** element is present. You can include both elements in a manifest if you want to specify a different behavior for Windows 10, version 1607 than for an earlier version of the operating system.
+**Windows 10, version 1607:** The **dpiAware** element is ignored if the **dpiAwareness** element is present. You can include both elements in a manifest if you want to specify a different behavior for Windows 10, version 1607 than for an earlier version of the operating system.
 
 The following table describes the behavior that results based upon the presence of the **dpiAware** element and the text that it contains. The text within the element is not case-sensitive.
 
@@ -245,14 +250,14 @@ The following table describes the behavior that results based upon the presence 
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Absent                            | The current process is dpi unaware by default. You can programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.                                                                                                                                                            |
 | Contains "true"                   | The current process is system dpi aware.                                                                                                                                                                                                                                                                                                                                                          |
-| Contains "false"                  | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.<br/> |
-| Contains "true/pm"                | **Windows Vista, Windows 7 and Windows 8:** The current process is system dpi aware.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                                          |
-| Contains "per monitor"            | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                      |
-| Contains any other string         | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.<br/> |
+| Contains "false"                  | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.<br/> |
+| Contains "true/pm"                | **Windows Vista, Windows 7 and Windows 8:** The current process is system dpi aware.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                                          |
+| Contains "per monitor"            | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is per-monitor dpi aware.<br/>                                                                                                                                                                                      |
+| Contains any other string         | **Windows Vista, Windows 7 and Windows 8:** The behavior is the same as when the **dpiAware** is absent.<br/> **Windows 8.1 and Windows 10:** The current process is dpi unaware, and you cannot programmatically change this setting by calling the [**SetProcessDpiAwareness**](https://msdn.microsoft.com/library/windows/desktop/dn302122) or [**SetProcessDPIAware**](https://msdn.microsoft.com/library/windows/desktop/ms633543) function.<br/> |
 
 
 
- 
+ 
 
 For more information about dpi awareness settings, see [Comparison of DPI Awareness Levels](https://msdn.microsoft.com/library/windows/desktop/dn469266#comparison-of-dpi-awareness-levels).
 
@@ -280,7 +285,7 @@ For more information about dpi awareness settings, see [Comparison of DPI Awaren
 
 Specifies whether the current process is dots per inch (dpi) aware.
 
-The minimum version of the operating system that supports the **dpiAwareness** element is Windows 10, version 1607. For versions that support the **dpiAwareness** element, the **dpiAwareness** overrides the **dpiAware** element. You can include both elements in a manifest if you want to specify a different behavior for Windows 10, version 1607 than for an earlier version of the operating system.
+The minimum version of the operating system that supports the **dpiAwareness** element is Windows 10, version 1607. For versions that support the **dpiAwareness** element, the **dpiAwareness** overrides the **dpiAware** element. You can include both elements in a manifest if you want to specify a different behavior for Windows 10, version 1607 than for an earlier version of the operating system.
 
 The **dpiAwareness** element can contain a single item or a list of comma-separated items. In the latter case, the first (leftmost) item in the list recognized by the operating system is used. In this way, you can specify different behaviors supported in future Windows operating system versions.
 
@@ -299,7 +304,7 @@ The following table describes the behavior that results based upon the presence 
 
 
 
- 
+ 
 
 For more information about dpi awareness settings supported by this element, see [DPI\_AWARENESS](https://msdn.microsoft.com/library/windows/desktop/mt748620) and [DPI\_AWARENESS\_CONTEXT](https://msdn.microsoft.com/library/windows/desktop/mt791579).
 
@@ -367,7 +372,7 @@ Specifies whether magic-future setting is enabled. **TRUE** indicates that it is
 <span id="printerDriverIsolation"></span><span id="printerdriverisolation"></span><span id="PRINTERDRIVERISOLATION"></span>**printerDriverIsolation**
 </dt> <dd>
 
-Specifies whether printer driver isolation is enabled. **TRUE** indicates that it is enabled. It has no attributes. Printer driver isolation improves the reliability of the Windows print service by enabling printer drivers to run in processes that are separate from the process in which the print spooler runs. Support for printer driver isolation started in Windows 7 and Windows Server 2008 R2. An app can declare printer driver isolation in its app manifest to isolate itself from the printer driver and improve its reliability. That is, the app won't crash if the printer driver has an error.
+Specifies whether printer driver isolation is enabled. **TRUE** indicates that it is enabled. It has no attributes. Printer driver isolation improves the reliability of the Windows print service by enabling printer drivers to run in processes that are separate from the process in which the print spooler runs. Support for printer driver isolation started in Windows 7 and Windows Server 2008 R2. An app can declare printer driver isolation in its app manifest to isolate itself from the printer driver and improve its reliability. That is, the app won't crash if the printer driver has an error.
 
 
 ```XML
@@ -434,9 +439,9 @@ The following is an example of an application manifest for an application named 
 </assembly>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

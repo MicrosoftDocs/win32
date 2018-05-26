@@ -1,7 +1,12 @@
 ---
 Description: Basic DirectShow Tasks
-ms.assetid: 'eb064064-1b18-4e89-8555-258e8538338c'
+ms.assetid: eb064064-1b18-4e89-8555-258e8538338c
 title: Basic DirectShow Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic DirectShow Tasks

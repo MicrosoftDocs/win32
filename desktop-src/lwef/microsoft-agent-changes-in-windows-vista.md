@@ -1,7 +1,12 @@
 ---
 title: Microsoft Agent Changes in Windows Vista
 description: Microsoft Agent Changes in Windows Vista
-ms.assetid: '2498e8d5-2274-477c-a807-77443c76afb7'
+ms.assetid: 2498e8d5-2274-477c-a807-77443c76afb7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Agent Changes in Windows Vista

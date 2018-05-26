@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a named Boolean value from a BLOB.'
-ms.assetid: '26acfd2a-5b17-47ad-8f7b-7793174a13c3'
+Description: Retrieves a named Boolean value from a BLOB.
+ms.assetid: 26acfd2a-5b17-47ad-8f7b-7793174a13c3
 title: GetBoolFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetBoolFromBlob function
@@ -13,11 +18,11 @@ The **GetBoolFromBlob** function retrieves a named Boolean value from a BLOB.
 
 ```C++
 DWORD GetBoolFromBlob(
-  _In_        HBLOB hBlob,
-  _In_  const char  *pOwnerName,
-  _In_  const char  *pCategoryName,
-  _In_  const char  *pTagName,
-  _Out_       BOOL  *pBool
+  _In_        HBLOB hBlob,
+  _In_  const char  *pOwnerName,
+  _In_  const char  *pCategoryName,
+  _In_  const char  *pTagName,
+  _Out_       BOOL  *pBool
 );
 ```
 
@@ -74,8 +79,8 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -116,9 +121,9 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

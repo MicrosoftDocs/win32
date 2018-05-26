@@ -1,7 +1,12 @@
 ---
 title: MaxWordListIoDiskPerf
 description: MaxWordListIoDiskPerf
-ms.assetid: '0561f689-768c-4078-9530-94a956a9c707'
+ms.assetid: 0561f689-768c-4078-9530-94a956a9c707
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaxWordListIoDiskPerf

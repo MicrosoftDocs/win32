@@ -1,7 +1,12 @@
 ---
-Description: 'The Function discovery provider programming interface defines and uses the following interfaces:'
-ms.assetid: '93fc14c4-0d8e-42fa-ae0b-de2cf1d6a9d0'
+Description: The Function discovery provider programming interface defines and uses the following interfaces
+ms.assetid: 93fc14c4-0d8e-42fa-ae0b-de2cf1d6a9d0
 title: Function discovery provider Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function discovery provider Interfaces
@@ -10,14 +15,14 @@ title: Function discovery provider Interfaces
 
 The Function discovery provider programming interface defines and uses the following interfaces:
 
--   [**IFunctionDiscoveryProvider**](ifunctiondiscoveryprovider.md)
--   [**IFunctionDiscoveryProviderFactory**](ifunctiondiscoveryproviderfactory.md)
--   [**IFunctionDiscoveryProviderQuery**](ifunctiondiscoveryproviderquery.md)
--   [**IFunctionDiscoveryServiceProvider**](ifunctiondiscoveryserviceprovider.md)
--   [**IProviderProperties**](iproviderproperties.md)
--   [**IProviderPropertyConstraintCollection**](iproviderpropertyconstraintcollection.md)
--   [**IProviderPublishing**](iproviderpublishing.md)
--   [**IProviderQueryConstraintCollection**](iproviderqueryconstraintcollection.md)
+-   [**IFunctionDiscoveryProvider**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider?branch=master)
+-   [**IFunctionDiscoveryProviderFactory**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory?branch=master)
+-   [**IFunctionDiscoveryProviderQuery**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery?branch=master)
+-   [**IFunctionDiscoveryServiceProvider**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider?branch=master)
+-   [**IProviderProperties**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-iproviderproperties?branch=master)
+-   [**IProviderPropertyConstraintCollection**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-iproviderpropertyconstraintcollection?branch=master)
+-   [**IProviderPublishing**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-iproviderpublishing?branch=master)
+-   [**IProviderQueryConstraintCollection**](/windows/win32/FunctionDiscoveryProvider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection?branch=master)
 
  
 

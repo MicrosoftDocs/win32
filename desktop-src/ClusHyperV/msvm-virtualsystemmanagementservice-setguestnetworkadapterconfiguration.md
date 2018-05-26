@@ -4,13 +4,16 @@ description: Configures the network adapters in a guest operating system. These 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '23949634-a35f-469a-a292-aa3ed1d6f91c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 23949634-a35f-469a-a292-aa3ed1d6f91c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetGuestNetworkAdapterConfiguration method", "SetGuestNetworkAdapterConfiguration method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, SetGuestNetworkAdapterConfiguration method"]
+keywords:
+- SetGuestNetworkAdapterConfiguration method
+- SetGuestNetworkAdapterConfiguration method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, SetGuestNetworkAdapterConfiguration method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetGuestNetworkAdapterConfiguration method of the Msvm\_VirtualSystemManagementService class
@@ -30,9 +36,9 @@ Configures the network adapters in a guest operating system. These configuration
 
 ```mof
 uint32 SetGuestNetworkAdapterConfiguration(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 NetworkConfiguration[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 NetworkConfiguration[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -115,7 +121,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -129,9 +135,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Opens a connection to a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2501e921-5b0a-429f-aa7f-56191ab9795b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2501e921-5b0a-429f-aa7f-56191ab9795b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["OpenCluster method Failover Cluster", "OpenCluster method Failover Cluster , ClusApplication object", "ClusApplication object Failover Cluster , OpenCluster method"]
+keywords:
+- OpenCluster method Failover Cluster
+- OpenCluster method Failover Cluster , ClusApplication object
+- ClusApplication object Failover Cluster , OpenCluster method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusApplication.OpenCluster method
@@ -58,7 +64,7 @@ A [**Cluster**](cluster-object.md) object that receives the opened connection.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -77,9 +83,9 @@ A [**Cluster**](cluster-object.md) object that receives the opened connection.
 [**Cluster**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

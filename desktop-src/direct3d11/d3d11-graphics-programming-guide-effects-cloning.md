@@ -1,7 +1,12 @@
 ---
 title: Cloning an Effect
 description: Cloning an effect creates a second, almost identical copy of the effect.
-ms.assetid: 'e3870363-5ee8-4fdc-a489-cdaeef8c9c39'
+ms.assetid: e3870363-5ee8-4fdc-a489-cdaeef8c9c39
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cloning an Effect

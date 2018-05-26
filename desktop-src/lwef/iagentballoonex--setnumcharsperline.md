@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloonEx SetNumCharsPerLine
 description: IAgentBalloonEx SetNumCharsPerLine
-ms.assetid: '44025b6b-ed42-4476-b841-c244accf0f83'
+ms.assetid: 44025b6b-ed42-4476-b841-c244accf0f83
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloonEx::SetNumCharsPerLine

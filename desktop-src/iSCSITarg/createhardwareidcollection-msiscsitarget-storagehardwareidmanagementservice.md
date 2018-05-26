@@ -4,13 +4,16 @@ description: Creates a new instance of CIM\_SystemSpecificCollection and associa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5c88c86a-4953-483f-842b-cf223e67651e'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5c88c86a-4953-483f-842b-cf223e67651e
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateHardwareIDCollection method iSCSI Software Target API", "CreateHardwareIDCollection method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class", "MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , CreateHardwareIDCollection method"]
+keywords:
+- CreateHardwareIDCollection method iSCSI Software Target API
+- CreateHardwareIDCollection method iSCSI Software Target API , MSISCSITARGET_StorageHardwareIDManagementService class
+- MSISCSITARGET_StorageHardwareIDManagementService class iSCSI Software Target API , CreateHardwareIDCollection method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateHardwareIDCollection method of the MSISCSITARGET\_StorageHardwareIDManagementService class
@@ -32,9 +38,9 @@ This method is inherited from the **CIM\_StorageHardwareIDManagementService** cl
 
 ```mof
 uint32 CreateHardwareIDCollection(
-  [in]  string                           ElementName,
-  [in]  string                           HardwareIDs[],
-  [out] CIM_SystemSpecificCollection Ref Collection
+  [in]  string                           ElementName,
+  [in]  string                           HardwareIDs[],
+  [out] CIM_SystemSpecificCollection Ref Collection
 );
 ```
 
@@ -87,7 +93,7 @@ On return, contains the new **CIM\_SystemSpecificCollection** instance.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–0x0FFF)
+**DMTF Reserved** (6 0x0FFF)
 </dt> <dt>
 
 **Invalid HardwareID instance** (0x1000)
@@ -99,10 +105,10 @@ On return, contains the new **CIM\_SystemSpecificCollection** instance.
 **Input hardware IDs cannot be used in same collection** (0x1002)
 </dt> <dt>
 
-**Method Reserved** (0x1003–0x7FFF)
+**Method Reserved** (0x1003 0x7FFF)
 </dt> <dt>
 
-**Vendor Specific** (0x8000–0xFFFF)
+**Vendor Specific** (0x8000 0xFFFF)
 </dt> </dl>
 
 ## Requirements
@@ -112,7 +118,7 @@ On return, contains the new **CIM\_SystemSpecificCollection** instance.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -126,9 +132,9 @@ On return, contains the new **CIM\_SystemSpecificCollection** instance.
 [**MSISCSITARGET\_StorageHardwareIDManagementService**](msiscsitarget-storagehardwareidmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

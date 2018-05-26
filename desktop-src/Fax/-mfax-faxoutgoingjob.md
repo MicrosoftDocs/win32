@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxOutgoingJob object is used by a fax client application to retrieve information about an outgoing fax job in a fax server''s queue.'
-ms.assetid: 'f9686d11-fd32-4eaf-ae93-399dacf028ac'
+---
+Description: The FaxOutgoingJob object is used by a fax client application to retrieve information about an outgoing fax job in a fax servers queue.
+ms.assetid: f9686d11-fd32-4eaf-ae93-399dacf028ac
 title: FaxOutgoingJob object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingJob object
@@ -83,7 +88,7 @@ A **FaxOutgoingJob** object is accessed through a [**FaxOutgoingJobs**](-mfax-fa
 
 To create a **FaxOutgoingJob** object in Microsoft Visual Basic, retrieve the [**Item**](-mfax-faxoutgoingjobs-item.md) property of the **FaxOutgoingJob** object.
 
-To create a [**IFaxOutgoingJob**](-mfax-faxoutgoingjob-cpp.md) object in C++, call the [**get\_Item**](-mfax-faxoutgoingjobs-item-cpp.md) method.
+To create a [**IFaxOutgoingJob**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingjob?branch=master) object in C++, call the [**get\_Item**](/windows/previous-versions/FaxComex/nf-faxcomex-ifaxoutgoingjobs-get_item?branch=master) method.
 
 ## Requirements
 

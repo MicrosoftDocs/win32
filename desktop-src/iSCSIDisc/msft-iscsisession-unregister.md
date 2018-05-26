@@ -1,7 +1,12 @@
 ---
-Description: 'Unregisters the iSCSI session so that it is no longer persistent.'
-ms.assetid: '28C57A15-682E-4DC7-8443-AEDDD09D1829'
-title: 'Unregister method of the MSFT\_iSCSISession class'
+Description: Unregisters the iSCSI session so that it is no longer persistent.
+ms.assetid: 28C57A15-682E-4DC7-8443-AEDDD09D1829
+title: Unregister method of the MSFT\_iSCSISession class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unregister method of the MSFT\_iSCSISession class
@@ -29,8 +34,8 @@ This method has no parameters.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Iscsiwmiv2.mof</dt> </dl> |
 
@@ -43,9 +48,9 @@ This method has no parameters.
 [**MSFT\_iSCSISession**](msft-iscsisession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: instrumentationManifest Element
 description: The root node of the manifest.
-ms.assetid: 'cb7b5201-be11-48f9-bcca-4606904f0c1d'
-keywords: ["instrumentationManifest element EventLog"]
+ms.assetid: cb7b5201-be11-48f9-bcca-4606904f0c1d
+keywords:
+- instrumentationManifest element EventLog
 topic_type:
 - apiref
 api_name:
 - instrumentationManifest
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # instrumentationManifest Element
@@ -153,14 +159,14 @@ The following example shows the skeleton of a fully defined instrumentation mani
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

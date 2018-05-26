@@ -1,7 +1,12 @@
 ---
-Description: 'Pointer to a function that gets called from the DLL entry point. Can be NULL.'
-ms.assetid: '0769f55b-6f0d-4a89-9d3f-64f211426342'
-title: 'CFactoryTemplate::m\_lpfnInit member'
+Description: Pointer to a function that gets called from the DLL entry point. Can be NULL.
+ms.assetid: 0769f55b-6f0d-4a89-9d3f-64f211426342
+title: CFactoryTemplatem\_lpfnInit member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CFactoryTemplate::m\_lpfnInit member
@@ -42,9 +47,9 @@ The function pointer type is [**LPFNInitRoutine**](lpfninitroutine.md). If you p
 [**CFactoryTemplate Class**](cfactorytemplate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel data for use with precomputed radiance transfer (PRT) methods and functions.'
-ms.assetid: '36c1fd13-0949-4991-93cb-41ace458802d'
+---
+Description: The ID3DXPRTBuffer interface is used as a data buffer to store vertex and pixel data for use with precomputed radiance transfer (PRT) methods and functions.
+ms.assetid: 36c1fd13-0949-4991-93cb-41ace458802d
 title: ID3DXPRTBuffer interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTBuffer interface
@@ -25,7 +30,7 @@ The **ID3DXPRTBuffer** interface has these methods.
 | [**AddBuffer**](id3dxprtbuffer--addbuffer.md)           | Adds another buffer to the **ID3DXPRTBuffer** and stores the results in **ID3DXPRTBuffer**.<br/>                                                                                        |
 | [**AttachGH**](id3dxprtbuffer--attachgh.md)             | Associates an [**ID3DXTextureGutterHelper**](id3dxtexturegutterhelper.md) object with the **ID3DXPRTBuffer** object.<br/>                                                              |
 | [**EvalGH**](id3dxprtbuffer--evalgh.md)                 | Applies stored texture gutter data to an **ID3DXPRTBuffer** texture buffer.<br/>                                                                                                        |
-| [**ExtractTexture**](id3dxprtbuffer--extracttexture.md) | Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](idirect3dtexture9.md) object.<br/> |
+| [**ExtractTexture**](id3dxprtbuffer--extracttexture.md) | Extracts coefficient data from a color channel of the buffer for a specified range of coefficients, and adds the data to an [**IDirect3DTexture9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dtexture9?branch=master) object.<br/> |
 | [**ExtractToMesh**](id3dxprtbuffer--extracttomesh.md)   | Extracts coefficient data from a single-channel buffer and adds the data to an [**ID3DXMesh**](id3dxmesh.md) object.<br/>                                                              |
 | [**GetHeight**](id3dxprtbuffer--getheight.md)           | Retrieves the height of the texture, in pixels.<br/>                                                                                                                                    |
 | [**GetNumChannels**](id3dxprtbuffer--getnumchannels.md) | Retrieves the number of color channels used in memory to store samples.<br/>                                                                                                            |

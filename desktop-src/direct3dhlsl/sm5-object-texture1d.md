@@ -1,14 +1,20 @@
 ---
 title: Texture1D
 description: Texture1D
-ms.assetid: '5f6fd0e4-a73e-4d13-b3a0-c884b7912581'
-keywords: ["Texture1D HLSL"]
+ms.assetid: 5f6fd0e4-a73e-4d13-b3a0-c884b7912581
+keywords:
+- Texture1D HLSL
 topic_type:
 - apiref
 api_name:
 - Texture1D
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture1D

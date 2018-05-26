@@ -1,6 +1,11 @@
 ---
-ms.assetid: 'b474e2b0-4491-4b0f-ab93-9e3080330d55'
+ms.assetid: b474e2b0-4491-4b0f-ab93-9e3080330d55
 title: Performance Counters Complex Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance Counters Complex Types

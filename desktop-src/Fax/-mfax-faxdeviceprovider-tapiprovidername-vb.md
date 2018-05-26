@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TapiProviderName property is a null-terminated string that contains the name of the telephony service provider (TSP) associated with the fax service provider (FSP) fax devices.'
-ms.assetid: '2f1080d5-22e2-4b4d-9f3f-7166468a3e0d'
-title: 'FaxDeviceProvider.TapiProviderName property'
+---
+Description: The TapiProviderName property is a null-terminated string that contains the name of the telephony service provider (TSP) associated with the fax service provider (FSP) fax devices.
+ms.assetid: 2f1080d5-22e2-4b4d-9f3f-7166468a3e0d
+title: FaxDeviceProvider.TapiProviderName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDeviceProvider.TapiProviderName property
@@ -46,7 +51,7 @@ A **String** that receives the name of the TSP associated with the FSP fax devic
 [**FaxDeviceProvider**](-mfax-faxdeviceprovider.md)
 </dt> <dt>
 
-[**IFaxDeviceProvider**](-mfax-faxdeviceprovider-cpp.md)
+[**IFaxDeviceProvider**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdeviceprovider?branch=master)
 </dt> </dl>
 
  

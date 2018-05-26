@@ -1,7 +1,12 @@
 ---
 title: Virtual Server Features
 description: Microsoft Virtual Server contains many of the same features as Microsoft Virtual PC, in addition to many powerful new features.
-ms.assetid: '2fdc6715-139c-4835-af46-210daaf8bab0'
+ms.assetid: 2fdc6715-139c-4835-af46-210daaf8bab0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual Server Features

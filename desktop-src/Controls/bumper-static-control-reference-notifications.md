@@ -1,7 +1,12 @@
 ---
 title: Static Control Notifications
 description: .
-ms.assetid: '359f7855-85e9-49d9-b73d-a82d441ba957'
+ms.assetid: 359f7855-85e9-49d9-b73d-a82d441ba957
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Static Control Notifications

@@ -1,7 +1,12 @@
 ---
-Description: 'You may apply the small update to a local installation of MNP2000 with the sample patch MNPpatch.msp created in Generating a Patch Package.'
-ms.assetid: '928182ae-5ddb-446f-a9b8-e8b3aa4ce49c'
+Description: You may apply the small update to a local installation of MNP2000 with the sample patch MNPpatch.msp created in Generating a Patch Package.
+ms.assetid: 928182ae-5ddb-446f-a9b8-e8b3aa4ce49c
 title: Applying a Patch Package to a Local Installation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Applying a Patch Package to a Local Installation

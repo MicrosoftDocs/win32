@@ -1,51 +1,56 @@
 ---
-Description: 'This topic lists the methods of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.'
-ms.assetid: '17dc4bef-a8ee-4ff2-ade0-ff5cdb0633df'
+Description: This topic lists the methods of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
+ms.assetid: 17dc4bef-a8ee-4ff2-ade0-ff5cdb0633df
 title: PathGradientBrush Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PathGradientBrush Methods
 
-This topic lists the methods of the [**PathGradientBrush**](-gdiplus-class-pathgradientbrush-class.md) class. For a complete class listing, see **PathGradientBrushXX Class**.
+This topic lists the methods of the [**PathGradientBrush**](/windows/win32/gdipluspath/nl-gdipluspath-pathgradientbrush?branch=master) class. For a complete class listing, see **PathGradientBrushXX Class**.
 
--   [**Clone**](-gdiplus-class-brush-clone-.md)
--   [**GetBlend**](-gdiplus-class-pathgradientbrush-getblend-blendfactors-blendpositions-count-.md)
--   [**GetBlendCount**](-gdiplus-class-pathgradientbrush-getblendcount-.md)
--   [**GetCenterColor**](-gdiplus-class-pathgradientbrush-getcentercolor-color-.md)
--   [**GetCenterPoint(Point\*)**](-gdiplus-class-pathgradientbrush-getcenterpoint-point-point-.md)
--   [**GetCenterPoint(PointF\*)**](-gdiplus-class-pathgradientbrush-getcenterpoint-pointf-point-.md)
--   [**GetFocusScales**](-gdiplus-class-pathgradientbrush-getfocusscales-xscale-yscale-.md)
--   [**GetGammaCorrection**](-gdiplus-class-pathgradientbrush-getgammacorrection-.md)
--   [**GetGraphicsPath**](-gdiplus-class-pathgradientbrush-getgraphicspath-path-.md)
--   [**GetInterpolationColorCount**](-gdiplus-class-pathgradientbrush-getinterpolationcolorcount-.md)
--   [**GetInterpolationColors**](-gdiplus-class-pathgradientbrush-getinterpolationcolors-presetcolors-blendpositions-count-.md)
--   [**GetLastStatus**](-gdiplus-class-brush-getlaststatus-.md)
--   [**GetPointCount**](-gdiplus-class-pathgradientbrush-getpointcount-.md)
--   [**GetRectangle(RectF\*)**](-gdiplus-class-pathgradientbrush-getrectangle-rectf-rect-.md)
--   [**GetRectangle(Rect\*)**](-gdiplus-class-pathgradientbrush-getrectangle-rect-rect-.md)
--   [**GetSurroundColorCount**](-gdiplus-class-pathgradientbrush-getsurroundcolorcount-.md)
--   [**GetSurroundColors**](-gdiplus-class-pathgradientbrush-getsurroundcolors-colors-count-.md)
--   [**GetTransform**](-gdiplus-class-pathgradientbrush-gettransform-matrix-.md)
--   [**GetType**](-gdiplus-class-brush-gettype-.md)
--   [**GetWrapMode**](-gdiplus-class-pathgradientbrush-getwrapmode-.md)
--   [**MultiplyTransform**](-gdiplus-class-pathgradientbrush-multiplytransform-matrix-order-.md)
--   [**ResetTransform**](-gdiplus-class-pathgradientbrush-resettransform-.md)
--   [**RotateTransform**](-gdiplus-class-pathgradientbrush-rotatetransform-angle-order-.md)
--   [**ScaleTransform**](-gdiplus-class-pathgradientbrush-scaletransform-sx-sy-order-.md)
--   [**SetBlend**](-gdiplus-class-pathgradientbrush-setblend-blendfactors-blendpositions-count-.md)
--   [**SetBlendBellShape**](-gdiplus-class-pathgradientbrush-setblendbellshape-focus-scale-.md)
--   [**SetBlendTriangularShape**](-gdiplus-class-pathgradientbrush-setblendtriangularshape-focus-scale-.md)
--   [**SetCenterColor**](-gdiplus-class-pathgradientbrush-setcentercolor-color-.md)
--   [**SetCenterPoint(Point&)**](-gdiplus-class-pathgradientbrush-setcenterpoint-point-point-.md)
--   [**SetCenterPoint(PointF&)**](-gdiplus-class-pathgradientbrush-setcenterpoint-pointf-point-.md)
--   [**SetFocusScales**](-gdiplus-class-pathgradientbrush-setfocusscales-xscale-yscale-.md)
--   [**SetGammaCorrection**](-gdiplus-class-pathgradientbrush-setgammacorrection-usegammacorrection-.md)
--   [**SetGraphicsPath**](-gdiplus-class-pathgradientbrush-setgraphicspath-path-.md)
--   [**SetInterpolationColors**](-gdiplus-class-pathgradientbrush-setinterpolationcolors-presetcolors-blendpositions-count-.md)
--   [**SetSurroundColors**](-gdiplus-class-pathgradientbrush-setsurroundcolors-colors-count-.md)
--   [**SetTransform**](-gdiplus-class-pathgradientbrush-settransform-matrix-.md)
--   [**SetWrapMode**](-gdiplus-class-pathgradientbrush-setwrapmode-wrapmode-.md)
--   [**TranslateTransform**](-gdiplus-class-pathgradientbrush-translatetransform-dx-dy-order-.md)
+-   [**Clone**](/windows/win32/Gdiplusbrush/nf-gdiplusbrush-brush-clone?branch=master)
+-   [**GetBlend**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getblend?branch=master)
+-   [**GetBlendCount**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount?branch=master)
+-   [**GetCenterColor**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getcentercolor?branch=master)
+-   [**GetCenterPoint(Point\*)**](/windows/win32/Gdipluspath/?branch=master)
+-   [**GetCenterPoint(PointF\*)**](/windows/win32/Gdipluspath/?branch=master)
+-   [**GetFocusScales**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getfocusscales?branch=master)
+-   [**GetGammaCorrection**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getgammacorrection?branch=master)
+-   [**GetGraphicsPath**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getgraphicspath?branch=master)
+-   [**GetInterpolationColorCount**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolorcount?branch=master)
+-   [**GetInterpolationColors**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getinterpolationcolors?branch=master)
+-   [**GetLastStatus**](/windows/win32/Gdiplusbrush/nf-gdiplusbrush-brush-getlaststatus?branch=master)
+-   [**GetPointCount**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getpointcount?branch=master)
+-   [**GetRectangle(RectF\*)**](/windows/win32/Gdipluspath/?branch=master)
+-   [**GetRectangle(Rect\*)**](/windows/win32/Gdipluspath/?branch=master)
+-   [**GetSurroundColorCount**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolorcount?branch=master)
+-   [**GetSurroundColors**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolors?branch=master)
+-   [**GetTransform**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-gettransform?branch=master)
+-   [**GetType**](/windows/win32/Gdiplusbrush/nf-gdiplusbrush-brush-gettype?branch=master)
+-   [**GetWrapMode**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-getwrapmode?branch=master)
+-   [**MultiplyTransform**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-multiplytransform?branch=master)
+-   [**ResetTransform**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-resettransform?branch=master)
+-   [**RotateTransform**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-rotatetransform?branch=master)
+-   [**ScaleTransform**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-scaletransform?branch=master)
+-   [**SetBlend**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setblend?branch=master)
+-   [**SetBlendBellShape**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setblendbellshape?branch=master)
+-   [**SetBlendTriangularShape**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setblendtriangularshape?branch=master)
+-   [**SetCenterColor**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setcentercolor?branch=master)
+-   [**SetCenterPoint(Point&)**](/windows/win32/Gdipluspath/?branch=master)
+-   [**SetCenterPoint(PointF&)**](/windows/win32/Gdipluspath/?branch=master)
+-   [**SetFocusScales**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setfocusscales?branch=master)
+-   [**SetGammaCorrection**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setgammacorrection?branch=master)
+-   [**SetGraphicsPath**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setgraphicspath?branch=master)
+-   [**SetInterpolationColors**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors?branch=master)
+-   [**SetSurroundColors**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors?branch=master)
+-   [**SetTransform**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-settransform?branch=master)
+-   [**SetWrapMode**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-setwrapmode?branch=master)
+-   [**TranslateTransform**](/windows/win32/Gdipluspath/nf-gdipluspath-pathgradientbrush-translatetransform?branch=master)
 
  
 

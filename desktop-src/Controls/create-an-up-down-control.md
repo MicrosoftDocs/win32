@@ -1,14 +1,19 @@
 ---
 title: How to Create Up-Down Controls
 description: You create up-down controls by calling the CreateWindowEx function and passing the value UPDOWN\_CLASS for the Windows class parameter lpClassName.
-ms.assetid: '9B7A5F8B-4EE5-413B-A60C-800758DD1120'
+ms.assetid: 9B7A5F8B-4EE5-413B-A60C-800758DD1120
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Up-Down Controls
 
 You create up-down controls by calling the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and passing the value [**UPDOWN\_CLASS**](common-control-window-classes.md#updown-class) for the Windows class parameter *lpClassName*.
 
-**Note**   The [**CreateUpDownControl**](createupdowncontrol.md) function is deprecated. You should use the `CreateWindowEx` function instead.
+**Note**   The [**CreateUpDownControl**](/windows/win32/Commctrl/nf-commctrl-createupdowncontrol?branch=master) function is deprecated. You should use the `CreateWindowEx` function instead.
 
 The code example featured in this topic uses an up-down control to drive a progress bar.
 
@@ -86,7 +91,7 @@ INT_PTR CALLBACK UpDownDialogProc(HWND, UINT, WPARAM, LPARAM);
 
 ### Step 3: Initialize the INITCOMMONCONTROLSEX Structure's **dwSize** Member
 
-The [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure carries the information used to load common control classes from the DLL. This structure is used with the **InitCommonControlsEx** function, which requires the structure's size in order to do its job.
+The [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure carries the information used to load common control classes from the DLL. This structure is used with the **InitCommonControlsEx** function, which requires the structure's size in order to do its job.
 
 
 ```C++

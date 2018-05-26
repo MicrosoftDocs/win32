@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_UserDevice class exposes the following methods.'
+Description: The CIM\_UserDevice class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1B5726F4-104E-4597-A03E-9CCC2D889A50'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1B5726F4-104E-4597-A03E-9CCC2D889A50
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_UserDevice Methods'
+title: CIM\_UserDevice Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_UserDevice Methods

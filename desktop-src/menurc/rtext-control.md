@@ -1,14 +1,20 @@
 ---
 title: RTEXT control
 description: Defines a right-aligned text control.
-ms.assetid: '66b890db-598e-4255-9d65-a21647005f8e'
-keywords: ["RTEXT control Menus and Other Resources"]
+ms.assetid: 66b890db-598e-4255-9d65-a21647005f8e
+keywords:
+- RTEXT control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - RTEXT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RTEXT control

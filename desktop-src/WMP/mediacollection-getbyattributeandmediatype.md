@@ -1,8 +1,11 @@
 ---
 title: MediaCollection.getByAttributeAndMediaType method
 description: The getByAttributeAndMediaType method retrieves a Playlist object containing Media objects having the specified attribute and media type.
-ms.assetid: '75241b38-ae0e-4216-b405-af9a9c71f5ec'
-keywords: ["getByAttributeAndMediaType method Windows Media Player", "getByAttributeAndMediaType method Windows Media Player , MediaCollection class", "MediaCollection class Windows Media Player , getByAttributeAndMediaType method"]
+ms.assetid: 75241b38-ae0e-4216-b405-af9a9c71f5ec
+keywords:
+- getByAttributeAndMediaType method Windows Media Player
+- getByAttributeAndMediaType method Windows Media Player , MediaCollection class
+- MediaCollection class Windows Media Player , getByAttributeAndMediaType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollection.getByAttributeAndMediaType method
@@ -83,9 +91,9 @@ This method returns a **Playlist** object
 [**Playlist Object**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

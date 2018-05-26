@@ -1,8 +1,10 @@
 ---
 title: Win32\_QuotaSetting class
 description: The Win32\_QuotaSetting \ 8194;WMI class contains setting information for disk quotas on a volume.The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
-ms.assetid: '7c58adf6-41e6-4e9f-891c-2d5c6e16aecd'
-keywords: ["Win32_QuotaSetting class", "Win32_QuotaSetting class, described"]
+ms.assetid: 7c58adf6-41e6-4e9f-891c-2d5c6e16aecd
+keywords:
+- Win32_QuotaSetting class
+- Win32_QuotaSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,11 @@ api_location:
 - Wmipdskq.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_QuotaSetting class
@@ -33,14 +40,14 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_QuotaSetting : CIM_Setting
 {
-  string  Caption;
-  sint64  DefaultLimit;
-  sint64  DefaultWarningLimit;
-  string  Description;
+  string  Caption;
+  sint64  DefaultLimit;
+  sint64  DefaultWarningLimit;
+  string  Description;
   boolean ExceededNotification;
-  string  SettingID;
-  uint32  State;
-  string  VolumePath;
+  string  SettingID;
+  uint32  State;
+  string  VolumePath;
   boolean WarningExceededNotification;
 };
 ```
@@ -69,7 +76,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64)
 </dt> </dl>
 
-Short description of the object—a one line string. This property is inherited from [**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461).
+Short description of the object a one line string. This property is inherited from [**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461).
 
 </dd> <dt>
 
@@ -87,7 +94,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) (Bytes)
 
 Default limit set for quotas on this specific volume.
 
-**Windows Server 2003 and Windows XP:** Datatype is **uint64**.
+**Windows Server 2003 and Windows XP:** Datatype is **uint64**.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -107,7 +114,7 @@ Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) (Bytes)
 
 Default warning limit set for quotas on this specific volume.
 
-**Windows Server 2003 and Windows XP:** Datatype is **uint64**.
+**Windows Server 2003 and Windows XP:** Datatype is **uint64**.
 
 For more information about using **uint64** values in scripts, see [Scripting in WMI](https://msdn.microsoft.com/library/windows/desktop/aa393262).
 
@@ -178,7 +185,7 @@ The values are:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -221,8 +228,8 @@ The **Win32\_QuotaSetting** class is derived from [**CIM\_Setting**](https://msd
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
+| Minimum supported client<br/> | Windows XP<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Wmipdskq.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipdskq.dll</dt> </dl> |
@@ -236,9 +243,9 @@ The **Win32\_QuotaSetting** class is derived from [**CIM\_Setting**](https://msd
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

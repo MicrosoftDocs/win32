@@ -1,8 +1,13 @@
 ---
 title: IVMGuestOS OSName property
 description: The OSName property contains the name of the guest operating system running in the virtual machine.
-ms.assetid: 'ab955170-c1dd-4f30-bf96-ed5b3a6169ef'
-keywords: ["OSName property Virtual Server", "OSName property Virtual Server , IVMGuestOS interface", "IVMGuestOS interface Virtual Server , OSName property", "OSName property Virtual Server , VMGuestOS interface", "VMGuestOS interface Virtual Server , OSName property"]
+ms.assetid: ab955170-c1dd-4f30-bf96-ed5b3a6169ef
+keywords:
+- OSName property Virtual Server
+- OSName property Virtual Server , IVMGuestOS interface
+- IVMGuestOS interface Virtual Server , OSName property
+- OSName property Virtual Server , VMGuestOS interface
+- VMGuestOS interface Virtual Server , OSName property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::OSName property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_OSName(
-  [out] BSTR *guestOSName
+  [out] BSTR *guestOSName
 );
 ```
 
@@ -103,8 +113,8 @@ The following is a list of the possible names returned by the various Microsoft 
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -116,9 +126,9 @@ The following is a list of the possible names returned by the various Microsoft 
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

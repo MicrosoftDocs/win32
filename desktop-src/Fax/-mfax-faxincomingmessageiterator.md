@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxIncomingMessageIterator messaging object is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received.'
-ms.assetid: '0969319b-7846-44a0-9667-161b326acea6'
+---
+Description: The FaxIncomingMessageIterator messaging object is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received.
+ms.assetid: 0969319b-7846-44a0-9667-161b326acea6
 title: FaxIncomingMessageIterator object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessageIterator object
@@ -78,7 +83,7 @@ To create a **FaxIncomingMessageIterator** object in Microsoft Visual Basic, cal
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingMessageIterator**](-mfax-faxincomingmessageiterator-cpp.md)
+[**IFaxIncomingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessageiterator?branch=master)
 </dt> </dl>
 
  

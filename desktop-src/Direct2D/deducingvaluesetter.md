@@ -1,8 +1,9 @@
 ---
 title: DeducingValueSetter
 description: Deduces the class and arguments and then calls a member-function property setter callback for a value-type property.
-ms.assetid: '4C3D64A8-0CC0-405A-A5B3-627C2DF25EA1'
-keywords: ["DeducingValueSetter Direct2D"]
+ms.assetid: 4C3D64A8-0CC0-405A-A5B3-627C2DF25EA1
+keywords:
+- DeducingValueSetter Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1effecthelpers.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeducingValueSetter
@@ -20,7 +26,7 @@ Deduces the class and arguments and then calls a member-function property setter
 > [!Note]  
 > DeducingValueSetter should not be called directly.
 
- 
+ 
 
 ``` syntax
 template<class C, typename P, typename I>
@@ -49,9 +55,9 @@ HRESULT DeducingValueSetter(
 [**Direct2D::DeducingValueGetter**](deducingvaluegetter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

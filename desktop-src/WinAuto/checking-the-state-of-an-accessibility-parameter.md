@@ -1,7 +1,12 @@
 ---
 title: Checking the State of an Accessibility Parameter
 description: The following code fragment uses the GetSystemMetrics function to check the ShowSounds parameter. If GetSystemMetrics returns TRUE, the application should present all important information in visual form.
-ms.assetid: 'fb6a0adf-ca38-4e21-9edd-1abb2efd59e5'
+ms.assetid: fb6a0adf-ca38-4e21-9edd-1abb2efd59e5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Checking the State of an Accessibility Parameter

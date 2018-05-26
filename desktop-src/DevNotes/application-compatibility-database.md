@@ -1,7 +1,12 @@
 ---
-Description: 'The compatibility infrastructure uses a database to identify application compatibility issues and their solutions.'
-ms.assetid: '3b35b758-18ca-40dd-8882-35d9b458264c'
+Description: The compatibility infrastructure uses a database to identify application compatibility issues and their solutions.
+ms.assetid: 3b35b758-18ca-40dd-8882-35d9b458264c
 title: Application Compatibility Database
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Compatibility Database

@@ -1,8 +1,25 @@
 ---
 title: The DRM Kernel Component (deprecated)
 description: The DRM Kernel Component (deprecated)
-ms.assetid: '016899fb-6d0a-4529-8649-5e8f29c89253'
-keywords: ["Windows Media Format SDK,Microsoft Secure Audio Path (SAP)", "digital rights management (DRM),Microsoft Secure Audio Path (SAP)", "DRM (digital rights management),Microsoft Secure Audio Path (SAP)", "Windows Media Format SDK,Secure Audio Path (SAP)", "digital rights management (DRM),Secure Audio Path (SAP)", "DRM (digital rights management),Secure Audio Path (SAP)", "Windows Media Format SDK,DRM kernel component", "digital rights management (DRM),kernel component", "DRM (digital rights management),kernel component", "Microsoft Secure Audio Path (SAP),DRM kernel component", "Secure Audio Path (SAP),DRM kernel component", "SAP (Secure Audio Path),DRM kernel component"]
+ms.assetid: 016899fb-6d0a-4529-8649-5e8f29c89253
+keywords:
+- Windows Media Format SDK,Microsoft Secure Audio Path (SAP)
+- digital rights management (DRM),Microsoft Secure Audio Path (SAP)
+- DRM (digital rights management),Microsoft Secure Audio Path (SAP)
+- Windows Media Format SDK,Secure Audio Path (SAP)
+- digital rights management (DRM),Secure Audio Path (SAP)
+- DRM (digital rights management),Secure Audio Path (SAP)
+- Windows Media Format SDK,DRM kernel component
+- digital rights management (DRM),kernel component
+- DRM (digital rights management),kernel component
+- Microsoft Secure Audio Path (SAP),DRM kernel component
+- Secure Audio Path (SAP),DRM kernel component
+- SAP (Secure Audio Path),DRM kernel component
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The DRM Kernel Component (deprecated)

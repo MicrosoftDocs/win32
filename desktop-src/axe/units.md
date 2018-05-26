@@ -1,14 +1,20 @@
 ---
 title: Units element
 description: This element describes the units of the metric value.
-ms.assetid: '079FAF86-DB73-4005-96F5-E356342BF4EB'
-keywords: ["Units element Access Execution Engine"]
+ms.assetid: 079FAF86-DB73-4005-96F5-E356342BF4EB
+keywords:
+- Units element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Units
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Units element
@@ -29,7 +35,7 @@ There are no attributes.
 
 ## Text value
 
-This element describes the metric’s units in engineering units, such as “MB/s” or “bytes”.
+This element describes the metric s units in engineering units, such as  MB/s  or  bytes .
 
 ## Child elements
 
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

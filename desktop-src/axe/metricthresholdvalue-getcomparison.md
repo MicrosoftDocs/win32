@@ -1,8 +1,11 @@
 ---
 title: MetricThresholdValue GetComparison method
 description: Returns the comparison setting of the MetricThresholdValue.
-ms.assetid: 'B74C2103-733D-4EC5-9DEB-0DBF9B28F7E8'
-keywords: ["GetComparison method Access Execution Engine", "GetComparison method Access Execution Engine , MetricThresholdValue interface", "MetricThresholdValue interface Access Execution Engine , GetComparison method"]
+ms.assetid: B74C2103-733D-4EC5-9DEB-0DBF9B28F7E8
+keywords:
+- GetComparison method Access Execution Engine
+- GetComparison method Access Execution Engine , MetricThresholdValue interface
+- MetricThresholdValue interface Access Execution Engine , GetComparison method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetricThresholdValue::GetComparison method
@@ -22,7 +30,7 @@ Returns the comparison setting of the **MetricThresholdValue**.
 
 ```C++
 virtual HRESULT GetComparison(
-  [out] MetricThresholdValueComparison *comparison
+  [out] MetricThresholdValueComparison *comparison
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The comparison setting is the value of element **MetricThresholdValue/Comparison
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The comparison setting is the value of element **MetricThresholdValue/Comparison
 [**MetricThresholdValue**](metricthresholdvalue-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

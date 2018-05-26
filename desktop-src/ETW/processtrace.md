@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProcessTrace function delivers events from one or more event tracing sessions to the consumer.'
-ms.assetid: 'acc6b1c4-9be1-490d-8b82-7ae8e73bd929'
+---
+Description: The ProcessTrace function delivers events from one or more event tracing sessions to the consumer.
+ms.assetid: acc6b1c4-9be1-490d-8b82-7ae8e73bd929
 title: ProcessTrace function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessTrace function

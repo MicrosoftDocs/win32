@@ -1,14 +1,22 @@
 ---
 title: Resource.IsReadOnly property
 description: The IsReadOnly property retrieves a value indicating whether the resource is read-only.
-ms.assetid: 'f0741166-f74b-4b9c-a514-a21217dcc0f0'
-keywords: ["IsReadOnly property WPD Automation", "IsReadOnly property WPD Automation , Resource object", "Resource object WPD Automation , IsReadOnly property"]
+ms.assetid: f0741166-f74b-4b9c-a514-a21217dcc0f0
+keywords:
+- IsReadOnly property WPD Automation
+- IsReadOnly property WPD Automation , Resource object
+- Resource object WPD Automation , IsReadOnly property
 topic_type:
 - apiref
 api_name:
 - Resource.IsReadOnly
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource.IsReadOnly property
@@ -32,7 +40,7 @@ True if the resource is read-only and false otherwise.
 
 ## Remarks
 
-In Windows 7 all resources are read-only. However, in future versions, resources may be modifiable.
+In Windows 7 all resources are read-only. However, in future versions, resources may be modifiable.
 
 ## Examples
 
@@ -57,8 +65,8 @@ if(!readOnly)
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +77,9 @@ if(!readOnly)
 [**Resource Object**](resource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

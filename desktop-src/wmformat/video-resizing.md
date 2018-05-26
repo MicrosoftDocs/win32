@@ -1,8 +1,20 @@
 ---
 title: Video Resizing
 description: Video Resizing
-ms.assetid: '38ecb729-68eb-4452-8389-cabe987fb8b6'
-keywords: ["Windows Media Format SDK,video resizing", "Windows Media Format SDK,resizing video", "Advanced Systems Format (ASF),video resizing", "ASF (Advanced Systems Format),video resizing", "Advanced Systems Format (ASF),resizing video", "ASF (Advanced Systems Format),resizing video", "video resizing"]
+ms.assetid: 38ecb729-68eb-4452-8389-cabe987fb8b6
+keywords:
+- Windows Media Format SDK,video resizing
+- Windows Media Format SDK,resizing video
+- Advanced Systems Format (ASF),video resizing
+- ASF (Advanced Systems Format),video resizing
+- Advanced Systems Format (ASF),resizing video
+- ASF (Advanced Systems Format),resizing video
+- video resizing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Resizing

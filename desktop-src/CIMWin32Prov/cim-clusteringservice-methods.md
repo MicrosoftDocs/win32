@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_ClusteringService class exposes the following methods.'
+Description: The CIM\_ClusteringService class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3980A393-23CF-4D59-92D1-E1B8FB361D33'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3980A393-23CF-4D59-92D1-E1B8FB361D33
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ClusteringService Methods'
+title: CIM\_ClusteringService Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ClusteringService Methods

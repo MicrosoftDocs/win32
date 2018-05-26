@@ -1,7 +1,12 @@
 ---
 title: System Sensor Pool
 description: A collection of sharable biometric units that provide access to Windows authentication services. This pool is used by Winlogon, UAC, and any other client that associates a SID with a specific biometric template.
-ms.assetid: '308306a9-e12c-4ff6-92c3-a36667a5e548'
+ms.assetid: 308306a9-e12c-4ff6-92c3-a36667a5e548
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Sensor Pool

@@ -1,15 +1,24 @@
 ---
 title: About the Conversion Process
 description: About the Conversion Process
-ms.assetid: '147b82fd-9e82-4acf-8f8a-43eb02e99024'
-keywords: ["Windows Media Player,conversion process", "Windows Media Player plug-ins,conversion", "plug-ins,conversion", "conversion plug-ins,process"]
+ms.assetid: 147b82fd-9e82-4acf-8f8a-43eb02e99024
+keywords:
+- Windows Media Player,conversion process
+- Windows Media Player plug-ins,conversion
+- plug-ins,conversion
+- conversion plug-ins,process
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Conversion Process
 
 After Windows Media Player instantiates the conversion plug-in, the process proceeds as follows:
 
-1.  The Player calls [IWMPConvert::ConvertFile](iwmpconvert-convertfile.md).
+1.  The Player calls [IWMPConvert::ConvertFile](/windows/win32/wmpservices/nf-wmpservices-iwmpconvert-convertfile?branch=master).
 2.  The plug-in converts the file provided in the *bstrInputFile* parameter into an ASF format.
 3.  If the conversion fails for some reason, the plug-in returns an appropriate failure code and the process stops.
 4.  If the conversion succeeds, the plug-in places the converted file into the folder provided in the *bstrDestinationFolder* parameter and returns the fully qualified path to the converted file through the *pbstrOutputFile* parameter.

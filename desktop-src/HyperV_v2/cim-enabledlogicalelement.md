@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a logical element that can be enabled and disabled.'
-ms.assetid: '52eed77e-f3f1-4489-8eff-a8ebebd5e1a8'
-title: 'CIM\_EnabledLogicalElement class'
+Description: Represents a logical element that can be enabled and disabled.
+ms.assetid: 52eed77e-f3f1-4489-8eff-a8ebebd5e1a8
+title: CIM\_EnabledLogicalElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_EnabledLogicalElement class
@@ -14,13 +19,13 @@ Represents a logical element that can be enabled and disabled.
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Core::CoreElements"), AMENDMENT]
 class CIM_EnabledLogicalElement : CIM_LogicalElement
 {
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState = 12;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
 };
 ```
 
@@ -43,7 +48,7 @@ The **CIM\_EnabledLogicalElement** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -390,7 +395,7 @@ Indicates the last requested state for the element. The current state is indicat
 > [!Note]  
 > When the value of the **EnabledState** property is **Not Applicable**, this property has no meaning.
 
- 
+ 
 
 <dt>
 
@@ -652,8 +657,8 @@ A value of **No Change** indicates that no transition is in progress. A value of
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -667,9 +672,9 @@ A value of **No Change** indicates that no transition is in progress. A value of
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

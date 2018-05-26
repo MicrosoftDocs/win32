@@ -1,8 +1,10 @@
 ---
 title: IVMSerialPort interface
 description: The IVMSerialPort interface defines a serial port inside a virtual machine.
-ms.assetid: '6b24012f-d1b2-47aa-93a5-e5d5c4650e87'
-keywords: ["IVMSerialPort interface Virtual Server", "IVMSerialPort interface Virtual Server , described"]
+ms.assetid: 6b24012f-d1b2-47aa-93a5-e5d5c4650e87
+keywords:
+- IVMSerialPort interface Virtual Server
+- IVMSerialPort interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort interface
@@ -36,7 +43,7 @@ The **IVMSerialPort** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,7 +60,7 @@ The **IVMSerialPort** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,8 +68,8 @@ The **IVMSerialPort** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -74,9 +81,9 @@ The **IVMSerialPort** interface has these properties.
 [**IDispatch**](ebbff4bc-36b2-4861-9efa-ffa45e013eb5)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: FormatID Constants
 description: Indicates the file format of an image as String versions of GUIDs.
-ms.assetid: 'a548d805-c419-454e-bfe4-54082aa30144'
+ms.assetid: a548d805-c419-454e-bfe4-54082aa30144
 topic_type:
 - apiref
 api_name:
@@ -14,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FormatID Constants
@@ -24,7 +29,7 @@ Indicates the file format of an image as **String** versions of GUIDs.
 
 | Constant/value                                                                                                                                                                                                                                                                           | Description                                     |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
-| <span id="wiaFormatBMP"></span><span id="wiaformatbmp"></span><span id="WIAFORMATBMP"></span><dl> <dt>**wiaFormatBMP**</dt> <dt>{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}</dt> </dl>     | FormatID for the Windows BMP format.<br/> |
+| <span id="wiaFormatBMP"></span><span id="wiaformatbmp"></span><span id="WIAFORMATBMP"></span><dl> <dt>**wiaFormatBMP**</dt> <dt>{B96B3CAB-0728-11D3-9D7B-0000F81EF32E}</dt> </dl>     | FormatID for the Windows BMP format.<br/> |
 | <span id="wiaFormatPNG"></span><span id="wiaformatpng"></span><span id="WIAFORMATPNG"></span><dl> <dt>**wiaFormatPNG**</dt> <dt>{B96B3CAF-0728-11D3-9D7B-0000F81EF32E}</dt> </dl>     | FormatID for the PNG format.<br/>         |
 | <span id="wiaFormatGIF"></span><span id="wiaformatgif"></span><span id="WIAFORMATGIF"></span><dl> <dt>**wiaFormatGIF**</dt> <dt>{B96B3CB0-0728-11D3-9D7B-0000F81EF32E}</dt> </dl>     | FormatID for the GIF format.<br/>         |
 | <span id="wiaFormatJPEG"></span><span id="wiaformatjpeg"></span><span id="WIAFORMATJPEG"></span><dl> <dt>**wiaFormatJPEG**</dt> <dt>{B96B3CAE-0728-11D3-9D7B-0000F81EF32E}</dt> </dl> | FormatID for the JPEG format.<br/>        |
@@ -61,8 +66,8 @@ For additional example code, see [Convert a File](-wiaaut-shared-samples.md#conv
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -75,9 +80,9 @@ For additional example code, see [Convert a File](-wiaaut-shared-samples.md#conv
 [**FormatID**](-wiaaut-iimagefile-formatid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

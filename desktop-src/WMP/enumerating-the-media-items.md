@@ -1,8 +1,26 @@
 ---
 title: Enumerating the Media Items
 description: Enumerating the Media Items
-ms.assetid: '1819b4c3-57ae-48fc-8a01-b699b5802b64'
-keywords: ["Windows Media Player,synchronization playlists", "Windows Media Player object model,synchronization playlists", "object model,synchronization playlists", "Windows Media Player Mobile,synchronization playlists", "Windows Media Player ActiveX control,synchronization playlists", "Windows Media Player Mobile ActiveX control,synchronization playlists", "ActiveX control,synchronization playlists", "playlists,synchronization", "metafile playlists,synchronization", "Windows Media metafile playlists,synchronization", "synchronization playlists,enumerating", "portable devices,enumerating", "enumerations,synchronization playlists"]
+ms.assetid: 1819b4c3-57ae-48fc-8a01-b699b5802b64
+keywords:
+- Windows Media Player,synchronization playlists
+- Windows Media Player object model,synchronization playlists
+- object model,synchronization playlists
+- Windows Media Player Mobile,synchronization playlists
+- Windows Media Player ActiveX control,synchronization playlists
+- Windows Media Player Mobile ActiveX control,synchronization playlists
+- ActiveX control,synchronization playlists
+- playlists,synchronization
+- metafile playlists,synchronization
+- Windows Media metafile playlists,synchronization
+- synchronization playlists,enumerating
+- portable devices,enumerating
+- enumerations,synchronization playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating the Media Items
@@ -133,10 +151,10 @@ For the implementation of the GetPartnershipSyncState function, see [Determining
 
 <dl> <dt>
 
-[**IWMPMedia Interface**](iwmpmedia.md)
+[**IWMPMedia Interface**](/windows/win32/wmp/nn-wmp-iwmpmedia?branch=master)
 </dt> <dt>
 
-[**IWMPPlaylist Interface**](iwmpplaylist.md)
+[**IWMPPlaylist Interface**](/windows/win32/wmp/nn-wmp-iwmpplaylist?branch=master)
 </dt> <dt>
 
 [**Managing Synchronization Playlists**](managing-synchronization-playlists.md)

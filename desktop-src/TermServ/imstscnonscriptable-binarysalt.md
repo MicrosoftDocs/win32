@@ -4,11 +4,26 @@ description: This property is no longer available for use.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7af2e5be-9ddb-46ab-947c-f79ab890d7bc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7af2e5be-9ddb-46ab-947c-f79ab890d7bc
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["BinarySalt property Remote Desktop Services", "BinarySalt property Remote Desktop Services , IMsTscNonScriptable interface", "IMsTscNonScriptable interface Remote Desktop Services , BinarySalt property", "BinarySalt property Remote Desktop Services , MsTscAx object", "MsTscAx object Remote Desktop Services , BinarySalt property", "BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable interface", "IMsRdpClientNonScriptable interface Remote Desktop Services , BinarySalt property", "BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable2 interface", "IMsRdpClientNonScriptable2 interface Remote Desktop Services , BinarySalt property", "BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable3 interface", "IMsRdpClientNonScriptable3 interface Remote Desktop Services , BinarySalt property", "BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable4 interface", "IMsRdpClientNonScriptable4 interface Remote Desktop Services , BinarySalt property", "BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable5 interface", "IMsRdpClientNonScriptable5 interface Remote Desktop Services , BinarySalt property"]
+keywords:
+- BinarySalt property Remote Desktop Services
+- BinarySalt property Remote Desktop Services , IMsTscNonScriptable interface
+- IMsTscNonScriptable interface Remote Desktop Services , BinarySalt property
+- BinarySalt property Remote Desktop Services , MsTscAx object
+- MsTscAx object Remote Desktop Services , BinarySalt property
+- BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable interface
+- IMsRdpClientNonScriptable interface Remote Desktop Services , BinarySalt property
+- BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable2 interface
+- IMsRdpClientNonScriptable2 interface Remote Desktop Services , BinarySalt property
+- BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable3 interface
+- IMsRdpClientNonScriptable3 interface Remote Desktop Services , BinarySalt property
+- BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable4 interface
+- IMsRdpClientNonScriptable4 interface Remote Desktop Services , BinarySalt property
+- BinarySalt property Remote Desktop Services , IMsRdpClientNonScriptable5 interface
+- IMsRdpClientNonScriptable5 interface Remote Desktop Services , BinarySalt property
 topic_type:
 - apiref
 api_name:
@@ -35,6 +50,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscNonScriptable::BinarySalt property
@@ -48,11 +66,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_BinarySalt(
-  [in]  BSTR newSalt
+  [in]  BSTR newSalt
 );
 
 HRESULT get_BinarySalt(
-  [out] BSTR *pSalt
+  [out] BSTR *pSalt
 );
 ```
 
@@ -104,9 +122,9 @@ Returns **E\_NOTIMPL**.
 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

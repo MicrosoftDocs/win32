@@ -1,8 +1,11 @@
 ---
 title: SetFriendlyName method of the MSFT\_FileServer class
 description: Allows the file server to be renamed.
-ms.assetid: 'B9E430B6-36B2-4370-ABCE-E6DF2F395DD4'
-keywords: ["SetFriendlyName method Windows Storage Management API", "SetFriendlyName method Windows Storage Management API , MSFT_FileServer class", "MSFT_FileServer class Windows Storage Management API , SetFriendlyName method"]
+ms.assetid: B9E430B6-36B2-4370-ABCE-E6DF2F395DD4
+keywords:
+- SetFriendlyName method Windows Storage Management API
+- SetFriendlyName method Windows Storage Management API , MSFT_FileServer class
+- MSFT_FileServer class Windows Storage Management API , SetFriendlyName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetFriendlyName method of the MSFT\_FileServer class
@@ -22,8 +30,8 @@ Allows the file server to be renamed.
 
 ```mof
 UInt32 SetFriendlyName(
-  [in]  String FriendlyName,
-  [out] String ExtendedStatus
+  [in]  String FriendlyName,
+  [out] String ExtendedStatus
 );
 ```
 
@@ -89,8 +97,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -103,9 +111,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_FileServer**](msft-fileserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

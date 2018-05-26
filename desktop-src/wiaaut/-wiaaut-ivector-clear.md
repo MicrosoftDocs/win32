@@ -1,8 +1,11 @@
 ---
 title: Vector.Clear method
 description: Removes all elements from the Vector.
-ms.assetid: '0aaecb80-54b5-4eb5-be83-1ed2399c2fb8'
-keywords: ["Clear method WIA Automation", "Clear method WIA Automation , Vector object", "Vector object WIA Automation , Clear method"]
+ms.assetid: 0aaecb80-54b5-4eb5-be83-1ed2399c2fb8
+keywords:
+- Clear method WIA Automation
+- Clear method WIA Automation , Vector object
+- Vector object WIA Automation , Clear method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.Clear method
@@ -46,8 +54,8 @@ For example code, see [Use a Vector Object](-wiaaut-shared-samples.md#use-a-vect
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -60,9 +68,9 @@ For example code, see [Use a Vector Object](-wiaaut-shared-samples.md#use-a-vect
 [**Vector**](-wiaaut-vector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

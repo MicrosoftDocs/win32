@@ -1,14 +1,19 @@
 ---
-Description: 'The most problematic part of writing components is dealing with possible errors.'
-ms.assetid: '12f41eef-9953-4125-8490-07ff64967f95'
+Description: The most problematic part of writing components is dealing with possible errors.
+ms.assetid: 12f41eef-9953-4125-8490-07ff64967f95
 title: Handling Errors in COM+
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Errors in COM+
 
 The most problematic part of writing components is dealing with possible errors. Trying to determine what can go wrong and what to do about it can be challenging under the best conditions. Common errors that your component might check for and handle are failed network connections, security errors, and failures associated with unreachable objects.
 
-Additionally, you can develop your own error codes to report interface-specific errors—such as when a business rule has been violated.
+Additionally, you can develop your own error codes to report interface-specific errors such as when a business rule has been violated.
 
 In keeping with the COM+ programming model, an object can (and often does) call interface methods on other objects to perform work. Because programmers can write components in different programming languages, COM+ requires that all error-handling mechanisms be language-neutral, for example: HRESULTs and [**ErrorInfo**](errorinfo.md) collections.
 
@@ -28,7 +33,7 @@ This section includes topics, described in the following table, that discuss tec
 
 
 
- 
+ 
 
 For detailed information on handling errors associated with various COM+ services, see the following sections:
 
@@ -42,9 +47,9 @@ For detailed information on handling errors associated with various COM+ service
 [Debugging COM+ Applications](debugging-com--applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

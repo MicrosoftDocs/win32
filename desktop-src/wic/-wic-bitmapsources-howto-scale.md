@@ -1,16 +1,21 @@
 ---
-Description: 'This topic demonstrates how to scale an IWICBitmapSource using the IWICBitmapScaler component.'
-ms.assetid: 'd2c65c9b-6f52-46f7-935d-0c582ca83867'
+Description: This topic demonstrates how to scale an IWICBitmapSource using the IWICBitmapScaler component.
+ms.assetid: d2c65c9b-6f52-46f7-935d-0c582ca83867
 title: How to Scale a Bitmap Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Scale a Bitmap Source
 
-This topic demonstrates how to scale an [**IWICBitmapSource**](-wic-codec-iwicbitmapsource.md) using the [**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md) component.
+This topic demonstrates how to scale an [**IWICBitmapSource**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapsource?branch=master) using the [**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master) component.
 
 To scale a bitmap source
 
-1.  Create an [**IWICImagingFactory**](-wic-codec-iwicimagingfactory.md) object to create Windows Imaging Component (WIC) objects.
+1.  Create an [**IWICImagingFactory**](/windows/win32/Wincodec/nn-wincodec-iwicimagingfactory?branch=master) object to create Windows Imaging Component (WIC) objects.
 
     ```C++
     // Create WIC factory
@@ -24,7 +29,7 @@ To scale a bitmap source
 
     
 
-2.  Use the [**CreateDecoderFromFilename**](-wic-codec-iwicimagingfactory-createdecoderfromfilename.md) method to create an [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) from an image file.
+2.  Use the [**CreateDecoderFromFilename**](/windows/win32/Wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename?branch=master) method to create an [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) from an image file.
 
     ```C++
     HRESULT hr = S_OK;
@@ -45,7 +50,7 @@ To scale a bitmap source
 
     
 
-3.  Get the first [**IWICBitmapFrameDecode**](-wic-codec-iwicbitmapframedecode.md) of the image.
+3.  Get the first [**IWICBitmapFrameDecode**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapframedecode?branch=master) of the image.
 
     ```C++
     // Retrieve the first bitmap frame.
@@ -59,7 +64,7 @@ To scale a bitmap source
 
     The JPEG file format only supports a single frame. Because the file in this example is a JPEG file, the first frame (`0`) is used. For image formats that have multiple frames, see [How to Retrieve the Frames of an Image](-wic-bitmapsources-howto-retrieveimageframes.md) for accessing each frame of the image.
 
-4.  Create the [**IWICBitmapScaler**](-wic-codec-iwicbitmapscaler.md) to use for the image scaling.
+4.  Create the [**IWICBitmapScaler**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapscaler?branch=master) to use for the image scaling.
 
     ```C++
     // Create the scaler.

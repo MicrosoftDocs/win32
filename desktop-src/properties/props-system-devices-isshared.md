@@ -1,7 +1,12 @@
 ---
-Description: 'If this property is true, the device is a shared device.'
-ms.assetid: 'd1da0747-ad07-49e5-8082-5f39bf0a84d8'
-title: 'System.Devices.IsShared'
+Description: If this property is true, the device is a shared device.
+ms.assetid: d1da0747-ad07-49e5-8082-5f39bf0a84d8
+title: System.Devices.IsShared
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.IsShared

@@ -1,8 +1,21 @@
 ---
 title: License Revocation
 description: License Revocation
-ms.assetid: '615ddddf-4f2f-400d-9c4d-ff3a2851d699'
-keywords: ["Windows Media Format SDK,license revocation", "digital rights management (DRM),license revocation", "DRM (digital rights management),license revocation", "Windows Media Format SDK,revoking content licenses", "digital rights management (DRM),revoking content licenses", "DRM (digital rights management),revoking content licenses", "license revocation,about", "revoking content licenses"]
+ms.assetid: 615ddddf-4f2f-400d-9c4d-ff3a2851d699
+keywords:
+- Windows Media Format SDK,license revocation
+- digital rights management (DRM),license revocation
+- DRM (digital rights management),license revocation
+- Windows Media Format SDK,revoking content licenses
+- digital rights management (DRM),revoking content licenses
+- DRM (digital rights management),revoking content licenses
+- license revocation,about
+- revoking content licenses
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # License Revocation

@@ -1,7 +1,12 @@
 ---
-Description: 'Requests a new input sample from the Enhanced Video Renderer (EVR) filter.'
-ms.assetid: 'f1bf32ba-ecb7-435f-aefc-f60fdd355620'
-title: 'EC\_SAMPLE\_NEEDED'
+Description: Requests a new input sample from the Enhanced Video Renderer (EVR) filter.
+ms.assetid: f1bf32ba-ecb7-435f-aefc-f60fdd355620
+title: EC\_SAMPLE\_NEEDED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_SAMPLE\_NEEDED
@@ -51,9 +56,9 @@ The mixer for the EVR filter sends this message when it needs a new input sample
 [Event Notification Codes](event-notification-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

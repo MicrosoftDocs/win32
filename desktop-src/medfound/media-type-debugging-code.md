@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the following code to view the contents of a media type while debugging.'
-ms.assetid: '1132c936-c3a7-4d98-bc90-957c170d307a'
+Description: You can use the following code to view the contents of a media type while debugging.
+ms.assetid: 1132c936-c3a7-4d98-bc90-957c170d307a
 title: Media Type Debugging Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Type Debugging Code
@@ -406,7 +411,7 @@ LPCWSTR GetGUIDNameConst(const GUID&amp; guid)
 [Media Types](media-types.md)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies which audio channel is mapped to channel N in the encoded audio stream.'
-ms.assetid: '996c97d6-e4c6-4189-89cb-912d28327453'
+Description: Specifies which audio channel is mapped to channel N in the encoded audio stream.
+ms.assetid: 996c97d6-e4c6-4189-89cb-912d28327453
 title: AVEncAudioMapDestChannelN property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncAudioMapDestChannelN property
@@ -45,7 +50,7 @@ This reference topic describes a set of related properties. Each property maps a
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,8 +58,8 @@ This reference topic describes a set of related properties. Each property maps a
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -66,12 +71,12 @@ This reference topic describes a set of related properties. Each property maps a
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

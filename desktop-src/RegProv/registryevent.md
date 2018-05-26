@@ -4,11 +4,13 @@ description: The RegistryEvent class is an abstract class from which the Registr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9eb0c515-21cd-4149-a1bf-cfd1014a9d41'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 9eb0c515-21cd-4149-a1bf-cfd1014a9d41
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RegistryEvent class", "RegistryEvent class, described"]
+keywords:
+- RegistryEvent class
+- RegistryEvent class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - StdProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RegistryEvent class
@@ -43,8 +48,8 @@ The **RegistryEvent** class does not define any members.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>StdProv.dll</dt> </dl>  |
@@ -58,9 +63,9 @@ The **RegistryEvent** class does not define any members.
 [**\_\_ExtrinsicEvent**](https://msdn.microsoft.com/library/aa394646)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

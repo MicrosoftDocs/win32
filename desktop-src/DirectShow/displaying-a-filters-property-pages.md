@@ -1,7 +1,12 @@
 ---
-Description: 'Displaying a Filter''s Property Pages'
-ms.assetid: '4a5f6938-7b33-4350-b8fa-cf78c5c44bcd'
-title: 'Displaying a Filter''s Property Pages'
+Description: Displaying a Filters Property Pages
+ms.assetid: 4a5f6938-7b33-4350-b8fa-cf78c5c44bcd
+title: Displaying a Filters Property Pages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying a Filter's Property Pages
@@ -15,7 +20,7 @@ A property page is one way for a filter to support properties that the user can 
 
 Filters with property pages expose the **ISpecifyPropertyPages** interface. To determine whether a filter defines a property page, query the filter for this interface using **QueryInterface**.
 
-If you directly created an instance of a filter (by calling **CoCreateInstance**), you already have a pointer to the filter. If not, you can enumerate the filters in the graph, using the [**IFilterGraph::EnumFilters**](ifiltergraph-enumfilters.md) method. For details, see [Enumerating Objects in a Filter Graph](enumerating-objects-in-a-filter-graph.md).
+If you directly created an instance of a filter (by calling **CoCreateInstance**), you already have a pointer to the filter. If not, you can enumerate the filters in the graph, using the [**IFilterGraph::EnumFilters**](/windows/win32/Strmif/nf-strmif-ifiltergraph-enumfilters?branch=master) method. For details, see [Enumerating Objects in a Filter Graph](enumerating-objects-in-a-filter-graph.md).
 
 Once you have the **ISpecifyPropertyPages** interface pointer, retrieve the filter's property pages by calling the **ISpecifyPropertyPages::GetPages** method. This method fills a counted array of globally unique identifiers (GUIDs) with the class identifier (CLSID) of each property page. A counted array is defined by a **CAUUID** structure, which you must allocate but do not have to initialize. The **GetPages** method allocates the array, which is contained in the **pElems** member of the **CAUUID** structure. When you are done, free the array by calling the **CoTaskMemFree** function.
 

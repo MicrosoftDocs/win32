@@ -4,12 +4,15 @@ description: The Software Inventory Logging provider collects licensing data abo
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '58060486-2fd6-40ef-a202-de7df7daf3ff'
-ms.prod: 'windows-server-dev'
+ms.assetid: 58060486-2fd6-40ef-a202-de7df7daf3ff
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Software Inventory Logging Provider

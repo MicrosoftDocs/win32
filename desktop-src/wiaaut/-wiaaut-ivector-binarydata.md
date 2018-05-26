@@ -1,8 +1,11 @@
 ---
 title: Vector.BinaryData property
 description: Sets or retrieves the Vector of bytes as an array of bytes.
-ms.assetid: 'a817984e-e297-4840-b486-756a73d8ee03'
-keywords: ["BinaryData property WIA Automation", "BinaryData property WIA Automation , Vector object", "Vector object WIA Automation , BinaryData property"]
+ms.assetid: a817984e-e297-4840-b486-756a73d8ee03
+keywords:
+- BinaryData property WIA Automation
+- BinaryData property WIA Automation , Vector object
+- Vector object WIA Automation , BinaryData property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.BinaryData property
@@ -45,8 +53,8 @@ For example code that uses an ASP page, see [Implement a Web Camera ASP Page](-w
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -59,9 +67,9 @@ For example code that uses an ASP page, see [Implement a Web Camera ASP Page](-w
 [**Vector**](-wiaaut-vector.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

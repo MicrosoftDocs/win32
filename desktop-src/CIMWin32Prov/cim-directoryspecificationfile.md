@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_DirectorySpecificationFile association represents the directory that contains the file specified by referencing the CIM\_DirectorySpecification class.'
+Description: The CIM\_DirectorySpecificationFile association represents the directory that contains the file specified by referencing the CIM\_DirectorySpecification class.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '57fe996e-6bd4-4070-9e99-460b2a36243f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 57fe996e-6bd4-4070-9e99-460b2a36243f
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_DirectorySpecificationFile class'
+title: CIM\_DirectorySpecificationFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_DirectorySpecificationFile class
@@ -19,7 +22,7 @@ The **CIM\_DirectorySpecificationFile** association represents the directory tha
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -30,7 +33,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_DirectorySpecificationFile
 {
   CIM_DirectorySpecification REF DirectorySpecification;
-  CIM_FileSpecification      REF FileSpecification;
+  CIM_FileSpecification      REF FileSpecification;
 };
 ```
 
@@ -90,17 +93,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

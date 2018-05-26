@@ -1,12 +1,17 @@
 ---
-Description: 'The system provides six stock fonts.'
-ms.assetid: '349ea57f-dd25-4e33-bbdf-63a320eae3a0'
+Description: The system provides six stock fonts.
+ms.assetid: 349ea57f-dd25-4e33-bbdf-63a320eae3a0
 title: Using a Stock Font to Draw Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Stock Font to Draw Text
 
-The system provides six stock fonts. A stock font is a logical font that an application can obtain by calling the [GetStockObject](getstockobject.md) function and specifying the requested font. The following list contains the values that you can specify to obtain a stock font.
+The system provides six stock fonts. A stock font is a logical font that an application can obtain by calling the [GetStockObject](/windows/win32/Wingdi/nf-wingdi-getstockobject?branch=master) function and specifying the requested font. The following list contains the values that you can specify to obtain a stock font.
 
 
 
@@ -47,7 +52,7 @@ if (hOldFont = (HFONT)SelectObject(hdc, hFont))
 
 
 
-If other stock fonts are not available, [GetStockObject](getstockobject.md) returns a handle to the System font (SYSTEM\_FONT). You should use stock fonts only if the mapping mode for your application's device context is MM\_TEXT.
+If other stock fonts are not available, [GetStockObject](/windows/win32/Wingdi/nf-wingdi-getstockobject?branch=master) returns a handle to the System font (SYSTEM\_FONT). You should use stock fonts only if the mapping mode for your application's device context is MM\_TEXT.
 
  
 

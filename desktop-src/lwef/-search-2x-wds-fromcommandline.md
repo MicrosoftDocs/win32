@@ -1,14 +1,19 @@
 ---
 title: Calling WDS from the Command Line
-description: You can launch the Microsoft Windows Desktop Search (WDS) user interface with a specific filter, store, and query from another application or a webpage that uses the Browser Helper Object (BHO) by using the windowssearch.exe command line syntax.
-ms.assetid: 'fd62f7c9-08a9-4e05-b0bc-e2215cfff59e'
+description: You can launch the Microsoft Windows Desktop Search (WDS) user interface with a specific filter, store, and query from another application or a webpage that uses the Browser Helper Object (BHO) by using the windowssearch.exe command line syntax.
+ms.assetid: fd62f7c9-08a9-4e05-b0bc-e2215cfff59e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calling WDS from the Command Line
 
-\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
+\[Windows Search 2.x is obsolete after Windows XP. Instead, use [Windows Search](http://go.microsoft.com/fwlink/p/?linkid=198360).\]
 
-You can launch the Microsoft Windows Desktop Search (WDS) user interface with a specific filter, store, and query from another application or a webpage that uses the Browser Helper Object (BHO) by using the windowssearch.exe command line syntax. When calling WDS from the command line, no information about the user's actions or selection in the WDS window is returned to the calling application or webpage.
+You can launch the Microsoft Windows Desktop Search (WDS) user interface with a specific filter, store, and query from another application or a webpage that uses the Browser Helper Object (BHO) by using the windowssearch.exe command line syntax. When calling WDS from the command line, no information about the user's actions or selection in the WDS window is returned to the calling application or webpage.
 
 The WDS installation path is specified in the InstallDir registry setting under HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows Desktop Search. The default path that windowssearch.exe is installed to is Program Files\\Windows Desktop Search.
 
@@ -77,7 +82,7 @@ There are three differences between the perceived type values and the values for
 
 
 
- 
+ 
 
 ## Example
 
@@ -101,9 +106,9 @@ For example, to search all files for pictures matching the criteria 'wallpaper' 
 [Calling WDS from Web Pages](-search-2x-wds-browserhelpobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

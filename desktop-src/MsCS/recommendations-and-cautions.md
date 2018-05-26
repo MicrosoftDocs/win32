@@ -4,11 +4,17 @@ description: Failover Cluster API programming best practices.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4d3e6312-20b6-4647-8cd2-3a529a94bab7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4d3e6312-20b6-4647-8cd2-3a529a94bab7
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["recommendations and cautions Failover Cluster", "cautions Failover Cluster", "best practices Failover Cluster"]
+keywords:
+- recommendations and cautions Failover Cluster
+- cautions Failover Cluster
+- best practices Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Failover Cluster Development Guidelines
@@ -48,7 +54,7 @@ If an API takes more than one cluster object handle as a parameter, be sure that
 <span id="Close_handles_after_deleting_objects"></span><span id="close_handles_after_deleting_objects"></span><span id="CLOSE_HANDLES_AFTER_DELETING_OBJECTS"></span>Close handles after deleting objects
 </dt> <dd>
 
-The [**DeleteClusterResource**](deleteclusterresource.md) and [**DeleteClusterGroup**](deleteclustergroup.md) functions do not close the handles to the deleted objects. To avoid memory leaks, call [**CloseClusterResource**](closeclusterresource.md) and [**CloseClusterGroup**](closeclustergroup.md) on the handles to the deleted objects.
+The [**DeleteClusterResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_delete_cluster_resource?branch=master) and [**DeleteClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_delete_cluster_group?branch=master) functions do not close the handles to the deleted objects. To avoid memory leaks, call [**CloseClusterResource**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster_resource?branch=master) and [**CloseClusterGroup**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_close_cluster_group?branch=master) on the handles to the deleted objects.
 
 </dd> <dt>
 

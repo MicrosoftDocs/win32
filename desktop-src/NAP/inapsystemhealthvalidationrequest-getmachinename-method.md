@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthValidationRequest GetMachineName method
 description: Is used by System Health Validators (SHVs) to retrieve the machine name of the NAP client. The SHV then logs this information.
-ms.assetid: '2ea6a65d-1579-4a05-b5bc-aebf6421e46a'
-keywords: ["GetMachineName method NAP", "GetMachineName method NAP , INapSystemHealthValidationRequest interface", "INapSystemHealthValidationRequest interface NAP , GetMachineName method"]
+ms.assetid: 2ea6a65d-1579-4a05-b5bc-aebf6421e46a
+keywords:
+- GetMachineName method NAP
+- GetMachineName method NAP , INapSystemHealthValidationRequest interface
+- INapSystemHealthValidationRequest interface NAP , GetMachineName method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - qshvhost.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthValidationRequest::GetMachineName method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthValidationRequest::GetMachineName** method is used by System Health Validators (SHVs) to retrieve the machine name of the NAP client. The SHV then logs this information.
 
@@ -27,7 +35,7 @@ The **INapSystemHealthValidationRequest::GetMachineName** method is used by Syst
 
 ```C++
 HRESULT GetMachineName(
-  [out] CountedString **machineName
+  [out] CountedString **machineName
 );
 ```
 
@@ -40,7 +48,7 @@ HRESULT GetMachineName(
 *machineName* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to a [**CountedString**](countedstring-struct.md) structure that contains the machine name of the NAP client.
+A pointer to a pointer to a [**CountedString**](/windows/win32/NapTypes/ns-naptypes-tagcountedstring?branch=master) structure that contains the machine name of the NAP client.
 
 </dd> </dl>
 
@@ -58,7 +66,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +75,7 @@ Other COM-specific error codes also may be returned.
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |
 | Header<br/>                   | <dl> <dt>NapSystemHealthValidator.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthValidator.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |
@@ -81,9 +89,9 @@ Other COM-specific error codes also may be returned.
 [**INapSystemHealthValidationRequest**](inapsystemhealthvalidationrequest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

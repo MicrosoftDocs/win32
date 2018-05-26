@@ -1,7 +1,12 @@
 ---
 title: Mount Manager Structures
 description: Mount Manager Structures
-ms.assetid: '716971d1-6da1-4c93-8b68-158828e54d07'
+ms.assetid: 716971d1-6da1-4c93-8b68-158828e54d07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mount Manager Structures

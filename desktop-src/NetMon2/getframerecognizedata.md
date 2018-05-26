@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameRecognizeData function returns a table of RECOGNIZEDATA structures. Each of these structures contains a protocol identifier and an offset that points to the start of the specified protocol in the data.'
-ms.assetid: '3bf809ff-8d87-4746-95ee-fb68c5e51d42'
+Description: The GetFrameRecognizeData function returns a table of RECOGNIZEDATA structures. Each of these structures contains a protocol identifier and an offset that points to the start of the specified protocol in the data.
+ms.assetid: 3bf809ff-8d87-4746-95ee-fb68c5e51d42
 title: GetFrameRecognizeData function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameRecognizeData function
@@ -13,7 +18,7 @@ The **GetFrameRecognizeData** function returns a table of **RECOGNIZEDATA** stru
 
 ```C++
 LPRECOGNIZEDATATABLE WINAPI GetFrameRecognizeData(
-  _In_ HFRAME hFrame
+  _In_ HFRAME hFrame
 );
 ```
 
@@ -46,17 +51,17 @@ If the function is not successful, the return value is zero.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

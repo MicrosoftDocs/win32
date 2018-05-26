@@ -4,11 +4,15 @@ description: Because ADSI is an OLE DB Provider, it can participate in Distribut
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0a93ec2e-397a-47f7-b00c-f0f9aaa06de6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0a93ec2e-397a-47f7-b00c-f0f9aaa06de6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["queries ADSI , distributed query"]
+keywords:
+- queries ADSI , distributed query
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed Query

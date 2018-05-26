@@ -1,13 +1,16 @@
 ---
-Description: 'The OnProgress event of SWbemSink is triggered when an asynchronous call returns the status of a call that is in progress.'
+Description: The OnProgress event of SWbemSink is triggered when an asynchronous call returns the status of a call that is in progress.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'abb43916-f952-41fe-a5ba-0428864c0685'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: abb43916-f952-41fe-a5ba-0428864c0685
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ISWbemSinkEvents::OnProgress event'
+title: ISWbemSinkEventsOnProgress event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISWbemSinkEvents::OnProgress event
@@ -100,7 +103,7 @@ The **OnProgress** event is triggered when an asynchronous call returns the stat
 > [!Note]  
 > An asynchronous callback allows a non-authenticated user to provide data to the sink. This poses security risks to your scripts and applications. To eliminate the risks, use semi-synchronous or synchronous communication. For more information, see [Calling a Method](calling-a-method.md).
 
- 
+ 
 
 ## Requirements
 
@@ -108,8 +111,8 @@ The **OnProgress** event is triggered when an asynchronous call returns the stat
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wbemdisp.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -125,9 +128,9 @@ The **OnProgress** event is triggered when an asynchronous call returns the stat
 [**SWbemSink**](swbemsink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

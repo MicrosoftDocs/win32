@@ -1,7 +1,12 @@
 ---
-Description: 'Describes statistics that you can retrieve from a Windows Media codec.'
-ms.assetid: '86c029af-e0fb-436a-b758-3f7d10c8bdeb'
+Description: Describes statistics that you can retrieve from a Windows Media codec.
+ms.assetid: 86c029af-e0fb-436a-b758-3f7d10c8bdeb
 title: Getting Encoding Statistics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Encoding Statistics

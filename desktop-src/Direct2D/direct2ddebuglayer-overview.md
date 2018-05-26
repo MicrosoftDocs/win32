@@ -1,7 +1,12 @@
 ---
 title: Direct2D Debug Layer Overview
 description: .
-ms.assetid: '7c28e00b-ebb9-4b79-939c-64eade1351ad'
+ms.assetid: 7c28e00b-ebb9-4b79-939c-64eade1351ad
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct2D Debug Layer Overview
@@ -26,7 +31,7 @@ For instructions on installing the debug layer, see [Installing the Direct2D Deb
 
 ## Enabling the Debug Layer
 
-To enable the debug layer in your application, specify a [**D2D1\_DEBUG\_LEVEL**](d2d1-debug-level.md) value other than **D2D1\_DEBUG\_LEVEL\_NONE** when you create a factory with the [**D2D1CreateFactory**](d2d1createfactory.md) function.
+To enable the debug layer in your application, specify a [**D2D1\_DEBUG\_LEVEL**](/windows/win32/d2d1/ne-d2d1-d2d1_debug_level?branch=master) value other than **D2D1\_DEBUG\_LEVEL\_NONE** when you create a factory with the [**D2D1CreateFactory**](/windows/win32/d2d1/nf-d2d1-d2d1createfactory?branch=master) function.
 
 > [!Note]  
 > If the Direct2D debug layer is enabled, the Direct2D color management effect (CLSID\_D2D1ColorManagement) may cause an access violation when setting a color context. The workaround is to disable the debug layer when using the color management effect
@@ -65,11 +70,11 @@ The following example enables the debug layer for a factory when the application
 
  
 
-The next section describes the different debug levels defined by the [**D2D1\_DEBUG\_LEVEL**](d2d1-debug-level.md) enumeration.
+The next section describes the different debug levels defined by the [**D2D1\_DEBUG\_LEVEL**](/windows/win32/d2d1/ne-d2d1-d2d1_debug_level?branch=master) enumeration.
 
 ## Debug Levels
 
-The [**D2D1\_DEBUG\_LEVEL**](d2d1-debug-level.md) enumeration specifies three debug levels: D2D1\_DEBUG\_LEVEL\_ERROR (error), D2D1\_DEBUG\_LEVEL\_WARNING (warning), and D2D1\_DEBUG\_LEVEL\_INFORMATION (information). These levels are interpreted as follows:
+The [**D2D1\_DEBUG\_LEVEL**](/windows/win32/d2d1/ne-d2d1-d2d1_debug_level?branch=master) enumeration specifies three debug levels: D2D1\_DEBUG\_LEVEL\_ERROR (error), D2D1\_DEBUG\_LEVEL\_WARNING (warning), and D2D1\_DEBUG\_LEVEL\_INFORMATION (information). These levels are interpreted as follows:
 
 -   **Error:** Direct2D sends severe error messages to the debug layer. For example, breaking a threading constraint will generate a severe error.
 

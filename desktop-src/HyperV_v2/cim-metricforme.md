@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association in which a metric values are collected for a managed element.'
-ms.assetid: '00752751-bc27-463b-a4ac-4db8e5040077'
-title: 'CIM\_MetricForME class'
+Description: Represents an association in which a metric values are collected for a managed element.
+ms.assetid: 00752751-bc27-463b-a4ac-4db8e5040077
+title: CIM\_MetricForME class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MetricForME class
@@ -14,7 +19,7 @@ Represents an association in which a metric values are collected for a managed e
 [Association, Abstract, Version("2.7.0"), UMLPackagePath("CIM::Metrics::BaseMetric"), AMENDMENT]
 class CIM_MetricForME : CIM_Dependency
 {
-  CIM_ManagedElement  REF Antecedent;
+  CIM_ManagedElement  REF Antecedent;
   CIM_BaseMetricValue REF Dependent;
 };
 ```
@@ -69,8 +74,8 @@ The metric value in the association.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The metric value in the association.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

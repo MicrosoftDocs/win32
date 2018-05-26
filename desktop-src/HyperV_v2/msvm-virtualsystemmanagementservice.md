@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the virtualization service present on a single host system.'
-ms.assetid: 'f233bf2f-5201-4b02-8384-bb7e2d1e7dee'
-title: 'Msvm\_VirtualSystemManagementService class'
+Description: Represents the virtualization service present on a single host system.
+ms.assetid: f233bf2f-5201-4b02-8384-bb7e2d1e7dee
+title: Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSystemManagementService class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSystemManagementService : CIM_VirtualSystemManagementService
 {
-  string   InstanceID;
-  string   Caption = "Virtual System Management Service";
-  string   Description = "Service for creating, manipulating, and managing virtual machines";
-  string   ElementName = "Hyper-V Virtual System Management Service";
+  string   InstanceID;
+  string   Caption = "Virtual System Management Service";
+  string   Description = "Service for creating, manipulating, and managing virtual machines";
+  string   ElementName = "Hyper-V Virtual System Management Service";
   datetime InstallDate;
-  string   Name = "vmms";
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "The service is running normally" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "vmms";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "The service is running normally" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_VirtualSystemManagementService";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started = True;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_VirtualSystemManagementService";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started = True;
 };
 ```
 
@@ -110,7 +115,7 @@ The **Msvm\_VirtualSystemManagementService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -280,7 +285,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -303,7 +308,7 @@ The enabled and disabled states of an element. This property can also indicate t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -326,7 +331,7 @@ The current health of the element. This attribute expresses the health of this e
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -557,7 +562,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -684,8 +689,8 @@ Access to the **Msvm\_VirtualSystemManagementService** class might be restricted
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -708,9 +713,9 @@ Access to the **Msvm\_VirtualSystemManagementService** class might be restricted
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

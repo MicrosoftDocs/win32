@@ -4,13 +4,16 @@ description: Creates a cluster name account in Active Directory Domain Services.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3a270efe-1b7a-4e8c-bc34-41d9893bea64'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3a270efe-1b7a-4e8c-bc34-41d9893bea64
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddClusterNameAccount method", "AddClusterNameAccount method, MSCluster_Cluster class", "MSCluster_Cluster class, AddClusterNameAccount method"]
+keywords:
+- AddClusterNameAccount method
+- AddClusterNameAccount method, MSCluster_Cluster class
+- MSCluster_Cluster class, AddClusterNameAccount method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddClusterNameAccount method of the MSCluster\_Cluster class
@@ -30,11 +36,11 @@ Creates a cluster name account in Active Directory Domain Services.
 
 ```mof
 void AddClusterNameAccount(
-  [in] string Name,
-  [in] string DomainName,
-  [in] string UserName,
-  [in] string Password,
-  [in] uint32 AdministrativeAccessPoint
+  [in] string Name,
+  [in] string DomainName,
+  [in] string UserName,
+  [in] string Password,
+  [in] uint32 AdministrativeAccessPoint
 );
 ```
 
@@ -104,7 +110,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -118,9 +124,9 @@ This method does not return a value.
 [**MSCluster\_Cluster**](mscluster-cluster.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

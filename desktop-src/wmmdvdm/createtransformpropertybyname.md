@@ -1,8 +1,9 @@
 ---
 title: CreateTransformPropertyByName function
 description: The CreateTransformPropertyByName function creates a new property object with a name and an initial value.
-ms.assetid: '94044361-0ba1-4f5f-a1c6-d382a0c8a1bf'
-keywords: ["CreateTransformPropertyByName function Windows Movie Maker and DVD Maker"]
+ms.assetid: 94044361-0ba1-4f5f-a1c6-d382a0c8a1bf
+keywords:
+- CreateTransformPropertyByName function Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -14,6 +15,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateTransformPropertyByName function
@@ -25,9 +31,9 @@ The **CreateTransformPropertyByName** function creates a new property object wit
 
 ```C++
 HRESULT CreateTransformPropertyByName(
-  _In_  LPCTSTR                                             lpszName,
-  _In_  LPCTSTR lpszName PROPVARIANT                        var,
-  _Out_ LPCTSTR lpszName PROPVARIANT var ITransformProperty **ppProperty
+  _In_  LPCTSTR                                             lpszName,
+  _In_  LPCTSTR lpszName PROPVARIANT                        var,
+  _Out_ LPCTSTR lpszName PROPVARIANT var ITransformProperty **ppProperty
 );
 ```
 
@@ -68,8 +74,8 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -82,9 +88,9 @@ The method returns an **HRESULT** of S\_OK for success, or a standard COM error 
 [**Property Management Helper Functions**](property-management-helper-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

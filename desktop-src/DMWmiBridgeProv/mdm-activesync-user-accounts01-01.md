@@ -1,8 +1,10 @@
 ---
 title: MDM\_ActiveSync\_User\_Accounts01\_01 class
 description: The MDM\_ActiveSync\_User\_Accounts01\_01 class defines all available ActiveSync accounts.
-ms.assetid: 'bcd1fdcb-675a-4833-9d3c-0509e68f7b00'
-keywords: ["MDM_ActiveSync_User_Accounts01_01 class", "MDM_ActiveSync_User_Accounts01_01 class, described"]
+ms.assetid: bcd1fdcb-675a-4833-9d3c-0509e68f7b00
+keywords:
+- MDM_ActiveSync_User_Accounts01_01 class
+- MDM_ActiveSync_User_Accounts01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_ActiveSync\_User\_Accounts01\_01 class
@@ -180,7 +187,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -195,9 +202,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

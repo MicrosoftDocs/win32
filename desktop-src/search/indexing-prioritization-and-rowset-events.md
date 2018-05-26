@@ -1,7 +1,12 @@
 ---
-Description: 'Outlines the introduction of indexing prioritization and rowset events for Windows 7.'
-ms.assetid: '6cdfb7d3-f849-432c-960f-912e5024c583'
+Description: Outlines the introduction of indexing prioritization and rowset events for Windows 7.
+ms.assetid: 6cdfb7d3-f849-432c-960f-912e5024c583
 title: Indexing Prioritization and Rowset Events in Windows 7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Prioritization and Rowset Events in Windows 7
@@ -85,13 +90,13 @@ interface IRowsetPrioritization : IUnknown
 
 Rowset prioritization works as follows:
 
-1.  [**IRowsetPrioritization**](-search-irowsetprioritization.md) is acquired with [IUnknown::QueryInterface Method](http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx) on an indexer rowset. **DBPROP\_ENABLEROWSETEVENTS** must be set to **TRUE** with the OLE DB [ICommandProperties::SetProperties](http://msdn.microsoft.com/en-us/library/ms711497(VS.85).aspx) method prior to executing the query in order to use rowset prioritization.
-2.  [**IRowsetPrioritization::SetScopePriority**](-search-irowsetprioritization-setscopepriority.md) sets the prioritization for the scopes belonging to the query, and the interval the scope statistics event is raised when there are outstanding documents to be indexed within the query scopes. This event is raised if the priority level is set to default.
-3.  [**IRowsetPrioritization::GetScopeStatistics**](-search-irowsetprioritization-getscopestatistics.md) can be used to get the number of indexed items in the scope, the number of outstanding documents to be added in the scope, and the number of documents that need to be re-indexed within this scope.
+1.  [**IRowsetPrioritization**](/windows/win32/Searchapi/nn-searchapi-irowsetprioritization?branch=master) is acquired with [IUnknown::QueryInterface Method](http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx) on an indexer rowset. **DBPROP\_ENABLEROWSETEVENTS** must be set to **TRUE** with the OLE DB [ICommandProperties::SetProperties](http://msdn.microsoft.com/en-us/library/ms711497(VS.85).aspx) method prior to executing the query in order to use rowset prioritization.
+2.  [**IRowsetPrioritization::SetScopePriority**](/windows/win32/Searchapi/nf-searchapi-irowsetprioritization-setscopepriority?branch=master) sets the prioritization for the scopes belonging to the query, and the interval the scope statistics event is raised when there are outstanding documents to be indexed within the query scopes. This event is raised if the priority level is set to default.
+3.  [**IRowsetPrioritization::GetScopeStatistics**](/windows/win32/Searchapi/nf-searchapi-irowsetprioritization-getscopestatistics?branch=master) can be used to get the number of indexed items in the scope, the number of outstanding documents to be added in the scope, and the number of documents that need to be re-indexed within this scope.
 
 ### IRowsetPrioritization Events
 
-There are three rowset events in [**IRowsetEvents::OnRowsetEvent**](-search-irowsetevents-onrowsetevent.md) in the [**ROWSETEVENT\_TYPE**](-search-rowsetevent-type.md) enumeration:
+There are three rowset events in [**IRowsetEvents::OnRowsetEvent**](/windows/win32/Searchapi/nf-searchapi-irowsetevents-onrowsetevent?branch=master) in the [**ROWSETEVENT\_TYPE**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002?branch=master) enumeration:
 
 
 ```
@@ -111,9 +116,9 @@ The rowset events are as follows:
 
 -   The **ROWSETEVENT\_TYPE\_DATAEXPIRED** event indicates that data backing the rowset has expired, and that a new rowset should be requested.
 -   The **ROWSET\_TYPE\_FOREGROUNDLOST** event indicates that an item that did have foreground priority in the prioritization stack has been demoted, because someone else prioritized themselves ahead of this query.
--   The **ROWSETEVENT\_TYPE\_SCOPESTATISTICS** event gives you the same information available from the [**IRowsetPrioritization::GetScopeStatistics**](-search-irowsetprioritization-getscopestatistics.md) method call, but through a push mechanic, as follows:
+-   The **ROWSETEVENT\_TYPE\_SCOPESTATISTICS** event gives you the same information available from the [**IRowsetPrioritization::GetScopeStatistics**](/windows/win32/Searchapi/nf-searchapi-irowsetprioritization-getscopestatistics?branch=master) method call, but through a push mechanic, as follows:
     -   The event arises if the prioritization API has been used to request a non-default prioritization level, and a non-zero statistics event frequency.
-    -   The event arises only when statistics actually change, and the interval specified in the [**IRowsetPrioritization**](-search-irowsetprioritization.md) has elapsed (the interval does not guarantee the frequency of the event).
+    -   The event arises only when statistics actually change, and the interval specified in the [**IRowsetPrioritization**](/windows/win32/Searchapi/nn-searchapi-irowsetprioritization?branch=master) has elapsed (the interval does not guarantee the frequency of the event).
     -   This event is guaranteed to raise a "bounce zero" state (zero items remaining to be added, zero modifies remaining), provided that a non-zero event has been raised.
     -   The indexer may process items without sending this event, if the queue empties before the statistics event frequency.
 
@@ -122,13 +127,13 @@ The rowset events are as follows:
 See the following resources related to prioritization and rowsets:
 
 -   Interfaces:
-    -   [**IRowsetEvents**](-search-irowsetevents.md)
-    -   [**IRowsetPrioritization**](-search-irowsetprioritization.md)
+    -   [**IRowsetEvents**](/windows/win32/Searchapi/nn-searchapi-irowsetevents?branch=master)
+    -   [**IRowsetPrioritization**](/windows/win32/Searchapi/nn-searchapi-irowsetprioritization?branch=master)
 -   Enumerations:
-    -   [**PRIORITIZE\_FLAGS**](-search-prioritize-flags.md)
-    -   [**PRIORITY\_LEVEL**](-search-priority-level.md)
-    -   [**ROWSETEVENT\_ITEMSTATE**](-search-rowsetevent-itemstate.md)
-    -   [**ROWSETEVENT\_TYPE**](-search-rowsetevent-type.md)
+    -   [**PRIORITIZE\_FLAGS**](/windows/win32/Searchapi/ne-searchapi-tagprioritize_flags?branch=master)
+    -   [**PRIORITY\_LEVEL**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0022_0001?branch=master)
+    -   [**ROWSETEVENT\_ITEMSTATE**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0001?branch=master)
+    -   [**ROWSETEVENT\_TYPE**](/windows/win32/Searchapi/ne-searchapi-__midl___midl_itf_searchapi_0000_0023_0002?branch=master)
 
 ## Related topics
 

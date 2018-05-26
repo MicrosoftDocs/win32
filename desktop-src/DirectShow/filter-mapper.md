@@ -1,7 +1,12 @@
 ---
 Description: Filter Mapper
-ms.assetid: 'cb8f25b3-a0f0-48fa-843f-88a5a5d17019'
+ms.assetid: cb8f25b3-a0f0-48fa-843f-88a5a5d17019
 title: Filter Mapper
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter Mapper
@@ -23,9 +28,9 @@ The Filter Mapper searches the registry for registered filters. The Filter Graph
 <tr class="even">
 <td>Interfaces</td>
 <td><ul>
-<li>[<strong>IFilterMapper2</strong>](ifiltermapper2.md)</li>
+<li>[<strong>IFilterMapper2</strong>](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master)</li>
 <li>[<strong>IAMFilterData</strong>](iamfilterdata.md) (deprecated)</li>
-<li>[<strong>IFilterMapper3</strong>](ifiltermapper3.md) (deprecated)</li>
+<li>[<strong>IFilterMapper3</strong>](/windows/win32/Strmif/nn-strmif-ifiltermapper3?branch=master) (deprecated)</li>
 </ul></td>
 </tr>
 </tbody>

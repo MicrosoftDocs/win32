@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a Boolean value that specifies whether the trusted domain has been imported from another AD RMS installation.'
+Description: Retrieves a Boolean value that specifies whether the trusted domain has been imported from another AD RMS installation.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '56bbf82e-a9b0-43a9-beff-f7f1734c2da8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 56bbf82e-a9b0-43a9-beff-f7f1734c2da8
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TrustedPublishingDomain.IsImported property'
+title: TrustedPublishingDomain.IsImported property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TrustedPublishingDomain.IsImported property
@@ -132,7 +135,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -144,9 +147,9 @@ END SUB
 [**TrustedPublishingDomain**](trustedpublishingdomain-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Weeks (monthlyDayOfWeekScheduleType) Element
 description: Specifies the weeks of the month in which the task is run.
-ms.assetid: 'c126d1e2-6e60-4067-9fc2-86c9522cce5d'
-keywords: ["Weeks element Task Scheduler"]
+ms.assetid: c126d1e2-6e60-4067-9fc2-86c9522cce5d
+keywords:
+- Weeks element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Weeks
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Weeks (monthlyDayOfWeekScheduleType) Element
@@ -47,7 +53,7 @@ The **Weeks** element is defined by the [**monthlyDayOfWeekScheduleType**](tasks
 
 For scripting development, the weeks of the month are specified using the [**MonthlyDOWTrigger.WeeksOfMonth**](monthlydowtrigger-weeksofmonth.md) property.
 
-For C++ development, the weeks of the month are specified using the [**IMonthlyDOWTrigger::WeeksOfMonth**](imonthlydowtrigger-weeksofmonth.md) property.
+For C++ development, the weeks of the month are specified using the [**IMonthlyDOWTrigger::WeeksOfMonth**](/windows/win32/taskschd/nf-taskschd-imonthlydowtrigger-get_weeksofmonth?branch=master) property.
 
 When specifying the weeks of the month, use 1-4 to specify the first four weeks of the month or use the string "Last" to indicate the last week regardless of which week it is.
 
@@ -89,8 +95,8 @@ The following XML defines a monthly day-of-week calendar that starts the task on
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -104,9 +110,9 @@ The following XML defines a monthly day-of-week calendar that starts the task on
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

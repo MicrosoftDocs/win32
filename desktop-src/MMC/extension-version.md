@@ -4,11 +4,16 @@ description: The Version property returns the version, in string form, of the sn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '442abacb-4a80-4efe-9848-59e7c3ba3ee2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 442abacb-4a80-4efe-9848-59e7c3ba3ee2
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Version property MMC", "Version property MMC , Extension object", "Extension object MMC , Version property", "Version property MMC , Extension interface", "Extension interface MMC , Version property"]
+keywords:
+- Version property MMC
+- Version property MMC , Extension object
+- Extension object MMC , Version property
+- Version property MMC , Extension interface
+- Extension interface MMC , Version property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmcndmgr.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extension::Version property
@@ -55,8 +63,8 @@ MsgBox ("Version: " & strVrsn)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>     |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Mmcndmgr.dll</dt> </dl> |
@@ -77,9 +85,9 @@ MsgBox ("Version: " & strVrsn)
 [**Extension.Vendor**](extension-vendor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

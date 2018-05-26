@@ -1,20 +1,25 @@
 ---
 title: Lines Sample
 description: The Lines sample is an ActiveX component application that implements collections.
-ms.assetid: '04fdf5ae-c2a4-4638-998b-148dc0319112'
+ms.assetid: 04fdf5ae-c2a4-4638-998b-148dc0319112
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Lines Sample
 
 The Lines sample is an ActiveX component application that implements collections. This sample allows a collection of lines to be drawn on a pane using Automation. This sample implements the following features:
 
--   *Dual* interfaces that allow access to automation properties and methods through VTBL binding and [**IDispatch**](idispatch.md).
+-   *Dual* interfaces that allow access to automation properties and methods through VTBL binding and [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master).
 
--   Rich error information for VTBL-binding controllers implemented by [**ISupportErrorInfo**](isupporterrorinfo.md) and [**IErrorInfo**](ierrorinfo.md).
+-   Rich error information for VTBL-binding controllers implemented by [**ISupportErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-isupporterrorinfo?branch=master) and [**IErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-ierrorinfo?branch=master).
 
 -   Two collections.
 
--   Active object registration using [**RegisterActiveObject**](registeractiveobject.md) and [**RevokeActiveObject**](revokeactiveobject.md).
+-   Active object registration using [**RegisterActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-registeractiveobject?branch=master) and [**RevokeActiveObject**](/windows/previous-versions/OleAuto/nf-oleauto-revokeactiveobject?branch=master).
 
 -   Correct shutdown behavior.
 
@@ -280,16 +285,16 @@ CLine::Release(void)
 
 ## Creating the IDispatch Interface for the Lines Application
 
-The following sections explain how to implement [**IDispatch**](idispatch.md) by using [**CreateStdDispatch**](createstddispatch.md) and [**DispInvoke**](dispinvoke.md).
+The following sections explain how to implement [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) by using [**CreateStdDispatch**](/windows/previous-versions/OleAuto/nf-oleauto-createstddispatch?branch=master) and [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master).
 
 -   [Implementing IDispatch by Calling CreateStdDispatch](#implementing-idispatch-by-calling-createstddispatch)
 -   [Implementing IDispatch by Delegating](#implementing-idispatch-by-delegating)
 
 ### Implementing IDispatch by Calling CreateStdDispatch
 
-The simplest way to implement the [**IDispatch**](idispatch.md) interface is to call [**CreateStdDispatch**](createstddispatch.md). This approach works for ActiveX objects that return only the standard dispatch exception codes, support a single national language, and do not support dual interfaces.
+The simplest way to implement the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface is to call [**CreateStdDispatch**](/windows/previous-versions/OleAuto/nf-oleauto-createstddispatch?branch=master). This approach works for ActiveX objects that return only the standard dispatch exception codes, support a single national language, and do not support dual interfaces.
 
-[**CreateStdDispatch**](createstddispatch.md) returns a pointer to the created [**IDispatch**](idispatch.md) interface. It takes three pointers as input: a pointer to the object's **IUnknown** interface, a pointer to the object to expose, and a pointer to the type information for the object. The following example is taken from the COM Fundamentals DspCalc2 sample shipped with the Platform SDK. This example implements **IDispatch** for an object named CCalc by calling **CreateStdDispatch** on the loaded type information:
+[**CreateStdDispatch**](/windows/previous-versions/OleAuto/nf-oleauto-createstddispatch?branch=master) returns a pointer to the created [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface. It takes three pointers as input: a pointer to the object's **IUnknown** interface, a pointer to the object to expose, and a pointer to the type information for the object. The following example is taken from the COM Fundamentals DspCalc2 sample shipped with the Platform SDK. This example implements **IDispatch** for an object named CCalc by calling **CreateStdDispatch** on the loaded type information:
 
 
 ```C++
@@ -350,9 +355,9 @@ LError0:;
 
 ### Implementing IDispatch by Delegating
 
-Another way to implement [**IDispatch**](idispatch.md) is to use the dispatch functions [**DispInvoke**](dispinvoke.md) and [**DispGetIDsOfNames**](dispgetidsofnames.md). These functions give you the option of supporting multiple national languages and creating application-specific exceptions that are passed back to ActiveX clients.
+Another way to implement [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) is to use the dispatch functions [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master) and [**DispGetIDsOfNames**](/windows/previous-versions/OleAuto/nf-oleauto-dispgetidsofnames?branch=master). These functions give you the option of supporting multiple national languages and creating application-specific exceptions that are passed back to ActiveX clients.
 
-The Lines sample implements [**IDispatch::GetIDsOfNames**](idispatch-getidsofnames.md) and [**IDispatch::Invoke**](idispatch-invoke.md) using these functions (Lines.cpp):
+The Lines sample implements [**IDispatch::GetIDsOfNames**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-getidsofnames?branch=master) and [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) using these functions (Lines.cpp):
 
 
 ```C++
@@ -489,7 +494,7 @@ CApplicationCF::Release(void)
 
 ## Setting Up the VTBL Interface
 
-The Lines sample supports VTBL binding as well as the **IDispatch** interface. By supporting this [dual](dual.md) interface, the sample allows ActiveX clients both the flexibility of the [**IDispatch**](idispatch.md) interface and the speed of VTBLs. Controllers that know the names of the members can compile directly against the function pointers in the VTBL. Controllers that do not have this information can use **IDispatch** at run time.
+The Lines sample supports VTBL binding as well as the **IDispatch** interface. By supporting this [dual](dual.md) interface, the sample allows ActiveX clients both the flexibility of the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface and the speed of VTBLs. Controllers that know the names of the members can compile directly against the function pointers in the VTBL. Controllers that do not have this information can use **IDispatch** at run time.
 
 To have a *dual* interface, an interface must:
 
@@ -751,7 +756,7 @@ The parameters to **CLines::Create** specify the maximum number of lines that th
 
 ## Implementing the IEnumVARIANT Interface for the Lines Application
 
-In the Lines sample, **CEnumVariant** implements the [**Next**](ienumvariant-next.md), **Skip**, **Reset**, and [**Clone**](ienumvariant-clone.md) member functions (Enumvar.cpp):
+In the Lines sample, **CEnumVariant** implements the [**Next**](/windows/previous-versions/oaidl/nf-oaidl-ienumvariant-next?branch=master), **Skip**, **Reset**, and [**Clone**](/windows/previous-versions/oaidl/nf-oaidl-ienumvariant-clone?branch=master) member functions (Enumvar.cpp):
 
 
 ```C++
@@ -839,7 +844,7 @@ error:
 
 ## Implementing the \_NewEnum Property for the Lines Application
 
-The Lines sample contains two collections, Lines and Points, and implements a **\_NewEnum** property for each. Both are restricted properties, available to ActiveX clients, but invisible to users of scripting or macro languages supported by ActiveX clients. The property returns an enumerator ([**IEnumVARIANT**](ienumvariant.md)) for the items in the collection.
+The Lines sample contains two collections, Lines and Points, and implements a **\_NewEnum** property for each. Both are restricted properties, available to ActiveX clients, but invisible to users of scripting or macro languages supported by ActiveX clients. The property returns an enumerator ([**IEnumVARIANT**](/windows/previous-versions/oaidl/nn-oaidl-ienumvariant?branch=master)) for the items in the collection.
 
 The following code implements the **\_NewEnum** property for the Lines collection (Lines.cpp). The source code for the **RaiseException** function can be found in the Lines sample file Main.cpp.
 
@@ -886,7 +891,7 @@ error:
 
 ## Returning Errors
 
-The Lines sample defines an exception handler that fills the EXCEPINFO structure and signals [**IDispatch**](idispatch.md) to return DISP\_E\_EXCEPTION (Main.cpp):
+The Lines sample defines an exception handler that fills the EXCEPINFO structure and signals [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) to return DISP\_E\_EXCEPTION (Main.cpp):
 
 
 ```C++
@@ -934,13 +939,13 @@ HRESULT RaiseException (int nID, Refguid rguid)
 
 
 
-Properties and methods in the Lines sample call this routine when an exception occurs. **RaiseException** sets the system's error object, so that controller applications that call through VTBLs can retrieve rich error information. Controllers that call through [**IDispatch::Invoke**](idispatch-invoke.md) will be returned with this error information by [**DispInvoke**](dispinvoke.md) through the EXCEPINFO structure.
+Properties and methods in the Lines sample call this routine when an exception occurs. **RaiseException** sets the system's error object, so that controller applications that call through VTBLs can retrieve rich error information. Controllers that call through [**IDispatch::Invoke**](/windows/previous-versions/oaidl/nf-oaidl-idispatch-invoke?branch=master) will be returned with this error information by [**DispInvoke**](/windows/previous-versions/OleAuto/nf-oleauto-dispinvoke?branch=master) through the EXCEPINFO structure.
 
 ## Passing Exceptions Through VTBLs
 
-The Lines sample also provides rich error information for members invoked through VTBLs. Because VTBL-bound calls bypass the [**IDispatch**](idispatch.md) interface, they cannot return exceptions through **IDispatch**. Instead, they must use the error handling interfaces in Automation. The **RaiseException** function shown in the example calls [**CreateErrorInfo**](createerrorinfo.md) to create an error object, then fills the object's data fields with information about the error. When all of the information has been successfully recorded, it calls [**SetErrorInfo**](seterrorinfo.md) to associate the error object with the current thread of execution.
+The Lines sample also provides rich error information for members invoked through VTBLs. Because VTBL-bound calls bypass the [**IDispatch**](/windows/previous-versions/oaidl/nn-oaidl-idispatch?branch=master) interface, they cannot return exceptions through **IDispatch**. Instead, they must use the error handling interfaces in Automation. The **RaiseException** function shown in the example calls [**CreateErrorInfo**](/windows/previous-versions/OleAuto/nf-oleauto-createerrorinfo?branch=master) to create an error object, then fills the object's data fields with information about the error. When all of the information has been successfully recorded, it calls [**SetErrorInfo**](/windows/previous-versions/OleAuto/nf-oleauto-seterrorinfo?branch=master) to associate the error object with the current thread of execution.
 
-ActiveX objects similar to the collection object (CApplication), which use the error interfaces, must also implement the [**ISupportErrorInfo**](isupporterrorinfo.md) interface. This interface identifies the object as supporting the error interfaces, and ensures that error information can be propagated correctly up the call chain. The following example shows how the Lines sample implements this interface (Errinfo.cpp):
+ActiveX objects similar to the collection object (CApplication), which use the error interfaces, must also implement the [**ISupportErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-isupporterrorinfo?branch=master) interface. This interface identifies the object as supporting the error interfaces, and ensures that error information can be propagated correctly up the call chain. The following example shows how the Lines sample implements this interface (Errinfo.cpp):
 
 
 ```C++
@@ -979,7 +984,7 @@ CSupportErrorInfo::InterfaceSupportsErrorInfo(REFIID riid)
 
 
 
-[**ISupportErrorInfo**](isupporterrorinfo.md) has the **QueryInterface**, **AddRef**, and **Release** methods inherited from the **IUnknown** interface, along with the [**InterfaceSupportsErrorInfo**](isupporterrorinfo-interfacesupportserrorinfo.md) method. ActiveX clients call **InterfaceSupportsErrorInfo** to check whether the ActiveX object supports the [**IErrorInfo**](ierrorinfo.md) interface, so they can access the error object. For details, see [Error Handling Interfaces](error-handling-interfaces.md).
+[**ISupportErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-isupporterrorinfo?branch=master) has the **QueryInterface**, **AddRef**, and **Release** methods inherited from the **IUnknown** interface, along with the [**InterfaceSupportsErrorInfo**](/windows/previous-versions/oaidl/nf-oaidl-isupporterrorinfo-interfacesupportserrorinfo?branch=master) method. ActiveX clients call **InterfaceSupportsErrorInfo** to check whether the ActiveX object supports the [**IErrorInfo**](/windows/previous-versions/oaidl/nn-oaidl-ierrorinfo?branch=master) interface, so they can access the error object. For details, see [Error Handling Interfaces](error-handling-interfaces.md).
 
 ## Releasing OLE on Exit
 

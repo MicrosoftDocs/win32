@@ -1,7 +1,12 @@
 ---
-Description: 'Copy this set.'
-ms.assetid: 'dd3d7786-3d33-4440-a04b-8a9b6af69937'
-title: 'CloneObject method of the MSFT\_NetIKEP1AuthSet class'
+Description: Copy this set.
+ms.assetid: dd3d7786-3d33-4440-a04b-8a9b6af69937
+title: CloneObject method of the MSFT\_NetIKEP1AuthSet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CloneObject method of the MSFT\_NetIKEP1AuthSet class
@@ -13,10 +18,10 @@ Copy this set.
 
 ```mof
 uint32 CloneObject(
-  [in] string NewName,
-  [in] string NewID,
-  [in] string NewPolicyStore,
-  [in] string NewGPOSession
+  [in] string NewName,
+  [in] string NewID,
+  [in] string NewPolicyStore,
+  [in] string NewGPOSession
 );
 ```
 
@@ -60,8 +65,8 @@ The new GPOSession for the set.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                         |
 | MOF<br/>                      | <dl> <dt>WFasCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WFasCim.dll</dt> </dl> |
@@ -75,9 +80,9 @@ The new GPOSession for the set.
 [**MSFT\_NetIKEP1AuthSet**](msft-netikep1authset.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

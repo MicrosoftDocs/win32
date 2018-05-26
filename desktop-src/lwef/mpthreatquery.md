@@ -1,8 +1,9 @@
 ---
 title: MpThreatQuery function
 description: Used to query static (such as severity and category) or localized (such as category description and advice) information about a particular threat.
-ms.assetid: 'A06854B2-8444-46A4-A53F-FD5FEAFF47B7'
-keywords: ["MpThreatQuery function Legacy Windows Environment Features"]
+ms.assetid: A06854B2-8444-46A4-A53F-FD5FEAFF47B7
+keywords:
+- MpThreatQuery function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpThreatQuery function
@@ -22,10 +28,10 @@ Used to query static (such as severity and category) or localized (such as categ
 
 ```C++
 HRESULT WINAPI MpThreatQuery(
-  _In_      MPHANDLE                 hMpHandle,
-  _In_      MPTHREAT_ID              ThreatID,
-  _Out_     PMPTHREAT_INFO           *ppThreatInfo,
-  _Out_opt_ PMPTHREAT_LOCALIZED_INFO *ppThreatLocalizedInfo
+  _In_      MPHANDLE                 hMpHandle,
+  _In_      MPTHREAT_ID              ThreatID,
+  _Out_     PMPTHREAT_INFO           *ppThreatInfo,
+  _Out_opt_ PMPTHREAT_LOCALIZED_INFO *ppThreatLocalizedInfo
 );
 ```
 
@@ -85,8 +91,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -108,9 +114,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MPTHREAT\_LOCALIZED\_INFO**](mpthreat-localized-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: if (sm4 - asm)
 description: Branch based on logical OR result.
-ms.assetid: '9F4CF9E0-4D9D-4300-B432-432C560F34BB'
+ms.assetid: 9F4CF9E0-4D9D-4300-B432-432C560F34BB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if (sm4 - asm)
@@ -15,7 +20,7 @@ Branch based on logical OR result.
 
 
 
- 
+ 
 
 
 
@@ -25,7 +30,7 @@ Branch based on logical OR result.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,7 +67,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -81,7 +86,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -90,9 +95,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

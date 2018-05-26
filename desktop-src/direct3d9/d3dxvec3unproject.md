@@ -1,7 +1,12 @@
-﻿---
-Description: 'Projects a vector from screen space into object space.'
-ms.assetid: '9fd69cae-1d9c-4fae-9e15-8eb9950b4850'
+---
+Description: Projects a vector from screen space into object space.
+ms.assetid: 9fd69cae-1d9c-4fae-9e15-8eb9950b4850
 title: D3DXVec3Unproject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Unproject function

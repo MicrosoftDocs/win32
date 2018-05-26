@@ -1,8 +1,17 @@
 ---
 title: Text Location
 description: Text Location
-ms.assetid: 'b05c3594-9249-4612-b4a3-f624832d1073'
-keywords: ["Windows Media Player Mobile skins,text", "skins,text", "reference for skins,text", "text in skins,location"]
+ms.assetid: b05c3594-9249-4612-b4a3-f624832d1073
+keywords:
+- Windows Media Player Mobile skins,text
+- skins,text
+- reference for skins,text
+- text in skins,location
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Text Location

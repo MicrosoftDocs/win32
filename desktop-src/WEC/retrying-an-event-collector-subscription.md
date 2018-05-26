@@ -2,10 +2,13 @@
 title: Retrying an Event Collector Subscription
 description: If a problem occurs with an event source that is associated to an Event Collector subscription, you can retry the subscription after the problem has been solved.
 audience: developer
-ms.assetid: '8a3570af-bde3-40e5-8129-84ec313d853f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-event-collector'
+ms.assetid: 8a3570af-bde3-40e5-8129-84ec313d853f
+ms.prod: windows-server-dev
+ms.technology: windows-event-collector
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Retrying an Event Collector Subscription
@@ -33,9 +36,9 @@ The following code example follows a procedure to retry all of the event sources
 
 **To retry an Event Collector subscription**
 
-1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](ecopensubscription.md) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
+1.  Open the subscription by providing the subscription name and access rights as parameters to the [**EcOpenSubscription**](/windows/win32/Evcoll/nf-evcoll-ecopensubscription?branch=master) function. For more information about access rights, see [**Windows Event Collector Constants**](windows-event-collector-constants.md).
 2.  Retry the event source by calling the **EcRetrySubscription** function.
-3.  Close the subscription by calling the [**EcClose**](ecclose.md) function.
+3.  Close the subscription by calling the [**EcClose**](/windows/win32/Evcoll/nf-evcoll-ecclose?branch=master) function.
 
 The following C++ code example shows how to retry an Event Collector subscription.
 

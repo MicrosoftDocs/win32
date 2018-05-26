@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sent by the default context menu implementation to request LPFNDFMCALLBACK to invoke an extended menu command.'
-title: 'DFM\_INVOKECOMMANDEX message'
+---
+Description: Sent by the default context menu implementation to request LPFNDFMCALLBACK to invoke an extended menu command.
+title: DFM\_INVOKECOMMANDEX message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DFM\_INVOKECOMMANDEX message
@@ -126,7 +131,7 @@ Show the **Properties** UI for the item the menu was invoked on.
 *PDFMICS* \[in\]
 </dt> <dd>
 
-A pointer to a [**DFMICS**](dfmics.md) structure that contains additional arguments to the selected menu command. This parameter can be **NULL**.
+A pointer to a [**DFMICS**](/windows/win32/shlobj_core/ns-shlobj_core-dfmics?branch=master) structure that contains additional arguments to the selected menu command. This parameter can be **NULL**.
 
 </dd> </dl>
 
@@ -134,9 +139,9 @@ A pointer to a [**DFMICS**](dfmics.md) structure that contains additional argume
 
 Upon receipt of this message, your function should return S\_FALSE if you want the default implementation to invoke the default handler for the command. Return S\_OK if the message was handled. Otherwise, return a standard HRESULT error code.
 
-This message is sent to either the callback function or the callback object depending on how the callback is implemented. There are two APIs for callback construction, [**CDefFolderMenu\_Create2**](cdeffoldermenu-create2.md) that takes a pointer to a callback function, or [**SHCreateDefaultContextMenu**](shcreatedefaultcontextmenu.md) that uses a callback object that supports [**IContextMenuCB**](icontextmenucb.md).
+This message is sent to either the callback function or the callback object depending on how the callback is implemented. There are two APIs for callback construction, [**CDefFolderMenu\_Create2**](/windows/win32/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2?branch=master) that takes a pointer to a callback function, or [**SHCreateDefaultContextMenu**](/windows/win32/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu?branch=master) that uses a callback object that supports [**IContextMenuCB**](/windows/win32/shobjidl_core/nn-shobjidl_core-icontextmenucb?branch=master).
 
-The items on which the command is being invoked are provided in a data object passed to the callback function or to the [**IContextMenuCB::CallBack**](icontextmenucb-callback.md) method. This data object is provided by the data source that implements the callback. To extract the items from the data object, use [**SHCreateShellItemArrayFromDataObject**](shcreateshellitemarrayfromdataobject.md).
+The items on which the command is being invoked are provided in a data object passed to the callback function or to the [**IContextMenuCB::CallBack**](/windows/win32/shobjidl_core/nf-shobjidl_core-icontextmenucb-callback?branch=master) method. This data object is provided by the data source that implements the callback. To extract the items from the data object, use [**SHCreateShellItemArrayFromDataObject**](/windows/win32/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject?branch=master).
 
 [**DFM\_INVOKECOMMAND**](dfm-invokecommand.md) is a simpler version of this message which does not provide as much information to the callback. Use **DFM\_INVOKECOMMAND** if the additional information provided by **DFM\_INVOKECOMMANDEX** is not needed in your implementation.
 

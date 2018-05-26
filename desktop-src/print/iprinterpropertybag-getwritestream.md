@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a stream in order to write a stream property.'
-ms.assetid: '47F535C0-57C7-407B-B47B-188EB6434F2E'
-title: 'IPrinterPropertyBag::GetWriteStream method'
+---
+Description: Gets a stream in order to write a stream property.
+ms.assetid: 47F535C0-57C7-407B-B47B-188EB6434F2E
+title: IPrinterPropertyBagGetWriteStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag::GetWriteStream method

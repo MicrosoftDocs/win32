@@ -1,7 +1,12 @@
-﻿---
-Description: 'Handles words identified by word breaks during both index time and query time.'
-ms.assetid: '220FCAE5-D22D-45ED-9689-E78C0D8E0BB3'
+---
+Description: Handles words identified by word breaks during both index time and query time.
+ms.assetid: 220FCAE5-D22D-45ED-9689-E78C0D8E0BB3
 title: IWordSink interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWordSink interface

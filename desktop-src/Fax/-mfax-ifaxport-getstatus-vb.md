@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetStatus method creates a FaxStatus object for the parent FaxPort object. The FaxStatus object contains the current status of a fax port.'
-ms.assetid: '7874d54b-f8bd-4b36-896c-ae49754055a5'
-title: 'FaxPort.GetStatus method'
+---
+Description: The GetStatus method creates a FaxStatus object for the parent FaxPort object. The FaxStatus object contains the current status of a fax port.
+ms.assetid: 7874d54b-f8bd-4b36-896c-ae49754055a5
+title: FaxPort.GetStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort.GetStatus method
@@ -34,7 +39,7 @@ Retrieves a [FaxStatus](-mfax-faxstatus.md) object.
 
 ## Remarks
 
-The **GetStatus** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxStatus](-mfax-faxstatus.md) object. A fax client application can also access the [**IFaxStatus**](-mfax-ifaxstatus.md) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an **IFaxStatus** interface pointer.
+The **GetStatus** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e013eb5) interface pointer to a [FaxStatus](-mfax-faxstatus.md) object. A fax client application can also access the [**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master) interface directly by calling the [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521.aspx) method to retrieve an **IFaxStatus** interface pointer.
 
 ## Requirements
 
@@ -62,13 +67,13 @@ The **GetStatus** method retrieves an [IDispatch](ebbff4bc-36b2-4861-9efa-ffa45e
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> </dl>
 
  

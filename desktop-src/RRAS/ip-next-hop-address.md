@@ -1,8 +1,10 @@
 ---
 title: IP\_NEXT\_HOP\_ADDRESS structure
 description: The IP\_NEXT\_HOP\_ADDRESS structure contains the address for the next-hop router for an IP route.
-ms.assetid: 'a97b3995-dfaa-4e53-be86-3ad46b8be691'
-keywords: ["IP_NEXT_HOP_ADDRESS structure RAS", "PIP_NEXT_HOP_ADDRESS structure RAS"]
+ms.assetid: a97b3995-dfaa-4e53-be86-3ad46b8be691
+keywords:
+- IP_NEXT_HOP_ADDRESS structure RAS
+- PIP_NEXT_HOP_ADDRESS structure RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Rtm.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IP\_NEXT\_HOP\_ADDRESS structure
@@ -60,8 +67,8 @@ The **IP\_NEXT\_HOP\_ADDRESS** structure is a typedef of the [**IP\_NETWORK**](i
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
-| End of server support<br/>    | Windows Server 2003<br/>                                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| End of server support<br/>    | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl> |
 
 
@@ -82,9 +89,9 @@ The **IP\_NEXT\_HOP\_ADDRESS** structure is a typedef of the [**IP\_NETWORK**](i
 [**RTM\_IP\_ROUTE**](rtm-ip-route.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

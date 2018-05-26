@@ -4,11 +4,14 @@ description: Prepares to set a more granular set of audit permissions to the spe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7df44a37-257d-49c6-8193-f1e1c5ebbb57'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 7df44a37-257d-49c6-8193-f1e1c5ebbb57
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ModifyAuditPermissions method Remote Desktop Services", "ModifyAuditPermissions method Remote Desktop Services , Win32_TSAccount class", "Win32_TSAccount class Remote Desktop Services , ModifyAuditPermissions method"]
+keywords:
+- ModifyAuditPermissions method Remote Desktop Services
+- ModifyAuditPermissions method Remote Desktop Services , Win32_TSAccount class
+- Win32_TSAccount class Remote Desktop Services , ModifyAuditPermissions method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifyAuditPermissions method of the Win32\_TSAccount class
@@ -28,8 +34,8 @@ The **ModifyAuditPermissions** method prepares to set a more granular set of aud
 
 ```mof
 uint32 ModifyAuditPermissions(
-  [in] uint32  PermissionMask,
-  [in] boolean Success
+  [in] uint32  PermissionMask,
+  [in] boolean Success
 );
 ```
 
@@ -199,8 +205,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -214,9 +220,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSAccount**](win32-tsaccount.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

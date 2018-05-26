@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the stroke identifier for the stroke referenced by an index value within the IContextNode object.'
-ms.assetid: 'faac142e-cac1-45f9-9b40-76c50ac7006b'
-title: 'IContextNode::GetStrokeId method'
+Description: Retrieves the stroke identifier for the stroke referenced by an index value within the IContextNode object.
+ms.assetid: faac142e-cac1-45f9-9b40-76c50ac7006b
+title: IContextNodeGetStrokeId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::GetStrokeId method
@@ -13,8 +18,8 @@ Retrieves the stroke identifier for the stroke referenced by an index value with
 
 ```C++
 HRESULT GetStrokeId(
-  [in]  ULONG ulIndex,
-  [out] LONG  *plStrokeId
+  [in]  ULONG ulIndex,
+  [out] LONG  *plStrokeId
 );
 ```
 
@@ -48,7 +53,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -71,9 +76,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

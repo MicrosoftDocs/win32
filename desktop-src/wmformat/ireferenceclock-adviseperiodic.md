@@ -1,14 +1,22 @@
 ---
 title: IReferenceClock AdvisePeriodic method
 description: This method is not implemented.
-ms.assetid: 'b34ef914-992e-4ce2-943b-8bc36687a88a'
-keywords: ["AdvisePeriodic method windows Media Format", "AdvisePeriodic method windows Media Format , IReferenceClock interface", "IReferenceClock interface windows Media Format , AdvisePeriodic method"]
+ms.assetid: b34ef914-992e-4ce2-943b-8bc36687a88a
+keywords:
+- AdvisePeriodic method windows Media Format
+- AdvisePeriodic method windows Media Format , IReferenceClock interface
+- IReferenceClock interface windows Media Format , AdvisePeriodic method
 topic_type:
 - apiref
 api_name:
 - IReferenceClock.AdvisePeriodic
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IReferenceClock::AdvisePeriodic method

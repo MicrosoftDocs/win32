@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM07 verifies that the order of files in the sequence table matches the order of files in MergeModule.CABinet.'
-ms.assetid: '5778e0c5-2f8d-4562-9c93-d6f6890a74e9'
+Description: ICEM07 verifies that the order of files in the sequence table matches the order of files in MergeModule.CABinet.
+ms.assetid: 5778e0c5-2f8d-4562-9c93-d6f6890a74e9
 title: ICEM07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM07

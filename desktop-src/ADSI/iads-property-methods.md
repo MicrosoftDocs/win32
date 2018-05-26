@@ -4,11 +4,12 @@ description: The property methods of the IADs interface get or set the propertie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd2f6f686-a35a-4a9a-9b57-2ceb2f26ef12'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADs Property Methods ADSI"]
+keywords:
+- IADs Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -29,11 +30,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADs Property Methods
 
-The property methods of the [**IADs**](iads.md) interface get or set the properties described in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface get or set the properties described in the following table. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -92,7 +96,7 @@ HRESULT get_Class(
 **GUID**
 </dt> <dd> <dl>
 
-The globally unique identifier of the directory object. The [**IADs**](iads.md) interface converts the **GUID** from an octet string, as stored on a directory server, into a string format.
+The globally unique identifier of the directory object. The [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface converts the **GUID** from an octet string, as stored on a directory server, into a string format.
 
 <dt>
 
@@ -189,7 +193,7 @@ HRESULT get_Schema(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
@@ -215,16 +219,16 @@ where xxx is the value returned from the GUID property. For more information, se
 
 
 
- 
+ 
 
 > [!Note]  
 > The WinNT provider does not support binding using the object **GUID**, and returns the **GUID** property in a slightly different string format.
 
- 
+ 
 
 ## Examples
 
-The following code example shows how to retrieve object data using property methods of the [**IADs**](iads.md) interface.
+The following code example shows how to retrieve object data using property methods of the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface.
 
 
 ```VB
@@ -258,7 +262,7 @@ Cleanup:
 
 
 
-The following code example shows how to retrieve object data using property methods of the [**IADs**](iads.md) interface.
+The following code example shows how to retrieve object data using property methods of the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface.
 
 
 ```VB
@@ -289,7 +293,7 @@ Next op
 
 
 
-The following code example shows how to work with the property methods of the [**IADs**](iads.md) interface.
+The following code example shows how to work with the property methods of the [**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master) interface.
 
 
 ```C++
@@ -368,8 +372,8 @@ int main(int argc, char* argv[])
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADs is defined as FD8256D0-FD15-11CE-ABC4-02608C9E7553<br/>                 |
@@ -380,15 +384,15 @@ int main(int argc, char* argv[])
 
 <dl> <dt>
 
-[**IADs**](iads.md)
+[**IADs**](/windows/win32/Iads/nn-iads-iads?branch=master)
 </dt> <dt>
 
-[**IADsContainer**](iadscontainer.md)
+[**IADsContainer**](/windows/win32/Iads/nn-iads-iadscontainer?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

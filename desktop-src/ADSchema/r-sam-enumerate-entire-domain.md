@@ -4,17 +4,21 @@ description: This control access right can be used to restrict who can be allowe
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd29e94f3-efaf-4a86-909c-88bd34abcf6c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d29e94f3-efaf-4a86-909c-88bd34abcf6c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["SAM-Enumerate-Entire-Domain extended right AD Schema"]
+keywords:
+- SAM-Enumerate-Entire-Domain extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - SAM-Enumerate-Entire-Domain
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SAM-Enumerate-Entire-Domain extended right
@@ -33,11 +37,11 @@ This control access right can be used to restrict who can be allowed to use a do
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -94,9 +98,9 @@ This control access right can be used to restrict who can be allowed to use a do
 
 
 
- 
+ 
 
- 
+ 
 
 
 

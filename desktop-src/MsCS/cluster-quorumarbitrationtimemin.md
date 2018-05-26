@@ -4,26 +4,31 @@ description: This property is not supported.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '95561177-6fee-43cd-ac24-f91388e61135'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 95561177-6fee-43cd-ac24-f91388e61135
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["QuorumArbitrationTimeMin Failover Cluster ,for clusters", "QuorumArbitrationTimeMin Failover Cluster"]
+keywords:
+- QuorumArbitrationTimeMin Failover Cluster ,for clusters
+- QuorumArbitrationTimeMin Failover Cluster
 topic_type:
 - apiref
 api_name:
 - QuorumArbitrationTimeMin
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # QuorumArbitrationTimeMin
 
-\[This property is available for use only in Windows Server 2003.\]
+\[This property is available for use only in Windows Server 2003.\]
 
 This property is not supported.
 
-**Windows Server 2003:  **
+**Windows Server 2003:  **
 
 The **QuorumArbitrationTimeMin** property specifies the minimum number of seconds a [node](nodes.md) is allowed to spend arbitrating for the quorum resource in a [*cluster*](c-gly.md#-wolf-cluster-gly).
 
@@ -33,14 +38,14 @@ The **QuorumArbitrationTimeMin** property specifies the minimum number of second
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 1                                         |
 | Maximum   | 3600                                      |
 | Default   | 7                                         |
 
 
 
- 
+ 
 
 ## Examples
 
@@ -65,8 +70,8 @@ QuorumArbitrationTimeMinValue.dw        = QuorumArbitrationTimeMinData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
-| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2003 Enterprise, Windows Server 2003 Datacenter<br/> |
+| End of server support<br/>    | Windows Server 2003 Datacenter, Windows Server 2003 Enterprise<br/> |
 
 
 
@@ -74,12 +79,12 @@ QuorumArbitrationTimeMinValue.dw        = QuorumArbitrationTimeMinData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

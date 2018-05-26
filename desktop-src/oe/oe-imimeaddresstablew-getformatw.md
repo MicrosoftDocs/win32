@@ -1,8 +1,11 @@
 ---
 title: IMimeAddressTableW GetFormatW method
 description: Gets a text-based representation for a group of addresses that match a specified set of address types.
-ms.assetid: 'dcb6e139-538c-44a8-8e5c-4d9602956ebc'
-keywords: ["GetFormatW method Windows Mail (formerly Outlook Express)", "GetFormatW method Windows Mail (formerly Outlook Express) , IMimeAddressTableW interface", "IMimeAddressTableW interface Windows Mail (formerly Outlook Express) , GetFormatW method"]
+ms.assetid: dcb6e139-538c-44a8-8e5c-4d9602956ebc
+keywords:
+- GetFormatW method Windows Mail (formerly Outlook Express)
+- GetFormatW method Windows Mail (formerly Outlook Express) , IMimeAddressTableW interface
+- IMimeAddressTableW interface Windows Mail (formerly Outlook Express) , GetFormatW method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeAddressTableW::GetFormatW method
@@ -22,9 +30,9 @@ Gets a text-based representation for a group of addresses that match a specified
 
 ```C++
 HRESULT GetFormatW(
-  [in]  DWORD         dwAdrType,
-  [in]  ADDRESSFORMAT format,
-  [out] LPWSTR        *ppwszFormat
+  [in]  DWORD         dwAdrType,
+  [in]  ADDRESSFORMAT format,
+  [out] LPWSTR        *ppwszFormat
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,8 +94,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -95,9 +103,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The CancelNotification method cancels the timer event that schedules rendering.'
-ms.assetid: '56ddf692-a2e3-40f2-848f-2d592601ec00'
-title: 'CBaseRenderer.CancelNotification method'
+Description: The CancelNotification method cancels the timer event that schedules rendering.
+ms.assetid: 56ddf692-a2e3-40f2-848f-2d592601ec00
+title: CBaseRenderer.CancelNotification method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.CancelNotification method
@@ -34,7 +39,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +63,9 @@ The filter calls this method when streaming stops. The method cancels any schedu
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c59af6a9-93f9-4b05-95fa-2b5b06a89b55'
-title: 'System.Media.EncodingSettings'
+Description: .
+ms.assetid: c59af6a9-93f9-4b05-95fa-2b5b06a89b55
+title: System.Media.EncodingSettings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.EncodingSettings

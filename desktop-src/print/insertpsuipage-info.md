@@ -1,7 +1,12 @@
-﻿---
-Description: 'The INSERTPSUIPAGE\_INFO structure is used as an input parameter to CPSUI''s ComPropSheet function, if the function code is CPSFUNC\_INSERT\_PSUIPAGE. All member values must be supplied by the ComPropSheet caller.'
-ms.assetid: '99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a'
-title: 'INSERTPSUIPAGE\_INFO structure'
+---
+Description: The INSERTPSUIPAGE\_INFO structure is used as an input parameter to CPSUIs ComPropSheet function, if the function code is CPSFUNC\_INSERT\_PSUIPAGE. All member values must be supplied by the ComPropSheet caller.
+ms.assetid: 99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a
+title: INSERTPSUIPAGE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INSERTPSUIPAGE\_INFO structure

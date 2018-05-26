@@ -1,14 +1,21 @@
 ---
 title: Creation Container object
 description: The Creation Container object is used to temporarily hold properties and data that must be set during the creation of a new object. It does not represent an actual object on the device.
-ms.assetid: '6fe901a2-0702-4622-9350-d5bfd0dcc5cb'
-keywords: ["Creation Container object WPD Automation", "Creation Container object WPD Automation , described"]
+ms.assetid: 6fe901a2-0702-4622-9350-d5bfd0dcc5cb
+keywords:
+- Creation Container object WPD Automation
+- Creation Container object WPD Automation , described
 topic_type:
 - apiref
 api_name:
 - Creation Container
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creation Container object
@@ -59,7 +66,7 @@ The **Creation Container** object has these events.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -75,7 +82,7 @@ The **Creation Container** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,8 +90,8 @@ The **Creation Container** object has these properties.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -107,9 +114,9 @@ The **Creation Container** object has these properties.
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

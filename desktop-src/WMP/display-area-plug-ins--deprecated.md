@@ -1,8 +1,18 @@
 ---
 title: Display Area Plug-ins (deprecated)
 description: Display Area Plug-ins (deprecated)
-ms.assetid: '424e6f9b-3ecf-4172-9eb9-cd2ac532b488'
-keywords: ["Windows Media Player plug-ins,display area", "plug-ins,display area", "user interface plug-ins,display area", "UI plug-ins,display area", "display area plug-ins"]
+ms.assetid: 424e6f9b-3ecf-4172-9eb9-cd2ac532b488
+keywords:
+- Windows Media Player plug-ins,display area
+- plug-ins,display area
+- user interface plug-ins,display area
+- UI plug-ins,display area
+- display area plug-ins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Display Area Plug-ins (deprecated)

@@ -1,8 +1,9 @@
 ---
 title: HealthClassValue enumeration
 description: Indicates the value of the health class TLV.
-ms.assetid: 'af80c27a-a686-494b-8795-73eb366deaa0'
-keywords: ["HealthClassValue enumeration NAP"]
+ms.assetid: af80c27a-a686-494b-8795-73eb366deaa0
+keywords:
+- HealthClassValue enumeration NAP
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - NapProtocol.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HealthClassValue enumeration
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **HealthClassValue** enumeration type indicates the value of the health class TLV.
 
@@ -27,11 +33,11 @@ The **HealthClassValue** enumeration type indicates the value of the health clas
 
 ```C++
 typedef enum tagHealthClassValue { 
-  healthClassFirewall        = 0,
-  healthClassPatchLevel      = 1,
-  healthClassAntiVirus       = 2,
-  healthClassCriticalUpdate  = 3,
-  healthClassReserved        = 128
+  healthClassFirewall        = 0,
+  healthClassPatchLevel      = 1,
+  healthClassAntiVirus       = 2,
+  healthClassCriticalUpdate  = 3,
+  healthClassReserved        = 128
 } HealthClassValue;
 ```
 
@@ -82,16 +88,16 @@ Reserved for system use only.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>NapProtocol.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapProtocol.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

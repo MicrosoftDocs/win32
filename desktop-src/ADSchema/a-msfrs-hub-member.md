@@ -4,17 +4,22 @@ description: The ms-FRS-Hub-Member attribute is used to record the preferred NTF
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'df8623e0-745a-46f8-a696-8f6e7014fd2b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: df8623e0-745a-46f8-a696-8f6e7014fd2b
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-FRS-Hub-Member attribute AD Schema", "msFRS-Hub-Member attribute AD Schema"]
+keywords:
+- ms-FRS-Hub-Member attribute AD Schema
+- msFRS-Hub-Member attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-FRS-Hub-Member
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-FRS-Hub-Member attribute
@@ -38,11 +43,11 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -153,9 +158,9 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 This is the fully qualified distinguished name of an [**NTFRS-Member**](c-ntfrsmember.md) object. The distinguished name is in the format of "CN=*&lt;computerGuid&gt;*, CN=*&lt;Dfs Link Name&gt;*, CN=*&lt;Dfs Root name&gt;*, CN=DFS Volumes, CN=File Replication Service,CN=System, DC=..."
 
- 
+ 
 
- 
+ 
 
 
 

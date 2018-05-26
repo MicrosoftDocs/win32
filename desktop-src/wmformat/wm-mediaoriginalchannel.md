@@ -1,14 +1,20 @@
 ---
 title: WM/MediaOriginalChannel
 description: The WM/MediaOriginalChannel attribute contains the channel on which the content was broadcast.
-ms.assetid: '5f8bb055-a071-44d4-8d7c-58aeb2a8bd34'
-keywords: ["WM/MediaOriginalChannel windows Media Format"]
+ms.assetid: 5f8bb055-a071-44d4-8d7c-58aeb2a8bd34
+keywords:
+- WM/MediaOriginalChannel windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaOriginalChannel
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaOriginalChannel

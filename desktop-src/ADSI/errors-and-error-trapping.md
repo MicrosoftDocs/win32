@@ -4,11 +4,15 @@ description: ADSI throws a wide variety of errors, from ADSI-specific to COM-rel
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd1d22d4a-6485-4ee7-bd45-606834ae601a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: d1d22d4a-6485-4ee7-bd45-606834ae601a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["errors and error trapping ADSI"]
+keywords:
+- errors and error trapping ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Errors and Error Trapping

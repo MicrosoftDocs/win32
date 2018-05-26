@@ -1,13 +1,19 @@
 ---
 title: Connecting to a Capture Driver
 description: Connecting to a Capture Driver
-ms.assetid: 'ce83329f-de5a-4428-bc0d-be5f3d35ff1a'
-keywords: ["capDriverDisconnect macro"]
+ms.assetid: ce83329f-de5a-4428-bc0d-be5f3d35ff1a
+keywords:
+- capDriverDisconnect macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting to a Capture Driver
 
-The following example connects the capture window with the handle *hWndC* to the MSVIDEO driver and then disconnects them using the [**capDriverDisconnect**](capdriverdisconnect.md) macro:
+The following example connects the capture window with the handle *hWndC* to the MSVIDEO driver and then disconnects them using the [**capDriverDisconnect**](/windows/win32/Vfw/nf-vfw-capdriverdisconnect?branch=master) macro:
 
 
 ```C++

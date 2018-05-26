@@ -1,14 +1,20 @@
 ---
 title: ProcessingErrorDataType Complex Type
 description: Defines an error that occurred while rendering the event data for the event.
-ms.assetid: 'fd1cc78c-1da5-43c5-8c4b-8abe7e1dc1e1'
-keywords: ["ProcessingErrorDataType complex type EventLog"]
+ms.assetid: fd1cc78c-1da5-43c5-8c4b-8abe7e1dc1e1
+keywords:
+- ProcessingErrorDataType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ProcessingErrorDataType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProcessingErrorDataType Complex Type
@@ -59,14 +65,14 @@ Defines an error that occurred while rendering the event data for the event. Thi
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

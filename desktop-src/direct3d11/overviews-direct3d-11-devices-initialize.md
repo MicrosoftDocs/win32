@@ -1,7 +1,12 @@
 ---
 title: How To Create a Device and Immediate Context
 description: This topics shows how to initialize a device.
-ms.assetid: '02a20ada-b3aa-435e-8d66-117a19222f9f'
+ms.assetid: 02a20ada-b3aa-435e-8d66-117a19222f9f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Create a Device and Immediate Context
@@ -33,7 +38,7 @@ sd.Windowed = TRUE;
 
 
 
-Using the [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173075) structure from step one, call [**D3D11CreateDeviceAndSwapChain**](d3d11createdeviceandswapchain.md) to initialize the device and swap chain at the same time.
+Using the [**DXGI\_SWAP\_CHAIN\_DESC**](https://msdn.microsoft.com/library/windows/desktop/bb173075) structure from step one, call [**D3D11CreateDeviceAndSwapChain**](/windows/win32/D3D11/nf-d3d11-d3d11createdeviceandswapchain?branch=master) to initialize the device and swap chain at the same time.
 
 
 ```
@@ -61,7 +66,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 
 
 > [!Note]  
-> If you request a [**D3D\_FEATURE\_LEVEL\_11\_1**](d3d-feature-level.md#d3d-feature-level-11-1) device on a computer with only the Direct3D 11.0 runtime, [**D3D11CreateDeviceAndSwapChain**](d3d11createdeviceandswapchain.md) immediately exits with **E\_INVALIDARG**. To safely request all possible feature levels on a computer with the DirectX 11.0 or DirectX 11.1 runtime, use this code:
+> If you request a [**D3D\_FEATURE\_LEVEL\_11\_1**](d3d-feature-level.md#d3d-feature-level-11-1) device on a computer with only the Direct3D 11.0 runtime, [**D3D11CreateDeviceAndSwapChain**](/windows/win32/D3D11/nf-d3d11-d3d11createdeviceandswapchain?branch=master) immediately exits with **E\_INVALIDARG**. To safely request all possible feature levels on a computer with the DirectX 11.0 or DirectX 11.1 runtime, use this code:
 >
 > <span codelanguage=""></span>
 >
@@ -97,7 +102,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 >  
 >
-> Create a render-target view by calling [**ID3D11Device::CreateRenderTargetView**](id3d11device-createrendertargetview.md) and bind the back-buffer as a render target by calling [**ID3D11DeviceContext::OMSetRenderTargets**](id3d11devicecontext-omsetrendertargets.md).
+> Create a render-target view by calling [**ID3D11Device::CreateRenderTargetView**](/windows/win32/D3D11/nf-d3d11-id3d11device-createrendertargetview?branch=master) and bind the back-buffer as a render target by calling [**ID3D11DeviceContext::OMSetRenderTargets**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets?branch=master).
 >
 > <span codelanguage=""></span>
 >
@@ -125,7 +130,7 @@ if( FAILED (hr = D3D11CreateDeviceAndSwapChain( NULL,
 >
 > 
 >
-> Create a viewport to define which parts of the render target will be visible. Define the viewport using the [**D3D11\_VIEWPORT**](d3d11-viewport.md) structure and set the viewport using the [**ID3D11DeviceContext::RSSetViewports**](id3d11devicecontext-rssetviewports.md) method.
+> Create a viewport to define which parts of the render target will be visible. Define the viewport using the [**D3D11\_VIEWPORT**](/windows/win32/D3D11/ns-d3d11-d3d11_viewport?branch=master) structure and set the viewport using the [**ID3D11DeviceContext::RSSetViewports**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-rssetviewports?branch=master) method.
 >
 > <span codelanguage="ManagedCPlusPlus"></span>
 >

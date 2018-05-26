@@ -1,8 +1,16 @@
 ---
 title: Start method of the MSFT\_MpScan class
 description: TBD.
-ms.assetid: 'ab3b003c-2dd9-4451-ac5c-c172a0278a33'
-keywords: ["Start method", "Start method, MSFT_MpScan class", "MSFT_MpScan class, Start method"]
+ms.assetid: ab3b003c-2dd9-4451-ac5c-c172a0278a33
+keywords:
+- Start method
+- Start method, MSFT_MpScan class
+- MSFT_MpScan class, Start method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Start method of the MSFT\_MpScan class
@@ -14,8 +22,8 @@ TBD
 
 ```mof
 uint32 Start(
-  [in] uint8  ScanType,
-  [in] string ScanPath
+  [in] uint8  ScanType,
+  [in] string ScanPath
 );
 ```
 
@@ -45,8 +53,8 @@ TBD
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
@@ -60,9 +68,9 @@ TBD
 [**MSFT\_MpScan**](msft-mpscan.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

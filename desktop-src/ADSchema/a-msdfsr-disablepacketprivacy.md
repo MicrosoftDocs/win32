@@ -4,17 +4,22 @@ description: Disable packet privacy on a connection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7a8e209a-0337-422a-bece-b5c7adf713b7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7a8e209a-0337-422a-bece-b5c7adf713b7
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-DisablePacketPrivacy attribute AD Schema", "msDFSR-DisablePacketPrivacy attribute AD Schema"]
+keywords:
+- ms-DFSR-DisablePacketPrivacy attribute AD Schema
+- msDFSR-DisablePacketPrivacy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-DisablePacketPrivacy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-DisablePacketPrivacy attribute
@@ -38,9 +43,9 @@ Disable packet privacy on a connection.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Disable packet privacy on a connection.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

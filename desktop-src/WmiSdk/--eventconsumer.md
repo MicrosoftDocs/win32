@@ -1,13 +1,16 @@
 ---
-Description: 'Is an abstract base class that is used in the registration of a permanent event consumer.'
+Description: Is an abstract base class that is used in the registration of a permanent event consumer.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c1dc9a91-76f9-4527-ad69-0323a9aef28a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c1dc9a91-76f9-4527-ad69-0323a9aef28a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventConsumer class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventConsumer class
@@ -22,7 +25,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract]
 class __EventConsumer : __IndicationRelated
 {
-  uint8  CreatorSID[];
+  uint8  CreatorSID[];
   string MachineName;
   uint32 MaximumQueueSize;
 };
@@ -91,8 +94,8 @@ Permanent consumers define new consumer classes to describe an action to take an
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -119,9 +122,9 @@ Permanent consumers define new consumer classes to describe an action to take an
 [Securing WMI Events](securing-wmi-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the error object for the job, if one exists.'
-ms.assetid: '7E810CBE-F18F-4EFA-B52E-631CD071D136'
-title: 'GetError method of the Msvm\_ConcreteJob class'
+Description: Retrieves the error object for the job, if one exists.
+ms.assetid: 7E810CBE-F18F-4EFA-B52E-631CD071D136
+title: GetError method of the Msvm\_ConcreteJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetError method of the Msvm\_ConcreteJob class
@@ -13,7 +18,7 @@ Retrieves the error object for the job, if one exists. When the job is executing
 
 ```mof
 uint32 GetError(
-  [out] string Error
+  [out] string Error
 );
 ```
 
@@ -86,8 +91,8 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -101,9 +106,9 @@ Access to the [**Msvm\_ConcreteJob**](msvm-concretejob.md) class might be restri
 [**Msvm\_ConcreteJob**](msvm-concretejob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

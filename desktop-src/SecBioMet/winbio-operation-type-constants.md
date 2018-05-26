@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_OPERATION\_TYPE Constants
 description: Specify the type of asynchronous operation being performed.
-ms.assetid: 'D4ECEF91-BEC7-4A42-8808-F09F5C141180'
+ms.assetid: D4ECEF91-BEC7-4A42-8808-F09F5C141180
 topic_type:
 - apiref
 api_name:
@@ -40,11 +40,16 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_OPERATION\_TYPE Constants
 
-The following constants can be returned by the Windows Biometric Framework in a [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) to specify the type of asynchronous operation being performed.
+The following constants can be returned by the Windows Biometric Framework in a [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) to specify the type of asynchronous operation being performed.
 
 <dl> <dt>
 
@@ -69,7 +74,7 @@ No operation has been identified.
 
 
 
-A biometric session was opened. For more information see [**WinBioAsyncOpenSession**](winbioasyncopensession.md).
+A biometric session was opened. For more information see [**WinBioAsyncOpenSession**](/windows/win32/Winbio/nf-winbio-winbioasyncopensession?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -82,7 +87,7 @@ A biometric session was opened. For more information see [**WinBioAsyncOpenSessi
 
 
 
-A biometric session was closed. For more information, see [**WinBioCloseSession**](winbioclosesession.md).
+A biometric session was closed. For more information, see [**WinBioCloseSession**](/windows/win32/Winbio/nf-winbio-winbioclosesession?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -95,7 +100,7 @@ A biometric session was closed. For more information, see [**WinBioCloseSession*
 
 
 
-A biometric sample was verified against a user identity. For more information, see [**WinBioVerify**](winbioverify.md).
+A biometric sample was verified against a user identity. For more information, see [**WinBioVerify**](/windows/win32/Winbio/nf-winbio-winbioverify?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -108,7 +113,7 @@ A biometric sample was verified against a user identity. For more information, s
 
 
 
-A biometric sample was captured and compared to an existing template. For more information, see [**WinBioIdentify**](winbioidentify.md).
+A biometric sample was captured and compared to an existing template. For more information, see [**WinBioIdentify**](/windows/win32/Winbio/nf-winbio-winbioidentify?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -121,7 +126,7 @@ A biometric sample was captured and compared to an existing template. For more i
 
 
 
-The ID number of a biometric unit was retrieved. For more information, see [**WinBioLocateSensor**](winbiolocatesensor.md).
+The ID number of a biometric unit was retrieved. For more information, see [**WinBioLocateSensor**](/windows/win32/Winbio/nf-winbio-winbiolocatesensor?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -134,7 +139,7 @@ The ID number of a biometric unit was retrieved. For more information, see [**Wi
 
 
 
-A biometric enrollment sequence was initiated. For more information, see [**WinBioEnrollBegin**](winbioenrollbegin.md).
+A biometric enrollment sequence was initiated. For more information, see [**WinBioEnrollBegin**](/windows/win32/Winbio/nf-winbio-winbioenrollbegin?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -147,7 +152,7 @@ A biometric enrollment sequence was initiated. For more information, see [**WinB
 
 
 
-A biometric sample was captured and added to the template. For more information, see [**WinBioEnrollCapture**](winbioenrollcapture.md).
+A biometric sample was captured and added to the template. For more information, see [**WinBioEnrollCapture**](/windows/win32/Winbio/nf-winbio-winbioenrollcapture?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -160,7 +165,7 @@ A biometric sample was captured and added to the template. For more information,
 
 
 
-A pending biometric template was finalized. For more information, see [**WinBioEnrollCommit**](winbioenrollcommit.md).
+A pending biometric template was finalized. For more information, see [**WinBioEnrollCommit**](/windows/win32/Winbio/nf-winbio-winbioenrollcommit?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -173,7 +178,7 @@ A pending biometric template was finalized. For more information, see [**WinBioE
 
 
 
-A pending biometric template was discarded. For more information, see [**WinBioEnrollDiscard**](winbioenrolldiscard.md).
+A pending biometric template was discarded. For more information, see [**WinBioEnrollDiscard**](/windows/win32/Winbio/nf-winbio-winbioenrolldiscard?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -186,7 +191,7 @@ A pending biometric template was discarded. For more information, see [**WinBioE
 
 
 
-The sub-factors for a given template were enumerated. For more information, see [**WinBioEnumEnrollments**](winbioenumenrollments.md).
+The sub-factors for a given template were enumerated. For more information, see [**WinBioEnumEnrollments**](/windows/win32/Winbio/nf-winbio-winbioenumenrollments?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -199,7 +204,7 @@ The sub-factors for a given template were enumerated. For more information, see 
 
 
 
-A biometric template was deleted from the store. For more information, see [**WinBioDeleteTemplate**](winbiodeletetemplate.md).
+A biometric template was deleted from the store. For more information, see [**WinBioDeleteTemplate**](/windows/win32/Winbio/nf-winbio-winbiodeletetemplate?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -212,7 +217,7 @@ A biometric template was deleted from the store. For more information, see [**Wi
 
 
 
-A biometric sample was captured. For more information, see [**WinBioCaptureSample**](winbiocapturesample.md).
+A biometric sample was captured. For more information, see [**WinBioCaptureSample**](/windows/win32/Winbio/nf-winbio-winbiocapturesample?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -225,7 +230,7 @@ A biometric sample was captured. For more information, see [**WinBioCaptureSampl
 
 
 
-A biometric session, unit, or template property was retrieved. For more information, see [**WinBioGetProperty**](winbiogetproperty.md).
+A biometric session, unit, or template property was retrieved. For more information, see [**WinBioGetProperty**](/windows/win32/Winbio/nf-winbio-winbiogetproperty?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -238,7 +243,7 @@ A biometric session, unit, or template property was retrieved. For more informat
 
 
 
-A biometric session, unit, template, or account property was set. For more information, see [**WinBioSetProperty**](winbiosetproperty.md).
+A biometric session, unit, template, or account property was set. For more information, see [**WinBioSetProperty**](/windows/win32/winbio/nf-winbio-winbiosetproperty?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -264,7 +269,7 @@ Not used.
 
 
 
-A biometric unit was locked for exclusive use by a session. For more information, see [**WinBioLockUnit**](winbiolockunit.md).
+A biometric unit was locked for exclusive use by a session. For more information, see [**WinBioLockUnit**](/windows/win32/Winbio/nf-winbio-winbiolockunit?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -277,7 +282,7 @@ A biometric unit was locked for exclusive use by a session. For more information
 
 
 
-The session lock on a biometric unit was released. For more information, see [**WinBioUnlockUnit**](winbiounlockunit.md).
+The session lock on a biometric unit was released. For more information, see [**WinBioUnlockUnit**](/windows/win32/Winbio/nf-winbio-winbiounlockunit?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -290,7 +295,7 @@ The session lock on a biometric unit was released. For more information, see [**
 
 
 
-Vendor defined operations were performed on a control unit. For more information, see [**WinBioControlUnit**](winbiocontrolunit.md).
+Vendor defined operations were performed on a control unit. For more information, see [**WinBioControlUnit**](/windows/win32/Winbio/nf-winbio-winbiocontrolunit?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -303,7 +308,7 @@ Vendor defined operations were performed on a control unit. For more information
 
 
 
-Privileged vendor defined operations were performed on a control unit. For more information, see [**WinBioControlUnitPrivileged**](winbiocontrolunitprivileged.md).
+Privileged vendor defined operations were performed on a control unit. For more information, see [**WinBioControlUnitPrivileged**](/windows/win32/Winbio/nf-winbio-winbiocontrolunitprivileged?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -329,7 +334,7 @@ A handle to the biometric framework was opened.
 
 
 
-A handle to the biometric framework was closed. For more information, see [**WinBioCloseFramework**](winbiocloseframework.md).
+A handle to the biometric framework was closed. For more information, see [**WinBioCloseFramework**](/windows/win32/Winbio/nf-winbio-winbiocloseframework?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -342,7 +347,7 @@ A handle to the biometric framework was closed. For more information, see [**Win
 
 
 
-The installed biometric service providers were enumerated. For more information, see [**WinBioEnumServiceProviders**](winbioenumserviceproviders.md).
+The installed biometric service providers were enumerated. For more information, see [**WinBioEnumServiceProviders**](/windows/win32/Winbio/nf-winbio-winbioenumserviceproviders?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -355,7 +360,7 @@ The installed biometric service providers were enumerated. For more information,
 
 
 
-The attached biometric units were enumerated. For more information, see [**WinBioAsyncEnumBiometricUnits**](winbioasyncenumbiometricunits.md).
+The attached biometric units were enumerated. For more information, see [**WinBioAsyncEnumBiometricUnits**](/windows/win32/Winbio/nf-winbio-winbioasyncenumbiometricunits?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -368,7 +373,7 @@ The attached biometric units were enumerated. For more information, see [**WinBi
 
 
 
-The registered databases were enumerated. For more information, see [**WinBioEnumDatabases**](winbioenumdatabases.md).
+The registered databases were enumerated. For more information, see [**WinBioEnumDatabases**](/windows/win32/Winbio/nf-winbio-winbioenumdatabases?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -381,7 +386,7 @@ The registered databases were enumerated. For more information, see [**WinBioEnu
 
 
 
-A biometric unit was created. For more information, see [**WinBioAsyncMonitorFrameworkChanges**](winbioasyncmonitorframeworkchanges.md).
+A biometric unit was created. For more information, see [**WinBioAsyncMonitorFrameworkChanges**](/windows/win32/Winbio/nf-winbio-winbioasyncmonitorframeworkchanges?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -394,7 +399,7 @@ A biometric unit was created. For more information, see [**WinBioAsyncMonitorFra
 
 
 
-A biometric unit was deleted. For more information, see [**WinBioAsyncMonitorFrameworkChanges**](winbioasyncmonitorframeworkchanges.md).
+A biometric unit was deleted. For more information, see [**WinBioAsyncMonitorFrameworkChanges**](/windows/win32/Winbio/nf-winbio-winbioasyncmonitorframeworkchanges?branch=master).
 
 
 </dt> </dl> </dd> <dt>
@@ -407,7 +412,7 @@ A biometric unit was deleted. For more information, see [**WinBioAsyncMonitorFra
 
 
 
-Reserved. This value is supported starting in Windows 10.
+Reserved. This value is supported starting in Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -420,7 +425,7 @@ Reserved. This value is supported starting in Windows 10.
 
 
 
-Reserved. This value is supported starting in Windows 10.
+Reserved. This value is supported starting in Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -433,7 +438,7 @@ Reserved. This value is supported starting in Windows 10.
 
 
 
-The facial recognition or iris monitoring mechanism was turned on. For more information, see [**WinBioMonitorPresence**](winbiomonitorpresence.md). This value is supported starting in Windows 10.
+The facial recognition or iris monitoring mechanism was turned on. For more information, see [**WinBioMonitorPresence**](/windows/win32/winbio/nf-winbio-winbiomonitorpresence?branch=master). This value is supported starting in Windows 10.
 
 
 </dt> </dl> </dd> <dt>
@@ -446,7 +451,7 @@ The facial recognition or iris monitoring mechanism was turned on. For more info
 
 
 
-An individual from a group of individuals that are represented by data in the sample buffer was specified as the individual to enroll. For more information, see [**WinBioEnrollSelect**](winbioenrollselect.md). This value is supported starting in Windows 10.
+An individual from a group of individuals that are represented by data in the sample buffer was specified as the individual to enroll. For more information, see [**WinBioEnrollSelect**](/windows/win32/winbio/nf-winbio-winbioenrollselect?branch=master). This value is supported starting in Windows 10.
 
 
 </dt> </dl> </dd> </dl>
@@ -457,8 +462,8 @@ An individual from a group of individuals that are represented by data in the sa
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                                                                               |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                                                                               |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -470,9 +475,9 @@ An individual from a group of individuals that are represented by data in the sa
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

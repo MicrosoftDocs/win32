@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_ExposureBias.'
-ms.assetid: '717808cb-7f73-4543-bc07-2ab252792b91'
-title: 'System.Photo.ExposureBiasNumerator'
+Description: The numerator of PKEY\_Photo\_ExposureBias.
+ms.assetid: 717808cb-7f73-4543-bc07-2ab252792b91
+title: System.Photo.ExposureBiasNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ExposureBiasNumerator

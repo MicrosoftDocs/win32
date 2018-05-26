@@ -1,14 +1,22 @@
 ---
 title: IMediaRenderer IsVideoSupported method
 description: Retrieves a value that indicates whether the DMR is capable of playing video content.
-ms.assetid: 'AE9A14D0-A7A2-4A71-9454-06A05C7D85F9'
-keywords: ["IsVideoSupported method Media Streaming API", "IsVideoSupported method Media Streaming API , IMediaRenderer interface", "IMediaRenderer interface Media Streaming API , IsVideoSupported method"]
+ms.assetid: AE9A14D0-A7A2-4A71-9454-06A05C7D85F9
+keywords:
+- IsVideoSupported method Media Streaming API
+- IsVideoSupported method Media Streaming API , IMediaRenderer interface
+- IMediaRenderer interface Media Streaming API , IsVideoSupported method
 topic_type:
 - apiref
 api_name:
 - IMediaRenderer.IsVideoSupported
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMediaRenderer::IsVideoSupported method
@@ -20,7 +28,7 @@ Retrieves a value that indicates whether the DMR is capable of playing video con
 
 ```C++
 HRESULT IsVideoSupported(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IMediaRenderer**](imediarenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

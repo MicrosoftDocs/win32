@@ -1,14 +1,20 @@
 ---
 title: VideoFormat Attribute
 description: The VideoFormat attribute is a FourCC code that identifies the video format of the item.
-ms.assetid: '1f92f40e-a604-49d9-a7a4-3f50afe2f0f7'
-keywords: ["VideoFormat Attribute Windows Media Player"]
+ms.assetid: 1f92f40e-a604-49d9-a7a4-3f50afe2f0f7
+keywords:
+- VideoFormat Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VideoFormat
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VideoFormat Attribute
@@ -40,9 +46,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

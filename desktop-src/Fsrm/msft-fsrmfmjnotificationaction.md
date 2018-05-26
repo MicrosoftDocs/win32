@@ -4,11 +4,13 @@ description: Represents a new file management job notification action.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '17ddc76c-1aba-4eaf-aab0-034933c6052e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 17ddc76c-1aba-4eaf-aab0-034933c6052e
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMFMJNotificationAction class File Server Resource Manager", "MSFT_FSRMFMJNotificationAction class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMFMJNotificationAction class File Server Resource Manager
+- MSFT_FSRMFMJNotificationAction class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMFMJNotificationAction class
@@ -77,7 +82,7 @@ The **MSFT\_FSRMFMJNotificationAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -94,7 +99,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-The number of files to include as an attachment to the sent email. When the value is 0, no list is attached. The default value is 0. See the [**AttachmentFileListSize**](ifsrmactionemail2-attachmentfilelistsize.md) property of the [**IFsrmActionEmail2**](ifsrmactionemail2.md) interface.
+The number of files to include as an attachment to the sent email. When the value is 0, no list is attached. The default value is 0. See the [**AttachmentFileListSize**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail2-get_attachmentfilelistsize?branch=master) property of the [**IFsrmActionEmail2**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail2?branch=master) interface.
 
 </dd> <dt>
 
@@ -107,7 +112,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-The subject of the email. This property is used if the **Type** property is 1 (Event) or 2 (Email) and is limited to 10KB. The default value is an empty string. See the [**MessageText**](ifsrmactionemail-messagetext.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+The subject of the email. This property is used if the **Type** property is 1 (Event) or 2 (Email) and is limited to 10KB. The default value is an empty string. See the [**MessageText**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_messagetext?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
@@ -120,7 +125,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-The full path to the executable program or script to run. The length must not exceed the value of **MAX\_PATH** (260). This property is used if the **Type** property is 3 (Command.) See the [**ExecutablePath**](ifsrmactioncommand-executablepath.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The full path to the executable program or script to run. The length must not exceed the value of **MAX\_PATH** (260). This property is used if the **Type** property is 3 (Command.) See the [**ExecutablePath**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_executablepath?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
@@ -133,7 +138,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-The parameters for the executable program or script to be run. The maximum length of the string is 10KB. This property is used if the **Type** property is 3 (Command.) See the [**Arguments**](ifsrmactioncommand-arguments.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+The parameters for the executable program or script to be run. The maximum length of the string is 10KB. This property is used if the **Type** property is 3 (Command.) See the [**Arguments**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_arguments?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> <dt>
 
@@ -146,7 +151,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-The event type of the action. This property is used if the **Type** property is 1 (Event.) See the [**FsrmEventType**](fsrmeventtype.md) enumeration.
+The event type of the action. This property is used if the **Type** property is 1 (Event.) See the [**FsrmEventType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmeventtype?branch=master) enumeration.
 
 <dt>
 
@@ -205,7 +210,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-A semicolon-separated list of email addresses that are to be on the BCC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailBcc**](ifsrmactionemail-mailbcc.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+A semicolon-separated list of email addresses that are to be on the BCC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailBcc**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailbcc?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
@@ -218,7 +223,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-A semicolon-separated list of email addresses that are to be on the CC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailCc**](ifsrmactionemail-mailcc.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+A semicolon-separated list of email addresses that are to be on the CC line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailCc**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailcc?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
@@ -231,7 +236,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-A semicolon-separated list of email addresses that are to be on the To: line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailTo**](ifsrmactionemail-mailto.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+A semicolon-separated list of email addresses that are to be on the To: line of the mail. "\[Admin Email\]" and "\[File Owner\]" are acceptable email addresses. This property is used if the **Type** property is 2 (Email). The default value is an empty string. See the [**MailTo**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailto?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
@@ -244,7 +249,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-The account under which the executable program or script will be run. The default value is 2 (LocalService). This property is used if the **Type** property is 3 (Command.) See the [**FsrmAccountType**](fsrmaccounttype.md) enumeration.
+The account under which the executable program or script will be run. The default value is 2 (LocalService). This property is used if the **Type** property is 3 (Command.) See the [**FsrmAccountType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmaccounttype?branch=master) enumeration.
 
 <dt>
 
@@ -303,7 +308,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-The subject of the email. This property is used if the **Type** property is 1 (Event) or 2 (Email) and is limited to 1KB. The default value is an empty string. See the [**MailSubject**](ifsrmactionemail-mailsubject.md) property of the [**IFsrmActionEmail**](ifsrmactionemail.md) interface.
+The subject of the email. This property is used if the **Type** property is 1 (Event) or 2 (Email) and is limited to 1KB. The default value is an empty string. See the [**MailSubject**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactionemail-get_mailsubject?branch=master) property of the [**IFsrmActionEmail**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactionemail?branch=master) interface.
 
 </dd> <dt>
 
@@ -316,7 +321,7 @@ Data type: **uint32**
 Access type: Read/write
 </dt> </dl>
 
-Represents the type of the action, which determines the action that is taken in response to a quota or file screen event. See the [**FsrmActionType**](fsrmactiontype.md) enumeration.
+Represents the type of the action, which determines the action that is taken in response to a quota or file screen event. See the [**FsrmActionType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmactiontype?branch=master) enumeration.
 
 <dt>
 
@@ -364,7 +369,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-An optional string representing a valid path to a folder. Remote paths are not supported. The length must not **MAX\_PATH** (260). The default value is an empty string. This property is used if the **Type** property is 3 (Command.) See the [**WorkingDirectory**](ifsrmactioncommand-workingdirectory.md) property of [**IFsrmActionCommand**](ifsrmactioncommand.md).
+An optional string representing a valid path to a folder. Remote paths are not supported. The length must not **MAX\_PATH** (260). The default value is an empty string. This property is used if the **Type** property is 3 (Command.) See the [**WorkingDirectory**](/windows/previous-versions/Fsrm/nf-fsrm-ifsrmactioncommand-get_workingdirectory?branch=master) property of [**IFsrmActionCommand**](/windows/previous-versions/Fsrm/nn-fsrm-ifsrmactioncommand?branch=master).
 
 </dd> </dl>
 
@@ -390,7 +395,7 @@ Not all action types support every property in the class. The table below indica
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -399,7 +404,7 @@ Not all action types support every property in the class. The table below indica
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -413,9 +418,9 @@ Not all action types support every property in the class. The table below indica
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

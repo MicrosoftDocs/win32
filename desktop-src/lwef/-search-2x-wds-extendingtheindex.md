@@ -1,7 +1,12 @@
 ---
 title: Extending the Index
 description: The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of Windows Search.
-ms.assetid: '8605fa4d-cd76-4459-b40e-280543f0f80d'
+ms.assetid: 8605fa4d-cd76-4459-b40e-280543f0f80d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extending the Index

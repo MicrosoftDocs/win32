@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETHOT message
 description: Sets the hot item for a tree-view control. You can send this message explicitly or by using the TreeView\_SetHot macro.
-ms.assetid: '5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8'
-keywords: ["TVM_SETHOT message Windows Controls"]
+ms.assetid: 5e7368f5-40ce-4e7b-bbe3-5fe0b17181a8
+keywords:
+- TVM_SETHOT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETHOT message
 
 \[Intended for internal use; not recommended for use in applications. This message may not be supported in future versions of Windows.\]
 
-Sets the hot item for a tree-view control. You can send this message explicitly or by using the [**TreeView\_SetHot**](treeview-sethot.md) macro.
+Sets the hot item for a tree-view control. You can send this message explicitly or by using the [**TreeView\_SetHot**](/windows/win32/Commctrl/nf-commctrl-treeview_sethot?branch=master) macro.
 
 ## Parameters
 
@@ -61,8 +67,8 @@ This message is ignored if *lParam* is **NULL** and the tree-view control is tra
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -71,12 +77,12 @@ This message is ignored if *lParam* is **NULL** and the tree-view control is tra
 
 <dl> <dt>
 
-[**TreeView\_SetHot**](treeview-sethot.md)
+[**TreeView\_SetHot**](/windows/win32/Commctrl/nf-commctrl-treeview_sethot?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

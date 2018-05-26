@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the access control list (ACL) for switch port settings.'
-ms.assetid: 'c0d6dfa1-017c-4e66-9ee3-425182d84231'
-title: 'Msvm\_EthernetSwitchPortAclSettingData class'
+Description: Represents the access control list (ACL) for switch port settings.
+ms.assetid: c0d6dfa1-017c-4e66-9ee3-425182d84231
+title: Msvm\_EthernetSwitchPortAclSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_EthernetSwitchPortAclSettingData class
@@ -21,14 +26,14 @@ class Msvm_EthernetSwitchPortAclSettingData : Msvm_EthernetSwitchPortFeatureSett
   string Description = "Represents the base class for switch port settings.";
   string ElementName = "Ethernet Switch Port ACL Settings";
   string Name = "";
-  uint8  Direction = 0;
-  uint8  Applicability = 0;
-  uint8  AclType = 0;
-  uint8  Action = 0;
+  uint8  Direction = 0;
+  uint8  Applicability = 0;
+  uint8  AclType = 0;
+  uint8  Action = 0;
   string LocalAddress = "";
-  uint8  LocalAddressPrefixLength = 0;
+  uint8  LocalAddressPrefixLength = 0;
   string RemoteAddress = length = 0;
-  uint8  RemoteAddressPrefixLength = 0;
+  uint8  RemoteAddressPrefixLength = 0;
 };
 ```
 
@@ -355,17 +360,17 @@ The remote address prefix length.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

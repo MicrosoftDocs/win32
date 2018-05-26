@@ -1,8 +1,21 @@
 ---
 title: About .NET Framework Data Types
 description: About .NET Framework Data Types
-ms.assetid: '8683888b-889f-4ab2-8eab-dbb79735f13f'
-keywords: ["Windows Media Player,.NET Framework", "Windows Media Player object model,.NET Framework", "object model,.NET Framework", "Windows Media Player Mobile,.NET Framework", "Windows Media Player ActiveX control,.NET Framework", "Windows Media Player Mobile ActiveX control,.NET Framework", "ActiveX control,.NET Framework", ".NET Framework,data types"]
+ms.assetid: 8683888b-889f-4ab2-8eab-dbb79735f13f
+keywords:
+- Windows Media Player,.NET Framework
+- Windows Media Player object model,.NET Framework
+- object model,.NET Framework
+- Windows Media Player Mobile,.NET Framework
+- Windows Media Player ActiveX control,.NET Framework
+- Windows Media Player Mobile ActiveX control,.NET Framework
+- ActiveX control,.NET Framework
+- .NET Framework,data types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About .NET Framework Data Types

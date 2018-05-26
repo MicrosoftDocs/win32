@@ -1,7 +1,12 @@
 ---
-Description: 'Computes the hash sent in the finished message of the Secure Sockets Layer protocol (SSL) handshake.'
-ms.assetid: '82dfeb1d-c141-40c9-b692-daad78ab6d55'
+Description: Computes the hash sent in the finished message of the Secure Sockets Layer protocol (SSL) handshake.
+ms.assetid: 82dfeb1d-c141-40c9-b692-daad78ab6d55
 title: SslComputeFinishedHash function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslComputeFinishedHash function
@@ -13,12 +18,12 @@ The **SslComputeFinishedHash** function computes the [*hash*](https://msdn.micro
 
 ```C++
 SECURITY_STATUS WINAPI SslComputeFinishedHash(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _In_  NCRYPT_KEY_HANDLE  hMasterKey,
-  _In_  NCRYPT_HASH_HANDLE hHandshakeHash,
-  _Out_ PBYTE              pbOutput,
-  _In_  DWORD              cbOutput,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _In_  NCRYPT_KEY_HANDLE  hMasterKey,
+  _In_  NCRYPT_HASH_HANDLE hHandshakeHash,
+  _Out_ PBYTE              pbOutput,
+  _In_  DWORD              cbOutput,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -77,7 +82,7 @@ One of the following constants.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -95,7 +100,7 @@ If the function fails, it returns a nonzero error value.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -115,16 +120,16 @@ The value of *cbOutput* determines the length of the hash data. When the [*Trans
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Storport Virtual Miniport Driver Structures
 description: Storport Virtual Miniport Driver Structures
-ms.assetid: 'eaa3b2c0-8737-4ef6-8cc1-ba45ea3d9eb6'
+ms.assetid: eaa3b2c0-8737-4ef6-8cc1-ba45ea3d9eb6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storport Virtual Miniport Driver Structures

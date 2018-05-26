@@ -1,7 +1,12 @@
 ---
-Description: 'D3DX supplies the following texturing functions.'
-ms.assetid: '1280e360-2628-47ac-b0e3-8ef9216e2e92'
+Description: D3DX supplies the following texturing functions.
+ms.assetid: 1280e360-2628-47ac-b0e3-8ef9216e2e92
 title: Texture Functions in D3DX 9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture Functions in D3DX 9

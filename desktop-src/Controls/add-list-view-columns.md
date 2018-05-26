@@ -1,7 +1,12 @@
 ---
 title: How to Add List-View Columns
 description: This topic demonstrates how to add columns to a list-view control.
-ms.assetid: '9DBDFF56-7CD6-467C-AD2E-64213615E241'
+ms.assetid: 9DBDFF56-7CD6-467C-AD2E-64213615E241
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Add List-View Columns
@@ -23,9 +28,9 @@ This topic demonstrates how to add columns to a list-view control. Columns are u
 
 ### 
 
-To add a column to a list-view control, send the [**LVM\_INSERTCOLUMN**](lvm-insertcolumn.md) message or use the [**ListView\_InsertColumn**](listview-insertcolumn.md) macro. To delete a column, use the [**LVM\_DELETECOLUMN**](lvm-deletecolumn.md) message.
+To add a column to a list-view control, send the [**LVM\_INSERTCOLUMN**](lvm-insertcolumn.md) message or use the [**ListView\_InsertColumn**](/windows/win32/Commctrl/nf-commctrl-listview_insertcolumn?branch=master) macro. To delete a column, use the [**LVM\_DELETECOLUMN**](lvm-deletecolumn.md) message.
 
-The following C++ code example calls the [**ListView\_InsertColumn**](listview-insertcolumn.md) macro to add columns to a list-view control. The column headings are defined in the application's header file as string resources, which are numbered consecutively starting with IDS\_FIRSTCOLUMN. The number of columns is defined in the header file as **C\_COLUMNS**.
+The following C++ code example calls the [**ListView\_InsertColumn**](/windows/win32/Commctrl/nf-commctrl-listview_insertcolumn?branch=master) macro to add columns to a list-view control. The column headings are defined in the application's header file as string resources, which are numbered consecutively starting with IDS\_FIRSTCOLUMN. The number of columns is defined in the header file as **C\_COLUMNS**.
 
 
 ```C++

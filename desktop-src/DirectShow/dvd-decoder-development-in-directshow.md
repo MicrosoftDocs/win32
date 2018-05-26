@@ -1,7 +1,12 @@
 ---
 Description: DVD Decoder Development in DirectShow
-ms.assetid: 'c00ff132-fee1-47b5-8a8a-df7cb920ad89'
+ms.assetid: c00ff132-fee1-47b5-8a8a-df7cb920ad89
 title: DVD Decoder Development in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Decoder Development in DirectShow
@@ -20,8 +25,8 @@ See also:
 -   [**DVD Subpicture Property Set**](dvd-subpicture-property-set.md)
 -   [Pin Property Set](pin-property-set.md)
 -   [**IKsPropertySet**](ikspropertyset.md)
--   [**IVideoFrameStep**](ivideoframestep.md) (hardware decoders only)
--   [**IVPConfig**](ivpconfig.md) (hardware decoders only)
+-   [**IVideoFrameStep**](/windows/win32/Strmif/nn-strmif-ivideoframestep?branch=master) (hardware decoders only)
+-   [**IVPConfig**](/windows/win32/Vpconfig/nn-vpconfig-ivpconfig?branch=master) (hardware decoders only)
 
 ## Related topics
 

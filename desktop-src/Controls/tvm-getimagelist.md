@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETIMAGELIST message
 description: Retrieves the handle to the normal or state image list associated with a tree-view control. You can send this message explicitly or by using the TreeView\_GetImageList macro.
-ms.assetid: 'bcf5eac8-cb07-4cf8-ad93-47319fc915a5'
-keywords: ["TVM_GETIMAGELIST message Windows Controls"]
+ms.assetid: bcf5eac8-cb07-4cf8-ad93-47319fc915a5
+keywords:
+- TVM_GETIMAGELIST message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETIMAGELIST message
 
-Retrieves the handle to the normal or state image list associated with a tree-view control. You can send this message explicitly or by using the [**TreeView\_GetImageList**](treeview-getimagelist.md) macro.
+Retrieves the handle to the normal or state image list associated with a tree-view control. You can send this message explicitly or by using the [**TreeView\_GetImageList**](/windows/win32/Commctrl/nf-commctrl-treeview_getimagelist?branch=master) macro.
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Type of image list to retrieve. This parameter can be one of the following value
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -52,8 +58,8 @@ Returns an HIMAGELIST handle to the specified image list.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -65,9 +71,9 @@ Returns an HIMAGELIST handle to the specified image list.
 [**TVM\_SETIMAGELIST**](tvm-setimagelist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

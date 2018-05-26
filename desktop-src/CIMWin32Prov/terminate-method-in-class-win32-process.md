@@ -1,15 +1,18 @@
 ---
-Description: 'The Terminate&\#32;WMI class method terminates a process and all of its threads.'
+Description: The Terminate&\#32;WMI class method terminates a process and all of its threads.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6c6b27d4-cf9b-42d7-9136-42641ea56ee8'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6c6b27d4-cf9b-42d7-9136-42641ea56ee8
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Terminate method of the Win32\_Process class'
+title: Terminate method of the Win32\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Terminate method of the Win32\_Process class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 Terminate(
-  [in] uint32 Reason
+  [in] uint32 Reason
 );
 ```
 
@@ -64,7 +67,7 @@ Returns a value of 0 (zero) if the process was successfully terminated, and any 
 **Invalid parameter** (21)
 </dt> <dt>
 
-**Other** (22–4294967295)
+**Other** (22 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -90,7 +93,7 @@ You can terminate a process by:
 > [!Note]  
 > Group Policy can also be used to restrict the programs that run on a computer. However, Group Policy can restrict only the programs run using either the Start menu or Windows Explorer; it has no effect on programs started using other means, such as the command line. By contrast, WMI can prevent a process from running regardless of how the process was started.
 
- 
+ 
 
 **Terminating a Process You Do Not Own**
 
@@ -381,8 +384,8 @@ int main(int iArgCnt, char ** argv)
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -405,9 +408,9 @@ int main(int iArgCnt, char ** argv)
 [WMI Tasks: Processes](https://msdn.microsoft.com/library/aa394599)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

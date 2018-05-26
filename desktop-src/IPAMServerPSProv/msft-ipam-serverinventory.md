@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a managed infrastructure server in the IPAM server inventory.'
+Description: Represents a managed infrastructure server in the IPAM server inventory.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4a779fef-8443-4fb6-85f0-346b0e63246a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4a779fef-8443-4fb6-85f0-346b0e63246a
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_ServerInventory class'
+title: MSFT\_IPAM\_ServerInventory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_ServerInventory class
@@ -24,40 +27,40 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Core::CoreElements"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_ServerInventory : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   InstanceID;
-  string   RecommendedAction;
-  uint16   ManageabilityStatus;
-  uint16   IPAMAccessStatus;
-  string   ServerName;
-  uint16   ServerType[];
-  string   DnsSuffix;
-  string   DomainName;
-  uint16   ServerStatus;
-  uint16   DataRetrievalStatus;
-  string   IPv4Address[];
-  string   IPv6Address[];
-  string   OperatingSystem;
-  uint16   DhcpRpcAccessStatus;
-  uint16   DnsRpcAccessStatus;
-  uint16   DhcpAuditShareAccessStatus;
-  uint16   EventLogAccessStatus;
-  string   ForestName;
-  string   Owner;
-  string   ServerGuid;
-  string   CustomConfiguration;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   InstanceID;
+  string   RecommendedAction;
+  uint16   ManageabilityStatus;
+  uint16   IPAMAccessStatus;
+  string   ServerName;
+  uint16   ServerType[];
+  string   DnsSuffix;
+  string   DomainName;
+  uint16   ServerStatus;
+  uint16   DataRetrievalStatus;
+  string   IPv4Address[];
+  string   IPv6Address[];
+  string   OperatingSystem;
+  uint16   DhcpRpcAccessStatus;
+  uint16   DnsRpcAccessStatus;
+  uint16   DhcpAuditShareAccessStatus;
+  uint16   EventLogAccessStatus;
+  string   ForestName;
+  string   Owner;
+  string   ServerGuid;
+  string   CustomConfiguration;
 };
 ```
 
@@ -82,7 +85,7 @@ The **MSFT\_IPAM\_ServerInventory** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -663,7 +666,7 @@ Access type: Read-only
 
 The forest name for this server.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -1720,7 +1723,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -1737,9 +1740,9 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

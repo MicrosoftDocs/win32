@@ -1,7 +1,12 @@
 ---
-Description: 'Contains two arbitrary status strings.'
-ms.assetid: 'fe29ee63-35ac-4145-a793-9bd7964f62af'
-title: 'EC\_STATUS'
+Description: Contains two arbitrary status strings.
+ms.assetid: fe29ee63-35ac-4145-a793-9bd7964f62af
+title: EC\_STATUS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_STATUS
@@ -52,9 +57,9 @@ None.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

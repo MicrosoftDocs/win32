@@ -4,17 +4,21 @@ description: Indicates whether the account has permission to dial in to the RAS 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8e0d98b4-93b1-4a76-a8b7-d6017028b48a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 8e0d98b4-93b1-4a76-a8b7-d6017028b48a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["msNPAllowDialin attribute AD Schema"]
+keywords:
+- msNPAllowDialin attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - msNPAllowDialin
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # msNPAllowDialin attribute
@@ -38,12 +42,12 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -178,9 +182,9 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 [RAS Administration Functions](https://msdn.microsoft.com/library/windows/desktop/aa378047)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

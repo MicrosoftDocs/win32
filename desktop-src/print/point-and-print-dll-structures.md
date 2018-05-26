@@ -1,7 +1,12 @@
 ---
 Description: Point and Print DLL Structures
-ms.assetid: 'b4ca888e-3bdc-4580-8e3a-7e0e10a2a766'
+ms.assetid: b4ca888e-3bdc-4580-8e3a-7e0e10a2a766
 title: Point and Print DLL Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Point and Print DLL Structures

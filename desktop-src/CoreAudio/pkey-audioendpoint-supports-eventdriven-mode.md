@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode property indicates whether the endpoint supports the event-driven mode.'
-ms.assetid: '9cffd9ae-710b-4d41-aa02-3ab1a065e544'
-title: 'PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode'
+---
+Description: The PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode property indicates whether the endpoint supports the event-driven mode.
+ms.assetid: 9cffd9ae-710b-4d41-aa02-3ab1a065e544
+title: PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode

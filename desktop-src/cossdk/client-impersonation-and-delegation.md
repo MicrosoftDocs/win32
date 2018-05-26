@@ -1,7 +1,12 @@
 ---
-Description: 'In some circumstances, a server application needs to present a client's identity to resources it accesses on the client's behalf, usually to cause access checks or authentication to be performed against the client's identity.'
-ms.assetid: 'fd75eb54-eefe-411f-a7aa-0bc8628f8778'
+Description: In some circumstances, a server application needs to present a clients identity to resources it accesses on the clients behalf, usually to cause access checks or authentication to be performed against the clients identity.
+ms.assetid: fd75eb54-eefe-411f-a7aa-0bc8628f8778
 title: Client Impersonation and Delegation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Impersonation and Delegation
@@ -43,7 +48,7 @@ Sometimes the only effective solution to a problem is to use impersonation, but 
 
 ## Queued Components
 
-[Queued components](com--queued-components.md) do not support impersonation. When a client makes a call to a queued object, the call is actually made to the recorder, which packages it as part of a message to the server. The listener then reads the message from the queue and passes it to the player, which invokes the actual server component and makes the same method call. As such, when the server receives the call, the original client token is unavailable via impersonation. Role-based security still applies, however, and programmatic security using the [**ISecurityCallContext**](isecuritycallcontext.md) interface will work. For details, see [Queued Components Security](queued-components-security.md).
+[Queued components](com--queued-components.md) do not support impersonation. When a client makes a call to a queued object, the call is actually made to the recorder, which packages it as part of a message to the server. The listener then reads the message from the queue and passes it to the player, which invokes the actual server component and makes the same method call. As such, when the server receives the call, the original client token is unavailable via impersonation. Role-based security still applies, however, and programmatic security using the [**ISecurityCallContext**](/windows/win32/ComSvcs/nn-comsvcs-isecuritycallcontext?branch=master) interface will work. For details, see [Queued Components Security](queued-components-security.md).
 
 ## Related topics
 

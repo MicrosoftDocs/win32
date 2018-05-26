@@ -1,7 +1,12 @@
 ---
 title: umin (sm4 - asm)
 description: Component-wise unsigned integer minimum.
-ms.assetid: '134B128F-7B47-4819-A576-80766EDB14C9'
+ms.assetid: 134B128F-7B47-4819-A576-80766EDB14C9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # umin (sm4 - asm)
@@ -15,7 +20,7 @@ Component-wise unsigned integer minimum.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise unsigned integer minimum.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -41,7 +46,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -60,7 +65,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -69,9 +74,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

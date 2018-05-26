@@ -1,22 +1,27 @@
 ---
-Description: 'Proxy function for the GetColorContexts method.'
-ms.assetid: '2a6db3bd-d3e1-4e87-a04d-0d1c3ea858fb'
-title: 'IWICBitmapDecoder\_GetColorContexts\_Proxy function'
+Description: Proxy function for the GetColorContexts method.
+ms.assetid: 2a6db3bd-d3e1-4e87-a04d-0d1c3ea858fb
+title: IWICBitmapDecoder\_GetColorContexts\_Proxy function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWICBitmapDecoder\_GetColorContexts\_Proxy function
 
-Proxy function for the [**GetColorContexts**](-wic-codec-iwicbitmapdecoder-getcolorcontexts.md) method.
+Proxy function for the [**GetColorContexts**](/windows/win32/Wincodec/nf-wincodec-iwicbitmapdecoder-getcolorcontexts?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
-  _In_    IWICBitmapDecoder *THIS_PTR,
-  _In_    UINT              cCount,
-  _Inout_ IWICColorContext  **ppIColorContexts,
-  _Out_   UINT              *pcActualCount
+  _In_    IWICBitmapDecoder *THIS_PTR,
+  _In_    UINT              cCount,
+  _Inout_ IWICColorContext  **ppIColorContexts,
+  _Out_   UINT              *pcActualCount
 );
 ```
 
@@ -29,9 +34,9 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 *THIS\_PTR* \[in\]
 </dt> <dd>
 
-Type: **[**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md)\***
+Type: **[**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master)\***
 
-Pointer to this [**IWICBitmapDecoder**](-wic-codec-iwicbitmapdecoder.md) object.
+Pointer to this [**IWICBitmapDecoder**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master) object.
 
 </dd> <dt>
 
@@ -49,9 +54,9 @@ This value must be the size of, or smaller than, the size available to *ppIColor
 *ppIColorContexts* \[in, out\]
 </dt> <dd>
 
-Type: **[**IWICColorContext**](-wic-codec-iwiccolorcontext.md)\*\***
+Type: **[**IWICColorContext**](/windows/win32/Wincodec/nn-wincodec-iwiccolorcontext?branch=master)\*\***
 
-A pointer that receives a pointer to the [**IWICColorContext**](-wic-codec-iwiccolorcontext.md).
+A pointer that receives a pointer to the [**IWICColorContext**](/windows/win32/Wincodec/nn-wincodec-iwiccolorcontext?branch=master).
 
 </dd> <dt>
 
@@ -78,15 +83,15 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 |                                     |                                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
+| Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Wincodec.lib</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Suppress (QueryType) Element
 description: An XPath query that identifies the events to exclude from the query result set.
-ms.assetid: '41304a3c-bde1-49c3-8cb3-e95fc428bd96'
-keywords: ["Suppress element EventLog"]
+ms.assetid: 41304a3c-bde1-49c3-8cb3-e95fc428bd96
+keywords:
+- Suppress element EventLog
 topic_type:
 - apiref
 api_name:
 - Suppress
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Suppress (QueryType) Element
@@ -45,8 +51,8 @@ The **Suppress** element is defined by the [**QueryType**](queryschema-querytype
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ The **Suppress** element is defined by the [**QueryType**](queryschema-querytype
 [**Query (QueryListType)**](queryschema-query-querylisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

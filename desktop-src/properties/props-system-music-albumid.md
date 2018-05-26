@@ -1,7 +1,12 @@
 ---
-Description: 'This property differentiates albums with the same title from different artists. It is the concatenation of System.Music.AlbumArtist and System.Music.AlbumTitle.'
-ms.assetid: 'e5723174-1a5e-4bc2-b067-f60e1a747c60'
-title: 'System.Music.AlbumID'
+Description: This property differentiates albums with the same title from different artists. It is the concatenation of System.Music.AlbumArtist and System.Music.AlbumTitle.
+ms.assetid: e5723174-1a5e-4bc2-b067-f60e1a747c60
+title: System.Music.AlbumID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Music.AlbumID

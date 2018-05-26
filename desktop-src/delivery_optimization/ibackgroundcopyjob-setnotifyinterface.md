@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyJob SetNotifyInterface method
 description: Identifies your implementation of the IBackgroundCopyCallback interface to DO. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
-ms.assetid: '792211FC-440E-4D2C-A6C7-CE9EFB86571C'
-keywords: ["SetNotifyInterface method", "SetNotifyInterface method, IBackgroundCopyJob interface", "IBackgroundCopyJob interface, SetNotifyInterface method"]
+ms.assetid: 792211FC-440E-4D2C-A6C7-CE9EFB86571C
+keywords:
+- SetNotifyInterface method
+- SetNotifyInterface method, IBackgroundCopyJob interface
+- IBackgroundCopyJob interface, SetNotifyInterface method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob::SetNotifyInterface method
@@ -22,7 +30,7 @@ Identifies your implementation of the [**IBackgroundCopyCallback**](ibackgroundc
 
 ```C++
 HRESULT SetNotifyInterface(
-   IUnknown *pNotifyInterface
+   IUnknown *pNotifyInterface
 );
 ```
 
@@ -51,7 +59,7 @@ This method returns the following **HRESULT** values, as well as others.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,7 +75,7 @@ Only the job owner/creator or an administrator can register for notifications.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -93,9 +101,9 @@ Only the job owner/creator or an administrator can register for notifications.
 [**IBackgroundCopyJob::SetNotifyFlags**](ibackgroundcopyjob-setnotifyflags.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

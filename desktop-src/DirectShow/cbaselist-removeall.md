@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveAll method removes all the nodes from the list.'
-ms.assetid: 'f6a6ebfe-5f53-4acd-8bfa-93680f5d40fd'
-title: 'CBaseList.RemoveAll method'
+Description: The RemoveAll method removes all the nodes from the list.
+ms.assetid: f6a6ebfe-5f53-4acd-8bfa-93680f5d40fd
+title: CBaseList.RemoveAll method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.RemoveAll method
@@ -47,9 +52,9 @@ It is the caller's responsibility to delete the items contained in all the nodes
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

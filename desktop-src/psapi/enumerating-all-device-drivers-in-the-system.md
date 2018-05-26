@@ -1,12 +1,17 @@
 ---
 title: Enumerating All Device Drivers in the System
 description: The following sample code uses the EnumDeviceDrivers function to enumerate the current device drivers in the system.
-ms.assetid: '047d8541-e17e-4738-8453-674db69365df'
+ms.assetid: 047d8541-e17e-4738-8453-674db69365df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating All Device Drivers in the System
 
-The following sample code uses the [**EnumDeviceDrivers**](enumdevicedrivers.md) function to enumerate the current device drivers in the system. It passes the load addresses retrieved from this function call to the [**GetDeviceDriverBaseName**](getdevicedriverbasename.md) function to retrieve a name that can be displayed.
+The following sample code uses the [**EnumDeviceDrivers**](/windows/win32/Psapi/nf-psapi-enumdevicedrivers?branch=master) function to enumerate the current device drivers in the system. It passes the load addresses retrieved from this function call to the [**GetDeviceDriverBaseName**](/windows/win32/Psapi/nf-psapi-getdevicedriverbasenamea?branch=master) function to retrieve a name that can be displayed.
 
 
 ```C++

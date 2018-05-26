@@ -1,8 +1,15 @@
 ---
 title: Resource Compiler
 description: The Microsoft Windows Resource Compiler (RC) is a tool used in building Windows-based applications.
-ms.assetid: 'e7129d0d-5071-45dc-8b28-0947f7920877'
-keywords: ["rc.exe (see resource compiler)", "resource compiler"]
+ms.assetid: e7129d0d-5071-45dc-8b28-0947f7920877
+keywords:
+- rc.exe (see resource compiler)
+- resource compiler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Compiler

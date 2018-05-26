@@ -1,7 +1,12 @@
 ---
 title: Using WTP
-ms.assetid: '81200fce-3b30-4b05-a041-0100e2a41136'
+ms.assetid: 81200fce-3b30-4b05-a041-0100e2a41136
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WTP

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RangeMax property gets the maximum value of the allowed data range.'
-ms.assetid: '516FADF0-3786-4C41-B38D-4A742AD68719'
-title: 'IPrintSchemaParameterDefinition::RangeMax property'
+---
+Description: The RangeMax property gets the maximum value of the allowed data range.
+ms.assetid: 516FADF0-3786-4C41-B38D-4A742AD68719
+title: IPrintSchemaParameterDefinitionRangeMax property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaParameterDefinition::RangeMax property

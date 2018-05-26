@@ -1,7 +1,12 @@
 ---
 title: CREATE VIEW Statement
 description: CREATE VIEW Statement
-ms.assetid: 'af55851e-576a-498c-9f49-06b954cd862d'
+ms.assetid: af55851e-576a-498c-9f49-06b954cd862d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CREATE VIEW Statement

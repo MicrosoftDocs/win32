@@ -4,15 +4,18 @@ description: The ITsSbTaskInfo interface exposes the following properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '402B8502-DE17-440B-867D-45922582C30E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 402B8502-DE17-440B-867D-45922582C30E
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbTaskInfo Properties
 
-The [**ITsSbTaskInfo**](itssbtaskinfo.md) interface exposes the following properties.
+The [**ITsSbTaskInfo**](/windows/win32/sbtsv/nn-sbtsv-itssbtaskinfo?branch=master) interface exposes the following properties.
 
 ## In this section
 
@@ -25,14 +28,14 @@ Retrieves the context bytes associated with the task.
 
 </dd> <dt>
 
-[**Deadline property**](itssbtaskinfo-deadline.md)
+[**Deadline property**](/windows/win32/sbtsv/nf-sbtsv-itssbtaskinfo-get_deadline?branch=master)
 </dt> <dd>
 
 Retrieves the time by which the task must be initiated. This is used to prioritize patches. The patch with the earliest deadline will get initiated first.
 
 </dd> <dt>
 
-[**EndTime property**](itssbtaskinfo-endtime.md)
+[**EndTime property**](/windows/win32/sbtsv/nf-sbtsv-itssbtaskinfo-get_endtime?branch=master)
 </dt> <dd>
 
 Retrieves the latest time the task agent can start the task.
@@ -53,14 +56,14 @@ Retrieves the label that describes the purpose of the task.
 
 </dd> <dt>
 
-[**Plugin property**](itssbtaskinfo-plugin.md)
+[**Plugin property**](/windows/win32/sbtsv/nf-sbtsv-itssbtaskinfo-get_plugin?branch=master)
 </dt> <dd>
 
 Retrieves the display name of the task agent.
 
 </dd> <dt>
 
-[**StartTime property**](itssbtaskinfo-starttime.md)
+[**StartTime property**](/windows/win32/sbtsv/nf-sbtsv-itssbtaskinfo-get_starttime?branch=master)
 </dt> <dd>
 
 Retrieves the earliest time the task agent can start the task.
@@ -70,11 +73,11 @@ Retrieves the earliest time the task agent can start the task.
 [**Status property**](itssbtaskinfo-status.md)
 </dt> <dd>
 
-Retrieves an [**RDV\_TASK\_STATUS**](rdv-task-status.md) enumeration value that represents the state of the task.
+Retrieves an [**RDV\_TASK\_STATUS**](/windows/win32/SessDirPublicTypes/ne-sessdirpublictypes-_rdv_task_status?branch=master) enumeration value that represents the state of the task.
 
 </dd> <dt>
 
-[**TargetId property**](itssbtaskinfo-targetid.md)
+[**TargetId property**](/windows/win32/sbtsv/nf-sbtsv-itssbtaskinfo-get_targetid?branch=master)
 </dt> <dd>
 
 Retrieves the target identifier.

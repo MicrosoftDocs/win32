@@ -2,13 +2,16 @@
 title: Add method of the PS\_DAEntryPoint class
 description: Adds an entry point to a multisite deployment. The cmdlet verifies DirectAccess prerequisites and adds the server as an entry point to the multisite deployment.
 audience: developer
-ms.assetid: '67390648-c647-4b9b-b4a4-1f45efb76897'
-ms.prod: 'windows-server-dev'
+ms.assetid: 67390648-c647-4b9b-b4a4-1f45efb76897
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DAEntryPoint class", "PS_DAEntryPoint class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DAEntryPoint class
+- PS_DAEntryPoint class, Add method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DAEntryPoint class
@@ -28,20 +34,20 @@ Adds an entry point to a multisite deployment. The cmdlet verifies DirectAccess 
 
 ```mof
 uint32 Add(
-  [in]  string       ComputerName,
-  [in]  string       ServerGpoName,
-  [in]  string       Name,
-  [in]  string       GslbIP,
-  [in]  boolean      DeployNat,
-  [in]  boolean      NoPrerequisite,
-  [in]  string       RemoteAccessServer,
-  [in]  string       InternalInterface,
-  [in]  string       InternetInterface,
-  [in]  string       ClientIPv6Prefix,
-  [in]  string       ConnectToAddress,
-  [in]  boolean      Force,
-  [in]  boolean      PassThru,
-  [out] DAEntryPoint cmdletOutput
+  [in]  string       ComputerName,
+  [in]  string       ServerGpoName,
+  [in]  string       Name,
+  [in]  string       GslbIP,
+  [in]  boolean      DeployNat,
+  [in]  boolean      NoPrerequisite,
+  [in]  string       RemoteAccessServer,
+  [in]  string       InternalInterface,
+  [in]  string       InternetInterface,
+  [in]  string       ClientIPv6Prefix,
+  [in]  string       ConnectToAddress,
+  [in]  boolean      Force,
+  [in]  boolean      PassThru,
+  [out] DAEntryPoint cmdletOutput
 );
 ```
 
@@ -156,7 +162,7 @@ Specifying PassThru returns the DAEntrypoint object which contains the DAEntrypo
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -170,9 +176,9 @@ Specifying PassThru returns the DAEntrypoint object which contains the DAEntrypo
 [**PS\_DAEntryPoint**](ps-daentrypoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

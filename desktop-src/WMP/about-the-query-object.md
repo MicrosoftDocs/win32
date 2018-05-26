@@ -1,8 +1,21 @@
 ---
 title: About the Query Object
 description: About the Query Object
-ms.assetid: '41488036-bdcf-4fe6-8f7e-f0897157d3d9'
-keywords: ["Windows Media Player,Query object", "Windows Media Player object model,Query object", "object model,Query object", "Windows Media Player ActiveX control,Query object", "ActiveX control,Query object", "Windows Media Player Mobile ActiveX control,Query object", "Windows Media Player Mobile,Query object", "Query object"]
+ms.assetid: 41488036-bdcf-4fe6-8f7e-f0897157d3d9
+keywords:
+- Windows Media Player,Query object
+- Windows Media Player object model,Query object
+- object model,Query object
+- Windows Media Player ActiveX control,Query object
+- ActiveX control,Query object
+- Windows Media Player Mobile ActiveX control,Query object
+- Windows Media Player Mobile,Query object
+- Query object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Query Object

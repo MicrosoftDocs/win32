@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the sample rate for the audio file in samples per second.'
-ms.assetid: '534f157c-6982-4423-b8e7-66591c0cb184'
-title: 'System.Audio.SampleRate'
+Description: Indicates the sample rate for the audio file in samples per second.
+ms.assetid: 534f157c-6982-4423-b8e7-66591c0cb184
+title: System.Audio.SampleRate
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Audio.SampleRate

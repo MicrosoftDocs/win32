@@ -4,13 +4,15 @@ description: A Cluster is composed of two or more ComputerSystems, operating tog
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c3fa05c2-0f58-496c-b10b-e8312146ee41'
-ms.prod: 'windows-server-dev'
+ms.assetid: c3fa05c2-0f58-496c-b10b-e8312146ee41
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ParticipatingCS class", "CIM_ParticipatingCS class, described"]
+keywords:
+- CIM_ParticipatingCS class
+- CIM_ParticipatingCS class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ParticipatingCS class
@@ -40,9 +45,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ParticipatingCS : CIM_Dependency
 {
   CIM_ComputerSystem REF Antecedent;
-  CIM_Cluster        REF Dependent;
-  uint16                 StateOfNode;
-  uint16                 RoleOfNode;
+  CIM_Cluster        REF Dependent;
+  uint16                 StateOfNode;
+  uint16                 RoleOfNode;
 };
 ```
 
@@ -232,7 +237,7 @@ StateOfNode indicates the condition of the participating ComputerSystem in the C
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -246,9 +251,9 @@ StateOfNode indicates the condition of the participating ComputerSystem in the C
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

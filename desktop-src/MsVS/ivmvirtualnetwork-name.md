@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualNetwork Name property
 description: The Name property contains the unique name of this virtual network.
-ms.assetid: 'c7f964e4-7aed-42a3-8c46-70736d013b17'
-keywords: ["Name property Virtual Server", "Name property Virtual Server , IVMVirtualNetwork interface", "IVMVirtualNetwork interface Virtual Server , Name property", "Name property Virtual Server , VMVirtualNetwork class", "VMVirtualNetwork class Virtual Server , Name property"]
+ms.assetid: c7f964e4-7aed-42a3-8c46-70736d013b17
+keywords:
+- Name property Virtual Server
+- Name property Virtual Server , IVMVirtualNetwork interface
+- IVMVirtualNetwork interface Virtual Server , Name property
+- Name property Virtual Server , VMVirtualNetwork class
+- VMVirtualNetwork class Virtual Server , Name property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualNetwork::Name property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Name(
-  [in]  BSTR virtualNetworkName
+  [in]  BSTR virtualNetworkName
 );
 
 HRESULT get_Name(
-  [out] BSTR *virtualNetworkName
+  [out] BSTR *virtualNetworkName
 );
 ```
 
@@ -87,8 +97,8 @@ Virtual network names are case-insensitive, for example, "MyNetwork" and "mynetw
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -100,9 +110,9 @@ Virtual network names are case-insensitive, for example, "MyNetwork" and "mynetw
 [**IVMVirtualNetwork**](ivmvirtualnetwork.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

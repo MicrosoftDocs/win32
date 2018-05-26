@@ -1,8 +1,16 @@
 ---
 title: RequestReplyTcpClientWithWindowsTransportSecurityExample
 description: This example shows a TCP client that sends request-reply messages, with security provided by Windows SSPI transport security. It also illustrates the client using security token properties to modify the allowed impersonation level from the default.
-ms.assetid: '8419e861-dc7f-41ca-96a4-b7c6d380a210'
-keywords: ["RequestReplyTcpClientWithWindowsTransportSecurityExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 8419e861-dc7f-41ca-96a4-b7c6d380a210
+keywords:
+- RequestReplyTcpClientWithWindowsTransportSecurityExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RequestReplyTcpClientWithWindowsTransportSecurityExample

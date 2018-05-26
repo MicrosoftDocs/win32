@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the options associated with a DDE share that is in the server user's list of trusted shares.'
-ms.assetid: 'e5f2b4f8-f922-4734-9fe3-8a74a7f5f619'
+Description: Retrieves the options associated with a DDE share that is in the server users list of trusted shares.
+ms.assetid: e5f2b4f8-f922-4734-9fe3-8a74a7f5f619
 title: NDdeGetTrustedShare function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NDdeGetTrustedShare function
 
-\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
+\[Network DDE is no longer supported. Nddeapi.dll is present on Windows Vista, but all function calls return NDDE\_NOT\_IMPLEMENTED.\]
 
 Retrieves the options associated with a DDE share that is in the server user's list of trusted shares.
 
@@ -15,11 +20,11 @@ Retrieves the options associated with a DDE share that is in the server user's l
 
 ```C++
 UINT NDdeGetTrustedShare(
-  _In_  LPTSTR  lpszServer,
-  _In_  LPTSTR  lpszShareName,
-  _Out_ LPDWORD lpdwTrustOptions,
-  _Out_ LPDWORD lpdwShareModId0,
-  _Out_ LPDWORD lpdwShareModId1
+  _In_  LPTSTR  lpszServer,
+  _In_  LPTSTR  lpszShareName,
+  _Out_ LPDWORD lpdwTrustOptions,
+  _Out_ LPDWORD lpdwShareModId0,
+  _Out_ LPDWORD lpdwShareModId1
 );
 ```
 
@@ -60,7 +65,7 @@ A pointer to a variable that receives the trust options. This parameter cannot b
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -94,8 +99,8 @@ The trusted share modify identifier reflects the version of the DDE share in the
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Header<br/>                   | <dl> <dt>Nddeapi.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Nddeapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nddeapi.dll</dt> </dl> |
@@ -116,9 +121,9 @@ The trusted share modify identifier reflects the version of the DDE share in the
 [**NDdeSetTrustedShare**](nddesettrustedshare.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

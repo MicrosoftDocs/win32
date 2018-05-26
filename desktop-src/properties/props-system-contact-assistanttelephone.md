@@ -1,7 +1,12 @@
 ---
-Description: 'Telephone number of the contact''s assistant.'
-ms.assetid: '2e3008b6-e427-468a-9381-f1d4866111c7'
-title: 'System.Contact.AssistantTelephone'
+Description: Telephone number of the contacts assistant.
+ms.assetid: 2e3008b6-e427-468a-9381-f1d4866111c7
+title: System.Contact.AssistantTelephone
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.AssistantTelephone

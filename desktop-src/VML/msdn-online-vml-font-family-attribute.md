@@ -1,7 +1,12 @@
 ---
 title: VML Font-Family Attribute
 description: VML Font-Family Attribute
-ms.assetid: '10586ae0-1480-4ffe-a690-ce8464e9bf41'
+ms.assetid: 10586ae0-1480-4ffe-a690-ce8464e9bf41
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Font-Family Attribute

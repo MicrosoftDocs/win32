@@ -1,8 +1,9 @@
 ---
 title: ICM\_DRAW\_START\_PLAY message
 description: The ICM\_DRAW\_START\_PLAY message provides the start and end times of a play operation to a rendering driver. You can send this message explicitly or by using the ICDrawStartPlay macro.
-ms.assetid: '27c4c06e-6510-43dc-a754-fe44144796f5'
-keywords: ["ICM_DRAW_START_PLAY message Windows Multimedia"]
+ms.assetid: 27c4c06e-6510-43dc-a754-fe44144796f5
+keywords:
+- ICM_DRAW_START_PLAY message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DRAW\_START\_PLAY message
 
-The **ICM\_DRAW\_START\_PLAY** message provides the start and end times of a play operation to a rendering driver. You can send this message explicitly or by using the [**ICDrawStartPlay**](icdrawstartplay.md) macro.
+The **ICM\_DRAW\_START\_PLAY** message provides the start and end times of a play operation to a rendering driver. You can send this message explicitly or by using the [**ICDrawStartPlay**](/windows/win32/Vfw/nf-vfw-icdrawstartplay?branch=master) macro.
 
 
 ```C++
@@ -52,7 +58,7 @@ This message does not return a value.
 
 This message precedes any frame data sent to the rendering driver.
 
-Units for *lFrom* and *lTo* are specified with the [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) message. For video data this is normally a frame number. For more information about the playback rate, see the **dwRate** and **dwScale** members of the [**ICDRAWBEGIN**](icdrawbegin-struct.md) structure.
+Units for *lFrom* and *lTo* are specified with the [**ICM\_DRAW\_BEGIN**](icm-draw-begin.md) message. For video data this is normally a frame number. For more information about the playback rate, see the **dwRate** and **dwScale** members of the [**ICDRAWBEGIN**](/windows/win32/Vfw/ns-vfw-icdrawbegin?branch=master) structure.
 
 If the end time is less than the start time, the playback direction is reversed.
 
@@ -62,8 +68,8 @@ If the end time is less than the start time, the playback direction is reversed.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -78,9 +84,9 @@ If the end time is less than the start time, the playback direction is reversed.
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

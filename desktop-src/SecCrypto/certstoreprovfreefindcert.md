@@ -1,7 +1,12 @@
-﻿---
-Description: 'Called when the certificate returned by the CertStoreProvFindCert callback was not used, and thus released, in a subsequent call to CertStoreProvFindCert.'
-ms.assetid: 'be882b56-027c-4540-9426-27d3c2b262e9'
+---
+Description: Called when the certificate returned by the CertStoreProvFindCert callback was not used, and thus released, in a subsequent call to CertStoreProvFindCert.
+ms.assetid: be882b56-027c-4540-9426-27d3c2b262e9
 title: CertStoreProvFreeFindCert callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvFreeFindCert callback function
@@ -36,7 +41,7 @@ BOOL WINAPI CertStoreProvFreeFindCert(
 *pCertContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](cert-context.md).
+A pointer to a [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master).
 
 </dd> <dt>
 
@@ -73,7 +78,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CERT\_CONTEXT**](cert-context.md)
+[**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master)
 </dt> <dt>
 
 [**CertStoreProvFindCert**](certstoreprovfindcert.md)

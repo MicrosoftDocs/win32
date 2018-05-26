@@ -4,13 +4,16 @@ description: Returns a CIM\_Error instance if the MSFT\_SrJob instance fails or 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bf4d4259-42e8-4cc5-bde9-ef14a0924403'
-ms.prod: 'windows-server-dev'
+ms.assetid: bf4d4259-42e8-4cc5-bde9-ef14a0924403
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetError method", "GetError method, MSFT_SrJob class", "MSFT_SrJob class, GetError method"]
+keywords:
+- GetError method
+- GetError method, MSFT_SrJob class
+- MSFT_SrJob class, GetError method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - WvrCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetError method of the MSFT\_SrJob class
@@ -32,7 +38,7 @@ Returns a [**CIM\_Error**](cim-error.md) instance if the [**MSFT\_SrJob**](msft-
 
 ```mof
 uint32 GetError(
-  [out] CIM_Error Error
+  [out] CIM_Error Error
 );
 ```
 
@@ -76,10 +82,10 @@ This method returns one of the following values.
 **Access Denied** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–32767)
+**DMTF Reserved** (7 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -89,7 +95,7 @@ This method returns one of the following values.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -103,9 +109,9 @@ This method returns one of the following values.
 [**MSFT\_SrJob**](msft-srjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

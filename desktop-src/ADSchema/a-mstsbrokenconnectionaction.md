@@ -4,17 +4,22 @@ description: Terminal Services session Broken Connection Action specifies the ac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a3c1556d-2de7-4945-aa91-7ef8d0ac8cd0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a3c1556d-2de7-4945-aa91-7ef8d0ac8cd0
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-TS-Broken-Connection-Action attribute AD Schema", "msTSBrokenConnectionAction attribute AD Schema"]
+keywords:
+- ms-TS-Broken-Connection-Action attribute AD Schema
+- msTSBrokenConnectionAction attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-TS-Broken-Connection-Action
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-TS-Broken-Connection-Action attribute
@@ -38,9 +43,9 @@ Terminal Services session Broken Connection Action specifies the action to take 
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Terminal Services session Broken Connection Action specifies the action to take 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

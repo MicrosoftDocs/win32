@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes how to set up your environment to use the Tablet PC platform COM libraries in C++.'
-ms.assetid: 'c0d7f703-d4aa-4c26-ae81-a4c888383c1e'
+Description: This section describes how to set up your environment to use the Tablet PC platform COM libraries in C++.
+ms.assetid: c0d7f703-d4aa-4c26-ae81-a4c888383c1e
 title: COM Library and ActiveX Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM Library and ActiveX Controls
@@ -54,7 +59,7 @@ You can also use the following import directive instead of the \#include stateme
 
 
 
-To access the [**InkDivider**](inkdivider-class.md) interfaces, you must include msinkaut15\_i.c and msinkaut15.h files in your project.
+To access the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) interfaces, you must include msinkaut15\_i.c and msinkaut15.h files in your project.
 
 > [!Note]  
 > InkDivider has been superseded by the Ink Analysis APIs.
@@ -78,7 +83,7 @@ You can also use the following import directive instead of the \# include statem
 
 
 
-To access the [**PenInputPanel**](peninputpanel-class.md) interfaces, you must include PenInputPanel\_i.c and PenInputPanel.h files in your project.
+To access the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) interfaces, you must include PenInputPanel\_i.c and PenInputPanel.h files in your project.
 
 
 ```C++

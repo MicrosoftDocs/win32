@@ -1,7 +1,12 @@
 ---
 title: texm3x3tex - ps
 description: Performs a 3x3 matrix multiply and uses the result to do a texture lookup. texm3x3tex must be used with two texm3x3pad - ps instructions.
-ms.assetid: 'bb61cd6f-57d0-4b2d-9186-f04f7f4d3516'
+ms.assetid: bb61cd6f-57d0-4b2d-9186-f04f7f4d3516
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texm3x3tex - ps

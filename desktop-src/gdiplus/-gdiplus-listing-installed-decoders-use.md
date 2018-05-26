@@ -1,12 +1,17 @@
 ---
-Description: 'Windows GDI+ provides the GetImageDecoders function so that you can determine which image decoders are available on your computer.'
-ms.assetid: '793e23de-d959-4feb-8bf6-647a455c85ae'
+Description: Windows GDI+ provides the GetImageDecoders function so that you can determine which image decoders are available on your computer.
+ms.assetid: 793e23de-d959-4feb-8bf6-647a455c85ae
 title: Listing Installed Decoders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Listing Installed Decoders
 
-Windows GDI+ provides the [**GetImageDecoders**](-gdiplus-func-getimagedecoders-numdecoders-size-decoders-.md) function so that you can determine which image decoders are available on your computer. **GetImageDecoders** returns an array of [**ImageCodecInfo**](-gdiplus-class-imagecodecinfo-class.md) objects. Before you call **GetImageDecoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageDecodersSize**](-gdiplus-func-getimagedecoderssize-numdecoders-size-.md) to determine the size of the required buffer.
+Windows GDI+ provides the [**GetImageDecoders**](/windows/win32/Gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoders?branch=master) function so that you can determine which image decoders are available on your computer. **GetImageDecoders** returns an array of [**ImageCodecInfo**](/windows/win32/Gdiplusimaging/?branch=master) objects. Before you call **GetImageDecoders**, you must allocate a buffer large enough to receive that array. You can call [**GetImageDecodersSize**](/windows/win32/Gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize?branch=master) to determine the size of the required buffer.
 
 The following console application lists the available image decoders:
 

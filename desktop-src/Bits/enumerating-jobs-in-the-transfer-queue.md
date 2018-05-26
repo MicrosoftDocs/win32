@@ -1,23 +1,33 @@
 ---
 title: Enumerating Jobs in the Transfer Queue
 description: To enumerate jobs from the transfer queue, call the IBackgroundCopyManager EnumJobs method. The method returns an IEnumBackgroundCopyJobs interface pointer that you use to enumerate the jobs in the queue.
-ms.assetid: 'ebeb1670-dedd-4791-914e-d035d3c22c5a'
-keywords: ["transfer job BITS , enumerating", "enumerating jobs in the transfer queue BITS", "transfer queue BITS , enumerating", "enumerating BITS", "enumerating BITS , jobs"]
+ms.assetid: ebeb1670-dedd-4791-914e-d035d3c22c5a
+keywords:
+- transfer job BITS , enumerating
+- enumerating jobs in the transfer queue BITS
+- transfer queue BITS , enumerating
+- enumerating BITS
+- enumerating BITS , jobs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Jobs in the Transfer Queue
 
-To enumerate jobs from the transfer queue, call the [**IBackgroundCopyManager::EnumJobs**](ibackgroundcopymanager-enumjobs.md) method. The method returns an [**IEnumBackgroundCopyJobs**](ienumbackgroundcopyjobs.md) interface pointer that you use to enumerate the jobs in the queue.
+To enumerate jobs from the transfer queue, call the [**IBackgroundCopyManager::EnumJobs**](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-enumjobs?branch=master) method. The method returns an [**IEnumBackgroundCopyJobs**](/windows/win32/Bits/nn-bits-ienumbackgroundcopyjobs?branch=master) interface pointer that you use to enumerate the jobs in the queue.
 
-To retrieve the user's jobs, set the first parameter of the [**EnumJobs**](ibackgroundcopymanager-enumjobs.md) method to 0. To retrieve all jobs in the queue, set the first parameter of the **EnumJobs** method to BG\_JOB\_ENUM\_ALL\_USERS. Only users with administrator privileges can retrieve all jobs in the transfer queue.
+To retrieve the user's jobs, set the first parameter of the [**EnumJobs**](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-enumjobs?branch=master) method to 0. To retrieve all jobs in the queue, set the first parameter of the **EnumJobs** method to BG\_JOB\_ENUM\_ALL\_USERS. Only users with administrator privileges can retrieve all jobs in the transfer queue.
 
-Note that the enumerated list is a snapshot of the jobs in the transfer queue at the time you call the [**EnumJobs**](ibackgroundcopymanager-enumjobs.md) method. However, the property values of those jobs reflect the current values of the job.
+Note that the enumerated list is a snapshot of the jobs in the transfer queue at the time you call the [**EnumJobs**](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-enumjobs?branch=master) method. However, the property values of those jobs reflect the current values of the job.
 
-If you want to retrieve individual transfer jobs, call the [**IBackgroundCopyManager::GetJob**](ibackgroundcopymanager-getjob.md) method.
+If you want to retrieve individual transfer jobs, call the [**IBackgroundCopyManager::GetJob**](/windows/win32/Bits/nf-bits-ibackgroundcopymanager-getjob?branch=master) method.
 
 To enumerate files in a job, see [Enumerating Files in a Job](enumerating-files-in-a-job.md).
 
-The following example shows how to enumerate jobs in the transfer queue. The g\_XferManager variable in the example is an [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface pointer. For details on how to create the **IBackgroundCopyManager** interface pointer, see [Connecting to the BITS Service](connecting-to-the-bits-service.md).
+The following example shows how to enumerate jobs in the transfer queue. The g\_XferManager variable in the example is an [**IBackgroundCopyManager**](/windows/win32/Bits/nn-bits-ibackgroundcopymanager?branch=master) interface pointer. For details on how to create the **IBackgroundCopyManager** interface pointer, see [Connecting to the BITS Service](connecting-to-the-bits-service.md).
 
 
 ```C++

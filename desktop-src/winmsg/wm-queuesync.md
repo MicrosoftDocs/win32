@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the WH\_JOURNALPLAYBACK procedure.'
-ms.assetid: '9ac265be-1fcc-476f-9dee-3e961340b5a1'
-title: 'WM\_QUEUESYNC message'
+---
+Description: Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the WH\_JOURNALPLAYBACK procedure.
+ms.assetid: 9ac265be-1fcc-476f-9dee-3e961340b5a1
+title: WM\_QUEUESYNC message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_QUEUESYNC message

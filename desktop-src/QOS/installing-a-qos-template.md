@@ -1,7 +1,12 @@
 ---
 title: Installing a QOS Template
 description: Under certain circumstances, such as when available QOS templates do not fit required or desired QOS parameters, an application may want to install a QOS template of its own.
-ms.assetid: '145928bf-fc4c-4794-840e-334045554706'
+ms.assetid: 145928bf-fc4c-4794-840e-334045554706
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installing a QOS Template

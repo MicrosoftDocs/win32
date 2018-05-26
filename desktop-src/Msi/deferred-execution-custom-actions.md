@@ -1,14 +1,19 @@
 ---
-Description: 'The purpose of a deferred execution custom action is to delay the execution of a system change to the time when the installation script is executed.'
-ms.assetid: '79bf4d0b-624d-4652-8c4f-0ecd928a88e3'
+Description: The purpose of a deferred execution custom action is to delay the execution of a system change to the time when the installation script is executed.
+ms.assetid: 79bf4d0b-624d-4652-8c4f-0ecd928a88e3
 title: Deferred Execution Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Deferred Execution Custom Actions
 
-The purpose of a deferred execution custom action is to delay the execution of a system change to the time when the installation script is executed. This differs from a regular custom action, or a standard action, in which the installer executes the action immediately upon encountering it in a sequence table or in a call to [**MsiDoAction**](msidoaction.md). A deferred execution custom action enables a package author to specify system operations at a particular point within the execution of the installation script.
+The purpose of a deferred execution custom action is to delay the execution of a system change to the time when the installation script is executed. This differs from a regular custom action, or a standard action, in which the installer executes the action immediately upon encountering it in a sequence table or in a call to [**MsiDoAction**](/windows/win32/Msiquery/nf-msiquery-msidoactiona?branch=master). A deferred execution custom action enables a package author to specify system operations at a particular point within the execution of the installation script.
 
-The installer does not execute a deferred execution custom action at the time the installation sequence is processed. Instead the installer writes the custom action into the installation script. The only mode parameter the installer sets in this case is MSIRUNMODE\_SCHEDULED. See [**MsiGetMode**](msigetmode.md) for a description of the run mode parameters.
+The installer does not execute a deferred execution custom action at the time the installation sequence is processed. Instead the installer writes the custom action into the installation script. The only mode parameter the installer sets in this case is MSIRUNMODE\_SCHEDULED. See [**MsiGetMode**](/windows/win32/Msiquery/nf-msiquery-msigetmode?branch=master) for a description of the run mode parameters.
 
 A deferred execution custom action must be scheduled in the execute sequence table within the section that performs script generation. Deferred execution custom actions must come after [InstallInitialize](installinitialize-action.md) and come before [InstallFinalize](installfinalize-action.md) in the action sequence.
 

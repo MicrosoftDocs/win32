@@ -1,8 +1,10 @@
 ---
 title: Win32\_ShadowBy class
 description: The Win32\_ShadowBy class associates a shadow copy and the provider that creates the shadow copy.
-ms.assetid: '2c04c82e-aee6-419a-b075-fa98314ab115'
-keywords: ["Win32_ShadowBy class", "Win32_ShadowBy class, described"]
+ms.assetid: 2c04c82e-aee6-419a-b075-fa98314ab115
+keywords:
+- Win32_ShadowBy class
+- Win32_ShadowBy class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Vsswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_ShadowBy class
@@ -27,7 +34,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_ShadowBy : CIM_Dependency
 {
   Win32_ShadowProvider REF Antecedent;
-  Win32_ShadowCopy     REF Dependent;
+  Win32_ShadowCopy     REF Dependent;
 };
 ```
 
@@ -82,7 +89,7 @@ Reference to a shadow copy.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vss.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vsswmi.dll</dt> </dl> |
@@ -117,9 +124,9 @@ Reference to a shadow copy.
 [**Win32\_ShadowDiffVolumeSupport**](win32-shadowdiffvolumesupport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

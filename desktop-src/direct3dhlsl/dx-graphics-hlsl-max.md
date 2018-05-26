@@ -1,14 +1,20 @@
 ---
 title: max
 description: Selects the greater of x and y.
-ms.assetid: '08e17a0c-6d44-49ea-b613-bd262534522c'
-keywords: ["max HLSL"]
+ms.assetid: 08e17a0c-6d44-49ea-b613-bd262534522c
+keywords:
+- max HLSL
 topic_type:
 - apiref
 api_name:
 - max
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # max
@@ -22,7 +28,7 @@ Selects the greater of x and y.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -35,7 +41,7 @@ Selects the greater of x and y.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ For values of -INF or INF, max will behave as expected. However for values of Na
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -72,7 +78,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -81,9 +87,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

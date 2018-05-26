@@ -1,8 +1,11 @@
 ---
 title: IDatabase GetRecordCount method
 description: Retrieves the total number of records in the specified index.
-ms.assetid: '6ef9998d-9468-4289-8f33-69aca4484ee1'
-keywords: ["GetRecordCount method Windows Mail (formerly Outlook Express)", "GetRecordCount method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , GetRecordCount method"]
+ms.assetid: 6ef9998d-9468-4289-8f33-69aca4484ee1
+keywords:
+- GetRecordCount method Windows Mail (formerly Outlook Express)
+- GetRecordCount method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , GetRecordCount method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::GetRecordCount method
@@ -24,8 +32,8 @@ Retrieves the total number of records in the specified index.
 
 ```C++
 HRESULT GetRecordCount(
-  [in]  INDEXORDINAL iIndex,
-  [out] LPDWORD      pcRecords
+  [in]  INDEXORDINAL iIndex,
+  [out] LPDWORD      pcRecords
 );
 ```
 
@@ -67,7 +75,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,17 +83,17 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

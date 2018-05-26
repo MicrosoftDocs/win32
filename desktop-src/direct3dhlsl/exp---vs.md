@@ -1,7 +1,12 @@
 ---
 title: exp - vs
 description: Provides full precision exponential 2x.
-ms.assetid: '3644046b-3257-4257-9880-146ca50f6b0b'
+ms.assetid: 3644046b-3257-4257-9880-146ca50f6b0b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # exp - vs

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calls the GetLastError function and converts the return code to an HRESULT.'
-ms.assetid: '7b8eab85-212b-44bc-9d1b-60587652380d'
+---
+Description: Calls the GetLastError function and converts the return code to an HRESULT.
+ms.assetid: 7b8eab85-212b-44bc-9d1b-60587652380d
 title: SignError function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SignError function

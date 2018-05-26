@@ -1,8 +1,24 @@
 ---
 title: To Create a Redistribution Setup
 description: To Create a Redistribution Setup
-ms.assetid: 'cf2c8fa1-cfd6-47cc-b572-ba1b95d59105'
-keywords: ["Windows Media Format SDK,software redistribution", "Advanced Systems Format (ASF),software redistribution", "ASF (Advanced Systems Format),software redistribution", "Windows Media Format SDK,redistribution", "Advanced Systems Format (ASF),redistribution", "ASF (Advanced Systems Format),redistribution", "software redistribution,creating", "software redistribution,WMFDist.exe", "redistribution,creating", "redistribution,WMFDist.exe", "WMFDist.exe"]
+ms.assetid: cf2c8fa1-cfd6-47cc-b572-ba1b95d59105
+keywords:
+- Windows Media Format SDK,software redistribution
+- Advanced Systems Format (ASF),software redistribution
+- ASF (Advanced Systems Format),software redistribution
+- Windows Media Format SDK,redistribution
+- Advanced Systems Format (ASF),redistribution
+- ASF (Advanced Systems Format),redistribution
+- software redistribution,creating
+- software redistribution,WMFDist.exe
+- redistribution,creating
+- redistribution,WMFDist.exe
+- WMFDist.exe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Create a Redistribution Setup

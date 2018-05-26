@@ -1,13 +1,16 @@
 ---
-Description: 'WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at http://www.microsoft.com/technet.'
+Description: WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at http//www.microsoft.com/technet.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1cd92981-c074-4ff7-a32c-ce492e6d6aa5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1cd92981-c074-4ff7-a32c-ce492e6d6aa5
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Services'
+title: WMI Tasks Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Services
@@ -28,7 +31,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -307,7 +310,7 @@ Get-WmiObject -Query $query -Namespace &quot;root\cimv2&quot; | format-list Disp
 </tr>
 <tr class="odd">
 <td>...find the services that require the WMI service (Winmgmt) service to be running before they can start?</td>
-<td><p>Query for [ASSOCIATORS OF](associators-of-statement.md) the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class named &quot;DHCP&quot; that are in the [<strong>Win32_DependentService</strong>](https://msdn.microsoft.com/library/aa394120) class and have &quot;Antecendent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the rasman service: in this case, it is antecedent to—must be started before—the dependent services.</p>
+<td><p>Query for [ASSOCIATORS OF](associators-of-statement.md) the [<strong>Win32_Service</strong>](https://msdn.microsoft.com/library/aa394418) class named &quot;DHCP&quot; that are in the [<strong>Win32_DependentService</strong>](https://msdn.microsoft.com/library/aa394120) class and have &quot;Antecendent&quot; in the <strong>Role</strong> property. <strong>Role</strong> means the role of the rasman service: in this case, it is antecedent to must be started before the dependent services.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -359,7 +362,7 @@ Get-WmiObject -Query $query -Namespace &quot;root\cimv2&quot; | format-list Name
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -374,10 +377,10 @@ Get-WmiObject -Query $query -Namespace &quot;root\cimv2&quot; | format-list Name
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
+ 
 
 
+
+`

@@ -1,8 +1,14 @@
 ---
 title: IrDA and closesocket
 description: The Windows Sockets closesocket function initiates a graceful close on the connection, and releases the socket handle.
-ms.assetid: '220d6437-2c31-4ba7-bd36-36cebaff98a8'
-keywords: ["IrDA and closesocket"]
+ms.assetid: 220d6437-2c31-4ba7-bd36-36cebaff98a8
+keywords:
+- IrDA and closesocket
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and closesocket

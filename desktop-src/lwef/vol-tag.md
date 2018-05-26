@@ -1,7 +1,12 @@
 ---
 title: Vol Tag
 description: Vol Tag
-ms.assetid: 'a6444eb2-79c2-4c86-8474-846d908479df'
+ms.assetid: a6444eb2-79c2-4c86-8474-846d908479df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vol Tag

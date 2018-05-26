@@ -4,10 +4,13 @@ description: In Active Directory Domain Services, class and attribute definition
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '917f8e65-df2c-457e-bfd8-3f1ce0d0fbae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 917f8e65-df2c-457e-bfd8-3f1ce0d0fbae
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Schema Implementation

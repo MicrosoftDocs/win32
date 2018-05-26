@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the means by which a client can discover the valid range of default settings for a virtual resource.'
-ms.assetid: 'AC516723-7CD2-4F10-B8BF-EF9D458D3E5B'
-title: 'Msvm\_AllocationCapabilities class'
+Description: Defines the means by which a client can discover the valid range of default settings for a virtual resource.
+ms.assetid: AC516723-7CD2-4F10-B8BF-EF9D458D3E5B
+title: Msvm\_AllocationCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_AllocationCapabilities class
@@ -132,7 +137,7 @@ Indicates whether requesting a specific resource is supported. This property is 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -290,7 +295,7 @@ Indicates how access to an underlying resource is granted. This property is inhe
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -418,8 +423,8 @@ Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC 
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -442,9 +447,9 @@ Access to the **Msvm\_AllocationCapabilities** class might be restricted by UAC 
 [Resource Management Classes](resource-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

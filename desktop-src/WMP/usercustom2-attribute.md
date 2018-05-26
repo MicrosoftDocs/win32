@@ -1,14 +1,20 @@
 ---
 title: UserCustom2 Attribute
 description: The UserCustom2 attribute is user defined text.
-ms.assetid: '95e2882f-b757-4ebf-977f-7d66677d2d66'
-keywords: ["UserCustom2 Attribute Windows Media Player"]
+ms.assetid: 95e2882f-b757-4ebf-977f-7d66677d2d66
+keywords:
+- UserCustom2 Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - UserCustom2
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserCustom2 Attribute
@@ -46,9 +52,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

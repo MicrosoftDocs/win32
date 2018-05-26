@@ -1,8 +1,11 @@
 ---
 title: RestoreProperties method of the Msvm\_HeartbeatComponent class
 description: Restores a previous configuration and state of the logical device.
-ms.assetid: '5998b326-83ce-45c0-821c-9b25d6c16db1'
-keywords: ["RestoreProperties method Hyper-V", "RestoreProperties method Hyper-V , Msvm_HeartbeatComponent class", "Msvm_HeartbeatComponent class Hyper-V , RestoreProperties method"]
+ms.assetid: 5998b326-83ce-45c0-821c-9b25d6c16db1
+keywords:
+- RestoreProperties method Hyper-V
+- RestoreProperties method Hyper-V , Msvm_HeartbeatComponent class
+- Msvm_HeartbeatComponent class Hyper-V , RestoreProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestoreProperties method of the Msvm\_HeartbeatComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_HeartbeatComponent**](msvm-heartbeatcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Identity
-ms.assetid: 'A125B444-2AD5-4DD6-B6EB-128052FF8EE4'
+ms.assetid: A125B444-2AD5-4DD6-B6EB-128052FF8EE4
 title: Identity
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Identity

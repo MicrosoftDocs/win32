@@ -1,7 +1,12 @@
 ---
 title: Effect Function Syntax (Direct3D 11)
 description: An effect function is written in HLSL and is declared with the syntax described in this section.
-ms.assetid: '5e12ba65-98bf-4f21-be75-602687157eb1'
+ms.assetid: 5e12ba65-98bf-4f21-be75-602687157eb1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Effect Function Syntax (Direct3D 11)

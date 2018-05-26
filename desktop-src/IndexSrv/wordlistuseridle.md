@@ -1,7 +1,12 @@
 ---
 title: WordlistUserIdle
 description: WordlistUserIdle
-ms.assetid: '1b9e0b5a-7a79-4d90-a7e8-b168bb31e2e2'
+ms.assetid: 1b9e0b5a-7a79-4d90-a7e8-b168bb31e2e2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WordlistUserIdle

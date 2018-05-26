@@ -1,14 +1,20 @@
 ---
 title: RecordingTimeDay Attribute
 description: The RecordingTimeDay attribute is the day part of the date of the original recording, for items where this date is different from the release date.
-ms.assetid: 'fb2d9eb6-ea06-492c-839b-27f6bd3fd986'
-keywords: ["RecordingTimeDay Attribute Windows Media Player"]
+ms.assetid: fb2d9eb6-ea06-492c-839b-27f6bd3fd986
+keywords:
+- RecordingTimeDay Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - RecordingTimeDay
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecordingTimeDay Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

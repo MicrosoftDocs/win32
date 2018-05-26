@@ -4,17 +4,21 @@ description: Constructs a new authentication exception, FailedAuthenticationExce
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '4A8A6CF3-059E-4EE2-AEE9-772051DB0FBC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 4A8A6CF3-059E-4EE2-AEE9-772051DB0FBC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["FailedAuthenticationException(String, String, ProtectionException) constructor"]
+keywords:
+- FailedAuthenticationException(String, String, ProtectionException) constructor
 topic_type:
 - apiref
 api_name:
 - FailedAuthenticationException(String, String, ProtectionException) constructor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FailedAuthenticationException(String, String, ProtectionException) constructor
@@ -40,7 +44,7 @@ public FailedAuthenticationException(String userId, String challenge,
 
 
 
- 
+ 
 
 ## Returns
 
@@ -50,9 +54,9 @@ public FailedAuthenticationException(String userId, String challenge,
 
 FailedAuthenticationException.java
 
- 
+ 
 
- 
+ 
 
 
 

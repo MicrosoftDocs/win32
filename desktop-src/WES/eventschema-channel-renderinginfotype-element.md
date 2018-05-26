@@ -1,14 +1,20 @@
 ---
 title: Channel (RenderingInfoType) Element
 description: The rendered message string of the channel specified in the event.
-ms.assetid: '2bb1b690-bac1-46da-a68a-24683cefe263'
-keywords: ["Channel element EventLog"]
+ms.assetid: 2bb1b690-bac1-46da-a68a-24683cefe263
+keywords:
+- Channel element EventLog
 topic_type:
 - apiref
 api_name:
 - Channel
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Channel (RenderingInfoType) Element
@@ -29,8 +35,8 @@ The **Channel** element is defined by the [**RenderingInfoType**](eventschema-re
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **Channel** element is defined by the [**RenderingInfoType**](eventschema-re
 [**RenderingInfo (EventType)**](eventschema-renderinginfo-eventtype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MDM\_ApplicationFramework class
 description: Retrieves information about an application framework on a device that is registered with the Mobile Device Management (MDM) service.
-ms.assetid: '9f418156-91c3-477b-9467-9697c2951dc0'
-keywords: ["MDM_ApplicationFramework class MDM App Management", "MDM_ApplicationFramework class MDM App Management , described"]
+ms.assetid: 9f418156-91c3-477b-9467-9697c2951dc0
+keywords:
+- MDM_ApplicationFramework class MDM App Management
+- MDM_ApplicationFramework class MDM App Management , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - MDMAppProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_ApplicationFramework class
@@ -86,7 +93,7 @@ Qualifiers: [**key**](https://msdn.microsoft.com/library/aa392157)
 
 Gets a key that specifies the architecture of the package.
 
-**Windows 8 and Windows 8.1:** This property is not supported before Windows 8.1 Update.
+**Windows 8 and Windows 8.1:** This property is not supported before Windows 8.1 Update.
 
 </dd> <dt>
 
@@ -167,7 +174,7 @@ Gets the user security identifier of the package.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                      |
+| Minimum supported client<br/> | Windows 8<br/>                                                                      |
 | Minimum supported server<br/> | None supported<br/>                                                                 |
 | Namespace<br/>                | Root\\cimv2\\mdm<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>MDMAppProv.Mof</dt> </dl> |
@@ -182,9 +189,9 @@ Gets the user security identifier of the package.
 [Mobile Device Management Application Provider Classes](https://msdn.microsoft.com/library/dn610374)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

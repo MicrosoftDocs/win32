@@ -1,7 +1,12 @@
-﻿---
-Description: 'The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.'
-ms.assetid: '2f5ad9bf-3d70-491a-ab45-15cd922a02d4'
-title: 'IMpeg2PsiParser::GetPatVersionNumber method'
+---
+Description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
+ms.assetid: 2f5ad9bf-3d70-491a-ab45-15cd922a02d4
+title: IMpeg2PsiParserGetPatVersionNumber method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMpeg2PsiParser::GetPatVersionNumber method

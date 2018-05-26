@@ -4,11 +4,15 @@ description: Terry Adams was hired into the Fabrikam Sales organization. His dir
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'bc31ed04-e505-4d64-9fa3-d06af7351db0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: bc31ed04-e505-4d64-9fa3-d06af7351db0
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Creating New Users in the Organizational Unit ADSI"]
+keywords:
+- Creating New Users in the Organizational Unit ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating New Users in the Organizational Unit
@@ -36,9 +40,9 @@ usr.SetInfo
 
 When creating a new user, you must specify a **sAMAccountName**. This is a mandatory attribute for the user class. Before an instance of an object can be created, all mandatory attributes must be set. The **sAMAccountName** will automatically be generated if one is not specified for a new user.
 
-When creating a new user, all of the required attributes must be set in the local cache before the [**IADs.SetInfo**](iads-setinfo.md) method is called.
+When creating a new user, all of the required attributes must be set in the local cache before the [**IADs.SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) method is called.
 
-Joe, as an administrator, can assign Terry's password using the [**IADsUser.SetPassword**](iadsuser-setpassword.md) method. The **IADsUser.SetPassword** method will not work until the [**IADs.SetInfo**](iads-setinfo.md) method has been called.
+Joe, as an administrator, can assign Terry's password using the [**IADsUser.SetPassword**](/windows/win32/Iads/nf-iads-iadsuser-setpassword?branch=master) method. The **IADsUser.SetPassword** method will not work until the [**IADs.SetInfo**](/windows/win32/Iads/nf-iads-iads-setinfo?branch=master) method has been called.
 
 Then, Joe enables the user account by setting the [**IADsUser.AccountDisabled**](iadsuser-property-methods.md) property to **FALSE**.
 
@@ -71,7 +75,7 @@ Next
 
 In this code example, Patrick will display as Terry's direct report, even though the **directReports** attribute was never modified. Active Directory does this automatically.
 
-In the directory world, an attribute can have single or multiple values. Because **directReports** has multiple values, you can get this information by looking at the schema, it is easier to use the [**IADs.GetEx**](iads-getex.md) method, which returns an array of values regardless of whether single or multiple values are returned.
+In the directory world, an attribute can have single or multiple values. Because **directReports** has multiple values, you can get this information by looking at the schema, it is easier to use the [**IADs.GetEx**](/windows/win32/Iads/nf-iads-iads-getex?branch=master) method, which returns an array of values regardless of whether single or multiple values are returned.
 
 The Active Directory Users and Computers snap-in lets you view direct reports and manager relationships on the user's property page.
 

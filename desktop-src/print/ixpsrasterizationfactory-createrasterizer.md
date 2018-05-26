@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateRasterize method creates an XPS rasterizer object.'
-ms.assetid: '07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d'
-title: 'IXpsRasterizationFactory::CreateRasterizer method'
+---
+Description: The CreateRasterize method creates an XPS rasterizer object.
+ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
+title: IXpsRasterizationFactoryCreateRasterizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizationFactory::CreateRasterizer method

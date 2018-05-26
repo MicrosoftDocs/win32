@@ -4,11 +4,15 @@ description: Your resource DLL must maintain a set of data for each instance tha
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0580ec99-2bb7-440b-9a5b-a73430b5b0f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 0580ec99-2bb7-440b-9a5b-a73430b5b0f1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource DLLs Failover Cluster ,instance data"]
+keywords:
+- resource DLLs Failover Cluster ,instance data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Instance Data
@@ -17,7 +21,7 @@ Your [resource DLL](resource-dlls.md) must maintain a set of data for each insta
 
 1.  [Resource identifier](resource-identifiers.md).
 2.  [Resource](resources.md) name.
-3.  The [Resource Monitor's](resource-monitor.md) handle to the instance, which is used to identify the instance in the [**LogEvent**](logevent.md) and [**SetResourceStatus**](setresourcestatus.md) callback functions.
+3.  The [Resource Monitor's](resource-monitor.md) handle to the instance, which is used to identify the instance in the [**LogEvent**](/windows/previous-versions/ResApi/nc-resapi-plog_event_routine?branch=master) and [**SetResourceStatus**](/windows/previous-versions/ResApi/nc-resapi-pset_resource_status_routine?branch=master) callback functions.
 4.  The cluster database subkey defined for the resource.
 5.  The current state of the resource.
 

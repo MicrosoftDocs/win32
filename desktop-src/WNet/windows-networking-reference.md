@@ -1,8 +1,15 @@
 ---
 title: Windows Networking Reference
 description: The following API elements are used in Windows Networking
-ms.assetid: '2f930380-fc6e-4a39-98c6-a03b64f1bba5'
-keywords: ["Windows networking WNet ,reference", "WNet WNet ,reference"]
+ms.assetid: 2f930380-fc6e-4a39-98c6-a03b64f1bba5
+keywords:
+- Windows networking WNet ,reference
+- WNet WNet ,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Networking Reference

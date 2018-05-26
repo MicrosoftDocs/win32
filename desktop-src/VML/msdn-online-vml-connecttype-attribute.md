@@ -1,7 +1,12 @@
 ---
 title: VML ConnectType Attribute
 description: VML ConnectType Attribute
-ms.assetid: '907803c8-687b-4823-8252-b59acbbd9aa4'
+ms.assetid: 907803c8-687b-4823-8252-b59acbbd9aa4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML ConnectType Attribute

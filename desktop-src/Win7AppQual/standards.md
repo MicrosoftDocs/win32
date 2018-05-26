@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '3D5687D3-1F4A-4586-9A9C-9CEA461E2DC9'
+Description: .
+ms.assetid: 3D5687D3-1F4A-4586-9A9C-9CEA461E2DC9
 title: Standards
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standards

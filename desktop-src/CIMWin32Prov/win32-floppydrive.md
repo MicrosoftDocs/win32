@@ -1,20 +1,23 @@
 ---
-Description: 'The Win32\_FloppyDrive WMI class manages the functions of a floppy disk drive.'
+Description: The Win32\_FloppyDrive WMI class manages the functions of a floppy disk drive.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '41823eeb-4831-4deb-a798-7b3589ebf3e2'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 41823eeb-4831-4deb-a798-7b3589ebf3e2
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_FloppyDrive class'
+title: Win32\_FloppyDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_FloppyDrive class
 
-\[**Win32\_FloppyDrive** is no longer available for use as of Windows 10 and Windows Server 2016.\]
+\[**Win32\_FloppyDrive** is no longer available for use as of Windows 10 and Windows Server 2016.\]
 
 The **Win32\_FloppyDrive** [WMI class](https://msdn.microsoft.com/library/aa393244) manages the functions of a floppy disk drive.
 
@@ -26,36 +29,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, provider("CIMWin32"), UUID("{FB1F3A64-BBAC-11d2-85E5-0000F8102E5F}"), AMENDMENT]
 class Win32_FloppyDrive : CIM_DisketteDrive
 {
-  uint16   Availability;
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  string   Caption;
-  string   CompressionMethod;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  uint64   DefaultBlockSize;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
+  uint16   Availability;
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  string   Caption;
+  string   CompressionMethod;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  uint64   DefaultBlockSize;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  string   Manufacturer;
-  uint64   MaxBlockSize;
-  uint64   MaxMediaSize;
-  uint64   MinBlockSize;
-  string   Name;
-  boolean  NeedsCleaning;
-  uint32   NumberOfMediaSupported;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
+  uint32   LastErrorCode;
+  string   Manufacturer;
+  uint64   MaxBlockSize;
+  uint64   MaxMediaSize;
+  uint64   MinBlockSize;
+  string   Name;
+  boolean  NeedsCleaning;
+  uint32   NumberOfMediaSupported;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
 };
 ```
 
@@ -79,7 +82,7 @@ The **Win32\_FloppyDrive** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1504,10 +1507,10 @@ The **Win32\_FloppyDrive** class is derived from [**CIM\_DisketteDrive**](cim-di
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
-| End of client support<br/>    | Windows 8.1<br/>                                                                  |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| End of client support<br/>    | Windows 8.1<br/>                                                                  |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1524,9 +1527,9 @@ The **Win32\_FloppyDrive** class is derived from [**CIM\_DisketteDrive**](cim-di
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

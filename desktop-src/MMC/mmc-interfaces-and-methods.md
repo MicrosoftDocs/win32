@@ -4,11 +4,15 @@ description: MMC interfaces and their methods are arranged according to where th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c95742a4-ae9b-40f3-8d88-c4955e5a3032'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c95742a4-ae9b-40f3-8d88-c4955e5a3032
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["interfaces and methods MMC 2.0"]
+keywords:
+- interfaces and methods MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Interfaces and Methods
@@ -18,7 +22,7 @@ MMC interfaces and their methods are arranged according to where they are implem
 ## COM Interfaces Implemented by MMC
 
 -   [**IColumnData**](icolumndata.md) — The IColumnData interface enables a snap-in to set and retrieve the persisted view data of list view columns to use for column customization. It provides methods for programmatically providing the same functionality that MMC provides in the Modify Columns dialog box. In addition, the IColumnData interface provides methods for setting and retrieving the sorted column and sort direction of a particular column set.
--   [**IConsole**](iconsole.md) — Enables communication with the console.
+-   [**IConsole**](/windows/win32/Mmc/nn-wdtfsystemaction-iconsole?branch=master) — Enables communication with the console.
 -   [**IConsole2**](iconsole2.md) — Enables communication with the console.
 -   [**IConsole3**](iconsole3.md) — Enables communication with the console.
 -   [**IConsoleNameSpace**](iconsolenamespace.md) — Enables snap-ins to enumerate dynamic subcontainers in the scope pane. The particular snap-in determines what qualifies as a subcontainer.
@@ -42,7 +46,7 @@ MMC interfaces and their methods are arranged according to where they are implem
 
 ## COM Interfaces Implemented by the Snap-in
 
--   [**IComponent**](icomponent.md) — The IComponent interface enables MMC to communicate with snap-ins. Similar to the IComponentData interface, IComponent is typically implemented at the view level and is closely associated with items being displayed in the result pane.
+-   [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) — The IComponent interface enables MMC to communicate with snap-ins. Similar to the IComponentData interface, IComponent is typically implemented at the view level and is closely associated with items being displayed in the result pane.
 -   [**IComponentData**](icomponentdata.md) — The IComponentData interface enables MMC to communicate with snap-ins. Similar to the IComponent interface, IComponentData is typically implemented at the document level and is closely associated with items (folders) being displayed in the scope pane.
 -   [**IEnumTASK**](ienumtask.md) — The IEnumTASK interface enables a snap-in to enumerate the tasks to add to a task pad.
 -   [**IExtendContextMenu**](iextendcontextmenu.md) — The IExtendContextMenu interface enables snap-ins to add items to an existing context menu.

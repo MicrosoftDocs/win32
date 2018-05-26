@@ -1,7 +1,12 @@
 ---
 title: MSVidEncoder
 description: MSVidEncoder
-ms.assetid: '37d03dff-ae40-4e7f-a66f-facd0c1f6eee'
+ms.assetid: 37d03dff-ae40-4e7f-a66f-facd0c1f6eee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidEncoder
@@ -14,7 +19,7 @@ The **MSVidEncoder** object represents the encoder feature, which is required fo
 
 |                           |                                                                                |
 |---------------------------|--------------------------------------------------------------------------------|
-| Interfaces                | [**IMSVidDevice2**](imsviddevice2.md), [**IMSVidEncoder**](imsvidencoder.md) |
+| Interfaces                | [**IMSVidDevice2**](/windows/win32/segment/nn-segment-imsviddevice2?branch=master), [**IMSVidEncoder**](/windows/win32/segment/nn-segment-imsvidencoder?branch=master) |
 | Outgoing Event Interfaces | None.                                                                          |
 
 
@@ -23,7 +28,7 @@ The **MSVidEncoder** object represents the encoder feature, which is required fo
 
 ## Remarks
 
-To obtain this object, call the [**IMSVidCtl::get\_FeaturesAvailable**](imsvidctl-get-featuresavailable.md) method and enumerate the returned collection.
+To obtain this object, call the [**IMSVidCtl::get\_FeaturesAvailable**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_featuresavailable?branch=master) method and enumerate the returned collection.
 
 ## Related topics
 

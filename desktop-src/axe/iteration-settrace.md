@@ -1,14 +1,20 @@
 ---
 title: Iteration SetTrace methods
 description: Sets values for the Trace object of the Iteration.
-ms.assetid: 'C46B11F0-8349-490F-B439-A8742E107FFE'
-keywords: ["SetTrace methods Access Execution Engine"]
+ms.assetid: C46B11F0-8349-490F-B439-A8742E107FFE
+keywords:
+- SetTrace methods Access Execution Engine
 topic_type:
 - apiref
 api_location:
 - AxeCore.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iteration::SetTrace methods
@@ -36,8 +42,8 @@ The **Trace** object holds information from element **Iteration/Trace**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -50,9 +56,9 @@ The **Trace** object holds information from element **Iteration/Trace**.
 [**Iteration**](iteration-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The installer sets the FavoritesFolder property to the full path of the Favorites folder for the current user.'
-ms.assetid: '9f3d967b-2dd9-4cdc-917a-20dc5ebd0cf3'
+---
+Description: The installer sets the FavoritesFolder property to the full path of the Favorites folder for the current user.
+ms.assetid: 9f3d967b-2dd9-4cdc-917a-20dc5ebd0cf3
 title: FavoritesFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FavoritesFolder property

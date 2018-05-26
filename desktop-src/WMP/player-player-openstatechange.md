@@ -1,8 +1,11 @@
 ---
 title: Player.OpenStateChange event
 description: The OpenStateChange event occurs when the openState property changes value.
-ms.assetid: 'b6b840ab-72c7-4150-a259-1e7d8afcec81'
-keywords: ["OpenStateChange event Windows Media Player", "OpenStateChange event Windows Media Player , Player class", "Player class Windows Media Player , OpenStateChange event"]
+ms.assetid: b6b840ab-72c7-4150-a259-1e7d8afcec81
+keywords:
+- OpenStateChange event Windows Media Player
+- OpenStateChange event Windows Media Player , Player class
+- Player class Windows Media Player , OpenStateChange event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.OpenStateChange event
@@ -72,9 +80,9 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 [**Player.openState**](player-openstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

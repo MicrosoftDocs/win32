@@ -1,7 +1,12 @@
 ---
 title: Using the Application Object in a Type Library
 description: Describes how to use the Application object in a type library.
-ms.assetid: '85e2f481-51a0-4090-9b7d-115623eb2525'
+ms.assetid: 85e2f481-51a0-4090-9b7d-115623eb2525
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Application Object in a Type Library

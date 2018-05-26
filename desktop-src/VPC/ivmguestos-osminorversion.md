@@ -1,8 +1,11 @@
 ---
 title: IVMGuestOS OSMinorVersion property
 description: The minor version of the guest operating system running in the virtual machine.
-ms.assetid: 'fa71e215-8633-4f53-ab71-bc9bfdb56cc8'
-keywords: ["OSMinorVersion property Virtual PC", "OSMinorVersion property Virtual PC , IVMGuestOS interface", "IVMGuestOS interface Virtual PC , OSMinorVersion property"]
+ms.assetid: fa71e215-8633-4f53-ab71-bc9bfdb56cc8
+keywords:
+- OSMinorVersion property Virtual PC
+- OSMinorVersion property Virtual PC , IVMGuestOS interface
+- IVMGuestOS interface Virtual PC , OSMinorVersion property
 topic_type:
 - apiref
 api_name:
@@ -12,11 +15,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS::OSMinorVersion property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves the minor version of the guest operating system running in the virtual machine.
 
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_OSMinorVersion(
-  [out, retval] BSTR *minorVersion
+  [out, retval] BSTR *minorVersion
 );
 ```
 
@@ -57,9 +65,9 @@ The minor version.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMGuestOS is defined as 99fea0db-4880-499a-b6d8-73dff9bc91be<br/>                 |
@@ -73,9 +81,9 @@ The minor version.
 [**IVMGuestOS**](ivmguestos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

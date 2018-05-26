@@ -1,8 +1,9 @@
 ---
 title: LB\_SETCOLUMNWIDTH message
 description: Sets the width, in pixels, of all columns in a multiple-column list box.
-ms.assetid: '227baae1-98f1-450e-97d4-4c7e9142614e'
-keywords: ["LB_SETCOLUMNWIDTH message Windows Controls"]
+ms.assetid: 227baae1-98f1-450e-97d4-4c7e9142614e
+keywords:
+- LB_SETCOLUMNWIDTH message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SETCOLUMNWIDTH message
@@ -45,8 +51,8 @@ This message does not return a value.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ This message does not return a value.
 [**LB\_SETTABSTOPS**](lb-settabstops.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

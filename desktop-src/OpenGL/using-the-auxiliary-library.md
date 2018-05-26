@@ -1,8 +1,15 @@
 ---
 title: Using the Auxiliary Library
 description: Using OpenGL, Silicon Graphics (SGI) created the Auxiliary Library to write simple sample programs for the OpenGL Programming Guide.
-ms.assetid: 'a04b2db9-d253-41cb-a7db-d39a1ac50ac9'
-keywords: ["OpenGL on Windows,auxiliary library", "auxiliary library OpenGL"]
+ms.assetid: a04b2db9-d253-41cb-a7db-d39a1ac50ac9
+keywords:
+- OpenGL on Windows,auxiliary library
+- auxiliary library OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Auxiliary Library

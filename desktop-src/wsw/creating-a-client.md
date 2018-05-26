@@ -1,7 +1,12 @@
 ---
 title: Creating a Client
 description: Creating a client for Web services is greatly simplified in WWSAPI by the Service Model API and the WsUtil.exe tool.
-ms.assetid: '09f489e8-958d-4bc5-a232-aa59bd75333a'
+ms.assetid: 09f489e8-958d-4bc5-a232-aa59bd75333a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Client
@@ -46,7 +51,7 @@ hr = BasicHttpBinding_ICalculator_CreateServiceProxy(
 
 
 
-To create the address portion of the service proxy, call [**WsOpenServiceProxy**](wsopenserviceproxy.md) with a handle to the service proxy and a pointer to a [**WS\_ENDPOINT\_ADDRESS**](ws-endpoint-address.md) containing the service endpoint address to which you wish to connect.
+To create the address portion of the service proxy, call [**WsOpenServiceProxy**](/windows/win32/WebServices/nf-webservices-wsopenserviceproxy?branch=master) with a handle to the service proxy and a pointer to a [**WS\_ENDPOINT\_ADDRESS**](/windows/win32/WebServices/ns-webservices-_ws_endpoint_address?branch=master) containing the service endpoint address to which you wish to connect.
 
 ## Implementing the Client with Function Prototypes
 
@@ -65,7 +70,7 @@ HRESULT BasicHttpBinding_ICalculator_Multiply(
     __in_opt WS_ERROR* _error);
 ```
 
-You can copy the prototypes and use them as templates for coding the function calls in your client, in each case passing the handle to service proxy. When you are finished with the service proxy, call [**WsCloseServiceProxy**](wscloseserviceproxy.md).
+You can copy the prototypes and use them as templates for coding the function calls in your client, in each case passing the handle to service proxy. When you are finished with the service proxy, call [**WsCloseServiceProxy**](/windows/win32/WebServices/nf-webservices-wscloseserviceproxy?branch=master).
 
  
 

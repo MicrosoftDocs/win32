@@ -1,15 +1,27 @@
 ---
 title: Setting Metadata on a File
 description: Setting Metadata on a File
-ms.assetid: '478a5412-e8b4-41c8-802f-9c2748dbaeae'
-keywords: ["Windows Media Device Manager,metadata", "Device Manager,metadata", "programming guide,metadata", "desktop applications,metadata", "creating Windows Media Device Manager applications,metadata", "writing files to devices,metadata", "metadata"]
+ms.assetid: 478a5412-e8b4-41c8-802f-9c2748dbaeae
+keywords:
+- Windows Media Device Manager,metadata
+- Device Manager,metadata
+- programming guide,metadata
+- desktop applications,metadata
+- creating Windows Media Device Manager applications,metadata
+- writing files to devices,metadata
+- metadata
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting Metadata on a File
 
-You can set metadata on a file before writing it to the device (when using [**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md)) or on an existing storage (by calling [**IWMDMStorage3::SetMetadata**](iwmdmstorage3-setmetadata.md)). You can set attributes only on an existing storage (by calling [**IWMDMStorage::SetAttributes**](iwmdmstorage-setattributes.md) or [**IWMDMStorage2::SetAttributes2**](iwmdmstorage2-setattributes2.md)).
+You can set metadata on a file before writing it to the device (when using [**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master)) or on an existing storage (by calling [**IWMDMStorage3::SetMetadata**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata?branch=master)). You can set attributes only on an existing storage (by calling [**IWMDMStorage::SetAttributes**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage-setattributes?branch=master) or [**IWMDMStorage2::SetAttributes2**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstorage2-setattributes2?branch=master)).
 
-Setting metadata is done by creating and filling an [**IWMDMMetaData**](iwmdmmetadata.md) interface that is passed into [**IWMDMStorageControl3::Insert3**](iwmdmstoragecontrol3-insert3.md). However, this method can clear all existing metadata on the file, other than hard-coded metadata stored in the file system itself, such as file name or size. Therefore, you must copy all existing metadata that you wish to retain into the IWMDMMetaData interface you submit. Because Windows Media Device Manager cannot be used to retrieve metadata from local files, you must use the Windows Media Format SDK (or some other tool) to retrieve such metadata.
+Setting metadata is done by creating and filling an [**IWMDMMetaData**](/windows/win32/mswmdm/nn-mswmdm-iwmdmmetadata?branch=master) interface that is passed into [**IWMDMStorageControl3::Insert3**](/windows/win32/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3?branch=master). However, this method can clear all existing metadata on the file, other than hard-coded metadata stored in the file system itself, such as file name or size. Therefore, you must copy all existing metadata that you wish to retain into the IWMDMMetaData interface you submit. Because Windows Media Device Manager cannot be used to retrieve metadata from local files, you must use the Windows Media Format SDK (or some other tool) to retrieve such metadata.
 
 To use the Windows Media Format SDK to retrieve ASF file properties, follow these steps:
 

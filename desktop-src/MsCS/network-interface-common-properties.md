@@ -4,11 +4,17 @@ description: Common properties for network interfaces are data values stored in 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4641238d-4b9e-40c7-9d5e-751d69be1912'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4641238d-4b9e-40c7-9d5e-751d69be1912
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["network interface properties Failover Cluster", "properties Failover Cluster ,network interface (common) properties", "network interfaces Failover Cluster ,properties"]
+keywords:
+- network interface properties Failover Cluster
+- properties Failover Cluster ,network interface (common) properties
+- network interfaces Failover Cluster ,properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Interface Common Properties
@@ -78,7 +84,7 @@ IPv4 addresses for the network interface resource.
 [**Name**](network-interfaces-name.md)
 </dt> <dd>
 
-Provides the cluster-generated name for the [network interface](network-interfaces.md). This name appears on the network interface's property sheets in [Cluster Administrator](cluster-administrator.md) and is the name passed to the [**OpenClusterNetInterface**](openclusternetinterface.md) function. The following table summarizes the attributes of the [**Name**](network-interfaces-name.md) property.
+Provides the cluster-generated name for the [network interface](network-interfaces.md). This name appears on the network interface's property sheets in [Cluster Administrator](cluster-administrator.md) and is the name passed to the [**OpenClusterNetInterface**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_open_cluster_net_interface?branch=master) function. The following table summarizes the attributes of the [**Name**](network-interfaces-name.md) property.
 
 </dd> <dt>
 

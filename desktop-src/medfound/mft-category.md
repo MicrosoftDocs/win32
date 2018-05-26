@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following GUIDs define categories for Media Foundation transforms (MFTs). These categories are used to register and enumerate MFTs.'
-ms.assetid: 'eca3ae3b-e40a-407d-986c-d0a85b891f52'
-title: 'MFT\_CATEGORY'
+---
+Description: The following GUIDs define categories for Media Foundation transforms (MFTs). These categories are used to register and enumerate MFTs.
+ms.assetid: eca3ae3b-e40a-407d-986c-d0a85b891f52
+title: MFT\_CATEGORY
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFT\_CATEGORY
@@ -102,13 +107,13 @@ Introduced in Windows 7.
 [Media Foundation Transforms](media-foundation-transforms.md)
 </dt> <dt>
 
-[**MFTEnum**](mftenum.md)
+[**MFTEnum**](/windows/win32/mfapi/nf-mfapi-mftenum?branch=master)
 </dt> <dt>
 
-[**MFTEnumEx**](mftenumex.md)
+[**MFTEnumEx**](/windows/win32/mfapi/nf-mfapi-mftenumex?branch=master)
 </dt> <dt>
 
-[**MFTRegister**](mftregister.md)
+[**MFTRegister**](/windows/win32/mfapi/nf-mfapi-mftregister?branch=master)
 </dt> </dl>
 
  

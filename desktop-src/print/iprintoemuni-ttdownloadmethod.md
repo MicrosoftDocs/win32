@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemUni::TTDownloadMethod method enables a rendering plug-in to indicate the format that Unidrv should use for a specified TrueType soft font.'
-ms.assetid: 'bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db'
-title: 'IPrintOemUni::TTDownloadMethod method'
+---
+Description: The IPrintOemUniTTDownloadMethod method enables a rendering plug-in to indicate the format that Unidrv should use for a specified TrueType soft font.
+ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
+title: IPrintOemUniTTDownloadMethod method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemUni::TTDownloadMethod method

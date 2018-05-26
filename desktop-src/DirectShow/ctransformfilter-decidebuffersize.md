@@ -1,7 +1,12 @@
 ---
-Description: 'The DecideBufferSize method sets the output pin''s buffer requirements.'
-ms.assetid: '33e41668-b4f6-4142-b22e-2ddfb96332df'
-title: 'CTransformFilter.DecideBufferSize method'
+Description: The DecideBufferSize method sets the output pins buffer requirements.
+ms.assetid: 33e41668-b4f6-4142-b22e-2ddfb96332df
+title: CTransformFilter.DecideBufferSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformFilter.DecideBufferSize method
@@ -13,8 +18,8 @@ The `DecideBufferSize` method sets the output pin's buffer requirements.
 
 ```C++
 virtual HRESULT DecideBufferSize(
-   IMemAllocator        *pAlloc,
-   ALLOCATOR_PROPERTIES *ppropInputRequest
+   IMemAllocator        *pAlloc,
+   ALLOCATOR_PROPERTIES *ppropInputRequest
 ) = 0;
 ```
 
@@ -27,14 +32,14 @@ virtual HRESULT DecideBufferSize(
 *pAlloc* 
 </dt> <dd>
 
-Pointer to the [**IMemAllocator**](imemallocator.md) interface on the output pin's allocator.
+Pointer to the [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface on the output pin's allocator.
 
 </dd> <dt>
 
 *ppropInputRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that contains buffer requirements from the downstream input pin.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that contains buffer requirements from the downstream input pin.
 
 </dd> </dl>
 
@@ -64,9 +69,9 @@ The output pin's [**CTransformOutputPin::DecideBufferSize**](ctransformoutputpin
 [**CTransformFilter Class**](ctransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

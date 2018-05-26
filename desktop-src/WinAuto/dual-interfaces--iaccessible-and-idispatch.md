@@ -1,16 +1,21 @@
 ---
 title: Dual Interfaces IAccessible and IDispatch
 description: Server developers must provide the standard Component Object Model (COM) interface IDispatch for their accessible objects.
-ms.assetid: '043d6777-6f9a-4e93-aadc-9cbe9a9119c4'
+ms.assetid: 043d6777-6f9a-4e93-aadc-9cbe9a9119c4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dual Interfaces: IAccessible and IDispatch
 
-Server developers must provide the standard Component Object Model (COM) interface [**IDispatch**](idispatch-interface.md) for their accessible objects. The IDispatch interface allows client applications written in Microsoft Visual Basic and various scripting languages to use the methods and properties exposed by [**IAccessible**](iaccessible.md). Because an accessible object provides access to an object either indirectly through [IDispatch::Invoke]( http://go.microsoft.com/fwlink/p/?linkid=143844) or directly with **IAccessible**, it is said to have a dual interface.
+Server developers must provide the standard Component Object Model (COM) interface [**IDispatch**](idispatch-interface.md) for their accessible objects. The IDispatch interface allows client applications written in Microsoft Visual Basic and various scripting languages to use the methods and properties exposed by [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master). Because an accessible object provides access to an object either indirectly through [IDispatch::Invoke]( http://go.microsoft.com/fwlink/p/?linkid=143844) or directly with **IAccessible**, it is said to have a dual interface.
 
-When C/C++ clients get back an IDispatch interface pointer, clients can call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) to try converting the IDispatch interface pointer to an [**IAccessible**](iaccessible.md) interface pointer. To call the **IAccessible** methods indirectly, C/C++ clients call IDispatch::Invoke. For improved performance, call the **IAccessible** methods to use the object directly.
+When C/C++ clients get back an IDispatch interface pointer, clients can call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) to try converting the IDispatch interface pointer to an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface pointer. To call the **IAccessible** methods indirectly, C/C++ clients call IDispatch::Invoke. For improved performance, call the **IAccessible** methods to use the object directly.
 
-For a list of the dispatch IDs (DISPIDs) that **IDispatch** uses to identify the [**IAccessible**](iaccessible.md) methods and properties, see [Appendix C: IAccessible DISPIDs](appendix-c--iaccessible-dispids.md).
+For a list of the dispatch IDs (DISPIDs) that **IDispatch** uses to identify the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods and properties, see [Appendix C: IAccessible DISPIDs](appendix-c--iaccessible-dispids.md).
 
 > [!Note]  
 > Under version 2.0 and later of Microsoft Active Accessibility, servers do not have to fully implement the methods of [**IDispatch**](idispatch-interface.md) but can simply return E\_NOTIMPL after initializing any out parameters, as shown in the following example.

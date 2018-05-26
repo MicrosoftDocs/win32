@@ -1,13 +1,16 @@
 ---
-Description: 'The HAVING clause is used to filter the events that are received during the grouping interval specified in the WITHIN clause.'
+Description: The HAVING clause is used to filter the events that are received during the grouping interval specified in the WITHIN clause.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '787e31df-df6a-4fb0-a1c0-18bd60867e2f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 787e31df-df6a-4fb0-a1c0-18bd60867e2f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: HAVING Clause
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # HAVING Clause

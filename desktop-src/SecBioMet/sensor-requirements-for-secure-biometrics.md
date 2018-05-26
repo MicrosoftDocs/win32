@@ -1,7 +1,12 @@
 ---
 title: Sensor requirements for secure biometrics
 description: Sensor requirements for secure biometrics
-ms.assetid: '6D5709E9-7B6B-4D6C-BF85-C6FB5DF5A7EE'
+ms.assetid: 6D5709E9-7B6B-4D6C-BF85-C6FB5DF5A7EE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sensor requirements for secure biometrics
@@ -74,8 +79,8 @@ The WINBIO\_CAPABILITY\_SECURE\_SENSOR value is contained in the [**WINBIO\_CAPA
 
 The engine adapter interface version has been incremented to 4.0. The additional functions in the new interface allow the sensor to participate in TPM 2.0. They are:
 
--   [**EngineAdapterCreateKey**](engineadaptercreatekey.md)
--   [**EngineAdapterIdentifyFeatureSetSecure**](engineadapteridentifyfeaturesetsecure.md)
+-   [**EngineAdapterCreateKey**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn?branch=master)
+-   [**EngineAdapterIdentifyFeatureSetSecure**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_secure_fn?branch=master)
 
 
 ```

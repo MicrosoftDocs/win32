@@ -1,7 +1,12 @@
-﻿---
-Description: 'The topics contained in this section provide the reference specifications for Radial controller input interfaces.'
-ms.assetid: '44FED16E-63FB-466B-9615-8B744F861AE9'
+---
+Description: The topics contained in this section provide the reference specifications for Radial controller input interfaces.
+ms.assetid: 44FED16E-63FB-466B-9615-8B744F861AE9
 title: Radial controller interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Radial controller interfaces

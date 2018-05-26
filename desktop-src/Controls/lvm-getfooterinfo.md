@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETFOOTERINFO message
 description: Gets information about the footer of a list-view control. Send this message explicitly or by using the ListView\_GetFooterInfo macro.
-ms.assetid: '5734e151-50c0-46df-8f2c-220c4910a590'
-keywords: ["LVM_GETFOOTERINFO message Windows Controls"]
+ms.assetid: 5734e151-50c0-46df-8f2c-220c4910a590
+keywords:
+- LVM_GETFOOTERINFO message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETFOOTERINFO message
 
-Gets information about the footer of a list-view control. Send this message explicitly or by using the [**ListView\_GetFooterInfo**](listview-getfooterinfo.md) macro.
+Gets information about the footer of a list-view control. Send this message explicitly or by using the [**ListView\_GetFooterInfo**](/windows/win32/Commctrl/nf-commctrl-listview_getfooterinfo?branch=master) macro.
 
 ## Parameters
 
@@ -31,7 +37,7 @@ Not used. Must be 0.
 *lParam* \[in, out\]
 </dt> <dd>
 
-A pointer to a [**LVFOOTERINFO**](lvfooterinfo.md) structure to receive information depending on the value of the **mask** member. The calling process is responsible for allocating this structure and setting the **mask** member.
+A pointer to a [**LVFOOTERINFO**](/windows/win32/Commctrl/ns-commctrl-taglvfooterinfo?branch=master) structure to receive information depending on the value of the **mask** member. The calling process is responsible for allocating this structure and setting the **mask** member.
 
 </dd> </dl>
 
@@ -45,15 +51,15 @@ Returns **TRUE**.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

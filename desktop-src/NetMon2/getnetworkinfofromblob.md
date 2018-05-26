@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNetworkInfoFromBlob function retrieves network information from a given BLOB.'
-ms.assetid: '217c33f4-e548-4072-9edd-ded61e6cd743'
+Description: The GetNetworkInfoFromBlob function retrieves network information from a given BLOB.
+ms.assetid: 217c33f4-e548-4072-9edd-ded61e6cd743
 title: GetNetworkInfoFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNetworkInfoFromBlob function
@@ -13,8 +18,8 @@ The **GetNetworkInfoFromBlob** function retrieves network information from a giv
 
 ```C++
 DWORD GetNetworkInfoFromBlob(
-  _In_    HBLOB         hBlob,
-  _Inout_ LPNETWORKINFO lpNetworkInfo
+  _In_    HBLOB         hBlob,
+  _Inout_ LPNETWORKINFO lpNetworkInfo
 );
 ```
 
@@ -54,8 +59,8 @@ The network information is stored in the BLOB **NetworkInfo** section of the BLO
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -96,9 +101,9 @@ The network information is stored in the BLOB **NetworkInfo** section of the BLO
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

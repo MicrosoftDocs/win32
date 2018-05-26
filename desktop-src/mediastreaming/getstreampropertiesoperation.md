@@ -1,14 +1,21 @@
 ---
 title: GetStreamPropertiesOperation class
 description: Registers an event handler that is invoked when the asynchronous operation started by GetStreamPropertiesAsync completes, and provides a method that returns the results of the operation.
-ms.assetid: '1D1C9B73-9D7B-4886-AFA4-D35DF10367CD'
-keywords: ["GetStreamPropertiesOperation class Media Streaming API", "GetStreamPropertiesOperation class Media Streaming API , described"]
+ms.assetid: 1D1C9B73-9D7B-4886-AFA4-D35DF10367CD
+keywords:
+- GetStreamPropertiesOperation class Media Streaming API
+- GetStreamPropertiesOperation class Media Streaming API , described
 topic_type:
 - apiref
 api_name:
 - GetStreamPropertiesOperation
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetStreamPropertiesOperation class
@@ -32,7 +39,7 @@ The **GetStreamPropertiesOperation** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -46,11 +53,11 @@ The **GetStreamPropertiesOperation** class has these properties.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

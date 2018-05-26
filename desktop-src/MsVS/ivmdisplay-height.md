@@ -1,8 +1,13 @@
 ---
 title: IVMDisplay Height property
-description: The Height property contains the current height, in pixels, of the virtual machine's display.
-ms.assetid: 'f7db5335-2c0b-44c4-9b6f-c41929905645'
-keywords: ["Height property Virtual Server", "Height property Virtual Server , IVMDisplay interface", "IVMDisplay interface Virtual Server , Height property", "Height property Virtual Server , VMDisplay interface", "VMDisplay interface Virtual Server , Height property"]
+description: The Height property contains the current height, in pixels, of the virtual machines display.
+ms.assetid: f7db5335-2c0b-44c4-9b6f-c41929905645
+keywords:
+- Height property Virtual Server
+- Height property Virtual Server , IVMDisplay interface
+- IVMDisplay interface Virtual Server , Height property
+- Height property Virtual Server , VMDisplay interface
+- VMDisplay interface Virtual Server , Height property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDisplay::Height property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Height(
-  [out] long *displayPixelHeight
+  [out] long *displayPixelHeight
 );
 ```
 
@@ -78,8 +88,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -91,9 +101,9 @@ This property value is read-only.
 [**IVMDisplay**](ivmdisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

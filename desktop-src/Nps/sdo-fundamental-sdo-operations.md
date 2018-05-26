@@ -4,10 +4,13 @@ description: This section provides sample code for performing frequently-used op
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '196e75e8-35b6-48d8-b85d-6c2206503ae3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'network-policy-and-access-services'
+ms.assetid: 196e75e8-35b6-48d8-b85d-6c2206503ae3
+ms.prod: windows-server-dev
+ms.technology: network-policy-and-access-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Fundamental SDO Operations

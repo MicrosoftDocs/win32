@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_Pinned
 description: Identifies the UI\_PKEY\_Pinned property.
-ms.assetid: '906b2ab9-1ed7-46a6-88bc-e8f9160ab60c'
+ms.assetid: 906b2ab9-1ed7-46a6-88bc-e8f9160ab60c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_Pinned

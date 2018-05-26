@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a media key session object using the specified initialization data and custom data. .'
-ms.assetid: '9f11433c-7cff-4a59-9d4a-7f4b56ba62cf'
-title: 'IMFMediaKeys::CreateSession method'
+---
+Description: Creates a media key session object using the specified initialization data and custom data. .
+ms.assetid: 9f11433c-7cff-4a59-9d4a-7f4b56ba62cf
+title: IMFMediaKeysCreateSession method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaKeys::CreateSession method
@@ -98,7 +103,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaKeys**](imfmediakeys.md)
+[**IMFMediaKeys**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediakeys?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Number of unread messages on the device.'
-ms.assetid: '309700af-c5b7-48a6-a85f-763452f586ad'
-title: 'System.Devices.TextMessages'
+Description: Number of unread messages on the device.
+ms.assetid: 309700af-c5b7-48a6-a85f-763452f586ad
+title: System.Devices.TextMessages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.TextMessages

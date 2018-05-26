@@ -1,7 +1,12 @@
 ---
 title: Using System Monitor
 description: System Monitor (SYSMON) can be included in any application that supports ActiveX \ 174; controls. For example, you can include SYSMON in a Microsoft Visual Basic application or in an HTML document.
-ms.assetid: '36931aae-b608-42d9-a3e3-09784e80f386'
+ms.assetid: 36931aae-b608-42d9-a3e3-09784e80f386
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using System Monitor

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a value that indicates whether the ConfirmationType passed in to this method has been set on this IContextNode.'
-ms.assetid: '4a96bc46-b627-4784-ad1d-1079f49592e5'
-title: 'IContextNode::IsConfirmed method'
+Description: Retrieves a value that indicates whether the ConfirmationType passed in to this method has been set on this IContextNode.
+ms.assetid: 4a96bc46-b627-4784-ad1d-1079f49592e5
+title: IContextNodeIsConfirmed method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::IsConfirmed method
@@ -13,8 +18,8 @@ Retrieves a value that indicates whether the ConfirmationType passed in to this 
 
 ```C++
 HRESULT IsConfirmed(
-  [in]  ConfirmationType confirmedType,
-  [out] VARIANT_BOOL     *pfTypeConfirmed
+  [in]  ConfirmationType confirmedType,
+  [out] VARIANT_BOOL     *pfTypeConfirmed
 );
 ```
 
@@ -52,7 +57,7 @@ This value is set by the [**IContextNode::Confirm**](icontextnode-confirm.md) me
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -72,9 +77,9 @@ This value is set by the [**IContextNode::Confirm**](icontextnode-confirm.md) me
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

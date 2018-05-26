@@ -1,8 +1,16 @@
 ---
 title: Creating a Backup Application
 description: To perform input or output on a tape, a backup application must first obtain a handle of the tape device. The following code sample shows you how to use the CreateFile function to open a tape device.
-ms.assetid: 'a2d367e1-13a9-47a8-8329-6e550c09ad58'
-keywords: ["backup applications Backup", "creating backup applications Backup", "backup Backup , creating applications"]
+ms.assetid: a2d367e1-13a9-47a8-8329-6e550c09ad58
+keywords:
+- backup applications Backup
+- creating backup applications Backup
+- backup Backup , creating applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Backup Application
@@ -26,11 +34,11 @@ hTape = CreateFile(TEXT("\\\\.\\TAPE0"),         // tape dev to open
 
 To back up a directory tree to a tape, an application must use the [**FindFirstFile**](https://msdn.microsoft.com/library/windows/desktop/aa364418) and [**FindNextFile**](https://msdn.microsoft.com/library/windows/desktop/aa364428) functions to traverse the directory tree. Each time a file is found, the application should get the file attributes by using the [**GetFileAttributes**](https://msdn.microsoft.com/library/windows/desktop/aa364944) function.
 
-If there are hard links, an application should determine the number of links, and save the unique identifier of the file in a table for future comparisons. The first time a file is found, the application should use [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) to open the file, and the [**BackupRead**](backupread.md) function to begin the backup. Then it can use the [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747) function repeatedly to transfer all the information in the buffer used by **BackupRead** to the tape. The second time a file is found (checked against the table of file identifiers when there are hard links), the application can write the general file information to the tape, followed by a stream that has an identifier that is **BACKUP\_LINK**.
+If there are hard links, an application should determine the number of links, and save the unique identifier of the file in a table for future comparisons. The first time a file is found, the application should use [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858) to open the file, and the [**BackupRead**](/windows/win32/Winbase/nf-winbase-backupread?branch=master) function to begin the backup. Then it can use the [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747) function repeatedly to transfer all the information in the buffer used by **BackupRead** to the tape. The second time a file is found (checked against the table of file identifiers when there are hard links), the application can write the general file information to the tape, followed by a stream that has an identifier that is **BACKUP\_LINK**.
 
-When restoring files from tape to disk, an application must use the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**BackupWrite**](backupwrite.md), and [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467) functions. For each file on a tape, the application should use **CreateFile** to create a new file on disk, and **BackupWrite** to begin restoring the file. Then the application should use **ReadFile** repeatedly until all the information for the file is read from the tape into the buffer filled by **BackupWrite**.
+When restoring files from tape to disk, an application must use the [**CreateFile**](https://msdn.microsoft.com/library/windows/desktop/aa363858), [**BackupWrite**](/windows/win32/Winbase/nf-winbase-backupwrite?branch=master), and [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467) functions. For each file on a tape, the application should use **CreateFile** to create a new file on disk, and **BackupWrite** to begin restoring the file. Then the application should use **ReadFile** repeatedly until all the information for the file is read from the tape into the buffer filled by **BackupWrite**.
 
-If one of the streams in the [**BackupWrite**](backupwrite.md) buffer has a **BACKUP\_LINK** stream identifier, the application must establish a hard link. If the data needed to establish the link does not exist, **BackupWrite** fails. The application can use a pre-existing catalog to locate and restore the original data, or it can notify the user that the file data to be restored is in a different location.
+If one of the streams in the [**BackupWrite**](/windows/win32/Winbase/nf-winbase-backupwrite?branch=master) buffer has a **BACKUP\_LINK** stream identifier, the application must establish a hard link. If the data needed to establish the link does not exist, **BackupWrite** fails. The application can use a pre-existing catalog to locate and restore the original data, or it can notify the user that the file data to be restored is in a different location.
 
  
 

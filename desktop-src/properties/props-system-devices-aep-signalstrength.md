@@ -1,7 +1,12 @@
 ---
-Description: 'Signal strength of the device. Only applicable for some protocols.'
-ms.assetid: '21769028-064d-4e17-88ec-16708732a176'
-title: 'System.Devices.Aep.SignalStrength'
+Description: Signal strength of the device. Only applicable for some protocols.
+ms.assetid: 21769028-064d-4e17-88ec-16708732a176
+title: System.Devices.Aep.SignalStrength
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.SignalStrength

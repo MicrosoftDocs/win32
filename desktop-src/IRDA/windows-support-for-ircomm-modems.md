@@ -1,8 +1,14 @@
 ---
 title: Windows Support for IrCOMM Modems
 description: IrCOMM modem support is delivered through a kernel-mode driver that communicates with the existing IrDA stack through its TDI interface.
-ms.assetid: '4bec50e4-2232-4cfb-9ec3-14ff179e54e1'
-keywords: ["IrCOMM IrDA , modems"]
+ms.assetid: 4bec50e4-2232-4cfb-9ec3-14ff179e54e1
+keywords:
+- IrCOMM IrDA , modems
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Support for IrCOMM Modems

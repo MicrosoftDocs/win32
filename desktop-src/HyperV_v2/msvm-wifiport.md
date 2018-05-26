@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a physical Wi-Fi (802.11) network adapter that can be bound to a virtual switch to provide external network connectivity to virtual machines.'
-ms.assetid: 'c6dae491-607c-4f17-aea9-162d910120c2'
-title: 'Msvm\_WiFiPort class'
+Description: Represents a physical Wi-Fi (802.11) network adapter that can be bound to a virtual switch to provide external network connectivity to virtual machines.
+ms.assetid: c6dae491-607c-4f17-aea9-162d910120c2
+title: Msvm\_WiFiPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_WiFiPort class
@@ -16,61 +21,61 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_WiFiPort : CIM_WiFiPort
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState;
-  uint16   EnabledDefault;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState;
+  uint16   EnabledDefault;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint64   Speed;
-  uint64   MaxSpeed;
-  uint64   RequestedSpeed;
-  uint16   UsageRestriction;
-  uint16   PortType;
-  string   OtherPortType;
-  string   OtherNetworkPortType;
-  uint16   PortNumber;
-  uint16   LinkTechnology;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  string   NetworkAddresses[];
-  boolean  FullDuplex;
-  boolean  AutoSense;
-  uint64   SupportedMaximumTransmissionUnit;
-  uint64   ActiveMaximumTransmissionUnit;
-  boolean  IsBound;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint64   Speed;
+  uint64   MaxSpeed;
+  uint64   RequestedSpeed;
+  uint16   UsageRestriction;
+  uint16   PortType;
+  string   OtherPortType;
+  string   OtherNetworkPortType;
+  uint16   PortNumber;
+  uint16   LinkTechnology;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  string   NetworkAddresses[];
+  boolean  FullDuplex;
+  boolean  AutoSense;
+  uint64   SupportedMaximumTransmissionUnit;
+  uint64   ActiveMaximumTransmissionUnit;
+  boolean  IsBound;
 };
 ```
 
@@ -100,7 +105,7 @@ The **Msvm\_WiFiPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -334,7 +339,7 @@ The enabled and disabled states of an element. This property is inherited from [
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -452,7 +457,7 @@ Specifies if the Wi-Fi port is bound to the virtual machine networking architect
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1029,17 +1034,17 @@ In some circumstances, a logical port might be identifiable as a front end or ba
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

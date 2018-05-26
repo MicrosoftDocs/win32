@@ -1,7 +1,12 @@
-﻿---
-Description: 'On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteBackOffice property to 1 if Microsoft BackOffice components are installed.'
-ms.assetid: '31493732-3082-4dd9-9a20-21658f53c8c2'
+---
+Description: On Windows 2000 and later operating systems, the installer sets the MsiNTSuiteBackOffice property to 1 if Microsoft BackOffice components are installed.
+ms.assetid: 31493732-3082-4dd9-9a20-21658f53c8c2
 title: MsiNTSuiteBackOffice property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiNTSuiteBackOffice property

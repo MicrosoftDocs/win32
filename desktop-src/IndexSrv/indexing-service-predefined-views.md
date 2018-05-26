@@ -1,7 +1,12 @@
 ---
 title: Indexing Service Predefined Views
 description: Indexing Service Predefined Views
-ms.assetid: '57193623-aeae-47cc-b053-b1e79e868d3d'
+ms.assetid: 57193623-aeae-47cc-b053-b1e79e868d3d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indexing Service Predefined Views

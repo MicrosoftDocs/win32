@@ -1,7 +1,12 @@
 ---
 title: Security Tips
 description: Security Tips
-ms.assetid: '11d8856a-7054-48b9-bf6a-50908eb096a4'
+ms.assetid: 11d8856a-7054-48b9-bf6a-50908eb096a4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Tips

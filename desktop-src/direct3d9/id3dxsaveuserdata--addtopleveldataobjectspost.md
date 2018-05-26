@@ -1,7 +1,12 @@
-﻿---
-Description: 'Add a top level object after the frame hierarchy.'
-ms.assetid: '43b3cdb3-c6f0-4028-bf86-43d643fba73d'
-title: 'ID3DXSaveUserData::AddTopLevelDataObjectsPost method'
+---
+Description: Add a top level object after the frame hierarchy.
+ms.assetid: 43b3cdb3-c6f0-4028-bf86-43d643fba73d
+title: ID3DXSaveUserDataAddTopLevelDataObjectsPost method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSaveUserData::AddTopLevelDataObjectsPost method

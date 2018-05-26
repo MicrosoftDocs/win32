@@ -1,14 +1,20 @@
 ---
 title: WM/MediaIsSubtitled
 description: The WM/MediaIsSubtitled attribute indicates whether the content includes subtitles.
-ms.assetid: 'cb04eaf3-8fa1-4e38-96c6-bcd261537f92'
-keywords: ["WM/MediaIsSubtitled windows Media Format"]
+ms.assetid: cb04eaf3-8fa1-4e38-96c6-bcd261537f92
+keywords:
+- WM/MediaIsSubtitled windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/MediaIsSubtitled
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/MediaIsSubtitled

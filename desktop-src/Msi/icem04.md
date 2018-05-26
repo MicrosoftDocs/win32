@@ -1,7 +1,12 @@
 ---
-Description: 'ICEM04 verifies that the merge module''s required empty tables are empty. Failure to fix an error that ICEM04 reports can result in incorrect merging of the merge module.'
-ms.assetid: 'c6f64f5e-be65-485b-8831-e377535bd335'
+Description: ICEM04 verifies that the merge modules required empty tables are empty. Failure to fix an error that ICEM04 reports can result in incorrect merging of the merge module.
+ms.assetid: c6f64f5e-be65-485b-8831-e377535bd335
 title: ICEM04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICEM04

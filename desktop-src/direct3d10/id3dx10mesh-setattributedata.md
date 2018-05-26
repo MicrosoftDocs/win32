@@ -1,7 +1,12 @@
-﻿---
-Description: 'Set the mesh''s attribute data.'
-ms.assetid: 'bcf7b1b3-b923-400a-8d12-5094f3844d8f'
-title: 'ID3DX10Mesh::SetAttributeData method'
+---
+Description: Set the meshs attribute data.
+ms.assetid: bcf7b1b3-b923-400a-8d12-5094f3844d8f
+title: ID3DX10MeshSetAttributeData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Mesh::SetAttributeData method

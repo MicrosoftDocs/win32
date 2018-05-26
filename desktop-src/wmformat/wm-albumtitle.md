@@ -1,14 +1,20 @@
 ---
 title: WM/AlbumTitle
 description: The WM/AlbumTitle attribute contains the title of the album on which the content was originally released.
-ms.assetid: '8b003634-7459-4586-9947-530c07dbc80a'
-keywords: ["WM/AlbumTitle windows Media Format"]
+ms.assetid: 8b003634-7459-4586-9947-530c07dbc80a
+keywords:
+- WM/AlbumTitle windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/AlbumTitle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/AlbumTitle

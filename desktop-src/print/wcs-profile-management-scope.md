@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WCS\_PROFILE\_MANAGEMENT\_SCOPE enumeration is used to specify the scope of a profile management operation, such as associating a profile with a device.'
-ms.assetid: '85909f39-7923-4e2a-ad37-66b071775b5f'
-title: 'WCS\_PROFILE\_MANAGEMENT\_SCOPE enumeration'
+---
+Description: The WCS\_PROFILE\_MANAGEMENT\_SCOPE enumeration is used to specify the scope of a profile management operation, such as associating a profile with a device.
+ms.assetid: 85909f39-7923-4e2a-ad37-66b071775b5f
+title: WCS\_PROFILE\_MANAGEMENT\_SCOPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS\_PROFILE\_MANAGEMENT\_SCOPE enumeration

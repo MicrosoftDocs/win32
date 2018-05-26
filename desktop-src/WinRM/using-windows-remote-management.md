@@ -4,10 +4,13 @@ description: Windows Remote Management is intended to improve hardware managemen
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6ee2b238-5bc2-4274-b7ca-49dbc728d8f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: 6ee2b238-5bc2-4274-b7ca-49dbc728d8f1
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Windows Remote Management

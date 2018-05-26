@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork bufferingCount property
 description: The bufferingCount property gets the number of times buffering occurred during playback.
-ms.assetid: '2e3a2914-fc38-4477-8c4c-15b4a2e424dc'
-keywords: ["bufferingCount property Windows Media Player", "bufferingCount property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , bufferingCount property"]
+ms.assetid: 2e3a2914-fc38-4477-8c4c-15b4a2e424dc
+keywords:
+- bufferingCount property Windows Media Player
+- bufferingCount property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , bufferingCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::bufferingCount property
@@ -126,9 +134,9 @@ End Sub</code></pre></td>
 [**IWMPNetwork Interface (VB and C#)**](iwmpnetwork--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

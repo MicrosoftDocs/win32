@@ -4,13 +4,15 @@ description: Represents a collection of managed elements that provide redundancy
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9c6173a8-9dab-4759-a0f1-9f42fe24724c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9c6173a8-9dab-4759-a0f1-9f42fe24724c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msvm_RedundancySet class", "Msvm_RedundancySet class, described"]
+keywords:
+- Msvm_RedundancySet class
+- Msvm_RedundancySet class, described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msvm\_RedundancySet class
@@ -79,7 +84,7 @@ The **Msvm\_RedundancySet** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -441,14 +446,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -474,7 +479,7 @@ This property is inherited from [**CIM\_RedundancySet**](cim-redundancyset.md).
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -491,9 +496,9 @@ This property is inherited from [**CIM\_RedundancySet**](cim-redundancyset.md).
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

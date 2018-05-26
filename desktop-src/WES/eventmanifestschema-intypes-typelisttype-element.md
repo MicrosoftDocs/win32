@@ -1,14 +1,20 @@
 ---
 title: inTypes (TypeListType) Element
 description: Contains a list of input type definitions.
-ms.assetid: 'b7be90bf-460a-4883-9d33-962c1fa47dff'
-keywords: ["inTypes element EventLog"]
+ms.assetid: b7be90bf-460a-4883-9d33-962c1fa47dff
+keywords:
+- inTypes element EventLog
 topic_type:
 - apiref
 api_name:
 - inTypes
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # inTypes (TypeListType) Element
@@ -29,8 +35,8 @@ The **inTypes** element is defined by the [**TypeListType**](eventmanifestschema
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **inTypes** element is defined by the [**TypeListType**](eventmanifestschema
 [**types (MetadataType)**](eventmanifestschema-types-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

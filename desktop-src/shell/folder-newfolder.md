@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a new folder.'
-ms.assetid: '7a552e5a-e9a3-4fcf-bc6b-17e8bc39af87'
-title: 'Folder.NewFolder method'
+---
+Description: Creates a new folder.
+ms.assetid: 7a552e5a-e9a3-4fcf-bc6b-17e8bc39af87
+title: Folder.NewFolder method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder.NewFolder method

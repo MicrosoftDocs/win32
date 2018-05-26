@@ -1,7 +1,12 @@
 ---
 title: (s, g), (\ , g), and (\ , \ ) Pairs
 description: The notation (s, g) represents a specific source and group. Only data from the source, s, and the group, g, is requested.
-ms.assetid: '49eab2c5-bf5f-4dc7-b942-20b1794e74e4'
+ms.assetid: 49eab2c5-bf5f-4dc7-b942-20b1794e74e4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # (s, g), (\*, g), and (\*, \*) Pairs

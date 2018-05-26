@@ -1,8 +1,10 @@
 ---
 title: SMTPMESSAGE2 structure
 description: Extends an SMTPMESSAGE structure to add Delivery Status Notification (DSN) (RFC 1891) support.
-ms.assetid: '579fabcc-deff-4c50-bede-ce65d590bcf2'
-keywords: ["SMTPMESSAGE2 structure Windows Mail (formerly Outlook Express)", "LPSMTPMESSAGE2 structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 579fabcc-deff-4c50-bede-ce65d590bcf2
+keywords:
+- SMTPMESSAGE2 structure Windows Mail (formerly Outlook Express)
+- LPSMTPMESSAGE2 structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMTPMESSAGE2 structure
@@ -25,10 +32,10 @@ Extends an [**SMTPMESSAGE**](oe-smtpmessage.md) structure to add Delivery Status
 ```C++
 typedef struct tagSMTPMESSAGE2 {
   SMTPMESSAGE smtpMsg;
-  LPSTR       pszDSNENVID;
-  DSNRET      dsnRet;
-  DWORD       dwReserved;
-  DWORD       dwReserved2;
+  LPSTR       pszDSNENVID;
+  DSNRET      dsnRet;
+  DWORD       dwReserved;
+  DWORD       dwReserved2;
 } SMTPMESSAGE2, *LPSMTPMESSAGE2;
 ```
 
@@ -103,17 +110,17 @@ To receive a DSN the Simple Mail Transport Protocol (SMTP) server must implement
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

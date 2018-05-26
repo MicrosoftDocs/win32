@@ -1,7 +1,12 @@
 ---
 title: To have Related Topics links appear on a pop-up menu
 description: To have Related Topics links appear on a pop-up menu
-ms.assetid: '15B4B3FF-5793-4111-9053-0434BEA4123F'
+ms.assetid: 15B4B3FF-5793-4111-9053-0434BEA4123F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To have Related Topics links appear on a pop-up menu
@@ -17,7 +22,7 @@ ms.assetid: '15B4B3FF-5793-4111-9053-0434BEA4123F'
 
     
 
-     
+     
 
 3.  In the **Specify the command** box, click **Related Topics**. If you are going to use scripting to access the command, enter the ID name to use for this instance of the HTML Help ActiveX control.
 4.  Click **As a Button** if you want the ALink or KLink Search command to appear as a button or **Hidden** if you want to use a [text link](create-a-text-link-for-html-help-activex-control-commands.md) for this instance of the HTML Help ActiveX control.
@@ -35,9 +40,9 @@ ms.assetid: '15B4B3FF-5793-4111-9053-0434BEA4123F'
 [About Working with Links](work-with-links.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

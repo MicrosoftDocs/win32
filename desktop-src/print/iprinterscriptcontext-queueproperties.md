@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides access to the queue property bag, if the property bag is present.'
-ms.assetid: 'EEC61313-5796-42BC-84BF-CF29F8BE0C96'
-title: 'IPrinterScriptContext::QueueProperties property'
+---
+Description: Provides access to the queue property bag, if the property bag is present.
+ms.assetid: EEC61313-5796-42BC-84BF-CF29F8BE0C96
+title: IPrinterScriptContextQueueProperties property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptContext::QueueProperties property

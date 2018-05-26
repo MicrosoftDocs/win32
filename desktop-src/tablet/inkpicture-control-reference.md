@@ -1,7 +1,12 @@
 ---
-Description: 'The InkPicture control provides the ability to place an image in an application and enable users to add ink on top of it.'
-ms.assetid: 'e9fa6807-6e2a-44ec-9b8f-a560185e4367'
+Description: The InkPicture control provides the ability to place an image in an application and enable users to add ink on top of it.
+ms.assetid: e9fa6807-6e2a-44ec-9b8f-a560185e4367
 title: InkPicture Control Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkPicture Control Reference
@@ -13,7 +18,7 @@ The InkPicture control can be instantiated by calling the [**CoCreateInstance**]
 > [!Note]  
 > The InkPicture control is not marked safe for scripting. The InkPicture control should not be used in HTML or ASP.NET pages.
 
- 
+ 
 
 Creating the InkPicture control behind a transparent control (such as a GroupBox with the WS\_EX\_TRANSPARENT property set) will prevent InkPicture from collecting ink.
 
@@ -23,11 +28,11 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 
 | Enumeration                                      | Description                                                                                              |
 |--------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| [**InkPictureSizeMode**](inkpicturesizemode.md) | Defines values that specify how the background picture behaves inside the InkPicture control.<br/> |
+| [**InkPictureSizeMode**](/windows/win32/msinkaut/ne-msinkaut-inkpicturesizemode?branch=master) | Defines values that specify how the background picture behaves inside the InkPicture control.<br/> |
 
 
 
- 
+ 
 
 
 
@@ -35,8 +40,8 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ChangeUICues**                                                                   | Deprecated.<br/>                                                                                                                                                                                                                                                                                             |
 | [**Click**](inkpicture-click.md)                                                  | Occurs when a user clicks the InkPicture control.<br/>                                                                                                                                                                                                                                                       |
-| [**CursorButtonDown Event**](inkpicture-cursorbuttondown.md)                      | Occurs when the [**InkCollector**](inkcollector-class.md) control detects an [**IInkCursorButton**](iinkcursorbutton.md) object that is down.<br/>                                                                                                                                                         |
-| [**CursorButtonUp Event**](inkpicture-cursorbuttonup.md)                          | Occurs when the InkPicture control detects an [**IInkCursorButton**](iinkcursorbutton.md) that is up.<br/>                                                                                                                                                                                                  |
+| [**CursorButtonDown Event**](inkpicture-cursorbuttondown.md)                      | Occurs when the [**InkCollector**](/windows/win32/msinkaut/?branch=master) control detects an [**IInkCursorButton**](/windows/win32/msinkaut/nn-msinkaut-iinkcursorbutton?branch=master) object that is down.<br/>                                                                                                                                                         |
+| [**CursorButtonUp Event**](inkpicture-cursorbuttonup.md)                          | Occurs when the InkPicture control detects an [**IInkCursorButton**](/windows/win32/msinkaut/nn-msinkaut-iinkcursorbutton?branch=master) that is up.<br/>                                                                                                                                                                                                  |
 | [**CursorDown Event**](inkpicture-cursordown.md)                                  | Occurs when the cursor tip contacts the digitizing tablet surface.<br/>                                                                                                                                                                                                                                      |
 | [**CursorInRange Event**](inkpicture-cursorinrange.md)                            | Occurs when a cursor enters the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                             |
 | [**CursorOutOfRange Event**](inkpicture-cursoroutofrange.md)                      | Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.<br/>                                                                                                                                                                                                           |
@@ -57,18 +62,18 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 | [**Painted**](inkpicture-painted.md)                                              | Occurs when the InkPicture control has completed redrawing itself.<br/>                                                                                                                                                                                                                                      |
 | [**Painting**](inkpicture-painting.md)                                            | Occurs before the InkPicture control redraws itself.<br/>                                                                                                                                                                                                                                                    |
 | [**Resize**](inkpicture-resize.md)                                                | Occurs when the InkPicture control is resized.<br/>                                                                                                                                                                                                                                                          |
-| [**SelectionChanged**](inkpicture-selectionchanged.md)                            | Occurs when the selection of text within the InkPicture control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkpicture-selection.md) property.<br/>                                                                                    |
-| [**SelectionChanging**](inkpicture-selectionchanging.md)                          | Occurs when the selection of text within the InkPicture control is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkpicture-selection.md) property.<br/>                                                                             |
-| [**SelectionMoved**](inkpicture-selectionmoved.md)                                | Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkpicture-selection.md) property.<br/>                                                                                                  |
-| [**SelectionMoving Event \[InkPicture Control\]**](inkpicture-selectionmoving.md) | Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkpicture-selection.md) property.<br/>                                                                                           |
-| [**SelectionResized**](inkpicture-selectionresized.md)                            | Occurs when the size of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkpicture-selection.md) property.<br/>                                                                                                      |
-| [**SelectionResizing**](inkpicture-selectionresizing.md)                          | Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](inkpicture-selection.md) property.<br/>                                                                                               |
-| [**SizeChanged**](inkpicture-sizechanged.md)                                      | Occurs after the InkPicture control has been resized, specifically, after the [**Width**](inkdrawingattributes-width.md) or [**Height**](inkdrawingattributes-height.md) property value changes.<br/>                                                                                                      |
-| [**SizeModeChanged**](inkpicture-sizemodechanged.md)                              | Occurs after the [**SizeMode**](inkpicture-sizemode.md) property of the InkPicture control has been changed.<br/>                                                                                                                                                                                           |
+| [**SelectionChanged**](inkpicture-selectionchanged.md)                            | Occurs when the selection of text within the InkPicture control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                                    |
+| [**SelectionChanging**](inkpicture-selectionchanging.md)                          | Occurs when the selection of text within the InkPicture control is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                             |
+| [**SelectionMoved**](inkpicture-selectionmoved.md)                                | Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                                                  |
+| [**SelectionMoving Event \[InkPicture Control\]**](inkpicture-selectionmoving.md) | Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                                           |
+| [**SelectionResized**](inkpicture-selectionresized.md)                            | Occurs when the size of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                                                      |
+| [**SelectionResizing**](inkpicture-selectionresizing.md)                          | Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the [**Selection**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                                               |
+| [**SizeChanged**](inkpicture-sizechanged.md)                                      | Occurs after the InkPicture control has been resized, specifically, after the [**Width**](/windows/win32/msinkaut/?branch=master) or [**Height**](/windows/win32/msinkaut/?branch=master) property value changes.<br/>                                                                                                      |
+| [**SizeModeChanged**](inkpicture-sizemodechanged.md)                              | Occurs after the [**SizeMode**](/windows/win32/msinkaut/?branch=master) property of the InkPicture control has been changed.<br/>                                                                                                                                                                                           |
 | **StyleChanged**                                                                   | Not implemented.<br/>                                                                                                                                                                                                                                                                                        |
 | [**Stroke**](inkpicture-stroke.md)                                                | Occurs when the user draws a new stroke on any tablet.<br/>                                                                                                                                                                                                                                                  |
-| [**StrokesDeleted**](inkpicture-strokesdeleted.md)                                | Occurs after [**IInkStrokeDisp**](iinkstrokedisp.md) objects have been deleted from the [**Ink**](inkpicture-ink.md) property.<br/>                                                                                                                                                                        |
-| [**StrokesDeleting**](inkpicture-strokesdeleting.md)                              | Occurs before [**IInkStrokeDisp**](iinkstrokedisp.md) objects are deleted from the [**Ink**](inkpicture-ink.md) property.<br/>                                                                                                                                                                             |
+| [**StrokesDeleted**](inkpicture-strokesdeleted.md)                                | Occurs after [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects have been deleted from the [**Ink**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                                                                                                                        |
+| [**StrokesDeleting**](inkpicture-strokesdeleting.md)                              | Occurs before [**IInkStrokeDisp**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master) objects are deleted from the [**Ink**](/windows/win32/msinkaut/?branch=master) property.<br/>                                                                                                                                                                             |
 | [**SystemColorsChanged**](inkpicture-systemcolorschanged.md)                      | Occurs after the system colors change.<br/>                                                                                                                                                                                                                                                                  |
 | [**SystemGesture**](inkpicture-systemgesture.md)                                  | Occurs when a system gesture is recognized.<br/>                                                                                                                                                                                                                                                             |
 | [**TabletAdded Event**](inkpicture-tabletadded.md)                                | Occurs when a tablet is added to the system.<br/>                                                                                                                                                                                                                                                            |
@@ -76,28 +81,28 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 
 
 
- 
+ 
 
 
 
 | Method                                                                                   | Description                                                                                                                                                                    |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetEventInterest Method**](inkpicture-geteventinterest.md)                           | Returns a value that indicates whether the InkPicture control has interest in a particular event.<br/>                                                                   |
-| [**GetGestureStatus**](inkpicture-getgesturestatus.md)                                  | Returns a value that indicates whether the InkPicture control has interest in a particular application gesture.<br/>                                                     |
-| [**GetWindowInputRectangle Method**](inkpicture-getwindowinputrectangle.md)             | Returns the window rectangle, in pixels, within which ink is drawn.<br/>                                                                                                 |
-| [**HitTestSelection**](inkpicture-hittestselection.md)                                  | Returns a member of the [**SelectionHitResult**](selectionhitresult.md) enumeration, which specifies which part of a selection, if any, was hit during a hit test.<br/> |
+| [**GetGestureStatus**](/windows/win32/msinkaut/?branch=master)                                  | Returns a value that indicates whether the InkPicture control has interest in a particular application gesture.<br/>                                                     |
+| [**GetWindowInputRectangle Method**](/windows/win32/msinkaut/?branch=master)             | Returns the window rectangle, in pixels, within which ink is drawn.<br/>                                                                                                 |
+| [**HitTestSelection**](/windows/win32/msinkaut/?branch=master)                                  | Returns a member of the [**SelectionHitResult**](/windows/win32/msinkaut/ne-msinkaut-selectionhitresult?branch=master) enumeration, which specifies which part of a selection, if any, was hit during a hit test.<br/> |
 | [**SetAllTabletsMode Method**](inkpicture-setalltabletsmode.md)                         | Enables the InkPicture control to collect ink from any tablet attached to the Tablet PC.<br/>                                                                            |
 | [**SetEventInterest Method**](inkpicture-seteventinterest.md)                           | Sets a value that indicates whether an InkPicture control has interest in a specified event.<br/>                                                                        |
 | SetFocus                                                                                 | Moves the focus to the InkPicture control.<br/>                                                                                                                          |
 | [**SetGestureStatus Method**](inkpicture-setgesturestatus.md)                           | Sets the interest of the InkPicture object in a specified application gesture.<br/>                                                                                      |
-| [**SetSingleTabletIntegratedMode Method**](inkpicture-setsingletabletintegratedmode.md) | Sets the InkPicture control to collect ink from only one tablet attached to the Tablet PC. Ink from other tablets is ignored.<br/>                                       |
-| [**SetWindowInputRectangle Method**](inkpicture-setwindowinputrectangle.md)             | Specifies the window rectangle to set, in window coordinates, within which ink is drawn.<br/>                                                                            |
+| [**SetSingleTabletIntegratedMode Method**](/windows/win32/msinkaut/?branch=master) | Sets the InkPicture control to collect ink from only one tablet attached to the Tablet PC. Ink from other tablets is ignored.<br/>                                       |
+| [**SetWindowInputRectangle Method**](/windows/win32/msinkaut/?branch=master)             | Specifies the window rectangle to set, in window coordinates, within which ink is drawn.<br/>                                                                            |
 | ShowWhatsThis                                                                            | Displays a selected topic in a Help file using the "What's This" popup provided by Help in 32-bit Microsoft Windows operating systems (design-time only).<br/>           |
 | ZOrder                                                                                   | Places the control at the front or back of the z-order within its graphical level (design-time only).<br/>                                                               |
 
 
 
- 
+ 
 
 
 
@@ -114,124 +119,124 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>AutoRedraw Property</strong>](inkpicture-autoredraw.md)</td>
-<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the [<strong>InkDisp</strong>](inkdisp-class.md) object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
+<td>[<strong>AutoRedraw Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
+<td>Gets or sets a value that specifies whether the InkPicture control repaints when the window is invalidated (whether the [<strong>InkDisp</strong>](/windows/win32/msinkaut/?branch=master) object currently associated with InkPicture control is automatically redrawn when the window associated with the InkPicture receives a WM_PAINT message).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>BackColor</strong>](inkpicture-backcolor.md)</td>
+<td>[<strong>BackColor</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the background color for the InkPicture control. The default background color is the system window background color, which is typically white.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>CollectingInk Property</strong>](inkpicture-collectingink.md)</td>
+<td>[<strong>CollectingInk Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets the value that specifies whether the InkPicture control is collecting ink (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CollectionMode</strong>](inkpicture-collectionmode.md)</td>
+<td>[<strong>CollectionMode</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the collection mode that determines whether ink, gestures, or ink and gestures are recognized as the user writes.<br/></td>
 </tr>
 <tr class="odd">
 <td>[<strong>Cursors Property</strong>](inkpicture-cursors.md)</td>
-<td>Gets the [<strong>IInkCursors</strong>](iinkcursors.md) collection available for use in the InkPicture control's inking region.<br/></td>
+<td>Gets the [<strong>IInkCursors</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkcursors?branch=master) collection available for use in the InkPicture control's inking region.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>CustomStrokes</strong>](inkpicture-customstrokes.md)</td>
-<td>Gets the [<strong>IInkCustomStrokes</strong>](iinkcustomstrokes.md) collection to be persisted with the ink (design-time only).<br/></td>
+<td>[<strong>CustomStrokes</strong>](/windows/win32/msinkaut/?branch=master)</td>
+<td>Gets the [<strong>IInkCustomStrokes</strong>](/windows/win32/msinkaut/nn-msinkaut-iinkcustomstrokes?branch=master) collection to be persisted with the ink (design-time only).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DefaultDrawingAttributes Property</strong>](inkpicture-defaultdrawingattributes.md)</td>
-<td>Gets or sets the default [<strong>InkDrawingAttributes</strong>](inkdrawingattributes-class.md) collection to use when drawing and displaying ink (run time only).<br/></td>
+<td>[<strong>DefaultDrawingAttributes Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
+<td>Gets or sets the default [<strong>InkDrawingAttributes</strong>](/windows/win32/msinkaut/?branch=master) collection to use when drawing and displaying ink (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>DesiredPacketDescription Property</strong>](inkpicture-desiredpacketdescription.md)</td>
+<td>[<strong>DesiredPacketDescription Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the packet description of the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>DynamicRendering Property</strong>](inkpicture-dynamicrendering.md)</td>
+<td>[<strong>DynamicRendering Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the value that specifies whether the InkPicture control dynamically renders the ink as it is collected.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EditingMode</strong>](inkpicture-editingmode.md)</td>
+<td>[<strong>EditingMode</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Enabled</strong>](inkpicture-enabled.md)</td>
+<td>[<strong>Enabled</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets a value that determines whether the InkPicture control can respond to user-generated events.<br/>
 <blockquote>
 [!Note]<br />
-This property is equivalent to the [<strong>InkEnabled</strong>](inkpicture-inkenabled.md) property.
+This property is equivalent to the [<strong>InkEnabled</strong>](/windows/win32/msinkaut/?branch=master) property.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>EraserMode</strong>](inkpicture-erasermode.md)</td>
+<td>[<strong>EraserMode</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the value that specifies whether ink is erased by stroke or by point.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>EraserWidth</strong>](inkpicture-eraserwidth.md)</td>
+<td>[<strong>EraserWidth</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the value that specifies the width of the eraser pen tip.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>hWnd</strong>](inkpicture-hwnd.md)</td>
+<td>[<strong>hWnd</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets the window handle to which the InkPicture control is bound. (run time only)<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Ink</strong>](inkpicture-ink.md)</td>
-<td>Gets or sets the [<strong>InkDisp</strong>](inkdisp-class.md) object that is associated with the InkPicture control (run time only).<br/></td>
+<td>[<strong>Ink</strong>](/windows/win32/msinkaut/?branch=master)</td>
+<td>Gets or sets the [<strong>InkDisp</strong>](/windows/win32/msinkaut/?branch=master) object that is associated with the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>InkEnabled</strong>](inkpicture-inkenabled.md)</td>
+<td>[<strong>InkEnabled</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets a value that specifies whether the InkPicture control collects pen input (in-air packets, cursor in range events, and so on).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MarginX Property</strong>](inkpicture-marginx.md)</td>
+<td>[<strong>MarginX Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the x-axis margin around the window rectangle in screen coordinates.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MarginY Property</strong>](inkpicture-marginy.md)</td>
+<td>[<strong>MarginY Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the y-axis margin around the window rectangle in screen coordinates.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>MouseIcon Property</strong>](inkpicture-mouseicon.md)</td>
+<td>[<strong>MouseIcon Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets the current custom mouse icon.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>MousePointer Property</strong>](inkpicture-mousepointer.md)</td>
+<td>[<strong>MousePointer Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets a value that indicates the type of mouse pointer that appears when the mouse is over a particular part of the InkPicture control.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Picture</strong>](inkpicture-picture.md)</td>
+<td>[<strong>Picture</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets the graphics file to appear on the InkPicture control.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>Renderer Property</strong>](inkpicture-renderer.md)</td>
-<td>Gets or sets the [<strong>InkRenderer</strong>](inkrenderer-class.md) object that is used to draw ink on the InkPicture control (run time only).<br/></td>
+<td>[<strong>Renderer Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
+<td>Gets or sets the [<strong>InkRenderer</strong>](/windows/win32/msinkaut/?branch=master) object that is used to draw ink on the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Selection</strong>](inkpicture-selection.md)</td>
-<td>Gets the [InkStrokes](inkstrokes-collection.md) collection currently selected inside the InkPicture control (run time only).<br/></td>
+<td>[<strong>Selection</strong>](/windows/win32/msinkaut/?branch=master)</td>
+<td>Gets the [InkStrokes](/windows/win32/msinkaut/?branch=master) collection currently selected inside the InkPicture control (run time only).<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SizeMode</strong>](inkpicture-sizemode.md)</td>
+<td>[<strong>SizeMode</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets how the control handles image placement and sizing.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>SupportHighContrastInk Property</strong>](inkpicture-supporthighcontrastink.md)</td>
+<td>[<strong>SupportHighContrastInk Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets a value that specifies whether ink is rendered as just one color, Color = COLOR_WINDOWTEXT (from the GetSystemMetrics call) when the system is in High Contrast mode.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>SupportHighContrastSelectionUI</strong>](inkpicture-supporthighcontrastselectionui.md)</td>
+<td>[<strong>SupportHighContrastSelectionUI</strong>](/windows/win32/msinkaut/?branch=master)</td>
 <td>Gets or sets a value that specifies whether all selection user interfaces (selection bounding box and selection handles) are drawn in high contrast when the system is in High Contrast mode.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>Tablet Property</strong>](inkpicture-tablet.md)</td>
-<td>Gets the [<strong>IInkTablet</strong>](iinktablet.md) object that the InkPicture control is currently using to collect input.<br/></td>
+<td>[<strong>Tablet Property</strong>](/windows/win32/msinkaut/?branch=master)</td>
+<td>Gets the [<strong>IInkTablet</strong>](/windows/win32/msinkaut/nn-msinkaut-iinktablet?branch=master) object that the InkPicture control is currently using to collect input.<br/></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -245,7 +250,7 @@ You can use the InkPicture control to render ink in Microsoft Windows 2000, Wind
 
 If you use Windows 2000, Windows Server 2003, any edition of Windows XP other than Windows XP Tablet PC Edition 2005, you can assign values to the ambient properties of the InkPicture control, then copy and paste ink to other applications. However, the value of its InkEnabled property will always be **FALSE**.
 
-Persisted [**InkDisp**](inkdisp-class.md) objects can be loaded and displayed on all editions of Windows Vista and XP and on systems that have only the Windows XP Tablet PC Edition Software Development Kit (SDK) installed. **InkDisp** objects can only be converted to text (recognized), if Windows Vista or the Windows XP Tablet PC Edition 2005 is installed.
+Persisted [**InkDisp**](/windows/win32/msinkaut/?branch=master) objects can be loaded and displayed on all editions of Windows Vista and XP and on systems that have only the Windows XP Tablet PC Edition Software Development Kit (SDK) installed. **InkDisp** objects can only be converted to text (recognized), if Windows Vista or the Windows XP Tablet PC Edition 2005 is installed.
 
 If operations on this control do not succeed, a legal HRESULT is returned. If error conditions result, check the returned HRESULT against the error.
 
@@ -258,7 +263,7 @@ To improve your application's performance, manually dispose of an InkPicture con
 > [!Note]  
 > When an InkPicture control is overlayed with another control, such as a **GroupBox** set to transparent, the InkPicture will not collect ink. The InkPicture must be the top-most control in the Z-order or it must be a child of the **GroupBox**.
 
- 
+ 
 
 ## COM Implementation
 
@@ -271,12 +276,12 @@ This object implements the **IInkPicture** COM interface.
 [InkEdit Control Reference](inkedit-control-reference.md)
 </dt> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

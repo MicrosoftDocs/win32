@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the ID3DXFile interface to create instances of the ID3DXFileEnumObject and ID3DXFileSaveObject interfaces, and to register templates.'
-ms.assetid: '472d45b1-5c03-4417-a005-91f802667919'
+---
+Description: Applications use the methods of the ID3DXFile interface to create instances of the ID3DXFileEnumObject and ID3DXFileSaveObject interfaces, and to register templates.
+ms.assetid: 472d45b1-5c03-4417-a005-91f802667919
 title: ID3DXFile interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFile interface

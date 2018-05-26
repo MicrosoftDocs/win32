@@ -1,8 +1,9 @@
 ---
 title: EN\_UPDATE notification code
 description: Sent when an edit control is about to redraw itself.
-ms.assetid: '59138736-6cc9-4a3f-95f3-ada9cbf253cb'
-keywords: ["EN_UPDATE notification code Windows Controls"]
+ms.assetid: 59138736-6cc9-4a3f-95f3-ada9cbf253cb
+keywords:
+- EN_UPDATE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_UPDATE notification code
@@ -49,7 +55,7 @@ A handle to the edit control.
 
 **Rich Edit 1.0:** To receive EN\_UPDATE notification codes, specify [**ENM\_UPDATE**](rich-edit-control-event-mask-flags.md#enm-update) in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
-**Rich Edit 2.0 and later:** The [**ENM\_UPDATE**](rich-edit-control-event-mask-flags.md#enm-update) flag is ignored. The EN\_UPDATE notification code is always received. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, to receive EN\_UPDATE notification codes you must specify **ENM\_UPDATE** in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
+**Rich Edit 2.0 and later:** The [**ENM\_UPDATE**](rich-edit-control-event-mask-flags.md#enm-update) flag is ignored. The EN\_UPDATE notification code is always received. However, when Microsoft Rich Edit 3.0 emulates Microsoft Rich Edit 1.0, to receive EN\_UPDATE notification codes you must specify **ENM\_UPDATE** in the mask sent with the [**EM\_SETEVENTMASK**](em-seteventmask.md) message.
 
 For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
@@ -59,8 +65,8 @@ For information about the compatibility of rich edit versions with the various s
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -81,9 +87,9 @@ For information about the compatibility of rich edit versions with the various s
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

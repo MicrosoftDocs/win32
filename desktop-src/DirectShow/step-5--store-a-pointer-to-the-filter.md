@@ -1,7 +1,12 @@
 ---
-Description: 'Step 5.'
-ms.assetid: '7c715129-5bdf-468f-96cd-a46ab9c97f4c'
-title: 'Step 5. Store a Pointer to the Filter'
+Description: Step 5.
+ms.assetid: 7c715129-5bdf-468f-96cd-a46ab9c97f4c
+title: Step 5. Store a Pointer to the Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 5. Store a Pointer to the Filter

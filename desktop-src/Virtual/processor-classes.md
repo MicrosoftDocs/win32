@@ -1,7 +1,12 @@
 ---
 title: Processor Classes
 description: The processor classes model a processor for a virtual system.
-ms.assetid: 'c3e894de-2175-4a53-bd59-92e916a61c1e'
+ms.assetid: c3e894de-2175-4a53-bd59-92e916a61c1e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processor Classes
@@ -22,7 +27,7 @@ The following are virtualization WMI classes related to the processor.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ The following are virtualization WMI classes related to the processor.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

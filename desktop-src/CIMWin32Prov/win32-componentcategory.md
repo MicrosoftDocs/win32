@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_ComponentCategory WMI class represents a component category.'
+Description: The Win32\_ComponentCategory WMI class represents a component category.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '9c6fc856-8300-4fa5-ae1c-a7d6476f5c51'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 9c6fc856-8300-4fa5-ae1c-a7d6476f5c51
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ComponentCategory class'
+title: Win32\_ComponentCategory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ComponentCategory class
@@ -24,12 +27,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{0F73ED5A-8ED9-11d2-B340-00105A1F8569}"), AMENDMENT]
 class Win32_ComponentCategory : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Status;
-  string   CategoryId;
-  string   Name;
+  string   Status;
+  string   CategoryId;
+  string   Name;
 };
 ```
 
@@ -249,8 +252,8 @@ The **Win32\_ComponentCategory** class is derived from [**CIM\_LogicalElement**]
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -267,9 +270,9 @@ The **Win32\_ComponentCategory** class is derived from [**CIM\_LogicalElement**]
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetState method retrieves the filters''s state (running, stopped, or paused).'
-ms.assetid: '5d35824c-2509-499a-bbb1-1fb916b51808'
-title: 'CBaseRenderer.GetState method'
+Description: The GetState method retrieves the filterss state (running, stopped, or paused).
+ms.assetid: 5d35824c-2509-499a-bbb1-1fb916b51808
+title: CBaseRenderer.GetState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.GetState method
@@ -13,8 +18,8 @@ The `GetState` method retrieves the filters's state (running, stopped, or paused
 
 ```C++
 HRESULT GetState(
-   DWORD        dwMilliSecsTimeout,
-   FILTER_STATE *State
+   DWORD        dwMilliSecsTimeout,
+   FILTER_STATE *State
 );
 ```
 
@@ -34,7 +39,7 @@ Time-out interval, in milliseconds.
 *State* 
 </dt> <dd>
 
-Pointer to a variable that receives a member of the [**FILTER\_STATE**](filter-state.md) enumerated type, indicating the filter's state.
+Pointer to a variable that receives a member of the [**FILTER\_STATE**](/windows/win32/strmif/ne-strmif-_filterstate?branch=master) enumerated type, indicating the filter's state.
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +81,9 @@ This method overrides the [**CBaseFilter::GetState**](cbasefilter-getstate.md) m
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,15 @@ description: Enables management of a storage replica.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '76b031de-9277-4d9c-815c-a3d4dbc27791'
-ms.prod: 'windows-server-dev'
+ms.assetid: 76b031de-9277-4d9c-815c-a3d4dbc27791
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Storage Replica Provider

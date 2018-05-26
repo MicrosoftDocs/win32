@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a Boolean value that specifies whether the cryptographic provider is implemented entirely in software.'
+Description: Retrieves a Boolean value that specifies whether the cryptographic provider is implemented entirely in software.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '337f822f-a2ad-450d-b5c3-883457c22be1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 337f822f-a2ad-450d-b5c3-883457c22be1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ServicePrivateKeyProtectionInformation.IsServicePrivateKeySoftwareBased property'
+title: ServicePrivateKeyProtectionInformation.IsServicePrivateKeySoftwareBased property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ServicePrivateKeyProtectionInformation.IsServicePrivateKeySoftwareBased property
@@ -101,7 +104,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -113,9 +116,9 @@ END FUNCTION
 [**ServicePrivateKeyProtectionInformation**](serviceprivatekeyprotectioninformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

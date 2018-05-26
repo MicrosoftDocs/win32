@@ -1,8 +1,9 @@
 ---
 title: glPushName function
 description: The glPushName and glPopName functions push and pop the name stack.
-ms.assetid: 'e4319018-42c0-4567-b67f-31dbdbee9b13'
-keywords: ["glPushName function OpenGL"]
+ms.assetid: e4319018-42c0-4567-b67f-31dbdbee9b13
+keywords:
+- glPushName function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glPushName function
@@ -22,7 +28,7 @@ The **glPushName** and [**glPopName**](glpopname.md) functions push and pop the 
 
 ```C++
 void WINAPI glPushName(
-   GLuint name
+   GLuint name
 );
 ```
 
@@ -87,8 +93,8 @@ The following functions retrieve information related to **glPushName** and [**gl
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -117,9 +123,9 @@ The following functions retrieve information related to **glPushName** and [**gl
 [**glSelectBuffer**](glselectbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

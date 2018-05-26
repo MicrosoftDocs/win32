@@ -1,7 +1,12 @@
 ---
 title: or (sm4 - asm)
 description: Bitwise or.
-ms.assetid: 'BBC06F8C-4C86-4077-A1F9-383D6A8FBED3'
+ms.assetid: BBC06F8C-4C86-4077-A1F9-383D6A8FBED3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # or (sm4 - asm)
@@ -15,7 +20,7 @@ Bitwise or.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Bitwise or.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -62,7 +67,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -71,9 +76,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

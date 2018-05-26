@@ -1,7 +1,12 @@
 ---
-Description: 'The following examples demonstrate device management:'
-ms.assetid: '0f960d7c-3606-4ed4-99fd-00b2ea2a2aae'
+Description: The following examples demonstrate device management
+ms.assetid: 0f960d7c-3606-4ed4-99fd-00b2ea2a2aae
 title: Using Device Management
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Device Management

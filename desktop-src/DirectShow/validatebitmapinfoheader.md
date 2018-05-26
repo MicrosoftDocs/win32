@@ -1,15 +1,20 @@
-﻿---
-Description: 'The ValidateBitmapInfoHeader function checks a BITMAPINFOHEADER structure for certain common errors that can cause buffer overruns or integer overflows.'
-ms.assetid: 'a797c286-ed77-437f-9ec1-1ef3a189bf62'
+---
+Description: The ValidateBitmapInfoHeader function checks a BITMAPINFOHEADER structure for certain common errors that can cause buffer overruns or integer overflows.
+ms.assetid: a797c286-ed77-437f-9ec1-1ef3a189bf62
 title: ValidateBitmapInfoHeader function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ValidateBitmapInfoHeader function
 
-The `ValidateBitmapInfoHeader` function checks a [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure for certain common errors that can cause buffer overruns or integer overflows.
+The `ValidateBitmapInfoHeader` function checks a [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure for certain common errors that can cause buffer overruns or integer overflows.
 
 > [!Note]  
-> This function does not guarantee that the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure is valid or that code using the structure is secure.
+> This function does not guarantee that the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure is valid or that code using the structure is secure.
 
  
 
@@ -32,7 +37,7 @@ BOOL ValidateBitmapInfoHeader(
 *pbmi* 
 </dt> <dd>
 
-Pointer to the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure to validate.
+Pointer to the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure to validate.
 
 </dd> <dt>
 
@@ -45,7 +50,7 @@ Size of the memory block that holds the structure, in bytes.
 
 ## Return value
 
-Returns a Boolean value. If the value is **FALSE**, the [**BITMAPINFOHEADER**](bitmapinfoheader.md) structure is not valid.
+Returns a Boolean value. If the value is **FALSE**, the [**BITMAPINFOHEADER**](/windows/win32/WinGDI/ns-wingdi-tagbitmapinfoheader?branch=master) structure is not valid.
 
 ## Remarks
 

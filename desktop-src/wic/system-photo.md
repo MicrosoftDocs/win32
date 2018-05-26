@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains the photo metadata policies for System.Photo properties.'
-ms.assetid: '19E94CA6-C5E0-4e2f-A931-B08B6E2BF4DC'
-title: 'System.Photo'
+---
+Description: This section contains the photo metadata policies for System.Photo properties.
+ms.assetid: 19E94CA6-C5E0-4e2f-A931-B08B6E2BF4DC
+title: System.Photo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo

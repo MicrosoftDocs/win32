@@ -1,7 +1,12 @@
-﻿---
-Description: 'Queries the blit status of the specified surface.'
-ms.assetid: '0221bdc6-2146-4f4d-afb5-d1f701446d5e'
+---
+Description: Queries the blit status of the specified surface.
+ms.assetid: 0221bdc6-2146-4f4d-afb5-d1f701446d5e
 title: NtGdiDdGetBltStatus function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdGetBltStatus function

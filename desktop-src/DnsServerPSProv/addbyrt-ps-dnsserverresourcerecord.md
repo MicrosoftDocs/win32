@@ -2,13 +2,16 @@
 title: AddByRt method of the PS\_DnsServerResourceRecord class
 description: Adds a Route Through (RT) resource record type in the specified zone.
 audience: developer
-ms.assetid: '995b1d99-0e80-465c-b9b3-fdf1b7ebfa12'
-ms.prod: 'windows-server-dev'
+ms.assetid: 995b1d99-0e80-465c-b9b3-fdf1b7ebfa12
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByRt method", "AddByRt method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByRt method"]
+keywords:
+- AddByRt method
+- AddByRt method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByRt method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByRt method of the PS\_DnsServerResourceRecord class
@@ -28,19 +34,19 @@ Adds a Route Through (RT) resource record type in the specified zone.
 
 ```mof
 uint32 AddByRt(
-  [in]  string                  IntermediateHost,
-  [in]  string                  ZoneName,
-  [in]  uint16                  Preference,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  string                  Name,
-  [in]  string                  ComputerName,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 RT,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  IntermediateHost,
+  [in]  string                  ZoneName,
+  [in]  uint16                  Preference,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  string                  Name,
+  [in]  string                  ComputerName,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 RT,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -125,7 +131,7 @@ If specified, creates an RT DNS Server resource record.
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -134,7 +140,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -152,7 +158,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -166,9 +172,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

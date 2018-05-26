@@ -4,11 +4,15 @@ description: To extend the Active Directory schema successfully you can obtain a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9ed2dd0a-620d-4856-a8a1-2d2a4468fd4c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9ed2dd0a-620d-4856-a8a1-2d2a4468fd4c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Obtaining an Object Identifier from Microsoft"]
+keywords:
+- Obtaining an Object Identifier from Microsoft
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Obtaining an Object Identifier from Microsoft
@@ -18,7 +22,7 @@ To extend the Active Directory schema successfully you can obtain a root OID fro
 > [!Note]  
 > For instructions on obtaining a link-Id from Microsoft, please visit the [Linked Attributes](linked-attributes.md) topic.
 
- 
+ 
 
 ## After You Have Obtained a Base OID
 
@@ -37,11 +41,11 @@ If your assigned base OID was 1.2.840.113556.1.8000.999999, you might create cat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

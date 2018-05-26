@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxPorts object represents a collection of FaxPort objects.'
-ms.assetid: '74ccb74e-7eb9-4617-ae0b-01f6f2095801'
+---
+Description: The FaxPorts object represents a collection of FaxPort objects.
+ms.assetid: 74ccb74e-7eb9-4617-ae0b-01f6f2095801
 title: FaxPorts object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPorts object

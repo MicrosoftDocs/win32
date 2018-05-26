@@ -1,7 +1,12 @@
 ---
-Description: 'Sets credentials to be used with an HTTP server, whether it is a proxy server or an originating server.'
-ms.assetid: 'd96c6e76-92b8-4ad7-8ca7-a9acbed523ff'
-title: 'IWinHttpRequest::SetCredentials method'
+Description: Sets credentials to be used with an HTTP server, whether it is a proxy server or an originating server.
+ms.assetid: d96c6e76-92b8-4ad7-8ca7-a9acbed523ff
+title: IWinHttpRequestSetCredentials method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::SetCredentials method
@@ -13,9 +18,9 @@ The **SetCredentials** method sets credentials to be used with an HTTP server, w
 
 ```C++
 HRESULT SetCredentials(
-  [in] BSTR                             UserName,
-  [in] BSTR                             Password,
-  [in] HTTPREQUEST_SETCREDENTIALS_FLAGS Flags
+  [in] BSTR                             UserName,
+  [in] BSTR                             Password,
+  [in] HTTPREQUEST_SETCREDENTIALS_FLAGS Flags
 );
 ```
 
@@ -53,7 +58,7 @@ Specifies when [**IWinHttpRequest**](iwinhttprequest-interface.md) uses credenti
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -66,9 +71,9 @@ The return value is **S\_OK** on success or an error value otherwise.
 This method returns an error value if a call to [**Open**](iwinhttprequest-open.md) has not completed successfully. It is assumed that some measure of interaction with a proxy server or origin server must occur before users can set credentials for the session. Moreover, until users know which authentication scheme(s) are supported, they cannot format the credentials.
 
 > [!Note]  
-> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
+> For Windows XP and Windows 2000, see the [Run-Time Requirements](winhttp-start-page.md) section of the WinHTTP Start Page.
 
- 
+ 
 
 To authenticate with both the server and the proxy, the application must call **SetCredentials** twice; first with the *Flags* parameter set to **HTTPREQUEST\_SETCREDENTIALS\_FOR\_SERVER**, and second, with the *Flags* parameter set to **HTTPREQUEST\_SETCREDENTIALS\_FOR\_PROXY**.
 
@@ -268,9 +273,9 @@ WScript.Echo(WinHttpReq.GetAllResponseHeaders());
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -290,9 +295,9 @@ WScript.Echo(WinHttpReq.GetAllResponseHeaders());
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

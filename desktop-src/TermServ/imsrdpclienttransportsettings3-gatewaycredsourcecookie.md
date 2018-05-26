@@ -4,11 +4,14 @@ description: Specifies if the credential source is cookie based.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '039459a3-7a83-444c-a0b4-46ef0dc5ddd0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 039459a3-7a83-444c-a0b4-46ef0dc5ddd0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayCredSourceCookie property Remote Desktop Services", "GatewayCredSourceCookie property Remote Desktop Services , IMsRdpClientTransportSettings3 interface", "IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayCredSourceCookie property"]
+keywords:
+- GatewayCredSourceCookie property Remote Desktop Services
+- GatewayCredSourceCookie property Remote Desktop Services , IMsRdpClientTransportSettings3 interface
+- IMsRdpClientTransportSettings3 interface Remote Desktop Services , GatewayCredSourceCookie property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings3::GatewayCredSourceCookie property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayCredSourceCookie(
-  [in]          ULONG ulProxyCredSourceCookie
+  [in]          ULONG ulProxyCredSourceCookie
 );
 
 HRESULT get_GatewayCredSourceCookie(
-  [out, retval] ULONG *pulProxyCredSourceCookie
+  [out, retval] ULONG *pulProxyCredSourceCookie
 );
 ```
 
@@ -52,8 +58,8 @@ A **ULONG** value that specifies if the credential source is cookie based.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows 7<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -66,9 +72,9 @@ A **ULONG** value that specifies if the credential source is cookie based.
 [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

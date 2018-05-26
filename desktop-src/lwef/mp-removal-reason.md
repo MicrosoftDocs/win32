@@ -1,8 +1,10 @@
 ---
 title: MP\_REMOVAL\_REASON enumeration
 description: FastPath signature removal reason.
-ms.assetid: 'A09B4903-E53C-4DA1-BD0B-6DE0124FCAB3'
-keywords: ["MP_REMOVAL_REASON enumeration Legacy Windows Environment Features", "PMP_REMOVAL_REASON enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: A09B4903-E53C-4DA1-BD0B-6DE0124FCAB3
+keywords:
+- MP_REMOVAL_REASON enumeration Legacy Windows Environment Features
+- PMP_REMOVAL_REASON enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MP\_REMOVAL\_REASON enumeration
@@ -22,9 +29,9 @@ FastPath signature removal reason.
 
 ```C++
 typedef enum tagMP_REMOVAL_REASON { 
-  MP_REMOVAL_UNKNOWN    = 0,
-  MP_REMOVAL_MANUAL     = 1,
-  MP_REMOVAL_AUTOMATIC  = 2
+  MP_REMOVAL_UNKNOWN    = 0,
+  MP_REMOVAL_MANUAL     = 1,
+  MP_REMOVAL_AUTOMATIC  = 2
 } MP_REMOVAL_REASON, *PMP_REMOVAL_REASON;
 ```
 
@@ -61,15 +68,15 @@ Automatic.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

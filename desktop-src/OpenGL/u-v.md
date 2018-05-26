@@ -2,8 +2,17 @@
 title: U V
 description: Definitions of OpenGL terms that begin with the letter V.
 Robots: noindex, nofollow
-ms.assetid: 'e678b5f2-f1b7-48b2-8bb4-d174b0cf0a53'
-keywords: ["vertex", "vertices", "viewpoint", "view volume"]
+ms.assetid: e678b5f2-f1b7-48b2-8bb4-d174b0cf0a53
+keywords:
+- vertex
+- vertices
+- viewpoint
+- view volume
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # U V

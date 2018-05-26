@@ -4,11 +4,14 @@ description: The date the content is valid until.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.UserPolicy.ContentValidUntil'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.UserPolicy.ContentValidUntil
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ContentValidUntil property", "ContentValidUntil property, UserPolicy class", "UserPolicy class, ContentValidUntil property"]
+keywords:
+- ContentValidUntil property
+- ContentValidUntil property, UserPolicy class
+- UserPolicy class, ContentValidUntil property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserPolicy.ContentValidUntil property
@@ -63,9 +69,9 @@ Validity time
 [**UserPolicy**](userpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

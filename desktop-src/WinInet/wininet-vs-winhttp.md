@@ -1,8 +1,14 @@
 ---
 title: WinINet vs. WinHTTP
 description: With a few exceptions, WinINet is a superset of WinHTTP. When selecting between the two, you should use WinINet, unless you plan to run within a service or service-like process that requires impersonation and session isolation.
-ms.assetid: '77386b54-2c86-4a30-8c4c-88d5f15313d7'
-keywords: ["WinINet vs. WinHTTP"]
+ms.assetid: 77386b54-2c86-4a30-8c4c-88d5f15313d7
+keywords:
+- WinINet vs. WinHTTP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WinINet vs. WinHTTP
@@ -36,7 +42,7 @@ With a few exceptions, [WinINet](portal.md) is a superset of [WinHTTP](https://m
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -48,9 +54,9 @@ With a few exceptions, [WinINet](portal.md) is a superset of [WinHTTP](https://m
 [WinHTTP](https://msdn.microsoft.com/library/windows/desktop/aa384273)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

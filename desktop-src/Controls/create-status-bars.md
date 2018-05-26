@@ -1,17 +1,22 @@
 ---
 title: How to Create Status Bars
 description: You can create a status bar by using the CreateStatusWindow function or by using the CreateWindowEx function and specifying the STATUSCLASSNAME window class.
-ms.assetid: '4ED4BFD3-904D-4198-8152-5DD13CA7C189'
+ms.assetid: 4ED4BFD3-904D-4198-8152-5DD13CA7C189
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Status Bars
 
-You can create a status bar by using the [**CreateStatusWindow**](createstatuswindow.md) function or by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md#statusclassname) window class.
+You can create a status bar by using the [**CreateStatusWindow**](/windows/win32/Commctrl/nf-commctrl-createstatuswindowa?branch=master) function or by using the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function and specifying the [**STATUSCLASSNAME**](common-control-window-classes.md#statusclassname) window class.
 
 After you create the status bar, you can divide it into parts, set the text for each part, and control the appearance of the window by using status bar messages.
 
 > [!Note]  
-> To ensure that the common control DLL is loaded, use the [**InitCommonControls**](initcommoncontrols.md) function first.
+> To ensure that the common control DLL is loaded, use the [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) function first.
 
  
 

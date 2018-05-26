@@ -4,11 +4,13 @@ description: Represents the result of a Diagnose method call on a storage object
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0011e1a7-f5ca-43e4-a6f8-fc0ad0681f0d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 0011e1a7-f5ca-43e4-a6f8-fc0ad0681f0d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageDiagnoseResult class", "MSFT_SMStorageDiagnoseResult class, described"]
+keywords:
+- MSFT_SMStorageDiagnoseResult class
+- MSFT_SMStorageDiagnoseResult class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageDiagnoseResult class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Indication, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMStorageDiagnoseResult
 {
-  String                   FaultId;
-  String                   FaultType;
-  String                   FaultingObjectDescription;
-  String                   FaultingObjectLocation;
+  String                   FaultId;
+  String                   FaultType;
+  String                   FaultingObjectDescription;
+  String                   FaultingObjectLocation;
   MSFT_SMStorageObject REF FaultingObject;
-  String                   Reason;
-  String                   RecommendedActions[];
-  UInt16                   PerceivedSeverity;
-  Datetime                 EventTime;
+  String                   Reason;
+  String                   RecommendedActions[];
+  UInt16                   PerceivedSeverity;
+  Datetime                 EventTime;
 };
 ```
 
@@ -283,7 +288,7 @@ An array that contains descriptions of the recommended actions to take to resolv
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -297,9 +302,9 @@ An array that contains descriptions of the recommended actions to take to resolv
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

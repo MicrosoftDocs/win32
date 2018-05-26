@@ -1,7 +1,12 @@
 ---
-Description: 'The QueueSample method queues a sample.'
-ms.assetid: 'f34c0689-5afb-4941-bc3a-e4765fbbe525'
-title: 'COutputQueue.QueueSample method'
+Description: The QueueSample method queues a sample.
+ms.assetid: f34c0689-5afb-4941-bc3a-e4765fbbe525
+title: COutputQueue.QueueSample method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.QueueSample method
@@ -13,7 +18,7 @@ The `QueueSample` method queues a sample.
 
 ```C++
 void QueueSample(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -26,7 +31,7 @@ void QueueSample(
 *pSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -52,7 +57,7 @@ This method can also be used to put control messages onto the queue. A control m
 
 
 
- 
+ 
 
 This is a protected method, which the **COutputQueue** class uses internally.
 
@@ -74,9 +79,9 @@ This is a protected method, which the **COutputQueue** class uses internally.
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

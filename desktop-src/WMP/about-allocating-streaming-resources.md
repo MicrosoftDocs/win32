@@ -1,8 +1,18 @@
 ---
 title: About Allocating Streaming Resources
 description: About Allocating Streaming Resources
-ms.assetid: 'b09633c4-58f7-4e3e-bb4d-007845baaccf'
-keywords: ["Windows Media Player plug-ins,audio DSP", "plug-ins,audio DSP", "digital signal processing plug-ins,audio streaming resources", "DSP plug-ins,audio streaming resources", "audio DSP plug-ins,streaming resources"]
+ms.assetid: b09633c4-58f7-4e3e-bb4d-007845baaccf
+keywords:
+- Windows Media Player plug-ins,audio DSP
+- plug-ins,audio DSP
+- digital signal processing plug-ins,audio streaming resources
+- DSP plug-ins,audio streaming resources
+- audio DSP plug-ins,streaming resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Allocating Streaming Resources

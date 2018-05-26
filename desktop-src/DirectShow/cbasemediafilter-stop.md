@@ -1,12 +1,17 @@
 ---
-Description: 'The Stop method stops the object. This method implements the IMediaFilter::Stop method.'
-ms.assetid: '9282d90a-932c-4ba0-84f1-1de2c125bfbd'
-title: 'CBaseMediaFilter.Stop method'
+Description: The Stop method stops the object. This method implements the IMediaFilterStop method.
+ms.assetid: 9282d90a-932c-4ba0-84f1-1de2c125bfbd
+title: CBaseMediaFilter.Stop method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseMediaFilter.Stop method
 
-The `Stop` method stops the object. This method implements the [**IMediaFilter::Stop**](imediafilter-stop.md) method.
+The `Stop` method stops the object. This method implements the [**IMediaFilter::Stop**](/windows/win32/Strmif/nf-strmif-imediafilter-stop?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ In the base class, this method sets the [**CBaseMediaFilter::m\_State**](cbaseme
 [**CBaseMediaFilter Class**](cbasemediafilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,16 @@
 ---
 title: Multiple-session IrLAP Support with IrLMP and TinyTP
 description: The IrLMP and TinyTP layers add multiple-session support to IrLAP.
-ms.assetid: 'b19ddeb2-b1a6-40bf-aacb-06701d25090d'
-keywords: ["IrLAP IrDA", "IrLAP IrDA", "TinyTP IrDA"]
+ms.assetid: b19ddeb2-b1a6-40bf-aacb-06701d25090d
+keywords:
+- IrLAP IrDA
+- IrLAP IrDA
+- TinyTP IrDA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multiple-session IrLAP Support with IrLMP and TinyTP

@@ -1,7 +1,12 @@
-﻿---
-Description: 'RouterAllocBidiMem allocates a block of memory of a specified size. This function is used by the port monitor to allocate memory for strings and binary objects.'
-ms.assetid: '39042c66-3db1-41bd-b06d-12aefcb007d3'
+---
+Description: RouterAllocBidiMem allocates a block of memory of a specified size. This function is used by the port monitor to allocate memory for strings and binary objects.
+ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 title: RouterAllocBidiMem function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RouterAllocBidiMem function

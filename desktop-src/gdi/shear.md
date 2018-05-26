@@ -1,12 +1,17 @@
 ---
-Description: 'Some applications provide features that shear objects drawn in the client area.'
-ms.assetid: 'e5b82013-f6b9-460d-9f53-1b50dee2064f'
+Description: Some applications provide features that shear objects drawn in the client area.
+ms.assetid: e5b82013-f6b9-460d-9f53-1b50dee2064f
 title: Shear
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shear
 
-Some applications provide features that shear objects drawn in the client area. Applications that use shear capabilities use the [**SetWorldTransform**](setworldtransform.md) function to set appropriate values in the world-space to page-space transformation. This function receives a pointer to an [**XFORM**](xform.md) structure containing the appropriate values. The eM12 and eM21 members of XFORM specify the horizontal and vertical proportionality constants, respectively.
+Some applications provide features that shear objects drawn in the client area. Applications that use shear capabilities use the [**SetWorldTransform**](/windows/win32/Wingdi/nf-wingdi-setworldtransform?branch=master) function to set appropriate values in the world-space to page-space transformation. This function receives a pointer to an [**XFORM**](/windows/win32/Wingdi/ns-wingdi-tagxform?branch=master) structure containing the appropriate values. The eM12 and eM21 members of XFORM specify the horizontal and vertical proportionality constants, respectively.
 
 There are two components of the *shear transformation*. The first alters the vertical lines in an object; the second alters the horizontal lines. The following illustration shows a 20-by-20-unit rectangle sheared horizontally when copied from world space to page space.
 

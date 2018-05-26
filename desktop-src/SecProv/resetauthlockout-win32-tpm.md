@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resets the time-out period or other mechanism that TPM manufacturers implement to protect against dictionary attacks on TPM authorization values.'
-ms.assetid: 'c2fba6a2-2d03-4ffd-9841-4a9eac0a20ac'
-title: 'ResetAuthLockOut method of the Win32\_Tpm class'
+---
+Description: Resets the time-out period or other mechanism that TPM manufacturers implement to protect against dictionary attacks on TPM authorization values.
+ms.assetid: c2fba6a2-2d03-4ffd-9841-4a9eac0a20ac
+title: ResetAuthLockOut method of the Win32\_Tpm class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ResetAuthLockOut method of the Win32\_Tpm class

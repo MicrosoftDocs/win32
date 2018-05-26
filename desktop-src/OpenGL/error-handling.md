@@ -1,8 +1,15 @@
 ---
 title: Error Handling
 description: When OpenGL detects an error, it records a current error code.
-ms.assetid: '8e40e382-14fd-44df-8e1c-ebceb34af19c'
-keywords: ["error handling OpenGL", "OpenGL error handling"]
+ms.assetid: 8e40e382-14fd-44df-8e1c-ebceb34af19c
+keywords:
+- error handling OpenGL
+- OpenGL error handling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Handling

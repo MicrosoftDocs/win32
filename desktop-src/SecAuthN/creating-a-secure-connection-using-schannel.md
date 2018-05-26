@@ -1,7 +1,12 @@
 ---
-Description: 'How to create a secure connection using Schannel.'
-ms.assetid: '94eb15c3-225b-4b6f-b29c-41e5d356a847'
+Description: How to create a secure connection using Schannel.
+ms.assetid: 94eb15c3-225b-4b6f-b29c-41e5d356a847
 title: Creating a Secure Connection Using Schannel
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Secure Connection Using Schannel

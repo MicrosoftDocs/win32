@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_NodeNodeSetting association WMI class associates 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5d6b7ba6-d690-49c4-b512-203111a4e16c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 5d6b7ba6-d690-49c4-b512-203111a4e16c
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_NodeNodeSetting class", "MicrosoftNLB_NodeNodeSetting class, described"]
+keywords:
+- MicrosoftNLB_NodeNodeSetting class
+- MicrosoftNLB_NodeNodeSetting class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_NodeNodeSetting class
@@ -36,7 +41,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MicrosoftNLB_NodeNodeSetting : CIM_ElementSetting
 {
   MicrosoftNLB_NodeSetting REF Setting;
-  MicrosoftNLB_Node        REF Element;
+  MicrosoftNLB_Node        REF Element;
 };
 ```
 
@@ -95,7 +100,7 @@ The **MicrosoftNLB\_NodeNodeSetting** class is derived from the **CIM\_ElementSe
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
@@ -115,9 +120,9 @@ The **MicrosoftNLB\_NodeNodeSetting** class is derived from the **CIM\_ElementSe
 [**MicrosoftNLB\_NodeSetting**](microsoftnlb-nodesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

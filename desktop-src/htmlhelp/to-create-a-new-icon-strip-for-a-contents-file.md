@@ -1,7 +1,12 @@
 ---
 title: To create a new icon strip for a contents file
 description: To create a new icon strip for a contents file
-ms.assetid: '418D8CB7-4ED5-493d-A81C-E0D1ABD32CB3'
+ms.assetid: 418D8CB7-4ED5-493d-A81C-E0D1ABD32CB3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To create a new icon strip for a contents file

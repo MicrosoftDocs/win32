@@ -4,11 +4,20 @@ description: To allow for rolling upgrades and backward compatibility, failover 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '919345fa-cbaa-4d01-bd3c-9ca69cab5094'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 919345fa-cbaa-4d01-bd3c-9ca69cab5094
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["version compatibility Failover Cluster", "version compatibility Failover Cluster", "version compatibility,(See also version compatibility Failover Cluster )", "version numbers Failover Cluster", "nodes Failover Cluster ,versions", "clusters Failover Cluster ,versions"]
+keywords:
+- version compatibility Failover Cluster
+- version compatibility Failover Cluster
+- version compatibility,(See also version compatibility Failover Cluster )
+- version numbers Failover Cluster
+- nodes Failover Cluster ,versions
+- clusters Failover Cluster ,versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Version Compatibility
@@ -44,7 +53,7 @@ Each node stores two [Cluster service](cluster-service.md) version numbers:
 -   The currently installed version, stored in the [**NodeHighestVersion**](nodes-nodehighestversion.md) property.
 -   The earliest version with which the currently installed version is compatible, stored in the [**NodeLowestVersion**](nodes-nodelowestversion.md) property.
 
-These properties are read-only and are set when the Cluster service is installed on a node. They can be retrieved using [**ClusterNodeControl**](clusternodecontrol.md) with the [CLUSCTL\_NODE\_GET\_RO\_COMMON\_PROPERTIES](clusctl-node-get-ro-common-properties.md) control code.
+These properties are read-only and are set when the Cluster service is installed on a node. They can be retrieved using [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) with the [CLUSCTL\_NODE\_GET\_RO\_COMMON\_PROPERTIES](clusctl-node-get-ro-common-properties.md) control code.
 
 Note that, as a service, the Cluster service is installed as part of the operating system installation process. In other words, the Cluster service version will change only when a different version of Windows is installed.
 
@@ -57,7 +66,7 @@ ClusterHighestVersion = Min( all active nodes' NodeHighestVersion properties ) +
 ClusterLowestVersion = Max( all active nodes' NodeLowestVersion properties ) +/- mitigating factors
 ```
 
-Where "mitigating factors" involve differences in minor version. Cluster version numbers are dynamic and are recalculated every time a node joins or leaves the cluster. To obtain their current values, call [**GetClusterInformation**](getclusterinformation.md) and pass in a [**CLUSTERVERSIONINFO**](clusterversioninfo.md) structure. The following structure members will contain version data:
+Where "mitigating factors" involve differences in minor version. Cluster version numbers are dynamic and are recalculated every time a node joins or leaves the cluster. To obtain their current values, call [**GetClusterInformation**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_information?branch=master) and pass in a [**CLUSTERVERSIONINFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clusterversioninfo?branch=master) structure. The following structure members will contain version data:
 
 ``` syntax
 ClusterVersionInfo.dwClusterHighestVersion = ClusterHighestVersion
@@ -79,7 +88,7 @@ A node can join cluster only if one of the following is true:
 In very rare cases, you may have an application or other resource that is restricted to specific nodes or versions of Windows. Version compatibility then becomes a concern in maintaining the availability of your resource. Note the following:
 
 -   Version number generation and assignment, as well as join protocols, are automatic. There are no points of intervention from the API.
--   You can only detect version changes "after the fact." In other words, when you call [**GetClusterInformation**](getclusterinformation.md) or receive the [CLUSCTL\_RESOURCE\_CLUSTER\_VERSION\_CHANGED](clusctl-resource-cluster-version-changed.md) control code in your [resource DLL](resource-dlls.md), the version change has already taken place.
+-   You can only detect version changes "after the fact." In other words, when you call [**GetClusterInformation**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_information?branch=master) or receive the [CLUSCTL\_RESOURCE\_CLUSTER\_VERSION\_CHANGED](clusctl-resource-cluster-version-changed.md) control code in your [resource DLL](resource-dlls.md), the version change has already taken place.
 
 For node- or version- dependent applications or resources, you may want to provide documentation or create [private properties](private-properties.md) that communicate the restrictions to administrators.
 

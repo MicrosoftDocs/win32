@@ -1,7 +1,12 @@
 ---
-Description: 'The Volume Shadow Copy Service (VSS) captures and copies stable images for backup on running systems, particularly servers, without unduly degrading the performance and stability of the services they provide.'
-ms.assetid: '654c67e8-2f17-4d93-aabd-fabd71c4c852'
+Description: The Volume Shadow Copy Service (VSS) captures and copies stable images for backup on running systems, particularly servers, without unduly degrading the performance and stability of the services they provide.
+ms.assetid: 654c67e8-2f17-4d93-aabd-fabd71c4c852
 title: About the Volume Shadow Copy Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the Volume Shadow Copy Service

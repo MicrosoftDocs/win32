@@ -4,13 +4,15 @@ description: Provides common serialization methods for PtP classes.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7333921b-c0b7-48d0-adee-f9bd242ba8d0'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7333921b-c0b7-48d0-adee-f9bd242ba8d0
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msps_ProvisioningFileProcessor class", "Msps_ProvisioningFileProcessor class, described"]
+keywords:
+- Msps_ProvisioningFileProcessor class
+- Msps_ProvisioningFileProcessor class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msps\_ProvisioningFileProcessor class
@@ -58,7 +63,7 @@ The **Msps\_ProvisioningFileProcessor** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -67,7 +72,7 @@ The **Msps\_ProvisioningFileProcessor** class has these methods.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -81,9 +86,9 @@ The **Msps\_ProvisioningFileProcessor** class has these methods.
 [Shielded VM Provisioning WMI Provider](shielded-vm-provisioning-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

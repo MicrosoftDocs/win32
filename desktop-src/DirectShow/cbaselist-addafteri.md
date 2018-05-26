@@ -1,7 +1,12 @@
 ---
-Description: 'The AddAfterI method inserts an item after the specified position.'
-ms.assetid: '6da6c1ed-5f22-4364-b636-64b5a0ce1560'
-title: 'CBaseList.AddAfterI method'
+Description: The AddAfterI method inserts an item after the specified position.
+ms.assetid: 6da6c1ed-5f22-4364-b636-64b5a0ce1560
+title: CBaseList.AddAfterI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddAfterI method
@@ -13,8 +18,8 @@ The `AddAfterI` method inserts an item after the specified position.
 
 ```C++
 POSITION AddAfterI(
-   POSITION pos,
-   void     *pObj
+   POSITION pos,
+   void     *pObj
 );
 ```
 
@@ -64,9 +69,9 @@ If *pos* is **NULL**, this method adds the item to the head of the list (equival
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: IWMPPlaylistCollection getByName method
 description: The getByName method returns a IWMPPlaylistArray interface that provides access to playlists with the specified name, if any exist.
-ms.assetid: 'd41afab1-4103-4f59-a432-21a502499444'
-keywords: ["getByName method Windows Media Player", "getByName method Windows Media Player , IWMPPlaylistCollection interface", "IWMPPlaylistCollection interface Windows Media Player , getByName method"]
+ms.assetid: d41afab1-4103-4f59-a432-21a502499444
+keywords:
+- getByName method Windows Media Player
+- getByName method Windows Media Player , IWMPPlaylistCollection interface
+- IWMPPlaylistCollection interface Windows Media Player , getByName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPPlaylistCollection::getByName method
@@ -147,9 +155,9 @@ End If</code></pre></td>
 [**IWMPPlaylistCollection Interface (VB and C#)**](iwmpplaylistcollection--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

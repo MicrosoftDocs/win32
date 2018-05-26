@@ -4,17 +4,22 @@ description: Minimum time, in minutes, before truncating files.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e173b9b8-3f27-4c8f-aea0-d7c84d00a17f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e173b9b8-3f27-4c8f-aea0-d7c84d00a17f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-MinDurationCacheInMin attribute AD Schema", "msDFSR-MinDurationCacheInMin attribute AD Schema"]
+keywords:
+- ms-DFSR-MinDurationCacheInMin attribute AD Schema
+- msDFSR-MinDurationCacheInMin attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-MinDurationCacheInMin
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-MinDurationCacheInMin attribute
@@ -38,9 +43,9 @@ Minimum time, in minutes, before truncating files.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Minimum time, in minutes, before truncating files.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

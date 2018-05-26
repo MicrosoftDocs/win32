@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported.'
-ms.assetid: 'a6242c1d-cf9a-4c96-9cfd-d32199ae74b8'
-title: 'IAMTimelineObj::GetGroupIBelongTo method'
+---
+Description: Not supported.
+ms.assetid: a6242c1d-cf9a-4c96-9cfd-d32199ae74b8
+title: IAMTimelineObjGetGroupIBelongTo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetGroupIBelongTo method

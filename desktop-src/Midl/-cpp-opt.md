@@ -2,13 +2,19 @@
 title: /cpp\_opt switch
 description: The /cpp\_opt switch specifies options to pass to the C/C++ preprocessor.
 ms.assetid: f0059caa-aff3-4e96-95f8-a0014d6a6556
-keywords: ["/cpp_opt switch MIDL"]
+keywords:
+- /cpp_opt switch MIDL
 topic_type:
 - apiref
 api_name:
 - /cpp_opt
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /cpp\_opt switch

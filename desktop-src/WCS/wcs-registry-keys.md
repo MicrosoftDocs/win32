@@ -1,8 +1,27 @@
 ---
 title: WCS Registry Keys
 description: WCS uses registry keys to signal that certain color profile events have occurred. Apps should query these registry keys for updated system color profile state.
-ms.assetid: 'e728efa0-e547-45b9-af85-1312766d2fe7'
-keywords: ["Windows Color System (WCS),registry keys", "WCS (Windows Color System),registry keys", "image color management,registry keys", "color management,registry keys", "colors,registry keys", "WCS reference,registry keys", "reference for WCS,registry keys", "Windows Color System (WCS),registry", "WCS (Windows Color System),registry", "image color management,registry", "color management,registry", "colors,registry", "WCS reference,registry", "reference for WCS,registry"]
+ms.assetid: e728efa0-e547-45b9-af85-1312766d2fe7
+keywords:
+- Windows Color System (WCS),registry keys
+- WCS (Windows Color System),registry keys
+- image color management,registry keys
+- color management,registry keys
+- colors,registry keys
+- WCS reference,registry keys
+- reference for WCS,registry keys
+- Windows Color System (WCS),registry
+- WCS (Windows Color System),registry
+- image color management,registry
+- color management,registry
+- colors,registry
+- WCS reference,registry
+- reference for WCS,registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Registry Keys

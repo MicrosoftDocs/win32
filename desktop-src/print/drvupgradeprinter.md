@@ -1,7 +1,12 @@
-﻿---
-Description: 'A printer interface DLL''s DrvUpgradePrinter function is used for updating a printer''s registry settings when a new version of the driver is added to a system.'
-ms.assetid: '5a8a764d-48bf-48f9-831a-ac22767aeca6'
+---
+Description: A printer interface DLLs DrvUpgradePrinter function is used for updating a printers registry settings when a new version of the driver is added to a system.
+ms.assetid: 5a8a764d-48bf-48f9-831a-ac22767aeca6
 title: DrvUpgradePrinter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvUpgradePrinter function

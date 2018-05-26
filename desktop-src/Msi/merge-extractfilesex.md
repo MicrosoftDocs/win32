@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExtractFilesEx method of the Merge object extracts the embedded .cab file from a module and then writes those files to the destination directory.'
-ms.assetid: '8b063052-4f92-466a-9c52-bda26ed13d5c'
-title: 'Merge.ExtractFilesEx method'
+---
+Description: The ExtractFilesEx method of the Merge object extracts the embedded .cab file from a module and then writes those files to the destination directory.
+ms.assetid: 8b063052-4f92-466a-9c52-bda26ed13d5c
+title: Merge.ExtractFilesEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merge.ExtractFilesEx method
@@ -56,7 +61,7 @@ Any files in the destination directory with the same name are overwritten. The p
 
 ### C++
 
-See [**ExtractFilesEx**](imsmmerge2-extractfilesex.md) function.
+See [**ExtractFilesEx**](/windows/win32/Mergemod/nf-mergemod-imsmmerge2-extractfilesex?branch=master) function.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'An application sends the WM\_MDIMAXIMIZE message to a multiple-document interface (MDI) client window to maximize an MDI child window.'
-ms.assetid: '7c5e4157-13f6-40d7-a64a-076bd14aca0d'
-title: 'WM\_MDIMAXIMIZE message'
+---
+Description: An application sends the WM\_MDIMAXIMIZE message to a multiple-document interface (MDI) client window to maximize an MDI child window.
+ms.assetid: 7c5e4157-13f6-40d7-a64a-076bd14aca0d
+title: WM\_MDIMAXIMIZE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_MDIMAXIMIZE message

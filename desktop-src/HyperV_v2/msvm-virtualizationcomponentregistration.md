@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the registration of a service in the Microsoft Hyper-V platform.'
-ms.assetid: '706557C2-49D6-453F-9DC0-2C655888EEBE'
-title: 'Msvm\_VirtualizationComponentRegistration class'
+Description: Represents the registration of a service in the Microsoft Hyper-V platform.
+ms.assetid: 706557C2-49D6-453F-9DC0-2C655888EEBE
+title: Msvm\_VirtualizationComponentRegistration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualizationComponentRegistration class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code.
 class Msvm_VirtualizationComponentRegistration
 {
   Msvm_VirtualizationComponent REF Component;
-  Msvm_ResourceTypeDefinition  REF ResourceType;
+  Msvm_ResourceTypeDefinition  REF ResourceType;
 };
 ```
 
@@ -68,19 +73,19 @@ Access to the **Msvm\_VirtualizationComponentRegistration** class might be restr
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
-| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| End of client support<br/>    | Windows 8.1<br/>                                                                                  |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

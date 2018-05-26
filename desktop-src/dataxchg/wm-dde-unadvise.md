@@ -1,8 +1,9 @@
 ---
 title: WM\_DDE\_UNADVISE message
 description: A Dynamic Data Exchange (DDE) client application posts a WM\_DDE\_UNADVISE message to inform a DDE server application that the specified item or a particular clipboard format for the item should no longer be updated.
-ms.assetid: '9a5f9a86-e6fa-450e-b8bf-f20042c7e6d1'
-keywords: ["WM_DDE_UNADVISE message Data Exchange"]
+ms.assetid: 9a5f9a86-e6fa-450e-b8bf-f20042c7e6d1
+keywords:
+- WM_DDE_UNADVISE message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Dde.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_DDE\_UNADVISE message
@@ -48,7 +54,7 @@ The high-order word contains a global atom that identifies the item for which th
 
 ## Remarks
 
-The client application allocates the high-order word of *lParam* by calling the [**GlobalAddAtom**](globaladdatom.md) function.
+The client application allocates the high-order word of *lParam* by calling the [**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master) function.
 
 The server application posts the [**WM\_DDE\_ACK**](wm-dde-ack.md) message to respond positively or negatively. When posting **WM\_DDE\_ACK**, the server can either reuse the atom, or it can delete the atom and create a new one.
 
@@ -58,8 +64,8 @@ The server application posts the [**WM\_DDE\_ACK**](wm-dde-ack.md) message to re
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>Dde.h (include Windows.h)</dt> </dl> |
 
 
@@ -71,22 +77,22 @@ The server application posts the [**WM\_DDE\_ACK**](wm-dde-ack.md) message to re
 **Reference**
 </dt> <dt>
 
-[**GlobalAddAtom**](globaladdatom.md)
+[**GlobalAddAtom**](/windows/win32/Winbase/nf-winbase-globaladdatoma?branch=master)
 </dt> <dt>
 
-[**PackDDElParam**](packddelparam.md)
+[**PackDDElParam**](/windows/win32/Dde/nf-dde-packddelparam?branch=master)
 </dt> <dt>
 
 [**PostMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644944)
 </dt> <dt>
 
-[**ReuseDDElParam**](reuseddelparam.md)
+[**ReuseDDElParam**](/windows/win32/Dde/nf-dde-reuseddelparam?branch=master)
 </dt> <dt>
 
 [**SendMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644950)
 </dt> <dt>
 
-[**UnpackDDElParam**](unpackddelparam.md)
+[**UnpackDDElParam**](/windows/win32/Dde/nf-dde-unpackddelparam?branch=master)
 </dt> <dt>
 
 [**WM\_DDE\_ACK**](wm-dde-ack.md)
@@ -101,9 +107,9 @@ The server application posts the [**WM\_DDE\_ACK**](wm-dde-ack.md) message to re
 [About Dynamic Data Exchange](about-dynamic-data-exchange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

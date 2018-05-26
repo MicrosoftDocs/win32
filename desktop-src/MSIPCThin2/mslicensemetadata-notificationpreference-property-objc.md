@@ -4,17 +4,21 @@ description: Type of user notification preference of the tracked document.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'BEF6B0FE-4107-45D7-83E1-6C5E1A525988'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: BEF6B0FE-4107-45D7-83E1-6C5E1A525988
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSLicenseMetadata notificationPreference property"]
+keywords:
+- MSLicenseMetadata notificationPreference property
 topic_type:
 - apiref
 api_name:
 - MSLicenseMetadata notificationPreference property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSLicenseMetadata notificationPreference property
@@ -37,7 +41,7 @@ Type of user notification preference of the tracked document. This parameter is 
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,13 @@ description: The Win32\_DFSNodeTarget association WMI class relates a Distribute
 audience: developer
 author: REDMOND\\martinek
 manager: REDMOND\\martinek
-ms.assetid: '29b30cbc-0be0-4669-a260-82dfa6767d3e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 29b30cbc-0be0-4669-a260-82dfa6767d3e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Win32_DFSNodeTarget class", "Win32_DFSNodeTarget class, described"]
+keywords:
+- Win32_DFSNodeTarget class
+- Win32_DFSNodeTarget class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - Wmipdfs.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DFSNodeTarget class
@@ -34,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_DFSNodeTarget : CIM_Dependency
 {
   Win32_DFSTarget REF Antecedent;
-  Win32_DFSNode   REF Dependent;
+  Win32_DFSNode   REF Dependent;
 };
 ```
 
@@ -122,8 +127,8 @@ $failed | where{ $_.Delete().ReturnValue } | ft LinkName, ServerName, ShareName
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Wmipdfs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmipdfs.dll</dt> </dl> |
@@ -140,9 +145,9 @@ $failed | where{ $_.Delete().ReturnValue } | ft LinkName, ServerName, ShareName
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

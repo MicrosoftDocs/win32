@@ -1,8 +1,12 @@
 ---
 title: TriggerCollection.Remove method
 description: For scripting, removes the specified trigger from the collection of triggers used by the task.
-ms.assetid: 'af3e04e6-20ec-412b-a0d2-41d31137dfca'
-keywords: ["triggers Task Scheduler , removing", "Remove method Task Scheduler", "Remove method Task Scheduler , TriggerCollection object", "TriggerCollection object Task Scheduler , Remove method"]
+ms.assetid: af3e04e6-20ec-412b-a0d2-41d31137dfca
+keywords:
+- triggers Task Scheduler , removing
+- Remove method Task Scheduler
+- Remove method Task Scheduler , TriggerCollection object
+- TriggerCollection object Task Scheduler , Remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +15,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TriggerCollection.Remove method
@@ -53,8 +62,8 @@ When removing items, note that the index for the first item in the collection is
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -67,9 +76,9 @@ When removing items, note that the index for the first item in the collection is
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

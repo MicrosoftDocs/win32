@@ -1,7 +1,12 @@
-﻿---
-Description: 'Allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.'
-ms.assetid: '1f3207a8-aa6a-47a3-a1d0-19166592eeca'
+---
+Description: Allows the driver to specify how many interim surfaces are required to support the specified GUID, and the size, location, and format of each of these surfaces.
+ms.assetid: 1f3207a8-aa6a-47a3-a1d0-19166592eeca
 title: NtGdiDdGetMoCompBuffInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdGetMoCompBuffInfo function

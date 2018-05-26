@@ -1,13 +1,16 @@
 ---
-Description: 'You create a timer event by creating an instance of classes derived from the \_\_TimerInstruction class in any WMI namespace.'
+Description: You create a timer event by creating an instance of classes derived from the \_\_TimerInstruction class in any WMI namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3df2a75a-5231-40d7-ae9d-a7a735fbf316'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3df2a75a-5231-40d7-ae9d-a7a735fbf316
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Creating a Timer Event with \_\_TimerInstruction'
+title: Creating a Timer Event with \_\_TimerInstruction
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating a Timer Event with \_\_TimerInstruction

@@ -1,8 +1,9 @@
 ---
 title: MpThreatOpen function
 description: Returns an enumeration handle for the purpose of retrieving threats.
-ms.assetid: 'E1178F0C-E9C0-4532-AE9B-452770600DF2'
-keywords: ["MpThreatOpen function Legacy Windows Environment Features"]
+ms.assetid: E1178F0C-E9C0-4532-AE9B-452770600DF2
+keywords:
+- MpThreatOpen function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpThreatOpen function
@@ -22,10 +28,10 @@ Returns an enumeration handle for the purpose of retrieving threats. This functi
 
 ```C++
 HRESULT WINAPI MpThreatOpen(
-  _In_  MPHANDLE        hScanHandle,
-  _In_  MPTHREAT_SOURCE ThreatSource,
-  _In_  MPTHREAT_TYPE   ThreatType,
-  _Out_ PMPHANDLE       phThreatEnumHandle
+  _In_  MPHANDLE        hScanHandle,
+  _In_  MPTHREAT_SOURCE ThreatSource,
+  _In_  MPTHREAT_TYPE   ThreatType,
+  _Out_ PMPHANDLE       phThreatEnumHandle
 );
 ```
 
@@ -64,7 +70,7 @@ Used to control the source of threat enumeration. The possible values for this p
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -87,7 +93,7 @@ Used to filter enumerated threats based on the detection type. The possible valu
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -114,8 +120,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -140,9 +146,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MpThreatEnumerate**](mpthreatenumerate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

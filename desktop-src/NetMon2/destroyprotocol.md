@@ -1,7 +1,12 @@
 ---
-Description: 'The DestroyProtocol function destroys the protocol that the CreateProtocol function creates.'
-ms.assetid: 'f7621c2a-1905-4748-b8e3-7b49f3f2bf03'
+Description: The DestroyProtocol function destroys the protocol that the CreateProtocol function creates.
+ms.assetid: f7621c2a-1905-4748-b8e3-7b49f3f2bf03
 title: DestroyProtocol function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroyProtocol function
@@ -13,7 +18,7 @@ The **DestroyProtocol** function destroys the protocol that the **CreateProtocol
 
 ```C++
 VOID WINAPI DestroyProtocol(
-  _In_ HPROTOCOL hProtocol
+  _In_ HPROTOCOL hProtocol
 );
 ```
 
@@ -43,11 +48,11 @@ The parser DLL calls the **DestroyProtocol** function during its implementation 
 | For information on                                        | See                                                     |
 |-----------------------------------------------------------|---------------------------------------------------------|
 | What parsers are, and how they work with Network Monitor. | [Parsers](parsers.md)                                  |
-| How to implement **DllMain**—includes an example.         | [Implementing DllMain](implementing-dllmain-parser.md) |
+| How to implement **DllMain** includes an example.         | [Implementing DllMain](implementing-dllmain-parser.md) |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -55,8 +60,8 @@ The parser DLL calls the **DestroyProtocol** function during its implementation 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
@@ -70,9 +75,9 @@ The parser DLL calls the **DestroyProtocol** function during its implementation 
 [DllMain](dllmain-parser.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

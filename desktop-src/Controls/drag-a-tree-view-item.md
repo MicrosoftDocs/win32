@@ -1,7 +1,12 @@
 ---
 title: How to Drag a Tree-View Item
 description: This topic demonstrates code for handling dragging and dropping of tree-view items.
-ms.assetid: '989BBC27-C025-4C54-9972-4725F04A5E95'
+ms.assetid: 989BBC27-C025-4C54-9972-4725F04A5E95
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Drag a Tree-View Item
@@ -28,7 +33,7 @@ This topic demonstrates code for handling dragging and dropping of tree-view ite
 
 ### Step 1: Beginning the tree-view drag operation
 
-A tree-view control sends the parent window a [TVN\_BEGINDRAG](tvn-begindrag.md) (or [TVN\_BEGINRDRAG](tvn-beginrdrag.md)) notification code whenever the user starts to drag an item. The parent window receives the notification in the form of a [**WM\_NOTIFY**](wm-notify.md) message whose *lParam* parameter is the address of an [**NMTREEVIEW**](nmtreeview.md) structure. The members of this structure include the screen coordinates of the mouse pointer and a [**TVITEM**](tvitem.md) structure that contains information about the item to be dragged.
+A tree-view control sends the parent window a [TVN\_BEGINDRAG](tvn-begindrag.md) (or [TVN\_BEGINRDRAG](tvn-beginrdrag.md)) notification code whenever the user starts to drag an item. The parent window receives the notification in the form of a [**WM\_NOTIFY**](wm-notify.md) message whose *lParam* parameter is the address of an [**NMTREEVIEW**](/windows/win32/Commctrl/ns-commctrl-tagnmtreeviewa?branch=master) structure. The members of this structure include the screen coordinates of the mouse pointer and a [**TVITEM**](/windows/win32/Commctrl/ns-commctrl-tagtvitema?branch=master) structure that contains information about the item to be dragged.
 
 The following example shows how to process the [**WM\_NOTIFY**](wm-notify.md) message to obtain [TVN\_BEGINDRAG](tvn-begindrag.md).
 
@@ -48,9 +53,9 @@ The following example shows how to process the [**WM\_NOTIFY**](wm-notify.md) me
 
 
 
-Beginning the drag operation involves using the [**ImageList\_BeginDrag**](imagelist-begindrag.md) function. The function's parameters include the handle to the image list that contains the image to use during the drag operation and the index of the image. You can either provide your own image list and image, or you can have the tree-view control create them for you by using the [**TVM\_CREATEDRAGIMAGE**](tvm-createdragimage.md) message.
+Beginning the drag operation involves using the [**ImageList\_BeginDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_begindrag?branch=master) function. The function's parameters include the handle to the image list that contains the image to use during the drag operation and the index of the image. You can either provide your own image list and image, or you can have the tree-view control create them for you by using the [**TVM\_CREATEDRAGIMAGE**](tvm-createdragimage.md) message.
 
-Because the drag image replaces the mouse pointer for the duration of the drag operation, [**ImageList\_BeginDrag**](imagelist-begindrag.md) requires you to specify a hot spot within the image. The coordinates of the hot spot are relative to the upper left corner of the image. **ImageList\_BeginDrag** also requires you to specify the initial location of the drag image. An application typically sets the initial location so that the hot spot of the drag image corresponds to that of the mouse pointer at the time the user began the drag operation.
+Because the drag image replaces the mouse pointer for the duration of the drag operation, [**ImageList\_BeginDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_begindrag?branch=master) requires you to specify a hot spot within the image. The coordinates of the hot spot are relative to the upper left corner of the image. **ImageList\_BeginDrag** also requires you to specify the initial location of the drag image. An application typically sets the initial location so that the hot spot of the drag image corresponds to that of the mouse pointer at the time the user began the drag operation.
 
 The following function demonstrates how to begin dragging a tree-view item. It uses the drag image provided by the tree-view control and obtains the bounding rectangle of the item to determine the appropriate point for the hot spot. The dimensions of the bounding rectangle are the same as those of the image.
 
@@ -95,7 +100,7 @@ void Main_OnBeginDrag(HWND hwndTV, LPNMTREEVIEW lpnmtv)
 
 ### Step 2: Dragging the tree-view item
 
-You drag a tree-view item by calling the [**ImageList\_DragMove**](imagelist-dragmove.md) function when the parent window receives a [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message, as the following example shows. The example also demonstrates how to perform hit testing during the drag operation to determine whether to highlight other items in the tree view as targets of a drag-and-drop operation.
+You drag a tree-view item by calling the [**ImageList\_DragMove**](/windows/win32/Commctrl/nf-commctrl-imagelist_dragmove?branch=master) function when the parent window receives a [**WM\_MOUSEMOVE**](https://msdn.microsoft.com/library/windows/desktop/ms645616) message, as the following example shows. The example also demonstrates how to perform hit testing during the drag operation to determine whether to highlight other items in the tree view as targets of a drag-and-drop operation.
 
 
 ```C++
@@ -144,7 +149,7 @@ void Main_OnMouseMove(HWND hwndParent, HWND hwndTV, LONG xCur, LONG yCur)
 
 ### Step 3: Ending the tree-view drag operation
 
-The following example shows how to end a drag operation. The [**ImageList\_EndDrag**](imagelist-enddrag.md) function is called when the parent window receives a [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608) message. The handle of the tree-view control is passed to the function.
+The following example shows how to end a drag operation. The [**ImageList\_EndDrag**](/windows/win32/Commctrl/nf-commctrl-imagelist_enddrag?branch=master) function is called when the parent window receives a [**WM\_LBUTTONUP**](https://msdn.microsoft.com/library/windows/desktop/ms645608) message. The handle of the tree-view control is passed to the function.
 
 
 ```C++

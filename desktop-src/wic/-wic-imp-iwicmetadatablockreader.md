@@ -1,7 +1,12 @@
 ---
 Description: Implementing IWICMetadataBlockReader
-ms.assetid: '80ad8e20-a9d4-4503-94ba-1b7699e36111'
+ms.assetid: 80ad8e20-a9d4-4503-94ba-1b7699e36111
 title: Implementing IWICMetadataBlockReader
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IWICMetadataBlockReader
@@ -37,17 +42,17 @@ interface IWICMetadataBlockReader : IUnknown
 
 ### GetContainerFormat
 
-[**GetContainerFormat**](-wic-codec-iwicmetadatablockreader-getcontainerformat.md) is the same as the [GetContainerFormat](-wic-imp-iwicbitmapdecoder.md) method on [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md).
+[**GetContainerFormat**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcontainerformat?branch=master) is the same as the [GetContainerFormat](-wic-imp-iwicbitmapdecoder.md) method on [Implementing IWICBitmapDecoder](-wic-imp-iwicbitmapdecoder.md).
 
 ### GetCount
 
-[**GetCount**](-wic-codec-iwicmetadatablockreader-getcount.md) returns the number of top-level metadata blocks associated with the frame.
+[**GetCount**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getcount?branch=master) returns the number of top-level metadata blocks associated with the frame.
 
 ### GetEnumerator
 
-[**GetEnumerator**](-wic-codec-iwicmetadatablockreader-getenumerator.md) returns an enumerator that the caller can use to enumerate over the metadata blocks in the frame and read their metadata. To implement this method, you need to create a metadata reader for each block of metadata, and implement an enumeration object that enumerates over the collection of metadata readers. The enumeration object must implement [IEnumUnknown](http://msdn.microsoft.com/en-us/library/ms683764(VS.85).aspx) so you can cast it to IEnumUnknown when you return it in the *ppIEnumMetadata* parameter.
+[**GetEnumerator**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getenumerator?branch=master) returns an enumerator that the caller can use to enumerate over the metadata blocks in the frame and read their metadata. To implement this method, you need to create a metadata reader for each block of metadata, and implement an enumeration object that enumerates over the collection of metadata readers. The enumeration object must implement [IEnumUnknown](http://msdn.microsoft.com/en-us/library/ms683764(VS.85).aspx) so you can cast it to IEnumUnknown when you return it in the *ppIEnumMetadata* parameter.
 
-When implementing the enumeration object, you can create all the metadata readers when you first create the [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) object or when you first create the enumeration object, or you can create them lazily inside the implementation of the [IEnumUnknown::Next](http://msdn.microsoft.com/en-us/library/ms693367(VS.85).aspx) method. In many cases, it’s more efficient to create them lazily but, in the following example, the block readers are all created in the constructor to save space.
+When implementing the enumeration object, you can create all the metadata readers when you first create the [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) object or when you first create the enumeration object, or you can create them lazily inside the implementation of the [IEnumUnknown::Next](http://msdn.microsoft.com/en-us/library/ms693367(VS.85).aspx) method. In many cases, it’s more efficient to create them lazily but, in the following example, the block readers are all created in the constructor to save space.
 
 
 ```C++
@@ -88,9 +93,9 @@ public class MetadataReaderEnumerator : public IEnumUnknown
 
 
 
-To create the metadata readers, you use the [**CreateMetadataReaderFromContainer**](-wic-codec-iwiccomponentfactory-createmetadatareaderfromcontainer.md) method. When invoking this method, you pass in the GUID of the container format in the *guidContainerFormat* parameter. If you have a preference of vendor for a metadata reader, you can pass the GUID of your preferred vendor in the *pGuidVendor* parameter. For example, if your company writes metadata handlers, and you want to use your own if present, you can pass in your vendor GUID. In most cases, you would just pass **NULL**, and let the system select the appropriate metadata reader. If you do request a specific vendor, and that vendor does have a metadata reader installed on the computer, WIC will return that vendor’s reader. However, if the requested vendor does not have a metadata reader installed on the computer, and if there is an appropriate metadata reader available, that reader will be returned even though it is not from the preferred vendor. If there is no metadata reader on the computer for the type of metadata in the block, the component factory will return the Unknown Metadata Handler, which will treat the block of metadata as a binary large object (BLOB), and will deserialize the block of metadata from the file without any attempt at parsing it.
+To create the metadata readers, you use the [**CreateMetadataReaderFromContainer**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatareaderfromcontainer?branch=master) method. When invoking this method, you pass in the GUID of the container format in the *guidContainerFormat* parameter. If you have a preference of vendor for a metadata reader, you can pass the GUID of your preferred vendor in the *pGuidVendor* parameter. For example, if your company writes metadata handlers, and you want to use your own if present, you can pass in your vendor GUID. In most cases, you would just pass **NULL**, and let the system select the appropriate metadata reader. If you do request a specific vendor, and that vendor does have a metadata reader installed on the computer, WIC will return that vendor’s reader. However, if the requested vendor does not have a metadata reader installed on the computer, and if there is an appropriate metadata reader available, that reader will be returned even though it is not from the preferred vendor. If there is no metadata reader on the computer for the type of metadata in the block, the component factory will return the Unknown Metadata Handler, which will treat the block of metadata as a binary large object (BLOB), and will deserialize the block of metadata from the file without any attempt at parsing it.
 
-For the *dwOptions* parameter, perform an OR operation between the appropriate [**WICPersistOptions**](-wic-codec-wicpersistoptions.md) with the appropriate [**WICMetadataCreationOptions**](-wic-codec-wicmetadatacreationoptions.md). The **WICPersistOptions** describe how your container is laid out. Little-endian is the default.
+For the *dwOptions* parameter, perform an OR operation between the appropriate [**WICPersistOptions**](/windows/win32/Wincodecsdk/ne-wincodecsdk-wicpersistoptions?branch=master) with the appropriate [**WICMetadataCreationOptions**](/windows/win32/Wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions?branch=master). The **WICPersistOptions** describe how your container is laid out. Little-endian is the default.
 
 ``` syntax
 enum WICPersistOptions
@@ -104,7 +109,7 @@ enum WICPersistOptions
 };
 ```
 
-The [**WICMetadataCreationOptions**](-wic-codec-wicmetadatacreationoptions.md) specify whether you want to get back the UnknownMetadataHandler if no metadata reader is found on the machine that can read the metadata format of a particular block. **WICMetadataCreationAllowUnknown** is the default, and you should always allow creation of the UnknownMetadtataHandler. The UnknownMetadataHandler treats unrecognized metadata as a BLOB. It cannot parse it, but it writes it out into the stream as a BLOB, and persists it intact when it’s written back to the stream during encoding. This makes it safe to create metadata handlers for proprietary metadata or metadata formats that don’t ship with the system. Because metadata is preserved intact, even if no handler is present on the computer that recognizes it, when an appropriate metadata handler is later installed, the metadata will still be there and can be read. If you don’t allow creation of the UnknownMetadataHandler, the alternative is discarding or overwriting unrecognized metadata. This is a form of data loss.
+The [**WICMetadataCreationOptions**](/windows/win32/Wincodecsdk/ne-wincodecsdk-wicmetadatacreationoptions?branch=master) specify whether you want to get back the UnknownMetadataHandler if no metadata reader is found on the machine that can read the metadata format of a particular block. **WICMetadataCreationAllowUnknown** is the default, and you should always allow creation of the UnknownMetadtataHandler. The UnknownMetadataHandler treats unrecognized metadata as a BLOB. It cannot parse it, but it writes it out into the stream as a BLOB, and persists it intact when it’s written back to the stream during encoding. This makes it safe to create metadata handlers for proprietary metadata or metadata formats that don’t ship with the system. Because metadata is preserved intact, even if no handler is present on the computer that recognizes it, when an appropriate metadata handler is later installed, the metadata will still be there and can be read. If you don’t allow creation of the UnknownMetadataHandler, the alternative is discarding or overwriting unrecognized metadata. This is a form of data loss.
 
 > [!Note]  
 > If you write your own metadata handler for proprietary metadata, you should never include references to anything outside the metadata block itself. Even though the UnknownMetadataHandler preserves metadata intact, metadata does get moved when files are edited, and any references to anything outside its own block will no longer be valid when this happens.
@@ -125,7 +130,7 @@ The *pIStream* parameter is the actual stream that you are decoding. Before pass
 
 ### GetReaderByIndex
 
-[**GetReaderByIndex**](-wic-codec-iwicmetadatablockreader-getreaderbyindex.md) returns the metadata reader at the requested index in the collection.
+[**GetReaderByIndex**](/windows/win32/Wincodecsdk/nf-wincodecsdk-iwicmetadatablockreader-getreaderbyindex?branch=master) returns the metadata reader at the requested index in the collection.
 
 ## Related topics
 
@@ -134,7 +139,7 @@ The *pIStream* parameter is the actual stream that you are decoding. Before pass
 **Reference**
 </dt> <dt>
 
-[**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md)
+[**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master)
 </dt> <dt>
 
 **Conceptual**

@@ -1,7 +1,12 @@
 ---
-Description: 'PKCS \#7 is a cryptographic message syntax standard.'
-ms.assetid: 'fd4e2a13-f257-4ba9-a11d-35f49c5a6c00'
-title: 'PKCS \#7 Attributes'
+Description: PKCS \#7 is a cryptographic message syntax standard.
+ms.assetid: fd4e2a13-f257-4ba9-a11d-35f49c5a6c00
+title: PKCS \#7 Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKCS \#7 Attributes
@@ -52,9 +57,9 @@ Attribute ::= SEQUENCE
 
 The process required to archive a client's private key on a certification authority (CA) provides a comprehensive example of how authenticated (signed) attributes and the unauthenticated attributes can be used:
 
--   The client creates an [**IX509CertificateRequestPkcs10**](ix509certificaterequestpkcs10.md) object and adds appropriate data for the type of certificate being requested.
--   The client uses the PKCS \#10 request to initialize an [**IX509CertificateRequestCmc**](ix509certificaterequestcmc.md) object. The PKCS \#10 request is placed into the **TaggedRequest** structure in the CMC request. For more information, see [CMC Attributes](cmc-attributes.md).
--   The client encrypts a private key and uses it to initialize an [**IX509AttributeArchiveKey**](ix509attributearchivekey.md) object. The new **ArchiveKey** attribute is encapsulated in an **EnvelopedData** structure.
+-   The client creates an [**IX509CertificateRequestPkcs10**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestpkcs10?branch=master) object and adds appropriate data for the type of certificate being requested.
+-   The client uses the PKCS \#10 request to initialize an [**IX509CertificateRequestCmc**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestcmc?branch=master) object. The PKCS \#10 request is placed into the **TaggedRequest** structure in the CMC request. For more information, see [CMC Attributes](cmc-attributes.md).
+-   The client encrypts a private key and uses it to initialize an [**IX509AttributeArchiveKey**](/windows/win32/CertEnroll/nn-certenroll-ix509attributearchivekey?branch=master) object. The new **ArchiveKey** attribute is encapsulated in an **EnvelopedData** structure.
 
     ``` syntax
     EnvelopedData ::= SEQUENCE 
@@ -84,9 +89,9 @@ The process required to archive a client's private key on a certification author
     } 
     ```
 
--   The client creates a SHA-1 hash of the encrypted key and uses it to initialize an [**IX509AttributeArchiveKeyHash**](ix509attributearchivekeyhash.md) object.
--   The client retrieves the [**CryptAttributes**](ix509certificaterequestcmc-cryptattributes-property.md) collection from the CMC request and adds the **ArchiveKey** and the **ArchiveKeyHash** attributes to it. The attributes are placed into the **TaggedAttributes** structure of the CMC request.
--   The client uses the CMC request to initialize an [**IX509CertificateRequestPkcs7**](ix509certificaterequestpkcs7.md) object. This places the CMC request into the **contentInfo** field of the PKCS \#7 **SignedData** structure.
+-   The client creates a SHA-1 hash of the encrypted key and uses it to initialize an [**IX509AttributeArchiveKeyHash**](/windows/win32/CertEnroll/nn-certenroll-ix509attributearchivekeyhash?branch=master) object.
+-   The client retrieves the [**CryptAttributes**](/windows/win32/CertEnroll/nf-certenroll-ix509certificaterequestcmc-get_cryptattributes?branch=master) collection from the CMC request and adds the **ArchiveKey** and the **ArchiveKeyHash** attributes to it. The attributes are placed into the **TaggedAttributes** structure of the CMC request.
+-   The client uses the CMC request to initialize an [**IX509CertificateRequestPkcs7**](/windows/win32/CertEnroll/nn-certenroll-ix509certificaterequestpkcs7?branch=master) object. This places the CMC request into the **contentInfo** field of the PKCS \#7 **SignedData** structure.
 -   The **ArchiveKeyHash** attribute is signed and placed in the **authenticatedAttributes** sequence of the **SignerInfo** structure.
 -   The **ArchiveKey** attribute is placed in the **unauthenticatedAttributes** sequence of the **SignerInfo** structure associated with the primary signer of the PKCS \#7 message.
 

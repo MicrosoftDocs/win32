@@ -1,7 +1,12 @@
 ---
 title: VML V-Rotate-Letters Attribute
 description: VML V-Rotate-Letters Attribute
-ms.assetid: 'f9bd5c04-7479-4dc0-83d7-4a0bd5e2d41d'
+ms.assetid: f9bd5c04-7479-4dc0-83d7-4a0bd5e2d41d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML V-Rotate-Letters Attribute

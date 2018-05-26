@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AttachFaxToReceipt property indicates whether to attach a fax to the receipt.'
-ms.assetid: 'da5a2d29-4002-49ad-ba44-ec7841598581'
-title: 'FaxDocument.AttachFaxToReceipt property'
+---
+Description: The AttachFaxToReceipt property indicates whether to attach a fax to the receipt.
+ms.assetid: da5a2d29-4002-49ad-ba44-ec7841598581
+title: FaxDocument.AttachFaxToReceipt property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.AttachFaxToReceipt property
@@ -52,7 +57,7 @@ When a fax consisting only of a cover page is sent to multiple recipients, you c
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

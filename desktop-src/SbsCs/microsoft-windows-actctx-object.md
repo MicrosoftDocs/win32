@@ -1,14 +1,19 @@
 ---
-Description: 'The Microsoft.Windows.ActCtx object references manifests and provides a way for scripting engines to access side-by-side assemblies. The Microsoft.Windows.ActCtx object can be used to create an instance of a side-by-side assembly with COM components.'
-ms.assetid: '818e175e-2c58-4c44-87ce-4e97352fc3f3'
-title: 'Microsoft.Windows.ActCtx object'
+Description: The Microsoft.Windows.ActCtx object references manifests and provides a way for scripting engines to access side-by-side assemblies. The Microsoft.Windows.ActCtx object can be used to create an instance of a side-by-side assembly with COM components.
+ms.assetid: 818e175e-2c58-4c44-87ce-4e97352fc3f3
+title: Microsoft.Windows.ActCtx object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft.Windows.ActCtx object
 
 The **Microsoft.Windows.ActCtx** object references manifests and provides a way for scripting engines to access side-by-side assemblies. The **Microsoft.Windows.ActCtx** object can be used to create an instance of a side-by-side assembly with COM components.
 
-The **Microsoft.Windows.ActCtx** object comes as an assembly in Windows Server 2003. It can also be installed by applications that use the Windows Installer for setup and include it as a merge module in their installation package.
+The **Microsoft.Windows.ActCtx** object comes as an assembly in Windows Server 2003. It can also be installed by applications that use the Windows Installer for setup and include it as a merge module in their installation package.
 
 ## Members
 
@@ -30,7 +35,7 @@ The **Microsoft.Windows.ActCtx** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -44,7 +49,7 @@ The **Microsoft.Windows.ActCtx** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,14 +57,14 @@ The **Microsoft.Windows.ActCtx** object has these properties.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

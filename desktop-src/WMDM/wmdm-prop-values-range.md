@@ -1,8 +1,9 @@
 ---
 title: WMDM\_PROP\_VALUES\_RANGE structure
 description: The WMDM\_PROP\_VALUES\_RANGE structure describes a range of valid values for a particular property in a particular property configuration.
-ms.assetid: 'fb823a66-cc9c-4632-a4f0-03c7255c3ccb'
-keywords: ["WMDM_PROP_VALUES_RANGE structure windows Media Device Manager"]
+ms.assetid: fb823a66-cc9c-4632-a4f0-03c7255c3ccb
+keywords:
+- WMDM_PROP_VALUES_RANGE structure windows Media Device Manager
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmdm.idl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM\_PROP\_VALUES\_RANGE structure
@@ -73,7 +79,7 @@ This structure is used in the [**WMDM\_PROP\_DESC**](wmdm-prop-desc.md) structur
 
 <dl> <dt>
 
-[**IWMDMDevice3::GetFormatCapability**](iwmdmdevice3-getformatcapability.md)
+[**IWMDMDevice3::GetFormatCapability**](/windows/win32/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability?branch=master)
 </dt> <dt>
 
 [**WMDM\_ENUM\_PROP\_VALID\_VALUES\_FORM**](wmdm-enum-prop-valid-values-form.md)
@@ -94,9 +100,9 @@ This structure is used in the [**WMDM\_PROP\_DESC**](wmdm-prop-desc.md) structur
 [**Structures**](structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

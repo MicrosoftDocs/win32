@@ -1,14 +1,20 @@
 ---
 title: 
 description: Enables future enhancements to the schema.
-ms.assetid: 'afac3a39-9cdc-42de-8f9e-c37405ec662a'
-keywords: ["PeapExtensionsV2 element EAPHost"]
+ms.assetid: afac3a39-9cdc-42de-8f9e-c37405ec662a
+keywords:
+- PeapExtensionsV2 element EAPHost
 topic_type:
 - apiref
 api_name:
 - Username
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 
@@ -33,8 +39,8 @@ The **PeapExtensionsV2** element is optional.
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +75,9 @@ The **PeapExtensionsV2** element is optional.
 [**PeapExtensionsTypeV2 Complex Type**](mspeapconnectionpropertiesv2-peapextensionstypev2-complextype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

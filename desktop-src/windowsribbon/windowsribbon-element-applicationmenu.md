@@ -1,14 +1,20 @@
 ---
 title: ApplicationMenu element
 description: Represents the Application Menu.
-ms.assetid: '815e0462-ea45-44b1-81bf-f5797b22e920'
-keywords: ["ApplicationMenu element Windows Ribbon"]
+ms.assetid: 815e0462-ea45-44b1-81bf-f5797b22e920
+keywords:
+- ApplicationMenu element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ApplicationMenu
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplicationMenu element
@@ -179,7 +185,7 @@ This section of code shows the **ApplicationMenu** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -191,9 +197,9 @@ This section of code shows the **ApplicationMenu** control declarations.
 [Application Menu control](windowsribbon-controls-applicationmenu.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

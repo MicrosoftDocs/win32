@@ -1,8 +1,14 @@
 ---
 title: Functions
 description: This section contains information about the following Direct3D HLSL compiler functions
-ms.assetid: 'aacc5207-3ec8-4031-b5c9-f7c0fb7b7095'
-keywords: ["functions, Compiler"]
+ms.assetid: aacc5207-3ec8-4031-b5c9-f7c0fb7b7095
+keywords:
+- functions, Compiler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Functions
@@ -58,20 +64,20 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>Creates a buffer.<br/></td>
 </tr>
 <tr class="odd">
-<td>[<strong>D3DCreateFunctionLinkingGraph</strong>](d3dcreatefunctionlinkinggraph.md)<br/></td>
+<td>[<strong>D3DCreateFunctionLinkingGraph</strong>](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dcreatefunctionlinkinggraph?branch=master)<br/></td>
 <td>Creates a function-linking-graph interface. <br/>
 <blockquote>
 [!Note]<br />
-This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DCreateLinker</strong>](d3dcreatelinker.md)<br/></td>
+<td>[<strong>D3DCreateLinker</strong>](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dcreatelinker?branch=master)<br/></td>
 <td>Creates a linker interface. <br/>
 <blockquote>
 [!Note]<br />
-This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
 </blockquote>
 <br/></td>
 </tr>
@@ -115,7 +121,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-input-and-output-signature-blob) value.
+[<strong>D3DGetInputAndOutputSignatureBlob</strong>](d3dgetinputandoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-input-and-output-signature-blob) value.
 </blockquote>
 <br/> Gets the input and output signatures from a compilation result.<br/></td>
 </tr>
@@ -123,7 +129,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-input-signature-blob) value.
+[<strong>D3DGetInputSignatureBlob</strong>](d3dgetinputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_INPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-input-signature-blob) value.
 </blockquote>
 <br/> Gets the input signature from a compilation result.<br/></td>
 </tr>
@@ -131,7 +137,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md)<br/></td>
 <td><blockquote>
 [!Note]<br />
-[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-output-signature-blob) value.
+[<strong>D3DGetOutputSignatureBlob</strong>](d3dgetoutputsignatureblob.md) may be altered or unavailable for releases after Windows 8.1. Instead use [<strong>D3DGetBlobPart</strong>](d3dgetblobpart.md) with the [<strong>D3D_BLOB_OUTPUT_SIGNATURE_BLOB</strong>](d3d-blob-part.md#d3d-blob-output-signature-blob) value.
 </blockquote>
 <br/> Gets the output signature from a compilation result.<br/></td>
 </tr>
@@ -140,11 +146,11 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>Retrieves the byte offsets for instructions within a section of shader code.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DLoadModule</strong>](d3dloadmodule.md)<br/></td>
+<td>[<strong>D3DLoadModule</strong>](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dloadmodule?branch=master)<br/></td>
 <td>Creates a shader module interface from source data for the shader module. <br/>
 <blockquote>
 [!Note]<br />
-This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
 </blockquote>
 <br/></td>
 </tr>
@@ -165,11 +171,11 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 <td>Gets a pointer to a reflection interface.<br/></td>
 </tr>
 <tr class="even">
-<td>[<strong>D3DReflectLibrary</strong>](d3dreflectlibrary.md)<br/></td>
+<td>[<strong>D3DReflectLibrary</strong>](/windows/win32/D3Dcompiler/nf-d3dcompiler-d3dreflectlibrary?branch=master)<br/></td>
 <td>Creates a library-reflection interface from source data that contains an HLSL library of functions. <br/>
 <blockquote>
 [!Note]<br />
-This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
+This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.
 </blockquote>
 <br/></td>
 </tr>
@@ -194,7 +200,7 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -203,9 +209,9 @@ You can use this API to develop your Windows Store apps, but you can't use it in
 [D3DCompiler Reference](dx-graphics-d3dcompiler-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

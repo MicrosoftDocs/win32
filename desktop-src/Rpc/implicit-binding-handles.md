@@ -1,7 +1,12 @@
 ---
 title: Implicit Binding Handles
 description: Implicit binding handles allow your application to select a specific server to execute its remote procedure calls.
-ms.assetid: 'cf4e179b-8d97-4597-89e6-c8967b9db6c7'
+ms.assetid: cf4e179b-8d97-4597-89e6-c8967b9db6c7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implicit Binding Handles
@@ -46,7 +51,7 @@ status = RpcBindingFree(hHello);
 ...
 ```
 
-In the preceding example, the RPC run-time library functions [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md) and [**RpcBindingFree**](rpcbindingfree.md) both required the implicit binding handle to be passed in their parameter lists. However, the remote procedure MyRemoteProcedure did not, since it is not an RPC run-time library function.
+In the preceding example, the RPC run-time library functions [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master) and [**RpcBindingFree**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfree?branch=master) both required the implicit binding handle to be passed in their parameter lists. However, the remote procedure MyRemoteProcedure did not, since it is not an RPC run-time library function.
 
  
 

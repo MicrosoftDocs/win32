@@ -1,8 +1,24 @@
 ---
 title: Appendix
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9.
-ms.assetid: 'e18e9388-d8b6-4eee-b4f1-3948830f7986'
-keywords: ["Web workshop,namespaces", "Web workshop,behavior styles", "designing Web pages,namespaces", "designing Web pages,behavior styles", "Vector Markup Language (VML),namespaces", "VML (Vector Markup Language),namespaces", "vector graphics,namespaces", "Vector Markup Language (VML),behavior styles", "VML (Vector Markup Language),behavior styles", "vector graphics,behavior styles", "VGX.DLL"]
+ms.assetid: e18e9388-d8b6-4eee-b4f1-3948830f7986
+keywords:
+- Web workshop,namespaces
+- Web workshop,behavior styles
+- designing Web pages,namespaces
+- designing Web pages,behavior styles
+- Vector Markup Language (VML),namespaces
+- VML (Vector Markup Language),namespaces
+- vector graphics,namespaces
+- Vector Markup Language (VML),behavior styles
+- VML (Vector Markup Language),behavior styles
+- vector graphics,behavior styles
+- VGX.DLL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Appendix

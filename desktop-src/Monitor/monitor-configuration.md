@@ -1,8 +1,24 @@
 ---
 title: Monitor Configuration
 description: Monitor Configuration
-ms.assetid: '66345021-41e8-429a-bbf7-a4aa72a57337'
-keywords: ["monitor,about", "monitor,DDC/CI", "monitor,changing settings", "monitor,Display Data Channel Command Interface", "Display Data Channel Command Interface", "DDC/CI", "monitor configuration,Display Data Channel Command Interface", "monitor configuration,about", "monitor configuration,DDC/CI", "monitor configuration,changing settings", "changing monitor settings"]
+ms.assetid: 66345021-41e8-429a-bbf7-a4aa72a57337
+keywords:
+- monitor,about
+- monitor,DDC/CI
+- monitor,changing settings
+- monitor,Display Data Channel Command Interface
+- Display Data Channel Command Interface
+- DDC/CI
+- monitor configuration,Display Data Channel Command Interface
+- monitor configuration,about
+- monitor configuration,DDC/CI
+- monitor configuration,changing settings
+- changing monitor settings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Monitor Configuration

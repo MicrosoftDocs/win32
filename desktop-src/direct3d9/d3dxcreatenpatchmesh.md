@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an N-patch mesh from a triangle mesh.'
-ms.assetid: 'f565ed0b-72fc-4184-b423-f68b0acfafb0'
+---
+Description: Creates an N-patch mesh from a triangle mesh.
+ms.assetid: f565ed0b-72fc-4184-b423-f68b0acfafb0
 title: D3DXCreateNPatchMesh function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateNPatchMesh function

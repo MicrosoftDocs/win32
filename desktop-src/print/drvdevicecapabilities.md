@@ -1,7 +1,12 @@
-﻿---
-Description: 'A printer interface DLL''s DrvDeviceCapabilities function returns requested information about a printer''s capabilities.'
-ms.assetid: 'a8ea236d-42f9-45c5-b2f6-035e0ba28f75'
+---
+Description: A printer interface DLLs DrvDeviceCapabilities function returns requested information about a printers capabilities.
+ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 title: DrvDeviceCapabilities function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvDeviceCapabilities function

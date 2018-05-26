@@ -1,7 +1,7 @@
 ---
 title: Windows Event Log Constants
 description: Windows Event Log defines the following constants
-ms.assetid: 'd3a4a136-ca33-4dad-95ad-af1be6687843'
+ms.assetid: d3a4a136-ca33-4dad-95ad-af1be6687843
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - WinEvt.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Event Log Constants
@@ -31,7 +36,7 @@ Windows Event Log defines the following constants:
 
 
 
-A bitmask that you use to mask out the array bit of the variant type, so you can determine the data type of the variant value that the [**EVT\_VARIANT**](evt-variant.md) structure contains.
+A bitmask that you use to mask out the array bit of the variant type, so you can determine the data type of the variant value that the [**EVT\_VARIANT**](/windows/win32/WinEvt/ns-winevt-_evt_variant?branch=master) structure contains.
 
 
 </dt> </dl> </dd> <dt>
@@ -44,7 +49,7 @@ A bitmask that you use to mask out the array bit of the variant type, so you can
 
 
 
-The **Type** member of the [**EVT\_VARIANT**](evt-variant.md) structure has this bit set if the variant contains a pointer to an array of values, rather than the value itself.
+The **Type** member of the [**EVT\_VARIANT**](/windows/win32/WinEvt/ns-winevt-_evt_variant?branch=master) structure has this bit set if the variant contains a pointer to an array of values, rather than the value itself.
 
 
 </dt> </dl> </dd> <dt>
@@ -107,15 +112,15 @@ All (read, write, clear, and delete) access control permission.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>WinEvt.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

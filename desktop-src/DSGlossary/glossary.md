@@ -1,13 +1,16 @@
 ---
-Description: 'Technologies used to access directory services on Windows 2000 or other network environments.'
+Description: Technologies used to access directory services on Windows 2000 or other network environments.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'VS\|dsglossary\|~\\adsi\\glossary.htm'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: VS\|dsglossary\|~\\adsi\\glossary.htm
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
 title: Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Glossary

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The AddPrintDeviceObject print provider function creates a device object for a print provider queue.'
-ms.assetid: 'C01071FD-7D1D-4D6F-AFDD-355FFDA699EA'
+---
+Description: The AddPrintDeviceObject print provider function creates a device object for a print provider queue.
+ms.assetid: C01071FD-7D1D-4D6F-AFDD-355FFDA699EA
 title: AddPrintDeviceObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddPrintDeviceObject function

@@ -1,8 +1,13 @@
 ---
 title: IVMTask2 ErrorDescription property
 description: The error description for this task.
-ms.assetid: '7b1fca63-a417-4ff2-93d3-afebe77f18c4'
-keywords: ["ErrorDescription property Virtual Server", "ErrorDescription property Virtual Server , IVMTask2 interface", "IVMTask2 interface Virtual Server , ErrorDescription property", "ErrorDescription property Virtual Server , VMTask2 interface", "VMTask2 interface Virtual Server , ErrorDescription property"]
+ms.assetid: 7b1fca63-a417-4ff2-93d3-afebe77f18c4
+keywords:
+- ErrorDescription property Virtual Server
+- ErrorDescription property Virtual Server , IVMTask2 interface
+- IVMTask2 interface Virtual Server , ErrorDescription property
+- ErrorDescription property Virtual Server , VMTask2 interface
+- VMTask2 interface Virtual Server , ErrorDescription property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask2::ErrorDescription property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ErrorDescription(
-  [out] BSTR *outErrorDesc
+  [out] BSTR *outErrorDesc
 );
 ```
 
@@ -80,7 +90,7 @@ For information on other return values specific to Virtual Server, see [**HRESUL
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -95,9 +105,9 @@ For information on other return values specific to Virtual Server, see [**HRESUL
 **VMTask2**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

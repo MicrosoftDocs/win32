@@ -1,14 +1,18 @@
 ---
 title: Composing and Registering SPNs for an SCP-based Windows Sockets Service
-description: The following code example shows how to compose and register the SPNs for a service. Call this code from your service installer after calling CreateService and creating the service's service connection point (SCP).
+description: The following code example shows how to compose and register the SPNs for a service. Call this code from your service installer after calling CreateService and creating the services service connection point (SCP).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3957af10-974a-415f-b8fb-d9b52ac5a82d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 3957af10-974a-415f-b8fb-d9b52ac5a82d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["service principal names AD ,composing and registering SPNs for an SCP-based Windows sockets service"]
+keywords:
+- service principal names AD ,composing and registering SPNs for an SCP-based Windows sockets service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Composing and Registering SPNs for an SCP-based Windows Sockets Service

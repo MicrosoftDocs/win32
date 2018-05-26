@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes a coordinate-axis oriented bounding box.'
-ms.assetid: '1b8f328c-2fe1-462e-b464-c8dd9dc03e67'
+---
+Description: Computes a coordinate-axis oriented bounding box.
+ms.assetid: 1b8f328c-2fe1-462e-b464-c8dd9dc03e67
 title: D3DXComputeBoundingBox function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXComputeBoundingBox function

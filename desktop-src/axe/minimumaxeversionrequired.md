@@ -1,14 +1,20 @@
 ---
 title: MinimumAxeVersionRequired element
 description: Describes the minimum AXE version required.
-ms.assetid: '29F199F9-6FF2-46E5-8B2F-BA101073BA43'
-keywords: ["MinimumAxeVersionRequired element Access Execution Engine"]
+ms.assetid: 29F199F9-6FF2-46E5-8B2F-BA101073BA43
+keywords:
+- MinimumAxeVersionRequired element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - MinimumAxeVersionRequired
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MinimumAxeVersionRequired element
@@ -80,9 +86,9 @@ Note that this element implicitly versions the assessment manifest schema. The v
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

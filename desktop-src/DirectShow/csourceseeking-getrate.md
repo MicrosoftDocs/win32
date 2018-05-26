@@ -1,19 +1,24 @@
 ---
-Description: 'The GetRate method retrieves the playback rate. This method implements the IMediaSeeking::GetRate method.'
-ms.assetid: 'e5c3ef27-6f57-4c74-b197-a3c4efb31239'
-title: 'CSourceSeeking.GetRate method'
+Description: The GetRate method retrieves the playback rate. This method implements the IMediaSeekingGetRate method.
+ms.assetid: e5c3ef27-6f57-4c74-b197-a3c4efb31239
+title: CSourceSeeking.GetRate method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.GetRate method
 
-The `GetRate` method retrieves the playback rate. This method implements the [**IMediaSeeking::GetRate**](imediaseeking-getrate.md) method.
+The `GetRate` method retrieves the playback rate. This method implements the [**IMediaSeeking::GetRate**](/windows/win32/Strmif/nf-strmif-imediaseeking-getrate?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetRate(
-   double *pdRate
+   double *pdRate
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The playback rate is specified by the [**CSourceSeeking::m\_dRateSeeking**](csou
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

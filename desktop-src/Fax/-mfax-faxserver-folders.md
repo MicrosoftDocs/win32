@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Folders property accesses a FaxFolders configuration object. You can use the object to access the folders, jobs, and messages on a connected fax server.'
-ms.assetid: '9541c67e-e257-4a74-a4a2-d718cd2260d2'
-title: 'FaxServer.Folders property'
+---
+Description: The Folders property accesses a FaxFolders configuration object. You can use the object to access the folders, jobs, and messages on a connected fax server.
+ms.assetid: 9541c67e-e257-4a74-a4a2-d718cd2260d2
+title: FaxServer.Folders property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Folders property
@@ -31,19 +36,19 @@ The folders that are accessible will depend on which privileges the user has. Us
 
 Windows Server 2003
 
-[**farQUERY\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md)
+[**farQUERY\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)
 
 The user can view all fax messages in the incoming archive.
 
-[**farMANAGE\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md)
+[**farMANAGE\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)
 
 The user can manage all fax messages in the incoming archive.
 
-[**farQUERY\_OUT\_ARCHIVE**](-mfax-fax-access-rights-enum.md)
+[**farQUERY\_OUT\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)
 
 The user can view all fax messages in the outgoing archive.
 
-[**farMANAGE\_OUT\_ARCHIVE**](-mfax-fax-access-rights-enum.md)
+[**farMANAGE\_OUT\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)
 
 The user can manage all fax messages in the outgoing archive.
 
@@ -55,23 +60,23 @@ The user can manage all fax messages in the outgoing archive.
 
 Windows Vista
 
-[**far2MANAGE\_RECEIVE\_FOLDER**](-mfax-fax-access-rights-enum-2.md)
+[**far2MANAGE\_RECEIVE\_FOLDER**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master)
 
 The user can view and manage fax messages in the incoming archive that includes his own messages and unassigned messages.
 
-[**farQUERY\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md) or [**far2QUERY\_ARCHIVES**](-mfax-fax-access-rights-enum-2.md)
+[**farQUERY\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or [**far2QUERY\_ARCHIVES**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master)
 
 The user can view all fax messages in the incoming archive, including his own messages, unassigned messages, and messages assigned to others.
 
-[**farMANAGE\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md) or [**far2MANAGE\_ARCHIVES**](-mfax-fax-access-rights-enum-2.md)
+[**farMANAGE\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or [**far2MANAGE\_ARCHIVES**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master)
 
 The user can manage all fax messages in the incoming archive, including his own messages, unassigned messages, and messages assigned to others.
 
-[**farQUERY\_OUT\_ARCHIVE**](-mfax-fax-access-rights-enum.md) or [**far2QUERY\_OUT\_JOBS**](-mfax-fax-access-rights-enum-2.md)
+[**farQUERY\_OUT\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or [**far2QUERY\_OUT\_JOBS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master)
 
 The user can view all fax messages in the outgoing archive, including his own messages, unassigned messages, and messages assigned to others.
 
-[**farMANAGE\_OUT\_ARCHIVE**](-mfax-fax-access-rights-enum.md) or [**far2MANAGE\_OUT\_JOBS**](-mfax-fax-access-rights-enum-2.md)
+[**farMANAGE\_OUT\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) or [**far2MANAGE\_OUT\_JOBS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum_2?branch=master)
 
 The user can manage all fax messages in the outgoing archive, including his own messages, unassigned messages, and messages assigned to others.
 
@@ -102,7 +107,7 @@ The user can manage all fax messages in the outgoing archive, including his own 
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

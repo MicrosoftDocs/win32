@@ -1,8 +1,9 @@
 ---
 title: WM\_PASTE message
 description: An application sends a WM\_PASTE message to an edit control or combo box to copy the current content of the clipboard to the edit control at the current caret position. Data is inserted only if the clipboard contains data in CF\_TEXT format.
-ms.assetid: '6830b511-986f-46ef-a977-7adedffe86ea'
-keywords: ["WM_PASTE message Data Exchange"]
+ms.assetid: 6830b511-986f-46ef-a977-7adedffe86ea
+keywords:
+- WM_PASTE message Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_PASTE message
@@ -56,8 +62,8 @@ When sent to a combo box, the **WM\_PASTE** message is handled by its edit contr
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ When sent to a combo box, the **WM\_PASTE** message is handled by its edit contr
 [Clipboard](clipboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

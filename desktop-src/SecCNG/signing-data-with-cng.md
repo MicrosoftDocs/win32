@@ -1,7 +1,12 @@
 ---
-Description: 'Data signing does not protect the data. It only to verifies the integrity of the data.'
-ms.assetid: '8f0ace5a-c8f9-4a45-8500-041a9f22637d'
+Description: Data signing does not protect the data. It only to verifies the integrity of the data.
+ms.assetid: 8f0ace5a-c8f9-4a45-8500-041a9f22637d
 title: Signing Data with CNG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signing Data with CNG
@@ -16,15 +21,15 @@ To verify the signature, the recipient extracts the data and the signature from 
 
 1.  Create a hash value for the data by using the CNG hashing functions. For more information about creating a hash, see [Creating a Hash With CNG](creating-a-hash-with-cng.md).
 2.  Create an asymmetric key to sign the hash. You can either create a persistent key with the [CNG Key Storage Functions](cng-key-storage-functions.md) or an ephemeral key with the [CNG Cryptographic Primitive Functions](cng-cryptographic-primitive-functions.md).
-3.  Use either the [**NCryptSignHash**](ncryptsignhash-func.md) or the [**BCryptSignHash**](bcryptsignhash-func.md) function to sign (encrypt) the hash value. This function signs the hash value by using the asymmetric key.
+3.  Use either the [**NCryptSignHash**](/windows/win32/Ncrypt/nf-ncrypt-ncryptsignhash?branch=master) or the [**BCryptSignHash**](/windows/win32/Bcrypt/nf-bcrypt-bcryptsignhash?branch=master) function to sign (encrypt) the hash value. This function signs the hash value by using the asymmetric key.
 4.  Combine the data and signature into a message which can be sent sent to the intended recipient.
 
 **To verify a signature by using CNG**
 
 1.  Extract the data and signature from the message.
 2.  Create a hash value for the data by using the CNG hashing functions. The hashing algorithm used must be the same algorithm that was used to sign he hash.
-3.  Obtain the public portion of the asymmetric key pair that was used to sign the hash. How you obtain this key depends on how the key was created and persisted. If the key was created or loaded with the [CNG Key Storage Functions](cng-key-storage-functions.md), you will use the [**NCryptOpenKey**](ncryptopenkey-func.md) function to load the persisted key. If the key is an ephemeral key, then it would have to have been saved to a key BLOB. You need to pass this key BLOB to either the [**BCryptImportKeyPair**](bcryptimportkeypair.md) or the [**NCryptImportKey**](ncryptimportkey-func.md) function.
-4.  Pass the new hash value, the signature, and the key handle to either the [**NCryptVerifySignature**](ncryptverifysignature-func.md) or the [**BCryptVerifySignature**](bcryptverifysignature-func.md) function. These functions perform verification by using the public key to decrypt the signature and comparing the decrypted hash to the hash computed in step 2. The **BCryptVerifySignature** function will return **STATUS\_SUCCESS** if the signature matches the hash or **STATUS\_INVALID\_SIGNATURE** if the signature does not match the hash. The **NCryptVerifySignature** function will return **STATUS\_SUCCESS** if the signature matches the hash or **NTE\_BAD\_SIGNATURE** if the signature does not match the hash.
+3.  Obtain the public portion of the asymmetric key pair that was used to sign the hash. How you obtain this key depends on how the key was created and persisted. If the key was created or loaded with the [CNG Key Storage Functions](cng-key-storage-functions.md), you will use the [**NCryptOpenKey**](/windows/win32/Ncrypt/nf-ncrypt-ncryptopenkey?branch=master) function to load the persisted key. If the key is an ephemeral key, then it would have to have been saved to a key BLOB. You need to pass this key BLOB to either the [**BCryptImportKeyPair**](/windows/win32/Bcrypt/nf-bcrypt-bcryptimportkeypair?branch=master) or the [**NCryptImportKey**](/windows/win32/Ncrypt/nf-ncrypt-ncryptimportkey?branch=master) function.
+4.  Pass the new hash value, the signature, and the key handle to either the [**NCryptVerifySignature**](/windows/win32/Ncrypt/nf-ncrypt-ncryptverifysignature?branch=master) or the [**BCryptVerifySignature**](/windows/win32/Bcrypt/nf-bcrypt-bcryptverifysignature?branch=master) function. These functions perform verification by using the public key to decrypt the signature and comparing the decrypted hash to the hash computed in step 2. The **BCryptVerifySignature** function will return **STATUS\_SUCCESS** if the signature matches the hash or **STATUS\_INVALID\_SIGNATURE** if the signature does not match the hash. The **NCryptVerifySignature** function will return **STATUS\_SUCCESS** if the signature matches the hash or **NTE\_BAD\_SIGNATURE** if the signature does not match the hash.
 
 ## Signing and Verifying Data Example
 

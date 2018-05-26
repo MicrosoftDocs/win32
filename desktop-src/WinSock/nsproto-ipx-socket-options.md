@@ -1,14 +1,19 @@
-﻿---
-Description: 'The following tables describe NSPROTO\_IPX socket options that apply to sockets created for the IPX/SPX address family (AF\_IPX). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.'
-ms.assetid: '0d5c8299-14d7-41e5-8ff6-f57a732acb26'
-title: 'NSPROTO\_IPX Socket Options'
+---
+Description: The following tables describe NSPROTO\_IPX socket options that apply to sockets created for the IPX/SPX address family (AF\_IPX). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
+ms.assetid: 0d5c8299-14d7-41e5-8ff6-f57a732acb26
+title: NSPROTO\_IPX Socket Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NSPROTO\_IPX Socket Options
 
-The following tables describe **NSPROTO\_IPX** socket options that apply to sockets created for the IPX/SPX address family (AF\_IPX). See the [**getsockopt**](getsockopt-2.md) and [**setsockopt**](setsockopt-2.md) function reference pages for more information on getting and setting socket options.
+The following tables describe **NSPROTO\_IPX** socket options that apply to sockets created for the IPX/SPX address family (AF\_IPX). See the [**getsockopt**](/windows/win32/winsock/nf-winsock-getsockopt?branch=master) and [**setsockopt**](/windows/win32/winsock/nf-winsock-setsockopt?branch=master) function reference pages for more information on getting and setting socket options.
 
-To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](wsaenumprotocols-2.md), [**WSCEnumProtocols**](wscenumprotocols-2.md), or [**WSCEnumProtocols32**](wscenumprotocols32.md) function.
+To enumerate protocols and discover supported properties for each installed protocol, use the [**WSAEnumProtocols**](/windows/win32/Winsock2/nf-winsock2-wsaenumprotocolsa?branch=master), [**WSCEnumProtocols**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols?branch=master), or [**WSCEnumProtocols32**](/windows/win32/Ws2spi/nf-ws2spi-wscenumprotocols32?branch=master) function.
 
 <dl> <dt><span id="NSPROTO_IPX_Socket_Options"></span><span id="nsproto_ipx_socket_options"></span><span id="NSPROTO_IPX_SOCKET_OPTIONS"></span>**NSPROTO\_IPX Socket Options**</dt> <dd> <dl> <dt> 
 

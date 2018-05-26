@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RoutingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently routing.'
-ms.assetid: 'd5fd253f-528a-4eec-9c86-97ee7232cc45'
-title: 'FaxActivity.RoutingMessages property'
+---
+Description: The RoutingMessages property is a number that represents the total number of incoming fax jobs that the fax service is currently routing.
+ms.assetid: d5fd253f-528a-4eec-9c86-97ee7232cc45
+title: FaxActivity.RoutingMessages property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxActivity.RoutingMessages property
@@ -25,7 +30,7 @@ A **Long** that receives the total number of incoming jobs that the fax service 
 
 ## Remarks
 
-To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To read this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax
 [**FaxActivity**](-mfax-faxactivity.md)
 </dt> <dt>
 
-[**IFaxActivity**](-mfax-faxactivity-cpp.md)
+[**IFaxActivity**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxactivity?branch=master)
 </dt> </dl>
 
  

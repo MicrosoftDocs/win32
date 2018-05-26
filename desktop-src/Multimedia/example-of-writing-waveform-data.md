@@ -1,8 +1,17 @@
 ---
 title: Example of Writing Waveform Data
 description: Example of Writing Waveform Data
-ms.assetid: '8078e5b4-340b-409a-88f9-143b02efebc1'
-keywords: ["waveform audio,writing waveform data", "auxiliary audio,writing waveform data", "writing waveform data", "WAVEHDR structure"]
+ms.assetid: 8078e5b4-340b-409a-88f9-143b02efebc1
+keywords:
+- waveform audio,writing waveform data
+- auxiliary audio,writing waveform data
+- writing waveform data
+- WAVEHDR structure
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Example of Writing Waveform Data

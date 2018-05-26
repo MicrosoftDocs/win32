@@ -1,13 +1,16 @@
 ---
-Description: 'A qualifier is a data string that provides more information about a class, instance, property, method, or parameter.'
+Description: A qualifier is a data string that provides more information about a class, instance, property, method, or parameter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6984b575-b365-49dd-aeab-a763430f434c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6984b575-b365-49dd-aeab-a763430f434c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Adding a Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding a Qualifier

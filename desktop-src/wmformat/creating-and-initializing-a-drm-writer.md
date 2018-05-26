@@ -1,8 +1,20 @@
 ---
 title: Creating and Initializing a DRM Writer
 description: Creating and Initializing a DRM Writer
-ms.assetid: 'ce0508e1-f69f-4e09-8c32-8c9dac48b5ec'
-keywords: ["Windows Media Format SDK,DRM writers", "digital rights management (DRM),creating DRM writers", "DRM (digital rights management),creating DRM writers", "digital rights management (DRM),initializing DRM writers", "DRM (digital rights management),initializing DRM writers", "DRM Client Extended APIs,DRM writers", "Client Extended APIs,DRM writers"]
+ms.assetid: ce0508e1-f69f-4e09-8c32-8c9dac48b5ec
+keywords:
+- Windows Media Format SDK,DRM writers
+- digital rights management (DRM),creating DRM writers
+- DRM (digital rights management),creating DRM writers
+- digital rights management (DRM),initializing DRM writers
+- DRM (digital rights management),initializing DRM writers
+- DRM Client Extended APIs,DRM writers
+- Client Extended APIs,DRM writers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Initializing a DRM Writer
@@ -11,7 +23,7 @@ The following steps are required to initialize an ASF writer object for importin
 
 1.  Follow steps 1 to 4 of [Importing License and Key Material](importing-license-and-key-material.md).
 2.  Create and initialize an ASF writer object using the appropriate Windows Media DRM key material. For more information, see [Enabling DRM Support](enabling-drm-support.md).
-3.  Set each of the following attributes by calling [**IWMDRMWriter::SetDRMAttribute**](iwmdrmwriter-setdrmattribute.md):
+3.  Set each of the following attributes by calling [**IWMDRMWriter::SetDRMAttribute**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute?branch=master):
     -   DRM\_HeaderSignPrivKey
     -   DRM\_V1LicenseAcqURL
     -   DRM\_KeyID
@@ -27,9 +39,9 @@ The following steps are required to initialize an ASF writer object for importin
 7.  Encrypt the content key with the session key, using RC4 encryption.
 8.  Extract the machine certificate collection key. For an example, see [Get Machine Certificate Example](get-machine-certificate-example.md).
 9.  Encrypt the session key with the public key extracted from the certificate.
-10. Fill out a [**WMDRM\_IMPORT\_INIT\_STRUCT**](wmdrm-import-init-struct.md) structure.
-11. Call the [**IWMDRMWriter3::SetProtectStreamSamples**](iwmdrmwriter3-setprotectstreamsamples.md) method to notify the SDK that samples coming into the writer are already protected and should be sent directly to the Windows Media DRM client for import.
-12. Call [**IWMWriter::BeginWriting**](iwmwriter-beginwriting.md).
+10. Fill out a [**WMDRM\_IMPORT\_INIT\_STRUCT**](/windows/win32/wmsdkidl/ns-wmsdkidl-wmdrm_import_init_struct?branch=master) structure.
+11. Call the [**IWMDRMWriter3::SetProtectStreamSamples**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter3-setprotectstreamsamples?branch=master) method to notify the SDK that samples coming into the writer are already protected and should be sent directly to the Windows Media DRM client for import.
+12. Call [**IWMWriter::BeginWriting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting?branch=master).
 
 The remaining steps for creating a DRM-protected file are documented in the Windows Media Format SDK Programming Guide. For more information, see [Creating Protected Files](creating-protected-files.md).
 

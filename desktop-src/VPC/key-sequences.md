@@ -1,8 +1,14 @@
 ---
 title: Key Sequences
 description: A key sequence string is a comma-delimited set of key identifiers which are used to simulate the key press and release sequence of a standard U.S. 101-key AT-style keyboard.
-ms.assetid: '6f5301d1-af6e-4b43-8884-c76b2300ba92'
-keywords: ["Windows Virtual PC Virtual PC , key sequences"]
+ms.assetid: 6f5301d1-af6e-4b43-8884-c76b2300ba92
+keywords:
+- Windows Virtual PC Virtual PC , key sequences
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Sequences

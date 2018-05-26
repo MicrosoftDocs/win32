@@ -4,10 +4,13 @@ description: The LDAP API provides a simple syntax-verification function. Be awa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4e564cd9-2f8b-4e70-928c-3a8bd804aeba'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 4e564cd9-2f8b-4e70-928c-3a8bd804aeba
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Checking the Query Filter Syntax

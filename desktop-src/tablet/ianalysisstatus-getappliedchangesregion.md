@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the region of the document that corresponds to changes that were made in the IInkAnalyzer object''s context node tree as a result of ink analysis.'
-ms.assetid: '25d511fb-ba2d-4c46-8a8c-8bb4187c9a5c'
-title: 'IAnalysisStatus::GetAppliedChangesRegion method'
+Description: Retrieves the region of the document that corresponds to changes that were made in the IInkAnalyzer objects context node tree as a result of ink analysis.
+ms.assetid: 25d511fb-ba2d-4c46-8a8c-8bb4187c9a5c
+title: IAnalysisStatusGetAppliedChangesRegion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAnalysisStatus::GetAppliedChangesRegion method
@@ -13,7 +18,7 @@ Retrieves the region of the document that corresponds to changes that were made 
 
 ```C++
 HRESULT GetAppliedChangesRegion(
-  [out] IAnalysisRegion **pAppliedChangesRegion
+  [out] IAnalysisRegion **pAppliedChangesRegion
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on \**pAppliedChangesRegion* when you no longer need to use the analysis region.
 
- 
+ 
 
 This method is most frequently used when the application receives information for debugging purposes and needs to invalidate the area where changes might occur so that the debugging information is painted.
 
@@ -49,7 +54,7 @@ This method is most frequently used when the application receives information fo
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -69,9 +74,9 @@ This method is most frequently used when the application receives information fo
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

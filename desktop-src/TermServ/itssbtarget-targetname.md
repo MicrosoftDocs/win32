@@ -4,11 +4,16 @@ description: Specifies or retrieves the name of the target.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba5c3158-b4bc-457f-94ea-adb2e0852129'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: ba5c3158-b4bc-457f-94ea-adb2e0852129
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TargetName property Remote Desktop Services", "TargetName property Remote Desktop Services , ITsSbTarget interface", "ITsSbTarget interface Remote Desktop Services , TargetName property", "TargetName property Remote Desktop Services , ITsSbTargetEx interface", "ITsSbTargetEx interface Remote Desktop Services , TargetName property"]
+keywords:
+- TargetName property Remote Desktop Services
+- TargetName property Remote Desktop Services , ITsSbTarget interface
+- ITsSbTarget interface Remote Desktop Services , TargetName property
+- TargetName property Remote Desktop Services , ITsSbTargetEx interface
+- ITsSbTargetEx interface Remote Desktop Services , TargetName property
 topic_type:
 - apiref
 api_name:
@@ -22,6 +27,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbTarget::TargetName property
@@ -35,11 +43,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_TargetName(
-  [in]          BSTR Val
+  [in]          BSTR Val
 );
 
 HRESULT get_TargetName(
-  [out, retval] BSTR *pVal
+  [out, retval] BSTR *pVal
 );
 ```
 
@@ -51,7 +59,7 @@ A **BSTR** variable that specifies the target name.
 
 ## Remarks
 
-This property was read-only prior to Windows Server 2012.
+This property was read-only prior to Windows Server 2012.
 
 ## Requirements
 
@@ -69,7 +77,7 @@ This property was read-only prior to Windows Server 2012.
 </tr>
 <tr class="even">
 <td>Minimum supported server<br/></td>
-<td>Windows Server 2012<br/></td>
+<td>Windows Server 2012<br/></td>
 </tr>
 <tr class="odd">
 <td>IDL<br/></td>
@@ -80,7 +88,7 @@ This property was read-only prior to Windows Server 2012.
 <td>IID_ITsSbTarget is defined as:
 <ul>
 <li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li>
+<li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li>
 </ul></td>
 </tr>
 </tbody>
@@ -95,12 +103,12 @@ This property was read-only prior to Windows Server 2012.
 [**ITsSbTargetEx**](itssbtargetex.md)
 </dt> <dt>
 
-[**ITsSbTarget**](itssbtarget.md)
+[**ITsSbTarget**](/windows/win32/sbtsv/nn-sbtsv-itssbtarget?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

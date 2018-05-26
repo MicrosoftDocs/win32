@@ -1,8 +1,14 @@
 ---
 title: About Restart Manager
 description: The primary reason software installation and updates require a system restart is that some of the files that are being updated are currently being used by a running application or service.
-ms.assetid: '9a1166d7-a0e1-4948-9077-278c84afccac'
-keywords: ["Restart Manager Restart Mgr , about"]
+ms.assetid: 9a1166d7-a0e1-4948-9077-278c84afccac
+keywords:
+- Restart Manager Restart Mgr , about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Restart Manager

@@ -4,11 +4,13 @@ description: A subclass of the Win32\_Service class. Win32\_TerminalService repr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '06c69d71-4e6f-48af-b13d-e593b8fcf376'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 06c69d71-4e6f-48af-b13d-e593b8fcf376
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TerminalService class Remote Desktop Services", "Win32_TerminalService class Remote Desktop Services , described"]
+keywords:
+- Win32_TerminalService class Remote Desktop Services
+- Win32_TerminalService class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -45,6 +47,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TerminalService class
@@ -59,34 +64,34 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TERMINALSERVICE_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer"), AMENDMENT]
 class Win32_TerminalService : Win32_Service
 {
-  boolean  AcceptPause;
-  boolean  AcceptStop;
-  string   Caption;
-  uint32   CheckPoint;
-  string   CreationClassName;
-  boolean  DelayedAutoStart;
-  string   Description;
-  boolean  DesktopInteract;
-  string   DisplayName;
-  string   ErrorControl;
-  uint32   ExitCode;
+  boolean  AcceptPause;
+  boolean  AcceptStop;
+  string   Caption;
+  uint32   CheckPoint;
+  string   CreationClassName;
+  boolean  DelayedAutoStart;
+  string   Description;
+  boolean  DesktopInteract;
+  string   DisplayName;
+  string   ErrorControl;
+  uint32   ExitCode;
   datetime InstallDate;
-  string   Name;
-  string   PathName;
-  uint32   ProcessId;
-  uint32   ServiceSpecificExitCode;
-  string   ServiceType;
-  boolean  Started;
-  string   StartMode;
-  string   StartName;
-  string   State;
-  string   Status;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   TagId;
-  uint32   WaitHint;
-  uint32   DisconnectedSessions;
-  uint32   TotalSessions;
+  string   Name;
+  string   PathName;
+  uint32   ProcessId;
+  uint32   ServiceSpecificExitCode;
+  string   ServiceType;
+  boolean  Started;
+  string   StartMode;
+  string   StartName;
+  string   State;
+  string   Status;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   TagId;
+  uint32   WaitHint;
+  uint32   DisconnectedSessions;
+  uint32   TotalSessions;
 };
 ```
 
@@ -120,7 +125,7 @@ The **Win32\_TerminalService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -176,7 +181,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the service —a one-line string.
+Short description of the service  a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](https://msdn.microsoft.com/library/aa387898).
 
@@ -232,7 +237,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("
 
 If **True**, the service is started after other auto-start services are started plus a short delay.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows Server 2016 and Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:** This property is not supported before Windows Server 2016 and Windows 10.
 
 This property is inherited from [**Win32\_Service**](https://msdn.microsoft.com/library/aa394418).
 
@@ -754,7 +759,7 @@ The values are:
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2008 and Windows Vista:** This property is read-only before Windows 7 and Windows Server 2008 R2.
+**Windows Server 2008 and Windows Vista:** This property is read-only before Windows 7 and Windows Server 2008 R2.
 
 This property is inherited from [**Win32\_BaseService**](https://msdn.microsoft.com/library/aa394073).
 
@@ -916,7 +921,7 @@ Qualifiers: [**MappingStrings**](https://msdn.microsoft.com/library/aa393650) ("
 
 Unique tag value for this service in the group. A value of 0 (zero) indicates that the service does not have a tag. A tag can be used to order service startup within a load order group by specifying a tag order vector in the registry located at:
 
-**HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\    **GroupOrderList**
+**HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\    **GroupOrderList**
 
 Tags are only evaluated for Kernel Driver and File System Driver start type services that have Boot or System start modes.
 
@@ -971,8 +976,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -998,9 +1003,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**CIM\_Service**](https://msdn.microsoft.com/library/aa388442)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

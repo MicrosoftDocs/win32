@@ -1,7 +1,12 @@
 ---
 title: Component Categories
 description: Component Categories
-ms.assetid: '74d06b17-6134-4b07-a063-992ce72beb40'
+ms.assetid: 74d06b17-6134-4b07-a063-992ce72beb40
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component Categories

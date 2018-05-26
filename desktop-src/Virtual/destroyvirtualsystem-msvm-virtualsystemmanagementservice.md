@@ -1,8 +1,11 @@
 ---
 title: DestroyVirtualSystem method of the Msvm\_VirtualSystemManagementService class
 description: Removes the previously defined virtual computer system from the management scope of the host system.
-ms.assetid: 'd25938d8-d7f0-4691-8ac5-5d27134404d0'
-keywords: ["DestroyVirtualSystem method Hyper-V", "DestroyVirtualSystem method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , DestroyVirtualSystem method"]
+ms.assetid: d25938d8-d7f0-4691-8ac5-5d27134404d0
+keywords:
+- DestroyVirtualSystem method Hyper-V
+- DestroyVirtualSystem method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , DestroyVirtualSystem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroyVirtualSystem method of the Msvm\_VirtualSystemManagementService class
@@ -22,8 +30,8 @@ Removes the previously defined virtual computer system from the management scope
 
 ```mof
 uint32 DestroyVirtualSystem(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -109,7 +117,7 @@ The following C# sample removes a virtual system. The referenced utilities can b
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -188,7 +196,7 @@ The following VBScript sample removes a virtual system.
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -346,9 +354,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -361,9 +369,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,13 +2,15 @@
 title: VirtualPrivateNetworkConfiguration class
 description: Virtual Private Network Configuration.
 audience: developer
-ms.assetid: 'eb5b58c4-fa52-43b8-9a93-225861765721'
-ms.prod: 'windows-server-dev'
+ms.assetid: eb5b58c4-fa52-43b8-9a93-225861765721
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VirtualPrivateNetworkConfiguration class", "VirtualPrivateNetworkConfiguration class, described"]
+keywords:
+- VirtualPrivateNetworkConfiguration class
+- VirtualPrivateNetworkConfiguration class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VirtualPrivateNetworkConfiguration class
@@ -34,7 +39,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class VirtualPrivateNetworkConfiguration
 {
   VpnIPAddressAssignment IPAddressAssignmentPolicy;
-  VpnAuth                AuthenticationPolicy;
+  VpnAuth                AuthenticationPolicy;
 };
 ```
 
@@ -89,16 +94,16 @@ Address assignment policy as a [**VpnIPAddressAssignment**](vpnipaddressassignme
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

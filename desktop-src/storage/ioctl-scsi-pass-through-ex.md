@@ -1,8 +1,9 @@
 ---
 title: IOCTL\_SCSI\_PASS\_THROUGH\_EX control code
 description: The IOCTL\_SCSI\_PASS\_THROUGH\_EX control code request is the extended version of the IOCTL\_SCSI\_PASS\_THROUGH request. This request provides support for bidirectional data transfers and allows a command data block (CDB) 16 bytes.
-ms.assetid: 'BDF4375D-660D-4AF0-A692-16EEA59954B3'
-keywords: ["IOCTL_SCSI_PASS_THROUGH_EX control code Storage Devices"]
+ms.assetid: BDF4375D-660D-4AF0-A692-16EEA59954B3
+keywords:
+- IOCTL_SCSI_PASS_THROUGH_EX control code Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ntddscsi.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_SCSI\_PASS\_THROUGH\_EX control code
@@ -42,7 +48,7 @@ Storage class drivers set the minor IRP number to IRP\_MN\_SCSI\_CLASS to indica
 > [!Note]  
 > The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver) and [Storport miniport](https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers) driver models.
 
- 
+ 
 
 ## Input Buffer
 
@@ -85,9 +91,9 @@ In order to issue an **IOCTL\_SCSI\_PASS\_THROUGH\_EX** request, the underlying 
 [**SCSI\_PASS\_THROUGH\_EX**](scsi-pass-through-ex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20IOCTL_SCSI_PASS_THROUGH_EX%20control%20code%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

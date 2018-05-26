@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.ChartScroll property
 description: Retrieves or sets a value that determines if the line graph scrolls in the view.
-ms.assetid: 'df4806be-dfd3-4ff7-985d-b46c00bb19f8'
-keywords: ["ChartScroll property SysMon", "ChartScroll property SysMon , SystemMonitor object", "SystemMonitor object SysMon , ChartScroll property"]
+ms.assetid: df4806be-dfd3-4ff7-985d-b46c00bb19f8
+keywords:
+- ChartScroll property SysMon
+- ChartScroll property SysMon , SystemMonitor object
+- SystemMonitor object SysMon , ChartScroll property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.ChartScroll property
@@ -32,7 +40,7 @@ True if the line graph scrolls continuously from right to left; otherwise, False
 
 ## Remarks
 
-This value is ignored if the [**SystemMonitor.DisplayType**](systemmonitor-displaytype.md) is not [**DisplayTypeConstants.sysmonLineGraph**](displaytypeconstants.md).
+This value is ignored if the [**SystemMonitor.DisplayType**](systemmonitor-displaytype.md) is not [**DisplayTypeConstants.sysmonLineGraph**](/windows/win32/ISysmon/ne-isysmon-edisplaytypeconstant?branch=master).
 
 ## Requirements
 
@@ -40,15 +48,15 @@ This value is ignored if the [**SystemMonitor.DisplayType**](systemmonitor-displ
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

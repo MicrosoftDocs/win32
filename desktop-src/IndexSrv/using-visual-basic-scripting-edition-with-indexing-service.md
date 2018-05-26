@@ -1,7 +1,12 @@
 ---
 title: Using Visual Basic Scripting Edition with Indexing Service
 description: Using Visual Basic Scripting Edition with Indexing Service
-ms.assetid: '2c029842-0b62-4855-96d0-2bafe07dc569'
+ms.assetid: 2c029842-0b62-4855-96d0-2bafe07dc569
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Visual Basic Scripting Edition with Indexing Service

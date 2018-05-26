@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.SideShow.addImage method
 description: Adds an image element to the SideShow device.
-ms.assetid: '07779feb-9e56-4b9d-a889-f22447cd7c4d'
-keywords: ["addImage method Windows Sidebar", "addImage method Windows Sidebar , System.Gadget.SideShow object", "System.Gadget.SideShow object Windows Sidebar , addImage method"]
+ms.assetid: 07779feb-9e56-4b9d-a889-f22447cd7c4d
+keywords:
+- addImage method Windows Sidebar
+- addImage method Windows Sidebar , System.Gadget.SideShow object
+- System.Gadget.SideShow object Windows Sidebar , addImage method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.SideShow.addImage method
@@ -118,10 +126,10 @@ sideshow =
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -143,9 +151,9 @@ sideshow =
 [Windows SideShow: Windows Hardware Developer Central](http://www.microsoft.com/whdc/device/sideshow/default.mspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

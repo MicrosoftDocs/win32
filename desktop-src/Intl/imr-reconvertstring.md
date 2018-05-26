@@ -1,7 +1,12 @@
-﻿---
-Description: 'Notifies an application when a selected IME needs a string for reconversion. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.'
-ms.assetid: '82ef20b5-bdfa-4bde-abb4-3d14ae35c116'
-title: 'IMR\_RECONVERTSTRING notification code'
+---
+Description: Notifies an application when a selected IME needs a string for reconversion. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+ms.assetid: 82ef20b5-bdfa-4bde-abb4-3d14ae35c116
+title: IMR\_RECONVERTSTRING notification code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMR\_RECONVERTSTRING notification code
@@ -29,7 +34,7 @@ Set to IMR\_RECONVERTSTRING.
 <span id="lParam"></span><span id="lparam"></span><span id="LPARAM"></span>*lParam*
 </dt> <dd>
 
-Pointer to a buffer containing the [**RECONVERTSTRING**](reconvertstring.md) structure and strings.
+Pointer to a buffer containing the [**RECONVERTSTRING**](/windows/win32/Imm/ns-imm-tagreconvertstring?branch=master) structure and strings.
 
 </dd> </dl>
 
@@ -59,7 +64,7 @@ Returns the current reconversion string structure. If *lParam* is set to **NULL*
 [Input Method Manager Commands](input-method-manager-commands.md)
 </dt> <dt>
 
-[**RECONVERTSTRING**](reconvertstring.md)
+[**RECONVERTSTRING**](/windows/win32/Imm/ns-imm-tagreconvertstring?branch=master)
 </dt> <dt>
 
 [**WM\_IME\_REQUEST**](wm-ime-request.md)

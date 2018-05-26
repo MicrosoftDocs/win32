@@ -3,8 +3,11 @@ title: InstallLicensePackage method of the SoftwareLicensingService class
 description: Installs a license package for the current product.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '92f48128-cdcf-42ee-a359-cbeaf845ec02'
-keywords: ["InstallLicensePackage method Windows Management Instrumentation", "InstallLicensePackage method Windows Management Instrumentation , SoftwareLicensingService class", "SoftwareLicensingService class Windows Management Instrumentation , InstallLicensePackage method"]
+ms.assetid: 92f48128-cdcf-42ee-a359-cbeaf845ec02
+keywords:
+- InstallLicensePackage method Windows Management Instrumentation
+- InstallLicensePackage method Windows Management Instrumentation , SoftwareLicensingService class
+- SoftwareLicensingService class Windows Management Instrumentation , InstallLicensePackage method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InstallLicensePackage method of the SoftwareLicensingService class
@@ -24,7 +32,7 @@ Installs a license package for the current product.
 
 ```mof
 uint32 InstallLicensePackage(
-  [in] string LicensePackage
+  [in] string LicensePackage
 );
 ```
 
@@ -47,8 +55,8 @@ Specifies the license package to install.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Specifies the license package to install.
 [**SoftwareLicensingService**](softwarelicensingservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

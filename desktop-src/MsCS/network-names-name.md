@@ -4,17 +4,22 @@ description: Provides the name of the network being managed by a Cluster Name re
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09903bd1-1049-462f-9a11-b680763e3c36'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 09903bd1-1049-462f-9a11-b680763e3c36
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Name Failover Cluster ,for network names", "Name Failover Cluster"]
+keywords:
+- Name Failover Cluster ,for network names
+- Name Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Name
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Name
@@ -28,24 +33,24 @@ Provides the name of the [network](networks.md) being managed by a [Cluster Name
 | Data type<br/> | Null-terminated Unicode string<br/>                     |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>            |
 | Status<br/>    | Required<br/>                                           |
-| Structure<br/> | [**CLUSPROP\_SZ**](clusprop-sz.md)<br/>                |
+| Structure<br/> | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)<br/>                |
 | Minimum<br/>   | **NULL**<br/>                                           |
 | Maximum<br/>   | see [Maximum String Size](maximum-string-size.md)<br/> |
 | Default<br/>   | **NULL**<br/>                                           |
 
 
 
- 
+ 
 
 ## Remarks
 
-Every cluster has a core Cluster Name resource. The core Network Name resource stores the cluster name in its **Name** private property and is used by the [Cluster service](cluster-service.md) to manage the cluster name. The **Name** private property of the core Cluster Name resource is read-only. Applications must call the [**SetClusterName**](setclustername.md) function to change the cluster name.
+Every cluster has a core Cluster Name resource. The core Network Name resource stores the cluster name in its **Name** private property and is used by the [Cluster service](cluster-service.md) to manage the cluster name. The **Name** private property of the core Cluster Name resource is read-only. Applications must call the [**SetClusterName**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_setclustername?branch=master) function to change the cluster name.
 
 The **Name** private property for all other Cluster Name resources is read/write.
 
 Note that the **Name** common property for a Cluster Name resource provides the name of the resource, not the name of the network.
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -70,7 +75,7 @@ StringCbCopy( NameValue.sz, NameValue.cbLength, szNameData );
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -81,18 +86,18 @@ StringCbCopy( NameValue.sz, NameValue.cbLength, szNameData );
 [Cluster Name Private Properties](network-name-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> <dt>
 
-[**SetClusterName**](setclustername.md)
+[**SetClusterName**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_setclustername?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Creates a replica relationship between replication groups.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dca55d0a-d69f-4b39-85f2-10e531a350d9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: dca55d0a-d69f-4b39-85f2-10e531a350d9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateReplica method", "CreateReplica method, MSFT_SMReplicationGroup class", "MSFT_SMReplicationGroup class, CreateReplica method"]
+keywords:
+- CreateReplica method
+- CreateReplica method, MSFT_SMReplicationGroup class
+- MSFT_SMReplicationGroup class, CreateReplica method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateReplica method of the MSFT\_SMReplicationGroup class
@@ -28,19 +34,19 @@ Creates a replica relationship between replication groups.
 
 ```mof
 UInt32 CreateReplica(
-  [in]            string                      RelationshipName,
-  [in]            uint16                      SyncType,
-  [in]            uint16                      Mode,
-  [in]            MSFT_SMReplicaPeer      REF TargetStorageSystem,
-  [in, optional]  MSFT_SMReplicationGroup REF TargetGroupObject,
-  [in]            MSFT_SMPool             REF TargetStoragePool,
-  [in, optional]  MSFT_SMReplicationSettings  ReplicationSettings,
-  [in]            UInt32                      RecoveryPointObjective,
-  [out]           MSFT_SMReplicaPeer      REF TargetReplicaPeer,
-  [in, optional]  String                      username,
-  [in, optional]  String                      password,
-  [out]           MSFT_SMJob              REF Job,
-  [out, optional] MSFT_SMExtendedStatus       ExtendedStatus
+  [in]            string                      RelationshipName,
+  [in]            uint16                      SyncType,
+  [in]            uint16                      Mode,
+  [in]            MSFT_SMReplicaPeer      REF TargetStorageSystem,
+  [in, optional]  MSFT_SMReplicationGroup REF TargetGroupObject,
+  [in]            MSFT_SMPool             REF TargetStoragePool,
+  [in, optional]  MSFT_SMReplicationSettings  ReplicationSettings,
+  [in]            UInt32                      RecoveryPointObjective,
+  [out]           MSFT_SMReplicaPeer      REF TargetReplicaPeer,
+  [in, optional]  String                      username,
+  [in, optional]  String                      password,
+  [out]           MSFT_SMJob              REF Job,
+  [out, optional] MSFT_SMExtendedStatus       ExtendedStatus
 );
 ```
 
@@ -71,7 +77,7 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -106,14 +112,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–...</dd> </dl> </dd> <dt>
+</dt> <dd>32768 ...</dd> </dl> </dd> <dt>
 
 *Mode* \[in\]
 </dt> <dd>
@@ -193,7 +199,7 @@ An array that contains [**MSFT\_SMPool**](msft-smpool.md) objects that contain s
 > [!Note]  
 > If this parameter is specified, *TargetStoragePool* parameter must be set to **NULL**.
 
- 
+ 
 
 </dd> <dt>
 
@@ -292,7 +298,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | Header<br/>                   | <dl> <dt>Adojet.h</dt> </dl>           |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
@@ -307,9 +313,9 @@ The possible return values are:
 [**MSFT\_SMReplicationGroup**](msft-smreplicationgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

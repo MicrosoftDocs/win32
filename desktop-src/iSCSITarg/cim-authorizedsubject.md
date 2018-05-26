@@ -4,13 +4,15 @@ description: CIM\_AuthorizedSubject is an association used to tie specific Autho
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2bc93476-c42f-4054-a2a6-76bf7a5cd1e9'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2bc93476-c42f-4054-a2a6-76bf7a5cd1e9
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AuthorizedSubject class iSCSI Software Target API", "CIM_AuthorizedSubject class iSCSI Software Target API , described"]
+keywords:
+- CIM_AuthorizedSubject class iSCSI Software Target API
+- CIM_AuthorizedSubject class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AuthorizedSubject class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_AuthorizedSubject
 {
   CIM_AuthorizedPrivilege REF Privilege;
-  CIM_ManagedElement      REF PrivilegedElement;
+  CIM_ManagedElement      REF PrivilegedElement;
 };
 ```
 
@@ -91,16 +96,16 @@ A [**CIM\_ManagedElement**](https://msdn.microsoft.com/library/cc136871) contain
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: EAP Method Properties
 description: Used by supplicants and authenticators to determine the EAP methods to be used with a given supplicant or authenticator. Method properties also specify the configuration of a method.
-ms.assetid: '10407b85-5d2c-4c75-9b65-a0d65d4cc7ab'
+ms.assetid: 10407b85-5d2c-4c75-9b65-a0d65d4cc7ab
 topic_type:
 - apiref
 api_name:
@@ -38,6 +38,11 @@ api_location:
 - eaptypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAP Method Properties
@@ -58,7 +63,7 @@ The properties supported by EAP methods are listed. Properties are stored as reg
 
 
 
-The method allows the cipher suite to be negotiated for the purpose of data encryption. Windows Server 2008 supports the following 3DES [cipher suites](https://msdn.microsoft.com/library/windows/desktop/aa380512):
+The method allows the cipher suite to be negotiated for the purpose of data encryption. Windows Server 2008 supports the following 3DES [cipher suites](https://msdn.microsoft.com/library/windows/desktop/aa380512):
 
 -   TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA (TLS & SSL 3)
 -   TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA (TLS & SSL 3)
@@ -363,7 +368,7 @@ The method was certified by the EAP Certification Program. This bit should only 
 
 
 
-Windows 7 or later: The method can be used to authenticate a machine on to a network using the machines credentials.
+Windows 7 or later: The method can be used to authenticate a machine on to a network using the machines credentials.
 
 
 </dt> </dl> </dd> <dt>
@@ -376,7 +381,7 @@ Windows 7 or later: The method can be used to authenticate a machine on to a net
 
 
 
-Windows 7 or later: The method can be used to authenticate a user on to a network using the users credentials.
+Windows 7 or later: The method can be used to authenticate a user on to a network using the users credentials.
 
 
 </dt> </dl> </dd> <dt>
@@ -389,7 +394,7 @@ Windows 7 or later: The method can be used to authenticate a user on to a networ
 
 
 
-Windows 7 or later: The method supports sending the user identity in a protected channel.
+Windows 7 or later: The method supports sending the user identity in a protected channel.
 
 
 </dt> </dl> </dd> <dt>
@@ -402,7 +407,7 @@ Windows 7 or later: The method supports sending the user identity in a protected
 
 
 
-Windows 7 or later: The method is a tunnelled method and supports EAP method chaining within the tunnel.
+Windows 7 or later: The method is a tunnelled method and supports EAP method chaining within the tunnel.
 
 
 </dt> </dl> </dd> <dt>
@@ -415,7 +420,7 @@ Windows 7 or later: The method is a tunnelled method and supports EAP method cha
 
 
 
-Windows 7 or later: The method supports shared state equivalence as defined in [RFC 4017](Http://go.microsoft.com/fwlink/p/?linkid=90455).
+Windows 7 or later: The method supports shared state equivalence as defined in [RFC 4017](Http://go.microsoft.com/fwlink/p/?linkid=90455).
 
 
 </dt> </dl> </dd> <dt>
@@ -439,8 +444,8 @@ Reserved. Not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Eaptypes.h</dt> </dl> |
 
 
@@ -455,9 +460,9 @@ Reserved. Not used.
 [Common EAPHost Constants](common-eap-host-error-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

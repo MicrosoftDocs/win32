@@ -1,7 +1,12 @@
 ---
-Description: 'This operator adds two reference times.'
-ms.assetid: '4dfc087a-ec4f-4a8a-8bd4-4da9e1699bcd'
-title: 'COARefTime.operator+ method'
+Description: This operator adds two reference times.
+ms.assetid: 4dfc087a-ec4f-4a8a-8bd4-4da9e1699bcd
+title: COARefTime.operator+ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COARefTime.operator+ method
@@ -13,7 +18,7 @@ This operator adds two reference times.
 
 ```C++
 COARefTime operator+(
-  [ref] const COARefTime &amp;rt
+  [ref] const COARefTime &amp;rt
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a new **COARefTime** object equal to the sum of the reference times.
 [**COARefTime Class**](coareftime.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 7 of the tutorial How to Play Media Files with Media Foundation.'
-ms.assetid: 'c31444df-8717-4ca8-a9ec-72cbb0ee4125'
-title: 'Step 7: Shut Down the Media Session'
+Description: This topic is step 7 of the tutorial How to Play Media Files with Media Foundation.
+ms.assetid: c31444df-8717-4ca8-a9ec-72cbb0ee4125
+title: Step 7 Shut Down the Media Session
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 7: Shut Down the Media Session
@@ -10,10 +15,10 @@ This topic is step 7 of the tutorial [How to Play Media Files with Media Foundat
 
 To shut down the [Media Session](media-session.md), perform the following steps:
 
-1.  Call [**IMFMediaSession::Close**](imfmediasession-close.md) to close the current presentation.
+1.  Call [**IMFMediaSession::Close**](/windows/win32/mfidl/nf-mfidl-imfmediasession-close?branch=master) to close the current presentation.
 2.  Wait for the [MESessionClosed](mesessionclosed.md) event. This event is guaranteed to be the last event from the Media Session.
-3.  Call [**IMFMediaSession::Shutdown**](imfmediasession-shutdown.md). This method causes the Media Sessions to release resources.
-4.  Call [**IMFMediaSource::Shutdown**](imfmediasource-shutdown.md) on the current media source.
+3.  Call [**IMFMediaSession::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasession-shutdown?branch=master). This method causes the Media Sessions to release resources.
+4.  Call [**IMFMediaSource::Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master) on the current media source.
 
 The following method shuts down the Media Session. It uses an event handle (*m\_hCloseEvent*) to wait for the [MESessionClosed](mesessionclosed.md) event. See [Step 5: Handle Media Session Events](step-5--handle-media-session-events.md).
 
@@ -76,7 +81,7 @@ HRESULT CPlayer::CloseSession()
 
 
 
-Before the application exits, shut down the Media Session, and then call [**MFShutdown**](mfshutdown.md) to shut down the Microsoft Media Foundation platform.
+Before the application exits, shut down the Media Session, and then call [**MFShutdown**](/windows/win32/mfapi/nf-mfapi-mfshutdown?branch=master) to shut down the Microsoft Media Foundation platform.
 
 
 ```C++

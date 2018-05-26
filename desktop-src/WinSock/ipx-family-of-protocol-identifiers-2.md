@@ -1,12 +1,17 @@
 ---
-Description: 'The protocol parameter in socket and WSASocket is an identifier that establishes a network type and a method for identifying the various transport protocols that run on the network.'
-ms.assetid: 'cb4d99d5-3ae0-4bfc-b521-122dd9d4f1c2'
+Description: The protocol parameter in socket and WSASocket is an identifier that establishes a network type and a method for identifying the various transport protocols that run on the network.
+ms.assetid: cb4d99d5-3ae0-4bfc-b521-122dd9d4f1c2
 title: IPX Family of Protocol Identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPX Family of Protocol Identifiers
 
-The *protocol* parameter in [**socket**](socket-2.md) and [**WSASocket**](wsasocket-2.md) is an identifier that establishes a network type and a method for identifying the various transport protocols that run on the network. Unlike IP, IPX does not use a single protocol value for selecting a transport stack. Since there is no network requirement to use a specific value for each transport protocol, we are free to assign them in a manner convenient for Winsock applications. We avoid values 0–255 in order to avoid collisions with the corresponding PF\_INET protocol values.
+The *protocol* parameter in [**socket**](/windows/win32/Winsock2/nf-winsock2-socket?branch=master) and [**WSASocket**](/windows/win32/Winsock2/nf-winsock2-wsasocketa?branch=master) is an identifier that establishes a network type and a method for identifying the various transport protocols that run on the network. Unlike IP, IPX does not use a single protocol value for selecting a transport stack. Since there is no network requirement to use a specific value for each transport protocol, we are free to assign them in a manner convenient for Winsock applications. We avoid values 0–255 in order to avoid collisions with the corresponding PF\_INET protocol values.
 
 
 

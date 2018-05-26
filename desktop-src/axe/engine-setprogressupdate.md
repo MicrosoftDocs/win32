@@ -1,8 +1,11 @@
 ---
 title: Engine SetProgressUpdate method
 description: Specifies the native interface for the Engine to invoke to notify the solution of a progress update event.
-ms.assetid: '1A10C751-072A-42E6-9A80-2416B82309BF'
-keywords: ["SetProgressUpdate method Access Execution Engine", "SetProgressUpdate method Access Execution Engine , Engine interface", "Engine interface Access Execution Engine , SetProgressUpdate method"]
+ms.assetid: 1A10C751-072A-42E6-9A80-2416B82309BF
+keywords:
+- SetProgressUpdate method Access Execution Engine
+- SetProgressUpdate method Access Execution Engine , Engine interface
+- Engine interface Access Execution Engine , SetProgressUpdate method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Engine::SetProgressUpdate method
@@ -22,7 +30,7 @@ Specifies the native interface for the [**Engine**](engine-if.md) to invoke to n
 
 ```C++
 virtual HRESULT SetProgressUpdate(
-  [in, optional] IProgressUpdateEventHandler *progressUpdate
+  [in, optional] IProgressUpdateEventHandler *progressUpdate
 ) = 0;
 ```
 
@@ -57,8 +65,8 @@ Managed code uses the [**Engine.ProgressUpdate \| progressupdate**](axe-engine_p
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -74,9 +82,9 @@ Managed code uses the [**Engine.ProgressUpdate \| progressupdate**](axe-engine_p
 [**OnProgressUpdate**](ievents-onprogressupdate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

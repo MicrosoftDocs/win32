@@ -4,11 +4,17 @@ description: The following table lists the class identifier, expressed as a GUID
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'df90cf6b-d68f-488f-8c36-a6b61b399fe2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: df90cf6b-d68f-488f-8c36-a6b61b399fe2
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["GUIDs of User Interface Elements AD", "CLSID_DsFolderProperties", "CLSID_DsPropertyPages"]
+keywords:
+- GUIDs of User Interface Elements AD
+- CLSID_DsFolderProperties
+- CLSID_DsPropertyPages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GUIDs of User Interface Elements

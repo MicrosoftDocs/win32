@@ -1,8 +1,10 @@
 ---
 title: MSFT\_StoragePool class
 description: Represents a logical grouping of physical disks that may be used to create virtual disks.
-ms.assetid: '5b6c5566-7a3f-4bc4-b69e-53664920c9b2'
-keywords: ["MSFT_StoragePool class Windows Storage Management API", "MSFT_StoragePool class Windows Storage Management API , described"]
+ms.assetid: 5b6c5566-7a3f-4bc4-b69e-53664920c9b2
+keywords:
+- MSFT_StoragePool class Windows Storage Management API
+- MSFT_StoragePool class Windows Storage Management API , described
 topic_type:
 - apiref
 api_name:
@@ -41,6 +43,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_StoragePool class
@@ -56,36 +63,36 @@ The following syntax is simplified from Managed Object Format (MOF) code.
 ``` syntax
 class MSFT_StoragePool : MSFT_StorageObject
 {
-  String  FriendlyName;
-  String  Name;
-  UInt16  Usage;
-  String  OtherUsageDescription;
+  String  FriendlyName;
+  String  Name;
+  UInt16  Usage;
+  String  OtherUsageDescription;
   Boolean IsPrimordial;
-  UInt16  HealthStatus;
-  UInt16  OperationalStatus[];
-  String  OtherOperationalStatusDescription;
-  UInt64  Size;
-  UInt64  AllocatedSize;
-  UInt64  LogicalSectorSize;
-  UInt64  PhysicalSectorSize;
-  UInt16  ProvisioningTypeDefault;
-  UInt16  SupportedProvisioningTypes[];
-  String  ResiliencySettingNameDefault;
+  UInt16  HealthStatus;
+  UInt16  OperationalStatus[];
+  String  OtherOperationalStatusDescription;
+  UInt64  Size;
+  UInt64  AllocatedSize;
+  UInt64  LogicalSectorSize;
+  UInt64  PhysicalSectorSize;
+  UInt16  ProvisioningTypeDefault;
+  UInt16  SupportedProvisioningTypes[];
+  String  ResiliencySettingNameDefault;
   Boolean IsReadOnly;
-  UInt16  ReadOnlyReason;
+  UInt16  ReadOnlyReason;
   Boolean IsClustered;
   Boolean SupportsDeduplication;
-  UInt16  ThinProvisioningAlertThresholds[];
+  UInt16  ThinProvisioningAlertThresholds[];
   Boolean ClearOnDeallocate;
   Boolean IsPowerProtected;
-  UInt16  RepairPolicy;
+  UInt16  RepairPolicy;
   Boolean EnclosureAwareDefault;
-  UInt16  FaultDomainAwarenessDefault;
-  UInt16  RetireMissingPhysicalDisks;
-  UInt16  Version;
-  UInt64  WriteCacheSizeDefault;
-  UInt64  WriteCacheSizeMin;
-  UInt64  WriteCacheSizeMax;
+  UInt16  FaultDomainAwarenessDefault;
+  UInt16  RetireMissingPhysicalDisks;
+  UInt16  Version;
+  UInt64  WriteCacheSizeDefault;
+  UInt64  WriteCacheSizeMin;
+  UInt64  WriteCacheSizeMax;
 };
 ```
 
@@ -122,7 +129,7 @@ The **MSFT\_StoragePool** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -245,7 +252,7 @@ Health of a storage pool is derived from the health of the backing physical disk
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -383,7 +390,7 @@ The operational status of the storage pool. Unlike **HealthStatus**, this proper
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -453,7 +460,7 @@ The default provisioning scheme to use when creating new virtual disks in the st
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -479,7 +486,7 @@ The reason why the storage pool is read-only.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -503,7 +510,7 @@ How the operating system repairs virtual disks for this storage pool.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -579,7 +586,7 @@ The provisioning schemes that the storage pool supports for creating virtual dis
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -682,7 +689,7 @@ The minimum OS version that supports this storage pool.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -731,16 +738,16 @@ Minimum size of write cache for virtual disk creation.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

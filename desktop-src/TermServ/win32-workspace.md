@@ -4,11 +4,13 @@ description: Specifies Remote Desktop Services workspace configuration informati
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '27192dca-cbb4-4620-ae52-c27aba4b4dff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 27192dca-cbb4-4620-ae52-c27aba4b4dff
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_Workspace class Remote Desktop Services", "Win32_Workspace class Remote Desktop Services , described"]
+keywords:
+- Win32_Workspace class Remote Desktop Services
+- Win32_Workspace class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_Workspace class
@@ -40,15 +45,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_TSCentralPublisher_Prov"), singleton]
 class Win32_Workspace : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  boolean  IsDefaultName;
-  string   ID;
-  string   Redirector;
-  string   RedirectorAlternateAddress;
+  string   Name;
+  string   Status;
+  boolean  IsDefaultName;
+  string   ID;
+  string   Redirector;
+  string   RedirectorAlternateAddress;
 };
 ```
 
@@ -271,16 +276,16 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>TscPub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

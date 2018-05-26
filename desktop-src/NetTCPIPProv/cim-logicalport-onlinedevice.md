@@ -1,7 +1,12 @@
 ---
-Description: 'The OnlineDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.'
-ms.assetid: '2a5b92b2-9138-42a4-ac32-c6bd4917c0e2'
-title: 'OnlineDevice method of the CIM\_LogicalPort class'
+Description: The OnlineDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
+ms.assetid: 2a5b92b2-9138-42a4-ac32-c6bd4917c0e2
+title: OnlineDevice method of the CIM\_LogicalPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OnlineDevice method of the CIM\_LogicalPort class
@@ -21,7 +26,7 @@ Note that this method\\'s function overlaps with the RequestedState property. Re
 
 ```mof
 uint32 OnlineDevice(
-  [in] boolean Online
+  [in] boolean Online
 );
 ```
 
@@ -48,8 +53,8 @@ TBD
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -63,9 +68,9 @@ TBD
 [**CIM\_LogicalPort**](cim-logicalport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

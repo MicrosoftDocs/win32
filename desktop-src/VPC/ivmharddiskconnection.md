@@ -1,8 +1,10 @@
 ---
 title: IVMHardDiskConnection interface
 description: Defines the connection for a hard disk within the virtual machine.
-ms.assetid: '7ba1ace5-a3af-4b97-b329-f12a0ecbf7d3'
-keywords: ["IVMHardDiskConnection interface Virtual PC", "IVMHardDiskConnection interface Virtual PC , described"]
+ms.assetid: 7ba1ace5-a3af-4b97-b329-f12a0ecbf7d3
+keywords:
+- IVMHardDiskConnection interface Virtual PC
+- IVMHardDiskConnection interface Virtual PC , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHardDiskConnection interface
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Defines the connection for a hard disk within the virtual machine. An **IVMHardDiskConnection** object is returned from the [**IVMVirtualMachine::AddHardDiskConnection**](ivmvirtualmachine-addharddiskconnection.md) method. You can also retrieve an **IVMHardDiskConnection** object from the [**IVMHardDiskConnectionCollection**](ivmharddiskconnectioncollection.md) object returned from the [**IVMVirtualMachine::HardDiskConnections**](ivmvirtualmachine-harddiskconnections.md) property.
 
@@ -38,7 +45,7 @@ The **IVMHardDiskConnection** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +62,7 @@ The **IVMHardDiskConnection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,18 +70,18 @@ The **IVMHardDiskConnection** interface has these properties.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMHardDiskconnection is defined as aefa36a5-463a-46ae-9e6c-a1fb4e12e671<br/>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

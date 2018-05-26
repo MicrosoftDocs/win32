@@ -1,8 +1,9 @@
 ---
 title: CB\_GETLBTEXT message
 description: Gets a string from the list of a combo box.
-ms.assetid: 'f84e302a-65bb-45c8-958b-1cb438fb5a7a'
-keywords: ["CB_GETLBTEXT message Windows Controls"]
+ms.assetid: f84e302a-65bb-45c8-958b-1cb438fb5a7a
+keywords:
+- CB_GETLBTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETLBTEXT message
@@ -51,8 +57,8 @@ If you create the combo box with an owner-drawn style but without the [**CBS\_HA
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -64,9 +70,9 @@ If you create the combo box with an owner-drawn style but without the [**CBS\_HA
 [**CB\_GETLBTEXTLEN**](cb-getlbtextlen.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

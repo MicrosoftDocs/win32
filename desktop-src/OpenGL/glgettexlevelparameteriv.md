@@ -1,8 +1,9 @@
 ---
 title: glGetTexLevelParameteriv function
 description: The glGetTexLevelParameterfv and glGetTexLevelParameteriv functions return texture parameter values for a specific level of detail.
-ms.assetid: '536d7bc9-1599-47ff-8559-374f96f1d5f3'
-keywords: ["glGetTexLevelParameteriv function OpenGL"]
+ms.assetid: 536d7bc9-1599-47ff-8559-374f96f1d5f3
+keywords:
+- glGetTexLevelParameteriv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetTexLevelParameteriv function
@@ -22,10 +28,10 @@ The [**glGetTexLevelParameterfv**](glgettexlevelparameterfv.md) and **glGetTexLe
 
 ```C++
 void WINAPI glGetTexLevelParameteriv(
-   GLenum target,
-   GLint  level,
-   GLenum pname,
-   GLint  *params
+   GLenum target,
+   GLint  level,
+   GLenum pname,
+   GLint  *params
 );
 ```
 
@@ -72,7 +78,7 @@ The symbolic name of a texture parameter. The following parameter names are acce
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -127,8 +133,8 @@ If an error is generated, no change is made to the contents of *params*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -157,9 +163,9 @@ If an error is generated, no change is made to the contents of *params*.
 [**glTexParameter**](gltexparameter-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

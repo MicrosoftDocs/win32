@@ -1,14 +1,20 @@
 ---
 title: LTEXT control
 description: Defines a left-aligned text control.
-ms.assetid: 'ef6d7d06-3614-4b54-8a23-684d7ef65115'
-keywords: ["LTEXT control Menus and Other Resources"]
+ms.assetid: ef6d7d06-3614-4b54-8a23-684d7ef65115
+keywords:
+- LTEXT control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - LTEXT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LTEXT control

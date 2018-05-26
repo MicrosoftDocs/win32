@@ -1,8 +1,28 @@
 ---
 title: Variable Bit Rate (VBR) Encoding
 description: Variable Bit Rate (VBR) Encoding
-ms.assetid: 'd3fe0cc6-64d7-44ce-8bb4-dd2eed021345'
-keywords: ["Windows Media Format SDK,VBR encoding", "Windows Media Format SDK,variable bit rate (VBR)", "Windows Media Format SDK,quality-based VBR encoding", "Windows Media Format SDK,unconstrained VBR encoding", "Windows Media Format SDK,constrained VBR encoding", "codecs,VBR encoding", "codecs,variable bit rate (VBR)", "codecs,quality-based VBR encoding", "codecs,unconstrained VBR encoding", "codecs,constrained VBR encoding", "variable bit rate (VBR),about", "VBR (variable bit rate),about", "quality-based VBR encoding,about", "unconstrained VBR encoding,about", "constrained VBR encoding"]
+ms.assetid: d3fe0cc6-64d7-44ce-8bb4-dd2eed021345
+keywords:
+- Windows Media Format SDK,VBR encoding
+- Windows Media Format SDK,variable bit rate (VBR)
+- Windows Media Format SDK,quality-based VBR encoding
+- Windows Media Format SDK,unconstrained VBR encoding
+- Windows Media Format SDK,constrained VBR encoding
+- codecs,VBR encoding
+- codecs,variable bit rate (VBR)
+- codecs,quality-based VBR encoding
+- codecs,unconstrained VBR encoding
+- codecs,constrained VBR encoding
+- variable bit rate (VBR),about
+- VBR (variable bit rate),about
+- quality-based VBR encoding,about
+- unconstrained VBR encoding,about
+- constrained VBR encoding
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variable Bit Rate (VBR) Encoding

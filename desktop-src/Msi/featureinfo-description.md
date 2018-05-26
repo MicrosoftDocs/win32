@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Description property is a read-only property that returns the description of the feature in the Description column of the Feature table.'
-ms.assetid: 'bab64ed7-4f98-4dc9-ac24-39d92904e1d3'
-title: 'FeatureInfo.Description property'
+---
+Description: The Description property is a read-only property that returns the description of the feature in the Description column of the Feature table.
+ms.assetid: bab64ed7-4f98-4dc9-ac24-39d92904e1d3
+title: FeatureInfo.Description property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FeatureInfo.Description property

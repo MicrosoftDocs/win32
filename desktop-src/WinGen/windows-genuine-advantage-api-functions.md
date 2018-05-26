@@ -1,17 +1,23 @@
 ---
 title: Windows Genuine Advantage API Functions
 description: The Windows Genuine Advantage (WGA) API provides the following functions.
-ms.assetid: 'eccc1664-6488-4faf-bbc6-8029235b8a62'
-keywords: ["Windows Genuine Advantage API Windows Genuine , functions"]
+ms.assetid: eccc1664-6488-4faf-bbc6-8029235b8a62
+keywords:
+- Windows Genuine Advantage API Windows Genuine , functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Genuine Advantage API Functions
 
-\[The Windows Genuine Advantage API Functions are no longer available for use as of Windows 7.\]
+\[The Windows Genuine Advantage API Functions are no longer available for use as of Windows 7.\]
 
 The Windows Genuine Advantage (WGA) API provides the following functions.
 
-The WGA functions are available only on Windows Vista and Windows XP installations that have been validated by clicking **Validate Windows** on [http://www.microsoft.com/genuine](http://go.microsoft.com/fwlink/p/?linkid=157937).
+The WGA functions are available only on Windows Vista and Windows XP installations that have been validated by clicking **Validate Windows** on [http://www.microsoft.com/genuine](http://go.microsoft.com/fwlink/p/?linkid=157937).
 
 
 
@@ -24,11 +30,11 @@ The WGA functions are available only on Windows Vista and Windows XP installatio
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

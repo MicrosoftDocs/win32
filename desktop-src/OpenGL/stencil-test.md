@@ -1,8 +1,15 @@
 ---
 title: Stencil Test
 description: The stencil test conditionally discards a fragment based on the outcome of a comparison between the value in the stencil buffer and a reference value.
-ms.assetid: '967be1e5-a9a2-45cc-aae7-c33cc257ade1'
-keywords: ["OpenGL processing pipeline,stencil test", "stencil test OpenGL"]
+ms.assetid: 967be1e5-a9a2-45cc-aae7-c33cc257ade1
+keywords:
+- OpenGL processing pipeline,stencil test
+- stencil test OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stencil Test

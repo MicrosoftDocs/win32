@@ -1,7 +1,12 @@
 ---
-Description: 'Manages the application''s side of the Text Input Panel auto complete integration.'
-ms.assetid: '02601258-d867-4c01-b094-bf9ff96d2f6e'
+Description: Manages the applications side of the Text Input Panel auto complete integration.
+ms.assetid: 02601258-d867-4c01-b094-bf9ff96d2f6e
 title: ITipAutocompleteProvider interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITipAutocompleteProvider interface
@@ -27,7 +32,7 @@ The **ITipAutocompleteProvider** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -35,7 +40,7 @@ The **ITipAutocompleteProvider** interface has these methods.
 
 |                                     |                                                                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>TipAutoComplete.h (also requires Peninputpanel\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |
@@ -52,9 +57,9 @@ The **ITipAutocompleteProvider** interface has these methods.
 [**ITipAutocompleteClient Interface**](itipautocompleteclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

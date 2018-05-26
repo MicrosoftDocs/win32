@@ -1,7 +1,12 @@
 ---
 title: Progress Bar Messages
 description: .
-ms.assetid: '69ee0958-5913-4e3b-a5d4-f590aee3797b'
+ms.assetid: 69ee0958-5913-4e3b-a5d4-f590aee3797b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Progress Bar Messages

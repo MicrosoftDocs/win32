@@ -1,8 +1,11 @@
 ---
 title: Player.newMedia method
 description: The newMedia method creates a new Media object.
-ms.assetid: 'd10a517e-b4da-4f0b-9d51-9d387578d7dd'
-keywords: ["newMedia method Windows Media Player", "newMedia method Windows Media Player , Player class", "Player class Windows Media Player , newMedia method"]
+ms.assetid: d10a517e-b4da-4f0b-9d51-9d387578d7dd
+keywords:
+- newMedia method Windows Media Player
+- newMedia method Windows Media Player , Player class
+- Player class Windows Media Player , newMedia method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.newMedia method
@@ -65,9 +73,9 @@ The *URL* parameter must not be an empty string or null.
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

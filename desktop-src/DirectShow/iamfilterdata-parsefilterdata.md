@@ -1,7 +1,12 @@
-﻿---
-Description: 'Note  This interface has been deprecated.'
-ms.assetid: '86095fcf-3364-42a0-95db-08223fa3cc20'
-title: 'IAMFilterData::ParseFilterData method'
+---
+Description: Note  This interface has been deprecated.
+ms.assetid: 86095fcf-3364-42a0-95db-08223fa3cc20
+title: IAMFilterDataParseFilterData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMFilterData::ParseFilterData method
@@ -13,7 +18,7 @@ title: 'IAMFilterData::ParseFilterData method'
 
 The `ParseFilterData` method unpacks the binary registry data for a filter.
 
-There is typically no reason for an application to call this method. The [**IFilterMapper2::EnumMatchingFilters**](ifiltermapper2-enummatchingfilters.md) method provides a more convenient way to access the filter registry data.
+There is typically no reason for an application to call this method. The [**IFilterMapper2::EnumMatchingFilters**](/windows/win32/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters?branch=master) method provides a more convenient way to access the filter registry data.
 
 ## Syntax
 
@@ -49,7 +54,7 @@ Specifies the size of the binary data, in bytes.
 *prgbRegFilter2* \[out\]
 </dt> <dd>
 
-Address of a variable that receives a pointer to the unpacked data. When the method returns, cast this pointer to a [**REGFILTER2**](regfilter2.md) type to access the filter data. The caller must release the memory by calling the **CoTaskMemFree** method.
+Address of a variable that receives a pointer to the unpacked data. When the method returns, cast this pointer to a [**REGFILTER2**](/windows/win32/strmif/ns-strmif-regfilter2?branch=master) type to access the filter data. The caller must release the memory by calling the **CoTaskMemFree** method.
 
 </dd> </dl>
 

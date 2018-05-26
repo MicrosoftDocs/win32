@@ -1,8 +1,9 @@
 ---
 title: TDM\_ENABLE\_BUTTON message
 description: Enables or disables a push button in a task dialog.
-ms.assetid: '133fe4ac-4e2d-4826-8510-c0d9f88b5b37'
-keywords: ["TDM_ENABLE_BUTTON message Windows Controls"]
+ms.assetid: 133fe4ac-4e2d-4826-8510-c0d9f88b5b37
+keywords:
+- TDM_ENABLE_BUTTON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_ENABLE\_BUTTON message
@@ -45,15 +51,15 @@ The return value is ignored.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

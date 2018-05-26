@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: 'da67a5e4-b4a1-4a38-93fe-0965695e93f5'
-title: 'CDispParams.CDispParams constructor'
+Description: Constructor method.
+ms.assetid: da67a5e4-b4a1-4a38-93fe-0965695e93f5
+title: CDispParams.CDispParams constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CDispParams.CDispParams constructor
@@ -13,8 +18,8 @@ Constructor method.
 
 ```C++
 CDispParams(
-   UINT    nArgs,
-   VARIANT *pArgs
+   UINT    nArgs,
+   VARIANT *pArgs
 );
 ```
 
@@ -56,9 +61,9 @@ Pointer to the list of arguments. In the list, each argument is stored with its 
 [**CDispParams Class**](cdispparams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

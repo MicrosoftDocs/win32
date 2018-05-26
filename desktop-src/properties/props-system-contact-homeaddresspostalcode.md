@@ -1,7 +1,12 @@
 ---
-Description: 'Home address postal code of the contact.'
-ms.assetid: '2ef7dc36-8058-4ec3-99ef-8d732fe73858'
-title: 'System.Contact.HomeAddressPostalCode'
+Description: Home address postal code of the contact.
+ms.assetid: 2ef7dc36-8058-4ec3-99ef-8d732fe73858
+title: System.Contact.HomeAddressPostalCode
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddressPostalCode

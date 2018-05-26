@@ -1,7 +1,12 @@
 ---
 title: dp4 - ps
 description: Computes the four-component dot product of the source registers.
-ms.assetid: '83ef6097-cacf-4498-842b-3eb03e57bd6f'
+ms.assetid: 83ef6097-cacf-4498-842b-3eb03e57bd6f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # dp4 - ps

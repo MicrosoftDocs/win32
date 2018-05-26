@@ -1,14 +1,20 @@
 ---
 title: VIDEO.zoom
 description: The zoom attribute specifies the percentage by which to scale the video.
-ms.assetid: '71c0e5a6-f7c4-46cf-a180-083d2926ba20'
-keywords: ["VIDEO.zoom Windows Media Player"]
+ms.assetid: 71c0e5a6-f7c4-46cf-a180-083d2926ba20
+keywords:
+- VIDEO.zoom Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIDEO.zoom
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIDEO.zoom
@@ -54,9 +60,9 @@ If the **shrinkToFit** property is false, the video will change proportion upon 
 [**VIDEO.shrinkToFit**](video-shrinktofit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

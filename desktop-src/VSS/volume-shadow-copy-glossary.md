@@ -1,7 +1,12 @@
 ---
-Description: 'The Volume Shadow Copy Service (VSS) API uses its own collection of terms.'
-ms.assetid: '25412e17-796a-4574-bc22-55a97de8b3a5'
+Description: The Volume Shadow Copy Service (VSS) API uses its own collection of terms.
+ms.assetid: 25412e17-796a-4574-bc22-55a97de8b3a5
 title: Volume Shadow Copy Glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Volume Shadow Copy Glossary

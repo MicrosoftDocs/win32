@@ -1,7 +1,12 @@
 ---
-Description: 'Peer names are used by Peer Name Resolution Protocol (PNRP), the Peer Identity Manager, and the Peer Grouping Infrastructure.'
-ms.assetid: 'b0d78b17-6f48-4294-b8a2-8fcc1a7f8ef1'
+Description: Peer names are used by Peer Name Resolution Protocol (PNRP), the Peer Identity Manager, and the Peer Grouping Infrastructure.
+ms.assetid: b0d78b17-6f48-4294-b8a2-8fcc1a7f8ef1
 title: Peer Names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Peer Names
@@ -25,7 +30,7 @@ The value of an Authority depends on whether the name is secure or unsecured. Th
 
 ## Secure Peer Names
 
-For a secure name, the Authority is the Secure Hash Algorithm (SHA) hash of the public key of the peer name, and results in a 40 character hexadecimal string. A secure peer name can only be registered with PNRP by the owner or delegate of the peer name owner. A secured peer name must be created by calling [**PeerCreatePeerName**](peercreatepeername.md).
+For a secure name, the Authority is the Secure Hash Algorithm (SHA) hash of the public key of the peer name, and results in a 40 character hexadecimal string. A secure peer name can only be registered with PNRP by the owner or delegate of the peer name owner. A secured peer name must be created by calling [**PeerCreatePeerName**](/windows/win32/P2P/nf-p2p-peercreatepeername?branch=master).
 
 ## Unsecured Peer Names
 
@@ -38,7 +43,7 @@ For an unsecured name, the Authority is zero (0), and the Classifier is the only
 
 ## PNRP and the Nearest Peer Name Instance
 
-There can be more than one instance of a peer name. When using [PNRP](pnrp-namespace-provider-api.md) to resolve a peer name, there is a concept of a **nearest** peer name instance, which means that the name has a service location closest to the **saHint** member specified in [**PNRPINFO\_V1**](pnrpinfo.md) or [**PNRPINFO\_V2**](pnrpinfo-v2.md). If no hint is supplied, closest to one of the local IP addresses.
+There can be more than one instance of a peer name. When using [PNRP](pnrp-namespace-provider-api.md) to resolve a peer name, there is a concept of a **nearest** peer name instance, which means that the name has a service location closest to the **saHint** member specified in [**PNRPINFO\_V1**](/windows/win32/Pnrpns/ns-pnrpns-_pnrpinfo_v1?branch=master) or [**PNRPINFO\_V2**](/windows/win32/Pnrpns/?branch=master). If no hint is supplied, closest to one of the local IP addresses.
 
  
 

@@ -1,7 +1,12 @@
 ---
 title: Packet Scheduler
 description: Packet scheduling is the means by which data (packet) transmission-governing \ 8212; a key function of quality of service \ 8212; is achieved.
-ms.assetid: '8b005aff-fba2-4833-94be-df288978ea77'
+ms.assetid: 8b005aff-fba2-4833-94be-df288978ea77
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Packet Scheduler

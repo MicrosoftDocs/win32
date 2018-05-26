@@ -1,8 +1,18 @@
 ---
 title: System Requirements
 description: System Requirements
-ms.assetid: '868dcf8e-a9c1-4ed4-af6a-86b06c54de2a'
-keywords: ["operating system", "system memory", "compatibility", "disk", "processor"]
+ms.assetid: 868dcf8e-a9c1-4ed4-af6a-86b06c54de2a
+keywords:
+- operating system
+- system memory
+- compatibility
+- disk
+- processor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Requirements
@@ -20,11 +30,11 @@ The following table lists system requirements for installing and running Windows
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

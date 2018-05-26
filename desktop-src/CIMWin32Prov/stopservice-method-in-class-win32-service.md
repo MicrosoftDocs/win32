@@ -1,15 +1,18 @@
 ---
-Description: 'Places the service, represented by the Win32\_Service object, in the stopped state.'
+Description: Places the service, represented by the Win32\_Service object, in the stopped state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cc2c71f7-12e6-4ba4-bfb4-f23845d798b5'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cc2c71f7-12e6-4ba4-bfb4-f23845d798b5
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'StopService method of the Win32\_Service class'
+title: StopService method of the Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StopService method of the Win32\_Service class
@@ -333,8 +336,8 @@ WScript.Echo "Return value: " & Return
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | Header<br/>                   | <dl> <dt>Sdoias.h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
@@ -358,9 +361,9 @@ WScript.Echo "Return value: " & Return
 [**PauseService**](pauseservice-method-in-class-win32-systemdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

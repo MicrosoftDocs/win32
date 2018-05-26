@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SMTPServer property is a null-terminated string that contains the name of the Simple Mail Transport Protocol (SMTP) server.'
-ms.assetid: '7d1eb790-b7f0-47e0-ada5-87bf03830eea'
-title: 'FaxReceiptOptions.SMTPServer property'
+---
+Description: The SMTPServer property is a null-terminated string that contains the name of the Simple Mail Transport Protocol (SMTP) server.
+ms.assetid: 7d1eb790-b7f0-47e0-ada5-87bf03830eea
+title: FaxReceiptOptions.SMTPServer property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxReceiptOptions.SMTPServer property
@@ -25,7 +30,7 @@ A **String** that specifies or receives the name of the SMTP server. The string 
 
 ## Remarks
 
-To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ To read or to write to this property, a user must have the [****farQUERY\_CONFIG
 [**FaxReceiptOptions**](-mfax-faxreceiptoptions.md)
 </dt> <dt>
 
-[**IFaxReceiptOptions**](-mfax-faxreceiptoptions-cpp.md)
+[**IFaxReceiptOptions**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxreceiptoptions?branch=master)
 </dt> <dt>
 
 [Setting Receipt Options](-mfax-setting-receipt-options.md)

@@ -1,8 +1,10 @@
 ---
 title: IWMPSettings (VB and C\ ) interface
 description: Provides properties and methods that get or set the values of Windows Media Player settings.The IWMPSettings interface exposes the following properties.
-ms.assetid: 'fb37b455-221e-4cee-a219-cacf2938a92a'
-keywords: ["IWMPSettings (VB and C ) interface Windows Media Player", "IWMPSettings (VB and C ) interface Windows Media Player , described"]
+ms.assetid: fb37b455-221e-4cee-a219-cacf2938a92a
+keywords:
+- IWMPSettings (VB and C ) interface Windows Media Player
+- IWMPSettings (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings (VB and C#) interface
@@ -39,7 +46,7 @@ The **IWMPSettings (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -63,7 +70,7 @@ The **IWMPSettings (VB and C#)** interface has these properties.
 
 
 
- 
+ 
 
 Get an **IWMPSettings** interface by using the following property.
 
@@ -75,7 +82,7 @@ Get an **IWMPSettings** interface by using the following property.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -97,9 +104,9 @@ Get an **IWMPSettings** interface by using the following property.
 [**IWMPSettings2 Interface (VB and C#)**](iwmpsettings2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

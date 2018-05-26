@@ -1,7 +1,12 @@
 ---
 title: Creating an Active Server Pages Query Form
 description: Creating an Active Server Pages Query Form
-ms.assetid: 'e735dea9-c397-42b9-9f80-e82767b2fc81'
+ms.assetid: e735dea9-c397-42b9-9f80-e82767b2fc81
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Active Server Pages Query Form

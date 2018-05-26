@@ -1,14 +1,19 @@
 ---
-Description: 'Using Bump Mapping (Direct3D 9)'
-ms.assetid: 'ded07764-1a11-42df-9a16-e4c3a328fb23'
-title: 'Using Bump Mapping (Direct3D 9)'
+Description: Using Bump Mapping (Direct3D 9)
+ms.assetid: ded07764-1a11-42df-9a16-e4c3a328fb23
+title: Using Bump Mapping (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Bump Mapping (Direct3D 9)
 
 ## Detecting Support for Bump Mapping
 
-A device can perform bump mapping if it supports either the D3DTOP\_BUMPENVMAP or D3DTOP\_BUMPENVMAPLUMINANCE texture blending operation. Use [**IDirect3D9::CheckDeviceFormat**](idirect3d9--checkdeviceformat.md) with D3DUSAGE\_QUERY\_LEGACYBUMPMAP to see if a format is supported for bump mapping.
+A device can perform bump mapping if it supports either the D3DTOP\_BUMPENVMAP or D3DTOP\_BUMPENVMAPLUMINANCE texture blending operation. Use [**IDirect3D9::CheckDeviceFormat**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-checkdeviceformat?branch=master) with D3DUSAGE\_QUERY\_LEGACYBUMPMAP to see if a format is supported for bump mapping.
 
 Additionally, applications should check the device capabilities to make sure the device supports an appropriate number of blending stages, usually at least three, and exposes at least one bump-mapping pixel format.
 

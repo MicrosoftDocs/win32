@@ -1,8 +1,10 @@
 ---
 title: PCMSCALLBACK callback function
 description: The function ApplyCallbackFunction is a callback function which updates the WCS configuration data while the dialog box displayed by the SetupColorMatching function is executing.
-ms.assetid: '0f98f6ca-d772-4214-b0aa-f439b214ce4e'
-keywords: ["ApplyCallbackFunction callback function Windows Color System", "PCMSCALLBACK"]
+ms.assetid: 0f98f6ca-d772-4214-b0aa-f439b214ce4e
+keywords:
+- ApplyCallbackFunction callback function Windows Color System
+- PCMSCALLBACK
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Icm.h
 api_type:
 - UserDefined
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PCMSCALLBACK callback function
@@ -22,8 +29,8 @@ The function **ApplyCallbackFunction** is a callback function which updates the 
 
 ```C++
 BOOL ApplyCallbackFunction(
-   COLORMATCHSETUP *pColorMatchSetup,
-   LPARAM          lParam
+   COLORMATCHSETUP *pColorMatchSetup,
+   LPARAM          lParam
 );
 ```
 
@@ -71,8 +78,8 @@ The callback function is completely optional. If it is not supplied, the **Apply
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl> |
 
 
@@ -93,9 +100,9 @@ The callback function is completely optional. If it is not supplied, the **Apply
 [**COLORMATCHSETUP**](colormatchsetup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

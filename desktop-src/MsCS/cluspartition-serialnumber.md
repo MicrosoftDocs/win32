@@ -4,11 +4,14 @@ description: Serial number of a storage class resource partition.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ffc91ad2-c3ce-4fa0-994f-2a2269dff52c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: ffc91ad2-c3ce-4fa0-994f-2a2269dff52c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["SerialNumber property Failover Cluster", "SerialNumber property Failover Cluster , ClusPartition object", "ClusPartition object Failover Cluster , SerialNumber property"]
+keywords:
+- SerialNumber property Failover Cluster
+- SerialNumber property Failover Cluster , ClusPartition object
+- ClusPartition object Failover Cluster , SerialNumber property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusPartition.SerialNumber property
@@ -47,7 +53,7 @@ ClusPartition.SerialNumber
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -63,9 +69,9 @@ ClusPartition.SerialNumber
 [**ClusPartition**](cluspartition-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

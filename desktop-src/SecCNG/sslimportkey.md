@@ -1,7 +1,12 @@
 ---
-Description: 'Imports a key into the Secure Sockets Layer protocol (SSL) protocol provider.'
-ms.assetid: '42310799-384e-4396-a9d5-5f226ca25a86'
+Description: Imports a key into the Secure Sockets Layer protocol (SSL) protocol provider.
+ms.assetid: 42310799-384e-4396-a9d5-5f226ca25a86
 title: SslImportKey function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SslImportKey function
@@ -13,12 +18,12 @@ The **SslImportKey** function imports a key into the [*Secure Sockets Layer prot
 
 ```C++
 SECURITY_STATUS WINAPI SslImportKey(
-  _In_  NCRYPT_PROV_HANDLE hSslProvider,
-  _Out_ NCRYPT_KEY_HANDLE  *phKey,
-  _In_  LPCWSTR            pszBlobType,
-  _In_  PBYTE              pbKeyBlob,
-  _In_  DWORD              cbKeyBlob,
-  _In_  DWORD              dwFlags
+  _In_  NCRYPT_PROV_HANDLE hSslProvider,
+  _Out_ NCRYPT_KEY_HANDLE  *phKey,
+  _In_  LPCWSTR            pszBlobType,
+  _In_  PBYTE              pbKeyBlob,
+  _In_  DWORD              cbKeyBlob,
+  _In_  DWORD              dwFlags
 );
 ```
 
@@ -51,14 +56,14 @@ A null-terminated Unicode string that contains an identifier that specifies the 
 
 | Value                                                                                                                                                                                      | Meaning                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="BCRYPT_DH_PUBLIC_BLOB"></span><span id="bcrypt_dh_public_blob"></span><dl> <dt>**BCRYPT\_DH\_PUBLIC\_BLOB**</dt> </dl>    | Export a Diffie-Hellman [*public key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-gly). The *pbOutput* buffer receives a [**BCRYPT\_DH\_KEY\_BLOB**](bcrypt-dh-key-blob.md) structure immediately followed by the key data.<br/>                                                                                                                                                        |
-| <span id="BCRYPT_ECCPUBLIC_BLOB"></span><span id="bcrypt_eccpublic_blob"></span><dl> <dt>**BCRYPT\_ECCPUBLIC\_BLOB**</dt> </dl>     | Export an [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC) [*public key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-gly). The *pbOutput* buffer receives a [**BCRYPT\_ECCKEY\_BLOB**](bcrypt-ecckey-blob.md) structure immediately followed by the key data.<br/>                             |
+| <span id="BCRYPT_DH_PUBLIC_BLOB"></span><span id="bcrypt_dh_public_blob"></span><dl> <dt>**BCRYPT\_DH\_PUBLIC\_BLOB**</dt> </dl>    | Export a Diffie-Hellman [*public key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-gly). The *pbOutput* buffer receives a [**BCRYPT\_DH\_KEY\_BLOB**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_dh_key_blob?branch=master) structure immediately followed by the key data.<br/>                                                                                                                                                        |
+| <span id="BCRYPT_ECCPUBLIC_BLOB"></span><span id="bcrypt_eccpublic_blob"></span><dl> <dt>**BCRYPT\_ECCPUBLIC\_BLOB**</dt> </dl>     | Export an [*elliptic curve cryptography*](https://msdn.microsoft.com/library/windows/desktop/ms721575#-security-elliptic-curve-cryptography-gly) (ECC) [*public key*](https://msdn.microsoft.com/library/windows/desktop/ms721603#-security-public-key-gly). The *pbOutput* buffer receives a [**BCRYPT\_ECCKEY\_BLOB**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_ecckey_blob?branch=master) structure immediately followed by the key data.<br/>                             |
 | <span id="BCRYPT_OPAQUE_KEY_BLOB"></span><span id="bcrypt_opaque_key_blob"></span><dl> <dt>**BCRYPT\_OPAQUE\_KEY\_BLOB**</dt> </dl> | Export a [*symmetric key*](https://msdn.microsoft.com/library/windows/desktop/ms721625#-security-symmetric-key-gly) in a format that is specific to a single [*cryptographic service provider*](https://msdn.microsoft.com/library/windows/desktop/ms721572#-security-cryptographic-service-provider-gly) (CSP). Opaque BLOBs are not transferable and must be imported by using the same CSP that generated the BLOB.<br/> |
-| <span id="BCRYPT_RSAPUBLIC_BLOB"></span><span id="bcrypt_rsapublic_blob"></span><dl> <dt>**BCRYPT\_RSAPUBLIC\_BLOB**</dt> </dl>     | Export an [*RSA*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-rsa-gly) public key. The *pbOutput* buffer receives a [**BCRYPT\_RSAKEY\_BLOB**](bcrypt-rsakey-blob.md) structure immediately followed by the key data.<br/>                                                                                                                                                                                 |
+| <span id="BCRYPT_RSAPUBLIC_BLOB"></span><span id="bcrypt_rsapublic_blob"></span><dl> <dt>**BCRYPT\_RSAPUBLIC\_BLOB**</dt> </dl>     | Export an [*RSA*](https://msdn.microsoft.com/library/windows/desktop/ms721604#-security-rsa-gly) public key. The *pbOutput* buffer receives a [**BCRYPT\_RSAKEY\_BLOB**](/windows/win32/Bcrypt/ns-bcrypt-_bcrypt_rsakey_blob?branch=master) structure immediately followed by the key data.<br/>                                                                                                                                                                                 |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -101,7 +106,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -113,16 +118,16 @@ You can use the **SslImportKey** function to import session keys as a part of th
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Sslprovider.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

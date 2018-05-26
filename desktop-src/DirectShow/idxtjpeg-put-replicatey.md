@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_ReplicateY method specifies the number of times the wipe pattern is replicated vertically.'
-ms.assetid: 'f27e0d54-1d0f-42fe-9638-39f68b97f9c7'
-title: 'IDxtJpeg::put\_ReplicateY method'
+---
+Description: The put\_ReplicateY method specifies the number of times the wipe pattern is replicated vertically.
+ms.assetid: f27e0d54-1d0f-42fe-9638-39f68b97f9c7
+title: IDxtJpegput\_ReplicateY method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::put\_ReplicateY method

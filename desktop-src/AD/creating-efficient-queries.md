@@ -4,11 +4,15 @@ description: The following table identifies important concepts to consider when 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1eb92d74-0a17-43f9-b5bf-eed731a52551'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1eb92d74-0a17-43f9-b5bf-eed731a52551
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , creating efficient queries"]
+keywords:
+- Active Directory examples Active Directory , creating efficient queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Efficient Queries
@@ -31,11 +35,11 @@ The following table identifies important concepts to consider when creating an e
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

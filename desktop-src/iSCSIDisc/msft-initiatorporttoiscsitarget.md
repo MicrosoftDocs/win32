@@ -1,7 +1,12 @@
 ---
-Description: 'Association between InitiatorPort and iSCSITarget.'
-ms.assetid: '966D2C5B-1AC6-4AD7-83F2-FB0854CBB5EB'
-title: 'MSFT\_InitiatorPortToiSCSITarget class'
+Description: Association between InitiatorPort and iSCSITarget.
+ms.assetid: 966D2C5B-1AC6-4AD7-83F2-FB0854CBB5EB
+title: MSFT\_InitiatorPortToiSCSITarget class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_InitiatorPortToiSCSITarget class
@@ -16,7 +21,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 class MSFT_InitiatorPortToiSCSITarget
 {
   MSFT_InitiatorPort REF InitiatorPort;
-  MSFT_iSCSITarget   REF iSCSITarget;
+  MSFT_iSCSITarget   REF iSCSITarget;
 };
 ```
 
@@ -66,8 +71,8 @@ Qualifiers: **Key**
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Iscsiwmiv2.mof</dt> </dl> |
 
@@ -83,9 +88,9 @@ Qualifiers: **Key**
 [**MSFT\_iSCSITarget**](msft-iscsitarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

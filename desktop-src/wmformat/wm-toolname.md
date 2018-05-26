@@ -1,14 +1,20 @@
 ---
 title: WM/ToolName
 description: The WM/ToolName attribute contains the name of the application used to create the file. You can also specify the version of the application using WM/ToolVersion.
-ms.assetid: 'aeda650d-f0f4-4c9d-b4ed-3bc31db14e0c'
-keywords: ["WM/ToolName windows Media Format"]
+ms.assetid: aeda650d-f0f4-4c9d-b4ed-3bc31db14e0c
+keywords:
+- WM/ToolName windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ToolName
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ToolName

@@ -1,13 +1,16 @@
 ---
-Description: 'Is used in the registration of permanent event consumers to relate an instance of the \_\_EventConsumer to an instance of \_\_EventFilter.'
+Description: Is used in the registration of permanent event consumers to relate an instance of the \_\_EventConsumer to an instance of \_\_EventFilter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'e6a06161-0f1c-4754-ac34-263ccf7bf10d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: e6a06161-0f1c-4754-ac34-263ccf7bf10d
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_FilterToConsumerBinding class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_FilterToConsumerBinding class
@@ -22,12 +25,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class __FilterToConsumerBinding : __IndicationRelated
 {
   __EventConsumer REF Consumer;
-  uint8               CreatorSID[];
-  boolean             DeliverSynchronously = False;
-  uint32              DeliveryQoS;
-  __EventFilter   REF Filter;
-  boolean             MaintainSecurityContext = False;
-  boolean             SlowDownProviders = False;
+  uint8               CreatorSID[];
+  boolean             DeliverSynchronously = False;
+  uint32              DeliveryQoS;
+  __EventFilter   REF Filter;
+  boolean             MaintainSecurityContext = False;
+  boolean             SlowDownProviders = False;
 };
 ```
 
@@ -156,7 +159,7 @@ If **True**, the events are delivered in the same security context that the prov
 > [!Note]  
 > Only a consumer implemented as a DLL (an in-process consumer) can receive events in the security context of the provider. For more information about in-process providers and security, see [Provider Hosting and Security](provider-hosting-and-security.md). For more information and examples, see replace:[Receiving Events Securely](receiving-events-securely.md).
 
- 
+ 
 
 </dd> <dt>
 
@@ -189,8 +192,8 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -217,9 +220,9 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 [Securing WMI Events](securing-wmi-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

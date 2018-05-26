@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a subnet that contains IP protocol endpoints in IPAM.'
+Description: Represents a subnet that contains IP protocol endpoints in IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0f4fdeee-33f9-4495-b6a9-8d5037fce02c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0f4fdeee-33f9-4495-b6a9-8d5037fce02c
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_Subnet class'
+title: MSFT\_IPAM\_Subnet class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_Subnet class
@@ -24,37 +27,37 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UMLPackagePath("CIM::Network::Collections"), ClassVersion("1.0.0"), dynamic, provider("IPAMServerPSProvider"), AMENDMENT]
 class MSFT_IPAM_Subnet : CIM_IPConnectivitySubnet
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  uint16   ConnectivityStatus;
-  string   SubnetNumber;
-  string   SubnetMask;
-  uint8    PrefixLength;
-  uint16   AddressType;
-  string   InstanceID;
-  string   Name;
-  string   NetworkId;
-  uint16   NetworkType;
-  boolean  Overlapping;
-  string   NetworkSite;
-  string   VmmLogicalNetwork;
-  string   AddressSpace;
-  uint64   AddressSpaceId;
-  string   ProviderAddressSpace;
-  string   CustomerAddressSpace;
-  string   Owner;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  uint16   ConnectivityStatus;
+  string   SubnetNumber;
+  string   SubnetMask;
+  uint8    PrefixLength;
+  uint16   AddressType;
+  string   InstanceID;
+  string   Name;
+  string   NetworkId;
+  uint16   NetworkType;
+  boolean  Overlapping;
+  string   NetworkSite;
+  string   VmmLogicalNetwork;
+  string   AddressSpace;
+  uint64   AddressSpaceId;
+  string   ProviderAddressSpace;
+  string   CustomerAddressSpace;
+  string   Owner;
   datetime LastModifiedTime;
-  real64   PercentageUtilized;
-  real64   TotalAddresses;
-  real64   AssignedAddresses;
-  real64   UtilizedAddresses;
-  uint16   Utilization;
-  uint16   VlanId[];
-  uint32   VirtualSubnetId;
-  string   CustomConfiguration;
-  string   AccessScopePath;
-  boolean  IsInheritedAccessScope;
+  real64   PercentageUtilized;
+  real64   TotalAddresses;
+  real64   AssignedAddresses;
+  real64   UtilizedAddresses;
+  uint16   Utilization;
+  uint16   VlanId[];
+  uint32   VirtualSubnetId;
+  string   CustomConfiguration;
+  string   AccessScopePath;
+  boolean  IsInheritedAccessScope;
 };
 ```
 
@@ -77,12 +80,12 @@ The **MSFT\_IPAM\_Subnet** class has these methods.
 | [**BulkAddOrUpdateSubnet**](bulkaddorupdatesubnet-msft-ipam-subnet.md) | Adds or updates a set of subnets in IPAM.<br/>                                                                                                 |
 | [**BulkDeleteSubnet**](bulkdeletesubnet-msft-ipam-subnet.md)           | Deletes a set of IP address objects from IPAM.<br/>                                                                                            |
 | [**ExportSubnet**](exportsubnet-msft-ipam-subnet.md)                   | Exports the subnets from IPAM server to a CSV file.<br/>                                                                                       |
-| [**FindIpamFreeSubnet**](msft-ipam-subnet-findipamfreesubnet.md)       | Retrieves unassigned IP subnets from IPAM.<br/> **Windows Server 2012 R2:** This method is not available until Windows Server 2016.<br/> |
+| [**FindIpamFreeSubnet**](msft-ipam-subnet-findipamfreesubnet.md)       | Retrieves unassigned IP subnets from IPAM.<br/> **Windows Server 2012 R2:** This method is not available until Windows Server 2016.<br/> |
 | [**ImportSubnet**](importsubnet-msft-ipam-subnet.md)                   | Imports subnets into IPAM from a CSV file.<br/>                                                                                                |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -101,7 +104,7 @@ Access type: Read-only
 
 Access scope path for this subnet.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -274,12 +277,12 @@ Data type: **string**
 Access type: Read-only
 </dt> </dl>
 
-A set of custom metadata associated with the subnet address. This is specified as a semi-colon separated ‘name=value’ pairs.
+A set of custom metadata associated with the subnet address. This is specified as a semi-colon separated  name=value  pairs.
 
 > [!Note]  
 > This property is formatted with semi-colon separated *name*=*value* pairs.
 
- 
+ 
 
 </dd> <dt>
 
@@ -352,7 +355,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 </dd> <dt>
 
@@ -367,7 +370,7 @@ Access type: Read-only
 
 Whether the access scope for this subnet is inherited from parent.
 
-**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2:** This property is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -411,7 +414,7 @@ The network ID of the subnet.
 > [!Note]  
 > The **NetworkID** property uses the format: *NetworkId* / *Prefix Length*.
 
- 
+ 
 
 </dd> <dt>
 
@@ -683,7 +686,7 @@ The name of an abstraction of a physical network that describes a particular fun
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | RootMicrosoftIPAM<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -700,9 +703,9 @@ The name of an abstraction of a physical network that describes a particular fun
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

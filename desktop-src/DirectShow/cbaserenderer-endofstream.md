@@ -1,7 +1,12 @@
 ---
-Description: 'The EndOfStream method notifies the filter that the input pin received an end-of-stream notification.'
-ms.assetid: 'bdfd03f9-81e0-4d52-959e-82fd1a67e1c3'
-title: 'CBaseRenderer.EndOfStream method'
+Description: The EndOfStream method notifies the filter that the input pin received an end-of-stream notification.
+ms.assetid: bdfd03f9-81e0-4d52-959e-82fd1a67e1c3
+title: CBaseRenderer.EndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.EndOfStream method
@@ -49,9 +54,9 @@ This method sets the [**CBaseRenderer::m\_bEOS**](cbaserenderer-m-beos.md) flag 
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

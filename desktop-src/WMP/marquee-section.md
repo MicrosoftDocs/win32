@@ -1,8 +1,19 @@
 ---
 title: Marquee Section
 description: Marquee Section
-ms.assetid: 'ff48c922-e6fc-4ba2-89ad-dcb34be0fea5'
-keywords: ["Windows Media Player Mobile skins,marquees", "skins,marquees", "creating skins,Marquee section", "writing code for skins,Marquee section", "marquees in skins,Marquee section", "skin definition files,Marquee section"]
+ms.assetid: ff48c922-e6fc-4ba2-89ad-dcb34be0fea5
+keywords:
+- Windows Media Player Mobile skins,marquees
+- skins,marquees
+- creating skins,Marquee section
+- writing code for skins,Marquee section
+- marquees in skins,Marquee section
+- skin definition files,Marquee section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marquee Section

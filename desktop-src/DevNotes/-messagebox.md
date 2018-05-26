@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates, displays, and operates a message box.'
-ms.assetid: 'ec444595-da2a-4c73-a472-3820983f7303'
+---
+Description: Creates, displays, and operates a message box.
+ms.assetid: ec444595-da2a-4c73-a472-3820983f7303
 title: '\_MessageBox function'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_MessageBox function

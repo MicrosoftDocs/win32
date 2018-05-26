@@ -1,8 +1,11 @@
 ---
 title: ID3DX11EffectShaderVariable GetOutputSignatureElementDesc method
 description: Get an output-signature description.
-ms.assetid: '05f43a57-18fa-4be7-814e-ffbe53837cab'
-keywords: ["GetOutputSignatureElementDesc method Direct3D 11", "GetOutputSignatureElementDesc method Direct3D 11 , ID3DX11EffectShaderVariable interface", "ID3DX11EffectShaderVariable interface Direct3D 11 , GetOutputSignatureElementDesc method"]
+ms.assetid: 05f43a57-18fa-4be7-814e-ffbe53837cab
+keywords:
+- GetOutputSignatureElementDesc method Direct3D 11
+- GetOutputSignatureElementDesc method Direct3D 11 , ID3DX11EffectShaderVariable interface
+- ID3DX11EffectShaderVariable interface Direct3D 11 , GetOutputSignatureElementDesc method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectShaderVariable::GetOutputSignatureElementDesc method
@@ -23,9 +31,9 @@ Get an output-signature description.
 
 ```C++
 HRESULT GetOutputSignatureElementDesc(
-   UINT                           ShaderIndex,
-   UINT                           Element,
-   D3D11_SIGNATURE_PARAMETER_DESC *pDesc
+   UINT                           ShaderIndex,
+   UINT                           Element,
+   D3D11_SIGNATURE_PARAMETER_DESC *pDesc
 );
 ```
 
@@ -56,9 +64,9 @@ A zero-based element index.
 *pDesc* 
 </dt> <dd>
 
-Type: **[**D3D11\_SIGNATURE\_PARAMETER\_DESC**](d3d11-signature-parameter-desc.md)\***
+Type: **[**D3D11\_SIGNATURE\_PARAMETER\_DESC**](/windows/win32/D3D11Shader/ns-d3d11shader-_d3d11_signature_parameter_desc?branch=master)\***
 
-A pointer to a parameter description (see [**D3D11\_SIGNATURE\_PARAMETER\_DESC**](d3d11-signature-parameter-desc.md)).
+A pointer to a parameter description (see [**D3D11\_SIGNATURE\_PARAMETER\_DESC**](/windows/win32/D3D11Shader/ns-d3d11shader-_d3d11_signature_parameter_desc?branch=master)).
 
 </dd> </dl>
 
@@ -75,7 +83,7 @@ An effect contains one or more shaders; each shader has an input and output sign
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -95,9 +103,9 @@ An effect contains one or more shaders; each shader has an input and output sign
 [ID3DX11EffectShaderVariable](id3dx11effectshadervariable.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

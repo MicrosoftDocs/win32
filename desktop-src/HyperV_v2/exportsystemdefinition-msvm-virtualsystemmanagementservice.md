@@ -1,7 +1,12 @@
 ---
-Description: 'Exports a virtual machine, or a snapshot of a virtual machine, to a file.'
-ms.assetid: 'b88712e4-a1a6-4188-8082-f4973f89018d'
-title: 'ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class'
+Description: Exports a virtual machine, or a snapshot of a virtual machine, to a file.
+ms.assetid: b88712e4-a1a6-4188-8082-f4973f89018d
+title: ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExportSystemDefinition method of the Msvm\_VirtualSystemManagementService class
@@ -13,10 +18,10 @@ Exports a virtual machine, or a snapshot of a virtual machine, to a file. The vi
 
 ```mof
 uint32 ExportSystemDefinition(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 ExportDirectory,
-  [in]  string                 ExportSettingData,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 ExportDirectory,
+  [in]  string                 ExportSettingData,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -105,8 +110,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -120,9 +125,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

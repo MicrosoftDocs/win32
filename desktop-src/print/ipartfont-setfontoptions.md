@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetFontOptions method sets the options for the font.'
-ms.assetid: '28c708b7-82bb-4246-bde8-88d471c8120c'
-title: 'IPartFont::SetFontOptions method'
+---
+Description: The SetFontOptions method sets the options for the font.
+ms.assetid: 28c708b7-82bb-4246-bde8-88d471c8120c
+title: IPartFontSetFontOptions method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPartFont::SetFontOptions method

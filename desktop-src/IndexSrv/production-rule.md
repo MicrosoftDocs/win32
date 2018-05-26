@@ -1,7 +1,12 @@
 ---
 title: Production Rule
 description: Production Rule
-ms.assetid: '3767d047-2f22-4237-baa3-2765cddc5a4e'
+ms.assetid: 3767d047-2f22-4237-baa3-2765cddc5a4e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Production Rule

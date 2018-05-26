@@ -1,12 +1,17 @@
 ---
-Description: 'The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.'
-ms.assetid: '5c27bf76-6886-431d-9958-5064c53909ec'
-title: 'CRenderedInputPin.EndFlush method'
+Description: The EndFlush method ends a flush operation. This method implements the IPinEndFlush method.
+ms.assetid: 5c27bf76-6886-431d-9958-5064c53909ec
+title: CRenderedInputPin.EndFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CRenderedInputPin.EndFlush method
 
-The `EndFlush` method ends a flush operation. This method implements the [**IPin::EndFlush**](ipin-endflush.md) method.
+The `EndFlush` method ends a flush operation. This method implements the [**IPin::EndFlush**](/windows/win32/Strmif/nf-strmif-ipin-endflush?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ This method clears any pending [**EC\_COMPLETE**](ec-complete.md) events.
 [**CRenderedInputPin Class**](crenderedinputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Designing Training Card Help
 description: Designing Training Card Help
-ms.assetid: '989620AF-A096-416a-A942-16E3CB2CA6E5'
+ms.assetid: 989620AF-A096-416a-A942-16E3CB2CA6E5
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing Training Card Help

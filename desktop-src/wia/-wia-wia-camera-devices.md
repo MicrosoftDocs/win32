@@ -1,12 +1,17 @@
 ---
-Description: 'WIA represents a camera device as a hierarchical tree of IWiaItem objects.'
-ms.assetid: 'fbb2821c-7f13-4fdd-a2ea-582be303855a'
+Description: WIA represents a camera device as a hierarchical tree of IWiaItem objects.
+ms.assetid: fbb2821c-7f13-4fdd-a2ea-582be303855a
 title: WIA Camera Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Camera Devices
 
-WIA represents a camera device as a hierarchical tree of [**IWiaItem**](-wia-iwiaitem.md) objects. The root item, returned from a call to the Windows Image Acquisition (WIA) device manager [**IWiaDevMgr::CreateDevice**](-wia-iwiadevmgr-createdevice.md) method, is used to get and set device information, to control the device, and to begin device item enumeration.
+WIA represents a camera device as a hierarchical tree of [**IWiaItem**](/windows/win32/wia_xp/nn-wia_xp-iwiaitem?branch=master) objects. The root item, returned from a call to the Windows Image Acquisition (WIA) device manager [**IWiaDevMgr::CreateDevice**](/windows/win32/wia_xp/nf-wia_xp-iwiadevmgr-createdevice?branch=master) method, is used to get and set device information, to control the device, and to begin device item enumeration.
 
 > [!Note]  
 > WIA does not support cameras in Windows Vista or later. For those versions of the Windows, use the Windows Portable Device (WPD) API described in the Windows Driver Development Kit (DDK) to acquire images from cameras.

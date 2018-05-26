@@ -1,14 +1,20 @@
 ---
 title: WM/EncodedBy
 description: The WM/EncodedBy attribute contains the name of the person or group that encoded the content.
-ms.assetid: '13c4d8c6-6dca-4f2c-a76f-a127004a8aaf'
-keywords: ["WM/EncodedBy windows Media Format"]
+ms.assetid: 13c4d8c6-6dca-4f2c-a76f-a127004a8aaf
+keywords:
+- WM/EncodedBy windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/EncodedBy
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/EncodedBy

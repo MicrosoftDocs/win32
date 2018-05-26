@@ -4,11 +4,15 @@ description: Retrieving the contents of a multi-valued attribute from a group, s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fe94299e-5c09-4744-bf2c-3bea7538d959'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: fe94299e-5c09-4744-bf2c-3bea7538d959
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Searching Using Range Retrieval LDAP"]
+keywords:
+- Searching Using Range Retrieval LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching Using Range Retrieval

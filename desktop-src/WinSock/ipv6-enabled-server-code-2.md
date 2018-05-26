@@ -1,7 +1,12 @@
 ---
-Description: 'The following code is the IP-agnostic Server.c file, which is an IPv6-enabled version of the Simples.c file.'
-ms.assetid: '5e27c731-c9c7-4c49-91bd-6f4dee60460b'
-title: 'IPv6-Enabled Server Code'
+Description: The following code is the IP-agnostic Server.c file, which is an IPv6-enabled version of the Simples.c file.
+ms.assetid: 5e27c731-c9c7-4c49-91bd-6f4dee60460b
+title: IPv6-Enabled Server Code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6-Enabled Server Code

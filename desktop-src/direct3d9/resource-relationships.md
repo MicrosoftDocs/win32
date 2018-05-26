@@ -1,7 +1,12 @@
 ---
-Description: 'The following diagram shows the operations that are syntactically possible on specific resources and their contents. For more information about how to use resources, see Manipulating Resources (Direct3D 9).'
-ms.assetid: '72f880b9-1792-4ff9-875f-a8bb6c8b7f30'
-title: 'Resource Relationships (Direct3D 9)'
+Description: The following diagram shows the operations that are syntactically possible on specific resources and their contents. For more information about how to use resources, see Manipulating Resources (Direct3D 9).
+ms.assetid: 72f880b9-1792-4ff9-875f-a8bb6c8b7f30
+title: Resource Relationships (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resource Relationships (Direct3D 9)

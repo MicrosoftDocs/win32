@@ -4,13 +4,15 @@ description: A dynamic WMI class that represents cluster networks.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0467bd96-9bc5-4167-a1f4-6b8b8b5de99c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0467bd96-9bc5-4167-a1f4-6b8b8b5de99c
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_Network class", "MSCluster_Network class, described"]
+keywords:
+- MSCluster_Network class
+- MSCluster_Network class, described
 topic_type:
 - apiref
 api_name:
@@ -38,6 +40,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_Network class
@@ -52,24 +57,24 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MS_CLUSTER_PROVIDER"), UUID("{F541DA2A-174C-4000-9066-B755095C7E7A}"), AMENDMENT]
 class MSCluster_Network : MSCluster_LogicalElement
 {
-  string             Caption;
-  datetime           InstallDate;
-  string             Status;
-  uint32             Flags;
-  uint32             Characteristics;
-  string             Name;
-  string             ID;
-  string             Description;
-  string             Address;
-  string             AddressMask;
-  uint32             Role;
-  uint32             State;
-  string             IPv6Addresses[];
-  string             IPv6PrefixLengths[];
-  string             IPv4Addresses[];
-  string             IPv4PrefixLengths[];
-  uint32             Metric;
-  boolean            AutoMetric;
+  string             Caption;
+  datetime           InstallDate;
+  string             Status;
+  uint32             Flags;
+  uint32             Characteristics;
+  string             Name;
+  string             ID;
+  string             Description;
+  string             Address;
+  string             AddressMask;
+  uint32             Role;
+  uint32             State;
+  string             IPv6Addresses[];
+  string             IPv6PrefixLengths[];
+  string             IPv4Addresses[];
+  string             IPv4PrefixLengths[];
+  uint32             Metric;
+  boolean            AutoMetric;
   MSCluster_Property PrivateProperties;
 };
 ```
@@ -94,7 +99,7 @@ The **MSCluster\_Network** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -170,9 +175,9 @@ Access type: Read-only
 
 Provides the characteristics of the network. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -205,9 +210,9 @@ Access type: Read-only
 
 Provides access to the flags set for the network. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 This property is inherited from [**MSCluster\_LogicalElement**](mscluster-logicalelement.md).
 
@@ -224,9 +229,9 @@ Access type: Read-only
 
 The Id of the network.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is not supported before Windows Server 2012.
+This property is not supported before Windows Server 2012.
 
 </dd> <dt>
 
@@ -427,9 +432,9 @@ The following are the possible values.
 
 The operation was not successful.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **StateUnknown** before Windows Server 2012 R2 .
+This value is **StateUnknown** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -442,9 +447,9 @@ This value is **StateUnknown** before Windows Server 2012 R2 .
 
 All of the network interfaces on the network are unavailable, which means that the nodes that own the network interfaces are down.
 
-**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2012, Windows Server 2008 R2 and Windows Server 2008:  **
 
-This value is **StateUnavailable** before Windows Server 2012 R2 .
+This value is **StateUnavailable** before Windows Server 2012 R2 .
 
 </dd> <dt>
 
@@ -471,7 +476,7 @@ The network is operational, but two or more nodes on the network cannot communic
 > [!Note]  
 > This value is **Paritioned**, and not **Partitioned.**
 
- 
+ 
 
 </dd> <dt>
 
@@ -589,7 +594,7 @@ The **MSCluster\_Network** class is derived from the [**MSCluster\_LogicalElemen
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -606,9 +611,9 @@ The **MSCluster\_Network** class is derived from the [**MSCluster\_LogicalElemen
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

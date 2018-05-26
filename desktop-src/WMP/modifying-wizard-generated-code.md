@@ -1,8 +1,20 @@
 ---
 title: Modifying Wizard-generated Code
 description: Modifying Wizard-generated Code
-ms.assetid: '391a7773-c3e2-499a-bb63-e5934537d963'
-keywords: ["Windows Media Player Mobile,plug-ins", "Windows Media Player Mobile,user interface plug-ins", "Windows Media Player Mobile plug-ins", "plug-ins,user interface", "plug-ins,Windows Media Player Mobile", "user interface plug-ins,Windows Media Player Mobile", "UI plug-ins,Windows Media Player Mobile"]
+ms.assetid: 391a7773-c3e2-499a-bb63-e5934537d963
+keywords:
+- Windows Media Player Mobile,plug-ins
+- Windows Media Player Mobile,user interface plug-ins
+- Windows Media Player Mobile plug-ins
+- plug-ins,user interface
+- plug-ins,Windows Media Player Mobile
+- user interface plug-ins,Windows Media Player Mobile
+- UI plug-ins,Windows Media Player Mobile
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying Wizard-generated Code

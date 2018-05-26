@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a job and the CIM\_ManagedElement objects that may be affected by its execution.'
-ms.assetid: '94c5e602-214c-4003-921c-8955c3859738'
-title: 'CIM\_AffectedJobElement class'
+Description: Represents an association between a job and the CIM\_ManagedElement objects that may be affected by its execution.
+ms.assetid: 94c5e602-214c-4003-921c-8955c3859738
+title: CIM\_AffectedJobElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_AffectedJobElement class
@@ -15,9 +20,9 @@ Represents an association between a job and the **CIM\_ManagedElement** objects 
 class CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Job            REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Job            REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -147,17 +152,17 @@ Additional details for corresponding "1" (Other) values in the **ElementEffects*
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

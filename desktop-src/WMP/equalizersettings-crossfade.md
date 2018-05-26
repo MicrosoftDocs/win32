@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.crossFade
 description: The crossFade attribute specifies or retrieves a value indicating whether cross-fade is enabled.
-ms.assetid: '6c5a31f3-982e-4660-80ff-30b7a4290a15'
-keywords: ["EQUALIZERSETTINGS.crossFade Windows Media Player"]
+ms.assetid: 6c5a31f3-982e-4660-80ff-30b7a4290a15
+keywords:
+- EQUALIZERSETTINGS.crossFade Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.crossFade
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.crossFade
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ Cross-fade is an audio processing feature that gradually decreases the volume of
 [**EQUALIZERSETTINGS.crossFadeWindow**](equalizersettings-crossfadewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Submit method submits a single fax document to the fax service for processing.'
-ms.assetid: '50062e89-9e97-43aa-bb60-7ddf6448585d'
-title: 'FaxDocument.Submit method'
+---
+Description: The Submit method submits a single fax document to the fax service for processing.
+ms.assetid: 50062e89-9e97-43aa-bb60-7ddf6448585d
+title: FaxDocument.Submit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDocument.Submit method
@@ -46,7 +51,7 @@ To succeed, the **Submit** method requires that the [**FaxDocument**](-mfax-faxd
 
 This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error [FAX\_E\_NOT\_SUPPORTED\_ON\_THIS\_SKU](-mfax-fax-error-codes.md).
 
-To use this method, a user must have the [****farSUBMIT\_LOW****](-mfax-fax-access-rights-enum.md), [****farSUBMIT\_NORMAL****](-mfax-fax-access-rights-enum.md), or [****farSUBMIT\_HIGH****](-mfax-fax-access-rights-enum.md) access right, depending on the [**Priority**](-mfax-faxdocument-priority-vb.md) of the fax document.
+To use this method, a user must have the [****farSUBMIT\_LOW****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master), [****farSUBMIT\_NORMAL****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master), or [****farSUBMIT\_HIGH****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right, depending on the [**Priority**](-mfax-faxdocument-priority-vb.md) of the fax document.
 
 ## Requirements
 
@@ -71,7 +76,7 @@ To use this method, a user must have the [****farSUBMIT\_LOW****](-mfax-fax-acce
 [**FaxDocument**](-mfax-faxdocument.md)
 </dt> <dt>
 
-[**IFaxDocument**](-mfax-faxdocument-cpp.md)
+[**IFaxDocument**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxdocument?branch=master)
 </dt> </dl>
 
  

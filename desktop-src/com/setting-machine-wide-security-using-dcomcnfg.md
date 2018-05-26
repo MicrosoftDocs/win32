@@ -1,7 +1,12 @@
 ---
 title: Setting System-Wide Security Using DCOMCNFG
 description: When you want all of the applications on one computer that do not provide their own security to share the same default security settings, you would set security on a system-wide basis.
-ms.assetid: '23d1e222-c00b-497c-adc8-4ae14c5bdd98'
+ms.assetid: 23d1e222-c00b-497c-adc8-4ae14c5bdd98
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting System-Wide Security Using DCOMCNFG
@@ -10,7 +15,7 @@ Changing the system-wide security settings will affect all COM server applicatio
 
 When you want all of the applications on one computer that do not provide their own security to share the same default security settings, you would set security on a system-wide basis. Using Dcomcnfg.exe makes it easy to set default values in the registry that apply to all applications on a computer.
 
-It is important to understand that if the client or server explicitly calls [**CoInitializeSecurity**](coinitializesecurity.md) to set process-wide security, the default settings in the registry will be ignored and the parameters to **CoInitializeSecurity** will be used instead for the security settings for the process. Also, if you use Dcomcnfg.exe to specify security settings for a particular process, the default computer settings are overridden by the settings for the process.
+It is important to understand that if the client or server explicitly calls [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) to set process-wide security, the default settings in the registry will be ignored and the parameters to **CoInitializeSecurity** will be used instead for the security settings for the process. Also, if you use Dcomcnfg.exe to specify security settings for a particular process, the default computer settings are overridden by the settings for the process.
 
 When enabling system-wide security, you must set the authentication level to a value other than None and you must set launch and access permissions. You have the option of setting the default impersonation level, and you also can enable reference tracking. The following topics provide step-by-step procedures:
 
@@ -80,7 +85,7 @@ The process of setting access permissions for a computer is similar to setting l
 
 The impersonation level, set by the client, determines the amount of authority given to the server to act on the client's behalf. For example, when the client has set its impersonation level to delegate, the server can access local and remote resources as the client, and the server can cloak over multiple computer boundaries if the cloaking capability is set. To help determine which impersonation level you should choose, see [Impersonation Levels](impersonation-levels.md) and [Cloaking](cloaking.md).
 
-Setting the default impersonation level for the whole computer tells COM what impersonation level to use when a particular client on the computer does not specify an impersonation level programmatically by using [**CoInitializeSecurity**](coinitializesecurity.md) or [**CoSetProxyBlanket**](cosetproxyblanket.md).
+Setting the default impersonation level for the whole computer tells COM what impersonation level to use when a particular client on the computer does not specify an impersonation level programmatically by using [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master).
 
 **To set the impersonation level for a computer**
 

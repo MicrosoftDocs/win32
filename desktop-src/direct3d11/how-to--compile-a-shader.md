@@ -1,7 +1,12 @@
 ---
 title: How To Compile a Shader
 description: This topic shows how to use the D3DCompileFromFile function at run time to compile shader code.
-ms.assetid: 'A2CE368F-E72A-453D-BA4D-3D1D53DDDEE0'
+ms.assetid: A2CE368F-E72A-453D-BA4D-3D1D53DDDEE0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Compile a Shader

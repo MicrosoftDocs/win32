@@ -1,7 +1,12 @@
 ---
 title: Property Types
 description: Property Types
-ms.assetid: '223dc156-c183-4058-afed-e88792eb9d66'
+ms.assetid: 223dc156-c183-4058-afed-e88792eb9d66
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Types

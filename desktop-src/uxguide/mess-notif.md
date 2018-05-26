@@ -1,7 +1,12 @@
 ---
 title: Notifications
 description: A notification informs users of events that are unrelated to the current user activity, by briefly displaying a balloon from an icon in the notification area.
-ms.assetid: 'dcac2fb7-e503-4ea3-a2c5-e3cb660c040a'
+ms.assetid: dcac2fb7-e503-4ea3-a2c5-e3cb660c040a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications
@@ -165,7 +170,7 @@ Notifications have several usage patterns:
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -228,7 +233,7 @@ Notifications have several usage patterns:
 
 
 
- 
+ 
 
 -   For the action failure pattern, **if the problem might correct itself within seconds, delay the failure notification for an appropriate amount of time.** If the problem corrects itself, report nothing. Notify only after enough time has passed that the failure is noticeable. If you report too early, most likely users won't notice the problem reported, but they will notice the unnecessary notification.
 
@@ -266,7 +271,7 @@ In Windows Vista and later, notifications are displayed for a fixed duration of 
 
 
 
- 
+ 
 
 -   **For optional user tasks, don't try to pester users into submission by constantly displaying notifications.** If the task is required, display a modal dialog box immediately instead of using notifications.
 
@@ -402,9 +407,9 @@ When referring to the notification area:
 
 -   Refer to the notification area as the notification area, not the system tray.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Parameters are effect variables.'
-ms.assetid: '7db5ef2b-6894-4113-b726-8b238bb4fb2f'
-title: 'Parameters (Direct3D 9)'
+---
+Description: Parameters are effect variables.
+ms.assetid: 7db5ef2b-6894-4113-b726-8b238bb4fb2f
+title: Parameters (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parameters (Direct3D 9)

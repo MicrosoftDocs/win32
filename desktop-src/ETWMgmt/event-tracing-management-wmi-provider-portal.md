@@ -4,12 +4,15 @@ description: The Event Tracing Management WMI Provider provides access to Event 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a5e72b3a-fbca-4f77-b9f0-7cb30c083d62'
-ms.prod: 'windows-server-dev'
+ms.assetid: a5e72b3a-fbca-4f77-b9f0-7cb30c083d62
+ms.prod: windows-server-dev
 ms.technology:
-- 'event-tracing'
-- 'windows-management-instrumentation'
+- event-tracing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Event Tracing Management WMI Provider

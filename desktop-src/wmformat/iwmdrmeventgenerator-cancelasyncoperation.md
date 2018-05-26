@@ -1,8 +1,11 @@
 ---
 title: IWMDRMEventGenerator CancelAsyncOperation method
 description: The CancelAsyncOperation method cancels an asynchronous operation.
-ms.assetid: '95c59e03-b6c8-40c2-b1dc-381cb6d8d558'
-keywords: ["CancelAsyncOperation method windows Media Format", "CancelAsyncOperation method windows Media Format , IWMDRMEventGenerator interface", "IWMDRMEventGenerator interface windows Media Format , CancelAsyncOperation method"]
+ms.assetid: 95c59e03-b6c8-40c2-b1dc-381cb6d8d558
+keywords:
+- CancelAsyncOperation method windows Media Format
+- CancelAsyncOperation method windows Media Format , IWMDRMEventGenerator interface
+- IWMDRMEventGenerator interface windows Media Format , CancelAsyncOperation method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMEventGenerator::CancelAsyncOperation method
@@ -23,7 +31,7 @@ The **CancelAsyncOperation** method cancels an asynchronous operation.
 
 ```C++
 HRESULT CancelAsyncOperation(
-  [in] IUnknown *punkCancelationCookie
+  [in] IUnknown *punkCancelationCookie
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,9 +84,9 @@ None.
 [**IWMDRMEventGenerator Interface**](iwmdrmeventgenerator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

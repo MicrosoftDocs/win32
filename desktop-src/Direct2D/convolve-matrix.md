@@ -1,8 +1,14 @@
 ---
 title: Convolve matrix effect
 description: Use the convolve matrix effect to apply an arbitrary 2D kernel to an image. You can use this effect to blur, detect edges, emboss, or sharpen an image.
-ms.assetid: 'D9C23AC4-0090-4F16-AC59-B952FB616FA9'
-keywords: ["convolve matrix effect"]
+ms.assetid: D9C23AC4-0090-4F16-AC59-B952FB616FA9
+keywords:
+- convolve matrix effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Convolve matrix effect
@@ -34,7 +40,7 @@ The example here shows the input and output of the convolve matrix effect with a
 
 
 
- 
+ 
 
 
 ```C++
@@ -65,14 +71,14 @@ m_d2dContext->EndDraw();
 | KernelMatrix<br/> D2D1\_CONVOLVEMATRIX\_PROP\_KERNEL\_MATRIX<br/>           | The kernel matrix to be applied to the image. The kernel elements aren't bounded and are specified as floats.<br/> The first set of *KernelSizeX* numbers in the FLOAT\[\] corresponds to the first row in the kernel. The second set of *KernelSizeX* numbers correspond to the second row, and so on up to *KernelSizeY* rows.<br/> The type is FLOAT\[\].<br/> The default value is {0.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f}.<br/>                                                       |
 | Divisor<br/> D2D1\_CONVOLVEMATRIX\_PROP\_DIVISOR<br/>                       | The kernel matrix is applied to a pixel and then the result is divided by this value. <br/> 0 behaves as a value of float epsilon.<br/> The type is FLOAT.<br/> The default value is 1.0f.<br/>                                                                                                                                                                                                                                                                                                           |
 | Bias<br/> D2D1\_CONVOLVEMATRIX\_PROP\_BIAS<br/>                             | The effect applies the kernel matrix, the divisor, and then the bias is added to the result. The bias is unbounded and unitless. The type is FLOAT.<br/> The default value is 0.0f.<br/>                                                                                                                                                                                                                                                                                                                              |
-| KernelOffset<br/> D2D1\_CONVOLVEMATRIX\_PROP\_KERNEL\_OFFSET<br/>           | Shifts the convolution kernel from a centered position on the output pixel to a position you specify left/right and up/down. The offset is defined in kernel units.<br/> With some offsets and kernel sizes, the convolution kernel’s samples won't land on a pixel image center. The pixel values for the kernel sample are computed by bilinear interpolation.<br/> The type is D2D1\_VECTOR\_2F.<br/> The default value is {0.0f, 0.0f}.<br/>                                                          |
+| KernelOffset<br/> D2D1\_CONVOLVEMATRIX\_PROP\_KERNEL\_OFFSET<br/>           | Shifts the convolution kernel from a centered position on the output pixel to a position you specify left/right and up/down. The offset is defined in kernel units.<br/> With some offsets and kernel sizes, the convolution kernel s samples won't land on a pixel image center. The pixel values for the kernel sample are computed by bilinear interpolation.<br/> The type is D2D1\_VECTOR\_2F.<br/> The default value is {0.0f, 0.0f}.<br/>                                                          |
 | PreserveAlpha<br/> D2D1\_CONVOLVEMATRIX\_PROP\_PRESERVE\_ALPHA<br/>         | Specifies whether the convolution kernel is applied to the alpha channel or only the color channels.<br/> If you set this to **TRUE** the convolution kernel is applied only to the color channels.<br/> If you set this to **FALSE** the convolution kernel is applied to all channels.<br/> The type is BOOL.<br/> The default value is FALSE.<br/>                                                                                                                                               |
 | BorderMode<br/> D2D1\_CONVOLVEMATRIX\_PROP\_BORDER\_MODE<br/>               | The mode used to calculate the border of the image, soft or hard. See [Border modes](InterpolationMode #1) for more info.<br/> The type is D2D1\_BORDER\_MODE.<br/> The default value is D2D1\_BORDER\_MODE\_SOFT.<br/>                                                                                                                                                                                                                                                                                     |
 | ClampOutput<br/> D2D1\_CONVOLVEMATRIX\_PROP\_CLAMP\_OUTPUT<br/>             | Whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph. The effect clamps the values before it premultiplies the alpha .<br/> If you set this to TRUE the effect will clamp the values. If you set this to FALSE, the effect will not clamp the color values, but other effects and the output surface may clamp the values if they are not of high enough precision.<br/> The type is BOOL.<br/> The default value is FALSE.<br/> |
 
 
 
- 
+ 
 
 ## Scale modes
 
@@ -89,12 +95,12 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_CONVOLVEMATRIX\_SCALE\_MODE\_LINEAR.
 
- 
+ 
 
 ## Border modes
 
@@ -107,7 +113,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -123,25 +129,25 @@ For an example of this effect, download the [Direct2D convolve matrix effect sam
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

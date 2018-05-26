@@ -1,7 +1,12 @@
 ---
-Description: 'This class represents a processor affinity mask.'
-ms.assetid: '81ceffaf-8491-4249-be33-50b7385988a9'
-title: 'MSFT\_NetAdapter\_Group\_Affinity class'
+Description: This class represents a processor affinity mask.
+ms.assetid: 81ceffaf-8491-4249-be33-50b7385988a9
+title: MSFT\_NetAdapter\_Group\_Affinity class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter\_Group\_Affinity class
@@ -65,17 +70,17 @@ The group number for a set of logical processors.
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

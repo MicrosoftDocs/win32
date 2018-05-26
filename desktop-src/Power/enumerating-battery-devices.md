@@ -1,7 +1,12 @@
 ---
-Description: 'To enumerate the battery devices on a local computer, use the SetupDiGetClassDevs function.'
-ms.assetid: '17e3c779-91ba-4901-9435-b73dedbf0b89'
+Description: To enumerate the battery devices on a local computer, use the SetupDiGetClassDevs function.
+ms.assetid: 17e3c779-91ba-4901-9435-b73dedbf0b89
 title: Enumerating Battery Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Battery Devices

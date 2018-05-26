@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a floating-point number.'
-ms.assetid: '69bb9b15-5d66-4b1a-9559-29bcb38a965f'
-title: 'ID3DXTextureShader::SetFloat method'
+---
+Description: Sets a floating-point number.
+ms.assetid: 69bb9b15-5d66-4b1a-9559-29bcb38a965f
+title: ID3DXTextureShaderSetFloat method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetFloat method

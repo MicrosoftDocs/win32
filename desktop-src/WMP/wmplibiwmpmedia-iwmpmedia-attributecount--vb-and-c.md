@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia attributeCount property
 description: The attributeCount property gets the number of attributes that can be queried and/or set for the media item.
-ms.assetid: '527298ff-365d-41b0-90dd-e236d6adf6fa'
-keywords: ["attributeCount property Windows Media Player", "attributeCount property Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , attributeCount property"]
+ms.assetid: 527298ff-365d-41b0-90dd-e236d6adf6fa
+keywords:
+- attributeCount property Windows Media Player
+- attributeCount property Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , attributeCount property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::attributeCount property
@@ -156,9 +164,9 @@ attributeList.Lines = atList</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

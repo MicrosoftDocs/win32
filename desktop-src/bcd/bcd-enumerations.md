@@ -1,7 +1,12 @@
 ---
 title: BCD WMI Provider Enumerations
 description: The following are the enumerations for the Boot Configuration Data (BCD) Windows Management Instrumentation (WMI) provider
-ms.assetid: '2d8d6763-c1e1-4d74-9e8e-25b1550d632f'
+ms.assetid: 2d8d6763-c1e1-4d74-9e8e-25b1550d632f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCD WMI Provider Enumerations

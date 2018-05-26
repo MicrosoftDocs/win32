@@ -1,20 +1,25 @@
 ---
-Description: 'The SetProperties method specifies the number of buffers to allocate and the size of each buffer. This method implements the IMemAllocator::SetProperties method.'
-ms.assetid: 'f53c22a4-c01d-4d2f-81f0-bedf8f2ae5f0'
-title: 'CBaseAllocator.SetProperties method'
+Description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer. This method implements the IMemAllocatorSetProperties method.
+ms.assetid: f53c22a4-c01d-4d2f-81f0-bedf8f2ae5f0
+title: CBaseAllocator.SetProperties method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseAllocator.SetProperties method
 
-The `SetProperties` method specifies the number of buffers to allocate and the size of each buffer. This method implements the [**IMemAllocator::SetProperties**](imemallocator-setproperties.md) method.
+The `SetProperties` method specifies the number of buffers to allocate and the size of each buffer. This method implements the [**IMemAllocator::SetProperties**](/windows/win32/Strmif/nf-strmif-imemallocator-setproperties?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT SetProperties(
-   ALLOCATOR_PROPERTIES *pRequest,
-   ALLOCATOR_PROPERTIES *pActual
+   ALLOCATOR_PROPERTIES *pRequest,
+   ALLOCATOR_PROPERTIES *pActual
 );
 ```
 
@@ -27,7 +32,7 @@ HRESULT SetProperties(
 *pRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that contains the buffer requirements.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that contains the buffer requirements.
 
 </dd> <dt>
 
@@ -54,7 +59,7 @@ Returns one of the following **HRESULT** values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,9 +87,9 @@ The allocator must not be committed, and must not have outstanding buffers. In t
 [**CBaseAllocator Class**](cbaseallocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

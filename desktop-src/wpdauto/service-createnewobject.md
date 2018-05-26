@@ -1,14 +1,22 @@
 ---
 title: Service.CreateNewObject method
 description: The CreateNewObject method creates and initializes a WPDObject to the specified data format.
-ms.assetid: 'cd1a3595-02f7-4282-a5af-c558110c9dbb'
-keywords: ["CreateNewObject method WPD Automation", "CreateNewObject method WPD Automation , Service object", "Service object WPD Automation , CreateNewObject method"]
+ms.assetid: cd1a3595-02f7-4282-a5af-c558110c9dbb
+keywords:
+- CreateNewObject method WPD Automation
+- CreateNewObject method WPD Automation , Service object
+- Service object WPD Automation , CreateNewObject method
 topic_type:
 - apiref
 api_name:
 - Service.CreateNewObject
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.CreateNewObject method
@@ -72,8 +80,8 @@ ringtoneService.AddChild(ringtone);
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -87,9 +95,9 @@ ringtoneService.AddChild(ringtone);
 [**WPDObject**](wpdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

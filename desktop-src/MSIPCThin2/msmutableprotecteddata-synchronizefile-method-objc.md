@@ -4,17 +4,21 @@ description: Causes all in-memory data and attributes of the file represented by
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '07eada60-290a-4129-bc04-9ce6e8ca0ede'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 07eada60-290a-4129-bc04-9ce6e8ca0ede
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableProtectedData synchronizeFile method"]
+keywords:
+- MSMutableProtectedData synchronizeFile method
 topic_type:
 - apiref
 api_name:
 - MSMutableProtectedData synchronizeFile method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableProtectedData synchronizeFile method
@@ -41,15 +45,15 @@ MSMutableProtectedData.h
 
 
 
- 
+ 
 
 ## Remarks
 
 Because protection finalizes its state by calling the [**close**](msmutableprotecteddata-close--method-objc.md) function, any remaining data smaller than the block size will not be flushed.
 
- 
+ 
 
- 
+ 
 
 
 

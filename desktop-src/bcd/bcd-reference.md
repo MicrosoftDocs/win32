@@ -1,8 +1,14 @@
 ---
 title: BCD WMI Provider Reference
 description: The Bcd.mof file defines the Boot Configuration Data (BCD) Windows Management Instrumentation (WMI) provider. You can access the BCD WMI provider classes in the Root\\WMI namespace. For more information about WMI, see Windows Management Instrumentation.
-ms.assetid: '1d54c5a7-9b59-4b97-b553-d532bcba45d4'
-keywords: ["Boot Configuration Data WMI Provider Boot Config , reference"]
+ms.assetid: 1d54c5a7-9b59-4b97-b553-d532bcba45d4
+keywords:
+- Boot Configuration Data WMI Provider Boot Config , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCD WMI Provider Reference

@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Bidirectional Communication Interfaces
-ms.assetid: '5dbc3e61-3346-4e89-96c8-b214719177f0'
+ms.assetid: 5dbc3e61-3346-4e89-96c8-b214719177f0
 title: Bidirectional Communication Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bidirectional Communication Interfaces

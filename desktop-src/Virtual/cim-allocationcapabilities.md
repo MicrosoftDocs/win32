@@ -1,8 +1,15 @@
 ---
 title: CIM\_AllocationCapabilities class
 description: Represents the resource allocation settings of a managed element for a specific resource type.
-ms.assetid: '3bc5444f-8f86-43ae-8ea7-68b39abd9643'
-keywords: ["CIM_AllocationCapabilities class Hyper-V", "CIM_AllocationCapabilities class Hyper-V , described"]
+ms.assetid: 3bc5444f-8f86-43ae-8ea7-68b39abd9643
+keywords:
+- CIM_AllocationCapabilities class Hyper-V
+- CIM_AllocationCapabilities class Hyper-V , described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_AllocationCapabilities class
@@ -50,7 +57,7 @@ The **CIM\_AllocationCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -135,7 +142,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_Capabilities**](cim-capabilities.md).
 
@@ -203,14 +210,14 @@ Indicates whether requesting a specific resource is supported.
 **DMTF reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -437,14 +444,14 @@ The type of resource that is assigned to this allocation setting.
 **DMTF reserved**
 
 
-</dt> <dd>28–32767</dd> <dt>
+</dt> <dd>28 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -487,14 +494,14 @@ Indicates how access to the underlying resource is granted.
 **DMTF reserved**
 
 
-</dt> <dd>3–32767</dd> <dt>
+</dt> <dd>3 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -610,14 +617,14 @@ The system states that are supported when a new resource is created.
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -733,14 +740,14 @@ The system states that are supported when a resource is removed.
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> </dl>
 
@@ -751,9 +758,9 @@ The system states that are supported when a resource is removed.
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -766,9 +773,9 @@ The system states that are supported when a resource is removed.
 [**CIM\_Capabilities**](cim-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

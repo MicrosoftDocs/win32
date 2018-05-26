@@ -1,8 +1,9 @@
 ---
 title: MCN\_VIEWCHANGE notification code
 description: Sent by a month calendar control when the current view changes. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'ee35ac1d-9aeb-4d75-9cef-016487f23602'
-keywords: ["MCN_VIEWCHANGE notification code Windows Controls"]
+ms.assetid: ee35ac1d-9aeb-4d75-9cef-016487f23602
+keywords:
+- MCN_VIEWCHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCN\_VIEWCHANGE notification code
@@ -33,7 +39,7 @@ MCN_VIEWCHANGE
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMVIEWCHANGE**](nmviewchange.md) structure that contains information about the current view.
+Pointer to an [**NMVIEWCHANGE**](/windows/win32/Commctrl/ns-commctrl-tagnmviewchange?branch=master) structure that contains information about the current view.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ No return value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

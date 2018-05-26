@@ -1,7 +1,12 @@
 ---
-Description: 'The status of a flag. Values: (0=none 1=white 2=Red).'
-ms.assetid: '0485deab-2408-4147-acaa-cb09e9e0032a'
-title: 'System.FlagStatus'
+Description: The status of a flag. Values (0=none 1=white 2=Red).
+ms.assetid: 0485deab-2408-4147-acaa-cb09e9e0032a
+title: System.FlagStatus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FlagStatus

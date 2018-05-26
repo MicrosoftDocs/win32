@@ -4,17 +4,22 @@ description: Single-valued string GUID LIBID for a type library.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '95e3e85d-eb2f-4fb9-b8bf-7a4e4070578a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 95e3e85d-eb2f-4fb9-b8bf-7a4e4070578a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["COM-Unique-LIBID attribute AD Schema", "cOMUniqueLIBID attribute AD Schema"]
+keywords:
+- COM-Unique-LIBID attribute AD Schema
+- cOMUniqueLIBID attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - COM-Unique-LIBID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # COM-Unique-LIBID attribute
@@ -38,12 +43,12 @@ Single-valued string GUID LIBID for a type library.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ Single-valued string GUID LIBID for a type library.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

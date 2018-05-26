@@ -1,14 +1,19 @@
 ---
-Description: 'In Winsock applications, error codes are retrieved using the WSAGetLastError function, the Windows Sockets substitute for the Windows GetLastError function.'
-ms.assetid: 'cb73fc92-74bd-4c8b-a1c0-6daf4d298aa1'
-title: 'Error Codes - errno, h\_errno and WSAGetLastError'
+Description: In Winsock applications, error codes are retrieved using the WSAGetLastError function, the Windows Sockets substitute for the Windows GetLastError function.
+ms.assetid: cb73fc92-74bd-4c8b-a1c0-6daf4d298aa1
+title: Error Codes - errno, h\_errno and WSAGetLastError
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Codes - errno, h\_errno and WSAGetLastError
 
-In Winsock applications, error codes are retrieved using the [**WSAGetLastError**](wsagetlasterror-2.md) function, the Windows Sockets substitute for the Windows [**GetLastError**](base.getlasterror) function. The error codes returned by Windows Sockets are similar to UNIX socket error code constants, but the constants are all prefixed with WSA. So in Winsock applications the WSAEWOULDBLOCK error code would be returned, while in UNIX applications the EWOULDBLOCK error code would be returned.
+In Winsock applications, error codes are retrieved using the [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master) function, the Windows Sockets substitute for the Windows [**GetLastError**](base.getlasterror) function. The error codes returned by Windows Sockets are similar to UNIX socket error code constants, but the constants are all prefixed with WSA. So in Winsock applications the WSAEWOULDBLOCK error code would be returned, while in UNIX applications the EWOULDBLOCK error code would be returned.
 
-Error codes set by Windows Sockets are not made available through the *errno* variable. Additionally, for the **getXbyY** class of functions, error codes are not made available through the *h\_errno* variable. The [**WSAGetLastError**](wsagetlasterror-2.md) function is intended to provide a reliable way for a thread in a multithreaded process to obtain per-thread error information.
+Error codes set by Windows Sockets are not made available through the *errno* variable. Additionally, for the **getXbyY** class of functions, error codes are not made available through the *h\_errno* variable. The [**WSAGetLastError**](/windows/win32/winsock/nf-winsock-wsagetlasterror?branch=master) function is intended to provide a reliable way for a thread in a multithreaded process to obtain per-thread error information.
 
 For compatibility with Berkeley UNIX (BSD), early versions of Windows (Windows 95 with the Windows Socket 2 Update and Windows 98, for example) redefined regular Berkeley error constants typically found in *errno.h* on BSD as the equivalent Windows Sockets WSA errors. So for example, ECONNREFUSED was defined as **WSAECONNREFUSED** in the *Winsock.h* header file. In subsequent versions of Windows (Windows NT 3.1 and later) these defines were commented out to avoid conflicts with *errno.h* used with Microsoft C/C++ and Visual Studio.
 
@@ -25,7 +30,7 @@ These defines remain commented out in the *Winsock2.h* header within an \#ifdef 
 
 
 
-This allows networking code which was written to use the global *errno* to work correctly in a single-threaded environment. There are some very serious drawbacks. If a source file includes code which inspects *errno* for both socket and non-socket functions, this mechanism cannot be used. Furthermore, it is not possible for an application to assign a new value to *errno*. (In Windows Sockets, the function [**WSASetLastError**](wsasetlasterror-2.md) may be used for this purpose.)
+This allows networking code which was written to use the global *errno* to work correctly in a single-threaded environment. There are some very serious drawbacks. If a source file includes code which inspects *errno* for both socket and non-socket functions, this mechanism cannot be used. Furthermore, it is not possible for an application to assign a new value to *errno*. (In Windows Sockets, the function [**WSASetLastError**](/windows/win32/winsock/nf-winsock-wsasetlasterror?branch=master) may be used for this purpose.)
 
 Typical BSD Style
 
@@ -63,7 +68,7 @@ if (r == -1       /* (but see below) */
 
 
 
-The original Winsock 1.1 specification defined in 1995 recommended a set of error codes, and listed the possible errors that can be returned as a result of each function. Windows Sockets 2 added functions and features with other Windows Sockets error codes returned in addition to those listed in the original Winsock specification. Additional functions have been added over time to enhance Winsock for use by developers. For example, new name service functions ([**getaddrinfo**](getaddrinfo-2.md) and [**getnameinfo**](getnameinfo-2.md), for example) were added that support both IPv6 and IPv4 on Windows XP and later. Some of the older IPv4-only name service functions (the **getXbyY** class of functions, for example) have been deprecated.
+The original Winsock 1.1 specification defined in 1995 recommended a set of error codes, and listed the possible errors that can be returned as a result of each function. Windows Sockets 2 added functions and features with other Windows Sockets error codes returned in addition to those listed in the original Winsock specification. Additional functions have been added over time to enhance Winsock for use by developers. For example, new name service functions ([**getaddrinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getaddrinfo?branch=master) and [**getnameinfo**](/windows/win32/Ws2tcpip/nf-ws2tcpip-getnameinfo?branch=master), for example) were added that support both IPv6 and IPv4 on Windows XP and later. Some of the older IPv4-only name service functions (the **getXbyY** class of functions, for example) have been deprecated.
 
 A complete list of possible error codes returned by Windows Sockets functions is given in the section on [Windows Sockets Error Codes](windows-sockets-error-codes-2.md).
 

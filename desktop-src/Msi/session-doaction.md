@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DoAction method of the Session object executes the action function corresponding to the name supplied.'
-ms.assetid: '6cff1cf1-1c8f-4c43-a687-e927e8573e55'
-title: 'Session.DoAction method'
+---
+Description: The DoAction method of the Session object executes the action function corresponding to the name supplied.
+ms.assetid: 6cff1cf1-1c8f-4c43-a687-e927e8573e55
+title: Session.DoAction method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Session.DoAction method

@@ -2,11 +2,14 @@
 title: Get method of the PS\_VpnConnection class
 description: Retrieves virtual private network (VPN) connection profiles.
 audience: developer
-ms.assetid: 'd6339336-4a26-4d78-85e7-dcffcc29bd81'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d6339336-4a26-4d78-85e7-dcffcc29bd81
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_VpnConnection class", "PS_VpnConnection class, Get method"]
+keywords:
+- Get method
+- Get method, PS_VpnConnection class
+- PS_VpnConnection class, Get method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_VpnConnection class
@@ -26,9 +32,9 @@ Retrieves virtual private network (VPN) connection profiles.
 
 ```mof
 static uint32 Get(
-  [in]  string          Name[],
-  [in]  boolean         AllUserConnection,
-  [out] VpnCommonConfig cmdletOutput[]
+  [in]  string          Name[],
+  [in]  boolean         AllUserConnection,
+  [out] VpnCommonConfig cmdletOutput[]
 );
 ```
 
@@ -65,8 +71,8 @@ When this method returns, contains the [**VpnConnection**](vpnconnection.md) obj
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -80,9 +86,9 @@ When this method returns, contains the [**VpnConnection**](vpnconnection.md) obj
 [**PS\_VpnConnection**](ps-vpnconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

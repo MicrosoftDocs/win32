@@ -1,7 +1,12 @@
 ---
-Description: 'The Run method runs the filter.'
-ms.assetid: '83251137-83f8-45a3-b3f2-d7b45f43f7f8'
-title: 'CBaseRenderer.Run method'
+Description: The Run method runs the filter.
+ms.assetid: 83251137-83f8-45a3-b3f2-d7b45f43f7f8
+title: CBaseRenderer.Run method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.Run method
@@ -30,7 +35,7 @@ Returns S\_OK if successful, or an **HRESULT** value indicating the cause of the
 This method overrides the [**CBaseFilter::Run**](cbasefilter-run.md) method. It performs the following actions:
 
 -   Calls the **CBaseFilter::Run** method.
--   Commits the allocator. (See [**IMemAllocator::Commit**](imemallocator-commit.md).)
+-   Commits the allocator. (See [**IMemAllocator::Commit**](/windows/win32/Strmif/nf-strmif-imemallocator-commit?branch=master).)
 -   If the previous state was stopped, the filter releases any sample it is holding. (The sample is no longer valid.)
 -   Calls the [**CBaseRenderer::StartStreaming**](cbaserenderer-startstreaming.md) method and returns the result. If a sample is pending, the **StartStreaming** method schedules it for rendering.
 
@@ -54,9 +59,9 @@ If the filter is not connected, it posts an [**EC\_COMPLETE**](ec-complete.md) e
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

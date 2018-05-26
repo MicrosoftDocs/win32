@@ -1,8 +1,10 @@
 ---
 title: DMsgrSessionManagerEvents interface
 description: Do not use. The DMsgrSessionManagerEvents dispinterface fires events in the Messenger client when notifications from IMsgrSessionManager are received.
-ms.assetid: '2fd8e32e-3171-48f1-9470-21e3bc9966b8'
-keywords: ["DMsgrSessionManagerEvents interface Windows Messenger", "DMsgrSessionManagerEvents interface Windows Messenger , described"]
+ms.assetid: 2fd8e32e-3171-48f1-9470-21e3bc9966b8
+keywords:
+- DMsgrSessionManagerEvents interface Windows Messenger
+- DMsgrSessionManagerEvents interface Windows Messenger , described
 topic_type:
 - apiref
 api_name:
@@ -11,11 +13,16 @@ api_location:
 - Msnmsgrexe.adeb440d_7847_4f65_80bd_899870ed2ec9
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMsgrSessionManagerEvents interface
 
-\[**DMsgrSessionManagerEvents** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**DMsgrSessionManagerEvents** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. The **DMsgrSessionManagerEvents** dispinterface fires events in the Messenger client when notifications from [**IMsgrSessionManager**](im-imsgrsessionmanager.md) are received.
 
@@ -44,7 +51,7 @@ The **DMsgrSessionManagerEvents** interface has these events.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -52,10 +59,10 @@ The **DMsgrSessionManagerEvents** interface has these events.
 
 |                                     |                                                                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
-| End of client support<br/>    | Windows XP<br/>                                                                                                          |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
+| End of client support<br/>    | Windows XP<br/>                                                                                                          |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
 | Product<br/>                  | Messenger 4.5<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>                                          |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl>                                        |
@@ -76,9 +83,9 @@ The **DMsgrSessionManagerEvents** interface has these events.
 [Messenger Session Invite and Messenger Private APIs](im-session-invite-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

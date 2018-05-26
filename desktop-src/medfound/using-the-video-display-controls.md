@@ -1,18 +1,23 @@
 ---
 Description: Using the Video Display Controls
-ms.assetid: '09501d67-effb-41ce-a7b7-d2415acdf3ac'
+ms.assetid: 09501d67-effb-41ce-a7b7-d2415acdf3ac
 title: Using the Video Display Controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Video Display Controls
 
-The [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interface controls how the enhanced video renderer (EVR) displays video inside an application window. This interface can be used in either DirectShow or Media Foundation. Internally, the video display controls are provided by the EVR's default presenter. If you write a custom presenter, you can provide the same interface or define a custom interface.
+The [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) interface controls how the enhanced video renderer (EVR) displays video inside an application window. This interface can be used in either DirectShow or Media Foundation. Internally, the video display controls are provided by the EVR's default presenter. If you write a custom presenter, you can provide the same interface or define a custom interface.
 
-The correct way to get a pointer to the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interface depends on whether you are using the DirectShow version of the EVR or the Media Foundation version. For the Media Foundation EVR, it also depends on whether you are using the EVR directly or using it through the Media Session (which is more typical).
+The correct way to get a pointer to the [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) interface depends on whether you are using the DirectShow version of the EVR or the Media Foundation version. For the Media Foundation EVR, it also depends on whether you are using the EVR directly or using it through the Media Session (which is more typical).
 
-To get a pointer to the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interface, do the following:
+To get a pointer to the [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) interface, do the following:
 
-1.  Get a pointer to the [**IMFGetService**](imfgetservice.md) interface.
+1.  Get a pointer to the [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master) interface.
 
     -   If you are using the DirectShow EVR filter, call **QueryInterface** on the filter.
 
@@ -22,9 +27,9 @@ To get a pointer to the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) 
 
 2.  If you are using the Media Session, wait for the Media Session to send the [MESessionTopologyStatus](mesessiontopologystatus.md) event with a status value of MF\_TOPOSTATUS\_READY. (Skip this step otherwise.)
 
-3.  Call [**IMFGetService::GetService**](imfgetservice-getservice.md) to get the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interface. The service identifier is MR\_VIDEO\_RENDER\_SERVICE.
+3.  Call [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) to get the [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) interface. The service identifier is MR\_VIDEO\_RENDER\_SERVICE.
 
-You can use the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interface to perform the following tasks:
+You can use the [**IMFVideoDisplayControl**](/windows/win32/evr/nn-evr-imfvideodisplaycontrol?branch=master) interface to perform the following tasks:
 
 -   Set the clipping window.
 
@@ -36,9 +41,9 @@ You can use the [**IMFVideoDisplayControl**](imfvideodisplaycontrol.md) interfac
 
 ## Clipping Window
 
-The application must provide a window where the EVR draws the video. To set the clipping window, call [**IMFVideoDisplayControl::SetVideoWindow**](imfvideodisplaycontrol-setvideowindow.md) with a handle to the application window.
+The application must provide a window where the EVR draws the video. To set the clipping window, call [**IMFVideoDisplayControl::SetVideoWindow**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideowindow?branch=master) with a handle to the application window.
 
-If you create the EVR media sink through its activation object, this step is not required. The activation object automatically calls [**SetVideoWindow**](imfvideodisplaycontrol-setvideowindow.md), using the window handle that you provided in the [**MFCreateVideoRendererActivate**](mfcreatevideorendereractivate.md) function.
+If you create the EVR media sink through its activation object, this step is not required. The activation object automatically calls [**SetVideoWindow**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideowindow?branch=master), using the window handle that you provided in the [**MFCreateVideoRendererActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatevideorendereractivate?branch=master) function.
 
 ## Source and Destination Rectangles
 
@@ -46,17 +51,17 @@ During playback, the presenter takes a portion of the composited video image and
 
 The source rectangle is defined using normalized coordinates where the point (0.0, 0.0) corresponds to the upper left corner of the video, and (1.0, 1.0) corresponds to the lower right corner of the video. The source rectangle can be any region within this rectangle. The destination rectangle is specified in pixels, relative to the client area of the window. The default source rectangle is the entire image, and the default destination rectangle is an empty rectangle.
 
-To set the source and destination rectangles, call [**IMFVideoDisplayControl::SetVideoPosition**](imfvideodisplaycontrol-setvideoposition.md).
+To set the source and destination rectangles, call [**IMFVideoDisplayControl::SetVideoPosition**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideoposition?branch=master).
 
-If you create the EVR media sink through its activation object, this step is not required. The activation object automatically sets the destination rectangle equal to the entire client area of the window. However, you should call [**SetVideoPosition**](imfvideodisplaycontrol-setvideoposition.md) if you want to change the source rectangle or set a different destination rectangle.
+If you create the EVR media sink through its activation object, this step is not required. The activation object automatically sets the destination rectangle equal to the entire client area of the window. However, you should call [**SetVideoPosition**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideoposition?branch=master) if you want to change the source rectangle or set a different destination rectangle.
 
 ## Window Messages
 
 During playback, your application should respond to certain window messages, as follows:
 
--   WM\_PAINT: Call [**IMFVideoDisplayControl::RepaintVideo**](imfvideodisplaycontrol-repaintvideo.md) to repaint the video. Also, avoid painting over the destination rectangle while video is playing, because this can cause flickering.
+-   WM\_PAINT: Call [**IMFVideoDisplayControl::RepaintVideo**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-repaintvideo?branch=master) to repaint the video. Also, avoid painting over the destination rectangle while video is playing, because this can cause flickering.
 
--   WM\_SIZE: You might need to call [**SetVideoPosition**](imfvideodisplaycontrol-setvideoposition.md) to resize the destination rectangle.
+-   WM\_SIZE: You might need to call [**SetVideoPosition**](/windows/win32/evr/nf-evr-imfvideodisplaycontrol-setvideoposition?branch=master) to resize the destination rectangle.
 
 Unlike the Video Mixing Renderer (VMR) filter in DirectShow, you do not have to notify the EVR when you receive a WM\_DISPLAYCHANGE message.
 

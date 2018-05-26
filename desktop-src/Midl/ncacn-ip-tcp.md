@@ -2,13 +2,19 @@
 title: ncacn\_ip\_tcp attribute
 description: The ncacn\_ip\_tcp keyword identifies TCP/IP as the protocol family for the endpoint.
 ms.assetid: 8142c667-9a5f-4066-a36d-1bb5ce551d21
-keywords: ["ncacn_ip_tcp attribute MIDL"]
+keywords:
+- ncacn_ip_tcp attribute MIDL
 topic_type:
 - apiref
 api_name:
 - ncacn_ip_tcp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ncacn\_ip\_tcp attribute

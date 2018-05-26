@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates a BoundingBox from points.'
-ms.assetid: '3963b11a-2ade-4174-a5ff-fa57eb4d2f50'
-title: 'BoundingBox.CreateFromPoints methods'
+---
+Description: Creates a BoundingBox from points.
+ms.assetid: 3963b11a-2ade-4174-a5ff-fa57eb4d2f50
+title: BoundingBox.CreateFromPoints methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingBox.CreateFromPoints methods
@@ -29,7 +34,7 @@ Creates a BoundingBox from points.
 **Reference**
 </dt> <dt>
 
-[**BoundingBox**](boundingbox.md)
+[**BoundingBox**](/windows/win32/DirectXCollision/ns-directxcollision-boundingbox?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 title: BITS and System Restore
 description: Not all versions of BITS use the same format to store jobs.
-ms.assetid: '97c7fa69-1b35-445b-a0a1-b4d60c3ede42'
+ms.assetid: 97c7fa69-1b35-445b-a0a1-b4d60c3ede42
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BITS and System Restore

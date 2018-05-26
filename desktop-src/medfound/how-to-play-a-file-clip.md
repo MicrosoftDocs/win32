@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to play a segment of a media file in MFPlay, by setting the start and stop times for playback.'
-ms.assetid: 'cd761a4a-42ad-4994-b1b8-0946d29c3d8b'
+Description: This topic describes how to play a segment of a media file in MFPlay, by setting the start and stop times for playback.
+ms.assetid: cd761a4a-42ad-4994-b1b8-0946d29c3d8b
 title: How to Play a File Clip
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Play a File Clip
@@ -12,12 +17,12 @@ This topic describes how to play a segment of a media file in MFPlay, by setting
 
 **To Play a File Clip**
 
-1.  Call [**IMFPMediaPlayer::CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md) or [**IMFPMediaPlayer::CreateMediaItemFromObject**](imfpmediaplayer-createmediaitemfromobject.md) to create a media item for the file.
+1.  Call [**IMFPMediaPlayer::CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master) or [**IMFPMediaPlayer::CreateMediaItemFromObject**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromobject?branch=master) to create a media item for the file.
 2.  Optionally, get the total duration of the file, as described in [How to Get the Playback Duration](how-to-get-the-playback-duration.md).
-3.  Call [**IMFPMediaItem::SetStartStopPosition**](imfpmediaitem-setstartstopposition.md) to set the start and stop times. The stop time must not exceed the file duration.
-4.  Call [**IMFPMediaPlayer::SetMediaItem**](imfpmediaplayer-setmediaitem.md) to start playback.
+3.  Call [**IMFPMediaItem::SetStartStopPosition**](/windows/win32/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition?branch=master) to set the start and stop times. The stop time must not exceed the file duration.
+4.  Call [**IMFPMediaPlayer::SetMediaItem**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-setmediaitem?branch=master) to start playback.
 
-The following example uses the blocking version of [**CreateMediaItemFromURL**](imfpmediaplayer-createmediaitemfromurl.md). If the non-blocking version is used, the code that appears after **CreateMediaItemFromURL** should be placed in the handler for the **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** event. For more information about events in MFPlay, see [Receiving Events From the Player](getting-started-with-mfplay.md#receiving-events-from-the-player).
+The following example uses the blocking version of [**CreateMediaItemFromURL**](/windows/win32/mfplay/nf-mfplay-imfpmediaplayer-createmediaitemfromurl?branch=master). If the non-blocking version is used, the code that appears after **CreateMediaItemFromURL** should be placed in the handler for the **MFP\_EVENT\_TYPE\_MEDIAITEM\_CREATED** event. For more information about events in MFPlay, see [Receiving Events From the Player](getting-started-with-mfplay.md#receiving-events-from-the-player).
 
 To get the file duration, this example calls the `GetPlaybackDuration` function shown in the topic [How to Get the Playback Duration](how-to-get-the-playback-duration.md).
 

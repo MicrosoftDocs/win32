@@ -1,14 +1,20 @@
 ---
 title: ID2D1RenderTarget Clear methods
 description: Clears the drawing area to the specified color.
-ms.assetid: '3bfec923-17fc-479a-a760-9baab2ff3a56'
-keywords: ["Clear methods Direct2D"]
+ms.assetid: 3bfec923-17fc-479a-a760-9baab2ff3a56
+keywords:
+- Clear methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1RenderTarget::Clear methods
@@ -21,16 +27,16 @@ Clears the drawing area to the specified color.
 
 | Method                                                                 | Description                                                 |
 |:-----------------------------------------------------------------------|:------------------------------------------------------------|
-| [**Clear(D2D1\_COLOR\_F\*)**](id2d1rendertarget-clear-ptr-color-f.md) | Clears the drawing area to the specified color. <br/> |
-| [**Clear(D2D1\_COLOR\_F&)**](id2d1rendertarget-clear-ref-color-f.md)  | Clears the drawing area to the specified color. <br/> |
+| [**Clear(D2D1\_COLOR\_F\*)**](/windows/win32/d2d1/?branch=master) | Clears the drawing area to the specified color. <br/> |
+| [**Clear(D2D1\_COLOR\_F&)**](/windows/win32/d2d1/?branch=master)  | Clears the drawing area to the specified color. <br/> |
 
 
 
 ## Remarks
 
-Direct2D interprets the *clearColor* as straight alpha (not premultiplied). If the render target's alpha mode is [**D2D1\_ALPHA\_MODE\_IGNORE**](d2d1-alpha-mode.md), the alpha channel of *clearColor* is ignored and replaced with 1.0f (fully opaque).
+Direct2D interprets the *clearColor* as straight alpha (not premultiplied). If the render target's alpha mode is [**D2D1\_ALPHA\_MODE\_IGNORE**](/windows/win32/dcommon/ne-dcommon-d2d1_alpha_mode?branch=master), the alpha channel of *clearColor* is ignored and replaced with 1.0f (fully opaque).
 
-If the render target has an active clip (specified by [**PushAxisAlignedClip**](id2d1rendertarget-pushaxisalignedclip-ptr-d2d-rect-f-d2d1-antialias-mode.md)), the clear command is only applied to the area within the clip region.
+If the render target has an active clip (specified by [**PushAxisAlignedClip**](/windows/win32/d2d1/?branch=master)), the clear command is only applied to the area within the clip region.
 
 ## Examples
 
@@ -103,12 +109,12 @@ HRESULT DemoApp::OnRender()
 
 <dl> <dt>
 
-[**ID2D1RenderTarget**](id2d1rendertarget.md)
+[**ID2D1RenderTarget**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

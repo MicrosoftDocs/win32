@@ -1,7 +1,12 @@
 ---
-Description: 'Manages the replication for a virtual machine.'
-ms.assetid: 'edc11c5b-b1a1-45e0-a920-2f1f1b0b8779'
-title: 'Msvm\_ReplicationService class'
+Description: Manages the replication for a virtual machine.
+ms.assetid: edc11c5b-b1a1-45e0-a920-2f1f1b0b8779
+title: Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicationService class
@@ -16,34 +21,34 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ReplicationService : CIM_Service
 {
-  string   InstanceID;
-  string   Caption = "Hyper-V Replica Service";
-  string   Description = "Replication Service";
-  string   ElementName;
+  string   InstanceID;
+  string   Caption = "Hyper-V Replica Service";
+  string   Description = "Replication Service";
+  string   ElementName;
   datetime InstallDate;
-  string   Name = "replicasvc";
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status = "OK";
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name = "replicasvc";
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status = "OK";
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName = "Msvm_ComputerSystem";
-  string   SystemName;
-  string   CreationClassName = "Msvm_ReplicationService";
-  string   PrimaryOwnerName;
-  string   PrimaryOwnerContact;
-  string   StartMode;
-  boolean  Started = True;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_ReplicationService";
+  string   PrimaryOwnerName;
+  string   PrimaryOwnerContact;
+  string   StartMode;
+  boolean  Started = True;
 };
 ```
 
@@ -63,24 +68,24 @@ The **Msvm\_ReplicationService** class has these methods.
 | Method                                                                                                 | Description                                                                                                                                                                                                                                                                                   |
 |:-------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddAuthorizationEntry**](addauthorizationentry-msvm-replicationservice.md)                         | Adds an authorization entry to a server.<br/>                                                                                                                                                                                                                                           |
-| [**ChangeReplicationModeToPrimary**](changereplicationmodetoprimary-msvm-replicationservice.md)       | Changes the extended replication relationship to the primary relationship for a replica virtual machine. The replica virtual machine must be in a failover committed state.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
+| [**ChangeReplicationModeToPrimary**](changereplicationmodetoprimary-msvm-replicationservice.md)       | Changes the extended replication relationship to the primary relationship for a replica virtual machine. The replica virtual machine must be in a failover committed state.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/> |
 | [**CommitFailover**](commitfailover-msvm-replicationservice.md)                                       | Commits the recovery snapshot that the [**InitiateFailover**](initiatefailover-msvm-replicationservice.md) method has used for a failover.<br/>                                                                                                                                        |
 | [**CreateReplicationRelationship**](createreplicationrelationship-msvm-replicationservice.md)         | Creates a new replication relationship for a virtual machine.<br/>                                                                                                                                                                                                                      |
 | [**GetReplicationStatistics**](getreplicationstatistics-msvm-replicationservice.md)                   | Retrieves replication statistics for a virtual machine.<br/>                                                                                                                                                                                                                            |
-| [**GetReplicationStatisticsEx**](getreplicationstatisticsex-msvm-replicationservice.md)               | Retrieves the replication statistics that are associated with specified replication relationship of the virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                                                    |
+| [**GetReplicationStatisticsEx**](getreplicationstatisticsex-msvm-replicationservice.md)               | Retrieves the replication statistics that are associated with specified replication relationship of the virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                                                    |
 | [**GetSystemCertificates**](getsystemcertificates-msvm-replicationservice.md)                         | Retrieves the system certificates on a host system.<br/>                                                                                                                                                                                                                                |
 | [**ImportInitialReplica**](importinitialreplica-msvm-replicationservice.md)                           | Imports the initial replication for a virtual machine.<br/>                                                                                                                                                                                                                             |
-| [**InitiateFailback**](initiatefailback-msvm-replicationservice.md)                                   | Initiates the failback for a recovery virtual machine. That is, sets the failover for the virtual machine to an app or crash consistent image.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                              |
+| [**InitiateFailback**](initiatefailback-msvm-replicationservice.md)                                   | Initiates the failback for a recovery virtual machine. That is, sets the failover for the virtual machine to an app or crash consistent image.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                              |
 | [**InitiateFailover**](initiatefailover-msvm-replicationservice.md)                                   | Initiates a failover for a virtual machine to an application or standard replication point image.<br/>                                                                                                                                                                                  |
 | [**ModifyAuthorizationEntry**](modifyauthorizationentry-msvm-replicationservice.md)                   | Modifies an authorization entry on a server.<br/>                                                                                                                                                                                                                                       |
 | [**ModifyReplicationSettings**](modifyreplicationsettings-msvm-replicationservice.md)                 | Modifies the replication settings for a virtual machine.<br/>                                                                                                                                                                                                                           |
 | [**ModifyServiceSettings**](modifyservicesettings-msvm-replicationservice.md)                         | Modifies the settings for the Hyper-V Replica service.<br/>                                                                                                                                                                                                                             |
 | [**RemoveAuthorizationEntry**](removeauthorizationentry-msvm-replicationservice.md)                   | Removes the authorization entry from a server.<br/>                                                                                                                                                                                                                                     |
 | [**RemoveReplicationRelationship**](removereplicationrelationship-msvm-replicationservice.md)         | Removes a virtual machine replication relationship.<br/>                                                                                                                                                                                                                                |
-| [**RemoveReplicationRelationshipEx**](removereplicationrelationshipex-msvm-replicationservice.md)     | Removes the specified virtual machine replication relationship. For a replica virtual machine, primary replication can't be removed if extended replication is enabled.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>     |
+| [**RemoveReplicationRelationshipEx**](removereplicationrelationshipex-msvm-replicationservice.md)     | Removes the specified virtual machine replication relationship. For a replica virtual machine, primary replication can't be removed if extended replication is enabled.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>     |
 | [**RequestStateChange**](msvm-replicationservice-requeststatechange.md)                               | Requests a state change.<br/>                                                                                                                                                                                                                                                           |
 | [**ResetReplicationStatistics**](resetreplicationstatistics-msvm-replicationservice.md)               | Resets the replication statistics for a virtual machine.<br/>                                                                                                                                                                                                                           |
-| [**ResetReplicationStatisticsEx**](resetreplicationstatisticsex-msvm-replicationservice.md)           | Resets replication statistics that are associated with the specified replication relationship of a virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                                                         |
+| [**ResetReplicationStatisticsEx**](resetreplicationstatisticsex-msvm-replicationservice.md)           | Resets replication statistics that are associated with the specified replication relationship of a virtual machine.<br/> **Windows 8.1:** This method is not supported until Windows 8.1 and Windows Server 2012 R2.<br/>                                                         |
 | [**Resynchronize**](resynchronize-msvm-replicationservice.md)                                         | Performs a resynchronization operation on the specified virtual machine.<br/>                                                                                                                                                                                                           |
 | [**ReverseReplicationRelationship**](reversereplicationrelationship-msvm-replicationservice.md)       | Replicates a failed-over virtual machine back to the primary server.<br/>                                                                                                                                                                                                               |
 | [**RevertFailover**](revertfailover-msvm-replicationservice.md)                                       | Reverts the current failover for a virtual machine by discarding the current failover disk.<br/>                                                                                                                                                                                        |
@@ -94,7 +99,7 @@ The **Msvm\_ReplicationService** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -264,7 +269,7 @@ An administrator's default or startup configuration for the enabled state of an 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -287,7 +292,7 @@ The enabled and disabled states of an element. It can also indicate the transiti
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -310,7 +315,7 @@ The current health of the element. This attribute expresses the health of this e
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -451,7 +456,7 @@ An array that contains the current statuses of the object. This property is inhe
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -552,7 +557,7 @@ The last requested or desired state for the element. The actual state of the ele
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -675,17 +680,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

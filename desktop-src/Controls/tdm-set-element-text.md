@@ -1,8 +1,9 @@
 ---
 title: TDM\_SET\_ELEMENT\_TEXT message
 description: Updates a text element in a task dialog.
-ms.assetid: 'e3f15805-5d48-4549-9959-69ec01345e57'
-keywords: ["TDM_SET_ELEMENT_TEXT message Windows Controls"]
+ms.assetid: e3f15805-5d48-4549-9959-69ec01345e57
+keywords:
+- TDM_SET_ELEMENT_TEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_SET\_ELEMENT\_TEXT message
@@ -37,7 +43,7 @@ Indicates the element to update. (For an illustration, see [About Task Dialogs](
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -73,8 +79,8 @@ SendMessage(hwnd, TDM_SET_ELEMENT_TEXT, (WPARAM)TDE_FOOTER, (LPARAM)L"New footer
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ SendMessage(hwnd, TDM_SET_ELEMENT_TEXT, (WPARAM)TDE_FOOTER, (LPARAM)L"New footer
 [**TDM\_UPDATE\_ELEMENT\_TEXT**](tdm-update-element-text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

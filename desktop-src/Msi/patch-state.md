@@ -1,7 +1,12 @@
-﻿---
-Description: 'The State property returns the installation state of this instance of the patch.'
-ms.assetid: 'b01b2839-d867-4353-99d0-8c612cd1eb0c'
-title: 'Patch.State property'
+---
+Description: The State property returns the installation state of this instance of the patch.
+ms.assetid: b01b2839-d867-4353-99d0-8c612cd1eb0c
+title: Patch.State property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patch.State property
@@ -58,7 +63,7 @@ This method can return ERROR\_UNKNOWN\_PATCH, if the [**Patch**](patch-object.md
 [**Patch**](patch-object.md)
 </dt> <dt>
 
-[**MsiGetPatchInfoEx**](msigetpatchinfoex.md)
+[**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master)
 </dt> <dt>
 
 [Not Supported in Windows Installer 2.0 and earlier](not-supported-in-windows-installer-version-2-0.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the physical 3-D graphics processing unit (GPU).'
-ms.assetid: '24e3d141-cbfe-4d40-907c-9a467c586c46'
-title: 'Msvm\_Physical3dGraphicsProcessor class'
+Description: Describes the physical 3-D graphics processing unit (GPU).
+ms.assetid: 24e3d141-cbfe-4d40-907c-9a467c586c46
+title: Msvm\_Physical3dGraphicsProcessor class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Physical3dGraphicsProcessor class
@@ -16,61 +21,61 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider")]
 class Msvm_Physical3dGraphicsProcessor : CIM_LogicalDevice
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  Boolean  EnabledForVirtualization;
-  Boolean  CompatibleForVirtualization;
-  string   GPUID;
-  string   DirectXVersion;
-  string   PixelShaderVersion;
-  uint64   DedicatedVideoMemory;
-  uint64   DedicatedSystemMemory;
-  uint64   SharedSystemMemory;
-  uint64   TotalVideoMemory;
-  uint64   AvailableVideoMemory;
-  string   DriverProvider;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  Boolean  EnabledForVirtualization;
+  Boolean  CompatibleForVirtualization;
+  string   GPUID;
+  string   DirectXVersion;
+  string   PixelShaderVersion;
+  uint64   DedicatedVideoMemory;
+  uint64   DedicatedSystemMemory;
+  uint64   SharedSystemMemory;
+  uint64   TotalVideoMemory;
+  uint64   AvailableVideoMemory;
+  string   DriverProvider;
   datetime DriverDate;
   datetime DriverInstalled;
-  string   DriverVersion;
-  string   DriverModelVersion;
-  uint64   Rating;
-  uint64   AdapterIndexID;
+  string   DriverVersion;
+  string   DriverModelVersion;
+  uint64   Rating;
+  uint64   AdapterIndexID;
 };
 ```
 
@@ -100,7 +105,7 @@ The **Msvm\_Physical3dGraphicsProcessor** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -234,9 +239,9 @@ Access type: Read-only
 **true** if compatible for virtualization; otherwise, **false**.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -401,9 +406,9 @@ Qualifiers: [**MAXLEN**](https://msdn.microsoft.com/library/aa393650) (1024)
 Specifies the driver model version.
 
 > [!Note]  
-> This property was added in Windows 10, version 1703.
+> This property was added in Windows 10, version 1703.
 
- 
+ 
 
 </dd> <dt>
 
@@ -507,7 +512,7 @@ The enabled and disabled states of an element. This property is inherited from [
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1011,17 +1016,17 @@ Indicates the target state to which the instance is transitioning. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

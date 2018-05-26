@@ -1,8 +1,19 @@
 ---
 title: Skin Definition File XML Structure
 description: Skin Definition File XML Structure
-ms.assetid: '93325b94-667a-42a6-92f8-78288d36da81'
-keywords: ["creating skins,skin definition files", "Windows Media Player skins,skin definition files", "skins,skin definition files", "files for skins,skin definition", "skin definition files,XML structure", "XML structure for skin definition files"]
+ms.assetid: 93325b94-667a-42a6-92f8-78288d36da81
+keywords:
+- creating skins,skin definition files
+- Windows Media Player skins,skin definition files
+- skins,skin definition files
+- files for skins,skin definition
+- skin definition files,XML structure
+- XML structure for skin definition files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Skin Definition File XML Structure

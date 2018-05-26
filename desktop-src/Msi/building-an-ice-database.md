@@ -1,7 +1,12 @@
 ---
-Description: 'After selecting the appropriate ICEs for validation, a developer must collect the custom actions together into an ICE database.'
-ms.assetid: '69151d5a-be6e-4947-862d-cea65306c536'
+Description: After selecting the appropriate ICEs for validation, a developer must collect the custom actions together into an ICE database.
+ms.assetid: 69151d5a-be6e-4947-862d-cea65306c536
 title: Building an ICE Database
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building an ICE Database
@@ -16,7 +21,7 @@ A .cub file contains the following database tables.
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Binary](binary-table.md)             | The script files, DLLs, and EXEs of the ICE customs actions that are referenced in the CustomAction table.                                                                                                                                                                 |
 | [CustomAction](customaction-table.md) | Each record in this table corresponds to an ICE custom action included in the .cub file.                                                                                                                                                                                   |
-| \_ICESequence                          | This table lists the ICE customs actions included in the .cub file in their execution sequence. The ICE custom actions listed in this table are executed by calling [**MsiSequence**](msisequence.md), or individually executed using [**MsiDoAction**](msidoaction.md). |
+| \_ICESequence                          | This table lists the ICE customs actions included in the .cub file in their execution sequence. The ICE custom actions listed in this table are executed by calling [**MsiSequence**](/windows/win32/Msiquery/nf-msiquery-msisequencea?branch=master), or individually executed using [**MsiDoAction**](/windows/win32/Msiquery/nf-msiquery-msidoactiona?branch=master). |
 | [\_Validation](-validation-table.md)  | This table contains the .cub file entries that are to be merged into the \_Validation table.                                                                                                                                                                               |
 | \_Special                              | Any special processing tables required by particular ICE custom actions must be included in the .cub file. The name of these tables must have a leading underscore.                                                                                                        |
 

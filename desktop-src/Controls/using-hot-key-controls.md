@@ -1,7 +1,12 @@
 ---
 title: Using Hot Key Controls
 description: This section contains example code and information about how to use hot key controls.
-ms.assetid: 'B241D032-FDC6-4410-9AB1-9D50AE96F1D0'
+ms.assetid: B241D032-FDC6-4410-9AB1-9D50AE96F1D0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Hot Key Controls
@@ -19,11 +24,11 @@ This section contains example code and information about how to use hot key cont
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,19 @@ description: This topic outlines steps for setting up your service application t
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'EA1457D1-282F-4CF3-A23C-46793D2C2F32'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: EA1457D1-282F-4CF3-A23C-46793D2C2F32
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["azure", "cloud", "rms", "app", "rights"]
+keywords:
+- azure
+- cloud
+- rms
+- app
+- rights
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How-to: enable your service application to work with cloud based RMS

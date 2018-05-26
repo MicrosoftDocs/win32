@@ -1,8 +1,10 @@
 ---
 title: Msvm\_VirtualSwitch class
 description: Represents a virtual switch.
-ms.assetid: '4bd532e1-6252-4f18-89d7-37e0ce7ea152'
-keywords: ["Msvm_VirtualSwitch class Hyper-V", "Msvm_VirtualSwitch class Hyper-V , described"]
+ms.assetid: 4bd532e1-6252-4f18-89d7-37e0ce7ea152
+keywords:
+- Msvm_VirtualSwitch class Hyper-V
+- Msvm_VirtualSwitch class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -42,6 +44,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualSwitch class
@@ -56,35 +63,35 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualSwitch : CIM_ComputerSystem
 {
-  string   Caption = "Virtual Switch";
-  string   Description;
-  string   ElementName;
+  string   Caption = "Virtual Switch";
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[] = 2;
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
+  uint16   OperationalStatus[] = 2;
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
   datetime TimeOfLastStateChange;
-  string   Name;
-  string   PrimaryOwnerName;
-  string   IdentifyingDescriptions[];
-  string   OtherIdentifyingInfo[];
-  uint16   Dedicated[] = 0;
-  uint16   ResetCapability = 5;
-  uint16   PowerManagementCapabilities[];
-  string   StatusDescriptions[] = { "OK" };
-  uint16   EnabledDefault = 2;
-  string   CreationClassName = "Msvm_VirtualSwitch";
-  string   PrimaryOwnerContact;
-  string   Roles[];
-  string   NameFormat;
-  string   OtherDedicatedDescriptions[];
-  string   ScopeOfResidence;
-  uint32   NumLearnableAddresses;
-  uint32   MaxVMQOffloads;
-  uint32   MaxChimneyOffloads;
+  string   Name;
+  string   PrimaryOwnerName;
+  string   IdentifyingDescriptions[];
+  string   OtherIdentifyingInfo[];
+  uint16   Dedicated[] = 0;
+  uint16   ResetCapability = 5;
+  uint16   PowerManagementCapabilities[];
+  string   StatusDescriptions[] = { "OK" };
+  uint16   EnabledDefault = 2;
+  string   CreationClassName = "Msvm_VirtualSwitch";
+  string   PrimaryOwnerContact;
+  string   Roles[];
+  string   NameFormat;
+  string   OtherDedicatedDescriptions[];
+  string   ScopeOfResidence;
+  uint32   NumLearnableAddresses;
+  uint32   MaxVMQOffloads;
+  uint32   MaxChimneyOffloads;
 };
 ```
 
@@ -108,7 +115,7 @@ The **Msvm\_VirtualSwitch** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -301,7 +308,7 @@ Access type: Read-only
 
 The maximum number of Chimney offloads allowed for a port on this switch.
 
-**Windows Server 2008:** The **MaxChimneyOffloads** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **MaxChimneyOffloads** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -316,7 +323,7 @@ Access type: Read-only
 
 The maximum number of VM queue (VMQ) offloads allowed for a port on this switch.
 
-**Windows Server 2008:** The **MaxVMQOffloads** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **MaxVMQOffloads** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -631,9 +638,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -652,9 +659,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

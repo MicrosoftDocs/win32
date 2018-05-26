@@ -1,14 +1,22 @@
 ---
 title: GetMuteOperation.GetResults method
 description: Returns the results of the asynchronous operation started by GetMuteAsync.
-ms.assetid: '5B6DB1B3-54D4-486D-AA03-5FEEC92304B0'
-keywords: ["GetResults method Media Streaming API", "GetResults method Media Streaming API , GetMuteOperation interface", "GetMuteOperation interface Media Streaming API , GetResults method"]
+ms.assetid: 5B6DB1B3-54D4-486D-AA03-5FEEC92304B0
+keywords:
+- GetResults method Media Streaming API
+- GetResults method Media Streaming API , GetMuteOperation interface
+- GetMuteOperation interface Media Streaming API , GetResults method
 topic_type:
 - apiref
 api_name:
 - GetMuteOperation.GetResults
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetMuteOperation.GetResults method
@@ -20,7 +28,7 @@ Returns the results of the asynchronous operation started by [**GetMuteAsync**](
 
 ```C++
 HRESULT GetResults(
-  [out, retval] boolean *value
+  [out, retval] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -62,9 +70,9 @@ The **GetResults** method is typically called from the event handler that was re
 [**GetMuteOperation**](getmuteoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

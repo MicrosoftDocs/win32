@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to an application when the IME changes composition status as a result of a keystroke. A window receives this message through its WindowProc function.'
-ms.assetid: '6de1c4c2-d910-487c-8b82-408cb6e02c44'
-title: 'WM\_IME\_COMPOSITION message'
+---
+Description: Sent to an application when the IME changes composition status as a result of a keystroke. A window receives this message through its WindowProc function.
+ms.assetid: 6de1c4c2-d910-487c-8b82-408cb6e02c44
+title: WM\_IME\_COMPOSITION message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_IME\_COMPOSITION message
@@ -104,7 +109,7 @@ This message has no return value.
 
 An application should process this message if it displays composition characters itself. Otherwise, it should send the message to the IME window.
 
-If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](_win32_defwindowproc_cpp) function processes this message by passing it to the default IME window. The IME window processes this message by updating its appearance based on the change flag specified. An application can call [**ImmGetCompositionString**](immgetcompositionstring.md) to retrieve the new composition status.
+If the application has created an IME window, it should pass this message to that window. The [**DefWindowProc**](_win32_defwindowproc_cpp) function processes this message by passing it to the default IME window. The IME window processes this message by updating its appearance based on the change flag specified. An application can call [**ImmGetCompositionString**](/windows/win32/Imm/nf-imm-immgetcompositionstringa?branch=master) to retrieve the new composition status.
 
 If none of the GCS\_ values are set, the message indicates that the current composition has been canceled and applications that draw the composition string should delete the string.
 
@@ -130,7 +135,7 @@ If none of the GCS\_ values are set, the message indicates that the current comp
 [Input Method Manager Messages](input-method-manager-messages.md)
 </dt> <dt>
 
-[**ImmGetCompositionString**](immgetcompositionstring.md)
+[**ImmGetCompositionString**](/windows/win32/Imm/nf-imm-immgetcompositionstringa?branch=master)
 </dt> </dl>
 
  

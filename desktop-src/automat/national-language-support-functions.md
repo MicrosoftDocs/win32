@@ -1,7 +1,12 @@
 ---
 title: National Language Support Functions
 description: Describes functions that support multiple national languages.
-ms.assetid: '75744ce7-f08b-4259-8121-e921ef1c4cab'
+ms.assetid: 75744ce7-f08b-4259-8121-e921ef1c4cab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # National Language Support Functions
@@ -16,7 +21,7 @@ The National Language Support (NLS) functions provide support for applications t
 
 
 
- 
+ 
 
 For Automation, applications need to get locale information and to compare and transform strings into the proper format for each locale.
 
@@ -30,15 +35,15 @@ All NLS functions use the locale identifier (LCID) to identify which code page a
 
 These functions can be divided into two categories:
 
--   String transformation — NLS functions support uppercasing, lowercasing, generating sort keys (all locale-dependent), and getting string type information.
+-   String transformation   NLS functions support uppercasing, lowercasing, generating sort keys (all locale-dependent), and getting string type information.
 
--   Locale manipulation — NLS functions return information about installed locales for use in string transformations.
+-   Locale manipulation   NLS functions return information about installed locales for use in string transformations.
 
 For more information on national language support functions, primary and secondary language identifiers and locale identifiers see [National Language Support](https://msdn.microsoft.com/library/windows/desktop/dd319078), [Locales](https://msdn.microsoft.com/library/windows/desktop/dd318716), and [Language Identifier Constants and Strings](https://msdn.microsoft.com/library/windows/desktop/dd318693).
 
- 
+ 
 
- 
+ 
 
 
 

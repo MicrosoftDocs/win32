@@ -1,19 +1,24 @@
 ---
-Description: 'The GetBitMasks method retrieves the color masks for a specified VIDEOINFO format.'
-ms.assetid: '72a9ba44-96de-4fff-a3fb-675d3dd080d8'
-title: 'CImageDisplay.GetBitMasks method'
+Description: The GetBitMasks method retrieves the color masks for a specified VIDEOINFO format.
+ms.assetid: 72a9ba44-96de-4fff-a3fb-675d3dd080d8
+title: CImageDisplay.GetBitMasks method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CImageDisplay.GetBitMasks method
 
-The `GetBitMasks` method retrieves the color masks for a specified [**VIDEOINFO**](videoinfo.md) format.
+The `GetBitMasks` method retrieves the color masks for a specified [**VIDEOINFO**](/windows/win32/amvideo/ns-amvideo-tagvideoinfo?branch=master) format.
 
 ## Syntax
 
 
 ```C++
 const DWORD* GetBitMasks(
-   const VIDEOINFO *pVideoInfo
+   const VIDEOINFO *pVideoInfo
 );
 ```
 
@@ -56,9 +61,9 @@ If the **biCompression** member is BI\_BITFIELDS, the method returns a pointer t
 [**CImageDisplay Class**](cimagedisplay.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

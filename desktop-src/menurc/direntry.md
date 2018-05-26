@@ -1,14 +1,20 @@
 ---
 title: DIRENTRY structure
 description: Contains a unique ordinal that identifies an individual font in the font resource group. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: '4afc561e-bc98-4968-9a00-5002870b0c5e'
-keywords: ["DIRENTRY structure Menus and Other Resources"]
+ms.assetid: 4afc561e-bc98-4968-9a00-5002870b0c5e
+keywords:
+- DIRENTRY structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - DIRENTRY
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIRENTRY structure
@@ -51,8 +57,8 @@ The [**FONTDIRENTRY**](fontdirentry.md) structure for the specified font directl
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -75,9 +81,9 @@ The [**FONTDIRENTRY**](fontdirentry.md) structure for the specified font directl
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

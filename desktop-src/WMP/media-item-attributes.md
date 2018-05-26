@@ -1,8 +1,30 @@
 ---
 title: Media Item Attributes
 description: Media Item Attributes
-ms.assetid: 'd43addec-e06c-4ef3-9012-3ecf589b105c'
-keywords: ["Windows Media Player,library", "Windows Media Player object model,library", "object model,library", "Windows Media Player Mobile,library for object model", "Windows Media Player ActiveX control,library for object model", "Windows Media Player Mobile ActiveX control,library for object model", "ActiveX control,library for object model", "Windows Media Player,attributes for media items", "Windows Media Player object model,attributes for media items", "object model,attributes for media items", "Windows Media Player Mobile,attributes for media items", "Windows Media Player ActiveX control,attributes for media items", "Windows Media Player Mobile ActiveX control,attributes for media items", "ActiveX control,attributes for media items", "Windows Media Player library,attributes for media items", "library,attributes for media items", "attributes,about"]
+ms.assetid: d43addec-e06c-4ef3-9012-3ecf589b105c
+keywords:
+- Windows Media Player,library
+- Windows Media Player object model,library
+- object model,library
+- Windows Media Player Mobile,library for object model
+- Windows Media Player ActiveX control,library for object model
+- Windows Media Player Mobile ActiveX control,library for object model
+- ActiveX control,library for object model
+- Windows Media Player,attributes for media items
+- Windows Media Player object model,attributes for media items
+- object model,attributes for media items
+- Windows Media Player Mobile,attributes for media items
+- Windows Media Player ActiveX control,attributes for media items
+- Windows Media Player Mobile ActiveX control,attributes for media items
+- ActiveX control,attributes for media items
+- Windows Media Player library,attributes for media items
+- library,attributes for media items
+- attributes,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Item Attributes

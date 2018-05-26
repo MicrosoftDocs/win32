@@ -1,13 +1,19 @@
 ---
 title: Creating a Status Callback Function
 description: Creating a Status Callback Function
-ms.assetid: '9aa98340-a5a0-4084-9670-b3c27a1351ed'
-keywords: ["capSetCallbackOnStatus macro"]
+ms.assetid: 9aa98340-a5a0-4084-9670-b3c27a1351ed
+keywords:
+- capSetCallbackOnStatus macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Status Callback Function
 
-The following example is a simple status callback function. Register this callback by using the [**capSetCallbackOnStatus**](capsetcallbackonstatus.md) macro.
+The following example is a simple status callback function. Register this callback by using the [**capSetCallbackOnStatus**](/windows/win32/Vfw/nf-vfw-capsetcallbackonstatus?branch=master) macro.
 
 
 ```C++

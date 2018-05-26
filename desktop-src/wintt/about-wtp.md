@@ -1,7 +1,12 @@
 ---
 title: About WTP
 description: Windows Troubleshooting Platform (WTP) provides ISVs, OEMs, and administrators the ability to write troubleshooting packs that let home users and information workers troubleshoot and resolve their PC problems.
-ms.assetid: '40340791-2263-4a01-a06b-9858deb7e406'
+ms.assetid: 40340791-2263-4a01-a06b-9858deb7e406
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About WTP

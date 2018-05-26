@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProductInfoFromScript property of the Installer object returns the value of the specified attribute that is stored in an advertise script.'
-ms.assetid: '92aa479b-2b4c-482c-a186-a290461bc6d8'
-title: 'Installer::ProductInfoFromScript property'
+---
+Description: The ProductInfoFromScript property of the Installer object returns the value of the specified attribute that is stored in an advertise script.
+ms.assetid: 92aa479b-2b4c-482c-a186-a290461bc6d8
+title: InstallerProductInfoFromScript property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer::ProductInfoFromScript property
@@ -27,7 +32,7 @@ A string or integer value depending upon requested attribute.
 
 ## Remarks
 
-The **ProductInfoFromScript** property uses the [**MsiGetProductInfoFromScript**](msigetproductinfofromscript.md) function.
+The **ProductInfoFromScript** property uses the [**MsiGetProductInfoFromScript**](/windows/win32/Msi/nf-msi-msigetproductinfofromscripta?branch=master) function.
 
 ## Examples
 

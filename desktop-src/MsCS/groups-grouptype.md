@@ -4,17 +4,21 @@ description: Specifies the type of the resource group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BDD220A6-275C-45C6-B087-A70BB119447E'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: BDD220A6-275C-45C6-B087-A70BB119447E
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["GroupType Failover Cluster"]
+keywords:
+- GroupType Failover Cluster
 topic_type:
 - apiref
 api_name:
 - GroupType
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GroupType
@@ -27,14 +31,14 @@ Specifies the type of the resource group.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read-only](read-only-properties.md)     |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 100                                       |
 | Maximum   | 9999                                      |
 | Default   | 9999                                      |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,7 +65,7 @@ The following values may be specified for this property:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -70,7 +74,7 @@ The following values may be specified for this property:
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -81,9 +85,9 @@ The following values may be specified for this property:
 [Group Common Properties](group-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

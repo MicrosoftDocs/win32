@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the configuration of a virtual Fibre Channel switch.'
-ms.assetid: 'da2918a9-6e7f-4fee-9c13-7e75bbc6821f'
-title: 'Msvm\_VirtualFcSwitchSettingData class'
+Description: Represents the configuration of a virtual Fibre Channel switch.
+ms.assetid: da2918a9-6e7f-4fee-9c13-7e75bbc6821f
+title: Msvm\_VirtualFcSwitchSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualFcSwitchSettingData class
@@ -16,27 +21,27 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualFcSwitchSettingData : CIM_VirtualSystemSettingData
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
-  string   VirtualSystemIdentifier;
-  string   VirtualSystemType;
-  string   Notes[];
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
+  string   VirtualSystemIdentifier;
+  string   VirtualSystemType;
+  string   Notes[];
   datetime CreationTime;
-  string   ConfigurationID;
-  string   ConfigurationDataRoot;
-  string   ConfigurationFile;
-  string   SnapshotDataRoot;
-  string   SuspendDataRoot;
-  string   SwapFileDataRoot;
-  string   LogDataRoot;
-  uint16   AutomaticStartupAction;
+  string   ConfigurationID;
+  string   ConfigurationDataRoot;
+  string   ConfigurationFile;
+  string   SnapshotDataRoot;
+  string   SuspendDataRoot;
+  string   SwapFileDataRoot;
+  string   LogDataRoot;
+  uint16   AutomaticStartupAction;
   datetime AutomaticStartupActionDelay;
-  uint16   AutomaticStartupActionSequenceNumber;
-  uint16   AutomaticShutdownAction;
-  uint16   AutomaticRecoveryAction;
-  string   RecoveryFile;
+  uint16   AutomaticStartupActionSequenceNumber;
+  uint16   AutomaticShutdownAction;
+  uint16   AutomaticRecoveryAction;
+  string   RecoveryFile;
 };
 ```
 
@@ -336,17 +341,17 @@ Specifies the type of virtual machine the setting data represents. This property
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

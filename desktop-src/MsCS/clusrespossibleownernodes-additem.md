@@ -1,14 +1,17 @@
 ---
 title: ClusResPossibleOwnerNodes.AddItem method
-description: Adds a node to a resource's \ 32; possible owners list.
+description: Adds a node to a resources \ 32; possible owners list.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '35d5eda5-09b6-4379-847a-dbb35f59f565'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 35d5eda5-09b6-4379-847a-dbb35f59f565
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AddItem method Failover Cluster", "AddItem method Failover Cluster , ClusResPossibleOwnerNodes class", "ClusResPossibleOwnerNodes class Failover Cluster , AddItem method"]
+keywords:
+- AddItem method Failover Cluster
+- AddItem method Failover Cluster , ClusResPossibleOwnerNodes class
+- ClusResPossibleOwnerNodes class Failover Cluster , AddItem method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResPossibleOwnerNodes.AddItem method
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                      |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                      |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>            |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>          |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>          |
@@ -77,9 +83,9 @@ This method does not return a value.
 [**ClusResPossibleOwnerNodes**](clusrespossibleownernodes-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

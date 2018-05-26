@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains reference information for the API elements provided by the D3DX utility library. Reference material is divided into the following categories.'
-ms.assetid: '6e4d48bb-d17a-44df-9a4f-c65ce1eaa8be'
+Description: This section contains reference information for the API elements provided by the D3DX utility library. Reference material is divided into the following categories.
+ms.assetid: 6e4d48bb-d17a-44df-9a4f-c65ce1eaa8be
 title: D3DX Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX Reference

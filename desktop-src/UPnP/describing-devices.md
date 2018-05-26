@@ -1,15 +1,20 @@
 ---
 title: Describing Devices
 description: There are two ways to obtain device objects.
-ms.assetid: 'a83fbf21-586e-4b92-9875-476d820c377d'
+ms.assetid: a83fbf21-586e-4b92-9875-476d820c377d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Describing Devices
 
 There are two ways to obtain device objects:
 
--   Using the [**IUPnPDescriptionDocument**](iupnpdescriptiondocument.md) interface. The **IUPnPDescriptionDocument** interface is the only interface that is safe for scripting.
--   Using the [**IUPnPDeviceFinder**](iupnpdevicefinder.md) interface to obtain an [**IUPnPDevices**](iupnpdevices.md) interface.
+-   Using the [**IUPnPDescriptionDocument**](/windows/win32/Upnp/nn-upnp-iupnpdescriptiondocument?branch=master) interface. The **IUPnPDescriptionDocument** interface is the only interface that is safe for scripting.
+-   Using the [**IUPnPDeviceFinder**](/windows/win32/Upnp/nn-upnp-iupnpdevicefinder?branch=master) interface to obtain an [**IUPnPDevices**](/windows/win32/Upnp/nn-upnp-iupnpdevices?branch=master) interface.
 
 Both methods return Devices collections. Applications then use the Device methods to retrieve properties about devices.
 
@@ -22,11 +27,11 @@ Applications are able to retrieve the following types of information:
 -   Display information, including the URL to control the device, and URLs from which icons are downloaded.
 -   Services provided by a particular device.
 
-Applications also obtain the URL of the device description document using the [**IUPnPDeviceDocumentAccess**](iupnpdevicedocumentaccess.md) interface. The application then load the description document and work with device and service properties that are not exposed by the [**IUPnPDevice**](iupnpdevice.md) interface. This interface cannot be used in scripting, because it is not the default interface.
+Applications also obtain the URL of the device description document using the [**IUPnPDeviceDocumentAccess**](/windows/win32/Upnp/nn-upnp-iupnpdevicedocumentaccess?branch=master) interface. The application then load the description document and work with device and service properties that are not exposed by the [**IUPnPDevice**](/windows/win32/Upnp/nn-upnp-iupnpdevice?branch=master) interface. This interface cannot be used in scripting, because it is not the default interface.
 
 ## Visual Basic Example
 
-The following sample code shows the usage of [**IUPnPDeviceDocumentAccess::GetDocumentURL**](iupnpdevicedocumentaccess-getdocumenturl.md).
+The following sample code shows the usage of [**IUPnPDeviceDocumentAccess::GetDocumentURL**](/windows/win32/Upnp/nf-upnp-iupnpdevicedocumentaccess-getdocumenturl?branch=master).
 
 
 ```VB
@@ -48,7 +53,7 @@ End If
 
 ## C++ Example
 
-The following sample code shows the usage of [**IUPnPDeviceDocumentAccess::GetDocumentURL**](iupnpdevicedocumentaccess-getdocumenturl.md).
+The following sample code shows the usage of [**IUPnPDeviceDocumentAccess::GetDocumentURL**](/windows/win32/Upnp/nf-upnp-iupnpdevicedocumentaccess-getdocumenturl?branch=master).
 
 
 ```C++

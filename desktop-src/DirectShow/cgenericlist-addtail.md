@@ -1,7 +1,12 @@
 ---
-Description: 'The AddTail method appends an item to the end of the list.'
-ms.assetid: 'e365a23e-7447-42ec-b836-21dd68962db1'
-title: 'CGenericList.AddTail method'
+Description: The AddTail method appends an item to the end of the list.
+ms.assetid: e365a23e-7447-42ec-b836-21dd68962db1
+title: CGenericList.AddTail method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.AddTail method
@@ -13,7 +18,7 @@ The `AddTail` method appends an item to the end of the list.
 
 ```C++
 POSITION AddTail(
-   OBJECT *pObj
+   OBJECT *pObj
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a POSITION value for the new tail position. If the method fails, it retu
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'The following notifications are used with the SetupInstallFile, SetupInstallFileEx, and SetupInstallFromInfSection functions. For more information about the format and use of notifications, see Notifications.'
-ms.assetid: '095cf4c9-3cb9-4b95-a8a2-9312c134e721'
+Description: The following notifications are used with the SetupInstallFile, SetupInstallFileEx, and SetupInstallFromInfSection functions. For more information about the format and use of notifications, see Notifications.
+ms.assetid: 095cf4c9-3cb9-4b95-a8a2-9312c134e721
 title: INF File Notifications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INF File Notifications
 
-The following notifications are used with the [**SetupInstallFile**](setupinstallfile.md), [**SetupInstallFileEx**](setupinstallfileex.md), and [**SetupInstallFromInfSection**](setupinstallfrominfsection.md) functions. For more information about the format and use of notifications, see [Notifications](notifications.md).
+The following notifications are used with the [**SetupInstallFile**](/windows/win32/Setupapi/nf-setupapi-setupinstallfilea?branch=master), [**SetupInstallFileEx**](/windows/win32/Setupapi/nf-setupapi-setupinstallfileexa?branch=master), and [**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master) functions. For more information about the format and use of notifications, see [Notifications](notifications.md).
 
 
 
@@ -22,7 +27,7 @@ The following notifications are used with the [**SetupInstallFile**](setupinstal
  
 
 > [!Note]  
-> Because [**SetupInstallFromInfSection**](setupinstallfrominfsection.md) creates and commits an internal file queue, it also uses the [File Queue Notifications](file-queue-notifications.md).
+> Because [**SetupInstallFromInfSection**](/windows/win32/Setupapi/nf-setupapi-setupinstallfrominfsectiona?branch=master) creates and commits an internal file queue, it also uses the [File Queue Notifications](file-queue-notifications.md).
 
  
 

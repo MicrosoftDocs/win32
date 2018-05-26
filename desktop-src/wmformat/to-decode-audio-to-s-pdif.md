@@ -1,23 +1,37 @@
 ---
 title: To Decode Audio to S/PDIF
 description: To Decode Audio to S/PDIF
-ms.assetid: 'b56c2d0a-a7c6-44f8-832a-bbbe7ae053e6'
-keywords: ["Windows Media Format SDK,decoding audio to S/PDIF", "Windows Media Format SDK,Sony/Philips Digital Interconnect Format (S/PDIF)", "Advanced Systems Format (ASF),decoding audio to S/PDIF", "ASF (Advanced Systems Format),decoding audio to S/PDIF", "Advanced Systems Format (ASF),Sony/Philips Digital Interconnect Format (S/PDIF)", "ASF (Advanced Systems Format),Sony/Philips Digital Interconnect Format (S/PDIF)", "Sony/Philips Digital Interconnect Format (S/PDIF),decoding audio", "S/PDIF (Sony/Philips Digital Interconnect Format),decoding audio", "decoding audio"]
+ms.assetid: b56c2d0a-a7c6-44f8-832a-bbbe7ae053e6
+keywords:
+- Windows Media Format SDK,decoding audio to S/PDIF
+- Windows Media Format SDK,Sony/Philips Digital Interconnect Format (S/PDIF)
+- Advanced Systems Format (ASF),decoding audio to S/PDIF
+- ASF (Advanced Systems Format),decoding audio to S/PDIF
+- Advanced Systems Format (ASF),Sony/Philips Digital Interconnect Format (S/PDIF)
+- ASF (Advanced Systems Format),Sony/Philips Digital Interconnect Format (S/PDIF)
+- Sony/Philips Digital Interconnect Format (S/PDIF),decoding audio
+- S/PDIF (Sony/Philips Digital Interconnect Format),decoding audio
+- decoding audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Decode Audio to S/PDIF
 
 Audio encoded with the Windows Media Audio 9 Professional codec can be decoded to Sony/Philips Digital Interconnect Format (S/PDIF). To generate S/PDIF output, perform the following steps:
 
-1.  Open a file that contains a Windows Media Audio 9 Professional stream by calling the [**IWMReader::Open**](iwmreader-open.md) method.
+1.  Open a file that contains a Windows Media Audio 9 Professional stream by calling the [**IWMReader::Open**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-open?branch=master) method.
 2.  Identify the output number of the stream that you want. For more information, see [To Identify Output Numbers](to-identify-output-numbers.md).
-3.  Call the [**IWMReaderAdvanced2::SetOutputSetting**](iwmreaderadvanced2-setoutputsetting.md) method to configure S/PDIF output. Use g\_wszEnableWMAProSPDIFOutput for the setting name. The data type is **WMT\_TYPE\_BOOL**; set the value to **TRUE** to enable S/PDIF output.
-4.  Get the output properties interface ([**IWMOutputMediaProps**](iwmoutputmediaprops.md)) of the desired output format by calling the [**IWMReader::GetOutputFormat**](iwmreader-getoutputformat.md) method. For more information about enumerating output formats, see [Assigning Output Formats](assigning-output-formats.md).
-5.  Set the output format by calling the [**IWMReader::SetOutputProps**](iwmreader-setoutputprops.md) method. Pass in a pointer to the **IWMOutputMediaProps** interface obtained in step 4.
+3.  Call the [**IWMReaderAdvanced2::SetOutputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting?branch=master) method to configure S/PDIF output. Use g\_wszEnableWMAProSPDIFOutput for the setting name. The data type is **WMT\_TYPE\_BOOL**; set the value to **TRUE** to enable S/PDIF output.
+4.  Get the output properties interface ([**IWMOutputMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops?branch=master)) of the desired output format by calling the [**IWMReader::GetOutputFormat**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat?branch=master) method. For more information about enumerating output formats, see [Assigning Output Formats](assigning-output-formats.md).
+5.  Set the output format by calling the [**IWMReader::SetOutputProps**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops?branch=master) method. Pass in a pointer to the **IWMOutputMediaProps** interface obtained in step 4.
 6.  Make any other configuration changes and begin playback.
 
 > [!Note]  
-> You can perform the preceding steps on the synchronous reader by using the corresponding methods of the [**IWMSyncReader**](iwmsyncreader.md) interface.
+> You can perform the preceding steps on the synchronous reader by using the corresponding methods of the [**IWMSyncReader**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmsyncreader?branch=master) interface.
 
  
 
@@ -77,13 +91,13 @@ Exit:
 [**Reading ASF Files**](reading-asf-files.md)
 </dt> <dt>
 
-[**IWMReader Interface**](iwmreader.md)
+[**IWMReader Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreader?branch=master)
 </dt> <dt>
 
-[**IWMReaderAdvanced2 Interface**](iwmreaderadvanced2.md)
+[**IWMReaderAdvanced2 Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2?branch=master)
 </dt> <dt>
 
-[**IWMSyncReader Interface**](iwmsyncreader.md)
+[**IWMSyncReader Interface**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmsyncreader?branch=master)
 </dt> </dl>
 
  

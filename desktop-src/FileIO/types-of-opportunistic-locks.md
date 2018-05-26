@@ -1,7 +1,12 @@
 ---
-Description: 'Describes level 1, level 2, batch, and filter opportunistic locks.'
-ms.assetid: '06136348-0c08-4e9c-9c96-fd3af33cbdc0'
+Description: Describes level 1, level 2, batch, and filter opportunistic locks.
+ms.assetid: 06136348-0c08-4e9c-9c96-fd3af33cbdc0
 title: Types of Opportunistic Locks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Types of Opportunistic Locks
@@ -44,9 +49,9 @@ A filter opportunistic lock differs from a level 2 opportunistic lock in that it
 
 Your application should request a filter opportunistic lock on a file in three steps:
 
-1.  Use the [**CreateFile**](createfile.md) function to open a handle to the file with the *DesiredAccess* parameter set to zero, indicating no access, and the *dwShareMode* parameter set to the **FILE\_SHARE\_READ** flag to allow sharing for reading. The handle obtained at this point is called the locking handle.
-2.  Request a lock on this handle with the [**FSCTL\_REQUEST\_FILTER\_OPLOCK**](fsctl-request-filter-oplock.md) control code.
-3.  When the lock is granted, use [**CreateFile**](createfile.md) to open the file again with *DesiredAccess* set to the **GENERIC\_READ** flag. Set *dwShareMode* to the **FILE\_SHARE\_READ** flag to allow others to read the file while you have it open, the **FILE\_SHARE\_DELETE** flag to allow others to mark the file for deletion while you have it open, or both. The handle obtained at this point is called the read handle.
+1.  Use the [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) function to open a handle to the file with the *DesiredAccess* parameter set to zero, indicating no access, and the *dwShareMode* parameter set to the **FILE\_SHARE\_READ** flag to allow sharing for reading. The handle obtained at this point is called the locking handle.
+2.  Request a lock on this handle with the [**FSCTL\_REQUEST\_FILTER\_OPLOCK**](/windows/win32/WinIoCtl/?branch=master) control code.
+3.  When the lock is granted, use [**CreateFile**](/windows/win32/FileAPI/nf-fileapi-createfilea?branch=master) to open the file again with *DesiredAccess* set to the **GENERIC\_READ** flag. Set *dwShareMode* to the **FILE\_SHARE\_READ** flag to allow others to read the file while you have it open, the **FILE\_SHARE\_DELETE** flag to allow others to mark the file for deletion while you have it open, or both. The handle obtained at this point is called the read handle.
 
 Use the read handle to read from or write to the contents of the file.
 

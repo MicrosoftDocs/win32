@@ -1,7 +1,12 @@
 ---
 Description: Printer Font Resource Structures
-ms.assetid: '467717c5-4811-4539-a2ae-544447018d83'
+ms.assetid: 467717c5-4811-4539-a2ae-544447018d83
 title: Printer Font Resource Structures
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Font Resource Structures

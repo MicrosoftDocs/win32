@@ -1,13 +1,16 @@
 ---
-Description: 'Copies a rights template.'
+Description: Copies a rights template.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'd45993f1-6809-4e81-af3b-1d4a944e05d1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: d45993f1-6809-4e81-af3b-1d4a944e05d1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'RightsTemplateCollection.Copy method'
+title: RightsTemplateCollection.Copy method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RightsTemplateCollection.Copy method
@@ -158,7 +161,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -170,9 +173,9 @@ END SUB
 [**RightsTemplateCollection**](rightstemplatecollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

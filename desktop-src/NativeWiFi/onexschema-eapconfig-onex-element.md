@@ -1,7 +1,12 @@
-﻿---
-Description: 'specifies the EAPHost configuration.'
-ms.assetid: '71ec3ed6-3670-46fc-a24b-580d15297437'
-title: 'EAPConfig (OneX) Element'
+---
+Description: specifies the EAPHost configuration.
+ms.assetid: 71ec3ed6-3670-46fc-a24b-580d15297437
+title: EAPConfig (OneX) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EAPConfig (OneX) Element

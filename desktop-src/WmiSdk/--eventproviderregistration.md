@@ -1,13 +1,16 @@
 ---
-Description: 'Used to register event providers with Windows Management Instrumentation (WMI).'
+Description: Used to register event providers with Windows Management Instrumentation (WMI).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd87f61a8-5549-4f33-ba67-31b5d72b5282'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d87f61a8-5549-4f33-ba67-31b5d72b5282
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventProviderRegistration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventProviderRegistration class
@@ -21,7 +24,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __EventProviderRegistration : __ProviderRegistration
 {
-  string         EventQueryList[];
+  string         EventQueryList[];
   __Provider REF provider;
 };
 ```
@@ -74,8 +77,8 @@ Only administrators can register or delete an event provider by creating an inst
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -96,9 +99,9 @@ Only administrators can register or delete an event provider by creating an inst
 [Writing an Event Provider](writing-an-event-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

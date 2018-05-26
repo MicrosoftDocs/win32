@@ -1,8 +1,21 @@
 ---
 title: Custom Properties, Events, and Control Patterns
 description: The Microsoft UI Automation \ 32;API specifies a predefined core set of properties, control patterns, and events.
-ms.assetid: 'd1eca598-1a02-4437-8036-77c8d62032d5'
-keywords: ["UI Automation,custom properties", "UI Automation,events overview", "UI Automation,control patterns overview", "UI Automation,extensibility features", "extensibility for UI Automation", "custom properties,about", "events,about", "control patterns,about"]
+ms.assetid: d1eca598-1a02-4437-8036-77c8d62032d5
+keywords:
+- UI Automation,custom properties
+- UI Automation,events overview
+- UI Automation,control patterns overview
+- UI Automation,extensibility features
+- extensibility for UI Automation
+- custom properties,about
+- events,about
+- control patterns,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Properties, Events, and Control Patterns

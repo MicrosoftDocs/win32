@@ -1,19 +1,25 @@
 ---
 title: ID2D1Geometry Widen methods
 description: Widens the geometry by the specified stroke and writes the result to an ID2D1SimplifiedGeometrySink.
-ms.assetid: 'c951ab85-7980-41e3-95c4-291d2fb046c8'
-keywords: ["Widen methods Direct2D"]
+ms.assetid: c951ab85-7980-41e3-95c4-291d2fb046c8
+keywords:
+- Widen methods Direct2D
 topic_type:
 - apiref
 api_location:
 - D2d1.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID2D1Geometry::Widen methods
 
-Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md).
+Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master).
 
 ### Overload list
 
@@ -21,16 +27,16 @@ Widens the geometry by the specified stroke and writes the result to an [**ID2D1
 
 | Method                                                                                                                                                                                                          | Description                                                                                                                                                                                                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-widen-float-ptr-id2d1strokestyle-ptr-d2d-matrix-3x2-f-ptr-id2d1simplifiedgeometrysink.md)             | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md) after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
-| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-widen-float-ptr-id2d1strokestyle-ref-d2d-matrix-3x2-f-ptr-id2d1simplifiedgeometrysink.md)              | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md) after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
-| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-widen-float-ptr-id2d1strokestyle-ptr-d2d-matrix-3x2-f-float-ptr-id2d1simplifiedgeometrysink.md) | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md) after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
-| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](id2d1geometry-widen-float-ptr-id2d1strokestyle-ref-d2d-matrix-3x2-f-float-ptr-id2d1simplifiedgeometrysink.md)  | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md) after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
+| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master)             | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master) after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
+| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master)              | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master) after it has been transformed by the specified matrix and flattened using the default tolerance.<br/>   |
+| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F\*,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master) | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master) after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
+| [**Widen(FLOAT,ID2D1StrokeStyle\*,D2D1\_MATRIX\_3X2\_F&,FLOAT,ID2D1SimplifiedGeometrySink\*)**](/windows/win32/d2d1/?branch=master)  | Widens the geometry by the specified stroke and writes the result to an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master) after it has been transformed by the specified matrix and flattened using the specified tolerance.<br/> |
 
 
 
 ## Examples
 
-The following code example shows how to use **Widen** to widen the geometry by the specified stroke and then write the result to an [**ID2D1SimplifiedGeometrySink**](id2d1simplifiedgeometrysink.md) object.
+The following code example shows how to use **Widen** to widen the geometry by the specified stroke and then write the result to an [**ID2D1SimplifiedGeometrySink**](/windows/win32/d2d1/?branch=master) object.
 
 
 ```C++
@@ -98,12 +104,12 @@ The following code example shows how to use **Widen** to widen the geometry by t
 
 <dl> <dt>
 
-[**ID2D1Geometry**](id2d1geometry.md)
+[**ID2D1Geometry**](/windows/win32/d2d1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

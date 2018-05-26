@@ -1,12 +1,17 @@
 ---
-Description: 'WIA is implemented as a Component Object Model (COM) out-of-process server to ensure the robust operation of client applications.'
-ms.assetid: '9f3d1848-36ab-4e0f-a7f4-312bc85ecc00'
+Description: WIA is implemented as a Component Object Model (COM) out-of-process server to ensure the robust operation of client applications.
+ms.assetid: 9f3d1848-36ab-4e0f-a7f4-312bc85ecc00
 title: WIA Architecture
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WIA Architecture
 
-WIA is implemented as a Component Object Model (COM) out-of-process server to ensure the robust operation of client applications. Unlike most out of process server applications, Windows Image Acquisition (WIA) avoids performance penalties during image data transfer by providing its own data transfer mechanism, [**IWiaDataTransfer**](-wia-iwiadatatransfer.md). This high performance interface uses a shared memory window to transfer data to the client.
+WIA is implemented as a Component Object Model (COM) out-of-process server to ensure the robust operation of client applications. Unlike most out of process server applications, Windows Image Acquisition (WIA) avoids performance penalties during image data transfer by providing its own data transfer mechanism, [**IWiaDataTransfer**](/windows/win32/wia_xp/nn-wia_xp-iwiadatatransfer?branch=master). This high performance interface uses a shared memory window to transfer data to the client.
 
 WIA has three main components: a Device Manager, a Minidriver Service Library, and a Device Minidriver.
 

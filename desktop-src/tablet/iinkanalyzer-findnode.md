@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the IContextNode object for a specified globally unique identifier (GUID).'
-ms.assetid: 'b8340666-98ab-4d8c-93c7-58ed05ef30d2'
-title: 'IInkAnalyzer::FindNode method'
+Description: Retrieves the IContextNode object for a specified globally unique identifier (GUID).
+ms.assetid: b8340666-98ab-4d8c-93c7-58ed05ef30d2
+title: IInkAnalyzerFindNode method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::FindNode method
@@ -13,8 +18,8 @@ Retrieves the [**IContextNode**](icontextnode.md) object for a specified globall
 
 ```C++
 HRESULT FindNode(
-  [in]  const GUID         *pId,
-  [out]       IContextNode **ppContextNodeFound
+  [in]  const GUID         *pId,
+  [out]       IContextNode **ppContextNodeFound
 );
 ```
 
@@ -47,7 +52,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppContextNodeFound* when you no longer need to use the object.
 
- 
+ 
 
 If no such [**IContextNode**](icontextnode.md) object exists as a descendant of the [**IInkAnalyzer**](iinkanalyzer.md) root node, **NULL** is returned.
 
@@ -57,7 +62,7 @@ If no such [**IContextNode**](icontextnode.md) object exists as a descendant of 
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -98,9 +103,9 @@ If no such [**IContextNode**](icontextnode.md) object exists as a descendant of 
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_PhysicalFrame class is a parent class of rack, chassis, and other frame enclosures as they are defined in extension classes.'
+Description: The CIM\_PhysicalFrame class is a parent class of rack, chassis, and other frame enclosures as they are defined in extension classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '571c8ca2-1644-4060-8d89-d9625a591f86'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 571c8ca2-1644-4060-8d89-d9625a591f86
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_PhysicalFrame class'
+title: CIM\_PhysicalFrame class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_PhysicalFrame class
@@ -19,7 +22,7 @@ The **CIM\_PhysicalFrame** class is a parent class of rack, chassis, and other f
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,36 +32,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract, UUID("{FAF76B70-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_PhysicalFrame : CIM_PhysicalPackage
 {
-  boolean  AudibleAlarm;
-  string   BreachDescription;
-  string   CableManagementStrategy;
-  string   Caption;
-  string   CreationClassName;
-  real32   Depth;
-  string   Description;
-  real32   Height;
-  boolean  HotSwappable;
+  boolean  AudibleAlarm;
+  string   BreachDescription;
+  string   CableManagementStrategy;
+  string   Caption;
+  string   CreationClassName;
+  real32   Depth;
+  string   Description;
+  real32   Height;
+  boolean  HotSwappable;
   datetime InstallDate;
-  boolean  LockPresent;
-  string   Manufacturer;
-  string   Model;
-  string   Name;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  boolean  Removable;
-  boolean  Replaceable;
-  uint16   SecurityBreach;
-  string   SerialNumber;
-  string   ServiceDescriptions[];
-  uint16   ServicePhilosophy[];
-  string   SKU;
-  string   Status;
-  string   Tag;
-  string   Version;
-  boolean  VisibleAlarm;
-  real32   Weight;
-  real32   Width;
+  boolean  LockPresent;
+  string   Manufacturer;
+  string   Model;
+  string   Name;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  boolean  Removable;
+  boolean  Replaceable;
+  uint16   SecurityBreach;
+  string   SerialNumber;
+  string   ServiceDescriptions[];
+  uint16   ServicePhilosophy[];
+  string   SKU;
+  string   Status;
+  string   Tag;
+  string   Version;
+  boolean  VisibleAlarm;
+  real32   Weight;
+  real32   Width;
 };
 ```
 
@@ -81,7 +84,7 @@ The **CIM\_PhysicalFrame** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -487,7 +490,7 @@ Free-form strings that provide detailed explanations for entries in the **Servic
 > [!Note]  
 > Each entry of this array is related to the entry in **ServicePhilosophy** array that is located at the same index.
 
- 
+ 
 
 </dd> <dt>
 
@@ -795,8 +798,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -810,9 +813,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalPackage**](cim-physicalpackage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

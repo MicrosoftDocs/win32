@@ -1,7 +1,12 @@
 ---
 title: Custom Draw Reference
 description: This section contains information about the programming elements used for performing custom draw.
-ms.assetid: '1bffccac-7165-4cd6-8189-17b2418df92e'
+ms.assetid: 1bffccac-7165-4cd6-8189-17b2418df92e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Draw Reference
@@ -18,7 +23,7 @@ This section contains information about the programming elements used for perfor
 
 
 
- 
+ 
 
 ### Structures
 
@@ -26,15 +31,15 @@ This section contains information about the programming elements used for perfor
 
 | Topic                                | Contents                                                                                              |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [**NMCUSTOMDRAW**](nmcustomdraw.md) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw.md) notification code.<br/> |
+| [**NMCUSTOMDRAW**](/windows/win32/Commctrl/ns-commctrl-tagnmcustomdrawinfo?branch=master) | Contains information specific to an [NM\_CUSTOMDRAW](nm-customdraw.md) notification code.<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

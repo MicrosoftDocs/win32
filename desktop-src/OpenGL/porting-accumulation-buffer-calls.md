@@ -1,13 +1,23 @@
 ---
 title: Porting Accumulation Buffer Calls
 description: You must allocate your accumulation buffer by requesting the appropriate pixel format with the OpenGL auxInitDisplayMode or ChoosePixelFormat function.
-ms.assetid: '523728ce-4aae-4247-a3dc-23864231cad1'
-keywords: ["IRIS GL porting,accumulation buffers", "porting from IRIS GL,accumulation buffers", "porting to OpenGL from IRIS GL,accumulation buffers", "OpenGL porting from IRIS GL,accumulation buffers", "accumulation buffers OpenGL"]
+ms.assetid: 523728ce-4aae-4247-a3dc-23864231cad1
+keywords:
+- IRIS GL porting,accumulation buffers
+- porting from IRIS GL,accumulation buffers
+- porting to OpenGL from IRIS GL,accumulation buffers
+- OpenGL porting from IRIS GL,accumulation buffers
+- accumulation buffers OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Accumulation Buffer Calls
 
-You must allocate your accumulation buffer by requesting the appropriate pixel format with the OpenGL **auxInitDisplayMode** or [**ChoosePixelFormat**](choosepixelformat.md) function. The following table lists IRIS GL functions that affect the accumulation buffer and their equivalent OpenGL functions.
+You must allocate your accumulation buffer by requesting the appropriate pixel format with the OpenGL **auxInitDisplayMode** or [**ChoosePixelFormat**](/windows/win32/wingdi/nf-wingdi-choosepixelformat?branch=master) function. The following table lists IRIS GL functions that affect the accumulation buffer and their equivalent OpenGL functions.
 
 
 

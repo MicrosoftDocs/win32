@@ -1,14 +1,20 @@
 ---
 title: BUTTON.upToolTip
 description: The upToolTip attribute specifies or retrieves the ToolTip text that appears when the mouse is over the BUTTON and the BUTTON is in the up state.
-ms.assetid: '632248e8-1583-4b49-b06b-7f094e43387d'
-keywords: ["BUTTON.upToolTip Windows Media Player"]
+ms.assetid: 632248e8-1583-4b49-b06b-7f094e43387d
+keywords:
+- BUTTON.upToolTip Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTON.upToolTip
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON.upToolTip
@@ -47,9 +53,9 @@ When this attribute is set to "" (empty string), no ToolTip is displayed.
 [**BUTTON.down**](button-down.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

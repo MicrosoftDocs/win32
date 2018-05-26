@@ -1,8 +1,9 @@
 ---
 title: EM\_CALLAUTOCORRECTPROC message
 description: Calls the autocorrect callback function that is stored by the EM\_SETAUTOCORRECTPROC message, provided that the text preceding the insertion point is a candidate for autocorrection.
-ms.assetid: '93116467-B345-4FD9-9162-3E01CF3C6F20'
-keywords: ["EM_CALLAUTOCORRECTPROC message Windows Controls"]
+ms.assetid: 93116467-B345-4FD9-9162-3E01CF3C6F20
+keywords:
+- EM_CALLAUTOCORRECTPROC message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_CALLAUTOCORRECTPROC message
@@ -31,7 +37,7 @@ Calls the autocorrect callback function that is stored by the [**EM\_SETAUTOCORR
 *wParam* 
 </dt> <dd>
 
-A character of type **WCHAR**. If this character is a tab (U+0009), and the character preceding the insertion point isn’t a tab, then the character preceding the insertion point is treated as part of the autocorrect candidate string instead of as a string delimiter; otherwise, *wParam* has no effect.
+A character of type **WCHAR**. If this character is a tab (U+0009), and the character preceding the insertion point isn t a tab, then the character preceding the insertion point is treated as part of the autocorrect candidate string instead of as a string delimiter; otherwise, *wParam* has no effect.
 
 </dd> <dt>
 
@@ -52,8 +58,8 @@ The return value is zero if the message succeeds, or nonzero if an error occurs.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -62,7 +68,7 @@ The return value is zero if the message succeeds, or nonzero if an error occurs.
 
 <dl> <dt>
 
-[*AutoCorrectProc*](autocorrectproc.md)
+[*AutoCorrectProc*](/windows/win32/Richedit/nc-richedit-autocorrectproc?branch=master)
 </dt> <dt>
 
 [**EM\_GETAUTOCORRECTPROC**](em-getautocorrectproc.md)
@@ -71,9 +77,9 @@ The return value is zero if the message succeeds, or nonzero if an error occurs.
 [**EM\_SETAUTOCORRECTPROC**](em-setautocorrectproc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

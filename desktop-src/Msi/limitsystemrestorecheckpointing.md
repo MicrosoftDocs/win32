@@ -1,7 +1,12 @@
 ---
-Description: 'This per-machine system policy turns off the creation of checkpoints by Windows Installer.'
-ms.assetid: '706d6c85-3876-4205-b7da-b0fd709e65dd'
+Description: This per-machine system policy turns off the creation of checkpoints by Windows Installer.
+ms.assetid: 706d6c85-3876-4205-b7da-b0fd709e65dd
 title: LimitSystemRestoreCheckpointing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LimitSystemRestoreCheckpointing

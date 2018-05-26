@@ -1,7 +1,12 @@
 ---
 title: HTTP Variables
 description: HTTP Variables
-ms.assetid: 'fdda75f9-a7bc-40f4-9087-f12a29bb12f0'
+ms.assetid: fdda75f9-a7bc-40f4-9087-f12a29bb12f0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTP Variables

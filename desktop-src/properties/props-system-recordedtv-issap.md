@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '9fd78517-ba1f-4832-9c1c-31acb16548f7'
-title: 'System.RecordedTV.IsSAP'
+Description: .
+ms.assetid: 9fd78517-ba1f-4832-9c1c-31acb16548f7
+title: System.RecordedTV.IsSAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.IsSAP

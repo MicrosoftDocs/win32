@@ -4,11 +4,14 @@ description: Gets a right that allows protected content to be printed. Same valu
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.EditableDocumentRights.Print'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.EditableDocumentRights.Print
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Print property", "Print property, EditableDocumentRights class", "EditableDocumentRights class, Print property"]
+keywords:
+- Print property
+- Print property, EditableDocumentRights class
+- EditableDocumentRights class, Print property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EditableDocumentRights.Print property
@@ -69,9 +75,9 @@ For more information about the built-in rights and the usage restrictions associ
 [**EditableDocumentRights**](editabledocumentrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

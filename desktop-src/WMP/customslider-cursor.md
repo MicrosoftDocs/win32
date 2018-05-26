@@ -1,14 +1,20 @@
 ---
 title: CUSTOMSLIDER.cursor
 description: The cursor attribute specifies or retrieves the value of the slider control cursor that appears when the mouse is over the slider.
-ms.assetid: '965c21ab-18a0-4459-9d5b-0a35ea2c212f'
-keywords: ["CUSTOMSLIDER.cursor Windows Media Player"]
+ms.assetid: 965c21ab-18a0-4459-9d5b-0a35ea2c212f
+keywords:
+- CUSTOMSLIDER.cursor Windows Media Player
 topic_type:
 - apiref
 api_name:
 - CUSTOMSLIDER.cursor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CUSTOMSLIDER.cursor
@@ -40,7 +46,7 @@ This attribute is a read/write **String**.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +65,9 @@ This attribute is a read/write **String**.
 [**CUSTOMSLIDER Element**](customslider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

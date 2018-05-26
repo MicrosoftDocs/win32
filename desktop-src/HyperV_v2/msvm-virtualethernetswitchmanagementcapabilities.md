@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the capabilities of the associated Msvm\_VirtualEthernetSwitchManagementService.'
-ms.assetid: 'daed7a02-bae8-4bda-abc6-0657df7dc4f8'
-title: 'Msvm\_VirtualEthernetSwitchManagementCapabilities class'
+Description: Describes the capabilities of the associated Msvm\_VirtualEthernetSwitchManagementService.
+ms.assetid: daed7a02-bae8-4bda-abc6-0657df7dc4f8
+title: Msvm\_VirtualEthernetSwitchManagementCapabilities class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_VirtualEthernetSwitchManagementCapabilities class
@@ -16,20 +21,20 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_VirtualEthernetSwitchManagementCapabilities : CIM_VirtualSystemManagementCapabilities
 {
-  string  InstanceID;
-  string  Caption = "Hyper-V Virtual Ethernet Switch Management Service Capabilities";
-  string  Description = "Defines Virtual Ethernet Switch Management Service Capabilities";
-  string  ElementName = "Hyper-V Virtual Ethernet Switch Management Service Capabilities";
+  string  InstanceID;
+  string  Caption = "Hyper-V Virtual Ethernet Switch Management Service Capabilities";
+  string  Description = "Defines Virtual Ethernet Switch Management Service Capabilities";
+  string  ElementName = "Hyper-V Virtual Ethernet Switch Management Service Capabilities";
   boolean ElementNameEditSupported;
-  unit16  MaxElementNameLen;
-  unit16  RequestedStatesSupported[];
-  string  ElementNameMask;
-  string  VirtualSystemTypesSupported[];
-  uint16  SynchronousMethodsSupported[];
-  uint16  AsynchronousMethodsSupported[];
-  uint16  IndicationsSupported[];
+  unit16  MaxElementNameLen;
+  unit16  RequestedStatesSupported[];
+  string  ElementNameMask;
+  string  VirtualSystemTypesSupported[];
+  uint16  SynchronousMethodsSupported[];
+  uint16  AsynchronousMethodsSupported[];
+  uint16  IndicationsSupported[];
   boolean IOVSupport;
-  string  IOVSupportReasons[];
+  string  IOVSupportReasons[];
 };
 ```
 
@@ -256,7 +261,7 @@ An array of indication identifiers, each identifying an indication that is suppo
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -401,17 +406,17 @@ An array of strings, each designating a type of virtual system that the implemen
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

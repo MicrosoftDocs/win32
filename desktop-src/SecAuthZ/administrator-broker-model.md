@@ -1,7 +1,12 @@
 ---
-Description: 'The application is divided into two programs. One of the programs runs as a standard user, and the other runs with administrator privilege.'
-ms.assetid: '1e661915-5797-421d-b96f-72949f441aba'
+Description: The application is divided into two programs. One of the programs runs as a standard user, and the other runs with administrator privilege.
+ms.assetid: 1e661915-5797-421d-b96f-72949f441aba
 title: Administrator Broker Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Administrator Broker Model

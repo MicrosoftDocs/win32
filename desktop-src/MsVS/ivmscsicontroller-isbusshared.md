@@ -1,8 +1,13 @@
 ---
 title: IVMSCSIController IsBusShared property
 description: The IsBusShared property indicates whether the SCSI controller is on a shared SCSI bus.
-ms.assetid: '39a153fc-60cc-4a3d-adb8-93485d11710c'
-keywords: ["IsBusShared property Virtual Server", "IsBusShared property Virtual Server , IVMSCSIController interface", "IVMSCSIController interface Virtual Server , IsBusShared property", "IsBusShared property Virtual Server , VMSCSIController interface", "VMSCSIController interface Virtual Server , IsBusShared property"]
+ms.assetid: 39a153fc-60cc-4a3d-adb8-93485d11710c
+keywords:
+- IsBusShared property Virtual Server
+- IsBusShared property Virtual Server , IVMSCSIController interface
+- IVMSCSIController interface Virtual Server , IsBusShared property
+- IsBusShared property Virtual Server , VMSCSIController interface
+- VMSCSIController interface Virtual Server , IsBusShared property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSCSIController::IsBusShared property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsBusShared(
-  [out] VARIANT_BOOL *isBusShared
+  [out] VARIANT_BOOL *isBusShared
 );
 ```
 
@@ -77,8 +87,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -90,9 +100,9 @@ This property value is read-only.
 [**IVMSCSIController**](ivmscsicontroller.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

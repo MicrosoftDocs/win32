@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '81c89caf-843e-4a87-ac41-099de9174ea6'
-title: 'System.FileCount'
+Description: .
+ms.assetid: 81c89caf-843e-4a87-ac41-099de9174ea6
+title: System.FileCount
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.FileCount

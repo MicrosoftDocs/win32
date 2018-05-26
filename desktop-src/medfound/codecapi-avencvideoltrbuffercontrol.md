@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the maximum number of Long Term Reference (LTR) frames controlled by application.'
-ms.assetid: 'C34AD867-5F94-4414-A282-ECC392678635'
-title: 'CODECAPI\_AVEncVideoLTRBufferControl property'
+Description: Specifies the maximum number of Long Term Reference (LTR) frames controlled by application.
+ms.assetid: C34AD867-5F94-4414-A282-ECC392678635
+title: CODECAPI\_AVEncVideoLTRBufferControl property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CODECAPI\_AVEncVideoLTRBufferControl property
@@ -53,7 +58,7 @@ The value of this control includes two fields, where each field has 16 bits.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,8 +72,8 @@ Default value shall be 0
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -80,9 +85,9 @@ Default value shall be 0
 [Media Foundation Properties](media-foundation-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

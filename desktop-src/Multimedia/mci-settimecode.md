@@ -1,8 +1,9 @@
 ---
 title: MCI\_SETTIMECODE command
 description: The MCI\_SETTIMECODE command enables or disables timecode recording for a VCR. VCR devices recognize this command.
-ms.assetid: 'b014fbe0-de97-4540-a5fe-b22d157361f7'
-keywords: ["MCI_SETTIMECODE command Windows Multimedia"]
+ms.assetid: b014fbe0-de97-4540-a5fe-b22d157361f7
+keywords:
+- MCI_SETTIMECODE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_SETTIMECODE command
 
 The MCI\_SETTIMECODE command enables or disables timecode recording for a VCR. VCR devices recognize this command.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -93,8 +99,8 @@ Timecode recording off.
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -109,9 +115,9 @@ Timecode recording off.
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

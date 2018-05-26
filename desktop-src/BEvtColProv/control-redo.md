@@ -1,15 +1,18 @@
 ---
-Description: 'Reset the active configuration of the collector from the later backup file (determined by going forward from the current original timestamp). If the configuration has been undone, this means redoing the undone change.'
+Description: Reset the active configuration of the collector from the later backup file (determined by going forward from the current original timestamp). If the configuration has been undone, this means redoing the undone change.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'bd153ea3-9148-4e65-a44e-3f9fa1855f2f'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: bd153ea3-9148-4e65-a44e-3f9fa1855f2f
+ms.prod: windows-server-dev
 ms.technology:
-- 'boot-event-collector'
-- 'windows-management-instrumentation'
+- boot-event-collector
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Redo method of the Control class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Redo method of the Control class
@@ -21,16 +24,16 @@ Reset the active configuration of the collector from the later backup file (dete
 
 ```mof
 Uint32 Redo(
-  [in]  Uint32 OldTimestampLow,
-  [in]  Uint32 OldTimestampHigh,
-  [out] Uint32 NewTimestampLow,
-  [out] Uint32 NewTimestampHigh,
-  [out] Uint32 OriginalTimestampLow,
-  [out] Uint32 OriginalTimestampHigh,
-  [out] string ErrorString,
-  [out] string WarningString,
-  [out] string InfoString,
-  [out] uint32 ErrorType
+  [in]  Uint32 OldTimestampLow,
+  [in]  Uint32 OldTimestampHigh,
+  [out] Uint32 NewTimestampLow,
+  [out] Uint32 NewTimestampHigh,
+  [out] Uint32 OriginalTimestampLow,
+  [out] Uint32 OriginalTimestampHigh,
+  [out] string ErrorString,
+  [out] string WarningString,
+  [out] string InfoString,
+  [out] uint32 ErrorType
 );
 ```
 
@@ -180,8 +183,8 @@ Success
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
@@ -195,9 +198,9 @@ Success
 [**Control**](control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

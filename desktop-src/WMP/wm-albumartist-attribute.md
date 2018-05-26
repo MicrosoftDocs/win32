@@ -1,14 +1,20 @@
 ---
 title: WM/AlbumArtist Attribute
 description: The WM/AlbumArtist attribute is the name of the primary artist for the album.
-ms.assetid: '9da02a85-d0cf-41e3-ad5b-08b908315993'
-keywords: ["WM/AlbumArtist Attribute Windows Media Player"]
+ms.assetid: 9da02a85-d0cf-41e3-ad5b-08b908315993
+keywords:
+- WM/AlbumArtist Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - WM/AlbumArtist
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/AlbumArtist Attribute
@@ -49,9 +55,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

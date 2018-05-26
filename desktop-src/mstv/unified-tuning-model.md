@@ -1,7 +1,12 @@
 ---
 title: Unified Tuning Model
 description: The Unified Tuning Model is an API that defines tuning on any type of network, using any kind of compatible device.
-ms.assetid: 'a0f36580-522f-48d6-989d-11e8d175ffdb'
+ms.assetid: a0f36580-522f-48d6-989d-11e8d175ffdb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unified Tuning Model

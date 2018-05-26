@@ -1,7 +1,12 @@
 ---
-Description: 'The ModuleComponents table contains a list of the components found in the merge module.'
-ms.assetid: 'def96d52-c9fa-4fac-b575-f9de8eb82d1c'
+Description: The ModuleComponents table contains a list of the components found in the merge module.
+ms.assetid: def96d52-c9fa-4fac-b575-f9de8eb82d1c
 title: ModuleComponents Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModuleComponents Table

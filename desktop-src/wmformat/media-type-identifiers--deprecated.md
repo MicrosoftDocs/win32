@@ -1,14 +1,20 @@
 ---
 title: Media Type Identifiers
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: '112ffdbe-70c4-45a7-9f62-a3ec1d996b00'
-keywords: ["Media Type Identifiers windows Media Format"]
+ms.assetid: 112ffdbe-70c4-45a7-9f62-a3ec1d996b00
+keywords:
+- Media Type Identifiers windows Media Format
 topic_type:
 - apiref
 api_name:
 - Media Type Identifiers
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Type Identifiers

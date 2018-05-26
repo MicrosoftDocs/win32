@@ -4,11 +4,15 @@ description: The following information describes the Group Policy Management Con
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5996edda-f42c-4345-9912-0fcb1c784d11'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 5996edda-f42c-4345-9912-0fcb1c784d11
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["scripting examples"]
+keywords:
+- scripting examples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Policy Management Console Scripting Samples

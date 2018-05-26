@@ -4,10 +4,13 @@ description: This topic describes the basics of user authentication for your RMS
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '200D9B23-F35D-4165-9AC4-C482A5CE1D28'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 200D9B23-F35D-4165-9AC4-C482A5CE1D28
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Add authentication to your app

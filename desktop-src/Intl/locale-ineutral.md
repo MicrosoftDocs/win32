@@ -1,7 +1,12 @@
 ---
-Description: 'LOCALE\_INEUTRAL'
-ms.assetid: 'd6b42ba8-77e5-427c-9d01-9f2351516fd2'
-title: 'LOCALE\_INEUTRAL'
+Description: LOCALE\_INEUTRAL
+ms.assetid: d6b42ba8-77e5-427c-9d01-9f2351516fd2
+title: LOCALE\_INEUTRAL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LOCALE\_INEUTRAL

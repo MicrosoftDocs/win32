@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one property sheet option on a property sheet page, if the page is described by a COMPROPSHEETUI structure.'
-ms.assetid: '983f9774-d498-473a-bdfb-ec55cc4298cf'
+---
+Description: The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one property sheet option on a property sheet page, if the page is described by a COMPROPSHEETUI structure.
+ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 title: OPTITEM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OPTITEM structure

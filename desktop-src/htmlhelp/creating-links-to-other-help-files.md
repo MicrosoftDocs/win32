@@ -1,7 +1,12 @@
 ---
 title: Creating Links to Other Help Files
 description: Creating Links to Other Help Files
-ms.assetid: '5D2717EE-DD73-487c-8E4F-A3ABC34A67F6'
+ms.assetid: 5D2717EE-DD73-487c-8E4F-A3ABC34A67F6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Links to Other Help Files

@@ -1,8 +1,9 @@
 ---
 title: GetColorProfileHeader function
 description: The GetColorProfileHeader function retrieves or derives ICC header structure from either ICC color profile or WCS XML profile.
-ms.assetid: '7006cae0-0166-4fd9-8bf9-f0f0ed249956'
-keywords: ["GetColorProfileHeader function Windows Color System"]
+ms.assetid: 7006cae0-0166-4fd9-8bf9-f0f0ed249956
+keywords:
+- GetColorProfileHeader function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetColorProfileHeader function
@@ -22,8 +28,8 @@ The **GetColorProfileHeader** function retrieves or derives ICC header structure
 
 ```C++
 BOOL WINAPI GetColorProfileHeader(
-   HPROFILE       hProfile,
-   PPROFILEHEADER pHeader
+   HPROFILE       hProfile,
+   PPROFILEHEADER pHeader
 );
 ```
 
@@ -69,8 +75,8 @@ pIcmProfileHeader-&gt;phCMMType = '1scw' (little endian = big endian 'wcs1').
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -90,9 +96,9 @@ pIcmProfileHeader-&gt;phCMMType = '1scw' (little endian = big endian 'wcs1').
 [**PROFILEHEADER**](profileheader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

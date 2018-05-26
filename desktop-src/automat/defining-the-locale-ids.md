@@ -1,7 +1,12 @@
 ---
 title: Defining the Locale IDs
 description: Demonstrates how to use locale IDs.
-ms.assetid: '3c0fc5fc-90d7-492f-ace4-0c1231bda125'
+ms.assetid: 3c0fc5fc-90d7-492f-ace4-0c1231bda125
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Defining the Locale IDs

@@ -1,7 +1,12 @@
 ---
 title: Windows Hello World Sample
 description: This sample application shows how to create a minimal Windows program.
-ms.assetid: 'ec316ad8-d01d-4558-91b6-19fdbba3d520'
+ms.assetid: ec316ad8-d01d-4558-91b6-19fdbba3d520
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Hello World Sample

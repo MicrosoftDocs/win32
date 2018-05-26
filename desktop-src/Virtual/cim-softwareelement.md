@@ -1,8 +1,10 @@
 ---
 title: CIM\_SoftwareElement class
 description: Represents an individually manageable or deployable part of a CIM\_SoftwareFeature.
-ms.assetid: '4b063534-46ac-455b-9ff1-6cfcb284731e'
-keywords: ["CIM_SoftwareElement class Hyper-V", "CIM_SoftwareElement class Hyper-V , described"]
+ms.assetid: 4b063534-46ac-455b-9ff1-6cfcb284731e
+keywords:
+- CIM_SoftwareElement class Hyper-V
+- CIM_SoftwareElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_SoftwareElement class
@@ -45,26 +52,26 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("2.7.0"), Abstract, AMENDMENT]
 class CIM_SoftwareElement : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   Name;
-  string   Version;
-  uint16   SoftwareElementState;
-  string   SoftwareElementID;
-  uint16   TargetOperatingSystem;
-  string   OtherTargetOS;
-  string   Manufacturer;
-  string   BuildNumber;
-  string   SerialNumber;
-  string   CodeSet;
-  string   IdentificationCode;
-  string   LanguageEdition;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   Name;
+  string   Version;
+  uint16   SoftwareElementState;
+  string   SoftwareElementID;
+  uint16   TargetOperatingSystem;
+  string   OtherTargetOS;
+  string   Manufacturer;
+  string   BuildNumber;
+  string   SerialNumber;
+  string   CodeSet;
+  string   IdentificationCode;
+  string   LanguageEdition;
 };
 ```
 
@@ -364,7 +371,7 @@ Contains indicators of the current status of the element. The first value of the
 > [!Note]  
 > The **OperationalStatus** property replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, we strongly recommend that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status**, because it is a single-valued property, should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -718,7 +725,7 @@ Indicates the primary status of the object.
 > [!Note]  
 > This property is deprecated. It is replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility, it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1562,9 +1569,9 @@ The software version in the format *&lt;Major&gt;*.*&lt;Minor&gt;*.*&lt;Revision
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1577,9 +1584,9 @@ The software version in the format *&lt;Major&gt;*.*&lt;Minor&gt;*.*&lt;Revision
 [**CIM\_LogicalElement**](cim-logicalelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

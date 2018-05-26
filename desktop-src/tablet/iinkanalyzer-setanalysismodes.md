@@ -1,7 +1,12 @@
 ---
-Description: 'Modifies flags that control how the IInkAnalyzer performs ink analysis.'
-ms.assetid: 'cb82edd0-1f15-4313-a286-1fcd715ac6df'
-title: 'IInkAnalyzer::SetAnalysisModes method'
+Description: Modifies flags that control how the IInkAnalyzer performs ink analysis.
+ms.assetid: cb82edd0-1f15-4313-a286-1fcd715ac6df
+title: IInkAnalyzerSetAnalysisModes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::SetAnalysisModes method
@@ -13,7 +18,7 @@ Modifies flags that control how the [**IInkAnalyzer**](iinkanalyzer.md) performs
 
 ```C++
 HRESULT SetAnalysisModes(
-  [in] AnalysisModes analysisMode
+  [in] AnalysisModes analysisMode
 );
 ```
 
@@ -40,7 +45,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -69,9 +74,9 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

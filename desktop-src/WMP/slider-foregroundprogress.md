@@ -1,14 +1,20 @@
 ---
 title: SLIDER.foregroundProgress
 description: The foregroundProgress attribute specifies or retrieves the current position of the foreground progress bar as a percentage of the slider area.
-ms.assetid: '1218ca5a-445c-441b-aa62-74a184a25c2d'
-keywords: ["SLIDER.foregroundProgress Windows Media Player"]
+ms.assetid: 1218ca5a-445c-441b-aa62-74a184a25c2d
+keywords:
+- SLIDER.foregroundProgress Windows Media Player
 topic_type:
 - apiref
 api_name:
 - SLIDER.foregroundProgress
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SLIDER.foregroundProgress
@@ -79,9 +85,9 @@ To use this functionality, the **useForegroundProgress** attribute must be set t
 [**SLIDER.value**](slider-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

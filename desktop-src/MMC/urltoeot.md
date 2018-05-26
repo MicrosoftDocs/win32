@@ -4,11 +4,14 @@ description: The URLtoEOT property returns a null-terminated string that contain
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c6148cf6-243d-4657-80d0-31caaba387b4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: c6148cf6-243d-4657-80d0-31caaba387b4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["URLtoEOT property MMC", "URLtoEOT property MMC , MMCDisplayObject object", "MMCDisplayObject object MMC , URLtoEOT property"]
+keywords:
+- URLtoEOT property MMC
+- URLtoEOT property MMC , MMCDisplayObject object
+- MMCDisplayObject object MMC , URLtoEOT property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCDisplayObject.URLtoEOT property
@@ -57,9 +63,9 @@ For example, the following string specifies that the snap-in DLL (snapin.dll) ha
 
 
 
- 
+ 
 
- 
+ 
 
 
 

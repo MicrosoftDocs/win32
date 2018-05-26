@@ -1,7 +1,12 @@
 ---
-Description: 'The FORMSOF term performs matches using other linguistic forms of the word.'
-ms.assetid: 'b705b8bc-dc2c-4cee-8306-f494b0f96cbf'
+Description: The FORMSOF term performs matches using other linguistic forms of the word.
+ms.assetid: b705b8bc-dc2c-4cee-8306-f494b0f96cbf
 title: FORMSOF Term
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FORMSOF Term

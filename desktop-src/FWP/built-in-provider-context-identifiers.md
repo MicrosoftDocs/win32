@@ -1,7 +1,7 @@
 ---
 title: Built-in Provider Context Identifiers
 description: Built-in provider contexts identify the default policies to use with secure sockets.
-ms.assetid: '439a5abc-08ac-4514-a126-d738e5311003'
+ms.assetid: 439a5abc-08ac-4514-a126-d738e5311003
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Built-in Provider Context Identifiers
@@ -47,15 +52,15 @@ Internet Protocol Security (IPsec) quick mode default policy for secure sockets.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

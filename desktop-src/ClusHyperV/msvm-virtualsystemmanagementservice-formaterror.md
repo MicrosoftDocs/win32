@@ -4,13 +4,16 @@ description: Retrieves a formatted error message for an array of Msvm\_Error ins
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6d177abc-c19c-4e3e-9d0f-a1524c6e6900'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6d177abc-c19c-4e3e-9d0f-a1524c6e6900
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["FormatError method", "FormatError method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, FormatError method"]
+keywords:
+- FormatError method
+- FormatError method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, FormatError method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FormatError method of the Msvm\_VirtualSystemManagementService class
@@ -30,8 +36,8 @@ Retrieves a formatted error message for an array of [**Msvm\_Error**](msvm-error
 
 ```mof
 uint32 FormatError(
-  [in]  string Errors[],
-  [out] string ErrorMessage
+  [in]  string Errors[],
+  [out] string ErrorMessage
 );
 ```
 
@@ -107,7 +113,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -121,9 +127,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between an instance of a metric value and a metric definition.'
-ms.assetid: '4c620a7a-8b15-49ad-ae84-246e2fca175d'
-title: 'CIM\_MetricInstance class'
+Description: Represents an association between an instance of a metric value and a metric definition.
+ms.assetid: 4c620a7a-8b15-49ad-ae84-246e2fca175d
+title: CIM\_MetricInstance class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MetricInstance class
@@ -15,7 +20,7 @@ Represents an association between an instance of a metric value and a metric def
 class CIM_MetricInstance : CIM_Dependency
 {
   CIM_BaseMetricDefinition REF Antecedent;
-  CIM_BaseMetricValue      REF Dependent;
+  CIM_BaseMetricValue      REF Dependent;
 };
 ```
 
@@ -69,8 +74,8 @@ The metric value that is associated with the metric definition.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -84,9 +89,9 @@ The metric value that is associated with the metric definition.
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

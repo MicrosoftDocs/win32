@@ -1,7 +1,12 @@
 ---
-Description: 'Note  For Windows Vista, refer to the example in Managing Queues and Archives.  This Microsoft Visual Basic code example sets several outgoing queue properties.'
-ms.assetid: '64866029-686e-451b-b7b5-33b5235ad307'
+Description: Note  For Windows Vista, refer to the example in Managing Queues and Archives.  This Microsoft Visual Basic code example sets several outgoing queue properties.
+ms.assetid: 64866029-686e-451b-b7b5-33b5235ad307
 title: Setting the Outgoing Queue Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Outgoing Queue Properties

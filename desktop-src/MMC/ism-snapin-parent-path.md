@@ -4,17 +4,21 @@ description: The ISM\_SNAPIN\_PARENT\_PATH clipboard format returns the path to 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '010259d8-9d45-4807-82ae-281aa896c582'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 010259d8-9d45-4807-82ae-281aa896c582
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ISM_SNAPIN_PARENT_PATH clipboard format MMC"]
+keywords:
+- ISM_SNAPIN_PARENT_PATH clipboard format MMC
 topic_type:
 - apiref
 api_name:
 - ISM_SNAPIN_PARENT_PATH
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ISM\_SNAPIN\_PARENT\_PATH clipboard format

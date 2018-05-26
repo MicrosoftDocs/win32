@@ -1,8 +1,9 @@
 ---
 title: PSM\_PRESSBUTTON message
 description: Simulates the selection of a property sheet button. You can send this message explicitly or by using the PropSheet\_PressButton macro.
-ms.assetid: '82a55a29-d916-47ee-b0a0-f685a3a386d9'
-keywords: ["PSM_PRESSBUTTON message Windows Controls"]
+ms.assetid: 82a55a29-d916-47ee-b0a0-f685a3a386d9
+keywords:
+- PSM_PRESSBUTTON message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_PRESSBUTTON message
 
-Simulates the selection of a property sheet button. You can send this message explicitly or by using the [**PropSheet\_PressButton**](propsheet-pressbutton.md) macro.
+Simulates the selection of a property sheet button. You can send this message explicitly or by using the [**PropSheet\_PressButton**](/windows/win32/Prsht/nf-prsht-propsheet_pressbutton?branch=master) macro.
 
 ## Parameters
 
@@ -30,17 +36,17 @@ Index of the button to select. This parameter can be one of the following values
 
 | Value                                                                                                                                                            | Meaning                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="PSBTN_APPLYNOW"></span><span id="psbtn_applynow"></span><dl> <dt>**PSBTN\_APPLYNOW**</dt> </dl> | Selects the **Apply** button. This value is not valid when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).<br/> |
+| <span id="PSBTN_APPLYNOW"></span><span id="psbtn_applynow"></span><dl> <dt>**PSBTN\_APPLYNOW**</dt> </dl> | Selects the **Apply** button. This value is not valid when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).<br/> |
 | <span id="PSBTN_BACK"></span><span id="psbtn_back"></span><dl> <dt>**PSBTN\_BACK**</dt> </dl>             | Selects the **Back** button.<br/>                                                                                                         |
 | <span id="PSBTN_CANCEL"></span><span id="psbtn_cancel"></span><dl> <dt>**PSBTN\_CANCEL**</dt> </dl>       | Selects the **Cancel** button.<br/>                                                                                                       |
 | <span id="PSBTN_FINISH"></span><span id="psbtn_finish"></span><dl> <dt>**PSBTN\_FINISH**</dt> </dl>       | Selects the **Finish** button.<br/>                                                                                                       |
-| <span id="PSBTN_HELP"></span><span id="psbtn_help"></span><dl> <dt>**PSBTN\_HELP**</dt> </dl>             | Selects the **Help** button. This value is not valid when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).<br/>  |
+| <span id="PSBTN_HELP"></span><span id="psbtn_help"></span><dl> <dt>**PSBTN\_HELP**</dt> </dl>             | Selects the **Help** button. This value is not valid when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).<br/>  |
 | <span id="PSBTN_NEXT"></span><span id="psbtn_next"></span><dl> <dt>**PSBTN\_NEXT**</dt> </dl>             | Selects the **Next** button.<br/>                                                                                                         |
-| <span id="PSBTN_OK"></span><span id="psbtn_ok"></span><dl> <dt>**PSBTN\_OK**</dt> </dl>                   | Selects the **OK** button. This value is not valid when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).<br/>    |
+| <span id="PSBTN_OK"></span><span id="psbtn_ok"></span><dl> <dt>**PSBTN\_OK**</dt> </dl>                   | Selects the **OK** button. This value is not valid when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).<br/>    |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -61,15 +67,15 @@ No return value.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

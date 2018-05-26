@@ -1,8 +1,14 @@
 ---
 title: DWRITE\_COLOR\_F
 description: Describes the red, green, blue, and alpha components of a color.
-ms.assetid: 'cf51fa2f-234b-44bd-779f-564d63753dbe'
-keywords: ["DWRITE_COLOR_F"]
+ms.assetid: cf51fa2f-234b-44bd-779f-564d63753dbe
+keywords:
+- DWRITE_COLOR_F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWRITE\_COLOR\_F
@@ -26,9 +32,9 @@ For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/library
 
 |                                     |                                                                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
-| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
+| Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Dwrite\_2.h</dt> </dl>                                                   |
 
 
@@ -40,9 +46,9 @@ For more information, see [**D3DCOLORVALUE**](https://msdn.microsoft.com/library
 [**D3DCOLORVALUE**](https://msdn.microsoft.com/library/windows/desktop/bb172520)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

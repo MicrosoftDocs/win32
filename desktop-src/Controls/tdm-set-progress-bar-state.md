@@ -1,8 +1,9 @@
 ---
 title: TDM\_SET\_PROGRESS\_BAR\_STATE message
 description: Sets the state of the progress bar in a task dialog.
-ms.assetid: '8b0f2ee9-e6ca-4a5b-8687-6e2682eda7d0'
-keywords: ["TDM_SET_PROGRESS_BAR_STATE message Windows Controls"]
+ms.assetid: 8b0f2ee9-e6ca-4a5b-8687-6e2682eda7d0
+keywords:
+- TDM_SET_PROGRESS_BAR_STATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TDM\_SET\_PROGRESS\_BAR\_STATE message
@@ -36,7 +42,7 @@ An **int** that specifies the state of the progress bar. This parameter can be o
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -59,15 +65,15 @@ If the function fails, the return value is zero. To get extended error informati
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

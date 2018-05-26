@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the CurrentPage property for the FaxStatus object of a parent FaxPort object. The CurrentPage property is a number that identifies the current page of an active outbound fax job on a specific port.'
-ms.assetid: '632a8c49-46fa-4736-a273-c6efea5fd0b1'
-title: 'FaxStatus.CurrentPage property'
+---
+Description: Retrieves the CurrentPage property for the FaxStatus object of a parent FaxPort object. The CurrentPage property is a number that identifies the current page of an active outbound fax job on a specific port.
+ms.assetid: 632a8c49-46fa-4736-a273-c6efea5fd0b1
+title: FaxStatus.CurrentPage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.CurrentPage property
@@ -55,16 +60,16 @@ You can use the **CurrentPage** property of a [FaxStatus](-mfax-faxstatus.md) ob
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxStatus**](-mfax-ifaxstatus.md)
+[**IFaxStatus**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxstatus?branch=master)
 </dt> <dt>
 
 [**PageCount**](-mfax-ifaxstatus-get-pagecount-vb.md)
 </dt> <dt>
 
-[**IFaxPorts**](-mfax-ifaxports.md)
+[**IFaxPorts**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxports?branch=master)
 </dt> <dt>
 
-[**IFaxPort**](-mfax-ifaxport.md)
+[**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master)
 </dt> </dl>
 
  

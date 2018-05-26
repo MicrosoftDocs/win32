@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a WLAN profile used by the Native Wifi AutoConfig service.'
-ms.assetid: '8312d213-1d01-4bd0-a8d9-65ca23560888'
-title: 'WLAN\_profile Schema'
+Description: Defines a WLAN profile used by the Native Wifi AutoConfig service.
+ms.assetid: 8312d213-1d01-4bd0-a8d9-65ca23560888
+title: WLAN\_profile Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WLAN\_profile Schema
@@ -10,7 +15,7 @@ The WLAN\_profile Schema defines a WLAN profile used by the Native Wifi AutoConf
 
 The AutoConfig service accepts wireless profiles from the Group Policy Agent, the scripting interface (**netsh**), the user interface, or from the USB flash configuration interface.
 
-A profile received from one of these systems is mapped to the WLAN\_profile schema and stored in the profile store. Profiles can be exported from the profile store using netsh commands or using API elements such as [**WlanGetProfile**](wlangetprofile.md).
+A profile received from one of these systems is mapped to the WLAN\_profile schema and stored in the profile store. Profiles can be exported from the profile store using netsh commands or using API elements such as [**WlanGetProfile**](/windows/win32/wlanapi/nf-wlanapi-wlangetprofile?branch=master).
 
 The root element of a WLAN profile is the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element. Each profile will have exactly one root element. The **WLANProfile** element is in the namespace `http://www.microsoft.com/networking/WLAN/profile/v1`.
 

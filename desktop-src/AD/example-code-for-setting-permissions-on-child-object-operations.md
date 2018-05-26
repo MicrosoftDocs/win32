@@ -4,11 +4,15 @@ description: The following C and C++ code example creates an ACE that assigns cr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '51010092-fa85-4f9c-8869-97fed30acc7f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 51010092-fa85-4f9c-8869-97fed30acc7f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , setting permissions on child object operations"]
+keywords:
+- Active Directory examples Active Directory , setting permissions on child object operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Setting Permissions on Child Object Operations

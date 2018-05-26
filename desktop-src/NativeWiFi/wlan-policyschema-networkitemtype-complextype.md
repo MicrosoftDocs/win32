@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the name and type of a wireless network.'
-ms.assetid: '839afae0-b8e1-489f-8811-19a82c173627'
+---
+Description: Specifies the name and type of a wireless network.
+ms.assetid: 839afae0-b8e1-489f-8811-19a82c173627
 title: networkItemType Complex Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # networkItemType Complex Type

@@ -1,8 +1,24 @@
 ---
 title: Gadgets for Windows Sidebar Manifest
 description: The gadget \ 0034;manifest \ 0034; is an XML file that contains general configuration and presentation information for a gadget.
-ms.assetid: '3f26c22f-f48a-44c7-9313-d9766b75c4d9'
-keywords: ["Windows Sidebar,manifest", "Sidebar,manifest", "gadgets,manifest", "Gadget.xml", "Windows Sidebar,examples", "Sidebar,examples", "gadgets,examples", "Gadget Picker,manifest", "Windows Sidebar,elements", "Sidebar,elements", "gadgets,elements"]
+ms.assetid: 3f26c22f-f48a-44c7-9313-d9766b75c4d9
+keywords:
+- Windows Sidebar,manifest
+- Sidebar,manifest
+- gadgets,manifest
+- Gadget.xml
+- Windows Sidebar,examples
+- Sidebar,examples
+- gadgets,examples
+- Gadget Picker,manifest
+- Windows Sidebar,elements
+- Sidebar,elements
+- gadgets,elements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar Manifest

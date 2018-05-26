@@ -1,8 +1,9 @@
 ---
 title: TBM\_SETRANGEMIN message
 description: Sets the minimum logical position for the slider in a trackbar.
-ms.assetid: '85071be2-4df3-4b54-9122-b6dc767f6cb9'
-keywords: ["TBM_SETRANGEMIN message Windows Controls"]
+ms.assetid: 85071be2-4df3-4b54-9122-b6dc767f6cb9
+keywords:
+- TBM_SETRANGEMIN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_SETRANGEMIN message
@@ -49,8 +55,8 @@ If the current slider position is less than the new minimum, the **TBM\_SETRANGE
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -68,9 +74,9 @@ If the current slider position is less than the new minimum, the **TBM\_SETRANGE
 [**TBM\_SETRANGEMAX**](tbm-setrangemax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

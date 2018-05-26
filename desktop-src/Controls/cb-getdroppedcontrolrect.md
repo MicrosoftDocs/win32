@@ -1,8 +1,9 @@
 ---
 title: CB\_GETDROPPEDCONTROLRECT message
 description: An application sends a CB\_GETDROPPEDCONTROLRECT message to retrieve the screen coordinates of a combo box in its dropped-down state.
-ms.assetid: 'fd8d78c0-e1a8-49c8-9e35-a105d00b863c'
-keywords: ["CB_GETDROPPEDCONTROLRECT message Windows Controls"]
+ms.assetid: fd8d78c0-e1a8-49c8-9e35-a105d00b863c
+keywords:
+- CB_GETDROPPEDCONTROLRECT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CB\_GETDROPPEDCONTROLRECT message
@@ -47,8 +53,8 @@ If the message fails, the return value is zero.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ If the message fails, the return value is zero.
 [**RECT**](https://msdn.microsoft.com/library/windows/desktop/dd162897)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

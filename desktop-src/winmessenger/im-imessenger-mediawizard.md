@@ -1,8 +1,11 @@
 ---
 title: IMessenger MediaWizard method
 description: Launches the Audio and Video Tuning Wizard dialog box.
-ms.assetid: '69dfafd5-ae1a-4e22-88a1-3e1ad52f5fef'
-keywords: ["MediaWizard method Windows Messenger", "MediaWizard method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , MediaWizard method"]
+ms.assetid: 69dfafd5-ae1a-4e22-88a1-3e1ad52f5fef
+keywords:
+- MediaWizard method Windows Messenger
+- MediaWizard method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , MediaWizard method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::MediaWizard method
 
-\[**MediaWizard** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MediaWizard** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches the **Audio and Video Tuning Wizard** dialog box.
 
@@ -24,7 +32,7 @@ Launches the **Audio and Video Tuning Wizard** dialog box.
 
 ```C++
 HRESULT MediaWizard(
-  [in] long hwndParent
+  [in] long hwndParent
 );
 ```
 
@@ -64,7 +72,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -77,7 +85,7 @@ If audio levels have not been set previously on the client, calling [**StartVoic
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -85,17 +93,17 @@ If audio levels have not been set previously on the client, calling [**StartVoic
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

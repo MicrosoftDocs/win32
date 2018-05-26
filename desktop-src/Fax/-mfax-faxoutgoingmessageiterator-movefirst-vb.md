@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MoveFirst method moves the archive cursor to the first fax message in the outbound archive.'
-ms.assetid: '3e9fb244-4e40-4fff-8960-d9760f0b2445'
-title: 'FaxOutgoingMessageIterator.MoveFirst method'
+---
+Description: The MoveFirst method moves the archive cursor to the first fax message in the outbound archive.
+ms.assetid: 3e9fb244-4e40-4fff-8960-d9760f0b2445
+title: FaxOutgoingMessageIterator.MoveFirst method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessageIterator.MoveFirst method
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Remarks
 
-To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md) and **farQUERY\_OUT\_ARCHIVE** access rights.
+To use this method, a user must have the [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) and **farQUERY\_OUT\_ARCHIVE** access rights.
 
 ## Requirements
 
@@ -48,7 +53,7 @@ To use this method, a user must have the [**farSUBMIT\_LOW**](-mfax-fax-access-r
 [**FaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessageIterator**](-mfax-faxoutgoingmessageiterator-cpp.md)
+[**IFaxOutgoingMessageIterator**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessageiterator?branch=master)
 </dt> </dl>
 
  

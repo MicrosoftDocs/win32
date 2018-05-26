@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an external Fibre Channel port.'
-ms.assetid: 'bab3a243-5ebd-43e0-948e-ea8112e09d0a'
-title: 'Msvm\_ExternalFcPort class'
+Description: Represents an external Fibre Channel port.
+ms.assetid: bab3a243-5ebd-43e0-948e-ea8112e09d0a
+title: Msvm\_ExternalFcPort class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ExternalFcPort class
@@ -16,67 +21,67 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ExternalFcPort : CIM_FCPort
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  uint16   EnabledState = 2;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  uint16   AvailableRequestedStates[];
-  uint16   TransitioningToState;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint64   Speed;
-  uint64   MaxSpeed;
-  uint64   RequestedSpeed;
-  uint16   UsageRestriction;
-  uint16   PortType;
-  string   OtherPortType;
-  string   OtherNetworkPortType;
-  uint16   PortNumber;
-  uint16   LinkTechnology;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  string   NetworkAddresses[];
-  boolean  FullDuplex;
-  boolean  AutoSense;
-  uint64   SupportedMaximumTransmissionUnit;
-  uint64   ActiveMaximumTransmissionUnit;
-  uint16   SupportedCOS[];
-  uint16   ActiveCOS[];
-  uint16   SupportedFC4Types[];
-  uint16   ActiveFC4Types[];
-  boolean  IsHyperVCapable;
-  string   WWNN;
-  string   WWPN;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint64   Speed;
+  uint64   MaxSpeed;
+  uint64   RequestedSpeed;
+  uint16   UsageRestriction;
+  uint16   PortType;
+  string   OtherPortType;
+  string   OtherNetworkPortType;
+  uint16   PortNumber;
+  uint16   LinkTechnology;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  string   NetworkAddresses[];
+  boolean  FullDuplex;
+  boolean  AutoSense;
+  uint64   SupportedMaximumTransmissionUnit;
+  uint64   ActiveMaximumTransmissionUnit;
+  uint16   SupportedCOS[];
+  uint16   ActiveCOS[];
+  uint16   SupportedFC4Types[];
+  uint16   ActiveFC4Types[];
+  boolean  IsHyperVCapable;
+  string   WWNN;
+  string   WWPN;
 };
 ```
 
@@ -106,7 +111,7 @@ The **Msvm\_ExternalFcPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -496,7 +501,7 @@ The enabled and disabled states of an element. This property is inherited from [
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1417,17 +1422,17 @@ The world wide port name for this Fibre Channel port.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

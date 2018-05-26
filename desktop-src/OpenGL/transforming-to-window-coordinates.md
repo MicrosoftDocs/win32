@@ -1,8 +1,15 @@
 ---
 title: Transforming to Window Coordinates
 description: Before clip coordinates are converted to window coordinates, they are divided by the value of w to yield normalized device coordinates.
-ms.assetid: '4c2d0bf6-89e8-485a-9080-c0599f989943'
-keywords: ["OpenGL processing pipeline,converting to window coordinates", "converting to window coordinates OpenGL"]
+ms.assetid: 4c2d0bf6-89e8-485a-9080-c0599f989943
+keywords:
+- OpenGL processing pipeline,converting to window coordinates
+- converting to window coordinates OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transforming to Window Coordinates

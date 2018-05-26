@@ -4,10 +4,13 @@ description: Generic Script resources have private properties. Private propertie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bab62d91-a54a-4aa5-a617-b5596df198c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: bab62d91-a54a-4aa5-a617-b5596df198c1
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Generic Script Private Properties
@@ -18,18 +21,18 @@ ms.tgt_platform: multiple
 
 | Property                                                           | Status                                                                                                       |
 |--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [**CommandLine**](generic-scripts-commandline.md)                 | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Required<br/> <br/> |
-| [**CurrentDirectory**](generic-scripts-currentdirectory.md)       | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Required<br/> <br/> |
-| [**InteractWithDesktop**](generic-scripts-interactwithdesktop.md) | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Optional<br/> <br/> |
-| [**UseNetworkName**](generic-scripts-usenetworkname.md)           | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Optional<br/> <br/> |
+| [**CommandLine**](generic-scripts-commandline.md)                 | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Required<br/> <br/> |
+| [**CurrentDirectory**](generic-scripts-currentdirectory.md)       | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Required<br/> <br/> |
+| [**InteractWithDesktop**](generic-scripts-interactwithdesktop.md) | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Optional<br/> <br/> |
+| [**UseNetworkName**](generic-scripts-usenetworkname.md)           | Not supported<br/> **Windows Server 2008 R2 and Windows Server 2008:** Optional<br/> <br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

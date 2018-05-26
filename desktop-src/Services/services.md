@@ -1,7 +1,12 @@
 ---
-Description: 'Create, install, start, stop, and delete services with the service control manager. Use service configuration programs to modify or query the database of installed services.'
-ms.assetid: 'a3af8340-d367-417b-9759-7282edf1d694'
+Description: Create, install, start, stop, and delete services with the service control manager. Use service configuration programs to modify or query the database of installed services.
+ms.assetid: a3af8340-d367-417b-9759-7282edf1d694
 title: Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Services

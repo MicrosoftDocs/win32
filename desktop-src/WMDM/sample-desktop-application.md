@@ -1,8 +1,20 @@
 ---
 title: Sample Desktop Application
 description: Sample Desktop Application
-ms.assetid: '3736dd01-b02f-4056-b19b-0e7cc6c9aa67'
-keywords: ["Windows Media Device Manager,samples", "Device Manager,samples", "desktop applications,samples", "Windows Media Device Manager,desktop application sample", "Device Manager,desktop application sample", "wmdmapp sample application", "samples,desktop applications"]
+ms.assetid: 3736dd01-b02f-4056-b19b-0e7cc6c9aa67
+keywords:
+- Windows Media Device Manager,samples
+- Device Manager,samples
+- desktop applications,samples
+- Windows Media Device Manager,desktop application sample
+- Device Manager,desktop application sample
+- wmdmapp sample application
+- samples,desktop applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Desktop Application

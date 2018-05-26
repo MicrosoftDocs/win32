@@ -1,8 +1,16 @@
 ---
 title: Bluetooth and getpeername
 description: Used to retrieve the Bluetooth address of the peer Bluetooth device.
-ms.assetid: 'e064214c-1899-4d17-a426-dd4230385b07'
-keywords: ["Bluetooth Bluetooth", "getpeername Bluetooth", "Bluetooth and getpeername Bluetooth"]
+ms.assetid: e064214c-1899-4d17-a426-dd4230385b07
+keywords:
+- Bluetooth Bluetooth
+- getpeername Bluetooth
+- Bluetooth and getpeername Bluetooth
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bluetooth and getpeername

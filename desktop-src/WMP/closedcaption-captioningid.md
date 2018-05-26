@@ -1,8 +1,9 @@
 ---
 title: ClosedCaption.captioningID
 description: The captioningID property specifies or retrieves the name of the element displaying the captioning.
-ms.assetid: '99d4aae3-485f-4c86-9130-101b1ca968e9'
-keywords: ["ClosedCaption.captioningID Windows Media Player"]
+ms.assetid: 99d4aae3-485f-4c86-9130-101b1ca968e9
+keywords:
+- ClosedCaption.captioningID Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ClosedCaption.captioningID
@@ -81,9 +87,9 @@ The following Microsoft JScript example uses *ClosedCaption*.**captioningID** to
 [**ClosedCaption Object**](closedcaption-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

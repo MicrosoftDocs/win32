@@ -1,7 +1,12 @@
 ---
-Description: 'Each event can have event-specific data associated with it.'
-ms.assetid: 'fa2f9e71-44c3-4569-bde4-24112a756664'
+Description: Each event can have event-specific data associated with it.
+ms.assetid: fa2f9e71-44c3-4569-bde4-24112a756664
 title: Event Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Event Data

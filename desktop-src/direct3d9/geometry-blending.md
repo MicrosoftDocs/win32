@@ -1,7 +1,12 @@
 ---
-Description: 'Direct3D enables an application to increase the realism of its scenes by rendering segmented polygonal objects - especially characters - that have smoothly blended joints.'
-ms.assetid: '190d5865-c45b-42ea-8a16-10a4f0bda743'
-title: 'Geometry Blending (Direct3D 9)'
+Description: Direct3D enables an application to increase the realism of its scenes by rendering segmented polygonal objects - especially characters - that have smoothly blended joints.
+ms.assetid: 190d5865-c45b-42ea-8a16-10a4f0bda743
+title: Geometry Blending (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Geometry Blending (Direct3D 9)
@@ -63,7 +68,7 @@ Geometry blending in Direct3D presents an alternative to the classic segmented-m
 
 ## Blending Transform and Render States
 
-The [**IDirect3DDevice9::SetTransform**](idirect3ddevice9--settransform.md) method recognizes the [**D3DTS\_WORLD**](d3dts-world.md) and [**D3DTS\_WORLDn**](d3dts-worldn.md) macros, which correspond to values that can be defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro. These macros are used to identify the matrices between which geometry will be blended.
+The [**IDirect3DDevice9::SetTransform**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settransform?branch=master) method recognizes the [**D3DTS\_WORLD**](d3dts-world.md) and [**D3DTS\_WORLDn**](d3dts-worldn.md) macros, which correspond to values that can be defined by the [**D3DTS\_WORLDMATRIX**](d3dts-worldmatrix.md) macro. These macros are used to identify the matrices between which geometry will be blended.
 
 The [**D3DRENDERSTATETYPE**](direct3d9.d3drenderstatetype) enumerated type includes the D3DRS\_VERTEXBLEND render state to enable and control geometry blending. Valid values for this render state are defined by the [**D3DVERTEXBLENDFLAGS**](direct3d9.d3dvertexblendflags) enumerated type. If geometry blending is enabled, the vertex format must include the appropriate number of blending weights.
 

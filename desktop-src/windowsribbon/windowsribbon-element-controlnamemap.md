@@ -1,14 +1,20 @@
 ---
 title: ControlNameMap element
 description: Represents a container for control names in a custom SizeDefinition layout template.
-ms.assetid: 'b4bceb90-a9a3-42d7-a85b-bf6e4e02784b'
-keywords: ["ControlNameMap element Windows Ribbon"]
+ms.assetid: b4bceb90-a9a3-42d7-a85b-bf6e4e02784b
+keywords:
+- ControlNameMap element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ControlNameMap
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlNameMap element
@@ -151,7 +157,7 @@ The following code example demonstrates the basic markup for a custom four-butto
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -163,9 +169,9 @@ The following code example demonstrates the basic markup for a custom four-butto
 [Customizing a Ribbon Through Size Definitions and Scaling Policies](windowsribbon-templates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

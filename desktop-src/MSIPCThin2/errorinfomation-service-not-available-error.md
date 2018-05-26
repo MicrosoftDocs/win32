@@ -4,11 +4,14 @@ description: HTTP status 404 returned when contacting Active Directory Rights Ma
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ErrorInfomation.SERVICE\_NOT\_AVAILABLE\_ERROR'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ErrorInfomation.SERVICE\_NOT\_AVAILABLE\_ERROR
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["SERVICE_NOT_AVAILABLE_ERROR property", "SERVICE_NOT_AVAILABLE_ERROR property, ErrorInfomation class", "ErrorInfomation class, SERVICE_NOT_AVAILABLE_ERROR property"]
+keywords:
+- SERVICE_NOT_AVAILABLE_ERROR property
+- SERVICE_NOT_AVAILABLE_ERROR property, ErrorInfomation class
+- ErrorInfomation class, SERVICE_NOT_AVAILABLE_ERROR property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ErrorInfomation.SERVICE\_NOT\_AVAILABLE\_ERROR property
@@ -61,9 +67,9 @@ static property ErrorInfomation SERVICE_NOT_AVAILABLE_ERROR {
 [**ErrorInfomation**](errorinfomation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

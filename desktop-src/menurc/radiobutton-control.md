@@ -1,14 +1,20 @@
 ---
 title: RADIOBUTTON control
 description: Defines a radio-button control.
-ms.assetid: 'af843084-5213-4934-b291-0787b88ef62d'
-keywords: ["RADIOBUTTON control Menus and Other Resources"]
+ms.assetid: af843084-5213-4934-b291-0787b88ef62d
+keywords:
+- RADIOBUTTON control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - RADIOBUTTON
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RADIOBUTTON control

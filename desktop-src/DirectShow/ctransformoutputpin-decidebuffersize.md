@@ -1,7 +1,12 @@
 ---
-Description: 'The DecideBufferSize method sets the buffer requirements.'
-ms.assetid: 'cdf9e384-623e-46a6-b123-d881fe21fb09'
-title: 'CTransformOutputPin.DecideBufferSize method'
+Description: The DecideBufferSize method sets the buffer requirements.
+ms.assetid: cdf9e384-623e-46a6-b123-d881fe21fb09
+title: CTransformOutputPin.DecideBufferSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransformOutputPin.DecideBufferSize method
@@ -13,8 +18,8 @@ The `DecideBufferSize` method sets the buffer requirements.
 
 ```C++
 HRESULT DecideBufferSize(
-   IMemAllocator        *pAlloc,
-   ALLOCATOR_PROPERTIES *ppropInputRequest
+   IMemAllocator        *pAlloc,
+   ALLOCATOR_PROPERTIES *ppropInputRequest
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT DecideBufferSize(
 *pAlloc* 
 </dt> <dd>
 
-Pointer to the allocator's [**IMemAllocator**](imemallocator.md) interface.
+Pointer to the allocator's [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 </dd> <dt>
 
 *ppropInputRequest* 
 </dt> <dd>
 
-Pointer an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that contains the input pin's buffer requirements.
+Pointer an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that contains the input pin's buffer requirements.
 
 </dd> </dl>
 
@@ -57,9 +62,9 @@ This method overrides the [**CBaseOutputPin::DecideBufferSize**](cbaseoutputpin-
 
 
 
- 
+ 
 
- 
+ 
 
 
 

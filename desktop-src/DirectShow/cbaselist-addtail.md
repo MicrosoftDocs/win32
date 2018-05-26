@@ -1,7 +1,12 @@
 ---
-Description: 'The AddTail method appends another list to the end of this list.'
-ms.assetid: '996523cd-d9ba-406a-afdf-494d328dc9dd'
-title: 'CBaseList.AddTail method'
+Description: The AddTail method appends another list to the end of this list.
+ms.assetid: 996523cd-d9ba-406a-afdf-494d328dc9dd
+title: CBaseList.AddTail method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.AddTail method
@@ -13,7 +18,7 @@ The `AddTail` method appends another list to the end of this list.
 
 ```C++
 BOOL AddTail(
-   CBaseList *pList
+   CBaseList *pList
 );
 ```
 
@@ -56,9 +61,9 @@ If the method fails, some items may have been added to the list.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

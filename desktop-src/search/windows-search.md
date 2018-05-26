@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Search is a desktop search platform that has instant search capabilities for most common file and data types such as email, contacts, calendar appointments, documents, photos, multimedia, and other formats that can be extended by third party developers. These capabilities enable users to find, manage, and organize the increasing amount of data common in home and enterprise environments.'
-ms.assetid: '6e8ab091-c22c-4425-b8b9-211d53816304'
+Description: Windows Search is a desktop search platform that has instant search capabilities for most common file and data types such as email, contacts, calendar appointments, documents, photos, multimedia, and other formats that can be extended by third party developers. These capabilities enable users to find, manage, and organize the increasing amount of data common in home and enterprise environments.
+ms.assetid: 6e8ab091-c22c-4425-b8b9-211d53816304
 title: Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Search

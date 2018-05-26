@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains an example that demonstrates the following tasks:'
-ms.assetid: '61db38d7-9371-4ff1-b96b-1bed4c2a2749'
+Description: This section contains an example that demonstrates the following tasks
+ms.assetid: 61db38d7-9371-4ff1-b96b-1bed4c2a2749
 title: Using Coordinate Spaces and Transformations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Coordinate Spaces and Transformations

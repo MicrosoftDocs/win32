@@ -4,12 +4,15 @@ description: Nlb.wsf is an XML-compliant Windows Script Host (WSH) script that c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '13f582e4-8024-4535-aa44-d61eb06af65b'
-ms.prod: 'windows-server-dev'
+ms.assetid: 13f582e4-8024-4535-aa44-d61eb06af65b
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Nlb.wsf

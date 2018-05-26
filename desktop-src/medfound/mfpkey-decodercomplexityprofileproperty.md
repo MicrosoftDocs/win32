@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the complexity profile of the encoded content.'
-ms.assetid: '2e238d31-98b2-4c79-96b0-9e6949010a73'
-title: 'MFPKEY\_DECODERCOMPLEXITYPROFILE Property'
+---
+Description: Specifies the complexity profile of the encoded content.
+ms.assetid: 2e238d31-98b2-4c79-96b0-9e6949010a73
+title: MFPKEY\_DECODERCOMPLEXITYPROFILE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_DECODERCOMPLEXITYPROFILE Property

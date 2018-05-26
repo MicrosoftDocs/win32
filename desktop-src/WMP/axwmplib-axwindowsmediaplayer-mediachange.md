@@ -1,8 +1,9 @@
 ---
 title: MediaChange Event of the AxWindowsMediaPlayer Object
 description: The MediaChange event occurs when a media item changes.
-ms.assetid: '0a2380ff-df50-4092-a952-812184822719'
-keywords: ["MediaChange Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 0a2380ff-df50-4092-a952-812184822719
+keywords:
+- MediaChange Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaChange Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Med
 
 
 
- 
+ 
 
 ## Examples
 
@@ -114,9 +120,9 @@ End Sub</code></pre></td>
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This section discusses Windows messages and message queues.'
-ms.assetid: '21a4d40b-52da-49e4-a374-afc4927e96e8'
+Description: This section discusses Windows messages and message queues.
+ms.assetid: 21a4d40b-52da-49e4-a374-afc4927e96e8
 title: About Messages and Message Queues
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Messages and Message Queues
@@ -135,15 +140,15 @@ Whenever the user moves the mouse, clicks the mouse buttons, or types on the key
 
 With the exception of the [**WM\_PAINT**](https://msdn.microsoft.com/library/windows/desktop/dd145213) message, the [**WM\_TIMER**](wm-timer.md) message, and the [**WM\_QUIT**](wm-quit.md) message, the system always posts messages at the end of a message queue. This ensures that a window receives its input messages in the proper first in, first out (FIFO) sequence. The **WM\_PAINT** message, the **WM\_TIMER** message, and the **WM\_QUIT** message, however, are kept in the queue and are forwarded to the window procedure only when the queue contains no other messages. In addition, multiple **WM\_PAINT** messages for the same window are combined into a single **WM\_PAINT** message, consolidating all invalid parts of the client area into a single area. Combining **WM\_PAINT** messages reduces the number of times a window must redraw the contents of its client area.
 
-The system posts a message to a thread's message queue by filling an [**MSG**](msg.md) structure and then copying it to the message queue. Information in **MSG** includes: the handle of the window for which the message is intended, the message identifier, the two message parameters, the time the message was posted, and the mouse cursor position. A thread can post a message to its own message queue or to the queue of another thread by using the [**PostMessage**](postmessage.md) or [**PostThreadMessage**](postthreadmessage.md) function.
+The system posts a message to a thread's message queue by filling an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure and then copying it to the message queue. Information in **MSG** includes: the handle of the window for which the message is intended, the message identifier, the two message parameters, the time the message was posted, and the mouse cursor position. A thread can post a message to its own message queue or to the queue of another thread by using the [**PostMessage**](postmessage.md) or [**PostThreadMessage**](postthreadmessage.md) function.
 
-An application can remove a message from its queue by using the [**GetMessage**](getmessage.md) function. To examine a message without removing it from its queue, an application can use the [**PeekMessage**](peekmessage.md) function. This function fills [**MSG**](msg.md) with information about the message.
+An application can remove a message from its queue by using the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function. To examine a message without removing it from its queue, an application can use the [**PeekMessage**](peekmessage.md) function. This function fills [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) with information about the message.
 
-After removing a message from its queue, an application can use the [**DispatchMessage**](dispatchmessage.md) function to direct the system to send the message to a window procedure for processing. **DispatchMessage** takes a pointer to [**MSG**](msg.md) that was filled by a previous call to the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function. **DispatchMessage** passes the window handle, the message identifier, and the two message parameters to the window procedure, but it does not pass the time the message was posted or mouse cursor position. An application can retrieve this information by calling the [**GetMessageTime**](getmessagetime.md) and [**GetMessagePos**](getmessagepos.md) functions while processing a message.
+After removing a message from its queue, an application can use the [**DispatchMessage**](dispatchmessage.md) function to direct the system to send the message to a window procedure for processing. **DispatchMessage** takes a pointer to [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) that was filled by a previous call to the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function. **DispatchMessage** passes the window handle, the message identifier, and the two message parameters to the window procedure, but it does not pass the time the message was posted or mouse cursor position. An application can retrieve this information by calling the [**GetMessageTime**](getmessagetime.md) and [**GetMessagePos**](getmessagepos.md) functions while processing a message.
 
 A thread can use the [**WaitMessage**](waitmessage.md) function to yield control to other threads when it has no messages in its message queue. The function suspends the thread and does not return until a new message is placed in the thread's message queue.
 
-You can call the [**SetMessageExtraInfo**](setmessageextrainfo.md) function to associate a value with the current thread's message queue. Then call the [**GetMessageExtraInfo**](getmessageextrainfo.md) function to get the value associated with the last message retrieved by the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function.
+You can call the [**SetMessageExtraInfo**](setmessageextrainfo.md) function to associate a value with the current thread's message queue. Then call the [**GetMessageExtraInfo**](getmessageextrainfo.md) function to get the value associated with the last message retrieved by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function.
 
 ### Nonqueued Messages
 
@@ -160,7 +165,7 @@ An application must remove and process messages posted to the message queues of 
 
 ### Message Loop
 
-A simple message loop consists of one function call to each of these three functions: [**GetMessage**](getmessage.md), [**TranslateMessage**](translatemessage.md), and [**DispatchMessage**](dispatchmessage.md). Note that if there is an error, **GetMessage** returns –1, thus the need for the special testing.
+A simple message loop consists of one function call to each of these three functions: [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master), [**TranslateMessage**](translatemessage.md), and [**DispatchMessage**](dispatchmessage.md). Note that if there is an error, **GetMessage** returns –1, thus the need for the special testing.
 
 
 ```
@@ -183,19 +188,19 @@ while( (bRet = GetMessage( &amp;msg, NULL, 0, 0 )) != 0)
 
 
 
-The [**GetMessage**](getmessage.md) function retrieves a message from the queue and copies it to a structure of type [**MSG**](msg.md). It returns a nonzero value, unless it encounters the [**WM\_QUIT**](wm-quit.md) message, in which case it returns **FALSE** and ends the loop. In a single-threaded application, ending the message loop is often the first step in closing the application. An application can end its own loop by using the [**PostQuitMessage**](postquitmessage.md) function, typically in response to the [**WM\_DESTROY**](wm-destroy.md) message in the window procedure of the application's main window.
+The [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function retrieves a message from the queue and copies it to a structure of type [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master). It returns a nonzero value, unless it encounters the [**WM\_QUIT**](wm-quit.md) message, in which case it returns **FALSE** and ends the loop. In a single-threaded application, ending the message loop is often the first step in closing the application. An application can end its own loop by using the [**PostQuitMessage**](postquitmessage.md) function, typically in response to the [**WM\_DESTROY**](wm-destroy.md) message in the window procedure of the application's main window.
 
-If you specify a window handle as the second parameter of [**GetMessage**](getmessage.md), only messages for the specified window are retrieved from the queue. **GetMessage** can also filter messages in the queue, retrieving only those messages that fall within a specified range. For more information about filtering messages, see [Message Filtering](#message-filtering).
+If you specify a window handle as the second parameter of [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master), only messages for the specified window are retrieved from the queue. **GetMessage** can also filter messages in the queue, retrieving only those messages that fall within a specified range. For more information about filtering messages, see [Message Filtering](#message-filtering).
 
 A thread's message loop must include [**TranslateMessage**](translatemessage.md) if the thread is to receive character input from the keyboard. The system generates virtual-key messages ([**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) and [**WM\_KEYUP**](https://msdn.microsoft.com/library/windows/desktop/ms646281)) each time the user presses a key. A virtual-key message contains a virtual-key code that identifies which key was pressed, but not its character value. To retrieve this value, the message loop must contain **TranslateMessage**, which translates the virtual-key message into a character message ([**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276)) and places it back into the application message queue. The character message can then be removed upon a subsequent iteration of the message loop and dispatched to a window procedure.
 
-The [**DispatchMessage**](dispatchmessage.md) function sends a message to the window procedure associated with the window handle specified in the [**MSG**](msg.md) structure. If the window handle is **HWND\_TOPMOST**, **DispatchMessage** sends the message to the window procedures of all top-level windows in the system. If the window handle is **NULL**, **DispatchMessage** does nothing with the message.
+The [**DispatchMessage**](dispatchmessage.md) function sends a message to the window procedure associated with the window handle specified in the [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure. If the window handle is **HWND\_TOPMOST**, **DispatchMessage** sends the message to the window procedures of all top-level windows in the system. If the window handle is **NULL**, **DispatchMessage** does nothing with the message.
 
-An application's main thread starts its message loop after initializing the application and creating at least one window. After it is started, the message loop continues to retrieve messages from the thread's message queue and to dispatch them to the appropriate windows. The message loop ends when the [**GetMessage**](getmessage.md) function removes the [**WM\_QUIT**](wm-quit.md) message from the message queue.
+An application's main thread starts its message loop after initializing the application and creating at least one window. After it is started, the message loop continues to retrieve messages from the thread's message queue and to dispatch them to the appropriate windows. The message loop ends when the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function removes the [**WM\_QUIT**](wm-quit.md) message from the message queue.
 
-Only one message loop is needed for a message queue, even if an application contains many windows. [**DispatchMessage**](dispatchmessage.md) always dispatches the message to the proper window; this is because each message in the queue is an [**MSG**](msg.md) structure that contains the handle of the window to which the message belongs.
+Only one message loop is needed for a message queue, even if an application contains many windows. [**DispatchMessage**](dispatchmessage.md) always dispatches the message to the proper window; this is because each message in the queue is an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure that contains the handle of the window to which the message belongs.
 
-You can modify a message loop in a variety of ways. For example, you can retrieve messages from the queue without dispatching them to a window. This is useful for applications that post messages not specifying a window. You can also direct [**GetMessage**](getmessage.md) to search for specific messages, leaving other messages in the queue. This is useful if you must temporarily bypass the usual FIFO order of the message queue.
+You can modify a message loop in a variety of ways. For example, you can retrieve messages from the queue without dispatching them to a window. This is useful for applications that post messages not specifying a window. You can also direct [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) to search for specific messages, leaving other messages in the queue. This is useful if you must temporarily bypass the usual FIFO order of the message queue.
 
 An application that uses accelerator keys must be able to translate keyboard messages into command messages. To do this, the application's message loop must include a call to the [**TranslateAccelerator**](https://msdn.microsoft.com/library/windows/desktop/ms646373) function. For more information about accelerator keys, see [Keyboard Accelerators](https://msdn.microsoft.com/library/windows/desktop/ms645526).
 
@@ -213,11 +218,11 @@ Because a window procedure is shared by all windows belonging to the same class,
 
 ## Message Filtering
 
-An application can choose specific messages to retrieve from the message queue (while ignoring other messages) by using the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function to specify a message filter. The filter is a range of message identifiers (specified by a first and last identifier), a window handle, or both. **GetMessage** and **PeekMessage** use a message filter to select which messages to retrieve from the queue. Message filtering is useful if an application must search the message queue for messages that have arrived later in the queue. It is also useful if an application must process input (hardware) messages before processing posted messages.
+An application can choose specific messages to retrieve from the message queue (while ignoring other messages) by using the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function to specify a message filter. The filter is a range of message identifiers (specified by a first and last identifier), a window handle, or both. **GetMessage** and **PeekMessage** use a message filter to select which messages to retrieve from the queue. Message filtering is useful if an application must search the message queue for messages that have arrived later in the queue. It is also useful if an application must process input (hardware) messages before processing posted messages.
 
 The **WM\_KEYFIRST** and **WM\_KEYLAST** constants can be used as filter values to retrieve all keyboard messages; the **WM\_MOUSEFIRST** and **WM\_MOUSELAST** constants can be used to retrieve all mouse messages.
 
-Any application that filters messages must ensure that a message satisfying the message filter can be posted. For example, if an application filters for a [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) message in a window that does not receive keyboard input, the [**GetMessage**](getmessage.md) function does not return. This effectively "hangs" the application.
+Any application that filters messages must ensure that a message satisfying the message filter can be posted. For example, if an application filters for a [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276) message in a window that does not receive keyboard input, the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) function does not return. This effectively "hangs" the application.
 
 ## Posting and Sending Messages
 
@@ -225,7 +230,7 @@ Any application can post and send messages. Like the system, an application post
 
 ### Posting Messages
 
-An application typically posts a message to notify a specific window to perform a task. [**PostMessage**](postmessage.md) creates an [**MSG**](msg.md) structure for the message and copies the message to the message queue. The application's message loop eventually retrieves the message and dispatches it to the appropriate window procedure.
+An application typically posts a message to notify a specific window to perform a task. [**PostMessage**](postmessage.md) creates an [**MSG**](/windows/win32/Winuser/nf-engextcpp-ext_status_emsg?branch=master) structure for the message and copies the message to the message queue. The application's message loop eventually retrieves the message and dispatches it to the appropriate window procedure.
 
 An application can post a message without specifying a window. If the application supplies a **NULL** window handle when calling [**PostMessage**](postmessage.md), the message is posted to the queue associated with the current thread. Because no window handle is specified, the application must process the message in the message loop. This is one way to create a message that applies to the entire application, instead of to a specific window.
 
@@ -253,7 +258,7 @@ Note that the receiving thread need not yield control explicitly; calling any of
 -   [**DialogBoxIndirect**](https://msdn.microsoft.com/library/windows/desktop/ms645457)
 -   [**DialogBoxIndirectParam**](https://msdn.microsoft.com/library/windows/desktop/ms645461)
 -   [**DialogBoxParam**](https://msdn.microsoft.com/library/windows/desktop/ms645465)
--   [**GetMessage**](getmessage.md)
+-   [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master)
 -   [**MessageBox**](https://msdn.microsoft.com/library/windows/desktop/ms645505)
 -   [**PeekMessage**](peekmessage.md)
 -   [**SendMessage**](sendmessage.md)

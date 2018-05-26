@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the ElapsedTime property for the FaxStatus object of a parent FaxPort object. The ElapsedTime property is a number that represents the elapsed time for an active fax job.'
-ms.assetid: 'c0358eec-dcd2-442f-8627-ac235484d23e'
-title: 'FaxStatus.ElapsedTime property'
+---
+Description: Retrieves the ElapsedTime property for the FaxStatus object of a parent FaxPort object. The ElapsedTime property is a number that represents the elapsed time for an active fax job.
+ms.assetid: c0358eec-dcd2-442f-8627-ac235484d23e
+title: FaxStatus.ElapsedTime property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxStatus.ElapsedTime property

@@ -1,8 +1,9 @@
 ---
 title: LB\_SELITEMRANGEEX message
 description: Selects one or more consecutive items in a multiple-selection list box.
-ms.assetid: 'aac85d72-43e2-4ab0-b9ee-c7a87e21d7a1'
-keywords: ["LB_SELITEMRANGEEX message Windows Controls"]
+ms.assetid: aac85d72-43e2-4ab0-b9ee-c7a87e21d7a1
+keywords:
+- LB_SELITEMRANGEEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LB\_SELITEMRANGEEX message
@@ -26,7 +32,7 @@ Selects one or more consecutive items in a multiple-selection list box.
 
 Specifies the zero-based index of the first item to select.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
 </dd> <dt>
 
@@ -55,8 +61,8 @@ This message can select a range only within the first 65,536 items.
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ This message can select a range only within the first 65,536 items.
 [**LB\_SETSEL**](lb-setsel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

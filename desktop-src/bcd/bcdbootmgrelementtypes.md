@@ -1,14 +1,20 @@
 ---
 title: BcdBootMgrElementTypes enumeration
 description: Specifies the boot manager element types. For more details on the layout of this enumeration, see BcdElementType.
-ms.assetid: 'e7c42cef-85f2-4f40-9aee-cf51f49ae030'
-keywords: ["BcdBootMgrElementTypes enumeration Boot Config"]
+ms.assetid: e7c42cef-85f2-4f40-9aee-cf51f49ae030
+keywords:
+- BcdBootMgrElementTypes enumeration Boot Config
 topic_type:
 - apiref
 api_name:
 - BcdBootMgrElementTypes
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BcdBootMgrElementTypes enumeration
@@ -20,20 +26,20 @@ Specifies the boot manager element types. For more details on the layout of this
 
 ```C++
 typedef enum BcdBootMgrElementTypes { 
-  BcdBootMgrObjectList_DisplayOrder            = 0x24000001,
-  BcdBootMgrObjectList_BootSequence            = 0x24000002,
-  BcdBootMgrObject_DefaultObject               = 0x23000003,
-  BcdBootMgrInteger_Timeout                    = 0x25000004,
-  BcdBootMgrBoolean_AttemptResume              = 0x26000005,
-  BcdBootMgrObject_ResumeObject                = 0x23000006,
-  BcdBootMgrObjectList_ToolsDisplayOrder       = 0x24000010,
-  BcdBootMgrBoolean_DisplayBootMenu            = 0x26000020,
-  BcdBootMgrBoolean_NoErrorDisplay             = 0x26000021,
-  BcdBootMgrDevice_BcdDevice                   = 0x21000022,
-  BcdBootMgrString_BcdFilePath                 = 0x22000023,
-  BcdBootMgrBoolean_ProcessCustomActionsFirst  = 0x26000028,
-  BcdBootMgrIntegerList_CustomActionsList      = 0x27000030,
-  BcdBootMgrBoolean_PersistBootSequence        = 0x26000031
+  BcdBootMgrObjectList_DisplayOrder            = 0x24000001,
+  BcdBootMgrObjectList_BootSequence            = 0x24000002,
+  BcdBootMgrObject_DefaultObject               = 0x23000003,
+  BcdBootMgrInteger_Timeout                    = 0x25000004,
+  BcdBootMgrBoolean_AttemptResume              = 0x26000005,
+  BcdBootMgrObject_ResumeObject                = 0x23000006,
+  BcdBootMgrObjectList_ToolsDisplayOrder       = 0x24000010,
+  BcdBootMgrBoolean_DisplayBootMenu            = 0x26000020,
+  BcdBootMgrBoolean_NoErrorDisplay             = 0x26000021,
+  BcdBootMgrDevice_BcdDevice                   = 0x21000022,
+  BcdBootMgrString_BcdFilePath                 = 0x22000023,
+  BcdBootMgrBoolean_ProcessCustomActionsFirst  = 0x26000028,
+  BcdBootMgrIntegerList_CustomActionsList      = 0x27000030,
+  BcdBootMgrBoolean_PersistBootSequence        = 0x26000031
 } BcdBootMgrElementTypes;
 ```
 
@@ -129,7 +135,7 @@ The boot application. The element data format is [**BcdStringElement**](bcdstrin
 
 Controls whether custom actions are processed before a boot sequence. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> <dt>
 
@@ -145,7 +151,7 @@ For more information see [Custom Bootstrap Actions in Windows Vista](http://go.m
 
 Controls whether a boot sequence persists across multiple boots. The element data format is [**BcdBooleanElement**](bcdbooleanelement.md).
 
-**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
+**Note**  This value is supported starting in Windows 8 and Windows Server 2012.
 
 </dd> </dl>
 
@@ -155,8 +161,8 @@ Controls whether a boot sequence persists across multiple boots. The element dat
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -182,9 +188,9 @@ Controls whether a boot sequence persists across multiple boots. The element dat
 [**BcdElementType**](bcdelementtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

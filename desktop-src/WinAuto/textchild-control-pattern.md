@@ -1,8 +1,23 @@
 ---
 title: TextChild Control Pattern
 description: Introduces guidelines and conventions for implementing ITextChildProvider, including information about properties and methods. The TextChild control pattern is used to access an element’s nearest ancestor that supports the Text control pattern.
-ms.assetid: 'B33BCBEF-9AD2-4A5A-871E-E97E69BE8195'
-keywords: ["UI Automation,implementing TextChild control pattern", "UI Automation,TextChild control pattern", "UI Automation,ITextChildProvider", "ITextChildProvider", "implementing UI Automation TextChild control patterns", "TextChild control patterns", "control patterns,ITextChildProvider", "control patterns,implementing UI Automation TextChild", "control patterns,TextChild", "interfaces,ITextChildProvider"]
+ms.assetid: B33BCBEF-9AD2-4A5A-871E-E97E69BE8195
+keywords:
+- UI Automation,implementing TextChild control pattern
+- UI Automation,TextChild control pattern
+- UI Automation,ITextChildProvider
+- ITextChildProvider
+- implementing UI Automation TextChild control patterns
+- TextChild control patterns
+- control patterns,ITextChildProvider
+- control patterns,implementing UI Automation TextChild
+- control patterns,TextChild
+- interfaces,ITextChildProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextChild Control Pattern
@@ -23,9 +38,9 @@ Typically, the document element in the preceding example supports the [Text](uia
 
 When implementing the [**ITextChildProvider**](https://msdn.microsoft.com/library/windows/desktop/hh437317) interface, note the following guidelines and conventions:
 
--   The [**ITextChildProvider::TextContainer**](https://msdn.microsoft.com/library/windows/desktop/hh448814) property should specify the nearest ancestor element that supports [**ITextProvider**](uiauto-itextprovider.md) interface, regardless of whether elements higher in the ancestor chain also support **ITextProvider**.
--   An element should not support both the[**ITextProvider**](uiauto-itextprovider.md) and the [**ITextChildProvider**](https://msdn.microsoft.com/library/windows/desktop/hh437317) interface.
--   The [**ITextChildProvider::TextRange**](https://msdn.microsoft.com/library/windows/desktop/hh448816) property should specify the same text range as the one that the containing text provider element returns when its [**ITextProvider::RangeFromChild**](uiauto-itextprovider-rangefromchild.md) function is called with the text child element as the enclosed child element.
+-   The [**ITextChildProvider::TextContainer**](https://msdn.microsoft.com/library/windows/desktop/hh448814) property should specify the nearest ancestor element that supports [**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master) interface, regardless of whether elements higher in the ancestor chain also support **ITextProvider**.
+-   An element should not support both the[**ITextProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itextprovider?branch=master) and the [**ITextChildProvider**](https://msdn.microsoft.com/library/windows/desktop/hh437317) interface.
+-   The [**ITextChildProvider::TextRange**](https://msdn.microsoft.com/library/windows/desktop/hh448816) property should specify the same text range as the one that the containing text provider element returns when its [**ITextProvider::RangeFromChild**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itextprovider-rangefromchild?branch=master) function is called with the text child element as the enclosed child element.
 
 ## Required Members for **ITextChildProvider**
 

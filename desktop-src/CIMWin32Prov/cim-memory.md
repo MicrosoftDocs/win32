@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Memory class represents the capabilities and management of memory-related logical devices.'
+Description: The CIM\_Memory class represents the capabilities and management of memory-related logical devices.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ddc72aad-5687-4bc1-b402-e27b27eca9be'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ddc72aad-5687-4bc1-b402-e27b27eca9be
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Memory class'
+title: CIM\_Memory class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Memory class
@@ -19,7 +22,7 @@ The **CIM\_Memory** class represents the capabilities and management of memory-r
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,44 +32,44 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FAF76B64-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_Memory : CIM_StorageExtent
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint16   Availability;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   DeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint32   LastErrorCode;
-  string   PNPDeviceID;
-  boolean  PowerManagementSupported;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   Access;
-  uint64   BlockSize;
-  uint64   NumberOfBlocks;
-  string   Purpose;
-  string   ErrorMethodology;
-  uint8    AdditionalErrorData[];
-  boolean  CorrectableError;
-  uint64   EndingAddress;
-  uint16   ErrorAccess;
-  uint64   ErrorAddress;
-  uint8    ErrorData[];
-  uint16   ErrorDataOrder;
-  uint16   ErrorInfo;
-  uint64   ErrorResolution;
+  string   Name;
+  string   Status;
+  uint16   Availability;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   DeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint32   LastErrorCode;
+  string   PNPDeviceID;
+  boolean  PowerManagementSupported;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   Access;
+  uint64   BlockSize;
+  uint64   NumberOfBlocks;
+  string   Purpose;
+  string   ErrorMethodology;
+  uint8    AdditionalErrorData[];
+  boolean  CorrectableError;
+  uint64   EndingAddress;
+  uint16   ErrorAccess;
+  uint64   ErrorAddress;
+  uint8    ErrorData[];
+  uint16   ErrorDataOrder;
+  uint16   ErrorInfo;
+  uint64   ErrorResolution;
   datetime ErrorTime;
-  uint32   ErrorTransferSize;
-  string   OtherErrorDescription;
-  uint64   StartingAddress;
-  boolean  SystemLevelAddress;
+  uint32   ErrorTransferSize;
+  string   OtherErrorDescription;
+  uint64   StartingAddress;
+  boolean  SystemLevelAddress;
 };
 ```
 
@@ -90,7 +93,7 @@ The **CIM\_Memory** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1641,8 +1644,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1656,9 +1659,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_StorageExtent**](cim-storageextent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

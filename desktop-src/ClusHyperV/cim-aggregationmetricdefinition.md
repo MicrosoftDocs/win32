@@ -4,13 +4,15 @@ description: Represents the definition of a metric that is derived from another 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3a91e5c2-aa88-47a4-9274-f1ef06211aea'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3a91e5c2-aa88-47a4-9274-f1ef06211aea
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_AggregationMetricDefinition class", "CIM_AggregationMetricDefinition class, described"]
+keywords:
+- CIM_AggregationMetricDefinition class
+- CIM_AggregationMetricDefinition class, described
 topic_type:
 - apiref
 api_name:
@@ -35,6 +37,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_AggregationMetricDefinition class
@@ -49,22 +54,22 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Version("2.22.0"), UMLPackagePath("CIM::Metrics::BaseMetric")]
 class CIM_AggregationMetricDefinition : CIM_BaseMetricDefinition
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  Id;
-  string  Name;
-  uint16  DataType;
-  uint16  Calculable;
-  string  Units;
-  string  BreakdownDimensions[];
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  Id;
+  string  Name;
+  uint16  DataType;
+  uint16  Calculable;
+  string  Units;
+  string  BreakdownDimensions[];
   boolean IsContinuous;
-  uint16  TimeScope;
-  uint16  GatheringType;
-  string  ProgrammaticUnits;
-  uint16  ChangeType = 5;
-  uint16  SimpleFunction;
+  uint16  TimeScope;
+  uint16  GatheringType;
+  string  ProgrammaticUnits;
+  uint16  ChangeType = 5;
+  uint16  SimpleFunction;
 };
 ```
 
@@ -485,7 +490,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > For Distributed Management Task Force (DMTF) defined instances, the pattern must be used with the *OrgID* set to CIM.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedElement**](cim-managedelement.md).
 
@@ -738,7 +743,7 @@ This property is inherited from [**CIM\_BaseMetricDefinition**](cim-basemetricde
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -755,9 +760,9 @@ This property is inherited from [**CIM\_BaseMetricDefinition**](cim-basemetricde
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

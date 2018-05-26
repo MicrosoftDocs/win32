@@ -4,12 +4,15 @@ description: The data provider provides enumerable data classes that gather Soft
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B65D9898-3800-4175-BAF6-5ABA256B1E0B'
-ms.prod: 'windows-server-dev'
+ms.assetid: B65D9898-3800-4175-BAF6-5ABA256B1E0B
+ms.prod: windows-server-dev
 ms.technology:
-- 'software-inventory-logging'
-- 'windows-management-instrumentation'
+- software-inventory-logging
+- windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Software Inventory Logging WMI Data Provider Classes

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section provides info about the DXGI API.'
-ms.assetid: 'd78ccfe3-2e6f-4e8c-9ea3-1f577e40d21a'
+---
+Description: This section provides info about the DXGI API.
+ms.assetid: d78ccfe3-2e6f-4e8c-9ea3-1f577e40d21a
 title: DXGI Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DXGI Reference

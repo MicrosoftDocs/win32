@@ -1,8 +1,9 @@
 ---
 title: TV Ratings Broadcast Events
 description: This topic applies to Windows XP Service Pack 1 or later.
-ms.assetid: '73a6a4fd-cca2-4143-91f9-37f4f6d952b8'
-keywords: ["TV Ratings Broadcast Events Microsoft TV Technologies"]
+ms.assetid: 73a6a4fd-cca2-4143-91f9-37f4f6d952b8
+keywords:
+- TV Ratings Broadcast Events Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Encdec.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TV Ratings Broadcast Events
 
 This topic applies to Windows XP Service Pack 1 or later.
 
-The TV Ratings components fire the following broadcast events. These events are fired through the [**IBroadcastEvent Interface**](ibroadcastevent.md) interface.
+The TV Ratings components fire the following broadcast events. These events are fired through the [**IBroadcastEvent Interface**](/windows/previous-versions/tuner/nn-tuner-ibroadcastevent?branch=master) interface.
 
 
 
@@ -34,9 +40,9 @@ The TV Ratings components fire the following broadcast events. These events are 
 
 
 
- 
+ 
 
-The Decrypter/Detagger filter sends the following event through the [**IBroadcastEventEx**](ibroadcasteventex.md) interface.
+The Decrypter/Detagger filter sends the following event through the [**IBroadcastEventEx**](/windows/previous-versions/tuner/nn-tuner-ibroadcasteventex?branch=master) interface.
 
 
 
@@ -46,12 +52,12 @@ The Decrypter/Detagger filter sends the following event through the [**IBroadcas
 
 
 
- 
+ 
 
 The EVENTID\_EncDecFilterEvent event has the following event parameters.
 
 -   *Param1*: ENCDEC\_CPEVENT. Indicates a copy protection event.
--   *Param2*: Member of the [**CPEvents**](cpevents.md) enumeration.
+-   *Param2*: Member of the [**CPEvents**](/windows/previous-versions/EncDec/ne-encdec-cpevents?branch=master) enumeration.
 -   *Param3*: Unused (0).
 -   *Param4*: Unused (0).
 
@@ -72,9 +78,9 @@ The EVENTID\_EncDecFilterEvent event has the following event parameters.
 [TV Ratings Components](tv-ratings-components.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

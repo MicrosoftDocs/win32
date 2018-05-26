@@ -1,8 +1,13 @@
 ---
 title: IVMHostInfo IsHostDriveMounted method
 description: The IsHostDriveMounted method indicates whether the specified host drive is mounted.
-ms.assetid: '163f4df6-27bd-451a-bce7-2422d5ca2a07'
-keywords: ["IsHostDriveMounted method Virtual Server", "IsHostDriveMounted method Virtual Server , IVMHostInfo interface", "IVMHostInfo interface Virtual Server , IsHostDriveMounted method", "IsHostDriveMounted method Virtual Server , VMHostInfo interface", "VMHostInfo interface Virtual Server , IsHostDriveMounted method"]
+ms.assetid: 163f4df6-27bd-451a-bce7-2422d5ca2a07
+keywords:
+- IsHostDriveMounted method Virtual Server
+- IsHostDriveMounted method Virtual Server , IVMHostInfo interface
+- IVMHostInfo interface Virtual Server , IsHostDriveMounted method
+- IsHostDriveMounted method Virtual Server , VMHostInfo interface
+- VMHostInfo interface Virtual Server , IsHostDriveMounted method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMHostInfo::IsHostDriveMounted method
@@ -23,8 +33,8 @@ The **IsHostDriveMounted** method indicates whether the specified host drive is 
 
 ```C++
 HRESULT IsHostDriveMounted(
-  [in]  BSTR         hostDriveIdentifier,
-  [out] VARIANT_BOOL *hostDriveMounted
+  [in]  BSTR         hostDriveIdentifier,
+  [out] VARIANT_BOOL *hostDriveMounted
 );
 ```
 
@@ -63,7 +73,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -71,8 +81,8 @@ This method can return one of these values.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -84,9 +94,9 @@ This method can return one of these values.
 [**IVMHostInfo**](ivmhostinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets or sets the description of the link.'
-ms.assetid: 'd3a95281-fb1f-4fd4-9d26-2a6e10a36a86'
-title: 'ShellLinkObject.Description property'
+---
+Description: Gets or sets the description of the link.
+ms.assetid: d3a95281-fb1f-4fd4-9d26-2a6e10a36a86
+title: ShellLinkObject.Description property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject.Description property

@@ -1,8 +1,25 @@
 ---
 title: Retrieving Catalog Information
 description: Retrieving Catalog Information
-ms.assetid: 'f2ec795f-6e6f-4c0c-9332-f1e96524221a'
-keywords: ["Windows Media Player online stores,retrieving catalog information", "online stores,retrieving catalog information", "type 1 online stores,retrieving catalog information", "Windows Media Player online stores,diagnostic information on catalogs", "online stores,diagnostic information on catalogs", "type 1 online stores,diagnostic information on catalogs", "Windows Media Player online stores,catcomp.exe", "online stores,catcomp.exe", "type 1 online stores,catcomp.exe", "catcomp.exe", "diagnostic information on catalogs", "retrieving catalog information"]
+ms.assetid: f2ec795f-6e6f-4c0c-9332-f1e96524221a
+keywords:
+- Windows Media Player online stores,retrieving catalog information
+- online stores,retrieving catalog information
+- type 1 online stores,retrieving catalog information
+- Windows Media Player online stores,diagnostic information on catalogs
+- online stores,diagnostic information on catalogs
+- type 1 online stores,diagnostic information on catalogs
+- Windows Media Player online stores,catcomp.exe
+- online stores,catcomp.exe
+- type 1 online stores,catcomp.exe
+- catcomp.exe
+- diagnostic information on catalogs
+- retrieving catalog information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Catalog Information

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The print spooler''s AppendPrinterNotifyInfoData function adds the contents of a specified PRINTER\_NOTIFY\_INFO\_DATA structure to a specified PRINTER\_NOTIFY\_INFO structure.'
-ms.assetid: '558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1'
+---
+Description: The print spoolers AppendPrinterNotifyInfoData function adds the contents of a specified PRINTER\_NOTIFY\_INFO\_DATA structure to a specified PRINTER\_NOTIFY\_INFO structure.
+ms.assetid: 558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1
 title: AppendPrinterNotifyInfoData function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AppendPrinterNotifyInfoData function

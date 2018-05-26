@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Strong Cryptographic Provider is used as the default RSA Full cryptographic service provider (CSP).'
-ms.assetid: '13f85e08-db21-411f-842c-8a2ba6cb8b4e'
+Description: The Microsoft Strong Cryptographic Provider is used as the default RSA Full cryptographic service provider (CSP).
+ms.assetid: 13f85e08-db21-411f-842c-8a2ba6cb8b4e
 title: Microsoft Strong Cryptographic Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Strong Cryptographic Provider

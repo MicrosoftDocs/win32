@@ -1,7 +1,12 @@
 ---
-Description: 'Overview of application programming interface (API) code samples for the Tablet PC and Windows Touch sections of the Windows SDK.'
-ms.assetid: '4ede7d0e-e826-4b3a-8a46-0f3162c19cb0'
+Description: Overview of application programming interface (API) code samples for the Tablet PC and Windows Touch sections of the Windows SDK.
+ms.assetid: 4ede7d0e-e826-4b3a-8a46-0f3162c19cb0
 title: Tablet and Touch Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tablet and Touch Samples
@@ -13,7 +18,7 @@ By default, the samples are installed in &lt;system drive&gt;:\\Program Files\\M
 > [!Note]  
 > When installing the Windows SDK, the Windows Server SDK, or the .NET Framework SDK, the samples install in the default path for that particular SDK.
 
- 
+ 
 
 ## Available Samples
 
@@ -46,7 +51,7 @@ By default, the samples are installed in &lt;system drive&gt;:\\Program Files\\M
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -55,9 +60,9 @@ By default, the samples are installed in &lt;system drive&gt;:\\Program Files\\M
 [Recognizer DLL Sample Template](recognizer-dll-sample-template.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

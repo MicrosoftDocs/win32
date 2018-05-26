@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_TASK'
-ms.assetid: '503d0b11-2113-4df4-8b6b-250f24d09b1f'
-title: 'WPD\_CONTENT\_TYPE\_TASK'
+Description: WPD\_CONTENT\_TYPE\_TASK
+ms.assetid: 503d0b11-2113-4df4-8b6b-250f24d09b1f
+title: WPD\_CONTENT\_TYPE\_TASK
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_TASK

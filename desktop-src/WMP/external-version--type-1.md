@@ -1,8 +1,9 @@
 ---
 title: External.version (Type 1)
-description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The version property retrieves the current version of Windows Media Player.
-ms.assetid: '36120a19-5322-402e-8a48-1a28eb250068'
-keywords: ["External.version (Type 1) Windows Media Player"]
+description: Note This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The version property retrieves the current version of Windows Media Player.
+ms.assetid: 36120a19-5322-402e-8a48-1a28eb250068
+keywords:
+- External.version (Type 1) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.version (Type 1)
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **version** property retrieves the current version of Windows Media Player.
 
@@ -48,9 +54,9 @@ This property is a read-only **String**.
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Router Information Reference
-ms.assetid: '9d4e2cf6-3e02-4872-9632-933da653efee'
+ms.assetid: 9d4e2cf6-3e02-4872-9632-933da653efee
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Router Information Reference

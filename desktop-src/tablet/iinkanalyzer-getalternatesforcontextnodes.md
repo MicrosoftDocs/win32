@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves analysis alternates for the nodes in a specified IContextNodes collection.'
-ms.assetid: '7d047808-4360-442d-8fd9-4ee4aeeed2c9'
-title: 'IInkAnalyzer::GetAlternatesForContextNodes method'
+Description: Retrieves analysis alternates for the nodes in a specified IContextNodes collection.
+ms.assetid: 7d047808-4360-442d-8fd9-4ee4aeeed2c9
+title: IInkAnalyzerGetAlternatesForContextNodes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetAlternatesForContextNodes method
@@ -13,9 +18,9 @@ Retrieves analysis alternates for the nodes in a specified [**IContextNodes**](i
 
 ```C++
 HRESULT GetAlternatesForContextNodes(
-  [in]  IContextNodes      *pContextNodes,
-  [in]  ULONG              ulMaximumAlternates,
-  [out] AnalysisAlternates **ppAlternates
+  [in]  IContextNodes      *pContextNodes,
+  [in]  ULONG              ulMaximumAlternates,
+  [out] AnalysisAlternates **ppAlternates
 );
 ```
 
@@ -55,7 +60,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppAlternates* when you no longer need to use the object.
 
- 
+ 
 
 The top [**IAnalysisAlternate**](ianalysisalternate.md) is returned as the first alternate of the collection.
 
@@ -69,7 +74,7 @@ For each analysis hint in nodes, the [**IInkAnalyzer**](iinkanalyzer.md) returns
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -104,9 +109,9 @@ For each analysis hint in nodes, the [**IInkAnalyzer**](iinkanalyzer.md) returns
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

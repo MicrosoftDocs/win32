@@ -1,7 +1,12 @@
 ---
-Description: 'Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.'
-ms.assetid: '0cfe2f62-63dc-45a6-96ce-fb4bf458358f'
-title: 'PEVENT\_TRACE\_BUFFER\_CALLBACK callback function'
+Description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.
+ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
+title: PEVENT\_TRACE\_BUFFER\_CALLBACK callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PEVENT\_TRACE\_BUFFER\_CALLBACK callback function
@@ -15,7 +20,7 @@ The **PEVENT\_TRACE\_BUFFER\_CALLBACK** type defines a pointer to this callback 
 
 ```C++
 ULONG WINAPI BufferCallback(
-  _In_ PEVENT_TRACE_LOGFILE Buffer
+  _In_ PEVENT_TRACE_LOGFILE Buffer
 );
 ```
 
@@ -50,8 +55,8 @@ For an example implementation of a **BufferCallback** function, see [Retrieving 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Evntrace.h</dt> </dl> |
 
 
@@ -66,9 +71,9 @@ For an example implementation of a **BufferCallback** function, see [Retrieving 
 [**ProcessTrace**](processtrace.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

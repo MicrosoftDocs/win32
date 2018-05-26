@@ -1,14 +1,20 @@
 ---
 title: VIEW.ontimer
 description: The ontimer event handles timer events.
-ms.assetid: '038bd483-9029-4de6-b40e-de3e615a4c04'
-keywords: ["VIEW.ontimer Windows Media Player"]
+ms.assetid: 038bd483-9029-4de6-b40e-de3e615a4c04
+keywords:
+- VIEW.ontimer Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.ontimer
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.ontimer
@@ -43,9 +49,9 @@ The **timerInterval** attribute specifies the interval at which timer events wil
 [**VIEW.timerInterval**](view-timerinterval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETLINECOLOR message
 description: The TVM\_GETLINECOLOR message gets the current line color.
-ms.assetid: 'e74441b3-5d4f-4454-b896-2e96ce649419'
-keywords: ["TVM_GETLINECOLOR message Windows Controls"]
+ms.assetid: e74441b3-5d4f-4454-b896-2e96ce649419
+keywords:
+- TVM_GETLINECOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETLINECOLOR message
@@ -41,8 +47,8 @@ This message only retrieves line colors. To retrieve the colors of the '+' and '
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ This message only retrieves line colors. To retrieve the colors of the '+' and '
 [**TVM\_SETLINECOLOR**](tvm-setlinecolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

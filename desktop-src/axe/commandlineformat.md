@@ -1,14 +1,20 @@
 ---
 title: CommandLineFormat element
 description: Describes how a parameter is formatted for the assessment command line.
-ms.assetid: 'B55E2AB8-5590-4F14-99AB-E19AD4A4E20F'
-keywords: ["CommandLineFormat element Access Execution Engine"]
+ms.assetid: B55E2AB8-5590-4F14-99AB-E19AD4A4E20F
+keywords:
+- CommandLineFormat element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - CommandLineFormat
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CommandLineFormat element
@@ -47,7 +53,7 @@ There are no child elements.
 
 ## Remarks
 
-This element describes how an assessment parameter is formatted for the assessment command line. This feature is designed to support existing tools that cannot be updated to use the AXE Engine assessment API’s to retrieve parameters by name in a type safe manner.
+This element describes how an assessment parameter is formatted for the assessment command line. This feature is designed to support existing tools that cannot be updated to use the AXE Engine assessment API s to retrieve parameters by name in a type safe manner.
 
 The command line is created by AXE and passed to the root process of the assessment.
 
@@ -58,7 +64,7 @@ This node must contain a non-empty string that is a valid .NET formatting string
 ``` syntax
 -input {0}
 /affinity:0x{0,X}
--InputFile=””{0}””
+-InputFile=  {0}  
 ```
 
 ## Element information
@@ -78,9 +84,9 @@ This node must contain a non-empty string that is a valid .NET formatting string
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

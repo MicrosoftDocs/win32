@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to detect device loss when using a video capture device.'
-ms.assetid: '2bffe156-c507-437e-8f32-62aaebedd6f0'
+Description: This topic describes how to detect device loss when using a video capture device.
+ms.assetid: 2bffe156-c507-437e-8f32-62aaebedd6f0
 title: Handling Video Device Loss
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Video Device Loss

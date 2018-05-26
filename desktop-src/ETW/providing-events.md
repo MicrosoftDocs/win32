@@ -1,7 +1,12 @@
 ---
-Description: 'Providers are applications that contain event tracing instrumentation.'
-ms.assetid: 'b522f16d-8d61-4db3-9194-d965b6d859ec'
+Description: Providers are applications that contain event tracing instrumentation.
+ms.assetid: b522f16d-8d61-4db3-9194-d965b6d859ec
 title: Providing Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Providing Events

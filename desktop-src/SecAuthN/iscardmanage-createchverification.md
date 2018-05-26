@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an ISCardVerify interface.'
-ms.assetid: '6338e672-83cd-46fe-8f94-f4ba6e2581ea'
-title: 'ISCardManage::CreateCHVerification method'
+---
+Description: Creates an ISCardVerify interface.
+ms.assetid: 6338e672-83cd-46fe-8f94-f4ba6e2581ea
+title: ISCardManageCreateCHVerification method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardManage::CreateCHVerification method

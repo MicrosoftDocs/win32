@@ -1,7 +1,12 @@
 ---
 title: Debug Layer Reference
 description: This section covers Direct3D 12 APIs declared in d3d12sdklayers.h, which is for the debug layer.
-ms.assetid: 'B588202F-A187-4727-BF53-931BEA6CFB9E'
+ms.assetid: B588202F-A187-4727-BF53-931BEA6CFB9E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Debug Layer Reference
@@ -20,7 +25,7 @@ This section covers Direct3D 12 APIs declared in d3d12sdklayers.h, which is for 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section covers Direct3D 12 APIs declared in d3d12sdklayers.h, which is for 
 [Direct3D 12 Reference](direct3d-12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

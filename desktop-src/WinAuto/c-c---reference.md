@@ -1,7 +1,12 @@
 ---
 title: C/C++ Reference
 description: This section provides C/C++ language reference information about the Microsoft Active Accessibility \ 32;API.In this sectionActive Accessibility User Interface ServicesActive Accessibility Text Services.
-ms.assetid: '2ffb5772-14ba-4bb4-b966-5aec080c1a64'
+ms.assetid: 2ffb5772-14ba-4bb4-b966-5aec080c1a64
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Reference

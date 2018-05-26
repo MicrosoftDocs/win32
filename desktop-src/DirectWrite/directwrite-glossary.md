@@ -2,7 +2,12 @@
 title: DirectWrite Glossary
 description: Glossary page
 Robots: noindex, nofollow
-ms.assetid: 'bf50f374-440b-44f3-a365-47588eaa071f'
+ms.assetid: bf50f374-440b-44f3-a365-47588eaa071f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectWrite Glossary

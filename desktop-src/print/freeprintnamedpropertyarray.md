@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '18E24562-F57A-492F-9254-722ABA0B2BC4'
+---
+Description: .
+ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
 title: FreePrintNamedPropertyArray function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreePrintNamedPropertyArray function

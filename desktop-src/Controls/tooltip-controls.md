@@ -1,7 +1,12 @@
 ---
 title: About Tooltip Controls
 description: Tooltips appear automatically, or pop up, when the user pauses the mouse pointer over a tool or some other UI element.
-ms.assetid: '1020cec7-57b4-4463-9419-f80fd14fa12c'
+ms.assetid: 1020cec7-57b4-4463-9419-f80fd14fa12c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Tooltip Controls
@@ -47,7 +52,7 @@ The cursor must hover over a tool for a period of time before the tooltip is dis
 
 ## Creating Tooltip Controls
 
-To create a tooltip control, call [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) and specify the [**TOOLTIPS\_CLASS**](common-control-window-classes.md#tooltips-class) window class. This class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, include the [**InitCommonControlsEx**](initcommoncontrolsex.md) function in your application. You must explicitly define a tooltip control as topmost. Otherwise, it might be covered by the parent window. The following code fragment shows how to create a tooltip control.
+To create a tooltip control, call [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) and specify the [**TOOLTIPS\_CLASS**](common-control-window-classes.md#tooltips-class) window class. This class is registered when the common control DLL is loaded. To ensure that this DLL is loaded, include the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function in your application. You must explicitly define a tooltip control as topmost. Otherwise, it might be covered by the parent window. The following code fragment shows how to create a tooltip control.
 
 
 ```
@@ -72,22 +77,22 @@ A tooltip control can be either active or inactive. When it is active, the toolt
 
 ## Supporting Tools
 
-A tooltip control can support any number of tools. To support a particular tool, you must register the tool with the tooltip control by sending the control the [**TTM\_ADDTOOL**](ttm-addtool.md) message. The message includes the address of a [**TOOLINFO**](toolinfo.md) structure, which provides information the tooltip control needs to display text for the tool. The **uID** member of the **TOOLINFO** structure is defined by the application. Each time you add a tool, your application provides a unique identifier. The **cbSize** member of the **TOOLINFO** structure is required, and must specify the size of the structure.
+A tooltip control can support any number of tools. To support a particular tool, you must register the tool with the tooltip control by sending the control the [**TTM\_ADDTOOL**](ttm-addtool.md) message. The message includes the address of a [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure, which provides information the tooltip control needs to display text for the tool. The **uID** member of the **TOOLINFO** structure is defined by the application. Each time you add a tool, your application provides a unique identifier. The **cbSize** member of the **TOOLINFO** structure is required, and must specify the size of the structure.
 
-A tooltip control supports tools implemented as windows (such as child windows or control windows) and as rectangular areas within a window's client area. When you add a tool implemented as a rectangular area, the **hwnd** member of the [**TOOLINFO**](toolinfo.md) structure must specify the handle to the window that contains the area, and the **rect** member must specify the client coordinates of the area's bounding rectangle. In addition, the **uID** member must specify the application-defined identifier for the tool.
+A tooltip control supports tools implemented as windows (such as child windows or control windows) and as rectangular areas within a window's client area. When you add a tool implemented as a rectangular area, the **hwnd** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure must specify the handle to the window that contains the area, and the **rect** member must specify the client coordinates of the area's bounding rectangle. In addition, the **uID** member must specify the application-defined identifier for the tool.
 
-When you add a tool implemented as a window, the **uID** member of the [**TOOLINFO**](toolinfo.md) structure must contain the window handle to the tool. Also, the **uFlags** member must specify the **TTF\_IDISHWND** value, which tells the tooltip control to interpret the **uID** member as a window handle.
+When you add a tool implemented as a window, the **uID** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure must contain the window handle to the tool. Also, the **uFlags** member must specify the **TTF\_IDISHWND** value, which tells the tooltip control to interpret the **uID** member as a window handle.
 
 ## Displaying Text
 
-When you add a tool to a tooltip control, the **lpszText** member of the [**TOOLINFO**](toolinfo.md) structure must specify the address of the string to display for the tool. After you add a tool, you can change the text using the [**TTM\_UPDATETIPTEXT**](ttm-updatetiptext.md) message.
+When you add a tool to a tooltip control, the **lpszText** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure must specify the address of the string to display for the tool. After you add a tool, you can change the text using the [**TTM\_UPDATETIPTEXT**](ttm-updatetiptext.md) message.
 
-If the high-order word of **lpszText** is zero, the low-order word must be the identifier of a string resource. When the tooltip control needs the text, the system loads the specified string resource from the application instance identified by the **hinst** member of the [**TOOLINFO**](toolinfo.md) structure.
+If the high-order word of **lpszText** is zero, the low-order word must be the identifier of a string resource. When the tooltip control needs the text, the system loads the specified string resource from the application instance identified by the **hinst** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure.
 
-If you specify the LPSTR\_TEXTCALLBACK value in the **lpszText** member, the tooltip control notifies the window specified in the **hwnd** member of the [**TOOLINFO**](toolinfo.md)structure whenever the tooltip control needs to display text for the tool. The tooltip control sends the [TTN\_GETDISPINFO](ttn-getdispinfo.md) notification code to the window. The message includes the address of a [**NMTTDISPINFO**](nmttdispinfo.md) structure, which contains the window handle as well as the application-defined identifier for the tool. The window examines the structure to determine the tool for which text is needed, and it fills the appropriate structure members with information that the tooltip control needs in order to display the string.
+If you specify the LPSTR\_TEXTCALLBACK value in the **lpszText** member, the tooltip control notifies the window specified in the **hwnd** member of the [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master)structure whenever the tooltip control needs to display text for the tool. The tooltip control sends the [TTN\_GETDISPINFO](ttn-getdispinfo.md) notification code to the window. The message includes the address of a [**NMTTDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmttdispinfoa?branch=master) structure, which contains the window handle as well as the application-defined identifier for the tool. The window examines the structure to determine the tool for which text is needed, and it fills the appropriate structure members with information that the tooltip control needs in order to display the string.
 
 > [!Note]  
-> The maximum length for standard tooltip text is 80 characters. For more information, see the [**NMTTDISPINFO**](nmttdispinfo.md) structure. Multiline tooltip text can be longer.
+> The maximum length for standard tooltip text is 80 characters. For more information, see the [**NMTTDISPINFO**](/windows/win32/Commctrl/ns-commctrl-tagnmttdispinfoa?branch=master) structure. Multiline tooltip text can be longer.
 
  
 
@@ -101,10 +106,10 @@ Tooltip text is normally displayed when the mouse pointer hovers over an area, t
 
 You can have messages relayed automatically if:
 
--   The tool is a control or is defined as a rectangle in the tool's [**TOOLINFO**](toolinfo.md) structure.
+-   The tool is a control or is defined as a rectangle in the tool's [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure.
 -   The window associated with the tool is in the same thread as the tooltip control.
 
-If these two conditions are met, set the **TTF\_SUBCLASS** flag in the **uFlags** member of the tool's [**TOOLINFO**](toolinfo.md) structure when you add the tool to the tooltip control with [**TTM\_ADDTOOL**](ttm-addtool.md). The necessary mouse messages then will be relayed automatically to the tooltip control.
+If these two conditions are met, set the **TTF\_SUBCLASS** flag in the **uFlags** member of the tool's [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure when you add the tool to the tooltip control with [**TTM\_ADDTOOL**](ttm-addtool.md). The necessary mouse messages then will be relayed automatically to the tooltip control.
 
 Setting **TTF\_SUBCLASS** to have mouse messages relayed to the control is sufficient for most purposes. However, it will not work in cases where there is no direct connection between the tooltip control and the tool's window. For example, if a tool is implemented as a rectangular area in an application-defined window, the window procedure receives the mouse messages. Setting **TTF\_SUBCLASS** is sufficient to ensure that they are passed to the control. However, if a tool is implemented as a system-defined window, mouse messages are sent to that window and are not directly available to the application. In this case, you must either subclass the window or use a message hook to access the mouse messages. You must then explicitly relay mouse messages to the tooltip control with [**TTM\_RELAYEVENT**](ttm-relayevent.md). For an example of how to use **TTM\_RELAYEVENT**, see [Tracking Tooltips](using-tooltip-contro.md#tooltip-sample-tracking).
 
@@ -118,7 +123,7 @@ When a tooltip is about to be displayed, the tooltip control sends the owner win
 
 ## Hit Testing
 
-The [**TTM\_HITTEST**](ttm-hittest.md) message allows you to retrieve information that a tooltip control maintains about the tool occupying a particular point. The message includes a [**TTHITTESTINFO**](tthittestinfo.md) structure that contains a window handle, the coordinates of a point, and the address of a [**TOOLINFO**](toolinfo.md) structure. The tooltip control determines whether a tool occupies the point and, if it does, fills **TOOLINFO** with information about the tool.
+The [**TTM\_HITTEST**](ttm-hittest.md) message allows you to retrieve information that a tooltip control maintains about the tool occupying a particular point. The message includes a [**TTHITTESTINFO**](/windows/win32/Commctrl/ns-commctrl-_tt_hittestinfoa?branch=master) structure that contains a window handle, the coordinates of a point, and the address of a [**TOOLINFO**](/windows/win32/Commctrl/ns-commctrl-tagtoolinfoa?branch=master) structure. The tooltip control determines whether a tool occupies the point and, if it does, fills **TOOLINFO** with information about the tool.
 
 ## Default Message Processing
 

@@ -1,20 +1,25 @@
 ---
 title: Establishing a Dial-Up Connection to the Internet
 description: The following functions are used to handle modem connections.
-ms.assetid: 'dd33ed4b-eb7c-449c-b309-8f5c290a5a93'
+ms.assetid: dd33ed4b-eb7c-449c-b309-8f5c290a5a93
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Establishing a Dial-Up Connection to the Internet
 
 The following functions are used to handle modem connections.
 
--   [**InternetAutodial**](internetautodial.md)
--   [**InternetAutodialHangup**](internetautodialhangup.md)
--   [**InternetDial**](internetdial.md)
--   [**InternetGetConnectedState**](internetgetconnectedstate.md)
--   [**InternetGetConnectedStateEx**](internetgetconnectedstateex.md)
--   [**InternetHangUp**](internethangup.md)
--   [**InternetGoOnline**](internetgoonline.md)
+-   [**InternetAutodial**](/windows/win32/winineti/nf-wininet-internetautodial?branch=master)
+-   [**InternetAutodialHangup**](/windows/win32/winineti/nf-wininet-internetautodialhangup?branch=master)
+-   [**InternetDial**](/windows/win32/winineti/nf-wininet-internetdial?branch=master)
+-   [**InternetGetConnectedState**](/windows/win32/winineti/nf-wininet-internetgetconnectedstate?branch=master)
+-   [**InternetGetConnectedStateEx**](/windows/win32/winineti/nf-wininet-internetgetconnectedstateex?branch=master)
+-   [**InternetHangUp**](/windows/win32/winineti/nf-wininet-internethangup?branch=master)
+-   [**InternetGoOnline**](/windows/win32/winineti/nf-wininet-internetgoonline?branch=master)
 
 > [!Note]  
 > WinINet dial-up functions do not support double-dial connections, SmartCard authentication, or connections that require registry-based certification.

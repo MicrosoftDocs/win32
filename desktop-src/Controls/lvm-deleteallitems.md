@@ -1,8 +1,9 @@
 ---
 title: LVM\_DELETEALLITEMS message
 description: Removes all items from a list-view control. You can send this message explicitly or by using the ListView\_DeleteAllItems macro.
-ms.assetid: '816bf565-79e9-4f5d-b5b4-5cdecce8a61c'
-keywords: ["LVM_DELETEALLITEMS message Windows Controls"]
+ms.assetid: 816bf565-79e9-4f5d-b5b4-5cdecce8a61c
+keywords:
+- LVM_DELETEALLITEMS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_DELETEALLITEMS message
 
-Removes all items from a list-view control. You can send this message explicitly or by using the [**ListView\_DeleteAllItems**](listview-deleteallitems.md) macro.
+Removes all items from a list-view control. You can send this message explicitly or by using the [**ListView\_DeleteAllItems**](/windows/win32/Commctrl/nf-commctrl-listview_deleteallitems?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ When a list-view control receives the **LVM\_DELETEALLITEMS** message, it sends 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

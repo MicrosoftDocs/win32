@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth class of device service positioning.'
-ms.assetid: '4183501e-d5a8-4b78-a419-98b7fa8e4fd6'
-title: 'System.Devices.Aep.Bluetooth.Cod.Services.Positioning'
+Description: Bluetooth class of device service positioning.
+ms.assetid: 4183501e-d5a8-4b78-a419-98b7fa8e4fd6
+title: System.Devices.Aep.Bluetooth.Cod.Services.Positioning
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.Bluetooth.Cod.Services.Positioning

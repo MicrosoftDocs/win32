@@ -1,7 +1,12 @@
 ---
 title: To include a header file in a project file
 description: To include a header file in a project file
-ms.assetid: 'DA4EB680-5CC7-40ab-A3B1-8AFDADC9BEA8'
+ms.assetid: DA4EB680-5CC7-40ab-A3B1-8AFDADC9BEA8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To include a header file in a project file
@@ -16,7 +21,7 @@ ms.assetid: 'DA4EB680-5CC7-40ab-A3B1-8AFDADC9BEA8'
 
     
 
-     
+     
 
 2.  On the **Map** tab, click **Header File**.
 3.  Locate the header (.h) file you want to include.
@@ -29,9 +34,9 @@ ms.assetid: 'DA4EB680-5CC7-40ab-A3B1-8AFDADC9BEA8'
 [About Context-Sensitive Help](create-context-sensitive-help.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

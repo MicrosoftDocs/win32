@@ -1,7 +1,12 @@
 ---
 title: Displaying Results Correctly
 description: Displaying Results Correctly
-ms.assetid: '5aae2e5e-ed16-4946-af90-8a575d104b80'
+ms.assetid: 5aae2e5e-ed16-4946-af90-8a575d104b80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Displaying Results Correctly

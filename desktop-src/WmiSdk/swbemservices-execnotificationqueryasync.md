@@ -1,13 +1,16 @@
 ---
-Description: 'Executes a query to receive events.'
+Description: Executes a query to receive events.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0b0e8313-4ffd-4d4a-8965-d2c6743e7573'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0b0e8313-4ffd-4d4a-8965-d2c6743e7573
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemServices.ExecNotificationQueryAsync method'
+title: SWbemServices.ExecNotificationQueryAsync method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemServices.ExecNotificationQueryAsync method
@@ -204,8 +207,8 @@ End Sub
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -239,9 +242,9 @@ End Sub
 [Setting Security on an Asynchronous Call](setting-security-on-an-asynchronous-call.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

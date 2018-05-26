@@ -1,7 +1,12 @@
 ---
-Description: 'The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the Devices Profile for Web Services (DPWS).'
-ms.assetid: '590e0b0b-763c-44fb-a49f-606415f57b26'
+Description: The Microsoft Web Services on Devices API (WSDAPI) supports the implementation of client-controlled devices and services, and device hosts conforming to the Devices Profile for Web Services (DPWS).
+ms.assetid: 590e0b0b-763c-44fb-a49f-606415f57b26
 title: Web Services on Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Web Services on Devices
@@ -22,7 +27,7 @@ The Web Services on Devices documentation is intended for C/C++ programmers and 
 
 ## Run-time requirements
 
-Client applications that use WSDAPI are supported starting with Windows Vista and Windows Server 2008.
+Client applications that use WSDAPI are supported starting with Windows Vista and Windows Server 2008.
 
 ## In this section
 
@@ -36,7 +41,7 @@ Client applications that use WSDAPI are supported starting with Windows Vista an
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +50,9 @@ Client applications that use WSDAPI are supported starting with Windows Vista an
 [Dan Driscoll's Blog](http://go.microsoft.com/fwlink/p/?linkid=106491)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: The property methods of the IADsSecurityDescriptor interface get or
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e0c50740-de98-4913-b3df-6fd53263bcc8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: e0c50740-de98-4913-b3df-6fd53263bcc8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsSecurityDescriptor Property Methods ADSI"]
+keywords:
+- IADsSecurityDescriptor Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -47,11 +48,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsSecurityDescriptor Property Methods
 
-The property methods of the [**IADsSecurityDescriptor**](iadssecuritydescriptor.md) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -337,7 +341,7 @@ HRESULT put_SystemAcl(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -380,8 +384,8 @@ Cleanup:
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>         |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>   |
 | IID<br/>                      | IID\_IADsSecurityDescriptor is defined as B8C787CA-9BDD-11D0-852C-00C04FD8D503<br/> |
@@ -392,18 +396,18 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsSecurityDescriptor**](iadssecuritydescriptor.md)
+[**IADsSecurityDescriptor**](/windows/win32/Iads/nn-iads-iadssecuritydescriptor?branch=master)
 </dt> <dt>
 
-[**IADsAccessControlEntry**](iadsaccesscontrolentry.md)
+[**IADsAccessControlEntry**](/windows/win32/Iads/nn-iads-iadsaccesscontrolentry?branch=master)
 </dt> <dt>
 
-[**IADsAccessControlList**](iadsaccesscontrollist.md)
+[**IADsAccessControlList**](/windows/win32/Iads/nn-iads-iadsaccesscontrollist?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

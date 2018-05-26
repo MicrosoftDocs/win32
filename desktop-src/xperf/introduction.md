@@ -1,7 +1,12 @@
 ---
 title: Introduction
 description: Introduction
-ms.assetid: '16bc5e09-12f8-4050-be58-a5972b4c36a7'
+ms.assetid: 16bc5e09-12f8-4050-be58-a5972b4c36a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction

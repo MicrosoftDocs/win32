@@ -1,8 +1,11 @@
 ---
 title: IWMPMedia getMarkerTime method
 description: The getMarkerTime method returns the time of the marker at the specified index.
-ms.assetid: '1c617e3a-0978-479c-a636-b655082232c1'
-keywords: ["getMarkerTime method Windows Media Player", "getMarkerTime method Windows Media Player , IWMPMedia interface", "IWMPMedia interface Windows Media Player , getMarkerTime method"]
+ms.assetid: 1c617e3a-0978-479c-a636-b655082232c1
+keywords:
+- getMarkerTime method Windows Media Player
+- getMarkerTime method Windows Media Player , IWMPMedia interface
+- IWMPMedia interface Windows Media Player , getMarkerTime method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia::getMarkerTime method
@@ -167,9 +175,9 @@ End If</code></pre></td>
 [**IWMPMedia.markerCount (VB and C#)**](wmplibiwmpmedia-iwmpmedia-markercount--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

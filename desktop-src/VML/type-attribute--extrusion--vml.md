@@ -1,7 +1,12 @@
 ---
 title: Type Attribute (Extrusion)(VML)
 description: Type Attribute (Extrusion)(VML)
-ms.assetid: '2c7ad2f1-fb5d-49fb-b490-3efe59ee5177'
+ms.assetid: 2c7ad2f1-fb5d-49fb-b490-3efe59ee5177
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Type Attribute (Extrusion)(VML)

@@ -1,8 +1,15 @@
 ---
 title: MSFT\_MpPreference class
 description: Windows Defender Preferences Class.
-ms.assetid: '3b3b6dfa-2387-44eb-9241-fe6cd3bd3062'
-keywords: ["MSFT_MpPreference class", "MSFT_MpPreference class, described"]
+ms.assetid: 3b3b6dfa-2387-44eb-9241-fe6cd3bd3062
+keywords:
+- MSFT_MpPreference class
+- MSFT_MpPreference class, described
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_MpPreference class
@@ -16,60 +23,60 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSFT_MpPreference
 {
-  string   ComputerID = msft_mppreference.xml;
-  boolean  DisableAutoExclusions = FALSE;
-  string   ExclusionPath[];
-  string   ExclusionExtension[];
-  string   ExclusionProcess[];
-  uint32   QuarantinePurgeItemsAfterDelay;
-  uint8    RealTimeScanDirection = 0;
-  uint8    RemediationScheduleDay;
+  string   ComputerID = msft_mppreference.xml;
+  boolean  DisableAutoExclusions = FALSE;
+  string   ExclusionPath[];
+  string   ExclusionExtension[];
+  string   ExclusionProcess[];
+  uint32   QuarantinePurgeItemsAfterDelay;
+  uint8    RealTimeScanDirection = 0;
+  uint8    RemediationScheduleDay;
   DateTime RemediationScheduleTime;
-  uint32   ReportingAdditionalActionTimeOut;
-  uint32   ReportingCriticalFailureTimeOut;
-  uint32   ReportingNonCriticalTimeOut;
-  uint8    ScanAvgCPULoadFactor;
-  boolean  CheckForSignaturesBeforeRunningScan;
-  uint32   ScanPurgeItemsAfterDelay;
-  boolean  ScanOnlyIfIdleEnabled;
-  uint8    ScanParameters;
-  uint8    ScanScheduleDay;
+  uint32   ReportingAdditionalActionTimeOut;
+  uint32   ReportingCriticalFailureTimeOut;
+  uint32   ReportingNonCriticalTimeOut;
+  uint8    ScanAvgCPULoadFactor;
+  boolean  CheckForSignaturesBeforeRunningScan;
+  uint32   ScanPurgeItemsAfterDelay;
+  boolean  ScanOnlyIfIdleEnabled;
+  uint8    ScanParameters;
+  uint8    ScanScheduleDay;
   DateTime ScanScheduleQuickScanTime;
   DateTime ScanScheduleTime;
-  uint32   SignatureFirstAuGracePeriod;
-  uint32   SignatureAuGracePeriod;
-  string   SignatureDefinitionUpdateFileSharesSources;
-  boolean  SignatureDisableUpdateOnStartupWithoutEngine;
-  string   SignatureFallbackOrder;
-  uint8    SignatureScheduleDay;
+  uint32   SignatureFirstAuGracePeriod;
+  uint32   SignatureAuGracePeriod;
+  string   SignatureDefinitionUpdateFileSharesSources;
+  boolean  SignatureDisableUpdateOnStartupWithoutEngine;
+  string   SignatureFallbackOrder;
+  uint8    SignatureScheduleDay;
   DateTime SignatureScheduleTime;
-  uint32   SignatureUpdateCatchupInterval;
-  uint32   SignatureUpdateInterval;
-  uint8    MAPSReporting;
-  uint8    SubmitSamplesConsent;
-  boolean  DisablePrivacyMode;
-  boolean  RandomizeScheduleTaskTimes;
-  boolean  DisableBehaviorMonitoring;
-  boolean  DisableIntrusionPreventionSystem;
-  boolean  DisableIOAVProtection;
-  boolean  DisableRealtimeMonitoring;
-  boolean  DisableScriptScanning;
-  boolean  DisableArchiveScanning;
-  boolean  DisableCatchupFullScan;
-  boolean  DisableCatchupQuickScan;
-  boolean  DisableEmailScanning;
-  boolean  DisableRemovableDriveScanning;
-  boolean  DisableRestorePoint;
-  boolean  DisableScanningMappedNetworkDrivesForFullScan;
-  boolean  DisableScanningNetworkFiles;
-  boolean  UILockdown;
-  sint64   ThreatIDDefaultAction_Ids[];
-  uint8    ThreatIDDefaultAction_Actions[];
-  uint8    UnknownThreatDefaultAction;
-  uint8    LowThreatDefaultAction;
-  uint8    ModerateThreatDefaultAction;
-  uint8    HighThreatDefaultAction;
-  uint8    SevereThreatDefaultAction;
+  uint32   SignatureUpdateCatchupInterval;
+  uint32   SignatureUpdateInterval;
+  uint8    MAPSReporting;
+  uint8    SubmitSamplesConsent;
+  boolean  DisablePrivacyMode;
+  boolean  RandomizeScheduleTaskTimes;
+  boolean  DisableBehaviorMonitoring;
+  boolean  DisableIntrusionPreventionSystem;
+  boolean  DisableIOAVProtection;
+  boolean  DisableRealtimeMonitoring;
+  boolean  DisableScriptScanning;
+  boolean  DisableArchiveScanning;
+  boolean  DisableCatchupFullScan;
+  boolean  DisableCatchupQuickScan;
+  boolean  DisableEmailScanning;
+  boolean  DisableRemovableDriveScanning;
+  boolean  DisableRestorePoint;
+  boolean  DisableScanningMappedNetworkDrivesForFullScan;
+  boolean  DisableScanningNetworkFiles;
+  boolean  UILockdown;
+  sint64   ThreatIDDefaultAction_Ids[];
+  uint8    ThreatIDDefaultAction_Actions[];
+  uint8    UnknownThreatDefaultAction;
+  uint8    LowThreatDefaultAction;
+  uint8    ModerateThreatDefaultAction;
+  uint8    HighThreatDefaultAction;
+  uint8    SevereThreatDefaultAction;
 };
 ```
 
@@ -94,7 +101,7 @@ The **MSFT\_MpPreference** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -150,7 +157,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-**Beginning in Windows 10:** Allows an administrator to specify if the Automatic Exclusions feature for Server SKUs should be turned off.
+**Beginning in Windows 10:** Allows an administrator to specify if the Automatic Exclusions feature for Server SKUs should be turned off.
 
 </dd> <dt>
 
@@ -957,7 +964,7 @@ Data type: **uint8**
 Access type: Read-only
 </dt> </dl>
 
-**Beginning in Windows 10:** For certain samples the service checks for user consent. If the required consent has already been granted, the service submits them. If not, (and if the user has specified never to ask), the UI is launched to ask for user consent when opt-in for MAPS telemetry is set (*MAPSReporting* != 0).
+**Beginning in Windows 10:** For certain samples the service checks for user consent. If the required consent has already been granted, the service submits them. If not, (and if the user has specified never to ask), the UI is launched to ask for user consent when opt-in for MAPS telemetry is set (*MAPSReporting* != 0).
 
 <dl> <dt>
 
@@ -1079,17 +1086,17 @@ Default action for unknown threats.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Defender<br/>                                                       |
 | MOF<br/>                      | <dl> <dt>ProtectionManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ProtectionManagement.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

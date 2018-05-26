@@ -1,8 +1,9 @@
 ---
 title: WM\_CAP\_GET\_AUDIOFORMAT message
 description: The WM\_CAP\_GET\_AUDIOFORMAT message obtains the audio format or the size of the audio format. You can send this message explicitly or by using the capGetAudioFormat and capGetAudioFormatSize macros.
-ms.assetid: '25e58863-2b1e-4ed8-9f34-c39617a15bc1'
-keywords: ["WM_CAP_GET_AUDIOFORMAT message Windows Multimedia"]
+ms.assetid: 25e58863-2b1e-4ed8-9f34-c39617a15bc1
+keywords:
+- WM_CAP_GET_AUDIOFORMAT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_CAP\_GET\_AUDIOFORMAT message
 
-The **WM\_CAP\_GET\_AUDIOFORMAT** message obtains the audio format or the size of the audio format. You can send this message explicitly or by using the [**capGetAudioFormat**](capgetaudioformat.md) and [**capGetAudioFormatSize**](capgetaudioformatsize.md) macros.
+The **WM\_CAP\_GET\_AUDIOFORMAT** message obtains the audio format or the size of the audio format. You can send this message explicitly or by using the [**capGetAudioFormat**](/windows/win32/Vfw/nf-vfw-capgetaudioformat?branch=master) and [**capGetAudioFormatSize**](/windows/win32/Vfw/nf-vfw-capgetaudioformatsize?branch=master) macros.
 
 
 ```C++
@@ -40,7 +46,7 @@ Size, in bytes, of the structure referenced by**s**.
 <span id="psAudioFormat"></span><span id="psaudioformat"></span><span id="PSAUDIOFORMAT"></span>*psAudioFormat*
 </dt> <dd>
 
-Pointer to a [**WAVEFORMATEX**](waveformatex.md) structure, or **NULL**. If the value is **NULL**, the size, in bytes, required to hold the structure is returned.
+Pointer to a [**WAVEFORMATEX**](/windows/win32/Mmreg/?branch=master) structure, or **NULL**. If the value is **NULL**, the size, in bytes, required to hold the structure is returned.
 
 </dd> </dl>
 
@@ -58,8 +64,8 @@ Because compressed audio formats vary in size requirements applications must fir
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -74,9 +80,9 @@ Because compressed audio formats vary in size requirements applications must fir
 [Video Capture Messages](video-capture-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

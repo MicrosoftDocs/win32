@@ -1,7 +1,12 @@
 ---
-Description: 'Disables the Receive Side Scaling (RSS) properties on the network adapter.'
-ms.assetid: 'bbff4ce3-0d9f-4d34-b619-100b49d8c27d'
-title: 'Disable method of the MSFT\_NetAdapterRssSettingData class'
+Description: Disables the Receive Side Scaling (RSS) properties on the network adapter.
+ms.assetid: bbff4ce3-0d9f-4d34-b619-100b49d8c27d
+title: Disable method of the MSFT\_NetAdapterRssSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the MSFT\_NetAdapterRssSettingData class
@@ -13,7 +18,7 @@ Disables the Receive Side Scaling (RSS) properties on the network adapter.
 
 ```mof
 uint32 Disable(
-  [out] string cmdletOutput
+  [out] string cmdletOutput
 );
 ```
 
@@ -37,7 +42,7 @@ Returns an embedded instance of the [**MSFT\_NetAdapterRssSettingData**](msft-ne
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -51,9 +56,9 @@ Returns an embedded instance of the [**MSFT\_NetAdapterRssSettingData**](msft-ne
 [**MSFT\_NetAdapterRssSettingData**](msft-netadapterrsssettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

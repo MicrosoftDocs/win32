@@ -1,7 +1,12 @@
 ---
 title: About Creating a Dynamic Inline Element
 description: About Creating a Dynamic Inline Element
-ms.assetid: 'A0542E3F-668A-43ea-B8A0-2D2B6126A3F3'
+ms.assetid: A0542E3F-668A-43ea-B8A0-2D2B6126A3F3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Creating a Dynamic Inline Element

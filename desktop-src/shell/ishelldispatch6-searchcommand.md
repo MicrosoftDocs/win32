@@ -1,6 +1,11 @@
-﻿---
-Description: 'Displays the Apps Search pane, which normally appears when you begin to type a search term from the Start screen.'
-title: 'IShellDispatch6.SearchCommand method'
+---
+Description: Displays the Apps Search pane, which normally appears when you begin to type a search term from the Start screen.
+title: IShellDispatch6.SearchCommand method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IShellDispatch6.SearchCommand method

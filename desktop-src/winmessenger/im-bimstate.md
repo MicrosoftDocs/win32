@@ -1,8 +1,10 @@
 ---
 title: BIMSTATE enumeration
 description: Do not use.
-ms.assetid: '31ed77d0-1315-4493-8d83-ca60222a4ade'
-keywords: ["BIMSTATE enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: 31ed77d0-1315-4493-8d83-ca60222a4ade
+keywords:
+- BIMSTATE enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,38 +13,43 @@ api_location:
 - Basicim.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BIMSTATE enumeration
 
-\[**BIMSTATE** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**BIMSTATE** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Specifies local or remote client state.
 
 > [!Note]  
 > The **BIMSTATE** enumerated type is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger. You should use [**MISTATUS**](im-mistatus.md) instead.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 typedef enum  { 
-  BIMSTATE_UNKNOWN                          = 0x0000,
-  BIMSTATE_OFFLINE                          = 0x0001,
-  BIMSTATE_ONLINE                           = 0x0002,
-  BIMSTATE_INVISIBLE                        = 0x0006,
-  BIMSTATE_BUSY                             = 0x000A,
-  BIMSTATE_BE_RIGHT_BACK                    = 0x000E,
-  BIMSTATE_IDLE                             = 0x0012,
-  BIMSTATE_AWAY                             = 0x0022,
-  BIMSTATE_ON_THE_PHONE                     = 0x0032,
-  BIMSTATE_OUT_TO_LUNCH                     = 0x0042,
-  BIMSTATE_LOCAL_FINDING_SERVER             = 0x0100,
-  BIMSTATE_LOCAL_CONNECTING_TO_SERVER       = 0x0200,
-  BIMSTATE_LOCAL_SYNCHRONIZING_WITH_SERVER  = 0x0300,
-  BIMSTATE_LOCAL_DISCONNECTING_FROM_SERVER  = 0x0400
+  BIMSTATE_UNKNOWN                          = 0x0000,
+  BIMSTATE_OFFLINE                          = 0x0001,
+  BIMSTATE_ONLINE                           = 0x0002,
+  BIMSTATE_INVISIBLE                        = 0x0006,
+  BIMSTATE_BUSY                             = 0x000A,
+  BIMSTATE_BE_RIGHT_BACK                    = 0x000E,
+  BIMSTATE_IDLE                             = 0x0012,
+  BIMSTATE_AWAY                             = 0x0022,
+  BIMSTATE_ON_THE_PHONE                     = 0x0032,
+  BIMSTATE_OUT_TO_LUNCH                     = 0x0042,
+  BIMSTATE_LOCAL_FINDING_SERVER             = 0x0100,
+  BIMSTATE_LOCAL_CONNECTING_TO_SERVER       = 0x0200,
+  BIMSTATE_LOCAL_SYNCHRONIZING_WITH_SERVER  = 0x0300,
+  BIMSTATE_LOCAL_DISCONNECTING_FROM_SERVER  = 0x0400
 } LockError;
 ```
 
@@ -156,16 +163,16 @@ The local client is disconnecting from the server.
 
 |                                  |                                                                                        |
 |----------------------------------|----------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                  |
-| End of server support<br/> | Windows Server 2003<br/>                                                         |
+| End of client support<br/> | Windows XP<br/>                                                                  |
+| End of server support<br/> | Windows Server 2003<br/>                                                         |
 | Header<br/>                | <dl> <dt>Basicim.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Basicim.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

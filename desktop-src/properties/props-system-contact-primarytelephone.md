@@ -1,7 +1,12 @@
 ---
-Description: 'Primary telephone number of the contact.'
-ms.assetid: 'ba4b812f-11f2-4039-958b-1a9e54432748'
-title: 'System.Contact.PrimaryTelephone'
+Description: Primary telephone number of the contact.
+ms.assetid: ba4b812f-11f2-4039-958b-1a9e54432748
+title: System.Contact.PrimaryTelephone
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.PrimaryTelephone

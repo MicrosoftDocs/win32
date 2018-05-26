@@ -1,7 +1,12 @@
 ---
 title: Quick Start - Viewing Heap Data Using Summary Tables
 description: Quick Start - Viewing Heap Data Using Summary Tables
-ms.assetid: '504ea964-bdd6-4acd-9c8f-074208bcc4f3'
+ms.assetid: 504ea964-bdd6-4acd-9c8f-074208bcc4f3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Quick Start - Viewing Heap Data Using Summary Tables

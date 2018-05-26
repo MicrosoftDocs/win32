@@ -1,8 +1,9 @@
 ---
 title: PSM\_SETFINISHTEXT message
 description: Sets the text of the Finish button in a wizard, shows and enables the button, and hides the Next and Back buttons. You can send this message explicitly or by using the PropSheet\_SetFinishText macro.
-ms.assetid: 'fa89c6d7-9ab7-4e7c-ba08-d665420492a3'
-keywords: ["PSM_SETFINISHTEXT message Windows Controls"]
+ms.assetid: fa89c6d7-9ab7-4e7c-ba08-d665420492a3
+keywords:
+- PSM_SETFINISHTEXT message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,11 +14,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SETFINISHTEXT message
 
-Sets the text of the **Finish** button in a wizard, shows and enables the button, and hides the **Next** and **Back** buttons. You can send this message explicitly or by using the [**PropSheet\_SetFinishText**](propsheet-setfinishtext.md) macro.
+Sets the text of the **Finish** button in a wizard, shows and enables the button, and hides the **Next** and **Back** buttons. You can send this message explicitly or by using the [**PropSheet\_SetFinishText**](/windows/win32/Prsht/nf-prsht-propsheet_setfinishtext?branch=master) macro.
 
 ## Parameters
 
@@ -51,16 +57,16 @@ By default, the **Finish** button does not have a keyboard accelerator. You can 
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **PSM\_SETFINISHTEXTW** (Unicode) and **PSM\_SETFINISHTEXTA** (ANSI)<br/>    |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

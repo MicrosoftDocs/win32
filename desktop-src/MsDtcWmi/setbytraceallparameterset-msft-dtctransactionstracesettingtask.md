@@ -4,13 +4,16 @@ description: Modifies the DTC transactions trace setting of the host.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd444f31b-27c7-4195-beb2-d841a3d21e11'
-ms.prod: 'windows-server-dev'
+ms.assetid: d444f31b-27c7-4195-beb2-d841a3d21e11
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetByTraceAllParameterSet method", "SetByTraceAllParameterSet method, MSFT_DtcTransactionsTraceSettingTask class", "MSFT_DtcTransactionsTraceSettingTask class, SetByTraceAllParameterSet method"]
+keywords:
+- SetByTraceAllParameterSet method
+- SetByTraceAllParameterSet method, MSFT_DtcTransactionsTraceSettingTask class
+- MSFT_DtcTransactionsTraceSettingTask class, SetByTraceAllParameterSet method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetByTraceAllParameterSet method of the MSFT\_DtcTransactionsTraceSettingTask class
@@ -30,7 +36,7 @@ Modifies the DTC transactions trace setting of the host.
 
 ```mof
 uint32 SetByTraceAllParameterSet(
-  [in] boolean AllTransactionsTracingEnabled
+  [in] boolean AllTransactionsTracingEnabled
 );
 ```
 
@@ -57,8 +63,8 @@ Returns "0" on success, otherwise returns a WMI error code.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -72,9 +78,9 @@ Returns "0" on success, otherwise returns a WMI error code.
 [**MSFT\_DtcTransactionsTraceSettingTask**](msft-dtctransactionstracesettingtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

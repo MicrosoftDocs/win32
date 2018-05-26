@@ -1,16 +1,18 @@
 ---
 title: CIM\_Component class
-description: A generic association used to establish 'part of' relationships between Managed System Elements. For example, the SystemComponent association defines parts of a System.
+description: A generic association used to establish part of relationships between Managed System Elements. For example, the SystemComponent association defines parts of a System.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b8bd8639-fa1c-4f54-85e0-13fea984a0d0'
-ms.prod: 'windows-server-dev'
+ms.assetid: b8bd8639-fa1c-4f54-85e0-13fea984a0d0
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Component class", "CIM_Component class, described"]
+keywords:
+- CIM_Component class
+- CIM_Component class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Component class
@@ -91,16 +96,16 @@ The child element in the association.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWMI.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

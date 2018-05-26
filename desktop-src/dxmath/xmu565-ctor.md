@@ -1,14 +1,19 @@
-﻿---
-Description: 'Constructors exposed by XMU565.'
-ms.assetid: 'd482dbf5-081c-4a1b-a81f-63d21d46a489'
+---
+Description: Constructors exposed by XMU565.
+ms.assetid: d482dbf5-081c-4a1b-a81f-63d21d46a489
 title: XMU565 constructors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMU565 constructors
 
 Constructors exposed by `XMU565`.
 
-Constructs instances of the [**XMU565**](xmu565.md) structure.
+Constructs instances of the [**XMU565**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master) structure.
 
 > [!Note]  
 > The constructors listed here are only available under C++.
@@ -33,7 +38,7 @@ Constructs instances of the [**XMU565**](xmu565.md) structure.
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMU565 (uint16_t)</strong>](xmu565-ctor-2.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](xmu565.md) from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a <code>uint16_t</code> variable containing component data in a packed format. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master) from a <code>uint16_t</code> variable containing component data in a packed format. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -42,7 +47,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMU565 (const float*)</strong>](xmu565-ctor-6.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>float</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](xmu565.md) from a three element <code>float</code> array. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>float</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master) from a three element <code>float</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -51,7 +56,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMU565 (const int8_t*)</strong>](xmu565-ctor-4.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>int8_t</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](xmu565.md) from a three element <code>int8_t</code> array. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from a three element <code>int8_t</code> array. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master) from a three element <code>int8_t</code> array. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -60,7 +65,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMU565 (float,float,float)</strong>](xmu565-ctor-5.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](xmu565.md) from three <code>float</code> arguments. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>float</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master) from three <code>float</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -69,7 +74,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="odd">
 <td style="text-align: left;">[<strong>XMU565 (int8_t,int8_t,int8_t)</strong>](xmu565-ctor-3.md)</td>
-<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](xmu565.md) from three <code>int8_t</code> arguments. <br/>
+<td style="text-align: left;">Initializes a new instance of <code>XMU565</code> from three <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of [<strong>XMU565</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master) from three <code>int8_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -78,7 +83,7 @@ This constructor is only available under C++.
 </tr>
 <tr class="even">
 <td style="text-align: left;">[<strong>XMU565 ()</strong>](xmu565-ctor-1.md)</td>
-<td style="text-align: left;">Default constructor for <code>XMU565</code><br/> Default constructor for [<strong>XMU565</strong>](xmu565.md)<br/>
+<td style="text-align: left;">Default constructor for <code>XMU565</code><br/> Default constructor for [<strong>XMU565</strong>](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master)<br/>
 <blockquote>
 [!Note]<br />
 This is only available for C++ based development.
@@ -100,7 +105,7 @@ This is only available for C++ based development.
 **Reference**
 </dt> <dt>
 
-[**XMU565**](xmu565.md)
+[**XMU565**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmu565?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the properties supported by an object.'
-ms.assetid: '842bd4d6-0824-4597-bb5d-9ef8769055fb'
-title: 'WPD\_COMMAND\_OBJECT\_PROPERTIES\_GET\_SUPPORTED Command'
+Description: Retrieves the properties supported by an object.
+ms.assetid: 842bd4d6-0824-4597-bb5d-9ef8769055fb
+title: WPD\_COMMAND\_OBJECT\_PROPERTIES\_GET\_SUPPORTED Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_OBJECT\_PROPERTIES\_GET\_SUPPORTED Command
@@ -24,7 +29,7 @@ The driver expects the following parameter.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -40,7 +45,7 @@ The driver should return the following results.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -59,9 +64,9 @@ The driver should return the following results.
 [**Commands**](commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

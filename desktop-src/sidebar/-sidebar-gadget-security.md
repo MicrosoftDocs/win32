@@ -1,8 +1,39 @@
 ---
 title: Gadgets for Windows Sidebar Security
 description: This overview contains information about the security model of the Windows Sidebar.
-ms.assetid: 'e686b4f1-776a-491a-946d-95f5681c5ea4'
-keywords: ["Windows Sidebar,security", "Sidebar,security", "gadgets,security", "security for Windows Sidebar", "Windows Sidebar,packaging", "Sidebar,packaging", "gadgets,packaging", "Windows Sidebar,Windows Defender", "Sidebar,Windows Defender", "gadgets,Windows Defender", "Windows Defender", "Defender", "Windows Sidebar,HTML Application (HTA)", "Sidebar,HTML Application (HTA)", "gadgets,HTML Application (HTA)", "HTML Application (HTA)", "HTA (HTML Application)", "Windows Sidebar,User Account Control (UAC)", "Sidebar,User Account Control (UAC)", "gadgets,User Account Control (UAC)", "User Account Control (UAC)", "UAC (User Account Control)", "Windows Sidebar,parental controls", "Sidebar,parental controls", "gadgets,parental controls", "parental controls"]
+ms.assetid: e686b4f1-776a-491a-946d-95f5681c5ea4
+keywords:
+- Windows Sidebar,security
+- Sidebar,security
+- gadgets,security
+- security for Windows Sidebar
+- Windows Sidebar,packaging
+- Sidebar,packaging
+- gadgets,packaging
+- Windows Sidebar,Windows Defender
+- Sidebar,Windows Defender
+- gadgets,Windows Defender
+- Windows Defender
+- Defender
+- Windows Sidebar,HTML Application (HTA)
+- Sidebar,HTML Application (HTA)
+- gadgets,HTML Application (HTA)
+- HTML Application (HTA)
+- HTA (HTML Application)
+- Windows Sidebar,User Account Control (UAC)
+- Sidebar,User Account Control (UAC)
+- gadgets,User Account Control (UAC)
+- User Account Control (UAC)
+- UAC (User Account Control)
+- Windows Sidebar,parental controls
+- Sidebar,parental controls
+- gadgets,parental controls
+- parental controls
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadgets for Windows Sidebar Security

@@ -4,11 +4,14 @@ description: Describes data that pertains to the authentication callback.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'CD7D862D-49BF-4CD1-8487-A4CBB33C3743'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: CD7D862D-49BF-4CD1-8487-A4CBB33C3743
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IPC_OAUTH2_CALLBACK_INFO structure Active Directory Rights Management Services SDK 2.0", "IPC_OATH2_CALLBACK_INFO structure Active Directory Rights Management Services SDK 2.0", "PIPC_OATH2_CALLBACK_INFO structure pointer Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IPC_OAUTH2_CALLBACK_INFO structure Active Directory Rights Management Services SDK 2.0
+- IPC_OATH2_CALLBACK_INFO structure Active Directory Rights Management Services SDK 2.0
+- PIPC_OATH2_CALLBACK_INFO structure pointer Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Ipcbase.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
 ---
 
 # IPC\_OAUTH2\_CALLBACK\_INFO structure
@@ -28,9 +34,9 @@ Describes data that pertains to the authentication callback.
 
 ```C++
 typedef struct _IPC_OATH2_CALLBACK_INFO {
-  DWORD               cbSize;
+  DWORD               cbSize;
   IPC_OAUTH2_CALLBACK pfnCallback;
-  LPVOID              pvContext;
+  LPVOID              pvContext;
 } IPC_OATH2_CALLBACK_INFO, *PIPC_OATH2_CALLBACK_INFO;
 ```
 
@@ -69,15 +75,15 @@ Pointer to an application-defined structure which is passed to the function poin
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcbase.h (include Msipc.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

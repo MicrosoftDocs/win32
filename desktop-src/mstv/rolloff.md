@@ -1,8 +1,9 @@
 ---
 title: RollOff enumeration
 description: Specifies the roll-off factor.
-ms.assetid: '4b1cd08a-50fd-48e9-9e97-8460e6c990c1'
-keywords: ["RollOff enumeration Microsoft TV Technologies"]
+ms.assetid: 4b1cd08a-50fd-48e9-9e97-8460e6c990c1
+keywords:
+- RollOff enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RollOff enumeration
@@ -22,9 +28,9 @@ Specifies the roll-off factor.
 
 ```C++
 typedef enum RollOff { 
-  BDA_ROLL_OFF_NOT_SET      = -1,
-  BDA_ROLL_OFF_NOT_DEFINED  = 0,
-  BDA_ROLL_OFF_20           = 1,
+  BDA_ROLL_OFF_NOT_SET      = -1,
+  BDA_ROLL_OFF_NOT_DEFINED  = 0,
+  BDA_ROLL_OFF_20           = 1,
   BDA_ROLL_OFF_25,
   BDA_ROLL_OFF_35,
   BDA_ROLL_OFF_MAX
@@ -85,15 +91,15 @@ Reserved. Do not use.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | None supported<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Bdatypes.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

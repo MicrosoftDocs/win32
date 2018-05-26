@@ -1,8 +1,10 @@
 ---
 title: IVMDVDDriveCollection interface
 description: The IVMDVDDriveCollection interface defines the collection of DVD drives within the virtual machine. An IVMDVDDriveCollection object is returned from the IVMVirtualMachine DVDROMDrives property.
-ms.assetid: '6c3bc962-1907-4895-bcb0-8c54d467a39c'
-keywords: ["IVMDVDDriveCollection interface Virtual Server", "IVMDVDDriveCollection interface Virtual Server , described"]
+ms.assetid: 6c3bc962-1907-4895-bcb0-8c54d467a39c
+keywords:
+- IVMDVDDriveCollection interface Virtual Server
+- IVMDVDDriveCollection interface Virtual Server , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMDVDDriveCollection interface
@@ -37,7 +44,7 @@ The **IVMDVDDriveCollection** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -45,15 +52,15 @@ The **IVMDVDDriveCollection** interface has these properties.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

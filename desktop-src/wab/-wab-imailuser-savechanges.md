@@ -1,8 +1,11 @@
 ---
 title: IMailUser SaveChanges method
 description: Saves changes to the open mail user object.
-ms.assetid: 'b96a35f0-8b16-43b4-8595-7c2df7b78c82'
-keywords: ["SaveChanges method Windows Address Book", "SaveChanges method Windows Address Book , IMailUser interface", "IMailUser interface Windows Address Book , SaveChanges method"]
+ms.assetid: b96a35f0-8b16-43b4-8595-7c2df7b78c82
+keywords:
+- SaveChanges method Windows Address Book
+- SaveChanges method Windows Address Book , IMailUser interface
+- IMailUser interface Windows Address Book , SaveChanges method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wab32.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMailUser::SaveChanges method
@@ -22,7 +30,7 @@ Saves changes to the open mail user object.
 
 ```C++
 HRESULT SaveChanges(
-   ULONG ulFlags
+   ULONG ulFlags
 );
 ```
 
@@ -102,7 +110,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -118,8 +126,8 @@ If KEEP\_OPEN\_READONLY is set and the object cannot be kept open for read-only 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Product<br/>                  | Internet Explorer 4.0<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Wabtmp.h</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>Wab32.dll</dt> </dl> |
@@ -130,15 +138,15 @@ If KEEP\_OPEN\_READONLY is set and the object cannot be kept open for read-only 
 
 <dl> <dt>
 
-[**IMailUser**](-wab-imailuser.md)
+[**IMailUser**](/windows/previous-versions/wabdefs/?branch=master)
 </dt> <dt>
 
-[**OpenEntry**](-wab-iaddrbook-openentry.md)
+[**OpenEntry**](/windows/previous-versions/Wabiab/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

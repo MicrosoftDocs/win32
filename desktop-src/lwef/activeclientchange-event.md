@@ -1,7 +1,12 @@
 ---
 title: ActiveClientChange Event
 description: ActiveClientChange Event
-ms.assetid: '617b40e6-cafb-463e-8b36-2a12c468d3ae'
+ms.assetid: 617b40e6-cafb-463e-8b36-2a12c468d3ae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveClientChange Event
@@ -31,7 +36,7 @@ Occurs when the active client of the character changes.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -48,9 +53,9 @@ A client application may receive this event when the user selects a client appli
 [****ActivateInput** event**](activateinput-event.md), [****Active** property**](active-property.md), [****DeactivateInput** event**](deactivateinput-event.md), [****Activate** method**](activate-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

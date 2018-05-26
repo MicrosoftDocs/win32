@@ -1,7 +1,12 @@
 ---
-Description: 'The following Microsoft Visual Basic code example demonstrates how to manage a collection of fax devices.'
-ms.assetid: '8e0d5b13-2126-49a2-80b7-ae3a817496bd'
+Description: The following Microsoft Visual Basic code example demonstrates how to manage a collection of fax devices.
+ms.assetid: 8e0d5b13-2126-49a2-80b7-ae3a817496bd
 title: Managing the Fax Device Collection
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing the Fax Device Collection

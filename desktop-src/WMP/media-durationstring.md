@@ -1,8 +1,9 @@
 ---
 title: Media.durationString
 description: The durationString property retrieves a String value indicating the duration of the current media item in HH MM SS format.
-ms.assetid: 'dfcb4c2e-c62c-4c3e-a9f4-fd147fb5b28c'
-keywords: ["Media.durationString Windows Media Player"]
+ms.assetid: dfcb4c2e-c62c-4c3e-a9f4-fd147fb5b28c
+keywords:
+- Media.durationString Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.durationString
@@ -83,9 +89,9 @@ if (NewState == 13){
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

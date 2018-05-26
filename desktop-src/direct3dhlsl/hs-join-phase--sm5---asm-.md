@@ -1,7 +1,12 @@
 ---
 title: hs\_join\_phase (sm5 - asm)
 description: Start the join phase in a hull shader.
-ms.assetid: 'C53889BE-B65F-4F5F-8B87-7C5263FAC800'
+ms.assetid: C53889BE-B65F-4F5F-8B87-7C5263FAC800
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hs\_join\_phase (sm5 - asm)

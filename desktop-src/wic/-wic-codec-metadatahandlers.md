@@ -1,7 +1,12 @@
 ---
-Description: 'This topic introduces the requirements for creating custom metadata handlers for the Windows Imaging Component (WIC), including both metadata readers and writers.'
-ms.assetid: '08f1872b-6e4d-44ee-abc7-48685e435acc'
+Description: This topic introduces the requirements for creating custom metadata handlers for the Windows Imaging Component (WIC), including both metadata readers and writers.
+ms.assetid: 08f1872b-6e4d-44ee-abc7-48685e435acc
 title: Metadata Extensibility Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Extensibility Overview
@@ -42,13 +47,13 @@ In addition to the native handlers provided, WIC provides APIs that enable you t
 
 The following steps enable your metadata handlers to participate in WIC's run-time metadata discovery.
 
--   Implement a metadata-reader handler class ([**IWICMetadataReader**](-wic-codec-iwicmetadatareader.md)) that exposes the required WIC interfaces for reading your custom metadata format. This enables WIC-based applications to read your metadata format the same way they read native metadata formats.
--   Implement a metadata-writer handler class ([**IWICMetadataWriter**](-wic-codec-iwicmetadatawriter.md)) that exposes the required WIC interfaces for encoding your custom metadata format. This enables WIC-based applications to serialize your metadata format into supported image formats.
+-   Implement a metadata-reader handler class ([**IWICMetadataReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader?branch=master)) that exposes the required WIC interfaces for reading your custom metadata format. This enables WIC-based applications to read your metadata format the same way they read native metadata formats.
+-   Implement a metadata-writer handler class ([**IWICMetadataWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter?branch=master)) that exposes the required WIC interfaces for encoding your custom metadata format. This enables WIC-based applications to serialize your metadata format into supported image formats.
 -   Digitally sign and register your metadata handlers. This enables your metadata handlers to be discovered at run time by matching the identifying pattern in the registry with the pattern embedded in the image file.
 
 ## Creating a Metadata Reader
 
-The main access to metadata blocks within a codec is through the [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) interface that each WIC codec implements. This interface enumerates each of the metadata blocks embedded in an image format so that the appropriate metadata handler can be discovered and instantiated for each block. The metadata blocks that are not recognized by WIC are considered unknown and are defined as the GUID CLSID\_WICUnknownMetadataReader. To have your metadata format recognized by WIC, you must create a class that implements three interfaces: [**IWICMetadataReader**](-wic-codec-iwicmetadatareader.md), [**IWICPersistStream**](-wic-codec-iwicpersiststream.md), and [**IWICStreamProvider**](-wic-codec-iwicstreamprovider.md).
+The main access to metadata blocks within a codec is through the [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) interface that each WIC codec implements. This interface enumerates each of the metadata blocks embedded in an image format so that the appropriate metadata handler can be discovered and instantiated for each block. The metadata blocks that are not recognized by WIC are considered unknown and are defined as the GUID CLSID\_WICUnknownMetadataReader. To have your metadata format recognized by WIC, you must create a class that implements three interfaces: [**IWICMetadataReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader?branch=master), [**IWICPersistStream**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicpersiststream?branch=master), and [**IWICStreamProvider**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicstreamprovider?branch=master).
 
 > [!Note]  
 > If your metadata format has restrictions that render some methods of the required interfaces inappropriate, such methods should return WINCODEC\_ERR\_UNSUPPORTEDOPERATION.
@@ -57,7 +62,7 @@ The main access to metadata blocks within a codec is through the [**IWICMetadata
 
 ### IWICMetadataReader Interface
 
-The [**IWICMetadataReader**](-wic-codec-iwicmetadatareader.md) interface must be implemented when creating a metadata reader. This interface provides access to the underling metadata items within the data stream of a metadata format.
+The [**IWICMetadataReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader?branch=master) interface must be implemented when creating a metadata reader. This interface provides access to the underling metadata items within the data stream of a metadata format.
 
 The following code shows the definition of the metadata reader interface as defined in the wincodecsdk.idl file.
 
@@ -97,7 +102,7 @@ interface IWICMetadataReader : IUnknown
 
 The **GetMetadataFormat** method returns the GUID of your metadata format.
 
-The **GetMetadataHandlerInfo** method returns an [**IWICMetadataHandlerInfo**](-wic-codec-iwicmetadatahandlerinfo.md) interface that provides information about your metadata handler. This includes information such as what image formats support the metadata format and whether your metadata reader requires access to the full metadata stream.
+The **GetMetadataHandlerInfo** method returns an [**IWICMetadataHandlerInfo**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo?branch=master) interface that provides information about your metadata handler. This includes information such as what image formats support the metadata format and whether your metadata reader requires access to the full metadata stream.
 
 The **GetCount** method returns the number of individual metadata items (including embedded metadata blocks) found within the metadata stream.
 
@@ -156,7 +161,7 @@ The **GetEnumerator** method returns an enumerator of each metadata item in the 
 
 If your metadata format does not have a notion of schemas for metadata items, the GetValue... methods should ignore this property. If, however, your format supports schema naming, you should anticipate a **NULL** value.
 
-If a metadata item is an embedded metadata block, create a metadata handler from the substream of the embedded content and return the new metadata handler. If there is no metadata reader available for the nested block, instantiate and return an unknown metadata reader. To create a new metadata reader for the embedded block, call the component factory's **CreateMetadataReaderFromContainer** or **CreateMetadataReader** methods, or call the [**WICMatchMetadataContent**](-wic-codec-wicmatchmetadatacontent.md) function.
+If a metadata item is an embedded metadata block, create a metadata handler from the substream of the embedded content and return the new metadata handler. If there is no metadata reader available for the nested block, instantiate and return an unknown metadata reader. To create a new metadata reader for the embedded block, call the component factory's **CreateMetadataReaderFromContainer** or **CreateMetadataReader** methods, or call the [**WICMatchMetadataContent**](/windows/win32/wincodecsdk/nf-wincodecsdk-wicmatchmetadatacontent?branch=master) function.
 
 If the metadata stream contains big-endian content, the metadata reader is responsible for swapping any data values it processes. It is also responsible for informing any nested metadata readers that they are working with big-endian data stream. However, all values should be returned in little-endian format.
 
@@ -166,9 +171,9 @@ When getting a metadata item by ID, you should use [PropVariantChangeType Functi
 
 ### IWICPersistStream Interface
 
-The [**IWICPersistStream**](-wic-codec-iwicpersiststream.md) interface inherits from **IPersistStream** and provides additional methods for saving and loading objects by using the [**WICPersistOptions**](-wic-codec-wicpersistoptions.md) enumeration.
+The [**IWICPersistStream**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicpersiststream?branch=master) interface inherits from **IPersistStream** and provides additional methods for saving and loading objects by using the [**WICPersistOptions**](/windows/win32/Wincodecsdk/ne-wincodecsdk-wicpersistoptions?branch=master) enumeration.
 
-The following code shows the definition of the [**IWICPersistStream**](-wic-codec-iwicpersiststream.md) interface as defined in the wincodecsdk.idl file.
+The following code shows the definition of the [**IWICPersistStream**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicpersiststream?branch=master) interface as defined in the wincodecsdk.idl file.
 
 ``` syntax
 interface IWICPersistStream : IPersistStream
@@ -193,9 +198,9 @@ The **SaveEx** method is used by metadata writers to serialize your metadata blo
 
 ### IWICStreamProvider Interface
 
-The [**IWICStreamProvider**](-wic-codec-iwicstreamprovider.md) interface enables your metadata reader to provide references to its content stream, provide information about the stream, and refresh cached versions of the stream.
+The [**IWICStreamProvider**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicstreamprovider?branch=master) interface enables your metadata reader to provide references to its content stream, provide information about the stream, and refresh cached versions of the stream.
 
-The following code shows the definition of the [**IWICStreamProvider**](-wic-codec-iwicstreamprovider.md) interface as defined in the wincodecsdk.idl file.
+The following code shows the definition of the [**IWICStreamProvider**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicstreamprovider?branch=master) interface as defined in the wincodecsdk.idl file.
 
 ``` syntax
 interface IWICStreamProvider : IUnknown
@@ -219,7 +224,7 @@ interface IWICStreamProvider : IUnknown
 
 The **GetStream** method retrieves a reference to your metadata stream. The stream you return should have the stream pointer reset to the start position. If your metadata format requires full stream access, the start position should be the start of your metadata block.
 
-The **GetPersistOptions** method returns the stream's current options from the [**WICPersistOptions**](-wic-codec-wicpersistoptions.md) enumeration.
+The **GetPersistOptions** method returns the stream's current options from the [**WICPersistOptions**](/windows/win32/Wincodecsdk/ne-wincodecsdk-wicpersistoptions?branch=master) enumeration.
 
 The **GetPreferredVendorGUID** method returns the GUID of the vendor of the metadata reader.
 
@@ -227,7 +232,7 @@ The **RefreshStream** method refreshes the metadata stream. This method must cal
 
 ## Creating a Metadata Writer
 
-A metadata writer is a type of metadata handler that provides a way to serialize a metadata block to an image frame, or outside an individual frame if the image format supports it. The main access to the metadata writers within a codec is through the [**IWICMetadataBlockWriter**](-wic-codec-iwicmetadatablockwriter.md) interface that each WIC encoder implements. This interface enables applications to enumerate each of the metadata blocks embedded in an image so that the appropriate metadata writer can be discovered and instantiated for each metadata block. Metadata blocks that do not have a corresponding metadata writer are considered unknown, and are defined as the GUID CLSID\_WICUnknownMetadataReader. To enable WIC enabled applications to serialize and write your metadata format, you must create a class that implements the following interfaces: [**IWICMetadataWriter**](-wic-codec-iwicmetadatawriter.md), [**IWICMetadataReader**](-wic-codec-iwicmetadatareader.md), [**IWICPersistStream**](-wic-codec-iwicpersiststream.md), and [**IWICStreamProvider**](-wic-codec-iwicstreamprovider.md).
+A metadata writer is a type of metadata handler that provides a way to serialize a metadata block to an image frame, or outside an individual frame if the image format supports it. The main access to the metadata writers within a codec is through the [**IWICMetadataBlockWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter?branch=master) interface that each WIC encoder implements. This interface enables applications to enumerate each of the metadata blocks embedded in an image so that the appropriate metadata writer can be discovered and instantiated for each metadata block. Metadata blocks that do not have a corresponding metadata writer are considered unknown, and are defined as the GUID CLSID\_WICUnknownMetadataReader. To enable WIC enabled applications to serialize and write your metadata format, you must create a class that implements the following interfaces: [**IWICMetadataWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter?branch=master), [**IWICMetadataReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader?branch=master), [**IWICPersistStream**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicpersiststream?branch=master), and [**IWICStreamProvider**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicstreamprovider?branch=master).
 
 > [!Note]  
 > If your metadata format has restrictions that render some methods of the required interfaces inappropriate, such methods should return WINCODEC\_ERR\_UNSUPPORTEDOPERATION.
@@ -236,7 +241,7 @@ A metadata writer is a type of metadata handler that provides a way to serialize
 
 ### IWICMetadataWriter Interface
 
-The [**IWICMetadataWriter**](-wic-codec-iwicmetadatawriter.md) interface must be implemented by your metadata writer. Additionally, because **IWICMetadataWriter** inherits from [**IWICMetadataReader**](-wic-codec-iwicmetadatareader.md), you must also implement all the methods of **IWICMetadataReader**. Because both handler types require the same interface inheritance, you might want to create a single class that provides both reading and writing functionality.
+The [**IWICMetadataWriter**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter?branch=master) interface must be implemented by your metadata writer. Additionally, because **IWICMetadataWriter** inherits from [**IWICMetadataReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader?branch=master), you must also implement all the methods of **IWICMetadataReader**. Because both handler types require the same interface inheritance, you might want to create a single class that provides both reading and writing functionality.
 
 The following code shows the definition of the metadata writer interface as defined in the wincodecsdk.idl file.
 
@@ -281,15 +286,15 @@ Your metadata writer must commit all metadata items to the image stream, includi
 
 If the metadata stream contains big-endian content, the metadata writer is responsible for swapping any data values it processes. It is also responsible for informing any nested metadata writers that they are working with a big-endian data stream when they save.
 
-Implement support for namespace creation and removal by supporting set and remove operations on metadata items with a type of `VT_CLSID` (a GUID) corresponding to a metadata format. The metadata writer calls the [**WICSerializeMetadataContent**](-wic-codec-wicserializemetadatacontent.md) function to properly embed the nested metadata writer content into the parent metadata writer.
+Implement support for namespace creation and removal by supporting set and remove operations on metadata items with a type of `VT_CLSID` (a GUID) corresponding to a metadata format. The metadata writer calls the [**WICSerializeMetadataContent**](/windows/win32/wincodecsdk/nf-wincodecsdk-wicserializemetadatacontent?branch=master) function to properly embed the nested metadata writer content into the parent metadata writer.
 
 If your metadata format supports in-place encoding, you are responsible for managing the required padding. For more information on in-place encoding, see [WIC Metadata Overview](-wic-about-metadata.md) and [Overview of Reading and Writing Image Metadata](-wic-codec-readingwritingmetadata.md).
 
 ### IWICPersistStream Interface
 
-The [**IWICPersistStream**](-wic-codec-iwicpersiststream.md) interface inherits from **IPersistStream** and provides additional methods for saving and loading objects by using the [**WICPersistOptions**](-wic-codec-wicpersistoptions.md) enumeration.
+The [**IWICPersistStream**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicpersiststream?branch=master) interface inherits from **IPersistStream** and provides additional methods for saving and loading objects by using the [**WICPersistOptions**](/windows/win32/Wincodecsdk/ne-wincodecsdk-wicpersistoptions?branch=master) enumeration.
 
-The following code shows the definition of the [**IWICPersistStream**](-wic-codec-iwicpersiststream.md) interface as defined in the wincodecsdk.idl file.
+The following code shows the definition of the [**IWICPersistStream**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicpersiststream?branch=master) interface as defined in the wincodecsdk.idl file.
 
 ``` syntax
 interface IWICPersistStream : IPersistStream
@@ -320,7 +325,7 @@ If your metadata format supports nested metadata blocks, your metadata writer sh
 
 ### IWICStreamProvider Interface
 
-The implementation of the [**IWICStreamProvider**](-wic-codec-iwicstreamprovider.md) interface for a metadata writer is the same as that of a metadata reader. For more information, see Creating a Metadata Reader section in this document.
+The implementation of the [**IWICStreamProvider**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicstreamprovider?branch=master) interface for a metadata writer is the same as that of a metadata reader. For more information, see Creating a Metadata Reader section in this document.
 
 ## Installing and Registering a Metadata Handler
 

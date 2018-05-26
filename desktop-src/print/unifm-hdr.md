@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UNIFM\_HDR structure is used to define the contents of Unidrv font metrics files (.ufm files).'
-ms.assetid: '9490d090-2156-4653-9e56-a233d23c2fb3'
-title: 'UNIFM\_HDR structure'
+---
+Description: The UNIFM\_HDR structure is used to define the contents of Unidrv font metrics files (.ufm files).
+ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
+title: UNIFM\_HDR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UNIFM\_HDR structure

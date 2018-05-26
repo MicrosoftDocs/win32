@@ -1,8 +1,11 @@
 ---
 title: IWMPStringCollection2 getAttributeCountByType method
 description: The getAttributeCountByType method returns the number of attributes associated with the specified string collection index, attribute name, and language.
-ms.assetid: '30312039-3676-4322-b6f6-fb86098bf578'
-keywords: ["getAttributeCountByType method Windows Media Player", "getAttributeCountByType method Windows Media Player , IWMPStringCollection2 interface", "IWMPStringCollection2 interface Windows Media Player , getAttributeCountByType method"]
+ms.assetid: 30312039-3676-4322-b6f6-fb86098bf578
+keywords:
+- getAttributeCountByType method Windows Media Player
+- getAttributeCountByType method Windows Media Player , IWMPStringCollection2 interface
+- IWMPStringCollection2 interface Windows Media Player , getAttributeCountByType method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPStringCollection2::getAttributeCountByType method
@@ -110,9 +118,9 @@ To use this method, read access to the library is required. For more information
 [**IWMPStringCollection2.getItemInfoByType (VB and C#)**](wmplibiwmpstringcollection2-iwmpstringcollection2-getiteminfobytype--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

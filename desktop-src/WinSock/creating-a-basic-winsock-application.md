@@ -1,7 +1,12 @@
 ---
-Description: 'How to create a basic Windows Sockets (Winsock) application.'
-ms.assetid: '56af2e95-ea82-49e4-b335-86dcf4c38780'
+Description: How to create a basic Windows Sockets (Winsock) application.
+ms.assetid: 56af2e95-ea82-49e4-b335-86dcf4c38780
 title: Creating a Basic Winsock Application
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Basic Winsock Application

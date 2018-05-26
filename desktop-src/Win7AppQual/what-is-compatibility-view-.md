@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '1EAC5799-7943-40AB-A67E-F6D6888C4B7D'
-title: 'What Is Compatibility View?'
+Description: .
+ms.assetid: 1EAC5799-7943-40AB-A67E-F6D6888C4B7D
+title: What Is Compatibility View?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What Is Compatibility View?

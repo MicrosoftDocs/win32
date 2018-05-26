@@ -1,13 +1,16 @@
 ---
-Description: 'Registers information about the physical implementation of a provider in WMI. Providers that do not set the HostingModel property are loaded, by default, to run in a Wmiprvse.exe process as NetworkServiceHostOrSelfHost.'
+Description: Registers information about the physical implementation of a provider in WMI. Providers that do not set the HostingModel property are loaded, by default, to run in a Wmiprvse.exe process as NetworkServiceHostOrSelfHost.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '41e0d938-00c6-4f4c-8027-8b8512398dee'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 41e0d938-00c6-4f4c-8027-8b8512398dee
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_Win32Provider class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_Win32Provider class
@@ -21,30 +24,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __Win32Provider : __Provider
 {
-  string   ClientLoadableCLSID;
-  string   CLSID;
-  sint32   Concurrency;
-  string   DefaultMachineName;
-  boolean  Enabled;
-  string   HostingModel;
-  sint32   ImpersonationLevel = 0;
-  sint32   InitializationReentrancy;
+  string   ClientLoadableCLSID;
+  string   CLSID;
+  sint32   Concurrency;
+  string   DefaultMachineName;
+  boolean  Enabled;
+  string   HostingModel;
+  sint32   ImpersonationLevel = 0;
+  sint32   InitializationReentrancy;
   datetime InitializationTimeoutInterval;
-  boolean  InitializeAsAdminFirst;
-  string   Name;
+  boolean  InitializeAsAdminFirst;
+  string   Name;
   datetime OperationTimeoutInterval;
-  boolean  PerLocaleInitialization = FALSE;
-  boolean  PerUserInitialization = FALSE;
-  boolean  Pure = TRUE;
-  string   SecurityDescriptor;
-  boolean  SupportsExplicitShutdown;
-  boolean  SupportsExtendedStatus;
-  boolean  SupportsQuotas;
-  boolean  SupportsSendStatus;
-  boolean  SupportsShutdown;
-  boolean  SupportsThrottling;
+  boolean  PerLocaleInitialization = FALSE;
+  boolean  PerUserInitialization = FALSE;
+  boolean  Pure = TRUE;
+  string   SecurityDescriptor;
+  boolean  SupportsExplicitShutdown;
+  boolean  SupportsExtendedStatus;
+  boolean  SupportsQuotas;
+  boolean  SupportsSendStatus;
+  boolean  SupportsShutdown;
+  boolean  SupportsThrottling;
   datetime UnloadTimeout;
-  uint32   Version;
+  uint32   Version;
 };
 ```
 
@@ -84,7 +87,7 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-**GUID** that represents the class identifier (**CLSID**) of the provider COM object. This COM object must contain an implementation of the [**IWbemProviderInit**](iwbemproviderinit.md) interface.
+**GUID** that represents the class identifier (**CLSID**) of the provider COM object. This COM object must contain an implementation of the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) interface.
 
 </dd> <dt>
 
@@ -292,9 +295,9 @@ Data type: **string**
 Access type: Read/write
 </dt> </dl>
 
-Security descriptor (SD) in the Security Descriptor Definition Language (SDDL) that determines the set of users that can successfully call [**IWbemDecoupledRegistrar:Register**](iwbemdecoupledregistrar-register.md) for the decoupled provider. For more information, see the [Security Descriptor Definition Language](https://msdn.microsoft.com/library/windows/desktop/aa379567) topic in the Security section of the Windows SDK. This security descriptor is used only for decoupled providers, and does not affect other providers. For more information, see [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md).
+Security descriptor (SD) in the Security Descriptor Definition Language (SDDL) that determines the set of users that can successfully call [**IWbemDecoupledRegistrar:Register**](/windows/win32/Wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register?branch=master) for the decoupled provider. For more information, see the [Security Descriptor Definition Language](https://msdn.microsoft.com/library/windows/desktop/aa379567) topic in the Security section of the Windows SDK. This security descriptor is used only for decoupled providers, and does not affect other providers. For more information, see [Incorporating a Provider in an Application](incorporating-a-provider-in-an-application.md).
 
-WMI performs access checks for decoupled providers that use the [**IWbemProviderInit**](iwbemproviderinit.md) and [**IWbemObjectSink**](iwbemobjectsink.md) interfaces. If the security descriptor is **NULL**, then only applications or services that run under the LocalSystem, NetworkService, LocalService accounts can run a decoupled provider.
+WMI performs access checks for decoupled providers that use the [**IWbemProviderInit**](/windows/win32/Wbemprov/nn-wbemprov-iwbemproviderinit?branch=master) and [**IWbemObjectSink**](iwbemobjectsink.md) interfaces. If the security descriptor is **NULL**, then only applications or services that run under the LocalSystem, NetworkService, LocalService accounts can run a decoupled provider.
 
 The following string shows a decoupled provider to be run only by built-in Administrators."O:BAG:BAD:(A;;0x1;;;BA)"
 
@@ -426,8 +429,8 @@ WMI must be able to distinguish pure providers from non-pure providers so that i
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -445,9 +448,9 @@ WMI must be able to distinguish pure providers from non-pure providers so that i
 [Registering a Provider](registering-a-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

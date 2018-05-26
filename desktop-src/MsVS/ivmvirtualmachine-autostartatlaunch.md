@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine AutoStartAtLaunch property
 description: The AutoStartAtLaunch property contains whether this virtual machine will start up automatically when Virtual Server is launched.
-ms.assetid: '5ad29347-2e54-42e2-8440-a5ad551f7f9a'
-keywords: ["AutoStartAtLaunch property Virtual Server", "AutoStartAtLaunch property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , AutoStartAtLaunch property", "AutoStartAtLaunch property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , AutoStartAtLaunch property"]
+ms.assetid: 5ad29347-2e54-42e2-8440-a5ad551f7f9a
+keywords:
+- AutoStartAtLaunch property Virtual Server
+- AutoStartAtLaunch property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , AutoStartAtLaunch property
+- AutoStartAtLaunch property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , AutoStartAtLaunch property
 topic_type:
 - apiref
 api_name:
@@ -14,6 +19,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::AutoStartAtLaunch property
@@ -27,11 +37,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_AutoStartAtLaunch(
-  [in]  VMAutoStartType autoStartAtLaunch
+  [in]  VMAutoStartType autoStartAtLaunch
 );
 
 HRESULT get_AutoStartAtLaunch(
-  [out] VMAutoStartType *autoStartAtLaunch
+  [out] VMAutoStartType *autoStartAtLaunch
 );
 ```
 
@@ -104,8 +114,8 @@ WScript.Echo "Autostart at launch: " & objVM.AutoStartAtLaunch
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -120,9 +130,9 @@ WScript.Echo "Autostart at launch: " & objVM.AutoStartAtLaunch
 [**VMAutoStartType**](vmautostarttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

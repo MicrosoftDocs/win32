@@ -4,13 +4,16 @@ description: Binds or unbinds the DHCP server from the specified IPv6 interface 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '57d5133d-a3b3-47f9-9c68-1da614340231'
-ms.prod: 'windows-server-dev'
+ms.assetid: 57d5133d-a3b3-47f9-9c68-1da614340231
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Set method", "Set method, PS_DhcpServerv6Binding class", "PS_DhcpServerv6Binding class, Set method"]
+keywords:
+- Set method
+- Set method, PS_DhcpServerv6Binding class
+- PS_DhcpServerv6Binding class, Set method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Set method of the PS\_DhcpServerv6Binding class
@@ -30,11 +36,11 @@ Binds or unbinds the DHCP server from the specified IPv6 interface on the system
 
 ```mof
 uint32 Set(
-  [in]  string              ComputerName,
-  [in]  boolean             BindingState,
-  [in]  string              InterfaceAlias[],
-  [in]  boolean             PassThru,
-  [out] DhcpServerv6Binding cmdletOutput[]
+  [in]  string              ComputerName,
+  [in]  boolean             BindingState,
+  [in]  string              InterfaceAlias[],
+  [in]  boolean             PassThru,
+  [out] DhcpServerv6Binding cmdletOutput[]
 );
 ```
 
@@ -86,7 +92,7 @@ An embedded instance of the [**DhcpServerv6Binding**](dhcpserverv6binding.md) cl
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -100,9 +106,9 @@ An embedded instance of the [**DhcpServerv6Binding**](dhcpserverv6binding.md) cl
 [**PS\_DhcpServerv6Binding**](ps-dhcpserverv6binding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

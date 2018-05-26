@@ -1,7 +1,12 @@
 ---
 title: Crash Dump Filter Driver Routines
 description: Crash Dump Filter Driver Routines
-ms.assetid: '603ffd93-a357-4bd3-81d8-2ddf69b9cc04'
+ms.assetid: 603ffd93-a357-4bd3-81d8-2ddf69b9cc04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Crash Dump Filter Driver Routines

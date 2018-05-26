@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies when a byte stream was last modified.'
-ms.assetid: 'dceff922-44eb-478f-842a-8ac0e73a02ee'
-title: 'MF\_BYTESTREAM\_LAST\_MODIFIED\_TIME attribute'
+---
+Description: Specifies when a byte stream was last modified.
+ms.assetid: dceff922-44eb-478f-842a-8ac0e73a02ee
+title: MF\_BYTESTREAM\_LAST\_MODIFIED\_TIME attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_BYTESTREAM\_LAST\_MODIFIED\_TIME attribute
@@ -40,13 +45,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Byte Stream Attributes](byte-stream-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFByteStream**](imfbytestream.md)
+[**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master)
 </dt> </dl>
 
  

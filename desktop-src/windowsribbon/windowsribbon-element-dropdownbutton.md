@@ -1,14 +1,20 @@
 ---
 title: DropDownButton element
 description: Represents a standard Drop-Down Button control.
-ms.assetid: '41031be2-43bc-4f75-b37a-1dcecc1635e1'
-keywords: ["DropDownButton element Windows Ribbon"]
+ms.assetid: 41031be2-43bc-4f75-b37a-1dcecc1635e1
+keywords:
+- DropDownButton element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - DropDownButton
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DropDownButton element
@@ -160,7 +166,7 @@ This section of code shows the **DropDownButton** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | No        |
 
 
@@ -175,9 +181,9 @@ This section of code shows the **DropDownButton** control declarations.
 [**SetModes**](https://msdn.microsoft.com/library/windows/desktop/dd371476)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

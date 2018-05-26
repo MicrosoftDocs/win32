@@ -4,13 +4,19 @@ description: Retrieves a replication partnership.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4a82cd31-9a81-4c10-b122-247de9c36e6f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4a82cd31-9a81-4c10-b122-247de9c36e6f
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetPartnershipFromGroup method", "GetPartnershipFromGroup method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, GetPartnershipFromGroup method"]
+keywords:
+- GetPartnershipFromGroup method
+- GetPartnershipFromGroup method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, GetPartnershipFromGroup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetPartnershipFromGroup method of the MSFT\_WvrAdminTasks class
@@ -22,9 +28,9 @@ Retrieves a replication partnership.
 
 ```mof
 uint32 GetPartnershipFromGroup(
-  [in]  string                         Name,
-  [in]  string                         ComputerName,
-  [out] MSFT_WvrReplicationPartnership Output[]
+  [in]  string                         Name,
+  [in]  string                         ComputerName,
+  [out] MSFT_WvrReplicationPartnership Output[]
 );
 ```
 
@@ -62,7 +68,7 @@ Returns the resulting [**MSFT\_WvrReplicationPartnership**](msft-wvrreplicationp
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ Returns the resulting [**MSFT\_WvrReplicationPartnership**](msft-wvrreplicationp
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

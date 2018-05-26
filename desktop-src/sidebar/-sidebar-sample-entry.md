@@ -1,7 +1,12 @@
 ---
 title: Gadget Samples For Windows Sidebar
 description: This overview provides details about the gadget samples that support the Windows Sidebar documentation.
-ms.assetid: '444c4688-ed24-43cb-b428-0a58787757d0'
+ms.assetid: 444c4688-ed24-43cb-b428-0a58787757d0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Gadget Samples For Windows Sidebar

@@ -1,8 +1,19 @@
 ---
 title: The Volume Scalar
 description: The Volume Scalar
-ms.assetid: 'a9fe2c35-9109-4697-9ffa-a31debbe72c8'
-keywords: ["Musical Instrument Digital Interface (MIDI),volume scalar", "MIDI (Musical Instrument Digital Interface),volume scalar", "MIDI Mapper,volume scalar", "volume scalar", "MIDI Mapper,adjusting output levels", "adjusting output levels"]
+ms.assetid: a9fe2c35-9109-4697-9ffa-a31debbe72c8
+keywords:
+- Musical Instrument Digital Interface (MIDI),volume scalar
+- MIDI (Musical Instrument Digital Interface),volume scalar
+- MIDI Mapper,volume scalar
+- volume scalar
+- MIDI Mapper,adjusting output levels
+- adjusting output levels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Volume Scalar

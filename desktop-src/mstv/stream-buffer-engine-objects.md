@@ -1,7 +1,12 @@
 ---
 title: Stream Buffer Engine Objects
 description: Stream Buffer Engine Objects
-ms.assetid: '69fb142d-12b8-4150-981f-29e5480f7f99'
+ms.assetid: 69fb142d-12b8-4150-981f-29e5480f7f99
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Buffer Engine Objects

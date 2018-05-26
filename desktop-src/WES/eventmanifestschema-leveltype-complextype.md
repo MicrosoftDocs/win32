@@ -1,14 +1,20 @@
 ---
 title: LevelType Complex Type
 description: Defines a severity value that determines the verbosity of the events being logged.
-ms.assetid: 'c71aedef-7c43-4343-9d6d-94eb45da49b9'
-keywords: ["LevelType complex type EventLog"]
+ms.assetid: c71aedef-7c43-4343-9d6d-94eb45da49b9
+keywords:
+- LevelType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - LevelType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LevelType Complex Type
@@ -73,7 +79,7 @@ The following are the predefined level values that you can use. These values are
 
 
 
- 
+ 
 
 Higher numbers imply that you get lower levels as well. For example, if you specify win:Warning, you receive all warning, error, and critical events.
 
@@ -83,14 +89,14 @@ Higher numbers imply that you get lower levels as well. For example, if you spec
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that a DVD disc was inserted into the drive.'
-ms.assetid: 'ce233c94-2eae-457c-919b-7c4d8334979a'
-title: 'EC\_DVD\_DISC\_INSERTED'
+Description: Signals that a DVD disc was inserted into the drive.
+ms.assetid: ce233c94-2eae-457c-919b-7c4d8334979a
+title: EC\_DVD\_DISC\_INSERTED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_DISC\_INSERTED
@@ -55,9 +60,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

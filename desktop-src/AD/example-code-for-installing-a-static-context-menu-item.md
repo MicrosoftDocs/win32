@@ -4,10 +4,13 @@ description: The following code example uses two scripts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '22d6a220-7712-4b07-a6d9-67dd748358a6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 22d6a220-7712-4b07-a6d9-67dd748358a6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Installing a Static Context Menu Item

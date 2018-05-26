@@ -4,17 +4,23 @@ description: Called by the task agent to schedule a task.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '06793439-cf16-40ca-8a91-08acc22c73ed'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 06793439-cf16-40ca-8a91-08acc22c73ed
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ScheduleTask method Remote Desktop Services", "ScheduleTask method Remote Desktop Services , IRDVTaskPluginNotifySink interface", "IRDVTaskPluginNotifySink interface Remote Desktop Services , ScheduleTask method"]
+keywords:
+- ScheduleTask method Remote Desktop Services
+- ScheduleTask method Remote Desktop Services , IRDVTaskPluginNotifySink interface
+- IRDVTaskPluginNotifySink interface Remote Desktop Services , ScheduleTask method
 topic_type:
 - apiref
 api_name:
 - IRDVTaskPluginNotifySink.ScheduleTask
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IRDVTaskPluginNotifySink::ScheduleTask method
@@ -26,12 +32,12 @@ Called by the task agent to schedule a task.
 
 ```C++
 HRESULT ScheduleTask(
-  [in] FILETIME        ftStartTime,
-  [in] FILETIME        ftEndTime,
-  [in] FILETIME        ftDeadline,
-  [in] BSTR            bstrLabel,
-  [in] BSTR            bstrIdentifier,
-  [in] SAFEARRAY(BYTE) saContext
+  [in] FILETIME        ftStartTime,
+  [in] FILETIME        ftEndTime,
+  [in] FILETIME        ftDeadline,
+  [in] BSTR            bstrLabel,
+  [in] BSTR            bstrIdentifier,
+  [in] SAFEARRAY(BYTE) saContext
 );
 ```
 
@@ -107,8 +113,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
-| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
+| Minimum supported client<br/> | Windows 7 Enterprise<br/>   |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/> |
 
 
 
@@ -119,9 +125,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Detail Complex Type
 description: Defines a custom detail that the package author added to the report.
-ms.assetid: '171936ec-8b24-4b4f-aee6-78a6e8ffa91a'
-keywords: ["Detail complex type Windows Troubleshooting Toolkit"]
+ms.assetid: 171936ec-8b24-4b4f-aee6-78a6e8ffa91a
+keywords:
+- Detail complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Detail
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detail Complex Type
@@ -103,14 +109,14 @@ The package author adds the detail using the [Update-DiagReport](update-diagrepo
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

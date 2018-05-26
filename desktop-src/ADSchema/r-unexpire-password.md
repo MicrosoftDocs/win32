@@ -4,17 +4,21 @@ description: Extended control access right that allows a user to restore an expi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4ff90ffb-52a0-480d-a9d5-8f5f9bad33b4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4ff90ffb-52a0-480d-a9d5-8f5f9bad33b4
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Unexpire-Password extended right AD Schema"]
+keywords:
+- Unexpire-Password extended right AD Schema
 topic_type:
 - apiref
 api_name:
 - Unexpire-Password
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Unexpire-Password extended right
@@ -33,11 +37,11 @@ Extended control access right that allows a user to restore an expired password 
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -94,9 +98,9 @@ Extended control access right that allows a user to restore an expired password 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

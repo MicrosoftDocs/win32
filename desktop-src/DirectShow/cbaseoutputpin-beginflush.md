@@ -1,12 +1,17 @@
 ---
-Description: 'The BeginFlush method begins a flush operation. Implements the IPin::BeginFlush method.'
-ms.assetid: 'f16c8337-5b7f-47e8-810d-00ffb3b5a1b4'
-title: 'CBaseOutputPin.BeginFlush method'
+Description: The BeginFlush method begins a flush operation. Implements the IPinBeginFlush method.
+ms.assetid: f16c8337-5b7f-47e8-810d-00ffb3b5a1b4
+title: CBaseOutputPin.BeginFlush method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.BeginFlush method
 
-The `BeginFlush` method begins a flush operation. Implements the [**IPin::BeginFlush**](ipin-beginflush.md) method.
+The `BeginFlush` method begins a flush operation. Implements the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method.
 
 ## Syntax
 
@@ -47,9 +52,9 @@ This method should only be called on input pins, so the **CBaseOutputPin** imple
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

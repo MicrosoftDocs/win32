@@ -1,7 +1,12 @@
 ---
-Description: 'Provides additional information to be used with the CreateReferencePoint method of the Msvm\_CollectionReferencePointService class.'
-ms.assetid: 'abf7953a-e10e-4dab-962f-a7dde5126fbe'
-title: 'Msvm\_CollectionReferencePointSettingData class'
+Description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_CollectionReferencePointService class.
+ms.assetid: abf7953a-e10e-4dab-962f-a7dde5126fbe
+title: Msvm\_CollectionReferencePointSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_CollectionReferencePointSettingData class
@@ -82,8 +87,8 @@ The reference point indicates a point in time when the virtual system was in app
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -97,9 +102,9 @@ The reference point indicates a point in time when the virtual system was in app
 [**CIM\_SettingData**](cim-settingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

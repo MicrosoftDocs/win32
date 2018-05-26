@@ -1,7 +1,12 @@
 ---
-Description: 'The \_Columns table is a read-only system table that contains the column catalog. It lists the columns for all the tables. You can query this table to find out if a given column exists.'
-ms.assetid: '1ddde4e2-90a9-4dd8-a4f9-b6802d0b11cf'
+Description: The \_Columns table is a read-only system table that contains the column catalog. It lists the columns for all the tables. You can query this table to find out if a given column exists.
+ms.assetid: 1ddde4e2-90a9-4dd8-a4f9-b6802d0b11cf
 title: '\_Columns Table'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # \_Columns Table
@@ -49,9 +54,9 @@ The name of the column.
 
 ## Remarks
 
-Because the \_Columns table is a system table that cannot be modified through SQL queries, you cannot obtain the primary keys with the [**MsiDatabaseGetPrimaryKeys**](msidatabasegetprimarykeys.md) function or the [**PrimaryKeys property**](database-primarykeys.md).
+Because the \_Columns table is a system table that cannot be modified through SQL queries, you cannot obtain the primary keys with the [**MsiDatabaseGetPrimaryKeys**](/windows/win32/Msiquery/nf-msiquery-msidatabasegetprimarykeysa?branch=master) function or the [**PrimaryKeys property**](database-primarykeys.md).
 
-Only persistent columns are stored in the \_Columns table. To determine if a temporary column exists one would need to create a view using a SELECT \* statement against the table, then loop through all fields in a record returned by the [**MsiViewGetColumnInfo**](msiviewgetcolumninfo.md) function with the MSICOLINFO\_NAMES option.
+Only persistent columns are stored in the \_Columns table. To determine if a temporary column exists one would need to create a view using a SELECT \* statement against the table, then loop through all fields in a record returned by the [**MsiViewGetColumnInfo**](/windows/win32/Msiquery/nf-msiquery-msiviewgetcolumninfo?branch=master) function with the MSICOLINFO\_NAMES option.
 
  
 

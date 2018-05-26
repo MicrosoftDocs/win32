@@ -1,7 +1,12 @@
 ---
-Description: 'Describes the NCSI Policy settings.'
-ms.assetid: '71876e4a-c938-4307-b730-48b1f5000f12'
-title: 'MSFT\_NCSIPolicyConfiguration class'
+Description: Describes the NCSI Policy settings.
+ms.assetid: 71876e4a-c938-4307-b730-48b1f5000f12
+title: MSFT\_NCSIPolicyConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NCSIPolicyConfiguration class
@@ -44,7 +49,7 @@ The **MSFT\_NCSIPolicyConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -136,17 +141,17 @@ Specifies the store from which to retrieve the NCSI configuration policy.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCIMV2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetNCCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetNCCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

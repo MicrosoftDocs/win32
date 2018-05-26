@@ -1,8 +1,9 @@
 ---
 title: MCI\_WHERE command
 description: The MCI\_WHERE command obtains the clipping rectangle for the video device.
-ms.assetid: 'f64a7e49-4ee1-4836-ba9a-0bbdc47626b3'
-keywords: ["MCI_WHERE command Windows Multimedia"]
+ms.assetid: f64a7e49-4ee1-4836-ba9a-0bbdc47626b3
+keywords:
+- MCI_WHERE command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_WHERE command
 
 The MCI\_WHERE command obtains the clipping rectangle for the video device. Digital-video, and video-overlay devices recognize this command. The **top** and **left** members of the returned [RECT](http://go.microsoft.com/fwlink/p/?linkid=16998) contain the origin of the clipping rectangle, and the **right** and **bottom** members contain the width and height of the clipping rectangle. (This is not the standard use of the **right** and **bottom** members.)
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -111,7 +117,7 @@ Obtains a description of the display-window frame.
 
 </dt> <dd></dd> </dl>
 
-For digital-video devices, the *lpQuery* parameter points to an **MCI\_DGV\_WHERE\_PARMS** structure. The **MCI\_DGV\_WHERE\_PARMS** structure is identical to the [**MCI\_DGV\_RECT\_PARMS**](mci-dgv-rect-parms.md) structure.
+For digital-video devices, the *lpQuery* parameter points to an **MCI\_DGV\_WHERE\_PARMS** structure. The **MCI\_DGV\_WHERE\_PARMS** structure is identical to the [**MCI\_DGV\_RECT\_PARMS**](/windows/win32/Digitalv/?branch=master) structure.
 
 The following additional flags are used with the **overlay** device type:
 
@@ -153,8 +159,8 @@ For video-overlay devices, the *lpQuery* parameter points to an [**MCI\_OVLY\_RE
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -169,9 +175,9 @@ For video-overlay devices, the *lpQuery* parameter points to an [**MCI\_OVLY\_RE
 [MCI Commands](mci-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

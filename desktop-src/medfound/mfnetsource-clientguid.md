@@ -1,7 +1,12 @@
-﻿---
-Description: 'Unique identifier by which the server identifies the client.'
-ms.assetid: '490a2b03-aba8-4510-80c5-ca12f4037747'
-title: 'MFNETSOURCE\_CLIENTGUID property'
+---
+Description: Unique identifier by which the server identifies the client.
+ms.assetid: 490a2b03-aba8-4510-80c5-ca12f4037747
+title: MFNETSOURCE\_CLIENTGUID property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_CLIENTGUID property

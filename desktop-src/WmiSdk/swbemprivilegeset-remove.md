@@ -1,13 +1,16 @@
 ---
-Description: 'The Remove method of the SWbemPrivilegeSet object deletes a privilege from the collection.'
+Description: The Remove method of the SWbemPrivilegeSet object deletes a privilege from the collection.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4c0b6d49-262c-4840-955b-35b16b68f29f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4c0b6d49-262c-4840-955b-35b16b68f29f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPrivilegeSet.Remove method'
+title: SWbemPrivilegeSet.Remove method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilegeSet.Remove method
@@ -34,7 +37,7 @@ SWbemPrivilegeSet.Remove( _
 *iPrivilege* 
 </dt> <dd>
 
-Required. This is one of the WMI constants from the [**WbemPrivilegeEnum**](wbemprivilegeenum.md) group. These constants are essentially integers that represent specific privileges. For example, to remove the privilege that allows you to shut down a Windows system, use the **wbemPrivilegeShutdown** constant or the numeric equivalent of 0x17.
+Required. This is one of the WMI constants from the [**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master) group. These constants are essentially integers that represent specific privileges. For example, to remove the privilege that allows you to shut down a Windows system, use the **wbemPrivilegeShutdown** constant or the numeric equivalent of 0x17.
 
 </dd> </dl>
 
@@ -68,8 +71,8 @@ Specified privilege does not exist.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -88,9 +91,9 @@ Specified privilege does not exist.
 [**SWbemPrivilegeSet.Add**](swbemprivilegeset-add.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

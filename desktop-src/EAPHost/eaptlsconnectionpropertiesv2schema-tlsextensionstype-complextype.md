@@ -1,7 +1,12 @@
 ---
 title: TLSExtensionsType Complex Type
 description: Enables future enhancements to the schema.
-ms.assetid: '5e4f8ef8-1adb-4683-8001-ba7d2d392523'
+ms.assetid: 5e4f8ef8-1adb-4683-8001-ba7d2d392523
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TLSExtensionsType Complex Type

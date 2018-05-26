@@ -1,14 +1,20 @@
 ---
 title: DIALOG resource
 description: Defines a dialog box.
-ms.assetid: 'd166fb7d-0fe5-4e48-a545-19acc0ff80f1'
-keywords: ["DIALOG resource Menus and Other Resources"]
+ms.assetid: d166fb7d-0fe5-4e48-a545-19acc0ff80f1
+keywords:
+- DIALOG resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - DIALOG
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DIALOG resource

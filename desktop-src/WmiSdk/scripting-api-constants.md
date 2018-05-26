@@ -1,13 +1,16 @@
 ---
-Description: 'The Scripting API for WMI contains flags, common values, and error codes.'
+Description: The Scripting API for WMI contains flags, common values, and error codes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'feaab757-3167-420b-8f42-edced4cd4c53'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: feaab757-3167-420b-8f42-edced4cd4c53
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Scripting API Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scripting API Constants
@@ -20,91 +23,91 @@ Visual Basic applications can include the type library for the scripting API, Wb
 
 <dl> <dt>
 
-<span id="WbemAuthenticationLevelEnum"></span><span id="wbemauthenticationlevelenum"></span><span id="WBEMAUTHENTICATIONLEVELENUM"></span>[**WbemAuthenticationLevelEnum**](wbemauthenticationlevelenum.md)
+<span id="WbemAuthenticationLevelEnum"></span><span id="wbemauthenticationlevelenum"></span><span id="WBEMAUTHENTICATIONLEVELENUM"></span>[**WbemAuthenticationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum?branch=master)
 </dt> <dd>
 
 Define the security authentication levels.
 
 </dd> <dt>
 
-<span id="WbemChangeFlagEnum"></span><span id="wbemchangeflagenum"></span><span id="WBEMCHANGEFLAGENUM"></span>[**WbemChangeFlagEnum**](wbemchangeflagenum.md)
+<span id="WbemChangeFlagEnum"></span><span id="wbemchangeflagenum"></span><span id="WBEMCHANGEFLAGENUM"></span>[**WbemChangeFlagEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemchangeflagenum?branch=master)
 </dt> <dd>
 
 Define how a write operation to a class or an instance is carried out.
 
 </dd> <dt>
 
-<span id="WbemCimTypeEnum"></span><span id="wbemcimtypeenum"></span><span id="WBEMCIMTYPEENUM"></span>[**WbemCimTypeEnum**](wbemcimtypeenum.md)
+<span id="WbemCimTypeEnum"></span><span id="wbemcimtypeenum"></span><span id="WBEMCIMTYPEENUM"></span>[**WbemCimTypeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemcimtypeenum?branch=master)
 </dt> <dd>
 
 Define the valid CIM types of a property value.
 
 </dd> <dt>
 
-<span id="WbemComparisonFlagEnum"></span><span id="wbemcomparisonflagenum"></span><span id="WBEMCOMPARISONFLAGENUM"></span>[**WbemComparisonFlagEnum**](wbemcomparisonflagenum.md)
+<span id="WbemComparisonFlagEnum"></span><span id="wbemcomparisonflagenum"></span><span id="WBEMCOMPARISONFLAGENUM"></span>[**WbemComparisonFlagEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemcomparisonflagenum?branch=master)
 </dt> <dd>
 
 Define the settings for object comparison and are used by [**SWbemObject.CompareTo\_**](swbemobject-compareto-.md).
 
 </dd> <dt>
 
-<span id="WbemConnectOptionsEnum"></span><span id="wbemconnectoptionsenum"></span><span id="WBEMCONNECTOPTIONSENUM"></span>[**WbemConnectOptionsEnum**](wbemconnectoptionsenum.md)
+<span id="WbemConnectOptionsEnum"></span><span id="wbemconnectoptionsenum"></span><span id="WBEMCONNECTOPTIONSENUM"></span>[**WbemConnectOptionsEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemconnectoptionsenum?branch=master)
 </dt> <dd>
 
 Defines a security flag that is used as a parameter in calls to the [**SWbemLocator.ConnectServer**](swbemlocator-connectserver.md) method when a connection to WMI on a remote machine is failing.
 
 </dd> <dt>
 
-<span id="WbemErrorEnum"></span><span id="wbemerrorenum"></span><span id="WBEMERRORENUM"></span>[**WbemErrorEnum**](wbemerrorenum.md)
+<span id="WbemErrorEnum"></span><span id="wbemerrorenum"></span><span id="WBEMERRORENUM"></span>[**WbemErrorEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemerrorenum?branch=master)
 </dt> <dd>
 
 Define the errors that may be returned by [Scripting API for WMI](scripting-api-for-wmi.md) calls.
 
 </dd> <dt>
 
-<span id="WbemFlagEnum"></span><span id="wbemflagenum"></span><span id="WBEMFLAGENUM"></span>[**WbemFlagEnum**](wbemflagenum.md)
+<span id="WbemFlagEnum"></span><span id="wbemflagenum"></span><span id="WBEMFLAGENUM"></span>[**WbemFlagEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemflagenum?branch=master)
 </dt> <dd>
 
 Defines constants that are used by [**SWbemServices.ExecQuery**](swbemservices-execquery.md), [**SWbemServices.ExecQueryAsync**](swbemservices-execqueryasync.md), [**SWbemServices.SubclassesOf**](swbemservices-subclassesof.md), and [**SWbemServices.InstancesOf**](swbemservices-instancesof.md).
 
 </dd> <dt>
 
-<span id="WbemImpersonationLevelEnum"></span><span id="wbemimpersonationlevelenum"></span><span id="WBEMIMPERSONATIONLEVELENUM"></span>[**WbemImpersonationLevelEnum**](wbemimpersonationlevelenum.md)
+<span id="WbemImpersonationLevelEnum"></span><span id="wbemimpersonationlevelenum"></span><span id="WBEMIMPERSONATIONLEVELENUM"></span>[**WbemImpersonationLevelEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemimpersonationlevelenum?branch=master)
 </dt> <dd>
 
 Define the security impersonation levels. These constants are used with [**SWbemSecurity**](swbemsecurity.md).
 
 </dd> <dt>
 
-<span id="WbemObjectTextFormatEnum"></span><span id="wbemobjecttextformatenum"></span><span id="WBEMOBJECTTEXTFORMATENUM"></span>[**WbemObjectTextFormatEnum**](wbemobjecttextformatenum.md)
+<span id="WbemObjectTextFormatEnum"></span><span id="wbemobjecttextformatenum"></span><span id="WBEMOBJECTTEXTFORMATENUM"></span>[**WbemObjectTextFormatEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemobjecttextformatenum?branch=master)
 </dt> <dd>
 
 Define the valid object text formats to be used by [**SWbemObjectEx.GetText\_**](swbemobjectex-gettext-.md).
 
 </dd> <dt>
 
-<span id="WbemPrivilegeEnum"></span><span id="wbemprivilegeenum"></span><span id="WBEMPRIVILEGEENUM"></span>[**WbemPrivilegeEnum**](wbemprivilegeenum.md)
+<span id="WbemPrivilegeEnum"></span><span id="wbemprivilegeenum"></span><span id="WBEMPRIVILEGEENUM"></span>[**WbemPrivilegeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemprivilegeenum?branch=master)
 </dt> <dd>
 
 Define privileges. These constants are used with [**SWbemSecurity**](swbemsecurity.md) to grant the privileges required for some operations.
 
 </dd> <dt>
 
-<span id="WbemQueryFlagEnum"></span><span id="wbemqueryflagenum"></span><span id="WBEMQUERYFLAGENUM"></span>[**WbemQueryFlagEnum**](wbemqueryflagenum.md)
+<span id="WbemQueryFlagEnum"></span><span id="wbemqueryflagenum"></span><span id="WBEMQUERYFLAGENUM"></span>[**WbemQueryFlagEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemqueryflagenum?branch=master)
 </dt> <dd>
 
 Define the depth of enumeration or query, which determines how many objects are returned by a call.
 
 </dd> <dt>
 
-<span id="WbemTextFlagEnum"></span><span id="wbemtextflagenum"></span><span id="WBEMTEXTFLAGENUM"></span>[**WbemTextFlagEnum**](wbemtextflagenum.md)
+<span id="WbemTextFlagEnum"></span><span id="wbemtextflagenum"></span><span id="WBEMTEXTFLAGENUM"></span>[**WbemTextFlagEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemtextflagenum?branch=master)
 </dt> <dd>
 
 Defines the content of generated object text and is used by [**SWbemObject.GetObjectText\_**](swbemobject-getobjecttext-.md).
 
 </dd> <dt>
 
-<span id="WbemTimeout"></span><span id="wbemtimeout"></span><span id="WBEMTIMEOUT"></span>[**WbemTimeout**](wbemtimeout.md)
+<span id="WbemTimeout"></span><span id="wbemtimeout"></span><span id="WBEMTIMEOUT"></span>[**WbemTimeout**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemtimeout?branch=master)
 </dt> <dd>
 
 Defines the time-out constants. This constant is used by [**SWbemEventSource.NextEvent**](swbemeventsource-nextevent.md).

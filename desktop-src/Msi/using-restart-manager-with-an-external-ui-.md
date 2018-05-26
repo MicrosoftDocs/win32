@@ -1,14 +1,19 @@
 ---
-Description: 'Windows Installer developers can prepare their installation package to work with Restart Manager by following the guidelines described in Using Windows Installer with Restart Manager.'
-ms.assetid: '777f8864-b3d2-43c7-9296-1118f3595d7b'
+Description: Windows Installer developers can prepare their installation package to work with Restart Manager by following the guidelines described in Using Windows Installer with Restart Manager.
+ms.assetid: 777f8864-b3d2-43c7-9296-1118f3595d7b
 title: Using Restart Manager with an External UI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Restart Manager with an External UI
 
 Windows Installer developers can prepare their installation package to work with [Restart Manager](rstmgr.portal) by following the guidelines described in [Using Windows Installer with Restart Manager](using-windows-installer-with-restart-manager.md).
 
-Specify the INSTALLLOGMODE\_RMFILESINUSE message type when calling the [**MsiSetExternalUI**](msisetexternalui.md) or [**MsiSetExternalUIRecord**](msisetexternaluirecord.md) function to enable the external user-interface handler. Windows Installer then sends an INSTALLMESSAGE\_RMFILESINUSE message for use by external user-interface handlers that support the [Restart Manager](rstmgr.portal).
+Specify the INSTALLLOGMODE\_RMFILESINUSE message type when calling the [**MsiSetExternalUI**](/windows/win32/Msi/nf-msi-msisetexternaluia?branch=master) or [**MsiSetExternalUIRecord**](/windows/win32/Msi/nf-msi-msisetexternaluirecord?branch=master) function to enable the external user-interface handler. Windows Installer then sends an INSTALLMESSAGE\_RMFILESINUSE message for use by external user-interface handlers that support the [Restart Manager](rstmgr.portal).
 
 Your external user-interface handler should handle the information contained in INSTALLMESSAGE\_RMFILESINUSE messages. If no registered or internal user-interface handles the INSTALLMESSAGE\_RMFILESINUSE message, Windows Installer sends an INSTALLMESSAGE\_FILESINUSE message for use by existing external handlers that support INSTALLMESSAGE\_FILESINUSE messages and the [FilesInUse](filesinuse-dialog.md) dialog box.
 

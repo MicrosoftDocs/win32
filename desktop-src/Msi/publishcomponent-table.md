@@ -1,7 +1,12 @@
 ---
-Description: 'The PublishComponent table associates components listed in the Component table with a qualifier text-string and a category ID GUID.'
-ms.assetid: '4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4'
+Description: The PublishComponent table associates components listed in the Component table with a qualifier text-string and a category ID GUID.
+ms.assetid: 4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4
 title: PublishComponent Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PublishComponent Table
@@ -38,7 +43,7 @@ A string [GUID](guid.md) that represents the category of components being groupe
 <span id="Qualifier"></span><span id="qualifier"></span><span id="QUALIFIER"></span>Qualifier
 </dt> <dd>
 
-A text string that qualifies the value in the ComponentId column. A qualifier is used to distinguish multiple forms of the same component, such as a component that is implemented in multiple languages. These are the qualifier text-strings returned by [**MsiEnumComponentQualifiers**](msienumcomponentqualifiers.md).
+A text string that qualifies the value in the ComponentId column. A qualifier is used to distinguish multiple forms of the same component, such as a component that is implemented in multiple languages. These are the qualifier text-strings returned by [**MsiEnumComponentQualifiers**](/windows/win32/Msi/nf-msi-msienumcomponentqualifiersa?branch=master).
 
 </dd> <dt>
 
@@ -52,7 +57,7 @@ External key into column one of the [Component table](component-table.md). This 
 <span id="AppData"></span><span id="appdata"></span><span id="APPDATA"></span>AppData
 </dt> <dd>
 
-An optional localizable text describing the qualified component of this record. The string is commonly parsed by the application and can be displayed to the user. It should describe the qualified component. This can be retrieved with [**MsiEnumComponentQualifiers**](msienumcomponentqualifiers.md).
+An optional localizable text describing the qualified component of this record. The string is commonly parsed by the application and can be displayed to the user. It should describe the qualified component. This can be retrieved with [**MsiEnumComponentQualifiers**](/windows/win32/Msi/nf-msi-msienumcomponentqualifiersa?branch=master).
 
 </dd> <dt>
 

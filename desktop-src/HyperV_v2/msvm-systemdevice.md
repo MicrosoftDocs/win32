@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a logical device with the parent system.'
-ms.assetid: '2BEAAEC8-F8F2-4CC7-A209-EE3EE3C6FA90'
-title: 'Msvm\_SystemDevice class'
+Description: Associates a logical device with the parent system.
+ms.assetid: 2BEAAEC8-F8F2-4CC7-A209-EE3EE3C6FA90
+title: Msvm\_SystemDevice class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_SystemDevice class
@@ -16,7 +21,7 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Association, Aggregation, Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_SystemDevice : CIM_SystemDevice
 {
-  CIM_System        REF GroupComponent;
+  CIM_System        REF GroupComponent;
   CIM_LogicalDevice REF PartComponent;
 };
 ```
@@ -72,8 +77,8 @@ Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -93,9 +98,9 @@ Access to the **Msvm\_SystemDevice** class might be restricted by UAC Filtering.
 [Virtual System Classes](virtual-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,23 @@
 ---
 title: Setting the Initial Online Store
 description: Setting the Initial Online Store
-ms.assetid: '86d98936-8f20-4395-be5f-37800162aa89'
-keywords: ["Windows Media Player online stores,setting initial online stores", "online stores,setting initial online stores", "type 1 online stores,setting initial online stores", "type 2 online stores,setting initial online stores", "Windows Media Player online stores,first online store viewed", "online stores,first online store viewed", "type 1 online stores,first online store viewed", "type 2 online stores,first online store viewed", "first online store viewed", "setting initial online stores"]
+ms.assetid: 86d98936-8f20-4395-be5f-37800162aa89
+keywords:
+- Windows Media Player online stores,setting initial online stores
+- online stores,setting initial online stores
+- type 1 online stores,setting initial online stores
+- type 2 online stores,setting initial online stores
+- Windows Media Player online stores,first online store viewed
+- online stores,first online store viewed
+- type 1 online stores,first online store viewed
+- type 2 online stores,first online store viewed
+- first online store viewed
+- setting initial online stores
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Initial Online Store

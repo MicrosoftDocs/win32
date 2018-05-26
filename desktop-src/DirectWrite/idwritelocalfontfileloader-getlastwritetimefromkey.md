@@ -1,8 +1,11 @@
 ---
 title: IDWriteLocalFontFileLoader GetLastWriteTimeFromKey method
 description: Obtains the last write time of the file from the font file reference key.
-ms.assetid: 'ce7f5321-8ad8-4412-a54c-7102790e99c0'
-keywords: ["GetLastWriteTimeFromKey method Direct Write", "GetLastWriteTimeFromKey method Direct Write , IDWriteLocalFontFileLoader interface", "IDWriteLocalFontFileLoader interface Direct Write , GetLastWriteTimeFromKey method"]
+ms.assetid: ce7f5321-8ad8-4412-a54c-7102790e99c0
+keywords:
+- GetLastWriteTimeFromKey method Direct Write
+- GetLastWriteTimeFromKey method Direct Write , IDWriteLocalFontFileLoader interface
+- IDWriteLocalFontFileLoader interface Direct Write , GetLastWriteTimeFromKey method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteLocalFontFileLoader::GetLastWriteTimeFromKey method
@@ -22,9 +30,9 @@ Obtains the last write time of the file from the font file reference key.
 
 ```C++
 virtual HRESULT GetLastWriteTimeFromKey(
-  [in]  const void     *fontFileReferenceKey,
-              UINT32   fontFileReferenceKeySize,
-  [out]       FILETIME *lastWriteTime
+  [in]  const void     *fontFileReferenceKey,
+              UINT32   fontFileReferenceKeySize,
+  [out]       FILETIME *lastWriteTime
 ) = 0;
 ```
 
@@ -85,9 +93,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteLocalFontFileLoader**](idwritelocalfontfileloader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,19 @@
 ---
-title: \_Application UserControl property
+title: '\_Application UserControl property'
 description: The UserControl property sets or retrieves the user control property for the application. This property determines whether the user has control of the MMC application. This property is read/write.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a146a67f-f2d4-4472-adf6-2ab67a3ce353'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a146a67f-f2d4-4472-adf6-2ab67a3ce353
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["UserControl property MMC", "UserControl property MMC , Application object", "Application object MMC , UserControl property", "UserControl property MMC , _Application interface", "_Application interface MMC , UserControl property"]
+keywords:
+- UserControl property MMC
+- UserControl property MMC , Application object
+- Application object MMC , UserControl property
+- UserControl property MMC , _Application interface
+- _Application interface MMC , UserControl property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_Application::UserControl property
@@ -65,8 +73,8 @@ objMMC.UserControl = 1
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -91,9 +99,9 @@ objMMC.UserControl = 1
 [Controlling the Lifetime of an MMC Instance](controlling-the-lifetime-of-an-mmc-instance.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

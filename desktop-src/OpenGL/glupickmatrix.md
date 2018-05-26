@@ -1,8 +1,9 @@
 ---
 title: gluPickMatrix function
 description: The gluPickMatrix function defines a picking region.
-ms.assetid: '2f57345c-17a0-4716-8ab8-170aaed2b4f9'
-keywords: ["gluPickMatrix function OpenGL"]
+ms.assetid: 2f57345c-17a0-4716-8ab8-170aaed2b4f9
+keywords:
+- gluPickMatrix function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluPickMatrix function
@@ -22,11 +28,11 @@ The **gluPickMatrix** function defines a picking region.
 
 ```C++
 void WINAPI gluPickMatrix(
-   GLdouble x,
-   GLdouble y,
-   GLdouble height,
-   GLdouble width,
-   GLint    viewport[4]
+   GLdouble x,
+   GLdouble y,
+   GLdouble height,
+   GLdouble width,
+   GLint    viewport[4]
 );
 ```
 
@@ -127,8 +133,8 @@ glMatrixMode(GL_MODELVIEW);
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -154,9 +160,9 @@ glMatrixMode(GL_MODELVIEW);
 [**gluPerspective**](gluperspective.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

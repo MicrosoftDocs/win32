@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the resources used for this event.'
-ms.assetid: 'ee420775-6091-43e2-bb65-ba57c77ae2ad'
-title: 'System.Calendar.Resources'
+Description: Indicates the resources used for this event.
+ms.assetid: ee420775-6091-43e2-bb65-ba57c77ae2ad
+title: System.Calendar.Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Calendar.Resources

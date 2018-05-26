@@ -1,13 +1,19 @@
 ---
 title: Examining a Devices Supported Pixel Formats
 description: The DescribePixelFormat function obtains pixel format data for a device context.
-ms.assetid: '1ebeb051-2dc9-4753-a0f3-7d2737b5f7f2'
-keywords: ["OpenGL on Windows,pixels"]
+ms.assetid: 1ebeb051-2dc9-4753-a0f3-7d2737b5f7f2
+keywords:
+- OpenGL on Windows,pixels
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Examining a Devices Supported Pixel Formats
 
-The [**DescribePixelFormat**](describepixelformat.md) function obtains pixel format data for a device context. It also returns an integer that is the maximum pixel format index for the device context. The following code sample shows how to use that result to step through and examine the pixel formats supported by a device:
+The [**DescribePixelFormat**](/windows/win32/wingdi/nf-wingdi-describepixelformat?branch=master) function obtains pixel format data for a device context. It also returns an integer that is the maximum pixel format index for the device context. The following code sample shows how to use that result to step through and examine the pixel formats supported by a device:
 
 
 ```C++

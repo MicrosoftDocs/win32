@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a relationship in which a storage extent must be accessed through a media access device.'
-ms.assetid: '436a7e2d-2c14-4058-aca0-669373b8004a'
-title: 'CIM\_MediaPresent class'
+Description: Represents a relationship in which a storage extent must be accessed through a media access device.
+ms.assetid: 436a7e2d-2c14-4058-aca0-669373b8004a
+title: CIM\_MediaPresent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_MediaPresent class
@@ -15,8 +20,8 @@ Represents a relationship in which a storage extent must be accessed through a m
 class CIM_MediaPresent : CIM_Dependency
 {
   CIM_MediaAccessDevice REF Antecedent;
-  CIM_StorageExtent     REF Dependent;
-  boolean                   FixedMedia;
+  CIM_StorageExtent     REF Dependent;
+  boolean                   FixedMedia;
 };
 ```
 
@@ -83,8 +88,8 @@ Access type: Read-only
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -98,9 +103,9 @@ Access type: Read-only
 [**CIM\_Dependency**](cim-dependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: To speed up the HTML Help Java Applet download time
 description: To speed up the HTML Help Java Applet download time
-ms.assetid: 'C3FEEB4E-6386-479b-8F3E-F23FDFF41C95'
+ms.assetid: C3FEEB4E-6386-479b-8F3E-F23FDFF41C95
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To speed up the HTML Help Java Applet download time

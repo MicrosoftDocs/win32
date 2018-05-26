@@ -1,7 +1,12 @@
 ---
-Description: 'A database field of the FormattedSDDLText data type holds a text string that describes a security descriptor using valid security descriptor definition language (SDDL.) This data type is used by the SDDLText field of the MsiLockPermissionsEx Table to secure a selected object. Note that the SDDLText field of the MsiLockPermissionsEx Table does not support private or public properties.'
-ms.assetid: 'a36e257d-ef3c-45db-a50e-94d7fd4e09e2'
+Description: A database field of the FormattedSDDLText data type holds a text string that describes a security descriptor using valid security descriptor definition language (SDDL.) This data type is used by the SDDLText field of the MsiLockPermissionsEx Table to secure a selected object. Note that the SDDLText field of the MsiLockPermissionsEx Table does not support private or public properties.
+ms.assetid: a36e257d-ef3c-45db-a50e-94d7fd4e09e2
 title: FormattedSDDLText
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FormattedSDDLText

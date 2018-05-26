@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when a cursor enters the physical detection range (proximity) of the tablet context.'
-ms.assetid: '11327fef-1f5e-407a-812b-48f427af291e'
-title: 'InkOverlay.CursorInRange event'
+Description: Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
+ms.assetid: 11327fef-1f5e-407a-812b-48f427af291e
+title: InkOverlay.CursorInRange event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkOverlay.CursorInRange event
@@ -13,9 +18,9 @@ Occurs when a cursor enters the physical detection range (proximity) of the tabl
 
 ```C++
 void CursorInRange(
-  [in] IInkCursor   *Cursor,
-  [in] VARIANT_BOOL NewCursor,
-  [in] VARIANT      ButtonsState
+  [in] IInkCursor   *Cursor,
+  [in] VARIANT_BOOL NewCursor,
+  [in] VARIANT      ButtonsState
 );
 ```
 
@@ -28,14 +33,14 @@ void CursorInRange(
 *Cursor* \[in\]
 </dt> <dd>
 
-The [**IInkCursor**](iinkcursor.md) object that generated the [**CursorInRange**](inkcollector-cursorinrange.md) event.
+The [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the [**CursorInRange**](inkcollector-cursorinrange.md) event.
 
 </dd> <dt>
 
 *NewCursor* \[in\]
 </dt> <dd>
 
-Whether this is the first time this ink collector has come in contact with the [**IInkCursor**](iinkcursor.md) object that generated the [**CursorInRange**](inkcollector-cursorinrange.md) event.
+Whether this is the first time this ink collector has come in contact with the [**IInkCursor**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master) object that generated the [**CursorInRange**](inkcollector-cursorinrange.md) event.
 
 </dd> <dt>
 
@@ -64,7 +69,7 @@ The [**CursorInRange**](inkcollector-cursorinrange.md) event is fired even when 
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -75,21 +80,21 @@ The [**CursorInRange**](inkcollector-cursorinrange.md) event is fired even when 
 
 <dl> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
 [**CursorOutOfRange Event**](inkcollector-cursoroutofrange.md)
 </dt> <dt>
 
-[**InkCursorButtonState Enumeration**](inkcursorbuttonstate.md)
+[**InkCursorButtonState Enumeration**](/windows/win32/msinkaut/ne-msinkaut-inkcursorbuttonstate?branch=master)
 </dt> <dt>
 
-[**IInkCursor Interface**](iinkcursor.md)
+[**IInkCursor Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkcursor?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

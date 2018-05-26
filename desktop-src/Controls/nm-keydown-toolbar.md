@@ -1,8 +1,9 @@
 ---
 title: NM\_KEYDOWN (toolbar) notification code
 description: Sent by a control when the control has the keyboard focus and the user presses a key. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: 'bdfcf9da-118b-4fe6-9a0a-6329eb9196ef'
-keywords: ["NM_KEYDOWN (toolbar) notification code Windows Controls"]
+ms.assetid: bdfcf9da-118b-4fe6-9a0a-6329eb9196ef
+keywords:
+- NM_KEYDOWN (toolbar) notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_KEYDOWN (toolbar) notification code
@@ -33,7 +39,7 @@ NM_KEYDOWN
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMKEY**](nmkey.md) structure that contains additional information about the key that caused the notification code.
+Pointer to an [**NMKEY**](/windows/win32/Commctrl/ns-commctrl-tagnmkey?branch=master) structure that contains additional information about the key that caused the notification code.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ Currently, only the toolbar control sends this notification code.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,10 +4,13 @@ description: Manages a Distributed Network Name (DNN) as a cluster resource. A D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'A014BCB5-3BB5-410B-8CB2-7FD41CA32621'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: A014BCB5-3BB5-410B-8CB2-7FD41CA32621
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Distributed Network Name
@@ -26,7 +29,7 @@ The following table summarizes the characteristics of the this [resource type](r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -35,9 +38,9 @@ The following table summarizes the characteristics of the this [resource type](r
 [Resource Types](resource-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

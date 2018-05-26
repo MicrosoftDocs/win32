@@ -1,7 +1,12 @@
 ---
-Description: 'The Zoom method zooms the video display in or out, centered on a given set of screen coordinates.'
-ms.assetid: '050f1264-8fbe-4322-970c-184275d5b219'
+Description: The Zoom method zooms the video display in or out, centered on a given set of screen coordinates.
+ms.assetid: 050f1264-8fbe-4322-970c-184275d5b219
 title: Zoom Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Zoom Method

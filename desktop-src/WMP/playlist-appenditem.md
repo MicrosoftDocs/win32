@@ -1,8 +1,11 @@
 ---
 title: Playlist.appendItem method
 description: The appendItem method adds a media item to the end of the playlist.
-ms.assetid: 'e6db41d8-a4d5-4cab-9612-0562f3e92c25'
-keywords: ["appendItem method Windows Media Player", "appendItem method Windows Media Player , Playlist class", "Playlist class Windows Media Player , appendItem method"]
+ms.assetid: e6db41d8-a4d5-4cab-9612-0562f3e92c25
+keywords:
+- appendItem method Windows Media Player
+- appendItem method Windows Media Player , Playlist class
+- Playlist class Windows Media Player , appendItem method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playlist.appendItem method
@@ -90,9 +98,9 @@ plThreeList.appendItem(currMedia);
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

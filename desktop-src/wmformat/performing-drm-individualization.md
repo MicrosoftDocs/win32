@@ -1,8 +1,32 @@
 ---
 title: Performing DRM Individualization
 description: Performing DRM Individualization
-ms.assetid: 'daad1a31-f0a7-43ab-b920-94b9f050a44e'
-keywords: ["Windows Media Format SDK,DRM Client Extended APIs", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,Extended APIs", "Windows Media Format SDK,APIs", "Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,DRM individualization", "Windows Media Format SDK,individualization", "digital rights management (DRM),Client Extended APIs", "DRM (digital rights management),Client Extended APIs", "digital rights management (DRM),Extended APIs", "DRM (digital rights management),Extended APIs", "digital rights management (DRM),APIs", "DRM (digital rights management),APIs", "digital rights management (DRM),individualization", "DRM (digital rights management),individualization", "digital rights management (DRM),DRM individualization", "DRM (digital rights management),DRM individualization", "DRM Client Extended APIs,individualization", "Client Extended APIs,individualization"]
+ms.assetid: daad1a31-f0a7-43ab-b920-94b9f050a44e
+keywords:
+- Windows Media Format SDK,DRM Client Extended APIs
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,Extended APIs
+- Windows Media Format SDK,APIs
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,DRM individualization
+- Windows Media Format SDK,individualization
+- digital rights management (DRM),Client Extended APIs
+- DRM (digital rights management),Client Extended APIs
+- digital rights management (DRM),Extended APIs
+- DRM (digital rights management),Extended APIs
+- digital rights management (DRM),APIs
+- DRM (digital rights management),APIs
+- digital rights management (DRM),individualization
+- DRM (digital rights management),individualization
+- digital rights management (DRM),DRM individualization
+- DRM (digital rights management),DRM individualization
+- DRM Client Extended APIs,individualization
+- Client Extended APIs,individualization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performing DRM Individualization

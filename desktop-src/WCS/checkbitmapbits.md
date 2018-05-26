@@ -1,8 +1,9 @@
 ---
 title: CheckBitmapBits function
 description: The CheckBitmapBits function checks whether the pixels in a specified bitmap lie within the output gamut of a specified transform.
-ms.assetid: 'c5e13ed4-71c8-4c9c-9206-406732a7669e'
-keywords: ["CheckBitmapBits function Windows Color System"]
+ms.assetid: c5e13ed4-71c8-4c9c-9206-406732a7669e
+keywords:
+- CheckBitmapBits function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CheckBitmapBits function
@@ -22,15 +28,15 @@ The **CheckBitmapBits** function checks whether the pixels in a specified bitmap
 
 ```C++
 BOOL WINAPI CheckBitmapBits(
-   HTRANSFORM    hColorTransform,
-   PVOID         pSrcBits,
-   BMFORMAT      bmInput,
-   DWORD         dwWidth,
-   DWORD         dwHeight,
-   DWORD         dwStride,
-   PBYTE         paResult,
-   PBMCALLBACKFN pfnCallback,
-   LPARAM        lpCallbackData
+   HTRANSFORM    hColorTransform,
+   PVOID         pSrcBits,
+   BMFORMAT      bmInput,
+   DWORD         dwWidth,
+   DWORD         dwHeight,
+   DWORD         dwStride,
+   PBYTE         paResult,
+   PBMCALLBACKFN pfnCallback,
+   LPARAM        lpCallbackData
 );
 ```
 
@@ -125,8 +131,8 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl> |
@@ -149,9 +155,9 @@ The out-of-gamut information in the gamut tags created in WCS use the perceptual
 [**BMFORMAT**](bmformat.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

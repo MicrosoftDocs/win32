@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.getLineFromChar
 description: The getLineFromChar method retrieves the line index for the specified character index.
-ms.assetid: 'c3a29bdf-ff63-4b6d-90e8-d414dde87f85'
-keywords: ["EDITBOX.getLineFromChar Windows Media Player"]
+ms.assetid: c3a29bdf-ff63-4b6d-90e8-d414dde87f85
+keywords:
+- EDITBOX.getLineFromChar Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.getLineFromChar
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.getLineFromChar
@@ -36,7 +42,7 @@ This method returns a **Number** (**long**).
 
 ## Remarks
 
-If the specified character position is –1, this method retrieves the line index of the current line.
+If the specified character position is  1, this method retrieves the line index of the current line.
 
 This method can only be called after the control becomes visible.
 
@@ -63,9 +69,9 @@ This method can only be called after the control becomes visible.
 [**EDITBOX.getLineIndex**](editbox-getlineindex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following topics provide information about using authentication.'
-ms.assetid: 'eace4146-e1d4-491c-8dfc-a15d99de45cc'
+Description: The following topics provide information about using authentication.
+ms.assetid: eace4146-e1d4-491c-8dfc-a15d99de45cc
 title: Using Authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Authentication

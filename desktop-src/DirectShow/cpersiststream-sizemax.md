@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the maximum byte size needed for the current stream, not including the version number.'
-ms.assetid: 'ca1a68e2-02b4-4eea-916a-e0418ae811ae'
-title: 'CPersistStream.SizeMax method'
+Description: Retrieves the maximum byte size needed for the current stream, not including the version number.
+ms.assetid: ca1a68e2-02b4-4eea-916a-e0418ae811ae
+title: CPersistStream.SizeMax method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPersistStream.SizeMax method
@@ -47,9 +52,9 @@ The default version returns zero; it should be overridden to provide some other 
 [**CPersistStream Class**](cpersiststream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

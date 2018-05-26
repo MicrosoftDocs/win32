@@ -4,17 +4,22 @@ description: An attribute that defines the current NSEC3 salt string being used 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '22859ec1-621b-4789-b9d6-c5e8c1f81b83'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 22859ec1-621b-4789-b9d6-c5e8c1f81b83
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-NSEC3-Current-Salt attribute AD Schema", "msDNS-NSEC3CurrentSalt attribute AD Schema"]
+keywords:
+- ms-DNS-NSEC3-Current-Salt attribute AD Schema
+- msDNS-NSEC3CurrentSalt attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-NSEC3-Current-Salt
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-NSEC3-Current-Salt attribute
@@ -38,7 +43,7 @@ An attribute that defines the current NSEC3 salt string being used to sign the D
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that defines the current NSEC3 salt string being used to sign the D
 
 
 
- 
+ 
 
- 
+ 
 
 
 

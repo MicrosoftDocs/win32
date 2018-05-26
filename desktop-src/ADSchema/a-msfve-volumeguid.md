@@ -4,17 +4,22 @@ description: Contains the GUID associated with a BitLocker-supported disk volume
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'fe54beb4-8352-4ec5-9c9a-22ac19ee3cab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: fe54beb4-8352-4ec5-9c9a-22ac19ee3cab
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-FVE-VolumeGuid attribute AD Schema", "msFVE-VolumeGuid attribute AD Schema"]
+keywords:
+- ms-FVE-VolumeGuid attribute AD Schema
+- msFVE-VolumeGuid attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-FVE-VolumeGuid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-FVE-VolumeGuid attribute
@@ -38,9 +43,9 @@ Contains the GUID associated with a BitLocker-supported disk volume.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Contains the GUID associated with a BitLocker-supported disk volume.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

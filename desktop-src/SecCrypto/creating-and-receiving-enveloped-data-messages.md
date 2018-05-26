@@ -1,7 +1,12 @@
 ---
-Description: 'An enveloped message is a message that is encrypted for a recipient or set of recipients.'
-ms.assetid: 'caf86ec8-48b6-4017-95ad-7a21fcaed4cf'
+Description: An enveloped message is a message that is encrypted for a recipient or set of recipients.
+ms.assetid: caf86ec8-48b6-4017-95ad-7a21fcaed4cf
 title: Creating and Receiving Enveloped Data Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating and Receiving Enveloped Data Messages

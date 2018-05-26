@@ -1,8 +1,11 @@
 ---
 title: IDatabase QueryRowset method
 description: Retrieves the values for a number of rows from the rowset.
-ms.assetid: '184d4d57-0b17-4674-81bf-d01c74c25401'
-keywords: ["QueryRowset method Windows Mail (formerly Outlook Express)", "QueryRowset method Windows Mail (formerly Outlook Express) , IDatabase interface", "IDatabase interface Windows Mail (formerly Outlook Express) , QueryRowset method"]
+ms.assetid: 184d4d57-0b17-4674-81bf-d01c74c25401
+keywords:
+- QueryRowset method Windows Mail (formerly Outlook Express)
+- QueryRowset method Windows Mail (formerly Outlook Express) , IDatabase interface
+- IDatabase interface Windows Mail (formerly Outlook Express) , QueryRowset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Directdb.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDatabase::QueryRowset method
@@ -24,9 +32,9 @@ Retrieves the values for a number of rows from the rowset.
 
 ```C++
 HRESULT QueryRowset(
-  [in]      HROWSET hRowset,
-  [in, out] LPVOID  prgpRecord,
-  [out]     LPDWORD pcObtained
+  [in]      HROWSET hRowset,
+  [in, out] LPVOID  prgpRecord,
+  [out]     LPDWORD pcObtained
 );
 ```
 
@@ -78,7 +86,7 @@ Returns one of the following codes. Use the SUCCEEDED macro to determine whether
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -86,17 +94,17 @@ Returns one of the following codes. Use the SUCCEEDED macro to determine whether
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Directdb.idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Directdb.dll (version 6.0 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

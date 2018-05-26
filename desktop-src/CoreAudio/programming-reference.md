@@ -1,7 +1,12 @@
 ---
 Description: Programming Reference
-ms.assetid: '80a0df34-5f67-4f61-b9c7-a586d1870765'
+ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: Programming Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Reference

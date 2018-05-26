@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveAt method removes the element stored at the location specified by the given index.'
-ms.assetid: '380212b6-5e71-406b-8236-e06672505f17'
-title: 'IPortableDeviceValuesCollection::RemoveAt method'
+Description: The RemoveAt method removes the element stored at the location specified by the given index.
+ms.assetid: 380212b6-5e71-406b-8236-e06672505f17
+title: IPortableDeviceValuesCollectionRemoveAt method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPortableDeviceValuesCollection::RemoveAt method
@@ -13,7 +18,7 @@ The **RemoveAt** method removes the element stored at the location specified by 
 
 ```C++
 HRESULT RemoveAt(
-  [in] const DWORD dwIndex
+  [in] const DWORD dwIndex
 );
 ```
 
@@ -43,7 +48,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ You must specify a zero-based index.
 [**IPortableDeviceValuesCollection Interface**](iportabledevicevaluescollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

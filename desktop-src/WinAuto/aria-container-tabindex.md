@@ -1,8 +1,14 @@
 ---
 title: ARIA Container Tabindex Error
 description: ARIA Container Tabindex Error
-ms.assetid: 'CCEA9490-903D-423D-B9FD-641E8B7D3E0B'
-keywords: ["AriaContainerTabIndexErrorId"]
+ms.assetid: CCEA9490-903D-423D-B9FD-641E8B7D3E0B
+keywords:
+- AriaContainerTabIndexErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Container Tabindex Error

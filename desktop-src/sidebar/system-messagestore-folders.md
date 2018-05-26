@@ -1,8 +1,11 @@
 ---
 title: System.MessageStore.Folders property
 description: A collection of System.MessageStore.Folder objects.
-ms.assetid: '61b440e7-7067-40af-9be0-da992cfc6e0d'
-keywords: ["Folders property Windows Sidebar", "Folders property Windows Sidebar , System.MessageStore object", "System.MessageStore object Windows Sidebar , Folders property"]
+ms.assetid: 61b440e7-7067-40af-9be0-da992cfc6e0d
+keywords:
+- Folders property Windows Sidebar
+- Folders property Windows Sidebar , System.MessageStore object
+- System.MessageStore object Windows Sidebar , Folders property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Folders property
@@ -22,7 +30,7 @@ A collection of [**System.MessageStore.Folder**](system-messagestore-folder.md) 
 > [!Note]  
 > Objects of type [**System.MessageStore.Folder**](system-messagestore-folder.md) can only be accessed through the **Folders** collection. This collection is a member of [**System.MessageStore**](system-messagestore.md).
 
- 
+ 
 
 This property is read-only.
 
@@ -41,12 +49,12 @@ A collection of [**System.MessageStore.Folder**](system-messagestore-folder.md) 
 
 ## Remarks
 
-**Folders** exposes the Windows Mail (formerly Outlook Express) **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
+**Folders** exposes the Windows Mail (formerly Outlook Express) **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
 
 > [!Note]  
 > See the [**Messages Collection**](system-messagestorefolder-messages.md) for information about accessing the `Messages` in a particular folder.
 
- 
+ 
 
 ## Examples
 
@@ -84,10 +92,10 @@ var collMsgs = oFolder.Messages;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -118,9 +126,9 @@ var collMsgs = oFolder.Messages;
 [**System.MessageStore.Message**](system-messagestore-message.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

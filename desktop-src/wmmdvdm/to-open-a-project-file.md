@@ -1,8 +1,19 @@
 ---
 title: To Open a Project File
 description: To Open a Project File
-ms.assetid: 'ef955844-14cb-4c19-8265-c15f753b0496'
-keywords: ["Windows Movie Maker,opening project files", "Movie Maker,opening project files", "programming reference,opening project files", "reference for Windows Movie Maker,opening project files", "command-line options for Windows Movie Maker,opening project files", "opening project files"]
+ms.assetid: ef955844-14cb-4c19-8265-c15f753b0496
+keywords:
+- Windows Movie Maker,opening project files
+- Movie Maker,opening project files
+- programming reference,opening project files
+- reference for Windows Movie Maker,opening project files
+- command-line options for Windows Movie Maker,opening project files
+- opening project files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Open a Project File

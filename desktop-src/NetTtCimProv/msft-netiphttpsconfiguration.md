@@ -1,7 +1,12 @@
 ---
-Description: 'Provides configuration settings for the IP over HTTPS (IP-HTTPs) Tunneling Protocol.'
-ms.assetid: '2d5d5c2a-33d3-4a41-8624-db0ab7e86914'
-title: 'MSFT\_NetIPHttpsConfiguration class'
+Description: Provides configuration settings for the IP over HTTPS (IP-HTTPs) Tunneling Protocol.
+ms.assetid: 2d5d5c2a-33d3-4a41-8624-db0ab7e86914
+title: MSFT\_NetIPHttpsConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetIPHttpsConfiguration class
@@ -16,15 +21,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetTtCim")]
 class MSFT_NetIPHttpsConfiguration : MSFT_NetSettingData
 {
-  uint32  ConfigurationType;
-  uint32  Type;
-  uint32  State;
-  uint32  AuthMode;
-  string  ServerURL;
-  string  Profile;
+  uint32  ConfigurationType;
+  uint32  Type;
+  uint32  State;
+  uint32  AuthMode;
+  string  ServerURL;
+  string  Profile;
   boolean ProfileActivated;
   boolean StrongCRLRequired;
-  string  PolicyStore;
+  string  PolicyStore;
 };
 ```
 
@@ -52,7 +57,7 @@ The **MSFT\_NetIPHttpsConfiguration** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -80,7 +85,7 @@ Indicates whether the server needs to authenticate the incoming IP-HTTPS client 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -224,17 +229,17 @@ Indicates the type of the interface.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTtCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTtCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

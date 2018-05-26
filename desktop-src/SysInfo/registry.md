@@ -1,7 +1,12 @@
 ---
-Description: 'The registry is a system-defined database in which applications and system components store and retrieve configuration data.'
-ms.assetid: '08dc034c-15ce-41d9-8e74-a49b61ad40a6'
+Description: The registry is a system-defined database in which applications and system components store and retrieve configuration data.
+ms.assetid: 08dc034c-15ce-41d9-8e74-a49b61ad40a6
 title: Registry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registry

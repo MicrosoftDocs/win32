@@ -1,7 +1,12 @@
 ---
 title: Tuning Model Enumerations
 description: Tuning Model Enumerations
-ms.assetid: '21d8f0e6-eaad-43cb-ae15-bd385bd9ab34'
+ms.assetid: 21d8f0e6-eaad-43cb-ae15-bd385bd9ab34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tuning Model Enumerations

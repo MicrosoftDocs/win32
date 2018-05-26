@@ -1,7 +1,12 @@
 ---
 title: Storport Driver Virtual Miniport Routines
 description: Storport Driver Virtual Miniport Routines
-ms.assetid: '6df07d9d-a5c2-4dc4-a219-38400fb200a7'
+ms.assetid: 6df07d9d-a5c2-4dc4-a219-38400fb200a7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storport Driver Virtual Miniport Routines

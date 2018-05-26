@@ -1,7 +1,12 @@
 ---
-Description: 'The GetMediaType method retrieves a preferred media type for the output pin.'
-ms.assetid: '1bc6c06d-f399-4b8a-81f2-7fffe4630236'
-title: 'CTransInPlaceFilter.GetMediaType method'
+Description: The GetMediaType method retrieves a preferred media type for the output pin.
+ms.assetid: 1bc6c06d-f399-4b8a-81f2-7fffe4630236
+title: CTransInPlaceFilter.GetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.GetMediaType method
@@ -13,8 +18,8 @@ The `GetMediaType` method retrieves a preferred media type for the output pin.
 
 ```C++
 HRESULT GetMediaType(
-   int        iPosition,
-   CMediaType *pMediaType
+   int        iPosition,
+   CMediaType *pMediaType
 );
 ```
 
@@ -64,9 +69,9 @@ This method overrides the [**CTransformFilter::GetMediaType**](ctransformfilter-
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

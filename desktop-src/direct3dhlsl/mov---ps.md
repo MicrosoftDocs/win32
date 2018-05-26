@@ -1,7 +1,12 @@
 ---
 title: mov - ps
 description: Move data between registers.
-ms.assetid: 'be89b6e8-6f71-43f4-9970-0631adbaef80'
+ms.assetid: be89b6e8-6f71-43f4-9970-0631adbaef80
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # mov - ps

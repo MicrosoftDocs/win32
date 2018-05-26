@@ -1,11 +1,14 @@
 ---
-Description: 'Represents an error that happened during a deployment requests.'
+Description: Represents an error that happened during a deployment requests.
 audience: developer
-ms.assetid: '2f142b36-9044-4395-9887-3e9aa4d296bf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2f142b36-9044-4395-9887-3e9aa4d296bf
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_ServerManagerDeploymentError class'
+title: MSFT\_ServerManagerDeploymentError class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_ServerManagerDeploymentError class
@@ -22,7 +25,7 @@ class MSFT_ServerManagerDeploymentError
 {
   String ErrorMessage;
   String ErrorId;
-  uint8  ErrorCategory;
+  uint8  ErrorCategory;
 };
 ```
 
@@ -268,7 +271,7 @@ Gets a description of the error.
 |                                     |                                                                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                                  |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                                                  |
 | MOF<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerManager.DeploymentProvider.dll</dt> </dl> |
@@ -282,9 +285,9 @@ Gets a description of the error.
 [ServerManager Deploymentprovider Provider Classes](server-manager-deployment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

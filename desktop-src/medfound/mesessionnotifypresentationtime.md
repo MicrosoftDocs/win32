@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the Media Session when a new presentation starts. This event indicates when the presentation will start and the offset between the presentation time and the source time.'
-ms.assetid: '67c7d5f3-ffaf-4359-a59c-bb26b992b6cd'
+---
+Description: Raised by the Media Session when a new presentation starts. This event indicates when the presentation will start and the offset between the presentation time and the source time.
+ms.assetid: 67c7d5f3-ffaf-4359-a59c-bb26b992b6cd
 title: MESessionNotifyPresentationTime event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MESessionNotifyPresentationTime event
@@ -10,7 +15,7 @@ Raised by the Media Session when a new presentation starts. This event indicates
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -50,7 +55,7 @@ The following attributes are defined for this event.
 
 <dl> <dt>
 
-[**IMFMediaSession**](imfmediasession.md)
+[**IMFMediaSession**](/windows/win32/mfidl/nn-mfidl-imfmediasession?branch=master)
 </dt> <dt>
 
 [Media Foundation Events](media-foundation-events.md)

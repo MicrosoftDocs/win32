@@ -1,7 +1,12 @@
 ---
 title: Unsupported User Interface Elements
 description: Microsoft Active Accessibility does not support the common controls listed in the following table.
-ms.assetid: '3c6a46e2-fa21-4d78-adab-6db331af0513'
+ms.assetid: 3c6a46e2-fa21-4d78-adab-6db331af0513
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Unsupported User Interface Elements

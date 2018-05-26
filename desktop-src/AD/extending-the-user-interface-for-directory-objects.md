@@ -4,11 +4,16 @@ description: With Microsoft Windows 2000 and later, Microsoft Management Console
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '758ec25d-42ab-46ba-aa58-416d7ac8fd68'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 758ec25d-42ab-46ba-aa58-416d7ac8fd68
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory,using,extending the user interface", "objects AD ,extending the user interface for directory objects"]
+keywords:
+- Active Directory,using,extending the user interface
+- objects AD ,extending the user interface for directory objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Extending the User Interface for Directory Objects

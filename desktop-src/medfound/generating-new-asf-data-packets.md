@@ -1,7 +1,12 @@
 ---
 Description: Generating New ASF Data Packets
-ms.assetid: '7afa9694-c965-40e2-8549-e32ff48def2a'
+ms.assetid: 7afa9694-c965-40e2-8549-e32ff48def2a
 title: Generating New ASF Data Packets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating New ASF Data Packets
@@ -12,10 +17,10 @@ The multiplexer has one input and one output. It receives a stream sample that c
 
 The following list summarizes the process of generating ASF data packets:
 
-1.  Pass input data to the multiplexer in [**IMFASFMultiplexer::ProcessSample**](imfasfmultiplexer-processsample.md).
-2.  Collect the data packets by calling [**IMFASFMultiplexer::GetNextPacket**](imfasfmultiplexer-getnextpacket.md) in a loop until all the complete packets have been retrieved.
-3.  After the input data has been converted into complete packets there might be some pending data in the multiplexer, which was not retrieved by [**GetNextPacket**](imfasfmultiplexer-getnextpacket.md). Call [**IMFASFMultiplexer::Flush**](imfasfmultiplexer-flush.md) to packetize the pending samples and collect them from the multiplexer by calling **GetNextPacket** again.
-4.  Update the associated ASF Header Objects by calling [**IMFASFMultiplexer::End**](imfasfmultiplexer-end.md) to reflect changes made by the multiplexer during data packet generation.
+1.  Pass input data to the multiplexer in [**IMFASFMultiplexer::ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master).
+2.  Collect the data packets by calling [**IMFASFMultiplexer::GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master) in a loop until all the complete packets have been retrieved.
+3.  After the input data has been converted into complete packets there might be some pending data in the multiplexer, which was not retrieved by [**GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master). Call [**IMFASFMultiplexer::Flush**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush?branch=master) to packetize the pending samples and collect them from the multiplexer by calling **GetNextPacket** again.
+4.  Update the associated ASF Header Objects by calling [**IMFASFMultiplexer::End**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end?branch=master) to reflect changes made by the multiplexer during data packet generation.
 
 The following diagram illustrates data packet generation for an ASF file through the multiplexer.
 
@@ -23,30 +28,30 @@ The following diagram illustrates data packet generation for an ASF file through
 
 ## ASF Data Packet Creation
 
-After creating and initializing the multiplexer as described in [Creating the Multiplexer Object](creating-the-multiplexer-object.md), call [**IMFASFMultiplexer::ProcessSample**](imfasfmultiplexer-processsample.md) to pass input data to the multiplexer for processing into data packets. The specified input must be in a media sample ([**IMFSample**](imfsample.md) interface) that can have one or more media buffers ([**IMFMediaBuffer**](imfmediabuffer.md) interface) containing the data for a stream. In case of ASF-to-ASF transcoding, the input media sample can be generated from the splitter that creates packetized stream samples. For more information, see [ASF Splitter](asf-splitter.md).
+After creating and initializing the multiplexer as described in [Creating the Multiplexer Object](creating-the-multiplexer-object.md), call [**IMFASFMultiplexer::ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master) to pass input data to the multiplexer for processing into data packets. The specified input must be in a media sample ([**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface) that can have one or more media buffers ([**IMFMediaBuffer**](/windows/win32/mfobjects/nn-mfobjects-imfmediabuffer?branch=master) interface) containing the data for a stream. In case of ASF-to-ASF transcoding, the input media sample can be generated from the splitter that creates packetized stream samples. For more information, see [ASF Splitter](asf-splitter.md).
 
-Before calling [**ProcessSample**](imfasfmultiplexer-processsample.md), make sure that the time stamp of the input media sample is a valid presentation time; otherwise **ProcessSample** fails and returns the MF\_E\_NO\_SAMPLE\_TIMESTAMP code.
+Before calling [**ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master), make sure that the time stamp of the input media sample is a valid presentation time; otherwise **ProcessSample** fails and returns the MF\_E\_NO\_SAMPLE\_TIMESTAMP code.
 
-The multiplexer can accept input as compressed or uncompressed media samples through [**ProcessSample**](imfasfmultiplexer-processsample.md). The multiplexer assigns send times to these samples depending on the bandwidth usage of the stream. During this process, the multiplexer checks the leaky bucket parameters (bit rate and buffer window utilization) and can reject samples that do not adhere to those values. The input media sample can fail the bandwidth check for either of the following reasons:
+The multiplexer can accept input as compressed or uncompressed media samples through [**ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master). The multiplexer assigns send times to these samples depending on the bandwidth usage of the stream. During this process, the multiplexer checks the leaky bucket parameters (bit rate and buffer window utilization) and can reject samples that do not adhere to those values. The input media sample can fail the bandwidth check for either of the following reasons:
 
--   If the input media sample arrived late because the last-assigned send time is greater than the time stamp on this media sample. [**ProcessSample**](imfasfmultiplexer-processsample.md) fails and returns the **MF\_E\_LATE\_SAMPLE** error code.
--   If the time stamp on the input media sample is earlier than the assigned send time (this indicates buffer overflow). The multiplexer can ignore this situation if it is configured to adjust the bit rate by setting the **MFASF\_MULTIPLEXER\_AUTOADJUST\_BITRATE** flag during multiplexer initialization. For more information, see "Multiplexer Initialization and Leaky Bucket Settings" in [Creating the Multiplexer Object](creating-the-multiplexer-object.md). If this flag is not set and the multiplexer encounters bandwidth overrun, [**ProcessSample**](imfasfmultiplexer-processsample.md) fails and returns the **MF\_E\_BANDWIDTH\_OVERRUN** error code.
+-   If the input media sample arrived late because the last-assigned send time is greater than the time stamp on this media sample. [**ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master) fails and returns the **MF\_E\_LATE\_SAMPLE** error code.
+-   If the time stamp on the input media sample is earlier than the assigned send time (this indicates buffer overflow). The multiplexer can ignore this situation if it is configured to adjust the bit rate by setting the **MFASF\_MULTIPLEXER\_AUTOADJUST\_BITRATE** flag during multiplexer initialization. For more information, see "Multiplexer Initialization and Leaky Bucket Settings" in [Creating the Multiplexer Object](creating-the-multiplexer-object.md). If this flag is not set and the multiplexer encounters bandwidth overrun, [**ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master) fails and returns the **MF\_E\_BANDWIDTH\_OVERRUN** error code.
 
 After the multiplexer assigns the send time, the input media sample is added to the *send window*—a list of input media samples ordered by send times and ready to be processed into data packets. During data packet construction, the input media sample is parsed and relevant data is written to a data packet as payload. A complete data packet can contain data from one or more input media samples.
 
 When new input media samples arrive in the send window, they are added to a queue until there are enough media samples to form one complete packet. The data in media buffers contained by the input media sample are not copied to the generated data packet. The data packet hold references to the input media buffers until the input media sample has been fully packetized and the complete packet have been collected from the multiplexer.
 
-When a complete data packet is available, it can be retrieved by calling [**IMFASFMultiplexer::GetNextPacket**](imfasfmultiplexer-getnextpacket.md). If you call [**ProcessSample**](imfasfmultiplexer-processsample.md) while there are complete packets ready for retrieval, it fails and returns the **MF\_E\_NOTACCEPTING** error code. This indicates that the multiplexer cannot accept more input and you must call **GetNextPacket** to retrieve the waiting packets. Ideally, every **ProcessSample** call should be followed by one or more **GetNextPacket** calls to get the complete data packets. It may take more than one input media sample to create a complete data packet. Conversely, data in one input media sample might span multiple packets. Therefore, not all calls to **ProcessSample** will yield output media samples.
+When a complete data packet is available, it can be retrieved by calling [**IMFASFMultiplexer::GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master). If you call [**ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master) while there are complete packets ready for retrieval, it fails and returns the **MF\_E\_NOTACCEPTING** error code. This indicates that the multiplexer cannot accept more input and you must call **GetNextPacket** to retrieve the waiting packets. Ideally, every **ProcessSample** call should be followed by one or more **GetNextPacket** calls to get the complete data packets. It may take more than one input media sample to create a complete data packet. Conversely, data in one input media sample might span multiple packets. Therefore, not all calls to **ProcessSample** will yield output media samples.
 
 If the input media sample contains a key frame indicated by the [**MFSampleExtension\_CleanPoint**](mfsampleextension-cleanpoint-attribute.md) attribute, the multiplexer copies the attribute to the packet.
 
 ## Getting ASF Data Packets
 
-To collect the output media samples for a complete data packet generated by the multiplexer, call [**IMFASFMultiplexer::GetNextPacket**](imfasfmultiplexer-getnextpacket.md) in a loop until there are no more output media samples left for the packet. The following lists the success cases:
+To collect the output media samples for a complete data packet generated by the multiplexer, call [**IMFASFMultiplexer::GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master) in a loop until there are no more output media samples left for the packet. The following lists the success cases:
 
--   If there is a complete data packet available, [**GetNextPacket**](imfasfmultiplexer-getnextpacket.md) receives the **ASF\_STATUS\_FLAGS\_INCOMPLETE** flag in the *pdwStatusFlags* parameter; the *ppIPacket* parameter receives a pointer to the first data packet. You must call this method as long it receives this flag. With every iteration, *ppIPacket* points to the next packet in the queue.
+-   If there is a complete data packet available, [**GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master) receives the **ASF\_STATUS\_FLAGS\_INCOMPLETE** flag in the *pdwStatusFlags* parameter; the *ppIPacket* parameter receives a pointer to the first data packet. You must call this method as long it receives this flag. With every iteration, *ppIPacket* points to the next packet in the queue.
 -   If there is only one data packet, *ppIPacket* points to it and the **ASF\_STATUS\_FLAGS\_INCOMPLETE** flag is not received in *pdwStatusFlags*.
--   [**GetNextPacket**](imfasfmultiplexer-getnextpacket.md) can succeed without yielding any data packets if the multiplexer is still in the process of packetizing and adding data packets. In this case, *ppIPacket* points to **NULL**. To proceed, you must provide the multiplexer with more input media samples by calling [**ProcessSample**](imfasfmultiplexer-processsample.md).
+-   [**GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master) can succeed without yielding any data packets if the multiplexer is still in the process of packetizing and adding data packets. In this case, *ppIPacket* points to **NULL**. To proceed, you must provide the multiplexer with more input media samples by calling [**ProcessSample**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample?branch=master).
 
 The following example code shows a function that generates data packets by using the multiplexer. The generated data packet contents will be written to the data byte stream allocated by the caller.
 
@@ -111,17 +116,17 @@ HRESULT GenerateASFDataPackets(
 
 
 
-The `WriteBufferToByteStream` function is shown in the topic [**IMFByteStream::Write**](imfbytestream-write.md).
+The `WriteBufferToByteStream` function is shown in the topic [**IMFByteStream::Write**](/windows/win32/mfobjects/nf-mfobjects-imfbytestream-write?branch=master).
 
 To see a complete application that uses this code example, see [Tutorial: Copying ASF Streams from One File to Another](tutorial--copying-asf-streams-from-one-file-to-another.md).
 
 ## Post Packet-Generation Calls
 
-To make sure that there are no complete data packets waiting in the multiplexer, call [**IMFASFMultiplexer::Flush**](imfasfmultiplexer-flush.md). This forces the multiplexer to packetize all the media samples that are in progress. The application can collect these packets in form of media samples through **GetNextPacket** in a loop until there are no more packets left to be retrieved.
+To make sure that there are no complete data packets waiting in the multiplexer, call [**IMFASFMultiplexer::Flush**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush?branch=master). This forces the multiplexer to packetize all the media samples that are in progress. The application can collect these packets in form of media samples through **GetNextPacket** in a loop until there are no more packets left to be retrieved.
 
-After all the media samples are generated, call [**IMFASFMultiplexer::End**](imfasfmultiplexer-end.md) to update the ASF Header Object that is associated with these data packets. The Header Object is specified by passing the ContentInfo object that was used to initialize the multiplexer. This call updates various Header Objects to reflect changes made by the multiplexer during data packet generation. This information includes packet count, send duration, play duration, and stream numbers of all the streams. The overall header size is also updated.
+After all the media samples are generated, call [**IMFASFMultiplexer::End**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end?branch=master) to update the ASF Header Object that is associated with these data packets. The Header Object is specified by passing the ContentInfo object that was used to initialize the multiplexer. This call updates various Header Objects to reflect changes made by the multiplexer during data packet generation. This information includes packet count, send duration, play duration, and stream numbers of all the streams. The overall header size is also updated.
 
-You must ensure that [**End**](imfasfmultiplexer-end.md) is called after all the data packets have been retrieved. If there are any packets waiting in the multiplexer, **End** will fail and return the **MF\_E\_FLUSH\_NEEDED** error code. In this case, get the waiting packet by calling [**Flush**](imfasfmultiplexer-flush.md) and [**GetNextPacket**](imfasfmultiplexer-getnextpacket.md) in a loop.
+You must ensure that [**End**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end?branch=master) is called after all the data packets have been retrieved. If there are any packets waiting in the multiplexer, **End** will fail and return the **MF\_E\_FLUSH\_NEEDED** error code. In this case, get the waiting packet by calling [**Flush**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush?branch=master) and [**GetNextPacket**](/windows/win32/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket?branch=master) in a loop.
 
 > [!Note]  
 > For VBR encoding, after calling **End**, you must set the encoding statistics in the ContentInfo object's encoding properties. For information about this process, see "Configuring the ContentInfo Object with Encoder Settings" in [Setting Properties in the ContentInfo Object](setting-properties-in-the-contentinfo-object.md). The following list shows the specific properties to set:

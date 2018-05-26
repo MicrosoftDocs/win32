@@ -1,7 +1,12 @@
 ---
 title: Return Values
 description: This topic describes the most common return values, and other return values that you might see less frequently.
-ms.assetid: '0def0349-178b-4be5-aa1d-6602dc015981'
+ms.assetid: 0def0349-178b-4be5-aa1d-6602dc015981
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Return Values
@@ -10,14 +15,14 @@ This topic describes the most common return values, and other return values that
 
 ## Common Return Values
 
-The [**IAccessible**](iaccessible.md) methods return one of the following values, defined in winerror.h, or another standard Component Object Model (COM) error code:
+The [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods return one of the following values, defined in winerror.h, or another standard Component Object Model (COM) error code:
 
 
 
 |                         |                                                                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | S\_OK                   | The method succeeded.                                                                                                                                                                                                                                                                                                                                                                     |
-| S\_FALSE                | The method succeeded in part. This happens when the method succeeds, but the requested information is not available. For example, Microsoft Active Accessibility returns S\_FALSE if you call [**IAccessible::accHitTest**](iaccessible-iaccessible--acchittest.md) to retrieve a child object at a given point, and the specified point is not within the object or the object's child. |
+| S\_FALSE                | The method succeeded in part. This happens when the method succeeds, but the requested information is not available. For example, Microsoft Active Accessibility returns S\_FALSE if you call [**IAccessible::accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master) to retrieve a child object at a given point, and the specified point is not within the object or the object's child. |
 | DISP\_E\_MEMBERNOTFOUND | The object does not support the requested property or action. For example, a push button returns this value if you request its [Value property](value-property.md), because it does not have a Value property.                                                                                                                                                                           |
 | E\_NOTIMPL              | The method is not implemented. This value occurs when a client calls a method that is not yet supported in that operating system.                                                                                                                                                                                                                                                         |
 | E\_INVALIDARG           | One or more arguments were not valid. This error occurs when the caller attempts to identify a child object using an identifier that the server does not recognize. This error also results when a client attempts to identify a child object within an object that has no children.                                                                                                      |
@@ -30,7 +35,7 @@ The [**IAccessible**](iaccessible.md) methods return one of the following values
 
 ## Additional Return Values
 
-The following are return values that [**IAccessible**](iaccessible.md) methods might return. These return values are not as common as the previous ones, but you should be aware of them.
+The following are return values that [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods might return. These return values are not as common as the previous ones, but you should be aware of them.
 
 
 

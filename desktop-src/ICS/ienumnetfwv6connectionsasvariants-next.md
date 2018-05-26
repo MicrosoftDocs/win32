@@ -1,8 +1,11 @@
 ---
 title: IEnumNetFwV6ConnectionsAsVariants Next method
 description: The Next method retrieves the specified number of connections starting from the current enumeration position.
-ms.assetid: '17d54574-fc87-4ca7-8848-41a8e008fcdf'
-keywords: ["Next method ICS/ICF", "Next method ICS/ICF , IEnumNetFwV6ConnectionsAsVariants interface", "IEnumNetFwV6ConnectionsAsVariants interface ICS/ICF , Next method"]
+ms.assetid: 17d54574-fc87-4ca7-8848-41a8e008fcdf
+keywords:
+- Next method ICS/ICF
+- Next method ICS/ICF , IEnumNetFwV6ConnectionsAsVariants interface
+- IEnumNetFwV6ConnectionsAsVariants interface ICS/ICF , Next method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Netfwv6.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumNetFwV6ConnectionsAsVariants::Next method
@@ -24,9 +32,9 @@ The **Next** method retrieves the specified number of connections starting from 
 
 ```C++
 HRESULT Next(
-  [in]  ULONG   cElt,
-  [out] VARIANT *rgElt,
-  [out] ULONG   *pcEltFetched
+  [in]  ULONG   cElt,
+  [out] VARIANT *rgElt,
+  [out] ULONG   *pcEltFetched
 );
 ```
 
@@ -79,7 +87,7 @@ If the method fails, the return value is one of the following error codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -87,10 +95,10 @@ If the method fails, the return value is one of the following error codes.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | None supported<br/>                                                              |
-| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
-| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
+| End of client support<br/>    | Windows XP with SP1<br/>                                                         |
+| Redistributable<br/>          | Advanced Networking Pack for Windows XP<br/>                                     |
 | Header<br/>                   | <dl> <dt>Netfwv6.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Netfwv6.dll</dt> </dl> |
 
@@ -103,9 +111,9 @@ If the method fails, the return value is one of the following error codes.
 [**IEnumNetFwV6ConnectionsAsVariants**](ienumnetfwv6connectionsasvariants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

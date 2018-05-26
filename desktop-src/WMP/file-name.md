@@ -1,8 +1,17 @@
 ---
 title: File Name
 description: File Name
-ms.assetid: '88347a19-1d70-478d-9c99-a39226df3e52'
-keywords: ["Windows Media Player Mobile skins,bitmaps", "skins,bitmaps", "reference for skins,bitmaps", "bitmaps in skins,file names"]
+ms.assetid: 88347a19-1d70-478d-9c99-a39226df3e52
+keywords:
+- Windows Media Player Mobile skins,bitmaps
+- skins,bitmaps
+- reference for skins,bitmaps
+- bitmaps in skins,file names
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # File Name

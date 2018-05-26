@@ -1,7 +1,12 @@
 ---
 title: Warning Messages
 description: A warning message is a modal dialog box, in-place message, notification, or balloon that alerts the user of a condition that might cause a problem in the future.
-ms.assetid: '4a2c3be9-9dc6-4d62-bd3d-72a2e5b621f4'
+ms.assetid: 4a2c3be9-9dc6-4d62-bd3d-72a2e5b621f4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Warning Messages
@@ -201,7 +206,7 @@ For guidelines on this pattern, see [Confirmations](mess-confirm.md#usage-patter
 
 
 
- 
+ 
 
 ## Guidelines
 
@@ -222,7 +227,7 @@ For guidelines on this pattern, see [Confirmations](mess-confirm.md#usage-patter
 
 
 
- 
+ 
 
 -   **For modal dialog boxes:**
     -   **Use task dialogs whenever appropriate to achieve a consistent look and layout.** Task dialogs require Windows Vista or later, so they aren't suitable for earlier versions of Windows.
@@ -295,7 +300,7 @@ In this example, the term "warning" is unnecessary.
 
 In this example, "Security Warning" doesn't identify the command or feature where the warning came from.
 
--   **Don't use the title to explain what to do in the dialog**—that's the purpose of the main instruction.
+-   **Don't use the title to explain what to do in the dialog** that's the purpose of the main instruction.
 -   Use [title-style capitalization](glossary.md#t), without ending punctuation.
 
 ### Main instructions
@@ -313,15 +318,15 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
- 
+ 
 
 -   ![screen shot of a low-battery notification ](images/mess-warn-image25.png)
 -   In this example, the low battery notification is an awareness warning, so the main instruction describes the condition.
 -   ![screen shot of change battery immediately warning ](images/mess-warn-image1.png)
 -   In this example, the low battery dialog box is an imminent problem, so the main instruction describes what the user needs to do now.
--   **Be concise—use only a single, complete sentence.** Strip the main instruction down to the essential information. If you must explain anything more, use a supplemental instruction.
+-   **Be concise use only a single, complete sentence.** Strip the main instruction down to the essential information. If you must explain anything more, use a supplemental instruction.
 -   **Use words like "now" and "immediately" if the user must act immediately.** Don't use these words if there is no urgency.
--   **Be specific—if there are objects involved, give their full names.**
+-   **Be specific if there are objects involved, give their full names.**
 -   Use [sentence-style capitalization](glossary.md#s).
 
 ### Supplemental instructions
@@ -339,7 +344,7 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
- 
+ 
 
 -   **Don't repeat the main instruction with slightly different wording.** Instead, omit the supplemental instruction if there is not more to add.
 -   Use complete sentences, sentence-style capitalization, and ending punctuation.
@@ -359,7 +364,7 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
- 
+ 
 
 -   **Incorrect:**
 -   ![screen shot of warning dialog box with ok button ](images/mess-warn-image26.png)
@@ -375,9 +380,9 @@ When referring to warnings:
 
 Example: In the **Do you want to display the nonsecure items?** message, click Yes.
 
- 
+ 
 
- 
+ 
 
 
 

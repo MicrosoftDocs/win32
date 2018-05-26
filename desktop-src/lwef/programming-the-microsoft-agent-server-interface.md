@@ -1,7 +1,12 @@
 ---
 title: Programming the Microsoft Agent Server Interface
 description: Programming the Microsoft Agent Server Interface
-ms.assetid: 'd1f9feb1-afcf-45a5-8ebf-7200c5963f70'
+ms.assetid: d1f9feb1-afcf-45a5-8ebf-7200c5963f70
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming the Microsoft Agent Server Interface

@@ -1,8 +1,11 @@
 ---
 title: System.MessageStore.Folder.unreadMessageCount property
 description: Gets the number of unread messages in a Windows Mail (formerly Outlook Express) folder.
-ms.assetid: '5e5617a0-a381-4bca-99f2-2e44c1b99260'
-keywords: ["unreadMessageCount property Windows Sidebar", "unreadMessageCount property Windows Sidebar , System.MessageStore.Folder object", "System.MessageStore.Folder object Windows Sidebar , unreadMessageCount property"]
+ms.assetid: 5e5617a0-a381-4bca-99f2-2e44c1b99260
+keywords:
+- unreadMessageCount property Windows Sidebar
+- unreadMessageCount property Windows Sidebar , System.MessageStore.Folder object
+- System.MessageStore.Folder object Windows Sidebar , unreadMessageCount property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.MessageStore.Folder.unreadMessageCount property
@@ -36,7 +44,7 @@ An **Integer** that receives the number of unread messages.
 
 ## Remarks
 
-[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
+[**Folders**](system-messagestore-folders.md) exposes the Windows Mail **Local Folders** collection. Subfolders and their content (such as messages) are not exposed.
 
 ## Examples
 
@@ -62,10 +70,10 @@ var iUnreadMsgCount = oFolder.unreadMessageCount;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -90,9 +98,9 @@ var iUnreadMsgCount = oFolder.unreadMessageCount;
 [**Folders**](system-messagestore-folders.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

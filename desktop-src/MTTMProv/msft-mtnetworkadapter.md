@@ -4,11 +4,13 @@ description: The Network adapter data object. Statistic data is calculated based
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ba642c1a-d9db-463b-8d15-094aec65306e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: ba642c1a-d9db-463b-8d15-094aec65306e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_MTNetworkAdapter class", "MSFT_MTNetworkAdapter class, described"]
+keywords:
+- MSFT_MTNetworkAdapter class
+- MSFT_MTNetworkAdapter class, described
 topic_type:
 - apiref
 api_name:
@@ -63,6 +65,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_MTNetworkAdapter class
@@ -1136,7 +1141,7 @@ Gets the percentage of network utilization at the latest interval.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -1153,9 +1158,9 @@ Gets the percentage of network utilization at the latest interval.
 [Management Tools Task Manager WMI Provider](management-tools-task-manager-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

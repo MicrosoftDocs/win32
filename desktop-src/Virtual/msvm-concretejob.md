@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ConcreteJob class
 description: Represents a unit of work and is used to track the progress of asynchronous operations.
-ms.assetid: '93d55e71-bb1b-48f7-b371-76b91883e49f'
-keywords: ["Msvm_ConcreteJob class Hyper-V", "Msvm_ConcreteJob class Hyper-V , described"]
+ms.assetid: 93d55e71-bb1b-48f7-b371-76b91883e49f
+keywords:
+- Msvm_ConcreteJob class Hyper-V
+- Msvm_ConcreteJob class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -48,6 +50,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ConcreteJob class
@@ -62,42 +69,42 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ConcreteJob : CIM_ConcreteJob
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  uint16   OperationalStatus[];
-  string   Status;
-  uint16   HealthState = 5;
-  string   JobStatus;
+  uint16   OperationalStatus[];
+  string   Status;
+  uint16   HealthState = 5;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes = 1;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes = 1;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  string   ErrorSummaryDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
-  string   InstanceID;
-  string   Name;
-  uint16   JobState;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  string   ErrorSummaryDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
+  string   InstanceID;
+  string   Name;
+  uint16   JobState;
   datetime TimeOfLastStateChange;
-  string   StatusDescriptions[] = { "OK" };
+  string   StatusDescriptions[] = { "OK" };
   datetime TimeBeforeRemoval = 00000000000500.000000:000;
-  boolean  Cancellable;
+  boolean  Cancellable;
 };
 ```
 
@@ -123,7 +130,7 @@ The **Msvm\_ConcreteJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1233,9 +1240,9 @@ Access to the **Msvm\_ConcreteJob** class might be restricted by UAC Filtering. 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1254,9 +1261,9 @@ Access to the **Msvm\_ConcreteJob** class might be restricted by UAC Filtering. 
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

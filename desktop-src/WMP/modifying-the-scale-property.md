@@ -1,8 +1,18 @@
 ---
 title: Modifying the Scale Property
 description: Modifying the Scale Property
-ms.assetid: '32ebaa54-ed13-4b10-8876-bf8e188d7317'
-keywords: ["Windows Media Player plug-ins,Echo sample properties", "plug-ins,Echo sample properties", "digital signal processing plug-ins,Echo sample properties", "DSP plug-ins,Echo sample properties", "Echo DSP plug-in sample,scale property"]
+ms.assetid: 32ebaa54-ed13-4b10-8876-bf8e188d7317
+keywords:
+- Windows Media Player plug-ins,Echo sample properties
+- plug-ins,Echo sample properties
+- digital signal processing plug-ins,Echo sample properties
+- DSP plug-ins,Echo sample properties
+- Echo DSP plug-in sample,scale property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying the Scale Property

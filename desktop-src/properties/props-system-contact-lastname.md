@@ -1,7 +1,12 @@
 ---
-Description: 'Last name of the contact.'
-ms.assetid: 'a111c084-7736-4003-b326-72182ae57f76'
-title: 'System.Contact.LastName'
+Description: Last name of the contact.
+ms.assetid: a111c084-7736-4003-b326-72182ae57f76
+title: System.Contact.LastName
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.LastName

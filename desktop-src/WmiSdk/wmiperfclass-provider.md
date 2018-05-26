@@ -1,13 +1,16 @@
 ---
-Description: 'Starting with Windows Vista, this provider creates the WMI Performance Counter Classes.'
+Description: Starting with Windows Vista, this provider creates the WMI Performance Counter Classes.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5bb3d5e0-cdeb-4fea-a8ca-cf934e056206'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5bb3d5e0-cdeb-4fea-a8ca-cf934e056206
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WmiPerfClass Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WmiPerfClass Provider

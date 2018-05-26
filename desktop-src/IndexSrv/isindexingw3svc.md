@@ -1,7 +1,12 @@
 ---
 title: IsIndexingW3SVC
 description: IsIndexingW3SVC
-ms.assetid: 'ab8917f4-5faa-42cc-a151-a78ce967c8fe'
+ms.assetid: ab8917f4-5faa-42cc-a151-a78ce967c8fe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsIndexingW3SVC

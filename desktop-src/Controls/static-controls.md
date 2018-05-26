@@ -1,7 +1,12 @@
 ---
 title: Static Control
 description: This section contains information about the programming elements used with static controls. A static control is a control that enables an application to provide the user with informational text and graphics that typically require no response.
-ms.assetid: '155904e1-a963-496d-9b22-6e95ed0ebd47'
+ms.assetid: 155904e1-a963-496d-9b22-6e95ed0ebd47
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Static Control
@@ -20,7 +25,7 @@ This section contains information about the programming elements used with stati
 
 
 
- 
+ 
 
 ### Messages
 
@@ -35,7 +40,7 @@ This section contains information about the programming elements used with stati
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -51,11 +56,11 @@ This section contains information about the programming elements used with stati
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: Transformation State Variables
 description: Transformation State Variables
-ms.assetid: '3a6be5ac-ac7a-4c3e-8b65-0404849ae67c'
-keywords: ["Transformation State Variables OpenGL"]
+ms.assetid: 3a6be5ac-ac7a-4c3e-8b65-0404849ae67c
+keywords:
+- Transformation State Variables OpenGL
 topic_type:
 - apiref
 api_name:
 - Transformation State Variables
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transformation State Variables

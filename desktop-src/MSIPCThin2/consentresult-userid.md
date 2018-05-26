@@ -4,11 +4,14 @@ description: Gets the email ID of the user giving consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'P:Microsoft.RightsManagement.ConsentResult.UserId'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: PMicrosoft.RightsManagement.ConsentResult.UserId
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["UserId property", "UserId property, ConsentResult class", "ConsentResult class, UserId property"]
+keywords:
+- UserId property
+- UserId property, ConsentResult class
+- ConsentResult class, UserId property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +21,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ConsentResult.UserId property
@@ -65,9 +71,9 @@ Email ID of the user giving consent.
 [**ConsentResult**](consentresult.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

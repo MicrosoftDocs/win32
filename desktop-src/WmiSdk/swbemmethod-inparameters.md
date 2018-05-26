@@ -1,13 +1,16 @@
 ---
-Description: 'The InParameters property of the SWbemMethod object is an SWbemObject object whose properties define the input parameters for this method.'
+Description: The InParameters property of the SWbemMethod object is an SWbemObject object whose properties define the input parameters for this method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fba1bb97-29f9-41d3-8ecc-f283989118c1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fba1bb97-29f9-41d3-8ecc-f283989118c1
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemMethod.InParameters property'
+title: SWbemMethod.InParameters property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemMethod.InParameters property
@@ -39,8 +42,8 @@ For more information, see [Constructing InParameters Objects and Parsing OutPara
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -68,9 +71,9 @@ For more information, see [Constructing InParameters Objects and Parsing OutPara
 [**SWbemServices.ExecMethodAsync**](swbemservices-execmethodasync.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

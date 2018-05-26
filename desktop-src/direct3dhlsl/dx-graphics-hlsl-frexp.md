@@ -1,8 +1,9 @@
 ---
 title: frexp
 description: Returns the mantissa and exponent of the specified floating-point value.
-ms.assetid: '9252feff-da85-4b3e-97db-1fcddd786695'
-keywords: ["frexp HLSL"]
+ms.assetid: 9252feff-da85-4b3e-97db-1fcddd786695
+keywords:
+- frexp HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # frexp
@@ -24,7 +30,7 @@ Returns the mantissa and exponent of the specified floating-point value.
 
 
 
- 
+ 
 
 The return value is the mantissa, and the value returned by *exp* parameter is the exponent.
 
@@ -39,7 +45,7 @@ The return value is the mantissa, and the value returned by *exp* parameter is t
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ The mantissa of the *x* parameter.
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -73,7 +79,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -94,9 +100,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

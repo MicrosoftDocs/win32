@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer organizes an installation around the concepts of components and features.'
-ms.assetid: 'c560441e-89c5-4f82-837b-988c3f404d37'
+Description: The Windows Installer organizes an installation around the concepts of components and features.
+ms.assetid: c560441e-89c5-4f82-837b-988c3f404d37
 title: Components and Features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Components and Features

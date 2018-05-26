@@ -1,7 +1,12 @@
 ---
 title: HTML Error Pages
 description: HTML Error Pages
-ms.assetid: '75972bb2-e23e-4a3b-af6e-b52e260fdac2'
+ms.assetid: 75972bb2-e23e-4a3b-af6e-b52e260fdac2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTML Error Pages

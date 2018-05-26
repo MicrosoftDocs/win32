@@ -1,8 +1,9 @@
 ---
 title: TVM\_GETBKCOLOR message
 description: Retrieves the current background color of the control. You can send this message explicitly or by using the TreeView\_GetBkColor macro.
-ms.assetid: '1b9eea90-54cd-47b9-befa-ec0128a0230f'
-keywords: ["TVM_GETBKCOLOR message Windows Controls"]
+ms.assetid: 1b9eea90-54cd-47b9-befa-ec0128a0230f
+keywords:
+- TVM_GETBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_GETBKCOLOR message
 
-Retrieves the current background color of the control. You can send this message explicitly or by using the [**TreeView\_GetBkColor**](treeview-getbkcolor.md) macro.
+Retrieves the current background color of the control. You can send this message explicitly or by using the [**TreeView\_GetBkColor**](/windows/win32/Commctrl/nf-commctrl-treeview_getbkcolor?branch=master) macro.
 
 ## Parameters
 
@@ -37,8 +43,8 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -50,9 +56,9 @@ Returns a [**COLORREF**](https://msdn.microsoft.com/library/windows/desktop/dd18
 [**TVM\_SETBKCOLOR**](tvm-setbkcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

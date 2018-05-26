@@ -1,7 +1,12 @@
-﻿---
-Description: 'The class identifier (CLSID) of the Media Foundation transform (MFT) associated with this topology node.'
-ms.assetid: '6aa6e649-d23d-4d8d-be80-2b8814b07a57'
-title: 'MF\_TOPONODE\_TRANSFORM\_OBJECTID attribute'
+---
+Description: The class identifier (CLSID) of the Media Foundation transform (MFT) associated with this topology node.
+ms.assetid: 6aa6e649-d23d-4d8d-be80-2b8814b07a57
+title: MF\_TOPONODE\_TRANSFORM\_OBJECTID attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TOPONODE\_TRANSFORM\_OBJECTID attribute
@@ -16,7 +21,7 @@ The class identifier (CLSID) of the Media Foundation transform (MFT) associated 
 
 This attribute applies to transform nodes (**MF\_TOPOLOGY\_TRANSFORM\_NODE**).
 
-Applications can use this attribute to initialize a transfrom node. If you set this attribute, you do not have to call [**IMFTopologyNode::SetObject**](imftopologynode-setobject.md) with a pointer to an MFT or activation object. Conversely, if you call **SetObject**, you do not need to set this attribute. For more information, see [Creating Topologies](creating-topologies.md).
+Applications can use this attribute to initialize a transfrom node. If you set this attribute, you do not have to call [**IMFTopologyNode::SetObject**](/windows/win32/mfidl/nf-mfidl-imftopologynode-setobject?branch=master) with a pointer to an MFT or activation object. Conversely, if you call **SetObject**, you do not need to set this attribute. For more information, see [Creating Topologies](creating-topologies.md).
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 
@@ -39,13 +44,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetGUID**](imfattributes-getguid.md)
+[**IMFAttributes::GetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getguid?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetGUID**](imfattributes-setguid.md)
+[**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode**](imftopologynode.md)
+[**IMFTopologyNode**](/windows/win32/mfidl/nn-mfidl-imftopologynode?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

@@ -4,11 +4,12 @@ description: Interface for displaying consents.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'T:Microsoft.RightsManagement.IConsentCallback'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: TMicrosoft.RightsManagement.IConsentCallback
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IConsentCallback interface"]
+keywords:
+- IConsentCallback interface
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Microsoft.RightsManagement.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IConsentCallback interface
@@ -52,7 +56,7 @@ The **IConsentCallback** interface has these methods. It also inherits methods f
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +79,9 @@ The **IConsentCallback** interface has these methods. It also inherits methods f
 [IInspectable](https://msdn.microsoft.com/library/windows/apps/br205821)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

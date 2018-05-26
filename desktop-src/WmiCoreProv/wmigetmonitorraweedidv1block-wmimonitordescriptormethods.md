@@ -1,7 +1,12 @@
 ---
-Description: 'Gets the raw data for a specified Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure that defines optimal settings for configuring a monitor.'
-ms.assetid: 'a787e66e-1b96-4dd5-8646-7aa2d281ac95'
+Description: Gets the raw data for a specified Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure that defines optimal settings for configuring a monitor.
+ms.assetid: a787e66e-1b96-4dd5-8646-7aa2d281ac95
 title: WmiGetMonitorRawEEdidV1Block method of the WmiMonitorDescriptorMethods class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiGetMonitorRawEEdidV1Block method of the WmiMonitorDescriptorMethods class
@@ -13,9 +18,9 @@ The **WmiGetMonitorRawEEdidV1Block** method gets the raw data for a specified Vi
 
 ```mof
 uint32 WmiGetMonitorRawEEdidV1Block(
-  [in]  uint8 BlockId,
-  [out] uint8 BlockType,
-  [out] uint8 BlockContent[]
+  [in]  uint8 BlockId,
+  [out] uint8 BlockType,
+  [out] uint8 BlockContent[]
 );
 ```
 
@@ -48,7 +53,7 @@ Type of data block. The following table lists possible return values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -108,8 +113,8 @@ static void Main(string[] args)
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -126,9 +131,9 @@ static void Main(string[] args)
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

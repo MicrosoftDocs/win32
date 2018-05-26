@@ -1,8 +1,10 @@
 ---
 title: BODYLOCATION enumeration
 description: Do not use. Specifies the location of a message body in an IMimeMessageTree object.
-ms.assetid: '139e5315-d9b7-409f-bc3a-0270e5e37b83'
-keywords: ["BODYLOCATION enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 139e5315-d9b7-409f-bc3a-0270e5e37b83
+keywords:
+- BODYLOCATION enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BODYLOCATION enumeration
@@ -22,12 +29,12 @@ Do not use. Specifies the location of a message body in an [**IMimeMessageTree**
 
 ```C++
 typedef enum tagBODYLOCATION { 
-  IBL_ROOT      = 0,
-  IBL_PARENT    = 1,
-  IBL_FIRST     = 2,
-  IBL_LAST      = 3,
-  IBL_NEXT      = 4,
-  IBL_PREVIOUS  = 5
+  IBL_ROOT      = 0,
+  IBL_PARENT    = 1,
+  IBL_FIRST     = 2,
+  IBL_LAST      = 3,
+  IBL_NEXT      = 4,
+  IBL_PREVIOUS  = 5
 } ACCESSTYPE;
 ```
 
@@ -85,17 +92,17 @@ Indicates that previous sibling of the message body.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

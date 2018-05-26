@@ -1,7 +1,12 @@
 ---
-Description: 'Generates C structure definitions for message types.'
-ms.assetid: '68459b22-0f35-444a-969e-29695e735774'
+Description: Generates C structure definitions for message types.
+ms.assetid: 68459b22-0f35-444a-969e-29695e735774
 title: messageStructureDefinitions element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # messageStructureDefinitions element
@@ -60,14 +65,14 @@ Message structures are referenced by generated proxy and stub code. This element
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

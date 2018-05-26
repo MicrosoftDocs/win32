@@ -1,7 +1,12 @@
 ---
 title: Pitch Property
 description: Pitch Property
-ms.assetid: '98b2ada3-93c6-4fa1-bf12-353eb229c30c'
+ms.assetid: 98b2ada3-93c6-4fa1-bf12-353eb229c30c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pitch Property

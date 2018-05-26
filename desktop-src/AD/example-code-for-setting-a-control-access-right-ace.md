@@ -4,11 +4,15 @@ description: The following C/C++ code example adds an ACE for a control access r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '8fb5eb47-27ca-4e60-ad39-ca4392da4e7d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 8fb5eb47-27ca-4e60-ad39-ca4392da4e7d
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Example Code for Setting a Control Access Right ACE AD"]
+keywords:
+- Example Code for Setting a Control Access Right ACE AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Setting a Control Access Right ACE

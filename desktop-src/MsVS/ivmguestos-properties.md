@@ -1,7 +1,12 @@
 ---
 title: IVMGuestOS Properties
 description: The IVMGuestOS interface defines the following properties
-ms.assetid: '2fa723db-8cce-4374-a53b-1a556eac4647'
+ms.assetid: 2fa723db-8cce-4374-a53b-1a556eac4647
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMGuestOS Properties

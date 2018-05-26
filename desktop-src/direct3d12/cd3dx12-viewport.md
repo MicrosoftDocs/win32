@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_VIEWPORT structure
 description: A helper structure to enable easy initialization of a D3D12\_VIEWPORT structure.
-ms.assetid: '1A824F54-596B-450E-A191-B60FBBBB60ED'
-keywords: ["CD3DX12_VIEWPORT structure"]
+ms.assetid: 1A824F54-596B-450E-A191-B60FBBBB60ED
+keywords:
+- CD3DX12_VIEWPORT structure
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_VIEWPORT structure
 
 \[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
 
-A helper structure to enable easy initialization of a [**D3D12\_VIEWPORT**](d3d12-viewport.md) structure.
+A helper structure to enable easy initialization of a [**D3D12\_VIEWPORT**](/windows/win32/D3D12/ns-d3d12-d3d12_viewport?branch=master) structure.
 
 ## Syntax
 
@@ -121,15 +127,15 @@ Defines the & pass-by-reference operator for the parent structure type.
 
 <dl> <dt>
 
-[**D3D12\_VIEWPORT**](d3d12-viewport.md)
+[**D3D12\_VIEWPORT**](/windows/win32/D3D12/ns-d3d12-d3d12_viewport?branch=master)
 </dt> <dt>
 
 [Helper Structures for D3D12](helper-structures-for-d3d12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

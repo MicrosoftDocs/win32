@@ -1,8 +1,11 @@
 ---
 title: IWMPDVD back method
 description: The back method changes the display from a submenu to its parent menu.
-ms.assetid: '81d033d4-f570-44a5-898a-e419101c04fa'
-keywords: ["back method Windows Media Player", "back method Windows Media Player , IWMPDVD interface", "IWMPDVD interface Windows Media Player , back method"]
+ms.assetid: 81d033d4-f570-44a5-898a-e419101c04fa
+keywords:
+- back method Windows Media Player
+- back method Windows Media Player , IWMPDVD interface
+- IWMPDVD interface Windows Media Player , back method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPDVD::back method
@@ -76,9 +84,9 @@ Every DVD is authored differently. Some DVDs are authored so that the `back` met
 [**IWMPDVD Interface (VB and C#)**](iwmpdvd--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

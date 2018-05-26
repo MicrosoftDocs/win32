@@ -1,8 +1,14 @@
 ---
 title: RSVP Service
 description: The RSVP service is a single instance Windows 2000 service that runs on a Windows 2000 computer.
-ms.assetid: '18c2218b-6de1-4a54-98bd-ea2b3ea9a36a'
-keywords: ["Quality of Service QOS , reference, RSVP service"]
+ms.assetid: 18c2218b-6de1-4a54-98bd-ea2b3ea9a36a
+keywords:
+- Quality of Service QOS , reference, RSVP service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RSVP Service

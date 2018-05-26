@@ -1,7 +1,12 @@
 ---
-Description: 'Device Association Endpoint''s Manufacturer.'
-ms.assetid: '65f1191a-b841-4041-8643-945d26a605f0'
-title: 'System.Devices.Aep.Manufacturer'
+Description: Device Association Endpoints Manufacturer.
+ms.assetid: 65f1191a-b841-4041-8643-945d26a605f0
+title: System.Devices.Aep.Manufacturer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Aep.Manufacturer

@@ -1,15 +1,22 @@
 ---
 title: NetShell
 description: NetShell, a scriptable command line-based tool, enables administrators to remotely administer and configure critical network services.
-ms.assetid: '237a1422-8126-4b93-a023-4cb0f93fe603'
-keywords: ["NetShell Netsh", "Netshell Netsh , start page"]
+ms.assetid: 237a1422-8126-4b93-a023-4cb0f93fe603
+keywords:
+- NetShell Netsh
+- Netshell Netsh , start page
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetShell
 
 ## Purpose
 
-NetShell is a command line–based tool that enables administrators to remotely administer and configure critical network services. The NetShell command-line interface is scriptable, which enables administrators to carry out batch configurations or management tasks from a single, centralized location.
+NetShell is a command line based tool that enables administrators to remotely administer and configure critical network services. The NetShell command-line interface is scriptable, which enables administrators to carry out batch configurations or management tasks from a single, centralized location.
 
 NetShell operates on the basis of contexts. A context collects administrative activities for a given area of networking functionality. Contexts are generally implemented through a NetShell helper, which is a DLL file that provides the capabilities for a given context.
 
@@ -25,7 +32,7 @@ The NetShell API is designed for use by C/C++ programmers. Familiarity with Wind
 
 ## Run-time requirements
 
-Netshell is supported on the Windows XP, Windows Vista and Windows Server 2003.
+Netshell is supported on the Windows XP, Windows Vista and Windows Server 2003.
 
 The NetShell API can be dynamically linked through Dhcpcsvc.dll.
 
@@ -40,11 +47,11 @@ The NetShell API can be dynamically linked through Dhcpcsvc.dll.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

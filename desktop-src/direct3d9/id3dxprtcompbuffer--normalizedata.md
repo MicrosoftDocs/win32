@@ -1,7 +1,12 @@
-﻿---
-Description: 'Normalizes all principal component analysis (PCA) weights so that they are between -1 and 1. Basis vectors are modified to reflect this normalization.'
-ms.assetid: 'f1c87049-a1ec-452e-b556-a2dc95324d5d'
-title: 'ID3DXPRTCompBuffer::NormalizeData method'
+---
+Description: Normalizes all principal component analysis (PCA) weights so that they are between -1 and 1. Basis vectors are modified to reflect this normalization.
+ms.assetid: f1c87049-a1ec-452e-b556-a2dc95324d5d
+title: ID3DXPRTCompBufferNormalizeData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTCompBuffer::NormalizeData method

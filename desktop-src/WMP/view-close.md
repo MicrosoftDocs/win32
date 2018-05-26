@@ -1,14 +1,20 @@
 ---
 title: VIEW.close
 description: The close method closes the VIEW.
-ms.assetid: '3eabd9c1-99c3-4aed-9874-2c1242decd50'
-keywords: ["VIEW.close Windows Media Player"]
+ms.assetid: 3eabd9c1-99c3-4aed-9874-2c1242decd50
+keywords:
+- VIEW.close Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.close
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.close
@@ -44,9 +50,9 @@ This method does not return a value.
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

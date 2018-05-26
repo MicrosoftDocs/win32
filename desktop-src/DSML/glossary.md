@@ -5,11 +5,15 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7dbbc40a-bb57-44ac-a287-9c06b8ba2b5f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 7dbbc40a-bb57-44ac-a287-9c06b8ba2b5f
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSML Services for Windows, glossary"]
+keywords:
+- DSML Services for Windows, glossary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Glossary

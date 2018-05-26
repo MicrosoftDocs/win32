@@ -1,7 +1,12 @@
 ---
-Description: 'Initiates a failover for a virtual machine to an application or standard replication point image.'
-ms.assetid: 'cd7e9398-c234-4637-906d-69b46ebf3f51'
-title: 'InitiateFailover method of the Msvm\_ReplicationService class'
+Description: Initiates a failover for a virtual machine to an application or standard replication point image.
+ms.assetid: cd7e9398-c234-4637-906d-69b46ebf3f51
+title: InitiateFailover method of the Msvm\_ReplicationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitiateFailover method of the Msvm\_ReplicationService class
@@ -13,9 +18,9 @@ Initiates a failover for a virtual machine to an application or standard replica
 
 ```mof
 uint32 InitiateFailover(
-  [in]  CIM_ComputerSystem           REF ComputerSystem,
-  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_ComputerSystem           REF ComputerSystem,
+  [in]  CIM_VirtualSystemSettingData REF SnapshotSettingData,
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -100,8 +105,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -121,9 +126,9 @@ This method returns one of the following values.
 [**SetFailoverNetworkAdapterSettings**](setfailovernetworkadaptersettings-msvm-replicationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: SessionStateChangeTrigger.StateChange property
 description: For scripting, gets or sets the kind of Terminal Server session change that would trigger a task launch.
-ms.assetid: '742e623f-7794-4e2a-970f-77ab22914554'
-keywords: ["StateChange property Task Scheduler", "StateChange property Task Scheduler , SessionStateChangeTrigger object", "SessionStateChangeTrigger object Task Scheduler , StateChange property"]
+ms.assetid: 742e623f-7794-4e2a-970f-77ab22914554
+keywords:
+- StateChange property Task Scheduler
+- StateChange property Task Scheduler , SessionStateChangeTrigger object
+- SessionStateChangeTrigger object Task Scheduler , StateChange property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SessionStateChangeTrigger.StateChange property
@@ -30,7 +38,7 @@ SessionStateChangeTrigger.StateChange As Integer
 
 The kind of Terminal Server session change that triggers a task to launch.
 
-The possible values are from the [**TASK\_SESSION\_STATE\_CHANGE\_TYPE**](task-session-state-change-type.md) enumeration.
+The possible values are from the [**TASK\_SESSION\_STATE\_CHANGE\_TYPE**](/windows/win32/taskschd/ne-taskschd-_task_session_state_change_type?branch=master) enumeration.
 
 
 
@@ -45,7 +53,7 @@ The possible values are from the [**TASK\_SESSION\_STATE\_CHANGE\_TYPE**](task-s
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -53,16 +61,16 @@ The possible values are from the [**TASK\_SESSION\_STATE\_CHANGE\_TYPE**](task-s
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

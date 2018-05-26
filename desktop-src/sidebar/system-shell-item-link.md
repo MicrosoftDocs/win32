@@ -1,8 +1,11 @@
 ---
 title: System.Shell.Item.link property
 description: Gets a System.Shell.Item object that represents the linked item.
-ms.assetid: '26cf4403-0334-41d6-a89f-69738ccc0df2'
-keywords: ["link property Windows Sidebar", "link property Windows Sidebar , System.Shell.Item object", "System.Shell.Item object Windows Sidebar , link property"]
+ms.assetid: 26cf4403-0334-41d6-a89f-69738ccc0df2
+keywords:
+- link property Windows Sidebar
+- link property Windows Sidebar , System.Shell.Item object
+- System.Shell.Item object Windows Sidebar , link property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.Item.link property
@@ -86,18 +94,18 @@ function GetItemFromDrop()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

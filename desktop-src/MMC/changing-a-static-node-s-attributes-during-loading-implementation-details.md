@@ -1,14 +1,18 @@
 ---
-title: Changing a Static Node's Attributes during Loading Implementation Details
-description: Changing a Static Node's Attributes during Loading Implementation Details
+title: Changing a Static Nodes Attributes during Loading Implementation Details
+description: Changing a Static Nodes Attributes during Loading Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e6d33170-47e6-4a89-874a-853aa08a9b2a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e6d33170-47e6-4a89-874a-853aa08a9b2a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["changing a static node's attributes during loading MMC , implementation details"]
+keywords:
+- changing a static nodes attributes during loading MMC , implementation details
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Changing a Static Node's Attributes during Loading: Implementation Details

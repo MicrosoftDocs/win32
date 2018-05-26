@@ -1,14 +1,20 @@
 ---
 title: types (MetadataType) Element
 description: Defines a list of XML types.
-ms.assetid: '55eb553e-1744-4fbc-987d-f763e80f3560'
-keywords: ["types element EventLog"]
+ms.assetid: 55eb553e-1744-4fbc-987d-f763e80f3560
+keywords:
+- types element EventLog
 topic_type:
 - apiref
 api_name:
 - types
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # types (MetadataType) Element
@@ -29,8 +35,8 @@ The **types** element is defined by the [**MetadataType**](eventmanifestschema-m
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **types** element is defined by the [**MetadataType**](eventmanifestschema-m
 [**metadata (instrumentationManifest)**](eventmanifestschema-metadata-instrumentationmanifest-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following example shows how a termination handler is used to ensure that resources are released when execution of a guarded body of code terminates.'
-ms.assetid: '442af2a3-d62a-4dd8-a934-da69c1d2a738'
+Description: The following example shows how a termination handler is used to ensure that resources are released when execution of a guarded body of code terminates.
+ms.assetid: 442af2a3-d62a-4dd8-a934-da69c1d2a738
 title: Using a Termination Handler
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Termination Handler

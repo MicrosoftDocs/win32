@@ -1,8 +1,24 @@
 ---
 title: Making Your Own XML File
 description: Making Your Own XML File
-ms.assetid: 'd7534589-69d4-4cdc-9c35-85332a005b3e'
-keywords: ["Windows Movie Maker,custom XML files", "Movie Maker,custom XML files", "Windows DVD Maker,custom XML files", "DVD Maker,custom XML files", "programming guide,custom XML files", "creating custom transforms using XML,custom XML files", "XML,custom files", "transforms,custom XML files", "custom transforms,custom XML files", "customXML files", "effects,creating in XML"]
+ms.assetid: d7534589-69d4-4cdc-9c35-85332a005b3e
+keywords:
+- Windows Movie Maker,custom XML files
+- Movie Maker,custom XML files
+- Windows DVD Maker,custom XML files
+- DVD Maker,custom XML files
+- programming guide,custom XML files
+- creating custom transforms using XML,custom XML files
+- XML,custom files
+- transforms,custom XML files
+- custom transforms,custom XML files
+- customXML files
+- effects,creating in XML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Making Your Own XML File

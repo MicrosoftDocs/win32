@@ -1,7 +1,12 @@
 ---
 title: Tiled resource creation parameters
 description: There are some constraints on the type of Direct3D resources that you can create with the D3D11\_RESOURCE\_MISC\_TILED flag. This section provides the valid parameters for creating tiled resources.
-ms.assetid: '19A0EA7F-888D-4102-A5D2-F3B54775EDE8'
+ms.assetid: 19A0EA7F-888D-4102-A5D2-F3B54775EDE8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tiled resource creation parameters

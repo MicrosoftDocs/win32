@@ -1,7 +1,12 @@
 ---
 title: List View Constants
 description: .
-ms.assetid: '50e5afc1-c56e-4777-b0c2-2233c41ab94c'
+ms.assetid: 50e5afc1-c56e-4777-b0c2-2233c41ab94c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List View Constants

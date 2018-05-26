@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualMachine Keyboard property
 description: The Keyboard property contains the keyboard device for the virtual machine.
-ms.assetid: 'c856c54d-45ed-442b-b72a-7aaf57631162'
-keywords: ["Keyboard property Virtual Server", "Keyboard property Virtual Server , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual Server , Keyboard property", "Keyboard property Virtual Server , VMVirtualMachine class", "VMVirtualMachine class Virtual Server , Keyboard property"]
+ms.assetid: c856c54d-45ed-442b-b72a-7aaf57631162
+keywords:
+- Keyboard property Virtual Server
+- Keyboard property Virtual Server , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual Server , Keyboard property
+- Keyboard property Virtual Server , VMVirtualMachine class
+- VMVirtualMachine class Virtual Server , Keyboard property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Keyboard property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Keyboard(
-  [out] IVMKeyboard **keyboard
+  [out] IVMKeyboard **keyboard
 );
 ```
 
@@ -94,8 +104,8 @@ objKeyboard.TypeAsciiText("Hello World")
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -107,9 +117,9 @@ objKeyboard.TypeAsciiText("Hello World")
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

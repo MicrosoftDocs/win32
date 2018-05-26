@@ -1,7 +1,12 @@
 ---
-Description: 'The International Standards Organization (ISO) speed as recorded by the camera when the photo was taken.'
-ms.assetid: '2d9b642f-6b42-4fc6-839c-269bbb0f7296'
-title: 'System.Photo.ISOSpeed'
+Description: The International Standards Organization (ISO) speed as recorded by the camera when the photo was taken.
+ms.assetid: 2d9b642f-6b42-4fc6-839c-269bbb0f7296
+title: System.Photo.ISOSpeed
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.ISOSpeed

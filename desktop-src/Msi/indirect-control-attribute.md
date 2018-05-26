@@ -1,7 +1,12 @@
 ---
-Description: 'The Indirect control attribute specifies whether the value displayed or changed by this control is referenced indirectly.'
-ms.assetid: 'dc9c0dd6-7e19-44ec-b1a5-3d51a1855adf'
+Description: The Indirect control attribute specifies whether the value displayed or changed by this control is referenced indirectly.
+ms.assetid: dc9c0dd6-7e19-44ec-b1a5-3d51a1855adf
 title: Indirect Control Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Indirect Control Attribute

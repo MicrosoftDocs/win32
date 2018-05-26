@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.hueShift
 description: The hueShift attribute specifies or retrieves the amount by which the hue of the BUTTONGROUP images is shifted.
-ms.assetid: '156256ef-ec24-40c4-ad23-064e38c79e69'
-keywords: ["BUTTONGROUP.hueShift Windows Media Player"]
+ms.assetid: 156256ef-ec24-40c4-ad23-064e38c79e69
+keywords:
+- BUTTONGROUP.hueShift Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.hueShift
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.hueShift
@@ -62,9 +68,9 @@ This attribute changes the hue value of the images specified by the **disabledIm
 [**BUTTONGROUP.saturation**](buttongroup-saturation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

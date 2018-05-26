@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '079BEF8A-514E-42C3-8916-95655C605098'
+---
+Description: .
+ms.assetid: 079BEF8A-514E-42C3-8916-95655C605098
 title: EXpsFontRestriction enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EXpsFontRestriction enumeration

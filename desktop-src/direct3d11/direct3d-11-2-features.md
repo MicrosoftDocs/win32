@@ -1,7 +1,12 @@
 ---
 title: Direct3D 11.2 Features
 description: The following functionality has been added in Direct3D 11.2, which is included with Windows 8.1, Windows RT 8.1, and Windows Server 2012 R2.
-ms.assetid: '2A2D9BBB-F53A-4187-A25B-F4E58C896EE2'
+ms.assetid: 2A2D9BBB-F53A-4187-A25B-F4E58C896EE2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 11.2 Features
@@ -21,16 +26,16 @@ The following functionality has been added in Direct3D 11.2, which is included w
 
 Direct3D 11.2 lets you create tiled resources that can be thought of as large logical resources that use small amounts of physical memory. Tiled resources are useful (for example) with terrain in games, and app UI.
 
-Tiled resources are created by specifying the [**D3D11\_RESOURCE\_MISC\_TILED**](d3d11-resource-misc-flag.md) flag. To work with tiled resource, use these API:
+Tiled resources are created by specifying the [**D3D11\_RESOURCE\_MISC\_TILED**](/windows/win32/D3D11/ne-d3d11-d3d11_resource_misc_flag?branch=master) flag. To work with tiled resource, use these API:
 
--   [**ID3D11Device2::GetResourceTiling**](id3d11device2-getresourcetiling.md)
--   [**ID3D11DeviceContext2::UpdateTiles**](id3d11devicecontext2-updatetiles.md)
--   [**ID3D11DeviceContext2::UpdateTileMappings**](id3d11devicecontext2-updatetilemappings.md)
--   [**ID3D11DeviceContext2::CopyTiles**](id3d11devicecontext2-copytiles.md)
--   [**ID3D11DeviceContext2::CopyTileMappings**](id3d11devicecontext2-copytilemappings.md)
--   [**ID3D11DeviceContext2::ResizeTilePool**](id3d11devicecontext2-resizetilepool.md)
--   [**ID3D11DeviceContext2::TiledResourceBarrier**](id3d11devicecontext2-tiledresourcebarrier.md)
--   **D3D11\_DEBUG\_FEATURE\_DISABLE\_TILED\_RESOURCE\_MAPPING\_TRACKING\_AND\_VALIDATION** flag with [**ID3D11Debug::SetFeatureMask**](id3d11debug-setfeaturemask.md)
+-   [**ID3D11Device2::GetResourceTiling**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11device2-getresourcetiling?branch=master)
+-   [**ID3D11DeviceContext2::UpdateTiles**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-updatetiles?branch=master)
+-   [**ID3D11DeviceContext2::UpdateTileMappings**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-updatetilemappings?branch=master)
+-   [**ID3D11DeviceContext2::CopyTiles**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytiles?branch=master)
+-   [**ID3D11DeviceContext2::CopyTileMappings**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-copytilemappings?branch=master)
+-   [**ID3D11DeviceContext2::ResizeTilePool**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-resizetilepool?branch=master)
+-   [**ID3D11DeviceContext2::TiledResourceBarrier**](/windows/win32/D3D11_2/nf-d3d11_2-id3d11devicecontext2-tiledresourcebarrier?branch=master)
+-   **D3D11\_DEBUG\_FEATURE\_DISABLE\_TILED\_RESOURCE\_MAPPING\_TRACKING\_AND\_VALIDATION** flag with [**ID3D11Debug::SetFeatureMask**](/windows/win32/D3D11SDKLayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask?branch=master)
 
 For more info about tiled resources, see [Tiled resources](tiled-resources.md).
 
@@ -68,16 +73,16 @@ if (SUCCEEDED(hr))
 
 ## Extended support for WARP devices
 
-Direct3D 11.2 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](d3d-driver-type.md#d3d-driver-type-warp) in the *DriverType* parameter of [**D3D11CreateDevice**](d3d11createdevice.md). The WARP software renderer in Direct3D 11.2 adds full support for Direct3D [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 11\_1, including [tiled resources](#tiled-resources), [**IDXGIDevice3::Trim**](https://msdn.microsoft.com/library/windows/desktop/dn280346), shared BCn surfaces, minblend, and map default. [Double](d3d11-feature-data-doubles.md) support in HLSL shaders has also been enabled along with support for 16x MSAA.
+Direct3D 11.2 extends support for [WARP](overviews-direct3d-11-devices-create-warp.md) devices, which you create by passing [**D3D\_DRIVER\_TYPE\_WARP**](d3d-driver-type.md#d3d-driver-type-warp) in the *DriverType* parameter of [**D3D11CreateDevice**](/windows/win32/D3D11/nf-d3d11-d3d11createdevice?branch=master). The WARP software renderer in Direct3D 11.2 adds full support for Direct3D [feature level](overviews-direct3d-11-devices-downlevel-intro.md#overview-for-each-feature-level) 11\_1, including [tiled resources](#tiled-resources), [**IDXGIDevice3::Trim**](https://msdn.microsoft.com/library/windows/desktop/dn280346), shared BCn surfaces, minblend, and map default. [Double](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_doubles?branch=master) support in HLSL shaders has also been enabled along with support for 16x MSAA.
 
 ## Annotate graphics commands
 
 Direct3D 11.2 lets you annotate graphics commands with these API:
 
--   [**ID3D11DeviceContext2::IsAnnotationEnabled**](id3d11devicecontext2-isannotationenabled.md)
--   [**ID3D11DeviceContext2::BeginEventInt**](id3d11devicecontext2-begineventint.md)
--   [**ID3D11DeviceContext2::SetMarkerInt**](id3d11devicecontext2-setmarkerint.md)
--   [**ID3D11DeviceContext2::EndEvent**](id3d11devicecontext2-endevent.md)
+-   [**ID3D11DeviceContext2::IsAnnotationEnabled**](/windows/win32/d3d11_2/nf-d3d11_2-id3d11devicecontext2-isannotationenabled?branch=master)
+-   [**ID3D11DeviceContext2::BeginEventInt**](/windows/win32/d3d11_2/nf-d3d11_2-id3d11devicecontext2-begineventint?branch=master)
+-   [**ID3D11DeviceContext2::SetMarkerInt**](/windows/win32/d3d11_2/nf-d3d11_2-id3d11devicecontext2-setmarkerint?branch=master)
+-   [**ID3D11DeviceContext2::EndEvent**](/windows/win32/d3d11_2/nf-d3d11_2-id3d11devicecontext2-endevent?branch=master)
 
 ## HLSL shader linking
 
@@ -87,15 +92,15 @@ Complete these steps to create a final shader using dynamic linkage at run time.
 
 **To create and use shader linking**
 
-1.  Create a [**ID3D11Linker**](id3d11linker.md) linker object, which represents a linking context. A single context can't be used to produce multiple shaders; a linking context is used to produce a single shader and then the linking context is thrown away.
+1.  Create a [**ID3D11Linker**](/windows/win32/D3D11Shader/nn-d3d11shader-id3d11linker?branch=master) linker object, which represents a linking context. A single context can't be used to produce multiple shaders; a linking context is used to produce a single shader and then the linking context is thrown away.
 2.  Use [**D3DLoadModule**](https://msdn.microsoft.com/library/windows/desktop/dn280342) to load and set libraries from their library blobs.
 3.  Use [**D3DLoadModule**](https://msdn.microsoft.com/library/windows/desktop/dn280342) to load and set an entry shader blob, or create an [FLG shader](#function-linking-graph-flg).
-4.  Use [**ID3D11Module**](id3d11module.md)::[**CreateInstance**](id3d11module-createinstance.md) to create [**ID3D11ModuleInstance**](id3d11moduleinstance.md) objects, then call functions on these objects to rebind resources to their final slots.
-5.  Add the libraries to the linker, then call [**ID3D11Linker**](id3d11linker.md)::[**Link**](id3d11linker-link.md) to produce final shader byte code that can then be loaded and used in the runtime just like a fully precompiled and linked shader.
+4.  Use [**ID3D11Module**](/windows/win32/D3D11Shader/nn-d3d11shader-id3d11module?branch=master)::[**CreateInstance**](/windows/win32/D3D11Shader/nf-d3d11shader-id3d11module-createinstance?branch=master) to create [**ID3D11ModuleInstance**](/windows/win32/D3D11Shader/nn-d3d11shader-id3d11moduleinstance?branch=master) objects, then call functions on these objects to rebind resources to their final slots.
+5.  Add the libraries to the linker, then call [**ID3D11Linker**](/windows/win32/D3D11Shader/nn-d3d11shader-id3d11linker?branch=master)::[**Link**](/windows/win32/D3D11Shader/nf-d3d11shader-id3d11linker-link?branch=master) to produce final shader byte code that can then be loaded and used in the runtime just like a fully precompiled and linked shader.
 
 ### Function linking graph (FLG)
 
-Windows 8.1 also adds the Function Linking Graph (FLG). You can use FLG to construct shaders that consist of a sequence of precompiled function invocations that pass values to each other. When using the FLG, there is no need to write HLSL and invoke the HLSL compiler. Instead, the shader structure is specified programmatically using C++ API calls. FLG nodes represent input and output signatures and invocations of precompiled library functions. The order of registering the function-call nodes defines the sequence of invocations. The input signature node must be specified first, while the output signature node must be specified last. FLG edges define how values are passed from one node to another. The data types of passed values must be the same; there is no implicit type conversion. Shape and swizzling rules follow the HLSL behavior and values can only be passed forward in this sequence. For info on the FLG API, see [**ID3D11FunctionLinkingGraph**](id3d11functionlinkinggraph.md).
+Windows 8.1 also adds the Function Linking Graph (FLG). You can use FLG to construct shaders that consist of a sequence of precompiled function invocations that pass values to each other. When using the FLG, there is no need to write HLSL and invoke the HLSL compiler. Instead, the shader structure is specified programmatically using C++ API calls. FLG nodes represent input and output signatures and invocations of precompiled library functions. The order of registering the function-call nodes defines the sequence of invocations. The input signature node must be specified first, while the output signature node must be specified last. FLG edges define how values are passed from one node to another. The data types of passed values must be the same; there is no implicit type conversion. Shape and swizzling rules follow the HLSL behavior and values can only be passed forward in this sequence. For info on the FLG API, see [**ID3D11FunctionLinkingGraph**](/windows/win32/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph?branch=master).
 
 ## Inbox HLSL compiler
 

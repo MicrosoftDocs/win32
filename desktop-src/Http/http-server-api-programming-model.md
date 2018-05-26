@@ -1,7 +1,12 @@
 ---
 title: Programming Model
 description: The HTTP Server API programming model includes five groups of activities.
-ms.assetid: '8485cbdc-803f-4c10-ae4c-9ca53965d747'
+ms.assetid: 8485cbdc-803f-4c10-ae4c-9ca53965d747
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Model

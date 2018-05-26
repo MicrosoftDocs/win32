@@ -1,7 +1,7 @@
 ---
 title: Standard Clipboard Formats
 description: The clipboard formats defined by the system are called standard clipboard formats. These clipboard formats are described in the following table.
-ms.assetid: 'f0af4e61-7ef1-4263-b2c5-e4114515124f'
+ms.assetid: f0af4e61-7ef1-4263-b2c5-e4114515124f
 topic_type:
 - apiref
 api_name:
@@ -35,6 +35,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Standard Clipboard Formats
@@ -58,7 +63,7 @@ The clipboard formats defined by the system are called *standard clipboard forma
 | <span id="CF_GDIOBJLAST"></span><span id="cf_gdiobjlast"></span><dl> <dt>**CF\_GDIOBJLAST**</dt> <dt>0x03FF</dt> </dl>                | See **CF\_GDIOBJFIRST**.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="CF_HDROP"></span><span id="cf_hdrop"></span><dl> <dt>**CF\_HDROP**</dt> <dt>15</dt> </dl>                                   | A handle to type **HDROP** that identifies a list of files. An application can retrieve information about the files by passing the handle to the [**DragQueryFile**](_win32_DragQueryFile) function.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | <span id="CF_LOCALE"></span><span id="cf_locale"></span><dl> <dt>**CF\_LOCALE**</dt> <dt>16</dt> </dl>                                | The data is a handle to the locale identifier associated with text in the clipboard. When you close the clipboard, if it contains **CF\_TEXT** data but no **CF\_LOCALE** data, the system automatically sets the **CF\_LOCALE** format to the current input language. You can use the **CF\_LOCALE** format to associate a different locale with the clipboard text. <br/> An application that pastes text from the clipboard can retrieve this format to determine which character set was used to generate the text.<br/> Note that the clipboard does not support plain text in multiple character sets. To achieve this, use a formatted text data type such as RTF instead.<br/> The system uses the code page associated with **CF\_LOCALE** to implicitly convert from **CF\_TEXT** to **CF\_UNICODETEXT**. Therefore, the correct code page table is used for the conversion.<br/> |
-| <span id="CF_METAFILEPICT"></span><span id="cf_metafilepict"></span><dl> <dt>**CF\_METAFILEPICT**</dt> <dt>3</dt> </dl>               | Handle to a metafile picture format as defined by the [**METAFILEPICT**](metafilepict.md) structure. When passing a **CF\_METAFILEPICT** handle by means of DDE, the application responsible for deleting *hMem* should also free the metafile referred to by the **CF\_METAFILEPICT** handle.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| <span id="CF_METAFILEPICT"></span><span id="cf_metafilepict"></span><dl> <dt>**CF\_METAFILEPICT**</dt> <dt>3</dt> </dl>               | Handle to a metafile picture format as defined by the [**METAFILEPICT**](/windows/win32/Wingdi/ns-wingdi-tagmetafilepict?branch=master) structure. When passing a **CF\_METAFILEPICT** handle by means of DDE, the application responsible for deleting *hMem* should also free the metafile referred to by the **CF\_METAFILEPICT** handle.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | <span id="CF_OEMTEXT"></span><span id="cf_oemtext"></span><dl> <dt>**CF\_OEMTEXT**</dt> <dt>7</dt> </dl>                              | Text format containing characters in the OEM character set. Each line ends with a carriage return/linefeed (CR-LF) combination. A null character signals the end of the data.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="CF_OWNERDISPLAY"></span><span id="cf_ownerdisplay"></span><dl> <dt>**CF\_OWNERDISPLAY**</dt> <dt>0x0080</dt> </dl>          | Owner-display format. The clipboard owner must display and update the clipboard viewer window, and receive the [**WM\_ASKCBFORMATNAME**](wm-askcbformatname.md), [**WM\_HSCROLLCLIPBOARD**](wm-hscrollclipboard.md), [**WM\_PAINTCLIPBOARD**](wm-paintclipboard.md), [**WM\_SIZECLIPBOARD**](wm-sizeclipboard.md), and [**WM\_VSCROLLCLIPBOARD**](wm-vscrollclipboard.md) messages. The *hMem* parameter must be **NULL**.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | <span id="CF_PALETTE"></span><span id="cf_palette"></span><dl> <dt>**CF\_PALETTE**</dt> <dt>9</dt> </dl>                              | Handle to a color palette. Whenever an application places data in the clipboard that depends on or assumes a color palette, it should place the palette on the clipboard as well.<br/> If the clipboard contains data in the **CF\_PALETTE** (logical color palette) format, the application should use the [**SelectPalette**](https://msdn.microsoft.com/library/windows/desktop/dd162958) and [**RealizePalette**](https://msdn.microsoft.com/library/windows/desktop/dd162896) functions to realize (compare) any other data in the clipboard against that logical palette.<br/> When displaying clipboard data, the clipboard always uses as its current palette any object on the clipboard that is in the **CF\_PALETTE** format.<br/>                                                                                                                                                                                                                                        |
@@ -80,15 +85,15 @@ The clipboard formats defined by the system are called *standard clipboard forma
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

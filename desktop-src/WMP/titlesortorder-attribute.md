@@ -1,14 +1,20 @@
 ---
 title: TitleSortOrder Attribute
 description: The TitleSortOrder attribute is the value to use for sorting the Title column in the library.
-ms.assetid: 'be84b65d-c635-4ca9-86a6-32011853a5d1'
-keywords: ["TitleSortOrder Attribute Windows Media Player"]
+ms.assetid: be84b65d-c635-4ca9-86a6-32011853a5d1
+keywords:
+- TitleSortOrder Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - TitleSortOrder
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TitleSortOrder Attribute
@@ -44,9 +50,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

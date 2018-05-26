@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the network source when it finishes opening a URL.'
-ms.assetid: '737aec32-24f4-4825-ad34-8d2fc889bc09'
+---
+Description: Raised by the network source when it finishes opening a URL.
+ms.assetid: 737aec32-24f4-4825-ad34-8d2fc889bc09
 title: MEConnectEnd event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEConnectEnd event
@@ -10,7 +15,7 @@ Raised by the network source when it finishes opening a URL.
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -22,7 +27,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getva
 
 ## Remarks
 
-The network source sends this event directly to the application through the application's [**IMFSourceOpenMonitor::OnSourceEvent**](imfsourceopenmonitor-onsourceevent.md) method, not through the usual [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) interface.
+The network source sends this event directly to the application through the application's [**IMFSourceOpenMonitor::OnSourceEvent**](/windows/win32/mfidl/nf-mfidl-imfsourceopenmonitor-onsourceevent?branch=master) method, not through the usual [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) interface.
 
 ## Requirements
 
@@ -40,7 +45,7 @@ The network source sends this event directly to the application through the appl
 
 <dl> <dt>
 
-[**IMFSourceOpenMonitor**](imfsourceopenmonitor.md)
+[**IMFSourceOpenMonitor**](/windows/win32/mfidl/nn-mfidl-imfsourceopenmonitor?branch=master)
 </dt> <dt>
 
 [Media Foundation Events](media-foundation-events.md)

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the device is roaming.'
-ms.assetid: 'd2382e96-7ca4-42e4-8e5b-89f1da736904'
-title: 'System.Devices.Roaming'
+Description: Indicates whether the device is roaming.
+ms.assetid: d2382e96-7ca4-42e4-8e5b-89f1da736904
+title: System.Devices.Roaming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Roaming

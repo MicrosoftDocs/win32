@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'b079bdfc-b192-451c-967d-dcefa94b7ec7'
+Description: .
+ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
 title: Control of Winsock Tracing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Control of Winsock Tracing

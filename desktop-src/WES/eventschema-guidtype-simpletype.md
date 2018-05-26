@@ -1,14 +1,20 @@
 ---
 title: GUIDType Simple Type
 description: Defines a globally unique identifier type, in Registry format.
-ms.assetid: 'dbc305ef-6f07-4a70-9013-b89ccec889ea'
-keywords: ["GUIDType simple type EventLog"]
+ms.assetid: dbc305ef-6f07-4a70-9013-b89ccec889ea
+keywords:
+- GUIDType simple type EventLog
 topic_type:
 - apiref
 api_name:
 - GUIDType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUIDType Simple Type
@@ -41,14 +47,14 @@ The **GUIDType** simple type is a string that is restricted by the following pat
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

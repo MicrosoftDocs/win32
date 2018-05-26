@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Product Activation (WPA) provider is an anti-piracy technology aimed at reducing the casual copying of software.'
-ms.assetid: '2d68caa8-76b0-44fe-96cd-ecbde075760e'
+Description: The Windows Product Activation (WPA) provider is an anti-piracy technology aimed at reducing the casual copying of software.
+ms.assetid: 2d68caa8-76b0-44fe-96cd-ecbde075760e
 title: Windows Product Activation Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Product Activation Provider

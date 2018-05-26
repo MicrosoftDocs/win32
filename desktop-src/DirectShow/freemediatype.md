@@ -1,19 +1,24 @@
 ---
-Description: 'The FreeMediaType function deletes the format block in an AM\_MEDIA\_TYPE structure.'
-ms.assetid: 'b7ec335e-518d-4aa6-8cde-8cb92184d0b0'
+Description: The FreeMediaType function deletes the format block in an AM\_MEDIA\_TYPE structure.
+ms.assetid: b7ec335e-518d-4aa6-8cde-8cb92184d0b0
 title: FreeMediaType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeMediaType function
 
-The **FreeMediaType** function deletes the format block in an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure.
+The **FreeMediaType** function deletes the format block in an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure.
 
 ## Syntax
 
 
 ```C++
 void FreeMediaType(
-   AM_MEDIA_TYPE &amp;mt
+   AM_MEDIA_TYPE &amp;mt
 );
 ```
 
@@ -26,7 +31,7 @@ void FreeMediaType(
 *mt* \[ref\]
 </dt> <dd>
 
-A reference to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure.
+A reference to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure.
 
 </dd> </dl>
 
@@ -36,7 +41,7 @@ This function does not return a value.
 
 ## Remarks
 
-The format block is allocated on the heap. The **pbFormat** member of the [**AM\_MEDIA\_TYPE**](am-media-type.md) points to the format block. Use this function to free just the format block. To delete an allocated **AM\_MEDIA\_TYPE** structure, call [**DeleteMediaType**](deletemediatype.md).
+The format block is allocated on the heap. The **pbFormat** member of the [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) points to the format block. Use this function to free just the format block. To delete an allocated **AM\_MEDIA\_TYPE** structure, call [**DeleteMediaType**](deletemediatype.md).
 
 This function is defined in the [DirectShow Base Classes](directshow-base-classes.md) library. If you prefer not to link to the base class library, you can use the following code:
 
@@ -84,9 +89,9 @@ void _FreeMediaType(AM_MEDIA_TYPE&amp; mt)
 [**Media Type Functions**](media-type-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

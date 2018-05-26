@@ -1,7 +1,12 @@
 ---
-Description: 'The world''s character-based data was developed using both Unicode and traditional character sets.'
-ms.assetid: '539ad3c7-45ef-476b-bedc-48986f184796'
+Description: The worlds character-based data was developed using both Unicode and traditional character sets.
+ms.assetid: 539ad3c7-45ef-476b-bedc-48986f184796
 title: About Unicode and Character Sets
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Unicode and Character Sets

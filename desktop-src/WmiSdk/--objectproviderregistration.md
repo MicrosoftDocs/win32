@@ -1,13 +1,16 @@
 ---
-Description: 'Serves as the parent class for classes that are used to register class and instance providers in WMI.'
+Description: Serves as the parent class for classes that are used to register class and instance providers in WMI.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f7c569be-8927-42a4-b96a-abe4b7e3e23c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f7c569be-8927-42a4-b96a-abe4b7e3e23c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_ObjectProviderRegistration class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_ObjectProviderRegistration class
@@ -22,15 +25,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [abstract]
 class __ObjectProviderRegistration : __ProviderRegistration
 {
-  sint32         InteractionType = 0;
+  sint32         InteractionType = 0;
   __Provider REF provider;
-  string         QuerySupportLevels[];
-  boolean        SupportsBatching;
-  boolean        SupportsDelete = False;
-  boolean        SupportsEnumeration = False;
-  boolean        SupportsGet = False;
-  boolean        SupportsPut = False;
-  boolean        SupportsTransactions;
+  string         QuerySupportLevels[];
+  boolean        SupportsBatching;
+  boolean        SupportsDelete = False;
+  boolean        SupportsEnumeration = False;
+  boolean        SupportsGet = False;
+  boolean        SupportsPut = False;
+  boolean        SupportsTransactions;
 };
 ```
 
@@ -116,7 +119,7 @@ Data type: **string** array
 Access type: Read/write
 </dt> </dl>
 
-Array of the types of provider-included support for query processing. Class providers do not support any type of queries. Instance providers can set **QuerySupportLevels** to **NULL** if they do not support query processing. Providers that support queries implement the [**IWbemServices::ExecQueryAsync**](iwbemservices-execqueryasync.md) method, and set this property to one or more of the following values (the property type is an array).
+Array of the types of provider-included support for query processing. Class providers do not support any type of queries. Instance providers can set **QuerySupportLevels** to **NULL** if they do not support query processing. Providers that support queries implement the [**IWbemServices::ExecQueryAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-execqueryasync?branch=master) method, and set this property to one or more of the following values (the property type is an array).
 
 "WQL:UnarySelect"
 
@@ -157,14 +160,14 @@ If **True**, the provider supports data deletion.
 True
 </dt> <dd>
 
-The provider supports class or instance deletion by implementing one of either [**IWbemServices::DeleteClassAsync**](iwbemservices-deleteclassasync.md) (class providers), or [**IWbemServices::DeleteInstanceAsync**](iwbemservices-deleteinstanceasync.md) (instance providers).
+The provider supports class or instance deletion by implementing one of either [**IWbemServices::DeleteClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync?branch=master) (class providers), or [**IWbemServices::DeleteInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync?branch=master) (instance providers).
 
 </dd> <dt>
 
 False
 </dt> <dd>
 
-The provider does not support data deletion, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**DeleteClassAsync**](iwbemservices-deleteclassasync.md) or [**DeleteInstanceAsync**](iwbemservices-deleteinstanceasync.md).
+The provider does not support data deletion, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**DeleteClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync?branch=master) or [**DeleteInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync?branch=master).
 
 </dd> </dl>
 
@@ -186,14 +189,14 @@ If **True**, the provider supports data enumeration.
 True
 </dt> <dd>
 
-The provider supports data enumeration by implementing one of either [**IWbemServices::CreateClassEnumAsync**](iwbemservices-createclassenumasync.md) (class providers), or [**IWbemServices::CreateInstanceEnumAsync**](iwbemservices-createinstanceenumasync.md) (instance providers).
+The provider supports data enumeration by implementing one of either [**IWbemServices::CreateClassEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync?branch=master) (class providers), or [**IWbemServices::CreateInstanceEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync?branch=master) (instance providers).
 
 </dd> <dt>
 
 False
 </dt> <dd>
 
-The provider does not support data enumeration, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**CreateClassEnumAsync**](iwbemservices-createclassenumasync.md) or [**CreateInstanceEnumAsync**](iwbemservices-createinstanceenumasync.md).
+The provider does not support data enumeration, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**CreateClassEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createclassenumasync?branch=master) or [**CreateInstanceEnumAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync?branch=master).
 
 </dd> </dl>
 
@@ -215,14 +218,14 @@ If **True**, the class or instance provider supports data retrieval.
 True
 </dt> <dd>
 
-The provider supports data retrieval by implementing [**IWbemServices::GetObjectAsync**](iwbemservices-getobjectasync.md).
+The provider supports data retrieval by implementing [**IWbemServices::GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master).
 
 </dd> <dt>
 
 False
 </dt> <dd>
 
-The provider does not support data retrieval, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**GetObjectAsync**](iwbemservices-getobjectasync.md).
+The provider does not support data retrieval, and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**GetObjectAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-getobjectasync?branch=master).
 
 </dd> </dl>
 
@@ -244,14 +247,14 @@ If **True**, the class or instance provider supports data modification.
 True
 </dt> <dd>
 
-The provider supports class or instance modification by implementing one of either [**IWbemServices::PutClassAsync**](iwbemservices-putclassasync.md) (class providers), or [**IWbemServices::PutInstanceAsync**](iwbemservices-putinstanceasync.md) (class providers).
+The provider supports class or instance modification by implementing one of either [**IWbemServices::PutClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclassasync?branch=master) (class providers), or [**IWbemServices::PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master) (class providers).
 
 </dd> <dt>
 
 False
 </dt> <dd>
 
-The provider does not support data modification and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**PutClassAsync**](iwbemservices-putclassasync.md) or [**PutInstanceAsync**](iwbemservices-putinstanceasync.md).
+The provider does not support data modification and returns **WBEM\_E\_PROVIDER\_NOT\_CAPABLE** from [**PutClassAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putclassasync?branch=master) or [**PutInstanceAsync**](/windows/win32/WbemCli/nf-wbemcli-iwbemservices-putinstanceasync?branch=master).
 
 </dd> </dl>
 
@@ -288,8 +291,8 @@ Only administrators can register or delete a provider by creating an instance of
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -307,9 +310,9 @@ Only administrators can register or delete a provider by creating an instance of
 [Registering a Provider](registering-a-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

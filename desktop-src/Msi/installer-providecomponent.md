@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ProvideComponent method of the Installer object returns the full component path and performs any necessary installation.'
-ms.assetid: '2bf09515-6f65-4712-89c1-01c43c1ce27c'
-title: 'Installer.ProvideComponent method'
+---
+Description: The ProvideComponent method of the Installer object returns the full component path and performs any necessary installation.
+ms.assetid: 2bf09515-6f65-4712-89c1-01c43c1ce27c
+title: Installer.ProvideComponent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.ProvideComponent method
@@ -96,7 +101,7 @@ The msiInstallModeExisting option cannot be used in combination with msiReinstal
 
 <dl> <dt>
 
-[**MsiProvideComponent**](msiprovidecomponent.md)
+[**MsiProvideComponent**](/windows/win32/Msi/nf-msi-msiprovidecomponenta?branch=master)
 </dt> </dl>
 
  

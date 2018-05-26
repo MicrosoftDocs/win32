@@ -1,7 +1,12 @@
-﻿---
-Description: 'Performs a bit-block transfer.'
-ms.assetid: '90cc02af-96af-4913-ae7d-62f39cd6ddd7'
+---
+Description: Performs a bit-block transfer.
+ms.assetid: 90cc02af-96af-4913-ae7d-62f39cd6ddd7
 title: NtGdiDdBlt function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdBlt function

@@ -4,17 +4,22 @@ description: Backlink for ms-Authz-Member-Rules-In-Central-Access-Policy. For a 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a3d5c596-e27b-4ce9-bc93-ae2f5603b213'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a3d5c596-e27b-4ce9-bc93-ae2f5603b213
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-Authz-Member-Rules-In-Central-Access-Policy-BL attribute AD Schema", "msAuthz-MemberRulesInCentralAccessPolicyBL attribute AD Schema"]
+keywords:
+- ms-Authz-Member-Rules-In-Central-Access-Policy-BL attribute AD Schema
+- msAuthz-MemberRulesInCentralAccessPolicyBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-Authz-Member-Rules-In-Central-Access-Policy-BL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-Authz-Member-Rules-In-Central-Access-Policy-BL attribute

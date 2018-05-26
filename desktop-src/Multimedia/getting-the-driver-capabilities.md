@@ -1,8 +1,14 @@
 ---
 title: Getting the Driver Capabilities
 description: Getting the Driver Capabilities
-ms.assetid: '761886db-b2e5-449c-b526-6e992cc1b42f'
-keywords: ["joysticks,drivers"]
+ms.assetid: 761886db-b2e5-449c-b526-6e992cc1b42f
+keywords:
+- joysticks,drivers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting the Driver Capabilities

@@ -1,8 +1,11 @@
 ---
 title: IWMPSettings autoStart property
 description: The autoStart property gets or sets a value indicating whether the current media item begins playing automatically.
-ms.assetid: '01a1cb78-9951-478a-8ea3-1ae06164beab'
-keywords: ["autoStart property Windows Media Player", "autoStart property Windows Media Player , IWMPSettings interface", "IWMPSettings interface Windows Media Player , autoStart property"]
+ms.assetid: 01a1cb78-9951-478a-8ea3-1ae06164beab
+keywords:
+- autoStart property Windows Media Player
+- autoStart property Windows Media Player , IWMPSettings interface
+- IWMPSettings interface Windows Media Player , autoStart property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPSettings::autoStart property
@@ -85,9 +93,9 @@ Unless you set **autoStart** to **true** immediately before specifying a media i
 [**IWMPSettings Interface (VB and C#)**](iwmpsettings--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

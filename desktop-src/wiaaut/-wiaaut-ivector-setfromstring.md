@@ -1,8 +1,11 @@
 ---
 title: Vector.SetFromString method
 description: Stores the String value into the Vector of bytes including the terminating null character. Value might be truncated unless Resizable is True. The string is stored as an ANSI string unless Unicode is True, in which case it is stored as a Unicode string.
-ms.assetid: '3ab6230a-e28f-4dc1-945d-7e53502b573b'
-keywords: ["SetFromString method WIA Automation", "SetFromString method WIA Automation , Vector object", "Vector object WIA Automation , SetFromString method"]
+ms.assetid: 3ab6230a-e28f-4dc1-945d-7e53502b573b
+keywords:
+- SetFromString method WIA Automation
+- SetFromString method WIA Automation , Vector object
+- Vector object WIA Automation , SetFromString method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector.SetFromString method
@@ -59,7 +67,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -79,7 +87,7 @@ Type: **VARIANT\_BOOL**
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -130,8 +138,8 @@ For example code, see [Exif Filter: Write a New Title Tag to an Image](-wiaaut-h
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -156,9 +164,9 @@ For example code, see [Exif Filter: Write a New Title Tag to an Image](-wiaaut-h
 [**Add (Vector)**](-wiaaut-ivector-add.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

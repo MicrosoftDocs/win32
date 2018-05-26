@@ -2,7 +2,13 @@
 title: Stub Optimization ACF Attributes
 description: These attributes enable you to optimize the size and speed of your stub code.
 ms.assetid: 8c98b9ff-d91c-4a17-90c9-298f588e46c5
-keywords: ["ACF MIDL , attributes, stub-optimization"]
+keywords:
+- ACF MIDL , attributes, stub-optimization
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stub Optimization ACF Attributes

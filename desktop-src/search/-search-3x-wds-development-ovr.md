@@ -1,7 +1,12 @@
-﻿---
-Description: 'To index the contents and properties of new file formats and data stores, Microsoft Windows Search must be extended with add-ins.'
-ms.assetid: '04ddcd97-c358-44d2-9092-a035436c50c9'
+---
+Description: To index the contents and properties of new file formats and data stores, Microsoft Windows Search must be extended with add-ins.
+ms.assetid: 04ddcd97-c358-44d2-9092-a035436c50c9
 title: Windows Search as a Development Platform
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Search as a Development Platform
@@ -45,7 +50,7 @@ The most common development scenarios in Windows Search are:
 
 ### Adding a New Data Store
 
-You need a Shell data store for Windows Search only if you are adding a new data store to be indexed. A data store is a repository of data that can be exposed to the Shell programming model as a container by using a Shell data source. The items in a data store can then be indexed by the Windows Search system using a protocol handler. The protocol handler implements the protocol for accessing a content source in its native format. The [**ISearchProtocol**](-search-isearchprotocol.md) and [**ISearchProtocol2**](-search-isearchprotocol2.md) interfaces are used to implement a custom protocol handler to expand the data sources that can be indexed. For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](shell.nse_implement).
+You need a Shell data store for Windows Search only if you are adding a new data store to be indexed. A data store is a repository of data that can be exposed to the Shell programming model as a container by using a Shell data source. The items in a data store can then be indexed by the Windows Search system using a protocol handler. The protocol handler implements the protocol for accessing a content source in its native format. The [**ISearchProtocol**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol?branch=master) and [**ISearchProtocol2**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol2?branch=master) interfaces are used to implement a custom protocol handler to expand the data sources that can be indexed. For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](shell.nse_implement).
 
 ### Adding a New File Format
 
@@ -71,7 +76,7 @@ The following sections describe several ways of consuming Windows Search results
 
 Developers writing applications on top of the combined Windows Search and Windows property system can access files and items regardless of application or file type. There are two ways for applications to access the indexer data:
 
--   Applications communicate directly with OLE DB by sending Windows Search Structured Query Language (SQL) queries to the Windows Search OLE DB provider to retrieve results. Queries can be constructed manually or by using the [**ISearchQueryHelper**](-search-isearchqueryhelper.md) interface to generate the SQL from search keywords, and Advanced Query Syntax (AQS).
+-   Applications communicate directly with OLE DB by sending Windows Search Structured Query Language (SQL) queries to the Windows Search OLE DB provider to retrieve results. Queries can be constructed manually or by using the [**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master) interface to generate the SQL from search keywords, and Advanced Query Syntax (AQS).
 -   Applications work through the Shell layer. The advantage of the Shell layer is that it also supports other sources like grep. However, the disadvantage is that not all indexer features are available.
 
 Another option is using the search-ms:// and search:// protocols, which execute URL-based searches rendered through Windows Explorer. This option enables the lightest-weight development but does not return results or user selections from the results view to the calling application. Also, like other protocols, third-party search applications can take over the search-ms:// and search:// protocols if the applications conform to the required feature set. For more information on querying, see [Querying Process in Windows Search](querying-process--windows-search-.md) and [Querying the Index Programmatically](-search-3x-wds-qryidx-overview.md).
@@ -144,7 +149,7 @@ The following table lists handlers and the interfaces for implementing each type
 | Infotip handler        | [**IQueryInfo**](shell.IQueryInfo)                                                                                                                                                                                                                                                                                                                                        |
 | Preview handler        | [**IPreviewHandler**](shell.IPreviewHandler)                                                                                                                                                                                                                                                                                                                              |
 | Property handler       | [**IPropertyStore**](properties.IPropertyStore)                                                                                                                                                                                                                                                                                                                           |
-| Protocol handler       | [**IFilter**](-search-ifilter.md), [**ISearchProtocol**](-search-isearchprotocol.md), [**IUrlAccessor**](-search-iurlaccessor.md)<br/> Optional: [**ISearchProtocol2**](-search-isearchprotocol2.md), [**IUrlAccessor2**](-search-iurlaccessor2.md), [**IUrlAccessor3**](-search-iurlaccessor3.md), [**IUrlAccessor4**](-search-iurlaccessor4.md)<br/> |
+| Protocol handler       | [**IFilter**](-search-ifilter.md), [**ISearchProtocol**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol?branch=master), [**IUrlAccessor**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor?branch=master)<br/> Optional: [**ISearchProtocol2**](/windows/win32/Searchapi/nn-searchapi-isearchprotocol2?branch=master), [**IUrlAccessor2**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor2?branch=master), [**IUrlAccessor3**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor3?branch=master), [**IUrlAccessor4**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor4?branch=master)<br/> |
 | Property sheet handler | [**IShellExtInit**](shell.IShellExtInit), [**IShellPropSheetExt**](shell.IShellPropSheetExt)                                                                                                                                                                                                                                                                              |
 | Shortcut menu handler  | [**IContextMenu**](shell.IContextMenu), [**IExplorerCommand**](shell.IExplorerCommand), [**IShellExtInit**](shell.IShellExtInit)                                                                                                                                                                                                                                          |
 | Thumbnail handler      | [**IThumbnailProvider**](shell.IThumbnailProvider)                                                                                                                                                                                                                                                                                                                        |

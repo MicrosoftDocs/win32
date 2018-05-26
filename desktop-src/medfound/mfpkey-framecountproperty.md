@@ -1,7 +1,12 @@
-﻿---
-Description: 'This property is obsolete and should not be set.'
-ms.assetid: '7eb51dc6-5450-45b7-9663-5ddddd30ed72'
-title: 'MFPKEY\_FRAMECOUNT Property'
+---
+Description: This property is obsolete and should not be set.
+ms.assetid: 7eb51dc6-5450-45b7-9663-5ddddd30ed72
+title: MFPKEY\_FRAMECOUNT Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_FRAMECOUNT Property

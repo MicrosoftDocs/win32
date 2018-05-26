@@ -1,7 +1,12 @@
 ---
-Description: 'This section introduces the presentation APIs and discusses the issues involved in presenting a scene to the display.'
-ms.assetid: 'fb2ddc0d-50ac-48aa-8a5c-f232b0f8e7aa'
-title: 'Presenting a Scene (Direct3D 9)'
+Description: This section introduces the presentation APIs and discusses the issues involved in presenting a scene to the display.
+ms.assetid: fb2ddc0d-50ac-48aa-8a5c-f232b0f8e7aa
+title: Presenting a Scene (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Presenting a Scene (Direct3D 9)

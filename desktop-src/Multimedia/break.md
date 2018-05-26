@@ -1,21 +1,27 @@
 ---
 title: break command
 description: The break command specifies a key to abort a command that was invoked using the \ 0034;wait \ 0034; flag. This command is an MCI system command; it is interpreted directly by MCI.
-ms.assetid: '959df85f-5020-4e37-952b-15ba5e6fb672'
-keywords: ["break command Windows Multimedia"]
+ms.assetid: 959df85f-5020-4e37-952b-15ba5e6fb672
+keywords:
+- break command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - break
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # break command
 
 The break command specifies a key to abort a command that was invoked using the "wait" flag. This command is an MCI system command; it is interpreted directly by MCI.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -85,8 +91,8 @@ break mysound on 113
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -100,9 +106,9 @@ break mysound on 113
 [MCI Command Strings](mci-command-strings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

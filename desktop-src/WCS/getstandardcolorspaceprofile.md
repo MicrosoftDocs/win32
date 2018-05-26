@@ -1,8 +1,9 @@
 ---
 title: GetStandardColorSpaceProfile function
 description: The GetStandardColorSpaceProfile function retrieves the color profile registered for the specified standard color space.
-ms.assetid: 'b00f5c5c-f536-4d88-b61f-d2bdd0b180a0'
-keywords: ["GetStandardColorSpaceProfile function Windows Color System"]
+ms.assetid: b00f5c5c-f536-4d88-b61f-d2bdd0b180a0
+keywords:
+- GetStandardColorSpaceProfile function Windows Color System
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Mscms.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetStandardColorSpaceProfile function
@@ -24,10 +30,10 @@ The **GetStandardColorSpaceProfile** function retrieves the color profile regist
 
 ```C++
 BOOL WINAPI GetStandardColorSpaceProfile(
-   PCTSTR pMachineName,
-   DWORD  dwProfileID,
-   PTSTR  pProfileName,
-   PDWORD pdwSize
+   PCTSTR pMachineName,
+   DWORD  dwProfileID,
+   PTSTR  pProfileName,
+   PDWORD pdwSize
 );
 ```
 
@@ -95,8 +101,8 @@ This is executable in LUA context.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>Icm.h</dt> </dl>                    |
 | Library<br/>                  | <dl> <dt>Mscms.lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Mscms.dll</dt> </dl>                |
@@ -117,9 +123,9 @@ This is executable in LUA context.
 [**SetStandardColorSpaceProfile**](setstandardcolorspaceprofile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: How To Check for Driver Support
 description: This topic shows how to determine whether multithreading features (including resource creation and command lists) are supported for hardware acceleration.
-ms.assetid: 'f577357c-c2e5-4e58-9870-2e995bdc6782'
+ms.assetid: f577357c-c2e5-4e58-9870-2e995bdc6782
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Check for Driver Support
@@ -17,9 +22,9 @@ The runtime supports multithreading and command lists regardless of driver and h
 
 **To check for driver support for multithreading:**
 
-1.  Initialize an [**ID3D11Device**](id3d11device.md) interface object. By default, multithreading is enabled.
-2.  Call [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md). Pass the **D3D11\_FEATURE\_THREADING** value to the *Feature* parameter, pass the [**D3D11\_FEATURE\_DATA\_THREADING**](d3d11-feature-data-threading.md) structure to the *pFeatureSupportData* parameter, and pass the size of the **D3D11\_FEATURE\_DATA\_THREADING** structure to the *FeatureSupportDataSize* parameter.
-3.  If the [**ID3D11Device::CheckFeatureSupport**](id3d11device-checkfeaturesupport.md) method succeeds, the [**D3D11\_FEATURE\_DATA\_THREADING**](d3d11-feature-data-threading.md) structure that you passed in the previous step will be initialized with information about multithreading support.
+1.  Initialize an [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master) interface object. By default, multithreading is enabled.
+2.  Call [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master). Pass the **D3D11\_FEATURE\_THREADING** value to the *Feature* parameter, pass the [**D3D11\_FEATURE\_DATA\_THREADING**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_threading?branch=master) structure to the *pFeatureSupportData* parameter, and pass the size of the **D3D11\_FEATURE\_DATA\_THREADING** structure to the *FeatureSupportDataSize* parameter.
+3.  If the [**ID3D11Device::CheckFeatureSupport**](/windows/win32/D3D11/nf-d3d11-id3d11device-checkfeaturesupport?branch=master) method succeeds, the [**D3D11\_FEATURE\_DATA\_THREADING**](/windows/win32/D3D11/ns-d3d11-d3d11_feature_data_threading?branch=master) structure that you passed in the previous step will be initialized with information about multithreading support.
     -   If **DriverConcurrentCreates** is **TRUE**, a driver can create more than one resource at the same time (concurrently) on different threads.
 
         If **DriverCommandLists** is **TRUE**, the driver supports command lists. That is, rendering commands issued by an immediate context can be concurrent with object creation on separate threads with low risk of a frame rate stutter.

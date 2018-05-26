@@ -1,7 +1,12 @@
 ---
-Description: 'The numerator of PKEY\_Photo\_Brightness.'
-ms.assetid: 'eba073d5-f0f0-42f2-8d14-89f90d469716'
-title: 'System.Photo.BrightnessNumerator'
+Description: The numerator of PKEY\_Photo\_Brightness.
+ms.assetid: eba073d5-f0f0-42f2-8d14-89f90d469716
+title: System.Photo.BrightnessNumerator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.BrightnessNumerator

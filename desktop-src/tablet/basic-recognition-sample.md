@@ -1,14 +1,19 @@
 ---
-Description: 'This application demonstrates how you can build a simple handwriting recognition application.This program creates an InkCollector object to ink-enable the window and a default recognizer context object.'
-ms.assetid: '6dc94293-cdf7-4b90-a5e8-559f376add26'
+Description: This application demonstrates how you can build a simple handwriting recognition application.This program creates an InkCollector object to ink-enable the window and a default recognizer context object.
+ms.assetid: 6dc94293-cdf7-4b90-a5e8-559f376add26
 title: Basic Recognition Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Basic Recognition Sample
 
 This application demonstrates how you can build a simple *handwriting* recognition application.
 
-This program creates an [**InkCollector**](inkcollector-class.md) object to *ink*-enable the window and a default *recognizer context* object. Upon receiving the "Recognize!" command, fired from the application's menu, the collected ink strokes are passed to the recognizer context. The best result string is presented in a message box.
+This program creates an [**InkCollector**](/windows/win32/msinkaut/?branch=master) object to *ink*-enable the window and a default *recognizer context* object. Upon receiving the "Recognize!" command, fired from the application's menu, the collected ink strokes are passed to the recognizer context. The best result string is presented in a message box.
 
 ## Creating the RecognizerContext Object
 
@@ -36,7 +41,7 @@ case WM_CREATE:
 
 ## Recognizing the Strokes
 
-The recognize command is received when the user clicks the Recognize! menu item. The code gets a pointer to the ink [**InkStrokes**](inkstrokes-collection.md) (pIInkStrokes) off of the [**InkDisp**](inkdisp-class.md) object, and then passes the **InkStrokes** to the recognizer context using a call to putref\_Strokes.
+The recognize command is received when the user clicks the Recognize! menu item. The code gets a pointer to the ink [**InkStrokes**](/windows/win32/msinkaut/?branch=master) (pIInkStrokes) off of the [**InkDisp**](/windows/win32/msinkaut/?branch=master) object, and then passes the **InkStrokes** to the recognizer context using a call to putref\_Strokes.
 
 
 ```C++
@@ -60,7 +65,7 @@ The recognize command is received when the user clicks the Recognize! menu item.
 
 
 
-The code then calls the [**Recognize**](inkrecognizercontext-recognize.md) method of the [**InkRecognizerContext**](inkrecognizercontext-class.md) object, passing in a pointer to an [**IInkRecognitionResult**](iinkrecognitionresult.md) object to hold the results.
+The code then calls the [**Recognize**](/windows/win32/msinkaut/?branch=master) method of the [**InkRecognizerContext**](/windows/win32/msinkaut/?branch=master) object, passing in a pointer to an [**IInkRecognitionResult**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionresult?branch=master) object to hold the results.
 
 
 ```C++
@@ -73,7 +78,7 @@ The code then calls the [**Recognize**](inkrecognizercontext-recognize.md) metho
 
 
 
-Finally, the code uses the [**IInkRecognitionResult**](iinkrecognitionresult.md) object's [**TopString**](iinkrecognitionresult-topstring.md) property retrieve the top recognition result into a string variable, releases the **IInkRecognitionResult** object, and displays the string in a message box.
+Finally, the code uses the [**IInkRecognitionResult**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionresult?branch=master) object's [**TopString**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topstring?branch=master) property retrieve the top recognition result into a string variable, releases the **IInkRecognitionResult** object, and displays the string in a message box.
 
 
 ```C++

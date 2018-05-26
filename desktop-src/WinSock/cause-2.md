@@ -1,12 +1,17 @@
 ---
-Description: 'In addition to all the information elements previously described, which could be specified in the ATM-specific QoS structure while calling WSAConnect, there is a Cause IE that can only be used during the call release.'
-ms.assetid: '258b22d7-b58a-499a-be00-de548578db83'
+Description: In addition to all the information elements previously described, which could be specified in the ATM-specific QoS structure while calling WSAConnect, there is a Cause IE that can only be used during the call release.
+ms.assetid: 258b22d7-b58a-499a-be00-de548578db83
 title: Cause
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cause
 
-In addition to all the information elements previously described, which could be specified in the ATM-specific [**QoS**](qos.qos) structure while calling [**WSAConnect**](wsaconnect-2.md), there is a Cause IE that can only be used during the call release. Upon disconnecting, Windows Sockets 2 applications can optionally specify this IE as the disconnect data in [**WSASendDisconnect**](wsasenddisconnect-2.md). The remote party can retrieve this IE through [**WSARecvDisconnect**](wsarecvdisconnect-2.md) after receiving the FD\_CLOSE notification.
+In addition to all the information elements previously described, which could be specified in the ATM-specific [**QoS**](qos.qos) structure while calling [**WSAConnect**](/windows/win32/Winsock2/nf-winsock2-wsaconnect?branch=master), there is a Cause IE that can only be used during the call release. Upon disconnecting, Windows Sockets 2 applications can optionally specify this IE as the disconnect data in [**WSASendDisconnect**](/windows/win32/Winsock2/nf-winsock2-wsasenddisconnect?branch=master). The remote party can retrieve this IE through [**WSARecvDisconnect**](/windows/win32/Winsock2/nf-winsock2-wsarecvdisconnect?branch=master) after receiving the FD\_CLOSE notification.
 
 ``` syntax
 #include <windows.h>

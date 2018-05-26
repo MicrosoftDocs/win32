@@ -1,15 +1,18 @@
 ---
-Description: 'Publishes a web application through Web Application Proxy.'
+Description: Publishes a web application through Web Application Proxy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '82f711e0-dca7-4051-93a2-e4dc9b390457'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 82f711e0-dca7-4051-93a2-e4dc9b390457
+ms.prod: windows-server-dev
 ms.technology:
-- 'web-app-proxy'
-- 'windows-management-instrumentation'
+- web-app-proxy
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Add method of the CIM\_WebApplicationProxyApplication class'
+title: Add method of the CIM\_WebApplicationProxyApplication class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the CIM\_WebApplicationProxyApplication class
@@ -21,25 +24,25 @@ Publishes a web application through Web Application Proxy.
 
 ```mof
 uint32 Add(
-  [in] string  Name,
-  [in] string  ExternalPreauthentication,
-  [in] string  ClientCertificateAuthenticationBindingMode,
-  [in] string  BackendServerCertificateValidation,
-  [in] string  ExternalUrl,
-  [in] string  ExternalCertificateThumbprint,
-  [in] boolean EnableSignOut,
-  [in] uint32  InactiveTransactionsTimeoutSec,
-  [in] string  ClientCertificatePreauthenticationThumbprint,
-  [in] boolean EnableHTTPRedirect,
-  [in] string  ADFSUserCertificateStore,
-  [in] boolean DisableHttpOnlyCookieProtection,
-  [in] uint32  PersistentAccessCookieExpirationTimeSec,
-  [in] string  BackendServerUrl,
-  [in] boolean DisableTranslateUrlInRequestHeaders,
-  [in] boolean DisableTranslateUrlInResponseHeaders,
-  [in] string  BackendServerAuthenticationSPN,
-  [in] string  ADFSRelyingPartyName,
-  [in] boolean UseOAuthAuthentication
+  [in] string  Name,
+  [in] string  ExternalPreauthentication,
+  [in] string  ClientCertificateAuthenticationBindingMode,
+  [in] string  BackendServerCertificateValidation,
+  [in] string  ExternalUrl,
+  [in] string  ExternalCertificateThumbprint,
+  [in] boolean EnableSignOut,
+  [in] uint32  InactiveTransactionsTimeoutSec,
+  [in] string  ClientCertificatePreauthenticationThumbprint,
+  [in] boolean EnableHTTPRedirect,
+  [in] string  ADFSUserCertificateStore,
+  [in] boolean DisableHttpOnlyCookieProtection,
+  [in] uint32  PersistentAccessCookieExpirationTimeSec,
+  [in] string  BackendServerUrl,
+  [in] boolean DisableTranslateUrlInRequestHeaders,
+  [in] boolean DisableTranslateUrlInResponseHeaders,
+  [in] string  BackendServerAuthenticationSPN,
+  [in] string  ADFSRelyingPartyName,
+  [in] boolean UseOAuthAuthentication
 );
 ```
 
@@ -91,7 +94,7 @@ ADFSforBrowsersAndOffice
 
 Use Active Directory Federation Services (AD FS) for browsers and Microsoft Office clients.
 
-**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -100,7 +103,7 @@ ADFSforOAuth
 
 Use Active Directory Federation Services (AD FS) for OAuth.
 
-**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -109,7 +112,7 @@ ADFSforRichClients
 
 Use Active Directory Federation Services (AD FS) for rich clients.
 
-**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This value is not available before Windows Server 2016.
 
 </dd> </dl> </dd> <dt>
 
@@ -182,7 +185,7 @@ The thumbprint of the certificate for the *ExternalUrl* parameter. The certifica
 
 Whether sign-out is enabled for this application.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -205,7 +208,7 @@ The thumbprint of the client certificate to use for pre-authentication.
 
 Whether the web-application proxy should provide a redirect from HTTP URL to this URL.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -214,7 +217,7 @@ Whether the web-application proxy should provide a redirect from HTTP URL to thi
 
 The certificate store to use when collecting certificate data for applications that are ADFS for rich clients. If not specified the DRS certificate store as indicated in ADFS configuration is used.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -223,7 +226,7 @@ The certificate store to use when collecting certificate data for applications t
 
 **True** to disable the **HttpOnly** flag for the access cookie; otherwise, **false**.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -232,7 +235,7 @@ The certificate store to use when collecting certificate data for applications t
 
 The interval, in seconds, to persist the web-application-proxy-access cookie. You can use this parameter to enable single-sign-on for non-web-client applications.
 
-**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
+**Windows Server 2012 R2:** This parameter is not available before Windows Server 2016.
 
 </dd> <dt>
 
@@ -293,7 +296,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\WebApplicationProxy<br/>                                          |
 | MOF<br/>                      | <dl> <dt>AppProxyPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AppProxyPSProvider.dll</dt> </dl> |
@@ -307,9 +310,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**CIM\_WebApplicationProxyApplication**](cim-webapplicationproxyapplication.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

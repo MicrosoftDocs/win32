@@ -1,7 +1,12 @@
 ---
-Description: 'The OutputPin method retrieves a pointer to the filter''s output pin.'
-ms.assetid: '8c8c125e-553d-43c5-bc63-a0c7d5b01260'
-title: 'CTransInPlaceFilter.OutputPin method'
+Description: The OutputPin method retrieves a pointer to the filters output pin.
+ms.assetid: 8c8c125e-553d-43c5-bc63-a0c7d5b01260
+title: CTransInPlaceFilter.OutputPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CTransInPlaceFilter.OutputPin method
@@ -43,9 +48,9 @@ Returns the [**CTransformFilter::m\_pOutput**](ctransformfilter-m-poutput.md) me
 [**CTransInPlaceFilter Class**](ctransinplacefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following table lists the Windows GDI+ image property tags in numerical order.'
-ms.assetid: '44417090-a468-47c9-996c-bc7629a6e53f'
+Description: The following table lists the Windows GDI+ image property tags in numerical order.
+ms.assetid: 44417090-a468-47c9-996c-bc7629a6e53f
 title: Property Tags in Numerical Order
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Tags in Numerical Order

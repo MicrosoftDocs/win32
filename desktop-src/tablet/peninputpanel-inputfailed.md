@@ -1,14 +1,19 @@
-﻿---
-Description: 'Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when input focus changes before the PenInputPanel object was able to insert user input into the attached control.'
-ms.assetid: 'a5928f78-29d6-40e8-8f87-17c188e51ba9'
-title: 'PenInputPanel.InputFailed event'
+---
+Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when input focus changes before the PenInputPanel object was able to insert user input into the attached control.
+ms.assetid: a5928f78-29d6-40e8-8f87-17c188e51ba9
+title: PenInputPanel.InputFailed event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PenInputPanel.InputFailed event
 
-Deprecated. The [**PenInputPanel**](peninputpanel-class.md) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
+Deprecated. The [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) has been replaced by the [Text Input Panel (TIP)](text-input-panel-reference.md).
 
-Occurs when input focus changes before the [**PenInputPanel**](peninputpanel-class.md) object was able to insert user input into the attached control.
+Occurs when input focus changes before the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object was able to insert user input into the attached control.
 
 ## Syntax
 
@@ -31,7 +36,7 @@ HRESULT InputFailed(
 *hWnd* \[in\]
 </dt> <dd>
 
-The window handle of the control that invoked the [**PenInputPanel**](peninputpanel-class.md) object.
+The window handle of the control that invoked the [**PenInputPanel**](/windows/win32/msinkaut/?branch=master) object.
 
 </dd> <dt>
 
@@ -90,7 +95,7 @@ Using the window handle passed into this event, you can choose to insert the tex
 
 <dl> <dt>
 
-[**PenInputPanel**](peninputpanel-class.md)
+[**PenInputPanel**](/windows/win32/msinkaut/?branch=master)
 </dt> </dl>
 
  

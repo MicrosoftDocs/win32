@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows Vista and later, metadata became central as a method of organizing items such as files, e-mail, or contacts.'
-ms.assetid: '3281736b-f9ea-4699-a128-3bce6810126e'
-title: 'Property System Developer''s Guide'
+Description: In Windows Vista and later, metadata became central as a method of organizing items such as files, e-mail, or contacts.
+ms.assetid: 3281736b-f9ea-4699-a128-3bce6810126e
+title: Property System Developers Guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property System Developer's Guide

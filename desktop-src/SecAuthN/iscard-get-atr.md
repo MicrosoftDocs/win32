@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves an ATR string of the smart card.'
-ms.assetid: '2021bd0c-6ef8-4679-be6c-9a9fd33d9fd6'
-title: 'ISCard::get\_Atr method'
+---
+Description: Retrieves an ATR string of the smart card.
+ms.assetid: 2021bd0c-6ef8-4679-be6c-9a9fd33d9fd6
+title: ISCardget\_Atr method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCard::get\_Atr method

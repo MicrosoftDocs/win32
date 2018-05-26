@@ -1,14 +1,20 @@
 ---
 title: EarliestStartTime element
 description: Earliest start time and date for the job in Coordinated Universal Time (UTC).
-ms.assetid: '8F0F4F02-C6D9-44F5-856F-FB448417A473'
-keywords: ["EarliestStartTime element Access Execution Engine"]
+ms.assetid: 8F0F4F02-C6D9-44F5-856F-FB448417A473
+keywords:
+- EarliestStartTime element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - EarliestStartTime
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EarliestStartTime element
@@ -62,9 +68,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

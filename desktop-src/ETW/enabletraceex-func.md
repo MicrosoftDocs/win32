@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enables or disables the specified event trace provider. The EnableTraceEx2 function supersedes this function.'
-ms.assetid: '1c675bf7-f292-49b1-8b60-720499a497fd'
+---
+Description: Enables or disables the specified event trace provider. The EnableTraceEx2 function supersedes this function.
+ms.assetid: 1c675bf7-f292-49b1-8b60-720499a497fd
 title: EnableTraceEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableTraceEx function
@@ -43,7 +48,7 @@ GUID of the event trace provider that you want to enable or disable.
 *SourceId* \[in, optional\]
 </dt> <dd>
 
-GUID that uniquely identifies the session that is enabling or disabling the provider. Can be **NULL**. If the provider does not implement [**EnableCallback**](enablecallback.md), the GUID is not used.
+GUID that uniquely identifies the session that is enabling or disabling the provider. Can be **NULL**. If the provider does not implement [**EnableCallback**](/windows/win32/Evntprov/nc-evntprov-penablecallback?branch=master), the GUID is not used.
 
 </dd> <dt>
 
@@ -99,7 +104,7 @@ This bitmask is optional. This mask further restricts the category of events tha
 *EnableProperty* \[in\]
 </dt> <dd>
 
-Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](event-header-extended-data-item.md) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
+Optional information that ETW can include when writing the event. The data is written to the [**extended data item**](/windows/win32/relogger/ns-evntcons-_event_header_extended_data_item?branch=master) section of the event. To include the optional information, specify one or more of the following flags; otherwise, set to zero.
 
 
 
@@ -117,9 +122,9 @@ Optional information that ETW can include when writing the event. The data is wr
 *EnableFilterDesc* \[in, optional\]
 </dt> <dd>
 
-An [**EVENT\_FILTER\_DESCRIPTOR**](event-filter-descriptor.md) structure that points to the filter data. The provider uses to filter data to prevent events that match the filter criteria from being written to the session; the provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
+An [**EVENT\_FILTER\_DESCRIPTOR**](/windows/win32/Evntprov/ns-evntprov-_event_filter_descriptor?branch=master) structure that points to the filter data. The provider uses to filter data to prevent events that match the filter criteria from being written to the session; the provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one filter to the provider.
 
-A session can call the [**TdhEnumerateProviderFilters**](tdhenumerateproviderfilters.md) function to determine the filters that it can pass to the provider.
+A session can call the [**TdhEnumerateProviderFilters**](/windows/win32/Tdh/nf-tdh-tdhenumerateproviderfilters?branch=master) function to determine the filters that it can pass to the provider.
 
 </dd> </dl>
 
@@ -161,7 +166,7 @@ If the function fails, the return value is one of the [system error codes](base.
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>ERROR_ACCESS_DENIED</strong></dt> </dl></td>
-<td>Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](eventaccesscontrol-func.md).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
+<td>Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see [<strong>EventAccessControl</strong>](/windows/win32/Evntcons/nf-evntcons-eventaccesscontrol?branch=master).<br/> <strong>Windows XP and Windows 2000:</strong> Anyone can enable a trace provider.<br/></td>
 </tr>
 </tbody>
 </table>

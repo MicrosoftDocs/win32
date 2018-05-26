@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UseDevice property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.'
-ms.assetid: '932a1e3a-a673-4998-b209-a28348a6df88'
-title: 'FaxOutboundRoutingRule.UseDevice property'
+---
+Description: The UseDevice property is a Boolean value that indicates whether the outbound routing rule points to a single fax device.
+ms.assetid: 932a1e3a-a673-4998-b209-a28348a6df88
+title: FaxOutboundRoutingRule.UseDevice property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRule.UseDevice property
@@ -25,7 +30,7 @@ A **Boolean** that specifies or receives whether the outbound routing rule point
 
 ## Remarks
 
-To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To read or to write to this property, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -50,7 +55,7 @@ To read or to write to this property, a user must have the [**farQUERY\_CONFIG**
 [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule-cpp.md)
+[**IFaxOutboundRoutingRule**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrule?branch=master)
 </dt> </dl>
 
  

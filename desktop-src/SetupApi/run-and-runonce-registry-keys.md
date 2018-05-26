@@ -1,7 +1,12 @@
 ---
-Description: 'Run and RunOnce registry keys cause programs to run each time that a user logs on.'
-ms.assetid: '5a6c17f1-d4c0-4005-9b26-036d8b27703a'
+Description: Run and RunOnce registry keys cause programs to run each time that a user logs on.
+ms.assetid: 5a6c17f1-d4c0-4005-9b26-036d8b27703a
 title: Run and RunOnce Registry Keys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Run and RunOnce Registry Keys

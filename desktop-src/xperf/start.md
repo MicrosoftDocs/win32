@@ -1,14 +1,20 @@
 ---
 title: start
 description: Displays logger start options.
-ms.assetid: '0da9d160-d7f2-4252-ad0a-7295c8f8eb4c'
-keywords: ["start Windows Performance Analyzer"]
+ms.assetid: 0da9d160-d7f2-4252-ad0a-7295c8f8eb4c
+keywords:
+- start Windows Performance Analyzer
 topic_type:
 - apiref
 api_name:
 - start
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # start
@@ -56,13 +62,13 @@ The following table shows examples of using the logger **start** options.
 
 
 
- 
+ 
 
 Multiple loggers can be started using multiple -start options, each followed by the options to be applied to that logger. If LoggerName, or -start LoggerName, is omitted, the Kernel Logger is implied. Only a single instance of Kernel Logger can exist at any time. If one of the loggers fails to start, all the already started loggers are stopped.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,20 +1,25 @@
 ---
-Description: 'Microsoft Media Foundation supports audio and video capture.'
-ms.assetid: '8a9d96f8-1096-4b66-a2ec-8a95d754ea72'
-title: 'Audio/Video Capture in Media Foundation'
+Description: Microsoft Media Foundation supports audio and video capture.
+ms.assetid: 8a9d96f8-1096-4b66-a2ec-8a95d754ea72
+title: Audio/Video Capture in Media Foundation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio/Video Capture in Media Foundation
 
 Microsoft Media Foundation supports audio and video capture. Video capture devices are supported through the UVC class driver and must be compatible with UVC 1.1. Audio capture devices are supported through Windows Audio Session API (WASAPI).
 
-A capture device is represented in Media Foundation by a media source object, which exposes the [**IMFMediaSource**](imfmediasource.md) interface. In most cases, the application will not use this interface directly, but will use a higher-level API such as the [Source Reader](source-reader.md) to control the capture device.
+A capture device is represented in Media Foundation by a media source object, which exposes the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface. In most cases, the application will not use this interface directly, but will use a higher-level API such as the [Source Reader](source-reader.md) to control the capture device.
 
 ## Enumerate Capture Devices
 
 To enumerate the capture devices on the system, perform the following steps:
 
-1.  Call the [**MFCreateAttributes**](mfcreateattributes.md) function to create an attribute store.
+1.  Call the [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) function to create an attribute store.
 2.  Set the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE](mf-devsource-attribute-source-type.md) attribute to one of the following values:
 
     | Value                                                    | Description                      |
@@ -26,8 +31,8 @@ To enumerate the capture devices on the system, perform the following steps:
 
      
 
-3.  Call the [**MFEnumDeviceSources**](mfenumdevicesources.md) function. This function allocates an array of [**IMFActivate**](imfactivate.md) pointers. Each pointer represents an activation object for one device on the system.
-4.  Call the [**IMFActivate::ActivateObject**](imfactivate-activateobject.md) method to create an instance of the media source from one of the activation objects.
+3.  Call the [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master) function. This function allocates an array of [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointers. Each pointer represents an activation object for one device on the system.
+4.  Call the [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master) method to create an instance of the media source from one of the activation objects.
 
 The following example creates a media source for the first video capture device in the enumeration list:
 
@@ -90,7 +95,7 @@ You can query the activation objects for various attributes, including the follo
 -   For video devices, the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_SYMBOLIC\_LINK](mf-devsource-attribute-source-type-vidcap-symbolic-link.md) attribute contains the symbolic link to the device. The symbolic link uniquely identifies the device on the system, but is not a readable string.
 -   For audio devices, the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_AUDCAP\_ENDPOINT\_ID](mf-devsource-attribute-source-type-audcap-endpoint-id.md) attribute contains the audio endpoint ID of the device. The audio endpoint ID is similar to a symbolic link. It uniquely identifies the device on the system, but is not a readable string.
 
-The following example takes an array of [**IMFActivate**](imfactivate.md) pointers and prints the display name of each device to the debug window:
+The following example takes an array of [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointers and prints the display name of each device to the debug window:
 
 
 ```C++
@@ -121,10 +126,10 @@ void DebugShowDeviceNames(IMFActivate **ppDevices, UINT count)
 
 If you already know the symbolic link for a video device, there is another way to create the media source for the device:
 
-1.  Call [**MFCreateAttributes**](mfcreateattributes.md) to create an attribute store.
+1.  Call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) to create an attribute store.
 2.  Set the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE](mf-devsource-attribute-source-type.md) attribute to **MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_GUID**.
 3.  Set the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_SYMBOLIC\_LINK](mf-devsource-attribute-source-type-vidcap-symbolic-link.md) attribute to the symbolic link.
-4.  Call either the [**MFCreateDeviceSource**](mfcreatedevicesource.md) or [**MFCreateDeviceSourceActivate**](mfcreatedevicesourceactivate.md) function. The former returns an [**IMFMediaSource**](imfmediasource.md) pointer. The latter returns an [**IMFActivate**](imfactivate.md) pointer to an activation object. You can use the activation object to create the source. (An activation object can be marshaled to another process, so it is useful if you want to create the source in another process. For more information, see [Activation Objects](activation-objects.md).)
+4.  Call either the [**MFCreateDeviceSource**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesource?branch=master) or [**MFCreateDeviceSourceActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesourceactivate?branch=master) function. The former returns an [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) pointer. The latter returns an [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointer to an activation object. You can use the activation object to create the source. (An activation object can be marshaled to another process, so it is useful if you want to create the source in another process. For more information, see [Activation Objects](activation-objects.md).)
 
 The following example takes the symbolic link of a video device and creates a media source.
 
@@ -172,10 +177,10 @@ HRESULT CreateVideoCaptureDevice(PCWSTR *pszSymbolicLink, IMFMediaSource **ppSou
 
 There is an equivalent way to create an audio device from the audio endpoint ID:
 
-1.  Call [**MFCreateAttributes**](mfcreateattributes.md) to create an attribute store.
+1.  Call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) to create an attribute store.
 2.  Set the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE](mf-devsource-attribute-source-type.md) attribute to **MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_AUDCAP\_GUID**.
 3.  Set the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_AUDCAP\_ENDPOINT\_ID](mf-devsource-attribute-source-type-audcap-endpoint-id.md) attribute to the endpoint ID.
-4.  Call either the [**MFCreateDeviceSource**](mfcreatedevicesource.md) or [**MFCreateDeviceSourceActivate**](mfcreatedevicesourceactivate.md) function.
+4.  Call either the [**MFCreateDeviceSource**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesource?branch=master) or [**MFCreateDeviceSourceActivate**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesourceactivate?branch=master) function.
 
 The following example takes an audio endpoint ID and creates a media source.
 
@@ -228,11 +233,11 @@ After you create the media source for a capture device, use the [Source Reader](
 -   File capture: Use the [Sink Writer](sink-writer.md) to encode the file.
 -   Audio preview: Use [WASAPI](https://msdn.microsoft.com/library/windows/desktop/dd371455).
 
-If you want to combine audio capture with video capture, use the *aggregate media source*. The aggregate media source contains a collection of media sources and combines all of their streams into a single media source object. To create an instance of the aggregate media source, call the [**MFCreateAggregateSource**](mfcreateaggregatesource.md) function.
+If you want to combine audio capture with video capture, use the *aggregate media source*. The aggregate media source contains a collection of media sources and combines all of their streams into a single media source object. To create an instance of the aggregate media source, call the [**MFCreateAggregateSource**](/windows/win32/mfidl/nf-mfidl-mfcreateaggregatesource?branch=master) function.
 
 ## Shut down the capture device
 
-When the capture device is no longer needed, you must shut down the device by calling [**Shutdown**](imfmediasource-shutdown.md) on the [**IMFMediaSource**](imfmediasource.md) object you obtained by calling [**MFCreateDeviceSource**](mfcreatedevicesource.md) or [**IMFActivate::ActivateObject**](imfactivate-activateobject.md). Failure to call **Shutdown** can result in memory links because the system may keep a reference to **IMFMediaSource** resources until **Shutdown** is called.
+When the capture device is no longer needed, you must shut down the device by calling [**Shutdown**](/windows/win32/mfidl/nf-mfidl-imfmediasource-shutdown?branch=master) on the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) object you obtained by calling [**MFCreateDeviceSource**](/windows/win32/mfidl/nf-mfidl-mfcreatedevicesource?branch=master) or [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master). Failure to call **Shutdown** can result in memory links because the system may keep a reference to **IMFMediaSource** resources until **Shutdown** is called.
 
 
 ```C++

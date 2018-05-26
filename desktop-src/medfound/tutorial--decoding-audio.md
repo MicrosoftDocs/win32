@@ -1,7 +1,12 @@
 ---
-Description: 'This tutorial shows how to use the Source Reader to decode audio from a media file and write the audio to a WAVE file.'
-ms.assetid: 'ed40e201-c6ed-444f-bdaa-a5f33d1cc068'
-title: 'Tutorial: Decoding Audio'
+Description: This tutorial shows how to use the Source Reader to decode audio from a media file and write the audio to a WAVE file.
+ms.assetid: ed40e201-c6ed-444f-bdaa-a5f33d1cc068
+title: Tutorial Decoding Audio
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tutorial: Decoding Audio
@@ -23,7 +28,7 @@ This tutorial shows how to use the [Source Reader](source-reader.md) to decode a
 
 In this tutorial, you will create a console application that takes two command-line arguments: The name of an input file that contains an audio stream, and the output file name. The application reads five seconds of audio data from the input file and writes the audio to the output file as WAVE data.
 
-To get the decoded audio data, the application uses the source reader object. The source reader exposes the [**IMFSourceReader**](imfsourcereader.md) interface. To write the decoded audio to the WAVE file, the applications uses Windows I/O functions. The following image illustrates this process.
+To get the decoded audio data, the application uses the source reader object. The source reader exposes the [**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master) interface. To write the decoded audio to the WAVE file, the applications uses Windows I/O functions. The following image illustrates this process.
 
 ![diagram showing the source reader getting audio data from the source file.](images/audio-clip-tutorial.gif)
 
@@ -166,12 +171,12 @@ int wmain(int argc, wchar_t* argv[])
 This function does the following:
 
 1.  Calls [**CoInitializeEx**](com.coinitializeex) to initialize the COM library.
-2.  Calls [**MFStartup**](mfstartup.md) to initialize the Media Foundation platform.
-3.  Calls [**MFCreateSourceReaderFromURL**](mfcreatesourcereaderfromurl.md) to create the source reader. This function takes the name of the input file and receives an [**IMFSourceReader**](imfsourcereader.md) interface pointer.
+2.  Calls [**MFStartup**](/windows/win32/mfapi/nf-mfapi-mfstartup?branch=master) to initialize the Media Foundation platform.
+3.  Calls [**MFCreateSourceReaderFromURL**](/windows/win32/mfreadwrite/nf-mfreadwrite-mfcreatesourcereaderfromurl?branch=master) to create the source reader. This function takes the name of the input file and receives an [**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master) interface pointer.
 4.  Creates the output file by calling the **CreateFile** function, which returns a file handle.
 5.  Calls the application-defined [WriteWavFile](#write-the-wave-file) function. This function decodes the audio and writes the WAVE file.
-6.  Releases the [**IMFSourceReader**](imfsourcereader.md) pointer and the file handle.
-7.  Calls [**MFShutdown**](mfshutdown.md) to shut down the Media Foundation platform.
+6.  Releases the [**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master) pointer and the file handle.
+7.  Calls [**MFShutdown**](/windows/win32/mfapi/nf-mfapi-mfshutdown?branch=master) to shut down the Media Foundation platform.
 8.  Calls [**CoUninitialize**](com.couninitialize) to release the COM library.
 
 ## Write the WAVE File
@@ -235,7 +240,7 @@ HRESULT WriteWaveFile(
 
 This function calls a series of other application-defined functions:
 
-1.  The [ConfigureAudioStream](#configure-the-source-reader) function initializes the source reader. This function receives a pointer to the [**IMFMediaType**](imfmediatype.md) interface, which is used to get a description of the decoded audio format, including sample rate, number of channels, and bit depth (bits per sample).
+1.  The [ConfigureAudioStream](#configure-the-source-reader) function initializes the source reader. This function receives a pointer to the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface, which is used to get a description of the decoded audio format, including sample rate, number of channels, and bit depth (bits per sample).
 2.  The WriteWaveHeader function writes the first part of the WAVE file, including the header and the start of the 'data' chunk.
 3.  The CalculateMaxAudioDataSize function calculates the maximum amount of audio to write to the file, in bytes.
 4.  The WriteWaveData function writes the PCM audio data to the file.
@@ -247,7 +252,7 @@ These functions are shown in the remaining sections of this tutorial.
 
 The `ConfigureAudioStream` function configures the source reader to decode the audio stream in the source file. It also returns information about the format of the decoded audio.
 
-In Media Foundation, media formats are described using *media type* objects. A media type object exposes the [**IMFMediaType**](imfmediatype.md) interface, which inherits the [**IMFAttributes**](imfattributes.md) interface. Essentially, a media type is a collection of properties that describe the format. For more information, see [Media Types](media-types.md).
+In Media Foundation, media formats are described using *media type* objects. A media type object exposes the [**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master) interface, which inherits the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface. Essentially, a media type is a collection of properties that describe the format. For more information, see [Media Types](media-types.md).
 
 
 ```C++
@@ -331,20 +336,20 @@ HRESULT ConfigureAudioStream(
 
 The `ConfigureAudioStream` function does the following:
 
-1.  Calls the [**IMFSourceReader::SetStreamSelection**](imfsourcereader-setstreamselection.md) method to select the audio stream and deselect all other streams. This step can improve performance, because it prevents the source reader from holding onto video frames that the application does not use.
+1.  Calls the [**IMFSourceReader::SetStreamSelection**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setstreamselection?branch=master) method to select the audio stream and deselect all other streams. This step can improve performance, because it prevents the source reader from holding onto video frames that the application does not use.
 2.  Creates a *partial* media type that specifies PCM audio. The function creates the partial type as follows:
-    1.  Calls [**MFCreateMediaType**](mfcreatemediatype.md) to create an empty media type object.
+    1.  Calls [**MFCreateMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreatemediatype?branch=master) to create an empty media type object.
     2.  Sets the [**MF\_MT\_MAJOR\_TYPE**](mf-mt-major-type-attribute.md) attribute to **MFMediaType\_Audio**.
     3.  Sets the [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md) attribute to **MFAudioFormat\_PCM**.
-3.  Calls [**IMFSourceReader::SetCurrentMediaType**](imfsourcereader-setcurrentmediatype.md) to set the partial type on the source reader. If the source file contains encoded audio, the source reader automatically loads the necessary audio decoder.
-4.  Calls [**IMFSourceReader::GetCurrentMediaType**](imfsourcereader-getcurrentmediatype.md) to get the actual PCM media type. This method returns a media type with all of the format details filled in, such as the audio sample rate and the number of channels.
-5.  Calls [**IMFSourceReader::SetStreamSelection**](imfsourcereader-setstreamselection.md) to enable the audio stream.
+3.  Calls [**IMFSourceReader::SetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype?branch=master) to set the partial type on the source reader. If the source file contains encoded audio, the source reader automatically loads the necessary audio decoder.
+4.  Calls [**IMFSourceReader::GetCurrentMediaType**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-getcurrentmediatype?branch=master) to get the actual PCM media type. This method returns a media type with all of the format details filled in, such as the audio sample rate and the number of channels.
+5.  Calls [**IMFSourceReader::SetStreamSelection**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-setstreamselection?branch=master) to enable the audio stream.
 
 ## Write the WAVE File Header
 
 The `WriteWaveHeader` function writes the WAVE file header.
 
-The only Media Foundation API called from this function is [**MFCreateWaveFormatExFromMFMediaType**](mfcreatewaveformatexfrommfmediatype.md), which converts the media type to a [**WAVEFORMATEX**](dshow.waveformatex) structure.
+The only Media Foundation API called from this function is [**MFCreateWaveFormatExFromMFMediaType**](/windows/win32/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype?branch=master), which converts the media type to a [**WAVEFORMATEX**](dshow.waveformatex) structure.
 
 
 ```C++
@@ -618,14 +623,14 @@ HRESULT WriteWaveData(
 
 The `WriteWaveData` function does the following in a loop:
 
-1.  Calls [**IMFSourceReader::ReadSample**](imfsourcereader-readsample.md) to read audio from the source file. The *dwFlags* parameter receives a bitwise **OR** of flags from the [**MF\_SOURCE\_READER\_FLAG**](mf-source-reader-flag.md) enumeration. The *pSample* parameter receives a pointer to the [**IMFSample**](imfsample.md) interface, which is used to access the audio data. In some cases a call to **ReadSample** does not generate data, in which case the **IMFSample** pointer is **NULL**.
+1.  Calls [**IMFSourceReader::ReadSample**](/windows/win32/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample?branch=master) to read audio from the source file. The *dwFlags* parameter receives a bitwise **OR** of flags from the [**MF\_SOURCE\_READER\_FLAG**](/windows/win32/mfreadwrite/ne-mfreadwrite-mf_source_reader_flag?branch=master) enumeration. The *pSample* parameter receives a pointer to the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface, which is used to access the audio data. In some cases a call to **ReadSample** does not generate data, in which case the **IMFSample** pointer is **NULL**.
 2.  Checks *dwFlags* for the following flags:
     -   **MF\_SOURCE\_READERF\_CURRENTMEDIATYPECHANGED**. This flag indicates a format change in the source file. WAVE files do not support format changes.
     -   **MF\_SOURCE\_READERF\_ENDOFSTREAM**. This flag indicates the end of the stream.
-3.  Calls [**IMFSample::ConvertToContiguousBuffer**](imfsample-converttocontiguousbuffer.md) to get a pointer to a buffer object.
-4.  Calls [**IMFMediaBuffer::Lock**](imfmediabuffer-lock.md) to get a pointer to the buffer memory.
+3.  Calls [**IMFSample::ConvertToContiguousBuffer**](/windows/win32/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer?branch=master) to get a pointer to a buffer object.
+4.  Calls [**IMFMediaBuffer::Lock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-lock?branch=master) to get a pointer to the buffer memory.
 5.  Writes the audio data to the output file.
-6.  Calls [**IMFMediaBuffer::Unlock**](imfmediabuffer-unlock.md) to unlock the buffer object.
+6.  Calls [**IMFMediaBuffer::Unlock**](/windows/win32/mfobjects/nf-mfobjects-imfmediabuffer-unlock?branch=master) to unlock the buffer object.
 
 The function breaks out of the loop when any of the following occur:
 
@@ -710,7 +715,7 @@ HRESULT FixUpChunkSizes(
 [Source Reader](source-reader.md)
 </dt> <dt>
 
-[**IMFSourceReader**](imfsourcereader.md)
+[**IMFSourceReader**](/windows/win32/mfreadwrite/nn-mfreadwrite-imfsourcereader?branch=master)
 </dt> </dl>
 
  

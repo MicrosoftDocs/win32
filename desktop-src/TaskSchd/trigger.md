@@ -1,8 +1,11 @@
 ---
 title: Trigger object
 description: Scripting object that provides the common properties that are inherited by all trigger objects.
-ms.assetid: '9d5a7cf6-2e1d-44ae-bb45-66424770d61b'
-keywords: ["triggers Task Scheduler , trigger object", "Trigger object Task Scheduler", "Trigger object Task Scheduler , described"]
+ms.assetid: 9d5a7cf6-2e1d-44ae-bb45-66424770d61b
+keywords:
+- triggers Task Scheduler , trigger object
+- Trigger object Task Scheduler
+- Trigger object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Trigger object
@@ -41,7 +49,7 @@ The **Trigger** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,8 +79,8 @@ For more information and example code for this scripting object, see [Time Trigg
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -85,9 +93,9 @@ For more information and example code for this scripting object, see [Time Trigg
 [**TriggerCollection**](triggercollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

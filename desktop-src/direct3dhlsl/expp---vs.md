@@ -1,7 +1,12 @@
 ---
 title: expp - vs
 description: Provides partial precision exponential 2x.
-ms.assetid: 'ac080ac9-5dfd-49e4-92ea-50bb26844ff6'
+ms.assetid: ac080ac9-5dfd-49e4-92ea-50bb26844ff6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # expp - vs

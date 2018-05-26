@@ -1,14 +1,20 @@
 ---
 title: KeepTempFiles element
-description: If this node is present then AXE will not delete each assessment's temporary files or report files.
-ms.assetid: '45B9FC22-8305-461D-AF7D-EFC50BB319E3'
-keywords: ["KeepTempFiles element Access Execution Engine"]
+description: If this node is present then AXE will not delete each assessments temporary files or report files.
+ms.assetid: 45B9FC22-8305-461D-AF7D-EFC50BB319E3
+keywords:
+- KeepTempFiles element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - KeepTempFiles
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeepTempFiles element
@@ -56,9 +62,9 @@ There are no child elements.
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

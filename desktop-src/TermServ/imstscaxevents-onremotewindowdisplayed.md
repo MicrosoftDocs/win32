@@ -4,11 +4,14 @@ description: Called when a RemoteApp window is displayed.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'B1E83486-50CB-4CA4-BD01-2C72938335AF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: B1E83486-50CB-4CA4-BD01-2C72938335AF
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnRemoteWindowDisplayed method Remote Desktop Services", "OnRemoteWindowDisplayed method Remote Desktop Services , IMsTscAxEvents interface", "IMsTscAxEvents interface Remote Desktop Services , OnRemoteWindowDisplayed method"]
+keywords:
+- OnRemoteWindowDisplayed method Remote Desktop Services
+- OnRemoteWindowDisplayed method Remote Desktop Services , IMsTscAxEvents interface
+- IMsTscAxEvents interface Remote Desktop Services , OnRemoteWindowDisplayed method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsTscAxEvents::OnRemoteWindowDisplayed method
@@ -28,9 +34,9 @@ Called when a RemoteApp window is displayed.
 
 ```C++
 void OnRemoteWindowDisplayed(
-  [in] VARIANT_BOOL                   vbDisplayed,
-  [in] HWND                           hwnd,
-  [in] RemoteWindowDisplayedAttribute windowAttribute
+  [in] VARIANT_BOOL                   vbDisplayed,
+  [in] HWND                           hwnd,
+  [in] RemoteWindowDisplayedAttribute windowAttribute
 );
 ```
 
@@ -77,8 +83,8 @@ This method does not return a value.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
@@ -94,9 +100,9 @@ This method does not return a value.
 [**IMsTscAxEvents**](imstscaxevents-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

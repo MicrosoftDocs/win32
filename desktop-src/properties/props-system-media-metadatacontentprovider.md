@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '6fb4f43b-e274-4be5-a128-5b20ad3c4203'
-title: 'System.Media.MetadataContentProvider'
+Description: .
+ms.assetid: 6fb4f43b-e274-4be5-a128-5b20ad3c4203
+title: System.Media.MetadataContentProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Media.MetadataContentProvider

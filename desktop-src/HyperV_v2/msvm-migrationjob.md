@@ -1,7 +1,12 @@
 ---
-Description: 'This class represents a migration operation job created for storage or virtual system migration by the virtual system migration service.'
-ms.assetid: '8526e28c-bfc8-42b3-850c-0a875a52a42c'
-title: 'Msvm\_MigrationJob class'
+Description: This class represents a migration operation job created for storage or virtual system migration by the virtual system migration service.
+ms.assetid: 8526e28c-bfc8-42b3-850c-0a875a52a42c
+title: Msvm\_MigrationJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_MigrationJob class
@@ -16,52 +21,52 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_MigrationJob : CIM_ConcreteJob
 {
-  string   InstanceID;
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   InstanceID;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = { 2 };
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   CommunicationStatus;
-  uint16   DetailedStatus;
-  uint16   OperatingStatus;
-  uint16   PrimaryStatus;
-  string   JobStatus;
+  string   Name;
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  string   JobStatus;
   datetime TimeSubmitted;
   datetime ScheduledStartTime;
   datetime StartTime;
   datetime ElapsedTime;
-  uint32   JobRunTimes;
-  uint8    RunMonth;
-  sint8    RunDay;
-  sint8    RunDayOfWeek;
+  uint32   JobRunTimes;
+  uint8    RunMonth;
+  sint8    RunDay;
+  sint8    RunDayOfWeek;
   datetime RunStartInterval;
-  uint16   LocalOrUtcTime;
+  uint16   LocalOrUtcTime;
   datetime UntilTime;
-  string   Notify;
-  string   Owner;
-  uint32   Priority;
-  uint16   PercentComplete;
-  boolean  DeleteOnCompletion;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   RecoveryAction;
-  string   OtherRecoveryAction;
-  uint16   JobState;
+  string   Notify;
+  string   Owner;
+  uint32   Priority;
+  uint16   PercentComplete;
+  boolean  DeleteOnCompletion;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   RecoveryAction;
+  string   OtherRecoveryAction;
+  uint16   JobState;
   datetime TimeOfLastStateChange;
   datetime TimeBeforeRemoval = 00000000000500.000000:000;
-  boolean  Cancellable;
-  string   ErrorSummaryDescription;
-  uint16   MigrationType;
-  string   VirtualSystemName;
-  string   DestinationHost;
-  string   NewSystemSettingData;
-  string   NewResourceSettingData[];
-  uint16   JobType;
+  boolean  Cancellable;
+  string   ErrorSummaryDescription;
+  uint16   MigrationType;
+  string   VirtualSystemName;
+  string   DestinationHost;
+  string   NewSystemSettingData;
+  string   NewResourceSettingData[];
+  uint16   JobType;
 };
 ```
 
@@ -87,7 +92,7 @@ The **Msvm\_MigrationJob** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -334,12 +339,12 @@ Access type: Read-only
 | <span id="Killed"></span><span id="killed"></span><span id="KILLED"></span><dl> <dt>**Killed**</dt> <dt>9</dt> </dl>                                               | The job has been stopped by a "Kill" state change request. Underlying processes may still be running, and a clean-up might be required to free up resources.<br/>                                                                            |
 | <span id="Exception"></span><span id="exception"></span><span id="EXCEPTION"></span><dl> <dt>**Exception**</dt> <dt>10</dt> </dl>                                  | The job is in an abnormal state that might be indicative of an error condition. The actual status of the job might be available through job-specific objects.<br/>                                                                           |
 | <span id="Service"></span><span id="service"></span><span id="SERVICE"></span><dl> <dt>**Service**</dt> <dt>11</dt> </dl>                                          | The job is in a vendor-specific state that supports problem discovery, or resolution, or both.<br/>                                                                                                                                          |
-| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>12–32767</dt> </dl>            | Reserved.<br/>                                                                                                                                                                                                                               |
-| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768–65535</dt> </dl> | Reserved.<br/>                                                                                                                                                                                                                               |
+| <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span><dl> <dt>**DMTF Reserved**</dt> <dt>12 32767</dt> </dl>            | Reserved.<br/>                                                                                                                                                                                                                               |
+| <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span><dl> <dt>**Vendor Reserved**</dt> <dt>32768 65535</dt> </dl> | Reserved.<br/>                                                                                                                                                                                                                               |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -675,9 +680,9 @@ The day of the month on which the job should be processed. There are different i
 
 When **RunDayOfWeek** is 0 and **RunDay** is positive, **RunDay** defines the day of the month on which the job is processed. For example, if **RunDayOfWeek** is 0 and **RunDay** is 12, then the job will be processed on the 12<sup>th</sup> day of the month.
 
-When **RunDayOfWeek** is 0 and **RunDay** is negative, **RunDay** defines the number of days before the last day of the month on which the job is processed. –1 indicates the last day of the month, –2 indicates one day before the last day of the month, and so on. For example, if **RunDayOfWeek** is 0 and **RunDay** is –1, then the job will be processed on the last day of the month.
+When **RunDayOfWeek** is 0 and **RunDay** is negative, **RunDay** defines the number of days before the last day of the month on which the job is processed.  1 indicates the last day of the month,  2 indicates one day before the last day of the month, and so on. For example, if **RunDayOfWeek** is 0 and **RunDay** is  1, then the job will be processed on the last day of the month.
 
-When **RunDayOfWeek** is not 0, **RunDayOfWeek** is the day of the week that the job will be processed, relative to **RunDay**. For example, if **RunDay** is 15 and **RunDayOfWeek** is 7 (+Saturday), the job will be processed on the first Saturday on or after the 15<sup>th</sup> day of the month. If **RunDay** is 20 and **RunDayOfWeek** is –7 (–Saturday), the job will be processed on the first Saturday on or before the 20<sup>th</sup> day of the month. If **RunDay** is –1 and **RunDayOfWeek** is –1 (–Sunday), then the job will be processed on the last Sunday of the month.
+When **RunDayOfWeek** is not 0, **RunDayOfWeek** is the day of the week that the job will be processed, relative to **RunDay**. For example, if **RunDay** is 15 and **RunDayOfWeek** is 7 (+Saturday), the job will be processed on the first Saturday on or after the 15<sup>th</sup> day of the month. If **RunDay** is 20 and **RunDayOfWeek** is  7 ( Saturday), the job will be processed on the first Saturday on or before the 20<sup>th</sup> day of the month. If **RunDay** is  1 and **RunDayOfWeek** is  1 ( Sunday), then the job will be processed on the last Sunday of the month.
 
 This property is inherited from [**CIM\_Job**](https://msdn.microsoft.com/library/aa387873).
 
@@ -696,25 +701,25 @@ A positive or negative integer used in conjunction with **RunDay** to indicate t
 
 <dl> <dt>
 
-<span id="-Saturday"></span><span id="-saturday"></span><span id="-SATURDAY"></span>**-Saturday** (–7)
+<span id="-Saturday"></span><span id="-saturday"></span><span id="-SATURDAY"></span>**-Saturday** ( 7)
 </dt> <dt>
 
-<span id="-Friday"></span><span id="-friday"></span><span id="-FRIDAY"></span>**-Friday** (–6)
+<span id="-Friday"></span><span id="-friday"></span><span id="-FRIDAY"></span>**-Friday** ( 6)
 </dt> <dt>
 
-<span id="-Thursday"></span><span id="-thursday"></span><span id="-THURSDAY"></span>**-Thursday** (–5)
+<span id="-Thursday"></span><span id="-thursday"></span><span id="-THURSDAY"></span>**-Thursday** ( 5)
 </dt> <dt>
 
-<span id="-Wednesday"></span><span id="-wednesday"></span><span id="-WEDNESDAY"></span>**-Wednesday** (–4)
+<span id="-Wednesday"></span><span id="-wednesday"></span><span id="-WEDNESDAY"></span>**-Wednesday** ( 4)
 </dt> <dt>
 
-<span id="-Tuesday"></span><span id="-tuesday"></span><span id="-TUESDAY"></span>**-Tuesday** (–3)
+<span id="-Tuesday"></span><span id="-tuesday"></span><span id="-TUESDAY"></span>**-Tuesday** ( 3)
 </dt> <dt>
 
-<span id="-Monday"></span><span id="-monday"></span><span id="-MONDAY"></span>**-Monday** (–2)
+<span id="-Monday"></span><span id="-monday"></span><span id="-MONDAY"></span>**-Monday** ( 2)
 </dt> <dt>
 
-<span id="-Sunday"></span><span id="-sunday"></span><span id="-SUNDAY"></span>**-Sunday** (–1)
+<span id="-Sunday"></span><span id="-sunday"></span><span id="-SUNDAY"></span>**-Sunday** ( 1)
 </dt> <dt>
 
 <span id="ExactDayOfMonth"></span><span id="exactdayofmonth"></span><span id="EXACTDAYOFMONTH"></span>**ExactDayOfMonth** (0)
@@ -930,17 +935,17 @@ The unique name of the affected virtual system.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

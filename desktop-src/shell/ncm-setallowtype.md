@@ -1,6 +1,11 @@
-﻿---
-Description: 'Sets the network address types that a specified network address control accepts.'
-title: 'NCM\_SETALLOWTYPE message'
+---
+Description: Sets the network address types that a specified network address control accepts.
+title: NCM\_SETALLOWTYPE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NCM\_SETALLOWTYPE message
@@ -38,7 +43,7 @@ Returns S\_OK if successful, or an error value otherwise.
 
 The mask set is the criterion used to validate a network address in the [**NCM\_GETADDRESS**](ncm-getaddress.md) message.
 
-Use this message for a network address control only. To instantiate, use the class **msctls\_netaddress** defined in Shellapi.h. Call [**InitNetworkAddressControl**](initnetworkaddresscontrol.md) at run time before sending this message. This initializes the common controls library that contains the network address control.
+Use this message for a network address control only. To instantiate, use the class **msctls\_netaddress** defined in Shellapi.h. Call [**InitNetworkAddressControl**](/windows/win32/Shellapi/nf-shellapi-initnetworkaddresscontrol?branch=master) at run time before sending this message. This initializes the common controls library that contains the network address control.
 
 ## Requirements
 
@@ -59,7 +64,7 @@ Use this message for a network address control only. To instantiate, use the cla
 [**NCM\_GETALLOWTYPE**](ncm-getallowtype.md)
 </dt> <dt>
 
-[**NetAddr\_SetAllowType**](netaddr-setallowtype.md)
+[**NetAddr\_SetAllowType**](/windows/win32/Shellapi/nf-shellapi-netaddr_setallowtype?branch=master)
 </dt> </dl>
 
  

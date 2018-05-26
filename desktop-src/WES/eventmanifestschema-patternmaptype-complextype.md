@@ -1,14 +1,20 @@
 ---
 title: PatternMapType Complex Type
 description: Not used. Defines a mapping between two regular expressions. One expression is used to find a matching string in the message string and the other is used to alter the string before the service places it back in the message string.
-ms.assetid: '184b6aeb-a554-4a92-b19e-1849c711d33b'
-keywords: ["PatternMapType complex type EventLog"]
+ms.assetid: 184b6aeb-a554-4a92-b19e-1849c711d33b
+keywords:
+- PatternMapType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - PatternMapType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PatternMapType Complex Type
@@ -66,14 +72,14 @@ Not used. Defines a mapping between two regular expressions. One expression is u
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

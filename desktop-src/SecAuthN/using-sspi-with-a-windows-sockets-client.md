@@ -1,7 +1,12 @@
 ---
-Description: 'This sample program works with the server program Using SSPI with a Windows Sockets Server.'
-ms.assetid: '7ec15770-d3bd-4488-abe8-058115fec071'
+Description: This sample program works with the server program Using SSPI with a Windows Sockets Server.
+ms.assetid: 7ec15770-d3bd-4488-abe8-058115fec071
 title: Using SSPI with a Windows Sockets Client
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SSPI with a Windows Sockets Client

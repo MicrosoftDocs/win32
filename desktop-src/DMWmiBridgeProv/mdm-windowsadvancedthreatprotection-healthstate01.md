@@ -1,8 +1,10 @@
 ---
 title: MDM\_WindowsAdvancedThreatProtection\_HealthState01 class
 description: The MDM\_WindowsAdvancedThreatProtection\_HealthState01 class is used to determine the health status of Windows Defender Advanced Threat Protection (WDATP) endpoints.
-ms.assetid: '8d630b95-9895-4cb8-99f2-8f869c4dfd18'
-keywords: ["MDM_WindowsAdvancedThreatProtection_HealthState01 class", "MDM_WindowsAdvancedThreatProtection_HealthState01 class, described"]
+ms.assetid: 8d630b95-9895-4cb8-99f2-8f869c4dfd18
+keywords:
+- MDM_WindowsAdvancedThreatProtection_HealthState01 class
+- MDM_WindowsAdvancedThreatProtection_HealthState01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WindowsAdvancedThreatProtection\_HealthState01 class
@@ -29,12 +36,12 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv1")]
 class MDM_WindowsAdvancedThreatProtection_HealthState01
 {
-  string   InstanceID;
-  string   ParentID;
+  string   InstanceID;
+  string   ParentID;
   datetime LastConnected;
-  boolean  SenseIsRunning;
-  sint32   OnboardingState;
-  string   OrgId;
+  boolean  SenseIsRunning;
+  sint32   OnboardingState;
+  string   OrgId;
 };
 ```
 
@@ -132,7 +139,7 @@ Access type: Read/write
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -147,9 +154,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

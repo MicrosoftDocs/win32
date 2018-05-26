@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows SDK (WSDK) contains three complete sample performance DLLs.'
-ms.assetid: '862be53a-3d58-42b9-adf0-2f913dc6fb06'
+Description: The Windows SDK (WSDK) contains three complete sample performance DLLs.
+ms.assetid: 862be53a-3d58-42b9-adf0-2f913dc6fb06
 title: Performance DLL Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performance DLL Samples

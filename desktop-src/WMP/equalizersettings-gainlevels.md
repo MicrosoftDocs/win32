@@ -1,14 +1,20 @@
 ---
 title: EQUALIZERSETTINGS.gainLevels
 description: The gainLevels attribute specifies or retrieves the gain level of the band corresponding to the index provided.
-ms.assetid: 'fb70e2ef-4cee-457e-a06b-7a1ae6930986'
-keywords: ["EQUALIZERSETTINGS.gainLevels Windows Media Player"]
+ms.assetid: fb70e2ef-4cee-457e-a06b-7a1ae6930986
+keywords:
+- EQUALIZERSETTINGS.gainLevels Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EQUALIZERSETTINGS.gainLevels
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EQUALIZERSETTINGS.gainLevels
@@ -21,7 +27,7 @@ The **gainLevels** attribute specifies or retrieves the gain level of the band c
 
 ## Possible Values
 
-This attribute is a read/write **Number** (**float**) with a value normally ranging from –20 to +20.
+This attribute is a read/write **Number** (**float**) with a value normally ranging from  20 to +20.
 
 ## Parameters
 
@@ -58,9 +64,9 @@ This attribute takes a parameter, but its value is specified in script code the 
 [**Listening Attributes**](listening-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

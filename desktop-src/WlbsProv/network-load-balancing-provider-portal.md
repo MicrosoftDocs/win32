@@ -4,13 +4,22 @@ description: Network Load Balancing clusters balance TCP/IP connection loads acr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '93a0b93a-8af5-49d4-be97-f63833ce9de6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 93a0b93a-8af5-49d4-be97-f63833ce9de6
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Network Load Balancing Provider Failover Cluster", "Network Load Balancing Provider Failover Cluster ,start page", "Windows Clustering Failover Cluster ,(See also Network Load Balancing Provider)", "Windows Clustering Failover Cluster ,Network Load Balancing Provider", "NLB Failover Cluster", "NLB Failover Cluster ,(See Network Load Balancing Provider Failover Cluster )"]
+keywords:
+- Network Load Balancing Provider Failover Cluster
+- Network Load Balancing Provider Failover Cluster ,start page
+- Windows Clustering Failover Cluster ,(See also Network Load Balancing Provider)
+- Windows Clustering Failover Cluster ,Network Load Balancing Provider
+- NLB Failover Cluster
+- NLB Failover Cluster ,(See Network Load Balancing Provider Failover Cluster )
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Load Balancing Provider

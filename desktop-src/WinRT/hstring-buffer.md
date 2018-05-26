@@ -1,7 +1,12 @@
-﻿---
-Description: 'A handle to a mutable string buffer that you can use to create an HSTRING.'
-ms.assetid: 'D173CE70-ABF3-4703-A229-0753F2AF6F70'
-title: 'HSTRING\_BUFFER'
+---
+Description: A handle to a mutable string buffer that you can use to create an HSTRING.
+ms.assetid: D173CE70-ABF3-4703-A229-0753F2AF6F70
+title: HSTRING\_BUFFER
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HSTRING\_BUFFER
@@ -19,7 +24,7 @@ typedef HANDLE HSTRING_BUFFER;
 
 **HSTRING\_BUFFER** represents a string buffer that you can modify before converting it to an immutable [**HSTRING**](hstring.md).
 
-Call the [**WindowsPreallocateStringBuffer**](windowspreallocatestringbuffer.md) function to create an **HSTRING\_BUFFER**. Call the [**WindowsPromoteStringBuffer**](windowspromotestringbuffer.md) to convert an **HSTRING\_BUFFER** to an immutable [**HSTRING**](hstring.md).
+Call the [**WindowsPreallocateStringBuffer**](/windows/win32/WinString/nf-winstring-windowspreallocatestringbuffer?branch=master) function to create an **HSTRING\_BUFFER**. Call the [**WindowsPromoteStringBuffer**](/windows/win32/winstring/nf-winstring-windowspromotestringbuffer?branch=master) to convert an **HSTRING\_BUFFER** to an immutable [**HSTRING**](hstring.md).
 
 ## Requirements
 
@@ -43,10 +48,10 @@ Call the [**WindowsPreallocateStringBuffer**](windowspreallocatestringbuffer.md)
 [**HSTRING**](hstring.md)
 </dt> <dt>
 
-[**WindowsPreallocateStringBuffer**](windowspreallocatestringbuffer.md)
+[**WindowsPreallocateStringBuffer**](/windows/win32/WinString/nf-winstring-windowspreallocatestringbuffer?branch=master)
 </dt> <dt>
 
-[**WindowsPromoteStringBuffer**](windowspromotestringbuffer.md)
+[**WindowsPromoteStringBuffer**](/windows/win32/winstring/nf-winstring-windowspromotestringbuffer?branch=master)
 </dt> </dl>
 
  

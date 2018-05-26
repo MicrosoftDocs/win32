@@ -1,8 +1,14 @@
 ---
 title: CallFailureLoggingLevel
 description: Sets the verbosity of event log entries about failed calls to components.
-ms.assetid: '68a7210c-f2a0-4db6-9759-08ff9132a563'
-keywords: ["CallFailureLoggingLevel registry value COM"]
+ms.assetid: 68a7210c-f2a0-4db6-9759-08ff9132a563
+keywords:
+- CallFailureLoggingLevel registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CallFailureLoggingLevel

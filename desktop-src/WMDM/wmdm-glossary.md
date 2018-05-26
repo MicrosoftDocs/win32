@@ -2,7 +2,12 @@
 title: WMDM Glossary
 description: To find a term in the glossary, click the letter of the alphabet that is the first letter in the term you want to look up.You can also read glossary terms within the text of Help by clicking the underlined glossary term links.
 Robots: noindex, nofollow
-ms.assetid: '8fc30ada-1397-4d32-a242-8a70646ebf6e'
+ms.assetid: 8fc30ada-1397-4d32-a242-8a70646ebf6e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WMDM Glossary

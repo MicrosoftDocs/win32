@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the offsets to the payload boundaries in a frame for protected samples.'
-ms.assetid: '8aa25afd-efa8-4fe0-92d4-8432f9d633c9'
-title: 'MFSampleExtension\_PacketCrossOffsets attribute'
+---
+Description: Specifies the offsets to the payload boundaries in a frame for protected samples.
+ms.assetid: 8aa25afd-efa8-4fe0-92d4-8432f9d633c9
+title: MFSampleExtension\_PacketCrossOffsets attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_PacketCrossOffsets attribute
@@ -14,13 +19,13 @@ Byte array
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetBlob**](imfattributes-getblob.md).
+To get this attribute, call [**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetBlob**](imfattributes-setblob.md).
+To set this attribute, call [**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 

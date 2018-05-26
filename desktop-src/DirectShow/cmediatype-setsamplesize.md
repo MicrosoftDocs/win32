@@ -1,7 +1,12 @@
 ---
-Description: 'The SetSampleSize method specifies a fixed sample size, or specifies that samples have a variable size.'
-ms.assetid: 'b0f9dd7b-4ff9-4d11-9c13-b52d7b1549b5'
-title: 'CMediaType.SetSampleSize method'
+Description: The SetSampleSize method specifies a fixed sample size, or specifies that samples have a variable size.
+ms.assetid: b0f9dd7b-4ff9-4d11-9c13-b52d7b1549b5
+title: CMediaType.SetSampleSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.SetSampleSize method
@@ -13,7 +18,7 @@ The `SetSampleSize` method specifies a fixed sample size, or specifies that samp
 
 ```C++
 void SetSampleSize(
-   ULONG sz
+   ULONG sz
 );
 ```
 
@@ -56,9 +61,9 @@ If value of *sz* is zero, the media type uses variable sample sizes. Otherwise, 
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

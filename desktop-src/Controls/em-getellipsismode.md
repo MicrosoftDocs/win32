@@ -1,8 +1,9 @@
 ---
 title: EM\_GETELLIPSISMODE message
 description: Retrieves the current ellipsis mode.
-ms.assetid: '01A755F3-6C6E-4974-9866-76BF15E0F3AD'
-keywords: ["EM_GETELLIPSISMODE message Windows Controls"]
+ms.assetid: 01A755F3-6C6E-4974-9866-76BF15E0F3AD
+keywords:
+- EM_GETELLIPSISMODE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETELLIPSISMODE message
 
-Retrieves the current ellipsis mode. When enabled, an ellipsis (…) is displayed for text that doesn’t fit in the display window. The ellipsis is only used when the control is not active. When active, scroll bars are used to reveal text that doesn’t fit into the display window.
+Retrieves the current ellipsis mode. When enabled, an ellipsis ( ) is displayed for text that doesn t fit in the display window. The ellipsis is only used when the control is not active. When active, scroll bars are used to reveal text that doesn t fit into the display window.
 
 
 ```C++
@@ -50,7 +56,7 @@ Pointer to a DWORD which receives one of the following values.
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -64,8 +70,8 @@ If wparam is 0 and lparam is not NULL, the return value equals TRUE; otherwise, 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -80,9 +86,9 @@ If wparam is 0 and lparam is not NULL, the return value equals TRUE; otherwise, 
 [**EM\_GETELLIPSISSTATE**](em-getellipsisstate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

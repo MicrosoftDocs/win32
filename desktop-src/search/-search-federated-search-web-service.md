@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes the steps involved in connecting a web service between your data store and Windows Federated Search, and how to send queries and return search results in RSS or Atom.'
-ms.assetid: '4c8de310-49e6-4d90-a920-0c715351c86a'
+Description: This topic describes the steps involved in connecting a web service between your data store and Windows Federated Search, and how to send queries and return search results in RSS or Atom.
+ms.assetid: 4c8de310-49e6-4d90-a920-0c715351c86a
 title: Connecting Your Web Service in Windows Federated Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Connecting Your Web Service in Windows Federated Search

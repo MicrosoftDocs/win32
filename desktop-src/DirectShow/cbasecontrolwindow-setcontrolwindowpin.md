@@ -1,7 +1,12 @@
 ---
-Description: 'The SetControlWindowPin method sets the pin with which to synchronize.'
-ms.assetid: '6373c046-5448-4159-88b9-9b2babdb938b'
-title: 'CBaseControlWindow.SetControlWindowPin method'
+Description: The SetControlWindowPin method sets the pin with which to synchronize.
+ms.assetid: 6373c046-5448-4159-88b9-9b2babdb938b
+title: CBaseControlWindow.SetControlWindowPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.SetControlWindowPin method
@@ -13,7 +18,7 @@ The `SetControlWindowPin` method sets the pin with which to synchronize.
 
 ```C++
 void SetControlWindowPin(
-   CBasePin *pPin
+   CBasePin *pPin
 );
 ```
 
@@ -56,9 +61,9 @@ This member function sets the m\_pPin member variable equal to the pPin paramete
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

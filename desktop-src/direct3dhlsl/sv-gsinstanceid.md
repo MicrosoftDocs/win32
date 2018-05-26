@@ -1,14 +1,20 @@
 ---
 title: SV\_GSInstanceID
 description: Defines the instance of the geometry shader.
-ms.assetid: '66d1706f-3c14-46db-a791-dc3de9831cc9'
-keywords: ["SV_GSInstanceID HLSL"]
+ms.assetid: 66d1706f-3c14-46db-a791-dc3de9831cc9
+keywords:
+- SV_GSInstanceID HLSL
 topic_type:
 - apiref
 api_name:
 - SV_GSInstanceID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_GSInstanceID

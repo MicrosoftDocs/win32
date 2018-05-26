@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the priority blending weight for the specified animation track.'
-ms.assetid: '8d40b0f6-d79a-42c1-99fb-3f76bd46f30c'
-title: 'ID3DXAnimationController::SetTrackPriority method'
+---
+Description: Sets the priority blending weight for the specified animation track.
+ms.assetid: 8d40b0f6-d79a-42c1-99fb-3f76bd46f30c
+title: ID3DXAnimationControllerSetTrackPriority method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXAnimationController::SetTrackPriority method

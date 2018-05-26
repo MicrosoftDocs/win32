@@ -1,14 +1,20 @@
 ---
 title: Load(int,int,uint) function
 description: Reads texture data and returns status of the operation.
-ms.assetid: '3F562ADB-225F-462B-A7AC-40797BBB632A'
-keywords: ["Load function HLSL"]
+ms.assetid: 3F562ADB-225F-462B-A7AC-40797BBB632A
+keywords:
+- Load function HLSL
 topic_type:
 - apiref
 api_name:
 - Load
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load(int,int,uint) function

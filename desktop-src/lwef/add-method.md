@@ -1,7 +1,12 @@
 ---
 title: Add Method
 description: Add Method
-ms.assetid: 'dd258294-33d6-45f5-a6a1-a3a56b12a7df'
+ms.assetid: dd258294-33d6-45f5-a6a1-a3a56b12a7df
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Add Method

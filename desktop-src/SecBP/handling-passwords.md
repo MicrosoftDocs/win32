@@ -1,7 +1,12 @@
 ---
-Description: 'Currently, user name and password credentials are the most common credentials used for authentication.'
-ms.assetid: '1d810f71-9bf5-4c5c-a573-c35081f604cf'
+Description: Currently, user name and password credentials are the most common credentials used for authentication.
+ms.assetid: 1d810f71-9bf5-4c5c-a573-c35081f604cf
 title: Handling Passwords
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Handling Passwords

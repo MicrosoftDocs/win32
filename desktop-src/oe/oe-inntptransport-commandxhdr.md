@@ -1,8 +1,11 @@
 ---
 title: INNTPTransport CommandXHDR method
 description: Issues an XHDR command to the server.
-ms.assetid: 'caabba30-99c0-4bbd-9310-cd925b17445f'
-keywords: ["CommandXHDR method Windows Mail (formerly Outlook Express)", "CommandXHDR method Windows Mail (formerly Outlook Express) , INNTPTransport interface", "INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandXHDR method"]
+ms.assetid: caabba30-99c0-4bbd-9310-cd925b17445f
+keywords:
+- CommandXHDR method Windows Mail (formerly Outlook Express)
+- CommandXHDR method Windows Mail (formerly Outlook Express) , INNTPTransport interface
+- INNTPTransport interface Windows Mail (formerly Outlook Express) , CommandXHDR method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INNTPTransport::CommandXHDR method
@@ -24,9 +32,9 @@ Issues an `XHDR` command to the server. This command can specify a range of mess
 
 ```C++
 HRESULT CommandXHDR(
-  [in]           LPSTR   pszHeader,
-  [in, optional] LPRANGE pRange,
-  [in, optional] LPSTR   pszMessageId
+  [in]           LPSTR   pszHeader,
+  [in, optional] LPRANGE pRange,
+  [in, optional] LPSTR   pszMessageId
 );
 ```
 
@@ -75,8 +83,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -84,9 +92,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the credits for the program, in the following format. &\#0034;Actor1/Actor2/Actor3...;Director1/Director2/Director3...;Host1/Host2/Host3...;GuestStar&\#0034;.'
-ms.assetid: '2a464413-c48d-48a2-b1e1-34303ee4dbfa'
-title: 'System.RecordedTV.Credits'
+Description: Indicates the credits for the program, in the following format. &\#0034;Actor1/Actor2/Actor3...;Director1/Director2/Director3...;Host1/Host2/Host3...;GuestStar&\#0034;.
+ms.assetid: 2a464413-c48d-48a2-b1e1-34303ee4dbfa
+title: System.RecordedTV.Credits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.Credits

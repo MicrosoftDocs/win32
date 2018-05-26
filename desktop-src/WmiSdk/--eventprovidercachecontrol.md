@@ -1,13 +1,16 @@
 ---
-Description: 'Controls when an event provider is unloaded.'
+Description: Controls when an event provider is unloaded.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7f11e521-d0f6-4c3c-8bfe-ceed2d106ed3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7f11e521-d0f6-4c3c-8bfe-ceed2d106ed3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_EventProviderCacheControl class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_EventProviderCacheControl class
@@ -63,8 +66,8 @@ For more information about using this class, see [Unloading a Provider](unloadin
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | Root<br/>                |
 
 
@@ -79,9 +82,9 @@ For more information about using this class, see [Unloading a Provider](unloadin
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

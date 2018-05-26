@@ -1,7 +1,12 @@
 ---
 title: Module 1. Your First Windows Program
 description: .
-ms.assetid: '73848144-bf02-4382-a476-7f5a35447727'
+ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Module 1. Your First Windows Program

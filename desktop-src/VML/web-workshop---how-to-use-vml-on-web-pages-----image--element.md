@@ -1,8 +1,54 @@
 ---
 title: Using the Image Element
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: '444c0b21-35f0-4e2d-ab6d-87a88229d9d2'
-keywords: ["Web workshop,image element", "designing Web pages,image element", "Vector Markup Language (VML),image element", "VML (Vector Markup Language),image element", "vector graphics,image element", "image element", "VML elements,image", "VML shapes,image element", "Vector Markup Language (VML),crop property attributes", "VML (Vector Markup Language),crop property attributes", "vector graphics,crop property attributes", "VML shapes,crop property attributes", "crop property attributes", "Vector Markup Language (VML),gain property attribute", "VML (Vector Markup Language),gain property attribute", "vector graphics,gain property attribute", "VML shapes,gain property attribute", "gain property attribute", "Vector Markup Language (VML),contrast", "VML (Vector Markup Language),contrast", "vector graphics,contrast", "VML shapes,contrast", "Vector Markup Language (VML),blacklevel property attribute", "VML (Vector Markup Language),blacklevel property attribute", "vector graphics,blacklevel property attribute", "VML shapes,blacklevel property attribute", "blacklevel property attribute", "Vector Markup Language (VML),brightness", "VML (Vector Markup Language),brightness", "vector graphics,brightness", "VML shapes,brightness", "Vector Markup Language (VML),grayscale property attribute", "VML (Vector Markup Language),grayscale property attribute", "vector graphics,grayscale property attribute", "VML shapes,grayscale property attribute", "grayscale property attribute", "Vector Markup Language (VML),gamma property attribute", "VML (Vector Markup Language),gamma property attribute", "vector graphics,gamma property attribute", "VML shapes,gamma property attribute", "gamma property attribute"]
+ms.assetid: 444c0b21-35f0-4e2d-ab6d-87a88229d9d2
+keywords:
+- Web workshop,image element
+- designing Web pages,image element
+- Vector Markup Language (VML),image element
+- VML (Vector Markup Language),image element
+- vector graphics,image element
+- image element
+- VML elements,image
+- VML shapes,image element
+- Vector Markup Language (VML),crop property attributes
+- VML (Vector Markup Language),crop property attributes
+- vector graphics,crop property attributes
+- VML shapes,crop property attributes
+- crop property attributes
+- Vector Markup Language (VML),gain property attribute
+- VML (Vector Markup Language),gain property attribute
+- vector graphics,gain property attribute
+- VML shapes,gain property attribute
+- gain property attribute
+- Vector Markup Language (VML),contrast
+- VML (Vector Markup Language),contrast
+- vector graphics,contrast
+- VML shapes,contrast
+- Vector Markup Language (VML),blacklevel property attribute
+- VML (Vector Markup Language),blacklevel property attribute
+- vector graphics,blacklevel property attribute
+- VML shapes,blacklevel property attribute
+- blacklevel property attribute
+- Vector Markup Language (VML),brightness
+- VML (Vector Markup Language),brightness
+- vector graphics,brightness
+- VML shapes,brightness
+- Vector Markup Language (VML),grayscale property attribute
+- VML (Vector Markup Language),grayscale property attribute
+- vector graphics,grayscale property attribute
+- VML shapes,grayscale property attribute
+- grayscale property attribute
+- Vector Markup Language (VML),gamma property attribute
+- VML (Vector Markup Language),gamma property attribute
+- vector graphics,gamma property attribute
+- VML shapes,gamma property attribute
+- gamma property attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Image Element

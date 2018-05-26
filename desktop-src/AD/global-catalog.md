@@ -4,11 +4,15 @@ description: A Domain run by Active Directory Domain Services can consist of man
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'eac02c1f-0c37-4eee-822d-07913ea8775a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: eac02c1f-0c37-4eee-822d-07913ea8775a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["global catalog Active Directory"]
+keywords:
+- global catalog Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Global Catalog

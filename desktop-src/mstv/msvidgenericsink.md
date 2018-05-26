@@ -1,7 +1,12 @@
 ---
 title: MSVidGenericSink
 description: MSVidGenericSink
-ms.assetid: '15181a89-aa64-4ecf-aaf5-4aac36753ddf'
+ms.assetid: 15181a89-aa64-4ecf-aaf5-4aac36753ddf
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSVidGenericSink
@@ -14,7 +19,7 @@ The **MSVidGenericSink** object represents a generic output device.
 
 |                           |                                                                                                  |
 |---------------------------|--------------------------------------------------------------------------------------------------|
-| Interfaces                | [**IMSVidGenericSink**](imsvidgenericsink.md), [**IMSVidGenericSink2**](imsvidgenericsink2.md) |
+| Interfaces                | [**IMSVidGenericSink**](/windows/win32/segment/nn-segment-imsvidgenericsink?branch=master), [**IMSVidGenericSink2**](/windows/win32/segment/nn-segment-imsvidgenericsink2?branch=master) |
 | Outgoing Event Interfaces | None.                                                                                            |
 
 

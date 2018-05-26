@@ -1,8 +1,13 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
-ms.assetid: 'd6528e81-2082-4180-a21e-d12ffe3c9c9c'
+Robots: noindex, nofollow
+ms.assetid: d6528e81-2082-4180-a21e-d12ffe3c9c9c
 title: C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C
@@ -21,7 +26,7 @@ An entity entrusted to issue certificates asserting that the recipient individua
 <span id="base.vssgloss_client_accessible_shadow_copy"></span><span id="BASE.VSSGLOSS_CLIENT_ACCESSIBLE_SHADOW_COPY"></span>**client-accessible shadow copy**
 </dt> <dd>
 
-A shadow copy created by the system provider to support Shadow Copies for Shared Folders and other rollback mechanisms, which allow clients to see old versions of files and undo mistakes without requiring a full restore. A client-accessible shadow copy is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](-vss-snapshot-context.md) enumeration. In addition, the VSS\_VOLSNAP\_ATTR\_CLIENT\_ACCESSIBLE value of the [**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](-vss-volume-snapshot-attributes.md) enumeration is set automatically for client-accessible shadow copies. See also [*Shadow Copies for Shared Folders*](vssgloss-s.md#base-vssgloss-shadow-copies-for-shared-folders).
+A shadow copy created by the system provider to support Shadow Copies for Shared Folders and other rollback mechanisms, which allow clients to see old versions of files and undo mistakes without requiring a full restore. A client-accessible shadow copy is created using the **VSS\_CTX\_CLIENT\_ACCESSIBLE** value of the [**\_VSS\_SNAPSHOT\_CONTEXT**](/windows/win32/Vss/ne-vss-_vss_snapshot_context?branch=master) enumeration. In addition, the VSS\_VOLSNAP\_ATTR\_CLIENT\_ACCESSIBLE value of the [**\_VSS\_VOLUME\_SNAPSHOT\_ATTRIBUTES**](/windows/win32/Vss/ne-vss-_vss_volume_snapshot_attributes?branch=master) enumeration is set automatically for client-accessible shadow copies. See also [*Shadow Copies for Shared Folders*](vssgloss-s.md#base-vssgloss-shadow-copies-for-shared-folders).
 
 </dd> <dt>
 

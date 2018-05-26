@@ -1,8 +1,15 @@
 ---
 title: Routing Table Manager Version 1 Reference
 description: The following functions, structures, and constants provide an interface that routing protocols can use to access the routing tables maintained by the routing table manager
-ms.assetid: 'a2edf25e-15e4-4c74-90d4-32369f83a776'
-keywords: ["Routing and Remote Access Service RRAS ,Routing Table Manager Version 1,reference", "Routing Table Manager Version 1 RRAS ,reference"]
+ms.assetid: a2edf25e-15e4-4c74-90d4-32369f83a776
+keywords:
+- Routing and Remote Access Service RRAS ,Routing Table Manager Version 1,reference
+- Routing Table Manager Version 1 RRAS ,reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager Version 1 Reference

@@ -1,8 +1,17 @@
 ---
 title: Desktop Activity Moderator
 description: Desktop Activity Moderator
-ms.assetid: 'F1C54DB0-0AFC-4A1B-9697-6CEB519C2663'
-keywords: ["battery life", "connected standby", "suspension", "throttling"]
+ms.assetid: F1C54DB0-0AFC-4A1B-9697-6CEB519C2663
+keywords:
+- battery life
+- connected standby
+- suspension
+- throttling
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Desktop Activity Moderator

@@ -1,7 +1,12 @@
 ---
 Description: Client Logging
-ms.assetid: 'f91b48ae-3989-4c1d-929c-8ab28d7c8177'
+ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Client Logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Client Logging
@@ -71,7 +76,7 @@ The following table describes the log fields and the corresponding properties th
 
 
 
- 
+ 
 
 The following code example shows how a client application configures the network source. This example sets the "c-hostexe" log field.
 
@@ -122,7 +127,7 @@ HRESULT CreateMediaSourceWithLogParams(
 
 When the application calls one of the source resolver methods, it creates the network source, sets the properties specified in the property store, and opens a session with the media server. In addition to the configurable information described in the previous section, additional data is transferred between the server and the client at the beginning of the session, during streaming, and when the session is closed.
 
-The application can retrieve network statistics by using the **MFNETSOURCE\_STATISTICS\_SERVICE** service identifier. To use this service, the application can call the [**MFGetService**](mfgetservice.md) function to get the property store that contains network statistics in the [**MFNETSOURCE\_STATISTICS**](mfnetsource-statistics-ids.md) property. Specific values can be retrieved by providing the corresponding identifier defined in the **MFNETSOURCE\_STATISTICS\_IDS** enumeration.
+The application can retrieve network statistics by using the **MFNETSOURCE\_STATISTICS\_SERVICE** service identifier. To use this service, the application can call the [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) function to get the property store that contains network statistics in the [**MFNETSOURCE\_STATISTICS**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_statistics_ids?branch=master) property. Specific values can be retrieved by providing the corresponding identifier defined in the **MFNETSOURCE\_STATISTICS\_IDS** enumeration.
 
 The following code example shows how to use the service to get the number of packets received by the client.
 
@@ -164,7 +169,7 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
 
 
 
-The following list describes some of the network statistics identifiers defined in [**MFNETSOURCE\_STATISTICS\_IDS**](mfnetsource-statistics-ids.md).
+The following list describes some of the network statistics identifiers defined in [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_statistics_ids?branch=master).
 
 
 
@@ -185,7 +190,7 @@ The following list describes some of the network statistics identifiers defined 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -197,9 +202,9 @@ The following list describes some of the network statistics identifiers defined 
 [Networking in Media Foundation](networking-in-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

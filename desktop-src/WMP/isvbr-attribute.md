@@ -1,14 +1,20 @@
 ---
 title: IsVBR Attribute
 description: The IsVBR attribute indicates whether the content was encoded using variable bit rate (VBR) encoding.
-ms.assetid: 'faec0940-ef53-40a1-be54-a990884e907d'
-keywords: ["IsVBR Attribute Windows Media Player"]
+ms.assetid: faec0940-ef53-40a1-be54-a990884e907d
+keywords:
+- IsVBR Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - IsVBR
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsVBR Attribute
@@ -45,9 +51,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

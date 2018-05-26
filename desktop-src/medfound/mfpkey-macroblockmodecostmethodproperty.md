@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the cost method used by the codec to determine which macroblock mode to use.'
-ms.assetid: '2ba9b943-0daa-40c1-87ea-2fa647fb7095'
-title: 'MFPKEY\_MACROBLOCKMODECOSTMETHOD Property'
+---
+Description: Specifies the cost method used by the codec to determine which macroblock mode to use.
+ms.assetid: 2ba9b943-0daa-40c1-87ea-2fa647fb7095
+title: MFPKEY\_MACROBLOCKMODECOSTMETHOD Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_MACROBLOCKMODECOSTMETHOD Property

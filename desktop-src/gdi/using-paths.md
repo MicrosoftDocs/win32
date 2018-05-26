@@ -1,7 +1,12 @@
 ---
-Description: 'This section contains a code sample that enables the user to select a font of a particular point size (by using the Choose Font dialog box), select a clip path (by using text drawn with this font), and then view the result of clipping to the text.'
-ms.assetid: '3eb5781b-972b-49a4-94db-9abda96fb195'
+Description: This section contains a code sample that enables the user to select a font of a particular point size (by using the Choose Font dialog box), select a clip path (by using text drawn with this font), and then view the result of clipping to the text.
+ms.assetid: 3eb5781b-972b-49a4-94db-9abda96fb195
 title: Using Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Paths

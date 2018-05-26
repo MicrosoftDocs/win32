@@ -1,7 +1,12 @@
 ---
-Description: 'The FaxPort object permits a fax client application to retrieve and set configuration information for a fax port on a connected fax server.'
-ms.assetid: 'cc59452b-194e-4a68-955b-ac39cd5325ff'
+Description: The FaxPort object permits a fax client application to retrieve and set configuration information for a fax port on a connected fax server.
+ms.assetid: cc59452b-194e-4a68-955b-ac39cd5325ff
 title: FaxPort
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxPort
@@ -14,10 +19,10 @@ A fax client application must create an instance of a [FaxServer](-mfax-faxserve
 
 ## C/C++
 
--   Create by calling the [**IFaxPorts::get\_Item**](-mfax-ifaxports-get-item.md) method.
--   Supports the [**IFaxPort**](-mfax-ifaxport.md) interface.
+-   Create by calling the [**IFaxPorts::get\_Item**](/windows/previous-versions/Faxcom/nf-faxcom-ifaxports-get_item?branch=master) method.
+-   Supports the [**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master) interface.
 
-For more information about creating an instance of a FaxPort object, and for a list of the object's properties and methods, see [**IFaxPort**](-mfax-ifaxport.md).
+For more information about creating an instance of a FaxPort object, and for a list of the object's properties and methods, see [**IFaxPort**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxport?branch=master).
 
 ## Visual Basic
 

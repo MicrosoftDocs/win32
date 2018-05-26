@@ -1,7 +1,12 @@
-﻿---
-Description: 'Not supported. Call the IAMTimeline::CreateEmptyNode method to create a new timeline object. Once an object is created, you cannot change its type.'
-ms.assetid: '127b7435-84b0-46c4-b072-bb8eb54b6a4f'
-title: 'IAMTimelineObj::SetTimelineType method'
+---
+Description: Not supported. Call the IAMTimelineCreateEmptyNode method to create a new timeline object. Once an object is created, you cannot change its type.
+ms.assetid: 127b7435-84b0-46c4-b072-bb8eb54b6a4f
+title: IAMTimelineObjSetTimelineType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::SetTimelineType method

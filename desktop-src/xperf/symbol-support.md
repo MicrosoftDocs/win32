@@ -1,8 +1,22 @@
 ---
 title: Symbol Support
 description: Symbol Support
-ms.assetid: '6fae8f46-66d3-49c7-b2f3-a676106b5fd9'
-keywords: ["symbol decoding", "troubleshooting", "Windows Performance Analyzer, symbol support", "symbol", "decode", "PDB", "debugging", "Windbg.exe", "_NT_SYMBOL_PATH"]
+ms.assetid: 6fae8f46-66d3-49c7-b2f3-a676106b5fd9
+keywords:
+- symbol decoding
+- troubleshooting
+- Windows Performance Analyzer, symbol support
+- symbol
+- decode
+- PDB
+- debugging
+- Windbg.exe
+- _NT_SYMBOL_PATH
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Symbol Support

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ReadBytes method reads a number of bytes into a buffer.'
-ms.assetid: '41ba600d-8b89-4e07-950a-a2518c2572a6'
-title: 'IPrintReadStream::ReadBytes method'
+---
+Description: The ReadBytes method reads a number of bytes into a buffer.
+ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
+title: IPrintReadStreamReadBytes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintReadStream::ReadBytes method

@@ -1,8 +1,11 @@
 ---
 title: IWMPNetwork lostPackets property
 description: The lostPackets property gets the number of packets lost.
-ms.assetid: '611218d3-c4d3-4d4e-835c-1e7a956b2718'
-keywords: ["lostPackets property Windows Media Player", "lostPackets property Windows Media Player , IWMPNetwork interface", "IWMPNetwork interface Windows Media Player , lostPackets property"]
+ms.assetid: 611218d3-c4d3-4d4e-835c-1e7a956b2718
+keywords:
+- lostPackets property Windows Media Player
+- lostPackets property Windows Media Player , IWMPNetwork interface
+- IWMPNetwork interface Windows Media Player , lostPackets property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPNetwork::lostPackets property
@@ -114,9 +122,9 @@ End Sub</code></pre></td>
 [**AxWindowsMediaPlayer.URL (VB and C#)**](axwmplib-axwindowsmediaplayer-url--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

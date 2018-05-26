@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how to enumerate the video capture devices on the user's system, and how create an instance of a device.'
-ms.assetid: 'b1267478-329b-4e46-a2ed-1ec11d2e2e6d'
+Description: This topic describes how to enumerate the video capture devices on the users system, and how create an instance of a device.
+ms.assetid: b1267478-329b-4e46-a2ed-1ec11d2e2e6d
 title: Enumerating Video Capture Devices
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Video Capture Devices
@@ -10,13 +15,13 @@ This topic describes how to enumerate the video capture devices on the user's sy
 
 To enumerate the video capture devices on the system, do the following:
 
-1.  Call [**MFCreateAttributes**](mfcreateattributes.md) to create an attribute store. This function receives an [**IMFAttributes**](imfattributes.md) pointer.
-2.  Call [**IMFAttributes::SetGUID**](imfattributes-setguid.md) to set the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE](mf-devsource-attribute-source-type.md) attribute. Set the attribute value to **MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_GUID**.
-3.  Call [**MFEnumDeviceSources**](mfenumdevicesources.md). This function receives an array of [**IMFActivate**](imfactivate.md) pointers and the array size. Each pointer represents a distinct video capture device.
+1.  Call [**MFCreateAttributes**](/windows/win32/mfapi/nf-mfapi-mfcreateattributes?branch=master) to create an attribute store. This function receives an [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) pointer.
+2.  Call [**IMFAttributes::SetGUID**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setguid?branch=master) to set the [MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE](mf-devsource-attribute-source-type.md) attribute. Set the attribute value to **MF\_DEVSOURCE\_ATTRIBUTE\_SOURCE\_TYPE\_VIDCAP\_GUID**.
+3.  Call [**MFEnumDeviceSources**](/windows/win32/mfidl/nf-mfidl-mfenumdevicesources?branch=master). This function receives an array of [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master) pointers and the array size. Each pointer represents a distinct video capture device.
 
 To create an instance of a capture device:
 
--   Call [**IMFActivate::ActivateObject**](imfactivate-activateobject.md) to get a pointer to the [**IMFMediaSource**](imfmediasource.md) interface.
+-   Call [**IMFActivate::ActivateObject**](/windows/win32/mfobjects/nf-mfobjects-imfactivate-activateobject?branch=master) to get a pointer to the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface.
 
 The following code shows these steps:
 

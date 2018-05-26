@@ -1,8 +1,10 @@
 ---
 title: NNTPHEADERRESP structure
 description: This structure will be returned in response to the GetHeaders command.
-ms.assetid: '0ce996f6-0409-49df-929d-6ed29fcf39f3'
-keywords: ["NNTPHEADERRESP structure Windows Mail (formerly Outlook Express)", "LPNNTPHEADERRESP structure pointer Windows Mail (formerly Outlook Express)"]
+ms.assetid: 0ce996f6-0409-49df-929d-6ed29fcf39f3
+keywords:
+- NNTPHEADERRESP structure Windows Mail (formerly Outlook Express)
+- LPNNTPHEADERRESP structure pointer Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NNTPHEADERRESP structure
@@ -24,10 +31,10 @@ This structure will be returned in response to the [**GetHeaders**](oe-inntptran
 
 ```C++
 typedef struct tagNNTPHEADERRESP {
-  DWORD        cHeaders;
+  DWORD        cHeaders;
   LPNNTPHEADER rgHeaders;
-  BOOL         fSupportsXRef;
-  DWORD_PTR    dwReserved;
+  BOOL         fSupportsXRef;
+  DWORD_PTR    dwReserved;
 } NNTPHEADERRESP, *LPNNTPHEADERRESP;
 ```
 
@@ -87,17 +94,17 @@ Reserved for system use
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

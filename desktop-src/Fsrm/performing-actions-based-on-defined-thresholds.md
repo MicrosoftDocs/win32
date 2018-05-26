@@ -4,11 +4,16 @@ description: You can add up to 16 threshold values to a quota. The threshold is 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '45111206-cce8-494d-9e78-7eb551dff186'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 45111206-cce8-494d-9e78-7eb551dff186
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , performing actions based on defined thresholds", "thresholds File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , performing actions based on defined thresholds
+- thresholds File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Performing Actions Based on Defined Thresholds

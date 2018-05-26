@@ -1,7 +1,12 @@
 ---
-Description: 'Using Shell extensions to implement a copy hook handler.'
-ms.assetid: '05808281-84fb-402d-9fa1-3a747b29d030'
+Description: Using Shell extensions to implement a copy hook handler.
+ms.assetid: 05808281-84fb-402d-9fa1-3a747b29d030
 title: How to Create Copy Hook Handlers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Copy Hook Handlers
@@ -16,9 +21,9 @@ The general procedures for implementing and registering a Shell extension handle
 
 ### Step 1: Implementing Copy Hook Handlers
 
-Like all Shell extension handlers, copy hook handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export one interface in addition to [**IUnknown**](com.iunknown): [**ICopyHook**](icopyhook.md). The Shell initializes the handler directly, so there is no need for an initialization interface such as [**IShellExtInit**](ishellextinit.md).
+Like all Shell extension handlers, copy hook handlers are in-process Component Object Model (COM) objects implemented as DLLs. They export one interface in addition to [**IUnknown**](com.iunknown): [**ICopyHook**](/windows/win32/Shlobj/?branch=master). The Shell initializes the handler directly, so there is no need for an initialization interface such as [**IShellExtInit**](/windows/win32/Shobjidl/nn-shobjidl_core-ishellextinit?branch=master).
 
-The [**ICopyHook**](icopyhook.md) interface has a single method, [**ICopyHook::CopyCallback**](icopyhook-copycallback.md). When a folder is about to be moved, the Shell calls this method. It passes in a variety of information, including:
+The [**ICopyHook**](/windows/win32/Shlobj/?branch=master) interface has a single method, [**ICopyHook::CopyCallback**](/windows/win32/Shlobj/?branch=master). When a folder is about to be moved, the Shell calls this method. It passes in a variety of information, including:
 
 -   The folder's name.
 -   The folder's destination or new name.
@@ -26,7 +31,7 @@ The [**ICopyHook**](icopyhook.md) interface has a single method, [**ICopyHook::C
 -   The attributes of the source and destination folders.
 -   A window handle that can be used to display a user interface.
 
-When your handler's [**ICopyHook::CopyCallback**](icopyhook-copycallback.md) method is called, it returns one of the three following values to indicate to the Shell how it should proceed.
+When your handler's [**ICopyHook::CopyCallback**](/windows/win32/Shlobj/?branch=master) method is called, it returns one of the three following values to indicate to the Shell how it should proceed.
 
 
 
@@ -70,7 +75,7 @@ Copy hook handlers are global. The Shell calls all registered handlers every tim
 [Creating Shell Extension Handlers](handlers.md)
 </dt> <dt>
 
-[**ICopyHook**](icopyhook.md)
+[**ICopyHook**](/windows/win32/Shlobj/?branch=master)
 </dt> </dl>
 
  

@@ -4,17 +4,22 @@ description: On-demand cache policy options.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a8754b4f-ebb3-446e-81ca-8b009f55a716'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a8754b4f-ebb3-446e-81ca-8b009f55a716
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-CachePolicy attribute AD Schema", "msDFSR-CachePolicy attribute AD Schema"]
+keywords:
+- ms-DFSR-CachePolicy attribute AD Schema
+- msDFSR-CachePolicy attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-CachePolicy
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-CachePolicy attribute
@@ -38,9 +43,9 @@ On-demand cache policy options.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ On-demand cache policy options.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

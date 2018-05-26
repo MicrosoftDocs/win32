@@ -1,7 +1,12 @@
 ---
 title: StemmerDictionary
 description: StemmerDictionary
-ms.assetid: '4068f998-6436-408d-934c-cccccc217727'
+ms.assetid: 4068f998-6436-408d-934c-cccccc217727
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StemmerDictionary

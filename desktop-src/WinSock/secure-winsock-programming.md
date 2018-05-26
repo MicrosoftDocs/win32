@@ -1,7 +1,12 @@
 ---
-Description: 'The following is a guide to secure Windows Sockets programming.'
-ms.assetid: '70210e86-ead6-4b0c-ae47-66b2ef0a8d11'
+Description: The following is a guide to secure Windows Sockets programming.
+ms.assetid: 70210e86-ead6-4b0c-ae47-66b2ef0a8d11
 title: Secure Winsock Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Secure Winsock Programming

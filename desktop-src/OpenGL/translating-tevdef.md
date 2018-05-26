@@ -1,8 +1,23 @@
 ---
 title: Translating tevdef
 description: The following code example is an IRIS GL texture-environment definition that specifies the TV\_DECAL texture-environment parameter
-ms.assetid: 'bb4c8231-8102-4ecb-a5d2-c41243c2682d'
-keywords: ["IRIS GL porting,texture", "porting from IRIS GL,texture", "porting to OpenGL from IRIS GL,texture", "OpenGL porting from IRIS GL,texture", "texture", "IRIS GL porting,tevdef", "porting from IRIS GL,tevdef", "porting to OpenGL from IRIS GL,tevdef", "OpenGL porting from IRIS GL,tevdef", "tevdef"]
+ms.assetid: bb4c8231-8102-4ecb-a5d2-c41243c2682d
+keywords:
+- IRIS GL porting,texture
+- porting from IRIS GL,texture
+- porting to OpenGL from IRIS GL,texture
+- OpenGL porting from IRIS GL,texture
+- texture
+- IRIS GL porting,tevdef
+- porting from IRIS GL,tevdef
+- porting to OpenGL from IRIS GL,tevdef
+- OpenGL porting from IRIS GL,tevdef
+- tevdef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Translating tevdef

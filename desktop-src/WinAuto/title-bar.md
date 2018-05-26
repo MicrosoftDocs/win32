@@ -1,7 +1,12 @@
 ---
 title: Title Bar (MSAA UI Element Reference)
 description: The title bar at the top of a window displays an application-defined icon and line of text.
-ms.assetid: 'f41ab777-6c94-4d8e-b743-c635e93df396'
+ms.assetid: f41ab777-6c94-4d8e-b743-c635e93df396
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Title Bar (MSAA UI Element Reference)
@@ -9,7 +14,7 @@ ms.assetid: 'f41ab777-6c94-4d8e-b743-c635e93df396'
 > [!Note]  
 > This topic describes **Title Bar** objects for purposes of MSAA UI Element Reference. How to create **Title Bar** objects in various UI frameworks is not described here. See the API reference documentation for the UI framework you're using.
 
- 
+ 
 
 The title bar at the top of a window displays an application-defined icon and line of text. The text specifies the name of the application and indicates the purpose of the window. The title bar also makes it possible for the user to move the window using a mouse or other pointing device.
 
@@ -17,16 +22,16 @@ Title bars contain at least three small buttons that minimize, maximize or resto
 
 ## IAccessible Methods
 
-Title bars support the following [**IAccessible**](iaccessible.md) methods:
+Title bars support the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods:
 
--   [**accHitTest**](iaccessible-iaccessible--acchittest.md)
--   [**accLocation**](iaccessible-iaccessible--acclocation.md)
--   [**accNavigate**](iaccessible-iaccessible--accnavigate.md)
--   [**accSelect**](iaccessible-iaccessible--accselect.md)
+-   [**accHitTest**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acchittest?branch=master)
+-   [**accLocation**](/windows/win32/Oleacc/nf-oleacc-iaccessible-acclocation?branch=master)
+-   [**accNavigate**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accnavigate?branch=master)
+-   [**accSelect**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accselect?branch=master)
 
 ## IAccessible Properties
 
-Title bars support the following [**IAccessible**](iaccessible.md) properties:
+Title bars support the following [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) properties:
 
 
 
@@ -43,7 +48,7 @@ Title bars support the following [**IAccessible**](iaccessible.md) properties:
 </thead>
 <tbody>
 <tr class="odd">
-<td>[<strong>get_accChildCount</strong>](iaccessible-iaccessible--get-accchildcount.md)</td>
+<td>[<strong>get_accChildCount</strong>](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchildcount?branch=master)</td>
 <td>The <strong>ChildCount</strong> property is five. The <strong>ChildCount</strong> property includes the IME and context-sensitive Help buttons even when they are not displayed. Buttons that are not displayed have the <strong>State</strong> property [<strong>STATE_SYSTEM_INVISIBLE</strong>](object-state-constants.md#state-system-invisible).</td>
 </tr>
 <tr class="even">
@@ -90,24 +95,24 @@ Title bars support the following [**IAccessible**](iaccessible.md) properties:
 
 
 
- 
+ 
 
 ## Notes
 
 -   Although an application's title bar has the **State** property flag [**STATE\_SYSTEM\_FOCUSABLE**](object-state-constants.md#state-system-focusable), it never has the **State** flag [**STATE\_SYSTEM\_FOCUSED**](object-state-constants.md#state-system-focused). Setting focus to a title bar object focuses the application window.
--   Because the title bar object does not support [**get\_accChild**](iaccessible-iaccessible--get-accchild.md), the buttons on the title bar are simple elements. They do not support the [**IAccessible**](iaccessible.md) interface themselves. The title bar object provides information about these child buttons.
--   Because title bars do not get focus and have no default action, the [**accDoDefaultAction**](iaccessible-iaccessible--accdodefaultaction.md) and [**get\_accDefaultAction**](iaccessible-iaccessible--get-accdefaultaction.md) methods are not supported for this control.
+-   Because the title bar object does not support [**get\_accChild**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accchild?branch=master), the buttons on the title bar are simple elements. They do not support the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface themselves. The title bar object provides information about these child buttons.
+-   Because title bars do not get focus and have no default action, the [**accDoDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-accdodefaultaction?branch=master) and [**get\_accDefaultAction**](/windows/win32/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction?branch=master) methods are not supported for this control.
 
 ## Related topics
 
 <dl> <dt>
 
-[IAccessible Interface](iaccessible.md)
+[IAccessible Interface](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

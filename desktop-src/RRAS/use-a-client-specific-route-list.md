@@ -1,7 +1,12 @@
 ---
 title: Use a Client-Specific Route List
 description: The following procedures outlines the steps to use the client-specific route lists. The sample code that follows shows how to implement the procedure.
-ms.assetid: 'aa9b7b2a-259f-4ce1-afb6-c04875e8ffe3'
+ms.assetid: aa9b7b2a-259f-4ce1-afb6-c04875e8ffe3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Use a Client-Specific Route List
@@ -10,15 +15,15 @@ The following procedures outlines the steps to use the client-specific route lis
 
 **To use this feature, a client should take the following steps**
 
-1.  Call [**RtmCreateRouteList**](rtmcreateroutelist.md) to obtain a handle from the routing table manager.
-2.  Call [**RtmInsertInRouteList**](rtminsertinroutelist.md) whenever the client must add a route to this list.
-3.  When the client no longer requires the list, it should call [**RtmDeleteRouteList**](rtmdeleteroutelist.md) to remove the list.
+1.  Call [**RtmCreateRouteList**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreateroutelist?branch=master) to obtain a handle from the routing table manager.
+2.  Call [**RtmInsertInRouteList**](/windows/win32/Rtmv2/nf-rtmv2-rtminsertinroutelist?branch=master) whenever the client must add a route to this list.
+3.  When the client no longer requires the list, it should call [**RtmDeleteRouteList**](/windows/win32/Rtmv2/nf-rtmv2-rtmdeleteroutelist?branch=master) to remove the list.
 
 **If the client must enumerate the routes on the list, the client should take the following steps**
 
-1.  Call [**RtmCreateRouteListEnum**](rtmcreateroutelistenum.md) to obtain an enumeration handle from the routing table manager.
-2.  Call [**RtmGetListEnumRoutes**](rtmgetlistenumroutes.md) to obtain the handles to the routes in the list.
-3.  Call [**RtmReleaseRoutes**](rtmreleaseroutes.md) to release the handles when no longer required.
+1.  Call [**RtmCreateRouteListEnum**](/windows/win32/Rtmv2/nf-rtmv2-rtmcreateroutelistenum?branch=master) to obtain an enumeration handle from the routing table manager.
+2.  Call [**RtmGetListEnumRoutes**](/windows/win32/Rtmv2/nf-rtmv2-rtmgetlistenumroutes?branch=master) to obtain the handles to the routes in the list.
+3.  Call [**RtmReleaseRoutes**](/windows/win32/Rtmv2/nf-rtmv2-rtmreleaseroutes?branch=master) to release the handles when no longer required.
 
 The following sample code shows how to create and use a client-specific route list.
 

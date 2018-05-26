@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_TABLET\_DELETED message is posted when a tablet device is removed from Windows.'
-ms.assetid: 'af5be7f0-a213-49a1-800e-c922281522c8'
-title: 'WM\_TABLET\_DELETED message'
+---
+Description: The WM\_TABLET\_DELETED message is posted when a tablet device is removed from Windows.
+ms.assetid: af5be7f0-a213-49a1-800e-c922281522c8
+title: WM\_TABLET\_DELETED message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TABLET\_DELETED message
@@ -38,7 +43,7 @@ Unused.
 
 This message is sent to all top-level windows in the system, including disabled or invisible unowned windows, overlapped windows, and pop-up windows; but the message is not sent to child windows.
 
-The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](itabletmanager-gettablet.md) method.
+The indexes passed in *wParam* are related to the index used by the [**ITabletManager::GetTablet**](/windows/win32/rtscom/?branch=master) method.
 
 ## Requirements
 

@@ -1,8 +1,11 @@
 ---
 title: Items.Item property
 description: Retrieves the specified item in the collection by position.
-ms.assetid: '23356146-2723-4996-8a98-428e5315c130'
-keywords: ["Item property WIA Automation", "Item property WIA Automation , Items object", "Items object WIA Automation , Item property"]
+ms.assetid: 23356146-2723-4996-8a98-428e5315c130
+keywords:
+- Item property WIA Automation
+- Item property WIA Automation , Items object
+- Items object WIA Automation , Item property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Items.Item property
@@ -42,8 +50,8 @@ For example code, see [Enumerate the Supported Commands](-wiaaut-shared-samples.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -74,9 +82,9 @@ For example code, see [Enumerate the Supported Commands](-wiaaut-shared-samples.
 [**Items**](-wiaaut-items.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

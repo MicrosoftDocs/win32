@@ -1,7 +1,12 @@
 ---
 title: defaultbind
 description: Indicates the single, bindable property that best represents the object.
-ms.assetid: '393be90a-b815-4a57-a42f-efbe074d2d04'
+ms.assetid: 393be90a-b815-4a57-a42f-efbe074d2d04
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # defaultbind

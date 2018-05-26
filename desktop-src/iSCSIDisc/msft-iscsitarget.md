@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents an iSCSI target.'
-ms.assetid: 'CCB86833-2F8C-41CE-B5F9-A14F79DEE3D3'
-title: 'MSFT\_iSCSITarget class'
+---
+Description: Represents an iSCSI target.
+ms.assetid: CCB86833-2F8C-41CE-B5F9-A14F79DEE3D3
+title: MSFT\_iSCSITarget class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_iSCSITarget class

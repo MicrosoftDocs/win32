@@ -1,8 +1,9 @@
 ---
 title: ComponentCategory enumeration
 description: Specifies the type of content in an Advanced Television System Committee (ASTC) sub-stream (component).
-ms.assetid: '20fe32fa-c8a5-4073-bcf3-7dde171d7ad4'
-keywords: ["ComponentCategory enumeration Microsoft TV Technologies"]
+ms.assetid: 20fe32fa-c8a5-4073-bcf3-7dde171d7ad4
+keywords:
+- ComponentCategory enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ComponentCategory enumeration
@@ -22,8 +28,8 @@ Specifies the type of content in an Advanced Television System Committee (ASTC) 
 
 ```C++
 typedef enum ComponentCategory { 
-  CategoryNotSet       = -1,
-  CategoryOther        = 0,
+  CategoryNotSet       = -1,
+  CategoryOther        = 0,
   CategoryVideo,
   CategoryAudio,
   CategoryText,
@@ -113,7 +119,7 @@ Reserved.
 
 ## Remarks
 
-This enumeration type was changed in Windows 7. The new definition is not compatible with previous versions.
+This enumeration type was changed in Windows 7. The new definition is not compatible with previous versions.
 
 ## Requirements
 
@@ -129,15 +135,15 @@ This enumeration type was changed in Windows 7. The new definition is not compat
 
 <dl> <dt>
 
-[**IComponentType::get\_Category**](icomponenttype-get-category.md)
+[**IComponentType::get\_Category**](/windows/previous-versions/tuner/nf-tuner-icomponenttype-get_category?branch=master)
 </dt> <dt>
 
 [Tuning Model Enumerations](tuning-model-enumerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

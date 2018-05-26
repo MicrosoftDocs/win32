@@ -1,8 +1,9 @@
 ---
 title: MimeOleGetContentTypeExt function
 description: Do not use. Returns the file name extension for a supplied content type.
-ms.assetid: '8d70fb50-6fc5-4a0c-8c1c-7f3447c41b06'
-keywords: ["MimeOleGetContentTypeExt function Windows Mail (formerly Outlook Express)"]
+ms.assetid: 8d70fb50-6fc5-4a0c-8c1c-7f3447c41b06
+keywords:
+- MimeOleGetContentTypeExt function Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MimeOleGetContentTypeExt function
@@ -22,8 +28,8 @@ Do not use. Returns the file name extension for a supplied content type.
 
 ```C++
 HRESULT MimeOleGetContentTypeExt(
-  _In_  LPCSTR pszContentType,
-  _Out_ LPSTR  *ppszExtension
+  _In_  LPCSTR pszContentType,
+  _Out_ LPSTR  *ppszExtension
 );
 ```
 
@@ -68,7 +74,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -76,8 +82,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | Library<br/>                  | <dl> <dt>Inetcomm.lib</dt> </dl>                        |
@@ -85,9 +91,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

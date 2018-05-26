@@ -1,8 +1,13 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
-ms.assetid: 'daa383ba-994e-4986-9979-119576cecd1c'
+Robots: noindex, nofollow
+ms.assetid: daa383ba-994e-4986-9979-119576cecd1c
 title: W
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # W

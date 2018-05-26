@@ -2,13 +2,16 @@
 title: Get method of the PS\_RemoteAccessRadius class
 description: This cmdlet displays the list of the following types of RADIUS servers 1. Radius for VPN authentication 2. Radius for DirectAccess and VPN Accounting3. Radius for OTP authentication for DirectAccess.
 audience: developer
-ms.assetid: 'aa1d79be-0189-4121-b906-19d728b52b67'
-ms.prod: 'windows-server-dev'
+ms.assetid: aa1d79be-0189-4121-b906-19d728b52b67
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_RemoteAccessRadius class", "PS_RemoteAccessRadius class, Get method"]
+keywords:
+- Get method
+- Get method, PS_RemoteAccessRadius class
+- PS_RemoteAccessRadius class, Get method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_RemoteAccessRadius class
@@ -28,10 +34,10 @@ This cmdlet displays the list of the following types of RADIUS servers 1. Radius
 
 ```mof
 uint32 Get(
-  [in]  string                   Purpose,
-  [in]  string                   ComputerName,
-  [in]  string                   EntrypointName,
-  [out] RemoteAccessRadiusServer cmdletOutput[]
+  [in]  string                   Purpose,
+  [in]  string                   ComputerName,
+  [in]  string                   EntrypointName,
+  [out] RemoteAccessRadiusServer cmdletOutput[]
 );
 ```
 
@@ -97,7 +103,7 @@ The output consists of the list of external RADIUS servers being used for the sp
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
@@ -111,9 +117,9 @@ The output consists of the list of external RADIUS servers being used for the sp
 [**PS\_RemoteAccessRadius**](ps-remoteaccessradius.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

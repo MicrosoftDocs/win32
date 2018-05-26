@@ -1,8 +1,17 @@
 ---
 title: Multimedia Audio
 description: Multimedia Audio
-ms.assetid: '29c3e8f9-2561-4157-ad62-5c8f954d1417'
-keywords: ["Windows multimedia,audio", "multimedia,audio", "multimedia audio,about", "audio,about"]
+ms.assetid: 29c3e8f9-2561-4157-ad62-5c8f954d1417
+keywords:
+- Windows multimedia,audio
+- multimedia,audio
+- multimedia audio,about
+- audio,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Audio

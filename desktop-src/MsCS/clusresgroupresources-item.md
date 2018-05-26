@@ -4,11 +4,14 @@ description: Returns a single resource from the ClusResGroupResources collection
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5eba54e1-5c55-46b0-97b9-0104cfb4134c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 5eba54e1-5c55-46b0-97b9-0104cfb4134c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Item property Failover Cluster", "Item property Failover Cluster , ClusResGroupResources class", "ClusResGroupResources class Failover Cluster , Item property"]
+keywords:
+- Item property Failover Cluster
+- Item property Failover Cluster , ClusResGroupResources class
+- ClusResGroupResources class Failover Cluster , Item property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroupResources.Item property
@@ -49,7 +55,7 @@ A [**ClusResource**](clusresource-object.md) object that receives the specified 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                  |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>                  |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>        |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl>      |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl>      |
@@ -71,9 +77,9 @@ A [**ClusResource**](clusresource-object.md) object that receives the specified 
 [**ClusResGroupResources.Count**](clusresgroupresources-count.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

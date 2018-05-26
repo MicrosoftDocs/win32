@@ -1,8 +1,17 @@
 ---
 title: Remote Procedure Call
 description: Microsoft Remote Procedure Call (RPC) defines a powerful technology for creating distributed client/server programs.
-ms.assetid: '27c7c352-5fc1-47cf-99b1-fdf3eca986bc'
-keywords: ["RPC", "RPC, (See Remote Procedure Call)", "Remote Procedure Call RPC , start page", "Remote Procedure Call RPC"]
+ms.assetid: 27c7c352-5fc1-47cf-99b1-fdf3eca986bc
+keywords:
+- RPC
+- RPC, (See Remote Procedure Call)
+- Remote Procedure Call RPC , start page
+- Remote Procedure Call RPC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Procedure Call
@@ -36,7 +45,7 @@ The RPC run-time libraries are included with Windows. The components of the RPC 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -45,9 +54,9 @@ The RPC run-time libraries are included with Windows. The components of the RPC 
 [Microsoft Interface Definition Language (MIDL)](https://msdn.microsoft.com/library/windows/desktop/aa367091)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

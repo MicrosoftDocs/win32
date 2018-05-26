@@ -1,8 +1,10 @@
 ---
 title: WiaImageIntent enumeration
 description: Helps specify what type of data the image is intended to represent.
-ms.assetid: 'ef68ec41-7ee3-4be1-9d53-42e4966e7d25'
-keywords: ["WiaImageIntent enumeration WIA Automation", "WiaDeviceType enumeration WIA Automation"]
+ms.assetid: ef68ec41-7ee3-4be1-9d53-42e4966e7d25
+keywords:
+- WiaImageIntent enumeration WIA Automation
+- WiaDeviceType enumeration WIA Automation
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WiaImageIntent enumeration
@@ -54,16 +61,16 @@ Set Img = CommonDialog1.ShowAcquireImage(UnspecifiedDeviceType, _
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

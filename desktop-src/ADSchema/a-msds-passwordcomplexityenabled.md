@@ -4,17 +4,22 @@ description: Password complexity status for user accounts.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a6087366-9a48-41ba-b424-93081f43a05c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: a6087366-9a48-41ba-b424-93081f43a05c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Password-Complexity-Enabled attribute AD Schema", "msDS-PasswordComplexityEnabled attribute AD Schema"]
+keywords:
+- ms-DS-Password-Complexity-Enabled attribute AD Schema
+- msDS-PasswordComplexityEnabled attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Password-Complexity-Enabled
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Password-Complexity-Enabled attribute
@@ -38,9 +43,9 @@ Password complexity status for user accounts.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Password complexity status for user accounts.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

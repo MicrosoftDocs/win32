@@ -1,8 +1,10 @@
 ---
 title: IWMPMedia3 (VB and C\ ) interface
 description: Provides additional methods to access the properties of a media item.
-ms.assetid: 'e16aa5e2-ae44-41c2-8c61-fb688c2e89e2'
-keywords: ["IWMPMedia3 (VB and C ) interface Windows Media Player", "IWMPMedia3 (VB and C ) interface Windows Media Player , described"]
+ms.assetid: e16aa5e2-ae44-41c2-8c61-fb688c2e89e2
+keywords:
+- IWMPMedia3 (VB and C ) interface Windows Media Player
+- IWMPMedia3 (VB and C ) interface Windows Media Player , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - wmp.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPMedia3 (VB and C#) interface
@@ -36,7 +43,7 @@ The **IWMPMedia3 (VB and C#)** interface has these methods.
 
 
 
- 
+ 
 
 Get an **IWMPMedia3** interface by casting the value returned by one of the following properties or methods accessed through the following object or interface.
 
@@ -50,7 +57,7 @@ Get an **IWMPMedia3** interface by casting the value returned by one of the foll
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -75,9 +82,9 @@ Get an **IWMPMedia3** interface by casting the value returned by one of the foll
 [**IWMPMedia2 Interface (VB and C#)**](iwmpmedia2--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

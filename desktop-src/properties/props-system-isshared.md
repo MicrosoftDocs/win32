@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether the item is shared. This checks only the non-inherited ACLs.'
-ms.assetid: 'b8ecf84b-911b-4eea-a015-22f5cecafa9c'
-title: 'System.IsShared'
+Description: Indicates whether the item is shared. This checks only the non-inherited ACLs.
+ms.assetid: b8ecf84b-911b-4eea-a015-22f5cecafa9c
+title: System.IsShared
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.IsShared

@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_WMIElementSetting association WMI class relates a service running in the Windows system and the WMI settings it can use.'
+---
+Description: The Win32\_WMIElementSetting association WMI class relates a service running in the Windows system and the WMI settings it can use.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '00e9f882-5f54-4042-a916-2f90ed9a37c0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 00e9f882-5f54-4042-a916-2f90ed9a37c0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_WMIElementSetting class'
+title: Win32\_WMIElementSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_WMIElementSetting class

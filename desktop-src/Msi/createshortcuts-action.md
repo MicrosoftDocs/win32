@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateShortcuts action manages the creation of shortcuts.'
-ms.assetid: '2e8a30ec-e8e7-4855-addb-2501bf85ab54'
+Description: The CreateShortcuts action manages the creation of shortcuts.
+ms.assetid: 2e8a30ec-e8e7-4855-addb-2501bf85ab54
 title: CreateShortcuts Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateShortcuts Action

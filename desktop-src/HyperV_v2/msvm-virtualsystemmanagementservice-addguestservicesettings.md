@@ -1,7 +1,12 @@
 ---
-Description: 'Adds guest service settings to a virtual system configuration.'
-ms.assetid: '2c8c2f2b-332a-470e-af7f-80c82e3e2caf'
-title: 'AddGuestServiceSettings method of the Msvm\_VirtualSystemManagementService class'
+Description: Adds guest service settings to a virtual system configuration.
+ms.assetid: 2c8c2f2b-332a-470e-af7f-80c82e3e2caf
+title: AddGuestServiceSettings method of the Msvm\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AddGuestServiceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -15,10 +20,10 @@ When applied to parts of a "current" virtual system configuration, as a side eff
 
 ```mof
 uint32 AddGuestServiceSettings(
-  [in]  CIM_VirtualSystemSettingData REF AffectedConfiguration,
-  [in]  string                           GuestServiceSettings[],
-  [out] CIM_SettingData              REF ResultingGuestServiceSettings[],
-  [out] CIM_ConcreteJob              REF Job
+  [in]  CIM_VirtualSystemSettingData REF AffectedConfiguration,
+  [in]  string                           GuestServiceSettings[],
+  [out] CIM_SettingData              REF ResultingGuestServiceSettings[],
+  [out] CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -95,8 +100,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -110,9 +115,9 @@ This method returns one of the following values.
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax job.'
-ms.assetid: '7772502c-623d-47f9-adbe-87d32bac8219'
-title: 'FaxJob.BillingCode property'
+---
+Description: The BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax job.
+ms.assetid: 7772502c-623d-47f9-adbe-87d32bac8219
+title: FaxJob.BillingCode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJob.BillingCode property
@@ -55,10 +60,10 @@ If billing information is not available, the **BillingCode** property contains a
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxJob**](-mfax-ifaxjob.md)
+[**IFaxJob**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjob?branch=master)
 </dt> <dt>
 
-[**IFaxJobs**](-mfax-ifaxjobs.md)
+[**IFaxJobs**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxjobs?branch=master)
 </dt> </dl>
 
  

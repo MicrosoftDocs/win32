@@ -2,13 +2,15 @@
 title: PS\_DnsServerScavenging class
 description: DNS Server Scavaging definition.
 audience: developer
-ms.assetid: 'cf2c9450-86d7-463f-868a-e4c1eb6c63dd'
-ms.prod: 'windows-server-dev'
+ms.assetid: cf2c9450-86d7-463f-868a-e4c1eb6c63dd
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DnsServerScavenging class", "PS_DnsServerScavenging class, described"]
+keywords:
+- PS_DnsServerScavenging class
+- PS_DnsServerScavenging class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DnsServerScavenging class
@@ -54,7 +59,7 @@ The **PS\_DnsServerScavenging** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -63,7 +68,7 @@ The **PS\_DnsServerScavenging** class has these methods.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -77,9 +82,9 @@ The **PS\_DnsServerScavenging** class has these methods.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

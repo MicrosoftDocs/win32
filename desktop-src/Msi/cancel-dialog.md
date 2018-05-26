@@ -1,7 +1,12 @@
 ---
-Description: 'A Cancel dialog box confirms that the user wants to terminate the installation. This is a modal dialog box.'
-ms.assetid: '5dab4315-721e-417d-91e0-b38653a65c23'
+Description: A Cancel dialog box confirms that the user wants to terminate the installation. This is a modal dialog box.
+ms.assetid: 5dab4315-721e-417d-91e0-b38653a65c23
 title: Cancel Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Cancel Dialog

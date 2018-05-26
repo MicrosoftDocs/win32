@@ -4,11 +4,16 @@ description: The following code example shows how a DSML Services for Windows se
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f90fbab0-fb6e-4de2-8a12-128fdacd59dc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: f90fbab0-fb6e-4de2-8a12-128fdacd59dc
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Code Example DSML , Session Support", "Session Support Example DSML"]
+keywords:
+- Code Example DSML , Session Support
+- Session Support Example DSML
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Session Support Example

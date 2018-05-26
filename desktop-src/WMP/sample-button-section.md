@@ -1,8 +1,18 @@
 ---
 title: Sample Button Section
 description: Sample Button Section
-ms.assetid: '52358f83-8c74-4957-87c4-ca1ed7f667fc'
-keywords: ["Windows Media Player Mobile skins,Button section", "skins,Button section", "reference for skins,Button section", "buttons in skins,Button section", "skin definition files,Button section"]
+ms.assetid: 52358f83-8c74-4957-87c4-ca1ed7f667fc
+keywords:
+- Windows Media Player Mobile skins,Button section
+- skins,Button section
+- reference for skins,Button section
+- buttons in skins,Button section
+- skin definition files,Button section
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Button Section

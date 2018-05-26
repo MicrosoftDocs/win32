@@ -1,21 +1,27 @@
 ---
 title: reserve command
-description: The reserve command allocates contiguous disk space for the device instance's workspace. Digital-video devices recognize this command.
-ms.assetid: '01f0a377-0179-4b05-a642-af152a7a12ae'
-keywords: ["reserve command Windows Multimedia"]
+description: The reserve command allocates contiguous disk space for the device instances workspace. Digital-video devices recognize this command.
+ms.assetid: 01f0a377-0179-4b05-a642-af152a7a12ae
+keywords:
+- reserve command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - reserve
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # reserve command
 
 The reserve command allocates contiguous disk space for the device instance's workspace. Digital-video devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ One or more of the following flags.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -77,8 +83,8 @@ If needed, subsequent [record](record.md) or [save](save.md) commands use the sp
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -104,9 +110,9 @@ If needed, subsequent [record](record.md) or [save](save.md) commands use the sp
 [setvideo](setvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

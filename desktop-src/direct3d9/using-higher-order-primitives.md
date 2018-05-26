@@ -1,7 +1,12 @@
 ---
-Description: 'This section shows you how to use higher-order primitives in your application.'
-ms.assetid: '7aa4f3ab-cfce-4f8f-a538-384f038fd324'
-title: 'Using Higher-Order Primitives (Direct3D 9)'
+Description: This section shows you how to use higher-order primitives in your application.
+ms.assetid: 7aa4f3ab-cfce-4f8f-a538-384f038fd324
+title: Using Higher-Order Primitives (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Higher-Order Primitives (Direct3D 9)
@@ -14,7 +19,7 @@ This section shows you how to use higher-order primitives in your application.
 
 ## Determining Higher-Order Primitive Support
 
-The [**D3DCAPS9**](d3dcaps9.md) structure's DevCaps member can be queried to determine the level of support for operations involving higher-order primitives. The following table lists the device capabilities related to higher-order primitives in Direct3D 9.
+The [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure's DevCaps member can be queried to determine the level of support for operations involving higher-order primitives. The following table lists the device capabilities related to higher-order primitives in Direct3D 9.
 
 
 
@@ -33,22 +38,22 @@ Note that D3DDEVCAPS\_RTPATCHHANDLEZERO does not mean that a patch with handle z
 
 ## Drawing Patches
 
-Direct3D 9 supports two types of higher-order primitives, or patches. These are referred to as N-Patches and Rect/Tri patches. N-patches can be rendered using any triangle rendering call by enabling N-patches through the call to [**IDirect3DDevice9::SetNPatchMode**](idirect3ddevice9--setnpatchmode.md)( nSegments ) with nSegments value greater than 1.0. Rect/Tri patches must be rendered using the following explicit entry points.
+Direct3D 9 supports two types of higher-order primitives, or patches. These are referred to as N-Patches and Rect/Tri patches. N-patches can be rendered using any triangle rendering call by enabling N-patches through the call to [**IDirect3DDevice9::SetNPatchMode**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setnpatchmode?branch=master)( nSegments ) with nSegments value greater than 1.0. Rect/Tri patches must be rendered using the following explicit entry points.
 
 You can use the following methods to draw patches.
 
--   [**IDirect3DDevice9::DrawRectPatch**](idirect3ddevice9--drawrectpatch.md). To better understand how the patch data is referenced in the vertex buffer, see [**D3DRECTPATCH\_INFO**](d3drectpatch-info.md).
--   [**IDirect3DDevice9::DrawTriPatch**](idirect3ddevice9--drawtripatch.md). To better understand how the patch data is referenced in the vertex buffer, see [**D3DTRIPATCH\_INFO**](d3dtripatch-info.md).
+-   [**IDirect3DDevice9::DrawRectPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch?branch=master). To better understand how the patch data is referenced in the vertex buffer, see [**D3DRECTPATCH\_INFO**](d3drectpatch-info.md).
+-   [**IDirect3DDevice9::DrawTriPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch?branch=master). To better understand how the patch data is referenced in the vertex buffer, see [**D3DTRIPATCH\_INFO**](d3dtripatch-info.md).
 
-[**IDirect3DDevice9::DrawRectPatch**](idirect3ddevice9--drawrectpatch.md) draws a rectangular high-order patch specified by the pRectPatchInfo parameter using the currently set streams. The Handle parameter is used to associate the patch with a handle, so that the next time the patch is drawn, there is no need to respecify pRectPatchInfo. This makes it possible to precompute and cache forward difference coefficients or other information, which in turn enables subsequent calls to **IDirect3DDevice9::DrawRectPatch** using the same handle to run efficiently.
+[**IDirect3DDevice9::DrawRectPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch?branch=master) draws a rectangular high-order patch specified by the pRectPatchInfo parameter using the currently set streams. The Handle parameter is used to associate the patch with a handle, so that the next time the patch is drawn, there is no need to respecify pRectPatchInfo. This makes it possible to precompute and cache forward difference coefficients or other information, which in turn enables subsequent calls to **IDirect3DDevice9::DrawRectPatch** using the same handle to run efficiently.
 
-It is intended that for static patches, an application would set the vertex shader and appropriate streams, supply patch information in the pRectPatchInfo parameter, and specify a handle so that Direct3D can capture and cache information. The application can then call [**IDirect3DDevice9::DrawRectPatch**](idirect3ddevice9--drawrectpatch.md) subsequently with pRectPatchInfo set to **NULL** to efficiently draw the patch. When drawing a cached patch, the currently set streams are ignored. However, it is possible to override the cached pNumSegs by specifying new values for pNumSegs. Also, it is required to set the same vertex shader when rendering a cached patch as was set when it was captured.
+It is intended that for static patches, an application would set the vertex shader and appropriate streams, supply patch information in the pRectPatchInfo parameter, and specify a handle so that Direct3D can capture and cache information. The application can then call [**IDirect3DDevice9::DrawRectPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch?branch=master) subsequently with pRectPatchInfo set to **NULL** to efficiently draw the patch. When drawing a cached patch, the currently set streams are ignored. However, it is possible to override the cached pNumSegs by specifying new values for pNumSegs. Also, it is required to set the same vertex shader when rendering a cached patch as was set when it was captured.
 
 For dynamic patches, the patch data changes for every rendering of the patch, so it is not efficient to cache information. The application can convey this to Direct3D by setting Handle to 0. In this case, Direct3D draws the patch using the currently set streams and the pNumSegs values and does not cache any information. It is not valid to simultaneously set Handle to 0 and pPatch to **NULL**.
 
 By respecifying pRectPatchInfo for the same handle, the application can overwrite the previously cached information.
 
-[**IDirect3DDevice9::DrawTriPatch**](idirect3ddevice9--drawtripatch.md) is similar to [**IDirect3DDevice9::DrawRectPatch**](idirect3ddevice9--drawrectpatch.md) except that it draws a triangular high-order patch.
+[**IDirect3DDevice9::DrawTriPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawtripatch?branch=master) is similar to [**IDirect3DDevice9::DrawRectPatch**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-drawrectpatch?branch=master) except that it draws a triangular high-order patch.
 
 ## Generating Normals and Texture Coordinates
 

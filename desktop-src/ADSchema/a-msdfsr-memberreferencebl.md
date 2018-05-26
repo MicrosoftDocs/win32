@@ -4,17 +4,22 @@ description: Contains the backward link for the ms-DFSR-MemberReference attribut
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7bbc00ff-66e7-4269-9e47-0d41e8c60d95'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 7bbc00ff-66e7-4269-9e47-0d41e8c60d95
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-MemberReferenceBL attribute AD Schema", "msDFSR-MemberReferenceBL attribute AD Schema"]
+keywords:
+- ms-DFSR-MemberReferenceBL attribute AD Schema
+- msDFSR-MemberReferenceBL attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-MemberReferenceBL
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-MemberReferenceBL attribute
@@ -38,10 +43,10 @@ Contains the backward link for the [**ms-DFSR-MemberReference**](a-msdfsr-member
 
 ## Implementations
 
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003 R2
 
@@ -131,9 +136,9 @@ Contains the backward link for the [**ms-DFSR-MemberReference**](a-msdfsr-member
 
 The **ms-DFSR-MemberReferenceBL** attribute is a part of the Distributed File System (DFS) Replication service support.
 
- 
+ 
 
- 
+ 
 
 
 

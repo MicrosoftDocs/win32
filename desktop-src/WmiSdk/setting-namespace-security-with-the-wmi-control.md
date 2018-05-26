@@ -1,13 +1,16 @@
 ---
-Description: 'The WMI Control is an MMC snap-in located in the Control Panel and is used to set WMI namespace security manually on a local computer. You can also set the default namespace for scripting.'
+Description: The WMI Control is an MMC snap-in located in the Control Panel and is used to set WMI namespace security manually on a local computer. You can also set the default namespace for scripting.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '87c23919-c482-4278-b005-894a8ac21da4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 87c23919-c482-4278-b005-894a8ac21da4
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Setting Namespace Security with the WMI Control
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Setting Namespace Security with the WMI Control

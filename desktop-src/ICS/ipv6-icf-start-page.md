@@ -1,8 +1,17 @@
 ---
 title: IPv6 Internet Connection Firewall
 description: The IPv6 Internet Connection Firewall (IPv6 ICF) protects connections on which it is running from unsolicited network traffic.
-ms.assetid: '5cd0c1b4-4aee-4571-81d9-ad4b62f45373'
-keywords: ["IPv6 Internet Connection Firewall IPv6 ICF", "IPv6 Internet Connection Firewall IPv6 ICF ,start page", "IPv6 firewall", "IPv6, firewall"]
+ms.assetid: 5cd0c1b4-4aee-4571-81d9-ad4b62f45373
+keywords:
+- IPv6 Internet Connection Firewall IPv6 ICF
+- IPv6 Internet Connection Firewall IPv6 ICF ,start page
+- IPv6 firewall
+- IPv6, firewall
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPv6 Internet Connection Firewall
@@ -21,9 +30,9 @@ The IPv6 ICF API is designed for use by programmers using C/C++, Microsoft Visua
 
 ## Run-time requirements
 
-The IPv6 ICF API is supported on Windows XP with Service Pack 1 (SP1) with the Advanced Networking Pack for Windows XP.
+The IPv6 ICF API is supported on Windows XP with Service Pack 1 (SP1) with the Advanced Networking Pack for Windows XP.
 
-**Windows XP with SP2:** Calling the IPv6 ICF APIs produces no result and will return a 'not implemented' result code.
+**Windows XP with SP2:** Calling the IPv6 ICF APIs produces no result and will return a 'not implemented' result code.
 
 ## In this section
 
@@ -37,11 +46,11 @@ The IPv6 ICF API is supported on Windows XP with Service Pack 1 (SP1) with the A
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: DownloadManager.createDownloadCollection method
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The createDownloadCollection method creates a download collection.
-ms.assetid: '82a56966-f1c5-4d16-af41-7ac2c171ac25'
-keywords: ["createDownloadCollection method Windows Media Player", "createDownloadCollection method Windows Media Player , DownloadManager class", "DownloadManager class Windows Media Player , createDownloadCollection method"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The createDownloadCollection method creates a download collection.
+ms.assetid: 82a56966-f1c5-4d16-af41-7ac2c171ac25
+keywords:
+- createDownloadCollection method Windows Media Player
+- createDownloadCollection method Windows Media Player , DownloadManager class
+- DownloadManager class Windows Media Player , createDownloadCollection method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadManager.createDownloadCollection method
@@ -18,7 +26,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **createDownloadCollection** method creates a download collection.
 
@@ -60,9 +68,9 @@ This method returns a **DownloadCollection** object.
 [**DownloadCollection Object**](downloadcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

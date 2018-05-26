@@ -1,7 +1,12 @@
 ---
 title: About Hot Key Controls
 description: A hot key control is a window that enables the user to enter a combination of keystrokes to be used as a hot key.
-ms.assetid: '5f011459-4c30-45d4-9668-19f575b041ce'
+ms.assetid: 5f011459-4c30-45d4-9668-19f575b041ce
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Hot Key Controls

@@ -1,14 +1,20 @@
 ---
 title: LoggingMode element
 description: Modifies the logging modes used by ETW for tracing the assessment.
-ms.assetid: '2DC62A46-B1E6-4968-BF25-0A434629FD05'
-keywords: ["LoggingMode element Access Execution Engine"]
+ms.assetid: 2DC62A46-B1E6-4968-BF25-0A434629FD05
+keywords:
+- LoggingMode element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - LoggingMode
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LoggingMode element
@@ -75,9 +81,9 @@ NoPerProcessorBuffering
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

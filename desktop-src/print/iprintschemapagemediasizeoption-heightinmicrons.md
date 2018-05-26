@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the height of the page in microns.'
-ms.assetid: 'B419BD5D-A3B7-46D1-8E6B-3100E0940842'
-title: 'IPrintSchemaPageMediaSizeOption::HeightInMicrons property'
+---
+Description: Gets the height of the page in microns.
+ms.assetid: B419BD5D-A3B7-46D1-8E6B-3100E0940842
+title: IPrintSchemaPageMediaSizeOptionHeightInMicrons property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintSchemaPageMediaSizeOption::HeightInMicrons property

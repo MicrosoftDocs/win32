@@ -4,11 +4,12 @@ description: An internal control code that indicates that the Cluster service is
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3a66a48c-ddd3-464c-8254-bf842dd174b2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 3a66a48c-ddd3-464c-8254-bf842dd174b2
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1 control code Failover Cluster"]
+keywords:
+- CLUSCTL_RESOURCE_TYPE_STARTING_PHASE1 control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_RESOURCE\_TYPE\_STARTING\_PHASE1 control code
 
-An [internal control code](internal-control-codes.md) that indicates that the [Cluster service](cluster-service.md) is starting on one of the [*cluster*](c-gly.md#-wolf-cluster-gly) nodes. [Resource DLLs](resource-dlls.md) receive this [control code](about-control-codes.md) through the [**ResourceTypeControl**](resourcetypecontrol.md) entry point function, which is called once for every resource type supported by the DLL.
+An [internal control code](internal-control-codes.md) that indicates that the [Cluster service](cluster-service.md) is starting on one of the [*cluster*](c-gly.md#-wolf-cluster-gly) nodes. [Resource DLLs](resource-dlls.md) receive this [control code](about-control-codes.md) through the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point function, which is called once for every resource type supported by the DLL.
 
 ## Parameters
 
@@ -41,17 +45,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_RESOURCE\_TYPE\_STARTING\_PHASE1 as fo
 
 | Component      | Bit location | Value                                             |
 |----------------|--------------|---------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
+| Object code    | 24 31        | **CLUS\_OBJECT\_RESOURCE\_TYPE** (0x2)<br/> |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>            |
 | Modify bit     | 22           | **CLUS\_MODIFY** (0x1)<br/>                 |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>         |
 | Type bit       | 20           | Internal (0x1)<br/>                         |
-| Operation code | 0–23         | **CLCTL\_STARTING\_PHASE1** (0x500036)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
+| Operation code | 0 23         | **CLCTL\_STARTING\_PHASE1** (0x500036)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>           |
 
 
 
- 
+ 
 
 ### Resource DLL Support
 
@@ -59,7 +63,7 @@ Optional. Support the CLUSCTL\_RESOURCE\_TYPE\_STARTING\_PHASE1 control code if 
 
 The Resource Monitor provides no default processing.
 
-For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) entry point, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
+For more information on the [**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master) entry point, see [Implementing ResourceTypeControl](implementing-resourcetypecontrol.md).
 
 ## Requirements
 
@@ -68,7 +72,7 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -77,18 +81,18 @@ For more information on the [**ResourceTypeControl**](resourcetypecontrol.md) en
 
 <dl> <dt>
 
-[**CLUS\_STARTING\_PARAMS**](clus-starting-params.md)
+[**CLUS\_STARTING\_PARAMS**](/windows/previous-versions/ClusAPI/ns-clusapi-clus_starting_params?branch=master)
 </dt> <dt>
 
 [CLUSCTL\_RESOURCE\_TYPE\_STARTING\_PHASE2](clusctl-resource-type-starting-phase2.md)
 </dt> <dt>
 
-[**ResourceTypeControl**](resourcetypecontrol.md)
+[**ResourceTypeControl**](/windows/previous-versions/ResApi/nc-resapi-presource_type_control_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides access to the user property bag, if the property bag is present.'
-ms.assetid: '6F181350-41A3-4592-BB72-1E3AD6FEC748'
-title: 'IPrinterScriptContext::UserProperties property'
+---
+Description: Provides access to the user property bag, if the property bag is present.
+ms.assetid: 6F181350-41A3-4592-BB72-1E3AD6FEC748
+title: IPrinterScriptContextUserProperties property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptContext::UserProperties property

@@ -1,8 +1,11 @@
 ---
 title: Diagnose method of the MSFT\_StorageSubSystem class
 description: Performs a diagnostic on the storage subsystem, returning any actionable results.
-ms.assetid: '80854E59-F81F-468B-AFAD-DF819414E3BE'
-keywords: ["Diagnose method Windows Storage Management API", "Diagnose method Windows Storage Management API , MSFT_StorageSubSystem class", "MSFT_StorageSubSystem class Windows Storage Management API , Diagnose method"]
+ms.assetid: 80854E59-F81F-468B-AFAD-DF819414E3BE
+keywords:
+- Diagnose method Windows Storage Management API
+- Diagnose method Windows Storage Management API , MSFT_StorageSubSystem class
+- MSFT_StorageSubSystem class Windows Storage Management API , Diagnose method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Microsoft\Windows\Storage
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Diagnose method of the MSFT\_StorageSubSystem class
@@ -22,8 +30,8 @@ Performs a diagnostic on the storage subsystem, returning any actionable results
 
 ```mof
 UInt32 Diagnose(
-  [in]  String DiagnoseResults[o],
-  [out] String ExtendedStatus
+  [in]  String DiagnoseResults[o],
+  [out] String ExtendedStatus
 );
 ```
 
@@ -92,8 +100,8 @@ This parameter allows the storage provider to return extended (implementation-sp
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Storagewmi.mof</dt> </dl> |
 
@@ -106,9 +114,9 @@ This parameter allows the storage provider to return extended (implementation-sp
 [**MSFT\_StorageSubSystem**](msft-storagesubsystem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

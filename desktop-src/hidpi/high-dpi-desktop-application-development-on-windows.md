@@ -1,14 +1,19 @@
 ---
 title: High DPI Desktop Application Development on Windows
 description: This content is targeted at developers who are looking to update desktop applications to handle dynamic display scale factor (a.k.a.
-ms.assetid: '6C419EEF-D898-4B50-8D16-E65A594487AA'
+ms.assetid: 6C419EEF-D898-4B50-8D16-E65A594487AA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # High DPI Desktop Application Development on Windows
 
-This content is targeted at developers who are looking to update desktop applications to handle dynamic display scale factor (a.k.a. DPI) changes so that these applications will be crisp on any display that they’re rendered on.
+This content is targeted at developers who are looking to update desktop applications to handle dynamic display scale factor (a.k.a. DPI) changes so that these applications will be crisp on any display that they re rendered on.
 
-To start off, if you’re creating a new Windows app from scratch, it is highly recommended that you create a [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp) application. UWP applications automatically (and dynamically) scale for each display that they’re running on.
+To start off, if you re creating a new Windows app from scratch, it is highly recommended that you create a [Universal Windows Platform (UWP)](https://docs.microsoft.com/windows/uwp/get-started/whats-a-uwp) application. UWP applications automatically (and dynamically) scale for each display that they re running on.
 
 Desktop applications that use older Windows programming technologies (raw Win32 programming, Windows Forms, Windows Presentation Framework (WPF), etc.) do not automatically handle DPI scaling and, as a result, will render blurry or be sized incorrectly in many common usage scenarios unless work is done by the developer to handle these scenarios. This document provides context and information about what is involved in updating a desktop application to render correctly.
 
@@ -16,14 +21,14 @@ Desktop applications that use older Windows programming technologies (raw Win32 
 
 As display technology has progressed, display panel manufacturers have packed an increasing number of pixels into each unit of physical space on their panels. This has resulted in the dots-per-inch (DPI) of modern display panels being much higher than they have historically been. In the past, most displays had 96 pixels per linear inch of physical space (96 DPI) but now (as of 2017) there are displays with nearly 300 DPI (or higher) on the market. Most legacy desktop UI frameworks have built-in assumptions that the display DPI is a constant value during the lifetime of the process. When applications that use these frameworks experience a DPI change, they most likely will not update their content to reflect this change.
 
-Today, however, it is very common for applications to have the DPI value of the display that they’re running on change multiple times throughout the lifetime of their processes. Some common scenarios where the display scale factor/DPI changes are:
+Today, however, it is very common for applications to have the DPI value of the display that they re running on change multiple times throughout the lifetime of their processes. Some common scenarios where the display scale factor/DPI changes are:
 
 -   Multiple-monitor setups where each display has a different scale factor and the application is moved from one display to another (such as a 4K and a 1080p display)
 -   Docking and undocking a high DPI laptop with a low-DPI external display (or vice versa)
 -   Connecting via Remote Desktop from a high DPI laptop/tablet to a low-DPI device (or vice versa)
 -   Making a display-scale-factor settings change while applications are running
 
-In these scenarios, UWP applications pick up on the DPI change and redraw themselves for the new DPI without the developer doing any work although desktop applications will not (unless they’ve been updated). Because desktop applications often don’t respond to the change in DPI, they show up blurry or sized incorrectly after the DPI change.
+In these scenarios, UWP applications pick up on the DPI change and redraw themselves for the new DPI without the developer doing any work although desktop applications will not (unless they ve been updated). Because desktop applications often don t respond to the change in DPI, they show up blurry or sized incorrectly after the DPI change.
 
 ## DPI Awareness Mode
 
@@ -41,7 +46,7 @@ Desktop applications that are system DPI aware typically detect the DPI of the p
 
 ### Per-Monitor and Per-Monitor (V2) DPI Awareness
 
-It is recommended that desktop applications are updated to use per-monitor DPI awareness mode in order to render correctly whenever the DPI of the display that they’re running on changes. When an application reports to Windows that it wants to run in this mode, Windows will step out of the way and not bitmap stretch the application when the DPI changes. It is completely the application’s responsibility to handle resizing itself for the new DPI. The reason that work is required here, by the application, is that most UI frameworks that desktop application use (Windows common controls (comctl32), Windows Forms, Windows Presentation Framework, etc.) do not support automatic DPI scaling by default.
+It is recommended that desktop applications are updated to use per-monitor DPI awareness mode in order to render correctly whenever the DPI of the display that they re running on changes. When an application reports to Windows that it wants to run in this mode, Windows will step out of the way and not bitmap stretch the application when the DPI changes. It is completely the application s responsibility to handle resizing itself for the new DPI. The reason that work is required here, by the application, is that most UI frameworks that desktop application use (Windows common controls (comctl32), Windows Forms, Windows Presentation Framework, etc.) do not support automatic DPI scaling by default.
 
 There are two versions of Per-Monitor awareness that an application can register itself as: version 1 and version 2 (PMv2). Registering a process as running in PMv2 awareness mode results in:
 
@@ -57,7 +62,7 @@ When running in Per-Monitor V2 Awareness mode, applications are notified when th
 > [!Note]  
 > Per-Monitor V1 (PMv1) awareness is very limited. It is recommended that applications use PMv2.
 
- 
+ 
 
 The table below shows how applications will render under different scenarios:
 
@@ -121,7 +126,7 @@ The table below shows how applications will render under different scenarios:
 
 
 
- 
+ 
 
 ### Per Monitor (V1) DPI Awareness
 
@@ -215,7 +220,7 @@ The table below shows the level of per-monitor DPI awareness support offered by 
 
 
 
- 
+ 
 
 ## Updating Existing Applications
 
@@ -223,7 +228,7 @@ In order to update an existing desktop application to handle DPI scaling properl
 
 Most desktop applications run under system DPI awareness mode. System-DPI-aware applications typically scale to the DPI of the primary display (the display that the system tray was located on at the time the Windows session was started). When the DPI changes, Windows will bitmap stretch the UI of these applications, which often results in them being blurry. When updating a system-DPI-aware application to become per-monitor-DPI aware, the code which handles UI layout needs to be updated such that it is not performed only once during application initialization but instead is processed whenever a DPI change notification (handing the WM\_DPICHANGED message in the case of Win32) is received. This typically involves revisiting any assumptions in the code that the UI only needs to be scaled once.
 
-Also, in the case of Win32 programming, many Win32 APIs do not have any DPI or display context so they will only return values relative to the primary display’s DPI. It can be useful to grep through your code to look for some of these APIs and replace them with DPI-aware variants. Some of the common APIs that have DPI-aware variants are:
+Also, in the case of Win32 programming, many Win32 APIs do not have any DPI or display context so they will only return values relative to the primary display s DPI. It can be useful to grep through your code to look for some of these APIs and replace them with DPI-aware variants. Some of the common APIs that have DPI-aware variants are:
 
 
 
@@ -236,9 +241,9 @@ Also, in the case of Win32 programming, many Win32 APIs do not have any DPI or d
 
 
 
- 
+ 
 
-It is also a good idea to search for “magic numbers”, which are hard-coded sizes that assume a constant DPI, and replace these with code that handles DPI scaling. Below is an example that incorporates all of these suggestions:
+It is also a good idea to search for  magic numbers , which are hard-coded sizes that assume a constant DPI, and replace these with code that handles DPI scaling. Below is an example that incorporates all of these suggestions:
 
 ### Example:
 
@@ -265,7 +270,7 @@ The modified code below shows:
 
 1.  The window-creation code DPI scaling the position and size of the child HWND for the DPI of its parent window
 2.  Responding to DPI change by repositioning and resizing the child HWND
-3.  Hard-coded (“magic numbers”) removed and replaced with code that responds to DPI changes
+3.  Hard-coded ( magic numbers ) removed and replaced with code that responds to DPI changes
 
 
 ```
@@ -333,13 +338,13 @@ When updating a system-DPI aware application, some common steps to follow are:
 
 When updating an application to support per-monitor DPI awareness, it can become impractical or impossible (in some cases) to update every window in the application. This can simply be due to the time and effort required to update and test all UI or because you do not own all of the UI code that you need to run (if your application perhaps loads third-party UI). In these situations, Windows offers a way to ease in to the world of per-monitor awareness by letting you run some of your application windows (top-level only) in their original DPI-awareness mode while you focus your time and energy updating the more important parts of your UI.
 
-Below is an illustration of what this could look like: you update your main application UI (“Main Window” in the illustration) to run with per-monitor DPI awareness while you run other windows in their existing mode (“Secondary Window”).
+Below is an illustration of what this could look like: you update your main application UI ( Main Window  in the illustration) to run with per-monitor DPI awareness while you run other windows in their existing mode ( Secondary Window ).
 
 ![differences in dpi scaling between awareness modes](images/hub-page-illustrations.png)
 
-Prior to the Windows 10 Anniversary Update (1604), the DPI awareness mode of a process was a process-wide property. In the Windows 10 Anniversary Update sub-process DPI awareness support was introduced. Sub-process DPI awareness enables you to have a different DPI awareness mode for each top-level window (having different DPI scaling modes for child HWNDs is not supported, as of the Windows 10 Creators Update (1703)) in your application. A top-level window is defined as a window with no parent. This is typically a “regular” window with minimize, maximize, and close buttons. The scenario that sub-process DPI awareness is intended for is to have secondary UI scaled by Windows (bitmap stretched) while you focus your time and resources on updating your primary UI.
+Prior to the Windows 10 Anniversary Update (1604), the DPI awareness mode of a process was a process-wide property. In the Windows 10 Anniversary Update sub-process DPI awareness support was introduced. Sub-process DPI awareness enables you to have a different DPI awareness mode for each top-level window (having different DPI scaling modes for child HWNDs is not supported, as of the Windows 10 Creators Update (1703)) in your application. A top-level window is defined as a window with no parent. This is typically a  regular  window with minimize, maximize, and close buttons. The scenario that sub-process DPI awareness is intended for is to have secondary UI scaled by Windows (bitmap stretched) while you focus your time and resources on updating your primary UI.
 
-To enable sub-process DPI awareness, simply call [**SetThreadDpiAwarenessContext**](setthreaddpiawarenesscontext.md) before and after any window creation calls. The window that is created will be associated with the DPI awareness that you set via SetThreadDpiAwarenessContext. Use the second call to restore the current thread’s DPI awareness.
+To enable sub-process DPI awareness, simply call [**SetThreadDpiAwarenessContext**](/windows/win32/Winuser/nf-winuser-setthreaddpiawarenesscontext?branch=master) before and after any window creation calls. The window that is created will be associated with the DPI awareness that you set via SetThreadDpiAwarenessContext. Use the second call to restore the current thread s DPI awareness.
 
 While using sub-process DPI scaling enables you to rely on Windows to do some of the DPI scaling for your application, it can increase the complexity of your application. It is important that you understand the drawbacks of this approach and nature of the complexities that it introduces. For more information about sub-process DPI awareness, see [Mixed-Mode DPI Scaling and DPI-aware APIs.](high-dpi-improvements-for-desktop-applications.md)
 
@@ -361,7 +366,7 @@ When Windows sends your application window a [**WM\_DPICHANGED**](wm-dpichanged.
 1.  Ensure that the mouse cursor will stay in the same relative position on the Window when dragging between displays
 2.  Prevent the application window from getting into a recursive dpi-change cycle where one DPI change triggers a subsequent DPI change, which triggers yet another DPI change.
 
-If you have application-specific requirements that prevent you from using the suggested rectangle that Windows provides in the WM\_DPICHANGED message, see W[**M\_GETDPISCALEDSIZE**](wm-getdpiscaledsize.md). This message can be used to give Windows a desired size that you’d like the window to use once the DPI change has occurred, while still avoiding the issues described above.
+If you have application-specific requirements that prevent you from using the suggested rectangle that Windows provides in the WM\_DPICHANGED message, see W[**M\_GETDPISCALEDSIZE**](wm-getdpiscaledsize.md). This message can be used to give Windows a desired size that you d like the window to use once the DPI change has occurred, while still avoiding the issues described above.
 
 **Lack of documentation about virtualization**
 
@@ -371,7 +376,7 @@ When you update your desktop application to DPI scale properly, it is difficult 
 
 **Many Windows APIs do not have an DPI context**
 
-Another challenge that you’ll face while updating an existing desktop application to become per-monitor DPI aware is that many legacy Windows APIs do not have DPI or HWND context as part of their interface. Because of this, developers often have to do additional work to handle DPI scaling any DPI-sensitive information (such as sizes, points, or icons). One example of where this lack of DPI context can become difficult is [LoadIcon](https://msdn.microsoft.com/library/windows/desktop/ms648072.aspx). In the case of LoadIcon, developers will have to bitmap stretch icon bitmaps to the appropriate DPI or find an alternative way to load icons for the appropriate DPI.
+Another challenge that you ll face while updating an existing desktop application to become per-monitor DPI aware is that many legacy Windows APIs do not have DPI or HWND context as part of their interface. Because of this, developers often have to do additional work to handle DPI scaling any DPI-sensitive information (such as sizes, points, or icons). One example of where this lack of DPI context can become difficult is [LoadIcon](https://msdn.microsoft.com/library/windows/desktop/ms648072.aspx). In the case of LoadIcon, developers will have to bitmap stretch icon bitmaps to the appropriate DPI or find an alternative way to load icons for the appropriate DPI.
 
 **Forced reset of process-wide DPI awareness**
 
@@ -384,7 +389,7 @@ The table below shows what happens if you attempt to violate this rule:
 
 
 
-| Operation                 | Windows 8.1                                  | Windows 10 (1607 and earlier)                | Windows 10 (1703 and later)                  |
+| Operation                 | Windows 8.1                                  | Windows 10 (1607 and earlier)                | Windows 10 (1703 and later)                  |
 |---------------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
 | CreateWindow (In-Proc)    | N/A                                          | **Child inherits** (mixed mode)              | **Child inherits** (mixed mode)              |
 | CreateWindow (Cross-Proc) | **Forced reset** (of caller's process)       | **Child inherits** (mixed mode)              | **Forced reset** (of caller's process)       |
@@ -393,7 +398,7 @@ The table below shows what happens if you attempt to violate this rule:
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -405,9 +410,9 @@ The table below shows what happens if you attempt to violate this rule:
 [Mixed-Mode DPI Scaling and DPI-aware APIs.](high-dpi-improvements-for-desktop-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

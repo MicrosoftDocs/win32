@@ -4,11 +4,16 @@ description: The following code demonstrates the creation of a Network Name reso
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2730daaf-6daf-4e9f-b794-710cda1ba22e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2730daaf-6daf-4e9f-b794-710cda1ba22e
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resources Failover Cluster ,creating, Network Name", "Network Name resource type Failover Cluster ,resources,creating"]
+keywords:
+- resources Failover Cluster ,creating, Network Name
+- Network Name resource type Failover Cluster ,resources,creating
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Network Name Resources

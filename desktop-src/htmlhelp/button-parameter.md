@@ -1,7 +1,12 @@
 ---
 title: Button Parameter
 description: Use the Button parameter to create a button that will invoke a command when clicked. You can select from several button styles.
-ms.assetid: 'CB62D205-5B75-413d-9696-1DF38B92D368'
+ms.assetid: CB62D205-5B75-413d-9696-1DF38B92D368
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Button Parameter

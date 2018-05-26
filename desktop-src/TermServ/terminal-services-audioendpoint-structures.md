@@ -4,10 +4,13 @@ description: The following structures are used with the AudioEndpoint API.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '174661a6-f6be-4aac-837a-43dbee9cd839'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 174661a6-f6be-4aac-837a-43dbee9cd839
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remote Desktop Services AudioEndpoint Structures
@@ -18,14 +21,14 @@ The following structures are used with the AudioEndpoint API.
 
 <dl> <dt>
 
-[**AE\_CURRENT\_POSITION**](ae-current-position.md)
+[**AE\_CURRENT\_POSITION**](/windows/win32/Audioengineendpoint/ns-audioengineendpoint-ae_current_position?branch=master)
 </dt> <dd>
 
 Reports the current frame position from the device to the clients.
 
 </dd> <dt>
 
-[**APO\_CONNECTION\_PROPERTY**](apo-connection-property.md)
+[**APO\_CONNECTION\_PROPERTY**](/windows/win32/Audioapotypes/ns-audioapotypes-apo_connection_property?branch=master)
 </dt> <dd>
 
 Contains the dynamically changing connection properties.

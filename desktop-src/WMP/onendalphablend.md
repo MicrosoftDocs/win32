@@ -1,14 +1,20 @@
 ---
 title: onendalphablend
 description: The onendalphablend event handler handles an event that occurs when an element completes an alphaBlendTo operation.
-ms.assetid: '3d075ce5-3e95-4a00-bc77-068b88d6c54e'
-keywords: ["onendalphablend Windows Media Player"]
+ms.assetid: 3d075ce5-3e95-4a00-bc77-068b88d6c54e
+keywords:
+- onendalphablend Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onendalphablend
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onendalphablend
@@ -39,9 +45,9 @@ onendalphablend
 [**AmbientAttributes.alphaBlendTo**](ambientattributes-alphablendto.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

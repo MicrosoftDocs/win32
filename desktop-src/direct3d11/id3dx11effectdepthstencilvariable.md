@@ -1,8 +1,10 @@
 ---
 title: ID3DX11EffectDepthStencilVariable interface
 description: A depth-stencil-variable interface accesses depth-stencil state.
-ms.assetid: '8fb1be19-eed4-4d69-bbbe-94484531eba2'
-keywords: ["ID3DX11EffectDepthStencilVariable interface Direct3D 11", "ID3DX11EffectDepthStencilVariable interface Direct3D 11 , described"]
+ms.assetid: 8fb1be19-eed4-4d69-bbbe-94484531eba2
+keywords:
+- ID3DX11EffectDepthStencilVariable interface Direct3D 11
+- ID3DX11EffectDepthStencilVariable interface Direct3D 11 , described
 topic_type:
 - apiref
 api_name:
@@ -12,6 +14,11 @@ api_location:
 - N/A.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX11EffectDepthStencilVariable interface
@@ -39,7 +46,7 @@ The **ID3DX11EffectDepthStencilVariable** interface has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +57,7 @@ Effect variables are saved in memory in the backing store; when a technique is a
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
 
- 
+ 
 
 ## Requirements
 
@@ -76,9 +83,9 @@ Effect variables are saved in memory in the backing store; when a technique is a
 [D3DX Interfaces](d3d11-graphics-reference-d3dx11-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

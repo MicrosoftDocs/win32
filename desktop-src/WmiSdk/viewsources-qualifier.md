@@ -1,13 +1,16 @@
 ---
-Description: 'All view classes must have a string array qualifier called ViewSources.'
+Description: All view classes must have a string array qualifier called ViewSources.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aefa8cda-962f-4f6c-92a0-a8825d48db60'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aefa8cda-962f-4f6c-92a0-a8825d48db60
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: ViewSources Qualifier
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ViewSources Qualifier
@@ -42,7 +45,7 @@ ViewSources{
 > [!Note]  
 > The number of source queries you can define for join view classes depends on the number of instances these queries return and how many ways these instances can be joined. The number of possible combinations of source instances for view classes grows exponentially, so keep source queries for join view classes as simple as possible.
 
- 
+ 
 
 ## Requirements
 
@@ -50,8 +53,8 @@ ViewSources{
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -62,9 +65,9 @@ ViewSources{
 [**Qualifiers Specific to the View Provider**](qualifiers-specific-to-the-view-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

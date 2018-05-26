@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_SETINACTIVETIMER message
 description: The MCIWNDM\_SETINACTIVETIMER message sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is inactive. You can send this message explicitly or by using the MCIWndSetInactiveTimer macro.
-ms.assetid: '8900c372-0493-4a63-a027-ef6ecf8f8254'
-keywords: ["MCIWNDM_SETINACTIVETIMER message Windows Multimedia"]
+ms.assetid: 8900c372-0493-4a63-a027-ef6ecf8f8254
+keywords:
+- MCIWNDM_SETINACTIVETIMER message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_SETINACTIVETIMER message
 
-The **MCIWNDM\_SETINACTIVETIMER** message sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is inactive. You can send this message explicitly or by using the [**MCIWndSetInactiveTimer**](mciwndsetinactivetimer.md) macro.
+The **MCIWNDM\_SETINACTIVETIMER** message sets the update period used by MCIWnd to update the trackbar in the MCIWnd window, update position information displayed in the window title bar, and send notification messages to the parent window when the MCIWnd window is inactive. You can send this message explicitly or by using the [**MCIWndSetInactiveTimer**](/windows/win32/Vfw/nf-vfw-mciwndsetinactivetimer?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ This message does not return a value.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ This message does not return a value.
 
 <dl> <dt>
 
-[**MCIWndSetInactiveTimer**](mciwndsetinactivetimer.md)
+[**MCIWndSetInactiveTimer**](/windows/win32/Vfw/nf-vfw-mciwndsetinactivetimer?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

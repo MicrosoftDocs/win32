@@ -1,8 +1,15 @@
 ---
 title: Adding a Port to Current Profile
 description: Adding a port to a current profile that is enabled and scoped to all Internet protocols.
-ms.assetid: '55ddb35a-92d7-49dd-83d7-2336fb93178e'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 55ddb35a-92d7-49dd-83d7-2336fb93178e
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Port to Current Profile

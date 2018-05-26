@@ -1,11 +1,16 @@
 ---
-Description: 'As of Windows 7, cascading menus are created through the SubCommands registry entry, the ExtendedSubCommandsKey registry entry, or the IExplorerCommand interface.'
+Description: As of Windows 7, cascading menus are created through the SubCommands registry entry, the ExtendedSubCommandsKey registry entry, or the IExplorerCommand interface.
 title: Creating Static Cascading Menus
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Static Cascading Menus
 
-In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](icontextmenu.md) interface. In Windows 7 and later, you should resort to Component Object Model (COM) code-based solutions only when the static methods are insufficient.
+In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master) interface. In Windows 7 and later, you should resort to Component Object Model (COM) code-based solutions only when the static methods are insufficient.
 
 The following screen shot provides an example of a cascading menu.
 

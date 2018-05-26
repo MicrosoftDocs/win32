@@ -1,14 +1,20 @@
 ---
 title: VIEW.backgroundImageSaturation
 description: The backgroundImageSaturation attribute specifies or retrieves the saturation value of the background image.
-ms.assetid: '9e1f205b-6366-4816-9430-1153f57d686c'
-keywords: ["VIEW.backgroundImageSaturation Windows Media Player"]
+ms.assetid: 9e1f205b-6366-4816-9430-1153f57d686c
+keywords:
+- VIEW.backgroundImageSaturation Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.backgroundImageSaturation
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.backgroundImageSaturation
@@ -50,9 +56,9 @@ This attribute changes the saturation value of the images specified by the **bac
 [**VIEW.backgroundImageHueShift**](view-backgroundimagehueshift.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

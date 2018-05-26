@@ -4,11 +4,13 @@ description: Defines configuration settings for the Win32\_Terminal class such a
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e115f370-270c-404f-b6c6-7781c1ff376f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: e115f370-270c-404f-b6c6-7781c1ff376f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSSessionSetting class Remote Desktop Services", "Win32_TSSessionSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSSessionSetting class Remote Desktop Services
+- Win32_TSSessionSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -36,6 +38,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSSessionSetting class
@@ -50,25 +55,25 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSSESSIONSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSSessionSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  uint32   ActiveSessionLimit;
-  uint32   BrokenConnectionAction;
-  uint32   BrokenConnectionPolicy;
-  uint32   DisconnectedSessionLimit;
-  uint32   IdleSessionLimit;
-  uint32   PolicySourceActiveSessionLimit;
-  uint32   PolicySourceBrokenConnectionAction;
-  uint32   PolicySourceDisconnectedSessionLimit;
-  uint32   PolicySourceIdleSessionLimit;
-  uint32   PolicySourceReconnectionPolicy;
-  uint32   ReconnectionPolicy;
-  uint32   TimeLimitPolicy;
-  uint32   EnableTimeoutWarning;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  uint32   ActiveSessionLimit;
+  uint32   BrokenConnectionAction;
+  uint32   BrokenConnectionPolicy;
+  uint32   DisconnectedSessionLimit;
+  uint32   IdleSessionLimit;
+  uint32   PolicySourceActiveSessionLimit;
+  uint32   PolicySourceBrokenConnectionAction;
+  uint32   PolicySourceDisconnectedSessionLimit;
+  uint32   PolicySourceIdleSessionLimit;
+  uint32   PolicySourceReconnectionPolicy;
+  uint32   ReconnectionPolicy;
+  uint32   TimeLimitPolicy;
+  uint32   EnableTimeoutWarning;
 };
 ```
 
@@ -92,7 +97,7 @@ The **Win32\_TSSessionSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -244,7 +249,7 @@ Access type: Read/write
 
 Enables the timeout warning.
 
-**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available.
+**Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This property is not available.
 
 </dd> <dt>
 
@@ -662,8 +667,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -680,9 +685,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**CIM\_Setting**](https://msdn.microsoft.com/library/aa388461)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

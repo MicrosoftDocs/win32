@@ -1,7 +1,12 @@
 ---
 title: UsnReadTimeout
 description: UsnReadTimeout
-ms.assetid: 'c4ad7f3b-5c6a-4506-a6d4-cfb29a177cee'
+ms.assetid: c4ad7f3b-5c6a-4506-a6d4-cfb29a177cee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UsnReadTimeout

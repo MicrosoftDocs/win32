@@ -4,11 +4,17 @@ description: The Physical Disk resource type manages a disk on a shared bus conn
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd42e9bca-3717-44f7-a1b9-dfad1dbddd23'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d42e9bca-3717-44f7-a1b9-dfad1dbddd23
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,Physical Disk", "Physical Disk resource type Failover Cluster", "Physical Disk resource type Failover Cluster ,resources"]
+keywords:
+- resource types Failover Cluster ,Physical Disk
+- Physical Disk resource type Failover Cluster
+- Physical Disk resource type Failover Cluster ,resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Physical Disk
@@ -29,11 +35,11 @@ The following table summarizes the characteristics of the Physical Disk resource
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

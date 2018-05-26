@@ -4,11 +4,14 @@ description: Gets the NetBIOS Local Area Network Adapter (LANA) IDs and descript
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3f42e5da-c52b-4500-8cd0-52088dca544a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3f42e5da-c52b-4500-8cd0-52088dca544a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetTSLanaIds method Remote Desktop Services", "GetTSLanaIds method Remote Desktop Services , Win32_TerminalServiceSetting class", "Win32_TerminalServiceSetting class Remote Desktop Services , GetTSLanaIds method"]
+keywords:
+- GetTSLanaIds method Remote Desktop Services
+- GetTSLanaIds method Remote Desktop Services , Win32_TerminalServiceSetting class
+- Win32_TerminalServiceSetting class Remote Desktop Services , GetTSLanaIds method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetTSLanaIds method of the Win32\_TerminalServiceSetting class
@@ -28,8 +34,8 @@ The **GetTSLanaIds** method gets the NetBIOS Local Area Network Adapter (LANA) I
 
 ```mof
 uint32 GetTSLanaIds(
-  [out] uint32 LanaIdList[],
-  [out] string LanaIdDescriptions[]
+  [out] uint32 LanaIdList[],
+  [out] string LanaIdDescriptions[]
 );
 ```
 
@@ -67,8 +73,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalServiceSetting**](win32-terminalservicesetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

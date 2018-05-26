@@ -1,24 +1,29 @@
 ---
 Description: Loopback Recording
-ms.assetid: '71c567f7-fffa-4b75-897a-63ed30c4c9b0'
+ms.assetid: 71c567f7-fffa-4b75-897a-63ed30c4c9b0
 title: Loopback Recording
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loopback Recording
 
 In loopback mode, a client of WASAPI can capture the audio stream that is being played by a rendering endpoint device. To open a stream in loopback mode, the client must:
 
--   Obtain an [**IMMDevice**](immdevice.md) interface for the rendering endpoint device.
+-   Obtain an [**IMMDevice**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdevice?branch=master) interface for the rendering endpoint device.
 -   Initialize a capture stream in loopback mode on the rendering endpoint device.
 
-After following these steps, the client can call the [**IAudioClient::GetService**](iaudioclient-getservice.md) method to obtain an [**IAudioCaptureClient**](iaudiocaptureclient.md) interface on the rendering endpoint device.
+After following these steps, the client can call the [**IAudioClient::GetService**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-getservice?branch=master) method to obtain an [**IAudioCaptureClient**](/windows/win32/Audioclient/nn-audioclient-iaudiocaptureclient?branch=master) interface on the rendering endpoint device.
 
 WASAPI provides loopback mode primarily to support acoustic echo cancellation (AEC). However, other types of audio applications might find loopback mode useful for capturing the system mix that is being played by the audio engine.
 
 In the code example in [Capturing a Stream](capturing-a-stream.md), the RecordAudioStream function can be easily modified to configure a loopback-mode capture stream. The required modifications are:
 
--   In the call to the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md) method, change the first parameter (*dataFlow*) from eCapture to eRender.
--   In the call to the [**IAudioClient::Initialize**](iaudioclient-initialize.md) method, change the value of the second parameter (*StreamFlags*) from 0 to AUDCLNT\_STREAMFLAGS\_LOOPBACK.
+-   In the call to the [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master) method, change the first parameter (*dataFlow*) from eCapture to eRender.
+-   In the call to the [**IAudioClient::Initialize**](/windows/win32/Audioclient/nf-audioclient-iaudioclient-initialize?branch=master) method, change the value of the second parameter (*StreamFlags*) from 0 to AUDCLNT\_STREAMFLAGS\_LOOPBACK.
 
 A pull-mode capture client does not receive any events when a stream is initialized with event-driven buffering and is loopback-enabled. To work around this, initialize a render stream in event-driven mode. Each time the client receives an event for the render stream, it must signal the capture client to run the capture thread that reads the next set of samples from the capture endpoint buffer.
 

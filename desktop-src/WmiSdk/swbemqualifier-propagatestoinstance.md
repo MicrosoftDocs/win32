@@ -1,13 +1,16 @@
 ---
-Description: 'The PropagatesToInstance property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to an instance.'
+Description: The PropagatesToInstance property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to an instance.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5cab3498-f7ba-4d82-9f07-90a87e15f270'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5cab3498-f7ba-4d82-9f07-90a87e15f270
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemQualifier.PropagatesToInstance property'
+title: SWbemQualifier.PropagatesToInstance property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifier.PropagatesToInstance property
@@ -35,8 +38,8 @@ SWbemQualifier.PropagatesToInstance As Boolean
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -45,9 +48,9 @@ SWbemQualifier.PropagatesToInstance As Boolean
 
 
 
- 
+ 
 
- 
+ 
 
 
 

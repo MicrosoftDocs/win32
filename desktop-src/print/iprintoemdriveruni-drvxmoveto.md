@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverUni::DrvXMoveTo method is provided by the Unidrv driver so that a rendering plug-in can notify the driver of cursor x-position changes.'
-ms.assetid: '1f2c65ec-6218-438e-a853-4780f091a330'
-title: 'IPrintOemDriverUni::DrvXMoveTo method'
+---
+Description: The IPrintOemDriverUniDrvXMoveTo method is provided by the Unidrv driver so that a rendering plug-in can notify the driver of cursor x-position changes.
+ms.assetid: 1f2c65ec-6218-438e-a853-4780f091a330
+title: IPrintOemDriverUniDrvXMoveTo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUni::DrvXMoveTo method

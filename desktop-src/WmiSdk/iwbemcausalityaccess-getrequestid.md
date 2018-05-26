@@ -1,13 +1,16 @@
 ---
-Description: 'The GetRequestId method returns a Globally Unique Identifier (GUID) value for a request. A GUID is a unique 128-bit number.'
+Description: The GetRequestId method returns a Globally Unique Identifier (GUID) value for a request. A GUID is a unique 128-bit number.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'c8df15cf-ab48-491f-ac18-1dad567bbc0b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: c8df15cf-ab48-491f-ac18-1dad567bbc0b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'IWbemCausalityAccess::GetRequestId method'
+title: IWbemCausalityAccessGetRequestId method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IWbemCausalityAccess::GetRequestId method
@@ -19,7 +22,7 @@ The **GetRequestId** method returns a Globally Unique Identifier (GUID) value fo
 
 ```C++
 HRESULT GetRequestId(
-  [out] REQUESTID *pId
+  [out] REQUESTID *pId
 );
 ```
 
@@ -46,8 +49,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemint.h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Fastprox.dll</dt> </dl> |
 
@@ -60,9 +63,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IWbemCausalityAccess**](iwbemcausalityaccess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

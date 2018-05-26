@@ -1,7 +1,12 @@
 ---
-Description: 'The AddHead method adds an item to the front of the list.'
-ms.assetid: '8f0012b7-bbc2-407c-ae5a-9843c2f692dc'
-title: 'CGenericList.AddHead method'
+Description: The AddHead method adds an item to the front of the list.
+ms.assetid: 8f0012b7-bbc2-407c-ae5a-9843c2f692dc
+title: CGenericList.AddHead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.AddHead method
@@ -13,7 +18,7 @@ The `AddHead` method adds an item to the front of the list.
 
 ```C++
 POSITION AddHead(
-   OBJECT *pObj
+   OBJECT *pObj
 );
 ```
 
@@ -52,9 +57,9 @@ Returns a POSITION value indicating the new head position. If the method fails, 
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

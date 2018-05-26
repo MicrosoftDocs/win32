@@ -1,7 +1,12 @@
 ---
-Description: 'How to find the duration of a media file.'
-ms.assetid: '88ecde0c-328f-4ca7-9d26-836e4df06563'
+Description: How to find the duration of a media file.
+ms.assetid: 88ecde0c-328f-4ca7-9d26-836e4df06563
 title: How to Find the Duration of a Media File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Find the Duration of a Media File
@@ -9,8 +14,8 @@ title: How to Find the Duration of a Media File
 To find the duration of a media file, perform the following steps:
 
 1.  Use the [Source Resolver](source-resolver.md) to create a media source that can parse the media file.
-2.  Call [**IMFMediaSource::CreatePresentationDescriptor**](imfmediasource-createpresentationdescriptor.md) on the media source. This method returns presentation descriptor that describes the contents of the media file.
-3.  Query the presentation descriptor for the [MF\_PD\_DURATION](mf-pd-duration-attribute.md) attribute by calling the [**IMFAttributes::GetUINT64**](imfattributes-getuint64.md) method. The value of the attribute, if present, is the file duration in 100-nanosecond units.
+2.  Call [**IMFMediaSource::CreatePresentationDescriptor**](/windows/win32/mfidl/nf-mfidl-imfmediasource-createpresentationdescriptor?branch=master) on the media source. This method returns presentation descriptor that describes the contents of the media file.
+3.  Query the presentation descriptor for the [MF\_PD\_DURATION](mf-pd-duration-attribute.md) attribute by calling the [**IMFAttributes::GetUINT64**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint64?branch=master) method. The value of the attribute, if present, is the file duration in 100-nanosecond units.
 
 
 ```C++

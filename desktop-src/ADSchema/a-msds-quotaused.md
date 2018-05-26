@@ -4,17 +4,22 @@ description: The current quota consumed by a security principal in the directory
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '3a31c0c7-9791-4e00-81e5-ee596f94e3c9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 3a31c0c7-9791-4e00-81e5-ee596f94e3c9
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Quota-Used attribute AD Schema", "msDS-QuotaUsed attribute AD Schema"]
+keywords:
+- ms-DS-Quota-Used attribute AD Schema
+- msDS-QuotaUsed attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Quota-Used
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Quota-Used attribute
@@ -38,12 +43,12 @@ The current quota consumed by a security principal in the directory database.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -171,9 +176,9 @@ The current quota consumed by a security principal in the directory database.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

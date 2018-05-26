@@ -4,11 +4,13 @@ description: Defines various configuration settings for the Win32\_Terminal clas
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b8a757e6-801b-4349-902e-76596b06df1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: b8a757e6-801b-4349-902e-76596b06df1f
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSNetworkAdapterSetting class Remote Desktop Services", "Win32_TSNetworkAdapterSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSNetworkAdapterSetting class Remote Desktop Services
+- Win32_TSNetworkAdapterSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -30,6 +32,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSNetworkAdapterSetting class
@@ -44,19 +49,19 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSNETWORKADAPTERSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSNetworkAdapterSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  string   DeviceIDList[];
-  uint32   MaximumConnections;
-  string   NetworkAdapterID;
-  uint32   NetworkAdapterLanaID;
-  string   NetworkAdapterList[];
-  string   NetworkAdapterName;
-  uint32   PolicySourceMaximumConnections;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  string   DeviceIDList[];
+  uint32   MaximumConnections;
+  string   NetworkAdapterID;
+  uint32   NetworkAdapterLanaID;
+  string   NetworkAdapterList[];
+  string   NetworkAdapterName;
+  uint32   PolicySourceMaximumConnections;
 };
 ```
 
@@ -81,7 +86,7 @@ The **Win32\_TSNetworkAdapterSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -383,8 +388,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -407,9 +412,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSNetworkAdapterListSetting**](win32-tsnetworkadapterlistsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the key state of a key.'
-ms.assetid: '4AEB732D-274E-42BB-AA97-9E4D30B81338'
-title: 'IsKeyPressed method of the Msvm\_Keyboard class'
+Description: Retrieves the key state of a key.
+ms.assetid: 4AEB732D-274E-42BB-AA97-9E4D30B81338
+title: IsKeyPressed method of the Msvm\_Keyboard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IsKeyPressed method of the Msvm\_Keyboard class
@@ -13,8 +18,8 @@ Retrieves the key state of a key.
 
 ```mof
 uint32 IsKeyPressed(
-  [in]  uint32  keyCode,
-  [out] boolean keyState
+  [in]  uint32  keyCode,
+  [out] boolean keyState
 );
 ```
 
@@ -101,8 +106,8 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -119,9 +124,9 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 [**Virtual-Key Codes**](_win32_virtual_key_codes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

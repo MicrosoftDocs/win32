@@ -1,7 +1,12 @@
 ---
-Description: 'Represents the definition aspects of a metric.'
-ms.assetid: '861a69f6-a3bf-4e18-a9c2-931632e3cccc'
-title: 'Msvm\_BaseMetricDefinition class'
+Description: Represents the definition aspects of a metric.
+ms.assetid: 861a69f6-a3bf-4e18-a9c2-931632e3cccc
+title: Msvm\_BaseMetricDefinition class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_BaseMetricDefinition class
@@ -16,21 +21,21 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_BaseMetricDefinition : CIM_BaseMetricDefinition
 {
-  string  InstanceID;
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  Id;
-  string  Name;
-  uint16  DataType;
-  uint16  Calculable;
-  string  Units;
-  string  BreakdownDimensions[];
+  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  Id;
+  string  Name;
+  uint16  DataType;
+  uint16  Calculable;
+  string  Units;
+  string  BreakdownDimensions[];
   boolean IsContinuous;
-  uint16  ChangeType;
-  uint16  TimeScope;
-  uint16  GatheringType;
-  string  ProgrammaticUnits;
+  uint16  ChangeType;
+  uint16  TimeScope;
+  uint16  GatheringType;
+  string  ProgrammaticUnits;
 };
 ```
 
@@ -80,7 +85,7 @@ Describes the characteristics of the metric for purposes of performing calculati
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,7 +126,7 @@ Indicates how the metric value changes, in the form of typical combinations of f
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -232,7 +237,7 @@ Indicates how the metric values are gathered by the underlying instrumentation. 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -331,7 +336,7 @@ Indicates the time scope to which the metric value applies. This property is inh
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -354,17 +359,17 @@ Identifies the specific units of a value, for example, "megabytes". This propert
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

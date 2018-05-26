@@ -1,13 +1,16 @@
 ---
-Description: 'The PutAsync\_ method of SWbemObject asynchronously creates or updates an instance or class object to Windows Management Instrumentation (WMI).'
+Description: The PutAsync\_ method of SWbemObject asynchronously creates or updates an instance or class object to Windows Management Instrumentation (WMI).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ff738412-fcca-4e4a-a178-0d1d391ec99b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ff738412-fcca-4e4a-a178-0d1d391ec99b
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.PutAsync\_ method'
+title: SWbemObject.PutAsync\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.PutAsync\_ method
@@ -270,8 +273,8 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -296,9 +299,9 @@ An asynchronous callback allows a non-authenticated user to provide data to the 
 [**SWbemQualifier**](swbemqualifier.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

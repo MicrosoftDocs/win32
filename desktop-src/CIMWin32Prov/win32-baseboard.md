@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a baseboard, which is also known as a motherboard or system board.'
+Description: Represents a baseboard, which is also known as a motherboard or system board.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '04ac7522-8b99-4ffc-9f7d-d1225f55a862'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 04ac7522-8b99-4ffc-9f7d-d1225f55a862
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_BaseBoard class'
+title: Win32\_BaseBoard class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_BaseBoard class
@@ -24,35 +27,35 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{FAF76B95-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class Win32_BaseBoard : CIM_Card
 {
-  string   Caption;
-  string   ConfigOptions[];
-  string   CreationClassName;
-  real32   Depth;
-  string   Description;
-  real32   Height;
-  boolean  HostingBoard;
-  boolean  HotSwappable;
+  string   Caption;
+  string   ConfigOptions[];
+  string   CreationClassName;
+  real32   Depth;
+  string   Description;
+  real32   Height;
+  boolean  HostingBoard;
+  boolean  HotSwappable;
   datetime InstallDate;
-  string   Manufacturer;
-  string   Model;
-  string   Name;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  string   Product;
-  boolean  Removable;
-  boolean  Replaceable;
-  string   RequirementsDescription;
-  boolean  RequiresDaughterBoard;
-  string   SerialNumber;
-  string   SKU;
-  string   SlotLayout;
-  boolean  SpecialRequirements;
-  string   Status;
-  string   Tag;
-  string   Version;
-  real32   Weight;
-  real32   Width;
+  string   Manufacturer;
+  string   Model;
+  string   Name;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  string   Product;
+  boolean  Removable;
+  boolean  Replaceable;
+  string   RequirementsDescription;
+  boolean  RequiresDaughterBoard;
+  string   SerialNumber;
+  string   SKU;
+  string   SlotLayout;
+  boolean  SpecialRequirements;
+  string   Status;
+  string   Tag;
+  string   Version;
+  real32   Weight;
+  real32   Width;
 };
 ```
 
@@ -75,7 +78,7 @@ The **Win32\_BaseBoard** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -95,7 +98,7 @@ Access type: Read-only
 Qualifiers: [**MaxLen**](https://msdn.microsoft.com/library/aa393650) (64), [**DisplayName**](https://msdn.microsoft.com/library/aa393650) ("Caption")
 </dt> </dl>
 
-Short description of the object—a one-line string.
+Short description of the object a one-line string.
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -185,7 +188,7 @@ Access type: Read-only
 Qualifiers: [**Units**](https://msdn.microsoft.com/library/aa393650) ("inches")
 </dt> </dl>
 
-Height of the physical package—in inches.
+Height of the physical package in inches.
 
 This property is inherited from [**CIM\_PhysicalPackage**](cim-physicalpackage.md).
 
@@ -215,7 +218,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **TRUE**, the package can be hot-swapped. A physical package can be hot-swapped if it is possible to replace the element with a physically different but equivalent element while the containing package has power applied to it—that is, while it is ON. For example, a disk drive package inserted using SCA connectors is removable and can be hot-swapped. All packages that can be hot-swapped are inherently removable and replaceable.
+If **TRUE**, the package can be hot-swapped. A physical package can be hot-swapped if it is possible to replace the element with a physically different but equivalent element while the containing package has power applied to it that is, while it is ON. For example, a disk drive package inserted using SCA connectors is removable and can be hot-swapped. All packages that can be hot-swapped are inherently removable and replaceable.
 
 This property is inherited from [**CIM\_PhysicalPackage**](cim-physicalpackage.md).
 
@@ -366,7 +369,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **TRUE**, a package is removable. A physical package is removable if it is designed to be taken in and out of the physical container in which it is normally found—without impairing the function of the overall packaging. A package can still be removable if the power must be OFF to perform the removal. If the power can be ON and the package removed, then the element is removable and can be hot-swapped. For example, an extra battery in a laptop is removable, as is a disk drive package inserted using SCA connectors. However, the latter can also be hot-swapped. A laptop's display is not removable, nor is a nonredundant power supply. Removing these components would impact the function of the overall packaging, or is impossible due to the tight integration of the package.
+If **TRUE**, a package is removable. A physical package is removable if it is designed to be taken in and out of the physical container in which it is normally found without impairing the function of the overall packaging. A package can still be removable if the power must be OFF to perform the removal. If the power can be ON and the package removed, then the element is removable and can be hot-swapped. For example, an extra battery in a laptop is removable, as is a disk drive package inserted using SCA connectors. However, the latter can also be hot-swapped. A laptop's display is not removable, nor is a nonredundant power supply. Removing these components would impact the function of the overall packaging, or is impossible due to the tight integration of the package.
 
 This property is inherited from [**CIM\_PhysicalPackage**](cim-physicalpackage.md).
 
@@ -731,8 +734,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
@@ -748,9 +751,9 @@ Next
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: Remote Access Request for Comments
 description: Requests for Comments (RFCs) are an ongoing series of documents that discuss the Internet and Internet-related technologies.
-ms.assetid: 'ee52dde3-e87d-437f-8321-77d771d715ec'
-keywords: ["RFCs, Remote Access", "Request for Comments, Remote Access"]
+ms.assetid: ee52dde3-e87d-437f-8321-77d771d715ec
+keywords:
+- RFCs, Remote Access
+- Request for Comments, Remote Access
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Remote Access Request for Comments

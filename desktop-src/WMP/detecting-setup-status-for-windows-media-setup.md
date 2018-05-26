@@ -1,8 +1,21 @@
 ---
 title: Detecting Setup Status for Windows Media Setup
 description: Detecting Setup Status for Windows Media Setup
-ms.assetid: 'c3acc268-934b-4a10-aab5-4b1764cb4c87'
-keywords: ["Windows Media Player,detecting setup status", "Windows Media Player,setup status", "Windows Media Player,redistributing software", "Windows Media Player,software redistribution", "detecting setup status", "setup status", "redistributing software", "software redistribution"]
+ms.assetid: c3acc268-934b-4a10-aab5-4b1764cb4c87
+keywords:
+- Windows Media Player,detecting setup status
+- Windows Media Player,setup status
+- Windows Media Player,redistributing software
+- Windows Media Player,software redistribution
+- detecting setup status
+- setup status
+- redistributing software
+- software redistribution
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Detecting Setup Status for Windows Media Setup

@@ -1,8 +1,20 @@
 ---
 title: Prototypes
 description: Prototypes
-ms.assetid: '2b31c01b-d52b-4df5-9cb0-a35286febd3a'
-keywords: ["Text Services Framework (TSF),prototypes", "TSF (Text Services Framework),prototypes", "TSF reference,prototypes", "reference for TSF,prototypes", "text services,prototypes", "TSF-enabled applications,prototypes", "prototypes"]
+ms.assetid: 2b31c01b-d52b-4df5-9cb0-a35286febd3a
+keywords:
+- Text Services Framework (TSF),prototypes
+- TSF (Text Services Framework),prototypes
+- TSF reference,prototypes
+- reference for TSF,prototypes
+- text services,prototypes
+- TSF-enabled applications,prototypes
+- prototypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Prototypes

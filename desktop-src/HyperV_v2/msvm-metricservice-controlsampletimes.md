@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the control sample times.'
-ms.assetid: '17ffa106-8b6b-4077-895c-03400505c2a0'
-title: 'ControlSampleTimes method of the Msvm\_MetricService class'
+Description: Sets the control sample times.
+ms.assetid: 17ffa106-8b6b-4077-895c-03400505c2a0
+title: ControlSampleTimes method of the Msvm\_MetricService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ControlSampleTimes method of the Msvm\_MetricService class
@@ -13,9 +18,9 @@ Sets the control sample times.
 
 ```mof
 uint32 ControlSampleTimes(
-  [in] datetime StartSampleTime,
-  [in] datetime PreferredSampleInterval,
-  [in] boolean  RestartGathering
+  [in] datetime StartSampleTime,
+  [in] datetime PreferredSampleInterval,
+  [in] boolean  RestartGathering
 );
 ```
 
@@ -79,8 +84,8 @@ This method returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -94,9 +99,9 @@ This method returns one of the following values:
 [**Msvm\_MetricService**](msvm-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

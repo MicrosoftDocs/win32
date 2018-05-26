@@ -1,8 +1,9 @@
 ---
 title: StorPortEtwEvent8 routine
 description: The StorPortEtwEvent8 publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log eight general purpose ETW parameters. The ETW parameters are expressed as eight name-value pairs.
-ms.assetid: 'FC0E8267-5AA6-47D6-9F98-B6B19CA3F260'
-keywords: ["StorPortEtwEvent8 routine Storage Devices"]
+ms.assetid: FC0E8267-5AA6-47D6-9F98-B6B19CA3F260
+keywords:
+- StorPortEtwEvent8 routine Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StorPortEtwEvent8 routine
@@ -22,30 +28,30 @@ The **StorPortEtwEvent8** publishes an Event Tracing for Windows (ETW) event to 
 
 ```C++
 ULONG StorPortEtwEvent8(
-  _In_     PVOID                     HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS             Address,
-  _In_     ULONG                     EventId,
-  _In_     PWSTR                     EventDescription,
-  _In_     ULONGLONG                 EventKeywords,
-  _In_     STORPORT_ETW_LEVEL        EventLevel,
-  _In_     STORPORT_ETW_EVENT_OPCODE EventOpcode,
-  _In_opt_ PSCSI_REQUEST_BLOCK       Srb,
-  _In_opt_ PWSTR                     Parameter1Name,
-  _In_     ULONGLONG                 Parameter1Value,
-  _In_opt_ PWSTR                     Parameter2Name,
-  _In_     ULONGLONG                 Parameter2Value,
-  _In_opt_ PWSTR                     Parameter3Name,
-  _In_     ULONGLONG                 Parameter3Value,
-  _In_opt_ PWSTR                     Parameter4Name,
-  _In_     ULONGLONG                 Parameter4Value,
-  _In_opt_ PWSTR                     Parameter5Name,
-  _In_     ULONGLONG                 Parameter5Value,
-  _In_opt_ PWSTR                     Parameter6Name,
-  _In_     ULONGLONG                 Parameter6Value,
-  _In_opt_ PWSTR                     Parameter7Name,
-  _In_     ULONGLONG                 Parameter7Value,
-  _In_opt_ PWSTR                     Parameter8Name,
-  _In_     ULONGLONG                 Parameter8Value
+  _In_     PVOID                     HwDeviceExtension,
+  _In_opt_ PSTOR_ADDRESS             Address,
+  _In_     ULONG                     EventId,
+  _In_     PWSTR                     EventDescription,
+  _In_     ULONGLONG                 EventKeywords,
+  _In_     STORPORT_ETW_LEVEL        EventLevel,
+  _In_     STORPORT_ETW_EVENT_OPCODE EventOpcode,
+  _In_opt_ PSCSI_REQUEST_BLOCK       Srb,
+  _In_opt_ PWSTR                     Parameter1Name,
+  _In_     ULONGLONG                 Parameter1Value,
+  _In_opt_ PWSTR                     Parameter2Name,
+  _In_     ULONGLONG                 Parameter2Value,
+  _In_opt_ PWSTR                     Parameter3Name,
+  _In_     ULONGLONG                 Parameter3Value,
+  _In_opt_ PWSTR                     Parameter4Name,
+  _In_     ULONGLONG                 Parameter4Value,
+  _In_opt_ PWSTR                     Parameter5Name,
+  _In_     ULONGLONG                 Parameter5Value,
+  _In_opt_ PWSTR                     Parameter6Name,
+  _In_     ULONGLONG                 Parameter6Value,
+  _In_opt_ PWSTR                     Parameter7Name,
+  _In_     ULONGLONG                 Parameter7Value,
+  _In_opt_ PWSTR                     Parameter8Name,
+  _In_     ULONGLONG                 Parameter8Value
 );
 ```
 
@@ -99,7 +105,7 @@ Keyword flags for event categorization. Set to 0 if no keyword is desired. The k
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -121,7 +127,7 @@ The event level. This value can indicate the importance or severity of the event
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -147,7 +153,7 @@ The operational nature of the event. This is one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -284,7 +290,7 @@ The value for parameter 8.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -299,7 +305,7 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 |                            |                                                                                                                                         |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Target platform<br/> | <dl> <dt>[Universal](http://go.microsoft.com/fwlink/p/?linkid=531356)</dt> </dl> |
-| Version<br/>         | Available in starting with Windows 8.1.<br/>                                                                                      |
+| Version<br/>         | Available in starting with Windows 8.1.<br/>                                                                                      |
 | Header<br/>          | <dl> <dt>Storport.h (include Storport.h)</dt> </dl>                              |
 | IRQL<br/>            | &lt;= DISPATCH\_LEVEL<br/>                                                                                                        |
 
@@ -315,9 +321,9 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 [**StorPortEtwEvent4**](storportetwevent4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20StorPortEtwEvent8%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

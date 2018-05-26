@@ -4,17 +4,21 @@ description: Gets the type of consent.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '05DFD344-5141-47D4-8DFF-30B9E56C26C3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 05DFD344-5141-47D4-8DFF-30B9E56C26C3
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["Consent getConsentType method"]
+keywords:
+- Consent getConsentType method
 topic_type:
 - apiref
 api_name:
 - Consent getConsentType method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Consent getConsentType method
@@ -45,11 +49,11 @@ Consent.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

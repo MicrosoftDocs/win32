@@ -1,7 +1,12 @@
 ---
-Description: 'An X.509 version 3 certificate contains the fields defined in version 1 and version 2 and adds certificate extensions. The ASN.1 syntax of certificate extensions is shown in the following example.'
-ms.assetid: 'ca8df7a4-caa4-4fe7-81a8-8fce372454f4'
+Description: An X.509 version 3 certificate contains the fields defined in version 1 and version 2 and adds certificate extensions. The ASN.1 syntax of certificate extensions is shown in the following example.
+ms.assetid: ca8df7a4-caa4-4fe7-81a8-8fce372454f4
 title: Version 3 Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version 3 Extensions
@@ -43,7 +48,7 @@ The standard version 3 extensions and their object identifiers (OIDs) are listed
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -58,9 +63,9 @@ The standard version 3 extensions and their object identifiers (OIDs) are listed
 [X.509 Public Key Certificates](about-x-509-public-key-certificates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

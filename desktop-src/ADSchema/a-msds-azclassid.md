@@ -4,17 +4,22 @@ description: A class ID required by the AzRoles UI on the AzApplication object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'cbbdc898-82b2-410e-8c9d-ae4f9641ac1a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: cbbdc898-82b2-410e-8c9d-ae4f9641ac1a
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Az-Class-ID attribute AD Schema", "msDS-AzClassId attribute AD Schema"]
+keywords:
+- ms-DS-Az-Class-ID attribute AD Schema
+- msDS-AzClassId attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Az-Class-ID
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Az-Class-ID attribute

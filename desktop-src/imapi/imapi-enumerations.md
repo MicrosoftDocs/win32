@@ -1,7 +1,12 @@
 ---
 title: IMAPI Enumerations
-ms.assetid: '4b45d9b0-5e17-4b75-9e04-4786276b3106'
+ms.assetid: 4b45d9b0-5e17-4b75-9e04-4786276b3106
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMAPI Enumerations
@@ -10,25 +15,25 @@ IMAPI defines the following enumeration types:
 
 <dl>
 
-[**EmulationType**](emulationtype.md)  
-[**FsiFileSystems**](fsifilesystems.md)  
-[**FsiItemType**](fsiitemtype.md)  
-[**IMAPI\_BURN\_VERIFICATION\_LEVEL**](imapi-burn-verification-level.md)  
-[**IMAPI\_CD\_SECTOR\_TYPE**](imapi-cd-sector-type.md)  
-[**IMAPI\_CD\_TRACK\_DIGITAL\_COPY\_SETTING**](imapi-cd-track-digital-copy-setting.md)  
-[**IMAPI\_FEATURE\_PAGE\_TYPE**](imapi-feature-page-type.md)  
-[**IMAPI\_FORMAT2\_DATA\_MEDIA\_STATE**](imapi-format2-data-media-state.md)  
-[**IMAPI\_FORMAT2\_DATA\_WRITE\_ACTION**](imapi-format2-data-write-action.md)  
-[**IMAPI\_FORMAT2\_RAW\_CD\_DATA\_SECTOR\_TYPE**](imapi-format2-raw-cd-data-sector-type.md)  
-[**IMAPI\_FORMAT2\_RAW\_CD\_WRITE\_ACTION**](imapi-format2-raw-cd-write-action.md)  
-[**IMAPI\_FORMAT2\_TAO\_WRITE\_ACTION**](imapi-format2-tao-write-action.md)  
-[**IMAPI\_MEDIA\_PHYSICAL\_TYPE**](imapi-media-physical-type.md)  
-[**IMAPI\_MEDIA\_WRITE\_PROTECT\_STATE**](imapi-media-write-protect-state.md)  
-[**IMAPI\_MODE\_PAGE\_REQUEST\_TYPE**](imapi-mode-page-request-type.md)  
-[**IMAPI\_MODE\_PAGE\_TYPE**](imapi-mode-page-type.md)  
-[**IMAPI\_PROFILE\_TYPE**](imapi-profile-type.md)  
-[**IMAPI\_READ\_TRACK\_ADDRESS\_TYPE**](imapi-read-track-address-type.md)  
-[**PlatformId**](platformid.md)  
+[**EmulationType**](/windows/win32/imapi2fs/ne-imapi2fs-emulationtype?branch=master)  
+[**FsiFileSystems**](/windows/win32/imapi2fs/ne-imapi2fs-fsifilesystems?branch=master)  
+[**FsiItemType**](/windows/win32/imapi2fs/ne-imapi2fs-fsiitemtype?branch=master)  
+[**IMAPI\_BURN\_VERIFICATION\_LEVEL**](/windows/win32/imapi2/ne-imapi2-_imapi_burn_verification_level?branch=master)  
+[**IMAPI\_CD\_SECTOR\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_cd_sector_type?branch=master)  
+[**IMAPI\_CD\_TRACK\_DIGITAL\_COPY\_SETTING**](/windows/win32/imapi2/ne-imapi2-_imapi_cd_track_digital_copy_setting?branch=master)  
+[**IMAPI\_FEATURE\_PAGE\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_feature_page_type?branch=master)  
+[**IMAPI\_FORMAT2\_DATA\_MEDIA\_STATE**](/windows/win32/imapi2/ne-imapi2-_imapi_format2_data_media_state?branch=master)  
+[**IMAPI\_FORMAT2\_DATA\_WRITE\_ACTION**](/windows/win32/imapi2/ne-imapi2-_imapi_format2_data_write_action?branch=master)  
+[**IMAPI\_FORMAT2\_RAW\_CD\_DATA\_SECTOR\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_format2_raw_cd_data_sector_type?branch=master)  
+[**IMAPI\_FORMAT2\_RAW\_CD\_WRITE\_ACTION**](/windows/win32/imapi2/ne-imapi2-_imapi_format2_raw_cd_write_action?branch=master)  
+[**IMAPI\_FORMAT2\_TAO\_WRITE\_ACTION**](/windows/win32/imapi2/ne-imapi2-_imapi_format2_tao_write_action?branch=master)  
+[**IMAPI\_MEDIA\_PHYSICAL\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_media_physical_type?branch=master)  
+[**IMAPI\_MEDIA\_WRITE\_PROTECT\_STATE**](/windows/win32/imapi2/ne-imapi2-_imapi_media_write_protect_state?branch=master)  
+[**IMAPI\_MODE\_PAGE\_REQUEST\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_mode_page_request_type?branch=master)  
+[**IMAPI\_MODE\_PAGE\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_mode_page_type?branch=master)  
+[**IMAPI\_PROFILE\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_profile_type?branch=master)  
+[**IMAPI\_READ\_TRACK\_ADDRESS\_TYPE**](/windows/win32/imapi2/ne-imapi2-_imapi_read_track_address_type?branch=master)  
+[**PlatformId**](/windows/win32/imapi2fs/ne-imapi2fs-platformid?branch=master)  
 </dl>
 
  

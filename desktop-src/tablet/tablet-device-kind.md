@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the type of tablet device such as a pen, mouse or touch sensitive digitizer.'
-ms.assetid: '4cca1e09-99c0-4357-a6ef-159bc8d17d57'
-title: 'TABLET\_DEVICE\_KIND enumeration'
+---
+Description: Indicates the type of tablet device such as a pen, mouse or touch sensitive digitizer.
+ms.assetid: 4cca1e09-99c0-4357-a6ef-159bc8d17d57
+title: TABLET\_DEVICE\_KIND enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TABLET\_DEVICE\_KIND enumeration

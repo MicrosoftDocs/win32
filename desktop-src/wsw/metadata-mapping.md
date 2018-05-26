@@ -1,8 +1,16 @@
 ---
 title: Metadata Mapping
 description: The contents of a metadata document map to the metadata API in the ways explained in the following sections.
-ms.assetid: '266f8319-b7ac-497f-8eb7-8e2c7bcede33'
-keywords: ["Metadata Mapping Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 266f8319-b7ac-497f-8eb7-8e2c7bcede33
+keywords:
+- Metadata Mapping Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Metadata Mapping
@@ -37,7 +45,7 @@ Familiarity with metadata specifications such as WSDL and Policy will aid in und
 
 ## Endpoint address
 
-The address of an endpoint (see [**WS\_ENDPOINT\_ADDRESS**](ws-endpoint-address.md)) is obtained from an extensibility element within the wsdl:port element of the WSDL document. The following extensibility elements are supported for specifying the address:
+The address of an endpoint (see [**WS\_ENDPOINT\_ADDRESS**](/windows/win32/WebServices/ns-webservices-_ws_endpoint_address?branch=master)) is obtained from an extensibility element within the wsdl:port element of the WSDL document. The following extensibility elements are supported for specifying the address:
 
 ``` syntax
 <wsdl:port...>
@@ -65,7 +73,7 @@ The address of an endpoint (see [**WS\_ENDPOINT\_ADDRESS**](ws-endpoint-address.
 
 ## WS\_CHANNEL\_BINDING
 
-The channel binding (see [**WS\_CHANNEL\_BINDING**](ws-channel-binding.md)) is determined by the transport the soap binding used, as follows:
+The channel binding (see [**WS\_CHANNEL\_BINDING**](/windows/win32/WebServices/ne-webservices-ws_channel_binding?branch=master)) is determined by the transport the soap binding used, as follows:
 
 ``` syntax
 <soap:binding transport=&quot;http://schemas.microsoft.com/soap/tcp&quot;/> => WS_TCP_CHANNEL_BINDING
@@ -77,7 +85,7 @@ The channel binding (see [**WS\_CHANNEL\_BINDING**](ws-channel-binding.md)) is d
 
 ## WS\_CHANNEL\_PROPERTY\_ENVELOPE\_VERSION
 
-The envelope version (see [**WS\_CHANNEL\_PROPERTY\_ENVELOPE\_VERSION**](ws-channel-property-id.md)) is determined by which soap binding is used, as follows:
+The envelope version (see [**WS\_CHANNEL\_PROPERTY\_ENVELOPE\_VERSION**](/windows/win32/WebServices/ne-webservices-ws_channel_property_id?branch=master)) is determined by which soap binding is used, as follows:
 
 ``` syntax
 <wsdl:binding...>
@@ -93,7 +101,7 @@ The envelope version (see [**WS\_CHANNEL\_PROPERTY\_ENVELOPE\_VERSION**](ws-chan
 
 ## Addressing Version
 
-The addressing version (see [**WS\_CHANNEL\_PROPERTY\_ADDRESSING\_VERSION**](ws-channel-property-id.md)) is determined by the following assertions in the endpoint policy:
+The addressing version (see [**WS\_CHANNEL\_PROPERTY\_ADDRESSING\_VERSION**](/windows/win32/WebServices/ne-webservices-ws_channel_property_id?branch=master)) is determined by the following assertions in the endpoint policy:
 
 ``` syntax
 <wsp:Policy...>
@@ -107,11 +115,11 @@ The addressing version (see [**WS\_CHANNEL\_PROPERTY\_ADDRESSING\_VERSION**](ws-
 </wsp:Policy>
 ```
 
-If an addressing assertion is not present, then [**WS\_ADDRESSING\_VERSION\_TRANSPORT**](ws-addressing-version.md) is assumed.
+If an addressing assertion is not present, then [**WS\_ADDRESSING\_VERSION\_TRANSPORT**](/windows/win32/WebServices/ne-webservices-ws_addressing_version?branch=master) is assumed.
 
 ## Message Encoding
 
-The encoding of the message (see [**WS\_CHANNEL\_PROPERTY\_ENCODING**](ws-channel-property-id.md)) is determined by the following assertions in the endpoint policy:
+The encoding of the message (see [**WS\_CHANNEL\_PROPERTY\_ENCODING**](/windows/win32/WebServices/ne-webservices-ws_channel_property_id?branch=master)) is determined by the following assertions in the endpoint policy:
 
 ``` syntax
 <wsp:Policy...>
@@ -119,7 +127,7 @@ The encoding of the message (see [**WS\_CHANNEL\_PROPERTY\_ENCODING**](ws-channe
 </wsp:Policy>
 ```
 
-Note that the binary encoding policy assertion does not include information about whether the binary encoding is sessionful or sessionless. This is determined by the encoding property constraint (which should be appropriate according to whether or not the [**WS\_CHANNEL\_TYPE**](ws-channel-type.md) being used is sessionful or not).
+Note that the binary encoding policy assertion does not include information about whether the binary encoding is sessionful or sessionless. This is determined by the encoding property constraint (which should be appropriate according to whether or not the [**WS\_CHANNEL\_TYPE**](/windows/win32/WebServices/ne-webservices-ws_channel_type?branch=master) being used is sessionful or not).
 
 ``` syntax
 <wsp:Policy...>
@@ -127,15 +135,15 @@ Note that the binary encoding policy assertion does not include information abou
 </wsp:Policy>
 ```
 
-If neither of the above assertions are present, then a text encoding is used: [**WS\_ENCODING\_XML\_UTF8**](ws-encoding.md), **WS\_ENCODING\_XML\_UTF16LE**, **WS\_ENCODING\_XML\_UTF16BE**.
+If neither of the above assertions are present, then a text encoding is used: [**WS\_ENCODING\_XML\_UTF8**](/windows/win32/WebServices/ne-webservices-ws_encoding?branch=master), **WS\_ENCODING\_XML\_UTF16LE**, **WS\_ENCODING\_XML\_UTF16BE**.
 
 Note that policy does not include information about the character set for MTOM or text encodings (whether it is UTF8, UTF16LE or UTF16BE). The actual character set value used is determined by the encoding property constraint.
 
 ## Constraints with HTTP Header Authentication
 
-This section applies when the [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING\_CONSTRAINT**](ws-http-header-auth-security-binding-constraint.md) security binding constraint is specified.
+This section applies when the [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_http_header_auth_security_binding_constraint?branch=master) security binding constraint is specified.
 
-This security binding is indicated in the policy by different assertions that states both that HTTP header authentication should be used, and that a particular authentication scheme should be used. The policy assertions correspond to the values of the [**WS\_SECURITY\_BINDING\_PROPERTY\_HTTP\_HEADER\_AUTH\_SCHEME**](ws-security-binding-property-id.md) as follows:
+This security binding is indicated in the policy by different assertions that states both that HTTP header authentication should be used, and that a particular authentication scheme should be used. The policy assertions correspond to the values of the [**WS\_SECURITY\_BINDING\_PROPERTY\_HTTP\_HEADER\_AUTH\_SCHEME**](/windows/win32/WebServices/ne-webservices-ws_security_binding_property_id?branch=master) as follows:
 
 ``` syntax
 <wsp:Policy...>
@@ -163,7 +171,7 @@ This security binding is indicated in the policy by different assertions that st
 
 ## Constraints with SLL Transport Security
 
-This section applies when the [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](ws-ssl-transport-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used in this case:
+This section applies when the [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_ssl_transport_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used in this case:
 
 ``` syntax
 <wsp:Policy...>
@@ -180,7 +188,7 @@ This section applies when the [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAI
 
 ## Constraints with SSPI Transport Security
 
-This section applies when the [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](ws-tcp-sspi-transport-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used in this case:
+This section applies when the [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_tcp_sspi_transport_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used in this case:
 
 ``` syntax
 <wsp:Policy...>
@@ -197,13 +205,13 @@ This section applies when the [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING\_CO
 
 ## Constrains with Transport Security
 
-The [**WS\_SECURITY\_PROPERTY\_TRANSPORT\_PROTECTION\_LEVEL**](ws-security-property-id.md) property constraint can be specified if any of the security binding constraints are specified:
+The [**WS\_SECURITY\_PROPERTY\_TRANSPORT\_PROTECTION\_LEVEL**](/windows/win32/WebServices/ne-webservices-ws_security_property_id?branch=master) property constraint can be specified if any of the security binding constraints are specified:
 
--   [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](ws-ssl-transport-security-binding-constraint.md)
+-   [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_ssl_transport_security_binding_constraint?branch=master)
 
-    The value from policy is always [**WS\_PROTECTION\_LEVEL\_SIGN\_AND\_ENCRYPT**](ws-protection-level.md).
+    The value from policy is always [**WS\_PROTECTION\_LEVEL\_SIGN\_AND\_ENCRYPT**](/windows/win32/WebServices/ne-webservices-ws_protection_level?branch=master).
 
--   [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](ws-tcp-sspi-transport-security-binding-constraint.md)
+-   [**WS\_TCP\_SSPI\_TRANSPORT\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_tcp_sspi_transport_security_binding_constraint?branch=master)
 
     The value from policy is specified as part of the WindowsTransportSecurity assertion, as follows:
 
@@ -219,13 +227,13 @@ The [**WS\_SECURITY\_PROPERTY\_TRANSPORT\_PROTECTION\_LEVEL**](ws-security-prope
     <netf:WindowsTransportSecurity...>EncryptAndSign</netf:WindowsTransportSecurity> => WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT
     ```
 
--   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING\_CONSTRAINT**](ws-http-header-auth-security-binding-constraint.md)
+-   [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_http_header_auth_security_binding_constraint?branch=master)
 
-    The value from policy is always [**WS\_PROTECTION\_LEVEL\_NONE**](ws-protection-level.md).
+    The value from policy is always [**WS\_PROTECTION\_LEVEL\_NONE**](/windows/win32/WebServices/ne-webservices-ws_protection_level?branch=master).
 
 ## Constraints with Kerberos APREQ Security Binding
 
-This section applies when the [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-kerberos-apreq-message-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used in this case:
+This section applies when the [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used in this case:
 
 ``` syntax
 <sp:EndorsingSupportingTokens...>
@@ -239,7 +247,7 @@ This section applies when the [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING
 
 ## Constraints with Message Security Binding
 
-This section applies when the [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-username-message-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used in this case:
+This section applies when the [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_username_message_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used in this case:
 
 ``` syntax
 <sp:SignedSupportingTokens>
@@ -251,7 +259,7 @@ This section applies when the [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONST
 
 ## WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT
 
-This section applies when the [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-cert-message-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used in this case:
+This section applies when the [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_cert_message_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used in this case:
 
 ``` syntax
 <sp:EndorsingSupportingTokens>
@@ -263,7 +271,7 @@ This section applies when the [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAIN
 
 ## WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT
 
-This section applies when the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-issued-token-message-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used in this case:
+This section applies when the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_issued_token_message_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used in this case:
 
 ``` syntax
 <sp:EndorsingSupportingTokens...>
@@ -287,17 +295,17 @@ This section applies when the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_
 </sp:EndorsingSupportingTokens>
 ```
 
-The following describes the mapping of fields of the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-issued-token-message-security-binding-constraint.md) to the above policy:
+The following describes the mapping of fields of the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_issued_token_message_security_binding_constraint?branch=master) to the above policy:
 
 -   The claimConstraints field is used to verify the set of claim type URIs that appear within the wsi:ClaimType element above.
 
--   The issuerAddress field corresponds to the wsp:Issuer element above, which is the [**WS\_ENDPOINT\_ADDRESS**](ws-endpoint-address.md) of the service that can issue the token.
+-   The issuerAddress field corresponds to the wsp:Issuer element above, which is the [**WS\_ENDPOINT\_ADDRESS**](/windows/win32/WebServices/ns-webservices-_ws_endpoint_address?branch=master) of the service that can issue the token.
 
 -   The requestSecurityTokenTemplate field corresponds to the child elements of the wsp:RequestSecurityTokenTemplate element.
 
 ## WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT
 
-This section applies when the [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-security-context-message-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used in this case:
+This section applies when the [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_security_context_message_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used in this case:
 
 ``` syntax
 <sp:EndorsingSupportingTokens...>
@@ -317,11 +325,11 @@ This section applies when the [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDI
 </sp:EndorsingSupportingTokens>
 ```
 
-The entropy mode is determined by the &lt;sp:Trust10&gt; assertion. &lt;sp:RequireClientEntropy/&gt; and &lt;sp:RequireServerEntropy/&gt; =&gt; [**WS\_SECURITY\_KEY\_ENTROPY\_MODE\_COMBINED**](ws-security-key-entropy-mode.md) &lt;sp:RequireClientEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_CLIENT\_ONLY** &lt;sp:RequireServerEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_SERVER\_ONLY**
+The entropy mode is determined by the &lt;sp:Trust10&gt; assertion. &lt;sp:RequireClientEntropy/&gt; and &lt;sp:RequireServerEntropy/&gt; =&gt; [**WS\_SECURITY\_KEY\_ENTROPY\_MODE\_COMBINED**](/windows/win32/WebServices/ne-webservices-ws_security_key_entropy_mode?branch=master) &lt;sp:RequireClientEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_CLIENT\_ONLY** &lt;sp:RequireServerEntropy/&gt; =&gt; **WS\_SECURITY\_KEY\_ENTROPY\_MODE\_SERVER\_ONLY**
 
 ## WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY\_TRUST\_VERSION
 
-This section applies when the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-issued-token-message-security-binding-constraint.md) security binding constraint is specified. The following policy assertions are used to identify the [**WS\_TRUST\_VERSION**](ws-trust-version.md) and associated options.
+This section applies when the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_issued_token_message_security_binding_constraint?branch=master) security binding constraint is specified. The following policy assertions are used to identify the [**WS\_TRUST\_VERSION**](/windows/win32/WebServices/ne-webservices-ws_trust_version?branch=master) and associated options.
 
 ``` syntax
 <sp:Trust10> => WS_TRUST_VERSION_FEBRUARY_2005
@@ -335,18 +343,18 @@ This section applies when the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_
 </sp:Trust10>
 ```
 
-The trust version can be specified using the [**WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY\_CONSTRAINT**](ws-request-security-token-property-constraint.md) with a property id of [**WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY\_TRUST\_VERSION**](ws-request-security-token-property-id.md).
+The trust version can be specified using the [**WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_request_security_token_property_constraint?branch=master) with a property id of [**WS\_REQUEST\_SECURITY\_TOKEN\_PROPERTY\_TRUST\_VERSION**](/windows/win32/WebServices/ne-webservices-ws_request_security_token_property_id?branch=master).
 
 ## WS\_SECURITY\_PROPERTY\_SECURITY\_HEADER\_VERSION
 
 This section applies when any of the following binding constraints are used:
 
--   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-kerberos-apreq-message-security-binding-constraint.md)
--   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-username-message-security-binding-constraint.md)
--   [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-cert-message-security-binding-constraint.md)
--   [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-issued-token-message-security-binding-constraint.md)
+-   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint?branch=master)
+-   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_username_message_security_binding_constraint?branch=master)
+-   [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_cert_message_security_binding_constraint?branch=master)
+-   [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_issued_token_message_security_binding_constraint?branch=master)
 
-The header security version (as specified by [**WS\_SECURITY\_PROPERTY\_SECURITY\_HEADER\_VERSION**](ws-security-property-id.md)) is determined by one of the following policy assertions:
+The header security version (as specified by [**WS\_SECURITY\_PROPERTY\_SECURITY\_HEADER\_VERSION**](/windows/win32/WebServices/ne-webservices-ws_security_property_id?branch=master)) is determined by one of the following policy assertions:
 
 ``` syntax
 <wsp:Wss10> ... </wsp:Wss10> => WS_SECURITY_HEADER_VERSION_1_0
@@ -360,12 +368,12 @@ The header security version (as specified by [**WS\_SECURITY\_PROPERTY\_SECURITY
 
 This section applies when any of the following binding constraints are used:
 
--   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-kerberos-apreq-message-security-binding-constraint.md)
--   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-username-message-security-binding-constraint.md)
--   [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-cert-message-security-binding-constraint.md)
--   [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-issued-token-message-security-binding-constraint.md)
+-   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint?branch=master)
+-   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_username_message_security_binding_constraint?branch=master)
+-   [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_cert_message_security_binding_constraint?branch=master)
+-   [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_issued_token_message_security_binding_constraint?branch=master)
 
-The security header layout (as specified by [**WS\_SECURITY\_PROPERTY\_SECURITY\_HEADER\_LAYOUT**](ws-security-property-id.md)) is determined by one of the following policy assertions:
+The security header layout (as specified by [**WS\_SECURITY\_PROPERTY\_SECURITY\_HEADER\_LAYOUT**](/windows/win32/WebServices/ne-webservices-ws_security_property_id?branch=master)) is determined by one of the following policy assertions:
 
 ``` syntax
 <sp:TransportBinding>
@@ -411,12 +419,12 @@ The security header layout (as specified by [**WS\_SECURITY\_PROPERTY\_SECURITY\
 
 This section applies when any of the following binding constraints are used:
 
--   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-kerberos-apreq-message-security-binding-constraint.md)
--   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-username-message-security-binding-constraint.md)
--   [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-cert-message-security-binding-constraint.md)
--   [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](ws-issued-token-message-security-binding-constraint.md)
+-   [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_kerberos_apreq_message_security_binding_constraint?branch=master)
+-   [**WS\_USERNAME\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_username_message_security_binding_constraint?branch=master)
+-   [**WS\_CERT\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_cert_message_security_binding_constraint?branch=master)
+-   [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_CONSTRAINT**](/windows/win32/WebServices/ns-webservices-_ws_issued_token_message_security_binding_constraint?branch=master)
 
-Whether or not a timestamp is included in the security header (as specified by [**WS\_SECURITY\_PROPERTY\_TIMESTAMP\_USAGE**](ws-security-property-id.md)) is determined by the presence of the sp:IncludeTimestamp in the following location:
+Whether or not a timestamp is included in the security header (as specified by [**WS\_SECURITY\_PROPERTY\_TIMESTAMP\_USAGE**](/windows/win32/WebServices/ne-webservices-ws_security_property_id?branch=master)) is determined by the presence of the sp:IncludeTimestamp in the following location:
 
 ``` syntax
 <sp:TransportBinding>
@@ -426,9 +434,9 @@ Whether or not a timestamp is included in the security header (as specified by [
 </sp:TransportBinding>
 ```
 
-If the sp:IncludeTimestamp assertion is present, the value from policy is [**WS\_SECURITY\_TIMESTAMP\_USAGE\_ALWAYS**](ws-security-timestamp-usage.md).
+If the sp:IncludeTimestamp assertion is present, the value from policy is [**WS\_SECURITY\_TIMESTAMP\_USAGE\_ALWAYS**](/windows/win32/WebServices/ne-webservices-ws_security_timestamp_usage?branch=master).
 
-If the sp:IncludeTimestamp assertion is not present, the value from policy is [**WS\_SECURITY\_TIMESTAMP\_USAGE\_NEVER**](ws-security-timestamp-usage.md).
+If the sp:IncludeTimestamp assertion is not present, the value from policy is [**WS\_SECURITY\_TIMESTAMP\_USAGE\_NEVER**](/windows/win32/WebServices/ne-webservices-ws_security_timestamp_usage?branch=master).
 
  
 

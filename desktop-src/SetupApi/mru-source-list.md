@@ -1,7 +1,12 @@
 ---
-Description: 'The Setup API provides functions that store the most recently used (MRU) source directories. This information is stored on the user's system and can be accessed by subsequent installations.'
-ms.assetid: '010f8f88-999e-4dde-bffb-ac1a07256d55'
+Description: The Setup API provides functions that store the most recently used (MRU) source directories. This information is stored on the users system and can be accessed by subsequent installations.
+ms.assetid: 010f8f88-999e-4dde-bffb-ac1a07256d55
 title: MRU Source List
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MRU Source List

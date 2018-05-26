@@ -4,17 +4,22 @@ description: Specifies the lowest possible version of the Cluster service with w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '153e0e14-e1b3-458b-bdc7-2ccdb67dabad'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 153e0e14-e1b3-458b-bdc7-2ccdb67dabad
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["NodeLowestVersion Failover Cluster ,for nodes", "NodeLowestVersion Failover Cluster"]
+keywords:
+- NodeLowestVersion Failover Cluster ,for nodes
+- NodeLowestVersion Failover Cluster
 topic_type:
 - apiref
 api_name:
 - NodeLowestVersion
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NodeLowestVersion
@@ -27,14 +32,14 @@ Specifies the lowest possible version of the [Cluster service](cluster-service.m
 |-----------|--------------------------------------------------|
 | Data type | **DWORD**                                        |
 | Access    | [Read-only](read-only-properties.md)            |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md)        |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)        |
 | Minimum   | 0x0100E0                                         |
 | Maximum   | 0xFFFFFF                                         |
 | Default   | Previous release version of the Cluster service. |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -47,7 +52,7 @@ The value of [**NodeHighestVersion**](nodes-nodehighestversion.md) is set when t
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -58,18 +63,18 @@ The value of [**NodeHighestVersion**](nodes-nodehighestversion.md) is set when t
 [**NodeHighestVersion**](nodes-nodehighestversion.md)
 </dt> <dt>
 
-[**CLUSTERVERSIONINFO**](clusterversioninfo.md)
+[**CLUSTERVERSIONINFO**](/windows/previous-versions/ClusAPI/ns-clusapi-clusterversioninfo?branch=master)
 </dt> <dt>
 
-[**GetClusterInformation**](getclusterinformation.md)
+[**GetClusterInformation**](/windows/previous-versions/ClusAPI/nc-clusapi-pclusapi_get_cluster_information?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -2,10 +2,13 @@
 title: VPNClientPSProvider Provider
 description: This section provides reference information for VPNClientPSProvider provider classes defined in VPNClientPSProvider.mof and implemented in VPNClientPSProvider.dll.
 audience: developer
-ms.assetid: '35188939-BBBE-4C25-ABBA-C159E011C6AC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 35188939-BBBE-4C25-ABBA-C159E011C6AC
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VPNClientPSProvider Provider

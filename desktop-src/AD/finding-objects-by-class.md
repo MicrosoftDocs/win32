@@ -4,11 +4,17 @@ description: A typical search queries for a specific object class.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1805f98a-7e6b-4b4a-b173-dfb5d17e539a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1805f98a-7e6b-4b4a-b173-dfb5d17e539a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Finding Objects by Class AD", "Active Directory, using, searching, by class", "object AD , searching by class"]
+keywords:
+- Finding Objects by Class AD
+- Active Directory, using, searching, by class
+- object AD , searching by class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Finding Objects by Class

@@ -1,14 +1,19 @@
 ---
-Description: 'When a client and server finish setting up the security context, message support functions can be used.'
-ms.assetid: 'a65054bd-31cb-4842-af59-82cfe799fb70'
+Description: When a client and server finish setting up the security context, message support functions can be used.
+ms.assetid: a65054bd-31cb-4842-af59-82cfe799fb70
 title: Signing a Message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signing a Message
 
-When a client and server finish setting up the [*security context*](security.s_gly#-security-security-context-gly), message support functions can be used. The client and server use the security context token created when the session was established to call [**MakeSignature**](makesignature.md) and [**VerifySignature**](verifysignature.md) functions. The context token can be used with [**EncryptMessage (General)**](encryptmessage--general-.md) and [**DecryptMessage (General)**](decryptmessage--general-.md) for communications [*privacy*](security.p_gly#-security-privacy-gly).
+When a client and server finish setting up the [*security context*](security.s_gly#-security-security-context-gly), message support functions can be used. The client and server use the security context token created when the session was established to call [**MakeSignature**](/windows/win32/Sspi/nf-sspi-makesignature?branch=master) and [**VerifySignature**](/windows/win32/Sspi/nf-sspi-verifysignature?branch=master) functions. The context token can be used with [**EncryptMessage (General)**](/windows/win32/Sspi/?branch=master) and [**DecryptMessage (General)**](/windows/win32/Sspi/?branch=master) for communications [*privacy*](security.p_gly#-security-privacy-gly).
 
-The following example shows the client side generating a signed message to send to the server. Before calling [**MakeSignature**](makesignature.md), the client calls [**QueryContextAttributes (General)**](querycontextattributes--general-.md) with a [**SecPkgContext\_Sizes**](secpkgcontext-sizes.md) structure to determine the length of the buffer needed to hold the message signature. If the **cbMaxSignature** member is zero, the [*security package*](security.s_gly#-security-security-package-gly) does not support signing messages. Otherwise, this member indicates the size of the buffer to allocate to receive the signature.
+The following example shows the client side generating a signed message to send to the server. Before calling [**MakeSignature**](/windows/win32/Sspi/nf-sspi-makesignature?branch=master), the client calls [**QueryContextAttributes (General)**](/windows/win32/Sspi/?branch=master) with a [**SecPkgContext\_Sizes**](/windows/win32/Sspi/ns-sspi-_secpkgcontext_sizes?branch=master) structure to determine the length of the buffer needed to hold the message signature. If the **cbMaxSignature** member is zero, the [*security package*](security.s_gly#-security-security-package-gly) does not support signing messages. Otherwise, this member indicates the size of the buffer to allocate to receive the signature.
 
 The example assumes that a **SecHandle** variable named *phContext* and a **SOCKET** structure named *s* are initialized. For the declarations and initiations of these variables, see [Using SSPI with a Windows Sockets Client](using-sspi-with-a-windows-sockets-client.md) and [Using SSPI with a Windows Sockets Server](using-sspi-with-a-windows-sockets-server.md). This example includes calls to functions in Secur32.lib, which must be included among the link libraries.
 
@@ -108,10 +113,10 @@ if(!SendMsg(
 
 
 
-[**MakeSignature**](makesignature.md) returns **TRUE** if the context is set up to allow signing messages and if the input buffer descriptor is correctly formatted. After the message is signed, the message and the signature with their lengths are sent to the remote computer.
+[**MakeSignature**](/windows/win32/Sspi/nf-sspi-makesignature?branch=master) returns **TRUE** if the context is set up to allow signing messages and if the input buffer descriptor is correctly formatted. After the message is signed, the message and the signature with their lengths are sent to the remote computer.
 
 > [!Note]  
-> The data contents of the [**SecBuffer**](secbuffer.md) structures are sent, not the **SecBuffer** structures themselves nor the [**SecBufferDesc**](secbufferdesc.md) structure. New **SecBuffer** structures and a new **SecBufferDesc** structure are created by the receiving application to verify the signature.
+> The data contents of the [**SecBuffer**](/windows/win32/Sspi/ns-sspi-_secbuffer?branch=master) structures are sent, not the **SecBuffer** structures themselves nor the [**SecBufferDesc**](/windows/win32/Sspi/ns-sspi-_secbufferdesc?branch=master) structure. New **SecBuffer** structures and a new **SecBufferDesc** structure are created by the receiving application to verify the signature.
 
  
 

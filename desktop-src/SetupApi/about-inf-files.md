@@ -1,7 +1,12 @@
 ---
-Description: 'An INF file is a text file divided into different types of formatted sections.'
-ms.assetid: '1dd8aba7-2035-4d78-8745-d355e01b9eb5'
+Description: An INF file is a text file divided into different types of formatted sections.
+ms.assetid: 1dd8aba7-2035-4d78-8745-d355e01b9eb5
 title: About INF Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About INF Files
@@ -39,7 +44,7 @@ The following INF sections can be used with the setup functions to create an ins
 
  
 
-An INF file can also contain private sections. The format of a private section depends on the setup application. Private sections in an INF file can be used to store specialized information used by a specific setup application. The Setup API includes functions, such as [**SetupGetLineText**](setupgetlinetext.md)and [**SetupGetIntField**](setupgetintfield.md), that can retrieve information from the private sections of INF files at the level lines and fields within lines.
+An INF file can also contain private sections. The format of a private section depends on the setup application. Private sections in an INF file can be used to store specialized information used by a specific setup application. The Setup API includes functions, such as [**SetupGetLineText**](/windows/win32/Setupapi/nf-setupapi-setupgetlinetexta?branch=master)and [**SetupGetIntField**](/windows/win32/Setupapi/nf-setupapi-setupgetintfield?branch=master), that can retrieve information from the private sections of INF files at the level lines and fields within lines.
 
  
 

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ServiceAffectsElement class
 description: Associates a virtual computer system instance with the management service that controls its state.
-ms.assetid: '1078857e-0eb1-4e6c-b9b1-4a9efbe44cc9'
-keywords: ["Msvm_ServiceAffectsElement class Hyper-V", "Msvm_ServiceAffectsElement class Hyper-V , described"]
+ms.assetid: 1078857e-0eb1-4e6c-b9b1-4a9efbe44cc9
+keywords:
+- Msvm_ServiceAffectsElement class Hyper-V
+- Msvm_ServiceAffectsElement class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -15,6 +17,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ServiceAffectsElement class
@@ -30,9 +37,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ServiceAffectsElement : CIM_ServiceAffectsElement
 {
   CIM_ManagedElement REF AffectedElement;
-  CIM_Service        REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  CIM_Service        REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -186,14 +193,14 @@ This property is inherited from [**CIM\_ServiceAffectsElement**](cim-serviceaffe
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -228,9 +235,9 @@ Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC F
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -249,9 +256,9 @@ Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC F
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

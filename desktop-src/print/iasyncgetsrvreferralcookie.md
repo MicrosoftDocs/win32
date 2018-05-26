@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'F22F5706-7238-43C1-B1F6-E41A0F9F3665'
+---
+Description: .
+ms.assetid: F22F5706-7238-43C1-B1F6-E41A0F9F3665
 title: IAsyncGetSrvReferralCookie interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAsyncGetSrvReferralCookie interface

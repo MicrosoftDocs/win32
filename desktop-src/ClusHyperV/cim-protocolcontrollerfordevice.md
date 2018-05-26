@@ -4,13 +4,15 @@ description: Represents an association between a logical device and a protocol c
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd95aa8d8-aa63-44a5-af78-31ac7a93ad9f'
-ms.prod: 'windows-server-dev'
+ms.assetid: d95aa8d8-aa63-44a5-af78-31ac7a93ad9f
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_ProtocolControllerForDevice class", "CIM_ProtocolControllerForDevice class, described"]
+keywords:
+- CIM_ProtocolControllerForDevice class
+- CIM_ProtocolControllerForDevice class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ProtocolControllerForDevice class
@@ -39,10 +44,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class CIM_ProtocolControllerForDevice : CIM_Dependency
 {
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
-  string                     DeviceNumber;
-  uint16                     AccessPriority;
-  uint16                     AccessState;
+  CIM_LogicalDevice      REF Dependent;
+  string                     DeviceNumber;
+  uint16                     AccessPriority;
+  uint16                     AccessState;
 };
 ```
 
@@ -173,7 +178,7 @@ The address of the associated device in the context of the protocol controler.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -190,9 +195,9 @@ The address of the associated device in the context of the protocol controler.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

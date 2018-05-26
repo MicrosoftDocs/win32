@@ -1,8 +1,26 @@
 ---
 title: MTP Device Extensions for Metadata Transfer
 description: MTP Device Extensions for Metadata Transfer
-ms.assetid: '9cf68373-e84f-4568-a9da-16ddee0fc4e9'
-keywords: ["Windows Media Player,MTP device extensions", "Windows Media Player,device extensions", "Windows Media Player,extensions", "Windows Media Player,metadata", "Windows Media Player,Media Transfer Protocol (MTP)", "Media Transfer Protocol (MTP)", "MTP (Media Transfer Protocol)", "metadata,MTP device extensions", "metadata,device extensions", "metadata,extensions", "device extensions,metadata transfer", "extensions,metadata transfer", "MTP device extensions for metadata transfer"]
+ms.assetid: 9cf68373-e84f-4568-a9da-16ddee0fc4e9
+keywords:
+- Windows Media Player,MTP device extensions
+- Windows Media Player,device extensions
+- Windows Media Player,extensions
+- Windows Media Player,metadata
+- Windows Media Player,Media Transfer Protocol (MTP)
+- Media Transfer Protocol (MTP)
+- MTP (Media Transfer Protocol)
+- metadata,MTP device extensions
+- metadata,device extensions
+- metadata,extensions
+- device extensions,metadata transfer
+- extensions,metadata transfer
+- MTP device extensions for metadata transfer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MTP Device Extensions for Metadata Transfer
@@ -25,7 +43,7 @@ For a device to be recognized as supporting metadata transfer through the Window
 
 
 
- 
+ 
 
 The following table provides details about the MTP operation for accelerated metadata transfer.
 
@@ -50,7 +68,7 @@ The following table provides details about the MTP operation for accelerated met
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,7 +83,7 @@ Status is indicated through Response Parameter 3 in a bitwise fashion by using t
 
 
 
- 
+ 
 
 Bits 2 through 31 are reserved for future use. These bits should be set to zero.
 
@@ -82,9 +100,9 @@ Files reported as having been removed from the device can be copied to the devic
 [**Device Extensions for Accelerated Metadata Transfer**](device-extensions-for-accelerated-metadata-transfer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

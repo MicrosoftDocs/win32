@@ -1,7 +1,12 @@
 ---
-Description: 'The GetNPPEtypeSapFilter function retrieves the Etype/Sap filter from a given BLOB.'
-ms.assetid: 'c4891eff-ab2d-43ff-8d2b-3aa299570c0a'
+Description: The GetNPPEtypeSapFilter function retrieves the Etype/Sap filter from a given BLOB.
+ms.assetid: c4891eff-ab2d-43ff-8d2b-3aa299570c0a
 title: GetNPPEtypeSapFilter function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNPPEtypeSapFilter function
@@ -13,13 +18,13 @@ The **GetNPPEtypeSapFilter** function retrieves the Etype/Sap filter from a give
 
 ```C++
 DWORD GetNPPEtypeSapFilter(
-  _In_  HBLOB  hBlob,
-  _Out_ WORD   *pnSaps,
-  _Out_ WORD   *pnEtypes,
-  _Out_ LPBYTE *ppSapTable,
-  _Out_ LPWORD *ppEtypeTable,
-  _Out_ DWORD  *pFilterFlags,
-  _Out_ HBLOB  hErrorBlob
+  _In_  HBLOB  hBlob,
+  _Out_ WORD   *pnSaps,
+  _Out_ WORD   *pnEtypes,
+  _Out_ LPBYTE *ppSapTable,
+  _Out_ LPWORD *ppEtypeTable,
+  _Out_ DWORD  *pFilterFlags,
+  _Out_ HBLOB  hErrorBlob
 );
 ```
 
@@ -94,8 +99,8 @@ The Etype/Sap information is stored in the **Config** category of the NPP **Owne
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -109,9 +114,9 @@ The Etype/Sap information is stored in the **Config** category of the NPP **Owne
 [SetNPPEtypeSapFilter](setnppetypesapfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

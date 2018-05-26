@@ -1,8 +1,14 @@
 ---
 title: ARIA Container Role Error
 description: ARIA Container Role Error
-ms.assetid: 'AF207293-1172-43D0-B92C-C3070876DF54'
-keywords: ["AriaContainerRoleErrorId"]
+ms.assetid: AF207293-1172-43D0-B92C-C3070876DF54
+keywords:
+- AriaContainerRoleErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Container Role Error

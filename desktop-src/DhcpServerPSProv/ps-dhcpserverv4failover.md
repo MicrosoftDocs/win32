@@ -4,13 +4,15 @@ description: DhcpServer v4Failover.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0356dcd8-8d2c-4fe7-a3d2-9cbef9b0a869'
-ms.prod: 'windows-server-dev'
+ms.assetid: 0356dcd8-8d2c-4fe7-a3d2-9cbef9b0a869
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["PS_DhcpServerv4Failover class", "PS_DhcpServerv4Failover class, described"]
+keywords:
+- PS_DhcpServerv4Failover class
+- PS_DhcpServerv4Failover class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PS\_DhcpServerv4Failover class
@@ -59,7 +64,7 @@ The **PS\_DhcpServerv4Failover** class has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -68,16 +73,16 @@ The **PS\_DhcpServerv4Failover** class has these methods.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

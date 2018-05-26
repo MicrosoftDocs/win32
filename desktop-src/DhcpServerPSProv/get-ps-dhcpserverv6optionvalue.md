@@ -4,13 +4,16 @@ description: Returns the IPv6 option values for one or more IPv6 options either 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '87e4d082-4174-49ef-aca7-053f76ef01be'
-ms.prod: 'windows-server-dev'
+ms.assetid: 87e4d082-4174-49ef-aca7-053f76ef01be
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Get method", "Get method, PS_DhcpServerv6OptionValue class", "PS_DhcpServerv6OptionValue class, Get method"]
+keywords:
+- Get method
+- Get method, PS_DhcpServerv6OptionValue class
+- PS_DhcpServerv6OptionValue class, Get method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Get method of the PS\_DhcpServerv6OptionValue class
@@ -30,15 +36,15 @@ Returns the IPv6 option values for one or more IPv6 options either for a specifi
 
 ```mof
 uint32 Get(
-  [in]  string                  ComputerName,
-  [in]  string                  VendorClass,
-  [in]  string                  Prefix,
-  [in]  string                  ReservedIP,
-  [in]  string                  UserClass,
-  [in]  uint32                  OptionId[],
-  [in]  boolean                 All,
-  [in]  boolean                 Brief,
-  [out] DhcpServerv6OptionValue cmdletOutput[]
+  [in]  string                  ComputerName,
+  [in]  string                  VendorClass,
+  [in]  string                  Prefix,
+  [in]  string                  ReservedIP,
+  [in]  string                  UserClass,
+  [in]  uint32                  OptionId[],
+  [in]  boolean                 All,
+  [in]  boolean                 Brief,
+  [out] DhcpServerv6OptionValue cmdletOutput[]
 );
 ```
 
@@ -118,7 +124,7 @@ An embedded instance of the [**DhcpServerv6OptionValue**](dhcpserverv6optionvalu
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -132,9 +138,9 @@ An embedded instance of the [**DhcpServerv6OptionValue**](dhcpserverv6optionvalu
 [**PS\_DhcpServerv6OptionValue**](ps-dhcpserverv6optionvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

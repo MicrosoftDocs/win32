@@ -1,7 +1,12 @@
 ---
-Description: 'The sample application described in this topic demonstrates the representation of strings using Unicode normalization.'
-ms.assetid: 'f1f789f9-f12b-465c-8c84-33a8efa6fbc5'
-title: 'NLS: Unicode Normalization Sample'
+Description: The sample application described in this topic demonstrates the representation of strings using Unicode normalization.
+ms.assetid: f1f789f9-f12b-465c-8c84-33a8efa6fbc5
+title: NLS Unicode Normalization Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NLS: Unicode Normalization Sample
@@ -12,8 +17,8 @@ The sample application calls all four Unicode normalization forms with the same 
 
 This sample demonstrates the following NLS API functions:
 
--   [**IsNormalizedString**](isnormalizedstring.md)
--   [**NormalizeString**](normalizestring.md)
+-   [**IsNormalizedString**](/windows/win32/Winnls/nf-winnls-isnormalizedstring?branch=master)
+-   [**NormalizeString**](/windows/win32/Winnls/nf-winnls-normalizestring?branch=master)
 
 
 ```C++

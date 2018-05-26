@@ -1,7 +1,12 @@
 ---
 title: Device Host Security Considerations
 description: Using the device host creates security issues.
-ms.assetid: '7cb445ea-5df4-4030-babd-62527b4d6210'
+ms.assetid: 7cb445ea-5df4-4030-babd-62527b4d6210
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device Host Security Considerations
@@ -20,7 +25,7 @@ When you are creating a hosted device, you need to take into consideration some 
 -   Registering a running device requires Administrator, Local Service, or Local System privilege.
 -   When the device host is started, it is run as [LocalService](https://msdn.microsoft.com/library/windows/desktop/ms684188). This gives the device the ability to generate audits and read the **HKEY\_LOCAL\_MACHINE** registry key. The device does have access to **HKEY\_CURRENT\_USER**. The LocalService account can use resources to which LocalService has been granted access, as well as those that grant access to AuthenticatedUser. The device has restricted file system access.
 -   The file system ACLs must be updated to allow [LocalService](https://msdn.microsoft.com/library/windows/desktop/ms684188) access to the resource directory.
--   If your device must have more security access, you can create your own process for the device and register it by using [**IUPnPRegistrar::RegisterRunningDevice**](iupnpregistrar-registerrunningdevice.md).
+-   If your device must have more security access, you can create your own process for the device and register it by using [**IUPnPRegistrar::RegisterRunningDevice**](/windows/win32/Upnphost/nf-upnphost-iupnpregistrar-registerrunningdevice?branch=master).
 
  
 

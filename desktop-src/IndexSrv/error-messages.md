@@ -1,7 +1,12 @@
 ---
 title: Error Messages
 description: Error Messages
-ms.assetid: '6baa32d7-58a5-48cc-a7cb-9f7a3fd8813c'
+ms.assetid: 6baa32d7-58a5-48cc-a7cb-9f7a3fd8813c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Messages

@@ -1,7 +1,12 @@
 ---
 title: Windows Connect Now
 description: .
-ms.assetid: 'c551b8ae-2b87-4661-8d86-22010d18e058'
+ms.assetid: c551b8ae-2b87-4661-8d86-22010d18e058
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Connect Now
@@ -16,7 +21,7 @@ The Windows Connect Now API is designed for use with C/C++.
 
 ## Run-time requirements
 
-Windows Connect Now is supported starting with Windows 7.
+Windows Connect Now is supported starting with Windows 7.
 
 ## In this section
 
@@ -29,11 +34,11 @@ Windows Connect Now is supported starting with Windows 7.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

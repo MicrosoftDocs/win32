@@ -4,13 +4,16 @@ description: Controls replication by either forcing or suspending replication. D
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ba1bae4-2a9d-495c-b7ba-7e44f4cfa301'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2ba1bae4-2a9d-495c-b7ba-7e44f4cfa301
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ForceReplication method Distributed File System Replication", "ForceReplication method Distributed File System Replication , DfsrConnectionInfo class", "DfsrConnectionInfo class Distributed File System Replication , ForceReplication method"]
+keywords:
+- ForceReplication method Distributed File System Replication
+- ForceReplication method Distributed File System Replication , DfsrConnectionInfo class
+- DfsrConnectionInfo class Distributed File System Replication , ForceReplication method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ForceReplication method of the DfsrConnectionInfo class
@@ -30,9 +36,9 @@ Controls replication by either forcing or suspending replication. DFSR will reve
 
 ```mof
 uint32 ForceReplication(
-  [in] uint32 Mode,
-  [in] uint32 DurationInMin,
-  [in] uint32 Bandwidth
+  [in] uint32 Mode,
+  [in] uint32 DurationInMin,
+  [in] uint32 Bandwidth
 );
 ```
 
@@ -297,9 +303,9 @@ This method is meaningful only for inbound connections. It always fails with an 
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -313,9 +319,9 @@ This method is meaningful only for inbound connections. It always fails with an 
 [**DfsrConnectionInfo**](dfsrconnectioninfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Notifies a filter of the video renderer''s window.'
-ms.assetid: '65d2f40e-c42c-4d71-b9b3-7662a8be0953'
-title: 'EC\_NOTIFY\_WINDOW'
+Description: Notifies a filter of the video renderers window.
+ms.assetid: 65d2f40e-c42c-4d71-b9b3-7662a8be0953
+title: EC\_NOTIFY\_WINDOW
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_NOTIFY\_WINDOW
@@ -32,7 +37,7 @@ This event is used internally by DirectShow. The filter graph manager does not p
 
 ## Remarks
 
-When a video renderer is connected, it checks whether the upstream output pin supports the [**IMediaEventSink**](imediaeventsink.md) interface. If so, the renderer sends this event to the upstream filter.
+When a video renderer is connected, it checks whether the upstream output pin supports the [**IMediaEventSink**](/windows/win32/Strmif/nn-strmif-imediaeventsink?branch=master) interface. If so, the renderer sends this event to the upstream filter.
 
 ## Requirements
 
@@ -54,9 +59,9 @@ When a video renderer is connected, it checks whether the upstream output pin su
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

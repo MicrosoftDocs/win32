@@ -1,7 +1,12 @@
-﻿---
-Description: 'Establishes the signer of a SignedData or SignedCode object.'
-ms.assetid: '380c9cf3-27a2-4354-b1c8-97cec33f4e44'
+---
+Description: Establishes the signer of a SignedData or SignedCode object.
+ms.assetid: 380c9cf3-27a2-4354-b1c8-97cec33f4e44
 title: Signer object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Signer object

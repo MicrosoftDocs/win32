@@ -1,6 +1,11 @@
 ---
-Description: 'Control Panel items are DLLs or executable (.exe) files that let users configure the environment of Windows. They are typically accessed by clicking an icon in the Control Panel.'
+Description: Control Panel items are DLLs or executable (.exe) files that let users configure the environment of Windows. They are typically accessed by clicking an icon in the Control Panel.
 title: Implementing Control Panel Items
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing Control Panel Items

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The print spooler calls a printer interface DLL''s DrvDriverEvent function when the spooler processes driver-specific events that might require action by the printer driver.'
-ms.assetid: '84d1f438-b6ee-4199-89ae-9384601203b3'
+---
+Description: The print spooler calls a printer interface DLLs DrvDriverEvent function when the spooler processes driver-specific events that might require action by the printer driver.
+ms.assetid: 84d1f438-b6ee-4199-89ae-9384601203b3
 title: DrvDriverEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DrvDriverEvent function

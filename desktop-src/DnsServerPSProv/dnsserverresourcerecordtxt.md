@@ -2,13 +2,15 @@
 title: DnsServerResourceRecordTxt class
 description: Represents a TXT resource record for DNS database.
 audience: developer
-ms.assetid: '88acd1e2-e603-45f2-b801-7f3abb87879c'
-ms.prod: 'windows-server-dev'
+ms.assetid: 88acd1e2-e603-45f2-b801-7f3abb87879c
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DnsServerResourceRecordTxt class", "DnsServerResourceRecordTxt class, described"]
+keywords:
+- DnsServerResourceRecordTxt class
+- DnsServerResourceRecordTxt class, described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DnsServerResourceRecordTxt class
@@ -68,7 +73,7 @@ The content of the TXT resource record.
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -85,9 +90,9 @@ The content of the TXT resource record.
 [DnsServerPSProvider Provider](dns-server-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

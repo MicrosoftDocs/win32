@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '14291b2a-87d1-4acf-9f31-d4014e941cbb'
-title: 'System.Message.SenderAddress'
+Description: .
+ms.assetid: 14291b2a-87d1-4acf-9f31-d4014e941cbb
+title: System.Message.SenderAddress
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Message.SenderAddress

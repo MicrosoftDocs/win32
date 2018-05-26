@@ -1,23 +1,26 @@
 ---
 title: How to Use built-in rights
-description: This topic outlines the built-in rights that the Rights Management SDK 4.2 provides and usage restrictions that an app should enforce in honoring those restrictions.
+description: This topic outlines the built-in rights that the Rights Management SDK 4.2 provides and usage restrictions that an app should enforce in honoring those restrictions.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '9142dd29-f1f4-4c2f-82ac-534f14b8bba1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 9142dd29-f1f4-4c2f-82ac-534f14b8bba1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to: Use built-in rights
 
-This topic outlines the built-in rights that the Rights Management SDK 4.2 provides and usage restrictions that an app should enforce in honoring those restrictions.
+This topic outlines the built-in rights that the Rights Management SDK 4.2 provides and usage restrictions that an app should enforce in honoring those restrictions.
 
 > [!Note]  
 > For the Linux SDK, see the *rights.h* source file for details.
 
- 
+ 
 
 ## Common Rights
 
@@ -70,7 +73,7 @@ This topic outlines the built-in rights that the Rights Management SDK 4.2 provi
 
 
 
- 
+ 
 
 ## Editable Document Rights
 
@@ -153,7 +156,7 @@ This topic outlines the built-in rights that the Rights Management SDK 4.2 provi
 
 
 
- 
+ 
 
 ## Email Rights
 
@@ -236,11 +239,11 @@ This topic outlines the built-in rights that the Rights Management SDK 4.2 provi
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

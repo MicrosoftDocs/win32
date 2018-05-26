@@ -1,14 +1,20 @@
 ---
 title: NORMALMENUITEM structure
 description: Contains information about each item in a menu resource that does not open a menu or a submenu. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: 'c1b84264-2d7f-4bc3-8e74-7b921a0bfe30'
-keywords: ["NORMALMENUITEM structure Menus and Other Resources"]
+ms.assetid: c1b84264-2d7f-4bc3-8e74-7b921a0bfe30
+keywords:
+- NORMALMENUITEM structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - NORMALMENUITEM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NORMALMENUITEM structure
@@ -20,7 +26,7 @@ Contains information about each item in a menu resource that does not open a men
 
 ```C++
 typedef struct {
-  WORD    resInfo;
+  WORD    resInfo;
   szOrOrd menuText;
 } NORMALMENUITEM;
 ```
@@ -49,7 +55,7 @@ The type of menu item. This member can be one of the following values.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,8 +82,8 @@ A menu separator is a special type of menu item that is inactive but appears as 
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -91,7 +97,7 @@ A menu separator is a special type of menu item that is inactive but appears as 
 [**MENUHEADER**](menuheader.md)
 </dt> <dt>
 
-[**MENUITEMINFO**](menuiteminfo.md)
+[**MENUITEMINFO**](/windows/win32/Winuser/ns-winuser-tagmenuiteminfoa?branch=master)
 </dt> <dt>
 
 [**POPUPMENUITEM**](popupmenuitem.md)
@@ -103,9 +109,9 @@ A menu separator is a special type of menu item that is inactive but appears as 
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: register
 description: register
-ms.assetid: '45149f8c-8b76-4247-98d7-d141d7268da3'
-keywords: ["register HLSL"]
+ms.assetid: 45149f8c-8b76-4247-98d7-d141d7268da3
+keywords:
+- register HLSL
 topic_type:
 - apiref
 api_name:
 - register
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # register

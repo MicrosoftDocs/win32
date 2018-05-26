@@ -1,7 +1,12 @@
 ---
 title: BackColor Property
 description: BackColor Property
-ms.assetid: 'a82c23bc-b280-4a52-9272-68879557cac7'
+ms.assetid: a82c23bc-b280-4a52-9272-68879557cac7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BackColor Property

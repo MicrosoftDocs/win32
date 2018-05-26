@@ -1,15 +1,18 @@
 ---
-Description: 'Uncompresses the logical shortcut file (or directory) specified in the object path. This method is an extended version of the Uncompress method.'
+Description: Uncompresses the logical shortcut file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aa1c04d1-4cce-4096-bce3-b9c61b9a4eb7'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aa1c04d1-4cce-4096-bce3-b9c61b9a4eb7
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'UncompressEx method of the Win32\_ShortcutFile class'
+title: UncompressEx method of the Win32\_ShortcutFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UncompressEx method of the Win32\_ShortcutFile class
@@ -23,9 +26,9 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 UncompressEx(
-  [out]          string  StopFileName,
-  [in, optional] string  StartFileName,
-  [in, optional] boolean Recursive
+  [out]          string  StopFileName,
+  [in, optional] string  StartFileName,
+  [in, optional] boolean Recursive
 );
 ```
 
@@ -57,7 +60,7 @@ If **true**, the change of ownership will be applied recursively to files and di
 > [!Note]  
 > For file instances, the *Recursive* parameter is ignored.
 
- 
+ 
 
 </dd> </dl>
 
@@ -164,8 +167,8 @@ A parameter specified is not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -182,9 +185,9 @@ A parameter specified is not valid.
 [**Win32\_ShortcutFile**](win32-shortcutfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

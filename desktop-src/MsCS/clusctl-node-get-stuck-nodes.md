@@ -4,11 +4,12 @@ description: Retrieves the bitmap that represents the set of nodes that the curr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '329D7411-9953-4CAF-8040-5EADCF3DAE49'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 329D7411-9953-4CAF-8040-5EADCF3DAE49
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_NODE_GET_STUCK_NODES control code Failover Cluster"]
+keywords:
+- CLUSCTL_NODE_GET_STUCK_NODES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_NODE\_GET\_STUCK\_NODES control code
 
-Retrieves the bitmap that represents the set of [nodes](nodes.md) that the current [*Global Update Manager*](g-gly.md#-wolf-global-update-manager-gly) (GUM) lock owner is waiting for. Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](clusternodecontrol.md) parameter.
+Retrieves the bitmap that represents the set of [nodes](nodes.md) that the current [*Global Update Manager*](g-gly.md#-wolf-global-update-manager-gly) (GUM) lock owner is waiting for. Applications use this [control code](about-control-codes.md) as a [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) parameter.
 
 
 ```C++
@@ -40,7 +44,7 @@ ClusterNodeControl(
 
 ## Parameters
 
-The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNodeControl**](clusternodecontrol.md).
+The following control code function parameter is specific to this control code. For complete parameter descriptions, see [**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master).
 
 <dl> <dt>
 
@@ -60,7 +64,7 @@ When this method returns, contains the combined size, in bytes, of a **DWORD** a
 
 ## Return value
 
-[**ClusterNodeControl**](clusternodecontrol.md) returns one of the following values.
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master) returns one of the following values.
 
 <dl> <dt>
 
@@ -99,17 +103,17 @@ The 32 bits of CLUSCTL\_NODE\_GET\_STUCK\_NODES are defined as follows (for more
 
 | Component      | Bit location | Value                                |
 |----------------|--------------|--------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_NODE** (0x4)         |
+| Object code    | 24 31        | **CLUS\_OBJECT\_NODE** (0x4)         |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)          |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)           |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)       |
 | Type bit       | 20           | External (0x0)                       |
-| Operation code | 0–23         | **CLCTL\_GET\_STUCK\_NODES** (0x2bd) |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)         |
+| Operation code | 0 23         | **CLCTL\_GET\_STUCK\_NODES** (0x2bd) |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)         |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -118,7 +122,7 @@ The 32 bits of CLUSCTL\_NODE\_GET\_STUCK\_NODES are defined as follows (for more
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
+| Minimum supported server<br/> | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/>      |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -133,12 +137,12 @@ The 32 bits of CLUSCTL\_NODE\_GET\_STUCK\_NODES are defined as follows (for more
 [CLUSCTL\_CLUSTER\_GET\_GUM\_LOCK\_OWNER](clusctl-cluster-get-gum-lock-owner.md)
 </dt> <dt>
 
-[**ClusterNodeControl**](clusternodecontrol.md)
+[**ClusterNodeControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternodecontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

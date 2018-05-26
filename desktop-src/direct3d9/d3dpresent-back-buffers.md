@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the number of back buffers that can be used by the device.'
-ms.assetid: '47843a7a-619b-40ba-8111-56e021865353'
-title: 'D3DPRESENT\_BACK\_BUFFERS'
+Description: Specifies the number of back buffers that can be used by the device.
+ms.assetid: 47843a7a-619b-40ba-8111-56e021865353
+title: D3DPRESENT\_BACK\_BUFFERS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DPRESENT\_BACK\_BUFFERS

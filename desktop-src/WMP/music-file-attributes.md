@@ -1,8 +1,23 @@
 ---
 title: Music File Attributes
 description: Music File Attributes
-ms.assetid: '53b0dc75-bfab-4ad3-958e-0365eb8048b9'
-keywords: ["Windows Media Player,music file attributes", "Windows Media Player Mobile,music file attributes", "Windows Media Player object model,music file attributes", "object model,music file attributes", "ActiveX control,music file attributes", "Windows Media Player ActiveX control,music file attributes", "Windows Media Player Mobile ActiveX control,music file attributes", "reference for object model,music file attributes", "attributes,music files", "music file attributes"]
+ms.assetid: 53b0dc75-bfab-4ad3-958e-0365eb8048b9
+keywords:
+- Windows Media Player,music file attributes
+- Windows Media Player Mobile,music file attributes
+- Windows Media Player object model,music file attributes
+- object model,music file attributes
+- ActiveX control,music file attributes
+- Windows Media Player ActiveX control,music file attributes
+- Windows Media Player Mobile ActiveX control,music file attributes
+- reference for object model,music file attributes
+- attributes,music files
+- music file attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Music File Attributes

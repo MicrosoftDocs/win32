@@ -1,7 +1,12 @@
-﻿---
-Description: 'This structure contains the type of event to log (eEventType), the job ID, and the data required by the event.'
-ms.assetid: 'B49FEED5-C90A-4E4F-9B73-E06E56FB4311'
+---
+Description: This structure contains the type of event to log (eEventType), the job ID, and the data required by the event.
+ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 title: BranchOfficeJobData structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BranchOfficeJobData structure

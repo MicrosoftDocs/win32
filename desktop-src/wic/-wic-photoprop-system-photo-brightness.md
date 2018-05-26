@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.Brightness property.'
-ms.assetid: '3fd73845-f1d9-468c-abf8-081109880974'
-title: 'System.Photo.Brightness Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.Brightness property.
+ms.assetid: 3fd73845-f1d9-468c-abf8-081109880974
+title: System.Photo.Brightness Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Brightness Photo Metadata Policy

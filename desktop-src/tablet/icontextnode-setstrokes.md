@@ -1,7 +1,12 @@
 ---
-Description: 'Associates the specified strokes with this IContextNode.'
-ms.assetid: '5ce8893a-da59-4cec-a349-d5ffc4f43905'
-title: 'IContextNode::SetStrokes method'
+Description: Associates the specified strokes with this IContextNode.
+ms.assetid: 5ce8893a-da59-4cec-a349-d5ffc4f43905
+title: IContextNodeSetStrokes method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::SetStrokes method
@@ -13,8 +18,8 @@ Associates the specified strokes with this [**IContextNode**](icontextnode.md).
 
 ```C++
 HRESULT SetStrokes(
-  [in] ULONG ulStrokeIdsCount,
-  [in] LONG  *plStrokeIds
+  [in] ULONG ulStrokeIdsCount,
+  [in] LONG  *plStrokeIds
 );
 ```
 
@@ -56,7 +61,7 @@ If any of the specified strokes are already associated with the [**IInkAnalyzer*
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -103,9 +108,9 @@ If any of the specified strokes are already associated with the [**IInkAnalyzer*
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

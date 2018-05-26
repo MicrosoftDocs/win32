@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the pinhole camera intrinsics for the stream.'
-ms.assetid: '7E5E7C60-9C3F-406B-A7DD-A953181CD314'
-title: 'MFStreamExtension\_PinholeCameraIntrinsics attribute'
+---
+Description: Contains the pinhole camera intrinsics for the stream.
+ms.assetid: 7E5E7C60-9C3F-406B-A7DD-A953181CD314
+title: MFStreamExtension\_PinholeCameraIntrinsics attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFStreamExtension\_PinholeCameraIntrinsics attribute
@@ -14,11 +19,11 @@ Byte array
 
 ## Get/set
 
-To get this attribute, call [**IMFMediaSourceEx::GetStreamAttributes**](imfmediasourceex-getstreamattributes.md).
+To get this attribute, call [**IMFMediaSourceEx::GetStreamAttributes**](/windows/win32/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes?branch=master).
 
 ## Remarks
 
-The value of the attribute is a [**MFPinholeCameraIntrinsics**](mfpinholecameraintrinsics.md).
+The value of the attribute is a [**MFPinholeCameraIntrinsics**](/windows/win32/mfapi/ns-mfapi-_mfpinholecameraintrinsics?branch=master).
 
 ## Requirements
 

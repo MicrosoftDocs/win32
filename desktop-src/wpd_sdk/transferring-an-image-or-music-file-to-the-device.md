@@ -1,7 +1,12 @@
 ---
 Description: Transferring an Image or Music File to the Device
-ms.assetid: 'bace274c-512a-46da-80a7-84734ee880b7'
+ms.assetid: bace274c-512a-46da-80a7-84734ee880b7
 title: Transferring an Image or Music File to the Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transferring an Image or Music File to the Device
@@ -14,8 +19,8 @@ Content transfers are accomplished using the interfaces described in the followi
 
 | Interface                                                                | Description                                                    |
 |--------------------------------------------------------------------------|----------------------------------------------------------------|
-| [**IPortableDeviceContent Interface**](iportabledevicecontent.md)       | Provides access to the content-specific methods.               |
-| [**IPortableDeviceDataStream Interface**](iportabledevicedatastream.md) | Used when writing the content to the device.                   |
+| [**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)       | Provides access to the content-specific methods.               |
+| [**IPortableDeviceDataStream Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedatastream?branch=master) | Used when writing the content to the device.                   |
 | [**IPortableDeviceValues Interface**](iportabledevicevalues.md)         | Used to retrieve properties that describe the content.         |
 | IStream Interface                                                        | Used to simplify reading of content and writing to the device. |
 
@@ -50,7 +55,7 @@ if (FAILED(hr))
 
 
 
-The second task accomplished by the `TransferContentToDevice` function is to create an [**IPortableDeviceContent**](iportabledevicecontent.md) object by calling the [**IPortableDevice::Content**](iportabledevice-content.md) method.
+The second task accomplished by the `TransferContentToDevice` function is to create an [**IPortableDeviceContent**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master) object by calling the [**IPortableDevice::Content**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-content?branch=master) method.
 
 
 ```C++
@@ -139,9 +144,9 @@ The required properties are retrieved by calling the`GetRequiredPropertiesForCon
 
 The sample application uses the retrieved properties to create the new content on the device. This is done in three phases:
 
-1.  The application calls [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](iportabledevicecontent-createobjectwithpropertiesanddata.md) method to create a new IStream object on the device.
-2.  The application uses this object to obtain an [**IPortableDeviceDataStream**](iportabledevicedatastream.md) object from the WPD driver.
-3.  The application uses the new **IPortableDeviceDataStream** object to write the content to the device (via the StreamCopy helper function). The helper function writes the data from the source file to the stream returned by [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](iportabledevicecontent-createobjectwithpropertiesanddata.md).
+1.  The application calls [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata?branch=master) method to create a new IStream object on the device.
+2.  The application uses this object to obtain an [**IPortableDeviceDataStream**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedatastream?branch=master) object from the WPD driver.
+3.  The application uses the new **IPortableDeviceDataStream** object to write the content to the device (via the StreamCopy helper function). The helper function writes the data from the source file to the stream returned by [**IPortableDeviceContent::CreateObjectWithPropertiesAndData**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata?branch=master).
 4.  The application completes the operation by calling the Commit method on the destination stream.
 
 
@@ -229,13 +234,13 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceContent Interface**](iportabledevicecontent.md)
+[**IPortableDeviceContent Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceDataStream Interface**](iportabledevicedatastream.md)
+[**IPortableDeviceDataStream Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedatastream?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceValues Interface**](iportabledevicevalues.md)

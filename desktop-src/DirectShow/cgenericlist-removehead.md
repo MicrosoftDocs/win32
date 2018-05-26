@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveHead method removes the first item in the list.'
-ms.assetid: '95902028-d2c2-4c16-9ca6-ef57174a9292'
-title: 'CGenericList.RemoveHead method'
+Description: The RemoveHead method removes the first item in the list.
+ms.assetid: 95902028-d2c2-4c16-9ca6-ef57174a9292
+title: CGenericList.RemoveHead method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CGenericList.RemoveHead method
@@ -47,9 +52,9 @@ This method deletes the list node, but not the item that the node contains.
 [**CGenericList Class**](cgenericlist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

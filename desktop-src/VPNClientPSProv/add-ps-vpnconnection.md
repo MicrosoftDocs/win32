@@ -2,11 +2,14 @@
 title: Add method of the PS\_VpnConnection class
 description: Adds a virtual private network (VPN) connection to the Connection Manager phone book.
 audience: developer
-ms.assetid: '2ac4741d-87bc-4a81-a8c8-f6e0806ebafc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2ac4741d-87bc-4a81-a8c8-f6e0806ebafc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_VpnConnection class", "PS_VpnConnection class, Add method"]
+keywords:
+- Add method
+- Add method, PS_VpnConnection class
+- PS_VpnConnection class, Add method
 topic_type:
 - apiref
 api_name:
@@ -15,6 +18,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_VpnConnection class
@@ -26,25 +32,25 @@ Adds a virtual private network (VPN) connection to the Connection Manager phone 
 
 ```mof
 static uint32 Add(
-  [in]  string           Name,
-  [in]  string           ServerAddress,
-  [in]  string           TunnelType,
-  [in]  boolean          AllUserConnection,
-  [in]  boolean          RememberCredential,
-  [in]  uint32           IdleDisconnectSeconds,
-  [in]  string           DnsSuffix,
-  [in]  boolean          SplitTunneling,
-  [in]  boolean          Force,
-  [in]  boolean          PassThru,
-  [in]  string           L2tpPsk,
-  [in]  boolean          UseWinlogonCredential,
-  [in]  string           EapConfigXmlStream,
-  [in]  string           AuthenticationMethod[],
-  [in]  string           EncryptionLevel,
-  [in]  uint8            MachineCertificateIssuerFilter[],
-  [in]  string           MachineCertificateEKUFilter[],
-  [in]  VpnServerAddress ServerList[],
-  [out] VpnConnection    cmdletOutput
+  [in]  string           Name,
+  [in]  string           ServerAddress,
+  [in]  string           TunnelType,
+  [in]  boolean          AllUserConnection,
+  [in]  boolean          RememberCredential,
+  [in]  uint32           IdleDisconnectSeconds,
+  [in]  string           DnsSuffix,
+  [in]  boolean          SplitTunneling,
+  [in]  boolean          Force,
+  [in]  boolean          PassThru,
+  [in]  string           L2tpPsk,
+  [in]  boolean          UseWinlogonCredential,
+  [in]  string           EapConfigXmlStream,
+  [in]  string           AuthenticationMethod[],
+  [in]  string           EncryptionLevel,
+  [in]  uint8            MachineCertificateIssuerFilter[],
+  [in]  string           MachineCertificateEKUFilter[],
+  [in]  VpnServerAddress ServerList[],
+  [out] VpnConnection    cmdletOutput
 );
 ```
 
@@ -327,8 +333,8 @@ When this method returns, contains the [**VpnConnection**](vpnconnection.md) obj
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
@@ -342,9 +348,9 @@ When this method returns, contains the [**VpnConnection**](vpnconnection.md) obj
 [**PS\_VpnConnection**](ps-vpnconnection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

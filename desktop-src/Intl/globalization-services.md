@@ -1,7 +1,12 @@
 ---
 Description: Globalization Services
-ms.assetid: '24bf4d02-c8c9-4294-9a4c-54eb993bab3e'
+ms.assetid: 24bf4d02-c8c9-4294-9a4c-54eb993bab3e
 title: Globalization Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Globalization Services

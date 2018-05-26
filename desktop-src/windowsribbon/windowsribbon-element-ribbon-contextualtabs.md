@@ -1,14 +1,20 @@
 ---
 title: Ribbon.ContextualTabs property
 description: Represents a container for contextual tabs.
-ms.assetid: '1f57a8d7-97ac-4007-8a36-c6aec5b85e6c'
-keywords: ["Ribbon.ContextualTabs property Windows Ribbon"]
+ms.assetid: 1f57a8d7-97ac-4007-8a36-c6aec5b85e6c
+keywords:
+- Ribbon.ContextualTabs property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - Ribbon.ContextualTabs
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ribbon.ContextualTabs property
@@ -127,8 +133,8 @@ This section of code shows the **Ribbon.ContextualTabs** control declaration wit
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -139,9 +145,9 @@ This section of code shows the **Ribbon.ContextualTabs** control declaration wit
 [**Ribbon.Tabs**](windowsribbon-element-ribbon-tabs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

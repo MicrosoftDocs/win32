@@ -1,8 +1,9 @@
 ---
 title: float2 Structure
 description: A vector with two components.
-ms.assetid: '1A23C1E3-F34F-4249-80EA-92A13CD4B34F'
-keywords: ["float2 Structure"]
+ms.assetid: 1A23C1E3-F34F-4249-80EA-92A13CD4B34F
+keywords:
+- float2 Structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - windowsnumerics.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # float2 Structure
@@ -36,7 +42,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Functions
 
@@ -63,7 +69,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Methods
 
@@ -78,7 +84,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Operators
 
@@ -108,7 +114,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Fields
 
@@ -121,7 +127,7 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -141,9 +147,9 @@ This type is only available in C++. Its .NET equivalent is [System.Numerics.Vect
 [windowsnumerics.h APIs](windowsnumerics-h-apis-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

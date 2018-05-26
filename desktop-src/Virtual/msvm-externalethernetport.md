@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ExternalEthernetPort class
 description: Represents an external Ethernet port (network adapter).
-ms.assetid: 'fbacdfaf-b284-450b-b931-ff113b8fc628'
-keywords: ["Msvm_ExternalEthernetPort class Hyper-V", "Msvm_ExternalEthernetPort class Hyper-V , described"]
+ms.assetid: fbacdfaf-b284-450b-b931-ff113b8fc628
+keywords:
+- Msvm_ExternalEthernetPort class Hyper-V
+- Msvm_ExternalEthernetPort class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -73,6 +75,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ExternalEthernetPort class
@@ -87,60 +94,60 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ExternalEthernetPort : CIM_EthernetPort
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = "OK";
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  string   OtherEnabledState;
-  uint16   EnabledDefault = 2;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  boolean  ErrorCleared;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator;
-  uint64   MaxSpeed;
-  uint64   RequestedSpeed;
-  uint16   UsageRestriction;
-  string   OtherPortType;
-  string   OtherNetworkPortType;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  boolean  FullDuplex;
-  boolean  AutoSense;
-  uint64   SupportedMaximumTransmissionUnit;
-  string   NetworkAddresses[];
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  uint16   EnabledCapabilities[];
-  string   OtherEnabledCapabilities[];
-  string   ElementName;
-  uint16   RequestedState = 12;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = "OK";
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  string   OtherEnabledState;
+  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator;
+  uint64   MaxSpeed;
+  uint64   RequestedSpeed;
+  uint16   UsageRestriction;
+  string   OtherPortType;
+  string   OtherNetworkPortType;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  boolean  FullDuplex;
+  boolean  AutoSense;
+  uint64   SupportedMaximumTransmissionUnit;
+  string   NetworkAddresses[];
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  uint16   EnabledCapabilities[];
+  string   OtherEnabledCapabilities[];
+  string   ElementName;
+  uint16   RequestedState = 12;
   datetime TimeOfLastStateChange;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  string   ErrorDescription;
-  uint64   Speed;
-  uint16   PortNumber;
-  uint16   LinkTechnology;
-  uint64   ActiveMaximumTransmissionUnit;
-  uint16   PortType;
-  uint32   MaxDataSize;
-  boolean  IsBound;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  string   ErrorDescription;
+  uint64   Speed;
+  uint16   PortNumber;
+  uint16   LinkTechnology;
+  uint64   ActiveMaximumTransmissionUnit;
+  uint16   PortType;
+  uint32   MaxDataSize;
+  boolean  IsBound;
 };
 ```
 
@@ -170,7 +177,7 @@ The **Msvm\_ExternalEthernetPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -511,14 +518,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1336,7 +1343,7 @@ The specific mode that is currently enabled for the port. When set to 1 ("Other"
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1511,14 +1518,14 @@ The last requested or desired state for the element. The actual state of the ele
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1723,9 +1730,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1744,9 +1751,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

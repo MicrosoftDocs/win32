@@ -4,11 +4,14 @@ description: Creates a virtual desktop provisioning job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '240D4BE6-95BD-4858-8F8F-A00C92042AEF'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 240D4BE6-95BD-4858-8F8F-A00C92042AEF
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ProvisioningPrepJob method Remote Desktop Services", "ProvisioningPrepJob method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection interface", "Win32_RDMSVirtualDesktopCollection interface Remote Desktop Services , ProvisioningPrepJob method"]
+keywords:
+- ProvisioningPrepJob method Remote Desktop Services
+- ProvisioningPrepJob method Remote Desktop Services , Win32_RDMSVirtualDesktopCollection interface
+- Win32_RDMSVirtualDesktopCollection interface Remote Desktop Services , ProvisioningPrepJob method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProvisioningPrepJob method of the Win32\_RDMSVirtualDesktopCollection class
@@ -28,15 +34,15 @@ Creates a virtual desktop provisioning job.
 
 ```mof
 uint32 ProvisioningPrepJob(
-  [in]  string  CollectionAlias,
-  [in]  string  VMHostName,
-  [in]  string  VMName,
-  [in]  string  ExportToLocation,
-  [in]  boolean bSysPrep,
-  [in]  string  MachineName,
-  [in]  string  UserName,
-  [in]  string  Password,
-  [out] string  JobGuid
+  [in]  string  CollectionAlias,
+  [in]  string  VMHostName,
+  [in]  string  VMName,
+  [in]  string  ExportToLocation,
+  [in]  boolean bSysPrep,
+  [in]  string  MachineName,
+  [in]  string  UserName,
+  [in]  string  Password,
+  [out] string  JobGuid
 );
 ```
 
@@ -120,7 +126,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                              |
 | Namespace<br/>                | Root\\cimv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -134,9 +140,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDMSVirtualDesktopCollection**](win32-rdmsvirtualdesktopcollection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

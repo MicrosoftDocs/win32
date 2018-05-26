@@ -1,8 +1,29 @@
 ---
 title: Legacy Support for Panning with Scroll Bars
 description: This section describes support for panning using scroll bars in Windows-based applications.
-ms.assetid: 'a8906b48-b804-4f3a-bb9b-dc94b632e2f7'
-keywords: ["Windows Touch,legacy support", "panning with scroll bars", "Windows Touch,panning with scroll bars", "Windows Touch,scroll bars", "scroll bars,panning", "scroll bars,legacy support", "Windows Touch,gestures", "gestures,panning with scroll bars", "Windows Touch,flicks", "flicks,panning with scroll bars", "flicks,disabling", "Windows Touch,mouse wheel messages", "mouse wheel messages", "Windows Touch,customizing panning", "panning,scroll bars", "panning,legacy support"]
+ms.assetid: a8906b48-b804-4f3a-bb9b-dc94b632e2f7
+keywords:
+- Windows Touch,legacy support
+- panning with scroll bars
+- Windows Touch,panning with scroll bars
+- Windows Touch,scroll bars
+- scroll bars,panning
+- scroll bars,legacy support
+- Windows Touch,gestures
+- gestures,panning with scroll bars
+- Windows Touch,flicks
+- flicks,panning with scroll bars
+- flicks,disabling
+- Windows Touch,mouse wheel messages
+- mouse wheel messages
+- Windows Touch,customizing panning
+- panning,scroll bars
+- panning,legacy support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Legacy Support for Panning with Scroll Bars

@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.buttonCount
 description: The buttonCount attribute retrieves the number of buttons in the BUTTONGROUP.
-ms.assetid: 'd69d3b89-66b6-4130-ad9f-6315ba2c2766'
-keywords: ["BUTTONGROUP.buttonCount Windows Media Player"]
+ms.assetid: d69d3b89-66b6-4130-ad9f-6315ba2c2766
+keywords:
+- BUTTONGROUP.buttonCount Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.buttonCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.buttonCount
@@ -40,9 +46,9 @@ This attribute is a read-only **Number** (**long**).
 [**BUTTONGROUP Element**](buttongroup-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

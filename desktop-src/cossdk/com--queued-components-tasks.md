@@ -1,7 +1,12 @@
 ---
 Description: COM+ Queued Components Tasks
-ms.assetid: '1f49ea1b-d65f-4166-a238-a9941b99735b'
+ms.assetid: 1f49ea1b-d65f-4166-a238-a9941b99735b
 title: COM+ Queued Components Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Queued Components Tasks
@@ -21,7 +26,7 @@ This section lists topics describing how to accomplish specific tasks using the 
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -30,9 +35,9 @@ This section lists topics describing how to accomplish specific tasks using the 
 [COM+ Queued Components Concepts](com--queued-components-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Signals that the parental level of the authored DVD content is about to change.'
-ms.assetid: 'c6817e1a-f860-4ba2-9e0f-e195624230c5'
-title: 'EC\_DVD\_PARENTAL\_LEVEL\_CHANGE'
+Description: Signals that the parental level of the authored DVD content is about to change.
+ms.assetid: c6817e1a-f860-4ba2-9e0f-e195624230c5
+title: EC\_DVD\_PARENTAL\_LEVEL\_CHANGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_PARENTAL\_LEVEL\_CHANGE
@@ -53,9 +58,9 @@ The [DVD Navigator](dvd-navigator-filter.md) filter does not support parental le
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

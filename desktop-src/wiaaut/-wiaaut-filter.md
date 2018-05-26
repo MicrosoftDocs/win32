@@ -1,8 +1,10 @@
 ---
 title: Filter object
-description: Represents a unit of modification on an ImageFile object. To use a Filter, add it to the Filters collection, and then set the filter's properties. Finally, use the Apply method of the ImageProcess object to filter an ImageFile.
-ms.assetid: 'aa1a9ac0-78af-4053-8550-71dbf624400d'
-keywords: ["Filter object WIA Automation", "Filter object WIA Automation , described"]
+description: Represents a unit of modification on an ImageFile object. To use a Filter, add it to the Filters collection, and then set the filters properties. Finally, use the Apply method of the ImageProcess object to filter an ImageFile.
+ms.assetid: aa1a9ac0-78af-4053-8550-71dbf624400d
+keywords:
+- Filter object WIA Automation
+- Filter object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filter object
@@ -38,7 +45,7 @@ The **Filter** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -56,7 +63,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +71,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -78,9 +85,9 @@ Use any of the following to retrieve a reference to the object:
 [**Item (Filters)**](-wiaaut-ifilters-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: VMAutoStartType enumeration
 description: The VMAutoStartType enumeration specifies how a virtual machine should be automatically started when Virtual Server is started.
-ms.assetid: '458ab025-f598-439d-840d-e1c75935ed89'
-keywords: ["VMAutoStartType enumeration Virtual Server"]
+ms.assetid: 458ab025-f598-439d-840d-e1c75935ed89
+keywords:
+- VMAutoStartType enumeration Virtual Server
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMAutoStartType enumeration
@@ -22,9 +28,9 @@ The **VMAutoStartType** enumeration specifies how a virtual machine should be au
 
 ```C++
 typedef enum  { 
-  vmAutoStart_Never            = 0,
-  vmAutoStart_Always           = 1,
-  vmAutoStart_IfRunningAtQuit  = 2
+  vmAutoStart_Never            = 0,
+  vmAutoStart_Always           = 1,
+  vmAutoStart_IfRunningAtQuit  = 2
 } VMAutoStartType;
 ```
 
@@ -61,15 +67,15 @@ Automatically start the virtual machine if it was running when Virtual Server wa
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

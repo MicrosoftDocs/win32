@@ -1,7 +1,12 @@
 ---
 title: Designing a Topic Template
 description: Designing a Topic Template
-ms.assetid: '6CA44F8A-80D7-4e17-8401-7F40BBB057E9'
+ms.assetid: 6CA44F8A-80D7-4e17-8401-7F40BBB057E9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Designing a Topic Template

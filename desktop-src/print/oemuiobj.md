@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.'
-ms.assetid: 'ba9252ec-3aef-4e8c-a335-bde33686beae'
+---
+Description: The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
+ms.assetid: ba9252ec-3aef-4e8c-a335-bde33686beae
 title: OEMUIOBJ structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMUIOBJ structure

@@ -1,7 +1,12 @@
 ---
-Description: 'The following provides some common instances of conditional statements. For more information, see Conditional Statement Syntax.'
-ms.assetid: '8b6bae7a-20ae-494c-bd96-66bd537c8630'
+Description: The following provides some common instances of conditional statements. For more information, see Conditional Statement Syntax.
+ms.assetid: 8b6bae7a-20ae-494c-bd96-66bd537c8630
 title: Examples of Conditional Statement Syntax
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Examples of Conditional Statement Syntax

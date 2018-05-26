@@ -4,11 +4,17 @@ description: When the existing classes and/or attributes do not fit with the typ
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9a80ce29-8ff0-4324-8a2f-afd6c5d2272e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 9a80ce29-8ff0-4324-8a2f-afd6c5d2272e
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Schema AD , How to Extend", "Active Directory, Using, Schema", "Active Directory, Using, Schema, Extending the Schema, How to Extend"]
+keywords:
+- Schema AD , How to Extend
+- Active Directory, Using, Schema
+- Active Directory, Using, Schema, Extending the Schema, How to Extend
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to Extend the Schema

@@ -1,7 +1,12 @@
 ---
 title: D3DCSX 11 Interfaces
 description: This section contains reference information about the COM interfaces provided by the D3DCSX utility library.
-ms.assetid: 'A4F5E487-AA6C-4C64-90CF-88587F2E8B8B'
+ms.assetid: A4F5E487-AA6C-4C64-90CF-88587F2E8B8B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCSX 11 Interfaces
@@ -16,13 +21,13 @@ This section contains reference information about the COM interfaces provided by
 
 | Topic                                                           | Description                                       |
 |-----------------------------------------------------------------|---------------------------------------------------|
-| [**ID3DX11FFT**](id3dx11fft.md)<br/>                     | Encapsulates forward and inverse FFTs.<br/> |
-| [**ID3DX11Scan**](id3dx11scan.md)<br/>                   | Scan context.<br/>                          |
-| [**ID3DX11SegmentedScan**](id3dx11segmentedscan.md)<br/> | Segmented scan context.<br/>                |
+| [**ID3DX11FFT**](/windows/win32/d3dcsx/nn-d3dcsx-id3dx11fft?branch=master)<br/>                     | Encapsulates forward and inverse FFTs.<br/> |
+| [**ID3DX11Scan**](/windows/win32/d3dcsx/nn-d3dcsx-id3dx11scan?branch=master)<br/>                   | Scan context.<br/>                          |
+| [**ID3DX11SegmentedScan**](/windows/win32/d3dcsx/nn-d3dcsx-id3dx11segmentedscan?branch=master)<br/> | Segmented scan context.<br/>                |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ This section contains reference information about the COM interfaces provided by
 [D3DCSX 11 Reference](d3d11-graphics-reference-d3dcsx11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

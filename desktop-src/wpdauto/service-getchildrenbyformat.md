@@ -1,14 +1,22 @@
 ---
 title: Service.GetChildrenByFormat method
 description: The GetChildrenByFormat method returns a collection of the immediate children of this Service object filtered by one or more object formats.
-ms.assetid: '1533aa9c-e730-4034-a504-30ed5c32e8f5'
-keywords: ["GetChildrenByFormat method WPD Automation", "GetChildrenByFormat method WPD Automation , Service object", "Service object WPD Automation , GetChildrenByFormat method"]
+ms.assetid: 1533aa9c-e730-4034-a504-30ed5c32e8f5
+keywords:
+- GetChildrenByFormat method WPD Automation
+- GetChildrenByFormat method WPD Automation , Service object
+- Service object WPD Automation , GetChildrenByFormat method
 topic_type:
 - apiref
 api_name:
 - Service.GetChildrenByFormat
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Service.GetChildrenByFormat method
@@ -84,8 +92,8 @@ var children = service.GetChildrenByFormat("{aaaaaaaa-bbbb-cccc-dddd-eeeeeefffff
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -99,9 +107,9 @@ var children = service.GetChildrenByFormat("{aaaaaaaa-bbbb-cccc-dddd-eeeeeefffff
 [**Service Object**](service-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Settings.requestMediaAccessRights method
 description: The requestMediaAccessRights method requests a specified level of access to the library.
-ms.assetid: '076b749b-9b25-483c-aa1f-60fc4367e4e0'
-keywords: ["requestMediaAccessRights method Windows Media Player", "requestMediaAccessRights method Windows Media Player , Settings class", "Settings class Windows Media Player , requestMediaAccessRights method"]
+ms.assetid: 076b749b-9b25-483c-aa1f-60fc4367e4e0
+keywords:
+- requestMediaAccessRights method Windows Media Player
+- requestMediaAccessRights method Windows Media Player , Settings class
+- Settings class Windows Media Player , requestMediaAccessRights method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Settings.requestMediaAccessRights method
@@ -47,7 +55,7 @@ bRetVal = Settings.requestMediaAccessRights(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -82,9 +90,9 @@ A webpage must first request permission from the user to read information from o
 [**Settings.mediaAccessRights**](settings-mediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

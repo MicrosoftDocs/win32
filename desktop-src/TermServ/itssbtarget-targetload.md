@@ -4,11 +4,16 @@ description: Retrieves the relative load on a target.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '56618dcf-1319-4310-80ba-7ed71b8b02e8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 56618dcf-1319-4310-80ba-7ed71b8b02e8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["TargetLoad property Remote Desktop Services", "TargetLoad property Remote Desktop Services , ITsSbTarget interface", "ITsSbTarget interface Remote Desktop Services , TargetLoad property", "TargetLoad property Remote Desktop Services , ITsSbTargetEx interface", "ITsSbTargetEx interface Remote Desktop Services , TargetLoad property"]
+keywords:
+- TargetLoad property Remote Desktop Services
+- TargetLoad property Remote Desktop Services , ITsSbTarget interface
+- ITsSbTarget interface Remote Desktop Services , TargetLoad property
+- TargetLoad property Remote Desktop Services , ITsSbTargetEx interface
+- ITsSbTargetEx interface Remote Desktop Services , TargetLoad property
 topic_type:
 - apiref
 api_name:
@@ -20,6 +25,9 @@ api_location:
 - Sbtsv.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ITsSbTarget::TargetLoad property
@@ -33,7 +41,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_TargetLoad(
-  [out, retval] DWORD *pTargetLoad
+  [out, retval] DWORD *pTargetLoad
 );
 ```
 
@@ -47,7 +55,7 @@ A number representing the relative load on a target.
 
 The weight of a pending session relative to an active session can be changed by setting the value of the *LB\_ConnectionEstablishmentPenalty* parameter for the Connection Broker. This parameter is located under the**HKLM\\System\\CurrentControlSet\\Services\\Tssdis\\Parameters** registry key. The default value of 1 specifies that pending sessions have the same weight as active sessions.
 
-This property is available on Windows Server 2012 R2 with [KB3091411](https://support.microsoft.com/kb/3091411) installed in the [**ITsSbTargetEx**](itssbtargetex.md) interface.
+This property is available on Windows Server 2012 R2 with [KB3091411](https://support.microsoft.com/kb/3091411) installed in the [**ITsSbTargetEx**](itssbtargetex.md) interface.
 
 ## Requirements
 
@@ -65,7 +73,7 @@ This property is available on Windows Server 2012 R2 with [KB3091411](https://su
 </tr>
 <tr class="even">
 <td>Minimum supported server<br/></td>
-<td>Windows Server 2016<br/></td>
+<td>Windows Server 2016<br/></td>
 </tr>
 <tr class="odd">
 <td>IDL<br/></td>
@@ -76,7 +84,7 @@ This property is available on Windows Server 2012 R2 with [KB3091411](https://su
 <td>IID_ITsSbTarget is defined as:
 <ul>
 <li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li>
+<li>e85e10ea-db0b-4752-b456-5fd5840901c0 on Windows Server 2008 R2</li>
 </ul></td>
 </tr>
 </tbody>
@@ -91,12 +99,12 @@ This property is available on Windows Server 2012 R2 with [KB3091411](https://su
 [**ITsSbTargetEx**](itssbtargetex.md)
 </dt> <dt>
 
-[**ITsSbTarget**](itssbtarget.md)
+[**ITsSbTarget**](/windows/win32/sbtsv/nn-sbtsv-itssbtarget?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

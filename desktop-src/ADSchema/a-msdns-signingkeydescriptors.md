@@ -4,17 +4,22 @@ description: An attribute that contains the set of DNSSEC Signing Key Descriptor
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ebfa200c-9201-4b2a-addd-dfd032cb9425'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: ebfa200c-9201-4b2a-addd-dfd032cb9425
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Signing-Key-Descriptors attribute AD Schema", "msDNS-SigningKeyDescriptors attribute AD Schema"]
+keywords:
+- ms-DNS-Signing-Key-Descriptors attribute AD Schema
+- msDNS-SigningKeyDescriptors attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Signing-Key-Descriptors
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Signing-Key-Descriptors attribute
@@ -38,7 +43,7 @@ An attribute that contains the set of DNSSEC Signing Key Descriptors (SKDs) used
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute that contains the set of DNSSEC Signing Key Descriptors (SKDs) used
 
 
 
- 
+ 
 
- 
+ 
 
 
 

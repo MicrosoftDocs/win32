@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents a collection of Certificate objects.'
-ms.assetid: '16d434fb-54df-4e67-8e69-ff635640f1b2'
+---
+Description: Represents a collection of Certificate objects.
+ms.assetid: 16d434fb-54df-4e67-8e69-ff635640f1b2
 title: Certificates object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Certificates object

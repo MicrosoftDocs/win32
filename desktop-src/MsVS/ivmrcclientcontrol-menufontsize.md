@@ -1,8 +1,13 @@
 ---
 title: IVMRCClientControl MenuFontSize property
-description: The MenuFontSize property contains the client's menu font size..
-ms.assetid: '214293e4-4b28-439f-a281-7a42fb055cbb'
-keywords: ["MenuFontSize property Virtual Server", "MenuFontSize property Virtual Server , IVMRCClientControl interface", "IVMRCClientControl interface Virtual Server , MenuFontSize property", "MenuFontSize property Virtual Server , VMRCClientControl interface", "VMRCClientControl interface Virtual Server , MenuFontSize property"]
+description: The MenuFontSize property contains the clients menu font size..
+ms.assetid: 214293e4-4b28-439f-a281-7a42fb055cbb
+keywords:
+- MenuFontSize property Virtual Server
+- MenuFontSize property Virtual Server , IVMRCClientControl interface
+- IVMRCClientControl interface Virtual Server , MenuFontSize property
+- MenuFontSize property Virtual Server , VMRCClientControl interface
+- VMRCClientControl interface Virtual Server , MenuFontSize property
 topic_type:
 - apiref
 api_name:
@@ -15,6 +20,11 @@ api_location:
 - VMRCClientControl.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMRCClientControl::MenuFontSize property
@@ -28,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_MenuFontSize(
-  [in]  long menuFontSize
+  [in]  long menuFontSize
 );
 
 HRESULT get_MenuFontSize(
-  [out] long *menuFontSize
+  [out] long *menuFontSize
 );
 ```
 
@@ -83,8 +93,8 @@ This property value is read/write.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VMRCClientControl.h</dt> </dl>    |
 | Library<br/>  | <dl> <dt>VMRCClientControl.lib</dt> </dl>  |
 
@@ -97,9 +107,9 @@ This property value is read/write.
 [**IVMRCClientControl**](ivmrcclientcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: QuiesceDevice method of the CIM\_LogicalDevice class
 description: This method is deprecated. Instead, use the RequestStateChange method.
-ms.assetid: '624de9f5-61b8-4c77-9005-31443af83f24'
-keywords: ["QuiesceDevice method Hyper-V", "QuiesceDevice method Hyper-V , CIM_LogicalDevice class", "CIM_LogicalDevice class Hyper-V , QuiesceDevice method"]
+ms.assetid: 624de9f5-61b8-4c77-9005-31443af83f24
+keywords:
+- QuiesceDevice method Hyper-V
+- QuiesceDevice method Hyper-V , CIM_LogicalDevice class
+- CIM_LogicalDevice class Hyper-V , QuiesceDevice method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuiesceDevice method of the CIM\_LogicalDevice class
@@ -24,7 +32,7 @@ This method is deprecated. Instead, use the [**RequestStateChange**](virtual-cim
 
 ```mof
 uint32 QuiesceDevice(
-  [in] boolean Quiesce
+  [in] boolean Quiesce
 );
 ```
 
@@ -99,9 +107,9 @@ The operation was not completed because an error occurred.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

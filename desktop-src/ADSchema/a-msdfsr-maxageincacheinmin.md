@@ -4,17 +4,22 @@ description: Maximum time, in minutes, to keep files in full form.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '22f00c23-77da-4eeb-a75e-3bf2ff12d2be'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 22f00c23-77da-4eeb-a75e-3bf2ff12d2be
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DFSR-MaxAgeInCacheInMin attribute AD Schema", "msDFSR-MaxAgeInCacheInMin attribute AD Schema"]
+keywords:
+- ms-DFSR-MaxAgeInCacheInMin attribute AD Schema
+- msDFSR-MaxAgeInCacheInMin attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DFSR-MaxAgeInCacheInMin
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DFSR-MaxAgeInCacheInMin attribute
@@ -38,9 +43,9 @@ Maximum time, in minutes, to keep files in full form.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Maximum time, in minutes, to keep files in full form.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,14 @@ description: Disk number of a Physical Disk.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f55fd6aa-8707-4a62-8e6c-259d7bf52d0d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f55fd6aa-8707-4a62-8e6c-259d7bf52d0d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["DiskNumber property Failover Cluster", "DiskNumber property Failover Cluster , ClusDisk object", "ClusDisk object Failover Cluster , DiskNumber property"]
+keywords:
+- DiskNumber property Failover Cluster
+- DiskNumber property Failover Cluster , ClusDisk object
+- ClusDisk object Failover Cluster , DiskNumber property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusDisk.DiskNumber property
@@ -47,7 +53,7 @@ A **Variant** that receives the disk number of the disk.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -72,9 +78,9 @@ A **Variant** that receives the disk number of the disk.
 [**ClusDisk.Signature**](clusdisk-signature.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

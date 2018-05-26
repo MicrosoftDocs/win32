@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_MemoryDeviceLocation association WMI class relates a memory device and the physical memory on which it exists.'
+Description: The Win32\_MemoryDeviceLocation association WMI class relates a memory device and the physical memory on which it exists.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6fef916e-44e2-4b9f-94b7-c7204259004a'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6fef916e-44e2-4b9f-94b7-c7204259004a
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_MemoryDeviceLocation class'
+title: Win32\_MemoryDeviceLocation class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_MemoryDeviceLocation class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{FAF76B9C-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class Win32_MemoryDeviceLocation : CIM_Realizes
 {
-  Win32_MemoryDevice   REF Dependent;
+  Win32_MemoryDevice   REF Dependent;
   Win32_PhysicalMemory REF Antecedent;
 };
 ```
@@ -83,8 +86,8 @@ The **Win32\_MemoryDeviceLocation** class is derived from [**CIM\_Realizes**](ci
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_MemoryDeviceLocation** class is derived from [**CIM\_Realizes**](ci
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

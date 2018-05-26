@@ -1,7 +1,12 @@
 ---
-Description: 'Messages are defined in a message text file. The message compiler assigns numbers to each message, and generates a C/C++ include file which the application can use to access a message using a symbolic constant.'
-ms.assetid: '99fbb3d6-6fde-4162-b0b9-99a1cdf0b8f8'
+Description: Messages are defined in a message text file. The message compiler assigns numbers to each message, and generates a C/C++ include file which the application can use to access a message using a symbolic constant.
+ms.assetid: 99fbb3d6-6fde-4162-b0b9-99a1cdf0b8f8
 title: Message Text Files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Message Text Files
@@ -41,14 +46,14 @@ The message text file contains a header that defines names and language identifi
 | Statement syntax                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MessageIdTypedef=*type*                    | Type to be used in the message definition as follows: \#define *name* ((*type*)0x*nnnnnnnn*)<br/> The type must be large enough to accommodate the entire message code, such as a **DWORD**. The type can also be a type defined in the application source code. The default value for *type* is empty, so no type cast is used. <br/> This statement can be specified in the header and as often as necessary in the message definition section.<br/>                                                                                                                  |
-| SeverityNames=(*name*=*number*\[:*name*\]) | Set of names that are allowed for the severity in a message definition. Associated with each severity name is a number that, when shifted left by 30 bits, gives the bit pattern to logical-OR with the facility and message ID values to form the message code. Any severity value that does not fit in 2 bits is an error. The severity codes can be given symbolic names as well.The default value is defined as follows: SeverityNames=(   Success=0x0   Informational=0x1   Warning=0x2   Error=0x3)<br/>                                                                      |
-| FacilityNames=(*name*=*number*\[:*name*\]) | Set of names that are allowed for the facility values in a message definition. Associated with each facility name is a number that, when shifted left by 16 bits, gives the bit pattern to logical-OR with the severity and message ID values to form the message code. Any facility value that does not fit in 12 bits is an error. This allows for 4096 facility codes; the first 256 codes are reserved for system use. The facility codes can be given symbolic names as well.The default value is defined as follows: FacilityNames=(   System=0x0FF   Application=0xFFF)<br/> |
+| SeverityNames=(*name*=*number*\[:*name*\]) | Set of names that are allowed for the severity in a message definition. Associated with each severity name is a number that, when shifted left by 30 bits, gives the bit pattern to logical-OR with the facility and message ID values to form the message code. Any severity value that does not fit in 2 bits is an error. The severity codes can be given symbolic names as well.The default value is defined as follows: SeverityNames=(   Success=0x0   Informational=0x1   Warning=0x2   Error=0x3)<br/>                                                                      |
+| FacilityNames=(*name*=*number*\[:*name*\]) | Set of names that are allowed for the facility values in a message definition. Associated with each facility name is a number that, when shifted left by 16 bits, gives the bit pattern to logical-OR with the severity and message ID values to form the message code. Any facility value that does not fit in 12 bits is an error. This allows for 4096 facility codes; the first 256 codes are reserved for system use. The facility codes can be given symbolic names as well.The default value is defined as follows: FacilityNames=(   System=0x0FF   Application=0xFFF)<br/> |
 | LanguageNames=(*name*=*number*:*filename*) | Set of names that are allowed for the language values in a message definition. The number is used as the language identifier in the resource table. The specified file contains the messages for that language. It is typically a .bin file generated by the message compiler.<br/> An example value is: LanguageNames=(English=0x409:MSG00409)<br/> For a list of language identifiers, see <http://go.microsoft.com/fwlink/p/?linkid=190280>.<br/>                                                                                                                    |
 | OutputBase=*number*                        | Output radix for the message constants that the message compiler writes to the header file. If present, this value overrides the -d switch. This number can be either 10 (decimal) or 16 (hexadecimal).                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
- 
+ 
 
 ## Message Definitions
 
@@ -69,7 +74,7 @@ A message text file contains zero or more message definitions following the head
 
 
 
- 
+ 
 
 If the message definition includes message text for more than one language, each language requires its own Language statement, message text, and terminating new line with a period. For example:
 
@@ -149,9 +154,9 @@ Generates a hard carriage return without a trailing newline character.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

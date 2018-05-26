@@ -1,8 +1,9 @@
 ---
 title: D3DX11CreateAsyncShaderResourceViewProcessor function
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-ms.assetid: 'bd9349af-f433-47f9-b443-3049c32fc286'
-keywords: ["D3DX11CreateAsyncShaderResourceViewProcessor function Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+ms.assetid: bd9349af-f433-47f9-b443-3049c32fc286
+keywords:
+- D3DX11CreateAsyncShaderResourceViewProcessor function Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -12,14 +13,19 @@ api_location:
 - D3DX11.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11CreateAsyncShaderResourceViewProcessor function
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. See Remarks.
 
- 
+ 
 
 Create a data processor that will load a resource and then create a shader-resource view for it. Data processors are a component of the asynchronous data loading feature in D3DX11 that uses [**thread pumps**](id3dx11threadpump.md).
 
@@ -28,9 +34,9 @@ Create a data processor that will load a resource and then create a shader-resou
 
 ```C++
 HRESULT D3DX11CreateAsyncShaderResourceViewProcessor(
-  _In_  ID3D11Device           *pDevice,
-  _In_  D3DX11_IMAGE_LOAD_INFO *pLoadInfo,
-  _Out_ ID3DX11DataProcessor   **ppDataProcessor
+  _In_  ID3D11Device           *pDevice,
+  _In_  D3DX11_IMAGE_LOAD_INFO *pLoadInfo,
+  _Out_ ID3DX11DataProcessor   **ppDataProcessor
 );
 ```
 
@@ -43,9 +49,9 @@ HRESULT D3DX11CreateAsyncShaderResourceViewProcessor(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**ID3D11Device**](id3d11device.md)\***
+Type: **[**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master)\***
 
-Pointer to the Direct3D device (see [**ID3D11Device**](id3d11device.md)) that will be used to create a resource and a shader-resource view for that resource.
+Pointer to the Direct3D device (see [**ID3D11Device**](/windows/win32/D3D11/nn-d3d11-id3d11device?branch=master)) that will be used to create a resource and a shader-resource view for that resource.
 
 </dd> <dt>
 
@@ -75,7 +81,7 @@ The return value is one of the values listed in [Direct3D 11 Return Codes](d3d11
 
 ## Remarks
 
-There’s no implementation of the ‘async loader’ outside of D3DX 10, and D3DX 11.
+There s no implementation of the  async loader  outside of D3DX 10, and D3DX 11.
 
 For Windows Store apps, the DirectX samples (for example, the [Direct3D tutorial sample](http://go.microsoft.com/fwlink/p/?linkid=255263)) include the **BasicLoader** module that uses the Windows Runtime asynchronous programming model ([**AsyncBase**](64259b9b-f427-4ffd-a611-e7a2f82362b2)).
 
@@ -99,9 +105,9 @@ For Win32 desktop apps, you can use the [Concurrency Runtime](56237d96-10b0-494a
 [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

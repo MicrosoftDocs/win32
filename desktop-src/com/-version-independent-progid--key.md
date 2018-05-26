@@ -1,7 +1,12 @@
 ---
 title: version-independent ProgID Key
 description: Associates a ProgID with a CLSID. This key is used to determine the latest version of an object application.
-ms.assetid: 'fb43c8d0-d923-487f-afdf-14fc29a71e0b'
+ms.assetid: fb43c8d0-d923-487f-afdf-14fc29a71e0b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # &lt;version-independent ProgID&gt; Key
@@ -28,11 +33,11 @@ Applications must register a version-independent programmatic identifier under t
 
 For example, the version-independent ProgID is used when a container application creates a chart or table with a toolbar button. In this situation, the application can use the version-independent ProgID to determine the latest version of the needed object application.
 
-The version-independent ProgID is stored and maintained solely by application code. When given the version-independent ProgID, the [**CLSIDFromProgID**](clsidfromprogid.md) function returns the CLSID of the current version.
+The version-independent ProgID is stored and maintained solely by application code. When given the version-independent ProgID, the [**CLSIDFromProgID**](/windows/win32/combaseapi/nf-combaseapi-clsidfromprogid?branch=master) function returns the CLSID of the current version.
 
-You can use [**CLSIDFromProgID**](clsidfromprogid.md) and [**ProgIDFromCLSID**](progidfromclsid.md) to convert between these two representations.
+You can use [**CLSIDFromProgID**](/windows/win32/combaseapi/nf-combaseapi-clsidfromprogid?branch=master) and [**ProgIDFromCLSID**](/windows/win32/combaseapi/nf-combaseapi-progidfromclsid?branch=master) to convert between these two representations.
 
-You can use [**IOleObject::GetUserType**](ioleobject-getusertype.md) or [**OleRegGetUserType**](olereggetusertype.md) to change the identifier to a displayable string.
+You can use [**IOleObject::GetUserType**](/windows/win32/OleIdl/nf-oleidl-ioleobject-getusertype?branch=master) or [**OleRegGetUserType**](/windows/win32/Ole2/nf-ole2-olereggetusertype?branch=master) to change the identifier to a displayable string.
 
 If a custom handler is not used, the entry should be set to OLE32.DLL, as shown in the following example:
 
@@ -45,10 +50,10 @@ HKEY_CLASSES_ROOT\CLSID\{00000402-0000-0000-C000-000000000046}
 
 <dl> <dt>
 
-[**CLSIDFromProgID**](clsidfromprogid.md)
+[**CLSIDFromProgID**](/windows/win32/combaseapi/nf-combaseapi-clsidfromprogid?branch=master)
 </dt> <dt>
 
-[**ProgIDFromCLSID**](progidfromclsid.md)
+[**ProgIDFromCLSID**](/windows/win32/combaseapi/nf-combaseapi-progidfromclsid?branch=master)
 </dt> <dt>
 
 [&lt;ProgID&gt; Key](-progid--key.md)

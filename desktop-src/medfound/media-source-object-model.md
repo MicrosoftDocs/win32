@@ -1,7 +1,12 @@
 ---
 Description: Media Source Object Model
-ms.assetid: '88373028-8a34-4bf1-8300-d1a7e4c7dd75'
+ms.assetid: 88373028-8a34-4bf1-8300-d1a7e4c7dd75
 title: Media Source Object Model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Source Object Model
@@ -21,31 +26,31 @@ A media source must expose the following interfaces through **QueryInterface**.
 
 | Interface                                                | Description                                                                                                     |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [**IMFMediaSource**](imfmediasource.md)                 | Required for all media sources.                                                                                 |
-| [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) | Required for all media sources. The [**IMFMediaSource**](imfmediasource.md) interface inherits this interface. |
+| [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)                 | Required for all media sources.                                                                                 |
+| [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) | Required for all media sources. The [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface inherits this interface. |
 
 
 
  
 
-Optionally, a media source can implement the [**IMFGetService**](imfgetservice.md) interface and implement any of the following interfaces as services:
+Optionally, a media source can implement the [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master) interface and implement any of the following interfaces as services:
 
 
 
 | Service interface                                  | Description                                                       |
 |----------------------------------------------------|-------------------------------------------------------------------|
-| [**IMFRateControl**](imfratecontrol.md)           | Controls the playback rate.                                       |
-| [**IMFRateSupport**](imfratesupport.md)           | Reports the range of playback rates that are supported.           |
-| [**IMFQualityAdvise**](imfqualityadvise.md)       | Enables the quality manager to adjust the audio or video quality. |
-| [**IMFMetadataProvider**](imfmetadataprovider.md) | Provides metadata.                                                |
+| [**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master)           | Controls the playback rate.                                       |
+| [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)           | Reports the range of playback rates that are supported.           |
+| [**IMFQualityAdvise**](/windows/win32/mfidl/nn-mfidl-imfqualityadvise?branch=master)       | Enables the quality manager to adjust the audio or video quality. |
+| [**IMFMetadataProvider**](/windows/win32/mfidl/nn-mfidl-imfmetadataprovider?branch=master) | Provides metadata.                                                |
 
 
 
  
 
-If the media source can play at rates other than normal speed (1.0), it should expose the rate control service ([**IMFRateControl**](imfratecontrol.md) and [**IMFRateSupport**](imfratesupport.md)). Otherwise, it is assumed that the source only supports playback at normal speed. For more information, see [Implementing Rate Control](implementing-rate-control.md).
+If the media source can play at rates other than normal speed (1.0), it should expose the rate control service ([**IMFRateControl**](/windows/win32/mfidl/nn-mfidl-imfratecontrol?branch=master) and [**IMFRateSupport**](/windows/win32/mfidl/nn-mfidl-imfratesupport?branch=master)). Otherwise, it is assumed that the source only supports playback at normal speed. For more information, see [Implementing Rate Control](implementing-rate-control.md).
 
-For more information about service interfaces and [**IMFGetService**](imfgetservice.md), see [Service Interfaces](service-interfaces.md).
+For more information about service interfaces and [**IMFGetService**](/windows/win32/mfidl/nn-mfidl-imfgetservice?branch=master), see [Service Interfaces](service-interfaces.md).
 
 ## Media Stream Interfaces
 
@@ -55,8 +60,8 @@ Media streams must implement the following interfaces.
 
 | Interface                                                | Description                                                                                                     |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [**IMFMediaStream**](imfmediastream.md)                 | Required for all media streams.                                                                                 |
-| [**IMFMediaEventGenerator**](imfmediaeventgenerator.md) | Required for all media streams. The [**IMFMediaStream**](imfmediastream.md) interface inherits this interface. |
+| [**IMFMediaStream**](/windows/win32/mfidl/nn-mfidl-imfmediastream?branch=master)                 | Required for all media streams.                                                                                 |
+| [**IMFMediaEventGenerator**](/windows/win32/mfobjects/nn-mfobjects-imfmediaeventgenerator?branch=master) | Required for all media streams. The [**IMFMediaStream**](/windows/win32/mfidl/nn-mfidl-imfmediastream?branch=master) interface inherits this interface. |
 
 
 

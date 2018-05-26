@@ -1,7 +1,12 @@
 ---
-Description: 'The DecideBufferSize method sets the buffer requirements.'
-ms.assetid: '1f7a3424-18ba-4a10-b09f-947ee8585ffa'
-title: 'CBaseOutputPin.DecideBufferSize method'
+Description: The DecideBufferSize method sets the buffer requirements.
+ms.assetid: 1f7a3424-18ba-4a10-b09f-947ee8585ffa
+title: CBaseOutputPin.DecideBufferSize method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseOutputPin.DecideBufferSize method
@@ -13,8 +18,8 @@ The `DecideBufferSize` method sets the buffer requirements.
 
 ```C++
 virtual HRESULT DecideBufferSize(
-   IMemAllocator        *pAlloc,
-   ALLOCATOR_PROPERTIES *ppropInputRequest
+   IMemAllocator        *pAlloc,
+   ALLOCATOR_PROPERTIES *ppropInputRequest
 ) = 0;
 ```
 
@@ -27,14 +32,14 @@ virtual HRESULT DecideBufferSize(
 *pAlloc* 
 </dt> <dd>
 
-Pointer to the allocator's [**IMemAllocator**](imemallocator.md) interface.
+Pointer to the allocator's [**IMemAllocator**](/windows/win32/Strmif/nn-strmif-imemallocator?branch=master) interface.
 
 </dd> <dt>
 
 *ppropInputRequest* 
 </dt> <dd>
 
-Pointer to an [**ALLOCATOR\_PROPERTIES**](allocator-properties.md) structure that contains the input pin's buffer requirements. If the input pin does not have any requirements, the caller should zero out the members of this structure before calling the method.
+Pointer to an [**ALLOCATOR\_PROPERTIES**](/windows/win32/strmif/ns-strmif-_allocatorproperties?branch=master) structure that contains the input pin's buffer requirements. If the input pin does not have any requirements, the caller should zero out the members of this structure before calling the method.
 
 </dd> </dl>
 
@@ -44,7 +49,7 @@ Returns S\_OK if successful, or an **HRESULT** value indicating the cause of the
 
 ## Remarks
 
-Override this method in your derived class. Call the [**IMemAllocator::SetProperties**](imemallocator-setproperties.md) method to specify your buffer requirements. Typically, the derived class will honor the input pin's buffer requirements, but it is not required to.
+Override this method in your derived class. Call the [**IMemAllocator::SetProperties**](/windows/win32/Strmif/nf-strmif-imemallocator-setproperties?branch=master) method to specify your buffer requirements. Typically, the derived class will honor the input pin's buffer requirements, but it is not required to.
 
 ## Requirements
 
@@ -64,9 +69,9 @@ Override this method in your derived class. Call the [**IMemAllocator::SetProper
 [**CBaseOutputPin Class**](cbaseoutputpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

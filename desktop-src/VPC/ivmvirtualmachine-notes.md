@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Notes property
 description: Notes for the virtual machine.
-ms.assetid: '4be6842b-31b2-4619-a6ab-b728be1e2174'
-keywords: ["Notes property Virtual PC", "Notes property Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , Notes property"]
+ms.assetid: 4be6842b-31b2-4619-a6ab-b728be1e2174
+keywords:
+- Notes property Virtual PC
+- Notes property Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , Notes property
 topic_type:
 - apiref
 api_name:
@@ -13,11 +16,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Notes property
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Retrieves and sets the notes for the virtual machine.
 
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_Notes(
-  [in]          BSTR virtualMachineNotes
+  [in]          BSTR virtualMachineNotes
 );
 
 HRESULT get_Notes(
-  [out, retval] BSTR *virtualMachineNotes
+  [out, retval] BSTR *virtualMachineNotes
 );
 ```
 
@@ -64,9 +72,9 @@ To remove any notes, pass an empty string.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -80,9 +88,9 @@ To remove any notes, pass an empty string.
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

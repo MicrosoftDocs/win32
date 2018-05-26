@@ -1,7 +1,12 @@
 ---
-Description: 'Apps can wait on an event when rendering to the screen is unnecessary (that is, while they are occluded).'
-ms.assetid: 'B9EC23C9-A311-4BD9-BBE8-908A1334A541'
+Description: Apps can wait on an event when rendering to the screen is unnecessary (that is, while they are occluded).
+ms.assetid: B9EC23C9-A311-4BD9-BBE8-908A1334A541
 title: Waiting on an event when rendering is unnecessary
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waiting on an event when rendering is unnecessary
@@ -17,7 +22,7 @@ An app can wait on an event when:
 
 The operating system triggers the event when the app is able to render again. The event is not cleared during a driver upgrade, or timeout detection and recovery (TDR) procession, however it is cleared when the new adapter and monitors become active.
 
-If you want your app to be notified about changes of occlusion status, the app must register for these changes. An app can register to be notified about changes of occlusion status through a message to a window or through event signaling. To register to receive notification messages to a window about occlusion status changes, an app calls the [**IDXGIFactory2::RegisterOcclusionStatusWindow**](idxgifactory2-registerocclusionstatuswindow.md) method. To register to receive notification of occlusion status changes via event signaling, an app calls the [**IDXGIFactory2::RegisterOcclusionStatusEvent**](idxgifactory2-registerocclusionstatusevent.md) method. Both methods return a pointer to a key value that the app can use to unregister the notification. To unregister the notification, the app passes this key value to the [**IDXGIFactory2::UnregisterOcclusionStatus**](idxgifactory2-unregisterocclusionstatus.md) method.
+If you want your app to be notified about changes of occlusion status, the app must register for these changes. An app can register to be notified about changes of occlusion status through a message to a window or through event signaling. To register to receive notification messages to a window about occlusion status changes, an app calls the [**IDXGIFactory2::RegisterOcclusionStatusWindow**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatuswindow?branch=master) method. To register to receive notification of occlusion status changes via event signaling, an app calls the [**IDXGIFactory2::RegisterOcclusionStatusEvent**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-registerocclusionstatusevent?branch=master) method. Both methods return a pointer to a key value that the app can use to unregister the notification. To unregister the notification, the app passes this key value to the [**IDXGIFactory2::UnregisterOcclusionStatus**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgifactory2-unregisterocclusionstatus?branch=master) method.
 
 ## Related topics
 

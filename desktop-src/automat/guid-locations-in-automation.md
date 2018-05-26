@@ -1,14 +1,19 @@
 ---
 title: GUID Locations in Automation
 description: Describes where GUIDs for Automation are located.
-ms.assetid: '091b7a1d-a13f-43c4-97ef-b58fd537df4b'
+ms.assetid: 091b7a1d-a13f-43c4-97ef-b58fd537df4b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GUID Locations in Automation
 
 GUIDs appear in the following locations:
 
--   **.reg files** — When an application is created, usually one or more .reg files are created. The .reg files contain the GUIDs for the classes that an application exposes. These GUIDs are added to the registry when you run Regedit.exe to register the classes, or when you register type information with [**LoadTypeLib**](loadtypelib.md).
+-   **.reg files** — When an application is created, usually one or more .reg files are created. The .reg files contain the GUIDs for the classes that an application exposes. These GUIDs are added to the registry when you run Regedit.exe to register the classes, or when you register type information with [**LoadTypeLib**](/windows/previous-versions/OleAuto/nf-oleauto-loadtypelib?branch=master).
 
 -   **The system registry** — Contains the GUIDs for classes in multiple locations. This is where OLE and applications get information about classes.
 

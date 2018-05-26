@@ -1,7 +1,12 @@
-﻿---
+---
 Description: Supported Protocols
-ms.assetid: '3c026426-c2b7-4909-9524-9cc0bd45347e'
+ms.assetid: 3c026426-c2b7-4909-9524-9cc0bd45347e
 title: Supported Protocols
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Supported Protocols
@@ -16,9 +21,9 @@ Media Foundation supports the following protocols:
 
     HTTP uses TCP and is used by web servers. The "httpd://" scheme indicates that the source is downloadable from a web server. HTTP is also used in case of firewalls, which are usually configured to accept HTTP requests and typically reject other streaming protocols.
 
-The application can get the protocols supported by Media Foundation by using the [**IMFNetSchemeHandlerConfig**](imfnetschemehandlerconfig.md) interface. To do this, the application must first retrieve the number of protocols, by calling [**IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols**](imfnetschemehandlerconfig-getnumberofsupportedprotocols.md) and then get the protocol type based on the index by calling [**IMFNetSchemeHandlerConfig::GetSupportedProtocolType**](imfnetschemehandlerconfig-getsupportedprotocoltype.md). This method returns one of the values defined in the [**MFNETSOURCE\_PROTOCOL\_TYPE**](mfnetsource-protocol-type.md) enumeration.
+The application can get the protocols supported by Media Foundation by using the [**IMFNetSchemeHandlerConfig**](/windows/win32/mfidl/nn-mfidl-imfnetschemehandlerconfig?branch=master) interface. To do this, the application must first retrieve the number of protocols, by calling [**IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols**](/windows/win32/mfidl/nf-mfidl-imfnetschemehandlerconfig-getnumberofsupportedprotocols?branch=master) and then get the protocol type based on the index by calling [**IMFNetSchemeHandlerConfig::GetSupportedProtocolType**](/windows/win32/mfidl/nf-mfidl-imfnetschemehandlerconfig-getsupportedprotocoltype?branch=master). This method returns one of the values defined in the [**MFNETSOURCE\_PROTOCOL\_TYPE**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_protocol_type?branch=master) enumeration.
 
-The application can also get the schemes supported by the source resolver by calling the [**MFGetSupportedSchemes**](mfgetsupportedschemes.md) function.
+The application can also get the schemes supported by the source resolver by calling the [**MFGetSupportedSchemes**](/windows/win32/mfidl/nf-mfidl-mfgetsupportedschemes?branch=master) function.
 
 ## Protocol Rollover
 
@@ -130,9 +135,9 @@ The following code shows how to get these values.
 
 
 
-In the preceding example code, **IPropertyStore::GetValue** retrieves the MFNETSOURCE\_PROTOCOL value, which is a member of the [**MFNETSOURCE\_PROTOCOL\_TYPE**](mfnetsource-protocol-type.md) enumeration. For MFNETSOURCE\_TRANSPORT, the value is a member of the [**MFNETSOURCE\_TRANSPORT\_TYPE**](mfnetsource-transport-type.md) enumeration.
+In the preceding example code, **IPropertyStore::GetValue** retrieves the MFNETSOURCE\_PROTOCOL value, which is a member of the [**MFNETSOURCE\_PROTOCOL\_TYPE**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_protocol_type?branch=master) enumeration. For MFNETSOURCE\_TRANSPORT, the value is a member of the [**MFNETSOURCE\_TRANSPORT\_TYPE**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_transport_type?branch=master) enumeration.
 
-Alternately, the application can get the same values by using the MFNETSOURCE\_STATISTICS\_SERVICE service. To use this service, the application can call the [**MFGetService**](mfgetservice.md) function to get the property store from the network source. This property store contains network statistics in the [MFNETSOURCE\_STATISTICS](mfnetsource-statistics-property.md) property. Protocol and transport values can be retrieved by specifying MFNETSOURCE\_PROTOCOL\_ID and MFNETSOURCE\_TRANSPORT\_ID—defined in the [**MFNETSOURCE\_STATISTICS\_IDS**](mfnetsource-statistics-ids.md) enumeration. The following code shows how to get the protocol and transport values by using the MFNETSOURCE\_STATISTICS\_SERVICE service.
+Alternately, the application can get the same values by using the MFNETSOURCE\_STATISTICS\_SERVICE service. To use this service, the application can call the [**MFGetService**](/windows/win32/mfidl/nf-mfidl-mfgetservice?branch=master) function to get the property store from the network source. This property store contains network statistics in the [MFNETSOURCE\_STATISTICS](mfnetsource-statistics-property.md) property. Protocol and transport values can be retrieved by specifying MFNETSOURCE\_PROTOCOL\_ID and MFNETSOURCE\_TRANSPORT\_ID—defined in the [**MFNETSOURCE\_STATISTICS\_IDS**](/windows/win32/mfidl/ne-mfidl-_mfnetsource_statistics_ids?branch=master) enumeration. The following code shows how to get the protocol and transport values by using the MFNETSOURCE\_STATISTICS\_SERVICE service.
 
 
 ```C++

@@ -1,8 +1,16 @@
 ---
 title: IMessengerApp Parent property
 description: IMessengerApp Parent property
-ms.assetid: '98c1fbd1-3afc-4bcf-ba59-1da8542f4c60'
-keywords: ["Parent property Windows Messenger", "Parent property Windows Messenger , IMessengerApp interface", "IMessengerApp interface Windows Messenger , Parent property"]
+ms.assetid: 98c1fbd1-3afc-4bcf-ba59-1da8542f4c60
+keywords:
+- Parent property Windows Messenger
+- Parent property Windows Messenger , IMessengerApp interface
+- IMessengerApp interface Windows Messenger , Parent property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerApp::Parent property

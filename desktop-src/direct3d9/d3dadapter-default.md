@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the primary display adapter.'
-ms.assetid: '76f91917-394a-4588-9c83-c35bddb36b8e'
-title: 'D3DADAPTER\_DEFAULT'
+Description: Specifies the primary display adapter.
+ms.assetid: 76f91917-394a-4588-9c83-c35bddb36b8e
+title: D3DADAPTER\_DEFAULT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DADAPTER\_DEFAULT

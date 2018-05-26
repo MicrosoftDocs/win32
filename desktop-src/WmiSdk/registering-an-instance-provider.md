@@ -1,13 +1,16 @@
 ---
-Description: 'To create a WMI instance provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_InstanceProviderRegistration.'
+Description: To create a WMI instance provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_InstanceProviderRegistration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5ac8e964-606f-4010-84a8-7c0ae6ca2133'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5ac8e964-606f-4010-84a8-7c0ae6ca2133
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering an Instance Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering an Instance Provider
@@ -23,7 +26,7 @@ The following procedure describes how to register an instance provider.
 
     The [**\_\_InstanceProviderRegistration**](--instanceproviderregistration.md) class inherits many properties from the [**\_\_ObjectProviderRegistration**](--objectproviderregistration.md) parent class, which provides Boolean values that indicate support for particular features and an array of strings to indicate query support.
 
-    Be sure to tag the class with both the [**Dynamic**](standard-wmi-qualifiers.md) and [**Provider**](provider.md) qualifiers. The qualifier signals that WMI should use a **Dynamic** provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
+    Be sure to tag the class with both the [**Dynamic**](standard-wmi-qualifiers.md) and [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifiers. The qualifier signals that WMI should use a **Dynamic** provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
 
 The following code example describes how to register a [**\_\_Win32Provider**](--win32provider.md) and [**\_\_InstanceProviderRegistration**](--instanceproviderregistration.md) instance.
 

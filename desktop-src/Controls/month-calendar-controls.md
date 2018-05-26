@@ -1,7 +1,12 @@
 ---
 title: About Month Calendar Controls
 description: A month calendar control implements a calendar-like user interface.
-ms.assetid: '81b8f233-272e-4043-92ff-5ff47b0610d6'
+ms.assetid: 81b8f233-272e-4043-92ff-5ff47b0610d6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Month Calendar Controls
@@ -70,7 +75,7 @@ The following keyboard commands can also be used to move the selection. The cale
 
 If a month calendar control is not using the [**MCS\_NOTODAY**](month-calendar-control-styles.md#mcs-notoday) style, the user can return to the current day by clicking the "Today" text at the bottom of the control. If the current day is not visible, the control updates its display to show it.
 
-An application can change the number of months by which the control updates its display by using the [**MCM\_SETMONTHDELTA**](mcm-setmonthdelta.md) message or the corresponding macro, [**MonthCal\_SetMonthDelta**](monthcal-setmonthdelta.md). However, the PAGE UP and PAGE DOWN keys change the selected month by one, regardless of the number of months displayed or the value set by **MCM\_SETMONTHDELTA**.
+An application can change the number of months by which the control updates its display by using the [**MCM\_SETMONTHDELTA**](mcm-setmonthdelta.md) message or the corresponding macro, [**MonthCal\_SetMonthDelta**](/windows/win32/Commctrl/nf-commctrl-monthcal_setmonthdelta?branch=master). However, the PAGE UP and PAGE DOWN keys change the selected month by one, regardless of the number of months displayed or the value set by **MCM\_SETMONTHDELTA**.
 
 ### Selecting a nonadjacent month
 

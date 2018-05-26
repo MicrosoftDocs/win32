@@ -1,7 +1,12 @@
 ---
 title: IBackgroundCopyJob Methods
 description: The IBackgroundCopyJob interface exposes the following methods.
-ms.assetid: '393EF1F1-940A-489E-826D-E125C2B3D8BF'
+ms.assetid: 393EF1F1-940A-489E-826D-E125C2B3D8BF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyJob Methods

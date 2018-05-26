@@ -1,8 +1,10 @@
 ---
 title: HTTPMAILCOMMAND enumeration
 description: Identifies the various HTTP commands.
-ms.assetid: 'd12b5119-f760-4997-9dd2-616e383ac1e4'
-keywords: ["HTTPMAILCOMMAND enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: d12b5119-f760-4997-9dd2-616e383ac1e4
+keywords:
+- HTTPMAILCOMMAND enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HTTPMAILCOMMAND enumeration
@@ -24,28 +31,28 @@ Identifies the various HTTP commands.
 
 ```C++
 typedef enum tagHTTPMAILCOMMAND { 
-  HTTPMAIL_NONE          = 0,
-  HTTPMAIL_GETPROP       = 1,
-  HTTPMAIL_GET           = 2,
-  HTTPMAIL_PUT           = 3,
-  HTTPMAIL_POST          = 4,
-  HTTPMAIL_DELETE        = 5,
-  HTTPMAIL_BDELETE       = 6,
-  HTTPMAIL_PROPFIND      = 7,
-  HTTPMAIL_PROPPATCH     = 8,
-  HTTPMAIL_MKCOL         = 9,
-  HTTPMAIL_COPY          = 10,
-  HTTPMAIL_BCOPY         = 11,
-  HTTPMAIL_MOVE          = 12,
-  HTTPMAIL_BMOVE         = 13,
-  HTTPMAIL_MEMBERINFO    = 14,
-  HTTPMAIL_FINDFOLDERS   = 15,
-  HTTPMAIL_MARKREAD      = 16,
-  HTTPMAIL_SENDMESSAGE   = 17,
-  HTTPMAIL_LISTCONTACTS  = 18,
-  HTTPMAIL_CONTACTINFO   = 19,
-  HTTPMAIL_POSTCONTACT   = 20,
-  HTTPMAIL_PATCHCONTACT  = 21
+  HTTPMAIL_NONE          = 0,
+  HTTPMAIL_GETPROP       = 1,
+  HTTPMAIL_GET           = 2,
+  HTTPMAIL_PUT           = 3,
+  HTTPMAIL_POST          = 4,
+  HTTPMAIL_DELETE        = 5,
+  HTTPMAIL_BDELETE       = 6,
+  HTTPMAIL_PROPFIND      = 7,
+  HTTPMAIL_PROPPATCH     = 8,
+  HTTPMAIL_MKCOL         = 9,
+  HTTPMAIL_COPY          = 10,
+  HTTPMAIL_BCOPY         = 11,
+  HTTPMAIL_MOVE          = 12,
+  HTTPMAIL_BMOVE         = 13,
+  HTTPMAIL_MEMBERINFO    = 14,
+  HTTPMAIL_FINDFOLDERS   = 15,
+  HTTPMAIL_MARKREAD      = 16,
+  HTTPMAIL_SENDMESSAGE   = 17,
+  HTTPMAIL_LISTCONTACTS  = 18,
+  HTTPMAIL_CONTACTINFO   = 19,
+  HTTPMAIL_POSTCONTACT   = 20,
+  HTTPMAIL_PATCHCONTACT  = 21
 } ACCESSTYPE;
 ```
 
@@ -215,17 +222,17 @@ See the [**PatchContact**](oe-ihttpmailtransport-patchcontact.md) method.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

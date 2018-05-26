@@ -1,7 +1,12 @@
 ---
 Description: Retrieving the Functional Categories Supported by a Device
-ms.assetid: '7748e111-9987-4685-8fc8-10c5d4631080'
+ms.assetid: 7748e111-9987-4685-8fc8-10c5d4631080
 title: Retrieving the Functional Categories Supported by a Device
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Functional Categories Supported by a Device
@@ -30,14 +35,14 @@ Your application can retrieve the functional categories supported by a device by
 
 | Interface                                                                                      | Description                                                   |
 |------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)                   | Provides access to the functional-category retrieval methods. |
+| [**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)                   | Provides access to the functional-category retrieval methods. |
 | [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md) | Used to enumerate and store functional-category data.         |
 
 
 
  
 
-The first task accomplished by the sample application is the retrieval of an [**IPortableDeviceCapabilities**](iportabledevicecapabilities.md) object, which is used to retrieve the functional categories on the selected device.
+The first task accomplished by the sample application is the retrieval of an [**IPortableDeviceCapabilities**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master) object, which is used to retrieve the functional categories on the selected device.
 
 
 ```C++
@@ -123,10 +128,10 @@ if (SUCCEEDED(hr))
 
 <dl> <dt>
 
-[**IPortableDevice Interface**](iportabledevice.md)
+[**IPortableDevice Interface**](/windows/win32/PortableDeviceApi/nn-portabledeviceapi-iportabledevice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceCapabilities Interface**](iportabledevicecapabilities.md)
+[**IPortableDeviceCapabilities Interface**](/windows/win32/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities?branch=master)
 </dt> <dt>
 
 [**IPortableDevicePropVariantCollection Interface**](iportabledevicepropvariantcollection.md)

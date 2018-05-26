@@ -1,7 +1,12 @@
 ---
-Description: 'The DVDNotify event notifies an application of many different DVD events and disc instructions.'
-ms.assetid: '8e7d85fb-95c0-472d-ab17-a82da303b68f'
+Description: The DVDNotify event notifies an application of many different DVD events and disc instructions.
+ms.assetid: 8e7d85fb-95c0-472d-ab17-a82da303b68f
 title: DVDNotify
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVDNotify
@@ -9,7 +14,7 @@ title: DVDNotify
 > [!Note]  
 > This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 
- 
+ 
 
 The `DVDNotify` event notifies an application of many different DVD events and disc instructions.
 
@@ -56,9 +61,9 @@ Can contain additional information related to the event.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

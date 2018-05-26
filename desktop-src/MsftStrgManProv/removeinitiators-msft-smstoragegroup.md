@@ -4,11 +4,14 @@ description: Removes the specified initiators from the storage group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd7855165-5aa1-4cdb-86fc-64b4e3d74a07'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: d7855165-5aa1-4cdb-86fc-64b4e3d74a07
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveInitiators method", "RemoveInitiators method, MSFT_SMStorageGroup class", "MSFT_SMStorageGroup class, RemoveInitiators method"]
+keywords:
+- RemoveInitiators method
+- RemoveInitiators method, MSFT_SMStorageGroup class
+- MSFT_SMStorageGroup class, RemoveInitiators method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveInitiators method of the MSFT\_SMStorageGroup class
@@ -28,11 +34,11 @@ Removes the specified initiators from the storage group.
 
 ```mof
 Uint32 RemoveInitiators(
-  [in]            String                InitiatorPortIDs[],
-  [in, optional]  String                username,
-  [in, optional]  String                password,
-  [out]           MSFT_SMJob        REF Job,
-  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
+  [in]            String                InitiatorPortIDs[],
+  [in, optional]  String                username,
+  [in, optional]  String                password,
+  [out]           MSFT_SMJob        REF Job,
+  [out, optional] MSFT_SMExtendedStatus ExtendedStatus
 );
 ```
 
@@ -68,7 +74,7 @@ The password used to authenticate with the SMI-S provider. If this value is not 
 
 A reference to the [**MSFT\_SMJob**](msft-smjob.md) instance. May be **NULL** if the job is completed.
 
-**Windows Server 2012:** This parameter is not supported.
+**Windows Server 2012:** This parameter is not supported.
 
 </dd> <dt>
 
@@ -231,7 +237,7 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -245,9 +251,9 @@ An [**MSFT\_SMExtendedStatus**](msft-smextendedstatus.md) object containing the 
 [**MSFT\_SMStorageGroup**](msft-smstoragegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

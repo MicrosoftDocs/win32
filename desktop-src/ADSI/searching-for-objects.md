@@ -4,11 +4,15 @@ description: Julie Bankert must find telephone numbers for all Program Managers 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c6325068-4ae2-4348-9938-96402262cd43'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: c6325068-4ae2-4348-9938-96402262cd43
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["searching for objects ADSI"]
+keywords:
+- searching for objects ADSI
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Searching for Objects
@@ -79,7 +83,7 @@ oCommand1.Properties("SearchScope") = ADS_SCOPE_ONELEVEL
 If scope is not specified, by default it uses a subtree search.
 
 > [!Note]  
-> If you use C++, you can use the [**IDirectorySearch**](idirectorysearch.md) interface from ADSI.
+> If you use C++, you can use the [**IDirectorySearch**](/windows/win32/Iads/nn-iads-idirectorysearch?branch=master) interface from ADSI.
 
  
 

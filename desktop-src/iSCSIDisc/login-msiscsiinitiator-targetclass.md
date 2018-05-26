@@ -1,7 +1,12 @@
 ---
-Description: 'The Login method initiates a login to the target.'
-ms.assetid: 'e86bb4d8-fcf1-480a-b267-33ff4d55f03a'
-title: 'Login method of the MSIscsiInitiator\_TargetClass class'
+Description: The Login method initiates a login to the target.
+ms.assetid: e86bb4d8-fcf1-480a-b267-33ff4d55f03a
+title: Login method of the MSIscsiInitiator\_TargetClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Login method of the MSIscsiInitiator\_TargetClass class
@@ -13,16 +18,16 @@ The **Login** method initiates a login to the target.
 
 ```mof
 uint32 Login(
-  [in]  boolean                             IsInformationalSession,
-  [in]  uint32                              InitiatorPortNumber,
-  [in]  MSIscsiInitiator_Portal             TargetPortal,
-  [in]  ISCSI_SECURITY_FLAGS                SecurityFlags,
-  [in]  MSIscsiInitiator_TargetMappings     Mappings[],
-  [in]  MSIscsiInitiator_TargetLoginOptions LoginOptions,
-  [in]  uint8                               Key[],
-  [in]  boolean                             IsPersistent,
-  [out] string                              UniqueSessionId,
-  [out] string                              UniqueConnectionId
+  [in]  boolean                             IsInformationalSession,
+  [in]  uint32                              InitiatorPortNumber,
+  [in]  MSIscsiInitiator_Portal             TargetPortal,
+  [in]  ISCSI_SECURITY_FLAGS                SecurityFlags,
+  [in]  MSIscsiInitiator_TargetMappings     Mappings[],
+  [in]  MSIscsiInitiator_TargetLoginOptions LoginOptions,
+  [in]  uint8                               Key[],
+  [in]  boolean                             IsPersistent,
+  [out] string                              UniqueSessionId,
+  [out] string                              UniqueConnectionId
 );
 ```
 
@@ -72,7 +77,7 @@ A bitmap that defines the security characteristics of a login connection.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -124,8 +129,8 @@ Indicates the unique connection ID generated for this login operation.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Namespace<br/>                | Root\\WMI<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>Iscsidsc.mof</dt> </dl> |
 
@@ -147,9 +152,9 @@ Indicates the unique connection ID generated for this login operation.
 [**MSIscsiInitiator\_TargetClass**](msiscsiinitiator-targetclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

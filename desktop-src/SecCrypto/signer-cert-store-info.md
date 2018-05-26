@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the certificate store used to sign a document.'
-ms.assetid: 'aabad010-6fa3-4677-bd73-b8c52d68dbc8'
-title: 'SIGNER\_CERT\_STORE\_INFO structure'
+---
+Description: Specifies the certificate store used to sign a document.
+ms.assetid: aabad010-6fa3-4677-bd73-b8c52d68dbc8
+title: SIGNER\_CERT\_STORE\_INFO structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SIGNER\_CERT\_STORE\_INFO structure
@@ -41,7 +46,7 @@ The size, in bytes, of the structure.
 **pSigningCert**
 </dt> <dd>
 
-A pointer to a [**CERT\_CONTEXT**](cert-context.md) structure for the signing certificate.
+A pointer to a [**CERT\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_cert_context?branch=master) structure for the signing certificate.
 
 </dd> <dt>
 

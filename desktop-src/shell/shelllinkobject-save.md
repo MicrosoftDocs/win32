@@ -1,7 +1,12 @@
-﻿---
-Description: 'Saves all changes to the link.'
-ms.assetid: '4c776c82-8eca-4c9b-9487-4a835affd2d8'
-title: 'ShellLinkObject.Save method'
+---
+Description: Saves all changes to the link.
+ms.assetid: 4c776c82-8eca-4c9b-9487-4a835affd2d8
+title: ShellLinkObject.Save method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShellLinkObject.Save method

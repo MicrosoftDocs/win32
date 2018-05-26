@@ -4,13 +4,15 @@ description: Represents a DTC transaction trace session.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4ebf55a3-45ec-4932-bb42-59098079e877'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4ebf55a3-45ec-4932-bb42-59098079e877
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-transaction-coordinator'
-- 'windows-management-instrumentation'
+- distributed-transaction-coordinator
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DtcTransactionsTraceSession class", "DtcTransactionsTraceSession class, described"]
+keywords:
+- DtcTransactionsTraceSession class
+- DtcTransactionsTraceSession class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - MsDtcWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DtcTransactionsTraceSession class
@@ -84,8 +89,8 @@ The status of the trace session.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\MsDTC<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Msdtcwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsDtcWmi.dll</dt> </dl> |
@@ -99,9 +104,9 @@ The status of the trace session.
 [Distributed Transaction Coordinator WMI Provider](distributed-transaction-coordinator-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MDM\_Update\_ApprovedUpdates01\_01 class
 description: The MDM\_Update\_ApprovedUpdates01\_01 class is used to manage and control the rollout of approved updates.
-ms.assetid: '3903dbc1-c745-4e9a-a7f7-455338b77563'
-keywords: ["MDM_Update_ApprovedUpdates01_01 class", "MDM_Update_ApprovedUpdates01_01 class, described"]
+ms.assetid: 3903dbc1-c745-4e9a-a7f7-455338b77563
+keywords:
+- MDM_Update_ApprovedUpdates01_01 class
+- MDM_Update_ApprovedUpdates01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Mofs\DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Update\_ApprovedUpdates01\_01 class
@@ -29,8 +36,8 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [InPartition("local-system"), dynamic, provider("DMWmiBridgeProv1")]
 class MDM_Update_ApprovedUpdates01_01
 {
-  string   InstanceID;
-  string   ParentID;
+  string   InstanceID;
+  string   ParentID;
   datetime ApprovedTime;
 };
 ```
@@ -96,7 +103,7 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                            |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1.mof</dt> </dl>      |
@@ -104,9 +111,9 @@ Describes the full path to the parent node. For this class, the string is "./Ven
 
 
 
- 
+ 
 
- 
+ 
 
 
 

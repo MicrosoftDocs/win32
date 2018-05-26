@@ -1,7 +1,12 @@
 ---
 title: Querying with Visual Basic
 description: Querying with Visual Basic
-ms.assetid: 'dd77c221-8ebc-40c1-8104-936cf6b2f7ec'
+ms.assetid: dd77c221-8ebc-40c1-8104-936cf6b2f7ec
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying with Visual Basic

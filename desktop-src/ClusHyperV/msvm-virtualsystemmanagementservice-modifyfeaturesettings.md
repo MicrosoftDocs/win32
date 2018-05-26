@@ -4,13 +4,16 @@ description: Modifies the feature settings of an ethernet connection of a virtua
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '88bdddfa-fa03-43a4-934b-961b0e3f0c87'
-ms.prod: 'windows-server-dev'
+ms.assetid: 88bdddfa-fa03-43a4-934b-961b0e3f0c87
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ModifyFeatureSettings method", "ModifyFeatureSettings method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, ModifyFeatureSettings method"]
+keywords:
+- ModifyFeatureSettings method
+- ModifyFeatureSettings method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, ModifyFeatureSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ModifyFeatureSettings method of the Msvm\_VirtualSystemManagementService class
@@ -30,9 +36,9 @@ Modifies the feature settings of an ethernet connection of a virtual machine.
 
 ```mof
 uint32 ModifyFeatureSettings(
-  [in]  string                                        FeatureSettings[],
-  [out] Msvm_EthernetSwitchPortFeatureSettingData REF ResultingFeatureSettings[],
-  [out] CIM_ConcreteJob                           REF Job
+  [in]  string                                        FeatureSettings[],
+  [out] Msvm_EthernetSwitchPortFeatureSettingData REF ResultingFeatureSettings[],
+  [out] CIM_ConcreteJob                           REF Job
 );
 ```
 
@@ -90,16 +96,16 @@ The possible return values are:
 **Incompatible Parameters** (6)
 </dt> <dt>
 
-**DMTF Reserved** (7–4095)
+**DMTF Reserved** (7 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32768)
+**Method Reserved** (4097 32768)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -109,7 +115,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -123,9 +129,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

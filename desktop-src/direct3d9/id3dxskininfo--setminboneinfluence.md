@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the minimum bone influence. Influence values smaller than this are ignored.'
-ms.assetid: '9af19c9e-bb6e-4f93-973f-5c38f88eea3d'
-title: 'ID3DXSkinInfo::SetMinBoneInfluence method'
+---
+Description: Sets the minimum bone influence. Influence values smaller than this are ignored.
+ms.assetid: 9af19c9e-bb6e-4f93-973f-5c38f88eea3d
+title: ID3DXSkinInfoSetMinBoneInfluence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXSkinInfo::SetMinBoneInfluence method

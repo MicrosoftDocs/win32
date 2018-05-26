@@ -1,8 +1,15 @@
 ---
 title: Modes and Execution Reference
 description: Modes and Execution Reference
-ms.assetid: '6fb5682d-45f6-4eb2-85cb-741e8ab52304'
-keywords: ["OpenGL,modes reference", "OpenGL,execution reference"]
+ms.assetid: 6fb5682d-45f6-4eb2-85cb-741e8ab52304
+keywords:
+- OpenGL,modes reference
+- OpenGL,execution reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modes and Execution Reference

@@ -4,17 +4,22 @@ description: Auxiliary class to represent a bindable object. Any user-defined cl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '181b3e2b-9442-4f11-9af7-4697491115f3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 181b3e2b-9442-4f11-9af7-4697491115f3
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Bindable-Object class AD Schema", "msDS-BindableObject class AD Schema"]
+keywords:
+- ms-DS-Bindable-Object class AD Schema
+- msDS-BindableObject class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Bindable-Object
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Bindable-Object class
@@ -163,9 +168,9 @@ This class contains the following attributes for ADAM:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Strategies for communicating with multiple pipe clients and servicing multiple pipe instances.'
-ms.assetid: 'c764bde5-e053-4124-b859-1d2839ada918'
+Description: Strategies for communicating with multiple pipe clients and servicing multiple pipe instances.
+ms.assetid: c764bde5-e053-4124-b859-1d2839ada918
 title: Named Pipe Instances
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Named Pipe Instances
@@ -11,7 +16,7 @@ The simplest pipe server creates a single instance of a pipe, connects to a sing
 There are three basic strategies for servicing multiple pipe instances.
 
 -   Create a separate thread for each instance of the pipe. For an example of a multithreaded pipe server, see [Multithreaded Pipe Server](multithreaded-pipe-server.md).
--   Use overlapped operations by specifying an [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure in the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), and [**ConnectNamedPipe**](connectnamedpipe.md) functions. For an example, see [Named Pipe Server Using Overlapped I/O](named-pipe-server-using-overlapped-i-o.md).
+-   Use overlapped operations by specifying an [**OVERLAPPED**](https://msdn.microsoft.com/library/windows/desktop/ms684342) structure in the [**ReadFile**](https://msdn.microsoft.com/library/windows/desktop/aa365467), [**WriteFile**](https://msdn.microsoft.com/library/windows/desktop/aa365747), and [**ConnectNamedPipe**](/windows/win32/Winbase/?branch=master) functions. For an example, see [Named Pipe Server Using Overlapped I/O](named-pipe-server-using-overlapped-i-o.md).
 -   Use overlapped operations by using the [**ReadFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365468) and [**WriteFileEx**](https://msdn.microsoft.com/library/windows/desktop/aa365748) functions, which specify a completion routine to be executed when the operation is completed. For an example, see [Named Pipe Server Using Completion Routines](named-pipe-server-using-completion-routines.md).
 
 The multithreaded pipe server is easiest to write, because the thread for each instance handles communications for a single pipe client. The system allocates processor time to each thread as needed. But each thread uses system resources, which is a disadvantage for a pipe server that handles a large number of clients.

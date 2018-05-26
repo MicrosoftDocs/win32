@@ -1,7 +1,12 @@
 ---
 title: Querying the Status of the Virtual Machines
 description: All of the virtual machine sessions controlled by Virtual Server are contained in a single top-level collection object.
-ms.assetid: 'b84637e4-8b11-4df0-945d-98e2b12a336a'
+ms.assetid: b84637e4-8b11-4df0-945d-98e2b12a336a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying the Status of the Virtual Machines

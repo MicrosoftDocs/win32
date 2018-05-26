@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a Boolean value that indicates whether the decipherOnly bit is set.'
-ms.assetid: '69d8649d-c7bc-438b-afdd-6c9d2627cd72'
-title: 'KeyUsage.IsDecipherOnlyEnabled property'
+---
+Description: Retrieves a Boolean value that indicates whether the decipherOnly bit is set.
+ms.assetid: 69d8649d-c7bc-438b-afdd-6c9d2627cd72
+title: KeyUsage.IsDecipherOnlyEnabled property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KeyUsage.IsDecipherOnlyEnabled property

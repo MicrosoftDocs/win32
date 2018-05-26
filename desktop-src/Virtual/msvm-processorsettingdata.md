@@ -1,8 +1,10 @@
 ---
 title: Msvm\_ProcessorSettingData class
 description: Represents the virtual processor settings for a virtual machine (VM).
-ms.assetid: '96780b3e-c338-4c79-bf40-a193f5d370be'
-keywords: ["Msvm_ProcessorSettingData class Hyper-V", "Msvm_ProcessorSettingData class Hyper-V , described"]
+ms.assetid: 96780b3e-c338-4c79-bf40-a193f5d370be
+keywords:
+- Msvm_ProcessorSettingData class Hyper-V
+- Msvm_ProcessorSettingData class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -40,6 +42,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ProcessorSettingData class
@@ -54,32 +61,32 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_ProcessorSettingData : CIM_ResourceAllocationSettingData
 {
-  string  Caption = "Processor";
-  string  Description = "Settings for Microsoft Virtual Processor";
-  string  InstanceID;
-  string  ElementName = "Processor";
-  uint16  ResourceType = 3;
-  string  OtherResourceType;
-  string  ResourceSubType = "Microsoft Processor";
-  string  PoolID;
-  uint16  ConsumerVisibility;
-  string  HostResource[];
-  string  AllocationUnits = "Processor Cores";
-  uint64  VirtualQuantity;
-  uint64  Reservation;
-  uint64  Limit;
-  uint32  Weight;
+  string  Caption = "Processor";
+  string  Description = "Settings for Microsoft Virtual Processor";
+  string  InstanceID;
+  string  ElementName = "Processor";
+  uint16  ResourceType = 3;
+  string  OtherResourceType;
+  string  ResourceSubType = "Microsoft Processor";
+  string  PoolID;
+  uint16  ConsumerVisibility;
+  string  HostResource[];
+  string  AllocationUnits = "Processor Cores";
+  uint64  VirtualQuantity;
+  uint64  Reservation;
+  uint64  Limit;
+  uint32  Weight;
   boolean AutomaticAllocation = True;
   boolean AutomaticDeallocation = True;
-  string  Parent;
-  string  Connection[];
-  string  Address;
-  uint16  MappingBehavior;
+  string  Parent;
+  string  Connection[];
+  string  Address;
+  uint16  MappingBehavior;
   boolean IsVirtualized = True;
-  string  DeviceID = "Microsoft:GUID";
-  string  DeviceIDFormat;
-  uint16  ProcessorsPerSocket;
-  uint16  SocketCount;
+  string  DeviceID = "Microsoft:GUID";
+  string  DeviceIDFormat;
+  uint16  ProcessorsPerSocket;
+  uint16  SocketCount;
   boolean ThreadsEnabled;
   boolean LimitCPUID;
   boolean LimitProcessorFeatures;
@@ -307,7 +314,7 @@ The maximum amount of CPU resources that may be consumed by the VM. This propert
 
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystemResources**](modifyvirtualsystemresources-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-Range: 0–100000
+Range: 0 100000
 
 </dd> <dt>
 
@@ -337,7 +344,7 @@ Access type: Read-only
 
 Indicates whether the VM should limit the CPU features exposed to the operating system. Limiting the processor features enables the VM to be migrated to different host computer systems with different processors. Migrating VMs between computers with processors from different vendors is not supported.
 
-**Windows Server 2008:** The **LimitProcessorFeatures** property is not supported until Windows Server 2008 R2.
+**Windows Server 2008:** The **LimitProcessorFeatures** property is not supported until Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -425,7 +432,7 @@ The amount of CPU resources that are reserved for use by the VM. These resources
 
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystemResources**](modifyvirtualsystemresources-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-Range: 0–100000
+Range: 0 100000
 
 </dd> <dt>
 
@@ -512,7 +519,7 @@ The weight for each VM processor. After all reserves have been met, the remainin
 
 This is a read-only property, but it can be changed using the [**ModifyVirtualSystemResources**](modifyvirtualsystemresources-msvm-virtualsystemmanagementservice.md) method of the [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) class.
 
-Range: 0–100000
+Range: 0 100000
 
 </dd> </dl>
 
@@ -527,9 +534,9 @@ Access to the **Msvm\_ProcessorSettingData** class might be restricted by UAC Fi
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -548,9 +555,9 @@ Access to the **Msvm\_ProcessorSettingData** class might be restricted by UAC Fi
 [Processor Classes](processor-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.'
-ms.assetid: '38E6AA56-EE38-48D5-92F1-F29ABB2C7A72'
-title: 'MF\_MT\_TIMESTAMP\_CAN\_BE\_DTS attribute'
+---
+Description: Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
+ms.assetid: 38E6AA56-EE38-48D5-92F1-F29ABB2C7A72
+title: MF\_MT\_TIMESTAMP\_CAN\_BE\_DTS attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_TIMESTAMP\_CAN\_BE\_DTS attribute

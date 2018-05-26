@@ -1,7 +1,12 @@
 ---
 Description: Contacting Support
-ms.assetid: '81ce2be2-fe1e-462a-b756-76c4f494cf35'
+ms.assetid: 81ce2be2-fe1e-462a-b756-76c4f494cf35
 title: Contacting Support
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Contacting Support

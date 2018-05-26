@@ -1,8 +1,11 @@
 ---
 title: DMessengerPrivateEvents OnAlertReceived event
 description: Fires when an alert notification is sent from a Messenger service to a Messenger client application.
-ms.assetid: '6e03cb90-91dc-4982-a84b-677f86093772'
-keywords: ["OnAlertReceived event Windows Messenger", "OnAlertReceived event Windows Messenger , DMessengerPrivateEvents interface", "DMessengerPrivateEvents interface Windows Messenger , OnAlertReceived event"]
+ms.assetid: 6e03cb90-91dc-4982-a84b-677f86093772
+keywords:
+- OnAlertReceived event Windows Messenger
+- OnAlertReceived event Windows Messenger , DMessengerPrivateEvents interface
+- DMessengerPrivateEvents interface Windows Messenger , OnAlertReceived event
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msnmsgrexe.adeb440d_7847_4f65_80bd_899870ed2ec9
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMessengerPrivateEvents::OnAlertReceived event
 
-\[**OnAlertReceived** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**OnAlertReceived** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Fires when an alert notification is sent from a Messenger service to a Messenger client application.
 
@@ -24,8 +32,8 @@ Fires when an alert notification is sent from a Messenger service to a Messenger
 
 ```C++
 void OnAlertReceived(
-  [in]      BSTR         bstrAlert,
-  [in, out] VARIANT_BOOL *pBoolfEnableDefault = VARIANT_TRUE
+  [in]      BSTR         bstrAlert,
+  [in, out] VARIANT_BOOL *pBoolfEnableDefault = VARIANT_TRUE
 );
 ```
 
@@ -56,7 +64,7 @@ Pointer to a **VARIANT\_BOOL** that defines one of the following possible values
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -76,10 +84,10 @@ The value of *pBoolfEnableDefault* indicates whether a popup window is displayed
 
 |                                     |                                                                                                                                |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
-| End of client support<br/>    | Windows XP<br/>                                                                                                          |
-| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
+| Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                           |
+| End of client support<br/>    | Windows XP<br/>                                                                                                          |
+| End of server support<br/>    | Windows Server 2003<br/>                                                                                                 |
 | Product<br/>                  | Messenger 4.5<br/>                                                                                                       |
 | Header<br/>                   | <dl> <dt>Msgrpriv.h</dt> </dl>                                          |
 | IDL<br/>                      | <dl> <dt>Msgrpriv.idl</dt> </dl>                                        |
@@ -118,9 +126,9 @@ The value of *pBoolfEnableDefault* indicates whether a popup window is displayed
 [Messenger Session Invite and Messenger Private APIs](im-session-invite-ovw.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

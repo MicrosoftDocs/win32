@@ -1,7 +1,12 @@
-﻿---
-Description: 'VShadow is a command-line tool that you can use to create and manage volume shadow copies.'
-ms.assetid: '19109f92-b9da-4df7-8628-374e37a3f624'
+---
+Description: VShadow is a command-line tool that you can use to create and manage volume shadow copies.
+ms.assetid: 19109f92-b9da-4df7-8628-374e37a3f624
 title: VShadow Tool and Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VShadow Tool and Sample
@@ -110,7 +115,7 @@ This flag is supported only on Windows server operating systems.
 </tr>
 <tr class="odd">
 <td><span id="-nar"></span><span id="-NAR"></span><strong>-nar</strong><br/></td>
-<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the [<strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong>](-vss-volume-snapshot-attributes.md) enumeration.<br/></td>
+<td>This optional flag specifies shadow copies without auto-recovery. For more information about this option, see the documentation for the VSS_VOLSNAP_ATTR_NO_AUTORECOVERY flag of the [<strong>_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</strong>](/windows/win32/Vss/ne-vss-_vss_volume_snapshot_attributes?branch=master) enumeration.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="-norevert"></span><span id="-NOREVERT"></span><strong>-norevert</strong><br/></td>
@@ -237,7 +242,7 @@ The **-qx** command-line option lists the properties of all shadow copies in the
 
 The **-s** command-line option lists the properties of the shadow copy whose ID is specified by *ShadowCopyId*.
 
-These command-line options use a combination of [**IVssBackupComponents::Query**](ivssbackupcomponents-query.md) and [**IVssBackupComponents::GetSnapshotProperties**](ivssbackupcomponents-getsnapshotproperties.md) to get the properties of the given set of shadow copies.
+These command-line options use a combination of [**IVssBackupComponents::Query**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-query?branch=master) and [**IVssBackupComponents::GetSnapshotProperties**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties?branch=master) to get the properties of the given set of shadow copies.
 
 The **-q**, **-qx**, and **-s** command-line options are mutually exclusive and cannot be combined with other command-line options.
 
@@ -295,7 +300,7 @@ The **-b** and **-bw** command-line options are mutually exclusive and cannot be
 
 **vshadow** **-bex**
 
-The **-bex** command-line option breaks a shadow copy set according to the options specified by the optional **-mask**, **-rw**, **-forcerevert**, and **-norevert** flags. This command-line option is similar to the **-b** and **-bw** command-line options. The **-bex** command-line option uses the [**IVssBackupComponentsEx2::BreakSnapshotSetEx**](ivssbackupcomponentsex2-breaksnapshotsetex.md) method, whereas the **-b** and **-bw** command-line options use the [**IVssBackupComponents::BreakSnapshotSet**](ivssbackupcomponents-breaksnapshotset.md) method.
+The **-bex** command-line option breaks a shadow copy set according to the options specified by the optional **-mask**, **-rw**, **-forcerevert**, and **-norevert** flags. This command-line option is similar to the **-b** and **-bw** command-line options. The **-bex** command-line option uses the [**IVssBackupComponentsEx2::BreakSnapshotSetEx**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponentsex2-breaksnapshotsetex?branch=master) method, whereas the **-b** and **-bw** command-line options use the [**IVssBackupComponents::BreakSnapshotSet**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-breaksnapshotset?branch=master) method.
 
 For information about breaking a shadow copy set, see [Breaking Shadow Copies](breaking-shadow-copies.md).
 

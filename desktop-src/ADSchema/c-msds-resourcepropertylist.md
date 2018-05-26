@@ -4,17 +4,22 @@ description: An object of this class contains a list of resource properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'e1777452-073f-4a7d-b593-fbb1c50d2421'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: e1777452-073f-4a7d-b593-fbb1c50d2421
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Resource-Property-List class AD Schema", "msDS-ResourcePropertyList class AD Schema"]
+keywords:
+- ms-DS-Resource-Property-List class AD Schema
+- msDS-ResourcePropertyList class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Resource-Property-List
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Resource-Property-List class
@@ -35,7 +40,7 @@ An object of this class contains a list of resource properties.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ An object of this class contains a list of resource properties.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -190,9 +195,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

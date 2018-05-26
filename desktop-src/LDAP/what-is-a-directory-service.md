@@ -4,10 +4,13 @@ description: A directory is similar to a database, but typically contains more d
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '7a1693e9-1afb-44f3-b9f2-d9e54701fe6a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: 7a1693e9-1afb-44f3-b9f2-d9e54701fe6a
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What is a Directory Service?

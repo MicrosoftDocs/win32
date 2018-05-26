@@ -1,6 +1,11 @@
 ---
-Description: 'Demonstrates how to create a verb that operates on Shell items and containers which plays items or adds items to a queue.'
+Description: Demonstrates how to create a verb that operates on Shell items and containers which plays items or adds items to a queue.
 title: Player Verb Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player Verb Sample

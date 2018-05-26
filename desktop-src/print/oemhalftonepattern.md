@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMHalftonePattern function
-ms.assetid: 'c574d997-736e-4883-a2c3-447985fcee55'
+ms.assetid: c574d997-736e-4883-a2c3-447985fcee55
 title: OEMHalftonePattern function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMHalftonePattern function

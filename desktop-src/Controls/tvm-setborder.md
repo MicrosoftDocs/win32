@@ -1,8 +1,9 @@
 ---
 title: TVM\_SETBORDER message
 description: Sets the size of the border for the items in a tree-view control. You can send the message explicitly or by using the TreeView\_SetBorder macro.
-ms.assetid: '468b46ae-2ab2-4753-a0af-7c644f75ce62'
-keywords: ["TVM_SETBORDER message Windows Controls"]
+ms.assetid: 468b46ae-2ab2-4753-a0af-7c644f75ce62
+keywords:
+- TVM_SETBORDER message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TVM\_SETBORDER message
 
 **Intended for internal use; not recommended for use in applications.**
 
-Sets the size of the border for the items in a tree-view control. You can send the message explicitly or by using the [**TreeView\_SetBorder**](treeview-setborder.md) macro.
+Sets the size of the border for the items in a tree-view control. You can send the message explicitly or by using the [**TreeView\_SetBorder**](/windows/win32/Commctrl/nf-commctrl-treeview_setborder?branch=master) macro.
 
 ## Parameters
 
@@ -37,7 +43,7 @@ Action flags. This parameter can be one or more of the following values:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,8 +78,8 @@ This message may not be supported in future versions of Comctl32.dll. Also, this
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -82,12 +88,12 @@ This message may not be supported in future versions of Comctl32.dll. Also, this
 
 <dl> <dt>
 
-[**TreeView\_SetBorder**](treeview-setborder.md)
+[**TreeView\_SetBorder**](/windows/win32/Commctrl/nf-commctrl-treeview_setborder?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

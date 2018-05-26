@@ -1,13 +1,16 @@
 ---
-Description: 'SNMP textual conventions map to CIM-defined types.'
+Description: SNMP textual conventions map to CIM-defined types.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '73bb6c22-0a68-4a4b-8de2-8326ec67a059'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 73bb6c22-0a68-4a4b-8de2-8326ec67a059
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'TEXTUAL-CONVENTION Macro'
+title: TEXTUAL-CONVENTION Macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TEXTUAL-CONVENTION Macro
@@ -17,7 +20,7 @@ SNMP textual conventions map to CIM-defined types.
 > [!Note]  
 > For more information about installing the provider, see [Setting up the WMI SNMP Environment](setting-up-the-wmi-snmp-environment.md).
 
- 
+ 
 
 The following mapping rules apply to SNMP textual conventions:
 
@@ -38,7 +41,7 @@ The following mapping rules apply to SNMP textual conventions:
 
 
 
- 
+ 
 
 -   The CIM-defined variant type and the CIM property qualifiers **textual\_convention**, **encoding**, **object\_syntax**, and **cimtype** map using the underlying primitive type.
 -   The DISPLAY-HINT clause of the SNMPv2C TEXTUAL-CONVENTION macro maps verbatim to the CIM property qualifier **display\_hint**. This qualifier is not generated if there is no TEXTUAL-CONVENTION macro, or the macro does not contain a DISPLAY-HINT clause.
@@ -92,9 +95,9 @@ display_hint("255a"),
 variable_length("0..127")
 ```
 
- 
+ 
 
- 
+ 
 
 
 

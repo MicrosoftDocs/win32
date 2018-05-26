@@ -2,7 +2,12 @@
 title: S
 description: Words starting with S in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: 'ba3c7959-2acd-4a38-b996-cfe7dac20241'
+ms.assetid: ba3c7959-2acd-4a38-b996-cfe7dac20241
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S

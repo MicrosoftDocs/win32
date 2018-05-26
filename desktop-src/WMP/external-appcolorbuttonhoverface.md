@@ -1,8 +1,9 @@
 ---
 title: External.appColorButtonHoverFace
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: 'bf3a0898-b2fb-48bf-84b2-11e9aada4bf3'
-keywords: ["External.appColorButtonHoverFace Windows Media Player"]
+ms.assetid: bf3a0898-b2fb-48bf-84b2-11e9aada4bf3
+keywords:
+- External.appColorButtonHoverFace Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.appColorButtonHoverFace
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **appColorButtonHoverFace** property retrieves the current button hover color for the Windows Media Player user interface. This color is displayed when the user moves the mouse pointer over a button.
 
@@ -53,9 +59,9 @@ Users can change the color of the Windows Media Player user interface. You can u
 [**External Object for Type 2 Online Stores**](external-object-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

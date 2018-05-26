@@ -1,18 +1,21 @@
 ---
-Description: 'A physical consumer is a COM object that implements the IWbemUnboundObjectSink interface.'
+Description: A physical consumer is a COM object that implements the IWbemUnboundObjectSink interface.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '497457dc-61ca-4527-89fd-2af0383de5e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 497457dc-61ca-4527-89fd-2af0383de5e9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Implementing a Physical Consumer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Implementing a Physical Consumer
 
-A physical consumer is a COM object that implements the [**IWbemUnboundObjectSink**](iwbemunboundobjectsink.md) interface. WMI loads your physical consumer and passes events through **IWbemUnboundObjectSink** in response to one or more events, as defined by the associated logical consumer. Permanent consumers have special security requirements. For more information, see [Securing WMI Events](securing-wmi-events.md).
+A physical consumer is a COM object that implements the [**IWbemUnboundObjectSink**](/windows/win32/Wbemprov/nn-wbemprov-iwbemunboundobjectsink?branch=master) interface. WMI loads your physical consumer and passes events through **IWbemUnboundObjectSink** in response to one or more events, as defined by the associated logical consumer. Permanent consumers have special security requirements. For more information, see [Securing WMI Events](securing-wmi-events.md).
 
 The following procedure describes how to implement a physical consumer for a permanent event consumer.
 
@@ -33,17 +36,17 @@ The following procedure describes how to implement a physical consumer for a per
 
     With synchronous notification, WMI delivers the notification on the same thread that the event provider used to deliver the event to WMI. In this case, when an event provider sends a notification, the event provider is blocked by WMI until WMI delivers the notification. Only if your consumer is extremely fast and can process an event in 100 microseconds or less should you consider supporting synchronous notification. Synchronous consumers that take too long to process events can seriously slow the delivery of events to all other consumers. Furthermore, they can inadvertently block the provider. For more information, see [Binding an Event Filter with a Logical Consumer](binding-an-event-filter-with-a-logical-consumer.md).
 
-3.  Implement the [**IWbemUnboundObjectSink::IndicateToConsumer**](iwbemunboundobjectsink-indicatetoconsumer.md) function.
+3.  Implement the [**IWbemUnboundObjectSink::IndicateToConsumer**](/windows/win32/Wbemprov/nf-wbemprov-iwbemunboundobjectsink-indicatetoconsumer?branch=master) function.
 
-    WMI uses the [**IndicateToConsumer**](iwbemunboundobjectsink-indicatetoconsumer.md) function to pass the necessary pointers and events to your physical consumer for both synchronous and asynchronous communications. Your implementation of **IndicateToConsumer** should contain all of the necessary code to respond to an event.
+    WMI uses the [**IndicateToConsumer**](/windows/win32/Wbemprov/nf-wbemprov-iwbemunboundobjectsink-indicatetoconsumer?branch=master) function to pass the necessary pointers and events to your physical consumer for both synchronous and asynchronous communications. Your implementation of **IndicateToConsumer** should contain all of the necessary code to respond to an event.
 
-    Unlike a temporary event consumer, you do not need to call the [**IWbemLocator**](iwbemlocator.md) interface to contact WMI. Instead, WMI locates a pointer to your consumer through the event consumer provider. For more information, see [Writing an Event Consumer Provider](writing-an-event-consumer-provider.md).
+    Unlike a temporary event consumer, you do not need to call the [**IWbemLocator**](/windows/win32/Wbemcli/nn-wbemcli-iwbemlocator?branch=master) interface to contact WMI. Instead, WMI locates a pointer to your consumer through the event consumer provider. For more information, see [Writing an Event Consumer Provider](writing-an-event-consumer-provider.md).
 
-    However, if you wish to call back into WMI, use the [**IWbemLocator**](iwbemlocator.md) and [**IWbemServices**](iwbemservices.md) interfaces. The traditional method for connecting to WMI is during the initialization process of your COM object. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md).
+    However, if you wish to call back into WMI, use the [**IWbemLocator**](/windows/win32/Wbemcli/nn-wbemcli-iwbemlocator?branch=master) and [**IWbemServices**](/windows/win32/WbemCli/nn-wbemcli-iwbemservices?branch=master) interfaces. The traditional method for connecting to WMI is during the initialization process of your COM object. For more information, see [Creating a WMI Application or Script](creating-a-wmi-application-or-script.md).
 
-    If you implement your physical consumer as an in-process COM server and connect to WMI separately from the initialization process, you must use the **CLSID\_WbemAdministrativeLocator** class identifier to access the [**IWbemLocator**](iwbemlocator.md) interface in the call to [**CoCreateInstance**](_com_cocreateinstance).
+    If you implement your physical consumer as an in-process COM server and connect to WMI separately from the initialization process, you must use the **CLSID\_WbemAdministrativeLocator** class identifier to access the [**IWbemLocator**](/windows/win32/Wbemcli/nn-wbemcli-iwbemlocator?branch=master) interface in the call to [**CoCreateInstance**](_com_cocreateinstance).
 
-    The following example shows how to use the **CLSID\_WbemAdministrativeLocator** class identifier to access the [**IWbemLocator**](iwbemlocator.md) interface.
+    The following example shows how to use the **CLSID\_WbemAdministrativeLocator** class identifier to access the [**IWbemLocator**](/windows/win32/Wbemcli/nn-wbemcli-iwbemlocator?branch=master) interface.
 
     ```C++
     IWbemLocator *pLoc = 0;
@@ -54,7 +57,7 @@ The following procedure describes how to implement a physical consumer for a per
 
     
 
-    The [**IWbemLocator**](iwbemlocator.md) interface obtains the initial namespace pointer to WMI on a particular host computer. Failure to use the **CLSID\_WbemAdministrativeLocator** identifier in the [**CoCreateInstance**](_com_cocreateinstance) call results in an "access denied" error.
+    The [**IWbemLocator**](/windows/win32/Wbemcli/nn-wbemcli-iwbemlocator?branch=master) interface obtains the initial namespace pointer to WMI on a particular host computer. Failure to use the **CLSID\_WbemAdministrativeLocator** identifier in the [**CoCreateInstance**](_com_cocreateinstance) call results in an "access denied" error.
 
     Under usual circumstances, WMI delivers asynchronous events to the client one at a time. However, if a client cannot receive asynchronous event notifications as fast as the events arrive, WMI starts to automatically batch events into a single call. Automatic batching helps if the round-trip times are a problem, as is often the case in high-throughput scenarios. However, batching does not improve system performance if the client or the network bandwidth are at fault.
 

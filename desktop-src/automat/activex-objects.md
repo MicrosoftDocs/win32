@@ -1,7 +1,12 @@
 ---
 title: ActiveX Objects
 description: An ActiveX object is an instance of a class that exposes properties, methods, and events to ActiveX clients.
-ms.assetid: '973ca2be-7f0e-43db-8790-0aa07c45675d'
+ms.assetid: 973ca2be-7f0e-43db-8790-0aa07c45675d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ActiveX Objects

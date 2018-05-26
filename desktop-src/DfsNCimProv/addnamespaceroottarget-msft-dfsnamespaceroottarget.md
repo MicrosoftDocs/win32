@@ -4,13 +4,16 @@ description: Adds a new target for a DFS namespace (DFS-N) root.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c4f0803e-b9e4-4aac-b16b-521321244ae2'
-ms.prod: 'windows-server-dev'
+ms.assetid: c4f0803e-b9e4-4aac-b16b-521321244ae2
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddNamespaceRootTarget method", "AddNamespaceRootTarget method, MSFT_DfsNamespaceRootTarget class", "MSFT_DfsNamespaceRootTarget class, AddNamespaceRootTarget method"]
+keywords:
+- AddNamespaceRootTarget method
+- AddNamespaceRootTarget method, MSFT_DfsNamespaceRootTarget class
+- MSFT_DfsNamespaceRootTarget class, AddNamespaceRootTarget method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddNamespaceRootTarget method of the MSFT\_DfsNamespaceRootTarget class
@@ -30,12 +36,12 @@ Adds a new target for a DFS namespace (DFS-N) root.
 
 ```mof
 uint32 AddNamespaceRootTarget(
-  [in]  string                      NamespaceRoot,
-  [in]  string                      RootTargetPath,
-  [in]  uint32                      State,
-  [in]  uint32                      ReferralPriorityRank,
-  [in]  sint32                      ReferralPriorityClass,
-  [out] MSFT_DfsNamespaceRootTarget cmdletOutput
+  [in]  string                      NamespaceRoot,
+  [in]  string                      RootTargetPath,
+  [in]  uint32                      State,
+  [in]  uint32                      ReferralPriorityRank,
+  [in]  sint32                      ReferralPriorityClass,
+  [out] MSFT_DfsNamespaceRootTarget cmdletOutput
 );
 ```
 
@@ -58,7 +64,7 @@ The Universal Naming Convention (UNC) path of the DFS-N root for which to create
 
 
 
- 
+ 
 
 where:
 
@@ -202,7 +208,7 @@ When this method returns, contains output from the **New-DFSNamespaceRootTarget*
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -216,9 +222,9 @@ When this method returns, contains output from the **New-DFSNamespaceRootTarget*
 [**MSFT\_DfsNamespaceRootTarget**](msft-dfsnamespaceroottarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

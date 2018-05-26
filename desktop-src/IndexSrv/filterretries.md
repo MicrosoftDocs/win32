@@ -1,7 +1,12 @@
 ---
 title: FilterRetries
 description: FilterRetries
-ms.assetid: '3023a3c3-8ca5-4cfc-a959-221648f495de'
+ms.assetid: 3023a3c3-8ca5-4cfc-a959-221648f495de
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterRetries

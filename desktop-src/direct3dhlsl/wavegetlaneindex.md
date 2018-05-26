@@ -1,14 +1,20 @@
 ---
 title: WaveGetLaneIndex function
 description: Returns the index of the current lane within the current wave.
-ms.assetid: 'C05BD814-23DF-432F-8669-C03842B77AC7'
-keywords: ["WaveGetLaneIndex function HLSL"]
+ms.assetid: C05BD814-23DF-432F-8669-C03842B77AC7
+keywords:
+- WaveGetLaneIndex function HLSL
 topic_type:
 - apiref
 api_name:
 - WaveGetLaneIndex
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WaveGetLaneIndex function

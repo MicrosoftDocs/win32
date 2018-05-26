@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may choose to use a custom action type 19 when the standard actions are insufficient to execute the installation.'
-ms.assetid: 'c6df5462-e20e-4486-8480-8c747193c5d9'
+Description: Developers of Windows Installer packages may choose to use a custom action type 19 when the standard actions are insufficient to execute the installation.
+ms.assetid: c6df5462-e20e-4486-8480-8c747193c5d9
 title: Custom Action Type 19
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Type 19
@@ -28,7 +33,7 @@ Include the following value in the Type column of the CustomAction table to spec
 
 ## Target
 
-The Target column of the [CustomAction table](customaction-table.md) contains a text string formatted using the functionality specified in [**MsiFormatRecord**](msiformatrecord.md) (without the numeric field specifiers). Parameters to be replaced are enclosed in square brackets, \[…\], and may be properties, environment variables (% prefix), file paths (\# prefix), or component directory paths ($ prefix). If after formatting the string evaluates to an integer, that integer is used as an index into the [Error table](error-table.md) to retrieve the message to display. If after formatting the string contains non-numeric characters, the string itself is displayed as the message.
+The Target column of the [CustomAction table](customaction-table.md) contains a text string formatted using the functionality specified in [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) (without the numeric field specifiers). Parameters to be replaced are enclosed in square brackets, \[…\], and may be properties, environment variables (% prefix), file paths (\# prefix), or component directory paths ($ prefix). If after formatting the string evaluates to an integer, that integer is used as an index into the [Error table](error-table.md) to retrieve the message to display. If after formatting the string contains non-numeric characters, the string itself is displayed as the message.
 
 ## Return Processing Options
 

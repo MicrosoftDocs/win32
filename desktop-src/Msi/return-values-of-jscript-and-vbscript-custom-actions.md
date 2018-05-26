@@ -1,7 +1,12 @@
 ---
-Description: 'Custom actions written in JScript or Visual Basic, Scripting Edition (VBScript) can call an optional function. These functions must return one of the values shown in the following table.'
-ms.assetid: 'f05d0b94-e79e-440e-9f2b-99fe0e9e2646'
+Description: Custom actions written in JScript or Visual Basic, Scripting Edition (VBScript) can call an optional function. These functions must return one of the values shown in the following table.
+ms.assetid: f05d0b94-e79e-440e-9f2b-99fe0e9e2646
 title: Return Values of JScript and VBScript Custom Actions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Return Values of JScript and VBScript Custom Actions

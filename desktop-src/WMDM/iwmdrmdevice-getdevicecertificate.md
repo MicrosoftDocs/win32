@@ -1,8 +1,11 @@
 ---
 title: IWMDRMDevice GetDeviceCertificate method
 description: The GetDeviceCertificate method retrieves the device certificate.
-ms.assetid: '9e345bf9-a158-4c0e-a9f1-e4ce3ec16b58'
-keywords: ["GetDeviceCertificate method windows Media Device Manager", "GetDeviceCertificate method windows Media Device Manager , IWMDRMDevice interface", "IWMDRMDevice interface windows Media Device Manager , GetDeviceCertificate method"]
+ms.assetid: 9e345bf9-a158-4c0e-a9f1-e4ce3ec16b58
+keywords:
+- GetDeviceCertificate method windows Media Device Manager
+- GetDeviceCertificate method windows Media Device Manager , IWMDRMDevice interface
+- IWMDRMDevice interface windows Media Device Manager , GetDeviceCertificate method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - mssachlp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice::GetDeviceCertificate method
@@ -23,7 +31,7 @@ The **GetDeviceCertificate** method retrieves the device certificate.
 
 ```C++
 HRESULT GetDeviceCertificate(
-  [out] BSTR *pbstrDevCert
+  [out] BSTR *pbstrDevCert
 );
 ```
 
@@ -52,7 +60,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -72,9 +80,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

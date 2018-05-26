@@ -1,7 +1,12 @@
 ---
 title: Shader Reference
 description: This section covers Direct3D 12 APIs declared in d3d12shader.h, which helps create and manage programmable shaders. Shaders are executable programs that are programmed exclusively using HLSL.
-ms.assetid: 'd2e414bd-02ed-4f55-90ad-d17c322ec728'
+ms.assetid: d2e414bd-02ed-4f55-90ad-d17c322ec728
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Shader Reference
@@ -20,7 +25,7 @@ This section covers Direct3D 12 APIs declared in d3d12shader.h, which helps crea
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section covers Direct3D 12 APIs declared in d3d12shader.h, which helps crea
 [Direct3D 12 Reference](direct3d-12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

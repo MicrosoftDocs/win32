@@ -1,14 +1,21 @@
 ---
 title: IWMDRMDevice2 interface
 description: This interface is not intended to be implemented by a service provider, but is provided for purposes of complete documentation.The IWMDRMDevice2 interface extends IWMDRMDevice by providing methods to get the license state and a partial synchronization list.
-ms.assetid: 'dccc3a65-7ab1-48b1-b44f-eca0878763ca'
-keywords: ["IWMDRMDevice2 interface windows Media Device Manager", "IWMDRMDevice2 interface windows Media Device Manager , described"]
+ms.assetid: dccc3a65-7ab1-48b1-b44f-eca0878763ca
+keywords:
+- IWMDRMDevice2 interface windows Media Device Manager
+- IWMDRMDevice2 interface windows Media Device Manager , described
 topic_type:
 - apiref
 api_name:
 - IWMDRMDevice2
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMDevice2 interface
@@ -36,7 +43,7 @@ The **IWMDRMDevice2** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -48,9 +55,9 @@ The **IWMDRMDevice2** interface has these methods.
 [**IWMDRMDevice Interface**](iwmdrmdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

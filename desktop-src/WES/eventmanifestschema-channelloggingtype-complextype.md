@@ -1,14 +1,20 @@
 ---
 title: ChannelLoggingType Complex Type
 description: Defines the properties of the log file that backs the channel, such as its capacity and whether it is sequential or circular.
-ms.assetid: '58da75dd-d303-4a57-8c9b-5fde575c3cbb'
-keywords: ["ChannelLoggingType complex type EventLog"]
+ms.assetid: 58da75dd-d303-4a57-8c9b-5fde575c3cbb
+keywords:
+- ChannelLoggingType complex type EventLog
 topic_type:
 - apiref
 api_name:
 - ChannelLoggingType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChannelLoggingType Complex Type
@@ -74,14 +80,14 @@ You can set the **retention** attribute to false (circular logging) for Admin an
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

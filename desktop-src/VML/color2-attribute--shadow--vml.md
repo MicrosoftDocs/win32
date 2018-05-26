@@ -1,7 +1,12 @@
 ---
 title: Color2 Attribute (Shadow)(VML)
 description: Color2 Attribute (Shadow)(VML)
-ms.assetid: '265d189a-1a11-4f57-9299-1bc1efd13595'
+ms.assetid: 265d189a-1a11-4f57-9299-1bc1efd13595
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color2 Attribute (Shadow)(VML)

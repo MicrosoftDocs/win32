@@ -1,7 +1,12 @@
 ---
-Description: 'In Media Foundation's pipeline model, a media source is connected to a transform which is further connected to a media sink.'
-ms.assetid: '55ab3a53-d9fd-438c-998c-8888f99958ce'
+Description: In Media Foundations pipeline model, a media source is connected to a transform which is further connected to a media sink.
+ms.assetid: 55ab3a53-d9fd-438c-998c-8888f99958ce
 title: Pipeline Layer ASF Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pipeline Layer ASF Components
@@ -24,7 +29,7 @@ For information about building a playback pipeline, see [Creating Playback Topol
 
 The three main components of an ASF pipeline for encoding are as follows:
 
--   Media source representing the data in a format that needs to be converted. This component can be one of the default media sources provided by Media Foundation or a custom source that exposes the [**IMFMediaSource**](imfmediasource.md) interface.
+-   Media source representing the data in a format that needs to be converted. This component can be one of the default media sources provided by Media Foundation or a custom source that exposes the [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master) interface.
 -   Windows Media encoders (transform) that perform the format conversion.
 -   ASF media sinks provided by Media Foundation that write ASF objects and media samples in an output file specified by the application.
 

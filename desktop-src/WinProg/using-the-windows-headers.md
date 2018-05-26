@@ -1,8 +1,20 @@
 ---
 title: Using the Windows Headers
 description: Use the Windows header files to create applications that use the Windows API.
-ms.assetid: 'a4def563-8ddc-4630-ae8a-86c07cf98374'
-keywords: ["Windows API, header files", "C2065", "WINVER", "_WIN32_WINDOWS", "_WIN32_WINNT", "_WIN32_IE", "WIN32_LEAN_AND_MEAN"]
+ms.assetid: a4def563-8ddc-4630-ae8a-86c07cf98374
+keywords:
+- Windows API, header files
+- C2065
+- WINVER
+- _WIN32_WINDOWS
+- _WIN32_WINNT
+- _WIN32_IE
+- WIN32_LEAN_AND_MEAN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Windows Headers

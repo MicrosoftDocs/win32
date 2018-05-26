@@ -1,14 +1,19 @@
 ---
-Description: 'When you create a source voice, you can pass a structure to it that defines callbacks for certain audio events. You can use these callbacks to perform actions or to signal other code.'
-ms.assetid: '0bace0c5-9171-efd8-9a38-2c2b3452f73f'
-title: 'How to: Use Source Voice Callbacks'
+Description: When you create a source voice, you can pass a structure to it that defines callbacks for certain audio events. You can use these callbacks to perform actions or to signal other code.
+ms.assetid: 0bace0c5-9171-efd8-9a38-2c2b3452f73f
+title: How to Use Source Voice Callbacks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to: Use Source Voice Callbacks
 
 When you create a source voice, you can pass a structure to it that defines callbacks for certain audio events. You can use these callbacks to perform actions or to signal other code.
 
-1.  Create a class that inherits from the [**IXAudio2VoiceCallback**](ixaudio2voicecallback.md) interface. All member functions of **IXAudio2VoiceCallback** are purely virtual, and must be defined. The only function of interest in this example is [**OnStreamEnd**](ixaudio2voicecallback-interface-onstreamend.md). Therefore, the rest of the functions are stubs. The **OnStreamEnd** function triggers an event that indicates the sound is done playing.
+1.  Create a class that inherits from the [**IXAudio2VoiceCallback**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2voicecallback?branch=master) interface. All member functions of **IXAudio2VoiceCallback** are purely virtual, and must be defined. The only function of interest in this example is [**OnStreamEnd**](ixaudio2voicecallback-interface-onstreamend.md). Therefore, the rest of the functions are stubs. The **OnStreamEnd** function triggers an event that indicates the sound is done playing.
 
     ```
     class VoiceCallback : public IXAudio2VoiceCallback
@@ -33,7 +38,7 @@ When you create a source voice, you can pass a structure to it that defines call
 
     
 
-2.  Create a [**source voice**](ixaudio2sourcevoice.md) with [**IXAudio2::CreateSourceVoice**](ixaudio2-interface-createsourcevoice.md) using an instance of the callback class created previously as the pCallback parameter.
+2.  Create a [**source voice**](/windows/win32/xaudio2/nn-xaudio2-ixaudio2sourcevoice?branch=master) with [**IXAudio2::CreateSourceVoice**](ixaudio2-interface-createsourcevoice.md) using an instance of the callback class created previously as the pCallback parameter.
 
     ```
     VoiceCallback voiceCallback;

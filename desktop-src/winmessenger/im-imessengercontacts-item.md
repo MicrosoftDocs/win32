@@ -1,8 +1,11 @@
 ---
 title: IMessengerContacts Item method
 description: Retrieves a specific service by index.
-ms.assetid: 'f77c0cc7-a1e8-4167-a21b-20dc61b0ff43'
-keywords: ["Item method Windows Messenger", "Item method Windows Messenger , IMessengerContacts interface", "IMessengerContacts interface Windows Messenger , Item method"]
+ms.assetid: f77c0cc7-a1e8-4167-a21b-20dc61b0ff43
+keywords:
+- Item method Windows Messenger
+- Item method Windows Messenger , IMessengerContacts interface
+- IMessengerContacts interface Windows Messenger , Item method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessengerContacts::Item method
 
-\[**Item** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**Item** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Retrieves a specific service by index.
 
@@ -24,8 +32,8 @@ Retrieves a specific service by index.
 
 ```C++
 HRESULT Item(
-  [in]          long      Index,
-  [out, retval] IDispatch **ppMContact
+  [in]          long      Index,
+  [out, retval] IDispatch **ppMContact
 );
 ```
 
@@ -57,7 +65,7 @@ Address of a pointer to an [IDispatch](c1accca9-971c-4435-8a5e-e25404a3fb25) int
 
 Type: **HRESULT**
 
-Returns one of the following values. 
+Returns one of the following values. 
 
 
 
@@ -70,7 +78,7 @@ Returns one of the following values. 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,7 +93,7 @@ The following table lists error codes returned by this method.
 
 
 
- 
+ 
 
 The [**Contacts**](im-imessengerconversationwnd-contacts.md) property is scriptable, but read-only.
 
@@ -94,7 +102,7 @@ If you know the sign-in name for a user, you can get the MessengerContact object
 > [!Note]  
 > This method is available for scripting languages.
 
- 
+ 
 
 ## Examples
 
@@ -125,8 +133,8 @@ End Sub
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
@@ -143,9 +151,9 @@ End Sub
 [**MessengerContact**](im-messengercontact.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

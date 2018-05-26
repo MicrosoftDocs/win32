@@ -1,7 +1,12 @@
 ---
-Description: 'The CreateNPPInterface function uses the BLOB returned from the finder to create an NPP that the application can use.'
-ms.assetid: '41f48c72-3284-4ebc-baff-63553c8971e6'
+Description: The CreateNPPInterface function uses the BLOB returned from the finder to create an NPP that the application can use.
+ms.assetid: 41f48c72-3284-4ebc-baff-63553c8971e6
 title: CreateNPPInterface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateNPPInterface function
@@ -13,9 +18,9 @@ The **CreateNPPInterface** function uses the BLOB returned from the finder to cr
 
 ```C++
 DWORD CreateNPPInterface(
-  _In_  HBLOB  hBlob,
-  _In_  REFIID iid,
-  _Out_ void   **ppvObject
+  _In_  HBLOB  hBlob,
+  _In_  REFIID iid,
+  _Out_ void   **ppvObject
 );
 ```
 
@@ -58,17 +63,17 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

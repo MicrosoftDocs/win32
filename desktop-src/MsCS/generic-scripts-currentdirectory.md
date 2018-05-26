@@ -4,26 +4,31 @@ description: Describes the directory in which the script should be run.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '59b31cbe-c4d8-4764-9793-6ebda3ae6094'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 59b31cbe-c4d8-4764-9793-6ebda3ae6094
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CurrentDirectory Failover Cluster ,for generic scripts", "CurrentDirectory Failover Cluster"]
+keywords:
+- CurrentDirectory Failover Cluster ,for generic scripts
+- CurrentDirectory Failover Cluster
 topic_type:
 - apiref
 api_name:
 - CurrentDirectory
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CurrentDirectory
 
-\[This property is no longer available for use as of Windows Server 2012.\]
+\[This property is no longer available for use as of Windows Server 2012.\]
 
 This property is not supported.
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
 Describes the directory in which the script should be run. The following table summarizes the attributes of the **CurrentDirectory** property.
 
@@ -34,20 +39,20 @@ Describes the directory in which the script should be run. The following table s
 | Data type<br/> | Null-terminated Unicode string<br/>                                 |
 | Access<br/>    | [Read/write](read-write-properties.md)<br/>                        |
 | Status<br/>    | Required<br/>                                                       |
-| Structure<br/> | [**CLUSPROP\_SZ**](clusprop-sz.md)<br/>                            |
+| Structure<br/> | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)<br/>                            |
 | Minimum<br/>   | **NULL**<br/>                                                       |
 | Maximum<br/>   | None (but see [Maximum String Size](maximum-string-size.md)).<br/> |
 | Default<br/>   | **NULL**<br/>                                                       |
 
 
 
- 
+ 
 
 ## Remarks
 
 The path in the **CurrentDirectory** property must be an absolute path on a [*cluster disk*](c-gly.md#-wolf-cluster-disk-gly). An environment variable representing a path cannot be used. A dot (.) defaults to the directory in which the [Cluster service](cluster-service.md) is installed.
 
-The [**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md) macro creates a [**CLUSPROP\_SZ**](clusprop-sz.md) structure with an array of the correct size.
+The [**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master) macro creates a [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master) structure with an array of the correct size.
 
 ## Examples
 
@@ -75,9 +80,9 @@ StringCbCopy( CurrentDirectoryValue.sz,
 |                                     |                                                                                 |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                       |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/>       |
 | End of client support<br/>    | None supported<br/>                                                       |
-| End of server support<br/>    | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
+| End of server support<br/>    | Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise<br/> |
 
 
 
@@ -88,15 +93,15 @@ StringCbCopy( CurrentDirectoryValue.sz,
 [Generic Script Private Properties](generic-script-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
-[**CLUSPROP\_SZ\_DECLARE**](clusprop-sz-declare.md)
+[**CLUSPROP\_SZ\_DECLARE**](/windows/previous-versions/ClusAPI/nf-clusapi-clusprop_sz_declare?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

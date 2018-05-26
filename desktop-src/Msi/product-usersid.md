@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UserSid property returns the user security identifier (SID) under which this product instance is available.'
-ms.assetid: 'b4e24961-4a0a-478c-be66-9862d40b75a3'
-title: 'Product.UserSid property'
+---
+Description: The UserSid property returns the user security identifier (SID) under which this product instance is available.
+ms.assetid: b4e24961-4a0a-478c-be66-9862d40b75a3
+title: Product.UserSid property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Product.UserSid property

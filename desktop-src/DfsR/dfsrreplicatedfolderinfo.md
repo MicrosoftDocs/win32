@@ -4,13 +4,15 @@ description: This class provides statistical and operational information for eac
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'edeed173-8a1c-4a4f-be03-c658eee6e73b'
-ms.prod: 'windows-server-dev'
+ms.assetid: edeed173-8a1c-4a4f-be03-c658eee6e73b
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-replication'
-- 'windows-management-instrumentation'
+- distributed-file-system-replication
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DfsrReplicatedFolderInfo class Distributed File System Replication", "DfsrReplicatedFolderInfo class Distributed File System Replication , described"]
+keywords:
+- DfsrReplicatedFolderInfo class Distributed File System Replication
+- DfsrReplicatedFolderInfo class Distributed File System Replication , described
 topic_type:
 - apiref
 api_name:
@@ -37,6 +39,9 @@ api_location:
 - DfsRWmiV2.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DfsrReplicatedFolderInfo class
@@ -49,24 +54,24 @@ This class provides statistical and operational information for each replicated 
 [Dynamic, Provider("DfsrMonitorProv")]
 class DfsrReplicatedFolderInfo : CIM_LogicalElement
 {
-  string       Caption;
-  string       Description;
+  string       Caption;
+  string       Description;
   datetime REF InstallDate;
-  string       Name;
-  string       Status;
-  string       ReplicatedFolderGuid;
-  string       ReplicatedFolderName;
-  string       ReplicationGroupGuid;
-  string       ReplicationGroupName;
-  string       MemberGuid;
-  string       MemberName;
-  datetime     LastConflictCleanupTime;
-  datetime     LastTombstoneCleanupTime;
-  uint32       CurrentStageSizeInMb;
-  uint32       CurrentConflictSizeInMb;
-  uint8        State;
-  uint32       LastErrorCode;
-  uint32       LastErrorMessageId;
+  string       Name;
+  string       Status;
+  string       ReplicatedFolderGuid;
+  string       ReplicatedFolderName;
+  string       ReplicationGroupGuid;
+  string       ReplicationGroupName;
+  string       MemberGuid;
+  string       MemberName;
+  datetime     LastConflictCleanupTime;
+  datetime     LastTombstoneCleanupTime;
+  uint32       CurrentStageSizeInMb;
+  uint32       CurrentConflictSizeInMb;
+  uint8        State;
+  uint32       LastErrorCode;
+  uint32       LastErrorMessageId;
 };
 ```
 
@@ -94,7 +99,7 @@ The **DfsrReplicatedFolderInfo** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -540,9 +545,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
-| End of client support<br/>    | Windows Vista<br/>                                                                 |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| End of client support<br/>    | Windows Vista<br/>                                                                 |
 | Namespace<br/>                | Root\\MicrosoftDfs<br/>                                                            |
 | MOF<br/>                      | <dl> <dt>DfsRProvs.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsRWmiV2.dll</dt> </dl> |
@@ -559,9 +564,9 @@ The [Get-DFSRBacklog](https://Gallery.TechNet.Microsoft.Com/dac62790-219d-4325-a
 [DFSR WMI Classes](dfsr-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

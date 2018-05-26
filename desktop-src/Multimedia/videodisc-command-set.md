@@ -1,8 +1,14 @@
 ---
 title: Videodisc Command Set
 description: Videodisc Command Set
-ms.assetid: '44e3b052-5fb1-4cad-939e-41954800ab5d'
-keywords: ["videodisc command set"]
+ms.assetid: 44e3b052-5fb1-4cad-939e-41954800ab5d
+keywords:
+- videodisc command set
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Videodisc Command Set

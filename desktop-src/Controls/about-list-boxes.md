@@ -1,7 +1,12 @@
 ---
 title: About List Boxes
 description: This section describes list box features.
-ms.assetid: '359bb363-5b97-4e0c-bdc4-bfa6a6504a76'
+ms.assetid: 359bb363-5b97-4e0c-bdc4-bfa6a6504a76
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About List Boxes
@@ -37,15 +42,15 @@ There are two types of list boxes: single-selection (the default) and multiple-s
 The appearance and operation of a list box is controlled by [list box styles](list-box-styles.md) and window styles. These styles indicate whether the list is sorted, arranged in multiple columns, drawn by the application, and so on. The dimensions and styles of a list box are typically defined in a dialog box template that is included in an application's resources.
 
 > [!Note]  
-> To use visual styles with these controls, an application must include a manifest and must call [**InitCommonControls**](initcommoncontrols.md) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
+> To use visual styles with these controls, an application must include a manifest and must call [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## List Box Functions
 
-The [**DlgDirList**](dlgdirlist.md) function replaces the contents of a list box with the names of drives, directories, and files that match a specified set of criteria. The [**DlgDirSelectEx**](dlgdirselectex.md) function retrieves the current selection in a list box that is initialized by **DlgDirList**. These functions make it possible for the user to select a drive, directory, or file from a list box without typing the location and name of the file.
+The [**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master) function replaces the contents of a list box with the names of drives, directories, and files that match a specified set of criteria. The [**DlgDirSelectEx**](/windows/win32/Winuser/nf-winuser-dlgdirselectexa?branch=master) function retrieves the current selection in a list box that is initialized by **DlgDirList**. These functions make it possible for the user to select a drive, directory, or file from a list box without typing the location and name of the file.
 
-Also, the [**GetListBoxInfo**](getlistboxinfo.md) function returns the number of items per column in a specified list box.
+Also, the [**GetListBoxInfo**](/windows/win32/Winuser/nf-winuser-getlistboxinfo?branch=master) function returns the number of items per column in a specified list box.
 
 ## Notification Messages from List Boxes
 
@@ -68,7 +73,7 @@ An application should monitor and process the following list box notification co
 
 
 
- 
+ 
 
 ## Messages to List Boxes
 
@@ -82,7 +87,7 @@ The following table describes how the predefined list box procedure responds to 
 
 | Message                                                   | Response                                                                                                                                                                                                                         |
 |-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**LB\_ADDFILE**](lb-addfile.md)                         | Inserts a file into a directory list box that is filled by the [**DlgDirList**](dlgdirlist.md) function and retrieves the list box index of the inserted item.                                                                  |
+| [**LB\_ADDFILE**](lb-addfile.md)                         | Inserts a file into a directory list box that is filled by the [**DlgDirList**](/windows/win32/Winuser/nf-winuser-dlgdirlista?branch=master) function and retrieves the list box index of the inserted item.                                                                  |
 | [**LB\_ADDSTRING**](lb-addstring.md)                     | Adds a string to a list box and returns its index.                                                                                                                                                                               |
 | [**LB\_DELETESTRING**](lb-deletestring.md)               | Removes a string from a list box and returns the number of strings that remain in the list.                                                                                                                                      |
 | [**LB\_DIR**](lb-dir.md)                                 | Adds a list of file names to a list box and returns the index of the last file name added.                                                                                                                                       |
@@ -125,7 +130,7 @@ The following table describes how the predefined list box procedure responds to 
 
 
 
- 
+ 
 
 ## Default Window Message Processing
 
@@ -159,7 +164,7 @@ The window procedure for the predefined list box window class carries out defaul
 
 
 
- 
+ 
 
 The predefined list box procedure passes all other messages to [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) for default processing.
 
@@ -185,29 +190,29 @@ A drag list box is a special type of list box that enables the user to drag item
 
 ### Creating Drag List Boxes
 
-Drag list boxes have the same window styles and process the same messages as standard list boxes. To create a drag list box, first create a standard list box and then call the [**MakeDragList**](makedraglist.md) function. To convert a list box in a dialog box to a drag list box, you can call **MakeDragList** when the WM\_INITDIALOG message is processed.
+Drag list boxes have the same window styles and process the same messages as standard list boxes. To create a drag list box, first create a standard list box and then call the [**MakeDragList**](/windows/win32/Commctrl/nf-commctrl-makedraglist?branch=master) function. To convert a list box in a dialog box to a drag list box, you can call **MakeDragList** when the WM\_INITDIALOG message is processed.
 
 ### Drag List Box Messages
 
 A drag list box notifies the parent window of drag events by sending it a drag list message. The parent window must process the drag list message.
 
-The drag list box registers this message when the [**MakeDragList**](makedraglist.md) function is called. To retrieve the message identifier (numeric value) of the drag list message, call the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function and specify the DRAGLISTMSGSTRING value.
+The drag list box registers this message when the [**MakeDragList**](/windows/win32/Commctrl/nf-commctrl-makedraglist?branch=master) function is called. To retrieve the message identifier (numeric value) of the drag list message, call the [**RegisterWindowMessage**](https://msdn.microsoft.com/library/windows/desktop/ms644947) function and specify the DRAGLISTMSGSTRING value.
 
-The *wParam* parameter of the drag list message is the control identifier for the drag list box. The *lParam* parameter is the address of a [**DRAGLISTINFO**](draglistinfo.md) structure, which contains the notification code for the drag event and other information. The return value of the message depends on the notification.
+The *wParam* parameter of the drag list message is the control identifier for the drag list box. The *lParam* parameter is the address of a [**DRAGLISTINFO**](/windows/win32/Commctrl/ns-commctrl-tagdraglistinfo?branch=master) structure, which contains the notification code for the drag event and other information. The return value of the message depends on the notification.
 
 ### Drag List Box Notification Codes
 
-The drag list notification code, which is identified by the **uNotification** member of the [**DRAGLISTINFO**](draglistinfo.md) structure included with the drag list message, can be [DL\_BEGINDRAG](dl-begindrag.md), [DL\_DRAGGING](dl-dragging.md), [DL\_CANCELDRAG](dl-canceldrag.md), or [DL\_DROPPED](dl-dropped.md).
+The drag list notification code, which is identified by the **uNotification** member of the [**DRAGLISTINFO**](/windows/win32/Commctrl/ns-commctrl-tagdraglistinfo?branch=master) structure included with the drag list message, can be [DL\_BEGINDRAG](dl-begindrag.md), [DL\_DRAGGING](dl-dragging.md), [DL\_CANCELDRAG](dl-canceldrag.md), or [DL\_DROPPED](dl-dropped.md).
 
-The [DL\_BEGINDRAG](dl-begindrag.md) notification code is sent when the cursor is on a list item and the user clicks the left mouse button. The parent window can return **TRUE** to begin the drag operation or **FALSE** to disallow dragging. In this way, the parent window can enable dragging for some list items and disable it for others. You can determine which list item is at the specified location by using the [**LBItemFromPt**](lbitemfrompt.md) function.
+The [DL\_BEGINDRAG](dl-begindrag.md) notification code is sent when the cursor is on a list item and the user clicks the left mouse button. The parent window can return **TRUE** to begin the drag operation or **FALSE** to disallow dragging. In this way, the parent window can enable dragging for some list items and disable it for others. You can determine which list item is at the specified location by using the [**LBItemFromPt**](/windows/win32/Commctrl/nf-commctrl-lbitemfrompt?branch=master) function.
 
-If dragging is in effect, the [DL\_DRAGGING](dl-dragging.md) notification code is sent whenever the mouse is moved, or at regular intervals if the mouse is not being moved. The parent window should first determine the list item under the cursor by using [**LBItemFromPt**](lbitemfrompt.md) and then draw the insert icon by using the [**DrawInsert**](drawinsert.md) function. By specifying **TRUE** for the *bAutoScroll* parameter of **LBItemFromPt**, you can cause the list box to scroll by one line if the cursor is above or below its client area. The value you return for this notification specifies the type of mouse cursor that the drag list box should set.
+If dragging is in effect, the [DL\_DRAGGING](dl-dragging.md) notification code is sent whenever the mouse is moved, or at regular intervals if the mouse is not being moved. The parent window should first determine the list item under the cursor by using [**LBItemFromPt**](/windows/win32/Commctrl/nf-commctrl-lbitemfrompt?branch=master) and then draw the insert icon by using the [**DrawInsert**](/windows/win32/Commctrl/nf-commctrl-drawinsert?branch=master) function. By specifying **TRUE** for the *bAutoScroll* parameter of **LBItemFromPt**, you can cause the list box to scroll by one line if the cursor is above or below its client area. The value you return for this notification specifies the type of mouse cursor that the drag list box should set.
 
 The [DL\_CANCELDRAG](dl-canceldrag.md) notification code is sent if the user cancels a drag operation by clicking the right mouse button or pressing the ESC key. The [DL\_DROPPED](dl-dropped.md) notification code is sent if the user completes a drag operation by releasing the left mouse button, even if the cursor is not over a list item. The drag list box releases the mouse capture before sending either notification. The return value of these two notifications is ignored. Drag List
 
- 
+ 
 
- 
+ 
 
 
 

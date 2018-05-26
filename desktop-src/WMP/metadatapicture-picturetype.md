@@ -1,8 +1,9 @@
 ---
 title: MetadataPicture.pictureType
 description: The pictureType property retrieves the picture type of the metadata image.
-ms.assetid: 'af685e99-4577-42df-86cf-c8c922d70920'
-keywords: ["MetadataPicture.pictureType Windows Media Player"]
+ms.assetid: af685e99-4577-42df-86cf-c8c922d70920
+keywords:
+- MetadataPicture.pictureType Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MetadataPicture.pictureType
@@ -55,9 +61,9 @@ To retrieve the value of this property, read access to the library is required. 
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property creates a FaxJob object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.'
-ms.assetid: '2e9c8e57-6d2e-49fd-8879-1213c505f51a'
-title: 'FaxJobs.Item property'
+---
+Description: The Item property creates a FaxJob object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
+ms.assetid: 2e9c8e57-6d2e-49fd-8879-1213c505f51a
+title: FaxJobs.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobs.Item property

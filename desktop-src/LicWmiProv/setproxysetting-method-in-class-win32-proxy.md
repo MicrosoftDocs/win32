@@ -1,7 +1,12 @@
 ---
-Description: 'The SetProxySetting&\#8194;WMI class method creates a persistent Internet connection for Windows Product Activation (WPA) using the specified address and port number.'
-ms.assetid: '431fb980-6518-4b9b-8ca3-6e6d5471abf5'
-title: 'SetProxySetting method of the Win32\_Proxy class'
+Description: The SetProxySetting&\#8194;WMI class method creates a persistent Internet connection for Windows Product Activation (WPA) using the specified address and port number.
+ms.assetid: 431fb980-6518-4b9b-8ca3-6e6d5471abf5
+title: SetProxySetting method of the Win32\_Proxy class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetProxySetting method of the Win32\_Proxy class
@@ -15,8 +20,8 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 SetProxySetting(
-  [in] string ProxyAddress,
-  [in] string ProxyPortNumber
+  [in] string ProxyAddress,
+  [in] string ProxyPortNumber
 );
 ```
 
@@ -49,7 +54,7 @@ This method is the scriptable equivalent to setting the proxy server using the *
 > [!Note]  
 > Windows Product Activation is not available on the Itanium-based versions of the Windows operating system.
 
- 
+ 
 
 ## Requirements
 
@@ -57,10 +62,10 @@ This method is the scriptable equivalent to setting the proxy server using the *
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
-| End of client support<br/>    | Windows XP<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows XP<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/>    | Windows XP<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2003 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Licwmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Licwmi.dll</dt> </dl> |
@@ -77,9 +82,9 @@ This method is the scriptable equivalent to setting the proxy server using the *
 [Windows Product Activation Provider](windows-product-activation-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

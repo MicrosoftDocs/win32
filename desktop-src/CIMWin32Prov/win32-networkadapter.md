@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Win32\_NetworkAdapter class is deprecated. Use the MSFT\_NetAdapter class instead. The Win32\_NetworkAdapterWMI class represents a network adapter of a computer running a Windows operating system.'
+---
+Description: The Win32\_NetworkAdapter class is deprecated. Use the MSFT\_NetAdapter class instead. The Win32\_NetworkAdapterWMI class represents a network adapter of a computer running a Windows operating system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f79cb2a1-a249-479d-a495-37a44fdea995'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f79cb2a1-a249-479d-a495-37a44fdea995
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NetworkAdapter class'
+title: Win32\_NetworkAdapter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NetworkAdapter class

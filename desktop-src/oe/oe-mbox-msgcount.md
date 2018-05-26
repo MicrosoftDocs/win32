@@ -1,8 +1,9 @@
 ---
 title: MBOX\_MSGCOUNT structure
 description: Contains information from an EXISTS, RECENT or UNSEEN Internet Message Access Protocol (IMAP) server response.
-ms.assetid: '8545fafb-223a-426b-9396-15e5f4dc36db'
-keywords: ["MBOX_MSGCOUNT structure Windows Mail (formerly Outlook Express)"]
+ms.assetid: 8545fafb-223a-426b-9396-15e5f4dc36db
+keywords:
+- MBOX_MSGCOUNT structure Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Imnxport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MBOX\_MSGCOUNT structure
@@ -24,11 +30,11 @@ Contains information from an EXISTS, RECENT or UNSEEN Internet Message Access Pr
 
 ```C++
 typedef struct tagMBOX_MSGCOUNT {
-  BOOL  bGotExistsResponse;
+  BOOL  bGotExistsResponse;
   DWORD dwExists;
-  BOOL  bGotRecentResponse;
+  BOOL  bGotRecentResponse;
   DWORD dwRecent;
-  BOOL  bGotUnseenResponse;
+  BOOL  bGotUnseenResponse;
   DWORD dwUnseen;
 } MBOX_MSGCOUNT;
 ```
@@ -111,17 +117,17 @@ Contains a **DWORD** that indicates the message sequence number of the first uns
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

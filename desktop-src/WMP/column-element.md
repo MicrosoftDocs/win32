@@ -1,8 +1,18 @@
 ---
 title: COLUMN Element
 description: COLUMN Element
-ms.assetid: '2ea8f730-91e2-47a6-acdf-e402fdd11f87'
-keywords: ["Windows Media Player skins,COLUMN element", "skins,COLUMN element", "COLUMN element", "reference for skins,COLUMN element", "elements,COLUMN"]
+ms.assetid: 2ea8f730-91e2-47a6-acdf-e402fdd11f87
+keywords:
+- Windows Media Player skins,COLUMN element
+- skins,COLUMN element
+- COLUMN element
+- reference for skins,COLUMN element
+- elements,COLUMN
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COLUMN Element

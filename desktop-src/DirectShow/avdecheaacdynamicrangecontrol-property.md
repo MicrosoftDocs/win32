@@ -1,7 +1,12 @@
 ---
-Description: 'Enables or disables dynamic range control in an AAC decoder.'
-ms.assetid: 'b7cf092a-6bb8-454c-a78c-fb2334ac4820'
+Description: Enables or disables dynamic range control in an AAC decoder.
+ms.assetid: b7cf092a-6bb8-454c-a78c-fb2334ac4820
 title: AVDecHEAACDynamicRangeControl property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecHEAACDynamicRangeControl property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVDecHEAACDynamicRangeControl**](eavdecheaacdynamicrangecontrol.md) enumeration.
+The value of this property is a member of the [**eAVDecHEAACDynamicRangeControl**](/windows/win32/codecapi/ne-codecapi-eavdecheaacdynamicrangecontrol?branch=master) enumeration.
 
 ## Requirements
 
@@ -28,8 +33,8 @@ The value of this property is a member of the [**eAVDecHEAACDynamicRangeControl*
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The value of this property is a member of the [**eAVDecHEAACDynamicRangeControl*
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

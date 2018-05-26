@@ -4,11 +4,14 @@ description: Updates the configuration store based on the update parameters.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4b57b8c6-f55d-45b5-88e3-e610829ee1b6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 4b57b8c6-f55d-45b5-88e3-e610829ee1b6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["UpdateConfigStoreForUpdates method", "UpdateConfigStoreForUpdates method, PS_NetworkControllerNode class", "PS_NetworkControllerNode class, UpdateConfigStoreForUpdates method"]
+keywords:
+- UpdateConfigStoreForUpdates method
+- UpdateConfigStoreForUpdates method, PS_NetworkControllerNode class
+- PS_NetworkControllerNode class, UpdateConfigStoreForUpdates method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UpdateConfigStoreForUpdates method of the PS\_NetworkControllerNode class
@@ -28,9 +34,9 @@ Updates the configuration store based on the update parameters.
 
 ```mof
 uint32 UpdateConfigStoreForUpdates(
-  [in] string  HotFixName,
-  [in] string  UpdateIds,
-  [in] boolean DeleteAllUpdateConfigSettings
+  [in] string  HotFixName,
+  [in] string  UpdateIds,
+  [in] boolean DeleteAllUpdateConfigSettings
 );
 ```
 
@@ -68,7 +74,7 @@ Set **true** to delete all update configuration settings; otherwise, **false**.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
@@ -82,9 +88,9 @@ Set **true** to delete all update configuration settings; otherwise, **false**.
 [**PS\_NetworkControllerNode**](ps-networkcontrollernode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

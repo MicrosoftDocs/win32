@@ -1,7 +1,12 @@
 ---
-Description: 'The subject of a document. This property maps to the OLE document property Subject.'
-ms.assetid: 'c60badd8-4ffc-4e77-aa42-ff12b5ade68f'
-title: 'System.Subject'
+Description: The subject of a document. This property maps to the OLE document property Subject.
+ms.assetid: c60badd8-4ffc-4e77-aa42-ff12b5ade68f
+title: System.Subject
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Subject

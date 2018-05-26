@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Direct3D 9 API operates on either the Windows XP display driver model (XPDM) or the Windows Vista display driver model (WDDM), depending on the operating system installed.'
-ms.assetid: 'b552c822-aa01-4f1d-a0a6-1411ab006e7b'
-title: 'XPDM vs. WDDM'
+---
+Description: The Direct3D 9 API operates on either the Windows XP display driver model (XPDM) or the Windows Vista display driver model (WDDM), depending on the operating system installed.
+ms.assetid: b552c822-aa01-4f1d-a0a6-1411ab006e7b
+title: XPDM vs. WDDM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XPDM vs. WDDM
@@ -21,7 +26,7 @@ The secure desktop is active whenever any of the following occur: the user locks
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between XPDM and WDDM:<br/> Attempting to create a Direct3D9 HAL device will fail (with **D3DERR\_NOT\_AVAILABLE**), and any existing Direct3D 9 device will indicate a lost device return code on Present.<br/> Direct3D9Ex and Direct3D 10 APIs can successfully create a device while the secure desktop is active, and any calls to Present ([**IDirect3D9Ex**](idirect3d9ex.md) or DXGI) will return a status code indicating the desktop is currently unavailable.<br/> |
+| Differences between XPDM and WDDM:<br/> Attempting to create a Direct3D9 HAL device will fail (with **D3DERR\_NOT\_AVAILABLE**), and any existing Direct3D 9 device will indicate a lost device return code on Present.<br/> Direct3D9Ex and Direct3D 10 APIs can successfully create a device while the secure desktop is active, and any calls to Present ([**IDirect3D9Ex**](/windows/win32/d3d9/nn-d3d9-idirect3d9ex?branch=master) or DXGI) will return a status code indicating the desktop is currently unavailable.<br/> |
 
 
 

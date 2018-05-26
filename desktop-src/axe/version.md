@@ -1,14 +1,20 @@
 ---
 title: Version element
 description: The version node has four mandatory sub nodes making up a standard Microsoft four part version number.
-ms.assetid: '1d07d13e-cc49-40d3-a323-803d56ab2fb7'
-keywords: ["Version element Access Execution Engine"]
+ms.assetid: 1d07d13e-cc49-40d3-a323-803d56ab2fb7
+keywords:
+- Version element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Version
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Version element
@@ -83,9 +89,9 @@ AXE never changes a job's version number. The AXE assessment management object m
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

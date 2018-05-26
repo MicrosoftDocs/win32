@@ -1,8 +1,9 @@
 ---
 title: PlaylistCollectionPlaylistSetAsDeleted Event of the AxWindowsMediaPlayer Object
 description: The PlaylistCollectionPlaylistSetAsDeleted event is reserved for future use.
-ms.assetid: '6c0a4d2c-e965-4a88-acd4-2a2a12265e36'
-keywords: ["PlaylistCollectionPlaylistSetAsDeleted Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 6c0a4d2c-e965-4a88-acd4-2a2a12265e36
+keywords:
+- PlaylistCollectionPlaylistSetAsDeleted Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlaylistCollectionPlaylistSetAsDeleted Event of the AxWindowsMediaPlayer Object
@@ -44,7 +50,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Pla
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -69,9 +75,9 @@ This event is reserved for future use.
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

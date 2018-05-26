@@ -4,11 +4,18 @@ description: Mutual authentication is a security feature in which a client proce
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '775dd350-5c70-4d97-aa2f-d21e9aecc778'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 775dd350-5c70-4d97-aa2f-d21e9aecc778
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory, using, mutual authentication", "Active Directory, using, security, mutual authentication", "security AD", "security AD , mutual authentication"]
+keywords:
+- Active Directory, using, mutual authentication
+- Active Directory, using, security, mutual authentication
+- security AD
+- security AD , mutual authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Mutual Authentication Using Kerberos

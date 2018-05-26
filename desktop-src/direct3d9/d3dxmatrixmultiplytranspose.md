@@ -1,7 +1,12 @@
-﻿---
-Description: 'Calculates the transposed product of two matrices.'
-ms.assetid: '43927500-9413-41a4-a6ee-974d85dd1054'
+---
+Description: Calculates the transposed product of two matrices.
+ms.assetid: 43927500-9413-41a4-a6ee-974d85dd1054
 title: D3DXMatrixMultiplyTranspose function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXMatrixMultiplyTranspose function

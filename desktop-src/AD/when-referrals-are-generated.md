@@ -4,11 +4,15 @@ description: A referral is the way that a directory server communicates that it 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2c11a52a-26e2-4a50-a0a3-5463a0852b27'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2c11a52a-26e2-4a50-a0a3-5463a0852b27
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["referral generation Active Directory"]
+keywords:
+- referral generation Active Directory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # When Referrals Are Generated

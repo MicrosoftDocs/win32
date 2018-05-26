@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'aa072054-4699-495e-81ff-8d54f952462f'
-title: 'System.Contact.HomeAddress1Country'
+Description: .
+ms.assetid: aa072054-4699-495e-81ff-8d54f952462f
+title: System.Contact.HomeAddress1Country
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.HomeAddress1Country

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains configuration properties for the capture source.'
-ms.assetid: '9A21D21B-E77F-4C7C-B41F-361CEDA322E7'
-title: 'MF\_CAPTURE\_ENGINE\_MEDIASOURCE\_CONFIG attribute'
+---
+Description: Contains configuration properties for the capture source.
+ms.assetid: 9A21D21B-E77F-4C7C-B41F-361CEDA322E7
+title: MF\_CAPTURE\_ENGINE\_MEDIASOURCE\_CONFIG attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_MEDIASOURCE\_CONFIG attribute
@@ -38,7 +43,7 @@ Currently, this attribute is ignored. In the future, it might be used to pass co
 [Capture Engine Attributes](capture-engine-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md)
+[**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master)
 </dt> </dl>
 
  

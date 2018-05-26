@@ -1,8 +1,10 @@
 ---
 title: FilterInfo object
 description: Describes a Filter object without requiring a Filter to be added to the process chain. The FilterInfo object is a container. See the FilterInfos (ImageProcess) property on the ImageProcess object for details on accessing FilterInfo objects.
-ms.assetid: '0a66320e-41c3-457a-82f6-0ed5678ff862'
-keywords: ["FilterInfo object WIA Automation", "FilterInfo object WIA Automation , described"]
+ms.assetid: 0a66320e-41c3-457a-82f6-0ed5678ff862
+keywords:
+- FilterInfo object WIA Automation
+- FilterInfo object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FilterInfo object
@@ -37,7 +44,7 @@ The **FilterInfo** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -57,7 +64,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -65,8 +72,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -79,9 +86,9 @@ Use any of the following to retrieve a reference to the object:
 [**Item (FilterInfos)**](-wiaaut-ifilterinfos-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: SystemMonitor.LoadSettings method
 description: Adds the counters in the HTML template file to the System Monitor.
-ms.assetid: '3f88e590-df2b-4861-8ee6-a08f8742e6ad'
-keywords: ["LoadSettings method SysMon", "LoadSettings method SysMon , SystemMonitor object", "SystemMonitor object SysMon , LoadSettings method"]
+ms.assetid: 3f88e590-df2b-4861-8ee6-a08f8742e6ad
+keywords:
+- LoadSettings method SysMon
+- LoadSettings method SysMon , SystemMonitor object
+- SystemMonitor object SysMon , LoadSettings method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemMonitor.LoadSettings method
@@ -53,8 +61,8 @@ To save the current counters in the System Monitor to an HTML file, call the [**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -66,9 +74,9 @@ To save the current counters in the System Monitor to an HTML file, call the [**
 [**SystemMonitor**](systemmonitor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

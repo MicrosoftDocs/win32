@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachineEvents OnReset method
 description: Called when a virtual machine has been reset.
-ms.assetid: '6539762a-c996-4ec0-b4a4-06f20c33c712'
-keywords: ["OnReset method Virtual Server", "OnReset method Virtual Server , IVMVirtualMachineEvents interface", "IVMVirtualMachineEvents interface Virtual Server , OnReset method"]
+ms.assetid: 6539762a-c996-4ec0-b4a4-06f20c33c712
+keywords:
+- OnReset method Virtual Server
+- OnReset method Virtual Server , IVMVirtualMachineEvents interface
+- IVMVirtualMachineEvents interface Virtual Server , OnReset method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachineEvents::OnReset method
@@ -44,8 +52,8 @@ This method is called when the virtual machine has been reset. The client progra
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -57,9 +65,9 @@ This method is called when the virtual machine has been reset. The client progra
 [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: CiCodepage
 description: CiCodepage
-ms.assetid: 'b55592ab-ef25-4449-a2b8-66bd879a8439'
+ms.assetid: b55592ab-ef25-4449-a2b8-66bd879a8439
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CiCodepage

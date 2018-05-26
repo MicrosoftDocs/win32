@@ -1,8 +1,11 @@
 ---
 title: Restore method of the SystemRestore class
 description: Initiates a system restore.
-ms.assetid: 'ca4aa97b-fa59-407d-b127-951d46932c33'
-keywords: ["Restore method System Restore", "Restore method System Restore , SystemRestore class", "SystemRestore class System Restore , Restore method"]
+ms.assetid: ca4aa97b-fa59-407d-b127-951d46932c33
+keywords:
+- Restore method System Restore
+- Restore method System Restore , SystemRestore class
+- SystemRestore class System Restore , Restore method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\\Default
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restore method of the SystemRestore class
@@ -22,7 +30,7 @@ Initiates a system restore. The caller must force a system reboot. The actual re
 
 ```mof
 uint32 Restore(
-  [in] uint32 SequenceNumber
+  [in] uint32 SequenceNumber
 );
 ```
 
@@ -71,7 +79,7 @@ next
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                         |
 | Namespace<br/>                | Root\\\\Default<br/>                                                        |
 | MOF<br/>                      | <dl> <dt>Sr.mof</dt> </dl> |
@@ -85,9 +93,9 @@ next
 [**SystemRestore**](systemrestore.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

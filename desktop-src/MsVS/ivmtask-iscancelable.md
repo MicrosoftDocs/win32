@@ -1,8 +1,13 @@
 ---
 title: IVMTask IsCancelable property
 description: The IsCancelable property indicates whether the task can be canceled before completion.
-ms.assetid: '2847c066-1c4b-44ec-91ec-ac5ef78de546'
-keywords: ["IsCancelable property Virtual Server", "IsCancelable property Virtual Server , IVMTask interface", "IVMTask interface Virtual Server , IsCancelable property", "IsCancelable property Virtual Server , VMTask interface", "VMTask interface Virtual Server , IsCancelable property"]
+ms.assetid: 2847c066-1c4b-44ec-91ec-ac5ef78de546
+keywords:
+- IsCancelable property Virtual Server
+- IsCancelable property Virtual Server , IVMTask interface
+- IVMTask interface Virtual Server , IsCancelable property
+- IsCancelable property Virtual Server , VMTask interface
+- VMTask interface Virtual Server , IsCancelable property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMTask::IsCancelable property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_IsCancelable(
-  [in] VARIANT_BOOL *isCancelable
+  [in] VARIANT_BOOL *isCancelable
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMTask**](ivmtask.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

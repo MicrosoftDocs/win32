@@ -1,8 +1,11 @@
 ---
 title: IDWriteTextFormat2 SetLineSpacing method
 description: Set line spacing.
-ms.assetid: '71d8c6c4-920f-a1b5-5a13-9985a7aca41e'
-keywords: ["SetLineSpacing method Direct Write", "SetLineSpacing method Direct Write , IDWriteTextFormat2 interface", "IDWriteTextFormat2 interface Direct Write , SetLineSpacing method"]
+ms.assetid: 71d8c6c4-920f-a1b5-5a13-9985a7aca41e
+keywords:
+- SetLineSpacing method Direct Write
+- SetLineSpacing method Direct Write , IDWriteTextFormat2 interface
+- IDWriteTextFormat2 interface Direct Write , SetLineSpacing method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dwrite.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDWriteTextFormat2::SetLineSpacing method
@@ -22,7 +30,7 @@ Set line spacing.
 
 ```C++
 HRESULT SetLineSpacing(
-  [in] const DWRITE_LINE_SPACING *lineSpacingOptions
+  [in] const DWRITE_LINE_SPACING *lineSpacingOptions
 );
 ```
 
@@ -35,7 +43,7 @@ HRESULT SetLineSpacing(
 *lineSpacingOptions* \[in\]
 </dt> <dd>
 
-Type: **const [**DWRITE\_LINE\_SPACING**](dwrite-line-spacing.md)\***
+Type: **const [**DWRITE\_LINE\_SPACING**](/windows/win32/Dwrite_3/ns-dwrite_3-dwrite_line_spacing?branch=master)\***
 
 How to manage space between lines.
 
@@ -53,9 +61,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                 |
-| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
+| Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported phone<br/>  | Windows Phone 8.1 \[Windows Phone Silverlight 8.1 and Windows Runtime apps\]<br/> |
 | Library<br/>                  | <dl> <dt>Dwrite.lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
@@ -68,9 +76,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IDWriteTextFormat2**](idwritetextformat2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines identifiers for topologies and topology nodes.'
-ms.assetid: 'a6d9246a-0cc6-4dbd-affa-e7d0bbddb008'
+---
+Description: Defines identifiers for topologies and topology nodes.
+ms.assetid: a6d9246a-0cc6-4dbd-affa-e7d0bbddb008
 title: TOPOID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TOPOID
@@ -35,10 +40,10 @@ typedef unsigned __int64 TOPOID;
 [Topologies](topologies.md)
 </dt> <dt>
 
-[**IMFTopology::GetTopologyID**](imftopology-gettopologyid.md)
+[**IMFTopology::GetTopologyID**](/windows/win32/mfidl/nf-mfidl-imftopology-gettopologyid?branch=master)
 </dt> <dt>
 
-[**IMFTopologyNode::GetTopoNodeID**](imftopologynode-gettoponodeid.md)
+[**IMFTopologyNode::GetTopoNodeID**](/windows/win32/mfidl/nf-mfidl-imftopologynode-gettoponodeid?branch=master)
 </dt> </dl>
 
  

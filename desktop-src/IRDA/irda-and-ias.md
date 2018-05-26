@@ -1,8 +1,14 @@
 ---
 title: IrDA and IAS
 description: Only limited access to the IAS database is available through Windows Sockets, however, the IAS database is not normally used by applications.
-ms.assetid: '190518b3-2c64-445a-a1a2-24ad56ad77c7'
-keywords: ["IrDA and IAS"]
+ms.assetid: 190518b3-2c64-445a-a1a2-24ad56ad77c7
+keywords:
+- IrDA and IAS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IrDA and IAS

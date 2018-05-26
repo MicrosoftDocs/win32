@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualPC SetConfigurationValue method
 description: Sets the value of the specified configuration setting.
-ms.assetid: '7760b81e-734d-4970-8875-f2d310ff6c5c'
-keywords: ["SetConfigurationValue method Virtual PC", "SetConfigurationValue method Virtual PC , IVMVirtualPC interface", "IVMVirtualPC interface Virtual PC , SetConfigurationValue method"]
+ms.assetid: 7760b81e-734d-4970-8875-f2d310ff6c5c
+keywords:
+- SetConfigurationValue method Virtual PC
+- SetConfigurationValue method Virtual PC , IVMVirtualPC interface
+- IVMVirtualPC interface Virtual PC , SetConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualPC::SetConfigurationValue method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Sets the value of the specified configuration setting.
 
@@ -24,8 +32,8 @@ Sets the value of the specified configuration setting.
 
 ```C++
 HRESULT SetConfigurationValue(
-  [in] BSTR    preferenceKey,
-  [in] VARIANT preferenceValue
+  [in] BSTR    preferenceKey,
+  [in] VARIANT preferenceValue
 );
 ```
 
@@ -43,7 +51,7 @@ The key used to identify the preference, as stored in the per-user configuration
 > \[!Important\]  
 > Changes should be made to Options.xml only using the **SetConfigurationValue** method. Changing Options.xml using any other method is not supported.
 
- 
+ 
 
 </dd> <dt>
 
@@ -71,7 +79,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,11 +93,11 @@ The following values are supported for the *preferenceKey* parameter.
 
 
 
- 
+ 
 
 This method provides low-level access to any configuration value. It can be used to set configuration values for customer-defined keys. Be careful if you use this method to set system configuration values, because no error checking is performed on the configuration value. Also, some configuration values cannot be changed while a virtual machine is running.
 
-Configuration keys are located in the virtual machine's "Options.xml" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark–delimited format.
+Configuration keys are located in the virtual machine's "Options.xml" file in XML format. The keys are stored in a hierarchical manner similar to the registry keys in Windows. To specify a specific subkey, a "key path" is constructed which specifies the various keys in a slash mark delimited format.
 
 For example, to set the value of the "idle\_timeout" key located in the following key tree:
 
@@ -131,9 +139,9 @@ The *preferenceKey* path string would be specified as follows:
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualPC is defined as 236ba0d9-a24a-4292-a132-27c1421dfd01<br/>               |
@@ -150,9 +158,9 @@ The *preferenceKey* path string would be specified as follows:
 [**IVMVirtualMachine::SetConfigurationValue**](ivmvirtualmachine-setconfigurationvalue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

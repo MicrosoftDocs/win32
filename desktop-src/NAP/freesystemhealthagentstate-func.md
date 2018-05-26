@@ -1,8 +1,9 @@
 ---
 title: FreeSystemHealthAgentState function
 description: Frees a SystemHealthAgentState data structure.
-ms.assetid: 'e9bfa8ee-c335-416e-94cf-28646709d419'
-keywords: ["FreeSystemHealthAgentState function NAP"]
+ms.assetid: e9bfa8ee-c335-416e-94cf-28646709d419
+keywords:
+- FreeSystemHealthAgentState function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,23 +12,28 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeSystemHealthAgentState function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **FreeSystemHealthAgentState** function frees a [**SystemHealthAgentState**](systemhealthagentstate-struct.md) data structure.
+The **FreeSystemHealthAgentState** function frees a [**SystemHealthAgentState**](/windows/win32/NapTypes/ns-naptypes-tagsystemhealthagentstate?branch=master) data structure.
 
 ## Syntax
 
 
 ```C++
 NAPAPI VOID WINAPI FreeSystemHealthAgentState(
-  _In_ SystemHealthAgentState *state
+  _In_ SystemHealthAgentState *state
 );
 ```
 
@@ -40,7 +46,7 @@ NAPAPI VOID WINAPI FreeSystemHealthAgentState(
 *state* \[in\]
 </dt> <dd>
 
-A pointer to the [**SystemHealthAgentState**](systemhealthagentstate-struct.md) data structure to free.
+A pointer to the [**SystemHealthAgentState**](/windows/win32/NapTypes/ns-naptypes-tagsystemhealthagentstate?branch=master) data structure to free.
 
 </dd> </dl>
 
@@ -60,16 +66,16 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

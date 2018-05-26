@@ -1,7 +1,12 @@
 ---
-Description: 'Lists the values returned by security management functions.'
-ms.assetid: 'ee55364e-8ffe-4a78-a49a-250756561770'
+Description: Lists the values returned by security management functions.
+ms.assetid: ee55364e-8ffe-4a78-a49a-250756561770
 title: Security Management Return Values
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Security Management Return Values
@@ -39,13 +44,13 @@ The Security Configuration tool set supports the following **SCESTATUS** return 
 
 
 
- 
+ 
 
 ## LSA Policy Function Return Values
 
 Most [*Local Security Authority*](https://msdn.microsoft.com/library/windows/desktop/ms721592#-security-local-security-authority-gly) (LSA) Policy functions return an NTSTATUS value to indicate success or failure. The various NTSTATUS values are defined in Ntstatus.h, which is distributed with the Microsoft Windows Driver Development Kit (DDK).
 
-To convert an NTSTATUS return value to a Windows error code, use the [**LsaNtStatusToWinError**](lsantstatustowinerror.md) function.
+To convert an NTSTATUS return value to a Windows error code, use the [**LsaNtStatusToWinError**](/windows/win32/Ntsecapi/nf-ntsecapi-lsantstatustowinerror?branch=master) function.
 
 The following table lists the NTSTATUS values that might be returned by any LSA function. (The return value sections for some of the LSA functions list additional error codes that the function might return.) This table also lists the Windows error code that corresponds to each NTSTATUS value.
 
@@ -66,11 +71,11 @@ The following table lists the NTSTATUS values that might be returned by any LSA 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

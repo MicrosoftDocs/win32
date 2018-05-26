@@ -4,10 +4,13 @@ description: The Win32\_TSLicenseKeyPack class exposes the following methods.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '0E0D4B49-F90C-411B-86D5-8C92EF9C7CF0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 0E0D4B49-F90C-411B-86D5-8C92EF9C7CF0
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLicenseKeyPack Methods

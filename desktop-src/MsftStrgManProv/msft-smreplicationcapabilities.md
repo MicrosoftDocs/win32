@@ -4,11 +4,13 @@ description: Represents the replication capabilities of a storage subsystem.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f30f181a-65ba-4101-97e1-bc25600ce515'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: f30f181a-65ba-4101-97e1-bc25600ce515
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMReplicationCapabilities class", "MSFT_SMReplicationCapabilities class, described"]
+keywords:
+- MSFT_SMReplicationCapabilities class
+- MSFT_SMReplicationCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -28,6 +30,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMReplicationCapabilities class
@@ -42,17 +47,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("WMIStorage"), AMENDMENT]
 class MSFT_SMReplicationCapabilities : MSFT_SMStorageObject
 {
-  String  ObjectId;
-  String  Identifier;
-  uint16  SupportedStorageObjects[];
-  uint16  SupportedReplicationTypes[];
-  UInt32  DefaultRecoveryPointObjective;
+  String  ObjectId;
+  String  Identifier;
+  uint16  SupportedStorageObjects[];
+  uint16  SupportedReplicationTypes[];
+  UInt32  DefaultRecoveryPointObjective;
   Boolean SupportsReplicationGroup;
   Boolean SupportsEmptyReplicationGroup;
   Boolean SupportsFullDiscovery;
   Boolean SupportsCreateReplicationRelationshipMethod;
-  uint16  SupportedAsynchronousActions[];
-  uint16  SupportedSynchronousActions[];
+  uint16  SupportedAsynchronousActions[];
+  uint16  SupportedSynchronousActions[];
 };
 ```
 
@@ -81,7 +86,7 @@ The **MSFT\_SMReplicationCapabilities** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -322,14 +327,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>32–32767</dd> <dt>
+</dt> <dd>32 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -521,14 +526,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>26–32767</dd> <dt>
+</dt> <dd>26 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -573,14 +578,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -817,14 +822,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>32–32767</dd> <dt>
+</dt> <dd>32 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -887,7 +892,7 @@ Access type: Read-only
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -904,9 +909,9 @@ Access type: Read-only
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

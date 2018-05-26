@@ -1,7 +1,12 @@
 ---
 title: ForeColor Property
 description: ForeColor Property
-ms.assetid: 'b5cef81b-55e1-49a5-bdbf-f7101520a13a'
+ms.assetid: b5cef81b-55e1-49a5-bdbf-f7101520a13a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ForeColor Property

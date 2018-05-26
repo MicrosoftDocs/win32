@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the maximum number of processed samples that can be buffered in the record sink audio path.'
-ms.assetid: '216886DB-B206-4944-925A-C2106331F1CB'
-title: 'MF\_CAPTURE\_ENGINE\_RECORD\_SINK\_AUDIO\_MAX\_PROCESSED\_SAMPLES attribute'
+---
+Description: Sets the maximum number of processed samples that can be buffered in the record sink audio path.
+ms.assetid: 216886DB-B206-4944-925A-C2106331F1CB
+title: MF\_CAPTURE\_ENGINE\_RECORD\_SINK\_AUDIO\_MAX\_PROCESSED\_SAMPLES attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_CAPTURE\_ENGINE\_RECORD\_SINK\_AUDIO\_MAX\_PROCESSED\_SAMPLES attribute
@@ -14,7 +19,7 @@ Sets the maximum number of processed samples that can be buffered in the record 
 
 ## Remarks
 
-To configure this attribute on the capture engine, add it to the *pAttributes* parameter when you call [**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md).
+To configure this attribute on the capture engine, add it to the *pAttributes* parameter when you call [**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master).
 
 The maximum value for this attribute is 100.
 
@@ -40,7 +45,7 @@ The maximum value for this attribute is 100.
 [Capture Engine Attributes](capture-engine-attributes.md)
 </dt> <dt>
 
-[**IMFCaptureEngine::Initialize**](imfcaptureengine-initialize.md)
+[**IMFCaptureEngine::Initialize**](/windows/win32/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize?branch=master)
 </dt> </dl>
 
  

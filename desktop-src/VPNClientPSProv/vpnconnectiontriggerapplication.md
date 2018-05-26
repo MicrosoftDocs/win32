@@ -2,11 +2,13 @@
 title: VpnConnectionTriggerApplication class
 description: The VpnConnectionTriggerApplication class represents an application that auto-triggers a VPN connection.
 audience: developer
-ms.assetid: '47794659-6EC9-4375-A86F-BB385DCAD561'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 47794659-6EC9-4375-A86F-BB385DCAD561
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["VpnConnectionTriggerApplication class", "VpnConnectionTriggerApplication class, described"]
+keywords:
+- VpnConnectionTriggerApplication class
+- VpnConnectionTriggerApplication class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - VPNClientPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # VpnConnectionTriggerApplication class
@@ -80,17 +85,17 @@ The name of the current VPN connection profile.
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess\\Client<br/>                                          |
 | MOF<br/>                      | <dl> <dt>VPNClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VPNClientPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

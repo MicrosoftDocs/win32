@@ -1,8 +1,14 @@
 ---
 title: SERVICETYPE\_NOTRAFFIC
 description: Use of the SERVICETYPE\_NO\_TRAFFIC service type indicates (or specifies) that no QOS services are required in the associated direction.
-ms.assetid: 'dd1c65cb-7810-4073-9eaa-c114334786fd'
-keywords: ["SERVICETYPE_NOTRAFFIC service type"]
+ms.assetid: dd1c65cb-7810-4073-9eaa-c114334786fd
+keywords:
+- SERVICETYPE_NOTRAFFIC service type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SERVICETYPE\_NOTRAFFIC

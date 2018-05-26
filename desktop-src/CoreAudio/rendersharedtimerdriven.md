@@ -1,7 +1,12 @@
 ---
-Description: 'This sample application uses the Core Audio APIs to render audio data to an output device specified by the user.'
-ms.assetid: 'eae7d896-77ef-4340-bd77-1f3333166987'
+Description: This sample application uses the Core Audio APIs to render audio data to an output device specified by the user.
+ms.assetid: eae7d896-77ef-4340-bd77-1f3333166987
 title: RenderSharedTimerDriven
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RenderSharedTimerDriven

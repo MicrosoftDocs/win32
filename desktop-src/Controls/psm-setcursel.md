@@ -1,8 +1,9 @@
 ---
 title: PSM\_SETCURSEL message
 description: Activates the specified page in a property sheet. You can send this message explicitly or by using the PropSheet\_SetCurSel macro.
-ms.assetid: '800aadde-cabc-424e-8e63-60fc7ce952d7'
-keywords: ["PSM_SETCURSEL message Windows Controls"]
+ms.assetid: 800aadde-cabc-424e-8e63-60fc7ce952d7
+keywords:
+- PSM_SETCURSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_SETCURSEL message
 
-Activates the specified page in a property sheet. You can send this message explicitly or by using the [**PropSheet\_SetCurSel**](propsheet-setcursel.md) macro.
+Activates the specified page in a property sheet. You can send this message explicitly or by using the [**PropSheet\_SetCurSel**](/windows/win32/Prsht/nf-prsht-propsheet_setcursel?branch=master) macro.
 
 ## Parameters
 
@@ -49,15 +55,15 @@ The window that is losing the activation receives the [PSN\_KILLACTIVE](psn-kill
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

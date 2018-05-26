@@ -1,8 +1,11 @@
 ---
 title: System.Environment.getEnvironmentVariable method
 description: Retrieves the value of a system or user environment variable.
-ms.assetid: 'd61555d5-3f41-4009-b295-398c12a991f1'
-keywords: ["getEnvironmentVariable method Windows Sidebar", "getEnvironmentVariable method Windows Sidebar , System.Environment object", "System.Environment object Windows Sidebar , getEnvironmentVariable method"]
+ms.assetid: d61555d5-3f41-4009-b295-398c12a991f1
+keywords:
+- getEnvironmentVariable method Windows Sidebar
+- getEnvironmentVariable method Windows Sidebar , System.Environment object
+- System.Environment object Windows Sidebar , getEnvironmentVariable method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Environment.getEnvironmentVariable method
@@ -95,10 +103,10 @@ function SetContentText()
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -117,9 +125,9 @@ function SetContentText()
 [**machineName**](system-environment-machinename.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Adds resources settings to a virtual system configuration. When thi
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4d2c3cb5-87bb-425a-8d10-3e4bc2b6d290'
-ms.prod: 'windows-server-dev'
+ms.assetid: 4d2c3cb5-87bb-425a-8d10-3e4bc2b6d290
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddResourceSettings method", "AddResourceSettings method, Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class, AddResourceSettings method"]
+keywords:
+- AddResourceSettings method
+- AddResourceSettings method, Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class, AddResourceSettings method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddResourceSettings method of the Msvm\_VirtualSystemManagementService class
@@ -30,10 +36,10 @@ Adds resources settings to a virtual system configuration. When this method is a
 
 ```mof
 uint32 AddResourceSettings(
-  [in]  CIM_VirtualSystemSettingData      REF AffectedConfiguration,
-  [in]  string                                ResourceSettings[],
-  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
-  [out] CIM_ConcreteJob                   REF Job
+  [in]  CIM_VirtualSystemSettingData      REF AffectedConfiguration,
+  [in]  string                                ResourceSettings[],
+  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
 );
 ```
 
@@ -92,16 +98,16 @@ The possible return values are:
 **Invalid Parameter** (4)
 </dt> <dt>
 
-**DMTF Reserved** (5–4095)
+**DMTF Reserved** (5 4095)
 </dt> <dt>
 
 **Method Parameters Checked - Job Started** (4096)
 </dt> <dt>
 
-**Method Reserved** (4097–32767)
+**Method Reserved** (4097 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -111,7 +117,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -125,9 +131,9 @@ The possible return values are:
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

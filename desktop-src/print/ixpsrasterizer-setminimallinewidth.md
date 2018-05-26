@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SetMinimalLineWidth method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render.'
-ms.assetid: 'daf84d1a-d499-4a6e-be87-39fd16f3d87d'
-title: 'IXpsRasterizer::SetMinimalLineWidth method'
+---
+Description: The SetMinimalLineWidth method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render.
+ms.assetid: daf84d1a-d499-4a6e-be87-39fd16f3d87d
+title: IXpsRasterizerSetMinimalLineWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsRasterizer::SetMinimalLineWidth method

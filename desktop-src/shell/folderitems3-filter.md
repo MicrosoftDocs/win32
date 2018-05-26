@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a wildcard filter to apply to the items returned.'
-ms.assetid: '19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9'
-title: 'FolderItems3.Filter method'
+---
+Description: Sets a wildcard filter to apply to the items returned.
+ms.assetid: 19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9
+title: FolderItems3.Filter method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FolderItems3.Filter method
@@ -29,7 +34,7 @@ iRetVal = FolderItems3.Filter(
 
 Type: **Integer**
 
-This parameter can be one of the flags listed in [**SHCONTF**](shcontf.md).
+This parameter can be one of the flags listed in [**SHCONTF**](/windows/win32/shobjidl_core/ne-shobjidl_core-_shcontf?branch=master).
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a diskette drive.'
-ms.assetid: '8f382f91-9cff-4dcd-bf04-314a2986acbe'
-title: 'CIM\_DisketteDrive class'
+Description: Represents a diskette drive.
+ms.assetid: 8f382f91-9cff-4dcd-bf04-314a2986acbe
+title: CIM\_DisketteDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_DisketteDrive class
@@ -27,8 +32,8 @@ The **CIM\_DisketteDrive** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -42,9 +47,9 @@ The **CIM\_DisketteDrive** class does not define any members.
 [**CIM\_MediaAccessDevice**](cim-mediaaccessdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

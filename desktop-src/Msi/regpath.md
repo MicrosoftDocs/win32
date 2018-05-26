@@ -1,7 +1,12 @@
 ---
-Description: 'The RegPath data type is a text string containing a Registry path.'
-ms.assetid: 'b3b31c37-f478-4b67-ad1f-99faecc7aaba'
+Description: The RegPath data type is a text string containing a Registry path.
+ms.assetid: b3b31c37-f478-4b67-ad1f-99faecc7aaba
 title: RegPath
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RegPath

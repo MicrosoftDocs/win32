@@ -1,8 +1,14 @@
 ---
 title: Alignment Faults
 description: Alignment Faults
-ms.assetid: '16e69aec-3aec-4684-bf37-b3e5db6e4f87'
-keywords: ["alignment faults 64-bit Windows Programming"]
+ms.assetid: 16e69aec-3aec-4684-bf37-b3e5db6e4f87
+keywords:
+- alignment faults 64-bit Windows Programming
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Alignment Faults

@@ -4,11 +4,15 @@ description: The Active Directory administrative MMC snap-ins and Windows 2000 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0b0691f5-321d-4f22-b39c-bc528db9e707'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0b0691f5-321d-4f22-b39c-bc528db9e707
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["display specifiers AD ,context menus for"]
+keywords:
+- display specifiers AD ,context menus for
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Context Menus for Use with Display Specifiers

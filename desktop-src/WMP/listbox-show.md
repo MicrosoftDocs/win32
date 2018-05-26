@@ -1,14 +1,20 @@
 ---
 title: LISTBOX.show
 description: The show method displays the control.
-ms.assetid: 'ae07ce83-c592-42a1-8cd3-7e62e846ac5c'
-keywords: ["LISTBOX.show Windows Media Player"]
+ms.assetid: ae07ce83-c592-42a1-8cd3-7e62e846ac5c
+keywords:
+- LISTBOX.show Windows Media Player
 topic_type:
 - apiref
 api_name:
 - LISTBOX.show
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LISTBOX.show
@@ -54,9 +60,9 @@ This method is primarily used with the **POPUP** element, which represents a lis
 [**POPUP Element**](popup-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

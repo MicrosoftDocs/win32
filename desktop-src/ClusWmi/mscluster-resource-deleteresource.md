@@ -4,13 +4,16 @@ description: Deletes a resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '79566882-460a-4ba6-b049-5fdf80ff8331'
-ms.prod: 'windows-server-dev'
+ms.assetid: 79566882-460a-4ba6-b049-5fdf80ff8331
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteResource method", "DeleteResource method, MSCluster_Resource class", "MSCluster_Resource class, DeleteResource method"]
+keywords:
+- DeleteResource method
+- DeleteResource method, MSCluster_Resource class
+- MSCluster_Resource class, DeleteResource method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteResource method of the MSCluster\_Resource class
@@ -30,7 +36,7 @@ Deletes a [resource](https://msdn.microsoft.com/library/aa372152).
 
 ```mof
 void DeleteResource(
-  [in] uint32 Options
+  [in] uint32 Options
 );
 ```
 
@@ -72,7 +78,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -86,9 +92,9 @@ This method does not return a value.
 [**MSCluster\_Resource**](mscluster-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

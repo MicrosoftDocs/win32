@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_WindowStyleEx method retrieves the extended window styles.'
-ms.assetid: '72955958-bbda-4b8f-9c28-6d3f5eb56a82'
-title: 'CBaseControlWindow.get\_WindowStyleEx method'
+Description: The get\_WindowStyleEx method retrieves the extended window styles.
+ms.assetid: 72955958-bbda-4b8f-9c28-6d3f5eb56a82
+title: CBaseControlWindow.get\_WindowStyleEx method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_WindowStyleEx method
@@ -13,7 +18,7 @@ The `get_WindowStyleEx` method retrieves the extended window styles.
 
 ```C++
 HRESULT get_WindowStyleEx(
-   long *pWindowStyleEx
+   long *pWindowStyleEx
 );
 ```
 
@@ -56,9 +61,9 @@ This member function retrieves the extended window styles. It calls the [**CBase
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

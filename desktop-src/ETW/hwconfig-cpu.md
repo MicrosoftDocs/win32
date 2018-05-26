@@ -1,7 +1,12 @@
-﻿---
-Description: 'The HWConfig\_CPU class is the event type class for CPU configuration events. The following syntax is simplified from MOF code.'
-ms.assetid: 'a94714c6-009c-4300-a0a0-b7b3ce94f91e'
-title: 'HWConfig\_CPU class'
+---
+Description: The HWConfig\_CPU class is the event type class for CPU configuration events. The following syntax is simplified from MOF code.
+ms.assetid: a94714c6-009c-4300-a0a0-b7b3ce94f91e
+title: HWConfig\_CPU class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HWConfig\_CPU class

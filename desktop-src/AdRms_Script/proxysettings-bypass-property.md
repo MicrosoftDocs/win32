@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves a Boolean value that indicates whether the proxy is bypassed for local connections.'
+Description: Specifies or retrieves a Boolean value that indicates whether the proxy is bypassed for local connections.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '1bb9ee5c-6eb0-4914-a003-1e5645496f72'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 1bb9ee5c-6eb0-4914-a003-1e5645496f72
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ProxySettings.Bypass property'
+title: ProxySettings.Bypass property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProxySettings.Bypass property
@@ -100,7 +103,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -112,9 +115,9 @@ END FUNCTION
 [**ProxySettings**](proxysettings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

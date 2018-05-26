@@ -1,7 +1,12 @@
 ---
 Description: Creating an Audio Capture Graph with Preview
-ms.assetid: '73c0b799-060b-4b20-b072-6a0c5c30de20'
+ms.assetid: 73c0b799-060b-4b20-b072-6a0c5c30de20
 title: Creating an Audio Capture Graph with Preview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating an Audio Capture Graph with Preview
@@ -12,7 +17,7 @@ Connect the Audio Capture Filter to the Infinite Pin Tee, and connect the Infini
 
 ![audio capture graph with preview](images/audio-capture-graph.png)
 
-Because the DirectSound Renderer is the default audio renderer, you can simply call the [**IGraphBuilder::Render**](igraphbuilder-render.md) method on the Infinite Pin Tee's output pin. The Filter Graph Manager uses [Intelligent Connect](intelligent-connect.md) to create the renderer, add it to the filter graph, and connect the pins.
+Because the DirectSound Renderer is the default audio renderer, you can simply call the [**IGraphBuilder::Render**](/windows/win32/Strmif/nf-strmif-igraphbuilder-render?branch=master) method on the Infinite Pin Tee's output pin. The Filter Graph Manager uses [Intelligent Connect](intelligent-connect.md) to create the renderer, add it to the filter graph, and connect the pins.
 
 > [!Note]  
 > If you capture audio from a microphone and preview it from a speaker on the same computer, you might create audio feedback.

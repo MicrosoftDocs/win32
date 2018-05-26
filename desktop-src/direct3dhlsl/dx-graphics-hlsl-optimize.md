@@ -1,8 +1,15 @@
 ---
 title: Optimizing HLSL Shaders
 description: This section describes general-purpose strategies that you can use to optimize your shaders. You can apply these strategies to shaders that are written in any language, on any platform.
-ms.assetid: '014b9cb3-a489-48d7-8174-b97de168bf3a'
-keywords: ["high-level shader language", "HLSL, performance"]
+ms.assetid: 014b9cb3-a489-48d7-8174-b97de168bf3a
+keywords:
+- high-level shader language
+- HLSL, performance
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optimizing HLSL Shaders

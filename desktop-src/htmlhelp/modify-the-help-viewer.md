@@ -1,7 +1,12 @@
 ---
 title: Modify the Help Viewer
 description: To change the default characteristics of the Help Viewer, you need to define a window type for it in your project file. Once you have given the Help Viewer a definition, you can customize it in the same way you would a secondary or embedded window.
-ms.assetid: '9F1FD94A-0DFA-4102-B498-02DC31A4273E'
+ms.assetid: 9F1FD94A-0DFA-4102-B498-02DC31A4273E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modify the Help Viewer

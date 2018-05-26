@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between a job and the managed element that may be affected by its execution.'
-ms.assetid: '125A4976-A4E3-4D7A-A43B-86045C3B00AE'
-title: 'Msvm\_AffectedJobElement class'
+Description: Represents an association between a job and the managed element that may be affected by its execution.
+ms.assetid: 125A4976-A4E3-4D7A-A43B-86045C3B00AE
+title: Msvm\_AffectedJobElement class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_AffectedJobElement class
@@ -17,9 +22,9 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_AffectedJobElement : CIM_AffectedJobElement
 {
   CIM_ManagedElement REF AffectedElement;
-  Msvm_ConcreteJob   REF AffectingElement;
-  uint16                 ElementEffects[];
-  string                 OtherElementEffectsDescriptions[];
+  Msvm_ConcreteJob   REF AffectingElement;
+  uint16                 ElementEffects[];
+  string                 OtherElementEffectsDescriptions[];
 };
 ```
 
@@ -97,8 +102,8 @@ Access to the **Msvm\_AffectedJobElement** class might be restricted by UAC Filt
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -118,9 +123,9 @@ Access to the **Msvm\_AffectedJobElement** class might be restricted by UAC Filt
 [Virtual System Management Classes](virtual-system-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

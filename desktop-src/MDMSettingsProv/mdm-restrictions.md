@@ -1,8 +1,10 @@
 ---
 title: MDM\_Restrictions class
 description: Represents the configuration of restrictions on the device.
-ms.assetid: 'b7766fe4-726f-4d4a-806d-49997cec8301'
-keywords: ["MDM_Restrictions class MDM Settings", "MDM_Restrictions class MDM Settings , described"]
+ms.assetid: b7766fe4-726f-4d4a-806d-49997cec8301
+keywords:
+- MDM_Restrictions class MDM Settings
+- MDM_Restrictions class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Restrictions class
@@ -40,7 +47,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("MDMSettingsProv"), AMENDMENT]
 class MDM_Restrictions
 {
-  Uint32  Key;
+  Uint32  Key;
   boolean DiagnosticsSubmissionEnabled;
   boolean DataRoamingEnabled;
   boolean BluetoothEnabled;
@@ -48,13 +55,13 @@ class MDM_Restrictions
   boolean PCSettingsSyncEnabled;
   boolean PCSettingsMeteredNetworkSyncEnabled;
   boolean PCSettingsPasswordSyncEnabled;
-  string  EcsSyncUrl;
+  string  EcsSyncUrl;
   boolean EcsAutoProvisionEnabled;
-  Uint32  UserAccountControlStatus;
+  Uint32  UserAccountControlStatus;
   boolean SmartScreenEnabled;
   boolean IEEnterpriseModeEnabled;
-  string  IEEnterpriseModeEnabledURL;
-  string  IEEnterpriseModeSitelist;
+  string  IEEnterpriseModeEnabledURL;
+  string  IEEnterpriseModeSitelist;
 };
 ```
 
@@ -146,7 +153,7 @@ Access type: Read-only
 
 True if Internet Explorer Enterprise Mode is enabled.
 
-**Windows 8.1:** This property is not supported before Windows 8.1 Update.
+**Windows 8.1:** This property is not supported before Windows 8.1 Update.
 
 </dd> <dt>
 
@@ -161,7 +168,7 @@ Access type: Read-only
 
 Internet Explorer Enterprise Mode Reporting URL specified while enabling the value. For more information see [Turn on Enterprise Mode and use a site list](https://technet.microsoft.com/library/dn640699.aspx).
 
-**Windows 8.1:** This property is not supported before Windows 8.1 Update.
+**Windows 8.1:** This property is not supported before Windows 8.1 Update.
 
 </dd> <dt>
 
@@ -176,7 +183,7 @@ Access type: Read-only
 
 Internet Explorer Enterprise Mode Reporting site list. For more information see [Add multiple sites to the Enterprise Mode site list using a file and Enterprise Mode Site List Manager](https://technet.microsoft.com/library/dn640696.aspx).
 
-**Windows 8.1:** This property is not supported before Windows 8.1 Update.
+**Windows 8.1:** This property is not supported before Windows 8.1 Update.
 
 </dd> <dt>
 
@@ -310,7 +317,7 @@ True if at least one enabled wireless network adapter is found on the device.
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                         |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -325,9 +332,9 @@ True if at least one enabled wireless network adapter is found on the device.
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

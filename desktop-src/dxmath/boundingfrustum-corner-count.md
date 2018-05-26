@@ -1,12 +1,17 @@
-﻿---
-Description: 'The number of corners defining the BoundingFrustum.'
-ms.assetid: '0344b0ca-de22-454a-b140-33f5790fb1b9'
-title: 'BoundingFrustum.CORNER\_COUNT'
+---
+Description: The number of corners defining the BoundingFrustum.
+ms.assetid: 0344b0ca-de22-454a-b140-33f5790fb1b9
+title: BoundingFrustum.CORNER\_COUNT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingFrustum.CORNER\_COUNT
 
-The number of corners defining the [**BoundingFrustum**](boundingfrustum.md).
+The number of corners defining the [**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master).
 
 
 ```C++
@@ -42,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingFrustum**](boundingfrustum.md)
+[**BoundingFrustum**](/windows/win32/DirectXCollision/ns-directxcollision-boundingfrustum?branch=master)
 </dt> </dl>
 
  

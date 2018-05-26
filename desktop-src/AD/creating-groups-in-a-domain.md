@@ -4,11 +4,15 @@ description: A group object is created in Active Directory Domain Services in th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '40792878-4219-4242-8cf7-b092b28f2ff4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 40792878-4219-4242-8cf7-b092b28f2ff4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["groups AD ,creating groups in a domain"]
+keywords:
+- groups AD ,creating groups in a domain
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Groups in a Domain

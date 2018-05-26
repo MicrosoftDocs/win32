@@ -1,7 +1,12 @@
 ---
-Description: 'The SetGPRM method sets the specified general parameter register to the specified value.'
-ms.assetid: 'ded28f2a-5e40-4f76-9ed4-de10296529e1'
+Description: The SetGPRM method sets the specified general parameter register to the specified value.
+ms.assetid: ded28f2a-5e40-4f76-9ed4-de10296529e1
 title: SetGPRM Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetGPRM Method

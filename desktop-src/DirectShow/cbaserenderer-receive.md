@@ -1,7 +1,12 @@
 ---
-Description: 'The Receive method receives the next media sample in the stream.'
-ms.assetid: 'b340f76c-2305-444f-bc00-1ef5acdea329'
-title: 'CBaseRenderer.Receive method'
+Description: The Receive method receives the next media sample in the stream.
+ms.assetid: b340f76c-2305-444f-bc00-1ef5acdea329
+title: CBaseRenderer.Receive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.Receive method
@@ -13,7 +18,7 @@ The `Receive` method receives the next media sample in the stream.
 
 ```C++
 virtual Receive(
-   IMediaSample *pMediaSample
+   IMediaSample *pMediaSample
 );
 ```
 
@@ -26,7 +31,7 @@ virtual Receive(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the sample's [**IMediaSample**](imediasample.md) interface.
+Pointer to the sample's [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface.
 
 </dd> </dl>
 
@@ -74,9 +79,9 @@ In the base class, the **OnReceiveFirstSample** method does nothing. The derived
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

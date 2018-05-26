@@ -1,14 +1,19 @@
 ---
-Description: 'In Authorization Manager, an application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested.'
-ms.assetid: 'b01883d6-eae6-4f3a-b269-90c22827f116'
+Description: In Authorization Manager, an application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested.
+ms.assetid: b01883d6-eae6-4f3a-b269-90c22827f116
 title: Adding Users to an Application Group in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding Users to an Application Group in C++
 
-In Authorization Manager, an application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested. An application group is represented by an [**IAzApplicationGroup**](iazapplicationgroup.md) object.
+In Authorization Manager, an application group is a group of users and user groups. An application group can contain other application groups, so groups of users can be nested. An application group is represented by an [**IAzApplicationGroup**](/windows/win32/Azroles/nn-azroles-iazapplicationgroup?branch=master) object.
 
-To allow members of an application group to perform a task or set of tasks, assign that application group to a role that contains those tasks. Roles are represented by [**IAzRole**](iazrole.md) objects.
+To allow members of an application group to perform a task or set of tasks, assign that application group to a role that contains those tasks. Roles are represented by [**IAzRole**](/windows/win32/Azroles/nn-azroles-iazrole?branch=master) objects.
 
 The following example shows how to create an application group, add a user as a member of the application group, and assign the application group to an existing role. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C, that this store contains an application named Expense, and that this application contains a role named Expense Administrator.
 

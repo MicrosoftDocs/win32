@@ -1,7 +1,12 @@
 ---
 title: About Edit Controls
 description: An edit control is a rectangular control window typically used in a dialog box to enable the user to enter and edit text.
-ms.assetid: '43baa58a-bc00-47c0-a3fe-413d50f08c29'
+ms.assetid: 43baa58a-bc00-47c0-a3fe-413d50f08c29
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Edit Controls
@@ -92,7 +97,7 @@ The [**ES\_NOHIDESEL**](edit-control-styles.md#es-nohidesel) style causes the se
 
 By default, an edit control has no border. To give it one, an application can use the [**WS\_BORDER**](https://msdn.microsoft.com/library/windows/desktop/ms632600#ws-border) window style.
 
-To use visual styles with edit controls, an application must include a manifest and must call [**InitCommonControls**](initcommoncontrols.md) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
+To use visual styles with edit controls, an application must include a manifest and must call [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
 ## The Text Buffer
 
@@ -158,7 +163,7 @@ An application should examine the notification codes accompanying each notificat
 
 
 
- 
+ 
 
 In addition, the system sends a [**WM\_CTLCOLOREDIT**](wm-ctlcoloredit.md) message to an edit control's parent window before the edit control is drawn. This message contains a handle of the edit control's display context (DC) and a handle of the child window. The parent window can use these handles to change the edit control's text and background colors.
 
@@ -196,7 +201,7 @@ The window procedure for the predefined edit control window class carries out de
 | [**EM\_SCROLLCARET**](em-scrollcaret.md)                 | Scrolls the caret into view in an edit control.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | [**EM\_SETFONT**](em-setfontsize.md)                     | Unsupported.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [**EM\_SETHANDLE**](em-sethandle.md)                     | Sets a handle to the memory used as a text buffer, empties the undo buffer, resets the scroll positions to zero, and redraws the window.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**EM\_SETLIMITTEXT**](em-setlimittext.md)               | Sets the maximum number of characters the user may enter in the edit control. For single-line edit controls, this value is either 0x7FFFFFFE or the value of the *wParam* parameter, whichever is smaller. For multiline edit controls, this value is either –1 or the value of the *wParam* parameter, whichever is smaller.<br/>                                                                                                                                                                                                                                          |
+| [**EM\_SETLIMITTEXT**](em-setlimittext.md)               | Sets the maximum number of characters the user may enter in the edit control. For single-line edit controls, this value is either 0x7FFFFFFE or the value of the *wParam* parameter, whichever is smaller. For multiline edit controls, this value is either  1 or the value of the *wParam* parameter, whichever is smaller.<br/>                                                                                                                                                                                                                                          |
 | [**EM\_SETMARGINS**](em-setmargins.md)                   | Sets the widths of the left and right margins, and redraws the edit control to reflect the new margins.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [**EM\_SETMODIFY**](em-setmodify.md)                     | Sets or clears the modification flag to indicate whether the edit control has been modified.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [**EM\_SETPASSWORDCHAR**](em-setpasswordchar.md)         | Defines the character that edit controls use in conjunction with the [**ES\_PASSWORD**](edit-control-styles.md#es-password) style.                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -210,7 +215,7 @@ The window procedure for the predefined edit control window class carries out de
 | [**WM\_CHAR**](https://msdn.microsoft.com/library/windows/desktop/ms646276)                          | Writes a character to the single-line edit control and sends the [EN\_UPDATE](en-update.md) and [EN\_CHANGE](en-change.md) notification codes to the parent window. Writes a character to the multiline edit control. Handles the accelerator keys for standard functions, such as CTRL+C for copying and CTRL+V for pasting. In multiline edit controls, also processes TAB, and CTRL+TAB keystrokes to move among the controls in a dialog box and to insert tabs into multiline edit controls. Uses the [**MessageBeep**](https://msdn.microsoft.com/library/windows/desktop/ms680356) function for illegal characters. |
 | [**WM\_CLEAR**](https://msdn.microsoft.com/library/windows/desktop/ms649020)                        | Clears the current selection, if any, in an edit control. If there is no current selection, deletes the character to the right of the caret. If the user presses the SHIFT key, this cuts the selection to the clipboard, or deletes the character to the left of the caret when there is no selection. If the user presses the CTRL key, this deletes the selection, or deletes to the end of the line when there is no selection.                                                                                                                                               |
 | [**WM\_COPY**](https://msdn.microsoft.com/library/windows/desktop/ms649022)                          | Copies text to the clipboard unless the style is [**ES\_PASSWORD**](edit-control-styles.md#es-password), in which case the message returns zero.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619)                        | Creates the edit control and notifies the parent window with **TRUE** for success or –1 for failure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [**WM\_CREATE**](https://msdn.microsoft.com/library/windows/desktop/ms632619)                        | Creates the edit control and notifies the parent window with **TRUE** for success or  1 for failure.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | [**WM\_CUT**](https://msdn.microsoft.com/library/windows/desktop/ms649023)                            | Cuts the selection to the clipboard, or deletes the character to the left of the cursor if there is no selection.                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [**WM\_ENABLE**](https://msdn.microsoft.com/library/windows/desktop/ms632621)                        | Causes the rectangle to be redrawn in gray for single-line edit controls. Returns the enabled state for single-line and multiline edit controls.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [**WM\_ERASEBKGND**](https://msdn.microsoft.com/library/windows/desktop/ms648055)                | Fills the multiline edit control window with the current color of the edit control.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -241,13 +246,13 @@ The window procedure for the predefined edit control window class carries out de
 
 
 
- 
+ 
 
 The predefined edit control window procedure passes all other messages to the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function for default processing.
 
- 
+ 
 
- 
+ 
 
 
 

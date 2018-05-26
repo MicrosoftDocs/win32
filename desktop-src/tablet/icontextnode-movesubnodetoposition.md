@@ -1,7 +1,12 @@
 ---
-Description: 'Reorders a specified child IContextNode object to the specified index.'
-ms.assetid: '1cee73af-8d5b-4d5d-bc67-a3ac6f4b2462'
-title: 'IContextNode::MoveSubNodeToPosition method'
+Description: Reorders a specified child IContextNode object to the specified index.
+ms.assetid: 1cee73af-8d5b-4d5d-bc67-a3ac6f4b2462
+title: IContextNodeMoveSubNodeToPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IContextNode::MoveSubNodeToPosition method
@@ -13,8 +18,8 @@ Reorders a specified child [**IContextNode**](icontextnode.md) object to the spe
 
 ```C++
 HRESULT MoveSubNodeToPosition(
-  [in] IContextNode *pSubnodeToMove,
-  [in] ULONG        ulNewIndex
+  [in] IContextNode *pSubnodeToMove,
+  [in] ULONG        ulNewIndex
 );
 ```
 
@@ -52,7 +57,7 @@ Returns **E\_INVALIDARG** if *pSubnodeToMove* is not a child node of this [**ICo
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -72,9 +77,9 @@ Returns **E\_INVALIDARG** if *pSubnodeToMove* is not a child node of this [**ICo
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

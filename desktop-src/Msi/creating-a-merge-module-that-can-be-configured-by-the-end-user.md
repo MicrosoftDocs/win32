@@ -1,7 +1,12 @@
 ---
-Description: 'To create merge modules, use the general guidelines that are described in the Authoring Merge Modules topic.'
-ms.assetid: '9d5e60dc-9133-4c6e-9a47-dd341f2757fa'
-title: 'Creating a Merge Module that Can Be Configured by the End-User'
+Description: To create merge modules, use the general guidelines that are described in the Authoring Merge Modules topic.
+ms.assetid: 9d5e60dc-9133-4c6e-9a47-dd341f2757fa
+title: Creating a Merge Module that Can Be Configured by the End-User
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Merge Module that Can Be Configured by the End-User

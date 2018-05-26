@@ -1,7 +1,12 @@
 ---
-Description: 'You can draw the start or end of a line in one of several shapes called line caps. Windows GDI+ supports several line caps, such as round, square, diamond, and arrowhead.'
-ms.assetid: 'c9d90114-3913-486c-a808-b08dd473d9a1'
+Description: You can draw the start or end of a line in one of several shapes called line caps. Windows GDI+ supports several line caps, such as round, square, diamond, and arrowhead.
+ms.assetid: c9d90114-3913-486c-a808-b08dd473d9a1
 title: Drawing a Line with Line Caps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing a Line with Line Caps
@@ -26,7 +31,7 @@ The following illustration shows the resulting line.
 
 ![illustration showing a horizontal line with an arrow at the left end and a circle at the right end](images/pens4.png)
 
-**LineCapArrowAnchor** and **LineCapRoundAnchor** are elements of the [**LineCap**](-gdiplus-enum-linecap.md) enumeration.
+**LineCapArrowAnchor** and **LineCapRoundAnchor** are elements of the [**LineCap**](/windows/win32/Gdiplusenums/ne-gdiplusenums-linecap?branch=master) enumeration.
 
  
 

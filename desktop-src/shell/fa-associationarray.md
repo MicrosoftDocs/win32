@@ -1,6 +1,11 @@
 ---
-Description: 'An association array is an ordered list of registry locations used to store information about an item type, including handlers, verbs, and other attributes like the icon and display name of the type.'
+Description: An association array is an ordered list of registry locations used to store information about an item type, including handlers, verbs, and other attributes like the icon and display name of the type.
 title: Association Arrays
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Association Arrays
@@ -65,11 +70,11 @@ if (SUCCEEDED(hr))
 
 
 
-The following APIs can be used to query an association array or to construct an association array [**IQueryAssociations**](iqueryassociations.md) object that can be queried:
+The following APIs can be used to query an association array or to construct an association array [**IQueryAssociations**](/windows/win32/Shlwapi/?branch=master) object that can be queried:
 
--   [**AssocCreate**](assoccreate.md) (prior to Windows Vista)
--   [**AssocCreateForClasses**](assoccreateforclasses.md)
--   [**AssocQueryString**](assocquerystring.md)
+-   [**AssocCreate**](/windows/win32/Shlwapi/nf-shlwapi-assoccreate?branch=master) (prior to Windows Vista)
+-   [**AssocCreateForClasses**](/windows/win32/Shellapi/nf-shellapi-assoccreateforclasses?branch=master)
+-   [**AssocQueryString**](/windows/win32/Shlwapi/nf-shlwapi-assocquerystringa?branch=master)
 
 ## Working with Association Arrays for a Particular Shell Data Source
 

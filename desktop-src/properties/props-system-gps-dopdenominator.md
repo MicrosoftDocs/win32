@@ -1,7 +1,12 @@
 ---
-Description: 'The denominator of PKEY\_GPS\_DOP.'
-ms.assetid: '005512c6-934a-4f50-9253-e60030aa1a95'
-title: 'System.GPS.DOPDenominator'
+Description: The denominator of PKEY\_GPS\_DOP.
+ms.assetid: 005512c6-934a-4f50-9253-e60030aa1a95
+title: System.GPS.DOPDenominator
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.DOPDenominator

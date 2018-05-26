@@ -1,7 +1,12 @@
 ---
-Description: 'Microsoft Media Foundation uses a mix of COM constructs, but is not a fully COM-based API.'
-ms.assetid: 'd58ca46f-8f3a-4a12-b948-1ea7ab568788'
+Description: Microsoft Media Foundation uses a mix of COM constructs, but is not a fully COM-based API.
+ms.assetid: d58ca46f-8f3a-4a12-b948-1ea7ab568788
 title: Media Foundation and COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Foundation and COM
@@ -21,7 +26,7 @@ Media Foundation does not marshal single-threaded apartment (STA) objects to wor
 
 If you have an STA proxy to an MTA or free-threaded object, the object can be marshaled to an MTA proxy by using a work-queue callback. The [**CoCreateInstance**](com.cocreateinstance) function can return either a raw pointer or an STA proxy, depending on the object model defined in the registry for that CLSID. If an STA proxy is returned, you must not pass the pointer to a Media Foundation API.
 
-For example, suppose that you want to pass an **IPropertyStore** pointer to the [**IMFSourceResolver::BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md) method. You might call **PSCreateMemoryPropertyStore** to create the **IPropertyStore** pointer. If you are calling from an STA, you must marshal the pointer before passing it to **BeginCreateObjectFromURL**.
+For example, suppose that you want to pass an **IPropertyStore** pointer to the [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master) method. You might call **PSCreateMemoryPropertyStore** to create the **IPropertyStore** pointer. If you are calling from an STA, you must marshal the pointer before passing it to **BeginCreateObjectFromURL**.
 
 The following code shows how to marshal an STA proxy to a Media Foundation API.
 
@@ -133,7 +138,7 @@ If you are using Media Foundation in-process, objects returned from Media Founda
 
  
 
-All implementations of [**IMFAsyncCallback**](imfasynccallback.md) should be MTA-compatible. These objects do not need to be COM objects at all. But if they are, they cannot run in the STA. The [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md) function will be invoked on an MTA workqueue thread, and the provided [**IMFAsyncResult**](imfasyncresult.md) object will be either a direct object pointer or an MTA proxy.
+All implementations of [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) should be MTA-compatible. These objects do not need to be COM objects at all. But if they are, they cannot run in the STA. The [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) function will be invoked on an MTA workqueue thread, and the provided [**IMFAsyncResult**](/windows/win32/mfobjects/nn-mfobjects-imfasyncresult?branch=master) object will be either a direct object pointer or an MTA proxy.
 
 ## Best Practices for Media Foundation Components
 
@@ -147,14 +152,14 @@ Media Foundation components cannot be STA objects. Many Media Foundation objects
 
 | Interface                                                          | Category            | Required apartment       |
 |--------------------------------------------------------------------|---------------------|--------------------------|
-| [**IMFActivate**](imfactivate.md)                                 | Cross-process proxy | Free-threaded or neutral |
-| [**IMFByteStreamHandler**](imfbytestreamhandler.md)               | COM object          | MTA                      |
-| [**IMFContentProtectionManager**](imfcontentprotectionmanager.md) | Cross-process proxy | Free-threaded or neutral |
-| [**IMFQualityManager**](imfqualitymanager.md)                     | COM object          | Free-threaded or neutral |
-| [**IMFMediaSource**](imfmediasource.md)                           | Cross-process proxy | Free-threaded or neutral |
-| [**IMFSchemeHandler**](imfschemehandler.md)                       | COM object          | MTA                      |
-| [**IMFTopoLoader**](imftopoloader.md)                             | COM object          | Free-threaded or neutral |
-| [**IMFTransform**](imftransform.md)                               | COM object          | MTA                      |
+| [**IMFActivate**](/windows/win32/mfobjects/nn-mfobjects-imfactivate?branch=master)                                 | Cross-process proxy | Free-threaded or neutral |
+| [**IMFByteStreamHandler**](/windows/win32/mfidl/nn-mfidl-imfbytestreamhandler?branch=master)               | COM object          | MTA                      |
+| [**IMFContentProtectionManager**](/windows/win32/mfidl/nn-mfidl-imfcontentprotectionmanager?branch=master) | Cross-process proxy | Free-threaded or neutral |
+| [**IMFQualityManager**](/windows/win32/mfidl/nn-mfidl-imfqualitymanager?branch=master)                     | COM object          | Free-threaded or neutral |
+| [**IMFMediaSource**](/windows/win32/mfidl/nn-mfidl-imfmediasource?branch=master)                           | Cross-process proxy | Free-threaded or neutral |
+| [**IMFSchemeHandler**](/windows/win32/mfidl/nn-mfidl-imfschemehandler?branch=master)                       | COM object          | MTA                      |
+| [**IMFTopoLoader**](/windows/win32/mfidl/nn-mfidl-imftopoloader?branch=master)                             | COM object          | Free-threaded or neutral |
+| [**IMFTransform**](/windows/win32/mftransform/nn-mftransform-imftransform?branch=master)                               | COM object          | MTA                      |
 
 
 

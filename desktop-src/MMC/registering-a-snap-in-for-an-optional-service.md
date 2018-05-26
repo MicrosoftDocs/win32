@@ -4,10 +4,13 @@ description: A service is considered optional if it may or may not be installed 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eb5955b0-41c4-480c-925a-50e7f0a2f2e6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: eb5955b0-41c4-480c-925a-50e7f0a2f2e6
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering a Snap-in for an Optional Service

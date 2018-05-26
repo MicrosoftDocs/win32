@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compile an effect.'
-ms.assetid: 'be6f862a-5091-4a06-a27a-308e81360129'
-title: 'ID3DXEffectCompiler::CompileEffect method'
+---
+Description: Compile an effect.
+ms.assetid: be6f862a-5091-4a06-a27a-308e81360129
+title: ID3DXEffectCompilerCompileEffect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectCompiler::CompileEffect method

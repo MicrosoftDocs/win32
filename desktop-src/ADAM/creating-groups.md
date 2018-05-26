@@ -4,11 +4,15 @@ description: To create an AD LDS group, bind to the object that will contain the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a82a0f37-4ea2-4e60-9cc5-e0b8db9ba0bd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-application-mode'
+ms.assetid: a82a0f37-4ea2-4e60-9cc5-e0b8db9ba0bd
+ms.prod: windows-server-dev
+ms.technology: active-directory-application-mode
 ms.tgt_platform: multiple
-keywords: ["AD LDS examples ADAM , creating groups"]
+keywords:
+- AD LDS examples ADAM , creating groups
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Creating Groups

@@ -1,8 +1,10 @@
 ---
 title: WINBIO\_PRESENCE structure
 description: Contains information about the presence of an individual whose presence is being monitored.
-ms.assetid: '810D452E-DDFA-4AB2-AEFB-0C170C0C18D4'
-keywords: ["WINBIO_PRESENCE structure Windows Biometric Framework API", "PWINBIO_PRESENCE structure pointer Windows Biometric Framework API"]
+ms.assetid: 810D452E-DDFA-4AB2-AEFB-0C170C0C18D4
+keywords:
+- WINBIO_PRESENCE structure Windows Biometric Framework API
+- PWINBIO_PRESENCE structure pointer Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_PRESENCE structure
@@ -22,13 +29,13 @@ Contains information about the presence of an individual whose presence is being
 
 ```C++
 typedef struct _WINBIO_PRESENCE {
-  WINBIO_BIOMETRIC_TYPE      Factor;
-  WINBIO_BIOMETRIC_SUBTYPE   SubFactor;
-  HRESULT                    Status;
-  WINBIO_REJECT_DETAIL       RejectDetail;
-  WINBIO_IDENTITY            Identity;
-  ULONGLONG                  TrackingId;
-  WINBIO_PROTECTION_TICKET   Ticket;
+  WINBIO_BIOMETRIC_TYPE      Factor;
+  WINBIO_BIOMETRIC_SUBTYPE   SubFactor;
+  HRESULT                    Status;
+  WINBIO_REJECT_DETAIL       RejectDetail;
+  WINBIO_IDENTITY            Identity;
+  ULONGLONG                  TrackingId;
+  WINBIO_PROTECTION_TICKET   Ticket;
   WINBIO_PRESENCE_PROPERTIES Properties;
 } WINBIO_PRESENCE, *PWINBIO_PRESENCE;
 ```
@@ -97,11 +104,11 @@ Factor-specific information about the position of an individual.
 
 ## Remarks
 
-The [**EngineAdapterIdentifyAll**](engineadapteridentifyall.md) function creates an array of **WINBIO\_PRESENCE** structures and sends this array to the biometric service. The biometric service uses the array to update its internal model of humans near the computer.
+The [**EngineAdapterIdentifyAll**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn?branch=master) function creates an array of **WINBIO\_PRESENCE** structures and sends this array to the biometric service. The biometric service uses the array to update its internal model of humans near the computer.
 
-Depending on the results of this update, the biometric service may generate a [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure for the [**WinBioMonitorPresence**](winbiomonitorpresence.md) function for any clients with active presence monitors. The **WINBIO\_ASYNC\_RESULT.Operation** member of the structure contains **WINBIO\_OPERATION\_MONITOR\_PRESENCE**, and the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member provides additional information about the state of the individual.
+Depending on the results of this update, the biometric service may generate a [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure for the [**WinBioMonitorPresence**](/windows/win32/winbio/nf-winbio-winbiomonitorpresence?branch=master) function for any clients with active presence monitors. The **WINBIO\_ASYNC\_RESULT.Operation** member of the structure contains **WINBIO\_OPERATION\_MONITOR\_PRESENCE**, and the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member provides additional information about the state of the individual.
 
-When an individual that the engine adapter associates with a particular tracking identifier appears in the input stream for the first time, the biometric service generates a client-side [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_ARRIVAL**. This structure is sent to your application callback function or application message queue before any other **WINBIO\_ASYNC\_RESULT** structures where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.PresenceArray** includes a **WINBIO\_PRESENCE** structure with the same value for **WINBIO\_PRESENCE.TrackingId**.
+When an individual that the engine adapter associates with a particular tracking identifier appears in the input stream for the first time, the biometric service generates a client-side [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_ARRIVAL**. This structure is sent to your application callback function or application message queue before any other **WINBIO\_ASYNC\_RESULT** structures where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.PresenceArray** includes a **WINBIO\_PRESENCE** structure with the same value for **WINBIO\_PRESENCE.TrackingId**.
 
 The following combinations of values in the array of **WINBIO\_PRESENCE** structures that the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.PresenceArray** member indicate specific kinds of changes in the state of an individual.
 
@@ -117,11 +124,11 @@ The following combinations of values in the array of **WINBIO\_PRESENCE** struct
 
     
 
-     
+     
 
-    In this case, the biometric service extends the expiry time for the individual, and does not generate a client-side [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_RECOGNIZE**.
+    In this case, the biometric service extends the expiry time for the individual, and does not generate a client-side [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_RECOGNIZE**.
 
-    The first time that a [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure includes **WINBIO\_PRESENCE** structure where the **Status** member is **S\_OK** and the **Identity.Type** member is **WINBIO\_ID\_TYPE\_NULL** after one or more **WINBIO\_ASYNC\_RESULT** structures included a **WINBIO\_PRESENCE** structure with a **Status** member of **WINBIO\_E\_BAD\_CAPTURE**, the presence monitor generates a single **WINBIO\_ASYNC\_RESULT** structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK**. This **WINBIO\_ASYNC\_RESULT** structure where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK** informs the client that the problem that caused the **WINBIO\_E\_BAD\_CAPTURE** error has resolved. For more information about the circumstances where a **WINBIO\_PRESENCE** structure has **Status** member of **WINBIO\_E\_BAD\_CAPTURE**, see the description about how the engine adapter provides feedback to the user to correct recognition failures later in these Remarks.
+    The first time that a [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure includes **WINBIO\_PRESENCE** structure where the **Status** member is **S\_OK** and the **Identity.Type** member is **WINBIO\_ID\_TYPE\_NULL** after one or more **WINBIO\_ASYNC\_RESULT** structures included a **WINBIO\_PRESENCE** structure with a **Status** member of **WINBIO\_E\_BAD\_CAPTURE**, the presence monitor generates a single **WINBIO\_ASYNC\_RESULT** structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK**. This **WINBIO\_ASYNC\_RESULT** structure where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK** informs the client that the problem that caused the **WINBIO\_E\_BAD\_CAPTURE** error has resolved. For more information about the circumstances where a **WINBIO\_PRESENCE** structure has **Status** member of **WINBIO\_E\_BAD\_CAPTURE**, see the description about how the engine adapter provides feedback to the user to correct recognition failures later in these Remarks.
 
 -   When an individual is visible in the camera frame, but the engine is still trying to identify the individual and wants to provide feedback to the user about how to correct a recognition failure, the members of the **WINBIO\_PRESENCE** structure have the values in the following table.
 
@@ -137,9 +144,9 @@ The following combinations of values in the array of **WINBIO\_PRESENCE** struct
 
     
 
-     
+     
 
-    In this case, the biometric service extends the expiry time for for the individual and generates a [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK**.
+    In this case, the biometric service extends the expiry time for for the individual and generates a [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_TRACK**.
 
 -   When an individual is visible in the camera frame, and the engine adapter determines the identity of the individual, the members of the **WINBIO\_PRESENCE** structure have the values in the following table.
 
@@ -154,9 +161,9 @@ The following combinations of values in the array of **WINBIO\_PRESENCE** struct
 
     
 
-     
+     
 
-    In this case, the biometric service associates the tracking identifier with the SID for the individual and generates a client-side [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_RECOGNIZE**. The biometric service does not generate additional client-side **WINBIO\_ASYNC\_RESULT** structures for the tracking identifier unless the individual leaves the camera frame.
+    In this case, the biometric service associates the tracking identifier with the SID for the individual and generates a client-side [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_RECOGNIZE**. The biometric service does not generate additional client-side **WINBIO\_ASYNC\_RESULT** structures for the tracking identifier unless the individual leaves the camera frame.
 
 -   When an individual is visible in the camera frame, but the engine adapter determines for certain that the individual is not enrolled, the members of the **WINBIO\_PRESENCE** structure have the values in the following table.
 
@@ -170,11 +177,11 @@ The following combinations of values in the array of **WINBIO\_PRESENCE** struct
 
     
 
-     
+     
 
-    In this case, the biometric service associates the tracking identifier of the individual with an identity of UNKNOWN, and generates a client-side [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_RECOGNIZE**. The biometric service does not generate additional client-side **WINBIO\_ASYNC\_RESULT** structures for the tracking identifier unless the individual leaves the camera frame.
+    In this case, the biometric service associates the tracking identifier of the individual with an identity of UNKNOWN, and generates a client-side [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure for the tracking identifier where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_RECOGNIZE**. The biometric service does not generate additional client-side **WINBIO\_ASYNC\_RESULT** structures for the tracking identifier unless the individual leaves the camera frame.
 
-When an individual that the engine adapter associates with a particular tracking identifier leaves the camera frame and stops appearing in the values that the [**EngineAdapterIdentifyAll**](engineadapteridentifyall.md) function returns, the tracking identifier eventually expires. When the tracking identifier expires, the biometric service generates a client-side [**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md) structure where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_DEPART**. The engine adapter can prevent the biometric service from generating this structure with the **WINBIO\_CHANGE\_TYPE\_DEPART** value by including a **WINBIO\_PRESENCE** structure in the array that **EngineAdapterIdentifyAll** returns, where the **WINBIO\_PRESENCE.Status** member is **S\_OK** and the **WINBIO\_PRESENCE.Identity.Type** member is **WINBIO\_ID\_TYPE\_NULL** as described earlier in these Remarks. This action extends the expiry time for the tracking identifier without causing any client-side activity.
+When an individual that the engine adapter associates with a particular tracking identifier leaves the camera frame and stops appearing in the values that the [**EngineAdapterIdentifyAll**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn?branch=master) function returns, the tracking identifier eventually expires. When the tracking identifier expires, the biometric service generates a client-side [**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master) structure where the **WINBIO\_ASYNC\_RESULT.Parameters.MonitorPresence.ChangeType** member is **WINBIO\_CHANGE\_TYPE\_DEPART**. The engine adapter can prevent the biometric service from generating this structure with the **WINBIO\_CHANGE\_TYPE\_DEPART** value by including a **WINBIO\_PRESENCE** structure in the array that **EngineAdapterIdentifyAll** returns, where the **WINBIO\_PRESENCE.Status** member is **S\_OK** and the **WINBIO\_PRESENCE.Identity.Type** member is **WINBIO\_ID\_TYPE\_NULL** as described earlier in these Remarks. This action extends the expiry time for the tracking identifier without causing any client-side activity.
 
 ## Requirements
 
@@ -182,8 +189,8 @@ When an individual that the engine adapter associates with a particular tracking
 
 |                                     |                                                                                                                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
+| Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h for client applications or Winbio\_adapters.h for adapters)</dt> </dl> |
 
 
@@ -192,18 +199,18 @@ When an individual that the engine adapter associates with a particular tracking
 
 <dl> <dt>
 
-[**WINBIO\_ASYNC\_RESULT**](winbio-async-result.md)
+[**WINBIO\_ASYNC\_RESULT**](/windows/win32/Winbio/ns-winbio-_winbio_async_result?branch=master)
 </dt> <dt>
 
-[**WinBioMonitorPresence**](winbiomonitorpresence.md)
+[**WinBioMonitorPresence**](/windows/win32/winbio/nf-winbio-winbiomonitorpresence?branch=master)
 </dt> <dt>
 
-[**EngineAdapterIdentifyAll**](engineadapteridentifyall.md)
+[**EngineAdapterIdentifyAll**](/windows/win32/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

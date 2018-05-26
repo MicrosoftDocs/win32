@@ -1,7 +1,12 @@
 ---
 title: IAgentBalloon GetFontItalic
 description: IAgentBalloon GetFontItalic
-ms.assetid: '03f40210-71b3-4488-9a44-5a9322db010a'
+ms.assetid: 03f40210-71b3-4488-9a44-5a9322db010a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentBalloon::GetFontItalic

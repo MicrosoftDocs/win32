@@ -1,8 +1,16 @@
 ---
 title: About Strings
 description: This topic discusses string functions.
-ms.assetid: 'f1799fbf-4619-4b19-998e-b1d2f4c19a35'
-keywords: ["resources,strings", "strings", "string functions"]
+ms.assetid: f1799fbf-4619-4b19-998e-b1d2f4c19a35
+keywords:
+- resources,strings
+- strings
+- string functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Strings
@@ -24,29 +32,29 @@ Many string functions duplicate or enhance familiar string functions from the st
 
 | CRT String Function                                       | Windows String Function    | StrSafe Function                                                                                                                                                                                                                                                                                                                                                                                          |
 |-----------------------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [strcat](http://go.microsoft.com/fwlink/p/?linkid=192489) | [**lstrcat**](lstrcat.md) | <dl> <dt>[**StringCchCat**](stringcchcat.md)</dt> <dt>[**StringCchCatEx**](stringcchcatex.md)</dt> <dt>[**StringCbCat**](stringcbcat.md)</dt> <dt>[**StringCbCatEx**](stringcbcatex.md)</dt> </dl>         |
-| [strcmp](http://go.microsoft.com/fwlink/p/?linkid=192493) | [**lstrcmp**](lstrcmp.md) | (no equivalent function)                                                                                                                                                                                                                                                                                                                                                                                  |
-| [strcpy](http://go.microsoft.com/fwlink/p/?linkid=192494) | [**lstrcpy**](lstrcpy.md) | <dl> <dt>[**StringCchCopy**](stringcchcopy.md)</dt> <dt>[**StringCchCopyEx**](stringcchcopyex.md)</dt> <dt>[**StringCbCopy**](stringcbcopy.md)</dt> <dt>[**StringCbCopyEx**](stringcbcopyex.md)</dt> </dl> |
-| [strlen](http://go.microsoft.com/fwlink/p/?linkid=192495) | [**lstrlen**](lstrlen.md) | <dl> <dt>[**StringCchLength**](stringcchlength.md)</dt> <dt>[**StringCbLength**](stringcblength.md)</dt> </dl>                                                                                                                                                                                       |
+| [strcat](http://go.microsoft.com/fwlink/p/?linkid=192489) | [**lstrcat**](/windows/win32/Winbase/nf-winbase-lstrcata?branch=master) | <dl> <dt>[**StringCchCat**](/windows/win32/Strsafe/nf-strsafe-stringcchcata?branch=master)</dt> <dt>[**StringCchCatEx**](/windows/win32/Strsafe/nf-strsafe-stringcchcatexa?branch=master)</dt> <dt>[**StringCbCat**](/windows/win32/Strsafe/nf-strsafe-stringcbcata?branch=master)</dt> <dt>[**StringCbCatEx**](/windows/win32/Strsafe/nf-strsafe-stringcbcatexa?branch=master)</dt> </dl>         |
+| [strcmp](http://go.microsoft.com/fwlink/p/?linkid=192493) | [**lstrcmp**](/windows/win32/Winbase/nf-winbase-lstrcmpa?branch=master) | (no equivalent function)                                                                                                                                                                                                                                                                                                                                                                                  |
+| [strcpy](http://go.microsoft.com/fwlink/p/?linkid=192494) | [**lstrcpy**](/windows/win32/Winbase/nf-winbase-lstrcpya?branch=master) | <dl> <dt>[**StringCchCopy**](/windows/win32/Strsafe/nf-strsafe-stringcchcopya?branch=master)</dt> <dt>[**StringCchCopyEx**](/windows/win32/Strsafe/nf-strsafe-stringcchcopyexa?branch=master)</dt> <dt>[**StringCbCopy**](/windows/win32/Strsafe/nf-strsafe-stringcbcopya?branch=master)</dt> <dt>[**StringCbCopyEx**](/windows/win32/Strsafe/nf-strsafe-stringcbcopyexa?branch=master)</dt> </dl> |
+| [strlen](http://go.microsoft.com/fwlink/p/?linkid=192495) | [**lstrlen**](/windows/win32/Winbase/nf-winbase-lstrlena?branch=master) | <dl> <dt>[**StringCchLength**](/windows/win32/Strsafe/nf-strsafe-stringcchlengtha?branch=master)</dt> <dt>[**StringCbLength**](/windows/win32/Strsafe/nf-strsafe-stringcblengtha?branch=master)</dt> </dl>                                                                                                                                                                                       |
 
 
 
  
 
-The **strlen** function, for example, always returns the number of bytes in a string, but the [**lstrlen**](lstrlen.md) function returns the number of **TCHAR** values, which refers to bytes for ANSI versions of the function or **WCHAR** values for Unicode versions.
+The **strlen** function, for example, always returns the number of bytes in a string, but the [**lstrlen**](/windows/win32/Winbase/nf-winbase-lstrlena?branch=master) function returns the number of **TCHAR** values, which refers to bytes for ANSI versions of the function or **WCHAR** values for Unicode versions.
 
-The following string functions differ from standard C functions such as **tolower** and **toupper** in that they operate on any character in a character set. By using the [**CharLower**](charlower.md) function, for example, an application can convert an uppercase U with an umlaut (Ü) to lowercase (ü). For more information about character sets, see [Single-byte Character Sets](https://msdn.microsoft.com/library/windows/desktop/dd374056).
+The following string functions differ from standard C functions such as **tolower** and **toupper** in that they operate on any character in a character set. By using the [**CharLower**](/windows/win32/Winuser/nf-winuser-charlowera?branch=master) function, for example, an application can convert an uppercase U with an umlaut (Ü) to lowercase (ü). For more information about character sets, see [Single-byte Character Sets](https://msdn.microsoft.com/library/windows/desktop/dd374056).
 
 
 
 | Function                               | Description                                   |
 |----------------------------------------|-----------------------------------------------|
-| [**CharLower**](charlower.md)         | Converts a character or string to lowercase.  |
-| [**CharLowerBuff**](charlowerbuff.md) | Converts a character string to lowercase.     |
-| [**CharNext**](charnext.md)           | Moves to the next character in a string.      |
-| [**CharPrev**](charprev.md)           | Moves to the preceding character in a string. |
-| [**CharUpper**](charupper.md)         | Converts a character or string to uppercase.  |
-| [**CharUpperBuff**](charupperbuff.md) | Converts a string to uppercase.               |
+| [**CharLower**](/windows/win32/Winuser/nf-winuser-charlowera?branch=master)         | Converts a character or string to lowercase.  |
+| [**CharLowerBuff**](/windows/win32/Winuser/nf-winuser-charlowerbuffa?branch=master) | Converts a character string to lowercase.     |
+| [**CharNext**](/windows/win32/Winuser/nf-winuser-charnexta?branch=master)           | Moves to the next character in a string.      |
+| [**CharPrev**](/windows/win32/Winuser/nf-winuser-charpreva?branch=master)           | Moves to the preceding character in a string. |
+| [**CharUpper**](/windows/win32/Winuser/nf-winuser-charuppera?branch=master)         | Converts a character or string to uppercase.  |
+| [**CharUpperBuff**](/windows/win32/Winuser/nf-winuser-charupperbuffa?branch=master) | Converts a string to uppercase.               |
 
 
 
@@ -58,10 +66,10 @@ The following string functions make determinations about a character based on th
 
 | Function                                         | Description                                     |
 |--------------------------------------------------|-------------------------------------------------|
-| [**IsCharAlpha**](ischaralpha.md)               | Determines whether a character is alphabetic.   |
-| [**IsCharAlphaNumeric**](ischaralphanumeric.md) | Determines whether a character is alphanumeric. |
-| [**IsCharLower**](ischarlower.md)               | Determines whether a character is lowercase.    |
-| [**IsCharUpper**](ischarupper.md)               | Determines whether a character is uppercase.    |
+| [**IsCharAlpha**](/windows/win32/Winuser/nf-winuser-ischaralphaa?branch=master)               | Determines whether a character is alphabetic.   |
+| [**IsCharAlphaNumeric**](/windows/win32/Winuser/nf-winuser-ischaralphanumerica?branch=master) | Determines whether a character is alphanumeric. |
+| [**IsCharLower**](/windows/win32/Winuser/nf-winuser-ischarlowera?branch=master)               | Determines whether a character is lowercase.    |
+| [**IsCharUpper**](/windows/win32/Winuser/nf-winuser-ischaruppera?branch=master)               | Determines whether a character is uppercase.    |
 
 
 
@@ -73,8 +81,8 @@ The following table shows the Unicode extensions to the standard C run-time (CRT
 
 | Standard CRT function                                       | String Function                | StrSafe Function                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [sprintf](http://go.microsoft.com/fwlink/p/?linkid=192497)  | [**wsprintf**](wsprintf.md)   | <dl> <dt>[**StringCchPrintf**](stringcchprintf.md)</dt> <dt>[**StringCchPrintfEx**](stringcchprintfex.md)</dt> <dt>[**StringCbPrintf**](stringcbprintf.md)</dt> <dt>[**StringCbPrintfEx**](stringcbprintfex.md)</dt> </dl>         |
-| [vsprintf](http://go.microsoft.com/fwlink/p/?linkid=192500) | [**wvsprintf**](wvsprintf.md) | <dl> <dt>[**StringCchVPrintf**](stringcchvprintf.md)</dt> <dt>[**StringCchVPrintfEx**](stringcchvprintfex.md)</dt> <dt>[**StringCbVPrintf**](stringcbvprintf.md)</dt> <dt>[**StringCbVPrintfEx**](stringcbvprintfex.md)</dt> </dl> |
+| [sprintf](http://go.microsoft.com/fwlink/p/?linkid=192497)  | [**wsprintf**](/windows/win32/Winuser/nf-winuser-wsprintfa?branch=master)   | <dl> <dt>[**StringCchPrintf**](/windows/win32/Strsafe/nf-strsafe-stringcchprintfa?branch=master)</dt> <dt>[**StringCchPrintfEx**](/windows/win32/Strsafe/nf-strsafe-stringcchprintfexa?branch=master)</dt> <dt>[**StringCbPrintf**](/windows/win32/Strsafe/nf-strsafe-stringcbprintfa?branch=master)</dt> <dt>[**StringCbPrintfEx**](/windows/win32/Strsafe/nf-strsafe-stringcbprintfexa?branch=master)</dt> </dl>         |
+| [vsprintf](http://go.microsoft.com/fwlink/p/?linkid=192500) | [**wvsprintf**](/windows/win32/Winuser/nf-winuser-wvsprintfa?branch=master) | <dl> <dt>[**StringCchVPrintf**](/windows/win32/Strsafe/nf-strsafe-stringcchvprintfa?branch=master)</dt> <dt>[**StringCchVPrintfEx**](/windows/win32/Strsafe/nf-strsafe-stringcchvprintfexa?branch=master)</dt> <dt>[**StringCbVPrintf**](/windows/win32/Strsafe/nf-strsafe-stringcbvprintfa?branch=master)</dt> <dt>[**StringCbVPrintfEx**](/windows/win32/Strsafe/nf-strsafe-stringcbvprintfexa?branch=master)</dt> </dl> |
 
 
 
@@ -84,9 +92,9 @@ The following table shows the Unicode extensions to the standard C run-time (CRT
 
 An application that maintains character strings in resources can be translated into new languages with minimum effort. Instead of searching for strings in the source modules, you can simply translate the strings in the resource file and relink the application. In addition, using string resources simplifies creation of Unicode and non-Unicode versions of the application from the same source files.
 
-The [**LoadString**](loadstring.md) function loads a string resource from an application's executable file. The [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function loads a string resource and interprets formatting options that may be embedded in the string.
+The [**LoadString**](/windows/win32/Winuser/nf-winuser-loadstringa?branch=master) function loads a string resource from an application's executable file. The [**FormatMessage**](https://msdn.microsoft.com/library/windows/desktop/ms679351) function loads a string resource and interprets formatting options that may be embedded in the string.
 
-Resources in binary form are stored in Unicode format. When loading resources, applications can use the Unicode version of the resource functions ([**LoadStringW**](loadstring.md), for example) to obtain resources as Unicode data.
+Resources in binary form are stored in Unicode format. When loading resources, applications can use the Unicode version of the resource functions ([**LoadStringW**](/windows/win32/Winuser/nf-winuser-loadstringa?branch=master), for example) to obtain resources as Unicode data.
 
 For 16-bit string resources, 255 characters is the maximum length. For 32-bit string resources, 65535 characters is the maximum length.
 

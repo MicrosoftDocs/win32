@@ -1,7 +1,12 @@
 ---
 title: ShowDefaultCharacterProperties Method
 description: ShowDefaultCharacterProperties Method
-ms.assetid: 'a3b109c0-5701-4a72-baae-bcbb97b025a3'
+ms.assetid: a3b109c0-5701-4a72-baae-bcbb97b025a3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowDefaultCharacterProperties Method

@@ -1,7 +1,12 @@
 ---
 title: Visual UI Automation Verify
 description: Visual UI Automation Verify (Visual UIA Verify) is a Windows \ 32;GUI driver for the UIA Test Library that is designed for manual testing of UI automation.
-ms.assetid: '8AEB083E-785E-4F15-B708-2098A9A41B4E'
+ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual UI Automation Verify
@@ -222,7 +227,7 @@ The **Properties** pane contains a list of UI Automation properties and property
 
 ![properties pane](images/properties-pane.png)
 
-If the selected control supports a specific control pattern, Visual UIA Verify provides the ability to call methods that are supported by that control pattern. For example, the [Window control type](uiauto-supportwindowcontroltype.md) supports the [Window control pattern](uiauto-implementingwindow.md), which has a [**Close**](uiauto-iuiautomationwindowpattern-close.md) method that can be invoked from the **Properties** pane, as shown in the following screen shot. For more information, see [UI Automation Control Types Overview](uiauto-controltypesoverview.md).
+If the selected control supports a specific control pattern, Visual UIA Verify provides the ability to call methods that are supported by that control pattern. For example, the [Window control type](uiauto-supportwindowcontroltype.md) supports the [Window control pattern](uiauto-implementingwindow.md), which has a [**Close**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationwindowpattern-close?branch=master) method that can be invoked from the **Properties** pane, as shown in the following screen shot. For more information, see [UI Automation Control Types Overview](uiauto-controltypesoverview.md).
 
 ![close method of the window control pattern invoked from the properties pane](images/close-invoked-from-properties-pane.png)
 

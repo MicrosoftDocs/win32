@@ -1,14 +1,20 @@
 ---
 title: POPUPMENUITEM structure
 description: Contains information about the menu items in a menu resource that open a menu or a submenu. The structure definition provided here is for explanation only; it is not present in any standard header file.
-ms.assetid: 'cb8faeb2-bca9-4ff5-8f80-d273c3fca504'
-keywords: ["POPUPMENUITEM structure Menus and Other Resources"]
+ms.assetid: cb8faeb2-bca9-4ff5-8f80-d273c3fca504
+keywords:
+- POPUPMENUITEM structure Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - POPUPMENUITEM
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # POPUPMENUITEM structure
@@ -20,10 +26,10 @@ Contains information about the menu items in a menu resource that open a menu or
 
 ```C++
 typedef struct {
-  DWORD   type;
-  DWORD   state;
-  DWORD   id;
-  WORD    resInfo;
+  DWORD   type;
+  DWORD   state;
+  DWORD   id;
+  WORD    resInfo;
   szOrOrd menuText;
 } POPUPMENUITEM;
 ```
@@ -43,7 +49,7 @@ Type: **DWORD**
 
 Describes the menu item. Some of the values this member can have include those shown in the list below.
 
-In addition to the values shown, this member can also be a combination of the type values listed with the **fType** member of the [**MENUITEMINFO**](menuiteminfo.md) structure. The type values are those that begin with MFT\_. To use these predefined MFT\_\* type values, include the following statement in your .rc file:
+In addition to the values shown, this member can also be a combination of the type values listed with the **fType** member of the [**MENUITEMINFO**](/windows/win32/Winuser/ns-winuser-tagmenuiteminfoa?branch=master) structure. The type values are those that begin with MFT\_. To use these predefined MFT\_\* type values, include the following statement in your .rc file:
 
 `#include "winuser.h"`
 
@@ -56,7 +62,7 @@ In addition to the values shown, this member can also be a combination of the ty
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -67,7 +73,7 @@ Type: **DWORD**
 
 </dd> <dd>
 
-Describes the menu item. This member can be a combination of the state values listed with the **dwState** member of the [**MENUITEMINFO**](menuiteminfo.md) structure. The state values are those that begin with MFS\_. To use these predefined MFS\_\* state values, include the following statement in your .rc file:
+Describes the menu item. This member can be a combination of the state values listed with the **dwState** member of the [**MENUITEMINFO**](/windows/win32/Winuser/ns-winuser-tagmenuiteminfoa?branch=master) structure. The state values are those that begin with MFS\_. To use these predefined MFS\_\* state values, include the following statement in your .rc file:
 
 `#include "winuser.h"`
 
@@ -102,7 +108,7 @@ A set of bit flags that specify the type of menu item. This member can be one of
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -131,8 +137,8 @@ Indicate the last menu item by setting the **type** member to **MF\_END**. Becau
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -149,7 +155,7 @@ Indicate the last menu item by setting the **type** member to **MF\_END**. Becau
 [**MENUHELPID**](menuhelpid.md)
 </dt> <dt>
 
-[**MENUITEMINFO**](menuiteminfo.md)
+[**MENUITEMINFO**](/windows/win32/Winuser/ns-winuser-tagmenuiteminfoa?branch=master)
 </dt> <dt>
 
 [**NORMALMENUITEM**](normalmenuitem.md)
@@ -161,9 +167,9 @@ Indicate the last menu item by setting the **type** member to **MF\_END**. Becau
 [Resources](resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

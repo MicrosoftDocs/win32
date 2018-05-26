@@ -1,7 +1,12 @@
 ---
 title: begindetail, enddetail
 description: begindetail, enddetail
-ms.assetid: '7a912cbc-969f-46c5-9f96-267ee3253cae'
+ms.assetid: 7a912cbc-969f-46c5-9f96-267ee3253cae
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # begindetail, enddetail

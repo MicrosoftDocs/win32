@@ -1,8 +1,9 @@
 ---
 title: TB\_SETBOUNDINGSIZE message
 description: Sets the bounding size for a multi-column toolbar control.
-ms.assetid: 'f406d9e3-1c40-4317-8cf1-51706f4c6adf'
-keywords: ["TB_SETBOUNDINGSIZE message Windows Controls"]
+ms.assetid: f406d9e3-1c40-4317-8cf1-51706f4c6adf
+keywords:
+- TB_SETBOUNDINGSIZE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETBOUNDINGSIZE message
@@ -55,15 +61,15 @@ The bounding size controls how buttons are organized into columns. If the toolba
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

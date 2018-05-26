@@ -1,7 +1,12 @@
 ---
-Description: 'The following example contains a key generation request.'
-ms.assetid: '81b63461-da9a-47df-8f8d-90226e8ee35b'
+Description: The following example contains a key generation request.
+ms.assetid: 81b63461-da9a-47df-8f8d-90226e8ee35b
 title: Key Generation Request
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Key Generation Request

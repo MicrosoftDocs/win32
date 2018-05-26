@@ -1,7 +1,12 @@
 ---
 Description: ACM Wrapper Filter
-ms.assetid: 'f3cd8e90-8949-482a-8ada-47711f6c935f'
+ms.assetid: f3cd8e90-8949-482a-8ada-47711f6c935f
 title: ACM Wrapper Filter
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ACM Wrapper Filter
@@ -22,7 +27,7 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 <tbody>
 <tr class="odd">
 <td>Filter interfaces</td>
-<td>[<strong>IBaseFilter</strong>](ibasefilter.md), IPersist, IPersistPropertyBag</td>
+<td>[<strong>IBaseFilter</strong>](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master), IPersist, IPersistPropertyBag</td>
 </tr>
 <tr class="even">
 <td>Input pin media types</td>
@@ -30,7 +35,7 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 </tr>
 <tr class="odd">
 <td>Input pin interfaces</td>
-<td>[<strong>IMemInputPin</strong>](imeminputpin.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IMemInputPin</strong>](/windows/win32/Strmif/nn-strmif-imeminputpin?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Output pin media types</td>
@@ -43,7 +48,7 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 </tr>
 <tr class="odd">
 <td>Output pin interfaces</td>
-<td>[<strong>IAMStreamConfig</strong>](iamstreamconfig.md), [<strong>IMediaPosition</strong>](imediaposition.md), [<strong>IMediaSeeking</strong>](imediaseeking.md), [<strong>IPin</strong>](ipin.md), [<strong>IQualityControl</strong>](iqualitycontrol.md)</td>
+<td>[<strong>IAMStreamConfig</strong>](/windows/win32/Strmif/nn-strmif-iamstreamconfig?branch=master), [<strong>IMediaPosition</strong>](/windows/win32/Control/nn-control-imediaposition?branch=master), [<strong>IMediaSeeking</strong>](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master), [<strong>IPin</strong>](/windows/win32/Strmif/nn-strmif-ipin?branch=master), [<strong>IQualityControl</strong>](/windows/win32/Strmif/nn-strmif-iqualitycontrol?branch=master)</td>
 </tr>
 <tr class="even">
 <td>Filter CLSID</td>
@@ -70,7 +75,7 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -79,9 +84,9 @@ As a compression filter, the ACM Wrapper appears in the "Audio Compressors" cate
 [DirectShow Filters](directshow-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

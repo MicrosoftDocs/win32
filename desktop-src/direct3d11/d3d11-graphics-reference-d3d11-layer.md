@@ -1,7 +1,12 @@
 ---
 title: Layer Reference
 description: The Direct3D API defines several layer API elements.
-ms.assetid: '6acca19e-92b1-46d3-b5cc-58d35686381c'
+ms.assetid: 6acca19e-92b1-46d3-b5cc-58d35686381c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Layer Reference
@@ -22,7 +27,7 @@ The Direct3D API defines several layer API elements.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ The Direct3D API defines several layer API elements.
 [Direct3D 11 Reference](d3d11-graphics-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

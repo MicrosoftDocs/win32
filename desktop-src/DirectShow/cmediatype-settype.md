@@ -1,7 +1,12 @@
 ---
-Description: 'The SetType method specifies the major type.'
-ms.assetid: '3fd93d5e-73ea-453e-8f08-652d5a81239f'
-title: 'CMediaType.SetType method'
+Description: The SetType method specifies the major type.
+ms.assetid: 3fd93d5e-73ea-453e-8f08-652d5a81239f
+title: CMediaType.SetType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaType.SetType method
@@ -13,7 +18,7 @@ The `SetType` method specifies the major type.
 
 ```C++
 void SetType(
-   const GUID *ptype
+   const GUID *ptype
 );
 ```
 
@@ -52,9 +57,9 @@ This method does not return a value.
 [**CMediaType Class**](cmediatype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

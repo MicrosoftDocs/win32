@@ -1,18 +1,21 @@
 ---
-Description: 'Queue-length algorithm counter types increment the number of items in a queue at each sample interval as specified by the appropriate frequency property&\#8212;Frequency\_PerfTime, and so on.'
+Description: Queue-length algorithm counter types increment the number of items in a queue at each sample interval as specified by the appropriate frequency property&\#8212;Frequency\_PerfTime, and so on.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '514b1a79-ed9d-4ec6-a6ea-b3490291ce18'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 514b1a79-ed9d-4ec6-a6ea-b3490291ce18
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Queue-length Algorithm Counter Types'
+title: Queue-length Algorithm Counter Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Queue-length Algorithm Counter Types
 
-Queue-length algorithm counter types increment the number of items in a queue at each sample interval as specified by the appropriate frequency property—Frequency\_PerfTime, and so on. The cooked result divides by the number of samples to produce the average queue length.
+Queue-length algorithm counter types increment the number of items in a queue at each sample interval as specified by the appropriate frequency property Frequency\_PerfTime, and so on. The cooked result divides by the number of samples to produce the average queue length.
 
 An example is the **AvgDiskQueueLength** property in the [**Win32\_PerfRawData\_PerfDisk\_LogicalDisk**](https://msdn.microsoft.com/library/aa394307) that uses the PERF\_COUNTER\_100NS\_QUEUELEN\_TYPE counter type.
 
@@ -27,7 +30,7 @@ An example is the **AvgDiskQueueLength** property in the [**Win32\_PerfRawData\_
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +39,9 @@ An example is the **AvgDiskQueueLength** property in the [**Win32\_PerfRawData\_
 [WMI Performance Counter Types](wmi-performance-counter-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

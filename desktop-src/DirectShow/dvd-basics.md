@@ -1,7 +1,12 @@
 ---
 Description: DVD Basics
-ms.assetid: '08357ff5-4606-4bfc-8dd6-907aca4b5f07'
+ms.assetid: 08357ff5-4606-4bfc-8dd6-907aca4b5f07
 title: DVD Basics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DVD Basics

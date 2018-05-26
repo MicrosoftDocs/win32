@@ -1,8 +1,10 @@
 ---
 title: Vector object
 description: Contains a collection of values of the same type. It is used throughout the library in many different ways. The Vector object can be created using WIA.Vector as the ProgID in a call to CreateObject.
-ms.assetid: '1411191e-a4b5-4960-bc02-f52093e65171'
-keywords: ["Vector object WIA Automation", "Vector object WIA Automation , described"]
+ms.assetid: 1411191e-a4b5-4960-bc02-f52093e65171
+keywords:
+- Vector object WIA Automation
+- Vector object WIA Automation , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector object
@@ -39,7 +46,7 @@ The **Vector** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -59,7 +66,7 @@ The **Vector** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,7 +88,7 @@ Use any of the following to retrieve a reference to the object:
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,8 +96,8 @@ Use any of the following to retrieve a reference to the object:
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -112,9 +119,9 @@ Use any of the following to retrieve a reference to the object:
 [**SubTypeValues**](-wiaaut-iproperty-subtypevalues.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

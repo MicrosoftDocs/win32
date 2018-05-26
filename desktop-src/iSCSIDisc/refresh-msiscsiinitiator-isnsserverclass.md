@@ -1,7 +1,12 @@
-﻿---
-Description: 'This Refresh method refreshes the list of discovered targets supplied by the iSNS server.'
-ms.assetid: 'c368a940-f823-4b1b-828d-919a109e6c9c'
-title: 'Refresh method of the MSIscsiInitiator\_IsnsServerClass class'
+---
+Description: This Refresh method refreshes the list of discovered targets supplied by the iSNS server.
+ms.assetid: c368a940-f823-4b1b-828d-919a109e6c9c
+title: Refresh method of the MSIscsiInitiator\_IsnsServerClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Refresh method of the MSIscsiInitiator\_IsnsServerClass class

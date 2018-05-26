@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendFixedDocumentSequence method sends a fixed document sequence to the pipeline.'
-ms.assetid: 'e2541943-7e0c-45ca-bdfe-2d48581f62a4'
-title: 'IXpsDocumentConsumer::SendFixedDocumentSequence method'
+---
+Description: The SendFixedDocumentSequence method sends a fixed document sequence to the pipeline.
+ms.assetid: e2541943-7e0c-45ca-bdfe-2d48581f62a4
+title: IXpsDocumentConsumerSendFixedDocumentSequence method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsDocumentConsumer::SendFixedDocumentSequence method

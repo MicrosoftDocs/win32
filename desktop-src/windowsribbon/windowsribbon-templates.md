@@ -1,8 +1,20 @@
 ---
 title: Customizing a Ribbon Through Size Definitions and Scaling Policies
 description: Controls hosted in the ribbon Command bar are subject to layout rules that are enforced by the Windows Ribbon framework and based on a combination of default behaviors and layout templates (both framework-defined and custom) as declared in the Ribbon markup. These rules define the adaptive layout behaviors of the Ribbon framework that influence how controls in the Command bar adapt to various ribbon sizes at run time.
-ms.assetid: 'b5869394-3fa9-4817-add9-54487434fc4f'
-keywords: ["Windows Ribbon,customizing", "Ribbon,customizing", "Windows Ribbon,SizeDefinition templates", "Ribbon,SizeDefinition templates", "Windows Ribbon,custom templates", "Ribbon,custom templates", "customizing Windows Ribbon"]
+ms.assetid: b5869394-3fa9-4817-add9-54487434fc4f
+keywords:
+- Windows Ribbon,customizing
+- Ribbon,customizing
+- Windows Ribbon,SizeDefinition templates
+- Ribbon,SizeDefinition templates
+- Windows Ribbon,custom templates
+- Ribbon,custom templates
+- customizing Windows Ribbon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing a Ribbon Through Size Definitions and Scaling Policies
@@ -25,7 +37,7 @@ To display controls in a preferred layout at a particular ribbon size, both pred
 > [!Note]  
 > The Ribbon framework provides default layout behaviors based on a set of built-in heuristics for the organization and presentation of controls at run time without the need for the predefined [**SizeDefinition**](windowsribbon-element-sizedefinition.md) templates. However, this capability is intended for prototyping purposes only.
 
- 
+ 
 
 ### Ribbon SizeDefinition Templates
 
@@ -55,7 +67,7 @@ The following is a list of the [**SizeDefinition**](windowsribbon-element-sizede
 > \[!Important\]  
 > If the controls declared in markup do not map exactly to control type, order, and quantity defined in the associated template, a [validation error](windowsribbon-compilationerrors.md) is logged by the [markup compiler](windowsribbon-intentcl.md) and compilation is terminated.
 
- 
+ 
 
 
 
@@ -250,7 +262,7 @@ Only Large and Medium group sizes are supported.
 > \[!Important\]  
 > Including a [**FontControl**](windowsribbon-element-fontcontrol.md) within a custom template definition is not supported by the framework.
 
- 
+ 
 
 ![picture of onefontcontrol large sizedefinition template.](images/overviews/sizedefinition-onefontcontrol-large.png)
 
@@ -295,7 +307,7 @@ A complex arrangement of 32 button-family controls (most of which are optional).
 > [!Note]  
 > Aside from the optional full-sized button of the large ButtonGroups template, all control elements declared with this template must be contained in [**ControlGroup**](windowsribbon-element-controlgroup.md) elements.
 
- 
+ 
 
 The following example demonstrates the markup required to display all 32 control elements (required and optional) with this template.
 
@@ -379,7 +391,7 @@ Only Large and Medium group sizes are supported.
 > [!Note]  
 > All control elements declared with this template must be contained in [**ControlGroup**](windowsribbon-element-controlgroup.md) elements.
 
- 
+ 
 
 The following example demonstrates the markup required to display all control elements (required and optional) with this template.
 
@@ -465,13 +477,13 @@ Only Large and Medium group sizes are supported.
 
 
 
- 
+ 
 
 ### Basic SizeDefinition Example
 
 The following code example provides a basic demonstration of how to declare a [**SizeDefinition**](windowsribbon-element-sizedefinition.md) template in Ribbon markup.
 
-The *OneInRibbonGallery* [**SizeDefinition**](windowsribbon-element-sizedefinition.md) is used for this particular example, but all framework templates are specified in a similar fashion.
+The *OneInRibbonGallery* [**SizeDefinition**](windowsribbon-element-sizedefinition.md) is used for this particular example, but all framework templates are specified in a similar fashion.
 
 
 ```XML
@@ -511,9 +523,9 @@ The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) element contains
 > [!Note]  
 > It is highly recommended that adequate scaling policy detail be specified such that most, if not all, [**Group**](windowsribbon-element-group.md) elements are associated with a [**Scale**](windowsribbon-element-scale.md) element where the *Size* attribute is equal to `Popup`. Doing so allows the framework to render the ribbon at the smallest size possible, and support the broadest range of display devices, before automatically introducing a scrolling mechanism.
 
- 
+ 
 
-The following code example demonstrates a [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest that specifies a [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, [**Scale**](windowsribbon-element-scale.md) elements are specified to influence the collapsing behavior, in descending size order, of each group.
+The following code example demonstrates a [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest that specifies a [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md) [**SizeDefinition**](windowsribbon-element-sizedefinition.md) preference for each of four groups of controls on a **Home** tab. In addition, [**Scale**](windowsribbon-element-scale.md) elements are specified to influence the collapsing behavior, in descending size order, of each group.
 
 
 ```C++
@@ -813,7 +825,7 @@ The following images show how the templates from the previous example are applie
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -828,9 +840,9 @@ The following images show how the templates from the previous example are applie
 [**Group**](windowsribbon-element-group.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

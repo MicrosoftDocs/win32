@@ -1,7 +1,12 @@
 ---
 title: Preparing the Spin Lock Event Collection Environment
 description: Preparing the Spin Lock Event Collection Environment
-ms.assetid: 'e0b50ad6-2c70-43d2-88d3-5a3571da39af'
+ms.assetid: e0b50ad6-2c70-43d2-88d3-5a3571da39af
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Preparing the Spin Lock Event Collection Environment

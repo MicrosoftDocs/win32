@@ -1,7 +1,7 @@
 ---
 title: WINBIO\_ANSI\_381\_IMG\_ACQ Constants
 description: Specify image acquisition levels.
-ms.assetid: '1A57C4C0-35FA-43A0-A97E-C87D1DD03404'
+ms.assetid: 1A57C4C0-35FA-43A0-A97E-C87D1DD03404
 topic_type:
 - apiref
 api_name:
@@ -15,6 +15,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_ANSI\_381\_IMG\_ACQ Constants
@@ -35,8 +40,8 @@ The following constants can be used to specify image acquisition levels:
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -48,9 +53,9 @@ The following constants can be used to specify image acquisition levels:
 [Client Application Constants](client-application-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

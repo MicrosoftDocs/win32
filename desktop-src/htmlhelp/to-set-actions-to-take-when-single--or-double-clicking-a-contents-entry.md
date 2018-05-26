@@ -1,7 +1,12 @@
 ---
 title: To set actions to take when single- or double-clicking a contents entry
 description: To set actions to take when single- or double-clicking a contents entry
-ms.assetid: '62FF506C-223E-4f6a-9D05-65B18E60D439'
+ms.assetid: 62FF506C-223E-4f6a-9D05-65B18E60D439
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To set actions to take when single- or double-clicking a contents entry

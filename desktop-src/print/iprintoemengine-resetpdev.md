@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'DD8E4DAC-A4CA-4F1A-A898-E4A68A2D6715'
-title: 'IPrintOemEngine::ResetPDEV method'
+---
+Description: .
+ms.assetid: DD8E4DAC-A4CA-4F1A-A898-E4A68A2D6715
+title: IPrintOemEngineResetPDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemEngine::ResetPDEV method

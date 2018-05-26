@@ -1,7 +1,12 @@
 ---
 title: System Restore API
 description: The System Restore API enables an application to manage restore points. There is also a scriptable interface available through Windows Management Instrumentation (WMI).
-ms.assetid: 'e80fb930-8711-4347-b802-d55f780ee589'
+ms.assetid: e80fb930-8711-4347-b802-d55f780ee589
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Restore API

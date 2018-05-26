@@ -1,7 +1,12 @@
 ---
 title: Memory Management in Direct3D 12
 description: Moving to D3D12 involves doing proper synchronization and management of memory residency.
-ms.assetid: '94D47EBB-8060-49F6-A1FF-8B7B98AD5363'
+ms.assetid: 94D47EBB-8060-49F6-A1FF-8B7B98AD5363
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Memory Management in Direct3D 12
@@ -24,7 +29,7 @@ Moving to D3D12 involves doing proper synchronization and management of memory r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ Moving to D3D12 involves doing proper synchronization and management of memory r
 [Resource Binding](resource-binding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

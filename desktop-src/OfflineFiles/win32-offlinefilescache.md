@@ -1,13 +1,16 @@
 ---
-Description: 'Represents the Offline Files cache.'
+Description: Represents the Offline Files cache.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '0b894883-14a0-444d-9109-550a4e02eae8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'offline-files'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 0b894883-14a0-444d-9109-550a4e02eae8
+ms.prod: windows-server-dev
+ms.technology: offline-files
 ms.tgt_platform: multiple
-title: 'Win32\_OfflineFilesCache class'
+title: Win32\_OfflineFilesCache class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_OfflineFilesCache class
@@ -24,7 +27,7 @@ class Win32_OfflineFilesCache
 {
   boolean Enabled;
   boolean Active;
-  string  Location;
+  string  Location;
 };
 ```
 
@@ -48,7 +51,7 @@ The **Win32\_OfflineFilesCache** class has these methods.
 | [**Encrypt**](win32-offlinefilescache-encrypt.md)                     | Encrypts or unencrypts files in the Offline Files cache.<br/>                                                                                                                                                                                                                                                                                                                       |
 | [**Pin**](win32-offlinefilescache-pin.md)                             | Assures that an item will be available offline.<br/>                                                                                                                                                                                                                                                                                                                                |
 | [**RenameItem**](win32-offlinefilescache-renameitem.md)               | Renames an item in the Offline Files cache.<br/>                                                                                                                                                                                                                                                                                                                                    |
-| [**RenameItemEx**](win32-offlinefilescache-renameitem.md)             | Renames an item in the Offline Files cache. This method is identical to the [**RenameItem**](win32-offlinefilescache-renameitem.md) method, except that it will attempt to do the rename operation right away.<br/> **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This method is not supported until Windows 8 and Windows Server 2012.<br/> |
+| [**RenameItemEx**](win32-offlinefilescache-renameitem.md)             | Renames an item in the Offline Files cache. This method is identical to the [**RenameItem**](win32-offlinefilescache-renameitem.md) method, except that it will attempt to do the rename operation right away.<br/> **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This method is not supported until Windows 8 and Windows Server 2012.<br/> |
 | [**SuspendRoot**](win32-offlinefilescache-suspendroot.md)             | Suspends or un-suspends a directory tree in the Offline Files cache.<br/>                                                                                                                                                                                                                                                                                                           |
 | [**Synchronize**](win32-offlinefilescache-synchronize.md)             | Synchronizes one or more items.<br/>                                                                                                                                                                                                                                                                                                                                                |
 | [**TransitionOffline**](win32-offlinefilescache-transitionoffline.md) | Transitions an item offline if possible.<br/>                                                                                                                                                                                                                                                                                                                                       |
@@ -57,7 +60,7 @@ The **Win32\_OfflineFilesCache** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -114,8 +117,8 @@ The role of this object is to control the configuration of the Offline Files fea
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                                 |
 | MOF<br/>                      | <dl> <dt>OfflineFilesWmiProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CscObj.dll</dt> </dl>                  |
@@ -129,9 +132,9 @@ The role of this object is to control the configuration of the Offline Files fea
 [Offline Files WMI Provider Reference](offline-files-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

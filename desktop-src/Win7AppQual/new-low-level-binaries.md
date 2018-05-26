@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '8c883462-29d8-46c4-b1c6-3ae8b8d3b397'
-title: 'New Low-Level Binaries'
+Description: .
+ms.assetid: 8c883462-29d8-46c4-b1c6-3ae8b8d3b397
+title: New Low-Level Binaries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # New Low-Level Binaries

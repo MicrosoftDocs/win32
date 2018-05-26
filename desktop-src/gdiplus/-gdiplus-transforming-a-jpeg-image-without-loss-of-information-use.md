@@ -1,7 +1,12 @@
 ---
-Description: 'When you compress a JPEG image, some of the information in the image is lost.'
-ms.assetid: 'd7342195-9634-4968-87c1-a94bc6a7e112'
+Description: When you compress a JPEG image, some of the information in the image is lost.
+ms.assetid: d7342195-9634-4968-87c1-a94bc6a7e112
 title: Transforming a JPEG Image Without Loss of Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transforming a JPEG Image Without Loss of Information
@@ -16,14 +21,14 @@ Because JPEG is one of the most popular image formats on the Web, and because pe
 -   Flip horizontally
 -   Flip vertically
 
-You can apply one of the transformations shown in the preceding list when you call the [Save](-gdiplus-class-image-save-methods.md) method of an [**Image**](-gdiplus-class-image-class.md) object. If the following conditions are met, then the transformation will proceed without loss of information:
+You can apply one of the transformations shown in the preceding list when you call the [Save](/windows/win32/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)?branch=master) method of an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object. If the following conditions are met, then the transformation will proceed without loss of information:
 
--   The file used to construct the [**Image**](-gdiplus-class-image-class.md) object is a JPEG file.
+-   The file used to construct the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object is a JPEG file.
 -   The width and height of the image are both multiples of 16.
 
 If the width and height of the image are not both multiples of 16, GDI+ will do its best to preserve the image quality when you apply one of the rotation or flipping transformations shown in the preceding list.
 
-To transform a JPEG image, initialize an [**EncoderParameters**](-gdiplus-class-encoderparameters-class.md) object and pass the address of that object to the [Save](-gdiplus-class-image-save-methods.md) method of the [**Image**](-gdiplus-class-image-class.md) class. Initialize the **EncoderParameters** object so that it has an array that consists of one [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** variable that holds one of the following elements of the [**EncoderValue**](-gdiplus-enum-encodervalue.md) enumeration:
+To transform a JPEG image, initialize an [**EncoderParameters**](/windows/win32/Gdiplusimaging/?branch=master) object and pass the address of that object to the [Save](/windows/win32/gdiplusheaders/nf-gdiplusheaders-image-save(in istream,in const clsid,in const encoderparameters)?branch=master) method of the [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) class. Initialize the **EncoderParameters** object so that it has an array that consists of one [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object. Initialize that one **EncoderParameter** object so that its **Value** member points to a **ULONG** variable that holds one of the following elements of the [**EncoderValue**](/windows/win32/Gdiplusenums/ne-gdiplusenums-encodervalue?branch=master) enumeration:
 
 -   EncoderValueTransformRotate90,
 -   EncoderValueTransformRotate180,
@@ -31,9 +36,9 @@ To transform a JPEG image, initialize an [**EncoderParameters**](-gdiplus-class-
 -   EncoderValueTransformFlipHorizontal,
 -   EncoderValueTransformFlipVertical
 
-Set the **Guid** member of the [**EncoderParameter**](-gdiplus-class-encoderparameter-class.md) object to EncoderTransformation.
+Set the **Guid** member of the [**EncoderParameter**](/windows/win32/Gdiplusimaging/?branch=master) object to EncoderTransformation.
 
-The following console application creates an [**Image**](-gdiplus-class-image-class.md) object from a JPEG file and then saves the image to a new file. During the save process, the image is rotated 90 degrees. If the width and height of the image are both multiples of 16, the process of rotating and saving the image causes no loss of information.
+The following console application creates an [**Image**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-image?branch=master) object from a JPEG file and then saves the image to a new file. During the save process, the image is rotated 90 degrees. If the width and height of the image are both multiples of 16, the process of rotating and saving the image causes no loss of information.
 
 The main function relies on the helper function GetEncoderClsid, which is shown in [Retrieving the Class Identifier for an Encoder](-gdiplus-retrieving-the-class-identifier-for-an-encoder-use.md).
 

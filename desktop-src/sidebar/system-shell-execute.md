@@ -1,8 +1,11 @@
 ---
 title: System.Shell.execute method
 description: Launches an application.
-ms.assetid: 'a2e4f759-e845-4f34-84c0-a1bab5e39f04'
-keywords: ["execute method Windows Sidebar", "execute method Windows Sidebar , System.Shell object", "System.Shell object Windows Sidebar , execute method"]
+ms.assetid: a2e4f759-e845-4f34-84c0-a1bab5e39f04
+keywords:
+- execute method Windows Sidebar
+- execute method Windows Sidebar , System.Shell object
+- System.Shell object Windows Sidebar , execute method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.execute method
@@ -52,7 +60,7 @@ If *strFile* specifies an executable file then **String** specifies the paramete
 > [!Note]  
 > If *strFile* specifies a file name or URL, *strArgs* is unneccessary and should be blank, null, or an empty string.
 
- 
+ 
 
 </dd> <dt>
 
@@ -132,7 +140,7 @@ Supplying a path to a file name (with extension) or a URL for *strFile* will lau
 > [!Note]  
 > Alternatively, a path to a known application .exe can by supplied for *strFile* while *strArgs*, *strDir*, and *strOperation* are used to specify the rest of the file information.
 
- 
+ 
 
 *strArgs*, *strDir*, and *strOperation* can be assigned values in combination as required.
 
@@ -174,18 +182,18 @@ System.Shell.execute(System.Gadget.path + "\\MyFile.txt", null, null, "print");
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

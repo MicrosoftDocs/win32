@@ -1,8 +1,11 @@
 ---
 title: IixssoQuery DefineColumn method
 description: Defines a new friendly name for a column to be included in queries. By defining an alias for an existing property, you create a shorthand term to refer to it.
-ms.assetid: 'ff969b4f-9695-45aa-a522-e702d2a09c46'
-keywords: ["DefineColumn method Indexing Service", "DefineColumn method Indexing Service , IixssoQuery interface", "IixssoQuery interface Indexing Service , DefineColumn method"]
+ms.assetid: ff969b4f-9695-45aa-a522-e702d2a09c46
+keywords:
+- DefineColumn method Indexing Service
+- DefineColumn method Indexing Service , IixssoQuery interface
+- IixssoQuery interface Indexing Service , DefineColumn method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Ixsso.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IixssoQuery::DefineColumn method
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Defines a new friendly name for a column to be included in queries. By defining an alias for an existing property, you create a shorthand term to refer to it.
 
@@ -24,7 +32,7 @@ Defines a new friendly name for a column to be included in queries. By defining 
 
 ```C++
 HRESULT DefineColumn(
-  [in] BSTR pwszColDefinition
+  [in] BSTR pwszColDefinition
 );
 ```
 
@@ -107,10 +115,10 @@ objQuery.Columns = "path, ""dc.source.type.category"""
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | DLL<br/>                      | <dl> <dt>Ixsso.dll</dt> </dl> |
 
 
@@ -122,9 +130,9 @@ objQuery.Columns = "path, ""dc.source.type.category"""
 [**IixssoQuery**](iixssoquery.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

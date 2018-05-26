@@ -1,8 +1,11 @@
 ---
 title: Player.Error event
 description: The Error event occurs when there is an error condition.
-ms.assetid: '1e418a56-ae81-4ff0-b721-3390be08970d'
-keywords: ["Error event Windows Media Player", "Error event Windows Media Player , Player class", "Player class Windows Media Player , Error event"]
+ms.assetid: 1e418a56-ae81-4ff0-b721-3390be08970d
+keywords:
+- Error event Windows Media Player
+- Error event Windows Media Player , Player class
+- Player class Windows Media Player , Error event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.Error event
@@ -78,9 +86,9 @@ alert(errDesc);
 [**Player Object**](player-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

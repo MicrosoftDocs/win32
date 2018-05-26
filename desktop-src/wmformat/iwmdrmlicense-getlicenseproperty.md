@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense GetLicenseProperty method
 description: The GetLicenseProperty method retrieves a property from the current license.
-ms.assetid: '5431f849-b37e-40b7-8bdb-ee30948aeff1'
-keywords: ["GetLicenseProperty method windows Media Format", "GetLicenseProperty method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , GetLicenseProperty method"]
+ms.assetid: 5431f849-b37e-40b7-8bdb-ee30948aeff1
+keywords:
+- GetLicenseProperty method windows Media Format
+- GetLicenseProperty method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , GetLicenseProperty method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::GetLicenseProperty method
@@ -23,8 +31,8 @@ The **GetLicenseProperty** method retrieves a property from the current license.
 
 ```C++
 HRESULT GetLicenseProperty(
-  [in]  BSTR        bstrName,
-  [out] PROPVARIANT *ppropVariant
+  [in]  BSTR        bstrName,
+  [out] PROPVARIANT *ppropVariant
 );
 ```
 
@@ -52,7 +60,7 @@ Name of the property to retrieve. Set to one of the constants in the following t
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -75,7 +83,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -102,9 +110,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

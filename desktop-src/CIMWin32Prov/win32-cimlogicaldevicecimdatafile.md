@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_CIMLogicalDeviceCIMDataFile association WMI class relates logical devices and data files, indicating the driver files used by the device. This class is used to discover which device drivers a device uses.'
+Description: The Win32\_CIMLogicalDeviceCIMDataFile association WMI class relates logical devices and data files, indicating the driver files used by the device. This class is used to discover which device drivers a device uses.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '892272de-920d-4fa0-adbc-f584ed6e8748'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 892272de-920d-4fa0-adbc-f584ed6e8748
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_CIMLogicalDeviceCIMDataFile class'
+title: Win32\_CIMLogicalDeviceCIMDataFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_CIMLogicalDeviceCIMDataFile class
@@ -24,10 +27,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C510-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_CIMLogicalDeviceCIMDataFile : CIM_Dependency
 {
-  CIM_DataFile      REF Dependent;
+  CIM_DataFile      REF Dependent;
   CIM_LogicalDevice REF Antecedent;
-  uint16                Purpose;
-  string                PurposeDescription;
+  uint16                Purpose;
+  string                PurposeDescription;
 };
 ```
 
@@ -170,8 +173,8 @@ The **Win32\_CIMLogicalDeviceCIMDataFile** class is derived from [**CIM\_Depende
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -188,9 +191,9 @@ The **Win32\_CIMLogicalDeviceCIMDataFile** class is derived from [**CIM\_Depende
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

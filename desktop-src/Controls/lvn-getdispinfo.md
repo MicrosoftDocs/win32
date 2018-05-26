@@ -1,8 +1,9 @@
 ---
 title: LVN\_GETDISPINFO notification code
 description: Sent by a list-view control to its parent window. It is a request for the parent window to provide information needed to display or sort a list-view item. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '04310e39-69bc-45d7-958c-00452279d7a9'
-keywords: ["LVN_GETDISPINFO notification code Windows Controls"]
+ms.assetid: 04310e39-69bc-45d7-958c-00452279d7a9
+keywords:
+- LVN_GETDISPINFO notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVN\_GETDISPINFO notification code
@@ -35,7 +41,7 @@ LVN_GETDISPINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMLVDISPINFO**](nmlvdispinfo.md) structure. On input, the [**LVITEM**](lvitem.md) structure contained in this structure specifies the type of information required and identifies the item or subitem of interest. Use the **LVITEM** structure to return the requested information to the control. If your message handler sets the LVIF\_DI\_SETITEM flag in the **mask** member of the **LVITEM** structure, the list-view control stores the requested information and will not ask for it again.
+Pointer to an [**NMLVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-taglvdispinfo?branch=master) structure. On input, the [**LVITEM**](/windows/win32/Commctrl/ns-commctrl-taglvitema?branch=master) structure contained in this structure specifies the type of information required and identifies the item or subitem of interest. Use the **LVITEM** structure to return the requested information to the control. If your message handler sets the LVIF\_DI\_SETITEM flag in the **mask** member of the **LVITEM** structure, the list-view control stores the requested information and will not ask for it again.
 
 </dd> </dl>
 
@@ -45,7 +51,7 @@ No return value.
 
 ## Remarks
 
-The notification receiver casts *lParam* to retrieve the [**NMLVDISPINFO**](nmlvdispinfo.md) structure. The *wParam* parameter contains the notification code.
+The notification receiver casts *lParam* to retrieve the [**NMLVDISPINFO**](/windows/win32/Commctrl/ns-commctrl-taglvdispinfo?branch=master) structure. The *wParam* parameter contains the notification code.
 
 A list-view control sends the **LVN\_GETDISPINFO** notification code to retrieve item information that is stored by the application rather than the control. The information can be text or icon information for an item. It can also be item state information. See the [**LVM\_SETCALLBACKMASK**](lvm-setcallbackmask.md) message for more information on implementing item state on a callback basis.
 
@@ -116,8 +122,8 @@ The following is from the WM\_NOTIFY handler in the dialog procedure.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **LVN\_GETDISPINFOW** (Unicode) and **LVN\_GETDISPINFOA** (ANSI)<br/>           |
 
@@ -130,9 +136,9 @@ The following is from the WM\_NOTIFY handler in the dialog procedure.
 [**LVN\_SETDISPINFO**](lvn-setdispinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Data processing object used by ID3DX10ThreadPump Interface for processing loaded data asynchronously.'
-ms.assetid: 'c932f558-10da-45fc-a833-8ed86fa065ab'
+---
+Description: Data processing object used by ID3DX10ThreadPump Interface for processing loaded data asynchronously.
+ms.assetid: c932f558-10da-45fc-a833-8ed86fa065ab
 title: ID3DX10DataProcessor interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10DataProcessor interface

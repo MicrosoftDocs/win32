@@ -1,12 +1,17 @@
 ---
-Description: 'Retrieves the specified system information.'
-ms.assetid: 'c91b9a35-ca2b-4d81-973d-fe709144df90'
+Description: Retrieves the specified system information.
+ms.assetid: c91b9a35-ca2b-4d81-973d-fe709144df90
 title: ZwQuerySystemInformation function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ZwQuerySystemInformation function
 
-\[**ZwQuerySystemInformation** is no longer available for use as of Windows 8. Instead, use the alternate functions listed in this topic.\]
+\[**ZwQuerySystemInformation** is no longer available for use as of Windows 8. Instead, use the alternate functions listed in this topic.\]
 
 Retrieves the specified system information.
 
@@ -15,10 +20,10 @@ Retrieves the specified system information.
 
 ```C++
 NTSTATUS WINAPI ZwQuerySystemInformation(
-  _In_      SYSTEM_INFORMATION_CLASS SystemInformationClass,
-  _Inout_   PVOID                    SystemInformation,
-  _In_      ULONG                    SystemInformationLength,
-  _Out_opt_ PULONG                   ReturnLength
+  _In_      SYSTEM_INFORMATION_CLASS SystemInformationClass,
+  _Inout_   PVOID                    SystemInformation,
+  _In_      ULONG                    SystemInformationLength,
+  _Out_opt_ PULONG                   ReturnLength
 );
 ```
 
@@ -42,7 +47,7 @@ The type of system information to be retrieved. This parameter can be one of the
 
 </dt> <dd>
 
-The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](getsysteminfo.md) function instead.
+The number of processors in the system in a **SYSTEM\_BASIC\_INFORMATION** structure. Use the [**GetSystemInfo**](/windows/win32/Winbase/?branch=master) function instead.
 
 </dd> <dt>
 
@@ -160,7 +165,7 @@ typedef struct _SYSTEM_BASIC_INFORMATION {
 } SYSTEM_BASIC_INFORMATION;
 ```
 
-The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](getsysteminfo.md) instead to retrieve this information.
+The **NumberOfProcessors** member contains the number of processors present in the system. Use [**GetSystemInfo**](/windows/win32/Winbase/?branch=master) instead to retrieve this information.
 
 The other members of the structure are reserved for internal use by the operating system.
 
@@ -339,7 +344,7 @@ The **RegistryQuotaAllowed** member contains the maximum size, in bytes, that th
 
 The **RegistryQuotaUsed** member contains the current size of the Registry, in bytes.
 
-Use [**GetSystemRegistryQuota**](getsystemregistryquota.md) instead to retrieve this information.
+Use [**GetSystemRegistryQuota**](/windows/win32/Winbase/nf-winbase-getsystemregistryquota?branch=master) instead to retrieve this information.
 
 The other member of the structure is reserved for internal use by the operating system.
 
@@ -408,7 +413,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 <dl> <dt>
 
-[**GetSystemInfo**](getsysteminfo.md)
+[**GetSystemInfo**](/windows/win32/Winbase/?branch=master)
 </dt> <dt>
 
 [**GetProcessHandleCount**](https://msdn.microsoft.com/library/windows/desktop/ms683214)
@@ -420,12 +425,12 @@ This function has no associated import library. You must use the [**LoadLibrary*
 [**GetSystemTimes**](getsystemtimes.md)
 </dt> <dt>
 
-[**GetSystemRegistryQuota**](getsystemregistryquota.md)
+[**GetSystemRegistryQuota**](/windows/win32/Winbase/nf-winbase-getsystemregistryquota?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MSIscsiInitiator\_Portal structure describes the characteristics of an iSCSI Initiator portal.'
-ms.assetid: 'ccfd3e6b-df8c-4a87-b392-662ced2f3594'
-title: 'MSIscsiInitiator\_Portal class'
+---
+Description: The MSIscsiInitiator\_Portal structure describes the characteristics of an iSCSI Initiator portal.
+ms.assetid: ccfd3e6b-df8c-4a87-b392-662ced2f3594
+title: MSIscsiInitiator\_Portal class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSIscsiInitiator\_Portal class

@@ -1,13 +1,16 @@
 ---
-Description: 'Specifies or retrieves the locale ID (LCID) for the template name.'
+Description: Specifies or retrieves the locale ID (LCID) for the template name.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '6dd95c0f-f626-4eb2-86fb-2be5be863894'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 6dd95c0f-f626-4eb2-86fb-2be5be863894
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'TemplateLocaleName.LanguageId property'
+title: TemplateLocaleName.LanguageId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # TemplateLocaleName.LanguageId property
@@ -133,7 +136,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -145,9 +148,9 @@ END SUB
 [**TemplateLocaleName**](templatelocalename-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

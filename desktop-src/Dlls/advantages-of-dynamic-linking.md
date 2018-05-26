@@ -1,7 +1,12 @@
 ---
-Description: 'Dynamic linking has the following advantages over static linking.'
-ms.assetid: 'adfd941d-1a36-4dd8-af1f-b105466e0668'
+Description: Dynamic linking has the following advantages over static linking.
+ms.assetid: adfd941d-1a36-4dd8-af1f-b105466e0668
 title: Advantages of Dynamic Linking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Advantages of Dynamic Linking

@@ -4,11 +4,14 @@ description: Retrieves a string property value of a Win32\_RDSHServer object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '136cd213-86a6-472a-8853-8d05f992309a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 136cd213-86a6-472a-8853-8d05f992309a
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GetStringProperty method Remote Desktop Services", "GetStringProperty method Remote Desktop Services , Win32_RDSHServer class", "Win32_RDSHServer class Remote Desktop Services , GetStringProperty method"]
+keywords:
+- GetStringProperty method Remote Desktop Services
+- GetStringProperty method Remote Desktop Services , Win32_RDSHServer class
+- Win32_RDSHServer class Remote Desktop Services , GetStringProperty method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - RDMS.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetStringProperty method of the Win32\_RDSHServer class
@@ -28,8 +34,8 @@ Retrieves a string property value of a [**Win32\_RDSHServer**](win32-rdshserver.
 
 ```mof
 uint32 GetStringProperty(
-  [in]  string Key,
-  [out] string Value
+  [in]  string Key,
+  [out] string Value
 );
 ```
 
@@ -64,7 +70,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\CIMv2\\rdms<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RDManagement.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
@@ -78,9 +84,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**Win32\_RDSHServer**](win32-rdshserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

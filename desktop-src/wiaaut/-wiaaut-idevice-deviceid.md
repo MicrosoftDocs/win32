@@ -1,8 +1,11 @@
 ---
 title: Device.DeviceID property
 description: Retrieves the DeviceID (Device) for this Device.
-ms.assetid: '1a92e686-942d-47db-baf1-3166815fd2c4'
-keywords: ["DeviceID property WIA Automation", "DeviceID property WIA Automation , Device object", "Device object WIA Automation , DeviceID property"]
+ms.assetid: 1a92e686-942d-47db-baf1-3166815fd2c4
+keywords:
+- DeviceID property WIA Automation
+- DeviceID property WIA Automation , Device object
+- Device object WIA Automation , DeviceID property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Device.DeviceID property
@@ -56,8 +64,8 @@ MsgBox "You selected the following device" & vbCrLf & _
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -91,9 +99,9 @@ MsgBox "You selected the following device" & vbCrLf & _
 [**UnregisterPersistentEvent**](-wiaaut-idevicemanager-unregisterpersistentevent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

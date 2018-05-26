@@ -1,7 +1,12 @@
 ---
-Description: 'Enables a physical GPU for virtualization.'
-ms.assetid: '700cb46b-97f1-40cf-88d2-64242f4bd2c6'
-title: 'EnableGPUForVirtualization method of the Msvm\_Synthetic3DService class'
+Description: Enables a physical GPU for virtualization.
+ms.assetid: 700cb46b-97f1-40cf-88d2-64242f4bd2c6
+title: EnableGPUForVirtualization method of the Msvm\_Synthetic3DService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EnableGPUForVirtualization method of the Msvm\_Synthetic3DService class
@@ -13,8 +18,8 @@ Enables a physical GPU for virtualization.
 
 ```mof
 uint32 EnableGPUForVirtualization(
-  [in]  Msvm_Physical3dGraphicsProcessor REF PhysicalGPU,
-  [out] CIM_ConcreteJob                  REF Job
+  [in]  Msvm_Physical3dGraphicsProcessor REF PhysicalGPU,
+  [out] CIM_ConcreteJob                  REF Job
 );
 ```
 
@@ -56,8 +61,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -71,9 +76,9 @@ This method returns one of the following values.
 [**Msvm\_Synthetic3DService**](msvm-synthetic3dservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

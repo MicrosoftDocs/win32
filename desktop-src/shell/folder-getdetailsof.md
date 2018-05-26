@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves details about an item in a folder. For example, its size, type, or the time of its last modification.'
-ms.assetid: 'd2fe4550-f171-40d9-8bce-065b61826997'
-title: 'Folder.GetDetailsOf method'
+---
+Description: Retrieves details about an item in a folder. For example, its size, type, or the time of its last modification.
+ms.assetid: d2fe4550-f171-40d9-8bce-065b61826997
+title: Folder.GetDetailsOf method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Folder.GetDetailsOf method

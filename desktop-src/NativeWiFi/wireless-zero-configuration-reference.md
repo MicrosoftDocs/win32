@@ -1,7 +1,12 @@
 ---
-Description: 'Contains information on the programming interface for the Wireless Zero Configuration service on Windows XP and Windows Server 2003.'
-ms.assetid: 'cd9e8fc0-0a65-4654-95aa-201751183521'
+Description: Contains information on the programming interface for the Wireless Zero Configuration service on Windows XP and Windows Server 2003.
+ms.assetid: cd9e8fc0-0a65-4654-95aa-201751183521
 title: Wireless Zero Configuration Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wireless Zero Configuration Reference

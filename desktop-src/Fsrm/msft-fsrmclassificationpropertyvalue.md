@@ -4,11 +4,13 @@ description: Represents a classification property value.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c48f0fef-0e0f-4fe4-b70c-6007f29210ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: c48f0fef-0e0f-4fe4-b70c-6007f29210ea
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMClassificationPropertyValue class File Server Resource Manager", "MSFT_FSRMClassificationPropertyValue class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMClassificationPropertyValue class File Server Resource Manager
+- MSFT_FSRMClassificationPropertyValue class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMClassificationPropertyValue class
@@ -61,7 +66,7 @@ The **MSFT\_FSRMClassificationPropertyValue** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -128,7 +133,7 @@ Name of the property value.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -142,9 +147,9 @@ Name of the property value.
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

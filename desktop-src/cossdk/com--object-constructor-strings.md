@@ -1,7 +1,12 @@
 ---
 Description: COM+ Object Constructor Strings
-ms.assetid: '5e630812-b2cf-4512-af67-6e919a02bf95'
+ms.assetid: 5e630812-b2cf-4512-af67-6e919a02bf95
 title: COM+ Object Constructor Strings
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Object Constructor Strings
@@ -19,11 +24,11 @@ The topics described in the following table provide background and task informat
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

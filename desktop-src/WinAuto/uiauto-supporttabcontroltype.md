@@ -1,8 +1,29 @@
 ---
 title: Tab Control Type
 description: This topic provides information about Microsoft UI Automation support for the Tab control type.
-ms.assetid: '49e3f025-f49b-44b1-90ca-09f40dce8f2a'
-keywords: ["UI Automation,support for Tab control type", "UI Automation,Tab control type", "UI Automation,tree structure for Tab control type", "UI Automation,properties for Tab control type", "UI Automation,control patterns for Tab control type", "UI Automation,events for Tab control type", "tree structures,Tab control type", "properties,Tab control type", "control patterns,Tab control type", "events,Tab control type", "support for Tab control type", "Tab control type", "control types,tree structure for Tab control type", "control types,control patterns for Tab control type", "control types,support for Tab", "control types,Tab"]
+ms.assetid: 49e3f025-f49b-44b1-90ca-09f40dce8f2a
+keywords:
+- UI Automation,support for Tab control type
+- UI Automation,Tab control type
+- UI Automation,tree structure for Tab control type
+- UI Automation,properties for Tab control type
+- UI Automation,control patterns for Tab control type
+- UI Automation,events for Tab control type
+- tree structures,Tab control type
+- properties,Tab control type
+- control patterns,Tab control type
+- events,Tab control type
+- support for Tab control type
+- Tab control type
+- control types,tree structure for Tab control type
+- control types,control patterns for Tab control type
+- control types,support for Tab
+- control types,Tab
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab Control Type
@@ -127,7 +148,7 @@ The following table lists the UI Automation properties whose value or definition
 | [**UIA\_ControlTypePropertyId**](uiauto-automation-element-propids.md#uia-controltypepropertyid)                   | **Tab**    |                                                                                                                                                                                                                                                                                                                                                                               |
 | [**UIA\_IsContentElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontentelementpropertyid)         | TRUE       | The tab control is always included in the content view of the UI Automation tree.                                                                                                                                                                                                                                                                                             |
 | [**UIA\_IsControlElementPropertyId**](uiauto-automation-element-propids.md#uia-iscontrolelementpropertyid)         | TRUE       | The tab control is always included in the control view of the UI Automation tree.                                                                                                                                                                                                                                                                                             |
-| [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)   | TRUE       | The Tab control type must be able to receive keyboard focus. Typically, a UI Automation client calls [**IUIAutomationElement::SetFocus**](uiauto-iuiautomationelement-setfocus.md) on a tab control and one of its items will forward the keyboard focus to the tab control. It is possible for some tab containers to take focus without setting focus to one of its items. |
+| [**UIA\_IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md#uia-iskeyboardfocusablepropertyid)   | TRUE       | The Tab control type must be able to receive keyboard focus. Typically, a UI Automation client calls [**IUIAutomationElement::SetFocus**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus?branch=master) on a tab control and one of its items will forward the keyboard focus to the tab control. It is possible for some tab containers to take focus without setting focus to one of its items. |
 | [**UIA\_LabeledByPropertyId**](uiauto-automation-element-propids.md#uia-labeledbypropertyid)                       | See notes. | Tab controls typically have a static text label that is exposed through this property.                                                                                                                                                                                                                                                                                        |
 | [**UIA\_LocalizedControlTypePropertyId**](uiauto-automation-element-propids.md#uia-localizedcontroltypepropertyid) | See notes. | Localized string corresponding to the **Tab** control type. The default value is "tab" for en-US or English (United States).                                                                                                                                                                                                                                                  |
 | [**UIA\_NamePropertyId**](uiauto-automation-element-propids.md#uia-namepropertyid)                                 | See notes. | The tab control rarely requires a **Name** property.                                                                                                                                                                                                                                                                                                                          |
@@ -145,10 +166,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern/Pattern Property                                             | Support/Value | Notes                                                                                                                                                                  |
 |------------------------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**ISelectionProvider**](uiauto-iselectionprovider.md)                      | Required      | All tab controls must support the [Selection](uiauto-implementingselection.md) control pattern.                                                                       |
-| [**IsSelectionRequired**](uiauto-iselectionprovider-isselectionrequired.md) | TRUE          | Tab controls always require that a selection be made.                                                                                                                  |
-| [**CanSelectMultiple**](uiauto-iselectionprovider-canselectmultiple.md)     | FALSE         | Tab controls are always single-selection containers.                                                                                                                   |
-| [**IScrollProvider**](uiauto-iscrollprovider.md)                            | Depends       | The [Scroll](uiauto-implementingscroll.md) control pattern must be supported if the tab control has widgets that allow for a set of tab items to be scrolled through. |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master)                      | Required      | All tab controls must support the [Selection](uiauto-implementingselection.md) control pattern.                                                                       |
+| [**IsSelectionRequired**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired?branch=master) | TRUE          | Tab controls always require that a selection be made.                                                                                                                  |
+| [**CanSelectMultiple**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple?branch=master)     | FALSE         | Tab controls are always single-selection containers.                                                                                                                   |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)                            | Depends       | The [Scroll](uiauto-implementingscroll.md) control pattern must be supported if the tab control has widgets that allow for a set of tab items to be scrolled through. |
 
 
 

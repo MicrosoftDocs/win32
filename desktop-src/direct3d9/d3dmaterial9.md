@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies material properties.'
-ms.assetid: '943e6f6d-8091-462f-8c44-e0c27686934a'
+---
+Description: Specifies material properties.
+ms.assetid: 943e6f6d-8091-462f-8c44-e0c27686934a
 title: D3DMATERIAL9 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DMATERIAL9 structure
@@ -105,10 +110,10 @@ For more information about using the lighting engine to calculate specular light
 [Direct3D Structures](dx9-graphics-reference-d3d-structures.md)
 </dt> <dt>
 
-[**IDirect3DDevice9::GetMaterial**](idirect3ddevice9--getmaterial.md)
+[**IDirect3DDevice9::GetMaterial**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getmaterial?branch=master)
 </dt> <dt>
 
-[**IDirect3DDevice9::SetMaterial**](idirect3ddevice9--setmaterial.md)
+[**IDirect3DDevice9::SetMaterial**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setmaterial?branch=master)
 </dt> </dl>
 
  

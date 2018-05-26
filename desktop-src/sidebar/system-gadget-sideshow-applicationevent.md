@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.SideShow.applicationEvent event
 description: Event fired when a SideShow device event occurs.
-ms.assetid: 'cf5d5d03-3c95-4b9e-b6d5-ffa15306c4cd'
-keywords: ["applicationEvent event Windows Sidebar", "applicationEvent event Windows Sidebar , System.Gadget.SideShow object", "System.Gadget.SideShow object Windows Sidebar , applicationEvent event"]
+ms.assetid: cf5d5d03-3c95-4b9e-b6d5-ffa15306c4cd
+keywords:
+- applicationEvent event Windows Sidebar
+- applicationEvent event Windows Sidebar , System.Gadget.SideShow object
+- System.Gadget.SideShow object Windows Sidebar , applicationEvent event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.SideShow.applicationEvent event
@@ -22,7 +30,7 @@ Event fired when a SideShow device event occurs.
 > [!Note]  
 > **applicationEvent** is not fully supported in Windows Sidebar.
 
- 
+ 
 
 ## Syntax
 
@@ -58,10 +66,10 @@ Verify that [**System.Gadget.SideShow.enabled**](system-gadget-sideshow-enabled.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Windowssideshowapi.h</dt> </dl>                |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
@@ -84,9 +92,9 @@ Verify that [**System.Gadget.SideShow.enabled**](system-gadget-sideshow-enabled.
 [Windows SideShow: Windows Hardware Developer Central](http://www.microsoft.com/whdc/device/sideshow/default.mspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

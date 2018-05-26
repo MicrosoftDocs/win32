@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a network adapter with its virtual port data.'
-ms.assetid: 'cb8a147c-e27b-4458-bc0e-6150a0f766d1'
-title: 'MSFT\_NetAdapterVPortElementSetting class'
+Description: Associates a network adapter with its virtual port data.
+ms.assetid: cb8a147c-e27b-4458-bc0e-6150a0f766d1
+title: MSFT\_NetAdapterVPortElementSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterVPortElementSetting class
@@ -16,10 +21,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterVPortElementSetting : MSFT_NetAdapterElementSettingData
 {
-  uint16                          REF IsDefault;
-  uint16                          REF IsCurrent;
-  uint16                          REF IsNext;
-  MSFT_NetAdapter                 REF ManagedElement;
+  uint16                          REF IsDefault;
+  uint16                          REF IsCurrent;
+  uint16                          REF IsNext;
+  MSFT_NetAdapter                 REF ManagedElement;
   MSFT_NetAdapterVPortSettingData REF SettingData;
 };
 ```
@@ -158,16 +163,16 @@ The VPort setting data for the network adapter.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

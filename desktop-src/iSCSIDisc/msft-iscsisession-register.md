@@ -1,7 +1,12 @@
 ---
-Description: 'Registers the iSCSI session to be persistent.'
-ms.assetid: '9D313B5F-07F7-4C52-9C49-27687CE1FA92'
-title: 'Register method of the MSFT\_iSCSISession class'
+Description: Registers the iSCSI session to be persistent.
+ms.assetid: 9D313B5F-07F7-4C52-9C49-27687CE1FA92
+title: Register method of the MSFT\_iSCSISession class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Register method of the MSFT\_iSCSISession class
@@ -15,7 +20,7 @@ After the session is marked as persistent, it will be automatically connected at
 
 ```mof
 uint32 Register(
-   boolean IsMultipathEnabled
+   boolean IsMultipathEnabled
 );
 ```
 
@@ -38,8 +43,8 @@ If **true**, the ISCSI initiator service allows multiple sessions to the same ta
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Iscsiwmiv2.mof</dt> </dl> |
 
@@ -52,9 +57,9 @@ If **true**, the ISCSI initiator service allows multiple sessions to the same ta
 [**MSFT\_iSCSISession**](msft-iscsisession.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

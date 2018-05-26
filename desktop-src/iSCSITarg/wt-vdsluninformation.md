@@ -4,13 +4,15 @@ description: Represents the LUN information for an iSCSI target. This informatio
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '53b92248-ccaa-4617-8641-d51e3ecd0f9a'
-ms.prod: 'windows-server-dev'
+ms.assetid: 53b92248-ccaa-4617-8641-d51e3ecd0f9a
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_VDSLunInformation class iSCSI Software Target API", "WT_VDSLunInformation class iSCSI Software Target API , described"]
+keywords:
+- WT_VDSLunInformation class iSCSI Software Target API
+- WT_VDSLunInformation class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -29,6 +31,9 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_VDSLunInformation class
@@ -42,15 +47,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class WT_VDSLunInformation
 {
-  uint8                          DeviceType;
-  uint8                          DeviceTypeModifier;
-  boolean                        CommandQueueing;
-  sint32                         BusType;
-  string                         VendorId;
-  string                         ProductId;
-  string                         ProductRevision;
-  string                         SerialNumber;
-  string                         DiskSignature;
+  uint8                          DeviceType;
+  uint8                          DeviceTypeModifier;
+  boolean                        CommandQueueing;
+  sint32                         BusType;
+  string                         VendorId;
+  string                         ProductId;
+  string                         ProductRevision;
+  string                         SerialNumber;
+  string                         DiskSignature;
   WT_VPDIdentificationDescriptor DeviceIdDescriptor[];
 };
 ```
@@ -207,7 +212,7 @@ Vendor identifier.
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
@@ -221,9 +226,9 @@ Vendor identifier.
 [**VDS\_STORAGE\_DEVICE\_ID\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa383434)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'This association indicates that a subclass of logical device (for example a storage volume) is connected through a specific protocol controller.'
-ms.assetid: '93025450-BE6C-48DC-913C-2050674DF81A'
-title: 'Msvm\_ProtocolControllerForUnit class'
+Description: This association indicates that a subclass of logical device (for example a storage volume) is connected through a specific protocol controller.
+ms.assetid: 93025450-BE6C-48DC-913C-2050674DF81A
+title: Msvm\_ProtocolControllerForUnit class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ProtocolControllerForUnit class
@@ -17,11 +22,11 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 class Msvm_ProtocolControllerForUnit : CIM_ProtocolControllerForUnit
 {
   CIM_ProtocolController REF Antecedent;
-  CIM_LogicalDevice      REF Dependent;
-  string                     DeviceNumber;
-  uint16                     AccessPriority;
-  uint16                     AccessState;
-  uint16                     DeviceAccess;
+  CIM_LogicalDevice      REF Dependent;
+  string                     DeviceNumber;
+  uint16                     AccessPriority;
+  uint16                     AccessState;
+  uint16                     DeviceAccess;
 };
 ```
 
@@ -124,7 +129,7 @@ The access rights granted to the device through this controller. This class is i
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -151,8 +156,8 @@ Access to the **Msvm\_ProtocolControllerForUnit** class might be restricted by U
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -172,9 +177,9 @@ Access to the **Msvm\_ProtocolControllerForUnit** class might be restricted by U
 [Storage Classes](storage-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

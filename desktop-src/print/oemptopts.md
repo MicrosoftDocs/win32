@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'A63C115D-7215-422A-B4F9-C88820FC8168'
+---
+Description: .
+ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 title: OEMPTOPTS enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMPTOPTS enumeration

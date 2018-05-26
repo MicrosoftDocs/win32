@@ -1,8 +1,9 @@
 ---
 title: glGetTexGendv function
 description: The glGetTexGendv, glGetTexGenfv, and glGetTexGeniv functions return texture coordinate generation parameters.
-ms.assetid: 'bce26bde-071b-476e-9e33-c43a8c997cdd'
-keywords: ["glGetTexGendv function OpenGL"]
+ms.assetid: bce26bde-071b-476e-9e33-c43a8c997cdd
+keywords:
+- glGetTexGendv function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glGetTexGendv function
@@ -22,9 +28,9 @@ The **glGetTexGendv**, [**glGetTexGenfv**](glgettexgenfv.md), and [**glGetTexGen
 
 ```C++
 void WINAPI glGetTexGendv(
-   GLenum   coord,
-   GLenum   pname,
-   GLdouble *params
+   GLenum   coord,
+   GLenum   pname,
+   GLdouble *params
 );
 ```
 
@@ -56,7 +62,7 @@ The symbolic name of the value(s) to be returned. Must be either GL\_TEXTURE\_GE
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -109,8 +115,8 @@ If an error is generated, no change is made to the contents of *params*.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -130,9 +136,9 @@ If an error is generated, no change is made to the contents of *params*.
 [**glTexGen**](gltexgen-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Using Windows Media With DirectShow Editing Services
-ms.assetid: '26a88197-ec80-4443-9d50-e11df40dd1eb'
+ms.assetid: 26a88197-ec80-4443-9d50-e11df40dd1eb
 title: Using Windows Media With DirectShow Editing Services
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Windows Media With DirectShow Editing Services

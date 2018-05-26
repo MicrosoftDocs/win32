@@ -1,7 +1,12 @@
-﻿---
-Description: 'The CreateRasterize method creates an XPS rasterizer object that can handle high precision colors.'
-ms.assetid: '00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3'
-title: 'IXPSRasterizationFactory1::CreateRasterizer method'
+---
+Description: The CreateRasterize method creates an XPS rasterizer object that can handle high precision colors.
+ms.assetid: 00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3
+title: IXPSRasterizationFactory1CreateRasterizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXPSRasterizationFactory1::CreateRasterizer method

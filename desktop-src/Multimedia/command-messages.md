@@ -1,15 +1,23 @@
 ---
 title: Command Messages
 description: Command Messages
-ms.assetid: '29b40f35-d390-49c3-99bd-c648c7c50504'
-keywords: ["MCI command messages,about", "MCI command messages,syntax", "mciSendCommand function"]
+ms.assetid: 29b40f35-d390-49c3-99bd-c648c7c50504
+keywords:
+- MCI command messages,about
+- MCI command messages,syntax
+- mciSendCommand function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Command Messages
 
-The command-message interface is designed to be used by applications requiring a C-language interface to control multimedia devices. It uses a message-passing paradigm to communicate with MCI devices. You can send a command by using the [**mciSendCommand**](mcisendcommand.md) function.
+The command-message interface is designed to be used by applications requiring a C-language interface to control multimedia devices. It uses a message-passing paradigm to communicate with MCI devices. You can send a command by using the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function.
 
-The **mciSendCommand** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](mcigeterrorstring.md) function to get a text description of the error.
+The **mciSendCommand** function returns zero if successful. If the function fails, the low-order word of the return value contains an error code. You can pass this error code to the [**mciGetErrorString**](/windows/win32/Mmsystem/?branch=master) function to get a text description of the error.
 
 ## Syntax of Command Messages
 
@@ -19,7 +27,7 @@ MCI command messages consist of the following elements:
 -   A structure containing parameters for the command
 -   A set of flags specifying options for the command and validating fields in the parameter block
 
-The following example uses the [**mciSendCommand**](mcisendcommand.md) function to send the [**MCI\_ PLAY**](mci-play.md) command to the device identified by a device identifier.
+The following example uses the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function to send the [**MCI\_ PLAY**](mci-play.md) command to the device identified by a device identifier.
 
 
 ```C++

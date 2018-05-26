@@ -1,7 +1,12 @@
 ---
 Description: DMO Basics
-ms.assetid: 'eaf453d2-69f8-432a-8a58-1ed70778f182'
+ms.assetid: eaf453d2-69f8-432a-8a58-1ed70778f182
 title: DMO Basics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DMO Basics

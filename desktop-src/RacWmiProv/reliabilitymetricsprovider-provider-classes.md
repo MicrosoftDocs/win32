@@ -1,7 +1,12 @@
 ---
 title: ReliabilityMetricsProvider Provider
 description: This section provides reference information for the \ 0034;ReliabilityMetricsProvider \ 0034; provider that provides reliability analysis data and is implemented in RacWmiProv.dll.
-ms.assetid: '14F083D3-3E8F-419F-B933-4ED1D73F63DF'
+ms.assetid: 14F083D3-3E8F-419F-B933-4ED1D73F63DF
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ReliabilityMetricsProvider Provider
@@ -19,11 +24,11 @@ This section provides reference information for the "ReliabilityMetricsProvider"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

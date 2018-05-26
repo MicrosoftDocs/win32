@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an enumerator object that will read a .x file.'
-ms.assetid: '86d05eab-601c-4beb-9dbe-c23fa524871c'
-title: 'ID3DXFile::CreateEnumObject method'
+---
+Description: Creates an enumerator object that will read a .x file.
+ms.assetid: 86d05eab-601c-4beb-9dbe-c23fa524871c
+title: ID3DXFileCreateEnumObject method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFile::CreateEnumObject method

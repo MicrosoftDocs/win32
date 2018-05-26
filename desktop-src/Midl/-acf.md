@@ -2,13 +2,19 @@
 title: /acf switch
 description: The /acf switch allows the user to supply an explicit ACF file name. The switch also allows the use of different interface names in the IDL and ACF files.
 ms.assetid: 8f0833ec-1dbc-4c8a-af7e-3de42169af8d
-keywords: ["/acf switch MIDL"]
+keywords:
+- /acf switch MIDL
 topic_type:
 - apiref
 api_name:
 - /acf
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /acf switch

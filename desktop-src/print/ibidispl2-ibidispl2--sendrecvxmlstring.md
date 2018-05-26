@@ -1,7 +1,12 @@
-﻿---
-Description: 'The SendRecvXMLString method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the Bidirectional Communication Schemas.'
-ms.assetid: '7d61402e-e248-4770-a828-9c266e528115'
-title: 'IBidiSpl2::SendRecvXMLString method'
+---
+Description: The SendRecvXMLString method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the Bidirectional Communication Schemas.
+ms.assetid: 7d61402e-e248-4770-a828-9c266e528115
+title: IBidiSpl2SendRecvXMLString method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiSpl2::SendRecvXMLString method

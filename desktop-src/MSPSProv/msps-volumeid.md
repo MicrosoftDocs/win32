@@ -4,13 +4,15 @@ description: This class contains values used to identify a specific template dis
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '60e358ce-b9e3-4d2c-9b12-53b1ef2711cd'
-ms.prod: 'windows-server-dev'
+ms.assetid: 60e358ce-b9e3-4d2c-9b12-53b1ef2711cd
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Msps_VolumeID class", "Msps_VolumeID class, described"]
+keywords:
+- Msps_VolumeID class
+- Msps_VolumeID class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - MSPSProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msps\_VolumeID class
@@ -38,7 +43,7 @@ class Msps_VolumeID
 {
   string VolumeID;
   string Version;
-  uint8  Certificate[];
+  uint8  Certificate[];
 };
 ```
 
@@ -100,7 +105,7 @@ Name of the template disk volume.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>MSPSProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSProv.dll</dt> </dl> |
@@ -114,9 +119,9 @@ Name of the template disk volume.
 [Shielded VM Provisioning WMI Provider](shielded-vm-provisioning-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The StartOperation method starts the operation of a filter. The filter reads, processes, and writes data in this method.'
-ms.assetid: '87139670-9b51-4ced-9624-2ec9f4726a84'
-title: 'IPrintPipelineFilter::StartOperation method'
+---
+Description: The StartOperation method starts the operation of a filter. The filter reads, processes, and writes data in this method.
+ms.assetid: 87139670-9b51-4ced-9624-2ec9f4726a84
+title: IPrintPipelineFilterStartOperation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintPipelineFilter::StartOperation method

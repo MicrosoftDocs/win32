@@ -1,7 +1,12 @@
 ---
-Description: 'The userid attribute specifies an application-defined identifier for an object.'
-ms.assetid: '37d9d1c6-c67d-493f-9660-bac5a47ac081'
+Description: The userid attribute specifies an application-defined identifier for an object.
+ms.assetid: 37d9d1c6-c67d-493f-9660-bac5a47ac081
 title: userid Attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # userid Attribute

@@ -4,11 +4,17 @@ description: The IPv6 Address resource type is used to manage Internet Protocol 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1f91dc67-f3c9-4345-9710-addab2ab1a4d'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 1f91dc67-f3c9-4345-9710-addab2ab1a4d
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["resource types Failover Cluster ,IPv6 Address", "IPv6 Address resource type Failover Cluster", "IPv6 Address resource type Failover Cluster ,resources"]
+keywords:
+- resource types Failover Cluster ,IPv6 Address
+- IPv6 Address resource type Failover Cluster
+- IPv6 Address resource type Failover Cluster ,resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IPv6 Address

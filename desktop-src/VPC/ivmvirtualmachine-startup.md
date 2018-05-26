@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualMachine Startup method
 description: Starts the virtual machine from either the uninitialized or saved state.
-ms.assetid: '82f9b6f1-99b1-4402-93f5-b4aa3520a505'
-keywords: ["Startup method Virtual PC", "Startup method Virtual PC , IVMVirtualMachine interface", "IVMVirtualMachine interface Virtual PC , Startup method"]
+ms.assetid: 82f9b6f1-99b1-4402-93f5-b4aa3520a505
+keywords:
+- Startup method Virtual PC
+- Startup method Virtual PC , IVMVirtualMachine interface
+- IVMVirtualMachine interface Virtual PC , Startup method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualMachine::Startup method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Starts the virtual machine from either the uninitialized or saved state.
 
@@ -24,7 +32,7 @@ Starts the virtual machine from either the uninitialized or saved state.
 
 ```C++
 HRESULT Startup(
-  [out, retval] IVMTask **startupTask
+  [out, retval] IVMTask **startupTask
 );
 ```
 
@@ -61,7 +69,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,7 +89,7 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -89,9 +97,9 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMVirtualMachine is defined as f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
@@ -105,9 +113,9 @@ The following values can be returned through the [**Error**](ivmtask-error.md) p
 [**IVMVirtualMachine**](ivmvirtualmachine.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

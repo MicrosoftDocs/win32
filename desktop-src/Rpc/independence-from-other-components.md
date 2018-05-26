@@ -1,8 +1,14 @@
 ---
 title: Independence From Other Components
 description: Extended error data is useful even when the server or application through which the chain passed does not recognize extended error data, or does not take advantage of it. Recommended approaches for such situations are provided at the end of this section.
-ms.assetid: '32c52afd-cd79-4df3-bf30-72a17ce22089'
-keywords: ["Independence From Other Components"]
+ms.assetid: 32c52afd-cd79-4df3-bf30-72a17ce22089
+keywords:
+- Independence From Other Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Independence From Other Components

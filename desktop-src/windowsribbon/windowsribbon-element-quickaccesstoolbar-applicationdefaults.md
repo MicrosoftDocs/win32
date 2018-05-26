@@ -1,14 +1,20 @@
 ---
 title: QuickAccessToolbar.ApplicationDefaults property
 description: Represents a container for default Commands in the Quick Access Toolbar (QAT).
-ms.assetid: '8f44d7c0-1a39-4a88-ae01-7d7d1bb6bf7e'
-keywords: ["QuickAccessToolbar.ApplicationDefaults property Windows Ribbon"]
+ms.assetid: 8f44d7c0-1a39-4a88-ae01-7d7d1bb6bf7e
+keywords:
+- QuickAccessToolbar.ApplicationDefaults property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - QuickAccessToolbar.ApplicationDefaults
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QuickAccessToolbar.ApplicationDefaults property
@@ -56,7 +62,7 @@ There are no attributes.
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
-Windows 8 and newer.
+Windows 8 and newer.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -65,7 +71,7 @@ Windows 8 and newer.
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
-Windows 8 and newer.
+Windows 8 and newer.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -74,7 +80,7 @@ Windows 8 and newer.
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
-Windows 8 and newer.
+Windows 8 and newer.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -83,7 +89,7 @@ Windows 8 and newer.
 <td>Must occur at least once.<br/>
 <blockquote>
 [!Note]<br />
-Windows 8 and newer.
+Windows 8 and newer.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -144,8 +150,8 @@ This section of code shows the **QuickAccessToolbar.ApplicationDefaults** contro
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -156,9 +162,9 @@ This section of code shows the **QuickAccessToolbar.ApplicationDefaults** contro
 [Quick Access Toolbar control](windowsribbon-controls-quickaccesstoolbar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

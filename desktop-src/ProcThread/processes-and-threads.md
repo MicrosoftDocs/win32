@@ -1,7 +1,12 @@
 ---
-Description: 'Implement multitasking, schedule priorities, and work with processes, threads, thread pools, job objects, and fibers. Use user-mode scheduling to schedule threads.'
-ms.assetid: '055458cf-9fc7-4a16-be14-1122b3cf0251'
+Description: Implement multitasking, schedule priorities, and work with processes, threads, thread pools, job objects, and fibers. Use user-mode scheduling to schedule threads.
+ms.assetid: 055458cf-9fc7-4a16-be14-1122b3cf0251
 title: Processes and Threads
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processes and Threads

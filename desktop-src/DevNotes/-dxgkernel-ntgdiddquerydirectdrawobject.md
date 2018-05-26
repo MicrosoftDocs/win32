@@ -1,7 +1,12 @@
-﻿---
-Description: 'Queries a previously created kernel-mode representation of a Microsoft DirectDraw object for its capabilities.'
-ms.assetid: 'ec07c7ef-4c57-4ed9-849b-f30692cc3181'
+---
+Description: Queries a previously created kernel-mode representation of a Microsoft DirectDraw object for its capabilities.
+ms.assetid: ec07c7ef-4c57-4ed9-849b-f30692cc3181
 title: NtGdiDdQueryDirectDrawObject function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdQueryDirectDrawObject function
@@ -118,7 +123,7 @@ If successful, this function returns **TRUE**; otherwise it returns **FALSE**.
 
 ## Remarks
 
-A call to this function is designed to be made in a two-step process. In the first step, *puFourCC*, *puvmList* and *puD3dTextureFormats* should be **NULL**, and [**DdQueryDirectDrawObject**](-dxgkernel-ddquerydirectdrawobject.md) will fill in [**DD\_HALINFO**](display.dd_halinfo).**ddCaps**.**dwNumFourCCCodes**, **DD\_HALINFO**.**vmiData**.**dwNumHeaps**, and [**D3DHAL\_GLOBALDRIVERDATA**](d3dstrct_95940eeb-e317-455f-bd8c-0e7d1937197e.xml).**dwNumTextureFormats** with the number of entries that are to be returned. In the second call, the caller should allocate arrays of the indicated size and pass those pointers instead of **NULL** values in the *puFourCC*, *puvmList* and *puD3dTextureFormats* parameters. The arrays will then be populated with appropriate data.
+A call to this function is designed to be made in a two-step process. In the first step, *puFourCC*, *puvmList* and *puD3dTextureFormats* should be **NULL**, and [**DdQueryDirectDrawObject**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject?branch=master) will fill in [**DD\_HALINFO**](display.dd_halinfo).**ddCaps**.**dwNumFourCCCodes**, **DD\_HALINFO**.**vmiData**.**dwNumHeaps**, and [**D3DHAL\_GLOBALDRIVERDATA**](d3dstrct_95940eeb-e317-455f-bd8c-0e7d1937197e.xml).**dwNumTextureFormats** with the number of entries that are to be returned. In the second call, the caller should allocate arrays of the indicated size and pass those pointers instead of **NULL** values in the *puFourCC*, *puvmList* and *puD3dTextureFormats* parameters. The arrays will then be populated with appropriate data.
 
 Applications are advised to use the DirectDraw and [Direct3D](http://msdn.microsoft.com/en-us/library/bb205147(VS.85).aspx) APIs to create and manage graphics device objects. These constructs abstract the device creation process in a simplified and operating-system-independent way.
 
@@ -141,7 +146,7 @@ Applications are advised to use the DirectDraw and [Direct3D](http://msdn.micros
 [Graphics Low Level Client Support](-dxgkernel-low-level-client-support.md)
 </dt> <dt>
 
-[**DdQueryDirectDrawObject**](-dxgkernel-ddquerydirectdrawobject.md)
+[**DdQueryDirectDrawObject**](/windows/win32/Ddrawgdi/nf-ddrawgdi-ddquerydirectdrawobject?branch=master)
 </dt> <dt>
 
 [**NtGdiDdCreateDirectDrawObject**](-dxgkernel-ntgdiddcreatedirectdrawobject.md)

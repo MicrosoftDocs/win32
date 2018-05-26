@@ -1,8 +1,11 @@
 ---
 title: IMessenger FindContact method
 description: Launches the Add a Contact wizard to the screen used for finding a contact based on information supplied as input parameters.
-ms.assetid: '021493f3-88b4-42d2-a2e1-489f332fc709'
-keywords: ["FindContact method Windows Messenger", "FindContact method Windows Messenger , IMessenger interface", "IMessenger interface Windows Messenger , FindContact method"]
+ms.assetid: 021493f3-88b4-42d2-a2e1-489f332fc709
+keywords:
+- FindContact method Windows Messenger
+- FindContact method Windows Messenger , IMessenger interface
+- IMessenger interface Windows Messenger , FindContact method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - Msgsc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMessenger::FindContact method
 
-\[**FindContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**FindContact** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Launches the **Add a Contact** wizard to the screen used for finding a contact based on information supplied as input parameters.
 
@@ -24,12 +32,12 @@ Launches the **Add a Contact** wizard to the screen used for finding a contact b
 
 ```C++
 HRESULT FindContact(
-  [in]           long    hwndParent,
-  [in]           BSTR    bstrFirstName,
-  [in]           BSTR    bstrLastName,
-  [in, optional] VARIANT vbstrCity,
-  [in, optional] VARIANT vbstrState,
-  [in, optional] VARIANT vbstrCountry
+  [in]           long    hwndParent,
+  [in]           BSTR    bstrFirstName,
+  [in]           BSTR    bstrLastName,
+  [in, optional] VARIANT vbstrCity,
+  [in, optional] VARIANT vbstrState,
+  [in, optional] VARIANT vbstrCountry
 );
 ```
 
@@ -149,7 +157,7 @@ For a table of MSGR\_E\_\* constants, see [**MSGRConstants**](im-msgrconstants.m
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>S_FALSE</strong></dt> </dl></td>
@@ -184,7 +192,7 @@ For a table of MSGR\_E\_\* constants, see [**MSGRConstants**](im-msgrconstants.m
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -194,14 +202,14 @@ Entering a blank (empty string) value for the *bstrFirstName* and *bstrLastName*
 
 **Find a Contact** is actually the **Search By Name** screen of the **Add a Contact** wizard. Users can also add a contact with a known e-mail address by clicking the **Back** button, which switches to the **Add a Contact** screen. The **Add a Contact** screen can be displayed initially by calling the [**AddContact**](im-imessenger-addcontact.md) method.
 
-Search results cannot be obtained through an event in the Windows Messenger APIs. Only the user can see results through the UI.
+Search results cannot be obtained through an event in the Windows Messenger APIs. Only the user can see results through the UI.
 
 The actual UI has field size restrictions that do not necessarily match the input limits of this API. For example, the English version of the client restricts the field size to 40 characters. Users can scroll through fields that were populated through the API to be longer than 40 characters in the English client, but cannot enter them using the UI. The API limit is set to a higher value than the UI to allow the use of double-byte character strings (DBCS).
 
 > [!Note]  
 > This method is not available for scripting languages.
 
- 
+ 
 
 ## Requirements
 
@@ -209,17 +217,17 @@ The actual UI has field size restrictions that do not necessarily match the inpu
 
 |                                  |                                                                                       |
 |----------------------------------|---------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                 |
-| End of server support<br/> | Windows Server 2003<br/>                                                        |
+| End of client support<br/> | Windows XP<br/>                                                                 |
+| End of server support<br/> | Windows Server 2003<br/>                                                        |
 | Header<br/>                | <dl> <dt>Msgrua.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Msgrua.idl</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Msgsc.dll</dt> </dl>  |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: onmousedown
 description: The onmousedown event handler handles an event that occurs when the user clicks a mouse button.
-ms.assetid: '975231e3-5098-45ca-b63b-eaf27d40578d'
-keywords: ["onmousedown Windows Media Player"]
+ms.assetid: 975231e3-5098-45ca-b63b-eaf27d40578d
+keywords:
+- onmousedown Windows Media Player
 topic_type:
 - apiref
 api_name:
 - onmousedown
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # onmousedown
@@ -40,9 +46,9 @@ This event handler is not applicable to the **PLAYLIST** element, the **VIDEO** 
 [**Ambient Event Handlers**](ambient-event-handlers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

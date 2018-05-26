@@ -4,17 +4,21 @@ description: A case-sensitive string that contains characters from the printable
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c2c1685f-d03f-4436-8240-a97c8ce0f571'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c2c1685f-d03f-4436-8240-a97c8ce0f571
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["String(Printable) syntax AD Schema"]
+keywords:
+- String(Printable) syntax AD Schema
 topic_type:
 - apiref
 api_name:
 - String(Printable)
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # String(Printable) syntax

@@ -1,7 +1,12 @@
-﻿---
-Description: 'If the Trusted Platform Module (TPM) is available, this method secures the volume''s encryption key enhanced by an external key.'
-ms.assetid: '58bc2de7-645f-4049-949c-975062f8c8ce'
-title: 'ProtectKeyWithTPMAndStartupKey method of the Win32\_EncryptableVolume class'
+---
+Description: If the Trusted Platform Module (TPM) is available, this method secures the volumes encryption key enhanced by an external key.
+ms.assetid: 58bc2de7-645f-4049-949c-975062f8c8ce
+title: ProtectKeyWithTPMAndStartupKey method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProtectKeyWithTPMAndStartupKey method of the Win32\_EncryptableVolume class

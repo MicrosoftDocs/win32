@@ -1,7 +1,12 @@
-﻿---
+---
 Description: OEMGetInfo function
-ms.assetid: '69df63ac-2468-49d3-87ac-1930b718dddf'
+ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 title: OEMGetInfo function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMGetInfo function

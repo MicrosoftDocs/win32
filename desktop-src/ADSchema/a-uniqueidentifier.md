@@ -4,17 +4,21 @@ description: The uniqueIdentifier attribute type specifies a \ 0034;unique ident
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '6cc7266b-51f9-4510-bc54-961936dfdaa8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 6cc7266b-51f9-4510-bc54-961936dfdaa8
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["uniqueIdentifier attribute AD Schema"]
+keywords:
+- uniqueIdentifier attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - uniqueIdentifier
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # uniqueIdentifier attribute

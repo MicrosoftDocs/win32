@@ -1,8 +1,14 @@
 ---
 title: ARIA Presentation Table Error
 description: ARIA Presentation Table Error
-ms.assetid: '3D5AE911-78E5-4C40-B77B-604E65839F63'
-keywords: ["AriaLayoutTableErrorId"]
+ms.assetid: 3D5AE911-78E5-4C40-B77B-604E65839F63
+keywords:
+- AriaLayoutTableErrorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ARIA Presentation Table Error

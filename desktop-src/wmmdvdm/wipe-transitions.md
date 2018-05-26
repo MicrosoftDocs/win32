@@ -1,8 +1,19 @@
 ---
 title: Wipe Transitions
 description: Wipe Transitions
-ms.assetid: '22307111-ffaa-4f85-9983-ba937411782d'
-keywords: ["Windows Movie Maker,wipe transitions", "Movie Maker,wipe transitions", "programming reference,Windows Movie Maker transitions", "reference for Windows Movie Maker,transitions", "wipe transitions", "transitions,wipe"]
+ms.assetid: 22307111-ffaa-4f85-9983-ba937411782d
+keywords:
+- Windows Movie Maker,wipe transitions
+- Movie Maker,wipe transitions
+- programming reference,Windows Movie Maker transitions
+- reference for Windows Movie Maker,transitions
+- wipe transitions
+- transitions,wipe
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Wipe Transitions

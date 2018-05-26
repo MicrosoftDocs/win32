@@ -1,7 +1,12 @@
 ---
-Description: 'Starts a job to create a root ResourcePool. The ResourcePool will be scoped to the same System as this Service.'
-ms.assetid: '357880dc-125a-452c-89f5-44cd17684436'
-title: 'CreateResourcePool method of the CIM\_ResourcePoolConfigurationService class'
+Description: Starts a job to create a root ResourcePool. The ResourcePool will be scoped to the same System as this Service.
+ms.assetid: 357880dc-125a-452c-89f5-44cd17684436
+title: CreateResourcePool method of the CIM\_ResourcePoolConfigurationService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateResourcePool method of the CIM\_ResourcePoolConfigurationService class
@@ -13,11 +18,11 @@ Starts a job to create a root ResourcePool. The ResourcePool will be scoped to t
 
 ```mof
 uint32 CreateResourcePool(
-  [in]  string                ElementName,
-  [in]  CIM_LogicalDevice REF HostResources[],
-  [in]  string                ResourceType,
-  [out] CIM_ResourcePool  REF Pool,
-  [out] CIM_ConcreteJob   REF Job
+  [in]  string                ElementName,
+  [in]  CIM_LogicalDevice REF HostResources[],
+  [in]  string                ResourceType,
+  [out] CIM_ResourcePool  REF Pool,
+  [out] CIM_ConcreteJob   REF Job
 );
 ```
 
@@ -113,8 +118,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -128,9 +133,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_ResourcePoolConfigurationService**](cim-resourcepoolconfigurationservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

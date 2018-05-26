@@ -1,8 +1,19 @@
 ---
 title: Background Intelligent Transfer Service
 description: Background Intelligent Transfer Service (BITS) transfers files (downloads or uploads) between a client and server and provides progress information related to the transfers.
-ms.assetid: 'ce91f87c-8273-4a1c-99e0-ef55e2a50334'
-keywords: ["Background Intelligent Transfer Service", "Background Intelligent Transfer Service, start page", "BITS (See Background Intelligent Transfer Service)", "downloading files BITS", "background file transfer BITS", "uploading files BITS"]
+ms.assetid: ce91f87c-8273-4a1c-99e0-ef55e2a50334
+keywords:
+- Background Intelligent Transfer Service
+- Background Intelligent Transfer Service, start page
+- BITS (See Background Intelligent Transfer Service)
+- downloading files BITS
+- background file transfer BITS
+- uploading files BITS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Background Intelligent Transfer Service
@@ -14,7 +25,7 @@ Background Intelligent Transfer Service (BITS) transfers files (downloads or upl
 > [!Note]  
 > BITS is most commonly used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see the knowledge base (KB) article link at the bottom of this page. If you are seeking to download or re-install BITS 4.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
 
- 
+ 
 
 ## Where applicable
 
@@ -30,9 +41,9 @@ BITS is designed for C and C++ developers.
 
 ## Run-time requirements
 
-BITS version 4.0 is included in the Windows 7 and Windows Server 2008 R2 operating systems.
+BITS version 4.0 is included in the Windows 7 and Windows Server 2008 R2 operating systems.
 
-You can also download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
+You can also download BITS 4.0 for Windows Server 2008 with Service Pack 2 (SP2), Windows Vista with Service Pack 1 (SP1), and Windows Vista with Service Pack 2 (SP2). For information about downloading BITS 4.0, see [KB968929](http://go.microsoft.com/fwlink/p/?linkid=151321).
 
 For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
 
@@ -51,7 +62,7 @@ For complete version history, see [What's New](what-s-new.md).
 
 
 
- 
+ 
 
 ## Additional resources
 
@@ -67,11 +78,11 @@ The following are additional resources.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

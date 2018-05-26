@@ -1,7 +1,12 @@
-﻿---
-Description: 'Return information about the placement and orientation of a glyph in a character cell.'
-ms.assetid: '1114b06a-c0f0-4c2a-86ad-2ed72bee4049'
-title: 'ID3DX10Font::GetGlyphData method'
+---
+Description: Return information about the placement and orientation of a glyph in a character cell.
+ms.assetid: 1114b06a-c0f0-4c2a-86ad-2ed72bee4049
+title: ID3DX10FontGetGlyphData method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10Font::GetGlyphData method
@@ -38,7 +43,7 @@ Glyph identifier.
 *ppTexture* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10ShaderResourceView**](id3d10shaderresourceview.md)\*\***
+Type: **[**ID3D10ShaderResourceView**](/windows/win32/d3d10/nn-d3d10-id3d10shaderresourceview?branch=master)\*\***
 
 Address of a pointer to a ID3D10Texture object that contains the glyph.
 

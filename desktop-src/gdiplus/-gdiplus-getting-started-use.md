@@ -1,7 +1,12 @@
 ---
-Description: 'This section shows how to get started using Windows GDI+ in a standard C++ Windows application.'
-ms.assetid: 'c03c5ef1-13f6-4cf5-9395-be90b46aa6bb'
+Description: This section shows how to get started using Windows GDI+ in a standard C++ Windows application.
+ms.assetid: c03c5ef1-13f6-4cf5-9395-be90b46aa6bb
 title: Getting Started
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started

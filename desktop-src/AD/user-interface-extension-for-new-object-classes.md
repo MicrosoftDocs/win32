@@ -4,11 +4,16 @@ description: Active Directory Domain Services and its administrative MMC snap-in
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '38e3b800-20ad-4da8-ad40-4e90838acfb5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 38e3b800-20ad-4da8-ad40-4e90838acfb5
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["User Interface Extension for New Object Classes AD", "Object AD , User Interface Extension for New Object Classes"]
+keywords:
+- User Interface Extension for New Object Classes AD
+- Object AD , User Interface Extension for New Object Classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # User Interface Extension for New Object Classes
@@ -26,7 +31,7 @@ The following table lists attributes can be used to modify how the administrativ
 
 
 
- 
+ 
 
 ## Creating Display Specifiers for New Classes
 
@@ -42,9 +47,9 @@ Certain parts of the UI feature set, such as the menu items and creation wizard 
 
 New attributes can be added to an existing class. New UI components (property pages, menu items, and attribute display names) can be added or the existing UI replaced. It is also possible to design new property pages that expose fewer attributes of a class and to create context menus with fewer actions. For more information, see [Property Pages for Use with Display Specifiers](property-pages-for-use-with-display-specifiers.md), [Context Menus for Use with Display Specifiers](context-menus-for-use-with-display-specifiers.md), and [Class and Attribute Display Names](class-and-attribute-display-names.md).
 
- 
+ 
 
- 
+ 
 
 
 

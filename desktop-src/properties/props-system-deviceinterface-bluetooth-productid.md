@@ -1,7 +1,12 @@
 ---
-Description: 'Bluetooth device product identifier.'
-ms.assetid: '5ed59d0a-31ee-41f0-9243-1ff7ce02cedb'
-title: 'System.DeviceInterface.Bluetooth.ProductId'
+Description: Bluetooth device product identifier.
+ms.assetid: 5ed59d0a-31ee-41f0-9243-1ff7ce02cedb
+title: System.DeviceInterface.Bluetooth.ProductId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Bluetooth.ProductId

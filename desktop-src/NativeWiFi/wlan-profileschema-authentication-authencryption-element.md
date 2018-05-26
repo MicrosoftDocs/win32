@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the authentication method to be used to connect to the wireless LAN.'
-ms.assetid: 'fb6c5cce-05d6-41a2-acf4-9ae2713079dd'
-title: 'authentication (authEncryption) Element'
+---
+Description: Specifies the authentication method to be used to connect to the wireless LAN.
+ms.assetid: fb6c5cce-05d6-41a2-acf4-9ae2713079dd
+title: authentication (authEncryption) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # authentication (authEncryption) Element

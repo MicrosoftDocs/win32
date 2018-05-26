@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) 2.0 hardware device.'
-ms.assetid: 'bc31ad4a-0851-4510-a038-83646ffd5c98'
-title: 'IWiaItem2::GetRootItem method'
+---
+Description: Gets the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) 2.0 hardware device.
+ms.assetid: bc31ad4a-0851-4510-a038-83646ffd5c98
+title: IWiaItem2GetRootItem method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::GetRootItem method

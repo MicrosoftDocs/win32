@@ -1,14 +1,18 @@
 ---
 title: MMC 2.0 Registry Entries
-description: To enable a snap-in to be added to a console file, the snap-in (or the snap-in's setup program) must add the appropriate entries in the MMC registry key (HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MMC).
+description: To enable a snap-in to be added to a console file, the snap-in (or the snap-ins setup program) must add the appropriate entries in the MMC registry key (HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MMC).
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e1db8f4a-5420-4f67-b47b-8f0c3a734a9a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: e1db8f4a-5420-4f67-b47b-8f0c3a734a9a
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["registry entries MMC 2.0"]
+keywords:
+- registry entries MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Registry Entries

@@ -1,7 +1,12 @@
 ---
-Description: 'The AlignDown method truncates a value to a specified alignment boundary.'
-ms.assetid: 'f0efdedb-67ec-49d6-92a8-54485aa04e15'
-title: 'CPullPin.AlignDown method'
+Description: The AlignDown method truncates a value to a specified alignment boundary.
+ms.assetid: f0efdedb-67ec-49d6-92a8-54485aa04e15
+title: CPullPin.AlignDown method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.AlignDown method
@@ -13,8 +18,8 @@ The `AlignDown` method truncates a value to a specified alignment boundary.
 
 ```C++
 LONGLONG AlignDown(
-   LONGLONG ll,
-   LONG     lAlign
+   LONGLONG ll,
+   LONG     lAlign
 );
 ```
 
@@ -60,9 +65,9 @@ Returns the aligned result.
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,16 @@ description: Places the Service in the started state. Deprecated, instead use th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '879992a6-59ed-4386-88c2-8815a29d50e8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 879992a6-59ed-4386-88c2-8815a29d50e8
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StartService method iSCSI Software Target API", "StartService method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class", "MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , StartService method"]
+keywords:
+- StartService method iSCSI Software Target API
+- StartService method iSCSI Software Target API , MSISCSITARGET_iSCSIConfigurationService class
+- MSISCSITARGET_iSCSIConfigurationService class iSCSI Software Target API , StartService method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StartService method of the MSISCSITARGET\_iSCSIConfigurationService class
@@ -78,7 +84,7 @@ Undefined error.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -95,9 +101,9 @@ Undefined error.
 [**CIM\_Service**](https://msdn.microsoft.com/library/aa388442)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

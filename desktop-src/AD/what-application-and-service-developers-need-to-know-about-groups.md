@@ -4,11 +4,16 @@ description: When developing an application or service, you can use groups to de
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '19e189a5-2880-4b45-84c8-e7b542c4fbb6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 19e189a5-2880-4b45-84c8-e7b542c4fbb6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["What Application and Service Developers Need to Know About Groups", "groups AD , information for application and service developers"]
+keywords:
+- What Application and Service Developers Need to Know About Groups
+- groups AD , information for application and service developers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # What Application and Service Developers Need to Know About Groups

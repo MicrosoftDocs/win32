@@ -1,7 +1,12 @@
 ---
-Description: 'The GetI method retrieves the item at the specified position.'
-ms.assetid: 'fc775230-491a-49b6-b631-e7d5b8c82d8c'
-title: 'CBaseList.GetI method'
+Description: The GetI method retrieves the item at the specified position.
+ms.assetid: fc775230-491a-49b6-b631-e7d5b8c82d8c
+title: CBaseList.GetI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.GetI method
@@ -13,7 +18,7 @@ The `GetI` method retrieves the item at the specified position.
 
 ```C++
 void* GetI(
-   POSITION pos
+   POSITION pos
 );
 ```
 
@@ -56,9 +61,9 @@ If *pos* is **NULL**, the method returns **NULL**.
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

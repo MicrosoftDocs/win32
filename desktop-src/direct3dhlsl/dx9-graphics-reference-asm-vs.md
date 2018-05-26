@@ -1,7 +1,12 @@
 ---
 title: Vertex Shaders
 description: Vertex Shaders
-ms.assetid: 'c3fd4645-f488-4824-90f1-cae534190a01'
+ms.assetid: c3fd4645-f488-4824-90f1-cae534190a01
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vertex Shaders

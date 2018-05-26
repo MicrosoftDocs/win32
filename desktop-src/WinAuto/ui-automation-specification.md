@@ -1,7 +1,12 @@
 ---
 title: UI Automation Specification
 description: This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation.
-ms.assetid: '45160767-09b0-4fd1-bd73-bc5ac0e6f75e'
+ms.assetid: 45160767-09b0-4fd1-bd73-bc5ac0e6f75e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Specification
@@ -35,7 +40,7 @@ UI Automation improves on Microsoft Active Accessibility by:
 -   Enabling efficient out-of-process clients, while continuing to allow in-process access.
 -   Exposing more information about the UI in a way that allows clients to be out-of-process.
 -   Coexisting with and leveraging Microsoft Active Accessibility without inheriting its limitations. For more information, see [Microsoft Active Accessibility and UI Automation Compared](microsoft-active-accessibility-and-ui-automation-compared.md).
--   Providing an alternative to [**IAccessible**](iaccessible.md) that is simple to implement.
+-   Providing an alternative to [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) that is simple to implement.
 
 The implementation of the UI Automation Specification in Windows features Component Object Model (COM)-based interfaces and managed interfaces.
 

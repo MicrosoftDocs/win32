@@ -1,7 +1,7 @@
 ---
 title: Word-Breaking Values
 description: Values 0xHHHH1780 to 0xHHHH179F are return values produced during word breaking. The following table gives the word-breaking values in alphabetical order.
-ms.assetid: '85af046e-c809-47bc-9646-bd1584cd8e66'
+ms.assetid: 85af046e-c809-47bc-9646-bd1584cd8e66
 topic_type:
 - apiref
 api_name:
@@ -19,11 +19,16 @@ api_location:
 - Cierror.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Word-Breaking Values
 
-\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
+\[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.\]
 
 Values 0x*HHHH*1780 to 0x*HHHH*179F are return values produced during word breaking. The following table gives the word-breaking values in alphabetical order.
 
@@ -50,17 +55,17 @@ Values 0x*HHHH*1780 to 0x*HHHH*179F are return values produced during word break
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| End of client support<br/>    | Windows 7<br/>                                                                 |
-| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| End of client support<br/>    | Windows 7<br/>                                                                 |
+| End of server support<br/>    | Windows Server 2008 R2<br/>                                                    |
 | Header<br/>                   | <dl> <dt>Cierror.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

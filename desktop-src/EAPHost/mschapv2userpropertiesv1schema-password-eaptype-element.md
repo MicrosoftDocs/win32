@@ -1,14 +1,20 @@
 ---
 title: Password (EapType) Element
 description: Identifies the password of the user or machine being authenticated.
-ms.assetid: 'd3ad95b8-2d98-420f-a680-a83b49ae2992'
-keywords: ["Password element EAPHost"]
+ms.assetid: d3ad95b8-2d98-420f-a680-a83b49ae2992
+keywords:
+- Password element EAPHost
 topic_type:
 - apiref
 api_name:
 - Password
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Password (EapType) Element
@@ -33,8 +39,8 @@ If the **Password (EapType)** element is not present, the password hash is obtai
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -60,9 +66,9 @@ If the **Password (EapType)** element is not present, the password hash is obtai
 [mschapv2userpropertiesv1 Schema](mschapv2userpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

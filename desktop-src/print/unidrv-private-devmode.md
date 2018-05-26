@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UNIDRV\_PRIVATE\_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv''s DEVMODEW structure.'
-ms.assetid: '91b8ba63-5276-43f8-81a6-07afc1a77ced'
-title: 'UNIDRV\_PRIVATE\_DEVMODE structure'
+---
+Description: The UNIDRV\_PRIVATE\_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrvs DEVMODEW structure.
+ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
+title: UNIDRV\_PRIVATE\_DEVMODE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UNIDRV\_PRIVATE\_DEVMODE structure

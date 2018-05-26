@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the width of the geometric aperture, in pixels.'
-ms.assetid: '90b37ccf-7530-47bd-9b8e-721022616e45'
-title: 'MFPKEY\_RESIZE\_GEOMAPWIDTH Property'
+---
+Description: Specifies the width of the geometric aperture, in pixels.
+ms.assetid: 90b37ccf-7530-47bd-9b8e-721022616e45
+title: MFPKEY\_RESIZE\_GEOMAPWIDTH Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_RESIZE\_GEOMAPWIDTH Property

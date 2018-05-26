@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '01cdf99b-1c63-424b-b160-ee1ac5557ae7'
-title: 'System.RecordedTV.DateContentExpires'
+Description: .
+ms.assetid: 01cdf99b-1c63-424b-b160-ee1ac5557ae7
+title: System.RecordedTV.DateContentExpires
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.DateContentExpires

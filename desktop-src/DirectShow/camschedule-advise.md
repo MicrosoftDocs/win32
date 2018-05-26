@@ -1,7 +1,12 @@
 ---
-Description: 'The Advise method dispatches all requests that are scheduled for a specified time or earlier.'
-ms.assetid: '09ea84b7-517a-4ea6-9e03-0d9cd8f72e1f'
-title: 'CAMSchedule.Advise method'
+Description: The Advise method dispatches all requests that are scheduled for a specified time or earlier.
+ms.assetid: 09ea84b7-517a-4ea6-9e03-0d9cd8f72e1f
+title: CAMSchedule.Advise method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CAMSchedule.Advise method
@@ -13,7 +18,7 @@ The `Advise` method dispatches all requests that are scheduled for a specified t
 
 ```C++
 REFERENCE_TIME Advise(
-  [ref] const REFERENCE_TIME &amp;rtTime
+  [ref] const REFERENCE_TIME &amp;rtTime
 );
 ```
 
@@ -58,9 +63,9 @@ To dispatch an advise request, the scheduler signals the event or semaphore give
 [**CAMSchedule Class**](camschedule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

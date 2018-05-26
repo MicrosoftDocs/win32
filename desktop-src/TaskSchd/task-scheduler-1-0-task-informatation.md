@@ -1,7 +1,12 @@
 ---
 title: Task Scheduler 1.0 Task Information
-description: The following topics provide information on tasks that are developed using Task Scheduler 1.0.Note � For a Windows Server 2003, Windows XP, or Windows 2000 computer to create, monitor, or control tasks on a Windows Vista computer, certain operations must be completed on the Windows Vista computer. For more information, see Tasks.�
-ms.assetid: '310ad39a-35cd-452c-bb41-dd9eb84b1813'
+description: The following topics provide information on tasks that are developed using Task Scheduler 1.0.Note   For a Windows Server 2003, Windows XP, or Windows 2000 computer to create, monitor, or control tasks on a Windows Vista computer, certain operations must be completed on the Windows Vista computer. For more information, see Tasks.
+ms.assetid: 310ad39a-35cd-452c-bb41-dd9eb84b1813
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Task Scheduler 1.0 Task Information

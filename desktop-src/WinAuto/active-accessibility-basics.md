@@ -1,7 +1,12 @@
 ---
 title: Active Accessibility Basics
 description: This section addresses the main feature areas of Microsoft Active Accessibility.
-ms.assetid: '3f19df8c-ed06-4cd5-a834-b879da0da6d2'
+ms.assetid: 3f19df8c-ed06-4cd5-a834-b879da0da6d2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Active Accessibility Basics

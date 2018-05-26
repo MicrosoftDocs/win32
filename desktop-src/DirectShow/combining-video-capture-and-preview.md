@@ -1,12 +1,17 @@
 ---
 Description: Combining Video Capture and Preview
-ms.assetid: 'bffc1900-be05-4d7e-ab8d-3177365aeb7a'
+ms.assetid: bffc1900-be05-4d7e-ab8d-3177365aeb7a
 title: Combining Video Capture and Preview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Combining Video Capture and Preview
 
-The previous sections describe how to capture video to various file formats. The section [Previewing Video](previewing-video.md) describes how to build a live preview graph. However, many applications must do both at once. To build a combined preview and file-writing graph, simply make two calls to [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md):
+The previous sections describe how to capture video to various file formats. The section [Previewing Video](previewing-video.md) describes how to build a live preview graph. However, many applications must do both at once. To build a combined preview and file-writing graph, simply make two calls to [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master):
 
 
 ```C++
@@ -23,7 +28,7 @@ hr = pBuild->RenderStream(&amp;PIN_CATEGORY_CAPTURE, &amp;MEDIATYPE_Video, pCap,
 
 In this code, the Capture Graph Builder is hiding some details:
 
--   If the capture filter has a preview pin or video port pin, plus a capture pin, the [**RenderStream**](icapturegraphbuilder2-renderstream.md) method simply renders both pins, as shown in the following illustration.
+-   If the capture filter has a preview pin or video port pin, plus a capture pin, the [**RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method simply renders both pins, as shown in the following illustration.
 
     ![capture and preview graph](images/vidcap04.png)
 
@@ -48,7 +53,7 @@ Any of these events might interrupt the capture session, possibly causing data l
 
 Two possible solutions to this problem are the following:
 
--   Do not include a preview stream. However, be aware that the [**ICaptureGraphBuilder2::RenderStream**](icapturegraphbuilder2-renderstream.md) method automatically adds a preview window when the capture device has a video port pin. See [Video Port Pins in File Capture](video-port-pins-in-file-capture.md).
+-   Do not include a preview stream. However, be aware that the [**ICaptureGraphBuilder2::RenderStream**](/windows/win32/Strmif/nf-strmif-icapturegraphbuilder2-renderstream?branch=master) method automatically adds a preview window when the capture device has a video port pin. See [Video Port Pins in File Capture](video-port-pins-in-file-capture.md).
 -   Use the Stream Buffer Engine to send the preview stream to a graph in another process.
 
 ## Related topics

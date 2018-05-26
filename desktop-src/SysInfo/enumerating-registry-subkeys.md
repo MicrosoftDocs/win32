@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the RegQueryInfoKey, RegEnumKeyEx, and RegEnumValue functions to enumerate the subkeys of the specified key.'
-ms.assetid: '3730180a-52bc-4382-83ca-39f162273ba5'
+Description: The following example uses the RegQueryInfoKey, RegEnumKeyEx, and RegEnumValue functions to enumerate the subkeys of the specified key.
+ms.assetid: 3730180a-52bc-4382-83ca-39f162273ba5
 title: Enumerating Registry Subkeys
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Registry Subkeys
 
-The following example uses the [**RegQueryInfoKey**](regqueryinfokey.md), [**RegEnumKeyEx**](regenumkeyex.md), and [**RegEnumValue**](regenumvalue.md) functions to enumerate the subkeys of the specified key. The hKey parameter passed to each function is a handle to an open key. This key must be opened before the function call and closed afterward.
+The following example uses the [**RegQueryInfoKey**](/windows/win32/Winreg/nf-winreg-regqueryinfokeya?branch=master), [**RegEnumKeyEx**](/windows/win32/Winreg/nf-winreg-regenumkeyexa?branch=master), and [**RegEnumValue**](/windows/win32/Winreg/nf-winreg-regenumvaluea?branch=master) functions to enumerate the subkeys of the specified key. The hKey parameter passed to each function is a handle to an open key. This key must be opened before the function call and closed afterward.
 
 
 ```C++

@@ -1,14 +1,20 @@
 ---
 title: CHARACTERISTICS statement
 description: Defines information about a resource that can be used by tools that read and write resource-definition files.
-ms.assetid: '07834b02-a36e-40cc-8907-bff6631842f3'
-keywords: ["CHARACTERISTICS statement Menus and Other Resources"]
+ms.assetid: 07834b02-a36e-40cc-8907-bff6631842f3
+keywords:
+- CHARACTERISTICS statement Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - CHARACTERISTICS
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CHARACTERISTICS statement

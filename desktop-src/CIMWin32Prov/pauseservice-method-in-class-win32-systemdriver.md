@@ -1,15 +1,18 @@
 ---
-Description: 'Attempts to place the service managed by the logical system driver in the paused state.'
+Description: Attempts to place the service managed by the logical system driver in the paused state.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'f5e960c1-868b-4b7b-9ea5-0fb8a9cfbafa'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: f5e960c1-868b-4b7b-9ea5-0fb8a9cfbafa
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'PauseService method of the Win32\_SystemDriver class'
+title: PauseService method of the Win32\_SystemDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # PauseService method of the Win32\_SystemDriver class
@@ -232,8 +235,8 @@ $Return = $usbPrintDriver.PauseService()
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -250,9 +253,9 @@ $Return = $usbPrintDriver.PauseService()
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

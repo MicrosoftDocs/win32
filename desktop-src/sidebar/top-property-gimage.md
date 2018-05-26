@@ -1,8 +1,11 @@
 ---
 title: image.top property
 description: Gets or sets the number of pixels from the top edge of the gadget to position the g image element.
-ms.assetid: '1126a31c-9b93-4b66-b35b-bd696460f10c'
-keywords: ["top property Windows Sidebar", "top property Windows Sidebar , image object", "image object Windows Sidebar , top property"]
+ms.assetid: 1126a31c-9b93-4b66-b35b-bd696460f10c
+keywords:
+- top property Windows Sidebar
+- top property Windows Sidebar , image object
+- image object Windows Sidebar , top property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # image.top property
@@ -40,7 +48,7 @@ An **Integer** that specifies or receives the position, in pixels, of the target
 > \[!Caution\]  
 > Other than [**g:background**](background-element.md), avoid images that render to the absolute edges of a gadget. In high-DPI, rounding errors can cause a magenta fringe around the border of the gadget.
 
- 
+ 
 
 This value overrides any positioning declared previously.
 
@@ -63,10 +71,10 @@ imgTop.top = 50;
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
@@ -88,9 +96,9 @@ imgTop.top = 50;
 [**text**](gtext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

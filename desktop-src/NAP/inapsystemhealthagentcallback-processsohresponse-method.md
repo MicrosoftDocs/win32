@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentCallback ProcessSoHResponse method
 description: Is called when the NapAgent receives an SoHResponse destined for this health agent.
-ms.assetid: '860b1012-7df8-456f-8f21-eb0e1abd2b3b'
-keywords: ["ProcessSoHResponse method NAP", "ProcessSoHResponse method NAP , INapSystemHealthAgentCallback interface", "INapSystemHealthAgentCallback interface NAP , ProcessSoHResponse method"]
+ms.assetid: 860b1012-7df8-456f-8f21-eb0e1abd2b3b
+keywords:
+- ProcessSoHResponse method NAP
+- ProcessSoHResponse method NAP , INapSystemHealthAgentCallback interface
+- INapSystemHealthAgentCallback interface NAP , ProcessSoHResponse method
 topic_type:
 - apiref
 api_name:
@@ -11,23 +14,28 @@ api_location:
 - NapSystemHealthAgent.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentCallback::ProcessSoHResponse method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
-The **INapSystemHealthAgentCallback::ProcessSoHResponse** method is called when the NapAgent receives an [**SoHResponse**](soh-struct.md) destined for this health agent.
+The **INapSystemHealthAgentCallback::ProcessSoHResponse** method is called when the NapAgent receives an [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) destined for this health agent.
 
 ## Syntax
 
 
 ```C++
 HRESULT ProcessSoHResponse(
-  [in] INapSystemHealthAgentRequest *request
+  [in] INapSystemHealthAgentRequest *request
 );
 ```
 
@@ -57,13 +65,13 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 This callback method is declared by the NAP system and is to be implemented by the SHA writer.
 
-When the NapAgent receives an [**SoHResponse**](soh-struct.md) destined for this health agent, it invokes this method. The health agent must query the SoHResponse from the request object. It must not hold references to the request object once this call has completed.
+When the NapAgent receives an [**SoHResponse**](/windows/win32/NapTypes/ns-naptypes-tagsoh?branch=master) destined for this health agent, it invokes this method. The health agent must query the SoHResponse from the request object. It must not hold references to the request object once this call has completed.
 
 The **INapSystemHealthAgentCallback::ProcessSoHResponse** method must not block. If any fix-up processing is required, any implementation of **ProcessSoHResponse** must start a new thread to perform fix-up processing. The NapAgent must call [**INapSystemHealthAgentCallBack::GetFixupInfo**](inapsystemhealthagentcallback-getfixupinfo-method.md) to determine the fix-up status of the SHA.
 
@@ -75,8 +83,8 @@ This method must return **NAP\_E\_INVALID\_PACKET** if the response is not in th
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 
@@ -89,9 +97,9 @@ This method must return **NAP\_E\_INVALID\_PACKET** if the response is not in th
 [**INapSystemHealthAgentCallback**](inapsystemhealthagentcallback.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

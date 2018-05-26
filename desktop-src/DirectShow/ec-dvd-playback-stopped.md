@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates that DVD playback has been stopped. This event is sent when a title or chapter completes and the DVD Navigator does not find any other branching instruction for subsequent playback. The event is not sent when the application stops playback.'
-ms.assetid: 'c8617307-d70e-48af-8e85-69105595aa10'
-title: 'EC\_DVD\_PLAYBACK\_STOPPED'
+Description: Indicates that DVD playback has been stopped. This event is sent when a title or chapter completes and the DVD Navigator does not find any other branching instruction for subsequent playback. The event is not sent when the application stops playback.
+ms.assetid: c8617307-d70e-48af-8e85-69105595aa10
+title: EC\_DVD\_PLAYBACK\_STOPPED
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_DVD\_PLAYBACK\_STOPPED
@@ -15,7 +20,7 @@ Indicates that DVD playback has been stopped. This event is sent when a title or
 <span id="lParam1"></span><span id="lparam1"></span><span id="LPARAM1"></span>*lParam1*
 </dt> <dd>
 
-A member of the [**DVD\_PB\_STOPPED**](dvd-pb-stopped.md) enumeration, indicating why playback stopped.
+A member of the [**DVD\_PB\_STOPPED**](/windows/win32/dvdevcod/ne-dvdevcod-_tagdvd_pb_stopped?branch=master) enumeration, indicating why playback stopped.
 
 </dd> <dt>
 
@@ -53,9 +58,9 @@ This event is raised in all domains.
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

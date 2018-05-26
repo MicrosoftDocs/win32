@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicenseManagement CreateLicenseEnumeration method
 description: The CreateLicenseEnumeration method creates a license enumerator object with which you can get information about licenses in the local license store.
-ms.assetid: '48da1ef4-89bc-4cba-b5c9-0e202eb2986f'
-keywords: ["CreateLicenseEnumeration method windows Media Format", "CreateLicenseEnumeration method windows Media Format , IWMDRMLicenseManagement interface", "IWMDRMLicenseManagement interface windows Media Format , CreateLicenseEnumeration method"]
+ms.assetid: 48da1ef4-89bc-4cba-b5c9-0e202eb2986f
+keywords:
+- CreateLicenseEnumeration method windows Media Format
+- CreateLicenseEnumeration method windows Media Format , IWMDRMLicenseManagement interface
+- IWMDRMLicenseManagement interface windows Media Format , CreateLicenseEnumeration method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicenseManagement::CreateLicenseEnumeration method
@@ -23,8 +31,8 @@ The **CreateLicenseEnumeration** method creates a license enumerator object with
 
 ```C++
 HRESULT CreateLicenseEnumeration(
-  [in]  WMDRM_LICENSE_FILTER *pLicenseFilter,
-  [out] IWMDRMLicense        **pEnumerator
+  [in]  WMDRM_LICENSE_FILTER *pLicenseFilter,
+  [out] IWMDRMLicense        **pEnumerator
 );
 ```
 
@@ -61,7 +69,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -88,9 +96,9 @@ None.
 [**IWMDRMLicenseManagement Interface**](iwmdrmlicensemanagement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

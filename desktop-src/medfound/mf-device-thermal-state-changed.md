@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents an event that signals a thermal state change in the device.'
-ms.assetid: '7F656E64-CE72-4DF8-9094-1EBBAE3A81E5'
-title: 'MF\_DEVICE\_THERMAL\_STATE\_CHANGED attribute'
+---
+Description: Represents an event that signals a thermal state change in the device.
+ms.assetid: 7F656E64-CE72-4DF8-9094-1EBBAE3A81E5
+title: MF\_DEVICE\_THERMAL\_STATE\_CHANGED attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_DEVICE\_THERMAL\_STATE\_CHANGED attribute

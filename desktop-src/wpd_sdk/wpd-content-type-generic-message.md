@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_GENERIC\_FILE'
-ms.assetid: 'e652bebc-fb3d-48cd-af59-3ad97a79711d'
-title: 'WPD\_CONTENT\_TYPE\_GENERIC\_FILE'
+Description: WPD\_CONTENT\_TYPE\_GENERIC\_FILE
+ms.assetid: e652bebc-fb3d-48cd-af59-3ad97a79711d
+title: WPD\_CONTENT\_TYPE\_GENERIC\_FILE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_GENERIC\_FILE

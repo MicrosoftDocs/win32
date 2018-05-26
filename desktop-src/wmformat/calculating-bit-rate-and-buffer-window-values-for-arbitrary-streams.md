@@ -1,8 +1,17 @@
 ---
 title: Calculating Bit Rate and Buffer Window Values for Arbitrary Streams
 description: Calculating Bit Rate and Buffer Window Values for Arbitrary Streams
-ms.assetid: '28ba863b-9c3e-4b0e-875d-6b696600888c'
-keywords: ["streams,bit rates", "codecs,calculating bit rates for arbitrary streams", "bit rates,calculating for arbitrary streams", "streams,calculating bit rates for arbitrary streams"]
+ms.assetid: 28ba863b-9c3e-4b0e-875d-6b696600888c
+keywords:
+- streams,bit rates
+- codecs,calculating bit rates for arbitrary streams
+- bit rates,calculating for arbitrary streams
+- streams,calculating bit rates for arbitrary streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Calculating Bit Rate and Buffer Window Values for Arbitrary Streams

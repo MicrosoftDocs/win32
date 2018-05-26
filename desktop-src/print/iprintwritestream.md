@@ -1,7 +1,12 @@
-﻿---
-Description: 'Filters use the IPrintWriteStream interface to write data as a raw stream of bytes.'
-ms.assetid: 'b76a58fb-fbd4-4afe-83dc-582242b53e05'
+---
+Description: Filters use the IPrintWriteStream interface to write data as a raw stream of bytes.
+ms.assetid: b76a58fb-fbd4-4afe-83dc-582242b53e05
 title: IPrintWriteStream interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintWriteStream interface

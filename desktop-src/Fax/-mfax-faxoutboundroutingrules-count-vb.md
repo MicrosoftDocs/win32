@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Count property represents the number of objects in the FaxOutboundRoutingRules collection. This is the total number of outbound routing rules associated with the fax server.'
-ms.assetid: '1f33588e-f482-49f1-b543-3229c50bb62b'
-title: 'FaxOutboundRoutingRules.Count property'
+---
+Description: The Count property represents the number of objects in the FaxOutboundRoutingRules collection. This is the total number of outbound routing rules associated with the fax server.
+ms.assetid: 1f33588e-f482-49f1-b543-3229c50bb62b
+title: FaxOutboundRoutingRules.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRules.Count property
@@ -46,7 +51,7 @@ A **Long** that receives the number of outbound routing rules in the collection.
 [**FaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules-cpp.md)
+[**IFaxOutboundRoutingRules**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrules?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,25 @@
 ---
 title: setauthor.cpp
 description: setauthor.cpp
-ms.assetid: '390b017b-caa7-4b64-a347-ae2bc4e5e86b'
-keywords: ["Packaging APIs,set author sample", "packaging,set author sample", "packages,set author sample", "Packaging APIs,sample applications", "packaging,sample applications", "packages,sample applications", "set author sample,setauthor.cpp", "Packaging APIs,setauthor.cpp", "packaging,setauthor.cpp", "packages,setauthor.cpp", "setauthor.cpp", "sample applications,set author"]
+ms.assetid: 390b017b-caa7-4b64-a347-ae2bc4e5e86b
+keywords:
+- Packaging APIs,set author sample
+- packaging,set author sample
+- packages,set author sample
+- Packaging APIs,sample applications
+- packaging,sample applications
+- packages,sample applications
+- set author sample,setauthor.cpp
+- Packaging APIs,setauthor.cpp
+- packaging,setauthor.cpp
+- packages,setauthor.cpp
+- setauthor.cpp
+- sample applications,set author
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # setauthor.cpp

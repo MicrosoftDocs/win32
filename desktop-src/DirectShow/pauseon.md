@@ -1,7 +1,12 @@
 ---
-Description: 'The PauseOn event is sent when the PauseOn command has been enabled or disabled.'
-ms.assetid: 'd67a7a16-41f9-4718-a6ad-d48ba77fb1d4'
+Description: The PauseOn event is sent when the PauseOn command has been enabled or disabled.
+ms.assetid: d67a7a16-41f9-4718-a6ad-d48ba77fb1d4
 title: PauseOn
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PauseOn

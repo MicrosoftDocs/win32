@@ -1,15 +1,18 @@
 ---
-Description: 'Schedules Autochk to be run on the disk drive represented by the Win32\_LogicalDisk at the next reboot if the dirty bit is set.'
+Description: Schedules Autochk to be run on the disk drive represented by the Win32\_LogicalDisk at the next reboot if the dirty bit is set.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '34f4c26b-6bfb-45d9-9d6c-0a9b735355f3'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 34f4c26b-6bfb-45d9-9d6c-0a9b735355f3
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ScheduleAutoChk method of the Win32\_LogicalDisk class'
+title: ScheduleAutoChk method of the Win32\_LogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ScheduleAutoChk method of the Win32\_LogicalDisk class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ScheduleAutoChk(
-  [in] string LogicalDisk[]
+  [in] string LogicalDisk[]
 );
 ```
 
@@ -41,7 +44,7 @@ Specifies the list of drives to schedule for Autochk at the next reboot. The str
 > [!Note]  
 > Always check the validity of the drive letters in the *LogicalDisk* array when the data comes from an unknown source, or a source that you do not trust.
 
- 
+ 
 
 </dd> </dl>
 
@@ -111,8 +114,8 @@ errReturn = objDisk.ScheduleAutoChk(Array("C:"))
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -126,9 +129,9 @@ errReturn = objDisk.ScheduleAutoChk(Array("C:"))
 [**Win32\_LogicalDisk**](win32-logicaldisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

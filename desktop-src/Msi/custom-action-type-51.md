@@ -1,7 +1,12 @@
 ---
-Description: 'Developers of Windows Installer packages may choose to use a custom action type 51 when the standard actions are insufficient to execute the installation.'
-ms.assetid: 'cdad16ad-426c-4e04-8003-b32c67be7329'
+Description: Developers of Windows Installer packages may choose to use a custom action type 51 when the standard actions are insufficient to execute the installation.
+ms.assetid: cdad16ad-426c-4e04-8003-b32c67be7329
 title: Custom Action Type 51
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Custom Action Type 51
@@ -12,7 +17,7 @@ To affect a property used in a condition on a component or feature, the custom a
 
 ## Source
 
-The Source field of the [CustomAction table](customaction-table.md) can contain either the name of a property or a key to the [Property table](property-table.md). This property is set by the formatted string in the Target field using [**MsiSetProperty**](msisetproperty.md).
+The Source field of the [CustomAction table](customaction-table.md) can contain either the name of a property or a key to the [Property table](property-table.md). This property is set by the formatted string in the Target field using [**MsiSetProperty**](/windows/win32/Msiquery/nf-msiquery-msisetpropertya?branch=master).
 
 ## Type Value
 
@@ -30,7 +35,7 @@ Include the following value in the Type column of the [CustomAction table](custo
 
 ## Target
 
-The Target column of the [CustomAction table](customaction-table.md) contains a text string formatted using the functionality specified in [**MsiFormatRecord**](msiformatrecord.md) (without the numeric field specifiers). Parameters to be replaced are enclosed in square brackets, \[…\], and may be properties, environment variables (% prefix), file paths (\# prefix), or component directory paths ($ prefix).
+The Target column of the [CustomAction table](customaction-table.md) contains a text string formatted using the functionality specified in [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) (without the numeric field specifiers). Parameters to be replaced are enclosed in square brackets, \[…\], and may be properties, environment variables (% prefix), file paths (\# prefix), or component directory paths ($ prefix).
 
 ## Return Processing Options
 

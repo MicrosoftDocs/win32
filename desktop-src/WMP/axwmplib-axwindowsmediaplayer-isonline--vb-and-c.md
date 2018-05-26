@@ -1,8 +1,11 @@
 ---
 title: AxWindowsMediaPlayer.isOnline property
 description: The isOnline property gets a value indicating whether the user is connected to a network.
-ms.assetid: '15e87fef-36ee-400f-a2c8-4789693c37e6'
-keywords: ["isOnline property Windows Media Player", "isOnline property Windows Media Player , AxWindowsMediaPlayer class", "AxWindowsMediaPlayer class Windows Media Player , isOnline property"]
+ms.assetid: 15e87fef-36ee-400f-a2c8-4789693c37e6
+keywords:
+- isOnline property Windows Media Player
+- isOnline property Windows Media Player , AxWindowsMediaPlayer class
+- AxWindowsMediaPlayer class Windows Media Player , isOnline property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AxWindowsMediaPlayer.isOnline property
@@ -69,9 +77,9 @@ A System.Boolean value that indicates whether the user is connected to a network
 [**AxWindowsMediaPlayer Object (VB and C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

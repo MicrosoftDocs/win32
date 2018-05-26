@@ -1,7 +1,12 @@
 ---
-Description: 'The user begins logging on to the network by typing a logon name and password. The Kerberos client on the user''s workstation converts the password to an encryption key and saves the result in a program variable.'
-ms.assetid: 'fcb3b601-9953-474c-9a08-1fa25706f3d7'
+Description: The user begins logging on to the network by typing a logon name and password. The Kerberos client on the users workstation converts the password to an encryption key and saves the result in a program variable.
+ms.assetid: fcb3b601-9953-474c-9a08-1fa25706f3d7
 title: Authentication Service Exchange
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authentication Service Exchange

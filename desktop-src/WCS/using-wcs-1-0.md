@@ -1,8 +1,18 @@
 ---
 title: Using WCS 1.0
 description: Using WCS 1.0
-ms.assetid: 'c69b2c35-b4ac-4b5a-a794-464db228491a'
-keywords: ["Windows Color System (WCS),about", "WCS (Windows Color System),about", "image color management,Windows Color System (WCS)", "color management,Windows Color System (WCS)", "colors,Windows Color System (WCS)"]
+ms.assetid: c69b2c35-b4ac-4b5a-a794-464db228491a
+keywords:
+- Windows Color System (WCS),about
+- WCS (Windows Color System),about
+- image color management,Windows Color System (WCS)
+- color management,Windows Color System (WCS)
+- colors,Windows Color System (WCS)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WCS 1.0

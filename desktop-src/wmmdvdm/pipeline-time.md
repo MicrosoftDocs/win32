@@ -1,8 +1,9 @@
 ---
 title: PIPELINE\_TIME
 description: The PIPELINE\_TIME class describes either a frame presentation time or the duration of a transition or effect.
-ms.assetid: '13b50545-b3d2-45aa-8f89-07699d7ec9ca'
-keywords: ["PIPELINE_TIME Windows Movie Maker and DVD Maker"]
+ms.assetid: 13b50545-b3d2-45aa-8f89-07699d7ec9ca
+keywords:
+- PIPELINE_TIME Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - GPUPipelineTime.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PIPELINE\_TIME
@@ -96,7 +102,7 @@ FrameCount() const</code></pre></td>
 
 
 
- 
+ 
 
 The **PIPELINE\_TIME** object overloads the following operators that enable you to assign, increment, decrement, and compare **PIPELINE\_TIME** objects.
 
@@ -104,7 +110,7 @@ The **PIPELINE\_TIME** object overloads the following operators that enable you 
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -112,8 +118,8 @@ The **PIPELINE\_TIME** object overloads the following operators that enable you 
 
 |                                     |                                                                                                                             |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                        |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                              |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                        |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h (include Gputransformplugin.h)</dt> </dl> |
 
 
@@ -125,9 +131,9 @@ The **PIPELINE\_TIME** object overloads the following operators that enable you 
 [**Classes**](classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

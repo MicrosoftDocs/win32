@@ -1,8 +1,10 @@
 ---
 title: CIM\_BindsTo class
 description: Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.
-ms.assetid: '8fd7b361-10be-4387-b967-cf91faf0b920'
-keywords: ["CIM_BindsTo class Hyper-V", "CIM_BindsTo class Hyper-V , described"]
+ms.assetid: 8fd7b361-10be-4387-b967-cf91faf0b920
+keywords:
+- CIM_BindsTo class Hyper-V
+- CIM_BindsTo class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - Root\virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_BindsTo class
@@ -29,7 +36,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, Association, Version("2.10.0"), AMENDMENT]
 class CIM_BindsTo : CIM_SAPSAPDependency
 {
-  CIM_ProtocolEndpoint   REF Antecedent;
+  CIM_ProtocolEndpoint   REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -85,9 +92,9 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -100,9 +107,9 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 [**CIM\_SAPSAPDependency**](cim-sapsapdependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

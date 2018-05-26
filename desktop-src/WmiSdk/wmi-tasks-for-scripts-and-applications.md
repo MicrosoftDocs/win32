@@ -1,13 +1,16 @@
 ---
-Description: 'Describes how to find the correct WMI class and procedures to use in scripts and applications that perform common computer and network administration tasks.'
+Description: Describes how to find the correct WMI class and procedures to use in scripts and applications that perform common computer and network administration tasks.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fe15b67c-8ae6-4360-a2ee-1eda292dd05a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fe15b67c-8ae6-4360-a2ee-1eda292dd05a
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: WMI Tasks for Scripts and Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks for Scripts and Applications

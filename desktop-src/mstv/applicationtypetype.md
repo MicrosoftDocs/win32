@@ -1,8 +1,9 @@
 ---
 title: ApplicationTypeType enumeration
 description: The ApplicationTypeType enumeration specifies the smart card application type, as defined in ANSI/SCTE 28.
-ms.assetid: '8df28daf-7e45-416c-8376-6716bd1783d4'
-keywords: ["ApplicationTypeType enumeration Microsoft TV Technologies"]
+ms.assetid: 8df28daf-7e45-416c-8376-6716bd1783d4
+keywords:
+- ApplicationTypeType enumeration Microsoft TV Technologies
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - bdatypes.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ApplicationTypeType enumeration
@@ -22,7 +28,7 @@ The **ApplicationTypeType** enumeration specifies the smart card application typ
 
 ```C++
 typedef enum ApplicationTypeType { 
-  SCTE28_ConditionalAccess             = 0,
+  SCTE28_ConditionalAccess             = 0,
   SCTE28_POD_Host_Binding_Information,
   SCTE28_IPService,
   SCTE28_NetworkInterface_SCTE55_2,
@@ -120,9 +126,9 @@ Reserved. Do not use.
 [BDA Reference](bda-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

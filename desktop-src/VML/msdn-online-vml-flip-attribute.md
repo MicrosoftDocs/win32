@@ -1,7 +1,12 @@
 ---
 title: VML Flip Attribute
 description: VML Flip Attribute
-ms.assetid: '0d3d4c54-e769-4f6b-a9f5-6e48125a7215'
+ms.assetid: 0d3d4c54-e769-4f6b-a9f5-6e48125a7215
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML Flip Attribute

@@ -1,8 +1,11 @@
 ---
 title: IPropertyFilterCollection AddItem property
 description: Adds a new filter to the collection.
-ms.assetid: '01078e7a-811a-4dfb-b122-4801f39413d8'
-keywords: ["AddItem property Legacy Windows Environment Features", "AddItem property Legacy Windows Environment Features , IPropertyFilterCollection interface", "IPropertyFilterCollection interface Legacy Windows Environment Features , AddItem property"]
+ms.assetid: 01078e7a-811a-4dfb-b122-4801f39413d8
+keywords:
+- AddItem property Legacy Windows Environment Features
+- AddItem property Legacy Windows Environment Features , IPropertyFilterCollection interface
+- IPropertyFilterCollection interface Legacy Windows Environment Features , AddItem property
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyFilterCollection::AddItem property
@@ -27,7 +35,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_AddItem(
-  [out, retval] IPropertyFilter **filter
+  [out, retval] IPropertyFilter **filter
 );
 ```
 
@@ -43,16 +51,16 @@ returns a pointer to the address for the new filter.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

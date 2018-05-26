@@ -1,8 +1,11 @@
 ---
 title: IMimeMessage GetAttachments method
 description: Gets an array of attachments for the message.
-ms.assetid: 'd2f05ef0-2c13-4913-b753-331d533ecacd'
-keywords: ["GetAttachments method Windows Mail (formerly Outlook Express)", "GetAttachments method Windows Mail (formerly Outlook Express) , IMimeMessage interface", "IMimeMessage interface Windows Mail (formerly Outlook Express) , GetAttachments method"]
+ms.assetid: d2f05ef0-2c13-4913-b753-331d533ecacd
+keywords:
+- GetAttachments method Windows Mail (formerly Outlook Express)
+- GetAttachments method Windows Mail (formerly Outlook Express) , IMimeMessage interface
+- IMimeMessage interface Windows Mail (formerly Outlook Express) , GetAttachments method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessage::GetAttachments method
@@ -22,8 +30,8 @@ Gets an array of attachments for the message.
 
 ```C++
 HRESULT GetAttachments(
-  [out] ULONG   *pcAttach,
-  [out] LPHBODY *pprghAttach
+  [out] ULONG   *pcAttach,
+  [out] LPHBODY *pprghAttach
 );
 ```
 
@@ -68,13 +76,13 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
 A body in the message cannot be returned as an attachment if it meets any of the following criteria.
 
--   The body has a [multipart/\*](http://msdn.microsoft.com/library/cdosys/html/31d6dbf5-cbfb-45d7-82f1-66090942161d.asp) [Content-Type](http://msdn.microsoft.com/library/cdosys/html/48f7ae1c-9dc8-4b2f-8dc1-11c55e62173f.asp).
+-   The body has a [multipart/\*](http://msdn.microsoft.com/library/cdosys/html/31d6dbf5-cbfb-45d7-82f1-66090942161d.asp) [Content-Type](http://msdn.microsoft.com/library/cdosys/html/48f7ae1c-9dc8-4b2f-8dc1-11c55e62173f.asp).
 -   The body is empty (for example, if [**IsType**](oe-imimebody-istype.md)([**IBT\_EMPTY**](oe-imsgbodytype.md)) returns S\_OK).
 -   The client is hiding Transport Neutral Encapsulation Format (TNEF) attachments and the body's Content-Type is equal to application/ms-tnef.
 -   The body has not been rendered, or it has been rendered and auto-inlined. The PID\_ATT\_RENDERED property is used to determine whether a body has been rendered and the PID\_ATT\_AUTOINLINED property is used to determine whether a body has been auto-inlined. Rendering a message using the [**IMimeMessage::CreateWebPage**](oe-imimemessage-createwebpage.md) method sets these properties. A client renders a message and then calls **IMimeMessage::GetAttachments** to get all the bodies that were not presented to the user. When a client renders a body (for example, using [**IMimeMessage::GetTextBody**](oe-imimemessage-gettextbody.md)), it should set the PID\_ATT\_RENDERED property to **TRUE** so that the body does not show up as an attachment.
@@ -85,8 +93,8 @@ A body in the message cannot be returned as an attachment if it meets any of the
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -94,9 +102,9 @@ A body in the message cannot be returned as an attachment if it meets any of the
 
 
 
- 
+ 
 
- 
+ 
 
 
 

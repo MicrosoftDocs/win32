@@ -1,13 +1,16 @@
 ---
-Description: 'An extrinsic method for clearing a log on this physical computer system.Requests that the Log be cleared of all entries.The return value shall be 0 if the request was successfully executed, 1 if the request is not supported, and 2 if an error occurred.'
+Description: An extrinsic method for clearing a log on this physical computer system.Requests that the Log be cleared of all entries.The return value shall be 0 if the request was successfully executed, 1 if the request is not supported, and 2 if an error occurred.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5daaaa01-c70c-4632-a3ce-25318aa75fdc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5daaaa01-c70c-4632-a3ce-25318aa75fdc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ClearLog method of the CIM\_PhysicalComputerSystemView class'
+title: ClearLog method of the CIM\_PhysicalComputerSystemView class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClearLog method of the CIM\_PhysicalComputerSystemView class
@@ -19,7 +22,7 @@ An extrinsic method for clearing a log on this physical computer system.Requests
 
 ```mof
 uint32 ClearLog(
-  [in] string LogInstanceID
+  [in] string LogInstanceID
 );
 ```
 
@@ -49,10 +52,10 @@ Idenfier for the log that is requested to be cleared.
 **Failed** (2)
 </dt> <dt>
 
-**DMTF Reserved** (3–32767)
+**DMTF Reserved** (3 32767)
 </dt> <dt>
 
-**Vendor Reserved** (32768–65535)
+**Vendor Reserved** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -61,8 +64,8 @@ Idenfier for the log that is requested to be cleared.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                         |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\HardwareManagement<br/>                                   |
 | MOF<br/>                      | <dl> <dt>Pcsvdevice.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>PCSVdevice.dll</dt> </dl> |
@@ -76,9 +79,9 @@ Idenfier for the log that is requested to be cleared.
 [**CIM\_PhysicalComputerSystemView**](cim-physicalcomputersystemview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,21 @@ description: Writes and finalizes the protection of any remaining data, smaller 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ef0b5ca3-de07-4075-b430-22c6103d7f95'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: ef0b5ca3-de07-4075-b430-22c6103d7f95
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableProtectedData close method"]
+keywords:
+- MSMutableProtectedData close method
 topic_type:
 - apiref
 api_name:
 - MSMutableProtectedData close method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableProtectedData close method
@@ -37,7 +41,7 @@ Writes and finalizes the protection of any remaining data, smaller than the bloc
 
 
 
- 
+ 
 
 ## Returns
 
@@ -59,11 +63,11 @@ MSMutableProtectedData.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

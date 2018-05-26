@@ -4,11 +4,13 @@ description: Used to configure an exception that excludes the specified files fr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1787aab2-b315-418c-81bf-1e42198c8780'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 1787aab2-b315-418c-81bf-1e42198c8780
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMFileScreenException class File Server Resource Manager", "MSFT_FSRMFileScreenException class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMFileScreenException class File Server Resource Manager
+- MSFT_FSRMFileScreenException class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -20,6 +22,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMFileScreenException class
@@ -101,7 +106,7 @@ The path that is associated with this file screen exception.
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -115,9 +120,9 @@ The path that is associated with this file screen exception.
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

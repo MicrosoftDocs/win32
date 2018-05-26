@@ -1,8 +1,9 @@
 ---
 title: IWMPDVD.isAvailable (VB and C\ )
 description: The isAvailable property (the get\_isAvailable method in C\ ) gets a value that indicates whether a specified type of information is available or a specified action can be performed.
-ms.assetid: '55690783-df2f-473d-a6f2-a4907b7e8a78'
-keywords: ["IWMPDVD.isAvailable (VB and C ) Windows Media Player"]
+ms.assetid: 55690783-df2f-473d-a6f2-a4907b7e8a78
+keywords:
+- IWMPDVD.isAvailable (VB and C ) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Interop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMPDVD.isAvailable (VB and C#)
@@ -56,7 +62,7 @@ A System.String that is one of the following values.
 
 
 
- 
+ 
 
 ## Property Value
 
@@ -101,9 +107,9 @@ Every DVD is authored differently. The methods available during DVD playback and
 [**IWMPDVD.topMenu (VB and C#)**](wmplibiwmpdvd-iwmpdvd-topmenu--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

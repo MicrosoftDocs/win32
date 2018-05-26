@@ -1,8 +1,9 @@
 ---
 title: MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object
 description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
-ms.assetid: '66dae2be-2a71-4d53-b2e2-f106426d4eea'
-keywords: ["MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object Windows Media Player"]
+ms.assetid: 66dae2be-2a71-4d53-b2e2-f106426d4eea
+keywords:
+- MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - AxInterop.WMPLib.dll
 api_type:
 - Assembly
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object
@@ -43,7 +49,7 @@ The handler associated with this event is of type **AxWMPLib.\_WMPOCXEvents\_Med
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -71,9 +77,9 @@ This event occurs only for the local library.
 [**IWMPMedia Interface (VB and C#)**](iwmpmedia--vb-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

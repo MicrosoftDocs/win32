@@ -1,14 +1,20 @@
 ---
 title: THEME.currentViewID
 description: The currentViewID attribute specifies or retrieves the currently displayed VIEW.
-ms.assetid: '94f23da9-cfda-4dc4-9804-b7daff5ebb8f'
-keywords: ["THEME.currentViewID Windows Media Player"]
+ms.assetid: 94f23da9-cfda-4dc4-9804-b7daff5ebb8f
+keywords:
+- THEME.currentViewID Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.currentViewID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.currentViewID
@@ -65,9 +71,9 @@ Specifying **currentViewID** automatically closes the existing **currentView** (
 [**THEME Element**](theme-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

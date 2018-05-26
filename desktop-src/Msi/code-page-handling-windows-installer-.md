@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database, and to improve performance. For a list of numeric code pages, see Localizing the Error and ActionText Tables.'
-ms.assetid: '5d413fb7-99da-49f3-ace3-ec285df2e634'
-title: 'Code Page Handling (Windows Installer)'
+Description: The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database, and to improve performance. For a list of numeric code pages, see Localizing the Error and ActionText Tables.
+ms.assetid: 5d413fb7-99da-49f3-ace3-ec285df2e634
+title: Code Page Handling (Windows Installer)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Code Page Handling (Windows Installer)
@@ -18,9 +23,9 @@ If you localize a Windows Installer package, it may involve modifying informatio
 
 The recommended approach for handling code pages is to author a neutral database that only contains characters that can be translated into any code page. For more information, see [Creating a Database with a Neutral Code Page](creating-a-database-with-a-neutral-code-page.md).
 
-If you add localization information with database archive files, you can use [**MsiDatabaseExport**](msidatabaseexport.md) to export tables from a database that contains localization changes to ANSI text archive files, and then import these into the database being localized with [**MsiDatabaseImport**](msidatabaseimport.md). The code page of an exported archive file is always the same as its parent database. The code pages of an imported file and the database that is receiving the file must be identical, or at least one of the two code pages must be neutral. For more information, see [Code Page Handling of Imported and Exported Tables](code-page-handling-of-imported-and-exported-tables.md).
+If you add localization information with database archive files, you can use [**MsiDatabaseExport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseexporta?branch=master) to export tables from a database that contains localization changes to ANSI text archive files, and then import these into the database being localized with [**MsiDatabaseImport**](/windows/win32/Msiquery/nf-msiquery-msidatabaseimporta?branch=master). The code page of an exported archive file is always the same as its parent database. The code pages of an imported file and the database that is receiving the file must be identical, or at least one of the two code pages must be neutral. For more information, see [Code Page Handling of Imported and Exported Tables](code-page-handling-of-imported-and-exported-tables.md).
 
-If you add localization information with a text editor or the [Database Functions](database-functions.md) be careful to only pass string parameters to the Windows Installer API that uses the code page of the database that is being localized. If a string parameter contains characters not represented by the code page of the database, an error occurs when calling [**MsiDatabaseCommit**](msidatabasecommit.md). For more information, see [Code Page Handling of Parameter Strings](code-page-handling-of-parameter-strings.md).
+If you add localization information with a text editor or the [Database Functions](database-functions.md) be careful to only pass string parameters to the Windows Installer API that uses the code page of the database that is being localized. If a string parameter contains characters not represented by the code page of the database, an error occurs when calling [**MsiDatabaseCommit**](/windows/win32/Msiquery/nf-msiquery-msidatabasecommit?branch=master). For more information, see [Code Page Handling of Parameter Strings](code-page-handling-of-parameter-strings.md).
 
 If one package is used to install multiple language versions of a product, the transform that is used to localize strings can also change the code page of the database.
 

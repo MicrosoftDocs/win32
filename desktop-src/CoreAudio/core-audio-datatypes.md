@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the unions that are used by the Core Audio APIs.'
-ms.assetid: 'B2ED2C84-3226-49B3-9391-E1A2B2391A94'
+Description: This section describes the unions that are used by the Core Audio APIs.
+ms.assetid: B2ED2C84-3226-49B3-9391-E1A2B2391A94
 title: Core Audio Datatypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Core Audio Datatypes
@@ -14,15 +19,15 @@ This section describes the unions that are used by the Core Audio APIs.
 
 | Topic                                                                         | Description                                                                                                   |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [**SpatialAudioHrtfOrientation**](spatialaudiohrtforientation.md)<br/> | Represents the orientation of an [**ISpatialAudioObjectForHrtf**](ispatialaudioobjectforhrtf.md).<br/> |
+| [**SpatialAudioHrtfOrientation**](spatialaudiohrtforientation.md)<br/> | Represents the orientation of an [**ISpatialAudioObjectForHrtf**](/windows/win32/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf?branch=master).<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

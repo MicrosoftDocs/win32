@@ -1,8 +1,17 @@
 ---
 title: Art Files
 description: Art Files
-ms.assetid: '93893610-de8d-4b9a-b23d-75ddb3e1e557'
-keywords: ["Windows Media Player skins,art files", "skins,art files", "files for skins,art", "art files for skins,about"]
+ms.assetid: 93893610-de8d-4b9a-b23d-75ddb3e1e557
+keywords:
+- Windows Media Player skins,art files
+- skins,art files
+- files for skins,art
+- art files for skins,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Art Files

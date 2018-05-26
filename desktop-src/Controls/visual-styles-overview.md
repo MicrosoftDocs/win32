@@ -1,7 +1,12 @@
 ---
 title: Visual Styles Overview
 description: This topic describes visual styles and identifies the Windows components that support them. It also explains the steps you must take to use visual styles in your applications.
-ms.assetid: '5B5D7BB6-684F-478D-BF5F-B8D18BBCFF2E'
+ms.assetid: 5B5D7BB6-684F-478D-BF5F-B8D18BBCFF2E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual Styles Overview

@@ -1,7 +1,12 @@
 ---
 title: ISAPIIDQErrorFile
 description: ISAPIIDQErrorFile
-ms.assetid: '320ca3a0-a2f7-4245-8541-1e342f58351b'
+ms.assetid: 320ca3a0-a2f7-4245-8541-1e342f58351b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISAPIIDQErrorFile

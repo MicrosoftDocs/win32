@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves the response entity body as an array of unsigned bytes.'
-ms.assetid: '557913e0-9f19-42fc-bfca-9ed248972b4b'
-title: 'IWinHttpRequest::ResponseBody property'
+Description: Retrieves the response entity body as an array of unsigned bytes.
+ms.assetid: 557913e0-9f19-42fc-bfca-9ed248972b4b
+title: IWinHttpRequestResponseBody property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWinHttpRequest::ResponseBody property
@@ -15,7 +20,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_ResponseBody(
-  [out, retval] VARIANT *Body
+  [out, retval] VARIANT *Body
 );
 ```
 
@@ -52,9 +57,9 @@ The return value is **S\_OK** on success or an error value otherwise.
 This property returns the response data in an array of unsigned bytes. If the response does not have a response body, an empty variant is returned. This property can only be invoked after the [**Send**](iwinhttprequest-send.md) method has been called.
 
 > [!Note]  
-> For more information about implementation for Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).
+> For more information about implementation for Windows XP and Windows 2000, see [Run-Time Requirements](winhttp-start-page.md).
 
- 
+ 
 
 ## Requirements
 
@@ -62,9 +67,9 @@ This property returns the response data in an array of unsigned bytes. If the re
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
-| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
-| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
+| Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
+| Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |
+| Redistributable<br/>          | WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest.idl</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winhttp.lib</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Winhttp.dll</dt> </dl>     |
@@ -90,9 +95,9 @@ This property returns the response data in an array of unsigned bytes. If the re
 [WinHTTP Versions](winhttp-versions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a window for the Microsoft Media Foundation HTTP byte stream.'
-ms.assetid: '52761AC1-4974-4087-B5EE-A797F5BAD86D'
-title: 'MFPKEY\_HTTP\_ByteStream\_Urlmon\_Window property'
+---
+Description: Sets a window for the Microsoft Media Foundation HTTP byte stream.
+ms.assetid: 52761AC1-4974-4087-B5EE-A797F5BAD86D
+title: MFPKEY\_HTTP\_ByteStream\_Urlmon\_Window property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_HTTP\_ByteStream\_Urlmon\_Window property

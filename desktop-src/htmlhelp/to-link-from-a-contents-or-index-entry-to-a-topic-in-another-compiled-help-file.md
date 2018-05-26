@@ -1,7 +1,12 @@
 ---
 title: To link from a contents or index entry to a topic in another compiled help file
 description: To link from a contents or index entry to a topic in another compiled help file
-ms.assetid: '65CE6829-C91B-45bf-B123-2934CA9B6463'
+ms.assetid: 65CE6829-C91B-45bf-B123-2934CA9B6463
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To link from a contents or index entry to a topic in another compiled help file

@@ -4,17 +4,22 @@ description: The path to the file replication database.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '43db1214-17a3-4458-b082-1cf69d06384c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 43db1214-17a3-4458-b082-1cf69d06384c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["FRS-Working-Path attribute AD Schema", "fRSWorkingPath attribute AD Schema"]
+keywords:
+- FRS-Working-Path attribute AD Schema
+- fRSWorkingPath attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - FRS-Working-Path
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FRS-Working-Path attribute
@@ -38,12 +43,12 @@ The path to the file replication database.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The path to the file replication database.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

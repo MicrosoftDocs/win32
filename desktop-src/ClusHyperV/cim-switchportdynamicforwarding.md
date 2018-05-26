@@ -4,13 +4,15 @@ description: Represents an association in which an entry of a forwarding databas
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '561d6487-2dea-4eab-85d9-66448e4e9cf8'
-ms.prod: 'windows-server-dev'
+ms.assetid: 561d6487-2dea-4eab-85d9-66448e4e9cf8
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SwitchPortDynamicForwarding class", "CIM_SwitchPortDynamicForwarding class, described"]
+keywords:
+- CIM_SwitchPortDynamicForwarding class
+- CIM_SwitchPortDynamicForwarding class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SwitchPortDynamicForwarding class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.7.0"), UMLPackagePath("CIM::Network::SwitchingBridging")]
 class CIM_SwitchPortDynamicForwarding : CIM_Dependency
 {
-  CIM_SwitchPort             REF Antecedent;
+  CIM_SwitchPort             REF Antecedent;
   CIM_DynamicForwardingEntry REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ A reference to the entry of the forwarding database.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ A reference to the entry of the forwarding database.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

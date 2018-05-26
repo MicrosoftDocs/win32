@@ -1,14 +1,20 @@
 ---
 title: InRibbonGallery.MenuLayout property
 description: Represents a container for In-Ribbon Gallery drop-down menu layouts.
-ms.assetid: '89e0eb39-2790-4571-a661-ab3ebafbb13f'
-keywords: ["InRibbonGallery.MenuLayout property Windows Ribbon"]
+ms.assetid: 89e0eb39-2790-4571-a661-ab3ebafbb13f
+keywords:
+- InRibbonGallery.MenuLayout property Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - InRibbonGallery.MenuLayout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InRibbonGallery.MenuLayout property
@@ -57,7 +63,7 @@ May occur at most once for each [**InRibbonGallery**](windowsribbon-element-inri
 > [!Note]  
 > A maximum of one child element ([**VerticalMenuLayout**](windowsribbon-element-verticalmenulayout.md) or [**FlowMenuLayout**](windowsribbon-element-flowmenulayout.md)) is allowed.
 
- 
+ 
 
 ## Examples
 
@@ -100,8 +106,8 @@ This section of code shows the **InRibbonGallery.MenuLayout** control declaratio
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -115,9 +121,9 @@ This section of code shows the **InRibbonGallery.MenuLayout** control declaratio
 [Working with Galleries](ribbon-controls-galleries.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

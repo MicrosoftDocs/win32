@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the CallerId property for a FaxTiff object. The CallerId property is a string that identifies the calling device that sent a specified fax file.'
-ms.assetid: '9627281a-6edb-4e75-be29-2d1c64b401e0'
-title: 'FaxTiff.CallerId property'
+---
+Description: Retrieves the CallerId property for a FaxTiff object. The CallerId property is a string that identifies the calling device that sent a specified fax file.
+ms.assetid: 9627281a-6edb-4e75-be29-2d1c64b401e0
+title: FaxTiff.CallerId property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxTiff.CallerId property
@@ -59,7 +64,7 @@ The **get\_CallerId** method allocates the memory required for the buffer pointe
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxTiff**](-mfax-ifaxtiff.md)
+[**IFaxTiff**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxtiff?branch=master)
 </dt> <dt>
 
 [**Image**](-mfax-ifaxtiff-get-image-vb.md)

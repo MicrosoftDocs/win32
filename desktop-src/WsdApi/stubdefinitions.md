@@ -1,7 +1,12 @@
 ---
-Description: 'Generates implementations for stub functions for port-type operations.'
-ms.assetid: '69899302-db54-493b-90de-596750be566f'
+Description: Generates implementations for stub functions for port-type operations.
+ms.assetid: 69899302-db54-493b-90de-596750be566f
 title: stubDefinitions element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # stubDefinitions element
@@ -68,14 +73,14 @@ There are no attributes.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

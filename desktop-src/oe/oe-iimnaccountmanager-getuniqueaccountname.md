@@ -1,8 +1,11 @@
 ---
 title: IImnAccountManager GetUniqueAccountName method
-description: Checks whether the specified account name is unique. If it isn't, it creates a modified name that is unique.
-ms.assetid: 'da3c2a9e-9b16-43a0-826b-be95528f6713'
-keywords: ["GetUniqueAccountName method Windows Mail (formerly Outlook Express)", "GetUniqueAccountName method Windows Mail (formerly Outlook Express) , IImnAccountManager interface", "IImnAccountManager interface Windows Mail (formerly Outlook Express) , GetUniqueAccountName method"]
+description: Checks whether the specified account name is unique. If it isnt, it creates a modified name that is unique.
+ms.assetid: da3c2a9e-9b16-43a0-826b-be95528f6713
+keywords:
+- GetUniqueAccountName method Windows Mail (formerly Outlook Express)
+- GetUniqueAccountName method Windows Mail (formerly Outlook Express) , IImnAccountManager interface
+- IImnAccountManager interface Windows Mail (formerly Outlook Express) , GetUniqueAccountName method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Msoeacct.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IImnAccountManager::GetUniqueAccountName method
@@ -24,8 +32,8 @@ Checks whether the specified account name is unique. If it isn't, it creates a m
 
 ```C++
 HRESULT GetUniqueAccountName(
-  [in, ref] LPSTR &amp;szName,
-  [in]      UINT  cch
+  [in, ref] LPSTR &amp;szName,
+  [in]      UINT  cch
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -82,8 +90,8 @@ An account name cannot be empty, contain only spaces, or contain a backslash.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnact.h</dt> </dl>                            |
 | IDL<br/>                      | <dl> <dt>Imnact.idl</dt> </dl>                          |
@@ -91,9 +99,9 @@ An account name cannot be empty, contain only spaces, or contain a backslash.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

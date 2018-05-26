@@ -1,12 +1,17 @@
 ---
-Description: 'The following table describes new and updated technologies for Windows Server 2008.'
-ms.assetid: '2958b9a2-89be-490f-a23c-7c79b48831f0'
+Description: The following table describes new and updated technologies for Windows Server 2008.
+ms.assetid: 2958b9a2-89be-490f-a23c-7c79b48831f0
 title: Windows Server 2008 Technologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Server 2008 Technologies
 
-The following table describes new and updated technologies for Windows Server 2008.
+The following table describes new and updated technologies for Windows Server 2008.
 
 
 
@@ -25,11 +30,11 @@ The following table describes new and updated technologies for Windows Server 20
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

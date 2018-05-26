@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree InsertBody method
 description: Inserts a new, empty body into the message tree at the specified location.
-ms.assetid: '2ff4681d-bc57-47fe-b27f-3b25d63cab98'
-keywords: ["InsertBody method Windows Mail (formerly Outlook Express)", "InsertBody method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , InsertBody method"]
+ms.assetid: 2ff4681d-bc57-47fe-b27f-3b25d63cab98
+keywords:
+- InsertBody method Windows Mail (formerly Outlook Express)
+- InsertBody method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , InsertBody method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::InsertBody method
@@ -22,9 +30,9 @@ Inserts a new, empty body into the message tree at the specified location.
 
 ```C++
 HRESULT InsertBody(
-  [in]  BODYLOCATION location,
-  [in]  HBODY        hPivot,
-  [out] LPHBODY      phBody
+  [in]  BODYLOCATION location,
+  [in]  HBODY        hPivot,
+  [out] LPHBODY      phBody
 );
 ```
 
@@ -82,7 +90,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -90,8 +98,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -99,9 +107,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Basic interactions between users (and applications) and smart cards.'
-ms.assetid: 'b75249d1-3c8f-4dd5-b4a5-f698513d18e2'
+---
+Description: Basic interactions between users (and applications) and smart cards.
+ms.assetid: b75249d1-3c8f-4dd5-b4a5-f698513d18e2
 title: Smart Card Concepts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Smart Card Concepts

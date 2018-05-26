@@ -1,8 +1,11 @@
 ---
 title: IMimeMessageTree BindToObject method
 description: Obtains an interface in the message tree for the specified body.
-ms.assetid: 'ca9cbf3c-6f6a-400c-9f18-0232d85ba970'
-keywords: ["BindToObject method Windows Mail (formerly Outlook Express)", "BindToObject method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface", "IMimeMessageTree interface Windows Mail (formerly Outlook Express) , BindToObject method"]
+ms.assetid: ca9cbf3c-6f6a-400c-9f18-0232d85ba970
+keywords:
+- BindToObject method Windows Mail (formerly Outlook Express)
+- BindToObject method Windows Mail (formerly Outlook Express) , IMimeMessageTree interface
+- IMimeMessageTree interface Windows Mail (formerly Outlook Express) , BindToObject method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeMessageTree::BindToObject method
@@ -22,9 +30,9 @@ Obtains an interface in the message tree for the specified body.
 
 ```C++
 HRESULT BindToObject(
-  [in]  const HBODY  hBody,
-  [in]        REFIID riid,
-  [out]       void   **ppvObject
+  [in]  const HBODY  hBody,
+  [in]        REFIID riid,
+  [out]       void   **ppvObject
 );
 ```
 
@@ -64,7 +72,7 @@ Specifies the interface ID to return.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -96,7 +104,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -104,8 +112,8 @@ Returns one of the following values.
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -113,9 +121,9 @@ Returns one of the following values.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: fma
 description: Returns the double-precision fused multiply-addition of a \ b + c.
-ms.assetid: 'C4EF2552-7388-4CA8-B78F-6B2D4C8FC5F6'
-keywords: ["fma HLSL"]
+ms.assetid: C4EF2552-7388-4CA8-B78F-6B2D4C8FC5F6
+keywords:
+- fma HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # fma
@@ -24,7 +30,7 @@ Returns the double-precision fused multiply-addition of a \* b + c.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -74,7 +80,7 @@ To use the **fma** intrinsic in your shader code, call the [**ID3D11Device::Chec
 
 
 
- 
+ 
 
 ### Minimum Shader Model
 
@@ -88,7 +94,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -96,8 +102,8 @@ This function is supported in the following shader models.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Corecrt\_math.h</dt> </dl> |
 
 
@@ -109,9 +115,9 @@ This function is supported in the following shader models.
 [Intrinsic Functions](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,16 @@
 ---
-Description: 'Schema association queries use the same statements as are used in data association queries: ASSOCIATORS OF and REFERENCES OF.'
+Description: Schema association queries use the same statements as are used in data association queries ASSOCIATORS OF and REFERENCES OF.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b5fc2d86-702a-42cd-82e6-f15c905ba6aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b5fc2d86-702a-42cd-82e6-f15c905ba6aa
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Schema Associations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Schema Associations

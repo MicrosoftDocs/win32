@@ -1,7 +1,12 @@
 ---
-Description: 'MUI: System Settings Application Sample'
-ms.assetid: '34cfd3a8-20b2-4a57-bc43-8da410cf9ae9'
-title: 'MUI: System Settings Application Sample'
+Description: MUI System Settings Application Sample
+ms.assetid: 34cfd3a8-20b2-4a57-bc43-8da410cf9ae9
+title: MUI System Settings Application Sample
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MUI: System Settings Application Sample

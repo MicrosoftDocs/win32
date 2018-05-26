@@ -1,7 +1,12 @@
 ---
 title: Input Register
 description: Input Register
-ms.assetid: '7cd8e555-4e69-4905-a541-62e09b41a602'
+ms.assetid: 7cd8e555-4e69-4905-a541-62e09b41a602
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Register

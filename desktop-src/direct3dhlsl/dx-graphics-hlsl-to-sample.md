@@ -1,7 +1,12 @@
 ---
 title: Sample (DirectX HLSL Texture Object)
 description: Samples a texture.
-ms.assetid: '788ba4b4-8013-411f-9a19-fb9983386fa0'
+ms.assetid: 788ba4b4-8013-411f-9a19-fb9983386fa0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample (DirectX HLSL Texture Object)
@@ -16,7 +21,7 @@ Samples a texture.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -66,13 +71,13 @@ Samples a texture.
 <td>float3</td>
 </tr>
 <tr class="even">
-<td>TextureCubeArray¹</td>
+<td>TextureCubeArray </td>
 <td>float4</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>
@@ -99,20 +104,20 @@ Samples a texture.
 <td>int3</td>
 </tr>
 <tr class="even">
-<td>TextureCube, TextureCubeArray¹</td>
+<td>TextureCube, TextureCubeArray </td>
 <td>not supported</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -124,13 +129,13 @@ This function is supported in the following shader models.
 
 
 
-| vs\_4\_0 | vs\_4\_1² | ps\_4\_0 | ps\_4\_1² | gs\_4\_0 | gs\_4\_1² |
+| vs\_4\_0 | vs\_4\_1  | ps\_4\_0 | ps\_4\_1  | gs\_4\_0 | gs\_4\_1  |
 |----------|-----------|----------|-----------|----------|-----------|
 |          |           | x        | x         |          |           |
 
 
 
- 
+ 
 
 1.  TextureCubeArray is available in Shader Model 4.1 or higher.
 2.  Shader Model 4.1 is available in Direct3D 10.1 or higher.
@@ -190,9 +195,9 @@ The data format returned is determined by the texture format. For example, if th
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,11 @@
 ---
 title: Item.Items property
 description: Retrieves a collection of all child items for this item
-ms.assetid: 'c7cfb475-38cf-4897-bea2-2714b2187ead'
-keywords: ["Items property WIA Automation", "Items property WIA Automation , Item object", "Item object WIA Automation , Items property"]
+ms.assetid: c7cfb475-38cf-4897-bea2-2714b2187ead
+keywords:
+- Items property WIA Automation
+- Items property WIA Automation , Item object
+- Item object WIA Automation , Items property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Wiaaut.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Item.Items property
@@ -43,8 +51,8 @@ For example code, see [Count the Number of Child Items Available for Transfer](-
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 R2 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Wiaaut.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Wiaaut.idl</dt> </dl> |
 
@@ -66,9 +74,9 @@ For example code, see [Count the Number of Child Items Available for Transfer](-
 [**Item**](-wiaaut-item.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

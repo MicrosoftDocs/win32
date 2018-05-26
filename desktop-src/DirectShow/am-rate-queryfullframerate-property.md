@@ -1,7 +1,12 @@
 ---
-Description: 'This property queries the decoder for the maximum full-frame rate that the decoder supports. The data type for this property is an AM\_QueryRate structure.'
-ms.assetid: '98808ed4-6d34-437b-9729-9cc805bc81f0'
-title: 'AM\_RATE\_QueryFullFrameRate Property'
+Description: This property queries the decoder for the maximum full-frame rate that the decoder supports. The data type for this property is an AM\_QueryRate structure.
+ms.assetid: 98808ed4-6d34-437b-9729-9cc805bc81f0
+title: AM\_RATE\_QueryFullFrameRate Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AM\_RATE\_QueryFullFrameRate Property
@@ -16,11 +21,11 @@ This property is defined for version 1.1 of this property set; see [**AM\_RATE\_
 |-------------------|---------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange         |
 | Property ID       | AM\_RATE\_QueryFullFrameRate Property |
-| Data Type         | [**AM\_QueryRate**](am-queryrate.md) |
+| Data Type         | [**AM\_QueryRate**](/windows/win32/Dvdmedia/ns-dvdmedia-am_queryrate?branch=master) |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,9 +48,9 @@ If the playback rate exceeds the decoder's maximum rate, the source filter sends
 [**Rate Change Property Set**](rate-change-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

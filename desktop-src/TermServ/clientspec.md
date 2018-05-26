@@ -4,11 +4,12 @@ description: Used with the ClientProtocolSpec property to specify the remote des
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'BFB2CD3C-04BF-4CB3-B156-8B08AE697327'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: BFB2CD3C-04BF-4CB3-B156-8B08AE697327
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["ClientSpec enumeration Remote Desktop Services"]
+keywords:
+- ClientSpec enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # ClientSpec enumeration
@@ -28,7 +32,7 @@ Used with the [**ClientProtocolSpec**](imsrdpclientadvancedsettings8-clientproto
 
 ```C++
 typedef enum  { 
-  FullMode        = 0,
+  FullMode        = 0,
   ThinClientMode,
   SmallCacheMode
 } ClientSpec;
@@ -43,14 +47,14 @@ typedef enum  {
 <span id="FullMode"></span><span id="fullmode"></span><span id="FULLMODE"></span>**FullMode**
 </dt> <dd>
 
-The protocol is full Windows 8 Remote Desktop protocol.
+The protocol is full Windows 8 Remote Desktop protocol.
 
 </dd> <dt>
 
 <span id="ThinClientMode"></span><span id="thinclientmode"></span><span id="THINCLIENTMODE"></span>**ThinClientMode**
 </dt> <dd>
 
-The protocol is limited to using the Windows 7 with SP1 RemoteFX codec and a smaller cache. All other codecs are disabled. This protocol has the smallest memory footprint.
+The protocol is limited to using the Windows 7 with SP1 RemoteFX codec and a smaller cache. All other codecs are disabled. This protocol has the smallest memory footprint.
 
 </dd> <dt>
 
@@ -67,8 +71,8 @@ The protocol is the same as **FullMode**, except it uses a smaller cache.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
 
@@ -80,9 +84,9 @@ The protocol is the same as **FullMode**, except it uses a smaller cache.
 [**IMsRdpClientAdvancedSettings8::ClientProtocolSpec**](imsrdpclientadvancedsettings8-clientprotocolspec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

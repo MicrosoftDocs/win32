@@ -4,11 +4,14 @@ description: Brings a group \ 32; online.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f4861817-a2f6-4b1a-b50c-f3e9119234cd'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f4861817-a2f6-4b1a-b50c-f3e9119234cd
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Online method Failover Cluster", "Online method Failover Cluster , ClusResGroup class", "ClusResGroup class Failover Cluster , Online method"]
+keywords:
+- Online method Failover Cluster
+- Online method Failover Cluster , ClusResGroup class
+- ClusResGroup class Failover Cluster , Online method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusResGroup.Online method
@@ -66,7 +72,7 @@ A **Variant** set to **TRUE** if the request is still pending.
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -85,12 +91,12 @@ A **Variant** set to **TRUE** if the request is still pending.
 [**ClusResGroup**](clusresgroup-object.md)
 </dt> <dt>
 
-[**Online**](online.md)
+[**Online**](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

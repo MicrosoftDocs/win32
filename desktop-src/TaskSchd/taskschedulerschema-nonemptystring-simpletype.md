@@ -1,14 +1,20 @@
 ---
 title: nonEmptyStringType Simple Type
 description: Defines the values used for a non-empty string of text.
-ms.assetid: 'cb3b1ca6-4531-467c-a27a-b27a62233514'
-keywords: ["nonEmptyString simple type Task Scheduler"]
+ms.assetid: cb3b1ca6-4531-467c-a27a-b27a62233514
+keywords:
+- nonEmptyString simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - nonEmptyString
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # nonEmptyStringType Simple Type
@@ -45,14 +51,14 @@ The **nonEmptyString** simple type defines the following value.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

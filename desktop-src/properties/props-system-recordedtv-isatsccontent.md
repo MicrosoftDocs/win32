@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c90a3efc-0d90-4eae-8651-a0dac04db862'
-title: 'System.RecordedTV.IsATSCContent'
+Description: .
+ms.assetid: c90a3efc-0d90-4eae-8651-a0dac04db862
+title: System.RecordedTV.IsATSCContent
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.RecordedTV.IsATSCContent

@@ -1,7 +1,12 @@
 ---
-Description: 'USBPRINT I/O Control Codes'
-ms.assetid: '1ba67f32-2bf1-4c5c-adab-f4ee29870ac5'
-title: 'USBPRINT I/O Control Codes'
+Description: USBPRINT I/O Control Codes
+ms.assetid: 1ba67f32-2bf1-4c5c-adab-f4ee29870ac5
+title: USBPRINT I/O Control Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # USBPRINT I/O Control Codes

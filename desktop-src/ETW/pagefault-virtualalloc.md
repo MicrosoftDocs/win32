@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for virtual allocation events. The following syntax is simplified from MOF code.'
-ms.assetid: '037d33e0-da94-4834-bc02-814c1cae1d8d'
-title: 'PageFault\_VirtualAlloc class'
+---
+Description: This class is the event type class for virtual allocation events. The following syntax is simplified from MOF code.
+ms.assetid: 037d33e0-da94-4834-bc02-814c1cae1d8d
+title: PageFault\_VirtualAlloc class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PageFault\_VirtualAlloc class

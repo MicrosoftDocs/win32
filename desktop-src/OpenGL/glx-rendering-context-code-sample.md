@@ -1,8 +1,18 @@
 ---
 title: GLX Rendering Context Code Sample
 description: The following code sample shows how an X Window System OpenGL program uses GLX rendering context functions.
-ms.assetid: '6cee5e5f-ee2f-4fe4-a988-402802e4a1b8'
-keywords: ["rendering contexts", "porting to OpenGL,rendering contexts", "OpenGL porting,rendering contexts", "X Window System,rendering contexts", "GLX functions,rendering contexts"]
+ms.assetid: 6cee5e5f-ee2f-4fe4-a988-402802e4a1b8
+keywords:
+- rendering contexts
+- porting to OpenGL,rendering contexts
+- OpenGL porting,rendering contexts
+- X Window System,rendering contexts
+- GLX functions,rendering contexts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GLX Rendering Context Code Sample

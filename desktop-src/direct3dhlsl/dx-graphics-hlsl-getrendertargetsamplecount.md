@@ -1,14 +1,20 @@
 ---
 title: GetRenderTargetSampleCount
 description: Gets the number of samples for a render target.
-ms.assetid: 'e813134e-c58c-4845-b519-c1074993801e'
-keywords: ["GetRenderTargetSampleCount HLSL"]
+ms.assetid: e813134e-c58c-4845-b519-c1074993801e
+keywords:
+- GetRenderTargetSampleCount HLSL
 topic_type:
 - apiref
 api_name:
 - GetRenderTargetSampleCount
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetRenderTargetSampleCount
@@ -22,7 +28,7 @@ Gets the number of samples for a render target.
 
 
 
- 
+ 
 
 ## Parameters
 
@@ -34,7 +40,7 @@ Gets the number of samples for a render target.
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -59,7 +65,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## See also
 
@@ -68,9 +74,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

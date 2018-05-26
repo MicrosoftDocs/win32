@@ -1,7 +1,12 @@
 ---
 title: texm3x3pad - ps
 description: Performs the first or second row multiply of a three-row matrix multiply. This instruction must be used in combination with texm3x3 - ps, texm3x3spec - ps, texm3x3vspec - ps, or texm3x3tex - ps.
-ms.assetid: '375526ee-cd58-4179-9b21-c63f17282f6b'
+ms.assetid: 375526ee-cd58-4179-9b21-c63f17282f6b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # texm3x3pad - ps

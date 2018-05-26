@@ -1,7 +1,12 @@
 ---
-Description: 'The Win32\_WindowsProductActivation class exposes the following methods.'
-ms.assetid: 'EAEC6B3F-5BF6-4E3A-9AAC-65B5B18936B3'
-title: 'Win32\_WindowsProductActivation Methods'
+Description: The Win32\_WindowsProductActivation class exposes the following methods.
+ms.assetid: EAEC6B3F-5BF6-4E3A-9AAC-65B5B18936B3
+title: Win32\_WindowsProductActivation Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_WindowsProductActivation Methods

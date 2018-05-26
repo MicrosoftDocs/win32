@@ -4,11 +4,12 @@ description: Called in response to a viewer requesting control.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'E190DAEC-776A-4248-8A73-073AB6F2FE8A'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: E190DAEC-776A-4248-8A73-073AB6F2FE8A
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["OnControlLevelChangeResponse event RDP"]
+keywords:
+- OnControlLevelChangeResponse event RDP
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - RdpEncom.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # OnControlLevelChangeResponse event
@@ -28,9 +32,9 @@ Called in response to a viewer requesting control.
 
 ```C++
 void OnControlLevelChangeResponse(
-  [in] IDispatch  *pAttendee,
-  [in] CTRL_LEVEL RequestedLevel,
-       long       ReasonCode
+  [in] IDispatch  *pAttendee,
+  [in] CTRL_LEVEL RequestedLevel,
+       long       ReasonCode
 );
 ```
 
@@ -43,14 +47,14 @@ void OnControlLevelChangeResponse(
 *pAttendee* \[in\]
 </dt> <dd>
 
-Attendee that requests control. Query the **IDispatch** interface for the [**IRDPSRAPIAttendee**](irdpsrapiattendee.md) interface that you use to retrieve information about the attendee.
+Attendee that requests control. Query the **IDispatch** interface for the [**IRDPSRAPIAttendee**](/windows/win32/RdpEncomAPI/nn-rdpencomapi-irdpsrapiattendee?branch=master) interface that you use to retrieve information about the attendee.
 
 </dd> <dt>
 
 *RequestedLevel* \[in\]
 </dt> <dd>
 
-Level of control requested by the attendee. For possible values, see the [**CTRL\_LEVEL**](ctrl-level.md) enumeration.
+Level of control requested by the attendee. For possible values, see the [**CTRL\_LEVEL**](/windows/win32/Rdpencomapi/ne-rdpencomapi-__midl___midl_itf_rdpencomapi_0000_0000_0001?branch=master) enumeration.
 
 </dd> <dt>
 
@@ -71,8 +75,8 @@ This event does not return a value.
 
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Header<br/>                   | <dl> <dt>RdpEncomAPI.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>RdpEncomAPI.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>RdpEncomAPI.tlb</dt> </dl> |
@@ -84,15 +88,15 @@ This event does not return a value.
 
 <dl> <dt>
 
-[**\_IRDPSessionEvents**](-irdpsessionevents.md)
+[**\_IRDPSessionEvents**](/windows/win32/RdpEncomAPI/?branch=master)
 </dt> <dt>
 
-[**SendControlLevelChangeResponse**](irdpsrapisharingsession2-sendcontrollevelchangeresponse.md)
+[**SendControlLevelChangeResponse**](/windows/win32/RdpEncomAPI/nf-rdpencomapi-irdpsrapisharingsession2-sendcontrollevelchangeresponse?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

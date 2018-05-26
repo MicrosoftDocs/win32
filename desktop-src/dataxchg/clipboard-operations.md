@@ -1,15 +1,28 @@
 ---
 title: Clipboard Operations
 description: A window should use the clipboard when cutting, copying, or pasting data. A window places data on the clipboard for cut and copy operations and retrieves data from the clipboard for paste operations.
-ms.assetid: '27f9142c-3154-4de5-aea6-3c53f7e940ec'
-keywords: ["Windows User Interface,clipboard", "clipboard,windows", "clipboard,cutting data", "clipboard,copying data", "clipboard,pasting data", "clipboard,owner window", "clipboard,delayed rendering", "clipboard,memory"]
+ms.assetid: 27f9142c-3154-4de5-aea6-3c53f7e940ec
+keywords:
+- Windows User Interface,clipboard
+- clipboard,windows
+- clipboard,cutting data
+- clipboard,copying data
+- clipboard,pasting data
+- clipboard,owner window
+- clipboard,delayed rendering
+- clipboard,memory
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Clipboard Operations
 
 A window should use the clipboard when cutting, copying, or pasting data. A window places data on the clipboard for cut and copy operations and retrieves data from the clipboard for paste operations. The following sections describe these operations and related issues.
 
-To place data on or retrieve data from the clipboard, a window must first open the clipboard by using the [**OpenClipboard**](openclipboard.md) function. Only one window can have the clipboard open at a time. To find out which window has the clipboard open, call the [**GetOpenClipboardWindow**](getopenclipboardwindow.md) function. When it has finished, the window must close the clipboard by calling the [**CloseClipboard**](closeclipboard.md) function.
+To place data on or retrieve data from the clipboard, a window must first open the clipboard by using the [**OpenClipboard**](/windows/win32/Winuser/nf-winuser-openclipboard?branch=master) function. Only one window can have the clipboard open at a time. To find out which window has the clipboard open, call the [**GetOpenClipboardWindow**](/windows/win32/Winuser/nf-winuser-getopenclipboardwindow?branch=master) function. When it has finished, the window must close the clipboard by calling the [**CloseClipboard**](/windows/win32/Winuser/nf-winuser-closeclipboard?branch=master) function.
 
 The following topics are discussed in this section.
 
@@ -21,21 +34,21 @@ The following topics are discussed in this section.
 
 ## Cut and Copy Operations
 
-To place information on the clipboard, a window first clears any previous clipboard content by using the [**EmptyClipboard**](emptyclipboard.md) function. This function sends the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message to the previous clipboard owner, frees resources associated with data on the clipboard, and assigns clipboard ownership to the window that has the clipboard open. To find out which window owns the clipboard, call the [**GetClipboardOwner**](getclipboardowner.md) function.
+To place information on the clipboard, a window first clears any previous clipboard content by using the [**EmptyClipboard**](/windows/win32/Winuser/nf-winuser-emptyclipboard?branch=master) function. This function sends the [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message to the previous clipboard owner, frees resources associated with data on the clipboard, and assigns clipboard ownership to the window that has the clipboard open. To find out which window owns the clipboard, call the [**GetClipboardOwner**](/windows/win32/Winuser/nf-winuser-getclipboardowner?branch=master) function.
 
-After emptying the clipboard, the window places data on the clipboard in as many clipboard formats as possible, ordered from the most descriptive clipboard format to the least descriptive. For each format, the window calls the [**SetClipboardData**](setclipboarddata.md) function, specifying the format identifier and a global memory handle. The memory handle can be NULL, indicating that the window renders the data on request. For more information, see [Delayed Rendering](#delayed-rendering).
+After emptying the clipboard, the window places data on the clipboard in as many clipboard formats as possible, ordered from the most descriptive clipboard format to the least descriptive. For each format, the window calls the [**SetClipboardData**](/windows/win32/Winuser/nf-winuser-setclipboarddata?branch=master) function, specifying the format identifier and a global memory handle. The memory handle can be NULL, indicating that the window renders the data on request. For more information, see [Delayed Rendering](#delayed-rendering).
 
 ## Paste Operations
 
-To retrieve paste information from the clipboard, a window first determines the clipboard format to retrieve. Typically, a window enumerates the available clipboard formats by using the [**EnumClipboardFormats**](enumclipboardformats.md) function and uses the first format it recognizes. This method selects the best available format according to the priority set when the data was placed on the clipboard.
+To retrieve paste information from the clipboard, a window first determines the clipboard format to retrieve. Typically, a window enumerates the available clipboard formats by using the [**EnumClipboardFormats**](/windows/win32/Winuser/nf-winuser-enumclipboardformats?branch=master) function and uses the first format it recognizes. This method selects the best available format according to the priority set when the data was placed on the clipboard.
 
-Alternatively, a window can use the [**GetPriorityClipboardFormat**](getpriorityclipboardformat.md) function. This function identifies the best available clipboard format according to a specified priority. A window that recognizes only one clipboard format can simply determine whether that format is available by using the [**IsClipboardFormatAvailable**](isclipboardformatavailable.md) function.
+Alternatively, a window can use the [**GetPriorityClipboardFormat**](/windows/win32/Winuser/nf-winuser-getpriorityclipboardformat?branch=master) function. This function identifies the best available clipboard format according to a specified priority. A window that recognizes only one clipboard format can simply determine whether that format is available by using the [**IsClipboardFormatAvailable**](/windows/win32/Winuser/nf-winuser-isclipboardformatavailable?branch=master) function.
 
-After determining the clipboard format to use, a window calls the [**GetClipboardData**](getclipboarddata.md) function. This function returns the handle to a global memory object containing data in the specified format. A window can briefly lock the memory object in order to examine or copy the data. However, a window should not free the object or leave it locked for a long period of time.
+After determining the clipboard format to use, a window calls the [**GetClipboardData**](/windows/win32/Winuser/nf-winuser-getclipboarddata?branch=master) function. This function returns the handle to a global memory object containing data in the specified format. A window can briefly lock the memory object in order to examine or copy the data. However, a window should not free the object or leave it locked for a long period of time.
 
 ## Clipboard Ownership
 
-The *clipboard owner* is the window associated with the information on the clipboard. A window becomes the clipboard owner when it places data on the clipboard—specifically, when it calls the [**EmptyClipboard**](emptyclipboard.md) function. The window remains the clipboard owner until it is closed or another window empties the clipboard.
+The *clipboard owner* is the window associated with the information on the clipboard. A window becomes the clipboard owner when it places data on the clipboard specifically, when it calls the [**EmptyClipboard**](/windows/win32/Winuser/nf-winuser-emptyclipboard?branch=master) function. The window remains the clipboard owner until it is closed or another window empties the clipboard.
 
 When the clipboard is emptied, the clipboard owner receives a [**WM\_DESTROYCLIPBOARD**](wm-destroyclipboard.md) message. Following are some reasons why a window might process this message:
 
@@ -45,13 +58,13 @@ When the clipboard is emptied, the clipboard owner receives a [**WM\_DESTROYCLIP
 
 ## Delayed Rendering
 
-When placing a clipboard format on the clipboard, a window can delay rendering the data in that format until the data is needed. To do so, an application can specify **NULL** for the *hData* parameter of the [**SetClipboardData**](setclipboarddata.md) function. This is useful if the application supports several clipboard formats, some or all of which are time-consuming to render. By passing a **NULL** handle, a window renders complex clipboard formats only when and if they are needed.
+When placing a clipboard format on the clipboard, a window can delay rendering the data in that format until the data is needed. To do so, an application can specify **NULL** for the *hData* parameter of the [**SetClipboardData**](/windows/win32/Winuser/nf-winuser-setclipboarddata?branch=master) function. This is useful if the application supports several clipboard formats, some or all of which are time-consuming to render. By passing a **NULL** handle, a window renders complex clipboard formats only when and if they are needed.
 
-If a window delays rendering a clipboard format, it must be prepared to render the format upon request for as long as it is the clipboard owner. The system sends the clipboard owner a [**WM\_RENDERFORMAT**](wm-renderformat.md) message when a request is received for a specific format that has not been rendered. Upon receiving this message, the window should call the [**SetClipboardData**](setclipboarddata.md) function to place a global memory handle on the clipboard in the requested format.
+If a window delays rendering a clipboard format, it must be prepared to render the format upon request for as long as it is the clipboard owner. The system sends the clipboard owner a [**WM\_RENDERFORMAT**](wm-renderformat.md) message when a request is received for a specific format that has not been rendered. Upon receiving this message, the window should call the [**SetClipboardData**](/windows/win32/Winuser/nf-winuser-setclipboarddata?branch=master) function to place a global memory handle on the clipboard in the requested format.
 
 If the clipboard owner is destroyed and has delayed rendering some or all clipboard formats, it receives the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message. Upon receiving this message, the window should place valid memory handles on the clipboard for all clipboard formats that it provides. This ensures that these formats remain available after the clipboard owner is destroyed.
 
-An application should not open the clipboard before calling [**SetClipboardData**](setclipboarddata.md) in response to the [**WM\_RENDERFORMAT**](wm-renderformat.md) or [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message.
+An application should not open the clipboard before calling [**SetClipboardData**](/windows/win32/Winuser/nf-winuser-setclipboarddata?branch=master) in response to the [**WM\_RENDERFORMAT**](wm-renderformat.md) or [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message.
 
 Any clipboard formats that are not rendered in response to the [**WM\_RENDERALLFORMATS**](wm-renderallformats.md) message cease to be available to other applications and are no longer enumerated by the clipboard functions.
 
@@ -72,11 +85,11 @@ After a memory object is placed on the clipboard, ownership of that memory handl
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
 title: Hit Test Options
 description: This section lists the option values that are used with the dwOptions parameter of the HitTestThemeBackground function. For a list of the values returned when you specify one of these options, see Hit Test Return Values.
-ms.assetid: 'a0d5c6c8-bb50-46e1-98ae-2374842344c6'
+ms.assetid: a0d5c6c8-bb50-46e1-98ae-2374842344c6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hit Test Options
 
-This section lists the option values that are used with the *dwOptions* parameter of the [**HitTestThemeBackground**](hittestthemebackground.md) function. For a list of the values returned when you specify one of these options, see [Hit Test Return Values](theme-hit-test-retval.md).
+This section lists the option values that are used with the *dwOptions* parameter of the [**HitTestThemeBackground**](/windows/win32/Uxtheme/nf-uxtheme-hittestthemebackground?branch=master) function. For a list of the values returned when you specify one of these options, see [Hit Test Return Values](theme-hit-test-retval.md).
 
 ## Option Values
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'CryptXML natively supports the URIs listed below.'
-ms.assetid: '012bad01-228a-4bb0-b883-0c2c7abd9271'
+---
+Description: CryptXML natively supports the URIs listed below.
+ms.assetid: 012bad01-228a-4bb0-b883-0c2c7abd9271
 title: XML Digital Signature Cryptographic Algorithms
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XML Digital Signature Cryptographic Algorithms

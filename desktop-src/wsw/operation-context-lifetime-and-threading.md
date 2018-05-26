@@ -1,8 +1,16 @@
 ---
 title: Operation Context Lifetime and Threading
 description: The lifetime of the operation context, represented by a WS\_OPERATION\_CONTEXT handle, determines the lifetime of the properties it contains.
-ms.assetid: '37caf382-2b33-464d-b6c1-e4bd3271a5aa'
-keywords: ["Operation Context Lifetime and Threading Web Services for Windows", "WWSAPI", "WWS"]
+ms.assetid: 37caf382-2b33-464d-b6c1-e4bd3271a5aa
+keywords:
+- Operation Context Lifetime and Threading Web Services for Windows
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Operation Context Lifetime and Threading
@@ -17,7 +25,7 @@ See also, the session based calculator example, [SessionfullCalculatorServiceExa
 
 The operation context supports free threading, however this is true of the operation context itself and does not apply to any of the properties it contains.
 
-When you register a cancel callback for a service operation through the [**WsRegisterOperationForCancel**](wsregisteroperationforcancel.md) function, note that the first registration will succeed; setting the cancel callback multiple times, however, will fail.
+When you register a cancel callback for a service operation through the [**WsRegisterOperationForCancel**](/windows/win32/WebServices/nf-webservices-wsregisteroperationforcancel?branch=master) function, note that the first registration will succeed; setting the cancel callback multiple times, however, will fail.
 
  
 

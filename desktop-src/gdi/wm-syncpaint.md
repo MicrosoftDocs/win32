@@ -1,7 +1,12 @@
-﻿---
-Description: 'The WM\_SYNCPAINT message is used to synchronize painting while avoiding linking independent GUI threads.'
-ms.assetid: '4446be4e-e0b9-46ce-95b2-bea876348c25'
-title: 'WM\_SYNCPAINT message'
+---
+Description: The WM\_SYNCPAINT message is used to synchronize painting while avoiding linking independent GUI threads.
+ms.assetid: 4446be4e-e0b9-46ce-95b2-bea876348c25
+title: WM\_SYNCPAINT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SYNCPAINT message
@@ -73,10 +78,10 @@ When a window has been hidden, shown, moved, or sized, the system may determine 
 [**DefWindowProc**](_win32_defwindowproc_cpp)
 </dt> <dt>
 
-[**GetDCEx**](getdcex.md)
+[**GetDCEx**](/windows/win32/Winuser/nf-winuser-getdcex?branch=master)
 </dt> <dt>
 
-[**GetWindowDC**](getwindowdc.md)
+[**GetWindowDC**](/windows/win32/Winuser/nf-winuser-getwindowdc?branch=master)
 </dt> <dt>
 
 [**WM\_PAINT**](wm-paint.md)

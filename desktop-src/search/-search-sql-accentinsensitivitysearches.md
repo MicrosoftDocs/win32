@@ -1,7 +1,12 @@
 ---
-Description: 'By default, the Windows Search engine and catalog are insensitive to diacritics, which are accent marks added to letters to alter a word''s meaning or pronunciation.'
-ms.assetid: '71007bd4-5232-469c-982b-ff0d24bd0c1f'
+Description: By default, the Windows Search engine and catalog are insensitive to diacritics, which are accent marks added to letters to alter a words meaning or pronunciation.
+ms.assetid: 71007bd4-5232-469c-982b-ff0d24bd0c1f
 title: Diacritic Sensitivity in Searches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Diacritic Sensitivity in Searches

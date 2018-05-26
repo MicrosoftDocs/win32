@@ -1,12 +1,18 @@
 ---
 title: TextureCube SampleCmp methods
 description: Samples a texture, using a comparison value to reject samples.
-ms.assetid: '2238D282-5D4E-44E8-A8E1-AD53D25201A3'
-keywords: ["SampleCmp methods HLSL"]
+ms.assetid: 2238D282-5D4E-44E8-A8E1-AD53D25201A3
+keywords:
+- SampleCmp methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TextureCube::SampleCmp methods
@@ -35,9 +41,9 @@ Samples a texture, using a comparison value to reject samples.
 [Texture-Object](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

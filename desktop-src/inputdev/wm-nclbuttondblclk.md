@@ -1,8 +1,9 @@
 ---
 title: WM\_NCLBUTTONDBLCLK message
 description: Posted when the user double-clicks the left mouse button while the cursor is within the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
-ms.assetid: 'fc655631-64d0-4cc5-b85e-25d274182994'
-keywords: ["WM_NCLBUTTONDBLCLK message Keyboard and Mouse Input"]
+ms.assetid: fc655631-64d0-4cc5-b85e-25d274182994
+keywords:
+- WM_NCLBUTTONDBLCLK message Keyboard and Mouse Input
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_NCLBUTTONDBLCLK message
@@ -63,7 +69,7 @@ yPos = GET_Y_LPARAM(lParam);
 > \[!Important\]  
 > Do not use the [**LOWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632659) or [**HIWORD**](https://msdn.microsoft.com/library/windows/desktop/ms632657) macros to extract the x- and y- coordinates of the cursor position because these macros return incorrect results on systems with multiple monitors. Systems with multiple monitors can have negative x- and y- coordinates, and **LOWORD** and **HIWORD** treat the coordinates as unsigned quantities.
 
- 
+ 
 
 By default, the [**DefWindowProc**](https://msdn.microsoft.com/library/windows/desktop/ms633572) function tests the specified point to find out the location of the cursor and performs the appropriate action. If appropriate, **DefWindowProc** sends the [**WM\_SYSCOMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms646360) message to the window.
 
@@ -77,8 +83,8 @@ The system generates a **WM\_NCLBUTTONDBLCLK** message when the user presses, re
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windowsx.h)</dt> </dl> |
 
 
@@ -126,9 +132,9 @@ The system generates a **WM\_NCLBUTTONDBLCLK** message when the user presses, re
 [**POINTS**](https://msdn.microsoft.com/library/windows/desktop/dd162808)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

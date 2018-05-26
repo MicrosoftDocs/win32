@@ -1,7 +1,12 @@
 ---
-Description: 'The GetDwordFromBlob function retrieves the named DWORD value from a BLOB.'
-ms.assetid: 'edad74a7-b726-46d9-b49f-9984272d0a29'
+Description: The GetDwordFromBlob function retrieves the named DWORD value from a BLOB.
+ms.assetid: edad74a7-b726-46d9-b49f-9984272d0a29
 title: GetDwordFromBlob function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetDwordFromBlob function
@@ -13,11 +18,11 @@ The **GetDwordFromBlob** function retrieves the named **DWORD** value from a BLO
 
 ```C++
 DWORD GetDwordFromBlob(
-  _In_        HBLOB hBlob,
-  _In_  const char  *pOwnerName,
-  _In_  const char  *pCategoryName,
-  _In_  const char  *pTagName,
-  _Out_       DWORD *pDword
+  _In_        HBLOB hBlob,
+  _In_  const char  *pOwnerName,
+  _In_  const char  *pCategoryName,
+  _In_  const char  *pTagName,
+  _Out_       DWORD *pDword
 );
 ```
 
@@ -74,8 +79,8 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Npptools.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Npptools.dll</dt> </dl> |
@@ -116,9 +121,9 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 [GetStringsFromBlob](getstringsfromblob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

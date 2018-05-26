@@ -1,8 +1,10 @@
 ---
 title: Win32\_InstalledWin32Program class
 description: The Win32\_InstalledWin32Program class represents an installed Win32 application.
-ms.assetid: '2eef00da-8597-4852-b4fb-4276d05fd724'
-keywords: ["Win32_InstalledWin32Program class Application and Device Inventory Provider", "Win32_InstalledWin32Program class Application and Device Inventory Provider , described"]
+ms.assetid: 2eef00da-8597-4852-b4fb-4276d05fd724
+keywords:
+- Win32_InstalledWin32Program class Application and Device Inventory Provider
+- Win32_InstalledWin32Program class Application and Device Inventory Provider , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_InstalledWin32Program class
@@ -153,16 +160,16 @@ The version of the installed Win32 application.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Aeinv.mof</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

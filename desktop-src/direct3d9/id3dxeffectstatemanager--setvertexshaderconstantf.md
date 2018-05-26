@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback function that must be implemented by a user to set an array of vertex shader floating-point constants.'
-ms.assetid: '3a13040d-5d5a-4454-bf11-cda9653585c0'
-title: 'ID3DXEffectStateManager::SetVertexShaderConstantF method'
+---
+Description: A callback function that must be implemented by a user to set an array of vertex shader floating-point constants.
+ms.assetid: 3a13040d-5d5a-4454-bf11-cda9653585c0
+title: ID3DXEffectStateManagerSetVertexShaderConstantF method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectStateManager::SetVertexShaderConstantF method
@@ -59,7 +64,7 @@ Type: **[**HRESULT**](455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetVertexShaderConstantF**](idirect3ddevice9--setvertexshaderconstantf.md)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetVertexShaderConstantF**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setvertexshaderconstantf?branch=master)) will fail.
 
 ## Requirements
 

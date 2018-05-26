@@ -4,17 +4,21 @@ description: Creates a user policy based on the supplied policy descriptor.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '1CDCA4A2-5F34-4AAF-979C-A828D593A4CC'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 1CDCA4A2-5F34-4AAF-979C-A828D593A4CC
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSUserPolicy userPolicyWithPolicyDescriptor userId authenticationCallback options completionBlock method"]
+keywords:
+- MSUserPolicy userPolicyWithPolicyDescriptor userId authenticationCallback options completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSUserPolicy userPolicyWithPolicyDescriptor userId authenticationCallback options completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSUserPolicy userPolicyWithPolicyDescriptor:userId:authenticationCallback:options:completionBlock method
@@ -45,7 +49,7 @@ Creates a user policy based on the supplied policy descriptor. The following met
 
 
 
- 
+ 
 
 ## Returns
 
@@ -65,11 +69,11 @@ MSUserPolicy.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Using an Event Callback to Process Driver Messages
 description: Using an Event Callback to Process Driver Messages
-ms.assetid: '5b17ff93-ed00-46ee-828c-baf716c9257c'
-keywords: ["waveform audio,event callback", "audio data blocks,event callback", "waveform audio,processing driver messages", "audio data blocks,processing driver messages", "processing driver messages", "CreateEvent function"]
+ms.assetid: 5b17ff93-ed00-46ee-828c-baf716c9257c
+keywords:
+- waveform audio,event callback
+- audio data blocks,event callback
+- waveform audio,processing driver messages
+- audio data blocks,processing driver messages
+- processing driver messages
+- CreateEvent function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using an Event Callback to Process Driver Messages

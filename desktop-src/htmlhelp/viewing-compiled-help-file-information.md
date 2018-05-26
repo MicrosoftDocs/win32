@@ -1,7 +1,12 @@
 ---
 title: Viewing Compiled Help File Information
 description: HTML Help Workshop keeps track of information for each compiled help file you create. This includes the date the file was created, and can also include a list of each file that was included.
-ms.assetid: 'C3432967-50A6-40a5-B1C5-776C1C344BD9'
+ms.assetid: C3432967-50A6-40a5-B1C5-776C1C344BD9
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Viewing Compiled Help File Information

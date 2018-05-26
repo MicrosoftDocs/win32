@@ -1,7 +1,12 @@
 ---
-Description: 'An asynchronous command to run the graph has failed.'
-ms.assetid: '0bfcf4b4-b35a-4593-9956-8e1e8c9139cb'
-title: 'EC\_ERROR\_STILLPLAYING'
+Description: An asynchronous command to run the graph has failed.
+ms.assetid: 0bfcf4b4-b35a-4593-9956-8e1e8c9139cb
+title: EC\_ERROR\_STILLPLAYING
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_ERROR\_STILLPLAYING
@@ -54,9 +59,9 @@ If the filter graph manager issues an asynchronous run command that fails, it se
 [Event Notification in DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

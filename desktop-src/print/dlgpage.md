@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DLGPAGE structure is used for specifying a property sheet page to CPSUI''s ComPropSheet function. The structure''s address is included in a COMPROPSHEETUI structure, and all member values are supplied by the ComPropSheet caller.'
-ms.assetid: '61fb66b9-afd7-4ec4-bbbb-66a287398484'
+---
+Description: The DLGPAGE structure is used for specifying a property sheet page to CPSUIs ComPropSheet function. The structures address is included in a COMPROPSHEETUI structure, and all member values are supplied by the ComPropSheet caller.
+ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 title: DLGPAGE structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DLGPAGE structure

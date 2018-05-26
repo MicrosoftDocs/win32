@@ -1,20 +1,25 @@
 ---
-Description: 'The CopyMediaType function copies an AM\_MEDIA\_TYPE structure into another structure, including the format block'
-ms.assetid: '5b47e197-abb5-4b2c-ad65-a506c5e239be'
+Description: The CopyMediaType function copies an AM\_MEDIA\_TYPE structure into another structure, including the format block
+ms.assetid: 5b47e197-abb5-4b2c-ad65-a506c5e239be
 title: CopyMediaType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CopyMediaType function
 
-The **CopyMediaType** function copies an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure into another structure, including the format block
+The **CopyMediaType** function copies an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure into another structure, including the format block
 
 ## Syntax
 
 
 ```C++
 HRESULT WINAPI CopyMediaType(
-         AM_MEDIA_TYPE *pmtTarget,
-   const AM_MEDIA_TYPE *pmtSource
+         AM_MEDIA_TYPE *pmtTarget,
+   const AM_MEDIA_TYPE *pmtSource
 );
 ```
 
@@ -27,14 +32,14 @@ HRESULT WINAPI CopyMediaType(
 *pmtTarget* 
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. The method copies the media type into this structure.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. The method copies the media type into this structure.
 
 </dd> <dt>
 
 *pmtSource* 
 </dt> <dd>
 
-Pointer to a source [**AM\_MEDIA\_TYPE**](am-media-type.md) structure to copy.
+Pointer to a source [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure to copy.
 
 </dd> </dl>
 
@@ -66,9 +71,9 @@ After the method returns, call [**FreeMediaType**](freemediatype.md) on *pmtTarg
 [**Media Type Functions**](media-type-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

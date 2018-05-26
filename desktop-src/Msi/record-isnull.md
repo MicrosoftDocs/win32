@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IsNull property of the Record object is a read-only property that returns True if the indicated field is Null and False if the field contains data.'
-ms.assetid: 'f36240fa-d4a2-461f-a404-ba867b5f2950'
-title: 'Record.IsNull property'
+---
+Description: The IsNull property of the Record object is a read-only property that returns True if the indicated field is Null and False if the field contains data.
+ms.assetid: f36240fa-d4a2-461f-a404-ba867b5f2950
+title: Record.IsNull property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Record.IsNull property

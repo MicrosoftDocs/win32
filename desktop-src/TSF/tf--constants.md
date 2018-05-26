@@ -1,7 +1,7 @@
 ---
 title: TF\_\ Constants
 description: TSF atom function calls use these constants to manage thread input processes.
-ms.assetid: '1b779d99-3e09-4789-8575-73a6ecb44e3b'
+ms.assetid: 1b779d99-3e09-4789-8575-73a6ecb44e3b
 topic_type:
 - apiref
 api_name:
@@ -11,6 +11,11 @@ api_location:
 - Msctf.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TF\_\* Constants
@@ -32,17 +37,17 @@ TSF atom function calls use these constants to manage thread input processes.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                      |
 | Header<br/>                   | <dl> <dt>Msctf.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Msctf.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

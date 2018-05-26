@@ -1,17 +1,32 @@
 ---
 title: To Use Profiles with the Writer
 description: To Use Profiles with the Writer
-ms.assetid: '8805bc57-5f19-4544-bcb8-5af880ba8ea0'
-keywords: ["Windows Media Format SDK,writing ASF files", "Windows Media Format SDK,creating ASF files", "Windows Media Format SDK,Advanced Systems Format (ASF)", "Advanced Systems Format (ASF),writing files", "ASF (Advanced Systems Format),writing files", "Advanced Systems Format (ASF),creating files", "ASF (Advanced Systems Format),creating files", "profiles,creating ASF files", "profiles,writing ASF files", "profiles,ASF file creation"]
+ms.assetid: 8805bc57-5f19-4544-bcb8-5af880ba8ea0
+keywords:
+- Windows Media Format SDK,writing ASF files
+- Windows Media Format SDK,creating ASF files
+- Windows Media Format SDK,Advanced Systems Format (ASF)
+- Advanced Systems Format (ASF),writing files
+- ASF (Advanced Systems Format),writing files
+- Advanced Systems Format (ASF),creating files
+- ASF (Advanced Systems Format),creating files
+- profiles,creating ASF files
+- profiles,writing ASF files
+- profiles,ASF file creation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Use Profiles with the Writer
 
 The writer uses profile data to create ASF files. You must specify a profile for use before doing anything else with the writer.
 
-You can set a system profile for use with the writer by passing the profile ID to the [**IWMWriter::SetProfileByID**](iwmwriter-setprofilebyid.md) method.
+You can set a system profile for use with the writer by passing the profile ID to the [**IWMWriter::SetProfileByID**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofilebyid?branch=master) method.
 
-To specify a custom profile for use with the writer, you must obtain an [**IWMProfile**](iwmprofile.md) interface to an object containing the desired profile data. You can use one of the loading methods of the [**IWMProfileManager**](iwmprofilemanager.md) interface to accomplish this. After you have a valid **IWMProfile** interface, you can pass a pointer to it to the [**IWMWriter::SetProfile**](iwmwriter-setprofile.md) method. For more information about profile settings, see [Working with Profiles](working-with-profiles.md).
+To specify a custom profile for use with the writer, you must obtain an [**IWMProfile**](iwmprofile.md) interface to an object containing the desired profile data. You can use one of the loading methods of the [**IWMProfileManager**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmprofilemanager?branch=master) interface to accomplish this. After you have a valid **IWMProfile** interface, you can pass a pointer to it to the [**IWMWriter::SetProfile**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofile?branch=master) method. For more information about profile settings, see [Working with Profiles](working-with-profiles.md).
 
 If you make changes to the profile object by using the **IWMProfile** interface after setting the profile in the writer, you must call **SetProfile** again, or else the changes will not be reflected in the writer. However, calling **SetProfile** will reset all header attributes, so be sure to set any required header attributes after calling this method.
 
@@ -44,7 +59,7 @@ HRESULT SetProfileExample()
 
 <dl> <dt>
 
-[**IWMWriter::SetProfileByID**](iwmwriter-setprofilebyid.md)
+[**IWMWriter::SetProfileByID**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriter-setprofilebyid?branch=master)
 </dt> <dt>
 
 [**Working with Profiles**](working-with-profiles.md)

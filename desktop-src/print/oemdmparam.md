@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OEMDMPARAM structure is used as an input parameter to the IPrintOemUI::DevMode, IPrintOemUni::DevMode, and IPrintOemPS::DevMode methods.'
-ms.assetid: '625980d1-47eb-4427-a9e8-967b1873bbd6'
+---
+Description: The OEMDMPARAM structure is used as an input parameter to the IPrintOemUIDevMode, IPrintOemUniDevMode, and IPrintOemPSDevMode methods.
+ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 title: OEMDMPARAM structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # OEMDMPARAM structure

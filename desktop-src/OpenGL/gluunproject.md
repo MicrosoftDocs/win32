@@ -1,8 +1,9 @@
 ---
 title: gluUnProject function
 description: The gluUnProject function maps window coordinates to object coordinates.
-ms.assetid: '6a719fc2-ad40-4b22-9c99-5753f5dbb8a0'
-keywords: ["gluUnProject function OpenGL"]
+ms.assetid: 6a719fc2-ad40-4b22-9c99-5753f5dbb8a0
+keywords:
+- gluUnProject function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - glu32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # gluUnProject function
@@ -22,15 +28,15 @@ The **gluUnProject** function maps window coordinates to object coordinates.
 
 ```C++
 int WINAPI gluUnProject(
-         GLdouble winx,
-         GLdouble winy,
-         GLdouble winz,
-   const GLdouble modelMatrix[16],
-   const GLdouble projMatrix[16],
-   const GLint    viewport[4],
-         GLdouble *objx,
-         GLdouble *objy,
-         GLdouble *objz
+         GLdouble winx,
+         GLdouble winy,
+         GLdouble winz,
+   const GLdouble modelMatrix[16],
+   const GLdouble projMatrix[16],
+   const GLint    viewport[4],
+         GLdouble *objx,
+         GLdouble *objy,
+         GLdouble *objz
 );
 ```
 
@@ -119,8 +125,8 @@ The **gluUnProject** function maps the specified window coordinates into object 
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Glu.h</dt> </dl>     |
 | Library<br/>                  | <dl> <dt>Glu32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Glu32.dll</dt> </dl> |
@@ -143,9 +149,9 @@ The **gluUnProject** function maps the specified window coordinates into object 
 [**gluProject**](gluproject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,14 +1,20 @@
 ---
 title: attachmentsType Complex Type
 description: Defines the elements used to specify an attachment sent with an email message.
-ms.assetid: 'b13d9346-a28d-4362-bcfc-dc11869fb8eb'
-keywords: ["attachmentsType complex type Task Scheduler"]
+ms.assetid: b13d9346-a28d-4362-bcfc-dc11869fb8eb
+keywords:
+- attachmentsType complex type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - attachmentsType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # attachmentsType Complex Type
@@ -43,14 +49,14 @@ Defines the elements used to specify an attachment sent with an email message.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

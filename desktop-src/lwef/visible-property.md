@@ -1,7 +1,12 @@
 ---
 title: Visible Property
 description: Visible Property
-ms.assetid: '8a58cd45-0391-4897-b3a2-d4f5d7297ea8'
+ms.assetid: 8a58cd45-0391-4897-b3a2-d4f5d7297ea8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visible Property
@@ -30,7 +35,7 @@ Returns or sets whether the Microsoft Agent property sheet window is visible (op
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -41,11 +46,11 @@ The server displays the window based on the location and size set by the user.
 > [!Note]  
 > The user can override this property.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

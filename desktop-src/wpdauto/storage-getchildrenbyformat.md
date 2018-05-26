@@ -1,14 +1,22 @@
 ---
 title: Storage.GetChildrenByFormat method
 description: The GetChildrenByFormat method returns a collection of the immediate children of this Storage object filtered by one or more object formats.
-ms.assetid: '7f9d88e7-802e-4015-b9db-f84bdbadeef3'
-keywords: ["GetChildrenByFormat method WPD Automation", "GetChildrenByFormat method WPD Automation , Storage object", "Storage object WPD Automation , GetChildrenByFormat method"]
+ms.assetid: 7f9d88e7-802e-4015-b9db-f84bdbadeef3
+keywords:
+- GetChildrenByFormat method WPD Automation
+- GetChildrenByFormat method WPD Automation , Storage object
+- Storage object WPD Automation , GetChildrenByFormat method
 topic_type:
 - apiref
 api_name:
 - Storage.GetChildrenByFormat
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Storage.GetChildrenByFormat method
@@ -85,8 +93,8 @@ var children = storage.GetChildrenByFormat("{aaaaaaaa-bbbb-cccc-dddd-eeeeeefffff
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -100,9 +108,9 @@ var children = storage.GetChildrenByFormat("{aaaaaaaa-bbbb-cccc-dddd-eeeeeefffff
 [**Storage Object**](storage-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The center of the BoundingSphere.'
-ms.assetid: '5e8a6cd6-a38b-406c-a759-8685bfecc0e6'
-title: 'BoundingSphere.Center'
+---
+Description: The center of the BoundingSphere.
+ms.assetid: 5e8a6cd6-a38b-406c-a759-8685bfecc0e6
+title: BoundingSphere.Center
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BoundingSphere.Center
@@ -43,7 +48,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 **Reference**
 </dt> <dt>
 
-[**BoundingSphere**](boundingsphere.md)
+[**BoundingSphere**](/windows/win32/DirectXCollision/ns-directxcollision-boundingsphere?branch=master)
 </dt> </dl>
 
  

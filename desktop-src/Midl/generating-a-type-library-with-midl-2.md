@@ -2,7 +2,13 @@
 title: Generating a Type Library with MIDL
 description: The top-level element of the ODL syntax is the library statement (library block).
 ms.assetid: e21a9e6e-4e10-4280-af8f-24534cb2ab90
-keywords: ["Microsoft Interface Definition Language MIDL , tasks, generating a type library"]
+keywords:
+- Microsoft Interface Definition Language MIDL , tasks, generating a type library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating a Type Library with MIDL

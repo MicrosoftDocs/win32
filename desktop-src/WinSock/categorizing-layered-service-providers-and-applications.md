@@ -1,7 +1,12 @@
 ---
-Description: 'Winsock 2 accommodates layered protocols.'
-ms.assetid: '1c5efd2e-1b42-4c20-a4da-b81a5fc4243c'
+Description: Winsock 2 accommodates layered protocols.
+ms.assetid: 1c5efd2e-1b42-4c20-a4da-b81a5fc4243c
 title: Categorizing Layered Service Providers and Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Categorizing Layered Service Providers and Applications
@@ -59,25 +64,25 @@ If an LSP does not have a category set, it is considered to be in the All Other 
 
 Several new functions are available on Windows Vista and later for categorizing an LSP:
 
--   [**WSCGetProviderInfo**](wscgetproviderinfo.md)
--   [**WSCGetProviderInfo32**](wscgetproviderinfo32.md)
--   [**WSCSetProviderInfo**](wscsetproviderinfo.md)
--   [**WSCSetProviderInfo32**](wscsetproviderinfo32.md)
+-   [**WSCGetProviderInfo**](/windows/win32/Ws2spi/nf-ws2spi-wscgetproviderinfo?branch=master)
+-   [**WSCGetProviderInfo32**](/windows/win32/Ws2spi/nf-ws2spi-wscgetproviderinfo32?branch=master)
+-   [**WSCSetProviderInfo**](/windows/win32/Ws2spi/nf-ws2spi-wscsetproviderinfo?branch=master)
+-   [**WSCSetProviderInfo32**](/windows/win32/Ws2spi/nf-ws2spi-wscsetproviderinfo32?branch=master)
 
-In order to categorize an LSP, the [**WSCSetProviderInfo**](wscsetproviderinfo.md) or [**WSCSetProviderInfo32**](wscsetproviderinfo32.md) function is called with a GUID to identify the LSP hidden entry, the information class to be set for this LSP protocol entry, and a set of flags used to modify the behavior of the function.
+In order to categorize an LSP, the [**WSCSetProviderInfo**](/windows/win32/Ws2spi/nf-ws2spi-wscsetproviderinfo?branch=master) or [**WSCSetProviderInfo32**](/windows/win32/Ws2spi/nf-ws2spi-wscsetproviderinfo32?branch=master) function is called with a GUID to identify the LSP hidden entry, the information class to be set for this LSP protocol entry, and a set of flags used to modify the behavior of the function.
 
-The [**WSCGetProviderInfo**](wscgetproviderinfo.md) or [**WSCGetProviderInfo32**](wscgetproviderinfo32.md) function is similarly used to retrieve the data associated with an information class for an LSP.
+The [**WSCGetProviderInfo**](/windows/win32/Ws2spi/nf-ws2spi-wscgetproviderinfo?branch=master) or [**WSCGetProviderInfo32**](/windows/win32/Ws2spi/nf-ws2spi-wscgetproviderinfo32?branch=master) function is similarly used to retrieve the data associated with an information class for an LSP.
 
 ## Categorizing Applications
 
 Several new functions are available on Windows Vista and later for categorizing an application:
 
--   [**WSCGetApplicationCategory**](wscgetapplicationcategory.md)
--   [**WSCSetApplicationCategory**](wscsetapplicationcategory.md)
+-   [**WSCGetApplicationCategory**](/windows/win32/Ws2spi/nf-ws2spi-wscgetapplicationcategory?branch=master)
+-   [**WSCSetApplicationCategory**](/windows/win32/Ws2spi/nf-ws2spi-wscsetapplicationcategory?branch=master)
 
-In order to categorize an application, the [**WSCSetApplicationCategory**](wscsetapplicationcategory.md) function is called with the load path to the executable image to identify the application, the command line arguments used when starting the application, and the LSP categories which are permitted for all instances of this application.
+In order to categorize an application, the [**WSCSetApplicationCategory**](/windows/win32/Ws2spi/nf-ws2spi-wscsetapplicationcategory?branch=master) function is called with the load path to the executable image to identify the application, the command line arguments used when starting the application, and the LSP categories which are permitted for all instances of this application.
 
-The [**WSCGetApplicationCategory**](wscgetapplicationcategory.md) function is similarly used to retrieve the layered service provider (LSP) categories associated with an application.
+The [**WSCGetApplicationCategory**](/windows/win32/Ws2spi/nf-ws2spi-wscgetapplicationcategory?branch=master) function is similarly used to retrieve the layered service provider (LSP) categories associated with an application.
 
 ## Determining Which LSPs Get Loaded
 
@@ -121,7 +126,7 @@ To collect more detailed information on all Winsock providers, execute the follo
 
 **instlsp -p -v**
 
-The output will be a list [**WSAPROTOCOL\_INFO**](wsaprotocol-info-2.md) structures supported on the local computer.
+The output will be a list [**WSAPROTOCOL\_INFO**](/windows/win32/Winsock2/?branch=master) structures supported on the local computer.
 
 For a list of only layered service providers installed on the local computer, execute the following console command:
 

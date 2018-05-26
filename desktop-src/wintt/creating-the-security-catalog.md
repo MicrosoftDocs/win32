@@ -1,7 +1,12 @@
 ---
 title: Creating the Security Catalog
 description: The security catalog contains the cryptographic hashes of all files included in the troubleshooting pack.
-ms.assetid: '294eef16-25c3-4e42-99db-297a692eea2d'
+ms.assetid: 294eef16-25c3-4e42-99db-297a692eea2d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating the Security Catalog

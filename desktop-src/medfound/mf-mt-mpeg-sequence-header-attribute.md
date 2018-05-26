@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains the MPEG-1 or MPEG-2 sequence header for a video media type.'
-ms.assetid: '17b7f76c-404c-4aa9-9746-1488fee027f2'
-title: 'MF\_MT\_MPEG\_SEQUENCE\_HEADER attribute'
+---
+Description: Contains the MPEG-1 or MPEG-2 sequence header for a video media type.
+ms.assetid: 17b7f76c-404c-4aa9-9746-1488fee027f2
+title: MF\_MT\_MPEG\_SEQUENCE\_HEADER attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_MPEG\_SEQUENCE\_HEADER attribute
@@ -37,13 +42,13 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFAttributes::GetBlob**](imfattributes-getblob.md)
+[**IMFAttributes::GetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getblob?branch=master)
 </dt> <dt>
 
-[**IMFAttributes::SetBlob**](imfattributes-setblob.md)
+[**IMFAttributes::SetBlob**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setblob?branch=master)
 </dt> <dt>
 
-[**IMFMediaType**](imfmediatype.md)
+[**IMFMediaType**](/windows/win32/mfobjects/nn-mfobjects-imfmediatype?branch=master)
 </dt> <dt>
 
 [Media Type Attributes](media-type-attributes.md)

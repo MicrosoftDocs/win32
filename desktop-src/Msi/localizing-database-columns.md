@@ -1,7 +1,12 @@
 ---
-Description: 'Modify any of the other localizable columns in the MNPFren.msi database using a table editor such as Orca or SQL queries.'
-ms.assetid: 'b62cf529-71a0-47ff-99ea-a182c0fe4479'
+Description: Modify any of the other localizable columns in the MNPFren.msi database using a table editor such as Orca or SQL queries.
+ms.assetid: b62cf529-71a0-47ff-99ea-a182c0fe4479
 title: Localizing Database Columns
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Localizing Database Columns

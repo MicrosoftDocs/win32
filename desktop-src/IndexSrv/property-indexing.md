@@ -1,7 +1,12 @@
 ---
 title: Property Indexing
 description: Property Indexing
-ms.assetid: '0474da14-8fdf-4f93-a21b-d8f7edb9fcde'
+ms.assetid: 0474da14-8fdf-4f93-a21b-d8f7edb9fcde
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Indexing

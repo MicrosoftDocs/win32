@@ -1,7 +1,12 @@
 ---
 Description: COM+ Application Pooling Tasks
-ms.assetid: 'c6884cd3-a98a-431b-9bae-37880fa4cfa6'
+ms.assetid: c6884cd3-a98a-431b-9bae-37880fa4cfa6
 title: COM+ Application Pooling Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Application Pooling Tasks

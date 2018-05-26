@@ -1,8 +1,9 @@
 ---
 title: CD3DX12\_PIPELINE\_STATE\_STREAM\_ROOT\_SIGNATURE structure
 description: A helper structure used to describe the root signature as a single object suitable for a stream description.
-ms.assetid: '351A78DC-9BDE-43B4-9A72-D65EE15CA441'
-keywords: ["CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE structure"]
+ms.assetid: 351A78DC-9BDE-43B4-9A72-D65EE15CA441
+keywords:
+- CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE structure
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx12.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CD3DX12\_PIPELINE\_STATE\_STREAM\_ROOT\_SIGNATURE structure
@@ -22,10 +28,10 @@ A helper structure used to describe the root signature as a single object suitab
 
 ```C++
 struct CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE {
-                                               CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE;
-                                               CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE(ID3D12RootSignature* const &amp;i);
+                                               CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE;
+                                               CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE(ID3D12RootSignature* const &amp;i);
   CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE operator=(ID3D12RootSignature* const&amp; i);
-                                               operator ID3D12RootSignature*() const;
+                                               operator ID3D12RootSignature*() const;
 };
 ```
 
@@ -99,9 +105,9 @@ typedef CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT<ID3D12RootSignature*, D3D12_PIPE
 [**D3D12\_PIPELINE\_STATE\_SUBOBJECT\_TYPE**](https://msdn.microsoft.com/library/windows/desktop/mt492580)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

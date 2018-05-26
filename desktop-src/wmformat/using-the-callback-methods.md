@@ -1,8 +1,16 @@
 ---
 title: Using the Callback Methods
 description: Using the Callback Methods
-ms.assetid: '098cb90b-8c21-4692-a4f9-bacce042520a'
-keywords: ["Windows Media Format SDK,callback methods", "Windows Media Format SDK,methods called asynchronously", "callback methods"]
+ms.assetid: 098cb90b-8c21-4692-a4f9-bacce042520a
+keywords:
+- Windows Media Format SDK,callback methods
+- Windows Media Format SDK,methods called asynchronously
+- callback methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Callback Methods
@@ -15,7 +23,7 @@ The following sections describe some of the general issues regarding the use of 
 
 | Section                                                                          | Description                                                                                                                                                                                          |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Using the OnStatus Callback](using-the-onstatus-callback.md)                   | Describes how to implement the [**IWMStatusCallback::OnStatus**](iwmstatuscallback-onstatus.md) callback method, which is used by several objects to advise applications of SDK operation progress. |
+| [Using the OnStatus Callback](using-the-onstatus-callback.md)                   | Describes how to implement the [**IWMStatusCallback::OnStatus**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus?branch=master) callback method, which is used by several objects to advise applications of SDK operation progress. |
 | [Using Events with Asynchronous Calls](using-events-with-asynchronous-calls.md) | Describes a common technique to handle asynchronous method calls in an application.                                                                                                                  |
 | [Using the Context Parameter](using-the-context-parameter.md)                   | Introduces the *pvContext* parameter, shared by several callbacks and their calling methods, and explains how to use it.                                                                             |
 

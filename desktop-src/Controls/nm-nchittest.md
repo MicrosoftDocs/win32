@@ -1,8 +1,9 @@
 ---
 title: NM\_NCHITTEST notification code
 description: Sent by a rebar control when the control receives a WM\_NCHITTEST message. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '0e088b14-b912-4f60-9d25-cd0a0ba264c3'
-keywords: ["NM_NCHITTEST notification code Windows Controls"]
+ms.assetid: 0e088b14-b912-4f60-9d25-cd0a0ba264c3
+keywords:
+- NM_NCHITTEST notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_NCHITTEST notification code
@@ -33,7 +39,7 @@ NM_NCHITTEST
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMMOUSE**](nmmouse.md) structure that contains information about the notification code. The *pt* member contains the mouse coordinates of the hit test message.
+A pointer to a [**NMMOUSE**](/windows/win32/Commctrl/ns-commctrl-tagnmmouse?branch=master) structure that contains information about the notification code. The *pt* member contains the mouse coordinates of the hit test message.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ Unless otherwise specified, return zero to allow the control to perform default 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: FreeSoHAttributeValue function
 description: Frees an SoHAttributeValue data structure.
-ms.assetid: '21647ee6-2ea2-45fd-b1f2-fb1836196f94'
-keywords: ["FreeSoHAttributeValue function NAP"]
+ms.assetid: 21647ee6-2ea2-45fd-b1f2-fb1836196f94
+keywords:
+- FreeSoHAttributeValue function NAP
 topic_type:
 - apiref
 api_name:
@@ -11,14 +12,19 @@ api_location:
 - qutil.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FreeSoHAttributeValue function
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **FreeSoHAttributeValue** function frees an [**SoHAttributeValue**](sohattributevalue-union.md) data structure.
 
@@ -27,8 +33,8 @@ The **FreeSoHAttributeValue** function frees an [**SoHAttributeValue**](sohattri
 
 ```C++
 NAPAPI VOID WINAPI FreeSoHAttributeValue(
-  _In_ SoHAttributeType  type,
-  _In_ SoHAttributeValue *value
+  _In_ SoHAttributeType  type,
+  _In_ SoHAttributeValue *value
 );
 ```
 
@@ -68,16 +74,16 @@ All NAP functions for freeing memory also free all embedded pointers.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>NapUtil.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

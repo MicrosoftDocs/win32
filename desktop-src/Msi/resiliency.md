@@ -1,7 +1,12 @@
 ---
-Description: 'Resiliency is the ability of an application to recover gracefully from situations in which a vital component is missing, or has been replaced by an incompatible version.'
-ms.assetid: 'c0504a84-6d51-4734-a55d-f1d1ebcb3e73'
+Description: Resiliency is the ability of an application to recover gracefully from situations in which a vital component is missing, or has been replaced by an incompatible version.
+ms.assetid: c0504a84-6d51-4734-a55d-f1d1ebcb3e73
 title: Resiliency
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resiliency

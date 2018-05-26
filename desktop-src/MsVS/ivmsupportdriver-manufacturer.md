@@ -1,8 +1,13 @@
 ---
 title: IVMSupportDriver Manufacturer property
-description: The Manufacturer property contains the name of the driver's manufacturer.
-ms.assetid: '7cf1ff56-8006-454b-898f-c1dedf01ad08'
-keywords: ["Manufacturer property Virtual Server", "Manufacturer property Virtual Server , IVMSupportDriver interface", "IVMSupportDriver interface Virtual Server , Manufacturer property", "Manufacturer property Virtual Server , VMSupportDriver interface", "VMSupportDriver interface Virtual Server , Manufacturer property"]
+description: The Manufacturer property contains the name of the drivers manufacturer.
+ms.assetid: 7cf1ff56-8006-454b-898f-c1dedf01ad08
+keywords:
+- Manufacturer property Virtual Server
+- Manufacturer property Virtual Server , IVMSupportDriver interface
+- IVMSupportDriver interface Virtual Server , Manufacturer property
+- Manufacturer property Virtual Server , VMSupportDriver interface
+- VMSupportDriver interface Virtual Server , Manufacturer property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSupportDriver::Manufacturer property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_Manufacturer(
-  [out] BSTR *manufacturer
+  [out] BSTR *manufacturer
 );
 ```
 
@@ -76,8 +86,8 @@ This property value is read-only.
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +99,9 @@ This property value is read-only.
 [**IVMSupportDriver**](ivmsupportdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

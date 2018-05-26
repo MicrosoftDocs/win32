@@ -1,7 +1,12 @@
 ---
-Description: 'The Upgrade table contains information required during major upgrades.'
-ms.assetid: 'f5fda405-8a09-495e-aa8c-b808a2f02b0f'
+Description: The Upgrade table contains information required during major upgrades.
+ms.assetid: f5fda405-8a09-495e-aa8c-b808a2f02b0f
 title: Upgrade Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Upgrade Table

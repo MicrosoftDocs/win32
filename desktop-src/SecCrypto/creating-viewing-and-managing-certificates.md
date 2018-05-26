@@ -1,7 +1,12 @@
 ---
-Description: 'Certificates have associated properties, such as a display name, description, and allowed uses, that can be viewed and edited.'
-ms.assetid: '23faaa03-af3e-4497-8607-4e34f8889368'
-title: 'Creating, Viewing, and Managing Certificates'
+Description: Certificates have associated properties, such as a display name, description, and allowed uses, that can be viewed and edited.
+ms.assetid: 23faaa03-af3e-4497-8607-4e34f8889368
+title: Creating, Viewing, and Managing Certificates
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating, Viewing, and Managing Certificates

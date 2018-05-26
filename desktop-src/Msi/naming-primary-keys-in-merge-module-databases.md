@@ -1,7 +1,12 @@
 ---
-Description: 'The names of primary keys a merge module database must adhere to a standard naming convention.'
-ms.assetid: '72822c25-cd21-454b-ab49-846474b55ef1'
+Description: The names of primary keys a merge module database must adhere to a standard naming convention.
+ms.assetid: 72822c25-cd21-454b-ab49-846474b55ef1
 title: Naming Primary Keys in Merge Module Databases
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Naming Primary Keys in Merge Module Databases

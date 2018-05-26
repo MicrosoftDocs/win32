@@ -1,7 +1,12 @@
 ---
 title: IAgentNotifySinkEx ActiveClientChange
 description: IAgentNotifySinkEx ActiveClientChange
-ms.assetid: 'e953e803-c898-4c07-adc0-8b895b5e8473'
+ms.assetid: e953e803-c898-4c07-adc0-8b895b5e8473
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentNotifySinkEx::ActiveClientChange
@@ -43,7 +48,7 @@ Active state change of the client, which can be a combination of any of the foll
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -60,9 +65,9 @@ You can use the [**Activate**](iagentcharacter--activate.md) method to set wheth
 [**IAgentCharacter::Activate**](iagentcharacter--activate.md), [**IAgentCharacterEx::GetActive**](iagentcharacterex--getactive.md), [**IAgentNotifySink::ActivateInputState**](iagentnotifysink--activateinputstate.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

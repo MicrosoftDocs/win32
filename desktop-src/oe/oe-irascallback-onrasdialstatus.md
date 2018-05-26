@@ -1,8 +1,11 @@
 ---
 title: IRASCallback OnRasDialStatus method
 description: Provides Remote Access Service (RAS) connection state information to the client application.
-ms.assetid: '7e6908be-8f14-45c6-8e77-5d351d106548'
-keywords: ["OnRasDialStatus method Windows Mail (formerly Outlook Express)", "OnRasDialStatus method Windows Mail (formerly Outlook Express) , IRASCallback interface", "IRASCallback interface Windows Mail (formerly Outlook Express) , OnRasDialStatus method"]
+ms.assetid: 7e6908be-8f14-45c6-8e77-5d351d106548
+keywords:
+- OnRasDialStatus method Windows Mail (formerly Outlook Express)
+- OnRasDialStatus method Windows Mail (formerly Outlook Express) , IRASCallback interface
+- IRASCallback interface Windows Mail (formerly Outlook Express) , OnRasDialStatus method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IRASCallback::OnRasDialStatus method
@@ -24,9 +32,9 @@ Provides Remote Access Service (RAS) connection state information to the client 
 
 ```C++
 HRESULT OnRasDialStatus(
-  [in] RASCONNSTATE  rasconnstate,
-  [in] DWORD         dwError,
-  [in] IRASTransport *pTransport
+  [in] RASCONNSTATE  rasconnstate,
+  [in] DWORD         dwError,
+  [in] IRASTransport *pTransport
 );
 ```
 
@@ -75,8 +83,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -84,9 +92,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Retrieving Supported Service Events
-ms.assetid: '1bf3aa08-7ffc-417f-a67e-9eee042337b9'
+ms.assetid: 1bf3aa08-7ffc-417f-a67e-9eee042337b9
 title: Retrieving Supported Service Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving Supported Service Events
@@ -13,8 +18,8 @@ The WpdServicesApiSample application includes code that demonstrates how an appl
 |                                                                                      |                                                                                                       |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | Interface                                                                            | Description                                                                                           |
-| [**IPortableDeviceService**](iportabledeviceservice.md)                             | Used to retrieve the **IPortableDeviceServiceCapabilities** interface to access the supported events. |
-| [**IPortableDeviceServiceCapabilities**](iportabledeviceservicecapabilities.md)     | Provides access to the supported events and event attributes.                                         |
+| [**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)                             | Used to retrieve the **IPortableDeviceServiceCapabilities** interface to access the supported events. |
+| [**IPortableDeviceServiceCapabilities**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities?branch=master)     | Provides access to the supported events and event attributes.                                         |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contains the list of supported events.                                                                |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                               | Contains the attributes for a given event.                                                            |
 
@@ -30,7 +35,7 @@ In WPD, an event is described by its name, options, and parameters. The event na
 
 Four methods in the ServiceCapabilities.cpp module support the retrieval of supported events for the given Contacts service: **ListSupportedEvents**, **DisplayEvent**, **DisplayEventOptions**, and **DisplayEventParameters**. The **ListSupportedEvents** method retrieves a count of supported events and the GUID identifier for each event. The **DisplayEvent** method displays the event name or GUID, and then calls **DisplayEventOptions** and **DisplayEventParameters** to display the event-related data.
 
-The **ListSupportedEvents** method invokes the [**IPortableDeviceService::Capabilities**](iportabledeviceservice-capabilities.md) method to retrieve an [**IPortableDeviceServiceCapabilities**](iportabledeviceservicecapabilities.md) interface. Using this interface, it retrieves the supported events by calling the [**IPortableDeviceServiceCapabilities::GetSupportedEvents**](iportabledeviceservicecapabilities-getsupportedevents.md) method. The **GetSupportedEvents** method retrieves the GUIDs for each event supported by the service and copies those GUIDs into an [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) object.
+The **ListSupportedEvents** method invokes the [**IPortableDeviceService::Capabilities**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-capabilities?branch=master) method to retrieve an [**IPortableDeviceServiceCapabilities**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities?branch=master) interface. Using this interface, it retrieves the supported events by calling the [**IPortableDeviceServiceCapabilities::GetSupportedEvents**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedevents?branch=master) method. The **GetSupportedEvents** method retrieves the GUIDs for each event supported by the service and copies those GUIDs into an [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) object.
 
 The following code illustrates retrieving supported service events.
 
@@ -111,7 +116,7 @@ void ListSupportedEvents(
 
 After the **ListSupportedEvents** method retrieves the GUIDs representing each event supported by the given service, it invokes the **DisplayEvent** method to retrieve event-specific data. This data includes the event name, its options (broadcast or autoplay), parameter GUIDs, parameter types, and so on.
 
-The **DisplayEvent** method invokes the [**IPortableDeviceServiceCapabilities::GetEventAttributes**](iportabledeviceservicecapabilities-geteventattributes.md) method to retrieve a collection of attributes for the given event. It then calls the [**IPortableDeviceValues::GetStringValue**](iportabledevicevalues-getstringvalue.md) method and requests that the driver return a user-friendly name for the given event. Next, **DisplayEvent** calls the [**IPortableDeviceValues::GetIPortableDeviceValuesValue**](iportabledevicevalues-getiportabledevicevaluesvalue.md) to retrieve the event options. Finally, DisplayEvent calls the [**IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue**](iportabledevicevalues-getiportabledevicekeycollectionvalue.md) to retrieve the list of event parameters. It passes the data returned by these methods to the **DisplayEventOptions** and the **DisplayEventParameters** helper functions, which render the options and parameter information for the given event.
+The **DisplayEvent** method invokes the [**IPortableDeviceServiceCapabilities::GetEventAttributes**](/windows/win32/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes?branch=master) method to retrieve a collection of attributes for the given event. It then calls the [**IPortableDeviceValues::GetStringValue**](iportabledevicevalues-getstringvalue.md) method and requests that the driver return a user-friendly name for the given event. Next, **DisplayEvent** calls the [**IPortableDeviceValues::GetIPortableDeviceValuesValue**](iportabledevicevalues-getiportabledevicevaluesvalue.md) to retrieve the event options. Finally, DisplayEvent calls the [**IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue**](iportabledevicevalues-getiportabledevicekeycollectionvalue.md) to retrieve the list of event parameters. It passes the data returned by these methods to the **DisplayEventOptions** and the **DisplayEventParameters** helper functions, which render the options and parameter information for the given event.
 
 The following code uses the **DisplayEvent** method.
 
@@ -204,10 +209,10 @@ void DisplayEventOptions(
 [**IPortableDeviceKeyCollection**](iportabledevicekeycollection.md)
 </dt> <dt>
 
-[**IPortableDeviceService**](iportabledeviceservice.md)
+[**IPortableDeviceService**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice?branch=master)
 </dt> <dt>
 
-[**IPortableDeviceServiceCapabilities**](iportabledeviceservicecapabilities.md)
+[**IPortableDeviceServiceCapabilities**](/windows/win32/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities?branch=master)
 </dt> <dt>
 
 [**IPortableDeviceValues**](iportabledevicevalues.md)

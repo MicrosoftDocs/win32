@@ -1,7 +1,12 @@
-﻿---
-Description: 'Resets the enumeration reference to the first IWiaItem2 object.'
-ms.assetid: '392e3471-f7fc-456f-a1cc-ab4eb6d3fe18'
-title: 'IEnumWiaItem2::Reset method'
+---
+Description: Resets the enumeration reference to the first IWiaItem2 object.
+ms.assetid: 392e3471-f7fc-456f-a1cc-ab4eb6d3fe18
+title: IEnumWiaItem2Reset method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumWiaItem2::Reset method

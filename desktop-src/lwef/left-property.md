@@ -1,7 +1,12 @@
 ---
 title: Left Property
 description: Left Property
-ms.assetid: 'f496f075-6430-4806-a237-1c7b626d355e'
+ms.assetid: f496f075-6430-4806-a237-1c7b626d355e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Left Property

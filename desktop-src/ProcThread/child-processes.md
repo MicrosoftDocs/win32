@@ -1,7 +1,12 @@
 ---
-Description: 'Each process provides the resources needed to execute a program. A child process is a process that is created by another process, called the parent process.'
-ms.assetid: '4bdec0f5-7276-422e-9935-0e231b0fc17d'
+Description: Each process provides the resources needed to execute a program. A child process is a process that is created by another process, called the parent process.
+ms.assetid: 4bdec0f5-7276-422e-9935-0e231b0fc17d
 title: Child Processes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Child Processes

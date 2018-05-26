@@ -1,7 +1,12 @@
 ---
-Description: 'The administration console snap-in for the fax service exposes a set of extensible node types.'
-ms.assetid: '13c836f5-4a76-43b6-9059-d09ff8e0ee4b'
-title: 'MMC Snap-in Node Types'
+Description: The administration console snap-in for the fax service exposes a set of extensible node types.
+ms.assetid: 13c836f5-4a76-43b6-9059-d09ff8e0ee4b
+title: MMC Snap-in Node Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MMC Snap-in Node Types

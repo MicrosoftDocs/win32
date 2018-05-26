@@ -1,7 +1,12 @@
 ---
 title: How to Create a Month Calendar Control
 description: This topic demonstrates how to dynamically create a month calendar control by using the CreateWindowEx function.
-ms.assetid: '35ADDA85-5D7D-46F4-A637-99FEE4592B3B'
+ms.assetid: 35ADDA85-5D7D-46F4-A637-99FEE4592B3B
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create a Month Calendar Control
@@ -23,9 +28,9 @@ This topic demonstrates how to dynamically create a month calendar control by us
 
 ### 
 
-To create a month calendar control, use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying [**MONTHCAL\_CLASS**](common-control-window-classes.md#monthcal-class) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](initcommoncontrolsex.md) function, specifying the **ICC\_DATE\_CLASSES** bit in the accompanying [**INITCOMMONCONTROLSEX**](initcommoncontrolsex-4vvx.md) structure.
+To create a month calendar control, use the [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) function, specifying [**MONTHCAL\_CLASS**](common-control-window-classes.md#monthcal-class) as the window class. You must first register the window class by calling the [**InitCommonControlsEx**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrolsex?branch=master) function, specifying the **ICC\_DATE\_CLASSES** bit in the accompanying [**INITCOMMONCONTROLSEX**](/windows/win32/Commctrl/ns-commctrl-taginitcommoncontrolsex?branch=master) structure.
 
-The following example demonstrates how to create a month calendar control in an existing modeless dialog box. Note that the size values passed to [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) are all zeros. Because the minimum required size depends on the font that the control uses, the example uses the [**MonthCal\_GetMinReqRect**](monthcal-getminreqrect.md) macro to request size information and then resizes the control by calling [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545). If you subsequently change the font with [**WM\_SETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632642), the dimensions of the control will not change. You must call **MonthCal\_GetMinReqRect** again and resize the control to fit the new font.
+The following example demonstrates how to create a month calendar control in an existing modeless dialog box. Note that the size values passed to [**CreateWindowEx**](https://msdn.microsoft.com/library/windows/desktop/ms632680) are all zeros. Because the minimum required size depends on the font that the control uses, the example uses the [**MonthCal\_GetMinReqRect**](/windows/win32/Commctrl/nf-commctrl-monthcal_getminreqrect?branch=master) macro to request size information and then resizes the control by calling [**SetWindowPos**](https://msdn.microsoft.com/library/windows/desktop/ms633545). If you subsequently change the font with [**WM\_SETFONT**](https://msdn.microsoft.com/library/windows/desktop/ms632642), the dimensions of the control will not change. You must call **MonthCal\_GetMinReqRect** again and resize the control to fit the new font.
 
 ## 
 

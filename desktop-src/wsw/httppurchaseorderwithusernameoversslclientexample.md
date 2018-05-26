@@ -1,8 +1,16 @@
 ---
 title: HttpPurchaseOrderWithUsernameOverSslClientExample
 description: This example shows a HTTP client that uses service proxy to talk to a PurchaseOrder service, with username over SSL mixed-mode security.
-ms.assetid: '9874f00d-1efa-47ed-8029-f93962046789'
-keywords: ["HttpPurchaseOrderWithUsernameOverSslClientExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 9874f00d-1efa-47ed-8029-f93962046789
+keywords:
+- HttpPurchaseOrderWithUsernameOverSslClientExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpPurchaseOrderWithUsernameOverSslClientExample

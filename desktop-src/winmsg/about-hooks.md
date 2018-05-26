@@ -1,7 +1,12 @@
 ---
-Description: 'This topic discusses how hooks should be used.'
-ms.assetid: '9ced0ac4-e602-425f-b954-6af9c741699a'
+Description: This topic discusses how hooks should be used.
+ms.assetid: 9ced0ac4-e602-425f-b954-6af9c741699a
 title: Hooks Overview
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Hooks Overview
@@ -127,7 +132,7 @@ For more information, see the [*ForegroundIdleProc*](foregroundidleproc.md) call
 
 ### WH\_GETMESSAGE
 
-The **WH\_GETMESSAGE** hook enables an application to monitor messages about to be returned by the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function. You can use the **WH\_GETMESSAGE** hook to monitor mouse and keyboard input and other messages posted to the message queue.
+The **WH\_GETMESSAGE** hook enables an application to monitor messages about to be returned by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function. You can use the **WH\_GETMESSAGE** hook to monitor mouse and keyboard input and other messages posted to the message queue.
 
 For more information, see the [*GetMsgProc*](getmsgproc.md) callback function.
 
@@ -153,7 +158,7 @@ For more information, see the [*LowLevelKeyboardProc*](lowlevelkeyboardproc.md) 
 
 ### WH\_KEYBOARD
 
-The **WH\_KEYBOARD** hook enables an application to monitor message traffic for [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) and [**WM\_KEYUP**](https://msdn.microsoft.com/library/windows/desktop/ms646281) messages about to be returned by the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function. You can use the **WH\_KEYBOARD** hook to monitor keyboard input posted to a message queue.
+The **WH\_KEYBOARD** hook enables an application to monitor message traffic for [**WM\_KEYDOWN**](https://msdn.microsoft.com/library/windows/desktop/ms646280) and [**WM\_KEYUP**](https://msdn.microsoft.com/library/windows/desktop/ms646281) messages about to be returned by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function. You can use the **WH\_KEYBOARD** hook to monitor keyboard input posted to a message queue.
 
 For more information, see the [*KeyboardProc*](keyboardproc.md) callback function.
 
@@ -165,7 +170,7 @@ For more information, see the [*LowLevelMouseProc*](lowlevelmouseproc.md) callba
 
 ### WH\_MOUSE
 
-The **WH\_MOUSE** hook enables you to monitor mouse messages about to be returned by the [**GetMessage**](getmessage.md) or [**PeekMessage**](peekmessage.md) function. You can use the **WH\_MOUSE** hook to monitor mouse input posted to a message queue.
+The **WH\_MOUSE** hook enables you to monitor mouse messages about to be returned by the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) or [**PeekMessage**](peekmessage.md) function. You can use the **WH\_MOUSE** hook to monitor mouse input posted to a message queue.
 
 For more information, see the [*MouseProc*](mouseproc.md) callback function.
 
@@ -175,7 +180,7 @@ The **WH\_MSGFILTER** and **WH\_SYSMSGFILTER** hooks enable you to monitor messa
 
 The **WH\_MSGFILTER** and **WH\_SYSMSGFILTER** hooks enable you to perform message filtering during modal loops that is equivalent to the filtering done in the main message loop. For example, an application often examines a new message in the main loop between the time it retrieves the message from the queue and the time it dispatches the message, performing special processing as appropriate. However, during a modal loop, the system retrieves and dispatches messages without allowing an application the chance to filter the messages in its main message loop. If an application installs a **WH\_MSGFILTER** or **WH\_SYSMSGFILTER** hook procedure, the system calls the procedure during the modal loop.
 
-An application can call the **WH\_MSGFILTER** hook directly by calling the [**CallMsgFilter**](callmsgfilter.md) function. By using this function, the application can use the same code to filter messages during modal loops as it uses in the main message loop. To do so, encapsulate the filtering operations in a **WH\_MSGFILTER** hook procedure and call **CallMsgFilter** between the calls to the [**GetMessage**](getmessage.md) and [**DispatchMessage**](dispatchmessage.md) functions.
+An application can call the **WH\_MSGFILTER** hook directly by calling the [**CallMsgFilter**](callmsgfilter.md) function. By using this function, the application can use the same code to filter messages during modal loops as it uses in the main message loop. To do so, encapsulate the filtering operations in a **WH\_MSGFILTER** hook procedure and call **CallMsgFilter** between the calls to the [**GetMessage**](/windows/win32/Winuser/nf-engextcpp-extexception-getmessage?branch=master) and [**DispatchMessage**](dispatchmessage.md) functions.
 
 ``` syntax
 while (GetMessage(&msg, (HWND) NULL, 0, 0)) 

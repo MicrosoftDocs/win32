@@ -1,19 +1,24 @@
 ---
-Description: 'Occurs when a stroke is added to the InkDisp object.'
-ms.assetid: '46bbdb98-524f-4b4b-95c0-005e71d672f1'
-title: 'InkDisp.InkAdded event'
+Description: Occurs when a stroke is added to the InkDisp object.
+ms.assetid: 46bbdb98-524f-4b4b-95c0-005e71d672f1
+title: InkDisp.InkAdded event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkDisp.InkAdded event
 
-Occurs when a stroke is added to the [**InkDisp**](inkdisp-class.md) object.
+Occurs when a stroke is added to the [**InkDisp**](/windows/win32/msinkaut/?branch=master) object.
 
 ## Syntax
 
 
 ```C++
 void InkAdded(
-  [in] VARIANT StrokeIds
+  [in] VARIANT StrokeIds
 );
 ```
 
@@ -38,7 +43,7 @@ This event does not return a value.
 
 ## Remarks
 
-If you use the [**InkOverlay**](inkoverlay-class.md) object or the [InkPicture](inkpicture-control-reference.md) control (where [**EditingMode**](inkoverlay-editingmode.md) equals [**Delete**](inkoverlayeditingmode.md) and [**EraserMode**](inkoverlay-erasermode.md) equals [**StrokeErase**](inkoverlayerasermode.md)) and pass the eraser over a stroke, you get the following sequence of events:
+If you use the [**InkOverlay**](/windows/win32/msinkaut/?branch=master) object or the [InkPicture](inkpicture-control-reference.md) control (where [**EditingMode**](/windows/win32/msinkaut/?branch=master) equals [**Delete**](/windows/win32/msinkaut/ne-msinkaut-inkoverlayeditingmode?branch=master) and [**EraserMode**](/windows/win32/msinkaut/?branch=master) equals [**StrokeErase**](/windows/win32/msinkaut/ne-msinkaut-inkoverlayerasermode?branch=master)) and pass the eraser over a stroke, you get the following sequence of events:
 
 -   [**InkDeleted**](inkdisp-inkdeleted.md)
 -   **InkAdded**
@@ -56,7 +61,7 @@ The **InkAdded** event is fired even when in select or erase mode, not just when
 
 |                                     |                                                                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
@@ -67,30 +72,30 @@ The **InkAdded** event is fired even when in select or erase mode, not just when
 
 <dl> <dt>
 
-[**InkDisp Class**](inkdisp-class.md)
+[**InkDisp Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**EditingMode Property \[InkOverlay Class\]**](inkoverlay-editingmode.md)
+[**EditingMode Property \[InkOverlay Class\]**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
-[**EraserMode Property \[InkOverlay Class\]**](inkoverlay-erasermode.md)
+[**EraserMode Property \[InkOverlay Class\]**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
 [**InkDeleted Event**](inkdisp-inkdeleted.md)
 </dt> <dt>
 
-[**InkOverlay Class**](inkoverlay-class.md)
+[**InkOverlay Class**](/windows/win32/msinkaut/?branch=master)
 </dt> <dt>
 
 [InkPicture Control Reference](inkpicture-control-reference.md)
 </dt> <dt>
 
-[**IInkStrokeDisp Interface**](iinkstrokedisp.md)
+[**IInkStrokeDisp Interface**](/windows/win32/msinkaut/nn-msinkaut-iinkstrokedisp?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

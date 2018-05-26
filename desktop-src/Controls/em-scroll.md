@@ -1,8 +1,9 @@
 ---
 title: EM\_SCROLL message
 description: Scrolls the text vertically in a multiline edit control. This message is equivalent to sending a WM\_VSCROLL message to the edit control. You can send this message to either an edit control or a rich edit control.
-ms.assetid: '616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97'
-keywords: ["EM_SCROLL message Windows Controls"]
+ms.assetid: 616b5ac2-d92f-4fc5-9a9e-2c7527fb0d97
+keywords:
+- EM_SCROLL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SCROLL message
@@ -37,7 +43,7 @@ The action the scroll bar is to take. This parameter can be one of the following
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -56,7 +62,7 @@ If the message is successful, the [**HIWORD**](https://msdn.microsoft.com/librar
 
 To scroll to a specific line or character position, use the [**EM\_LINESCROLL**](em-linescroll.md) message. To scroll the caret into view, use the [**EM\_SCROLLCARET**](em-scrollcaret.md) message.
 
-**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
+**Rich Edit:** Supported in Microsoft Rich Edit 1.0 and later. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
 ## Requirements
 
@@ -64,8 +70,8 @@ To scroll to a specific line or character position, use the [**EM\_LINESCROLL**]
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ To scroll to a specific line or character position, use the [**EM\_LINESCROLL**]
 [**WM\_VSCROLL**](wm-vscroll.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

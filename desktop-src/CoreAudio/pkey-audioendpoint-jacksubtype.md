@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PKEY\_AudioEndpoint\_JackSubType property contains an output category GUID for an audio endpoint device.'
-ms.assetid: '5d712823-73e3-4872-a1ea-c166ed41ffa0'
-title: 'PKEY\_AudioEndpoint\_JackSubType'
+---
+Description: The PKEY\_AudioEndpoint\_JackSubType property contains an output category GUID for an audio endpoint device.
+ms.assetid: 5d712823-73e3-4872-a1ea-c166ed41ffa0
+title: PKEY\_AudioEndpoint\_JackSubType
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PKEY\_AudioEndpoint\_JackSubType

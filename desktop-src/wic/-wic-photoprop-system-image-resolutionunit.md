@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Image.ResolutionUnit property.'
-ms.assetid: 'b8b744bd-976b-4648-a04b-33607467d6ac'
-title: 'System.Image.ResolutionUnit Photo Metadata Policy'
+Description: The photo metadata policy for the System.Image.ResolutionUnit property.
+ms.assetid: b8b744bd-976b-4648-a04b-33607467d6ac
+title: System.Image.ResolutionUnit Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.ResolutionUnit Photo Metadata Policy

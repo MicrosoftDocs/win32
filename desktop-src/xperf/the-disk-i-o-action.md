@@ -1,7 +1,12 @@
 ---
 title: The Disk I/O Action
 description: The Disk I/O Action
-ms.assetid: '60d4bdcb-1da8-4410-965c-fbf30c43dd05'
+ms.assetid: 60d4bdcb-1da8-4410-965c-fbf30c43dd05
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Disk I/O Action
@@ -27,13 +32,13 @@ The disk I/O action produces a text report that summarizes the various metrics r
 
 
 
- 
+ 
 
 If no report type is selected, default is to show disk utilization report.
 
- 
+ 
 
- 
+ 
 
 
 

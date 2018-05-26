@@ -1,7 +1,12 @@
-﻿---
-Description: 'Use Default Programs to set the default user experience.'
-ms.assetid: '78cd05a4-df33-42b5-91b9-826ebce04a1d'
+---
+Description: Use Default Programs to set the default user experience.
+ms.assetid: 78cd05a4-df33-42b5-91b9-826ebce04a1d
 title: Default Programs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Default Programs
@@ -280,12 +285,12 @@ HKEY_LOCAL_MACHINE
 
 Browser registration must follow the best practices outlined in this topic. When the browser is installed, Windows can present the user with a system notification through which the user can select the browser as the system default. This notification is shown when these conditions are met:
 
--   The browser's installer calls [**SHChangeNotify**](shchangenotify.md) with the **SHCNE\_ASSOCCHANGED** flag to tell Windows that new protocol handlers have been registered.
+-   The browser's installer calls [**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master) with the **SHCNE\_ASSOCCHANGED** flag to tell Windows that new protocol handlers have been registered.
 -   Windows detects that one or more new applications have registered to handle both http:// and https:// protocols, and the user has not yet been notified. In other words, none of the following have been shown to the user: a system notification advertising the application, an OpenWith flyout that contains the application, or the Set User Defaults (SUD) Control Panel page for the application.
 
 The following example shows the recommended registration code that the browser's installer should run after it writes its registry keys.
 
-[**SHChangeNotify**](shchangenotify.md) first notifies the system that new association choices are available. The **SHChangeNotify** call is required to ensure the proper functioning of system defaults.
+[**SHChangeNotify**](/windows/win32/shlobj_core/nf-shlobj_core-shchangenotify?branch=master) first notifies the system that new association choices are available. The **SHChangeNotify** call is required to ensure the proper functioning of system defaults.
 
 A [**Sleep**](base.sleep) statement then allows time for system processes to handle the notification.
 
@@ -323,7 +328,7 @@ To assign or restore a program as the default for all files and protocols for wh
 To assign individual file types and protocols to a program, the user clicks the **Choose defaults for this program** option, which displays a **Set associations for a program** window like the one in the following illustration.
 
 > [!Note]  
-> We recommend you call the **Set associations for a program** by using [**IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI**](iapplicationassociationregistrationui-launchadvancedassociationui.md).
+> We recommend you call the **Set associations for a program** by using [**IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI**](/windows/win32/Shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui?branch=master).
 
  
 
@@ -354,9 +359,9 @@ When the application is run by a user for the first time, it is recommended that
 -   Accept the default application settings. This option is selected by default.
 -   Customize the default application settings.
 
-Prior to Windows 8, if the user accepts the default settings, your application calls [**IApplicationAssociationRegistration::SetAppAsDefaultAll**](iapplicationassociationregistration-setappasdefaultall.md), which converts all machine-level associations that are declared during installation to per-user settings for that user.
+Prior to Windows 8, if the user accepts the default settings, your application calls [**IApplicationAssociationRegistration::SetAppAsDefaultAll**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-setappasdefaultall?branch=master), which converts all machine-level associations that are declared during installation to per-user settings for that user.
 
-If the user decides to customize the settings, your application calls [**IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI**](iapplicationassociationregistrationui-launchadvancedassociationui.md) to display the file association UI. The following illustration shows this window for the fictional Litware media player.
+If the user decides to customize the settings, your application calls [**IApplicationAssociationRegistrationUI::LaunchAdvancedAssociationUI**](/windows/win32/Shobjidl/nf-shobjidl-iapplicationassociationregistrationui-launchadvancedassociationui?branch=master) to display the file association UI. The following illustration shows this window for the fictional Litware media player.
 
 ![screen shot of the set associations for a program page for litware](images/setassociationsforaprogramforlitware.png)
 
@@ -371,7 +376,7 @@ You should use this UI for your applications instead of creating your own. By do
 
  
 
-Applications typically check whether they are set as the default when they are run. Set your applications to make this check by calling [**IApplicationAssociationRegistration::QueryAppIsDefault**](iapplicationassociationregistration-queryappisdefault.md) or [**IApplicationAssociationRegistration::QueryAppIsDefaultAll**](iapplicationassociationregistration-queryappisdefaultall.md).
+Applications typically check whether they are set as the default when they are run. Set your applications to make this check by calling [**IApplicationAssociationRegistration::QueryAppIsDefault**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-queryappisdefault?branch=master) or [**IApplicationAssociationRegistration::QueryAppIsDefaultAll**](/windows/win32/shobjidl_core/nf-shobjidl_core-iapplicationassociationregistration-queryappisdefaultall?branch=master).
 
 If the application determines that it is not the default, it can present UI that asks the user whether to accept the current situation or to make the application the default. Always include a check box in this UI that is selected by default and that presents the option not to be asked again.
 
@@ -386,8 +391,8 @@ The following illustration shows an example dialog box.
 
 ## Additional Resources
 
--   [**IApplicationAssociationRegistration**](iapplicationassociationregistration.md)
--   [**IApplicationAssociationRegistrationUI**](iapplicationassociationregistrationui.md)
+-   [**IApplicationAssociationRegistration**](/windows/win32/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration?branch=master)
+-   [**IApplicationAssociationRegistrationUI**](/windows/win32/Shobjidl/nn-shobjidl-iapplicationassociationregistrationui?branch=master)
 
 ## Related topics
 

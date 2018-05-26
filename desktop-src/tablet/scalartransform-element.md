@@ -1,7 +1,12 @@
 ---
-Description: 'Scalar transform used by the Drawing or InkWord.'
-ms.assetid: '88fc3b90-9ec6-41c0-9267-ed5b585ea07b'
+Description: Scalar transform used by the Drawing or InkWord.
+ms.assetid: 88fc3b90-9ec6-41c0-9267-ed5b585ea07b
 title: ScalarTransform Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScalarTransform Element

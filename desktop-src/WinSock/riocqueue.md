@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies a completion queue descriptor used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions.'
-ms.assetid: '9196F8AF-3C48-445D-B2D5-E22A99759D92'
-title: 'RIO\_CQ'
+---
+Description: Specifies a completion queue descriptor used for I/O completion notification by send and receive requests with the Winsock registered I/O extensions.
+ms.assetid: 9196F8AF-3C48-445D-B2D5-E22A99759D92
+title: RIO\_CQ
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RIO\_CQ
@@ -34,9 +39,9 @@ The **RIO\_CQ** object is created using the [**RIOCreateCompletionQueue**](riocr
 
 The notification behavior for a completion queue is set when the **RIO\_CQ** is created.
 
-For a completion queue that uses an event, the **Type** member of the [**RIO\_NOTIFICATION\_COMPLETION**](rio-notification-completion.md) structure is set to **RIO\_EVENT\_COMPLETION**. The **Event.EventHandle** member should contain the handle for an event created by the [**WSACreateEvent**](wsacreateevent-2.md) or [**CreateEvent**](base.createevent) function. To receive the [**RIONotify**](rionotify.md) completion, the application should wait on the specified event handle using [**WSAWaitForMultipleEvents**](wsawaitformultipleevents-2.md) or a similar wait routine. If the application plans to reset and reuse the event, the application can reduce overhead by setting the **Event.NotifyReset** member to a non-zero value. This causes the event to be automatically reset by the **RIONotify** function when the notification occurs. This mitigates the need to call the [**WSAResetEvent**](wsaresetevent-2.md) function to reset the event between calls to the **RIONotify** function.
+For a completion queue that uses an event, the **Type** member of the [**RIO\_NOTIFICATION\_COMPLETION**](/windows/win32/Mswsock/ns-mswsock-_rio_notification_completion?branch=master) structure is set to **RIO\_EVENT\_COMPLETION**. The **Event.EventHandle** member should contain the handle for an event created by the [**WSACreateEvent**](/windows/win32/Winsock2/nf-winsock2-wsacreateevent?branch=master) or [**CreateEvent**](base.createevent) function. To receive the [**RIONotify**](rionotify.md) completion, the application should wait on the specified event handle using [**WSAWaitForMultipleEvents**](/windows/win32/Winsock2/nf-winsock2-wsawaitformultipleevents?branch=master) or a similar wait routine. If the application plans to reset and reuse the event, the application can reduce overhead by setting the **Event.NotifyReset** member to a non-zero value. This causes the event to be automatically reset by the **RIONotify** function when the notification occurs. This mitigates the need to call the [**WSAResetEvent**](/windows/win32/Winsock2/nf-winsock2-wsaresetevent?branch=master) function to reset the event between calls to the **RIONotify** function.
 
-For a completion queue that uses an I/O completion port, the **Type** member of the [**RIO\_NOTIFICATION\_COMPLETION**](rio-notification-completion.md) structure is set to **RIO\_IOCP\_COMPLETION**. The **Iocp.IocpHandle** member should contain the handle for an I/O completion port created by the [**CreateIoCompletionPort**](fs.createiocompletionport) function. To receive the [**RIONotify**](rionotify.md) completion, the application should call the [**GetQueuedCompletionStatus**](fs.getqueuedcompletionstatus) or [**GetQueuedCompletionStatusEx**](fs.getqueuedcompletionstatusex_func) function. The application should provide a dedicated [**OVERLAPPED**](base.overlapped_str) object for the completion queue, and it may also use the **Iocp.CompletionKey** member to distinguish **RIONotify** requests on the completion queue from other I/O completions including **RIONotify** completions for other completion queues.
+For a completion queue that uses an I/O completion port, the **Type** member of the [**RIO\_NOTIFICATION\_COMPLETION**](/windows/win32/Mswsock/ns-mswsock-_rio_notification_completion?branch=master) structure is set to **RIO\_IOCP\_COMPLETION**. The **Iocp.IocpHandle** member should contain the handle for an I/O completion port created by the [**CreateIoCompletionPort**](fs.createiocompletionport) function. To receive the [**RIONotify**](rionotify.md) completion, the application should call the [**GetQueuedCompletionStatus**](fs.getqueuedcompletionstatus) or [**GetQueuedCompletionStatusEx**](fs.getqueuedcompletionstatusex_func) function. The application should provide a dedicated [**OVERLAPPED**](base.overlapped_str) object for the completion queue, and it may also use the **Iocp.CompletionKey** member to distinguish **RIONotify** requests on the completion queue from other I/O completions including **RIONotify** completions for other completion queues.
 
 > [!Note]  
 > For purposes of efficiency, access to the completion queues (**RIO\_CQ** structs) and request queues ([**RIO\_RQ**](riorqueue.md) structs) are not protected by synchronization primitives. If you need to access a completion or request queue from multiple threads, access should be coordinated by a critical section, slim reader write lock or similar mechanism. This locking is not needed for access by a single thread. Different threads can access separate requests/completion queues without locks. The need for synchronization occurs only when multiple threads try to access the same queue. Synchronization is also required if multiple threads issue sends and receives on the same socket because the send and receive operations use the socket’s request queue.
@@ -84,10 +89,10 @@ If multiple threads attempt to access the same **RIO\_CQ** using [**RIODequeueCo
 [**OVERLAPPED**](base.overlapped_str)
 </dt> <dt>
 
-[**RIO\_NOTIFICATION\_COMPLETION**](rio-notification-completion.md)
+[**RIO\_NOTIFICATION\_COMPLETION**](/windows/win32/Mswsock/ns-mswsock-_rio_notification_completion?branch=master)
 </dt> <dt>
 
-[**RIO\_NOTIFICATION\_COMPLETION\_TYPE**](rio-notification-completion-type.md)
+[**RIO\_NOTIFICATION\_COMPLETION\_TYPE**](/windows/win32/Mswsock/ne-mswsock-_rio_notification_completion_type?branch=master)
 </dt> <dt>
 
 [**RIO\_RQ**](riorqueue.md)
@@ -108,13 +113,13 @@ If multiple threads attempt to access the same **RIO\_CQ** using [**RIODequeueCo
 [**RIONotify**](rionotify.md)
 </dt> <dt>
 
-[**WSACreateEvent**](wsacreateevent-2.md)
+[**WSACreateEvent**](/windows/win32/Winsock2/nf-winsock2-wsacreateevent?branch=master)
 </dt> <dt>
 
-[**WSAResetEvent**](wsaresetevent-2.md)
+[**WSAResetEvent**](/windows/win32/Winsock2/nf-winsock2-wsaresetevent?branch=master)
 </dt> <dt>
 
-[**WSAWaitForMultipleEvents**](wsawaitformultipleevents-2.md)
+[**WSAWaitForMultipleEvents**](/windows/win32/Winsock2/nf-winsock2-wsawaitformultipleevents?branch=master)
 </dt> </dl>
 
  

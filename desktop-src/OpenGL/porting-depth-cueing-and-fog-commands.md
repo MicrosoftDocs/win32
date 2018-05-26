@@ -1,8 +1,23 @@
 ---
 title: Porting Depth Cueing and Fog Commands
 description: Porting Depth Cueing and Fog Commands
-ms.assetid: '16982d11-88a1-4a35-960f-28f10491e0ac'
-keywords: ["IRIS GL porting,depth cueing", "porting from IRIS GL,depth cueing", "porting to OpenGL from IRIS GL,depth cueing", "OpenGL porting from IRIS GL,depth cueing", "IRIS GL porting,fog", "porting from IRIS GL,fog", "porting to OpenGL from IRIS GL,fog", "OpenGL porting from IRIS GL,fog", "depth cueing", "fog"]
+ms.assetid: 16982d11-88a1-4a35-960f-28f10491e0ac
+keywords:
+- IRIS GL porting,depth cueing
+- porting from IRIS GL,depth cueing
+- porting to OpenGL from IRIS GL,depth cueing
+- OpenGL porting from IRIS GL,depth cueing
+- IRIS GL porting,fog
+- porting from IRIS GL,fog
+- porting to OpenGL from IRIS GL,fog
+- OpenGL porting from IRIS GL,fog
+- depth cueing
+- fog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting Depth Cueing and Fog Commands
@@ -35,7 +50,7 @@ The following table lists the IRIS GL functions for managing fog and their equiv
 
 
 
- 
+ 
 
 The following table lists the parameters you can pass to **glFog**.
 
@@ -52,16 +67,16 @@ The following table lists the parameters you can pass to **glFog**.
 
 
 
- 
+ 
 
 The fog-density parameter of OpenGL differs from the one in IRIS GL. They are related as follows:
 
 -   if *fogMode* = EXP2
-     
+     
 
     *openGLfogDensity* = (*irisGLfogDensity* ) ( **sqrt** ( **log** ( 1 / 255 ) ))
 -   if *fogMode* = EXP
-     
+     
 
     *openGLfogDensity* = (*irisGLfogDensity* ) ( **log** ( 1 / 255 ) )
 
@@ -84,7 +99,7 @@ The following table lists the IRIS GL fog modes and their OpenGL equivalents.
 
 
 
- 
+ 
 
 The following code example demonstrates depth cueing in OpenGL:
 
@@ -154,9 +169,9 @@ int main(int argc, char** argv)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

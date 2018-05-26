@@ -1,7 +1,12 @@
 ---
-Description: 'The following example shows how to reassign a received fax.'
-ms.assetid: 'f7dffa99-c8fd-4eb1-94eb-fc8897920bfc'
+Description: The following example shows how to reassign a received fax.
+ms.assetid: f7dffa99-c8fd-4eb1-94eb-fc8897920bfc
 title: Reassigning Faxes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reassigning Faxes

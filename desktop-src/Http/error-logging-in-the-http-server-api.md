@@ -1,8 +1,14 @@
 ---
 title: Error Logging in the HTTP Server API
 description: Some kinds of errors are handled by the HTTP Server API rather than being passed back to an application for handling, because the frequency of such errors could otherwise flood an event log or application handler.
-ms.assetid: 'b919a718-e20b-4f34-a02e-bc028f8c32c7'
-keywords: ["HTTP Server API, error logging"]
+ms.assetid: b919a718-e20b-4f34-a02e-bc028f8c32c7
+keywords:
+- HTTP Server API, error logging
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Error Logging in the HTTP Server API

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates the type of a given key protector.'
-ms.assetid: '17cdde18-3979-4a19-b36e-aa71994148c9'
-title: 'GetKeyProtectorType method of the Win32\_EncryptableVolume class'
+---
+Description: Indicates the type of a given key protector.
+ms.assetid: 17cdde18-3979-4a19-b36e-aa71994148c9
+title: GetKeyProtectorType method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetKeyProtectorType method of the Win32\_EncryptableVolume class

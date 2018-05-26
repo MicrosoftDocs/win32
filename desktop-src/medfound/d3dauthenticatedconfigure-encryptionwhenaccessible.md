@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets the level of encryption that is performed before protected content becomes accessible to the CPU or bus.'
-ms.assetid: '6de6c4a3-705a-4420-b9f4-8d4d442b23bf'
-title: 'D3DAUTHENTICATEDCONFIGURE\_ENCRYPTIONWHENACCESSIBLE'
+---
+Description: Sets the level of encryption that is performed before protected content becomes accessible to the CPU or bus.
+ms.assetid: 6de6c4a3-705a-4420-b9f4-8d4d442b23bf
+title: D3DAUTHENTICATEDCONFIGURE\_ENCRYPTIONWHENACCESSIBLE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DAUTHENTICATEDCONFIGURE\_ENCRYPTIONWHENACCESSIBLE
@@ -48,7 +53,7 @@ The following channel types support this query:
 [GPU-Based Content Protection](gpu-based-content-protection.md)
 </dt> <dt>
 
-[**IDirect3DAuthenticatedChannel9::Configure**](idirect3dauthenticatedchannel9-configure.md)
+[**IDirect3DAuthenticatedChannel9::Configure**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-configure?branch=master)
 </dt> </dl>
 
  

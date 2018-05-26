@@ -4,11 +4,13 @@ description: Includes methods to retrieve and set properties that enable bitmap 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3385e843-be05-4801-8d59-6395d95686b1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 3385e843-be05-4801-8d59-6395d95686b1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IMsTscAdvancedSettings interface Remote Desktop Services", "IMsTscAdvancedSettings interface Remote Desktop Services , described"]
+keywords:
+- IMsTscAdvancedSettings interface Remote Desktop Services
+- IMsTscAdvancedSettings interface Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # IMsTscAdvancedSettings interface
@@ -106,7 +111,7 @@ The spelling error in the name of the property is in the released version of the
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -128,8 +133,8 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>    |
 | IID<br/>                      | IID\_IMsTscAdvancedSettings is defined as 809945cc-4b3b-4a92-a6b0-dbf9b5f2ef2d<br/> |
@@ -146,9 +151,9 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 [Remote Desktop Web Connection Reference](remote-desktop-web-connection-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

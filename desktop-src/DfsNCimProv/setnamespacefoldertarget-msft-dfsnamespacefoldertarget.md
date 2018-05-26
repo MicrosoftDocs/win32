@@ -4,13 +4,16 @@ description: Modifies the properties of the target of a DFS folder.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7867de33-cb49-4aac-a2a0-c2dd23971611'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7867de33-cb49-4aac-a2a0-c2dd23971611
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetNamespaceFolderTarget method", "SetNamespaceFolderTarget method, MSFT_DfsNamespaceFolderTarget class", "MSFT_DfsNamespaceFolderTarget class, SetNamespaceFolderTarget method"]
+keywords:
+- SetNamespaceFolderTarget method
+- SetNamespaceFolderTarget method, MSFT_DfsNamespaceFolderTarget class
+- MSFT_DfsNamespaceFolderTarget class, SetNamespaceFolderTarget method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetNamespaceFolderTarget method of the MSFT\_DfsNamespaceFolderTarget class
@@ -30,12 +36,12 @@ Modifies the properties of the target of a DFS folder.
 
 ```mof
 uint32 SetNamespaceFolderTarget(
-  [in]  string                        NamespacePath,
-  [in]  string                        TargetPath,
-  [in]  uint32                        State,
-  [in]  uint32                        ReferralPriorityRank,
-  [in]  sint32                        ReferralPriorityClass,
-  [out] MSFT_DfsNamespaceFolderTarget cmdletOutput
+  [in]  string                        NamespacePath,
+  [in]  string                        TargetPath,
+  [in]  uint32                        State,
+  [in]  uint32                        ReferralPriorityRank,
+  [in]  sint32                        ReferralPriorityClass,
+  [out] MSFT_DfsNamespaceFolderTarget cmdletOutput
 );
 ```
 
@@ -190,7 +196,7 @@ The *NamespacePath* and *TargetPath* parameters have a format of \\\\HostName\\S
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -204,9 +210,9 @@ The *NamespacePath* and *TargetPath* parameters have a format of \\\\HostName\\S
 [**MSFT\_DfsNamespaceFolderTarget**](msft-dfsnamespacefoldertarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

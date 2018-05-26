@@ -4,17 +4,21 @@ description: PKCS \ 12 PFX PDU for exchange of personal identity information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dbc35a0f-c42d-4d1d-8ac6-5eca997af0fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: dbc35a0f-c42d-4d1d-8ac6-5eca997af0fe
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["userPKCS12 attribute AD Schema"]
+keywords:
+- userPKCS12 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - userPKCS12
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # userPKCS12 attribute
@@ -38,11 +42,11 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -149,9 +153,9 @@ PKCS \#12 PFX PDU for exchange of personal identity information.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

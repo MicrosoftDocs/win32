@@ -1,8 +1,17 @@
 ---
 title: Glyphs and Glyph Runs
 description: Glyphs and glyph runs are available at the lowest layer of functionality of the DirectWrite API, the glyph-rendering layer.
-ms.assetid: 'e670cb65-1fcb-46fd-ac0b-02eaaaa51996'
-keywords: ["DirectWrite,glyphs", "DirectWrite,glyph runs", "glyph runs", "glyphs"]
+ms.assetid: e670cb65-1fcb-46fd-ac0b-02eaaaa51996
+keywords:
+- DirectWrite,glyphs
+- DirectWrite,glyph runs
+- glyph runs
+- glyphs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Glyphs and Glyph Runs
@@ -25,7 +34,7 @@ Another example of alternate glyphs are swash glyphs. The following screen shot 
 
 ![screen shot of the letters "a" through "n" in standard and swash glyphs](images/opentypeswashstandard.png)
 
-Swashes and other typographic features, including more elaborate alternate glyphs, are available through [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097). OpenType typographic features can be applied to a text range by using the [**IDWriteTextLayout::SetTypography**](idwritetextlayout-settypography.md) and passing the [**DWRITE\_FONT\_FEATURE\_TAG**](dwrite-font-feature-tag.md) enumeration constant associated with the desired feature.
+Swashes and other typographic features, including more elaborate alternate glyphs, are available through [OpenType](https://msdn.microsoft.com/library/windows/desktop/dd319097). OpenType typographic features can be applied to a text range by using the [**IDWriteTextLayout::SetTypography**](/windows/win32/dwrite/?branch=master) and passing the [**DWRITE\_FONT\_FEATURE\_TAG**](/windows/win32/dwrite/ne-dwrite-dwrite_font_feature_tag?branch=master) enumeration constant associated with the desired feature.
 
 ## Glyph Runs
 
@@ -33,13 +42,13 @@ A glyph run represents a contiguous set of glyphs that all have the same font fa
 
 ### The IDWriteFontFace Interface
 
-[DirectWrite](direct-write-portal.md) uses the same system for font classification as Windows Pesentation Foundation (WPF), so there can be multiple physical fonts per each font family. A font face, such as the [**IDWriteFontFace**](idwritefontface.md) interface in DirectWrite, represents a physical font, with a specific weight, slant, and stretch. It contains the font face type, appropriate file references, face identification data and various font data such as metrics, names and glyph outlines.
+[DirectWrite](direct-write-portal.md) uses the same system for font classification as Windows Pesentation Foundation (WPF), so there can be multiple physical fonts per each font family. A font face, such as the [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master) interface in DirectWrite, represents a physical font, with a specific weight, slant, and stretch. It contains the font face type, appropriate file references, face identification data and various font data such as metrics, names and glyph outlines.
 
-The [**IDWriteFontFace**](idwritefontface.md) can be created directly from a font name or obtained from a font collection.
+The [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master) can be created directly from a font name or obtained from a font collection.
 
 ### Glyph Metrics
 
-Individual glyphs have metrics associated with them. You can obtain the metrics for all of the glyphs in a glyph run by using the [**IDWriteFontFace::GetDesignGlyphMetrics**](idwritefontface-getdesignglyphmetrics.md) method. This returns a [**DWRITE\_GLYPH\_METRICS**](dwrite-glyph-metrics.md) structure that has the advance width, the left and right side bearing, the top and bottom side bearing, the height and the vertical baseline origin.
+Individual glyphs have metrics associated with them. You can obtain the metrics for all of the glyphs in a glyph run by using the [**IDWriteFontFace::GetDesignGlyphMetrics**](/windows/win32/dwrite/?branch=master) method. This returns a [**DWRITE\_GLYPH\_METRICS**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_metrics?branch=master) structure that has the advance width, the left and right side bearing, the top and bottom side bearing, the height and the vertical baseline origin.
 
 The following diagram shows various metrics of two different glyph characters.
 
@@ -47,9 +56,9 @@ The following diagram shows various metrics of two different glyph characters.
 
 ## Drawing a Glyph Run
 
-When implementing a custom text renderer, the rendering of glyphs is handled by the [**IDWriteTextRenderer::DrawGlyphRun**](idwritetextrenderer-drawglyphrun.md), a callback method that you implement as part of a class derived from [**IDWriteTextRenderer**](idwritetextrenderer.md). The [**DWRITE\_GLYPH\_RUN**](dwrite-glyph-run.md) structure that is passed to [**DrawGlyphRun**](idwritebitmaprendertarget-drawglyphrun.md) contains a [**IDWriteFontFace**](idwritefontface.md) object, named *fontFace*, that represents the font face for the entire glyph run.
+When implementing a custom text renderer, the rendering of glyphs is handled by the [**IDWriteTextRenderer::DrawGlyphRun**](/windows/win32/dwrite/?branch=master), a callback method that you implement as part of a class derived from [**IDWriteTextRenderer**](/windows/win32/dwrite/?branch=master). The [**DWRITE\_GLYPH\_RUN**](/windows/win32/dwrite/ns-dwrite-dwrite_glyph_run?branch=master) structure that is passed to [**DrawGlyphRun**](/windows/win32/dwrite/?branch=master) contains a [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master) object, named *fontFace*, that represents the font face for the entire glyph run.
 
-The [**IDWriteFontFace**](idwritefontface.md) object also provides the [**GetGlyphRunOutline**](idwritefontface-getglyphrunoutline.md) method, which computes the glyph outlines by using a specified geometry sink callback, such as [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316919) when rendering with [Direct2D](direct2d.direct2d_portal.xml).
+The [**IDWriteFontFace**](/windows/win32/dwrite/?branch=master) object also provides the [**GetGlyphRunOutline**](/windows/win32/dwrite/?branch=master) method, which computes the glyph outlines by using a specified geometry sink callback, such as [**ID2D1SimplifiedGeometrySink**](https://msdn.microsoft.com/library/windows/desktop/dd316919) when rendering with [Direct2D](direct2d.direct2d_portal.xml).
 
 For more information, see the [How to Implement a Custom Text Renderer](how-to-implement-a-custom-text-renderer.md) topic.
 

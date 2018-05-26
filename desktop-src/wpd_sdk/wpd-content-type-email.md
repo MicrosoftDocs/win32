@@ -1,7 +1,12 @@
 ---
-Description: 'WPD\_CONTENT\_TYPE\_EMAIL'
-ms.assetid: '96f81477-5ec9-49c1-987a-348a92a7e638'
-title: 'WPD\_CONTENT\_TYPE\_EMAIL'
+Description: WPD\_CONTENT\_TYPE\_EMAIL
+ms.assetid: 96f81477-5ec9-49c1-987a-348a92a7e638
+title: WPD\_CONTENT\_TYPE\_EMAIL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_CONTENT\_TYPE\_EMAIL

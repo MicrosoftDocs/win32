@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the ID3DXFileData interface to build or to access the immediate hierarchy of the data object. Template restrictions determine the hierarchy.'
-ms.assetid: 'ce291e2b-b926-4502-8bee-55fe6d6d3267'
+---
+Description: Applications use the methods of the ID3DXFileData interface to build or to access the immediate hierarchy of the data object. Template restrictions determine the hierarchy.
+ms.assetid: ce291e2b-b926-4502-8bee-55fe6d6d3267
 title: ID3DXFileData interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileData interface

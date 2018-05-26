@@ -1,14 +1,15 @@
 ---
 title: MMCN\_VIEW\_CHANGE message
-description: The MMCN\_VIEW\_CHANGE notification message is sent to the snap-in's IComponent implementation so it can update the view when a change occurs.
+description: The MMCN\_VIEW\_CHANGE notification message is sent to the snap-ins IComponent implementation so it can update the view when a change occurs.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '3c76e700-0162-41ec-8f9d-45a03e6f5956'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 3c76e700-0162-41ec-8f9d-45a03e6f5956
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_VIEW_CHANGE message MMC"]
+keywords:
+- MMCN_VIEW_CHANGE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_VIEW\_CHANGE message
 
-The **MMCN\_VIEW\_CHANGE** notification message is sent to the snap-in's [**IComponent**](icomponent.md) implementation so it can update the view when a change occurs.
+The **MMCN\_VIEW\_CHANGE** notification message is sent to the snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation so it can update the view when a change occurs.
 
 ## Parameters
 
@@ -68,7 +72,7 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 ## Remarks
 
-This notification is generated when the snap-in ( [**IComponent**](icomponent.md) or [**IComponentData**](icomponentdata.md)) calls [**IConsole2::UpdateAllViews**](iconsole2-updateallviews.md).
+This notification is generated when the snap-in ( [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) or [**IComponentData**](icomponentdata.md)) calls [**IConsole2::UpdateAllViews**](iconsole2-updateallviews.md).
 
 ## Requirements
 
@@ -76,8 +80,8 @@ This notification is generated when the snap-in ( [**IComponent**](icomponent.md
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -92,9 +96,9 @@ This notification is generated when the snap-in ( [**IComponent**](icomponent.md
 [**IConsole::UpdateAllViews**](iconsole2-updateallviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

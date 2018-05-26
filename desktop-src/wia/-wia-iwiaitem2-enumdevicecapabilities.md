@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) 2.0 device supports.'
-ms.assetid: '9efb758d-a5d6-41c7-b318-2897274ccbc0'
-title: 'IWiaItem2::EnumDeviceCapabilities method'
+---
+Description: Creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) 2.0 device supports.
+ms.assetid: 9efb758d-a5d6-41c7-b318-2897274ccbc0
+title: IWiaItem2EnumDeviceCapabilities method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::EnumDeviceCapabilities method
@@ -58,9 +63,9 @@ Enumerate device events.
 *ppIEnumWIA\_DEV\_CAPS* \[out\]
 </dt> <dd>
 
-Type: **[**IEnumWIA\_DEV\_CAPS**](-wia-ienumwia-dev-caps.md)\*\***
+Type: **[**IEnumWIA\_DEV\_CAPS**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_caps?branch=master)\*\***
 
-Receives a pointer to the [**IEnumWIA\_DEV\_CAPS**](-wia-ienumwia-dev-caps.md) interface created by this method.
+Receives a pointer to the [**IEnumWIA\_DEV\_CAPS**](/windows/win32/wia_xp/nn-wia_xp-ienumwia_dev_caps?branch=master) interface created by this method.
 
 </dd> </dl>
 

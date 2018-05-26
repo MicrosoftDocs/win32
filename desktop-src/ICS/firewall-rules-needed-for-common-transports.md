@@ -1,7 +1,12 @@
 ---
 title: Firewall Rules Needed for Common Transports
-ms.assetid: '279ecaad-d0af-44d0-8745-19255d615732'
+ms.assetid: 279ecaad-d0af-44d0-8745-19255d615732
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Firewall Rules Needed for Common Transports

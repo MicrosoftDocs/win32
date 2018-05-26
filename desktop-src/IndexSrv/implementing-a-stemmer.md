@@ -1,7 +1,12 @@
 ---
 title: Implementing a Stemmer
 description: Implementing a Stemmer
-ms.assetid: 'd8ace103-a4ca-424f-9358-cd5fc6263a87'
+ms.assetid: d8ace103-a4ca-424f-9358-cd5fc6263a87
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing a Stemmer

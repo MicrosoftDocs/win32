@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the FILEADDSOURCE property denotes a list of file keys delimited by commas that are to be installed to run from the source media.'
-ms.assetid: '52e328e7-7a98-4762-86a1-48e52fd55882'
+---
+Description: The value of the FILEADDSOURCE property denotes a list of file keys delimited by commas that are to be installed to run from the source media.
+ms.assetid: 52e328e7-7a98-4762-86a1-48e52fd55882
 title: FILEADDSOURCE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FILEADDSOURCE property

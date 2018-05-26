@@ -1,7 +1,12 @@
 ---
-Description: 'The FRAME\_DESCRIPTOR structure provides descriptive information about raw frames.'
-ms.assetid: 'f2fc256e-8e64-49c1-b2ad-ef656762d5c7'
-title: 'FRAME\_DESCRIPTOR structure'
+Description: The FRAME\_DESCRIPTOR structure provides descriptive information about raw frames.
+ms.assetid: f2fc256e-8e64-49c1-b2ad-ef656762d5c7
+title: FRAME\_DESCRIPTOR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FRAME\_DESCRIPTOR structure
@@ -13,16 +18,16 @@ The **FRAME\_DESCRIPTOR** structure provides descriptive information about raw f
 
 ```C++
 typedef struct _FRAME_DESCRIPTOR {
-  LPBYTE       FramePointer;
-  __int64      TimeStamp;
-  DWORD        FrameLength;
-  DWORD        nBytesAvail;
-  WORD         Etype;
-  BYTE         Sap;
-  BYTE         LowProtocol;
-  WORD         LowProtocolOffset;
+  LPBYTE       FramePointer;
+  __int64      TimeStamp;
+  DWORD        FrameLength;
+  DWORD        nBytesAvail;
+  WORD         Etype;
+  BYTE         Sap;
+  BYTE         LowProtocol;
+  WORD         LowProtocolOffset;
   GENERIC_PORT HighPort;
-  WORD         HighProtocolOffset;
+  WORD         HighProtocolOffset;
 } FRAME_DESCRIPTOR, *LPFRAME_DESCRIPTOR;
 ```
 
@@ -108,15 +113,15 @@ Offset to protocol data obtained from **HighPort**.
 
 |                                     |                                                                                     |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

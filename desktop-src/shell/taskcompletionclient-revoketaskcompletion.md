@@ -1,7 +1,12 @@
-﻿---
-Description: 'Ends the task completion.'
-ms.assetid: 'C64C57E3-593C-47AE-A005-F468E7C588EF'
-title: 'TaskCompletionClient::RevokeTaskCompletion method'
+---
+Description: Ends the task completion.
+ms.assetid: C64C57E3-593C-47AE-A005-F468E7C588EF
+title: TaskCompletionClientRevokeTaskCompletion method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskCompletionClient::RevokeTaskCompletion method

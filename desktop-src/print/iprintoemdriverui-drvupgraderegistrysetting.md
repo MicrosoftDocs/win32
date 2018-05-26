@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemDriverUI::DrvUpdateRegistrySetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can update device settings stored in the registry.'
-ms.assetid: '9249dd75-7d90-414a-b6b5-4be0fc4f3170'
-title: 'IPrintOemDriverUI::DrvUpgradeRegistrySetting method'
+---
+Description: The IPrintOemDriverUIDrvUpdateRegistrySetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can update device settings stored in the registry.
+ms.assetid: 9249dd75-7d90-414a-b6b5-4be0fc4f3170
+title: IPrintOemDriverUIDrvUpgradeRegistrySetting method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemDriverUI::DrvUpgradeRegistrySetting method

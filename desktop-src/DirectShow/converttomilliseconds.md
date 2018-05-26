@@ -1,7 +1,12 @@
 ---
-Description: 'The ConvertToMilliseconds function converts a reference time to milliseconds.'
-ms.assetid: 'fae3baa4-9344-4197-b375-4abe2656e1b7'
+Description: The ConvertToMilliseconds function converts a reference time to milliseconds.
+ms.assetid: fae3baa4-9344-4197-b375-4abe2656e1b7
 title: ConvertToMilliseconds function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConvertToMilliseconds function
@@ -13,7 +18,7 @@ The `ConvertToMilliseconds` function converts a reference time to milliseconds.
 
 ```C++
 LONGLONG ConvertToMilliseconds(
-   const REFERENCE_TIME &amp;RT
+   const REFERENCE_TIME &amp;RT
 );
 ```
 
@@ -52,9 +57,9 @@ Returns the reference time converted to milliseconds.
 [**CBaseReferenceClock Class**](cbasereferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

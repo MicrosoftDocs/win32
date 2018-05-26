@@ -1,7 +1,12 @@
 ---
 title: Introduction to the 10-Foot Experience for Windows Game Developers
-description: This article introduces the 10-foot experience and explores the list of things that you should consider first about this new interaction pattern, even if you aren't expecting your game to be played this way.
-ms.assetid: '126a0aae-6a7a-8cda-5748-c364e54c304e'
+description: This article introduces the 10-foot experience and explores the list of things that you should consider first about this new interaction pattern, even if you arent expecting your game to be played this way.
+ms.assetid: 126a0aae-6a7a-8cda-5748-c364e54c304e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Introduction to the 10-Foot Experience for Windows Game Developers

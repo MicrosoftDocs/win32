@@ -1,7 +1,12 @@
 ---
-Description: 'Represent categories and subcategories of audit-policy events.'
-ms.assetid: 'e3b12139-947d-4922-91fd-f9833c069011'
+Description: Represent categories and subcategories of audit-policy events.
+ms.assetid: e3b12139-947d-4922-91fd-f9833c069011
 title: Auditing Constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Auditing Constants
@@ -191,15 +196,15 @@ The following constants represent subcategories of audit-policy events. These co
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Ntsecapi.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

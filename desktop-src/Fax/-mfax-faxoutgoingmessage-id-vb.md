@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Id property is a null-terminated string that contains a unique identifier for the outbound fax message.'
-ms.assetid: '00e1687b-be86-417b-a0cd-8eb3a67a4bae'
-title: 'FaxOutgoingMessage.Id property'
+---
+Description: The Id property is a null-terminated string that contains a unique identifier for the outbound fax message.
+ms.assetid: 00e1687b-be86-417b-a0cd-8eb3a67a4bae
+title: FaxOutgoingMessage.Id property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.Id property
@@ -46,7 +51,7 @@ A **String** that receives a unique ID for the outbound fax message. This is the
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

@@ -1,12 +1,18 @@
 ---
 title: Texture2D SampleGrad methods
 description: Samples a Texture2D using a gradient to influence the way the sample location is calculated.
-ms.assetid: '8C066E43-B40C-4633-9669-BC0F2218DB25'
-keywords: ["SampleGrad methods HLSL"]
+ms.assetid: 8C066E43-B40C-4633-9669-BC0F2218DB25
+keywords:
+- SampleGrad methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Texture2D::SampleGrad methods
@@ -36,9 +42,9 @@ Refer to [Texture-Object](dx-graphics-hlsl-to-type.md).
 [Texture2D](sm5-object-texture2d.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

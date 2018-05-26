@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a snapshot of a virtual system.'
-ms.assetid: 'cad4cb4f-523f-4fda-ac88-8cece7abc227'
-title: 'CreateSnapshot method of the CIM\_VirtualSystemSnapshotService class'
+Description: Creates a snapshot of a virtual system.
+ms.assetid: cad4cb4f-523f-4fda-ac88-8cece7abc227
+title: CreateSnapshot method of the CIM\_VirtualSystemSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateSnapshot method of the CIM\_VirtualSystemSnapshotService class
@@ -13,11 +18,11 @@ Creates a snapshot of a virtual system.
 
 ```mof
 uint32 CreateSnapshot(
-  [in]      CIM_ComputerSystem           REF AffectedSystem,
-  [in]      string                           SnapshotSettings,
-  [in]      uint16                           SnapshotType,
-  [in, out] CIM_VirtualSystemSettingData REF ResultingSnapshot,
-  [out]     CIM_ConcreteJob              REF Job
+  [in]      CIM_ComputerSystem           REF AffectedSystem,
+  [in]      string                           SnapshotSettings,
+  [in]      uint16                           SnapshotType,
+  [in, out] CIM_VirtualSystemSettingData REF ResultingSnapshot,
+  [out]     CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -97,9 +102,9 @@ A [**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md) reference
 If the operation is long running, then optionally a job may be returned. In this case, the instance of the [**CIM\_VirtualSystemSettingData**](cim-virtualsystemsettingdata.md) class representing the new virtual system snapshot is presented via the [**CIM\_AffectedJobElement**](cim-affectedjobelement.md) association with the value of the **AffectedElement** property referring to the new instance of the **CIM\_VirtualSystemSettingData** class representing the virtual system snapshot and the value of the **ElementEffects** set to 5 (Create).
 
 > [!Note]  
-> This parameter was read/write in Windows 8.1.
+> This parameter was read/write in Windows 8.1.
 
- 
+ 
 
 </dd> </dl>
 
@@ -148,8 +153,8 @@ On success, returns 0; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -163,9 +168,9 @@ On success, returns 0; otherwise, returns an error.
 [**CIM\_VirtualSystemSnapshotService**](cim-virtualsystemsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

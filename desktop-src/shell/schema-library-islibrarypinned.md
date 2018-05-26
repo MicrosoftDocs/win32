@@ -1,6 +1,11 @@
 ---
-Description: 'The &lt;isLibraryPinned&gt; element specifies whether this library is pinned to the navigation pane in Windows Explorer. This element is optional and has no child elements and no attributes.'
-title: 'isLibraryPinned Element (Library Schema)'
+Description: The &lt;isLibraryPinned&gt; element specifies whether this library is pinned to the navigation pane in Windows Explorer. This element is optional and has no child elements and no attributes.
+title: isLibraryPinned Element (Library Schema)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # isLibraryPinned Element (Library Schema)

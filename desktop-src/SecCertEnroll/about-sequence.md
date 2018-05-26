@@ -1,7 +1,12 @@
 ---
-Description: 'A SEQUENCE contains an ordered field of one or more types.'
-ms.assetid: 'b1a37cde-d5a2-4b01-a076-cb09741ae51d'
+Description: A SEQUENCE contains an ordered field of one or more types.
+ms.assetid: b1a37cde-d5a2-4b01-a076-cb09741ae51d
 title: SEQUENCE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SEQUENCE

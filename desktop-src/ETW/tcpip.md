@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for TCP/IP events. The following syntax is simplified from MOF code.'
-ms.assetid: 'f9d6ea8f-c777-4747-89f4-f389c6eeac35'
+---
+Description: This class is the parent class for TCP/IP events. The following syntax is simplified from MOF code.
+ms.assetid: f9d6ea8f-c777-4747-89f4-f389c6eeac35
 title: TcpIp class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TcpIp class

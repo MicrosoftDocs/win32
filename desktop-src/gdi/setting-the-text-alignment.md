@@ -1,12 +1,17 @@
 ---
-Description: 'You can query and set the text alignment for a device context by using the GetTextAlign and SetTextAlign functions.'
-ms.assetid: '7fdfbadb-827a-4b42-9b9a-b9e46389e13c'
+Description: You can query and set the text alignment for a device context by using the GetTextAlign and SetTextAlign functions.
+ms.assetid: 7fdfbadb-827a-4b42-9b9a-b9e46389e13c
 title: Setting the Text Alignment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Text Alignment
 
-You can query and set the text alignment for a device context by using the [**GetTextAlign**](gettextalign.md) and [**SetTextAlign**](settextalign.md) functions. The text-alignment settings determine how text is positioned relative to a specified location. Text can be aligned to the right or left of the position or centered over it; it can also be aligned above or below the point.
+You can query and set the text alignment for a device context by using the [**GetTextAlign**](/windows/win32/Wingdi/nf-wingdi-gettextalign?branch=master) and [**SetTextAlign**](/windows/win32/Wingdi/nf-wingdi-settextalign?branch=master) functions. The text-alignment settings determine how text is positioned relative to a specified location. Text can be aligned to the right or left of the position or centered over it; it can also be aligned above or below the point.
 
 The following example shows a method for determining which horizontal alignment flag is set:
 
@@ -31,7 +36,7 @@ switch ((TA_LEFT | TA_RIGHT | TA_CENTER) & GetTextAlign(hdc))
 
 
 
-You can also use the [**SetTextAlign**](settextalign.md) function to update the current position when a text-output function is called. For instance, the following example uses the [**SetTextAlign**](gdi.SetTextAlign) function to update the current position when the [**TextOut**](textout.md) function is called. In this example, the *cArial* parameter is an integer that specifies the number of Arial fonts.
+You can also use the [**SetTextAlign**](/windows/win32/Wingdi/nf-wingdi-settextalign?branch=master) function to update the current position when a text-output function is called. For instance, the following example uses the [**SetTextAlign**](gdi.SetTextAlign) function to update the current position when the [**TextOut**](/windows/win32/Wingdi/nf-wingdi-textouta?branch=master) function is called. In this example, the *cArial* parameter is an integer that specifies the number of Arial fonts.
 
 
 ```C++

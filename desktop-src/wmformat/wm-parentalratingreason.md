@@ -1,14 +1,20 @@
 ---
 title: WM/ParentalRatingReason
 description: The WM/ParentalRatingReason attribute contains the reasons for the parental rating assigned to the content.
-ms.assetid: 'ee786737-3e3a-41d0-8a18-edf46ac93496'
-keywords: ["WM/ParentalRatingReason windows Media Format"]
+ms.assetid: ee786737-3e3a-41d0-8a18-edf46ac93496
+keywords:
+- WM/ParentalRatingReason windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/ParentalRatingReason
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/ParentalRatingReason

@@ -1,8 +1,11 @@
 ---
 title: ModifyVirtualSystemResources method of the Msvm\_VirtualSystemManagementService class
 description: Modifies the setting data for existing resources on a virtual computer system.
-ms.assetid: 'bb81b95c-927d-49da-809a-b4ca2b05b6e5'
-keywords: ["ModifyVirtualSystemResources method Hyper-V", "ModifyVirtualSystemResources method Hyper-V , Msvm_VirtualSystemManagementService class", "Msvm_VirtualSystemManagementService class Hyper-V , ModifyVirtualSystemResources method"]
+ms.assetid: bb81b95c-927d-49da-809a-b4ca2b05b6e5
+keywords:
+- ModifyVirtualSystemResources method Hyper-V
+- ModifyVirtualSystemResources method Hyper-V , Msvm_VirtualSystemManagementService class
+- Msvm_VirtualSystemManagementService class Hyper-V , ModifyVirtualSystemResources method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ModifyVirtualSystemResources method of the Msvm\_VirtualSystemManagementService class
@@ -22,9 +30,9 @@ Modifies the setting data for existing resources on a virtual computer system.
 
 ```mof
 uint32 ModifyVirtualSystemResources(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 ResourceSettingData[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 ResourceSettingData[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -119,7 +127,7 @@ The following C# sample modifies the settings for the resources of a virtual sys
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -261,7 +269,7 @@ The following VBScript sample modifies the settings for the resources of a virtu
 > \[!Important\]  
 > To function correctly, the following code must be run on the VM host server, and must be run with Administrator privileges.
 
- 
+ 
 
 
 ```VB
@@ -466,9 +474,9 @@ End Function
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
+| End of server support<br/>    | Windows Server 2012<br/>                                                                       |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -484,9 +492,9 @@ End Function
 [**Msvm\_VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies whether a video frame is corrupted.'
-ms.assetid: '0218F6F6-6832-445C-B733-6A99E4EA2A3B'
-title: 'MFSampleExtension\_FrameCorruption attribute'
+---
+Description: Specifies whether a video frame is corrupted.
+ms.assetid: 0218F6F6-6832-445C-B733-6A99E4EA2A3B
+title: MFSampleExtension\_FrameCorruption attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFSampleExtension\_FrameCorruption attribute
@@ -14,13 +19,13 @@ Specifies whether a video frame is corrupted.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUINT32**](imfattributes-getuint32.md).
+To get this attribute, call [**IMFAttributes::GetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getuint32?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUINT32**](imfattributes-setuint32.md).
+To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setuint32?branch=master).
 
 ## Applies to
 
-[**IMFSample**](imfsample.md)
+[**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master)
 
 ## Remarks
 

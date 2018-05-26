@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '5b95a2bb-27bd-41db-9519-d401fda8550f'
+ms.assetid: 5b95a2bb-27bd-41db-9519-d401fda8550f
 title: Input Method Editor and Text Services Framework Accessibility in Windows XP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Method Editor and Text Services Framework Accessibility in Windows XP

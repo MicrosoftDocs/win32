@@ -1,7 +1,12 @@
 ---
-Description: 'The CVideoTransformFilter class is designed primarily as a base class for AVI decompressor filters.'
-ms.assetid: '8eb87f9f-24b3-4dbe-a390-54db993d2724'
+Description: The CVideoTransformFilter class is designed primarily as a base class for AVI decompressor filters.
+ms.assetid: 8eb87f9f-24b3-4dbe-a390-54db993d2724
 title: CVideoTransformFilter class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter class

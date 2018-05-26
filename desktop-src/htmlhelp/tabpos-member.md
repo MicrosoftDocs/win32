@@ -1,7 +1,12 @@
 ---
 title: tabpos Member
 description: tabpos Member
-ms.assetid: '01ABCEA9-2247-4da4-9691-38476ED10DBB'
+ms.assetid: 01ABCEA9-2247-4da4-9691-38476ED10DBB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tabpos Member
@@ -26,7 +31,7 @@ This member can be one of the following values:
 
 <dl> <dt>
 
-[**Back to HH\_WINTYPE**](hh-wintype-structure.md)
+[**Back to HH\_WINTYPE**](/windows/previous-versions/HtmlHelp/ns-htmlhelp-taghh_wintype?branch=master)
 </dt> </dl>
 
  

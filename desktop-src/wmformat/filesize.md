@@ -1,14 +1,20 @@
 ---
 title: FileSize
 description: The FileSize attribute contains the size of the file in bytes.
-ms.assetid: '524843f7-40b4-40a9-928a-fa0aa00f31ac'
-keywords: ["FileSize windows Media Format"]
+ms.assetid: 524843f7-40b4-40a9-928a-fa0aa00f31ac
+keywords:
+- FileSize windows Media Format
 topic_type:
 - apiref
 api_name:
 - FileSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileSize

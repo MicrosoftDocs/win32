@@ -4,11 +4,17 @@ description: Common properties for groups are data values stored in the cluster 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bc13356c-06d8-400e-9fe0-3afbda4f228a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: bc13356c-06d8-400e-9fe0-3afbda4f228a
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["group properties Failover Cluster", "properties Failover Cluster ,group (common) properties", "groups Failover Cluster , properties"]
+keywords:
+- group properties Failover Cluster
+- properties Failover Cluster ,group (common) properties
+- groups Failover Cluster , properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Group Common Properties

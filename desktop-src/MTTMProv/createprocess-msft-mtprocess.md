@@ -4,11 +4,14 @@ description: Create a new process.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '569d3f10-88b3-4d87-9eb6-45abb5a957ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 569d3f10-88b3-4d87-9eb6-45abb5a957ec
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CreateProcess method", "CreateProcess method, MSFT_MTProcess class", "MSFT_MTProcess class, CreateProcess method"]
+keywords:
+- CreateProcess method
+- CreateProcess method, MSFT_MTProcess class
+- MSFT_MTProcess class, CreateProcess method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MtTmProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CreateProcess method of the MSFT\_MTProcess class
@@ -28,10 +34,10 @@ Create a new process.
 
 ```mof
 uint32 CreateProcess(
-  [in]  string CommandLine,
-  [in]  uint32 WaitMilliseconds,
-  [out] uint32 ProcessId,
-  [out] string ActualCommandLine
+  [in]  string CommandLine,
+  [in]  uint32 WaitMilliseconds,
+  [out] uint32 ProcessId,
+  [out] string ActualCommandLine
 );
 ```
 
@@ -99,7 +105,7 @@ Get-CimInstance  -CimSession $session -Namespace Root/Microsoft/Windows/Manageme
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                          |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\ManagementTools<br/>                                    |
 | MOF<br/>                      | <dl> <dt>MtTmProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MtTmProv.dll</dt> </dl> |
@@ -113,9 +119,9 @@ Get-CimInstance  -CimSession $session -Namespace Root/Microsoft/Windows/Manageme
 [**MSFT\_MTProcess**](msft-mtprocess.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

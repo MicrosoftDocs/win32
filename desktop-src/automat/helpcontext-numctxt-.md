@@ -1,7 +1,12 @@
 ---
 title: helpcontext(numctxt)
 description: Sets the context in the Help file.
-ms.assetid: 'abb527d9-55ed-47b2-9b41-fd29979f33f3'
+ms.assetid: abb527d9-55ed-47b2-9b41-fd29979f33f3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # helpcontext(numctxt)
@@ -25,7 +30,7 @@ Library, interface, dispinterface, struct, enum, union, module, typedef, method,
 
 ## Remarks
 
-Retrieved by the [GetDocumentation](AA65E143-47DB-4241-9C66-FE3A1DCF1F0A) functions in the [**ITypeLib**](itypelib.md) and [**ITypeInfo**](itypeinfo.md) interfaces.
+Retrieved by the [GetDocumentation](AA65E143-47DB-4241-9C66-FE3A1DCF1F0A) functions in the [**ITypeLib**](/windows/previous-versions/oaidl/nn-oaidl-itypelib?branch=master) and [**ITypeInfo**](/windows/previous-versions/oaidl/nn-oaidl-itypeinfo?branch=master) interfaces.
 
 ## Related topics
 

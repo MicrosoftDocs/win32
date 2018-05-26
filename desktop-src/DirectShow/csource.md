@@ -1,7 +1,12 @@
 ---
-Description: 'The CSource class is a base class for implementing source filters. A filter derived from CSource contains one or more output pins derived from the CSourceStream class. Each output pin creates a worker thread that pushes media samples downstream.'
-ms.assetid: 'b8c95838-bd6e-41c5-b3ab-71ebb33136f0'
+Description: The CSource class is a base class for implementing source filters. A filter derived from CSource contains one or more output pins derived from the CSourceStream class. Each output pin creates a worker thread that pushes media samples downstream.
+ms.assetid: b8c95838-bd6e-41c5-b3ab-71ebb33136f0
 title: CSource class
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource class
@@ -11,9 +16,9 @@ title: CSource class
 The **CSource** class is a base class for implementing source filters. A filter derived from **CSource** contains one or more output pins derived from the [**CSourceStream**](csourcestream.md) class. Each output pin creates a worker thread that pushes media samples downstream.
 
 > [!Note]  
-> The **CSource** class is designed to support the push model for data flow. This class is not recommended for creating file-reader filters. File readers should support the pull model, through the [**IAsyncReader**](iasyncreader.md) interface. For more information, see [Data Flow for Filter Developers](data-flow-for-filter-developers.md).
+> The **CSource** class is designed to support the push model for data flow. This class is not recommended for creating file-reader filters. File readers should support the pull model, through the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface. For more information, see [Data Flow for Filter Developers](data-flow-for-filter-developers.md).
 
- 
+ 
 
 
 
@@ -36,7 +41,7 @@ The **CSource** class is a base class for implementing source filters. A filter 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -79,9 +84,9 @@ CAutoLock lock(m_pFilter->pStateLock());
 [Writing Source Filters](writing-source-filters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,18 @@
 ---
 title: Using the Transfer Manifest
 description: The Web Publishing Wizard and Online Print Ordering Wizard use the transfer manifest to communicate details of data transfer between the client computer and the server site.
-ms.assetid: 'b7bb541c-3bf4-4aab-ac70-c006517e772e'
-keywords: ["Web Publishing Wizard,transfer manifest", "Online Print Ordering Wizard,transfer manifest", "transfer manifest", "manifest", "window.external,transfer manifest"]
+ms.assetid: b7bb541c-3bf4-4aab-ac70-c006517e772e
+keywords:
+- Web Publishing Wizard,transfer manifest
+- Online Print Ordering Wizard,transfer manifest
+- transfer manifest
+- manifest
+- window.external,transfer manifest
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Transfer Manifest

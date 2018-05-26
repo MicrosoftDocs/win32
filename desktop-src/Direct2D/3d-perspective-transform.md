@@ -1,8 +1,14 @@
 ---
 title: 3D perspective transform effect
 description: Use the 3D perspective transform effect to rotate the image in 3 dimensions as if viewed from a distance.
-ms.assetid: '0E1A940E-2DCA-4772-BB68-7E5EF5CEF833'
-keywords: ["3d perspective transform effect"]
+ms.assetid: 0E1A940E-2DCA-4772-BB68-7E5EF5CEF833
+keywords:
+- 3d perspective transform effect
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # 3D perspective transform effect
@@ -34,7 +40,7 @@ The CLSID for this effect is CLSID\_D2D13DPerspectiveTransform.
 
 
 
- 
+ 
 
 
 ```C++
@@ -70,7 +76,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Interpolation modes
 
@@ -86,17 +92,17 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 > [!Note]  
 > If you don't select a mode, the effect defaults to D2D1\_3DPERSPECTIVETRANSFORM\_INTERPOLATION\_MODE\_LINEAR.
 
- 
+ 
 
 > [!Note]  
 > Anisotropic mode generates mipmaps when scaling, however, if you set the **Cached** property to true on the effects that are input to this effect, the mipmaps won't be generated every time for sufficiently small images.
 
- 
+ 
 
 ## Border modes
 
@@ -109,7 +115,7 @@ m_d2dContext->EndDraw();
 
 
 
- 
+ 
 
 ## Output bitmap
 
@@ -127,25 +133,25 @@ For an example of this effect, download the [Direct2D 3D transform effect sample
 
 |                          |                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
-| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
+| Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Header                   | d2d1effects.h                                                                      |
 | Library                  | d2d1.lib, dxguid.lib                                                               |
 
 
 
- 
+ 
 
 ## Related topics
 
 <dl> <dt>
 
-[**ID2D1Effect**](id2d1effect.md)
+[**ID2D1Effect**](/windows/win32/D2d1_1/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

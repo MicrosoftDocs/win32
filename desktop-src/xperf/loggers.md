@@ -1,7 +1,12 @@
 ---
 title: Loggers
 description: Loggers
-ms.assetid: '7cb3e4d5-5afc-4329-9268-4cb608e27178'
+ms.assetid: 7cb3e4d5-5afc-4329-9268-4cb608e27178
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Loggers

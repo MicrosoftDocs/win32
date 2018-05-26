@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DependentService association WMI class relates two interdependent base services.'
+Description: The Win32\_DependentService association WMI class relates two interdependent base services.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ba21fce3-f8f9-4886-b09d-a9e830376364'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ba21fce3-f8f9-4886-b09d-a9e830376364
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DependentService class'
+title: Win32\_DependentService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DependentService class
@@ -24,7 +27,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{8502C4FA-5FBB-11D2-AAC1-006008C78BC7}"), AMENDMENT]
 class Win32_DependentService : CIM_ServiceServiceDependency
 {
-  uint16                TypeOfDependency;
+  uint16                TypeOfDependency;
   Win32_BaseService REF Antecedent;
   Win32_BaseService REF Dependent;
 };
@@ -148,8 +151,8 @@ The **Win32\_DependentService** class is derived from [**CIM\_ServiceServiceDepe
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -166,9 +169,9 @@ The **Win32\_DependentService** class is derived from [**CIM\_ServiceServiceDepe
 [Operating System Classes](https://msdn.microsoft.com/library/aa392727)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

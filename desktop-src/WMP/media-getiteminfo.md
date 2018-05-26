@@ -1,8 +1,11 @@
 ---
 title: Media.getItemInfo method
 description: The getItemInfo method retrieves the value of the specified attribute for the current media item.
-ms.assetid: 'ee964f68-d44c-4e66-908b-09070a96d96f'
-keywords: ["getItemInfo method Windows Media Player", "getItemInfo method Windows Media Player , Media class", "Media class Windows Media Player , getItemInfo method"]
+ms.assetid: ee964f68-d44c-4e66-908b-09070a96d96f
+keywords:
+- getItemInfo method Windows Media Player
+- getItemInfo method Windows Media Player , Media class
+- Media class Windows Media Player , getItemInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media.getItemInfo method
@@ -72,7 +80,7 @@ This syntax has the following meaning:
 
     
 
-     
+     
 
 **Windows Media Player 10 Mobile:** Attributes for a media item are available only during playback unless they are retrieved from the item through the media collection.
 
@@ -115,9 +123,9 @@ This syntax has the following meaning:
 [**Settings.requestMediaAccessRights**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

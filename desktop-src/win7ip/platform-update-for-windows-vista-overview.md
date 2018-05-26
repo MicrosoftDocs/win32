@@ -1,8 +1,15 @@
 ---
 title: About Platform Update for Windows Vista
 description: Provides an overview of the Platform Update for Windows Vista and the Platform Update for Windows Server 2008 and their features.
-ms.assetid: 'ec5f03ae-9454-4964-943f-f97821984254'
-keywords: ["Platform Update for Windows Server 2008", "Platform Update for Windows Vista"]
+ms.assetid: ec5f03ae-9454-4964-943f-f97821984254
+keywords:
+- Platform Update for Windows Server 2008
+- Platform Update for Windows Vista
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Platform Update for Windows Vista

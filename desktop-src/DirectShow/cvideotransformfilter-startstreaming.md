@@ -1,7 +1,12 @@
 ---
-Description: 'The StartStreaming method is called when the filter switches to the paused state. This method overrides the CTransformFilter::StartStreaming method.'
-ms.assetid: 'fa05f88f-fed8-479d-b0b4-d9df982d51e7'
-title: 'CVideoTransformFilter.StartStreaming method'
+Description: The StartStreaming method is called when the filter switches to the paused state. This method overrides the CTransformFilterStartStreaming method.
+ms.assetid: fa05f88f-fed8-479d-b0b4-d9df982d51e7
+title: CVideoTransformFilter.StartStreaming method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CVideoTransformFilter.StartStreaming method
@@ -47,9 +52,9 @@ This method resets all of the performance statistics.
 [**CVideoTransformFilter Class**](cvideotransformfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

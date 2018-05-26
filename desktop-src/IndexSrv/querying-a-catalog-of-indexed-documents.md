@@ -1,7 +1,12 @@
 ---
 title: Querying a Catalog of Indexed Documents
 description: Querying a Catalog of Indexed Documents
-ms.assetid: 'e36459da-f38d-42fc-a0ca-52dd535692a2'
+ms.assetid: e36459da-f38d-42fc-a0ca-52dd535692a2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Querying a Catalog of Indexed Documents

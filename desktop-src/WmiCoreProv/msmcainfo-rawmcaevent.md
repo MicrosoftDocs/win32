@@ -1,7 +1,12 @@
 ---
-Description: 'Contains a Machine Check Architecture (MCA) event. This class is available only in 64-bit Windows systems.'
-ms.assetid: 'd1806b91-43a3-4329-8fe5-de1e4755740f'
-title: 'MSMCAInfo\_RawMCAEvent class'
+Description: Contains a Machine Check Architecture (MCA) event. This class is available only in 64-bit Windows systems.
+ms.assetid: d1806b91-43a3-4329-8fe5-de1e4755740f
+title: MSMCAInfo\_RawMCAEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSMCAInfo\_RawMCAEvent class
@@ -15,9 +20,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class MSMCAInfo_RawMCAEvent : WMIEvent
 {
-  boolean         Active;
-  uint32          Count;
-  string          InstanceName;
+  boolean         Active;
+  uint32          Count;
+  string          InstanceName;
   MSMCAInfo_Entry Records[];
 };
 ```
@@ -99,8 +104,8 @@ The **MSMCAInfo\_RawMCAEvent** class is derived from [**WMIEvent**](wmievent.md)
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>Wmicore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
@@ -117,9 +122,9 @@ The **MSMCAInfo\_RawMCAEvent** class is derived from [**WMIEvent**](wmievent.md)
 [**WMIEvent**](wmievent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

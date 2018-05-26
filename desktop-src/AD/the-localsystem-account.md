@@ -4,11 +4,16 @@ description: One advantage of running under the LocalSystem account is that the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2bc2e16d-bd25-4ec6-91a2-8d03052df021'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2bc2e16d-bd25-4ec6-91a2-8d03052df021
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["localsystem account", "localsystem"]
+keywords:
+- localsystem account
+- localsystem
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using the LocalSystem Account as a Service Logon Account

@@ -1,13 +1,28 @@
 ---
 title: Toggle Control Pattern
 description: Describes guidelines and conventions for implementing IToggleProvider, including information about properties and methods. The Toggle control pattern is used to support controls that can cycle through a set of states and maintain a state once set.
-ms.assetid: '9fd1232b-199a-41e6-81b0-667c7e463d09'
-keywords: ["UI Automation,implementing Toggle control pattern", "UI Automation,Toggle control pattern", "UI Automation,IToggleProvider", "IToggleProvider", "implementing UI Automation Toggle control patterns", "Toggle control patterns", "control patterns,IToggleProvider", "control patterns,implementing UI Automation Toggle", "control patterns,Toggle", "interfaces,IToggleProvider"]
+ms.assetid: 9fd1232b-199a-41e6-81b0-667c7e463d09
+keywords:
+- UI Automation,implementing Toggle control pattern
+- UI Automation,Toggle control pattern
+- UI Automation,IToggleProvider
+- IToggleProvider
+- implementing UI Automation Toggle control patterns
+- Toggle control patterns
+- control patterns,IToggleProvider
+- control patterns,implementing UI Automation Toggle
+- control patterns,Toggle
+- interfaces,IToggleProvider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Toggle Control Pattern
 
-Describes guidelines and conventions for implementing [**IToggleProvider**](uiauto-itoggleprovider.md), including information about properties and methods. The **Toggle** control pattern is used to support controls that can cycle through a set of states and maintain a state once set.
+Describes guidelines and conventions for implementing [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master), including information about properties and methods. The **Toggle** control pattern is used to support controls that can cycle through a set of states and maintain a state once set.
 
 For examples of controls that implement this control pattern, see [Control Types and Their Supported Control Patterns](uiauto-controlpatternmapping.md).
 
@@ -21,21 +36,21 @@ This topic contains the following sections.
 
 When implementing the **Toggle** control pattern, note the following guidelines and conventions:
 
--   Controls that do not maintain state when activated, such as buttons, toolbar buttons, and hyperlinks, must implement [**IInvokeProvider**](uiauto-iinvokeprovider.md) instead.
--   A control must cycle through its toggle states ([**ToggleState**](uiauto-togglestate.md)) in the following order: **ToggleState\_On**, **ToggleState\_Off** and, if supported, **ToggleState\_Indeterminate**.
--   **Toggle** does not provide a set-state method because of issues surrounding the direct setting of a three-state check box without cycling through its appropriate [**ToggleState**](uiauto-togglestate.md) sequence.
--   The radio button control does not implement [**IToggleProvider**](uiauto-itoggleprovider.md), because it is not capable of cycling through its valid states.
+-   Controls that do not maintain state when activated, such as buttons, toolbar buttons, and hyperlinks, must implement [**IInvokeProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iinvokeprovider?branch=master) instead.
+-   A control must cycle through its toggle states ([**ToggleState**](/windows/win32/UIAutomationCore/ne-uiautomationcore-togglestate?branch=master)) in the following order: **ToggleState\_On**, **ToggleState\_Off** and, if supported, **ToggleState\_Indeterminate**.
+-   **Toggle** does not provide a set-state method because of issues surrounding the direct setting of a three-state check box without cycling through its appropriate [**ToggleState**](/windows/win32/UIAutomationCore/ne-uiautomationcore-togglestate?branch=master) sequence.
+-   The radio button control does not implement [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master), because it is not capable of cycling through its valid states.
 
 ## Required Members for **IToggleProvider**
 
-The following properties and methods are required for implementing the [**IToggleProvider**](uiauto-itoggleprovider.md) interface.
+The following properties and methods are required for implementing the [**IToggleProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itoggleprovider?branch=master) interface.
 
 
 
 | Required members                                          | Member type | Notes |
 |-----------------------------------------------------------|-------------|-------|
-| [**Toggle**](uiauto-itoggleprovider-toggle.md)           | Method      | None  |
-| [**ToggleState**](uiauto-itoggleprovider-togglestate.md) | Property    | None  |
+| [**Toggle**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itoggleprovider-toggle?branch=master)           | Method      | None  |
+| [**ToggleState**](/windows/win32/UIAutomationCore/nf-uiautomationcore-itoggleprovider-get_togglestate?branch=master) | Property    | None  |
 
 
 

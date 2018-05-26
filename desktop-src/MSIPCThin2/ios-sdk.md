@@ -4,11 +4,18 @@ description: IOS and OS X applications can use the Rights Management SDK 4.2 to
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b31e5b72-e65e-450a-b1b8-d46e81e9fb34'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b31e5b72-e65e-450a-b1b8-d46e81e9fb34
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["iOS", "RMS", "rights", "Information Protection Client thin"]
+keywords:
+- iOS
+- RMS
+- rights
+- Information Protection Client thin
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # iOS and OS X setup

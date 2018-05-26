@@ -1,8 +1,20 @@
 ---
 title: Audio Mixer Messages
 description: Audio Mixer Messages
-ms.assetid: '4d2fd33d-3149-4b12-9455-9891f5c8bc77'
-keywords: ["multimedia audio,audio mixer messages", "audio,audio mixer messages", "multimedia audio,mixer messages", "audio,mixer messages", "audio mixers,messages", "mixers,messages", "reference for audio mixers,messages"]
+ms.assetid: 4d2fd33d-3149-4b12-9455-9891f5c8bc77
+keywords:
+- multimedia audio,audio mixer messages
+- audio,audio mixer messages
+- multimedia audio,mixer messages
+- audio,mixer messages
+- audio mixers,messages
+- mixers,messages
+- reference for audio mixers,messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Mixer Messages

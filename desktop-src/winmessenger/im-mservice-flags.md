@@ -1,8 +1,15 @@
 ---
 title: MSERVICE\_FLAGS enumeration
 description: Do not use.
-ms.assetid: '17c64bb7-1029-4db6-b1d5-ee67f60e381a'
-keywords: ["MSERVICE_FLAGS enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: 17c64bb7-1029-4db6-b1d5-ee67f60e381a
+keywords:
+- MSERVICE_FLAGS enumeration Windows Messenger
+- LockError enumeration Windows Messenger
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSERVICE\_FLAGS enumeration

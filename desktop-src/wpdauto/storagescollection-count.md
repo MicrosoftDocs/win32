@@ -1,14 +1,22 @@
 ---
 title: storagesCollection.Count property
 description: The Count property gets the number of Storage objects in the collection.
-ms.assetid: '020c7dea-94c7-4115-844d-90a209c3e527'
-keywords: ["Count property WPD Automation", "Count property WPD Automation , storagesCollection object", "storagesCollection object WPD Automation , Count property"]
+ms.assetid: 020c7dea-94c7-4115-844d-90a209c3e527
+keywords:
+- Count property WPD Automation
+- Count property WPD Automation , storagesCollection object
+- storagesCollection object WPD Automation , Count property
 topic_type:
 - apiref
 api_name:
 - storagesCollection.Count
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # storagesCollection.Count property
@@ -54,8 +62,8 @@ for (i=0; i < storages.Count; i++)
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +77,9 @@ for (i=0; i < storages.Count; i++)
 [**Storage Object**](storage-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

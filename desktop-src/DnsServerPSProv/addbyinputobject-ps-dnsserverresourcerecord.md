@@ -2,13 +2,16 @@
 title: AddByInputObject method of the PS\_DnsServerResourceRecord class
 description: Adds the resource record to a specified zone in a DNS server.
 audience: developer
-ms.assetid: 'a458de46-2720-40f4-a0c1-3be13fef5ad5'
-ms.prod: 'windows-server-dev'
+ms.assetid: a458de46-2720-40f4-a0c1-3be13fef5ad5
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddByInputObject method", "AddByInputObject method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddByInputObject method"]
+keywords:
+- AddByInputObject method
+- AddByInputObject method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddByInputObject method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddByInputObject method of the PS\_DnsServerResourceRecord class
@@ -28,15 +34,15 @@ Adds the resource record to a specified zone in a DNS server.
 
 ```mof
 uint32 AddByInputObject(
-  [in]  DnsServerResourceRecord InputObject,
-  [in]  string                  ZoneName,
-  [in]  string                  ComputerName,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  boolean                 PassThru,
-  [in]  boolean                 Force,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  DnsServerResourceRecord InputObject,
+  [in]  string                  ZoneName,
+  [in]  string                  ComputerName,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  boolean                 PassThru,
+  [in]  boolean                 Force,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -93,7 +99,7 @@ Adds a resource record without prompting you for confirmation. By default, the m
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -102,7 +108,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -120,7 +126,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -134,9 +140,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

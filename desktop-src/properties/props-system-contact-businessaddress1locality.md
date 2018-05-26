@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '2c36f68a-e7a0-49f7-91b0-c80ac74b104b'
-title: 'System.Contact.BusinessAddress1Locality'
+Description: .
+ms.assetid: 2c36f68a-e7a0-49f7-91b0-c80ac74b104b
+title: System.Contact.BusinessAddress1Locality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.BusinessAddress1Locality

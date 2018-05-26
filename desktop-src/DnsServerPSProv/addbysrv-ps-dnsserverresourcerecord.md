@@ -2,13 +2,16 @@
 title: AddBySrv method of the PS\_DnsServerResourceRecord class
 description: Adds the record to a specified zone in a DNS server.
 audience: developer
-ms.assetid: '3fa08a4d-3aef-4cc0-ae91-700873d0f061'
-ms.prod: 'windows-server-dev'
+ms.assetid: 3fa08a4d-3aef-4cc0-ae91-700873d0f061
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddBySrv method", "AddBySrv method, PS_DnsServerResourceRecord class", "PS_DnsServerResourceRecord class, AddBySrv method"]
+keywords:
+- AddBySrv method
+- AddBySrv method, PS_DnsServerResourceRecord class
+- PS_DnsServerResourceRecord class, AddBySrv method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddBySrv method of the PS\_DnsServerResourceRecord class
@@ -28,21 +34,21 @@ Adds the record to a specified zone in a DNS server.
 
 ```mof
 uint32 AddBySrv(
-  [in]  string                  DomainName,
-  [in]  uint16                  Priority,
-  [in]  uint16                  Weight,
-  [in]  string                  ZoneName,
-  [in]  uint16                  Port,
-  [in]  datetime                TimeToLive,
-  [in]  boolean                 AllowUpdateAny,
-  [in]  string                  Name,
-  [in]  string                  ComputerName,
-  [in]  boolean                 AgeRecord,
-  [in]  boolean                 Srv,
-  [in]  boolean                 PassThru,
-  [in]  string                  ZoneScope,
-  [in]  string                  VirtualizationInstance,
-  [out] DnsServerResourceRecord cmdletOutput
+  [in]  string                  DomainName,
+  [in]  uint16                  Priority,
+  [in]  uint16                  Weight,
+  [in]  string                  ZoneName,
+  [in]  uint16                  Port,
+  [in]  datetime                TimeToLive,
+  [in]  boolean                 AllowUpdateAny,
+  [in]  string                  Name,
+  [in]  string                  ComputerName,
+  [in]  boolean                 AgeRecord,
+  [in]  boolean                 Srv,
+  [in]  boolean                 PassThru,
+  [in]  string                  ZoneScope,
+  [in]  string                  VirtualizationInstance,
+  [out] DnsServerResourceRecord cmdletOutput
 );
 ```
 
@@ -141,7 +147,7 @@ If specified, creates an SRV DNS Server resource record.
 
 Name of the zone scope.
 
-**Windows Server 2012:** Not supported.
+**Windows Server 2012:** Not supported.
 
 </dd> <dt>
 
@@ -150,7 +156,7 @@ Name of the zone scope.
 
 Unique identifier of the virtualization instance.
 
-**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
+**Windows Server 2012 R2 and Windows Server 2012:** This parameter is unavailable prior to Windows Server 2016.
 
 </dd> <dt>
 
@@ -168,7 +174,7 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -182,9 +188,9 @@ Receives an embedded instance of the [**DnsServerResourceRecord**](dnsserverreso
 [**PS\_DnsServerResourceRecord**](ps-dnsserverresourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

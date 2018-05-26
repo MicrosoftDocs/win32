@@ -2,7 +2,12 @@
 title: L
 description: Words starting with L in Remote Procedure Call (RPC) glossary.
 Robots: noindex, nofollow
-ms.assetid: 'db8cfb63-7476-42ee-9c62-031200ca46b6'
+ms.assetid: db8cfb63-7476-42ee-9c62-031200ca46b6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # L

@@ -4,11 +4,16 @@ description: The ControlObject property returns the automation interface supplie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4babc95d-9e14-42b2-84e0-ecb225552366'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 4babc95d-9e14-42b2-84e0-ecb225552366
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["ControlObject property MMC", "ControlObject property MMC , View object", "View object MMC , ControlObject property", "ControlObject property MMC , View interface", "View interface MMC , ControlObject property"]
+keywords:
+- ControlObject property MMC
+- ControlObject property MMC , View object
+- View object MMC , ControlObject property
+- ControlObject property MMC , View interface
+- View interface MMC , ControlObject property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # View::ControlObject property
@@ -47,8 +55,8 @@ The functionality of the control object is dependent on the particular OCX. For 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -56,9 +64,9 @@ The functionality of the control object is dependent on the particular OCX. For 
 
 
 
- 
+ 
 
- 
+ 
 
 
 

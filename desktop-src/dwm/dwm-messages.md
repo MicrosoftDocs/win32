@@ -1,8 +1,17 @@
 ---
 title: DWM Messages
 description: This section contains information about the Desktop Window Manager (DWM) messages.
-ms.assetid: 'FF251CDA-7D68-4dd0-A54B-50B07E11C7C1'
-keywords: ["Desktop Window Manager (DWM),reference", "DWM (Desktop Window Manager),reference", "Desktop Window Manager (DWM),messages", "DWM (Desktop Window Manager),messages"]
+ms.assetid: FF251CDA-7D68-4dd0-A54B-50B07E11C7C1
+keywords:
+- Desktop Window Manager (DWM),reference
+- DWM (Desktop Window Manager),reference
+- Desktop Window Manager (DWM),messages
+- DWM (Desktop Window Manager),messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DWM Messages
@@ -34,7 +43,7 @@ This section contains information about the Desktop Window Manager (DWM) message
 <td>Informs all top-level windows that DWM composition has been enabled or disabled. <br/>
 <blockquote>
 [!Note]<br />
-As of Windows 8, DWM composition is always enabled, so this message is not sent regardless of video mode changes.
+As of Windows 8, DWM composition is always enabled, so this message is not sent regardless of video mode changes.
 </blockquote>
 <br/></td>
 </tr>
@@ -59,11 +68,11 @@ As of Windows 8, DWM composition is always enabled, so this message is not sent 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

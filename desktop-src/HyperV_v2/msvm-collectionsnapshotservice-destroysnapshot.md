@@ -1,7 +1,12 @@
 ---
-Description: 'Destroys an existing snapshot of virtual system collection. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.'
-ms.assetid: '79a529d5-35bb-4e63-a1b7-8943de9580e8'
-title: 'DestroySnapshot method of the Msvm\_CollectionSnapshotService class'
+Description: Destroys an existing snapshot of virtual system collection. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.
+ms.assetid: 79a529d5-35bb-4e63-a1b7-8943de9580e8
+title: DestroySnapshot method of the Msvm\_CollectionSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroySnapshot method of the Msvm\_CollectionSnapshotService class
@@ -13,8 +18,8 @@ Destroys an existing snapshot of virtual system collection. This method may as a
 
 ```mof
 uint32 DestroySnapshot(
-  [in]  CIM_Collection  REF AffectedSnapshotCollection,
-  [out] CIM_ConcreteJob REF Job
+  [in]  CIM_Collection  REF AffectedSnapshotCollection,
+  [out] CIM_ConcreteJob REF Job
 );
 ```
 
@@ -83,8 +88,8 @@ On success, returns either 0 (Complete) or 4096 (Job Started); otherwise, return
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -98,9 +103,9 @@ On success, returns either 0 (Complete) or 4096 (Job Started); otherwise, return
 [**Msvm\_CollectionSnapshotService**](msvm-collectionsnapshotservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: ICM\_COMPRESS\_GET\_FORMAT message
 description: The ICM\_COMPRESS\_GET\_FORMAT message requests the output format of the compressed data from a video compression driver. You can send this message explicitly or by using the ICCompressGetFormat macro.
-ms.assetid: 'ac12d415-bad5-4838-b206-09c8097d3fd9'
-keywords: ["ICM_COMPRESS_GET_FORMAT message Windows Multimedia"]
+ms.assetid: ac12d415-bad5-4838-b206-09c8097d3fd9
+keywords:
+- ICM_COMPRESS_GET_FORMAT message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_COMPRESS\_GET\_FORMAT message
 
-The **ICM\_COMPRESS\_GET\_FORMAT** message requests the output format of the compressed data from a video compression driver. You can send this message explicitly or by using the [**ICCompressGetFormat**](iccompressgetformat.md) macro.
+The **ICM\_COMPRESS\_GET\_FORMAT** message requests the output format of the compressed data from a video compression driver. You can send this message explicitly or by using the [**ICCompressGetFormat**](/windows/win32/Vfw/nf-vfw-iccompressgetformat?branch=master) macro.
 
 
 ```C++
@@ -40,7 +46,7 @@ Pointer to a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop
 <span id="lpbiOutput"></span><span id="lpbioutput"></span><span id="LPBIOUTPUT"></span>*lpbiOutput*
 </dt> <dd>
 
-Pointer to a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure to contain the output format. You can specify zero for this parameter to request only the size of the output format, as in the [**ICCompressGetFormatSize**](iccompressgetformatsize.md) macro.
+Pointer to a [**BITMAPINFO**](https://msdn.microsoft.com/library/windows/desktop/dd183375) structure to contain the output format. You can specify zero for this parameter to request only the size of the output format, as in the [**ICCompressGetFormatSize**](/windows/win32/Vfw/nf-vfw-iccompressgetformatsize?branch=master) macro.
 
 </dd> </dl>
 
@@ -60,8 +66,8 @@ If *lpbiOutput* is nonzero, the driver should fill the [**BITMAPINFO**](https://
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -76,9 +82,9 @@ If *lpbiOutput* is nonzero, the driver should fill the [**BITMAPINFO**](https://
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MLIST enumeration
 description: Do not use.
-ms.assetid: '91361c98-08e9-429e-b2c0-04e400af304d'
-keywords: ["MLIST enumeration Windows Messenger", "LockError enumeration Windows Messenger"]
+ms.assetid: 91361c98-08e9-429e-b2c0-04e400af304d
+keywords:
+- MLIST enumeration Windows Messenger
+- LockError enumeration Windows Messenger
 topic_type:
 - apiref
 api_name:
@@ -11,18 +13,23 @@ api_location:
 - Mdisp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MLIST enumeration
 
-\[**MLIST** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
+\[**MLIST** is no longer available for use as of Windows Vista. See [Windows Messenger](im-messenger-entry.md) for more information.\]
 
 Do not use. Used to retrieve information about contact lists.
 
 > [!Note]  
 > The **MLIST** enumerated type is available for use in Windows Messenger 4.7. It might be altered or unavailable in subsequent versions of Windows Messenger.
 
- 
+ 
 
 ## Syntax
 
@@ -30,9 +37,9 @@ Do not use. Used to retrieve information about contact lists.
 ```C++
 typedef enum  { 
   MLIST_CONTACT,
-  MLIST_ALLOW    = 1,
-  MLIST_BLOCK    = 2,
-  MLIST_REVERSE  = 3
+  MLIST_ALLOW    = 1,
+  MLIST_BLOCK    = 2,
+  MLIST_REVERSE  = 3
 } LockError;
 ```
 
@@ -76,16 +83,16 @@ Returns the collection of contacts that have added the user to their contact lis
 
 |                                  |                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------|
-| End of client support<br/> | Windows XP<br/>                                                                |
-| End of server support<br/> | Windows Server 2003<br/>                                                       |
+| End of client support<br/> | Windows XP<br/>                                                                |
+| End of server support<br/> | Windows Server 2003<br/>                                                       |
 | Header<br/>                | <dl> <dt>Mdisp.h</dt> </dl>   |
 | IDL<br/>                   | <dl> <dt>Mdisp.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

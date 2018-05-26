@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMethods method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.'
-ms.assetid: '185e9bbe-da8d-4041-af5f-7bf95bd647b9'
-title: 'FaxInboundRouting.GetMethods method'
+---
+Description: The GetMethods method retrieves the ordered collection of all the inbound routing methods exposed by all the inbound routing extensions currently registered with the fax service.
+ms.assetid: 185e9bbe-da8d-4041-af5f-7bf95bd647b9
+title: FaxInboundRouting.GetMethods method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRouting.GetMethods method
@@ -31,7 +36,7 @@ A [**FaxInboundRoutingMethods**](-mfax-faxinboundroutingmethods.md) object.
 
 Order is based on the [**Priority**](-mfax-faxinboundroutingmethod-priority.md) property of each routing method. The priority is associated with the order in which the fax service calls the routing method when the service receives a fax job.
 
-To use this method, a user must have the [****farQUERY\_CONFIG****](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [****farQUERY\_CONFIG****](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The SetDefaultTargetRect method sets the default target video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle is reset.'
-ms.assetid: 'bb7e32b2-f02c-465f-a8cb-6172d9724790'
-title: 'CBaseControlVideo.SetDefaultTargetRect method'
+Description: The SetDefaultTargetRect method sets the default target video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle is reset.
+ms.assetid: bb7e32b2-f02c-465f-a8cb-6172d9724790
+title: CBaseControlVideo.SetDefaultTargetRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.SetDefaultTargetRect method
@@ -66,9 +71,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

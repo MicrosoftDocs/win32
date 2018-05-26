@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns a 3D vector that is made up of the smallest components of two 3D vectors.'
-ms.assetid: 'f38164a5-d016-4a8a-a7fe-d7eb0a681107'
+---
+Description: Returns a 3D vector that is made up of the smallest components of two 3D vectors.
+ms.assetid: f38164a5-d016-4a8a-a7fe-d7eb0a681107
 title: D3DXVec3Minimize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXVec3Minimize function

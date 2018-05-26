@@ -1,8 +1,9 @@
 ---
 title: VMTaskResult enumeration
 description: Specifies the result of a task.
-ms.assetid: '34aa193a-466d-492e-8648-467c286a8c11'
-keywords: ["VMTaskResult enumeration Virtual PC"]
+ms.assetid: 34aa193a-466d-492e-8648-467c286a8c11
+keywords:
+- VMTaskResult enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMTaskResult enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the result of a task.
 
@@ -24,16 +30,16 @@ Specifies the result of a task.
 
 ```C++
 typedef enum  { 
-  vmTaskResult_Success                      = 0,
-  vmTaskResult_Cancelled                    = 1,
-  vmTaskResult_UnexpectedError              = 2,
-  vmTaskResult_OutOfMemoryError             = 3,
-  vmTaskResult_DiskRelatedError             = 4,
-  vmTaskResult_IncompatibleSavedStateError  = 5,
-  vmTaskResult_TimeOutError                 = 6,
-  vmTaskResult_IllegalValueError            = 7,
-  vmTaskResult_ThreadCrashError             = 8,
-  vmTaskResult_ShutdownAbort                = 9
+  vmTaskResult_Success                      = 0,
+  vmTaskResult_Cancelled                    = 1,
+  vmTaskResult_UnexpectedError              = 2,
+  vmTaskResult_OutOfMemoryError             = 3,
+  vmTaskResult_DiskRelatedError             = 4,
+  vmTaskResult_IncompatibleSavedStateError  = 5,
+  vmTaskResult_TimeOutError                 = 6,
+  vmTaskResult_IllegalValueError            = 7,
+  vmTaskResult_ThreadCrashError             = 8,
+  vmTaskResult_ShutdownAbort                = 9
 } VMTaskResult;
 ```
 
@@ -119,9 +125,9 @@ The shutdown requested was aborted.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -134,9 +140,9 @@ The shutdown requested was aborted.
 [**IVMTask::Result**](ivmtask-result.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

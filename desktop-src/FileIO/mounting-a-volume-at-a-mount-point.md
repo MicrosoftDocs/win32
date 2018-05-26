@@ -1,14 +1,19 @@
 ---
-Description: 'How to create a mounted folder.'
-ms.assetid: 'c97bfd10-66ff-41e1-ba3b-f98a019948d5'
+Description: How to create a mounted folder.
+ms.assetid: c97bfd10-66ff-41e1-ba3b-f98a019948d5
 title: Creating a Mounted Folder
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Mounted Folder
 
 The following sample demonstrates how to create a mounted folder. For more information, see [Creating Mounted Folders](mounting-and-dismounting-a-volume.md).
 
-This sample uses the following functions: [**GetVolumeNameForVolumeMountPoint**](getvolumenameforvolumemountpoint.md) and [**SetVolumeMountPoint**](setvolumemountpoint.md).
+This sample uses the following functions: [**GetVolumeNameForVolumeMountPoint**](/windows/win32/FileAPI/nf-fileapi-getvolumenameforvolumemountpointw?branch=master) and [**SetVolumeMountPoint**](/windows/win32/WinBase/nf-winbase-setvolumemountpointa?branch=master).
 
 
 ```C++

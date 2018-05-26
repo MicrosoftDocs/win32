@@ -1,7 +1,12 @@
 ---
-Description: 'The Configure method submits capture configuration information.'
-ms.assetid: '739ed1df-1a84-4c48-a1ac-2dba7a614cdd'
-title: 'IStats::Configure method'
+Description: The Configure method submits capture configuration information.
+ms.assetid: 739ed1df-1a84-4c48-a1ac-2dba7a614cdd
+title: IStatsConfigure method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IStats::Configure method
@@ -13,8 +18,8 @@ The **Configure** method submits capture configuration information.
 
 ```C++
 HRESULT STDMETHODCALLTYPE Configure(
-  [in]  HBLOB hConfigurationBlob,
-  [out] HBLOB hErrorBlob
+  [in]  HBLOB hConfigurationBlob,
+  [out] HBLOB hErrorBlob
 );
 ```
 
@@ -64,7 +69,7 @@ If the method is unsuccessful, the return value is one of the following error co
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +83,8 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 
 |                                     |                                                                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>                                                                      |
 | DLL<br/>                      | <dl> <dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt> </dl> |
 
@@ -98,9 +103,9 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 [Network Monitor BLOBS](network-monitor-blobs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

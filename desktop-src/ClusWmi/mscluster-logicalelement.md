@@ -4,13 +4,15 @@ description: A superclass for cluster objects that provide the Flags and Charact
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'e0abac3d-823b-46ef-8d9f-aa4b8c73c6d7'
-ms.prod: 'windows-server-dev'
+ms.assetid: e0abac3d-823b-46ef-8d9f-aa4b8c73c6d7
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSCluster_LogicalElement class", "MSCluster_LogicalElement class, described"]
+keywords:
+- MSCluster_LogicalElement class
+- MSCluster_LogicalElement class, described
 topic_type:
 - apiref
 api_name:
@@ -26,6 +28,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCluster\_LogicalElement class
@@ -40,13 +45,13 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Abstract, UUID("{9EB9A2F9-0751-4dcf-AB59-F8341D0F60B2}"), AMENDMENT]
 class MSCluster_LogicalElement : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint32   Flags;
-  uint32   Characteristics;
+  string   Name;
+  string   Status;
+  uint32   Flags;
+  uint32   Characteristics;
 };
 ```
 
@@ -91,9 +96,9 @@ Access type: Read-only
 
 Provides the characteristics of the object. The cluster defines characteristics only for [resources](https://msdn.microsoft.com/library/aa372152). For a description of these characteristics, see [CLUSCTL\_RESOURCE\_GET\_CHARACTERISTICS](https://msdn.microsoft.com/library/aa367466).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 </dd> <dt>
 
@@ -123,9 +128,9 @@ Access type: Read-only
 
 Provides access to the flags set for the object. The cluster defines flags only for resources. For a description of these flags, see [CLUSCTL\_RESOURCE\_GET\_FLAGS](https://msdn.microsoft.com/library/aa367471).
 
-**Windows Server 2008 R2 and Windows Server 2008:  **
+**Windows Server 2008 R2 and Windows Server 2008:  **
 
-This property is read/write before Windows Server 2012.
+This property is read/write before Windows Server 2012.
 
 </dd> <dt>
 
@@ -266,7 +271,7 @@ The **MSCluster\_LogicalElement** class is derived from the [**CIM\_LogicalEleme
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -283,9 +288,9 @@ The **MSCluster\_LogicalElement** class is derived from the [**CIM\_LogicalEleme
 [Failover Cluster Provider Reference](server-cluster-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

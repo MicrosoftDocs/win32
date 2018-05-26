@@ -1,7 +1,12 @@
 ---
 title: Starting a Full Rescan
 description: Starting a Full Rescan
-ms.assetid: '51f4547e-d7ab-49f2-81d7-943224576864'
+ms.assetid: 51f4547e-d7ab-49f2-81d7-943224576864
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Starting a Full Rescan

@@ -1,8 +1,10 @@
 ---
 title: Msvm\_InternalEthernetPort class
 description: Represents an internal Ethernet port (network adapter).
-ms.assetid: '8af63a0c-46a4-42dc-ac2b-112bd87027cd'
-keywords: ["Msvm_InternalEthernetPort class Hyper-V", "Msvm_InternalEthernetPort class Hyper-V , described"]
+ms.assetid: 8af63a0c-46a4-42dc-ac2b-112bd87027cd
+keywords:
+- Msvm_InternalEthernetPort class Hyper-V
+- Msvm_InternalEthernetPort class Hyper-V , described
 topic_type:
 - apiref
 api_name:
@@ -72,6 +74,11 @@ api_location:
 - Root\Virtualization
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_InternalEthernetPort class
@@ -86,59 +93,59 @@ The following syntax is simplified Managed Object Format (MOF) code, and it incl
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
 class Msvm_InternalEthernetPort : CIM_EthernetPort
 {
-  string   Caption = "Ethernet Port";
-  string   Description = "Microsoft Internal Ethernet Port";
-  string   ElementName;
+  string   Caption = "Ethernet Port";
+  string   Description = "Microsoft Internal Ethernet Port";
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[] = 2;
-  string   StatusDescriptions[] = { "OK" };
-  string   Status;
-  uint16   HealthState = 5;
-  uint16   EnabledState = 5;
-  uint16   RequestedState = 12;
+  string   Name;
+  uint16   OperationalStatus[] = 2;
+  string   StatusDescriptions[] = { "OK" };
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   EnabledState = 5;
+  uint16   RequestedState = 12;
   datetime TimeOfLastStateChange;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName = "Msvm_InternalEthernetPort";
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  boolean  ErrorCleared;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[] = 6;
-  uint64   MaxQuiesceTime;
-  uint16   LocationIndicator;
-  uint64   MaxSpeed = 1000000000;
-  uint64   RequestedSpeed = 1000000000;
-  uint16   PortNumber;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  boolean  FullDuplex = TRUE;
-  boolean  AutoSense = True;
-  uint64   SupportedMaximumTransmissionUnit = 1500;
-  string   NetworkAddresses[];
-  uint16   Capabilities[];
-  string   CapabilityDescriptions[];
-  uint16   EnabledCapabilities[];
-  string   OtherEnabledCapabilities[];
-  string   OtherEnabledState;
-  uint16   EnabledDefault = 2;
-  string   DeviceID = "Microsoft:GUID\device-specific data";
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  uint16   UsageRestriction = 4;
-  string   OtherPortType;
-  uint64   Speed;
-  string   OtherNetworkPortType;
-  uint16   LinkTechnology = 2;
-  uint64   ActiveMaximumTransmissionUnit = 1500;
-  uint16   PortType;
-  uint32   MaxDataSize = ;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName = "Msvm_InternalEthernetPort";
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = 6;
+  uint64   MaxQuiesceTime;
+  uint16   LocationIndicator;
+  uint64   MaxSpeed = 1000000000;
+  uint64   RequestedSpeed = 1000000000;
+  uint16   PortNumber;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  boolean  FullDuplex = TRUE;
+  boolean  AutoSense = True;
+  uint64   SupportedMaximumTransmissionUnit = 1500;
+  string   NetworkAddresses[];
+  uint16   Capabilities[];
+  string   CapabilityDescriptions[];
+  uint16   EnabledCapabilities[];
+  string   OtherEnabledCapabilities[];
+  string   OtherEnabledState;
+  uint16   EnabledDefault = 2;
+  string   DeviceID = "Microsoft:GUID\device-specific data";
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint16   UsageRestriction = 4;
+  string   OtherPortType;
+  uint64   Speed;
+  string   OtherNetworkPortType;
+  uint16   LinkTechnology = 2;
+  uint64   ActiveMaximumTransmissionUnit = 1500;
+  uint16   PortType;
+  uint32   MaxDataSize = ;
 };
 ```
 
@@ -168,7 +175,7 @@ The **Msvm\_InternalEthernetPort** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1038,7 +1045,7 @@ The specific mode that is currently enabled for the port. When set to 1 (Other),
 **Vendor Reserved**
 
 
-</dt> <dd>16000–65535</dd> </dl>
+</dt> <dd>16000 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1304,9 +1311,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 |                                     |                                                                                                      |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |
 | End of client support<br/>    | None supported<br/>                                                                            |
-| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
+| End of server support<br/>    | Windows Server 2012 R2<br/>                                                                    |
 | Namespace<br/>                | Root\\Virtualization<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.mof</dt> </dl> |
 
@@ -1325,9 +1332,9 @@ See [Querying Networking Objects](querying-networking-objects.md).
 [Networking Classes](networking-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

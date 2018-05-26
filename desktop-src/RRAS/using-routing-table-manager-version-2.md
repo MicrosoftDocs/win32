@@ -1,8 +1,15 @@
 ---
 title: Using Routing Table Manager Version 2
 description: Before you begin developing clients that use the RTMv2 APIs, review the RTMv2 Programming Issues.
-ms.assetid: 'c0187b65-3cb2-4ab0-8d5f-ca37e8bc0ad7'
-keywords: ["Routing and Remote Access Service RRAS , Routing Table Manager Version 2, tasks", "Routing Table Manager Version 2 RRAS , tasks"]
+ms.assetid: c0187b65-3cb2-4ab0-8d5f-ca37e8bc0ad7
+keywords:
+- Routing and Remote Access Service RRAS , Routing Table Manager Version 2, tasks
+- Routing Table Manager Version 2 RRAS , tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Routing Table Manager Version 2

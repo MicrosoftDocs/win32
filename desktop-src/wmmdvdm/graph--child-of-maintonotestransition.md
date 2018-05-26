@@ -1,14 +1,20 @@
 ---
 title: Graph (Child of MainToNotesTransition) element
 description: Defines the pipeline graph for the transition between the main menu and the notes menu.
-ms.assetid: '890ded97-c04c-496b-a7f9-d3dde3c635b2'
-keywords: ["Graph (Child of MainToNotesTransition) element Windows Movie Maker and DVD Maker"]
+ms.assetid: 890ded97-c04c-496b-a7f9-d3dde3c635b2
+keywords:
+- Graph (Child of MainToNotesTransition) element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Graph
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Graph (Child of MainToNotesTransition) element
@@ -49,7 +55,7 @@ The pipeline graph defines the flow of the transition and contains inputs (that 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -76,9 +82,9 @@ The pipeline graph defines the flow of the transition and contains inputs (that 
 [**Graph Element (Child of ToMainTransition)**](graph--child-of-tomaintransition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

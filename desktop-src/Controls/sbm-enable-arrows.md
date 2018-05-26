@@ -1,8 +1,9 @@
 ---
 title: SBM\_ENABLE\_ARROWS message
 description: An application sends the SBM\_ENABLE\_ARROWS message to enable or disable one or both arrows of a scroll bar control.
-ms.assetid: '9646826a-3a7c-490b-822d-7511e4ef2262'
-keywords: ["SBM_ENABLE_ARROWS message Windows Controls"]
+ms.assetid: 9646826a-3a7c-490b-822d-7511e4ef2262
+keywords:
+- SBM_ENABLE_ARROWS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SBM\_ENABLE\_ARROWS message
@@ -40,7 +46,7 @@ Specifies whether the scroll bar arrows are enabled or disabled and indicates wh
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -61,15 +67,15 @@ If the message succeeds, the return value is **TRUE**; otherwise, it is **FALSE*
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

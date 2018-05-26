@@ -4,13 +4,15 @@ description: Represents an association in which a bridge service is a component 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f9e90c6d-1966-4a4a-ad8d-1054f292ed21'
-ms.prod: 'windows-server-dev'
+ms.assetid: f9e90c6d-1966-4a4a-ad8d-1054f292ed21
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_SwitchServiceTransparentBridging class", "CIM_SwitchServiceTransparentBridging class, described"]
+keywords:
+- CIM_SwitchServiceTransparentBridging class
+- CIM_SwitchServiceTransparentBridging class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SwitchServiceTransparentBridging class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Aggregation, Abstract, Version("2.6.0"), UMLPackagePath("CIM::Network::SwitchingBridging")]
 class CIM_SwitchServiceTransparentBridging : CIM_ServiceComponent
 {
-  CIM_SwitchService              REF GroupComponent;
+  CIM_SwitchService              REF GroupComponent;
   CIM_TransparentBridgingService REF PartComponent;
 };
 ```
@@ -91,7 +96,7 @@ A reference to the component bridging service.
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -108,9 +113,9 @@ A reference to the component bridging service.
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

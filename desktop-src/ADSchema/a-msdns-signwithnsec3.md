@@ -4,17 +4,22 @@ description: An attribute used to define whether or not the DNS zone is signed w
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5c208bad-3de7-4fb3-ac76-9b4afaf5addf'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 5c208bad-3de7-4fb3-ac76-9b4afaf5addf
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DNS-Sign-With-NSEC3 attribute AD Schema", "msDNS-SignWithNSEC3 attribute AD Schema"]
+keywords:
+- ms-DNS-Sign-With-NSEC3 attribute AD Schema
+- msDNS-SignWithNSEC3 attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DNS-Sign-With-NSEC3
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DNS-Sign-With-NSEC3 attribute
@@ -38,7 +43,7 @@ An attribute used to define whether or not the DNS zone is signed with NSEC3.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ An attribute used to define whether or not the DNS zone is signed with NSEC3.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

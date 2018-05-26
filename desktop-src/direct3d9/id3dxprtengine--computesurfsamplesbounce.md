@@ -1,7 +1,12 @@
-﻿---
-Description: 'Computes precomputed radiance transfer (PRT) samples for an arbitrary point (and normal vector).'
-ms.assetid: '862a9067-5c5e-4428-86f4-ebef653411b9'
-title: 'ID3DXPRTEngine::ComputeSurfSamplesBounce method'
+---
+Description: Computes precomputed radiance transfer (PRT) samples for an arbitrary point (and normal vector).
+ms.assetid: 862a9067-5c5e-4428-86f4-ebef653411b9
+title: ID3DXPRTEngineComputeSurfSamplesBounce method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPRTEngine::ComputeSurfSamplesBounce method

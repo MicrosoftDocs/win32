@@ -4,13 +4,16 @@ description: Associates a CIM\_LogicalDevice subclass, such as CIM\_StorageVolum
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '266efc79-acda-4785-a6e5-3d1eda74f99d'
-ms.prod: 'windows-server-dev'
+ms.assetid: 266efc79-acda-4785-a6e5-3d1eda74f99d
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AttachDevice method iSCSI Software Target API", "AttachDevice method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class", "MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , AttachDevice method"]
+keywords:
+- AttachDevice method iSCSI Software Target API
+- AttachDevice method iSCSI Software Target API , MSISCSITARGET_ControllerConfigurationService class
+- MSISCSITARGET_ControllerConfigurationService class iSCSI Software Target API , AttachDevice method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SmIScsiTargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AttachDevice method of the MSISCSITARGET\_ControllerConfigurationService class
@@ -32,9 +38,9 @@ This method is inherited from the **CIM\_ControllerConfigurationService** class.
 
 ```mof
 uint32 AttachDevice(
-  [in]      CIM_ProtocolController Ref ProtocolController,
-  [in]      CIM_LogicalDevice Ref      Device,
-  [in, out] string                     DeviceNumber
+  [in]      CIM_ProtocolController Ref ProtocolController,
+  [in]      CIM_LogicalDevice Ref      Device,
+  [in, out] string                     DeviceNumber
 );
 ```
 
@@ -66,7 +72,7 @@ Specifies the number assigned to the **CIM\_ProtocolControllerForUnit.DeviceNumb
 > \[!Important\]  
 > The management instrumentation provider must verify that the logical unit numbers specified using the *DeviceNumber* parameter are unique for the protocol controller.
 
- 
+ 
 
 </dd> </dl>
 
@@ -94,7 +100,7 @@ This method returns one of the following values.
 **Invalid Parameter** (5)
 </dt> <dt>
 
-**DMTF Reserved** (6–4095)
+**DMTF Reserved** (6 4095)
 </dt> <dt>
 
 **Invalid LogicalDevice Instance** (4096)
@@ -112,10 +118,10 @@ This method returns one of the following values.
 **Busy** (4100)
 </dt> <dt>
 
-**Method Reserved** (4101–32767)
+**Method Reserved** (4101 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -125,7 +131,7 @@ This method returns one of the following values.
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SmIScsiTargetProv.dll</dt> </dl> |
@@ -148,9 +154,9 @@ This method returns one of the following values.
 [**MSISCSITARGET\_AuthorizedTarget**](msiscsitarget-authorizedtarget.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

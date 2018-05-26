@@ -1,14 +1,21 @@
 ---
 title: IBuffer interface
 description: The IBuffer interface wraps the source textures and the destination surface.
-ms.assetid: '72a68658-19cf-4cf9-bdf7-141e14701ad9'
-keywords: ["IBuffer interface Windows Movie Maker and DVD Maker", "IBuffer interface Windows Movie Maker and DVD Maker , described"]
+ms.assetid: 72a68658-19cf-4cf9-bdf7-141e14701ad9
+keywords:
+- IBuffer interface Windows Movie Maker and DVD Maker
+- IBuffer interface Windows Movie Maker and DVD Maker , described
 topic_type:
 - apiref
 api_name:
 - IBuffer
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBuffer interface
@@ -36,7 +43,7 @@ The **IBuffer** interface has these methods.
 
 
 
- 
+ 
 
 ## See also
 
@@ -45,9 +52,9 @@ The **IBuffer** interface has these methods.
 [**Transform Interfaces**](transform-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

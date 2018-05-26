@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.Photo.Aperture property.'
-ms.assetid: '3048eb9d-4ed4-4b5b-960e-9d0fd6704041'
-title: 'System.Photo.Aperture Photo Metadata Policy'
+Description: The photo metadata policy for the System.Photo.Aperture property.
+ms.assetid: 3048eb9d-4ed4-4b5b-960e-9d0fd6704041
+title: System.Photo.Aperture Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Photo.Aperture Photo Metadata Policy

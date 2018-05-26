@@ -1,8 +1,23 @@
 ---
 title: Seeking to a New Position in a File
 description: Seeking to a New Position in a File
-ms.assetid: '276c3e43-bf9f-4a0a-b33a-7eaa701e92a6'
-keywords: ["multimedia file I/O,moving to beginning of files", "file I/O,moving to beginning of files", "input and output (I/O),moving to beginning of files", "I/O (input and output),moving to beginning of files", "moving to beginning of I/O files", "multimedia file I/O,seeking new position in files", "file I/O,seeking new position in files", "input and output (I/O),seeking new position in files", "I/O (input and output),seeking new position in files", "seeking new position in I/O files"]
+ms.assetid: 276c3e43-bf9f-4a0a-b33a-7eaa701e92a6
+keywords:
+- multimedia file I/O,moving to beginning of files
+- file I/O,moving to beginning of files
+- input and output (I/O),moving to beginning of files
+- I/O (input and output),moving to beginning of files
+- moving to beginning of I/O files
+- multimedia file I/O,seeking new position in files
+- file I/O,seeking new position in files
+- input and output (I/O),seeking new position in files
+- I/O (input and output),seeking new position in files
+- seeking new position in I/O files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Seeking to a New Position in a File

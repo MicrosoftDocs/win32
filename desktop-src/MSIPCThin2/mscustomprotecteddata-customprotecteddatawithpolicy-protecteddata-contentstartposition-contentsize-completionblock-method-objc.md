@@ -4,17 +4,21 @@ description: Asynchronously creates an MSCustomProtectedData object that can be 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0a792395-2f4c-4d55-afaa-f9c4c3011860'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0a792395-2f4c-4d55-afaa-f9c4c3011860
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSCustomProtectedData customProtectedDataWithPolicy protectedData contentStartPosition contentSize completionBlock method"]
+keywords:
+- MSCustomProtectedData customProtectedDataWithPolicy protectedData contentStartPosition contentSize completionBlock method
 topic_type:
 - apiref
 api_name:
 - MSCustomProtectedData customProtectedDataWithPolicy protectedData contentStartPosition contentSize completionBlock method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSCustomProtectedData customProtectedDataWithPolicy:protectedData:contentStartPosition:contentSize:completionBlock method
@@ -83,7 +87,7 @@ If the user cancels the operation, both the <em>customProtectedData</em> and <em
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -99,13 +103,13 @@ MSCustomProtectedData.h
 
 
 
- 
+ 
 
 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -116,9 +120,9 @@ You specify a range (*contentStartPosition*, *contentSize*) where the encrypted 
 -   The *contentSize* parameter is specified in terms of the encrypted content; for example, it does include the size of the CBC padding. You can use the [**getEncryptedContentLength**](mscustomprotecteddata-getencryptedcontentlengthwithpolicy-protectionpolicy-contentlength.md) method to determine the size of the encrypted content from the size of the original, unencrypted content.
 -   If the range defined by the parameters *contentStartPosition* and *contentSize* is not empty (for example, *contentSize* != 0), it must address an entire segment of encrypted content; that is, it must start from block 0 and must have a final block in the CBC case or should be 16-byte aligned in the ECB case.
 
- 
+ 
 
- 
+ 
 
 
 

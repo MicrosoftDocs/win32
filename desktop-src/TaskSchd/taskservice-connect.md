@@ -1,8 +1,11 @@
 ---
 title: TaskService.Connect method
 description: For scripting, connects to a remote machine and associates all subsequent calls on this interface with a remote session.
-ms.assetid: 'ba810bac-e587-4eb8-871c-449b4174ab46'
-keywords: ["Connect method Task Scheduler", "Connect method Task Scheduler , TaskService object", "TaskService object Task Scheduler , Connect method"]
+ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46
+keywords:
+- Connect method Task Scheduler
+- Connect method Task Scheduler , TaskService object
+- TaskService object Task Scheduler , Connect method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskService.Connect method
@@ -104,24 +112,24 @@ If the Connect method fails, you can collect the error identifier to find the me
 <td>This error is returned in the following situations:
 <ul>
 <li>The computer name specified in the <em>serverName</em> parameter does not exist.</li>
-<li>When you are trying to connect to a Windows Server 2003 or Windows XP computer, and the remote computer does not have the File and Printer Sharing firewall exception enabled or the Remote Registry service is not running.</li>
-<li>When you are trying to connect to a Windows Vista computer, and the remote computer does not have the Remote Scheduled Tasks Management firewall exception enabled and the File and Printer Sharing firewall exception enabled, or the Remote Registry service is not running.</li>
+<li>When you are trying to connect to a Windows Server 2003 or Windows XP computer, and the remote computer does not have the File and Printer Sharing firewall exception enabled or the Remote Registry service is not running.</li>
+<li>When you are trying to connect to a Windows Vista computer, and the remote computer does not have the Remote Scheduled Tasks Management firewall exception enabled and the File and Printer Sharing firewall exception enabled, or the Remote Registry service is not running.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>50</td>
-<td>The <em>user</em>, <em>password</em>, or <em>domain</em> parameters cannot be specified when connecting to a remote Windows XP or Windows Server 2003 computer from a Windows Vista computer.</td>
+<td>The <em>user</em>, <em>password</em>, or <em>domain</em> parameters cannot be specified when connecting to a remote Windows XP or Windows Server 2003 computer from a Windows Vista computer.</td>
 </tr>
 </tbody>
 </table>
 
 
 
- 
+ 
 
-If you are to connecting to a remote Windows Vista computer from a Windows Vista, you need to allow the Remote Scheduled Tasks Management firewall exception on the remote computer. To allow this exception click Start, Control Panel, Security, Allow a program through Windows Firewall, and then select the Remote Scheduled Tasks Management check box. Then click the Ok button in the Windows Firewall Settings dialog box.
+If you are to connecting to a remote Windows Vista computer from a Windows Vista, you need to allow the Remote Scheduled Tasks Management firewall exception on the remote computer. To allow this exception click Start, Control Panel, Security, Allow a program through Windows Firewall, and then select the Remote Scheduled Tasks Management check box. Then click the Ok button in the Windows Firewall Settings dialog box.
 
-If you are connecting to a remote Windows XP or Windows Server 2003 computer from a Windows Vista computer, you need to allow the File and Printer Sharing firewall exception on the remote computer. To allow this exception click Start, Control Panel, double-click Windows Firewall, select the Exceptions tab, and then select the File and Printer Sharing firewall exception. Then click the OK button in the Windows Firewall dialog box. The Remote Registry service must also be running on the remote computer.
+If you are connecting to a remote Windows XP or Windows Server 2003 computer from a Windows Vista computer, you need to allow the File and Printer Sharing firewall exception on the remote computer. To allow this exception click Start, Control Panel, double-click Windows Firewall, select the Exceptions tab, and then select the File and Printer Sharing firewall exception. Then click the OK button in the Windows Firewall dialog box. The Remote Registry service must also be running on the remote computer.
 
 ## Requirements
 
@@ -129,16 +137,16 @@ If you are connecting to a remote Windows XP or Windows Server 2003 computer fro
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

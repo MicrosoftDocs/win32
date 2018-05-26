@@ -1,7 +1,12 @@
 ---
 title: Encrypter/Tagger Filter
 description: Encrypter/Tagger Filter
-ms.assetid: '5687144b-f878-465e-9bc5-dce52dad8ec7'
+ms.assetid: 5687144b-f878-465e-9bc5-dce52dad8ec7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encrypter/Tagger Filter
@@ -14,7 +19,7 @@ The Encrypter/Tagger filter encrypts media samples and tags them with ratings in
 
 |                                            |                                                                                                                                                              |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Filter interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IBroadcastEvent**](ibroadcastevent.md), [**IETFilter**](ietfilter.md), [**IETFilterConfig**](ietfilterconfig.md) |
+| Filter interfaces                          | [**IBaseFilter**](https://msdn.microsoft.com/library/windows/desktop/dd389526), [**IBroadcastEvent**](/windows/previous-versions/tuner/nn-tuner-ibroadcastevent?branch=master), [**IETFilter**](/windows/previous-versions/EncDec/nn-encdec-ietfilter?branch=master), [**IETFilterConfig**](/windows/previous-versions/EncDec/nn-encdec-ietfilterconfig?branch=master) |
 | Input pin media types                      | Any                                                                                                                                                          |
 | Input pin interfaces                       | [**IMemInputPin**](https://msdn.microsoft.com/library/windows/desktop/dd407073), [**IPin**](https://msdn.microsoft.com/library/windows/desktop/dd390397), [**IQualityControl**](https://msdn.microsoft.com/library/windows/desktop/dd376912)                                                 |
 | Output pin media types                     | MEDIASUBTYPE\_ETDTFilter\_Tagged                                                                                                                             |

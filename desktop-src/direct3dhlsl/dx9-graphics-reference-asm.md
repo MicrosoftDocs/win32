@@ -1,7 +1,12 @@
 ---
 title: Asm Shader Reference
 description: Shaders drive the programmable graphics pipeline.
-ms.assetid: '2c58815c-83b5-4ae8-a192-ba865b485bd6'
+ms.assetid: 2c58815c-83b5-4ae8-a192-ba865b485bd6
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Asm Shader Reference

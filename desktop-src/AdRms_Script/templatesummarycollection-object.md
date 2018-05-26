@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a collection of TemplateSummary objects.'
+Description: Represents a collection of TemplateSummary objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '0e4b7401-d85c-4afd-be7f-6761b7992ce1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 0e4b7401-d85c-4afd-be7f-6761b7992ce1
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TemplateSummaryCollection object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TemplateSummaryCollection object
@@ -40,7 +43,7 @@ The **TemplateSummaryCollection** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -55,7 +58,7 @@ The **TemplateSummaryCollection** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -152,7 +155,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -167,9 +170,9 @@ END SUB
 [**RightsTemplate**](rightstemplate-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

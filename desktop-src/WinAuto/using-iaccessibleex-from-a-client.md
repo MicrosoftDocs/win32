@@ -1,27 +1,32 @@
 ---
 title: Using IAccessibleEx from a Client
 description: This topic explains how clients access the IAccessibleEx implementation of a server and use it to get UI Automation properties and control patterns for UI elements.
-ms.assetid: 'e057bbe8-5dd7-41fc-a5d5-bcf4c1c6433d'
+ms.assetid: e057bbe8-5dd7-41fc-a5d5-bcf4c1c6433d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using IAccessibleEx from a Client
 
-This topic explains how clients access the [**IAccessibleEx**](uiauto-iaccessibleex.md) implementation of a server and use it to get UI Automation properties and control patterns for UI elements.
+This topic explains how clients access the [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) implementation of a server and use it to get UI Automation properties and control patterns for UI elements.
 
-The procedures and examples in this section assume an [**IAccessible**](iaccessible.md) client that is already in-process, and an existing Microsoft Active Accessibility server. They also assume that the client has already obtained an **IAccessible** object by using one of the accessibility framework functions such as [**AccessibleObjectFromEvent**](accessibleobjectfromevent.md), [**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md), or [**AccessibleObjectFromWindow**](accessibleobjectfromwindow.md).
+The procedures and examples in this section assume an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) client that is already in-process, and an existing Microsoft Active Accessibility server. They also assume that the client has already obtained an **IAccessible** object by using one of the accessibility framework functions such as [**AccessibleObjectFromEvent**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromevent?branch=master), [**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master), or [**AccessibleObjectFromWindow**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromwindow?branch=master).
 
 ### Obtaining an IAccessibleEx Interface from the IAccessible Interface
 
-A client that has an [**IAccessible**](iaccessible.md) interface for an accessible object can use it to obtain the corresponding [**IAccessibleEx**](uiauto-iaccessibleex.md) interface by following these steps:
+A client that has an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface for an accessible object can use it to obtain the corresponding [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) interface by following these steps:
 
--   Call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the original [**IAccessible**](iaccessible.md) object with an IID of \_\_uuidof(IServiceProvider).
--   Call **IServiceProvider::QueryService** to get the [**IAccessibleEx**](uiauto-iaccessibleex.md).
+-   Call [**QueryInterface**](https://msdn.microsoft.com/library/windows/desktop/ms682521) on the original [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object with an IID of \_\_uuidof(IServiceProvider).
+-   Call **IServiceProvider::QueryService** to get the [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master).
 
 ### Handling the Child ID
 
-Clients must be prepared for servers with a child ID other than CHILDID\_SELF. After obtaining an [**IAccessibleEx**](uiauto-iaccessibleex.md) interface from an [**IAccessible**](iaccessible.md), clients must call [**IAccessibleEx::GetObjectForChild**](uiauto-iaccessibleex-getobjectforchild.md) if the child ID is not CHILDID\_SELF (indicating a parent object).
+Clients must be prepared for servers with a child ID other than CHILDID\_SELF. After obtaining an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) interface from an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master), clients must call [**IAccessibleEx::GetObjectForChild**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iaccessibleex-getobjectforchild?branch=master) if the child ID is not CHILDID\_SELF (indicating a parent object).
 
-The following example shows how to get an [**IAccessibleEx**](uiauto-iaccessibleex.md) for a particular [**IAccessible**](iaccessible.md) object and child ID.
+The following example shows how to get an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) for a particular [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) object and child ID.
 
 
 ```C++
@@ -76,7 +81,7 @@ HRESULT GetIAccessibleExFromIAccessible(IAccessible * pAcc, long idChild,
 
 ### Obtaining the IRawElementProviderSimple Interface
 
-If a client has an [**IAccessibleEx**](uiauto-iaccessibleex.md) interface, it can use QueryInterface to get to the [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface, as the following example shows.
+If a client has an [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) interface, it can use QueryInterface to get to the [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface, as the following example shows.
 
 
 ```C++
@@ -102,7 +107,7 @@ HRESULT GetIRawElementProviderFromIAccessible(IAccessible * pAcc, long idChild,
 
 ### Retrieving Control Patterns
 
-If a client has access to the [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface, it can retrieve control pattern interfaces that have been implemented by providers, and can then call methods on those interfaces. The following example shows how to do this.
+If a client has access to the [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface, it can retrieve control pattern interfaces that have been implemented by providers, and can then call methods on those interfaces. The following example shows how to do this.
 
 
 ```C++
@@ -155,7 +160,7 @@ HRESULT CallInvokePatternMethod(IAccessible * pAcc, long idChild)
 
 ### Retrieving Property Values
 
-If a client has access to [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md), it can retrieve property values. The following example shows how to get values for the AutomationId and LabeledBy Microsoft UI Automation properties.
+If a client has access to [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master), it can retrieve property values. The following example shows how to get values for the AutomationId and LabeledBy Microsoft UI Automation properties.
 
 
 ```C++
@@ -210,15 +215,15 @@ The preceding example applies to properties that are not associated with a contr
 
 ### Retrieving an IAccessible Interface from an IRawElementProviderSimple Interface
 
-If a client obtains the [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface for a UI element, the client can use that interface to obtain a corresponding [**IAccessible**](iaccessible.md) interface for the element. This is useful if the client needs to access the Microsoft Active Accessibility properties for the element.
+If a client obtains the [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface for a UI element, the client can use that interface to obtain a corresponding [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface for the element. This is useful if the client needs to access the Microsoft Active Accessibility properties for the element.
 
-A client can obtain the [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface as a property value (for example, by calling [**IRawElementProviderSimple::GetPropertyValue**](uiauto-irawelementprovidersimple-getpropertyvalue.md) with UIA\_LabeledByPropertyId), or as an item retreived by a method (for example, by calling [**ISelectionProvider::GetSelection**](uiauto-iselectionprovider-getselection.md) to retrieve an array of **IRawElementProviderSimple** interfaces of selected elements). After obtaining the **IRawElementProviderSimple** interface, a client can use it to obtain a corresponding [**IAccessible**](iaccessible.md) by following these steps:
+A client can obtain the [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface as a property value (for example, by calling [**IRawElementProviderSimple::GetPropertyValue**](/windows/win32/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue?branch=master) with UIA\_LabeledByPropertyId), or as an item retreived by a method (for example, by calling [**ISelectionProvider::GetSelection**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iselectionprovider-getselection?branch=master) to retrieve an array of **IRawElementProviderSimple** interfaces of selected elements). After obtaining the **IRawElementProviderSimple** interface, a client can use it to obtain a corresponding [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) by following these steps:
 
--   Attempt to use QueryInterface to get the [**IAccessibleEx**](uiauto-iaccessibleex.md) interface.
--   If QueryInterface fails, call [**IAccessibleEx::ConvertReturnedElement**](uiauto-iaccessibleex-convertreturnedelement.md) on the [**IAccessibleEx**](uiauto-iaccessibleex.md) instance from which the property was originally obtained.
--   Call the [**GetIAccessiblePair**](uiauto-iaccessibleex-getiaccessiblepair.md) method on the new [**IAccessibleEx**](uiauto-iaccessibleex.md) instance to obtain an [**IAccessible**](iaccessible.md) interfae and child ID.
+-   Attempt to use QueryInterface to get the [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) interface.
+-   If QueryInterface fails, call [**IAccessibleEx::ConvertReturnedElement**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iaccessibleex-convertreturnedelement?branch=master) on the [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) instance from which the property was originally obtained.
+-   Call the [**GetIAccessiblePair**](/windows/win32/UIAutomationCore/nf-uiautomationcore-iaccessibleex-getiaccessiblepair?branch=master) method on the new [**IAccessibleEx**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iaccessibleex?branch=master) instance to obtain an [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interfae and child ID.
 
-The following code snippet demonstrates how to obtain the [**IAccessible**](iaccessible.md) interface from a previously-obtained [**IRawElementProviderSimple**](uiauto-irawelementprovidersimple.md) interface.
+The following code snippet demonstrates how to obtain the [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface from a previously-obtained [**IRawElementProviderSimple**](/windows/win32/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple?branch=master) interface.
 
 
 ```C++

@@ -1,7 +1,12 @@
 ---
 title: Formatting the StackTracingEventIds Parameter
 description: Formatting the StackTracingEventIds Parameter
-ms.assetid: '8dd0bccd-405e-4f6c-b3c1-75ab7d195171'
+ms.assetid: 8dd0bccd-405e-4f6c-b3c1-75ab7d195171
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting the StackTracingEventIds Parameter

@@ -4,17 +4,22 @@ description: An value type object holds value type information for a resource pr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'c464d53b-f0dd-42fd-8a8a-a86a270d9f1f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: c464d53b-f0dd-42fd-8a8a-a86a270d9f1f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Value-Type class AD Schema", "msDS-ValueType class AD Schema"]
+keywords:
+- ms-DS-Value-Type class AD Schema
+- msDS-ValueType class AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Value-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Value-Type class
@@ -35,7 +40,7 @@ An value type object holds value type information for a resource property.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -62,7 +67,7 @@ An value type object holds value type information for a resource property.
 
 ## Windows Server 2012 Attributes
 
-This class contains the following attributes for Windows Server 2012:
+This class contains the following attributes for Windows Server 2012:
 
 
 
@@ -193,9 +198,9 @@ This class contains the following attributes for Windows Server 2012:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

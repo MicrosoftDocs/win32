@@ -1,7 +1,12 @@
-﻿---
-Description: 'The HWConfig\_LogDisk class is the event type class for logical disk configuration events. The following syntax is simplified from MOF code.'
-ms.assetid: '2b7038fa-2f20-4bb5-bac1-76b272b3421c'
-title: 'HWConfig\_LogDisk class'
+---
+Description: The HWConfig\_LogDisk class is the event type class for logical disk configuration events. The following syntax is simplified from MOF code.
+ms.assetid: 2b7038fa-2f20-4bb5-bac1-76b272b3421c
+title: HWConfig\_LogDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HWConfig\_LogDisk class

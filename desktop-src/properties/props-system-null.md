@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c7068673-bbff-4785-a78a-90e22f52b250'
-title: 'System.Null'
+Description: .
+ms.assetid: c7068673-bbff-4785-a78a-90e22f52b250
+title: System.Null
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Null

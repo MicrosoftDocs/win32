@@ -1,12 +1,17 @@
 ---
-Description: 'Pointer to the input pin''s IPin interface.'
-ms.assetid: 'caa36019-1d48-4c2d-9327-517f3a8d3941'
-title: 'COutputQueue::m\_pPin member'
+Description: Pointer to the input pins IPin interface.
+ms.assetid: caa36019-1d48-4c2d-9327-517f3a8d3941
+title: COutputQueuem\_pPin member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue::m\_pPin member
 
-Pointer to the input pin's [**IPin**](ipin.md) interface.
+Pointer to the input pin's [**IPin**](/windows/win32/Strmif/nn-strmif-ipin?branch=master) interface.
 
 ## Syntax
 
@@ -35,9 +40,9 @@ IPin * const m_pPin;
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

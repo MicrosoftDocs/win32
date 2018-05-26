@@ -1,7 +1,12 @@
 ---
-Description: 'You can use the Component Services administrative tool to import into applications specific components that have already been registered on your computer as COM components in the Windows registry.'
-ms.assetid: '5310e08a-5146-41f8-ae65-8467b921abd4'
+Description: You can use the Component Services administrative tool to import into applications specific components that have already been registered on your computer as COM components in the Windows registry.
+ms.assetid: 5310e08a-5146-41f8-ae65-8467b921abd4
 title: Importing Components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Importing Components

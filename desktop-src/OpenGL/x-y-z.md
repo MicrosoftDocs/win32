@@ -2,8 +2,14 @@
 title: X Y Z
 description: Definitions of OpenGL terms that begin with the letter X.
 Robots: noindex, nofollow
-ms.assetid: '52e17d1e-1bd4-496c-9059-1235f980cecf'
-keywords: ["X Window System"]
+ms.assetid: 52e17d1e-1bd4-496c-9059-1235f980cecf
+keywords:
+- X Window System
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # X Y Z

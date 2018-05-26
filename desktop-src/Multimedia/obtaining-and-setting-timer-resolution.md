@@ -1,13 +1,28 @@
 ---
 title: Obtaining and Setting Timer Resolution
 description: Obtaining and Setting Timer Resolution
-ms.assetid: '237a6770-89b9-4922-b9e9-0e0bf3e0c9b6'
-keywords: ["multimedia timers,resolution", "timers,resolution", "minimum timer resolution", "maximum timer resolution", "multimedia timers,maximum resolution", "timers,maximum resolution", "multimedia timers,minimum resolution", "timers,minimum resolution", "timeGetDevCaps function", "timeBeginPeriod function"]
+ms.assetid: 237a6770-89b9-4922-b9e9-0e0bf3e0c9b6
+keywords:
+- multimedia timers,resolution
+- timers,resolution
+- minimum timer resolution
+- maximum timer resolution
+- multimedia timers,maximum resolution
+- timers,maximum resolution
+- multimedia timers,minimum resolution
+- timers,minimum resolution
+- timeGetDevCaps function
+- timeBeginPeriod function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Obtaining and Setting Timer Resolution
 
-The following example calls the [**timeGetDevCaps**](timegetdevcaps.md) function to determine the minimum and maximum timer resolutions supported by the timer services. Before it sets up any timer events, the example establishes the minimum timer resolution by using the [**timeBeginPeriod**](timebeginperiod.md) function.
+The following example calls the [**timeGetDevCaps**](/windows/win32/TimeAPI/nf-timeapi-timegetdevcaps?branch=master) function to determine the minimum and maximum timer resolutions supported by the timer services. Before it sets up any timer events, the example establishes the minimum timer resolution by using the [**timeBeginPeriod**](/windows/win32/TimeAPI/nf-timeapi-timebeginperiod?branch=master) function.
 
 
 ```C++

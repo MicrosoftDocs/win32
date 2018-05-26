@@ -1,15 +1,18 @@
-﻿---
-Description: 'The parent class from which all Base Error Event trace classes are derived.'
+---
+Description: The parent class from which all Base Error Event trace classes are derived.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'aab99d5f-aac0-4c17-a666-2e6868f7726e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: aab99d5f-aac0-4c17-a666-2e6868f7726e
+ms.prod: windows-server-dev
 ms.technology:
-- 'asp.net'
-- 'windows-management-instrumentation'
+- asp.net
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: BaseErrorEvent class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BaseErrorEvent class

@@ -1,7 +1,12 @@
 ---
-Description: 'Step 2.'
-ms.assetid: '74fbfc16-541f-4f80-a72f-26b67dc09a93'
-title: 'Step 2. Declare the Filter Class'
+Description: Step 2.
+ms.assetid: 74fbfc16-541f-4f80-a72f-26b67dc09a93
+title: Step 2. Declare the Filter Class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 2. Declare the Filter Class

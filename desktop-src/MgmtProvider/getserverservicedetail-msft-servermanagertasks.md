@@ -4,11 +4,14 @@ description: Retrieves the details of the specified Win32 services on the manage
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '5190ca4a-4499-4734-8f69-b6b0e40b0d9f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 5190ca4a-4499-4734-8f69-b6b0e40b0d9f
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetServerServiceDetail method", "GetServerServiceDetail method, MSFT_ServerManagerTasks class", "MSFT_ServerManagerTasks class, GetServerServiceDetail method"]
+keywords:
+- GetServerServiceDetail method
+- GetServerServiceDetail method, MSFT_ServerManagerTasks class
+- MSFT_ServerManagerTasks class, GetServerServiceDetail method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MgmtProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetServerServiceDetail method of the MSFT\_ServerManagerTasks class
@@ -28,9 +34,9 @@ Retrieves the details of the specified Win32 services on the managed node.
 
 ```mof
 uint32 GetServerServiceDetail(
-  [in]  string                   Services[],
-  [in]  uint32                   BatchSize,
-  [out] MSFT_ServerServiceDetail cmdletOutput[]
+  [in]  string                   Services[],
+  [in]  uint32                   BatchSize,
+  [out] MSFT_ServerServiceDetail cmdletOutput[]
 );
 ```
 
@@ -68,7 +74,7 @@ An array of embedded [**MSFT\_ServerServiceDetail**](msft-serverservicedetail.md
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
 | Namespace<br/>                | Root\\Windows\\ServerManager<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>MgmtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MgmtProvider.dll</dt> </dl> |
@@ -85,9 +91,9 @@ An array of embedded [**MSFT\_ServerServiceDetail**](msft-serverservicedetail.md
 [**MSFT\_ServerServiceDetail**](msft-serverservicedetail.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

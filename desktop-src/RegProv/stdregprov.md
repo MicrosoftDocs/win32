@@ -4,11 +4,13 @@ description: Contains methods that manipulate system registry keys and values.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa157559-40f0-4363-b43a-1571885a3152'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: fa157559-40f0-4363-b43a-1571885a3152
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["StdRegProv class", "StdRegProv class, described"]
+keywords:
+- StdRegProv class
+- StdRegProv class, described
 topic_type:
 - apiref
 api_name:
@@ -17,6 +19,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # StdRegProv class
@@ -69,7 +74,7 @@ The **StdRegProv** class has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -81,7 +86,7 @@ You can use the methods to perform the following tasks:
 -   Read, write, and delete data values.
 -   Obtain or update the security descriptors for registry keys in scripts using [**Win32\_SecurityDescriptor**](https://msdn.microsoft.com/library/aa394402) objects.
 
-The RegProv registry provider is hosted in LocalService—not the LocalSystem. Therefore, you cannot obtain information remotely from **HKEY\_CURRENT\_USER**, but you can run scripts locally. You can set the hosting model to LocalSystem on a remote machine, but the remote machine registry is vulnerable to hostile access, which is a security risk.
+The RegProv registry provider is hosted in LocalService not the LocalSystem. Therefore, you cannot obtain information remotely from **HKEY\_CURRENT\_USER**, but you can run scripts locally. You can set the hosting model to LocalSystem on a remote machine, but the remote machine registry is vulnerable to hostile access, which is a security risk.
 
 If your application uses a different namespace and requires access to the registry through WMI, you can compile the Managed Object Format (MOF) file that defines **StdRegProv**, RegEvent.mof, into that namespace for use by your application.
 
@@ -106,8 +111,8 @@ The [Get-Registry via StdRegProv](https://Gallery.TechNet.Microsoft.Com/Get-Regi
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default, Root\\CIMv2<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
@@ -127,9 +132,9 @@ The [Get-Registry via StdRegProv](https://Gallery.TechNet.Microsoft.Com/Get-Regi
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

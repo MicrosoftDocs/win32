@@ -1,16 +1,21 @@
 ---
 Description: Optional Streams
-ms.assetid: '94477a71-c267-4602-893b-1bd1256b34ef'
+ms.assetid: 94477a71-c267-4602-893b-1bd1256b34ef
 title: Optional Streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Optional Streams
 
 A DMO can designate some of its output streams as optional. An optional stream produces data that the application can discard, either completely or on occasional samples. For example, an optional stream might contain additional information about a primary stream.
 
-To query whether a stream is optional, call the [**IMediaObject::GetOutputStreamInfo**](imediaobject-getoutputstreaminfo.md) method and check the *pdwFlags* parameter. Optional streams return either the DMO\_OUTPUT\_STREAMF\_DISCARDABLE flag or the DMO\_OUTPUT\_STREAMF\_OPTIONAL flag. These flags mean almost the same thing; one minor difference between them will be explained shortly.
+To query whether a stream is optional, call the [**IMediaObject::GetOutputStreamInfo**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-getoutputstreaminfo?branch=master) method and check the *pdwFlags* parameter. Optional streams return either the DMO\_OUTPUT\_STREAMF\_DISCARDABLE flag or the DMO\_OUTPUT\_STREAMF\_OPTIONAL flag. These flags mean almost the same thing; one minor difference between them will be explained shortly.
 
-If a stream is optional, the client can instruct the DMO to discard data from that stream when it processes the output. To do so, call the [**IMediaObject::ProcessOutput**](imediaobject-processoutput.md) method and set the output buffer to **NULL** for each stream that you wish to discard. (The output buffer is specified in the **pBuffer** member of the [**DMO\_OUTPUT\_DATA\_BUFFER**](dmo-output-data-buffer.md).) Also set the DMO\_PROCESS\_OUTPUT\_DISCARD\_WHEN\_NO\_BUFFER flag in the *dwFlags* parameter.
+If a stream is optional, the client can instruct the DMO to discard data from that stream when it processes the output. To do so, call the [**IMediaObject::ProcessOutput**](/windows/win32/Mediaobj/nf-mediaobj-imediaobject-processoutput?branch=master) method and set the output buffer to **NULL** for each stream that you wish to discard. (The output buffer is specified in the **pBuffer** member of the [**DMO\_OUTPUT\_DATA\_BUFFER**](/windows/win32/Mediaobj/ns-mediaobj-_dmo_output_data_buffer?branch=master).) Also set the DMO\_PROCESS\_OUTPUT\_DISCARD\_WHEN\_NO\_BUFFER flag in the *dwFlags* parameter.
 
 For each stream where the *pBuffer* pointer is **NULL**, the DMO will attempt to discard the data. If the stream is optional, the DMO is guaranteed to discard the data. If the stream is not optional, the DMO discards the data when possible, but is not guaranteed to do so. If it cannot discard the data, it sets the DMO\_OUTPUT\_DATA\_BUFFERF\_INCOMPLETE flag. If you set a *pBuffer* pointer to **NULL** but do not set the DMO\_PROCESS\_OUTPUT\_DISCARD\_WHEN\_NO\_BUFFER flag, the DMO does not discard the data. In that case, the DMO either buffers the output internally, or simply fails the **ProcessOutput** call.
 

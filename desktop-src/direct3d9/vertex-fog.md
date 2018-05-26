@@ -1,7 +1,12 @@
 ---
-Description: 'When the system performs vertex fogging, it applies fog calculations at each vertex in a polygon, and then interpolates the results across the face of the polygon during rasterization.'
-ms.assetid: '76989eb3-cd95-4dfc-ba0f-7563860b531c'
-title: 'Vertex Fog (Direct3D 9)'
+Description: When the system performs vertex fogging, it applies fog calculations at each vertex in a polygon, and then interpolates the results across the face of the polygon during rasterization.
+ms.assetid: 76989eb3-cd95-4dfc-ba0f-7563860b531c
+title: Vertex Fog (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vertex Fog (Direct3D 9)
@@ -28,7 +33,7 @@ Sometimes, using fog can introduce graphic artifacts that cause objects to be bl
 
 Range-based fog is another, more accurate, way to determine the fog effects. In range-based fog, Direct3D uses the actual distance from the viewpoint to a vertex for its fog calculations. Direct3D increases the effect of fog as the distance between the two points increases, rather than the depth of the vertex within in the scene, thereby avoiding rotational artifacts.
 
-If the current device supports range-based fog, it will set the D3DPRASTERCAPS\_FOGRANGE value in the RasterCaps member of [**D3DCAPS9**](d3dcaps9.md) when you call the [**IDirect3DDevice9::GetDeviceCaps**](idirect3ddevice9--getdevicecaps.md) method. To enable range-based fog, set the D3DRS\_RANGEFOGENABLE render state to **TRUE**.
+If the current device supports range-based fog, it will set the D3DPRASTERCAPS\_FOGRANGE value in the RasterCaps member of [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) when you call the [**IDirect3DDevice9::GetDeviceCaps**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-getdevicecaps?branch=master) method. To enable range-based fog, set the D3DRS\_RANGEFOGENABLE render state to **TRUE**.
 
 Range-based fog is computed by Direct3D during transformation and lighting. Applications that don't use the Direct3D transformation and lighting engine must also perform their own vertex fog calculations. In this case, provide the range-based fog factor in the alpha component of the specular component for each vertex.
 
@@ -88,7 +93,7 @@ void SetupVertexFog(DWORD Color, DWORD Mode, BOOL UseRange, FLOAT Density)
 
 
 
-Some fog parameters are required as floating-point values, even though the [**IDirect3DDevice9::SetRenderState**](idirect3ddevice9--setrenderstate.md) method only accepts DWORD values in the second parameter. This example successfully provides the floating-point values to these methods without data translation by casting the addresses of the floating-point variables as DWORD pointers, and then dereferencing them.
+Some fog parameters are required as floating-point values, even though the [**IDirect3DDevice9::SetRenderState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-setrenderstate?branch=master) method only accepts DWORD values in the second parameter. This example successfully provides the floating-point values to these methods without data translation by casting the addresses of the floating-point variables as DWORD pointers, and then dereferencing them.
 
 ## Related topics
 

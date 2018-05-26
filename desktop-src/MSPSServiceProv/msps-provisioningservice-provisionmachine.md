@@ -4,13 +4,16 @@ description: This method is used to securely provisioning a machine.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7c262ee0-2c4c-46f0-96ae-a0c9f510d850'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7c262ee0-2c4c-46f0-96ae-a0c9f510d850
+ms.prod: windows-server-dev
 ms.technology:
-- 'shielded-vm-provisioning'
-- 'windows-management-instrumentation'
+- shielded-vm-provisioning
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ProvisionMachine method", "ProvisionMachine method, Msps_ProvisioningService class", "Msps_ProvisioningService class, ProvisionMachine method"]
+keywords:
+- ProvisionMachine method
+- ProvisionMachine method, Msps_ProvisioningService class
+- Msps_ProvisioningService class, ProvisionMachine method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MSPSService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProvisionMachine method of the Msps\_ProvisioningService class
@@ -30,10 +36,10 @@ This method is used to securely provisioning a machine. The method should be exe
 
 ```mof
 uint32 ProvisionMachine(
-  [in]  string               PDKPath,
-  [in]  string               FSKPath,
-  [in]  string               MachineID,
-  [out] Msps_ProvisioningJob ProvisioningJob
+  [in]  string               PDKPath,
+  [in]  string               FSKPath,
+  [in]  string               MachineID,
+  [out] Msps_ProvisioningJob ProvisioningJob
 );
 ```
 
@@ -82,7 +88,7 @@ If the specified machine is a virtual machine, you must first create the machine
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                             |
 | Namespace<br/>                | Root\\MSPS<br/>                                                                      |
 | MOF<br/>                      | <dl> <dt>MSPSService.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MSPSService.dll</dt> </dl> |
@@ -96,9 +102,9 @@ If the specified machine is a virtual machine, you must first create the machine
 [**Msps\_ProvisioningService**](msps-provisioningservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

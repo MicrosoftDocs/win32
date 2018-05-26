@@ -1,8 +1,27 @@
 ---
 title: Modifying the Display
 description: Modifying the Display
-ms.assetid: '21d68a34-d3d8-4b5b-b8fe-0489dc6247ec'
-keywords: ["Windows Media metafile playlists,modifying displays", "playlists,modifying displays", "metafile playlists,modifying displays", "Windows Media metafile playlists,display modification", "playlists,display modification", "metafile playlists,display modification", "Windows Media Player,display modification", "Windows Media Player,modifying displays", "Windows Media Player,text properties", "Windows Media Player,image properties", "Windows Media Player,MOREINFO properties", "Windows Media Player,ABSTRACT text", "MOREINFO properties", "ABSTRACT text"]
+ms.assetid: 21d68a34-d3d8-4b5b-b8fe-0489dc6247ec
+keywords:
+- Windows Media metafile playlists,modifying displays
+- playlists,modifying displays
+- metafile playlists,modifying displays
+- Windows Media metafile playlists,display modification
+- playlists,display modification
+- metafile playlists,display modification
+- Windows Media Player,display modification
+- Windows Media Player,modifying displays
+- Windows Media Player,text properties
+- Windows Media Player,image properties
+- Windows Media Player,MOREINFO properties
+- Windows Media Player,ABSTRACT text
+- MOREINFO properties
+- ABSTRACT text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Modifying the Display

@@ -1,7 +1,12 @@
 ---
 title: Object Model
 description: The following table lists the object types that can be manipulated through the various API sets supplied by the Windows Filtering Platform (WFP).
-ms.assetid: '6931583f-785c-4e27-b5e4-d185d23a54ee'
+ms.assetid: 6931583f-785c-4e27-b5e4-d185d23a54ee
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Object Model
@@ -85,11 +90,11 @@ The following table lists the object types that can be manipulated through the v
 
 
 
- 
+ 
 
 The object types exposed by WFP API have consistent semantics. The actions of add, enumerate, subscribe, and so on are similar for all object types.
 
-Each object type is represented by a data structure (for example, [**FWPM\_FILTER0**](fwpm-filter0.md)). In order to minimize the number of different data structures exposed by the WFP API, the same data structure is used for both adding new objects and retrieving existing ones. Thus, there may be fields in each data structure that are ignored when adding a new object since these fields are filled in by the Base Filtering Engine (BFE), and not by the caller. For example, an **FWPM\_FILTER0** data structure has a **filterId** field that contains the **LUID** of the corresponding **FWPS\_FILTER0**. This **LUID** is assigned by BFE, and thus, this field is ignored in the call to [**FwpmFilterAdd0**](fwpmfilteradd0-func.md).
+Each object type is represented by a data structure (for example, [**FWPM\_FILTER0**](/windows/win32/Fwpmtypes/ns-fwpmtypes-fwpm_filter0_?branch=master)). In order to minimize the number of different data structures exposed by the WFP API, the same data structure is used for both adding new objects and retrieving existing ones. Thus, there may be fields in each data structure that are ignored when adding a new object since these fields are filled in by the Base Filtering Engine (BFE), and not by the caller. For example, an **FWPM\_FILTER0** data structure has a **filterId** field that contains the **LUID** of the corresponding **FWPS\_FILTER0**. This **LUID** is assigned by BFE, and thus, this field is ignored in the call to [**FwpmFilterAdd0**](/windows/win32/Fwpmu/nf-fwpmu-fwpmfilteradd0?branch=master).
 
 ## Related topics
 
@@ -98,9 +103,9 @@ Each object type is represented by a data structure (for example, [**FWPM\_FILTE
 [Object Management](object-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

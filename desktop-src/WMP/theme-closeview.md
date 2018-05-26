@@ -1,14 +1,20 @@
 ---
 title: THEME.closeView
 description: The closeView method closes an open VIEW.
-ms.assetid: '37b56a7d-8031-4055-95ad-0510105e1c1f'
-keywords: ["THEME.closeView Windows Media Player"]
+ms.assetid: 37b56a7d-8031-4055-95ad-0510105e1c1f
+keywords:
+- THEME.closeView Windows Media Player
 topic_type:
 - apiref
 api_name:
 - THEME.closeView
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # THEME.closeView
@@ -71,9 +77,9 @@ This method does not return a value.
 [**THEME.openView**](theme-openview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Use this guideline to author a Windows Installer package that contains more than 32767 files.'
-ms.assetid: '3145629f-cc0a-4216-8549-76bb61070772'
+Description: Use this guideline to author a Windows Installer package that contains more than 32767 files.
+ms.assetid: 3145629f-cc0a-4216-8549-76bb61070772
 title: Authoring a Large Package
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Authoring a Large Package

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MajorBuild property is a value that specifies the major part of the build number for the fax routing extension''s DLL.'
-ms.assetid: 'c588ef7d-0387-468e-95d6-9d89fe447659'
-title: 'FaxInboundRoutingExtension.MajorBuild property'
+---
+Description: The MajorBuild property is a value that specifies the major part of the build number for the fax routing extensions DLL.
+ms.assetid: c588ef7d-0387-468e-95d6-9d89fe447659
+title: FaxInboundRoutingExtension.MajorBuild property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxInboundRoutingExtension.MajorBuild property
@@ -50,7 +55,7 @@ The standard format for build numbers is MajorVersion.MinorVersion.MajorBuild.Mi
 [**FaxInboundRoutingExtension**](-mfax-faxinboundroutingextension.md)
 </dt> <dt>
 
-[**IFaxInboundRoutingExtension**](-mfax-faxinboundroutingextension-cpp.md)
+[**IFaxInboundRoutingExtension**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxinboundroutingextension?branch=master)
 </dt> </dl>
 
  

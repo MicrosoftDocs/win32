@@ -1,7 +1,12 @@
 ---
 Description: Passing Objects as Parameters
-ms.assetid: '174847c8-4545-4f61-ae13-42bdec1405e7'
+ms.assetid: 174847c8-4545-4f61-ae13-42bdec1405e7
 title: Passing Objects as Parameters
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Passing Objects as Parameters

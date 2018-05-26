@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: 'e1703a6d-5ef2-46f4-b518-dda90a9e5eac'
+ms.assetid: e1703a6d-5ef2-46f4-b518-dda90a9e5eac
 title: Flashing User Interface and the GetCaretBlinkTime Function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flashing User Interface and the GetCaretBlinkTime Function

@@ -1,11 +1,16 @@
-﻿---
-Description: 'Notifies the callback object that a menu is being removed. Used by IShellFolderViewCB::MessageSFVCB.'
-title: 'SFVM\_UNMERGEMENU message'
+---
+Description: Notifies the callback object that a menu is being removed. Used by IShellFolderViewCBMessageSFVCB.
+title: SFVM\_UNMERGEMENU message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_UNMERGEMENU message
 
-Notifies the callback object that a menu is being removed. Used by [**IShellFolderViewCB::MessageSFVCB**](ishellfolderviewcb-messagesfvcb.md).
+Notifies the callback object that a menu is being removed. Used by [**IShellFolderViewCB::MessageSFVCB**](/windows/win32/Shlobj/?branch=master).
 
 
 ```C++

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: 'FADB79BD-0404-4116-9EE8-AE7C063DBF26'
-title: 'IBidiAsyncNotifyChannel::SendNotification method'
+---
+Description: .
+ms.assetid: FADB79BD-0404-4116-9EE8-AE7C063DBF26
+title: IBidiAsyncNotifyChannelSendNotification method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBidiAsyncNotifyChannel::SendNotification method

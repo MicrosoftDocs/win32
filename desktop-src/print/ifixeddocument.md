@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IFixedDocument interface represents a fixed document for an XPS document sequence.'
-ms.assetid: '3f9f64a1-8681-4b70-8cdc-7c944912f767'
+---
+Description: The IFixedDocument interface represents a fixed document for an XPS document sequence.
+ms.assetid: 3f9f64a1-8681-4b70-8cdc-7c944912f767
 title: IFixedDocument interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IFixedDocument interface

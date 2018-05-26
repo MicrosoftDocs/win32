@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This property applies to Dolby Digital audio encoders.'
-ms.assetid: 'bc74a002-ef9a-4cb3-a999-cb7a0481e132'
+Description: Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This property applies to Dolby Digital audio encoders.
+ms.assetid: bc74a002-ef9a-4cb3-a999-cb7a0481e132
 title: AVEncDDSurroundExMode property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncDDSurroundExMode property
@@ -20,7 +25,7 @@ This property is read/write.
 
 ## Property value
 
-The value of this property is a member of the [**eAVEncDDSurroundExMode**](eavencddsurroundexmode.md) enumeration.
+The value of this property is a member of the [**eAVEncDDSurroundExMode**](/windows/win32/codecapi/ne-codecapi-eavencddsurroundexmode?branch=master) enumeration.
 
 ## Remarks
 
@@ -32,8 +37,8 @@ This property is read/write.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -45,12 +50,12 @@ This property is read/write.
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

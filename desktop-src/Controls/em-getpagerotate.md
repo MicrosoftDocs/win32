@@ -1,8 +1,9 @@
 ---
 title: EM\_GETPAGEROTATE message
 description: Gets the text layout for a Microsoft Rich Edit control.
-ms.assetid: '0efb112e-ad51-4ebb-9037-3aee3ab9ad1d'
-keywords: ["EM_GETPAGEROTATE message Windows Controls"]
+ms.assetid: 0efb112e-ad51-4ebb-9037-3aee3ab9ad1d
+keywords:
+- EM_GETPAGEROTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_GETPAGEROTATE message
@@ -47,8 +53,8 @@ Gets the current text layout. For a list of possible text layout values, see [**
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -60,9 +66,9 @@ Gets the current text layout. For a list of possible text layout values, see [**
 [**EM\_SETPAGEROTATE**](em-setpagerotate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

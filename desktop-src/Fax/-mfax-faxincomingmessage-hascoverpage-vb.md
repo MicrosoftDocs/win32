@@ -1,7 +1,12 @@
-﻿---
-Description: 'A flag that indicates whether the fax has a cover page.'
-ms.assetid: 'f84b39d6-3e41-44fc-8450-0a97b888cc9a'
-title: 'FaxIncomingMessage.HasCoverPage property'
+---
+Description: A flag that indicates whether the fax has a cover page.
+ms.assetid: f84b39d6-3e41-44fc-8450-0a97b888cc9a
+title: FaxIncomingMessage.HasCoverPage property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingMessage.HasCoverPage property
@@ -54,7 +59,7 @@ A change to this value is not committed to the server until [**Save**](-mfax-fax
 [**FaxIncomingMessage**](-mfax-faxincomingmessage.md)
 </dt> <dt>
 
-[**IFaxIncomingMessage2**](-mfax-faxincomingmessage2-cpp.md)
+[**IFaxIncomingMessage2**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingmessage2?branch=master)
 </dt> </dl>
 
  

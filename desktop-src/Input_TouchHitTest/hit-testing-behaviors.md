@@ -1,7 +1,7 @@
 ---
 title: Touch Hit Testing Behaviors
 description: The following constants are used by applications or UI frameworks to identify how messages for touch hit testing are processed by windows that are registered through the RegisterTouchHitTestingWindow function.
-ms.assetid: 'D1ECCBFA-CD01-401E-A42E-4F954F5F0A32'
+ms.assetid: D1ECCBFA-CD01-401E-A42E-4F954F5F0A32
 topic_type:
 - apiref
 api_name:
@@ -12,6 +12,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Touch Hit Testing Behaviors
@@ -34,7 +39,7 @@ The following constants are used by applications or UI frameworks to identify ho
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |
 | Header<br/>                   | <dl> <dt>Winuser.h</dt> </dl> |
 
@@ -47,9 +52,9 @@ The following constants are used by applications or UI frameworks to identify ho
 [Constants](constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

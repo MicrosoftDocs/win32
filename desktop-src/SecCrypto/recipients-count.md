@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the number of objects in the Recipients collection.'
-ms.assetid: '451ec6af-84d8-4664-9f79-bf017a78071e'
-title: 'Recipients.Count property'
+---
+Description: Retrieves the number of objects in the Recipients collection.
+ms.assetid: 451ec6af-84d8-4664-9f79-bf017a78071e
+title: Recipients.Count property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Recipients.Count property

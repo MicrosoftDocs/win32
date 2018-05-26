@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the power level for the decoder.'
-ms.assetid: 'c4ede790-e7ef-4ed0-bdbe-a635350d92f3'
-title: 'MFPKEY\_AVDecVideoSWPowerLevel Property'
+---
+Description: Specifies the power level for the decoder.
+ms.assetid: c4ede790-e7ef-4ed0-bdbe-a635350d92f3
+title: MFPKEY\_AVDecVideoSWPowerLevel Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_AVDecVideoSWPowerLevel Property

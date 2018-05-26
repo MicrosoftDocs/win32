@@ -1,7 +1,12 @@
 ---
 title: Documents and Document Peripherals
 description: Windows 7 provides developers with a robust platform for working with documents and integrating document peripherals.
-ms.assetid: '77d27775-eea8-4739-a1d2-05fcf6590cef'
+ms.assetid: 77d27775-eea8-4739-a1d2-05fcf6590cef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Documents and Document Peripherals

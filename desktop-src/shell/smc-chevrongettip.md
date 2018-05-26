@@ -1,12 +1,17 @@
-﻿---
-Description: 'Requests the title and text for a chevron infotip for the item specified by the accompanying SMDATA structure.'
-ms.assetid: '7bce4079-994c-4eb0-ab86-9044701d85a1'
-title: 'SMC\_CHEVRONGETTIP message'
+---
+Description: Requests the title and text for a chevron infotip for the item specified by the accompanying SMDATA structure.
+ms.assetid: 7bce4079-994c-4eb0-ab86-9044701d85a1
+title: SMC\_CHEVRONGETTIP message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_CHEVRONGETTIP message
 
-Requests the title and text for a chevron infotip for the item specified by the accompanying [**SMDATA**](smdata.md) structure.
+Requests the title and text for a chevron infotip for the item specified by the accompanying [**SMDATA**](/windows/win32/Shobjidl_core/ns-shobjidl_core-tagsmdata?branch=master) structure.
 
 
 ```C++
@@ -42,7 +47,7 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method.
 
 ## Requirements
 

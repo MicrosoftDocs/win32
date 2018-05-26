@@ -1,14 +1,20 @@
 ---
 title: AssessmentRuns element
 description: A collection of one or more assessment instances for execution.
-ms.assetid: 'D96B03D7-737D-4630-9FDB-907120B5684D'
-keywords: ["AssessmentRuns element Access Execution Engine"]
+ms.assetid: D96B03D7-737D-4630-9FDB-907120B5684D
+keywords:
+- AssessmentRuns element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - AssessmentRuns
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AssessmentRuns element
@@ -70,9 +76,9 @@ AssessmentRun
 [AXE Job Manifest](https://msdn.microsoft.com/library/windows/desktop/hh449330)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

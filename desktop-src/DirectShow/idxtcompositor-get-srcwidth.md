@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_SrcWidth method retrieves the width of the source rectangle.'
-ms.assetid: '373bb108-5f0b-47f3-a39a-ed43b536e612'
-title: 'IDxtCompositor::get\_SrcWidth method'
+---
+Description: The get\_SrcWidth method retrieves the width of the source rectangle.
+ms.assetid: 373bb108-5f0b-47f3-a39a-ed43b536e612
+title: IDxtCompositorget\_SrcWidth method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor::get\_SrcWidth method

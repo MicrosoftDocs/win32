@@ -1,7 +1,12 @@
 ---
 Description: Multimedia Streaming Data Types
-ms.assetid: '750a7992-e2ef-4149-b1c8-c5201f6af035'
+ms.assetid: 750a7992-e2ef-4149-b1c8-c5201f6af035
 title: Multimedia Streaming Data Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Multimedia Streaming Data Types

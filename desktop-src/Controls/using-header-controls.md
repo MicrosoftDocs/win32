@@ -1,7 +1,12 @@
 ---
 title: Using Header Controls
 description: This topic gives implementation details and code examples for header controls.
-ms.assetid: '388ca191-be77-4954-baeb-73fa209dc21d'
+ms.assetid: 388ca191-be77-4954-baeb-73fa209dc21d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Header Controls
@@ -19,11 +24,11 @@ This topic gives implementation details and code examples for header controls. T
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

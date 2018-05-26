@@ -1,15 +1,20 @@
 ---
 title: Extensions for Queries
 description: Extensions for Queries
-ms.assetid: 'e23da304-fefc-40f2-87bd-725056a5aa2c'
+ms.assetid: e23da304-fefc-40f2-87bd-725056a5aa2c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extensions for Queries
 
 > [!Note]  
-> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](https://msdn.microsoft.com/library/windows/desktop/aa965362) for client side search and [Microsoft Search Server Express]( http://go.microsoft.com/fwlink/p/?linkid=258445) for server side search.
 
- 
+ 
 
 The following table summarizes the extensions to the SQL syntax for specifying queries to Indexing Service.
 
@@ -30,11 +35,11 @@ The following table summarizes the extensions to the SQL syntax for specifying q
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPin method retrieves a pin. The CEnumPins class calls this method to enumerate pins on the filter.'
-ms.assetid: 'e3ec3f11-1e7d-40b6-810e-3759f0511cb2'
-title: 'CBaseFilter.GetPin method'
+Description: The GetPin method retrieves a pin. The CEnumPins class calls this method to enumerate pins on the filter.
+ms.assetid: e3ec3f11-1e7d-40b6-810e-3759f0511cb2
+title: CBaseFilter.GetPin method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.GetPin method
@@ -13,7 +18,7 @@ The **GetPin** method retrieves a pin. The [**CEnumPins**](cenumpins.md) class c
 
 ```C++
 virtual CBasePin* GetPin(
-   int n
+   int n
 ) = 0;
 ```
 
@@ -56,9 +61,9 @@ You must implement this pure virtual method in your derived class. Return a poin
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

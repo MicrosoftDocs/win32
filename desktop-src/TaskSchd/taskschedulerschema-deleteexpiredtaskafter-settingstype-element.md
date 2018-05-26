@@ -1,14 +1,20 @@
 ---
 title: DeleteExpiredTaskAfter (settingsType) Element
 description: Specifies the amount of time that the Task Scheduler will wait before deleting the task after it expires.
-ms.assetid: '947a2fec-ceda-4726-aa1a-26fd1b258c1f'
-keywords: ["DeleteExpiredTaskAfter element Task Scheduler"]
+ms.assetid: 947a2fec-ceda-4726-aa1a-26fd1b258c1f
+keywords:
+- DeleteExpiredTaskAfter element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - DeleteExpiredTaskAfter
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeleteExpiredTaskAfter (settingsType) Element
@@ -37,7 +43,7 @@ The **DeleteExpiredTaskAfter** element is defined by the [**settingsType**](task
 
 ## Remarks
 
-For C++ development, see [**DeleteExpiredTaskAfter Property of ITaskSettings**](itasksettings-deleteexpiredtaskafter.md).
+For C++ development, see [**DeleteExpiredTaskAfter Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_deleteexpiredtaskafter?branch=master).
 
 For script development, see [**TaskSettings.DeleteExpiredTaskAfter**](tasksettings-deleteexpiredtaskafter.md).
 
@@ -60,8 +66,8 @@ The following XML defines a settings element that deletes an expired task after 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -72,9 +78,9 @@ The following XML defines a settings element that deletes an expired task after 
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: ID3DX12PipelineParserCallbacks interface
 description: An interface that represents a collection of parser and error callbacks used by the D3DX12parsePipelineStream helper function.
-ms.assetid: 'CBC04D17-2E19-4755-B1CB-FC42BF5083E5'
-keywords: ["ID3DX12PipelineParserCallbacks interface", "ID3DX12PipelineParserCallbacks interface, described"]
+ms.assetid: CBC04D17-2E19-4755-B1CB-FC42BF5083E5
+keywords:
+- ID3DX12PipelineParserCallbacks interface
+- ID3DX12PipelineParserCallbacks interface, described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - D3D12.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX12PipelineParserCallbacks interface
@@ -30,7 +37,7 @@ The **ID3DX12PipelineParserCallbacks** interface has these methods.
 | [**BlendStateCb**](id3dx12pipelineparsercallbacks-blendstatecb.md)                       | Calls the blend state description subobject callback of an object that implements this interface.<br/>                                                                 |
 | [**CachedPSOCb**](id3dx12pipelineparsercallbacks-cachedpsocb.md)                         | Calls the cached PSO (Pipeline State Object) subobject callback of an object that implements this interface.<br/>                                                      |
 | [**CSCb**](id3dx12pipelineparsercallbacks-cscb.md)                                       | Calls the compute shader subobject callback of an object that implements this interface.<br/>                                                                          |
-| [**DepthStencilState1Cb**](id3dx12pipelineparsercallbacks-depthstencilstate1cb.md)       | Calls the depth stencil state ([**D3D12\_DEPTH\_STENCIL\_DESC1**](d3d12-depth-stencil-desc1.md)) subobject callback of an object that implements this interface.<br/> |
+| [**DepthStencilState1Cb**](id3dx12pipelineparsercallbacks-depthstencilstate1cb.md)       | Calls the depth stencil state ([**D3D12\_DEPTH\_STENCIL\_DESC1**](/windows/win32/d3d12/ns-d3d12-d3d12_depth_stencil_desc1?branch=master)) subobject callback of an object that implements this interface.<br/> |
 | [**DepthStencilStateCb**](id3dx12pipelineparsercallbacks-dsvformatcb.md)                 | Calls the depth stencil value format subobject callback of an object that implements this interface.<br/>                                                              |
 | [**DepthStencilStateCb**](id3dx12pipelineparsercallbacks-depthstencilstatecb.md)         | Calls the depth stencil state subobject callback of an object that implements this interface.<br/>                                                                     |
 | [**DSCb**](id3dx12pipelineparsercallbacks-dscb.md)                                       | Calls the domain shader subobject callback of an object that implements this interface.<br/>                                                                           |
@@ -55,7 +62,7 @@ The **ID3DX12PipelineParserCallbacks** interface has these methods.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -79,9 +86,9 @@ The **ID3DX12PipelineParserCallbacks** interface has these methods.
 [**D3DX12parsePipelineStream**](d3dx12parsepipelinestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

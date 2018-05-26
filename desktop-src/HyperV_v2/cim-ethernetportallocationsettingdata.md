@@ -1,7 +1,12 @@
 ---
-Description: 'Represents settings for the allocation of the ethernet port, in addition to the settings provided by the CIM\_EthernetPort class. These settings are used to provide information specific to the resource itself.'
-ms.assetid: 'f59ebaf1-60dd-49bd-b48e-d7a6c2650909'
-title: 'CIM\_EthernetPortAllocationSettingData class'
+Description: Represents settings for the allocation of the ethernet port, in addition to the settings provided by the CIM\_EthernetPort class. These settings are used to provide information specific to the resource itself.
+ms.assetid: f59ebaf1-60dd-49bd-b48e-d7a6c2650909
+title: CIM\_EthernetPortAllocationSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_EthernetPortAllocationSettingData class
@@ -134,8 +139,8 @@ The type of VLAN endpoint model that is supported by this VLAN endpoint, when th
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -149,9 +154,9 @@ The type of VLAN endpoint model that is supported by this VLAN endpoint, when th
 [**CIM\_ResourceAllocationSettingData**](cim-resourceallocationsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

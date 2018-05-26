@@ -1,14 +1,20 @@
 ---
 title: InterlockedAdd function
 description: Performs a guaranteed atomic add of value to the dest resource variable.
-ms.assetid: 'b3b9cf5c-0da0-4c72-a83f-a0d96f1cac32'
-keywords: ["InterlockedAdd function HLSL"]
+ms.assetid: b3b9cf5c-0da0-4c72-a83f-a0d96f1cac32
+keywords:
+- InterlockedAdd function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedAdd
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedAdd function

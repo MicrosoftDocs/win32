@@ -1,7 +1,12 @@
 ---
-Description: 'The processor classes model a processor for a virtual machine.'
-ms.assetid: '7B90BA41-EFF4-44AC-B46B-B7E0EEC19D45'
+Description: The processor classes model a processor for a virtual machine.
+ms.assetid: 7B90BA41-EFF4-44AC-B46B-B7E0EEC19D45
 title: Processor classes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Processor classes
@@ -22,11 +27,11 @@ The following are virtualization WMI classes related to the processor.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

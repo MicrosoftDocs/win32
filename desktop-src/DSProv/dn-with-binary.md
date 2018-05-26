@@ -4,13 +4,15 @@ description: Models the DN\_With\_Binary AD Syntax.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd3959171-65f9-4b22-bd41-9b212a73fdd9'
-ms.prod: 'windows-server-dev'
+ms.assetid: d3959171-65f9-4b22-bd41-9b212a73fdd9
+ms.prod: windows-server-dev
 ms.technology:
-- 'active-directory-domain-services'
-- 'windows-management-instrumentation'
+- active-directory-domain-services
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DN_With_Binary class", "DN_With_Binary class, described"]
+keywords:
+- DN_With_Binary class
+- DN_With_Binary class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - Dsprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DN\_With\_Binary class
@@ -36,7 +41,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class DN_With_Binary
 {
   string dnString;
-  uint8  value[];
+  uint8  value[];
 };
 ```
 
@@ -84,17 +89,17 @@ The Value component of the tuple.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Namespace<br/>                | Root\\directory\\LDAP<br/>                                                      |
 | MOF<br/>                      | <dl> <dt>DsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dsprov.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The Prev method retrieves the previous position in the list.'
-ms.assetid: '537c3019-373a-4974-a42e-72150da72767'
-title: 'CBaseList.Prev method'
+Description: The Prev method retrieves the previous position in the list.
+ms.assetid: 537c3019-373a-4974-a42e-72150da72767
+title: CBaseList.Prev method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.Prev method
@@ -13,7 +18,7 @@ The `Prev` method retrieves the previous position in the list.
 
 ```C++
 POSITION Prev(
-   POSITION pos
+   POSITION pos
 );
 ```
 
@@ -56,9 +61,9 @@ If *pos* is the first position in the list, the method returns **NULL**. If *pos
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

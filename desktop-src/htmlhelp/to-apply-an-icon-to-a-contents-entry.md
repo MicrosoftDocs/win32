@@ -1,7 +1,12 @@
 ---
 title: To apply an icon to a contents entry
 description: To apply an icon to a contents entry
-ms.assetid: '370177B0-C109-4900-B283-19D0D53153CB'
+ms.assetid: 370177B0-C109-4900-B283-19D0D53153CB
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To apply an icon to a contents entry
@@ -15,7 +20,7 @@ ms.assetid: '370177B0-C109-4900-B283-19D0D53153CB'
 
     
 
-     
+     
 
 3.  Click the **Advanced** tab.
 4.  In the **Image** index box, select the image you want to apply to the contents entry.
@@ -32,9 +37,9 @@ ms.assetid: '370177B0-C109-4900-B283-19D0D53153CB'
 [About Creating Table of Contents Files](create-a-table-of-contents-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

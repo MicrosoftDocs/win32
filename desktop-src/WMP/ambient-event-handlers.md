@@ -1,8 +1,18 @@
 ---
 title: Ambient Event Handlers
 description: Ambient Event Handlers
-ms.assetid: 'ec806b92-a66d-499d-9bb3-cea7e82676bb'
-keywords: ["Windows Media Player skins,ambient event handlers", "skins,ambient event handlers", "reference for skins,ambient event handlers", "ambient event handlers", "events,ambient"]
+ms.assetid: ec806b92-a66d-499d-9bb3-cea7e82676bb
+keywords:
+- Windows Media Player skins,ambient event handlers
+- skins,ambient event handlers
+- reference for skins,ambient event handlers
+- ambient event handlers
+- events,ambient
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Ambient Event Handlers

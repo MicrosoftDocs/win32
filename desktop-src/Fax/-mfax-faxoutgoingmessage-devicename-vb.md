@@ -1,7 +1,12 @@
-﻿---
-Description: 'The DeviceName property is a null-terminated string that contains the name of the device on which the fax message was transmitted.'
-ms.assetid: '77e64b22-63e0-4a17-91d7-8285623b9384'
-title: 'FaxOutgoingMessage.DeviceName property'
+---
+Description: The DeviceName property is a null-terminated string that contains the name of the device on which the fax message was transmitted.
+ms.assetid: 77e64b22-63e0-4a17-91d7-8285623b9384
+title: FaxOutgoingMessage.DeviceName property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutgoingMessage.DeviceName property
@@ -50,7 +55,7 @@ This method returns the name of the fax device rather than the device ID. This i
 [**FaxOutgoingMessage**](-mfax-faxoutgoingmessage.md)
 </dt> <dt>
 
-[**IFaxOutgoingMessage**](-mfax-faxoutgoingmessage-cpp.md)
+[**IFaxOutgoingMessage**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutgoingmessage?branch=master)
 </dt> </dl>
 
  

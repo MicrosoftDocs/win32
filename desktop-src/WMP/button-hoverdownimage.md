@@ -1,14 +1,20 @@
 ---
 title: BUTTON.hoverDownImage
 description: The hoverDownImage attribute specifies or retrieves the image displayed when the BUTTON is in the down state and the user hovers over it with the mouse pointer.
-ms.assetid: '06645307-50f1-400d-aa73-c48d0fba3ee1'
-keywords: ["BUTTON.hoverDownImage Windows Media Player"]
+ms.assetid: 06645307-50f1-400d-aa73-c48d0fba3ee1
+keywords:
+- BUTTON.hoverDownImage Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTON.hoverDownImage
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTON.hoverDownImage
@@ -53,9 +59,9 @@ If the image cannot be retrieved, a default image (the red-x image) is displayed
 [**BUTTON.downImage**](button-downimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Current method provides the current URI and part.'
-ms.assetid: 'ccc8125a-c571-4267-860a-11fc313e395c'
-title: 'IXpsPartIterator::Current method'
+---
+Description: The Current method provides the current URI and part.
+ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
+title: IXpsPartIteratorCurrent method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IXpsPartIterator::Current method

@@ -4,17 +4,22 @@ description: For a claim type object, specifies the value type of the claims iss
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0e5e5281-55ee-4b1c-88c3-e88e3076d822'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 0e5e5281-55ee-4b1c-88c3-e88e3076d822
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-Claim-Value-Type attribute AD Schema", "msDS-ClaimValueType attribute AD Schema"]
+keywords:
+- ms-DS-Claim-Value-Type attribute AD Schema
+- msDS-ClaimValueType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-Claim-Value-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-Claim-Value-Type attribute
@@ -38,7 +43,7 @@ For a claim type object, specifies the value type of the claims issued.
 
 ## Implementations
 
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2012
 
@@ -61,9 +66,9 @@ For a claim type object, specifies the value type of the claims issued.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Capturing Video to a File
-ms.assetid: '4ec642ab-1559-4674-a934-a91353c657f9'
+ms.assetid: 4ec642ab-1559-4674-a934-a91353c657f9
 title: Capturing Video to a File
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Capturing Video to a File

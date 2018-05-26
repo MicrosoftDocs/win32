@@ -1,28 +1,33 @@
 ---
-Description: 'After creating a query and adding counters to it, call the PdhCollectQueryData function to retrieve the current raw data for all counters in the query.'
-ms.assetid: '2534d387-a280-4716-9a9d-3e42f40e2f92'
+Description: After creating a query and adding counters to it, call the PdhCollectQueryData function to retrieve the current raw data for all counters in the query.
+ms.assetid: 2534d387-a280-4716-9a9d-3e42f40e2f92
 title: Collecting Performance Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collecting Performance Data
 
-After [creating a query](creating-a-query.md) and adding counters to it, call the [**PdhCollectQueryData**](pdhcollectquerydata.md) function to retrieve the current raw data for all counters in the query.
+After [creating a query](creating-a-query.md) and adding counters to it, call the [**PdhCollectQueryData**](/windows/win32/Pdh/nf-pdh-pdhcollectquerydata?branch=master) function to retrieve the current raw data for all counters in the query.
 
 Many counters, such as rate counters, require two data samples to calculate a formatted data value. PDH maintains data for the current sample and the previously collected sample. The following procedure describes how to collect counter values that require two samples to calculate a displayable value.
 
 **To collect counter values that require two samples to calculate a displayable value**
 
-1.  Call [**PdhCollectQueryData**](pdhcollectquerydata.md) to collect the first sample.
+1.  Call [**PdhCollectQueryData**](/windows/win32/Pdh/nf-pdh-pdhcollectquerydata?branch=master) to collect the first sample.
 2.  Call the [**Sleep**](https://msdn.microsoft.com/library/windows/desktop/ms686298) function to wait a minimum of one second between collections.
-3.  Call [**PdhCollectQueryData**](pdhcollectquerydata.md) again to collect the second sample.
-4.  Call the [**PdhGetFormattedCounterValue**](pdhgetformattedcountervalue.md) function to calculate a displayable value.
+3.  Call [**PdhCollectQueryData**](/windows/win32/Pdh/nf-pdh-pdhcollectquerydata?branch=master) again to collect the second sample.
+4.  Call the [**PdhGetFormattedCounterValue**](/windows/win32/Pdh/nf-pdh-pdhgetformattedcountervalue?branch=master) function to calculate a displayable value.
 5.  Repeat steps 2 through 4.
 
-As an alternative to implementing a wait period yourself, you can call the [**PdhCollectQueryDataEx**](pdhcollectquerydataex.md) function, which creates a timing thread that waits a specified amount of time, collects the sample, and then triggers an application-defined event.
+As an alternative to implementing a wait period yourself, you can call the [**PdhCollectQueryDataEx**](/windows/win32/Pdh/nf-pdh-pdhcollectquerydataex?branch=master) function, which creates a timing thread that waits a specified amount of time, collects the sample, and then triggers an application-defined event.
 
 If you want to query performance data from a log file, you can also define a time range. The time range limits the query to those samples that were collected within the time range (each sample contains a time stamp for when it was collected). For more information on how to set and retrieve time ranges, see [Setting a Time Range for a Query](setting-a-time-range-for-a-query.md).
 
-If you want to collect performance data and write it to a log file, you would call the [**PdhUpdateLog**](pdhupdatelog.md) function instead of calling [**PdhCollectQueryData**](pdhcollectquerydata.md). For details, see [Working with Log Files](working-with-log-files.md) and [Writing Performance Data to a Log File](writing-performance-data-to-a-log-file.md).
+If you want to collect performance data and write it to a log file, you would call the [**PdhUpdateLog**](/windows/win32/Pdh/nf-pdh-pdhupdateloga?branch=master) function instead of calling [**PdhCollectQueryData**](/windows/win32/Pdh/nf-pdh-pdhcollectquerydata?branch=master). For details, see [Working with Log Files](working-with-log-files.md) and [Writing Performance Data to a Log File](writing-performance-data-to-a-log-file.md).
 
 For details on calculating a displayable sample value, see [Displaying Performance Data](displaying-performance-data.md).
 

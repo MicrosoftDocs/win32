@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets a value that indicates if the specified key system supports the specified media type.'
-ms.assetid: '6f4f50db-e491-46c2-a8b2-1b8e51033b5b'
-title: 'IMFMediaEngineClassFactoryEx::IsTypeSupported method'
+---
+Description: Gets a value that indicates if the specified key system supports the specified media type.
+ms.assetid: 6f4f50db-e491-46c2-a8b2-1b8e51033b5b
+title: IMFMediaEngineClassFactoryExIsTypeSupported method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMFMediaEngineClassFactoryEx::IsTypeSupported method
@@ -66,7 +71,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 <dl> <dt>
 
-[**IMFMediaEngineClassFactoryEx**](imfmediaengineclassfactoryex.md)
+[**IMFMediaEngineClassFactoryEx**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaengineclassfactoryex?branch=master)
 </dt> </dl>
 
  

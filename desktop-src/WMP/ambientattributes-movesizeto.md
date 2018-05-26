@@ -1,14 +1,20 @@
 ---
 title: AmbientAttributes.moveSizeTo
 description: The moveSizeTo method moves the control and specifies a new size for the control in the new location. The control moves and resizes in an animated fashion over the specified time period.
-ms.assetid: '89e3bf16-a123-4fb1-8c24-bc22a978e7f6'
-keywords: ["AmbientAttributes.moveSizeTo Windows Media Player"]
+ms.assetid: 89e3bf16-a123-4fb1-8c24-bc22a978e7f6
+keywords:
+- AmbientAttributes.moveSizeTo Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AmbientAttributes.moveSizeTo
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AmbientAttributes.moveSizeTo
@@ -72,7 +78,7 @@ The **moveSizeTo** method moves the control and specifies a new size for the con
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -113,9 +119,9 @@ The motion of the control can be linear or non-linear. Linear motion means the c
 [**AmbientAttributes.width**](ambientattributes-width.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

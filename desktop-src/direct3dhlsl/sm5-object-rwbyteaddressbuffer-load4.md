@@ -1,14 +1,20 @@
 ---
 title: Load4(uint) function
 description: Gets four values.
-ms.assetid: 'b46cd119-75be-4c2d-82f9-5dcabd7e4400'
-keywords: ["Load4 function HLSL"]
+ms.assetid: b46cd119-75be-4c2d-82f9-5dcabd7e4400
+keywords:
+- Load4 function HLSL
 topic_type:
 - apiref
 api_name:
 - Load4
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load4(uint) function

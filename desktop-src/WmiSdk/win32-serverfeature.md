@@ -1,13 +1,16 @@
 ---
-Description: 'The Win32\_ServerFeature class represents the features installed on a computer running Windows Server.'
+Description: The Win32\_ServerFeature class represents the features installed on a computer running Windows Server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_ServerFeature class'
+title: Win32\_ServerFeature class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_ServerFeature class
@@ -1510,7 +1513,7 @@ Name
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1548,7 +1551,7 @@ Enterprises that do not use management software that reports server features, su
 
 You can use the remoting features of WMI or WinRM to get server feature information from remote servers. For more information about remote WMI DCOM connections, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md). For more information about WinRM, see Windows Remote Management.
 
-Windows Server 2012: **Win32\_ServerFeature** has been deprecated. To access windows server feature information programmatically, you can use the [Server Manager Cmdlets](https://TechNet.Microsoft.Com/library/ee662311.aspx).
+Windows Server 2012: **Win32\_ServerFeature** has been deprecated. To access windows server feature information programmatically, you can use the [Server Manager Cmdlets](https://TechNet.Microsoft.Com/library/ee662311.aspx).
 
 ### Windows Server 2012 R2
 
@@ -3199,7 +3202,7 @@ Active Directory Domain Controller Tools
 
 ## Examples
 
-The following script displays the names of all the server features on the computer named "FABRIKAM". Note that the target computer must be running Windows Server 2008 or a later server operating system.
+The following script displays the names of all the server features on the computer named "FABRIKAM". Note that the target computer must be running Windows Server 2008 or a later server operating system.
 
 
 ```VB
@@ -3224,16 +3227,16 @@ Next
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>ServerCompProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ServerCompProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

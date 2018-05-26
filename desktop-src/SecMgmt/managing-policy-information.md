@@ -1,7 +1,12 @@
 ---
-Description: 'The LSA provides functions that administrators can use to query and set global policy information for the local computer and the domain.'
-ms.assetid: 'bbe27d16-0a6b-435a-ae80-5e983047b511'
+Description: The LSA provides functions that administrators can use to query and set global policy information for the local computer and the domain.
+ms.assetid: bbe27d16-0a6b-435a-ae80-5e983047b511
 title: Managing Policy Information
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Managing Policy Information
@@ -10,7 +15,7 @@ The LSA provides functions that administrators can use to query and set global p
 
 Before you can manage policy information, your application must get a handle to the local [**Policy**](policy-object.md) object, as demonstrated in [Opening a Policy Object Handle](opening-a-policy-object-handle.md). This handle is required by the functions that manage policy information.
 
-To retrieve information about the local security policy, call [**LsaQueryInformationPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378313). To set local security policy, call [**LsaSetInformationPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378325). The description of the [**POLICY\_INFORMATION\_CLASS**](policy-information-class.md) enumeration details the types of policy information that can be queried or set.
+To retrieve information about the local security policy, call [**LsaQueryInformationPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378313). To set local security policy, call [**LsaSetInformationPolicy**](https://msdn.microsoft.com/library/windows/desktop/aa378325). The description of the [**POLICY\_INFORMATION\_CLASS**](/windows/win32/Ntsecapi/ne-ntsecapi-_policy_information_class?branch=master) enumeration details the types of policy information that can be queried or set.
 
 The following example demonstrates how to obtain a system's account domain information, given a handle to the system's [**Policy**](policy-object.md) object.
 

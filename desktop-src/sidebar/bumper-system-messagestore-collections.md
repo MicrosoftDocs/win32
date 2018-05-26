@@ -1,7 +1,12 @@
 ---
 title: Collections
 description: .
-ms.assetid: 'f94e4ea3-ae19-47aa-81b6-abd120d2320c'
+ms.assetid: f94e4ea3-ae19-47aa-81b6-abd120d2320c
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Collections

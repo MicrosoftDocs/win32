@@ -1,7 +1,12 @@
 ---
-Description: 'Beginning with Windows Installer 3.0, it is possible to uninstall some patches from applications.'
-ms.assetid: '11e995b7-30c7-4992-b436-3af289ac3966'
+Description: Beginning with Windows Installer 3.0, it is possible to uninstall some patches from applications.
+ms.assetid: 11e995b7-30c7-4992-b436-3af289ac3966
 title: Uninstalling Patches
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Uninstalling Patches
@@ -55,7 +60,7 @@ With Windows XP, you can uninstall patches using Add/Remove programs.
 
 ## Uninstalling a patch using the MsiRemovePatches function
 
-Your applications can uninstall patches from other applications by using the [Windows Installer Functions](installer-functions.md). The following code example removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**MsiRemovePatches**](msiremovepatches.md) function. A patch can be referenced by the full path to the patch package or the patch code GUID. In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{0C9840E7-7F0B-C648-10F0-4641926FE463}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}".
+Your applications can uninstall patches from other applications by using the [Windows Installer Functions](installer-functions.md). The following code example removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master) function. A patch can be referenced by the full path to the patch package or the patch code GUID. In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{0C9840E7-7F0B-C648-10F0-4641926FE463}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}".
 
 
 ```C++
@@ -70,7 +75,7 @@ Your applications can uninstall patches from other applications by using the [Wi
 
 ## Uninstalling a patch from all applications using MsiRemovePatches function
 
-A single patch can update more than one product on the computer. An application can use [**MsiEnumProductsEx**](msienumproductsex.md) to enumerate all the products on the computer and determine whether a patch has been applied to a particular instance of the product. The application can then uninstall the patch using [**MsiRemovePatches**](msiremovepatches.md). For example, a single patch can update multiple products if the patch updates a file in a component that is shared by multiple products and the patch is distributed to update both products.
+A single patch can update more than one product on the computer. An application can use [**MsiEnumProductsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master) to enumerate all the products on the computer and determine whether a patch has been applied to a particular instance of the product. The application can then uninstall the patch using [**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master). For example, a single patch can update multiple products if the patch updates a file in a component that is shared by multiple products and the patch is distributed to update both products.
 
 The following example demonstrates how an application can use the Windows Installer to remove a patch from all applications that are available to the user. It does not remove the patch from applications installed per-user for another user.
 
@@ -200,13 +205,13 @@ UINT RemovePatchFromAllVisibleapplications(LPCWSTR wszPatchToRemove)
 [**MSIPATCHREMOVE**](msipatchremove.md)
 </dt> <dt>
 
-[**MsiEnumapplicationsEx**](msienumproductsex.md)
+[**MsiEnumapplicationsEx**](/windows/win32/Msi/nf-msi-msienumproductsexa?branch=master)
 </dt> <dt>
 
-[**MsiGetPatchInfoEx**](msigetpatchinfoex.md)
+[**MsiGetPatchInfoEx**](/windows/win32/Msi/nf-msi-msigetpatchinfoexa?branch=master)
 </dt> <dt>
 
-[**MsiRemovePatches**](msiremovepatches.md)
+[**MsiRemovePatches**](/windows/win32/Msi/nf-msi-msiremovepatchesa?branch=master)
 </dt> </dl>
 
  

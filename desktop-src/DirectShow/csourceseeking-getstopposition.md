@@ -1,19 +1,24 @@
 ---
-Description: 'The GetStopPosition method retrieves the time when playback will stop, relative to the duration of the stream. This method implements the IMediaSeeking::GetStopPosition method.'
-ms.assetid: '83928f62-7acc-43b9-9537-49131ed0b0d4'
-title: 'CSourceSeeking.GetStopPosition method'
+Description: The GetStopPosition method retrieves the time when playback will stop, relative to the duration of the stream. This method implements the IMediaSeekingGetStopPosition method.
+ms.assetid: 83928f62-7acc-43b9-9537-49131ed0b0d4
+title: CSourceSeeking.GetStopPosition method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceSeeking.GetStopPosition method
 
-The `GetStopPosition` method retrieves the time when playback will stop, relative to the duration of the stream. This method implements the [**IMediaSeeking::GetStopPosition**](imediaseeking-getstopposition.md) method.
+The `GetStopPosition` method retrieves the time when playback will stop, relative to the duration of the stream. This method implements the [**IMediaSeeking::GetStopPosition**](/windows/win32/Strmif/nf-strmif-imediaseeking-getstopposition?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetStopPosition(
-   LONGLONG *pStop
+   LONGLONG *pStop
 );
 ```
 
@@ -43,7 +48,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -67,9 +72,9 @@ The stop time is specified by the [**CSourceSeeking::m\_rtStop**](csourceseeking
 [**CSourceSeeking Class**](csourceseeking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

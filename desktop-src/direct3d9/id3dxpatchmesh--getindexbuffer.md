@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets the mesh index buffer.'
-ms.assetid: 'd9152f3b-c8e6-4def-8cf1-a517ca4d34e7'
-title: 'ID3DXPatchMesh::GetIndexBuffer method'
+---
+Description: Gets the mesh index buffer.
+ms.assetid: d9152f3b-c8e6-4def-8cf1-a517ca4d34e7
+title: ID3DXPatchMeshGetIndexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXPatchMesh::GetIndexBuffer method
@@ -26,7 +31,7 @@ HRESULT GetIndexBuffer(
 *ppIB* \[out, retval\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DINDEXBUFFER9**](idirect3dindexbuffer9.md)\***
+Type: **[**LPDIRECT3DINDEXBUFFER9**](/windows/win32/d3d9helper/nn-d3d9-idirect3dindexbuffer9?branch=master)\***
 
 Pointer to the index buffer.
 

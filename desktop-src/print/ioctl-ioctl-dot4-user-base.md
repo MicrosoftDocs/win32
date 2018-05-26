@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic describes IOCTL\_DOT4\_USER\_BASE.'
-ms.assetid: '600AF104-C80B-4ECE-A662-68CF38235078'
-title: 'IOCTL\_DOT4\_USER\_BASE control code'
+---
+Description: This topic describes IOCTL\_DOT4\_USER\_BASE.
+ms.assetid: 600AF104-C80B-4ECE-A662-68CF38235078
+title: IOCTL\_DOT4\_USER\_BASE control code
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IOCTL\_DOT4\_USER\_BASE control code

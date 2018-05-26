@@ -1,8 +1,14 @@
 ---
 title: Generating the Stub Files
 description: After defining the client/server interface, you usually develop your client and server source files.
-ms.assetid: 'e4d08bee-ab9a-4426-a1af-72a7d763797f'
-keywords: ["Remote Procedure Call RPC , tasks, generating stub files"]
+ms.assetid: e4d08bee-ab9a-4426-a1af-72a7d763797f
+keywords:
+- Remote Procedure Call RPC , tasks, generating stub files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Generating the Stub Files

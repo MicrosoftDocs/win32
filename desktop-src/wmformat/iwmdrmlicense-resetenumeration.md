@@ -1,8 +1,11 @@
 ---
 title: IWMDRMLicense ResetEnumeration method
 description: The ResetEnumeration method resets the license list to its original state. The active license becomes the first license in the list.
-ms.assetid: 'cb5a31a8-ee25-44d6-81ca-746c379cb99e'
-keywords: ["ResetEnumeration method windows Media Format", "ResetEnumeration method windows Media Format , IWMDRMLicense interface", "IWMDRMLicense interface windows Media Format , ResetEnumeration method"]
+ms.assetid: cb5a31a8-ee25-44d6-81ca-746c379cb99e
+keywords:
+- ResetEnumeration method windows Media Format
+- ResetEnumeration method windows Media Format , IWMDRMLicense interface
+- IWMDRMLicense interface windows Media Format , ResetEnumeration method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +15,11 @@ api_location:
 - Wmdrmsdk.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWMDRMLicense::ResetEnumeration method
@@ -44,7 +52,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -68,9 +76,9 @@ None.
 [**IWMDRMLicense Interface**](iwmdrmlicense.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

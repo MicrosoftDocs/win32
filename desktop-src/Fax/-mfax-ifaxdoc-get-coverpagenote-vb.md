@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the CoverpageNote property of a FaxDoc object. The CoverpageNote property is a null-terminated string that contains the text of a message or note from the sender that pertains to the fax transmission.'
-ms.assetid: '7dd00d29-1eb2-4b9d-bcbc-b511aa37c73b'
-title: 'FaxDoc.CoverpageNote property'
+---
+Description: Sets or retrieves the CoverpageNote property of a FaxDoc object. The CoverpageNote property is a null-terminated string that contains the text of a message or note from the sender that pertains to the fax transmission.
+ms.assetid: 7dd00d29-1eb2-4b9d-bcbc-b511aa37c73b
+title: FaxDoc.CoverpageNote property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.CoverpageNote property
@@ -55,7 +60,7 @@ The **get\_CoverpageNote** method allocates the memory required for the buffer p
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

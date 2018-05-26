@@ -1,7 +1,12 @@
-﻿---
-Description: 'DirectX Video Acceleration 2.0'
-ms.assetid: 'acb73b20-89fa-4a48-be4a-846715a239b0'
-title: 'DirectX Video Acceleration 2.0'
+---
+Description: DirectX Video Acceleration 2.0
+ms.assetid: acb73b20-89fa-4a48-be4a-846715a239b0
+title: DirectX Video Acceleration 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectX Video Acceleration 2.0

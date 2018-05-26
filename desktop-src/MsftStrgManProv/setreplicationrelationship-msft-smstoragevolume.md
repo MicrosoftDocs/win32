@@ -4,11 +4,14 @@ description: Updates a replication relationship between virtual disks.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '06d75d4b-f3f6-48aa-829e-3aabf10305ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 06d75d4b-f3f6-48aa-829e-3aabf10305ce
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetReplicationRelationship method", "SetReplicationRelationship method, MSFT_SMStorageVolume class", "MSFT_SMStorageVolume class, SetReplicationRelationship method"]
+keywords:
+- SetReplicationRelationship method
+- SetReplicationRelationship method, MSFT_SMStorageVolume class
+- MSFT_SMStorageVolume class, SetReplicationRelationship method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - StorageService.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetReplicationRelationship method of the MSFT\_SMStorageVolume class
@@ -28,12 +34,12 @@ Updates a replication relationship between virtual disks.
 
 ```mof
 UInt32 SetReplicationRelationship(
-  [in]            UInt16                 Operation,
-  [in]            MSFT_SMReplicaPeer REF TargetStorageVolume,
-  [in, optional]  String                 username,
-  [in, optional]  String                 password,
-  [out]           MSFT_SMJob         REF Job,
-  [out, optional] MSFT_SMExtendedStatus  ExtendedStatus
+  [in]            UInt16                 Operation,
+  [in]            MSFT_SMReplicaPeer REF TargetStorageVolume,
+  [in, optional]  String                 username,
+  [in, optional]  String                 password,
+  [out]           MSFT_SMJob         REF Job,
+  [out, optional] MSFT_SMExtendedStatus  ExtendedStatus
 );
 ```
 
@@ -294,7 +300,7 @@ The possible return values are:
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -308,9 +314,9 @@ The possible return values are:
 [**MSFT\_SMStorageVolume**](msft-smstoragevolume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

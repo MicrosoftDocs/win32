@@ -1,8 +1,10 @@
 ---
 title: DRM\_VIDEO\_OUTPUT\_PROTECTION\_IDS structure
 description: The DRM\_VIDEO\_OUTPUT\_PROTECTION\_IDS structure holds an array of DRM\_VIDEO\_OUTPUT\_PROTECTION structures.
-ms.assetid: '9f206a7e-c92b-4f29-a591-72784086d1db'
-keywords: ["DRM_VIDEO_OUTPUT_PROTECTION_IDS structure windows Media Format", "structure windows Media Format"]
+ms.assetid: 9f206a7e-c92b-4f29-a591-72784086d1db
+keywords:
+- DRM_VIDEO_OUTPUT_PROTECTION_IDS structure windows Media Format
+- structure windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Wmdrmsdk.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DRM\_VIDEO\_OUTPUT\_PROTECTION\_IDS structure
@@ -22,7 +29,7 @@ The **DRM\_VIDEO\_OUTPUT\_PROTECTION\_IDS** structure holds an array of **DRM\_V
 
 ```C++
 typedef struct DRM_VIDEO_OUTPUT_PROTECTION_IDS {
-  WORD                        cEntries;
+  WORD                        cEntries;
   DRM_VIDEO_OUTPUT_PROTECTION *rgVop;
 } ;
 ```
@@ -74,9 +81,9 @@ This structure is used as a member of the [**DRM\_PLAY\_OPL**](drmdrm-play-opl.m
 [**Structures**](drm-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

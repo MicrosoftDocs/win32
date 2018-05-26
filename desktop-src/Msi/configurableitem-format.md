@@ -1,7 +1,12 @@
 ---
-Description: 'The Format property of the ConfigurableItem object returns the value from the Format column of the ModuleConfiguration table.'
-ms.assetid: 'e75ed650-7309-4e24-9c35-82ebf27d011b'
-title: 'ConfigurableItem.Format property'
+Description: The Format property of the ConfigurableItem object returns the value from the Format column of the ModuleConfiguration table.
+ms.assetid: e75ed650-7309-4e24-9c35-82ebf27d011b
+title: ConfigurableItem.Format property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ConfigurableItem.Format property
@@ -36,11 +41,11 @@ This property can only have the following values.
 
 
 
- 
+ 
 
 ### C++
 
-See [**get\_Format**](imsmconfigurableitem-get-format.md) function.
+See [**get\_Format**](/windows/win32/Mergemod/nf-mergemod-imsmconfigurableitem-get_format?branch=master) function.
 
 ## Requirements
 
@@ -54,9 +59,9 @@ See [**get\_Format**](imsmconfigurableitem-get-format.md) function.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

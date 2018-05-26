@@ -1,8 +1,11 @@
 ---
 title: ISoftKbd Initialize method
 description: The ISoftKbd Initialize method initializes all necessary fields for a soft keyboard and generates standard soft keyboard layouts.
-ms.assetid: 'c997864c-2596-4086-8062-cd30f371c38f'
-keywords: ["Initialize method Text Services Framework", "Initialize method Text Services Framework , ISoftKbd interface", "ISoftKbd interface Text Services Framework , Initialize method"]
+ms.assetid: c997864c-2596-4086-8062-cd30f371c38f
+keywords:
+- Initialize method Text Services Framework
+- Initialize method Text Services Framework , ISoftKbd interface
+- ISoftKbd interface Text Services Framework , Initialize method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Softkbd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISoftKbd::Initialize method
@@ -42,7 +50,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -50,9 +58,9 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
 | Header<br/>                   | <dl> <dt>Softkbdc.h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Softkbd.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
@@ -66,9 +74,9 @@ This method can return one of these values.
 [**ISoftKbd**](isoftkbd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

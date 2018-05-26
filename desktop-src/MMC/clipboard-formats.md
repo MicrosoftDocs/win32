@@ -4,11 +4,15 @@ description: Describes how a node type must support clipboard formats, in partic
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '127f0a11-6949-474b-b940-8eef89988118'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 127f0a11-6949-474b-b940-8eef89988118
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["clipboard formats MMC"]
+keywords:
+- clipboard formats MMC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Clipboard Formats

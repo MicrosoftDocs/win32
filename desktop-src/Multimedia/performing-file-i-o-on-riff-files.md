@@ -1,8 +1,22 @@
 ---
 title: Performing File I/O on RIFF Files
 description: Performing File I/O on RIFF Files
-ms.assetid: '3ffc5975-7acb-4844-89b0-bf245b3bd316'
-keywords: ["multimedia file I/O,RIFF files", "file I/O,RIFF files", "input and output (I/O),RIFF files", "I/O (input and output),RIFF files", "resource interchange file format (RIFF)", "RIFF (resource interchange file format)", "RIFF I/O", "buffered I/O", "RIFF chunk"]
+ms.assetid: 3ffc5975-7acb-4844-89b0-bf245b3bd316
+keywords:
+- multimedia file I/O,RIFF files
+- file I/O,RIFF files
+- input and output (I/O),RIFF files
+- I/O (input and output),RIFF files
+- resource interchange file format (RIFF)
+- RIFF (resource interchange file format)
+- RIFF I/O
+- buffered I/O
+- RIFF chunk
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Performing File I/O on RIFF Files

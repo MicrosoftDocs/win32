@@ -4,13 +4,15 @@ description: Represents the mount point path of the shadow copy that was mounted
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2ea4d4f2-d972-44ce-9b25-458999aa18dc'
-ms.prod: 'windows-server-dev'
+ms.assetid: 2ea4d4f2-d972-44ce-9b25-458999aa18dc
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["WT_DVMountedPath class iSCSI Software Target API", "WT_DVMountedPath class iSCSI Software Target API , described"]
+keywords:
+- WT_DVMountedPath class iSCSI Software Target API
+- WT_DVMountedPath class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,13 +23,16 @@ api_location:
 - WtWmiProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WT\_DVMountedPath class
 
 Represents the mount point path of the shadow copy that was mounted locally on the iSCSI Target server.
 
-**Windows Server 2012 R2:** This class is deprecated.
+**Windows Server 2012 R2:** This class is deprecated.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -93,16 +98,16 @@ Index of the locally mounted [**WT\_Disk**](wt-disk.md).
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\Wmi<br/>                                                                         |
 | MOF<br/>                      | <dl> <dt>WmiWtProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WtWmiProv.dll</dt> </dl>     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

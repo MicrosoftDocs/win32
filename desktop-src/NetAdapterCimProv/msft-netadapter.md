@@ -1,7 +1,12 @@
 ---
-Description: 'A logical network adapters.'
-ms.assetid: '0d09f9e4-abca-4767-8d03-9b59dd2a5f38'
-title: 'MSFT\_NetAdapter class'
+Description: A logical network adapters.
+ms.assetid: 0d09f9e4-abca-4767-8d03-9b59dd2a5f38
+title: MSFT\_NetAdapter class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapter class
@@ -16,90 +21,90 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapter : CIM_NetworkPort
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint16   Availability;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  uint32   LastErrorCode;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint64   Speed;
-  uint64   MaxSpeed;
-  uint64   RequestedSpeed;
-  uint16   UsageRestriction;
-  uint16   PortType;
-  string   OtherPortType;
-  string   OtherNetworkPortType;
-  uint16   PortNumber;
-  uint16   LinkTechnology;
-  string   OtherLinkTechnology;
-  string   PermanentAddress;
-  string   NetworkAddresses[];
-  boolean  FullDuplex;
-  boolean  AutoSense;
-  uint64   SupportedMaximumTransmissionUnit;
-  uint64   ActiveMaximumTransmissionUnit;
-  string   InterfaceDescription;
-  string   InterfaceName;
-  uint64   NetLuid;
-  string   InterfaceGuid;
-  uint32   InterfaceIndex;
-  string   DeviceName;
-  uint32   NetLuidIndex;
-  boolean  Virtual;
-  boolean  Hidden;
-  boolean  NotUserRemovable;
-  boolean  IMFilter;
-  uint32   InterfaceType;
-  boolean  HardwareInterface;
-  boolean  WdmInterface;
-  boolean  EndPointInterface;
-  boolean  iSCSIInterface;
-  uint32   State;
-  uint32   NdisMedium;
-  uint32   NdisPhysicalMedium;
-  uint32   InterfaceOperationalStatus;
-  boolean  OperationalStatusDownDefaultPortNotAuthenticated;
-  boolean  OperationalStatusDownMediaDisconnected;
-  boolean  OperationalStatusDownInterfacePaused;
-  boolean  OperationalStatusDownLowPowerState;
-  uint32   InterfaceAdminStatus;
-  uint32   MediaConnectState;
-  uint32   MtuSize;
-  uint16   VlanID;
-  uint64   TransmitLinkSpeed;
-  uint64   ReceiveLinkSpeed;
-  boolean  PromiscuousMode;
-  boolean  DeviceWakeUpEnable;
-  boolean  ConnectorPresent;
-  uint32   MediaDuplexState;
-  string   DriverDate;
-  uint64   DriverDateData;
-  string   DriverVersionString;
-  string   DriverName;
-  string   DriverDescription;
-  uint16   MajorDriverVersion;
-  uint16   MinorDriverVersion;
-  uint8    DriverMajorNdisVersion;
-  uint8    DriverMinorNdisVersion;
-  string   PnPDeviceID;
-  string   DriverProvider;
-  string   ComponentID;
-  uint32   LowerLayerInterfaceIndices[];
-  uint32   HigherLayerInterfaceIndices[];
-  boolean  AdminLocked;
+  string   Name;
+  string   Status;
+  uint16   Availability;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  uint32   LastErrorCode;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint64   Speed;
+  uint64   MaxSpeed;
+  uint64   RequestedSpeed;
+  uint16   UsageRestriction;
+  uint16   PortType;
+  string   OtherPortType;
+  string   OtherNetworkPortType;
+  uint16   PortNumber;
+  uint16   LinkTechnology;
+  string   OtherLinkTechnology;
+  string   PermanentAddress;
+  string   NetworkAddresses[];
+  boolean  FullDuplex;
+  boolean  AutoSense;
+  uint64   SupportedMaximumTransmissionUnit;
+  uint64   ActiveMaximumTransmissionUnit;
+  string   InterfaceDescription;
+  string   InterfaceName;
+  uint64   NetLuid;
+  string   InterfaceGuid;
+  uint32   InterfaceIndex;
+  string   DeviceName;
+  uint32   NetLuidIndex;
+  boolean  Virtual;
+  boolean  Hidden;
+  boolean  NotUserRemovable;
+  boolean  IMFilter;
+  uint32   InterfaceType;
+  boolean  HardwareInterface;
+  boolean  WdmInterface;
+  boolean  EndPointInterface;
+  boolean  iSCSIInterface;
+  uint32   State;
+  uint32   NdisMedium;
+  uint32   NdisPhysicalMedium;
+  uint32   InterfaceOperationalStatus;
+  boolean  OperationalStatusDownDefaultPortNotAuthenticated;
+  boolean  OperationalStatusDownMediaDisconnected;
+  boolean  OperationalStatusDownInterfacePaused;
+  boolean  OperationalStatusDownLowPowerState;
+  uint32   InterfaceAdminStatus;
+  uint32   MediaConnectState;
+  uint32   MtuSize;
+  uint16   VlanID;
+  uint64   TransmitLinkSpeed;
+  uint64   ReceiveLinkSpeed;
+  boolean  PromiscuousMode;
+  boolean  DeviceWakeUpEnable;
+  boolean  ConnectorPresent;
+  uint32   MediaDuplexState;
+  string   DriverDate;
+  uint64   DriverDateData;
+  string   DriverVersionString;
+  string   DriverName;
+  string   DriverDescription;
+  uint16   MajorDriverVersion;
+  uint16   MinorDriverVersion;
+  uint8    DriverMajorNdisVersion;
+  uint8    DriverMinorNdisVersion;
+  string   PnPDeviceID;
+  string   DriverProvider;
+  string   ComponentID;
+  uint32   LowerLayerInterfaceIndices[];
+  uint32   HigherLayerInterfaceIndices[];
+  boolean  AdminLocked;
 };
 ```
 
@@ -127,7 +132,7 @@ The **MSFT\_NetAdapter** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -212,7 +217,7 @@ Availability and status of the device. This property inherits from [**CIM\_Logic
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -292,7 +297,7 @@ Win32 Configuration Manager error code. This property inherits from [**CIM\_Logi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1337,7 +1342,7 @@ Array of the specific power-related capabilities of a logical device. This prope
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -1669,17 +1674,17 @@ Get-WmiObject -ComputerName "." -Namespace Root\StandardCimv2 -class MSFT_NetAda
 
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported client<br/> | Windows 8<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

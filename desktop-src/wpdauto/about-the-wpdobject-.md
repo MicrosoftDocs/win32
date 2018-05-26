@@ -1,8 +1,24 @@
 ---
 title: About the WPDObject
 description: The WPDObject represents a generic object on a device.
-ms.assetid: '5a152279-8d95-4ca3-bf08-8ce6ff2178f9'
-keywords: ["WPD Automation,WPDObject", "WPD Automation,Service object", "WPD Automation,Storage object", "WPD Automation,childrenCollection", "WPDObject,WPD Automation", "WPDObject,about", "Service object,WPD Automation", "Storage object,WPD Automation", "Service object,WPDObject", "Storage object,WPDObject", "childrenCollection,WPD Automation"]
+ms.assetid: 5a152279-8d95-4ca3-bf08-8ce6ff2178f9
+keywords:
+- WPD Automation,WPDObject
+- WPD Automation,Service object
+- WPD Automation,Storage object
+- WPD Automation,childrenCollection
+- WPDObject,WPD Automation
+- WPDObject,about
+- Service object,WPD Automation
+- Storage object,WPD Automation
+- Service object,WPDObject
+- Storage object,WPDObject
+- childrenCollection,WPD Automation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About the WPDObject

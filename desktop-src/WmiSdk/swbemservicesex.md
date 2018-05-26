@@ -1,13 +1,16 @@
 ---
-Description: 'Extends the functionality of SWbemServices.'
+Description: Extends the functionality of SWbemServices.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'def514a9-eca4-41de-87cd-c9f964a71f68'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: def514a9-eca4-41de-87cd-c9f964a71f68
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemServicesEx object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemServicesEx object
@@ -33,7 +36,7 @@ The **SWbemServicesEx** object has these methods.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,8 +48,8 @@ The methods in this class can be called in either the semisynchronous mode or th
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -65,9 +68,9 @@ The methods in this class can be called in either the semisynchronous mode or th
 [Calling a Method](calling-a-method.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

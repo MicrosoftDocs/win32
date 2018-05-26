@@ -1,8 +1,9 @@
 ---
 title: D3DX11\_EFFECT\_SHADER\_DESC structure
 description: Describes an effect shader.
-ms.assetid: '4377eec6-f331-4cad-bf16-189d6296f886'
-keywords: ["D3DX11_EFFECT_SHADER_DESC structure Direct3D 11"]
+ms.assetid: 4377eec6-f331-4cad-bf16-189d6296f886
+keywords:
+- D3DX11_EFFECT_SHADER_DESC structure Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dx11effect.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_EFFECT\_SHADER\_DESC structure
@@ -23,14 +29,14 @@ Describes an effect shader.
 ```C++
 typedef struct _D3DX11_EFFECT_SHADER_DESC {
   const BYTE *pInputSignature;
-  BOOL       IsInline;
+  BOOL       IsInline;
   const BYTE *pBytecode;
-  UINT       BytecodeLength;
-  LPCSTR     SODecls[D3D11_SO_STREAM_COUNT];
-  UINT       RasterizedStream;
-  UINT       NumInputSignatureEntries;
-  UINT       NumOutputSignatureEntries;
-  UINT       NumPatchConstantSignatureEntries;
+  UINT       BytecodeLength;
+  LPCSTR     SODecls[D3D11_SO_STREAM_COUNT];
+  UINT       RasterizedStream;
+  UINT       NumInputSignatureEntries;
+  UINT       NumOutputSignatureEntries;
+  UINT       NumPatchConstantSignatureEntries;
 } D3DX11_EFFECT_SHADER_DESC;
 ```
 
@@ -47,7 +53,7 @@ Type: **const [**BYTE**](https://msdn.microsoft.com/library/windows/desktop/aa38
 
 </dd> <dd>
 
-Passed into CreateInputLayout. Only valid on a vertex shader or geometry shader. See [**ID3D11Device::CreateInputLayout**](id3d11device-createinputlayout.md).
+Passed into CreateInputLayout. Only valid on a vertex shader or geometry shader. See [**ID3D11Device::CreateInputLayout**](/windows/win32/D3D11/nf-d3d11-id3d11device-createinputlayout?branch=master).
 
 </dd> <dt>
 
@@ -160,9 +166,9 @@ D3DX11\_EFFECT\_SHADER\_DESC is used with [**ID3DX11EffectShaderVariable::GetSha
 [Effects 11 Structures](d3d11-graphics-reference-effects11-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

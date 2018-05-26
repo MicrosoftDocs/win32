@@ -1,14 +1,20 @@
 ---
 title: ExecutionGuid element
 description: The Guid of the job execution.
-ms.assetid: '2D4A44B6-9EC4-4320-8A47-95345362C4FC'
-keywords: ["ExecutionGuid element Access Execution Engine"]
+ms.assetid: 2D4A44B6-9EC4-4320-8A47-95345362C4FC
+keywords:
+- ExecutionGuid element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - ExecutionGuid
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExecutionGuid element

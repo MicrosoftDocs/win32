@@ -1,14 +1,22 @@
 ---
 title: IEnumTfRenderingMarkup Next method
 description: The IEnumTfRenderingMarkup Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
-ms.assetid: 'a3aec919-2c65-4e65-9430-d73fdaf5d28e'
-keywords: ["Next method Text Services Framework", "Next method Text Services Framework , IEnumTfRenderingMarkup interface", "IEnumTfRenderingMarkup interface Text Services Framework , Next method"]
+ms.assetid: a3aec919-2c65-4e65-9430-d73fdaf5d28e
+keywords:
+- Next method Text Services Framework
+- Next method Text Services Framework , IEnumTfRenderingMarkup interface
+- IEnumTfRenderingMarkup interface Text Services Framework , Next method
 topic_type:
 - apiref
 api_name:
 - IEnumTfRenderingMarkup.Next
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumTfRenderingMarkup::Next method
@@ -20,9 +28,9 @@ The **IEnumTfRenderingMarkup::Next** method obtains, from the current position, 
 
 ```C++
 HRESULT Next(
-  [out] ULONG ulCount,
-  [out]       ppElement,
-  [out] ULONG *pcFetched
+  [out] ULONG ulCount,
+  [out]       ppElement,
+  [out] ULONG *pcFetched
 );
 ```
 
@@ -67,18 +75,18 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Remarks
 
 > [!Note]  
 > This method is not currently in the public header files. To use this API, you must MIDL-compile the [prototype](prototypes.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

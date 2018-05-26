@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Item property returns a FaxOutboundRoutingRule object from the FaxOutboundRoutingRules collection using the routing rule''s index.'
-ms.assetid: 'da4c8ac9-7497-46f7-8575-c4598bb9364b'
-title: 'FaxOutboundRoutingRules.Item property'
+---
+Description: The Item property returns a FaxOutboundRoutingRule object from the FaxOutboundRoutingRules collection using the routing rules index.
+ms.assetid: da4c8ac9-7497-46f7-8575-c4598bb9364b
+title: FaxOutboundRoutingRules.Item property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRoutingRules.Item property
@@ -48,7 +53,7 @@ A [**FaxOutboundRoutingRule**](-mfax-faxoutboundroutingrule.md) object.
 [**FaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules.md)
 </dt> <dt>
 
-[**IFaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules-cpp.md)
+[**IFaxOutboundRoutingRules**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundroutingrules?branch=master)
 </dt> </dl>
 
  

@@ -1,8 +1,9 @@
 ---
 title: PBM\_DELTAPOS message
 description: Advances the current position of a progress bar by a specified increment and redraws the bar to reflect the new position.
-ms.assetid: '92c89434-d50b-45e7-b686-42e9297518b9'
-keywords: ["PBM_DELTAPOS message Windows Controls"]
+ms.assetid: 92c89434-d50b-45e7-b686-42e9297518b9
+keywords:
+- PBM_DELTAPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PBM\_DELTAPOS message
@@ -47,15 +53,15 @@ The behavior of this message is undefined if it is sent to a control that has th
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

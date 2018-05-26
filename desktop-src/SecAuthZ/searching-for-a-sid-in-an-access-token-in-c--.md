@@ -1,12 +1,17 @@
 ---
-Description: 'The following example uses the OpenProcessToken and GetTokenInformation functions to get the group memberships in an access token.'
-ms.assetid: 'f895dfef-75ad-419c-95d0-6480bdf9c769'
+Description: The following example uses the OpenProcessToken and GetTokenInformation functions to get the group memberships in an access token.
+ms.assetid: f895dfef-75ad-419c-95d0-6480bdf9c769
 title: Searching for a SID in an Access Token in C++
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Searching for a SID in an Access Token in C++
 
-The following example uses the [**OpenProcessToken**](openprocesstoken.md) and [**GetTokenInformation**](gettokeninformation.md) functions to get the group memberships in an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly). Then it uses the [**AllocateAndInitializeSid**](allocateandinitializesid.md) function to create a SID that identifies the well-known SID of the administrator group for the local computer. Next, it uses the [**EqualSid**](equalsid.md) function to compare the well-known SID with the group SIDs from the access token. If the SID is present in the token, the function checks the attributes of the SID to determine whether it is enabled.
+The following example uses the [**OpenProcessToken**](/windows/win32/Winbase/nf-ntifs-ntopenprocesstoken?branch=master) and [**GetTokenInformation**](gettokeninformation.md) functions to get the group memberships in an [*access token*](https://msdn.microsoft.com/library/windows/desktop/ms721532#-security-access-token-gly). Then it uses the [**AllocateAndInitializeSid**](/windows/win32/Winbase/nf-ntifs-rtlallocateandinitializesidex?branch=master) function to create a SID that identifies the well-known SID of the administrator group for the local computer. Next, it uses the [**EqualSid**](equalsid.md) function to compare the well-known SID with the group SIDs from the access token. If the SID is present in the token, the function checks the attributes of the SID to determine whether it is enabled.
 
 The [**CheckTokenMembership**](checktokenmembership.md) function should be used to determine whether a specified SID is present and enabled in an access token. This function eliminates potential misinterpretations of the active group membership.
 

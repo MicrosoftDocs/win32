@@ -4,11 +4,18 @@ description: Specifies the virtual-key code to add to Ctrl+Alt to determine the 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9AEEB712-E4C4-435E-A847-40C2B3A41C15'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 9AEEB712-E4C4-435E-A847-40C2B3A41C15
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["HotKeyFocusReleaseRight property Remote Desktop Services", "HotKeyFocusReleaseRight property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface", "IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , HotKeyFocusReleaseRight property", "HotKeyFocusReleaseRight property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface", "IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , HotKeyFocusReleaseRight property", "HotKeyFocusReleaseRight property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface", "IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , HotKeyFocusReleaseRight property"]
+keywords:
+- HotKeyFocusReleaseRight property Remote Desktop Services
+- HotKeyFocusReleaseRight property Remote Desktop Services , IMsRdpClientAdvancedSettings6 interface
+- IMsRdpClientAdvancedSettings6 interface Remote Desktop Services , HotKeyFocusReleaseRight property
+- HotKeyFocusReleaseRight property Remote Desktop Services , IMsRdpClientAdvancedSettings7 interface
+- IMsRdpClientAdvancedSettings7 interface Remote Desktop Services , HotKeyFocusReleaseRight property
+- HotKeyFocusReleaseRight property Remote Desktop Services , IMsRdpClientAdvancedSettings8 interface
+- IMsRdpClientAdvancedSettings8 interface Remote Desktop Services , HotKeyFocusReleaseRight property
 topic_type:
 - apiref
 api_name:
@@ -25,6 +32,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientAdvancedSettings6::HotKeyFocusReleaseRight property
@@ -38,11 +48,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_HotKeyFocusReleaseRight(
-  [in]  LONG hotKeyFocusReleaseRight
+  [in]  LONG hotKeyFocusReleaseRight
 );
 
 HRESULT get_HotKeyFocusReleaseRight(
-  [out] LONG *hotKeyFocusReleaseRight
+  [out] LONG *hotKeyFocusReleaseRight
 );
 ```
 
@@ -62,8 +72,8 @@ This property is only supported by Remote Desktop Connection 6.1 and 7.0 clients
 
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>           |
 | IID<br/>                      | IID\_IMsRdpClientAdvancedSettings6 is defined as 222c4b5d-45d9-4df0-a7c6-60cf9089d285<br/> |
@@ -83,9 +93,9 @@ This property is only supported by Remote Desktop Connection 6.1 and 7.0 clients
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

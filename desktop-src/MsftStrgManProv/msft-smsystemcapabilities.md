@@ -4,11 +4,13 @@ description: Represents the capabilities of a computer system.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2b2e4ce7-79c5-4414-b42a-cb748e74e6dc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 2b2e4ce7-79c5-4414-b42a-cb748e74e6dc
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMSystemCapabilities class", "MSFT_SMSystemCapabilities class, described"]
+keywords:
+- MSFT_SMSystemCapabilities class
+- MSFT_SMSystemCapabilities class, described
 topic_type:
 - apiref
 api_name:
@@ -58,6 +60,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMSystemCapabilities class
@@ -72,17 +77,17 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMSystemCapabilities
 {
-  String  ObjectId;
-  String  Identifier;
+  String  ObjectId;
+  String  Identifier;
   boolean ReplicationSupportedTypeMirrorLocal;
   boolean ReplicationSupportedTypeMirrorRemote;
   boolean ReplicationSupportedTypeSnapshotLocal;
   boolean ReplicationSupportedTypeSnapshotRemote;
   boolean ReplicationSupportedTypeCloneLocal;
   boolean ReplicationSupportedTypeCloneRemote;
-  uint16  MaximumReplicasPerSourceSnapshot;
-  uint16  MaximumReplicasPerSourceClone;
-  uint16  MaximumReplicasPerSourceMirror;
+  uint16  MaximumReplicasPerSourceSnapshot;
+  uint16  MaximumReplicasPerSourceClone;
+  uint16  MaximumReplicasPerSourceMirror;
   boolean StorageConfigSupportsPoolCreation;
   boolean StorageConfigSupportsPoolDeletion;
   boolean StorageConfigSupportsPoolModification;
@@ -93,26 +98,26 @@ class MSFT_SMSystemCapabilities
   boolean StorageConfigSupportsStorageVolumeCapacityExpansion;
   boolean StorageConfigSupportsStorageVolumeCapacityReduction;
   boolean StorageConfigSupportsThinProvisionedPools;
-  uint16  MaskingValidHardwareIdTypes[];
-  string  MaskingValidHardwareIdTypeDescriptions[];
-  string  MaskingOtherValidHardwareIDTypes[];
-  uint16  MaskingPortsPerView;
-  string  MaskingPortsPerViewDescription;
+  uint16  MaskingValidHardwareIdTypes[];
+  string  MaskingValidHardwareIdTypeDescriptions[];
+  string  MaskingOtherValidHardwareIDTypes[];
+  uint16  MaskingPortsPerView;
+  string  MaskingPortsPerViewDescription;
   boolean MaskingClientSelectableDeviceNumbers;
   boolean MaskingOneHardwareIDPerView;
   boolean MaskingExposeStorageVolumesToHostsSupported;
   boolean MaskingHideStorageVolumesFromHostsSupported;
-  uint16  MaskingMaximumMapCount;
-  uint16  iSCSITargetEndpointCreation;
-  string  iSCSITargetEndpointCreationDescription;
-  uint16  SupportedHostTypes[] = 15;
-  string  OtherHostTypeDescriptions[];
-  string  SupportedHostTypeDescriptions[];
+  uint16  MaskingMaximumMapCount;
+  uint16  iSCSITargetEndpointCreation;
+  string  iSCSITargetEndpointCreationDescription;
+  uint16  SupportedHostTypes[] = 15;
+  string  OtherHostTypeDescriptions[];
+  string  SupportedHostTypeDescriptions[];
   boolean SupportsFileSystemCreation;
   boolean SupportsFileServer;
   boolean SupportsFileServerCreation;
   boolean SupportsContinuouslyAvailableFileServer;
-  uint16  SupportedFileServerProtocols[];
+  uint16  SupportedFileServerProtocols[];
 };
 ```
 
@@ -696,7 +701,7 @@ Access type: Read-only
 
 A list of protocol values supported for file server creation.
 
-**Windows Server 2012 and Windows Server 2012 R2:  **
+**Windows Server 2012 and Windows Server 2012 R2:  **
 
 Not supported
 
@@ -892,14 +897,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -914,7 +919,7 @@ Access type: Read-only
 
 Set to **True** if the storage system allows a continuously available file server to be created.
 
-**Windows Server 2012 and Windows Server 2012 R2:  **
+**Windows Server 2012 and Windows Server 2012 R2:  **
 
 Not supported
 
@@ -931,7 +936,7 @@ Access type: Read-only
 
 Set to **True** if the storage system exposes file servers.
 
-**Windows Server 2012 and Windows Server 2012 R2:  **
+**Windows Server 2012 and Windows Server 2012 R2:  **
 
 Not supported
 
@@ -948,7 +953,7 @@ Access type: Read-only
 
 Set to **True** if the storage system allows the creation of file servers.
 
-**Windows Server 2012 and Windows Server 2012 R2:  **
+**Windows Server 2012 and Windows Server 2012 R2:  **
 
 Not supported
 
@@ -965,7 +970,7 @@ Access type: Read-only
 
 Set to **True** if the storage system allows the creation of file systems.
 
-**Windows Server 2012 and Windows Server 2012 R2:  **
+**Windows Server 2012 and Windows Server 2012 R2:  **
 
 Not supported
 
@@ -978,7 +983,7 @@ Not supported
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -992,9 +997,9 @@ Not supported
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

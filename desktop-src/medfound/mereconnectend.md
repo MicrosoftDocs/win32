@@ -1,7 +1,12 @@
-﻿---
-Description: 'Signals that a media source has completed an attempt to reconnect to the server.'
-ms.assetid: '228e069a-a26b-472e-915e-ff9aec5ee9c1'
+---
+Description: Signals that a media source has completed an attempt to reconnect to the server.
+ms.assetid: 228e069a-a26b-472e-915e-ff9aec5ee9c1
 title: MEReconnectEnd event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEReconnectEnd event
@@ -12,7 +17,7 @@ Raised by a media source at the end of a reconnection attempt. The network sourc
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The SourceThreadCanWait method holds or releases the streaming thread.'
-ms.assetid: 'f68f5f0b-ef5b-49a9-a768-c4cc065c0cb3'
-title: 'CBaseRenderer.SourceThreadCanWait method'
+Description: The SourceThreadCanWait method holds or releases the streaming thread.
+ms.assetid: f68f5f0b-ef5b-49a9-a768-c4cc065c0cb3
+title: CBaseRenderer.SourceThreadCanWait method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.SourceThreadCanWait method
@@ -13,7 +18,7 @@ The `SourceThreadCanWait` method holds or releases the streaming thread.
 
 ```C++
 virtual HRESULT SourceThreadCanWait(
-   BOOL bCanWait
+   BOOL bCanWait
 );
 ```
 
@@ -36,7 +41,7 @@ Returns S\_OK.
 
 ## Remarks
 
-Calling the `SourceThreadCanWait` method with the value **FALSE** forces the filter to return from a blocked [**IMemInputPin::Receive**](imeminputpin-receive.md) call. When the filter is running, it blocks **Receive** calls until the current sample's presentation time. When the filter is paused, it blocks **Receive** calls indefinitely. This behavior regulates the flow of data in the stream. When the filter is stopped or flushing, however, it should not block.
+Calling the `SourceThreadCanWait` method with the value **FALSE** forces the filter to return from a blocked [**IMemInputPin::Receive**](/windows/win32/Strmif/nf-strmif-imeminputpin-receive?branch=master) call. When the filter is running, it blocks **Receive** calls until the current sample's presentation time. When the filter is paused, it blocks **Receive** calls indefinitely. This behavior regulates the flow of data in the stream. When the filter is stopped or flushing, however, it should not block.
 
 The blocking is controlled by the [**CBaseRenderer::WaitForRenderTime**](cbaserenderer-waitforrendertime.md) method, which waits on two events: [**CBaseRenderer::m\_RenderEvent**](cbaserenderer-m-renderevent.md) and [**CBaseRenderer::m\_ThreadSignal**](cbaserenderer-m-threadsignal.md). The **m\_RenderEvent** event is signaled when the presentation time arrives. The **m\_ThreadSignal** event is signaled when `SourceThreadCanWait` is called with the value **FALSE**. Calling `SourceThreadCanWait` with the value **TRUE** resets the event.
 
@@ -60,9 +65,9 @@ The [**CBaseRenderer::Stop**](cbaserenderer-stop.md) and [**CBaseRenderer::Begin
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

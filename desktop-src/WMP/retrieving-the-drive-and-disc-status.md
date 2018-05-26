@@ -1,13 +1,27 @@
 ---
 title: Retrieving the Drive and Disc Status
 description: Retrieving the Drive and Disc Status
-ms.assetid: '5e3e6107-d2bc-450c-a86e-5d3ef7b3092a'
-keywords: ["Windows Media Player,CD burning", "Windows Media Player object model,CD burning", "object model,CD burning", "Windows Media Player ActiveX control,CD burning", "ActiveX control,CD burning", "Windows Media Player Mobile ActiveX control,CD burning", "Windows Media Player Mobile,CD burning", "CD burning,retrieving drive and disc status", "burning CDs,retrieving drive and disc status"]
+ms.assetid: 5e3e6107-d2bc-450c-a86e-5d3ef7b3092a
+keywords:
+- Windows Media Player,CD burning
+- Windows Media Player object model,CD burning
+- object model,CD burning
+- Windows Media Player ActiveX control,CD burning
+- ActiveX control,CD burning
+- Windows Media Player Mobile ActiveX control,CD burning
+- Windows Media Player Mobile,CD burning
+- CD burning,retrieving drive and disc status
+- burning CDs,retrieving drive and disc status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Retrieving the Drive and Disc Status
 
-Before starting a CD burning operation, you must ensure that the selected CD-ROM drive supports the operation you want to perform. For instance, you must check that a CD is capable of being erased before calling [IWMPCdromBurn::erase](iwmpcdromburn-erase.md). The following code shows an example of using [IWMPCdromBurn::isAvailable](iwmpcdromburn-isavailable.md) to determine whether an operation is supported:
+Before starting a CD burning operation, you must ensure that the selected CD-ROM drive supports the operation you want to perform. For instance, you must check that a CD is capable of being erased before calling [IWMPCdromBurn::erase](/windows/win32/wmp/nf-wmp-iwmpcdromburn-erase?branch=master). The following code shows an example of using [IWMPCdromBurn::isAvailable](/windows/win32/wmp/nf-wmp-iwmpcdromburn-isavailable?branch=master) to determine whether an operation is supported:
 
 
 ```C++

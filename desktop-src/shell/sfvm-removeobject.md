@@ -1,11 +1,16 @@
-﻿---
-Description: 'Removes an object from the shell view. Used by SHShellFolderView\_Message.'
-title: 'SFVM\_REMOVEOBJECT message'
+---
+Description: Removes an object from the shell view. Used by SHShellFolderView\_Message.
+title: SFVM\_REMOVEOBJECT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SFVM\_REMOVEOBJECT message
 
-Removes an object from the shell view. Used by [**SHShellFolderView\_Message**](shshellfolderview-message.md).
+Removes an object from the shell view. Used by [**SHShellFolderView\_Message**](/windows/win32/shlobj_core/nf-shlobj_core-shshellfolderview_message?branch=master).
 
 
 ```C++

@@ -1,14 +1,20 @@
 ---
 title: channel (ChannelListType) Element
 description: Defines a channel to which events can be logged.
-ms.assetid: '4af740d7-2ab8-4f3e-86b3-501e5a6a60f6'
-keywords: ["channel element EventLog"]
+ms.assetid: 4af740d7-2ab8-4f3e-86b3-501e5a6a60f6
+keywords:
+- channel element EventLog
 topic_type:
 - apiref
 api_name:
 - channel
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # channel (ChannelListType) Element
@@ -29,8 +35,8 @@ The **channel** element is defined by the [**ChannelListType**](eventmanifestsch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -47,9 +53,9 @@ The **channel** element is defined by the [**ChannelListType**](eventmanifestsch
 [**channels (MetadataType)**](eventmanifestschema-channels-metadatatype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

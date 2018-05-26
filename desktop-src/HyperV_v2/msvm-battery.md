@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a virtual battery device.'
-ms.assetid: '24e745cc-d92b-429b-87eb-4caae5d4a95a'
-title: 'Msvm\_Battery class'
+Description: Represents a virtual battery device.
+ms.assetid: 24e745cc-d92b-429b-87eb-4caae5d4a95a
+title: Msvm\_Battery class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_Battery class
@@ -29,8 +34,8 @@ The **Msvm\_Battery** class does not define any members.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                               |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                               |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -44,9 +49,9 @@ The **Msvm\_Battery** class does not define any members.
 [**CIM\_LogicalDevice**](cim-logicaldevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: The amount of memory installed in a printer.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9e06ca1a-38e6-4cd8-acb5-a75dd4103696'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9e06ca1a-38e6-4cd8-acb5-a75dd4103696
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Print-Memory attribute AD Schema", "printMemory attribute AD Schema"]
+keywords:
+- Print-Memory attribute AD Schema
+- printMemory attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Print-Memory
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Print-Memory attribute
@@ -38,12 +43,12 @@ The amount of memory installed in a printer.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The amount of memory installed in a printer.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

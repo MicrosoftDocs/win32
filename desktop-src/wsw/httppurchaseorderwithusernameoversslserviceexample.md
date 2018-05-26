@@ -1,8 +1,16 @@
 ---
 title: HttpPurchaseOrderWithUserNameOverSslServiceExample
 description: This example shows how to use service host for hosting a PurchaseOrder service over HTTP, with username over SSL mixed-mode security.
-ms.assetid: '3dfedab1-d508-4cff-b179-591871078adb'
-keywords: ["HttpPurchaseOrderWithUserNameOverSslServiceExample Native-Web-Services", "WWSAPI", "WWS"]
+ms.assetid: 3dfedab1-d508-4cff-b179-591871078adb
+keywords:
+- HttpPurchaseOrderWithUserNameOverSslServiceExample Native-Web-Services
+- WWSAPI
+- WWS
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HttpPurchaseOrderWithUserNameOverSslServiceExample

@@ -1,8 +1,14 @@
 ---
 title: QOS Components
 description: Quality of Service (QOS) information on policy-driven, network-driven, and application-driven QOS components.
-ms.assetid: 'a8522461-1995-4ac1-8d02-4d173defbea4'
-keywords: ["Quality of Service QOS , described, components"]
+ms.assetid: a8522461-1995-4ac1-8d02-4d173defbea4
+keywords:
+- Quality of Service QOS , described, components
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # QOS Components

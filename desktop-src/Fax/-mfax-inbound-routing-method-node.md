@@ -1,7 +1,12 @@
-﻿---
-Description: 'The inbound routing method node represents an inbound fax routing method.'
-ms.assetid: 'a70fc9a3-ade9-49c7-8328-57a4bba41797'
+---
+Description: The inbound routing method node represents an inbound fax routing method.
+ms.assetid: a70fc9a3-ade9-49c7-8328-57a4bba41797
 title: Inbound Routing Method Node
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inbound Routing Method Node
@@ -28,7 +33,7 @@ If your extension snap-in configures a fax routing method from within an inbound
 Extend this node to allow an administrator to configure the behavior of a fax routing method exposed by your fax routing method extension.
 
 > [!Note]  
-> Use the [**FaxExtSetData**](-mfax-faxextsetdata.md) function to set configuration data for a specific device and GUID.
+> Use the [**FaxExtSetData**](/windows/previous-versions/FaxExt/nf-faxext-faxextsetdata?branch=master) function to set configuration data for a specific device and GUID.
 
  
 
@@ -44,7 +49,7 @@ Use the following custom clipboard formats to retrieve information related to th
 
 | Clipboard format                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CF\_MSFAXSRV\_ROUTEEXT\_NAME        | **Data format:** A null-terminated Unicode character string that contains the internal name of the fax routing extension DLL that supplies the fax routing method. This is the same string provided during registration by the *ExtensionName* parameter to the [**FaxRegisterRoutingExtension**](-mfax-faxregisterroutingextension.md) function.<br/> **Remarks:** The maximum length of the extension name string, including the terminating null character, is FAXSRV\_MAX\_ROUTEEXT\_NAME\_LEN + 1 characters.<br/>                                                                                                                                                                                                                                                               |
+| CF\_MSFAXSRV\_ROUTEEXT\_NAME        | **Data format:** A null-terminated Unicode character string that contains the internal name of the fax routing extension DLL that supplies the fax routing method. This is the same string provided during registration by the *ExtensionName* parameter to the [**FaxRegisterRoutingExtension**](/windows/previous-versions/Winfax/?branch=master) function.<br/> **Remarks:** The maximum length of the extension name string, including the terminating null character, is FAXSRV\_MAX\_ROUTEEXT\_NAME\_LEN + 1 characters.<br/>                                                                                                                                                                                                                                                               |
 | CF\_MSFAXSRV\_ROUTING\_METHOD\_GUID | **Data format:** A null-terminated Unicode character string that contains a string representation of the GUID for the fax routing method. The string has the same format as the string returned by the Microsoft Win32 function [StringFromGUID2](http://msdn.microsoft.com/en-us/library/ms683893.aspx). An example of the string is {c200e360-38c5-11ce-ae62-08002b2b79ef}.<br/> **Remarks:** The maximum length of the GUID string, including the terminating null character, is FAXSRV\_MAX\_GUID\_LEN characters.<br/>                                                                                                                                                                                                                                                            |
 | CF\_MSFAXSRV\_DEVICE\_ID            | **Data format:** A **DWORD** value that contains the device ID of the device with which the fax routing method is associated.<br/> **Remarks:** This value is the device ID generated by the fax service. This is not the device ID generated by a Telephony Application Programming Interface (TAPI) telephony service provider (TSP). You can use this device ID when you call the [Fax Extension Configuration API callback functions](-mfax-fax-extension-configuration-reference.md) if you specify the value DEV\_ID\_SRC\_FAX in the *DevIdSrc* parameter.<br/> If the device ID is equal to zero, it indicates that the inbound routing method node appears in the global routing methods catalog, and that the node is not associated with a specific fax device.<br/> |
 | CF\_MSFAXSRV\_SERVER\_NAME          | **Data format:** A **DWORD** value that contains the name of the fax server with which the fax routing method is associated. The server name is not preceded by "\\\\".<br/> **Remarks:** The maximum length of the server name string, including the terminating null character, is FAXSRV\_MAX\_SERVER\_NAME characters.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                        |

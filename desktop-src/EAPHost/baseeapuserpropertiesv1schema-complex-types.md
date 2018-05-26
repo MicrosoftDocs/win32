@@ -1,7 +1,12 @@
 ---
 title: baseeapuserpropertiesv1 Schema Complex Types
 description: Defines the following complex types.
-ms.assetid: '543e574a-ec3b-47fc-9e8b-1a057228277b'
+ms.assetid: 543e574a-ec3b-47fc-9e8b-1a057228277b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # baseeapuserpropertiesv1 Schema Complex Types

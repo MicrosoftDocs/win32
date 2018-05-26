@@ -1,7 +1,12 @@
-﻿---
-Description: 'This topic applies to Windows XP Service Pack 2 or later. The KSTOPOLOGY\_CONNECTION structure describes a node connection within a kernel-streaming (KS) filter. A node can be connected to another node within the filter, or to a pin on the filter.'
-ms.assetid: '8fca47b7-4c52-46db-809c-77a0e3414276'
-title: 'KSTOPOLOGY\_CONNECTION structure'
+---
+Description: This topic applies to Windows XP Service Pack 2 or later. The KSTOPOLOGY\_CONNECTION structure describes a node connection within a kernel-streaming (KS) filter. A node can be connected to another node within the filter, or to a pin on the filter.
+ms.assetid: 8fca47b7-4c52-46db-809c-77a0e3414276
+title: KSTOPOLOGY\_CONNECTION structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # KSTOPOLOGY\_CONNECTION structure
@@ -73,7 +78,7 @@ If the value of the **ToNode** field is KSFILTER\_NODE, this field specifies the
 [DirectShow Structures](directshow-structures.md)
 </dt> <dt>
 
-[**IKsTopologyInfo::get\_ConnectionInfo**](ikstopologyinfo-get-connectioninfo.md)
+[**IKsTopologyInfo::get\_ConnectionInfo**](/windows/win32/Vidcap/nf-vidcap-ikstopologyinfo-get_connectioninfo?branch=master)
 </dt> </dl>
 
  

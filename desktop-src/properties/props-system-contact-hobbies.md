@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the hobbies of the contact.'
-ms.assetid: '5af7cb4c-d79e-4a07-be9c-c4742f15443e'
-title: 'System.Contact.Hobbies'
+Description: Indicates the hobbies of the contact.
+ms.assetid: 5af7cb4c-d79e-4a07-be9c-c4742f15443e
+title: System.Contact.Hobbies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Hobbies

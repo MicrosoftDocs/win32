@@ -1,8 +1,9 @@
 ---
 title: D3DX\_Saturate\_FLOAT function
 description: Retrieves the saturated value of the given FLOAT.
-ms.assetid: '659df450-3535-44eb-b867-89529369f903'
-keywords: ["D3DX_Saturate_FLOAT function HLSL"]
+ms.assetid: 659df450-3535-44eb-b867-89529369f903
+keywords:
+- D3DX_Saturate_FLOAT function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - D3DX_DXGIFormatConvert.inl
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX\_Saturate\_FLOAT function
@@ -21,7 +27,7 @@ Retrieves the saturated value of the given FLOAT.
 
 ``` syntax
 FLOAT D3DX_Saturate_FLOAT(
-   FLOAT _V
+   FLOAT _V
 );
 ```
 
@@ -60,9 +66,9 @@ The saturated value.
 [Unpacking and Packing DXGI\_FORMAT for In-Place Image Editing](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

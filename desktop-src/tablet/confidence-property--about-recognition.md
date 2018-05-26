@@ -1,12 +1,17 @@
 ---
-Description: 'To obtain a level of confidence for each recognition result, you can get either the Confidence property of the RecognitionAlternate object or the Confidence property of the Gesture object.'
-ms.assetid: 'b2495c5b-6db4-401c-ab7a-6556c55bbe46'
-title: 'Confidence Property \[About Recognition\]'
+Description: To obtain a level of confidence for each recognition result, you can get either the Confidence property of the RecognitionAlternate object or the Confidence property of the Gesture object.
+ms.assetid: b2495c5b-6db4-401c-ab7a-6556c55bbe46
+title: Confidence Property \[About Recognition\]
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Confidence Property \[About Recognition\]
 
-To obtain a level of confidence for each recognition result, you can get either the [**Confidence**](iinkrecognitionalternate-confidence.md) property of the [**RecognitionAlternate**](iinkrecognitionalternate.md) object or the [**Confidence**](iinkgesture-confidence.md) property of the [**Gesture**](iinkgesture.md) object. The confidence level is a number that indicates the degree of confidence for each alternate recognition result that the recognizer returns for a corresponding recognition segment.
+To obtain a level of confidence for each recognition result, you can get either the [**Confidence**](/windows/win32/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_confidence?branch=master) property of the [**RecognitionAlternate**](/windows/win32/msinkaut/nn-msinkaut-iinkrecognitionalternate?branch=master) object or the [**Confidence**](/windows/win32/msinkaut/nf-msinkaut-iinkgesture-get_confidence?branch=master) property of the [**Gesture**](/windows/win32/msinkaut/nn-msinkaut-iinkgesture?branch=master) object. The confidence level is a number that indicates the degree of confidence for each alternate recognition result that the recognizer returns for a corresponding recognition segment.
 
 Confidence is returned as low, average, or high. The application uses these results to:
 

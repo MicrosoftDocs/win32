@@ -4,13 +4,19 @@ description: Creates a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7d493024-964f-4e64-8bb3-9585c0f698c6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 7d493024-964f-4e64-8bb3-9585c0f698c6
+ms.prod: windows-server-dev
 ms.technology:
-- 'storage-replica'
-- 'windows-management-instrumentation'
+- storage-replica
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NewSrGroup method", "NewSrGroup method, MSFT_WvrAdminTasks class", "MSFT_WvrAdminTasks class, NewSrGroup method"]
+keywords:
+- NewSrGroup method
+- NewSrGroup method, MSFT_WvrAdminTasks class
+- MSFT_WvrAdminTasks class, NewSrGroup method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NewSrGroup method of the MSFT\_WvrAdminTasks class
@@ -22,16 +28,16 @@ Creates a replication group.
 
 ```mof
 uint32 NewSrGroup(
-  [in]  string                   ComputerName,
-  [in]  string                   Description,
-  [in]  uint64                   LogSizeInBytes,
-  [in]  string                   LogVolumeName,
-  [in]  string                   Name,
-  [in]  string                   VolumeName[],
-  [in]  boolean                  EnableConsistencyGroups,
-  [in]  boolean                  EnableEncryption,
-  [in]  uint32                   MinimumPartnersInSync,
-  [out] MSFT_WvrReplicationGroup Output[]
+  [in]  string                   ComputerName,
+  [in]  string                   Description,
+  [in]  uint64                   LogSizeInBytes,
+  [in]  string                   LogVolumeName,
+  [in]  string                   Name,
+  [in]  string                   VolumeName[],
+  [in]  boolean                  EnableConsistencyGroups,
+  [in]  boolean                  EnableEncryption,
+  [in]  uint32                   MinimumPartnersInSync,
+  [out] MSFT_WvrReplicationGroup Output[]
 );
 ```
 
@@ -118,7 +124,7 @@ Returns the resulting [**MSFT\_WvrReplicationGroup**](msft-wvrreplicationgroup.m
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\StorageReplica<br/>                                       |
 | MOF<br/>                      | <dl> <dt>WVRCimProv.Mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WvrCimProv.dll</dt> </dl> |
@@ -132,9 +138,9 @@ Returns the resulting [**MSFT\_WvrReplicationGroup**](msft-wvrreplicationgroup.m
 [**MSFT\_WvrAdminTasks**](msft-wvradmintasks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

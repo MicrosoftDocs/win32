@@ -1,8 +1,16 @@
 ---
 title: Customizing Common Dialog Boxes
 description: This topic discusses how to use common dialog boxes.
-ms.assetid: '31ba9deb-32e6-455c-be0e-ff8bcc691c80'
-keywords: ["Common Dialog Box Library,customizing", "common dialog boxes,customizing", "customizing common dialog boxes"]
+ms.assetid: 31ba9deb-32e6-455c-be0e-ff8bcc691c80
+keywords:
+- Common Dialog Box Library,customizing
+- common dialog boxes,customizing
+- customizing common dialog boxes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Customizing Common Dialog Boxes
@@ -42,7 +50,7 @@ When you create a custom dialog box template by modifying the default dialog box
 
 
 
- 
+ 
 
 To enable a custom template, you must set a flag in the **Flags** member of the corresponding structure for the dialog box. If the template is a resource in an application or dynamic-link library, set an **ENABLETEMPLATE** flag in the **Flags** member, and use the **hInstance** and **lpTemplateName** members of the structure to identify the module and resource name. If the template is already in memory, set an **ENABLETEMPLATEHANDLE** flag in the **Flags** member, and use the **hInstance** member to identify the memory object that contains the template.
 
@@ -68,7 +76,7 @@ When you provide a standard hook procedure for one of the common dialog boxes, t
 
 
 
- 
+ 
 
 For the Explorer-style **Open** and **Save As** dialog boxes, the hook procedure does not receive messages intended for the standard controls in the dialog box. Instead, it receives notification messages from the dialog box and messages for any additional controls that you defined in a custom template. For more information, see [Explorer-Style Hook Procedures](open-and-save-as-dialog-boxes.md#explorer-style-hook-procedures).
 
@@ -80,7 +88,7 @@ The following table shows the type of hook procedure to provide for each of the 
 
 | Dialog box type                          | Hook procedure                                      |
 |------------------------------------------|-----------------------------------------------------|
-| **Color**                                | [*CCHookProc*](cchookproc.md)                      |
+| **Color**                                | [*CCHookProc*](/windows/win32/Commdlg/?branch=master)                      |
 | **Find** or **Replace**                  | [*FRHookProc*](frhookproc.md)                      |
 | **Font**                                 | [*CFHookProc*](cfhookproc.md)                      |
 | **Open** or **Save As** (Explorer-style) | [*OFNHookProc*](ofnhookproc.md)                    |
@@ -90,14 +98,14 @@ The following table shows the type of hook procedure to provide for each of the 
 
 
 
- 
+ 
 
 For the **Page Setup** dialog box, you can also specify a [*PagePaintHook*](pagepainthook.md) hook procedure. This is a special hook procedure that you can use to customize the appearance of the sample page displayed by the **Page Setup** dialog box.
 
 > [!Note]  
 > The **Print Setup** dialog box has been superseded by the **Page Setup** dialog box. Applications should use the **Page Setup** dialog box. However, for compatibility, the [**PrintDlg**](printdlg.md) function continues to support display of the **Print Setup** dialog box. You can provide a [*SetupHookProc*](setuphookproc.md) hook procedure for the **Print Setup** dialog box.
 
- 
+ 
 
 ## Common Dialog Messages
 
@@ -111,7 +119,7 @@ The Common Dialog Box Library defines a set of message strings. You can pass a c
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**COLOROKSTRING**](colorokstring.md) | A **Color** dialog box sends this message to the hook procedure when the user selects a color and clicks the **OK** button. The hook procedure can accept the color, or reject it and force the dialog box to remain open.                                                                                                                                                                                             |
 | [**FILEOKSTRING**](fileokstring.md)   | An **Open** or **Save As** dialog box sends this message to the hook procedure when the user selects a file name and clicks the **OK** button. The hook procedure can accept the file name, or reject it and force the dialog box to remain open. For Explorer-style **Open** and **Save As** dialog boxes, this message has been superseded by the [**CDN\_FILEOK**](cdn-fileok.md) notification message.<br/> |
-| [**FINDMSGSTRING**](findmsgstring.md) | A **Find** or **Replace** dialog box sends this message to the window procedure of its parent window when the user clicks the **Find Next**, **Replace**, or **Replace All**, or closes the dialog box. The message's *lParam* parameter is a pointer to a [**FINDREPLACE**](findreplace-str.md) structure containing the user's input.                                                                               |
+| [**FINDMSGSTRING**](findmsgstring.md) | A **Find** or **Replace** dialog box sends this message to the window procedure of its parent window when the user clicks the **Find Next**, **Replace**, or **Replace All**, or closes the dialog box. The message's *lParam* parameter is a pointer to a [**FINDREPLACE**](/windows/win32/Commdlg/ns-commdlg-tagfindreplacea?branch=master) structure containing the user's input.                                                                               |
 | [**HELPMSGSTRING**](helpmsgstring.md) | All common dialog boxes send this message to the window procedure of their parent window when the user clicks the **Help** button. For Explorer-style **Open** and **Save As** dialog boxes, this message has been superseded by the [**CDN\_HELP**](cdn-help.md) notification message.<br/>                                                                                                                    |
 | [**LBSELCHSTRING**](lbselchstring.md) | An **Open** or **Save As** dialog box sends this message to the hook procedure when the user changes the selection in the **File Name** list box. For Explorer-style **Open** and **Save As** dialog boxes, this message has been superseded by the [**CDN\_SELCHANGE**](cdn-selchange.md) notification message.<br/>                                                                                           |
 | [**SETRGBSTRING**](setrgbstring.md)   | A hook procedure can send this message to a **Color** dialog box to set the current color selection.                                                                                                                                                                                                                                                                                                                   |
@@ -119,7 +127,7 @@ The Common Dialog Box Library defines a set of message strings. You can pass a c
 
 
 
- 
+ 
 
 Some common dialog boxes send and receive other window messages. The hook procedure for a **Font** dialog box can send any of the **WM\_CHOOSEFONT\_\*** messages to the **Font** dialog box. For more information, see [Font Dialog Box](font-dialog-box.md). The **Page Setup** dialog box sends the **WM\_PSD\_\*** messages if you have enabled a [*PagePaintHook*](pagepainthook.md) hook procedure. For more information, see [Page Setup Dialog Box](page-setup-dialog-box.md).
 
@@ -152,7 +160,7 @@ If you customize a dialog box by adding new controls, you must also extend help 
 
 
 
- 
+ 
 
 You should process these messages for the controls you have added, but let the default dialog box procedure process the messages for the standard controls. For more information about how to process these messages, see [Help](_win32_Help).
 
@@ -166,9 +174,9 @@ To process help messages in a hook procedure, you should process the [**WM\_COMM
 
 Hook procedures for the Explorer-style **Open** and **Save As** dialog boxes do not receive [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591) messages for the **Help** button. Instead, the dialog box sends a [**CDN\_HELP**](cdn-help.md) notification message to the hook procedure when the **Help** button is clicked.
 
- 
+ 
 
- 
+ 
 
 
 

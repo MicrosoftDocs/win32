@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies how the Voice Capture DSP performs microphone array processing.'
-ms.assetid: '5e04fe50-d764-4497-9999-37279e156204'
-title: 'MFPKEY\_WMAAECMA\_FEATR\_MICARR\_MODE Property'
+---
+Description: Specifies how the Voice Capture DSP performs microphone array processing.
+ms.assetid: 5e04fe50-d764-4497-9999-37279e156204
+title: MFPKEY\_WMAAECMA\_FEATR\_MICARR\_MODE Property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_WMAAECMA\_FEATR\_MICARR\_MODE Property
@@ -26,7 +31,7 @@ MICARRAY\_SINGLE\_BEAM
 
 ## Remarks
 
-The value of this property is a member of the [MIC\_ARRAY\_MODE](mic-array-modeenumeration.md) enumeration. The default value is MICARRAY\_SINGLE\_BEAM. Before setting this property, you must set the [MFPKEY\_WMAAECMA\_FEATURE\_MODE](mfpkey-wmaaecma-feature-modeproperty.md) property to VARIANT\_TRUE.
+The value of this property is a member of the [MIC\_ARRAY\_MODE](/windows/win32/wmcodecdsp/ne-wmcodecdsp-mic_array_mode?branch=master) enumeration. The default value is MICARRAY\_SINGLE\_BEAM. Before setting this property, you must set the [MFPKEY\_WMAAECMA\_FEATURE\_MODE](mfpkey-wmaaecma-feature-modeproperty.md) property to VARIANT\_TRUE.
 
 The DSP uses this property only when microphone array processing is enabled.
 

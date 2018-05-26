@@ -1,7 +1,12 @@
 ---
-Description: 'The ShouldDrawSampleNow method determines if the video should be drawn without setting a timer advise link with the clock.'
-ms.assetid: '2cbefc66-0d99-4559-b210-3163cd413dbf'
-title: 'CBaseVideoRenderer.ShouldDrawSampleNow method'
+Description: The ShouldDrawSampleNow method determines if the video should be drawn without setting a timer advise link with the clock.
+ms.assetid: 2cbefc66-0d99-4559-b210-3163cd413dbf
+title: CBaseVideoRenderer.ShouldDrawSampleNow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseVideoRenderer.ShouldDrawSampleNow method
@@ -13,9 +18,9 @@ The `ShouldDrawSampleNow` method determines if the video should be drawn without
 
 ```C++
 virtual HRESULT ShouldDrawSampleNow(
-   IMediaSample   *pMediaSample,
-   REFERENCE_TIME *ptrStart,
-   REFERENCE_TIME *ptrEnd
+   IMediaSample   *pMediaSample,
+   REFERENCE_TIME *ptrStart,
+   REFERENCE_TIME *ptrEnd
 );
 ```
 
@@ -28,7 +33,7 @@ virtual HRESULT ShouldDrawSampleNow(
 *pMediaSample* 
 </dt> <dd>
 
-Pointer to the [**IMediaSample**](imediasample.md) interface for the sample.
+Pointer to the [**IMediaSample**](/windows/win32/Strmif/nn-strmif-imediasample?branch=master) interface for the sample.
 
 </dd> <dt>
 
@@ -72,9 +77,9 @@ This member function overrides [**CBaseRenderer::ShouldDrawSampleNow**](cbaseren
 [**CBaseVideoRenderer Class**](cbasevideorenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

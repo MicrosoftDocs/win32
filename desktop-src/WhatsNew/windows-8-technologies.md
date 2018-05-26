@@ -1,16 +1,21 @@
 ---
-Description: 'These are the new and updated technologies for use in desktop apps for Windows 8 and Windows 8.1.'
-ms.assetid: '1f9ea58d-61b9-4661-b983-8c5b91651122'
-title: 'Windows 8 and 8.1 Technologies'
+Description: These are the new and updated technologies for use in desktop apps for Windows 8 and Windows 8.1.
+ms.assetid: 1f9ea58d-61b9-4661-b983-8c5b91651122
+title: Windows 8 and 8.1 Technologies
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows 8 and 8.1 Technologies
 
-These are the new and updated technologies for use in desktop apps for Windows 8 and Windows 8.1:
+These are the new and updated technologies for use in desktop apps for Windows 8 and Windows 8.1:
 
 -   [New Technologies](#new-technologies)
 -   [Updated Technologies](#updated-technologies)
--   [Windows 8.1 Update API Notes](#windows-81-update-api-notes)
+-   [Windows 8.1 Update API Notes](#windows-81-update-api-notes)
 
 For an alphabetical list of functions and interfaces that are new for desktop apps, see [Windows 8 and 8.1 API List](https://msdn.microsoft.com/library/hh920511).
 
@@ -28,7 +33,7 @@ For info about Windows Store apps, see [Learn to build Windows Store apps](http:
 | Data Deduplication<br/>                | Enables backup applications to implement their own customized backup and restore methods that take advantage of the Data Deduplication feature.<br/> For more info, see [Data Deduplication API](https://msdn.microsoft.com/library/hh449204).<br/>                                             |
 | DirectComposition<br/>                 | Enables high-performance bitmap composition with transforms, effects, and animations.<br/> For more info, see [DirectComposition](https://msdn.microsoft.com/library/windows/desktop/hh437371).<br/>                                                                                                            |
 | Direct Manipulation<br/>               | Enables the user to interact with objects directly.<br/> For more info, see [Direct Manipulation](https://msdn.microsoft.com/library/windows/desktop/hh446969).<br/>                                                                                                                                  |
-| DirectXMath<br/>                       | Provides an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4).<br/> For more info, see [DirectXMath](719954bf-0d7d-f647-2d3f-a77d87df204e)<br/>                         |
+| DirectXMath<br/>                       | Provides an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3 3 and 4 4).<br/> For more info, see [DirectXMath](719954bf-0d7d-f647-2d3f-a77d87df204e)<br/>                         |
 | Help API<br/>                          | Enables the retrieval of help content items from help catalogs for use in a custom help solution or viewer.<br/> For more info, see [Help API](https://msdn.microsoft.com/library/windows/desktop/hh447318).<br/>                                                                                                            |
 | iSCSI Software Target API<br/>         | Provides a WMI interface for managing the Microsoft iSCSI Software Target.<br/> For more info, see [iSCSI Software Target API](https://msdn.microsoft.com/library/hh830439).<br/>                                                                                                        |
 | Operation Recorder<br/>                | Enables applications to speed up operations that repeatedly access the same file data.<br/> For more info, see [Operation Recorder](https://msdn.microsoft.com/library/windows/desktop/hh437575).<br/>                                                                                                                      |
@@ -43,7 +48,7 @@ For info about Windows Store apps, see [Learn to build Windows Store apps](http:
 
 
 
- 
+ 
 
 ## Updated Technologies
 
@@ -64,11 +69,11 @@ For info about Windows Store apps, see [Learn to build Windows Store apps](http:
 
 
 
- 
+ 
 
 ## Windows 8.1 Update API Notes
 
-The following API can only be used in Windows 8.1 Update and later. In order to use these API in your apps, you must \#define the following constant in your project.
+The following API can only be used in Windows 8.1 Update and later. In order to use these API in your apps, you must \#define the following constant in your project.
 
 `#define WINBLUE_KBSPRING14`
 
@@ -99,11 +104,11 @@ This macro must be defined before including the *windows.h* header file for the 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

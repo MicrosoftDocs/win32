@@ -1,6 +1,11 @@
 ---
-Description: 'The following list are recommended best practices you should use when working with file associations.'
+Description: The following list are recommended best practices you should use when working with file associations.
 title: Best Practices for File Associations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Best Practices for File Associations

@@ -4,10 +4,13 @@ description: Internet Small Computer System Interface (iSCSI) target resources h
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4E287C92-4985-43E5-B231-D41D507A6104'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 4E287C92-4985-43E5-B231-D41D507A6104
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # iSCSI Target Private Properties
@@ -23,11 +26,11 @@ Internet Small Computer System Interface (iSCSI) target [resources](resources.md
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

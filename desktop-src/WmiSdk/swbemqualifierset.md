@@ -1,13 +1,16 @@
 ---
-Description: 'An SWbemQualifierSet object is a collection of SWbemQualifier objects.'
+Description: An SWbemQualifierSet object is a collection of SWbemQualifier objects.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '7ac5469c-357b-499d-a558-30bf760c5311'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 7ac5469c-357b-499d-a558-30bf760c5311
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemQualifierSet object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # SWbemQualifierSet object
@@ -39,7 +42,7 @@ The **SWbemQualifierSet** object has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -53,7 +56,7 @@ The **SWbemQualifierSet** object has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -61,8 +64,8 @@ The **SWbemQualifierSet** object has these properties.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -78,9 +81,9 @@ The **SWbemQualifierSet** object has these properties.
 [Scripting API Objects](scripting-api-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

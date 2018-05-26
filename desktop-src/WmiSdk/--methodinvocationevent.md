@@ -1,13 +1,16 @@
 ---
-Description: 'The \_\_MethodInvocationEvent system class is defined but is not implemented.'
+Description: The \_\_MethodInvocationEvent system class is defined but is not implemented.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ea736e44-a6bc-41e5-abc5-9e21a5504f44'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ea736e44-a6bc-41e5-abc5-9e21a5504f44
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: '\_\_MethodInvocationEvent class'
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # \_\_MethodInvocationEvent class
@@ -21,12 +24,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class __MethodInvocationEvent : __InstanceOperationEvent
 {
-  string       Method;
+  string       Method;
   __Parameters Parameters;
-  boolean      PreCall;
-  uint8        SECURITY_DESCRIPTOR[];
-  object       TargetInstance;
-  uint64       TIME_CREATED;
+  boolean      PreCall;
+  uint8        SECURITY_DESCRIPTOR[];
+  object       TargetInstance;
+  uint64       TIME_CREATED;
 };
 ```
 
@@ -132,8 +135,8 @@ The **\_\_MethodInvocationEvent** class is derived from [**\_\_InstanceOperation
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 | Namespace<br/>                | All WMI namespaces<br/>  |
 
 
@@ -148,9 +151,9 @@ The **\_\_MethodInvocationEvent** class is derived from [**\_\_InstanceOperation
 [WMI System Classes](wmi-system-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: ICM\_DECOMPRESSEX\_END message
 description: The ICM\_DECOMPRESSEX\_END message notifies a video decompression driver to end decompression and free resources allocated for decompression. You can send this message explicitly or by using the ICDecompressExEnd macro.
-ms.assetid: '7ed63a4e-bb17-43a3-b593-25c4a51be942'
-keywords: ["ICM_DECOMPRESSEX_END message Windows Multimedia"]
+ms.assetid: 7ed63a4e-bb17-43a3-b593-25c4a51be942
+keywords:
+- ICM_DECOMPRESSEX_END message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICM\_DECOMPRESSEX\_END message
 
-The **ICM\_DECOMPRESSEX\_END** message notifies a video decompression driver to end decompression and free resources allocated for decompression. You can send this message explicitly or by using the [**ICDecompressExEnd**](icdecompressexend.md) macro.
+The **ICM\_DECOMPRESSEX\_END** message notifies a video decompression driver to end decompression and free resources allocated for decompression. You can send this message explicitly or by using the [**ICDecompressExEnd**](/windows/win32/Vfw/nf-vfw-icdecompressexend?branch=master) macro.
 
 
 ```C++
@@ -42,8 +48,8 @@ The driver frees any resources allocated for the [**ICM\_DECOMPRESSEX\_BEGIN**](
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ The driver frees any resources allocated for the [**ICM\_DECOMPRESSEX\_BEGIN**](
 [Video Compression Messages](video-compression-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

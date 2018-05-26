@@ -1,8 +1,15 @@
 ---
 title: C/C++ Code Example Retrieving Task Status
 description: This example retrieves the current status of the task and displays it on the screen. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: '7ad40ac7-2363-481a-87fa-18dcf2d749b3'
-keywords: ["retrieving task status Task Scheduler", "retrieving work item properties Task Scheduler , task status"]
+ms.assetid: 7ad40ac7-2363-481a-87fa-18dcf2d749b3
+keywords:
+- retrieving task status Task Scheduler
+- retrieving work item properties Task Scheduler , task status
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Retrieving Task Status

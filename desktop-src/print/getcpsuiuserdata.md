@@ -1,7 +1,12 @@
-﻿---
-Description: 'CPSUI''s GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.'
-ms.assetid: '2a0a74cd-2dcf-4485-8941-7f205dcecede'
+---
+Description: CPSUIs GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.
+ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 title: GetCPSUIUserData function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCPSUIUserData function

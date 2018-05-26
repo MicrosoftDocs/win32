@@ -1,14 +1,20 @@
 ---
 title: Submenu1Button element
 description: Specifies the location and size of the \ 0034;Submenu1 \ 0034; button. This is usually the \ 0034;Scenes \ 0034; button.
-ms.assetid: 'c64af24d-b3bd-4396-9503-0e310fddd057'
-keywords: ["Submenu1Button element Windows Movie Maker and DVD Maker"]
+ms.assetid: c64af24d-b3bd-4396-9503-0e310fddd057
+keywords:
+- Submenu1Button element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Submenu1Button
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Submenu1Button element
@@ -49,7 +55,7 @@ This button can be used only on the main menu.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -67,9 +73,9 @@ This button can be used only on the main menu.
 [**Submenu2Button Element**](submenu2button.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

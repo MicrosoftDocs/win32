@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following music properties.'
-ms.assetid: 'a1688c95-af5a-4061-80d4-61f08787d49e'
+Description: Windows Portable Devices supports the following music properties.
+ms.assetid: a1688c95-af5a-4061-80d4-61f08787d49e
 title: Music Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Music Properties
@@ -19,7 +24,7 @@ Windows Portable Devices supports the following music properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -38,9 +43,9 @@ Windows Portable Devices supports the following music properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetVideoPaletteEntries method retrieves a range of palette entries for the video.'
-ms.assetid: '7ac12e28-daa7-4d6c-9983-401971e6704d'
-title: 'CBaseControlVideo.GetVideoPaletteEntries method'
+Description: The GetVideoPaletteEntries method retrieves a range of palette entries for the video.
+ms.assetid: 7ac12e28-daa7-4d6c-9983-401971e6704d
+title: CBaseControlVideo.GetVideoPaletteEntries method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetVideoPaletteEntries method
@@ -13,10 +18,10 @@ The `GetVideoPaletteEntries` method retrieves a range of palette entries for the
 
 ```C++
 HRESULT GetVideoPaletteEntries(
-   long StartIndex,
-   long Entries,
-   long *pRetrieved,
-   long *pPalette
+   long StartIndex,
+   long Entries,
+   long *pRetrieved,
+   long *pPalette
 );
 ```
 
@@ -80,9 +85,9 @@ This member function returns the current palette of the video as an array alloca
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

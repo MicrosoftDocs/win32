@@ -1,8 +1,10 @@
 ---
 title: MDM\_Client class
-description: Identifies and describes a user-device pair. It also provides methods unenrolling the device from management and for resetting the user's password.
-ms.assetid: '0a3eb6be-c1c0-4205-b4b6-da82d1027817'
-keywords: ["MDM_Client class MDM Settings", "MDM_Client class MDM Settings , described"]
+description: Identifies and describes a user-device pair. It also provides methods unenrolling the device from management and for resetting the users password.
+ms.assetid: 0a3eb6be-c1c0-4205-b4b6-da82d1027817
+keywords:
+- MDM_Client class MDM Settings
+- MDM_Client class MDM Settings , described
 topic_type:
 - apiref
 api_name:
@@ -18,6 +20,11 @@ api_location:
 - MDMSettingsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_Client class
@@ -57,13 +64,13 @@ The **MDM\_Client** class has these methods.
 
 | Method                                                                    | Description                                                                                                                                                                                  |
 |:--------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**LockWorkstation**](https://msdn.microsoft.com/library/dn610381)         | Locks the device.<br/> **Windows 10:** This method is currently not supported in Windows 10.<br/> **Windows 8:** This method is supported beginning with Windows 8.1.<br/> |
-| [**ResetUserPassword**](https://msdn.microsoft.com/library/dn610403)     | Resets the user's password.<br/> **Windows 8:** This method is supported beginning with Windows 8.1 Update.<br/>                                                                 |
+| [**LockWorkstation**](https://msdn.microsoft.com/library/dn610381)         | Locks the device.<br/> **Windows 10:** This method is currently not supported in Windows 10.<br/> **Windows 8:** This method is supported beginning with Windows 8.1.<br/> |
+| [**ResetUserPassword**](https://msdn.microsoft.com/library/dn610403)     | Resets the user's password.<br/> **Windows 8:** This method is supported beginning with Windows 8.1 Update.<br/>                                                                 |
 | [**SendUnenrollRequest**](https://msdn.microsoft.com/library/dn610404) | Unenrolls the device.<br/>                                                                                                                                                             |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -171,7 +178,7 @@ The local operating system version in the following format: *major*.*minor*.*rev
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                           |
+| Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>MDMSettingsProv.mof</dt> </dl> |
@@ -186,9 +193,9 @@ The local operating system version in the following format: *major*.*minor*.*rev
 [Mobile Device Management Settings Classes](https://msdn.microsoft.com/library/dn610402)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

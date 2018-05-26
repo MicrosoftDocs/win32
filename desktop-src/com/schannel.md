@@ -1,7 +1,12 @@
 ---
 title: Schannel
 description: The Secure Channel (Schannel) security package, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_SCHANNEL, supports the following public-keyâ€“based protocols SSL (Secure Sockets Layer) versions 2.0 and 3.0, Transport Layer Security (TLS) 1.0, and Private Communication Technology (PCT) 1.0. TLS 1.0 is a standardized, slightly modified version of SSL 3.0 that was issued by the Internet Engineering Task Force (IETF) in January 1999, in document RFC 2246. Because TLS has been standardized, developers are encouraged to use TLS rather than SSL. PCT is included for backward compatibility only and should not be used for new development. When the Schannel security package is used, DCOM automatically negotiates the best protocol, depending on the client and server capabilities.
-ms.assetid: '03a5f987-f668-4f19-9b58-d62711f58734'
+ms.assetid: 03a5f987-f668-4f19-9b58-d62711f58734
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Schannel
@@ -68,54 +73,54 @@ The decision of whether to use a client certificate should be made in the contex
 
 TLS supports only the impersonate (RPC\_C\_IMP\_LEVEL\_IMPERSONATE) level of impersonation. If COM negotiates TLS as the authentication service on a proxy, COM will set the impersonation level to impersonate regardless of the process default. For impersonation to work properly in TLS, the client must provide an X.509 certificate to the server and the server must have that certificate mapped to a particular user account on the server. For more information, see the [Step-by-Step Guide to Mapping Certificates to User Accounts](http://go.microsoft.com/fwlink/p/?linkid=103681).
 
-TLS does not support [cloaking](cloaking.md). If a cloaking flag and TLS are specified in a [**CoInitializeSecurity**](coinitializesecurity.md) or a [**IClientSecurity::SetBlanket**](iclientsecurity-setblanket.md) call, E\_INVALIDARG will be returned.
+TLS does not support [cloaking](cloaking.md). If a cloaking flag and TLS are specified in a [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) or a [**IClientSecurity::SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master) call, E\_INVALIDARG will be returned.
 
 TLS does not work with the authentication level set to None. The handshake between the client and server examines the authentication level set by each and chooses the higher security setting for the connection.
 
-The security parameters for TLS can be set by calling [**CoInitializeSecurity**](coinitializesecurity.md) and [**CoSetProxyBlanket**](cosetproxyblanket.md). The following sections describe the nuances involved in making those calls.
+The security parameters for TLS can be set by calling [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) and [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master). The following sections describe the nuances involved in making those calls.
 
 ### How a Server Sets the Security Blanket
 
-If a server wants to use TLS, it must specify Schannel (RPC\_C\_AUTHN\_GSS\_SCHANNEL) as an authentication service in the *asAuthSvc* parameter of [**CoInitializeSecurity**](coinitializesecurity.md). To prevent clients from connecting to the server by using a less secure authentication service, the server should specify only Schannel as an authentication service when it calls **CoInitializeSecurity**. The server cannot change the security blanket after it has called **CoInitializeSecurity**.
+If a server wants to use TLS, it must specify Schannel (RPC\_C\_AUTHN\_GSS\_SCHANNEL) as an authentication service in the *asAuthSvc* parameter of [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master). To prevent clients from connecting to the server by using a less secure authentication service, the server should specify only Schannel as an authentication service when it calls **CoInitializeSecurity**. The server cannot change the security blanket after it has called **CoInitializeSecurity**.
 
-To use TLS, the following parameters should be specified when a server calls [**CoInitializeSecurity**](coinitializesecurity.md):
+To use TLS, the following parameters should be specified when a server calls [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master):
 
--   *pVoid* should be either a pointer to an [**IAccessControl**](iaccesscontrol.md) object or a pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561). It should not be **NULL** or a pointer to an AppID.
+-   *pVoid* should be either a pointer to an [**IAccessControl**](/windows/win32/IAccess/nn-iaccess-iaccesscontrol?branch=master) object or a pointer to a [**SECURITY\_DESCRIPTOR**](https://msdn.microsoft.com/library/windows/desktop/aa379561). It should not be **NULL** or a pointer to an AppID.
 -   *cAuthSvc* cannot be 0 or -1. COM servers never chooses Schannel when *cAuthSvc*is -1.
--   *asAuthSvc* must specify Schannel as a possible authentication service. This is done by setting the following [**SOLE\_AUTHENTICATION\_SERVICE**](sole-authentication-service.md) parameters for the Schannel member of the [**SOLE\_AUTHENTICATION\_LIST**](sole-authentication-list.md):
+-   *asAuthSvc* must specify Schannel as a possible authentication service. This is done by setting the following [**SOLE\_AUTHENTICATION\_SERVICE**](/windows/win32/objidlbase/ns-objidl-tagsole_authentication_service?branch=master) parameters for the Schannel member of the [**SOLE\_AUTHENTICATION\_LIST**](/windows/win32/objidlbase/ns-objidl-tagsole_authentication_list?branch=master):
     -   *dwAuthnSvc* must be RPC\_C\_AUTHN\_GSS\_SCHANNEL.
     -   *dwAuthzSvc* should be RPC\_C\_AUTHZ\_NONE. Currently, it is ignored.
     -   *pPrincipalName* must be a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to OLECHAR, which represents the server's X.509 certificate.
 -   *dwAuthnLevel* indicates the minimum authentication level that will be accepted from clients for a successful connection. It cannot be RPC\_C\_AUTHN\_LEVEL\_NONE.
--   *dwCapabilities* should not have the EOAC\_APPID flag set. The EOAC\_ACCESS\_CONTROL flag should be set if *pVoid* points to an [**IAccessControl**](iaccesscontrol.md) object; it should not be set if *pVoid* points to a SECURITY\_DESCRIPTOR. For other flags that may be set, see [**CoInitializeSecurity**](coinitializesecurity.md).
+-   *dwCapabilities* should not have the EOAC\_APPID flag set. The EOAC\_ACCESS\_CONTROL flag should be set if *pVoid* points to an [**IAccessControl**](/windows/win32/IAccess/nn-iaccess-iaccesscontrol?branch=master) object; it should not be set if *pVoid* points to a SECURITY\_DESCRIPTOR. For other flags that may be set, see [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master).
 
-For more information about using [**CoInitializeSecurity**](coinitializesecurity.md), see [Setting Processwide Security with CoInitializeSecurity](setting-processwide-security-with-coinitializesecurity.md).
+For more information about using [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master), see [Setting Processwide Security with CoInitializeSecurity](setting-processwide-security-with-coinitializesecurity.md).
 
 ### How a Client Sets the Security Blanket
 
-If a client wants to use TLS, it must specify Schannel (RPC\_C\_AUTHN\_GSS\_SCHANNEL) in its list of authentication services in the *pAuthList* parameter of [**CoInitializeSecurity**](coinitializesecurity.md). If Schannel is not specified as a possible authentication service when **CoInitializeSecurity** is called, a later call to [**CoSetProxyBlanket**](cosetproxyblanket.md) (or [**IClientSecurity::SetBlanket**](iclientsecurity-setblanket.md)) will fail if it tries to specify Schannel as the authentication service.
+If a client wants to use TLS, it must specify Schannel (RPC\_C\_AUTHN\_GSS\_SCHANNEL) in its list of authentication services in the *pAuthList* parameter of [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master). If Schannel is not specified as a possible authentication service when **CoInitializeSecurity** is called, a later call to [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master) (or [**IClientSecurity::SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master)) will fail if it tries to specify Schannel as the authentication service.
 
-The following parameters should be specified when a client calls [**CoInitializeSecurity**](coinitializesecurity.md):
+The following parameters should be specified when a client calls [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master):
 
 -   *dwAuthnLevel* specifies the default authentication level that the client wants to use. It cannot be RPC\_C\_AUTHN\_LEVEL\_NONE.
 -   *dwImpLevel* must be RPC\_C\_IMP\_LEVEL\_IMPERSONATE.
--   *pAuthList* must have the following [**SOLE\_AUTHENTICATION\_INFO**](sole-authentication-info.md) parameters as a member of the list:
+-   *pAuthList* must have the following [**SOLE\_AUTHENTICATION\_INFO**](/windows/win32/objidlbase/ns-objidl-tagsole_authentication_info?branch=master) parameters as a member of the list:
     -   *dwAuthnSvc* must be RPC\_C\_AUTHN\_GSS\_SCHANNEL.
     -   *dwAuthzSvc* must be RPC\_C\_AUTHZ\_NONE.
     -   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to void, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.
--   *dwCapabilities* is a set of flags that indicate additional client capabilities. See [**CoInitializeSecurity**](coinitializesecurity.md) for information about which flags should be set.
+-   *dwCapabilities* is a set of flags that indicate additional client capabilities. See [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master) for information about which flags should be set.
 
-For more information about using [**CoInitializeSecurity**](coinitializesecurity.md), see [Setting Processwide Security with CoInitializeSecurity](setting-processwide-security-with-coinitializesecurity.md).
+For more information about using [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master), see [Setting Processwide Security with CoInitializeSecurity](setting-processwide-security-with-coinitializesecurity.md).
 
 ### How a Client Changes the Security Blanket
 
-If a client wants to use TLS but change the security blanket after calling [**CoInitializeSecurity**](coinitializesecurity.md), it must call either [**CoSetProxyBlanket**](cosetproxyblanket.md) or [**IClientSecurity::SetBlanket**](iclientsecurity-setblanket.md) with parameters similar to those used in the call to **CoInitializeSecurity**, with the following differences:
+If a client wants to use TLS but change the security blanket after calling [**CoInitializeSecurity**](/windows/win32/combaseapi/nf-combaseapi-coinitializesecurity?branch=master), it must call either [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master) or [**IClientSecurity::SetBlanket**](/windows/win32/objidlbase/nf-objidl-iclientsecurity-setblanket?branch=master) with parameters similar to those used in the call to **CoInitializeSecurity**, with the following differences:
 
 -   *pServerPrincName* indicates the principal name of the server, in either msstd or fullsic format. For information on these formats, see [Principal Names](https://msdn.microsoft.com/library/windows/desktop/aa374385). If the client has the server's X.509 certificate, it can find the principal name by calling [**RpcCertGeneratePrincipalName**](https://msdn.microsoft.com/library/windows/desktop/aa375625).
 -   *pAuthInfo* is a pointer to a [**CERT\_CONTEXT**](https://msdn.microsoft.com/library/windows/desktop/aa377189), cast as a pointer to RPC\_AUTH\_IDENTITY\_HANDLE, which represents the client's X.509 certificate. If the client does not have a certificate or does not wish to present its certificate to the server, *pAuthInfo* must be **NULL** and an anonymous connection will be attempted with the server.
--   *dwCapabilities* consists of flags that indicate additional client capabilities. Only four flags can be used to change security blanket settings: EOAC\_DEFAULT, EOAC\_MUTUAL\_AUTH, EOAC\_ANY\_AUTHORITY (this flag is deprecated), and EOAC\_MAKE\_FULLSIC. For more information, see [**CoSetProxyBlanket**](cosetproxyblanket.md).
+-   *dwCapabilities* consists of flags that indicate additional client capabilities. Only four flags can be used to change security blanket settings: EOAC\_DEFAULT, EOAC\_MUTUAL\_AUTH, EOAC\_ANY\_AUTHORITY (this flag is deprecated), and EOAC\_MAKE\_FULLSIC. For more information, see [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master).
 
-For more information about using [**CoSetProxyBlanket**](cosetproxyblanket.md), see [Setting Security at the Interface Proxy Level](setting-security-at-the-interface-proxy-level.md).
+For more information about using [**CoSetProxyBlanket**](/windows/win32/combaseapi/nf-combaseapi-cosetproxyblanket?branch=master), see [Setting Security at the Interface Proxy Level](setting-security-at-the-interface-proxy-level.md).
 
 ### Example: Client Changes the Security Blanket
 

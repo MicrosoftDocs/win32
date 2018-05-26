@@ -1,7 +1,12 @@
 ---
-Description: 'The GetWindowHDC method retrieves a handle to the window''s device context (DC).'
-ms.assetid: '35ee2a66-ee56-44dc-ad59-fd467bb4aa63'
-title: 'CBaseWindow.GetWindowHDC method'
+Description: The GetWindowHDC method retrieves a handle to the windows device context (DC).
+ms.assetid: 35ee2a66-ee56-44dc-ad59-fd467bb4aa63
+title: CBaseWindow.GetWindowHDC method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow.GetWindowHDC method
@@ -43,9 +48,9 @@ Returns a handle to the DC.
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

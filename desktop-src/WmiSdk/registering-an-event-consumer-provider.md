@@ -1,13 +1,16 @@
 ---
-Description: 'To create a WMI event consumer provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_EventConsumerProviderRegistration.'
+Description: To create a WMI event consumer provider you must register the \_\_Win32Provider instance that represents your provider using an instance of \_\_EventConsumerProviderRegistration.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd1aa035c-f9ee-46b5-9fa5-8af77156f904'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d1aa035c-f9ee-46b5-9fa5-8af77156f904
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Registering an Event Consumer Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Registering an Event Consumer Provider
@@ -23,7 +26,7 @@ The following procedure describes how to register an event consumer provider.
 
     The properties that are defined by [**\_\_EventConsumerProviderRegistration**](--eventconsumerproviderregistration.md) include the object path to the provider and the names of the logical consumer classes that the event consumer provider supports.
 
-    Be sure to tag the class with both the **Dynamic** and [**Provider**](provider.md) qualifiers. The **Dynamic** qualifier signals that WMI should use a provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
+    Be sure to tag the class with both the **Dynamic** and [**Provider**](/windows/win32/Provider/nl-provider-provider?branch=master) qualifiers. The **Dynamic** qualifier signals that WMI should use a provider to retrieve the class instances. The **Provider** qualifier specifies the name of the provider that WMI should use.
 
 The following code example shows how to register an event consumer provider.
 

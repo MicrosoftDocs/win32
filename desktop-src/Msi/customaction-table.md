@@ -1,7 +1,12 @@
 ---
-Description: 'The CustomAction table provides the means of integrating custom code and data into the installation. The source of the code that is executed can be a stream contained within the database, a recently installed file, or an existing executable file.'
-ms.assetid: '56828105-bd72-426d-833f-f756c577c77f'
+Description: The CustomAction table provides the means of integrating custom code and data into the installation. The source of the code that is executed can be a stream contained within the database, a recently installed file, or an existing executable file.
+ms.assetid: 56828105-bd72-426d-833f-f756c577c77f
 title: CustomAction Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CustomAction Table

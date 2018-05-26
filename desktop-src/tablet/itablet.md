@@ -1,7 +1,12 @@
 ---
-Description: 'Represents a tablet attached to the computer.'
-ms.assetid: '31e11f7d-5610-4c49-9203-2dc322fbef95'
+Description: Represents a tablet attached to the computer.
+ms.assetid: 31e11f7d-5610-4c49-9203-2dc322fbef95
 title: ITablet interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet interface
@@ -23,18 +28,18 @@ The **ITablet** interface has these methods.
 | Method                                                                 | Description                                                                           |
 |:-----------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
 | [**CreateContext**](itablet-createcontext.md)                         | Creates a context object that describes the specified tablet device.<br/>       |
-| [**GetCursor**](itablet-getcursor.md)                                 | Retrieves the specified [**ITabletCursor**](itabletcursor.md) object.<br/>     |
+| [**GetCursor**](/windows/win32/winuser/?branch=master)                                 | Retrieves the specified [**ITabletCursor**](itabletcursor.md) object.<br/>     |
 | [**GetCursorCount**](itablet-getcursorcount.md)                       | Retrieves the number of cursor objects associated with the tablet.<br/>         |
 | [**GetDefaultContextSettings**](itablet-getdefaultcontextsettings.md) | Retrieves the default context settings for the tablet.<br/>                     |
 | [**GetHardwareCaps**](itablet-gethardwarecaps.md)                     | Retrieves a value that represents the capabilities of the tablet hardware.<br/> |
 | [**GetMaxInputRect**](itablet-getmaxinputrect.md)                     | Retrieves a rectangle that represents maximum input area of the tablet.<br/>    |
 | [**GetName**](itablet-getname.md)                                     | Retrieves a string containing the name of the tablet device.<br/>               |
 | [**GetPlugAndPlayId**](itablet-getplugandplayid.md)                   | Retrieves a string containing the Plug and Play ID for the tablet device.<br/>  |
-| [**GetPropertyMetrics**](itablet-getpropertymetrics.md)               | Retrieves the metrics data for a specified property.<br/>                       |
+| [**GetPropertyMetrics**](/windows/win32/msinkaut/?branch=master)               | Retrieves the metrics data for a specified property.<br/>                       |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -95,15 +100,15 @@ interface ITablet : IUnknown
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

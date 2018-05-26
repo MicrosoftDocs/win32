@@ -1,7 +1,12 @@
 ---
 title: Legal Information
 description: Legal Information
-ms.assetid: '116025d2-840f-4498-9f8e-52e510373ed8'
+ms.assetid: 116025d2-840f-4498-9f8e-52e510373ed8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Legal Information

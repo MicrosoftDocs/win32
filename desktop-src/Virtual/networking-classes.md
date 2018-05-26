@@ -1,7 +1,12 @@
 ---
 title: Networking Classes
 description: The networking architecture for virtualization models the physical networking architecture. It uses standard networking objects such as switches, switch ports, and network adapters.
-ms.assetid: 'da194bee-fb0d-4ef8-ab25-733a381d42e0'
+ms.assetid: da194bee-fb0d-4ef8-ab25-733a381d42e0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Networking Classes
@@ -44,7 +49,7 @@ The following are virtualization WMI classes related to networking.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -53,9 +58,9 @@ The following are virtualization WMI classes related to networking.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

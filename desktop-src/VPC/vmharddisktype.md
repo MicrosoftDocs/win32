@@ -1,8 +1,9 @@
 ---
 title: VMHardDiskType enumeration
 description: Specifies the hard disk image type.
-ms.assetid: '14480bad-523a-40d8-a6ba-9ec31fe4b217'
-keywords: ["VMHardDiskType enumeration Virtual PC"]
+ms.assetid: 14480bad-523a-40d8-a6ba-9ec31fe4b217
+keywords:
+- VMHardDiskType enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VMHardDiskType enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the hard disk image type.
 
@@ -24,9 +30,9 @@ Specifies the hard disk image type.
 
 ```C++
 typedef enum  { 
-  vmDiskType_Dynamic       = 0,
-  vmDiskType_FixedSize     = 1,
-  vmDiskType_Differencing  = 2
+  vmDiskType_Dynamic       = 0,
+  vmDiskType_FixedSize     = 1,
+  vmDiskType_Differencing  = 2
 } VMHardDiskType;
 ```
 
@@ -63,9 +69,9 @@ A differencing hard disk image.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -78,9 +84,9 @@ A differencing hard disk image.
 [**IVMHardDisk**](ivmharddisk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

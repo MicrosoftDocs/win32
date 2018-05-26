@@ -4,11 +4,16 @@ description: Windows Remote Management is one component of the Windows Hardware 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f58add53-0746-4423-9ab8-02ba05f82fa7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: f58add53-0746-4423-9ab8-02ba05f82fa7
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
-keywords: ["About Windows Remote Management", "Windows Remote Management, about"]
+keywords:
+- About Windows Remote Management
+- Windows Remote Management, about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About Windows Remote Management

@@ -1,15 +1,18 @@
 ---
-Description: 'Modifies the start mode of a Win32\_Service.'
+Description: Modifies the start mode of a Win32\_Service.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '4fd6a1eb-d2e0-4172-843d-24ae89c5bfcf'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 4fd6a1eb-d2e0-4172-843d-24ae89c5bfcf
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ChangeStartMode method of the Win32\_Service class'
+title: ChangeStartMode method of the Win32\_Service class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeStartMode method of the Win32\_Service class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ChangeStartMode(
-  [in] string StartMode = Auto Start
+  [in] string StartMode = Auto Start
 );
 ```
 
@@ -329,7 +332,7 @@ The service is currently paused in the system.
 **Other**
 </dt> <dd>
 
-25–4294967295
+25 4294967295
 
 </dd> </dl>
 
@@ -356,8 +359,8 @@ ELSE
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -377,9 +380,9 @@ ELSE
 [WMI Tasks: Services](https://msdn.microsoft.com/library/aa394602)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

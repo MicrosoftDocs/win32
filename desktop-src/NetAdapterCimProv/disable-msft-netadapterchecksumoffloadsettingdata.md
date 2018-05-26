@@ -1,7 +1,12 @@
 ---
-Description: 'Disables the TCPIP checksum offload properties on the network adapter.'
-ms.assetid: '5b766937-6c37-4873-9de8-0fc29d969f67'
-title: 'Disable method of the MSFT\_NetAdapterChecksumOffloadSettingData class'
+Description: Disables the TCPIP checksum offload properties on the network adapter.
+ms.assetid: 5b766937-6c37-4873-9de8-0fc29d969f67
+title: Disable method of the MSFT\_NetAdapterChecksumOffloadSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Disable method of the MSFT\_NetAdapterChecksumOffloadSettingData class
@@ -13,13 +18,13 @@ Disables the TCPIP checksum offload properties on the network adapter.
 
 ```mof
 uint32 Disable(
-  [in]  boolean IpIPv4,
-  [in]  boolean TcpIPv4,
-  [in]  boolean TcpIPv6,
-  [in]  boolean UdpIPv4,
-  [in]  boolean UdpIPv6,
-  [in]  uint32  RxTxControl,
-  [out] string  cmdletOutput
+  [in]  boolean IpIPv4,
+  [in]  boolean TcpIPv4,
+  [in]  boolean TcpIPv6,
+  [in]  boolean UdpIPv4,
+  [in]  boolean UdpIPv6,
+  [in]  uint32  RxTxControl,
+  [out] string  cmdletOutput
 );
 ```
 
@@ -85,7 +90,7 @@ An embedded instance of the [**MSFT\_NetAdapterChecksumOffloadSettingData**](msf
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
@@ -99,9 +104,9 @@ An embedded instance of the [**MSFT\_NetAdapterChecksumOffloadSettingData**](msf
 [**MSFT\_NetAdapterChecksumOffloadSettingData**](msft-netadapterchecksumoffloadsettingdata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

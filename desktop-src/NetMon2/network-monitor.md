@@ -1,7 +1,12 @@
 ---
-Description: 'Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods and extract data from defined protocol parsers.'
-ms.assetid: 'f2c18faa-0010-4d26-b7e9-e8a7b5d11981'
+Description: Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods and extract data from defined protocol parsers.
+ms.assetid: f2c18faa-0010-4d26-b7e9-e8a7b5d11981
 title: Network Monitor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Network Monitor
@@ -16,14 +21,14 @@ All API sets provided by Network Monitor can be accessed using C/C++. Those deve
 
 ## Run-time requirements
 
-To call from the Network Monitor API, you must be running on Windows NT Server 4.0, Windows 2000 Server, or Windows Server 2003, or have Microsoft Systems Management Server installed.
+To call from the Network Monitor API, you must be running on Windows NT Server 4.0, Windows 2000 Server, or Windows Server 2003, or have Microsoft Systems Management Server installed.
 
-The NPP driver and supported features include all versions of Windows NT 4.0 and Windows 2000 Server.
+The NPP driver and supported features include all versions of Windows NT 4.0 and Windows 2000 Server.
 
 > [!Note]  
-> Network Monitor 2.1 and earlier are not supported on Windows Vista and later.
+> Network Monitor 2.1 and earlier are not supported on Windows Vista and later.
 
- 
+ 
 
 ## In this section
 
@@ -39,11 +44,11 @@ The NPP driver and supported features include all versions of Windows NT 4.0 and
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

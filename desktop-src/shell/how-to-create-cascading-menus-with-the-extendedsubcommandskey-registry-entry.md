@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows 7 and later, you can use the ExtendedSubCommandsKey subkey to create extended cascading menus.'
-ms.assetid: '6E8B4FB7-D4DB-4DBC-AF6F-59D02CB6AB13'
+Description: In Windows 7 and later, you can use the ExtendedSubCommandsKey subkey to create extended cascading menus.
+ms.assetid: 6E8B4FB7-D4DB-4DBC-AF6F-59D02CB6AB13
 title: How to Create Cascading Menus with the ExtendedSubCommandsKey Registry Entry
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Cascading Menus with the ExtendedSubCommandsKey Registry Entry
@@ -48,7 +53,7 @@ Ensure that the default value of the *Test Cascade Menu 2* subkey is empty, and 
 
 ### Step 3:
 
-Populate the subverbs using any of the following static verb implementations. Note that the CommandFlags subkey represents EXPCMDFLAGS values. If you want to add a separator before or after the cascade menu item, use ECF\_SEPARATORBEFORE (0x20) or ECF\_SEPARATORAFTER (0x40). For a description of these Windows 7 and later flags, see [**IExplorerCommand::GetFlags**](iexplorercommand-getflags.md). ECF\_SEPARATORBEFORE works only for the top level menu items. MUIVerb is of type **REG\_SZ**, and CommandFlags is of type **REG\_DWORD**.
+Populate the subverbs using any of the following static verb implementations. Note that the CommandFlags subkey represents EXPCMDFLAGS values. If you want to add a separator before or after the cascade menu item, use ECF\_SEPARATORBEFORE (0x20) or ECF\_SEPARATORAFTER (0x40). For a description of these Windows 7 and later flags, see [**IExplorerCommand::GetFlags**](/windows/win32/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags?branch=master). ECF\_SEPARATORBEFORE works only for the top level menu items. MUIVerb is of type **REG\_SZ**, and CommandFlags is of type **REG\_DWORD**.
 
 ```
 HKEY_CLASSES_ROOT

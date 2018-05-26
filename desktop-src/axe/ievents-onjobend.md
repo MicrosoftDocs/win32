@@ -1,8 +1,11 @@
 ---
 title: IJobEndEventHandler OnJobEnd method
 description: The AXE Core raises this event when the job has ended.
-ms.assetid: '366B5997-7D07-47A2-BBED-A8358E9A23FE'
-keywords: ["OnJobEnd method Access Execution Engine", "OnJobEnd method Access Execution Engine , IJobEndEventHandler interface", "IJobEndEventHandler interface Access Execution Engine , OnJobEnd method"]
+ms.assetid: 366B5997-7D07-47A2-BBED-A8358E9A23FE
+keywords:
+- OnJobEnd method Access Execution Engine
+- OnJobEnd method Access Execution Engine , IJobEndEventHandler interface
+- IJobEndEventHandler interface Access Execution Engine , OnJobEnd method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IJobEndEventHandler::OnJobEnd method
@@ -22,8 +30,8 @@ The AXE Core raises this event when the job has ended. This event is raised when
 
 ```C++
 virtual void OnJobEnd(
-         Engine          *sender,
-   const JobEndEventArgs *e
+         Engine          *sender,
+   const JobEndEventArgs *e
 ) = 0;
 ```
 
@@ -61,8 +69,8 @@ Managed code uses the [**JobEndEventHandler**](axe-jobendeventhandler_om) delega
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeHosting.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -78,9 +86,9 @@ Managed code uses the [**JobEndEventHandler**](axe-jobendeventhandler_om) delega
 [**JobEndEventArgs**](jobendeventargs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

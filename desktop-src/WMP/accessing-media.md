@@ -1,8 +1,33 @@
 ---
 title: Accessing Media
 description: Accessing Media
-ms.assetid: '18ea844d-98c9-4168-9af2-161dda52f6bd'
-keywords: ["Windows Media metafile playlists,accessing media", "playlists,accessing media", "metafile playlists,accessing media", "Windows Media metafile playlists,media access", "playlists,media access", "metafile playlists,media access", "Windows Media metafile playlists,controlling playback", "playlists,controlling playback", "metafile playlists,controlling playback", "Windows Media metafile playlists,setting duration", "playlists,setting duration", "metafile playlists,setting duration", "Windows Media Player,accessing media", "Windows Media Player,media access", "Windows Media Player,controlling playback", "Windows Media Player,setting duration", "accessing media", "media access", "controlling playback", "setting duration"]
+ms.assetid: 18ea844d-98c9-4168-9af2-161dda52f6bd
+keywords:
+- Windows Media metafile playlists,accessing media
+- playlists,accessing media
+- metafile playlists,accessing media
+- Windows Media metafile playlists,media access
+- playlists,media access
+- metafile playlists,media access
+- Windows Media metafile playlists,controlling playback
+- playlists,controlling playback
+- metafile playlists,controlling playback
+- Windows Media metafile playlists,setting duration
+- playlists,setting duration
+- metafile playlists,setting duration
+- Windows Media Player,accessing media
+- Windows Media Player,media access
+- Windows Media Player,controlling playback
+- Windows Media Player,setting duration
+- accessing media
+- media access
+- controlling playback
+- setting duration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessing Media

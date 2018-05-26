@@ -1,7 +1,12 @@
 ---
-Description: 'In COM+, every COM object is created with an associated context.'
-ms.assetid: 'e5602af2-5852-4c34-a792-6742e90b7d41'
+Description: In COM+, every COM object is created with an associated context.
+ms.assetid: e5602af2-5852-4c34-a792-6742e90b7d41
 title: Context Activation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Context Activation
@@ -38,7 +43,7 @@ Default contexts exist to support unconfigured components—that is, COM compone
 
 ## Hooking Activation
 
-By implementing [**IObjectControl::Activate**](iobjectcontrol-activate.md) and [**IObjectControl::Deactivate**](iobjectcontrol-deactivate.md), you can hook activation and deactivation together to perform special initialization in the new context. These methods are called by COM+ at certain points in an object's lifecycle, when the object is configured to use JIT-activation or object pooling. See [COM+ Just-in-Time Activation](com--just-in-time-activation.md) and [COM+ Object Pooling](com--object-pooling.md) for more detail.
+By implementing [**IObjectControl::Activate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-activate?branch=master) and [**IObjectControl::Deactivate**](/windows/win32/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate?branch=master), you can hook activation and deactivation together to perform special initialization in the new context. These methods are called by COM+ at certain points in an object's lifecycle, when the object is configured to use JIT-activation or object pooling. See [COM+ Just-in-Time Activation](com--just-in-time-activation.md) and [COM+ Object Pooling](com--object-pooling.md) for more detail.
 
 ## Related topics
 

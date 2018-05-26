@@ -1,7 +1,12 @@
 ---
-Description: 'Address Windowing Extensions (AWE) is a set of extensions that allows an application to quickly manipulate physical memory greater than 4GB.'
-ms.assetid: '48a29922-8130-4540-86b0-0faa120566a6'
+Description: Address Windowing Extensions (AWE) is a set of extensions that allows an application to quickly manipulate physical memory greater than 4GB.
+ms.assetid: 48a29922-8130-4540-86b0-0faa120566a6
 title: Address Windowing Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Address Windowing Extensions
@@ -13,7 +18,7 @@ AWE solves this problem by allowing applications to directly address huge amount
 AWE places a few restrictions on how this memory may be used, primarily because these restrictions allow extremely fast mapping, remapping, and freeing. Fast memory management is important for these potentially enormous address spaces.
 
 -   Virtual address ranges allocated for the AWE are not sharable with other processes (and therefore not inheritable). In fact, two different AWE virtual addresses within the same process are not allowed to map the same physical page. These restrictions provide fast remapping and cleanup when memory is freed.
--   The physical pages that can be allocated for an AWE region are limited by the number of physical pages present in the machine, since this memory is never paged – it is locked down until the application explicitly frees it or exits. The physical pages allocated for a given process can be mapped into any AWE virtual region within the same process. Applications that use AWE must be careful not to take so much physical memory that they cause other applications to page excessively or prevent creation of new processes or threads due to lack of resources. Use the [**GlobalMemoryStatusEx**](globalmemorystatusex.md) function to monitor physical memory use.
+-   The physical pages that can be allocated for an AWE region are limited by the number of physical pages present in the machine, since this memory is never paged – it is locked down until the application explicitly frees it or exits. The physical pages allocated for a given process can be mapped into any AWE virtual region within the same process. Applications that use AWE must be careful not to take so much physical memory that they cause other applications to page excessively or prevent creation of new processes or threads due to lack of resources. Use the [**GlobalMemoryStatusEx**](/windows/win32/WinBase/?branch=master) function to monitor physical memory use.
 -   AWE virtual addresses are always read/write and cannot be protected via calls to [**VirtualProtect**](virtualprotect.md) (that is, no read-only memory, noaccess memory, guard pages, and the like can be specified).
 -   AWE address ranges cannot be used to buffer data for graphics or video calls.
 -   An AWE memory range cannot be split, nor can pieces of it be deleted. Instead, the entire virtual address range must be deleted as a unit when deletion is required. This means you must specify **MEM\_RELEASE** when calling [**VirtualFree**](virtualfree.md).
@@ -37,7 +42,7 @@ The following functions make up the Address Windowing Extensions (AWE) API.
 | [**VirtualAlloc**](virtualalloc.md) and [**VirtualAllocEx**](virtualallocex.md) | Reserve a portion of virtual address space to use for AWE, using **MEM\_PHYSICAL**.                                                                                                                                                                       |
 | [**AllocateUserPhysicalPages**](allocateuserphysicalpages.md)                    | Allocate physical memory for use with AWE.                                                                                                                                                                                                                |
 | [**MapUserPhysicalPages**](mapuserphysicalpages.md)                              | Map (or invalidate) AWE virtual addresses onto any set of physical pages obtained with [**AllocateUserPhysicalPages**](allocateuserphysicalpages.md).                                                                                                    |
-| [**MapUserPhysicalPagesScatter**](mapuserphysicalpagesscatter.md)                | Map (or invalidate) AWE virtual addresses onto any set of physical pages obtained with [**AllocateUserPhysicalPages**](allocateuserphysicalpages.md), but with finer control than that provided by [**MapUserPhysicalPages**](mapuserphysicalpages.md). |
+| [**MapUserPhysicalPagesScatter**](/windows/win32/WinBase/nf-winbase-mapuserphysicalpagesscatter?branch=master)                | Map (or invalidate) AWE virtual addresses onto any set of physical pages obtained with [**AllocateUserPhysicalPages**](allocateuserphysicalpages.md), but with finer control than that provided by [**MapUserPhysicalPages**](mapuserphysicalpages.md). |
 | [**FreeUserPhysicalPages**](freeuserphysicalpages.md)                            | Free physical memory that was used for AWE.                                                                                                                                                                                                               |
 
 

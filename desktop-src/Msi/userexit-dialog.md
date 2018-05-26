@@ -1,7 +1,12 @@
 ---
-Description: 'This modal dialog box displays at the end of an installation that was ended by the user.'
-ms.assetid: 'a0c2106d-62d7-48db-890a-7fe836aeb574'
+Description: This modal dialog box displays at the end of an installation that was ended by the user.
+ms.assetid: a0c2106d-62d7-48db-890a-7fe836aeb574
 title: UserExit Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UserExit Dialog

@@ -1,8 +1,9 @@
 ---
 title: DTM\_SETMCSTYLE message
 description: Sets the style of a date and time picker (DTP) control. Send this message explicitly or by using the DateTime\_SetMonthCalStyle macro.
-ms.assetid: '6b480a1e-c76e-4026-ab2a-5ec53df6fa28'
-keywords: ["DTM_SETMCSTYLE message Windows Controls"]
+ms.assetid: 6b480a1e-c76e-4026-ab2a-5ec53df6fa28
+keywords:
+- DTM_SETMCSTYLE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DTM\_SETMCSTYLE message
 
-Sets the style of a date and time picker (DTP) control. Send this message explicitly or by using the [**DateTime\_SetMonthCalStyle**](datetime-setmonthcalstyle.md) macro.
+Sets the style of a date and time picker (DTP) control. Send this message explicitly or by using the [**DateTime\_SetMonthCalStyle**](/windows/win32/Commctrl/nf-commctrl-datetime_setmonthcalstyle?branch=master) macro.
 
 ## Parameters
 
@@ -41,15 +47,15 @@ Returns the value of the previous style.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

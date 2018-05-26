@@ -4,11 +4,14 @@ description: Number of properties in the ClusProperties collection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6988a8c6-b1ef-4dba-b95c-eab52f140fb3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 6988a8c6-b1ef-4dba-b95c-eab52f140fb3
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Count property Failover Cluster", "Count property Failover Cluster , ClusProperties collection", "ClusProperties collection Failover Cluster , Count property"]
+keywords:
+- Count property Failover Cluster
+- Count property Failover Cluster , ClusProperties collection
+- ClusProperties collection Failover Cluster , Count property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusProperties.Count property
@@ -47,7 +53,7 @@ ClusProperties.Count
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -63,9 +69,9 @@ ClusProperties.Count
 [**ClusProperties**](clusproperties-collection.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

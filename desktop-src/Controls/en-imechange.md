@@ -1,8 +1,9 @@
 ---
 title: EN\_IMECHANGE notification code
-description: Notifies a rich edit control's parent that the IME conversion status has changed.
-ms.assetid: '2893e4ef-5904-4a57-95c5-3f6cfbb60d90'
-keywords: ["EN_IMECHANGE notification code Windows Controls"]
+description: Notifies a rich edit controls parent that the IME conversion status has changed.
+ms.assetid: 2893e4ef-5904-4a57-95c5-3f6cfbb60d90
+keywords:
+- EN_IMECHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EN\_IMECHANGE notification code
@@ -56,7 +62,7 @@ To receive EN\_IMECHANGE notification codes, specify [**ENM\_IMECHANGE**](rich-e
 > [!Note]  
 > This notification code is only supported in the Asian version of Rich Edit 1.0. It is not supported in later versions. For information about the compatibility of rich edit versions with the various system versions, see [About Rich Edit Controls](about-rich-edit-controls.md).
 
- 
+ 
 
 ## Requirements
 
@@ -64,8 +70,8 @@ To receive EN\_IMECHANGE notification codes, specify [**ENM\_IMECHANGE**](rich-e
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
 
@@ -86,9 +92,9 @@ To receive EN\_IMECHANGE notification codes, specify [**ENM\_IMECHANGE**](rich-e
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

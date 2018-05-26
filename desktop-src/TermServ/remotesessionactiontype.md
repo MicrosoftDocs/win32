@@ -4,11 +4,12 @@ description: Used to specify the type of remote action.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'C0DA0FA2-6FE0-4B40-B169-4592A1BE2AD6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: C0DA0FA2-6FE0-4B40-B169-4592A1BE2AD6
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["RemoteSessionActionType enumeration Remote Desktop Services"]
+keywords:
+- RemoteSessionActionType enumeration Remote Desktop Services
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - LibDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
 ---
 
 # RemoteSessionActionType enumeration
@@ -28,12 +32,12 @@ Used to specify the type of remote action.
 
 ```C++
 typedef enum _RemoteSessionActionType { 
-  RemoteSessionActionCharms        = 0,
-  RemoteSessionActionAppbar        = 1,
-  RemoteSessionActionSnap          = 2,
-  RemoteSessionActionStartScreen   = 3,
-  RemoteSessionActionAppSwitch     = 4,
-  RemoteSessionActionActionCenter  = 4
+  RemoteSessionActionCharms        = 0,
+  RemoteSessionActionAppbar        = 1,
+  RemoteSessionActionSnap          = 2,
+  RemoteSessionActionStartScreen   = 3,
+  RemoteSessionActionAppSwitch     = 4,
+  RemoteSessionActionActionCenter  = 4
 } RemoteSessionActionType;
 ```
 
@@ -83,7 +87,7 @@ Causes the application switch window to be displayed in the remote session. This
 
 Causes the Action Center to be displayed in the remote session. This is the same as the user pressing Win+A.
 
-**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This value is not supported before Windows Server 2016 and Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 and Windows 8:** This value is not supported before Windows Server 2016 and Windows 10.
 
 </dd> </dl>
 
@@ -93,8 +97,8 @@ Causes the Action Center to be displayed in the remote session. This is the same
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported client<br/> | Windows 8<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 
 
@@ -106,9 +110,9 @@ Causes the Action Center to be displayed in the remote session. This is the same
 [**IMsRdpClient8::SendRemoteAction**](imsrdpclient8-sendremoteaction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

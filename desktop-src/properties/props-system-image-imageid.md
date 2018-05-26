@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'd664906d-534c-4fbe-9c73-f9153fd60efd'
-title: 'System.Image.ImageID'
+Description: .
+ms.assetid: d664906d-534c-4fbe-9c73-f9153fd60efd
+title: System.Image.ImageID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Image.ImageID

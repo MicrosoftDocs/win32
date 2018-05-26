@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the number of children the contact has.'
-ms.assetid: '44d260a1-ad42-4822-ab4d-205f6999e5aa'
-title: 'System.Contact.Children'
+Description: Indicates the number of children the contact has.
+ms.assetid: 44d260a1-ad42-4822-ab4d-205f6999e5aa
+title: System.Contact.Children
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Children

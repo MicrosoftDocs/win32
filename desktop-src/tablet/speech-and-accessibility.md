@@ -1,7 +1,12 @@
 ---
-Description: 'For applications to be accessible, information about screen content must be exposed by using the voice-recognition utilities.'
-ms.assetid: '6fc4116b-1516-49e2-acad-da376d2efa50'
+Description: For applications to be accessible, information about screen content must be exposed by using the voice-recognition utilities.
+ms.assetid: 6fc4116b-1516-49e2-acad-da376d2efa50
 title: Speech and Accessibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Speech and Accessibility

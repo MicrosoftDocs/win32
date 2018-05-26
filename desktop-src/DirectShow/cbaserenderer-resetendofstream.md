@@ -1,7 +1,12 @@
 ---
-Description: 'The ResetEndOfStream method resets the end-of-stream flags.'
-ms.assetid: '80f6d49b-a825-4c3c-b693-7b1d9298f541'
-title: 'CBaseRenderer.ResetEndOfStream method'
+Description: The ResetEndOfStream method resets the end-of-stream flags.
+ms.assetid: 80f6d49b-a825-4c3c-b693-7b1d9298f541
+title: CBaseRenderer.ResetEndOfStream method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.ResetEndOfStream method
@@ -47,9 +52,9 @@ This method clears the previous end-of-stream condition. At that point, the filt
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

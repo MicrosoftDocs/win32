@@ -1,8 +1,22 @@
 ---
 title: Script Streams in DirectShow
 description: Script Streams in DirectShow
-ms.assetid: 'ad467897-1d25-4bb0-a0ec-84560fe7063b'
-keywords: ["Windows Media Format SDK,DirectShow", "Windows Media Format SDK,script streams", "Advanced Systems Format (ASF),DirectShow", "ASF (Advanced Systems Format),DirectShow", "Advanced Systems Format (ASF),script streams", "ASF (Advanced Systems Format),script streams", "DirectShow,script streams", "script streams,DirectShow", "streams,script streams in DirectShow"]
+ms.assetid: ad467897-1d25-4bb0-a0ec-84560fe7063b
+keywords:
+- Windows Media Format SDK,DirectShow
+- Windows Media Format SDK,script streams
+- Advanced Systems Format (ASF),DirectShow
+- ASF (Advanced Systems Format),DirectShow
+- Advanced Systems Format (ASF),script streams
+- ASF (Advanced Systems Format),script streams
+- DirectShow,script streams
+- script streams,DirectShow
+- streams,script streams in DirectShow
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Script Streams in DirectShow

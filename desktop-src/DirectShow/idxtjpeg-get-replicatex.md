@@ -1,7 +1,12 @@
-﻿---
-Description: 'The get\_ReplicateX method retrieves the number of times the wipe pattern is replicated horizontally.'
-ms.assetid: '669a3bde-af8b-4d31-b914-41b71c95de1c'
-title: 'IDxtJpeg::get\_ReplicateX method'
+---
+Description: The get\_ReplicateX method retrieves the number of times the wipe pattern is replicated horizontally.
+ms.assetid: 669a3bde-af8b-4d31-b914-41b71c95de1c
+title: IDxtJpegget\_ReplicateX method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtJpeg::get\_ReplicateX method

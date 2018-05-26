@@ -1,7 +1,12 @@
-﻿---
-Description: 'The EffectsEnabled method determines whether effects are enabled. If effects are disabled, they remain in the timeline but are not rendered.'
-ms.assetid: 'fd8bb2aa-9c10-4a85-9e9d-1b342fbce03b'
-title: 'IAMTimeline::EffectsEnabled method'
+---
+Description: The EffectsEnabled method determines whether effects are enabled. If effects are disabled, they remain in the timeline but are not rendered.
+ms.assetid: fd8bb2aa-9c10-4a85-9e9d-1b342fbce03b
+title: IAMTimelineEffectsEnabled method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimeline::EffectsEnabled method

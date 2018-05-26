@@ -1,15 +1,18 @@
 ---
-Description: 'Represents a collection of protocol endpoints that are of the same class type and can communicate with each other. In addition, CIM\_ConnectivityCollection can contain systems, users, and managed elements that are related to the protocol endpoints.'
+Description: Represents a collection of protocol endpoints that are of the same class type and can communicate with each other. In addition, CIM\_ConnectivityCollection can contain systems, users, and managed elements that are related to the protocol endpoints.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a70a1d00-3c27-41ca-a35f-962e13f3a661'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a70a1d00-3c27-41ca-a35f-962e13f3a661
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_ConnectivityCollection class'
+title: CIM\_ConnectivityCollection class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_ConnectivityCollection class
@@ -186,16 +189,16 @@ This property is inherited from [**CIM\_SystemSpecificCollection**](cim-systemsp
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

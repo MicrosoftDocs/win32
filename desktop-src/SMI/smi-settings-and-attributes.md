@@ -1,7 +1,12 @@
 ---
 title: SMI Attributes
 description: Lists the values and descriptions of various attributes that apply to settings.
-ms.assetid: '7aed83af-c18d-4ea9-a903-811e90beb1b3'
+ms.assetid: 7aed83af-c18d-4ea9-a903-811e90beb1b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMI Attributes
@@ -43,11 +48,11 @@ The following table lists the values and descriptions of various attributes that
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: ICatalogReadWriteLock interface
 description: Catalog lock state object, holds catalog lock and all info about catalog lock
-ms.assetid: 'ff9ebc61-7385-49b6-a7eb-2c8b27c18ee5'
-keywords: ["ICatalogReadWriteLock interface HelpAPI", "ICatalogReadWriteLock interface HelpAPI , described"]
+ms.assetid: ff9ebc61-7385-49b6-a7eb-2c8b27c18ee5
+keywords:
+- ICatalogReadWriteLock interface HelpAPI
+- ICatalogReadWriteLock interface HelpAPI , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICatalogReadWriteLock interface
@@ -41,7 +48,7 @@ The **ICatalogReadWriteLock** interface has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -56,7 +63,7 @@ The **ICatalogReadWriteLock** interface has these properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -64,15 +71,15 @@ The **ICatalogReadWriteLock** interface has these properties.
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,12 +1,17 @@
 ---
-Description: 'To map the data from a file to the virtual memory of a process, you must create a view of the file.'
-ms.assetid: 'b1ebd9a4-cde4-4c0c-80d2-5ccb655cd3a4'
+Description: To map the data from a file to the virtual memory of a process, you must create a view of the file.
+ms.assetid: b1ebd9a4-cde4-4c0c-80d2-5ccb655cd3a4
 title: Creating a File View
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a File View
 
-To map the data from a file to the virtual memory of a process, you must create a view of the file. The [**MapViewOfFile**](mapviewoffile.md) and [**MapViewOfFileEx**](mapviewoffileex.md) functions use the file mapping object handle returned by [**CreateFileMapping**](createfilemapping.md) to create a view of the file or a portion of the file in the process's virtual address space. These functions fail if the access flags conflict with those specified when **CreateFileMapping** created the file mapping object.
+To map the data from a file to the virtual memory of a process, you must create a view of the file. The [**MapViewOfFile**](mapviewoffile.md) and [**MapViewOfFileEx**](mapviewoffileex.md) functions use the file mapping object handle returned by [**CreateFileMapping**](/windows/win32/WinBase/nf-winbase-createfilemappinga?branch=master) to create a view of the file or a portion of the file in the process's virtual address space. These functions fail if the access flags conflict with those specified when **CreateFileMapping** created the file mapping object.
 
 The [**MapViewOfFile**](mapviewoffile.md) function returns a pointer to the file view. By dereferencing a pointer in the range of addresses specified in **MapViewOfFile**, an application can read data from the file and write data to the file. Writing to the file view results in changes to the file mapping object. The actual writing to the file on disk is handled by the system. Data is not actually transferred at the time the file mapping object is written to. Instead, much of the file input and output (I/O) is cached to improve general system performance. Applications can override this behavior by calling the [**FlushViewOfFile**](flushviewoffile.md) function to force the system to perform disk transactions immediately.
 

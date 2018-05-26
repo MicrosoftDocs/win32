@@ -1,8 +1,9 @@
 ---
 title: HDN\_ENDDRAG notification code
 description: Sent by a header control when a drag operation has ended on one of its items. This notification code is sent as a WM\_NOTIFY message. Only header controls that are set to the HDS\_DRAGDROP style send this notification code.
-ms.assetid: 'a28df985-73f1-4fc7-a1db-81a86a131c06'
-keywords: ["HDN_ENDDRAG notification code Windows Controls"]
+ms.assetid: a28df985-73f1-4fc7-a1db-81a86a131c06
+keywords:
+- HDN_ENDDRAG notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDN\_ENDDRAG notification code
@@ -33,7 +39,7 @@ HDN_ENDDRAG
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMHEADER**](nmheader.md) structure containing information about the header item that was being dragged.
+A pointer to an [**NMHEADER**](/windows/win32/Commctrl/ns-commctrl-tagnmheadera?branch=master) structure containing information about the header item that was being dragged.
 
 </dd> </dl>
 
@@ -51,15 +57,15 @@ If the owner is performing external (manual) drag-and-drop management, it must r
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

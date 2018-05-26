@@ -1,7 +1,12 @@
 ---
-Description: 'Color mixing lets an application create new colors by combining the pen or brush color with colors in the existing image.'
-ms.assetid: '4a5dff8c-f75f-41d2-8367-33d97d4fd010'
+Description: Color mixing lets an application create new colors by combining the pen or brush color with colors in the existing image.
+ms.assetid: 4a5dff8c-f75f-41d2-8367-33d97d4fd010
 title: Color Mixing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Mixing
@@ -12,7 +17,7 @@ The foreground mix mode, sometimes called the binary raster operation, determine
 
 Color mixing is subject to color approximation. If the result of color mixing is a color that the device cannot generate, the system approximates the result, using a color it can generate. If an application mixes dithered colors, the individual colors used to create the dithered color are mixed, and the results are subject to color approximation.
 
-An application sets the foreground mix mode by using the [**SetROP2**](setrop2.md) function and retrieves the current mode by using the [**GetROP2**](getrop2.md) function.
+An application sets the foreground mix mode by using the [**SetROP2**](/windows/win32/Wingdi/nf-wingdi-setrop2?branch=master) function and retrieves the current mode by using the [**GetROP2**](/windows/win32/Wingdi/nf-wingdi-getrop2?branch=master) function.
 
 Although there is a background mix mode, that mode does not control the mixing of colors. Instead, it specifies whether a background color is used when drawing styled lines, hatched brushes, and text.
 

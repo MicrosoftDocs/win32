@@ -4,11 +4,12 @@ description: The property methods of the IADsADSystemInfo interface get or set t
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '1cdaa610-4341-4825-b2f9-dd495a9147ff'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 1cdaa610-4341-4825-b2f9-dd495a9147ff
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsADSystemInfo Property Methods ADSI"]
+keywords:
+- IADsADSystemInfo Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -35,11 +36,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsADSystemInfo Property Methods
 
-The property methods of the [**IADsADSystemInfo**](iadsadsysteminfo.md) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsADSystemInfo**](/windows/win32/Iads/nn-iads-iadsadsysteminfo?branch=master) interface get or set the properties described in the following table. For more information, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -270,7 +274,7 @@ HRESULT get_UserName(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -365,8 +369,8 @@ Response.Write "PDC Role Owner: " & sys.PDCRoleOwner
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID\_IADsADSystemInfo is defined as 5BB11929-AFD1-11D2-9CB9-0000F87A369E<br/>     |
@@ -377,15 +381,15 @@ Response.Write "PDC Role Owner: " & sys.PDCRoleOwner
 
 <dl> <dt>
 
-[**IADsADSystemInfo**](iadsadsysteminfo.md)
+[**IADsADSystemInfo**](/windows/win32/Iads/nn-iads-iadsadsysteminfo?branch=master)
 </dt> <dt>
 
 [**CoCreateInstance**](_com_cocreateinstance)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

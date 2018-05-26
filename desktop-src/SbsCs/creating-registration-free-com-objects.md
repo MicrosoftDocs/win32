@@ -1,7 +1,12 @@
 ---
-Description: 'Activation contexts enable COM objects to be used without requiring that they be registered.'
-ms.assetid: 'e6ec7b8b-8032-4dff-8f96-07ae3ffc286d'
-title: 'Creating Registration-Free COM Objects'
+Description: Activation contexts enable COM objects to be used without requiring that they be registered.
+ms.assetid: e6ec7b8b-8032-4dff-8f96-07ae3ffc286d
+title: Creating Registration-Free COM Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating Registration-Free COM Objects

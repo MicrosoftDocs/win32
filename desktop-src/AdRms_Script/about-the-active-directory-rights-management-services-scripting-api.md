@@ -1,13 +1,16 @@
 ---
-Description: 'You can administer an AD RMS installation by using the Microsoft Management Console (MMC) or by using the scripting API.'
+Description: You can administer an AD RMS installation by using the Microsoft Management Console (MMC) or by using the scripting API.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '45f68b1c-48e9-4b5f-b47c-6e8f2b09f76a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 45f68b1c-48e9-4b5f-b47c-6e8f2b09f76a
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: About the Active Directory Rights Management Services Scripting API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # About the Active Directory Rights Management Services Scripting API

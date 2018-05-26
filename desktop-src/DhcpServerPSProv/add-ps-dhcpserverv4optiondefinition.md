@@ -4,13 +4,16 @@ description: Adds a new DHCPv4 option definition on the server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac036dc8-4e83-4f48-b7cb-c5ecc3f1ae2b'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac036dc8-4e83-4f48-b7cb-c5ecc3f1ae2b
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DhcpServerv4OptionDefinition class", "PS_DhcpServerv4OptionDefinition class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DhcpServerv4OptionDefinition class
+- PS_DhcpServerv4OptionDefinition class, Add method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DhcpServerv4OptionDefinition class
@@ -30,16 +36,16 @@ Adds a new DHCPv4 option definition on the server.
 
 ```mof
 uint32 Add(
-  [in]  string                       ComputerName,
-  [in]  string                       Name,
-  [in]  string                       Description,
-  [in]  uint32                       OptionId,
-  [in]  string                       Type,
-  [in]  boolean                      MultiValued,
-  [in]  string                       VendorClass,
-  [in]  string                       DefaultValue[],
-  [in]  boolean                      PassThru,
-  [out] DhcpServerv4OptionDefinition cmdletOutput
+  [in]  string                       ComputerName,
+  [in]  string                       Name,
+  [in]  string                       Description,
+  [in]  uint32                       OptionId,
+  [in]  string                       Type,
+  [in]  boolean                      MultiValued,
+  [in]  string                       VendorClass,
+  [in]  string                       DefaultValue[],
+  [in]  boolean                      PassThru,
+  [out] DhcpServerv4OptionDefinition cmdletOutput
 );
 ```
 
@@ -182,7 +188,7 @@ An embedded instance of the [**DhcpServerv4OptionDefinition**](dhcpserverv4optio
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -196,9 +202,9 @@ An embedded instance of the [**DhcpServerv4OptionDefinition**](dhcpserverv4optio
 [**PS\_DhcpServerv4OptionDefinition**](ps-dhcpserverv4optiondefinition.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

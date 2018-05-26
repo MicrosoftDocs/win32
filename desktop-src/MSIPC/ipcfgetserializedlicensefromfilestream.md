@@ -4,11 +4,12 @@ description: Gets the license associated with a file stream.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '3F3D35D8-773C-4C5F-99D0-DC63BACD486C'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 3F3D35D8-773C-4C5F-99D0-DC63BACD486C
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["IpcfGetSerializedLicenseFromFileStream function Active Directory Rights Management Services SDK 2.0"]
+keywords:
+- IpcfGetSerializedLicenseFromFileStream function Active Directory Rights Management Services SDK 2.0
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Msipc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IpcfGetSerializedLicenseFromFileStream function
@@ -28,9 +32,9 @@ Gets the license associated with a file stream.
 
 ```C++
 HRESULT WINAPI IpcfGetSerializedLicenseFromFileStream(
-  _In_  ILockBytes  *pInputFileStream,
-  _In_  LPCWSTR     wszInputFilePath,
-  _Out_ PIPC_BUFFER *ppvLicense
+  _In_  ILockBytes  *pInputFileStream,
+  _In_  LPCWSTR     wszInputFilePath,
+  _Out_ PIPC_BUFFER *ppvLicense
 );
 ```
 
@@ -69,11 +73,11 @@ A pointer to a variable that receives a pointer to a buffer that holds the licen
 
 If the function succeeds, the return value is **S\_OK**. If the function fails, it returns an **HRESULT** value that indicates the error.
 
-For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
+For more information, see [**Error codes**](error-codes.md) for a description of all RMS SDK 2.1 return values.
 
 ## Remarks
 
-For supporting information on using the File API part of RMS SDK 2.1 see, [Supported File Formats](supported-file-formats.md), [File API configuration](file-api-configuration.md) and [Setting the API security](setting-the-api-security-mode--api-mode-.md) mode in the [AD RMS developer notes](developer-notes.md) topic.
+For supporting information on using the File API part of RMS SDK 2.1 see, [Supported File Formats](supported-file-formats.md), [File API configuration](file-api-configuration.md) and [Setting the API security](setting-the-api-security-mode--api-mode-.md) mode in the [AD RMS developer notes](developer-notes.md) topic.
 
 ## Requirements
 
@@ -81,8 +85,8 @@ For supporting information on using the File API part of RMS SDK 2.1 see, [Suppo
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
+| Minimum supported client<br/> | Windows Vista with SP2<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                         |
 | Header<br/>                   | <dl> <dt>Ipcfile.h (include Msipc.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Msipc.lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Msipc.dll</dt> </dl>                   |
@@ -114,9 +118,9 @@ For supporting information on using the File API part of RMS SDK 2.1 see, [Suppo
 [**Error codes**](error-codes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

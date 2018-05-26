@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sent to a window after its size has changed.'
-ms.assetid: 'e3e14dcd-9236-48bd-a692-6985d8146f81'
-title: 'WM\_SIZE message'
+---
+Description: Sent to a window after its size has changed.
+ms.assetid: e3e14dcd-9236-48bd-a692-6985d8146f81
+title: WM\_SIZE message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_SIZE message
@@ -82,10 +87,10 @@ Although the width and height of a window are 32-bit values, the *lParam* parame
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](hiword.md)
+[**HIWORD**](/windows/win32/Windef/nf-ntintsafe-hiword?branch=master)
 </dt> <dt>
 
-[**LOWORD**](loword.md)
+[**LOWORD**](/windows/win32/Windef/nf-ntintsafe-loword?branch=master)
 </dt> <dt>
 
 [**MoveWindow**](movewindow.md)

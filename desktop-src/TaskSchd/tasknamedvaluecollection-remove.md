@@ -1,8 +1,11 @@
 ---
 title: TaskNamedValueCollection.Remove method
 description: For scripting, removes a selected name-value pair from the collection.
-ms.assetid: '7c73fb37-5551-497f-86d9-b7158109ca38'
-keywords: ["Remove method Task Scheduler", "Remove method Task Scheduler , TaskNamedValueCollection object", "TaskNamedValueCollection object Task Scheduler , Remove method"]
+ms.assetid: 7c73fb37-5551-497f-86d9-b7158109ca38
+keywords:
+- Remove method Task Scheduler
+- Remove method Task Scheduler , TaskNamedValueCollection object
+- TaskNamedValueCollection object Task Scheduler , Remove method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskNamedValueCollection.Remove method
@@ -49,16 +57,16 @@ This method does not return a value.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

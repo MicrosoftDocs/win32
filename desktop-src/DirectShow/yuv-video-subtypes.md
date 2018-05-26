@@ -1,7 +1,12 @@
-﻿---
-Description: 'YUV formats are categorized according to the following information:'
-ms.assetid: '452f017c-81ce-4be4-9962-4b9c1a9ce849'
+---
+Description: YUV formats are categorized according to the following information
+ms.assetid: 452f017c-81ce-4be4-9962-4b9c1a9ce849
 title: YUV Video Subtypes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # YUV Video Subtypes

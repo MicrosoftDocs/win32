@@ -1,14 +1,20 @@
 ---
 title: EapMethodType Complex Type
 description: Defines the elements that uniquely identify a single EAP method Type, VendorId, VendorType, and AuthorId.
-ms.assetid: '3ef96187-7376-438d-9d47-a87d5a6c9b8b'
-keywords: ["EapMethodType complex type EAPHost"]
+ms.assetid: 3ef96187-7376-438d-9d47-a87d5a6c9b8b
+keywords:
+- EapMethodType complex type EAPHost
 topic_type:
 - apiref
 api_name:
 - EapMethodType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EapMethodType Complex Type
@@ -65,8 +71,8 @@ The [**AuthorId**](eapcommonschema-authorid-eapmethodtype-element.md), [**Type**
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -80,9 +86,9 @@ The [**AuthorId**](eapcommonschema-authorid-eapmethodtype-element.md), [**Type**
 [eapcommon Schema](eapcommonschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,12 @@ description: The property methods of the IADsServiceOperations interface read an
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ebddfc42-1d2f-495b-b57c-f57419b54ff8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: ebddfc42-1d2f-495b-b57c-f57419b54ff8
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsServiceOperations Property Methods ADSI"]
+keywords:
+- IADsServiceOperations Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -19,11 +20,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsServiceOperations Property Methods
 
-The property methods of the [**IADsServiceOperations**](iadsserviceoperations.md) interface read and write the properties described in the following list. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsServiceOperations**](/windows/win32/Iads/nn-iads-iadsserviceoperations?branch=master) interface read and write the properties described in the following list. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -203,7 +207,7 @@ HRESULT get_Status(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -294,8 +298,8 @@ Cleanup:
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>        |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>  |
 | IID<br/>                      | IID\_IADsServiceOperations is defined as 5D7B33F0-31CA-11CF-A98A-00AA006BC149<br/> |
@@ -306,21 +310,21 @@ Cleanup:
 
 <dl> <dt>
 
-[**IADsFileService**](iadsfileservice.md)
+[**IADsFileService**](/windows/win32/Iads/nn-iads-iadsfileservice?branch=master)
 </dt> <dt>
 
-[**IADsFileServiceOperations**](iadsfileserviceoperations.md)
+[**IADsFileServiceOperations**](/windows/win32/Iads/nn-iads-iadsfileserviceoperations?branch=master)
 </dt> <dt>
 
-[**IADsService**](iadsservice.md)
+[**IADsService**](/windows/win32/Iads/nn-iads-iadsservice?branch=master)
 </dt> <dt>
 
-[**IADsServiceOperations**](iadsserviceoperations.md)
+[**IADsServiceOperations**](/windows/win32/Iads/nn-iads-iadsserviceoperations?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

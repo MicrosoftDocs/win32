@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMDECN4 structure exposes the following operators.'
-ms.assetid: '573b102f-5e8a-49d0-a62d-6735a385118e'
+---
+Description: The XMDECN4 structure exposes the following operators.
+ms.assetid: 573b102f-5e8a-49d0-a62d-6735a385118e
 title: XMDECN4 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMDECN4 Operators
 
-The [**XMDECN4**](xmdecn4.md) structure exposes the following operators.
+The [**XMDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmdecn4?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -19,7 +24,7 @@ The [**XMDECN4**](xmdecn4.md) structure exposes the following operators.
 
 | Methods                                                            | Description                                                                                                           |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [**operator uint32\_t**](xmdecn4-operator-uint32-t.md)<br/> | Returns an instance of `uint32_t` containing the components of the `XMDECN4` instance in a packed format. <br/> |
+| [**operator uint32\_t**](/windows/win32/DirectXPackedVector/?branch=master)<br/> | Returns an instance of `uint32_t` containing the components of the `XMDECN4` instance in a packed format. <br/> |
 | [**operator =**](xmdecn4-operator-eq.md)<br/>               | Assigns vector component data to the current instance of `XMDECN4`. <br/>                                       |
 
 
@@ -36,7 +41,7 @@ The [**XMDECN4**](xmdecn4.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMDECN4**](xmdecn4.md)
+[**XMDECN4**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmdecn4?branch=master)
 </dt> </dl>
 
  

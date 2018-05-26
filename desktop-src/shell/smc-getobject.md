@@ -1,6 +1,11 @@
-﻿---
-Description: 'Requests a pointer to a specified object.'
-title: 'SMC\_GETOBJECT message'
+---
+Description: Requests a pointer to a specified object.
+title: SMC\_GETOBJECT message
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SMC\_GETOBJECT message
@@ -41,13 +46,13 @@ Return S\_OK.
 
 ## Remarks
 
-This notification is received by the [**IShellMenuCallback::CallbackSM**](ishellmenucallback-callbacksm.md) method. Create the requested object and assign a pointer to the requested interface to *pv*.
+This notification is received by the [**IShellMenuCallback::CallbackSM**](/windows/win32/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm?branch=master) method. Create the requested object and assign a pointer to the requested interface to *pv*.
 
 The following interfaces may be requested.
 
--   [**IShellMenu**](ishellmenu.md)
--   [**IContextMenu**](icontextmenu.md)
--   [**IShellMenuCallback**](ishellmenucallback.md)
+-   [**IShellMenu**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellmenu?branch=master)
+-   [**IContextMenu**](/windows/win32/Shobjidl/nn-shobjidl_core-icontextmenu?branch=master)
+-   [**IShellMenuCallback**](/windows/win32/shobjidl_core/nn-shobjidl_core-ishellmenucallback?branch=master)
 -   [**IDropTarget**](com.idroptarget)
 
 ## Requirements

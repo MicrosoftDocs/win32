@@ -1,8 +1,9 @@
 ---
 title: External.appColorButtonShadow (Type 1)
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '82eb6814-9b63-465a-ad40-95760f0ca762'
-keywords: ["External.appColorButtonShadow (Type 1) Windows Media Player"]
+ms.assetid: 82eb6814-9b63-465a-ad40-95760f0ca762
+keywords:
+- External.appColorButtonShadow (Type 1) Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.appColorButtonShadow (Type 1)
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **appColorButtonShadow** property retrieves the current button shadow color for the Windows Media Player user interface.
 
@@ -53,9 +59,9 @@ Users can change the color of the Windows Media Player user interface. You can u
 [**External Object for Type 1 Online Stores**](external-object-for-type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

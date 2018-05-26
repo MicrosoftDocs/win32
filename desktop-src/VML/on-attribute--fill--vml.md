@@ -1,7 +1,12 @@
 ---
 title: On Attribute (Fill)(VML)
 description: On Attribute (Fill)(VML)
-ms.assetid: '9b7d42e5-4fd9-402d-8d1f-af01f6577475'
+ms.assetid: 9b7d42e5-4fd9-402d-8d1f-af01f6577475
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On Attribute (Fill)(VML)

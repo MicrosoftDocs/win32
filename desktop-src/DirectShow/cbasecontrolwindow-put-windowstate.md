@@ -1,7 +1,12 @@
 ---
-Description: 'The put\_WindowState method sets the window state.'
-ms.assetid: '0d22fa84-17bc-4228-b86e-d31857156802'
-title: 'CBaseControlWindow.put\_WindowState method'
+Description: The put\_WindowState method sets the window state.
+ms.assetid: 0d22fa84-17bc-4228-b86e-d31857156802
+title: CBaseControlWindow.put\_WindowState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.put\_WindowState method
@@ -13,7 +18,7 @@ The `put_WindowState` method sets the window state.
 
 ```C++
 HRESULT put_WindowState(
-   long WindowState
+   long WindowState
 );
 ```
 
@@ -56,9 +61,9 @@ This member function takes the same parameters as the Microsoft Win32 **ShowWind
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

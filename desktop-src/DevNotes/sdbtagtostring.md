@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the display name of the specified TAG.'
-ms.assetid: 'e382d443-aab2-476c-90dd-7ab38e737f52'
+---
+Description: Retrieves the display name of the specified TAG.
+ms.assetid: e382d443-aab2-476c-90dd-7ab38e737f52
 title: SdbTagToString function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SdbTagToString function

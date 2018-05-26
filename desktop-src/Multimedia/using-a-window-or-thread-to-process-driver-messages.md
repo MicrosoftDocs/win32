@@ -1,8 +1,22 @@
 ---
 title: Using a Window or Thread to Process Driver Messages
 description: Using a Window or Thread to Process Driver Messages
-ms.assetid: '7a9eaaa1-d3b0-400e-8fbf-ee5fe59efc32'
-keywords: ["waveform audio,window callback", "audio data blocks,window callback", "waveform audio,thread callback", "audio data blocks,thread callback", "waveform audio,processing driver messages", "audio data blocks,processing driver messages", "processing driver messages", "waveInOpen function", "waveOutOpen function"]
+ms.assetid: 7a9eaaa1-d3b0-400e-8fbf-ee5fe59efc32
+keywords:
+- waveform audio,window callback
+- audio data blocks,window callback
+- waveform audio,thread callback
+- audio data blocks,thread callback
+- waveform audio,processing driver messages
+- audio data blocks,processing driver messages
+- processing driver messages
+- waveInOpen function
+- waveOutOpen function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using a Window or Thread to Process Driver Messages

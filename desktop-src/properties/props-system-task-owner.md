@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'c7461513-fdec-4fa0-8fdf-134ce2282248'
-title: 'System.Task.Owner'
+Description: .
+ms.assetid: c7461513-fdec-4fa0-8fdf-134ce2282248
+title: System.Task.Owner
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Task.Owner

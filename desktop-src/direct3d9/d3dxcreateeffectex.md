@@ -1,7 +1,12 @@
-﻿---
-Description: 'Creates an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffect that allows an application to control which parameters are ignored by the effects system.'
-ms.assetid: 'b08f727e-6061-4e78-8243-08c4ccab342d'
+---
+Description: Creates an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffect that allows an application to control which parameters are ignored by the effects system.
+ms.assetid: b08f727e-6061-4e78-8243-08c4ccab342d
 title: D3DXCreateEffectEx function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCreateEffectEx function
@@ -35,9 +40,9 @@ HRESULT D3DXCreateEffectEx(
 *pDevice* \[in\]
 </dt> <dd>
 
-Type: **[**LPDIRECT3DDEVICE9**](idirect3ddevice9.md)**
+Type: **[**LPDIRECT3DDEVICE9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master)**
 
-Pointer to the device that will create the effect. See [**IDirect3DDevice9**](idirect3ddevice9.md).
+Pointer to the device that will create the effect. See [**IDirect3DDevice9**](/windows/win32/d3d9helper/nn-d3d9-idirect3ddevice9?branch=master).
 
 </dd> <dt>
 

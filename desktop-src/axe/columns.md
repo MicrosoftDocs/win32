@@ -1,14 +1,20 @@
 ---
 title: Columns element
 description: A collection of the most important metrics gathered by the assessment.
-ms.assetid: '7BDE6928-1E16-4192-A1AE-0B741F862519'
-keywords: ["Columns element Access Execution Engine"]
+ms.assetid: 7BDE6928-1E16-4192-A1AE-0B741F862519
+keywords:
+- Columns element Access Execution Engine
 topic_type:
 - apiref
 api_name:
 - Columns
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Columns element
@@ -70,9 +76,9 @@ Column
 [AXE Assessment Manifest](axeassessmentmanifest.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

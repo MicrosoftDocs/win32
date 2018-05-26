@@ -1,8 +1,17 @@
 ---
 title: Porting GLX Pixmap Code
 description: Porting GLX Pixmap Code
-ms.assetid: '5b87d26d-b3ea-4f90-9456-d3f7da462948'
-keywords: ["pixmaps", "OpenGL on Windows,pixmaps", "porting to OpenGL,pixmaps", "OpenGL porting,pixmaps"]
+ms.assetid: 5b87d26d-b3ea-4f90-9456-d3f7da462948
+keywords:
+- pixmaps
+- OpenGL on Windows,pixmaps
+- porting to OpenGL,pixmaps
+- OpenGL porting,pixmaps
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Porting GLX Pixmap Code
@@ -24,11 +33,11 @@ The following table lists the GLX pixmap functions and their equivalent Windows 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

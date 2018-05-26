@@ -1,7 +1,12 @@
 ---
-Description: 'In Windows 7, high-level platform APIs that use Core Audio APIs, such as Media Foundation, DirectSound, and Wave APIs, implement the stream routing feature by handling stream switching from an existing device to a new default audio endpoint.'
-ms.assetid: 'ecda0b5b-6583-43b4-a9b4-f12a95f09452'
+Description: In Windows 7, high-level platform APIs that use Core Audio APIs, such as Media Foundation, DirectSound, and Wave APIs, implement the stream routing feature by handling stream switching from an existing device to a new default audio endpoint.
+ms.assetid: ecda0b5b-6583-43b4-a9b4-f12a95f09452
 title: Stream Routing Implementation Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stream Routing Implementation Considerations
@@ -10,9 +15,9 @@ In Windows 7, high-level platform APIs that use Core Audio APIs, such as Media 
 
 Direct WASAPI clients (media applications that use WASAPI directly) receive new device and audio session notifications sent by Core Audio components. The behavior of the stream routing feature is defined by how the application handles these notifications.
 
-MMDevice API and the audio session send notifications about device state changes and session changes to WASAPI clients in the form of callbacks. To get these notifications, the client must register its implementation of [**IMMNotificationClient**](immnotificationclient.md) and [**IAudioSessionEvents**](iaudiosessionevents.md). For more information, see [Relevant Notifications for Stream Routing](relevant-device-notifications-for-stream-routing.md).
+MMDevice API and the audio session send notifications about device state changes and session changes to WASAPI clients in the form of callbacks. To get these notifications, the client must register its implementation of [**IMMNotificationClient**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master) and [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master). For more information, see [Relevant Notifications for Stream Routing](relevant-device-notifications-for-stream-routing.md).
 
-In the USB headset scenario described in [Stream Routing](stream-routing.md), an application is playing an audio stream and uses MMDeviceAPI and WASAPI to render the stream on the default rendering device, **Speaker**. When the default device is changed, the application receives an [**IMMNotificationClient**](immnotificationclient.md) notification. The application also receives [**IAudioSessionEvents**](iaudiosessionevents.md) notifications indicating that the user removed the audio endpoint device or that the stream format changed for the device that the audio session is connected to. Upon receiving the notifications, the application stops streaming to the speaker endpoint and reopens the stream for rendering on the current default endpoint, the headset.
+In the USB headset scenario described in [Stream Routing](stream-routing.md), an application is playing an audio stream and uses MMDeviceAPI and WASAPI to render the stream on the default rendering device, **Speaker**. When the default device is changed, the application receives an [**IMMNotificationClient**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master) notification. The application also receives [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) notifications indicating that the user removed the audio endpoint device or that the stream format changed for the device that the audio session is connected to. Upon receiving the notifications, the application stops streaming to the speaker endpoint and reopens the stream for rendering on the current default endpoint, the headset.
 
 ![diagram of data flow for device notifications.](images/stream-routing.gif)
 
@@ -22,9 +27,9 @@ In response to such notifications, the client might reopen the stream on the new
 
 The following list summarizes the steps that a WASAPI client must perform to provide the stream switching functionality.
 
-1.  Wait for the relevant [**IMMNotificationClient**](immnotificationclient.md) notification. If the device is the default device, the [**IMMNotificationClient::OnDefaultDeviceChanged**](immnotificationclient-ondefaultdevicechanged.md) notification is received.
-2.  If a new device is available, get a reference to the endpoint of the new device. Call [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md) for the new default device. If the new device is not the default device, you can retrieve the device by calling [**IMMDeviceEnumerator::GetDevice**](immdeviceenumerator-getdevice.md). For more information, see [Getting the Device Endpoint for Stream Routing](getting-the-default-device-endpoint-for-stream-routing.md).
-3.  Wait for the [**IAudioSessionEvents::OnSessionDisconnected**](iaudiosessionevents-onsessiondisconnected.md) with the reason value.
+1.  Wait for the relevant [**IMMNotificationClient**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master) notification. If the device is the default device, the [**IMMNotificationClient::OnDefaultDeviceChanged**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged?branch=master) notification is received.
+2.  If a new device is available, get a reference to the endpoint of the new device. Call [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master) for the new default device. If the new device is not the default device, you can retrieve the device by calling [**IMMDeviceEnumerator::GetDevice**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice?branch=master). For more information, see [Getting the Device Endpoint for Stream Routing](getting-the-default-device-endpoint-for-stream-routing.md).
+3.  Wait for the [**IAudioSessionEvents::OnSessionDisconnected**](/windows/win32/Audiopolicy/nf-audiopolicy-iaudiosessionevents-onsessiondisconnected?branch=master) with the reason value.
     > [!Note]  
     > Because all of these operations are asychronous, the order in which the application receives device-change and session-disconnect notifications cannnot be predicted. The application must implement notification handling to receive these notifications in any order. However, typically, the application receives **AudioSessionDisconnect** value before the default device change notification.
 
@@ -41,7 +46,7 @@ To make the stream switching operation appear seamless, it must be done as quick
 
 ## Position Mapping Considerations
 
-When the application gets [**IMMNotificationClient**](immnotificationclient.md) and [**IAudioSessionEvents**](iaudiosessionevents.md) notifications, it can route the existing streams to the new default device. When an existing audio stream is interrupted and opened on the new device, rendering on the new device must start at the position at which the stream was stopped on the old device. To do this, the application must have the last known device position, to calculate the start position on the new device. For example, this position can be used as the delta offset for subsequent position mapping. When the stream starts rendering, the new device position can be remapped to the cached device position.
+When the application gets [**IMMNotificationClient**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immnotificationclient?branch=master) and [**IAudioSessionEvents**](/windows/win32/Audiopolicy/nn-audiopolicy-iaudiosessionevents?branch=master) notifications, it can route the existing streams to the new default device. When an existing audio stream is interrupted and opened on the new device, rendering on the new device must start at the position at which the stream was stopped on the old device. To do this, the application must have the last known device position, to calculate the start position on the new device. For example, this position can be used as the delta offset for subsequent position mapping. When the stream starts rendering, the new device position can be remapped to the cached device position.
 
 The following steps summarize the process of making a seamless stream transition.
 
@@ -53,7 +58,7 @@ The following steps summarize the process of making a seamless stream transition
 
 During the transition, the application must ensure that the clock does not get out of synchronization, resulting in out-of-sync audio and video streams. This can occur if the video samples continue to render while the audio stream is routed to the new device. The application must cache the clock position for the remapping calculation and make sure that the video samples are not rendered until the audio stream is reopened on the new device, so that when the clip resumes rendering, the audio and the video streams are synchronized. In some cases, where the presentation time for rendering the video frames is based on the audio clock, it is sufficient to stop the audio stream until stream switching is complete and no other position mapping implementation for the video stream is necessary for audio video synchronization.
 
-If while rendering, [**IAudioRenderClient::GetBuffer**](iaudiorenderclient-getbuffer.md) returns an error because the old device is lost, the application need not stop the old stream because the streaming operation has already terminated. For information about handling this error, see [Recovering from an Invalid-Device Error](recovering-from-an-invalid-device-error.md).
+If while rendering, [**IAudioRenderClient::GetBuffer**](/windows/win32/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer?branch=master) returns an error because the old device is lost, the application need not stop the old stream because the streaming operation has already terminated. For information about handling this error, see [Recovering from an Invalid-Device Error](recovering-from-an-invalid-device-error.md).
 
 ## Related topics
 

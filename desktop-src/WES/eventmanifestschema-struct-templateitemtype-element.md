@@ -1,14 +1,20 @@
 ---
 title: struct (TemplateItemType) Element
 description: Defines a structure that includes one or more data items that you want to include with the event.
-ms.assetid: '3da56e9b-70da-4b58-9261-76f24a6f3377'
-keywords: ["struct element EventLog"]
+ms.assetid: 3da56e9b-70da-4b58-9261-76f24a6f3377
+keywords:
+- struct element EventLog
 topic_type:
 - apiref
 api_name:
 - struct
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # struct (TemplateItemType) Element
@@ -29,8 +35,8 @@ The **struct** element is defined by the [**TemplateItemType**](eventmanifestsch
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **struct** element is defined by the [**TemplateItemType**](eventmanifestsch
 [**template (TemplateListType)**](eventmanifestschema-template-templatelisttype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

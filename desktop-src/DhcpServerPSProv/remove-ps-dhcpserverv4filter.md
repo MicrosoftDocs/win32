@@ -4,13 +4,16 @@ description: Deletes the specified MAC address or MAC address pattern from allow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '800d61a7-85d8-4cfb-ba90-9613d69140b1'
-ms.prod: 'windows-server-dev'
+ms.assetid: 800d61a7-85d8-4cfb-ba90-9613d69140b1
+ms.prod: windows-server-dev
 ms.technology:
-- 'dhcp-server'
-- 'windows-management-instrumentation'
+- dhcp-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Remove method", "Remove method, PS_DhcpServerv4Filter class", "PS_DhcpServerv4Filter class, Remove method"]
+keywords:
+- Remove method
+- Remove method, PS_DhcpServerv4Filter class
+- PS_DhcpServerv4Filter class, Remove method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DhcpServerPsProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Remove method of the PS\_DhcpServerv4Filter class
@@ -30,10 +36,10 @@ Deletes the specified MAC address or MAC address pattern from allow list or deny
 
 ```mof
 uint32 Remove(
-  [in]  string             ComputerName,
-  [in]  boolean            PassThru,
-  [in]  string             MacAddress[],
-  [out] DhcpServerv4Filter cmdletOutput[]
+  [in]  string             ComputerName,
+  [in]  boolean            PassThru,
+  [in]  string             MacAddress[],
+  [out] DhcpServerv4Filter cmdletOutput[]
 );
 ```
 
@@ -78,7 +84,7 @@ An embedded instance of the [**DhcpServerv4Filter**](dhcpserverv4filter.md) clas
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\DHCP<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DhcpServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DhcpServerPsProvider.dll</dt> </dl> |
@@ -92,9 +98,9 @@ An embedded instance of the [**DhcpServerv4Filter**](dhcpserverv4filter.md) clas
 [**PS\_DhcpServerv4Filter**](ps-dhcpserverv4filter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

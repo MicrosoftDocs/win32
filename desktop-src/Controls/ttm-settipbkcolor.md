@@ -1,8 +1,9 @@
 ---
 title: TTM\_SETTIPBKCOLOR message
 description: Sets the background color in a tooltip window.
-ms.assetid: 'ed7860db-a221-4855-85d6-1b3b356279ed'
-keywords: ["TTM_SETTIPBKCOLOR message Windows Controls"]
+ms.assetid: ed7860db-a221-4855-85d6-1b3b356279ed
+keywords:
+- TTM_SETTIPBKCOLOR message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_SETTIPBKCOLOR message
@@ -45,8 +51,8 @@ When visual styles are enabled, this message has no effect.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -58,9 +64,9 @@ When visual styles are enabled, this message has no effect.
 [**TTM\_GETTIPBKCOLOR**](ttm-gettipbkcolor.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

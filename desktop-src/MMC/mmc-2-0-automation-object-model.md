@@ -4,11 +4,16 @@ description: Microsoft Management Console (MMC) 2.0 includes the first release o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'eb7c92e7-d834-4736-bff4-74940c9bb194'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: eb7c92e7-d834-4736-bff4-74940c9bb194
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 automation object model", "automation object model"]
+keywords:
+- MMC 2.0 automation object model
+- automation object model
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Automation Object Model

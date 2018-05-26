@@ -1,7 +1,12 @@
-﻿---
-Description: 'The PDEV\_USE\_TRUE\_COLOR structure indicates whether the output color space should be color or grayscale.'
-ms.assetid: '75ffe04a-4d77-4486-8fc7-35b0b6144b99'
-title: 'PDEV\_USE\_TRUE\_COLOR structure'
+---
+Description: The PDEV\_USE\_TRUE\_COLOR structure indicates whether the output color space should be color or grayscale.
+ms.assetid: 75ffe04a-4d77-4486-8fc7-35b0b6144b99
+title: PDEV\_USE\_TRUE\_COLOR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PDEV\_USE\_TRUE\_COLOR structure

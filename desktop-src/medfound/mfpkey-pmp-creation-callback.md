@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets a callback that creates the PMP Media Session during source resolution.'
-ms.assetid: '7277C5E0-BB91-4EEA-9529-64E66D179CDC'
-title: 'MFPKEY\_PMP\_Creation\_Callback property'
+---
+Description: Sets a callback that creates the PMP Media Session during source resolution.
+ms.assetid: 7277C5E0-BB91-4EEA-9529-64E66D179CDC
+title: MFPKEY\_PMP\_Creation\_Callback property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFPKEY\_PMP\_Creation\_Callback property
@@ -31,19 +36,19 @@ Some protected content might require the use of this property. If so, the source
 To use this property, do the following.
 
 1.  Call [**PSCreateMemoryPropertyStore**](properties.PSCreateMemoryPropertyStore) to create a property store.
-2.  Implement the [**IMFAsyncCallback**](imfasynccallback.md) callback interface.
-3.  Set the MFPKEY\_PMP\_Creation\_Callback property on the property store. The value is a pointer to the [**IMFAsyncCallback**](imfasynccallback.md) implementation.
-4.  Call [**IMFSourceResolver::BeginCreateObjectFromURL**](imfsourceresolver-begincreateobjectfromurl.md). Pass in a pointer to the property store in the *pProps* parameter.
+2.  Implement the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) callback interface.
+3.  Set the MFPKEY\_PMP\_Creation\_Callback property on the property store. The value is a pointer to the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) implementation.
+4.  Call [**IMFSourceResolver::BeginCreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-begincreateobjectfromurl?branch=master). Pass in a pointer to the property store in the *pProps* parameter.
 
-In the [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md) method of your callback interface, do the following.
+In the [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master) method of your callback interface, do the following.
 
-1.  Call [**MFCreatePMPMediaSession**](mfcreatepmpmediasession.md) to create the [PMP Media Session](pmp-media-session.md).
-2.  Call [**IMFGetService::GetService**](imfgetservice-getservice.md) on the PMP Media Session to a pointer to the [**IMFPMPHost**](imfpmphost.md) interface.
-3.  Call [**IMFAsyncResult::GetState**](imfasyncresult-getstate.md) on the result object that is passed in the *pAsyncResult* parameter of [**IMFAsyncCallback::Invoke**](imfasynccallback-invoke.md). Query the returned [**IUnknown**](com.iunknown) pointer for the [**IMFAsyncCallback**](imfasynccallback.md) interface.
-4.  Call [**MFPutWorkItem**](mfputworkitem.md) with the following parameters:
+1.  Call [**MFCreatePMPMediaSession**](/windows/win32/mfidl/nf-mfidl-mfcreatepmpmediasession?branch=master) to create the [PMP Media Session](pmp-media-session.md).
+2.  Call [**IMFGetService::GetService**](/windows/win32/mfidl/nf-mfidl-imfgetservice-getservice?branch=master) on the PMP Media Session to a pointer to the [**IMFPMPHost**](/windows/win32/mfidl/nn-mfidl-imfpmphost?branch=master) interface.
+3.  Call [**IMFAsyncResult::GetState**](/windows/win32/mfobjects/nf-mfobjects-imfasyncresult-getstate?branch=master) on the result object that is passed in the *pAsyncResult* parameter of [**IMFAsyncCallback::Invoke**](/windows/win32/mfobjects/nf-mfobjects-imfasynccallback-invoke?branch=master). Query the returned [**IUnknown**](com.iunknown) pointer for the [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) interface.
+4.  Call [**MFPutWorkItem**](/windows/win32/mfapi/nf-mfapi-mfputworkitem?branch=master) with the following parameters:
     -   *dwQueue*: **MFASYNC\_CALLBACK\_QUEUE\_STANDARD**
-    -   *pCallback*: The [**IMFAsyncCallback**](imfasynccallback.md) pointer obtained in step 3.
-    -   *pState*: The [**IMFPMPHost**](imfpmphost.md) pointer obtained in step 2.
+    -   *pCallback*: The [**IMFAsyncCallback**](/windows/win32/mfobjects/nn-mfobjects-imfasynccallback?branch=master) pointer obtained in step 3.
+    -   *pState*: The [**IMFPMPHost**](/windows/win32/mfidl/nn-mfidl-imfpmphost?branch=master) pointer obtained in step 2.
 
 ## Requirements
 

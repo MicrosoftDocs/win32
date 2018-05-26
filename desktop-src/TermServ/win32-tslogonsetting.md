@@ -4,11 +4,13 @@ description: Defines configuration settings for the Win32\_Terminal class relate
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a2ccb419-da1a-44d1-8a7a-4d0266fc1be8'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: a2ccb419-da1a-44d1-8a7a-4d0266fc1be8
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSLogonSetting class Remote Desktop Services", "Win32_TSLogonSetting class Remote Desktop Services , described"]
+keywords:
+- Win32_TSLogonSetting class Remote Desktop Services
+- Win32_TSLogonSetting class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -31,6 +33,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSLogonSetting class
@@ -45,20 +50,20 @@ The following syntax is simplified from MOF code and includes all defined and in
 [dynamic, provider("Win32_WIN32_TSLOGONSETTING_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\WinStations"), AMENDMENT]
 class Win32_TSLogonSetting : Win32_TerminalSetting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   TerminalName;
-  uint32   ClientLogonInfoPolicy;
-  string   Domain;
-  string   Password;
-  uint32   PolicySourceDomain;
-  uint32   PolicySourcePromptForPassword;
-  uint32   PolicySourceUserName;
-  uint32   PromptForPassword;
-  string   UserName;
+  string   Name;
+  string   Status;
+  string   TerminalName;
+  uint32   ClientLogonInfoPolicy;
+  string   Domain;
+  string   Password;
+  uint32   PolicySourceDomain;
+  uint32   PolicySourcePromptForPassword;
+  uint32   PolicySourceUserName;
+  uint32   PromptForPassword;
+  string   UserName;
 };
 ```
 
@@ -82,7 +87,7 @@ The **Win32\_TSLogonSetting** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -491,8 +496,8 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -509,9 +514,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TerminalSetting**](win32-terminalsetting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

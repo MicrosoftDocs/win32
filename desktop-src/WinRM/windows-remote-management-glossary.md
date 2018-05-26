@@ -5,10 +5,13 @@ Robots: noindex, nofollow
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bbda0db7-f473-444b-85ab-f3c5240c4b18'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-remote-management'
+ms.assetid: bbda0db7-f473-444b-85ab-f3c5240c4b18
+ms.prod: windows-server-dev
+ms.technology: windows-remote-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Remote Management Glossary
@@ -120,7 +123,7 @@ A combination of WS-Addressing and WS-Management addressing elements that togeth
 **enumeration**
 </dt> <dd>
 
-A set, or collection, of [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) instances or the action of requesting such a set. In WS-Management protocol, [*WS-Enumeration*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration) is used to obtain the collection. In the WinRM service scripting implementation of enumeration, [**Session.Enumerate**](session-enumerate.md) and the [**Enumerator**](enumerator.md) object are used. The corresponding C++ method and interface are [**IWSManSession::Enumerate**](iwsmansession-enumerate.md) and [**IWSManEnumerator**](iwsmanenumerator.md).
+A set, or collection, of [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource) instances or the action of requesting such a set. In WS-Management protocol, [*WS-Enumeration*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration) is used to obtain the collection. In the WinRM service scripting implementation of enumeration, [**Session.Enumerate**](session-enumerate.md) and the [**Enumerator**](enumerator.md) object are used. The corresponding C++ method and interface are [**IWSManSession::Enumerate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmansession-enumerate?branch=master) and [**IWSManEnumerator**](/windows/win32/WSManDisp/nn-wsmandisp-iwsmanenumerator?branch=master).
 
 </dd> <dt>
 
@@ -152,14 +155,14 @@ A notification of events that occur on remote computers can be sent to subscribi
 **filter**
 </dt> <dd>
 
-A query mechanism for specifying a limited set of instances in the request for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource). You can specify a *filter* parameter on calls to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](iwsmansession-enumerate.md).
+A query mechanism for specifying a limited set of instances in the request for a [*resource*](windows-remote-management-glossary.md#winrm-gloss-resource). You can specify a *filter* parameter on calls to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmansession-enumerate?branch=master).
 
 </dd> <dt>
 
 **filter dialect**
 </dt> <dd>
 
-An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md#winrm-gloss-filter) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](iwsmansession-enumerate.md). The WinRM service supports [WQL](https://msdn.microsoft.com/library/aa394606) as a filter dialect when receiving requests.
+An XML string that identifies the XML dialect used to specify a [*filter*](windows-remote-management-glossary.md#winrm-gloss-filter) in a call to [**Session.Enumerate**](session-enumerate.md) or [**IWSManSession::Enumerate**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmansession-enumerate?branch=master). The WinRM service supports [WQL](https://msdn.microsoft.com/library/aa394606) as a filter dialect when receiving requests.
 
 </dd> <dt>
 
@@ -313,7 +316,7 @@ The client application obtains data directly from the [*baseboard management con
 **pull**
 </dt> <dd>
 
-A [*WS-Enumeration*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration) pull message is sent to continue an enumeration started by an initial call to WS-Enumeration:Enumerate. The pull operation in the WinRM service is performed by [**Enumerator.ReadItem**](enumerator-readitem.md) or [**IWSManEnumerator::ReadItem**](iwsmanenumerator-readitem.md).
+A [*WS-Enumeration*](windows-remote-management-glossary.md#winrm-gloss-ws-enumeration) pull message is sent to continue an enumeration started by an initial call to WS-Enumeration:Enumerate. The pull operation in the WinRM service is performed by [**Enumerator.ReadItem**](enumerator-readitem.md) or [**IWSManEnumerator::ReadItem**](/windows/win32/WSManDisp/nf-wsmandisp-iwsmanenumerator-readitem?branch=master).
 
 </dd> </dl>
 

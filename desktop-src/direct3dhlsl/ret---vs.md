@@ -1,7 +1,12 @@
 ---
 title: ret - vs
 description: Return from a subroutine or a main function.
-ms.assetid: 'ee3a6a7a-c068-442f-9f86-c637b5707224'
+ms.assetid: ee3a6a7a-c068-442f-9f86-c637b5707224
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ret - vs

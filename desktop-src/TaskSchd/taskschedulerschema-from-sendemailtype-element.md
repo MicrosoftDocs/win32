@@ -1,14 +1,20 @@
 ---
 title: From (sendEmailType) Element
 description: Contains the email address of the email sender.
-ms.assetid: 'b80733de-e050-4026-a2fe-f63833ec2660'
-keywords: ["From element Task Scheduler"]
+ms.assetid: b80733de-e050-4026-a2fe-f63833ec2660
+keywords:
+- From element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - From
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # From (sendEmailType) Element
@@ -35,7 +41,7 @@ The **From** element is defined by the [**sendEmailType**](taskschedulerschema-s
 
 ## Remarks
 
-For C++ development, see [**From Property of IEmailAction**](iemailaction-from.md).
+For C++ development, see [**From Property of IEmailAction**](/windows/win32/taskschd/nf-taskschd-iemailaction-get_from?branch=master).
 
 For script development, see [**EmailAction.From**](emailaction-from.md).
 
@@ -45,14 +51,14 @@ For script development, see [**EmailAction.From**](emailaction-from.md).
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

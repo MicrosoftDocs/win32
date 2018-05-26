@@ -1,7 +1,12 @@
 ---
 title: TV Ratings Filters
 description: TV Ratings Filters
-ms.assetid: '81a701b3-a2d8-4ec3-919e-cd2e9330f5af'
+ms.assetid: 81a701b3-a2d8-4ec3-919e-cd2e9330f5af
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TV Ratings Filters

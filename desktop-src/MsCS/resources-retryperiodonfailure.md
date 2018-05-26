@@ -4,17 +4,22 @@ description: Specifies the interval of time (in milliseconds) that a resource sh
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'dd0e19c5-70c7-4d9e-8ce8-fc5bc13a961c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: dd0e19c5-70c7-4d9e-8ce8-fc5bc13a961c
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RetryPeriodOnFailure Failover Cluster ,for resources", "RetryPeriodOnFailure Failover Cluster"]
+keywords:
+- RetryPeriodOnFailure Failover Cluster ,for resources
+- RetryPeriodOnFailure Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RetryPeriodOnFailure
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RetryPeriodOnFailure
@@ -27,14 +32,14 @@ Specifies the interval of time (in milliseconds) that a [resource](resources.md)
 |-----------|--------------------------------------------------------|
 | Data type | **DWORD**                                              |
 | Access    | [Read/write](read-write-properties.md)                |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md)              |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)              |
 | Minimum   | [**RestartPeriod**](resources-restartperiod.md) value |
 | Maximum   | 0xFFFFFFFF (no retry)                                  |
 | Default   | 0x36EE80                                               |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,7 +48,7 @@ When adjusting the **RetryPeriodOnFailure** property:
 -   Intervals measured in minutes (multiples of 0xEA60) are recommended.
 -   Do not set the interval any lower than that specified by the [**RestartPeriod**](resources-restartperiod.md) property.
 
-The Cluster Service attempts to restart the resource by calling its resource DLL's [**Online**](online.md) entry point function.
+The Cluster Service attempts to restart the resource by calling its resource DLL's [**Online**](/windows/previous-versions/ResApi/nc-resapi-ponline_routine?branch=master) entry point function.
 
 ## Examples
 
@@ -67,7 +72,7 @@ RetryPeriodOnFailureValue.dw = RetryPeriodOnFailureData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -75,7 +80,7 @@ RetryPeriodOnFailureValue.dw = RetryPeriodOnFailureData;
 
 <dl> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> <dt>
 
 [**RestartAction**](resources-restartaction.md)
@@ -87,9 +92,9 @@ RetryPeriodOnFailureValue.dw = RetryPeriodOnFailureData;
 [**RestartThreshold**](resources-restartthreshold.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

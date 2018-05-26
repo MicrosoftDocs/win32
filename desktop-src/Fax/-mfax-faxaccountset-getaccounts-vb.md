@@ -1,12 +1,17 @@
-﻿---
-Description: 'Returns an IFaxAccounts object that represents all the fax accounts on the fax server.'
-ms.assetid: '4d4f3d86-0e48-45f3-b0e2-e0d5b07951b6'
-title: 'FaxAccountSet.GetAccounts method'
+---
+Description: Returns an IFaxAccounts object that represents all the fax accounts on the fax server.
+ms.assetid: 4d4f3d86-0e48-45f3-b0e2-e0d5b07951b6
+title: FaxAccountSet.GetAccounts method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountSet.GetAccounts method
 
-Returns an [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) object that represents all the fax accounts on the fax server.
+Returns an [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) object that represents all the fax accounts on the fax server.
 
 ## Syntax
 
@@ -23,9 +28,9 @@ This method has no parameters.
 
 ## Return value
 
-Type: **[**IFaxAccounts**](-mfax-faxaccounts-cpp.md)\*\***
+Type: **[**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master)\*\***
 
-The address of a pointer to an [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) object.
+The address of a pointer to an [**IFaxAccounts**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccounts?branch=master) object.
 
 ## Requirements
 
@@ -47,7 +52,7 @@ The address of a pointer to an [**IFaxAccounts**](-mfax-faxaccounts-cpp.md) obje
 [**FaxAccountSet**](-mfax-faxaccountset.md)
 </dt> <dt>
 
-[**IFaxAccountSet**](-mfax-faxaccountset-cpp.md)
+[**IFaxAccountSet**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountset?branch=master)
 </dt> </dl>
 
  

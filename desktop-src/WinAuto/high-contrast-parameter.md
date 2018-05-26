@@ -1,7 +1,12 @@
 ---
 title: High Contrast Parameter
 description: The high contrast parameter indicates whether the user wants a high contrast between the colors used for foreground and background visuals.
-ms.assetid: 'ec89c4ce-4e8b-4e1f-a349-fbd47431d675'
+ms.assetid: ec89c4ce-4e8b-4e1f-a349-fbd47431d675
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # High Contrast Parameter
@@ -10,7 +15,7 @@ The high contrast parameter indicates whether the user wants a high contrast bet
 
 The user controls the setting of the high contrast parameter by using the Ease of Access Center in Control Panel, or another application for customizing the environment. Applications use the **SPI\_GETHIGHCONTRAST** and **SPI\_SETHIGHCONTRAST** flags with the [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) function to get and set the high contrast parameter.
 
-During initialization and when processing [**WM\_SYSCOLORCHANGE**](https://msdn.microsoft.com/library/windows/desktop/dd145223) messages, applications should determine the state of the high contrast parameter. To make this determination, applications should call [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) with the **SPI\_GETHIGHCONTRAST** flag to obtain a [**HIGHCONTRAST**](highcontrast.md) structure. If the **dwFlags** member of the **HIGHCONTRAST** structure has the **HCF\_HIGHCONTRASTON** bit set, then the high contrast feature is enabled, and applications should do the following:
+During initialization and when processing [**WM\_SYSCOLORCHANGE**](https://msdn.microsoft.com/library/windows/desktop/dd145223) messages, applications should determine the state of the high contrast parameter. To make this determination, applications should call [**SystemParametersInfo**](https://msdn.microsoft.com/library/windows/desktop/ms724947) with the **SPI\_GETHIGHCONTRAST** flag to obtain a [**HIGHCONTRAST**](/windows/win32/Winuser/ns-winuser-taghighcontrasta?branch=master) structure. If the **dwFlags** member of the **HIGHCONTRAST** structure has the **HCF\_HIGHCONTRASTON** bit set, then the high contrast feature is enabled, and applications should do the following:
 
 -   Map all colors to a single pair of foreground and background colors. Use the [**GetSysColor**](https://msdn.microsoft.com/library/windows/desktop/ms724371) function to determine the appropriate foreground and background colors, using either a combination of **COLOR\_WINDOWTEXT** and **COLOR\_WINDOW** or a combination of **COLOR\_BTNTEXT** and **COLOR\_BTNFACE**. The **GetSysColor** function returns the colors selected by the user through the Control Panel.
 -   Omit any bitmapped images that would typically be displayed behind text. Such images are visually distracting to a user who needs high contrast.

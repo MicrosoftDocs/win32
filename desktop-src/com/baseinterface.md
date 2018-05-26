@@ -1,8 +1,14 @@
 ---
 title: BaseInterface
 description: Identifies the interface from which the current interface is derived.
-ms.assetid: 'b62a780f-8ff9-4942-839c-9b38cd2a920b'
-keywords: ["BaseInterface registry value COM"]
+ms.assetid: b62a780f-8ff9-4942-839c-9b38cd2a920b
+keywords:
+- BaseInterface registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BaseInterface

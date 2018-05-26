@@ -1,7 +1,12 @@
 ---
-Description: 'Paths are formed by combining lines, rectangles, and simple curves. Recall from the Overview of Vector Graphics that the following basic building blocks have proven to be the most useful for drawing pictures.'
-ms.assetid: '88fea2ec-7b53-44bb-841d-486c5c879c68'
+Description: Paths are formed by combining lines, rectangles, and simple curves. Recall from the Overview of Vector Graphics that the following basic building blocks have proven to be the most useful for drawing pictures.
+ms.assetid: 88fea2ec-7b53-44bb-841d-486c5c879c68
 title: Paths
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Paths
@@ -16,15 +21,15 @@ Paths are formed by combining lines, rectangles, and simple curves. Recall from 
 -   Cardinal splines
 -   Bézier splines
 
-In Windows GDI+, the [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object allows you to collect a sequence of these building blocks into a single unit. The entire sequence of lines, rectangles, polygons, and curves can then be drawn with one call to the [**Graphics::DrawPath**](-gdiplus-class-graphics-drawpath-pen-path-.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class. The following illustration shows a path created by combining a line, an arc, a Bézier spline, and a cardinal spline.
+In Windows GDI+, the [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object allows you to collect a sequence of these building blocks into a single unit. The entire sequence of lines, rectangles, polygons, and curves can then be drawn with one call to the [**Graphics::DrawPath**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class. The following illustration shows a path created by combining a line, an arc, a Bézier spline, and a cardinal spline.
 
 ![illustration of a path that combines a line, an arc, a bezier spline, and a cardinal spline](images/aboutgdip02-art14.png)
 
-The [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) class provides the following methods for creating a sequence of items to be drawn: [AddLine](-gdiplus-class-graphicspath-addline-methods.md), [AddRectangle](-gdiplus-class-graphicspath-addrectangle-methods.md), [AddEllipse](-gdiplus-class-graphicspath-addellipse-methods.md), [AddArc](-gdiplus-class-graphicspath-addarc-methods.md), [AddPolygon](-gdiplus-class-graphicspath-addpolygon-methods.md), [AddCurve](-gdiplus-class-graphicspath-addcurve-methods.md) (for cardinal splines), and [AddBezier](-gdiplus-class-graphicspath-addbezier-methods.md). Each of these methods is overloaded; that is, each method comes in several variations with different parameter lists. For example, one variation of the AddLine method receives four integers, and another variation of the AddLine method receives two [**Point**](-gdiplus-class-point-class.md) objects.
+The [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) class provides the following methods for creating a sequence of items to be drawn: [AddLine](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addline(in const point &,in const point &)?branch=master), [AddRectangle](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addrectangle(in const rect &)?branch=master), [AddEllipse](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addellipse(in const rect &)?branch=master), [AddArc](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addarc(in const rect &,in real,in real)?branch=master), [AddPolygon](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addpolygon(in const point,in int)?branch=master), [AddCurve](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addcurve(in const point,in int)?branch=master) (for cardinal splines), and [AddBezier](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addbezier(in const point &,in const point &,in const point &,in const point &)?branch=master). Each of these methods is overloaded; that is, each method comes in several variations with different parameter lists. For example, one variation of the AddLine method receives four integers, and another variation of the AddLine method receives two [**Point**](/windows/win32/gdiplustypes/nl-gdiplustypes-point?branch=master) objects.
 
-The methods for adding lines, rectangles, and Bézier splines to a path have plural companion methods that add several items to the path in a single call: [AddLines](-gdiplus-class-graphicspath-addlines-methods.md), [AddRectangles](-gdiplus-class-graphicspath-addrectangles-methods.md), and [AddBeziers](-gdiplus-class-graphicspath-addbeziers-methods.md). Also, the [AddCurve](-gdiplus-class-graphicspath-addcurve-methods.md) method has a companion method, [AddClosedCurve](-gdiplus-class-graphicspath-addclosedcurve-methods.md), that adds a closed curve to the path.
+The methods for adding lines, rectangles, and Bézier splines to a path have plural companion methods that add several items to the path in a single call: [AddLines](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addlines(in const point,in int)?branch=master), [AddRectangles](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addrectangles(in const rect,int)?branch=master), and [AddBeziers](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addbeziers(in const point,in int)?branch=master). Also, the [AddCurve](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addcurve(in const point,in int)?branch=master) method has a companion method, [AddClosedCurve](/windows/win32/gdipluspath/nf-gdipluspath-graphicspath-addclosedcurve(in const point,in int)?branch=master), that adds a closed curve to the path.
 
-To draw a path, you need a [**Graphics**](-gdiplus-class-graphics-class.md) object, a [**Pen**](-gdiplus-class-pen-class.md) object, and a [**GraphicsPath**](-gdiplus-class-graphicspath-class.md) object. The **Graphics** object provides the [**Graphics::DrawPath**](-gdiplus-class-graphics-drawpath-pen-path-.md) method, and the **Pen** object stores attributes of the path, such as line width and color. The **GraphicsPath** object stores the sequence of lines, rectangles, and curves that make up the path. The addresses of the **Pen** object and the **GraphicsPath** object are passed as arguments to the **Graphics::DrawPath** method. The following example draws a path that consists of a line, an ellipse, and a Bézier spline.
+To draw a path, you need a [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) object, a [**Pen**](/windows/win32/gdipluspen/nl-gdipluspen-pen?branch=master) object, and a [**GraphicsPath**](/windows/win32/gdipluspath/nl-gdipluspath-graphicspath?branch=master) object. The **Graphics** object provides the [**Graphics::DrawPath**](/windows/win32/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath?branch=master) method, and the **Pen** object stores attributes of the path, such as line width and color. The **GraphicsPath** object stores the sequence of lines, rectangles, and curves that make up the path. The addresses of the **Pen** object and the **GraphicsPath** object are passed as arguments to the **Graphics::DrawPath** method. The following example draws a path that consists of a line, an ellipse, and a Bézier spline.
 
 
 ```
@@ -40,7 +45,7 @@ The following illustration shows the path.
 
 ![illustration of a path made up of a line, an ellipse, and a bezier spline](images/aboutgdip02-art15.png)
 
-In addition to adding lines, rectangles, and curves to a path, you can add paths to a path. This allows you to combine existing paths to form large, complex paths. The following code adds **graphicsPath1** and **graphicsPath2** to **myGraphicsPath**. The second parameter of the [**GraphicsPath::AddPath**](-gdiplus-class-graphicspath-addpath-addingpath-connect-.md) method specifies whether the added path is connected to the existing path.
+In addition to adding lines, rectangles, and curves to a path, you can add paths to a path. This allows you to combine existing paths to form large, complex paths. The following code adds **graphicsPath1** and **graphicsPath2** to **myGraphicsPath**. The second parameter of the [**GraphicsPath::AddPath**](/windows/win32/Gdipluspath/nf-gdipluspath-graphicspath-addpath?branch=master) method specifies whether the added path is connected to the existing path.
 
 
 ```

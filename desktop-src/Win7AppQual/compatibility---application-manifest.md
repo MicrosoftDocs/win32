@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'f022374d-ea3f-477f-9b59-3188b775ed64'
+Description: .
+ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: Application Manifest
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Application Manifest

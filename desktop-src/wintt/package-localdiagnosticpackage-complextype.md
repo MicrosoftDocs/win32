@@ -1,14 +1,20 @@
 ---
 title: LocalDiagnosticPackage Complex Type
 description: Defines the manifest as a local troubleshooting pack.
-ms.assetid: 'bc82869f-2f8e-422e-81fc-c9e0a94cb43f'
-keywords: ["LocalDiagnosticPackage complex type Windows Troubleshooting Toolkit"]
+ms.assetid: bc82869f-2f8e-422e-81fc-c9e0a94cb43f
+keywords:
+- LocalDiagnosticPackage complex type Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - LocalDiagnosticPackage
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LocalDiagnosticPackage Complex Type
@@ -130,7 +136,7 @@ Defines the manifest as a local troubleshooting pack.
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="even">
 <td>Interactions</td>
@@ -169,7 +175,7 @@ Defines the manifest as a local troubleshooting pack.
 | Name          | Type                                                | Description                                                                                                                                                                                                                                                                                                                                          |
 |---------------|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Localized     | xs:boolean                                          | Determines whether the strings specified in the manifest are resource strings (true) or literals (false). If true, all UI elements in the manifest must specify a resource identifier (for example, @resource.dll,-123). For localization details, see [Localizing the Troubleshooting Pack](localizing-the-troubleshooting-package.md).<br/> |
-| SchemaVersion | [**dcmPS:Version**](package-version-simpletype.md) | The version of the troubleshooting pack schema used to write this manifest. For Windows 7, the version is 1.0. <br/>                                                                                                                                                                                                                           |
+| SchemaVersion | [**dcmPS:Version**](package-version-simpletype.md) | The version of the troubleshooting pack schema used to write this manifest. For Windows 7, the version is 1.0. <br/>                                                                                                                                                                                                                           |
 
 
 
@@ -183,8 +189,8 @@ A manifest that contains this node contains multiple troubleshooters and each tr
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -195,9 +201,9 @@ A manifest that contains this node contains multiple troubleshooters and each tr
 [**AdvDiagnosticPackage Element**](package-advdiagnosticpackage-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

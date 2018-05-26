@@ -1,7 +1,12 @@
-﻿---
-Description: 'Enable an existing bone to influence a group of vertices and define how much influence the bone has on each vertex.'
-ms.assetid: '37ba97a8-ba40-4700-b8b8-fa7cc9118307'
-title: 'ID3DX10SkinInfo::AddBoneInfluences method'
+---
+Description: Enable an existing bone to influence a group of vertices and define how much influence the bone has on each vertex.
+ms.assetid: 37ba97a8-ba40-4700-b8b8-fa7cc9118307
+title: ID3DX10SkinInfoAddBoneInfluences method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::AddBoneInfluences method

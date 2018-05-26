@@ -1,7 +1,12 @@
 ---
 Description: Working with MFT Media Buffers and Samples
-ms.assetid: 'dda4048e-bc4c-40ac-a6bd-34984f3717e0'
+ms.assetid: dda4048e-bc4c-40ac-a6bd-34984f3717e0
 title: Working with MFT Media Buffers and Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with MFT Media Buffers and Samples

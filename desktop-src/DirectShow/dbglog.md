@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgLog macro sends a string to the debug output location, if logging is enabled for the specified type and level. This macro is ignored in retail builds.'
-ms.assetid: '10e95d63-14f2-4fdb-a1b8-c5bf654f9819'
+Description: The DbgLog macro sends a string to the debug output location, if logging is enabled for the specified type and level. This macro is ignored in retail builds.
+ms.assetid: 10e95d63-14f2-4fdb-a1b8-c5bf654f9819
 title: DbgLog macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgLog macro
@@ -13,10 +18,10 @@ The **DbgLog** macro sends a string to the debug output location, if logging is 
 
 ```C++
 void DbgLog(
-         DWORD Types,
-         DWORD Level,
-   const TCHAR *pFormat,
-               ...
+         DWORD Types,
+         DWORD Level,
+   const TCHAR *pFormat,
+               ...
 );
 ```
 
@@ -67,7 +72,7 @@ The macro automatically adds a newline character to the output string.
 > [!Note]  
 > An additional set of parentheses must enclose the macro parameters:
 
- 
+ 
 
 
 ```C++
@@ -93,9 +98,9 @@ DbgLog((LOG_TRACE, 3, TEXT("Connected input pin %d"), nPinNumber));
 [Debug Output Functions](debug-output-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

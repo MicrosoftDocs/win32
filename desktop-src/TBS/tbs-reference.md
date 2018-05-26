@@ -1,8 +1,14 @@
 ---
 title: TBS Reference
 description: The Trusted Platform Module (TPM) Base Services (TBS) API supports the following elements.
-ms.assetid: '616ffc43-b8a1-44a0-95ba-8d723c8464e2'
-keywords: ["TPM Base Services TBS , reference"]
+ms.assetid: 616ffc43-b8a1-44a0-95ba-8d723c8464e2
+keywords:
+- TPM Base Services TBS , reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBS Reference
@@ -22,11 +28,11 @@ The Trusted Platform Module (TPM) Base Services (TBS) API supports the following
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

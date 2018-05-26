@@ -1,7 +1,12 @@
 ---
 title: usesgetlasterror
 description: Tells the caller that, if there is an error when calling that function, the caller can then call GetLastError to retrieve the error code.
-ms.assetid: '875e3837-86ff-41cd-a45a-891f72983e07'
+ms.assetid: 875e3837-86ff-41cd-a45a-891f72983e07
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # usesgetlasterror

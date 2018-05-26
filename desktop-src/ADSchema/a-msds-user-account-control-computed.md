@@ -1,20 +1,25 @@
 ---
 title: ms-DS-User-Account-Control-Computed attribute
-description: msDS-User-Account-Control-Computed is much like userAccountControl, but the attribute's value can contain additional bits that are not persisted.
+description: msDS-User-Account-Control-Computed is much like userAccountControl, but the attributes value can contain additional bits that are not persisted.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '4c635c04-8d2e-41b4-809c-58ce64271a02'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 4c635c04-8d2e-41b4-809c-58ce64271a02
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-User-Account-Control-Computed attribute AD Schema", "msDS-User-Account-Control-Computed attribute AD Schema"]
+keywords:
+- ms-DS-User-Account-Control-Computed attribute AD Schema
+- msDS-User-Account-Control-Computed attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-User-Account-Control-Computed
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-User-Account-Control-Computed attribute
@@ -32,7 +37,7 @@ api_type:
 
 
 
- 
+ 
 
 The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) and therefore **msDS-User-Account-Control-Computed** can also contain can be found in the **User-Account-Control** reference page (mapped through the [ADSI](https://msdn.microsoft.com/library/aa772170) flagset) or on the network management reference pages for the [**user\_info\_1008**](https://msdn.microsoft.com/library/windows/desktop/aa370968) structure.
 
@@ -53,12 +58,12 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 ## Implementations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2003
 
@@ -186,9 +191,9 @@ The full list of bits that [**User-Account-Control**](a-useraccountcontrol.md) a
 
 
 
- 
+ 
 
- 
+ 
 
 
 

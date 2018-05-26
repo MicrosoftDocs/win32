@@ -1,7 +1,12 @@
 ---
 title: Using the Connections Dialog Box
 description: The WNetConnectionDialog function creates a dialog box that allows the user to browse and connect to network resources.
-ms.assetid: 'ef375004-e426-4dee-b318-b470721116fa'
+ms.assetid: ef375004-e426-4dee-b318-b470721116fa
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Connections Dialog Box

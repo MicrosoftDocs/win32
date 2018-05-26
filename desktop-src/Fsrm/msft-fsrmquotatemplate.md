@@ -4,11 +4,13 @@ description: Used to configure templates from which new quota objects can be der
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '59931c82-cba3-4b1b-aa8e-7c528db07755'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 59931c82-cba3-4b1b-aa8e-7c528db07755
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["MSFT_FSRMQuotaTemplate class File Server Resource Manager", "MSFT_FSRMQuotaTemplate class File Server Resource Manager , described"]
+keywords:
+- MSFT_FSRMQuotaTemplate class File Server Resource Manager
+- MSFT_FSRMQuotaTemplate class File Server Resource Manager , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - SrmSvc.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_FSRMQuotaTemplate class
@@ -38,12 +43,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("FSRMWmiProvider")]
 class MSFT_FSRMQuotaTemplate
 {
-  string                  Name;
-  string                  Description = "";
-  uint64                  Size;
-  boolean                 SoftLimit = False;
-  boolean                 UpdateDerived;
-  boolean                 UpdateDerivedMatching;
+  string                  Name;
+  string                  Description = "";
+  uint64                  Size;
+  boolean                 SoftLimit = False;
+  boolean                 UpdateDerived;
+  boolean                 UpdateDerivedMatching;
   MSFT_FSRMQuotaThreshold Threshold[] = {};
 };
 ```
@@ -166,7 +171,7 @@ Note that the comparison is made against the quota template as it exists in the 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                            |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\FSRM<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>MSFT\_FSRM.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SrmSvc.dll</dt> </dl>     |
@@ -180,9 +185,9 @@ Note that the comparison is made against the quota template as it exists in the 
 [FSRM WMI Classes](fsrm-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

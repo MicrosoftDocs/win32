@@ -1,7 +1,12 @@
-﻿---
-Description: 'A callback function that must be implemented by a user to set the texture stage state.'
-ms.assetid: 'cc86a483-ccf0-400d-b14d-ab55a3cf4b98'
-title: 'ID3DXEffectStateManager::SetTextureStageState method'
+---
+Description: A callback function that must be implemented by a user to set the texture stage state.
+ms.assetid: cc86a483-ccf0-400d-b14d-ab55a3cf4b98
+title: ID3DXEffectStateManagerSetTextureStageState method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXEffectStateManager::SetTextureStageState method
@@ -30,7 +35,7 @@ HRESULT SetTextureStageState(
 
 Type: **[**DWORD**](winprog.windows_data_types)**
 
-The stage that the texture is assigned to. This is the index value in [**IDirect3DDevice9::SetTexture**](idirect3ddevice9--settexture.md) or [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md).
+The stage that the texture is assigned to. This is the index value in [**IDirect3DDevice9::SetTexture**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexture?branch=master) or [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master).
 
 </dd> <dt>
 
@@ -59,7 +64,7 @@ Type: **[**HRESULT**](455d07e9-52c3-4efb-a9dc-2955cbfd38cc)**
 The user-implemented method should return S\_OK. If the callback fails when setting the device state, either of the following will occur:
 
 -   The effect will fail during [**ID3DXEffect::BeginPass**](id3dxeffect--beginpass.md).
--   The dynamic effect state call (such as [**IDirect3DDevice9::SetTextureStageState**](idirect3ddevice9--settexturestagestate.md)) will fail.
+-   The dynamic effect state call (such as [**IDirect3DDevice9::SetTextureStageState**](/windows/win32/d3d9helper/nf-d3d9-idirect3ddevice9-settexturestagestate?branch=master)) will fail.
 
 ## Requirements
 

@@ -1,14 +1,20 @@
 ---
 title: WM/OriginalReleaseTime
 description: The WM/OriginalReleaseTime attribute contains the time at which the content was originally released.
-ms.assetid: '80410ee0-9ccb-4674-867f-160dcece00b9'
-keywords: ["WM/OriginalReleaseTime windows Media Format"]
+ms.assetid: 80410ee0-9ccb-4674-867f-160dcece00b9
+keywords:
+- WM/OriginalReleaseTime windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/OriginalReleaseTime
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/OriginalReleaseTime

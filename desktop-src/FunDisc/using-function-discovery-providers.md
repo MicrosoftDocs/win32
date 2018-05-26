@@ -1,7 +1,12 @@
 ---
-Description: 'Function Discovery includes a number of built-in providers. In most cases, it is not necessary to write your own provider. If you must write a provider, adhere to the guidelines provided below.'
-ms.assetid: '26660093-0d02-4eef-bf5b-18ff07748540'
+Description: Function Discovery includes a number of built-in providers. In most cases, it is not necessary to write your own provider. If you must write a provider, adhere to the guidelines provided below.
+ms.assetid: 26660093-0d02-4eef-bf5b-18ff07748540
 title: Using Function Discovery Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Function Discovery Providers

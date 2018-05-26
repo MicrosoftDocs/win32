@@ -4,13 +4,15 @@ description: Represents the base functionality of a DFS namespace (DFS-N) root o
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '6c2829a9-d6eb-490a-aec6-05be2ea185d6'
-ms.prod: 'windows-server-dev'
+ms.assetid: 6c2829a9-d6eb-490a-aec6-05be2ea185d6
+ms.prod: windows-server-dev
 ms.technology:
-- 'distributed-file-system-namespace'
-- 'windows-management-instrumentation'
+- distributed-file-system-namespace
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_DfsNamespaceLinkBase class", "MSFT_DfsNamespaceLinkBase class, described"]
+keywords:
+- MSFT_DfsNamespaceLinkBase class
+- MSFT_DfsNamespaceLinkBase class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - DfsNCimProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_DfsNamespaceLinkBase class
@@ -136,7 +141,7 @@ A DFS-N root or a DFS-N link can have one of the following UNC path formats:
 
 
 
- 
+ 
 
 where:
 
@@ -206,7 +211,7 @@ Gets or sets the interval time, in seconds, of the time to live (TTL) of the ref
 |                                     |                                                                                            |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                             |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\dfsn<br/>                                                  |
 | MOF<br/>                      | <dl> <dt>DfsNCimProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DfsNCimProv.dll</dt> </dl> |
@@ -223,9 +228,9 @@ Gets or sets the interval time, in seconds, of the time to live (TTL) of the ref
 [**MSFT\_DFSNamespaceFolder**](msft-dfsnamespacefolder.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

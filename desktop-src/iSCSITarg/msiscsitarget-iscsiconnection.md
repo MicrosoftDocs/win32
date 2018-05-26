@@ -4,13 +4,15 @@ description: Describes the attributes and negotiated values for an iSCSI connect
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fbc6f1c9-d195-4a05-bf3d-c2f306d5d060'
-ms.prod: 'windows-server-dev'
+ms.assetid: fbc6f1c9-d195-4a05-bf3d-c2f306d5d060
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_iSCSIConnection class iSCSI Software Target API", "MSISCSITARGET_iSCSIConnection class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_iSCSIConnection class iSCSI Software Target API
+- MSISCSITARGET_iSCSIConnection class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -49,6 +51,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_iSCSIConnection class
@@ -63,36 +68,36 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Version("1.0.0")]
 class MSISCSITARGET_iSCSIConnection : CIM_iSCSIConnection
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   EnabledDefault = 2;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   EnabledDefault = 2;
   datetime TimeOfLastStateChange;
-  string   InstanceID;
-  uint16   Directionality;
-  uint16   AggregationBehavior;
-  uint16   EnabledState = 5;
-  uint16   RequestedState = 512;
-  uint32   ConnectionID;
-  uint32   MaxReceiveDataSegmentLength;
-  uint32   MaxTransmitDataSegmentLength;
-  uint16   HeaderDigestMethod;
-  string   OtherHeaderDigestMethod;
-  uint16   DataDigestMethod;
-  string   OtherDataDigestMethod;
-  boolean  ReceivingMarkers;
-  boolean  SendingMarkers;
-  boolean  ActiveiSCSIVersion;
-  uint16   AuthenticationMethodUsed;
-  boolean  MutualAuthentication;
-  string   SystemName;
+  string   InstanceID;
+  uint16   Directionality;
+  uint16   AggregationBehavior;
+  uint16   EnabledState = 5;
+  uint16   RequestedState = 512;
+  uint32   ConnectionID;
+  uint32   MaxReceiveDataSegmentLength;
+  uint32   MaxTransmitDataSegmentLength;
+  uint16   HeaderDigestMethod;
+  string   OtherHeaderDigestMethod;
+  uint16   DataDigestMethod;
+  string   OtherDataDigestMethod;
+  boolean  ReceivingMarkers;
+  boolean  SendingMarkers;
+  boolean  ActiveiSCSIVersion;
+  uint16   AuthenticationMethodUsed;
+  boolean  MutualAuthentication;
+  string   SystemName;
 };
 ```
 
@@ -115,7 +120,7 @@ The **MSISCSITARGET\_iSCSIConnection** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -446,14 +451,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -557,14 +562,14 @@ This property is inherited from [**CIM\_NetworkPipe**](cim-networkpipe.md).
 **DMTF Reserved**
 
 
-</dt> <dd>11–32767</dd> <dt>
+</dt> <dd>11 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -849,7 +854,7 @@ Contains indicators of the current status of the element. The first value of **O
 > [!Note]  
 > **OperationalStatus** replaces the deprecated **Status** property. Due to the widespread use of the existing **Status** property in management applications, Microsoft strongly recommends that providers or instrumentation provide both the **Status** and **OperationalStatus** properties. When instrumented, **Status** (because it is single-valued) should also provide the primary status of the element.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1262,14 +1267,14 @@ This property is inherited from [**CIM\_NetworkPipe**](cim-networkpipe.md).
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1308,7 +1313,7 @@ Contains a string indicating the primary status of the object.
 > [!Note]  
 > This property is deprecated and replaced by the **OperationalStatus** property. If you choose to use the **Status** property for backward compatibility it should be secondary to the **OperationalStatus** property.
 
- 
+ 
 
 This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -1460,7 +1465,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -1477,9 +1482,9 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 [iSCSI Target Server Reference](https://msdn.microsoft.com/library/hh830439)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

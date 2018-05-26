@@ -1,7 +1,12 @@
 ---
-Description: 'Constructor method.'
-ms.assetid: '925c6c45-0990-4044-aca1-34f343f438b5'
-title: 'CBaseControlVideo.CBaseControlVideo constructor'
+Description: Constructor method.
+ms.assetid: 925c6c45-0990-4044-aca1-34f343f438b5
+title: CBaseControlVideo.CBaseControlVideo constructor
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.CBaseControlVideo constructor
@@ -13,11 +18,11 @@ Constructor method.
 
 ```C++
 CBaseControlVideo(
-   CBaseFilter *pFilter,
-   CCritSec    *pInterfaceLock,
-   TCHAR       *pName,
-   LPUNKNOWN   pUnk,
-   HRESULT     *phr
+   CBaseFilter *pFilter,
+   CCritSec    *pInterfaceLock,
+   TCHAR       *pName,
+   LPUNKNOWN   pUnk,
+   HRESULT     *phr
 );
 ```
 
@@ -64,9 +69,9 @@ Pointer to a variable that receives an HRESULT value indicating the success or f
 
 ## Remarks
 
-The object implements the [**IBasicVideo**](ibasicvideo.md) control interface.
+The object implements the [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) control interface.
 
-All the interface methods from [**IBasicVideo**](ibasicvideo.md) that this class implements require that the filter be connected correctly. For this reason, the class is passed a pin with which it should synchronize with. Whenever an interface method is called, the object determines that the pin is still connected.
+All the interface methods from [**IBasicVideo**](/windows/win32/Control/nn-control-ibasicvideo?branch=master) that this class implements require that the filter be connected correctly. For this reason, the class is passed a pin with which it should synchronize with. Whenever an interface method is called, the object determines that the pin is still connected.
 
 ## Requirements
 
@@ -86,9 +91,9 @@ All the interface methods from [**IBasicVideo**](ibasicvideo.md) that this class
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

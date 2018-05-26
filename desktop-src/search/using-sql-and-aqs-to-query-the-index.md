@@ -1,7 +1,12 @@
 ---
-Description: 'There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.'
-ms.assetid: '544f03b3-cdf8-4550-a6da-e4a3bfc44744'
+Description: There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.
+ms.assetid: 544f03b3-cdf8-4550-a6da-e4a3bfc44744
 title: Using SQL and AQS Approaches to Query the Index
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SQL and AQS Approaches to Query the Index
@@ -37,7 +42,7 @@ You can use the following string:
 
 `provider=Search.CollatorDSO.1;EXTENDED?PROPERTIES="Application=Windows"`
 
-Alternatively, you can get the connection string by calling [**ISearchQueryHelper::get\_ConnectionString**](-search-isearchqueryhelper-get-connectionstring.md).
+Alternatively, you can get the connection string by calling [**ISearchQueryHelper::get\_ConnectionString**](/windows/win32/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring?branch=master).
 
 > [!Note]  
 > The Windows Search OLE DB provider is read-only, and support SELECT and GROUP ON statements. INSERT and DELETE statements are not supported.
@@ -87,7 +92,7 @@ Microsoft ActiveX Data Objects (ADO) and ADO.NET enable you to write client appl
 The following code examples demonstrate how to open a connection to the data source, create and open a RecordSet with a [Windows Search SQL](-search-sql-ovwofsearchquery.md) SELECT statement, and get the URLs of the five largest files from the index.
 
 > [!Note]  
-> For information on how to obtain the connection string, see [Querying the Index with ISearchQueryHelper](-search-3x-wds-qryidx-searchqueryhelper.md), and [ISearchQueryHelper::get\_Connection String](-search-isearchqueryhelper-get-connectionstring.md).
+> For information on how to obtain the connection string, see [Querying the Index with ISearchQueryHelper](-search-3x-wds-qryidx-searchqueryhelper.md), and [ISearchQueryHelper::get\_Connection String](/windows/win32/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring?branch=master).
 
  
 
@@ -254,12 +259,12 @@ The following approaches for querying the index are AQS based.
 
 ### Using ISearchQueryHelper
 
-You can develop a component or helper class to query the index by using the [**ISearchQueryHelper**](-search-isearchqueryhelper.md) interface, which enables you to take advantage of some features of the system and simplify your use of Windows Search. This interface helps you:
+You can develop a component or helper class to query the index by using the [**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master) interface, which enables you to take advantage of some features of the system and simplify your use of Windows Search. This interface helps you:
 
 -   Obtain an OLE DB connection string to connect to the Windows Search database.
 -   Convert user queries from AQS to Windows Search SQL.
 
-This interface is implemented as a helper class to [**ISearchCatalogManager**](-search-isearchcatalogmanager.md) and is obtained by calling [**ISearchCatalogManager::GetQueryHelper**](-search-isearchcatalogmanager-getqueryhelper.md), as shown in the following C++ example.
+This interface is implemented as a helper class to [**ISearchCatalogManager**](/windows/win32/Searchapi/nn-searchapi-isearchcatalogmanager?branch=master) and is obtained by calling [**ISearchCatalogManager::GetQueryHelper**](/windows/win32/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper?branch=master), as shown in the following C++ example.
 
 
 ```
@@ -291,10 +296,10 @@ HRESULT GetQueryHelper(ISearchQueryHelper **ppQueryHelper)
 
 
 
-To implement the [**ISearchQueryHelper**](-search-isearchqueryhelper.md) interface, see [Using the ISearchQueryHelper Interface](-search-3x-wds-qryidx-searchqueryhelper.md) and the [**ISearchQueryHelper**](-search-isearchqueryhelper.md) reference topic.
+To implement the [**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master) interface, see [Using the ISearchQueryHelper Interface](-search-3x-wds-qryidx-searchqueryhelper.md) and the [**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master) reference topic.
 
 > [!Note]  
-> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and Windows Server 2003 and later, [**ISearchDesktop**](search._search_2x_ISearchDesktop) is deprecated. Instead, developers should use [**ISearchQueryHelper**](-search-isearchqueryhelper.md) to get a connection string, parse the user's query into SQL, and then query through OLE DB.
+> Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and Windows Server 2003 and later, [**ISearchDesktop**](search._search_2x_ISearchDesktop) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/win32/Searchapi/nn-searchapi-isearchqueryhelper?branch=master) to get a connection string, parse the user's query into SQL, and then query through OLE DB.
 
  
 

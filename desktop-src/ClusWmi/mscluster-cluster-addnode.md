@@ -4,13 +4,16 @@ description: Adds a node to a cluster.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa8af3c4-1553-40b2-b1b3-6f8c4f32fdf5'
-ms.prod: 'windows-server-dev'
+ms.assetid: fa8af3c4-1553-40b2-b1b3-6f8c4f32fdf5
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["AddNode method", "AddNode method, MSCluster_Cluster class", "MSCluster_Cluster class, AddNode method"]
+keywords:
+- AddNode method
+- AddNode method, MSCluster_Cluster class
+- MSCluster_Cluster class, AddNode method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # AddNode method of the MSCluster\_Cluster class
@@ -30,7 +36,7 @@ Adds a node to a cluster.
 
 ```mof
 void AddNode(
-  [in] string NodeName
+  [in] string NodeName
 );
 ```
 
@@ -62,7 +68,7 @@ The process that calls the **AddNode** method must be running on a node of the c
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -76,9 +82,9 @@ The process that calls the **AddNode** method must be running on a node of the c
 [**MSCluster\_Cluster**](mscluster-cluster.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

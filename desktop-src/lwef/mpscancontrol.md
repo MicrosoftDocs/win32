@@ -1,8 +1,9 @@
 ---
 title: MpScanControl function
 description: Allows the control of a scan that was asynchronously initiated via MpScanStart.
-ms.assetid: '00855686-8C46-4B58-829C-AEAB53888704'
-keywords: ["MpScanControl function Legacy Windows Environment Features"]
+ms.assetid: 00855686-8C46-4B58-829C-AEAB53888704
+keywords:
+- MpScanControl function Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MpClient.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MpScanControl function
@@ -22,8 +28,8 @@ Allows the control of a scan that was asynchronously initiated via [**MpScanStar
 
 ```C++
 HRESULT WINAPI MpScanControl(
-  _In_ MPHANDLE  hScanHandle,
-  _In_ MPCONTROL ScanControl
+  _In_ MPHANDLE  hScanHandle,
+  _In_ MPCONTROL ScanControl
 );
 ```
 
@@ -59,7 +65,7 @@ Specifies a scan control option. This parameter must be one of the following con
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -77,8 +83,8 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
@@ -97,9 +103,9 @@ If the function fails then the return value is a failed **HRESULT** code. The ca
 [**MpScanStart**](mpscanstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

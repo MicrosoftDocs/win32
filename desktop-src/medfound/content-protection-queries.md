@@ -1,12 +1,17 @@
 ---
-Description: 'Lists the queries for the IDirect3DAuthenticatedChannel9::Query method.'
-ms.assetid: '75e246c6-bf23-44d9-8fb3-46a6dc5324a5'
+Description: Lists the queries for the IDirect3DAuthenticatedChannel9Query method.
+ms.assetid: 75e246c6-bf23-44d9-8fb3-46a6dc5324a5
 title: Content Protection Queries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Content Protection Queries
 
-Lists the queries for the [**IDirect3DAuthenticatedChannel9::Query**](idirect3dauthenticatedchannel9-query.md) method.
+Lists the queries for the [**IDirect3DAuthenticatedChannel9::Query**](/windows/win32/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-query?branch=master) method.
 
 
 

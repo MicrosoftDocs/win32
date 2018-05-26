@@ -1,7 +1,12 @@
 ---
-Description: 'The Inactive method shuts down the worker thread that pulls data from the output pin. This method also decommits the allocator.'
-ms.assetid: '90b91686-b9a8-4196-b559-de924334f11c'
-title: 'CPullPin.Inactive method'
+Description: The Inactive method shuts down the worker thread that pulls data from the output pin. This method also decommits the allocator.
+ms.assetid: 90b91686-b9a8-4196-b559-de924334f11c
+title: CPullPin.Inactive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.Inactive method
@@ -47,9 +52,9 @@ Call this method when the owning filter becomes inactive. (If your input pin der
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: TB\_GETSTATE message
 description: Retrieves information about the state of the specified button in a toolbar, such as whether it is enabled, pressed, or checked.
-ms.assetid: 'e8a9e1ff-506f-413b-8f8c-986c25bce736'
-keywords: ["TB_GETSTATE message Windows Controls"]
+ms.assetid: e8a9e1ff-506f-413b-8f8c-986c25bce736
+keywords:
+- TB_GETSTATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_GETSTATE message
@@ -41,15 +47,15 @@ Returns the button state information if successful, or -1 otherwise. The button 
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

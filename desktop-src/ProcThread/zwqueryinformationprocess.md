@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves information about the specified process.'
-ms.assetid: 'c36c023f-7f9a-4ba5-a41f-f2f755a24eb6'
+---
+Description: Retrieves information about the specified process.
+ms.assetid: c36c023f-7f9a-4ba5-a41f-f2f755a24eb6
 title: ZwQueryInformationProcess function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ZwQueryInformationProcess function
@@ -57,7 +62,7 @@ The type of process information to be retrieved. This parameter can be one of th
 <tbody>
 <tr class="odd">
 <td><span id="ProcessBasicInformation"></span><span id="processbasicinformation"></span><span id="PROCESSBASICINFORMATION"></span><dl> <dt><strong>ProcessBasicInformation</strong></dt> <dt>0</dt> </dl></td>
-<td>Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. <br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](base.checkremotedebuggerpresent) and [<strong>GetProcessId</strong>](getprocessid.md) functions to obtain this information.<br/></td>
+<td>Retrieves a pointer to a PEB structure that can be used to determine whether the specified process is being debugged, and a unique value used by the system to identify the specified process. <br/> It is best to use the [<strong>CheckRemoteDebuggerPresent</strong>](base.checkremotedebuggerpresent) and [<strong>GetProcessId</strong>](/windows/win32/WinBase/nf-processthreadsapi-getprocessid?branch=master) functions to obtain this information.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessDebugPort"></span><span id="processdebugport"></span><span id="PROCESSDEBUGPORT"></span><dl> <dt><strong>ProcessDebugPort</strong></dt> <dt>7</dt> </dl></td>
@@ -65,7 +70,7 @@ The type of process information to be retrieved. This parameter can be one of th
 </tr>
 <tr class="odd">
 <td><span id="ProcessWow64Information"></span><span id="processwow64information"></span><span id="PROCESSWOW64INFORMATION"></span><dl> <dt><strong>ProcessWow64Information</strong></dt> <dt>26</dt> </dl></td>
-<td>Determines whether the process is running in the WOW64 environment (WOW64 is the x86 emulator that allows Win32-based applications to run on 64-bit Windows).<br/> It is best to use the [<strong>IsWow64Process</strong>](iswow64process.md) function to obtain this information.<br/></td>
+<td>Determines whether the process is running in the WOW64 environment (WOW64 is the x86 emulator that allows Win32-based applications to run on 64-bit Windows).<br/> It is best to use the [<strong>IsWow64Process</strong>](/windows/win32/WinBase/nf-wow64apiset-iswow64process?branch=master) function to obtain this information.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ProcessImageFileName"></span><span id="processimagefilename"></span><span id="PROCESSIMAGEFILENAME"></span><dl> <dt><strong>ProcessImageFileName</strong></dt> <dt>27</dt> </dl></td>
@@ -76,7 +81,7 @@ The type of process information to be retrieved. This parameter can be one of th
 <td>Retrieves a <strong>ULONG</strong> value indicating whether the process is considered critical.<br/>
 <blockquote>
 [!Note]<br />
-This value can be used starting in Windows XP with SP3. Starting in Windows 8.1, [<strong>IsProcessCritical</strong>](isprocesscritical.md) should be used instead.
+This value can be used starting in Windows XP with SP3. Starting in Windows 8.1, [<strong>IsProcessCritical</strong>](/windows/win32/processthreadsapi/nf-processthreadsapi-isprocesscritical?branch=master) should be used instead.
 </blockquote>
 <br/></td>
 </tr>
@@ -111,9 +116,9 @@ typedef struct _PROCESS_BASIC_INFORMATION {
 } PROCESS_BASIC_INFORMATION;
 ```
 
-The **UniqueProcessId** member points to the system's unique identifier for this process. It is best to use the [**GetProcessId**](getprocessid.md) function to retrieve this information.
+The **UniqueProcessId** member points to the system's unique identifier for this process. It is best to use the [**GetProcessId**](/windows/win32/WinBase/nf-processthreadsapi-getprocessid?branch=master) function to retrieve this information.
 
-The **PebBaseAddress** member points to a [**PEB**](peb.md) structure.
+The **PebBaseAddress** member points to a [**PEB**](/windows/win32/Winternl/ns-winternl-_peb?branch=master) structure.
 
 The other members of this structure are reserved for internal use by the operating system.
 
@@ -124,7 +129,7 @@ The other members of this structure are reserved for internal use by the operati
 
 When the *ProcessInformationClass* parameter is **ProcessWow64Information**, the buffer pointed to by the *ProcessInformation* parameter should be large enough to hold a **ULONG\_PTR**. If this value is nonzero, the process is running in a WOW64 environment; otherwise, if the value is equal to zero, the process is not running in a WOW64 environment.
 
-It is best to use the [**IsWow64Process**](iswow64process.md) function to determine whether a process is running in the WOW64 environment.
+It is best to use the [**IsWow64Process**](/windows/win32/WinBase/nf-wow64apiset-iswow64process?branch=master) function to determine whether a process is running in the WOW64 environment.
 
 </dd> <dt>
 
@@ -184,13 +189,13 @@ This function has no associated import library. You must use the [**LoadLibrary*
 [**CheckRemoteDebuggerPresent**](base.checkremotedebuggerpresent)
 </dt> <dt>
 
-[**GetProcessId**](getprocessid.md)
+[**GetProcessId**](/windows/win32/WinBase/nf-processthreadsapi-getprocessid?branch=master)
 </dt> <dt>
 
 [**IsDebuggerPresent**](base.isdebuggerpresent)
 </dt> <dt>
 
-[**IsWow64Process**](iswow64process.md)
+[**IsWow64Process**](/windows/win32/WinBase/nf-wow64apiset-iswow64process?branch=master)
 </dt> </dl>
 
  

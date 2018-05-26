@@ -1,8 +1,15 @@
 ---
 title: Selecting Profile Features
 description: Selecting Profile Features
-ms.assetid: '5e09000d-1417-43aa-9e9c-0aff536d52b7'
-keywords: ["profiles,feature selection", "profiles,selecting features"]
+ms.assetid: 5e09000d-1417-43aa-9e9c-0aff536d52b7
+keywords:
+- profiles,feature selection
+- profiles,selecting features
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting Profile Features
@@ -22,7 +29,7 @@ The following table lists the profile features and describes when you would or w
 
 
 
- 
+ 
 
 It is also important to consider the codec features that you want to use with your file when creating a profile. For more information see [Codec Features](codec-features.md).
 
@@ -36,9 +43,9 @@ It is also important to consider the codec features that you want to use with yo
 [**Designing Profiles**](designing-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,18 @@
 ---
-Description: 'Deletes a share name from a server''s list of shared resources, disconnecting connections to the shared resource.'
+Description: Deletes a share name from a servers list of shared resources, disconnecting connections to the shared resource.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '175f9c0e-0017-4a86-8e05-ad78e2c93c11'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 175f9c0e-0017-4a86-8e05-ad78e2c93c11
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Delete method of the Win32\_Share class'
+title: Delete method of the Win32\_Share class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Delete method of the Win32\_Share class
@@ -67,7 +70,7 @@ Returns one of the values listed in the following list, or any other value to in
 **Net name not found** (25)
 </dt> <dt>
 
-**Other** (26–4294967295)
+**Other** (26 4294967295)
 </dt> </dl>
 
 ## Remarks
@@ -122,8 +125,8 @@ Foreach ($Share in $Shares) {
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -140,9 +143,9 @@ Foreach ($Share in $Shares) {
 [**Win32\_Share**](win32-share.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

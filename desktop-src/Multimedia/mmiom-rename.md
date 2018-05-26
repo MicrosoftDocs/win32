@@ -1,8 +1,9 @@
 ---
 title: MMIOM\_RENAME message
 description: The MMIOM\_RENAME message is sent to an I/O procedure by the mmioRename function to request that the specified file be renamed.
-ms.assetid: '38a746c8-3a6f-4cb2-a5b4-c11bd1e73c8a'
-keywords: ["MMIOM_RENAME message Windows Multimedia"]
+ms.assetid: 38a746c8-3a6f-4cb2-a5b4-c11bd1e73c8a
+keywords:
+- MMIOM_RENAME message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MMIOM\_RENAME message
@@ -54,15 +60,15 @@ If the file is renamed successfully, the return value is zero. If the specified 
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

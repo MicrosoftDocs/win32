@@ -1,14 +1,20 @@
 ---
 title: EDITBOX.border
 description: The border attribute specifies or retrieves a value indicating whether the edit box control has a border. Can only be set at design time.
-ms.assetid: 'c2de5f45-af49-4780-8fda-2593a46669f5'
-keywords: ["EDITBOX.border Windows Media Player"]
+ms.assetid: c2de5f45-af49-4780-8fda-2593a46669f5
+keywords:
+- EDITBOX.border Windows Media Player
 topic_type:
 - apiref
 api_name:
 - EDITBOX.border
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITBOX.border
@@ -44,9 +50,9 @@ The border appears as a two-pixel-wide sunken border around the edit box control
 [**EDITBOX Element**](editbox-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

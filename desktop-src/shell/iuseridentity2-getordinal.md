@@ -1,7 +1,12 @@
-﻿---
-Description: 'GetOrdinal is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.'
-ms.assetid: '20b1c1d0-b09f-43a8-9026-9cdbac28c108'
-title: 'IUserIdentity2::GetOrdinal method'
+---
+Description: GetOrdinal is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+ms.assetid: 20b1c1d0-b09f-43a8-9026-9cdbac28c108
+title: IUserIdentity2GetOrdinal method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IUserIdentity2::GetOrdinal method

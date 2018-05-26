@@ -1,8 +1,14 @@
 ---
 title: Endpoints
 description: Configures a COM application to use a specified TCP port number for DCOM communications.
-ms.assetid: '2a286a13-24b8-418a-b29b-5543a1c56c45'
-keywords: ["Endpoints registry value COM"]
+ms.assetid: 2a286a13-24b8-418a-b29b-5543a1c56c45
+keywords:
+- Endpoints registry value COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Endpoints

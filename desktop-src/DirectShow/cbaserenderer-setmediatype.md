@@ -1,7 +1,12 @@
 ---
-Description: 'The SetMediaType method is called when the pin''s media type is set.'
-ms.assetid: '91d88523-006e-49fe-92f3-92825fbb323b'
-title: 'CBaseRenderer.SetMediaType method'
+Description: The SetMediaType method is called when the pins media type is set.
+ms.assetid: 91d88523-006e-49fe-92f3-92825fbb323b
+title: CBaseRenderer.SetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.SetMediaType method
@@ -13,7 +18,7 @@ The `SetMediaType` method is called when the pin's media type is set.
 
 ```C++
 virtual HRESULT SetMediaType(
-   const CMediaType *pmt
+   const CMediaType *pmt
 );
 ```
 
@@ -56,9 +61,9 @@ The input pin calls this method from its own [**CRendererInputPin::SetMediaType*
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

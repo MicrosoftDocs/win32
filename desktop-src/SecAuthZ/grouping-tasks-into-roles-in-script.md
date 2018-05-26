@@ -1,12 +1,17 @@
 ---
-Description: 'In Authorization Manager a role represents a category of users and the tasks those users are authorized to perform.'
-ms.assetid: 'a4981774-0f5c-4032-8a7d-d9ef44c76abe'
+Description: In Authorization Manager a role represents a category of users and the tasks those users are authorized to perform.
+ms.assetid: a4981774-0f5c-4032-8a7d-d9ef44c76abe
 title: Grouping Tasks into Roles in Script
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Grouping Tasks into Roles in Script
 
-In Authorization Manager, a role represents a category of users and the tasks those users are authorized to perform. Tasks are grouped together and assigned to a role definition, which is represented by an [**IAzTask**](iaztask.md) object with its [**IsRoleDefinition**](iaztask-isroledefinition.md) property set to **True**. The role definition can then be assigned to an [**IAzRole**](iazrole.md) object, and users or groups of users are then assigned to that object. For more information about tasks and roles, see [Roles](roles.md).
+In Authorization Manager, a role represents a category of users and the tasks those users are authorized to perform. Tasks are grouped together and assigned to a role definition, which is represented by an [**IAzTask**](/windows/win32/Azroles/nn-azroles-iaztask?branch=master) object with its [**IsRoleDefinition**](/windows/win32/Azroles/nf-azroles-iaztask-get_isroledefinition?branch=master) property set to **True**. The role definition can then be assigned to an [**IAzRole**](/windows/win32/Azroles/nn-azroles-iazrole?branch=master) object, and users or groups of users are then assigned to that object. For more information about tasks and roles, see [Roles](roles.md).
 
 The following example shows how to assign tasks to a role definition, create a role object, and assign the role definition to the role object. The example assumes that there is an existing XML policy store named MyStore.xml in the root directory of drive C, that this store contains an application named Expense, and that this application contains tasks named Submit Expense and Approve Expense.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'A fax routing extension is a DLL that adds routing functionality to the fax service.'
-ms.assetid: 'abf031c2-d206-40eb-9ad5-74eedb1a8423'
+Description: A fax routing extension is a DLL that adds routing functionality to the fax service.
+ms.assetid: abf031c2-d206-40eb-9ad5-74eedb1a8423
 title: Fax Routing Extensions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Routing Extensions

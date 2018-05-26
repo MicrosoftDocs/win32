@@ -4,17 +4,22 @@ description: Share flags of a Distributed File System resource.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '81ca801c-647f-4a72-8cfa-36d85e1ccbab'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 81ca801c-647f-4a72-8cfa-36d85e1ccbab
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["ShareFlags Failover Cluster , for Distributed File System private properties", "ShareFlags Failover Cluster"]
+keywords:
+- ShareFlags Failover Cluster , for Distributed File System private properties
+- ShareFlags Failover Cluster
 topic_type:
 - apiref
 api_name:
 - ShareFlags
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ShareFlags
@@ -28,14 +33,14 @@ Stores the share flags of a Distributed File System resource. The following tabl
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xF30                                     |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -64,7 +69,7 @@ ShareFlagsValue.dw        = ShareFlagsData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -75,12 +80,12 @@ ShareFlagsValue.dw        = ShareFlagsData;
 [Distributed File System Private Properties](distributed-file-system-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for file operation end events. The following syntax is simplified from MOF code.'
-ms.assetid: '3925d5bf-f412-4248-a61f-e667efa9debd'
-title: 'FileIo\_OpEnd class'
+---
+Description: This class is the event type class for file operation end events. The following syntax is simplified from MOF code.
+ms.assetid: 3925d5bf-f412-4248-a61f-e667efa9debd
+title: FileIo\_OpEnd class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileIo\_OpEnd class

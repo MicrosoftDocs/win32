@@ -4,17 +4,22 @@ description: The job category for an employee.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'f4370a11-1ea5-4497-945e-01d343f4149f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: f4370a11-1ea5-4497-945e-01d343f4149f
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Employee-Type attribute AD Schema", "employeeType attribute AD Schema"]
+keywords:
+- Employee-Type attribute AD Schema
+- employeeType attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Employee-Type
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Employee-Type attribute

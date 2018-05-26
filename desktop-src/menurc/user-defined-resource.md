@@ -1,8 +1,14 @@
 ---
 title: User-Defined Resource
 description: A user-defined resource-definition statement defines a resource that contains application-specific data.
-ms.assetid: 'b1cfec71-5733-4900-97f6-c1cbb350c728'
-keywords: ["user-defined resource"]
+ms.assetid: b1cfec71-5733-4900-97f6-c1cbb350c728
+keywords:
+- user-defined resource
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User-Defined Resource

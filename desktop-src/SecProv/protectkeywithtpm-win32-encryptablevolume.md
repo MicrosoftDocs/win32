@@ -1,7 +1,12 @@
-﻿---
-Description: 'If the Trusted Platform Module (TPM) is available, this method secures the volume''s encryption key.'
-ms.assetid: '79bee9ca-c86a-482b-a06f-1cfb887e7fae'
-title: 'ProtectKeyWithTPM method of the Win32\_EncryptableVolume class'
+---
+Description: If the Trusted Platform Module (TPM) is available, this method secures the volumes encryption key.
+ms.assetid: 79bee9ca-c86a-482b-a06f-1cfb887e7fae
+title: ProtectKeyWithTPM method of the Win32\_EncryptableVolume class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProtectKeyWithTPM method of the Win32\_EncryptableVolume class

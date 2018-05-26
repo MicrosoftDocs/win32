@@ -1,7 +1,12 @@
 ---
-Description: 'This topic is step 5 of the tutorial Audio/Video Playback in DirectShow.'
-ms.assetid: '9d7a40e0-4327-4ca3-b430-2be02f80c16f'
-title: 'Step 5: Add Video Functionality'
+Description: This topic is step 5 of the tutorial Audio/Video Playback in DirectShow.
+ms.assetid: 9d7a40e0-4327-4ca3-b430-2be02f80c16f
+title: Step 5 Add Video Functionality
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 5: Add Video Functionality
@@ -31,7 +36,7 @@ HRESULT CEVR::Repaint(HWND hwnd, HDC hdc)
 
 
 
-For the [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9), call [**IVMRWindowlessControl9::RepaintVideo**](ivmrwindowlesscontrol9-repaintvideo.md).
+For the [Video Mixing Renderer Filter 9](video-mixing-renderer-filter-9.md) (VMR-9), call [**IVMRWindowlessControl9::RepaintVideo**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-repaintvideo?branch=master).
 
 
 ```C++
@@ -50,7 +55,7 @@ HRESULT CVMR9::Repaint(HWND hwnd, HDC hdc)
 
 
 
-For the [Video Mixing Renderer Filter 7](video-mixing-renderer-filter-7.md) (VMR-7), call [**IVMRWindowlessControl::RepaintVideo**](ivmrwindowlesscontrol-repaintvideo.md).
+For the [Video Mixing Renderer Filter 7](video-mixing-renderer-filter-7.md) (VMR-7), call [**IVMRWindowlessControl::RepaintVideo**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo?branch=master).
 
 
 ```C++
@@ -98,7 +103,7 @@ HRESULT CEVR::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
 
 
 
-For the VMR-9, call [**IVMRWindowlessControl9::SetVideoPosition**](ivmrwindowlesscontrol9-setvideoposition.md).
+For the VMR-9, call [**IVMRWindowlessControl9::SetVideoPosition**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoposition?branch=master).
 
 
 ```C++
@@ -125,7 +130,7 @@ HRESULT CVMR9::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
 
 
 
-For the VMR-7, call [**IVMRWindowlessControl::SetVideoPosition**](ivmrwindowlesscontrol-setvideoposition.md).
+For the VMR-7, call [**IVMRWindowlessControl::SetVideoPosition**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition?branch=master).
 
 
 ```C++
@@ -153,7 +158,7 @@ HRESULT CVMR7::UpdateVideoWindow(HWND hwnd, const LPRECT prc)
 
 ### Handle WM\_DISPLAYCHANGE Messages
 
-If the display mode changes, you must notify the VMR-9 or VMR-7 filter. For the VMR-9, call [**IVMRWindowlessControl9::DisplayModeChanged**](ivmrwindowlesscontrol9-displaymodechanged.md).
+If the display mode changes, you must notify the VMR-9 or VMR-7 filter. For the VMR-9, call [**IVMRWindowlessControl9::DisplayModeChanged**](/windows/win32/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-displaymodechanged?branch=master).
 
 
 ```C++
@@ -172,7 +177,7 @@ HRESULT CVMR9::DisplayModeChanged()
 
 
 
-For the VMR-7, call [**IVMRWindowlessControl::DisplayModeChanged**](ivmrwindowlesscontrol-displaymodechanged.md).
+For the VMR-7, call [**IVMRWindowlessControl::DisplayModeChanged**](/windows/win32/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged?branch=master).
 
 
 ```C++

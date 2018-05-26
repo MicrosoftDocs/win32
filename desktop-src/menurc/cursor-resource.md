@@ -1,14 +1,20 @@
 ---
 title: CURSOR resource
 description: Defines a bitmap that defines the shape of the cursor on the display screen or an animated cursor.
-ms.assetid: 'c087abca-5502-4625-8c9b-464e1718571f'
-keywords: ["CURSOR resource Menus and Other Resources"]
+ms.assetid: c087abca-5502-4625-8c9b-464e1718571f
+keywords:
+- CURSOR resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - CURSOR
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CURSOR resource

@@ -1,8 +1,11 @@
 ---
 title: IPropertyFilter IndexColumn property
 description: Indexed column name of the property to filter by.
-ms.assetid: '18ce0c89-bdaa-4f83-bf03-c11b55a842f5'
-keywords: ["IndexColumn property Legacy Windows Environment Features", "IndexColumn property Legacy Windows Environment Features , IPropertyFilter interface", "IPropertyFilter interface Legacy Windows Environment Features , IndexColumn property"]
+ms.assetid: 18ce0c89-bdaa-4f83-bf03-c11b55a842f5
+keywords:
+- IndexColumn property Legacy Windows Environment Features
+- IndexColumn property Legacy Windows Environment Features , IPropertyFilter interface
+- IPropertyFilter interface Legacy Windows Environment Features , IndexColumn property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsSharedIDL.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPropertyFilter::IndexColumn property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_IndexColumn(
-  [in]          BSTR column
+  [in]          BSTR column
 );
 
 HRESULT get_IndexColumn(
-  [out, retval] BSTR *column
+  [out, retval] BSTR *column
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the Column property.
 
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                      |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                             |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | Header<br/>                   | <dl> <dt>WdsSharedIDL.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

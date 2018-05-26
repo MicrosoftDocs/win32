@@ -1,7 +1,12 @@
 ---
 Description: Printer Graphics DLL Functions
-ms.assetid: '1b05f441-2de0-4a9b-8450-d63875d7f8d1'
+ms.assetid: 1b05f441-2de0-4a9b-8450-d63875d7f8d1
 title: Printer Graphics DLL Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Printer Graphics DLL Functions

@@ -1,14 +1,20 @@
 ---
 title: WavePrefixSum function
 description: Returns the sum of all of the values in the active lanes with smaller indices than this one.
-ms.assetid: 'F51B90AB-3E85-4521-8A2C-7C16A4ECB1F9'
-keywords: ["WavePrefixSum function HLSL"]
+ms.assetid: F51B90AB-3E85-4521-8A2C-7C16A4ECB1F9
+keywords:
+- WavePrefixSum function HLSL
 topic_type:
 - apiref
 api_name:
 - WavePrefixSum
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WavePrefixSum function

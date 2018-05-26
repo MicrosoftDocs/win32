@@ -1,15 +1,18 @@
-﻿---
-Description: 'The Microsoft&\#160;Win32 provider retrieves and updates data relevant to Windows systems&\#8212;data such as the current settings of environment variables and the attributes of a logical disk.'
+---
+Description: The Microsoft&\#160;Win32 provider retrieves and updates data relevant to Windows systems&\#8212;data such as the current settings of environment variables and the attributes of a logical disk.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '71c13736-0504-4d50-b8a4-5d68d4ba9a90'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 71c13736-0504-4d50-b8a4-5d68d4ba9a90
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Win32 Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32 Provider

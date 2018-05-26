@@ -1,7 +1,12 @@
 ---
-Description: 'When I use peak-constrained VBR, the average bit rate retrieved from the codec object is larger than the peak bit rate.'
-ms.assetid: '5fc344f8-4492-4878-802a-94606c5f33e0'
-title: 'When I use peak-constrained VBR, the average bit rate retrieved from the codec object is larger than the peak bit rate. How is that possible?'
+Description: When I use peak-constrained VBR, the average bit rate retrieved from the codec object is larger than the peak bit rate.
+ms.assetid: 5fc344f8-4492-4878-802a-94606c5f33e0
+title: When I use peak-constrained VBR, the average bit rate retrieved from the codec object is larger than the peak bit rate. How is that possible?
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # When I use peak-constrained VBR, the average bit rate retrieved from the codec object is larger than the peak bit rate. How is that possible?

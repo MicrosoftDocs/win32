@@ -1,15 +1,18 @@
 ---
-Description: 'Retrieves and updates settings for Work Folders Sync Share server.'
+Description: Retrieves and updates settings for Work Folders Sync Share server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'b6c4247e-9246-455a-af42-3f002d0c9567'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: b6c4247e-9246-455a-af42-3f002d0c9567
+ms.prod: windows-server-dev
 ms.technology:
-- 'work-folders'
-- 'windows-management-instrumentation'
+- work-folders
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Msft\_SyncServerSetting class'
+title: Msft\_SyncServerSetting class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Msft\_SyncServerSetting class
@@ -24,12 +27,12 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("SyncShareServerWmiProvider")]
 class Msft_SyncServerSetting
 {
-  string  Server;
-  string  Description;
-  string  AdministratorEmail;
-  string  ADFSUrl;
-  string  SuspendedUser[];
-  uint32  MinimumChangeDetectionMins;
+  string  Server;
+  string  Description;
+  string  AdministratorEmail;
+  string  ADFSUrl;
+  string  SuspendedUser[];
+  uint32  MinimumChangeDetectionMins;
   boolean SSLCertificateEnabled;
 };
 ```
@@ -146,8 +149,8 @@ Gets or sets a user that is not permitted to synchronize on the server.
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                           |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\SyncShareServer<br/>                                        |
 | MOF<br/>                      | <dl> <dt>ECSServer.Mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>SyncShareSvc.dll</dt> </dl> |
@@ -161,9 +164,9 @@ Gets or sets a user that is not permitted to synchronize on the server.
 [Work Folders Management Classes](sync-share-server-management-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

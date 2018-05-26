@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves the reply APDU''s message status word.'
-ms.assetid: 'c8a4b713-4ae9-49f2-a623-6ee305123638'
-title: 'ISCardCmd::get\_ReplyStatus method'
+---
+Description: Retrieves the reply APDUs message status word.
+ms.assetid: c8a4b713-4ae9-49f2-a623-6ee305123638
+title: ISCardCmdget\_ReplyStatus method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISCardCmd::get\_ReplyStatus method

@@ -1,14 +1,22 @@
 ---
 title: StreamSelectOperation.GetResults method
 description: Returns the results of the asynchronous operation started by SelectBestStreamAsync.
-ms.assetid: '2D9887E7-17C8-4161-984F-FA44591D2052'
-keywords: ["GetResults method Media Streaming API", "GetResults method Media Streaming API , StreamSelectOperation interface", "StreamSelectOperation interface Media Streaming API , GetResults method"]
+ms.assetid: 2D9887E7-17C8-4161-984F-FA44591D2052
+keywords:
+- GetResults method Media Streaming API
+- GetResults method Media Streaming API , StreamSelectOperation interface
+- StreamSelectOperation interface Media Streaming API , GetResults method
 topic_type:
 - apiref
 api_name:
 - StreamSelectOperation.GetResults
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StreamSelectOperation.GetResults method
@@ -20,7 +28,7 @@ Returns the results of the asynchronous operation started by [**SelectBestStream
 
 ```C++
 HRESULT GetResults(
-  [out, retval] UINT32 *value
+  [out, retval] UINT32 *value
 );
 ```
 
@@ -45,7 +53,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -54,9 +62,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**StreamSelectOperation**](streamselectoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

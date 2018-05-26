@@ -1,14 +1,16 @@
 ---
 title: Win32\_TSVirtualIP class
-description: Defines Internet protocol (IP) virtualization settings for a Remote Desktop Session Host (RD Session Host) server.
+description: Defines Internet protocol (IP) virtualization settings for a Remote Desktop Session Host (RD Session Host) server.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c37d572c-f6db-438b-8290-006a623c6593'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: c37d572c-f6db-438b-8290-006a623c6593
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_TSVirtualIP class Remote Desktop Services", "Win32_TSVirtualIP class Remote Desktop Services , described"]
+keywords:
+- Win32_TSVirtualIP class Remote Desktop Services
+- Win32_TSVirtualIP class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -34,11 +36,14 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_TSVirtualIP class
 
-Defines Internet protocol (IP) virtualization settings for a Remote Desktop Session Host (RD Session Host) server.
+Defines Internet protocol (IP) virtualization settings for a Remote Desktop Session Host (RD Session Host) server.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
@@ -48,23 +53,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_WIN32_TSVIRTUALIP_Prov"), ClassContext("local|hkey_local_machine\\SYSTEM\\CurrentControlSet\\Control\\TerminalServer\\TSAppSrv\\VirtualIP"), AMENDMENT]
 class Win32_TSVirtualIP : CIM_Setting
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  uint32   VirtualIPActive;
-  uint32   PolicySourceVirtualIPActive;
-  uint32   VirtualIPMode;
-  uint32   PolicySourceVirtualIPMode;
-  string   ProgramList[];
-  uint32   PolicySourceProgramList;
-  string   NetworkAdapterDescription;
-  string   NetworkAdapterMacAddress;
-  uint32   PolicySourceNetworkAdapter;
-  string   NetworkAdapterDescriptionList[];
-  string   NetworkAdapterMacList[];
-  uint32   VirtualizeLoopbackAddressesEnabled;
+  string   Name;
+  string   Status;
+  uint32   VirtualIPActive;
+  uint32   PolicySourceVirtualIPActive;
+  uint32   VirtualIPMode;
+  uint32   PolicySourceVirtualIPMode;
+  string   ProgramList[];
+  uint32   PolicySourceProgramList;
+  string   NetworkAdapterDescription;
+  string   NetworkAdapterMacAddress;
+  uint32   PolicySourceNetworkAdapter;
+  string   NetworkAdapterDescriptionList[];
+  string   NetworkAdapterMacList[];
+  uint32   VirtualizeLoopbackAddressesEnabled;
 };
 ```
 
@@ -89,11 +94,11 @@ The **Win32\_TSVirtualIP** class has these methods.
 | [**SetProgramList**](setprogramlist-win32-tsvirtualip.md)                                               | Overwrites the list of programs that use IP virtualization.<br/>                                                                                                       |
 | [**SetVirtualIPActive**](setvirtualipactive-win32-tsvirtualip.md)                                       | Sets the **VirtualIPActive** property value.<br/>                                                                                                                      |
 | [**SetVirtualIPMode**](setvirtualipmode-win32-tsvirtualip.md)                                           | Sets the **VirtualIPMode** property value.<br/>                                                                                                                        |
-| [**SetVirtualizeLoopbackAddressesEnabled**](setvirtualizeloopbackaddressesenabled-win32-tsvirtualip.md) | Sets the **VirtualizeLoopbackAddressesEnabled** property value.<br/> **Windows Server 2008 R2:** This method is not available prior to Windows Server 2012.<br/> |
+| [**SetVirtualizeLoopbackAddressesEnabled**](setvirtualizeloopbackaddressesenabled-win32-tsvirtualip.md) | Sets the **VirtualizeLoopbackAddressesEnabled** property value.<br/> **Windows Server 2008 R2:** This method is not available prior to Windows Server 2012.<br/> |
 
 
 
- 
+ 
 
 ### Properties
 
@@ -512,7 +517,7 @@ Access type: Read-only
 
 Specifies whether loopback address virtualization is enabled.
 
-**Windows Server 2008 R2:** This property is not available prior to Windows Server 2012.
+**Windows Server 2008 R2:** This property is not available prior to Windows Server 2012.
 
 <dt>
 
@@ -551,16 +556,16 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

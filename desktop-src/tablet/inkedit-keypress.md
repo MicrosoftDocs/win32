@@ -1,7 +1,12 @@
 ---
-Description: 'Occurs when the user presses and releases a key while the InkEdit control has focus.'
-ms.assetid: '8284ab41-dfac-4da2-b101-6968a43b15d7'
-title: 'InkEdit.KeyPress event'
+Description: Occurs when the user presses and releases a key while the InkEdit control has focus.
+ms.assetid: 8284ab41-dfac-4da2-b101-6968a43b15d7
+title: InkEdit.KeyPress event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InkEdit.KeyPress event
@@ -13,7 +18,7 @@ Occurs when the user presses and releases a key while the [InkEdit](inkedit-cont
 
 ```C++
 HRESULT KeyPress(
-   Long *Char
+   Long *Char
 );
 ```
 
@@ -44,7 +49,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Inked.h (also requires inked\_i.c)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
@@ -64,9 +69,9 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 [**KeyUp Event \[InkEdit Control\]**](inkedit-keyup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

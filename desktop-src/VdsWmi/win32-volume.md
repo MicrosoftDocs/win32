@@ -1,8 +1,10 @@
 ---
 title: Win32\_Volume class
 description: The Win32\_Volume class represents an area of storage on a hard disk.
-ms.assetid: '21a33e2b-5f31-459f-8b08-b991e2edc547'
-keywords: ["Win32_Volume class", "Win32_Volume class, described"]
+ms.assetid: 21a33e2b-5f31-459f-8b08-b991e2edc547
+keywords:
+- Win32_Volume class
+- Win32_Volume class, described
 topic_type:
 - apiref
 api_name:
@@ -52,13 +54,18 @@ api_location:
 - Vdswmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_Volume class
 
 The **Win32\_Volume** class represents an area of storage on a hard disk. The class returns local volumes that are formatted, unformatted, mounted, or offline. A volume is formatted by using a file system, such as FAT or NTFS, and might have a drive letter assigned to it. One hard disk can have multiple volumes, and volumes can span multiple physical disks. The **Win32\_Volume** class does not support disk drive management.
 
-**Windows XP and earlier:** This class is not available.
+**Windows XP and earlier:** This class is not available.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -67,47 +74,47 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 ``` syntax
 class Win32_Volume : CIM_StorageVolume
 {
-  uint16   Access;
-  boolean  Automount;
-  uint16   Availability;
-  uint64   BlockSize;
-  uint64   Capacity;
-  string   Caption;
-  boolean  Compressed;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  DirtyBitSet;
-  string   DriveLetter;
-  uint32   DriveType;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
-  string   FileSystem;
-  uint64   FreeSpace;
-  boolean  IndexingEnabled;
+  uint16   Access;
+  boolean  Automount;
+  uint16   Availability;
+  uint64   BlockSize;
+  uint64   Capacity;
+  string   Caption;
+  boolean  Compressed;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  DirtyBitSet;
+  string   DriveLetter;
+  uint32   DriveType;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
+  string   FileSystem;
+  uint64   FreeSpace;
+  boolean  IndexingEnabled;
   datetime InstallDate;
-  string   Label;
-  uint32   LastErrorCode;
-  uint32   MaximumFileNameLength;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   PNPDeviceID;
+  string   Label;
+  uint32   LastErrorCode;
+  uint32   MaximumFileNameLength;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   PNPDeviceID;
   uint16[] PowerManagementCapabilities;
-  boolean  PowerManagementSupported;
-  string   Purpose;
-  boolean  QuotasEnabled;
-  boolean  QuotasIncomplete;
-  boolean  QuotasRebuilding;
-  string   Status;
-  uint16   StatusInfo;
-  string   SystemCreationClassName;
-  string   SystemName;
-  uint32   SerialNumber;
-  boolean  SupportsDiskQuotas;
-  boolean  SupportsFileBasedCompression;
+  boolean  PowerManagementSupported;
+  string   Purpose;
+  boolean  QuotasEnabled;
+  boolean  QuotasIncomplete;
+  boolean  QuotasRebuilding;
+  string   Status;
+  uint16   StatusInfo;
+  string   SystemCreationClassName;
+  string   SystemName;
+  uint32   SerialNumber;
+  boolean  SupportsDiskQuotas;
+  boolean  SupportsFileBasedCompression;
 };
 ```
 
@@ -138,7 +145,7 @@ The **Win32\_Volume** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -169,7 +176,7 @@ Describes whether the media is readable. This property is inherited from [**CIM\
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -225,7 +232,7 @@ Describes the availability and status of the device. Inherited from [**CIM\_Logi
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -335,7 +342,7 @@ Indicates the Win32 Configuration Manager error code. This can be one of the fol
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -447,7 +454,7 @@ The values are:
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -581,7 +588,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Maximum length, in characters, of a filename component supported by a Windows drive. A filename component is the portion of a filename between backslashes. This value can be used to indicate that long names are supported by the file system. For example, for a FAT file system that supports long names, the property stores the value 255—not the previous 8.3 indicator. Long names can be supported on systems that use the NTFS file system.
+Maximum length, in characters, of a filename component supported by a Windows drive. A filename component is the portion of a filename between backslashes. This value can be used to indicate that long names are supported by the file system. For example, for a FAT file system that supports long names, the property stores the value 255 not the previous 8.3 indicator. Long names can be supported on systems that use the NTFS file system.
 
 Example: 255
 
@@ -654,7 +661,7 @@ Indicates the specific power-related capabilities of the logical device. This ca
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -814,7 +821,7 @@ Indicates the state of the logical device. This can be one of the following valu
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -872,7 +879,7 @@ Indicates the system's name.
 
 ## Examples
 
-The [Two WMI Functions](http://gallery.technet.microsoft.com/Two-WMI-Functions-94c31b5f) PowerShell example in the TechNet Gallery use **Win32\_Volume** to recreate the Windows 8 get-Volume cmdlet.
+The [Two WMI Functions](http://gallery.technet.microsoft.com/Two-WMI-Functions-94c31b5f) PowerShell example in the TechNet Gallery use **Win32\_Volume** to recreate the Windows 8 get-Volume cmdlet.
 
 The following PowerShell sample retrieves the allocation size of the drives on the target system.
 
@@ -905,7 +912,7 @@ foreach ($vol in $volumes) {
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                        |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>Vds.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Vdswmi.dll</dt> </dl> |
@@ -931,9 +938,9 @@ foreach ($vol in $volumes) {
 [**Win32\_MountPoint**](win32-mountpoint.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

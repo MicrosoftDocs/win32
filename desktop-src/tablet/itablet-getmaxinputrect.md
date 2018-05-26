@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves a rectangle that represents maximum input area of the tablet.'
-ms.assetid: '98facd24-b019-40d1-afe1-28c9a78cae80'
-title: 'ITablet::GetMaxInputRect method'
+Description: Retrieves a rectangle that represents maximum input area of the tablet.
+ms.assetid: 98facd24-b019-40d1-afe1-28c9a78cae80
+title: ITabletGetMaxInputRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITablet::GetMaxInputRect method
@@ -13,7 +18,7 @@ Retrieves a rectangle that represents maximum input area of the tablet.
 
 ```C++
 HRESULT GetMaxInputRect(
-  [out] RECT *prcInput
+  [out] RECT *prcInput
 );
 ```
 
@@ -43,7 +48,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -51,7 +56,7 @@ This method can return one of these values.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |
 | Library<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
@@ -64,9 +69,9 @@ This method can return one of these values.
 [**ITablet Interface**](itablet.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxJobs object represents a collection of FaxJob objects.'
-ms.assetid: '9df2f27f-b0a6-4ba5-920b-320dd83f6e40'
+---
+Description: The FaxJobs object represents a collection of FaxJob objects.
+ms.assetid: 9df2f27f-b0a6-4ba5-920b-320dd83f6e40
 title: FaxJobs object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxJobs object

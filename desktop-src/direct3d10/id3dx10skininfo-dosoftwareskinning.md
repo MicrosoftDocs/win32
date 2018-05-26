@@ -1,7 +1,12 @@
-﻿---
-Description: 'Do software skinning on an array of vertices.'
-ms.assetid: '6c1a713f-4ae7-4ee2-afa6-079dd8354fe7'
-title: 'ID3DX10SkinInfo::DoSoftwareSkinning method'
+---
+Description: Do software skinning on an array of vertices.
+ms.assetid: 6c1a713f-4ae7-4ee2-afa6-079dd8354fe7
+title: ID3DX10SkinInfoDoSoftwareSkinning method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DX10SkinInfo::DoSoftwareSkinning method

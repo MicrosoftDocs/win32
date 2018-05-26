@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.'
-ms.assetid: '404a667c-ab8e-4490-b676-c49424dacd63'
-title: 'FaxDoc.RecipientCountry property'
+---
+Description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.
+ms.assetid: 404a667c-ab8e-4490-b676-c49424dacd63
+title: FaxDoc.RecipientCountry property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientCountry property
@@ -55,7 +60,7 @@ The **get\_RecipientCountry** method allocates the memory required for the buffe
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

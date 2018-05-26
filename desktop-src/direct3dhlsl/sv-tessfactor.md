@@ -1,14 +1,20 @@
 ---
 title: SV\_TessFactor
 description: Defines the tessellation amount on each edge of a patch.
-ms.assetid: '970ff744-da5b-4933-866c-dd38b85fb48d'
-keywords: ["SV_TessFactor HLSL"]
+ms.assetid: 970ff744-da5b-4933-866c-dd38b85fb48d
+keywords:
+- SV_TessFactor HLSL
 topic_type:
 - apiref
 api_name:
 - SV_TessFactor
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SV\_TessFactor

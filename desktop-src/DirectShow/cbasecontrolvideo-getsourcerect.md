@@ -1,7 +1,12 @@
 ---
-Description: 'The GetSourceRect method retrieves the source rectangle. This is an internal method.'
-ms.assetid: '51028b79-6aab-4abc-8ee8-2965bda9d191'
-title: 'CBaseControlVideo.GetSourceRect method'
+Description: The GetSourceRect method retrieves the source rectangle. This is an internal method.
+ms.assetid: 51028b79-6aab-4abc-8ee8-2965bda9d191
+title: CBaseControlVideo.GetSourceRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.GetSourceRect method
@@ -13,7 +18,7 @@ The `GetSourceRect` method retrieves the source rectangle. This is an internal m
 
 ```C++
 virtual HRESULT GetSourceRect(
-   RECT *pSourceRect
+   RECT *pSourceRect
 ) = 0;
 ```
 
@@ -83,9 +88,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

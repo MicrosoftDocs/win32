@@ -1,8 +1,50 @@
 ---
 title: Using Predefined Shapes
 description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
-ms.assetid: '9a2e8b5a-b1d0-4a73-b058-24dac1f0b655'
-keywords: ["Web workshop,predefined shapes", "designing Web pages,predefined shapes", "Vector Markup Language (VML),predefined shapes", "VML (Vector Markup Language),predefined shapes", "vector graphics,predefined shapes", "VML shapes,predefined", "predefined shapes", "Vector Markup Language (VML),rect element", "VML (Vector Markup Language),rect element", "vector graphics,rect element", "rect element", "VML elements,rect", "Vector Markup Language (VML),roundrect element", "VML (Vector Markup Language),roundrect element", "vector graphics,roundrect element", "roundrect element", "VML elements,roundrect", "Vector Markup Language (VML),line element", "VML (Vector Markup Language),line element", "vector graphics,line element", "line element", "VML elements,line", "Vector Markup Language (VML),polyline element", "VML (Vector Markup Language),polyline element", "vector graphics,polyline element", "polyline element", "VML elements,polyline", "Vector Markup Language (VML),curve element", "VML (Vector Markup Language),curve element", "vector graphics,curve element", "curve element", "VML elements,curve", "Vector Markup Language (VML),arc element", "VML (Vector Markup Language),arc element", "vector graphics,arc element", "arc element", "VML elements,arc"]
+ms.assetid: 9a2e8b5a-b1d0-4a73-b058-24dac1f0b655
+keywords:
+- Web workshop,predefined shapes
+- designing Web pages,predefined shapes
+- Vector Markup Language (VML),predefined shapes
+- VML (Vector Markup Language),predefined shapes
+- vector graphics,predefined shapes
+- VML shapes,predefined
+- predefined shapes
+- Vector Markup Language (VML),rect element
+- VML (Vector Markup Language),rect element
+- vector graphics,rect element
+- rect element
+- VML elements,rect
+- Vector Markup Language (VML),roundrect element
+- VML (Vector Markup Language),roundrect element
+- vector graphics,roundrect element
+- roundrect element
+- VML elements,roundrect
+- Vector Markup Language (VML),line element
+- VML (Vector Markup Language),line element
+- vector graphics,line element
+- line element
+- VML elements,line
+- Vector Markup Language (VML),polyline element
+- VML (Vector Markup Language),polyline element
+- vector graphics,polyline element
+- polyline element
+- VML elements,polyline
+- Vector Markup Language (VML),curve element
+- VML (Vector Markup Language),curve element
+- vector graphics,curve element
+- curve element
+- VML elements,curve
+- Vector Markup Language (VML),arc element
+- VML (Vector Markup Language),arc element
+- vector graphics,arc element
+- arc element
+- VML elements,arc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Predefined Shapes

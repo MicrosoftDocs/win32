@@ -1,7 +1,12 @@
 ---
 title: Video Control Overview
 description: Video Control Overview
-ms.assetid: '2757619a-32f9-41db-938d-792d4cafe254'
+ms.assetid: 2757619a-32f9-41db-938d-792d4cafe254
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Video Control Overview

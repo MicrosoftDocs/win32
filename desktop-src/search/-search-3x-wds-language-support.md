@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes how Windows Search supports multiple languages.'
-ms.assetid: 'a800d2ac-3aee-4e74-a29a-a70355138ebc'
+Description: This topic describes how Windows Search supports multiple languages.
+ms.assetid: a800d2ac-3aee-4e74-a29a-a70355138ebc
 title: Languages Supported by Windows Search
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Languages Supported by Windows Search
@@ -42,7 +47,7 @@ HKEY_LOCAL_MACHINE
 
 When Windows Search requires a new wordbreaker, the class identifier (CLSID) is read, and the instantiated wordbreaker is cached.
 
-You can create a custom wordbreaker for a language by implementing the [**IWordBreaker**](-search-iwordbreaker.md) interface. Windows Search then calls the **IWordBreaker** methods when it builds content indexes and runs queries.
+You can create a custom wordbreaker for a language by implementing the [**IWordBreaker**](/windows/win32/Indexsrv/nn-indexsrv-iwordbreaker?branch=master) interface. Windows Search then calls the **IWordBreaker** methods when it builds content indexes and runs queries.
 
 Locale information for indexed content is retrieved from the source of the content. If the source implementer does not know the locale of the indexed content, it should set the locale to [**LOCALE\_NEUTRAL**](intl.locale_neutral).
 

@@ -1,8 +1,35 @@
 ---
 title: An Example Radio Station Playlist
 description: An Example Radio Station Playlist
-ms.assetid: '99b33036-6391-446c-816c-8d5d76107d37'
-keywords: ["Windows Media metafile playlists,playlist examples", "playlists,playlist examples", "metafile playlists,playlist examples", "Windows Media metafile playlists,example playlists", "playlists,example playlists", "metafile playlists,example playlists", "Windows Media metafile playlists,sample playlists", "playlists,sample playlists", "metafile playlists,sample playlists", "Windows Media metafile playlists,code example", "playlists,code example", "metafile playlists,code example", "Windows Media metafile playlists,radio station playlist example", "playlists,radio station playlist example", "metafile playlists,radio station playlist example", "Windows Media Player,playlist examples", "Windows Media Player,example playlists", "Windows Media Player,sample playlists", "Windows Media Player,radio station playlist example", "playlist examples", "example playlists", "sample playlists"]
+ms.assetid: 99b33036-6391-446c-816c-8d5d76107d37
+keywords:
+- Windows Media metafile playlists,playlist examples
+- playlists,playlist examples
+- metafile playlists,playlist examples
+- Windows Media metafile playlists,example playlists
+- playlists,example playlists
+- metafile playlists,example playlists
+- Windows Media metafile playlists,sample playlists
+- playlists,sample playlists
+- metafile playlists,sample playlists
+- Windows Media metafile playlists,code example
+- playlists,code example
+- metafile playlists,code example
+- Windows Media metafile playlists,radio station playlist example
+- playlists,radio station playlist example
+- metafile playlists,radio station playlist example
+- Windows Media Player,playlist examples
+- Windows Media Player,example playlists
+- Windows Media Player,sample playlists
+- Windows Media Player,radio station playlist example
+- playlist examples
+- example playlists
+- sample playlists
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # An Example Radio Station Playlist

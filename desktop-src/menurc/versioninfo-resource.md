@@ -1,14 +1,20 @@
 ---
 title: VERSIONINFO resource
 description: Defines a version-information resource. The resource contains such information about the file as its version number, its intended operating system, and its original filename. The resource is intended to be used with the Version Information functions.
-ms.assetid: 'be4fbf3d-ca30-4de1-b17a-691a316edfad'
-keywords: ["VERSIONINFO resource Menus and Other Resources"]
+ms.assetid: be4fbf3d-ca30-4de1-b17a-691a316edfad
+keywords:
+- VERSIONINFO resource Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - VERSIONINFO
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VERSIONINFO resource

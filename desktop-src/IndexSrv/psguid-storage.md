@@ -1,8 +1,14 @@
 ---
 title: PSGUID\_STORAGE
 description: PSGUID\_STORAGE
-ms.assetid: '6c095e28-ca06-43b1-8d3a-b481e8417625'
-keywords: ["PSGUID_STORAGE"]
+ms.assetid: 6c095e28-ca06-43b1-8d3a-b481e8417625
+keywords:
+- PSGUID_STORAGE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSGUID\_STORAGE

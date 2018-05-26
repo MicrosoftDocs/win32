@@ -4,11 +4,12 @@ description: The property methods of the IGPMConstants interface get the propert
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '93221fe3-bce8-4a36-8e6d-a43d37872295'
-ms.prod: 'windows-server-dev'
-ms.technology: 'group-policy'
+ms.assetid: 93221fe3-bce8-4a36-8e6d-a43d37872295
+ms.prod: windows-server-dev
+ms.technology: group-policy
 ms.tgt_platform: multiple
-keywords: ["IGPMConstants Property Methods GPMC"]
+keywords:
+- IGPMConstants Property Methods GPMC
 topic_type:
 - apiref
 api_name:
@@ -131,13 +132,16 @@ api_location:
 - Gpmgmt.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IGPMConstants Property Methods
 
-The property methods of the [**IGPMConstants**](igpmconstants.md) interface get the properties that are described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the Active Directory Service Interfaces (ADSI) documentation.
+The property methods of the [**IGPMConstants**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master) interface get the properties that are described in the following table. For a general discussion of property methods, see [Interface Property Methods](https://msdn.microsoft.com/library/aa746378) in the Active Directory Service Interfaces (ADSI) documentation.
 
-The [**IGPMConstants**](igpmconstants.md) interface defines the following properties.
+The [**IGPMConstants**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master) interface defines the following properties.
 
 ## Properties
 
@@ -781,7 +785,7 @@ HRESULT get_ProcessSecurity(
 
 </dt> </dl> </dd> <dt>
 
-[**ReportHTML**](igpmconstants.md)
+[**ReportHTML**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master)
 </dt> <dd> <dl>
 
 Value that corresponds to the **ReportHTML** property. Passed to **GenerateReport** methods to generate a report in HTML.
@@ -803,7 +807,7 @@ HRESULT get_ReportHTML(
 
 </dt> </dl> </dd> <dt>
 
-[**ReportXML**](igpmconstants.md)
+[**ReportXML**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master)
 </dt> <dd> <dl>
 
 Value that corresponds to the **ReportXML** property. Passed to **GenerateReport** methods to generate a report in XML.
@@ -913,7 +917,7 @@ HRESULT get_RSOPModePlanning(
 
 </dt> </dl> </dd> <dt>
 
-[**RSOPModeUnknown**](igpmconstants.md)
+[**RSOPModeUnknown**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master)
 </dt> <dd> <dl>
 
 Value that corresponds to the **RSOPModeUnknown** property.
@@ -1335,13 +1339,13 @@ HRESULT get_SearchPropertySOMLinks(
 **SecurityFlags**
 </dt> <dd> <dl>
 
-The value of the [**SecurityFlags**](igpmconstants-get-securityflags.md) property, which represents the portion of the security descriptor that you want to retrieve or set for a Group Policy object (GPO); for example, the discretionary access control list (DACL), the system access control list (SACL), the group, or the owner. You can pass the returned value in the *ulFlags* parameter to the [**IGPMGPO::GetSecurityDescriptor**](igpmgpo-getsecuritydescriptor.md) and [**IGPMGPO::SetSecurityDescriptor**](igpmgpo-setsecuritydescriptor.md) functions.
+The value of the [**SecurityFlags**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmconstants-get_securityflags?branch=master) property, which represents the portion of the security descriptor that you want to retrieve or set for a Group Policy object (GPO); for example, the discretionary access control list (DACL), the system access control list (SACL), the group, or the owner. You can pass the returned value in the *ulFlags* parameter to the [**IGPMGPO::GetSecurityDescriptor**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmgpo-getsecuritydescriptor?branch=master) and [**IGPMGPO::SetSecurityDescriptor**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmgpo-setsecuritydescriptor?branch=master) functions.
 
 This property takes four parameters. Pass in the boolean values that represent the portions of the security descriptor that you want to retrieve or set. For example, a call to this property using VBScript as follows.
 
 `SecurityFlags = GPMConstants.SecurityFlags(bOwner, bGroup, bDACL, bSACL)`
 
-For more information about the **SecurityFlags** property, see [**get\_SecurityFlags**](igpmconstants-get-securityflags.md).
+For more information about the **SecurityFlags** property, see [**get\_SecurityFlags**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpmconstants-get_securityflags?branch=master).
 
 <dt>
 
@@ -1474,13 +1478,13 @@ HRESULT get_UsePDC(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Remarks
 
 Properties that begin with **PermGPO** apply only to Group Policy objects (GPOs). Properties that begin with **PermWMIFilter** apply only to Windows Management Instrumentation (WMI) filters.
 
-For more information about policy-related permissions, see [**IGPM::CreatePermission**](igpm-createpermission.md).
+For more information about policy-related permissions, see [**IGPM::CreatePermission**](/windows/previous-versions/Gpmgmt/nf-gpmgmt-igpm-createpermission?branch=master).
 
 ## Requirements
 
@@ -1488,8 +1492,8 @@ For more information about policy-related permissions, see [**IGPM::CreatePermis
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>Gpmgmt.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Gpmgmt.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gpmgmt.dll</dt> </dl> |
@@ -1501,15 +1505,15 @@ For more information about policy-related permissions, see [**IGPM::CreatePermis
 
 <dl> <dt>
 
-[**IGPMConstants**](igpmconstants.md)
+[**IGPMConstants**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpmconstants?branch=master)
 </dt> <dt>
 
-[**IGPM**](igpm.md)
+[**IGPM**](/windows/previous-versions/Gpmgmt/nn-gpmgmt-igpm?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

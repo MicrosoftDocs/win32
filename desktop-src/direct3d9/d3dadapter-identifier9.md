@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains information identifying the adapter.'
-ms.assetid: 'd0d59df9-c512-4d69-b0a0-7d87d7a380f6'
-title: 'D3DADAPTER\_IDENTIFIER9 structure'
+---
+Description: Contains information identifying the adapter.
+ms.assetid: d0d59df9-c512-4d69-b0a0-7d87d7a380f6
+title: D3DADAPTER\_IDENTIFIER9 structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DADAPTER\_IDENTIFIER9 structure
@@ -192,7 +197,7 @@ The following values are also used.
 
 Differences between Direct3D 9 and Direct3D 9Ex:
 
-For Direct3D9Ex running on Windows Vista, Windows Server 2008, Windows 7, and Windows Server 2008 R2 (or more current operating system), [**IDirect3D9::GetAdapterIdentifier**](idirect3d9--getadapteridentifier.md) returns 1 for the WHQL level without checking the status of the driver.
+For Direct3D9Ex running on Windows Vista, Windows Server 2008, Windows 7, and Windows Server 2008 R2 (or more current operating system), [**IDirect3D9::GetAdapterIdentifier**](/windows/win32/d3d9helper/nf-d3d9-idirect3d9-getadapteridentifier?branch=master) returns 1 for the WHQL level without checking the status of the driver.
 
 </dd> </dl>
 

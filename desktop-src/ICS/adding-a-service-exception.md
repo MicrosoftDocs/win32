@@ -1,7 +1,12 @@
 ---
 title: Adding a Service Rule
-description: This example adds a service rule in the local public store using the Windows Firewall with Advanced Security APIs.VB' This VBScript file includes sample code that adds a service rule ' in the local public store using the Microsoft Windows Firewall APIs.
-ms.assetid: 'dc6ffdd3-b583-4d19-a261-847d3b8f72c7'
+description: This example adds a service rule in the local public store using the Windows Firewall with Advanced Security APIs.VB This VBScript file includes sample code that adds a service rule  in the local public store using the Microsoft Windows Firewall APIs.
+ms.assetid: dc6ffdd3-b583-4d19-a261-847d3b8f72c7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Adding a Service Rule

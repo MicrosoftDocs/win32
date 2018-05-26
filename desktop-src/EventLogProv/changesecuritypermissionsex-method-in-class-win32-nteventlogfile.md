@@ -1,7 +1,12 @@
 ---
-Description: 'Changes the security permissions for the logical file that is specified in the Win32\_NTEventlogFile.Name property (this method is an extended version of the ChangeSecurityPermissions method).'
-ms.assetid: '00c516aa-77e5-4d30-8a60-e00d6109aa47'
-title: 'ChangeSecurityPermissionsEx method of the Win32\_NTEventlogFile class'
+Description: Changes the security permissions for the logical file that is specified in the Win32\_NTEventlogFile.Name property (this method is an extended version of the ChangeSecurityPermissions method).
+ms.assetid: 00c516aa-77e5-4d30-8a60-e00d6109aa47
+title: ChangeSecurityPermissionsEx method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ChangeSecurityPermissionsEx method of the Win32\_NTEventlogFile class
@@ -13,11 +18,11 @@ The **ChangeSecurityPermissionsEx** [WMI class](https://msdn.microsoft.com/libra
 
 ```mof
 uint32 ChangeSecurityPermissionsEx(
-  [in]           Win32_SecurityDescriptor SecurityDescriptor,
-  [in]           uint32 Option,
-  [out]          string StopFileName,
-  [in, optional] string StartFileName,
-  [in, optional] boolean Recursive
+  [in]           Win32_SecurityDescriptor SecurityDescriptor,
+  [in]           uint32 Option,
+  [out]          string StopFileName,
+  [in, optional] string StartFileName,
+  [in, optional] boolean Recursive
 );
 ```
 
@@ -56,7 +61,7 @@ Security privilege to be modified. For example, to change the owner and discreti
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -103,7 +108,7 @@ If **true**, the change of ownership is applied recursively to files and directo
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -111,8 +116,8 @@ If **true**, the change of ownership is applied recursively to files and directo
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntevt.dll</dt> </dl> |
@@ -129,9 +134,9 @@ If **true**, the change of ownership is applied recursively to files and directo
 [**Win32\_NTEventlogFile**](win32-nteventlogfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

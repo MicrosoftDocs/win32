@@ -1,7 +1,12 @@
-﻿---
-Description: 'This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively.'
-ms.assetid: '3dbfbf7f-6662-45a4-99f1-e0e24c370dee'
+---
+Description: This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively.
+ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PE Format

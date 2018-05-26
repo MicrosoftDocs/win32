@@ -1,7 +1,12 @@
 ---
 title: ieq (sm4 - asm)
 description: Component-wise vector integer equality comparison.
-ms.assetid: 'AD010554-80DC-4D2D-B04C-2638276DDC34'
+ms.assetid: AD010554-80DC-4D2D-B04C-2638276DDC34
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ieq (sm4 - asm)
@@ -15,7 +20,7 @@ Component-wise vector integer equality comparison.
 
 
 
- 
+ 
 
 
 
@@ -27,7 +32,7 @@ Component-wise vector integer equality comparison.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -45,7 +50,7 @@ This instruction applies to the following shader stages:
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -64,7 +69,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -73,9 +78,9 @@ This function is supported in the following shader models.
 [Shader Model 4 Assembly (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,24 +4,28 @@ description: An application or component can use the same directory service obje
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'be4b6101-f795-403b-b93e-960759ac4f14'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: be4b6101-f795-403b-b93e-960759ac4f14
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Invoking Creation Wizards from Your Application AD"]
+keywords:
+- Invoking Creation Wizards from Your Application AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Invoking Creation Wizards from Your Application
 
-An application or component can use the same directory service object creation wizards used by the Active Directory administrative MMC snap-ins. This is accomplished with the [**IDsAdminCreateObj**](idsadmincreateobj.md) interface.
+An application or component can use the same directory service object creation wizards used by the Active Directory administrative MMC snap-ins. This is accomplished with the [**IDsAdminCreateObj**](/windows/win32/DSAdmin/nn-dsadmin-idsadmincreateobj?branch=master) interface.
 
 ## Using the IDsAdminCreateObj Interface
 
-An application or component (client) creates an instance of the [**IDsAdminCreateObj**](idsadmincreateobj.md) interface by calling [**CoCreateInstance**](_com_cocreateinstance) with the **CLSID\_DsAdminCreateObj** class identifier. COM must be initialized by calling [**CoInitialize**](_com_coinitialize) before **CoCreateInstance** is called.
+An application or component (client) creates an instance of the [**IDsAdminCreateObj**](/windows/win32/DSAdmin/nn-dsadmin-idsadmincreateobj?branch=master) interface by calling [**CoCreateInstance**](_com_cocreateinstance) with the **CLSID\_DsAdminCreateObj** class identifier. COM must be initialized by calling [**CoInitialize**](_com_coinitialize) before **CoCreateInstance** is called.
 
-The client then calls [**IDsAdminCreateObj::Initialize**](idsadmincreateobj-initialize.md) to initialize the [**IDsAdminCreateObj**](idsadmincreateobj.md) object. **IDsAdminCreateObj::Initialize** accepts an [**IADsContainer**](https://msdn.microsoft.com/library/aa705985) interface pointer that represents the container that the object should be created in, and the class name of the object to be created. When creating user objects, it is also possible to specify an existing object that will be copied to the new object.
+The client then calls [**IDsAdminCreateObj::Initialize**](/windows/win32/DSAdmin/nf-dsadmin-idsadmincreateobj-initialize?branch=master) to initialize the [**IDsAdminCreateObj**](/windows/win32/DSAdmin/nn-dsadmin-idsadmincreateobj?branch=master) object. **IDsAdminCreateObj::Initialize** accepts an [**IADsContainer**](https://msdn.microsoft.com/library/aa705985) interface pointer that represents the container that the object should be created in, and the class name of the object to be created. When creating user objects, it is also possible to specify an existing object that will be copied to the new object.
 
-When the [**IDsAdminCreateObj**](idsadmincreateobj.md) object has been initialized, the client calls [**IDsAdminCreateObj::CreateModal**](idsadmincreateobj-createmodal.md) to display the object creation wizard.
+When the [**IDsAdminCreateObj**](/windows/win32/DSAdmin/nn-dsadmin-idsadmincreateobj?branch=master) object has been initialized, the client calls [**IDsAdminCreateObj::CreateModal**](/windows/win32/DSAdmin/nf-dsadmin-idsadmincreateobj-createmodal?branch=master) to display the object creation wizard.
 
 Unlike most class and interface identifiers, **CLSID\_DsAdminCreateObj** and **IID\_ADsAdminCreateObj** are not defined in a library file. This means you must define the storage for these identifiers within your application. To do this, you must include the file initguid.h immediately before including dsadmin.h. The initguid.h file must only be included once in an application. The following code example shows how to include these files.
 
@@ -33,7 +37,7 @@ Unlike most class and interface identifiers, **CLSID\_DsAdminCreateObj** and **I
 
 
 
-The following code example shows how the [**IDsAdminCreateObj**](idsadmincreateobj.md) interface can be created and used to start the object creation wizard for a user object.
+The following code example shows how the [**IDsAdminCreateObj**](/windows/win32/DSAdmin/nn-dsadmin-idsadmincreateobj?branch=master) interface can be created and used to start the object creation wizard for a user object.
 
 
 ```C++

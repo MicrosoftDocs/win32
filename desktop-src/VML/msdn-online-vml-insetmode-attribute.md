@@ -1,7 +1,12 @@
 ---
 title: VML InsetMode Attribute
 description: VML InsetMode Attribute
-ms.assetid: '3cdce299-a490-43b9-93f5-09aca443e98b'
+ms.assetid: 3cdce299-a490-43b9-93f5-09aca443e98b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VML InsetMode Attribute

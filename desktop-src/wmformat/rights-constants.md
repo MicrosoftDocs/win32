@@ -1,8 +1,18 @@
 ---
 title: Rights Constants
 description: Rights Constants
-ms.assetid: 'fb20dc57-25da-4613-a324-e081ba87df73'
-keywords: ["Windows Media Format SDK,constants", "digital rights management (DRM),constants", "DRM (digital rights management),constants", "DRM Client Extended APIs,constants", "Client Extended APIs,constants"]
+ms.assetid: fb20dc57-25da-4613-a324-e081ba87df73
+keywords:
+- Windows Media Format SDK,constants
+- digital rights management (DRM),constants
+- DRM (digital rights management),constants
+- DRM Client Extended APIs,constants
+- Client Extended APIs,constants
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Rights Constants

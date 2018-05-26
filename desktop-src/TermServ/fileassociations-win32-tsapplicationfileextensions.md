@@ -4,11 +4,14 @@ description: Scans the registry to get the current file associations for an appl
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd2c55b59-f3aa-401b-b176-b287c2e26192'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: d2c55b59-f3aa-401b-b176-b287c2e26192
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["FileAssociations method Remote Desktop Services", "FileAssociations method Remote Desktop Services , Win32_TSApplicationFileExtensions class", "Win32_TSApplicationFileExtensions class Remote Desktop Services , FileAssociations method"]
+keywords:
+- FileAssociations method Remote Desktop Services
+- FileAssociations method Remote Desktop Services , Win32_TSApplicationFileExtensions class
+- Win32_TSApplicationFileExtensions class Remote Desktop Services , FileAssociations method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TsPubWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # FileAssociations method of the Win32\_TSApplicationFileExtensions class
@@ -28,8 +34,8 @@ Scans the registry to get the current file associations for an application.
 
 ```mof
 uint32 FileAssociations(
-  [in]  string                  AppPath,
-  [out] Win32_RDFileAssociation FileAssociations[]
+  [in]  string                  AppPath,
+  [out] Win32_RDFileAssociation FileAssociations[]
 );
 ```
 
@@ -60,7 +66,7 @@ On successful completion contains the file associations for this application.
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TsAllow.mof</dt> </dl>  |
 | DLL<br/>                      | <dl> <dt>TsPubWmi.dll</dt> </dl> |
@@ -77,9 +83,9 @@ On successful completion contains the file associations for this application.
 [**Win32\_RDFileAssociation**](win32-rdfileassociation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

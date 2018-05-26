@@ -1,12 +1,17 @@
-﻿---
-Description: 'Retrieves the number of the processor the current thread was running on during the call to this function.'
-ms.assetid: 'f0141550-58e2-421a-934d-9a6c488d2b81'
+---
+Description: Retrieves the number of the processor the current thread was running on during the call to this function.
+ms.assetid: f0141550-58e2-421a-934d-9a6c488d2b81
 title: NtGetCurrentProcessorNumber function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGetCurrentProcessorNumber function
 
-\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](getcurrentprocessornumber.md) function instead.\]
+\[**NtGetCurrentProcessorNumber** may be altered or unavailable in future versions of Windows. Applications should use the [**GetCurrentProcessorNumber**](/windows/win32/WinBase/nf-processthreadsapi-getcurrentprocessornumber?branch=master) function instead.\]
 
 Retrieves the number of the processor the current thread was running on during the call to this function.
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following elements are used with system information:'
-ms.assetid: '29467115-e779-44fe-91ba-6e1526b5dfff'
+Description: The following elements are used with system information
+ms.assetid: 29467115-e779-44fe-91ba-6e1526b5dfff
 title: System Information Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Information Reference

@@ -1,8 +1,9 @@
 ---
 title: MCI\_STATUS command
 description: The MCI\_STATUS command retrieves information about an MCI device. All devices recognize this command. Information is returned in the dwReturn member of the structure identified by the lpStatus parameter.
-ms.assetid: 'd1c3dff9-c66f-4525-aac1-4a15b43083e7'
-keywords: ["MCI_STATUS command Windows Multimedia"]
+ms.assetid: d1c3dff9-c66f-4525-aac1-4a15b43083e7
+keywords:
+- MCI_STATUS command Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,13 +12,18 @@ api_location:
 - Mmsystem.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCI\_STATUS command
 
 The MCI\_STATUS command retrieves information about an MCI device. All devices recognize this command. Information is returned in the **dwReturn** member of the structure identified by the *lpStatus* parameter.
 
-To send this command, call the [**mciSendCommand**](mcisendcommand.md) function with the following parameters.
+To send this command, call the [**mciSendCommand**](/windows/win32/Mmsystem/?branch=master) function with the following parameters.
 
 
 ```C++
@@ -640,7 +646,7 @@ The **dwReturn** member returns **TRUE**.
 
 </dd> </dl>
 
-For digital-video devices, the *lpStatus* parameter points to an [**MCI\_DGV\_STATUS\_PARMS**](mci-dgv-status-parms.md) structure.
+For digital-video devices, the *lpStatus* parameter points to an [**MCI\_DGV\_STATUS\_PARMS**](/windows/win32/Digitalv/ns-digitalv-mci_dgv_status_parmsa?branch=master) structure.
 
 The following additional flags are used with the **sequencer** device type. These constants are used in the **dwItem** member of the structure pointed to by the *lpStatus* parameter when MCI\_STATUS\_ITEM is specified for the *dwFlags* parameter.
 
@@ -1179,8 +1185,8 @@ The **dwReturn** member is set to the current samples per second used for playin
 
 |                                     |                                                                                                           |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Mmsystem.h (include Windows.h)</dt> </dl> |
 
 
@@ -1219,9 +1225,9 @@ The **dwReturn** member is set to the current samples per second used for playin
 [seek](seek.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

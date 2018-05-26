@@ -1,13 +1,16 @@
 ---
-Description: 'Requests that the compiler load the MOF file into the namespace specified as namespacepath. If both the MOF compiler -n namespace switch and the \#pragma namespace&\#32;namespacepath command are used, the command takes priority over the switch.'
+Description: Requests that the compiler load the MOF file into the namespace specified as namespacepath. If both the MOF compiler -n namespace switch and the \#pragma namespace&\#32;namespacepath command are used, the command takes priority over the switch.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd280f67a-a798-47c0-b8de-071c290dd216'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d280f67a-a798-47c0-b8de-071c290dd216
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: pragma namespace
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # pragma namespace
@@ -48,8 +51,8 @@ The following example shows how place classes or instances in the "Root\\Test" n
 
 |                                     |                                |
 |-------------------------------------|--------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>       |
-| Minimum supported server<br/> | Windows Server 2008<br/> |
+| Minimum supported client<br/> | Windows Vista<br/>       |
+| Minimum supported server<br/> | Windows Server 2008<br/> |
 
 
 
@@ -66,9 +69,9 @@ The following example shows how place classes or instances in the "Root\\Test" n
 [Preprocessor Commands](preprocessor-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

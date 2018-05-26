@@ -4,11 +4,14 @@ description: Overwrites the list of programs that use IP virtualization.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '4137c9b0-5b4d-4ab6-af2e-2cd98ba53563'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 4137c9b0-5b4d-4ab6-af2e-2cd98ba53563
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["SetProgramList method Remote Desktop Services", "SetProgramList method Remote Desktop Services , Win32_TSVirtualIP class", "Win32_TSVirtualIP class Remote Desktop Services , SetProgramList method"]
+keywords:
+- SetProgramList method Remote Desktop Services
+- SetProgramList method Remote Desktop Services , Win32_TSVirtualIP class
+- Win32_TSVirtualIP class Remote Desktop Services , SetProgramList method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - TSCfgWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetProgramList method of the Win32\_TSVirtualIP class
@@ -28,7 +34,7 @@ Overwrites the list of programs that use IP virtualization.
 
 ```mof
 unint32 SetProgramList(
-  [in] string ProgramList[]
+  [in] string ProgramList[]
 );
 ```
 
@@ -60,7 +66,7 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMv2\\TerminalServices<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
@@ -74,9 +80,9 @@ Returns 0 on success, otherwise returns a WMI error code. Refer to [Remote Deskt
 [**Win32\_TSVirtualIP**](win32-tsvirtualip.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

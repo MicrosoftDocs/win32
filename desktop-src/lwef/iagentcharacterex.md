@@ -1,7 +1,12 @@
 ---
 title: IAgentCharacterEx
 description: IAgentCharacterEx
-ms.assetid: '8defc836-cc54-40c7-8afc-ec90f941861b'
+ms.assetid: 8defc836-cc54-40c7-8afc-ec90f941861b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCharacterEx

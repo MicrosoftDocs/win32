@@ -1,7 +1,12 @@
-﻿---
-Description: 'Flushes the shim database cache. This function should be called after installing a new shim database.'
-ms.assetid: '7e5bbdca-7b58-4c51-9cd1-105b05ee7fbe'
+---
+Description: Flushes the shim database cache. This function should be called after installing a new shim database.
+ms.assetid: 7e5bbdca-7b58-4c51-9cd1-105b05ee7fbe
 title: ShimFlushCache function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShimFlushCache function

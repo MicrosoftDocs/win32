@@ -1,8 +1,18 @@
 ---
 title: On/Off Transition Trace Capture tool
 description: On/Off Transition Trace Capture tool
-ms.assetid: 'c4e3d13b-6c24-474f-a2e0-d672698ead6b'
-keywords: ["boot", "shutdown", "standby and resume", "hibernate and resume", "boot and shutdown cycle"]
+ms.assetid: c4e3d13b-6c24-474f-a2e0-d672698ead6b
+keywords:
+- boot
+- shutdown
+- standby and resume
+- hibernate and resume
+- boot and shutdown cycle
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # On/Off Transition Trace Capture tool

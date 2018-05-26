@@ -4,11 +4,12 @@ description: Retrieves the read/write group common properties for a group. Appli
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f00cd260-48aa-4e55-a2d6-079f82840da5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: f00cd260-48aa-4e55-a2d6-079f82840da5
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["CLUSCTL_GROUP_GET_COMMON_PROPERTIES control code Failover Cluster"]
+keywords:
+- CLUSCTL_GROUP_GET_COMMON_PROPERTIES control code Failover Cluster
 topic_type:
 - apiref
 api_name:
@@ -17,11 +18,14 @@ api_location:
 - ClusAPI.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CLUSCTL\_GROUP\_GET\_COMMON\_PROPERTIES control code
 
-Retrieves the read/write [group common properties](group-common-properties.md) for a [group](groups.md). Applications use this [control code](about-control-codes.md) as a [**ClusterGroupControl**](clustergroupcontrol.md) parameter.
+Retrieves the read/write [group common properties](group-common-properties.md) for a [group](groups.md). Applications use this [control code](about-control-codes.md) as a [**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master) parameter.
 
 
 ```C++
@@ -41,7 +45,7 @@ ClusterGroupControl(
 
 ## Parameters
 
-The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterGroupControl**](clustergroupcontrol.md).
+The following control code function parameters are specific to this control code. For complete parameter descriptions, see [**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master).
 
 <dl> <dt>
 
@@ -54,7 +58,7 @@ On a successful return, points to a [property list](property-lists.md) containin
 
 ## Return value
 
-[**ClusterGroupControl**](clustergroupcontrol.md) returns one of the following values:
+[**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master) returns one of the following values:
 
 <dl> <dt>
 
@@ -91,17 +95,17 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_GROUP\_GET\_COMMON\_PROPERTIES as foll
 
 | Component      | Bit location | Value                                                |
 |----------------|--------------|------------------------------------------------------|
-| Object code    | 24–31        | **CLUS\_OBJECT\_GROUP** (0x3)<br/>             |
+| Object code    | 24 31        | **CLUS\_OBJECT\_GROUP** (0x3)<br/>             |
 | Global bit     | 23           | **CLUS\_NOT\_GLOBAL** (0x0)<br/>               |
 | Modify bit     | 22           | **CLUS\_NO\_MODIFY** (0x0)<br/>                |
 | User bit       | 21           | **CLCTL\_CLUSTER\_BASE** (0x0)<br/>            |
 | Type bit       | 20           | External (0x0)<br/>                            |
-| Operation code | 0–23         | **CLCTL\_GET\_COMMON\_PROPERTIES** (0x59)<br/> |
-| Access code    | 0–1          | **CLUS\_ACCESS\_READ** (0x1)<br/>              |
+| Operation code | 0 23         | **CLCTL\_GET\_COMMON\_PROPERTIES** (0x59)<br/> |
+| Access code    | 0 1          | **CLUS\_ACCESS\_READ** (0x1)<br/>              |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -110,7 +114,7 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_GROUP\_GET\_COMMON\_PROPERTIES as foll
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>            |
 | Header<br/>                   | <dl> <dt>ClusAPI.h</dt> </dl> |
 
 
@@ -119,12 +123,12 @@ ClusAPI.h defines the 32 bits of CLUSCTL\_GROUP\_GET\_COMMON\_PROPERTIES as foll
 
 <dl> <dt>
 
-[**ClusterGroupControl**](clustergroupcontrol.md)
+[**ClusterGroupControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clustergroupcontrol?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

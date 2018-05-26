@@ -1,8 +1,11 @@
 ---
 title: IMimeInternational Rfc1522Decode method
 description: Decodes an RFC 1522 encoded string.
-ms.assetid: 'a8e83551-7584-4ec2-b1ee-f5220eba0e56'
-keywords: ["Rfc1522Decode method Windows Mail (formerly Outlook Express)", "Rfc1522Decode method Windows Mail (formerly Outlook Express) , IMimeInternational interface", "IMimeInternational interface Windows Mail (formerly Outlook Express) , Rfc1522Decode method"]
+ms.assetid: a8e83551-7584-4ec2-b1ee-f5220eba0e56
+keywords:
+- Rfc1522Decode method Windows Mail (formerly Outlook Express)
+- Rfc1522Decode method Windows Mail (formerly Outlook Express) , IMimeInternational interface
+- IMimeInternational interface Windows Mail (formerly Outlook Express) , Rfc1522Decode method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeInternational::Rfc1522Decode method
@@ -22,10 +30,10 @@ Decodes an [RFC 1522](http://www.ietf.org/rfc/rfc1522.txt) encoded string.
 
 ```C++
 HRESULT Rfc1522Decode(
-  [in]  LPCSTR pszValue,
-  [in]  LPSTR  pszCharset,
-  [in]  ULONG  cchmax,
-  [out] LPSTR  *ppszDecoded
+  [in]  LPCSTR pszValue,
+  [in]  LPSTR  pszCharset,
+  [in]  ULONG  cchmax,
+  [out] LPSTR  *ppszDecoded
 );
 ```
 
@@ -87,7 +95,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -99,8 +107,8 @@ This method does not translate the text to a Windows code page. A client can cal
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl>                         |
@@ -108,9 +116,9 @@ This method does not translate the text to a Windows code page. A client can cal
 
 
 
- 
+ 
 
- 
+ 
 
 
 

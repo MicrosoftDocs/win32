@@ -1,7 +1,12 @@
 ---
-Description: 'The PlayChapter method starts playback from the specified chapter within the current title.'
-ms.assetid: 'd0318a0d-4ff4-42f2-b009-996b7ff0f632'
+Description: The PlayChapter method starts playback from the specified chapter within the current title.
+ms.assetid: d0318a0d-4ff4-42f2-b009-996b7ff0f632
 title: PlayChapter Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PlayChapter Method

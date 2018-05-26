@@ -1,8 +1,9 @@
 ---
 title: PSN\_QUERYINITIALFOCUS notification code
 description: Sent by a property sheet to provide a property sheet page an opportunity to specify which dialog box control should receive the initial focus. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '29b5e598-75b2-4b6f-acdb-171b1f7a1850'
-keywords: ["PSN_QUERYINITIALFOCUS notification code Windows Controls"]
+ms.assetid: 29b5e598-75b2-4b6f-acdb-171b1f7a1850
+keywords:
+- PSN_QUERYINITIALFOCUS notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSN\_QUERYINITIALFOCUS notification code
@@ -33,7 +39,7 @@ PSN_QUERYINITIALFOCUS
 *lParam* 
 </dt> <dd>
 
-Pointer to a [**PSHNOTIFY**](pshnotify.md) structure. Cast the **lParam** member of this structure to an **HWND** type, to retrieve the handle of the control that will be given focus by default. The structure contains an [**NMHDR**](nmhdr.md) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
+Pointer to a [**PSHNOTIFY**](/windows/win32/Prsht/ns-prsht-_pshnotify?branch=master) structure. Cast the **lParam** member of this structure to an **HWND** type, to retrieve the handle of the control that will be given focus by default. The structure contains an [**NMHDR**](/windows/win32/richedit/ns-richedit-_nmhdr?branch=master) structure as its first member, **hdr**. The **hwndFrom** member of this **NMHDR** structure contains the handle to the property sheet.
 
 </dd> </dl>
 
@@ -57,9 +63,9 @@ case PSN_QUERYINITIALFOCUS :
 ```
 
 > [!Note]  
-> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](propsheetheader.md)).
+> This notification code is not supported when using the Aero wizard style ([**PSH\_AEROWIZARD**](/windows/win32/Prsht/ns-prsht-_propsheetheadera_v2?branch=master)).
 
- 
+ 
 
 ## Requirements
 
@@ -67,15 +73,15 @@ case PSN_QUERYINITIALFOCUS :
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'ICE23 validates the control tab order for each dialog box.'
-ms.assetid: 'd425f8c6-4615-439d-8194-3a0325eb3cc3'
+Description: ICE23 validates the control tab order for each dialog box.
+ms.assetid: d425f8c6-4615-439d-8194-3a0325eb3cc3
 title: ICE23
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ICE23

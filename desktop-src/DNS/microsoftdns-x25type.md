@@ -1,8 +1,10 @@
 ---
 title: MicrosoftDNS\_X25Type class
 description: The subclass of MicrosoftDNS\_ResourceRecord that represents an X.25 (X25) record.
-ms.assetid: '1213dfd7-30b3-413e-b723-f4284fa0b416'
-keywords: ["MicrosoftDNS_X25Type class DNS", "MicrosoftDNS_X25Type class DNS , described"]
+ms.assetid: 1213dfd7-30b3-413e-b723-f4284fa0b416
+keywords:
+- MicrosoftDNS_X25Type class DNS
+- MicrosoftDNS_X25Type class DNS , described
 topic_type:
 - apiref
 api_name:
@@ -14,6 +16,11 @@ api_location:
 - Root\MicrosoftDNS
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MicrosoftDNS\_X25Type class
@@ -51,7 +58,7 @@ The **MicrosoftDNS\_X25Type** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ PSDN address of the owner of the RR.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
 | Namespace<br/>                | Root\\MicrosoftDNS<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Dnsprov.mof</dt> </dl> |
 
@@ -98,9 +105,9 @@ PSDN address of the owner of the RR.
 [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

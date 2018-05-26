@@ -4,11 +4,15 @@ description: The Cluster API, defined in ClusAPI.h and ClusAPI.lib, provides the
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '865ac74e-5e37-4a2d-a4a4-b23eb45824ce'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 865ac74e-5e37-4a2d-a4a4-b23eb45824ce
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Cluster API Failover Cluster"]
+keywords:
+- Cluster API Failover Cluster
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster API

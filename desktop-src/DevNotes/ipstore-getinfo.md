@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns information on the storage provider.'
-ms.assetid: 'bdacb5bb-a37a-4970-add7-57625bec1ce0'
-title: 'IPStore::GetInfo method'
+---
+Description: Returns information on the storage provider.
+ms.assetid: bdacb5bb-a37a-4970-add7-57625bec1ce0
+title: IPStoreGetInfo method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPStore::GetInfo method

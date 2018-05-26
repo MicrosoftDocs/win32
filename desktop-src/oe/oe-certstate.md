@@ -1,8 +1,10 @@
 ---
 title: CERTSTATE enumeration
 description: Do not use. Defines the state of a certificate in secure messaging.
-ms.assetid: '71b8ab6a-1f62-4829-abcb-2542a53fec61'
-keywords: ["CERTSTATE enumeration Windows Mail (formerly Outlook Express)", "ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)"]
+ms.assetid: 71b8ab6a-1f62-4829-abcb-2542a53fec61
+keywords:
+- CERTSTATE enumeration Windows Mail (formerly Outlook Express)
+- ACCESSTYPE enumeration Windows Mail (formerly Outlook Express)
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Mimeole.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CERTSTATE enumeration
@@ -22,17 +29,17 @@ Do not use. Defines the state of a certificate in secure messaging.
 
 ```C++
 typedef enum tagCERTSTATE { 
-  CERTIFICATE_OK              = 0,
-  CERTIFICATE_NOT_PRESENT     = 1,
-  CERTIFICATE_EXPIRED         = 2,
-  CERTIFICATE_CHAIN_TOO_LONG  = 3,
-  CERTIFICATE_MISSING_ISSUER  = 4,
-  CERTIFICATE_CRL_LISTED      = 5,
-  CERTIFICATE_NOT_TRUSTED     = 6,
-  CERTIFICATE_INVALID         = 7,
-  CERTIFICATE_ERROR           = 8,
-  CERTIFICATE_NOPRINT         = 9,
-  CERTIFICATE_UNKNOWN         = 10
+  CERTIFICATE_OK              = 0,
+  CERTIFICATE_NOT_PRESENT     = 1,
+  CERTIFICATE_EXPIRED         = 2,
+  CERTIFICATE_CHAIN_TOO_LONG  = 3,
+  CERTIFICATE_MISSING_ISSUER  = 4,
+  CERTIFICATE_CRL_LISTED      = 5,
+  CERTIFICATE_NOT_TRUSTED     = 6,
+  CERTIFICATE_INVALID         = 7,
+  CERTIFICATE_ERROR           = 8,
+  CERTIFICATE_NOPRINT         = 9,
+  CERTIFICATE_UNKNOWN         = 10
 } ACCESSTYPE;
 ```
 
@@ -125,17 +132,17 @@ Indicates that the state of the certificate is unknown.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Mimeole.idl</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

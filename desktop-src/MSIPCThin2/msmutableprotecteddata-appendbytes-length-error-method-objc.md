@@ -4,17 +4,21 @@ description: Appends the specified number of plaintext bytes from a given buffer
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'b7c86d11-fdeb-4a79-aa7e-a410cb4f0d3c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: b7c86d11-fdeb-4a79-aa7e-a410cb4f0d3c
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSMutableProtectedData appendBytes length error method"]
+keywords:
+- MSMutableProtectedData appendBytes length error method
 topic_type:
 - apiref
 api_name:
 - MSMutableProtectedData appendBytes length error method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSMutableProtectedData appendBytes:length:error method
@@ -39,7 +43,7 @@ Appends the specified number of plaintext bytes from a given buffer to the recei
 
 
 
- 
+ 
 
 ## Returns
 
@@ -61,15 +65,15 @@ MSMutableProtectedData.h
 
 
 
- 
+ 
 
 ## Remarks
 
 The specified number of bytes are copied from the buffer, encrypted, and appended to the receiver's data.
 
- 
+ 
 
- 
+ 
 
 
 

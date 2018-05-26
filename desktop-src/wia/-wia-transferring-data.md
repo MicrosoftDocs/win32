@@ -1,6 +1,11 @@
 ---
-ms.assetid: '34871ff4-7eb0-451b-a62b-85b632af9a47'
+ms.assetid: 34871ff4-7eb0-451b-a62b-85b632af9a47
 title: Transferring Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Transferring Data

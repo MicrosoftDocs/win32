@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a value that specifies an undefined certificate hierarchy.'
+Description: Retrieves a value that specifies an undefined certificate hierarchy.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '490cd997-6d57-44e5-ae0a-50305e009f22'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 490cd997-6d57-44e5-ae0a-50305e009f22
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'Constants.KeyHierarchyOther property'
+title: Constants.KeyHierarchyOther property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Constants.KeyHierarchyOther property
@@ -112,7 +115,7 @@ END FUNCTION
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -130,9 +133,9 @@ END FUNCTION
 [**KeyHierarchyProduction**](constants-keyhierarchyproduction-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

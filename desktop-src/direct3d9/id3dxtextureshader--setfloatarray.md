@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets an array of floating-point numbers.'
-ms.assetid: '8e64b569-a6bf-4925-9d21-4df0b6661ee2'
-title: 'ID3DXTextureShader::SetFloatArray method'
+---
+Description: Sets an array of floating-point numbers.
+ms.assetid: 8e64b569-a6bf-4925-9d21-4df0b6661ee2
+title: ID3DXTextureShaderSetFloatArray method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXTextureShader::SetFloatArray method

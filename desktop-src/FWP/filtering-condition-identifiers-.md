@@ -1,7 +1,7 @@
 ---
 title: Filtering Condition Identifiers
 description: The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a GUID.
-ms.assetid: '4f0b970a-e511-4107-8023-22a8775905b9'
+ms.assetid: 4f0b970a-e511-4107-8023-22a8775905b9
 topic_type:
 - apiref
 api_name:
@@ -136,18 +136,23 @@ api_location:
 - Fwpmu.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Filtering Condition Identifiers
 
-The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a **GUID**. The data type for the condition value for each filtering condition is specified as an [**FWP\_DATA\_TYPE**](fwp-data-type-enum.md). These identifiers and their data types are defined here.
+The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a **GUID**. The data type for the condition value for each filtering condition is specified as an [**FWP\_DATA\_TYPE**](/windows/win32/Fwptypes/ne-fwptypes-fwp_data_type_?branch=master). These identifiers and their data types are defined here.
 
 The standard conditions are listed first, followed by the conditions specific to user mode. Conditions are grouped by supported operating system, so that you can easily tell which conditions are supported for a given OS.
 
 > [!Note]  
 > Each of the following filtering conditions is available only at a subset of the WFP filtering layers. For more information on each condition's availability at any given layer, see [**Filtering Conditions Available at Each Filtering Layer**](filtering-conditions-available-at-each-filtering-layer.md).
 
- 
+ 
 
 
 
@@ -158,7 +163,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Conditions available for Windows 8 and Windows Server 2012</th>
+<th style="text-align: left;">Conditions available for Windows 8 and Windows Server 2012</th>
 <th style="text-align: left;">Description</th>
 </tr>
 </thead>
@@ -201,7 +206,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_L2_FLAGS"></span><span id="fwpm_condition_l2_flags"></span><dl> <dt><strong>FWPM_CONDITION_L2_FLAGS</strong></dt> </dl></td>
-<td style="text-align: left;">A bitwise OR of a combination of filtering condition flags. <br/> <strong>Data type:</strong> FWP_UINT32<br/> <strong>Possible values:  </strong>
+<td style="text-align: left;">A bitwise OR of a combination of filtering condition flags. <br/> <strong>Data type:</strong> FWP_UINT32<br/> <strong>Possible values:  </strong>
 <ul>
 <li>FWP_CONDITION_L2_IS_MOBILE_BROADBAND</li>
 <li>FWP_CONDITION_L2_IS_NATIVE_ETHERNET</li>
@@ -300,7 +305,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_VSWITCH_SOURCE_INTERFACE_TYPE"></span><span id="fwpm_condition_vswitch_source_interface_type"></span><dl> <dt><strong>FWPM_CONDITION_VSWITCH_SOURCE_INTERFACE_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">Interface type of the source of the current packet.<br/> <strong>Data type:</strong> FWP_UINT8<br/> <strong>Possible values:  </strong>
+<td style="text-align: left;">Interface type of the source of the current packet.<br/> <strong>Data type:</strong> FWP_UINT8<br/> <strong>Possible values:  </strong>
 <ul>
 <li>SwitchNicSyntheticNic (when interface type is VM-NIC)</li>
 <li>SwitchNicEmulatedNic (when interface type is VM-NIC)</li>
@@ -311,7 +316,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_VSWITCH_DESTINATION_INTERFACE_TYPE"></span><span id="fwpm_condition_vswitch_destination_interface_type"></span><dl> <dt><strong>FWPM_CONDITION_VSWITCH_DESTINATION_INTERFACE_TYPE</strong></dt> </dl></td>
-<td style="text-align: left;">Interface type of the destination of the current packet.<br/> <strong>Data type:</strong> FWP_UINT8<br/> <strong>Possible values:  </strong>
+<td style="text-align: left;">Interface type of the destination of the current packet.<br/> <strong>Data type:</strong> FWP_UINT8<br/> <strong>Possible values:  </strong>
 <ul>
 <li>SwitchNicSyntheticNic (when interface type is VM-NIC)</li>
 <li>SwitchNicEmulatedNic (when interface type is VM-NIC)</li>
@@ -339,7 +344,7 @@ The standard conditions are listed first, followed by the conditions specific to
 
 
 
-| Conditions available for Windows 7, Windows Server 2008 R2, and later                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                                                               |
+| Conditions available for Windows 7, Windows Server 2008 R2, and later                                                                                                                                                                                                    | Description                                                                                                                                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_CONDITION_IP_NEXTHOP_ADDRESS"></span><span id="fwpm_condition_ip_nexthop_address"></span><dl> <dt>**FWPM\_CONDITION\_IP\_NEXTHOP\_ADDRESS**</dt> </dl>                                             | The IP address of the next-hop interface.<br/> **Data type:** FWP\_V4\_ADDR\_MASK<br/>                                                                                                                                                                                        |
 | <span id="FWPM_CONDITION_IP_NEXTHOP_INTERFACE"></span><span id="fwpm_condition_ip_nexthop_interface"></span><dl> <dt>**FWPM\_CONDITION\_IP\_NEXTHOP\_INTERFACE**</dt> </dl>                                       | The next-hop interface from which the packet will be departing. <br/> **Data type:** FWP\_UINT64<br/>                                                                                                                                                                         |
@@ -364,7 +369,7 @@ The standard conditions are listed first, followed by the conditions specific to
 
 
 
-| Constants available for Windows Vista with SP1, Windows Server 2008, and later                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Constants available for Windows Vista with SP1, Windows Server 2008, and later                                                                                                                                                                           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="FWPM_CONDITION_IP_ARRIVAL_INTERFACE"></span><span id="fwpm_condition_ip_arrival_interface"></span><dl> <dt>**FWPM\_CONDITION\_IP\_ARRIVAL\_INTERFACE**</dt> </dl>                       | The LUID for the network interface associated with the arrival IP address. <br/> **Data type:** FWP\_UINT64<br/>                                                                                                                                                                                                                                                                                                                                                                          |
 | <span id="FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE"></span><span id="fwpm_condition_arrival_interface_type"></span><dl> <dt>**FWPM\_CONDITION\_ARRIVAL\_INTERFACE\_TYPE**</dt> </dl>                 | The type of the arrival network interface as defined by the Internet Assigned Names Authority (IANA). For more information, see [http://www.iana.org/assignments/ianaiftype-mib](http://go.microsoft.com/fwlink/p/?linkid=84022). <br/> **Possible values:** The interface type values listed in the Ipifcons.h header file.<br/> **Data type:** FWP\_UINT32<br/>                                                                                                                   |
@@ -386,7 +391,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constants available for Windows Vista and later</th>
+<th style="text-align: left;">Constants available for Windows Vista and later</th>
 <th style="text-align: left;">Description</th>
 </tr>
 </thead>
@@ -551,7 +556,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_DIRECTION"></span><span id="fwpm_condition_direction"></span><dl> <dt><strong>FWPM_CONDITION_DIRECTION</strong></dt> </dl></td>
-<td style="text-align: left;">The direction of the traffic or data flow. <br/> <strong>Possible values:  </strong>
+<td style="text-align: left;">The direction of the traffic or data flow. <br/> <strong>Possible values:  </strong>
 <ul>
 <li>FWP_DIRECTION_INBOUND</li>
 <li>FWP_DIRECTION_OUTBOUND</li>
@@ -584,7 +589,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_ALE_APP_ID"></span><span id="fwpm_condition_ale_app_id"></span><dl> <dt><strong>FWPM_CONDITION_ALE_APP_ID</strong></dt> </dl></td>
-<td style="text-align: left;">The fully qualified device path of the application, as returned by the [<strong>FwpmGetAppIdFromFileName0</strong>](fwpmgetappidfromfilename0.md) function. <br/> (For example, &quot;\device0\hardiskvolume1\Program Files\Application.exe&quot;.)<br/> <strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br/></td>
+<td style="text-align: left;">The fully qualified device path of the application, as returned by the [<strong>FwpmGetAppIdFromFileName0</strong>](/windows/win32/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0?branch=master) function. <br/> (For example, &quot;\device0\hardiskvolume1\Program Files\Application.exe&quot;.)<br/> <strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_ALE_USER_ID"></span><span id="fwpm_condition_ale_user_id"></span><dl> <dt><strong>FWPM_CONDITION_ALE_USER_ID</strong></dt> </dl></td>
@@ -600,7 +605,7 @@ The standard conditions are listed first, followed by the conditions specific to
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_ALE_PROMISCUOUS_MODE"></span><span id="fwpm_condition_ale_promiscuous_mode"></span><dl> <dt><strong>FWPM_CONDITION_ALE_PROMISCUOUS_MODE</strong></dt> </dl></td>
-<td style="text-align: left;">The raw socket mode that is allowed or denied.<br/> <strong>Possible values:  </strong>
+<td style="text-align: left;">The raw socket mode that is allowed or denied.<br/> <strong>Possible values:  </strong>
 <ul>
 <li>SIO_RCVALL</li>
 <li>SIO_RCVALL_IGMPMCAST</li>
@@ -625,9 +630,9 @@ The following constants are available for user mode only.
 
 
 
-| User-mode conditions available for Windows 8 and Windows Server 2012                                                                                                                       | Description                                                                                                                                                               |
+| User-mode conditions available for Windows 8 and Windows Server 2012                                                                                                                       | Description                                                                                                                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="FWPM_CONDITION_QM_MODE"></span><span id="fwpm_condition_qm_mode"></span><dl> <dt>**FWPM\_CONDITION\_QM\_MODE**</dt> </dl> | The mode of the quick mode (QM) filter. See [**IPSEC\_TRAFFIC\_TYPE**](ipsec-traffic-type-enum.md) for possible values.<br/> **Data type:** FWP\_UINT32<br/> |
+| <span id="FWPM_CONDITION_QM_MODE"></span><span id="fwpm_condition_qm_mode"></span><dl> <dt>**FWPM\_CONDITION\_QM\_MODE**</dt> </dl> | The mode of the quick mode (QM) filter. See [**IPSEC\_TRAFFIC\_TYPE**](/windows/win32/Ipsectypes/ne-ipsectypes-ipsec_traffic_type_?branch=master) for possible values.<br/> **Data type:** FWP\_UINT32<br/> |
 
 
 
@@ -640,7 +645,7 @@ The following constants are available for user mode only.
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">User-mode conditions available for Windows 7, Windows Server 2008 R2, and later</th>
+<th style="text-align: left;">User-mode conditions available for Windows 7, Windows Server 2008 R2, and later</th>
 <th style="text-align: left;">Description</th>
 </tr>
 </thead>
@@ -678,7 +683,7 @@ The following constants are available for user mode only.
 <td style="text-align: left;">The method used to authenticate the security association.<br/>
 <blockquote>
 [!Note]<br />
-Available only on Windows Server 2008 R2, Windows 7, and later.
+Available only on Windows Server 2008 R2, Windows 7, and later.
 </blockquote>
 <br/> <strong>Data type:</strong> FWP_UINT32 <br/></td>
 </tr>
@@ -696,7 +701,7 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constants available for Windows Vista and later</th>
+<th style="text-align: left;">Constants available for Windows Vista and later</th>
 <th style="text-align: left;">Description</th>
 </tr>
 </thead>
@@ -727,7 +732,7 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_RPC_PROTOCOL"></span><span id="fwpm_condition_rpc_protocol"></span><dl> <dt><strong>FWPM_CONDITION_RPC_PROTOCOL</strong></dt> </dl></td>
-<td style="text-align: left;">The RPC protocol. <br/> <strong>Possible values:  </strong>
+<td style="text-align: left;">The RPC protocol. <br/> <strong>Possible values:  </strong>
 <ul>
 <li>RPC_PROTSEQ_TCP</li>
 <li>RPC_PROTSEQ_NMP</li>
@@ -754,7 +759,7 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_LOCAL_ADDRESS_V4"></span><span id="fwpm_condition_ip_local_address_v4"></span><dl> <dt><strong>FWPM_CONDITION_IP_LOCAL_ADDRESS_V4</strong></dt> </dl></td>
-<td style="text-align: left;">The local IPv4 address. <br/> <strong>Data type:  </strong>
+<td style="text-align: left;">The local IPv4 address. <br/> <strong>Data type:  </strong>
 <ul>
 <li>FWP_V4_ADDR_MASK, or</li>
 <li>FWP_UINT32</li>
@@ -763,7 +768,7 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_LOCAL_ADDRESS_V6"></span><span id="fwpm_condition_ip_local_address_v6"></span><dl> <dt><strong>FWPM_CONDITION_IP_LOCAL_ADDRESS_V6</strong></dt> </dl></td>
-<td style="text-align: left;">The local IPv6 address. <br/> <strong>Data type:  </strong>
+<td style="text-align: left;">The local IPv6 address. <br/> <strong>Data type:  </strong>
 <ul>
 <li>FWP_V6_ADDR_MASK, or</li>
 <li>FWP_BYTE_ARRAY16_TYPE</li>
@@ -772,7 +777,7 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_REMOTE_ADDRESS_V4"></span><span id="fwpm_condition_ip_remote_address_v4"></span><dl> <dt><strong>FWPM_CONDITION_IP_REMOTE_ADDRESS_V4</strong></dt> </dl></td>
-<td style="text-align: left;">The remote IPv4 address. <br/> <strong>Data type:  </strong>
+<td style="text-align: left;">The remote IPv4 address. <br/> <strong>Data type:  </strong>
 <ul>
 <li>FWP_V4_ADDR_MASK, or</li>
 <li>FWP_UINT32</li>
@@ -781,7 +786,7 @@ Available only on Windows Server 2008 R2, Windows 7, and later.
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FWPM_CONDITION_IP_REMOTE_ADDRESS_V6"></span><span id="fwpm_condition_ip_remote_address_v6"></span><dl> <dt><strong>FWPM_CONDITION_IP_REMOTE_ADDRESS_V6</strong></dt> </dl></td>
-<td style="text-align: left;">The remote IPv6 address. <br/> <strong>Data type:  </strong>
+<td style="text-align: left;">The remote IPv6 address. <br/> <strong>Data type:  </strong>
 <ul>
 <li>FWP_V6_ADDR_MASK, or</li>
 <li>FWP_BYTE_ARRAY16_TYPE</li>
@@ -847,15 +852,15 @@ When IP addresses are stored in FWP\_UINT32 format or when an IP port is stored 
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Fwpmu.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

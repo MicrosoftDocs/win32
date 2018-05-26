@@ -1,7 +1,12 @@
-﻿---
-Description: 'The MajorBuild property is a value that specifies the major part of the build number for the fax service.'
-ms.assetid: '108416bc-6e67-4691-8b53-f0de915798b2'
-title: 'FaxServer.MajorBuild property'
+---
+Description: The MajorBuild property is a value that specifies the major part of the build number for the fax service.
+ms.assetid: 108416bc-6e67-4691-8b53-f0de915798b2
+title: FaxServer.MajorBuild property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.MajorBuild property
@@ -50,7 +55,7 @@ The format for the fax service build number is MajorVersion.MinorVersion.MajorBu
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

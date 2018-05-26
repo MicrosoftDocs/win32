@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves 10 analysis alternates for all ink associated with the IInkAnalyzer.'
-ms.assetid: '42b702cf-54a3-413b-9f3a-dcdae7c2e89b'
-title: 'IInkAnalyzer::GetAlternates method'
+Description: Retrieves 10 analysis alternates for all ink associated with the IInkAnalyzer.
+ms.assetid: 42b702cf-54a3-413b-9f3a-dcdae7c2e89b
+title: IInkAnalyzerGetAlternates method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetAlternates method
@@ -13,7 +18,7 @@ Retrieves 10 analysis alternates for all ink associated with the [**IInkAnalyzer
 
 ```C++
 HRESULT GetAlternates(
-  [out] IAnalysisAlternates **ppAlternates
+  [out] IAnalysisAlternates **ppAlternates
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppAlternates* when you no longer need to use the object.
 
- 
+ 
 
 The top alternate is returned as the first alternate of the collection.
 
@@ -49,7 +54,7 @@ The top alternate is returned as the first alternate of the collection.
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -84,9 +89,9 @@ The top alternate is returned as the first alternate of the collection.
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,13 +1,19 @@
 ---
 title: Creating a Frame Callback Function
 description: Creating a Frame Callback Function
-ms.assetid: '37002ee0-9907-4aab-93cc-50fe9cd21cff'
-keywords: ["capSetCallbackOnFrame macro"]
+ms.assetid: 37002ee0-9907-4aab-93cc-50fe9cd21cff
+keywords:
+- capSetCallbackOnFrame macro
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Creating a Frame Callback Function
 
-The following example is a simple frame callback function. Register this callback by using the [**capSetCallbackOnFrame**](capsetcallbackonframe.md) macro.
+The following example is a simple frame callback function. Register this callback by using the [**capSetCallbackOnFrame**](/windows/win32/Vfw/nf-vfw-capsetcallbackonframe?branch=master) macro.
 
 
 ```

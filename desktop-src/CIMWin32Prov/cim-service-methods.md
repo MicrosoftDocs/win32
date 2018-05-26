@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Service class exposes the following methods.'
+Description: The CIM\_Service class exposes the following methods.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'A95156CB-A65D-4C27-B741-568600F62BA1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: A95156CB-A65D-4C27-B741-568600F62BA1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Service Methods'
+title: CIM\_Service Methods
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Service Methods

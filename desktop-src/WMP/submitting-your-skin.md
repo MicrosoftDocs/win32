@@ -1,8 +1,19 @@
 ---
 title: Submitting Your Skin
 description: Submitting Your Skin
-ms.assetid: 'db7fbcde-2f2a-47df-9c3b-4a31ddda00d5'
-keywords: ["Windows Media Player skins,distributing", "skins,distributing", "distributing skins", "Windows Media Player skins,copyright issues", "skins,copyright issues", "copyright issues for skins"]
+ms.assetid: db7fbcde-2f2a-47df-9c3b-4a31ddda00d5
+keywords:
+- Windows Media Player skins,distributing
+- skins,distributing
+- distributing skins
+- Windows Media Player skins,copyright issues
+- skins,copyright issues
+- copyright issues for skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Submitting Your Skin

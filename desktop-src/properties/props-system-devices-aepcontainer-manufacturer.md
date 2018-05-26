@@ -1,7 +1,12 @@
 ---
-Description: 'Manufacturer of the device.'
-ms.assetid: 'd8e7d09e-a903-44ce-a257-eebf7cde9e4a'
-title: 'System.Devices.AepContainer.Manufacturer'
+Description: Manufacturer of the device.
+ms.assetid: d8e7d09e-a903-44ce-a257-eebf7cde9e4a
+title: System.Devices.AepContainer.Manufacturer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepContainer.Manufacturer

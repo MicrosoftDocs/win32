@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the size of the video stream when it is decoded.'
-ms.assetid: 'db7b101a-5ff8-4a62-b9e2-d05fcdc44b3d'
+Description: Specifies the size of the video stream when it is decoded.
+ms.assetid: db7b101a-5ff8-4a62-b9e2-d05fcdc44b3d
 title: AVEncVideoDisplayDimension property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVEncVideoDisplayDimension property
@@ -28,8 +33,8 @@ The upper 16 bits of the value contain the width, in pixels. The lower 16 bits c
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -41,12 +46,12 @@ The upper 16 bits of the value contain the width, in pixels. The lower 16 bits c
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Emp Tag
 description: Emp Tag
-ms.assetid: 'b0ba1315-cb7c-403f-ad32-65b899eb37bb'
+ms.assetid: b0ba1315-cb7c-403f-ad32-65b899eb37bb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Emp Tag

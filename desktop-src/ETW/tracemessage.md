@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TraceMessage function sends an informational message to an event tracing session.'
-ms.assetid: '5d81c851-d47e-43f8-97b0-87156f36119a'
+---
+Description: The TraceMessage function sends an informational message to an event tracing session.
+ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
 title: TraceMessage function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TraceMessage function
@@ -125,7 +130,7 @@ If the function fails, the return value is one of the [system error codes](base.
 
 Providers call this function.
 
-Using the [**TraceEvent**](traceevent.md) function is the preferred way to log an event. On Windows Vista, you should use the [**EventWrite**](eventwrite-func.md) function to log events.
+Using the [**TraceEvent**](traceevent.md) function is the preferred way to log an event. On Windows Vista, you should use the [**EventWrite**](/windows/win32/Evntprov/nf-evntprov-eventwrite?branch=master) function to log events.
 
 The trace events are written in the order in which they occur.
 

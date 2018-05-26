@@ -1,7 +1,12 @@
 ---
 title: MasterMergeCheckpointInterval
 description: MasterMergeCheckpointInterval
-ms.assetid: '9bbd4059-124a-4c5e-b7ba-1b6d7af7f0b3'
+ms.assetid: 9bbd4059-124a-4c5e-b7ba-1b6d7af7f0b3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MasterMergeCheckpointInterval

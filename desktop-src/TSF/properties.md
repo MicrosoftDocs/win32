@@ -1,8 +1,28 @@
 ---
 title: Properties
 description: Text Services Framework (TSF) provides properties that associate metadata with a range of text.
-ms.assetid: '99d8564f-98bc-4f30-bff9-923a4016a5fe'
-keywords: ["Text Services Framework (TSF),properties", "TSF (Text Services Framework),properties", "text services,properties", "TSF-enabled applications,properties", "properties", "Text Services Framework (TSF),property types", "TSF (Text Services Framework),property types", "text services,property types", "TSF-enabled applications,property types", "property types", "Text Services Framework (TSF),persistent storage of properties", "TSF (Text Services Framework),persistent storage of properties", "text services,persistent storage of properties", "TSF-enabled applications,persistent storage of properties", "persistent storage of properties"]
+ms.assetid: 99d8564f-98bc-4f30-bff9-923a4016a5fe
+keywords:
+- Text Services Framework (TSF),properties
+- TSF (Text Services Framework),properties
+- text services,properties
+- TSF-enabled applications,properties
+- properties
+- Text Services Framework (TSF),property types
+- TSF (Text Services Framework),property types
+- text services,property types
+- TSF-enabled applications,property types
+- property types
+- Text Services Framework (TSF),persistent storage of properties
+- TSF (Text Services Framework),persistent storage of properties
+- text services,persistent storage of properties
+- TSF-enabled applications,persistent storage of properties
+- persistent storage of properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Properties
@@ -61,7 +81,7 @@ TSF defines three different types of properties.
 
 ## Working with Properties
 
-The property value and attributes are obtained using the [ITfReadOnlyProperty](https://msdn.microsoft.com/library/windows/desktop/ms628936) interface and modified using the [ITfProperty](itfproperty.md) interface.
+The property value and attributes are obtained using the [ITfReadOnlyProperty](https://msdn.microsoft.com/library/windows/desktop/ms628936) interface and modified using the [ITfProperty](/windows/win32/Msctf/nn-msctf-itfproperty?branch=master) interface.
 
 If a specific property type is required, then [ITfContext::GetProperty](https://msdn.microsoft.com/library/windows/desktop/ms538791) is used. **ITfContext::GetProperty** requires a **GUID** that identifies the property to obtain. TSF defines a set of [predefined property identifiers](predefined-properties.md) used or a text service can define its own property identifiers. If a custom property is used, the property provider must publish the property **GUID** and the format of the data obtained.
 

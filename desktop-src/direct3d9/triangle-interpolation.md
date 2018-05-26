@@ -1,7 +1,12 @@
 ---
-Description: 'During rendering, the pipeline interpolates vertex data across each triangle.'
-ms.assetid: '6fa05e56-c4cd-4623-abe9-2b1c8bbc644b'
-title: 'Triangle Interpolation (Direct3D 9)'
+Description: During rendering, the pipeline interpolates vertex data across each triangle.
+ms.assetid: 6fa05e56-c4cd-4623-abe9-2b1c8bbc644b
+title: Triangle Interpolation (Direct3D 9)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Triangle Interpolation (Direct3D 9)
@@ -25,7 +30,7 @@ The diffuse color and specular color are treated differently, depending on the c
 
 The alpha component of a color is treated as a separate interpolated value because device drivers can implement transparency in two different ways: by using texture blending or by using stippling.
 
-Use the ShadeCaps member of the [**D3DCAPS9**](d3dcaps9.md) structure to determine what forms of interpolation the current device driver supports.
+Use the ShadeCaps member of the [**D3DCAPS9**](/windows/win32/D3D9Caps/ns-d3d9caps-_d3dcaps9?branch=master) structure to determine what forms of interpolation the current device driver supports.
 
 ## Related topics
 

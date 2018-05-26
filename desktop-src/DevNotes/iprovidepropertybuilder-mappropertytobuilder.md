@@ -1,7 +1,12 @@
-﻿---
-Description: 'Checks whether a builder should be associated with a particular property.'
-ms.assetid: '8fab2dc2-3549-4559-b704-6783d929274e'
-title: 'IProvidePropertyBuilder::MapPropertyToBuilder method'
+---
+Description: Checks whether a builder should be associated with a particular property.
+ms.assetid: 8fab2dc2-3549-4559-b704-6783d929274e
+title: IProvidePropertyBuilderMapPropertyToBuilder method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IProvidePropertyBuilder::MapPropertyToBuilder method

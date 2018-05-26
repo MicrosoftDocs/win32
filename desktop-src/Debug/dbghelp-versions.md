@@ -1,7 +1,12 @@
 ---
-Description: 'The DbgHelp library is implemented by DbgHelp.dll.'
-ms.assetid: '8ef1740d-c791-4fbd-8297-7207a987c09d'
+Description: The DbgHelp library is implemented by DbgHelp.dll.
+ms.assetid: 8ef1740d-c791-4fbd-8297-7207a987c09d
 title: DbgHelp Versions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgHelp Versions
@@ -57,46 +62,46 @@ The following is a summary of the released versions of DbgHelp, in reverse chron
 
 The following functions were added to DbgHelp version 6.8.<dl>
 
-[**EnumerateLoadedModulesEx**](enumerateloadedmodulesex.md)  
-[**SymAddSourceStream**](symaddsourcestream.md)  
-[**SymEnumTypesByName**](symenumtypesbyname.md)  
-[**SymGetOmaps**](symgetomaps.md)  
-[**SymGetSourceVarFromToken**](symgetsourcevarfromtoken.md)  
-[**SymSetScopeFromAddr**](symsetscopefromaddr.md)  
-[**SymSetScopeFromIndex**](symsetscopefromindex.md)  
+[**EnumerateLoadedModulesEx**](/windows/win32/Dbghelp/nf-dbghelp-enumerateloadedmodulesex?branch=master)  
+[**SymAddSourceStream**](/windows/win32/Dbghelp/nf-dbghelp-symaddsourcestream?branch=master)  
+[**SymEnumTypesByName**](/windows/win32/Dbghelp/nf-dbghelp-symenumtypesbyname?branch=master)  
+[**SymGetOmaps**](/windows/win32/Dbghelp/nf-dbghelp-symgetomaps?branch=master)  
+[**SymGetSourceVarFromToken**](/windows/win32/Dbghelp/nf-dbghelp-symgetsourcevarfromtoken?branch=master)  
+[**SymSetScopeFromAddr**](/windows/win32/Dbghelp/nf-dbghelp-symsetscopefromaddr?branch=master)  
+[**SymSetScopeFromIndex**](/windows/win32/Dbghelp/nf-dbghelp-symsetscopefromindex?branch=master)  
 </dl>
 
 ## Version 6.6
 
 The following functions were added to DbgHelp version 6.6.<dl>
 
-[**SymFindDebugInfoFile**](symfinddebuginfofile.md)  
-[**SymFindExecutableImage**](symfindexecutableimage.md)  
-[**SymSrvGetFileIndexInfo**](symsrvgetfileindexinfo.md)  
+[**SymFindDebugInfoFile**](/windows/win32/Dbghelp/nf-dbghelp-symfinddebuginfofile?branch=master)  
+[**SymFindExecutableImage**](/windows/win32/Dbghelp/nf-dbghelp-symfindexecutableimage?branch=master)  
+[**SymSrvGetFileIndexInfo**](/windows/win32/Dbghelp/nf-dbghelp-symsrvgetfileindexinfo?branch=master)  
 </dl>
 
 ## Version 6.5
 
 The following function was added to DbgHelp version 6.5.<dl>
 
-[**SymRefreshModuleList**](symrefreshmodulelist.md)  
+[**SymRefreshModuleList**](/windows/win32/Dbghelp/nf-dbghelp-symrefreshmodulelist?branch=master)  
 </dl>
 
 The following structures were added to DbgHelp version 6.5.<dl>
 
-[**MINIDUMP\_HANDLE\_DESCRIPTOR\_2**](minidump-handle-descriptor-2.md)  
-[**MINIDUMP\_HANDLE\_OBJECT\_INFORMATION**](minidump-handle-object-information.md)  
-[**MINIDUMP\_HANDLE\_OPERATION\_LIST**](minidump-handle-operation-list.md)  
-[**MINIDUMP\_IO\_CALLBACK**](minidump-io-callback.md)  
-[**MINIDUMP\_MISC\_INFO\_2**](minidump-misc-info-2.md)  
-[**MINIDUMP\_READ\_MEMORY\_FAILURE\_CALLBACK**](minidump-read-memory-failure-callback.md)  
+[**MINIDUMP\_HANDLE\_DESCRIPTOR\_2**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_handle_descriptor_2?branch=master)  
+[**MINIDUMP\_HANDLE\_OBJECT\_INFORMATION**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_handle_object_information?branch=master)  
+[**MINIDUMP\_HANDLE\_OPERATION\_LIST**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_handle_operation_list?branch=master)  
+[**MINIDUMP\_IO\_CALLBACK**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_io_callback?branch=master)  
+[**MINIDUMP\_MISC\_INFO\_2**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_misc_info_2?branch=master)  
+[**MINIDUMP\_READ\_MEMORY\_FAILURE\_CALLBACK**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_read_memory_failure_callback?branch=master)  
 </dl>
 
 ## Version 6.4
 
 The following function was added to DbgHelp version 6.4.<dl>
 
-[**SymEnumSourceLines**](symenumsourcelines.md)  
+[**SymEnumSourceLines**](/windows/win32/DbgHelp/nf-dbghelp-symenumsourcelines?branch=master)  
 </dl>
 
 ## Version 6.3
@@ -105,24 +110,24 @@ DbgHelp version 6.3 adds Unicode support to many of the existing functions. To e
 
 The following functions were added to DbgHelp version 6.3.<dl>
 
-[**SymEnumProcesses**](symenumprocesses.md)  
-[**SymGetSymbolFile**](symgetsymbolfile.md)  
-[**SymGetTypeInfoEx**](symgettypeinfoex.md)  
-[**SymSrvDeltaName**](symsrvdeltaname.md)  
-[**SymSrvGetFileIndexes**](symsrvgetfileindexes.md)  
-[**SymSrvGetFileIndexString**](symsrvgetfileindexstring.md)  
-[**SymSrvGetSupplement**](symsrvgetsupplement.md)  
-[**SymSrvIsStore**](symsrvisstore.md)  
-[**SymSrvStoreFile**](symsrvstorefile.md)  
-[**SymSrvStoreSupplement**](symsrvstoresupplement.md)  
+[**SymEnumProcesses**](/windows/win32/DbgHelp/nf-dbghelp-symenumprocesses?branch=master)  
+[**SymGetSymbolFile**](/windows/win32/Dbghelp/nf-dbghelp-symgetsymbolfile?branch=master)  
+[**SymGetTypeInfoEx**](/windows/win32/Dbghelp/nf-dbghelp-symgettypeinfoex?branch=master)  
+[**SymSrvDeltaName**](/windows/win32/DbgHelp/nf-dbghelp-symsrvdeltaname?branch=master)  
+[**SymSrvGetFileIndexes**](/windows/win32/DbgHelp/nf-dbghelp-symsrvgetfileindexes?branch=master)  
+[**SymSrvGetFileIndexString**](/windows/win32/DbgHelp/nf-dbghelp-symsrvgetfileindexstring?branch=master)  
+[**SymSrvGetSupplement**](/windows/win32/DbgHelp/nf-dbghelp-symsrvgetsupplement?branch=master)  
+[**SymSrvIsStore**](/windows/win32/DbgHelp/nf-dbghelp-symsrvisstore?branch=master)  
+[**SymSrvStoreFile**](/windows/win32/DbgHelp/nf-dbghelp-symsrvstorefile?branch=master)  
+[**SymSrvStoreSupplement**](/windows/win32/DbgHelp/nf-dbghelp-symsrvstoresupplement?branch=master)  
 </dl>
 
 The following structures were added to DbgHelp version 6.3.<dl>
 
-[**MINIDUMP\_MEMORY\_INFO**](minidump-memory-info-str.md)  
-[**MINIDUMP\_MEMORY\_INFO\_LIST**](minidump-memory-info-list-str.md)  
-[**MINIDUMP\_THREAD\_INFO**](minidump-thread-info-str.md)  
-[**MINIDUMP\_THREAD\_INFO\_LIST**](minidump-thread-info-list-str.md)  
+[**MINIDUMP\_MEMORY\_INFO**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_memory_info?branch=master)  
+[**MINIDUMP\_MEMORY\_INFO\_LIST**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_memory_info_list?branch=master)  
+[**MINIDUMP\_THREAD\_INFO**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_thread_info?branch=master)  
+[**MINIDUMP\_THREAD\_INFO\_LIST**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_thread_info_list?branch=master)  
 </dl>
 
 DbgHelp 6.3 also supports [Source Server](source-server-and-source-indexing.md).
@@ -131,67 +136,67 @@ DbgHelp 6.3 also supports [Source Server](source-server-and-source-indexing.md).
 
 The following functions were added to DbgHelp version 6.2.<dl>
 
-[**SymEnumSourceFiles**](symenumsourcefiles.md)  
-[**SymFromIndex**](symfromindex.md)  
-[**SymGetScope**](symgetscope.md)  
-[**SymGetSourceFile**](symgetsourcefile.md)  
-[**SymGetSourceFileFromToken**](symgetsourcefilefromtoken.md)  
-[**SymGetSourceFileToken**](symgetsourcefiletoken.md)  
-[**SymMatchString**](symmatchstring.md)  
-[**SymNext**](symnext.md)  
-[**SymPrev**](symprev.md)  
-[**SymSearch**](symsearch.md)  
+[**SymEnumSourceFiles**](/windows/win32/DbgHelp/nf-dbghelp-symenumsourcefiles?branch=master)  
+[**SymFromIndex**](/windows/win32/Dbghelp/nf-dbghelp-symfromindex?branch=master)  
+[**SymGetScope**](/windows/win32/Dbghelp/nf-dbghelp-symgetscope?branch=master)  
+[**SymGetSourceFile**](/windows/win32/Dbghelp/nf-dbghelp-symgetsourcefile?branch=master)  
+[**SymGetSourceFileFromToken**](/windows/win32/Dbghelp/nf-dbghelp-symgetsourcefilefromtoken?branch=master)  
+[**SymGetSourceFileToken**](/windows/win32/Dbghelp/nf-dbghelp-symgetsourcefiletoken?branch=master)  
+[**SymMatchString**](/windows/win32/DbgHelp/nf-dbghelp-symmatchstring?branch=master)  
+[**SymNext**](/windows/win32/DbgHelp/nf-dbghelp-symnext?branch=master)  
+[**SymPrev**](/windows/win32/DbgHelp/nf-dbghelp-symprev?branch=master)  
+[**SymSearch**](/windows/win32/Dbghelp/nf-dbghelp-symsearch?branch=master)  
 </dl>
 
 ## Version 6.1
 
 The following functions were added to DbgHelp version 6.1.<dl>
 
-[**SymEnumLines**](symenumlines.md)  
-[**SymFromToken**](symfromtoken.md)  
-[**SymGetHomeDirectory**](symgethomedirectory.md)  
-[**SymSetHomeDirectory**](symsethomedirectory.md)  
+[**SymEnumLines**](/windows/win32/Dbghelp/nf-dbghelp-symenumlines?branch=master)  
+[**SymFromToken**](/windows/win32/Dbghelp/nf-dbghelp-symfromtoken?branch=master)  
+[**SymGetHomeDirectory**](/windows/win32/Dbghelp/nf-dbghelp-symgethomedirectory?branch=master)  
+[**SymSetHomeDirectory**](/windows/win32/Dbghelp/nf-dbghelp-symsethomedirectory?branch=master)  
 </dl>
 
 ## Versions 5.2 and 6.0
 
 The following functions were added to DbgHelp versions 5.2 and 6.0.<dl>
 
-[**EnumDirTree**](enumdirtree.md)  
-[**SymAddSymbol**](symaddsymbol.md)  
-[**SymDeleteSymbol**](symdeletesymbol.md)  
-[**SymEnumSymbolsForAddr**](symenumsymbolsforaddr.md)  
-[**SymLoadModuleEx**](symloadmoduleex.md)  
-[**SymSetParentWindow**](symsetparentwindow.md)  
+[**EnumDirTree**](/windows/win32/Dbghelp/nf-dbghelp-enumdirtree?branch=master)  
+[**SymAddSymbol**](/windows/win32/Dbghelp/nf-dbghelp-symaddsymbol?branch=master)  
+[**SymDeleteSymbol**](/windows/win32/Dbghelp/nf-dbghelp-symdeletesymbol?branch=master)  
+[**SymEnumSymbolsForAddr**](/windows/win32/Dbghelp/nf-dbghelp-symenumsymbolsforaddr?branch=master)  
+[**SymLoadModuleEx**](/windows/win32/Dbghelp/nf-dbghelp-symloadmoduleex?branch=master)  
+[**SymSetParentWindow**](/windows/win32/Dbghelp/nf-dbghelp-symsetparentwindow?branch=master)  
 </dl>
 
 The following structures were added to DbgHelp version 5.2 and 6.0.<dl>
 
-[**MINIDUMP\_MISC\_INFO**](minidump-misc-info-str.md)  
-[**MINIDUMP\_UNLOADED\_MODULE**](minidump-unloaded-module-str.md)  
-[**MINIDUMP\_UNLOADED\_MODULE\_LIST**](minidump-unloaded-module-list-str.md)  
-[**MODLOAD\_DATA**](modload-data-str.md)  
+[**MINIDUMP\_MISC\_INFO**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_misc_info?branch=master)  
+[**MINIDUMP\_UNLOADED\_MODULE**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module?branch=master)  
+[**MINIDUMP\_UNLOADED\_MODULE\_LIST**](/windows/win32/minidumpapiset/ns-minidumpapiset-_minidump_unloaded_module_list?branch=master)  
+[**MODLOAD\_DATA**](/windows/win32/DbgHelp/ns-dbghelp-_modload_data?branch=master)  
 </dl>
 
 ## Versions 4.0 and 5.1
 
 The following functions were added to DbgHelp versions 4.0 and 5.1.<dl>
 
-[**MiniDumpReadDumpStream**](minidumpreaddumpstream.md)  
-[**MiniDumpWriteDump**](minidumpwritedump.md)  
+[**MiniDumpReadDumpStream**](/windows/win32/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream?branch=master)  
+[**MiniDumpWriteDump**](/windows/win32/minidumpapiset/nf-minidumpapiset-minidumpwritedump?branch=master)  
 [**SymbolServer**](base.symbolserver)  
 [**SymbolServerClose**](base.symbolserverclose)  
 [**SymbolServerGetOptions**](base.symbolservergetoptions)  
 [**SymbolServerSetOptions**](base.symbolserversetoptions)  
-[**SymEnumSymbols**](symenumsymbols.md)  
-[**SymEnumTypes**](symenumtypes.md)  
-[**SymFindFileInPath**](symfindfileinpath.md)  
-[**SymFromAddr**](symfromaddr.md)  
-[**SymFromName**](symfromname.md)  
-[**SymGetFileLineOffsets64**](symgetfilelineoffsets64.md)  
-[**SymGetTypeFromName**](symgettypefromname.md)  
-[**SymGetTypeInfo**](symgettypeinfo.md)  
-[**SymSetContext**](symsetcontext.md)  
+[**SymEnumSymbols**](/windows/win32/Dbghelp/nf-dbghelp-symenumsymbols?branch=master)  
+[**SymEnumTypes**](/windows/win32/Dbghelp/nf-dbghelp-symenumtypes?branch=master)  
+[**SymFindFileInPath**](/windows/win32/DbgHelp/nf-dbghelp-symfindfileinpath?branch=master)  
+[**SymFromAddr**](/windows/win32/Dbghelp/nf-dbghelp-symfromaddr?branch=master)  
+[**SymFromName**](/windows/win32/Dbghelp/nf-dbghelp-symfromname?branch=master)  
+[**SymGetFileLineOffsets64**](/windows/win32/Dbghelp/nf-dbghelp-symgetfilelineoffsets64?branch=master)  
+[**SymGetTypeFromName**](/windows/win32/Dbghelp/nf-dbghelp-symgettypefromname?branch=master)  
+[**SymGetTypeInfo**](/windows/win32/Dbghelp/nf-dbghelp-symgettypeinfo?branch=master)  
+[**SymSetContext**](/windows/win32/Dbghelp/nf-dbghelp-symsetcontext?branch=master)  
 </dl>
 
  

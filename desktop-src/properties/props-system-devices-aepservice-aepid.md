@@ -1,7 +1,12 @@
 ---
-Description: 'Device Association Endpoint Service''s Parent AEP Id.'
-ms.assetid: '244331c9-fc42-43b8-a473-99cf651105f2'
-title: 'System.Devices.AepService.AepId'
+Description: Device Association Endpoint Services Parent AEP Id.
+ms.assetid: 244331c9-fc42-43b8-a473-99cf651105f2
+title: System.Devices.AepService.AepId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.AepService.AepId

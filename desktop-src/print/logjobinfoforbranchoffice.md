@@ -1,7 +1,12 @@
-﻿---
-Description: 'Allows Branch Office clients to send job events to the host print server.'
-ms.assetid: '6D1AB299-2E26-42AF-9613-CA321173080D'
+---
+Description: Allows Branch Office clients to send job events to the host print server.
+ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
 title: LogJobInfoForBranchOffice function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LogJobInfoForBranchOffice function

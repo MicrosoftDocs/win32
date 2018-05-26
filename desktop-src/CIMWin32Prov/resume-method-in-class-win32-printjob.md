@@ -1,15 +1,18 @@
 ---
-Description: 'The Resume WMI class method continues a paused print job.'
+Description: The Resume WMI class method continues a paused print job.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'acfbca2b-19af-4339-bbca-834db50c3d8d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: acfbca2b-19af-4339-bbca-834db50c3d8d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Resume method of the Win32\_PrintJob class'
+title: Resume method of the Win32\_PrintJob class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resume method of the Win32\_PrintJob class
@@ -77,8 +80,8 @@ Next
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                        |
 | MOF<br/>                      | <dl> <dt>Win32\_Printer.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl>       |
@@ -95,9 +98,9 @@ Next
 [**Win32\_PrintJob**](win32-printjob.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

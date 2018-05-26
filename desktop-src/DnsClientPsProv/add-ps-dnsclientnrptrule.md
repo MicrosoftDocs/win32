@@ -4,13 +4,16 @@ description: Adds a rule to Name Resolution Policy Table.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '573b82cb-500e-4a46-8fc6-952bc8267c78'
-ms.prod: 'windows-server-dev'
+ms.assetid: 573b82cb-500e-4a46-8fc6-952bc8267c78
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-client'
-- 'windows-management-instrumentation'
+- dns-client
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["Add method", "Add method, PS_DnsClientNrptRule class", "PS_DnsClientNrptRule class, Add method"]
+keywords:
+- Add method
+- Add method, PS_DnsClientNrptRule class
+- PS_DnsClientNrptRule class, Add method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - DnsClientPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Add method of the PS\_DnsClientNrptRule class
@@ -30,26 +36,26 @@ Adds a rule to Name Resolution Policy Table.
 
 ```mof
 uint32 Add(
-  [in]  string            GpoName,
-  [in]  string            DANameServers[],
-  [in]  boolean           DAIPsecRequired,
-  [in]  string            DAIPsecEncryptionType,
-  [in]  string            DAProxyServerName,
-  [in]  boolean           DnsSecEnable,
-  [in]  boolean           DnsSecIPsecRequired,
-  [in]  string            DnsSecIPsecEncryptionType,
-  [in]  string            NameServers[],
-  [in]  string            NameEncoding,
-  [in]  string            Namespace[],
-  [in]  string            Server,
-  [in]  string            DAProxyType,
-  [in]  boolean           DnsSecValidationRequired,
-  [in]  boolean           DAEnable,
-  [in]  string            IPsecTrustAuthority,
-  [in]  string            Comment,
-  [in]  string            DisplayName,
-  [in]  boolean           PassThru,
-  [out] DnsClientNrptRule cmdletOutput
+  [in]  string            GpoName,
+  [in]  string            DANameServers[],
+  [in]  boolean           DAIPsecRequired,
+  [in]  string            DAIPsecEncryptionType,
+  [in]  string            DAProxyServerName,
+  [in]  boolean           DnsSecEnable,
+  [in]  boolean           DnsSecIPsecRequired,
+  [in]  string            DnsSecIPsecEncryptionType,
+  [in]  string            NameServers[],
+  [in]  string            NameEncoding,
+  [in]  string            Namespace[],
+  [in]  string            Server,
+  [in]  string            DAProxyType,
+  [in]  boolean           DnsSecValidationRequired,
+  [in]  boolean           DAEnable,
+  [in]  string            IPsecTrustAuthority,
+  [in]  string            Comment,
+  [in]  string            DisplayName,
+  [in]  boolean           PassThru,
+  [out] DnsClientNrptRule cmdletOutput
 );
 ```
 
@@ -282,8 +288,8 @@ A [**DnsClientNrptRule**](ps-dnsclientnrptrule.md) object containing all the pro
 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                               |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
+| Minimum supported client<br/> | Windows 8<br/>                                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsClientPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsClientPSProvider.dll</dt> </dl> |
@@ -297,9 +303,9 @@ A [**DnsClientNrptRule**](ps-dnsclientnrptrule.md) object containing all the pro
 [**PS\_DnsClientNrptRule**](ps-dnsclientnrptrule.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

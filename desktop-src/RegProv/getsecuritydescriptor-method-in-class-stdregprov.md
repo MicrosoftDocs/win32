@@ -4,11 +4,14 @@ description: The GetSecurityDescriptor method returns the security descriptor th
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'edcdc184-bb87-47fc-a8eb-6b203a138f12'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: edcdc184-bb87-47fc-a8eb-6b203a138f12
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetSecurityDescriptor method", "GetSecurityDescriptor method, StdRegProv class", "StdRegProv class, GetSecurityDescriptor method"]
+keywords:
+- GetSecurityDescriptor method
+- GetSecurityDescriptor method, StdRegProv class
+- StdRegProv class, GetSecurityDescriptor method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Stdprov.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetSecurityDescriptor method of the StdRegProv class
@@ -28,9 +34,9 @@ The **GetSecurityDescriptor** method returns the security descriptor that contro
 
 ```mof
 uint32 GetSecurityDescriptor(
-  [in]  uint32               hDefKey = HKEY_LOCAL_MACHINE,
-  [in]  string               sSubKeyName,
-  [out] __SecurityDescriptor Descriptor
+  [in]  uint32               hDefKey = HKEY_LOCAL_MACHINE,
+  [in]  string               sSubKeyName,
+  [out] __SecurityDescriptor Descriptor
 );
 ```
 
@@ -116,8 +122,8 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\default<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>RegEvent.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Stdprov.dll</dt> </dl>  |
@@ -137,9 +143,9 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 [WMI Tasks: Registry](https://msdn.microsoft.com/library/aa394600)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

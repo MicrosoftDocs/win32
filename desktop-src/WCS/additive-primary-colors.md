@@ -1,8 +1,20 @@
 ---
 title: Additive Primary Colors
 description: The additive method of color mixing is based on the assumption that you start with black. That is, if there are no other colors present (the image is black) and you add red, the image appears red. If you then add blue, the image appears magenta.
-ms.assetid: '4ecc1d29-92fe-46b6-bd65-d385a16f83d7'
-keywords: ["Windows Color System (WCS),additive primary colors", "WCS (Windows Color System),additive primary colors", "image color management,additive primary colors", "color management,additive primary colors", "colors,additive primary", "additive primary colors", "primary colors"]
+ms.assetid: 4ecc1d29-92fe-46b6-bd65-d385a16f83d7
+keywords:
+- Windows Color System (WCS),additive primary colors
+- WCS (Windows Color System),additive primary colors
+- image color management,additive primary colors
+- color management,additive primary colors
+- colors,additive primary
+- additive primary colors
+- primary colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Additive Primary Colors

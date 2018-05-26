@@ -1,13 +1,23 @@
 ---
 title: Using Rectangles
 description: Using Rectangles
-ms.assetid: 'b3fc16b4-dc93-43c0-a97d-5234e36437c8'
-keywords: ["visualizations,rectangles", "custom visualizations,rectangles", "visualizations,Render function", "custom visualizations,Render function", "Render function,rectangles"]
+ms.assetid: b3fc16b4-dc93-43c0-a97d-5234e36437c8
+keywords:
+- visualizations,rectangles
+- custom visualizations,rectangles
+- visualizations,Render function
+- custom visualizations,Render function
+- Render function,rectangles
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Rectangles
 
-Rectangles are used to specify rectangular areas in Microsoft Windows. You can create many rectangles in your window, but Windows Media Player supplies the values of one rectangle through the [IWMPEffects::Render](iwmpeffects-render.md) function. If your plug-in renders using a window, the rectangle is the client area of the window. This is called the prc rectangle, and it defines the rectangle that Windows Media Player will display your visualization through. Use this frequently to be sure you do not draw beyond the extents of the rectangle supplied by Windows Media Player.
+Rectangles are used to specify rectangular areas in Microsoft Windows. You can create many rectangles in your window, but Windows Media Player supplies the values of one rectangle through the [IWMPEffects::Render](/windows/win32/effects/nf-effects-iwmpeffects-render?branch=master) function. If your plug-in renders using a window, the rectangle is the client area of the window. This is called the prc rectangle, and it defines the rectangle that Windows Media Player will display your visualization through. Use this frequently to be sure you do not draw beyond the extents of the rectangle supplied by Windows Media Player.
 
 A rectangle has four values that define it. They are left, top, right, and bottom. The top, left corner of the rectangle is defined by left and top, and the bottom, right corner of the rectangle is defined by bottom and right.
 

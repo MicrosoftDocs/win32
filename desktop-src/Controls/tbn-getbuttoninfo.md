@@ -1,8 +1,9 @@
 ---
 title: TBN\_GETBUTTONINFO notification code
-description: Retrieves toolbar customization information and notifies the toolbar's parent window of any changes being made to the toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '088527fe-5a38-4c35-ba68-d0cbfdee410c'
-keywords: ["TBN_GETBUTTONINFO notification code Windows Controls"]
+description: Retrieves toolbar customization information and notifies the toolbars parent window of any changes being made to the toolbar. This notification code is sent in the form of a WM\_NOTIFY message.
+ms.assetid: 088527fe-5a38-4c35-ba68-d0cbfdee410c
+keywords:
+- TBN_GETBUTTONINFO notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -13,6 +14,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBN\_GETBUTTONINFO notification code
@@ -35,7 +41,7 @@ TBN_GETBUTTONINFO
 *lParam* 
 </dt> <dd>
 
-Pointer to an [**NMTOOLBAR**](nmtoolbar.md) structure. The **iItem** member specifies a zero-based index that provides a count of the buttons the Customize Toolbar dialog box displays as both available and present on the toolbar. The **pszText** member specifies the address of the current button text, and **cchText** specifies its length in characters. The application should fill the structure with information about the button.
+Pointer to an [**NMTOOLBAR**](/windows/win32/Commctrl/ns-commctrl-tagnmtoolbara?branch=master) structure. The **iItem** member specifies a zero-based index that provides a count of the buttons the Customize Toolbar dialog box displays as both available and present on the toolbar. The **pszText** member specifies the address of the current button text, and **cchText** specifies its length in characters. The application should fill the structure with information about the button.
 
 </dd> </dl>
 
@@ -53,16 +59,16 @@ The toolbar control allocates a buffer, and the receiver (parent window) must co
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 | Unicode and ANSI names<br/>   | **TBN\_GETBUTTONINFOW** (Unicode) and **TBN\_GETBUTTONINFOA** (ANSI)<br/>       |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: NetworkSettings object
 description: For scripting, provides the settings that the Task Scheduler service uses to obtain a network profile.
-ms.assetid: '831e1259-df2b-4b03-8336-706727fd7b14'
-keywords: ["NetworkSettings object Task Scheduler", "NetworkSettings object Task Scheduler , described"]
+ms.assetid: 831e1259-df2b-4b03-8336-706727fd7b14
+keywords:
+- NetworkSettings object Task Scheduler
+- NetworkSettings object Task Scheduler , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NetworkSettings object
@@ -36,7 +43,7 @@ The **NetworkSettings** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -48,8 +55,8 @@ When reading or writing your own XML for a task, network settings are specified 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -65,9 +72,9 @@ When reading or writing your own XML for a task, network settings are specified 
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

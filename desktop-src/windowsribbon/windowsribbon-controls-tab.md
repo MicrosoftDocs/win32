@@ -1,7 +1,12 @@
 ---
 title: Tab
 description: A Tab contains groups of related controls.
-ms.assetid: '7315ca96-73c8-4ea1-bce0-172ebc4dd43a'
+ms.assetid: 7315ca96-73c8-4ea1-bce0-172ebc4dd43a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tab

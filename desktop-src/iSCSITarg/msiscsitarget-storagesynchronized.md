@@ -4,13 +4,15 @@ description: Associates two storage objects in a replication relationship.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '15824009-2716-4601-8da8-d9868efaf1a3'
-ms.prod: 'windows-server-dev'
+ms.assetid: 15824009-2716-4601-8da8-d9868efaf1a3
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSISCSITARGET_StorageSynchronized class iSCSI Software Target API", "MSISCSITARGET_StorageSynchronized class iSCSI Software Target API , described"]
+keywords:
+- MSISCSITARGET_StorageSynchronized class iSCSI Software Target API
+- MSISCSITARGET_StorageSynchronized class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -43,6 +45,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSISCSITARGET\_StorageSynchronized class
@@ -57,30 +62,30 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("MSiSCSITargetProv"), Association, Version("1.0.0")]
 class MSISCSITARGET_StorageSynchronized : CIM_StorageSynchronized
 {
-  datetime               WhenSynced;
-  boolean                SyncMaintained;
-  uint16                 CopyState;
-  uint16                 Mode;
-  uint16                 PercentSynced;
-  uint16                 ProgressStatus;
-  uint16                 RequestedCopyState = 15;
-  uint16                 SyncType;
-  datetime               WhenActivated;
-  datetime               WhenDeactivated;
-  datetime               WhenEstablished;
-  datetime               WhenSuspended;
-  datetime               WhenSynchronized;
-  uint16                 CopyRecoveryMode;
-  boolean                FailedCopyStopsHostIO = FALSE;
+  datetime               WhenSynced;
+  boolean                SyncMaintained;
+  uint16                 CopyState;
+  uint16                 Mode;
+  uint16                 PercentSynced;
+  uint16                 ProgressStatus;
+  uint16                 RequestedCopyState = 15;
+  uint16                 SyncType;
+  datetime               WhenActivated;
+  datetime               WhenDeactivated;
+  datetime               WhenEstablished;
+  datetime               WhenSuspended;
+  datetime               WhenSynchronized;
+  uint16                 CopyRecoveryMode;
+  boolean                FailedCopyStopsHostIO = FALSE;
   CIM_ManagedElement REF SystemElement;
   CIM_ManagedElement REF SyncedElement;
-  uint16                 CopyType;
-  uint16                 ReplicaType;
-  uint16                 SyncState;
-  uint16                 CopyPriority;
-  uint16                 CopyMethodology;
-  uint16                 UndiscoveredElement;
-  uint16                 ReadOnly;
+  uint16                 CopyType;
+  uint16                 ReplicaType;
+  uint16                 SyncState;
+  uint16                 CopyPriority;
+  uint16                 CopyMethodology;
+  uint16                 UndiscoveredElement;
+  uint16                 ReadOnly;
 };
 ```
 
@@ -207,14 +212,14 @@ This property is inherited from [**CIM\_StorageSynchronized**](cim-storagesynchr
 **DMTF Reserved**
 
 
-</dt> <dd>10–32767</dd> <dt>
+</dt> <dd>10 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -278,14 +283,14 @@ This property is inherited from [**CIM\_StorageSynchronized**](cim-storagesynchr
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -337,14 +342,14 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -513,14 +518,14 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 **DMTF Reserved**
 
 
-</dt> <dd>18–32767</dd> <dt>
+</dt> <dd>18 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -580,14 +585,14 @@ This property is inherited from [**CIM\_StorageSynchronized**](cim-storagesynchr
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -653,14 +658,14 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 **DMTF Reserved**
 
 
-</dt> <dd>4–32767</dd> <dt>
+</dt> <dd>4 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -886,14 +891,14 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 **DMTF Reserved**
 
 
-</dt> <dd>22–32767</dd> <dt>
+</dt> <dd>22 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -945,14 +950,14 @@ This property is inherited from [**CIM\_StorageSynchronized**](cim-storagesynchr
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1021,14 +1026,14 @@ This property is inherited from [**CIM\_StorageSynchronized**](cim-storagesynchr
 **DMTF Reserved**
 
 
-</dt> <dd>6–32767</dd> <dt>
+</dt> <dd>6 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1230,14 +1235,14 @@ This property is inherited from [**CIM\_StorageSynchronized**](cim-storagesynchr
 **DMTF Reserved**
 
 
-</dt> <dd>16–32767</dd> <dt>
+</dt> <dd>16 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1270,7 +1275,7 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 **DMTF Reserved**
 
 
-</dt> <dd>0–5</dd> <dt>
+</dt> <dd>0 5</dd> <dt>
 
 <span id="Mirror"></span><span id="mirror"></span><span id="MIRROR"></span>
 
@@ -1298,14 +1303,14 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 **DMTF Reserved**
 
 
-</dt> <dd>9–32767</dd> <dt>
+</dt> <dd>9 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1374,14 +1379,14 @@ This property is inherited from [**CIM\_StorageSynchronized**](cim-storagesynchr
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Specific"></span><span id="vendor_specific"></span><span id="VENDOR_SPECIFIC"></span>
 
 **Vendor Specific**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1497,7 +1502,7 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -1520,9 +1525,9 @@ This property is inherited from [**CIM\_Synchronized**](cim-synchronized.md).
 [**MSISCSITARGET\_StorageSynchronized**](msiscsitarget-storagesynchronized.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

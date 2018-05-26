@@ -1,13 +1,22 @@
 ---
 title: Attribute List
 description: Attribute List
-ms.assetid: '81fc356e-ee7a-4630-841f-6c1543e022d3'
-keywords: ["Windows Media Format SDK,attributes", "Advanced Systems Format (ASF),attributes", "ASF (Advanced Systems Format),attributes", "attributes,list of"]
+ms.assetid: 81fc356e-ee7a-4630-841f-6c1543e022d3
+keywords:
+- Windows Media Format SDK,attributes
+- Advanced Systems Format (ASF),attributes
+- ASF (Advanced Systems Format),attributes
+- attributes,list of
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Attribute List
 
-The predefined attributes included with this SDK are presented alphabetically in the following table. Each attribute has a name, a global identifier, and a data type as defined by the appropriate member of the [**WMT\_ATTR\_DATATYPE**](wmt-attr-datatype.md) enumeration. Some attributes do not use a simple data type, or are formatted according to a structure. Entries for these attributes list a structure name in the data-type column with the data type used to set the value in parentheses.
+The predefined attributes included with this SDK are presented alphabetically in the following table. Each attribute has a name, a global identifier, and a data type as defined by the appropriate member of the [**WMT\_ATTR\_DATATYPE**](/windows/win32/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype?branch=master) enumeration. Some attributes do not use a simple data type, or are formatted according to a structure. Entries for these attributes list a structure name in the data-type column with the data type used to set the value in parentheses.
 
 > [!Note]  
 > See [DRM Attribute List](drm-attribute-list.md) for a table of all the DRM-related attributes.

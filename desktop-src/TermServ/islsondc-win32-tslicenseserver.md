@@ -1,14 +1,17 @@
 ---
 title: IsLSonDC method of the Win32\_TSLicenseServer class
-description: Retrieves whether Remote Desktop Licensing (RD Licensing) is installed on a domain controller.
+description: Retrieves whether Remote Desktop Licensing (RD Licensing) is installed on a domain controller.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '43345dc8-c8b6-4c41-b26d-781293d07516'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 43345dc8-c8b6-4c41-b26d-781293d07516
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["IsLSonDC method Remote Desktop Services", "IsLSonDC method Remote Desktop Services , Win32_TSLicenseServer class", "Win32_TSLicenseServer class Remote Desktop Services , IsLSonDC method"]
+keywords:
+- IsLSonDC method Remote Desktop Services
+- IsLSonDC method Remote Desktop Services , Win32_TSLicenseServer class
+- Win32_TSLicenseServer class Remote Desktop Services , IsLSonDC method
 topic_type:
 - apiref
 api_name:
@@ -17,18 +20,21 @@ api_location:
 - TlsWmiProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IsLSonDC method of the Win32\_TSLicenseServer class
 
-Retrieves whether Remote Desktop Licensing (RD Licensing) is installed on a domain controller.
+Retrieves whether Remote Desktop Licensing (RD Licensing) is installed on a domain controller.
 
 ## Syntax
 
 
 ```mof
 uint32 IsLSonDC(
-  [out] boolean OnDC
+  [out] boolean OnDC
 );
 ```
 
@@ -41,7 +47,7 @@ uint32 IsLSonDC(
 *OnDC* \[out\]
 </dt> <dd>
 
-Boolean value that indicates whether RD Licensing is installed on a domain controller.
+Boolean value that indicates whether RD Licensing is installed on a domain controller.
 
 </dd> </dl>
 
@@ -62,7 +68,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
@@ -76,9 +82,9 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 [**Win32\_TSLicenseServer**](win32-tslicenseserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

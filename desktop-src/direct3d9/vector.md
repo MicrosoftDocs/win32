@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines a vector.'
-ms.assetid: '7091617b-935b-466e-8270-90240a1adaee'
+---
+Description: Defines a vector.
+ms.assetid: 7091617b-935b-466e-8270-90240a1adaee
 title: Vector
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Vector

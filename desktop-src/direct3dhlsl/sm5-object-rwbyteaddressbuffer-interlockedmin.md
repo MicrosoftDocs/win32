@@ -1,14 +1,20 @@
 ---
 title: InterlockedMin function
 description: Finds the minimum value, atomically.
-ms.assetid: 'bf650b2e-9c6c-4458-9565-1e9ec76a1472'
-keywords: ["InterlockedMin function HLSL"]
+ms.assetid: bf650b2e-9c6c-4458-9565-1e9ec76a1472
+keywords:
+- InterlockedMin function HLSL
 topic_type:
 - apiref
 api_name:
 - InterlockedMin
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InterlockedMin function

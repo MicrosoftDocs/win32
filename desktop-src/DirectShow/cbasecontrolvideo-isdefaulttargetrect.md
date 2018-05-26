@@ -1,7 +1,12 @@
 ---
-Description: 'The IsDefaultTargetRect method determines if the renderer is using the default target rectangle (pure virtual).'
-ms.assetid: '60c09515-7a34-421c-b3e8-ce746a935583'
-title: 'CBaseControlVideo.IsDefaultTargetRect method'
+Description: The IsDefaultTargetRect method determines if the renderer is using the default target rectangle (pure virtual).
+ms.assetid: 60c09515-7a34-421c-b3e8-ce746a935583
+title: CBaseControlVideo.IsDefaultTargetRect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlVideo.IsDefaultTargetRect method
@@ -75,9 +80,9 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 [**CBaseControlVideo Class**](cbasecontrolvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the &\#0034;c-hostexe&\#0034; field that the network source uses for logging.'
-ms.assetid: '82a49719-b9b3-4868-bbcf-9e376f35d4c4'
-title: 'MFNETSOURCE\_HOSTEXE property'
+---
+Description: The value of the &\#0034;c-hostexe&\#0034; field that the network source uses for logging.
+ms.assetid: 82a49719-b9b3-4868-bbcf-9e376f35d4c4
+title: MFNETSOURCE\_HOSTEXE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_HOSTEXE property

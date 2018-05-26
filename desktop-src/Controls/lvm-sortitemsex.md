@@ -1,8 +1,9 @@
 ---
 title: LVM\_SORTITEMSEX message
 description: Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can send this message explicitly or by using the ListView\_SortItemsEx macro.
-ms.assetid: 'eab2f6f5-68fd-4cb6-acf4-cb267ee40fdc'
-keywords: ["LVM_SORTITEMSEX message Windows Controls"]
+ms.assetid: eab2f6f5-68fd-4cb6-acf4-cb267ee40fdc
+keywords:
+- LVM_SORTITEMSEX message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_SORTITEMSEX message
 
-Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can send this message explicitly or by using the [**ListView\_SortItemsEx**](listview-sortitemsex.md) macro.
+Uses an application-defined comparison function to sort the items of a list-view control. The index of each item changes to reflect the new sequence. You can send this message explicitly or by using the [**ListView\_SortItemsEx**](/windows/win32/Commctrl/nf-commctrl-listview_sortitemsex?branch=master) macro.
 
 ## Parameters
 
@@ -52,9 +58,9 @@ This message is similar to [**LVM\_SORTITEMS**](lvm-sortitems.md), except for th
 The comparison function must return a negative value if the first item should precede the second, a positive value if the first item should follow the second, or zero if the two items are equivalent.
 
 > [!Note]  
-> During the sorting process, the list-view contents are unstable. If the callback function sends any messages to the list-view control aside from [**LVM\_GETITEM**](lvm-getitem.md) ([**ListView\_GetItem**](listview-getitem.md)), the results are unpredictable.
+> During the sorting process, the list-view contents are unstable. If the callback function sends any messages to the list-view control aside from [**LVM\_GETITEM**](lvm-getitem.md) ([**ListView\_GetItem**](/windows/win32/Commctrl/nf-commctrl-listview_getitem?branch=master)), the results are unpredictable.
 
- 
+ 
 
 ## Requirements
 
@@ -62,15 +68,15 @@ The comparison function must return a negative value if the first item should pr
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

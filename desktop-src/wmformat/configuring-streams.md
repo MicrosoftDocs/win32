@@ -1,8 +1,20 @@
 ---
 title: Configuring Streams
 description: Configuring Streams
-ms.assetid: 'd119362f-e23c-4985-aff5-8c084106df30'
-keywords: ["Windows Media Format SDK,streams", "profiles,streams", "streams,configuring", "codecs,configuring streams", "profiles,IWMStreamConfig interface", "streams,IWMStreamConfig interface", "IWMStreamConfig"]
+ms.assetid: d119362f-e23c-4985-aff5-8c084106df30
+keywords:
+- Windows Media Format SDK,streams
+- profiles,streams
+- streams,configuring
+- codecs,configuring streams
+- profiles,IWMStreamConfig interface
+- streams,IWMStreamConfig interface
+- IWMStreamConfig
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring Streams
@@ -14,17 +26,17 @@ For the purpose of profiles, streams can be divided into two types: those that a
 The following list summarizes the process of configuring a stream.
 
 1.  Obtain a stream configuration object for the stream.
-    -   If you are creating a stream using one of the Windows Media codecs, you must obtain the stream configuration object as a codec format using the methods of [**IWMCodecInfo3**](iwmcodecinfo3.md).
-    -   If the stream is an arbitrary type, get an empty stream configuration object using [**IWMProfile::CreateNewStream**](iwmprofile-createnewstream.md).
+    -   If you are creating a stream using one of the Windows Media codecs, you must obtain the stream configuration object as a codec format using the methods of [**IWMCodecInfo3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3?branch=master).
+    -   If the stream is an arbitrary type, get an empty stream configuration object using [**IWMProfile::CreateNewStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-createnewstream?branch=master).
 2.  Configure the stream to meet your needs.
     -   Streams of all types should be assigned a name, connection name, and stream number.
     -   Streams using Windows Media codecs should be altered only in predefined ways from the codec format. For audio streams, only variable bit rate (VBR) settings for two-pass VBR should be changed. Video streams need to be configured with the desired frame properties.
     -   Arbitrary streams have varying configuration requirements by type. All require a bit rate and buffer window.
-3.  Add the stream to the profile by calling [**IWMProfile::AddStream**](iwmprofile-addstream.md).
+3.  Add the stream to the profile by calling [**IWMProfile::AddStream**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmprofile-addstream?branch=master).
 
-All streams are defined using stream configuration objects. The main interface for a stream configuration object is [**IWMStreamConfig**](iwmstreamconfig.md), which provides methods for setting the basic settings of a stream, such as the stream number, bit rate, and so on. **IWMStreamConfig** is inherited by the newer interfaces, [**IWMStreamConfig2**](iwmstreamconfig2.md) and [**IWMStreamConfig3**](iwmstreamconfig3.md). As with all numbered interface revisions, you should always retrieve the most recent version using the **QueryInterface** method.
+All streams are defined using stream configuration objects. The main interface for a stream configuration object is [**IWMStreamConfig**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamconfig?branch=master), which provides methods for setting the basic settings of a stream, such as the stream number, bit rate, and so on. **IWMStreamConfig** is inherited by the newer interfaces, [**IWMStreamConfig2**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2?branch=master) and [**IWMStreamConfig3**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3?branch=master). As with all numbered interface revisions, you should always retrieve the most recent version using the **QueryInterface** method.
 
-Most settings in a stream are accessed through [**IWMMediaProps**](iwmmediaprops.md). These settings are encapsulated in a [**WM\_MEDIA\_TYPE**](wm-media-type.md) structure. For audio and video, the **WM\_MEDIA\_TYPE** structure points to another structure with further information specific to the type of media. This secondary structure is typically [**WAVEFORMATEX**](https://msdn.microsoft.com/library/windows/desktop/dd757720) for audio and [**WMVIDEOINFOHEADER**](wmvideoinfoheader.md) for video. In addition, video streams have a tertiary structure, **BITMAPINFOHEADER**, which describes the characteristics of an individual frame of video. **BITMAPINFOHEADER** is a common structure and can be found in the Graphics Device Interface (GDI) section of the Platform SDK.
+Most settings in a stream are accessed through [**IWMMediaProps**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmmediaprops?branch=master). These settings are encapsulated in a [**WM\_MEDIA\_TYPE**](/windows/win32/Wmsdkidl/ns-wmsdkidl-_wmmediatype?branch=master) structure. For audio and video, the **WM\_MEDIA\_TYPE** structure points to another structure with further information specific to the type of media. This secondary structure is typically [**WAVEFORMATEX**](https://msdn.microsoft.com/library/windows/desktop/dd757720) for audio and [**WMVIDEOINFOHEADER**](/windows/win32/Wmsdkidl/ns-wmsdkidl-tagwmvideoinfoheader?branch=master) for video. In addition, video streams have a tertiary structure, **BITMAPINFOHEADER**, which describes the characteristics of an individual frame of video. **BITMAPINFOHEADER** is a common structure and can be found in the Graphics Device Interface (GDI) section of the Platform SDK.
 
 The following sections describe how to configure streams.
 

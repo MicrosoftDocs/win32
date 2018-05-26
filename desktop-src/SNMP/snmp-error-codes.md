@@ -1,7 +1,7 @@
 ---
 title: SNMP Error Codes
 description: Microsoft implements the following SNMP error codes that are defined by the SNMPv2C specification.
-ms.assetid: '7e7e2bc0-a058-4853-b736-1946e64a0c4a'
+ms.assetid: 7e7e2bc0-a058-4853-b736-1946e64a0c4a
 topic_type:
 - apiref
 api_name:
@@ -28,6 +28,11 @@ api_location:
 - Snmp.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SNMP Error Codes
@@ -68,8 +73,8 @@ Microsoft implements the following SNMP error codes that are defined by the SNMP
 
 |                                     |                                                                                   |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                        |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                              |
 | Header<br/>                   | <dl> <dt>Snmp.h</dt> </dl> |
 
 
@@ -84,9 +89,9 @@ Microsoft implements the following SNMP error codes that are defined by the SNMP
 [SNMP Reference](snmp-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

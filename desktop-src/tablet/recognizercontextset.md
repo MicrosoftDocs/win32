@@ -1,12 +1,17 @@
-﻿---
-Description: 'Tests whether the InkDivider object can use the InkRecognizerContext class to analyze words.'
-ms.assetid: 'fd848fcc-5258-401f-8b51-b9d57da173da'
+---
+Description: Tests whether the InkDivider object can use the InkRecognizerContext class to analyze words.
+ms.assetid: fd848fcc-5258-401f-8b51-b9d57da173da
 title: RecognizerContextSet function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RecognizerContextSet function
 
-Tests whether the [**InkDivider**](inkdivider-class.md) object can use the [**InkRecognizerContext**](inkrecognizercontext-class.md) class to analyze words.
+Tests whether the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object can use the [**InkRecognizerContext**](/windows/win32/msinkaut/?branch=master) class to analyze words.
 
 This function is not intended to be used by application code.
 
@@ -28,7 +33,7 @@ HRESULT WINAPI RecognizerContextSet(
 *hDivider* \[in\]
 </dt> <dd>
 
-A handle to the [**InkDivider**](inkdivider-class.md) object.
+A handle to the [**InkDivider**](/windows/win32/msinkaut15/?branch=master) object.
 
 </dd> </dl>
 

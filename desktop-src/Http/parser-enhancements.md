@@ -1,8 +1,14 @@
 ---
 title: Parser Enhancements
 description: Parser Enhancements
-ms.assetid: 'b520aebe-9182-4e60-9111-49af09cdbd79'
-keywords: ["Parser Enhancements"]
+ms.assetid: b520aebe-9182-4e60-9111-49af09cdbd79
+keywords:
+- Parser Enhancements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parser Enhancements

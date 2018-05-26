@@ -1,13 +1,19 @@
 ---
 title: Buffer Functions
 description: To copy the contents of an off-screen buffer to an on-screen buffer, call SwapBuffers.
-ms.assetid: '605eba4e-ee38-4e62-adf8-1b7894030cb0'
-keywords: ["WGL functions,buffer"]
+ms.assetid: 605eba4e-ee38-4e62-adf8-1b7894030cb0
+keywords:
+- WGL functions,buffer
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Buffer Functions
 
-To copy the contents of an off-screen buffer to an on-screen buffer, call [**SwapBuffers**](swapbuffers.md). The **SwapBuffers** function takes a handle to a device context. The current pixel format for the specified device context must include a back buffer. By default, the back buffer is off-screen, and the front buffer is on-screen.
+To copy the contents of an off-screen buffer to an on-screen buffer, call [**SwapBuffers**](/windows/win32/wingdi/nf-wingdi-swapbuffers?branch=master). The **SwapBuffers** function takes a handle to a device context. The current pixel format for the specified device context must include a back buffer. By default, the back buffer is off-screen, and the front buffer is on-screen.
 
 > [!Note]  
 > The **SwapBuffers** function does not really swap the contents of the two buffers, but rather copies the contents of one buffer to another. The contents of the off-screen buffer are undefined after a call to **SwapBuffers**. Thus, the result of two consecutive calls to **SwapBuffers** is undefined.

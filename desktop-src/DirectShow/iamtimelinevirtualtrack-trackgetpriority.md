@@ -1,7 +1,12 @@
-﻿---
-Description: 'The TrackGetPriority method retrieves the object''s priority level.'
-ms.assetid: 'f9a138e8-e9ad-4703-bdcc-c64aea4fbad0'
-title: 'IAMTimelineVirtualTrack::TrackGetPriority method'
+---
+Description: The TrackGetPriority method retrieves the objects priority level.
+ms.assetid: f9a138e8-e9ad-4703-bdcc-c64aea4fbad0
+title: IAMTimelineVirtualTrackTrackGetPriority method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineVirtualTrack::TrackGetPriority method

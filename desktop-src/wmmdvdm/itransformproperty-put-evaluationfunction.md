@@ -1,8 +1,11 @@
 ---
 title: ITransformProperty put\_EvaluationFunction method
 description: The put\_EvaluationFunction method specifies the evaluation function that is used to calculate intermediary data between property points.
-ms.assetid: 'cb927e22-fe36-4b21-9926-f3e27a96f910'
-keywords: ["put_EvaluationFunction method Windows Movie Maker and DVD Maker", "put_EvaluationFunction method Windows Movie Maker and DVD Maker , ITransformProperty interface", "ITransformProperty interface Windows Movie Maker and DVD Maker , put_EvaluationFunction method"]
+ms.assetid: cb927e22-fe36-4b21-9926-f3e27a96f910
+keywords:
+- put_EvaluationFunction method Windows Movie Maker and DVD Maker
+- put_EvaluationFunction method Windows Movie Maker and DVD Maker , ITransformProperty interface
+- ITransformProperty interface Windows Movie Maker and DVD Maker , put_EvaluationFunction method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ITransformProperty::put\_EvaluationFunction method
@@ -25,7 +33,7 @@ The **put\_EvaluationFunction** method specifies the evaluation function that is
 
 ```C++
 HRESULT put_EvaluationFunction(
-  [in] EVALUATION_CURVE_TYPE eFunction
+  [in] EVALUATION_CURVE_TYPE eFunction
 );
 ```
 
@@ -56,8 +64,8 @@ The default curve value, if not specified, is StepEvaluation.
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -73,9 +81,9 @@ The default curve value, if not specified, is StepEvaluation.
 [**ITransformProperty Interface**](itransformproperty.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

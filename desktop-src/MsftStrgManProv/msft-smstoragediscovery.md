@@ -4,11 +4,13 @@ description: Represents a set of discovery information about a storage service.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '35d76340-66c2-4de9-aaca-2c52166b9b1e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 35d76340-66c2-4de9-aaca-2c52166b9b1e
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMStorageDiscovery class", "MSFT_SMStorageDiscovery class, described"]
+keywords:
+- MSFT_SMStorageDiscovery class
+- MSFT_SMStorageDiscovery class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMStorageDiscovery class
@@ -58,7 +63,7 @@ The **MSFT\_SMStorageDiscovery** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -102,7 +107,7 @@ The version of the storage service.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -116,9 +121,9 @@ The version of the storage service.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

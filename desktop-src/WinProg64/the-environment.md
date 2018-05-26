@@ -1,8 +1,16 @@
 ---
 title: The Environment
 description: Developers working on applications for 64-bit Windows will find the development environment virtually identical to the development environment for 32-bit Windows.
-ms.assetid: '49b2b952-f771-4721-a9b0-01eb67a98007'
-keywords: ["development environment 64-bit Windows Programming", "environment 64-bit Windows Programming", "64-bit Windows programming guide 64-bit Windows Programming , development environment"]
+ms.assetid: 49b2b952-f771-4721-a9b0-01eb67a98007
+keywords:
+- development environment 64-bit Windows Programming
+- environment 64-bit Windows Programming
+- 64-bit Windows programming guide 64-bit Windows Programming , development environment
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The Environment

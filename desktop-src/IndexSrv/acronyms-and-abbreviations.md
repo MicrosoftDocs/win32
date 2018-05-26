@@ -1,7 +1,12 @@
 ---
 title: Acronyms and Abbreviations
 description: Acronyms and Abbreviations
-ms.assetid: 'e2bce6b5-6011-4ebe-b2a6-251e9de9b079'
+ms.assetid: e2bce6b5-6011-4ebe-b2a6-251e9de9b079
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Acronyms and Abbreviations

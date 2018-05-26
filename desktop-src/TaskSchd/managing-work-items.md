@@ -1,20 +1,26 @@
 ---
 title: Manipulating Work Items
-description: The IScheduledWorkItem interface provides methods for retrieving and setting work item properties; creating, retrieving, and deleting triggers for work items (setting the trigger must be done with the ITaskTrigger SetTrigger method); and for running, terminating, and deleting the work item.Note  For the properties of a specific type of work item, refer to the interface for that type of object. For example, you cannot set the priority level of a work item; however, you can use the methods of the ITask interface to retrieve and set the priority of a task.�
-ms.assetid: '8aedf96d-e43d-4aac-ad8c-860379209f95'
-keywords: ["work items Task Scheduler , managing"]
+description: The IScheduledWorkItem interface provides methods for retrieving and setting work item properties; creating, retrieving, and deleting triggers for work items (setting the trigger must be done with the ITaskTrigger SetTrigger method); and for running, terminating, and deleting the work item.Note  For the properties of a specific type of work item, refer to the interface for that type of object. For example, you cannot set the priority level of a work item; however, you can use the methods of the ITask interface to retrieve and set the priority of a task.
+ms.assetid: 8aedf96d-e43d-4aac-ad8c-860379209f95
+keywords:
+- work items Task Scheduler , managing
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Manipulating Work Items
 
-The [**IScheduledWorkItem**](ischeduledworkitem.md) interface provides methods for retrieving and setting work item properties; creating, retrieving, and deleting triggers for work items (setting the trigger must be done with the [**ITaskTrigger::SetTrigger**](itasktrigger-settrigger.md) method); and for running, terminating, and deleting the work item.
+The [**IScheduledWorkItem**](/windows/win32/Mstask/nn-mstask-ischeduledworkitem?branch=master) interface provides methods for retrieving and setting work item properties; creating, retrieving, and deleting triggers for work items (setting the trigger must be done with the [**ITaskTrigger::SetTrigger**](/windows/win32/Mstask/nf-mstask-itasktrigger-settrigger?branch=master) method); and for running, terminating, and deleting the work item.
 
 > [!Note]  
-> For the properties of a specific type of work item, refer to the interface for that type of object. For example, you cannot set the priority level of a work item; however, you can use the methods of the [**ITask**](itask.md) interface to retrieve and set the priority of a task.
+> For the properties of a specific type of work item, refer to the interface for that type of object. For example, you cannot set the priority level of a work item; however, you can use the methods of the [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) interface to retrieve and set the priority of a task.
 
  
 
-Whenever you modify a work item, you must call the [**IPersistFile::Save**](_com_ipersistfile_save) object to save the modified work item to disk. The [**IPersistFile**](_com_ipersistfile) interface is a standard COM interface that is supported by the [**ITask**](itask.md) interface.
+Whenever you modify a work item, you must call the [**IPersistFile::Save**](_com_ipersistfile_save) object to save the modified work item to disk. The [**IPersistFile**](_com_ipersistfile) interface is a standard COM interface that is supported by the [**ITask**](/windows/win32/Mstask/nn-mstask-itask?branch=master) interface.
 
 | For examples of                                                            | See                                                                                  |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|

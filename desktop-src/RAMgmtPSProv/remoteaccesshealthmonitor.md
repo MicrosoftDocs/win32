@@ -2,13 +2,15 @@
 title: RemoteAccessHealthMonitor class
 description: Remote Access Health Monitor.
 audience: developer
-ms.assetid: 'a72e7e24-6d50-4029-ab1d-b5d12d2f3bff'
-ms.prod: 'windows-server-dev'
+ms.assetid: a72e7e24-6d50-4029-ab1d-b5d12d2f3bff
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoteAccessHealthMonitor class", "RemoteAccessHealthMonitor class, described"]
+keywords:
+- RemoteAccessHealthMonitor class
+- RemoteAccessHealthMonitor class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - RAMgmtPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoteAccessHealthMonitor class
@@ -36,10 +41,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAMgmtPSProvider"), AMENDMENT]
 class RemoteAccessHealthMonitor
 {
-  string                      Component;
-  string                      RemoteAccessServer;
-  string                      HealthState;
-  datetime                    TimeStamp;
+  string                      Component;
+  string                      RemoteAccessServer;
+  string                      HealthState;
+  datetime                    TimeStamp;
   RemoteAccessHealthHeuristic Heuristics[];
 };
 ```
@@ -170,16 +175,16 @@ The date and time when the component health changed to the current state
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\RemoteAccess<br/>                                               |
 | MOF<br/>                      | <dl> <dt>RAMgmtPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAMgmtPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

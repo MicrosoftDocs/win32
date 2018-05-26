@@ -1,7 +1,12 @@
 ---
 title: IAgentCommand GetID
 description: IAgentCommand GetID
-ms.assetid: '4d8d8be7-7003-4ef3-abba-b5232267c993'
+ms.assetid: 4d8d8be7-7003-4ef3-abba-b5232267c993
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAgentCommand::GetID

@@ -1,7 +1,12 @@
 ---
-Description: 'Activation contexts are data structures in memory containing information that the system can use to redirect an application to load a particular DLL version, COM object instance, or custom window version.'
-ms.assetid: '5416f8c0-d99b-4a5d-a689-a47bd0cf1a88'
+Description: Activation contexts are data structures in memory containing information that the system can use to redirect an application to load a particular DLL version, COM object instance, or custom window version.
+ms.assetid: 5416f8c0-d99b-4a5d-a689-a47bd0cf1a88
 title: Activation Contexts
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activation Contexts
@@ -12,7 +17,7 @@ Beginning with Windows XP, activation context functions enable Windows to use i
 
 When a global object is created within the activation context, the system automatically gives the object a version-specific name by consulting the manifest. When the application executes and requests a named object, it gets the version-named object. This enables multiple versions of a code module to run on the system at the same time without interfering with each other. For example, [Windows Shell](_win32_shell_intro) uses a manifest to describe a dependence on version 6.0 of COMCTL32 and to create versions of window classes.
 
-If an application creates a resource by calling [**CreateWindow**](_win32_createwindow_cpp), the process specifies a class name to that function. The call to [**GetCurrentActCtx**](getcurrentactctx.md) gets the current activation context and checks to see if a mapping exists for the given class name. If a mapping exists, it will use that version of the calling process to resolve the mapping and provide the version-specific class name. Windows creates a window with the window procedure, styles, and other attributes associated with that class name and version.
+If an application creates a resource by calling [**CreateWindow**](_win32_createwindow_cpp), the process specifies a class name to that function. The call to [**GetCurrentActCtx**](/windows/win32/Winbase/nf-winbase-getcurrentactctx?branch=master) gets the current activation context and checks to see if a mapping exists for the given class name. If a mapping exists, it will use that version of the calling process to resolve the mapping and provide the version-specific class name. Windows creates a window with the window procedure, styles, and other attributes associated with that class name and version.
 
 The activation context is managed by the system in most cases. Application developers and assembly providers do not commonly need to make calls to the stack. Applications can manage an activation context by directly calling the activation context. For more information, see [Using the Activation Context API](using-the-activation-context-api.md).
 

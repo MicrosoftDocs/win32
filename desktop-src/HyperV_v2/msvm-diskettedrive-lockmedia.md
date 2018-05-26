@@ -1,7 +1,12 @@
 ---
-Description: 'Locks or releases the media.'
-ms.assetid: '90f7e06c-92d0-4742-a74d-68ae6bfc00bf'
-title: 'LockMedia method of the Msvm\_DisketteDrive class'
+Description: Locks or releases the media.
+ms.assetid: 90f7e06c-92d0-4742-a74d-68ae6bfc00bf
+title: LockMedia method of the Msvm\_DisketteDrive class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LockMedia method of the Msvm\_DisketteDrive class
@@ -13,7 +18,7 @@ Locks or releases the media.
 
 ```mof
 uint32 LockMedia(
-  [in] boolean Lock
+  [in] boolean Lock
 );
 ```
 
@@ -48,8 +53,8 @@ Returns a 0 on success; otherwise, returns one of the following values:
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -63,9 +68,9 @@ Returns a 0 on success; otherwise, returns one of the following values:
 [**Msvm\_DisketteDrive**](msvm-diskettedrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

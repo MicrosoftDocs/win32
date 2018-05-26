@@ -4,11 +4,13 @@ description: Represents an asynchronous job.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9e9fc3f8-5933-4450-b572-5c513eae9db3'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 9e9fc3f8-5933-4450-b572-5c513eae9db3
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMJob class", "MSFT_SMJob class, described"]
+keywords:
+- MSFT_SMJob class
+- MSFT_SMJob class, described
 topic_type:
 - apiref
 api_name:
@@ -32,6 +34,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMJob class
@@ -46,18 +51,18 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("WMIStorage"), AMENDMENT]
 class MSFT_SMJob
 {
-  String   ObjectId;
-  string   Description;
+  String   ObjectId;
+  string   Description;
   datetime ElapsedTime;
-  uint16   ErrorCode;
-  string   ErrorDescription;
-  uint16   JobState;
-  string   JobStatus;
-  uint16   LocalOrUtcTime;
-  uint16   OperationalStatus[];
-  uint16   PercentComplete;
+  uint16   ErrorCode;
+  string   ErrorDescription;
+  uint16   JobState;
+  string   JobStatus;
+  uint16   LocalOrUtcTime;
+  uint16   OperationalStatus[];
+  uint16   PercentComplete;
   datetime StartTime;
-  string   StatusDescriptions[];
+  string   StatusDescriptions[];
   datetime TimeBeforeRemoval;
   datetime TimeOfLastStateChange;
   datetime TimeSubmitted;
@@ -228,14 +233,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -455,14 +460,14 @@ The possible values are.
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -557,7 +562,7 @@ A **datetime** value that indicates when the job is submitted to execute.
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -571,9 +576,9 @@ A **datetime** value that indicates when the job is submitted to execute.
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

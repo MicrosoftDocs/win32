@@ -1,14 +1,20 @@
 ---
 title: GetCodecProp
 description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
-ms.assetid: 'b3e0eabe-b2f6-4783-817a-2e386167fe3f'
-keywords: ["GetCodecProp windows Media Format"]
+ms.assetid: b3e0eabe-b2f6-4783-817a-2e386167fe3f
+keywords:
+- GetCodecProp windows Media Format
 topic_type:
 - apiref
 api_name:
 - GetCodecProp
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetCodecProp

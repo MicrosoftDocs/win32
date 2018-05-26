@@ -1,7 +1,12 @@
-﻿---
-Description: 'Contains a pointer to the callback interface for the Media Engine.'
-ms.assetid: '5FAEF29A-B978-410A-8F5B-EB6F7E35EE6D'
-title: 'MF\_MEDIA\_ENGINE\_CALLBACK attribute'
+---
+Description: Contains a pointer to the callback interface for the Media Engine.
+ms.assetid: 5FAEF29A-B978-410A-8F5B-EB6F7E35EE6D
+title: MF\_MEDIA\_ENGINE\_CALLBACK attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_CALLBACK attribute
@@ -14,15 +19,15 @@ Contains a pointer to the callback interface for the Media Engine.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Remarks
 
-The value of this attribute is a pointer to the [**IMFMediaEngineNotify**](imfmediaenginenotify.md) interface, implemented by the application.
+The value of this attribute is a pointer to the [**IMFMediaEngineNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaenginenotify?branch=master) interface, implemented by the application.
 
-This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](imfmediaengineclassfactory-createinstance.md) method to initialize the Media Engine. The attribute is required.
+This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance?branch=master) method to initialize the Media Engine. The attribute is required.
 
 ## Requirements
 
@@ -43,10 +48,10 @@ This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**]
 [Alphabetical List of Media Foundation Attributes](alphabetical-list-of-media-foundation-attributes.md)
 </dt> <dt>
 
-[**IMFMediaEngineClassFactory::CreateInstance**](imfmediaengineclassfactory-createinstance.md)
+[**IMFMediaEngineClassFactory::CreateInstance**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance?branch=master)
 </dt> <dt>
 
-[**IMFMediaEngineNotify**](imfmediaenginenotify.md)
+[**IMFMediaEngineNotify**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaenginenotify?branch=master)
 </dt> </dl>
 
  

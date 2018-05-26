@@ -4,17 +4,22 @@ description: The default Class Store for a given user.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '9aaeb401-4c2c-4c3b-83d2-0c6044be7643'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 9aaeb401-4c2c-4c3b-83d2-0c6044be7643
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Default-Class-Store attribute AD Schema", "defaultClassStore attribute AD Schema"]
+keywords:
+- Default-Class-Store attribute AD Schema
+- defaultClassStore attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Default-Class-Store
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Default-Class-Store attribute
@@ -38,12 +43,12 @@ The default Class Store for a given user.
 
 ## Implementations
 
--   [**Windows 2000 Server**](#windows-2000-server)
--   [**Windows Server 2003**](#windows-server-2003)
--   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows 2000 Server
 
@@ -171,9 +176,9 @@ The default Class Store for a given user.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

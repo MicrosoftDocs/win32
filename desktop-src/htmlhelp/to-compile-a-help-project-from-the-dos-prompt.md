@@ -1,7 +1,12 @@
 ---
 title: To compile a help project from the command prompt
 description: To compile a help project from the command prompt
-ms.assetid: '1E2C836D-445B-425c-84AD-B3DB9DAB380F'
+ms.assetid: 1E2C836D-445B-425c-84AD-B3DB9DAB380F
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To compile a help project from the command prompt

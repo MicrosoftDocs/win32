@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a specified property of a CRL.'
-ms.assetid: 'b02f4f92-952a-4625-a7d4-6e78e542774e'
+---
+Description: Retrieves a specified property of a CRL.
+ms.assetid: b02f4f92-952a-4625-a7d4-6e78e542774e
 title: CertStoreProvGetCRLProperty callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CertStoreProvGetCRLProperty callback function
@@ -38,7 +43,7 @@ BOOL WINAPI CertStoreProvGetCRLProperty(
 *pCrlContext* \[in\]
 </dt> <dd>
 
-A pointer to a [**CRL\_CONTEXT**](crl-context.md) structure.
+A pointer to a [**CRL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_crl_context?branch=master) structure.
 
 </dd> <dt>
 
@@ -59,7 +64,7 @@ Any needed flag values.
 *pvData* \[out\]
 </dt> <dd>
 
-A pointer to a buffer to contain the pointer to a [**CRL\_CONTEXT**](crl-context.md) structure to be returned by the function. May be set to **NULL** on a first call to the function to get the value of *pcbData* before allocating memory for the buffer.
+A pointer to a buffer to contain the pointer to a [**CRL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_crl_context?branch=master) structure to be returned by the function. May be set to **NULL** on a first call to the function to get the value of *pcbData* before allocating memory for the buffer.
 
 </dd> <dt>
 
@@ -89,7 +94,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 <dl> <dt>
 
-[**CRL\_CONTEXT**](crl-context.md)
+[**CRL\_CONTEXT**](/windows/win32/Wincrypt/ns-wincrypt-_crl_context?branch=master)
 </dt> </dl>
 
  

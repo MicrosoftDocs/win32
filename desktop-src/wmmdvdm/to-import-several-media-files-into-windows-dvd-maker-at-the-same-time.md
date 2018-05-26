@@ -1,8 +1,19 @@
 ---
 title: To Import Several Media Files into Windows DVD Maker at the Same Time
 description: To Import Several Media Files into Windows DVD Maker at the Same Time
-ms.assetid: 'bf2a3f49-b81e-44a2-a0c9-6da08dc857de'
-keywords: ["Windows DVD Maker,importing media files", "DVD Maker,importing media files", "programming reference,importing media files", "reference for Windows DVD Maker,importing media files", "command-line options for Windows DVD Maker,importing media files", "importing media files"]
+ms.assetid: bf2a3f49-b81e-44a2-a0c9-6da08dc857de
+keywords:
+- Windows DVD Maker,importing media files
+- DVD Maker,importing media files
+- programming reference,importing media files
+- reference for Windows DVD Maker,importing media files
+- command-line options for Windows DVD Maker,importing media files
+- importing media files
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To Import Several Media Files into Windows DVD Maker at the Same Time

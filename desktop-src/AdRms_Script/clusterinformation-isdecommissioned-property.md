@@ -1,13 +1,16 @@
 ---
-Description: 'Retrieves a Boolean value that specifies whether the AD RMS Licensing service and the AD RMS Account Certification service have been decommissioned.'
+Description: Retrieves a Boolean value that specifies whether the AD RMS Licensing service and the AD RMS Account Certification service have been decommissioned.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: '18fffad8-a8ea-4b09-bb3f-2b32ba18a6c5'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: 18fffad8-a8ea-4b09-bb3f-2b32ba18a6c5
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-title: 'ClusterInformation.IsDecommissioned property'
+title: ClusterInformation.IsDecommissioned property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusterInformation.IsDecommissioned property
@@ -105,7 +108,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -117,9 +120,9 @@ END SUB
 [**ClusterInformation**](clusterinformation-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

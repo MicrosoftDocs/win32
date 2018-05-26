@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates the geodetic survey data used by the GPS receiver.'
-ms.assetid: '1579ee42-57ca-44b9-84f4-c9ea4eea6788'
-title: 'System.GPS.MapDatum'
+Description: Indicates the geodetic survey data used by the GPS receiver.
+ms.assetid: 1579ee42-57ca-44b9-84f4-c9ea4eea6788
+title: System.GPS.MapDatum
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.MapDatum

@@ -1,7 +1,12 @@
 ---
-Description: 'The playback state of the device.'
-ms.assetid: '7F77459B-5900-4967-A2A3-AAEE78DF84E1'
-title: 'System.Devices.PlaybackState'
+Description: The playback state of the device.
+ms.assetid: 7F77459B-5900-4967-A2A3-AAEE78DF84E1
+title: System.Devices.PlaybackState
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.PlaybackState

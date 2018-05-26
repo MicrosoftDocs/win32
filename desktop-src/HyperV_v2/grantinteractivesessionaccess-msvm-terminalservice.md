@@ -1,7 +1,12 @@
 ---
-Description: 'Grants access to the interactive session of the virtual machine to the specified list of trustees.'
-ms.assetid: '8a82170d-067b-47e5-a15f-21d6c04128d2'
-title: 'GrantInteractiveSessionAccess method of the Msvm\_TerminalService class'
+Description: Grants access to the interactive session of the virtual machine to the specified list of trustees.
+ms.assetid: 8a82170d-067b-47e5-a15f-21d6c04128d2
+title: GrantInteractiveSessionAccess method of the Msvm\_TerminalService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GrantInteractiveSessionAccess method of the Msvm\_TerminalService class
@@ -13,9 +18,9 @@ Grants access to the interactive session of the virtual machine to the specified
 
 ```mof
 uint32 GrantInteractiveSessionAccess(
-  [in]  CIM_ComputerSystem REF ComputerSystem,
-  [in]  string                 Trustees[],
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  string                 Trustees[],
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -91,8 +96,8 @@ This method returns one of the following values.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -106,9 +111,9 @@ This method returns one of the following values.
 [**Msvm\_TerminalService**](msvm-terminalservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

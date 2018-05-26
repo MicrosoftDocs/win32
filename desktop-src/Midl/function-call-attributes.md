@@ -2,7 +2,13 @@
 title: Function Call Attributes
 description: Programs can use these attributes on individual functions within the interface, and affect only that function.
 ms.assetid: c54dbcd9-46c9-4755-b4a8-0f78068920b7
-keywords: ["IDL MIDL , attributes, function call"]
+keywords:
+- IDL MIDL , attributes, function call
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Function Call Attributes

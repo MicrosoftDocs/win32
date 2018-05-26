@@ -1,7 +1,12 @@
 ---
-Description: 'Defines a set of two Boolean values used in the MeshFaceWraps template to define the texture topology of an individual face. Use instead of Boolean2d when the texture coordinates (u, v) span the range of 0 to 2 instead of 0 to 1.'
-ms.assetid: '0d1755fc-66cb-4372-b9d0-fb320c55d6a7'
+Description: Defines a set of two Boolean values used in the MeshFaceWraps template to define the texture topology of an individual face. Use instead of Boolean2d when the texture coordinates (u, v) span the range of 0 to 2 instead of 0 to 1.
+ms.assetid: 0d1755fc-66cb-4372-b9d0-fb320c55d6a7
 title: MaterialWrap
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MaterialWrap

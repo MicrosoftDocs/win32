@@ -1,8 +1,9 @@
 ---
 title: TBM\_GETRANGEMIN message
 description: Retrieves the minimum position for the slider in a trackbar.
-ms.assetid: '64334aed-0403-4785-829e-693292734d10'
-keywords: ["TBM_GETRANGEMIN message Windows Controls"]
+ms.assetid: 64334aed-0403-4785-829e-693292734d10
+keywords:
+- TBM_GETRANGEMIN message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_GETRANGEMIN message
@@ -37,8 +43,8 @@ Returns a 32-bit value that specifies the minimum position in the trackbar's ran
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -59,9 +65,9 @@ Returns a 32-bit value that specifies the minimum position in the trackbar's ran
 [**TBM\_SETRANGEMAX**](tbm-setrangemax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

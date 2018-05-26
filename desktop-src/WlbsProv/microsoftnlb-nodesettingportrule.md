@@ -4,13 +4,15 @@ description: The MicrosoftNLB\_NodeSettingPortRule association WMI class associa
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'f0731912-4947-4023-b728-bf7b160e512e'
-ms.prod: 'windows-server-dev'
+ms.assetid: f0731912-4947-4023-b728-bf7b160e512e
+ms.prod: windows-server-dev
 ms.technology:
-- 'network-load-balancing'
-- 'windows-management-instrumentation'
+- network-load-balancing
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MicrosoftNLB_NodeSettingPortRule class", "MicrosoftNLB_NodeSettingPortRule class, described"]
+keywords:
+- MicrosoftNLB_NodeSettingPortRule class
+- MicrosoftNLB_NodeSettingPortRule class, described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - WlbsProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MicrosoftNLB\_NodeSettingPortRule class
@@ -35,7 +40,7 @@ The following syntax is simplified from MOF code and includes all inherited prop
 [Association, Dynamic, provider("Microsoft|NLB_Provider|V1.0"), AMENDMENT]
 class MicrosoftNLB_NodeSettingPortRule : CIM_Component
 {
-  MicrosoftNLB_PortRule    REF PartComponent;
+  MicrosoftNLB_PortRule    REF PartComponent;
   MicrosoftNLB_NodeSetting REF GroupComponent;
 };
 ```
@@ -99,16 +104,16 @@ The **MicrosoftNLB\_NodeSettingPortRule** class is derived from the [**CIM\_Comp
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\MicrosoftNLB<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>WlbsProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WlbsProv.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

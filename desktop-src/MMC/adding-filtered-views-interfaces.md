@@ -4,11 +4,15 @@ description: MMC provides snap-in developers with the following interface and me
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9ea27f86-b50f-4cf6-b00c-874ecdc3e3e9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9ea27f86-b50f-4cf6-b00c-874ecdc3e3e9
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["filtered views MMC , interfaces"]
+keywords:
+- filtered views MMC , interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Adding Filtered Views: Interfaces

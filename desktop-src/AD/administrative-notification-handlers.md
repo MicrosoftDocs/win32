@@ -4,11 +4,15 @@ description: The Microsoft Active Directory Users and Computers MMC snap-in prov
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '49dbb995-c760-4fac-a72f-d5d94afb63c7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 49dbb995-c760-4fac-a72f-d5d94afb63c7
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Administrative Notification Handlers AD"]
+keywords:
+- Administrative Notification Handlers AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Administrative Notification Handlers
@@ -21,15 +25,15 @@ When one of the operations is performed and one or more notification handlers is
 
 ## Implementing a Notification Handler
 
-A notification handler is a COM object implemented as an in-proc server. The notification handler must implement the [**IDsAdminNotifyHandler**](idsadminnotifyhandler.md) interface.
+A notification handler is a COM object implemented as an in-proc server. The notification handler must implement the [**IDsAdminNotifyHandler**](/windows/win32/DSAdmin/nn-dsadmin-idsadminnotifyhandler?branch=master) interface.
 
-When an event occurs that will cause a notification, the Users and Computers snap-in enumerates the registered notification handlers and creates each one using the CLSID for the handler. After the handler is created, the snap-in calls the [**IDsAdminNotifyHandler::Initialize**](idsadminnotifyhandler-initialize.md) method. The **Initialize** method supplies the snap-in with the events the handler should receive.
+When an event occurs that will cause a notification, the Users and Computers snap-in enumerates the registered notification handlers and creates each one using the CLSID for the handler. After the handler is created, the snap-in calls the [**IDsAdminNotifyHandler::Initialize**](/windows/win32/DSAdmin/nf-dsadmin-idsadminnotifyhandler-initialize?branch=master) method. The **Initialize** method supplies the snap-in with the events the handler should receive.
 
-If the event is one that should be sent to the notification handler, the snap-in calls the [**IDsAdminNotifyHandler::Begin**](idsadminnotifyhandler-begin.md) method. The **Begin** method provides the handler with the event occurring, data about the object that the event is occurring on and, depending on the event, data about what the object will become. The **Begin** method also provides the snap-in with the text that should be displayed for the handler in the confirmation dialog box.
+If the event is one that should be sent to the notification handler, the snap-in calls the [**IDsAdminNotifyHandler::Begin**](/windows/win32/DSAdmin/nf-dsadmin-idsadminnotifyhandler-begin?branch=master) method. The **Begin** method provides the handler with the event occurring, data about the object that the event is occurring on and, depending on the event, data about what the object will become. The **Begin** method also provides the snap-in with the text that should be displayed for the handler in the confirmation dialog box.
 
-When the [**Begin**](idsadminnotifyhandler-begin.md) method for each handler has been called, the snap-in displays the confirmation dialog box. The confirmation dialog box prompts the user to select which handlers will receive the notification. If the user presses the **No** push button in the confirmation dialog, none of the handlers are notified. If the user presses the **Yes** push button, each of the handlers selected in the confirmation dialog box receive the notification. The snap-in sends the notification to the handler by calling the [**IDsAdminNotifyHandler::Notify**](idsadminnotifyhandler-notify.md) method.
+When the [**Begin**](/windows/win32/DSAdmin/nf-dsadmin-idsadminnotifyhandler-begin?branch=master) method for each handler has been called, the snap-in displays the confirmation dialog box. The confirmation dialog box prompts the user to select which handlers will receive the notification. If the user presses the **No** push button in the confirmation dialog, none of the handlers are notified. If the user presses the **Yes** push button, each of the handlers selected in the confirmation dialog box receive the notification. The snap-in sends the notification to the handler by calling the [**IDsAdminNotifyHandler::Notify**](/windows/win32/DSAdmin/nf-dsadmin-idsadminnotifyhandler-notify?branch=master) method.
 
-After all of the handlers have been notified, the snap-in calls the [**IDsAdminNotifyHandler::End**](idsadminnotifyhandler-end.md) method. The **End** method is always called, even if the [**Notify**](idsadminnotifyhandler-notify.md) method is not called.
+After all of the handlers have been notified, the snap-in calls the [**IDsAdminNotifyHandler::End**](/windows/win32/DSAdmin/nf-dsadmin-idsadminnotifyhandler-end?branch=master) method. The **End** method is always called, even if the [**Notify**](/windows/win32/DSAdmin/nf-dsadmin-idsadminnotifyhandler-notify?branch=master) method is not called.
 
 ## Registering a Notification Handler in the Windows Registry
 

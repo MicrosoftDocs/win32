@@ -1,7 +1,12 @@
-﻿---
-Description: 'Maximum amount of data the network source buffers, in milliseconds.'
-ms.assetid: 'bd776dc2-341a-4d87-8a06-8063daf53ede'
-title: 'MFNETSOURCE\_MAXBUFFERTIMEMS property'
+---
+Description: Maximum amount of data the network source buffers, in milliseconds.
+ms.assetid: bd776dc2-341a-4d87-8a06-8063daf53ede
+title: MFNETSOURCE\_MAXBUFFERTIMEMS property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_MAXBUFFERTIMEMS property

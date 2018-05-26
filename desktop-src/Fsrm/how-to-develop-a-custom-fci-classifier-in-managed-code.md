@@ -4,10 +4,13 @@ description: Step-by-step tutorial on how to write a custom classifier from scra
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '06a8dea2-43f3-46da-b342-a5aa28af2450'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 06a8dea2-43f3-46da-b342-a5aa28af2450
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # How to develop a custom FCI classifier in managed code
@@ -130,7 +133,7 @@ We will implement a simple classifier that will apply an FCI property to every t
 
 ### Implementing the IFsrmClassifierModuleImplementation interface
 
-In order for our code to work as an FCI classifier module, we need to expose a COM object that implements the [**IFsrmClassifierModuleImplementation**](ifsrmclassifiermoduleimplementation.md) interface.
+In order for our code to work as an FCI classifier module, we need to expose a COM object that implements the [**IFsrmClassifierModuleImplementation**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation?branch=master) interface.
 
 Let’s first make this interface definition available to our project by referencing the FSRM assembly.
 
@@ -154,7 +157,7 @@ Let’s first make this interface definition available to our project by referen
 
     
 
-6.  Derive the `LineCounterClassifier` class from the [**IFsrmClassifierModuleImplementation**](ifsrmclassifiermoduleimplementation.md) interface:
+6.  Derive the `LineCounterClassifier` class from the [**IFsrmClassifierModuleImplementation**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation?branch=master) interface:
 
     ```CSharp
     public class LineCounterClassifier : IFsrmClassifierModuleImplementation
@@ -206,7 +209,7 @@ Let’s first make this interface definition available to our project by referen
 
     Your code will not be identical to this due to the different **GUID**.
 
-    If we try to compile our solution now, we will get quite a few errors. This is because our class needs to implement all of the [**IFsrmClassifierModuleImplementation**](ifsrmclassifiermoduleimplementation.md) interface’s methods and properties. This is what we’re going to do next. Don’t forget to save your changes, though.
+    If we try to compile our solution now, we will get quite a few errors. This is because our class needs to implement all of the [**IFsrmClassifierModuleImplementation**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation?branch=master) interface’s methods and properties. This is what we’re going to do next. Don’t forget to save your changes, though.
 
 14. Select **Save All** from the **File** menu.
 
@@ -222,13 +225,13 @@ Rule parameters are similar to module parameters, a set of zero or more name-val
 
 ### FCI pipelines
 
-FCI can process files in parallel—using one or more "pipelines". Each pipeline maintains its own set of module instances. Every time FCI needs to create a new pipeline to meet the processing demands, new instances of all modules used by all rules are loaded (module objects are instantiated and [**OnLoad**](ifsrmpipelinemoduleimplementation-onload.md) method is called) and initialized ([**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method is called). When there is not much classification activity in the system, FCI reclaims pipelines that have been idle for a while, which cause all modules used by those pipelines to be unloaded ([**OnUnload**](ifsrmpipelinemoduleimplementation-onunload.md) method is called and module objects are destroyed). Thus, a module can be loaded and initialized, then unloaded many times while the server is running.
+FCI can process files in parallel—using one or more "pipelines". Each pipeline maintains its own set of module instances. Every time FCI needs to create a new pipeline to meet the processing demands, new instances of all modules used by all rules are loaded (module objects are instantiated and [**OnLoad**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload?branch=master) method is called) and initialized ([**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method is called). When there is not much classification activity in the system, FCI reclaims pipelines that have been idle for a while, which cause all modules used by those pipelines to be unloaded ([**OnUnload**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onunload?branch=master) method is called and module objects are destroyed). Thus, a module can be loaded and initialized, then unloaded many times while the server is running.
 
 Although there can be several instances of a specific module running at any given time, each instance is hosted in a separate process. That is, all modules used by a specific pipeline are hosted in one or more processes that are unique to that pipeline. If the module accesses any system-wide shared resources that need to be protected against concurrent access, you will have to use a cross-process synchronization mechanism (for example, a named mutex).
 
 ### OnLoad method
 
-Let’s start with implementing the [**OnLoad**](ifsrmpipelinemoduleimplementation-onload.md) method. This method is called by the FCI runtime when our classifier is loaded and initialized, so this is where one-time, per-instance, module-wide initialization code should be performed. If the module uses module parameters, this is where they should be parsed. Although there can only be one instance of a module running in one particular host process, it is good practice to keep all module state in member variables of our module class.
+Let’s start with implementing the [**OnLoad**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload?branch=master) method. This method is called by the FCI runtime when our classifier is loaded and initialized, so this is where one-time, per-instance, module-wide initialization code should be performed. If the module uses module parameters, this is where they should be parsed. Although there can only be one instance of a module running in one particular host process, it is good practice to keep all module state in member variables of our module class.
 
 As mentioned, we will be using a module parameter named "Encoding" that will tell us what encoding to use when reading from the text files we’ll be classifying. Each parameter is accessible in the module at load time as a string in the form "Name=value". So let’s go ahead and add the following members to our classifier class:
 
@@ -251,7 +254,7 @@ As mentioned, we will be using a module parameter named "Encoding" that will tel
 
 
 
-The constants define the name of our module parameter and its possible values, while the variable will store the encoding selected by the module parameter. We can now start implementing our [**OnLoad**](ifsrmpipelinemoduleimplementation-onload.md) method:
+The constants define the name of our module parameter and its possible values, while the variable will store the encoding selected by the module parameter. We can now start implementing our [**OnLoad**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload?branch=master) method:
 
 
 ```CSharp
@@ -343,7 +346,7 @@ The module initialization is now complete.
 
 ### UseRulesAndDefinitions method
 
-After the [**OnLoad**](ifsrmpipelinemoduleimplementation-onload.md) method completes successfully, the pipeline calls the [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method and presents the module with all the FCI rules and property definitions that are interesting to it; that is, with all the rules that are using our classifier, and all the properties referenced by those rules. If a module requires rule parameters—which is usually the case—this is where they need to be processed. Remember that we decided to use a rule parameter named "Threshold", the value of which is the number of lines above which the file will be assigned a property.
+After the [**OnLoad**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload?branch=master) method completes successfully, the pipeline calls the [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method and presents the module with all the FCI rules and property definitions that are interesting to it; that is, with all the rules that are using our classifier, and all the properties referenced by those rules. If a module requires rule parameters—which is usually the case—this is where they need to be processed. Remember that we decided to use a rule parameter named "Threshold", the value of which is the number of lines above which the file will be assigned a property.
 
 There can be more than one rule using our module, each with its own line threshold. For each such rule, we need to parse the threshold parameter and save that in our module’s state, to be used later, when we receive files for classification. To simplify the implementation of our module, let’s define a class for parsing the rule parameter and holding the result. We will use the same paradigm as for parsing module parameters. Here’s the **Rule** class implementation:
 
@@ -406,7 +409,7 @@ Rule parameters are stored in rule definitions. Our rule class constructor takes
 
 The `Matches` method simply determines if a file with a certain number of lines of text meets the condition of this rule.
 
-There is something else a module needs to do in the [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method. During classification, the pipeline presents our module with files and, for each rule, asks the module if that rule applies to the file currently processed. The pipeline refers to a rule using that rule's identifier, which is a **GUID**. At that time, the module needs to resolve the rule ID to the corresponding rule configuration (including the property used by the rule and rule parameters). In our case, we need to resolve the rule ID to the corresponding instance of the **Rule** class, so we will use a dictionary:
+There is something else a module needs to do in the [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method. During classification, the pipeline presents our module with files and, for each rule, asks the module if that rule applies to the file currently processed. The pipeline refers to a rule using that rule's identifier, which is a **GUID**. At that time, the module needs to resolve the rule ID to the corresponding rule configuration (including the property used by the rule and rule parameters). In our case, we need to resolve the rule ID to the corresponding instance of the **Rule** class, so we will use a dictionary:
 
 
 ```CSharp
@@ -437,7 +440,7 @@ Note that we are not interested in the properties our rules use. This is because
 
 ### OnBeginFile method
 
-The [**OnBeginFile**](ifsrmclassifiermoduleimplementation-onbeginfile.md) method is called by the FCI pipeline for every file that is under the scope of at least one of our module’s rules. The file is represented by a "property bag", an object that holds all the properties of the file and that can provide access to the file’s contents, should the classifier require that.
+The [**OnBeginFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile?branch=master) method is called by the FCI pipeline for every file that is under the scope of at least one of our module’s rules. The file is represented by a "property bag", an object that holds all the properties of the file and that can provide access to the file’s contents, should the classifier require that.
 
 The method is only called once for every file, regardless of the number of rules in scope. If we needed to access the file’s contents or properties when evaluating a rule, we’d most probably have to hold on to the property bag. However, to evaluate rules, the only piece of information we need for each file is the number of lines of text it contains. We will store this per-file data in a module member variable:
 
@@ -519,23 +522,23 @@ As mentioned above, there are two types of classifiers:
 
 -   Classifiers that need explicit values
 
-    These classifiers do not provide values for the properties themselves. Instead, any rule that uses this kind of classifier must specify the property value to assign to the file when the rule matches. The pipeline simply asks the classifier if a file matches a rule by calling the [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md) method. The classifier responds with **True** or **False**; if the answer is **True**, the pipeline assigns the property value specified in the rule to the file. In a normal case, when the classifier does not impose any restrictions on the predetermined property name and value, the rule designer has total control in choosing the property and the value to apply.
+    These classifiers do not provide values for the properties themselves. Instead, any rule that uses this kind of classifier must specify the property value to assign to the file when the rule matches. The pipeline simply asks the classifier if a file matches a rule by calling the [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master) method. The classifier responds with **True** or **False**; if the answer is **True**, the pipeline assigns the property value specified in the rule to the file. In a normal case, when the classifier does not impose any restrictions on the predetermined property name and value, the rule designer has total control in choosing the property and the value to apply.
 
-    A classifier of this type has the [**NeedsExplicitValue**](ifsrmclassifiermoduledefinition-needsexplicitvalue.md) property in the module registration object ([**IFsrmClassifierModuleDefinition**](ifsrmclassifiermoduledefinition.md) interface) set to **True**.
+    A classifier of this type has the [**NeedsExplicitValue**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassifiermoduledefinition-get_needsexplicitvalue?branch=master) property in the module registration object ([**IFsrmClassifierModuleDefinition**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmclassifiermoduledefinition?branch=master) interface) set to **True**.
 
 -   Classifiers that provide their own values
 
-    These classifiers determine the property values to assign to files. A rule that uses such a classifier only identifies the property to assign to a matching file, but not the value. In other words, only the property name—and thus the type—is predetermined by the rule, not the value (as is the case with the classifiers that need explicit values). The pipeline calls the [**GetPropertyValueToApply**](ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply.md) method in this case. The classifier evaluates the rule on the specified file and determines, using any logic it sees fit, whether the property needs to be assigned to the file and what value that property will have. This design offers classifiers more flexibility in choosing property values tailored to each particular file, but implementation is usually more complex.
+    These classifiers determine the property values to assign to files. A rule that uses such a classifier only identifies the property to assign to a matching file, but not the value. In other words, only the property name—and thus the type—is predetermined by the rule, not the value (as is the case with the classifiers that need explicit values). The pipeline calls the [**GetPropertyValueToApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply?branch=master) method in this case. The classifier evaluates the rule on the specified file and determines, using any logic it sees fit, whether the property needs to be assigned to the file and what value that property will have. This design offers classifiers more flexibility in choosing property values tailored to each particular file, but implementation is usually more complex.
 
-    A classifier of this type has the [**NeedsExplicitValue**](ifsrmclassifiermoduledefinition-needsexplicitvalue.md) property set to **False**.
+    A classifier of this type has the [**NeedsExplicitValue**](/windows/previous-versions/FsrmPipeline/nf-fsrmpipeline-ifsrmclassifiermoduledefinition-get_needsexplicitvalue?branch=master) property set to **False**.
 
-Based on the type of classifier specified in the module definition, the pipeline calls, for each rule and each file, either [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md) or [**GetPropertyValueToApply**](ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply.md) method, never both.
+Based on the type of classifier specified in the module definition, the pipeline calls, for each rule and each file, either [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master) or [**GetPropertyValueToApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply?branch=master) method, never both.
 
-We suggested earlier that our classifier is one that needs an explicit value. The classifier simply determines if the property and the value specified in the rule are to be assigned to a particular file based on the number of lines of text in the file; that is, the property is assigned if and only if the line count exceeds the threshold specified in the "Threshold" rule parameter. We will thus implement [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md) method.
+We suggested earlier that our classifier is one that needs an explicit value. The classifier simply determines if the property and the value specified in the rule are to be assigned to a particular file based on the number of lines of text in the file; that is, the property is assigned if and only if the line count exceeds the threshold specified in the "Threshold" rule parameter. We will thus implement [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master) method.
 
 (If we needed to assign a property named say "LineCount" that contained the number of lines of text in the file, we would have to provide the property value in the classifier, so our classifier would have to be of the latter type.)
 
-By the time [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md) is called, we must already have the set of rules that use our classifier—passed in [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method—and must have already counted the number of lines of text in the file being classified in [**OnBeginFile**](ifsrmclassifiermoduleimplementation-onbeginfile.md) method. All we need to do here is search for the rule we are evaluating in our rule dictionary and ask it if the number of lines in this file exceeds the rule’s threshold, and that’s a one-liner. Add the following method to our classifier class, back in the "LineCounterClassifier.cs"” file:
+By the time [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master) is called, we must already have the set of rules that use our classifier—passed in [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method—and must have already counted the number of lines of text in the file being classified in [**OnBeginFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile?branch=master) method. All we need to do here is search for the rule we are evaluating in our rule dictionary and ask it if the number of lines in this file exceeds the rule’s threshold, and that’s a one-liner. Add the following method to our classifier class, back in the "LineCounterClassifier.cs"” file:
 
 
 ```CSharp
@@ -557,9 +560,9 @@ This completes the bulk of our classifier implementation, but there are a few ot
 
 Let’s implement the rest of the methods and properties that make up a complete classifier.
 
--   [**OnUnload**](ifsrmpipelinemoduleimplementation-onunload.md) Method
+-   [**OnUnload**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onunload?branch=master) Method
 
-    This method is called when our classifier instance is about to be unloaded. Classifiers should free any unmanaged resources (for example, database connections, files, streams, handles) that were allocated during [**OnLoad**](ifsrmpipelinemoduleimplementation-onload.md), [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) or during the lifetime of the module. We don’t have any such resources to get rid of, and we’ll just let the garbage collector deal with our managed resources—mainly the rule dictionary. We can leave this one empty.
+    This method is called when our classifier instance is about to be unloaded. Classifiers should free any unmanaged resources (for example, database connections, files, streams, handles) that were allocated during [**OnLoad**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload?branch=master), [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) or during the lifetime of the module. We don’t have any such resources to get rid of, and we’ll just let the garbage collector deal with our managed resources—mainly the rule dictionary. We can leave this one empty.
 
     ```CSharp
       public void OnUnload()
@@ -569,9 +572,9 @@ Let’s implement the rest of the methods and properties that make up a complete
 
     
 
--   [**GetPropertyValueToApply**](ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply.md) method
+-   [**GetPropertyValueToApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply?branch=master) method
 
-    Only classifiers that provide their own property values need to implement this method. Our classifier implements [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md) instead—these two are mutually exclusive—so this method should never be called.
+    Only classifiers that provide their own property values need to implement this method. Our classifier implements [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master) instead—these two are mutually exclusive—so this method should never be called.
 
     ```CSharp
       public void GetPropertyValueToApply(string property, out string Value, Guid idRule, Guid idPropDef)
@@ -582,9 +585,9 @@ Let’s implement the rest of the methods and properties that make up a complete
 
     
 
--   [**OnEndFile**](ifsrmclassifiermoduleimplementation-onendfile.md) method
+-   [**OnEndFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onendfile?branch=master) method
 
-    This method is called when all the rules applicable to a file have been evaluated and the pipeline is ready to move on to the next file, if any. Classifiers should clean up any file-specific information cached during [**OnBeginFile**](ifsrmclassifiermoduleimplementation-onbeginfile.md) or [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md)/[**GetPropertyValueToApply**](ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply.md). The only per-file state we maintain is the line count. We reset this count in **OnBeginFile**, before we start counting the lines in the new file, so there is nothing else to do here:
+    This method is called when all the rules applicable to a file have been evaluated and the pipeline is ready to move on to the next file, if any. Classifiers should clean up any file-specific information cached during [**OnBeginFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile?branch=master) or [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master)/[**GetPropertyValueToApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply?branch=master). The only per-file state we maintain is the line count. We reset this count in **OnBeginFile**, before we start counting the lines in the new file, so there is nothing else to do here:
 
     ```CSharp
       public void OnEndFile()
@@ -873,7 +876,7 @@ We will do this by using FCI’s automation support from a PowerShell prompt.
 
     This should list our module’s properties, as we’ve set them.
 
-    See [**FsrmPipelineModuleType**](fsrmpipelinemoduletype.md) and [**FsrmAccountType**](fsrmaccounttype.md) for more information on those enumerations.
+    See [**FsrmPipelineModuleType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmpipelinemoduletype?branch=master) and [**FsrmAccountType**](/windows/previous-versions/FsrmEnums/ne-fsrmenums-_fsrmaccounttype?branch=master) for more information on those enumerations.
 
 Our module is now ready to be used with FCI. We will do that in the next section.
 
@@ -1017,19 +1020,19 @@ With FCI’s built-in module debugging support, you can debug any type of module
 
 You can do more than just attaching a debugger to the right process, though. Suppose you need to break into one of the classifier methods you have implemented. Before you can do that, you may have to request an initial break point at the time the debugger attaches to the host process, then request a breakpoint when the module’s DLL is loaded. FCI makes this job a lot easier by supporting a number of predefined break points that can be enabled independently (through registry entries), one for each method implemented in a module:
 
--   [**LoadProperties**](ifsrmstoragemoduleimplementation-loadproperties.md)
--   [**SaveProperties**](ifsrmstoragemoduleimplementation-saveproperties.md)
--   [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md)
--   [**OnBeginFile**](ifsrmclassifiermoduleimplementation-onbeginfile.md)
--   [**OnEndFile**](ifsrmclassifiermoduleimplementation-onendfile.md)
--   [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md)
--   [**GetPropertyValueToApply**](ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply.md)
+-   [**LoadProperties**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-loadproperties?branch=master)
+-   [**SaveProperties**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-saveproperties?branch=master)
+-   [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master)
+-   [**OnBeginFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile?branch=master)
+-   [**OnEndFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onendfile?branch=master)
+-   [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master)
+-   [**GetPropertyValueToApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply?branch=master)
 
-([**LoadProperties**](ifsrmstoragemoduleimplementation-loadproperties.md) and [**SaveProperties**](ifsrmstoragemoduleimplementation-saveproperties.md) breakpoints are relevant only for storage modules. Enabling them for a classifier has no effect. Conversely, enabling [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md), [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md) or [**GetPropertyValueToApply**](ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply.md) for a classifier has no effect.)
+([**LoadProperties**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-loadproperties?branch=master) and [**SaveProperties**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduleimplementation-saveproperties?branch=master) breakpoints are relevant only for storage modules. Enabling them for a classifier has no effect. Conversely, enabling [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master), [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master) or [**GetPropertyValueToApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-getpropertyvaluetoapply?branch=master) for a classifier has no effect.)
 
-If, for example, you need to debug into [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method, you can turn on the break point with this name and the pipeline will issue a debug break just before calling into the method. At that point, you can set whatever breakpoints you may need – including one at the start of **UseRulesAndDefinitions** itself.
+If, for example, you need to debug into [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method, you can turn on the break point with this name and the pipeline will issue a debug break just before calling into the method. At that point, you can set whatever breakpoints you may need – including one at the start of **UseRulesAndDefinitions** itself.
 
-Note that you cannot automatically break before the [**OnLoad**](ifsrmpipelinemoduleimplementation-onload.md) method. This is because FCI needs to call this method before plugging the module into its pipeline; until after that call, FCI does not know the PID of the process hosting the module. If you need to debug into **OnLoad**, you will have to manually attach the debugger to the host process when it starts, or at least before the classifier DLL is loaded.
+Note that you cannot automatically break before the [**OnLoad**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduleimplementation-onload?branch=master) method. This is because FCI needs to call this method before plugging the module into its pipeline; until after that call, FCI does not know the PID of the process hosting the module. If you need to debug into **OnLoad**, you will have to manually attach the debugger to the host process when it starts, or at least before the classifier DLL is loaded.
 
 ### Configuring FCI module debugging
 
@@ -1059,7 +1062,7 @@ Note that you cannot automatically break before the [**OnLoad**](ifsrmpipelinemo
 
     The FCI pipeline will only break into a module if the module’s name, as specified during module registration in the “Name” attribute, matches this value. You can debug only one module at a time.
 
-    Now let’s say we need to debug into [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md), [**OnBeginFile**](ifsrmclassifiermoduleimplementation-onbeginfile.md) and [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md) methods of our [**IFsrmClassifierModuleImplementation**](ifsrmclassifiermoduleimplementation.md) interface implementation. **UseRulesAndDefinitions** is the first method in the list to be invoked, so we will request a breakpoint before that method alone. We do that by creating a **DWORD** registry value with a name matching the name of the method and setting its value to "1".
+    Now let’s say we need to debug into [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master), [**OnBeginFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile?branch=master) and [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master) methods of our [**IFsrmClassifierModuleImplementation**](/windows/previous-versions/Fsrm/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation?branch=master) interface implementation. **UseRulesAndDefinitions** is the first method in the list to be invoked, so we will request a breakpoint before that method alone. We do that by creating a **DWORD** registry value with a name matching the name of the method and setting its value to "1".
 
 6.  Create a **DWORD** (**REG\_DWORD**) value named "UseRulesAndDefinitions" with a value of "1".
 
@@ -1067,7 +1070,7 @@ Note that you cannot automatically break before the [**OnLoad**](ifsrmpipelinemo
 
     ![registry editor moduledebug key](images/managed-classifier-registry-editor-moduledebug.png)
 
-We have configured the debugger to break before calling into our classifier’s [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method. You can repeat step 6 for every built-in break point you need to enable. To disable a break point that was previously enabled, all you need to do is to set the corresponding registry value to "0", without deleting the value altogether.
+We have configured the debugger to break before calling into our classifier’s [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method. You can repeat step 6 for every built-in break point you need to enable. To disable a break point that was previously enabled, all you need to do is to set the corresponding registry value to "0", without deleting the value altogether.
 
 Next, we will manually run classification again and wait for the debugger to start.
 
@@ -1128,7 +1131,7 @@ Next, we will manually run classification again and wait for the debugger to sta
 
     ![visual studio debugger pane - fsrm debug support: break before 'userulesanddefinitions' in module 'line counter classifier'](images/managed-classifier-visual-studio-output-debug.png)
 
-    This confirms that the pipeline is just about to call into our implementation of [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method. However, this break is in native code; before we continue execution, let’s set all our managed code breakpoints.
+    This confirms that the pipeline is just about to call into our implementation of [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method. However, this break is in native code; before we continue execution, let’s set all our managed code breakpoints.
 
 15. Select the **Breakpoints** tab at the bottom of the debugger window.
 
@@ -1146,7 +1149,7 @@ Next, we will manually run classification again and wait for the debugger to sta
 
     You should now see the fully qualified breakpoint name in the **Breakpoints** pane.
 
-19. Repeat steps 13 through 15 to set the next two breakpoints we need ([**BeginFile**](ifsrmclassifiermoduleimplementation-onbeginfile.md) and [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md)).
+19. Repeat steps 13 through 15 to set the next two breakpoints we need ([**BeginFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile?branch=master) and [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master)).
 
     All of our breakpoints should now be set:
 
@@ -1156,11 +1159,11 @@ Next, we will manually run classification again and wait for the debugger to sta
 
     The **Find Source** dialog box should open again.
 
-21. Navigate to "C:\\Projects\\LineCounterClassifier". At this point, the debugger should automatically open the "LineCounterClassifier.cs" file and break at the [**UseRulesAndDefinitions**](ifsrmclassifiermoduleimplementation-userulesanddefinitions.md) method:
+21. Navigate to "C:\\Projects\\LineCounterClassifier". At this point, the debugger should automatically open the "LineCounterClassifier.cs" file and break at the [**UseRulesAndDefinitions**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-userulesanddefinitions?branch=master) method:
 
     ![setting breakpoint at userulesanddefinitions](images/managed-classifier-visual-studio-debugger-source-line.png)
 
-    Now you can step through the code and inspect variables. After you continue execution, the debugger will break at [**OnBeginFile**](ifsrmclassifiermoduleimplementation-onbeginfile.md) and [**DoesPropertyValueApply**](ifsrmclassifiermoduleimplementation-doespropertyvalueapply.md), in this order.
+    Now you can step through the code and inspect variables. After you continue execution, the debugger will break at [**OnBeginFile**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-onbeginfile?branch=master) and [**DoesPropertyValueApply**](/windows/previous-versions/fsrmpipeline/nf-fsrmpipeline-ifsrmclassifiermoduleimplementation-doespropertyvalueapply?branch=master), in this order.
 
  
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The following components are required to support the functionality of the Fax Routing Extension API.'
-ms.assetid: '0100f885-28c6-4d30-9d2e-9bdb3241c105'
+Description: The following components are required to support the functionality of the Fax Routing Extension API.
+ms.assetid: 0100f885-28c6-4d30-9d2e-9bdb3241c105
 title: Fax Routing Extension Software Requirements
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Fax Routing Extension Software Requirements

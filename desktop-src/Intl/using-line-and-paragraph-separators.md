@@ -1,7 +1,12 @@
 ---
-Description: 'Your applications should use the line separator character (0x2028) and the paragraph separator character (0x2029) to divide plain text. A new line is begun after each line separator. A new paragraph is begun after each paragraph separator.'
-ms.assetid: '086aca6c-8d1f-4e54-9e1c-642be50b303c'
+Description: Your applications should use the line separator character (0x2028) and the paragraph separator character (0x2029) to divide plain text. A new line is begun after each line separator. A new paragraph is begun after each paragraph separator.
+ms.assetid: 086aca6c-8d1f-4e54-9e1c-642be50b303c
 title: Using Line and Paragraph Separators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Line and Paragraph Separators

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Classic providers should use Managed Object Format (MOF) to publish the layout of their event data. Consumers can then read the published layout from WMI at runtime and use it to read the event data.'
-ms.assetid: 'eb3d8422-2352-47cf-9825-cba9916791a9'
+---
+Description: Classic providers should use Managed Object Format (MOF) to publish the layout of their event data. Consumers can then read the published layout from WMI at runtime and use it to read the event data.
+ms.assetid: eb3d8422-2352-47cf-9825-cba9916791a9
 title: Publishing Your Event Schema for a Classic Provider
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Publishing Your Event Schema for a Classic Provider

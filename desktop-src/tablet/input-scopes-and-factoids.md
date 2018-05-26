@@ -1,7 +1,12 @@
 ---
-Description: 'Describes how input scopes are used for recognition.'
-ms.assetid: '9faf6d22-b80d-4020-ac74-ee40b31ae9d4'
+Description: Describes how input scopes are used for recognition.
+ms.assetid: 9faf6d22-b80d-4020-ac74-ee40b31ae9d4
 title: Input Scopes and Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Input Scopes and Factoids
@@ -13,7 +18,7 @@ An input scope is a defined set of words, numbers, punctuation, and syntactical 
 
  
 
-Previous versions of the Tablet PC Technology API used factoids to define context. For practical purposes, a factoid is the same thing as an input scope. Version one of the Tablet PC SDK platform defined a set of factoid values in the [**Factoid**](factoid-constants.md) object. These values were used to set context and influence recognition results when using the [**RecognizerContext**](inkrecognizercontext-class.md) object for recognition. For recognizers of Latin script starting with Windows XP Tablet PC Edition 2005, you still use the [**Factoid**](inkrecognizercontext-factoid.md) property of the **RecognizerContext** object to set context, but you should pass in an input scope, phrase list, or handwriting regular expression value instead of one of the version one factoid values. The Microsoft recognizers of East Asian characters do not support using the input scope enumerated values. You should continue to use factoid values for recognizers of East Asian characters.
+Previous versions of the Tablet PC Technology API used factoids to define context. For practical purposes, a factoid is the same thing as an input scope. Version one of the Tablet PC SDK platform defined a set of factoid values in the [**Factoid**](factoid-constants.md) object. These values were used to set context and influence recognition results when using the [**RecognizerContext**](/windows/win32/msinkaut/?branch=master) object for recognition. For recognizers of Latin script starting with Windows XP Tablet PC Edition 2005, you still use the [**Factoid**](/windows/win32/msinkaut/?branch=master) property of the **RecognizerContext** object to set context, but you should pass in an input scope, phrase list, or handwriting regular expression value instead of one of the version one factoid values. The Microsoft recognizers of East Asian characters do not support using the input scope enumerated values. You should continue to use factoid values for recognizers of East Asian characters.
 
 Input scopes and factoids are restrictions on the word level alternates; the character alternates may be outside the input scope specified even when the **COERCE** flag is set.
 

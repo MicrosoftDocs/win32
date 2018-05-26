@@ -1,7 +1,12 @@
-﻿---
-Description: 'Compares two enumerated lists of scripts.'
-ms.assetid: '3500ce36-75e4-4d61-8449-a65c99532326'
+---
+Description: Compares two enumerated lists of scripts.
+ms.assetid: 3500ce36-75e4-4d61-8449-a65c99532326
 title: DownlevelVerifyScripts function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownlevelVerifyScripts function
@@ -9,7 +14,7 @@ title: DownlevelVerifyScripts function
 Compares two enumerated lists of scripts.
 
 > [!Note]  
-> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**VerifyScripts**](verifyscripts.md).
+> This function is used only by applications that run on pre-Windows Vista operating systems. Its use requires the download package. Applications that only run on Windows Vista and later should call [**VerifyScripts**](/windows/win32/Winnls/nf-winnls-verifyscripts?branch=master).
 
  
 
@@ -144,7 +149,7 @@ The required header file and DLL are part of the ["Microsoft Internationalized D
 [**DownlevelGetStringScripts**](downlevelgetstringscripts.md)
 </dt> <dt>
 
-[**VerifyScripts**](verifyscripts.md)
+[**VerifyScripts**](/windows/win32/Winnls/nf-winnls-verifyscripts?branch=master)
 </dt> </dl>
 
  

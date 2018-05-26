@@ -1,7 +1,12 @@
 ---
 title: Selecting a Protocol Sequence
 description: A protocol sequence is the language that a network operating system uses to talk over the network to other computers.
-ms.assetid: '9c788b9b-82c5-4a4b-86c6-e9a9df699da3'
+ms.assetid: 9c788b9b-82c5-4a4b-86c6-e9a9df699da3
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Selecting a Protocol Sequence
@@ -24,7 +29,7 @@ Not all protocol sequences have equivalent functionality. Developers should veri
 
 Clients can also specify protocol sequence information that they obtain from Active Directory, the registry, environment variables created and initialized by the setup program, application-specific configuration files, or from literal strings in the program source code.
 
-After your client program has a valid protocol sequence string, it can pass that information to the [**RpcStringBindingCompose**](rpcstringbindingcompose.md) and [**RpcBindingFromStringBinding**](rpcbindingfromstringbinding.md) functions to create the binding handle.
+After your client program has a valid protocol sequence string, it can pass that information to the [**RpcStringBindingCompose**](/windows/win32/Rpcdce/nf-rpcdce-rpcstringbindingcompose?branch=master) and [**RpcBindingFromStringBinding**](/windows/win32/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding?branch=master) functions to create the binding handle.
 
  
 

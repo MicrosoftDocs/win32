@@ -1,7 +1,12 @@
 ---
-Description: 'The OnWaitEnd method is called when the filter is done waiting for a sample''s presentation time.'
-ms.assetid: '47ff8f79-da69-4dcf-8cbb-02c1b56e382e'
-title: 'CBaseRenderer.OnWaitEnd method'
+Description: The OnWaitEnd method is called when the filter is done waiting for a samples presentation time.
+ms.assetid: 47ff8f79-da69-4dcf-8cbb-02c1b56e382e
+title: CBaseRenderer.OnWaitEnd method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseRenderer.OnWaitEnd method
@@ -49,9 +54,9 @@ If you are implementing quality control, you might override this method along wi
 [**CBaseRenderer Class**](cbaserenderer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

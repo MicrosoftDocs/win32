@@ -1,15 +1,18 @@
 ---
-Description: 'Updates the configuration for an IPAM server.'
+Description: Updates the configuration for an IPAM server.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '32e14877-055f-4c3e-8eaf-5c01e8521fa0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 32e14877-055f-4c3e-8eaf-5c01e8521fa0
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetIpamConfiguration method of the MSFT\_IPAM\_ServerConfiguration class'
+title: SetIpamConfiguration method of the MSFT\_IPAM\_ServerConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetIpamConfiguration method of the MSFT\_IPAM\_ServerConfiguration class
@@ -21,11 +24,11 @@ Updates the configuration for an IPAM server.
 
 ```mof
 uint32 SetIpamConfiguration(
-  [in]  uint16                        Port,
-  [in]  uint16                        ProvisioningMethod,
-  [in]  string                        GpoPrefix,
-  [in]  string                        HMACKey,
-  [out] MSFT_IPAM_ServerConfiguration Output
+  [in]  uint16                        Port,
+  [in]  uint16                        ProvisioningMethod,
+  [in]  string                        GpoPrefix,
+  [in]  string                        HMACKey,
+  [out] MSFT_IPAM_ServerConfiguration Output
 );
 ```
 
@@ -81,7 +84,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -95,9 +98,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_ServerConfiguration**](msft-ipam-serverconfiguration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: GetNetworkConnected function
 description: Launches the Get Connected wizard within the calling application to enable local area network connectivity.
-ms.assetid: 'e650cb70-eb4d-42cd-b4e4-162f84cdc8f0'
-keywords: ["GetNetworkConnected function Get Connected Wizard API"]
+ms.assetid: e650cb70-eb4d-42cd-b4e4-162f84cdc8f0
+keywords:
+- GetNetworkConnected function Get Connected Wizard API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - connect.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetNetworkConnected function
@@ -22,12 +28,12 @@ The **GetNetworkConnected** function launches the Get Connected wizard within th
 
 ```C++
 HRESULT WINAPI GetNetworkConnected(
-  _In_     const HWND   hwndParent,
-  _In_     const DWORD  dwWizardType,
-  _In_     const DWORD  dwContextFlags,
-  _In_     const DWORD  dwUserFlags,
-  _In_     const HANDLE hUserContext,
-  _In_opt_       LPWSTR pszCommandLine
+  _In_     const HWND   hwndParent,
+  _In_     const DWORD  dwWizardType,
+  _In_     const DWORD  dwContextFlags,
+  _In_     const DWORD  dwUserFlags,
+  _In_     const HANDLE hUserContext,
+  _In_opt_       LPWSTR pszCommandLine
 );
 ```
 
@@ -61,7 +67,7 @@ This parameter is optional and can be set to 0.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -81,7 +87,7 @@ This parameter is optional and can be set to 0.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -122,7 +128,7 @@ The following command-line options are supported:
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -148,15 +154,15 @@ An import library containing the **GetNetworkConnected** function is not include
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Connect.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

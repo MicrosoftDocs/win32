@@ -1,19 +1,24 @@
 ---
-Description: 'The GetMediaType method retrieves the media type, if the media type differs from the previous sample. This method implements the IMediaSample::GetMediaType method.'
-ms.assetid: 'a7850381-d448-4bf6-b059-d734fb3e8e22'
-title: 'CMediaSample.GetMediaType method'
+Description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample. This method implements the IMediaSampleGetMediaType method.
+ms.assetid: a7850381-d448-4bf6-b059-d734fb3e8e22
+title: CMediaSample.GetMediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CMediaSample.GetMediaType method
 
-The `GetMediaType` method retrieves the media type, if the media type differs from the previous sample. This method implements the [**IMediaSample::GetMediaType**](imediasample-getmediatype.md) method.
+The `GetMediaType` method retrieves the media type, if the media type differs from the previous sample. This method implements the [**IMediaSample::GetMediaType**](/windows/win32/Strmif/nf-strmif-imediasample-getmediatype?branch=master) method.
 
 ## Syntax
 
 
 ```C++
 HRESULT GetMediaType(
-   AM_MEDIA_TYPE **ppMediaType
+   AM_MEDIA_TYPE **ppMediaType
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT GetMediaType(
 *ppMediaType* 
 </dt> <dd>
 
-Address of a variable that receives a pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure. If the media type has not changed from the previous sample, *\*ppMediaType* is set to **NULL**.
+Address of a variable that receives a pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure. If the media type has not changed from the previous sample, *\*ppMediaType* is set to **NULL**.
 
 </dd> </dl>
 
@@ -44,7 +49,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +75,9 @@ The [**CMediaSample::m\_pMediaType**](cmediasample-m-pmediatype.md) member varia
 [**CMediaSample Class**](cmediasample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

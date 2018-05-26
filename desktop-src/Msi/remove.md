@@ -1,7 +1,12 @@
-﻿---
-Description: 'The value of the REMOVE property is a list of features delimited by commas that are to be removed.'
-ms.assetid: 'f86c1af8-c984-4075-9c6b-0a71000b01a1'
+---
+Description: The value of the REMOVE property is a list of features delimited by commas that are to be removed.
+ms.assetid: f86c1af8-c984-4075-9c6b-0a71000b01a1
 title: REMOVE property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # REMOVE property

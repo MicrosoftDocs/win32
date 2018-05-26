@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '5f246236-8299-4ef3-ab07-98811cc57afa'
+---
+Description: .
+ms.assetid: 5f246236-8299-4ef3-ab07-98811cc57afa
 title: Note
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Note

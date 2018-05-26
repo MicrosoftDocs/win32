@@ -1,7 +1,12 @@
-﻿---
-Description: 'Identifies an entry in the shim database.'
-ms.assetid: '3a52e2f2-9648-45fb-b487-ccfe5ed24f7f'
+---
+Description: Identifies an entry in the shim database.
+ms.assetid: 3a52e2f2-9648-45fb-b487-ccfe5ed24f7f
 title: TAG
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TAG

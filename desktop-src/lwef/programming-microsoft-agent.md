@@ -1,8 +1,14 @@
 ---
 title: Programming Microsoft Agent
 description: Programming Microsoft Agent
-ms.assetid: '045a3e38-34a4-4d51-a05f-ce6934a1ed8c'
-keywords: ["Microsoft Agent, programming guide"]
+ms.assetid: 045a3e38-34a4-4d51-a05f-ce6934a1ed8c
+keywords:
+- Microsoft Agent, programming guide
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Programming Microsoft Agent

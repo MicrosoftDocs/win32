@@ -1,7 +1,12 @@
 ---
-Description: 'Creates a snapshot of a virtual machine.'
-ms.assetid: '2de12fe7-5ec2-49d0-87ff-cd48c34fec46'
-title: 'CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class'
+Description: Creates a snapshot of a virtual machine.
+ms.assetid: 2de12fe7-5ec2-49d0-87ff-cd48c34fec46
+title: CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CreateSnapshot method of the Msvm\_VirtualSystemSnapshotService class
@@ -13,11 +18,11 @@ Creates a snapshot of a virtual machine.
 
 ```mof
 uint32 CreateSnapshot(
-  [in]      CIM_ComputerSystem           REF AffectedSystem,
-  [in]      string                           SnapshotSettings,
-  [in]      uint16                           SnapshotType,
-  [in, out] CIM_VirtualSystemSettingData REF ResultingSnapshot,
-  [out]     CIM_ConcreteJob              REF Job
+  [in]      CIM_ComputerSystem           REF AffectedSystem,
+  [in]      string                           SnapshotSettings,
+  [in]      uint16                           SnapshotType,
+  [in, out] CIM_VirtualSystemSettingData REF ResultingSnapshot,
+  [out]     CIM_ConcreteJob              REF Job
 );
 ```
 
@@ -144,7 +149,7 @@ The following C# example code creates a virtual machine. The referenced utilitie
 > \[!Important\]  
 > To function correctly, the following code must be run on the virtual machine host server, and it must be run with Administrator privileges.
 
- 
+ 
 
 
 ```CSharp
@@ -213,8 +218,8 @@ public static void CreateSnapshot(string vmName)
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | Header<br/>                   | <dl> <dt>Dbdaoint.h</dt> </dl>                   |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
@@ -232,9 +237,9 @@ public static void CreateSnapshot(string vmName)
 [**CreateVirtualSystemSnapshot (V1)**](https://msdn.microsoft.com/library/cc136785)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

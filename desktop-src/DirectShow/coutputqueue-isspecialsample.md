@@ -1,7 +1,12 @@
 ---
-Description: 'The IsSpecialSample method determines whether queued data is a control message.'
-ms.assetid: '33d9c7a2-3046-45a5-a9f5-8f33a03bbcdd'
-title: 'COutputQueue.IsSpecialSample method'
+Description: The IsSpecialSample method determines whether queued data is a control message.
+ms.assetid: 33d9c7a2-3046-45a5-a9f5-8f33a03bbcdd
+title: COutputQueue.IsSpecialSample method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COutputQueue.IsSpecialSample method
@@ -13,7 +18,7 @@ The `IsSpecialSample` method determines whether queued data is a control message
 
 ```C++
 BOOL IsSpecialSample(
-   IMediaSample *pSample
+   IMediaSample *pSample
 );
 ```
 
@@ -56,9 +61,9 @@ The [**COutputQueue::QueueSample**](coutputqueue-queuesample.md) method can rece
 [**COutputQueue Class**](coutputqueue.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

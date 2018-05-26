@@ -4,17 +4,21 @@ description: Used to process a protected buffer.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'C88245B9-0ECE-419A-96CF-FC23D3CCAF63'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: C88245B9-0ECE-419A-96CF-FC23D3CCAF63
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedBuffer class"]
+keywords:
+- ProtectedBuffer class
 topic_type:
 - apiref
 api_name:
 - ProtectedBuffer class
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedBuffer class
@@ -41,7 +45,7 @@ public class ProtectedBuffer
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -57,7 +61,7 @@ ProtectedBuffer.java
 
 
 
- 
+ 
 
 ## Package
 
@@ -67,9 +71,9 @@ com.microsoft.rightsmanagement
 
 Members of this class are not guaranteed to be thread safe.
 
- 
+ 
 
- 
+ 
 
 
 

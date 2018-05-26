@@ -1,7 +1,12 @@
 ---
-Description: 'As mentioned in Ink Analysis Overview, the ink analysis technology internally maintains a tree-based document model to contain analysis results and relationships.'
-ms.assetid: '33ba9292-3bc7-41ba-a602-e2fc94cd3a57'
+Description: As mentioned in Ink Analysis Overview, the ink analysis technology internally maintains a tree-based document model to contain analysis results and relationships.
+ms.assetid: 33ba9292-3bc7-41ba-a602-e2fc94cd3a57
 title: Data Proxy with Ink Analysis
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Data Proxy with Ink Analysis

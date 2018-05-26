@@ -4,17 +4,22 @@ description: Used with RODCs to define which krbtgt\_XXXX account corresponds to
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '08c3e50f-7f2a-4746-86b6-77780316679c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 08c3e50f-7f2a-4746-86b6-77780316679c
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-DS-KrbTgt-Link attribute AD Schema", "msDS-KrbTgtLink attribute AD Schema"]
+keywords:
+- ms-DS-KrbTgt-Link attribute AD Schema
+- msDS-KrbTgtLink attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-DS-KrbTgt-Link
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-DS-KrbTgt-Link attribute
@@ -38,9 +43,9 @@ Used with RODCs to define which krbtgt\_XXXX account corresponds to each RODC.
 
 ## Implementations
 
--   [**Windows Server 2008**](#windows-server-2008)
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008
 
@@ -105,9 +110,9 @@ Used with RODCs to define which krbtgt\_XXXX account corresponds to each RODC.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

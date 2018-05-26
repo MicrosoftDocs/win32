@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '060c4983-1de1-477b-8c18-a416d5a4c918'
-title: 'System.Sync.Comments'
+Description: .
+ms.assetid: 060c4983-1de1-477b-8c18-a416d5a4c918
+title: System.Sync.Comments
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.Comments

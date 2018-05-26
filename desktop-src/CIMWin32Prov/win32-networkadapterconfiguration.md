@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.'
+---
+Description: Represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '690b46ed-a065-4973-b044-0df4e81e41a1'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 690b46ed-a065-4973-b044-0df4e81e41a1
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_NetworkAdapterConfiguration class'
+title: Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_NetworkAdapterConfiguration class

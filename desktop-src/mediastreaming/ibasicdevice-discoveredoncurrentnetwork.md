@@ -1,14 +1,22 @@
 ---
 title: IBasicDevice DiscoveredOnCurrentNetwork method
 description: Retrieves a value that indicates if the device is on the current network.
-ms.assetid: 'E64D4E49-9790-4647-9A01-2C28C407F238'
-keywords: ["DiscoveredOnCurrentNetwork method Media Streaming API", "DiscoveredOnCurrentNetwork method Media Streaming API , IBasicDevice interface", "IBasicDevice interface Media Streaming API , DiscoveredOnCurrentNetwork method"]
+ms.assetid: E64D4E49-9790-4647-9A01-2C28C407F238
+keywords:
+- DiscoveredOnCurrentNetwork method Media Streaming API
+- DiscoveredOnCurrentNetwork method Media Streaming API , IBasicDevice interface
+- IBasicDevice interface Media Streaming API , DiscoveredOnCurrentNetwork method
 topic_type:
 - apiref
 api_name:
 - IBasicDevice.DiscoveredOnCurrentNetwork
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBasicDevice::DiscoveredOnCurrentNetwork method
@@ -20,7 +28,7 @@ Retrieves a value that indicates if the device is on the current network.
 
 ```C++
 HRESULT DiscoveredOnCurrentNetwork(
-  [out] boolean *value
+  [out] boolean *value
 );
 ```
 
@@ -49,7 +57,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
- 
+ 
 
 ## See also
 
@@ -58,9 +66,9 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 [**IBasicDevice**](ibasicdevice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

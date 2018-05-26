@@ -1,7 +1,12 @@
 ---
 title: Using the debug layer to debug apps
 description: Here we talk about how to enable the debug layer and some of the issues that you can prevent by using the debug layer.
-ms.assetid: '3C2B0A12-FB57-4400-BE39-05ED23F552C7'
+ms.assetid: 3C2B0A12-FB57-4400-BE39-05ED23F552C7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the debug layer to debug apps
@@ -23,7 +28,7 @@ Here we talk about how to enable the [debug layer](overviews-direct3d-11-devices
 
 ## Enabling the debug layer
 
-To enable the [debug layer](overviews-direct3d-11-devices-layers.md#debug-layer), specify the [**D3D11\_CREATE\_DEVICE\_DEBUG**](d3d11-create-device-flag.md#d3d11-create-device-debug) flag in the *Flags* parameter when you call the [**D3D11CreateDevice**](d3d11createdevice.md) function to create the rendering device. This example code shows how to enable the debug layer when your Microsoft Visual Studio project is in a debug build:
+To enable the [debug layer](overviews-direct3d-11-devices-layers.md#debug-layer), specify the [**D3D11\_CREATE\_DEVICE\_DEBUG**](d3d11-create-device-flag.md#d3d11-create-device-debug) flag in the *Flags* parameter when you call the [**D3D11CreateDevice**](/windows/win32/D3D11/nf-d3d11-d3d11createdevice?branch=master) function to create the rendering device. This example code shows how to enable the debug layer when your Microsoft Visual Studio project is in a debug build:
 
 
 ```C++
@@ -70,19 +75,19 @@ If you misuse the Direct3D 11 API or pass bad parameters, the debug output of th
 
 ### Don't pass NULL pointers to Map
 
-If you pass **NULL** to the *pResource* or *pMappedResource* parameter of the [**ID3D11DeviceContext::Map**](id3d11devicecontext-map.md) method, the behavior of **Map** is undefined. If you created a device that just supports the [core layer](overviews-direct3d-11-devices-layers.md#core-layer), invalid parameters to **Map** can crash the operating system. If you created a device that supports the [debug layer](overviews-direct3d-11-devices-layers.md#debug-layer), the debug output reports an error on this invalid **Map** call.
+If you pass **NULL** to the *pResource* or *pMappedResource* parameter of the [**ID3D11DeviceContext::Map**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-map?branch=master) method, the behavior of **Map** is undefined. If you created a device that just supports the [core layer](overviews-direct3d-11-devices-layers.md#core-layer), invalid parameters to **Map** can crash the operating system. If you created a device that supports the [debug layer](overviews-direct3d-11-devices-layers.md#debug-layer), the debug output reports an error on this invalid **Map** call.
 
 ### Confine source box within source and destination resources
 
-In a call to the [**ID3D11DeviceContext::CopySubresourceRegion**](id3d11devicecontext-copysubresourceregion.md) method, the source box must be within the source resource. The destination offsets, (x, y, and z) allow the source box to be offset when writing into the destination resource, but the dimensions of the source box and the offsets must be within the size of the resource. If you try to copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of **CopySubresourceRegion** is undefined. If you created a device that supports the [debug layer](overviews-direct3d-11-devices-layers.md#debug-layer), the debug output reports an error on this invalid **CopySubresourceRegion** call. Invalid parameters to **CopySubresourceRegion** cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
+In a call to the [**ID3D11DeviceContext::CopySubresourceRegion**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-copysubresourceregion?branch=master) method, the source box must be within the source resource. The destination offsets, (x, y, and z) allow the source box to be offset when writing into the destination resource, but the dimensions of the source box and the offsets must be within the size of the resource. If you try to copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of **CopySubresourceRegion** is undefined. If you created a device that supports the [debug layer](overviews-direct3d-11-devices-layers.md#debug-layer), the debug output reports an error on this invalid **CopySubresourceRegion** call. Invalid parameters to **CopySubresourceRegion** cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
 
 ### Don't drop DiscardResource or DiscardView
 
-The runtime drops a call to [**ID3D11DeviceContext1::DiscardResource**](id3d11devicecontext1-discardresource.md) or [**ID3D11DeviceContext1::DiscardView**](id3d11devicecontext1-discardview.md) unless you correctly create the resource.
+The runtime drops a call to [**ID3D11DeviceContext1::DiscardResource**](/windows/win32/D3D11_1/nf-d3d11_1-id3d11devicecontext1-discardresource?branch=master) or [**ID3D11DeviceContext1::DiscardView**](/windows/win32/D3D11_1/nf-d3d11_1-id3d11devicecontext1-discardview?branch=master) unless you correctly create the resource.
 
-The resource that you pass to [**ID3D11DeviceContext1::DiscardResource**](id3d11devicecontext1-discardresource.md) must have been created by using [**D3D11\_USAGE\_DEFAULT**](d3d11-usage.md#d3d11-usage-default) or [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), otherwise the runtime drops the call to **DiscardResource**.
+The resource that you pass to [**ID3D11DeviceContext1::DiscardResource**](/windows/win32/D3D11_1/nf-d3d11_1-id3d11devicecontext1-discardresource?branch=master) must have been created by using [**D3D11\_USAGE\_DEFAULT**](d3d11-usage.md#d3d11-usage-default) or [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), otherwise the runtime drops the call to **DiscardResource**.
 
-The resource that underlies the view that you pass to [**ID3D11DeviceContext1::DiscardView**](id3d11devicecontext1-discardview.md) must have been created using [**D3D11\_USAGE\_DEFAULT**](d3d11-usage.md#d3d11-usage-default) or [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), otherwise the runtime drops the call to **DiscardView**.
+The resource that underlies the view that you pass to [**ID3D11DeviceContext1::DiscardView**](/windows/win32/D3D11_1/nf-d3d11_1-id3d11devicecontext1-discardview?branch=master) must have been created using [**D3D11\_USAGE\_DEFAULT**](d3d11-usage.md#d3d11-usage-default) or [**D3D11\_USAGE\_DYNAMIC**](d3d11-usage.md#d3d11-usage-dynamic), otherwise the runtime drops the call to **DiscardView**.
 
 If you created a device that supports the [debug layer](overviews-direct3d-11-devices-layers.md#debug-layer), the debug output reports an error regarding the dropped call.
 

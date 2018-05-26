@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FOLDERTYPEID values represent a view template applied to a folder, usually based on its intended use and contents.'
-ms.assetid: 'd147a05c-6a03-4f20-a7be-20825fcbeec2'
+---
+Description: The FOLDERTYPEID values represent a view template applied to a folder, usually based on its intended use and contents.
+ms.assetid: d147a05c-6a03-4f20-a7be-20825fcbeec2
 title: FOLDERTYPEID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FOLDERTYPEID

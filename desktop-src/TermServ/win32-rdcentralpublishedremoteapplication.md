@@ -4,11 +4,13 @@ description: Describes an application published on another computer, for remote 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '8605bd1e-e825-4fd9-b14f-9d3bdac489f1'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 8605bd1e-e825-4fd9-b14f-9d3bdac489f1
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["Win32_RDCentralPublishedRemoteApplication class Remote Desktop Services", "Win32_RDCentralPublishedRemoteApplication class Remote Desktop Services , described"]
+keywords:
+- Win32_RDCentralPublishedRemoteApplication class Remote Desktop Services
+- Win32_RDCentralPublishedRemoteApplication class Remote Desktop Services , described
 topic_type:
 - apiref
 api_name:
@@ -34,6 +36,9 @@ api_location:
 - TscPubWmi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_RDCentralPublishedRemoteApplication class
@@ -48,23 +53,23 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [dynamic, provider("Win32_TSCentralPublisher_Prov")]
 class Win32_RDCentralPublishedRemoteApplication : CIM_LogicalElement
 {
-  string   Caption;
-  string   Description;
+  string   Caption;
+  string   Description;
   datetime InstallDate;
-  string   Name;
-  string   Status;
-  string   PublishingFarm;
-  string   Alias;
-  string   SecurityDescriptor;
-  string   Path;
-  string   VPath;
-  uint8    IconContents[];
-  uint32   CommandLineSetting;
-  string   RequiredCommandLine;
-  boolean  ShowInPortal;
-  string   AppID;
-  string   RDPFileContents;
-  string   Folders[];
+  string   Name;
+  string   Status;
+  string   PublishingFarm;
+  string   Alias;
+  string   SecurityDescriptor;
+  string   Path;
+  string   VPath;
+  uint8    IconContents[];
+  uint32   CommandLineSetting;
+  string   RequiredCommandLine;
+  boolean  ShowInPortal;
+  string   AppID;
+  string   RDPFileContents;
+  string   Folders[];
 };
 ```
 
@@ -424,16 +429,16 @@ Virtual Path to the application.
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                           |
 | Namespace<br/>                | Root\\cimv2\\TerminalServices<br/>                                                 |
 | MOF<br/>                      | <dl> <dt>Tscpub.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TscPubWmi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

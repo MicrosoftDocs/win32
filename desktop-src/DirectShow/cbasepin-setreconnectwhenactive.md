@@ -1,7 +1,12 @@
 ---
-Description: 'The SetReconnectWhenActive method specifies whether the pin supports dynamic reconnections.'
-ms.assetid: '64776008-5d1b-461c-a446-8cd6124276c0'
-title: 'CBasePin.SetReconnectWhenActive method'
+Description: The SetReconnectWhenActive method specifies whether the pin supports dynamic reconnections.
+ms.assetid: 64776008-5d1b-461c-a446-8cd6124276c0
+title: CBasePin.SetReconnectWhenActive method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePin.SetReconnectWhenActive method
@@ -13,7 +18,7 @@ The `SetReconnectWhenActive` method specifies whether the pin supports dynamic r
 
 ```C++
 void SetReconnectWhenActive(
-   bool bCanReconnect
+   bool bCanReconnect
 );
 ```
 
@@ -56,9 +61,9 @@ By default, you must stop a filter before reconnecting any of its pins. If the p
 [**CBasePin Class**](cbasepin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

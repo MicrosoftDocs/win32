@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_DeviceBus association WMI class relates a system bus and a logical device using the bus. This class is used to discover which devices are on which bus.'
+Description: The Win32\_DeviceBus association WMI class relates a system bus and a logical device using the bus. This class is used to discover which devices are on which bus.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '2d7d83a5-c058-40c0-aab3-7700f4067a16'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 2d7d83a5-c058-40c0-aab3-7700f4067a16
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_DeviceBus class'
+title: Win32\_DeviceBus class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_DeviceBus class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class Win32_DeviceBus : CIM_Dependency
 {
   CIM_LogicalDevice REF Dependent;
-  Win32_Bus         REF Antecedent;
+  Win32_Bus         REF Antecedent;
 };
 ```
 
@@ -83,8 +86,8 @@ The **Win32\_DeviceBus** class is derived from [**CIM\_Dependency**](cim-depende
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -101,9 +104,9 @@ The **Win32\_DeviceBus** class is derived from [**CIM\_Dependency**](cim-depende
 [Computer System Hardware Classes](computer-system-hardware-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

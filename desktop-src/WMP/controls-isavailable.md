@@ -1,8 +1,9 @@
 ---
 title: Controls.isAvailable
 description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed.
-ms.assetid: 'd2bfaa67-eac9-4fc4-9424-636ddb4b35d6'
-keywords: ["Controls.isAvailable Windows Media Player"]
+ms.assetid: d2bfaa67-eac9-4fc4-9424-636ddb4b35d6
+keywords:
+- Controls.isAvailable Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Controls.isAvailable
@@ -47,7 +53,7 @@ player.controls.isAvailable(
 
 
 
- 
+ 
 
 ## Return Values
 
@@ -87,9 +93,9 @@ The following example creates an HTML BUTTON element that seeks to the starting 
 [**Controls Object**](controls-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

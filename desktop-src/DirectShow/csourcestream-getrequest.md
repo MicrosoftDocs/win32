@@ -1,7 +1,12 @@
 ---
-Description: 'The GetRequest method waits for the next thread request.'
-ms.assetid: '2938374b-174f-4276-98a2-20a084bd9bbd'
-title: 'CSourceStream.GetRequest method'
+Description: The GetRequest method waits for the next thread request.
+ms.assetid: 2938374b-174f-4276-98a2-20a084bd9bbd
+title: CSourceStream.GetRequest method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSourceStream.GetRequest method
@@ -54,9 +59,9 @@ enum Command {CMD_INIT, CMD_PAUSE, CMD_RUN, CMD_STOP, CMD_EXIT};
 [**CSourceStream Class**](csourcestream.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

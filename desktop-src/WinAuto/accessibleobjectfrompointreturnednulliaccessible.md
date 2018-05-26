@@ -1,7 +1,12 @@
 ---
 title: AccessibleObjectFromPointReturnedNullIAccessible
 description: AccessibleObjectFromPointReturnedNullIAccessible
-ms.assetid: 'DF786659-8ADC-4EB0-A606-8B80C139691A'
+ms.assetid: DF786659-8ADC-4EB0-A606-8B80C139691A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AccessibleObjectFromPointReturnedNullIAccessible
@@ -16,7 +21,7 @@ Error
 
 ## Description
 
-The address of the UI element's [**IAccessible**](iaccessible.md) interface obtained for the given coordinates is NULL.
+The address of the UI element's [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) interface obtained for the given coordinates is NULL.
 
 ## Possible causes
 
@@ -30,7 +35,7 @@ The address of the UI element's [**IAccessible**](iaccessible.md) interface obta
 [Navigation Through Hit Testing and Screen Location](navigation-through-hit-testing-and-screen-location.md)
 </dt> <dt>
 
-[**AccessibleObjectFromPoint**](accessibleobjectfrompoint.md)
+[**AccessibleObjectFromPoint**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfrompoint?branch=master)
 </dt> </dl>
 
  

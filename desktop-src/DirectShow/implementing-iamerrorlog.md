@@ -1,7 +1,12 @@
 ---
 Description: Implementing IAMErrorLog
-ms.assetid: '0a380854-f3a9-4077-a481-dda67737d4c8'
+ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: Implementing IAMErrorLog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Implementing IAMErrorLog

@@ -1,8 +1,11 @@
 ---
 title: IHelpFilter Add method
 description: method Add - Adds a filter key/value pair to the filter list
-ms.assetid: '13f857e8-5b0c-46fb-bc2c-c19d146daa5b'
-keywords: ["Add method HelpAPI", "Add method HelpAPI , IHelpFilter interface", "IHelpFilter interface HelpAPI , Add method"]
+ms.assetid: 13f857e8-5b0c-46fb-bc2c-c19d146daa5b
+keywords:
+- Add method HelpAPI
+- Add method HelpAPI , IHelpFilter interface
+- IHelpFilter interface HelpAPI , Add method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Windows.Help.Runtime.idl
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IHelpFilter::Add method
@@ -22,8 +30,8 @@ method Add - Adds a filter key/value pair to the filter list
 
 ```C++
 HRESULT Add(
-  [in] BSTR key,
-  [in] BSTR value
+  [in] BSTR key,
+  [in] BSTR value
 );
 ```
 
@@ -49,8 +57,8 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                          |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                |
 | IDL<br/>                      | <dl> <dt>Windows.Help.Runtime.idl</dt> </dl> |
 
 
@@ -62,9 +70,9 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 [**IHelpFilter**](ihelpfilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

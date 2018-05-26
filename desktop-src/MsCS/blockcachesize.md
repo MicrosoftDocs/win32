@@ -4,17 +4,21 @@ description: Specifies the cache size of a cluster shared volume (CSV), in megab
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'F1243F41-2A4D-4377-B911-C60A48E66499'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: F1243F41-2A4D-4377-B911-C60A48E66499
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["BlockCacheSize Failover Cluster"]
+keywords:
+- BlockCacheSize Failover Cluster
 topic_type:
 - apiref
 api_name:
 - BlockCacheSize
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BlockCacheSize
@@ -22,9 +26,9 @@ api_type:
 Specifies the cache size of a cluster shared volume (CSV), in megabytes.
 
 > [!Note]  
-> This property was renamed from [**SharedVolumeBlockCacheSizeInMB**](clusters-sharedvolumeblockcachesizeinmb.md) in Windows Server 2012 R2.
+> This property was renamed from [**SharedVolumeBlockCacheSizeInMB**](clusters-sharedvolumeblockcachesizeinmb.md) in Windows Server 2012 R2.
 
- 
+ 
 
 
 
@@ -32,14 +36,14 @@ Specifies the cache size of a cluster shared volume (CSV), in megabytes.
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 0                                         |
 | Maximum   | 0xFFFFFFFF                                |
 | Default   | 0                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -52,7 +56,7 @@ The constant for this property is **CLUSREG\_NAME\_CSV\_BLOCK\_CACHE**.
 |                                     |                                   |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/> |
 
 
 
@@ -66,9 +70,9 @@ The constant for this property is **CLUSREG\_NAME\_CSV\_BLOCK\_CACHE**.
 [**BlockCacheSize**](blockcachesize.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

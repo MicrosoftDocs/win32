@@ -1,8 +1,9 @@
 ---
 title: EM\_SETSCROLLPOS message
 description: Scrolls the contents of a rich edit control to the specified point.
-ms.assetid: '9ec514a4-97b1-44ab-b2ca-973b1f6fc404'
-keywords: ["EM_SETSCROLLPOS message Windows Controls"]
+ms.assetid: 9ec514a4-97b1-44ab-b2ca-973b1f6fc404
+keywords:
+- EM_SETSCROLLPOS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Richedit.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EM\_SETSCROLLPOS message
@@ -47,8 +53,8 @@ This message always returns 1.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Redistributable<br/>          | Rich Edit 3.0<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Richedit.h</dt> </dl> |
 
@@ -61,9 +67,9 @@ This message always returns 1.
 [**EM\_GETSCROLLPOS**](em-getscrollpos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

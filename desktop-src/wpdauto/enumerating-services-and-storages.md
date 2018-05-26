@@ -1,7 +1,12 @@
 ---
 title: Enumerating Services and Storages
 description: The collections of Services and Storages on a device are accessed through the read-only Device object properties of Device.Services and Device.Storages.
-ms.assetid: '06aa8bab-0530-4ddf-9006-98c01f841594'
+ms.assetid: 06aa8bab-0530-4ddf-9006-98c01f841594
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Enumerating Services and Storages

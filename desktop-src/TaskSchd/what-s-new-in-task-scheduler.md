@@ -1,8 +1,14 @@
 ---
-title: What's New in Task Scheduler
+title: Whats New in Task Scheduler
 description: List of new functionality introduced by different versions of Task Scheduler.
-ms.assetid: '43fbbbd2-6e97-4ba5-9474-23c5e2b33612'
-keywords: ["Task Scheduler Task Scheduler , what's new"]
+ms.assetid: 43fbbbd2-6e97-4ba5-9474-23c5e2b33612
+keywords:
+- Task Scheduler Task Scheduler , whats new
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # What's New in Task Scheduler
@@ -15,9 +21,9 @@ The following Task Scheduler changes are introduced in Windows 10:
 
 -   When battery saver is on, Windows Task Scheduler tasks are triggered only if the task is:
 
-    -   Not set to **Start the task only if the computer is idle...** (task doesn't use [**IdleSettings**](itasksettings-idlesettings.md))
-    -   Not set to run during automatic maintenance (task doesn't use [**MaintenanceSettings**](itasksettings3-maintenancesettings.md))
-    -   Is set to **Run only when user is logged on** (task [**LogonType**](iprincipal-logontype.md) is **TASK\_LOGON\_INTERACTIVE\_TOKEN** or **TASK\_LOGON\_GROUP**)
+    -   Not set to **Start the task only if the computer is idle...** (task doesn't use [**IdleSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_idlesettings?branch=master))
+    -   Not set to run during automatic maintenance (task doesn't use [**MaintenanceSettings**](/windows/win32/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings?branch=master))
+    -   Is set to **Run only when user is logged on** (task [**LogonType**](/windows/win32/taskschd/nf-taskschd-iprincipal-get_logontype?branch=master) is **TASK\_LOGON\_INTERACTIVE\_TOKEN** or **TASK\_LOGON\_GROUP**)
 
     All other triggers are delayed until battery saver is off. For more information about accessing battery saver status in your application, see [**SYSTEM\_POWER\_STATUS**](https://msdn.microsoft.com/library/windows/desktop/aa373232). For general information about battery saver, see [battery saver (in the hardware component guidelines)](https://msdn.microsoft.com/library/windows/hardware/mt186374).
 
@@ -27,15 +33,15 @@ The following Task Scheduler 2.0 changes are introduced in Windows 8:
 
 -   Powershell support: users can manage (create, delete, modify, explicitly start, stop etc.) Windows Task Scheduler tasks using the ScheduledTasks powershell module.
 -   Managed passwords: administrators can use the Active Directory managed password accounts as task principals. These tasks no longer require an enforced password reset policy.
--   API changes: Introduced two new task settings with the [**ITaskSettings3**](itasksettings3.md) interface.
-    -   [**MaintenanceSettings**](itasksettings3-maintenancesettings.md): tasks using these settings are treated as a new type of scheduled tasks that are invoked during OS automatic maintenance time, according to the specified periodicity and deadline.
-    -   [**Volatile**](itasksettings3-volatile.md): tasks that are set to be volatile are always disabled on an OS boot and must be explicitly re-enabled back when required. Volatile tasks are utilized by the failover clusters to ensure only one task instance is scheduled on a cluster at a time.
+-   API changes: Introduced two new task settings with the [**ITaskSettings3**](/windows/win32/taskschd/nn-taskschd-itasksettings3?branch=master) interface.
+    -   [**MaintenanceSettings**](/windows/win32/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings?branch=master): tasks using these settings are treated as a new type of scheduled tasks that are invoked during OS automatic maintenance time, according to the specified periodicity and deadline.
+    -   [**Volatile**](/windows/win32/Taskschd/nf-taskschd-itasksettings3-get_volatile?branch=master): tasks that are set to be volatile are always disabled on an OS boot and must be explicitly re-enabled back when required. Volatile tasks are utilized by the failover clusters to ensure only one task instance is scheduled on a cluster at a time.
 -   The unified scheduling engine now supports the following features:
     -   S4U Logon type, through the [**LogonType**](taskschedulerschema-logontype-principaltype-element.md) element.
     -   XPath query values for event triggers, through the [**ValueQueries**](taskschedulerschema-valuequeries-eventtriggertype-element.md) element.
     -   Do not allow task hard terminate, through the [**AllowHardTerminate**](taskschedulerschema-allowhardterminate-settingstype-element.md) element.
 -   Features deprecated in this release
-    -   Action: [**sendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (you can use [**IExecAction**](iexecaction.md) with the [Windows PowerShell](http://technet.microsoft.com/library/bb978526.aspx)[Send-MailMessage](http://technet.microsoft.com/library/hh849925.aspx) cmdlet as a workaround).
+    -   Action: [**sendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (you can use [**IExecAction**](/windows/win32/taskschd/nn-taskschd-iexecaction?branch=master) with the [Windows PowerShell](http://technet.microsoft.com/library/bb978526.aspx)[Send-MailMessage](http://technet.microsoft.com/library/hh849925.aspx) cmdlet as a workaround).
     -   Action: [**showMessage**](taskschedulerschema-showmessage-actiongroup-element.md).
     -   AT.exe cmdline utility
 

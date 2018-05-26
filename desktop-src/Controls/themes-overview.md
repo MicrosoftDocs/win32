@@ -1,7 +1,12 @@
 ---
 title: Visual Styles
 description: This section provides an overview of visual styles and explains how to configure your application to use them.
-ms.assetid: '9b135ccb-5e36-4657-b79c-689201047430'
+ms.assetid: 9b135ccb-5e36-4657-b79c-689201047430
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Visual Styles

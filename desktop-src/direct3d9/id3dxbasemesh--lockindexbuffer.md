@@ -1,7 +1,12 @@
-﻿---
-Description: 'Locks an index buffer and obtains a pointer to the index buffer memory.'
-ms.assetid: 'c8941164-1f2a-4aed-b0bd-8130aac61da4'
-title: 'ID3DXBaseMesh::LockIndexBuffer method'
+---
+Description: Locks an index buffer and obtains a pointer to the index buffer memory.
+ms.assetid: c8941164-1f2a-4aed-b0bd-8130aac61da4
+title: ID3DXBaseMeshLockIndexBuffer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXBaseMesh::LockIndexBuffer method

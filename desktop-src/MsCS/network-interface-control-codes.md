@@ -3,21 +3,27 @@ title: Network Interface Control Codes
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'adc97081-e778-426d-8296-9dea9f22a4e4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: adc97081-e778-426d-8296-9dea9f22a4e4
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
 description: 
-keywords: ["network interface control codes Failover Cluster", "control codes Failover Cluster ,network interface", "network interfaces Failover Cluster ,control codes"]
+keywords:
+- network interface control codes Failover Cluster
+- control codes Failover Cluster ,network interface
+- network interfaces Failover Cluster ,control codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Network Interface Control Codes
 
 The [Failover Cluster API](the-server-cluster-api.md) defines the following [*external control codes*](e-gly.md#-wolf-external-control-code-gly) for [network interfaces](network-interfaces.md) (there are no [*internal control codes*](i-gly.md#-wolf-internal-control-code-gly) defined for network interfaces):
 
-Network interface control codes use the **CLUS\_OBJECT\_NETINTERFACE** value of the [**CLUSTER\_CONTROL\_OBJECT**](cluster-control-object.md) enumeration to indicate that the control code applies to cluster network interfaces. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
+Network interface control codes use the **CLUS\_OBJECT\_NETINTERFACE** value of the [**CLUSTER\_CONTROL\_OBJECT**](/windows/previous-versions/ClusAPI/ne-clusapi-cluster_control_object?branch=master) enumeration to indicate that the control code applies to cluster network interfaces. For more information about control codes, see [Control Code Architecture](control-code-architecture.md).
 
-Network interface control codes are enumerated by the [**CLUSCTL\_NETINTERFACE\_CODES**](clusctl-netinterface-codes.md) enumeration.
+Network interface control codes are enumerated by the [**CLUSCTL\_NETINTERFACE\_CODES**](/windows/previous-versions/ClusAPI/ne-clusapi-clusctl_netinterface_codes?branch=master) enumeration.
 
 ## In this section
 
@@ -89,7 +95,7 @@ Retrieves the name of the [network](networks.md) to which a [network interface](
 [CLUSCTL\_NETINTERFACE\_GET\_NODE](clusctl-netinterface-get-node.md)
 </dt> <dd>
 
-Retrieves the name of the [node](nodes.md) in which a [network interface](network-interfaces.md) is installed. Applications use this [control code](about-control-codes.md) as a [**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md) parameter.
+Retrieves the name of the [node](nodes.md) in which a [network interface](network-interfaces.md) is installed. Applications use this [control code](about-control-codes.md) as a [**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master) parameter.
 
 </dd> <dt>
 
@@ -163,7 +169,7 @@ Verifies that a [property list](property-lists.md) is properly formatted.
 [Failover Cluster Control Codes](control-codes.md)
 </dt> <dt>
 
-[**ClusterNetInterfaceControl**](clusternetinterfacecontrol.md)
+[**ClusterNetInterfaceControl**](/windows/previous-versions/ClusAPI/nf-clusapi-clusternetinterfacecontrol?branch=master)
 </dt> </dl>
 
  

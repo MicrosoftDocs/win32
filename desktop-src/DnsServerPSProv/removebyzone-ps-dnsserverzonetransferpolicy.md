@@ -2,13 +2,16 @@
 title: RemoveByZone method of the PS\_DnsServerZoneTransferPolicy class
 description: Removes a zone transfer policy by zone.
 audience: developer
-ms.assetid: 'fd5e4251-d2f9-43b0-971e-19ec7fa38afd'
-ms.prod: 'windows-server-dev'
+ms.assetid: fd5e4251-d2f9-43b0-971e-19ec7fa38afd
+ms.prod: windows-server-dev
 ms.technology:
-- 'dns-server'
-- 'windows-management-instrumentation'
+- dns-server
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["RemoveByZone method", "RemoveByZone method, PS_DnsServerZoneTransferPolicy class", "PS_DnsServerZoneTransferPolicy class, RemoveByZone method"]
+keywords:
+- RemoveByZone method
+- RemoveByZone method, PS_DnsServerZoneTransferPolicy class
+- PS_DnsServerZoneTransferPolicy class, RemoveByZone method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - DnsServerPSProvider.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemoveByZone method of the PS\_DnsServerZoneTransferPolicy class
@@ -28,12 +34,12 @@ Removes a zone transfer policy by zone.
 
 ```mof
 uint32 RemoveByZone(
-  [in]  boolean         PassThru,
-  [in]  string          Name,
-  [in]  string          ComputerName,
-  [in]  boolean         Force,
-  [in]  string          ZoneName,
-  [out] DnsServerPolicy cmdletOutput
+  [in]  boolean         PassThru,
+  [in]  string          Name,
+  [in]  string          ComputerName,
+  [in]  boolean         Force,
+  [in]  string          ZoneName,
+  [out] DnsServerPolicy cmdletOutput
 );
 ```
 
@@ -92,7 +98,7 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 |                                     |                                                                                                    |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                     |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Dns<br/>                                                           |
 | MOF<br/>                      | <dl> <dt>DnsServerPsProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>DnsServerPSProvider.dll</dt> </dl> |
@@ -106,9 +112,9 @@ On return, contains a [**DnsServerPolicy**](dnsserverpolicy.md). This parameter 
 [**PS\_DnsServerZoneTransferPolicy**](ps-dnsserverzonetransferpolicy.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

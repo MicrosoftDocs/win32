@@ -1,7 +1,12 @@
 ---
-Description: 'Sets the debugging time-out value. Ignored in retail builds.'
-ms.assetid: 'd0f60d8b-34f2-44b2-bdd6-5e8e6f7806d8'
+Description: Sets the debugging time-out value. Ignored in retail builds.
+ms.assetid: d0f60d8b-34f2-44b2-bdd6-5e8e6f7806d8
 title: DbgSetWaitTimeout function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DbgSetWaitTimeout function
@@ -13,7 +18,7 @@ Sets the debugging time-out value. Ignored in retail builds.
 
 ```C++
 void DbgSetWaitTimeout(
-   DWORD dwTimeout
+   DWORD dwTimeout
 );
 ```
 
@@ -56,9 +61,9 @@ In debug builds, the [**DbgWaitForMultipleObjects**](dbgwaitformultipleobjects.m
 [Wait Debugging Functions](wait-debugging-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

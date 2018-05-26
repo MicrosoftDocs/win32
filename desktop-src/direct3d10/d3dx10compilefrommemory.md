@@ -1,7 +1,12 @@
-﻿---
-Description: 'Note  Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the D3DCompile API. Compile a shader or an effect that is loaded in memory.'
-ms.assetid: 'c6458d82-a649-402c-8180-5b7320f9fdb0'
+---
+Description: Note  Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the D3DCompile API. Compile a shader or an effect that is loaded in memory.
+ms.assetid: c6458d82-a649-402c-8180-5b7320f9fdb0
 title: D3DX10CompileFromMemory function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX10CompileFromMemory function
@@ -70,18 +75,18 @@ The name of the file that contains the shader code.
 *pDefines* \[in\]
 </dt> <dd>
 
-Type: **const [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)\***
+Type: **const [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)\***
 
-Optional. Pointer to an array of macro definitions (see [**D3D10\_SHADER\_MACRO**](d3d10-shader-macro.md)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
+Optional. Pointer to an array of macro definitions (see [**D3D10\_SHADER\_MACRO**](/windows/win32/D3D10Shader/?branch=master)). The last structure in the array serves as a terminator and must have all members set to 0. If not used, set *pDefines* to **NULL**.
 
 </dd> <dt>
 
 *pInclude* \[in\]
 </dt> <dd>
 
-Type: **[**LPD3D10INCLUDE**](id3d10include.md)**
+Type: **[**LPD3D10INCLUDE**](/windows/win32/D3D10Shader/?branch=master)**
 
-Optional. Pointer to an [**ID3D10Include Interface**](id3d10include.md) interface for handling include files. Setting this to **NULL** will cause a compile error if a shader contains a \#include.
+Optional. Pointer to an [**ID3D10Include Interface**](/windows/win32/D3D10Shader/?branch=master) interface for handling include files. Setting this to **NULL** will cause a compile error if a shader contains a \#include.
 
 </dd> <dt>
 
@@ -133,18 +138,18 @@ A pointer to a thread pump interface (see [**ID3DX10ThreadPump Interface**](id3d
 *ppShader* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-A pointer to an [**ID3D10Blob Interface**](id3d10blob.md) which contains the compiled shader, as well as any embedded debug and symbol-table information.
+A pointer to an [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master) which contains the compiled shader, as well as any embedded debug and symbol-table information.
 
 </dd> <dt>
 
 *ppErrorMsgs* \[out\]
 </dt> <dd>
 
-Type: **[**ID3D10Blob**](id3d10blob.md)\*\***
+Type: **[**ID3D10Blob**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master)\*\***
 
-A pointer to an [**ID3D10Blob Interface**](id3d10blob.md) which contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
+A pointer to an [**ID3D10Blob Interface**](/windows/win32/D3DCommon/nn-d3dcommon-id3d10blob?branch=master) which contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
 
 </dd> <dt>
 

@@ -1,7 +1,12 @@
 ---
-Description: 'The GetPinCount method retrieves the number of pins.'
-ms.assetid: '6cbeb123-d899-4f13-8b40-5666adec610f'
-title: 'CBaseFilter.GetPinCount method'
+Description: The GetPinCount method retrieves the number of pins.
+ms.assetid: 6cbeb123-d899-4f13-8b40-5666adec610f
+title: CBaseFilter.GetPinCount method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseFilter.GetPinCount method
@@ -47,9 +52,9 @@ The derived class must implement this pure virtual method. Return the number of 
 [**CBaseFilter Class**](cbasefilter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

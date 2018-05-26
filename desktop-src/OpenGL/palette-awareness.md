@@ -1,8 +1,15 @@
 ---
 title: Palette Awareness
 description: Your application must respond to the WM\_PALETTECHANGED, WM\_QUERYNEWPALETTE, and WM\_ACTIVATE messages to be aware of and use palettes. Design your application to select and realize palettes in response to these messages.
-ms.assetid: '0670e929-dfdb-44d2-bda2-c532d1739d8e'
-keywords: ["OpenGL on Windows,palette awareness", "palette awareness OpenGL"]
+ms.assetid: 0670e929-dfdb-44d2-bda2-c532d1739d8e
+keywords:
+- OpenGL on Windows,palette awareness
+- palette awareness OpenGL
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Palette Awareness

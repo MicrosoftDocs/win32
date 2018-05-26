@@ -1,8 +1,9 @@
 ---
 title: DeducingStringSetter
 description: Deduces the class and arguments and then calls a member-function property setter callback for a string-type property.
-ms.assetid: 'D3075B7B-D253-4F85-9FD2-3487C4207122'
-keywords: ["DeducingStringSetter Direct2D"]
+ms.assetid: D3075B7B-D253-4F85-9FD2-3487C4207122
+keywords:
+- DeducingStringSetter Direct2D
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d2d1effecthelpers.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DeducingStringSetter
@@ -20,7 +26,7 @@ Deduces the class and arguments and then calls a member-function property setter
 > [!Note]  
 > DeducingStringSetter should not be called directly.
 
- 
+ 
 
 ``` syntax
 template<class C, typename I>  
@@ -49,9 +55,9 @@ HRESULT DeducingStringSetter(
 [**Direct2D::DeducingStringGetter**](deducingstringgetter.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

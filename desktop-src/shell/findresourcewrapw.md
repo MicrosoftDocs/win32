@@ -1,7 +1,12 @@
-﻿---
-Description: 'Determines the location of a resource with the specified type and name, in the specified module.'
-ms.assetid: 'd8322430-5064-407e-8b89-b86b75bf139e'
+---
+Description: Determines the location of a resource with the specified type and name, in the specified module.
+ms.assetid: d8322430-5064-407e-8b89-b86b75bf139e
 title: FindResourceWrapW function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FindResourceWrapW function

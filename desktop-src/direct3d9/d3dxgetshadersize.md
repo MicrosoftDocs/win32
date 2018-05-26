@@ -1,7 +1,12 @@
-﻿---
-Description: 'Returns the size of the shader byte code, in bytes.'
-ms.assetid: '7dd091f7-fda9-49e1-982d-2eb57d9ecb23'
+---
+Description: Returns the size of the shader byte code, in bytes.
+ms.assetid: 7dd091f7-fda9-49e1-982d-2eb57d9ecb23
 title: D3DXGetShaderSize function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXGetShaderSize function

@@ -1,7 +1,12 @@
 ---
 Description: Playing Karaoke Audio Streams
-ms.assetid: '1a8d0f42-35b8-4743-9ae7-619b99936f76'
+ms.assetid: 1a8d0f42-35b8-4743-9ae7-619b99936f76
 title: Playing Karaoke Audio Streams
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Playing Karaoke Audio Streams
@@ -12,8 +17,8 @@ Karaoke discs are a type of DVD-Video disc and have the same navigation structur
 
 When the DVD Navigator detects karaoke content on a disc and goes into karaoke mode, it informs the decoder, which then should mute the upper three channels (the auxiliary channels) until any or all of them are explicitly turned on by an application. The basic tasks of a karaoke application are to:
 
-1.  Determine the number of auxiliary channels and their contents using [**IDvdInfo2**](idvdinfo2.md) methods.
-2.  Provide a user interface that displays the channel contents and enables users to turn any auxiliary channel on or off at any time, using [**IDvdControl2::SelectKaraokeAudioPresentationMode**](idvdcontrol2-selectkaraokeaudiopresentationmode.md).
+1.  Determine the number of auxiliary channels and their contents using [**IDvdInfo2**](/windows/win32/Strmif/nn-strmif-idvdinfo2?branch=master) methods.
+2.  Provide a user interface that displays the channel contents and enables users to turn any auxiliary channel on or off at any time, using [**IDvdControl2::SelectKaraokeAudioPresentationMode**](/windows/win32/Strmif/nf-strmif-idvdcontrol2-selectkaraokeaudiopresentationmode?branch=master).
 
 These steps are illustrated in the DVD Sample application in DVDCore.cpp in the **GetAudioAttributes** method.
 

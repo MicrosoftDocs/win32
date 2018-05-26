@@ -1,8 +1,10 @@
 ---
 title: System.Machine object
 description: Defines the properties for determining machine processor and memory characteristics as well as the properties for the CPUs collection.
-ms.assetid: '74de3c08-6a30-48e8-a377-344db2dd5451'
-keywords: ["System.Machine object Windows Sidebar", "System.Machine object Windows Sidebar , described"]
+ms.assetid: 74de3c08-6a30-48e8-a377-344db2dd5451
+keywords:
+- System.Machine object Windows Sidebar
+- System.Machine object Windows Sidebar , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Machine object
@@ -22,7 +29,7 @@ Defines the properties for determining machine processor and memory characterist
 > [!Note]  
 > Objects of type [**System.Machine.CPU**](system-machine-cpu.md) can only be accessed through the [**CPUs**](system-machine-cpus.md) collection. This collection is a member of **System.Machine**.
 
- 
+ 
 
 ## Members
 
@@ -63,7 +70,7 @@ Objects of type [<strong>System.Machine.CPU</strong>](system-machine-cpu.md) can
 
 
 
- 
+ 
 
 ### Properties
 
@@ -79,7 +86,7 @@ The **System.Machine** object has these properties.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -91,18 +98,18 @@ Each [**System.Machine.CPU**](system-machine-cpu.md) in the [**CPUs**](system-ma
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

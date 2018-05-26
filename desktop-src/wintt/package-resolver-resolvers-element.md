@@ -1,14 +1,20 @@
 ---
 title: Resolver (Resolvers) Element
 description: Defines a resolver that can fix a root cause.
-ms.assetid: '19b3c6e3-9244-48a2-bf05-bccdf1cdb5f1'
-keywords: ["Resolver element Windows Troubleshooting Toolkit"]
+ms.assetid: 19b3c6e3-9244-48a2-bf05-bccdf1cdb5f1
+keywords:
+- Resolver element Windows Troubleshooting Toolkit
 topic_type:
 - apiref
 api_name:
 - Resolver
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Resolver (Resolvers) Element
@@ -27,14 +33,14 @@ The **Resolver** element is defined by the [**Resolvers**](package-resolvers-com
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

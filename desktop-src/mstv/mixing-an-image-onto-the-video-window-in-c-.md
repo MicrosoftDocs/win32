@@ -1,7 +1,12 @@
 ---
 title: Mixing an Image Onto the Video Window in C++
 description: Mixing an Image Onto the Video Window in C++
-ms.assetid: 'e39cf7b0-7a88-41e9-bddc-cdd0cc381996'
+ms.assetid: e39cf7b0-7a88-41e9-bddc-cdd0cc381996
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Mixing an Image Onto the Video Window in C++
@@ -14,21 +19,21 @@ This section describes how to display an alpha-blended image over the Video Cont
 
 In C++, you can specify the image either as an **IPictureDisp** object or as a bitmap. The **IPictureDisp** object is designed for Automation clients, and it is generally easier to work with a bitmap in C++. When you capture an image from the Video Control, however, it returns an **IPictureDisp** object. Therefore, the first example shows how to use the captured image as the mixing image. The result is to show a "snapshot" of the video in a corner of the window, while the video continues to play in the background.
 
-First, submit a tune request and call the Video Control's [**IMSVidCtl::Run**](imsvidctl-run.md) method. (For more information, see [Tuning with the Video Control](tuning-with-the-video-control.md).)
+First, submit a tune request and call the Video Control's [**IMSVidCtl::Run**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-run?branch=master) method. (For more information, see [Tuning with the Video Control](tuning-with-the-video-control.md).)
 
 To capture the image:
 
-Call the [**IMSVidCtl::get\_VideoRendererActive**](imsvidctl-get-videorendereractive.md) method. This method returns a pointer to the [**IMSVidVideoRenderer**](imsvidvideorenderer.md) interface on the video renderer device.
+Call the [**IMSVidCtl::get\_VideoRendererActive**](/windows/previous-versions/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive?branch=master) method. This method returns a pointer to the [**IMSVidVideoRenderer**](/windows/win32/segment/nn-segment-imsvidvideorenderer?branch=master) interface on the video renderer device.
 
-Call the [**IMSVidVideoRenderer::Capture**](imsvidvideorenderer-capture.md) method. This method returns an **IPictureDisp** object, which contains the image.
+Call the [**IMSVidVideoRenderer::Capture**](/windows/win32/segment/nf-segment-imsvidvideorenderer-capture?branch=master) method. This method returns an **IPictureDisp** object, which contains the image.
 
-Now you can use the **IPictureDisp** object as the VMR's mixer image, by calling the [**IMSVidVideoRenderer::SetupMixerBitmap**](imsvidvideorenderer-setupmixerbitmap.md) method. The method takes the following parameters:
+Now you can use the **IPictureDisp** object as the VMR's mixer image, by calling the [**IMSVidVideoRenderer::SetupMixerBitmap**](/windows/win32/segment/nf-segment-imsvidvideorenderer-setupmixerbitmap?branch=master) method. The method takes the following parameters:
 
 -   The **IPictureDisp** pointer.
 -   The desired opacity, expressed as an integer from 0 to 100.
--   The position of the image on the video window, specified as an [**IMSVidRect**](imsvidrect.md) interface.
+-   The position of the image on the video window, specified as an [**IMSVidRect**](/windows/win32/segment/nn-segment-imsvidrect?branch=master) interface.
 
-The **IMSVidRect** interface is an Automation-compatible wrapper for a rectangle. The following example retrieves a rectangle by calling [**IMSVidVideoRenderer::get\_MixerBitmap**](imsvidvideorenderer-get-mixerbitmap.md), but then overrides the dimensions of the rectangle. It then captures an image and mixes it onto the video window. For brevity, the example omits any error checking.
+The **IMSVidRect** interface is an Automation-compatible wrapper for a rectangle. The following example retrieves a rectangle by calling [**IMSVidVideoRenderer::get\_MixerBitmap**](/windows/win32/segment/nf-segment-imsvidvideorenderer-get_mixerbitmap?branch=master), but then overrides the dimensions of the rectangle. It then captures an image and mixes it onto the video window. For brevity, the example omits any error checking.
 
 
 ```C++
@@ -59,7 +64,7 @@ hr = pVideo->SetupMixerBitmap(pPic, lOpacity, pRect);
 
 
 
-The position rectangle defaults to the entire video control window. If you don't want to specify the rectangle, you can use the [**IMSVidVideoRenderer::put\_MixerBitmap**](imsvidvideorenderer-put-mixerbitmap.md) and [**IMSVidVideoRenderer::put\_MixerBitmapOpacity**](imsvidvideorenderer-put-mixerbitmapopacity.md) methods:
+The position rectangle defaults to the entire video control window. If you don't want to specify the rectangle, you can use the [**IMSVidVideoRenderer::put\_MixerBitmap**](/windows/win32/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap?branch=master) and [**IMSVidVideoRenderer::put\_MixerBitmapOpacity**](/windows/win32/segment/nf-segment-imsvidvideorenderer-put_mixerbitmapopacity?branch=master) methods:
 
 
 ```C++
@@ -71,7 +76,7 @@ hr = pVideo->put_MixerBitmapOpacity(lOpacity);
 
 **Mixing a Bitmap**
 
-In C++, you can also mix a bitmap that is specified as a DirectDraw surface or as a handle to a GDI object. To do so, use the [**IMSVidVideoRenderer::put\_\_MixerBitmap**](imsvidvideorenderer-put--mixerbitmap.md) method. This method acts as a pass-through to the VMR's [**IVMRMixerBitmap::SetAlphaBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd390454) method. As an alternative, you can use the [**IMSVidVideoRenderer::get\_\_MixerBitmap**](imsvidvideorenderer-get--mixerbitmap.md) method to obtain the VMR's [**IVMRMixerBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd390448) interface and call **SetAlphaBitmap** directly.
+In C++, you can also mix a bitmap that is specified as a DirectDraw surface or as a handle to a GDI object. To do so, use the [**IMSVidVideoRenderer::put\_\_MixerBitmap**](/windows/win32/segment/nf-segment-imsvidvideorenderer-put__mixerbitmap?branch=master) method. This method acts as a pass-through to the VMR's [**IVMRMixerBitmap::SetAlphaBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd390454) method. As an alternative, you can use the [**IMSVidVideoRenderer::get\_\_MixerBitmap**](/windows/win32/segment/nf-segment-imsvidvideorenderer-get__mixerbitmap?branch=master) method to obtain the VMR's [**IVMRMixerBitmap**](https://msdn.microsoft.com/library/windows/desktop/dd390448) interface and call **SetAlphaBitmap** directly.
 
 For more information, see [Displaying an Application-Supplied Bitmap on the Composited Image](https://msdn.microsoft.com/library/windows/desktop/dd375479). The example shown here is modified from the example code in that topic.
 

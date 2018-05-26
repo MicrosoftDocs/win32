@@ -1,7 +1,12 @@
 ---
-Description: 'Bar code labels on physical media, in libraries with bar code readers, are used as a shortcut to determine the identity of physical media and its sides.'
-ms.assetid: '6487f3d9-5f12-4ee7-a453-362d1858f38c'
+Description: Bar code labels on physical media, in libraries with bar code readers, are used as a shortcut to determine the identity of physical media and its sides.
+ms.assetid: 6487f3d9-5f12-4ee7-a453-362d1858f38c
 title: Bar Codes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Bar Codes

@@ -1,7 +1,12 @@
 ---
-Description: 'This article presents some simple examples that illustrate how to implement spatial sound using static spatial audio objects, dynamic spatial audio objects, and spatial audio objects that use Microsoft''s Head Relative Transfer Function (HRTF).'
-ms.assetid: 'C99C342E-0BD9-486A-92AA-F8DCB72C1B00'
+Description: This article presents some simple examples that illustrate how to implement spatial sound using static spatial audio objects, dynamic spatial audio objects, and spatial audio objects that use Microsofts Head Relative Transfer Function (HRTF).
+ms.assetid: C99C342E-0BD9-486A-92AA-F8DCB72C1B00
 title: Render Spatial Sound Using Spatial Audio Objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Render Spatial Sound Using Spatial Audio Objects
@@ -10,7 +15,7 @@ This article presents some simple examples that illustrate how to implement spat
 
 ## Render audio using static spatial audio objects
 
-A static audio object is used to render sound to one of 18 static audio channels defined in the [**AudioObjectType**](audioobjecttype.md) enumeration. Each of these channels represents a real or virtualized speaker at a fixed point in space that does not move over time. The static channels that are available on a particular device depend on the spatial sound format being used. For a list of the supported formats and their channel counts, see [Spatial Sound](spatial-sound.md).
+A static audio object is used to render sound to one of 18 static audio channels defined in the [**AudioObjectType**](/windows/win32/spatialaudioclient/ne-spatialaudioclient-audioobjecttype?branch=master) enumeration. Each of these channels represents a real or virtualized speaker at a fixed point in space that does not move over time. The static channels that are available on a particular device depend on the spatial sound format being used. For a list of the supported formats and their channel counts, see [Spatial Sound](spatial-sound.md).
 
 When you initialize a spatial audio stream, you must specify which of the available static channels the stream will use. The following example constant definitions can be used to specify common speaker configurations and get the number of channels available for each one.
 
@@ -36,7 +41,7 @@ const AudioObjectType ChannelMask_8_1_4_4 = (AudioObjectType)(ChannelMask_7_1_4_
 
 
 
-The first step in rendering spatial audio is to get the audio endpoint to which audio data will be sent. Create an instance of [**MMDeviceEnumerator**](immdeviceenumerator.md) and call [**GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md) to get the default audio render device.
+The first step in rendering spatial audio is to get the audio endpoint to which audio data will be sent. Create an instance of [**MMDeviceEnumerator**](/windows/win32/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator?branch=master) and call [**GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master) to get the default audio render device.
 
 
 ```C++
@@ -66,11 +71,11 @@ format.cbSize = 0;
 
 
 
-The next step in rendering spatial audio is to initialize a spatial audio stream. First, get an instance of [**ISpatialAudioClient**](ispatialaudioclient.md) by calling [**IMMDevice::Activate**](immdevice-activate.md). Call [**ISpatialAudioClient::IsAudioObjectFormatSupported**](ispatialaudioclient-isaudioobjectformatsupported.md) to make sure that the audio format you are using is supported. Create an event that the audio pipeline will use to notify the app that it is ready for more audio data.
+The next step in rendering spatial audio is to initialize a spatial audio stream. First, get an instance of [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master) by calling [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master). Call [**ISpatialAudioClient::IsAudioObjectFormatSupported**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-isaudioobjectformatsupported?branch=master) to make sure that the audio format you are using is supported. Create an event that the audio pipeline will use to notify the app that it is ready for more audio data.
 
-Populate a [**SpatialAudioObjectRenderStreamActivationParams**](spatialaudioobjectrenderstreamactivationparams-.md) structure that will be used to initialize the spatial audio stream. In this example, the **StaticObjectTypeMask** field is set to the **ChannelMask\_Stereo** constant defined previously in this article, meaning that only the front right and left channels can be used by the audio stream. Because this example uses only static audio objects and no dynamic objects, the **MaxDynamicObjectCount** field is set to 0. The **Category** field is set to a member of the [**AUDIO\_STREAM\_CATEGORY**](audio-stream-category.md) enumeration, which defines how the system mixes the sound from this stream with other audio sources.
+Populate a [**SpatialAudioObjectRenderStreamActivationParams**](/windows/win32/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams?branch=master) structure that will be used to initialize the spatial audio stream. In this example, the **StaticObjectTypeMask** field is set to the **ChannelMask\_Stereo** constant defined previously in this article, meaning that only the front right and left channels can be used by the audio stream. Because this example uses only static audio objects and no dynamic objects, the **MaxDynamicObjectCount** field is set to 0. The **Category** field is set to a member of the [**AUDIO\_STREAM\_CATEGORY**](/windows/win32/audiosessiontypes/ne-audiosessiontypes-_audio_stream_category?branch=master) enumeration, which defines how the system mixes the sound from this stream with other audio sources.
 
-Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](ispatialaudioclient-activatespatialaudiostream.md) to activate the stream.
+Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream?branch=master) to activate the stream.
 
 
 ```C++
@@ -106,11 +111,11 @@ hr = spatialAudioClient->ActivateSpatialAudioStream(&amp;activationParams, __uui
 
 
 > [!Note]  
-> When using the [**ISpatialAudioClient**](ispatialaudioclient.md) interfaces on an Xbox One Development Kit (XDK) title, you must first call **EnableSpatialAudio** before calling [**IMMDeviceEnumerator::EnumAudioEndpoints**](immdeviceenumerator-enumaudioendpoints.md) or [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](immdeviceenumerator-getdefaultaudioendpoint.md). Failure to do so will result in an E\_NOINTERFACE error being returned from the call to Activate. **EnableSpatialAudio** is only available for XDK titles, and does not need to be called for Universal Windows Platform apps running on Xbox One, nor for any non-Xbox One devices.
+> When using the [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master) interfaces on an Xbox One Development Kit (XDK) title, you must first call **EnableSpatialAudio** before calling [**IMMDeviceEnumerator::EnumAudioEndpoints**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints?branch=master) or [**IMMDeviceEnumerator::GetDefaultAudioEndpoint**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint?branch=master). Failure to do so will result in an E\_NOINTERFACE error being returned from the call to Activate. **EnableSpatialAudio** is only available for XDK titles, and does not need to be called for Universal Windows Platform apps running on Xbox One, nor for any non-Xbox One devices.
 
  
 
-Declare a pointer for an [**ISpatialAudioObject**](ispatialaudioobject.md) that will be used to write audio data to a static channel. Typical apps will use an object for each channel specified in the **StaticObjectTypeMask** field. For simplicity, this example only uses a single static audio object.
+Declare a pointer for an [**ISpatialAudioObject**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject?branch=master) that will be used to write audio data to a static channel. Typical apps will use an object for each channel specified in the **StaticObjectTypeMask** field. For simplicity, this example only uses a single static audio object.
 
 
 ```C++
@@ -120,17 +125,17 @@ Microsoft::WRL::ComPtr<ISpatialAudioObject> audioObjectFrontLeft;
 
 
 
-Before entering the audio render loop, call [**ISpatialAudioObjectRenderStream::Start**](ispatialaudioobjectrenderstream-start.md) to instruct the media pipeline to begin requesting audio data. This example uses a counter to stop the rendering of audio after 5 seconds.
+Before entering the audio render loop, call [**ISpatialAudioObjectRenderStream::Start**](/windows/win32/spatialaudioclient/?branch=master) to instruct the media pipeline to begin requesting audio data. This example uses a counter to stop the rendering of audio after 5 seconds.
 
-Inside the render loop, wait for the buffer completion event, provided when the spatial audio stream was initialized, to be signaled. You should set a reasonable timeout limit, like 100 ms, when waiting for the event because any change to the render type or endpoint will cause that event to never be signaled. In this case, you can call [**ISpatialAudioObjectRenderStream::Reset**](ispatialaudioobjectrenderstream-reset.md) to attempt to reset the spatial audio stream.
+Inside the render loop, wait for the buffer completion event, provided when the spatial audio stream was initialized, to be signaled. You should set a reasonable timeout limit, like 100 ms, when waiting for the event because any change to the render type or endpoint will cause that event to never be signaled. In this case, you can call [**ISpatialAudioObjectRenderStream::Reset**](/windows/win32/spatialaudioclient/?branch=master) to attempt to reset the spatial audio stream.
 
-Next, call [**ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects**](ispatialaudioobjectrenderstream-beginupdatingaudioobjects.md) to let the system know that you are about to fill the audio objects' buffers with data. This method returns the number of available dynamic audio objects, not used in this example, and the frame count of the buffer for audio objects rendered by this stream.
+Next, call [**ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects**](/windows/win32/spatialaudioclient/?branch=master) to let the system know that you are about to fill the audio objects' buffers with data. This method returns the number of available dynamic audio objects, not used in this example, and the frame count of the buffer for audio objects rendered by this stream.
 
-If a static spatial audio object has not yet been created, create one or more by calling [**ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject**](ispatialaudioobjectrenderstream-activatespatialaudioobject.md), passing in a value from the [**AudioObjectType**](audioobjecttype.md) enumeration indicating the static channel to which the object's audio is rendered.
+If a static spatial audio object has not yet been created, create one or more by calling [**ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject?branch=master), passing in a value from the [**AudioObjectType**](/windows/win32/spatialaudioclient/ne-spatialaudioclient-audioobjecttype?branch=master) enumeration indicating the static channel to which the object's audio is rendered.
 
-Next, call [**ISpatialAudioObject::GetBuffer**](ispatialaudioobject-getbuffer.md) to get a pointer to the spatial audio object's audio buffer. This method also returns the size of the buffer, in bytes. This example uses a helper method, **WriteToAudioObjectBuffer**, to fill the buffer with audio data. This method is shown later in this article. After writing to the buffer, the example checks to see if the 5 second lifetime of the object has been reached, and if so, [**ISpatialAudioObject::SetEndOfStream**](ispatialaudioobject-setendofstream.md) is called to let the audio pipeline know that no more audio will be written using this object and the object is set to **nullptr** to free up its resources.
+Next, call [**ISpatialAudioObject::GetBuffer**](/windows/win32/spatialaudioclient/?branch=master) to get a pointer to the spatial audio object's audio buffer. This method also returns the size of the buffer, in bytes. This example uses a helper method, **WriteToAudioObjectBuffer**, to fill the buffer with audio data. This method is shown later in this article. After writing to the buffer, the example checks to see if the 5 second lifetime of the object has been reached, and if so, [**ISpatialAudioObject::SetEndOfStream**](/windows/win32/spatialaudioclient/?branch=master) is called to let the audio pipeline know that no more audio will be written using this object and the object is set to **nullptr** to free up its resources.
 
-After writing data to all of your audio objects, call [**ISpatialAudioObjectRenderStream::EndUpdatingAudioObjects**](ispatialaudioobjectrenderstream-endupdatingaudioobjects.md) to let the system know the data is ready for rendering. You can only call **GetBuffer** in between a call to **BeginUpdatingAudioObjects** and **EndUpdatingAudioObjects**.
+After writing data to all of your audio objects, call [**ISpatialAudioObjectRenderStream::EndUpdatingAudioObjects**](/windows/win32/spatialaudioclient/?branch=master) to let the system know the data is ready for rendering. You can only call **GetBuffer** in between a call to **BeginUpdatingAudioObjects** and **EndUpdatingAudioObjects**.
 
 
 ```C++
@@ -202,7 +207,7 @@ while (isRendering)
 
 
 
-When you are done rendering spatial audio, stop the spatial audio stream by calling [**ISpatialAudioObjectRenderStream::Stop**](ispatialaudioobjectrenderstream-stop.md). If you are not going to use the stream again, free its resources by calling [**ISpatialAudioObjectRenderStream::Reset**](ispatialaudioobjectrenderstream-reset.md).
+When you are done rendering spatial audio, stop the spatial audio stream by calling [**ISpatialAudioObjectRenderStream::Stop**](/windows/win32/spatialaudioclient/?branch=master). If you are not going to use the stream again, free its resources by calling [**ISpatialAudioObjectRenderStream::Reset**](/windows/win32/spatialaudioclient/?branch=master).
 
 
 ```C++
@@ -248,7 +253,7 @@ void WriteToAudioObjectBuffer(FLOAT* buffer, UINT frameCount, FLOAT frequency, U
 
 ## Render audio using dynamic spatial audio objects
 
-Dynamic objects allow you to render audio from an arbitrary position in space, relative to the user. The position and volume of a dynamic audio object can be changed over time. Games will typically use the position of a 3D object in the game world to specify the position of the dynamic audio object associated with it. The following example will use a simple structure, **My3dObject**, to store the minimum set of data needed to represent an object. This data includes a pointer to an [**ISpatialAudioObject**](ispatialaudioobject.md), the position, velocity, volume, and tone frequency for the object, and a value that stores the total number of frames for which the object should render sound.
+Dynamic objects allow you to render audio from an arbitrary position in space, relative to the user. The position and volume of a dynamic audio object can be changed over time. Games will typically use the position of a 3D object in the game world to specify the position of the dynamic audio object associated with it. The following example will use a simple structure, **My3dObject**, to store the minimum set of data needed to represent an object. This data includes a pointer to an [**ISpatialAudioObject**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject?branch=master), the position, velocity, volume, and tone frequency for the object, and a value that stores the total number of frames for which the object should render sound.
 
 
 ```C++
@@ -279,13 +284,13 @@ hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &amp;d
 
 
 
-Next, initialize the spatial audio stream. Get an instance of [**ISpatialAudioClient**](ispatialaudioclient.md) by calling [**IMMDevice::Activate**](immdevice-activate.md). Call [**ISpatialAudioClient::IsAudioObjectFormatSupported**](ispatialaudioclient-isaudioobjectformatsupported.md) to make sure that the audio format you are using is supported. Create an event that the audio pipeline will use to notify the app that it is ready for more audio data.
+Next, initialize the spatial audio stream. Get an instance of [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master) by calling [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master). Call [**ISpatialAudioClient::IsAudioObjectFormatSupported**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-isaudioobjectformatsupported?branch=master) to make sure that the audio format you are using is supported. Create an event that the audio pipeline will use to notify the app that it is ready for more audio data.
 
-Call [**ISpatialAudioClient::GetMaxDynamicObjectCount**](ispatialaudioclient-getmaxdynamicobjectcount.md) to retrieve the number of dynamic objects supported by the system. If this call returns 0, then dynamic spatial audio objects are not supported or enabled on the current device. For information on enabling spatial audio and for details on the number of dynamic audio objects available for different spatial audio formats, see [Spatial Sound](spatial-sound.md).
+Call [**ISpatialAudioClient::GetMaxDynamicObjectCount**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount?branch=master) to retrieve the number of dynamic objects supported by the system. If this call returns 0, then dynamic spatial audio objects are not supported or enabled on the current device. For information on enabling spatial audio and for details on the number of dynamic audio objects available for different spatial audio formats, see [Spatial Sound](spatial-sound.md).
 
-When populating the [**SpatialAudioObjectRenderStreamActivationParams**](spatialaudioobjectrenderstreamactivationparams-.md) structure, set the **MaxDynamicObjectCount** field to the maximum number of dynamic objects your app will use.
+When populating the [**SpatialAudioObjectRenderStreamActivationParams**](/windows/win32/spatialaudioclient/ns-spatialaudioclient-spatialaudioobjectrenderstreamactivationparams?branch=master) structure, set the **MaxDynamicObjectCount** field to the maximum number of dynamic objects your app will use.
 
-Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](ispatialaudioclient-activatespatialaudiostream.md) to activate the stream.
+Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream?branch=master) to activate the stream.
 
 
 ```C++
@@ -345,17 +350,17 @@ int spawnCounter = 0;
 
 
 
-Before entering the audio render loop, call [**ISpatialAudioObjectRenderStream::Start**](ispatialaudioobjectrenderstream-start.md) to instruct the media pipeline to begin requesting audio data.
+Before entering the audio render loop, call [**ISpatialAudioObjectRenderStream::Start**](/windows/win32/spatialaudioclient/?branch=master) to instruct the media pipeline to begin requesting audio data.
 
-Inside the render loop, wait for the buffer completion event we provided when the spatial audio stream was initialized to be signaled. You should set a reasonable timeout limit, like 100 ms, when waiting for the event because any change to the render type or endpoint will cause that event to never be signaled. In this case, you can call [**ISpatialAudioObjectRenderStream::Reset**](ispatialaudioobjectrenderstream-reset.md) to attempt to reset the spatial audio stream.
+Inside the render loop, wait for the buffer completion event we provided when the spatial audio stream was initialized to be signaled. You should set a reasonable timeout limit, like 100 ms, when waiting for the event because any change to the render type or endpoint will cause that event to never be signaled. In this case, you can call [**ISpatialAudioObjectRenderStream::Reset**](/windows/win32/spatialaudioclient/?branch=master) to attempt to reset the spatial audio stream.
 
-Next, call [**ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects**](ispatialaudioobjectrenderstream-beginupdatingaudioobjects.md) to let the system know that you are about to fill the audio objects' buffers with data. This method returns the number of available dynamic audio objects and the frame count of the buffer for audio objects rendered by this stream.
+Next, call [**ISpatialAudioObjectRenderStream::BeginUpdatingAudioObjects**](/windows/win32/spatialaudioclient/?branch=master) to let the system know that you are about to fill the audio objects' buffers with data. This method returns the number of available dynamic audio objects and the frame count of the buffer for audio objects rendered by this stream.
 
-Whenever the spawn counter reaches the specified value, we will activate a new dynamic audio object by calling [**ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject**](ispatialaudioobjectrenderstream-activatespatialaudioobject.md) specifying [**AudioObjectType\_Dynamic**](audioobjecttype.md). If all available dynamic audio objects have already been allocated, this method will return **SPLAUDCLNT\_E\_NO\_MORE\_OBJECTS**. In this case, you can choose to release one or more previously activated audio objects based on your app-specific prioritization. After the dynamic audio object has been created, it is added to a new **My3dObject** structure, with randomized position, velocity, volume, and frequency values, which is then added to the list of active objects.
+Whenever the spawn counter reaches the specified value, we will activate a new dynamic audio object by calling [**ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobjectrenderstream-activatespatialaudioobject?branch=master) specifying [**AudioObjectType\_Dynamic**](/windows/win32/spatialaudioclient/ne-spatialaudioclient-audioobjecttype?branch=master). If all available dynamic audio objects have already been allocated, this method will return **SPLAUDCLNT\_E\_NO\_MORE\_OBJECTS**. In this case, you can choose to release one or more previously activated audio objects based on your app-specific prioritization. After the dynamic audio object has been created, it is added to a new **My3dObject** structure, with randomized position, velocity, volume, and frequency values, which is then added to the list of active objects.
 
-Next, iterate over all of the active objects, represented in this example with the app-defined **My3dObject** structure. For each audio object, call [**ISpatialAudioObject::GetBuffer**](ispatialaudioobject-getbuffer.md) to get a pointer to the spatial audio object's audio buffer. This method also returns the size of the buffer, in bytes. The helper method, **WriteToAudioObjectBuffer**, to fill the buffer with audio data. After writing to the buffer, the example updates the position of the dynamic audio object by calling [**ISpatialAudioObject::SetPosition**](ispatialaudioobject-setposition.md). The volume of the audio object can also be modified by calling [**SetVolume**](ispatialaudioobject-setvolume.md). If you don't update the position or volume of the object, it will retain the position and volume from the last time it was set. If the object's app-defined lifetime has been reached, [**ISpatialAudioObject::SetEndOfStream**](ispatialaudioobject-setendofstream.md) is called to let the audio pipeline know that no more audio will be written using this object and the object is set to **nullptr** to free up its resources.
+Next, iterate over all of the active objects, represented in this example with the app-defined **My3dObject** structure. For each audio object, call [**ISpatialAudioObject::GetBuffer**](/windows/win32/spatialaudioclient/?branch=master) to get a pointer to the spatial audio object's audio buffer. This method also returns the size of the buffer, in bytes. The helper method, **WriteToAudioObjectBuffer**, to fill the buffer with audio data. After writing to the buffer, the example updates the position of the dynamic audio object by calling [**ISpatialAudioObject::SetPosition**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setposition?branch=master). The volume of the audio object can also be modified by calling [**SetVolume**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioobject-setvolume?branch=master). If you don't update the position or volume of the object, it will retain the position and volume from the last time it was set. If the object's app-defined lifetime has been reached, [**ISpatialAudioObject::SetEndOfStream**](/windows/win32/spatialaudioclient/?branch=master) is called to let the audio pipeline know that no more audio will be written using this object and the object is set to **nullptr** to free up its resources.
 
-After writing data to all of your audio objects, call [**ISpatialAudioObjectRenderStream::EndUpdatingAudioObjects**](ispatialaudioobjectrenderstream-endupdatingaudioobjects.md) to let the system know the data is ready for rendering. You can only call **GetBuffer** in between a call to **BeginUpdatingAudioObjects** and **EndUpdatingAudioObjects**.
+After writing data to all of your audio objects, call [**ISpatialAudioObjectRenderStream::EndUpdatingAudioObjects**](/windows/win32/spatialaudioclient/?branch=master) to let the system know the data is ready for rendering. You can only call **GetBuffer** in between a call to **BeginUpdatingAudioObjects** and **EndUpdatingAudioObjects**.
 
 
 ```C++
@@ -451,7 +456,7 @@ do
 
 
 
-When you are done rendering spatial audio, stop the spatial audio stream by calling [**ISpatialAudioObjectRenderStream::Stop**](ispatialaudioobjectrenderstream-stop.md). If you are not going to use the stream again, free its resources by calling [**ISpatialAudioObjectRenderStream::Reset**](ispatialaudioobjectrenderstream-reset.md).
+When you are done rendering spatial audio, stop the spatial audio stream by calling [**ISpatialAudioObjectRenderStream::Stop**](/windows/win32/spatialaudioclient/?branch=master). If you are not going to use the stream again, free its resources by calling [**ISpatialAudioObjectRenderStream::Reset**](/windows/win32/spatialaudioclient/?branch=master).
 
 
 ```C++
@@ -468,11 +473,11 @@ CloseHandle(bufferCompletionEvent);
 
 ## Render audio using dynamic spatial audio objects for HRTF
 
-Another set of APIs, [**ISpatialAudioRenderStreamForHrtf**](ispatialaudiorenderstreamforhrtf.md) and [**ISpatialAudioObjectForHrtf**](ispatialaudioobjectforhrtf.md), enable spatial audio that uses Microsoft's Head-relative Transfer Function (HRTF) to attenuate sounds to simulate the emitter's position in space, relative to the user, which can be changed over time. In addition to position, HRTF audio objects allow you to specify an orientation in space, a directivity in which sound is emitted, such as a cone or cardioid shape, and a decay model as the object moves nearer and further from the virtual listener. Note that these HRTF interfaces are only available when the user has selected Windows Sonic for Headphones as the spatial audio engine for the device. For information on configuring a device to use Windows Sonic for Headphones, see [Spatial Sound](spatial-sound.md).
+Another set of APIs, [**ISpatialAudioRenderStreamForHrtf**](/windows/win32/spatialaudiohrtf/?branch=master) and [**ISpatialAudioObjectForHrtf**](/windows/win32/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf?branch=master), enable spatial audio that uses Microsoft's Head-relative Transfer Function (HRTF) to attenuate sounds to simulate the emitter's position in space, relative to the user, which can be changed over time. In addition to position, HRTF audio objects allow you to specify an orientation in space, a directivity in which sound is emitted, such as a cone or cardioid shape, and a decay model as the object moves nearer and further from the virtual listener. Note that these HRTF interfaces are only available when the user has selected Windows Sonic for Headphones as the spatial audio engine for the device. For information on configuring a device to use Windows Sonic for Headphones, see [Spatial Sound](spatial-sound.md).
 
-The [**ISpatialAudioRenderStreamForHrtf**](ispatialaudiorenderstreamforhrtf.md) and [**ISpatialAudioObjectForHrtf**](ispatialaudioobjectforhrtf.md) APIs allow an application to explicitly use the Windows Sonic for Headphones render path directly. These APIs do not support spatial sound formats such as Dolby Atmos for Home Theater or Dolby Atmos for Headphones, nor consumer-controlled output format switching via the **Sound** control panel, nor playback over speakers. These interfaces are intended for use in Windows Mixed Reality applications that want to use Windows Sonic for Headphones-specific capabilities (such as environmental presets and distance-based rolloff specified programmatically, outside of typical content authoring pipelines). Most games and virtual reality scenarios will prefer to use [**ISpatialAudioClient**](ispatialaudioclient.md) instead. The implementation steps for both API sets are almost identical, so it is possible to implement both technologies and switch at runtime depending on which feature is available on the current device.
+The [**ISpatialAudioRenderStreamForHrtf**](/windows/win32/spatialaudiohrtf/?branch=master) and [**ISpatialAudioObjectForHrtf**](/windows/win32/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf?branch=master) APIs allow an application to explicitly use the Windows Sonic for Headphones render path directly. These APIs do not support spatial sound formats such as Dolby Atmos for Home Theater or Dolby Atmos for Headphones, nor consumer-controlled output format switching via the **Sound** control panel, nor playback over speakers. These interfaces are intended for use in Windows Mixed Reality applications that want to use Windows Sonic for Headphones-specific capabilities (such as environmental presets and distance-based rolloff specified programmatically, outside of typical content authoring pipelines). Most games and virtual reality scenarios will prefer to use [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master) instead. The implementation steps for both API sets are almost identical, so it is possible to implement both technologies and switch at runtime depending on which feature is available on the current device.
 
-Mixed-reality apps will typically use the position of a 3D object in the virtual world to specify the position of the dynamic audio object associated with it. The following example will use a simple structure, **My3dObjectForHrtf**, to store the minimum set of data needed to represent an object. This data includes a pointer to an [**ISpatialAudioObjectForHrtf**](ispatialaudioobjectforhrtf.md), the position, orientation, velocity, and tone frequency for the object, and a value that stores the total number of frames for which the object should render sound.
+Mixed-reality apps will typically use the position of a 3D object in the virtual world to specify the position of the dynamic audio object associated with it. The following example will use a simple structure, **My3dObjectForHrtf**, to store the minimum set of data needed to represent an object. This data includes a pointer to an [**ISpatialAudioObjectForHrtf**](/windows/win32/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf?branch=master), the position, orientation, velocity, and tone frequency for the object, and a value that stores the total number of frames for which the object should render sound.
 
 
 ```C++
@@ -504,13 +509,13 @@ hr = deviceEnum->GetDefaultAudioEndpoint(EDataFlow::eRender, eMultimedia, &amp;d
 
 
 
-Next, initialize the spatial audio stream. Get an instance of [**ISpatialAudioClient**](ispatialaudioclient.md) by calling [**IMMDevice::Activate**](immdevice-activate.md). Call [**ISpatialAudioClient::IsAudioObjectFormatSupported**](ispatialaudioclient-isaudioobjectformatsupported.md) to make sure that the audio format you are using is supported. Create an event that the audio pipeline will use to notify the app that it is ready for more audio data.
+Next, initialize the spatial audio stream. Get an instance of [**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master) by calling [**IMMDevice::Activate**](/windows/win32/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate?branch=master). Call [**ISpatialAudioClient::IsAudioObjectFormatSupported**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-isaudioobjectformatsupported?branch=master) to make sure that the audio format you are using is supported. Create an event that the audio pipeline will use to notify the app that it is ready for more audio data.
 
-Call [**ISpatialAudioClient::GetMaxDynamicObjectCount**](ispatialaudioclient-getmaxdynamicobjectcount.md) to retrieve the number of dynamic objects supported by the system. If this call returns 0, then dynamic spatial audio objects are not supported or enabled on the current device. For information on enabling spatial audio and for details on the number of dynamic audio objects available for different spatial audio formats, see [Spatial Sound](spatial-sound.md).
+Call [**ISpatialAudioClient::GetMaxDynamicObjectCount**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-getmaxdynamicobjectcount?branch=master) to retrieve the number of dynamic objects supported by the system. If this call returns 0, then dynamic spatial audio objects are not supported or enabled on the current device. For information on enabling spatial audio and for details on the number of dynamic audio objects available for different spatial audio formats, see [Spatial Sound](spatial-sound.md).
 
-When populating the [**SpatialAudioHrtfActivationParams**](spatialaudiohrtfactivationparams.md) structure, set the **MaxDynamicObjectCount** field to the maximum number of dynamic objects your app will use. The activation params for HRTF supports a few additional parameters, such as a [**SpatialAudioHrtfDistanceDecay**](spatialaudiohrtfdistancedecay.md), a [**SpatialAudioHrtfDirectivityUnion**](spatialaudiohrtfdirectivityunion.md), a [**SpatialAudioHrtfEnvironmentType**](spatialaudiohrtfenvironmenttype.md), and a [**SpatialAudioHrtfOrientation**](spatialaudiohrtforientation.md), which specify the default values of these settings for new objects created from the stream. These parameters are optional. Set the fields to **nullptr** to provide no default values.
+When populating the [**SpatialAudioHrtfActivationParams**](/windows/win32/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfactivationparams?branch=master) structure, set the **MaxDynamicObjectCount** field to the maximum number of dynamic objects your app will use. The activation params for HRTF supports a few additional parameters, such as a [**SpatialAudioHrtfDistanceDecay**](/windows/win32/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdistancedecay?branch=master), a [**SpatialAudioHrtfDirectivityUnion**](/windows/win32/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdirectivityunion?branch=master), a [**SpatialAudioHrtfEnvironmentType**](/windows/win32/spatialaudiohrtf/ne-spatialaudiohrtf-spatialaudiohrtfenvironmenttype?branch=master), and a [**SpatialAudioHrtfOrientation**](spatialaudiohrtforientation.md), which specify the default values of these settings for new objects created from the stream. These parameters are optional. Set the fields to **nullptr** to provide no default values.
 
-Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](ispatialaudioclient-activatespatialaudiostream.md) to activate the stream.
+Call [**ISpatialAudioClient::ActivateSpatialAudioStream**](/windows/win32/spatialaudioclient/nf-spatialaudioclient-ispatialaudioclient-activatespatialaudiostream?branch=master) to activate the stream.
 
 
 ```C++
@@ -595,17 +600,17 @@ int spawnCounter = 0;
 
 
 
-Before entering the audio render loop, call [**ISpatialAudioObjectRenderStreamForHrtf::Start**](ispatialaudiorenderstreamforhrtf-start.md) to instruct the media pipeline to begin requesting audio data.
+Before entering the audio render loop, call [**ISpatialAudioObjectRenderStreamForHrtf::Start**](/windows/win32/spatialaudiohrtf/?branch=master) to instruct the media pipeline to begin requesting audio data.
 
-Inside the render loop, wait for the buffer completion event we provided when the spatial audio stream was initialized to be signaled. You should set a reasonable timeout limit, like 100 ms, when waiting for the event because any change to the render type or endpoint will cause that event to never be signaled. In this case, you can call [**ISpatialAudioRenderStreamForHrtf::Reset**](ispatialaudiorenderstreamforhrtf-reset.md) to attempt to reset the spatial audio stream.
+Inside the render loop, wait for the buffer completion event we provided when the spatial audio stream was initialized to be signaled. You should set a reasonable timeout limit, like 100 ms, when waiting for the event because any change to the render type or endpoint will cause that event to never be signaled. In this case, you can call [**ISpatialAudioRenderStreamForHrtf::Reset**](/windows/win32/spatialaudiohrtf/?branch=master) to attempt to reset the spatial audio stream.
 
-Next, call [**ISpatialAudioRenderStreamForHrtf::BeginUpdatingAudioObjects**](ispatialaudiorenderstreamforhrtf-beginupdatingaudioobjects.md) to let the system know that you are about to fill the audio objects' buffers with data. This method returns the number of available dynamic audio objects, not used in this example, and the frame count of the buffer for audio objects rendered by this stream.
+Next, call [**ISpatialAudioRenderStreamForHrtf::BeginUpdatingAudioObjects**](/windows/win32/spatialaudiohrtf/?branch=master) to let the system know that you are about to fill the audio objects' buffers with data. This method returns the number of available dynamic audio objects, not used in this example, and the frame count of the buffer for audio objects rendered by this stream.
 
-Whenever the spawn counter reaches the specified value, we will activate a new dynamic audio object by calling [**ISpatialAudioRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf**](ispatialaudiorenderstreamforhrtf-activatespatialaudioobjectforhrtf.md) specifying [**AudioObjectType\_Dynamic**](audioobjecttype.md). If all available dynamic audio objects have already been allocated, this method will return **SPLAUDCLNT\_E\_NO\_MORE\_OBJECTS**. In this case, you can choose to release one or more previously activated audio objects based on your app-specific prioritization. After the dynamic audio object has been created, it is added to a new **My3dObjectForHrtf** structure, with randomized position, rotation, velocity, volume, and frequency values, which is then added to the list of active objects.
+Whenever the spawn counter reaches the specified value, we will activate a new dynamic audio object by calling [**ISpatialAudioRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf**](/windows/win32/spatialaudiohrtf/?branch=master) specifying [**AudioObjectType\_Dynamic**](/windows/win32/spatialaudioclient/ne-spatialaudioclient-audioobjecttype?branch=master). If all available dynamic audio objects have already been allocated, this method will return **SPLAUDCLNT\_E\_NO\_MORE\_OBJECTS**. In this case, you can choose to release one or more previously activated audio objects based on your app-specific prioritization. After the dynamic audio object has been created, it is added to a new **My3dObjectForHrtf** structure, with randomized position, rotation, velocity, volume, and frequency values, which is then added to the list of active objects.
 
-Next, iterate over all of the active objects, represented in this example with the app-defined **My3dObjectForHrtf** structure. For each audio object, call [**ISpatialAudioObjectForHrtf::GetBuffer**](ispatialaudioobjectforhrtf-getbuffer.md) to get a pointer to the spatial audio object's audio buffer. This method also returns the size of the buffer, in bytes. The helper method, **WriteToAudioObjectBuffer**, listed previously in this article, to fill the buffer with audio data. After writing to the buffer, the example updates the position and orientation of the HRTF audio object by calling [**ISpatialAudioObjectForHrtf::SetPosition**](ispatialaudioobjectforhrtf-setposition.md) and [**ISpatialAudioObjectForHrtf::SetOrientation**](ispatialaudioobjectforhrtf-setorientation.md). In this example, a helper method, **CalculateEmitterConeOrientationMatrix**, is used to calculate the orientation matrix given the direction the 3D object is pointing. The implementation of this method is shown below. The volume of the audio object can also be modified by calling [**ISpatialAudioObjectForHrtf::SetGain**](ispatialaudioobjectforhrtf-setgain.md). If you don't update the position, orientation, or volume of the object, it will retain the position, orientation, and volume from the last time it was set. If the object's app-defined lifetime has been reached, [**ISpatialAudioObjectForHrtf::SetEndOfStream**](ispatialaudioobjectforhrtf-setendofstream.md) is called to let the audio pipeline know that no more audio will be written using this object and the object is set to **nullptr** to free up its resources.
+Next, iterate over all of the active objects, represented in this example with the app-defined **My3dObjectForHrtf** structure. For each audio object, call [**ISpatialAudioObjectForHrtf::GetBuffer**](/windows/win32/spatialaudiohrtf/?branch=master) to get a pointer to the spatial audio object's audio buffer. This method also returns the size of the buffer, in bytes. The helper method, **WriteToAudioObjectBuffer**, listed previously in this article, to fill the buffer with audio data. After writing to the buffer, the example updates the position and orientation of the HRTF audio object by calling [**ISpatialAudioObjectForHrtf::SetPosition**](/windows/win32/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setposition?branch=master) and [**ISpatialAudioObjectForHrtf::SetOrientation**](/windows/win32/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setorientation?branch=master). In this example, a helper method, **CalculateEmitterConeOrientationMatrix**, is used to calculate the orientation matrix given the direction the 3D object is pointing. The implementation of this method is shown below. The volume of the audio object can also be modified by calling [**ISpatialAudioObjectForHrtf::SetGain**](/windows/win32/spatialaudiohrtf/nf-spatialaudiohrtf-ispatialaudioobjectforhrtf-setgain?branch=master). If you don't update the position, orientation, or volume of the object, it will retain the position, orientation, and volume from the last time it was set. If the object's app-defined lifetime has been reached, [**ISpatialAudioObjectForHrtf::SetEndOfStream**](/windows/win32/spatialaudiohrtf/?branch=master) is called to let the audio pipeline know that no more audio will be written using this object and the object is set to **nullptr** to free up its resources.
 
-After writing data to all of your audio objects, call [**ISpatialAudioRenderStreamForHrtf::EndUpdatingAudioObjects**](ispatialaudiorenderstreamforhrtf-endupdatingaudioobjects.md) to let the system know the data is ready for rendering. You can only call **GetBuffer** in between a call to **BeginUpdatingAudioObjects** and **EndUpdatingAudioObjects**.
+After writing data to all of your audio objects, call [**ISpatialAudioRenderStreamForHrtf::EndUpdatingAudioObjects**](/windows/win32/spatialaudiohrtf/?branch=master) to let the system know the data is ready for rendering. You can only call **GetBuffer** in between a call to **BeginUpdatingAudioObjects** and **EndUpdatingAudioObjects**.
 
 
 ```C++
@@ -718,7 +723,7 @@ do
 
 
 
-When you are done rendering spatial audio, stop the spatial audio stream by calling [**ISpatialAudioRenderStreamForHrtf::Stop**](ispatialaudiorenderstreamforhrtf-stop.md). If you are not going to use the stream again, free its resources by calling [**ISpatialAudioRenderStreamForHrtf::Reset**](ispatialaudiorenderstreamforhrtf-reset.md).
+When you are done rendering spatial audio, stop the spatial audio stream by calling [**ISpatialAudioRenderStreamForHrtf::Stop**](/windows/win32/spatialaudiohrtf/?branch=master). If you are not going to use the stream again, free its resources by calling [**ISpatialAudioRenderStreamForHrtf::Reset**](/windows/win32/spatialaudiohrtf/?branch=master).
 
 
 ```C++
@@ -792,10 +797,10 @@ DirectX::XMMATRIX CalculateEmitterConeOrientationMatrix(Windows::Foundation::Num
 [Spatial Sound](spatial-sound.md)
 </dt> <dt>
 
-[**ISpatialAudioClient**](ispatialaudioclient.md)
+[**ISpatialAudioClient**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient?branch=master)
 </dt> <dt>
 
-[**ISpatialAudioObject**](ispatialaudioobject.md)
+[**ISpatialAudioObject**](/windows/win32/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobject?branch=master)
 </dt> </dl>
 
  

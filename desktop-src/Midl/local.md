@@ -2,13 +2,19 @@
 title: local attribute
 description: The \ local\ attribute specifies to the MIDL compiler that an interface or function is not remote.
 ms.assetid: 17ad3d87-4ca4-4e9b-91bc-280c03830f54
-keywords: ["local attribute MIDL"]
+keywords:
+- local attribute MIDL
 topic_type:
 - apiref
 api_name:
 - local
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # local attribute

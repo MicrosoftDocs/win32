@@ -4,10 +4,13 @@ description: In the example provider component, a code example showing memory al
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'dc5b3559-02fc-45e8-bbd0-482e4e3a7f8a'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: dc5b3559-02fc-45e8-bbd0-482e4e3a7f8a
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MEMORY.CPP

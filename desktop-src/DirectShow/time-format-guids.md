@@ -1,7 +1,12 @@
-﻿---
-Description: 'The following globally unique identifiers (GUIDs) define different time formats.'
-ms.assetid: '1622c5bb-94f7-4bbb-8564-d7180b37c910'
+---
+Description: The following globally unique identifiers (GUIDs) define different time formats.
+ms.assetid: 1622c5bb-94f7-4bbb-8564-d7180b37c910
 title: Time Format GUIDs
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Time Format GUIDs
@@ -38,7 +43,7 @@ The following globally unique identifiers (GUIDs) define different time formats.
 [Constants and GUIDs](constants-and-guids.md)
 </dt> <dt>
 
-[**IMediaSeeking**](imediaseeking.md)
+[**IMediaSeeking**](/windows/win32/Strmif/nn-strmif-imediaseeking?branch=master)
 </dt> </dl>
 
  

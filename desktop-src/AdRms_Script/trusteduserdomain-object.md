@@ -1,13 +1,16 @@
 ---
-Description: 'Represents a trusted user domain associated with an AD RMS installation in a different Active Directory forest.'
+Description: Represents a trusted user domain associated with an AD RMS installation in a different Active Directory forest.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\mbaldwin'
-ms.assetid: 'd445cb49-65b5-47e8-8776-46ebb0c37972'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+author: REDMOND\\markl
+manager: REDMOND\\mbaldwin
+ms.assetid: d445cb49-65b5-47e8-8776-46ebb0c37972
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
 title: TrustedUserDomain object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
 ---
 
 # TrustedUserDomain object
@@ -38,7 +41,7 @@ The **TrustedUserDomain** object has these properties.
 
 
 
- 
+ 
 
 ## Examples
 
@@ -149,7 +152,7 @@ END SUB
 |                                     |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                                          |
 | Assembly<br/>                 | <dl> <dt>Microsoft.RightsManagementServices.Admin.dll</dt> </dl> |
 
 
@@ -161,9 +164,9 @@ END SUB
 [Active Directory Rights Management Services Scripting API Reference](active-directory-rights-management-services-scripting-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

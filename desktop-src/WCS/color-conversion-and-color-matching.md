@@ -1,8 +1,35 @@
 ---
 title: Color Conversion and Color Matching
 description: The process of converting colors from one color space to another is called color conversion.
-ms.assetid: '52f68779-d4d6-4f1e-88a4-f872e9e90054'
-keywords: ["Windows Color System (WCS),color conversion", "WCS (Windows Color System),color conversion", "image color management,color conversion", "color management,color conversion", "colors,color conversion", "color conversion", "Windows Color System (WCS),color matching", "WCS (Windows Color System),color matching", "image color management,color matching", "color management,color matching", "colors,color matching", "color matching", "Windows Color System (WCS),color mapping", "WCS (Windows Color System),color mapping", "image color management,color mapping", "color management,color mapping", "colors,color mapping", "color mapping", "white point", "colorants", "gamma correction", "gamut"]
+ms.assetid: 52f68779-d4d6-4f1e-88a4-f872e9e90054
+keywords:
+- Windows Color System (WCS),color conversion
+- WCS (Windows Color System),color conversion
+- image color management,color conversion
+- color management,color conversion
+- colors,color conversion
+- color conversion
+- Windows Color System (WCS),color matching
+- WCS (Windows Color System),color matching
+- image color management,color matching
+- color management,color matching
+- colors,color matching
+- color matching
+- Windows Color System (WCS),color mapping
+- WCS (Windows Color System),color mapping
+- image color management,color mapping
+- color management,color mapping
+- colors,color mapping
+- color mapping
+- white point
+- colorants
+- gamma correction
+- gamut
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Color Conversion and Color Matching

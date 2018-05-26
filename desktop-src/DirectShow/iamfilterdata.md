@@ -1,13 +1,18 @@
-﻿---
-Description: 'Note  This interface has been deprecated.'
-ms.assetid: 'd9800850-b0ee-44f7-bcb4-f2bac8d17693'
+---
+Description: Note  This interface has been deprecated.
+ms.assetid: d9800850-b0ee-44f7-bcb4-f2bac8d17693
 title: IAMFilterData interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMFilterData interface
 
 > [!Note]  
-> This interface has been deprecated. New applications should use the [**IFilterMapper2**](ifiltermapper2.md) interface instead.
+> This interface has been deprecated. New applications should use the [**IFilterMapper2**](/windows/win32/Strmif/nn-strmif-ifiltermapper2?branch=master) interface instead.
 
  
 

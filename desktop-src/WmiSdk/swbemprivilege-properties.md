@@ -1,13 +1,16 @@
 ---
-Description: 'The SWbemPrivilege object exposes the following properties.'
+Description: The SWbemPrivilege object exposes the following properties.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '54A9F9B1-253D-49EE-803E-8383B50614F6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 54A9F9B1-253D-49EE-803E-8383B50614F6
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: SWbemPrivilege Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPrivilege Properties

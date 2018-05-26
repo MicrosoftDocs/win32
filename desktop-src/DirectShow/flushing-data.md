@@ -1,12 +1,17 @@
 ---
 Description: Flushing Data
-ms.assetid: '528763a2-c0f2-4981-91dc-dd17987f5bd5'
+ms.assetid: 528763a2-c0f2-4981-91dc-dd17987f5bd5
 title: Flushing Data
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Flushing Data
 
-The following pseudocode shows how to implement the [**IPin::BeginFlush**](ipin-beginflush.md) method:
+The following pseudocode shows how to implement the [**IPin::BeginFlush**](/windows/win32/Strmif/nf-strmif-ipin-beginflush?branch=master) method:
 
 
 ```C++

@@ -1,14 +1,20 @@
 ---
 title: ProviderURL Attribute
 description: The ProviderURL attribute is the address of the home page of the provider of the attribute values.
-ms.assetid: '6ff250d3-6b55-488f-8e4c-366114973c43'
-keywords: ["ProviderURL Attribute Windows Media Player"]
+ms.assetid: 6ff250d3-6b55-488f-8e4c-366114973c43
+keywords:
+- ProviderURL Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - ProviderURL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ProviderURL Attribute
@@ -43,9 +49,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

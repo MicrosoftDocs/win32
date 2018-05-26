@@ -1,7 +1,12 @@
 ---
 title: Develop Universal Windows Platform (UWP) apps
 description: Develop Universal Windows Platform (UWP) apps
-ms.assetid: '215256D7-CBBA-43B0-A99C-490A25D1F82C'
+ms.assetid: 215256D7-CBBA-43B0-A99C-490A25D1F82C
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Develop Universal Windows Platform (UWP) apps

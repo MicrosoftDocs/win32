@@ -4,10 +4,13 @@ description: This topic introduces you to important scenarios and code elements 
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '0F7714CA-1D3E-4846-B187-739825B7DE26'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 0F7714CA-1D3E-4846-B187-739825B7DE26
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Linux code examples

@@ -4,11 +4,14 @@ description: The Get3QuarterLightRGB method derives a \ 0034;lighter \ 0034; col
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bbbb01a3-a2b8-4aad-a169-27ceaf0e300e'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: bbbb01a3-a2b8-4aad-a169-27ceaf0e300e
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Get3QuarterLightRGB method MMC", "Get3QuarterLightRGB method MMC , SysColorCtrl class", "SysColorCtrl class MMC , Get3QuarterLightRGB method"]
+keywords:
+- Get3QuarterLightRGB method MMC
+- Get3QuarterLightRGB method MMC , SysColorCtrl class
+- SysColorCtrl class MMC , Get3QuarterLightRGB method
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - Cic.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SysColorCtrl.Get3QuarterLightRGB method
@@ -101,9 +107,9 @@ An integer that is the RGB value for the derived color specified by the method's
 
 
 
- 
+ 
 
- 
+ 
 
 
 

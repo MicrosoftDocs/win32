@@ -4,20 +4,25 @@ description: FSRM uses the Task Scheduler to schedule reports to run.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7994bf40-cc9d-4519-a0d4-d48d7ec10fda'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: 7994bf40-cc9d-4519-a0d4-d48d7ec10fda
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , scheduling a report job", "reports File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , scheduling a report job
+- reports File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Scheduling a Report Job
 
 FSRM uses the [Task Scheduler](https://msdn.microsoft.com/library/windows/desktop/aa383614) to schedule reports to run. To schedule a report job, use the [Task Scheduler](https://msdn.microsoft.com/library/windows/desktop/aa383614) v2.0 interfaces to define the scheduled task, however, the task definition must be v1.0 compatible. (Use the Task Scheduler API to define the task but not to register the task — FSRM will register the task.)
 
-After defining the task, access the [**ITaskDefinition::XmlText**](https://msdn.microsoft.com/library/windows/desktop/aa381327) property to get the XML. Pass the XML string to the [**IFsrmReportScheduler::CreateScheduleTask**](ifsrmreportscheduler-createscheduletask.md) method, which creates the Task Scheduler task.
+After defining the task, access the [**ITaskDefinition::XmlText**](https://msdn.microsoft.com/library/windows/desktop/aa381327) property to get the XML. Pass the XML string to the [**IFsrmReportScheduler::CreateScheduleTask**](/windows/previous-versions/FsrmReports/nf-fsrmreports-ifsrmreportscheduler-createscheduletask?branch=master) method, which creates the Task Scheduler task.
 
-The following XML shows the definition of a valid Task Scheduler task that runs every Friday at 5:00 AM. The XML is passed to the example shown later. The version attribute on the Task element indicates that the task is v1.0 compatible. Also, note that the **UserId** element must specify SYSTEM and the /Task argument switch must specify the same name that is specified for the [**IFsrmReportJob::Task**](ifsrmreportjob-task.md) property.
+The following XML shows the definition of a valid Task Scheduler task that runs every Friday at 5:00 AM. The XML is passed to the example shown later. The version attribute on the Task element indicates that the task is v1.0 compatible. Also, note that the **UserId** element must specify SYSTEM and the /Task argument switch must specify the same name that is specified for the [**IFsrmReportJob::Task**](/windows/previous-versions/FsrmReports/nf-fsrmreports-ifsrmreportjob-get_task?branch=master) property.
 
 
 ```XML

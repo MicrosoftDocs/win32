@@ -1,7 +1,12 @@
 ---
-Description: 'The lines of a listview are not treated as individual controls, but they are part of a listview that functions as a control. The ListView table defines the values for all listviews.'
-ms.assetid: '0da4eab9-cabc-4bcc-8267-4aa1cd79e78b'
+Description: The lines of a listview are not treated as individual controls, but they are part of a listview that functions as a control. The ListView table defines the values for all listviews.
+ms.assetid: 0da4eab9-cabc-4bcc-8267-4aa1cd79e78b
 title: ListView Table
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ListView Table
@@ -65,7 +70,7 @@ The image data for the icon. This is a foreign key to the [Binary table](binary-
 
 ## Remarks
 
-The contents of the Value and Text fields are formatted by the [**MsiFormatRecord**](msiformatrecord.md) function when the control is created, therefore they can contain any expression that the MsiFormatRecord function can interpret. The formatting occurs only when the control is created, and it is not updated if a property involved in the expression is modified during the life of the control.
+The contents of the Value and Text fields are formatted by the [**MsiFormatRecord**](/windows/win32/Msiquery/nf-msiquery-msiformatrecorda?branch=master) function when the control is created, therefore they can contain any expression that the MsiFormatRecord function can interpret. The formatting occurs only when the control is created, and it is not updated if a property involved in the expression is modified during the life of the control.
 
 ## Validation
 

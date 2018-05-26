@@ -1,7 +1,12 @@
 ---
 title: PeapServerUseAllPurposeCert
 description: The PeapServerUseAllPurposeCert registry key determines if all-purpose certificates are used for PEAP authentication.
-ms.assetid: 'e239fb88-4bf3-49b6-a95c-67a8c060a50d'
+ms.assetid: e239fb88-4bf3-49b6-a95c-67a8c060a50d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PeapServerUseAllPurposeCert

@@ -1,8 +1,9 @@
 ---
 title: vmFloppyDriveEvent enumeration
 description: Specifies the floppy drive events.
-ms.assetid: '31d0c748-609a-4e03-8b5c-0a17a2587242'
-keywords: ["vmFloppyDriveEvent enumeration Virtual PC"]
+ms.assetid: 31d0c748-609a-4e03-8b5c-0a17a2587242
+keywords:
+- vmFloppyDriveEvent enumeration Virtual PC
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # vmFloppyDriveEvent enumeration
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Specifies the floppy drive events.
 
@@ -24,8 +30,8 @@ Specifies the floppy drive events.
 
 ```C++
 typedef enum  { 
-  vmFloppyDriveEvent_OnInsert  = 1,
-  vmFloppyDriveEvent_OnEject   = 2
+  vmFloppyDriveEvent_OnInsert  = 1,
+  vmFloppyDriveEvent_OnEject   = 2
 } vmFloppyDriveEvent;
 ```
 
@@ -55,9 +61,9 @@ Media has been ejected.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 
@@ -70,9 +76,9 @@ Media has been ejected.
 [**IVMFloppyDriveEvents**](ivmfloppydriveevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

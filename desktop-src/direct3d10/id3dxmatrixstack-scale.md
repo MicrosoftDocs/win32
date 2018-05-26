@@ -1,7 +1,12 @@
-﻿---
-Description: 'Scale the current matrix about the world coordinate origin.'
-ms.assetid: 'd0f4b341-b3b6-42e4-84df-78f203c3728e'
-title: 'ID3DXMATRIXStack::Scale method'
+---
+Description: Scale the current matrix about the world coordinate origin.
+ms.assetid: d0f4b341-b3b6-42e4-84df-78f203c3728e
+title: ID3DXMATRIXStackScale method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXMATRIXStack::Scale method

@@ -4,17 +4,22 @@ description: The valid values for a WMI 64-bit integer parameter object.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '89afa7ab-2fbc-4846-ae24-12a4f372f469'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: 89afa7ab-2fbc-4846-ae24-12a4f372f469
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["ms-WMI-int8ValidValues attribute AD Schema", "msWMI-Int8ValidValues attribute AD Schema"]
+keywords:
+- ms-WMI-int8ValidValues attribute AD Schema
+- msWMI-Int8ValidValues attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - ms-WMI-int8ValidValues
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ms-WMI-int8ValidValues attribute

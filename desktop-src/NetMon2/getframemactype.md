@@ -1,7 +1,12 @@
 ---
-Description: 'The GetFrameMacType function returns the MAC type of the frame.'
-ms.assetid: '8d3da770-1392-4638-a267-32c2dae289b0'
+Description: The GetFrameMacType function returns the MAC type of the frame.
+ms.assetid: 8d3da770-1392-4638-a267-32c2dae289b0
 title: GetFrameMacType function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetFrameMacType function
@@ -13,7 +18,7 @@ The **GetFrameMacType** function returns the MAC type of the frame.
 
 ```C++
 DWORD WINAPI GetFrameMacType(
-  _In_ HFRAME hFrame
+  _In_ HFRAME hFrame
 );
 ```
 
@@ -49,17 +54,17 @@ The function returns the MAC type of the frame, which can have one of the follow
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Netmon.h</dt> </dl>  |
 | Library<br/>                  | <dl> <dt>Nmapi.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Nmapi.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: WPDDeviceInspector Automation Profiles
 description: The WPDDeviceInspector tool is a console application. It generates a comprehensive HTML report that describes the capabilities and content of a device. This application is available in the Windows Driver Kit for Windows 7.
-ms.assetid: 'f83ed2dc-93da-4e10-ab73-86d12f8f037a'
+ms.assetid: f83ed2dc-93da-4e10-ab73-86d12f8f037a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPDDeviceInspector Automation Profiles

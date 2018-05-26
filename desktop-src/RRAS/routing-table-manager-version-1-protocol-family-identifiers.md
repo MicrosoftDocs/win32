@@ -1,8 +1,15 @@
 ---
 title: Routing Table Manager Version 1 Protocol Family Identifiers
 description: The following transport identifiers are listed in Rtm.h. Use these identifiers with the RTMv1 API.
-ms.assetid: 'd4e122e0-eede-4f54-9848-74909fd23574'
-keywords: ["Routing and Remote Access Service RRAS ,Routing Table Manager Version 1,protocol family identifiers", "Routing Table Manager Version 1 RRAS ,protocol family identifiers"]
+ms.assetid: d4e122e0-eede-4f54-9848-74909fd23574
+keywords:
+- Routing and Remote Access Service RRAS ,Routing Table Manager Version 1,protocol family identifiers
+- Routing Table Manager Version 1 RRAS ,protocol family identifiers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Routing Table Manager Version 1 Protocol Family Identifiers

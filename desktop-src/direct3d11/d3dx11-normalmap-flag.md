@@ -1,8 +1,10 @@
 ---
 title: D3DX11\_NORMALMAP\_FLAG enumeration
-description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Normal map options. You can combine any number of these flags by using a bitwise OR operation.
-ms.assetid: 'cc9c8a54-be1e-4594-8274-9955562a6fa8'
-keywords: ["D3DX11_NORMALMAP_FLAG enumeration Direct3D 11", "LPD3DX11_NORMALMAP_FLAG enumeration pointer Direct3D 11"]
+description: Note The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. Normal map options. You can combine any number of these flags by using a bitwise OR operation.
+ms.assetid: cc9c8a54-be1e-4594-8274-9955562a6fa8
+keywords:
+- D3DX11_NORMALMAP_FLAG enumeration Direct3D 11
+- LPD3DX11_NORMALMAP_FLAG enumeration pointer Direct3D 11
 topic_type:
 - apiref
 api_name:
@@ -11,14 +13,19 @@ api_location:
 - D3DX11tex.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DX11\_NORMALMAP\_FLAG enumeration
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
 
- 
+ 
 
 Normal map options. You can combine any number of these flags by using a bitwise OR operation.
 
@@ -27,11 +34,11 @@ Normal map options. You can combine any number of these flags by using a bitwise
 
 ```C++
 typedef enum D3DX11_NORMALMAP_FLAG { 
-  D3DX11_NORMALMAP_MIRROR_U           = (1 << 16),
-  D3DX11_NORMALMAP_MIRROR_V           = (2 << 16),
-  D3DX11_NORMALMAP_MIRROR             = (3 << 16),
-  D3DX11_NORMALMAP_INVERTSIGN         = (8 << 16),
-  D3DX11_NORMALMAP_COMPUTE_OCCLUSION  = (16 << 16)
+  D3DX11_NORMALMAP_MIRROR_U           = (1 << 16),
+  D3DX11_NORMALMAP_MIRROR_V           = (2 << 16),
+  D3DX11_NORMALMAP_MIRROR             = (3 << 16),
+  D3DX11_NORMALMAP_INVERTSIGN         = (8 << 16),
+  D3DX11_NORMALMAP_COMPUTE_OCCLUSION  = (16 << 16)
 } D3DX11_NORMALMAP_FLAG, *LPD3DX11_NORMALMAP_FLAG;
 ```
 
@@ -97,9 +104,9 @@ These flags are used by [**D3DX11ComputeNormalMap**](d3dx11computenormalmap.md).
 [D3DX Enumerations](d3d11-graphics-reference-d3dx11-enums.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

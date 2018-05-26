@@ -1,14 +1,20 @@
 ---
 title: AlbumID Attribute
 description: The AlbumID attribute is a unique identifier for the album.
-ms.assetid: '0412d91a-11a7-434c-8717-a71d85655679'
-keywords: ["AlbumID Attribute Windows Media Player"]
+ms.assetid: 0412d91a-11a7-434c-8717-a71d85655679
+keywords:
+- AlbumID Attribute Windows Media Player
 topic_type:
 - apiref
 api_name:
 - AlbumID
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AlbumID Attribute
@@ -47,9 +53,9 @@ To determine whether you can change the value of this attribute, use the [Media.
 [**Attribute Reference**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

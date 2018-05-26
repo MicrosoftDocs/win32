@@ -1,7 +1,12 @@
 ---
 title: VBICodec Filter
 description: VBICodec Filter
-ms.assetid: '51d43d2e-62fd-4366-a01f-5e6b37fc55fb'
+ms.assetid: 51d43d2e-62fd-4366-a01f-5e6b37fc55fb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VBICodec Filter
@@ -54,7 +59,7 @@ The VBICodec filter slices raw digitized data from the vertical blanking interva
 
  
 
-The closed captioning output pins expose the [**ICCSubStreamFiltering**](iccsubstreamfiltering.md) interface, which can be used to filter the closed captioning services.
+The closed captioning output pins expose the [**ICCSubStreamFiltering**](/windows/win32/bdaiface/nn-bdaiface-iccsubstreamfiltering?branch=master) interface, which can be used to filter the closed captioning services.
 
 In Windows Vista and later, this filter replaces the [CC Decoder](https://msdn.microsoft.com/library/windows/desktop/dd368976) filter and the [WST Codec](https://msdn.microsoft.com/library/windows/desktop/dd391017) filter.
 

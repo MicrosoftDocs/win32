@@ -1,7 +1,12 @@
 ---
 title: MDM Registration Reference
 description: The following programming elements are used with MDM Registration.
-ms.assetid: '1fd87643-435a-45f3-bb20-d5b8bca8a3d7'
+ms.assetid: 1fd87643-435a-45f3-bb20-d5b8bca8a3d7
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM Registration Reference

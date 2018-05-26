@@ -1,7 +1,12 @@
-﻿---
-Description: 'The put\_MediaType method sets the output media type on the resizer filter.'
-ms.assetid: 'e213179e-cc88-4365-aaa0-51d4b9c97476'
-title: 'IResize::put\_MediaType method'
+---
+Description: The put\_MediaType method sets the output media type on the resizer filter.
+ms.assetid: e213179e-cc88-4365-aaa0-51d4b9c97476
+title: IResizeput\_MediaType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResize::put\_MediaType method
@@ -31,7 +36,7 @@ HRESULT put_MediaType(
 *pmt* \[in\]
 </dt> <dd>
 
-Pointer to an [**AM\_MEDIA\_TYPE**](am-media-type.md) structure that contains the media type.
+Pointer to an [**AM\_MEDIA\_TYPE**](/windows/win32/strmif/ns-strmif-_ammediatype?branch=master) structure that contains the media type.
 
 </dd> </dl>
 

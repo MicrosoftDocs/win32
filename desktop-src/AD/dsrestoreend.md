@@ -4,11 +4,12 @@ description: Called to terminate a restore operation.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '2c3b9aba-3e92-4e5b-afff-3ed9bf64832b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 2c3b9aba-3e92-4e5b-afff-3ed9bf64832b
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DsRestoreEnd function Active Directory"]
+keywords:
+- DsRestoreEnd function Active Directory
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Ntdsbcli.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DsRestoreEnd function
@@ -30,7 +34,7 @@ The **DsRestoreEnd** function is called to terminate a restore operation.
 
 ```C++
 HRESULT DsRestoreEnd(
-  _In_ HBC hbc
+  _In_ HBC hbc
 );
 ```
 
@@ -93,9 +97,9 @@ The **DsRestoreEnd** function closes outstanding binding handles and performs a 
 [Directory Backup Functions](directory-backup-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

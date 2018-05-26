@@ -1,26 +1,31 @@
 ---
 Description: Encoder API
-ms.assetid: '3d19152f-17a3-4576-a2a2-5b827d9ca8d1'
+ms.assetid: 3d19152f-17a3-4576-a2a2-5b827d9ca8d1
 title: Encoder API
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Encoder API
 
 The Encoder API provides a uniform interface for configuring software and hardware encoders. Applications can use the Encoder API to configure an encoder and to store the configuration settings. Encoder vendors can use the Encoder API to expose the capabilities of an encoder. Although the Encoder API is designed primarily for encoders, it is general enough that decoders can support it as well.
 
-The Encoder API is exposed to applications through the [**ICodecAPI**](icodecapi.md) interface, which is exposed by the encoder filter. The encoder filter may be a native DirectShow filter, a hardware encoder, or a DirectX Media Object (DMO).
+The Encoder API is exposed to applications through the [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master) interface, which is exposed by the encoder filter. The encoder filter may be a native DirectShow filter, a hardware encoder, or a DirectX Media Object (DMO).
 
--   Software filters: An encoder that is implemented as a native DirectShow filter should expose the [**ICodecAPI**](icodecapi.md) directly.
--   Hardware encoders: The encoding device is exposed through one or more AVStream minidrivers, which are represented in user mode by KSProxy. KSProxy translates [**ICodecAPI**](icodecapi.md) method calls into KS property sets. For more information, see the DDK documentation.
--   DMOs: The DMO should expose the [**ICodecAPI**](icodecapi.md) interface. DirectShow applications can query the DMO Wrapper filter, which exposes the interface by aggregating the DMO. Applications not based on DirectShow can query the DMO directly.
+-   Software filters: An encoder that is implemented as a native DirectShow filter should expose the [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master) directly.
+-   Hardware encoders: The encoding device is exposed through one or more AVStream minidrivers, which are represented in user mode by KSProxy. KSProxy translates [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master) method calls into KS property sets. For more information, see the DDK documentation.
+-   DMOs: The DMO should expose the [**ICodecAPI**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master) interface. DirectShow applications can query the DMO Wrapper filter, which exposes the interface by aggregating the DMO. Applications not based on DirectShow can query the DMO directly.
 
 ### Encoder Capabilties
 
 An encoder can register a list of high-level capabilities by storing them in the system registry. Each capability is identified by a GUID. To enumerate the capabilities of a particular encoder, do the following:
 
 1.  Create the moniker that represents the encoder filter. (See [Using the System Device Enumerator](using-the-system-device-enumerator.md).)
-2.  Query the filter moniker for the [**IGetCapabilitiesKey**](igetcapabilitieskey.md) interface.
-3.  Call [**IGetCapabilitiesKey::GetCapabilitiesKey**](igetcapabilitieskey-getcapabilitieskey.md). The method returns a handle to the registry key that contains the filter's capabilities list.
+2.  Query the filter moniker for the [**IGetCapabilitiesKey**](/windows/win32/Strmif/nn-strmif-igetcapabilitieskey?branch=master) interface.
+3.  Call [**IGetCapabilitiesKey::GetCapabilitiesKey**](/windows/win32/Strmif/nf-strmif-igetcapabilitieskey-getcapabilitieskey?branch=master). The method returns a handle to the registry key that contains the filter's capabilities list.
 4.  Call the **RegEnumValue** function to enumerate the values for the returned key.
 
 If you are devloping an encoder, create the registry entries for the capabilities when the filter is registered. For software filters, create a key named **Capabilities** that is adjacent to the **FilterData** and **FriendlyName** keys. Typically, you would add this information after calling [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) to register the standard filter data. For more information, see [How to Register DirectShow Filters](how-to-register-directshow-filters.md). Alternatively, you can create a **CapabilitiesLocation** key that contains a string giving the location of the **Capabilities** key in the registry. The string should start with "HKLM\\", "HKCR\\", or "HKCU\\" to indicate the registry subtree. For Plug and Play devices, the driver's setup files should create a **Capabilities** key adjacent to the filter's **FriendlyName** key, or it can use a **CapabilitiesLocation** key as described for software filters.

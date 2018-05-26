@@ -1,7 +1,12 @@
 ---
 title: Topics Found Display Options
 description: When you use the ALink, KLink, and Related Topics commands, you can specify, in the Command parameter, whether to display the list of topics in a dialog box or on a pop-up menu. Both display options will list up to 127 topics.
-ms.assetid: 'CC9B3B8B-C587-47eb-A605-0DD1C0570DEA'
+ms.assetid: CC9B3B8B-C587-47eb-A605-0DD1C0570DEA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Topics Found Display Options

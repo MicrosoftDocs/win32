@@ -1,8 +1,19 @@
 ---
 title: Component Authentication
 description: Component Authentication
-ms.assetid: 'f1d9d41a-409d-43b5-9506-af130047349b'
-keywords: ["Windows Media Device Manager,authentication", "Device Manager,authentication", "desktop applications,authentication", "service providers,authentication", "programming guide,authentication", "authentication"]
+ms.assetid: f1d9d41a-409d-43b5-9506-af130047349b
+keywords:
+- Windows Media Device Manager,authentication
+- Device Manager,authentication
+- desktop applications,authentication
+- service providers,authentication
+- programming guide,authentication
+- authentication
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Component Authentication

@@ -1,7 +1,12 @@
 ---
-Description: 'All data from a particular stream has been rendered.'
-ms.assetid: '46037d53-085d-4fd0-91a0-408702cbfce5'
-title: 'EC\_COMPLETE'
+Description: All data from a particular stream has been rendered.
+ms.assetid: 46037d53-085d-4fd0-91a0-408702cbfce5
+title: EC\_COMPLETE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EC\_COMPLETE
@@ -22,7 +27,7 @@ All data from a particular stream has been rendered.
 <span id="lParam2"></span><span id="lparam2"></span><span id="LPARAM2"></span>*lParam2*
 </dt> <dd>
 
-(**IUnknown**\*) Zero, or a pointer to the renderer's [**IBaseFilter**](ibasefilter.md) interface.
+(**IUnknown**\*) Zero, or a pointer to the renderer's [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) interface.
 
 </dd> </dl>
 
@@ -34,11 +39,11 @@ If the default action is disabled for this event, the application receives all o
 
 ## Remarks
 
-A renderer filter sends this event when it receives an end-of-stream notice. (End-of-stream is signaled through the [**IPin::EndOfStream**](ipin-endofstream.md) method.) The filter sends exactly one **EC\_COMPLETE** event for each stream. The filter must process any pending samples before it sends the event. Stopping a renderer resets any end-of-stream state that was cached.
+A renderer filter sends this event when it receives an end-of-stream notice. (End-of-stream is signaled through the [**IPin::EndOfStream**](/windows/win32/Strmif/nf-strmif-ipin-endofstream?branch=master) method.) The filter sends exactly one **EC\_COMPLETE** event for each stream. The filter must process any pending samples before it sends the event. Stopping a renderer resets any end-of-stream state that was cached.
 
-If the renderer is paused, it does not send **EC\_COMPLETE** until the [**IMediaFilter::Run**](imediafilter-run.md) method is called. Furthermore, it continues to send **EC\_COMPLETE** events for each transition from pause to run, until the filter is either stopped or flushed.
+If the renderer is paused, it does not send **EC\_COMPLETE** until the [**IMediaFilter::Run**](/windows/win32/Strmif/nf-strmif-imediafilter-run?branch=master) method is called. Furthermore, it continues to send **EC\_COMPLETE** events for each transition from pause to run, until the filter is either stopped or flushed.
 
-Filters set the *lParam2* parameter to an [**IBaseFilter**](ibasefilter.md) pointer. If the default action is enabled, the filter graph manager sets this parameter to zero.
+Filters set the *lParam2* parameter to an [**IBaseFilter**](/windows/win32/Strmif/nn-strmif-ibasefilter?branch=master) pointer. If the default action is enabled, the filter graph manager sets this parameter to zero.
 
 ## Requirements
 
@@ -63,9 +68,9 @@ Filters set the *lParam2* parameter to an [**IBaseFilter**](ibasefilter.md) poin
 [Alternative Video Renderers](alternative-video-renderers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

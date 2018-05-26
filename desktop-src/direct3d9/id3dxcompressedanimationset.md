@@ -1,7 +1,12 @@
-﻿---
-Description: 'An application uses the methods of this interface to implement a key frame animation set stored in a compressed data format.'
-ms.assetid: '858f09b7-c3b6-4e22-8017-ce2d6188ba80'
+---
+Description: An application uses the methods of this interface to implement a key frame animation set stored in a compressed data format.
+ms.assetid: 858f09b7-c3b6-4e22-8017-ce2d6188ba80
 title: ID3DXCompressedAnimationSet interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXCompressedAnimationSet interface

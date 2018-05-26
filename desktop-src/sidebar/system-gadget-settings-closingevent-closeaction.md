@@ -1,8 +1,11 @@
 ---
 title: System.Gadget.Settings.ClosingEvent.closeAction property
 description: Gets the Settings dialog close request.
-ms.assetid: '2e624513-0696-4754-8685-0eccc5403d1a'
-keywords: ["closeAction property Windows Sidebar", "closeAction property Windows Sidebar , System.Gadget.Settings.ClosingEvent object", "System.Gadget.Settings.ClosingEvent object Windows Sidebar , closeAction property"]
+ms.assetid: 2e624513-0696-4754-8685-0eccc5403d1a
+keywords:
+- closeAction property Windows Sidebar
+- closeAction property Windows Sidebar , System.Gadget.Settings.ClosingEvent object
+- System.Gadget.Settings.ClosingEvent object Windows Sidebar , closeAction property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Gadget.Settings.ClosingEvent.closeAction property
@@ -96,18 +104,18 @@ function SettingsClosing(event)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

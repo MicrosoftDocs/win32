@@ -1,13 +1,16 @@
 ---
-Description: 'Updates the data for objects that have data supplied by a performance provider, such as the Performance Counter Classes. You can obtain updated data more quickly and without a call to SWbemServices.Get\_.'
+Description: Updates the data for objects that have data supplied by a performance provider, such as the Performance Counter Classes. You can obtain updated data more quickly and without a call to SWbemServices.Get\_.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '6aeaa336-fb98-4eda-b746-fc958198d8ae'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 6aeaa336-fb98-4eda-b746-fc958198d8ae
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObjectEx.Refresh\_ method'
+title: SWbemObjectEx.Refresh\_ method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObjectEx.Refresh\_ method
@@ -125,8 +128,8 @@ next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -145,9 +148,9 @@ next
 [Monitoring Performance Data](monitoring-performance-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

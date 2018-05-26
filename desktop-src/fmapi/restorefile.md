@@ -1,8 +1,9 @@
 ---
 title: RestoreFile function
 description: Copies a deleted or regular file from a volume that is defined in the file restore context to a new file on an available logical drive. The volume path is set in the Volume parameter of the CreateFileRestoreContext function.
-ms.assetid: 'cd13f321-2ebd-421b-9a5f-b4bcac9a60ea'
-keywords: ["RestoreFile function Files"]
+ms.assetid: cd13f321-2ebd-421b-9a5f-b4bcac9a60ea
+keywords:
+- RestoreFile function Files
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Fmapi.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RestoreFile function
@@ -18,20 +24,20 @@ api_type:
 Copies a deleted or regular file from a volume that is defined in the file restore context to a new file on an available logical drive. The volume path is set in the *Volume* parameter of the [**CreateFileRestoreContext**](createfilerestorecontext.md) function.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 BOOL WINAPI RestoreFile(
-  _In_     PFILE_RESTORE_CONTEXT Context,
-  _In_     PRESTORABLE_FILE_INFO RestorableFile,
-  _In_     PCWSTR                DstFile,
-  _In_opt_ FILE_RESTORE_CALLBACK Callback,
-  _In_opt_ PVOID                 ClbkArg
+  _In_     PFILE_RESTORE_CONTEXT Context,
+  _In_     PRESTORABLE_FILE_INFO RestorableFile,
+  _In_     PCWSTR                DstFile,
+  _In_opt_ FILE_RESTORE_CALLBACK Callback,
+  _In_opt_ PVOID                 ClbkArg
 );
 ```
 
@@ -100,8 +106,8 @@ In general, FMAPI cannot guarantee the success of the restore. It uses a best-ef
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Fmapi.dll</dt> </dl> |
 
 
@@ -116,9 +122,9 @@ In general, FMAPI cannot guarantee the success of the restore. It uses a best-ef
 [**ScanRestorableFiles**](scanrestorablefiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

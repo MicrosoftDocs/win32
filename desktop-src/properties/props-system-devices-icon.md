@@ -1,7 +1,12 @@
 ---
-Description: 'Icon Path.'
-ms.assetid: 'cf163996-2733-4be5-9455-26376575a0b2'
-title: 'System.Devices.Icon'
+Description: Icon Path.
+ms.assetid: cf163996-2733-4be5-9455-26376575a0b2
+title: System.Devices.Icon
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Devices.Icon

@@ -4,11 +4,15 @@ description: Each object class in Active Directory Domain Services is defined by
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '88a2b2a3-e8e2-4be1-9784-9709cbea08d6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 88a2b2a3-e8e2-4be1-9784-9709cbea08d6
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Characteristics of Object Classes AD"]
+keywords:
+- Characteristics of Object Classes AD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Characteristics of Object Classes
@@ -58,7 +62,7 @@ The following table lists the **lDAPDisplayName** and description of the key att
 </tr>
 <tr class="even">
 <td><strong>rDnAttId</strong></td>
-<td>Identifies the naming attribute, which is the attribute that provides the RDN for this class — if different than the default (<strong>cn</strong>). Use of a naming attribute other than <strong>cn</strong> is discouraged. Naming attributes should be drawn from the well-known set (OU, CN, O, L, and DC) that is understood by all LDAP version 3 clients. For more information, see [Object Names and Identities](object-names-and-identities.md) and [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md). A naming attribute must have the Directory String syntax. For more information, see [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md).<br/></td>
+<td>Identifies the naming attribute, which is the attribute that provides the RDN for this class   if different than the default (<strong>cn</strong>). Use of a naming attribute other than <strong>cn</strong> is discouraged. Naming attributes should be drawn from the well-known set (OU, CN, O, L, and DC) that is understood by all LDAP version 3 clients. For more information, see [Object Names and Identities](object-names-and-identities.md) and [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md). A naming attribute must have the Directory String syntax. For more information, see [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md).<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>mustContain</strong>, <strong>systemMustContain</strong></td>
@@ -96,7 +100,7 @@ For more information, see [Structural, Abstract, and Auxiliary Classes](structur
 </tr>
 <tr class="even">
 <td><strong>defaultHidingValue</strong></td>
-<td>A Boolean value that specifies the default setting of the <strong>showInAdvancedViewOnly</strong> property of new instances of this class. Many directory objects are not interesting to end users. To keep these objects from cluttering the UI, every object has a Boolean attribute called <strong>showInAdvancedViewOnly</strong>. If <strong>defaultHidingValue</strong> is set to <strong>TRUE</strong>, new object instances are hidden in the Administrative snap-ins and the Windows shell. A menu item for the object class will not appear in the <strong>New</strong> context menu of the Administrative snap-ins—even if the appropriate creation wizard properties are set on the object class's <strong>displaySpecifier</strong> object.<br/> If <strong>defaultHidingValue</strong> is set to <strong>FALSE</strong>, new instances of the object are displayed in the Administrative snap-ins and the Windows shell. Set this property to <strong>FALSE</strong> to see instances of the class in the administrative snap-ins and the shell and enable a creation wizard and its menu item in the <strong>New</strong> menu of the administrative snap-ins.<br/> If the <strong>defaultHidingValue</strong> value is not set, the default is <strong>TRUE</strong>.<br/></td>
+<td>A Boolean value that specifies the default setting of the <strong>showInAdvancedViewOnly</strong> property of new instances of this class. Many directory objects are not interesting to end users. To keep these objects from cluttering the UI, every object has a Boolean attribute called <strong>showInAdvancedViewOnly</strong>. If <strong>defaultHidingValue</strong> is set to <strong>TRUE</strong>, new object instances are hidden in the Administrative snap-ins and the Windows shell. A menu item for the object class will not appear in the <strong>New</strong> context menu of the Administrative snap-ins even if the appropriate creation wizard properties are set on the object class's <strong>displaySpecifier</strong> object.<br/> If <strong>defaultHidingValue</strong> is set to <strong>FALSE</strong>, new instances of the object are displayed in the Administrative snap-ins and the Windows shell. Set this property to <strong>FALSE</strong> to see instances of the class in the administrative snap-ins and the shell and enable a creation wizard and its menu item in the <strong>New</strong> menu of the administrative snap-ins.<br/> If the <strong>defaultHidingValue</strong> value is not set, the default is <strong>TRUE</strong>.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>systemFlags</strong></td>
@@ -127,11 +131,11 @@ For more information, see [Structural, Abstract, and Auxiliary Classes](structur
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

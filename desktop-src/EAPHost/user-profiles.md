@@ -1,7 +1,12 @@
 ---
 title: User Properties
 description: Show sample XML user properties for various network configurations.
-ms.assetid: '8e8ee656-11de-42fd-a960-f691330ee16e'
+ms.assetid: 8e8ee656-11de-42fd-a960-f691330ee16e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # User Properties

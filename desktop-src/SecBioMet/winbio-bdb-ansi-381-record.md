@@ -1,8 +1,9 @@
 ---
 title: WINBIO\_BDB\_ANSI\_381\_RECORD structure
 description: Contains information about a single fingerprint or palm sample from an end user.
-ms.assetid: 'e0b32d05-3e96-4b42-9e18-57d10513f224'
-keywords: ["WINBIO_BDB_ANSI_381_RECORD structure Windows Biometric Framework API"]
+ms.assetid: e0b32d05-3e96-4b42-9e18-57d10513f224
+keywords:
+- WINBIO_BDB_ANSI_381_RECORD structure Windows Biometric Framework API
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winbio_types.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WINBIO\_BDB\_ANSI\_381\_RECORD structure
@@ -22,15 +28,15 @@ The **WINBIO\_BDB\_ANSI\_381\_RECORD** structure contains information about a si
 
 ```C++
 typedef struct _WINBIO_BDB_ANSI_381_RECORD {
-  ULONG                    BlockLength;
-  USHORT                   HorizontalLineLength;
-  USHORT                   VerticalLineLength;
+  ULONG                    BlockLength;
+  USHORT                   HorizontalLineLength;
+  USHORT                   VerticalLineLength;
   WINBIO_BIOMETRIC_SUBTYPE Position;
-  UCHAR                    CountOfViews;
-  UCHAR                    ViewNumber;
-  UCHAR                    ImageQuality;
-  UCHAR                    ImpressionType;
-  UCHAR                    Reserved;
+  UCHAR                    CountOfViews;
+  UCHAR                    ViewNumber;
+  UCHAR                    ImageQuality;
+  UCHAR                    ImpressionType;
+  UCHAR                    Reserved;
 } WINBIO_BDB_ANSI_381_RECORD;
 ```
 
@@ -126,7 +132,7 @@ The *Position* member specifies the area of the hand or palm used to make the bi
 >
 > Do not attempt to validate the value supplied for the *Position* value. The Windows Biometrics Service will validate the supplied value before passing it through to your implementation. If the value is **WINBIO\_SUBTYPE\_NO\_INFORMATION** or **WINBIO\_SUBTYPE\_ANY**, then validate where appropriate.
 
- 
+ 
 
 ## Requirements
 
@@ -134,8 +140,8 @@ The *Position* member specifies the area of the hand or palm used to make the bi
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Winbio\_types.h (include Winbio.h)</dt> </dl> |
 
 
@@ -147,9 +153,9 @@ The *Position* member specifies the area of the hand or palm used to make the bi
 [Client Application Structures](client-application-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

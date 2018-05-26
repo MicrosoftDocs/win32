@@ -1,7 +1,12 @@
 ---
-Description: 'The UnregisterProgIdInfo action manages the unregistration of OLE ProgId information with the system.'
-ms.assetid: 'c9837845-4ffc-4496-8330-11b46d27ec7a'
+Description: The UnregisterProgIdInfo action manages the unregistration of OLE ProgId information with the system.
+ms.assetid: c9837845-4ffc-4496-8330-11b46d27ec7a
 title: UnregisterProgIdInfo Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UnregisterProgIdInfo Action

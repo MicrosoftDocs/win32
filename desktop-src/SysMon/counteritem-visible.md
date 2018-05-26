@@ -1,8 +1,11 @@
 ---
 title: CounterItem.Visible property
 description: Retrieves or sets a value that indicates if the counter is graphed.
-ms.assetid: 'a1f7b5cb-9c85-44e0-8216-72a226cb3a23'
-keywords: ["Visible property SysMon", "Visible property SysMon , CounterItem object", "CounterItem object SysMon , Visible property"]
+ms.assetid: a1f7b5cb-9c85-44e0-8216-72a226cb3a23
+keywords:
+- Visible property SysMon
+- Visible property SysMon , CounterItem object
+- CounterItem object SysMon , Visible property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sysmon.ocx
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CounterItem.Visible property
@@ -38,8 +46,8 @@ True if the counter is graphed; otherwise, false.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon.ocx</dt> </dl> |
 
 
@@ -51,9 +59,9 @@ True if the counter is graphed; otherwise, false.
 [**CounterItem**](counteritem.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

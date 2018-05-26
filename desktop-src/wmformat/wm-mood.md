@@ -1,14 +1,20 @@
 ---
 title: WM/Mood
 description: The WM/Mood attribute contains a category name for the mood of the content.
-ms.assetid: '04a56354-e326-4c42-b124-249fa4d95ce7'
-keywords: ["WM/Mood windows Media Format"]
+ms.assetid: 04a56354-e326-4c42-b124-249fa4d95ce7
+keywords:
+- WM/Mood windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/Mood
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/Mood

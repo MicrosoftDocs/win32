@@ -1,7 +1,12 @@
-﻿---
-Description: 'The FaxFolders configuration object is used by a fax client application to access the folders, queued jobs, and archived messages on a fax server.'
-ms.assetid: '283c75e3-e596-403c-b4ea-b62bf0c744f3'
+---
+Description: The FaxFolders configuration object is used by a fax client application to access the folders, queued jobs, and archived messages on a fax server.
+ms.assetid: 283c75e3-e596-403c-b4ea-b62bf0c744f3
 title: FaxFolders object
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxFolders object
@@ -69,7 +74,7 @@ To create a **FaxFolders** object in C++, call the [**Folders**](-mfax-faxserver
 [Fax Service object hierarchy](-mfax-fax-service-extended-com-object-model.md)
 </dt> <dt>
 
-[**IFaxFolders**](-mfax-faxfolders-cpp.md)
+[**IFaxFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxfolders?branch=master)
 </dt> </dl>
 
  

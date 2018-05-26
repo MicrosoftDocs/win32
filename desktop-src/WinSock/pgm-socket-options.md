@@ -1,7 +1,12 @@
 ---
-Description: 'PGM uses socket options to set state, provide multicast parameters, and otherwise implement its multicast capabilities.'
-ms.assetid: '91f5b051-cc42-46ba-88d9-680bd0367aff'
+Description: PGM uses socket options to set state, provide multicast parameters, and otherwise implement its multicast capabilities.
+ms.assetid: 91f5b051-cc42-46ba-88d9-680bd0367aff
 title: PGM Socket Options
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PGM Socket Options
@@ -53,7 +58,7 @@ setsockopt (s,
 
 
 
-In the snippet above, the type and contents of *OptionData* are dependent on the socket option being set. For all PGM socket options, the socket level is IPPROTO\_RM. PGM socket options must be set immediately following the call to the [**bind**](bind-2.md) function, with the following exceptions:
+In the snippet above, the type and contents of *OptionData* are dependent on the socket option being set. For all PGM socket options, the socket level is IPPROTO\_RM. PGM socket options must be set immediately following the call to the [**bind**](/windows/win32/winsock/nf-winsock-bind?branch=master) function, with the following exceptions:
 
 <dl> RM\_SET\_MESSAGE\_BOUNDARY  
 RM\_SENDER\_STATISTICS  

@@ -1,14 +1,20 @@
 ---
 title: VIEW.scriptFile
 description: The scriptFile attribute specifies the file names of accompanying JScript files.
-ms.assetid: 'c285c467-5ba7-4f46-b316-977e833c3cdd'
-keywords: ["VIEW.scriptFile Windows Media Player"]
+ms.assetid: c285c467-5ba7-4f46-b316-977e833c3cdd
+keywords:
+- VIEW.scriptFile Windows Media Player
 topic_type:
 - apiref
 api_name:
 - VIEW.scriptFile
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VIEW.scriptFile
@@ -55,9 +61,9 @@ The code in the specified files can be used by any event handler in the View. Co
 [**VIEW Element**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

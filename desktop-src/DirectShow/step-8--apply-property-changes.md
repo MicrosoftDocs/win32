@@ -1,7 +1,12 @@
 ---
-Description: 'Step 8.'
-ms.assetid: 'c54745ef-beeb-40b6-9db6-6e3b5da860f8'
-title: 'Step 8. Apply Property Changes'
+Description: Step 8.
+ms.assetid: c54745ef-beeb-40b6-9db6-6e3b5da860f8
+title: Step 8. Apply Property Changes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Step 8. Apply Property Changes

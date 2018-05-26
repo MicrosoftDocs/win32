@@ -4,17 +4,21 @@ description: The URL of the referrer.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '95D0B150-1C36-4EC9-967C-3067B6077C48'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 95D0B150-1C36-4EC9-967C-3067B6077C48
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSPolicyDescriptor referrer property"]
+keywords:
+- MSPolicyDescriptor referrer property
 topic_type:
 - apiref
 api_name:
 - MSPolicyDescriptor referrer property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSPolicyDescriptor referrer property
@@ -37,7 +41,7 @@ The URL of the referrer.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,7 +57,7 @@ MSPolicyDescriptor.h
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -66,9 +70,9 @@ policyDescriptor.referrer = [[NSURL alloc] initWithString@"https://contoso.com"]
 
 
 
- 
+ 
 
- 
+ 
 
 
 

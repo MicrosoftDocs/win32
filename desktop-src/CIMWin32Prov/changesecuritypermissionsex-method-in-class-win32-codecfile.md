@@ -1,15 +1,18 @@
 ---
-Description: 'Changes the security permissions for the codec file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).'
+Description: Changes the security permissions for the codec file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '3eac4ae1-3c0e-4e81-8b23-9ad8698f723c'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 3eac4ae1-3c0e-4e81-8b23-9ad8698f723c
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'ChangeSecurityPermissionsEx method of the Win32\_CodecFile class'
+title: ChangeSecurityPermissionsEx method of the Win32\_CodecFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ChangeSecurityPermissionsEx method of the Win32\_CodecFile class
@@ -23,11 +26,11 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 ChangeSecurityPermissionsEx(
-  [in]           Win32_SecurityDescriptor SecurityDescriptor,
-  [in]           uint32                   Option,
-  [out]          string                   StopFileName,
-  [in, optional] string                   StartFileName,
-  [in, optional] boolean                  Recursive
+  [in]           Win32_SecurityDescriptor SecurityDescriptor,
+  [in]           uint32                   Option,
+  [out]          string                   StopFileName,
+  [in, optional] string                   StartFileName,
+  [in, optional] boolean                  Recursive
 );
 ```
 
@@ -251,8 +254,8 @@ A parameter specified is not valid.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -269,9 +272,9 @@ A parameter specified is not valid.
 [**Win32\_CodecFile**](win32-codecfile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

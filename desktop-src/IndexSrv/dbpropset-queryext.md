@@ -1,8 +1,14 @@
 ---
 title: DBPROPSET\_QUERYEXT
 description: DBPROPSET\_QUERYEXT
-ms.assetid: '1732d90c-4402-44d4-bea1-dac90b867082'
-keywords: ["DBPROPSET_QUERYEXT"]
+ms.assetid: 1732d90c-4402-44d4-bea1-dac90b867082
+keywords:
+- DBPROPSET_QUERYEXT
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBPROPSET\_QUERYEXT

@@ -1,8 +1,9 @@
 ---
 title: RtmDequeueRouteChangeMessage function
 description: The RtmDequeueRouteChangeMessage function returns the next route-change message in the queue associated with the specified client.
-ms.assetid: '44f2116a-3c8d-4ac6-896e-b12930b218a5'
-keywords: ["RtmDequeueRouteChangeMessage function RAS"]
+ms.assetid: 44f2116a-3c8d-4ac6-896e-b12930b218a5
+keywords:
+- RtmDequeueRouteChangeMessage function RAS
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Rtm.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RtmDequeueRouteChangeMessage function
@@ -24,10 +30,10 @@ The **RtmDequeueRouteChangeMessage** function returns the next route-change mess
 
 ```C++
 DWORD RtmDequeueRouteChangeMessage(
-  _In_  HANDLE ClientHandle,
-  _Out_ DWORD  Flags,
-  _Out_ PVOID  CurBestRoute,
-  _Out_ PVOID  PrevBestRoute
+  _In_  HANDLE ClientHandle,
+  _Out_ DWORD  Flags,
+  _Out_ PVOID  CurBestRoute,
+  _Out_ PVOID  PrevBestRoute
 );
 ```
 
@@ -59,7 +65,7 @@ Pointer to a **DWORD** variable. The value of this variable is set by the routin
 
 
 
- 
+ 
 
 The *PrevBestRoute* parameter points to the route information as it was before the change. The *CurBestRoute* parameter points to current (that is, after-change) route information.
 
@@ -99,7 +105,7 @@ The return value is one of the following codes.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -108,8 +114,8 @@ The return value is one of the following codes.
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
-| End of server support<br/>    | Windows Server 2003<br/>                                                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |
+| End of server support<br/>    | Windows Server 2003<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Rtm.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Rtm.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
@@ -129,9 +135,9 @@ The return value is one of the following codes.
 [**RtmRegisterClient**](rtmregisterclient.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

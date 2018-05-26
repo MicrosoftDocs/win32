@@ -1,7 +1,12 @@
 ---
-Description: 'Defines the hosting metadata for the device to be implemented. This element is used for device implementations (hosts) only.'
-ms.assetid: 'ca7bc5ea-8ab2-4233-86d2-5b793021b8ee'
+Description: Defines the hosting metadata for the device to be implemented. This element is used for device implementations (hosts) only.
+ms.assetid: ca7bc5ea-8ab2-4233-86d2-5b793021b8ee
 title: hostMetadata element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # hostMetadata element
@@ -62,14 +67,14 @@ The [**relationshipMetadataDefinition**](relationshipmetadatadefinition.md) elem
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

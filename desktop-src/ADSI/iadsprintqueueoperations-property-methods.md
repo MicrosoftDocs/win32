@@ -4,11 +4,12 @@ description: The property methods of the IADsPrintQueueOperations interface read
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'a4e6bac5-5d52-4492-b48e-f051fec6158c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: a4e6bac5-5d52-4492-b48e-f051fec6158c
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["IADsPrintQueueOperations Property Methods ADSI"]
+keywords:
+- IADsPrintQueueOperations Property Methods ADSI
 topic_type:
 - apiref
 api_name:
@@ -20,11 +21,14 @@ api_location:
 - Activeds.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IADsPrintQueueOperations Property Methods
 
-The property methods of the [**IADsPrintQueueOperations**](iadsprintqueueoperations.md) interface read and write the properties listed in the following list. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
+The property methods of the [**IADsPrintQueueOperations**](/windows/win32/Iads/nn-iads-iadsprintqueueoperations?branch=master) interface read and write the properties listed in the following list. For more information about property methods, see [Interface Property Methods](interface-property-methods.md).
 
 ## Properties
 
@@ -233,7 +237,7 @@ HRESULT put_Name(
 
 </dt> </dl> </dd> </dl>
 
- 
+ 
 
 ## Examples
 
@@ -274,8 +278,8 @@ hr = pqo->Release();
 
 |                                     |                                                                                             |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                              |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                              |
 | Header<br/>                   | <dl> <dt>Iads.h</dt> </dl>           |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl>     |
 | IID<br/>                      | IID\_IADsPrintQueueOperations is defined as 124BE5C0-156E-11CF-A986-00AA006BC149<br/> |
@@ -286,15 +290,15 @@ hr = pqo->Release();
 
 <dl> <dt>
 
-[**IADsPrintQueue**](iadsprintqueue.md)
+[**IADsPrintQueue**](/windows/win32/Iads/nn-iads-iadsprintqueue?branch=master)
 </dt> <dt>
 
-[**IADsPrintQueueOperations**](iadsprintqueueoperations.md)
+[**IADsPrintQueueOperations**](/windows/win32/Iads/nn-iads-iadsprintqueueoperations?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

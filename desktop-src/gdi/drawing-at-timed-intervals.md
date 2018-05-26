@@ -1,7 +1,12 @@
 ---
-Description: 'You can draw at timed intervals by creating a timer with the SetTimer function.'
-ms.assetid: '82f9aa5e-8e42-49cf-bcd0-785bc78fe159'
+Description: You can draw at timed intervals by creating a timer with the SetTimer function.
+ms.assetid: 82f9aa5e-8e42-49cf-bcd0-785bc78fe159
 title: Drawing at Timed Intervals
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Drawing at Timed Intervals
@@ -140,7 +145,7 @@ LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 
-This application uses a private device context to minimize the time required to prepare the device context for drawing. The window procedure retrieves and initializes the private device context when processing the [**WM\_CREATE**](_win32_wm_create_cpp) message, setting the binary raster operation mode to allow the star to be erased and drawn using the same call to the [**Polyline**](polyline.md) function. The window procedure also sets the viewport origin to allow the star to be drawn using the same set of points regardless of the star's position in the client area.
+This application uses a private device context to minimize the time required to prepare the device context for drawing. The window procedure retrieves and initializes the private device context when processing the [**WM\_CREATE**](_win32_wm_create_cpp) message, setting the binary raster operation mode to allow the star to be erased and drawn using the same call to the [**Polyline**](/windows/win32/Wingdi/nf-wingdi-polyline?branch=master) function. The window procedure also sets the viewport origin to allow the star to be drawn using the same set of points regardless of the star's position in the client area.
 
 The application uses the [**WM\_PAINT**](wm-paint.md) message to draw the star whenever the window must be updated. The window procedure draws the star only if it is not visible; that is, only if it has been erased by the [**WM\_ERASEBKGND**](_win32_wm_erasebkgnd_cpp) message. The window procedure intercepts the **WM\_ERASEBKGND** message to set the *fVisible* variable, but passes the message to [**DefWindowProc**](_win32_defwindowproc_cpp) so that the system can draw the window background.
 

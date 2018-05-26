@@ -1,7 +1,12 @@
 ---
-Description: 'The RemoveTailI method removes the last item in the list.'
-ms.assetid: '3e9f88a5-a681-4494-8977-d9a6ec62a849'
-title: 'CBaseList.RemoveTailI method'
+Description: The RemoveTailI method removes the last item in the list.
+ms.assetid: 3e9f88a5-a681-4494-8977-d9a6ec62a849
+title: CBaseList.RemoveTailI method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseList.RemoveTailI method
@@ -47,9 +52,9 @@ This method deletes the list node, but not the item that is contained in the nod
 [**CBaseList Class**](cbaselist.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

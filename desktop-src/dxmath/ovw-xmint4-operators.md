@@ -1,12 +1,17 @@
-﻿---
-Description: 'The XMINT4 structure exposes the following operators.'
-ms.assetid: 'efb42dbb-30ea-426a-a281-b5b732085805'
+---
+Description: The XMINT4 structure exposes the following operators.
+ms.assetid: efb42dbb-30ea-426a-a281-b5b732085805
 title: XMINT4 Operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XMINT4 Operators
 
-The [**XMINT4**](xmint4.md) structure exposes the following operators.
+The [**XMINT4**](/windows/win32/DirectXMath/?branch=master) structure exposes the following operators.
 
 > [!Note]  
 > The operators listed here are only available under C++.
@@ -35,7 +40,7 @@ The [**XMINT4**](xmint4.md) structure exposes the following operators.
 **Reference**
 </dt> <dt>
 
-[**XMINT4**](xmint4.md)
+[**XMINT4**](/windows/win32/DirectXMath/?branch=master)
 </dt> </dl>
 
  

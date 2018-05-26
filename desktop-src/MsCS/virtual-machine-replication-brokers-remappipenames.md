@@ -4,17 +4,22 @@ description: Controls how named pipes are opened on the network managed by the r
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '05280E08-1989-40AC-BB55-C446F7EC4850'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 05280E08-1989-40AC-BB55-C446F7EC4850
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RemapPipeNames Failover Cluster ,for virtual machine replication brokers", "RemapPipeNames Failover Cluster"]
+keywords:
+- RemapPipeNames Failover Cluster ,for virtual machine replication brokers
+- RemapPipeNames Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RemapPipeNames
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RemapPipeNames
@@ -28,14 +33,14 @@ Controls how named pipes are opened on the [network](networks.md) managed by the
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
 | Status    | Optional                                  |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | **FALSE**                                 |
 | Maximum   | **TRUE**                                  |
 | Default   | **FALSE**                                 |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -65,7 +70,7 @@ RemapPipeNameValue.dw              = RemapPipeNameData;
 |                                     |                                |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | None supported<br/>      |
-| Minimum supported server<br/> | Windows Server 2012<br/> |
+| Minimum supported server<br/> | Windows Server 2012<br/> |
 
 
 
@@ -76,12 +81,12 @@ RemapPipeNameValue.dw              = RemapPipeNameData;
 [Virtual Machine Replication Broker Private Properties](virtual-machine-replication-broker-private-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_DWORD**](clusprop-dword.md)
+[**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

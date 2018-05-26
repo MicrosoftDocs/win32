@@ -1,8 +1,9 @@
 ---
 title: NM\_TVSTATEIMAGECHANGING notification code
 description: Sent by a tree-view control to its parent window that the state image is changing. This notification code is sent in the form of a WM\_NOTIFY message.
-ms.assetid: '8e42d8b3-5e76-4d03-94b0-3e4583669095'
-keywords: ["NM_TVSTATEIMAGECHANGING notification code Windows Controls"]
+ms.assetid: 8e42d8b3-5e76-4d03-94b0-3e4583669095
+keywords:
+- NM_TVSTATEIMAGECHANGING notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NM\_TVSTATEIMAGECHANGING notification code
@@ -33,7 +39,7 @@ NM_TVSTATEIMAGECHANGING
 *lParam* 
 </dt> <dd>
 
-A pointer to an [**NMTVSTATEIMAGECHANGING**](nmtvstateimagechanging.md) structure that contains additional information about this notification.
+A pointer to an [**NMTVSTATEIMAGECHANGING**](/windows/win32/Commctrl/ns-commctrl-tagnmtvstateimagechanging?branch=master) structure that contains additional information about this notification.
 
 </dd> </dl>
 
@@ -47,15 +53,15 @@ The return value is ignored by the control.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

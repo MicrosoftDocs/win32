@@ -1,8 +1,11 @@
 ---
 title: IControlOutputSize GetOutputSize method
 description: The GetOutputSize method is called by Windows Movie Maker to let the transform evaluate (and modify) the output buffer size that Windows Movie Maker intends to allocate for the next call to IMediaTransform Process.
-ms.assetid: 'dc7ad7e4-c99b-4383-a819-6a6e2fc05162'
-keywords: ["GetOutputSize method Windows Movie Maker and DVD Maker", "GetOutputSize method Windows Movie Maker and DVD Maker , IControlOutputSize interface", "IControlOutputSize interface Windows Movie Maker and DVD Maker , GetOutputSize method"]
+ms.assetid: dc7ad7e4-c99b-4383-a819-6a6e2fc05162
+keywords:
+- GetOutputSize method Windows Movie Maker and DVD Maker
+- GetOutputSize method Windows Movie Maker and DVD Maker , IControlOutputSize interface
+- IControlOutputSize interface Windows Movie Maker and DVD Maker , GetOutputSize method
 topic_type:
 - apiref
 api_name:
@@ -14,6 +17,11 @@ api_location:
 - GPUPipelineVC7.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IControlOutputSize::GetOutputSize method
@@ -25,11 +33,11 @@ The **GetOutputSize** method is called by Windows Movie Maker to let the transfo
 
 ```C++
 HRESULT GetOutputSize(
-  [in]  PIPELINE_TIME timeGet,
-  [in]  PIPELINE_TIME timeDuration,
-  [in]  VIDEO_SIZE    *rgSizeIn,
-  [in]  int           nSizeCount,
-  [out] VIDEO_SIZE    *pOutSize
+  [in]  PIPELINE_TIME timeGet,
+  [in]  PIPELINE_TIME timeDuration,
+  [in]  VIDEO_SIZE    *rgSizeIn,
+  [in]  int           nSizeCount,
+  [out] VIDEO_SIZE    *pOutSize
 );
 ```
 
@@ -88,8 +96,8 @@ This method is not needed by most transforms.
 
 |                                     |                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                                                                                    |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>GPUPipelineTime.h</dt> </dl>                                                                                                                      |
 | Library<br/>                  | <dl> <dt>GPUPipelineVC8.lib (Visual Studio 2005); </dt> <dt>GPUPipelineVC7.lib (Visual Studio .NET)</dt> </dl> |
 
@@ -102,9 +110,9 @@ This method is not needed by most transforms.
 [**ISurface Interface**](isurface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

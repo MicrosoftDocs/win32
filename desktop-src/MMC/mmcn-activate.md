@@ -1,14 +1,15 @@
 ---
 title: MMCN\_ACTIVATE message
-description: The MMCN\_ACTIVATE notification message is sent to the snap-in's IComponent Notify method when a window for which the snap-in owns the result view is being activated or deactivated.
+description: The MMCN\_ACTIVATE notification message is sent to the snap-ins IComponent Notify method when a window for which the snap-in owns the result view is being activated or deactivated.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '51aa4709-6e33-41eb-958a-108fec6865b4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 51aa4709-6e33-41eb-958a-108fec6865b4
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMCN_ACTIVATE message MMC"]
+keywords:
+- MMCN_ACTIVATE message MMC
 topic_type:
 - apiref
 api_name:
@@ -17,6 +18,9 @@ api_location:
 - Mmc.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMCN\_ACTIVATE message
@@ -72,8 +76,8 @@ The snap-in does not handle the notification. MMC then performs a default operat
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                         |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
+| Minimum supported client<br/> | Windows Vista<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Mmc.h</dt> </dl> |
 
 
@@ -85,9 +89,9 @@ The snap-in does not handle the notification. MMC then performs a default operat
 [**IComponent::Notify**](icomponent-notify.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,32 @@
 ---
 title: Getting Information from Licenses in the Local License Store
 description: Getting Information from Licenses in the Local License Store
-ms.assetid: 'dd1abd5e-6536-4d8f-9607-b800c5a16d04'
-keywords: ["Windows Media Format SDK,DRM Client Extended APIs", "Windows Media Format SDK,Client Extended APIs", "Windows Media Format SDK,Extended APIs", "Windows Media Format SDK,APIs", "Windows Media Format SDK,digital rights management (DRM)", "Windows Media Format SDK,local license store", "Windows Media Format SDK,licenses", "digital rights management (DRM),Client Extended APIs", "DRM (digital rights management),Client Extended APIs", "digital rights management (DRM),Extended APIs", "DRM (digital rights management),Extended APIs", "digital rights management (DRM),APIs", "DRM (digital rights management),APIs", "digital rights management (DRM),local license store", "DRM (digital rights management),local license store", "digital rights management (DRM),licenses", "DRM (digital rights management),licenses", "DRM Client Extended APIs,local license store", "Client Extended APIs,local license store"]
+ms.assetid: dd1abd5e-6536-4d8f-9607-b800c5a16d04
+keywords:
+- Windows Media Format SDK,DRM Client Extended APIs
+- Windows Media Format SDK,Client Extended APIs
+- Windows Media Format SDK,Extended APIs
+- Windows Media Format SDK,APIs
+- Windows Media Format SDK,digital rights management (DRM)
+- Windows Media Format SDK,local license store
+- Windows Media Format SDK,licenses
+- digital rights management (DRM),Client Extended APIs
+- DRM (digital rights management),Client Extended APIs
+- digital rights management (DRM),Extended APIs
+- DRM (digital rights management),Extended APIs
+- digital rights management (DRM),APIs
+- DRM (digital rights management),APIs
+- digital rights management (DRM),local license store
+- DRM (digital rights management),local license store
+- digital rights management (DRM),licenses
+- DRM (digital rights management),licenses
+- DRM Client Extended APIs,local license store
+- Client Extended APIs,local license store
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Information from Licenses in the Local License Store

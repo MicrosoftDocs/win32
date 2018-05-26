@@ -1,7 +1,12 @@
 ---
-Description: 'The OnApplyChanges method is called when the user applies changes to the property page.'
-ms.assetid: '15a55644-b7bf-4c72-8e26-18fc4fb714b9'
-title: 'CBasePropertyPage.OnApplyChanges method'
+Description: The OnApplyChanges method is called when the user applies changes to the property page.
+ms.assetid: 15a55644-b7bf-4c72-8e26-18fc4fb714b9
+title: CBasePropertyPage.OnApplyChanges method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBasePropertyPage.OnApplyChanges method
@@ -60,9 +65,9 @@ HRESULT CMyProp::OnApplyChanges(void)
 [**CBasePropertyPage Class**](cbasepropertypage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

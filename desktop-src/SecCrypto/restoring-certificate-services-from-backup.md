@@ -1,7 +1,12 @@
 ---
-Description: 'Shows how the Certificate Services backup functions can be used to restore and recover a Certificate Services database and its associated files.'
-ms.assetid: 'f4914f45-629d-4f24-8328-d7f27e8a0062'
+Description: Shows how the Certificate Services backup functions can be used to restore and recover a Certificate Services database and its associated files.
+ms.assetid: f4914f45-629d-4f24-8328-d7f27e8a0062
 title: Restoring Certificate Services from Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Restoring Certificate Services from Backup
@@ -12,17 +17,17 @@ An existing full backup of the Certificate Services database must exist before i
 
 1.  Load the Certadm.dll library into memory (by calling [**LoadLibrary**](base.loadlibrary)).
 2.  Retrieve the address of each of the necessary functions in Certadm.dll (by means of [**GetProcAddress**](base.getprocaddress)). Use these addresses when calling the functions in the remaining steps.
-3.  Call [**CertSrvIsServerOnline**](certsrvisserveronline.md) to determine whether Certificate Services is online. If Certificate Services is running, shut it down before proceeding. Certificate Services must not be online for the restore operations to be successful.
-4.  Call [**CertSrvRestorePrepare**](certsrvrestoreprepare.md) to begin a restore session. The resulting Certificate Services backup context handle will be used by several of the other functions.
-5.  Determine the path for the database location. During a backup scenario, this value would have been available from a call to [**CertSrvRestoreGetDatabaseLocations**](certsrvrestoregetdatabaselocations.md); this value should have been stored as part of the backup.
+3.  Call [**CertSrvIsServerOnline**](/windows/win32/Certbcli/nf-certbcli-certsrvisserveronlinew?branch=master) to determine whether Certificate Services is online. If Certificate Services is running, shut it down before proceeding. Certificate Services must not be online for the restore operations to be successful.
+4.  Call [**CertSrvRestorePrepare**](/windows/win32/Certbcli/nf-certbcli-certsrvrestorepreparew?branch=master) to begin a restore session. The resulting Certificate Services backup context handle will be used by several of the other functions.
+5.  Determine the path for the database location. During a backup scenario, this value would have been available from a call to [**CertSrvRestoreGetDatabaseLocations**](/windows/win32/Certbcli/nf-certbcli-certsrvrestoregetdatabaselocationsw?branch=master); this value should have been stored as part of the backup.
 6.  Create a restore map specifying the name of the restored database. A Certificate Services database restore map structure (CSEDB\_RSTMAPW) is used to specify a restore map. Set the CSEDB\_RSTMAPW's **pwszDatabaseName** member and the CSEDB\_RSTMAPW's **pwszNewDatabaseName** member to the database location determined in step 5. Optionally, if the restored database is to have a different name than the backup database, set the CSEDB\_RSTMAPW's **pwszNewDatabaseName** member to the new database name.
 7.  If you want to ensure that modifications made to the database after the backup was performed are not reapplied after database restore is complete (as part of database recovery performed during the next Certificate Services startup), delete files from the target server's active database and log directories.
 8.  Copy the files contained in the full backup to the target server's active database and log directories.
-9.  Call [**CertSrvRestoreRegister**](certsrvrestoreregister.md) to register a restore operation for the full backup. **CertSrvRestoreRegister** uses the restore map specified in step 6. **CertSrvRestoreRegister** also specifies the location of the backup database and logs. Calling **CertSrvRestoreRegister** will force Certificate Services to attempt a restore operation the next time it is started. It also prevents Certificate Services from processing Certificate Requests until the restoration is complete.
-10. Call [**CertSrvRestoreRegisterComplete**](certsrvrestoreregistercomplete.md), thereby finishing the registration activity that started in step 8. Note that the registration of a restore operation is an instruction for Certificate Services to follow when it is started; the actual recovery will take place only after Certificate Services is started.
-11. For each incremental backup to be restored, copy the files contained in the incremental backup to the target server's active log directory, then call [**CertSrvRestoreRegister**](certsrvrestoreregister.md), followed by a call to [**CertSrvRestoreRegisterComplete**](certsrvrestoreregistercomplete.md). The registration of the incremental backups for restoration can occur in any order, but only the set of files for one incremental backup should be copied to the server before each call to **CertSrvRestoreRegister**.
-12. Copy the Certificate Services dynamic files to the target server. The dynamic files would have been identified during the backup when [**CertSrvBackupGetDynamicFileList**](certsrvbackupgetdynamicfilelist.md) was called. It may be necessary to stop the World Wide Web Publishing Service to allow overwriting the dynamic files.
-13. Call [**CertSrvRestoreEnd**](certsrvrestoreend.md) to end the restore session.
+9.  Call [**CertSrvRestoreRegister**](/windows/win32/Certbcli/nf-certbcli-certsrvrestoreregisterw?branch=master) to register a restore operation for the full backup. **CertSrvRestoreRegister** uses the restore map specified in step 6. **CertSrvRestoreRegister** also specifies the location of the backup database and logs. Calling **CertSrvRestoreRegister** will force Certificate Services to attempt a restore operation the next time it is started. It also prevents Certificate Services from processing Certificate Requests until the restoration is complete.
+10. Call [**CertSrvRestoreRegisterComplete**](/windows/win32/Certbcli/nf-certbcli-certsrvrestoreregistercomplete?branch=master), thereby finishing the registration activity that started in step 8. Note that the registration of a restore operation is an instruction for Certificate Services to follow when it is started; the actual recovery will take place only after Certificate Services is started.
+11. For each incremental backup to be restored, copy the files contained in the incremental backup to the target server's active log directory, then call [**CertSrvRestoreRegister**](/windows/win32/Certbcli/nf-certbcli-certsrvrestoreregisterw?branch=master), followed by a call to [**CertSrvRestoreRegisterComplete**](/windows/win32/Certbcli/nf-certbcli-certsrvrestoreregistercomplete?branch=master). The registration of the incremental backups for restoration can occur in any order, but only the set of files for one incremental backup should be copied to the server before each call to **CertSrvRestoreRegister**.
+12. Copy the Certificate Services dynamic files to the target server. The dynamic files would have been identified during the backup when [**CertSrvBackupGetDynamicFileList**](/windows/win32/Certbcli/nf-certbcli-certsrvbackupgetdynamicfilelistw?branch=master) was called. It may be necessary to stop the World Wide Web Publishing Service to allow overwriting the dynamic files.
+13. Call [**CertSrvRestoreEnd**](/windows/win32/Certbcli/nf-certbcli-certsrvrestoreend?branch=master) to end the restore session.
 14. Start the Certificate Services application manually (or wait until the next restart for it to start automatically). When Certificate Services starts, it will determine whether a restore operation has been registered; if a restore operation has been registered, Certificate Services will begin the recovery. Certificate Services will not process any certificate requests until the recovery operation is completed.
 
 > [!Note]  

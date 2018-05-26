@@ -1,14 +1,20 @@
 ---
 title: multipleInstancesPolicyType Simple Type
 description: Defines the instance policy constants for the MultipleInstancesPolicy (settingsType) element.
-ms.assetid: '6e3f83b0-b71e-49c9-9c27-5a37f996746b'
-keywords: ["multipleInstancesPolicyType simple type Task Scheduler"]
+ms.assetid: 6e3f83b0-b71e-49c9-9c27-5a37f996746b
+keywords:
+- multipleInstancesPolicyType simple type Task Scheduler
 topic_type:
 - apiref
 api_name:
 - multipleInstancesPolicyType
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # multipleInstancesPolicyType Simple Type
@@ -57,8 +63,8 @@ The **multipleInstancesPolicyType** simple type defines the following values.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -72,9 +78,9 @@ The **multipleInstancesPolicyType** simple type defines the following values.
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

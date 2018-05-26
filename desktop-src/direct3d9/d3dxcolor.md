@@ -1,7 +1,12 @@
-﻿---
-Description: 'Describes color values.'
-ms.assetid: '53d3176a-f727-498e-8bea-0e30e0a1c66e'
+---
+Description: Describes color values.
+ms.assetid: 53d3176a-f727-498e-8bea-0e30e0a1c66e
 title: D3DXCOLOR structure
+ms.date: 05/31/2018
+ms.topic: structure
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXCOLOR structure

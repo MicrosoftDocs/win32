@@ -1,12 +1,17 @@
 ---
-Description: 'The GetReader method returns a pointer to the output pin''s IAsyncReader interface.'
-ms.assetid: 'bb7ed3f2-a5bc-496c-8a52-f9915a75105e'
-title: 'CPullPin.GetReader method'
+Description: The GetReader method returns a pointer to the output pins IAsyncReader interface.
+ms.assetid: bb7ed3f2-a5bc-496c-8a52-f9915a75105e
+title: CPullPin.GetReader method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CPullPin.GetReader method
 
-The `GetReader` method returns a pointer to the output pin's [**IAsyncReader**](iasyncreader.md) interface.
+The `GetReader` method returns a pointer to the output pin's [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface.
 
 ## Syntax
 
@@ -23,7 +28,7 @@ This method has no parameters.
 
 ## Return value
 
-Returns a pointer to the [**IAsyncReader**](iasyncreader.md) interface.
+Returns a pointer to the [**IAsyncReader**](/windows/win32/Strmif/nn-strmif-iasyncreader?branch=master) interface.
 
 ## Remarks
 
@@ -49,9 +54,9 @@ The method does not check the value of the interface pointer before calling **Ad
 [**CPullPin Class**](cpullpin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

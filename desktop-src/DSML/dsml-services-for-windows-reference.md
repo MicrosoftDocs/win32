@@ -4,11 +4,16 @@ description: DSML Services for Windows Reference
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '5404f3e6-6d0d-4200-82db-ce2b784630aa'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 5404f3e6-6d0d-4200-82db-ce2b784630aa
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["DSML Services for Windows Reference DSML", "DSML Services for Windows, reference"]
+keywords:
+- DSML Services for Windows Reference DSML
+- DSML Services for Windows, reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DSML Services for Windows Reference

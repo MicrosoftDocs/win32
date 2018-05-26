@@ -1,14 +1,20 @@
 ---
 title: D1101 Unknown Handle
-ms.assetid: 'ae40058a-ea17-4262-87dc-0ce852c16c2a'
+ms.assetid: ae40058a-ea17-4262-87dc-0ce852c16c2a
 description: 
-keywords: ["D1101 Unknown Handle Direct2D"]
+keywords:
+- D1101 Unknown Handle Direct2D
 topic_type:
 - apiref
 api_name:
 - D1101 Unknown Handle
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D1101: Unknown Handle

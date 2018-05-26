@@ -1,8 +1,9 @@
 ---
 title: D3DGetDebugInfo function
-description: Note You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store. Gets shader debug information.
-ms.assetid: 'e3cf2fe8-3052-4602-b712-a0ebd13ef3d2'
-keywords: ["D3DGetDebugInfo function HLSL"]
+description: Note You can use this API to develop your Windows Store apps, but you cant use it in apps that you submit to the Windows Store. Gets shader debug information.
+ms.assetid: e3cf2fe8-3052-4602-b712-a0ebd13ef3d2
+keywords:
+- D3DGetDebugInfo function HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - d3dcompiler_47.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DGetDebugInfo function
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > You can use this API to develop your Windows Store apps, but you can't use it in apps that you submit to the Windows Store.
 
- 
+ 
 
 Gets shader debug information.
 
@@ -26,9 +32,9 @@ Gets shader debug information.
 
 ``` syntax
 HRESULT WINAPI D3DGetDebugInfo(
-  in  LPCVOID pSrcData,
-  in  SIZE_T SrcDataSize,
-  out ID3DBlob ppDebugInfo
+  in  LPCVOID pSrcData,
+  in  SIZE_T SrcDataSize,
+  out ID3DBlob ppDebugInfo
 );
 ```
 
@@ -92,9 +98,9 @@ Debug information is embedded in the body of the shader after calling [**D3DComp
 [Functions](dx-graphics-d3dcompiler-reference-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

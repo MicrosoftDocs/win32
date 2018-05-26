@@ -1,7 +1,12 @@
 ---
 title: UI\_PKEY\_StringValue
 description: Identifies the UI\_PKEY\_StringValue property.
-ms.assetid: 'cf4b1c93-0e74-4323-8c09-d7641ea14db2'
+ms.assetid: cf4b1c93-0e74-4323-8c09-d7641ea14db2
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI\_PKEY\_StringValue

@@ -1,8 +1,18 @@
 ---
 title: Still Image Reference
 description: This reference section contains an alphabetical listing of the Still Image API.
-ms.assetid: '3166853a-c0cd-450e-a8f8-b0935a1152d8'
-keywords: ["Still Image (STI),reference", "STI (Still Image),reference", "Still Image API,reference", "still images,Still Image reference", "Still Image reference"]
+ms.assetid: 3166853a-c0cd-450e-a8f8-b0935a1152d8
+keywords:
+- Still Image (STI),reference
+- STI (Still Image),reference
+- Still Image API,reference
+- still images,Still Image reference
+- Still Image reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Still Image Reference

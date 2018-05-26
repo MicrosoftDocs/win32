@@ -1,7 +1,12 @@
 ---
 title: TV Ratings Components
 description: TV Ratings Components
-ms.assetid: '3c17dab4-9ee9-4c7e-bbe0-2f4c5782c015'
+ms.assetid: 3c17dab4-9ee9-4c7e-bbe0-2f4c5782c015
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TV Ratings Components

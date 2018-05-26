@@ -1,7 +1,12 @@
 ---
 Description: Microsoft Corporation
-ms.assetid: '9c09fccf-c591-44f9-b6e5-408826a1d33c'
+ms.assetid: 9c09fccf-c591-44f9-b6e5-408826a1d33c
 title: Microsoft Active Accessibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Microsoft Active Accessibility

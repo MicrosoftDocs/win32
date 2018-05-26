@@ -1,7 +1,12 @@
 ---
-Description: 'An application using a backup authority to store session keys typically follows these steps.'
-ms.assetid: '859310ed-6000-44c8-92f7-974326ce0fc9'
+Description: An application using a backup authority to store session keys typically follows these steps.
+ms.assetid: 859310ed-6000-44c8-92f7-974326ce0fc9
 title: Procedure for Storing Session Keys Using a Backup Authority
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Procedure for Storing Session Keys Using a Backup Authority

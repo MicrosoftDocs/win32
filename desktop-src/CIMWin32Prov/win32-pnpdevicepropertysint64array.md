@@ -1,15 +1,18 @@
-﻿---
-Description: 'Represents a PnP device property consisting of an array of Sint64 elements.'
+---
+Description: Represents a PnP device property consisting of an array of Sint64 elements.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1504A727-FAC0-489A-BC48-D0E7569D3D6D'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1504A727-FAC0-489A-BC48-D0E7569D3D6D
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_PnPDevicePropertySint64Array class'
+title: Win32\_PnPDevicePropertySint64Array class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_PnPDevicePropertySint64Array class

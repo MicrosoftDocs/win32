@@ -1,7 +1,12 @@
 ---
-Description: 'QoS properties for a network adapter.'
-ms.assetid: '26d66930-6025-4b40-b5c9-147f01f514ad'
-title: 'MSFT\_NetAdapterQosSettingData class'
+Description: QoS properties for a network adapter.
+ms.assetid: 26d66930-6025-4b40-b5c9-147f01f514ad
+title: MSFT\_NetAdapterQosSettingData class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MSFT\_NetAdapterQosSettingData class
@@ -16,19 +21,19 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("NetAdapterCim")]
 class MSFT_NetAdapterQosSettingData : MSFT_NetAdapterSettingData
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
-  string  Name;
-  string  InterfaceDescription;
-  uint32  Source;
-  string  SystemName;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
+  string  Name;
+  string  InterfaceDescription;
+  uint32  Source;
+  string  SystemName;
   boolean Enabled;
-  string  HardwareCapabilities;
-  string  CurrentCapabilities;
-  string  OperationalSettings;
-  string  RemoteSettings;
+  string  HardwareCapabilities;
+  string  CurrentCapabilities;
+  string  OperationalSettings;
+  string  RemoteSettings;
 };
 ```
 
@@ -52,7 +57,7 @@ The **MSFT\_NetAdapterQosSettingData** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -258,16 +263,16 @@ The scoping System\\'s Name. This property inherits from [**MSFT\_NetAdapterSett
 |                                     |                                                                                              |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                               |
 | Namespace<br/>                | Root\\StandardCimv2<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>NetAdapterCim.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetAdapterCim.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

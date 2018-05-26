@@ -1,7 +1,12 @@
 ---
-Description: 'Associates a logical port with one or more protocol endpoints that are implemented on it.'
-ms.assetid: '80f294fc-1427-489a-a47e-f4811d0b35fd'
-title: 'CIM\_PortImplementsEndpoint class'
+Description: Associates a logical port with one or more protocol endpoints that are implemented on it.
+ms.assetid: 80f294fc-1427-489a-a47e-f4811d0b35fd
+title: CIM\_PortImplementsEndpoint class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CIM\_PortImplementsEndpoint class
@@ -16,7 +21,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, UMLPackagePath("CIM::Device::Ports"), Version("2.10.0"), AMENDMENT]
 class CIM_PortImplementsEndpoint : CIM_DeviceSAPImplementation
 {
-  CIM_LogicalPort      REF Antecedent;
+  CIM_LogicalPort      REF Antecedent;
   CIM_ProtocolEndpoint REF Dependent;
 };
 ```
@@ -71,8 +76,8 @@ A [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md) that is implemented on th
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
+| Minimum supported client<br/> | Windows 8<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                          |
 | Namespace<br/>                | Root\\standardcimv2<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>NetTCPIP.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NetTCPIP.dll</dt> </dl> |
@@ -86,9 +91,9 @@ A [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md) that is implemented on th
 [**CIM\_DeviceSAPImplementation**](cim-devicesapimplementation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

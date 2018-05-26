@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: '48651ed8-b624-454c-b5bd-14e725a49d35'
-title: 'System.Contact.OtherAddress2Region'
+Description: .
+ms.assetid: 48651ed8-b624-454c-b5bd-14e725a49d35
+title: System.Contact.OtherAddress2Region
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.OtherAddress2Region

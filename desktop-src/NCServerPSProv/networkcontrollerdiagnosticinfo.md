@@ -4,11 +4,13 @@ description: Contains network controller diagnostic information.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '1dd77ee2-2a4e-4a9b-9b8e-9e84044eeb21'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 1dd77ee2-2a4e-4a9b-9b8e-9e84044eeb21
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["NetworkControllerDiagnosticInfo class", "NetworkControllerDiagnosticInfo class, described"]
+keywords:
+- NetworkControllerDiagnosticInfo class
+- NetworkControllerDiagnosticInfo class, described
 topic_type:
 - apiref
 api_name:
@@ -22,6 +24,9 @@ api_location:
 - NCServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NetworkControllerDiagnosticInfo class
@@ -36,11 +41,11 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("NcServerPSProvider"), AMENDMENT]
 class NetworkControllerDiagnosticInfo
 {
-  string                      DiagnosticLogLocation;
+  string                      DiagnosticLogLocation;
   NetworkControllerCredential ShareAccessUserInfo;
-  sint8                       LogLevel;
-  uint32                      LogTimeLimit;
-  uint32                      LogSizeLimit;
+  sint8                       LogLevel;
+  uint32                      LogTimeLimit;
+  uint32                      LogSizeLimit;
 };
 ```
 
@@ -163,16 +168,16 @@ Gets an embedded [**NetworkControllerCredential**](networkcontrollercredential.m
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                    |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\NetworkController\\Server<br/>                                    |
 | MOF<br/>                      | <dl> <dt>NCServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>NCServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

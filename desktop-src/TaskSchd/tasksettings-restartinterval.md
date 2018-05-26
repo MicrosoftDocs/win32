@@ -1,8 +1,11 @@
 ---
 title: TaskSettings.RestartInterval property
 description: For scripting, gets or sets a value that specifies how long the Task Scheduler will attempt to restart the task.
-ms.assetid: '6fe72035-e5f3-4c87-9dce-ba07374e7086'
-keywords: ["RestartInterval property Task Scheduler", "RestartInterval property Task Scheduler , TaskSettings object", "TaskSettings object Task Scheduler , RestartInterval property"]
+ms.assetid: 6fe72035-e5f3-4c87-9dce-ba07374e7086
+keywords:
+- RestartInterval property Task Scheduler
+- RestartInterval property Task Scheduler , TaskSettings object
+- TaskSettings object Task Scheduler , RestartInterval property
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - taskschd.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TaskSettings.RestartInterval property
@@ -42,8 +50,8 @@ When reading or writing XML for a task, this setting is specified in the [**Inte
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |
 | Type library<br/>             | <dl> <dt>Taskschd.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
@@ -56,9 +64,9 @@ When reading or writing XML for a task, this setting is specified in the [**Inte
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

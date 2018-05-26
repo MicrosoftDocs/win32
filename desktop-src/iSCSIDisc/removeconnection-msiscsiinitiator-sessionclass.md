@@ -1,7 +1,12 @@
-﻿---
-Description: 'The RemoveConnection method removes a connection from the specified session.'
-ms.assetid: '3d6e880c-5b4d-4e60-8965-efbcfcfe874f'
-title: 'RemoveConnection method of the MSIscsiInitiator\_SessionClass class'
+---
+Description: The RemoveConnection method removes a connection from the specified session.
+ms.assetid: 3d6e880c-5b4d-4e60-8965-efbcfcfe874f
+title: RemoveConnection method of the MSIscsiInitiator\_SessionClass class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoveConnection method of the MSIscsiInitiator\_SessionClass class

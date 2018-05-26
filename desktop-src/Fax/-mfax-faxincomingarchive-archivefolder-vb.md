@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived inbound faxes.'
-ms.assetid: '0ec3aa0d-6c45-450e-ae12-606d3b6e11ed'
-title: 'FaxIncomingArchive.ArchiveFolder property'
+---
+Description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived inbound faxes.
+ms.assetid: 0ec3aa0d-6c45-450e-ae12-606d3b6e11ed
+title: FaxIncomingArchive.ArchiveFolder property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxIncomingArchive.ArchiveFolder property
@@ -52,7 +57,7 @@ A **String** value that specifies or receives the fully qualified path and file 
 [**FaxIncomingArchive**](-mfax-faxincomingarchive.md)
 </dt> <dt>
 
-[**IFaxIncomingArchive**](-mfax-faxincomingarchive-cpp.md)
+[**IFaxIncomingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxincomingarchive?branch=master)
 </dt> <dt>
 
 [**FaxConfiguration**](-mfax-faxconfiguration.md)

@@ -1,7 +1,12 @@
 ---
 Description: COM+ Object Pooling Tasks
-ms.assetid: '197a01a0-5991-46c0-a954-3f06332220e2'
+ms.assetid: 197a01a0-5991-46c0-a954-3f06332220e2
 title: COM+ Object Pooling Tasks
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Object Pooling Tasks
@@ -19,7 +24,7 @@ The following topics in this section provide step-by-step instructions for using
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -28,9 +33,9 @@ The following topics in this section provide step-by-step instructions for using
 [COM+ Object Pooling Concepts](com--object-pooling-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

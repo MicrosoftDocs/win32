@@ -1,7 +1,12 @@
 ---
 Description: COM+ Tracking
-ms.assetid: 'ad3bdeb5-f303-411a-abfb-ccde3f9a86b9'
+ms.assetid: ad3bdeb5-f303-411a-abfb-ccde3f9a86b9
 title: COM+ Tracking
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # COM+ Tracking
@@ -27,7 +32,7 @@ COM+ tracking calculates and periodically updates a set of commonly-used metrics
 
 
 
- 
+ 
 
 Although COM+ tracking is more limited in terms of data scope and flexibility for calculating metrics, the metrics it provides should be sufficient for a wide variety of administrative and diagnostic programs. Using COM+ tracking, when possible, can simplify the design of these programs. Additionally, using COM+ tracking in production systems can have a significantly lower performance impact, making it more appropriate for real-time monitoring tools.
 
@@ -43,15 +48,15 @@ Tracking data is organized according to the process that generated the data. Dat
 
 COM+ tracking supports two mechanisms for a consumer to obtain tracking data from the tracker server, a COM+ events-based subscription mechanism and a COM local server interface.
 
-Programs that need to be notified periodically with updated tracking data can register a subscription for the [**IComTrackingInfoEvents**](icomtrackinginfoevents.md) event interface. Roughly every three seconds, the tracker server calls each subscriber's [**IComTrackingInfoEvents::OnNewTrackingInfo**](icomtrackinginfoevents-onnewtrackinginfo.md) method, sending the most recent tracking data in the form of a collection object. This object implements the [**IComTrackingInfoCollection**](icomtrackinginfocollection.md) interface, and subscribers can navigate this collection to find the data they are interested in.
+Programs that need to be notified periodically with updated tracking data can register a subscription for the [**IComTrackingInfoEvents**](/windows/win32/ComSvcs/nn-comsvcs-icomtrackinginfoevents?branch=master) event interface. Roughly every three seconds, the tracker server calls each subscriber's [**IComTrackingInfoEvents::OnNewTrackingInfo**](/windows/win32/ComSvcs/nf-comsvcs-icomtrackinginfoevents-onnewtrackinginfo?branch=master) method, sending the most recent tracking data in the form of a collection object. This object implements the [**IComTrackingInfoCollection**](/windows/win32/ComSvcs/nn-comsvcs-icomtrackinginfocollection?branch=master) interface, and subscribers can navigate this collection to find the data they are interested in.
 
 For various reasons, it might make more sense for a program to poll tracker server for data. For example, a monitoring tool may need updates much less frequently than a program that displays status in a user interface. Also, a program may use only a small portion of the tracking data available for the system (for example, a tool might only monitor the performance of instances of a single COM+ application). The subscription model sends each subscriber the tracking data for all COM+ applications in each notification, and it is the responsibility of the subscriber to find the data it wants. Finally, COM+ events is a best-effort event notification mechanism. Reliable message delivery services are not provided, and there is no way for a subscriber to detect that the tracker server failed to send it a notification.
 
-A program that needs greater control over its retrieval of tracking data can use the [**IGetAppTrackerData**](igetapptrackerdata.md) interface of the tracker server.
+A program that needs greater control over its retrieval of tracking data can use the [**IGetAppTrackerData**](/windows/win32/ComSvcs/nn-comsvcs-igetapptrackerdata?branch=master) interface of the tracker server.
 
- 
+ 
 
- 
+ 
 
 
 

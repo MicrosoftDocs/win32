@@ -4,11 +4,15 @@ description: The processing of directory service search results is performed thr
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'ead68dfc-92cb-416d-8adf-2bce6881d528'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-lightweight-directory-services'
+ms.assetid: ead68dfc-92cb-416d-8adf-2bce6881d528
+ms.prod: windows-server-dev
+ms.technology: active-directory-lightweight-directory-services
 ms.tgt_platform: multiple
-keywords: ["Processing Search Results LDAP"]
+keywords:
+- Processing Search Results LDAP
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Processing Search Results

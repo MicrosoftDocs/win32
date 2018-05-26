@@ -1,7 +1,12 @@
 ---
 title: How Notifications Work
 description: How Notifications Work
-ms.assetid: 'faf66654-8233-49ac-a0fa-6cae51df0bea'
+ms.assetid: faf66654-8233-49ac-a0fa-6cae51df0bea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How Notifications Work
@@ -18,10 +23,10 @@ The timing of notifications affects the performance and coordination between an 
 
 <dl> <dt>
 
-[**CreateDataAdviseHolder**](createdataadviseholder.md)
+[**CreateDataAdviseHolder**](/windows/win32/ole2/nf-objbase-createdataadviseholder?branch=master)
 </dt> <dt>
 
-[**CreateOleAdviseHolder**](createoleadviseholder.md)
+[**CreateOleAdviseHolder**](/windows/win32/Ole2/nf-ole2-createoleadviseholder?branch=master)
 </dt> <dt>
 
 [Notifications](notifications.md)

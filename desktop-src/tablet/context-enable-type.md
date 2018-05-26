@@ -1,7 +1,12 @@
 ---
-Description: 'Indicates whether context messages should be sent to the owning window''s window procedure.'
-ms.assetid: '57ecf10a-8a02-4353-b916-9080ebc0b270'
-title: 'CONTEXT\_ENABLE\_TYPE enumeration'
+Description: Indicates whether context messages should be sent to the owning windows window procedure.
+ms.assetid: 57ecf10a-8a02-4353-b916-9080ebc0b270
+title: CONTEXT\_ENABLE\_TYPE enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CONTEXT\_ENABLE\_TYPE enumeration
@@ -13,8 +18,8 @@ Indicates whether context messages should be sent to the owning window's window 
 
 ```C++
 typedef enum _CONTEXT_ENABLE_TYPE { 
-  CONTEXT_ENABLE   = 1,
-  CONTEXT_DISABLE  = 2
+  CONTEXT_ENABLE   = 1,
+  CONTEXT_DISABLE  = 2
 } CONTEXT_ENABLE_TYPE;
 ```
 
@@ -44,7 +49,7 @@ The tablet context should be disabled, preventing any further context messages f
 
 |                                     |                                                               |
 |-------------------------------------|---------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |
 
 
@@ -56,9 +61,9 @@ The tablet context should be disabled, preventing any further context messages f
 [**ITablet::CreateContext Method**](itablet-createcontext.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

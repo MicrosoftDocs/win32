@@ -1,7 +1,12 @@
 ---
 title: Specify the program to open, parameters, and window class
 description: Specify the program to open, parameters, and window class
-ms.assetid: 'F813CE40-4C86-483f-9C5E-18219EB6845E'
+ms.assetid: F813CE40-4C86-483f-9C5E-18219EB6845E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Specify the program to open, parameters, and window class

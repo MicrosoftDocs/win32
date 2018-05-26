@@ -1,14 +1,19 @@
 ---
-Description: 'To apply special formatting to text, initialize a StringFormat object and pass the address of that object to the DrawString method of the Graphics class.'
-ms.assetid: '4014a602-88f6-4fac-b4b2-3dafdcff8f33'
+Description: To apply special formatting to text, initialize a StringFormat object and pass the address of that object to the DrawString method of the Graphics class.
+ms.assetid: 4014a602-88f6-4fac-b4b2-3dafdcff8f33
 title: Formatting Text
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Formatting Text
 
-To apply special formatting to text, initialize a [**StringFormat**](-gdiplus-class-stringformat-class.md) object and pass the address of that object to the [DrawString](-gdiplus-class-graphics-drawstring-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class.
+To apply special formatting to text, initialize a [**StringFormat**](/windows/win32/gdiplusstringformat/nl-gdiplusstringformat-stringformat?branch=master) object and pass the address of that object to the [DrawString](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class.
 
-To draw formatted text in a rectangle, you need [**Graphics**](-gdiplus-class-graphics-class.md), [**FontFamily**](-gdiplus-class-fontfamily-class.md), [**Font**](-gdiplus-class-font-class.md), [**RectF**](-gdiplus-class-rectf-class.md), [**StringFormat**](-gdiplus-class-stringformat-class.md), and [**Brush**](-gdiplus-class-brush-class.md) objects.
+To draw formatted text in a rectangle, you need [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master), [**FontFamily**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-fontfamily?branch=master), [**Font**](/windows/win32/gdiplusheaders/nl-gdiplusheaders-font?branch=master), [**RectF**](/windows/win32/gdiplustypes/nl-gdiplustypes-rectf?branch=master), [**StringFormat**](/windows/win32/gdiplusstringformat/nl-gdiplusstringformat-stringformat?branch=master), and [**Brush**](/windows/win32/gdiplusbrush/nl-gdiplusbrush-brush?branch=master) objects.
 
 -   [Aligning Text](#aligning-text)
 -   [Setting Tab Stops](#setting-tab-stops)
@@ -48,13 +53,13 @@ The following illustration shows the rectangle and the centered text.
 
 ![screen shot of a window containing a rectangle, which contains six lines of text, centered horizontally](images/fontstext3.png)
 
-The preceding code calls two methods of the [**StringFormat**](-gdiplus-class-stringformat-class.md) object: [**StringFormat::SetAlignment**](-gdiplus-class-stringformat-setalignment-align-.md) and [**StringFormat::SetLineAlignment**](-gdiplus-class-stringformat-setlinealignment-align-.md). The call to **StringFormat::SetAlignment** specifies that each line of text is centered in the rectangle given by the third argument passed to the [DrawString](-gdiplus-class-graphics-drawstring-methods.md) method. The call to **StringFormat::SetLineAlignment** specifies that the block of text is centered (top to bottom) in the rectangle.
+The preceding code calls two methods of the [**StringFormat**](/windows/win32/gdiplusstringformat/nl-gdiplusstringformat-stringformat?branch=master) object: [**StringFormat::SetAlignment**](/windows/win32/Gdiplusstringformat/nf-gdiplusstringformat-stringformat-setalignment?branch=master) and [**StringFormat::SetLineAlignment**](/windows/win32/Gdiplusstringformat/nf-gdiplusstringformat-stringformat-setlinealignment?branch=master). The call to **StringFormat::SetAlignment** specifies that each line of text is centered in the rectangle given by the third argument passed to the [DrawString](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method. The call to **StringFormat::SetLineAlignment** specifies that the block of text is centered (top to bottom) in the rectangle.
 
-The value [****StringAlignmentCenter****](-gdiplus-enum-stringalignment.md) is an element of the **StringAlignment** enumeration, which is declared in Gdiplusenums.h.
+The value [****StringAlignmentCenter****](/windows/win32/Gdiplusenums/ne-gdiplusenums-stringalignment?branch=master) is an element of the **StringAlignment** enumeration, which is declared in Gdiplusenums.h.
 
 ## Setting Tab Stops
 
-You can set tab stops for text by calling the [**StringFormat::SetTabStops**](-gdiplus-class-stringformat-settabstops-firsttaboffset-count-tabstops-.md) method of a [**StringFormat**](-gdiplus-class-stringformat-class.md) object and then passing the address of that **StringFormat** object to the [DrawString](-gdiplus-class-graphics-drawstring-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class.
+You can set tab stops for text by calling the [**StringFormat::SetTabStops**](/windows/win32/Gdiplusstringformat/nf-gdiplusstringformat-stringformat-settabstops?branch=master) method of a [**StringFormat**](/windows/win32/gdiplusstringformat/nl-gdiplusstringformat-stringformat?branch=master) object and then passing the address of that **StringFormat** object to the [DrawString](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class.
 
 The following example sets tab stops at 150, 250, and 350. Then the code displays a tabbed list of names and test scores.
 
@@ -90,13 +95,13 @@ The following illustration shows the tabbed text.
 
 ![illustration of a rectangle containing four columns of text; each column is left-alligned](images/fontstext4.png)
 
-The preceding code passes three arguments to the [**StringFormat::SetTabStops**](-gdiplus-class-stringformat-settabstops-firsttaboffset-count-tabstops-.md) method. The third argument is the address of an array containing the tab offsets. The second argument indicates that there are three offsets in that array. The first argument passed to **StringFormat::SetTabStops** is 0, which indicates that the first offset in the array is measured from position 0, the left edge of the bounding rectangle.
+The preceding code passes three arguments to the [**StringFormat::SetTabStops**](/windows/win32/Gdiplusstringformat/nf-gdiplusstringformat-stringformat-settabstops?branch=master) method. The third argument is the address of an array containing the tab offsets. The second argument indicates that there are three offsets in that array. The first argument passed to **StringFormat::SetTabStops** is 0, which indicates that the first offset in the array is measured from position 0, the left edge of the bounding rectangle.
 
 ## Drawing Vertical Text
 
-You can use a [**StringFormat**](-gdiplus-class-stringformat-class.md) object to specify that text be drawn vertically rather than horizontally.
+You can use a [**StringFormat**](/windows/win32/gdiplusstringformat/nl-gdiplusstringformat-stringformat?branch=master) object to specify that text be drawn vertically rather than horizontally.
 
-The following example passes the value [****StringFormatFlagsDirectionVertical****](-gdiplus-enum-stringformatflags.md) to the [**StringFormat::SetFormatFlags**](-gdiplus-class-stringformat-setformatflags-flags-.md) method of a [**StringFormat**](-gdiplus-class-stringformat-class.md) object. The address of that **StringFormat** object is passed to the [DrawString](-gdiplus-class-graphics-drawstring-methods.md) method of the [**Graphics**](-gdiplus-class-graphics-class.md) class. The value [****StringFormatFlagsDirectionVertical****](-gdiplus-enum-stringformatflags.md) is an element of the **StringFormatFlags** enumeration, which is declared in Gdiplusenums.h.
+The following example passes the value [****StringFormatFlagsDirectionVertical****](/windows/win32/Gdiplusenums/ne-gdiplusenums-stringformatflags?branch=master) to the [**StringFormat::SetFormatFlags**](/windows/win32/Gdiplusstringformat/nf-gdiplusstringformat-stringformat-setformatflags?branch=master) method of a [**StringFormat**](/windows/win32/gdiplusstringformat/nl-gdiplusstringformat-stringformat?branch=master) object. The address of that **StringFormat** object is passed to the [DrawString](/windows/win32/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(const wchar,int,const font,const pointf &,const brush)?branch=master) method of the [**Graphics**](/windows/win32/gdiplusgraphics/nl-gdiplusgraphics-graphics?branch=master) class. The value [****StringFormatFlagsDirectionVertical****](/windows/win32/Gdiplusenums/ne-gdiplusenums-stringformatflags?branch=master) is an element of the **StringFormatFlags** enumeration, which is declared in Gdiplusenums.h.
 
 
 ```

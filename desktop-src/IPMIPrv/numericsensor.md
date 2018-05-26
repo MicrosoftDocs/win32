@@ -4,13 +4,16 @@ description: Represents an analog type of sensor.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '28cd780e-3de1-4cc5-8301-33e6aba87722'
-ms.prod: 'windows-server-dev'
+ms.assetid: 28cd780e-3de1-4cc5-8301-33e6aba87722
+ms.prod: windows-server-dev
 ms.technology:
-- 'intelligent-platform-management-interface'
-- 'windows-management-instrumentation'
+- intelligent-platform-management-interface
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["IPMI provider Windows Remote Management", "NumericSensor class", "NumericSensor class, described"]
+keywords:
+- IPMI provider Windows Remote Management
+- NumericSensor class
+- NumericSensor class, described
 topic_type:
 - apiref
 api_name:
@@ -78,6 +81,9 @@ api_location:
 - IpmiPrv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # NumericSensor class
@@ -92,65 +98,65 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("IPMIPrv"), UUID("{7be7579b-4370-4a75-857c-9e789d1aff8a}"), AMENDMENT]
 class NumericSensor : CIM_NumericSensor
 {
-  string   Caption;
-  string   Description;
-  string   ElementName;
+  string   Caption;
+  string   Description;
+  string   ElementName;
   datetime InstallDate;
-  string   Name;
-  uint16   OperationalStatus[];
-  string   StatusDescriptions[];
-  string   Status;
-  uint16   HealthState;
-  string   OtherEnabledState;
-  uint16   RequestedState = 12;
-  uint16   EnabledDefault = 2;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   CreationClassName;
-  string   DeviceID;
-  boolean  PowerManagementSupported;
-  uint16   PowerManagementCapabilities[];
-  uint16   Availability;
-  uint16   StatusInfo;
-  uint32   LastErrorCode;
-  string   ErrorDescription;
-  uint64   TotalPowerOnHours;
-  string   IdentifyingDescriptions[];
-  uint16   AdditionalAvailability[];
-  uint64   MaxQuiesceTime;
-  uint16   SensorType;
-  string   OtherSensorTypeDescription;
-  string   PossibleStates[];
-  string   CurrentState;
-  uint64   PollingInterval;
-  uint16   BaseUnits;
-  sint32   UnitModifier;
-  uint16   RateUnits;
-  sint32   CurrentReading;
-  sint32   NominalReading;
-  sint32   NormalMax;
-  sint32   NormalMin;
-  uint32   Resolution;
-  sint32   Tolerance;
-  sint32   Accuracy;
-  boolean  IsLinear;
-  uint32   Hysteresis;
-  sint32   LowerThresholdNonCritical;
-  uint16   EnabledThresholds[];
-  uint16   SettableThresholds[];
-  uint16   EnabledState = 5;
+  string   Name;
+  uint16   OperationalStatus[];
+  string   StatusDescriptions[];
+  string   Status;
+  uint16   HealthState;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 2;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   CreationClassName;
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[];
+  uint64   MaxQuiesceTime;
+  uint16   SensorType;
+  string   OtherSensorTypeDescription;
+  string   PossibleStates[];
+  string   CurrentState;
+  uint64   PollingInterval;
+  uint16   BaseUnits;
+  sint32   UnitModifier;
+  uint16   RateUnits;
+  sint32   CurrentReading;
+  sint32   NominalReading;
+  sint32   NormalMax;
+  sint32   NormalMin;
+  uint32   Resolution;
+  sint32   Tolerance;
+  sint32   Accuracy;
+  boolean  IsLinear;
+  uint32   Hysteresis;
+  sint32   LowerThresholdNonCritical;
+  uint16   EnabledThresholds[];
+  uint16   SettableThresholds[];
+  uint16   EnabledState = 5;
   datetime TimeOfLastStateChange;
-  boolean  ErrorCleared;
-  sint32   LowerThresholdCritical;
-  sint32   LowerThresholdFatal;
-  sint32   MaxReadable;
-  sint32   MinReadable;
-  string   OtherIdentifyingInfo[];
-  uint64   PowerOnHours;
-  string   SupportedThresholds[];
-  sint32   UpperThresholdCritical;
-  sint32   UpperThresholdNonCritical;
-  sint32   UpperThresholdFatal;
+  boolean  ErrorCleared;
+  sint32   LowerThresholdCritical;
+  sint32   LowerThresholdFatal;
+  sint32   MaxReadable;
+  sint32   MinReadable;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  string   SupportedThresholds[];
+  sint32   UpperThresholdCritical;
+  sint32   UpperThresholdNonCritical;
+  sint32   UpperThresholdFatal;
 };
 ```
 
@@ -252,7 +258,7 @@ This method is deprecated. Instead we recommend that you use the <strong>SetPowe
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1271,14 +1277,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>8–32767</dd> <dt>
+</dt> <dd>8 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -1511,7 +1517,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("[**C
 > [!Note]  
 > This property is deprecated. Instead we recommend that you use the **OperationalStatus** property from the [**CIM\_ManagedSystemElement**](cim_managedsystemelement) class.
 
- 
+ 
 
 Indicates whether an error reported by the **LastErrorCode** property is cleared. This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -1625,7 +1631,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 **DMTF Reserved**
 
 
-</dt> <dd>31–65535</dd> </dl>
+</dt> <dd>31 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2081,14 +2087,14 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 **DMTF Reserved**
 
 
-</dt> <dd>19–32767</dd> <dt>
+</dt> <dd>19 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -2291,7 +2297,7 @@ Qualifiers: [**Deprecated**](https://msdn.microsoft.com/library/aa393651) ("CIM\
 > [!Note]  
 > This property is deprecated. Instead we recommend that you use the **PowerOnHours** property from the**CIM\_PoweredStatisticalData** class.
 
- 
+ 
 
 The number of consecutive hours that the numeric sensor has been powered, since its last power cycle. This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
@@ -2489,14 +2495,14 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 **DMTF Reserved**
 
 
-</dt> <dd>13–32767</dd> <dt>
+</dt> <dd>13 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl>
+</dt> <dd>32768 65535</dd> </dl>
 
 </dd> <dt>
 
@@ -3112,8 +3118,8 @@ All values returned by the numeric sensor are represented in the units obtained 
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\Hardware<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>IpmiPrv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IpmiPrv.dll</dt> </dl> |
@@ -3130,9 +3136,9 @@ All values returned by the numeric sensor are represented in the units obtained 
 [IPMI Provider](ipmi-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Reading and Writing Resource Data
 description: In WPD Automation, a device can read resource data by using a Resource object that is accessed through the Resource property of a WPDObject.
-ms.assetid: '8f1d1a54-bb0d-4746-b44a-98b8b1e85cda'
+ms.assetid: 8f1d1a54-bb0d-4746-b44a-98b8b1e85cda
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Reading and Writing Resource Data

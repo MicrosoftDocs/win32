@@ -1,7 +1,12 @@
 ---
-Description: 'The following tables list formats that are available for each factoid used in Korean.'
-ms.assetid: 'b3ff3082-b692-412e-b3ad-331ac5d9080e'
+Description: The following tables list formats that are available for each factoid used in Korean.
+ms.assetid: b3ff3082-b692-412e-b3ad-331ac5d9080e
 title: Korean Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Korean Factoids
@@ -19,7 +24,7 @@ The following tables list formats that are available for each factoid used in Ko
 
 
 
- 
+ 
 
 ## Korean Factoids, continued
 
@@ -32,7 +37,7 @@ The following tables list formats that are available for each factoid used in Ko
 
 
 
- 
+ 
 
 ## Korean Factoids, continued
 
@@ -44,7 +49,7 @@ The following tables list formats that are available for each factoid used in Ko
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -53,9 +58,9 @@ The following tables list formats that are available for each factoid used in Ko
 [**Factoid Constants**](factoid-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

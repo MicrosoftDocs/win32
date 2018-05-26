@@ -1,8 +1,9 @@
 ---
 title: TTM\_UPDATE message
 description: Forces the current tooltip to be redrawn.
-ms.assetid: 'b3879cca-489f-4811-92f1-a2d61e2e09aa'
-keywords: ["TTM_UPDATE message Windows Controls"]
+ms.assetid: b3879cca-489f-4811-92f1-a2d61e2e09aa
+keywords:
+- TTM_UPDATE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TTM\_UPDATE message
@@ -37,15 +43,15 @@ The return value for this message is not used.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

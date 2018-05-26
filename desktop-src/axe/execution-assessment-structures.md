@@ -1,7 +1,12 @@
 ---
 title: Execution Assessment Structures
 description: AXE Execution Assessment API provides the following structures. The interfaces of the API are implemented with the struct keyword and are documented in this section.
-ms.assetid: 'C7204B7A-359C-4BC1-BD34-A549C33B67BD'
+ms.assetid: C7204B7A-359C-4BC1-BD34-A549C33B67BD
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Execution Assessment Structures

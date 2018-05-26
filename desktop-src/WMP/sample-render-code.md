@@ -1,8 +1,19 @@
 ---
 title: Sample Render Code
 description: Sample Render Code
-ms.assetid: '14978cf4-47fa-4b2e-ba51-799be873dc8a'
-keywords: ["visualizations,sample code", "custom visualizations,sample code", "visualizations,Render function", "custom visualizations,Render function", "Render function,sample code", "samples,Render function for visualizations"]
+ms.assetid: 14978cf4-47fa-4b2e-ba51-799be873dc8a
+keywords:
+- visualizations,sample code
+- custom visualizations,sample code
+- visualizations,Render function
+- custom visualizations,Render function
+- Render function,sample code
+- samples,Render function for visualizations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sample Render Code

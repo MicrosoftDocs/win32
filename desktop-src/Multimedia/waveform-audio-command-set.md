@@ -1,7 +1,12 @@
 ---
 title: Waveform-Audio Command Set
 description: Waveform-Audio Command Set
-ms.assetid: '469e29bf-8f7c-41d8-9d18-08b19cd14110'
+ms.assetid: 469e29bf-8f7c-41d8-9d18-08b19cd14110
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Waveform-Audio Command Set

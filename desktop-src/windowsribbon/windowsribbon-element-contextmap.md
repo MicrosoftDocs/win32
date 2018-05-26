@@ -1,14 +1,20 @@
 ---
 title: ContextMap element
 description: Represents a ContextMenu and MiniToolbar pair mapping.
-ms.assetid: '84379578-24c6-4bf7-8dcf-8e21e5665d29'
-keywords: ["ContextMap element Windows Ribbon"]
+ms.assetid: 84379578-24c6-4bf7-8dcf-8e21e5665d29
+keywords:
+- ContextMap element Windows Ribbon
 topic_type:
 - apiref
 api_name:
 - ContextMap
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ContextMap element
@@ -55,14 +61,14 @@ Represents a [**ContextMenu**](windowsribbon-element-contextmenu.md) and [**Mini
 <td><strong>ContextMenu</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td>Must correspond to an existing [<strong>ContextMenu</strong>](windowsribbon-element-contextmenu.md) <em>Name</em>.<br/> <br/>
+<td>Must correspond to an existing [<strong>ContextMenu</strong>](windowsribbon-element-contextmenu.md) <em>Name</em>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:string)<br/> </dt> <dd> A string composed of any sequence of characters, including white space and line-break characters.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MiniToolbar</strong><br/></td>
 <td>xs:string<br/></td>
 <td>No<br/></td>
-<td>Must correspond to an existing [<strong>MiniToolbar</strong>](windowsribbon-element-minitoolbar.md) <em>Name</em>.<br/> <br/>
+<td>Must correspond to an existing [<strong>MiniToolbar</strong>](windowsribbon-element-minitoolbar.md) <em>Name</em>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs:string)<br/> </dt> <dd> A string composed of any sequence of characters, including white space and line-break characters.<br/> </dd> </dl></td>
 </tr>
 </tbody>
@@ -187,7 +193,7 @@ This section of code shows a set of **ContextMap** control declarations.
 
 |                                     |           |
 |-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
+| Minimum supported system<br/> | Windows 7 |
 | Can be empty                        | Yes       |
 
 
@@ -199,9 +205,9 @@ This section of code shows a set of **ContextMap** control declarations.
 [Context Popup control](windowsribbon-controls-contextpopup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

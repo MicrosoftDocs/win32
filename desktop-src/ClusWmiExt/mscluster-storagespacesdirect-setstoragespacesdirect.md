@@ -4,13 +4,16 @@ description: Sets Storage Spaces Direct.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'ac2046b7-7408-4258-a31a-e7b93f794f6b'
-ms.prod: 'windows-server-dev'
+ms.assetid: ac2046b7-7408-4258-a31a-e7b93f794f6b
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["SetStorageSpacesDirect method", "SetStorageSpacesDirect method, MSCluster_StorageSpacesDirect class", "MSCluster_StorageSpacesDirect class, SetStorageSpacesDirect method"]
+keywords:
+- SetStorageSpacesDirect method
+- SetStorageSpacesDirect method, MSCluster_StorageSpacesDirect class
+- MSCluster_StorageSpacesDirect class, SetStorageSpacesDirect method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetStorageSpacesDirect method of the MSCluster\_StorageSpacesDirect class
@@ -30,11 +36,11 @@ Sets Storage Spaces Direct.
 
 ```mof
 uint32 SetStorageSpacesDirect(
-  [in] uint32  CacheState,
-  [in] uint32  CacheModeHdd,
-  [in] uint32  CacheModeSsd,
-  [in] boolean SkipEligibilityChecks,
-  [in] string  Nodes[]
+  [in] uint32  CacheState,
+  [in] uint32  CacheModeHdd,
+  [in] uint32  CacheModeSsd,
+  [in] boolean SkipEligibilityChecks,
+  [in] string  Nodes[]
 );
 ```
 
@@ -142,7 +148,7 @@ Nodes on which the operation should take place. When omitted operation will be c
 |                                     |                                                                                           |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                            |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>ClusWmiExt.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl>    |
@@ -156,9 +162,9 @@ Nodes on which the operation should take place. When omitted operation will be c
 [**MSCluster\_StorageSpacesDirect**](mscluster-storagespacesdirect.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: Troubleshooting Catalogs
 description: Catalogs for removable media, including CD-ROMs, can be created by using the Microsoft Management Console (MMC) snap-in.
-ms.assetid: '73c713f2-b8e7-45fc-888c-c9dceb82183e'
+ms.assetid: 73c713f2-b8e7-45fc-888c-c9dceb82183e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Troubleshooting Catalogs

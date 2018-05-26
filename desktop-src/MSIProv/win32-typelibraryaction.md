@@ -1,8 +1,10 @@
 ---
 title: Win32\_TypeLibraryAction class
 description: The Win32\_TypeLibraryAction schema WMI class registers type libraries with the system. The action works on each file referenced which is triggered to be installed.
-ms.assetid: '20e2608a-eb43-4df2-9be9-54a0ab270580'
-keywords: ["Win32_TypeLibraryAction class", "Win32_TypeLibraryAction class, described"]
+ms.assetid: 20e2608a-eb43-4df2-9be9-54a0ab270580
+keywords:
+- Win32_TypeLibraryAction class
+- Win32_TypeLibraryAction class, described
 topic_type:
 - apiref
 api_name:
@@ -23,6 +25,11 @@ api_location:
 - Msiprov.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Win32\_TypeLibraryAction class
@@ -32,7 +39,7 @@ The **Win32\_TypeLibraryAction** schema [WMI class](https://msdn.microsoft.com/l
 > [!Note]  
 > For more information about support or requirements for installation on a specific operating system, see [Operating System Availability of WMI Components](https://msdn.microsoft.com/library/aa392726#windows-installer-provider).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties. Properties and methods are in alphabetic order, not MOF order.
 
@@ -76,7 +83,7 @@ The **Win32\_TypeLibraryAction** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -156,7 +163,7 @@ Whether a particular [**CIM\_Action**](https://msdn.microsoft.com/library/aa3865
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -234,7 +241,7 @@ State of a software element.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -314,7 +321,7 @@ Target operating system of the owning software element. The possible values for 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -341,8 +348,8 @@ The **Win32\_TypeLibraryAction** class is derived from [**CIM\_Action**](https:/
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
+| Minimum supported client<br/> | Windows XP<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                         |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>Msi.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Msiprov.dll</dt> </dl> |
@@ -356,9 +363,9 @@ The **Win32\_TypeLibraryAction** class is derived from [**CIM\_Action**](https:/
 [Installed Applications Classes](https://msdn.microsoft.com/library/aa390887)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

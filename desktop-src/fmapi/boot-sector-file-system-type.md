@@ -1,14 +1,20 @@
 ---
 title: BOOT\_SECTOR\_FILE\_SYSTEM\_TYPE enumeration
 description: Defines the valid file system types that can be recognized by the DetectBootSector function.
-ms.assetid: '305cf8e0-a71b-4ba6-b7df-6ac95c792585'
-keywords: ["BOOT_SECTOR_FILE_SYSTEM_TYPE enumeration Files"]
+ms.assetid: 305cf8e0-a71b-4ba6-b7df-6ac95c792585
+keywords:
+- BOOT_SECTOR_FILE_SYSTEM_TYPE enumeration Files
 topic_type:
 - apiref
 api_name:
 - BOOT_SECTOR_FILE_SYSTEM_TYPE
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BOOT\_SECTOR\_FILE\_SYSTEM\_TYPE enumeration
@@ -16,9 +22,9 @@ api_type:
 Defines the valid file system types that can be recognized by the [**DetectBootSector**](detectbootsector.md) function.
 
 > [!Note]  
-> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
+> FMAPI can only be used in the Windows Preinstallation Environment (WinPE) for Windows Vista, Windows Server 2008, and later. Applications that use FMAPI must license WinPE.
 
- 
+ 
 
 ## Syntax
 
@@ -84,8 +90,8 @@ Note that there is no associated header file for this enumeration.
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -96,9 +102,9 @@ Note that there is no associated header file for this enumeration.
 [**BOOT\_SECTOR\_INFO**](boot-sector-info.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

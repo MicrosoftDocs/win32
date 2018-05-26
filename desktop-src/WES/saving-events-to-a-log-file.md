@@ -1,16 +1,21 @@
 ---
 title: Saving Events to a Log File
 description: To save events from a channel to a log file, call the EvtClearLog or EvtExportLog function.
-ms.assetid: '6d71ed15-97e3-4888-b161-c7e31bf3fc6d'
+ms.assetid: 6d71ed15-97e3-4888-b161-c7e31bf3fc6d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Saving Events to a Log File
 
-To save events from a channel to a log file, call the [**EvtClearLog**](evtclearlog.md) or [**EvtExportLog**](evtexportlog.md) function. The [**EvtClearLog**](evtclearlog.md) function copies the events to the log file and deletes them from the channel. The [**EvtExportLog**](evtexportlog.md) function also copies the events to the log file but does not delete them from the channel. To clear a channel, the user must have Read and Clear permissions.
+To save events from a channel to a log file, call the [**EvtClearLog**](/windows/win32/WinEvt/nf-winevt-evtclearlog?branch=master) or [**EvtExportLog**](/windows/win32/WinEvt/nf-winevt-evtexportlog?branch=master) function. The [**EvtClearLog**](/windows/win32/WinEvt/nf-winevt-evtclearlog?branch=master) function copies the events to the log file and deletes them from the channel. The [**EvtExportLog**](/windows/win32/WinEvt/nf-winevt-evtexportlog?branch=master) function also copies the events to the log file but does not delete them from the channel. To clear a channel, the user must have Read and Clear permissions.
 
-You can query events from the log file that you created; however, to render the events, the provider must be registered on the computer. To render events from a log file when the provider is not registered on the computer, you must call the [**EvtArchiveExportedLog**](evtarchiveexportedlog.md), which copies the resources from the provider and adds them to the log file. You can then copy the log file to any computer and successfully query and render its events.
+You can query events from the log file that you created; however, to render the events, the provider must be registered on the computer. To render events from a log file when the provider is not registered on the computer, you must call the [**EvtArchiveExportedLog**](/windows/win32/WinEvt/nf-winevt-evtarchiveexportedlog?branch=master), which copies the resources from the provider and adds them to the log file. You can then copy the log file to any computer and successfully query and render its events.
 
-In addition to using [**EvtExportLog**](evtexportlog.md) to copy events from a channel, you can also use it to relog events from one log file to another log file. You can also use it to merge events from multiple channels if you use a structured XML query but you cannot use it to merge events from multiple log files.
+In addition to using [**EvtExportLog**](/windows/win32/WinEvt/nf-winevt-evtexportlog?branch=master) to copy events from a channel, you can also use it to relog events from one log file to another log file. You can also use it to merge events from multiple channels if you use a structured XML query but you cannot use it to merge events from multiple log files.
 
 The following example shows how to copy events from a channel to a log file. The example then relogs specific events from the newly created log file to a new log file.
 

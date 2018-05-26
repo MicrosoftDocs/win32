@@ -1,14 +1,22 @@
 ---
 title: childrenCollection.Count property
 description: The Count property gets the number of child objects in the collection.
-ms.assetid: '0d52fe4b-2c5d-4032-b7d3-24f274d6b3d1'
-keywords: ["Count property WPD Automation", "Count property WPD Automation , childrenCollection object", "childrenCollection object WPD Automation , Count property"]
+ms.assetid: 0d52fe4b-2c5d-4032-b7d3-24f274d6b3d1
+keywords:
+- Count property WPD Automation
+- Count property WPD Automation , childrenCollection object
+- childrenCollection object WPD Automation , Count property
 topic_type:
 - apiref
 api_name:
 - childrenCollection.Count
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # childrenCollection.Count property
@@ -57,8 +65,8 @@ for (i=0; i < childrenCollection.Count; i++)
 
 |                                     |                                                         |
 |-------------------------------------|---------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |
 
 
 
@@ -69,9 +77,9 @@ for (i=0; i < childrenCollection.Count; i++)
 [**childrenCollection Object**](childrencollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

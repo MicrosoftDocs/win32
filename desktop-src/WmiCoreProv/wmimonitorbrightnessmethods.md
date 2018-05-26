@@ -1,7 +1,12 @@
 ---
-Description: 'Contains methods that manage monitor brightness.'
-ms.assetid: 'e7e4139e-b985-4163-9c95-03008a2cc8cb'
+Description: Contains methods that manage monitor brightness.
+ms.assetid: e7e4139e-b985-4163-9c95-03008a2cc8cb
 title: WmiMonitorBrightnessMethods class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WmiMonitorBrightnessMethods class
@@ -14,7 +19,7 @@ The **WmiMonitorBrightnessMethods** WMI class contains methods that manage monit
 class WmiMonitorBrightnessMethods
 {
   boolean Active;
-  string  InstanceName;
+  string  InstanceName;
 };
 ```
 
@@ -40,7 +45,7 @@ The **WmiMonitorBrightnessMethods** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -83,8 +88,8 @@ Name of the specific monitor instance.
 
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
+| Minimum supported client<br/> | Windows Vista<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                         |
 | Namespace<br/>                | Root\\wmi<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
@@ -98,9 +103,9 @@ Name of the specific monitor instance.
 [**MSMonitorClass**](msmonitorclass.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

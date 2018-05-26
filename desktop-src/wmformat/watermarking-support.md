@@ -1,8 +1,30 @@
 ---
 title: Watermarking Support
 description: Watermarking Support
-ms.assetid: '1fafb15e-57b8-4dd0-8f0c-ccf460f05157'
-keywords: ["Windows Media Format SDK,watermarking support", "Windows Media Format SDK,digital watermarking", "Advanced Systems Format (ASF),watermarking support", "ASF (Advanced Systems Format),watermarking support", "Advanced Systems Format (ASF),digital watermarking", "ASF (Advanced Systems Format),digital watermarking", "Windows Media Format SDK,DMO", "Advanced Systems Format (ASF),DMO", "ASF (Advanced Systems Format),DMO", "Windows Media Format SDK,IWMWatermarkInfo interface", "Advanced Systems Format (ASF),IWMWatermarkInfo interface", "ASF (Advanced Systems Format),IWMWatermarkInfo interface", "watermarking,about", "digital watermarking", "DirectX Media Object (DMO),about", "DMO (DirectX Media Object),about", "IWMWatermarkInfo"]
+ms.assetid: 1fafb15e-57b8-4dd0-8f0c-ccf460f05157
+keywords:
+- Windows Media Format SDK,watermarking support
+- Windows Media Format SDK,digital watermarking
+- Advanced Systems Format (ASF),watermarking support
+- ASF (Advanced Systems Format),watermarking support
+- Advanced Systems Format (ASF),digital watermarking
+- ASF (Advanced Systems Format),digital watermarking
+- Windows Media Format SDK,DMO
+- Advanced Systems Format (ASF),DMO
+- ASF (Advanced Systems Format),DMO
+- Windows Media Format SDK,IWMWatermarkInfo interface
+- Advanced Systems Format (ASF),IWMWatermarkInfo interface
+- ASF (Advanced Systems Format),IWMWatermarkInfo interface
+- watermarking,about
+- digital watermarking
+- DirectX Media Object (DMO),about
+- DMO (DirectX Media Object),about
+- IWMWatermarkInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Watermarking Support
@@ -13,9 +35,9 @@ The Windows Media Format SDK supports the use of digital watermarking [*DMOs*](w
 
 You must specify watermark configuration information when you configure a stream for watermarking. The configuration values will be different depending upon the watermarking DMO. The DMO you use should come with instructions describing the configuration values it supports.
 
-For information about the settings used to specify a watermarking system, see [**IWMWriterAdvanced2::SetInputSetting**](iwmwriteradvanced2-setinputsetting.md)
+For information about the settings used to specify a watermarking system, see [**IWMWriterAdvanced2::SetInputSetting**](/windows/win32/Wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting?branch=master)
 
-You can program your application to enumerate the watermarking DMOs installed on the client computer. For more information, see the [**IWMWatermarkInfo**](iwmwatermarkinfo.md) interface.
+You can program your application to enumerate the watermarking DMOs installed on the client computer. For more information, see the [**IWMWatermarkInfo**](/windows/win32/wmsdkidl/nn-wmsdkidl-iwmwatermarkinfo?branch=master) interface.
 
 ## Related topics
 

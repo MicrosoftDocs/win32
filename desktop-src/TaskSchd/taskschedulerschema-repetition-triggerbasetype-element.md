@@ -1,14 +1,20 @@
 ---
 title: Repetition (triggerBaseType) Element
 description: Specifies how often the task is run and how long the repetition pattern is repeated after the task is started.
-ms.assetid: 'd43c7f9a-3a7b-44a9-901b-9ad18c027b1b'
-keywords: ["Repetition element Task Scheduler"]
+ms.assetid: d43c7f9a-3a7b-44a9-901b-9ad18c027b1b
+keywords:
+- Repetition element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Repetition
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Repetition (triggerBaseType) Element
@@ -63,13 +69,13 @@ If you register a task that contains a trigger with a repetition interval equal 
 4.  The next task starts at the end of the third minute.
 5.  The next task starts at the end of the fourth minute.
 
-**Windows Server 2003, Windows XP and Windows 2000:** If you register a task that contains a trigger with a repetition interval equal to one minute and a repetition duration equal to four minutes, the task will be launched four times.
+**Windows Server 2003, Windows XP and Windows 2000:** If you register a task that contains a trigger with a repetition interval equal to one minute and a repetition duration equal to four minutes, the task will be launched four times.
 
-**Windows Vista, Windows 7, Windows Server 2008, Windows 8 and Windows Server 2012:** Usually, setting the repetition duration to an exact multiple of the interval yields the numbers described above. However, under certain heavy load conditions, it is possible for the duration to timeout before TaskScheduler can launch the final task interval.
+**Windows Vista, Windows 7, Windows Server 2008, Windows 8 and Windows Server 2012:** Usually, setting the repetition duration to an exact multiple of the interval yields the numbers described above. However, under certain heavy load conditions, it is possible for the duration to timeout before TaskScheduler can launch the final task interval.
 
 For scripting development, the repetition pattern is specified using the [**Trigger.Repetition**](trigger-repetition.md) property that is inherited by all the trigger objects.
 
-For C++ development, the repetition pattern is specified using the [**ITRigger::Repetition**](itrigger-repetition.md) property that is inherited by all the trigger interfaces.
+For C++ development, the repetition pattern is specified using the [**ITRigger::Repetition**](/windows/win32/taskschd/nf-taskschd-itrigger-get_repetition?branch=master) property that is inherited by all the trigger interfaces.
 
 ## Examples
 
@@ -99,8 +105,8 @@ The following XML defines a boot trigger element that specifies a repetition pat
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -114,9 +120,9 @@ The following XML defines a boot trigger element that specifies a repetition pat
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: How to Create Rich Edit Controls
 description: To create a rich edit control, call the CreateWindowEx function, specifying the rich edit window class.
-ms.assetid: 'E0F3E458-7907-42BD-841A-CB3D12628AA8'
+ms.assetid: E0F3E458-7907-42BD-841A-CB3D12628AA8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Create Rich Edit Controls
@@ -51,7 +56,7 @@ In Microsoft Visual Studio 2005 and later, it is possible to add a rich edit co
 
 ## Remarks
 
-To use visual styles with these controls, an application must include a manifest and must call the [**InitCommonControls**](initcommoncontrols.md) function at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
+To use visual styles with these controls, an application must include a manifest and must call the [**InitCommonControls**](/windows/win32/Commctrl/nf-commctrl-initcommoncontrols?branch=master) function at the beginning of the program. For information on visual styles, see [Visual Styles](themes-overview.md). For information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
 ## Related topics
 

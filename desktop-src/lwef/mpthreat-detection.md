@@ -1,8 +1,10 @@
 ---
 title: MPTHREAT\_DETECTION enumeration
 description: Possible known bad threat detection types.
-ms.assetid: '14FCA9BD-A9A1-488B-B8E8-88DE0DF18F27'
-keywords: ["MPTHREAT_DETECTION enumeration Legacy Windows Environment Features", "PMPTHREAT_DETECTION enumeration pointer Legacy Windows Environment Features"]
+ms.assetid: 14FCA9BD-A9A1-488B-B8E8-88DE0DF18F27
+keywords:
+- MPTHREAT_DETECTION enumeration Legacy Windows Environment Features
+- PMPTHREAT_DETECTION enumeration pointer Legacy Windows Environment Features
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - MpClient.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MPTHREAT\_DETECTION enumeration
@@ -22,11 +29,11 @@ Possible known bad threat detection types.
 
 ```C++
 typedef enum tagMPTHREAT_DETECTION { 
-  MP_THREAT_DETECTION_CONCRETE    = 0,
-  MP_THREAT_DETECTION_HEURISTIC   = 1,
-  MP_THREAT_DETECTION_GENERIC     = 2,
-  MP_THREAT_DETECTION_SUSPICIOUS  = 4,
-  MP_THREAT_DETECTION_FASTPATH    = 8
+  MP_THREAT_DETECTION_CONCRETE    = 0,
+  MP_THREAT_DETECTION_HEURISTIC   = 1,
+  MP_THREAT_DETECTION_GENERIC     = 2,
+  MP_THREAT_DETECTION_SUSPICIOUS  = 4,
+  MP_THREAT_DETECTION_FASTPATH    = 8
 } MPTHREAT_DETECTION, *PMPTHREAT_DETECTION;
 ```
 
@@ -77,15 +84,15 @@ Threat was detected via fastpath.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

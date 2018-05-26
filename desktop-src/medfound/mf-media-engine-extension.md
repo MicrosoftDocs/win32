@@ -1,12 +1,17 @@
-﻿---
-Description: 'Contains a pointer to the IMFMediaEngineExtension interface.'
-ms.assetid: 'D2F3F41D-086A-4DEB-99D0-07574BC8F0D7'
-title: 'MF\_MEDIA\_ENGINE\_EXTENSION attribute'
+---
+Description: Contains a pointer to the IMFMediaEngineExtension interface.
+ms.assetid: D2F3F41D-086A-4DEB-99D0-07574BC8F0D7
+title: MF\_MEDIA\_ENGINE\_EXTENSION attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MEDIA\_ENGINE\_EXTENSION attribute
 
-Contains a pointer to the [**IMFMediaEngineExtension**](imfmediaengineextension.md) interface.
+Contains a pointer to the [**IMFMediaEngineExtension**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaengineextension?branch=master) interface.
 
 ## Data type
 
@@ -14,15 +19,15 @@ Contains a pointer to the [**IMFMediaEngineExtension**](imfmediaengineextension.
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetUnknown**](imfattributes-getunknown.md).
+To get this attribute, call [**IMFAttributes::GetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getunknown?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetUnknown**](imfattributes-setunknown.md).
+To set this attribute, call [**IMFAttributes::SetUnknown**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setunknown?branch=master).
 
 ## Remarks
 
-This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](imfmediaengineclassfactory-createinstance.md) method to initialize the Media Engine.
+This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/win32/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance?branch=master) method to initialize the Media Engine.
 
-This attribute is optional. Use it to provide an object that implements the [**IMFMediaEngineExtension**](imfmediaengineextension.md) interface. This interface enables the application to load custom media resources.
+This attribute is optional. Use it to provide an object that implements the [**IMFMediaEngineExtension**](/windows/win32/mfmediaengine/nn-mfmediaengine-imfmediaengineextension?branch=master) interface. This interface enables the application to load custom media resources.
 
 ## Requirements
 

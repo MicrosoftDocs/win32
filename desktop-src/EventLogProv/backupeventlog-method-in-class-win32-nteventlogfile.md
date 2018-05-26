@@ -1,7 +1,12 @@
 ---
-Description: 'Saves the specified event log to a backup file.'
-ms.assetid: '00575928-a56e-40fd-9cc2-0a547f42a30d'
-title: 'BackupEventlog method of the Win32\_NTEventlogFile class'
+Description: Saves the specified event log to a backup file.
+ms.assetid: 00575928-a56e-40fd-9cc2-0a547f42a30d
+title: BackupEventlog method of the Win32\_NTEventlogFile class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BackupEventlog method of the Win32\_NTEventlogFile class
@@ -15,7 +20,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 BackupEventlog(
-  [in] string ArchiveFileName
+  [in] string ArchiveFileName
 );
 ```
 
@@ -33,7 +38,7 @@ Path and file name of the backup file to be created.
 > [!Note]  
 > If the *ArchiveFileName* comes from a source that you do not know or trust, then this parameter value should be verified before using it in a call to [**BackupEventlog**](https://msdn.microsoft.com/library/windows/desktop/aa363635).
 
- 
+ 
 
 </dd> </dl>
 
@@ -50,7 +55,7 @@ Path and file name of the backup file to be created.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -61,7 +66,7 @@ The most efficient way to archive event log records is to routinely back up and 
 > [!Note]  
 > When you clear an event log, the operating system does not delete the previous event log file. Instead, Windows creates a new 64 KB log file that replaces the old log file. (The new log file is placed on exactly the same sectors of the disk drive as the old log file.) Because the disk drive sectors are overwritten and filled with new information, you cannot retrieve records from a cleared event log using an undelete tool.
 
- 
+ 
 
 Before you clear an event log, it is a good idea to create a backup of that log. WMI provides a method for backing up event logs. However, this method comes with two important stipulations. For one, you must use the proprietary event log binary log format. To archive event logs in plain-text format, you need to create a query to extract the records and then write the extracted information to a text file.
 
@@ -180,8 +185,8 @@ else
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
+| Minimum supported client<br/> | Windows XP<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                               |
 | Header<br/>                   | <dl> <dt>Winbase.h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>Ntevt.mof</dt> </dl> |
@@ -202,9 +207,9 @@ else
 [WMI Tasks: Event Logs](https://msdn.microsoft.com/library/aa394593)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

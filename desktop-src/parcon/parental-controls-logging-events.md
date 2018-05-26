@@ -1,7 +1,12 @@
 ---
 Description: Parental Controls Logging Events
-ms.assetid: '1381372c-1a60-4fb9-8d71-7518db76af04'
+ms.assetid: 1381372c-1a60-4fb9-8d71-7518db76af04
 title: Parental Controls Logging Events
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Parental Controls Logging Events

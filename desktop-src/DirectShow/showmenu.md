@@ -1,7 +1,12 @@
 ---
-Description: 'The ShowMenu event is sent when the disc enables or disables the showing of a menu.'
-ms.assetid: '7427ff6c-875b-40ce-aa96-3d32b607dc56'
+Description: The ShowMenu event is sent when the disc enables or disables the showing of a menu.
+ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
 title: ShowMenu
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ShowMenu

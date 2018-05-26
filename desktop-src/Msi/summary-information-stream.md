@@ -1,7 +1,12 @@
 ---
-Description: 'The material in this section is intended for developers who are writing their own setup programs who want to learn more about Windows Installer database tables. For general information, see About Windows Installer.'
-ms.assetid: 'b909955f-ddd6-4cf1-8e86-fcf89be80b41'
+Description: The material in this section is intended for developers who are writing their own setup programs who want to learn more about Windows Installer database tables. For general information, see About Windows Installer.
+ms.assetid: b909955f-ddd6-4cf1-8e86-fcf89be80b41
 title: Summary Information Stream
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Summary Information Stream

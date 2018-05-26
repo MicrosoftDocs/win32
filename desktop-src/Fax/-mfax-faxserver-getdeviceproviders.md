@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetDeviceProviders method creates a FaxDeviceProviders object, a collection of fax service providers (FSPs) that are currently registered with the fax service.'
-ms.assetid: '073dea86-f8c5-42f6-a50d-f06a55d791ef'
-title: 'FaxServer.GetDeviceProviders method'
+---
+Description: The GetDeviceProviders method creates a FaxDeviceProviders object, a collection of fax service providers (FSPs) that are currently registered with the fax service.
+ms.assetid: 073dea86-f8c5-42f6-a50d-f06a55d791ef
+title: FaxServer.GetDeviceProviders method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.GetDeviceProviders method
@@ -29,7 +34,7 @@ A [**FaxDeviceProviders**](-mfax-faxdeviceproviders.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -54,7 +59,7 @@ To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

@@ -1,7 +1,12 @@
 ---
 Description: Configuring a Media Source
-ms.assetid: '1378bbe6-be94-4be1-b428-5ec58dabd1fa'
+ms.assetid: 1378bbe6-be94-4be1-b428-5ec58dabd1fa
 title: Configuring a Media Source
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring a Media Source
@@ -48,7 +53,7 @@ To configure a source, perform the following steps.
 
 1.  Call **PSCreateMemoryPropertyStore** to create a new property store. This function returns an **IPropertyStore** pointer.
 2.  Call **IPropertyStore::SetValue** to set one or more configuration properties.
-3.  Call one of the source resolver's creation functions, such as [**IMFSourceResolver::CreateObjectFromURL**](imfsourceresolver-createobjectfromurl.md), and pass the **IPropertyStore** pointer in the *pProps* parameter.
+3.  Call one of the source resolver's creation functions, such as [**IMFSourceResolver::CreateObjectFromURL**](/windows/win32/mfidl/nf-mfidl-imfsourceresolver-createobjectfromurl?branch=master), and pass the **IPropertyStore** pointer in the *pProps* parameter.
 
 
 ```C++

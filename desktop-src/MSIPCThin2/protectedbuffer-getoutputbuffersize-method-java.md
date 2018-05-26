@@ -4,17 +4,21 @@ description: Gets the required minimum output buffer size, in bytes, for the ope
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: '03C96B2B-6EC2-4490-B925-3B5C19FBED1B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: 03C96B2B-6EC2-4490-B925-3B5C19FBED1B
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["ProtectedBuffer.getOutputBufferSize method"]
+keywords:
+- ProtectedBuffer.getOutputBufferSize method
 topic_type:
 - apiref
 api_name:
 - ProtectedBuffer.getOutputBufferSize method
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ProtectedBuffer.getOutputBufferSize method
@@ -45,7 +49,7 @@ public int getOutputBufferSize(
 
 
 
- 
+ 
 
 ## Returns
 
@@ -65,11 +69,11 @@ ProtectedBuffer.java
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,11 +4,16 @@ description: Console taskpads are introduced in MMC 1.2. The user can use a cons
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a2fff9da-ee88-43e9-ba44-97dd1d1f65ec'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: a2fff9da-ee88-43e9-ba44-97dd1d1f65ec
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["MMC 2.0 console taskpads", "console taskpads MMC 2.0"]
+keywords:
+- MMC 2.0 console taskpads
+- console taskpads MMC 2.0
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MMC 2.0 Console Taskpads

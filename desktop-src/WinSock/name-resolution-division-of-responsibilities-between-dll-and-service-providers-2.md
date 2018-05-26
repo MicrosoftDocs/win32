@@ -1,7 +1,12 @@
 ---
-Description: 'The following paragraphs describe how the Ws2\_32.dll and the namespace providers implement the name resolution services supported by the Winsock API.'
-ms.assetid: '25fcb1c2-2d28-41a0-9124-05608f22420f'
+Description: The following paragraphs describe how the Ws2\_32.dll and the namespace providers implement the name resolution services supported by the Winsock API.
+ms.assetid: 25fcb1c2-2d28-41a0-9124-05608f22420f
 title: Name Resolution Division of Responsibilities Between DLL and Service Providers
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Name Resolution Division of Responsibilities Between DLL and Service Providers

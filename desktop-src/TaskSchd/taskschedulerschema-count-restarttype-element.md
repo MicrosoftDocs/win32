@@ -1,14 +1,20 @@
 ---
 title: Count (restartType) Element
 description: Specifies the number of times that the Task Scheduler will attempt to restart the task.
-ms.assetid: '67466c14-c9dd-49c8-a6ed-df7531fc63b8'
-keywords: ["Count element Task Scheduler"]
+ms.assetid: 67466c14-c9dd-49c8-a6ed-df7531fc63b8
+keywords:
+- Count element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - Count
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Count (restartType) Element
@@ -45,7 +51,7 @@ The element is defined by the [**restartType**](taskschedulerschema-restarttype-
 
 If this element is specified, the [**Interval**](taskschedulerschema-interval-restarttype-element.md) element must also be specified to tell the Task Scheduler how long to attempt to restart the task.
 
-For C++ development, see [**RestartCount Property of ITaskSettings**](itasksettings-restartcount.md).
+For C++ development, see [**RestartCount Property of ITaskSettings**](/windows/win32/taskschd/nf-taskschd-itasksettings-get_restartcount?branch=master).
 
 For script development, see [**TaskSettings.RestartCount**](tasksettings-restartcount.md).
 
@@ -55,8 +61,8 @@ For script development, see [**TaskSettings.RestartCount**](tasksettings-restart
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -67,9 +73,9 @@ For script development, see [**TaskSettings.RestartCount**](tasksettings-restart
 [Task Scheduler Schema Elements](task-scheduler-schema-elements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

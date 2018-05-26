@@ -1,15 +1,18 @@
 ---
-Description: 'Retrieves the current size, in bytes, of the free virtual address space available to the process.'
+Description: Retrieves the current size, in bytes, of the free virtual address space available to the process.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '13b3b347-5db1-484f-bd1d-3a604eb6bc5b'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 13b3b347-5db1-484f-bd1d-3a604eb6bc5b
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'GetAvailableVirtualSize method of the Win32\_Process class'
+title: GetAvailableVirtualSize method of the Win32\_Process class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetAvailableVirtualSize method of the Win32\_Process class
@@ -21,7 +24,7 @@ Retrieves the current size, in bytes, of the free virtual address space availabl
 
 ```mof
 uint32 GetAvailableVirtualSize(
-  [out] uint64 AvailableVirtualSize
+  [out] uint64 AvailableVirtualSize
 );
 ```
 
@@ -101,7 +104,7 @@ The specified parameter is invalid.
 **Other**
 </dt> <dd>
 
-22–4294967295
+22 4294967295
 
 For values other than those listed, refer to the [System Error Codes](https://msdn.microsoft.com/library/windows/desktop/ms681381) documentation.
 
@@ -113,8 +116,8 @@ For values other than those listed, refer to the [System Error Codes](https://ms
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -128,9 +131,9 @@ For values other than those listed, refer to the [System Error Codes](https://ms
 [**Win32\_Process**](win32-process.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

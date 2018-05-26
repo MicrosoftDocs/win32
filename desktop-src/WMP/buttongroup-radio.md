@@ -1,14 +1,20 @@
 ---
 title: BUTTONGROUP.radio
 description: The radio attribute specifies or retrieves a value indicating whether the BUTTONGROUP is composed of radio buttons.
-ms.assetid: 'f84479f8-af4f-4ca8-991e-1c2ab39d7110'
-keywords: ["BUTTONGROUP.radio Windows Media Player"]
+ms.assetid: f84479f8-af4f-4ca8-991e-1c2ab39d7110
+keywords:
+- BUTTONGROUP.radio Windows Media Player
 topic_type:
 - apiref
 api_name:
 - BUTTONGROUP.radio
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BUTTONGROUP.radio
@@ -32,7 +38,7 @@ This attribute is a read/write **Boolean**.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -58,9 +64,9 @@ If **radio** is set to true, all the **BUTTONELEMENT** elements in the **BUTTONG
 [**BUTTONGROUP Element**](buttongroup-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies how the property''s labels are displayed.'
-ms.assetid: '9317aff9-abdd-46c2-aaff-62861925713b'
+Description: Specifies how the propertys labels are displayed.
+ms.assetid: 9317aff9-abdd-46c2-aaff-62861925713b
 title: labelInfo
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # labelInfo

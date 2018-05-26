@@ -1,7 +1,12 @@
 ---
 title: Marshaling Rules for user\_marshal and wire\_marshal
 description: The OSF-DCE specification for marshaling embedded pointer types requires that you observe the following restrictions when implementing the type \_UserSize, type \_UserMarshal, and type \_UserUnMarshal functions.
-ms.assetid: '077cdd1a-9630-459e-8749-ab0c70b16ecb'
+ms.assetid: 077cdd1a-9630-459e-8749-ab0c70b16ecb
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Marshaling Rules for user\_marshal and wire\_marshal

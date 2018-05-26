@@ -1,8 +1,9 @@
 ---
 title: MrmCreateConfigInMemory function
 description: Creates new, initialized PRI configuration info (as in-memory data, not as a file) defining the qualifier defaults that you specify.
-ms.assetid: 'D8822D6E-5F68-46A1-B99F-52575DB1D277'
-keywords: ["MrmCreateConfigInMemory function Menus and Other Resources"]
+ms.assetid: D8822D6E-5F68-46A1-B99F-52575DB1D277
+keywords:
+- MrmCreateConfigInMemory function Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Mrmsupport.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmCreateConfigInMemory function
@@ -24,10 +30,10 @@ Creates new, initialized PRI configuration info (as in-memory data, not as a fil
 
 ```C++
 HRESULT HRESULT MrmCreateConfigInMemory(
-  _In_     MrmPlatformVersion platformVersion,
-  _In_opt_ PCWSTR             defaultQualifiers,
-  _Out_    BYTE               **outputXmlData,
-  _Out_    ULONG              *outputXmlSize
+  _In_     MrmPlatformVersion platformVersion,
+  _In_opt_ PCWSTR             defaultQualifiers,
+  _Out_    BYTE               **outputXmlData,
+  _Out_    ULONG              *outputXmlSize
 );
 ```
 
@@ -85,7 +91,7 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Mrmsupport.lib</dt> </dl>       |
@@ -100,9 +106,9 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

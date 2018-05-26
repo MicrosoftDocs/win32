@@ -1,7 +1,12 @@
 ---
 title: To edit the HTML Help ActiveX control in a file
 description: To edit the HTML Help ActiveX control in a file
-ms.assetid: 'FAECE05E-BA14-4cc2-B5E9-B203561D26B4'
+ms.assetid: FAECE05E-BA14-4cc2-B5E9-B203561D26B4
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # To edit the HTML Help ActiveX control in a file
@@ -17,12 +22,12 @@ ms.assetid: 'FAECE05E-BA14-4cc2-B5E9-B203561D26B4'
 
     
 
-     
+     
 
 > [!Note]  
 > For more information about the control, see the [HTML Help ActiveX control reference](html-help-activex-control-reference.md).
 
- 
+ 
 
 ## Related topics
 
@@ -31,9 +36,9 @@ ms.assetid: 'FAECE05E-BA14-4cc2-B5E9-B203561D26B4'
 [About the HTML Help ActiveX Control](html-help-activex-control-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

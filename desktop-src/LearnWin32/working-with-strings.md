@@ -1,7 +1,12 @@
 ---
 title: Working with Strings
 description: .
-ms.assetid: '876ff8bb-67c3-4dcc-aa94-7fbd915c67dc'
+ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Strings

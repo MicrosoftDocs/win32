@@ -1,7 +1,12 @@
-﻿---
-Description: 'Gets an item''s type information.'
-ms.assetid: '9670f184-e8ba-4596-af6d-2967320dfd95'
-title: 'IWiaItem2::GetItemType method'
+---
+Description: Gets an items type information.
+ms.assetid: 9670f184-e8ba-4596-af6d-2967320dfd95
+title: IWiaItem2GetItemType method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWiaItem2::GetItemType method

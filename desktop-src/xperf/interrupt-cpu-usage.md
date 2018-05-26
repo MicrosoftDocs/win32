@@ -1,8 +1,14 @@
 ---
 title: Interrupt CPU Usage
 description: Interrupt CPU Usage
-ms.assetid: '42a86590-9bf3-4fb9-aa36-e7846ea85a58'
-keywords: ["usage graph"]
+ms.assetid: 42a86590-9bf3-4fb9-aa36-e7846ea85a58
+keywords:
+- usage graph
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interrupt CPU Usage

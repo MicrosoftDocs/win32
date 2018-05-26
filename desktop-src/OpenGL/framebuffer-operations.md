@@ -1,8 +1,15 @@
 ---
 title: Framebuffer Operations
 description: To select the buffer into which color values are written, use glDrawBuffer.
-ms.assetid: '5469a183-1dc0-4ec2-bd7e-54060b5a2876'
-keywords: ["OpenGL processing pipeline,framebuffer operations", "framebuffers,operations"]
+ms.assetid: 5469a183-1dc0-4ec2-bd7e-54060b5a2876
+keywords:
+- OpenGL processing pipeline,framebuffer operations
+- framebuffers,operations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Framebuffer Operations

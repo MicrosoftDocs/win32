@@ -1,14 +1,20 @@
 ---
 title: GetSamplePosition function
 description: Returns the sample position for the sample index provided.
-ms.assetid: 'b7821112-9b40-4302-b5c1-03bab531a0ab'
-keywords: ["GetSamplePosition function HLSL"]
+ms.assetid: b7821112-9b40-4302-b5c1-03bab531a0ab
+keywords:
+- GetSamplePosition function HLSL
 topic_type:
 - apiref
 api_name:
 - GetSamplePosition
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetSamplePosition function

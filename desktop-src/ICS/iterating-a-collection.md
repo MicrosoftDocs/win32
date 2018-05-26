@@ -1,13 +1,20 @@
 ---
 title: Iterating a Collection
 description: Iterating a Collection
-ms.assetid: '2a502415-c12a-4d07-9f72-a3967e87d37d'
-keywords: ["Windows Firewall", "using"]
+ms.assetid: 2a502415-c12a-4d07-9f72-a3967e87d37d
+keywords:
+- Windows Firewall
+- using
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Iterating a Collection
 
-The following code example iterates through a collection of [**AuthorizedApplications**](inetfwprofile-authorizedapplications.md) displaying their properties.
+The following code example iterates through a collection of [**AuthorizedApplications**](/windows/previous-versions/Netfw/nf-netfw-inetfwprofile-get_authorizedapplications?branch=master) displaying their properties.
 
 
 ```VB

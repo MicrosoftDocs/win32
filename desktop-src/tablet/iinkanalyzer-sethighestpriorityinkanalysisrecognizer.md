@@ -1,7 +1,12 @@
 ---
-Description: 'Moves the specified IInkAnalysisRecognizer to the first position in the IInkAnalyzer object''s list of ink recognizers.'
-ms.assetid: '9126187f-02dd-4988-91b8-c4f3d3b6f773'
-title: 'IInkAnalyzer::SetHighestPriorityInkAnalysisRecognizer method'
+Description: Moves the specified IInkAnalysisRecognizer to the first position in the IInkAnalyzer objects list of ink recognizers.
+ms.assetid: 9126187f-02dd-4988-91b8-c4f3d3b6f773
+title: IInkAnalyzerSetHighestPriorityInkAnalysisRecognizer method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::SetHighestPriorityInkAnalysisRecognizer method
@@ -13,7 +18,7 @@ Moves the specified [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) to t
 
 ```C++
 HRESULT SetHighestPriorityInkAnalysisRecognizer(
-  [in] IInkAnalysisRecognizer *pInkAnalysisRecognizer
+  [in] IInkAnalysisRecognizer *pInkAnalysisRecognizer
 );
 ```
 
@@ -54,7 +59,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) does not find an [**IInkAnalysisRecog
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -80,9 +85,9 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) does not find an [**IInkAnalysisRecog
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

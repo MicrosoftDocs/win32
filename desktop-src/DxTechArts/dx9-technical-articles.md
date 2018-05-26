@@ -1,7 +1,12 @@
 ---
 title: DirectX Technical Articles
 description: This section contains a series of technical articles about developing games for Microsoft Windows.
-ms.assetid: 'a60ef9a3-2f70-9f8d-95bb-3ab07d01a212'
+ms.assetid: a60ef9a3-2f70-9f8d-95bb-3ab07d01a212
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DirectX Technical Articles
@@ -19,7 +24,7 @@ This section contains a series of technical articles about developing games for 
 | [Best Security Practices in Game Development](https://msdn.microsoft.com/library/windows/desktop/ee416233)<br/>                                               | This article discusses best practices to use in game development.<br/>                                                                                                                                                                                               |
 | [Cascaded Shadow Maps](https://msdn.microsoft.com/library/windows/desktop/ee416307)<br/>                                                                                             | Cascaded shadow maps (CSMs) are the best way to combat one of the most prevalent errors with shadowing: perspective aliasing. <br/>                                                                                                                                  |
 | [Coding For Multiple Cores on Xbox 360 and Microsoft Windows](https://msdn.microsoft.com/library/windows/desktop/ee416321)<br/>                                                 | This topic gives some advice on how to get started with multithreaded programming. <br/>                                                                                                                                                                             |
-| [Common Techniques to Improve Shadow Depth Maps](https://msdn.microsoft.com/library/windows/desktop/ee416324)<br/>                                         | This technical article provides an overview of some common shadow depth map algorithms and common artifacts, and explains several techniques—ranging in difficulty from basic to intermediate—that can be used to increase the quality of standard shadow maps.<br/> |
+| [Common Techniques to Improve Shadow Depth Maps](https://msdn.microsoft.com/library/windows/desktop/ee416324)<br/>                                         | This technical article provides an overview of some common shadow depth map algorithms and common artifacts, and explains several techniques ranging in difficulty from basic to intermediate that can be used to increase the quality of standard shadow maps.<br/> |
 | [Crash Dump Analysis](https://msdn.microsoft.com/library/windows/desktop/ee416349)<br/>                                                                                               | This technical article provides info about how to write and use a minidump.<br/>                                                                                                                                                                                     |
 | [Debugging with Symbols](https://msdn.microsoft.com/library/windows/desktop/ee416588)<br/>                                                                                         | This article provides a high level overview of how to best use symbols in your debugging process. <br/>                                                                                                                                                              |
 | [Direct3D 10 Frequently Asked Questions](https://msdn.microsoft.com/library/windows/desktop/ee416643)<br/>                                                          | This article contains some of the frequently asked questions surrounding Direct3D 10 from the point of view of a developer who is porting an existing application from Direct3D 9 (D3D9) to Direct3D 10 (D3D10). <br/>                                               |
@@ -38,7 +43,7 @@ This section contains a series of technical articles about developing games for 
 | [Introduction to the 10-Foot Experience for Windows Game Developers](https://msdn.microsoft.com/library/windows/desktop/ee418274)<br/> | This article introduces the 10-foot experience and explores the list of things that you should consider first about this new interaction pattern, even if you aren't expecting your game to be played this way.<br/>                                                 |
 | [Making Video Games Accessible: Business Justifications and Design Considerations](https://msdn.microsoft.com/library/windows/desktop/ee415219)<br/>                         | This article is for game content developers and producers who want to reach the accessibility community market by adding basic accessibility features to help people with disabilities or impairments.<br/>                                                          |
 | [Optimizing DVD performance for Windows Games](https://msdn.microsoft.com/library/windows/desktop/ee418705)<br/>                                             | This article discusses how to optimize DVD performance for Windows games.<br/>                                                                                                                                                                                       |
-| [Patching Game Software in Windows XP, Windows Vista, and Windows 7](https://msdn.microsoft.com/library/windows/desktop/ee418715)<br/>                           | This article examines some methods of patching that will work well in Windows Vista and Windows 7, as well as Windows XP. <br/>                                                                                                                                      |
+| [Patching Game Software in Windows XP, Windows Vista, and Windows 7](https://msdn.microsoft.com/library/windows/desktop/ee418715)<br/>                           | This article examines some methods of patching that will work well in Windows Vista and Windows 7, as well as Windows XP. <br/>                                                                                                                                      |
 | [Resource Management Best Practices](https://msdn.microsoft.com/library/windows/desktop/ee418784)<br/>                                                                 | This article discusses best practices for dealing with resources generally, how managed and unmanaged resources behave, and provides some detail on how resources are typically handled by the runtime and drivers. <br/>                                            |
 | [Simplifying Game Installation](https://msdn.microsoft.com/library/windows/desktop/ee418797)<br/>                                                                           | This article outlines some concepts that developers of games for Windows can and should implement to improve the overall experience.<br/>                                                                                                                            |
 | [Taking Advantage of High-Definition Mouse Movement](https://msdn.microsoft.com/library/windows/desktop/ee418864)<br/>                                        | This article focuses on the best way to optimize the performance of high-definition mouse input in a game like a first-person shooter. <br/>                                                                                                                         |
@@ -53,11 +58,11 @@ This section contains a series of technical articles about developing games for 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

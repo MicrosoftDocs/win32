@@ -1,7 +1,12 @@
-﻿---
-Description: 'This section contains information about programming with Microsoft Direct3D 9.'
-ms.assetid: '90a6b8ed-e1ed-4066-9590-1055380ff8e3'
+---
+Description: This section contains information about programming with Microsoft Direct3D 9.
+ms.assetid: 90a6b8ed-e1ed-4066-9590-1055380ff8e3
 title: Direct3D 9 Graphics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct3D 9 Graphics

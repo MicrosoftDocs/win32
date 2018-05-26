@@ -1,12 +1,17 @@
 ---
 Description: Byte Stream Attributes
-ms.assetid: 'd57a57e9-87e4-4f7f-943a-63fd2ad1d1a6'
+ms.assetid: d57a57e9-87e4-4f7f-943a-63fd2ad1d1a6
 title: Byte Stream Attributes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Byte Stream Attributes
 
-The following attributes apply to some byte streams. To find out whether a byte stream supports attributes, query the byte stream object for the [**IMFAttributes**](imfattributes.md) interface.
+The following attributes apply to some byte streams. To find out whether a byte stream supports attributes, query the byte stream object for the [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master) interface.
 
 
 
@@ -38,7 +43,7 @@ The following attributes apply to byte-stream handlers.
 
 <dl> <dt>
 
-[**IMFByteStream**](imfbytestream.md)
+[**IMFByteStream**](/windows/win32/mfobjects/nn-mfobjects-imfbytestream?branch=master)
 </dt> <dt>
 
 [Media Foundation Attributes](media-foundation-attributes.md)

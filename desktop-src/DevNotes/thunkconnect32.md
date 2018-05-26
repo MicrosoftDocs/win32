@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ThunkConnect32 function is used by 16-bit device drivers (for MS-DOS) that call into the 32-bit kernel.'
-ms.assetid: '3376ca67-04ea-4765-a2f4-15a84d5c84d4'
+---
+Description: The ThunkConnect32 function is used by 16-bit device drivers (for MS-DOS) that call into the 32-bit kernel.
+ms.assetid: 3376ca67-04ea-4765-a2f4-15a84d5c84d4
 title: ThunkConnect32 function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ThunkConnect32 function

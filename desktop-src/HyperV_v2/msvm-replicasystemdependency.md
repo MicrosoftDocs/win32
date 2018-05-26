@@ -1,7 +1,12 @@
 ---
-Description: 'Represents an association between an instance of the CIM\_ComputerSystem class that represents the virtual machine replica and an instance of the CIM\_ComputerSystem class that represents the test virtual machine replica.'
-ms.assetid: 'c3216ddd-7f70-4287-9f7e-1fd7a60b1a0a'
-title: 'Msvm\_ReplicaSystemDependency class'
+Description: Represents an association between an instance of the CIM\_ComputerSystem class that represents the virtual machine replica and an instance of the CIM\_ComputerSystem class that represents the test virtual machine replica.
+ms.assetid: c3216ddd-7f70-4287-9f7e-1fd7a60b1a0a
+title: Msvm\_ReplicaSystemDependency class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Msvm\_ReplicaSystemDependency class
@@ -71,17 +76,17 @@ A reference to an instance of the [**CIM\_ComputerSystem**](https://msdn.microso
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |
 | Namespace<br/>                | Root\\Virtualization\\V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

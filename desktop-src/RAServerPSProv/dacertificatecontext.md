@@ -2,13 +2,15 @@
 title: DACertificateContext class
 description: Defines the DirectAccess certificate context object.
 audience: developer
-ms.assetid: 'c832c888-e512-43de-b900-9685357e775a'
-ms.prod: 'windows-server-dev'
+ms.assetid: c832c888-e512-43de-b900-9685357e775a
+ms.prod: windows-server-dev
 ms.technology:
-- 'remote-access'
-- 'windows-management-instrumentation'
+- remote-access
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DACertificateContext class", "DACertificateContext class, described"]
+keywords:
+- DACertificateContext class
+- DACertificateContext class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - RAServerPSProvider.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DACertificateContext class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [ClassVersion("1.0.0"), dynamic, provider("RAServerPSProvider"), AMENDMENT]
 class DACertificateContext
 {
-  uint8   EncodedCertificate[];
+  uint8   EncodedCertificate[];
   boolean PrivateKeyExists;
 };
 ```
@@ -83,16 +88,16 @@ Indicates whether the Private key for the certificate exists.
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                         |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |
 | Namespace<br/>                | Root\\microsoft\\windows\\remoteaccess\\server<br/>                                         |
 | MOF<br/>                      | <dl> <dt>RAServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RAServerPSProvider.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

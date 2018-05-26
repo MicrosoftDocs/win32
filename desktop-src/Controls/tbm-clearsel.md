@@ -1,8 +1,9 @@
 ---
 title: TBM\_CLEARSEL message
 description: Clears the current selection range in a trackbar.
-ms.assetid: 'ccf69fb7-d616-4a7a-8c7c-7a82827758b1'
-keywords: ["TBM_CLEARSEL message Windows Controls"]
+ms.assetid: ccf69fb7-d616-4a7a-8c7c-7a82827758b1
+keywords:
+- TBM_CLEARSEL message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TBM\_CLEARSEL message
@@ -45,8 +51,8 @@ A trackbar can have a selection range only if you specified the [**TBS\_ENABLESE
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -67,9 +73,9 @@ A trackbar can have a selection range only if you specified the [**TBS\_ENABLESE
 [**TBM\_SETSELSTART**](tbm-setselstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

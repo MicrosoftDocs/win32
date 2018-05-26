@@ -2,13 +2,19 @@
 title: callback attribute
 description: The \ callback\ attribute declares a static callback function that exists on the client side of the distributed application. Callback functions provide a way for the server to execute code on the client.
 ms.assetid: c78947ae-614c-4f33-9ab7-1231e5031f80
-keywords: ["callback attribute MIDL"]
+keywords:
+- callback attribute MIDL
 topic_type:
 - apiref
 api_name:
 - callback
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # callback attribute

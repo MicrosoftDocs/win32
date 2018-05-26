@@ -1,13 +1,16 @@
 ---
-Description: 'The Path\_ property of the SWbemObject object returns an SWbemObjectPath object that represents the object path of the current class or instance. This property can be passed as a parameter to methods that require an object path.'
+Description: The Path\_ property of the SWbemObject object returns an SWbemObjectPath object that represents the object path of the current class or instance. This property can be passed as a parameter to methods that require an object path.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '85a55159-5f10-49b5-bc37-39d7b4dfccd7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 85a55159-5f10-49b5-bc37-39d7b4dfccd7
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemObject.Path\_ property'
+title: SWbemObject.Path\_ property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemObject.Path\_ property
@@ -60,8 +63,8 @@ Next
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -70,9 +73,9 @@ Next
 
 
 
- 
+ 
 
- 
+ 
 
 
 

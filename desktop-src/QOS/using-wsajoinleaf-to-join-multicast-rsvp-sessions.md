@@ -1,8 +1,14 @@
 ---
 title: Using WSAJoinLeaf to Join Multicast RSVP Sessions
 description: Multicast UDP receivers are expected to create the multicast UDP socket using the WSASocket function, and indicate that they are multicast receivers in the accompanying (WSASocket) flags.
-ms.assetid: 'c1d5c71a-595a-4e19-97fa-8d39653f11fb'
-keywords: ["Quality of Service QOS , tasks, joining multicast sessions"]
+ms.assetid: c1d5c71a-595a-4e19-97fa-8d39653f11fb
+keywords:
+- Quality of Service QOS , tasks, joining multicast sessions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using WSAJoinLeaf to Join Multicast RSVP Sessions

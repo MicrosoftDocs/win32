@@ -1,8 +1,9 @@
 ---
 title: External.OnSendMessageComplete Event
 description: Note This topic describes functionality designed for use by online stores.
-ms.assetid: '9ae60aa5-4ecd-41dd-aeb0-afb1a3686982'
-keywords: ["External.OnSendMessageComplete Event Windows Media Player"]
+ms.assetid: 9ae60aa5-4ecd-41dd-aeb0-afb1a3686982
+keywords:
+- External.OnSendMessageComplete Event Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # External.OnSendMessageComplete Event
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This topic describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **OnSendMessageComplete** event occurs when the online store has finished processing a message. Script on the discovery page previously sent the message by calling [External.sendMessage](external-sendmessage.md).
 
@@ -59,7 +65,7 @@ The same string that was passed in the **Param** parameter of **sendMessage**.
 
 ## Remarks
 
-The **sendMessage** method calls [IWMPContentPartner::SendMessage](iwmpcontentpartner-sendmessage.md), which returns asynchronously. That is, it returns before the online store finishes processing the message. When the online store finishes processing the message, it calls [IWMPContentPartnerCallback::SendMessageComplete](iwmpcontentpartnercallback-sendmessagecomplete.md), which in turn calls the script's **OnSendMessageComplete** event handler.
+The **sendMessage** method calls [IWMPContentPartner::SendMessage](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage?branch=master), which returns asynchronously. That is, it returns before the online store finishes processing the message. When the online store finishes processing the message, it calls [IWMPContentPartnerCallback::SendMessageComplete](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete?branch=master), which in turn calls the script's **OnSendMessageComplete** event handler.
 
 When the online store calls **IWMPContentPartnerCallback::SendMessageComplete**, it supplies a result code in the *bstrResult* parameter. Windows Media Player does not interpret that result code. Instead, Windows Media Player passes the result code along to the **OnSendMessageComplete** event handler in the *Result* parameter.
 
@@ -86,15 +92,15 @@ None of the parameters (*Msg*, *Param*, *Result*) of the **OnSendMessageComplete
 [**External.sendMessage**](external-sendmessage.md)
 </dt> <dt>
 
-[**IWMPContentPartner::SendMessage**](iwmpcontentpartner-sendmessage.md)
+[**IWMPContentPartner::SendMessage**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage?branch=master)
 </dt> <dt>
 
-[**IWMPContentPartnerCallback::SendMessageComplete**](iwmpcontentpartnercallback-sendmessagecomplete.md)
+[**IWMPContentPartnerCallback::SendMessageComplete**](/windows/win32/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

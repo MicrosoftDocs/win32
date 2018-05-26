@@ -1,8 +1,11 @@
 ---
 title: System.Shell.chooseFolder method
 description: Displays a folder picker dialog box and retrieves a System.Shell.Item object that represents the selected folder.
-ms.assetid: '5da15812-57de-4d00-bd53-2c38e37807ae'
-keywords: ["chooseFolder method Windows Sidebar", "chooseFolder method Windows Sidebar , System.Shell object", "System.Shell object Windows Sidebar , chooseFolder method"]
+ms.assetid: 5da15812-57de-4d00-bd53-2c38e37807ae
+keywords:
+- chooseFolder method Windows Sidebar
+- chooseFolder method Windows Sidebar , System.Shell object
+- System.Shell object Windows Sidebar , chooseFolder method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Sidebar.Exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Shell.chooseFolder method
@@ -50,7 +58,7 @@ objRetVal = System.Shell.chooseFolder(
 > [!Note]  
 > The only supported value is zero (0); effectively no options.
 
- 
+ 
 
 </dd> </dl>
 
@@ -84,18 +92,18 @@ var oSystemShellItem = System.Shell.chooseFolder("SDK Choose Folder Example", 0)
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
-| End of client support<br/>    | Windows 7<br/>                                                                                           |
-| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                           |
+| End of client support<br/>    | Windows 7<br/>                                                                                           |
+| End of server support<br/>    | Windows Server 2008<br/>                                                                                 |
 | IDL<br/>                      | <dl> <dt>Sidebar.idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Sidebar.Exe (version 1.00 or later)</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

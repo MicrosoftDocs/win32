@@ -2,7 +2,34 @@
 title: S
 description: S
 ms.assetid: b9b7ce12-0779-4f8e-8757-a3b9a6ff0d29
-keywords: ["Windows Color System (WCS),glossary", "WCS (Windows Color System),glossary", "image color management,glossary", "color management,glossary", "colors,glossary", "Windows Color System (WCS),definitions", "WCS (Windows Color System),definitions", "image color management,definitions", "color management,definitions", "colors,definitions", "Windows Color System (WCS),terms", "WCS (Windows Color System),terms", "image color management,terms", "color management,terms", "colors,terms", "saturation", "chromo", "shade", "soft proofing", "sRGB color space", "color spaces,sRGB", "subtractive primary colors"]
+keywords:
+- Windows Color System (WCS),glossary
+- WCS (Windows Color System),glossary
+- image color management,glossary
+- color management,glossary
+- colors,glossary
+- Windows Color System (WCS),definitions
+- WCS (Windows Color System),definitions
+- image color management,definitions
+- color management,definitions
+- colors,definitions
+- Windows Color System (WCS),terms
+- WCS (Windows Color System),terms
+- image color management,terms
+- color management,terms
+- colors,terms
+- saturation
+- chromo
+- shade
+- soft proofing
+- sRGB color space
+- color spaces,sRGB
+- subtractive primary colors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # S

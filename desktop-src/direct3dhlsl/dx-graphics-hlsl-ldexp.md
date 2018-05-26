@@ -1,8 +1,9 @@
 ---
 title: ldexp
 description: Returns the result of multiplying the specified value by two, raised to the power of the specified exponent.
-ms.assetid: '6d6fee96-f952-4058-a1ac-3abb98dbd540'
-keywords: ["ldexp HLSL"]
+ms.assetid: 6d6fee96-f952-4058-a1ac-3abb98dbd540
+keywords:
+- ldexp HLSL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - corecrt_math.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ldexp
@@ -24,7 +30,7 @@ Returns the result of multiplying the specified value by two, raised to the powe
 
 
 
- 
+ 
 
 This function uses the following formula: *x* \* 2<sup>exp</sup>
 
@@ -39,7 +45,7 @@ This function uses the following formula: *x* \* 2<sup>exp</sup>
 
 
 
- 
+ 
 
 ## Return Value
 
@@ -57,7 +63,7 @@ The result of multiplying the *x* parameter by two, raised to the power of the *
 
 
 
- 
+ 
 
 ## Minimum Shader Model
 
@@ -72,7 +78,7 @@ This function is supported in the following shader models.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -91,9 +97,9 @@ This function is supported in the following shader models.
 [**Intrinsic Functions (DirectX HLSL)**](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

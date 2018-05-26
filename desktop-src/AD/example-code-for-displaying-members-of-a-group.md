@@ -4,11 +4,15 @@ description: This topic includes code examples that display members of a group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0c066bf2-65ab-47fd-bf1e-0b3192d3b4c4'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0c066bf2-65ab-47fd-bf1e-0b3192d3b4c4
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory examples Active Directory , displaying members of a group"]
+keywords:
+- Active Directory examples Active Directory , displaying members of a group
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Example Code for Displaying Members of a Group

@@ -1,7 +1,12 @@
 ---
 title: Merging Help Files at Run Time
 description: Merging Help Files at Run Time
-ms.assetid: 'DCEA8057-3DCA-4df9-A2F4-48A4C38044BC'
+ms.assetid: DCEA8057-3DCA-4df9-A2F4-48A4C38044BC
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Merging Help Files at Run Time

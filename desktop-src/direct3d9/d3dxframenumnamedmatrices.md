@@ -1,7 +1,12 @@
-﻿---
-Description: 'Counts number of frames in a subtree that have non-null names.'
-ms.assetid: 'bc1cb985-acd1-4ba0-bb3c-3e86fea559da'
+---
+Description: Counts number of frames in a subtree that have non-null names.
+ms.assetid: bc1cb985-acd1-4ba0-bb3c-3e86fea559da
 title: D3DXFrameNumNamedMatrices function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DXFrameNumNamedMatrices function

@@ -1,7 +1,12 @@
 ---
-Description: 'Number of pins on the filter.'
-ms.assetid: 'dcd3a240-beff-4481-8768-a0c0f69f0bfd'
-title: 'CSource::m\_iPins member'
+Description: Number of pins on the filter.
+ms.assetid: dcd3a240-beff-4481-8768-a0c0f69f0bfd
+title: CSourcem\_iPins member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CSource::m\_iPins member
@@ -35,9 +40,9 @@ int m_iPins;
 [**CSource Class**](csource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

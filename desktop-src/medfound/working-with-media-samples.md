@@ -1,14 +1,19 @@
 ---
 Description: Working with Media Samples
-ms.assetid: '10b547b1-6624-4d49-9852-a5fff4eb70e7'
+ms.assetid: 10b547b1-6624-4d49-9852-a5fff4eb70e7
 title: Working with Media Samples
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Working with Media Samples
 
-This topic describes how to use the [**IMFSample**](imfsample.md) interface to manipulate media sample objects. For a general overview of media samples, see [Media Samples](media-samples.md).
+This topic describes how to use the [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) interface to manipulate media sample objects. For a general overview of media samples, see [Media Samples](media-samples.md).
 
-To create a new media sample, call the [**MFCreateSample**](mfcreatesample.md) function. Initially, the sample's buffer list is empty. To add a buffer to the end of the list, call [**IMFSample::AddBuffer**](imfsample-addbuffer.md).
+To create a new media sample, call the [**MFCreateSample**](/windows/win32/mfapi/nf-mfapi-mfcreatesample?branch=master) function. Initially, the sample's buffer list is empty. To add a buffer to the end of the list, call [**IMFSample::AddBuffer**](/windows/win32/mfobjects/nf-mfobjects-imfsample-addbuffer?branch=master).
 
 The following code shows how to create a sample and add a buffer to it.
 
@@ -47,9 +52,9 @@ HRESULT CreateMediaSample(DWORD cbData, IMFSample **ppSample)
 
 
 
-The recommended way to get the buffers from the sample is to call [**IMFSample::ConvertToContiguousBuffer**](imfsample-converttocontiguousbuffer.md). This method returns a single continguous buffer.
+The recommended way to get the buffers from the sample is to call [**IMFSample::ConvertToContiguousBuffer**](/windows/win32/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer?branch=master). This method returns a single continguous buffer.
 
-To iterate through the buffers in the list, start by calling [**IMFSample::GetBufferCount**](imfsample-getbuffercount.md). This method returns the number of buffers. Then call [**IMFSample::GetBufferByIndex**](imfsample-getbufferbyindex.md) and specify the index of the buffer to retrieve. Buffers are indexed from zero.
+To iterate through the buffers in the list, start by calling [**IMFSample::GetBufferCount**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getbuffercount?branch=master). This method returns the number of buffers. Then call [**IMFSample::GetBufferByIndex**](/windows/win32/mfobjects/nf-mfobjects-imfsample-getbufferbyindex?branch=master) and specify the index of the buffer to retrieve. Buffers are indexed from zero.
 
 The following code shows how to iterate through the buffers in a sample.
 
@@ -80,9 +85,9 @@ if (SUCCEEDED(hr))
 
 
 
-Samples have a time stamp and a duration. The time stamp indicates when the data in the sample should be rendered, relative to the presentation clock. The duration is the length of time for which the data should be rendered. Typically the component that generates the data sets the initial time stamp and duration. These values might get modified by the Media Session. To set the time stamp, call [**IMFSample::SetSampleTime**](imfsample-setsampletime.md). To set the duration, call [**IMFSample::SetSampleDuration**](imfsample-setsampleduration.md).
+Samples have a time stamp and a duration. The time stamp indicates when the data in the sample should be rendered, relative to the presentation clock. The duration is the length of time for which the data should be rendered. Typically the component that generates the data sets the initial time stamp and duration. These values might get modified by the Media Session. To set the time stamp, call [**IMFSample::SetSampleTime**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampletime?branch=master). To set the duration, call [**IMFSample::SetSampleDuration**](/windows/win32/mfobjects/nf-mfobjects-imfsample-setsampleduration?branch=master).
 
-Samples can also have attributes, which contain additional information about the sample. For a list of sample attributes, see [Sample Attributes](sample-attributes.md). To set and retrieve attributes, use the [**IMFAttributes Interface**](imfattributes.md), which [**IMFSample**](imfsample.md) inherits.
+Samples can also have attributes, which contain additional information about the sample. For a list of sample attributes, see [Sample Attributes](sample-attributes.md). To set and retrieve attributes, use the [**IMFAttributes Interface**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master), which [**IMFSample**](/windows/win32/mfobjects/nn-mfobjects-imfsample?branch=master) inherits.
 
 ## Related topics
 

@@ -4,17 +4,22 @@ description: Describes the length of time a request from a node with a cluster s
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '228c7803-7623-4019-9dc6-11f9db5f134f'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 228c7803-7623-4019-9dc6-11f9db5f134f
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["RequestReplyTimeout Failover Cluster , for Cluster common properties", "RequestReplyTimeout Failover Cluster"]
+keywords:
+- RequestReplyTimeout Failover Cluster , for Cluster common properties
+- RequestReplyTimeout Failover Cluster
 topic_type:
 - apiref
 api_name:
 - RequestReplyTimeout
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # RequestReplyTimeout
@@ -27,14 +32,14 @@ Describes the length of time a request from a node with a cluster state update w
 |-----------|-------------------------------------------|
 | Data type | **DWORD**                                 |
 | Access    | [Read/write](read-write-properties.md)   |
-| Structure | [**CLUSPROP\_DWORD**](clusprop-dword.md) |
+| Structure | [**CLUSPROP\_DWORD**](/windows/previous-versions/ClusAPI/?branch=master) |
 | Minimum   | 5 minutes                                 |
 | Maximum   | 1440 minutes (24 hours)                   |
 | Default   | 60 minutes                                |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -63,7 +68,7 @@ RequestReplyTimeoutValue.dw        = RequestReplyTimeoutData;
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -74,9 +79,9 @@ RequestReplyTimeoutValue.dw        = RequestReplyTimeoutData;
 [Cluster Common Properties](cluster-common-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,13 +4,15 @@ description: This association establishes a ServiceAccessPoint as a requestor of
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '56b2aaef-02fc-43e7-b303-f03b0b489e7f'
-ms.prod: 'windows-server-dev'
+ms.assetid: 56b2aaef-02fc-43e7-b303-f03b0b489e7f
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_BindsTo class iSCSI Software Target API", "CIM_BindsTo class iSCSI Software Target API , described"]
+keywords:
+- CIM_BindsTo class iSCSI Software Target API
+- CIM_BindsTo class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -21,6 +23,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BindsTo class
@@ -35,7 +40,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, Abstract, Version("2.10.0"), UMLPackagePath("CIM::Core::Service")]
 class CIM_BindsTo : CIM_SAPSAPDependency
 {
-  CIM_ProtocolEndpoint   REF Antecedent;
+  CIM_ProtocolEndpoint   REF Antecedent;
   CIM_ServiceAccessPoint REF Dependent;
 };
 ```
@@ -91,7 +96,7 @@ A [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447) con
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -105,9 +110,9 @@ A [**CIM\_ServiceAccessPoint**](https://msdn.microsoft.com/library/aa388447) con
 [**CIM\_SAPSAPDependency**](cim-sapsapdependency.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: IMimeSecurityCallback interface
 description: IMimeSecurityCallback interface
-ms.assetid: '170aa28f-b714-4b5a-a8f0-aaef75716be2'
-keywords: ["IMimeSecurityCallback interface Windows Mail (formerly Outlook Express)", "IMimeSecurityCallback interface Windows Mail (formerly Outlook Express) , described"]
+ms.assetid: 170aa28f-b714-4b5a-a8f0-aaef75716be2
+keywords:
+- IMimeSecurityCallback interface Windows Mail (formerly Outlook Express)
+- IMimeSecurityCallback interface Windows Mail (formerly Outlook Express) , described
 topic_type:
 - apiref
 api_name:
@@ -11,6 +13,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IMimeSecurityCallback interface
@@ -27,8 +34,8 @@ The **IMimeSecurityCallback** interface inherits from the [**IUnknown**](https:/
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Mimeole.h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Mimeolepriv.idl</dt> </dl>                     |
@@ -36,9 +43,9 @@ The **IMimeSecurityCallback** interface inherits from the [**IUnknown**](https:/
 
 
 
- 
+ 
 
- 
+ 
 
 
 

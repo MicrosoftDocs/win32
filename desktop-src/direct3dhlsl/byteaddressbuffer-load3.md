@@ -1,12 +1,18 @@
 ---
 title: Load3 methods
 description: Gets three values from a read-only buffer indexed in bytes.
-ms.assetid: 'FDC92927-661D-416C-98EA-FD8101110882'
-keywords: ["Load3 methods HLSL"]
+ms.assetid: FDC92927-661D-416C-98EA-FD8101110882
+keywords:
+- Load3 methods HLSL
 topic_type:
 - apiref
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Load3 methods
@@ -31,9 +37,9 @@ Gets three values from a read-only buffer indexed in bytes.
 [**ByteAddressBuffer**](sm5-object-byteaddressbuffer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

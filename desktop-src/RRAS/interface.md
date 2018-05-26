@@ -1,7 +1,12 @@
 ---
 title: Interface
 description: An interface is a logical connection to a network. Each interface is identified by a unique index. Multicast routing protocols (such as MOSPF) deal with all types of interfaces similarly.
-ms.assetid: '593e3b8a-6f26-47c6-aa93-520d36db7a6f'
+ms.assetid: 593e3b8a-6f26-47c6-aa93-520d36db7a6f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interface

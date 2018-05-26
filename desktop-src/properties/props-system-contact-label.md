@@ -1,7 +1,12 @@
 ---
-Description: 'Contact''s calendar event label.'
-ms.assetid: 'c0bc416a-01c6-465b-adb5-46de3bdb2c9a'
-title: 'System.Contact.Label'
+Description: Contacts calendar event label.
+ms.assetid: c0bc416a-01c6-465b-adb5-46de3bdb2c9a
+title: System.Contact.Label
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Contact.Label

@@ -1,8 +1,9 @@
 ---
 title: DownloadItem.type
-description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The type property retrieves the type of the download.
-ms.assetid: '58ffb8a3-5410-492b-bb0f-9130ed209b78'
-keywords: ["DownloadItem.type Windows Media Player"]
+description: Note This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The type property retrieves the type of the download.
+ms.assetid: 58ffb8a3-5410-492b-bb0f-9130ed209b78
+keywords:
+- DownloadItem.type Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - wmp.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DownloadItem.type
@@ -18,7 +24,7 @@ api_type:
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
 
- 
+ 
 
 The **type** property retrieves the type of the download.
 
@@ -46,7 +52,7 @@ This property is a read-only **String** containing one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -70,9 +76,9 @@ Each type of download has advantages and disadvantages. Background downloading a
 [**DownloadItem Object**](downloaditem-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

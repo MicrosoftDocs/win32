@@ -1,15 +1,18 @@
 ---
-Description: 'The EnableWINS &\#32; WMI class static method enables Windows Internet Naming Service (WINS) settings specific to TCP/IP, but independent of the network adapter.'
+Description: The EnableWINS &\#32; WMI class static method enables Windows Internet Naming Service (WINS) settings specific to TCP/IP, but independent of the network adapter.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ce0fb170-978f-4d70-bced-e530e43da719'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ce0fb170-978f-4d70-bced-e530e43da719
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'EnableWINS method of the Win32\_NetworkAdapterConfiguration class'
+title: EnableWINS method of the Win32\_NetworkAdapterConfiguration class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # EnableWINS method of the Win32\_NetworkAdapterConfiguration class
@@ -23,10 +26,10 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 EnableWINS(
-  [in]           boolean DNSEnabledForWINSResolution,
-  [in]           boolean WINSEnableLMHostsLookup,
-  [in, optional] string  WINSHostLookupFile,
-  [in, optional] string  WINSScopeID
+  [in]           boolean DNSEnabledForWINSResolution,
+  [in]           boolean WINSEnableLMHostsLookup,
+  [in, optional] string  WINSHostLookupFile,
+  [in, optional] string  WINSScopeID
 );
 ```
 
@@ -53,7 +56,7 @@ If **true**, local lookup files are used. Lookup files will contain mappings of 
 *WINSHostLookupFile* \[in, optional\]
 </dt> <dd>
 
-Lookup files that contain mappings of IP addresses to host names. If available, the files will be found in %SystemRoot%\\system32\\drivers\\….
+Lookup files that contain mappings of IP addresses to host names. If available, the files will be found in %SystemRoot%\\system32\\drivers\\ .
 
 </dd> <dt>
 
@@ -184,7 +187,7 @@ Returns a value of 0 (zero) for a successful completion when no reboot is requir
 **DHCP not enabled on adapter** (100)
 </dt> <dt>
 
-**Other** (101–4294967295)
+**Other** (101 4294967295)
 </dt> </dl>
 
 ## Examples
@@ -197,8 +200,8 @@ The [Enable WINS for All Network Adapters](https://Gallery.TechNet.Microsoft.Com
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -224,9 +227,9 @@ The [Enable WINS for All Network Adapters](https://Gallery.TechNet.Microsoft.Com
 [IPv6 and IPv4 Support in WMI](https://msdn.microsoft.com/library/aa822883)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

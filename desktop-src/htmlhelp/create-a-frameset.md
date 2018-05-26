@@ -1,7 +1,12 @@
 ---
 title: Create a Frameset
 description: Create a Frameset
-ms.assetid: '769C117F-651C-4de4-9854-7BB4F4350F3A'
+ms.assetid: 769C117F-651C-4de4-9854-7BB4F4350F3A
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Frameset

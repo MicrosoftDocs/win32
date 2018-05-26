@@ -1,8 +1,29 @@
 ---
 title: DataGrid Control Type
 description: This topic provides information about Microsoft UI Automation support for the DataGrid control type.
-ms.assetid: '2381b302-37d6-4159-bb7d-862ae41af695'
-keywords: ["UI Automation,support for DataGrid control type", "UI Automation,DataGrid control type", "UI Automation,tree structure for DataGrid control type", "UI Automation,properties for DataGrid control type", "UI Automation,control patterns for DataGrid control type", "UI Automation,events for DataGrid control type", "tree structures,DataGrid control type", "properties,DataGrid control type", "control patterns,DataGrid control type", "events,DataGrid control type", "support for DataGrid control type", "DataGrid control type", "control types,tree structure for DataGrid control type", "control types,control patterns for DataGrid control type", "control types,support for DataGrid", "control types,DataGrid"]
+ms.assetid: 2381b302-37d6-4159-bb7d-862ae41af695
+keywords:
+- UI Automation,support for DataGrid control type
+- UI Automation,DataGrid control type
+- UI Automation,tree structure for DataGrid control type
+- UI Automation,properties for DataGrid control type
+- UI Automation,control patterns for DataGrid control type
+- UI Automation,events for DataGrid control type
+- tree structures,DataGrid control type
+- properties,DataGrid control type
+- control patterns,DataGrid control type
+- events,DataGrid control type
+- support for DataGrid control type
+- DataGrid control type
+- control types,tree structure for DataGrid control type
+- control types,control patterns for DataGrid control type
+- control types,support for DataGrid
+- control types,DataGrid
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DataGrid Control Type
@@ -96,10 +117,10 @@ The following table lists the UI Automation control patterns required to be supp
 
 | Control Pattern                                         | Support  | Notes                                                                                                                                                                             |
 |---------------------------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IGridProvider**](uiauto-igridprovider.md)           | Required | The data grid control itself always supports the [Grid](uiauto-implementinggrid.md) control pattern because the items that it contains have metadata that is laid out in a grid. |
-| [**IScrollProvider**](uiauto-iscrollprovider.md)       | Depends  | The ability to scroll the data grid depends on content and whether scroll bars are present.                                                                                       |
-| [**ISelectionProvider**](uiauto-iselectionprovider.md) | Depends  | The ability to select the data grid depends on content.                                                                                                                           |
-| [**ITableProvider**](uiauto-itableprovider.md)         | Depends  | A data grid control that has a header should support the [Table](uiauto-implementingtable.md) control pattern.                                                                   |
+| [**IGridProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-igridprovider?branch=master)           | Required | The data grid control itself always supports the [Grid](uiauto-implementinggrid.md) control pattern because the items that it contains have metadata that is laid out in a grid. |
+| [**IScrollProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iscrollprovider?branch=master)       | Depends  | The ability to scroll the data grid depends on content and whether scroll bars are present.                                                                                       |
+| [**ISelectionProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iselectionprovider?branch=master) | Depends  | The ability to select the data grid depends on content.                                                                                                                           |
+| [**ITableProvider**](/windows/win32/UIAutomationCore/nn-uiautomationcore-itableprovider?branch=master)         | Depends  | A data grid control that has a header should support the [Table](uiauto-implementingtable.md) control pattern.                                                                   |
 
 
 

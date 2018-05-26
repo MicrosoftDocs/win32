@@ -4,10 +4,13 @@ description: The following documentation describes Windows Management Infrastruc
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '7F311E1B-5CE6-488D-9411-DE1822D95C3B'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: 7F311E1B-5CE6-488D-9411-DE1822D95C3B
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Windows Management Infrastructure (MI)

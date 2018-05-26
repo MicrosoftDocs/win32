@@ -1,7 +1,12 @@
 ---
-Description: 'This topic describes optimization considerations and strategies with the DirectXMath Library.'
-ms.assetid: 'bcbf8ae1-ed49-fdf7-812d-b2089537ab28'
+Description: This topic describes optimization considerations and strategies with the DirectXMath Library.
+ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Code Optimization with the DirectXMath Library
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Code Optimization with the DirectXMath Library
@@ -48,13 +53,13 @@ The SIMD instruction sets on versions of windows supporting SSE2 typically have 
 
 The DirectXMath Library provides access aligned and unaligned functionality through variant vector types, structure, and functions. These variants are indicated by an "A" at the end of the name.
 
-For example, there are an unaligned [**XMFLOAT4X4**](xmfloat4x4.md) structure and an aligned [**XMFLOAT4X4A**](xmfloat4x4a.md) structure, which are used by the [**XMStoreFloat4**](xmstorefloat4.md) and [**XMStoreFloat4A**](xmstorefloat4a.md) functions respectively.
+For example, there are an unaligned [**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master) structure and an aligned [**XMFLOAT4X4A**](/windows/win32/DirectXMath/?branch=master) structure, which are used by the [**XMStoreFloat4**](/windows/win32/DirectXMath/?branch=master) and [**XMStoreFloat4A**](/windows/win32/DirectXMath/?branch=master) functions respectively.
 
 ## Properly Align Allocations
 
 The aligned versions of the [SSE](http://msdn.microsoft.com/en-us/library/t467de55.aspx) intrinsics underlying the DirectXMath Library are faster than the unaligned.
 
-For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](xmmatrix.md) objects assume those objects are 16-byte aligned. This is automatic for stack based allocations, if code is compiled against the DirectXMath Library using the recommended Windows (see [Use Correct Compilation Settings](#use-correct-compilation-settings)) compiler settings. However, it is important to ensure that heap-allocation containing **XMVECTOR** and **XMMATRIX** objects, or casts to these types, meet these alignment requirements.
+For this reason, DirectXMath operations using [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) objects assume those objects are 16-byte aligned. This is automatic for stack based allocations, if code is compiled against the DirectXMath Library using the recommended Windows (see [Use Correct Compilation Settings](#use-correct-compilation-settings)) compiler settings. However, it is important to ensure that heap-allocation containing **XMVECTOR** and **XMMATRIX** objects, or casts to these types, meet these alignment requirements.
 
 While 64-bit Windows memory allocations are 16-byte aligned, by default on 32 bit versions of Windows memory allocated is only 8-byte aligned. For information on controlling memory alignment, see [\_aligned\_malloc](http://msdn.microsoft.com/en-us/library/8z34s9c6(VS.80).aspx).
 
@@ -67,7 +72,7 @@ When using aligned DirectXMath types with the Standard Template Library (STL), y
 
 ## Avoid Operator Overloads When Possible
 
-As a convenience feature, a number of types such as [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](xmmatrix.md) have operator overloads for common arithmetic operations. Such operator overloads tend to create numerous temporary objects. We recommend that you avoid these operator overloads in performance sensitive code.
+As a convenience feature, a number of types such as [**XMVECTOR**](xmvector-data-type.md) and [**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) have operator overloads for common arithmetic operations. Such operator overloads tend to create numerous temporary objects. We recommend that you avoid these operator overloads in performance sensitive code.
 
 ## Denormals
 
@@ -119,10 +124,10 @@ Template form exists for [**XMVectorSwizzle**](xmvectorswizzle.md), [**XMVectorP
 
 A common use for DirectXMath is to perform graphics computations for use with Direct3D. With Direct3D 10.x and Direct3D 11.x, you can use the DirectXMath library in these direct ways:
 
--   Use the Colors namespace [constants](ovw-xnamath-reference-constants.md) directly in the *ColorRGBA* parameter in a call to the [**ID3D11DeviceContext::ClearRenderTargetView**](direct3d11.id3d11devicecontext_clearrendertargetview) or [**ID3D10Device::ClearRenderTargetView**](direct3d10.id3d10device_clearrendertargetview) method. For Direct3D 9, you must convert to the [**XMCOLOR**](xmcolor.md) type to use it as the *Color* parameter in a call to the [**IDirect3DDevice9::Clear**](direct3d9.idirect3ddevice9__clear) method.
--   Use the [**XMFLOAT4**](xmfloat4.md)/[**XMVECTOR**](xmvector-data-type.md) and [**XMFLOAT4X4**](xmfloat4x4.md)/[**XMMATRIX**](xmmatrix.md) types to setup constant buffer structures for reference by HLSL [**float4**](direct3dhlsl.dx_graphics_hlsl_scalar) or [**matrix**](direct3dhlsl.dx_graphics_hlsl_matrix)/float4x4 types.
+-   Use the Colors namespace [constants](ovw-xnamath-reference-constants.md) directly in the *ColorRGBA* parameter in a call to the [**ID3D11DeviceContext::ClearRenderTargetView**](direct3d11.id3d11devicecontext_clearrendertargetview) or [**ID3D10Device::ClearRenderTargetView**](direct3d10.id3d10device_clearrendertargetview) method. For Direct3D 9, you must convert to the [**XMCOLOR**](/windows/win32/DirectXPackedVector/ns-directxpackedvector-xmcolor?branch=master) type to use it as the *Color* parameter in a call to the [**IDirect3DDevice9::Clear**](direct3d9.idirect3ddevice9__clear) method.
+-   Use the [**XMFLOAT4**](/windows/win32/DirectXMath/?branch=master)/[**XMVECTOR**](xmvector-data-type.md) and [**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master)/[**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) types to setup constant buffer structures for reference by HLSL [**float4**](direct3dhlsl.dx_graphics_hlsl_scalar) or [**matrix**](direct3dhlsl.dx_graphics_hlsl_matrix)/float4x4 types.
     > [!Note]  
-    > [**XMFLOAT4X4**](xmfloat4x4.md)/[**XMMATRIX**](xmmatrix.md) types are in row-major format. Therefore, if you use the /Zpr compiler switch (the [**D3DCOMPILE\_PACK\_MATRIX\_COLUMN\_MAJOR**](direct3dhlsl.d3dcompile_constants#d3dcompile-pack-matrix-column-major) compile flag) or omit the row\_major [keyword](direct3dhlsl.dx_graphics_hlsl_appendix_keywords) when you declare the matrix type in HLSL, you must transpose the matrix when you set it into the constant buffer.
+    > [**XMFLOAT4X4**](/windows/win32/DirectXMath/?branch=master)/[**XMMATRIX**](/windows/win32/DirectXMath/?branch=master) types are in row-major format. Therefore, if you use the /Zpr compiler switch (the [**D3DCOMPILE\_PACK\_MATRIX\_COLUMN\_MAJOR**](direct3dhlsl.d3dcompile_constants#d3dcompile-pack-matrix-column-major) compile flag) or omit the row\_major [keyword](direct3dhlsl.dx_graphics_hlsl_appendix_keywords) when you declare the matrix type in HLSL, you must transpose the matrix when you set it into the constant buffer.
 
      
 

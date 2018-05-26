@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the various COM references for Tablet PC.'
-ms.assetid: '271fe2aa-7b37-400d-9642-74eb09c18e3e'
+Description: This section describes the various COM references for Tablet PC.
+ms.assetid: 271fe2aa-7b37-400d-9642-74eb09c18e3e
 title: Tablet PC API Reference
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Tablet PC API Reference

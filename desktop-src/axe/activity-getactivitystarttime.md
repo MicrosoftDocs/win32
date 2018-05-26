@@ -1,8 +1,11 @@
 ---
 title: Activity GetActivityStartTime method
 description: Returns the activity start time of the Activity.
-ms.assetid: '1427EAE5-4E6E-41C1-8771-2FBA1E91BC18'
-keywords: ["GetActivityStartTime method Access Execution Engine", "GetActivityStartTime method Access Execution Engine , Activity interface", "Activity interface Access Execution Engine , GetActivityStartTime method"]
+ms.assetid: 1427EAE5-4E6E-41C1-8771-2FBA1E91BC18
+keywords:
+- GetActivityStartTime method Access Execution Engine
+- GetActivityStartTime method Access Execution Engine , Activity interface
+- Activity interface Access Execution Engine , GetActivityStartTime method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - AxeCore.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Activity::GetActivityStartTime method
@@ -22,7 +30,7 @@ Returns the activity start time of the **Activity**.
 
 ```C++
 virtual HRESULT GetActivityStartTime(
-  [out] DOUBLE *activityStartTime
+  [out] DOUBLE *activityStartTime
 ) const = 0;
 ```
 
@@ -55,8 +63,8 @@ The activity start time is the value of element **Activity/ActivityStartTime**.
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>AxeRuntime.h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>AxeCore.dll</dt> </dl>  |
 
@@ -69,9 +77,9 @@ The activity start time is the value of element **Activity/ActivityStartTime**.
 [**Activity**](activity-struct.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 title: WFP Architecture
 description: This section provides a brief overview of the Windows Filtering Platform architecture.
-ms.assetid: '17a90f5c-ef82-4b14-b7f1-dd025d5f7303'
+ms.assetid: 17a90f5c-ef82-4b14-b7f1-dd025d5f7303
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP Architecture

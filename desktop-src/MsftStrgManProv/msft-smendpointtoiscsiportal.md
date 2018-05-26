@@ -4,11 +4,13 @@ description: Represents a relationship between an endpoint and an iSCSI portal.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c5bd7892-8eae-4e8e-a719-2a60995b8d0c'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+ms.assetid: c5bd7892-8eae-4e8e-a719-2a60995b8d0c
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["MSFT_SMEndpointToiSCSIPortal class", "MSFT_SMEndpointToiSCSIPortal class, described"]
+keywords:
+- MSFT_SMEndpointToiSCSIPortal class
+- MSFT_SMEndpointToiSCSIPortal class, described
 topic_type:
 - apiref
 api_name:
@@ -19,6 +21,9 @@ api_location:
 - StorageService.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_SMEndpointToiSCSIPortal class
@@ -33,7 +38,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Association, dynamic, provider("WMIStorage")]
 class MSFT_SMEndpointToiSCSIPortal
 {
-  MSFT_SMEndpoint            REF Parent;
+  MSFT_SMEndpoint            REF Parent;
   MSFT_SMiSCSIPortalEndpoint REF Child;
 };
 ```
@@ -89,7 +94,7 @@ A reference to the [**MSFT\_SMEndpoint**](msft-smendpoint.md) object that repres
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                                |
 | Namespace<br/>                | Root\\Microsoft\\Windows\\Storage\\SM<br/>                                              |
 | MOF<br/>                      | <dl> <dt>MsftStrgMan.mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>StorageService.dll</dt> </dl> |
@@ -103,9 +108,9 @@ A reference to the [**MSFT\_SMEndpoint**](msft-smendpoint.md) object that repres
 [Windows Storage Management WMI Provider](windows-storage-management-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

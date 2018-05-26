@@ -4,17 +4,21 @@ description: Type of user notification for the tracked document.
 audience: developer
 author: REDMOND\\bruceper
 manager: REDMOND\\mbaldwin
-ms.assetid: 'C767EC20-098E-434A-BD26-C3C8E91219D0'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-rights-management'
+ms.assetid: C767EC20-098E-434A-BD26-C3C8E91219D0
+ms.prod: windows-server-dev
+ms.technology: active-directory-rights-management
 ms.tgt_platform: multiple
-keywords: ["MSLicenseMetadata notificationType property"]
+keywords:
+- MSLicenseMetadata notificationType property
 topic_type:
 - apiref
 api_name:
 - MSLicenseMetadata notificationType property
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSLicenseMetadata notificationType property
@@ -37,7 +41,7 @@ Type of user notification for the tracked document. This property is required.
 
 
 
- 
+ 
 
 ## Defined in
 
@@ -53,11 +57,11 @@ MSLicenseMetadata.h
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

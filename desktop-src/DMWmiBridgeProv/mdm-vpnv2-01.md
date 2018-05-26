@@ -1,8 +1,10 @@
 ---
 title: MDM\_VPNv2\_01 class
 description: The MDM\_VPNv2\_01 class allows configuration of the VPN profile of the device.
-ms.assetid: 'cfef674b-880c-4c9f-a2c1-6c2cb03189da'
-keywords: ["MDM_VPNv2_01 class", "MDM_VPNv2_01 class, described"]
+ms.assetid: cfef674b-880c-4c9f-a2c1-6c2cb03189da
+keywords:
+- MDM_VPNv2_01 class
+- MDM_VPNv2_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_VPNv2\_01 class
@@ -29,15 +36,15 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [InPartition("local-system", "local-user"), dynamic, provider("DMWmiBridgeProv")]
 class MDM_VPNv2_01
 {
-  string  InstanceID;
-  string  ParentID;
-  string  EdpModeId;
+  string  InstanceID;
+  string  ParentID;
+  string  EdpModeId;
   boolean RememberCredentials;
   boolean AlwaysOn;
-  string  DnsSuffix;
+  string  DnsSuffix;
   boolean ByPassForLocal;
-  string  TrustedNetworkDetection;
-  string  ProfileXML;
+  string  TrustedNetworkDetection;
+  string  ProfileXML;
   boolean LockDown;
 };
 ```
@@ -180,7 +187,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\CIMv2\\MDM\\DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -195,9 +202,9 @@ Access type: Read/write
 [Using PowerShell scripting with the WMI Bridge Provider](https://msdn.microsoft.com/library/windows/hardware/mt614877)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,10 @@
 ---
 title: MDM\_WindowsLicensing\_Subscriptions01\_01 class
 description: The MDM\_WindowsLicensing\_Subscriptions01\_01 class is designed for subscription-related licensing management scenarios.
-ms.assetid: 'dc3b7eae-89d3-4e66-a65f-f100e23ea9fd'
-keywords: ["MDM_WindowsLicensing_Subscriptions01_01 class", "MDM_WindowsLicensing_Subscriptions01_01 class, described"]
+ms.assetid: dc3b7eae-89d3-4e66-a65f-f100e23ea9fd
+keywords:
+- MDM_WindowsLicensing_Subscriptions01_01 class
+- MDM_WindowsLicensing_Subscriptions01_01 class, described
 topic_type:
 - apiref
 api_name:
@@ -13,6 +15,11 @@ api_location:
 - DMWmiBridgeProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MDM\_WindowsLicensing\_Subscriptions01\_01 class
@@ -108,7 +115,7 @@ Access type: Read/write
 
 |                                     |                                                                                                |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                      |
 | Namespace<br/>                | Root\\cimv2\\mdm\\dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv.mof</dt> </dl> |
@@ -116,9 +123,9 @@ Access type: Read/write
 
 
 
- 
+ 
 
- 
+ 
 
 
 

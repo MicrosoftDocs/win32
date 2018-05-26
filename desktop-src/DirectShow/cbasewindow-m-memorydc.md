@@ -1,7 +1,12 @@
 ---
-Description: 'Handle to the memory device context.'
-ms.assetid: 'e6edf3fb-67d6-425e-94fe-18e91c56fabb'
-title: 'CBaseWindow::m\_MemoryDC member'
+Description: Handle to the memory device context.
+ms.assetid: e6edf3fb-67d6-425e-94fe-18e91c56fabb
+title: CBaseWindowm\_MemoryDC member
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseWindow::m\_MemoryDC member
@@ -35,9 +40,9 @@ HDC m_MemoryDC;
 [**CBaseWindow Class**](cbasewindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

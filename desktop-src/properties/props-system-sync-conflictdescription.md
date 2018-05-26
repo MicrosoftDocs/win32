@@ -1,7 +1,12 @@
 ---
-Description: '.'
-ms.assetid: 'a54f8cd9-fe6d-4ddc-bf00-261681cb6366'
-title: 'System.Sync.ConflictDescription'
+Description: .
+ms.assetid: a54f8cd9-fe6d-4ddc-bf00-261681cb6366
+title: System.Sync.ConflictDescription
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Sync.ConflictDescription

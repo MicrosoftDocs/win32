@@ -1,7 +1,12 @@
 ---
 title: System Monitor
-ms.assetid: '0de49670-d828-4af9-b4bd-dd93a9c21516'
+ms.assetid: 0de49670-d828-4af9-b4bd-dd93a9c21516
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System Monitor
@@ -20,7 +25,7 @@ SYSMON is designed for use by C, C++, Visual Basic, and scripting developers.
 
 ## Run-time requirements
 
-SYSMON is available starting with Microsoft Windows 2000.
+SYSMON is available starting with Microsoft Windows 2000.
 
 For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
 
@@ -35,11 +40,11 @@ For information about run-time requirements for a particular programming element
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

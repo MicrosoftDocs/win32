@@ -1,17 +1,32 @@
 ---
 title: About Partnerships
 description: About Partnerships
-ms.assetid: 'd21813ed-efe0-48a2-a1bf-f10f4b7ac3e6'
-keywords: ["Windows Media Player,partnerships", "Windows Media Player object model,partnerships", "object model,partnerships", "Windows Media Player ActiveX control,partnerships", "ActiveX control,partnerships", "Windows Media Player Mobile ActiveX control,partnerships", "Windows Media Player Mobile,partnerships", "synchronizing devices,partnerships", "device synchronization,partnerships", "partnerships between devices and Windows Media Player"]
+ms.assetid: d21813ed-efe0-48a2-a1bf-f10f4b7ac3e6
+keywords:
+- Windows Media Player,partnerships
+- Windows Media Player object model,partnerships
+- object model,partnerships
+- Windows Media Player ActiveX control,partnerships
+- ActiveX control,partnerships
+- Windows Media Player Mobile ActiveX control,partnerships
+- Windows Media Player Mobile,partnerships
+- synchronizing devices,partnerships
+- device synchronization,partnerships
+- partnerships between devices and Windows Media Player
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # About Partnerships
 
-A partnership is a special relationship between a portable device and Windows Media Player. Users can establish a partnership for a particular device by using the Windows Media Player user interface. You can programmatically manage partnerships by using [IWMPSyncDevice::createPartnership](iwmpsyncdevice-createpartnership.md) and [IWMPSyncDevice::deletePartnership](iwmpsyncdevice-deletepartnership.md). The **createPartnership** method starts an asynchronous process that ends when the **CreatePartnershipComplete** event is received through the **IWMPEvents2** interface.
+A partnership is a special relationship between a portable device and Windows Media Player. Users can establish a partnership for a particular device by using the Windows Media Player user interface. You can programmatically manage partnerships by using [IWMPSyncDevice::createPartnership](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-createpartnership?branch=master) and [IWMPSyncDevice::deletePartnership](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-deletepartnership?branch=master). The **createPartnership** method starts an asynchronous process that ends when the **CreatePartnershipComplete** event is received through the **IWMPEvents2** interface.
 
-Windows Media Player 10 or later supports creating partnerships with up to 16 devices. Each partnership has an associated partnership index. You can retrieve the partnership index for a particular device by calling [IWMPSyncDevice::get\_partnershipIndex](iwmpsyncdevice-get-partnershipindex.md). Partnership indices are numbered from 1 to 16. When a particular device does not have a partnership with Windows Media Player, **getPartnershipIndex** returns zero for the index.
+Windows Media Player 10 or later supports creating partnerships with up to 16 devices. Each partnership has an associated partnership index. You can retrieve the partnership index for a particular device by calling [IWMPSyncDevice::get\_partnershipIndex](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-get_partnershipindex?branch=master). Partnership indices are numbered from 1 to 16. When a particular device does not have a partnership with Windows Media Player, **getPartnershipIndex** returns zero for the index.
 
-You can retrieve the partnership status of a particular device by calling [IWMPSyncDevice::get\_status](iwmpsyncdevice-get-status.md) and then inspecting the [WMPDeviceStatus](wmpdevicestatus.md) value retrieved. Windows Media Player allows one partnership with one user's library on one computer for each device. This means that creating a new partnership destroys any existing partnership the current device might have with another computer. To know when the status changes for a device, you can receive the **DeviceStatusChange** event.
+You can retrieve the partnership status of a particular device by calling [IWMPSyncDevice::get\_status](/windows/win32/wmp/nf-wmp-iwmpsyncdevice-get_status?branch=master) and then inspecting the [WMPDeviceStatus](/windows/win32/wmp/ne-wmp-wmpdevicestatus?branch=master) value retrieved. Windows Media Player allows one partnership with one user's library on one computer for each device. This means that creating a new partnership destroys any existing partnership the current device might have with another computer. To know when the status changes for a device, you can receive the **DeviceStatusChange** event.
 
 Windows Media Player cannot create a partnership with a device having the status **wmpdsManualDevice**.
 
@@ -22,7 +37,7 @@ Windows Media Player cannot create a partnership with a device having the status
 [**About Device Synchronization**](about-device-synchronization.md)
 </dt> <dt>
 
-[**IWMPEvents2 Interface**](iwmpevents2-interface.md)
+[**IWMPEvents2 Interface**](/windows/win32/wmp/nn-wmp-iwmpevents2?branch=master)
 </dt> <dt>
 
 [**Working with Portable Devices**](working-with-portable-devices.md)

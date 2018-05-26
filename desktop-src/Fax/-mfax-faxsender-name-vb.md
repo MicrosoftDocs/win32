@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Name property is a null-terminated string that contains the name of the sender.'
-ms.assetid: '827f794d-60e9-48e4-b3d5-050bbf0d5460'
-title: 'FaxSender.Name property'
+---
+Description: The Name property is a null-terminated string that contains the name of the sender.
+ms.assetid: 827f794d-60e9-48e4-b3d5-050bbf0d5460
+title: FaxSender.Name property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxSender.Name property
@@ -46,7 +51,7 @@ A **String** that specifies or receives the name of the sender.
 [**FaxSender**](-mfax-faxsender.md)
 </dt> <dt>
 
-[**IFaxSender**](-mfax-faxsender-cpp.md)
+[**IFaxSender**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxsender?branch=master)
 </dt> </dl>
 
  

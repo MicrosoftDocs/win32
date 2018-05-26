@@ -1,7 +1,12 @@
 ---
 title: Notifications
 description: Notifications
-ms.assetid: '060c012c-5f74-4a4c-bec3-e9072f920442'
+ms.assetid: 060c012c-5f74-4a4c-bec3-e9072f920442
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Notifications

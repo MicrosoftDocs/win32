@@ -1,8 +1,13 @@
 ---
 Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-Robots: 'noindex, nofollow'
-ms.assetid: '7eb1d433-21db-45cc-a141-13a89993e30c'
+Robots: noindex, nofollow
+ms.assetid: 7eb1d433-21db-45cc-a141-13a89993e30c
 title: E
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # E
@@ -14,7 +19,7 @@ title: E
 <span id="base.vssgloss_explicit_component_inclusion"></span><span id="BASE.VSSGLOSS_EXPLICIT_COMPONENT_INCLUSION"></span>**explicit component inclusion**
 </dt> <dd>
 
-Adding of a component's information to a requester's Backup Components Document when it participates in a backup or restore operation. Requesters use [**IVssBackupComponents::AddComponent**](ivssbackupcomponents-addcomponent.md) to explicitly include a component in a backup operation, and [**IVssBackupComponents::SetSelectedForRestore**](ivssbackupcomponents-setselectedforrestore.md) or [**IVssBackupComponents::AddRestoreSubcomponent**](ivssbackupcomponents-addrestoresubcomponent.md) to explicitly include a component in a restore operation.
+Adding of a component's information to a requester's Backup Components Document when it participates in a backup or restore operation. Requesters use [**IVssBackupComponents::AddComponent**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addcomponent?branch=master) to explicitly include a component in a backup operation, and [**IVssBackupComponents::SetSelectedForRestore**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-setselectedforrestore?branch=master) or [**IVssBackupComponents::AddRestoreSubcomponent**](/windows/win32/VsBackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent?branch=master) to explicitly include a component in a restore operation.
 
 If any component of a writer is backed up or restored, all nonselectable components without any selectable ancestors must be explicitly included in a backup or restore operation.
 

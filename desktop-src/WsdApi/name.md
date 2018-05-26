@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies a qualified name in the namespace.'
-ms.assetid: '4e476be2-fa73-4b3e-b0cc-799c8d16b5de'
+Description: Specifies a qualified name in the namespace.
+ms.assetid: 4e476be2-fa73-4b3e-b0cc-799c8d16b5de
 title: name element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # name element
@@ -38,14 +43,14 @@ There are no child elements.
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

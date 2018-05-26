@@ -1,7 +1,12 @@
 ---
 title: Extended Error Information Detection Locations
 description: Remote Procedure Call (RPC) extended error information detection locations for Windows XP.
-ms.assetid: '73c4d044-363f-4bf5-a8ea-37d8a227183a'
+ms.assetid: 73c4d044-363f-4bf5-a8ea-37d8a227183a
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Extended Error Information Detection Locations
@@ -12,7 +17,7 @@ The following table lists the Extended Error Information detection locations for
 
 | Code | Name                                                 | Description and parameters                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 10   | DealWithLRPCRequest10                                | The server is not listening. The first parameter is a ULONG indicating whether [**RpcServerListen**](rpcserverlisten.md) has been called, and the second parameter is the number of registered auto listen interfaces.                                                                                                                                                                                                                                                                                                 |
+| 10   | DealWithLRPCRequest10                                | The server is not listening. The first parameter is a ULONG indicating whether [**RpcServerListen**](/windows/win32/Rpcdce/nf-rpcdce-rpcserverlisten?branch=master) has been called, and the second parameter is the number of registered auto listen interfaces.                                                                                                                                                                                                                                                                                                 |
 | 11   | DealWithLRPCRequest20                                | Allocation/initialization of a server-side call object failed.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 12   | WithLRPCRequest30                                    | A call could not be queued on the server due to lack of memory.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | 13   | WithLRPCRequest40                                    | A thread could not be created on the server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |

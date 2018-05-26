@@ -1,8 +1,9 @@
 ---
 title: StorPortSetPowerSettingNotificationGuids routine
 description: The StorPortSetPowerSettingNotificationGuids routine enables a miniport to receive power setting notifications. The miniport registers an array of GUIDs which identify the power settings to receive power change notifications for.
-ms.assetid: 'FB74E774-8CDE-4DE4-942E-10AF4BEFF63C'
-keywords: ["StorPortSetPowerSettingNotificationGuids routine Storage Devices"]
+ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
+keywords:
+- StorPortSetPowerSettingNotificationGuids routine Storage Devices
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - storport.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # StorPortSetPowerSettingNotificationGuids routine
@@ -22,9 +28,9 @@ The **StorPortSetPowerSettingNotificationGuids** routine enables a miniport to r
 
 ```C++
 ULONG StorPortSetPowerSettingNotificationGuids(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ ULONG  GuidCount,
-  _In_ LPGUID Guid
+  _In_ PVOID  HwDeviceExtension,
+  _In_ ULONG  GuidCount,
+  _In_ LPGUID Guid
 );
 ```
 
@@ -74,7 +80,7 @@ Configures the link power management mode for disk and storage devices that are 
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,7 +103,7 @@ The period of AHCI link idle time before the link is put into a slumber state wh
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -118,7 +124,7 @@ The **StorPortSetPowerSettingNotificationGuids** routine returns one of these st
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -135,7 +141,7 @@ The AHCI Link Power management settings are part of the Disk Settings subgroup (
 |                            |                                                                                                                                         |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Target platform<br/> | <dl> <dt>[Universal](http://go.microsoft.com/fwlink/p/?linkid=531356)</dt> </dl> |
-| Version<br/>         | Available in starting with Windows 8.<br/>                                                                                        |
+| Version<br/>         | Available in starting with Windows 8.<br/>                                                                                        |
 | Header<br/>          | <dl> <dt>Storport.h (include Storport.h)</dt> </dl>                              |
 | IRQL<br/>            | Any<br/>                                                                                                                          |
 
@@ -151,9 +157,9 @@ The AHCI Link Power management settings are part of the Disk Settings subgroup (
 [**HwStorAdapterControl**](hwstoradaptercontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 [Send comments about this topic to Microsoft](mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback%20%5Bstorage\storage%5D:%20StorPortSetPowerSettingNotificationGuids%20routine%20%20RELEASE:%20%283/29/2018%29&body=%0A%0APRIVACY%20STATEMENT%0A%0AWe%20use%20your%20feedback%20to%20improve%20the%20documentation.%20We%20don't%20use%20your%20email%20address%20for%20any%20other%20purpose,%20and%20we'll%20remove%20your%20email%20address%20from%20our%20system%20after%20the%20issue%20that%20you're%20reporting%20is%20fixed.%20While%20we're%20working%20to%20fix%20this%20issue,%20we%20might%20send%20you%20an%20email%20message%20to%20ask%20for%20more%20info.%20Later,%20we%20might%20also%20send%20you%20an%20email%20message%20to%20let%20you%20know%20that%20we've%20addressed%20your%20feedback.%0A%0AFor%20more%20info%20about%20Microsoft's%20privacy%20policy,%20see%20http://privacy.microsoft.com/default.aspx. "Send comments about this topic to Microsoft")
 

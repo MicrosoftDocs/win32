@@ -1,14 +1,20 @@
 ---
 title: EDITTEXT control
 description: Defines an edit control belonging to the EDIT class.
-ms.assetid: '9dc4be90-9503-4c97-813d-db246869ba3c'
-keywords: ["EDITTEXT control Menus and Other Resources"]
+ms.assetid: 9dc4be90-9503-4c97-813d-db246869ba3c
+keywords:
+- EDITTEXT control Menus and Other Resources
 topic_type:
 - apiref
 api_name:
 - EDITTEXT
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # EDITTEXT control

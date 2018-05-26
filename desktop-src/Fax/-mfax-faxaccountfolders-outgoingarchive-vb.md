@@ -1,7 +1,12 @@
-﻿---
-Description: 'Represents the archive of outgoing faxes for a particular fax account that have been sent.'
-ms.assetid: '62530037-6d2a-4fcb-ad74-71c4a0834f4c'
-title: 'FaxAccountFolders.OutgoingArchive property'
+---
+Description: Represents the archive of outgoing faxes for a particular fax account that have been sent.
+ms.assetid: 62530037-6d2a-4fcb-ad74-71c4a0834f4c
+title: FaxAccountFolders.OutgoingArchive property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxAccountFolders.OutgoingArchive property
@@ -21,7 +26,7 @@ Property OutgoingArchive As IFaxAccountOutgoingArchive
 
 ## Property value
 
-A variable of type [**IFaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarchive-cpp.md) that receives a [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md) object.
+A variable of type [**IFaxAccountOutgoingArchive**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountoutgoingarchive?branch=master) that receives a [**FaxOutgoingArchive**](-mfax-faxoutgoingarchive.md) object.
 
 ## Requirements
 
@@ -43,7 +48,7 @@ A variable of type [**IFaxAccountOutgoingArchive**](-mfax-faxaccountoutgoingarch
 [**FaxAccountFolders**](-mfax-faxaccountfolders.md)
 </dt> <dt>
 
-[**IFaxAccountFolders**](-mfax-faxaccountfolders-cpp.md)
+[**IFaxAccountFolders**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxaccountfolders?branch=master)
 </dt> </dl>
 
  

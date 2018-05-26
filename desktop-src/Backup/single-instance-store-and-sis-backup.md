@@ -1,8 +1,15 @@
 ---
 title: Single-Instance Store and SIS Backup
 description: Single-instance store, or SIS, maintains duplicate files with a minimum of disk, cache, and backup media overhead. Single-instance store backup, or SIS backup, is an API that backup applications call to access the SIS architecture.
-ms.assetid: 'dc85ef6d-e7ba-47f8-8de7-6ec4bc64d144'
-keywords: ["backup Backup , single-instance store (SIS)", "single-instance store (SIS) Backup"]
+ms.assetid: dc85ef6d-e7ba-47f8-8de7-6ec4bc64d144
+keywords:
+- backup Backup , single-instance store (SIS)
+- single-instance store (SIS) Backup
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Single-Instance Store and SIS Backup

@@ -1,7 +1,12 @@
 ---
 title: glRotate Functions
 description: These functions multiply the current matrix by a rotation matrix.
-ms.assetid: 'f095df24-0773-4d72-8382-40986f72fc6b'
+ms.assetid: f095df24-0773-4d72-8382-40986f72fc6b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glRotate Functions

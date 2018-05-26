@@ -4,13 +4,15 @@ description: An instance of an Identity represents a ManagedElement that acts as
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'bd38f753-3a1b-4d10-9d2d-a35208a3cffc'
-ms.prod: 'windows-server-dev'
+ms.assetid: bd38f753-3a1b-4d10-9d2d-a35208a3cffc
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_Identity class iSCSI Software Target API", "CIM_Identity class iSCSI Software Target API , described"]
+keywords:
+- CIM_Identity class iSCSI Software Target API
+- CIM_Identity class iSCSI Software Target API , described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Identity class
@@ -42,10 +47,10 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Version("2.19.0"), UMLPackagePath("CIM::User::Identity")]
 class CIM_Identity : CIM_ManagedElement
 {
-  string  Caption;
-  string  Description;
-  string  ElementName;
-  string  InstanceID;
+  string  Caption;
+  string  Description;
+  string  ElementName;
+  string  InstanceID;
   boolean CurrentlyAuthenticated = FALSE;
 };
 ```
@@ -154,7 +159,7 @@ For DMTF defined instances, the 'preferred' algorithm MUST be used with the &lt;
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -168,9 +173,9 @@ For DMTF defined instances, the 'preferred' algorithm MUST be used with the &lt;
 [**CIM\_ManagedElement**](cim-managedelement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

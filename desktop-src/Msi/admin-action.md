@@ -1,7 +1,12 @@
 ---
-Description: 'The ADMIN action is a top-level action used to perform administrative installations.'
-ms.assetid: '9925a645-5909-42c7-9de8-f908a5e42be9'
+Description: The ADMIN action is a top-level action used to perform administrative installations.
+ms.assetid: 9925a645-5909-42c7-9de8-f908a5e42be9
 title: ADMIN Action
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ADMIN Action
@@ -18,7 +23,7 @@ There are no ActionData messages.
 
 ## Remarks
 
-The ADMIN action is not called from within the action table sequence, Windows Installer executes this action when [**MsiInstallProduct**](msiinstallproduct.md) is called with the *szCommandLine* parameter set to "ACTION=ADMIN" or the command line executable Msiexec.exe is called with the '/a' command line switch.
+The ADMIN action is not called from within the action table sequence, Windows Installer executes this action when [**MsiInstallProduct**](/windows/win32/Msi/nf-msi-msiinstallproducta?branch=master) is called with the *szCommandLine* parameter set to "ACTION=ADMIN" or the command line executable Msiexec.exe is called with the '/a' command line switch.
 
 ## Related topics
 

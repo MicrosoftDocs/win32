@@ -4,13 +4,16 @@ description: Get the list of preferred owners for this resource group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'FAC5DD83-2D6B-4997-B7D3-629B1EAFF983'
-ms.prod: 'windows-server-dev'
+ms.assetid: FAC5DD83-2D6B-4997-B7D3-629B1EAFF983
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-management'
-- 'windows-management-instrumentation'
+- failover-cluster-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["GetPreferredOwners method", "GetPreferredOwners method, MSCluster_ResourceGroup class", "MSCluster_ResourceGroup class, GetPreferredOwners method"]
+keywords:
+- GetPreferredOwners method
+- GetPreferredOwners method, MSCluster_ResourceGroup class
+- MSCluster_ResourceGroup class, GetPreferredOwners method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - ClusWMI.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # GetPreferredOwners method of the MSCluster\_ResourceGroup class
@@ -30,7 +36,7 @@ Get the list of preferred owners for this resource group.
 
 ```mof
 void GetPreferredOwners(
-  [out] string NodeNames[]
+  [out] string NodeNames[]
 );
 ```
 
@@ -58,7 +64,7 @@ This method does not return a value.
 |                                     |                                                                                        |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
+| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
 | Namespace<br/>                | Root\\MSCluster<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>ClusWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>ClusWMI.dll</dt> </dl> |
@@ -72,9 +78,9 @@ This method does not return a value.
 [**MSCluster\_ResourceGroup**](mscluster-resourcegroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

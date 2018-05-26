@@ -1,8 +1,9 @@
 ---
 title: PSM\_REMOVEPAGE message
 description: Removes a page from a property sheet. You can send this message explicitly or by using the PropSheet\_RemovePage macro.
-ms.assetid: '2f387e97-4db4-4ad5-8600-7325da674e33'
-keywords: ["PSM_REMOVEPAGE message Windows Controls"]
+ms.assetid: 2f387e97-4db4-4ad5-8600-7325da674e33
+keywords:
+- PSM_REMOVEPAGE message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Prsht.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # PSM\_REMOVEPAGE message
 
-Removes a page from a property sheet. You can send this message explicitly or by using the [**PropSheet\_RemovePage**](propsheet-removepage.md) macro.
+Removes a page from a property sheet. You can send this message explicitly or by using the [**PropSheet\_RemovePage**](/windows/win32/Prsht/nf-prsht-propsheet_removepage?branch=master) macro.
 
 ## Parameters
 
@@ -45,7 +51,7 @@ An application can specify the index or the handle, or both. If both are specifi
 
 Sending **PSM\_REMOVEPAGE** destroys the property sheet page that is being removed.
 
-A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the **PSM\_REMOVEPAGE** message in your implementation of [*PropSheetPageProc*](propsheetpageproc.md) or while handling the following notifications and Windows messages.
+A number of messages and one function call occur while the property sheet is manipulating the list of pages. While this action is taking place, attempting to modify the list of pages will have unpredictable results. Accordingly, you should not use the **PSM\_REMOVEPAGE** message in your implementation of [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master) or while handling the following notifications and Windows messages.
 
 -   [PSN\_APPLY](psn-apply.md)
 -   [PSN\_KILLACTIVE](psn-killactive.md)
@@ -54,7 +60,7 @@ A number of messages and one function call occur while the property sheet is man
 -   [**WM\_DESTROY**](https://msdn.microsoft.com/library/windows/desktop/ms632620)
 -   [**WM\_INITDIALOG**](https://msdn.microsoft.com/library/windows/desktop/ms645428)
 
-If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](propsheetpageproc.md) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
+If you need to modify a property sheet page while you are handling one of these messages or while [*PropSheetPageProc*](/windows/win32/Prsht/?branch=master) is in operation, post yourself a private Windows message. Your application will not receive that message until after the property sheet manager has finished its tasks. Then you can modify the list of pages.
 
 The following notifications are also affected by property sheet modification.
 
@@ -69,15 +75,15 @@ You can add or remove pages in response to these notifications, provided that yo
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |
 | Header<br/>                   | <dl> <dt>Prsht.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Raised by the stream sinks of the enhanced video renderer (EVR) if the video device changes.'
-ms.assetid: '5b663d6b-5df8-4321-a6a5-a21b9810065a'
+---
+Description: Raised by the stream sinks of the enhanced video renderer (EVR) if the video device changes.
+ms.assetid: 5b663d6b-5df8-4321-a6a5-a21b9810065a
 title: MEStreamSinkDeviceChanged event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEStreamSinkDeviceChanged event
@@ -12,7 +17,7 @@ The Media Foundation pipeline responds to this event by resubmitting all sample 
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The UpdateOverlay event is sent when the overlay surface has been moved or resized or its color key has changed.'
-ms.assetid: 'ede823ba-8340-4339-8e8a-e1d4f9ad1273'
+---
+Description: The UpdateOverlay event is sent when the overlay surface has been moved or resized or its color key has changed.
+ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
 title: UpdateOverlay
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UpdateOverlay

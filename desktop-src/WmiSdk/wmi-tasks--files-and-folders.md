@@ -1,13 +1,16 @@
 ---
-Description: 'WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file.'
+Description: WMI tasks for files and folders change file or folder properties through WMI, including creating a share or renaming a file.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '91281fe1-0461-48da-ac5c-cab7e8e1b285'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 91281fe1-0461-48da-ac5c-cab7e8e1b285
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Files and Folders'
+title: WMI Tasks Files and Folders
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Files and Folders
@@ -32,7 +35,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -93,7 +96,7 @@ Next</code></pre></td>
 </tr>
 <tr class="even">
 <td>...determine whether users have .MP3 files stored on their computer?</td>
-<td><p>Use the [<strong>CIM_DataFile</strong>](https://msdn.microsoft.com/library/aa387236) class and select files using the following [WQL](querying-with-wql.md) <strong>WHERE</strong> clause: Where Extension = &quot;MP3&quot;.</p>
+<td><p>Use the [<strong>CIM_DataFile</strong>](https://msdn.microsoft.com/library/aa387236) class and select files using the following [WQL](querying-with-wql.md) <strong>WHERE</strong> clause: Where Extension = &quot;MP3&quot;.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -285,7 +288,7 @@ Next</code></pre></td>
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -300,10 +303,10 @@ Next</code></pre></td>
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
+ 
 
 
+
+`

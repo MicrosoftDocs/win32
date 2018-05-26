@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the parent class for file I/O events. The following syntax is simplified from MOF code.'
-ms.assetid: '8e006a63-a061-4b62-8f90-b8c8823bb047'
+---
+Description: This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
+ms.assetid: 8e006a63-a061-4b62-8f90-b8c8823bb047
 title: FileIo class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FileIo class

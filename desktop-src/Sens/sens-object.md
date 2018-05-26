@@ -1,7 +1,12 @@
 ---
-Description: 'The System Event Notification Service (SENS) defines the SENS coclass as part of the SENS type library.'
-ms.assetid: 'b494808c-1116-47ac-8713-0d515b312368'
+Description: The System Event Notification Service (SENS) defines the SENS coclass as part of the SENS type library.
+ms.assetid: b494808c-1116-47ac-8713-0d515b312368
 title: SENS Object
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SENS Object
@@ -30,10 +35,10 @@ The SENS object implementation is provided by the operating system.
 
 | Interface                            | Description                                                                                         |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [**IsensNetwork**](isensnetwork.md) | Default. Outgoing interface implemented by sink object in subscriber application.                   |
-| [**IsensOnNow**](isensonnow.md)     | Outgoing interface implemented by sink object in subscriber application.                            |
-| [**IsensLogon**](isenslogon.md)     | Outgoing interface implemented by sink object in subscriber application.                            |
-| [**IsensLogon2**](isenslogon2.md)   | Outgoing interface implemented by sink object in subscriber application. Available with Windows XP. |
+| [**IsensNetwork**](/windows/win32/Sensevts/nn-sensevts-isensnetwork?branch=master) | Default. Outgoing interface implemented by sink object in subscriber application.                   |
+| [**IsensOnNow**](/windows/win32/Sensevts/nn-sensevts-isensonnow?branch=master)     | Outgoing interface implemented by sink object in subscriber application.                            |
+| [**IsensLogon**](/windows/win32/Sensevts/nn-sensevts-isenslogon?branch=master)     | Outgoing interface implemented by sink object in subscriber application.                            |
+| [**IsensLogon2**](/windows/win32/Sensevts/nn-sensevts-isenslogon2?branch=master)   | Outgoing interface implemented by sink object in subscriber application. Available with Windows XP. |
 
 
 
@@ -43,13 +48,13 @@ The SENS object implementation is provided by the operating system.
 
 <dl> <dt>
 
-[**ISensLogon**](isenslogon.md)
+[**ISensLogon**](/windows/win32/Sensevts/nn-sensevts-isenslogon?branch=master)
 </dt> <dt>
 
-[**ISensNetwork**](isensnetwork.md)
+[**ISensNetwork**](/windows/win32/Sensevts/nn-sensevts-isensnetwork?branch=master)
 </dt> <dt>
 
-[**ISensOnNow**](isensonnow.md)
+[**ISensOnNow**](/windows/win32/Sensevts/nn-sensevts-isensonnow?branch=master)
 </dt> <dt>
 
 [About System Event Notification Service](about-system-event-notification-service.md)

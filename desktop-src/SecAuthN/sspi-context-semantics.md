@@ -1,12 +1,17 @@
-﻿---
-Description: 'A security context is the set of security attributes and rules in effect during a communication session.'
-ms.assetid: '6c87448b-5b8d-4694-ac3f-be83a258fbb0'
+---
+Description: A security context is the set of security attributes and rules in effect during a communication session.
+ms.assetid: 6c87448b-5b8d-4694-ac3f-be83a258fbb0
 title: SSPI Context Semantics
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SSPI Context Semantics
 
-A [*security context*](security.s_gly#-security-security-context-gly) is the set of security attributes and rules in effect during a communication session. This includes such information as the identities of the principal and information on the keys, ciphers, and algorithms being used. For [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI), a security context is an opaque structure that is created through an exchange involving the [**InitializeSecurityContext (General)**](initializesecuritycontext--general-.md) function and the [**AcceptSecurityContext (General)**](acceptsecuritycontext--general-.md) function.
+A [*security context*](security.s_gly#-security-security-context-gly) is the set of security attributes and rules in effect during a communication session. This includes such information as the identities of the principal and information on the keys, ciphers, and algorithms being used. For [*Security Support Provider Interface*](security.s_gly#-security-security-support-provider-interface-gly) (SSPI), a security context is an opaque structure that is created through an exchange involving the [**InitializeSecurityContext (General)**](/windows/win32/Sspi/?branch=master) function and the [**AcceptSecurityContext (General)**](/windows/win32/Sspi/?branch=master) function.
 
 For more information about the context attributes, see [Context Requirements](context-requirements.md).
 

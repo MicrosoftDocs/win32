@@ -4,11 +4,15 @@ description: Each Active Directory directory service object is protected by Wind
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '0821069d-76bd-49cb-a617-8446d26e61d9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 0821069d-76bd-49cb-a617-8446d26e61d9
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Active Directory Domain Services,using,security"]
+keywords:
+- Active Directory Domain Services,using,security
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Controlling Access to Objects in Active Directory Domain Services

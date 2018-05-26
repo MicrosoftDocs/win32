@@ -1,21 +1,27 @@
 ---
 title: setaudio command
 description: The setaudio command sets values associated with audio playback and capture. Digital-video and VCR devices recognize this command.
-ms.assetid: '78624596-e465-4ef1-8988-edcfe9a46f89'
-keywords: ["setaudio command Windows Multimedia"]
+ms.assetid: 78624596-e465-4ef1-8988-edcfe9a46f89
+keywords:
+- setaudio command Windows Multimedia
 topic_type:
 - apiref
 api_name:
 - setaudio
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # setaudio command
 
 The setaudio command sets values associated with audio playback and capture. Digital-video and VCR devices recognize this command.
 
-To send this command, call the [**mciSendString**](mcisendstring.md) function with the *lpszCommand* parameter set as follows.
+To send this command, call the [**mciSendString**](/windows/win32/Mmsystem/?branch=master) function with the *lpszCommand* parameter set as follows.
 
 ``` syntax
 _stprintf_s(
@@ -52,7 +58,7 @@ Flag for audio playback and capture. The following table lists device types that
 
 
 
- 
+ 
 
 The following table lists the flags that can be specified in the **lpszAudio** parameter and their meanings.
 
@@ -91,7 +97,7 @@ The following table lists the flags that can be specified in the **lpszAudio** p
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -116,8 +122,8 @@ For VCR devices, using setaudio with a flag that turns off an individual track (
 
 |                                     |                                                            |
 |-------------------------------------|------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |
 
 
 
@@ -140,9 +146,9 @@ For VCR devices, using setaudio with a flag that turns off an individual track (
 [setvideo](setvideo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,22 @@ description: Provides the primary network address that the node uses for the net
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '48809a5e-ba5b-41fb-a18f-0d6f0b2db942'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 48809a5e-ba5b-41fb-a18f-0d6f0b2db942
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Address Failover Cluster ,for network interfaces", "Address Failover Cluster"]
+keywords:
+- Address Failover Cluster ,for network interfaces
+- Address Failover Cluster
 topic_type:
 - apiref
 api_name:
 - Address
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Address
@@ -27,13 +32,13 @@ Provides the primary network address that the [node](nodes.md) uses for the [net
 |-----------|------------------------------------------------------------------|
 | Data type | Null-terminated Unicode string                                   |
 | Access    | [Read-only](read-only-properties.md)                            |
-| Structure | [**CLUSPROP\_SZ**](clusprop-sz.md)                              |
+| Structure | [**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)                              |
 | Maximum   | None (but see [Maximum Property Size](maximum-string-size.md).) |
 | Default   | **NULL**                                                         |
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -50,7 +55,7 @@ Because the **Address** property is read-only, it cannot be changed using the [C
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/> |
 
 
 
@@ -61,12 +66,12 @@ Because the **Address** property is read-only, it cannot be changed using the [C
 [CLUSCTL\_NETINTERFACE\_SET\_COMMON\_PROPERTIES](clusctl-netinterface-set-common-properties.md)
 </dt> <dt>
 
-[**CLUSPROP\_SZ**](clusprop-sz.md)
+[**CLUSPROP\_SZ**](/windows/previous-versions/ClusAPI/?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
 ---
 Description: Pointer Validation Macros
-ms.assetid: '53b080ba-d8cf-48a3-a895-2c14d54f7e21'
+ms.assetid: 53b080ba-d8cf-48a3-a895-2c14d54f7e21
 title: Pointer Validation Macros
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pointer Validation Macros

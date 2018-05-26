@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetMuted method retrieves the object''s muted state.'
-ms.assetid: 'e901af1f-1137-4708-a98b-c9f83edc5ab9'
-title: 'IAMTimelineObj::GetMuted method'
+---
+Description: The GetMuted method retrieves the objects muted state.
+ms.assetid: e901af1f-1137-4708-a98b-c9f83edc5ab9
+title: IAMTimelineObjGetMuted method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IAMTimelineObj::GetMuted method

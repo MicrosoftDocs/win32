@@ -1,7 +1,12 @@
 ---
-Description: 'The photo metadata policy for the System.GPS.Satellites property.'
-ms.assetid: '5dbbbeaf-e67d-45f6-95b2-de3287202d41'
-title: 'System.GPS.Satellites Photo Metadata Policy'
+Description: The photo metadata policy for the System.GPS.Satellites property.
+ms.assetid: 5dbbbeaf-e67d-45f6-95b2-de3287202d41
+title: System.GPS.Satellites Photo Metadata Policy
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.GPS.Satellites Photo Metadata Policy

@@ -1,7 +1,12 @@
 ---
-Description: 'This is the video orientation in degrees.'
-ms.assetid: '9534be9e-ab57-4c36-b1ae-ff12d632574c'
-title: 'System.Video.Orientation'
+Description: This is the video orientation in degrees.
+ms.assetid: 9534be9e-ab57-4c36-b1ae-ff12d632574c
+title: System.Video.Orientation
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.Video.Orientation

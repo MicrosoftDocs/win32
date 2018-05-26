@@ -1,7 +1,12 @@
 ---
-Description: 'If you are unable to find the Internal Consistency Evaluators you need among the existing ICE custom actions listed in the ICE Reference, you will need to prepare your own ICE to validate your package.'
-ms.assetid: 'd9ff43ee-8e7a-4132-ac2f-232dc24606d8'
+Description: If you are unable to find the Internal Consistency Evaluators you need among the existing ICE custom actions listed in the ICE Reference, you will need to prepare your own ICE to validate your package.
+ms.assetid: d9ff43ee-8e7a-4132-ac2f-232dc24606d8
 title: Building An ICE
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Building An ICE
@@ -11,7 +16,7 @@ If you are unable to find the [Internal Consistency Evaluators](internal-consist
 When authoring ICE custom actions you should do the following:
 
 -   Base the ICEs only on custom actions of types listed in the table shown.
--   Call [**MsiProcessMessage**](msiprocessmessage.md) and post an INSTALLMESSAGE\_USER type of message. When authoring your ICE messages follow the message format in the [ICE Message Guidelines](ice-message-guidelines.md).
+-   Call [**MsiProcessMessage**](/windows/win32/Msiquery/nf-msiquery-msiprocessmessage?branch=master) and post an INSTALLMESSAGE\_USER type of message. When authoring your ICE messages follow the message format in the [ICE Message Guidelines](ice-message-guidelines.md).
 -   Write your ICE such that it captures any API errors and always returns ERROR\_SUCCESS. This is necessary to allow subsequent custom actions to run following the failure of an ICE.
 
 ICE custom actions are limited to the following custom action types.

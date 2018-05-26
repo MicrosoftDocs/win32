@@ -1,7 +1,12 @@
 ---
-Description: 'Destroys a virtual system.'
-ms.assetid: '8d2504dc-ce23-4257-9dfd-6a35dfd84b2d'
-title: 'DestroySystem method of the CIM\_VirtualSystemManagementService class'
+Description: Destroys a virtual system.
+ms.assetid: 8d2504dc-ce23-4257-9dfd-6a35dfd84b2d
+title: DestroySystem method of the CIM\_VirtualSystemManagementService class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DestroySystem method of the CIM\_VirtualSystemManagementService class
@@ -15,8 +20,8 @@ The referenced virtual system is destroyed, including any elements scoped by it.
 
 ```mof
 uint32 DestroySystem(
-  [in]  CIM_ComputerSystem REF AffectedSystem,
-  [out] CIM_ConcreteJob    REF Job
+  [in]  CIM_ComputerSystem REF AffectedSystem,
+  [out] CIM_ConcreteJob    REF Job
 );
 ```
 
@@ -82,8 +87,8 @@ Returns a 0 on success; otherwise, returns an error.
 
 |                                     |                                                                                                         |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
+| Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Namespace<br/>                | Root\\virtualization\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -97,9 +102,9 @@ Returns a 0 on success; otherwise, returns an error.
 [**CIM\_VirtualSystemManagementService**](cim-virtualsystemmanagementservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

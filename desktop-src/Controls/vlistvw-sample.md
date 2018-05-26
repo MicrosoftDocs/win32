@@ -1,7 +1,12 @@
 ---
 title: VListVW Sample
-ms.assetid: '5e1d13a6-ae11-4729-b0fc-0a1620cf0738'
+ms.assetid: 5e1d13a6-ae11-4729-b0fc-0a1620cf0738
 description: 
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # VListVW Sample

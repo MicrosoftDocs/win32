@@ -1,8 +1,15 @@
 ---
 title: Inspect
-description: Inspect (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the element's accessibility data.
-ms.assetid: '38edacbc-cf24-4818-b029-561b21e3704c'
-keywords: ["Inspect Tool", "Accessibility"]
+description: Inspect (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the elements accessibility data.
+ms.assetid: 38edacbc-cf24-4818-b029-561b21e3704c
+keywords:
+- Inspect Tool
+- Accessibility
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Inspect
@@ -116,7 +123,7 @@ Once you have selected a UI element using **Inspect**, you can validate that the
 
 ## Interacting with UI Elements
 
-Windows Automation exposes methods that allow assistive technology products to interact with a UI element as if the mouse or keyboard were being used (for example, to click a button). Inspect's **Action** menu enables testers to invoke Windows Automation methods on an element (for example, **Invoke.Invoke** calls the [**IUIAutomationInvokePattern::Invoke**](uiauto-iuiautomationinvokepattern-invoke.md) method).
+Windows Automation exposes methods that allow assistive technology products to interact with a UI element as if the mouse or keyboard were being used (for example, to click a button). Inspect's **Action** menu enables testers to invoke Windows Automation methods on an element (for example, **Invoke.Invoke** calls the [**IUIAutomationInvokePattern::Invoke**](/windows/win32/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke?branch=master) method).
 
 **To Interact with UI Elements**
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies the device conformance profile for encoding Advanced Streaming Format (ASF) files.'
-ms.assetid: '9a6b6402-ff53-4399-8616-06b7768a8737'
-title: 'MF\_TRANSCODE\_ENCODINGPROFILE attribute'
+---
+Description: Specifies the device conformance profile for encoding Advanced Streaming Format (ASF) files.
+ms.assetid: 9a6b6402-ff53-4399-8616-06b7768a8737
+title: MF\_TRANSCODE\_ENCODINGPROFILE attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_TRANSCODE\_ENCODINGPROFILE attribute
@@ -14,9 +19,9 @@ Specifies the device conformance profile for encoding Advanced Streaming Format 
 
 ## Get/set
 
-To get this attribute, call [**IMFAttributes::GetAllocatedString**](imfattributes-getallocatedstring.md).
+To get this attribute, call [**IMFAttributes::GetAllocatedString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-getallocatedstring?branch=master).
 
-To set this attribute, call [**IMFAttributes::SetString**](imfattributes-setstring.md).
+To set this attribute, call [**IMFAttributes::SetString**](/windows/win32/mfobjects/nf-mfobjects-imfattributes-setstring?branch=master).
 
 ## Remarks
 
@@ -73,16 +78,16 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 [Transcode API](transcode-api.md)
 </dt> <dt>
 
-[**IMFTranscodeProfile::GetAudioAttributes**](imftranscodeprofile-getaudioattributes.md)
+[**IMFTranscodeProfile::GetAudioAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-getaudioattributes?branch=master)
 </dt> <dt>
 
-[**IMFTranscodeProfile::SetAudioAttributes**](imftranscodeprofile-setaudioattributes.md)
+[**IMFTranscodeProfile::SetAudioAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes?branch=master)
 </dt> <dt>
 
-[**IMFTranscodeProfile::SetVideoAttributes**](imftranscodeprofile-getvideoattributes.md)
+[**IMFTranscodeProfile::SetVideoAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-getvideoattributes?branch=master)
 </dt> <dt>
 
-[**IMFTranscodeProfile::GetVideoAttributes**](imftranscodeprofile-setvideoattributes.md)
+[**IMFTranscodeProfile::GetVideoAttributes**](/windows/win32/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes?branch=master)
 </dt> </dl>
 
  

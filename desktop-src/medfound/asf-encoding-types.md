@@ -1,7 +1,12 @@
 ---
 Description: ASF Encoding Types
-ms.assetid: 'ffa99c6b-3b62-4068-96d5-ad57c340d088'
+ms.assetid: ffa99c6b-3b62-4068-96d5-ad57c340d088
 title: ASF Encoding Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ASF Encoding Types

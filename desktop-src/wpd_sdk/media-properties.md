@@ -1,7 +1,12 @@
 ---
-Description: 'Windows Portable Devices supports the following media properties.'
-ms.assetid: '414d245a-b0b0-4da0-a333-095f0e2259f1'
+Description: Windows Portable Devices supports the following media properties.
+ms.assetid: 414d245a-b0b0-4da0-a333-095f0e2259f1
 title: Media Properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Media Properties
@@ -54,7 +59,7 @@ Windows Portable Devices supports the following media properties.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -73,9 +78,9 @@ Windows Portable Devices supports the following media properties.
 [**WPD Properties and Attributes**](properties-and-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

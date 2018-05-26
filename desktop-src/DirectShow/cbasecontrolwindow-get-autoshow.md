@@ -1,7 +1,12 @@
 ---
-Description: 'The get\_AutoShow method retrieves the current AutoShow state flag.'
-ms.assetid: 'b27651d1-3ac5-4a52-9549-b63bacda5dc8'
-title: 'CBaseControlWindow.get\_AutoShow method'
+Description: The get\_AutoShow method retrieves the current AutoShow state flag.
+ms.assetid: b27651d1-3ac5-4a52-9549-b63bacda5dc8
+title: CBaseControlWindow.get\_AutoShow method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # CBaseControlWindow.get\_AutoShow method
@@ -13,7 +18,7 @@ The `get_AutoShow` method retrieves the current AutoShow state flag.
 
 ```C++
 HRESULT get_AutoShow(
-   long *AutoShow
+   long *AutoShow
 );
 ```
 
@@ -26,7 +31,7 @@ HRESULT get_AutoShow(
 *AutoShow* 
 </dt> <dd>
 
-Pointer to an Automation Boolean flag (0 is off, –1 is on).
+Pointer to an Automation Boolean flag (0 is off,  1 is on).
 
 </dd> </dl>
 
@@ -36,9 +41,9 @@ Returns an **HRESULT** value.
 
 ## Remarks
 
-This member function implements the [**IVideoWindow::get\_AutoShow**](ivideowindow-get-autoshow.md) method. This property simplifies window display access for applications. If this is set to –1 (on), the window, which is typically hidden after connection of the filter, will be displayed automatically when the filter pauses or runs. The window should not be hidden when the filter stops, however. If this parameter is set to 0 (off), the window is made visible only when the application calls [**CBaseControlWindow::put\_Visible**](cbasecontrolwindow-put-visible.md) or [**CBaseControlWindow::put\_WindowState**](cbasecontrolwindow-put-windowstate.md) with the appropriate parameters.
+This member function implements the [**IVideoWindow::get\_AutoShow**](/windows/win32/Control/nf-control-ivideowindow-get_autoshow?branch=master) method. This property simplifies window display access for applications. If this is set to  1 (on), the window, which is typically hidden after connection of the filter, will be displayed automatically when the filter pauses or runs. The window should not be hidden when the filter stops, however. If this parameter is set to 0 (off), the window is made visible only when the application calls [**CBaseControlWindow::put\_Visible**](cbasecontrolwindow-put-visible.md) or [**CBaseControlWindow::put\_WindowState**](cbasecontrolwindow-put-windowstate.md) with the appropriate parameters.
 
-This member function is meant to be called by external objects through the [**IVideoWindow**](ivideowindow.md) interface, and therefore locks the critical section to synchronize with the associated filter. Call the [**CBaseControlWindow::IsAutoShowEnabled**](cbasecontrolwindow-isautoshowenabled.md) member function to retrieve this property if you are not calling from an external object.
+This member function is meant to be called by external objects through the [**IVideoWindow**](/windows/win32/Control/nn-control-ivideowindow?branch=master) interface, and therefore locks the critical section to synchronize with the associated filter. Call the [**CBaseControlWindow::IsAutoShowEnabled**](cbasecontrolwindow-isautoshowenabled.md) member function to retrieve this property if you are not calling from an external object.
 
 ## Requirements
 
@@ -58,9 +63,9 @@ This member function is meant to be called by external objects through the [**IV
 [**CBaseControlWindow Class**](cbasecontrolwindow.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,17 @@
 ---
 title: Make a Sketch
 description: Make a Sketch
-ms.assetid: '4030aae7-26e7-4acd-a988-6ac53ce43639'
-keywords: ["Windows Media Player Mobile skins,sketches", "skins,sketches", "creating skins,sketches", "sketches in skins"]
+ms.assetid: 4030aae7-26e7-4acd-a988-6ac53ce43639
+keywords:
+- Windows Media Player Mobile skins,sketches
+- skins,sketches
+- creating skins,sketches
+- sketches in skins
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Make a Sketch

@@ -1,8 +1,9 @@
 ---
 title: WM\_TOUCH message
 description: Notifies the window when one or more touch points, such as a finger or pen, touches a touch-sensitive digitizer surface.
-ms.assetid: '5dee8bab-34fa-4dd9-a65b-35883757ec80'
-keywords: ["WM_TOUCH message Windows Touch"]
+ms.assetid: 5dee8bab-34fa-4dd9-a65b-35883757ec80
+keywords:
+- WM_TOUCH message Windows Touch
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM\_TOUCH message
@@ -31,7 +37,7 @@ The low-order word contains the number of touch points associated with this mess
 *lParam* 
 </dt> <dd>
 
-Contains a touch input handle that can be used in a call to [**GetTouchInputInfo**](gettouchinputinfo.md) to retrieve detailed information about the touch points associated with this message.
+Contains a touch input handle that can be used in a call to [**GetTouchInputInfo**](/windows/win32/winuser/nf-winuser-gettouchinputinfo?branch=master) to retrieve detailed information about the touch points associated with this message.
 
 This handle is valid only within the current process and should not be passed cross-process except as the **LPARAM** in a **SendMessage** or **PostMessage** call.
 
@@ -95,8 +101,8 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                               |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -114,9 +120,9 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 [Windows Touch Input Programming Guide](guide-multi-touch-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

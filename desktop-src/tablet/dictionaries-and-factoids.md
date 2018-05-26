@@ -1,7 +1,12 @@
 ---
-Description: 'A dictionary is an internal lexicon that a recognizer uses to determine word matches and alternates. A factoid increases recognition accuracy by selecting a specific context for a particular field.'
-ms.assetid: '9e90182b-5069-4895-9ef3-b6677705eb0b'
+Description: A dictionary is an internal lexicon that a recognizer uses to determine word matches and alternates. A factoid increases recognition accuracy by selecting a specific context for a particular field.
+ms.assetid: 9e90182b-5069-4895-9ef3-b6677705eb0b
 title: Dictionaries and Factoids
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Dictionaries and Factoids

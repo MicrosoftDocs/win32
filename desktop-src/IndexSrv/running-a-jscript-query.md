@@ -1,7 +1,12 @@
 ---
 title: Running a JScript Query
 description: Running a JScript Query
-ms.assetid: '88c2c618-88e4-4c88-b445-173115a073c8'
+ms.assetid: 88c2c618-88e4-4c88-b445-173115a073c8
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Running a JScript Query

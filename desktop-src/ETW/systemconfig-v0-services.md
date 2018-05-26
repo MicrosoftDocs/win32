@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class for service configuration events.'
-ms.assetid: '1e6c2061-f1a2-4253-a0c4-4b45b2feceda'
-title: 'SystemConfig\_V0\_Services class'
+---
+Description: This class is the event type class for service configuration events.
+ms.assetid: 1e6c2061-f1a2-4253-a0c4-4b45b2feceda
+title: SystemConfig\_V0\_Services class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SystemConfig\_V0\_Services class

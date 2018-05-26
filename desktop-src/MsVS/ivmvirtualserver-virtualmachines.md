@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServer VirtualMachines property
 description: The VirtualMachines property contains a collection of IVMVirtualMachine objects.
-ms.assetid: '72ae8a70-c4f3-417a-b29f-7a94e087e118'
-keywords: ["VirtualMachines property Virtual Server", "VirtualMachines property Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , VirtualMachines property", "VirtualMachines property Virtual Server , VMVirtualServer class", "VMVirtualServer class Virtual Server , VirtualMachines property"]
+ms.assetid: 72ae8a70-c4f3-417a-b29f-7a94e087e118
+keywords:
+- VirtualMachines property Virtual Server
+- VirtualMachines property Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , VirtualMachines property
+- VirtualMachines property Virtual Server , VMVirtualServer class
+- VMVirtualServer class Virtual Server , VirtualMachines property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +18,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::VirtualMachines property
@@ -26,7 +36,7 @@ This property is read-only.
 
 ```C++
 HRESULT get_VirtualMachines(
-  [out] IVMVirtualMachineCollection **virtualMachineCollection
+  [out] IVMVirtualMachineCollection **virtualMachineCollection
 );
 ```
 
@@ -98,8 +108,8 @@ End If
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -111,9 +121,9 @@ End If
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

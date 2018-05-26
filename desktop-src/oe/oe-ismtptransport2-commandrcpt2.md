@@ -1,8 +1,11 @@
 ---
 title: ISMTPTransport2 CommandRCPT2 method
 description: Sends the RCPT TO command to the server with Delivery Status Notification (DSN) support.
-ms.assetid: 'b7aac7c1-2f8f-4ac0-82ef-b2da07edb347'
-keywords: ["CommandRCPT2 method Windows Mail (formerly Outlook Express)", "CommandRCPT2 method Windows Mail (formerly Outlook Express) , ISMTPTransport2 interface", "ISMTPTransport2 interface Windows Mail (formerly Outlook Express) , CommandRCPT2 method"]
+ms.assetid: b7aac7c1-2f8f-4ac0-82ef-b2da07edb347
+keywords:
+- CommandRCPT2 method Windows Mail (formerly Outlook Express)
+- CommandRCPT2 method Windows Mail (formerly Outlook Express) , ISMTPTransport2 interface
+- ISMTPTransport2 interface Windows Mail (formerly Outlook Express) , CommandRCPT2 method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Inetcomm.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ISMTPTransport2::CommandRCPT2 method
@@ -24,8 +32,8 @@ Sends the RCPT TO: command to the server with Delivery Status Notification (DSN)
 
 ```C++
 HRESULT CommandRCPT2(
-  [in] LPSTR        pszEmailTo,
-  [in] INETADDRTYPE atDSN
+  [in] LPSTR        pszEmailTo,
+  [in] INETADDRTYPE atDSN
 );
 ```
 
@@ -68,7 +76,7 @@ Returns one of the following values.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -80,8 +88,8 @@ The transport must send the EHLO command to the server before making a request f
 
 |                                     |                                                                                                                |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
+| Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                    |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |
 | Product<br/>                  | Outlook Express 6.0<br/>                                                                                 |
 | Header<br/>                   | <dl> <dt>Imnxport.h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Imnxport.idl</dt> </dl>                        |
@@ -89,9 +97,9 @@ The transport must send the EHLO command to the server before making a request f
 
 
 
- 
+ 
 
- 
+ 
 
 
 

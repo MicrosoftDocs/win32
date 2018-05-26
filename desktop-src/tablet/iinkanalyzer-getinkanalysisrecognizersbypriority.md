@@ -1,7 +1,12 @@
 ---
-Description: 'Retrieves an ordered collection of IInkAnalysisRecognizer objects.'
-ms.assetid: '67399237-38e2-4905-a97c-10ca72c7799b'
-title: 'IInkAnalyzer::GetInkAnalysisRecognizersByPriority method'
+Description: Retrieves an ordered collection of IInkAnalysisRecognizer objects.
+ms.assetid: 67399237-38e2-4905-a97c-10ca72c7799b
+title: IInkAnalyzerGetInkAnalysisRecognizersByPriority method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IInkAnalyzer::GetInkAnalysisRecognizersByPriority method
@@ -13,7 +18,7 @@ Retrieves an ordered collection of [**IInkAnalysisRecognizer**](iinkanalysisreco
 
 ```C++
 HRESULT GetInkAnalysisRecognizersByPriority(
-  [out] IInkAnalysisRecognizers **ppInkAnalysisRecognizers
+  [out] IInkAnalysisRecognizers **ppInkAnalysisRecognizers
 );
 ```
 
@@ -39,7 +44,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 > \[!Caution\]  
 > To avoid a memory leak, call [**IUnknown::Release**](https://msdn.microsoft.com/library/windows/desktop/ms682317) on *ppInkAnalysisRecognizers* when you no longer need to use the object.
 
- 
+ 
 
 The order of the recognizers in this collection indicates the order in which the [**IInkAnalyzer**](iinkanalyzer.md) evaluates the available recognizers. The **IInkAnalyzer** uses the language of the strokes as its primary criterion for applying an [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md). As a secondary criterion, the **IInkAnalyzer** compares analysis hint information against an **IInkAnalysisRecognizer** object's supported capabilities (see [**IInkAnalysisRecognizer::GetCapabilities**](iinkanalysisrecognizer-getcapabilities.md)). For more information about analysis hints, see [**IInkAnalyzer::CreateAnalysisHint Method**](iinkanalyzer-createanalysishint.md).
 
@@ -51,7 +56,7 @@ If more than one [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) support
 
 |                                     |                                                                                                               |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
+| Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>IACom.h (also requires IACom\_i.c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -74,9 +79,9 @@ If more than one [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) support
 [Ink Analysis Reference](ink-analysis-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

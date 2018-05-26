@@ -1,8 +1,11 @@
 ---
 title: IVMVirtualServer SetConfigurationValue method
 description: The SetConfigurationValue method sets preference data for the current user for the requested key.
-ms.assetid: '648d5c0e-3c06-40c1-8f25-76e71a102a20'
-keywords: ["SetConfigurationValue method Virtual Server", "SetConfigurationValue method Virtual Server , IVMVirtualServer interface", "IVMVirtualServer interface Virtual Server , SetConfigurationValue method"]
+ms.assetid: 648d5c0e-3c06-40c1-8f25-76e71a102a20
+keywords:
+- SetConfigurationValue method Virtual Server
+- SetConfigurationValue method Virtual Server , IVMVirtualServer interface
+- IVMVirtualServer interface Virtual Server , SetConfigurationValue method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServer::SetConfigurationValue method
@@ -22,8 +30,8 @@ The **SetConfigurationValue** method sets preference data for the current user f
 
 ```C++
 HRESULT SetConfigurationValue(
-  [in] BSTR    preferenceKey,
-  [in] VARIANT preferenceValue
+  [in] BSTR    preferenceKey,
+  [in] VARIANT preferenceValue
 );
 ```
 
@@ -64,7 +72,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -76,8 +84,8 @@ This method provides low-level access to any preference value for the current us
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -89,9 +97,9 @@ This method provides low-level access to any preference value for the current us
 [**IVMVirtualServer**](ivmvirtualserver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

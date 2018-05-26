@@ -1,7 +1,12 @@
 ---
 Description: GDI Functions for Print Processors
-ms.assetid: 'aecf6d40-780c-4fba-9f1e-a8c848d2e6a4'
+ms.assetid: aecf6d40-780c-4fba-9f1e-a8c848d2e6a4
 title: GDI Functions for Print Processors
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GDI Functions for Print Processors

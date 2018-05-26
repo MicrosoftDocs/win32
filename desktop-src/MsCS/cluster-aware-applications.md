@@ -4,11 +4,16 @@ description: Definition of a cluster-aware application.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '2c72d084-e2bf-4582-b097-70c5f92b1cd6'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 2c72d084-e2bf-4582-b097-70c5f92b1cd6
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["cluster-aware applications Failover Cluster", "application types Failover Cluster ,cluster-aware applications"]
+keywords:
+- cluster-aware applications Failover Cluster
+- application types Failover Cluster ,cluster-aware applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster-Aware Applications

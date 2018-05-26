@@ -1,7 +1,12 @@
 ---
-Description: 'The MsiRMFilesInUse Dialog box can be authored to display a list of processes that are currently running files that need to be overwritten or deleted by the installation.'
-ms.assetid: 'e8d93310-388e-4a08-9bce-04c31c33a665'
+Description: The MsiRMFilesInUse Dialog box can be authored to display a list of processes that are currently running files that need to be overwritten or deleted by the installation.
+ms.assetid: e8d93310-388e-4a08-9bce-04c31c33a665
 title: MsiRMFilesInUse Dialog
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MsiRMFilesInUse Dialog

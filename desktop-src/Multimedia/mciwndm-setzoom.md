@@ -1,8 +1,9 @@
 ---
 title: MCIWNDM\_SETZOOM message
 description: The MCIWNDM\_SETZOOM message resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can send this message explicitly or by using the MCIWndSetZoom macro.
-ms.assetid: 'c899b678-5ba7-4f0a-9ef9-c5370b3b4ea8'
-keywords: ["MCIWNDM_SETZOOM message Windows Multimedia"]
+ms.assetid: c899b678-5ba7-4f0a-9ef9-c5370b3b4ea8
+keywords:
+- MCIWNDM_SETZOOM message Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Vfw.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MCIWNDM\_SETZOOM message
 
-The **MCIWNDM\_SETZOOM** message resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can send this message explicitly or by using the [**MCIWndSetZoom**](mciwndsetzoom.md) macro.
+The **MCIWNDM\_SETZOOM** message resizes a video image according to a zoom factor. This marco adjusts the size of an MCIWnd window while maintaining a constant aspect ratio. You can send this message explicitly or by using the [**MCIWndSetZoom**](/windows/win32/Vfw/nf-vfw-mciwndsetzoom?branch=master) macro.
 
 
 ```C++
@@ -47,8 +53,8 @@ This message does not return a value.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |
 | Header<br/>                   | <dl> <dt>Vfw.h</dt> </dl> |
 
 
@@ -57,12 +63,12 @@ This message does not return a value.
 
 <dl> <dt>
 
-[**MCIWndSetZoom**](mciwndsetzoom.md)
+[**MCIWndSetZoom**](/windows/win32/Vfw/nf-vfw-mciwndsetzoom?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Used to release a lock held on a specified area of buffer memory.'
-ms.assetid: 'ec06829b-2b3a-45db-9ecd-d4c7cf67b8ae'
+---
+Description: Used to release a lock held on a specified area of buffer memory.
+ms.assetid: ec06829b-2b3a-45db-9ecd-d4c7cf67b8ae
 title: NtGdiDdUnlockD3D function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdUnlockD3D function

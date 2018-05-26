@@ -1,8 +1,11 @@
 ---
 title: IResultsViewer PreviewStyle property
-description: Controls the preview pane's display mode.
-ms.assetid: '750664ea-506a-4219-ade5-1c7f1ffbd0d7'
-keywords: ["PreviewStyle property Legacy Windows Environment Features", "PreviewStyle property Legacy Windows Environment Features , IResultsViewer interface", "IResultsViewer interface Legacy Windows Environment Features , PreviewStyle property"]
+description: Controls the preview panes display mode.
+ms.assetid: 750664ea-506a-4219-ade5-1c7f1ffbd0d7
+keywords:
+- PreviewStyle property Legacy Windows Environment Features
+- PreviewStyle property Legacy Windows Environment Features , IResultsViewer interface
+- IResultsViewer interface Legacy Windows Environment Features , PreviewStyle property
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - WdsView.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IResultsViewer::PreviewStyle property
@@ -28,11 +36,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_PreviewStyle(
-  [in]          PreviewDisplayStyle style
+  [in]          PreviewDisplayStyle style
 );
 
 HRESULT get_PreviewStyle(
-  [out, retval] PreviewDisplayStyle *style
+  [out, retval] PreviewDisplayStyle *style
 );
 ```
 
@@ -48,16 +56,16 @@ Sets the current style property for the preview pane.
 
 |                                     |                                                                                      |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
-| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
+| Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
+| Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/>                        |
 | Redistributable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | Header<br/>                   | <dl> <dt>WdsView.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

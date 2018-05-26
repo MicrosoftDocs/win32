@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IPrintOemPS::EnablePDEV method allows a rendering plug-in for Pscript5 to create its own PDEV structure.'
-ms.assetid: 'f284e89f-463e-4d04-8018-5ce02786d921'
-title: 'IPrintOemPS::EnablePDEV method'
+---
+Description: The IPrintOemPSEnablePDEV method allows a rendering plug-in for Pscript5 to create its own PDEV structure.
+ms.assetid: f284e89f-463e-4d04-8018-5ce02786d921
+title: IPrintOemPSEnablePDEV method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrintOemPS::EnablePDEV method

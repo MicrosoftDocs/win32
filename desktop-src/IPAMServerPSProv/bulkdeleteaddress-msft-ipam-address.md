@@ -1,15 +1,18 @@
 ---
-Description: 'Deletes a set of IP addresses from IPAM.'
+Description: Deletes a set of IP addresses from IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'cf78d381-46b2-4a59-a7ab-0e65857c7870'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: cf78d381-46b2-4a59-a7ab-0e65857c7870
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'BulkDeleteAddress method of the MSFT\_IPAM\_Address class'
+title: BulkDeleteAddress method of the MSFT\_IPAM\_Address class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # BulkDeleteAddress method of the MSFT\_IPAM\_Address class
@@ -21,8 +24,8 @@ Deletes a set of IP addresses from IPAM.
 
 ```mof
 uint32 BulkDeleteAddress(
-  [in]  MSFT_IPAM_Address         Address[],
-  [out] MSFT_IPAM_OperationStatus Output[]
+  [in]  MSFT_IPAM_Address         Address[],
+  [out] MSFT_IPAM_OperationStatus Output[]
 );
 ```
 
@@ -57,7 +60,7 @@ Returns 0 on success, otherwise returns a WMI error code.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -71,9 +74,9 @@ Returns 0 on success, otherwise returns a WMI error code.
 [**MSFT\_IPAM\_Address**](msft-ipam-address.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

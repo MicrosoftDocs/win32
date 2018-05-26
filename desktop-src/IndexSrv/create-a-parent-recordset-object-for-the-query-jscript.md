@@ -1,7 +1,12 @@
 ---
 title: Create a Parent Recordset Object for the Query
 description: Create a Parent Recordset Object for the Query
-ms.assetid: 'ce533ecc-db03-471d-b7d5-f5d374749aea'
+ms.assetid: ce533ecc-db03-471d-b7d5-f5d374749aea
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Create a Parent Recordset Object for the Query

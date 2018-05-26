@@ -1,8 +1,20 @@
 ---
 title: Audio Mixer Reference
 description: Audio Mixer Reference
-ms.assetid: '9d8751b1-9c0b-4238-a961-27c09a869bb3'
-keywords: ["multimedia audio,audio mixers", "audio,audio mixers", "multimedia audio,mixer reference", "audio,mixer reference", "audio mixers,reference", "mixers,reference", "reference for audio mixers,about"]
+ms.assetid: 9d8751b1-9c0b-4238-a961-27c09a869bb3
+keywords:
+- multimedia audio,audio mixers
+- audio,audio mixers
+- multimedia audio,mixer reference
+- audio,mixer reference
+- audio mixers,reference
+- mixers,reference
+- reference for audio mixers,about
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Audio Mixer Reference
@@ -32,11 +44,11 @@ This section describes the functions, structures, and messages associated with a
 
 ## Changing Control Attributes
 
--   [**MIXERCONTROLDETAILS**](mixercontroldetails.md)
--   [**MIXERCONTROLDETAILS\_BOOLEAN**](mixercontroldetails-boolean.md)
--   [**MIXERCONTROLDETAILS\_LISTTEXT**](mixercontroldetails-listtext.md)
--   [**MIXERCONTROLDETAILS\_SIGNED**](mixercontroldetails-signed.md)
--   [**MIXERCONTROLDETAILS\_UNSIGNED**](mixercontroldetails-unsigned.md)
+-   [**MIXERCONTROLDETAILS**](/windows/win32/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta?branch=master)
+-   [**MIXERCONTROLDETAILS\_BOOLEAN**](/windows/win32/mmeapi/?branch=master)
+-   [**MIXERCONTROLDETAILS\_LISTTEXT**](/windows/win32/mmeapi/?branch=master)
+-   [**MIXERCONTROLDETAILS\_SIGNED**](/windows/win32/mmeapi/?branch=master)
+-   [**MIXERCONTROLDETAILS\_UNSIGNED**](/windows/win32/mmeapi/?branch=master)
 -   [**mixerGetControlDetails**](mixergetcontroldetails.md)
 -   [**mixerSetControlDetails**](mixersetcontroldetails.md)
 

@@ -4,13 +4,15 @@ description: Represents an association between a higher level CIM\_StorageExtent
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'a7318f5f-8fb3-4e59-af96-805d0ff8f04e'
-ms.prod: 'windows-server-dev'
+ms.assetid: a7318f5f-8fb3-4e59-af96-805d0ff8f04e
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["CIM_BasedOn class", "CIM_BasedOn class, described"]
+keywords:
+- CIM_BasedOn class
+- CIM_BasedOn class, described
 topic_type:
 - apiref
 api_name:
@@ -24,6 +26,9 @@ api_location:
 - VMMS.exe
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_BasedOn class
@@ -40,9 +45,9 @@ class CIM_BasedOn : CIM_Dependency
 {
   CIM_StorageExtent REF Antecedent;
   CIM_StorageExtent REF Dependent;
-  uint64                StartingAddress;
-  uint64                EndingAddress;
-  uint16                OrderIndex;
+  uint64                StartingAddress;
+  uint64                EndingAddress;
+  uint16                OrderIndex;
 };
 ```
 
@@ -138,7 +143,7 @@ The address that indicates where in lower level storage, the higher level **CIM\
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -155,9 +160,9 @@ The address that indicates where in lower level storage, the higher level **CIM\
 [Failover Clustering Hyper-V WMI Provider](failover-clustering-hyper-v-wmi-provider-portal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

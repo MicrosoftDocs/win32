@@ -1,7 +1,12 @@
 ---
 title: Editing Project Options
 description: You create a title for your help file, set which topic will appear by default, and select which items to display when compiling your files in the \ OPTIONS\ section of the project file.
-ms.assetid: '20184C20-1D15-4c3b-8C87-472F0878A285'
+ms.assetid: 20184C20-1D15-4c3b-8C87-472F0878A285
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Editing Project Options

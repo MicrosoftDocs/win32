@@ -1,7 +1,12 @@
-﻿---
-Description: 'The Connect method connects a fax client application to the specified fax server.'
-ms.assetid: '561024ba-f15e-4339-877e-b8cc8e9f0234'
-title: 'FaxServer.Connect method'
+---
+Description: The Connect method connects a fax client application to the specified fax server.
+ms.assetid: 561024ba-f15e-4339-877e-b8cc8e9f0234
+title: FaxServer.Connect method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.Connect method
@@ -61,7 +66,7 @@ To connect to the local server, set the *bstrServerName* parameter to **Null** o
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

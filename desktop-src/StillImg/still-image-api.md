@@ -1,8 +1,30 @@
 ---
 title: Still Image API
 description: Applications use the Still Image API to gain access to Still Image features.
-ms.assetid: 'd9b9d6b9-9cad-4688-bfdf-750fde50ab3e'
-keywords: ["architecture,Still Image API", "STI architecture,Still Image API", "Still Image (STI),API", "STI (Still Image),API", "still images,Still Image API", "Still Image API,about", "Still Image (STI),Event Monitor", "STI (Still Image),Event Monitor", "Still Image API,Event Monitor", "Still Image (STI),Control Panel", "STI (Still Image),Control Panel", "Still Image API,Control Panel", "still images,Still Image Event Monitor", "still images,Still Image Control Panel", "Still Image Event Monitor", "Still Image Control Panel", "GetSTILaunchInformation method"]
+ms.assetid: d9b9d6b9-9cad-4688-bfdf-750fde50ab3e
+keywords:
+- architecture,Still Image API
+- STI architecture,Still Image API
+- Still Image (STI),API
+- STI (Still Image),API
+- still images,Still Image API
+- Still Image API,about
+- Still Image (STI),Event Monitor
+- STI (Still Image),Event Monitor
+- Still Image API,Event Monitor
+- Still Image (STI),Control Panel
+- STI (Still Image),Control Panel
+- Still Image API,Control Panel
+- still images,Still Image Event Monitor
+- still images,Still Image Control Panel
+- Still Image Event Monitor
+- Still Image Control Panel
+- GetSTILaunchInformation method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Still Image API

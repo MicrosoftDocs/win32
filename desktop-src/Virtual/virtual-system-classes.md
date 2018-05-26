@@ -1,7 +1,12 @@
 ---
 title: Virtual System Classes
 description: Virtualization WMI classes related to the virtual system.
-ms.assetid: 'cbcf3cb5-85bd-4c8b-a770-b91748ee1f8d'
+ms.assetid: cbcf3cb5-85bd-4c8b-a770-b91748ee1f8d
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Virtual System Classes
@@ -27,7 +32,7 @@ The following are virtualization WMI classes related to the virtual system.
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -36,9 +41,9 @@ The following are virtualization WMI classes related to the virtual system.
 [Virtualization WMI Classes](virtualization-wmi-classes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

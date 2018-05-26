@@ -1,12 +1,17 @@
 ---
-Description: 'The IHWEventHandler interface can be registered in the running object table (ROT) so that running applications have access to AutoPlay events.'
-ms.assetid: '6FEFFB5D-DD8B-4FEA-B273-D32FC30CAFEA'
+Description: The IHWEventHandler interface can be registered in the running object table (ROT) so that running applications have access to AutoPlay events.
+ms.assetid: 6FEFFB5D-DD8B-4FEA-B273-D32FC30CAFEA
 title: How to Use AutoPlay Events in Running Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How to Use AutoPlay Events in Running Applications
 
-The [**IHWEventHandler**](ihweventhandler.md) interface can be registered in the running object table (ROT) so that running applications have access to AutoPlay events.
+The [**IHWEventHandler**](/windows/win32/Shobjidl/nn-shobjidl-ihweventhandler?branch=master) interface can be registered in the running object table (ROT) so that running applications have access to AutoPlay events.
 
 The following instructions describe how to use AutoPlay events in running applications.
 
@@ -14,7 +19,7 @@ The following instructions describe how to use AutoPlay events in running applic
 
 ### Step 1:
 
-Create a new component that implements the [**IHWEventHandler**](ihweventhandler.md) interface.
+Create a new component that implements the [**IHWEventHandler**](/windows/win32/Shobjidl/nn-shobjidl-ihweventhandler?branch=master) interface.
 
 ### Step 2:
 
@@ -107,7 +112,7 @@ Use the *ppmoniker* parameter to register your component in the ROT.
 >
 > <dl> <dt>
 
-[**IHWEventHandler**](ihweventhandler.md)
+[**IHWEventHandler**](/windows/win32/Shobjidl/nn-shobjidl-ihweventhandler?branch=master)
 </dt> <dt>
 
 [**CreateHardwareEventMoniker**](createhardwareeventmoniker.md)

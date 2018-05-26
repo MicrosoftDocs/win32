@@ -2,13 +2,19 @@
 title: /no\_format\_opt switch
 description: The /no\_format\_opt switch changes the way MIDL optimizes type and procedure descriptors.
 ms.assetid: 721ac828-7b47-4991-8bce-f9babf6c77a8
-keywords: ["/no_format_opt switch MIDL"]
+keywords:
+- /no_format_opt switch MIDL
 topic_type:
 - apiref
 api_name:
 - /no_format_opt
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /no\_format\_opt switch

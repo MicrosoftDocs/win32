@@ -1,12 +1,17 @@
 ---
 Description: Demux Clock Behavior
-ms.assetid: 'c8a067f7-4e4c-4f25-b26c-f6bb048060b0'
+ms.assetid: c8a067f7-4e4c-4f25-b26c-f6bb048060b0
 title: Demux Clock Behavior
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Demux Clock Behavior
 
-In push mode, the MPEG-2 Demultiplexer (demux) exposes the [**IReferenceClock**](ireferenceclock.md) interface. It acts as a live source, so it will be chosen as the graph reference clock by default; see [Live Sources](live-sources.md) for more information.
+In push mode, the MPEG-2 Demultiplexer (demux) exposes the [**IReferenceClock**](/windows/win32/Strmif/nn-strmif-ireferenceclock?branch=master) interface. It acts as a live source, so it will be chosen as the graph reference clock by default; see [Live Sources](live-sources.md) for more information.
 
 -   For transport streams, the demux synchronizes its clock to the PCR stream that corresponds to the audio or video stream most recently mapped by the application. Internally, the demux tracks the PAT and PMT tables. When the application maps an elementary stream PID to an output pin, the demux looks up the PCR stream for that PID and uses that PCR stream. (Currently, there is not way for the application to specify the PCR PID directly.)
 -   For program streams, the demux synchronizes its clock to the SCR stream.

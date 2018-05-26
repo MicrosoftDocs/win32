@@ -1,14 +1,20 @@
 ---
 title: ScheduleByMonth (calendarTriggerType) Element
 description: Specifies a monthly schedule.
-ms.assetid: '3a23f4d0-bdaf-4f2a-81c6-8652a0849fc8'
-keywords: ["ScheduleByMonth element Task Scheduler"]
+ms.assetid: 3a23f4d0-bdaf-4f2a-81c6-8652a0849fc8
+keywords:
+- ScheduleByMonth element Task Scheduler
 topic_type:
 - apiref
 api_name:
 - ScheduleByMonth
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ScheduleByMonth (calendarTriggerType) Element
@@ -50,7 +56,7 @@ The time of day that the task is started is set by the [**StartBoundary**](tasks
 
 For script development, a monthly trigger is specified using the [**MonthlyTrigger**](monthlytrigger.md) object.
 
-For C++ development, a monthly trigger is specified using the [**IMonthlyTrigger**](imonthlytrigger.md) interface.
+For C++ development, a monthly trigger is specified using the [**IMonthlyTrigger**](/windows/win32/taskschd/nn-taskschd-imonthlytrigger?branch=master) interface.
 
 The child elements listed below are defined by the [**monthlyScheduleType**](taskschedulerschema-monthlyscheduletype-complextype.md) complex element types.
 
@@ -94,8 +100,8 @@ The following XML defines a monthly calendar trigger that starts a task ( at 8:0
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -109,9 +115,9 @@ The following XML defines a monthly calendar trigger that starts a task ( at 8:0
 [Task Scheduler](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

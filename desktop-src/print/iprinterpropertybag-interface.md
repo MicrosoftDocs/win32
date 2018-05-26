@@ -1,7 +1,12 @@
-﻿---
-Description: 'Provides strongly-typed get and set methods.'
-ms.assetid: '421397FF-4956-4052-B63D-32F8E79A22D0'
+---
+Description: Provides strongly-typed get and set methods.
+ms.assetid: 421397FF-4956-4052-B63D-32F8E79A22D0
 title: IPrinterPropertyBag interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterPropertyBag interface

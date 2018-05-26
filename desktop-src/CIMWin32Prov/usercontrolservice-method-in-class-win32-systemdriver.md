@@ -1,15 +1,18 @@
 ---
-Description: 'Attempts to send a user-defined control code to a service managed by a system driver.'
+Description: Attempts to send a user-defined control code to a service managed by a system driver.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '62e66c35-f264-43d0-9e94-fb5e85f936e0'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 62e66c35-f264-43d0-9e94-fb5e85f936e0
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'UserControlService method of the Win32\_SystemDriver class'
+title: UserControlService method of the Win32\_SystemDriver class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # UserControlService method of the Win32\_SystemDriver class
@@ -23,7 +26,7 @@ This topic uses Managed Object Format (MOF) syntax. For more information about u
 
 ```mof
 uint32 UserControlService(
-  [in] uint8 ControlCode
+  [in] uint8 ControlCode
 );
 ```
 
@@ -50,8 +53,8 @@ Returns a value of 0 (zero) if the **UserControlService** request was accepted, 
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -68,9 +71,9 @@ Returns a value of 0 (zero) if the **UserControlService** request was accepted, 
 [**Win32\_SystemDriver**](win32-systemdriver.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

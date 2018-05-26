@@ -1,7 +1,12 @@
 ---
-Description: 'Beginning with Windows Installer 3.0, it is possible to apply patches to an application that has been installed in a per-user-managed context after the patch has been registered as having elevated privileges.'
-ms.assetid: 'ebe5f447-9b74-48dc-8192-f2ac90dca490'
-title: 'Patching Per-User Managed Applications'
+Description: Beginning with Windows Installer 3.0, it is possible to apply patches to an application that has been installed in a per-user-managed context after the patch has been registered as having elevated privileges.
+ms.assetid: ebe5f447-9b74-48dc-8192-f2ac90dca490
+title: Patching Per-User Managed Applications
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Patching Per-User Managed Applications
@@ -17,7 +22,7 @@ An application is installed in the per-user-managed state in the following cases
 
 Privileges are required to install an application in the per-user-managed context; therefore, future Windows Installer reinstallations or repairs of the application are also performed by the installer using elevated privileges. This means that only patches from trusted sources can be applied to the application.
 
-Beginning with Windows Installer 3.0, you can apply a patch to a per-user managed application after the patch has been registered as having elevated privileges. To register a patch as having elevated privileges, use the [**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md) function or the [**SourceListAddSource**](patch-sourcelistaddsource.md) method of the [**Patch**](patch-object.md) object, with elevated privileges. After registering the patch, you can apply the patch using the [**MsiApplyPatch**](msiapplypatch.md) or [**MsiApplyMultiplePatches**](msiapplymultiplepatches.md) functions, [**ApplyPatch**](installer-applypatch.md) or [**ApplyMultiplePatches**](installer-applymultiplepatches.md) methods of the [**Installer Object**](installer-object.md), or the /p [command-line option](command-line-options.md).
+Beginning with Windows Installer 3.0, you can apply a patch to a per-user managed application after the patch has been registered as having elevated privileges. To register a patch as having elevated privileges, use the [**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master) function or the [**SourceListAddSource**](patch-sourcelistaddsource.md) method of the [**Patch**](patch-object.md) object, with elevated privileges. After registering the patch, you can apply the patch using the [**MsiApplyPatch**](/windows/win32/Msi/nf-msi-msiapplypatcha?branch=master) or [**MsiApplyMultiplePatches**](/windows/win32/Msi/nf-msi-msiapplymultiplepatchesa?branch=master) functions, [**ApplyPatch**](installer-applypatch.md) or [**ApplyMultiplePatches**](installer-applymultiplepatches.md) methods of the [**Installer Object**](installer-object.md), or the /p [command-line option](command-line-options.md).
 
 > [!Note]A patch can be registered as having elevated privileges before the application is installed. When a patch has been registered, it remains registered until the last registered application for this patch is removed.
 >
@@ -52,7 +57,7 @@ patch.SourceListInfo("PackageName") = PatchPackageName
 
 ## Example
 
-The following code sample uses the [**MsiSourceListAddSourceEx**](msisourcelistaddsourceex.md) function to register a patch package located at \\\\server\\share\\products\\patches\\example.msp as having elevated privileges. That patch is then ready to be applied to a per-user managed product.
+The following code sample uses the [**MsiSourceListAddSourceEx**](/windows/win32/Msi/nf-msi-msisourcelistaddsourceexa?branch=master) function to register a patch package located at \\\\server\\share\\products\\patches\\example.msp as having elevated privileges. That patch is then ready to be applied to a per-user managed product.
 
 
 ```C++

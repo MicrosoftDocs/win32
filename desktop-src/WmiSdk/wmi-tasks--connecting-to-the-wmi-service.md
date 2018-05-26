@@ -1,20 +1,23 @@
 ---
-Description: 'To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific namespace.'
+Description: To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific namespace.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '71ff6b06-af7d-43ee-ae6e-1964ec249472'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 71ff6b06-af7d-43ee-ae6e-1964ec249472
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'WMI Tasks: Connecting to the WMI Service'
+title: WMI Tasks Connecting to the WMI Service
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # WMI Tasks: Connecting to the WMI Service
 
 To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific [*namespace*](gloss-n.md#wmi-gloss-namespace). In most cases, use either the shorthand [moniker](creating-a-wmi-script.md) connection or the [**Locator**](swbemlocator-connectserver.md) connection. For other examples, see the TechNet ScriptCenter at [http://www.microsoft.com/technet](Http://go.microsoft.com/fwlink/p/?linkid=84103).
 
-Remote connections require proper settings for the Windows Firewall and DCOM. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854). Starting with Windows Vista, User Account Control (UAC) can affect WMI access. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
+Remote connections require proper settings for the Windows Firewall and DCOM. For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [Connecting Through Windows Firewall](https://msdn.microsoft.com/library/aa822854). Starting with Windows Vista, User Account Control (UAC) can affect WMI access. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md).
 
 The script examples shown in this topic obtain data only from the local computer. For more information about how to use the script to obtain data from remote computers, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -32,7 +35,7 @@ The following procedure describes how to run a script.
 > [!Note]  
 > By default, cscript displays the output of a script in the command prompt window. Because WMI scripts can produce large amounts of output, you might want to redirect the output to a file. Type **cscript filename.vbs &gt; outfile.txt** at the command prompt to redirect the output of the *filename.vbs* script to *outfile.txt*.
 
- 
+ 
 
 The following table lists script examples that can be used to obtain various types of data from the local computer.
 
@@ -57,7 +60,7 @@ The following table lists script examples that can be used to obtain various typ
 <li>A NetBIOS computer name, such as &quot;atl-dc-01&quot;</li>
 <li>A fully qualified domain name, such as &quot;atl-dc-01.fabrikam.com&quot;</li>
 <li>An IPv4 address, such as &quot;192.168.1.1&quot;</li>
-<li>Starting with Windows Vista, you can specify an IPv6 address if the target computer and the computer from which you are making the connection both run IPv6.<br/></li>
+<li>Starting with Windows Vista, you can specify an IPv6 address if the target computer and the computer from which you are making the connection both run IPv6.<br/></li>
 </ul>
 For more information, see [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md) and [IPv6 and IPv4 Support in WMI](ipv6-and-ipv4-support-in-wmi.md).<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -101,7 +104,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 </tr>
 <tr class="even">
 <td>...run a WMI script under alternate credentials?</td>
-<td><p>Use the [<strong>SWbemLocator.ConnectServer</strong>](swbemlocator-connectserver.md) method, or [<strong>IWbemLocator::ConnectServer</strong>](iwbemlocator-connectserver.md) in C++, and include the appropriate user name and password. You cannot change credentials when connecting to the local computer. For more information, see [Creating a WMI Script](creating-a-wmi-script.md) and [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).</p>
+<td><p>Use the [<strong>SWbemLocator.ConnectServer</strong>](swbemlocator-connectserver.md) method, or [<strong>IWbemLocator::ConnectServer</strong>](/windows/win32/Wbemcli/nf-wbemcli-iwbemlocator-connectserver?branch=master) in C++, and include the appropriate user name and password. You cannot change credentials when connecting to the local computer. For more information, see [Creating a WMI Script](creating-a-wmi-script.md) and [Connecting to WMI on a Remote Computer](connecting-to-wmi-on-a-remote-computer.md).</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
@@ -152,7 +155,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -167,10 +170,10 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 [TechNet ScriptCenter](http://go.microsoft.com/fwlink/p/?linkid=46710)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
+ 
 
 
+
+`

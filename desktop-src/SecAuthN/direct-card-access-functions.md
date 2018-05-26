@@ -1,7 +1,12 @@
 ---
-Description: 'By using the smart card subsystem, you can communicate with cards that may not conform to the ISO 7816 specifications.'
-ms.assetid: 'ea6cfa5a-2abf-4b7f-b3f4-99655266f030'
+Description: By using the smart card subsystem, you can communicate with cards that may not conform to the ISO 7816 specifications.
+ms.assetid: ea6cfa5a-2abf-4b7f-b3f4-99655266f030
 title: Direct Card Access Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Direct Card Access Functions
@@ -14,9 +19,9 @@ To use these functions, you have to supply an identifier for the attribute in qu
 
 | Topic                                    | Description                           |
 |------------------------------------------|---------------------------------------|
-| [**SCardControl**](scardcontrol.md)     | Provide direct control of the reader. |
-| [**SCardGetAttrib**](scardgetattrib.md) | Get reader attributes.                |
-| [**SCardSetAttrib**](scardsetattrib.md) | Set reader attribute.                 |
+| [**SCardControl**](/windows/win32/Winscard/nf-winscard-scardcontrol?branch=master)     | Provide direct control of the reader. |
+| [**SCardGetAttrib**](/windows/win32/Winscard/nf-winscard-scardgetattrib?branch=master) | Get reader attributes.                |
+| [**SCardSetAttrib**](/windows/win32/Winscard/nf-winscard-scardsetattrib?branch=master) | Set reader attribute.                 |
 
 
 

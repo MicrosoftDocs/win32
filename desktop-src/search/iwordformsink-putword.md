@@ -1,12 +1,17 @@
-﻿---
-Description: 'Puts the original word form in the IWordFormSink object.'
-ms.assetid: '333A3109-6C0A-42AE-9E10-87F53C7F737C'
-title: 'IWordFormSink::PutWord method'
+---
+Description: Puts the original word form in the IWordFormSink object.
+ms.assetid: 333A3109-6C0A-42AE-9E10-87F53C7F737C
+title: IWordFormSinkPutWord method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IWordFormSink::PutWord method
 
-Puts the original word form in the [**IWordFormSink**](iwordformsink.md) object.
+Puts the original word form in the [**IWordFormSink**](/windows/win32/Indexsrv/nn-indexsrv-iwordformsink?branch=master) object.
 
 ## Syntax
 
@@ -54,7 +59,7 @@ This method can return one of these values.
 
 ## Remarks
 
-**PutWord** is called from the [**GenerateWordForms**](search._search_istemmer_generatewordforms) method of the [**IStemmer**](search._search_istemmer) implementation. This method handles the original form of a word and is called last. All preceding alternative forms for a word are put in the [**IWordFormSink**](iwordformsink.md) object by calling [**IWordFormSink::PutAltWord**](iwordformsink-putphrase.md).
+**PutWord** is called from the [**GenerateWordForms**](search._search_istemmer_generatewordforms) method of the [**IStemmer**](search._search_istemmer) implementation. This method handles the original form of a word and is called last. All preceding alternative forms for a word are put in the [**IWordFormSink**](/windows/win32/Indexsrv/nn-indexsrv-iwordformsink?branch=master) object by calling [**IWordFormSink::PutAltWord**](iwordformsink-putphrase.md).
 
 ## Requirements
 
@@ -72,7 +77,7 @@ This method can return one of these values.
 
 <dl> <dt>
 
-[**IWordFormSink**](iwordformsink.md)
+[**IWordFormSink**](/windows/win32/Indexsrv/nn-indexsrv-iwordformsink?branch=master)
 </dt> </dl>
 
  

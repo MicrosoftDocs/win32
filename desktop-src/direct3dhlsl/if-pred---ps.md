@@ -1,7 +1,12 @@
 ---
 title: if pred - ps
 description: Start of an if bool - ps...else - ps...endif - ps block, with the condition taken from the content of the predicate register.
-ms.assetid: '7b43bf71-a2e9-468f-805f-620de065db08'
+ms.assetid: 7b43bf71-a2e9-468f-805f-620de065db08
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # if pred - ps

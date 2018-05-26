@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_Rack class represents a rack (a physical frame or enclosure) in which chassis are stored. Typically, a rack represents the enclosure; all functioning components are packaged in the chassis.'
+Description: The CIM\_Rack class represents a rack (a physical frame or enclosure) in which chassis are stored. Typically, a rack represents the enclosure; all functioning components are packaged in the chassis.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '1e0273ce-2a09-4f75-a82e-d0555d6a831e'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 1e0273ce-2a09-4f75-a82e-d0555d6a831e
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_Rack class'
+title: CIM\_Rack class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_Rack class
@@ -19,7 +22,7 @@ The **CIM\_Rack** class represents a rack (a physical frame or enclosure) in whi
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -29,38 +32,38 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Abstract, UUID("{FAF76B71-798C-11D2-AAD1-006008C78BC7}"), AMENDMENT]
 class CIM_Rack : CIM_PhysicalFrame
 {
-  boolean  AudibleAlarm;
-  string   BreachDescription;
-  string   CableManagementStrategy;
-  string   Caption;
-  string   CountryDesignation;
-  string   CreationClassName;
-  real32   Depth;
-  string   Description;
-  real32   Height;
-  boolean  HotSwappable;
+  boolean  AudibleAlarm;
+  string   BreachDescription;
+  string   CableManagementStrategy;
+  string   Caption;
+  string   CountryDesignation;
+  string   CreationClassName;
+  real32   Depth;
+  string   Description;
+  real32   Height;
+  boolean  HotSwappable;
   datetime InstallDate;
-  boolean  LockPresent;
-  string   Manufacturer;
-  string   Model;
-  string   Name;
-  string   OtherIdentifyingInfo;
-  string   PartNumber;
-  boolean  PoweredOn;
-  boolean  Removable;
-  boolean  Replaceable;
-  uint16   SecurityBreach;
-  string   SerialNumber;
-  string   ServiceDescriptions[];
-  uint16   ServicePhilosophy[];
-  string   SKU;
-  string   Status;
-  string   Tag;
-  uint16   TypeOfRack;
-  string   Version;
-  boolean  VisibleAlarm;
-  real32   Weight;
-  real32   Width;
+  boolean  LockPresent;
+  string   Manufacturer;
+  string   Model;
+  string   Name;
+  string   OtherIdentifyingInfo;
+  string   PartNumber;
+  boolean  PoweredOn;
+  boolean  Removable;
+  boolean  Replaceable;
+  uint16   SecurityBreach;
+  string   SerialNumber;
+  string   ServiceDescriptions[];
+  uint16   ServicePhilosophy[];
+  string   SKU;
+  string   Status;
+  string   Tag;
+  uint16   TypeOfRack;
+  string   Version;
+  boolean  VisibleAlarm;
+  real32   Weight;
+  real32   Width;
 };
 ```
 
@@ -83,7 +86,7 @@ The **CIM\_Rack** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -361,7 +364,7 @@ Additional data, beyond asset tag information, that could be used to identify a 
 > [!Note]  
 > If only bar-code data is available, and is unique and able to be used as an element key, this property would be null and the bar-code data would be used as the class key in the **Tag** property.
 
- 
+ 
 
 </dd> <dt>
 
@@ -880,8 +883,8 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -895,9 +898,9 @@ This documentation is derived from the CIM class descriptions published by the D
 [**CIM\_PhysicalFrame**](cim-physicalframe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

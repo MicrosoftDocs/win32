@@ -4,17 +4,22 @@ description: Is the object recycled. For use with AD Recycle Bin.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: 'd7d470ef-0ec6-4baf-a481-ba63efe451d2'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-schema'
+ms.assetid: d7d470ef-0ec6-4baf-a481-ba63efe451d2
+ms.prod: windows-server-dev
+ms.technology: active-directory-schema
 ms.tgt_platform: multiple
-keywords: ["Is-Recycled attribute AD Schema", "isRecycled attribute AD Schema"]
+keywords:
+- Is-Recycled attribute AD Schema
+- isRecycled attribute AD Schema
 topic_type:
 - apiref
 api_name:
 - Is-Recycled
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Is-Recycled attribute
@@ -38,8 +43,8 @@ Is the object recycled. For use with AD Recycle Bin.
 
 ## Implementations
 
--   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## Windows Server 2008 R2
 
@@ -83,9 +88,9 @@ Is the object recycled. For use with AD Recycle Bin.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

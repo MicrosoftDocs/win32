@@ -1,15 +1,18 @@
 ---
-Description: 'The Win32\_MappedLogicalDisk &\#32; WMI class represents network storage devices that are mapped as logical disks on the computer system.'
+Description: The Win32\_MappedLogicalDisk &\#32; WMI class represents network storage devices that are mapped as logical disks on the computer system.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '5dd4b0eb-7872-4f2d-9c8b-ea03f7e2c16d'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 5dd4b0eb-7872-4f2d-9c8b-ea03f7e2c16d
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'Win32\_MappedLogicalDisk class'
+title: Win32\_MappedLogicalDisk class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Win32\_MappedLogicalDisk class
@@ -24,44 +27,44 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [Dynamic, Provider("CIMWin32"), UUID("{BCF02FFE-5560-4de2-B419-272918693426}"), AMENDMENT]
 class Win32_MappedLogicalDisk : CIM_LogicalDisk
 {
-  uint16   Access;
-  uint16   Availability;
-  uint64   BlockSize;
-  string   Caption;
-  boolean  Compressed;
-  uint32   ConfigManagerErrorCode;
-  boolean  ConfigManagerUserConfig;
-  string   CreationClassName;
-  string   Description;
-  string   DeviceID;
-  boolean  ErrorCleared;
-  string   ErrorDescription;
-  string   ErrorMethodology;
-  string   FileSystem;
-  uint64   FreeSpace;
+  uint16   Access;
+  uint16   Availability;
+  uint64   BlockSize;
+  string   Caption;
+  boolean  Compressed;
+  uint32   ConfigManagerErrorCode;
+  boolean  ConfigManagerUserConfig;
+  string   CreationClassName;
+  string   Description;
+  string   DeviceID;
+  boolean  ErrorCleared;
+  string   ErrorDescription;
+  string   ErrorMethodology;
+  string   FileSystem;
+  uint64   FreeSpace;
   datetime InstallDate;
-  uint32   LastErrorCode;
-  uint32   MaximumComponentLength;
-  string   Name;
-  uint64   NumberOfBlocks;
-  string   PNPDeviceID;
-  uint16   PowerManagementCapabilities[];
-  boolean  PowerManagementSupported;
-  string   ProviderName;
-  string   Purpose;
-  boolean  QuotasDisabled;
-  boolean  QuotasIncomplete;
-  boolean  QuotasRebuilding;
-  string   SessionID;
-  uint64   Size;
-  string   Status;
-  uint16   StatusInfo;
-  boolean  SupportsDiskQuotas;
-  boolean  SupportsFileBasedCompression;
-  string   SystemCreationClassName;
-  string   SystemName;
-  string   VolumeName;
-  string   VolumeSerialNumber;
+  uint32   LastErrorCode;
+  uint32   MaximumComponentLength;
+  string   Name;
+  uint64   NumberOfBlocks;
+  string   PNPDeviceID;
+  uint16   PowerManagementCapabilities[];
+  boolean  PowerManagementSupported;
+  string   ProviderName;
+  string   Purpose;
+  boolean  QuotasDisabled;
+  boolean  QuotasIncomplete;
+  boolean  QuotasRebuilding;
+  string   SessionID;
+  uint64   Size;
+  string   Status;
+  uint16   StatusInfo;
+  boolean  SupportsDiskQuotas;
+  boolean  SupportsFileBasedCompression;
+  string   SystemCreationClassName;
+  string   SystemName;
+  string   VolumeName;
+  string   VolumeSerialNumber;
 };
 ```
 
@@ -85,7 +88,7 @@ The **Win32\_MappedLogicalDisk** class has these methods.
 
 
 
- 
+ 
 
 ### Properties
 
@@ -1550,8 +1553,8 @@ Get-WmiObject Win32_MappedLogicalDisk | Select Name, ProviderName, FileSystem, S
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
@@ -1571,9 +1574,9 @@ Get-WmiObject Win32_MappedLogicalDisk | Select Name, ProviderName, FileSystem, S
 [WMI Tasks: Disks and File Systems](https://msdn.microsoft.com/library/aa394592)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

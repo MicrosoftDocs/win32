@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies that Supplemental Enhancement Information (SEI) unit types should be forwarded on output samples by the decoder.'
-ms.assetid: '414F6243-CD96-4867-8DDE-7A89DBFBC7CE'
-title: 'MF\_MT\_FORWARD\_CUSTOM\_SEI attribute'
+---
+Description: Specifies that Supplemental Enhancement Information (SEI) unit types should be forwarded on output samples by the decoder.
+ms.assetid: 414F6243-CD96-4867-8DDE-7A89DBFBC7CE
+title: MF\_MT\_FORWARD\_CUSTOM\_SEI attribute
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MF\_MT\_FORWARD\_CUSTOM\_SEI attribute

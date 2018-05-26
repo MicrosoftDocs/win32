@@ -1,16 +1,21 @@
-﻿---
-Description: 'Sent by the pipeline to encoder MFTs serially with media samples via IMFTransform::ProcessEvent.'
-ms.assetid: 'D5D4544B-CD8D-4C94-B050-7BA1944800CC'
+---
+Description: Sent by the pipeline to encoder MFTs serially with media samples via IMFTransformProcessEvent.
+ms.assetid: D5D4544B-CD8D-4C94-B050-7BA1944800CC
 title: MEEncodingParameters event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MEEncodingParameters event
 
-Sent by the pipeline to encoder MFTs serially with media samples via [**IMFTransform::ProcessEvent**](imftransform-processevent.md).
+Sent by the pipeline to encoder MFTs serially with media samples via [**IMFTransform::ProcessEvent**](/windows/win32/mftransform/nf-mftransform-imftransform-processevent?branch=master).
 
 ## Event values
 
-Possible values retrieved from [**IMFMediaEvent::GetValue**](imfmediaevent-getvalue.md) include the following.
+Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/win32/mfobjects/nf-mfobjects-imfmediaevent-getvalue?branch=master) include the following.
 
 
 
@@ -28,7 +33,7 @@ The following attributes are defined for this event.
 
 | Attribute                                         | Description                                                                                                                    |
 |---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [**IMFAttributes**](imfattributes.md)<br/> | Contains the new ICodecAPI-based settings that the encoder should apply on subsequent incoming samples.<br/> <br/> |
+| [**IMFAttributes**](/windows/win32/mfobjects/nn-mfobjects-imfattributes?branch=master)<br/> | Contains the new ICodecAPI-based settings that the encoder should apply on subsequent incoming samples.<br/> <br/> |
 
 
 

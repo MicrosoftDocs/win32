@@ -1,14 +1,20 @@
 ---
 title: WM/AuthorURL
-description: The WM/AuthorURL attribute contains the address of the author's Web site.
-ms.assetid: '00abc2ec-4c12-45c2-b063-a4d814f88b35'
-keywords: ["WM/AuthorURL windows Media Format"]
+description: The WM/AuthorURL attribute contains the address of the authors Web site.
+ms.assetid: 00abc2ec-4c12-45c2-b063-a4d814f88b35
+keywords:
+- WM/AuthorURL windows Media Format
 topic_type:
 - apiref
 api_name:
 - WM/AuthorURL
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WM/AuthorURL

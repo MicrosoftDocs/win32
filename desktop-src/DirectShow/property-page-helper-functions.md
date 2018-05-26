@@ -1,7 +1,12 @@
 ---
 Description: Property Page Helper Functions
-ms.assetid: '97450126-0d11-448e-a7bc-7372e84c07ae'
+ms.assetid: 97450126-0d11-448e-a7bc-7372e84c07ae
 title: Property Page Helper Functions
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Property Page Helper Functions

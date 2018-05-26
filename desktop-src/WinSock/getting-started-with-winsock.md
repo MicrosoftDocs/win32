@@ -1,7 +1,12 @@
 ---
-Description: 'The following is a step-by-step guide to getting started with Windows Sockets programming.'
-ms.assetid: '905cd5bc-44af-4d3f-841a-9e9a2700a785'
+Description: The following is a step-by-step guide to getting started with Windows Sockets programming.
+ms.assetid: 905cd5bc-44af-4d3f-841a-9e9a2700a785
 title: Getting Started with Winsock
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Getting Started with Winsock
@@ -52,23 +57,23 @@ The more advanced samples listed below in order from higher to lower performance
 
 -   iocp
 
-    This directory contains three sample programs that use I/O completion ports. The programs include a Winsock server (iocpserver) that uses the [**WSAAccept**](wsaaccept-2.md) function, a Winsock server (iocpserverex) that uses the [**AcceptEx**](acceptex-2.md) function, and a simple multithreaded Winsock client (iocpclient) used to test either of these servers. The server programs support multiple clients connecting via TCP/IP and sending arbitrary sized data buffers which the server then echoes back to the client. For convenience, a simple client program, iocpclient, was developed to connect and continually send data to the server to stress it using multiple threads. Winsock servers that use I/O completion ports provide the most performance capability.
+    This directory contains three sample programs that use I/O completion ports. The programs include a Winsock server (iocpserver) that uses the [**WSAAccept**](/windows/win32/Winsock2/nf-winsock2-wsaaccept?branch=master) function, a Winsock server (iocpserverex) that uses the [**AcceptEx**](/windows/win32/winsock/nf-mswsock-acceptex?branch=master) function, and a simple multithreaded Winsock client (iocpclient) used to test either of these servers. The server programs support multiple clients connecting via TCP/IP and sending arbitrary sized data buffers which the server then echoes back to the client. For convenience, a simple client program, iocpclient, was developed to connect and continually send data to the server to stress it using multiple threads. Winsock servers that use I/O completion ports provide the most performance capability.
 
 -   overlap
 
-    This directory contains a sample server program that uses overlapped I/O. The sample program uses the [**AcceptEx**](acceptex-2.md) function and overlapped I/O to handle multiple asynchronous connection requests from clients effectively. The server uses the **AcceptEx** function to multiplex different client connections in a single-threaded Win32 application. Using overlapped I/O allows for greater scalability.
+    This directory contains a sample server program that uses overlapped I/O. The sample program uses the [**AcceptEx**](/windows/win32/winsock/nf-mswsock-acceptex?branch=master) function and overlapped I/O to handle multiple asynchronous connection requests from clients effectively. The server uses the **AcceptEx** function to multiplex different client connections in a single-threaded Win32 application. Using overlapped I/O allows for greater scalability.
 
 -   WSAPoll
 
-    This directory contains a basic sample program that demonstrates the use of the [**WSAPoll**](wsapoll.md) function. The combined client and server program are non-blocking and use the **WSAPoll** function to determine when it is possible to send or receive without blocking. This sample is more for illustration and is not a high-performance server.
+    This directory contains a basic sample program that demonstrates the use of the [**WSAPoll**](/windows/win32/Mswsock/nf-winsock2-wsapoll?branch=master) function. The combined client and server program are non-blocking and use the **WSAPoll** function to determine when it is possible to send or receive without blocking. This sample is more for illustration and is not a high-performance server.
 
 -   simple
 
-    This directory contains three basic sample programs that demonstrate the use of multiple threads by a server. The programs include a simple TCP/UDP server (simples), a TCP-only server (simples\_ioctl) that uses the [**select**](select-2.md) function in a Win32 console application to support multiple client requests, and a client TCP/UDP program (simplec) for testing the servers. The servers demonstrates the use of multiple threads to handle multiple client requests. This method has scalability issues since a separate thread is created for each client request.
+    This directory contains three basic sample programs that demonstrate the use of multiple threads by a server. The programs include a simple TCP/UDP server (simples), a TCP-only server (simples\_ioctl) that uses the [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) function in a Win32 console application to support multiple client requests, and a client TCP/UDP program (simplec) for testing the servers. The servers demonstrates the use of multiple threads to handle multiple client requests. This method has scalability issues since a separate thread is created for each client request.
 
 -   accept
 
-    This directory contains a basic sample server and client program. The server demonstrates the use of either non-blocking accept using the [**select**](select-2.md) function or asynchronous accept using the [**WSAAsyncSelect**](wsaasyncselect-2.md) function. This sample is more for illustration and is not a high-performance server.
+    This directory contains a basic sample server and client program. The server demonstrates the use of either non-blocking accept using the [**select**](/windows/win32/Winsock2/nf-winsock2-select?branch=master) function or asynchronous accept using the [**WSAAsyncSelect**](/windows/win32/winsock/nf-winsock-wsaasyncselect?branch=master) function. This sample is more for illustration and is not a high-performance server.
 
  
 

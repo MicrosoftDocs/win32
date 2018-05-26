@@ -1,7 +1,12 @@
-﻿---
-Description: 'Commits the operation.'
-ms.assetid: '5BA1417B-B78B-4582-9DDC-D542413B4BD8'
-title: 'IPrinterScriptableStream::Commit method'
+---
+Description: Commits the operation.
+ms.assetid: 5BA1417B-B78B-4582-9DDC-D542413B4BD8
+title: IPrinterScriptableStreamCommit method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IPrinterScriptableStream::Commit method

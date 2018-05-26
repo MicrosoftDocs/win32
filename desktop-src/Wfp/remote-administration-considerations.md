@@ -1,7 +1,12 @@
 ---
-Description: 'There are some considerations that are unique to remotely administered systems.'
-ms.assetid: 'bfdf121e-9b4e-4323-82ec-9bd32531caad'
+Description: There are some considerations that are unique to remotely administered systems.
+ms.assetid: bfdf121e-9b4e-4323-82ec-9bd32531caad
 title: WFP Remote Administration Considerations
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WFP Remote Administration Considerations

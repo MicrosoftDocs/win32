@@ -1,8 +1,9 @@
 ---
 title: glFrustum function
 description: The glFrustum function multiplies the current matrix by a perspective matrix.
-ms.assetid: 'aa44c3fc-3bf6-4ef3-bb29-98e3056cdad3'
-keywords: ["glFrustum function OpenGL"]
+ms.assetid: aa44c3fc-3bf6-4ef3-bb29-98e3056cdad3
+keywords:
+- glFrustum function OpenGL
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - opengl32.dll
 api_type:
 - DllExport
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # glFrustum function
@@ -22,12 +28,12 @@ The **glFrustum** function multiplies the current matrix by a perspective matrix
 
 ```C++
 void WINAPI glFrustum(
-   GLdouble left,
-   GLdouble right,
-   GLdouble bottom,
-   GLdouble top,
-   GLdouble zNear,
-   GLdouble zFar
+   GLdouble left,
+   GLdouble right,
+   GLdouble bottom,
+   GLdouble top,
+   GLdouble zNear,
+   GLdouble zFar
 );
 ```
 
@@ -115,7 +121,7 @@ The **glFrustum** function describes a perspective matrix that produces a perspe
 
 ![](images/frust01.png)![](images/frust02.png)
 
-The **glFrustum** function multiplies the current matrix by this matrix, with the result replacing the current matrix. That is, if M is the current matrix and F is the frustum perspective matrix, then **glFrustum** replaces M with M • F.
+The **glFrustum** function multiplies the current matrix by this matrix, with the result replacing the current matrix. That is, if M is the current matrix and F is the frustum perspective matrix, then **glFrustum** replaces M with M   F.
 
 Use [**glPushMatrix**](glpushmatrix.md) and [**glPopMatrix**](glpopmatrix.md) to save and restore the current matrix stack.
 
@@ -123,7 +129,7 @@ Depth-buffer precision is affected by the values specified for *zNear* and *zFar
 
 ![](images/frust03.png)
 
-roughly *log*2 (*r*) bits of depth buffer precision are lost. Because *r* approaches infinity as *zNear* approaches zero, you should never set *zNear* to zero.
+roughly *log*2 (*r*) bits of depth buffer precision are lost. Because *r* approaches infinity as *zNear* approaches zero, you should never set *zNear* to zero.
 
 The following functions retrieve information about **glFrustum**:
 
@@ -141,8 +147,8 @@ The following functions retrieve information about **glFrustum**:
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |
 | Header<br/>                   | <dl> <dt>Gl.h</dt> </dl>         |
 | Library<br/>                  | <dl> <dt>Opengl32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
@@ -180,9 +186,9 @@ The following functions retrieve information about **glFrustum**:
 [**glViewport**](glviewport.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

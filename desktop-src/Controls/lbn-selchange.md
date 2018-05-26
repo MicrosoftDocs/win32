@@ -1,8 +1,9 @@
 ---
 title: LBN\_SELCHANGE notification code
 description: Notifies the application that the selection in a list box has changed as a result of user input. The parent window of the list box receives this notification code through the WM\_COMMAND message.
-ms.assetid: '126d2c47-816e-4179-a870-f5c5a34c5513'
-keywords: ["LBN_SELCHANGE notification code Windows Controls"]
+ms.assetid: 126d2c47-816e-4179-a870-f5c5a34c5513
+keywords:
+- LBN_SELCHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LBN\_SELCHANGE notification code
@@ -59,8 +65,8 @@ For a multiple-selection list box, the LBN\_SELCHANGE notification code is sent 
 
 |                                     |                                                                                                          |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |
 | Header<br/>                   | <dl> <dt>Winuser.h (include Windows.h)</dt> </dl> |
 
 
@@ -87,9 +93,9 @@ For a multiple-selection list box, the LBN\_SELCHANGE notification code is sent 
 [**WM\_COMMAND**](https://msdn.microsoft.com/library/windows/desktop/ms647591)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

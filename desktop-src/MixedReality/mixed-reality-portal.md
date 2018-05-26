@@ -2,7 +2,12 @@
 title: Windows Mixed Reality
 description: Learn about the APIs for Windows Mixed Reality devices. For more information, see the Mixed Reality Dev Center or the WinRT reference documentation.
 Search.Product: eADQiWindows 10XVcnh
-ms.assetid: '301eb8a0-26eb-4909-81e2-480c4701fb6e'
+ms.assetid: 301eb8a0-26eb-4909-81e2-480c4701fb6e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Windows Mixed Reality
@@ -21,11 +26,11 @@ Learn about the APIs for Windows Mixed Reality devices. For more information, se
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

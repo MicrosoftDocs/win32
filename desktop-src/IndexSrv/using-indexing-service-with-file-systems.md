@@ -1,7 +1,12 @@
 ---
 title: Using Indexing Service with File Systems
 description: Using Indexing Service with File Systems
-ms.assetid: '596bec7a-0e5a-450a-87fd-e34f965e5b0f'
+ms.assetid: 596bec7a-0e5a-450a-87fd-e34f965e5b0f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Indexing Service with File Systems

@@ -1,7 +1,12 @@
-﻿---
-Description: 'Division operator.'
-ms.assetid: '2cb92c4f-883f-402f-bde7-2b77a0bca1fc'
-title: 'operator / operators'
+---
+Description: Division operator.
+ms.assetid: 2cb92c4f-883f-402f-bde7-2b77a0bca1fc
+title: operator / operators
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # operator / operators

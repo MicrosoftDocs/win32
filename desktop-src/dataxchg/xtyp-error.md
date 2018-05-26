@@ -1,8 +1,9 @@
 ---
 title: XTYP\_ERROR transaction
 description: A Dynamic Data Exchange (DDE) callback function, DdeCallback, receives the XTYP\_ERROR transaction when a critical error occurs.
-ms.assetid: '710daa04-ed83-42e3-a55e-6ccf891a3d52'
-keywords: ["XTYP_ERROR transaction Data Exchange"]
+ms.assetid: 710daa04-ed83-42e3-a55e-6ccf891a3d52
+keywords:
+- XTYP_ERROR transaction Data Exchange
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Ddeml.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # XTYP\_ERROR transaction
@@ -85,7 +91,7 @@ The error code in the low-order word. Currently, only the following error code i
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -106,8 +112,8 @@ An application cannot block this transaction type; the **CBR\_BLOCK** return cod
 
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                             |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Ddeml.h (include Windows.h)</dt> </dl> |
 
 
@@ -119,9 +125,9 @@ An application cannot block this transaction type; the **CBR\_BLOCK** return cod
 [Dynamic Data Exchange Management Library Overview](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

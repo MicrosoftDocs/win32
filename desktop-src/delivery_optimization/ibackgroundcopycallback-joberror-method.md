@@ -1,8 +1,11 @@
 ---
 title: IBackgroundCopyCallback JobError method
 description: Delivery Optimization (DO) calls your implementation of the JobError method when the state of the job changes to BG\_JOB\_STATE\_ERROR.
-ms.assetid: '121712A5-98EB-4B2F-A004-A3BDF9C1332B'
-keywords: ["JobError method", "JobError method, IBackgroundCopyCallback interface", "IBackgroundCopyCallback interface, JobError method"]
+ms.assetid: 121712A5-98EB-4B2F-A004-A3BDF9C1332B
+keywords:
+- JobError method
+- JobError method, IBackgroundCopyCallback interface
+- IBackgroundCopyCallback interface, JobError method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - dosvc.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IBackgroundCopyCallback::JobError method
@@ -22,8 +30,8 @@ Delivery Optimization (DO) calls your implementation of the [**JobError**](deliv
 
 ```C++
 HRESULT JobError(
-  [in] IBackgroundCopyJob   *pJob,
-  [in] IBackgroundCopyError *pError
+  [in] IBackgroundCopyJob   *pJob,
+  [in] IBackgroundCopyError *pError
 );
 ```
 
@@ -69,7 +77,7 @@ DO returns BG\_ERROR\_CONTEXT\_REMOTE\_FILE if the job hit a HTTP 403 error, BG\
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
+| Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |
 | Header<br/>                   | <dl> <dt>Deliveryoptimization.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization.idl</dt> </dl> |
@@ -98,9 +106,9 @@ DO returns BG\_ERROR\_CONTEXT\_REMOTE\_FILE if the job hit a HTTP 403 error, BG\
 [**IBackgroundCopyJob::Resume**](ibackgroundcopyjob-resume.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

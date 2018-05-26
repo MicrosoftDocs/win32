@@ -1,8 +1,21 @@
 ---
 title: WCS Calibration Schema
 description: This topic describes the WCS Calibration schema that expands the WCS color device model profile.
-ms.assetid: '99f3e9e3-15b7-4bca-87cc-a3bf3b6d0112'
-keywords: ["Windows Color System (WCS),calibration", "WCS (Windows Color System),calibration", "image color management,calibration", "color management,calibration", "colors,calibration", "schemas,calibration", "WCS calibration", "calibration"]
+ms.assetid: 99f3e9e3-15b7-4bca-87cc-a3bf3b6d0112
+keywords:
+- Windows Color System (WCS),calibration
+- WCS (Windows Color System),calibration
+- image color management,calibration
+- color management,calibration
+- colors,calibration
+- schemas,calibration
+- WCS calibration
+- calibration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WCS Calibration Schema

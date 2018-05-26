@@ -4,11 +4,14 @@ description: Specifies or retrieves the encrypted one-time password (OTP) cookie
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '09b90231-ebe5-4165-b0e5-edba18472391'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 09b90231-ebe5-4165-b0e5-edba18472391
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
-keywords: ["GatewayEncryptedOtpCookie property Remote Desktop Services", "GatewayEncryptedOtpCookie property Remote Desktop Services , IMsRdpClientTransportSettings2 interface", "IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayEncryptedOtpCookie property"]
+keywords:
+- GatewayEncryptedOtpCookie property Remote Desktop Services
+- GatewayEncryptedOtpCookie property Remote Desktop Services , IMsRdpClientTransportSettings2 interface
+- IMsRdpClientTransportSettings2 interface Remote Desktop Services , GatewayEncryptedOtpCookie property
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - MsTscAx.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # IMsRdpClientTransportSettings2::GatewayEncryptedOtpCookie property
@@ -32,11 +38,11 @@ This property is read/write.
 
 ```C++
 HRESULT put_GatewayEncryptedOtpCookie(
-  [in]  BSTR bstrEncryptedOtpCookie
+  [in]  BSTR bstrEncryptedOtpCookie
 );
 
 HRESULT get_GatewayEncryptedOtpCookie(
-  [out] BSTR *pbstrEncryptedOtpCookie
+  [out] BSTR *pbstrEncryptedOtpCookie
 );
 ```
 
@@ -52,8 +58,8 @@ Specifies or retrieves the encrypted OTP cookie.
 
 |                                     |                                                                                                   |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
+| Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                 |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                                    |
 | Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>            |
 | IID<br/>                      | IID\_IMsRdpClientTransportSettings2 is defined as 67341688-D606-4c73-A5D2-2E0489009319<br/> |
@@ -70,9 +76,9 @@ Specifies or retrieves the encrypted OTP cookie.
 [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

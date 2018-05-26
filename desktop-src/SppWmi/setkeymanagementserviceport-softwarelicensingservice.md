@@ -3,8 +3,11 @@ title: SetKeyManagementServicePort method of the SoftwareLicensingService class
 description: Sets the TCP port used by a client to make requests of a KMS host.
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c804be21-9ed3-4bc8-9bb8-a9cca38a9318'
-keywords: ["SetKeyManagementServicePort method Windows Management Instrumentation", "SetKeyManagementServicePort method Windows Management Instrumentation , SoftwareLicensingService class", "SoftwareLicensingService class Windows Management Instrumentation , SetKeyManagementServicePort method"]
+ms.assetid: c804be21-9ed3-4bc8-9bb8-a9cca38a9318
+keywords:
+- SetKeyManagementServicePort method Windows Management Instrumentation
+- SetKeyManagementServicePort method Windows Management Instrumentation , SoftwareLicensingService class
+- SoftwareLicensingService class Windows Management Instrumentation , SetKeyManagementServicePort method
 topic_type:
 - apiref
 api_name:
@@ -13,6 +16,11 @@ api_location:
 - SppWmi.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SetKeyManagementServicePort method of the SoftwareLicensingService class
@@ -24,7 +32,7 @@ Sets the TCP port used by a client to make requests of a KMS host.
 
 ```mof
 uint32 SetKeyManagementServicePort(
-  [in] uint32 PortNumber
+  [in] uint32 PortNumber
 );
 ```
 
@@ -47,8 +55,8 @@ Specifies the TCP port to set. If no port is specified, port 1688 is used by def
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7<br/>                                                                  |
-| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
+| Minimum supported client<br/> | Windows 7<br/>                                                                  |
+| Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                     |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                |
 | MOF<br/>                      | <dl> <dt>SppWmi.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>SppWmi.dll</dt> </dl> |
@@ -62,9 +70,9 @@ Specifies the TCP port to set. If no port is specified, port 1688 is used by def
 [**SoftwareLicensingService**](softwarelicensingservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

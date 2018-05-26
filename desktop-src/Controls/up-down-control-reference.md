@@ -1,7 +1,12 @@
 ---
 title: Up-Down Control
 description: This section contains information about the programming elements used with up-down controls.
-ms.assetid: '48c6b4bd-65b4-4388-959e-efffa7658274'
+ms.assetid: 48c6b4bd-65b4-4388-959e-efffa7658274
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Up-Down Control
@@ -18,7 +23,7 @@ This section contains information about the programming elements used with up-do
 
 
 
- 
+ 
 
 ### Functions
 
@@ -26,11 +31,11 @@ This section contains information about the programming elements used with up-do
 
 | Topic                                              | Contents                                                                                                                                                |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateUpDownControl**](createupdowncontrol.md) | Creates an up-down control. Note: This function is obsolete. It is a 16 bit function and cannot handle 32 bit values for range and position.<br/> |
+| [**CreateUpDownControl**](/windows/win32/Commctrl/nf-commctrl-createupdowncontrol?branch=master) | Creates an up-down control. Note: This function is obsolete. It is a 16 bit function and cannot handle 32 bit values for range and position.<br/> |
 
 
 
- 
+ 
 
 ### Messages
 
@@ -57,7 +62,7 @@ This section contains information about the programming elements used with up-do
 
 
 
- 
+ 
 
 ### Notifications
 
@@ -70,7 +75,7 @@ This section contains information about the programming elements used with up-do
 
 
 
- 
+ 
 
 ### Structures
 
@@ -78,12 +83,12 @@ This section contains information about the programming elements used with up-do
 
 | Topic                        | Contents                                                                                                                                          |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NMUPDOWN**](nmupdown.md) | Contains information specific to up-down control notification messages. It is identical to and replaces the **NM\_UPDOWN** structure. <br/> |
-| [**UDACCEL**](udaccel.md)   | Contains acceleration information for an up-down control. <br/>                                                                             |
+| [**NMUPDOWN**](/windows/win32/Commctrl/ns-commctrl-_nm_updown?branch=master) | Contains information specific to up-down control notification messages. It is identical to and replaces the **NM\_UPDOWN** structure. <br/> |
+| [**UDACCEL**](/windows/win32/Commctrl/ns-commctrl-_udaccel?branch=master)   | Contains acceleration information for an up-down control. <br/>                                                                             |
 
 
 
- 
+ 
 
 ### Constants
 
@@ -95,11 +100,11 @@ This section contains information about the programming elements used with up-do
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

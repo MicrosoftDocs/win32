@@ -1,8 +1,9 @@
 ---
 title: BCN\_HOTITEMCHANGE notification code
 description: Notifies the button control owner that the mouse is entering or leaving the client area of the button control. The button control sends this notification code in the form of a WM\_NOTIFY message.
-ms.assetid: '92882e21-b69d-4326-94e9-ae69a0d00a83'
-keywords: ["BCN_HOTITEMCHANGE notification code Windows Controls"]
+ms.assetid: 92882e21-b69d-4326-94e9-ae69a0d00a83
+keywords:
+- BCN_HOTITEMCHANGE notification code Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # BCN\_HOTITEMCHANGE notification code
@@ -33,7 +39,7 @@ BCN_HOTITEMCHANGE
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**NMBCHOTITEM**](nmbchotitem.md) structure.
+A pointer to a [**NMBCHOTITEM**](/windows/win32/Commctrl/ns-commctrl-tagnmbchotitem?branch=master) structure.
 
 </dd> </dl>
 
@@ -46,7 +52,7 @@ This message does not return a value.
 > [!Note]  
 > To use this notification code, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -54,15 +60,15 @@ This message does not return a value.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: MrmResourceIndexerMessageSeverity enumeration
 description: Defines constants that specify the severity of an resource indexer message. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
-ms.assetid: 'A4734256-94BD-43BE-B93C-55B98DF8A9BF'
-keywords: ["MrmResourceIndexerMessageSeverity enumeration Menus and Other Resources"]
+ms.assetid: A4734256-94BD-43BE-B93C-55B98DF8A9BF
+keywords:
+- MrmResourceIndexerMessageSeverity enumeration Menus and Other Resources
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - MrmResourceIndexer.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MrmResourceIndexerMessageSeverity enumeration
@@ -24,10 +30,10 @@ Defines constants that specify the severity of an resource indexer message. For 
 
 ```C++
 typedef enum _MrmResourceIndexerMessageSeverity { 
-  MrmResourceIndexerMessageSeverityVerbose  = 1,
-  MrmResourceIndexerMessageSeverityInfo     = 2,
-  MrmResourceIndexerMessageSeverityWarning  = 3,
-  MrmResourceIndexerMessageSeverityError    = 4
+  MrmResourceIndexerMessageSeverityVerbose  = 1,
+  MrmResourceIndexerMessageSeverityInfo     = 2,
+  MrmResourceIndexerMessageSeverityWarning  = 3,
+  MrmResourceIndexerMessageSeverityError    = 4
 } MrmResourceIndexerMessageSeverity;
 ```
 
@@ -71,7 +77,7 @@ Indicates that the message is an error.
 
 |                                     |                                                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
+| Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                                 |
 | Header<br/>                   | <dl> <dt>MrmResourceIndexer.h</dt> </dl> |
 
@@ -84,9 +90,9 @@ Indicates that the message is an error.
 [Package resource indexing (PRI) APIs and custom build systems](https://docs.microsoft.com/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

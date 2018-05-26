@@ -1,12 +1,17 @@
 ---
-Description: 'The following example shows how to use the VerifierEnumerateResource function and related programming elements to abstract and categorize process-specific resource information.'
-ms.assetid: 'e0c2c795-2960-44f9-8b63-2329f5b42e15'
+Description: The following example shows how to use the VerifierEnumerateResource function and related programming elements to abstract and categorize process-specific resource information.
+ms.assetid: e0c2c795-2960-44f9-8b63-2329f5b42e15
 title: Using Resource Enumeration
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using Resource Enumeration
 
-The following example shows how to use the [**VerifierEnumerateResource**](verifierenumerateresource.md) function and related programming elements to abstract and categorize process-specific resource information.
+The following example shows how to use the [**VerifierEnumerateResource**](/windows/win32/Avrfsdk/nf-avrfsdk-verifierenumerateresource?branch=master) function and related programming elements to abstract and categorize process-specific resource information.
 
 
 ```C++

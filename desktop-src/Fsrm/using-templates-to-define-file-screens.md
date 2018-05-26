@@ -4,11 +4,17 @@ description: You can create file screens directly but typically you create file 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'c76c0cc5-1109-46ec-be4d-c6c5f14a6df7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'file-server-resource-manager'
+ms.assetid: c76c0cc5-1109-46ec-be4d-c6c5f14a6df7
+ms.prod: windows-server-dev
+ms.technology: file-server-resource-manager
 ms.tgt_platform: multiple
-keywords: ["File Server Resource Manager examples File Server Resource Manager , using templates to define file screens", "templates for file screens File Server Resource Manager", "file screen templates File Server Resource Manager"]
+keywords:
+- File Server Resource Manager examples File Server Resource Manager , using templates to define file screens
+- templates for file screens File Server Resource Manager
+- file screen templates File Server Resource Manager
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Using Templates to Define File Screens

@@ -1,15 +1,18 @@
 ---
-Description: 'Set access scope on an array of DHCP servers from IPAM.'
+Description: Set access scope on an array of DHCP servers from IPAM.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'dcb473c7-6e0e-4106-9a47-83e6a52eb223'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: dcb473c7-6e0e-4106-9a47-83e6a52eb223
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SetDhcpServerAccessScope method of the MSFT\_IPAM\_AccessScope class'
+title: SetDhcpServerAccessScope method of the MSFT\_IPAM\_AccessScope class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SetDhcpServerAccessScope method of the MSFT\_IPAM\_AccessScope class
@@ -21,11 +24,11 @@ Set access scope on an array of DHCP servers from IPAM.
 
 ```mof
 uint32 SetDhcpServerAccessScope(
-  [in]  boolean              IpamDhcpServer,
-  [in]  string               AccessScopePath,
-  [in]  boolean              IsInheritedAccessScope,
-  [in]  MSFT_IPAM_DhcpServer InputObject[],
-  [out] MSFT_IPAM_DhcpServer Output[]
+  [in]  boolean              IpamDhcpServer,
+  [in]  string               AccessScopePath,
+  [in]  boolean              IsInheritedAccessScope,
+  [in]  MSFT_IPAM_DhcpServer InputObject[],
+  [out] MSFT_IPAM_DhcpServer Output[]
 );
 ```
 
@@ -77,7 +80,7 @@ Returns the scope as an array of [**MSFT\_IPAM\_DhcpServer**](msft-ipam-dhcpserv
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                      |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -91,9 +94,9 @@ Returns the scope as an array of [**MSFT\_IPAM\_DhcpServer**](msft-ipam-dhcpserv
 [**MSFT\_IPAM\_AccessScope**](msft-ipam-accessscope.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

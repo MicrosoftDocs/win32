@@ -1,7 +1,12 @@
-﻿---
-Description: 'The InitializeEmbeddedUI function prototype defines a user-defined initialization function exported by the embedded user interface DLL that is defined in the MsiEmbeddedUI table.'
-ms.assetid: '1bc2fb8e-cbdc-4f2d-aca5-bbc59a07c93e'
+---
+Description: The InitializeEmbeddedUI function prototype defines a user-defined initialization function exported by the embedded user interface DLL that is defined in the MsiEmbeddedUI table.
+ms.assetid: 1bc2fb8e-cbdc-4f2d-aca5-bbc59a07c93e
 title: InitializeEmbeddedUI callback function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InitializeEmbeddedUI callback function

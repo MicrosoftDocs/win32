@@ -1,8 +1,16 @@
 ---
 title: Stopping, Pausing, and Resuming a Device
 description: Stopping, Pausing, and Resuming a Device
-ms.assetid: 'df9ca4ab-4711-44dd-a058-909f291a1652'
-keywords: ["MCI_STOP command", "MCI_PAUSE command", "MCI_RESUME command"]
+ms.assetid: df9ca4ab-4711-44dd-a058-909f291a1652
+keywords:
+- MCI_STOP command
+- MCI_PAUSE command
+- MCI_RESUME command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Stopping, Pausing, and Resuming a Device

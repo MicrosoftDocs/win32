@@ -1,7 +1,12 @@
 ---
 title: Coding the PARAM Tag
 description: Coding the PARAM Tag
-ms.assetid: 'FA715EE3-95E9-4c59-891B-B074850E7579'
+ms.assetid: FA715EE3-95E9-4c59-891B-B074850E7579
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Coding the PARAM Tag

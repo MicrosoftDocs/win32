@@ -1,7 +1,12 @@
 ---
-Description: 'This sample program works with the client program Using SSPI with a Windows Sockets Client. Both sample programs use the header file SspiExample.h which can be found in Header File for SSPI Client and Server Samples.'
-ms.assetid: '4fa044c7-cce2-4a43-8f68-16cf3a4daaee'
+Description: This sample program works with the client program Using SSPI with a Windows Sockets Client. Both sample programs use the header file SspiExample.h which can be found in Header File for SSPI Client and Server Samples.
+ms.assetid: 4fa044c7-cce2-4a43-8f68-16cf3a4daaee
 title: Using SSPI with a Windows Sockets Server
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using SSPI with a Windows Sockets Server

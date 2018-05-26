@@ -1,20 +1,23 @@
 ---
-Description: 'The WMI high-performance Formatted Performance Data Provider calculates the statistical counter types on a specified number of raw counter data samples.'
+Description: The WMI high-performance Formatted Performance Data Provider calculates the statistical counter types on a specified number of raw counter data samples.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'a7e32ef2-fad1-449c-beee-07db4b93e3fe'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: a7e32ef2-fad1-449c-beee-07db4b93e3fe
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
 title: Statistical Counter Types
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Statistical Counter Types
 
 The WMI high-performance [Formatted Performance Data Provider](formatted-performance-data-provider.md) calculates the statistical counter types on a specified number of raw counter data samples. The algorithms for the counter types do not require inherited timestamp or frequency properties (such as **TimeStamp\_PerfTime** or **Frequency\_PerfTime**) that other counter types require.
 
-Instead, the statistical counter types support a **qualifier** that identifies how many samples to use. A sample is collected when the [**Refresh**](iwbemrefresher-refresh.md) method is called for the performance object. For scripts use the [**SWbemRefresher.Refresh**](swbemrefresher-refresh.md) method. The calculated data contains the result of the calculation performed on the **SampleWindow** number of samples from the raw data property. The raw data for the calculation comes frm the property name specified in the **Counter** qualifier.
+Instead, the statistical counter types support a **qualifier** that identifies how many samples to use. A sample is collected when the [**Refresh**](/windows/win32/Wbemcli/nf-wbemcli-iwbemrefresher-refresh?branch=master) method is called for the performance object. For scripts use the [**SWbemRefresher.Refresh**](swbemrefresher-refresh.md) method. The calculated data contains the result of the calculation performed on the **SampleWindow** number of samples from the raw data property. The raw data for the calculation comes frm the property name specified in the **Counter** qualifier.
 
 For more information, see [Obtaining Statistical Performance Data](obtaining-statistical-performance-data.md) and [Accessing WMI Preinstalled Performance Classes](accessing-wmi-preinstalled-performance-classes.md).
 

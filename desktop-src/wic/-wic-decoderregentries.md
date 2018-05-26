@@ -1,7 +1,12 @@
 ---
-Description: 'Decoder-Specific Registry Entries'
-ms.assetid: '64ef260a-ed7f-4253-a644-bd3352b0ee41'
-title: 'Decoder-Specific Registry Entries'
+Description: Decoder-Specific Registry Entries
+ms.assetid: 64ef260a-ed7f-4253-a644-bd3352b0ee41
+title: Decoder-Specific Registry Entries
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Decoder-Specific Registry Entries
@@ -10,7 +15,7 @@ title: 'Decoder-Specific Registry Entries'
 
 In addition to the registry entries required for all encoders and decoders, the following registry entries are required specifically for decoders.
 
-These entries register your decoder under the category of Windows Imaging Component (WIC) decoders. The first GUID in these entries is the category identifier (CATID) for [**WICBitmapDecoders**](-wic-codec-iwicbitmapdecoder.md).
+These entries register your decoder under the category of Windows Imaging Component (WIC) decoders. The first GUID in these entries is the category identifier (CATID) for [**WICBitmapDecoders**](/windows/win32/Wincodec/nn-wincodec-iwicbitmapdecoder?branch=master).
 
 ```
 HKEY_CLASSES_ROOT
@@ -70,7 +75,7 @@ HKEY_CLASSES_ROOT
                   DataOffset = Offset from beginning of header
 ```
 
-Because the entries for metadata readers are also used for discovery, they are very similar to the entries for decoders. These entries are used by the component factory to find the metadata readers supported by your container, and to select the appropriate one, when your [**IWICMetadataBlockReader**](-wic-codec-iwicmetadatablockreader.md) implementation requests a metadata reader.
+Because the entries for metadata readers are also used for discovery, they are very similar to the entries for decoders. These entries are used by the component factory to find the metadata readers supported by your container, and to select the appropriate one, when your [**IWICMetadataBlockReader**](/windows/win32/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader?branch=master) implementation requests a metadata reader.
 
 
 

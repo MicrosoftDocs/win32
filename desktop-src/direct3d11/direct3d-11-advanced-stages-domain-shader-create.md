@@ -1,7 +1,12 @@
 ---
 title: How To Create a Domain Shader
 description: This topic shows how to create a domain shader.
-ms.assetid: '7d02fee4-2d7c-434b-86ab-e5ee615ae93b'
+ms.assetid: 7d02fee4-2d7c-434b-86ab-e5ee615ae93b
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # How To: Create a Domain Shader
@@ -14,7 +19,7 @@ A domain shader transforms surface geometry (created by the fixed-function tesse
 
 1.  Design a domain shader. See [How To: Design a Domain Shader](direct3d-11-advanced-stages-domain-shader-design.md).
 2.  Compile the shader code.
-3.  Create a domain-shader object using [**ID3D11Device::CreateDomainShader**](id3d11device-createdomainshader.md).
+3.  Create a domain-shader object using [**ID3D11Device::CreateDomainShader**](/windows/win32/D3D11/nf-d3d11-id3d11device-createdomainshader?branch=master).
     ```
     HRESULT CreateDomainShader(
       const void *pShaderBytecode, // 
@@ -26,7 +31,7 @@ A domain shader transforms surface geometry (created by the fixed-function tesse
 
     
 
-4.  Initialize the pipeline stage using [**ID3D11DeviceContext::DSSetShader**](id3d11devicecontext-dssetshader.md).
+4.  Initialize the pipeline stage using [**ID3D11DeviceContext::DSSetShader**](/windows/win32/D3D11/nf-d3d11-id3d11devicecontext-dssetshader?branch=master).
     ```
     void DSSetShader(
       ID3D11DomainShader *pDomainShader, // 

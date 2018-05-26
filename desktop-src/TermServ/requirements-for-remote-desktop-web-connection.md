@@ -4,10 +4,13 @@ description: Lists the requirements for a Remote Desktop Web Connection.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '12da0a4c-f6c2-4af1-b516-a448314ba7ea'
-ms.prod: 'windows-server-dev'
-ms.technology: 'remote-desktop-services'
+ms.assetid: 12da0a4c-f6c2-4af1-b516-a448314ba7ea
+ms.prod: windows-server-dev
+ms.technology: remote-desktop-services
 ms.tgt_platform: multiple
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Requirements for Remote Desktop Web Connection

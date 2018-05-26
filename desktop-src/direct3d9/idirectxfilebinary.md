@@ -1,7 +1,12 @@
-﻿---
-Description: 'Applications use the methods of the IDirectXFileBinary interface to read and retrieve information about binary data. Deprecated.'
-ms.assetid: '43b20ab3-67b2-4717-ad90-0bf4ddb3207e'
+---
+Description: Applications use the methods of the IDirectXFileBinary interface to read and retrieve information about binary data. Deprecated.
+ms.assetid: 43b20ab3-67b2-4717-ad90-0bf4ddb3207e
 title: IDirectXFileBinary interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDirectXFileBinary interface

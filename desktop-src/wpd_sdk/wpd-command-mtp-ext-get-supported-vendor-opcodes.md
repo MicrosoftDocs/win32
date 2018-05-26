@@ -1,7 +1,12 @@
 ---
-Description: 'The WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES command sends an MTP command block. There is no subsequent data phase associated with this command.'
-ms.assetid: '397ae29c-f81c-410e-9670-db69c099a321'
-title: 'WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES Command'
+Description: The WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES command sends an MTP command block. There is no subsequent data phase associated with this command.
+ms.assetid: 397ae29c-f81c-410e-9670-db69c099a321
+title: WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES Command
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # WPD\_COMMAND\_MTP\_EXT\_GET\_SUPPORTED\_VENDOR\_OPCODES Command
@@ -28,11 +33,11 @@ The driver returns the following results.
 
 
 
- 
+ 
 
 ## Calling Methods
 
-Can only be called directly by using [**IPortableDevice::SendCommand**](iportabledevice-sendcommand.md).
+Can only be called directly by using [**IPortableDevice::SendCommand**](/windows/win32/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand?branch=master).
 
 ## Requirements
 
@@ -51,9 +56,9 @@ Can only be called directly by using [**IPortableDevice::SendCommand**](iportabl
 [Supporting MTP Extensions](supporting-mtp-extensions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

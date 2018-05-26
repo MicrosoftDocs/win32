@@ -4,11 +4,14 @@ description: Cluster object providing access to the cluster associated with a ne
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'fa09d9be-805c-4cf3-b2ac-8b194e52f429'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: fa09d9be-805c-4cf3-b2ac-8b194e52f429
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Cluster property Failover Cluster", "Cluster property Failover Cluster , ClusNetInterface object", "ClusNetInterface object Failover Cluster , Cluster property"]
+keywords:
+- Cluster property Failover Cluster
+- Cluster property Failover Cluster , ClusNetInterface object
+- ClusNetInterface object Failover Cluster , Cluster property
 topic_type:
 - apiref
 api_name:
@@ -17,6 +20,9 @@ api_location:
 - MsClus.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ClusNetInterface.Cluster property
@@ -47,7 +53,7 @@ A [**Cluster**](cluster-object.md) object that receives the cluster associated w
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
-| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
+| Minimum supported server<br/> | Windows Server 2008 Enterprise, Windows Server 2008 Datacenter<br/>             |
 | Header<br/>                   | <dl> <dt>MsClus.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MsClus.idl</dt> </dl> |
 | Type library<br/>             | <dl> <dt>MsClus.tlb</dt> </dl> |
@@ -66,9 +72,9 @@ A [**Cluster**](cluster-object.md) object that receives the cluster associated w
 [**ClusterObject**](cluster-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

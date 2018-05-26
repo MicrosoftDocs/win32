@@ -1,8 +1,11 @@
 ---
 title: GetElementWithFlags method of the BcdObject class
 description: Gets the specified element. This method can be used to enumerate a qualified partition.
-ms.assetid: '3f162ea7-c648-48e3-98c0-c8a230704e5d'
-keywords: ["GetElementWithFlags method Boot Config", "GetElementWithFlags method Boot Config , BcdObject class", "BcdObject class Boot Config , GetElementWithFlags method"]
+ms.assetid: 3f162ea7-c648-48e3-98c0-c8a230704e5d
+keywords:
+- GetElementWithFlags method Boot Config
+- GetElementWithFlags method Boot Config , BcdObject class
+- BcdObject class Boot Config , GetElementWithFlags method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\WMI
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # GetElementWithFlags method of the BcdObject class
@@ -22,9 +30,9 @@ Gets the specified element. This method can be used to enumerate a qualified par
 
 ```mof
 boolean GetElementWithFlags(
-  [in]  ULONG      Type,
-  [in]  ULONG      Flags,
-  [out] BcdElement Element
+  [in]  ULONG      Type,
+  [in]  ULONG      Flags,
+  [out] BcdElement Element
 );
 ```
 
@@ -62,7 +70,7 @@ This parameter can be zero or the following value.
 
 
 
- 
+ 
 
 If the *Flags* parameter is zero, this method retrieves the specified element as a [**BcdDevicePartitionData**](bcddevicepartitiondata.md) element or, if the disk is not present, as a [**BcdDeviceUnknownData**](bcddeviceunknowndata.md) element.
 
@@ -81,8 +89,8 @@ If the method succeeds, this parameter is set to the specified element.
 
 |                                     |                                                                                    |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
-| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |
 | Namespace<br/>                | Root\\WMI<br/>                                                               |
 | MOF<br/>                      | <dl> <dt>Bcd.mof</dt> </dl> |
 
@@ -95,9 +103,9 @@ If the method succeeds, this parameter is set to the specified element.
 [**BcdObject**](bcdobject.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

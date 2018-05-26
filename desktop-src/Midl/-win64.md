@@ -2,13 +2,19 @@
 title: /win64 switch
 description: The /win64 switch directs the MIDL compiler to generate stub files, or a type library file, for a 64-bit environment.Note  This switch is obsolete.
 ms.assetid: 6f4780d3-6415-42af-a8ee-3884a8cebe26
-keywords: ["/win64 switch MIDL"]
+keywords:
+- /win64 switch MIDL
 topic_type:
 - apiref
 api_name:
 - /win64
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # /win64 switch

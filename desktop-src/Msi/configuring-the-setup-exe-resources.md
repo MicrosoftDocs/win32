@@ -1,7 +1,12 @@
 ---
-Description: 'A configurable bootstrap executable (Setup.exe) and configuration tool ( Msistuff.exe) is included in the Windows SDK Components for Windows Installer Developers.'
-ms.assetid: '95fcea5c-b107-48b7-9ae8-84629353c554'
-title: 'Configuring the Setup.exe Resources'
+Description: A configurable bootstrap executable (Setup.exe) and configuration tool ( Msistuff.exe) is included in the Windows SDK Components for Windows Installer Developers.
+ms.assetid: 95fcea5c-b107-48b7-9ae8-84629353c554
+title: Configuring the Setup.exe Resources
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Configuring the Setup.exe Resources

@@ -4,11 +4,16 @@ description: In Windows Server 2003, it is possible to bind to an object using 
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\mbaldwin
-ms.assetid: '18b4613c-eb93-4204-96f2-0f91d7900587'
-ms.prod: 'windows-server-dev'
-ms.technology: 'active-directory-domain-services'
+ms.assetid: 18b4613c-eb93-4204-96f2-0f91d7900587
+ms.prod: windows-server-dev
+ms.technology: active-directory-domain-services
 ms.tgt_platform: multiple
-keywords: ["Binding to an Object Using a SID AD", "Active Directory, using, binding, binding to an object using a SID"]
+keywords:
+- Binding to an Object Using a SID AD
+- Active Directory, using, binding, binding to an object using a SID
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Binding to an Object Using a SID

@@ -1,7 +1,12 @@
-﻿---
-Description: '.'
-ms.assetid: '86D8D605-3620-4F43-B4A5-6AF568265E92'
+---
+Description: .
+ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
 title: SpoolerRefreshPrinterChangeNotification function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SpoolerRefreshPrinterChangeNotification function

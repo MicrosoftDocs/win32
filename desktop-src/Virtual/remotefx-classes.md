@@ -1,7 +1,12 @@
 ---
 title: RemoteFX Classes
 description: The RemoteFX virtualization WMI classes are used to manage RemoteFX resources and virtual machines.
-ms.assetid: '06B9C447-D392-44EA-B545-B63CC55D27BA'
+ms.assetid: 06B9C447-D392-44EA-B545-B63CC55D27BA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # RemoteFX Classes
@@ -21,11 +26,11 @@ The RemoteFX virtualization WMI classes are used to manage RemoteFX resources an
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

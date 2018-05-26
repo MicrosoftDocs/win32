@@ -1,7 +1,12 @@
 ---
 title: Setting the Locale and Other Properties
 description: Setting the Locale and Other Properties
-ms.assetid: 'e6f50d7e-f728-4b2d-b3a8-a6f710dcf1f1'
+ms.assetid: e6f50d7e-f728-4b2d-b3a8-a6f710dcf1f1
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Setting the Locale and Other Properties

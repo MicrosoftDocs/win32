@@ -1,7 +1,12 @@
 ---
 title: Accessible Event Watcher
-description: The Accessible Event Watcher (AccEvent) tool allows developers and testers to validate that an application's UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur.
-ms.assetid: '0077da81-7a1f-4f8b-b519-ebefcc63d264'
+description: The Accessible Event Watcher (AccEvent) tool allows developers and testers to validate that an applications UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur.
+ms.assetid: 0077da81-7a1f-4f8b-b519-ebefcc63d264
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Accessible Event Watcher
@@ -130,7 +135,7 @@ The **WinEvent Settings** dialog box contains the following panes:
 
     | When this option is selected                                  | AccEvent does this                                                                                                                                                                                 |
     |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Use Invoke                                                    | Uses [IDispatch::Invoke](http://go.microsoft.com/fwlink/p/?linkid=143844) to retrieve object properties instead of using [**IAccessible**](iaccessible.md) methods.                               |
+    | Use Invoke                                                    | Uses [IDispatch::Invoke](http://go.microsoft.com/fwlink/p/?linkid=143844) to retrieve object properties instead of using [**IAccessible**](/windows/win32/oleacc/nn-oleacc-iaccessible?branch=master) methods.                               |
     | Always Get Object (even if no object properties selected)     | Retrieves the object associated with the event even if no items are selected in the Object Properties pane.                                                                                        |
     | Display default property (in addition to selected properties) | Displays the default property, if any, for the object associated with the event, along with the items selected in the Object Properties pane.                                                      |
     | Display event information from invisible/hidden windows       | Displays the selected items from the Event Information pane for all objects, including those in invisible or hidden windows.                                                                       |

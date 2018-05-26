@@ -1,8 +1,9 @@
 ---
 title: HDM\_SETFOCUSEDITEM message
 description: Sets the focus to a specified item in a header control. Send this message explicitly or by using the Header\_SetFocusedItem macro.
-ms.assetid: '20a321ce-4420-4239-b34d-9e7f24a89fc3'
-keywords: ["HDM_SETFOCUSEDITEM message Windows Controls"]
+ms.assetid: 20a321ce-4420-4239-b34d-9e7f24a89fc3
+keywords:
+- HDM_SETFOCUSEDITEM message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,11 +12,16 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # HDM\_SETFOCUSEDITEM message
 
-Sets the focus to a specified item in a header control. Send this message explicitly or by using the [**Header\_SetFocusedItem**](header-setfocuseditem.md) macro.
+Sets the focus to a specified item in a header control. Send this message explicitly or by using the [**Header\_SetFocusedItem**](/windows/win32/Commctrl/nf-commctrl-header_setfocuseditem?branch=master) macro.
 
 ## Parameters
 
@@ -41,8 +47,8 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
@@ -54,9 +60,9 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 [About Header Controls](header-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

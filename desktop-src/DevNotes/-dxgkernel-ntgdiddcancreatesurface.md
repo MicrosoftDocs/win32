@@ -1,7 +1,12 @@
-﻿---
-Description: 'Indicates whether the driver can create a surface of the specified surface description.'
-ms.assetid: '4626163b-3070-4246-9a04-0b3438fc7057'
+---
+Description: Indicates whether the driver can create a surface of the specified surface description.
+ms.assetid: 4626163b-3070-4246-9a04-0b3438fc7057
 title: NtGdiDdCanCreateSurface function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # NtGdiDdCanCreateSurface function

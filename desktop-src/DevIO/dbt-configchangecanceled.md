@@ -1,7 +1,12 @@
 ---
-Description: 'The system broadcasts the DBT\_CONFIGCHANGECANCELED device event when a request to change the current configuration (dock or undock) has been canceled.'
-ms.assetid: 'b4b1455c-9a04-4fa0-a3fa-ed991f278c0c'
-title: 'DBT\_CONFIGCHANGECANCELED event'
+Description: The system broadcasts the DBT\_CONFIGCHANGECANCELED device event when a request to change the current configuration (dock or undock) has been canceled.
+ms.assetid: b4b1455c-9a04-4fa0-a3fa-ed991f278c0c
+title: DBT\_CONFIGCHANGECANCELED event
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DBT\_CONFIGCHANGECANCELED event
@@ -64,8 +69,8 @@ Return **TRUE**.
 
 |                                     |                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows XP<br/>                                                            |
-| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
+| Minimum supported client<br/> | Windows XP<br/>                                                            |
+| Minimum supported server<br/> | Windows Server 2003<br/>                                                   |
 | Header<br/>                   | <dl> <dt>Dbt.h</dt> </dl> |
 
 
@@ -83,9 +88,9 @@ Return **TRUE**.
 [**WM\_DEVICECHANGE**](wm-devicechange.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

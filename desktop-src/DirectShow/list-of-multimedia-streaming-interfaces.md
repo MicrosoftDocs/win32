@@ -1,7 +1,12 @@
 ---
 Description: List of Multimedia Streaming Interfaces
-ms.assetid: '19dae9fc-e26a-4777-9190-d8a86da1ea75'
+ms.assetid: 19dae9fc-e26a-4777-9190-d8a86da1ea75
 title: List of Multimedia Streaming Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # List of Multimedia Streaming Interfaces

@@ -1,8 +1,9 @@
 ---
 title: LVM\_GETVIEW message
 description: Retrieves the current view of a list-view control.
-ms.assetid: 'dd63e726-3a7f-40e7-8d46-4680816c02a3'
-keywords: ["LVM_GETVIEW message Windows Controls"]
+ms.assetid: dd63e726-3a7f-40e7-8d46-4680816c02a3
+keywords:
+- LVM_GETVIEW message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # LVM\_GETVIEW message
@@ -44,7 +50,7 @@ Following are the values for views.
 > [!Note]  
 > To use this message, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see [Enabling Visual Styles](cookbook-overview.md).
 
- 
+ 
 
 ## Requirements
 
@@ -52,15 +58,15 @@ Following are the values for views.
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

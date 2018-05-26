@@ -1,7 +1,12 @@
-﻿---
-Description: 'Sets or retrieves the RecipientHomePhone property of a FaxDoc object. The RecipientHomePhone property is a null-terminated string that contains the home telephone number of the recipient of the fax transmission.'
-ms.assetid: '2882313a-ad31-4fcd-b112-a00f4e49c206'
-title: 'FaxDoc.RecipientHomePhone property'
+---
+Description: Sets or retrieves the RecipientHomePhone property of a FaxDoc object. The RecipientHomePhone property is a null-terminated string that contains the home telephone number of the recipient of the fax transmission.
+ms.assetid: 2882313a-ad31-4fcd-b112-a00f4e49c206
+title: FaxDoc.RecipientHomePhone property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxDoc.RecipientHomePhone property
@@ -55,7 +60,7 @@ The **get\_RecipientHomePhone** method allocates the memory required for the buf
 [Fax Service Client API Interfaces](-mfax-fax-service-client-api-interfaces.md)
 </dt> <dt>
 
-[**IFaxDoc**](-mfax-ifaxdoc.md)
+[**IFaxDoc**](/windows/previous-versions/Faxcom/nn-faxcom-ifaxdoc?branch=master)
 </dt> <dt>
 
 [SysFreeString](8f230ee3-5f6e-4cb9-a910-9c90b754dcd3)

@@ -1,7 +1,12 @@
 ---
 title: UI Automation Objects
 description: This section provides reference documentation for the Microsoft UI Automation objects.
-ms.assetid: '5f844721-fbbc-4311-8c53-aea5baf4b347'
+ms.assetid: 5f844721-fbbc-4311-8c53-aea5baf4b347
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UI Automation Objects
@@ -14,13 +19,13 @@ This section provides reference documentation for the Microsoft UI Automation ob
 
 | Class                                                                             | Description                                                                                          |
 |-----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [**CUIAutomation**](uiauto-cuiautomation-object.md)<br/>                   | Implements the [**IUIAutomation**](uiauto-iuiautomation.md) interface.<br/>                   |
-| [**CUIAutomation8**](uiauto-cuiautomation8-object.md)<br/>                 | Implements the [**IUIAutomation2**](uiauto-iuiautomation.md) interface for Windows 8.<br/>    |
-| [**CUIAutomationRegistrar**](uiauto-cuiautomationregistrar-object.md)<br/> | Implements the [**IUIAutomationRegistrar**](uiauto-iuiautomationregistrar.md) interface.<br/> |
+| [**CUIAutomation**](/windows/win32/UIAutomationClient/?branch=master)<br/>                   | Implements the [**IUIAutomation**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomation?branch=master) interface.<br/>                   |
+| [**CUIAutomation8**](/windows/win32/UIAutomationCore/?branch=master)<br/>                 | Implements the [**IUIAutomation2**](/windows/win32/UIAutomationClient/nn-uiautomationclient-iuiautomation?branch=master) interface for Windows 8.<br/>    |
+| [**CUIAutomationRegistrar**](/windows/win32/UIAutomationCore/?branch=master)<br/> | Implements the [**IUIAutomationRegistrar**](/windows/win32/UIAutomationCore/nn-uiautomationcore-iuiautomationregistrar?branch=master) interface.<br/> |
 
 
 
- 
+ 
 
 ## Related topics
 
@@ -29,9 +34,9 @@ This section provides reference documentation for the Microsoft UI Automation ob
 [Reference](entry-uiautocore-ref.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

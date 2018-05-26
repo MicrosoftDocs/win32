@@ -1,7 +1,12 @@
 ---
-Description: 'Variable refresh rate displays require tearing to be enabled, this is also known as &\#0034;vsync-off&\#0034; support.'
-ms.assetid: 'C5F140DD-5BAF-404A-9253-611831C4D424'
+Description: Variable refresh rate displays require tearing to be enabled, this is also known as &\#0034;vsync-off&\#0034; support.
+ms.assetid: C5F140DD-5BAF-404A-9253-611831C4D424
 title: Variable refresh rate displays
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Variable refresh rate displays
@@ -19,9 +24,9 @@ To use this feature, app users need to be on Windows 10 systems with either [KB3
 
 To add vsync-off support to your apps, you can refer to a complete running sample for Direct3D 12, **D3D12Fullscreen** (refer to [Working Samples](direct3d12.working_samples)). There are also a few points not explicitly called out in the sample code but you need to pay attention to.
 
--   [**ResizeBuffers**](idxgiswapchain-resizebuffers.md) (or [**ResizeBuffers1**](idxgiswapchain3-resizebuffers1.md)) must have the same swap chain creation flag (DXGI\_SWAP\_CHAIN\_FLAG\_ALLOW\_TEARING) passed to it as [**Present**](idxgiswapchain-present.md) (or [**Present1**](idxgiswapchain1-present1.md)).
--   DXGI\_PRESENT\_ALLOW\_TEARING can only be used with sync interval 0. It is recommended to always pass this tearing flag when using sync interval 0 if [**CheckFeatureSupport**](idxgifactory5-checkfeaturesupport.md) reports that tearing is supported *and* the app is in a windowed mode - including border-less fullscreen mode. Refer to the [**DXGI\_PRESENT**](dxgi-present.md) constants for more details.
--   Disabling vsync does not necessarily uncap your frame rate: developers also need to make sure [**Present**](idxgiswapchain-present.md) calls are not throttled by other timing events (such as the `CompositionTarget::Rendering` event in an XAML-based app).
+-   [**ResizeBuffers**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-resizebuffers?branch=master) (or [**ResizeBuffers1**](/windows/win32/DXGI1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1?branch=master)) must have the same swap chain creation flag (DXGI\_SWAP\_CHAIN\_FLAG\_ALLOW\_TEARING) passed to it as [**Present**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-present?branch=master) (or [**Present1**](/windows/win32/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1?branch=master)).
+-   DXGI\_PRESENT\_ALLOW\_TEARING can only be used with sync interval 0. It is recommended to always pass this tearing flag when using sync interval 0 if [**CheckFeatureSupport**](/windows/win32/DXGI1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport?branch=master) reports that tearing is supported *and* the app is in a windowed mode - including border-less fullscreen mode. Refer to the [**DXGI\_PRESENT**](dxgi-present.md) constants for more details.
+-   Disabling vsync does not necessarily uncap your frame rate: developers also need to make sure [**Present**](/windows/win32/DXGI/nf-dxgi-idxgiswapchain-present?branch=master) calls are not throttled by other timing events (such as the `CompositionTarget::Rendering` event in an XAML-based app).
 
 The code below recaps a few key pieces you need to add to your apps.
 

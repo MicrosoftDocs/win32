@@ -1,23 +1,28 @@
 ---
 title: Registering a Hook Function
 description: Client applications receive WinEvents in a WinEventProc callback function. The actions performed by the callback function are defined by the application, but the syntax must be as specified in the prototype.
-ms.assetid: '7e999335-6a41-4d22-82ef-1a8dd6cb656e'
+ms.assetid: 7e999335-6a41-4d22-82ef-1a8dd6cb656e
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Registering a Hook Function
 
-Client applications receive WinEvents in a [*WinEventProc*](wineventproc-callback-function.md) callback function. The actions performed by the callback function are defined by the application, but the syntax must be as specified in the prototype.
+Client applications receive WinEvents in a [*WinEventProc*](/windows/win32/Winuser/nc-winuser-wineventproc?branch=master) callback function. The actions performed by the callback function are defined by the application, but the syntax must be as specified in the prototype.
 
-Before it can receive events, the function must be registered by calling [**SetWinEventHook**](setwineventhook.md). The client can call **SetWinEventHook** more than once to register different hook functions, or to set additional events for a previously registered hook function.
+Before it can receive events, the function must be registered by calling [**SetWinEventHook**](/windows/win32/Winuser/nf-winuser-setwineventhook?branch=master). The client can call **SetWinEventHook** more than once to register different hook functions, or to set additional events for a previously registered hook function.
 
-When calling [**SetWinEventHook**](setwineventhook.md) the client specifies which events to receive and how to receive them. The client can choose to:
+When calling [**SetWinEventHook**](/windows/win32/Winuser/nf-winuser-setwineventhook?branch=master) the client specifies which events to receive and how to receive them. The client can choose to:
 
 -   Receive all events or a specific set of events.
 -   Receive events from all threads or from a specific thread.
 -   Receive events from all processes or from a specific process.
 -   Handle events in process or out of process.
 
-When an event is generated that matches the specified criteria, the system calls the client's [*WinEventProc*](wineventproc-callback-function.md) callback function (or "hook procedure"). The parameters that the hook function receives tell the client about the window, object, and possible child element that generated the event. A client uses these parameters in an object retrieval call, such as [**AccessibleObjectFromEvent**](accessibleobjectfromevent.md).
+When an event is generated that matches the specified criteria, the system calls the client's [*WinEventProc*](/windows/win32/Winuser/nc-winuser-wineventproc?branch=master) callback function (or "hook procedure"). The parameters that the hook function receives tell the client about the window, object, and possible child element that generated the event. A client uses these parameters in an object retrieval call, such as [**AccessibleObjectFromEvent**](/windows/win32/Oleacc/nf-oleacc-accessibleobjectfromevent?branch=master).
 
  
 

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The IDxtCompositor interface sets properties on the Compositor transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the Compositor transition.'
-ms.assetid: '519f1e00-4b67-4014-906b-043f2478baa7'
+---
+Description: The IDxtCompositor interface sets properties on the Compositor transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the Compositor transition.
+ms.assetid: 519f1e00-4b67-4014-906b-043f2478baa7
 title: IDxtCompositor interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IDxtCompositor interface

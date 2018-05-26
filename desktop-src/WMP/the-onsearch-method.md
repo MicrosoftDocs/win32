@@ -1,8 +1,18 @@
 ---
 title: The OnSearch Method
 description: The OnSearch Method
-ms.assetid: '709bb428-1a5e-4b8d-8622-5fcc816f0a1a'
-keywords: ["Windows Media Player plug-ins,OnSearch method", "plug-ins,OnSearch method", "user interface plug-ins,OnSearch method", "UI plug-ins,OnSearch method", "OnSearch method"]
+ms.assetid: 709bb428-1a5e-4b8d-8622-5fcc816f0a1a
+keywords:
+- Windows Media Player plug-ins,OnSearch method
+- plug-ins,OnSearch method
+- user interface plug-ins,OnSearch method
+- UI plug-ins,OnSearch method
+- OnSearch method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # The OnSearch Method

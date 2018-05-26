@@ -4,11 +4,16 @@ description: The Hidden property returns or sets the visible state for the colum
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9e30fdff-aaec-4f67-94ae-3dbf5bcc7a02'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 9e30fdff-aaec-4f67-94ae-3dbf5bcc7a02
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["Hidden property MMC", "Hidden property MMC , Column object", "Column object MMC , Hidden property", "Hidden property MMC , Column interface", "Column interface MMC , Hidden property"]
+keywords:
+- Hidden property MMC
+- Hidden property MMC , Column object
+- Column object MMC , Hidden property
+- Hidden property MMC , Column interface
+- Column interface MMC , Hidden property
 topic_type:
 - apiref
 api_name:
@@ -18,6 +23,9 @@ api_location:
 - Mmc.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Column::Hidden property
@@ -57,8 +65,8 @@ objCol.Hidden = 1
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                              |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
+| Minimum supported client<br/> | Windows Vista<br/>                                                              |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                        |
 | Header<br/>                   | <dl> <dt>MMCObj.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>MMCObj.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Mmc.exe</dt> </dl>    |
@@ -66,9 +74,9 @@ objCol.Hidden = 1
 
 
 
- 
+ 
 
- 
+ 
 
 
 

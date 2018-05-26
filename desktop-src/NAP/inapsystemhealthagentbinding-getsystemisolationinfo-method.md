@@ -1,8 +1,11 @@
 ---
 title: INapSystemHealthAgentBinding GetSystemIsolationInfo method
 description: Is called by SHAs to determine the system isolation state.
-ms.assetid: '0401a846-0da2-4975-87bc-3e9fe8b5b67d'
-keywords: ["GetSystemIsolationInfo method NAP", "GetSystemIsolationInfo method NAP , INapSystemHealthAgentBinding interface", "INapSystemHealthAgentBinding interface NAP , GetSystemIsolationInfo method"]
+ms.assetid: 0401a846-0da2-4975-87bc-3e9fe8b5b67d
+keywords:
+- GetSystemIsolationInfo method NAP
+- GetSystemIsolationInfo method NAP , INapSystemHealthAgentBinding interface
+- INapSystemHealthAgentBinding interface NAP , GetSystemIsolationInfo method
 topic_type:
 - apiref
 api_name:
@@ -11,29 +14,34 @@ api_location:
 - qagent.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapSystemHealthAgentBinding::GetSystemIsolationInfo method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapSystemHealthAgentBinding::GetSystemIsolationInfo** method is called by SHAs to determine the system isolation state.
 
 > [!Note]  
 > Use [**INapSystemHealthAgentBinding2::GetSystemIsolationInfoEx**](inapsystemhealthagentbinding2-getsystemisolationinfoex.md) in order to determine the extended isolation state of the system.
 
- 
+ 
 
 ## Syntax
 
 
 ```C++
 HRESULT GetSystemIsolationInfo(
-  [out] IsolationInfo **isolationInfo,
-  [out] BOOL          *unknownConnections
+  [out] IsolationInfo **isolationInfo,
+  [out] BOOL          *unknownConnections
 );
 ```
 
@@ -46,7 +54,7 @@ HRESULT GetSystemIsolationInfo(
 *isolationInfo* \[out\]
 </dt> <dd>
 
-A pointer to a pointer to an [**IsolationInfo**](isolationinfo-struct.md) structure that contains the isolation state of the system for known connections. *isolationInfoindicates* if the system is in a state of restricted access, probation, or unrestricted access.
+A pointer to a pointer to an [**IsolationInfo**](/windows/win32/NapTypes/ns-naptypes-tagisolationinfo?branch=master) structure that contains the isolation state of the system for known connections. *isolationInfoindicates* if the system is in a state of restricted access, probation, or unrestricted access.
 
 </dd> <dt>
 
@@ -73,7 +81,7 @@ Other COM-specific error codes also may be returned.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -85,8 +93,8 @@ The SHA must call [**Initialize**](inapsystemhealthagentbinding-initialize-metho
 
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |
 | Header<br/>                   | <dl> <dt>NapSystemHealthAgent.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapSystemHealthAgent.idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
@@ -100,9 +108,9 @@ The SHA must call [**Initialize**](inapsystemhealthagentbinding-initialize-metho
 [**INapSystemHealthAgentBinding**](inapsystemhealthagentbinding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

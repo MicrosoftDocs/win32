@@ -2,7 +2,13 @@
 title: Interfaces in Distributed Objects
 description: In distributed computing, an interface is a collection of definitions and remote functions that enables two or more programs to interoperate between different contexts.
 ms.assetid: d7cd6bf3-58ec-426d-850a-9c5456ed816d
-keywords: ["interfaces MIDL , in distributed objects"]
+keywords:
+- interfaces MIDL , in distributed objects
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces in Distributed Objects

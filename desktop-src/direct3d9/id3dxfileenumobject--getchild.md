@@ -1,7 +1,12 @@
-﻿---
-Description: 'Retrieves a child object in this file data object.'
-ms.assetid: 'd8f367dd-8858-48ae-9de5-17de1538aadf'
-title: 'ID3DXFileEnumObject::GetChild method'
+---
+Description: Retrieves a child object in this file data object.
+ms.assetid: d8f367dd-8858-48ae-9de5-17de1538aadf
+title: ID3DXFileEnumObjectGetChild method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ID3DXFileEnumObject::GetChild method

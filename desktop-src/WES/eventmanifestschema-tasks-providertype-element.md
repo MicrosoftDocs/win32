@@ -1,14 +1,20 @@
 ---
 title: tasks (ProviderType) Element
 description: Defines a list of tasks that a provider can use to group events.
-ms.assetid: '79da130a-10f4-440e-a3e3-7198f23e3450'
-keywords: ["tasks element EventLog"]
+ms.assetid: 79da130a-10f4-440e-a3e3-7198f23e3450
+keywords:
+- tasks element EventLog
 topic_type:
 - apiref
 api_name:
 - tasks
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # tasks (ProviderType) Element
@@ -29,8 +35,8 @@ The **tasks** element is defined by the [**ProviderType**](eventmanifestschema-p
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
@@ -44,9 +50,9 @@ The **tasks** element is defined by the [**ProviderType**](eventmanifestschema-p
 [**provider (EventsType)**](eventmanifestschema-provider-eventstype-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

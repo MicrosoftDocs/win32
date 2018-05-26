@@ -1,8 +1,19 @@
 ---
 title: Sharing an I/O Procedure with Other Applications
 description: Sharing an I/O Procedure with Other Applications
-ms.assetid: '56e4804b-fe88-4b3b-93f6-f8e41048780d'
-keywords: ["multimedia file I/O,shared procedures", "file I/O,shared procedures", "input and output (I/O),shared procedures", "I/O (input and output),shared procedures", "sharing I/O procedures with other applications", "mmioInstallIOProc function"]
+ms.assetid: 56e4804b-fe88-4b3b-93f6-f8e41048780d
+keywords:
+- multimedia file I/O,shared procedures
+- file I/O,shared procedures
+- input and output (I/O),shared procedures
+- I/O (input and output),shared procedures
+- sharing I/O procedures with other applications
+- mmioInstallIOProc function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Sharing an I/O Procedure with Other Applications

@@ -4,11 +4,15 @@ description: Working with Toolbars Implementation Details
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '53ad9866-0dd1-469c-acec-0277546c14e7'
-ms.prod: 'windows-server-dev'
-ms.technology: 'microsoft-management-console'
+ms.assetid: 53ad9866-0dd1-469c-acec-0277546c14e7
+ms.prod: windows-server-dev
+ms.technology: microsoft-management-console
 ms.tgt_platform: multiple
-keywords: ["toolbars and menu buttons MMC , implementation details (toolbars)"]
+keywords:
+- toolbars and menu buttons MMC , implementation details (toolbars)
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Working with Toolbars: Implementation Details
@@ -17,7 +21,7 @@ keywords: ["toolbars and menu buttons MMC , implementation details (toolbars)"]
 
 1.  Implement the [**IExtendControlbar**](iextendcontrolbar.md) interface and its two methods, [**SetControlBar**](iextendcontrolbar-setcontrolbar.md) and [**ControlbarNotify**](iextendcontrolbar-controlbarnotify.md).
 
-    The snap-in's [**IComponent**](icomponent.md) implementation should implement and expose the [**IExtendControlbar**](iextendcontrolbar.md) interface.
+    The snap-in's [**IComponent**](/windows/win32/Mmc/ns-wmidata-_msmcaevent_pcicomponenterror?branch=master) implementation should implement and expose the [**IExtendControlbar**](iextendcontrolbar.md) interface.
 
 2.  In the snap-in's implementation of [**SetControlBar**](iextendcontrolbar-setcontrolbar.md):
 

@@ -4,13 +4,16 @@ description: Delete a replication group.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'b6f67233-c8ab-4118-ad2c-87bd720afef6'
-ms.prod: 'windows-server-dev'
+ms.assetid: b6f67233-c8ab-4118-ad2c-87bd720afef6
+ms.prod: windows-server-dev
 ms.technology:
-- 'iscsi-target'
-- 'windows-management-instrumentation'
+- iscsi-target
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["DeleteGroup method iSCSI Software Target API", "DeleteGroup method iSCSI Software Target API , CIM_ReplicationService class", "CIM_ReplicationService class iSCSI Software Target API , DeleteGroup method"]
+keywords:
+- DeleteGroup method iSCSI Software Target API
+- DeleteGroup method iSCSI Software Target API , CIM_ReplicationService class
+- CIM_ReplicationService class iSCSI Software Target API , DeleteGroup method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - SMiSCSITargetProv.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # DeleteGroup method of the CIM\_ReplicationService class
@@ -30,10 +36,10 @@ Delete a replication group.
 
 ```mof
 uint32 DeleteGroup(
-  [in] CIM_ReplicationGroup   REF ReplicationGroup,
-  [in] CIM_ServiceAccessPoint REF ServiceAccessPoint,
-  [in] boolean                    RemoveElements,
-  [in] string                     ReplicationSettingData
+  [in] CIM_ReplicationGroup   REF ReplicationGroup,
+  [in] CIM_ServiceAccessPoint REF ServiceAccessPoint,
+  [in] boolean                    RemoveElements,
+  [in] string                     ReplicationSettingData
 );
 ```
 
@@ -99,10 +105,10 @@ If supplied, it provides additional replication settings for the method. For exa
 **One or more elements in a replication relationship** (7)
 </dt> <dt>
 
-**DMTF Reserved** (8–32767)
+**DMTF Reserved** (8 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–4294967295)
+**Vendor Specific** (32768 4294967295)
 </dt> </dl>
 
 ## Requirements
@@ -112,7 +118,7 @@ If supplied, it provides additional replication settings for the method. For exa
 |                                     |                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                        |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                |
 | Namespace<br/>                | Root\\CIMv2\\Storage\\iScsiTarget<br/>                                                     |
 | MOF<br/>                      | <dl> <dt>SmIscsiTarget.mof</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>SMiSCSITargetProv.dll</dt> </dl> |
@@ -126,9 +132,9 @@ If supplied, it provides additional replication settings for the method. For exa
 **CIM\_ReplicationService**
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

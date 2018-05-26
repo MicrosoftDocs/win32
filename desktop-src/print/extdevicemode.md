@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ExtDeviceMode function is provided only for compatibility with 16-bit applications.'
-ms.assetid: 'dade9d25-7143-4566-adc1-0c97cb508c07'
+---
+Description: The ExtDeviceMode function is provided only for compatibility with 16-bit applications.
+ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 title: ExtDeviceMode function
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # ExtDeviceMode function

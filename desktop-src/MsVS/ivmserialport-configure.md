@@ -1,8 +1,13 @@
 ---
 title: IVMSerialPort Configure method
 description: The Configure method configures the serial port.
-ms.assetid: 'f984cd0d-bd06-4c19-a242-8aa0d2b38919'
-keywords: ["Configure method Virtual Server", "Configure method Virtual Server , IVMSerialPort interface", "IVMSerialPort interface Virtual Server , Configure method", "Configure method Virtual Server , VMSerialPort interface", "VMSerialPort interface Virtual Server , Configure method"]
+ms.assetid: f984cd0d-bd06-4c19-a242-8aa0d2b38919
+keywords:
+- Configure method Virtual Server
+- Configure method Virtual Server , IVMSerialPort interface
+- IVMSerialPort interface Virtual Server , Configure method
+- Configure method Virtual Server , VMSerialPort interface
+- VMSerialPort interface Virtual Server , Configure method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMSerialPort::Configure method
@@ -23,9 +33,9 @@ The **Configure** method configures the serial port.
 
 ```C++
 HRESULT Configure(
-  [in] VMSerialPortType portType,
-  [in] BSTR             portName,
-  [in] VARIANT_BOOL     connectImmediately
+  [in] VMSerialPortType portType,
+  [in] BSTR             portName,
+  [in] VARIANT_BOOL     connectImmediately
 );
 ```
 
@@ -75,7 +85,7 @@ This method supports standard return values, as well as the following. For infor
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -83,8 +93,8 @@ This method supports standard return values, as well as the following. For infor
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -99,9 +109,9 @@ This method supports standard return values, as well as the following. For infor
 [**VMSerialPortType**](vmserialporttype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

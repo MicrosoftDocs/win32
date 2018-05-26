@@ -4,11 +4,18 @@ description: Cluster Name resources have the following private properties.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: 'd1bc3d77-f794-494d-ab5a-6241d94f355b'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: d1bc3d77-f794-494d-ab5a-6241d94f355b
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["Network Name resource type Failover Cluster ,properties", "properties Failover Cluster ,Network Name (private) properties", "Cluster Name resource type Failover Cluster ,properties", "properties Failover Cluster ,Cluster Name (private) properties"]
+keywords:
+- Network Name resource type Failover Cluster ,properties
+- properties Failover Cluster ,Network Name (private) properties
+- Cluster Name resource type Failover Cluster ,properties
+- properties Failover Cluster ,Cluster Name (private) properties
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Cluster Name Private Properties
@@ -41,13 +48,13 @@ keywords: ["Network Name resource type Failover Cluster ,properties", "propertie
 
 
 
- 
+ 
 
 [Cluster Administrator](cluster-administrator.md) presents this property on the property page associated with the **Parameters** tab for Network Name resources.
 
- 
+ 
 
- 
+ 
 
 
 

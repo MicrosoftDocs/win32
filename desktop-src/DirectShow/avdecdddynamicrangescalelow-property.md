@@ -1,7 +1,12 @@
 ---
-Description: 'Specifies the low-level boost when the decoder performs dynamic range control on a Dolby AC-3 audio stream.'
-ms.assetid: 'd723c825-f2f1-4ba0-a667-8285009764fd'
+Description: Specifies the low-level boost when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
+ms.assetid: d723c825-f2f1-4ba0-a667-8285009764fd
 title: AVDecDDDynamicRangeScaleLow property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # AVDecDDDynamicRangeScaleLow property
@@ -31,7 +36,7 @@ The value of this property has the following range.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -43,8 +48,8 @@ This property applies only when the value of the [**AVDecDDOperationalMode**](av
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
+| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
+| Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Codecapi.h</dt> </dl> |
 
 
@@ -56,12 +61,12 @@ This property applies only when the value of the [**AVDecDDOperationalMode**](av
 [Codec API Properties](codec-api-properties.md)
 </dt> <dt>
 
-[**ICodecAPI Interface**](icodecapi.md)
+[**ICodecAPI Interface**](/windows/win32/Strmif/nn-strmif-icodecapi?branch=master)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

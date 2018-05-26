@@ -1,7 +1,12 @@
-﻿---
-Description: 'Defines the supported compare functions.'
-ms.assetid: '999af3eb-a208-4312-acee-373192ea69e4'
+---
+Description: Defines the supported compare functions.
+ms.assetid: 999af3eb-a208-4312-acee-373192ea69e4
 title: D3DCMPFUNC enumeration
+ms.date: 05/31/2018
+ms.topic: enumeration
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # D3DCMPFUNC enumeration

@@ -1,15 +1,18 @@
 ---
-Description: 'Defines an association between an IPAM subnet and an IPAM address.'
+Description: Defines an association between an IPAM subnet and an IPAM address.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'd084a88b-9e79-406a-b082-194c9c563d02'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: d084a88b-9e79-406a-b082-194c9c563d02
+ms.prod: windows-server-dev
 ms.technology:
-- 'internet-protocol-address-management'
-- 'windows-management-instrumentation'
+- internet-protocol-address-management
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'MSFT\_IPAM\_Address\_Subnet\_Association class'
+title: MSFT\_IPAM\_Address\_Subnet\_Association class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # MSFT\_IPAM\_Address\_Subnet\_Association class
@@ -25,7 +28,7 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 class MSFT_IPAM_Address_Subnet_Association : CIM_Component
 {
   MSFT_IPAM_Address REF PartComponent;
-  MSFT_IPAM_Subnet  REF GroupComponent;
+  MSFT_IPAM_Subnet  REF GroupComponent;
 };
 ```
 
@@ -80,7 +83,7 @@ Reference to the Address object.
 |                                     |                                                                                                     |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                           |
-| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
+| Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                   |
 | Namespace<br/>                | Root\\Microsoft\\IPAM<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>IPAMServerPSProvider.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IPAMServerPSProvider.dll</dt> </dl> |
@@ -97,9 +100,9 @@ Reference to the Address object.
 [IPAM Server WMI Provider Reference](ipam-server-wmi-provider-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,8 +1,19 @@
 ---
 title: Removing the Code to Process Greater than 16 Bits
 description: Removing the Code to Process Greater than 16 Bits
-ms.assetid: '90c165e1-bc77-42a5-878d-056762c62991'
-keywords: ["Windows Media Player plug-ins,Echo sample DoProcessOutput method", "plug-ins,Echo sample DoProcessOutput method", "digital signal processing plug-ins,Echo sample DoProcessOutput method", "DSP plug-ins,Echo sample DoProcessOutput method", "Echo DSP plug-in sample,DoProcessOutput method", "Echo DSP plug-in sample,processing greater than 16 bits"]
+ms.assetid: 90c165e1-bc77-42a5-878d-056762c62991
+keywords:
+- Windows Media Player plug-ins,Echo sample DoProcessOutput method
+- plug-ins,Echo sample DoProcessOutput method
+- digital signal processing plug-ins,Echo sample DoProcessOutput method
+- DSP plug-ins,Echo sample DoProcessOutput method
+- Echo DSP plug-in sample,DoProcessOutput method
+- Echo DSP plug-in sample,processing greater than 16 bits
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Removing the Code to Process Greater than 16 Bits

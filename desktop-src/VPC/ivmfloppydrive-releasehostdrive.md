@@ -1,8 +1,11 @@
 ---
 title: IVMFloppyDrive ReleaseHostDrive method
 description: Releases a physical drive on the host from the floppy drive.
-ms.assetid: '6d5a8e7c-684c-42bc-84e5-76d3e761b7f0'
-keywords: ["ReleaseHostDrive method Virtual PC", "ReleaseHostDrive method Virtual PC , IVMFloppyDrive interface", "IVMFloppyDrive interface Virtual PC , ReleaseHostDrive method"]
+ms.assetid: 6d5a8e7c-684c-42bc-84e5-76d3e761b7f0
+keywords:
+- ReleaseHostDrive method Virtual PC
+- ReleaseHostDrive method Virtual PC , IVMFloppyDrive interface
+- IVMFloppyDrive interface Virtual PC , ReleaseHostDrive method
 topic_type:
 - apiref
 api_name:
@@ -11,11 +14,16 @@ api_location:
 - VPCCOMInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMFloppyDrive::ReleaseHostDrive method
 
-\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
+\[Windows Virtual PC is no longer available for use as of Windows 8. Instead, use the [Hyper-V WMI provider (V2)](https://msdn.microsoft.com/library/windows/desktop/hh850319).\]
 
 Releases a physical drive on the host from the floppy drive.
 
@@ -48,7 +56,7 @@ This method can return one of these values.
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -56,9 +64,9 @@ This method can return one of these values.
 
 |                                     |                                                                                               |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |
-| End of client support<br/>    | Windows 7<br/>                                                                          |
+| End of client support<br/>    | Windows 7<br/>                                                                          |
 | Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | Header<br/>                   | <dl> <dt>VPCCOMInterfaces.h</dt> </dl> |
 | IID<br/>                      | IID\_IVMFloppyDrive is defined as 661abee6-112a-4ed9-babf-3c874969f10e<br/>             |
@@ -72,9 +80,9 @@ This method can return one of these values.
 [**IVMFloppyDrive**](ivmfloppydrive.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

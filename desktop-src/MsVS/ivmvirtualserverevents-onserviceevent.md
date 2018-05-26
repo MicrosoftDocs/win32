@@ -1,8 +1,13 @@
 ---
 title: IVMVirtualServerEvents OnServiceEvent method
 description: Called when a Virtual Server service event occurs.
-ms.assetid: '55f4a225-9181-4c3c-badf-cb54525e9830'
-keywords: ["OnServiceEvent method Virtual Server", "OnServiceEvent method Virtual Server , IVMVirtualServerEvents interface", "IVMVirtualServerEvents interface Virtual Server , OnServiceEvent method", "OnServiceEvent method Virtual Server , VMVirtualServer interface", "VMVirtualServer interface Virtual Server , OnServiceEvent method"]
+ms.assetid: 55f4a225-9181-4c3c-badf-cb54525e9830
+keywords:
+- OnServiceEvent method Virtual Server
+- OnServiceEvent method Virtual Server , IVMVirtualServerEvents interface
+- IVMVirtualServerEvents interface Virtual Server , OnServiceEvent method
+- OnServiceEvent method Virtual Server , VMVirtualServer interface
+- VMVirtualServer interface Virtual Server , OnServiceEvent method
 topic_type:
 - apiref
 api_name:
@@ -12,6 +17,11 @@ api_location:
 - VsComInterfaces.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IVMVirtualServerEvents::OnServiceEvent method
@@ -23,7 +33,7 @@ The **OnServiceEvent** method is called when a Virtual Server service event occu
 
 ```C++
 HRESULT OnServiceEvent(
-  [in] long logMessageID
+  [in] long logMessageID
 );
 ```
 
@@ -58,8 +68,8 @@ To be notified when Virtual Server logs any event log message, use the [**OnEven
 
 |                     |                                                                                                   |
 |---------------------|---------------------------------------------------------------------------------------------------|
-| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
-| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
+| Product<br/>  | Microsoft Virtual Server 2005 onWindows Server 2003<br/>                                    |
+| Download<br/> | Microsoft Virtual Server 2005 R2 SP1 Update onWindows Server 2008orWindows Server 2003<br/> |
 | Header<br/>   | <dl> <dt>VsComInterfaces.h</dt> </dl>      |
 
 
@@ -71,9 +81,9 @@ To be notified when Virtual Server logs any event log message, use the [**OnEven
 [**IVMVirtualServerEvents**](ivmvirtualserverevents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

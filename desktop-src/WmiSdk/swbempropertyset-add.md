@@ -1,13 +1,16 @@
 ---
-Description: 'The Add method of the SWbemPropertySet object adds an SWbemProperty object to the SWbemPropertySet collection. If a property with the same name already exists in the collection, its contents are replaced with the new definition.'
+Description: The Add method of the SWbemPropertySet object adds an SWbemProperty object to the SWbemPropertySet collection. If a property with the same name already exists in the collection, its contents are replaced with the new definition.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: '52a5f964-3d53-441b-9a58-650afdc5b1b9'
-ms.prod: 'windows-server-dev'
-ms.technology: 'windows-management-instrumentation'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: 52a5f964-3d53-441b-9a58-650afdc5b1b9
+ms.prod: windows-server-dev
+ms.technology: windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'SWbemPropertySet.Add method'
+title: SWbemPropertySet.Add method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # SWbemPropertySet.Add method
@@ -17,7 +20,7 @@ The **Add** method of the [**SWbemPropertySet**](swbempropertyset.md) object add
 > [!Note]  
 > The value of the added property is **NULL** (unassigned) after this operation. To set or change the value of a WMI property, you must set the [**Value**](swbemdatetime-value.md) property of the returned [**SWbemProperty**](swbemproperty.md) object.
 
- 
+ 
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -49,7 +52,7 @@ Required. Name of the new property.
 *iCIMType* \[in\]
 </dt> <dd>
 
-Required. An integer that represents the **CIMType** qualifier of the new property. See [**WbemCimTypeEnum**](wbemcimtypeenum.md) for the list with the **CIMType** qualifiers and their values.
+Required. An integer that represents the **CIMType** qualifier of the new property. See [**WbemCimTypeEnum**](/windows/win32/Wbemdisp/ne-wbemdisp-wbemcimtypeenum?branch=master) for the list with the **CIMType** qualifiers and their values.
 
 </dd> <dt>
 
@@ -115,8 +118,8 @@ For a code example that uses this method, see the [**SWbemPropertySet**](swbempr
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Wbemdisp.h</dt> </dl>   |
 | Type library<br/>             | <dl> <dt>Wbemdisp.tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
@@ -138,9 +141,9 @@ For a code example that uses this method, see the [**SWbemPropertySet**](swbempr
 [**SWbemProperty.Value**](swbemproperty-value.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

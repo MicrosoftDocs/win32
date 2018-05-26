@@ -1,7 +1,12 @@
-﻿---
-Description: 'Specifies single sign-on (SSO) network configuration information.'
-ms.assetid: 'c0a26f15-77fd-43e9-a6af-54e9b46f03fa'
-title: 'singleSignOn (OneX) Element'
+---
+Description: Specifies single sign-on (SSO) network configuration information.
+ms.assetid: c0a26f15-77fd-43e9-a6af-54e9b46f03fa
+title: singleSignOn (OneX) Element
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # singleSignOn (OneX) Element

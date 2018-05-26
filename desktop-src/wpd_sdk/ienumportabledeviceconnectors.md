@@ -1,12 +1,17 @@
 ---
-Description: 'Supports the enumeration of IPortableDeviceConnector interfaces, representing MTP/Bluetooth devices that were paired with the PC.'
-ms.assetid: '99aa1e89-5e20-4f6e-82b5-acf63305eba0'
+Description: Supports the enumeration of IPortableDeviceConnector interfaces, representing MTP/Bluetooth devices that were paired with the PC.
+ms.assetid: 99aa1e89-5e20-4f6e-82b5-acf63305eba0
 title: IEnumPortableDeviceConnectors interface
+ms.date: 05/31/2018
+ms.topic: interface
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # IEnumPortableDeviceConnectors interface
 
-The **IEnumPortableDeviceConnectors** interface supports the enumeration of [**IPortableDeviceConnector**](iportabledeviceconnector.md) interfaces, representing MTP/Bluetooth devices that were paired with the PC. Note that this will retrieve all previously-paired devices, including devices that are paired but disconnected. To determine if a device is still connected, query the **DEVPKEY\_MTPBTH\_IsConnected** property for that device.
+The **IEnumPortableDeviceConnectors** interface supports the enumeration of [**IPortableDeviceConnector**](/windows/win32/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector?branch=master) interfaces, representing MTP/Bluetooth devices that were paired with the PC. Note that this will retrieve all previously-paired devices, including devices that are paired but disconnected. To determine if a device is still connected, query the **DEVPKEY\_MTPBTH\_IsConnected** property for that device.
 
 ## Members
 
@@ -23,13 +28,13 @@ The **IEnumPortableDeviceConnectors** interface has these methods.
 | Method                                               | Description                                                                                                                                 |
 |:-----------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Clone**](ienumportabledeviceconnectors-clone.md) | Creates a copy of the current **IEnumPortableDeviceConnectors** interface.<br/>                                                       |
-| [**Next**](ienumportabledeviceconnectors-next.md)   | Retrieves the next one or more [**IPortableDeviceConnector**](iportabledeviceconnector.md) objects in the enumeration sequence.<br/> |
+| [**Next**](ienumportabledeviceconnectors-next.md)   | Retrieves the next one or more [**IPortableDeviceConnector**](/windows/win32/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector?branch=master) objects in the enumeration sequence.<br/> |
 | [**Reset**](ienumportabledeviceconnectors-reset.md) | Resets the enumeration sequence to the beginning.<br/>                                                                                |
 | [**Skip**](ienumportabledeviceconnectors-skip.md)   | Skips the specified number of devices in the enumeration sequence.<br/>                                                               |
 
 
 
- 
+ 
 
 ## Requirements
 
@@ -37,7 +42,7 @@ The **IEnumPortableDeviceConnectors** interface has these methods.
 
 |                                     |                                                                                                                                                                        |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
+| Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                              |
 | Header<br/>                   | <dl> <dt>Devpkey.h; </dt> <dt>Portabledeviceconnectapi.h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Portabledeviceconnectapi.idl</dt> </dl>                                                                |
@@ -45,9 +50,9 @@ The **IEnumPortableDeviceConnectors** interface has these methods.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

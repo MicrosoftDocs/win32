@@ -1,7 +1,12 @@
 ---
 title: SDK User Properties
 description: Is an instance of the eaphostusercredentials native schema.
-ms.assetid: 'e8a9656d-48e7-4580-a84d-2b829e7a692f'
+ms.assetid: e8a9656d-48e7-4580-a84d-2b829e7a692f
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SDK User Properties

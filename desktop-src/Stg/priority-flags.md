@@ -1,8 +1,14 @@
 ---
 title: Priority Flags
 description: The priority flag opens a storage object in priority mode.
-ms.assetid: '85f2df6f-9219-4752-8c17-f219c37a4037'
-keywords: ["Priority Flags"]
+ms.assetid: 85f2df6f-9219-4752-8c17-f219c37a4037
+keywords:
+- Priority Flags
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Priority Flags

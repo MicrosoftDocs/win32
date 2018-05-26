@@ -1,7 +1,12 @@
-﻿---
-Description: 'This class is the event type class that marks the beginning of the disk I/O read, write, and flush events. The following syntax is simplified from MOF code.'
-ms.assetid: '96543ef9-cc2b-4d9a-86a8-f2458439e4d8'
-title: 'DiskIo\_TypeGroup2 class'
+---
+Description: This class is the event type class that marks the beginning of the disk I/O read, write, and flush events. The following syntax is simplified from MOF code.
+ms.assetid: 96543ef9-cc2b-4d9a-86a8-f2458439e4d8
+title: DiskIo\_TypeGroup2 class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # DiskIo\_TypeGroup2 class

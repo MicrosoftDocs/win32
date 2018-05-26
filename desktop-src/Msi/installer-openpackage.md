@@ -1,7 +1,12 @@
-﻿---
-Description: 'The OpenPackage method of the Installer object opens an installer package for use with functions that access the product database and install engine, returning an Session object.'
-ms.assetid: '22b03bde-29ae-4dd4-a41c-d55b3a4f424c'
-title: 'Installer.OpenPackage method'
+---
+Description: The OpenPackage method of the Installer object opens an installer package for use with functions that access the product database and install engine, returning an Session object.
+ms.assetid: 22b03bde-29ae-4dd4-a41c-d55b3a4f424c
+title: Installer.OpenPackage method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Installer.OpenPackage method
@@ -34,7 +39,7 @@ Required string containing the path name of the package.
 *options* 
 </dt> <dd>
 
-An optional integer value that specifies whether or not **OpenPackage** should ignore the current computer state when creating the Session object. No value or a value of 0 for options defaults to the original behavior. When options is 1, the **OpenPackage** Method ignores the current computer state when opening the package. A value of 1 prevents changes to the current computer state. For more information, see [**MsiOpenPackageEx**](msiopenpackageex.md).
+An optional integer value that specifies whether or not **OpenPackage** should ignore the current computer state when creating the Session object. No value or a value of 0 for options defaults to the original behavior. When options is 1, the **OpenPackage** Method ignores the current computer state when opening the package. A value of 1 prevents changes to the current computer state. For more information, see [**MsiOpenPackageEx**](/windows/win32/Msi/nf-msi-msiopenpackageexa?branch=master).
 
 </dd> </dl>
 
@@ -48,7 +53,7 @@ The **OpenPackage** method can accept the database handle directly instead of th
 
 Note that only one [**Session**](session-object.md) object can be opened by a single process. **OpenPackage** cannot be used in a custom action because the active installation is the only session allowed.
 
-A safe [**Session**](session-object.md) object ignores the current computer state when opening the package and prevents changes to the current computer state. For more information, see [**MsiOpenPackageEx**](msiopenpackageex.md).
+A safe [**Session**](session-object.md) object ignores the current computer state when opening the package and prevents changes to the current computer state. For more information, see [**MsiOpenPackageEx**](/windows/win32/Msi/nf-msi-msiopenpackageexa?branch=master).
 
 ## Requirements
 

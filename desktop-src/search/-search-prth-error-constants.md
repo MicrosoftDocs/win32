@@ -1,7 +1,12 @@
-﻿---
-Description: 'Error messages returned by protocol handlers:'
-ms.assetid: 'b5e99ad1-1698-483c-8173-796af33085c4'
+---
+Description: Error messages returned by protocol handlers
+ms.assetid: b5e99ad1-1698-483c-8173-796af33085c4
 title: Search Protocol Handler Error Messages
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Search Protocol Handler Error Messages
@@ -23,7 +28,7 @@ Error messages returned by protocol handlers:
 | <span id="PRTH_E_SERVER_ERROR"></span><span id="prth_e_server_error"></span><dl> <dt>**PRTH\_E\_SERVER\_ERROR**</dt> <dt>0x80041206L</dt> </dl>                | Communication or server error. If there are too many of these errors for a particular server, the gatherer marks the server as unavailable.<br/>                                                                                                                                                                                                                                                                                      |
 | <span id="PRTH_S_NOT_ALL_PARTS"></span><span id="prth_s_not_all_parts"></span><dl> <dt>**PRTH\_S\_NOT\_ALL\_PARTS**</dt> <dt>0x8004121BL</dt> </dl>            | Parts of an item cannot be accessed.<br/>                                                                                                                                                                                                                                                                                                                                                                                             |
 | <span id="PRTH_S_NOT_MODIFIED"></span><span id="prth_s_not_modified"></span><dl> <dt>**PRTH\_S\_NOT\_MODIFIED**</dt> <dt>0x00041203L</dt> </dl>                | Item content has not changed. If this error occurs during an incremental crawl, the gatherer skips this item because the item has not changed.<br/>                                                                                                                                                                                                                                                                                   |
-| <span id="PRTH_S_TRY_IMPERSONATING"></span><span id="prth_s_try_impersonating"></span><dl> <dt>**PRTH\_S\_TRY\_IMPERSONATING**</dt> <dt>0x00041225L</dt> </dl> | Item should be accessed while impersonating a user. The protocol handler is expected to implement [**IUrlAccessor3::GetImpersonationSidBlobs**](-search-iurlaccessor3-getimpersonationsidblobs.md) so that the search protocol host can retrieve a list of SIDs to use for impersonation and can revert to using [**IUrlAccessor2**](-search-iurlaccessor2.md), impersonating one of the allowed users when opening the item. <br/> |
+| <span id="PRTH_S_TRY_IMPERSONATING"></span><span id="prth_s_try_impersonating"></span><dl> <dt>**PRTH\_S\_TRY\_IMPERSONATING**</dt> <dt>0x00041225L</dt> </dl> | Item should be accessed while impersonating a user. The protocol handler is expected to implement [**IUrlAccessor3::GetImpersonationSidBlobs**](/windows/win32/Searchapi/nf-searchapi-iurlaccessor3-getimpersonationsidblobs?branch=master) so that the search protocol host can retrieve a list of SIDs to use for impersonation and can revert to using [**IUrlAccessor2**](/windows/win32/Searchapi/nn-searchapi-iurlaccessor2?branch=master), impersonating one of the allowed users when opening the item. <br/> |
 
 
 

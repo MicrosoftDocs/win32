@@ -1,7 +1,12 @@
 ---
-Description: 'This section describes the Windows Property System interfaces.'
-ms.assetid: 'd81fe8df-9fd6-4ace-a47f-214cbba6f30c'
+Description: This section describes the Windows Property System interfaces.
+ms.assetid: d81fe8df-9fd6-4ace-a47f-214cbba6f30c
 title: Interfaces
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Interfaces

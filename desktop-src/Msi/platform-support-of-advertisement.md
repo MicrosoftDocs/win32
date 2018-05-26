@@ -1,7 +1,12 @@
 ---
-Description: 'The Windows Installer supports advertisement of applications and features.'
-ms.assetid: '9e5158bc-4877-49d1-9bb9-4dd17abb444d'
+Description: The Windows Installer supports advertisement of applications and features.
+ms.assetid: 9e5158bc-4877-49d1-9bb9-4dd17abb444d
 title: Platform Support of Advertisement
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Platform Support of Advertisement

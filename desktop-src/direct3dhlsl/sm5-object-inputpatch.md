@@ -1,14 +1,20 @@
 ---
 title: InputPatch
 description: Represents an array of control points that are available to the hull shader as inputs.
-ms.assetid: 'a2eeb45a-85b2-4ed0-b071-fcbb8abf4f2d'
-keywords: ["InputPatch HLSL"]
+ms.assetid: a2eeb45a-85b2-4ed0-b071-fcbb8abf4f2d
+keywords:
+- InputPatch HLSL
 topic_type:
 - apiref
 api_name:
 - InputPatch
 api_type:
 - NA
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # InputPatch

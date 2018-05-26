@@ -1,15 +1,18 @@
 ---
-Description: 'The CIM\_SoftwareElementChecks association class relates a software element with condition or location information that a feature may require.'
+Description: The CIM\_SoftwareElementChecks association class relates a software element with condition or location information that a feature may require.
 audience: developer
-author: 'REDMOND\\markl'
-manager: 'REDMOND\\markl'
-ms.assetid: 'ff130fe9-ddb2-4e4f-86d3-53f1d8ed14aa'
-ms.prod: 'windows-server-dev'
+author: REDMOND\\markl
+manager: REDMOND\\markl
+ms.assetid: ff130fe9-ddb2-4e4f-86d3-53f1d8ed14aa
+ms.prod: windows-server-dev
 ms.technology:
 - cimwin32
-- 'windows-management-instrumentation'
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-title: 'CIM\_SoftwareElementChecks class'
+title: CIM\_SoftwareElementChecks class
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # CIM\_SoftwareElementChecks class
@@ -21,7 +24,7 @@ Because software elements in a ready-to-run state cannot transition into another
 > \[!Important\]  
 > The DMTF (Distributed Management Task Force) CIM (Common Information Model) classes are the parent classes upon which WMI classes are built. WMI currently supports only the [CIM 2.x version schemas](Http://Go.Microsoft.Com/FWLink/p/?LinkID=309367).
 
- 
+ 
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of its inherited properties. Properties are listed in alphabetic order, not MOF order.
 
@@ -31,9 +34,9 @@ The following syntax is simplified from Managed Object Format (MOF) code and inc
 [UUID("{24783E8A-DB31-11d2-85FC-0000F8102E5F}"), Association, Aggregation, Abstract, AMENDMENT]
 class CIM_SoftwareElementChecks
 {
-  CIM_Check           REF Check;
+  CIM_Check           REF Check;
   CIM_SoftwareElement REF Element;
-  uint16                  Phase;
+  uint16                  Phase;
 };
 ```
 
@@ -122,17 +125,17 @@ This documentation is derived from the CIM class descriptions published by the D
 
 |                                     |                                                                                         |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista<br/>                                                                |
-| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
+| Minimum supported client<br/> | Windows Vista<br/>                                                                |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                                          |
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

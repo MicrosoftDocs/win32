@@ -1,7 +1,12 @@
-﻿---
-Description: 'Number of seconds of data that the network source buffers at startup.'
-ms.assetid: '186b55fc-d1b1-4187-a748-efaee114eca9'
-title: 'MFNETSOURCE\_BUFFERINGTIME property'
+---
+Description: Number of seconds of data that the network source buffers at startup.
+ms.assetid: 186b55fc-d1b1-4187-a748-efaee114eca9
+title: MFNETSOURCE\_BUFFERINGTIME property
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # MFNETSOURCE\_BUFFERINGTIME property

@@ -1,7 +1,12 @@
-﻿---
-Description: 'The ListenToServerEvents method registers the FaxServer object to receive notifications about one or more types of server events, or to stop these notifications.'
-ms.assetid: '5d7b6c07-5009-48af-933c-1be3e2bde27e'
-title: 'FaxServer.ListenToServerEvents method'
+---
+Description: The ListenToServerEvents method registers the FaxServer object to receive notifications about one or more types of server events, or to stop these notifications.
+ms.assetid: 5d7b6c07-5009-48af-933c-1be3e2bde27e
+title: FaxServer.ListenToServerEvents method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxServer.ListenToServerEvents method
@@ -26,9 +31,9 @@ FaxServer.ListenToServerEvents( _
 *EventTypes* \[in\]
 </dt> <dd>
 
-Type: **[**FAX\_SERVER\_EVENTS\_TYPE\_ENUM**](-mfax-fax-server-events-type-enum.md)**
+Type: **[**FAX\_SERVER\_EVENTS\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master)**
 
-A value that contains a set of bit flags representing the types of events for which the [**FaxServer**](-mfax-faxserver.md) object is registering to receive notifications. For more information, see [**FAX\_SERVER\_EVENTS\_TYPE\_ENUM**](-mfax-fax-server-events-type-enum.md).
+A value that contains a set of bit flags representing the types of events for which the [**FaxServer**](-mfax-faxserver.md) object is registering to receive notifications. For more information, see [**FAX\_SERVER\_EVENTS\_TYPE\_ENUM**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master).
 
 </dd> </dl>
 
@@ -44,9 +49,9 @@ Set objFaxServer = CreateObject("FaxServer")
 
 
 
-In Microsoft Visual C++, the [**IFaxServerNotify**](-mfax-ifaxservernotify.md) interface on the **FaxServer** object receives notifications of the events.
+In Microsoft Visual C++, the [**IFaxServerNotify**](/windows/previous-versions/FaxComex/?branch=master) interface on the **FaxServer** object receives notifications of the events.
 
-By default, the [**FaxServer**](-mfax-faxserver.md) object does not receive notifications for any server events. If you want the **FaxServer** object to receive notifications, you must call **ListenToServerEvents** and pass to it the event types for which you want to receive notifications. To stop receiving the notification, call this method with *EventTypes* equal to [**fsetNONE**](-mfax-fax-server-events-type-enum.md).
+By default, the [**FaxServer**](-mfax-faxserver.md) object does not receive notifications for any server events. If you want the **FaxServer** object to receive notifications, you must call **ListenToServerEvents** and pass to it the event types for which you want to receive notifications. To stop receiving the notification, call this method with *EventTypes* equal to [**fsetNONE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master).
 
 Access rights for this method depend on which events are requested, as shown in the following table.
 
@@ -55,18 +60,18 @@ Access rights for this method depend on which events are requested, as shown in 
 |                                                                 |                                                                |
 |-----------------------------------------------------------------|----------------------------------------------------------------|
 | Event                                                           | Required access rights                                         |
-| [**fsetINCOMING\_CALL**](-mfax-fax-server-events-type-enum.md) | [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md)  |
-| [**fsetIN\_QUEUE**](-mfax-fax-server-events-type-enum.md)      | [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md)         |
-|                                                                 | [**farQUERY\_JOBS**](-mfax-fax-access-rights-enum.md)         |
-| [**fsetOUT\_QUEUE**](-mfax-fax-server-events-type-enum.md)     | [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md)         |
-|                                                                 | [**farQUERY\_JOBS**](-mfax-fax-access-rights-enum.md)         |
-| [**fsetCONFIG**](-mfax-fax-server-events-type-enum.md)         | [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md)       |
-| [**fsetDEVICE\_STATUS**](-mfax-fax-server-events-type-enum.md) | [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md)       |
-| [**fsetACTIVITY**](-mfax-fax-server-events-type-enum.md)       | [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md)       |
-| [**fsetIN\_ARCHIVE**](-mfax-fax-server-events-type-enum.md)    | [**farSUBMIT**](-mfax-fax-access-rights-enum.md)              |
-|                                                                 | [**farQUERY\_IN\_ARCHIVE**](-mfax-fax-access-rights-enum.md)  |
-| [**fsetOUT\_ARCHIVE**](-mfax-fax-server-events-type-enum.md)   | [**farSUBMIT\_LOW**](-mfax-fax-access-rights-enum.md)         |
-|                                                                 | [**farQUERY\_OUT\_ARCHIVE**](-mfax-fax-access-rights-enum.md) |
+| [**fsetINCOMING\_CALL**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master) | [**farQUERY\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)  |
+| [**fsetIN\_QUEUE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master)      | [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)         |
+|                                                                 | [**farQUERY\_JOBS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)         |
+| [**fsetOUT\_QUEUE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master)     | [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)         |
+|                                                                 | [**farQUERY\_JOBS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)         |
+| [**fsetCONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master)         | [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)       |
+| [**fsetDEVICE\_STATUS**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master) | [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)       |
+| [**fsetACTIVITY**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master)       | [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)       |
+| [**fsetIN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master)    | [**farSUBMIT**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)              |
+|                                                                 | [**farQUERY\_IN\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)  |
+| [**fsetOUT\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_server_events_type_enum?branch=master)   | [**farSUBMIT\_LOW**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master)         |
+|                                                                 | [**farQUERY\_OUT\_ARCHIVE**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) |
 
 
 
@@ -98,7 +103,7 @@ Access rights for this method depend on which events are requested, as shown in 
 [**FaxServer**](-mfax-faxserver.md)
 </dt> <dt>
 
-[**IFaxServer**](-mfax-faxserver-cpp.md)
+[**IFaxServer**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxserver?branch=master)
 </dt> </dl>
 
  

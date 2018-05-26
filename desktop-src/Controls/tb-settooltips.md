@@ -1,8 +1,9 @@
 ---
 title: TB\_SETTOOLTIPS message
 description: Associates a tooltip control with a toolbar.
-ms.assetid: 'a645f1f2-9333-4e25-985a-107cffb9b97f'
-keywords: ["TB_SETTOOLTIPS message Windows Controls"]
+ms.assetid: a645f1f2-9333-4e25-985a-107cffb9b97f
+keywords:
+- TB_SETTOOLTIPS message Windows Controls
 topic_type:
 - apiref
 api_name:
@@ -11,6 +12,11 @@ api_location:
 - Commctrl.h
 api_type:
 - HeaderDef
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # TB\_SETTOOLTIPS message
@@ -45,15 +51,15 @@ Any buttons added to a toolbar before sending the **TB\_SETTOOLTIPS** message wi
 
 |                                     |                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
+| Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Commctrl.h</dt> </dl> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

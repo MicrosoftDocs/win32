@@ -1,7 +1,12 @@
 ---
-Description: 'Defines an unsigned integer type.'
-ms.assetid: '48df484d-d663-42fa-aaec-51c463bb5350'
+Description: Defines an unsigned integer type.
+ms.assetid: 48df484d-d663-42fa-aaec-51c463bb5350
 title: UInt32Type Simple Type
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # UInt32Type Simple Type
@@ -26,14 +31,14 @@ You can specify the value as a 4-byte integer or hexadecimal value in the range 
 
 |                                     |                                                      |
 |-------------------------------------|------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
 
 
 
- 
+ 
 
- 
+ 
 
 
 

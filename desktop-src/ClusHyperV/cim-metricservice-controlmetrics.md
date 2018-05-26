@@ -4,13 +4,16 @@ description: Enables and disables the collection of metrics.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '9943f8b1-ccd4-4a59-9099-2abef85bb9a5'
-ms.prod: 'windows-server-dev'
+ms.assetid: 9943f8b1-ccd4-4a59-9099-2abef85bb9a5
+ms.prod: windows-server-dev
 ms.technology:
-- 'failover-cluster-hyperv'
-- 'windows-management-instrumentation'
+- failover-cluster-hyperv
+- windows-management-instrumentation
 ms.tgt_platform: multiple
-keywords: ["ControlMetrics method", "ControlMetrics method, CIM_MetricService class", "CIM_MetricService class, ControlMetrics method"]
+keywords:
+- ControlMetrics method
+- ControlMetrics method, CIM_MetricService class
+- CIM_MetricService class, ControlMetrics method
 topic_type:
 - apiref
 api_name:
@@ -19,6 +22,9 @@ api_location:
 - VMMS.exe
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # ControlMetrics method of the CIM\_MetricService class
@@ -30,9 +36,9 @@ Enables and disables the collection of metrics. This method controls the collect
 
 ```mof
 uint32 ControlMetrics(
-  [in] CIM_ManagedElement       REF Subject,
-  [in] CIM_BaseMetricDefinition REF Definition,
-  [in] uint16                       MetricCollectionEnabled
+  [in] CIM_ManagedElement       REF Subject,
+  [in] CIM_BaseMetricDefinition REF Definition,
+  [in] uint16                       MetricCollectionEnabled
 );
 ```
 
@@ -91,14 +97,14 @@ The possible values are:
 **DMTF Reserved**
 
 
-</dt> <dd>5–32767</dd> <dt>
+</dt> <dd>5 32767</dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
 **Vendor Reserved**
 
 
-</dt> <dd>32768–65535</dd> </dl> </dd> </dl>
+</dt> <dd>32768 65535</dd> </dl> </dd> </dl>
 
 ## Return value
 
@@ -115,10 +121,10 @@ The possible return values are:
 **Failed** (2)
 </dt> <dt>
 
-**Method Reserved** (3–32767)
+**Method Reserved** (3 32767)
 </dt> <dt>
 
-**Vendor Specific** (32768–65535)
+**Vendor Specific** (32768 65535)
 </dt> </dl>
 
 ## Requirements
@@ -128,7 +134,7 @@ The possible return values are:
 |                                     |                                                                                                        |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                              |
-| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
+| Minimum supported server<br/> | Windows Server 2016<br/>                                                                         |
 | Namespace<br/>                | Root\\HyperVCluster\\v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsHyperVCluster.V2.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>VMMS.exe</dt> </dl>                    |
@@ -142,9 +148,9 @@ The possible return values are:
 [**CIM\_MetricService**](cim-metricservice.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

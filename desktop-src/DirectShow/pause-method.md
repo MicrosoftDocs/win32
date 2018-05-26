@@ -1,7 +1,12 @@
 ---
-Description: 'The Pause method pauses playback at the current location.'
-ms.assetid: '0938c5ed-9046-4f1a-877a-c99235fbfb36'
+Description: The Pause method pauses playback at the current location.
+ms.assetid: 0938c5ed-9046-4f1a-877a-c99235fbfb36
 title: Pause Method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Pause Method

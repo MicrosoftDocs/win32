@@ -4,17 +4,23 @@ description: Adds a new private property to the resource instance.
 audience: developer
 author: REDMOND\\markl
 manager: REDMOND\\markl
-ms.assetid: '21767030-0102-491a-87dc-0675dac02bfc'
-ms.prod: 'windows-server-dev'
-ms.technology: 'failover-clustering'
+ms.assetid: 21767030-0102-491a-87dc-0675dac02bfc
+ms.prod: windows-server-dev
+ms.technology: failover-clustering
 ms.tgt_platform: multiple
-keywords: ["AddProperty method Failover Cluster", "AddProperty method Failover Cluster , Resource class", "Resource class Failover Cluster , AddProperty method"]
+keywords:
+- AddProperty method Failover Cluster
+- AddProperty method Failover Cluster , Resource class
+- Resource class Failover Cluster , AddProperty method
 topic_type:
 - apiref
 api_name:
 - Resource.AddProperty
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
 ---
 
 # Resource.AddProperty method
@@ -62,7 +68,7 @@ See the [Scripted Resource Example](scripted-resource-example.md).
 |                                     |                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                 |
-| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
+| Minimum supported server<br/> | Windows Server 2008 Datacenter, Windows Server 2008 Enterprise<br/> |
 
 
 
@@ -73,9 +79,9 @@ See the [Scripted Resource Example](scripted-resource-example.md).
 [**Resource**](resource-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

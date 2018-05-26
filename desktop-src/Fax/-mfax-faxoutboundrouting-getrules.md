@@ -1,7 +1,12 @@
-﻿---
-Description: 'The GetRules method retrieves the collection of outbound routing groups.'
-ms.assetid: 'a75724ca-76e4-47a4-93ef-523708127155'
-title: 'FaxOutboundRouting.GetRules method'
+---
+Description: The GetRules method retrieves the collection of outbound routing groups.
+ms.assetid: a75724ca-76e4-47a4-93ef-523708127155
+title: FaxOutboundRouting.GetRules method
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # FaxOutboundRouting.GetRules method
@@ -29,7 +34,7 @@ A [**FaxOutboundRoutingRules**](-mfax-faxoutboundroutingrules.md) object.
 
 ## Remarks
 
-To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access-rights-enum.md) access right.
+To use this method, a user must have the [**farQUERY\_CONFIG**](/windows/previous-versions/FaxComex/ne-faxcomex-fax_access_rights_enum?branch=master) access right.
 
 ## Requirements
 
@@ -54,7 +59,7 @@ To use this method, a user must have the [**farQUERY\_CONFIG**](-mfax-fax-access
 [**FaxOutboundRouting**](-mfax-faxoutboundrouting.md)
 </dt> <dt>
 
-[**IFaxOutboundRouting**](-mfax-faxoutboundrouting-cpp.md)
+[**IFaxOutboundRouting**](/windows/previous-versions/FaxComex/nn-faxcomex-ifaxoutboundrouting?branch=master)
 </dt> </dl>
 
  

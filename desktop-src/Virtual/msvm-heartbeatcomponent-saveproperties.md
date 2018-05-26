@@ -1,8 +1,11 @@
 ---
 title: SaveProperties method of the Msvm\_HeartbeatComponent class
 description: Saves the configuration and state of the logical device.
-ms.assetid: 'ec251ee6-cc25-4688-9793-8463d0d8a50a'
-keywords: ["SaveProperties method Hyper-V", "SaveProperties method Hyper-V , Msvm_HeartbeatComponent class", "Msvm_HeartbeatComponent class Hyper-V , SaveProperties method"]
+ms.assetid: ec251ee6-cc25-4688-9793-8463d0d8a50a
+keywords:
+- SaveProperties method Hyper-V
+- SaveProperties method Hyper-V , Msvm_HeartbeatComponent class
+- Msvm_HeartbeatComponent class Hyper-V , SaveProperties method
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - Root\virtualization
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # SaveProperties method of the Msvm\_HeartbeatComponent class
@@ -82,9 +90,9 @@ The operation was not completed because an error occurred.
 [**Msvm\_HeartbeatComponent**](msvm-heartbeatcomponent.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

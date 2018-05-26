@@ -1,14 +1,20 @@
 ---
 title: Submenu2Button element
 description: Specifies the location and size of the \ 0034;Submenu2 \ 0034; button. This is usually the \ 0034;Notes \ 0034; button.
-ms.assetid: '3ed8adc7-a1ff-409e-854d-eb0e1a72b021'
-keywords: ["Submenu2Button element Windows Movie Maker and DVD Maker"]
+ms.assetid: 3ed8adc7-a1ff-409e-854d-eb0e1a72b021
+keywords:
+- Submenu2Button element Windows Movie Maker and DVD Maker
 topic_type:
 - apiref
 api_name:
 - Submenu2Button
 api_type:
 - Schema
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Submenu2Button element
@@ -49,7 +55,7 @@ This button can be used only on the main menu, but is optional and will appear o
 
 |                                     |               |
 |-------------------------------------|---------------|
-| Minimum supported system<br/> | Windows Vista |
+| Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |
 
 
@@ -67,9 +73,9 @@ This button can be used only on the main menu, but is optional and will appear o
 [**Submenu1Button Element**](submenu1button.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

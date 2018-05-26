@@ -1,7 +1,12 @@
 ---
-Description: 'HID device Vendor Id.'
-ms.assetid: 'd9aaf5ea-4c74-45af-84a5-7fbf542cae1d'
-title: 'System.DeviceInterface.Hid.VendorId'
+Description: HID device Vendor Id.
+ms.assetid: d9aaf5ea-4c74-45af-84a5-7fbf542cae1d
+title: System.DeviceInterface.Hid.VendorId
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # System.DeviceInterface.Hid.VendorId

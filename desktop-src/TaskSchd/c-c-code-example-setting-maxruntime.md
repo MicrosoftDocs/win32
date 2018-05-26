@@ -1,8 +1,14 @@
 ---
 title: C/C++ Code Example Setting MaxRunTime
 description: This example sets the maximum run time (set in milliseconds) of a known task. This example assumes that the task and the test task already exist on the local computer.
-ms.assetid: 'ccfa3c01-870b-4b44-a493-9934ca1e51e4'
-keywords: ["setting task properties Task Scheduler , maximum run time"]
+ms.assetid: ccfa3c01-870b-4b44-a493-9934ca1e51e4
+keywords:
+- setting task properties Task Scheduler , maximum run time
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # C/C++ Code Example: Setting MaxRunTime

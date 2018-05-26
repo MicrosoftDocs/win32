@@ -1,8 +1,11 @@
 ---
 title: Player.ScriptCommand event
 description: The ScriptCommand event occurs when a synchronized command or URL is received.
-ms.assetid: 'd3aec4e2-1b0e-414e-8113-0af4fcd37e3b'
-keywords: ["ScriptCommand event Windows Media Player", "ScriptCommand event Windows Media Player , Player class", "Player class Windows Media Player , ScriptCommand event"]
+ms.assetid: d3aec4e2-1b0e-414e-8113-0af4fcd37e3b
+keywords:
+- ScriptCommand event Windows Media Player
+- ScriptCommand event Windows Media Player , Player class
+- Player class Windows Media Player , ScriptCommand event
 topic_type:
 - apiref
 api_name:
@@ -11,6 +14,11 @@ api_location:
 - wmp.dll
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Player.ScriptCommand event
@@ -71,7 +79,7 @@ The following table lists script command types that are automatically processed 
 
 
 
- 
+ 
 
 You can embed any other type of command as long as you provide reciprocal code to handle the command. Though unknown commands are ignored by the Windows Media Player control, they are still handed off to the **ScriptCommand** event.
 
@@ -132,9 +140,9 @@ The value of event parameters is specified by Windows Media Player, and can be a
 [**Settings.invokeURLs**](settings-invokeurls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

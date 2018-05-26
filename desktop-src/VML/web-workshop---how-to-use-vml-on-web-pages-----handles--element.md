@@ -1,8 +1,26 @@
 ---
 title: Using the Handles Element
 description: Using the Handles Element
-ms.assetid: 'd748f74c-40e5-499a-bb61-94862eb3811c'
-keywords: ["Web workshop,handles element", "designing Web pages,handles element", "Vector Markup Language (VML),handles element", "VML (Vector Markup Language),handles element", "vector graphics,handles element", "handles element", "VML elements,handles", "VML shapes,handles element", "Vector Markup Language (VML),attaching text to shapes", "VML (Vector Markup Language),attaching text to shapes", "vector graphics,attaching text to shapes", "VML shapes,attaching text", "attaching text to shapes"]
+ms.assetid: d748f74c-40e5-499a-bb61-94862eb3811c
+keywords:
+- Web workshop,handles element
+- designing Web pages,handles element
+- Vector Markup Language (VML),handles element
+- VML (Vector Markup Language),handles element
+- vector graphics,handles element
+- handles element
+- VML elements,handles
+- VML shapes,handles element
+- Vector Markup Language (VML),attaching text to shapes
+- VML (Vector Markup Language),attaching text to shapes
+- vector graphics,attaching text to shapes
+- VML shapes,attaching text
+- attaching text to shapes
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # Using the Handles Element

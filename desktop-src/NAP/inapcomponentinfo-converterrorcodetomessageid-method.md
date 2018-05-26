@@ -1,8 +1,11 @@
 ---
 title: INapComponentInfo ConvertErrorCodeToMessageId method
 description: Is used by the NAP System to request the health client convert an HRESULT error code into a message ID.
-ms.assetid: '760dd039-5b9c-4227-9939-ad6ea23f5b81'
-keywords: ["ConvertErrorCodeToMessageId method NAP", "ConvertErrorCodeToMessageId method NAP , INapComponentInfo interface", "INapComponentInfo interface NAP , ConvertErrorCodeToMessageId method"]
+ms.assetid: 760dd039-5b9c-4227-9939-ad6ea23f5b81
+keywords:
+- ConvertErrorCodeToMessageId method NAP
+- ConvertErrorCodeToMessageId method NAP , INapComponentInfo interface
+- INapComponentInfo interface NAP , ConvertErrorCodeToMessageId method
 topic_type:
 - apiref
 api_name:
@@ -11,14 +14,19 @@ api_location:
 - NapCommon.h
 api_type:
 - COM
+ms.date: 05/31/2018
+ms.topic: article
+ms.author: windowssdkdev
+ms.prod: windows
+ms.technology: desktop
 ---
 
 # INapComponentInfo::ConvertErrorCodeToMessageId method
 
 > [!Note]  
-> The Network Access Protection platform is not available starting with Windows 10
+> The Network Access Protection platform is not available starting with Windows 10
 
- 
+ 
 
 The **INapComponentInfo::ConvertErrorCodeToMessageId** callback method is used by the NAP System to request the health client convert an HRESULT error code into a message ID.
 
@@ -27,8 +35,8 @@ The **INapComponentInfo::ConvertErrorCodeToMessageId** callback method is used b
 
 ```C++
 HRESULT ConvertErrorCodeToMessageId(
-  [in]  HRESULT   errorCode,
-  [out] MessageId *msgId
+  [in]  HRESULT   errorCode,
+  [out] MessageId *msgId
 );
 ```
 
@@ -66,7 +74,7 @@ Return one of these error codes based on the result of this operation.
 
 
 
- 
+ 
 
 ## Remarks
 
@@ -78,8 +86,8 @@ The returned **MessageId** is used by the NAP System to retrieve a localized str
 
 |                                     |                                                                                          |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>NapCommon.h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>NapCommon.idl</dt> </dl> |
 
@@ -95,9 +103,9 @@ The returned **MessageId** is used by the NAP System to retrieve a localized str
 [**INapComponentInfo**](inapcomponentinfo.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
